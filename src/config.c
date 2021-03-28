@@ -261,16 +261,14 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"\r\n"
-"Welcome to tbaMUD!\r\n"
-"\t(0\t)) Exit from tbaMUD.\r\n"
-"\t(1\t)) Enter the game.\r\n"
-"\t(2\t)) Enter description.\r\n"
-"\t(3\t)) Read the background story.\r\n"
-"\t(4\t)) Change password.\r\n"
-"\t(5\t)) Delete this character.\r\n"
-"\r\n"
-"   Make your choice: ";
+"# The Game93 \n\r"
+"=\n\r"
+"menu[Enter The Adventure]:1 \n\r"
+"menu[Exit The Adventure]:0\n\r"
+"menu[Read The Story]:3 \n\r"
+"menu[Change Your Description]:2 \n\r"
+"menu[Change Your Password]:4 \n\r"
+"menu[Delete Your Character]:5 \n\r";
 
 const char *WELC_MESSG =
 "\r\n"
