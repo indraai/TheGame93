@@ -380,7 +380,7 @@ int main(int argc, char **argv)
 
   /* probably should free the entire config here.. */
   free(CONFIG_CONFFILE);
-  
+
   log("Done.");
 
 #ifdef MEMORY_DEBUG
@@ -416,8 +416,8 @@ void copyover_recover()
 
   /* read boot_time - first line in file */
   i = fscanf(fp, "%ld\n", (long *)&boot_time);
-  
-  if (i != 1) 
+
+  if (i != 1)
     log("SYSERR: Error reading boot time.");
 
   for (;;) {
@@ -458,9 +458,9 @@ void copyover_recover()
     CREATE(d->character, struct char_data, 1);
     clear_char(d->character);
     CREATE(d->character->player_specials, struct player_special_data, 1);
-    
+
     new_mobile_data(d->character);
-    
+
     d->character->desc = d;
 
     if ((player_i = load_char(name, d->character)) >= 0) {
@@ -481,7 +481,7 @@ void copyover_recover()
     } else {
       write_to_descriptor (desc, "\n\rCopyover recovery complete.\n\r");
       GET_PREF(d->character) = pref;
-    
+
       enter_player_game(d);
 
       /* Clear their load room if it's not persistant. */
@@ -1150,17 +1150,17 @@ static char *make_prompt(struct descriptor_data *d)
     if (PRF_FLAGGED(d->character, PRF_DISPAUTO) && len < sizeof(prompt)) {
       struct char_data *ch = d->character;
       if (GET_HIT(ch) << 2 < GET_MAX_HIT(ch) ) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "%dH ", GET_HIT(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d ", GET_HIT(ch), GET_MAX_HIT(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MANA(ch) << 2 < GET_MAX_MANA(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "%dM ", GET_MANA(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d ", GET_MANA(ch), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MOVE(ch) << 2 < GET_MAX_MOVE(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "%dV ", GET_MOVE(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d ", GET_MOVE(ch), GET_MAX_MOVE(ch));
         if (count >= 0)
           len += count;
       }
@@ -1471,7 +1471,7 @@ static void init_descriptor (struct descriptor_data *newd, int desc)
   newd->desc_num = last_desc;
   newd->pProtocol = ProtocolCreate(); /* KaVir's plugin*/
   newd->events = create_list();
-  
+
 }
 
 static int new_descriptor(socket_t s)
@@ -1483,7 +1483,7 @@ static int new_descriptor(socket_t s)
   struct descriptor_data *newd;
   struct sockaddr_in peer;
   struct hostent *from;
-  
+
   /* accept the new connection */
   i = sizeof(peer);
   if ((desc = accept(s, (struct sockaddr *) &peer, &i)) == INVALID_SOCKET) {
@@ -1544,7 +1544,7 @@ static int new_descriptor(socket_t s)
   descriptor_list = newd;
 
   if (CONFIG_PROTOCOL_NEGOTIATION) {
-    /* Attach Event */ 
+    /* Attach Event */
     NEW_EVENT(ePROTOCOLS, newd, NULL, 1.5 * PASSES_PER_SEC);
     /* KaVir's plugin*/
     write_to_output(newd, "Attempting to Detect Client, Please Wait...\r\n");
@@ -1579,7 +1579,7 @@ static int process_output(struct descriptor_data *t)
 
   /* add the extra CRLF if the person isn't in compact mode */
   if (STATE(t) == CON_PLAYING && t->character && !IS_NPC(t->character) && !PRF_FLAGGED(t->character, PRF_COMPACT))
-    if ( !t->pProtocol->WriteOOB ) 
+    if ( !t->pProtocol->WriteOOB )
       strcat(osb, "\r\n");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
 
   if (!t->pProtocol->WriteOOB) /* add a prompt */
@@ -1838,7 +1838,7 @@ static int process_input(struct descriptor_data *t)
   char *ptr, *read_point, *write_point, *nl_pos = NULL;
   char tmp[MAX_INPUT_LENGTH];
   static char read_buf[MAX_PROTOCOL_BUFFER] = { '\0' }; /* KaVir's plugin */
-  
+
   /* first, find the point where we left off reading data */
   buf_length = strlen(t->inbuf);
   read_point = t->inbuf + buf_length;
@@ -1856,7 +1856,7 @@ static int process_input(struct descriptor_data *t)
       read_buf[bytes_read] = '\0';
 
     /* Since we have recieved atleast 1 byte of data from the socket, lets run it through
-     * ProtocolInput() and rip out anything that is Out Of Band */ 
+     * ProtocolInput() and rip out anything that is Out Of Band */
     if ( bytes_read > 0 )
       bytes_read = ProtocolInput( t, read_buf, bytes_read, t->inbuf );
 
@@ -2108,10 +2108,10 @@ void close_socket(struct descriptor_data *d)
     free(d->showstr_head);
   if (d->showstr_count)
     free(d->showstr_vector);
-  
+
   /* KaVir's plugin*/
   ProtocolDestroy( d->pProtocol );
- 
+
   /* Mud Events */
   if (d->events->iSize > 0) {
     struct event * pEvent;
@@ -2444,10 +2444,10 @@ void send_to_group(struct char_data *ch, struct group_data *group, const char * 
 
   if (msg == NULL)
     return;
-    	
+
   while ((tch = simple_list(group->members)) != NULL) {
     if (tch != ch && !IS_NPC(tch) && tch->desc && STATE(tch->desc) == CON_PLAYING) {
-      write_to_output(tch->desc, "%s[%sGroup%s]%s ", 
+      write_to_output(tch->desc, "%s[%sGroup%s]%s ",
       CCGRN(tch, C_NRM), CBGRN(tch, C_NRM), CCGRN(tch, C_NRM), CCNRM(tch, C_NRM));
       va_start(args, msg);
       vwrite_to_output(tch->desc, msg, args);
@@ -2866,8 +2866,8 @@ static void msdp_update( void )
       else /* Clear the values */
       {
           MSDPSetNumber( d, eMSDP_OPPONENT_HEALTH, 0 );
-          MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, 0 ); 
-          MSDPSetString( d, eMSDP_OPPONENT_NAME, "" ); 
+          MSDPSetNumber( d, eMSDP_OPPONENT_LEVEL, 0 );
+          MSDPSetString( d, eMSDP_OPPONENT_NAME, "" );
       }
 
       MSDPUpdate( d );
