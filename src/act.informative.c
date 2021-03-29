@@ -448,7 +448,7 @@ ACMD(do_exits)
     return;
   }
 
-  send_to_char(ch, "Obvious exits:\r\n");
+  // send_to_char(ch, "Obvious exits:\r\n");
 
   for (door = 0; door < DIR_COUNT; door++) {
     if (!EXIT(ch, door) || EXIT(ch, door)->to_room == NOWHERE)
@@ -512,7 +512,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     }
   }
   else
-    send_to_char(ch, "%s", world[IN_ROOM(ch)].name);
+    send_to_char(ch, "sending room name - \n\r\n\r\n\r%s", world[IN_ROOM(ch)].name);
   send_to_char(ch, "%s\r\n", CCNRM(ch, C_NRM));
 
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
@@ -520,7 +520,8 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     if(!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOMAP) && can_see_map(ch))
         str_and_map(world[target_room].description, ch, target_room);
     else
-      send_to_char(ch, "%s", world[IN_ROOM(ch)].description);
+      /* send the room description */
+      send_to_char(ch, "sending room description \n\r\n\r\n\r%s", world[IN_ROOM(ch)].description);
   }
 
   /* autoexits */
@@ -1051,7 +1052,7 @@ int search_help(const char *argument, int level)
         mid++;
       if (strn_cmp(argument, help_table[mid].keywords, minlen) || level < help_table[mid].min_level)
         break;
-        
+
       return (mid);
     }
     else if (chk > 0)
@@ -1278,7 +1279,7 @@ ACMD(do_who)
             GET_LEVEL(tch), CLASS_ABBR(tch),
             GET_NAME(tch), (*GET_TITLE(tch) ? " " : ""), GET_TITLE(tch),
             CCNRM(ch, C_SPR));
-        
+
         if (GET_INVIS_LEV(tch))
           send_to_char(ch, " (i%d)", GET_INVIS_LEV(tch));
         else if (AFF_FLAGGED(tch, AFF_INVISIBLE))
@@ -2112,7 +2113,7 @@ ACMD(do_toggle)
       for (i=0; *arg2 && *(sector_types[i]) != '\n'; i++)
         if (is_abbrev(arg2, sector_types[i]))
           break;
-      if (*(sector_types[i]) == '\n') 
+      if (*(sector_types[i]) == '\n')
         i=0;
       GET_BUILDWALK_SECTOR(ch) = i;
       send_to_char(ch, "Default sector type is %s\r\n", sector_types[i]);
@@ -2365,9 +2366,9 @@ ACMD(do_whois)
   {
      CREATE(victim, struct char_data, 1);
      clear_char(victim);
-     
+
      new_mobile_data(victim);
-     
+
      CREATE(victim->player_specials, struct player_special_data, 1);
 
      if (load_char(buf, victim) > -1)
