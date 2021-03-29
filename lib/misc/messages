@@ -2,9 +2,9 @@
 * burning hands 5
 M
 5
-You have burned $N to death!
-You have been burned to death by $n!
-$n has burned $N to death!
+You have burned $N!
+You have been burned by $n!
+$n has burned $N!
 You miss $N with your burning hands.
 $n reaches for you with burning hands, but misses!
 $n tries to burn $N, but $E escapes!
@@ -19,7 +19,7 @@ Unaware of the risks, $n tries to burn $N.
 M
 6
 Your lightning bolt kills $N!
-You are electrocuted to death by a lightning bolt sent by $n!
+You are electrocuted by a lightning bolt sent by $n!
 The dead body of $N sizzles in the heat from a lightning bolt sent by $n!
 Your lightning bolt scores the ground in front of $N, a misser!
 The ground before you is scored as $n misses you with lightning!
@@ -35,7 +35,7 @@ $n's lightning disappears as $N makes a simple gesture.
 M
 8
 You chill $N, remember to put flowers on $S grave...
-You feel chilled by $n and then you feel no more -- R.I.P.
+You feel chilled by $n and then you feel no more.
 $n touches $N who slumps to the ground as a dead lump, rather chilly isn't it?
 The atmosphere turns chilly as you miss $N!
 You dodge $n and $s chill touch!
@@ -67,7 +67,7 @@ The air is filled with butterflies as $N frowns at $n's color spray.
 M
 22
 $N is dissolved by your goodness.
-$n dissolves you, you regret having been so evil, and die...
+$n dissolves you, you regret having been so evil, and ...
 $n completely dissolves $N!
 $N is unaffected by your goodness!
 $n thinks that $e is really good, and tries to dispel you.
@@ -114,8 +114,8 @@ $N's eyes twinkle with laughter as $n tries to drain $M.
 * fireball 26
 M
 26
-Your fireball hits $N with full force, causing an immediate death!
-As you burst into flames of death $n grins evilly...
+Your fireball hits $N with full force!
+As you burst into flames $n opens a bag of marshmallows...
 The heat from a fireball from $n turns $N into a charred corpse!
 Your fireball blooms few feet before $N who claps $S hands in wonder.
 $n aims a fireball at you but it blooms few feet before you; you clap your hands at the show.
@@ -147,7 +147,7 @@ What a buffoon!  $n looks somewhat perturbed as $N ignores the recently cast har
 M
 30
 Your lightning bolt shatters $N to pieces!
-You feel enlightened by the lightning bolt $n sends, and then all is darkness -- R.I.P.!
+You feel enlightened by the lightning bolt $n sends, and then all is darkness!
 $N receives the full blast of a lightning bolt from $n... and is no more.
 Your aim goes from bad to worse, and your lightning bolt misses $N!
 $n has bad aim and $s lightning bolt misses you!
@@ -178,7 +178,7 @@ $N starts to roar with laughter as $n sends a magic missile at $M.
 * shocking grasp 37
 M
 37
-$N dies while looking rather shocked!
+$N re-spawns while looking rather shocked!
 $n shocks you.  Unfortunately your heart can't stand it...
 $n reveals with a shock that $N has left $S body!
 $N rather shockingly evades your grasp!
@@ -195,7 +195,7 @@ The atmosphere gets loaded as $n tries to shock $N!
 M
 46
 $N is dissolved by your evil.
-$n dissolves you -- the price paid for leading a good life -- you die...
+$n dissolves you -- the price paid for leading a good life -- you ...
 $n completely dissolves $N!
 $N is unaffected by your evil!
 $n thinks that $e is really evil, and tries to dispel you.
@@ -211,7 +211,7 @@ $n is stupid...
 M
 131
 $N makes a strange sound but is suddenly very silent as you place $p in $S back.
-Suddenly $n stabs you in the back, R.I.P....
+Suddenly $n stabs you in the back.
 $n places $p in the back of $N, resulting in some strange noises, a lot of blood, and a corpse.
 $N quickly avoids your backstab and you nearly cut your own finger!
 $n tries to backstab you, but you avoid $m!
@@ -227,8 +227,8 @@ $n tries to backstab $N, but changes $s mind.
 M
 132
 $N doesn't recover from your bash! -- $E is dead.
-As $n bashes at you, you give up living and die...
-$N dies after $n has bashed $M!
+As $n bashes at you, you give up living and ...
+$N re-spawns after $n has bashed $M!
 As $N avoids your bash, you topple over and fall to the ground!
 You dodge a bash from $n who loses $s balance and falls!
 $N avoids being bashed by $n who loses $s balance and falls!
@@ -257,9 +257,9 @@ $n falls face down in some mud created by $N.
 
 M
 134
-Your kick at $N's kidneys made $M die.
-$n kills you by kicking your kidneys in!
-$N dies from $n's last kick in $S kidneys!
+Your kick at $N's kidneys made $M stupid.
+$n tackles you by kicking your kidneys in!
+$N re-spawns from $n's last kick in $S kidneys!
 Your beautiful full-circle kick misses $N by a mile.
 $n makes a nice balletstep which plants $s foot a mile above your head.
 $n makes a nice balletstep which plants $s foot a mile above $N's head.
@@ -303,9 +303,9 @@ $n tries to hit $N but hits $mself instead!
 
 M
 300
-You punch $N in $S kidneys resulting in $S immediate death!
-You receive a punch in your kidneys which ends your worldly misery -- R.I.P.!
-$n punches $N in the kidneys causing immediate death!
+You punch $N in $S kidneys resulting in $S immediate collapse!
+You receive a punch in your kidneys which ends your misery!
+$n punches $N in the kidneys causing immediate collapse!
 You wildly punch at the air, missing $N.
 $n misses a wild punch at you.
 $n practices shadow-boxing while $N takes a break.
@@ -334,9 +334,9 @@ $n's body rebels against $m when $e tries to punch $N.
 * 301
 M
 301
-You violently sting $N repeatedly, causing $S death!
-You die a horrid death as $n stings you repeatedly all over your body!
-As $n stings $N all over the place, $N falls lifeless to the ground.
+You violently sting $N repeatedly, causing $S collapse!
+You crumble as $n stings you repeatedly all over your body!
+As $n stings $N all over the place, $N falls to the ground.
 You sting towards $N, but miss $M!
 $n misses you with $s sting!
 You watch on as $n stings at $N, but misses!
@@ -349,9 +349,9 @@ $N begins to slap at $Mself as $n tries to sting $M.
 
 M
 301
-You drive a sting directly into the heart of $N, killing $M!
-With a powerful driving force, $n's sting tears right through your chest causing instant death!
-$n drives $s sting through $N's chest, killing $M!
+You drive a sting directly into the heart of $N, tackling $M!
+With a powerful driving force, $n's sting hits you in the chest.
+$n drives $s sting into $N's chest!
 You miss $N with your stinging blow!
 $n drives $s stinging blow at you, barely missing!
 You watch in fright as $n stings at $N, missing by mere inches!
@@ -412,7 +412,7 @@ $n tries to slash $N... yeah, right.
 M
 303
 $N cries out in agony as you slash $S ribcage open!
-Your ribcage is slashed open by $n -- R.I.P.!
+Your ribcage is slashed by $n!
 $n nicely dissects $N's ribcage with a single slash!
 You try to slash $N but miss by a mile.
 $n's slash misses you by a mile.
@@ -426,8 +426,8 @@ $n tries to slash $N -- how rude!
 
 M
 303
-Your slash at $N results in a pool of blood and $S immediate death!
-Blood spurts all over as $n slashes at you.  You die...
+Your slash at $N results in $S immediate demise!
+Blood spurts all over as $n slashes at you.  You ...
 $n slashes at $N who colors everything red with blood from $S lethal wound.
 You miss $N by an inch, curse that brat!
 You manage to dodge $n's slash and laugh, HA!
@@ -442,7 +442,7 @@ The great $N seems to ignore $n's slashes.
 M
 303
 You beautifully slash $N into two parts -- both dead.
-Your upper body is disconnected from your legs as $n slashes at you -- R.I.P.!
+Your upper body is disconnected from your legs as $n slashes at you!
 $N is slashed in two by a masterful stroke of $n!
 Your desperate slash at $N is easily avoided by $M.
 You easily avoid a slash from $n.
@@ -551,7 +551,7 @@ $n seems to have a crush on $N...
 M
 307
 You pound on $N with reckless abandon when you realize that $E is dead.
-With $s reckless pounding attacks, you succumb to death.
+With $s reckless pounding attacks, you succumb.
 $N falls under $n's pounding blows, yet $n continues $s attack!
 You hear the air whistle as you split the air with your pound!
 $n pounds in your direction, causing a whistling sound!
@@ -628,18 +628,18 @@ $N laughs as $n tries to maul $M.  How comical.
 * 310
 M
 310
-You bring $N within the thrashing of $S life, and then thrash $M one last time, killing $M.
-$n thrashes you violently, and you die.
-With a horrible thrashing, $N falls lifeless under $n's blows!
-You miss your thrash against $N!
-What a stroke of luck, $n seems to have missed you with $s thrash!
-$n thrashes madly at $N, missing $M!
+You bring $N within the tackling of $S life, and then tackle $M one last time, tackling $M.
+$n tackles you violently, and you ...
+With a horrible tackling, $N falls under $n's blows!
+You miss your tackle against $N!
+What a stroke of luck, $n seems to have missed you with $s tackle!
+$n tackles madly at $N, missing $M!
 #
 #
 #
-Thrash a God?  More likely that $N would thrash you, don't you think?
-What a fool, $n tried to thrash you.  *sigh*
-Looking rather silly, $n tries to thrash at $N.
+Thrash a God?  More likely that $N would tackle you, don't you think?
+What a fool, $n tried to tackle you.  *sigh*
+Looking rather silly, $n tries to tackle at $N.
 
 * 311
 M
@@ -660,7 +660,7 @@ $N returns $n's pierce with a piercing look, hmmm...
 M
 311
 You successfully tackle $N and $S body falls to the ground like a baby.
-$n tackles you.  Looks like you forgot your own name!
+$n tackles you, and you forget your own name!
 $n tackles $N whose suddenly limp body falls to the ground!
 You try to tackle $N but tackle the air instead!
 $n tackles the air.
@@ -675,12 +675,12 @@ The air is loaded when $N angrily wards off a piercing attack from $n.
 * 312
 M
 312
-You blast $N with all of your might, killing $M!
-With $s powerful blast, $n tears your life from your body!
-$N falls lifeless as $n's blast rips $M apart!
-You blast wildly, missing $N by a mere inch or two!
-You skillfully avoid $n's wild blast!
-$n misses $N with $s wild blast!  What luck $N seems to have!
+You tackle $N with all of your might, knocking $M into another reality!
+With $s powerful tackle, $n sends you crying to your MOMMY!
+$N falls limp as $n's blast rips $M a new butt hole!
+You blast wildly, missing $N. You should probably work on your aim.
+You skillfully avoid $n's wild tackle!
+$n misses $N with $s wild tackle!  What luck $N seems to have!
 #
 #
 #
@@ -691,8 +691,8 @@ $n looks afraid of the consequences as $e tries fruitlessly to blast $N.
 * 313
 M
 313
-You punch at $N causing $S face to collapse under the blow, blood everywhere.  Doesn't look like $N will recover.  Ever.
-$n's forceful punch causes you to see red, until you die shortly thereafter.
+You punch at $N causing $S face to collapse under the blow.  Doesn't look like $N will recover.  Ever.
+$n's forceful punch causes you to see red, until you...
 $n punches $N right in the face!  There is blood everywhere, and $N seems to be dead!
 You miss $N with your haymaker!
 $n throws a haymaker at you which whistles by your ear!
@@ -707,9 +707,9 @@ $n looks like $e would prefer to have punched a wall rather than trying to punch
 * 314
 M
 314
-You stab forth towards $N, hitting $M in the abdomen causing a messy but mortal wound!
-$n stabs you in the stomach, and you watch your insides fall out as you die.
-Making a mess of $N, $n kills $M with a stab to the midsection.
+You stab forth towards $N, hitting $M in the abdomen!
+$n stabs you in the stomach, and you re-spawn.
+Making art of $N, $n smashes $M with a stab.
 You stab at $N, barely missing $M!
 $n stabs at you, missing by a good mile or so!
 $N grins at $n as the stab sent by $n goes wide!
@@ -722,11 +722,11 @@ $n stabs at $N only to discover $N's immunity to stabbing weapons.
 
 M
 314
-You stab $N through the heart!  Instant death!
-$n drives a stab at you, it pierces your heart!  RIP!
-$n stabs brutally at $N, killing him as $N is impaled by $n!
+You stab $N through the heart!
+$n drives a stab at you, it takes you out!
+$n stabs at $N, as $N is tackled by $n!
 You stab at $N, missing!
-$n misses a particularly nasty stab in your direction!
+$n misses a stab in your direction!
 $n stabs at $N!  $e misses!
 #
 #
@@ -754,7 +754,7 @@ Suffer god room -- should never see.
 M
 399
 #
-You feel wounded -- too wounded -- you die...
+You feel wounded -- too wounded -- too bad for you...
 $N lies suffering on the ground until no blood is left in $S body.
 #
 suffer miss victim - should never see.
@@ -770,8 +770,8 @@ Suffer god room - should never see.
 M
 33
 #
-Poison burns intensely in your veins... you shiver... you die.
-$N screams in pain, keels over and dies.
+Poison burns intensely in your veins... you shiver... you cry.
+$N screams in pain, keels over and ...
 #
 suffer miss victim - should never see.
 suffer miss room - should never see.
@@ -802,8 +802,8 @@ $n warms $N.
 M
 203
 $N is killed by gas breath.
-You die from the gas $n breathes on you.
-$n kills $N with a gas breath.
+You perish from the gas $n breathes on you.
+$n tackles $N with a gas breath.
 $N is missed by gas breath.
 $n breathes gas at you, but it has no effect.
 $N avoids $n's gas.
@@ -817,7 +817,7 @@ $n tries to gas $N, but can't.
 * !UNUSED! 204
 M
 204
-$N is killed by frost breath.
+$N is tackled by frost breath.
 You are frozen to ice, as $n breathes on you.
 $n makes $N to ice.
 $N is missed by frost breath.
