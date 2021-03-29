@@ -1166,19 +1166,19 @@ static char *make_prompt(struct descriptor_data *d)
       }
     } else { /* not auto prompt */
       if (PRF_FLAGGED(d->character, PRF_DISPHP) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "%dH ", GET_HIT(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d ", GET_HIT(d->character), GET_MAX_HIT(ch));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "%dM ", GET_MANA(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d ", GET_MANA(d->character), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMOVE) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "%dV ", GET_MOVE(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d ", GET_MOVE(d->character), GET_MAX_MOVE(ch));
         if (count >= 0)
           len += count;
       }
