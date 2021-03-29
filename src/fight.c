@@ -464,15 +464,15 @@ static void dam_message(int dam, struct char_data *ch, struct char_data *victim,
     },
 
     {
-      "$n massacres $N to small fragments with $s #w.",	/* 7: 19..23 */
-      "You massacre $N to small fragments with your #w.",
-      "$n massacres you to small fragments with $s #w."
+      "$n TACKLES $N with $s #w.",	/* 7: 19..23 */
+      "You TACKLE $N with your #w.",
+      "$n TACKLES you with $s #w."
     },
 
     {
-      "$n OBLITERATES $N with $s deadly #w!!",	/* 8: > 23   */
-      "You OBLITERATE $N with your deadly #w!!",
-      "$n OBLITERATES you with $s deadly #w!!"
+      "$n TACKLES $N with $s HARDCORE #w!!",	/* 8: > 23   */
+      "You TACKLE $N with your HARDCORE #w!!",
+      "$n TACKLES you with $s HARDCORE #w!!"
     }
   };
 
