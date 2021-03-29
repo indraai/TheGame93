@@ -800,36 +800,33 @@ ACMD(do_score)
   if (IS_NPC(ch))
     return;
 
-  send_to_char(ch, "You are %d years old.", GET_AGE(ch));
+  send_to_char(ch, "age: %d", GET_AGE(ch));
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
   else
     send_to_char(ch, "\r\n");
 
-  send_to_char(ch, "You have %d(%d) hit, %d(%d) mana and %d(%d) movement points.\r\n",
+  send_to_char(ch, "hit: %d|%d\nmana: %d|%d\nmove: %d|%d\r\n",
 	  GET_HIT(ch), GET_MAX_HIT(ch), GET_MANA(ch), GET_MAX_MANA(ch),
 	  GET_MOVE(ch), GET_MAX_MOVE(ch));
 
-  send_to_char(ch, "Your armor class is %d/10, and your alignment is %d.\r\n",
+  send_to_char(ch, "armor: %d|10\nAlignment:%d.\r\n",
 	  compute_armor_class(ch), GET_ALIGNMENT(ch));
 
-  send_to_char(ch, "You have %d exp, %d gold coins, and %d questpoints.\r\n",
-	  GET_EXP(ch), GET_GOLD(ch), GET_QUESTPOINTS(ch));
+  send_to_char(ch, "exp: %d\nGold: %d\r\n",
+	  GET_EXP(ch), GET_GOLD(ch));
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "You need %d exp to reach your next level.\r\n",
+    send_to_char(ch, "'level up': %d\r\n",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
-  send_to_char(ch, "You have earned %d quest points.\r\n", GET_QUESTPOINTS(ch));
-  send_to_char(ch, "You have completed %d quest%s, ",
-       GET_NUM_QUESTS(ch),
-       GET_NUM_QUESTS(ch) == 1 ? "" : "s");
+  send_to_char(ch, "quests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
-    send_to_char(ch, "and you are not on a quest at the moment.\r\n");
+    send_to_char(ch, "quest: NONE\r\n");
   else
   {
-    send_to_char(ch, "and your current quest is: %s", QST_NAME(real_quest(GET_QUEST(ch))));
+    send_to_char(ch, "quest: %s", QST_NAME(real_quest(GET_QUEST(ch))));
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS))
         send_to_char(ch, " [%d]\r\n", GET_QUEST(ch));
@@ -839,11 +836,11 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "You have been playing for %d day%s and %d hour%s.\r\n",
+  send_to_char(ch, "playing: %d day%s and %d hour%s.\r\n",
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
-  send_to_char(ch, "This ranks you as %s %s (level %d).\r\n",
+  send_to_char(ch, "rank: %s %s\nlevel: %d).\r\n",
 	  GET_NAME(ch), GET_TITLE(ch), GET_LEVEL(ch));
 
   switch (GET_POS(ch)) {
