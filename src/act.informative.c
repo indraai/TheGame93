@@ -800,7 +800,7 @@ ACMD(do_score)
   if (IS_NPC(ch))
     return;
 
-  send_to_char(ch, "age: %d", GET_AGE(ch));
+  send_to_char(ch, "# Score\nage: %dyrs", GET_AGE(ch));
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
@@ -811,10 +811,10 @@ ACMD(do_score)
 	  GET_HIT(ch), GET_MAX_HIT(ch), GET_MANA(ch), GET_MAX_MANA(ch),
 	  GET_MOVE(ch), GET_MAX_MOVE(ch));
 
-  send_to_char(ch, "\narmor: %d|10\nAlignment:%d.\r\n",
+  send_to_char(ch, "\narmor: %d|10\nalignment:%d\r\n",
 	  compute_armor_class(ch), GET_ALIGNMENT(ch));
 
-  send_to_char(ch, "exp: %d\nGold: %d\r\n",
+  send_to_char(ch, "exp: %d\ngold: %d\r\n",
 	  GET_EXP(ch), GET_GOLD(ch));
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
@@ -840,7 +840,7 @@ ACMD(do_score)
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
-  send_to_char(ch, "rank: %s %s\nlevel: %d).\r\n",
+  send_to_char(ch, "rank: %s %s\nlevel: %d\n----\r\n",
 	  GET_NAME(ch), GET_TITLE(ch), GET_LEVEL(ch));
 
   switch (GET_POS(ch)) {
