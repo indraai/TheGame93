@@ -261,8 +261,6 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"# The Game93 \n\r"
-"=\n\r"
 "menu[Enter The Adventure]:1 \n\r"
 "menu[Exit The Adventure]:0\n\r"
 "menu[Read The Story]:3 \n\r"
