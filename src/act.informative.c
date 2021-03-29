@@ -807,11 +807,11 @@ ACMD(do_score)
   else
     send_to_char(ch, "\r\n");
 
-  send_to_char(ch, "hit: %d|%d\nmana: %d|%d\nmove: %d|%d\r\n",
+  send_to_char(ch, "\nhit: %d|%d\nmana: %d|%d\nmove: %d|%d\r\n",
 	  GET_HIT(ch), GET_MAX_HIT(ch), GET_MANA(ch), GET_MAX_MANA(ch),
 	  GET_MOVE(ch), GET_MAX_MOVE(ch));
 
-  send_to_char(ch, "armor: %d|10\nAlignment:%d.\r\n",
+  send_to_char(ch, "\narmor: %d|10\nAlignment:%d.\r\n",
 	  compute_armor_class(ch), GET_ALIGNMENT(ch));
 
   send_to_char(ch, "exp: %d\nGold: %d\r\n",
@@ -821,9 +821,9 @@ ACMD(do_score)
     send_to_char(ch, "'level up': %d\r\n",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
-  send_to_char(ch, "quests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
+  send_to_char(ch, "\nquests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
-    send_to_char(ch, "quest: NONE\r\n");
+    send_to_char(ch, "\nquest: NONE\r\n");
   else
   {
     send_to_char(ch, "quest: %s", QST_NAME(real_quest(GET_QUEST(ch))));
