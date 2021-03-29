@@ -836,11 +836,11 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "playing: %d day%s and %d hour%s.\r\n",
+  send_to_char(ch, "playing: %d day%s %d hour%s.\r\n",
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
-  send_to_char(ch, "rank: %s %s\nlevel: %d\n----\r\n",
+  send_to_char(ch, "rank: %s %s\nlevel: %d\n----\n\r",
 	  GET_NAME(ch), GET_TITLE(ch), GET_LEVEL(ch));
 
   switch (GET_POS(ch)) {
