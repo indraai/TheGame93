@@ -470,7 +470,7 @@ ACMD(do_exits)
 		EXIT_FLAGGED(EXIT(ch, door), EX_HIDDEN) ? " and hidden." : ".");
       }
     else
-      send_to_char(ch, "\nexit[ %s]:%-5s\n\r", IS_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch) ? "Too dark to tell." : world[EXIT(ch, door)->to_room].name, dirs[door]);
+      send_to_char(ch, "\nexit[%-5s]:%s\n\r", dirs[door], S_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch) ? "Too dark to tell." : world[EXIT(ch, door)->to_room].name);
   }
 
   if (!len)
