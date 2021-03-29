@@ -512,7 +512,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     }
   }
   else
-    send_to_char(ch, "sending room name - \n\r\n\r\n\r%s", world[IN_ROOM(ch)].name);
+    send_to_char(ch, "# ☰☉ %s\n\r", world[IN_ROOM(ch)].name);
   send_to_char(ch, "%s\r\n", CCNRM(ch, C_NRM));
 
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
@@ -521,7 +521,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
-      send_to_char(ch, "sending room description \n\r\n\r\n\r%s", world[IN_ROOM(ch)].description);
+      send_to_char(ch, "%s\n\r", world[IN_ROOM(ch)].description);
   }
 
   /* autoexits */
