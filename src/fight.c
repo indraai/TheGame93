@@ -34,20 +34,20 @@ struct char_data *combat_list = NULL;
 struct attack_hit_type attack_hit_text[] =
 {
   {"hit", "hits"},    /* 0 */
-  {"sting", "stings"},
-  {"whip", "whips"},
-  {"slash", "slashes"},
-  {"bite", "bites"},
-  {"bludgeon", "bludgeons"},  /* 5 */
-  {"crush", "crushes"},
-  {"pound", "pounds"},
-  {"claw", "claws"},
-  {"maul", "mauls"},
-  {"thrash", "thrashes"}, /* 10 */
-  {"pierce", "pierces"},
-  {"blast", "blasts"},
-  {"punch", "punches"},
-  {"stab", "stabs"}
+  {"push", "pushes"},
+  {"hair pull", "pulls hair"},
+  {"shin kick", "shin kicks"},
+  {"flying elbow", "flying elbows"},
+  {"kung fu knee", "kung fu knees"},  /* 5 */
+  {"super crush", "super crushes"},
+  {"ultimate pound", "ultimate pounds"},
+  {"hammer fist", "hammer fists"},
+  {"ultra flying kick", "ultra flying kicks"},
+  {"combo punch", "combo punches"}, /* 10 */
+  {"fire noogie", "fire noogies"},
+  {"super wedgie", "super wedgies"},
+  {"dragon punch", "dragon punches"},
+  {"super ultra kick", "super ultra kicks"}
 };
 
 /* local (file scope only) variables */
@@ -174,10 +174,10 @@ static void make_corpse(struct char_data *ch)
   IN_ROOM(corpse) = NOWHERE;
   corpse->name = strdup("corpse");
 
-  snprintf(buf2, sizeof(buf2), "The corpse of %s is lying here.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "the corpse of %s", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "the body of %s", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
@@ -247,7 +247,7 @@ void death_cry(struct char_data *ch)
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))
-      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "Is that someone do super tackle dance moves?\r\n");
+      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "Is that someone doing their super tackle dance moves?\r\n");
 }
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
@@ -597,7 +597,7 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
     if (PLR_FLAGGED(victim, PLR_NOTDEADYET) || MOB_FLAGGED(victim, MOB_NOTDEADYET))
       return (-1);
 
-    log("SYSERR: Attempt to damage corpse '%s' in room #%d by '%s'.",
+    log("SYSERR: Attempt to damage body '%s' in room #%d by '%s'.",
         GET_NAME(victim), GET_ROOM_VNUM(IN_ROOM(victim)), GET_NAME(ch));
     die(victim, ch);
     return (-1);			/* -je, 7/7/92 */
