@@ -242,26 +242,26 @@ void send_char_pos(struct char_data *ch, int dam)
 {
   switch (GET_POS(ch)) {
     case POS_MORTALLYW:
-      act("$n is mortally wounded, and will die soon, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
-      send_to_char(ch, "You are mortally wounded, and will die soon, if not aided.\r\n");
+      act("$n is wounded, and will re-spawn soon, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
+      send_to_char(ch, "You are wounded, and will re-spawn soon, if not aided.\r\n");
       break;
     case POS_INCAP:
-      act("$n is incapacitated and will slowly die, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
-      send_to_char(ch, "You are incapacitated and will slowly die, if not aided.\r\n");
+      act("$n is incapacitated and will re-spawn, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
+      send_to_char(ch, "You are incapacitated and will re-spawn, if not aided.\r\n");
       break;
     case POS_STUNNED:
       act("$n is stunned, but will probably regain consciousness again.", TRUE, ch, 0, 0, TO_ROOM);
       send_to_char(ch, "You're stunned, but will probably regain consciousness again.\r\n");
       break;
     case POS_DEAD:
-      act("$n is dead!  R.I.P.", FALSE, ch, 0, 0, TO_ROOM);
-      send_to_char(ch, "You are dead!  Sorry...\r\n");
+      act("$n is tackled!  POOR BABY!", FALSE, ch, 0, 0, TO_ROOM);
+      send_to_char(ch, "You are TACKLED!  Sorry...\r\n");
       break;
     default:                        /* >= POSITION SLEEPING */
       if (dam > (GET_MAX_HIT(ch) >> 2))
-        act("That really did HURT!", FALSE, ch, 0, 0, TO_CHAR);
+        act("That really HURT!", FALSE, ch, 0, 0, TO_CHAR);
       if (GET_HIT(ch) < (GET_MAX_HIT(ch) >> 2))
-        send_to_char(ch, "%sYou wish that your wounds would stop BLEEDING so much!%s\r\n",
+        send_to_char(ch, "%sYou wish that your head would stop SPINNING so much!%s\r\n",
                          CCRED(ch, C_SPR), CCNRM(ch, C_SPR));
   }
 }
@@ -307,4 +307,3 @@ void script_damage(struct char_data *vict, int dam)
     die(vict, NULL);
   }
 }
-

@@ -117,7 +117,7 @@ void check_killer(struct char_data *ch, struct char_data *vict)
 
   SET_BIT_AR(PLR_FLAGS(ch), PLR_KILLER);
   send_to_char(ch, "If you want to be a PLAYER KILLER, so be it...\r\n");
-  mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(vict))), 
+  mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(vict))),
     TRUE, "PC Killer bit set on %s for initiating attack on %s at %s.",
     GET_NAME(ch), GET_NAME(vict), world[IN_ROOM(vict)].name);
 }
@@ -243,11 +243,11 @@ void death_cry(struct char_data *ch)
 {
   int door;
 
-  act("Your blood freezes as you hear $n's death cry.", FALSE, ch, 0, 0, TO_ROOM);
+  act("You do your special dance moves and you hear $n cry like a baby!", FALSE, ch, 0, 0, TO_ROOM);
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))
-      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "Your blood freezes as you hear someone's death cry.\r\n");
+      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "Is that someone do super tackle dance moves?\r\n");
 }
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
@@ -273,14 +273,14 @@ struct char_data *i;
     if (killer->group) {
       while ((i = (struct char_data *) simple_list(killer->group->members)) != NULL)
         if(IN_ROOM(i) == IN_ROOM(ch)  || (world[IN_ROOM(i)].zone == world[IN_ROOM(ch)].zone))
-          autoquest_trigger_check(i, ch, NULL, AQ_MOB_KILL);      
+          autoquest_trigger_check(i, ch, NULL, AQ_MOB_KILL);
     } else
         autoquest_trigger_check(killer, ch, NULL, AQ_MOB_KILL);
   }
 
   /* Alert Group if Applicable */
   if (GROUP(ch))
-    send_to_group(ch, GROUP(ch), "%s has died.\r\n", GET_NAME(ch));
+    send_to_group(ch, GROUP(ch), "%s has been tackled.\r\n", GET_NAME(ch));
 
   update_pos(ch);
 
@@ -329,7 +329,7 @@ static void group_gain(struct char_data *ch, struct char_data *victim)
 {
   int tot_members = 0, base, tot_gain;
   struct char_data *k;
-  
+
   while ((k = (struct char_data *) simple_list(GROUP(ch)->members)) != NULL)
     if (IN_ROOM(ch) == IN_ROOM(k))
       tot_members++;
@@ -685,20 +685,20 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* Use send_to_char -- act() doesn't send message if you are DEAD. */
   switch (GET_POS(victim)) {
   case POS_MORTALLYW:
-    act("$n is mortally wounded, and will die soon, if not aided.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are mortally wounded, and will die soon, if not aided.\r\n");
+    act("$n is tackled, and will re-spawn, if not aided.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "You are tackled, and will re-spawn, if not aided.\r\n");
     break;
   case POS_INCAP:
-    act("$n is incapacitated and will slowly die, if not aided.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are incapacitated and will slowly die, if not aided.\r\n");
+    act("$n is tackled and will re-spawn, if not aided.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "You are tackled and will re-spawn, if not aided.\r\n");
     break;
   case POS_STUNNED:
     act("$n is stunned, but will probably regain consciousness again.", TRUE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "You're stunned, but will probably regain consciousness again.\r\n");
     break;
   case POS_DEAD:
-    act("$n is dead!  R.I.P.", FALSE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are dead!  Sorry...\r\n");
+    act("$n is tackled!  Go cry to your MOMMY!", FALSE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "You have been tackled!  Sorry...\r\n");
     break;
 
   default:			/* >= POSITION SLEEPING */
@@ -706,7 +706,7 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
       send_to_char(victim, "That really did HURT!\r\n");
 
     if (GET_HIT(victim) < (GET_MAX_HIT(victim) / 4)) {
-      send_to_char(victim, "%sYou wish that your wounds would stop BLEEDING so much!%s\r\n",
+      send_to_char(victim, "%sYou wish that your head would stop SPINNING so much!%s\r\n",
 		CCRED(victim, C_SPR), CCNRM(victim, C_SPR));
       if (ch != victim && MOB_FLAGGED(victim, MOB_WIMPY))
 	do_flee(victim, NULL, 0, 0);
@@ -744,8 +744,8 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
     }
 
     if (!IS_NPC(victim)) {
-      mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(victim))), 
-        TRUE, "%s killed by %s at %s", GET_NAME(victim), GET_NAME(ch), world[IN_ROOM(victim)].name);
+      mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(victim))),
+        TRUE, "%s tackled by %s at %s", GET_NAME(victim), GET_NAME(ch), world[IN_ROOM(victim)].name);
       if (MOB_FLAGGED(ch, MOB_MEMORY))
 	forget(ch, victim);
     }
@@ -841,7 +841,7 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
 
   /* report for debugging if necessary */
   if (CONFIG_DEBUG_MODE >= NRM)
-    send_to_char(ch, "\t1Debug:\r\n   \t2Thaco: \t3%d\r\n   \t2AC: \t3%d\r\n   \t2Diceroll: \t3%d\tn\r\n", 
+    send_to_char(ch, "\t1Debug:\r\n   \t2Thaco: \t3%d\r\n   \t2AC: \t3%d\r\n   \t2Diceroll: \t3%d\tn\r\n",
       calc_thaco, victim_ac, diceroll);
 
   /* Decide whether this is a hit or a miss.
@@ -928,7 +928,7 @@ void perform_violence(void)
     }
 
     if (GET_POS(ch) < POS_FIGHTING) {
-      send_to_char(ch, "You can't fight while sitting!!\r\n");
+      send_to_char(ch, "You can't battle while sitting!!\r\n");
       continue;
     }
 
@@ -949,8 +949,8 @@ void perform_violence(void)
           continue;
         if (!CAN_SEE(tch, ch))
           continue;
-      
-        do_assist(tch, GET_NAME(ch), 0, 0);				  
+
+        do_assist(tch, GET_NAME(ch), 0, 0);
       }
     }
 
