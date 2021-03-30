@@ -2126,9 +2126,9 @@ obj corpses decay~
 1 f 100
 ~
 if %self.vnum% == 11870
-%echo% %self.shortdesc% decays away, a few traces of dust blowing in the wind.
+%echo% %self.shortdesc% re-spawns, they will return shortly.
 else
-%echo% A quivering horde of maggots consumes %self.shortdesc%.
+%echo% The Deva arrive to re-spawn %self.shortdesc%.
 end
 %purge% self
 ~

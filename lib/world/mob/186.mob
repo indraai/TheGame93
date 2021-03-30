@@ -12,13 +12,13 @@ is drooling everywhere...  Looks mean too.
 8 8 0
 E
 #18602
-newbie monster~
-the newbie monster~
-The newbie monster stands here looking confused.  Kill him!  Kill him!
+tackle dummy~
+the tackle dummy~
+The tackle dummy stands here looking confused.  TACKLE! TACKLE!
 ~
-   What an odd looking little beast.  He looks harmless, but you never can tell.
+What an odd looking little beast.  He looks harmless, but you never can tell.
 He is only about 4 feet tall, but he pretty muscular looking...  Maybe you
-should ask if he needs help?  Nah...  Kill him.
+should ask if he needs help?  Nah... TACKLE.
 ~
 76 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
@@ -67,12 +67,11 @@ up a batch of something or other.
 8 8 1
 E
 #18606
-crawler creepy bug thing newbie~
-the creepy crawler~
-A creepy little crawling thing is scuttling along the floor at your feet.
+mini tackle dummy~
+mini tackle dummy~
+A little dummy for to practice tackles on.
 ~
-   Yuck!  If they'd ever clean this place maybe it wouldn't attract vermin like
-this disgusting, little, six-legged, brown bug.
+Great! A mini tackle dummy. This little guy is great to practice your tackles with.
 ~
 72 0 0 0 0 0 0 0 -250 E
 1 20 9 0d0+10 1d2+0
