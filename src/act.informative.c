@@ -971,7 +971,7 @@ ACMD(do_time)
   /* 35 days in a month, 7 days a week */
   weekday = ((35 * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time: %d%s\r\n",
+  send_to_char(ch, "time: %d%s | ",
 	  (time_info.hours % 12 == 0) ? 12 : (time_info.hours % 12),
 	  time_info.hours >= 12 ? "pm" : "am");
 
