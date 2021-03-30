@@ -103,7 +103,7 @@ void list_skills(struct char_data *ch)
   size_t len = 0;
   char buf2[MAX_STRING_LENGTH];
 
-  len = snprintf(buf2, sizeof(buf2), "# Practice\n sessions: %d\r\n"
+  len = snprintf(buf2, sizeof(buf2), "# Practice\nYou have %d practice session%s remaining.\r\n"
 	"You know of the following %ss:\r\n", GET_PRACTICES(ch),
 	GET_PRACTICES(ch) == 1 ? "" : "s", SPLSKL(ch));
 
