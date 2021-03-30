@@ -8,7 +8,7 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 **************************************************************************/
 
-/* For more examples: 
+/* For more examples:
  * ftp://ftp.circlemud.org/pub/CircleMUD/contrib/snippets/specials */
 
 #include "conf.h"
@@ -103,7 +103,7 @@ void list_skills(struct char_data *ch)
   size_t len = 0;
   char buf2[MAX_STRING_LENGTH];
 
-  len = snprintf(buf2, sizeof(buf2), "You have %d practice session%s remaining.\r\n"
+  len = snprintf(buf2, sizeof(buf2), "# Practice\n sessions: %d\r\n"
 	"You know of the following %ss:\r\n", GET_PRACTICES(ch),
 	GET_PRACTICES(ch) == 1 ? "" : "s", SPLSKL(ch));
 
@@ -419,46 +419,46 @@ SPECIAL(magic_user)
 }
 
 /* Special procedures for mobiles. */
-SPECIAL(guild_guard) 
-{ 
-  int i, direction; 
-  struct char_data *guard = (struct char_data *)me; 
-  const char *buf = "The guard humiliates you, and blocks your way.\r\n"; 
-  const char *buf2 = "The guard humiliates $n, and blocks $s way."; 
+SPECIAL(guild_guard)
+{
+  int i, direction;
+  struct char_data *guard = (struct char_data *)me;
+  const char *buf = "The guard humiliates you, and blocks your way.\r\n";
+  const char *buf2 = "The guard humiliates $n, and blocks $s way.";
 
-  if (!IS_MOVE(cmd) || AFF_FLAGGED(guard, AFF_BLIND)) 
-    return (FALSE); 
-     
-  if (GET_LEVEL(ch) >= LVL_IMMORT) 
-    return (FALSE); 
-   
-  /* find out what direction they are trying to go */ 
+  if (!IS_MOVE(cmd) || AFF_FLAGGED(guard, AFF_BLIND))
+    return (FALSE);
+
+  if (GET_LEVEL(ch) >= LVL_IMMORT)
+    return (FALSE);
+
+  /* find out what direction they are trying to go */
   for (direction = 0; direction < NUM_OF_DIRS; direction++)
     if (!strcmp(cmd_info[cmd].command, dirs[direction]))
       for (direction = 0; direction < DIR_COUNT; direction++)
 		if (!strcmp(cmd_info[cmd].command, dirs[direction]) ||
 			!strcmp(cmd_info[cmd].command, autoexits[direction]))
-	      break; 
+	      break;
 
-  for (i = 0; guild_info[i].guild_room != NOWHERE; i++) { 
-    /* Wrong guild. */ 
-    if (GET_ROOM_VNUM(IN_ROOM(ch)) != guild_info[i].guild_room) 
-      continue; 
+  for (i = 0; guild_info[i].guild_room != NOWHERE; i++) {
+    /* Wrong guild. */
+    if (GET_ROOM_VNUM(IN_ROOM(ch)) != guild_info[i].guild_room)
+      continue;
 
-    /* Wrong direction. */ 
-    if (direction != guild_info[i].direction) 
-      continue; 
+    /* Wrong direction. */
+    if (direction != guild_info[i].direction)
+      continue;
 
-    /* Allow the people of the guild through. */ 
-    if (!IS_NPC(ch) && GET_CLASS(ch) == guild_info[i].pc_class) 
-      continue; 
+    /* Allow the people of the guild through. */
+    if (!IS_NPC(ch) && GET_CLASS(ch) == guild_info[i].pc_class)
+      continue;
 
-    send_to_char(ch, "%s", buf); 
-    act(buf2, FALSE, ch, 0, 0, TO_ROOM); 
-    return (TRUE); 
-  } 
-  return (FALSE); 
-} 
+    send_to_char(ch, "%s", buf);
+    act(buf2, FALSE, ch, 0, 0, TO_ROOM);
+    return (TRUE);
+  }
+  return (FALSE);
+}
 
 SPECIAL(puff)
 {
@@ -696,4 +696,3 @@ SPECIAL(bank)
   } else
     return (FALSE);
 }
-

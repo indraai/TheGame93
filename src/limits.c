@@ -426,11 +426,11 @@ void point_update(void)
       if (!GET_OBJ_TIMER(j)) {
 
 	if (j->carried_by)
-	  act("$p decays in your hands.", FALSE, j->carried_by, j, 0, TO_CHAR);
+	  act("$p disappears in your hands.", FALSE, j->carried_by, j, 0, TO_CHAR);
 	else if ((IN_ROOM(j) != NOWHERE) && (world[IN_ROOM(j)].people)) {
-	  act("A quivering horde of maggots consumes $p.",
+	  act("A group of Deva arrive to re-spawn $p.",
 	      TRUE, world[IN_ROOM(j)].people, j, 0, TO_ROOM);
-	  act("A quivering horde of maggots consumes $p.",
+	  act("The Deva have arrived to re-spawn $p.",
 	      TRUE, world[IN_ROOM(j)].people, j, 0, TO_CHAR);
 	}
 	for (jj = j->contains; jj; jj = next_thing2) {
