@@ -971,31 +971,14 @@ ACMD(do_time)
   /* 35 days in a month, 7 days a week */
   weekday = ((35 * time_info.month) + day) % 7;
 
-  send_to_char(ch, "It is %d o'clock %s, on %s.\r\n",
+  send_to_char(ch, "time:%s|%d%s|%s %d, %d\n\r",
+    weekdays[weekday],
 	  (time_info.hours % 12 == 0) ? 12 : (time_info.hours % 12),
-	  time_info.hours >= 12 ? "pm" : "am", weekdays[weekday]);
+	  time_info.hours >= 12 ? "pm" : "am", weekdays[weekday],
+    month_name[time_info.month],
+    day,
+    time_info.year);
 
-  /* Peter Ajamian supplied the following as a fix for a bug introduced in the
-   * ordinal display that caused 11, 12, and 13 to be incorrectly displayed as
-   * 11st, 12nd, and 13rd.  Nate Winters had already submitted a fix, but it
-   * hard-coded a limit on ordinal display which I want to avoid. -dak */
-  suf = "th";
-
-  if (((day % 100) / 10) != 1) {
-    switch (day % 10) {
-    case 1:
-      suf = "st";
-      break;
-    case 2:
-      suf = "nd";
-      break;
-    case 3:
-      suf = "rd";
-      break;
-    }
-  }
-  send_to_char(ch, "The %d%s Day of the %s, Year %d.\r\n",
-	  day, suf, month_name[time_info.month], time_info.year);
 }
 
 ACMD(do_weather)
