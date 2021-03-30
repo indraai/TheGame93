@@ -971,9 +971,9 @@ ACMD(do_time)
   /* 35 days in a month, 7 days a week */
   weekday = ((35 * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time: %d%s %s.\r\n",
+  send_to_char(ch, "time: %d%s\r\n",
 	  (time_info.hours % 12 == 0) ? 12 : (time_info.hours % 12),
-	  time_info.hours >= 12 ? "pm" : "am", weekdays[weekday]);
+	  time_info.hours >= 12 ? "pm" : "am");
 
   /* Peter Ajamian supplied the following as a fix for a bug introduced in the
    * ordinal display that caused 11, 12, and 13 to be incorrectly displayed as
@@ -994,7 +994,8 @@ ACMD(do_time)
       break;
     }
   }
-  send_to_char(ch, "date: %s %d, %d.\r\n",
+  send_to_char(ch, "date: %s - %s %d, %d.\r\n",
+    weekdays[weekday],
     month_name[time_info.month],
 	  day,
     time_info.year);
