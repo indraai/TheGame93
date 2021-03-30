@@ -825,34 +825,34 @@ int movement_loss[] =
 
 /** The names of the days of the mud week. Not used in sprinttype(). */
 const char *weekdays[] = {
-  "the Day of the Moon",
-  "the Day of the Bull",
-  "the Day of the Deception",
-  "the Day of Thunder",
-  "the Day of Freedom",
-  "the Day of the Great Gods",
-  "the Day of the Sun"
+  "Soma",
+  "Manga",
+  "Budha",
+  "Guru",
+  "Sakka",
+  "Shani",
+  "Ravi"
 };
 
 /** The names of the mud months. Not used in sprinttype(). */
 const char *month_name[] = {
-  "Month of Winter",		/* 0 */
-  "Month of the Winter Wolf",
-  "Month of the Frost Giant",
-  "Month of the Old Forces",
-  "Month of the Grand Struggle",
-  "Month of the Spring",
-  "Month of Nature",
-  "Month of Futility",
-  "Month of the Dragon",
-  "Month of the Sun",
-  "Month of the Heat",
-  "Month of the Battle",
-  "Month of the Dark Shades",
-  "Month of the Shadows",
-  "Month of the Long Shadows",
-  "Month of the Ancient Darkness",
-  "Month of the Great Evil"
+  "Ekam",		/* 0 */
+  "Dve",
+  "Treeni",
+  "Chatvaari",
+  "Pancha",
+  "Shat",
+  "Sapta",
+  "Ashta",
+  "Nava",
+  "Dasha",
+  "Ekaadasha",
+  "Dvaadasha",
+  "Trayodasha",
+  "Chaturdasha",
+  "Panchadasha",
+  "Shodash",
+  "Saptadasha"
 };
 
 /** Names for mob trigger types. */
@@ -967,4 +967,3 @@ const char *ibt_bits[] = {
 	extra_bits_count = sizeof(extra_bits) / sizeof(extra_bits[0]) - 1,
 	/** Number of defined wear bit descriptions. */
 	wear_bits_count = sizeof(wear_bits) / sizeof(wear_bits[0]) - 1;
-
