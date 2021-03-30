@@ -962,7 +962,6 @@ ACMD(do_equipment)
 
 ACMD(do_time)
 {
-  const char *suf;
   int weekday, day;
 
   /* day in [1..35] */
@@ -971,7 +970,7 @@ ACMD(do_time)
   /* 35 days in a month, 7 days a week */
   weekday = ((35 * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time:%s|%d%s|%s %d, %d\n\r",
+  send_to_char(ch, "time: %s|%d%s|%s %d, %d\n\r",
     weekdays[weekday],
 	  (time_info.hours % 12 == 0) ? 12 : (time_info.hours % 12),
 	  time_info.hours >= 12 ? "pm" : "am", weekdays[weekday],
