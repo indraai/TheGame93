@@ -2232,7 +2232,7 @@ ACMD(do_commands)
   if (subcmd == SCMD_SOCIALS)
     socials = 1;
 
-  send_to_char(ch, "The following %s are available to you:\r\n", socials ? "socials" : "commands");
+  send_to_char(ch, "# %s\r\n", socials ? "socials" : "commands");
 
   /* cmd_num starts at 1, not 0, to remove 'RESERVED' */
   for (no = 0, cmd_num = 1;
