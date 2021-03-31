@@ -43,7 +43,7 @@
 /* Board appearance order. */
 #define	NEWEST_AT_TOP	FALSE
 
-/* Format: vnum, read lvl, write lvl, remove lvl, filename, 0 at end. Be sure 
+/* Format: vnum, read lvl, write lvl, remove lvl, filename, 0 at end. Be sure
  * to also change NUM_OF_BOARDS in board.h*/
 struct board_info_type board_info[NUM_OF_BOARDS] = {
   {3099, 0, 0, LVL_GOD, LIB_ETC "board.mortal", 0},
@@ -135,7 +135,7 @@ SPECIAL(gen_board)
 
   /* These were originally globals for some unknown reason. */
   int ACMD_READ, ACMD_LOOK, ACMD_EXAMINE, ACMD_WRITE, ACMD_REMOVE;
-  
+
   if (!loaded) {
     init_boards();
     loaded = 1;
@@ -237,13 +237,13 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
   act("$n studies the board.", TRUE, ch, 0, 0, TO_ROOM);
 
   if (!num_of_msgs[board_type])
-    send_to_char(ch, "This is a bulletin board.  Usage: READ/REMOVE <messg #>, WRITE <header>.\r\nThe board is empty.\r\n");
+    send_to_char(ch, "# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\r\nnote: The board is empty.\r\n");
   else {
     size_t len = 0;
     int nlen;
 
     len = snprintf(buf, sizeof(buf),
-		"This is a bulletin board.  Usage: READ/REMOVE <messg #>, WRITE <header>.\r\n"
+		"# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\r\n"
 		"You will need to look at the board to save your message.\r\n"
 		"There are %d messages on the board.\r\n",
 		num_of_msgs[board_type]);
