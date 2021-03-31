@@ -286,9 +286,9 @@ A small box is here.~
 10 0 0 0
 5 50 0 0 0
 #334
-atm teller banks machine~
-an automatic teller machine~
-An automatic teller machine has been installed in the wall here.~
+atm teller bank machine money indra.money~
+an indra.money machine~
+An indra.money machine has been installed in the wall here.~
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -297,7 +297,7 @@ E
 atm teller bank machine~
    There is a small note on the machine which says: To use, type 'BALANCE',
 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.  Please report any strange
-occurrences to the bank manager.
+occurrences to the indra.money manager.
 ~
 #335
 fountain water marble~
