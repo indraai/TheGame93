@@ -1,8 +1,8 @@
 #24300
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Midgaard lies to the south.  All around you
+Amaravati countryside.  You can see to the horizon to the north, east,
+and west; the busy city of Amaravati lies to the south.  All around you
 is healthy green grass and an occasional large oak tree.  The sun feels
 wonderful on your face and a pleasant wind blows through your hair.  Birds
 chirp quietly to themselves and you can smell the faint scent of flowers
@@ -23,7 +23,7 @@ info credits~
     |                        www.nt.net/saarinen                          |
     x---------------------------------------------------------------------x
      I originally decided to make this zone a place to connect new zones
-     north of Midgaard. Later on, I decided to add a ski hill and under-
+     north of Amaravati. Later on, I decided to add a ski hill and under-
      ground temple. This zone contains about 100 rooms, 3 shops, 1 death
      trap, several new items, and a bunch of new mobs. In a small cave at
      the southernmost part of the zone is a locked room, guarded by a
@@ -48,9 +48,9 @@ info credits~
 ~
 S
 #24301
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the east and west;
+Amaravati countryside.  You can see to the horizon to the east and west;
 you can see some hills to the north.  All around you is healthy green grass
 and an occasional large oak tree.  The sun feels wonderful on your face and
 a pleasant wind blows through your hair.  Birds chirp quietly to themselves
@@ -81,9 +81,9 @@ sign~
 ~
 S
 #24302
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the east and west;
+Amaravati countryside.  You can see to the horizon to the east and west;
 you can see some hills to the north.  The grass is no longer cut here, and
 you can feel a cold wind coming from the north. The hills up ahead have a
 bit of snow on them.
@@ -119,9 +119,9 @@ The path continues East.
 0 -1 24304
 S
 #24304
-The Great Field of Midgaard~
+The Great Field of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the east and west.
+Amaravati countryside.  You can see to the horizon to the east and west.
 You find yourself at the base of a long hill that spans east and west.
 The grass is no longer cut here, and you can feel a cold wind coming from
 the north.
@@ -139,9 +139,9 @@ The field continues West.
 0 -1 24303
 S
 #24305
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the east and west.
+Amaravati countryside.  You can see to the horizon to the east and west.
 You find yourself at the base of a long hill that spans east and west.
 The grass is no longer cut here, and you can feel a cold wind coming from
 the north.

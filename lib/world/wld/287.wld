@@ -236,7 +236,7 @@ sign~
    It has boards with fingers pointing north, south, and west.
                           EAST - Ofingia
                           SOUTH - Sorvecgden-Lacgorr
-                          NORTH - Midgaard
+                          NORTH - Amaravati
               Welcome, Stranger, to the Fiefdom of Lonoya.
               You of good will may wander freely through
               our kingdom.  Report all strange happenings
@@ -373,12 +373,12 @@ You hear someone cursing shoplifters.
 ~
 0 -1 28720
 D1
-This market square is at least four times as large as Midgaard's.
+This market square is at least four times as large as Amaravati's.
 ~
 ~
 0 -1 28721
 D2
-This market square is at least four times as large as Midgaard's.
+This market square is at least four times as large as Amaravati's.
 ~
 ~
 0 -1 28713
@@ -485,7 +485,7 @@ The Guard Headquarters~
    This is where the men that guard Ofingia keep their dinner pails.  Look
 around!  You may find a dagger, but most of the weapons are in use.  Why would
 they leave them here while they were on patrol?  And as for finding money, don't
-bother!  Only in Midgaard do foolish guards keep 32000 gold coins where Pippin
+bother!  Only in Amaravati do foolish guards keep 32000 gold coins where Pippin
 or any old thief can steal them.
 ~
 287 8 0 0 0 0
@@ -614,7 +614,7 @@ The Great Hall~
    Two rows of tall wooden pillars marching down this hall support its roof on
 their sturdy heads.  A central fireplace warms it, and the smoke rises to a
 louvre in the highest part of the tall gable.  This ancient hall reminds you of
-those described in the old tales of Midgaard, but here is one still standing,
+those described in the old tales of Amaravati, but here is one still standing,
 and used for its old purpose, for you see a great throne glittering in gold to
 the north.  Oh yes; a spiral iron stair leads down.  An inscription is carved
 into the wooden wall above it.  There is a door, and a sign, to the south.
@@ -941,7 +941,7 @@ S
 #28731
 Marya Luzarna's Bakery~
    The aroma of freshly baked wheat bread fills this store, mingled with the
-sharper smell of sourdough rye.  No bakers anywhere in Midgaard, Thalos, or Rome
+sharper smell of sourdough rye.  No bakers anywhere in Amaravati, Thalos, or Rome
 can equal Marya Luzarna, who comes from a long line of bakers.  Her
 great-great-great-grandfather Ogann baked the great Rye Loaf of Ofingia, which
 could be carried in a pocket, and yet fed an army of Ofintines for thirty days.

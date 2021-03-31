@@ -2,12 +2,12 @@
 The Edge Of The Forest~
    You are standing at the end of a dusty road, near the eastern edge of the
 large forest of Haon-Dor.  To the east you see the road heading back to the
-walled city, Midgaard, and to the west is a narrow trail leading through the
+walled city, Amaravati, and to the west is a narrow trail leading through the
 forest.
 ~
 60 0 0 0 0 2
 D1
-To the east a dusty road takes you back to the walls of Midgaard, and its large
+To the east a dusty road takes you back to the walls of Amaravati, and its large
 west gate.
 ~
 ~
@@ -1161,7 +1161,7 @@ High In The Large Oak~
 you can safely go in the tree.  The limbs here show evidence of a small battle,
 with ripped bark and loose feathers scattered everywhere.  Looking around, you
 can see the forest stretching out below you in all directions.  To the east you
-see Midgaard, and to the south the river runs through a deep chasm.  North and
+see Amaravati, and to the south the river runs through a deep chasm.  North and
 west of here you can see another small village, and on the western horizon you
 see a large mountain.
 ~
@@ -1177,7 +1177,7 @@ E
 river chasm~
    To the south you see a river flowing roughly from the northeast to the west.
 It emerges from a dark opening in the side of a mountain and flows through
-Midgaard, and on into the forest.  It has eroded a deep chasm in the soft stone
+Amaravati, and on into the forest.  It has eroded a deep chasm in the soft stone
 under the forest floor, and is not visible for long after it enters the forest
 proper.
 ~
@@ -1214,7 +1214,7 @@ The path winds its way between the trees.
 0 -1 6065
 D2
 Through a break in the tree line you see the main trail that heads back towards
-Midgaard.
+Amaravati.
 ~
 ~
 0 -1 6001
@@ -1346,7 +1346,7 @@ south from here.
 60 0 0 0 0 3
 D2
 Through the trees to the south you can almost see the main trail leading back
-to Midgaard.
+to Amaravati.
 ~
 ~
 0 -1 6060
@@ -1981,12 +1981,12 @@ S
 A Road Through The Plains~
    You are on a dust covered east-west road through the western plains.  An
 occasional hunter or adventurer can be seen, heading to or from the forest.
-To the east is the walled city, Midgaard, and to the west the road ends at
+To the east is the walled city, Amaravati, and to the west the road ends at
 the head of a narrow trail into a large forest.
 ~
 60 4 0 0 0 2
 D1
-Far to the east you see the large walls guarding Midgaard.
+Far to the east you see the large walls guarding Amaravati.
 ~
 ~
 0 -1 6091
@@ -2013,12 +2013,12 @@ S
 A Road Through The Plains~
    You are on a dust covered east-west road through the western plains.  An
 occasional hunter or adventurer can be seen, heading to or from the forest.
-To the east is the walled city, Midgaard, and to the west the road continues
+To the east is the walled city, Amaravati, and to the west the road continues
 towards a large forest.
 ~
 60 4 0 0 0 2
 D1
-Far to the east you see the walls and western gate of Midgaard.
+Far to the east you see the walls and western gate of Amaravati.
 ~
 ~
 0 -1 6092
@@ -2046,13 +2046,13 @@ S
 #6092
 A Road Through The Plains~
    You are on a dust covered east-west road crossing the grassy plains between
-Midgaard the forest of Haon-Dor.  An occasional hunter or adventurer can be
-seen, heading to or from the forest.  To the east is the walled city, Midgaard,
+Amaravati the forest of Haon-Dor.  An occasional hunter or adventurer can be
+seen, heading to or from the forest.  To the east is the walled city, Amaravati,
 and to the west the road continues towards a large forest.
 ~
 60 4 0 0 0 1
 D1
-To the east you see the walls and West Gate of Midgaard.
+To the east you see the walls and West Gate of Amaravati.
 ~
 ~
 0 -1 3052

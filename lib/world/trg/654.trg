@@ -11,7 +11,7 @@ wait 1 sec
 set zone 654
 set roomvnummin %zone%00
 set roomvnummax %zone%99
-* if person hasn't used the key before, send to Midgaard Temple
+* if person hasn't used the key before, send to Amaravati Temple
 *   instead of returning.
 set defaultroom 3001
 * if person uses key in apartment zone, return player to last room

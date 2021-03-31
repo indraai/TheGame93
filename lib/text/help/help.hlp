@@ -1721,7 +1721,7 @@ Checking load info for the beastly fido...
   [ 3012] Main Street (15 Max.)
 
 > checkload t 100
-Checking load info for the object trigger 'Portal to Midgaard - 100':
+Checking load info for the object trigger 'Portal to Amaravati - 100':
 (obj) [  100] the portal
 
 See also:  LINKS, RLIST, OLIST, MLIST, SLIST
@@ -7216,7 +7216,7 @@ large dragon steak.  These are normally acquired from the large green dragons
 up on Wyrm Mountain.  My normal source got eaten last week, and I have a large
 order to fill.  I need these within 24 hours
 
-Thanks, Bob the Butcher, Midgaard
+Thanks, Bob the Butcher, Amaravati
 The questmaster sighs.
 The questmaster says �A tricky quest, but it�ll cost you 5qp to back out now�
 #31
@@ -7967,7 +7967,7 @@ ever seen. I have never seen anyone put so much work into a zone. Kudos to Justo
 I am saving this because I would like everyone to use Justo's work as an
 outstanding example of how a builder should develop and plan a full zone.
 
- * * * * Midgaard Mail System * * * *
+ * * * * Amaravati Mail System * * * *
 Date: Sun Oct 13 10:33:59 2002
   To: rumble
 From: justo
@@ -9256,11 +9256,11 @@ This is a listing of stock areas.
 186 Newbie Zone                 -- Maynard of StrangeMUD
 25  The High Tower of Magic     -- Skylar of SillyMUD*
 26  The High Tower Of Magic     -- Skylar of SillyMUD*
-30  Northern Midgaard Main City -- DikuMUD
-31  Southern Part of Midgaard   -- DikuMUD
+30  Northern Amaravati Main City -- DikuMUD
+31  Southern Part of Amaravati   -- DikuMUD
 33  The Three Of Swords         -- C.A.W.
 35  Miden'Nir                   -- Copper II, modified by VampLestat of MercMUD*
-36  The Chessboard of Midgaard  -- Exxon of SillyMUD
+36  The Chessboard of Amaravati  -- Exxon of SillyMUD
 40  Mines of Moria              -- Redferne of DikuMUD*
 41  Mines of Moria              -- Redferne of DikuMUD*
 50  The Great Eastern Desert    -- Rorschach
@@ -10033,7 +10033,7 @@ The teleporter is used to transfer players between zones.  Accessible zones
 are listed under HELP ZONES by being CAPITALIZED.  For example to teleport to:
   74 Newbie GRAVEyard                   -- Jojen                       3- 5
 type: teleport grave
-   The teleporter may also be used to recall back to Midgaard at any time.
+   The teleporter may also be used to recall back to Amaravati at any time.
 
 Uncapitalized zones are linked through a capitalized zone.
 

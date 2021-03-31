@@ -268,7 +268,7 @@ SPECIAL(mayor)
     break;
 
   case 'E':
-    act("$n says 'I hereby declare Midgaard closed!'", FALSE, ch, 0, 0, TO_ROOM);
+    act("$n says 'I hereby declare Amaravati closed!'", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'O':

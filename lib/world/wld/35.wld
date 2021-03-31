@@ -74,7 +74,7 @@ village.
 S
 #3503
 The City Entrance~
-   You stand on the outskirts of a large city - Midgaard; the capital of
+   You stand on the outskirts of a large city - Amaravati; the capital of
 this land.  The road leads east into the peace and quiet - and dangers -
 of the forest; and to the west it becomes the main street of the town;
 surrounded by a confusion of shops, bars, and market places.
@@ -92,7 +92,7 @@ S
 #3504
 The South Gate~
    You are standing on a small, dusty path leading away from the south
-gate of Midgaard, to the forest of Miden'Nir (Goblinic for 'Green Blood').
+gate of Amaravati, to the forest of Miden'Nir (Goblinic for 'Green Blood').
 You can still see the city to the east, but if you go south, there is
 fresh air and greenery.
 ~
@@ -112,11 +112,11 @@ S
 The Trail To Miden'Nir~
    You are in a light forest.  A path leads south, but the passage to
 the east is easy enough.  To the west, smoke can be seen rising above
-the treetops.  The sprawl of Midgaard lies north of here.
+the treetops.  The sprawl of Amaravati lies north of here.
 ~
 35 4 0 0 0 3
 D0
-To the north, you see the South Gate of Midgaard.
+To the north, you see the South Gate of Amaravati.
 ~
 ~
 0 -1 3504

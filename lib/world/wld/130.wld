@@ -13,7 +13,7 @@ Mist Maze Imm Room~
   zedit.  Once the object is in place, the zone is ready to go.  The final
   room of the zone, should a player reach it, will lead the player out of
   the maze to room 3151.  In the stock world, that is the cemetary in South
-  Midgaard.  Almost all of the rooms are not flagged as NO_MAGIC so if a
+  Amaravati.  Almost all of the rooms are not flagged as NO_MAGIC so if a
   player is desperate enough, they can always recall.
 ~
 130 8 0 0 0 0

@@ -5,7 +5,7 @@ Near Death Trap Mahatma - 6318~
 * By Rumble of The Builder Academy    tbamud.com 9091
 * Near Death Trap - Mahatma stuns actor and then takes all of their equipment.
 wait 3 sec
-say Here, have a quick trip to the Temple of Midgaard.
+say Here, have a quick trip to the Temple of Amaravati.
 wait 2 sec
 %send% %actor% Mahatma plunges a black dagger into your back and takes all your equipment.
 %echoaround% %actor% Mahatma plunges a black dagger into %actor.name%'s back and takes all of %actor.hisher% equipment.

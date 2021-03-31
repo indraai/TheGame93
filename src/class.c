@@ -123,7 +123,7 @@ int prac_params[4][NUM_CLASSES] = {
  * via triggers. This code remains as an example. */
 struct guild_info_type guild_info[] = {
 
-/* Midgaard */
+/* Amaravati */
  { CLASS_MAGIC_USER,    3017,    SOUTH   },
  { CLASS_CLERIC,        3004,    NORTH   },
  { CLASS_THIEF,         3027,    EAST   },

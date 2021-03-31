@@ -1,6 +1,6 @@
 #242
 Crazyman~
-New Southern Midgaard~
+New Southern Amaravati~
 24200 24299 30 2 d 0 0 0 3 7
 M 0 24204 2 24242 	(the usher)
 E 1 24205 99 5 	(a red usher's vest)
@@ -12,7 +12,7 @@ G 1 24204 99 -1 	(a canteen)
 E 1 24206 10 0 	(a small black flashlight)
 M 0 24202 1 24219 	(the Bank Manager)
 E 1 24298 1 17 	(a sturdy key)
-D 0 24219 0 2 	(The Bank of Midgaard)
+D 0 24219 0 2 	(The Bank of Amaravati)
 R 0 24219 3034 -1 	(an automatic teller machine)
 O 0 3034 99 24219 	(an automatic teller machine)
 M 0 24207 2 24231 	(the waitress)
@@ -116,7 +116,7 @@ O 0 24229 10 24282 	(a yellow curling rock)
 R 1 24282 24229 -1 	(a yellow curling rock)
 O 0 24229 10 24286 	(a yellow curling rock)
 R 1 24286 24229 -1 	(a yellow curling rock)
-D 0 24234 2 2 	(The Bank of Midgaard - Vault)
+D 0 24234 2 2 	(The Bank of Amaravati - Vault)
 O 0 24220 1 24234 	(a huge sack of gold coins)
 D 0 24290 0 2 	(Locker Room)
 D 0 24291 2 2 	(Passageway)

@@ -2,12 +2,12 @@
 The Reading Room~
    You are in a small, simple room which is mostly empty, save a few
 wooden desks and benches.  To the east you hear the bustle of the Temple
-of Midgaard, a sharp contrast to the relative quiet of this peaceful
+of Amaravati, a sharp contrast to the relative quiet of this peaceful
 room.
 ~
 30 156 0 0 0 0
 D1
-You see the Temple of Midgaard.
+You see the Temple of Amaravati.
 ~
 ~
 0 -1 3001
@@ -17,8 +17,8 @@ credits info~
 ~
 S
 #3001
-The Temple Of Midgaard~
-   You are in the southern end of the temple hall in the Temple of Midgaard.
+The Temple Of Amaravati~
+   You are in the southern end of the temple hall in the Temple of Amaravati.
 The temple has been constructed from giant marble blocks, eternal in
 appearance, and most of the walls are covered by ancient wall paintings
 picturing Gods, giants and peasants.
@@ -35,7 +35,7 @@ At the northern end of the temple hall is a statue and a huge altar.
 0 -1 3054
 D1
 In the east, you see a small alcove with a rickety wooden sign which
-reads "Midgaard Donation Room."
+reads "Amaravati Donation Room."
 ~
 ~
 0 -1 3063
@@ -129,7 +129,7 @@ The Temple Square~
    You are standing on the temple square.  Huge marble steps lead up to the
 temple gate.  The entrance to the Clerics' Guild is to the west, and the old
 Grunting Boar Inn, is to the east.  Just south of here you see the market
-square, the center of Midgaard.
+square, the center of Amaravati.
 ~
 30 0 0 0 0 1
 D0
@@ -154,7 +154,7 @@ You see the entrance to the Clerics' Guild.
 0 -1 3004
 S
 #3006
-The Entrance Hall Of The Grunting Boar Inn~
+The Amaravati Inn~
    You are standing in the entrance hall of the Grunting Boar Inn.  The hall
 has been wisely decorated with simple, functional furniture.  The heavy smell
 of dust and aging paper drifts in from the Post Office to the north.  A small
@@ -162,7 +162,7 @@ staircase leads up to the reception and the bar is to the east.
 ~
 30 8 0 0 0 0
 D0
-You see the Midgaard Post Office.
+You see the Amaravati Post Office.
 ~
 ~
 0 -1 3062
@@ -316,7 +316,7 @@ note~
 S
 #3012
 Main Street~
-   You are at the end of the main street of Midgaard.  South of here is the
+   You are at the end of the main street of Amaravati.  South of here is the
 entrance to the Guild of Magic Users.  The street continues east towards the
 market square.  The magic shop is to the north and to the west is the city
 gate.
@@ -345,7 +345,7 @@ You see the city gate.
 S
 #3013
 Main Street~
-   You are on the main street passing through the City of Midgaard.  South of
+   You are on the main street passing through the City of Amaravati.  South of
 here is the entrance to the Armory, and the bakery is to the north.  East of
 here is the market square.
 ~
@@ -373,7 +373,7 @@ You see the main street.
 S
 #3014
 Market Square~
-   You are standing on the market square, the famous Square of Midgaard.
+   You are standing on the market square, the famous Square of Amaravati.
 A large, peculiar looking statue is standing in the middle of the square.
 Roads lead in every direction, north to the temple square, south to the
 common square, east and westbound is the main street.
@@ -401,7 +401,7 @@ You see the main street.
 0 -1 3013
 E
 statue~
-   What you see is the Midgaard Worm, stretching around the Palace of Midgaard.
+   What you see is the Amaravati Worm, stretching around the Palace of Amaravati.
 ~
 S
 #3015
@@ -790,7 +790,7 @@ You see the main street.
 0 -1 3012
 S
 #3040
-Inside The West Gate Of Midgaard~
+Inside The West Gate Of Amaravati~
    You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  Main Street leads
 east and Wall Road leads south from here.
@@ -835,7 +835,7 @@ some kind of mortar.  It is far too high to climb.
 ~
 S
 #3041
-Inside The East Gate Of Midgaard~
+Inside The East Gate Of Amaravati~
    You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  Main Street leads
 west from here.  To the south you see the Water Shop.
@@ -1085,7 +1085,7 @@ some kind of mortar.  It is far too high to climb.
 ~
 S
 #3052
-Outside The West Gate Of Midgaard~
+Outside The West Gate Of Amaravati~
    You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  To the west you
 can see the edge of a big forest.
@@ -1124,7 +1124,7 @@ some kind of mortar.  It is far too high to climb.
 ~
 S
 #3053
-Outside The East Gate Of Midgaard~
+Outside The East Gate Of Amaravati~
    You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  To the east the
 plains stretch out in the distance.
@@ -1164,7 +1164,7 @@ some kind of mortar.  It is far too high to climb.
 S
 #3054
 By The Temple Altar~
-   You are by the temple altar in the northern end of the Temple of Midgaard.
+   You are by the temple altar in the northern end of the Temple of Amaravati.
 A huge altar made from white polished marble dominates this part of the temple.
 Towering behind the altar is a ten foot tall sitting statue of Odin, the King of
 the Gods. To the north, steps lead out the back of the temple towards the
@@ -1172,7 +1172,7 @@ countryside.
 ~
 30 8 0 0 0 0
 D0
-You see the vast Midgaard countryside.
+You see the vast Amaravati countryside.
 ~
 ~
 0 -1 3059
@@ -1211,11 +1211,11 @@ S
 Behind The Temple Altar~
    You are on a dirt path leading away from the Temple Altar which is south
 of here.  To the north, the path continues through the lush contryside of
-Midgaard towards the Dragonhelm Mountains far off to the north.
+Amaravati towards the Dragonhelm Mountains far off to the north.
 ~
 30 0 0 0 0 1
 D0
-You see the lush, green countryside of Midgaard.
+You see the lush, green countryside of Amaravati.
 ~
 ~
 0 -1 3060
@@ -1226,17 +1226,17 @@ You see the Temple Altar.
 0 -1 3054
 S
 #3060
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Midgaard lies to the south.  All around you
+Amaravati countryside.  You can see to the horizon to the north, east,
+and west; the busy city of Amaravati lies to the south.  All around you
 is healthy green grass and an occasional large oak tree.  The sun feels
 wonderful on your face and a pleasant wind blows through your hair.  Birds
 chirp quietly to themselves and you can smell the faint scent of flowers
 and freshly cut grass.  You feel like you could lie down in the grass and
 stay here forever, surrounded by powerful beauty in all directions.
    The path you are on continues north through the field and south back
-to Midgaard.
+to Amaravati.
 ~
 30 0 0 0 0 1
 D0
@@ -1245,16 +1245,16 @@ You see more of the path through the Great Field.
 ~
 0 -1 3061
 D2
-You see the path which goes back to Midgaard.
+You see the path which goes back to Amaravati.
 ~
 ~
 0 -1 3059
 S
 #3061
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Midgaard lies to the south.  All around you
+Amaravati countryside.  You can see to the horizon to the north, east,
+and west; the busy city of Amaravati lies to the south.  All around you
 is healthy green grass and an occasional large oak tree.  The sun feels
 wonderful on your face and a pleasant wind blows through your hair.  Birds
 chirp quietly to themselves and you can smell the faint scent of flowers
@@ -1288,7 +1288,7 @@ There is a strange path leading towards a rusty gate to the west.
 S
 #3062
 The Post Office~
-   You are in the central post office for Midgaard.  Piles of assorted mail
+   You are in the central post office for Amaravati.  Piles of assorted mail
 lay untouched in the corners, collecting cobwebs.  Several large crates have
 been pried open by curious customs agents, and are now stacked along the west
 wall, hiding plenty of 'WANTED' posters.
@@ -1331,7 +1331,7 @@ cobwebs~
 ~
 E
 crates opened large~
-   As you know, it is illegal to send contraband items through the Midgaard
+   As you know, it is illegal to send contraband items through the Amaravati
 Mail.  The customs agents use this as a great excuse to seize liquor, rare
 spices, and just about anything they might find useful or profitable.
 ~
@@ -1344,7 +1344,7 @@ hard to see past the crates.
 ~
 S
 #3063
-The Midgaard Donation Room~
+The Amaravati Donation Room~
    You are in a small, undecorated room just off of the main temple.  There
 are a couple of small wooden benches here where people occasionally sit
 while they wait for items to appear.  The temple is to the west.
@@ -1370,10 +1370,10 @@ The Reception is to the south.
 0 -1 3008
 S
 #3065
-The Great Field Of Midgaard~
+The Great Field Of Amaravati~
    You are walking on a wide dirt path through the lush, green, fresh
-Midgaard countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Midgaard lies to the south.  All around you
+Amaravati countryside.  You can see to the horizon to the north, east,
+and west; the busy city of Amaravati lies to the south.  All around you
 is healthy green grass and an occasional large oak tree.  The sun feels
 wonderful on your face and a pleasant wind blows through your hair.  Birds
 chirp quietly to themselves and you can smell the faint scent of flowers
@@ -1404,8 +1404,8 @@ S
 #3066
 The Dirt Path~
    You are walking along a narrow dirt path through the lush, green,
-fresh Midgaard countryside.  You can see to the horizon to the north
-and east; the busy city of Midgaard lies to the south.  All around
+fresh Amaravati countryside.  You can see to the horizon to the north
+and east; the busy city of Amaravati lies to the south.  All around
 you is healthy green grass and an occasional large oak tree.  The sun
 feels wonderful on your face and a pleasant wind blows through your
 hair.  Birds chirp quietly to themselves and you can smell the faint

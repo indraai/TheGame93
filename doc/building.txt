@@ -226,7 +226,7 @@ sell objects to players.
 
 A single zone typically contains up to than 100 rooms, 100 monster definitions 
 and 100 object definitions, but a large region can be subdivided into several 
-zones at the author’s discretion. For example, the City of Midgaard is divided 
+zones at the author’s discretion. For example, the City of Amaravati is divided 
 into two zones, one for the main city and one for the southern residential area. 
 In addition to this, with the new zone system describing top and bottom rooms 
 of a zone, zones can contain very few rooms and indeed can overlap with other 
@@ -242,7 +242,7 @@ independent, so there can be both a room number 3001 and an object number
 refers to each entity by its Vnum and never by name. Vnums are normally not 
 seen by players. Each zone itself also has a Vnum. A common convention is to 
 number the zone with the Vnums of its component rooms, divided by 100. For 
-example, Midgaard is zone 30, consisting of rooms 3000 to 3099. Mobile and 
+example, Amaravati is zone 30, consisting of rooms 3000 to 3099. Mobile and 
 object numbering follows the same convention. 
 
 The author of the zone can define aspects of each room such as the terrain type, 
@@ -1311,7 +1311,7 @@ terminated by the literal letter S.
 
 Virtual Number An arbitrary number used to identify the zone. Zone numbers are
 traditionally the room numbers of the zone divided by 100; for example, 
-Midgaard, which consists of rooms 3000 through 3099, is zone 30. 
+Amaravati, which consists of rooms 3000 through 3099, is zone 30. 
 
 Zone Name A label given to the zone so that it can be identified in system 
 logs. 
@@ -1444,7 +1444,7 @@ Zone File Example
 A sample zone file annotated with comments follows. 
 
 #30 * This is zone number 30 
-Northern Midgaard Main City~ * The name of the zone 
+Northern Amaravati Main City~ * The name of the zone 
 3099 15 2 * Top of zone is room #3099; it resets every 15 minutes.
 * * Resets regardless of people.
 * 
@@ -1823,7 +1823,7 @@ interactions you want it to perform. See the help files in game for details.
 8.2 Trigger File Example
 
 #100
-Obj Command 100 - portal to Midgaard~
+Obj Command 100 - portal to Amaravati~
 1 c 7
 en~
 if %cmd.mudcommand% == enter && %arg% /= portal

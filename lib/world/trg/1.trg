@@ -1,5 +1,5 @@
 #100
-Obj Command 100 - portal to Midgaard~
+Obj Command 100 - portal to Amaravati~
 1 c 7
 en~
 * By Rumble of The Builder Academy    tbamud.com 9091
@@ -14,7 +14,7 @@ else
 end
 ~
 #101
-Room Command - portal to Midgaard~
+Room Command - portal to Amaravati~
 2 c 100
 en~
 * By Rumble of The Builder Academy    tbamud.com 9091
@@ -29,7 +29,7 @@ else
 end
 ~
 #102
-Mob Command - portal to Midgaard~
+Mob Command - portal to Amaravati~
 0 c 100
 en~
 if %cmd.mudcommand% == enter && portal /= %arg%
