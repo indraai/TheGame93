@@ -2838,7 +2838,7 @@ set spider 1999
 set arena 2000
 set tower 2200
 set memlin 2798
-set academy 2800
+set mudschool 2800
 set midgaard 3001
 set capital 3702
 set haven 3998
