@@ -13,11 +13,11 @@ To be taught what you can, type <prac> now.
 BareHandAttack: 7
 E
 #2801
-piglet pig~
-the piglet~
-A small piglet is sleeping here.
+tackle pig~
+the Tackle Pig~
+A Tackle Pig is charging here.
 ~
-   It's a small piglet, sleeping, unaware that soon it will be pork chops.
+   It's a small Tackle Pig, charging, unaware that soon it will be pork chops.
 Type <consider piglet> first and read what you're told.  Then <kill piglet> to
 start fighting it.
 ~
@@ -30,10 +30,11 @@ E
 #2802
 shopkeeper keeper~
 the shopkeeper~
-The shopkeeper for Mudschool is ready to sell newbie-items.
+The shopkeeper for indra.academy is ready to sell newbie-items.
 ~
-   He looks like any other merchant, only his clothes are ragged.  He must have
-too low prices.  To see what he sells type <list>, then <buy> to buy it.
+He looks like any other merchant.
+He must have some good prices.
+To see what he sells type <list>, then <buy> to buy it.
 ~
 10 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
