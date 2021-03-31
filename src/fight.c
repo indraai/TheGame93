@@ -685,19 +685,19 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* Use send_to_char -- act() doesn't send message if you are DEAD. */
   switch (GET_POS(victim)) {
   case POS_MORTALLYW:
-    act("$n is tackled, and will re-spawn, if not aided.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are tackled, and will re-spawn, if not aided.\r\n");
+    act("$n is tackled, and will re-spawn.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "You are tackled, and will re-spawn.\r\n");
     break;
   case POS_INCAP:
-    act("$n is tackled and will re-spawn, if not aided.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are tackled and will re-spawn, if not aided.\r\n");
+    act("$n is tackled and will re-spawn.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "You are tackled and will re-spawn.\r\n");
     break;
   case POS_STUNNED:
-    act("$n is stunned, but will probably regain consciousness again.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You're stunned, but will probably regain consciousness again.\r\n");
+    act("$n is down for the count.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "You're down for the count.\r\n");
     break;
   case POS_DEAD:
-    act("$n is tackled!  Go cry to your MOMMY!", FALSE, victim, 0, 0, TO_ROOM);
+    act("$n is tackled and crying to their MOMMY!", FALSE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "You have been tackled!  Sorry...\r\n");
     break;
 
