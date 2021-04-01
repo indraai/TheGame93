@@ -935,7 +935,7 @@ ACMD(do_score)
 
 ACMD(do_inventory)
 {
-  send_to_char(ch, "You are carrying:\r\n");
+  send_to_char(ch, "### Inventory\r\n");
   list_obj_to_char(ch->carrying, ch, SHOW_OBJ_SHORT, TRUE);
 }
 
@@ -943,7 +943,7 @@ ACMD(do_equipment)
 {
   int i, found = 0;
 
-  send_to_char(ch, "You are using:\r\n");
+  send_to_char(ch, "### Equipment\r\n");
   for (i = 0; i < NUM_WEARS; i++) {
     if (GET_EQ(ch, i)) {
       found = TRUE;
