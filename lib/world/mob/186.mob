@@ -22,7 +22,7 @@ He is only about 4 feet tall, and made for TACKLING.
 76 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 100 400
-8 8 1
+8 8 0
 E
 #18603
 pet dragon baby newbie~
@@ -33,7 +33,7 @@ Someone's little pet dragon has gotten loose, and is sniffing about here.
 just want to cuddle him to death...  No, you really want to kill him to tell the
 truth.  But, remember, even a little dragon can be a big problem.
 ~
-72 0 0 0 0 0 0 0 100 E
+72 0 0 0 0 0 0 0 -100 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1
@@ -66,7 +66,7 @@ up a batch of something or other.
 8 8 1
 E
 #18606
-mini tackle dummy~
+little tackle dummy~
 the Mini Tackle Dummy~
 The Mini Tackle Dummy is here.
 ~
@@ -87,13 +87,13 @@ You would feel sorry for it, but it is moving in to attack!
 ~
 108 0 0 0 0 0 0 0 -500 E
 4 19 7 0d0+40 1d2+0
-40 1600
+150 1600
 8 8 0
 E
 #18608
-quasit imp thing~
-the quasit~
-A funny little imp-like thing (a quasit perhaps?) is sneaking about here.
+tackle dummy weird~
+the Weird Tackle Dummy~
+A Weird Tackle Dummy thing is sneaking about here. TACKLE!
 ~
    Little green, vaguely humanoid shaped creature, with a long pointed tail.
 It is hard to say because before you ever get a good look at it, it darts back
@@ -101,8 +101,8 @@ into the shadows.
 ~
 236 0 0 0 0 0 0 0 -800 E
 3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
+300 900
+8 8 0
 E
 #18609
 minotaur~
@@ -115,7 +115,7 @@ a lot meaner than any bull you have ever seen...  And he is coming this way!
 ~
 1608 0 0 0 0 0 0 0 -1000 E
 7 18 5 1d1+70 1d2+1
-70 4900
+500 4900
 8 8 1
 E
 #18610
@@ -123,81 +123,81 @@ spectre ghost~
 the dark spectre~
 The dark spectre is lurking in the shadows.
 ~
-   The soul of a long since passed on adventurer...  It lurks here waiting for a
+The soul of a long since passed on adventurer...  It lurks here waiting for a
 chance to bring death to any who cross its path.
 ~
 2122 0 0 0 1048596 0 0 0 -850 E
 6 18 6 1d1+60 1d2+1
-60 3600
+180 3600
 8 8 0
 E
 #18611
-newbie annoying jerk~
-the annoying newbie~
-A newbie is here annoying the hell out of you.
+tackle dummy annoying~
+the Annoying Tackle Dummy~
+A Tackle Dummy is here annoying the hell out of you.
 ~
-   What a jerk!  He won't shut up, and he keeps making the most irritating
+What a jerk!  He won't shut up, and he keeps making the most irritating
 comments about everything.  Better silence him with cold, tempered steel
 MUHAHAHAHAHAHAHAHAHAHA!
 ~
 76 0 0 0 0 0 0 0 -500 E
 2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
+75 400
+8 8 0
 E
 #18612
-newbie clueless moron~
-the clueless newbie~
-A newbie is here looking terribly confused.
+tackle dummy clueless~
+the Clueless Tackle Dummy~
+A Clueless Tackle Dummy is here looking terribly confused. TACKLE!
 ~
-   What a moron!  Every question that is answered in the help files, he will ask
+What a moron!  Every question that is answered in the help files, he will ask
 and he will probably ask 2 or 3 times too.  This guy just doesn't get it, best
 put him out of his misery.
 ~
-76 0 0 0 0 0 0 0 0 E
+76 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
+30 100
+8 8 0
 E
 #18613
-newbie talkative~
-the talkative newbie~
-A newbie is here talking a lot.
+tackle dummy idiot~
+the Idiot Tackle Dummy~
+There is a Idiot Tackle Dummy taunting you with F-BOMBS! TACKLE!
 ~
-   Well, at least this gal seems pretty cool.  Talks a lot, but she's a
+Well, at least this gal seems pretty cool.  Talks a lot, but she's a
 friendly, interesting sort.  Seems to have a clue what she's doing also, unlike
 some others you might see.
 ~
-72 0 0 0 0 0 0 0 100 E
+72 0 0 0 0 0 0 0 -100 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 2
+8 8 0
 E
 #18614
-newbie lost~
-the lost newbie~
-A newbie is here wandering about aimlessly.
+tackle dummy moron~
+the Moron Tackle Dummy~
+A Moron Tackle Dummy is here wandering about aimlessly. TACKLE!
 ~
-   Hmmm...  Looks like he has been around a while, but he wandered a little too
+Hmmm...  Looks like he has been around a while, but he wandered a little too
 far from home this time.  Don't think he knows quite where he is, maybe you
 should help him out?
 ~
-72 0 0 0 0 0 0 0 300 E
+72 0 0 0 0 0 0 0 -300 E
 4 19 7 0d0+40 1d2+0
-40 1600
-8 8 1
+75 1600
+8 8 0
 E
 #18615
-newbie smart~
-the smart newbie~
-A newbie is here, and he looks quite sure of himself.
+tackle dummy bitch~
+the Bitch Tackle Dummy~
+A Bitch Tackle Dummy is here, and he looks bitchy. TACKLE!
 ~
    Here is a guy who has it all together.  Nice equipment too, must have read
 the help files, Eh?
 ~
-76 0 0 0 0 0 0 0 500 E
+76 0 0 0 0 0 0 0 -500 E
 5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1
+200 2500
+8 8 0
 E
 $

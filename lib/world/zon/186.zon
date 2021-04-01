@@ -20,7 +20,9 @@ E 1 18602 99 5 	(a bright green newbie vest)
 M 0 18601 1 18605 	(the pit beast)
 E 1 18604 50 12 	(a dark newbie cloak)
 E 1 18606 99 16 	(a shiny newbie dagger)
-M 0 18611 1 18646 	(the annoying newbie)
+*
+M 0 18611 5 18646 	(the annoying newbie)
+*
 E 1 18606 99 16 	(a shiny newbie dagger)
 M 0 18612 1 18642 	(the clueless newbie)
 M 0 18613 1 18640 	(the talkative newbie)
