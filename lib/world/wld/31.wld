@@ -202,7 +202,7 @@ D3
 0 -1 3108
 S
 #3110
-indra.agency~
+The Agency~
 adventure:3110/main
 ~
 31 8 0 0 0 0
@@ -232,7 +232,7 @@ D2
 ~
 0 -1 3118
 D3
-You see the Cityguard HeadQuarters.
+You see the Agency HeadQuarters.
 ~
 door~
 1 3105 3110
@@ -240,7 +240,7 @@ E
 building door sign~
    The sign on the door says:
 
-                 Cityguard HeadQuarters
+                 The Agency HeadQuarters
 
            WARNING: Authorized Personnel Only!
 ~
