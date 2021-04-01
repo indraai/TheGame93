@@ -3,12 +3,18 @@ Maynard~
 Newbie Zone~
 18600 18699 10 2 d 0 0 0 1 7
 M 0 18602 10 18600 	(the newbie monster)
+M 0 18602 10 18601 	(the newbie monster)
 M 0 18602 10 18602 	(the newbie monster)
+M 0 18602 10 18603 	(the newbie monster)
 M 0 18602 10 18606 	(the newbie monster)
 M 0 18602 10 18607 	(the newbie monster)
+*
+M 0 18606 10 18600 	(the creepy crawler)
 M 0 18606 10 18601 	(the creepy crawler)
+M 0 18606 10 18602 	(the creepy crawler)
 M 0 18606 10 18603 	(the creepy crawler)
-M 0 18606 10 18605 	(the creepy crawler)
+M 0 18606 10 18606 	(the creepy crawler)
+M 0 18606 10 18607 	(the creepy crawler)
 *
 E 1 18602 99 5 	(a bright green newbie vest)
 M 0 18601 1 18605 	(the pit beast)
