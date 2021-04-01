@@ -22,7 +22,7 @@ adventure:3001/main
 ~
 30 156 0 0 0 0
 D0
-At the northern end of the temple hall is a statue and a huge altar.
+adventure:3054/look
 ~
 ~
 0 -1 3054
@@ -1156,35 +1156,27 @@ some kind of mortar.  It is far too high to climb.
 ~
 S
 #3054
-By The Temple Altar~
-   You are by the temple altar in the northern end of the Temple of Amaravati.
-A huge altar made from white polished marble dominates this part of the temple.
-Towering behind the altar is a ten foot tall sitting statue of Odin, the King of
-the Gods. To the north, steps lead out the back of the temple towards the
-countryside.
+By The Altar~
+adventure:3054/main
 ~
 30 8 0 0 0 0
 D0
-You see the vast Amaravati countryside.
+adventure:3059/look
 ~
 ~
 0 -1 3059
 D2
-You see the southern end of the temple.
+adventure:3001/look
 ~
 ~
 0 -1 3001
 E
 altar~
-   Even though the altar is more than ten feet long it appears to be made from a
-single block of white virgin marble.
+adventure:3054/altar
 ~
 E
-statue odin king god~
-   The statue represents the one-eyed Odin sitting on a his throne.  He has
-long, gray hair and beard and a strict look on his face.  On top of the throne,
-just above his shoulders, his two ravens Hugin and Munin are sitting and at his
-feet are his wolves Gere and Freke.
+statue indra king god~
+adventure:3054/statue
 ~
 S
 #3058
@@ -1201,35 +1193,24 @@ You see the East Gate.
 0 -1 3041
 S
 #3059
-Behind The Temple Altar~
-   You are on a dirt path leading away from the Temple Altar which is south
-of here.  To the north, the path continues through the lush contryside of
-Amaravati towards the Dragonhelm Mountains far off to the north.
+Behind The Altar~
+adventure:3059/main
 ~
 30 0 0 0 0 1
 D0
-You see the lush, green countryside of Amaravati.
+adventure:3060/look
 ~
 ~
 0 -1 3060
 D2
-You see the Temple Altar.
+adventure:3054/look
 ~
 ~
 0 -1 3054
 S
 #3060
-The Great Field Of Amaravati~
-   You are walking on a wide dirt path through the lush, green, fresh
-Amaravati countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Amaravati lies to the south.  All around you
-is healthy green grass and an occasional large oak tree.  The sun feels
-wonderful on your face and a pleasant wind blows through your hair.  Birds
-chirp quietly to themselves and you can smell the faint scent of flowers
-and freshly cut grass.  You feel like you could lie down in the grass and
-stay here forever, surrounded by powerful beauty in all directions.
-   The path you are on continues north through the field and south back
-to Amaravati.
+The Great Field~
+adventure:3060/main
 ~
 30 0 0 0 0 1
 D0
@@ -1244,37 +1225,27 @@ You see the path which goes back to Amaravati.
 0 -1 3059
 S
 #3061
-The Great Field Of Amaravati~
-   You are walking on a wide dirt path through the lush, green, fresh
-Amaravati countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Amaravati lies to the south.  All around you
-is healthy green grass and an occasional large oak tree.  The sun feels
-wonderful on your face and a pleasant wind blows through your hair.  Birds
-chirp quietly to themselves and you can smell the faint scent of flowers
-and freshly cut grass.  You feel like you could lie down in the grass and
-stay here forever, surrounded by powerful beauty in all directions.
-   There is a strange structure on the eastern side of the path.  A small
-dirt path splits off of the main path and leads off to the west.
+The Great Field~
+adventure:3061/main
 ~
 30 4 0 0 0 1
 D0
-The path continues northwards bringing you ever closer to the Dragonhelm
-Mountains.
+adventure:3065/look
 ~
 ~
 0 -1 3065
 D1
-There is a strange structure to the east on the edge of the trail.
+adventure:18600/look
 ~
 ~
 0 -1 18600
 D2
-You see more of the Field.
+adventure:3060/look
 ~
 ~
 0 -1 3060
 D3
-There is a strange path leading towards a rusty gate to the west.
+adventure:3066/look
 ~
 ~
 0 -1 3066
@@ -1337,7 +1308,7 @@ hard to see past the crates.
 ~
 S
 #3063
-The Amaravati Donation Room~
+The Offering Room~
    You are in a small, undecorated room just off of the main temple.  There
 are a couple of small wooden benches here where people occasionally sit
 while they wait for items to appear.  The temple is to the west.
@@ -1363,17 +1334,8 @@ The Reception is to the south.
 0 -1 3008
 S
 #3065
-The Great Field Of Amaravati~
-   You are walking on a wide dirt path through the lush, green, fresh
-Amaravati countryside.  You can see to the horizon to the north, east,
-and west; the busy city of Amaravati lies to the south.  All around you
-is healthy green grass and an occasional large oak tree.  The sun feels
-wonderful on your face and a pleasant wind blows through your hair.  Birds
-chirp quietly to themselves and you can smell the faint scent of flowers
-and freshly cut grass.  You feel like you could lie down in the grass and
-stay here forever, surrounded by powerful beauty in all directions.
-   The way north appears to be blocked by a large plot device and you cannot
-see any way around it.
+The Great Field~
+adventure:3065/main
 ~
 30 0 0 0 0 2
 D0
