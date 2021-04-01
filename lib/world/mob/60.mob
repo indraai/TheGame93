@@ -103,13 +103,13 @@ the bird if you give it the chance.
 8 8 0
 E
 #6008
-sparrow~
-the sparrow~
-A sparrow is flapping around by the ground.
+tackle dummy~
+a Tackle Dummy~
+A Tackle Dummy is taunting you!.
 ~
-   The sparrow looks like it is enjoying life.
+The Tackle Dummy looks like it wants to be tested.
 ~
-72 0 0 0 0 0 0 0 200 E
+72 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 0

@@ -4,7 +4,7 @@ The Fissure Under The Ledge~
 pool.  The water trickles quietly down from the ledge above you.  The water
 smells like the water in a sewer.
 ~
-70 13 0 0 0 5
+70 12 0 0 0 5
 D4
 ~
 ~
@@ -67,7 +67,7 @@ comfortable since you are used to a somewhat different environment.
 The sewer leads to the north of here.  In the middle you can just
 make out an enormous drainpipe leading down.
 ~
-70 13 0 0 0 5
+70 12 0 0 0 5
 D0
 North.  The muddy junction lies in that direction.
 ~
@@ -452,7 +452,7 @@ The Ordinary Junction~
    This looks like an ordinary junction, actually it seems very quiet
 here.  The pipelines lead west, east and north.
 ~
-70 13 0 0 0 1
+70 12 0 0 0 1
 D0
 To the north you can see a junction like this one, leading north and west.
 ~
@@ -475,7 +475,7 @@ A Quiet Pipe Junction~
    This is the kind of place to rest, though the smell could be a LOT
 better than this.  The sewer goes east, north and west from here.
 ~
-70 13 0 0 0 1
+70 12 0 0 0 1
 D0
 In that direction, you can't see anything.  It is just too dark.
 ~
@@ -517,7 +517,7 @@ The Sewer~
    You are standing in mud up to your ankles.  This is an intersection with
 sewer pipes leading east, south and west.
 ~
-70 13 0 0 0 1
+70 12 0 0 0 1
 D1
 To the east there is a peculiar looking round room.
 ~
@@ -566,7 +566,7 @@ It seems cleaner than the rest of them.  Weird.  Something that looks like
 an air shaft leads upwards, but it looks far too slippery to climb.
 The pipes lead to the south, west and north.
 ~
-70 13 0 0 0 0
+70 12 0 0 0 0
 D0
 North.  You see an intersection there, leading north and east.
 ~
@@ -640,7 +640,7 @@ There are enormous concrete pipes leading north, south, east and west.
 There is also a metal ladder built into the concrete wall leading up through
 a layer of garbage.
 ~
-70 13 0 0 0 1
+70 12 0 0 0 1
 D0
 To the north you can see a huge triple junction with sewer pipes leading
 west and east.
