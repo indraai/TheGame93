@@ -202,12 +202,12 @@ D3
 0 -1 3108
 S
 #3110
-Cityguard HeadQuarters~
-   You are inside a tidy office.
+indra.agency~
+adventure:3110/main
 ~
 31 8 0 0 0 0
 D1
-You see Park Road.
+adventure:3111/look
 ~
 door~
 1 3105 3111
