@@ -576,9 +576,9 @@ A pair of bronze sleeves is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3086
-l1 sleeves~
-L1 Sleeves (2)~
-A pair of level 1 tackle suit sleeves are lying on the ground.~
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
@@ -592,8 +592,8 @@ A level 1 cape really is very functional but also makes you look really cool.
 5 0 0 0
 4 100 0 0 0
 E
-l1 cape~
-It is a smooth blue cape that is very high quality at the end.
+brown leather cape~
+   It is a rough brown leather cape that is frayed at the end.
 ~
 A
 1 1
@@ -606,8 +606,8 @@ A level 1 tackle suit utility belt was left here.~
 2 0 0 0
 1 30 0 0 0
 E
-l1 utility belt~
-The Level 1 Tackle Suit Utility Belt
+belt leather old~
+   It looks very, very old.
 ~
 A
 18 2
