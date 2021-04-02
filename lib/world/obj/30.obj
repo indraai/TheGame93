@@ -147,7 +147,7 @@ A dagger with a long thin blade is here.~
 0 1 4 11
 1 10 10 0 0
 #3021
-tsl1 immobalizer small~
+tsl1 tackle suit immobalizer small~
 TSL1 Immobalizer (S)~
 A Small Level 1 Tackle Suit Immobalizer is here.~
 ~
@@ -156,10 +156,10 @@ A Small Level 1 Tackle Suit Immobalizer is here.~
 3 60 10 0 0
 E
 inscription~
-   It says: 'May this TSL1-I be a good companion in your epic battles.'
+'It says': 'May this TSL1 Immobalizer be a good companion in epic battles.'
 ~
 E
-tsl1 small immobalizer~
+tsl1 tackle suit small immobalizer~
 The small immobalizer seems to have an inscription of some sort.
 ~
 #3022
@@ -334,17 +334,17 @@ A Level 1 Tackle Suit Sheild is lying on the ground.~
 2 0 0 0
 3 100 10 0 0
 #3043
-jacket soft leather~
-a leather jacket~
-A soft leather jacket is lying on the ground.~
+tsl1 tackle suit jacket~
+TSL1 Jacket~
+A Level 1 Tackle Suit Jacket lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
 10 200 10 0 0
 #3044
-jacket studded leather~
-a studded leather jacket~
-A studded leather jacket is lying on the ground.~
+tsl1x tackle suit jacket~
+TSL1X Jacket~
+A Level 1 X Model Tackle Suit Jacket~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
