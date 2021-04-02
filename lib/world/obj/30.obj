@@ -310,8 +310,8 @@ pot~
    It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
-l1ts tackle suit chest plate~
-L1TS Chest Plate~
+tsl1 tackle suit chest plate~
+TSL1 Chest Plate~
 A Level 1 Tackle Suit Chest Plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
@@ -326,9 +326,9 @@ A chain mail shirt is lying on the ground.~
 5 0 0 0
 50 250 5 0 0
 #3042
-l1 shield~
-L1 Shield~
-A level 1 tackle suit shield is lying on the ground.~
+tsl1 tackle suit shield~
+TSL1 Shield~
+A Level 1 Tackle Suit Sheild is lying on the ground.~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
 2 0 0 0
@@ -491,8 +491,8 @@ A pair of bronze gauntlets is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3071
-l1 gloves~
-L1 Gloves (2)~
+tsl1 tackle suit gloves~
+TSL1 Gloves (2)~
 A pair of level 1 tackle suit gloves is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
@@ -507,17 +507,17 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-l1 tackle suit helment~
-L1TS Helmet~
+tsl1 tackle suit helment~
+TSL1 Helmet~
 A Level 1 Tackle Suit Helmet is on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
 3 150 10 0 0
 #3080
-l1 shin guards~
-L1 Shin Guards (2)~
-A pair of level 1 tackle suit shin guards is lying on the ground.~
+tsl1 shin guards~
+TSL1 Shin Guards (2)~
+A pair of Level 1 Tackle Suit Shin Guards tackle suit shin guards is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 6 0 0 0
@@ -531,15 +531,15 @@ A pair of leather pants is lying on the ground.~
 3 0 0 0
 8 150 10 0 0
 #3082
-l1ts tackle suit neck guard~
-L1TS Neck Guard~
+tsl1 tackle suit neck guard~
+TSL1 Neck Guard~
 A Level 1 Tackle Suit Neck Guard has been left here~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
 1 10 0 0 0
 E
-l1ts tackle suit neck guard~
+tsl1 tackle suit neck guard~
 This Level 1 tackle suite neck guard will guard your neck in battle.
 ~
 #3083
