@@ -576,9 +576,9 @@ A pair of bronze sleeves is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3086
-sleeves leather~
-a pair of leather sleeves~
-A pair of leather sleeves is lying on the ground.~
+tsl1 tackle suit sleeves~
+TSL1 Sleeves (2)~
+A pair of Level 1 Tackle Suit Sleeves is lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
