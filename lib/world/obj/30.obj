@@ -507,9 +507,9 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-cap leather~
-a leather cap~
-A leather cap is lying on the ground.~
+l1 helmet~
+L1 Helmet~
+A level 1 tackle suit helmet cap is lying on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
@@ -531,7 +531,7 @@ A pair of leather pants is lying on the ground.~
 3 0 0 0
 8 150 10 0 0
 #3082
-l1 leather neck guard~
+l1 neck guard~
 L1 Neck Guard~
 A Level 1 tackle suit neck guard has been left here~
 ~
@@ -576,24 +576,24 @@ A pair of bronze sleeves is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3086
-sleeves leather~
-a pair of leather sleeves~
-A pair of leather sleeves is lying on the ground.~
+l1 sleeves~
+L1 Sleeves (2)~
+A pair of level 1 tackle suit sleeves are lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
 4 75 10 0 0
 #3087
-brown leather cape~
-a brown leather cape~
-A brown leather cape was abandoned on the floor~
+l1 cape~
+a L1 Cape~
+A level 1 cape really is very functional but also makes you look really cool.
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 4 100 0 0 0
 E
-brown leather cape~
-   It is a rough brown leather cape that is frayed at the end.
+l1 cape~
+It is a smooth blue cape that is very high quality at the end.
 ~
 A
 1 1
@@ -606,8 +606,8 @@ A level 1 tackle suit utility belt was left here.~
 2 0 0 0
 1 30 0 0 0
 E
-belt leather old~
-   It looks very, very old.
+l1 utility belt~
+The Level 1 Tackle Suit Utility Belt
 ~
 A
 18 2
