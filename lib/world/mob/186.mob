@@ -1,14 +1,13 @@
 #18601
-pitbeast beast~
-the pit beast~
-The big, ugly pit-beast is standing here sizing you up.
+giant tackle dummy~
+the Giant Tackle Dummy~
+The big, ugly Giant Tackle Dummy is standing here sizing you up.
 ~
-   Ick...  What a disgusting creature!  It is black and green and slimy and it
-is drooling everywhere...  Looks mean too.
+  Ick...  What a disgusting creature!  It is black and green and looking to tackle something. TACKLE!
 ~
 14 0 0 0 0 0 0 0 -750 E
 5 19 7 1d1+50 1d2+0
-50 2500
+500 2500
 8 8 0
 E
 #18602
@@ -25,52 +24,49 @@ He is only about 4 feet tall, and made for TACKLING.
 8 8 0
 E
 #18603
-pet dragon baby newbie~
-the baby dragon~
-Someone's little pet dragon has gotten loose, and is sniffing about here.
+stupid tackle dummy~
+the Stupid Tackle Dummy~
+A Stupid Tackle Dummy has gotten loose, and is ready to TACKLE!.
 ~
-   Awwww...  How cute!  A little baby dragon.  He's about 3 feet long and you
-just want to cuddle him to death...  No, you really want to kill him to tell the
-truth.  But, remember, even a little dragon can be a big problem.
+This little guy looks cute, but don't be fooled. Just a stupid tackle dummy waiting for a TACKLE!
 ~
 72 0 0 0 0 0 0 0 -100 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1
+8 8 0
 E
 #18604
-keeper guard monster newbie~
-the Newbie Guard~
-The Newbie Guard is here wondering where that dragon went.
+fool foolish tackle dummy~
+the Fool Tackle Dummy~
+The Fool Tackle Dummy is always following that Stupid Tackle Dummy around.
 ~
-   The Guard also had the job of taking care of the Alchemist's pet dragon, but
-he doesn't seem to be doing a good job of it.  He looks at you and says, 'Have
+The fool is always following around that Stupid Tackle Dummy. He looks at you and says, 'Have
 you seen that dragon?  Master will have my head if I don't find him.  '
 ~
 10 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
+90 900
+8 8 0
 E
 #18605
-alchemist newbie~
-the Newbie Alchemist~
-The Newbie Alchemist is here trying to make something.
+fantasy tackle dummy~
+the Fantasy Tackle Dummy~
+The Fantasy Tackle Dummy is always lost in a fantasy trying to mix something together that never works. TACKLE!
 ~
-   He is a funny looking, furry little dude.  He looks really busy trying to mix
+He is a funny looking, furry little dude.  He looks really busy trying to mix
 up a batch of something or other.
 ~
 10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
-50 2500
+150 2500
 8 8 1
 E
 #18606
 little tackle dummy~
-the Mini Tackle Dummy~
-The Mini Tackle Dummy is here.
+the Little Tackle Dummy~
+The Little Tackle Dummy is here.
 ~
-Great! A mini tackle dummy. This little guy is great to practice your tackles with.
+Great! A little tackle dummy. This little guy is great to practice your tackles with.
 ~
 72 0 0 0 0 0 0 0 -250 E
 1 20 9 0d0+10 1d2+0
@@ -78,11 +74,11 @@ Great! A mini tackle dummy. This little guy is great to practice your tackles wi
 8 8 0
 E
 #18607
-newbie zombie~
-the zombiefied newbie~
-A VERY gaunt looking newbie... it looks like a zombie!
+zombie tackle dummy~
+the Zombie Tackle Dummy~
+A VERY gaunt looking Zombie Tackle Dummy... TACKLE!
 ~
-   This guy has been lost in here too long...  It is more zombie than man now.
+This guy has been lost in here too long...  It is more zombie than man now.
 You would feel sorry for it, but it is moving in to attack!
 ~
 108 0 0 0 0 0 0 0 -500 E
@@ -91,11 +87,11 @@ You would feel sorry for it, but it is moving in to attack!
 8 8 0
 E
 #18608
-tackle dummy weird~
+weird tackle dummy~
 the Weird Tackle Dummy~
 A Weird Tackle Dummy thing is sneaking about here. TACKLE!
 ~
-   Little green, vaguely humanoid shaped creature, with a long pointed tail.
+Little green, vaguely humanoid shaped creature, with a long pointed tail.
 It is hard to say because before you ever get a good look at it, it darts back
 into the shadows.
 ~
@@ -105,26 +101,28 @@ into the shadows.
 8 8 0
 E
 #18609
-minotaur~
-the massive Minotaur~
-The Great Minotaur is wondering just what you'll taste like.
+horny tackle dummy~
+the Horny Tackle Dummy~
+The Horny Tackle Dummy is try to get horny with you. TACKLE!
 ~
-   A massive man, with the head of a bull.  He looks as strong as bull too, but
-not nearly as smart.  Actually, now that you consider it...  He looks a heck of
-a lot meaner than any bull you have ever seen...  And he is coming this way!
+A massive woman, with the head of a bull trying to get horny.  She looks as
+strong as bull too, but not nearly as smart.  Actually, now that you consider
+it...  She looks a heck of a lot meaner than any bull you have ever seen...
+
+Watch out she's HORNY!
 ~
 1608 0 0 0 0 0 0 0 -1000 E
 7 18 5 1d1+70 1d2+1
-500 4900
-8 8 1
+1000 4900
+8 8 2
 E
 #18610
-spectre ghost~
-the dark spectre~
-The dark spectre is lurking in the shadows.
+ghost tackle dumny~
+the Ghost Tackle Dummy~
+The Ghost Tackle Dummy lurking in the shadows.
 ~
-The soul of a long since passed on adventurer...  It lurks here waiting for a
-chance to bring death to any who cross its path.
+The Ghost Tackle Dummy lurks here waiting for a chance to bring a TACKLE to any
+who cross its path.
 ~
 2122 0 0 0 1048596 0 0 0 -850 E
 6 18 6 1d1+60 1d2+1
@@ -132,7 +130,7 @@ chance to bring death to any who cross its path.
 8 8 0
 E
 #18611
-tackle dummy annoying~
+annoying tackle dummy~
 the Annoying Tackle Dummy~
 A Tackle Dummy is here annoying the hell out of you.
 ~
@@ -146,7 +144,7 @@ MUHAHAHAHAHAHAHAHAHAHA!
 8 8 0
 E
 #18612
-tackle dummy clueless~
+clueless tackle dummy~
 the Clueless Tackle Dummy~
 A Clueless Tackle Dummy is here looking terribly confused. TACKLE!
 ~
@@ -160,7 +158,7 @@ put him out of his misery.
 8 8 0
 E
 #18613
-tackle dummy idiot~
+idiot tackle dummy~
 the Idiot Tackle Dummy~
 There is a Idiot Tackle Dummy taunting you with F-BOMBS! TACKLE!
 ~
@@ -174,7 +172,7 @@ some others you might see.
 8 8 0
 E
 #18614
-tackle dummy moron~
+moron tackle dummy~
 the Moron Tackle Dummy~
 A Moron Tackle Dummy is here wandering about aimlessly. TACKLE!
 ~
@@ -188,7 +186,7 @@ should help him out?
 8 8 0
 E
 #18615
-tackle dummy bitch~
+bitch tackle dummy~
 the Bitch Tackle Dummy~
 A Bitch Tackle Dummy is here, and he looks bitchy. TACKLE!
 ~
