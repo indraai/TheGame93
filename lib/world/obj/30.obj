@@ -584,46 +584,46 @@ A pair of Level 1 Tackle Suit Sleeves is lying on the ground.~
 2 0 0 0
 4 75 10 0 0
 #3087
-brown leather cape~
-a brown leather cape~
-A brown leather cape was abandoned on the floor~
+tsl1 tackle suit cape~
+TSLQ Cape~
+A Level 1 Tackle Suit Cape is lying on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 4 100 0 0 0
 E
-brown leather cape~
-   It is a rough brown leather cape that is frayed at the end.
+tsl1 tackle suite cape~
+It is a smooth blue cape that is of fine quality.
 ~
 A
 1 1
 #3088
-l1 utility belt~
-L1 Utility Belt~
-A level 1 tackle suit utility belt was left here.~
+tsl1 tackle suit utility belt~
+TSL1 Utility Belt~
+A Level 1 Tackle Suit Utility Belt was left here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
 2 0 0 0
 1 30 0 0 0
 E
-belt leather old~
-   It looks very, very old.
+tsl1 tackle suit utility belt~
+It looks very, very hi tech.
 ~
 A
 18 2
 A
 1 1
 #3089
-l1 wrist guard~
-L1 Wrist Guard~
-A level 1 tackle suit wristguard lies in the dirt.~
+tsl1 tackle suit wristguard~
+TSL1 Wristguard~
+A Level 1 Tackle Suit Wristguard lies in the dirt.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 1 0 0 0
 3 30 0 0 0
 E
-l1 wrist guard~
-The level 1 tackle suit wristguard is extremely flexible and supportive.
+tsl1 wrist guard~
+The Level 1 Tackle Suit Wristguard is extremely flexible and supportive.
 It is designed to loosen and tighten to almost any size.
 ~
 #3096
