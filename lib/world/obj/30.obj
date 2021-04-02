@@ -147,8 +147,8 @@ A dagger with a long thin blade is here.~
 0 1 4 11
 1 10 10 0 0
 #3021
-tsl1 tsl1-is tackle suit immobalizer small~
-TSL1-IS Immobalizer (S)~
+tsl1 tsl1-ims tackle suit immobalizer small~
+TSL1-IMS Immobalizer (S)~
 A Small Level 1 Tackle Suit Immobalizer is here.~
 ~
 5 e 0 0 0 an 0 0 0 0 0 0 0
@@ -491,8 +491,8 @@ A pair of bronze gauntlets is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3071
-tsl1 tsl1-g tackle suit gloves~
-TSL1-G Gloves (2)~
+tsl1 tsl1-gl tackle suit gloves~
+TSL1-GL Gloves (2)~
 A pair of level 1 tackle suit gloves is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
@@ -507,16 +507,16 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-tsl1 tsl1-h tackle suit helment~
-TSL1-H Helmet~
+tsl1 tsl1-he tackle suit helment~
+TSL1-HE Helmet~
 A Level 1 Tackle Suit Helmet is on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
 3 150 10 0 0
 #3080
-tsl1 tsl1-s shin guards~
-TSL1-S Shin Guards (2)~
+tsl1 tsl1-sg shin guards~
+TSL1-SG Shin Guards (2)~
 A pair of Level 1 Tackle Suit Shin Guards tackle suit shin guards is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
@@ -584,8 +584,8 @@ A pair of Level 1 Tackle Suit Sleeves is lying on the ground.~
 2 0 0 0
 4 75 10 0 0
 #3087
-tsl1 tsl1-c tackle suit cape~
-TSL1-C Cape~
+tsl1 tsl1-ca tackle suit cape~
+TSL1-CA Cape~
 A Level 1 Tackle Suit Cape is lying on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
@@ -614,8 +614,8 @@ A
 A
 1 1
 #3089
-tsl1 tsl1-w tackle suit wristguard~
-TSL1-W Wristguard~
+tsl1 tsl1-wg tackle suit wristguard~
+TSL1-WG Wristguard~
 A Level 1 Tackle Suit Wristguard lies in the dirt.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
