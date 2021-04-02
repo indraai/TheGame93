@@ -531,16 +531,16 @@ A pair of leather pants is lying on the ground.~
 3 0 0 0
 8 150 10 0 0
 #3082
-l1 leather neck guard~
-L1 Neck Guard~
-A Level 1 tackle suit neck guard has been left here~
+l1ts tackle suit neck guard~
+L1TS Neck Guard~
+A Level 1 Tackle Suit Neck Guard has been left here~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
 1 10 0 0 0
 E
-l1 tackle suit neck guard~
-This Level 1 tackle suite neck guard the neck in battle.
+l1ts tackle suit neck guard~
+This Level 1 tackle suite neck guard will guard your neck in battle.
 ~
 #3083
 leather ring~
