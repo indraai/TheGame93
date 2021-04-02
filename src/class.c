@@ -45,10 +45,10 @@ const char *pc_class_types[] = {
 const char *class_menu =
 "\r\n"
 "Select a class:\r\n"
-"  [\t(C\t)]leric\r\n"
+"  [\t(M\t)] Monk\r\n"
 "  [\t(T\t)]hief\r\n"
 "  [\t(W\t)]arrior\r\n"
-"  [\t(M\t)]agic-user\r\n";
+"  [\t(S\t)] Sage\r\n";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -57,8 +57,8 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case 'm': return CLASS_MAGIC_USER;
-  case 'c': return CLASS_CLERIC;
+  case 's': return CLASS_MAGIC_USER;
+  case 'm': return CLASS_MONK;
   case 'w': return CLASS_WARRIOR;
   case 't': return CLASS_THIEF;
   default:  return CLASS_UNDEFINED;
@@ -125,7 +125,7 @@ struct guild_info_type guild_info[] = {
 
 /* Amaravati */
  { CLASS_MAGIC_USER,    3017,    SOUTH   },
- { CLASS_CLERIC,        3004,    NORTH   },
+ { CLASS_MONK,        3004,    NORTH   },
  { CLASS_THIEF,         3027,    EAST   },
  { CLASS_WARRIOR,       3021,    EAST   },
 
@@ -383,7 +383,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_CLERIC:
+  case CLASS_MONK:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -1211,7 +1211,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for mage thac0.");
     }
-  case CLASS_CLERIC:
+  case CLASS_MONK:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1379,7 +1379,7 @@ void roll_real_abils(struct char_data *ch)
     ch->real_abils.con = table[4];
     ch->real_abils.cha = table[5];
     break;
-  case CLASS_CLERIC:
+  case CLASS_MONK:
     ch->real_abils.wis = table[0];
     ch->real_abils.intel = table[1];
     ch->real_abils.str = table[2];
@@ -1427,7 +1427,7 @@ void do_start(struct char_data *ch)
   case CLASS_MAGIC_USER:
     break;
 
-  case CLASS_CLERIC:
+  case CLASS_MONK:
     break;
 
   case CLASS_THIEF:
@@ -1474,7 +1474,7 @@ void advance_level(struct char_data *ch)
     add_move = rand_number(0, 2);
     break;
 
-  case CLASS_CLERIC:
+  case CLASS_MONK:
     add_hp += rand_number(5, 10);
     add_mana = rand_number(GET_LEVEL(ch), (int)(1.5 * GET_LEVEL(ch)));
     add_mana = MIN(add_mana, 10);
@@ -1500,7 +1500,7 @@ void advance_level(struct char_data *ch)
   if (GET_LEVEL(ch) > 1)
     ch->points.max_mana += add_mana;
 
-  if (IS_MAGIC_USER(ch) || IS_CLERIC(ch))
+  if (IS_MAGIC_USER(ch) || IS_MONK(ch))
     GET_PRACTICES(ch) += MAX(2, wis_app[GET_WIS(ch)].bonus);
   else
     GET_PRACTICES(ch) += MIN(2, MAX(1, wis_app[GET_WIS(ch)].bonus));
@@ -1542,7 +1542,7 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGIC_USER) && IS_MAGIC_USER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_CLERIC) && IS_CLERIC(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && IS_WARRIOR(ch))
@@ -1586,38 +1586,38 @@ void init_spell_levels(void)
   spell_level(SPELL_ENCHANT_WEAPON, CLASS_MAGIC_USER, 26);
   spell_level(SPELL_CLONE, CLASS_MAGIC_USER, 30);
 
-  /* CLERICS */
-  spell_level(SPELL_CURE_LIGHT, CLASS_CLERIC, 1);
-  spell_level(SPELL_ARMOR, CLASS_CLERIC, 1);
-  spell_level(SPELL_CREATE_FOOD, CLASS_CLERIC, 2);
-  spell_level(SPELL_CREATE_WATER, CLASS_CLERIC, 2);
-  spell_level(SPELL_DETECT_POISON, CLASS_CLERIC, 3);
-  spell_level(SPELL_DETECT_ALIGN, CLASS_CLERIC, 4);
-  spell_level(SPELL_CURE_BLIND, CLASS_CLERIC, 4);
-  spell_level(SPELL_BLESS, CLASS_CLERIC, 5);
-  spell_level(SPELL_DETECT_INVIS, CLASS_CLERIC, 6);
-  spell_level(SPELL_BLINDNESS, CLASS_CLERIC, 6);
-  spell_level(SPELL_INFRAVISION, CLASS_CLERIC, 7);
-  spell_level(SPELL_PROT_FROM_EVIL, CLASS_CLERIC, 8);
-  spell_level(SPELL_POISON, CLASS_CLERIC, 8);
-  spell_level(SPELL_GROUP_ARMOR, CLASS_CLERIC, 9);
-  spell_level(SPELL_CURE_CRITIC, CLASS_CLERIC, 9);
-  spell_level(SPELL_SUMMON, CLASS_CLERIC, 10);
-  spell_level(SPELL_REMOVE_POISON, CLASS_CLERIC, 10);
-  spell_level(SPELL_IDENTIFY, CLASS_CLERIC, 11);
-  spell_level(SPELL_WORD_OF_RECALL, CLASS_CLERIC, 12);
-  spell_level(SPELL_DARKNESS, CLASS_CLERIC, 12);
-  spell_level(SPELL_EARTHQUAKE, CLASS_CLERIC, 12);
-  spell_level(SPELL_DISPEL_EVIL, CLASS_CLERIC, 14);
-  spell_level(SPELL_DISPEL_GOOD, CLASS_CLERIC, 14);
-  spell_level(SPELL_SANCTUARY, CLASS_CLERIC, 15);
-  spell_level(SPELL_CALL_LIGHTNING, CLASS_CLERIC, 15);
-  spell_level(SPELL_HEAL, CLASS_CLERIC, 16);
-  spell_level(SPELL_CONTROL_WEATHER, CLASS_CLERIC, 17);
-  spell_level(SPELL_SENSE_LIFE, CLASS_CLERIC, 18);
-  spell_level(SPELL_HARM, CLASS_CLERIC, 19);
-  spell_level(SPELL_GROUP_HEAL, CLASS_CLERIC, 22);
-  spell_level(SPELL_REMOVE_CURSE, CLASS_CLERIC, 26);
+  /* MONKS */
+  spell_level(SPELL_CURE_LIGHT, CLASS_MONK, 1);
+  spell_level(SPELL_ARMOR, CLASS_MONK, 1);
+  spell_level(SPELL_CREATE_FOOD, CLASS_MONK, 2);
+  spell_level(SPELL_CREATE_WATER, CLASS_MONK, 2);
+  spell_level(SPELL_DETECT_POISON, CLASS_MONK, 3);
+  spell_level(SPELL_DETECT_ALIGN, CLASS_MONK, 4);
+  spell_level(SPELL_CURE_BLIND, CLASS_MONK, 4);
+  spell_level(SPELL_BLESS, CLASS_MONK, 5);
+  spell_level(SPELL_DETECT_INVIS, CLASS_MONK, 6);
+  spell_level(SPELL_BLINDNESS, CLASS_MONK, 6);
+  spell_level(SPELL_INFRAVISION, CLASS_MONK, 7);
+  spell_level(SPELL_PROT_FROM_EVIL, CLASS_MONK, 8);
+  spell_level(SPELL_POISON, CLASS_MONK, 8);
+  spell_level(SPELL_GROUP_ARMOR, CLASS_MONK, 9);
+  spell_level(SPELL_CURE_CRITIC, CLASS_MONK, 9);
+  spell_level(SPELL_SUMMON, CLASS_MONK, 10);
+  spell_level(SPELL_REMOVE_POISON, CLASS_MONK, 10);
+  spell_level(SPELL_IDENTIFY, CLASS_MONK, 11);
+  spell_level(SPELL_WORD_OF_RECALL, CLASS_MONK, 12);
+  spell_level(SPELL_DARKNESS, CLASS_MONK, 12);
+  spell_level(SPELL_EARTHQUAKE, CLASS_MONK, 12);
+  spell_level(SPELL_DISPEL_EVIL, CLASS_MONK, 14);
+  spell_level(SPELL_DISPEL_GOOD, CLASS_MONK, 14);
+  spell_level(SPELL_SANCTUARY, CLASS_MONK, 15);
+  spell_level(SPELL_CALL_LIGHTNING, CLASS_MONK, 15);
+  spell_level(SPELL_HEAL, CLASS_MONK, 16);
+  spell_level(SPELL_CONTROL_WEATHER, CLASS_MONK, 17);
+  spell_level(SPELL_SENSE_LIFE, CLASS_MONK, 18);
+  spell_level(SPELL_HARM, CLASS_MONK, 19);
+  spell_level(SPELL_GROUP_HEAL, CLASS_MONK, 22);
+  spell_level(SPELL_REMOVE_CURSE, CLASS_MONK, 26);
 
   /* THIEVES */
   spell_level(SKILL_SNEAK, CLASS_THIEF, 1);
@@ -1695,7 +1695,7 @@ int level_exp(int chclass, int level)
     }
     break;
 
-    case CLASS_CLERIC:
+    case CLASS_MONK:
     switch (level) {
       case  0: return 0;
       case  1: return 1;
@@ -1865,7 +1865,7 @@ const char *title_male(int chclass, int level)
       default: return "the Mage";
     }
 
-    case CLASS_CLERIC:
+    case CLASS_MONK:
     switch (level) {
       case  1: return "the Believer";
       case  2: return "the Attendant";
@@ -1891,7 +1891,7 @@ const char *title_male(int chclass, int level)
       case LVL_IMMORT: return "the Immortal Cardinal";
       case LVL_GOD: return "the Inquisitor";
       case LVL_GRGOD: return "the God of Good and Evil";
-      default: return "the Cleric";
+      default: return "the Monk";
     }
 
     case CLASS_THIEF:
@@ -2005,7 +2005,7 @@ const char *title_female(int chclass, int level)
       default: return "the Witch";
     }
 
-    case CLASS_CLERIC:
+    case CLASS_MONK:
     switch (level) {
       case  1: return "the Believer";
       case  2: return "the Attendant";
@@ -2031,7 +2031,7 @@ const char *title_female(int chclass, int level)
       case LVL_IMMORT: return "the Immortal Priestess";
       case LVL_GOD: return "the Inquisitress";
       case LVL_GRGOD: return "the Goddess of Good and Evil";
-      default: return "the Cleric";
+      default: return "the Monk";
     }
 
     case CLASS_THIEF:
@@ -2096,4 +2096,3 @@ const char *title_female(int chclass, int level)
   /* Default title for classes which do not have titles defined */
   return "the Classless";
 }
-

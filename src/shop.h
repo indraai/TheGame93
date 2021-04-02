@@ -1,13 +1,13 @@
 /**
 * @file shop.h
 * Shop file definitions, structures, constants.
-* 
+*
 * Part of the core tbaMUD source code distribution, which is a derivative
 * of, and continuation of, CircleMUD.
-*                                                                        
-* All rights reserved.  See license for complete information.                                                                
-* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University 
-* CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               
+*
+* All rights reserved.  See license for complete information.
+* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University
+* CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.
 */
 #ifndef _SHOP_H_
 #define _SHOP_H_
@@ -78,7 +78,7 @@ struct shop_data {
 #define TRADE_NOEVIL       (1 << 1)
 #define TRADE_NONEUTRAL    (1 << 2)
 #define TRADE_NOMAGIC_USER (1 << 3)
-#define TRADE_NOCLERIC     (1 << 4)
+#define TRADE_NOMONK       (1 << 4)
 #define TRADE_NOTHIEF      (1 << 5)
 #define TRADE_NOWARRIOR    (1 << 6)
 /** Total number of trade types */
@@ -123,7 +123,7 @@ struct stack_data {
 #define NOTRADE_EVIL(i)		(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOEVIL))
 #define NOTRADE_NEUTRAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NONEUTRAL))
 #define NOTRADE_MAGIC_USER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOMAGIC_USER))
-#define NOTRADE_CLERIC(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOCLERIC))
+#define NOTRADE_MONK(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOMONK))
 #define NOTRADE_THIEF(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOTHIEF))
 #define NOTRADE_WARRIOR(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOWARRIOR))
 

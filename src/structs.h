@@ -147,7 +147,7 @@
 /* PC classes */
 #define CLASS_UNDEFINED	  (-1) /**< PC Class undefined */
 #define CLASS_MAGIC_USER  0    /**< PC Class Magic User */
-#define CLASS_CLERIC      1    /**< PC Class Cleric */
+#define CLASS_MONK        1    /**< PC Class Cleric */
 #define CLASS_THIEF       2    /**< PC Class Thief */
 #define CLASS_WARRIOR     3    /**< PC Class Warrior */
 /** Total number of available PC Classes */
@@ -420,7 +420,7 @@
 #define ITEM_ANTI_EVIL        10   /**< Not usable by evil people	*/
 #define ITEM_ANTI_NEUTRAL     11   /**< Not usable by neutral people */
 #define ITEM_ANTI_MAGIC_USER  12   /**< Not usable by mages */
-#define ITEM_ANTI_CLERIC      13   /**< Not usable by clerics */
+#define ITEM_ANTI_MONK        13   /**< Not usable by MONKS */
 #define ITEM_ANTI_THIEF	      14   /**< Not usable by thieves */
 #define ITEM_ANTI_WARRIOR     15   /**< Not usable by warriors */
 #define ITEM_NOSELL           16   /**< Shopkeepers won't touch it */
@@ -724,7 +724,7 @@ struct obj_data
   struct obj_data *next_content;  /**< For 'contains' lists   */
   struct obj_data *next;          /**< For the object list */
   struct char_data *sitting_here; /**< For furniture, who is sitting in it */
-  
+
   struct list_data *events;      /**< Used for object events */
 };
 
@@ -803,8 +803,8 @@ struct room_data
   struct script_data *script; /**< script info for the room */
   struct obj_data *contents;  /**< List of items in room */
   struct char_data *people;   /**< List of NPCs / PCs in room */
-  
-  struct list_data * events;  
+
+  struct list_data * events;
 };
 
 /* char-related structures */
@@ -1048,7 +1048,7 @@ struct char_data
   struct group_data *group;      /**< Character's Group */
 
   long pref; /**< unique session id */
-  
+
   struct list_data * events;
 };
 
@@ -1105,7 +1105,7 @@ struct descriptor_data
   struct descriptor_data *next;     /**< link to next descriptor		*/
   struct oasis_olc_data *olc;       /**< OLC info */
   protocol_t *pProtocol;    /**< Kavir plugin */
-  
+
   struct list_data * events;
 };
 
@@ -1314,7 +1314,7 @@ struct game_data
   int script_players;     /**< Is attaching scripts to players allowed? */
 
   char *OK;       /**< When player receives 'Okay.' text.    */
-  char *HUH;      /**< 'Huh!?!'                              */ 
+  char *HUH;      /**< 'Huh!?!'                              */
   char *NOPERSON; /**< 'No one by that name here.'           */
   char *NOEFFECT; /**< 'Nothing seems to happen.'            */
 };

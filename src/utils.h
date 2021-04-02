@@ -844,7 +844,7 @@ do                                                              \
 
 /** True total number of directions available to move in. */
 #define DIR_COUNT ((CONFIG_DIAGONAL_DIRS) ? 10 : 6)
- 
+
 /* Returns TRUE if the direction is a diagonal one */
 #define IS_DIAGONAL(dir) (((dir) == NORTHWEST) || ((dir) == NORTHEAST) || \
 		((dir) == SOUTHEAST) || ((dir) == SOUTHWEST) )
@@ -856,8 +856,8 @@ do                                                              \
 #define IS_MAGIC_USER(ch)	(!IS_NPC(ch) && \
         (GET_CLASS(ch) == CLASS_MAGIC_USER))
 /** 1 if ch is cleric class, 0 if not. */
-#define IS_CLERIC(ch)		(!IS_NPC(ch) && \
-        (GET_CLASS(ch) == CLASS_CLERIC))
+#define IS_MONK(ch)		(!IS_NPC(ch) && \
+        (GET_CLASS(ch) == CLASS_MONK))
 /** 1 if ch is thief class, 0 if not. */
 #define IS_THIEF(ch)		(!IS_NPC(ch) && \
         (GET_CLASS(ch) == CLASS_THIEF))

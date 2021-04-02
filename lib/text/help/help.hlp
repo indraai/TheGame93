@@ -1800,7 +1800,7 @@ CLASSES
 
 WARRIOR
 MAGIC USER
-CLERIC
+MONK
 THIEF
 
 #0
@@ -1811,9 +1811,9 @@ Usage: cls
 Clears the screen.
 
 #0
-CLERIC
+MONK
 
-Clerics have an ancient belief in not carrying sharp weapons.  Hence, they can
+Monks have an ancient belief in not carrying sharp weapons.  Hence, they can
 only wield bludgeoning weapons.  This class gives you the wisdom of peace,
 blessing and healing, though it is possible to learn more violent spells.
 
@@ -5928,7 +5928,7 @@ OEDIT-EXTRA-FLAGS OEDIT-FLAGS OBJECT-FLAGS OBJECTFLAGS GLOW HUM NODROP NO_DROP N
 11)  ANTI_EVIL       Item cannot be used by evil-aligned characters.
 12)  ANTI_NEUTRAL    Item cannot be used by neutral align characters.
 13)  ANTI_MAGIC_USER Item cannot be used by the Mage class.
-14)  ANTI_CLERIC     Item cannot be used by the Cleric class.
+14)  ANTI_MONK       Item cannot be used by the Monk class.
 15)  ANTI_THIEF      Item cannot be used by the Thief class.
 16)  ANTI_WARRIOR    Item cannot be used by the Warrior class.
 17)  NOSELL          Shopkeepers will not buy or sell the item.
@@ -6965,7 +6965,7 @@ unmotivated and with the exception of a little private doodling in
 Word, I had stopped building altogether. It took no more than a few
 days on TBA to make my mind start dreaming up new plots and
 schemes, planning a huge library meant to be a place that can help
-roleplayers evolve their clerics and mages at a scholarly level. I'm
+roleplayers evolve their monks and mages at a scholarly level. I'm
 thoroughly enjoying every moment in there because, more than
 anything else, TBA remembers that building (and mudding in general)
 before anything else, is supposed to be fun.
@@ -8959,7 +8959,7 @@ races and classes may not need air, food, or water. Some may not have feet,
 clothing, eyes. Pretty much anything is possible, so know the MUD and its
 mortals before you start building.
    Try to make your area interesting for all the major character classes, not
-just warriors or mages. Build in parts where thieves and clerics have a
+just warriors or mages. Build in parts where thieves and monks have a
 special part to play. By the same token, do not assume all anyone wants is
 +damage equipment.
 

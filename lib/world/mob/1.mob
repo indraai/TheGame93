@@ -303,8 +303,8 @@ and you notice that she is surrounded by a blue shimmering aura.
 8 8 2
 E
 #121
-guildmaster master cleric~
-the clerics' guildmaster~
+guildmaster master monk~
+the monk's guildmaster~
 Your guildmaster is praying here.
 ~
    You are in no doubt that this guildmaster is truly close to the Gods; he has
@@ -1059,9 +1059,9 @@ or standing watch over something, but you can't tell what.
 E
 T 134
 #174
-cleric guildguard~
-the cleric guildguard~
-A cleric carefully watches a set of stairs leading up.
+monk guildguard~
+the monk guildguard~
+A monk carefully watches a set of stairs leading up.
 ~
    He looks intent on whatever purpose he has been given
 ~
@@ -1238,7 +1238,7 @@ healer~
 the healer~
 A healer is bent over from old age.
 ~
-   His fellow clerics forced this poor old man into retirement.  He didn't
+   His fellow monks forced this poor old man into retirement.  He didn't
 listen and instead opened up his own shop.  For a small fee he can fix you
 right up.
 ~
@@ -1409,9 +1409,9 @@ building of houses.  He looks very busy and should not be bothered.
 E
 T 106
 #198
-temple cleric~
-a temple cleric~
-A temple cleric tends to the sick and wounded.
+temple monk~
+a temple monk~
+A temple monk tends to the sick and wounded.
 ~
    He looks like he enjoys his job very much.  Helping those who are in need
 for nothing more than a warm smile.  He is very gentle and looks like he cares

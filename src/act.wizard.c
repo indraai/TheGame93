@@ -89,32 +89,32 @@ static int purge_room(room_rnum room)
   return 1;
 }
 
-ACMD(do_wizhelp) 
-{ 
-  extern int *cmd_sort_info; 
-  int no = 1, i, cmd_num; 
+ACMD(do_wizhelp)
+{
+  extern int *cmd_sort_info;
+  int no = 1, i, cmd_num;
   int level;
 
   if (!ch->desc)
     return;
 
-  send_to_char(ch, "The following privileged commands are available:\r\n"); 
-  
-  for (level = LVL_IMPL; level >= LVL_IMMORT; level--) { 
-    send_to_char(ch, "%sLevel %d%s:\r\n", CCCYN(ch, C_NRM), level, CCNRM(ch, C_NRM)); 
-    for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) { 
-      i = cmd_sort_info[cmd_num]; 
-  
-      if (complete_cmd_info[i].minimum_level != level) 
-        continue;            
-  
-      send_to_char(ch, "%-14s%s", complete_cmd_info[i].command, no++ % 7 == 0 ? "\r\n" : ""); 
-    } 
-    if (no % 7 != 1) 
-      send_to_char(ch, "\r\n"); 
-    if (level != LVL_IMMORT) 
-      send_to_char(ch, "\r\n"); 
-  } 
+  send_to_char(ch, "The following privileged commands are available:\r\n");
+
+  for (level = LVL_IMPL; level >= LVL_IMMORT; level--) {
+    send_to_char(ch, "%sLevel %d%s:\r\n", CCCYN(ch, C_NRM), level, CCNRM(ch, C_NRM));
+    for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) {
+      i = cmd_sort_info[cmd_num];
+
+      if (complete_cmd_info[i].minimum_level != level)
+        continue;
+
+      send_to_char(ch, "%-14s%s", complete_cmd_info[i].command, no++ % 7 == 0 ? "\r\n" : "");
+    }
+    if (no % 7 != 1)
+      send_to_char(ch, "\r\n");
+    if (level != LVL_IMMORT)
+      send_to_char(ch, "\r\n");
+  }
 }
 
 ACMD(do_echo)
@@ -1269,7 +1269,7 @@ void return_to_char(struct char_data * ch)
 
   /* And our body's pointer to descriptor now points to our descriptor. */
   ch->desc->character->desc = ch->desc;
-  ch->desc = NULL;  
+  ch->desc = NULL;
 }
 
 ACMD(do_return)
@@ -1443,7 +1443,7 @@ ACMD(do_purge)
   if (*buf) {
     t = buf;
     number = get_number(&t);
-    if ((vict = get_char_vis(ch, buf, &number, FIND_CHAR_ROOM)) != NULL) {      
+    if ((vict = get_char_vis(ch, buf, &number, FIND_CHAR_ROOM)) != NULL) {
       if (!IS_NPC(vict) && (GET_LEVEL(ch) <= GET_LEVEL(vict))) {
         send_to_char(ch, "You can't purge %s!\r\n", GET_NAME(vict));
 	return;
@@ -2069,7 +2069,7 @@ ACMD(do_last)
         strncpy(name, arg, sizeof(name)-1);
         name[sizeof(name) - 1] = '\0';
       }
-      
+
       half_chop(argument, arg, argument);
     }
   }
@@ -2756,9 +2756,9 @@ ACMD(do_show)
     len = strlcpy(buf, "LvL - Mu Cl Th Wa\r\n----------------\r\n", sizeof(buf));
 
     for (j = 1; j < LVL_IMMORT; j++) {
-      nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j, 
+      nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j,
 				thaco(CLASS_MAGIC_USER, j),
-				thaco(CLASS_CLERIC, j),
+				thaco(CLASS_MONK, j),
 				thaco(CLASS_THIEF, j),
 				thaco(CLASS_WARRIOR, j));
       if (len + nlen >= sizeof(buf))
@@ -2773,10 +2773,10 @@ ACMD(do_show)
   case 12:
     len = strlcpy(buf, "LvL - Mu     Cl     Th     Wa\r\n--------------------------\r\n", sizeof(buf));
 
-    for (i = 1; i < LVL_IMMORT; i++) { 
-      nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-6d %-6d %-6d %-6d\r\n", i,  
+    for (i = 1; i < LVL_IMMORT; i++) {
+      nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-6d %-6d %-6d %-6d\r\n", i,
 				level_exp(CLASS_MAGIC_USER, i) - level_exp(CLASS_MAGIC_USER, i - 1),
-				level_exp(CLASS_CLERIC, i) - level_exp(CLASS_CLERIC, i - 1),
+				level_exp(CLASS_MONK, i) - level_exp(CLASS_MONK, i - 1),
 				level_exp(CLASS_THIEF, i) - level_exp(CLASS_THIEF, i - 1),
 				level_exp(CLASS_WARRIOR, i) - level_exp(CLASS_WARRIOR, i - 1));
       if (len + nlen >= sizeof(buf))
@@ -4182,11 +4182,11 @@ ACMD(do_copyover)
    /* For each playing descriptor, save its state */
    for (d = descriptor_list; d ; d = d_next) {
      struct char_data * och = d->character;
-   
-   /* If d is currently in someone else's body, return them. */  
+
+   /* If d is currently in someone else's body, return them. */
    if (och && d->original)
      return_to_char(och);
-        
+
    /* We delete from the list , so need to save this */
      d_next = d->next;
 
@@ -4978,18 +4978,18 @@ bool AddRecentPlayer(char *chname, char *chhost, bool newplr, bool cpyplr)
   return TRUE;
 }
 
-void free_recent_players(void) 
+void free_recent_players(void)
 {
   struct recent_player *this;
   struct recent_player *temp;
-  
+
   this = recent_list;
-  
+
   while((temp = this) != NULL)
   {
 	this = this->next;
-	free(temp);  
-  }  	
+	free(temp);
+  }
 }
 
 ACMD(do_recent)
@@ -5082,13 +5082,13 @@ ACMD(do_oset)
 
   if (!*arg)
     send_to_char(ch, usage);
-  else if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)) && 
+  else if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)) &&
     !(obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents)))
     send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
   else {
      argument = one_argument(argument, arg2);
-     
-     if (!*arg2) 
+
+     if (!*arg2)
        send_to_char(ch, usage);
      else {
        if (is_abbrev(arg2, "alias") && (success = oset_alias(obj, argument)))
@@ -5098,9 +5098,9 @@ ACMD(do_oset)
        else if (is_abbrev(arg2, "shortdesc") && (success = oset_short_description(obj, argument)))
          send_to_char(ch, "Object short description set.\r\n");
        else if (is_abbrev(arg2, "apply") && (success = oset_apply(obj, argument)))
-         send_to_char(ch, "Object apply set.\r\n");           
+         send_to_char(ch, "Object apply set.\r\n");
        else {
-         if (!success) 
+         if (!success)
            send_to_char(ch, "%s was unsuccessful.\r\n", arg2);
          else
            send_to_char(ch, usage);

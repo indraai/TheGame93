@@ -29,7 +29,7 @@ SPECS:
 guilds:  {CLASS_WARRIOR, 6757, SCMD_WEST},
          {CLASS_THIEF, 6740, SCMD_EAST},
          {CLASS_MAGIC_USER, 6616, SCMD_UP},
-         {CLASS_CLERIC, 6661, SCMD_WEST},
+         {CLASS_MONK, 6661, SCMD_WEST},
    Room 6602 may function as a donation room if you desire.
 Room 6601 may serve as a player loadroom, with the following
 equipment loading with new players:

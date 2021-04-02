@@ -32,7 +32,7 @@ This little guy looks cute, but don't be fooled. Just a stupid tackle dummy wait
 ~
 72 0 0 0 0 0 0 0 -100 E
 4 19 7 0d0+40 1d2+0
-40 1600
+175 1600
 8 8 0
 E
 #18604
@@ -45,7 +45,7 @@ you seen that dragon?  Master will have my head if I don't find him.  '
 ~
 10 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
-90 900
+150 900
 8 8 0
 E
 #18605
@@ -83,7 +83,7 @@ You would feel sorry for it, but it is moving in to attack!
 ~
 108 0 0 0 0 0 0 0 -500 E
 4 19 7 0d0+40 1d2+0
-150 1600
+250 1600
 8 8 0
 E
 #18608
@@ -126,7 +126,7 @@ who cross its path.
 ~
 2122 0 0 0 1048596 0 0 0 -850 E
 6 18 6 1d1+60 1d2+1
-180 3600
+275 3600
 8 8 0
 E
 #18611
@@ -140,7 +140,7 @@ MUHAHAHAHAHAHAHAHAHAHA!
 ~
 76 0 0 0 0 0 0 0 -500 E
 2 20 8 0d0+20 1d2+0
-75 400
+125 400
 8 8 0
 E
 #18612
@@ -154,7 +154,7 @@ put him out of his misery.
 ~
 76 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
-30 100
+100 100
 8 8 0
 E
 #18613
@@ -168,7 +168,7 @@ some others you might see.
 ~
 72 0 0 0 0 0 0 0 -100 E
 3 19 8 0d0+30 1d2+0
-30 900
+100 900
 8 8 0
 E
 #18614
@@ -182,7 +182,7 @@ should help him out?
 ~
 72 0 0 0 0 0 0 0 -300 E
 4 19 7 0d0+40 1d2+0
-75 1600
+175 1600
 8 8 0
 E
 #18615
