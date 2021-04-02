@@ -855,7 +855,7 @@ do                                                              \
 /** 1 if ch is magic user class, 0 if not. */
 #define IS_MAGIC_USER(ch)	(!IS_NPC(ch) && \
         (GET_CLASS(ch) == CLASS_MAGIC_USER))
-/** 1 if ch is cleric class, 0 if not. */
+/** 1 if ch is monk class, 0 if not. */
 #define IS_MONK(ch)		(!IS_NPC(ch) && \
         (GET_CLASS(ch) == CLASS_MONK))
 /** 1 if ch is thief class, 0 if not. */

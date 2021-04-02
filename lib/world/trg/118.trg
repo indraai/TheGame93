@@ -1744,7 +1744,7 @@ if %cmd.mudcommand% == look || %cmd.mudcommand% == examine
     else
       set align with a purity of goodness
     end
-    if %actor.class% == Cleric
+    if %actor.class% == 
       set class healer
     elseif %actor.class% == Warrior
       set class fighter

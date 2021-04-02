@@ -1,5 +1,5 @@
 #23600
-Cleric Fight Spec - 23621~
+ Fight Spec - 23621~
 0 k 35
 ~
 * select the spell

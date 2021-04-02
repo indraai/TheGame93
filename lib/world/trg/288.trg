@@ -1,8 +1,8 @@
 #28800
-Cleric Fight Function~
+ Fight Function~
 0 k 35
 ~
-* Written by Fizban to imitate ROM Cleric Function
+* Written by Fizban to imitate ROM  Function
 set current_hp %actor.hitp%
 set rand %random.7%
 * The dmg 5000 is actually non-damage, not damage.
@@ -91,7 +91,7 @@ done
 Mage Fight Function~
 0 k 35
 ~
-* Written by Fizban to imitate ROM Cleric Function
+* Written by Fizban to imitate ROM  Function
 * adjusted to imitate TBA Mage Functions
 set current_hp %actor.hitp%
 set rand %random.5%

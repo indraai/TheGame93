@@ -288,7 +288,7 @@ In the background, you can faintly hear the singing of religious ballads.
 As you walk towards the counter, you realize you will have to deal with
 a Hare Krishna (almost as bad as those guys who go door to door).
 A small price to pay for the goods you may obtain here.
-   The entrance to the Clerics' Guild is to the west.  Broadway is to
+   The entrance to the s' Guild is to the west.  Broadway is to
 the east.
 ~
 275 8 0 0 0 0
@@ -298,7 +298,7 @@ You see Broadway.
 ~
 0 -1 27506
 D3
-You see the Clerics' Guild.
+You see the s' Guild.
 ~
 ~
 0 -1 27519
@@ -403,9 +403,9 @@ It is Broadway.
 0 -1 27511
 S
 #27519
-The Entrance To The Clerics' Guild~
+The Entrance To The s' Guild~
    The entrance hall is a small modest room, reflecting the true nature
-of the Clerics.
+of the s.
    Harry's Pharmacy is to the east and the bar is to the west.
 ~
 275 8 0 0 0 0
@@ -415,20 +415,20 @@ Harry's Pharmacy is there.
 ~
 0 -1 27513
 D3
-You see the Clerics' Bar.
+You see the s' Bar.
 ~
 ~
 0 -1 27520
 S
 #27520
-The Clerics' Bar~
+The s' Bar~
    The Bar is one of the finest in the land, lucky for you it is members
 only.  Fine furniture is set all around the room.  A small sign is hanging
 on the wall.
 ~
 275 8 0 0 0 0
 D1
-Entrance to the Clerics' Guild.
+Entrance to the s' Guild.
 ~
 ~
 0 -1 27519
@@ -440,13 +440,13 @@ The Inner Sanctum.
 S
 #27521
 The Inner Sanctum~
-   This is the holy ground for the Clerics.  You feel at peace with
+   This is the holy ground for the s.  You feel at peace with
 nature here as well as a strange sense of power.
-   The Clerics' bar is to the east.
+   The s' bar is to the east.
 ~
 275 8 0 0 0 0
 D1
-The Clerics' Bar.
+The s' Bar.
 ~
 ~
 0 -1 27520
@@ -1048,7 +1048,7 @@ S
 #27545
 The Blue Seats~
    You are standing in one of the raunchiest set of bleachers
-anyone has ever seen or heard.  You Clerics had better cover
+anyone has ever seen or heard.  You s had better cover
 your ears.
    The Blue Seats continue west.
 ~

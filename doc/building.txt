@@ -1619,7 +1619,7 @@ E) No Trade With  : NOBITS
 
  1) Good                    2) Evil
  3) Neutral                 4) Magic User
- 5) Cleric                  6) Thief
+ 5)                   6) Thief
  7) Warrior
 
 Shop Room 1...Shop Room n The virtual numbers the mobile must be in for the
@@ -1743,7 +1743,7 @@ values:
 2 b NOEVIL Keeper won’t trade with evilly-aligned players.
 4 c NONEUTRAL Keeper won’t trade with neutrally-aligned players.
 8 d NOMAGIC_USER Keeper won’t trade with the Mage class.
-16 e NOMONK Keeper won’t trade with the Cleric class. 
+16 e NOMONK Keeper won’t trade with the  class. 
 32 f NOTHIEF Keeper won’t trade with the Thief class.
 64 g NOWARRIOR Keeper won’t trade with the Warrior class.
 

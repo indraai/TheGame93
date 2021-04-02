@@ -938,9 +938,9 @@ test class~
 2 c 100
 test~
 %echo% firing
-nop %actor.class(cleric)%
-set %actor.class(cleric)%
-%actor.class(cleric)%
+nop %actor.class(monk)%
+set %actor.class(monk)%
+%actor.class(monk)%
 ~
 #1138
 test imm force~

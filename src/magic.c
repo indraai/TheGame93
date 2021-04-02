@@ -240,7 +240,7 @@ int mag_damage(int level, struct char_data *ch, struct char_data *victim,
       dam = dice(11, 6) + 11;
     break;
 
-    /* Mostly clerics */
+    /* Mostly monks */
   case SPELL_DISPEL_EVIL:
     dam = dice(6, 8) + 6;
     if (IS_EVIL(ch)) {

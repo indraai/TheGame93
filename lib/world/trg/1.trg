@@ -608,7 +608,7 @@ if %direction% == up
 end
 ~
 #135
-Cleric Guildguard - 174~
+ Guildguard - 174~
 0 q 100
 ~
 * Check the direction the player must go to enter the guild.

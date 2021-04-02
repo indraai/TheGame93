@@ -636,7 +636,7 @@ S
 #232
 Warriors Avenue~
    This avenue is just north of the center of the western half of Sanctus where
-the Warriors Quarter and Clerics Quarters meet.  The Western Road runs from the
+the Warriors Quarter and s Quarters meet.  The Western Road runs from the
 temple to the west gate.  Very few people are about, mostly just soldiers on
 patrol.
 ~
@@ -848,7 +848,7 @@ S
 #244
 The Western Road~
    The road leads directly from the Temple to the western gate.  To the north
-one can see the Warriors Barracks and to the south the Hall of Clerics.  The
+one can see the Warriors Barracks and to the south the Hall of s.  The
 road consists of hard packed dirt with a few ruts from wagons.  The hustle and
 bustle of the city can be heard all around.
 ~
@@ -866,7 +866,7 @@ S
 The Western Road~
    In the western half of the city one can see a large building set aside for
 the army to the north while a smaller building to the south appears to be part
-of the clerics' quarter.  The temple rises high above to the east.  Here, one
+of the monks' quarter.  The temple rises high above to the east.  Here, one
 could leave the protection of the city and go west through the gate.
 ~
 2 0 0 0 0 1
@@ -1191,7 +1191,7 @@ S
 A Bathroom~
    The natural scent of the room is masked by an abundance of flowers growing
 in small pots lining the walls.  A large wooden box crafted like a chair with a
-hole cut in the top must be the only bathroom in the entire Hall of Clerics.
+hole cut in the top must be the only bathroom in the entire Hall of s.
 You can hear something moving around below you.
 ~
 2 8 0 0 0 1
@@ -1201,8 +1201,8 @@ D2
 0 0 274
 S
 #262
-Clerics Avenue~
-   To the north one can leave the Clerics Quarter and either continue to the
+s Avenue~
+   To the north one can leave the s Quarter and either continue to the
 Warriors Quarter, go east into the Temple of Sanctus or west to the western
 gate.  A large building and the inner city wall on each side of this north south
 street leaves little room for walking.
@@ -1433,10 +1433,10 @@ D3
 0 0 273
 S
 #275
-Clerics Avenue~
-   The building to the west is the Hall of Clerics where the High Council holds
+s Avenue~
+   The building to the west is the Hall of s where the High Council holds
 audience with any who request it.  To the east the inner city wall looks about
-as impenetrable as any wall ever seen.  Clerics Avenue continues north and
+as impenetrable as any wall ever seen.  s Avenue continues north and
 south.
 ~
 2 0 0 0 0 1
@@ -1500,7 +1500,7 @@ S
 Southern Temple Entrance~
    This appears to be a small foyer at the southern end of the Temple of
 Sanctus.  The white marble walls have been polished smooth.  A small road to the
-south leads to the Cleric's and Magi's quarters of the city.  The scent of
+south leads to the 's and Magi's quarters of the city.  The scent of
 flowers fills the air with a soothing aroma.
 ~
 2 8 0 0 0 1
@@ -1658,7 +1658,7 @@ D2
 0 0 300
 S
 #288
-Clerics Avenue~
+s Avenue~
    The inner city wall to the east consists of large boulders, that look to be
 too big to move by any humans, and some sort of filler.  The wall rises at least
 three times the average man's height and one can not tell how thick it must be.
@@ -1740,7 +1740,7 @@ T 211
 The Southern Temple Circle Intersection~
    The southern entrance to the Temple of Sanctus lies just to the north.  It is
 also possible to travel along the Temple Circle east and west.  To the south one
-can exit the inner city and work their way into the magi or clerics' Quarters.
+can exit the inner city and work their way into the magi or monks' Quarters.
 ~
 2 0 0 0 0 1
 D0
@@ -1824,7 +1824,7 @@ S
 Magi Avenue~
    The stark inner city wall to the west bears a sharp contrast to the luxurious
 mansion to the east.  The magi have trained hard to become very powerful within
-the city and have begun living the life that shows it.  Unlike the clerics who
+the city and have begun living the life that shows it.  Unlike the monks who
 do not believe in worldly possessions the Magi surround themselves with it.
 ~
 2 0 0 0 0 1

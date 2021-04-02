@@ -85,7 +85,7 @@ E
 mural murals~
    You see pictures of great Dragons killing horrible monsters.  You also see
 Warriors and Thieves killing monsters that attacked some town.  The Wizards and
-Clerics are behind the warriors, casting their spells.  They glow as they
+s are behind the warriors, casting their spells.  They glow as they
 attempt to cast.  You see in small writing, the words Bellau wood.
 ~
 S
@@ -1158,7 +1158,7 @@ S
 #23267
 Guild row~
    You see a bright blue light coming from the north.  There is emptiness coming
-from the south.  You can guess that these are the cleric guilds and the thieves
+from the south.  You can guess that these are the monk guilds and the thieves
 guild.
 ~
 232 0 0 0 0 1
@@ -1176,8 +1176,8 @@ D3
 0 0 23266
 S
 #23268
-Entrance to the Cleric Guild~
-   The clerics may come here to practice their skills when they have the need to
+Entrance to the  Guild~
+   The monks may come here to practice their skills when they have the need to
 expand their skills.  The guildmaster awaits your arrival, please don't
 hesitate.
 ~
@@ -1302,8 +1302,8 @@ D3
 0 0 23270
 S
 #23276
-Clerics Guild~
-   The Cleric Guildsmaster is here waiting to help you.  This room has a very
+s Guild~
+   The  Guildsmaster is here waiting to help you.  This room has a very
 peaceful feeling about it.  You feel enlightened when you enter here.
 ~
 232 156 0 0 0 1

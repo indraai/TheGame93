@@ -342,12 +342,12 @@ ACTOR.CLASS ACTOR-CLASS %ACTOR.CLASS%
 
 This is used in scripts to find the actors class, or to adjust it.
 
-%actor.class%          - return the class of actor (e.g. Cleric)
+%actor.class%          - return the class of actor (e.g. )
 %actor.class(<class>)% - set the actor class (returns 1 on success)
 
 Example:
-if %actor.class% == Cleric
- say I don't like Clerics!
+if %actor.class% ==
+ say I don't like s!
  if %actor.class(Warrior)%
   emote waves his hands frantically at you.
   say I have changed you into a Warrior!
@@ -650,7 +650,7 @@ ARMOR-SPELL
 Usage       : cast 'armor' [target]
 Accumulative: No
 Duration    : 24 Hours
-Level       : Mage level 4, Cleric level 1.
+Level       : Mage level 4,  level 1.
 
 The Armor spell will improve your AC by 20 points or up to 10%.
 
@@ -1026,7 +1026,7 @@ BLESS
 Usage       : cast 'bless' <victim | object>
 Accumulative: No
 Duration    : 6 Hours, permanent for objects.
-Level       : Cleric level 5.
+Level       :  level 5.
 
 Bless on a victim will improve the victims saving throw versus spells
 by 1, and furthermore improve the hitroll by 2.
@@ -1052,7 +1052,7 @@ BLINDNESS
 Usage       : cast 'blindness' <victim>
 Accumulative: No
 Duration    : 2 hours.
-Level       : Mage level 9, Cleric level 6.
+Level       : Mage level 9,  level 6.
 
 Blindness will blind a victim failing its saving throw.
 A blinded person will have -4 penalties to hitroll and AC.
@@ -1343,7 +1343,7 @@ CALL-LIGHTNING
 Usage       : cast 'call lightning' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 15.
+Level       :  level 15.
 Save        : Versus spell for half damage.
 
 This spell will use the "force of nature" to make a lightning
@@ -2047,7 +2047,7 @@ CONTROL-WEATHER
 Usage       : cast 'control weather' <'better' | 'worse'>
 Accumulative: Yes
 Duration    : -
-Level       : Cleric level 17.
+Level       :  level 17.
 
 This spell will change the "course" of the current weather.
 
@@ -2079,7 +2079,7 @@ CREATE-FOOD
 Usage       : cast 'create food'
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 2.
+Level       :  level 2.
 
 This spell instantly creates a fresh waybread.  The waybread will be
 filling for the next (5+level) hours, up to a maximum of 24 hours.
@@ -2091,7 +2091,7 @@ CREATE-WATER
 Usage       : cast 'create water' <drink container>
 Accumulative: No
 Duration    : Instantaneous
-Level       : Cleric level 2.
+Level       :  level 2.
 
 Expect disastrous results if cast upon a drink container which contains
 another liquid than water.  Empty or water containers will be filled
@@ -2106,7 +2106,7 @@ CURE-BLIND
 Usage       : cast 'cure blind' <victim>
 Accumulative: No
 Duration    : Instantaneous
-Level       : Cleric level 4.
+Level       :  level 4.
 
 This spell will cure a person blinded by the "blindness" spell, it
 can not remove blindness caused by for example cursed items.
@@ -2116,7 +2116,7 @@ CURE-CRITIC
 Usage       : cast 'cure critic' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 9.
+Level       :  level 9.
 
 This spell cures 3d8+3 hitpoints of damage.
 #0
@@ -2125,7 +2125,7 @@ CURE-LIGHT
 Usage       : cast 'cure light' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 1.
+Level       :  level 1.
 
 Cures minor wounds and scratches.
 #0
@@ -2200,7 +2200,7 @@ Usage       : cast 'darkness'
 
 Accumulative: No
 Duration    : 1
-Level       : Cleric level 13.
+Level       :  level 13.
 
 Envelopes the room in a temporary cloak of darkness.
 #0
@@ -2346,7 +2346,7 @@ DETECT-ALIGNMENT
 Usage       : cast 'detect alignment'
 Accumulative: Yes (Duration)
 Duration    : 12 hours + level
-Level       : Cleric level 4.
+Level       :  level 4.
 
 Allows the caster to detect the alignment of those around them.
 Evil will show as a red aura, good in a blue aura.
@@ -2358,7 +2358,7 @@ DETECT-INVISIBILITY
 Usage       : cast 'detect invisibility' [self]
 Accumulative: Yes (Duration)
 Duration    : 12 hours + level/4
-Level       : Mage level 2, Cleric level 6.
+Level       : Mage level 2,  level 6.
 
 This spell enables you to see invisible items and players.
 #0
@@ -2377,7 +2377,7 @@ DETECT-POISON
 Usage       : cast 'detect poison' <victim | food | drink>
 Accumulative: No
 Duration    : Instantaneous
-Level       : Mage level 10, Cleric level 3.
+Level       : Mage level 10,  level 3.
 
 Cast on food or drinks (drink containers) you will be able to
 sense if it is poisoned.
@@ -2529,7 +2529,7 @@ DISPEL-EVIL
 Usage       : cast 'dispel evil' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 14.
+Level       :  level 14.
 Save        : Special
 
 This spell will only affect evil creatures.  An evil person of level
@@ -2545,7 +2545,7 @@ DISPEL-GOOD
 Usage       : cast 'dispel good' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 14.
+Level       :  level 14.
 Save        : Special
 
 This spell will only affect good creatures.  A good person of level
@@ -2638,7 +2638,7 @@ EARTHQUAKE
 Usage       : cast 'earthquake'
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 12.
+Level       :  level 12.
 Save        : -
 
 This spell will damage everybody except the caster by
@@ -3651,7 +3651,7 @@ GROUP-ARMOR
 Usage       : cast 'group armor'
 Accumulative: No
 Duration    : 24 Hours
-Level       : Cleric level 9.
+Level       :  level 9.
 
 The Group Armor spell will improve the AC of everyone in your group by 20
 points or up to 10%.
@@ -3726,7 +3726,7 @@ HARM
 Usage       : cast 'harm' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 19.
+Level       :  level 19.
 Save        : Versus spell for half damage.
 
 This spell removes all but 1d4 hitpoints from the victim.  The
@@ -3778,7 +3778,7 @@ HEAL
 Usage       : cast 'heal' <victim>
 Accumulative: No
 Duration    : Instantaneous
-Level       : Cleric level 16.
+Level       :  level 16.
 
 Heal will heal all the hitpoints from a person, except 1d4 points.
 Maximum 100 points can be healed.  A victim who is blinded will also
@@ -4000,7 +4000,7 @@ IDENTIFY
 Usage       : cast 'identify' <target>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 11, Mage level 20.
+Level       :  level 11, Mage level 20.
 
 Used to determine important information about a player, mob, or an object.
 
@@ -4091,7 +4091,7 @@ INFRAVISION
 Usage       : cast 'infravision'
 Accumulative: Yes (Duration)
 Duration    : 12 hours + level
-Level       : Mage level 3, Cleric level 7.
+Level       : Mage level 3,  level 7.
 
 Allows the caster to detect the heat given off by objects giving them
 the ability to have much better vision in dark conditions.
@@ -5673,7 +5673,7 @@ is 4-20 points damage.
 will attempt to explain. To understand damage you first need to know hitpoints.
 A player starts with 10 hitpoints. Then they gain a certain amount depending on
 their class when they level. Stock tbaMUD uses the following: Magic Users
-gain 3-8, Clerics 5-10, Thieves 7-13, Warriors 10-15. So a level 1 Warrior
+gain 3-8, s 5-10, Thieves 7-13, Warriors 10-15. So a level 1 Warrior
 will have 20-25 hitpoints. Now, let us apply common sense. A weapon that does
 25 points of damage could kill a level 1 player in one hit. While a weapon with
 a damage of 1-2 points (1d2) would allow for several rounds of combat and a
@@ -5935,7 +5935,7 @@ OEDIT-EXTRA-FLAGS OEDIT-FLAGS OBJECT-FLAGS OBJECTFLAGS GLOW HUM NODROP NO_DROP N
 18)  QUEST_ITEM      Shopkeepers will only accept questpoints for this item.
 
    Always try to promote role-playing. The last thing you should do is have
-Thieves running around wearing dangly bracelets making noise, Clerics and Mages
+Thieves running around wearing dangly bracelets making noise, s and Mages
 wearing large suits of armor and Warriors wearing delicate clothing. None of
 that makes sense! So, use your head a little while creating equipment. If the
 equipment gives addition hitpoints then it should probably be made of metal and
@@ -6685,7 +6685,7 @@ POISON
 Usage       : cast 'poison' <victim | food | drink>
 Accumulative: Yes on persons.
 Duration    : Level hours, or permanent on food and drinks.
-Level       : Cleric Level 8, Mage level 14.
+Level       :  Level 8, Mage level 14.
 
 Casting poison on food or drink (containers) will poison it.  Eating
 poisoned food/drinks will poison the person eating or drinking.
@@ -7140,7 +7140,7 @@ PROTECTION-FROM-EVIL PROT-EVIL
 Usage       : cast 'protection from evil' [self]
 Accumulative: Yes (Duration)
 Duration    : 24 hours
-Level       : Cleric level 8.
+Level       :  level 8.
 
 The meaning of this spell is not yet fully defined.
 #0
@@ -7543,7 +7543,7 @@ RECALL WORD-OF-RECALL
 Usage       : cast 'word of recall'
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 12.
+Level       :  level 12.
 
 The caster will be transferred back to his hometown sanctuary.
 #0
@@ -7910,7 +7910,7 @@ REMOVE-CURSE
 Usage       : cast 'remove curse' <victim | object>
 Accumulative: No
 Duration    : Instantaneous
-Level       : Cleric level 26.
+Level       :  level 26.
 
 Will remove a curse on carried objects or any person in the room.
 #0
@@ -7919,7 +7919,7 @@ REMOVE-POISON
 Usage       : cast 'remove poison' <victim | food | drink>
 Accumulative: No
 Duration    : Instantaneous
-Level       : Cleric level 10.
+Level       :  level 10.
 
 Will remove the affects of poison from a victim or an object.
 
@@ -8119,7 +8119,7 @@ SANCTUARY
 Usage       : cast 'sanctuary' [self]
 Accumulative: Yes (Duration)
 Duration    : 4 hours
-Level       : Cleric level 15.
+Level       :  level 15.
 
 When protected by sanctuary you will only receive 1/2 the normal damage
 caused by a particular blow.
@@ -8441,7 +8441,7 @@ E) No Trade With  : @cNOBITS@n
 
  1) Good                    2) Evil
  3) Neutral                 4) Magic User
- 5) Cleric                  6) Thief
+ 5)                   6) Thief
  7) Warrior
 
 Currently will not trade with: @cNOBITS@n
@@ -8490,7 +8490,7 @@ SENSE-LIFE DETECT-LIFE
 Usage       : cast 'sense life'
 Accumulative: Yes (Duration)
 Duration    : Level hours.
-Level       : Cleric level 18.
+Level       :  level 18.
 
 Allows the caster to sense the presence of a player or monster in the
 room which is hiding.  The true identity will remain hidden however.
@@ -9025,7 +9025,7 @@ SPELLS
 #31
 SPELLS MAGICS SPELLBOOKS TOMBS SPELL-LEVELS SPELLS-STOCK SPELLLIST
 
-| Mage               level |   Cleric              level |
+| Mage               level |                 level |
 ----------------------------------------------------------
 | Magic Missile        1   |   Cure Light            1   |
 | Detect Invisibility  2   |   Armor                 1   |
@@ -9691,7 +9691,7 @@ SUMMON
 Usage       : cast 'summon' <victim>
 Accumulative: -
 Duration    : Instantaneous
-Level       : Cleric level 10.
+Level       :  level 10.
 
 Will summon a person of the name spoken.  It is not possible to
 summon someone of three or more levels above yourself.
@@ -12554,7 +12554,7 @@ Lists the people currently in the game.  Some people may be invisible.
 Command-line options can be used to limit the listing.  The parameters
 can be specified on the command-line in any order.
 
--c : List names of people of the following classes: Cleric, Warrior, Mage, Thief.
+-c : List names of people of the following classes: , Warrior, Mage, Thief.
 -g : List names of people who are grouped.
 -k : List names of people who are flagged as killers or thieves.
 -l : List names of group leaders.

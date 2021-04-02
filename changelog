@@ -197,7 +197,7 @@ tbaMUD 3.61
   Added scan command.
 [Dec 21 2009] - Rumble
   Added identify command to shops.
-  Moved identify to an active spell. Cleric 11, Mage 20.
+  Moved identify to an active spell.  11, Mage 20.
 [Dec 17 2009] - Rumble
   Standardized /n/r to /r/n in ibt.c
   Removed ability to set a modifier to obj apply NONE.

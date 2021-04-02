@@ -27,13 +27,13 @@ if %direction% == north
 end
 ~
 #5402
-Cleric Guildguard - 5457~
+ Guildguard - 5457~
 0 q 100
 ~
 * Check the direction the player must go to enter the guild.
 if %direction% == south
   * Stop them if they are not the appropriate class.
-  if %actor.class% != cleric
+  if %actor.class% != monk
     return 0
     %send% %actor% The guard humiliates you, and blocks your way.
     %echoaround% %actor% The guard humiliates %actor.name%, and blocks %actor.hisher% way.

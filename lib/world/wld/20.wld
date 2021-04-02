@@ -70,7 +70,7 @@ S
 Gladiators Entrance~
    Five separate arenas are accessible here, one for each class and a fifth
 which can be used by any.  To the north is the Mages Arena, down is the Warriors
-Arena.  East is the Thieves Arena and west is the Clerics arena.  Stairs leading
+Arena.  East is the Thieves Arena and west is the s arena.  Stairs leading
 up take you into the Main arena in the center of the Amphitheater.
 ~
 20 0 0 0 0 0
@@ -103,7 +103,7 @@ sign~
    _______________________
   | North - Mages Arena   |
   | East - Thieves Arena  |
-  | West - Clerics Arena  |
+  | West - s Arena  |
   | Down - Warriors Arena |
   | Up - Main Arena       |
   |_______________________|
@@ -1018,11 +1018,11 @@ D3
 0 0 2051
 S
 #2053
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D1
@@ -1035,11 +1035,11 @@ D2
 0 0 2056
 S
 #2054
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D1
@@ -1056,11 +1056,11 @@ D3
 0 0 2053
 S
 #2055
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D2
@@ -1073,11 +1073,11 @@ D3
 0 0 2054
 S
 #2056
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D0
@@ -1094,11 +1094,11 @@ D2
 0 0 2059
 S
 #2057
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.  Are you ready to Rumble?
+monks from the past hang on all the walls.  Are you ready to Rumble?
 ~
 20 0 0 0 0 0
 D0
@@ -1119,11 +1119,11 @@ D3
 0 0 2056
 S
 #2058
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D0
@@ -1144,11 +1144,11 @@ D3
 0 0 2057
 S
 #2059
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D0
@@ -1161,11 +1161,11 @@ D1
 0 0 2060
 S
 #2060
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D0
@@ -1182,11 +1182,11 @@ D3
 0 0 2059
 S
 #2061
-Clerics Arena~
-   This arena was made specifically for gladiatorial matches between clerics.
-The room is well-lit by some unseen source from high above.  Though clerics are
+s Arena~
+   This arena was made specifically for gladiatorial matches between monks.
+The room is well-lit by some unseen source from high above.  Though monks are
 usually thought of as healers they can also be deadly opponents.  Murals of
-clerics from the past hang on all the walls.
+monks from the past hang on all the walls.
 ~
 20 0 0 0 0 0
 D0
@@ -1903,7 +1903,7 @@ S
 Trophy Room~
    Trophies line the walls of all the famous gladiators.  You notice five
 medals hanging inside a glass case.  Four of them are for the strongest
-gladiators of each class; Mage, Thief, Warrior and Cleric.  The fifth is
+gladiators of each class; Mage, Thief, Warrior and .  The fifth is
 for the strongest gladiator alive, no matter what class.  Do you think you
 could compete for and win one of them?  A sign listing the rules of the
 arena is posted here.

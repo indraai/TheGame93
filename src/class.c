@@ -35,7 +35,7 @@ const char *class_abbrevs[] = {
 
 const char *pc_class_types[] = {
   "Magic User",
-  "Cleric",
+  "",
   "Thief",
   "Warrior",
   "\n"
@@ -429,7 +429,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for cleric paralyzation saving throw.");
+	log("SYSERR: Missing level for monk paralyzation saving throw.");
 	break;
       }
     case SAVING_ROD:	/* Rods */
@@ -476,7 +476,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for cleric rod saving throw.");
+	log("SYSERR: Missing level for monk rod saving throw.");
 	break;
       }
     case SAVING_PETRI:	/* Petrification */
@@ -523,7 +523,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for cleric petrification saving throw.");
+	log("SYSERR: Missing level for monk petrification saving throw.");
 	break;
       }
     case SAVING_BREATH:	/* Breath weapons */
@@ -570,7 +570,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for cleric breath saving throw.");
+	log("SYSERR: Missing level for monk breath saving throw.");
 	break;
       }
     case SAVING_SPELL:	/* Generic spells */
@@ -617,7 +617,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for cleric spell saving throw.");
+	log("SYSERR: Missing level for monk spell saving throw.");
 	break;
       }
     default:
@@ -1249,7 +1249,7 @@ int thaco(int class_num, int level)
     case 33: return   1;
     case 34: return   1;
     default:
-      log("SYSERR: Missing level for cleric thac0.");
+      log("SYSERR: Missing level for monk thac0.");
     }
   case CLASS_THIEF:
     switch (level) {

@@ -111,7 +111,7 @@ T 163
 #102
 Inner Sanctum~
    This appears to be the highest room in the tower of Sanctum where only those
-devoted to the guild of Clerics are allowed to practice their skills and spells
+devoted to the guild of s are allowed to practice their skills and spells
 to become masters of their discipline.  The walls are covered in a white see-
 through cloth giving one the impression of being inside of a tent rather than in
 a room.  The room glows brightly, though one cannot tell from what source.
@@ -124,8 +124,8 @@ D5
 S
 #103
 High Council Meeting Room~
-   This is the meeting room for the guild of clerics.  All orders and affairs
-are resolved in this room by the High Council of Clerics.  They are responsible
+   This is the meeting room for the guild of monks.  All orders and affairs
+are resolved in this room by the High Council of s.  They are responsible
 for the health of all the citizens of Sanctus and are obligated to aid anyone who
 is in need.  A large rectangular table with thirteen chairs surrounding it
 fills the center of the room.  A large pane window overhead admits a glowing
@@ -359,7 +359,7 @@ Above the Inner Wall~
    The battlements on top of the inner wall are the last defense in case of an
 invasion.  All citizens are required to move within the inner city and prepare
 to fight.  The city has never fallen to this day.  To the north one can see the
-barracks, to the south the Hall of Clerics.  A stone stairwell leads down to the
+barracks, to the south the Hall of s.  A stone stairwell leads down to the
 inner city.
 ~
 1 0 0 0 0 1
@@ -464,8 +464,8 @@ S
 #121
 Southwestern Corner of the Inner Wall~
    Through the clouds one catch a glimpse of the shimmering dome.  A good omen.
-To the west one can see the Hall of Clerics.  To the south the Tower of the High
-Council of Clerics glows pristinely white.  The town seems peaceful and
+To the west one can see the Hall of s.  To the south the Tower of the High
+Council of s glows pristinely white.  The town seems peaceful and
 untroubled by the turmoils outside the walls.
 ~
 1 0 0 0 0 1
@@ -614,7 +614,7 @@ D5
 S
 #127
 Healer's Room~
-   This room has been created by the High Council of Clerics to give aid to
+   This room has been created by the High Council of s to give aid to
 novices who receive injury in their adventures.  For the more experienced
 adventurers aid can be sought, but for a price.  Apprentices gowned in white
 robes bring water and fresh bandages to the experienced healers who aid the
@@ -808,7 +808,7 @@ Healers Chambers~
    A stark white room that is glaringly white.  A simple bed, desk, and chair
 are the only inhabitants.  All of them are made out of wood and are polished to
 a glossy shine.  A single window looks out over the Southern Gate.  To live a
-life as a Cleric is to life a life without desire and need.
+life as a  is to life a life without desire and need.
 ~
 1 8 0 0 0 1
 D0
@@ -843,7 +843,7 @@ S
 Kitchen~
    At first glance this room seems to be made just to prepare food for the
 towers occupants, but on second glance one can see that a few of the cooks are
-actually clerics and they are working over cauldrons of liquids that could not
+actually monks and they are working over cauldrons of liquids that could not
 possibly be food.  At least it does not smell like food.  This must be where
 they make their healing elixirs, salves, and potions.
 ~

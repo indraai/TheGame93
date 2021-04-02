@@ -67,12 +67,12 @@ if %actor.is_pc%
 end
 ~
 #303
-Obj Get Example - Good Cleric Only~
+Obj Get Example - Good  Only~
 1 g 100
 ~
 * By Rumble of The Builder Academy    tbamud.com 9091
-* Only allow Cleric's with a good align to get this item.
-if %actor.class% != cleric || %actor.align% < 350
+* Only allow 's with a good align to get this item.
+if %actor.class% != monk || %actor.align% < 350
   return 0
   %send% %actor% You are not worthy to wield me.
   %echoaround% %actor% %actor.name% tries to pick up %self.shortdesc% and fails.
@@ -120,9 +120,9 @@ Room Entry - sneak check~
 * By Rumble of The Builder Academy    tbamud.com 9091
 if %actor.is_pc%
   if %actor.skill(sneak)% > 50
-    %send% %actor% You walk into the room, not waking any of the clerics.
+    %send% %actor% You walk into the room, not waking any of the monks.
   else
-    %send% %actor% Your entry into the room wakes a few of the clerics.
+    %send% %actor% Your entry into the room wakes a few of the monks.
     %load% mob 340
   end
 end

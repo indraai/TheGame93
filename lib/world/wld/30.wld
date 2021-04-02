@@ -54,7 +54,7 @@ adventure:3001/paintings
 S
 T 3017
 #3002
-The Clerics' Inner Sanctum~
+The s' Inner Sanctum~
    This is the inner sanctum.  A picture of the mighty Thor, is hanging on
 the wall, just above the altar which is set against the western wall.  A well
 in the middle of the floor leads down into darkness.  Vile smells waft from
@@ -99,9 +99,9 @@ Free instructions provided by the waiter:
 ~
 S
 #3004
-The Entrance To The Clerics' Guild~
+The Entrance To The s' Guild~
    The entrance hall is a small modest room, reflecting the true nature of
-the Clerics.  The exit leads east to the temple square.  A small entrance to
+the s.  The exit leads east to the temple square.  A small entrance to
 the bar is in the northern wall.
 ~
 30 8 0 0 0 0
@@ -119,7 +119,7 @@ S
 #3005
 The Temple Square~
    You are standing on the temple square.  Huge marble steps lead up to the
-temple gate.  The entrance to the Clerics' Guild is to the west, and the old
+temple gate.  The entrance to the s' Guild is to the west, and the old
 Grunting Boar Inn, is to the east.  Just south of here you see the market
 square, the center of Amaravati.
 ~
@@ -140,7 +140,7 @@ You see the Market Square.
 ~
 0 -1 3014
 D3
-You see the entrance to the Clerics' Guild.
+You see the entrance to the s' Guild.
 ~
 ~
 0 -1 3004

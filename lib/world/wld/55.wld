@@ -41,7 +41,7 @@ D3
 0 -1 5501
 S
 #5503
-Clerics' Sanctum~
+s' Sanctum~
    You walk down the staircase into the silent inner sanctum.  Here sits
 your guildmaster ready to assist you when the time is right.  The room
 is completely silent.  The only obvious exit is back up the staircase
@@ -121,7 +121,7 @@ Inside The Temple~
    The temple continues here, but not on such a grand scale.  The place
 still looks immaculate.  To the north you see the chamber of the High
 Priest and a sign on the door in BIG letters thats reads 'DO NOT DISTURB'
-To the south is the entrance to the Clerics' Guild.
+To the south is the entrance to the s' Guild.
 ~
 55 72 0 0 0 0
 D0
@@ -197,11 +197,11 @@ D3
 0 -1 5462
 S
 #5512
-The Entrance To The Guild of Clerics~
+The Entrance To The Guild of s~
    This hall pales in comparison to that of the main hall, but is
 beautiful in its own right.  Shaven heads and brown robes can be
 seen milling about quitely talking to each other.  North is back
-inside the temple proper, and south is the entrance to the clerics'
+inside the temple proper, and south is the entrance to the monks'
 bar.
 ~
 55 152 0 0 0 0
@@ -319,8 +319,8 @@ S
 #5519
 Nectar Of The Gods~
    You are startled by the lavishness of this place.  From what you
-know of clerics they are supposed to be humble people, giving all their
-material goods to their cause.  Perhaps because only clerics are
+know of monks they are supposed to be humble people, giving all their
+material goods to their cause.  Perhaps because only monks are
 allowed to enter this bar they have condoned making it as comfortable
 as possible.  In the corner stands a staircase leading down to the
 meditaion chambers.
@@ -338,7 +338,7 @@ S
 #5520
 Temple Square~
    You are standing on the meeting grounds of those with holy
-intentions.  Monks, bards, paladins and clerics mill around
+intentions.  Monks, bards, paladins and monks mill around
 either preaching or listening to their fellows preach.  Huge
 marble steps lead up to the gates of the temple and Main Street
 lies to the south.

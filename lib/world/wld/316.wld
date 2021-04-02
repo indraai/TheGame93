@@ -766,7 +766,7 @@ S
 West Alley~
    The alley heads north and south, the cold, dark gray walls of stone buildings
 surrounding you on every side.  Just south of you lies an offshoot of the main
-alleyway which heads west into the cleric's guild.
+alleyway which heads west into the monk's guild.
 ~
 316 0 0 0 0 0
 D0
@@ -782,10 +782,10 @@ S
 West Alley~
    The alley still runs north and south from here, the whole looking quite
 dreary and dismal.  To the west is a small cobbled path leading into the
-cleric's guild.  That path looks as if it may be the only part of this district
+monk's guild.  That path looks as if it may be the only part of this district
 that is not only maintained, but cheerful as well.  The cobblestones which line
 the path are scrubbed almost white, the walls of the buildings white stucco.
-You feel that even someone who is not a cleric may be drawn to this part of the
+You feel that even someone who is not a monk may be drawn to this part of the
 district just to escape the gray monotony everywhere else.
 ~
 316 0 0 0 0 0
@@ -805,10 +805,10 @@ S
 #31646
 The God's Path~
    The white cobblestones beneath your feet glisten brightly as you walk past.
-Obviously the clerics who belong to this guild take great pride in their place
+Obviously the monks who belong to this guild take great pride in their place
 here in McGintey Cove.  Just north of you is a large marble temple with huge
 oaken double doors in front.  This temple must be the main guild housing for
-this guild.  The path heads west into more of the cleric's area or east out into
+this guild.  The path heads west into more of the monk's area or east out into
 the West Alley.
 ~
 316 0 0 0 0 0
@@ -938,7 +938,7 @@ Holy Weapons~
    Although physical battle is not condoned by the guild, it is realized that in
 this day and age every man or woman must need defend themselves at some time or
 another.  Hence this small shop dedicated to those weapons deemed fit to be
-wield by a cleric in Dibrova.
+wield by a monk in Dibrova.
 ~
 316 8 0 0 0 0
 D0

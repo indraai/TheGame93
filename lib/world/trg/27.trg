@@ -590,7 +590,7 @@ end
 1 g 100
 ~
 wait 1 s
-if (%actor.class% == Cleric)
+if (%actor.class% == )
 %echoaround% %actor% @BThe shard suddenly glows blue in %actor.name%'s hand.@n
 %send% %actor% @BThe shard suddenly glows blue in your hand, causing you to drop it.@n
 wait 2 s
@@ -748,7 +748,7 @@ end
 if (%actor.class% == Magic User)
 %send% %actor% @MThe shard whispers: I am not for you, Seeker.@n
 return 0
-elseif (%actor.class% == Cleric)
+elseif (%actor.class% == )
 %send% %actor% @BThe shard whispers: I am not for you, Healer.@n
 return 0
 elseif (%actor.class% == Thief)
@@ -763,7 +763,7 @@ end
 if (%actor.class% == Magic User)
 %send% %actor% @MThe shard whispers: I am not for you, Seeker.@n
 return 0
-elseif (%actor.class% == Cleric)
+elseif (%actor.class% == )
 %send% %actor% @BThe shard whispers: I am not for you, Healer.@n
 return 0
 elseif (%actor.class% == Warrior)
@@ -775,7 +775,7 @@ end
 (2730) purple shard for seeker~
 1 j 100
 ~
-if (%actor.class% == Cleric)
+if (%actor.class% == )
 %send% %actor% @BThe shard whispers: I am not for you, Healer.@n
 return 0
 elseif (%actor.class% == Thief)
@@ -994,7 +994,7 @@ end
 (2721) cui greets~
 0 gh 100
 ~
-if %actor.class% == Cleric
+if %actor.class% == 
   set zn27_class healer
 end
 if %actor.class% == Warrior
@@ -1060,7 +1060,7 @@ global zn27_greeted
 (2722) Ve greets~
 0 gh 100
 ~
-if %actor.class% == Cleric
+if %actor.class% == 
   set zn27_class healer
 end
 if %actor.class% == Warrior

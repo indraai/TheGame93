@@ -33,7 +33,7 @@ const char *trade_letters[] = {
         "Evil",
         "Neutral",
         "Magic User",           /* Then the class based ones */
-        "Cleric",
+        "",
         "Thief",
         "Warrior",
         "\n"

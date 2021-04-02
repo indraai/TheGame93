@@ -742,7 +742,7 @@ Food - 1d, 3s, 1e, 1n
 1d, 3s, 1w, 1n
 Water - 1d, 3n, 2e, 1s
 Donation Room - 1d, 1n, 1w
-Cleric Guild - 1d, 7s, 3w, 2u
+ Guild - 1d, 7s, 3w, 2u
 Warrior Guild - 1d, 7n, 5w, 1n, 1u
 Mage Guild - 1d, 7s, 2e, 2u
 Thief Guild - 1d, 7n, 4e, 1n, 1u

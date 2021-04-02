@@ -1727,7 +1727,7 @@ hear seems almost like a dream.  The temple, formed in the shape of a cross,
 allows worship at three of the four points of the cross, each devoted to an
 alignment, a following of belief.  The fourth point is the entrance to the
 temple itself, which is north.  A door in the wall near the temple exit allows
-access to the Cleric's Guild.
+access to the 's Guild.
 ~
 257 8 0 0 0 0
 D0
@@ -1742,7 +1742,7 @@ D5
 S
 #25777
 Meditation and Prayer~
-   Solemn and intense, this room offers the chance for clerics to find a bit of
+   Solemn and intense, this room offers the chance for monks to find a bit of
 inner peace before embarking upon adventures into the outside world.  A row of
 kneeling pads line the floor along the north and south walls, allowing comfort
 while in prayer.  A flight of stairs lead up to the Temple of All and None, and
@@ -1759,7 +1759,7 @@ D4
 0 -1 25776
 S
 #25778
-Cleric's Guild~
+'s Guild~
    Candlebra hold scores of candles burning in devotion to the gods of Dibrova.
 Draped in red and purple silk tapestries, the room makes you feel both majestic
 and at peace.
