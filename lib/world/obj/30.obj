@@ -310,9 +310,9 @@ pot~
    It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
-plate breast~
-a breast plate~
-A breast plate is lying on the ground.~
+l1 chest plate~
+a L1 Chest Plate~
+A level 1 tackle suit chest plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 7 0 0 0
@@ -326,9 +326,9 @@ A chain mail shirt is lying on the ground.~
 5 0 0 0
 50 250 5 0 0
 #3042
-shield wooden~
-a shield~
-A small wooden shield is lying on the ground.~
+l1 shield~
+a L1 Shield~
+A level 1 tackle suit shield is lying on the ground.~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
 2 0 0 0
@@ -491,9 +491,9 @@ A pair of bronze gauntlets is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3071
-gloves leather~
-a pair of leather gloves~
-A pair of leather gloves is lying on the ground.~
+l1 gloves~
+a pair of L1 Gloves~
+A pair of level 1 tackle suit gloves is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 3 0 0 0
@@ -515,9 +515,9 @@ A leather cap is lying on the ground.~
 3 0 0 0
 3 150 10 0 0
 #3080
-leggings bronze~
-a pair of bronze leggings~
-A pair of bronze leggings is lying on the ground.~
+l1 shin guards~
+a pair of L1 Shin Guards~
+A pair of level 1 tackle suit shin guards is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 6 0 0 0
@@ -531,16 +531,16 @@ A pair of leather pants is lying on the ground.~
 3 0 0 0
 8 150 10 0 0
 #3082
-leather gorget neck guard~
-a leather gorget~
-A leather neck guard has been left here~
+l1 leather neck guard~
+a L1 Neck Guard~
+A Level 1 tackle suit neck guard has been left here~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
 1 10 0 0 0
 E
-leather gorget neck guard~
-   This leather neck guard is meant to protect the throat and face in battle.
+l1 tackle suit neck guard~
+This Level 1 tackle suite neck guard the neck in battle.
 ~
 #3083
 leather ring~
@@ -552,21 +552,20 @@ A leather ring with strange symbols lies here.~
 1 10 1 0 0
 E
 leather ring~
-   The ring used to have some strange writing and symbols around the band but it
+The ring used to have some strange writing and symbols around the band but it
 has become so worn with time and use that it is unreadable.
 ~
 #3084
-leather boots~
-a pair of leather boots~
-A pair of leather boots is lying here.~
+l1 booster boots~
+a pair of L1 Booster Boots~
+A pair of level 1 tackle suit booster boots is lying here.~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
 4 0 0 0
 2 11 0 0 0
 E
-leather boots~
-   The boots are worn with age but well oiled and polished to still remain
-useable.
+l1 booster boots~
+The level 1 tackle suit booster boots.
 ~
 #3085
 sleeves bronze~
@@ -599,9 +598,9 @@ brown leather cape~
 A
 1 1
 #3088
-leather old belt~
-an old leather belt~
-A belt made of leather was left here.~
+l1 utility belt~
+a L1 Utility Belt~
+A level 1 tackle suit utility belt was left here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
 2 0 0 0
@@ -615,18 +614,17 @@ A
 A
 1 1
 #3089
-leather wristguard~
-a leather wristguard~
-A leather wristguard lies in the dirt.~
+l1 wrist guard~
+a L1 Wrist Guard~
+A level 1 tackle suit wristguard lies in the dirt.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 1 0 0 0
 3 30 0 0 0
 E
-leather wristguard~
-   The wristguard has been heavily oiled and is extremely flexible and
-supportive.  It is laced with some leather string to loosen and tighten to
-almost any size.
+l1 wrist guard~
+The level 1 tackle suit wristguard is extremely flexible and supportive.
+It is designed to loosen and tighten to almost any size.
 ~
 #3096
 boards social bulletin gen_boards~
