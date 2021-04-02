@@ -507,9 +507,9 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-l1 helmet~
-L1 Helmet~
-A level 1 tackle suit helmet cap is lying on the ground.~
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
@@ -531,7 +531,7 @@ A pair of leather pants is lying on the ground.~
 3 0 0 0
 8 150 10 0 0
 #3082
-l1 neck guard~
+l1 leather neck guard~
 L1 Neck Guard~
 A Level 1 tackle suit neck guard has been left here~
 ~
@@ -584,9 +584,9 @@ A pair of leather sleeves is lying on the ground.~
 2 0 0 0
 4 75 10 0 0
 #3087
-l1 cape~
-a L1 Cape~
-A level 1 cape really is very functional but also makes you look really cool.
+brown leather cape~
+a brown leather cape~
+A brown leather cape was abandoned on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
