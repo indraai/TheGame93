@@ -147,20 +147,20 @@ A dagger with a long thin blade is here.~
 0 1 4 11
 1 10 10 0 0
 #3021
-sword small~
-a small sword~
-A small sword lies here.~
+tsl1 immobalizer small~
+TSL1 Immobalizer (S)~
+A Small Level 1 Tackle Suit Immobalizer is here.~
 ~
 5 e 0 0 0 an 0 0 0 0 0 0 0
 0 1 6 11
 3 60 10 0 0
 E
 inscription~
-   It says: 'May this sword be a good companion.  '
+   It says: 'May this TSL1-I be a good companion in your epic battles.'
 ~
 E
-sword small~
-   The small sword seems to have an inscription of some sort.
+tsl1 small immobalizer~
+The small immobalizer seems to have an inscription of some sort.
 ~
 #3022
 sword long~
@@ -585,7 +585,7 @@ A pair of Level 1 Tackle Suit Sleeves is lying on the ground.~
 4 75 10 0 0
 #3087
 tsl1 tackle suit cape~
-TSLQ Cape~
+TSL1 Cape~
 A Level 1 Tackle Suit Cape is lying on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
