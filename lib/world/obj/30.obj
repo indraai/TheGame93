@@ -311,7 +311,7 @@ pot~
 ~
 #3040
 l1 chest plate~
-a L1 Chest Plate~
+L1 Chest Plate~
 A level 1 tackle suit chest plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
@@ -327,7 +327,7 @@ A chain mail shirt is lying on the ground.~
 50 250 5 0 0
 #3042
 l1 shield~
-a L1 Shield~
+L1 Shield~
 A level 1 tackle suit shield is lying on the ground.~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
@@ -492,7 +492,7 @@ A pair of bronze gauntlets is lying on the ground.~
 8 175 10 0 0
 #3071
 l1 gloves~
-a pair of L1 Gloves~
+L1 Gloves (2)~
 A pair of level 1 tackle suit gloves is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
@@ -516,7 +516,7 @@ A leather cap is lying on the ground.~
 3 150 10 0 0
 #3080
 l1 shin guards~
-a pair of L1 Shin Guards~
+L1 Shin Guards (2)~
 A pair of level 1 tackle suit shin guards is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
@@ -532,7 +532,7 @@ A pair of leather pants is lying on the ground.~
 8 150 10 0 0
 #3082
 l1 leather neck guard~
-a L1 Neck Guard~
+L1 Neck Guard~
 A Level 1 tackle suit neck guard has been left here~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
@@ -557,7 +557,7 @@ has become so worn with time and use that it is unreadable.
 ~
 #3084
 l1 booster boots~
-a pair of L1 Booster Boots~
+L1 Booster Boots (2)~
 A pair of level 1 tackle suit booster boots is lying here.~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
@@ -599,7 +599,7 @@ A
 1 1
 #3088
 l1 utility belt~
-a L1 Utility Belt~
+L1 Utility Belt~
 A level 1 tackle suit utility belt was left here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
@@ -615,7 +615,7 @@ A
 1 1
 #3089
 l1 wrist guard~
-a L1 Wrist Guard~
+L1 Wrist Guard~
 A level 1 tackle suit wristguard lies in the dirt.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
