@@ -1,19 +1,16 @@
 #3000
 The Reading Room~
-   You are in a small, simple room which is mostly empty, save a few
-wooden desks and benches.  To the east you hear the bustle of the Temple
-of Amaravati, a sharp contrast to the relative quiet of this peaceful
-room.
+adventure:3000/main
 ~
 30 156 0 0 0 0
 D1
-You see the Temple of Amaravati.
+adventure:3001/look
 ~
 ~
 0 -1 3001
 E
-credits info~
-   Guilds: 20-23
+info information~
+adventure:3000/info
 ~
 S
 #3001
@@ -27,18 +24,17 @@ adventure:3054/look
 ~
 0 -1 3054
 D1
-In the east, you see a small alcove with a rickety wooden sign which
-reads "Amaravati Donation Room."
+adventure:3063/look
 ~
 ~
 0 -1 3063
 D2
-You look down the huge stone steps at the temple square below.
+adventure:3005/look
 ~
 ~
 0 -1 3005
 D3
-You see the Reading Room.
+adventure:3000/look
 ~
 ~
 0 -1 3000
@@ -48,9 +44,12 @@ You see the temple square.
 ~
 0 -1 3005
 E
+info information~
+adventure:3001/info
+~
+E
 paintings ancient wall peasants gods giants~
-   The paintings are numerous in style and quality.  But, they all have the same
-surreal quality that tugs at the mind to become lost in their depth and detail.
+adventure:3001/paintings
 ~
 S
 T 3017
