@@ -237,15 +237,15 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
   act("$n studies the board.", TRUE, ch, 0, 0, TO_ROOM);
 
   if (!num_of_msgs[board_type])
-    send_to_char(ch, "# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\r\nnote: The board is empty.\r\n");
+    send_to_char(ch, "# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\n=\n\nnote: The board is empty.\r\n");
   else {
     size_t len = 0;
     int nlen;
 
     len = snprintf(buf, sizeof(buf),
-		"# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\r\n"
-		"You will need to look at the board to save your message.\r\n"
-		"There are %d messages on the board.\r\n",
+		"# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\n=\n\n"
+		"You will need to look at the board to save your message.\n"
+		"There are %d messages on the board.\n",
 		num_of_msgs[board_type]);
 #if NEWEST_AT_TOP
     for (i = num_of_msgs[board_type] - 1; i >= 0; i--) {
@@ -298,7 +298,7 @@ int board_display_msg(int board_type, struct char_data *ch, char *arg, struct ob
     return (1);
   }
   if (!num_of_msgs[board_type]) {
-    send_to_char(ch, "The board is empty!\r\n");
+    send_to_char(ch, "note: The board is empty!\r\n");
     return (1);
   }
   if (msg < 1 || msg > num_of_msgs[board_type]) {
