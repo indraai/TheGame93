@@ -345,17 +345,19 @@ D3
 S
 #3118
 Park Road~
-   You are on Park Road which leads north and south.
+adventure:3118/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3111/look
 ~
 ~
 0 -1 3111
-D2
+D1
+adventure:3133/look
 ~
 ~
-0 -1 3135
+0 -1 3133
 S
 #3119
 Emerald Avenue~
