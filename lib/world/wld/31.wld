@@ -84,111 +84,105 @@ You see the promenade.
 S
 #3104
 The Northeast End Of The Concourse~
-   You are at the Concourse.  The city wall is just east and a small
-promenade goes west.  Looking across the river you see a building that
-resembles a warehouse.  The Concourse continues south along the city
-wall.
+adventure:3104/main
 ~
 31 0 0 0 0 1
 D2
-The Concourse continues south.
+adventure:3130/look
 ~
 ~
 0 -1 3130
 D3
-You see the promenade.
+adventure:3103/look
 ~
 ~
 0 -1 3103
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3104/wall
 ~
 S
 #3105
 The Park Entrance~
-   You are standing just inside the small park of Amaravati.  To the north is
-the promenade and a small path leads south into the park.  To your east is
-the famous Park Cafe.
+adventure:3105/main
 ~
 31 4 0 0 0 1
 D0
-You see the promenade.
+adventure:3102/main
 ~
 ~
 0 -1 3102
 D1
-You see Park Cafe.
+adventure:3106/main
 ~
 ~
 0 -1 3106
 D2
-You see the park.
+adventure:3108/main
 ~
 ~
 0 -1 3108
 S
 #3106
 Park Cafe~
-   You are inside Park Cafe, a very cozy place with many tables and
-seats where you can relax and enjoy the view.  To the east you can
-see the entrance to the park.
+adventure:3106/main
 ~
 31 136 0 0 0 0
 D3
-You see the park entrance.
+adventure:3105/look
 ~
 ~
 0 -1 3105
 S
 #3107
 A Small Path In The Park~
-   You are walking along a small path through the park.  The path continues
-south and east.
+adventure:3107/main
 ~
 31 0 0 0 0 1
 D1
+adventure:3108/look
 ~
 ~
 0 -1 3108
 D2
+adventure:3113/look
 ~
 ~
 0 -1 3113
 S
 #3108
 A Small Path In The Park~
-   You are standing on a small path inside the park.  The park entrance is
-just north of here, and Park Cafe is just east of the entrance.  The path
-leads further east and west.
+adventure:3108/main
 ~
 31 0 0 0 0 1
 D0
-You see the northern park entrance.
+adventure:3105/look
 ~
 ~
 0 -1 3105
 D1
+adventure:3109/look
 ~
 ~
 0 -1 3109
 D3
+adventure:3107/look
 ~
 ~
 0 -1 3107
 S
 #3109
 A Small Path In The Park~
-   You are on a small path running through the park.  It continues west and
-south and just north of here you see the southern wall of Park Cafe.
+adventure:3109/main
 ~
 31 0 0 0 0 1
 D2
+adventure:3115/look
 ~
 ~
 0 -1 3115
 D3
+adventure:3108/look
 ~
 ~
 0 -1 3108
