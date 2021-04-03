@@ -54,283 +54,219 @@ adventure:3001/paintings
 S
 T 3017
 #3002
-The s' Inner Sanctum~
-   This is the inner sanctum.  A picture of the mighty Thor, is hanging on
-the wall, just above the altar which is set against the western wall.  A well
-in the middle of the floor leads down into darkness.  Vile smells waft from
-the depths.
+The Inner Sanctum~
+adventure:3002/main
 ~
 30 12 0 0 0 0
 D1
-You see your favorite place, the bar of divination.
+adventure:3003/look
 ~
 ~
 0 -1 3003
 D5
-You can't see what is down there, it is too dark.  Looks like it would be
-impossible to climb back up.
+adventure:7026/look
 ~
 ~
 0 -1 7026
 S
 #3003
 The Bar Of Divination~
-   The bar is one of the finest in the land, lucky it is members only.  Fine
-furniture is set all around the room.  A small sign is hanging on the wall.
+adventure:3003/main
 ~
 30 140 0 0 0 0
 D2
-You see the entrance.
+adventure:3004/look
 ~
 ~
 0 -1 3004
 D3
-You see the inner sanctum.
+adventure:3002/look
 ~
 ~
 0 -1 3002
 E
 sign~
-   The sign reads:
-Free instructions provided by the waiter:
-   Buy  - Buy something (drinkable) from the waiter.
-   List - The waiter will show you all the different drinks and
-          specialties, and tell the price of each.
+adventure:3003/sign
 ~
 S
 #3004
-The Entrance To The s' Guild~
-   The entrance hall is a small modest room, reflecting the true nature of
-the s.  The exit leads east to the temple square.  A small entrance to
-the bar is in the northern wall.
+The Monks Guild~
+adventure:3004/main
 ~
 30 8 0 0 0 0
 D0
-You see the bar, richly decorated with really stylish furniture.
+adventure:3003/look
 ~
 ~
 0 -1 3003
 D1
-You see the Temple Square.
+adventure:3005/look
 ~
 ~
 0 -1 3005
 S
 #3005
 The Temple Square~
-   You are standing on the temple square.  Huge marble steps lead up to the
-temple gate.  The entrance to the s' Guild is to the west, and the old
-Grunting Boar Inn, is to the east.  Just south of here you see the market
-square, the center of Amaravati.
+adventure:3005/main
 ~
 30 0 0 0 0 1
 D0
-You see the temple.
+adventure:3001/look
 ~
 ~
 0 -1 3001
 D1
-You see the good old Grunting Boar Inn.
+adventure:3006/look
 ~
 ~
 0 -1 3006
 D2
-You see the Market Square.
+adventure:3014/look
 ~
 ~
 0 -1 3014
 D3
-You see the entrance to the s' Guild.
+adventure:3004/look
 ~
 ~
 0 -1 3004
 S
 #3006
 The Amaravati Inn~
-   You are standing in the entrance hall of the Grunting Boar Inn.  The hall
-has been wisely decorated with simple, functional furniture.  The heavy smell
-of dust and aging paper drifts in from the Post Office to the north.  A small
-staircase leads up to the reception and the bar is to the east.
+adventure:3006/main
 ~
 30 8 0 0 0 0
 D0
-You see the Amaravati Post Office.
+adventure:3062/look
 ~
 ~
 0 -1 3062
 D1
-Surprise!  You see the bar.
+adventure:3007/look
 ~
 ~
 0 -1 3007
 D3
-You see the temple square.
+adventure:3005/look
 ~
 ~
 0 -1 3005
 D4
-You see the reception.
+adventure:3008/look
 ~
 ~
 0 -1 3008
 S
 #3007
 The Grunting Boar~
-   You are standing in the bar.  The bar is set against the northern wall, old
-archaic writing, carvings and symbols cover its top.  A fireplace is built into
-the western wall, and through the southeastern windows you can see the temple
-square.  This place makes you feel like home.
-A small sign with big letters is fastened to the bar.
+adventure:3007/main
 ~
 30 136 0 0 0 0
 D3
-You see the exit to the entrance hall.
+adventure:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-   The sign reads:
-Free instructions provided by the Grunting Boar Inn.
-   Buy  - Buy something (drinkable) from the bartender.
-   List - The bartender will show you all the different drinks and
-          specialties, and tell the price of each.
+adventure:3007/sign
 ~
 E
 writing carving carvings symbols symbol~
-   Although it is very hard to understand, you think it looks a lot like beer,
-poems about beer, and small beer-mugs.
+adventure:3007/symbols
 ~
 S
 #3008
 The Reception~
-   You are standing in the reception.  The staircase leads down to the
-entrance hall.  An exit to the north leads to the Cryogenic Center.
-There is a small sign on the counter.
+adventure:3008/main
 ~
 30 8 0 0 0 0
 D0
-You see the Cryogenic Center.
+adventure:3064/look
 ~
 ~
 0 -1 3064
 D5
-You see the entrance hall.
+adventure:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-   Rooms are expensive but good!  You may:
-
-   Offer - get an offer on a room - Time is in real life days.
-   Rent  - Rent a room (saves your stuff, and quits the game),
-           minimum charge is one day.
-
-
-                          MY WAY OR THE HIGHWAY
-                             PAY YOUR RENT!
-                WE WON'T THINK TWICE BEFORE KICKING YOU OUT.
+adventure:3008/sign
 ~
 S
 #3009
 The Bakery~
-   You are standing inside the small bakery.  A sweet scent of danish and
-fine bread fills the room.  The bread and Danish are arranged in fine order
-on the shelves, and seem to be of the finest quality.
-A small sign is on the counter.
+adventure:3009/main
 ~
 30 136 0 0 0 0
 D2
-You see the main street.
+adventure:3013/look
 ~
 ~
 0 -1 3013
 E
 danish pastry~
-   You see that this is truly delicious pastry.  Must be made by a Dane from
-Denmark (which surely is not the capital of Sweden!  ).  Former ruler of
-Scandinavia, England, Northern Germany, Northern France, Russia, Greenland,
-Iceland, Estonia etc.  Etc.  The sight of those large, wholesome chokoladeboller
-makes your mouth water and your soul sing.
+adventure:3009/pastry
 ~
 E
 sign~
-   Free instructions provided by the store:
-   Buy  - Will buy you some bread or pastry.
-   List - The baker will kindly tell you the price and sort of the bread in
-          his bakery.
+adventure:3009/sign
 ~
 S
 #3010
 The General Store~
-   You are inside the general store.  All sorts of items are stacked on shelves
-behind the counter, safely out of your reach.
-A small note hangs on the wall.
+adventure:3010/main
 ~
 30 136 0 0 0 0
 D2
-You see the main street.
+adventure:3015/look
 ~
 ~
 0 -1 3015
 E
 note~
-   The note reads:
-  List  - Show which various items are in the store.
-  Buy   - Buy an item.
-  Value - The shopkeeper will (free of charge) tell how much he will
-          pay for your item.
-  Sell  - Sell an item.
+adventure:3010/note
 ~
 S
 #3011
 The Weapon Shop~
-   The smell of worked metals and various quenching oils fills the room.  Every
-available space in the room including the ceiling is loaded with various
-equipment and weaponry.  There is a small note on the counter.
+adventure:3011/main
 ~
 30 136 0 0 0 0
 D2
-You see the main street.
+adventure:3016/look
 ~
 ~
 0 -1 3016
 E
 note~
-   The note reads:
-  List  - Show which various items are in the store.
-  Buy   - Buy an item.
-  Value - The shopkeeper will (free of charge) tell how much he will
-          pay for your item.
-  Sell  - Sell an item.
+adventure:3011/note
 ~
 S
 #3012
 Main Street~
-   You are at the end of the main street of Amaravati.  South of here is the
-entrance to the Guild of Magic Users.  The street continues east towards the
-market square.  The magic shop is to the north and to the west is the city
-gate.
+adventure:3012/main
 ~
 30 0 0 0 0 1
 D0
-You see the magic shop.
+adventure:3033/look
 ~
 ~
 0 -1 3033
 D1
-You see the main street.
+adventure:3013/look
 ~
 ~
 0 -1 3013
 D2
-You see the entrance to the Guild of Magic Users.
+adventure:3017/look
 ~
 ~
 0 -1 3017
 D3
-You see the city gate.
+adventure:3040/look
 ~
 ~
 0 -1 3040
