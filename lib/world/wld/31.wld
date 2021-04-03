@@ -763,7 +763,7 @@ Penny Lane~
 adventure:3140/main
 ~
 31 0 0 0 0 1
-D0
+D1
 adventure:3141/look
 ~
 ~
@@ -779,7 +779,7 @@ The End Of Penny Lane~
 adventure:3141/main
 ~
 31 0 0 0 0 1
-D2
+D3
 adventure:3140/look
 ~
 ~
