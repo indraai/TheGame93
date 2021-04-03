@@ -634,16 +634,16 @@ Emerald Avenue~
 adventure:3133/main
 ~
 31 0 0 0 0 1
-D1
-adventure:3119/look
-~
-~
-0 -1 3119
 D2
 adventure:3120/look
 ~
 ~
 0 -1 3120
+D3
+adventure:3118/look
+~
+~
+0 -1 3118
 S
 #3134
 Emerald Avenue~
