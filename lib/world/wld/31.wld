@@ -359,95 +359,92 @@ D2
 S
 #3119
 Emerald Avenue~
-   You are standing at a bend on Emerald Avenue.  The road leads north and
-west.
+adventure:3119/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3117/look
 ~
 ~
 0 -1 3117
 D3
+adventure:3133/look
 ~
 ~
 0 -1 3133
 S
 #3120
 The Road Crossing~
-   You are in the middle of the road cross.  Roads lead in all directions.
-A huge black iron chain as thick as a tree trunk is fastened into the ground
-at the center of the road cross.  Its other end leads directly upwards towards
-the sky.
-A road sign is here.
+adventure:3120/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3133/look
 ~
 ~
 0 -1 3133
 D1
+adventure:3136/look
 ~
 ~
 0 -1 3136
 D2
+adventure:3134/look
 ~
 ~
 0 -1 3134
 D3
+adventure:3135/look
 ~
 ~
 0 -1 3135
 D4
-The chain disappears in the clouds.
+adventure:7914/look
 ~
 ~
 0 -1 7914
 E
 sign~
-   The sign points in all directions:
-   North - Emerald Avenue.
-   East  - Park Road.
-   South - Emerald Avenue.
-   West  - Park Road.
-Someone has added the following with red paint:
-   Up    - Redferne's Flying Citadel.
+adventure:3120/sign
 ~
 E
-chain~
-   The chain reaches the clouds high above you.  It must take some really
-powerful magic to hold such a chain in place.
+tree~
+adveenture:3120/tree
 ~
 S
 #3121
 Emerald Avenue~
-   You are standing at a bend on Emerald Avenue.  The road leads south and
-east.
+adventure:3121/main
 ~
 31 0 0 0 0 1
 D1
+adventure:3134/look
 ~
 ~
 0 -1 3134
 D2
+adventure:3125/look
 ~
 ~
 0 -1 3125
 S
 #3122
 Park Road~
-   You are on Park Road which leads south and north.  Elm Street is east of
-here.
+adventure:3122/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3136/look
 ~
 ~
 0 -1 3136
 D1
+adventure:3123/look
 ~
 ~
 0 -1 3123
 D2
+adventure:3126/look
 ~
 ~
 0 -1 3126
