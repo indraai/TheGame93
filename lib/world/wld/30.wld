@@ -273,79 +273,72 @@ adventure:3040/look
 S
 #3013
 Main Street~
-   You are on the main street passing through the City of Amaravati.  South of
-here is the entrance to the Armory, and the bakery is to the north.  East of
-here is the market square.
+adventure:3013/main
 ~
 30 0 0 0 0 1
 D0
-You see the bakery.
+adventure:3009/look
 ~
 ~
 0 -1 3009
 D1
-You see the market square.
+adventure:3014/look
 ~
 ~
 0 -1 3014
 D2
-You see the armory.
+adventure:3020/look
 ~
 ~
 0 -1 3020
 D3
-You see the main street.
+adventure:3012/look
 ~
 ~
 0 -1 3012
 S
 #3014
 Market Square~
-   You are standing on the market square, the famous Square of Amaravati.
-A large, peculiar looking statue is standing in the middle of the square.
-Roads lead in every direction, north to the temple square, south to the
-common square, east and westbound is the main street.
+adventure:3014/main
 ~
 30 0 0 0 0 1
 D0
-You see the temple square.
+adventure:3005/look
 ~
 ~
 0 -1 3005
 D1
-You see the main street.
+adventure:3015/look
 ~
 ~
 0 -1 3015
 D2
-You see the common square.
+adventure:3025/look
 ~
 ~
 0 -1 3025
 D3
-You see the main street.
+adventure:3013/look
 ~
 ~
 0 -1 3013
 E
 statue~
-   What you see is the Amaravati Worm, stretching around the Palace of Amaravati.
+adventure:3014/statue
 ~
 S
 #3015
 Main Street~
-   You are on the main street crossing through town.  To the north is the
-general store, and the main street continues east.  To the west you see and
-hear the market place, to the south a small door leads into the Pet Shop.
+adventure:3015/main
 ~
 30 0 0 0 0 1
 D0
-You see the general store.
+adventure:3010/look
 ~
 ~
 0 -1 3010
 D1
-You see the main street.
+adventure:3016/look
 ~
 ~
 0 -1 3016
