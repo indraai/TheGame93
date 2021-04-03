@@ -200,103 +200,103 @@ door~
 S
 #3111
 Park Road~
-adventure:3111/main
+   The road continues north and south.  A building is just west of here, you
+notice a sign on the door.  The park entrance is to the east.
 ~
 31 0 0 0 0 1
 D0
-adventure:3131/look
 ~
 ~
 0 -1 3131
 D1
-adventure:3112/look
+You see the park entrance.
 ~
 ~
 0 -1 3112
 D2
-adventure:3118/look
 ~
 ~
 0 -1 3118
 D3
-adventure:3110/look
+You see the Agency HeadQuarters.
 ~
 door~
 1 3105 3110
 E
-adventure:3111/sign
+building door sign~
+   The sign on the door says:
+
+                 The Agency HeadQuarters
+
+           WARNING: Authorized Personnel Only!
 ~
 S
 #3112
 The Western Park Entrance~
-adventure:3112/main
+   You are standing at the western end of the park.  A small path leads east
+into the park and going west through the entrance you will reach Park Road.
 ~
 31 4 0 0 0 1
 D1
-adventure:3113/look
 ~
 ~
 0 -1 3113
 D3
-adventure:3111/look
 ~
 ~
 0 -1 3111
 S
 #3113
 A Path In The Park~
-adventure:3113/main
+   You are in the park.  The paths lead north and west.  Westward is the
+park entrance and to the east you see a small pond.
 ~
 31 0 0 0 0 1
 D0
-adventure:3107/look
 ~
 ~
 0 -1 3107
 D1
-adventure:3114/look
+You see the pond.
 ~
 ~
 0 -1 3114
 D3
-adventure:3112/look
+You see the western park entrance.
 ~
 ~
 0 -1 3112
 S
 #3114
 The Pond~
-adventure:3114/main
+   You are swimming around in the pond, feeling rather stupid.  You can get
+back on the path from the eastern and western end of the pond.
 ~
 31 0 0 0 0 6
 D1
-adventure:3115/look
 ~
 ~
 0 -1 3115
 D3
-adventure:3113/look
 ~
 ~
 0 -1 3113
 S
 #3115
 A Path In The Park~
-adventure:3115/main
+   You are in the park.  The paths lead north and east.  Eastward is the
+park entrance and to the west you see a small pond.
 ~
 31 0 0 0 0 1
 D0
-adventure:3109/look
 ~
 ~
 0 -1 3109
 D1
-adventure:3116/look
 ~
 ~
 0 -1 3116
 D3
-adventure:3114/look
 ~
 ~
 0 -1 3114
