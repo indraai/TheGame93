@@ -200,35 +200,32 @@ door~
 S
 #3111
 Park Road~
-   The road continues north and south.  A building is just west of here, you
-notice a sign on the door.  The park entrance is to the east.
+adventure:3111/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3131/look
 ~
 ~
 0 -1 3131
 D1
-You see the park entrance.
+adventure:3112/look
 ~
 ~
 0 -1 3112
 D2
+adventure:3118/look
 ~
 ~
 0 -1 3118
 D3
-You see the Agency HeadQuarters.
+adventure:3110/look
 ~
 door~
 1 3105 3110
 E
 building door sign~
-   The sign on the door says:
-
-                 The Agency HeadQuarters
-
-           WARNING: Authorized Personnel Only!
+adventure:3111/door
 ~
 S
 #3112
