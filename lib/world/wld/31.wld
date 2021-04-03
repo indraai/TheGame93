@@ -83,7 +83,7 @@ You see the promenade.
 0 -1 3102
 S
 #3104
-The Northeast End Of The Concourse~
+The Concourse~
 adventure:3104/main
 ~
 31 0 0 0 0 1
@@ -124,7 +124,7 @@ adventure:3108/main
 0 -1 3108
 S
 #3106
-Park Cafe~
+The Park Cafe~
 adventure:3106/main
 ~
 31 136 0 0 0 0
@@ -172,7 +172,7 @@ adventure:3107/look
 0 -1 3107
 S
 #3109
-A Small Path In The Park~
+The Park Path~
 adventure:3109/main
 ~
 31 0 0 0 0 1
@@ -200,103 +200,103 @@ door~
 S
 #3111
 Park Road~
-   The road continues north and south.  A building is just west of here, you
-notice a sign on the door.  The park entrance is to the east.
+adventure:3111/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3131/look
 ~
 ~
 0 -1 3131
 D1
-You see the park entrance.
+adventure:3112/look
 ~
 ~
 0 -1 3112
 D2
+adventure:3118/look
 ~
 ~
 0 -1 3118
 D3
-You see the Agency HeadQuarters.
+adventure:3110/look
 ~
 door~
 1 3105 3110
 E
-building door sign~
-   The sign on the door says:
-
-                 The Agency HeadQuarters
-
-           WARNING: Authorized Personnel Only!
+adventure:3111/sign
 ~
 S
 #3112
 The Western Park Entrance~
-   You are standing at the western end of the park.  A small path leads east
-into the park and going west through the entrance you will reach Park Road.
+adventure:3112/main
 ~
 31 4 0 0 0 1
 D1
+adventure:3113/look
 ~
 ~
 0 -1 3113
 D3
+adventure:3111/look
 ~
 ~
 0 -1 3111
 S
 #3113
 A Path In The Park~
-   You are in the park.  The paths lead north and west.  Westward is the
-park entrance and to the east you see a small pond.
+adventure:3113/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3107/look
 ~
 ~
 0 -1 3107
 D1
-You see the pond.
+adventure:3114/look
 ~
 ~
 0 -1 3114
 D3
-You see the western park entrance.
+adventure:3112/look
 ~
 ~
 0 -1 3112
 S
 #3114
 The Pond~
-   You are swimming around in the pond, feeling rather stupid.  You can get
-back on the path from the eastern and western end of the pond.
+adventure:3114/main
 ~
 31 0 0 0 0 6
 D1
+adventure:3115/look
 ~
 ~
 0 -1 3115
 D3
+adventure:3113/look
 ~
 ~
 0 -1 3113
 S
 #3115
 A Path In The Park~
-   You are in the park.  The paths lead north and east.  Eastward is the
-park entrance and to the west you see a small pond.
+adventure:3115/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3109/look
 ~
 ~
 0 -1 3109
 D1
+adventure:3116/look
 ~
 ~
 0 -1 3116
 D3
+adventure:3114/look
 ~
 ~
 0 -1 3114
