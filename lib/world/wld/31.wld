@@ -510,268 +510,275 @@ adventure:3129/look
 S
 #3127
 On The Concourse~
-   You are at the southwest corner of the city wall.  The Concourse leads
-both north and east.
+adventure:3127/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3100/look
 ~
 ~
 0 -1 3100
 D1
+adventure:3128/look
 ~
 ~
 0 -1 3128
 D3
-Through the South Gate you can see a small path leading southwards.
+adventure:3504/look
 ~
 ~
 0 -1 3504
 S
 #3128
 On The Concourse~
-   The Concourse continues both east and west.  Emerald Avenue is north of
-here.
+adventure:3128/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3125/look
 ~
 ~
 0 -1 3125
 D1
+adventure:3129/look
 ~
 ~
 0 -1 3129
 D3
+adventure:3127/look
 ~
 ~
 0 -1 3127
 S
 #3129
 On The Concourse~
-   The Concourse continues both east and west.  Park Road is north of here
-and an iron grate leads south to the graveyard.
+adventure:3129/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3126/look
 ~
 ~
 0 -1 3126
 D1
+adventure:3130/look
 ~
 ~
 0 -1 3130
 D2
-Through the solid iron bars you see the graveyard.
+adventure:3150/look
 ~
 grate~
 2 3106 3150
 D3
+adventure:3128/look
 ~
 ~
 0 -1 3128
 S
 #3130
 On The Concourse~
-   You are at the southeast corner of the city wall.  The Concourse leads
-both north and west.
+adventure:3130/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3104/look
 ~
 ~
 0 -1 3104
 D3
+adeventure:3129/look
 ~
 ~
 0 -1 3129
 S
 #3131
 Park Road~
-   You are at Park Road which continues north and south.
+adventure:3131/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3101/look
 ~
 ~
 0 -1 3101
 D2
+adventure:3111/look
 ~
 ~
 0 -1 3111
 S
 #3132
 Emerald Avenue~
-   You are at Emerald Avenue which continues north and south.  Penny Lane leads
-east from here.
+adventure:3132/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3103/look
 ~
 ~
 0 -1 3103
 D1
+adventure:3139/look
 ~
 ~
 0 -1 3139
 D2
+adventure:3117/look
 ~
 ~
 0 -1 3117
 S
 #3133
 Emerald Avenue~
-   You are standing at a bend on Emerald Avenue.  To the east the road goes on
-and to the south is the Road Crossing.
+adventure:3133/main
 ~
 31 0 0 0 0 1
 D1
+adventure:3119/look
 ~
 ~
 0 -1 3119
 D2
+adventure:3120/look
 ~
 ~
 0 -1 3120
 S
 #3134
 Emerald Avenue~
-   You are standing at a bend on Emerald Avenue.  To the west the road goes on
-and to the north is the Road Crossing.
+adventure:3134/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3120/look
 ~
 ~
 0 -1 3120
 D3
+adventure:3121/look
 ~
 ~
 0 -1 3121
 S
 #3135
 Park Road~
-   You are at a bend on Park Road.  To the north the road goes on and to the
-east is the Road Crossing.
+adventure:3135/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3118/look
 ~
 ~
 0 -1 3118
 D1
+adventure:3120/look
 ~
 ~
 0 -1 3120
 S
 #3136
 Park Road~
-   You are at a bend on Park Road.  To the south the road goes on and to the
-west is the Road Crossing.
+adventure:3136/main
 ~
 31 0 0 0 0 1
 D2
+adventure:3122/look
 ~
 ~
 0 -1 3122
 D3
+adventure:3120/look
 ~
 ~
 0 -1 3120
 S
 #3137
 The Waiting Room~
-   You are standing in the waiting room at the town hall.  Wooden chairs stand
-along the walls and a long desk with a typewriter is placed in the middle of
-the room.
+adventure:3137/main
 ~
 31 8 0 0 0 0
 D1
-It looks like some kind of office.
+adventure:3138/look
 ~
 ~
 0 -1 3138
 D3
-The exit west leads to Emerald Avenue.
+adventure:3117/look
 ~
 ~
 0 -1 3117
 E
 chair chairs~
-   Not the very least comfortable.
+adventure:3137/chair
 ~
 E
 desk~
-   An extremely heavy desk.  It is so large that it doesn't even need drawers.
-Everything can be stored on its top.
+adventure:3137/desk
 ~
 E
 typewriter~
-   It is an ancient Quifatronic T-1000 mk I.  These machines are known for their
-incredible durability, and for their even more incredible weight.  They make a
-Cray II look like a laptop.
+adventure:3137/typewriter
 ~
 S
 #3138
 The Mayor's Office~
-   You are in the not very big office of the Mayor of Amaravati.  A large and
-polished but completely empty desk is standing in front of an armchair that
-looks so comfortable that it most of all resembles a bed with the head end
-raised slightly.
+adventure:3138/main
 ~
 31 8 0 0 0 0
 D3
-The waiting room is to the west.
+adventure:3137/look
 ~
 ~
 0 -1 3137
 E
 desk~
-   This desk is obviously very old.  Nevertheless it looks as if has never been
-used.
+adventure:3138/desk
 ~
 E
 chair armchair~
-   This chair is really a masterpiece.  A chair where one can sit as comfortably
-as in a bed.  All auditoriums should be equipped with these things.  A shame
-that there wouldn't be room for the students too, though.
+adventure:3138/chair
 ~
 S
 #3139
 Penny Lane~
-   You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane
-continues in eastward direction.
+adventure:3139/main
 ~
 31 0 0 0 0 1
 D1
+adventure:3140/look
 ~
 ~
 0 -1 3140
 D3
+adventure:3132/look
 ~
 ~
 0 -1 3132
 S
 #3140
 Penny Lane~
-   You are on Penny Lane.  The narrow road continues north and west.
+adventure:3140/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3141/look
 ~
 ~
 0 -1 3141
 D3
+adventure:3139/look
 ~
 ~
 0 -1 3139
 S
 #3141
 The End Of Penny Lane~
-   You are at the end of Penny Lane.  The only exit appears to be south.
+adventure:3141/main
 ~
 31 0 0 0 0 1
 D2
+adventure:3140/look
 ~
 ~
 0 -1 3140
