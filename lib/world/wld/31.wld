@@ -451,55 +451,59 @@ adventure:3126/look
 S
 #3123
 Elm Street~
-   You are on Elm street.  Park Road is to the west and Elm Street continues
-in eastward direction.
+adventure:3123/main
 ~
 31 0 0 0 0 1
 D1
+adventure:3124/look
 ~
 ~
 0 -1 3124
 D3
+adventure:3122/look
 ~
 ~
 0 -1 3122
 S
 #3124
 The End Of Elm Street~
-   You are at the end of Elm Street.
+adventure:3124/main
 ~
 31 0 0 0 0 1
 D3
+adventure:3123/look
 ~
 ~
 0 -1 3123
 S
 #3125
 Emerald Avenue~
-   You are on Emerald Avenue which continues north.  The Concourse is south
-of here.
+adventure:3125/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3121/look
 ~
 ~
 0 -1 3121
 D2
+adventure:3128/look
 ~
 ~
 0 -1 3128
 S
 #3126
 Park Road~
-   You are on Park Road which continues north.  The Concourse is south of
-here.
+adventure:3126/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3122/look
 ~
 ~
 0 -1 3122
 D2
+adventure:3129/look
 ~
 ~
 0 -1 3129
