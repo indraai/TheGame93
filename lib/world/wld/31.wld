@@ -433,11 +433,6 @@ Park Road~
 adventure:3122/main
 ~
 31 0 0 0 0 1
-D0
-adventure:3136/look
-~
-~
-0 -1 3136
 D1
 adventure:3123/look
 ~
@@ -448,6 +443,11 @@ adventure:3126/look
 ~
 ~
 0 -1 3126
+D3
+adventure:3134/look
+~
+~
+0 -1 3134
 S
 #3123
 Elm Street~
