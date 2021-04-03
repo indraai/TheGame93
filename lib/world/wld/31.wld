@@ -367,11 +367,11 @@ adventure:3117/look
 ~
 ~
 0 -1 3117
-D3
-adventure:3133/look
+D2
+adventure:3136/look
 ~
 ~
-0 -1 3133
+0 -1 3136
 S
 #3120
 The Road Crossing~
@@ -682,11 +682,11 @@ Park Road~
 adventure:3136/main
 ~
 31 0 0 0 0 1
-D2
-adventure:3122/look
+D0
+adventure:3119/look
 ~
 ~
-0 -1 3122
+0 -1 3119
 D3
 adventure:3120/look
 ~
