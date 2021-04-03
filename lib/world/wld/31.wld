@@ -1,77 +1,69 @@
 #3100
-The Northwest End Of The Concourse~
-   You are at the concourse, the city wall is just west.  A small promenade
-goes east, and the bridge is just north of here.  The concourse continues
-south along the city wall.
+The Concourse~
+adventure:3100/main
 ~
 31 0 0 0 0 1
 D0
-You see the Bridge.
+adventure:3051/main
 ~
 ~
 0 -1 3051
 D1
-You see the promenade.
+adventure:3101/look
 ~
 ~
 0 -1 3101
 D2
-The promenade continues far south.
+adventure:3127/look
 ~
 ~
 0 -1 3127
 S
 #3101
 The Promenade~
-   The river gently flows westwards just north of here.  The promenade
-continues further east and to the west you see the city wall.  Park Road
-leads south from here.
+adventure:3101/main
 ~
 31 0 0 0 0 1
 D1
-The promenade continues.
+adventure:3102/look
 ~
 ~
 0 -1 3102
 D2
-Park Road leads south.
+adventure:3131/look
 ~
 ~
 0 -1 3131
 D3
-You see the Concourse.
+adventure:3100/look
 ~
 ~
 0 -1 3100
 S
 #3102
 The Promenade~
-   The river gently flows westwards just north of here.  The promenade
-continues both east and west.  South of here you see the entrance to
-the park, and a small building seems to be just west of the entrance.
+adventure:3102/main
 ~
 31 0 0 0 0 1
 D1
-You see the promenade.
+adventure:3103/look
 ~
 ~
 0 -1 3103
 D2
-You see the park entrance.
+adventure:3105/look
 ~
 ~
 0 -1 3105
 D3
-You see the promenade.
+adventure:3101/look
 ~
 ~
 0 -1 3101
 S
 #3103
 The Promenade~
-   The river gently flows westwards just north of here.  The promenade
-continues both east and west.  A small path leads south.  Looking across
-the river you see the levee.
+adventure:3103/main
 ~
 31 0 0 0 0 1
 D1
