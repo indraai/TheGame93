@@ -417,11 +417,11 @@ Emerald Avenue~
 adventure:3121/main
 ~
 31 0 0 0 0 1
-D1
-adventure:3134/look
+D0
+adventure:3135/look
 ~
 ~
-0 -1 3134
+0 -1 3135
 D2
 adventure:3125/look
 ~
@@ -666,16 +666,16 @@ Park Road~
 adventure:3135/main
 ~
 31 0 0 0 0 1
-D0
-adventure:3118/look
-~
-~
-0 -1 3118
 D1
 adventure:3120/look
 ~
 ~
 0 -1 3120
+D2
+adventure:3121/look
+~
+~
+0 -1 3121
 S
 #3136
 Park Road~
