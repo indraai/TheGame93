@@ -304,36 +304,37 @@ adventure:3114/look
 S
 #3116
 The Eastern Park Entrance~
-   You are standing at the eastern end of the park.  A small path leads west
-into the park.  Going east through the entrance you will reach Emerald
-Avenue.
+adventure:3116/main
 ~
 31 4 0 0 0 1
 D1
+adventure:3117/look
 ~
 ~
 0 -1 3117
 D3
+adventure:3115/look
 ~
 ~
 0 -1 3115
 S
 #3117
 Emerald Avenue~
-   You are standing on the north end of Emerald Avenue.  To the north is the
-promenade and to the west is the park entrance.  To the east is the not very
-big Town Hall of Amaravati.
+adventure:3117/main
 ~
 31 0 0 0 0 1
 D0
+adventure:3132/look
 ~
 ~
 0 -1 3132
 D1
+adventure:3137/look
 ~
 ~
 0 -1 3137
 D2
+adventure:3119/look
 ~
 ~
 0 -1 3119
