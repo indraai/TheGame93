@@ -601,7 +601,7 @@ SPECIAL(pet_shops)
   pet_room = IN_ROOM(ch) + 1;
 
   if (CMD_IS("list")) {
-    send_to_char(ch, "Available pets are:\r\n");
+    send_to_char(ch, "Available buddies are:\r\n");
     for (pet = world[pet_room].people; pet; pet = pet->next_in_room) {
       /* No, you can't have the Implementor as a pet if he's in there. */
       if (!IS_NPC(pet))
@@ -614,7 +614,7 @@ SPECIAL(pet_shops)
     two_arguments(argument, buf, pet_name);
 
     if (!(pet = get_char_room(buf, NULL, pet_room)) || !IS_NPC(pet)) {
-      send_to_char(ch, "There is no such pet!\r\n");
+      send_to_char(ch, "There is no such buddy!\r\n");
       return (TRUE);
     }
     if (GET_GOLD(ch) < PET_PRICE(pet)) {
@@ -644,7 +644,7 @@ SPECIAL(pet_shops)
     IS_CARRYING_W(pet) = 1000;
     IS_CARRYING_N(pet) = 100;
 
-    send_to_char(ch, "May you enjoy your pet.\r\n");
+    send_to_char(ch, "May you enjoy your buddy.\r\n");
     act("$n buys $N as a pet.", FALSE, ch, 0, pet, TO_ROOM);
 
     return (TRUE);
