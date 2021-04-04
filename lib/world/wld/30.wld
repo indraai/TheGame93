@@ -355,272 +355,242 @@ You see the market square.
 S
 #3016
 Main Street~
-   The main street, to the north is the weapon shop and to the south is the
-Guild of Swordsmen.  To the east you leave town and to the west the street
-leads to the market square.
+adventure:3016/main
 ~
 30 0 0 0 0 1
 D0
-You see the weapon shop.
+adventure:3011/main
 ~
 ~
 0 -1 3011
 D1
-You see the city gate.
+adventure:3041/look
 ~
 ~
 0 -1 3041
 D2
-You see the swordsmen's guild.
+adventure:3021/look
 ~
 ~
 0 -1 3021
 D3
-You see the main street leading to the market square.
+adventur:3015/look
 ~
 ~
 0 -1 3015
 S
 #3017
-The Entrance To The Mages' Guild~
-   The entrance hall to this guild is a small, poor lighted room.
+The Mages' Guild~
+adventure:3017/main
 ~
 30 8 0 0 0 0
 D0
-You see the main street.
+adventure:3012/look
 ~
 ~
 0 -1 3012
 D2
-You see your favorite place, the Mages' Bar.
+adventure:3018/look
 ~
 ~
 0 -1 3018
 S
 #3018
 The Mages' Bar~
-   The bar is one of the weirdest in the land.  Mystical images float around
-the air.  Illusions of fine furniture appear all around the room.
+adventure:3018/main
 ~
 30 140 0 0 0 0
 D0
-You see the lobby.
+adventure:3017/look
 ~
 ~
 0 -1 3017
 D1
-You see the laboratory.
+adventure:3019/look
 ~
 ~
 0 -1 3019
 S
 #3019
 The Mages' Laboratory~
-   This is the Magical Experiments Laboratory.  Dark smoke-stained stones arch
-over numerous huge oaken tables, most of these cluttered with strange- looking
-pipes and flasks.  The floor is covered with half-erased pentagrams and even
-weirder symbols, and a blackboard in a dark corner has only been partially
-cleaned, some painful-looking letters faintly visible.
+adventure:3019/main
 ~
 30 12 0 0 0 0
 D3
-You see the bar.
+adventure:3018/look
 ~
 ~
 0 -1 3018
 S
 #3020
 The Armory~
-   The armory has a wide assortment of armor displayed on the walls and in the
-windows. Helmets, shields, and suits of armor are for sale. To the north is
-the main street. On the wall is a small note.
+adventure:3020/main
 ~
 30 136 0 0 0 0
 D0
-You see the main street.
+adventure:3013/look
 ~
 ~
 0 -1 3013
 E
 note~
-   You can use these commands for trading:
-  value <item>     To get the price of an item in your possession.
-  sell <item>      To sell something.
-  buy <item>       To buy something (provided that the shop has it in store).
-  list             Gives you a listing of the shop's inventory.
-        WE DON'T GIVE CREDIT; WE DON'T EXPECT TO RECEIVE CREDIT!
-                             NO HAGGLING
+adventure:3020/note
 ~
 S
 #3021
-The Entrance Hall To The Guild Of Swordsmen~
-   The entrance hall to the Guild of Swordsmen.  A place where one has to be
-careful not to say something wrong (or right).  To the east is the bar and to
-the north is the main street.
+The Guild Of Swordsmen~
+adventure:3021/main
 ~
 30 8 0 0 0 0
 D0
-You see the main street.
+adventure:3016/look
 ~
 ~
 0 -1 3016
 D1
-You see the swordsmen's bar, many noises comes from there.
+adventure:3022/look
 ~
 ~
 0 -1 3022
 S
 #3022
 The Bar Of Swordsmen~
-   The bar of swordsmen, once upon a time beautifully furnished.  But now the
-furniture is all around you in small pieces.  To the south is the yard, and
-to the west is the entrance hall.
+adventure:3022/main
 ~
 30 140 0 0 0 0
 D2
-You see the practice yard.
+adventure:3023/look
 ~
 ~
 0 -1 3023
 D3
-You see the entrance hall to the warriors' guild.
+adventure:3021/look
 ~
 ~
 0 -1 3021
 S
 #3023
-The Tournament And Practice Yard~
-   This is the practice yard of the fighters.  To the north is the bar.
-A well leads down into darkness.
+The Practice Yard~
+adventure:3023/main
 ~
 30 12 0 0 0 0
 D0
-You see the bar.
+adventure:3022/look
 ~
 ~
 0 -1 3022
 D5
-You can't see what is down there, it is too dark.  Looks like it would be
-impossible to climb back up.
+adventure:7048/look
 ~
 ~
 0 -1 7048
 S
 #3024
 The Eastern End Of Poor Alley~
-   You are at the poor alley.  South of here is the Grubby Inn and to the
-east you see common square.  The alley continues further west.
+adventure:3024/main
 ~
 30 0 0 0 0 1
 D1
-You see the common square.
+adventure:3025/look
 ~
 ~
 0 -1 3025
 D2
-You see the Inn.
+adventure:3048/look
 ~
 ~
 0 -1 3048
 D3
-You see the poor alley.
+adventure:3044/look
 ~
 ~
 0 -1 3044
 S
 #3025
 The Common Square~
-   The common square, people pass you, talking to each other.  To the west is
-the poor alley and to the east is the dark alley.  To the north, this square
-is connected to the market square.  From the south you notice a nasty smell.
+adventure:3025/main
 ~
 30 0 0 0 0 1
 D0
-You see the market square.
+adventure:3014/look
 ~
 ~
 0 -1 3014
 D1
-You see the dark alley.
+adventure:3026/look
 ~
 ~
 0 -1 3026
 D2
-You see the city dump.
+adventure:3030/look
 ~
 ~
 0 -1 3030
 D3
-You see Poor Alley.
+adventure:3024/look
 ~
 ~
 0 -1 3024
 S
 #3026
 The Dark Alley~
-   The dark alley, to the west is the common square and to the south is the
-Guild of Thieves.  The alley continues east.
+adventure:3026/main
 ~
 30 0 0 0 0 1
 D1
-The alley continues east.
+adventure:3045/look
 ~
 ~
 0 -1 3045
 D2
-You see the entrance to the thieves' guild.
+adventure:3027/look
 ~
 ~
 0 -1 3027
 D3
-You see the common square.
+adventure:3025/look
 ~
 ~
 0 -1 3025
 E
 guild~
-   It is the thieves' guild, don't enter if you care about your health or money.
+adventure:3026/guild
 ~
 S
 #3027
-The Entrance Hall To The Guild Of Thieves~
-   The entrance hall to the thieves' and assassins' guild.  A place where you
-can lose both your life and your money, if you are not careful.  To the north
-is the dark alley and to the east is the thieves' bar.
+The Guild Of Thieves~
+adventure:3027/main
 ~
 30 8 0 0 0 0
 D0
-You see the alley.
+adventure:3026/look
 ~
 ~
 0 -1 3026
 D1
-You see the thieves bar, where everything disappears.
+adventure:3028/look
 ~
 ~
 0 -1 3028
 S
 #3028
 The Thieves' Bar~
-   The bar of the thieves.  Once upon a time this place was beautifully
-furnished, but now it seems almost empty.  To the south is the yard, and to
-the west is the entrance hall.
-   (Maybe the furniture has been stolen?!)
+adventure:3028/main
 ~
 30 140 0 0 0 0
 D2
-You see the secret yard.
+adventure:3029/look
 ~
 ~
 0 -1 3029
 D3
-You see the entrance hall to the thieves' guild.
+adventure:3027/look
 ~
 ~
 0 -1 3027
 E
 furniture~
-   As you look at the furniture, the chair you sit on disappears.
+adventure:3028/furniture
 ~
 S
 #3029
