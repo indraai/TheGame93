@@ -525,7 +525,7 @@ A pair of Level 1 Tackle Suit Shin Guards tackle suit shin guards is lying on th
 #3081
 tsl1 tsl1-pa pants tackle suit~
 TSL1-PA Pants~
-A pair of leather pants is lying on the ground.~
+A pair of Level 1 Tackle Suit Pants is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 3 0 0 0
@@ -543,15 +543,15 @@ tsl1 tackle suit neck guard~
 This Level 1 tackle suite neck guard will guard your neck in battle.
 ~
 #3083
-leather ring~
-a leather ring~
-A leather ring with strange symbols lies here.~
+tsl1 tsl1-sr signet ring tackle suit~
+TSL1-SR Signet Ring~
+A Level 1 Tackle Suite Signet Ring is here.~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
 1 0 0 0
 1 10 1 0 0
 E
-leather ring~
+tsl1 tackle suit signet ring~
 The ring used to have some strange writing and symbols around the band but it
 has become so worn with time and use that it is unreadable.
 ~

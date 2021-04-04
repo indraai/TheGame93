@@ -302,7 +302,7 @@ E
 T 3003
 #3040
 service servicedeva deva~
-the ServiceeDEVA~
+the ServiceDEVA~
 A ServiceDEVA watches you calmly, while he skillfully mixes a drink.
 ~
 A happy looking ServiceDEVA who hates trouble in his bar.
@@ -374,7 +374,7 @@ The WaiterDEVA is here waiting for your order.
 E
 #3046
 service servicedeva deva~
-the ServiceeDEVA~
+the ServiceDEVA~
 A ServiceDEVA watches you calmly, while he skillfully mixes a drink.
 ~
 A happy looking ServiceDEVA who hates trouble in his bar.
@@ -530,20 +530,20 @@ E
 #3090
 mini deva buddy minibuddy devabuddy~
 the Mini DevaBuddy~
-A small loyal DevaBuddy is here.
+A Mini DevaBuddy is here.
 ~
 The DevaBuddy looks like a cute, little, loyal friend.
 ~
 16398 0 0 0 0 0 0 0 200 E
 1 20 9 0d0+10 1d2+0
-10 50
+10 100
 8 8 0
 BareHandAttack: 8
 E
 #3091
 small deva buddy sbuddy devabuddy~
 the Small DevaBuddy~
-A small loyal DevaBuddy is here.
+A Small DevaBuddy is here.
 ~
 The DevaBuddy looks like a cute, little, loyal friend.
 ~
@@ -556,7 +556,7 @@ E
 #3092
 medium deva buddy mbuddy devabuddy~
 the Medium DevaBuddy~
-A small, quick, loyal Medium DevaBuddy is here.
+A Medium DevaBuddy is here.
 ~
 The Medium DevaBuddy looks like a loyal friend.
 ~
@@ -569,7 +569,7 @@ E
 #3093
 large deva buddy lbuddy devabuddy~
 the Large Deva Buddy~
-A large, loyal DevaBuddy is here.
+A Large DevaBuddy is here.
 ~
 The Large DevaBuddy looks like a strong, loyal friend.
 ~
@@ -582,7 +582,7 @@ E
 #3094
 huge deva buddy hbuddy devabuddy~
 the Huge DevaBuddy~
-A huge DevaBuddy is here.
+A Huge DevaBuddy is here.
 ~
 The Huge DevaBuddy like a strong, loyal friend.
 ~
