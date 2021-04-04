@@ -595,36 +595,32 @@ adventure:3028/furniture
 S
 #3029
 The Secret Yard~
-   The secret practice yard of thieves and assassins.  To the north is the
-bar.  A well leads down into darkness.
+adventure:3029/main
 ~
 30 12 0 0 0 0
 D0
-You see the bar.
+adventure:3028/look
 ~
 ~
 0 -1 3028
 D5
-You can't see what is down there, it is too dark.  Looks like it would be
-impossible to climb back up.
+adventure:7043/look
 ~
 ~
 0 -1 7043
 S
 #3030
-The Dump~
-   The dump, where the people from the city drop their garbage.  Through the
-garbage you can see a large junction of pipes, looks like the entrance to the
-sewer system.  North of here you see the common square.
+The Recycling Center~
+adventure:3030/main
 ~
 30 4 0 0 0 2
 D0
-You see the common square.
+adventure:3025/main
 ~
 ~
 0 -1 3025
 D5
-You see the sewers.
+adventure:7030/look
 ~
 grate~
 2 3005 7030
@@ -632,425 +628,360 @@ S
 T 3004
 #3031
 The Pet Shop~
-   The Pet Shop is a small crowded store, full of cages and animals of
-various sizes.  There is a sign on the wall.
+adventure:3031/main
 ~
 30 140 0 0 0 0
 D0
-You see the main street.
+adventure:3015/look
 ~
 ~
 0 -1 3015
 E
 sign~
-   The sign reads:
-  Use 'List' to see the available pets.
-  Use 'Buy <pet>' to buy yourself a pet.
-  Instructions for having pets:
-  You can use 'order <pet> <instructions>' to order your pets around.
-  If you abuse your pet, it will no longer regard you as its master.
-  If you have several pets you may use 'order followers <instructions>'
-  You can name the pet you buy with: 'buy <pet> <name>'
- Regards,
- The Shopkeeper
+adventure:3031/sign
 ~
 S
 #3032
 PETSHOP STOREROOM~
-   Make two rooms and some pets.  The rooms MUST be sequential.  If the first
-room is 315 then the second must be 316.  The second room is known as the
-storeroom.  All that is required in the storeroom is to load one of each mob you
-wish to be a pet.  This room can not have any exits and will never be used by
-mortals.  Although a pet shopkeeper is not required it is recommended.  After
-all of this is done ask your coder to implement the petshop.  It will not work
-until the code is changed and the MUD is rebooted.  The cost of pets is 300
-times their level.
+adventure:3032/main
 ~
 30 1536 0 0 0 0
 S
 #3033
 The Magic Shop~
-   Behind the counter you see various items, neatly placed in racks,
-presumably most of them are magic.
+adventure:3033/main
 ~
 30 136 0 0 0 0
 D2
-You see the main street.
+adventure:3012/look
 ~
 ~
 0 -1 3012
 S
 #3040
-Inside The West Gate Of Amaravati~
-   You are by two small towers that have been built into the city wall and
-connected with a footbridge across the heavy wooden gate.  Main Street leads
-east and Wall Road leads south from here.
+The West Gate~
+adventure:3040/main
 ~
 30 0 0 0 0 1
 D1
-You see Main Street.
+adventure:3012/look
 ~
 ~
 0 -1 3012
 D2
-You see the road running along the inner side of the city wall.  You notice
-that it is called Wall Road.
+adventure:3042/look
 ~
 ~
 0 -1 3042
 D3
-The city gate is to the west.
+adventure:3052/look
 ~
 gate~
 1 3112 3052
 E
 bridge footbridge~
-   It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+adventure:look/3040/bridge
 ~
 E
 gate~
-   It is a set of very big double doors made from hard wood.  They have been
-reinforced with large iron bands to make them even more sturdy.  One of the
-doors is equipped with a very big lock.
+adventure:3040/gate
 ~
 E
 tower towers~
-   Both of the towers are built from large gray rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+adventure:3040/towers
 ~
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3040/wall
 ~
 S
 #3041
-Inside The East Gate Of Amaravati~
-   You are by two small towers that have been built into the city wall and
-connected with a footbridge across the heavy wooden gate.  Main Street leads
-west from here.  To the south you see the Water Shop.
+The East Gate~
+adventure:3040/main
 ~
 30 0 0 0 0 1
 D1
-You see the city gate.
+adventure:3053/look
 ~
 gate~
 1 3112 3053
 D2
-You see the water shop.
+adventure:3058/look
 ~
 ~
 0 -1 3058
 D3
-You see Main Street.
+adventure:3016/look
 ~
 ~
 0 -1 3016
 E
 bridge footbridge~
-   It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+adventure:3041/bridge
 ~
 E
 gate~
-   It is a set of very big double doors made from hard wood.  They have been
-reinforced with large iron bands to make them even more sturdy.  One of the
-doors is equipped with a very big lock.
+adventure:3041/gate
 ~
 E
 tower towers~
-   Both of the towers are built from large gray rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+adventure:3041/towers
 ~
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3041/wall
 ~
 S
 #3042
 Wall Road~
-   You are walking next to the western city wall.  The road continues further
-south and the city gate is just north of here.
+adventure:3042/main
 ~
 30 0 0 0 0 1
 D0
-You see the city gate.
+adventure:3040/look
 ~
 ~
 0 -1 3040
 D2
-The road continues further south.
+adventure:3043/look
 ~
 ~
 0 -1 3043
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3042/wall
 ~
 S
 #3043
 Wall Road~
-   You are walking next to the western city wall.  Wall Road continues further
-north and south.  A small, poor alley leads east.
-Some letters have been written on the wall here.
+adventure:3043/main
 ~
 30 0 0 0 0 1
 D0
-The road continues further north.
+adventure:3042/look
 ~
 ~
 0 -1 3042
 D1
-Poor Alley leads east.
+adventure:3044/look
 ~
 ~
 0 -1 3044
 D2
-The road continues further south.
+adventure:3047/look
 ~
 ~
 0 -1 3047
 E
 wall writing letters~
-   It says 'Who watches the watchmen?  '
+adventure:3043/letters
 ~
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3043/wall
 ~
 S
 #3044
 Poor Alley~
-   You are on Poor Alley, which continues further east.  You see the
-city wall to the west.
+adventure:3044/main
 ~
 30 0 0 0 0 1
 D1
-The alley leads east.
+adventure:3024/look
 ~
 ~
 0 -1 3024
 D3
-The alley leads west.
+adventure:3043/look
 ~
 ~
 0 -1 3043
 S
 #3045
 The Dark Alley At The Levee~
-   You are standing in the alley which continues east and west.  South of
-here you see the levee.
+adventure:3045/main
 ~
 30 0 0 0 0 1
 D1
-The alley leads east.
+adventure:3046/look
 ~
 ~
 0 -1 3046
 D2
-You see the levee.
+adventure:3049/look
 ~
 ~
 0 -1 3049
 D3
-The alley leads west.
+adventure:3026/look
 ~
 ~
 0 -1 3026
 S
 #3046
 The Eastern End Of The Alley~
-   You are standing at the eastern end of the alley, the city wall is just
-east, blocking any further movement.  A small warehouse is directly south of
-here.
+adventur:3046/main
 ~
 30 0 0 0 0 1
 D2
-You see the warehouse.
+adventure:3050/look
 ~
 ~
 0 -1 3050
 D3
-You see the alley.
+adventure:3045/look
 ~
 ~
 0 -1 3045
 S
 #3047
 Wall Road~
-   You are standing on the road next to the western city wall, which
-continues north.  South of here is a bridge across the river.
+adventure:3047/main
 ~
 30 0 0 0 0 1
 D0
-You see the road.
+adventure:3043/look
 ~
 ~
 0 -1 3043
 D2
-You see the bridge.
+adventure:3051/look
 ~
 ~
 0 -1 3051
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3047/wall
 ~
 S
 #3048
 Grubby Inn~
-   You are inside the old Grubby Inn.  This place has not been cleaned for
-several decades; vile smells make you dizzy.
+adventure:3048/main
 ~
 30 136 0 0 0 0
 D0
-You see the alley.
+adventure:3024/look
 ~
 ~
 0 -1 3024
 S
 #3049
 The Levee~
-   You are at the levee.  South of here you see the river gently flowing west.
-The river bank is very low making it possible to enter the river.
+adventure:3049/main
 ~
 30 128 0 0 0 1
 D0
-You see the alley.
+adventure:3045/look
 ~
 ~
 0 -1 3045
 D2
-You see the river flowing west.
+adventure:3203/look
 ~
 ~
 0 -1 3203
 S
 #3050
-The Deserted Warehouse~
-   You are inside the warehouse.  The room is decorated with various old
-items from ships.
+The Warehouse~
+adventure:3050/main
 ~
 30 8 0 0 0 0
 D0
-You see the alley.
+adventure:3046/look
 ~
 ~
 0 -1 3046
 S
 #3051
-On The Bridge~
-   You are standing on the stone bridge crosses the river.  The bridge is
-built out from the western city wall and the river flows west through an
-opening in the wall ten feet below the bridge.
+The Bridge~
+adventure:3051/main
 ~
 30 0 0 0 0 1
 D0
-You see the road.
+adventure:3047/look
 ~
 ~
 0 -1 3047
 D2
-You see the Concourse.
+adventure:3100/look
 ~
 ~
 0 -1 3100
 E
 bridge~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar, just like the wall.
+adventure:3051/bridge
 ~
 E
 opening~
-   You cannot really see it from here as it is somewhere beneath your feet.
+adventure:3051/opening
 ~
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3051/wall
 ~
 S
 #3052
 Outside The West Gate Of Amaravati~
-   You are by two small towers that have been built into the city wall and
-connected with a footbridge across the heavy wooden gate.  To the west you
-can see the edge of a big forest.
+adventure:3052/main
 ~
 30 0 0 0 0 1
 D1
-The city gate is to the east.
+adventure:3040/look
 ~
 gate~
 1 3112 3040
 D3
-The forest edge is to the west.
+adventure:6092/look
 ~
 ~
 0 -1 6092
 E
 bridge footbridge~
-   It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+adventure:3052/bridge
 ~
 E
 gate~
-   It is a set of very big double doors made from hard wood.  They have been
-reinforced with large iron bands to make them even more sturdy.  One of the
-doors is equipped with a very big lock.
+adventure:3052/gate
 ~
 E
 tower towers~
-   Both of the towers are built from large gray rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+adventure:3052/towers
 ~
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3052/wall
 ~
 S
 #3053
 Outside The East Gate Of Amaravati~
-   You are by two small towers that have been built into the city wall and
-connected with a footbridge across the heavy wooden gate.  To the east the
-plains stretch out in the distance.
+adventure:3053/main
 ~
 30 0 0 0 0 1
 D1
-You see the plains.
+adventure:3503/look
 ~
 ~
 0 -1 3503
 D3
-You see the city gate.
+adventure:3041/look
 ~
 gate~
 1 3112 3041
 E
 bridge footbridge~
-   It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+adventure:3053/bridge
 ~
 E
 gate~
-   It is a set of very big double doors made from hard wood.  They have been
-reinforced with large iron bands to make them even more sturdy.  One of the
-doors is equipped with a very big lock.
+adventure:3053/gate
 ~
 E
 tower towers~
-   Both of the towers are built from large gray rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+adventure:3053/towers
 ~
 E
 wall~
-   It is built from large gray rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+adventure:3053/wall
 ~
 S
 #3054
@@ -1079,13 +1010,11 @@ adventure:3054/statue
 S
 #3058
 Ye Olde Water Shoppe~
-   You are standing in the center of a small wooden shop whose walls are
-covered with racks upon racks of water jugs.  Several large barrels with
-spigots are stacked in the corner.
+adventure:3058/main
 ~
 30 136 0 0 0 0
 D0
-You see the East Gate.
+adventure:3041/look
 ~
 ~
 0 -1 3041
@@ -1112,12 +1041,12 @@ adventure:3060/main
 ~
 30 0 0 0 0 1
 D0
-You see more of the path through the Great Field.
+adventure:3061/look
 ~
 ~
 0 -1 3061
 D2
-You see the path which goes back to Amaravati.
+adventure:3059/look
 ~
 ~
 0 -1 3059
@@ -1150,83 +1079,53 @@ adventure:3066/look
 S
 #3062
 The Post Office~
-   You are in the central post office for Amaravati.  Piles of assorted mail
-lay untouched in the corners, collecting cobwebs.  Several large crates have
-been pried open by curious customs agents, and are now stacked along the west
-wall, hiding plenty of 'WANTED' posters.
-There is a sign posted on the wall here.
+adventure:3062/main
 ~
 30 8 0 0 0 1
 D2
-You see the entrance to the Grunting Boar Inn and Tavern.
+adventure:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-   **********************************************************
-   *                                                        *
-   *    Mail Instructions:                                  *
-   *                                                        *
-   *      To send a note to someone:                        *
-   *         MAIL <playername>                              *
-   *                                                        *
-   *      To see if you have any mail:                      *
-   *         CHECK                                          *
-   *                                                        *
-   *      To get the Postmaster to give you your mail:      *
-   *         RECEIVE                                        *
-   *                                                        *
-   *         Stamps cost 150 coins per letter               *
-   *         Type 'HELP MAIL' for more info                 *
-   **********************************************************
+adventure:3062/sign
 ~
 E
 letters envelopes assorted~
-   Envelopes of all sizes are heaped into hugh piles around the room.  As you
-look closer, you see a letter that you had posted a full week ago, laying
-unnoticed and slightly rat-chewed towards the bottom of the pile.
+adventure:3062/letters
 ~
 E
 cobwebs~
-   They seem to cover everything here, even the Postmaster himself.
+adventure:3062/cobwebs
 ~
 E
 crates opened large~
-   As you know, it is illegal to send contraband items through the Amaravati
-Mail.  The customs agents use this as a great excuse to seize liquor, rare
-spices, and just about anything they might find useful or profitable.
+adventure:3062/crates
 ~
 E
 WANTED posters poster wall~
-   Faces of various known Killers and Thieves can barely be seen behind the
-crates on the west wall.  Some of them look quite familar, sorta like that guy
-who you saw in the Reception a minute ago...  But then again, they are rather
-hard to see past the crates.
+adventure:3062/posters
 ~
 S
 #3063
 The Offering Room~
-   You are in a small, undecorated room just off of the main temple.  There
-are a couple of small wooden benches here where people occasionally sit
-while they wait for items to appear.  The temple is to the west.
+adventure:3063/main
 ~
 30 28 0 0 0 1
 D3
-The busy temple is back west.
+adventure:3001/look
 ~
 ~
 0 -1 3001
 S
 #3064
-The Cryogenic Center~
-   You are standing in an impossibly white sterile room with cylindrical
-body-length canisters lined up against the walls.  The Reception is to the
-south.
+The Care Center~
+adventure:3064/main
 ~
 30 8 0 0 0 1
 D2
-The Reception is to the south.
+adventure:3008/look
 ~
 ~
 0 -1 3008
@@ -1236,46 +1135,24 @@ The Great Field~
 adventure:3065/main
 ~
 30 0 0 0 0 2
-D0
-Unfortunately the way north is blocked by a large plot device and there
-does not seem to be any way around it.
-~
-~
-0 -1 -1
 D2
-The path continues through the field to the south past an odd structure
-on the eastern side of the path.
+adventure:3061/look
 ~
 ~
 0 -1 3061
-E
-plot device~
-   What more is a plot device than something to block a certain direction for
-reasons beyond your comprehension.
-~
 S
 #3066
 The Dirt Path~
-   You are walking along a narrow dirt path through the lush, green,
-fresh Amaravati countryside.  You can see to the horizon to the north
-and east; the busy city of Amaravati lies to the south.  All around
-you is healthy green grass and an occasional large oak tree.  The sun
-feels wonderful on your face and a pleasant wind blows through your
-hair.  Birds chirp quietly to themselves and you can smell the faint
-scent of flowers and freshly cut grass.  You feel like you could lie
-down in the grass and stay here forever, surrounded by powerful beauty
-in all directions.
-   There is a large rusty gate sitting in a stone archway just to the
-west.
+adventure:3066/main
 ~
 30 0 0 0 0 2
 D1
-The path meets up with a larger path just to the east.
+adventure:3061/look
 ~
 ~
 0 -1 3061
 D3
-There is a large rusty gate just to the west.
+adventure:3600/look
 ~
 ~
 0 -1 3600
