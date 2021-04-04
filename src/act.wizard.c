@@ -2757,7 +2757,7 @@ ACMD(do_show)
 
     for (j = 1; j < LVL_IMMORT; j++) {
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j,
-				thaco(CLASS_MAGIC_USER, j),
+				thaco(CLASS_SAGE, j),
 				thaco(CLASS_MONK, j),
 				thaco(CLASS_THIEF, j),
 				thaco(CLASS_WARRIOR, j));
@@ -2775,7 +2775,7 @@ ACMD(do_show)
 
     for (i = 1; i < LVL_IMMORT; i++) {
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-6d %-6d %-6d %-6d\r\n", i,
-				level_exp(CLASS_MAGIC_USER, i) - level_exp(CLASS_MAGIC_USER, i - 1),
+				level_exp(CLASS_SAGE, i) - level_exp(CLASS_SAGE, i - 1),
 				level_exp(CLASS_MONK, i) - level_exp(CLASS_MONK, i - 1),
 				level_exp(CLASS_THIEF, i) - level_exp(CLASS_THIEF, i - 1),
 				level_exp(CLASS_WARRIOR, i) - level_exp(CLASS_WARRIOR, i - 1));

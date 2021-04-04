@@ -57,7 +57,7 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case 's': return CLASS_MAGIC_USER;
+  case 's': return CLASS_SAGE;
   case 'm': return CLASS_MONK;
   case 'w': return CLASS_WARRIOR;
   case 't': return CLASS_THIEF;
@@ -124,7 +124,7 @@ int prac_params[4][NUM_CLASSES] = {
 struct guild_info_type guild_info[] = {
 
 /* Amaravati */
- { CLASS_MAGIC_USER,    3017,    SOUTH   },
+ { CLASS_SAGE,    3017,    SOUTH   },
  { CLASS_MONK,        3004,    NORTH   },
  { CLASS_THIEF,         3027,    EAST   },
  { CLASS_WARRIOR,       3021,    EAST   },
@@ -141,7 +141,7 @@ struct guild_info_type guild_info[] = {
 byte saving_throws(int class_num, int type, int level)
 {
   switch (class_num) {
-  case CLASS_MAGIC_USER:
+  case CLASS_SAGE:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -1171,7 +1171,7 @@ byte saving_throws(int class_num, int type, int level)
 int thaco(int class_num, int level)
 {
   switch (class_num) {
-  case CLASS_MAGIC_USER:
+  case CLASS_SAGE:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1371,7 +1371,7 @@ void roll_real_abils(struct char_data *ch)
   ch->real_abils.str_add = 0;
 
   switch (GET_CLASS(ch)) {
-  case CLASS_MAGIC_USER:
+  case CLASS_SAGE:
     ch->real_abils.intel = table[0];
     ch->real_abils.wis = table[1];
     ch->real_abils.dex = table[2];
@@ -1424,7 +1424,7 @@ void do_start(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
-  case CLASS_MAGIC_USER:
+  case CLASS_SAGE:
     break;
 
   case CLASS_MONK:
@@ -1467,7 +1467,7 @@ void advance_level(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
-  case CLASS_MAGIC_USER:
+  case CLASS_SAGE:
     add_hp += rand_number(3, 8);
     add_mana = rand_number(GET_LEVEL(ch), (int)(1.5 * GET_LEVEL(ch)));
     add_mana = MIN(add_mana, 10);
@@ -1560,31 +1560,31 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
 void init_spell_levels(void)
 {
   /* MAGES */
-  spell_level(SPELL_MAGIC_MISSILE, CLASS_MAGIC_USER, 1);
-  spell_level(SPELL_DETECT_INVIS, CLASS_MAGIC_USER, 2);
-  spell_level(SPELL_DETECT_MAGIC, CLASS_MAGIC_USER, 2);
-  spell_level(SPELL_CHILL_TOUCH, CLASS_MAGIC_USER, 3);
-  spell_level(SPELL_INFRAVISION, CLASS_MAGIC_USER, 3);
-  spell_level(SPELL_INVISIBLE, CLASS_MAGIC_USER, 4);
-  spell_level(SPELL_ARMOR, CLASS_MAGIC_USER, 4);
-  spell_level(SPELL_BURNING_HANDS, CLASS_MAGIC_USER, 5);
-  spell_level(SPELL_LOCATE_OBJECT, CLASS_MAGIC_USER, 6);
-  spell_level(SPELL_STRENGTH, CLASS_MAGIC_USER, 6);
-  spell_level(SPELL_SHOCKING_GRASP, CLASS_MAGIC_USER, 7);
-  spell_level(SPELL_SLEEP, CLASS_MAGIC_USER, 8);
-  spell_level(SPELL_LIGHTNING_BOLT, CLASS_MAGIC_USER, 9);
-  spell_level(SPELL_BLINDNESS, CLASS_MAGIC_USER, 9);
-  spell_level(SPELL_DETECT_POISON, CLASS_MAGIC_USER, 10);
-  spell_level(SPELL_COLOR_SPRAY, CLASS_MAGIC_USER, 11);
-  spell_level(SPELL_ENERGY_DRAIN, CLASS_MAGIC_USER, 13);
-  spell_level(SPELL_CURSE, CLASS_MAGIC_USER, 14);
-  spell_level(SPELL_POISON, CLASS_MAGIC_USER, 14);
-  spell_level(SPELL_FIREBALL, CLASS_MAGIC_USER, 15);
-  spell_level(SPELL_CHARM, CLASS_MAGIC_USER, 16);
-  spell_level(SPELL_IDENTIFY, CLASS_MAGIC_USER, 20);
-  spell_level(SPELL_FLY, CLASS_MAGIC_USER, 22);
-  spell_level(SPELL_ENCHANT_WEAPON, CLASS_MAGIC_USER, 26);
-  spell_level(SPELL_CLONE, CLASS_MAGIC_USER, 30);
+  spell_level(SPELL_MAGIC_MISSILE, CLASS_SAGE, 1);
+  spell_level(SPELL_DETECT_INVIS, CLASS_SAGE, 2);
+  spell_level(SPELL_DETECT_MAGIC, CLASS_SAGE, 2);
+  spell_level(SPELL_CHILL_TOUCH, CLASS_SAGE, 3);
+  spell_level(SPELL_INFRAVISION, CLASS_SAGE, 3);
+  spell_level(SPELL_INVISIBLE, CLASS_SAGE, 4);
+  spell_level(SPELL_ARMOR, CLASS_SAGE, 4);
+  spell_level(SPELL_BURNING_HANDS, CLASS_SAGE, 5);
+  spell_level(SPELL_LOCATE_OBJECT, CLASS_SAGE, 6);
+  spell_level(SPELL_STRENGTH, CLASS_SAGE, 6);
+  spell_level(SPELL_SHOCKING_GRASP, CLASS_SAGE, 7);
+  spell_level(SPELL_SLEEP, CLASS_SAGE, 8);
+  spell_level(SPELL_LIGHTNING_BOLT, CLASS_SAGE, 9);
+  spell_level(SPELL_BLINDNESS, CLASS_SAGE, 9);
+  spell_level(SPELL_DETECT_POISON, CLASS_SAGE, 10);
+  spell_level(SPELL_COLOR_SPRAY, CLASS_SAGE, 11);
+  spell_level(SPELL_ENERGY_DRAIN, CLASS_SAGE, 13);
+  spell_level(SPELL_CURSE, CLASS_SAGE, 14);
+  spell_level(SPELL_POISON, CLASS_SAGE, 14);
+  spell_level(SPELL_FIREBALL, CLASS_SAGE, 15);
+  spell_level(SPELL_CHARM, CLASS_SAGE, 16);
+  spell_level(SPELL_IDENTIFY, CLASS_SAGE, 20);
+  spell_level(SPELL_FLY, CLASS_SAGE, 22);
+  spell_level(SPELL_ENCHANT_WEAPON, CLASS_SAGE, 26);
+  spell_level(SPELL_CLONE, CLASS_SAGE, 30);
 
   /* MONKS */
   spell_level(SPELL_CURE_LIGHT, CLASS_MONK, 1);
@@ -1657,7 +1657,7 @@ int level_exp(int chclass, int level)
   /* Exp required for normal mortals is below */
   switch (chclass) {
 
-    case CLASS_MAGIC_USER:
+    case CLASS_SAGE:
     switch (level) {
       case  0: return 0;
       case  1: return 1;
@@ -1827,7 +1827,7 @@ const char *title_male(int chclass, int level)
 
   switch (chclass) {
 
-    case CLASS_MAGIC_USER:
+    case CLASS_SAGE:
     switch (level) {
       case  1: return "the Apprentice of Magic";
       case  2: return "the Spell Student";
@@ -1967,7 +1967,7 @@ const char *title_female(int chclass, int level)
 
   switch (chclass) {
 
-    case CLASS_MAGIC_USER:
+    case CLASS_SAGE:
     switch (level) {
       case  1: return "the Apprentice of Magic";
       case  2: return "the Spell Student";
