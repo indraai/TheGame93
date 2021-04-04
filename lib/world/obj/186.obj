@@ -1,7 +1,7 @@
 #18601
-sword newbie~
-a shiny newbie sword~
-A shiny newbie sword is lying here waiting to be possessed.~
+tsl0 tsl0-ims immobilizer tackle suit~
+TSL0-IMS Immobilizer (S)~
+A Level 0 Tackle Suit Immobilizer is here.~
 ~
 5 ag 0 0 0 an 0 0 0 0 0 0 0
 0 1 5 3
@@ -9,17 +9,17 @@ A shiny newbie sword is lying here waiting to be possessed.~
 A
 19 1
 #18602
-vest newbie~
-a bright green newbie vest~
-A bright green newbie vest is lying here looking for a body to hug.~
+tsl0 tsl0-vt vest tackle suit~
+TSL0-VT Vest~
+A Tackel Suit Level 0 Vest is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 4 0 0 0
 4 1 0 0
 #18603
-helm helmet newbie~
-a bright newbie helm~
-A bright newbie helm is hoping a loose head will wander by.~
+tsl0 tsl0-he helmet~
+TSL0-HE Helmet~
+A Level 0 Tackle Suit Helmet is here.~
 ~
 9 ag 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
@@ -27,9 +27,9 @@ A bright newbie helm is hoping a loose head will wander by.~
 A
 5 1
 #18604
-cloak dark newbie~
-a dark newbie cloak~
-A dark newbie cloak is lying here hoping to smother you.~
+tsl0 tsl0-ck cloak tackle suit~
+TSL0-CK Cloak~
+A TSL0-CK Cloak is here.~
 ~
 9 ag 0 0 0 ak 0 0 0 0 0 0 0
 0 0 0 0
@@ -39,9 +39,9 @@ A
 A
 4 1
 #18605
-ring signet newbie~
-a newbie signet ring~
-A newbie signet ring is lying in the dust here.~
+tsl0 tsl0-rg ring signet tackle suit~
+TSL0-RG Signet Ring~
+A Level 0 Tackle Suit Signet Ring~
 ~
 9 fg 0 0 0 ab 0 0 0 0 0 0 0
 0 0 0 0
@@ -49,9 +49,9 @@ A newbie signet ring is lying in the dust here.~
 A
 17 -2
 #18606
-dagger newbie~
-a shiny newbie dagger~
-A shiny newbie dagger is lying here looking for a back to stab.~
+tsl0 tsl0-sg stun gun tackle suit~
+TSL0-SG Stun Gun~
+A Level 0 Tackle Suit Stun Gun is here.~
 ~
 5 ag 0 0 0 ano 0 0 0 0 0 0 0
 0 1 4 11
@@ -59,9 +59,9 @@ A shiny newbie dagger is lying here looking for a back to stab.~
 A
 19 1
 #18607
-collar dragon~
-a pet dragon collar~
-Someone's pet dragon has escaped and left his collar here.~
+tsl0 tsl0-ng neck guard tackle suit~
+TSL0-NG Neck Guard~
+A Level 0 Tackle Suit Neck Guard is here.~
 ~
 9 g 0 0 0 ac 0 0 0 0 0 0 0
 0 0 0 0
@@ -111,17 +111,17 @@ A
 A
 13 15
 #18612
-leggings newbie~
-some cool newbie leggings~
-A pair of neat looking leggings are here.~
+tsl0 tsl0-pa tackle suit pants~
+TSL0-PA Pants~
+A pair of neat looking Level 0 Tackle Suit Pants are here.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 4 0 0 0
 4 200 0 0
 #18613
-sleeves newbie~
-some cool newbie sleeves~
-A set of nifty sleeves is here.~
+tsl0 tsl0-sl sleeves tackle suit~
+TSL0-SL Sleeves~
+A set of nifty Level 0 Tackle Suit Sleeves is here.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 4 0 0 0
@@ -129,9 +129,9 @@ A set of nifty sleeves is here.~
 A
 3 1
 #18614
-mace newbie~
-a glowing newbie mace~
-A finely crafted newbie mace is waiting for a worthy owner.~
+tsl0 tsl0-ba baton tackle suit~
+TSL0-BA Baton~
+A finely crafted Level 0 Tackle Suit Baton waiting for a worthy owner.~
 ~
 5 ag 0 0 0 an 0 0 0 0 0 0 0
 0 2 6 7
