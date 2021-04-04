@@ -34,8 +34,8 @@ const char *class_abbrevs[] = {
 };
 
 const char *pc_class_types[] = {
-  "Magic User",
-  "",
+  "SAGE",
+  "MONK",
   "Thief",
   "Warrior",
   "\n"
