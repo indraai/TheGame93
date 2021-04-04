@@ -405,7 +405,7 @@ adventure:3017/look
 ~
 ~
 0 -1 3017
-D1
+D3
 adventure:3019/look
 ~
 ~
@@ -416,7 +416,7 @@ The Mages' Laboratory~
 adventure:3019/main
 ~
 30 12 0 0 0 0
-D3
+D1
 adventure:3018/look
 ~
 ~
@@ -697,7 +697,7 @@ adventure:3040/wall
 S
 #3041
 The East Gate~
-adventure:3040/main
+adventure:3041/main
 ~
 30 0 0 0 0 1
 D1
