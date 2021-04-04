@@ -528,7 +528,7 @@ As you look at him, he opens his hands to reveal a cute little deva buddy!
 8 8 1
 E
 #3090
-mini deva buddy devabuddy~
+mini deva buddy minibuddy devabuddy~
 the Mini DevaBuddy~
 A small loyal DevaBuddy is here.
 ~
@@ -541,7 +541,7 @@ The DevaBuddy looks like a cute, little, loyal friend.
 BareHandAttack: 8
 E
 #3091
-small deva buddy devabuddy~
+small deva buddy sbuddy devabuddy~
 the Small DevaBuddy~
 A small loyal DevaBuddy is here.
 ~
@@ -554,7 +554,7 @@ The DevaBuddy looks like a cute, little, loyal friend.
 BareHandAttack: 8
 E
 #3092
-medium deva buddy devabuddy~
+medium deva buddy mbuddy devabuddy~
 the Medium DevaBuddy~
 A small, quick, loyal Medium DevaBuddy is here.
 ~
@@ -567,7 +567,7 @@ The Medium DevaBuddy looks like a loyal friend.
 BareHandAttack: 4
 E
 #3093
-large deva buddy devabuddy~
+large deva buddy lbuddy devabuddy~
 the Large Deva Buddy~
 A large, loyal DevaBuddy is here.
 ~
@@ -580,7 +580,7 @@ The Large DevaBuddy looks like a strong, loyal friend.
 BareHandAttack: 4
 E
 #3094
-huge deva buddy devabuddy~
+huge deva buddy hbuddy devabuddy~
 the Huge DevaBuddy~
 A huge DevaBuddy is here.
 ~
@@ -593,7 +593,7 @@ The Huge DevaBuddy like a strong, loyal friend.
 BareHandAttack: 4
 E
 #3095
-medic medicprime prime deva medicdeva~
+medic medicprime prime deva medicdeva care~
 MedicPRIME~
 MedicPRIME is here, taking care of the he medical/care needs of Amaravati.
 ~

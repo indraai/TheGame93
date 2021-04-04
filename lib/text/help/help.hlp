@@ -13170,130 +13170,33 @@ The 'list' shows all currently locked zones.
 See also: ZUNLOCK
 #31
 ZONE-COMPLETION COMPLETED-ZONE COMPLETION
-
-   Spell-check your zone before you submit it for the final walk-through. If
-there are a million spelling errors, we will not look at the zone until those
-are fixed.
-   Make sure your Zone Description Room in <zone #>00 is complete. It should list
-absolutely everything of importance about your zone. @RHELP ZONE-DESC@n for the
-requirements. You can also use the extra description 'credits' if you wish.
-   Be sure all your mobs have been auto-rolled by setting the level in medit.
-This is required for balancing. Also be sure everything meets the standards
-under @RHELP STANDARDS@n.
-   One last thing you could do to ensure you have built a quality zone is to
-read or re-read TBA zone. It is too much info to absorb the first time through
-and I guarantee it will give you new ideas and help you fix common problems. We
-have to review a lot of zones with a limited staff so any help you can give us
-by double-checking your own zone is greatly appreciated.
-   Upon completion of a zone notify any of the staff and MUDmail Rumble. Your
-zone will be looked over and corrections will be MUDmailed or emailed to you.
-Do not take this personally. Everyone makes mistakes and everything we do is
-meant as constructive criticism.
-
+adventure:help/zonecomplete
 #31
 ZONE-DELETION DELETION
-
-   To prevent accidentally deleting someone's zone and causing conflicting OLC
-access I have made the following guide.  If someone does not login to the mud
-for over a year, and does not mudmail me (Rumble) to let me know of an
-expected absence their zone may be deleted.  I use show areas to list all zones
-and then go through one by one using "last <playername>".  If they have not
-logged in for over a year I then "stat file <playername>" and check that
-they have the proper OLC set, and that they do not have the NO_DEL flag (I set
-no_delete on players that tell me they are going to be absent for a while). If
-they have not been on for over a year and do not have NO_DEL set I then "show
-zone #" to double-check the zone and builder assigned.  I then use r/m/o/s/tlist
-to check if they made anything of value that could be saved and donated.
-   Once I am positive it is safe to delete their zone I set their OLC to off.
-"set file <playername> olc off" then "stat file <playername>" to be sure it
-worked and then delete the zone from the server withe the RemoveWorld script.
-
+adventure:help/zonedelete
 #31
 ZONE-DESCRIPTION-ROOM ZONE_DESCRIPTION_ROOM 00 EXAMPLE-ZONE-DESCRIPTIONS ZONE-INFO TEST-ZONE TRIAL-ZONE ZONE-DESCRIPTIONS ZEDIT-DESCRIPTION
-
-Your zone proposal should be cut and pasted into your "Zone Description Room",
-which will be in room <zone #>00 (first room in your zone). In this credit room you
-should update your zone proposal as required to keep a summary of any important
-information about your zone. This room will have no exits and should only be
-accessible by immortals. It is there for you and the immortals that come after
-you to get a basic idea of the zone without having to explore the whole thing.
-If you have any planned links or possible exits or entrances to another zone,
-make sure that you list them there. For examples goto the following rooms:
-8600, 10600, 20000. Add anything to this room that you think would make it
-easier to administer the zone on a MUD.
-
-See also: EXAMPLE-REPORT, PLANNING, PROPOSAL
-
+adventure:help/zonedescription
 #31
-ZONE-FORMATS ZON-FILES
-
-@n#<virtual number>
-<builder name>~
-<zone name>~
-<bottom room number> <top room number> <lifespan> <reset mode>
-{zero or more zone commands}
-
-See also: ZEDIT
+ZONE-FORMAT ZON-FILES
+adventure:help/zoneformat
 #31
 ZONE-SIZES SIZES
-
-   Make sure to have some idea of how many rooms total you will use. Make a
-definite decision. 20, 40, 80, 100. Try and shoot for a multiple of 20. We
-have no minimum amount that we set for a zone in terms of how many rooms. But,
-we do limit new builders to only 100 vnums for their first zone. Make a
-quality zone and we do not care how many rooms it is.
-   If this is your first area, keep it small. Even under 50 rooms! You will
-soon see this is a fair amount of work and gives you quite a bit of room to
-accomplish what you have in mind. Once you have completed something of this
-size and are proud of your work, you can always add to it or make another
-larger zone later. If this is not your first zone, decide how many rooms you
-will need and divide it up into 100 room zones. A cluster of small areas that
-get phased in gradually is much better than one gigantic area that is never
-completed. Trust us when we tell you a 300-room area will never be finished
-without Herculean effort of which most of us are not capable.
-
+adventure:help/zonesize
 #31
 ZONES
 adventure:help/zones
 #0
-ZPURGES
-
-Usage: zpurge <zone #>
-
-   Allows a builder to purge a zone of all mobs and objects. If used once all mobs
-and objs lying in the room will be purged. But, all objs carried by mobs will
-be dropped to the ground. To completely wipe a zone use it twice.
-
+ZPURGE
+adventure:help/zpurge
 #31
-ZRESETS RESETS ZONE-RESETS ZONERESETS POPS REPOPS SPAWN RE-POPS ZONEREBOOTS REFRESH  ZONE-LOADS ZEDIT_RESET ZONE_RESET LOAD-ZONE LOADZONE LOAD_ZONE
-
-Usage: zreset
-
-  This command is used to execute all zedit commands in a zone. Such as loading
-mobs, objects, and closing doors. This is normally done once a zone reaches its
-lifespan (set in zedit) but can be done manually with this command.
-
-See also: ZPURGE, SHOW ZONES
+ZRESET
+adventure:help/zreset
 #31
 ZUNLOCK
-
-Usage: zunlock <zone number>
-       zunlock list
-
-Unlocks a 'locked' zone to allow building or editing.
-The 'list' shows all currently unlocked zones.
-'zunlock all' will unlock every zone in the MUD.
-
-See also: ZLOCK
+adventure:help/zunlock
 #31
-ZUNLOCK ZLOCK
-
-Zone locking and unlocking prevents any OLC from being used in the zone. Only
-an IMPL or GRGOD can lock/unlock all zones. A builder can lock and unlock their
-own zone if their name is in the zone's builders list.
-
-zlock - Locks one or all zones. Type zlock for usage.
-zunlock - Locks one or all zones. Type zunlock for usage.
-
+ZLOCK
+adventure:help/zlock
 #31
 $~
