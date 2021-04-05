@@ -387,7 +387,7 @@ E
 #3059
 security deva secuirtydeva~
 the SecurityDEVA~
-A SecurityDEVA is standing here, ready to jump in at the first sign of trouble.
+A SecurityDEVA is standing here.
 ~
 He looks very strong and wise.
 ~
@@ -399,11 +399,11 @@ BareHandAttack: 10
 E
 T 3009
 #3060
-guarddeva guard deva~
-the GuardDEVA~
+secuirty deva securitydeva~
+the SecurityDEVA~
 A GuardDEVA stands here.
 ~
-   A big, strong, helpful, trustworthy guard.
+A big, strong, helpful, trustworthy guard.
 ~
 6216 0 0 0 16 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1

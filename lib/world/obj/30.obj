@@ -121,22 +121,20 @@ Some nachos have been left here.~
 1 5 5 0 0
 E
 nachos nacho~
-   They have cheese on them.  Looks like one of Uncle Juan's specials.
+They have cheese on them.  Looks like one of Uncle Juan's specials.
 ~
 #3015
-meat chunk~
-a piece of meat~
-A rather dubious looking piece of meat is on the ground here.~
+cheese chunk~
+a piece of cheese~
+A rather tasty looking piece of cheese is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 14 0 0 0
 5 24 10 0 0
 E
-meat chunk~
-   It isn't so much that the meat looks poisoned or anything, but that you just
-are not sure of its origins.  You doubt that a hunter would drop a side of
-venison or rabbit meat...  What in the world could this meat have come from, you
-wonder...
+cheese chunk~
+One of the tackle dummies must have dropped this amazingly tasty looking chunk
+of cheese here just for you.
 ~
 #3020
 dagger~
@@ -163,9 +161,9 @@ tsl1 tackle suit small immobalizer~
 The small immobalizer seems to have an inscription of some sort.
 ~
 #3022
-sword long~
-a long sword~
-A long sword has been left here.~
+tsl1 tsl1-iml tackle suit immobilizer large~
+TSL1-IML Immobilizer (L)~
+A Level 1 Tackle Suit Immobilizer Large has been left here.~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 8 3
