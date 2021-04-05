@@ -1578,7 +1578,7 @@ void nanny(struct descriptor_data *d, char *arg)
     echo_on(d);
 
     if (STATE(d) == CON_CNFPASSWD) {
-      write_to_output(d, "\r\nWhat is your sex (\t(M\t)/\t(F\t))? ");
+      write_to_output(d, "\r\nWhat is your sex (\t(M - Male\t)/\t(N - Neutral\t))? ");
       STATE(d) = CON_QSEX;
     } else {
       save_char(d->character);
@@ -1593,10 +1593,14 @@ void nanny(struct descriptor_data *d, char *arg)
     case 'M':
       d->character->player.sex = SEX_MALE;
       break;
-    case 'f':
-    case 'F':
-      d->character->player.sex = SEX_FEMALE;
+    case 'n':
+    case 'N':
+      d->character->player.sex = SEX_NEUTRAL;
       break;
+    // case 'f':
+    // case 'F':
+    //   d->character->player.sex = SEX_FEMALE;
+    //   break;
     default:
       write_to_output(d, "That is not a sex..\r\n"
 		"What IS your sex? ");
