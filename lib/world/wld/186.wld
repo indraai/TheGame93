@@ -25,7 +25,7 @@ adventure:18602/look
 ~
 0 -1 18602
 D2
-adventure:19600/look
+adventure:18600/look
 ~
 ~
 0 -1 18600
@@ -110,7 +110,7 @@ adventure:18606/main
 ~
 186 8 0 0 0 0
 D0
-adventure:19602/look
+adventure:18602/look
 ~
 door~
 1 -1 18602
