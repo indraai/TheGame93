@@ -12,43 +12,42 @@ She is very pleased to see you.
 8 8 2
 E
 #23401
-newbie training mob~
-a newbie training mob~
-The newbie training mob stands here mocking you.
+training tackle dummy~
+a Training Tackle Dummy~
+The training tackle dummy stands here mocking you.
 ~
-   The newbie training mob looks very scrawny and sickly.
+The training tackle dummy looks very scrawny and sickly.
 ~
-10 0 0 0 80 0 0 0 0 E
+10 0 0 0 80 0 0 0 -50 E
 1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
+50 100
+8 8 0
 E
 #23402
-newbie dummy mob~
-the dummy mob~
-A newbie dummy mob is unsure what it is doing.
+newbie tackle dummy~
+the Newbie Tackle Dummy ~
+A newbie tackle dummy is unsure what it is doing.
 ~
-   This mob looks like a punching bag, that would bounce right back up, if it
+This dummy looks like a punching bag, that would bounce right back up, if it
 got knocked to the ground.
 ~
-26 0 0 0 80 0 0 0 0 E
+26 0 0 0 80 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
+100 100
+8 8 0
 E
 #23403
-Kobold~
-a kobold~
-A Kobold is sneering at you.
+small tackle dummy~
+a Small Tackle Dummy~
+A small tackle dummy is here looking to be tackled.
 ~
-   You see a small rat man, which stands about 3 feet tall.  In his hand is a
-small dagger which is jagged and chipped.  The clothes on this rat man are torn
-and a bit oversized.
+You see a small tackle dummy, which stands about 3 feet tall.  In his hand is a
+small stunner which is looking for you.  The target on this tackle dummy says 100.
 ~
-72 0 0 0 0 0 0 0 1 E
+72 0 0 0 0 0 0 0 -200 E
 1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
+200 100
+8 8 0
 BareHandAttack: 11
 E
 #23404
@@ -60,7 +59,7 @@ You see a large goofy looking tackle dummy staring back at you.
 ~
 72 0 0 0 0 0 0 0 -300 E
 2 20 8 0d0+20 1d2+0
-100 400
+300 400
 8 8 0
 BareHandAttack: 8
 E
@@ -93,44 +92,41 @@ beetle.  It is armored with a very tough shell.
 BareHandAttack: 7
 E
 #23407
-Osquip~
-a osquip~
-An osquip snaps at you.
+odd tackle dummy~
+Odd Tackle Dummy ~
+An odd tackle dummy snaps at you.
 ~
-   You see a large rodent with 6 legs and appears to be of a beaver family.
-It also looks like a large Rat.  The Osquip is the size of a small dog.
+You see a large odd looking tackle dummy with 6 legs.
 ~
-72 0 0 0 16 0 0 0 -8 E
+72 0 0 0 16 0 0 0 -300 E
 3 19 8 0d0+30 1d2+0
-30 900
+300 900
 8 8 0
 BareHandAttack: 4
 E
 #23408
-urd~
-a urd~
-An urd is flying overhead
+flying tackle dummy~
+Flying Tackle Dummy~
+An tackle dummy flying overhead
 ~
-   An Urd is of the Kobold family, except that the Urd has wings and can fly.
-Urds are three feet tall and have short ivory horns and red rimmed eyes.
+An flying tackle dummy has wings and can fly. They are three feet tall.
 ~
-72 0 0 0 0 0 0 0 0 E
+72 0 0 0 0 0 0 0 -300 E
 3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
+300 900
+8 8 0
 BareHandAttack: 10
 E
 #23409
-Water weird~
-a water weird~
-A water weird is angered to see you.
+weird tackle dummy~
+a Weird Tackle Dummy~
+A weird tackle dummy is angered to see you.
 ~
-   This water weird is still young.  It seems to be made out of water, and seems
-to be of a serpent type.  It's body blends into the water.
+This weird tackle dummy is still young.  It seems to be made out of water.
 ~
-10 0 0 0 80 0 0 0 0 E
+10 0 0 0 80 0 0 0 -400 E
 4 19 7 0d0+40 1d2+0
-40 1600
+400 1600
 8 8 0
 BareHandAttack: 3
 E
