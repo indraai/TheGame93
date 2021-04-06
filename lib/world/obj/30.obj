@@ -272,16 +272,16 @@ Please report any strange occurrences to the bank manager.
 
 ~
 #3037
-candle~
-a candle~
-A candle lies here, unlit.~
+tsl1 tsl1-led led light~
+TSL1-LED Light~
+A Level 1 Tackle Suite Field Light is here..~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
 1 5 1 0 0
 E
-candle~
-   A home-made candle, how quaint!
+tsl1-led led light~
+A high quality Level 1 Tackle Suit Field Light.
 ~
 #3038
 nail~
