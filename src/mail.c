@@ -186,13 +186,13 @@ char *read_delete(long recipient)
 
   if (!(mail_file = fopen(MAIL_FILE, "r"))) {
     perror("read_delete: Mail file not accessible.");
-    return strdup("Mail system malfunction - please report this");
+    return strdup("indra.email system malfunction - please report this");
   }
 
   if (!(new_file = fopen(MAIL_FILE_TMP, "w"))) {
     perror("read_delete: new Mail file not accessible.");
     fclose(mail_file);
-    return strdup("Mail system malfunction - please report this");
+    return strdup("indra.email system malfunction - please report this");
   }
 
   record = read_mail_record(mail_file);
@@ -209,7 +209,7 @@ char *read_delete(long recipient)
   }
 
   if (!record_to_keep)
-  	sprintf(buf, "Mail system error - please report");
+  	sprintf(buf, "indra.email system error - please report");
   else {
     char timestr[25], *from, *to;
 
@@ -219,16 +219,16 @@ char *read_delete(long recipient)
     to = get_name_by_id(record_to_keep->recipient);
 
  		snprintf(buf, sizeof(buf),
-             " * * * * tbaMUD Mail System * * * *\r\n"
-             "Date: %s\r\n"
-             "To  : %s\r\n"
-             "From: %s\r\n"
+             "# indra.email\r\n"
+             "to: %s\r\n"
+             "from: %s\r\n"
+             "date: %s\r\n"
              "\r\n"
              "%s",
 
-             timestr,
              to ? to : "Unknown",
              from ? from : "Unknown",
+             timestr,
              record_to_keep->body ? record_to_keep->body : "No message" );
 
     free_mail_record(record_to_keep);
@@ -252,7 +252,7 @@ SPECIAL(postmaster)
     return (0);
 
   if (no_mail) {
-    send_to_char(ch, "Sorry, the mail system is having technical difficulties.\r\n");
+    send_to_char(ch, "Sorry, indra.email is having technical difficulties.\r\n");
     return (0);
   }
 
@@ -307,7 +307,7 @@ static void postmaster_send_mail(struct char_data *ch, struct char_data *mailman
     decrease_gold(ch, STAMP_PRICE);
   }
 
-  act("$n tells you, 'Write your message. (/s saves /h for help).'", FALSE, mailman, 0, ch, TO_VICT);
+  act("$n tells you, 'Write your indra.email. (/s saves /h for help).'", FALSE, mailman, 0, ch, TO_VICT);
 
   SET_BIT_AR(PLR_FLAGS(ch), PLR_MAILING);	/* string_write() sets writing. */
 
@@ -320,9 +320,9 @@ static void postmaster_check_mail(struct char_data *ch, struct char_data *mailma
 			  int cmd, char *arg)
 {
   if (has_mail(GET_IDNUM(ch)))
-    act("$n tells you, 'You have mail waiting.'", FALSE, mailman, 0, ch, TO_VICT);
+    act("$n tells you, 'You have indra.email waiting.'", FALSE, mailman, 0, ch, TO_VICT);
   else
-    act("$n tells you, 'Sorry, you don't have any mail waiting.'", FALSE, mailman, 0, ch, TO_VICT);
+    act("$n tells you, 'Sorry, you don't have any indra.email waiting.'", FALSE, mailman, 0, ch, TO_VICT);
 }
 
 static void postmaster_receive_mail(struct char_data *ch, struct char_data *mailman,
@@ -333,16 +333,16 @@ static void postmaster_receive_mail(struct char_data *ch, struct char_data *mail
   int y;
 
   if (!has_mail(GET_IDNUM(ch))) {
-    snprintf(buf, sizeof(buf), "$n tells you, 'Sorry, you don't have any mail waiting.'");
+    snprintf(buf, sizeof(buf), "$n tells you, 'Sorry, you don't have any indra.eamil waiting.'");
     act(buf, FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
   while (has_mail(GET_IDNUM(ch))) {
-    obj = create_obj(); 
-    obj->item_number = 1; 
+    obj = create_obj();
+    obj->item_number = 1;
     obj->name = strdup("mail paper letter");
-    obj->short_description = strdup("a piece of mail");
-    obj->description = strdup("Someone has left a piece of mail here.");
+    obj->short_description = strdup("indra.email letter");
+    obj->description = strdup("Someone has left an indra.email here.");
 
     GET_OBJ_TYPE(obj) = ITEM_NOTE;
     for(y = 0; y < TW_ARRAY_MAX; y++)
@@ -355,20 +355,20 @@ static void postmaster_receive_mail(struct char_data *ch, struct char_data *mail
 
     if (obj->action_description == NULL)
       obj->action_description =
-	strdup("Mail system error - please report.  Error #11.\r\n");
+	strdup("error: Error #11.\r\n");
 
     obj_to_char(obj, ch);
 
-    act("$n gives you a piece of mail.", FALSE, mailman, 0, ch, TO_VICT);
-    act("$N gives $n a piece of mail.", FALSE, ch, 0, mailman, TO_ROOM);
+    act("$n gives you an indra.email.", FALSE, mailman, 0, ch, TO_VICT);
+    act("$N gives $n an indra.email.", FALSE, ch, 0, mailman, TO_ROOM);
   }
 }
 
-void notify_if_playing(struct char_data *from, int recipient_id) 
-{ 
-  struct descriptor_data *d; 
+void notify_if_playing(struct char_data *from, int recipient_id)
+{
+  struct descriptor_data *d;
 
-  for (d = descriptor_list; d; d = d->next) 
-    if ((IS_PLAYING(d)) && (GET_IDNUM(d->character) == recipient_id) && (has_mail(GET_IDNUM(d->character)))) 
-      send_to_char(d->character, "You have new mudmail from %s.\r\n", GET_NAME(from)); 
-} 
+  for (d = descriptor_list; d; d = d->next)
+    if ((IS_PLAYING(d)) && (GET_IDNUM(d->character) == recipient_id) && (has_mail(GET_IDNUM(d->character))))
+      send_to_char(d->character, "You have new indra.email from %s.\r\n", GET_NAME(from));
+}
