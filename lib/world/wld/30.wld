@@ -1,40 +1,40 @@
 #3000
 The Reading Room~
-adventure:3000/main
+world:3000/main
 ~
 30 156 0 0 0 0
 D1
-adventure:3001/look
+world:3001/look
 ~
 ~
 0 -1 3001
 E
 info information~
-adventure:3000/info
+world:3000/info
 ~
 S
 #3001
 The Temple~
-adventure:3001/main
+world:3001/main
 ~
 30 156 0 0 0 0
 D0
-adventure:3054/look
+world:3054/look
 ~
 ~
 0 -1 3054
 D1
-adventure:3063/look
+world:3063/look
 ~
 ~
 0 -1 3063
 D2
-adventure:3005/look
+world:3005/look
 ~
 ~
 0 -1 3005
 D3
-adventure:3000/look
+world:3000/look
 ~
 ~
 0 -1 3000
@@ -45,300 +45,300 @@ You see the temple square.
 0 -1 3005
 E
 info information~
-adventure:3001/info
+world:3001/info
 ~
 E
 paintings ancient wall peasants gods giants~
-adventure:3001/paintings
+world:3001/paintings
 ~
 S
 T 3017
 #3002
 The Inner Sanctum~
-adventure:3002/main
+world:3002/main
 ~
 30 12 0 0 0 0
 D1
-adventure:3003/look
+world:3003/look
 ~
 ~
 0 -1 3003
 D5
-adventure:7026/look
+world:7026/look
 ~
 ~
 0 -1 7026
 S
 #3003
 The Bar Of Divination~
-adventure:3003/main
+world:3003/main
 ~
 30 140 0 0 0 0
 D2
-adventure:3004/look
+world:3004/look
 ~
 ~
 0 -1 3004
 D3
-adventure:3002/look
+world:3002/look
 ~
 ~
 0 -1 3002
 E
 sign~
-adventure:3003/sign
+world:3003/sign
 ~
 S
 #3004
 The Monks Guild~
-adventure:3004/main
+world:3004/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3003/look
+world:3003/look
 ~
 ~
 0 -1 3003
 D1
-adventure:3005/look
+world:3005/look
 ~
 ~
 0 -1 3005
 S
 #3005
 The Temple Square~
-adventure:3005/main
+world:3005/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3001/look
+world:3001/look
 ~
 ~
 0 -1 3001
 D1
-adventure:3006/look
+world:3006/look
 ~
 ~
 0 -1 3006
 D2
-adventure:3014/look
+world:3014/look
 ~
 ~
 0 -1 3014
 D3
-adventure:3004/look
+world:3004/look
 ~
 ~
 0 -1 3004
 S
 #3006
 The Amaravati Inn~
-adventure:3006/main
+world:3006/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3062/look
+world:3062/look
 ~
 ~
 0 -1 3062
 D1
-adventure:3007/look
+world:3007/look
 ~
 ~
 0 -1 3007
 D3
-adventure:3005/look
+world:3005/look
 ~
 ~
 0 -1 3005
 D4
-adventure:3008/look
+world:3008/look
 ~
 ~
 0 -1 3008
 S
 #3007
 The Grunting Boar~
-adventure:3007/main
+world:3007/main
 ~
 30 136 0 0 0 0
 D3
-adventure:3006/look
+world:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-adventure:3007/sign
+world:3007/sign
 ~
 E
 writing carving carvings symbols symbol~
-adventure:3007/symbols
+world:3007/symbols
 ~
 S
 #3008
 The Reception~
-adventure:3008/main
+world:3008/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3064/look
+world:3064/look
 ~
 ~
 0 -1 3064
 D5
-adventure:3006/look
+world:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-adventure:3008/sign
+world:3008/sign
 ~
 S
 #3009
 The Bakery~
-adventure:3009/main
+world:3009/main
 ~
 30 136 0 0 0 0
 D2
-adventure:3013/look
+world:3013/look
 ~
 ~
 0 -1 3013
 E
 danish pastry~
-adventure:3009/pastry
+world:3009/pastry
 ~
 E
 sign~
-adventure:3009/sign
+world:3009/sign
 ~
 S
 #3010
 The General Store~
-adventure:3010/main
+world:3010/main
 ~
 30 136 0 0 0 0
 D2
-adventure:3015/look
+world:3015/look
 ~
 ~
 0 -1 3015
 E
 note~
-adventure:3010/note
+world:3010/note
 ~
 S
 #3011
 The Weapon Shop~
-adventure:3011/main
+world:3011/main
 ~
 30 136 0 0 0 0
 D2
-adventure:3016/look
+world:3016/look
 ~
 ~
 0 -1 3016
 E
 note~
-adventure:3011/note
+world:3011/note
 ~
 S
 #3012
 Main Street~
-adventure:3012/main
+world:3012/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3033/look
+world:3033/look
 ~
 ~
 0 -1 3033
 D1
-adventure:3013/look
+world:3013/look
 ~
 ~
 0 -1 3013
 D2
-adventure:3017/look
+world:3017/look
 ~
 ~
 0 -1 3017
 D3
-adventure:3040/look
+world:3040/look
 ~
 ~
 0 -1 3040
 S
 #3013
 Main Street~
-adventure:3013/main
+world:3013/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3009/look
+world:3009/look
 ~
 ~
 0 -1 3009
 D1
-adventure:3014/look
+world:3014/look
 ~
 ~
 0 -1 3014
 D2
-adventure:3020/look
+world:3020/look
 ~
 ~
 0 -1 3020
 D3
-adventure:3012/look
+world:3012/look
 ~
 ~
 0 -1 3012
 S
 #3014
 Market Square~
-adventure:3014/main
+world:3014/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3005/look
+world:3005/look
 ~
 ~
 0 -1 3005
 D1
-adventure:3015/look
+world:3015/look
 ~
 ~
 0 -1 3015
 D2
-adventure:3025/look
+world:3025/look
 ~
 ~
 0 -1 3025
 D3
-adventure:3013/look
+world:3013/look
 ~
 ~
 0 -1 3013
 E
 statue~
-adventure:3014/statue
+world:3014/statue
 ~
 S
 #3015
 Main Street~
-adventure:3015/main
+world:3015/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3010/look
+world:3010/look
 ~
 ~
 0 -1 3010
 D1
-adventure:3016/look
+world:3016/look
 ~
 ~
 0 -1 3016
@@ -355,21 +355,21 @@ You see the market square.
 S
 #3016
 Main Street~
-adventure:3016/main
+world:3016/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3011/main
+world:3011/main
 ~
 ~
 0 -1 3011
 D1
-adventure:3041/look
+world:3041/look
 ~
 ~
 0 -1 3041
 D2
-adventure:3021/look
+world:3021/look
 ~
 ~
 0 -1 3021
@@ -381,246 +381,246 @@ adventur:3015/look
 S
 #3017
 The Mages' Guild~
-adventure:3017/main
+world:3017/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3012/look
+world:3012/look
 ~
 ~
 0 -1 3012
 D2
-adventure:3018/look
+world:3018/look
 ~
 ~
 0 -1 3018
 S
 #3018
 The Mages' Bar~
-adventure:3018/main
+world:3018/main
 ~
 30 140 0 0 0 0
 D0
-adventure:3017/look
+world:3017/look
 ~
 ~
 0 -1 3017
 D3
-adventure:3019/look
+world:3019/look
 ~
 ~
 0 -1 3019
 S
 #3019
 The Mages' Laboratory~
-adventure:3019/main
+world:3019/main
 ~
 30 12 0 0 0 0
 D1
-adventure:3018/look
+world:3018/look
 ~
 ~
 0 -1 3018
 S
 #3020
 The Armory~
-adventure:3020/main
+world:3020/main
 ~
 30 136 0 0 0 0
 D0
-adventure:3013/look
+world:3013/look
 ~
 ~
 0 -1 3013
 E
 note~
-adventure:3020/note
+world:3020/note
 ~
 S
 #3021
 The Guild Of Swordsmen~
-adventure:3021/main
+world:3021/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3016/look
+world:3016/look
 ~
 ~
 0 -1 3016
 D1
-adventure:3022/look
+world:3022/look
 ~
 ~
 0 -1 3022
 S
 #3022
 The Bar Of Swordsmen~
-adventure:3022/main
+world:3022/main
 ~
 30 140 0 0 0 0
 D2
-adventure:3023/look
+world:3023/look
 ~
 ~
 0 -1 3023
 D3
-adventure:3021/look
+world:3021/look
 ~
 ~
 0 -1 3021
 S
 #3023
 The Practice Yard~
-adventure:3023/main
+world:3023/main
 ~
 30 12 0 0 0 0
 D0
-adventure:3022/look
+world:3022/look
 ~
 ~
 0 -1 3022
 D5
-adventure:7048/look
+world:7048/look
 ~
 ~
 0 -1 7048
 S
 #3024
 The Eastern End Of Poor Alley~
-adventure:3024/main
+world:3024/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3025/look
+world:3025/look
 ~
 ~
 0 -1 3025
 D2
-adventure:3048/look
+world:3048/look
 ~
 ~
 0 -1 3048
 D3
-adventure:3044/look
+world:3044/look
 ~
 ~
 0 -1 3044
 S
 #3025
 The Common Square~
-adventure:3025/main
+world:3025/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3014/look
+world:3014/look
 ~
 ~
 0 -1 3014
 D1
-adventure:3026/look
+world:3026/look
 ~
 ~
 0 -1 3026
 D2
-adventure:3030/look
+world:3030/look
 ~
 ~
 0 -1 3030
 D3
-adventure:3024/look
+world:3024/look
 ~
 ~
 0 -1 3024
 S
 #3026
 The Dark Alley~
-adventure:3026/main
+world:3026/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3045/look
+world:3045/look
 ~
 ~
 0 -1 3045
 D2
-adventure:3027/look
+world:3027/look
 ~
 ~
 0 -1 3027
 D3
-adventure:3025/look
+world:3025/look
 ~
 ~
 0 -1 3025
 E
 guild~
-adventure:3026/guild
+world:3026/guild
 ~
 S
 #3027
 The Guild Of Thieves~
-adventure:3027/main
+world:3027/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3026/look
+world:3026/look
 ~
 ~
 0 -1 3026
 D1
-adventure:3028/look
+world:3028/look
 ~
 ~
 0 -1 3028
 S
 #3028
 The Thieves' Bar~
-adventure:3028/main
+world:3028/main
 ~
 30 140 0 0 0 0
 D2
-adventure:3029/look
+world:3029/look
 ~
 ~
 0 -1 3029
 D3
-adventure:3027/look
+world:3027/look
 ~
 ~
 0 -1 3027
 E
 furniture~
-adventure:3028/furniture
+world:3028/furniture
 ~
 S
 #3029
 The Secret Yard~
-adventure:3029/main
+world:3029/main
 ~
 30 12 0 0 0 0
 D0
-adventure:3028/look
+world:3028/look
 ~
 ~
 0 -1 3028
 D5
-adventure:7043/look
+world:7043/look
 ~
 ~
 0 -1 7043
 S
 #3030
 The Recycling Center~
-adventure:3030/main
+world:3030/main
 ~
 30 4 0 0 0 2
 D0
-adventure:3025/main
+world:3025/main
 ~
 ~
 0 -1 3025
 D5
-adventure:7030/look
+world:7030/look
 ~
 grate~
 2 3005 7030
@@ -628,531 +628,531 @@ S
 T 3004
 #3031
 The Pet Shop~
-adventure:3031/main
+world:3031/main
 ~
 30 140 0 0 0 0
 D0
-adventure:3015/look
+world:3015/look
 ~
 ~
 0 -1 3015
 E
 sign~
-adventure:3031/sign
+world:3031/sign
 ~
 S
 #3032
 PETSHOP STOREROOM~
-adventure:3032/main
+world:3032/main
 ~
 30 1536 0 0 0 0
 S
 #3033
 The Magic Shop~
-adventure:3033/main
+world:3033/main
 ~
 30 136 0 0 0 0
 D2
-adventure:3012/look
+world:3012/look
 ~
 ~
 0 -1 3012
 S
 #3040
 The West Gate~
-adventure:3040/main
+world:3040/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3012/look
+world:3012/look
 ~
 ~
 0 -1 3012
 D2
-adventure:3042/look
+world:3042/look
 ~
 ~
 0 -1 3042
 D3
-adventure:3052/look
+world:3052/look
 ~
 gate~
 1 3112 3052
 E
 bridge footbridge~
-adventure:look/3040/bridge
+world:look/3040/bridge
 ~
 E
 gate~
-adventure:3040/gate
+world:3040/gate
 ~
 E
 tower towers~
-adventure:3040/towers
+world:3040/towers
 ~
 E
 wall~
-adventure:3040/wall
+world:3040/wall
 ~
 S
 #3041
 The East Gate~
-adventure:3041/main
+world:3041/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3053/look
+world:3053/look
 ~
 gate~
 1 3112 3053
 D2
-adventure:3058/look
+world:3058/look
 ~
 ~
 0 -1 3058
 D3
-adventure:3016/look
+world:3016/look
 ~
 ~
 0 -1 3016
 E
 bridge footbridge~
-adventure:3041/bridge
+world:3041/bridge
 ~
 E
 gate~
-adventure:3041/gate
+world:3041/gate
 ~
 E
 tower towers~
-adventure:3041/towers
+world:3041/towers
 ~
 E
 wall~
-adventure:3041/wall
+world:3041/wall
 ~
 S
 #3042
 Wall Road~
-adventure:3042/main
+world:3042/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3040/look
+world:3040/look
 ~
 ~
 0 -1 3040
 D2
-adventure:3043/look
+world:3043/look
 ~
 ~
 0 -1 3043
 E
 wall~
-adventure:3042/wall
+world:3042/wall
 ~
 S
 #3043
 Wall Road~
-adventure:3043/main
+world:3043/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3042/look
+world:3042/look
 ~
 ~
 0 -1 3042
 D1
-adventure:3044/look
+world:3044/look
 ~
 ~
 0 -1 3044
 D2
-adventure:3047/look
+world:3047/look
 ~
 ~
 0 -1 3047
 E
 wall writing letters~
-adventure:3043/letters
+world:3043/letters
 ~
 E
 wall~
-adventure:3043/wall
+world:3043/wall
 ~
 S
 #3044
 Poor Alley~
-adventure:3044/main
+world:3044/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3024/look
+world:3024/look
 ~
 ~
 0 -1 3024
 D3
-adventure:3043/look
+world:3043/look
 ~
 ~
 0 -1 3043
 S
 #3045
 The Dark Alley At The Levee~
-adventure:3045/main
+world:3045/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3046/look
+world:3046/look
 ~
 ~
 0 -1 3046
 D2
-adventure:3049/look
+world:3049/look
 ~
 ~
 0 -1 3049
 D3
-adventure:3026/look
+world:3026/look
 ~
 ~
 0 -1 3026
 S
 #3046
 The Eastern End Of The Alley~
-adventure:3046/main
+world:3046/main
 ~
 30 0 0 0 0 1
 D2
-adventure:3050/look
+world:3050/look
 ~
 ~
 0 -1 3050
 D3
-adventure:3045/look
+world:3045/look
 ~
 ~
 0 -1 3045
 S
 #3047
 Wall Road~
-adventure:3047/main
+world:3047/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3043/look
+world:3043/look
 ~
 ~
 0 -1 3043
 D2
-adventure:3051/look
+world:3051/look
 ~
 ~
 0 -1 3051
 E
 wall~
-adventure:3047/wall
+world:3047/wall
 ~
 S
 #3048
 Grubby Inn~
-adventure:3048/main
+world:3048/main
 ~
 30 136 0 0 0 0
 D0
-adventure:3024/look
+world:3024/look
 ~
 ~
 0 -1 3024
 S
 #3049
 The Levee~
-adventure:3049/main
+world:3049/main
 ~
 30 128 0 0 0 1
 D0
-adventure:3045/look
+world:3045/look
 ~
 ~
 0 -1 3045
 D2
-adventure:3203/look
+world:3203/look
 ~
 ~
 0 -1 3203
 S
 #3050
 The Warehouse~
-adventure:3050/main
+world:3050/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3046/look
+world:3046/look
 ~
 ~
 0 -1 3046
 S
 #3051
 The Bridge~
-adventure:3051/main
+world:3051/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3047/look
+world:3047/look
 ~
 ~
 0 -1 3047
 D2
-adventure:3100/look
+world:3100/look
 ~
 ~
 0 -1 3100
 E
 bridge~
-adventure:3051/bridge
+world:3051/bridge
 ~
 E
 opening~
-adventure:3051/opening
+world:3051/opening
 ~
 E
 wall~
-adventure:3051/wall
+world:3051/wall
 ~
 S
 #3052
 Outside The West Gate Of Amaravati~
-adventure:3052/main
+world:3052/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3040/look
+world:3040/look
 ~
 gate~
 1 3112 3040
 D3
-adventure:6092/look
+world:6092/look
 ~
 ~
 0 -1 6092
 E
 bridge footbridge~
-adventure:3052/bridge
+world:3052/bridge
 ~
 E
 gate~
-adventure:3052/gate
+world:3052/gate
 ~
 E
 tower towers~
-adventure:3052/towers
+world:3052/towers
 ~
 E
 wall~
-adventure:3052/wall
+world:3052/wall
 ~
 S
 #3053
 Outside The East Gate Of Amaravati~
-adventure:3053/main
+world:3053/main
 ~
 30 0 0 0 0 1
 D1
-adventure:3503/look
+world:3503/look
 ~
 ~
 0 -1 3503
 D3
-adventure:3041/look
+world:3041/look
 ~
 gate~
 1 3112 3041
 E
 bridge footbridge~
-adventure:3053/bridge
+world:3053/bridge
 ~
 E
 gate~
-adventure:3053/gate
+world:3053/gate
 ~
 E
 tower towers~
-adventure:3053/towers
+world:3053/towers
 ~
 E
 wall~
-adventure:3053/wall
+world:3053/wall
 ~
 S
 #3054
 By The Altar~
-adventure:3054/main
+world:3054/main
 ~
 30 8 0 0 0 0
 D0
-adventure:3059/look
+world:3059/look
 ~
 ~
 0 -1 3059
 D2
-adventure:3001/look
+world:3001/look
 ~
 ~
 0 -1 3001
 E
 altar~
-adventure:3054/altar
+world:3054/altar
 ~
 E
 statue indra king god~
-adventure:3054/statue
+world:3054/statue
 ~
 S
 #3058
 Ye Olde Water Shoppe~
-adventure:3058/main
+world:3058/main
 ~
 30 136 0 0 0 0
 D0
-adventure:3041/look
+world:3041/look
 ~
 ~
 0 -1 3041
 S
 #3059
 Behind The Altar~
-adventure:3059/main
+world:3059/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3060/look
+world:3060/look
 ~
 ~
 0 -1 3060
 D2
-adventure:3054/look
+world:3054/look
 ~
 ~
 0 -1 3054
 S
 #3060
 The Great Field~
-adventure:3060/main
+world:3060/main
 ~
 30 0 0 0 0 1
 D0
-adventure:3061/look
+world:3061/look
 ~
 ~
 0 -1 3061
 D2
-adventure:3059/look
+world:3059/look
 ~
 ~
 0 -1 3059
 S
 #3061
 The Great Field~
-adventure:3061/main
+world:3061/main
 ~
 30 4 0 0 0 1
 D0
-adventure:3065/look
+world:3065/look
 ~
 ~
 0 -1 3065
 D1
-adventure:18600/look
+world:18600/look
 ~
 ~
 0 -1 18600
 D2
-adventure:3060/look
+world:3060/look
 ~
 ~
 0 -1 3060
 D3
-adventure:3066/look
+world:3066/look
 ~
 ~
 0 -1 3066
 S
 #3062
 The Post Office~
-adventure:3062/main
+world:3062/main
 ~
 30 8 0 0 0 1
 D2
-adventure:3006/look
+world:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-adventure:3062/sign
+world:3062/sign
 ~
 E
 letters envelopes assorted~
-adventure:3062/letters
+world:3062/letters
 ~
 E
 cobwebs~
-adventure:3062/cobwebs
+world:3062/cobwebs
 ~
 E
 crates opened large~
-adventure:3062/crates
+world:3062/crates
 ~
 E
 WANTED posters poster wall~
-adventure:3062/posters
+world:3062/posters
 ~
 S
 #3063
 The Offering Room~
-adventure:3063/main
+world:3063/main
 ~
 30 28 0 0 0 1
 D3
-adventure:3001/look
+world:3001/look
 ~
 ~
 0 -1 3001
 S
 #3064
 The Care Center~
-adventure:3064/main
+world:3064/main
 ~
 30 8 0 0 0 1
 D2
-adventure:3008/look
+world:3008/look
 ~
 ~
 0 -1 3008
 S
 #3065
 The Great Field~
-adventure:3065/main
+world:3065/main
 ~
 30 0 0 0 0 2
 D2
-adventure:3061/look
+world:3061/look
 ~
 ~
 0 -1 3061
 S
 #3066
 The Dirt Path~
-adventure:3066/main
+world:3066/main
 ~
 30 0 0 0 0 2
 D1
-adventure:3061/look
+world:3061/look
 ~
 ~
 0 -1 3061
 D3
-adventure:3600/look
+world:3600/look
 ~
 ~
 0 -1 3600
