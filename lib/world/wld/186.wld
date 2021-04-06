@@ -78,7 +78,7 @@ adventure:18602/look
 0 -1 18602
 S
 #18604
-A Narrow Passage~
+A Passage~
 adventure:18604/main
 ~
 186 8 0 0 0 0
@@ -126,7 +126,7 @@ grate~
 1 18608 18605
 S
 #18607
-More Of The Hallway~
+The Hallway~
 adventure:18607/main
 ~
 186 8 0 0 0 0
@@ -179,7 +179,7 @@ adventure:18608/look
 0 -1 18608
 S
 #18610
-A Brighter Hallway~
+The Hallway~
 adventure:18610/main
 ~
 186 8 0 0 0 0
@@ -195,7 +195,7 @@ adventure:18609/look
 0 -1 18609
 S
 #18611
-Another Corner~
+A Corner~
 adventure:18611/main
 ~
 186 8 0 0 0 0
@@ -216,7 +216,7 @@ adventure:18610/look
 0 -1 18610
 S
 #18612
-The Alchemist's Room~
+The Dummy Room~
 adventure:18612/main
 ~
 186 8 0 0 0 0
@@ -241,7 +241,7 @@ adventure:18612/sign
 ~
 S
 #18620
-A Turn In The Passage~
+A Passage~
 adventure:18620/main
 ~
 186 8 0 0 0 0
@@ -257,7 +257,7 @@ adventure:18629/look
 0 -1 18629
 S
 #18621
-A T-Intersection~
+The Intersection~
 adventure:18621/main
 ~
 186 8 0 0 0 0
@@ -278,7 +278,7 @@ adventure:18620/look
 0 -1 18620
 S
 #18622
-Another Corner~
+A Corner~
 adventure:18622/main
 ~
 186 8 0 0 0 0
@@ -294,7 +294,7 @@ adventure:18621/look
 0 -1 18621
 S
 #18623
-Hallway Corner~
+A Corner~
 adventure:18623/main
 ~
 186 8 0 0 0 0
@@ -310,7 +310,7 @@ adventure:18627/look
 0 -1 18627
 S
 #18624
-Another Turn~
+A Turn~
 adventure:18624/main
 ~
 186 8 0 0 0 0
@@ -342,7 +342,7 @@ adventure:18631/look
 0 -1 18631
 S
 #18626
-A Long East-West Passage~
+A Passage~
 adventure:18626/main
 ~
 186 8 0 0 0 0
@@ -358,7 +358,7 @@ adventure:18625/look
 0 -1 18625
 S
 #18627
-Corridor Crossing~
+The Crossing~
 adventure:18627/main
 ~
 186 8 0 0 0 0
@@ -384,7 +384,7 @@ adventure:18626/look
 0 -1 18626
 S
 #18628
-A Corner Room~
+The Corner Room~
 adventure:18628/main
 ~
 186 8 0 0 0 0
@@ -425,7 +425,7 @@ adventure:18629/portal
 ~
 S
 #18630
-A Branching Passage~
+A Passage~
 adventure:18630/main
 ~
 186 8 0 0 0 0
@@ -493,7 +493,7 @@ adventure:18612/look
 0 -1 18612
 S
 #18633
-Another Corner~
+A Corner~
 adventure:18633/main
 ~
 186 8 0 0 0 0
@@ -509,7 +509,7 @@ adventure:18634/look
 0 -1 18634
 S
 #18634
-An Intersection Of Passages~
+The Intersection~
 adventure:18634/main
 ~
 186 8 0 0 0 0
@@ -530,7 +530,7 @@ adventure:18633/look
 0 -1 18633
 S
 #18635
-A Turn In The Passage~
+A Turn~
 adventure:18635/main
 ~
 186 8 0 0 0 0
@@ -546,7 +546,7 @@ adventure:18636/look
 0 -1 18636
 S
 #18636
-A Branch To The South~
+A Branch~
 adventure:18636/main
 ~
 186 8 0 0 0 0
@@ -567,7 +567,7 @@ adventure:18635/look
 0 -1 18635
 S
 #18637
-Yet Another Corner~
+A Corner~
 adventure:18637/main
 ~
 186 8 0 0 0 0
@@ -623,7 +623,7 @@ adventure:18639/wall
 ~
 S
 #18640
-The Statue's Room~
+The Statue Room~
 adventure:18640/main
 ~
 186 8 0 0 0 0
@@ -663,7 +663,7 @@ adventure:18640/look
 0 -1 18640
 S
 #18642
-The North Stairs~
+The Stairs~
 adventure:18642/main
 ~
 186 8 0 0 0 0
@@ -708,7 +708,7 @@ adventure:18643/stairs
 ~
 S
 #18644
-A Bright Hallway~
+The Hallway~
 adventure:18644/main
 ~
 186 8 0 0 0 0
@@ -748,7 +748,7 @@ adventure:18645/stairs
 ~
 S
 #18646
-A Bright Hallway~
+The Hallway~
 adventure:18646/main
 ~
 186 8 0 0 0 0
@@ -768,7 +768,7 @@ adventure:18646/floor
 ~
 S
 #18647
-The South Stairs~
+The Stairs~
 adventure:18647/main
 ~
 186 8 0 0 0 0
