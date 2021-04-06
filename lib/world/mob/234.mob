@@ -52,17 +52,16 @@ and a bit oversized.
 BareHandAttack: 11
 E
 #23404
-Badger~
-a badger~
-A badger is here hissing.
+goofy tackle dummy~
+a Goofy Tackle Dummy~
+A goofy looking tackle dummy is here.
 ~
-   You see a large badger with red eyes staring back at you.  The badger seems
-to be unusually strong.
+You see a large goofy looking tackle dummy staring back at you.
 ~
-72 0 0 0 0 0 0 0 0 E
+72 0 0 0 0 0 0 0 -300 E
 2 20 8 0d0+20 1d2+0
-20 400
-8 8 2
+100 400
+8 8 0
 BareHandAttack: 8
 E
 #23405
