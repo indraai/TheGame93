@@ -79,124 +79,108 @@ adventure:18602/look
 S
 #18604
 A Narrow Passage~
-   The thin passage is plain and undecorated, but still clean.  It
-ends abruptly to the south at a small oak door, behind which you hear
-movement...
+adventure:18604/main
 ~
 186 8 0 0 0 0
 D0
-A large domed room.
+adventure:18647/look
 ~
 ~
 0 -1 18647
 D2
-A small cluttered room.
+adventure:18612/look
 ~
 door~
 1 -1 18612
 S
 #18605
 The Pit~
-   Ick... a dark damp dirty pit.  Even worse, what is that dark damp
-dirty thing looking at you from the corner?  Ewww... maybe you should
-go back up where it is a bit safer, unless you think you can tackle
-that thing in the corner.
+adventure:18605/main
 ~
 186 8 0 0 0 0
 D4
-You see a ladder leading up
+adventure:18606/look
 ~
 grate~
 1 18608 18606
 S
 #18606
 A Small Room~
-   Hmmm... this is an interesting little room.  Ack, and there is
-an interesting little creature staring at you too.  He looks a bit
-surprised at your intrusion.  You can leave via the doors north or
-east, or you can stay and annoy him a bit more.  There also appears
-to be some type of well down here also, but it has a rather secure
-grate covering it.
+adventure:18606/main
 ~
 186 8 0 0 0 0
 D0
-More of the hallway there... how exciting!
+adventure:19602/look
 ~
 door~
 1 -1 18602
 D1
-More of the hallway there... how exciting!
+adventure:18607/look
 ~
 door~
 1 -1 18607
 D5
-A ladder leads down into darkness.
+adventure:18605/look
 ~
 grate~
 1 18608 18605
 S
 #18607
 More Of The Hallway~
-   Oh joy!  More of this annoying passage.  Perhaps there is something
-more exciting through that door to the west?  Or you can keep searching
-the hallways to the north or south.
+adventure:18607/main
 ~
 186 8 0 0 0 0
 D0
-More of the hallway there... how exciting!
+adventure:18603/look
 ~
 ~
 0 -1 18603
 D2
-More of the hallway there... how exciting!
+adventure:18611/look
 ~
 ~
 0 -1 18611
 D3
+adventure:18606/look
 ~
 door~
 1 -1 18606
 S
 #18608
 An Open Field By The Great Field~
-   Finally, you are in an open field... it is so nice to breathe fresh air
-again!  You can return to that dank, smelly place to the east, or take the
-exit to the north which appears to lead into a large field.
+adventure:18608/main
 ~
 186 4 0 0 0 0
 D0
-There appears to be a field road to the north.
+adventure:3061/look
 ~
 ~
 0 -1 3061
 D1
-The end of that darn hallway lies back to the east.
+adventure:18609/look
 ~
 ~
 0 -1 18609
 S
 #18609
 The End Of The Passage~
-    Ahhh... at last, the end of the hallway... you can exit into open
-air to the west,or return to the east and make sure you didn't miss
-anything.
+adventure:18609/main
 ~
 186 8 0 0 0 0
 D1
-More of the hallway there... how exciting!
+adventure:18610/look
 ~
 ~
 0 -1 18610
 D3
-An open field near The Great Field of Amaravati can be seen.
+adventure:18608/look
 ~
 ~
 0 -1 18608
 S
 #18610
 A Brighter Hallway~
-   The hallway continues on in a east-west direction... and it seems to
-be brightening up to the west.
+adventure:18610/main
 ~
 186 8 0 0 0 0
 D1
@@ -212,156 +196,147 @@ More of the hallway there... how exciting!
 S
 #18611
 Another Corner~
-   Another corner of the passage, and just as untidy as the rest of
-this place (maybe more so?).  There is a door to the east though...
-wonder where that leads?  Oh, and the hallway continues west and
-north.
+adventure:18611/main
 ~
 186 8 0 0 0 0
 D0
-More of the hallway there... how exciting!
+adventure:18607/look
 ~
 ~
 0 -1 18607
 D1
-You peer into a cluttered little room to the east.
+adventure:18612/look
 ~
 door~
 1 -1 18612
 D3
-More of the hallway there... how exciting!
+adventure:18610/look
 ~
 ~
 0 -1 18610
 S
 #18612
 The Alchemist's Room~
-   Lots of bottles and flasks lie about this room, but it all looks like
-worthless clutter.  It appears whatever alchemist has been working here
-is really very adept at his art.  There are a lot of formulae and spells
-written on the walls too... couldn't he buy some paper?  There is a door
-to the north, and also a dark stairway in the corner leading down, with a
-large sign next to it that you probably should read...
+adventure:18612/main
 ~
 186 8 0 0 0 0
 D0
-A nice shiny hallway!
+adventure:18604/look
 ~
 door~
 1 -1 18604
 D3
-A corner in the passage lies to the west.
+adventure:18611/look
 ~
 door~
 1 -1 18611
 D5
-A shadowed stairway leading down.
+adventure:18632/look
 ~
 ~
 0 -1 18632
 E
 sign stairs stairway~
-   The sign next to the stairs says: If you are below level 7 and alone, or
-below level 4 then bugger off!  Or else don't blame me if you die...
+adventure:18612/sign
 ~
 S
 #18620
 A Turn In The Passage~
-   This corner is much like all the others... except you see a strange
-glow coming from the south.  Could be an exit... you hope.
+adventure:18620/main
 ~
 186 8 0 0 0 0
 D1
-The passage continues east quite a ways.
+adventure:18621/look
 ~
 ~
 0 -1 18621
 D2
-You see an odd red glow from that direction.
+adventure:18629/look
 ~
 ~
 0 -1 18629
 S
 #18621
 A T-Intersection In The Passage~
-   This is an intersection of a long east-west passage with a corridor
-leading south.  The air seems a bit clearer here though, as if you were
-approaching an exit.
+adventure:18621/main
 ~
 186 8 0 0 0 0
 D1
+adventure:18622/look
 ~
 ~
 0 -1 18622
 D2
+adventure:18633/look
 ~
 ~
 0 -1 18633
 D3
+adventure:18620/look
 ~
 ~
 0 -1 18620
 S
 #18622
 Another Corner~
-   The passage turns from north to west here.  The walls are still
-covered with the same disgusting green fungus you have seen all
-along, and you hear sounds of creatures moving all around you...
+adventure:18622/main
 ~
 186 8 0 0 0 0
 D2
+adventure:18628/look
 ~
 ~
 0 -1 18628
 D3
+adventure:18621/look
 ~
 ~
 0 -1 18621
 S
 #18623
 A Corner In The Hallway~
-   You can hear creatures moving all around you... and it is not
-a comforting sound at all.  The furnishing is nothing to speak of
-either, plain gray brick walls with green fungus (or something)
-growing on them.
+adventure:18623/main
 ~
 186 8 0 0 0 0
 D1
+adventure:18624/look
 ~
 ~
 0 -1 18624
 D2
+adventure:18627/look
 ~
 ~
 0 -1 18627
 S
 #18624
 Another Turn~
-   Hmmm... the passage turns south here.  You beginning to realize you
-can easily lose your bearings if you aren't careful, and you don't think
-you would like spending too much time here...
+adventure:18624/main
 ~
 186 8 0 0 0 0
 D2
+adventure:18630/look
 ~
 ~
 0 -1 18630
 D3
+adventure:18623/look
 ~
 ~
 0 -1 18623
 S
 #18625
 A Large Room~
-   The passage opens into a large oval room.  There really isn't much of
-interest here though.
+adventure:18625/main
 ~
 186 8 0 0 0 0
 D1
+adventure:18626/look
 ~
 ~
 0 -1 18626
 D2
+adventure:18631/look
 ~
 ~
 0 -1 18631
