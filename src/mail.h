@@ -1,12 +1,12 @@
 /**
 * @file mail.h
 * Public procs, macro defs, subcommand defines mudmail system.
-* 
+*
 * Part of the core tbaMUD source code distribution, which is a derivative
 * of, and continuation of, CircleMUD.
-*                                                                        
-* All rights reserved.  See license for complete information.                                                                
-* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University 
+*
+* All rights reserved.  See license for complete information.
+* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University
 * CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.
 * By Jeremy Elson.
 */
@@ -19,7 +19,7 @@
 #define MIN_MAIL_LEVEL 1
 
 /* # of gold coins required to send mail	*/
-#define STAMP_PRICE 150
+#define STAMP_PRICE 5
 
 /* Maximum size of mail in bytes (arbitrary)	*/
 #define MAX_MAIL_SIZE 8192
@@ -31,8 +31,8 @@
 SPECIAL(postmaster);
 
 /* NOTE:  Make sure that your block size is big enough. If not, HEADER_BLOCK_
- * DATASIZE will end up negative.  This is a bad thing. Check the define below 
- * to make sure it is >0 when choosing values for NAME_SIZE and BLOCK_SIZE.  
+ * DATASIZE will end up negative.  This is a bad thing. Check the define below
+ * to make sure it is >0 when choosing values for NAME_SIZE and BLOCK_SIZE.
  * 100 is a nice round number for BLOCK_SIZE and is the default. The mail system
  * will always allocate disk space in chunks of size BLOCK_SIZE. */
 
@@ -56,7 +56,7 @@ struct mail_t {
 #define DELETED_BLOCK (-3)
 
 /* Note: next_block is part of header_blk in a data block; we can't combine them
- * here because we have to be able to differentiate a data block from a header 
+ * here because we have to be able to differentiate a data block from a header
  * block when booting mail system. */
 struct header_data_type {
    long	next_block;		/* if header block, link to next block	*/
