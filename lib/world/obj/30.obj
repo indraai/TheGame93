@@ -1,7 +1,7 @@
 #3000
 barrel beer~
-a barrel~
-obj:3000~
+adventure[object]:3000/look~
+adventure[object]:3000/main~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 50 50 1 0
@@ -274,7 +274,7 @@ Please report any strange occurrences to the bank manager.
 #3037
 tsl1 tsl1-led led light~
 TSL1-LED (S)~
-A Small Level 1 Tackle Suite Field Light is here..~
+A Small Level 1 Tackle Suit LED Field Light is here..~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
@@ -529,27 +529,27 @@ A pair of Level 1 Tackle Suit Pants is lying on the ground.~
 3 0 0 0
 8 150 10 0 0
 #3082
-tsl1 tsl1-ng tackle suit neck guard~
-TSL1-NG Neck Guard~
-A Level 1 Tackle Suit Neck Guard has been left here~
+tsl1-ng~
+adventure[object]:3082/name~
+adventure[object]:3082/describe~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
 1 10 0 0 0
 E
-tsl1 tackle suit neck guard~
-This Level 1 tackle suite neck guard will guard your neck in battle.
+tsl1-ng~
+adventure[object]:3082/extra
 ~
 #3083
-tsl1 tsl1-sr signet ring tackle suit~
-TSL1-SR Signet Ring~
-A Level 1 Tackle Suite Signet Ring is here.~
+tsl1 tsl1-rg ring tackle suit~
+TSL1-RG Ring~
+A Level 1 Tackle Suit Ring is here.~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
 1 0 0 0
 1 10 1 0 0
 E
-tsl1 tackle suit signet ring~
+tsl1 tackle suit ring~
 The ring used to have some strange writing and symbols around the band but it
 has become so worn with time and use that it is unreadable.
 ~
@@ -590,7 +590,7 @@ A Level 1 Tackle Suit Cape is lying on the floor~
 5 0 0 0
 4 100 0 0 0
 E
-tsl1 tackle suite cape~
+tsl1 tackle suit cape~
 It is a smooth blue cape that is of fine quality.
 ~
 A
