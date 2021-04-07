@@ -308,13 +308,17 @@ pot~
    It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
-tsl1 tsl1-cp tackle suit chest plate~
-TSL1-CHEST-PLATE~
-A Level 1 Tackle Suit Chest Plate is lying on the ground.~
+tsl1-cp~
+TSL1-CP Chest Plate~
+adventure[object]:3040/describe~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 7 0 0 0
 50 180 15 0 0
+E
+tsl1-cp~
+adventure[object]:3040/extra
+~
 #3041
 tsl1 tsl1-shirt shirt tackle suit~
 TSL1-SHIRT~
