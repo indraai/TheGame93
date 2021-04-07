@@ -1,800 +1,800 @@
 #18600
 The Tackle Zone~
-world:18600/main
+adventure[world]:18600/main
 ~
 186 4 0 0 0 1
 D0
-world:18601/look
+adventure[world]:18601/look
 ~
 ~
 0 -1 18601
 D3
-world:3061/look
+adventure[world]:3061/look
 ~
 ~
 0 -1 3061
 S
 #18601
 The Beginning~
-world:18601/main
+adventure[world]:18601/main
 ~
 186 8 0 0 0 0
 D1
-world:18602/look
+adventure[world]:18602/look
 ~
 ~
 0 -1 18602
 D2
-world:18600/look
+adventure[world]:18600/look
 ~
 ~
 0 -1 18600
 S
 #18602
 The Hallway~
-world:18602/main
+adventure[world]:18602/main
 ~
 186 8 0 0 0 0
 D1
-world:18603/look
+adventure[world]:18603/look
 ~
 ~
 0 -1 18603
 D2
-world:18606/look
+adventure[world]:18606/look
 ~
 door~
 1 -1 18606
 D3
-world:18601/look
+adventure[world]:18601/look
 ~
 ~
 0 -1 18601
 S
 #18603
 The Nexus~
-world:18603/main
+adventure[world]:18603/main
 ~
 186 8 0 0 0 0
 D0
-world:18644/look
+adventure[world]:18644/look
 ~
 door~
 1 -1 18644
 D1
-world:18646/look
+adventure[world]:18646/look
 ~
 door~
 1 -1 18646
 D2
-world:18607/look
+adventure[world]:18607/look
 ~
 ~
 0 -1 18607
 D3
-world:18602/look
+adventure[world]:18602/look
 ~
 ~
 0 -1 18602
 S
 #18604
 A Passage~
-world:18604/main
+adventure[world]:18604/main
 ~
 186 8 0 0 0 0
 D0
-world:18647/look
+adventure[world]:18647/look
 ~
 ~
 0 -1 18647
 D2
-world:18612/look
+adventure[world]:18612/look
 ~
 door~
 1 -1 18612
 S
 #18605
 The Pit~
-world:18605/main
+adventure[world]:18605/main
 ~
 186 8 0 0 0 0
 D4
-world:18606/look
+adventure[world]:18606/look
 ~
 grate~
 1 18608 18606
 S
 #18606
 A Small Room~
-world:18606/main
+adventure[world]:18606/main
 ~
 186 8 0 0 0 0
 D0
-world:18602/look
+adventure[world]:18602/look
 ~
 door~
 1 -1 18602
 D1
-world:18607/look
+adventure[world]:18607/look
 ~
 door~
 1 -1 18607
 D5
-world:18605/look
+adventure[world]:18605/look
 ~
 grate~
 1 18608 18605
 S
 #18607
 The Hallway~
-world:18607/main
+adventure[world]:18607/main
 ~
 186 8 0 0 0 0
 D0
-world:18603/look
+adventure[world]:18603/look
 ~
 ~
 0 -1 18603
 D2
-world:18611/look
+adventure[world]:18611/look
 ~
 ~
 0 -1 18611
 D3
-world:18606/look
+adventure[world]:18606/look
 ~
 door~
 1 -1 18606
 S
 #18608
 By The Great Field~
-world:18608/main
+adventure[world]:18608/main
 ~
 186 4 0 0 0 0
 D0
-world:3061/look
+adventure[world]:3061/look
 ~
 ~
 0 -1 3061
 D1
-world:18609/look
+adventure[world]:18609/look
 ~
 ~
 0 -1 18609
 S
 #18609
 The Passage End~
-world:18609/main
+adventure[world]:18609/main
 ~
 186 8 0 0 0 0
 D1
-world:18610/look
+adventure[world]:18610/look
 ~
 ~
 0 -1 18610
 D3
-world:18608/look
+adventure[world]:18608/look
 ~
 ~
 0 -1 18608
 S
 #18610
 The Hallway~
-world:18610/main
+adventure[world]:18610/main
 ~
 186 8 0 0 0 0
 D1
-world:18611/look
+adventure[world]:18611/look
 ~
 ~
 0 -1 18611
 D3
-world:18609/look
+adventure[world]:18609/look
 ~
 ~
 0 -1 18609
 S
 #18611
 A Corner~
-world:18611/main
+adventure[world]:18611/main
 ~
 186 8 0 0 0 0
 D0
-world:18607/look
+adventure[world]:18607/look
 ~
 ~
 0 -1 18607
 D1
-world:18612/look
+adventure[world]:18612/look
 ~
 door~
 1 -1 18612
 D3
-world:18610/look
+adventure[world]:18610/look
 ~
 ~
 0 -1 18610
 S
 #18612
 The Dummy Room~
-world:18612/main
+adventure[world]:18612/main
 ~
 186 8 0 0 0 0
 D0
-world:18604/look
+adventure[world]:18604/look
 ~
 door~
 1 -1 18604
 D3
-world:18611/look
+adventure[world]:18611/look
 ~
 door~
 1 -1 18611
 D5
-world:18632/look
+adventure[world]:18632/look
 ~
 ~
 0 -1 18632
 E
 sign stairs stairway~
-world:18612/sign
+adventure[world]:18612/sign
 ~
 S
 #18620
 A Passage~
-world:18620/main
+adventure[world]:18620/main
 ~
 186 8 0 0 0 0
 D1
-world:18621/look
+adventure[world]:18621/look
 ~
 ~
 0 -1 18621
 D2
-world:18629/look
+adventure[world]:18629/look
 ~
 ~
 0 -1 18629
 S
 #18621
 The Intersection~
-world:18621/main
+adventure[world]:18621/main
 ~
 186 8 0 0 0 0
 D1
-world:18622/look
+adventure[world]:18622/look
 ~
 ~
 0 -1 18622
 D2
-world:18633/look
+adventure[world]:18633/look
 ~
 ~
 0 -1 18633
 D3
-world:18620/look
+adventure[world]:18620/look
 ~
 ~
 0 -1 18620
 S
 #18622
 A Corner~
-world:18622/main
+adventure[world]:18622/main
 ~
 186 8 0 0 0 0
 D2
-world:18628/look
+adventure[world]:18628/look
 ~
 ~
 0 -1 18628
 D3
-world:18621/look
+adventure[world]:18621/look
 ~
 ~
 0 -1 18621
 S
 #18623
 A Corner~
-world:18623/main
+adventure[world]:18623/main
 ~
 186 8 0 0 0 0
 D1
-world:18624/look
+adventure[world]:18624/look
 ~
 ~
 0 -1 18624
 D2
-world:18627/look
+adventure[world]:18627/look
 ~
 ~
 0 -1 18627
 S
 #18624
 A Turn~
-world:18624/main
+adventure[world]:18624/main
 ~
 186 8 0 0 0 0
 D2
-world:18630/look
+adventure[world]:18630/look
 ~
 ~
 0 -1 18630
 D3
-world:18623/look
+adventure[world]:18623/look
 ~
 ~
 0 -1 18623
 S
 #18625
 A Large Room~
-world:18625/main
+adventure[world]:18625/main
 ~
 186 8 0 0 0 0
 D1
-world:18626/look
+adventure[world]:18626/look
 ~
 ~
 0 -1 18626
 D2
-world:18631/look
+adventure[world]:18631/look
 ~
 ~
 0 -1 18631
 S
 #18626
 A Passage~
-world:18626/main
+adventure[world]:18626/main
 ~
 186 8 0 0 0 0
 D1
-world:18627/look
+adventure[world]:18627/look
 ~
 ~
 0 -1 18627
 D3
-world:18625/look
+adventure[world]:18625/look
 ~
 ~
 0 -1 18625
 S
 #18627
 The Crossing~
-world:18627/main
+adventure[world]:18627/main
 ~
 186 8 0 0 0 0
 D0
-world:18623/look
+adventure[world]:18623/look
 ~
 ~
 0 -1 18623
 D1
-world:18628/look
+adventure[world]:18628/look
 ~
 ~
 0 -1 18628
 D2
-world:18632/look
+adventure[world]:18632/look
 ~
 ~
 0 -1 18632
 D3
-world:18626/look
+adventure[world]:18626/look
 ~
 ~
 0 -1 18626
 S
 #18628
 The Corner Room~
-world:18628/main
+adventure[world]:18628/main
 ~
 186 8 0 0 0 0
 D0
-world:18622/look
+adventure[world]:18622/look
 ~
 ~
 0 -1 18622
 D3
-world:1627/look
+adventure[world]:1627/look
 ~
 ~
 0 -1 18627
 S
 #18629
 The Red Room~
-world:18629/main
+adventure[world]:18629/main
 ~
 186 8 0 0 0 0
 D0
-world:18620/look
+adventure[world]:18620/look
 ~
 ~
 0 -1 18620
 D1
-world:18630/look
+adventure[world]:18630/look
 ~
 ~
 0 -1 18630
 D5
-world:3061/look
+adventure[world]:3061/look
 ~
 ~
 0 -1 3061
 E
 portal floor~
-world:18629/portal
+adventure[world]:18629/portal
 ~
 S
 #18630
 A Passage~
-world:18630/main
+adventure[world]:18630/main
 ~
 186 8 0 0 0 0
 D0
-world:18624/look
+adventure[world]:18624/look
 ~
 ~
 0 -1 18624
 D2
-world:18634/look
+adventure[world]:18634/look
 ~
 ~
 0 -1 18634
 D3
-world:18629/look
+adventure[world]:18629/look
 ~
 ~
 0 -1 18629
 S
 #18631
 A Passage~
-world:18631/main
+adventure[world]:18631/main
 ~
 186 8 0 0 0 0
 D0
-world:18625/look
+adventure[world]:18625/look
 ~
 ~
 0 -1 18625
 D1
-world:18632/look
+adventure[world]:18632/look
 ~
 ~
 0 -1 18632
 D2
-world:18638/look
+adventure[world]:18638/look
 ~
 ~
 0 -1 18638
 S
 #18632
 The Entrance~
-world:18632/main
+adventure[world]:18632/main
 ~
 186 8 0 0 0 0
 D0
-world:18627/look
+adventure[world]:18627/look
 ~
 ~
 0 -1 18627
 D2
-world:18635/look
+adventure[world]:18635/look
 ~
 ~
 0 -1 18635
 D3
-world:18631/look
+adventure[world]:18631/look
 ~
 ~
 0 -1 18631
 D4
-world:18612/look
+adventure[world]:18612/look
 ~
 ~
 0 -1 18612
 S
 #18633
 A Corner~
-world:18633/main
+adventure[world]:18633/main
 ~
 186 8 0 0 0 0
 D0
-world:18621/look
+adventure[world]:18621/look
 ~
 ~
 0 -1 18621
 D1
-world:18634/look
+adventure[world]:18634/look
 ~
 ~
 0 -1 18634
 S
 #18634
 The Intersection~
-world:18634/main
+adventure[world]:18634/main
 ~
 186 8 0 0 0 0
 D0
-world:18630/look
+adventure[world]:18630/look
 ~
 ~
 0 -1 18630
 D2
-world:18637/look
+adventure[world]:18637/look
 ~
 ~
 0 -1 18637
 D3
-world:18633/look
+adventure[world]:18633/look
 ~
 ~
 0 -1 18633
 S
 #18635
 A Turn~
-world:18635/main
+adventure[world]:18635/main
 ~
 186 8 0 0 0 0
 D0
-world:18632/look
+adventure[world]:18632/look
 ~
 ~
 0 -1 18632
 D1
-world:18636/look
+adventure[world]:18636/look
 ~
 ~
 0 -1 18636
 S
 #18636
 A Branch~
-world:18636/main
+adventure[world]:18636/main
 ~
 186 8 0 0 0 0
 D1
-world:18637/look
+adventure[world]:18637/look
 ~
 ~
 0 -1 18637
 D2
-world:18638/look
+adventure[world]:18638/look
 ~
 ~
 0 -1 18639
 D3
-world:18635/look
+adventure[world]:18635/look
 ~
 ~
 0 -1 18635
 S
 #18637
 A Corner~
-world:18637/main
+adventure[world]:18637/main
 ~
 186 8 0 0 0 0
 D0
-world:18634/look
+adventure[world]:18634/look
 ~
 ~
 0 -1 18634
 D3
-world:18636/look
+adventure[world]:18636/look
 ~
 ~
 0 -1 18636
 S
 #18638
 A Large Room~
-world:18638/main
+adventure[world]:18638/main
 ~
 186 8 0 0 0 0
 D0
-world:18631/look
+adventure[world]:18631/look
 ~
 ~
 0 -1 18631
 D1
-world:18639/look
+adventure[world]:18639/look
 ~
 ~
 0 -1 18639
 S
 #18639
 A Large Room~
-world:18639/main
+adventure[world]:18639/main
 ~
 186 8 0 0 0 0
 D0
-world:18636/look
+adventure[world]:18636/look
 ~
 ~
 0 -1 18636
 D3
-world:18638/look
+adventure[world]:18638/look
 ~
 ~
 0 -1 18638
 E
 writing words~
-world:18639/writing
+adventure[world]:18639/writing
 ~
 E
 wall~
-world:18639/wall
+adventure[world]:18639/wall
 ~
 S
 #18640
 The Statue Room~
-world:18640/main
+adventure[world]:18640/main
 ~
 186 8 0 0 0 0
 D1
-world:18641/look
+adventure[world]:18641/look
 ~
 ~
 0 -1 18641
 D2
-world:18644/look
+adventure[world]:18644/look
 ~
 ~
 0 -1 18644
 E
 statue~
-world:18640/statue
+adventure[world]:18640/statue
 ~
 E
 plaque nameplate name~
-world:18640/plaque
+adventure[world]:18640/plaque
 ~
 S
 #18641
 The Hallway~
-world:18641/main
+adventure[world]:18641/main
 ~
 186 8 0 0 0 0
 D1
-world:18642/look
+adventure[world]:18642/look
 ~
 ~
 0 -1 18642
 D3
-world:18640/look
+adventure[world]:18640/look
 ~
 ~
 0 -1 18640
 S
 #18642
 The Stairs~
-world:18642/main
+adventure[world]:18642/main
 ~
 186 8 0 0 0 0
 D2
-world:18647/look
+adventure[world]:18647/look
 ~
 ~
 0 -1 18647
 D3
-world:18641/look
+adventure[world]:18641/look
 ~
 ~
 0 -1 18641
 D4
-world:18643/look
+adventure[world]:18643/look
 ~
 ~
 0 -1 18643
 E
 staircase stair stairs~
-world:18642/stairs
+adventure[world]:18642/stairs
 ~
 S
 #18643
 The Balcony~
-world:18643/main
+adventure[world]:18643/main
 ~
 186 8 0 0 0 0
 D2
-world:18645/look
+adventure[world]:18645/look
 ~
 ~
 0 -1 18645
 D5
-world:18642/look
+adventure[world]:18642/look
 ~
 ~
 0 -1 18642
 E
 staircase stair stairs~
-world:18643/stairs
+adventure[world]:18643/stairs
 ~
 S
 #18644
 The Hallway~
-world:18644/main
+adventure[world]:18644/main
 ~
 186 8 0 0 0 0
 D0
-world:18640/look
+adventure[world]:18640/look
 ~
 ~
 0 -1 18640
 D2
-world:18603/look
+adventure[world]:18603/look
 ~
 door~
 1 -1 18603
 E
 floor design~
-world:18644/floor
+adventure[world]:18644/floor
 ~
 S
 #18645
 The Balcony~
-world:18645/main
+adventure[world]:18645/main
 ~
 186 8 0 0 0 0
 D0
-world:18643/look
+adventure[world]:18643/look
 ~
 ~
 0 -1 18643
 D5
-world:18647/look
+adventure[world]:18647/look
 ~
 ~
 0 -1 18647
 E
 staircase stair stairs~
-world:18645/stairs
+adventure[world]:18645/stairs
 ~
 S
 #18646
 The Hallway~
-world:18646/main
+adventure[world]:18646/main
 ~
 186 8 0 0 0 0
 D1
-world:18647/look
+adventure[world]:18647/look
 ~
 ~
 0 -1 18647
 D3
-world:18603/look
+adventure[world]:18603/look
 ~
 door~
 1 -1 18603
 E
 floor design~
-world:18646/floor
+adventure[world]:18646/floor
 ~
 S
 #18647
 The Stairs~
-world:18647/main
+adventure[world]:18647/main
 ~
 186 8 0 0 0 0
 D0
-world:18642/look
+adventure[world]:18642/look
 ~
 ~
 0 -1 18642
 D2
-world:18604/look
+adventure[world]:18604/look
 ~
 ~
 0 -1 18604
 D3
-world:18646/look
+adventure[world]:18646/look
 ~
 ~
 0 -1 18646
 D4
-world:18645/look
+adventure[world]:18645/look
 ~
 ~
 0 -1 18645
 E
 staircase stair stairs~
-world:18647/stairs
+adventure[world]:18647/stairs
 ~
 S
 $~
