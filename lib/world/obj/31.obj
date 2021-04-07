@@ -183,11 +183,11 @@ fountain water~
 ~
 #3114
 coins gold~
-a small pile of gold coins~
-A small pile of gold coins lies here.~
+a pile of gold coins~
+A pile of gold coins lies here.~
 ~
 20 0 0 0 0 a 0 0 0 0 0 0 0
-37 0 0 0
+10000 0 0 0
 1 1 0 0 0
 #3115
 gold coins~
