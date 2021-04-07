@@ -272,16 +272,16 @@ Please report any strange occurrences to the bank manager.
 
 ~
 #3037
-tsl1 tsl1-led led light~
+tsl1-led~
 TSL1-LED (S)~
-A Small Level 1 Tackle Suit LED Field Light is here..~
+adventure[object]:3037/describe~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
 1 5 1 0 0
 E
-tsl1-led led light~
-A high quality Level 1 Tackle Suit Field Light.
+tsl1-led~
+adventure[object]:3037/extra
 ~
 #3038
 nail~
