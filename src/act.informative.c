@@ -944,7 +944,7 @@ ACMD(do_equipment)
 {
   int i, found = 0;
 
-  send_to_char(ch, "### Equipment\r\n");
+  send_to_char(ch, "::BEGIN:EQUIPMENT\r\n");
   for (i = 0; i < NUM_WEARS; i++) {
     if (GET_EQ(ch, i)) {
       found = TRUE;
@@ -959,6 +959,8 @@ ACMD(do_equipment)
   }
   if (!found)
     send_to_char(ch, " Nothing.\r\n");
+
+  send_to_char(ch, "::END:EQUIPMENT\r\n");
 }
 
 ACMD(do_time)
