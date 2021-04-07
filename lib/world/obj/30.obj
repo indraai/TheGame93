@@ -541,29 +541,28 @@ tsl1-ng~
 adventure[object]:3082/extra
 ~
 #3083
-tsl1 tsl1-rg ring tackle suit~
+tsl1-rg~
 TSL1-RG Ring~
-A Level 1 Tackle Suit Ring is here.~
+adventure[object]:3083/describe~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
 1 0 0 0
 1 10 1 0 0
 E
-tsl1 tackle suit ring~
-The ring used to have some strange writing and symbols around the band but it
-has become so worn with time and use that it is unreadable.
+tsl1-rg~
+adventure[object]:3083/extra
 ~
 #3084
-tsl1 tsl1-bb tackle suit booster boots~
+tsl1-bb~
 TSL1-BB Booster Boots (2)~
-A pair of Level 1 Tackle Suit Booster Boots is lying here.~
+adventure[object]:3084/describe~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
 4 0 0 0
 2 11 0 0 0
 E
-tsl1 booster boots~
-The Level 1 Tackle Suit Booster Boots.
+tsl1-bb~
+adventure[object]:3084/extra
 ~
 #3085
 sleeves bronze~
@@ -574,24 +573,28 @@ A pair of bronze sleeves is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3086
-tsl1 tsl1-sl tackle suit sleeves~
+tsl1-sl~
 TSL1-SL Sleeves (2)~
-A pair of Level 1 Tackle Suit Sleeves is lying on the ground.~
+adventure[object]:3086/describe~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
 4 75 10 0 0
+E
+tsl1-sl~
+adventure[object]:3086/extra
+~
 #3087
-tsl1 tsl1-ca tackle suit cape~
+tsl1-ca~
 TSL1-CA Cape~
-A Level 1 Tackle Suit Cape is lying on the floor~
+adventure[object]:3087/describe~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 4 100 0 0 0
 E
-tsl1 tackle suit cape~
-It is a smooth blue cape that is of fine quality.
+tsl1-ca~
+adventure[object]:3087/extra
 ~
 A
 1 1
