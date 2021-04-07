@@ -935,8 +935,9 @@ ACMD(do_score)
 
 ACMD(do_inventory)
 {
-  send_to_char(ch, "### Inventory\r\n");
+  send_to_char(ch, "::BEGIN:INVENTORY\r\n");
   list_obj_to_char(ch->carrying, ch, SHOW_OBJ_SHORT, TRUE);
+  send_to_char(ch, "::END:INVENTORY\r\n");
 }
 
 ACMD(do_equipment)
