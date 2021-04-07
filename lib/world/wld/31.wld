@@ -1,69 +1,69 @@
 #3100
 The Concourse~
-adventure:3100/main
+world:3100/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3051/main
+world:3051/main
 ~
 ~
 0 -1 3051
 D1
-adventure:3101/look
+world:3101/look
 ~
 ~
 0 -1 3101
 D2
-adventure:3127/look
+world:3127/look
 ~
 ~
 0 -1 3127
 S
 #3101
 The Promenade~
-adventure:3101/main
+world:3101/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3102/look
+world:3102/look
 ~
 ~
 0 -1 3102
 D2
-adventure:3131/look
+world:3131/look
 ~
 ~
 0 -1 3131
 D3
-adventure:3100/look
+world:3100/look
 ~
 ~
 0 -1 3100
 S
 #3102
 The Promenade~
-adventure:3102/main
+world:3102/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3103/look
+world:3103/look
 ~
 ~
 0 -1 3103
 D2
-adventure:3105/look
+world:3105/look
 ~
 ~
 0 -1 3105
 D3
-adventure:3101/look
+world:3101/look
 ~
 ~
 0 -1 3101
 S
 #3103
 The Promenade~
-adventure:3103/main
+world:3103/main
 ~
 31 0 0 0 0 1
 D1
@@ -84,257 +84,257 @@ You see the promenade.
 S
 #3104
 The Concourse~
-adventure:3104/main
+world:3104/main
 ~
 31 0 0 0 0 1
 D2
-adventure:3130/look
+world:3130/look
 ~
 ~
 0 -1 3130
 D3
-adventure:3103/look
+world:3103/look
 ~
 ~
 0 -1 3103
 E
 wall~
-adventure:3104/wall
+world:3104/wall
 ~
 S
 #3105
 The Park Entrance~
-adventure:3105/main
+world:3105/main
 ~
 31 4 0 0 0 1
 D0
-adventure:3102/main
+world:3102/main
 ~
 ~
 0 -1 3102
 D1
-adventure:3106/main
+world:3106/main
 ~
 ~
 0 -1 3106
 D2
-adventure:3108/main
+world:3108/main
 ~
 ~
 0 -1 3108
 S
 #3106
 The Park Cafe~
-adventure:3106/main
+world:3106/main
 ~
 31 136 0 0 0 0
 D3
-adventure:3105/look
+world:3105/look
 ~
 ~
 0 -1 3105
 S
 #3107
 A Small Path In The Park~
-adventure:3107/main
+world:3107/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3108/look
+world:3108/look
 ~
 ~
 0 -1 3108
 D2
-adventure:3113/look
+world:3113/look
 ~
 ~
 0 -1 3113
 S
 #3108
 A Small Path In The Park~
-adventure:3108/main
+world:3108/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3105/look
+world:3105/look
 ~
 ~
 0 -1 3105
 D1
-adventure:3109/look
+world:3109/look
 ~
 ~
 0 -1 3109
 D3
-adventure:3107/look
+world:3107/look
 ~
 ~
 0 -1 3107
 S
 #3109
 The Park Path~
-adventure:3109/main
+world:3109/main
 ~
 31 0 0 0 0 1
 D2
-adventure:3115/look
+world:3115/look
 ~
 ~
 0 -1 3115
 D3
-adventure:3108/look
+world:3108/look
 ~
 ~
 0 -1 3108
 S
 #3110
 The Agency~
-adventure:3110/main
+world:3110/main
 ~
 31 8 0 0 0 0
 D1
-adventure:3111/look
+world:3111/look
 ~
 door~
 1 3105 3111
 S
 #3111
 Park Road~
-adventure:3111/main
+world:3111/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3131/look
+world:3131/look
 ~
 ~
 0 -1 3131
 D1
-adventure:3112/look
+world:3112/look
 ~
 ~
 0 -1 3112
 D2
-adventure:3118/look
+world:3118/look
 ~
 ~
 0 -1 3118
 D3
-adventure:3110/look
+world:3110/look
 ~
 door~
 1 3105 3110
 E
 building door sign~
-adventure:3111/door
+world:3111/door
 ~
 S
 #3112
 The Western Park Entrance~
-adventure:3112/main
+world:3112/main
 ~
 31 4 0 0 0 1
 D1
-adventure:3113/look
+world:3113/look
 ~
 ~
 0 -1 3113
 D3
-adventure:3111/look
+world:3111/look
 ~
 ~
 0 -1 3111
 S
 #3113
 A Path In The Park~
-adventure:3113/main
+world:3113/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3107/main
+world:3107/main
 ~
 ~
 0 -1 3107
 D1
-adventure:3114/main
+world:3114/main
 ~
 ~
 0 -1 3114
 D3
-adventure:3112/main
+world:3112/main
 ~
 ~
 0 -1 3112
 S
 #3114
 The Pond~
-adventure:3114/main
+world:3114/main
 ~
 31 0 0 0 0 6
 D1
-adventure:3115/main
+world:3115/main
 ~
 ~
 0 -1 3115
 D3
-adventure:3113/main
+world:3113/main
 ~
 ~
 0 -1 3113
 S
 #3115
 A Path In The Park~
-adventure:3115/main
+world:3115/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3109/look
+world:3109/look
 ~
 ~
 0 -1 3109
 D1
-adventure:3116/look
+world:3116/look
 ~
 ~
 0 -1 3116
 D3
-adventure:3114/look
+world:3114/look
 ~
 ~
 0 -1 3114
 S
 #3116
 The Eastern Park Entrance~
-adventure:3116/main
+world:3116/main
 ~
 31 4 0 0 0 1
 D1
-adventure:3117/look
+world:3117/look
 ~
 ~
 0 -1 3117
 D3
-adventure:3115/look
+world:3115/look
 ~
 ~
 0 -1 3115
 S
 #3117
 Emerald Avenue~
-adventure:3117/main
+world:3117/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3132/look
+world:3132/look
 ~
 ~
 0 -1 3132
 D1
-adventure:3137/look
+world:3137/look
 ~
 ~
 0 -1 3137
 D2
-adventure:3119/look
+world:3119/look
 ~
 ~
 0 -1 3119
@@ -345,69 +345,69 @@ D3
 S
 #3118
 Park Road~
-adventure:3118/main
+world:3118/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3111/look
+world:3111/look
 ~
 ~
 0 -1 3111
 D1
-adventure:3133/look
+world:3133/look
 ~
 ~
 0 -1 3133
 S
 #3119
 Emerald Avenue~
-adventure:3119/main
+world:3119/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3117/look
+world:3117/look
 ~
 ~
 0 -1 3117
 D2
-adventure:3136/look
+world:3136/look
 ~
 ~
 0 -1 3136
 S
 #3120
 The Road Crossing~
-adventure:3120/main
+world:3120/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3133/look
+world:3133/look
 ~
 ~
 0 -1 3133
 D1
-adventure:3136/look
+world:3136/look
 ~
 ~
 0 -1 3136
 D2
-adventure:3134/look
+world:3134/look
 ~
 ~
 0 -1 3134
 D3
-adventure:3135/look
+world:3135/look
 ~
 ~
 0 -1 3135
 D4
-adventure:7914/look
+world:7914/look
 ~
 ~
 0 -1 7914
 E
 sign~
-adventure:3120/sign
+world:3120/sign
 ~
 E
 tree~
@@ -416,175 +416,175 @@ adveenture:3120/tree
 S
 #3121
 Emerald Avenue~
-adventure:3121/main
+world:3121/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3135/look
+world:3135/look
 ~
 ~
 0 -1 3135
 D2
-adventure:3125/look
+world:3125/look
 ~
 ~
 0 -1 3125
 S
 #3122
 Park Road~
-adventure:3122/main
+world:3122/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3123/look
+world:3123/look
 ~
 ~
 0 -1 3123
 D2
-adventure:3126/look
+world:3126/look
 ~
 ~
 0 -1 3126
 D3
-adventure:3134/look
+world:3134/look
 ~
 ~
 0 -1 3134
 S
 #3123
 Elm Street~
-adventure:3123/main
+world:3123/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3124/look
+world:3124/look
 ~
 ~
 0 -1 3124
 D3
-adventure:3122/look
+world:3122/look
 ~
 ~
 0 -1 3122
 S
 #3124
 The End Of Elm Street~
-adventure:3124/main
+world:3124/main
 ~
 31 0 0 0 0 1
 D3
-adventure:3123/look
+world:3123/look
 ~
 ~
 0 -1 3123
 S
 #3125
 Emerald Avenue~
-adventure:3125/main
+world:3125/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3121/look
+world:3121/look
 ~
 ~
 0 -1 3121
 D2
-adventure:3128/look
+world:3128/look
 ~
 ~
 0 -1 3128
 S
 #3126
 Park Road~
-adventure:3126/main
+world:3126/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3122/look
+world:3122/look
 ~
 ~
 0 -1 3122
 D2
-adventure:3129/look
+world:3129/look
 ~
 ~
 0 -1 3129
 S
 #3127
 On The Concourse~
-adventure:3127/main
+world:3127/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3100/look
+world:3100/look
 ~
 ~
 0 -1 3100
 D1
-adventure:3128/look
+world:3128/look
 ~
 ~
 0 -1 3128
 D3
-adventure:3504/look
+world:3504/look
 ~
 ~
 0 -1 3504
 S
 #3128
 On The Concourse~
-adventure:3128/main
+world:3128/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3125/look
+world:3125/look
 ~
 ~
 0 -1 3125
 D1
-adventure:3129/look
+world:3129/look
 ~
 ~
 0 -1 3129
 D3
-adventure:3127/look
+world:3127/look
 ~
 ~
 0 -1 3127
 S
 #3129
 On The Concourse~
-adventure:3129/main
+world:3129/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3126/look
+world:3126/look
 ~
 ~
 0 -1 3126
 D1
-adventure:3130/look
+world:3130/look
 ~
 ~
 0 -1 3130
 D2
-adventure:3150/look
+world:3150/look
 ~
 grate~
 2 3106 3150
 D3
-adventure:3128/look
+world:3128/look
 ~
 ~
 0 -1 3128
 S
 #3130
 On The Concourse~
-adventure:3130/main
+world:3130/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3104/look
+world:3104/look
 ~
 ~
 0 -1 3104
@@ -596,191 +596,191 @@ adeventure:3129/look
 S
 #3131
 Park Road~
-adventure:3131/main
+world:3131/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3101/look
+world:3101/look
 ~
 ~
 0 -1 3101
 D2
-adventure:3111/look
+world:3111/look
 ~
 ~
 0 -1 3111
 S
 #3132
 Emerald Avenue~
-adventure:3132/main
+world:3132/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3103/look
+world:3103/look
 ~
 ~
 0 -1 3103
 D1
-adventure:3139/look
+world:3139/look
 ~
 ~
 0 -1 3139
 D2
-adventure:3117/look
+world:3117/look
 ~
 ~
 0 -1 3117
 S
 #3133
 Emerald Avenue~
-adventure:3133/main
+world:3133/main
 ~
 31 0 0 0 0 1
 D2
-adventure:3120/look
+world:3120/look
 ~
 ~
 0 -1 3120
 D3
-adventure:3118/look
+world:3118/look
 ~
 ~
 0 -1 3118
 S
 #3134
 Emerald Avenue~
-adventure:3134/main
+world:3134/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3120/look
+world:3120/look
 ~
 ~
 0 -1 3120
 D1
-adventure:3122/look
+world:3122/look
 ~
 ~
 0 -1 3122
 S
 #3135
 Park Road~
-adventure:3135/main
+world:3135/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3120/look
+world:3120/look
 ~
 ~
 0 -1 3120
 D2
-adventure:3121/look
+world:3121/look
 ~
 ~
 0 -1 3121
 S
 #3136
 Park Road~
-adventure:3136/main
+world:3136/main
 ~
 31 0 0 0 0 1
 D0
-adventure:3119/look
+world:3119/look
 ~
 ~
 0 -1 3119
 D3
-adventure:3120/look
+world:3120/look
 ~
 ~
 0 -1 3120
 S
 #3137
 The Waiting Room~
-adventure:3137/main
+world:3137/main
 ~
 31 8 0 0 0 0
 D1
-adventure:3138/look
+world:3138/look
 ~
 ~
 0 -1 3138
 D3
-adventure:3117/look
+world:3117/look
 ~
 ~
 0 -1 3117
 E
 chair chairs~
-adventure:3137/chair
+world:3137/chair
 ~
 E
 desk~
-adventure:3137/desk
+world:3137/desk
 ~
 E
 typewriter~
-adventure:3137/typewriter
+world:3137/typewriter
 ~
 S
 #3138
 The Mayor's Office~
-adventure:3138/main
+world:3138/main
 ~
 31 8 0 0 0 0
 D3
-adventure:3137/look
+world:3137/look
 ~
 ~
 0 -1 3137
 E
 desk~
-adventure:3138/desk
+world:3138/desk
 ~
 E
 chair armchair~
-adventure:3138/chair
+world:3138/chair
 ~
 S
 #3139
 Penny Lane~
-adventure:3139/main
+world:3139/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3140/look
+world:3140/look
 ~
 ~
 0 -1 3140
 D3
-adventure:3132/look
+world:3132/look
 ~
 ~
 0 -1 3132
 S
 #3140
 Penny Lane~
-adventure:3140/main
+world:3140/main
 ~
 31 0 0 0 0 1
 D1
-adventure:3141/look
+world:3141/look
 ~
 ~
 0 -1 3141
 D3
-adventure:3139/look
+world:3139/look
 ~
 ~
 0 -1 3139
 S
 #3141
 The End Of Penny Lane~
-adventure:3141/main
+world:3141/main
 ~
 31 0 0 0 0 1
 D3
-adventure:3140/look
+world:3140/look
 ~
 ~
 0 -1 3140

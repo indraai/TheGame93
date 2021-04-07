@@ -343,12 +343,12 @@ world:3016/look
 ~
 0 -1 3016
 D2
-You see the Pet Shop.
+world:3031/look
 ~
 ~
 0 -1 3031
 D3
-You see the market square.
+world:3014/look
 ~
 ~
 0 -1 3014
@@ -374,7 +374,7 @@ world:3021/look
 ~
 0 -1 3021
 D3
-adventur:3015/look
+world:3015/look
 ~
 ~
 0 -1 3015
