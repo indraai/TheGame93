@@ -13170,33 +13170,33 @@ The 'list' shows all currently locked zones.
 See also: ZUNLOCK
 #31
 ZONE-COMPLETION COMPLETED-ZONE COMPLETION
-adventure:help/zonecomplete
+world:help/zonecomplete
 #31
 ZONE-DELETION DELETION
-adventure:help/zonedelete
+world:help/zonedelete
 #31
 ZONE-DESCRIPTION-ROOM ZONE_DESCRIPTION_ROOM 00 EXAMPLE-ZONE-DESCRIPTIONS ZONE-INFO TEST-ZONE TRIAL-ZONE ZONE-DESCRIPTIONS ZEDIT-DESCRIPTION
-adventure:help/zonedescription
+world:help/zonedescription
 #31
 ZONE-FORMAT ZON-FILES
-adventure:help/zoneformat
+world:help/zoneformat
 #31
 ZONE-SIZES SIZES
-adventure:help/zonesize
+world:help/zonesize
 #31
 ZONES
-adventure:help/zones
+world:help/zones
 #0
 ZPURGE
-adventure:help/zpurge
+world:help/zpurge
 #31
 ZRESET
-adventure:help/zreset
+world:help/zreset
 #31
 ZUNLOCK
-adventure:help/zunlock
+world:help/zunlock
 #31
 ZLOCK
-adventure:help/zlock
+world:help/zlock
 #31
 $~
