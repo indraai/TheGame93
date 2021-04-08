@@ -26,23 +26,21 @@ the weather.  It affords very little protection from anything else.
 A
 17 -3
 #2805
-water canteen newbie water~
-a canteen~
-A brand new canteen is here.~
+tsl0-kk water canteen water~
+TSL0-KK Canteen 20oz~
+adventure[object]:2805/describe~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 10 10 0 0
 15 25 2 0 0
 E
-water canteen newbie~
-   The canteen can hold only a few mouthfuls of water.  It would be handy to
-keep this canteen in case you travel a short distance away from the clean
-waters of the town.
+TSL0-KK~
+adventure[object]:2805/extra
 ~
 #2806
-salad chop~
+salad~
 a salad~
-A luscious green salad with tomatoes, cucumbuers, and other vegetables is here.~
+A luscious green salad with tomatoes, cucumbers, and other fresh vegetables is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 8 0 0 0
