@@ -800,7 +800,7 @@ ACMD(do_score)
   if (IS_NPC(ch))
     return;
 
-  send_to_char(ch, "::BEGIN:SCORE\nage: %dyrs", GET_AGE(ch));
+  send_to_char(ch, "::BEGIN:SCORE\n\nage: %dyrs\n\r", GET_AGE(ch));
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
@@ -814,11 +814,11 @@ ACMD(do_score)
   send_to_char(ch, "\narmor: %d|10\nalignment:%d\r\n",
 	  compute_armor_class(ch), GET_ALIGNMENT(ch));
 
-  send_to_char(ch, "exp: %d\ngold: %d\r\n",
+  send_to_char(ch, "\nexp: %d\ngold: %d\r\n",
 	  GET_EXP(ch), GET_GOLD(ch));
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "'level up': %d\r\n",
+    send_to_char(ch, "\nlevelup: %d\r\n",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
   send_to_char(ch, "\nquests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
@@ -836,7 +836,7 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "playing: %d day%s %d hour%s.\r\n",
+  send_to_char(ch, "\nplaying: %d day%s %d hour%s.\r\n",
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
