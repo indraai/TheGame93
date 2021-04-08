@@ -45,6 +45,11 @@ The Promenade~
 adventure[world]:3102/main
 ~
 31 0 0 0 0 1
+D0
+adventure[world]:3030/look
+~
+~
+0 -1 3030
 D1
 adventure[world]:3103/look
 ~
