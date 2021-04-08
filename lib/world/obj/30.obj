@@ -601,9 +601,9 @@ tsl1-bb~
 adventure[object]:3084/extra
 ~
 #3085
-sleeves bronze~
-a pair of bronze sleeves~
-A pair of bronze sleeves is lying on the ground.~
+tsl1-sl-b~
+TSL1-SL-B  Bronze Sleeves~
+adventure:3085/describe~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 6 0 0 0
