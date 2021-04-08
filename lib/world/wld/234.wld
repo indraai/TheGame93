@@ -1,5 +1,5 @@
 #23400
-Newbie School~
+Academy~
    Welcome.  We hope you have a lot of fun here.  Please go down to start your
 training.  When you have finished the school, you can go down, and fight in the
 combat arena.  Good Luck!
@@ -9,6 +9,11 @@ D5
 ~
 ~
 0 0 23401
+D0
+adventure[world]:3060/look
+~
+~
+0 -1 3060
 E
 credits info~
    Builder   : Radiax
