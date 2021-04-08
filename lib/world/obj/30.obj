@@ -509,9 +509,12 @@ A pair of bronze gauntlets is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3071
-tsl1 tsl1-gl tackle suit gloves~
+tsl1-gl~
 TSL1-GL Gloves (2)~
-A pair of level 1 tackle suit gloves is lying on the ground.~
+adventure[object]:3071/describe~
+E
+tsl1-gl~
+adventure[object]:3071/extra
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 3 0 0 0
