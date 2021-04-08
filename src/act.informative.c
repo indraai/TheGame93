@@ -840,7 +840,7 @@ ACMD(do_score)
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
-  send_to_char(ch, "rank: %s %s\nlevel: %d\n----\n\r",
+  send_to_char(ch, "\nrank: %s %s\nlevel: %d\n\r",
 	  GET_NAME(ch), GET_TITLE(ch), GET_LEVEL(ch));
 
   switch (GET_POS(ch)) {
