@@ -1,5 +1,5 @@
 #30100
-The Western Campus Entrance~
+University~
    This gateway is made of limestone, and covered in ivy.  Beyond the entrance,
 the university stretches as far as the eye can see.  A sign is neatly posted on
 the left pillar of the gateway.  It is made of nicely polished brass.  Because
@@ -11,6 +11,11 @@ Campus Crescent continues to the east.
 ~
 ~
 0 -1 30101
+D1
+adventure[world]:3061/look
+~
+~
+0 -1 3061
 E
 sign~
    Campus by Matrix and The Wandering Bard
