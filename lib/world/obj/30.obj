@@ -197,13 +197,17 @@ tsl1-wh~
 adventure[object]:3024/extra
 ~
 #3025
-tsl1 tsl1-fl staff large~
-a flail~
-A large flail is here.~
+tsl1-fl~
+TSL1-FL Flail~
+adventure[object]3025/describe~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 2 4 7
 6 625 10 0 0
+E
+tsl1-fl~
+adventure[object]:3025/extra
+~
 #3030
 torch~
 a torch~
