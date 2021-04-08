@@ -800,6 +800,9 @@ ACMD(do_score)
   if (IS_NPC(ch))
     return;
 
+  if (age(ch)->month == 0 && age(ch)->day == 0)
+    send_to_char(ch, "  It's your birthday today.\r\n");
+
   send_to_char(ch, "\n::BEGIN:SCORE\n\r");
   send_to_char(ch, "\nname: %s\n\r", GET_NAME(ch));
   send_to_char(ch, "\nage: %dyrs\n\r", GET_AGE(ch));
@@ -813,17 +816,10 @@ ACMD(do_score)
     send_to_char(ch, "\nlevelup: %d\r\n",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
-  send_to_char(ch, "\narmor: %d\n\r", compute_armor_class(ch));
-
-
-  if (age(ch)->month == 0 && age(ch)->day == 0)
-    send_to_char(ch, "  It's your birthday today.\r\n");
-  else
-    send_to_char(ch, "\r\n");
-
   send_to_char(ch, "\nhit: %d|%d\n\r", GET_HIT(ch), GET_MAX_HIT(ch));
   send_to_char(ch, "\nmana: %d|%d\n\r", GET_MANA(ch), GET_MAX_MANA(ch));
   send_to_char(ch, "\nmove: %d|%d\n\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+  send_to_char(ch, "\narmor: %d\n\r", compute_armor_class(ch));
 
   send_to_char(ch, "\nquests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
