@@ -512,13 +512,13 @@ A pair of bronze gauntlets is lying on the ground.~
 tsl1-gl~
 TSL1-GL Gloves (2)~
 adventure[object]:3071/describe~
+9 0 0 0 0 ah 0 0 0 0 0 0 0
+3 0 0 0
+3 75 10 0 0
 E
 tsl1-gl~
 adventure[object]:3071/extra
 ~
-9 0 0 0 0 ah 0 0 0 0 0 0 0
-3 0 0 0
-3 75 10 0 0
 #3075
 helmet bronze~
 a bronze helmet~
