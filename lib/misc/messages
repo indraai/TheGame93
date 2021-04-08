@@ -472,12 +472,12 @@ $n stupidly tries to bite off more than $e can chew by snapping at $N.
 
 M
 304
-You sink your teeth deep into $N's neck -- blood sprays everywhere!
-$n sinks $s teeth deep into your neck, tearing your jugular vein to bits!
-$n sinks $s teeth deep into $N's neck, tearing $S jugular vein to bits!
-You snap your teeth at $N but miss him.
-$n snaps $s teeth at you fiercely but misses.
-$n fiercely snaps $s teeth at $N but misses the mark.
+You slap $N's face -- tears spray everywhere!
+$n slaps $s in the face, tearing your tears from your eyeballs!
+$n uses $s hand to slap $N's face, oh $S SLAP!
+You slap at $N but miss.
+$n slaps $s at you fiercely but misses.
+$n fiercely slaps $s at $N but misses the mark.
 #
 #
 #
@@ -488,12 +488,12 @@ $n tries to bite $N - funny, huh?
 * 305
 M
 305
-Your relentless bludgeoning of $N finally results in $S broken neck!
-$n's relentless bludgeoning of you finally results in your broken neck!
-$n's relentless bludgeoning of $N finally results in $N's broken neck!
-You try to bludgeon $N who simply laughs at you.
-$n tries to bludgeon you, but you avoid $m and laugh.
-$N laughs at $n's attempt to bludgeon $M.
+Your ultra hits on $N finally results in $S going down!
+$n's hits on you finally results in your going down!
+$n's masterful hits on $N finally results in $N going down!
+You try to hit $N who simply laughs at you.
+$n tries to hit you, but you avoid $m and laugh.
+$N laughs at $n's attempt to hit $M.
 #
 #
 #
