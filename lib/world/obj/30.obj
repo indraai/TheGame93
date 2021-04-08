@@ -145,47 +145,58 @@ A dagger with a long thin blade is here.~
 0 1 4 11
 1 10 10 0 0
 #3021
-tsl1 tsl1-ims tackle suit immobilizer small~
-TSL1-IMS Immobilizer (S)~
-A Small Level 1 Tackle Suit Immobilizer is here.~
+tsl1-im-s~
+TSL1-IM-S Immobilizer (S)~
+adventure[object]:3021/describe~
 ~
 5 e 0 0 0 an 0 0 0 0 0 0 0
 0 1 6 11
 3 60 10 0 0
 E
 inscription~
-'It says': 'May this TSL1 Immobalizer be a good companion in epic battles.'
+adventure[object]:3021/inscription'
 ~
 E
-tsl1 tackle suit small immobalizer~
-The small immobalizer seems to have an inscription of some sort.
+tsl1-im-s~
+adventure[object]:3021/extra
 ~
 #3022
-tsl1 tsl1-iml tackle suit immobilizer large~
-TSL1-IML Immobilizer (L)~
-A Level 1 Tackle Suit Immobilizer Large has been left here.~
+tsl1-im-l tackle suit immobilizer large~
+TSL1-IM-L Immobilizer (L)~
+adventure[object]3022/describe~
+E
+tsl1-im-l~
+adventure[object]:3022/extra
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 8 3
 8 600 10 0 0
 #3023
-tsl1 tsl1-club club~
-TSL1-CLUB~
-A Level 1 Tackle Suit Club is here.~
+tsl1-cl~
+TSL1-CL Club~
+adventure[object]:3023/describe~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 3 7
 3 12 10 0 0
+E
+tsl1-cl~
+adventure[object]:3023/extra
+~
 #3024
-warhammer hammer~
-a warhammer~
-A medium sized warhammer is here.~
+tsl1-wh~
+TSL1-WH Warhammer~
+adventure[object]:3024/describe~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 5 7
 6 50 10 0 0
+E
+tsl1-wh~
+adventure[object]:3024/extra
+~
 #3025
-tsl1 tsl1-st staff large~
+tsl1 tsl1-fl staff large~
 a flail~
 A large flail is here.~
 ~
@@ -328,13 +339,17 @@ A Level 1 Tackle Suit Shirt is lying on the ground.~
 5 0 0 0
 50 250 5 0 0
 #3042
-tsl1 tsl1-shield tackle suit shield~
-TSL1-SHIELD~
-A Level 1 Tackle Suit Sheild is lying on the ground.~
+tsl1-sd~
+TSL1-SD Shield~
+adventure[object]:3042/describe~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
 2 0 0 0
 3 100 10 0 0
+E
+tsl1-sd~
+adventure[object]:3041/extra
+~
 #3043
 tsl1 tsl1-jacket tackle suit jacket~
 TSL1-Jacket~
@@ -525,13 +540,17 @@ A pair of Level 1 Tackle Suit Shin Guards tackle suit shin guards is lying on th
 6 0 0 0
 8 350 10 0 0
 #3081
-tsl1 tsl1-pa pants tackle suit~
+tsl1-pa~
 TSL1-PA Pants~
-A pair of Level 1 Tackle Suit Pants is lying on the ground.~
+A pair of Level 1 Tackle Suit Pants is here.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 3 0 0 0
 8 150 10 0 0
+E
+tsl1-cp~
+adventure[object]:3081/extra
+~
 #3082
 tsl1-ng~
 TSL1-NG Neck Guard~
