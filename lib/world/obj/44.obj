@@ -30,9 +30,9 @@ A
 A
 12 -20
 #4403
-mace rusty~
-a rusty spiked mace~
-A wicked looking spiked iron mace has been left here.~
+tsl2-ma~
+TSL2-MA Mace~
+adventure[object]:4403/describe~
 ~
 5 gjo 0 0 0 an 0 0 0 0 0 0 0
 3 2 3 5
@@ -41,6 +41,10 @@ A
 18 -2
 A
 19 3
+E
+tsl2-ma~
+adventure[object]:4403/extra
+~
 #4404
 dagger bone bonedagger sacrificial~
 a sacrificial bonedagger~
