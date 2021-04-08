@@ -805,7 +805,7 @@ ACMD(do_score)
   send_to_char(ch, "\nage: %dyrs\n\r", GET_AGE(ch));
   send_to_char(ch, "\ngold: %d\n\r", GET_GOLD(ch));
   send_to_char(ch, "\nlevel: %d\n\r", GET_LEVEL(ch));
-  send_to_char(ch, "\nrank: %s %s\n\r", GET_TITLE(ch));
+  send_to_char(ch, "\nrank: %s\n\r", GET_TITLE(ch));
   send_to_char(ch, "\nalign:%d\r\n", GET_ALIGNMENT(ch));
   send_to_char(ch, "\nexp: %d\n\r", GET_EXP(ch));
 
