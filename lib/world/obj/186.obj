@@ -49,13 +49,17 @@ A Level 0 Tackle Suit Ring~
 A
 17 -2
 #18606
-tsl0 tsl0-sg stungun tackle suit~
+tsl0-sg~
 TSL0-SG Stun Gun~
-A Level 0 Tackle Suit Stun Gun is here.~
+adventure[object]:18606/describe~
 ~
 5 ag 0 0 0 ano 0 0 0 0 0 0 0
 0 1 4 11
 1 1 0 0
+E
+tsl0-sg~
+adventure[object]:18606/extra
+~
 A
 19 1
 #18607
