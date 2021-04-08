@@ -547,13 +547,13 @@ A pair of Level 1 Tackle Suit Shin Guards tackle suit shin guards is lying on th
 #3081
 tsl1-pa~
 TSL1-PA Pants~
-A pair of Level 1 Tackle Suit Pants is here.~
+adventure[object]:3081/describe~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 3 0 0 0
 8 150 10 0 0
 E
-tsl1-cp~
+tsl1-pa~
 adventure[object]:3081/extra
 ~
 #3082
