@@ -800,7 +800,7 @@ ACMD(do_score)
   if (IS_NPC(ch))
     return;
 
-  send_to_char(ch, "# Score\nage: %dyrs", GET_AGE(ch));
+  send_to_char(ch, "::BEGIN:SCORE\nage: %dyrs", GET_AGE(ch));
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
@@ -928,9 +928,10 @@ ACMD(do_score)
     else
       send_to_char(ch, "%sPOOFOUT: %s%s disappears in a puff of smoke.%s\r\n", QYEL, QCYN, GET_NAME(ch), QNRM);
 
-    send_to_char(ch, "Your current zone: %s%d%s\r\n", CCCYN(ch, C_NRM), GET_OLC_ZONE(ch),
- CCNRM(ch, C_NRM));
+    send_to_char(ch, "Your current zone: %s%d%s\r\n", CCCYN(ch, C_NRM), GET_OLC_ZONE(ch), CCNRM(ch, C_NRM));
   }
+  send_to_char(ch, "::END:SCORE");
+
 }
 
 ACMD(do_inventory)
