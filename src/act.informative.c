@@ -800,23 +800,21 @@ ACMD(do_score)
   if (IS_NPC(ch))
     return;
 
-  send_to_char(ch, "::BEGIN:SCORE\n\nage: %dyrs\n\r", GET_AGE(ch));
+  send_to_char(ch, "\n::BEGIN:SCORE\n\r");
+  send_to_char(ch, "\nage: %dyrs\n\r", GET_AGE(ch));
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
   else
     send_to_char(ch, "\r\n");
 
-  send_to_char(ch, "\nhit: %d|%d\nmana: %d|%d\nmove: %d|%d\r\n",
-	  GET_HIT(ch), GET_MAX_HIT(ch), GET_MANA(ch), GET_MAX_MANA(ch),
-	  GET_MOVE(ch), GET_MAX_MOVE(ch));
-
-  send_to_char(ch, "\narmor: %d|10\nalignment:%d\r\n",
-	  compute_armor_class(ch), GET_ALIGNMENT(ch));
-
-  send_to_char(ch, "\nexp: %d\ngold: %d\r\n",
-	  GET_EXP(ch), GET_GOLD(ch));
-
+  send_to_char(ch, "\nhit: %d|%d\n\r", GET_HIT(ch), GET_MAX_HIT(ch));
+  send_to_char(ch, "\nmana: %d|%d\n\r", GET_MANA(ch), GET_MAX_MANA(ch));
+  send_to_char(ch, "\nmove: %d|%d\n\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+  send_to_char(ch, "\narmor: %d\n\r", compute_armor_class(ch));
+  send_to_char(ch, "\nalignment:%d\r\n", GET_ALIGNMENT(ch));
+  send_to_char(ch, "\ngold: %d\n\r", GET_GOLD(ch));
+  send_to_char(ch, "\nexp: %d\n\r", GET_EXP(ch));
   if (GET_LEVEL(ch) < LVL_IMMORT)
     send_to_char(ch, "\nlevelup: %d\r\n",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
@@ -930,7 +928,7 @@ ACMD(do_score)
 
     send_to_char(ch, "Your current zone: %s%d%s\r\n", CCCYN(ch, C_NRM), GET_OLC_ZONE(ch), CCNRM(ch, C_NRM));
   }
-  send_to_char(ch, "::END:SCORE");
+  send_to_char(ch, "\n::END:SCORE\n\r");
 
 }
 
