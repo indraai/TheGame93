@@ -801,7 +801,20 @@ ACMD(do_score)
     return;
 
   send_to_char(ch, "\n::BEGIN:SCORE\n\r");
+  send_to_char(ch, "\nname: %s\n\r", GET_NAME(ch));
   send_to_char(ch, "\nage: %dyrs\n\r", GET_AGE(ch));
+  send_to_char(ch, "\ngold: %d\n\r", GET_GOLD(ch));
+  send_to_char(ch, "\nlevel: %d\n\r", GET_LEVEL(ch));
+  send_to_char(ch, "\nrank: %s %s\n\r", GET_TITLE(ch));
+  send_to_char(ch, "\nalign:%d\r\n", GET_ALIGNMENT(ch));
+  send_to_char(ch, "\nexp: %d\n\r", GET_EXP(ch));
+
+  if (GET_LEVEL(ch) < LVL_IMMORT)
+    send_to_char(ch, "\nlevelup: %d\r\n",
+	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
+
+  send_to_char(ch, "\narmor: %d\n\r", compute_armor_class(ch));
+
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
@@ -811,13 +824,6 @@ ACMD(do_score)
   send_to_char(ch, "\nhit: %d|%d\n\r", GET_HIT(ch), GET_MAX_HIT(ch));
   send_to_char(ch, "\nmana: %d|%d\n\r", GET_MANA(ch), GET_MAX_MANA(ch));
   send_to_char(ch, "\nmove: %d|%d\n\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
-  send_to_char(ch, "\narmor: %d\n\r", compute_armor_class(ch));
-  send_to_char(ch, "\nalignment:%d\r\n", GET_ALIGNMENT(ch));
-  send_to_char(ch, "\ngold: %d\n\r", GET_GOLD(ch));
-  send_to_char(ch, "\nexp: %d\n\r", GET_EXP(ch));
-  if (GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nlevelup: %d\r\n",
-	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
   send_to_char(ch, "\nquests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
@@ -837,9 +843,6 @@ ACMD(do_score)
   send_to_char(ch, "\nplaying: %d day%s %d hour%s.\r\n",
      playing_time.day, playing_time.day == 1 ? "" : "s",
      playing_time.hours, playing_time.hours == 1 ? "" : "s");
-
-  send_to_char(ch, "\nrank: %s %s\nlevel: %d\n\r",
-	  GET_NAME(ch), GET_TITLE(ch), GET_LEVEL(ch));
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
