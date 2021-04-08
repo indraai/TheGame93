@@ -154,23 +154,23 @@ adventure[object]:3021/describe~
 3 60 10 0 0
 E
 inscription~
-adventure[object]:3021/inscription'
+adventure[object]:3021/inscription
 ~
 E
 tsl1-im-s~
 adventure[object]:3021/extra
 ~
 #3022
-tsl1-im-l tackle suit immobilizer large~
+tsl1-im-l~
 TSL1-IM-L Immobilizer (L)~
 adventure[object]3022/describe~
+5 n 0 0 0 an 0 0 0 0 0 0 0
+0 1 8 3
+8 600 10 0 0
 E
 tsl1-im-l~
 adventure[object]:3022/extra
 ~
-5 n 0 0 0 an 0 0 0 0 0 0 0
-0 1 8 3
-8 600 10 0 0
 #3023
 tsl1-cl~
 TSL1-CL Club~
