@@ -525,13 +525,17 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-tsl1 tsl1-he tackle suit helment~
+tsl1-he~
 TSL1-HE Helmet~
-A Level 1 Tackle Suit Helmet is on the ground.~
+adventure[object]:3076/describe~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
 3 150 10 0 0
+E
+tsl1-he~
+adventure[object]:3076/extra
+~
 #3080
 tsl1 tsl1-sg shin guards~
 TSL1-SG Shin Guards (2)~
