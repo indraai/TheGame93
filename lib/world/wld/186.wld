@@ -8,11 +8,6 @@ adventure[world]:18601/look
 ~
 ~
 0 -1 18601
-D3
-adventure[world]:3054/look
-~
-~
-0 -1 3054
 S
 #18601
 The Beginning~
@@ -147,20 +142,20 @@ door~
 1 -1 18606
 S
 #18608
-By The Great Field~
+The Exit~
 adventure[world]:18608/main
 ~
 186 4 0 0 0 0
-D0
-adventure[world]:3061/look
-~
-~
-0 -1 3061
 D1
 adventure[world]:18609/look
 ~
 ~
 0 -1 18609
+D3
+adventure[world]:3054/look
+~
+~
+0 -1 3054
 S
 #18609
 The Passage End~
