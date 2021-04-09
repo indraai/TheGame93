@@ -5,6 +5,11 @@ scenery here is quite beautiful.  You are surrounded by trees and gorgeous
 flowers that make the air smell sweet.
 ~
 5 0 0 0 0 2
+D0
+adventure[world]:26300/look
+~
+~
+0 -1 26300
 D1
 adventure[world]:3054/look
 ~
