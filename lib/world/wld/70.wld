@@ -1,71 +1,62 @@
 #7000
 The Fissure Under The Ledge~
-   This is a small fissure in the solid rock.  Under you lies the deep dark
-pool.  The water trickles quietly down from the ledge above you.  The water
-smells like the water in a sewer.
+adventure[world]:7000/main
 ~
 70 12 0 0 0 5
 D4
+adventure[world]:7070/look
 ~
 ~
 0 -1 7070
 D5
-The water's edge.
+adventure[world]:7100/look
 ~
 ~
 0 -1 7100
 S
 #7001
 The Muddy Sewer~
-   You are standing in mud to your knees.  This is not the kind of place
-for a picnic.  The muddy sewer stretches further into the south.
+adventure[world]:7001/main
 ~
 70 8 0 0 0 5
 D2
-You see the muddy sewer continuing into the darkness to the south.
+adventure[world]:7002/look
 ~
 ~
 0 -1 7002
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7001/mud
 ~
 S
 #7002
 The Muddy Sewer Junction~
-   The muddy sewer stretches into the dark to the south.  It looks as if
-no person has ever put his foot here before.  It is too muddy for that
-anyway.  The sewer leads north, south and east from here.
+adventure[world]:7002/main
 ~
 70 8 0 0 0 5
 D0
-The muddy sewer stretches into the dark to the north.
+adventure[world]:7001/look
 ~
 ~
 0 -1 7001
 D1
-East.  The muddy sewer leads into a bend that goes south.
+adventure[world]:7007/look
 ~
 ~
 0 -1 7007
 D2
-South.  The muddy sewer ends in a mudhole that way.
+adventure[world]:7003/look
 ~
 ~
 0 -1 7003
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7002/mud
 ~
 S
 #7003
 The Mudhole~
-   You stand in mud all the way up to your thighs and it is not too
-comfortable since you are used to a somewhat different environment.
-The sewer leads to the north of here.  In the middle you can just
-make out an enormous drainpipe leading down.
+adventure[world]:7003/main
 ~
 70 12 0 0 0 5
 D0
