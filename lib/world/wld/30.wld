@@ -1009,6 +1009,11 @@ adventure[world]:3001/look
 ~
 ~
 0 -1 3001
+D3
+adventure[world]:500/look
+~
+~
+0 -1 500
 E
 altar~
 adventure[world]:3054/altar
