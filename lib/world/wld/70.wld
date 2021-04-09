@@ -223,55 +223,47 @@ adventure[world]:7018/look
 S
 #7011
 The Muddy Sewer Pipe~
-   You have entered a kind of tube intersection that leads south, west
-and east.  Your legs are covered in mud up to the knees.  REAL yucky!
+adventure[world]:7011/main
 ~
 70 8 0 0 0 5
 D1
-East.  There is less mud in that direction, or that's your impression.
+adventure[world]:7024/look
 ~
 ~
 0 -1 7024
 D2
-That way is lost in darkness, though you sense less mud in that direction,
-perhaps even a complete end to this sludge that surrounds you.
+adventure[world]:7021/look
 ~
 ~
 0 -1 7021
 D3
-West.  The mud reaches that way too, all the way up the walls.
+adventure[world]:7005/look
 ~
 ~
 0 -1 7005
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7011/mud
 ~
 S
 #7012
 The Bend In The Muddy Sewer~
-   This is not your idea of a holiday.  You stand in mud up to your knees.
-It is absolutely inconceivable how all this mud could have been placed
-here.  The pipe leads to the west and south.
+adventure[world]:7012/main
 ~
 70 8 0 0 0 5
 D2
-South.  There is even more mud that way, incredible!  Although it looks
-like an intersection in the sewer system that leads east and south.
+adventure[world]:7013/look
 ~
 ~
 0 -1 7013
 D3
-West.  All you can see, is that the pipe leads into a bend that goes
-north.  But there is less mud in that direction, however odd that sounds.
+adventure[world]:7006/look
 ~
 ~
 0 -1 7006
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7012/mud
 ~
 S
 #7013
