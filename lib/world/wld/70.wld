@@ -318,86 +318,65 @@ that, the smell is absolutely overwhelming.
 S
 #7013
 A Muddy Intersection~
-   You wouldn't want to know the true feeling of standing in this mud up to
-your hips.  >BWAADR<.  All that fills your mind right now is the dream of
-a hot bath.  This is NOT very clean mud you know, remember you're in the
-sewer!  The pipes leads north, south and east.
+adventure[world]:7013/main
 ~
 70 8 0 0 0 5
 D0
-North.  Sludge and sediment fills this corridor of the sewer that leads
-into a bend going west.
+adventure[world]:7012/look
 ~
 ~
 0 -1 7012
 D1
-East.  You can see absolutely nothing of interest in that direction (Maybe
-that is why it is so damn interesting...)  There is no mud in that direction
-either, GREAT!
+adventure[world]:7026/look
 ~
 ~
 0 -1 7026
 D2
-South.  All you can see is more mud!  Although the pipe goes into a bend
-leading west.
+adventure[world]:7014/look
 ~
 ~
 0 -1 7014
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7013/mud
 ~
 E
 sediment~
-   It is NOT the kind of matter that would concern you too much, normally, but
-as you are in the middle of it, it just might become your main concern.  REAL
-YUCKY!
+adventure[world]:7013/sediment
 ~
 S
 #7014
 The Muddy Sewer~
-   You stand in a bend of the pipe system of the sewer with mud up to your
-thighs.  Contemplating a higher level of existence here would be utterly
-inappropriate, as the smell would keep any intelligent creature from even
-thinking of anything but getting away from this foul end of the WORLD.
-The bend goes from north to west.
+adventure[world]:7014/main
 ~
 70 8 0 0 0 5
 D0
-North.  Filled with mud, that place looks like an impassable intersection
-with pipes leading north and east.
+adventure:7013/look
 ~
 ~
 0 -1 7013
 D3
-West.  There is less mud that way, maybe you're on your way out of this foul
-place.
+adventure[world]:7008/look
 ~
 ~
 0 -1 7008
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7014/mud
 ~
 S
 #7015
 The Old Well~
-   You are standing by an old and worn well from before this century.  The
-sewer leads to the east from here and the well leads down into darkness.
-Metal bars implanted in the side of the well lead down as a ladder.
+adventure[world]:7015/main
 ~
 70 8 0 0 0 3
 D1
-East.  You see, because of the utter darkness that surround you, absolutely
-nothing.  Your light isn't of much use for that kind of distance.
+adventure[world]:7028/look
 ~
 ~
 0 -1 7028
 D5
-Down the well there is even less light than up here, so... sorry, you can't
-see a thing.  There are metal bars in the side leading down into the darkness.
+adventure[world]:7105/look
 ~
 ~
 0 -1 7105
@@ -537,24 +516,21 @@ leading south and west.
 S
 #7025
 Another Intersection~
-   You have never seen anything so BORING... This is an intersection with
-pipes leading north, south and east.
+adventure[world]:7025/main
 ~
 70 8 0 0 0 1
 D0
-To the north there is an intersection, where the pipes are leading west and
-east.  You notice that the floor to the west is covered in mud.
+adventure[world]:7024/look
 ~
 ~
 0 -1 7024
 D1
-East.  You see nothing of interest in that direction, just another
-intersection.  This one leads east and south.
+adventure[world]:7038/look
 ~
 ~
 0 -1 7038
 D2
-Another intersection lies to the south.  It leads west and south.
+adventure[world]:7026/look
 ~
 ~
 0 -1 7026
