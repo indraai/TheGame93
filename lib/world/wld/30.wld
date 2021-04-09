@@ -58,6 +58,11 @@ The Inner Sanctum~
 adventure[world]:3002/main
 ~
 30 12 0 0 0 0
+D0
+adventure[world]:11500/look
+~
+~
+0 -1 11500
 D1
 adventure[world]:3003/look
 ~
