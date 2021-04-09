@@ -60,196 +60,163 @@ adventure[world]:7003/main
 ~
 70 12 0 0 0 5
 D0
-North.  The muddy junction lies in that direction.
+adventure[world]:7002/look
 ~
 ~
 0 -1 7002
 D5
-The muddy drainpipe leads down through the mud, otherwise it is utterly dark.
+adventure[world]:7101/look
 ~
 ~
 0 -1 7101
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7003/mud
 ~
 S
 #7004
 The Dark Pit~
-   You are standing by the edge of a dark pit that leads down into even
-deeper darkness.  >BWWAAADDRR< - The smell from down there is unbearable.
-The sewer stretches into the darkness to the east.
+adventure[world]:7004/main
 ~
 70 8 0 0 0 0
 D1
-East.  The sewer leads into the sewer junction.
+adventure[world]:7009/look
 ~
 ~
 0 -1 7009
 D5
-The Dark Pit leads down and down and down... well you can't see the
-bottom anyway.  There are bars that could function as a ladder on
-the side.
+adventure[world]:7102/look
 ~
 ~
 0 -1 7102
 S
 #7005
 The Muddy Sewer~
-   You are standing in the middle of a bend of the sewer pipe.  It is very
-dark around here and the mud is sticking to your legs, not very pleasant.
-The pipe leads east and south from here.
+adventure[world]:7005/main
 ~
 70 8 0 0 0 4
 D1
-East.  The mud stretches on into the darkness.
+adventure[world]:7011/look
 ~
 ~
 0 -1 7011
 D2
-South.  There is even more mud in that direction than where you are now.
-Incredible.
+adventure[world]:7006/look
 ~
 ~
 0 -1 7006
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7005/mud
 ~
 S
 #7006
 The Muddy Sewer~
-   You are standing in something that reminds you very much of porridge,
-this has the advantage that it is not hot, it is rather cold actually.
-The pipe bends to the north and east.
+adventure[world]:7006/main
 ~
 70 8 0 0 0 5
 D0
-The muddy sewer pipe leads into a bend that goes east.
+adventure[world]:7005/look
 ~
 ~
 0 -1 7005
 D1
-The pipe leads into a bend that goes south.  Interesting, there is mud on
-the ground there as well.
+adventure[world]:7012/look
 ~
 ~
 0 -1 7012
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7006/mud
 ~
 S
 #7007
 The Muddy Sewer Bend~
-   This isn't your idea of a place to stay too long.  You're in up to
-your knees in something that resembles mud, but you're not quite sure.
-The bend in which you stand leads west and south.
+adventure[world]:7007/main
 ~
 70 8 0 0 0 5
 D2
-The pipe leads into a intersection that goes south and east.  The floor here
-is still covered in mud.
+adventure[world]:7008/look
 ~
 ~
 0 -1 7008
 D3
-The pipe (still filled with mud) leads into a intersection that goes north
-and south.  Interesting.
+adventure[world]:7002/look
 ~
 ~
 0 -1 7002
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7007/mud
 ~
 S
 #7008
 A Muddy Intersection~
-   You have both your feet safely stuck in mud.  It isn't the mud that is
-wrong it is the smell, the sounds, the total darkness that surrounds you.
-Everything here is so depressing.  The pipe leads on with a trail of thick
-mud to the north, east and south.
+adventure[world]:7008/main
 ~
 70 8 0 0 0 4
 D0
-North.  The pipe goes into a bend with a load of mud all the way up the walls.
-The bend leads west.
+adventure[world]:7007/look
 ~
 ~
 0 -1 7007
 D1
-East.  This way looks like a place for the annual mud festival, although the
-stench wouldn't allow any happiness at all.  The pipe leads into a bend that
-leads north.
+adventure[world]:7014/look
 ~
 ~
 0 -1 7014
 D2
-South.  There is much less mud in that direction.  Your light doesn't
-uncover enough space for you to see much more than that it leads into
-some sort of junction.
+adventure[world]:7009/look
 ~
 ~
 0 -1 7009
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7008/mud
 ~
 S
 #7009
 The Sewer Junction~
-   You stand in the middle of a huge junction of sewer pipes right under
-what you'd think was an air shaft.  The sewer pipes lead to the north,
-south, east and west.  It look quite impossible to force your way up.
+adventure[world]:7009/main
 ~
 70 8 0 0 0 3
 D0
-North.  Mud is the floor basis in that direction.  Yummy.
+adventure[world]:7008/look
 ~
 ~
 0 -1 7008
 D1
-YYEEUUCH!  BOOH!  THAT looks like a nice place for creepy crawlies.
+adventure[world]:7017/look
 ~
 ~
 0 -1 7017
 D2
-South.  This direction looks quite nice actually.  The pipe leads into
-a bend that goes east.
+adventure[world]:7010/look
 ~
 ~
 0 -1 7010
 D3
-A few yards ahead - away from this junction - there is a pit leading down,
-but the smell from there...>PHEWW<.
+adventure[world]:7004/look
 ~
 ~
 0 -1 7004
 E
 mud~
-   It is as dark as tar and looks like something out of a toilet, on top of
-that, the smell is absolutely overwhelming.
+adventure[world]:7009/mud
 ~
 S
 #7010
 A Bend In The Sewer Pipe~
-   You are in a bend in the sewer pipe.  A strong smell seeps in from the
-north.  The sewer goes north and east.
+adventure[world]:7010/main
 ~
 70 8 0 0 0 2
 D0
-North.  You are staring into a huge junction with exits in all directions.
+adventure[world]:7009/look
 ~
 ~
 0 -1 7009
 D1
-East.  The Pipe leads into utter darkness that way.
+adventure[world]:7018/look
 ~
 ~
 0 -1 7018
