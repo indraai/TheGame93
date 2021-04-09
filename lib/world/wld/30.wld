@@ -1171,6 +1171,11 @@ The Dirt Path~
 adventure[world]:3066/main
 ~
 30 0 0 0 0 2
+D0
+adventure[world]:26300/look
+~
+~
+0 -1 26300
 D1
 adventure[world]:3061/look
 ~
