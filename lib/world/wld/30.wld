@@ -1314,11 +1314,6 @@ adventure[world]:3068/look
 ~
 ~
 0 -1 3068
-D3
-adventure[world]:3069/look
-~
-~
-0 -1 3069
 E
 sign~
 adventure[world]:3068/sign
