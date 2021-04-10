@@ -23,62 +23,57 @@ adventure[world]:30100/info
 ~
 S
 #30101
-Campus Crescent~
-   This cobblestone road is not littered in any way, thus displaying the
-conscientious behaviour of the politically correct students (as they all seem
-to be).  The road continues east and west.
+Campus Way~
+adventure[world]:30101/main
 ~
 301 0 0 0 0 1
 D1
-Campus Crescent continues to the east.
+adventure[world]:30102/look
 ~
 ~
 0 -1 30102
 D3
-The gateway can be seen to the west.
+adventure:30100/look
 ~
 ~
 0 -1 30100
 E
 cobblestone stone cobble~
-   The cobblestones are clean.
+adventure[world]:30101/extra
 ~
 S
 #30102
-Campus Crescent~
-   This cobblestone road is not littered in any way, thus displaying the
-conscientious behaviour of the politically correct students (as they all seem
-to be).  The road continues east and west.  To the north and south, you can see
-dormitories.
+Campus Way~
+adventure[world]:30102/main
 ~
 301 0 0 0 0 1
 D0
-To the north you see Victoria Hall.
+adventure[world]:30125/look
 ~
 door~
-2 30145 30125
+1 0 30125
 D1
-Campus Crescent continues to the east.
+adventure[world]:30103/look
 ~
 ~
 0 -1 30103
 D2
-To the south you see Leonard Hall.
+adventure[world]:30126/look
 ~
 ~
 0 -1 30126
 D3
-Campus Crescent continues to the west.
+adventure[world]:30101/look
 ~
 ~
 0 -1 30101
 E
 cobblestone stone cobble~
-   The cobblestones are clean.
+adventure[world]:30102/stone
 ~
 E
 dorm dormitory dormitories~
-   Well, they're dormitories.  What else can be said?
+adventure[world]:3102/dorm
 ~
 S
 #30103
