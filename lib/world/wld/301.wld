@@ -1,13 +1,10 @@
 #30100
-University~
-   This gateway is made of limestone, and covered in ivy.  Beyond the entrance,
-the university stretches as far as the eye can see.  A sign is neatly posted on
-the left pillar of the gateway.  It is made of nicely polished brass.  Because
-of this, it looks rather important (as all signs go).
+The University~
+adventure[world]:30100/main
 ~
 301 4 0 0 0 1
 D1
-Campus Crescent continues to the east.
+adventure[world]:3101/look
 ~
 ~
 0 -1 30101
@@ -18,52 +15,11 @@ adventure[world]:3061/look
 0 -1 3061
 E
 sign~
-   Campus by Matrix and The Wandering Bard
-Copyright 1994 by Curious Areas Workshop
+adventure[world]:30100/sign
 ~
 E
 info credits~
-   Campus by Matrix and The Wandering Bard
-Copyright 1994 by Curious Areas Workshop
-Campus is a large tongue-in-cheek area loosely based on a Canadian
-university campus.  Below is a step by step guide that should work
-for most DikuMuds...
-The campus consists of 232 rooms.
-  #00 (exit west to the rest of the world)
-  #22 (exit north to the rest of the world)
-  #86 (add a PEACEFUL flag if you have one)
-Edit the following objects:
-  #46 (make the edesc appear as your login screen.)
-  #59
-*
-The mobs in this area were built on a -100 (good) to 100 (bad) armor
-class range.  Remove the extra '0' if you don't need/want it.
-*
-Here are some recommended specials for the mobs:
-  #04 should be given a sleep spell to cast
-  #47 should be given an undead process.
-Zone 301 is linked to the following zones:
-302 Campus                         at 30123 (south) ---> 30236
-302 Campus                         at 30124 (north) ---> 30250
-302 Campus                         at 30126 (east ) ---> 30294
-302 Campus                         at 30126 (west ) ---> 30295
-303 Campus                         at 30129 (west ) ---> 30330
-303 Campus                         at 30130 (east ) ---> 30320
-303 Campus                         at 30130 (south) ---> 30325
-303 Campus                         at 30130 (west ) ---> 30324
-302 Campus                         at 30133 (east ) ---> 30274
-302 Campus                         at 30134 (north) ---> 30276
-302 Campus                         at 30135 (north) ---> 30292
-302 Campus                         at 30135 (west ) ---> 30291
-302 Campus                         at 30136 (east ) ---> 30266
-302 Campus                         at 30140 (south) ---> 30260
-302 Campus                         at 30142 (north) ---> 30201
-302 Campus                         at 30142 (east ) ---> 30203
-302 Campus                         at 30199 (up   ) ---> 30200
-
-   (Mobs Stay_Zone flags have all been disabled to allow free access between
-301, 302 and 303.  Please ensure that any entrances into the area are flagged
-nomob to keep them in.  -  Parna for TBAMud.)
+adventure[world]30100/info
 ~
 S
 #30101
