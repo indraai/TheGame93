@@ -1112,8 +1112,8 @@ adventure[world]:3066/look
 ~
 0 -1 3066
 E
-info~
-adventure[world]:3061/info
+sign~
+adventure[world]:3061/sign
 ~
 S
 #3062
