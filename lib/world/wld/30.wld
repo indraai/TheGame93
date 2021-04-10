@@ -54,7 +54,7 @@ adventure[world]:3001/paintings
 S
 T 3017
 #3002
-The Inner Sanctum~
+The Sanctuary~
 adventure[world]:3002/main
 ~
 30 12 0 0 0 0
@@ -75,7 +75,7 @@ adventure[world]:7026/look
 0 -1 7026
 S
 #3003
-The Bar Of Divination~
+The Table~
 adventure[world]:3003/main
 ~
 30 140 0 0 0 0
@@ -95,7 +95,7 @@ adventure[world]:3003/sign
 ~
 S
 #3004
-The Monks Guild~
+The Sangha~
 adventure[world]:3004/main
 ~
 30 8 0 0 0 0
@@ -111,7 +111,7 @@ adventure[world]:3005/look
 0 -1 3005
 S
 #3005
-The Temple Square~
+The Square~
 adventure[world]:3005/main
 ~
 30 0 0 0 0 1
@@ -163,7 +163,7 @@ adventure[world]:3008/look
 0 -1 3008
 S
 #3007
-The Grunting Boar~
+The Cafe~
 adventure[world]:3007/main
 ~
 30 136 0 0 0 0
@@ -221,7 +221,7 @@ adventure[world]:3009/sign
 ~
 S
 #3010
-The General Store~
+The Store~
 adventure[world]:3010/main
 ~
 30 136 0 0 0 0
@@ -236,7 +236,7 @@ adventure[world]:3010/note
 ~
 S
 #3011
-The Weapon Shop~
+The Shop~
 adventure[world]:3011/main
 ~
 30 136 0 0 0 0
@@ -303,7 +303,7 @@ adventure[world]:3012/look
 0 -1 3012
 S
 #3014
-Market Square~
+The Market~
 adventure[world]:3014/main
 ~
 30 0 0 0 0 1
@@ -491,7 +491,7 @@ adventure[world]:7048/look
 0 -1 7048
 S
 #3024
-The Eastern End Of Poor Alley~
+The Gallery~
 adventure[world]:3024/main
 ~
 30 0 0 0 0 1
@@ -512,7 +512,7 @@ adventure[world]:3044/look
 0 -1 3044
 S
 #3025
-The Common Square~
+The Square~
 adventure[world]:3025/main
 ~
 30 0 0 0 0 1
@@ -538,7 +538,7 @@ adventure[world]:3024/look
 0 -1 3024
 S
 #3026
-The Dark Alley~
+The Gallery~
 adventure[world]:3026/main
 ~
 30 0 0 0 0 1
@@ -808,7 +808,7 @@ adventure[world]:3043/look
 0 -1 3043
 S
 #3045
-The Dark Alley At The Levee~
+The Gallery~
 adventure[world]:3045/main
 ~
 30 0 0 0 0 1
@@ -829,7 +829,7 @@ adventure[world]:3026/look
 0 -1 3026
 S
 #3046
-The Eastern End Of The Alley~
+The Gallery~
 adventure[world]:3046/main
 ~
 30 0 0 0 0 1
@@ -865,7 +865,7 @@ adventure[world]:3047/wall
 ~
 S
 #3048
-Grubby Inn~
+The Inn~
 adventure[world]:3048/main
 ~
 30 136 0 0 0 0
@@ -931,7 +931,7 @@ adventure[world]:3051/wall
 ~
 S
 #3052
-Outside The West Gate Of Amaravati~
+The West Gate~
 adventure[world]:3052/main
 ~
 30 0 0 0 0 1
@@ -963,7 +963,7 @@ adventure[world]:3052/wall
 ~
 S
 #3053
-Outside The East Gate Of Amaravati~
+The East Gate~
 adventure[world]:3053/main
 ~
 30 0 0 0 0 1
@@ -995,7 +995,7 @@ adventure[world]:3053/wall
 ~
 S
 #3054
-By The Altar~
+The Shrine~
 adventure[world]:3054/main
 ~
 30 8 0 0 0 0
@@ -1029,7 +1029,7 @@ adventure[world]:3054/statue
 ~
 S
 #3058
-Ye Olde Water Shoppe~
+The Water Store~
 adventure[world]:3058/main
 ~
 30 136 0 0 0 0
@@ -1040,7 +1040,7 @@ adventure[world]:3041/look
 0 -1 3041
 S
 #3059
-Behind The Altar~
+The Path~
 adventure[world]:3059/main
 ~
 30 0 0 0 0 1
@@ -1061,7 +1061,7 @@ adventure[world]:3054/look
 0 -1 3054
 S
 #3060
-The Great Field~
+The Path~
 adventure[world]:3060/main
 ~
 30 0 0 0 0 1
@@ -1087,7 +1087,7 @@ adventure[world]:31500/look
 0 -1 31500
 S
 #3061
-The Great Field~
+The Path~
 adventure[world]:3061/main
 ~
 30 4 0 0 0 1
@@ -1166,7 +1166,7 @@ adventure[world]:3008/look
 0 -1 3008
 S
 #3065
-Quinn's House~
+The House~
 adventure[world]:3065/main
 ~
 30 8 0 0 0 0
@@ -1177,7 +1177,7 @@ adventure[world]:3061/look
 2 -1 3061
 S
 #3066
-The Dirt Path~
+The Path~
 adventure[world]:3066/main
 ~
 30 0 0 0 0 2
