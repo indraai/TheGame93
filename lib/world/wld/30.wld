@@ -1023,6 +1023,61 @@ statue indra king god~
 adventure[world]:3054/statue
 ~
 S
+#3055
+The Path~
+adventure[world]:3055/main
+~
+30 4 0 0 0 1
+D1
+adventure[world]:3066/look
+~
+~
+0 -1 3066
+D3
+adventure[world]:3056/look
+~
+~
+0 -1 3056
+E
+sign~
+adventure[world]:3055/sign
+~
+S
+#3056
+The Path~
+adventure[world]:3056/main
+~
+30 4 0 0 0 1
+D1
+adventure[world]:3055/look
+~
+~
+0 -1 3055
+D3
+adventure[world]:3057/look
+~
+~
+0 -1 3057
+E
+sign~
+adventure[world]:3056/sign
+~
+S
+#3057
+The Path~
+adventure[world]:3057/main
+~
+30 4 0 0 0 1
+D1
+adventure[world]:3056/look
+~
+~
+0 -1 3056
+E
+sign~
+adventure[world]:3057/sign
+~
+S
 #3058
 The Water Store~
 adventure[world]:3058/main
@@ -1184,15 +1239,24 @@ The Path~
 adventure[world]:3066/main
 ~
 30 0 0 0 0 2
+D0
+adventure[world]:29600/look
+~
+~
+0 -1 29600
 D1
 adventure[world]:3061/look
 ~
 ~
 0 -1 3061
 D3
-adventure[world]:29600/look
+adventure[world]:3055/look
 ~
 ~
-0 -1 29600
+0 -1 3055
+E
+sign~
+adventure[world]:3066/sign
+~
 S
 $~
