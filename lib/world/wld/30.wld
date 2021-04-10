@@ -38,11 +38,6 @@ adventure[world]:3000/look
 ~
 ~
 0 -1 3000
-D4
-You see the temple square.
-~
-~
-0 -1 3005
 E
 info information~
 adventure[world]:3001/info
