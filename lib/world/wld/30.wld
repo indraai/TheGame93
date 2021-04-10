@@ -1085,6 +1085,10 @@ adventure[world]:31500/look
 ~
 ~
 0 -1 31500
+E
+sign~
+adventure[world]:3060/sign
+~
 S
 #3061
 The Path~
