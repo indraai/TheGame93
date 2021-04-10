@@ -1027,7 +1027,7 @@ S
 The Path~
 adventure[world]:3055/main
 ~
-30 4 0 0 0 1
+30 3 0 0 0 1
 D1
 adventure[world]:3066/look
 ~
@@ -1047,7 +1047,7 @@ S
 The Path~
 adventure[world]:3056/main
 ~
-30 4 0 0 0 1
+30 3 0 0 0 1
 D1
 adventure[world]:3055/look
 ~
@@ -1067,12 +1067,17 @@ S
 The Path~
 adventure[world]:3057/main
 ~
-30 4 0 0 0 1
+30 3 0 0 0 1
 D1
 adventure[world]:3056/look
 ~
 ~
 0 -1 3056
+D3
+adventure[world]:3067/look
+~
+~
+0 -1 3067
 E
 sign~
 adventure[world]:3057/sign
@@ -1093,7 +1098,7 @@ S
 The Path~
 adventure[world]:3059/main
 ~
-30 0 0 0 0 1
+30 3 0 0 0 1
 D0
 adventure[world]:3060/look
 ~
@@ -1114,7 +1119,7 @@ S
 The Path~
 adventure[world]:3060/main
 ~
-30 0 0 0 0 1
+30 3 0 0 0 1
 D0
 adventure[world]:3061/look
 ~
@@ -1144,7 +1149,7 @@ S
 The Path~
 adventure[world]:3061/main
 ~
-30 4 0 0 0 1
+30 3 0 0 0 1
 D0
 adventure[world]:3065/look
 ~
@@ -1238,7 +1243,7 @@ S
 The Path~
 adventure[world]:3066/main
 ~
-30 0 0 0 0 2
+30 3 0 0 0 1
 D0
 adventure[world]:29600/look
 ~
@@ -1259,4 +1264,54 @@ sign~
 adventure[world]:3066/sign
 ~
 S
+#3067
+The Path~
+adventure[world]:3057/main
+~
+30 3 0 0 0 1
+D1
+adventure[world]:3057/look
+~
+~
+0 -1 3057
+D3
+adventure[world]:3068/look
+~
+~
+0 -1 3068
+E
+sign~
+adventure[world]:3067/sign
+~
+S
+#3068
+The Path~
+adventure[world]:3068/main
+~
+30 3 0 0 0 1
+D1
+adventure[world]:3067/look
+~
+~
+0 -1 3067
+D3
+adventure[world]:3069/look
+~
+~
+0 -1 3068
+E
+sign~
+adventure[world]:3068/sign
+~
+S
+#3069
+The Path~
+adventure[world]:3069/main
+~
+30 3 0 0 0 1
+D1
+adventure[world]:3068/look
+~
+~
+0 -1 3068
 $~
