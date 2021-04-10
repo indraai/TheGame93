@@ -115,11 +115,6 @@ The Square~
 adventure[world]:3005/main
 ~
 30 0 0 0 0 1
-D0
-adventure[world]:3001/look
-~
-~
-0 -1 3001
 D1
 adventure[world]:3006/look
 ~
@@ -135,6 +130,11 @@ adventure[world]:3004/look
 ~
 ~
 0 -1 3004
+D4
+adventure[world]:3001/look
+~
+~
+0 -1 3001
 S
 #3006
 The Amaravati Inn~
