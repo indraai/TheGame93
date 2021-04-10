@@ -1027,7 +1027,7 @@ S
 The Path~
 adventure[world]:3055/main
 ~
-30 4 0 0 0 8
+30 8 0 0 0 0
 D1
 adventure[world]:3066/look
 ~
@@ -1047,7 +1047,7 @@ S
 The Path~
 adventure[world]:3056/main
 ~
-30 4 0 0 0 8
+30 8 0 0 0 0
 D1
 adventure[world]:3055/look
 ~
@@ -1067,7 +1067,7 @@ S
 The Path~
 adventure[world]:3057/main
 ~
-30 4 0 0 0 8
+30 8 0 0 0 0
 D1
 adventure[world]:3056/look
 ~
