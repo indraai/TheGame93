@@ -1023,11 +1023,21 @@ The Path~
 adventure[world]:3055/main
 ~
 30 8 0 0 0 0
+D0
+adventure[world]:23400/look
+~
+~
+0 -1 23400
 D1
 adventure[world]:3066/look
 ~
 ~
 0 -1 3066
+D2
+adventure[world]:30100/look
+~
+~
+0 -1 30100
 D3
 adventure[world]:3056/look
 ~
@@ -1043,11 +1053,21 @@ The Path~
 adventure[world]:3056/main
 ~
 30 8 0 0 0 0
+D0
+adventure[world]:55500/look
+~
+~
+0 -1 55500
 D1
 adventure[world]:3055/look
 ~
 ~
 0 -1 3055
+D2
+adventure[world]:3998/look
+~
+~
+0 -1 3998
 D3
 adventure[world]:3057/look
 ~
@@ -1099,21 +1119,11 @@ adventure[world]:3060/look
 ~
 ~
 0 -1 3060
-D1
-adventure[world]:3092/look
-~
-~
-0 -1 3092
 D2
 adventure[world]:3054/look
 ~
 ~
 0 -1 3054
-D3
-adventure[world]:3077/look
-~
-~
-0 -1 3077
 S
 #3060
 The Path~
@@ -1240,15 +1250,20 @@ adventure[world]:3066/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:29600/look
+adventure[world]:18600/look
 ~
 ~
-0 -1 29600
+0 -1 18600
 D1
 adventure[world]:3061/look
 ~
 ~
 0 -1 3061
+D2
+adventure[world]:2800/look
+~
+~
+0 -1 2800
 D3
 adventure[world]:3055/look
 ~
@@ -1434,21 +1449,11 @@ The Path~
 adventure[world]:3075/main
 ~
 30 8 0 0 0 0
-D0
-adventure[world]:55500/look
-~
-~
-0 -1 55500
 D1
 adventure[world]:3076/look
 ~
 ~
 0 -1 3076
-D2
-adventure[world]:3998/look
-~
-~
-0 -1 3998
 D3
 adventure[world]:3074/look
 ~
@@ -1464,21 +1469,11 @@ The Path~
 adventure[world]:3076/main
 ~
 30 8 0 0 0 0
-D0
-adventure[world]:23400/look
-~
-~
-0 -1 23400
 D1
 adventure[world]:3077/look
 ~
 ~
 0 -1 3077
-D2
-adventure[world]:30100/look
-~
-~
-0 -1 30100
 D3
 adventure[world]:3075/look
 ~
@@ -1494,21 +1489,11 @@ The Path~
 adventure[world]:3077/main
 ~
 30 8 0 0 0 0
-D0
-adventure[world]:18600/look
-~
-~
-0 -1 18600
 D1
-adventure[world]:3059/look
+adventure[world]:3092/look
 ~
 ~
-0 -1 3059
-D2
-adventure[world]:2800/look
-~
-~
-0 -1 2800
+0 -1 3092
 D3
 adventure[world]:3076/look
 ~
@@ -1810,10 +1795,10 @@ adventure[world]:3091/look
 ~
 0 -1 3091
 D3
-adventure[world]:3059/look
+adventure[world]:3077/look
 ~
 ~
-0 -1 3059
+0 -1 3077
 E
 sign~
 adventure[world]:3092/sign
