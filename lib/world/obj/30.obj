@@ -145,9 +145,9 @@ A dagger with a long thin blade is here.~
 0 1 4 11
 1 10 10 0 0
 #3021
-tsl1-ims~
+tsl1-ims immobilizer~
 TSL1-IMS Immobilizer (S)~
-adventure[object]:3021/describe~
+A TSL1-IMG Immobilizer (S) is here.~
 ~
 5 e 0 0 0 an 0 0 0 0 0 0 0
 0 1 6 11
@@ -157,49 +157,49 @@ inscription~
 adventure[object]:3021/inscription
 ~
 E
-tsl1-im-s~
+tsl1-ims immobilizer~
 adventure[object]:3021/extra
 ~
 #3022
-tsl1-im-l~
-TSL1-IM-L Immobilizer (L)~
-adventure[object]3022/describe~
+tsl1-iml immobilizer~
+A TSL1-IML Immobilizer (L) is here.~
+A TSL1-IML~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 8 3
 8 600 10 0 0
 E
-tsl1-im-l~
+tsl1-iml immobilizer~
 adventure[object]:3022/extra
 ~
 #3023
-tsl1-cl~
+tsl1-cl club~
 TSL1-CL Club~
-adventure[object]:3023/describe~
+A TSL1-CL Club is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 3 7
 3 12 10 0 0
 E
-tsl1-cl~
+tsl1-cl club~
 adventure[object]:3023/extra
 ~
 #3024
-tsl1-wh~
+tsl1-wh warhammer~
 TSL1-WH Warhammer~
-adventure[object]:3024/describe~
+A TSL1-WH Warhammer is here~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 5 7
 6 50 10 0 0
 E
-tsl1-wh~
+tsl1-wh warhammer~
 adventure[object]:3024/extra
 ~
 #3025
-tsl1-fl~
+tsl1-fl flail~
 TSL1-FL Flail~
-adventure[object]3025/describe~
+A TSL1-FL Flail is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 2 4 7
@@ -209,33 +209,33 @@ tsl1-fl~
 adventure[object]:3025/extra
 ~
 #3030
-torch~
-a torch~
-A large torch.~
+tsl1-led-t torch~
+TSL1-LED-T Torch~
+A TSL1-LED-T Torch is here~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 24 0
 1 10 10 0 0
 #3031
-lantern brass~
-a lantern~
-A brass lantern is here.~
+tsl1-led-l~
+TSL1-LED-L Lantern~
+A TSL1-LED-L Lantern is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 96 0
 1 50 10 0 0
 #3032
-bag~
-a bag~
-A small bag is here.~
+tsl1-ba bag~
+TSL1-BA Bag~
+A TSL1-BA Bag is here.~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 50 0 0 0
 2 20 10 0 0
 #3033
-box~
-a box~
-A small box is here.~
+tsl1-bo box~
+TSL1-BO Box~
+A TSL1-BO Box is here.~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 10 0 0 0
@@ -290,7 +290,7 @@ Please report any strange occurrences to the bank manager.
 #3037
 tsl1-led~
 TSL1-LED (S)~
-adventure[object]:3037/describe~
+A TSL1-LED (S) light is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
@@ -324,9 +324,9 @@ pot~
    It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
-tsl1-cp~
+tsl1-cp chestplate~
 TSL1-CP Chest Plate~
-adventure[object]:3040/describe~
+A TSL1-CP Chest Plate is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 7 0 0 0
@@ -336,17 +336,17 @@ tsl1-cp~
 adventure[object]:3040/extra
 ~
 #3041
-tsl1 tsl1-shirt shirt tackle suit~
-TSL1-SHIRT~
-A Level 1 Tackle Suit Shirt is lying on the ground.~
+tsl1-sh shirt~
+TSL1-SH Shirt~
+A TSL1-SH Shirt is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 5 0 0 0
 50 250 5 0 0
 #3042
-tsl1-sd~
-TSL1-SD Shield~
-adventure[object]:3042/describe~
+tsl1-sh shield~
+TSL1-SH Shield~
+A TSL1-SH Shield is here.~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
 2 0 0 0
@@ -356,17 +356,17 @@ tsl1-sd~
 adventure[object]:3041/extra
 ~
 #3043
-tsl1 tsl1-jacket tackle suit jacket~
-TSL1-Jacket~
-A Level 1 Tackle Suit Jacket lying on the ground.~
+tsl1 tsl1-ja jacket~
+TSL1-JA Jacket~
+The TSL1-JA Jacket is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
 10 200 10 0 0
 #3044
-tsl1 tsl1-jacketx tackle suit jacket~
-TSL1-JACKET-X~
-A Level 1 X Model Tackle Suit Jacket~
+tsl1-jax jacket~
+TSL1-JAX~
+The TSL1-JAX Jacket-X is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
@@ -448,15 +448,15 @@ at the base of the wand.  It looks like this:
      / \
 ~
 #3054
-tsl1 tsl1-staff staff~
-TSL1-STAFF~
-A gnarled staff has carelessly been left here.~
+tsl1-staff staff~
+TSL1-ST Staff~
+The TSL1-ST Staff is here.~
 ~
 4 g 0 0 0 ao 0 0 0 0 0 0 0
 12 1 1 38
 17 700 50 0 0
 E
-staff gnarled~
+tsl1-staff staff~
    The staff is made of old oak, and is around five feet long. It fits
 perfectly into your hand. You notice a small symbol etched at the
 base of the staff, it looks like:
@@ -515,7 +515,7 @@ A pair of bronze gauntlets is lying on the ground.~
 #3071
 tsl1-gl~
 TSL1-GL Gloves (2)~
-adventure[object]:3071/describe~
+The TSL1-GL Gloves are here.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 3 0 0 0
@@ -533,41 +533,41 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-tsl1-he~
+tsl1-he helment~
 TSL1-HE Helmet~
-adventure[object]:3076/describe~
+The TSL1-HE Helmet is here.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
 3 150 10 0 0
 E
-tsl1-he~
+tsl1-he helmet~
 adventure[object]:3076/extra
 ~
 #3080
-tsl1 tsl1-sg shin guards~
+tsl1 tsl1-sg shinguards~
 TSL1-SG Shin Guards (2)~
-A pair of Level 1 Tackle Suit Shin Guards tackle suit shin guards is lying on the ground.~
+The TSL1-SG Shin Guards are here.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 6 0 0 0
 8 350 10 0 0
 #3081
-tsl1-pa~
+tsl1-pa pants~
 TSL1-PA Pants~
-adventure[object]:3081/describe~
+The TSL1-PA Pants are here.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 3 0 0 0
 8 150 10 0 0
 E
-tsl1-pa~
+tsl1-pa pants~
 adventure[object]:3081/extra
 ~
 #3082
-tsl1-ng~
+tsl1-ng neckguard~
 TSL1-NG Neck Guard~
-adventure[object]:3082/describe~
+The TSL1-NG Neck Guard is here.~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
@@ -577,9 +577,9 @@ tsl1-ng~
 adventure[object]:3082/extra
 ~
 #3083
-tsl1-rg~
+tsl1-rg ring~
 TSL1-RG Ring~
-adventure[object]:3083/describe~
+The TSL1-RG Ring is here.~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
 1 0 0 0
@@ -589,9 +589,9 @@ tsl1-rg~
 adventure[object]:3083/extra
 ~
 #3084
-tsl1-bb~
+tsl1-bb boots~
 TSL1-BB Booster Boots (2)~
-adventure[object]:3084/describe~
+The TSL1-BB Booster Boots are here.~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
 4 0 0 0
@@ -601,53 +601,53 @@ tsl1-bb~
 adventure[object]:3084/extra
 ~
 #3085
-tsl1-sl-b~
-TSL1-SL-B  Bronze Sleeves~
-adventure:3085/describe~
+tsl1-sl-b sleeves~
+TSL1-SL-B  Bronze Sleeves (2)~
+The TSL1-SL-B Bronze Sleeves are here.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 6 0 0 0
 8 175 10 0 0
 E
-tsl1-sl-b~
+tsl1-sl-b sleeves~
 adventure[object]:3085/extra
 ~
 #3086
-tsl1-sl~
+tsl1-sl sleeves~
 TSL1-SL Sleeves (2)~
-adventure[object]:3086/describe~
+The TSL1-SL are here.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
 4 75 10 0 0
 E
-tsl1-sl~
+tsl1-sl sleeves~
 adventure[object]:3086/extra
 ~
 #3087
-tsl1-ca~
+tsl1-ca cape~
 TSL1-CA Cape~
-adventure[object]:3087/describe~
+The TSL1-CA Cape is here.~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 4 100 0 0 0
 E
-tsl1-ca~
+tsl1-ca cape~
 adventure[object]:3087/extra
 ~
 A
 1 1
 #3088
-tsl1 tsl1-ub tackle suit utility belt~
+tsl1-ub belt~
 TSL1-UB Utility Belt~
-A Level 1 Tackle Suit Utility Belt was left here.~
+The TSL1-UB Utility Belt is here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
 2 0 0 0
 1 30 0 0 0
 E
-tsl1 tackle suit utility belt~
+tsl1-ub belt~
 It looks very, very hi tech.
 ~
 A
@@ -655,15 +655,15 @@ A
 A
 1 1
 #3089
-tsl1 tsl1-wg tsl1-wristguard tackle suit wristguard~
-TSL1-WristGuard~
-A Level 1 Tackle Suit Wristguard lies in the dirt.~
+tsl1-wg wristguard~
+TSL1-WG WristGuard~
+The TSL1-WG Wrist Guard is here.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 1 0 0 0
 3 30 0 0 0
 E
-tsl1 tsl1-wg tsl1-wristguard wrist guard~
+tsl1-wg wristguard~
 The Level 1 Tackle Suit Wristguard is extremely flexible and supportive.
 It is designed to loosen and tighten to almost any size.
 ~
