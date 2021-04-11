@@ -358,7 +358,7 @@ adventure[object]:3041/extra
 #3043
 tsl1 tsl1-ja jacket~
 TSL1-JA Jacket~
-The TSL1-JA Jacket is here.~
+A TSL1-JA Jacket is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
@@ -366,7 +366,7 @@ The TSL1-JA Jacket is here.~
 #3044
 tsl1-jax jacket~
 TSL1-JAX~
-The TSL1-JAX Jacket-X is here.~
+A TSL1-JAX Jacket-X is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
@@ -450,7 +450,7 @@ at the base of the wand.  It looks like this:
 #3054
 tsl1-staff staff~
 TSL1-ST Staff~
-The TSL1-ST Staff is here.~
+A TSL1-ST Staff is here.~
 ~
 4 g 0 0 0 ao 0 0 0 0 0 0 0
 12 1 1 38
@@ -515,7 +515,7 @@ A pair of bronze gauntlets is lying on the ground.~
 #3071
 tsl1-gl~
 TSL1-GL Gloves (2)~
-The TSL1-GL Gloves are here.~
+A pair of TSL1-GL Gloves are here.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 3 0 0 0
@@ -535,7 +535,7 @@ A bronze helmet is lying on the ground.~
 #3076
 tsl1-he helment~
 TSL1-HE Helmet~
-The TSL1-HE Helmet is here.~
+A TSL1-HE Helmet is here.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
@@ -547,7 +547,7 @@ adventure[object]:3076/extra
 #3080
 tsl1 tsl1-sg shinguards~
 TSL1-SG Shin Guards (2)~
-The TSL1-SG Shin Guards are here.~
+A pair of TSL1-SG Shin Guards are here.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 6 0 0 0
@@ -555,7 +555,7 @@ The TSL1-SG Shin Guards are here.~
 #3081
 tsl1-pa pants~
 TSL1-PA Pants~
-The TSL1-PA Pants are here.~
+A pair of TSL1-PA Pants are here.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 3 0 0 0
@@ -567,7 +567,7 @@ adventure[object]:3081/extra
 #3082
 tsl1-ng neckguard~
 TSL1-NG Neck Guard~
-The TSL1-NG Neck Guard is here.~
+A TSL1-NG Neck Guard is here.~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
@@ -579,7 +579,7 @@ adventure[object]:3082/extra
 #3083
 tsl1-rg ring~
 TSL1-RG Ring~
-The TSL1-RG Ring is here.~
+A TSL1-RG Ring is here.~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
 1 0 0 0
@@ -591,7 +591,7 @@ adventure[object]:3083/extra
 #3084
 tsl1-bb boots~
 TSL1-BB Booster Boots (2)~
-The TSL1-BB Booster Boots are here.~
+A pair of TSL1-BB Booster Boots are here.~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
 4 0 0 0
@@ -603,7 +603,7 @@ adventure[object]:3084/extra
 #3085
 tsl1-sl-b sleeves~
 TSL1-SL-B  Bronze Sleeves (2)~
-The TSL1-SL-B Bronze Sleeves are here.~
+A pair of TSL1-SL-B Bronze Sleeves are here.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 6 0 0 0
@@ -615,7 +615,7 @@ adventure[object]:3085/extra
 #3086
 tsl1-sl sleeves~
 TSL1-SL Sleeves (2)~
-The TSL1-SL are here.~
+A pair of TSL1-SL are here.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
@@ -627,7 +627,7 @@ adventure[object]:3086/extra
 #3087
 tsl1-ca cape~
 TSL1-CA Cape~
-The TSL1-CA Cape is here.~
+A TSL1-CA Cape is here.~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
@@ -641,7 +641,7 @@ A
 #3088
 tsl1-ub belt~
 TSL1-UB Utility Belt~
-The TSL1-UB Utility Belt is here.~
+A TSL1-UB Utility Belt is here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
 2 0 0 0
@@ -657,7 +657,7 @@ A
 #3089
 tsl1-wg wristguard~
 TSL1-WG WristGuard~
-The TSL1-WG Wrist Guard is here.~
+A TSL1-WG Wrist Guard is here.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 1 0 0 0
