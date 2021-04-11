@@ -172,7 +172,7 @@ There is a shimmering light to the east.
 1 0 55503
 S
 #55509
-Condemned House~
+The House~
    This place is wrecked, the rafters have fallen, and light shines through a
 large hole in the roof.  You wonder what kinds of animals have taken home here.
 ~
@@ -183,7 +183,7 @@ D2
 0 0 55510
 S
 #55510
-Condemned House~
+The House~
    As you walk into the house, you realize that this house must not have been
 reconstructed yet from the ruin of Old Magincia.  Faint intimations of foolish
 pride still can be seen through the wreckage.
@@ -197,6 +197,11 @@ D1
 ~
 door e east~
 1 0 55505
+D5
+adventure[world]:3065/look
+~
+~
+0 -1 3065
 S
 #55511
 Attic~
