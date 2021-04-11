@@ -1022,7 +1022,7 @@ S
 The Path~
 adventure[world]:3055/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:23400/look
 ~
@@ -1052,7 +1052,7 @@ S
 The Path~
 adventure[world]:3056/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:55500/look
 ~
@@ -1082,7 +1082,7 @@ S
 The Path~
 adventure[world]:3057/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:5100/look
 ~
@@ -1123,7 +1123,7 @@ S
 The Path~
 adventure[world]:3059/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3060/look
 ~
@@ -1139,7 +1139,7 @@ S
 The Path~
 adventure[world]:3060/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3061/look
 ~
@@ -1164,7 +1164,7 @@ S
 The Path~
 adventure[world]:3061/main
 ~
-30 8200 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3065/look
 ~
@@ -1278,7 +1278,7 @@ S
 The Path~
 adventure[world]:3067/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3057/look
 ~
@@ -1298,7 +1298,7 @@ S
 The Path~
 adventure[world]:3068/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3067/look
 ~
@@ -1318,7 +1318,7 @@ S
 The Path~
 adventure[world]:3069/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3068/look
 ~
@@ -1338,7 +1338,7 @@ S
 The Path~
 adventure[world]:3070/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3069/look
 ~
@@ -1358,7 +1358,7 @@ S
 The Path~
 adventure[world]:3071/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3070/look
 ~
@@ -1378,7 +1378,7 @@ S
 The Path~
 adventure[world]:3072/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3073/look
 ~
@@ -1398,7 +1398,7 @@ S
 The Path~
 adventure[world]:3073/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3074/look
 ~
@@ -1418,7 +1418,7 @@ S
 The Path~
 adventure[world]:3074/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3075/look
 ~
@@ -1438,7 +1438,7 @@ S
 The Path~
 adventure[world]:3075/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3076/look
 ~
@@ -1458,7 +1458,7 @@ S
 The Path~
 adventure[world]:3076/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D2
 adventure[world]:3077/look
 ~
@@ -1478,7 +1478,7 @@ S
 The Path~
 adventure[world]:3077/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3076/look
 ~
@@ -1498,7 +1498,7 @@ S
 The Path~
 adventure[world]:3078/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3079/look
 ~
@@ -1518,7 +1518,7 @@ S
 The Path~
 adventure[world]:3079/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3080/look
 ~
@@ -1538,7 +1538,7 @@ S
 The Path~
 adventure[world]:3080/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3081/look
 ~
@@ -1558,7 +1558,7 @@ S
 The Path~
 adventure[world]:3081/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3082/look
 ~
@@ -1578,7 +1578,7 @@ S
 The Path~
 adventure[world]:3082/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3083/look
 ~
@@ -1598,7 +1598,7 @@ S
 The Path~
 adventure[world]:3083/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3084/look
 ~
@@ -1618,7 +1618,7 @@ S
 The Path~
 adventure[world]:3084/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D2
 adventure[world]:3085/look
 ~
@@ -1638,7 +1638,7 @@ S
 The Path~
 adventure[world]:3085/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3084/look
 ~
@@ -1658,7 +1658,7 @@ S
 The Path~
 adventure[world]:3086/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3085/look
 ~
@@ -1678,7 +1678,7 @@ S
 The Path~
 adventure[world]:3087/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3086/look
 ~
@@ -1698,7 +1698,7 @@ S
 The Path~
 adventure[world]:3088/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3087/look
 ~
@@ -1718,7 +1718,7 @@ S
 The Path~
 adventure[world]:3089/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3088/look
 ~
@@ -1738,7 +1738,7 @@ S
 The Path~
 adventure[world]:3090/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3089/look
 ~
@@ -1758,7 +1758,7 @@ S
 The Path~
 adventure[world]:3091/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D1
 adventure[world]:3090/look
 ~
@@ -1778,7 +1778,7 @@ S
 The Path~
 adventure[world]:3092/main
 ~
-30 8 0 0 0 0
+30 240 0 0 0 0
 D0
 adventure[world]:3091/look
 ~
