@@ -19,7 +19,7 @@ adventure[world]:23400/extra
 ~
 S
 #23401
-The Basics~
+Basics~
 adventure[world]:23401/main
 ~
 234 152 0 0 0 0
@@ -35,7 +35,7 @@ adventure[world]:23400/look
 0 0 23400
 S
 #23402
-Looking Around~
+Look~
 adventure[world]:23402/main
 ~
 234 152 0 0 0 0
@@ -80,7 +80,7 @@ adventure[world]:23403/curtain
 ~
 S
 #23404
-Seeing Colors~
+Colors~
 adventure[world]:23404/main
 ~
 234 152 0 0 0 0
@@ -133,7 +133,7 @@ adventure[world]:23405/look
 0 0 23405
 S
 #23407
-Auto Toggles~
+Toggles~
 adventure[world]:23407/main
 ~
 234 152 0 0 0 0
@@ -155,7 +155,7 @@ adventure[world]:23406/look
 0 0 23406
 S
 #23409
-Sleeping Resting~
+Sleep~
 adventure[world]:23409/main
 ~
 234 152 0 0 0 0
@@ -171,7 +171,7 @@ adventure[world]:23410/look
 0 0 23410
 S
 #23410
-Scanning~
+Scan~
 adventure[world]:23410/main
 ~
 234 152 0 0 0 0
@@ -224,7 +224,7 @@ adventure[world]:23411/look
 0 0 23411
 S
 #23413
-Spells~
+Cast~
 adventure[world]:23413/main
 ~
 234 8 0 0 0 0
@@ -235,7 +235,7 @@ adventure[world]:23411/look
 0 0 23411
 S
 #23414
-Emotes~
+Emote~
 adventure[world]:23414/main
 ~
 234 152 0 0 0 0
@@ -251,7 +251,7 @@ adventure[world]:23415/look
 0 0 23415
 S
 #23415
-Date Time~
+Time~
 adventure[world]:23415/main
 ~
 234 152 0 0 0 0
@@ -277,7 +277,7 @@ adventure[world]:23418/look
 0 0 23418
 S
 #23416
-Offerings~
+Donate~
 adventure[world]:23416/main
 ~
 234 152 0 0 0 0
@@ -288,7 +288,7 @@ aventure[world]:23415/look
 0 0 23415
 S
 #23417
-Auctions~
+Auction~
 adventure[world]:23417/main
 ~
 234 152 0 0 0 0
@@ -299,7 +299,7 @@ adventure[world]:23415/look
 0 0 23415
 S
 #23418
-Bulletin Boards~
+Boards~
 adventure[world]:23418/main
 ~
 234 152 0 0 0 0
@@ -315,7 +315,7 @@ adventure[world]:23419/look
 0 0 23419
 S
 #23419
-ConsiderSchool~
+Consider~
 adventure[world]:23419/main
 ~
 234 152 0 0 0 0
@@ -345,41 +345,33 @@ D2
 0 0 23419
 S
 #23421
-Newbie School~
-   @REQ@n lets you see what you have equipped.  To see what you have in your
-Inventory type @Rinv@n.  This will be useful if you want to sell some items.
-The @RScore@n allows you to check your stats, ac, class, money, time you have
-spent in the game and also what you are affected by, such as a strength, bless,
-armor spell.  The short cut for this is @RSC@n.
+Equipment~
+adventure[world]:23421/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23424/look
 ~
 ~
 0 0 23424
 D1
+adventure[world]:23422/look
 ~
 ~
 0 0 23422
 D2
+adventure[world]:23420/look
 ~
 ~
 0 0 23420
 D3
+adventure[world]:23423/look
 ~
 ~
 0 0 23423
 S
 #23422
-Newbie School~
-   You will find a guild somewhere in town, that will have a guildmaster.  If
-you find the guildmaster that supports your class, you will find that he can
-train you.  To see how you can be trained, type @RPractice@n.  This will give
-you a list of skills and/or spells that you can learn.  This will also tell you
-how many practice points you have.  Train as much as you can until you cannot
-train anymore for that Skill/spell, this will make your fail rate decrease.
-You gain Practice Points when you level, but you may not gain skills/spells
-each level.
+Practice~
 ~
 234 152 0 0 0 0
 D3
@@ -388,30 +380,19 @@ D3
 0 0 23421
 S
 #23423
-Newbie Shop~
-   Welcome to the minimart.  To see what the merchant has for sale type
-@RList@n.  To buy an item type @RBuy #1@n.  Or you can use the Item name, if
-there is multiple items with the same name, use the # method.  To buy multiple
-items such as 5 rations of food, you would type @RBuy 5 #2@n.  To sell items in
-your inventory just type @RSell item@n.
+Academy Shop~
+adventure[world]:23423/main
 ~
 234 152 0 0 0 0
 D1
+adventure[world]:23421/look
 ~
 ~
 0 0 23421
 S
 #23424
-Newbie School~
-   In town you will stumble across the Postmaster.  The postmaster will allow
-you to send mail to players that are part of this mud.  It will send it to the
-player if that player is in the game or not.  When that players joins the mud,
-they will receive a personal announcement that they have mail.  To send a
-message, go to the postmaster and type @RMail recipient@n.  If I wanted to send
-mail to Rumble, I would type @RMail Rumble@n.  Just type your massage in, and
-then on a new line type /s to save and send the mail.  To receive mail, go to
-the postmaster and type @RReceive mail@n.  Sending mail will cost you 150 gold.
-
+Mail~
+adventure[world]:23424/main
 ~
 234 152 0 0 0 0
 D0
@@ -424,12 +405,8 @@ D2
 0 0 23421
 S
 #23425
-Newbie School~
-   The last stage of School.  WOO HOO, wait, one more thing to do yet.  Time to
-put your knowledge to the test.  To the east and west are some practice mobs
-for you test your skills and commands.  Going down will send you down into the
-Newbie zone, which was designed for you to hone your skills and make your way
-to the next experience level.  Good Luck!
+Knowledge Test~
+adventure[world]:23425/main
 ~
 234 156 0 0 0 0
 D1
