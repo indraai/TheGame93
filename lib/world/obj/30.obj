@@ -289,7 +289,7 @@ Please report any strange occurrences to the bank manager.
 ~
 #3037
 tsl1-led~
-TSL1-LED (S)~
+TSL1-LED Light (S)~
 A TSL1-LED (S) light is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
@@ -365,7 +365,7 @@ A TSL1-JA Jacket is here.~
 10 200 10 0 0
 #3044
 tsl1-jax jacket~
-TSL1-JAX~
+TSL1-JAX Jacket~
 A TSL1-JAX Jacket-X is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
