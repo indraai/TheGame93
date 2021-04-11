@@ -1,18 +1,18 @@
 #23400
 The Academy~
-adventure[world]:23401/main
+adventure[world]:23400/main
 ~
 234 152 0 0 0 0
-D1
+D4
 adventure[world]:23401/look
 ~
 ~
 0 0 23401
 D2
-adventure[world]:3076/look
+adventure[world]:3055/look
 ~
 ~
-0 -1 3076
+0 -1 3055
 E
 credits info~
 adventure[world]:23400/extra
