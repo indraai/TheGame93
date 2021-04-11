@@ -155,7 +155,7 @@ adventure[world]:23406/look
 0 0 23406
 S
 #23409
-Newbie School~
+Sleeping Resting~
 adventure[world]:23409/main
 ~
 234 152 0 0 0 0
@@ -187,8 +187,8 @@ adventure[world]:23409/look
 0 0 23409
 S
 #23411
-Where ~
-adventure[world]:23411
+Where~
+adventure[world]:23411/main
 ~
 234 152 0 0 0 0
 D0
