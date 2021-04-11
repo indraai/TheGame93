@@ -4,15 +4,15 @@ adventure[world]:2800/main
 ~
 28 60 0 0 0 0
 D0
-adventure[world]:2801/look
-~
-~
-0 0 2801
-D2
 adventure[world]:3077/look
 ~
 ~
 0 -1 3077
+D2
+adventure[world]:2801/look
+~
+~
+0 0 2801
 E
 sign~
 adventure[world]:2800/sign
@@ -23,16 +23,16 @@ S
 adventure[world]:2801/main
 ~
 28 60 0 0 0 0
+D0
+adventure[world]:2800/look
+~
+~
+0 0 2800
 D1
 adventure[world]:2802/look
 ~
 ~
 0 0 2802
-D2
-adventure[world]:2800/look
-~
-~
-0 0 2800
 S
 #2802
 2. Finders Keepers~
