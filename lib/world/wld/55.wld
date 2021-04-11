@@ -1108,13 +1108,16 @@ S
 Thalos City~
    You stand outside the protective walls of the city.  The massive iron
 gate sits to the west and the unknown awaits you eastward.
+----
+
+room:5568
 ~
 55 0 0 0 0 1
 D0
-adventure[world]:3074/look
+adventure[world]:3057/look
 ~
 ~
-0 -1 3074
+0 -1 3057
 D1
 ~
 ~

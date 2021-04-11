@@ -2,7 +2,7 @@
 The School~
 adventure[world]:2800/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D0
 adventure[world]:3066/look
 ~
@@ -22,7 +22,7 @@ S
 1. Finding Your Way~
 adventure[world]:2801/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D0
 adventure[world]:2800/look
 ~
@@ -38,7 +38,7 @@ S
 2. Finders Keepers~
 adventure[world]:2802/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D0
 adventure[world]:/2803/look
 ~
@@ -86,7 +86,7 @@ S
 5. Prepare for Battle~
 adventure[world]:2805/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D1
 adventure[world]:2806/look
 ~
@@ -118,7 +118,7 @@ S
 7. Lunch Break~
 adventure[world]:2807/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D1
 ~
 ~
@@ -132,7 +132,7 @@ S
 8. Why~
 adventure[world]:2808/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D0
 adventure[world]:2809/look
 ~
@@ -180,7 +180,7 @@ S
 10.Shortcuts~
 adventure[world]:2810/main
 ~
-28 60 0 0 0 0
+28 56 0 0 0 0
 D1
 adventure[world]:2811/look
 ~
@@ -196,7 +196,7 @@ S
 11. Movement~
 adventure[world]:2811/main
 ~
-28 0 0 0 0 0
+28 56 0 0 0 0
 D1
 adventure[world]:2811/door
 ~
@@ -212,7 +212,7 @@ S
 12. Communicating~
 adventure[world]:2812/main
 ~
-28 0 0 0 0 0
+28 56 0 0 0 0
 D2
 adventure[world]:2813/look
 ~
@@ -228,7 +228,7 @@ S
 13. Help~
 adventure[world]:2813/main
 ~
-28 0 0 0 0 0
+28 56 0 0 0 0
 D0
 adventure[world]:2812/look
 ~
@@ -244,7 +244,7 @@ S
 14. What NOT to do~
 adventure[world]:2814/main
 ~
-28 0 0 0 0 0
+28 56 0 0 0 0
 D3
 adventure[world]:2815/look
 ~

@@ -2,7 +2,7 @@
 The Zone~
 adventure[world]:18600/main
 ~
-186 4 0 0 0 1
+186 8 0 0 0 1
 D0
 adventure[world]:18601/look
 ~
@@ -150,7 +150,7 @@ S
 The Exit~
 adventure[world]:18608/main
 ~
-186 4 0 0 0 0
+186 8 0 0 0 0
 D1
 adventure[world]:18609/look
 ~
