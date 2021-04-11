@@ -1,0 +1,375 @@
+//eliza.cpp
+
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include "eliza.hpp"
+
+
+void eliza::reducespaces(char *m)
+{
+  int len=strlen(m),space,count=0;
+  for(int x=0;x<len;x++) if(m[x]< 32) m[x]=32;
+}
+
+
+int subst(char start[],char sub1[],char sub2[])
+{
+  int ln1=strlen(sub1),changed=0;
+  char s[MAXSIZE];
+  while((start=strstr(start,sub1))!=NULL)
+    {
+      changed=1;
+      for(int i=0;i<ln1;i++)
+	start[i]=' ';
+      strcpy(s,start);
+      //printf("1'%s'",start);
+      sprintf(start,"%s%s",sub2,s);
+      //printf("2'%s'",start);
+    }
+  return changed;
+}
+
+int fggetword(char*& input,char* outword,char& outother) //0 if done
+{
+  outword[0]=0;
+  char *outword0=outword;
+  int curchar;
+  curchar=input[0];
+
+  while( isalpha(curchar) )
+    {
+      *outword=curchar;
+      outword++;
+      input++;
+      //		printf(",%c;",*input); //debug
+      curchar=*input;
+    }
+  if(*input!= '\0') input++;
+  *outword='\0';
+  outother=curchar;
+  if( curchar == 0 && outword0[0]==0 ) return 0;
+  return 1;
+}
+
+char* substit(char *in)
+{
+  static const char pairs[][10]=
+    {"am","are",
+     "I","you",
+     "mine","yours",
+     "my","your",
+     "me","you",
+     "myself","yourself",
+     //swapped order:
+     "you","I",
+     "yours","mine",
+     "your","my",
+     "yourself","myself",
+     "",""};
+
+  for(int i=0;pairs[i*2][0]!='\0';i++)
+    {
+      if(strcasecmp(in,pairs[i*2])==0)
+	{
+	  return (char*)pairs[i*2+1];
+	}
+    }
+  return in;
+}	
+
+#include <unistd.h>
+
+void fixgrammer(char s[])
+{
+  char newsent[MAXSIZE+20];
+  newsent[0]='\0';
+  
+  char aword[MAXSIZE+3];
+  char* theinput;	
+  theinput=s;
+  char otherch;
+  char ministr[]=" ";	
+
+
+  while( fggetword(theinput,aword,otherch))
+    {
+#ifdef DEBUG
+      printf(">%s'%s' : '%s' , %d\n",newsent,theinput,aword,otherch);
+#endif
+
+      ministr[0]=otherch;
+      strcat(newsent,substit(aword));		
+      strcat(newsent,ministr);
+
+    }
+  strcpy(s,newsent);
+
+}
+
+
+void old_fixgrammer(char s[])
+{
+  int ln=strlen(s);
+  s[ln]=' ';
+  s[ln+1]='\0';
+  //printf("'%s'",s);
+  subst(s," I'll "," I will ");
+  subst(s,"I ",":you: ");
+  subst(s,"are you ","am I ");
+  subst(s,"you ",":I: ");
+  subst(s,":you: am ",":you: are ");
+  subst(s,":I: are "," :I: am ");
+  subst(s," mine "," :yours: ");
+  subst(s," yours "," :mine: ");
+  subst(s," your "," :my: ");
+  subst(s," my "," :your: ");
+  subst(s," you're "," I'm ");
+  subst(s," you'll "," I'll ");
+  subst(s," :yours: "," yours ");
+  subst(s," :mine: "," mine ");
+  subst(s,":I: "," I ");
+  subst(s,":you: "," you ");
+  //puts(s);
+}
+
+
+char* eliza::process(char*message)
+{
+  static char replied[MAXSIZE*2];
+  char *rep=NULL;
+  if(strlen(message)>MAXSIZE) return "You talk too much.";
+  strcpy(replied,"I dont really know much about that, say more.");
+
+  reducespaces(message);
+  thekeys.reset();
+  while(thekeys.curr()!=NULL)
+    {
+      int i=0,rest=0;
+      if(match(thekeys.curr()->key.getlogic(),message,i,rest))
+	{
+	  rep=thekeys.curr()->key.getrndreply();
+	  fixgrammer(&message[rest]);
+	  sprintf(replied,rep,&message[rest]);
+	  reducespaces(replied);
+	  return replied;
+	}
+      thekeys.advance();
+    }
+  return replied;
+}
+void eliza::adds(char ss[])
+{
+  int len=strlen(ss),in=0;
+  char s[MAXSIZE];
+  strcpy(s,ss);
+  for(int i=0;i<len;i++)
+    {
+      if(s[i]=='%')
+	{
+	  ss[in++]='%';
+	  ss[in++]='s';
+	} else
+	  ss[in++]=s[i];
+    }
+  ss[in]=0;
+#ifdef DEBUG
+  //puts(s);
+#endif
+}
+bool eliza::loaddata(char file[])
+{
+  FILE *data;
+  char str[MAXSIZE];
+  if((data=fopen(file,"rt"))==NULL)
+    {
+#ifdef DEBUG
+      puts("File error!");
+#endif
+      return false;
+    }
+  int linecount=0;
+
+  while(fgets(str,MAXSIZE-1,data)!=NULL)
+    {
+      linecount++;
+#ifdef DEBUG
+      puts(str);
+#endif
+      if(strlen(str)>0)
+	{
+	  if(str[0]>='1' && str[0]<='9')
+	    {
+	      adds(str);
+	      thekeys.curr()->key.addreply(str[0]-'0',&(str[1]));
+#ifdef DEBUG
+	      //puts("reply found");
+#endif
+	    } else switch(str[0])
+	      {
+	      case '(':
+		thekeys.addkey();
+		thekeys.curr()->key.addlogic(str);
+#ifdef DEBUG
+		//puts("logic found");
+#endif
+		break;
+	      case '#':
+#ifdef DEBUG
+		puts("rem");
+#endif
+		break;
+	      case '"':
+		fputs(&str[1],stderr);
+		break;
+	      case '\'':
+		fputs(&str[1],stdout);
+		break;
+	      }
+	}
+    }
+  //fprintf(stderr,"%d lines read from data file\n",linecount); 
+  fclose(data);
+  return true;
+}
+char* eliza::trim(char str[])
+{
+  int i,a,ln=strlen(str);
+  for(;(ln>0) && (str[ln-1]==' ');ln--);
+  str[ln]=0;
+  for(i=0;(i<ln) && (str[i]==' ');i++);
+  if(i>0)
+    for(ln-=i,a=0;a<=ln;a++)
+      str[a]=str[a+i];
+#ifdef DEBUG
+  //printf("'%s'\n",str);
+#endif
+  return str;
+}
+
+
+
+
+int eliza::doop(char op,int a,int b)
+{
+  switch(op)
+    {
+    case '\0':
+    case '&': return a && b;
+	    case '|': return a || b;
+	    case '~': return a && !b;
+	    default:
+#ifdef DEBUG
+	      printf("Errored Op! %c\n",op);
+#endif
+	      return 0;
+	    }
+}
+
+int eliza::lowcase(char ch)
+{
+  if(ch>='A' && ch<='Z') return ch+32;
+  return ch;
+}
+
+int eliza::strpos(char *s,char *sub)
+{
+  int i,a,lns=strlen(s),lnsub=strlen(sub),run,space=1;
+  if(sub[0]=='=') {// = exact equality operator    
+      return strcasecmp(&sub[1],s) ? 0 : lns;
+  }
+  if(sub[0]=='^'){  // match start operator    
+      return strncasecmp(&sub[1],s,lnsub-1) ? 0 : lns;
+  }
+  if(lnsub>lns) return 0;
+
+  run=lns-lnsub;
+  for(i=0;i<=run;i++)
+    {
+      if(space)
+	{
+	  for(a=0;a<lnsub && (lowcase(s[i+a])==sub[a]);a++);
+#ifdef DEBUG
+	  //printf("hey %d r:%d",a,i+a);
+#endif
+	  if(a==lnsub) return (i+a);
+	}
+      space=s[i]==' ';
+    }
+
+  return 0;
+}
+
+#define encounterop                  \
+trim(ph);                    \
+if(strlen(ph))               \
+{                            \
+			       a=strpos(m,ph);      \
+				 if(a>0) rest=a;      \
+				   res=doop(op,res,a);  \
+				   }                            \
+				   len=ph[0]=0;                 
+
+
+
+int eliza::match(char s[],char m[],int& in,int& rest)
+{
+  int l=strlen(s),res=1,op='\0',a;
+  char ph[MAXSIZE];
+  int len=0;
+  ph[0]=0;
+#ifdef DEBUG
+  //puts(s);
+  //puts(m);
+#endif
+  while(s[in]!='(') in++;
+  in++;
+  for(;in<l;in++)
+    {
+      switch(s[in])
+	{
+	case '(':
+#ifdef DEBUG
+	  //printf("in %d into...\n",in);
+#endif
+	  a=match(s,m,in,rest);
+	  if(op=='\0') res=a;
+	  else
+	    res=doop(op,res,a);
+	  break;
+	case '&':
+	  encounterop
+	    op='&';
+	  break;
+	case '|':
+	  encounterop
+	    op='|';
+	  break;
+	case '~':
+	  encounterop
+	    op='~';
+	  break;
+	case ')':
+#ifdef DEBUG
+	  //printf("p:'%s'\n",ph);
+#endif
+	  trim(ph);
+	  if(strlen(ph))
+	    {
+	      a=strpos(m,ph);
+	      if(a>0) rest=a;
+	      return doop(op,res,a);
+	    } else return res;
+
+	  break;
+	default:
+	  ph[len++]=s[in];
+	  ph[len]='\0';
+	}
+
+    }
+  return res;
+}
+

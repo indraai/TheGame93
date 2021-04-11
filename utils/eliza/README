@@ -1,0 +1,291 @@
+First of all this was made by Chris Busch (current email unknown) read
+mudchat.txt for further credits/licensing details. I only fixed a few small
+bugs in this and added a func to free up the memory used by these modules.
+Furthermore I added the commandlists in the replies....
+
+How to install this on circle:
+
+Take the files from the eliza subdir and add them to your source directory.
+Then add the objects to you Makefile.
+
+In the following lines marked with a '+' need to be added lines thereabout
+provide a bit context I hope.... (don't forget to remove the '+'s tough)
+
+Snip from the stock makefile:
+
+OBJFILES = comm.o act.comm.o act.informative.o act.movement.o act.obj1.o\
+	act.obj2.o act.offensive.o act.other.o act.social.o act.wizard.o\
+	handler.o db.o interpreter.o utility.o spec_assign.o shop.o limits.o\
+	mobact.o fight.o modify.o weather.o spell_parser.o spells1.o\
+	spells2.o constants.o spec_procs.o signals.o objsave.o boards.o\
+	magic.o mail.o castle.o ban.o graph.o config.o\
++	akey.o allkeys.o chatmain.o eliza.o
+
+Add the line marked with the '+' and the '\' on the previous line
+
+Now change the following files:
+
+db.h:
+
+#define CHAT_FILE    "world/chat.data"    /* for eliza chat stuff */
+
+and copy the chat.data from the Original dir to lib/world (or change the
+paths.... anyhows don't forget to adapt the chat.data, it is possible for
+players to cheat with some of the stuff in there.
+
+act.wizard.c:
+
+Somewhere near the external prototypes.....
+
+/* from act.comm.c */
+extern void chatperformtoroom( struct char_data *ch, char *txt );
+
+Then change do_echo/do_emote (whatever applicable) to reflect the following
+changes (I dunno how the latest stock code looks like so beware):
+
+ACMD(do_echo)
+{
+	skip_spaces(&argument);
+
+	if (!*argument)
+		send_to_char("Yes.. but what?\r\n", ch);
+	else
+	{
+		char buf[MAX_STRING_LENGTH];
+
+		if (subcmd == SCMD_EMOTE)
+		{
+			sprintf(buf, "$n %s", argument);
+		}
+		else
+			strcpy(buf, argument);
+
+		act(buf, FALSE, ch, 0, 0, TO_ROOM);
+
+		if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+			send_to_char(OK, ch);
+		else
+			act(buf, FALSE, ch, 0, 0, TO_CHAR);
+
+		if (subcmd == SCMD_EMOTE )		/* do chatperformtoroom after all text of the person
+												 * is printed... else the mobs will reply before
+												 * the thing is said */
+			chatperformtoroom( ch, argument );
+	}
+}
+
+act.comm.c:
+
+somewhere in the begginning:
+
+#include "chatlink.h"
+
+/* local prototypes */
+
+void chatperform( struct char_data *ch, struct char_data *victim, char *msg);
+
+Add to the end of perform_tell/do_tell whatever applicable...
+
+   GET_LAST_TELL(vict) = GET_IDNUM(ch);
++   chatperform( vict, ch, arg );
+
+Add these funcs:
+
+void chatperform( struct char_data *ch, struct char_data *victim, char *msg )
+{
+   char *reply, *s, *t;
+	extern ACMD(do_echo);
+
+	if( !IS_NPC(ch) || ( victim != NULL && IS_NPC(victim)) )
+		return;  /* ignores ch who are PCs and victims who are NPCs */
+
+	reply = dochat( GET_NAME(ch), msg, victim ? GET_NAME(victim) : "you" );
+
+	if(reply)
+	{
+		switch(reply[0])
+		{
+		case '\0': /* null msg */
+			break;
+		case '"' : /* do say */
+			do_say( ch, reply + 1, 0, 0 );
+			break;
+		case ':' : /* do emote */
+			do_echo( ch, reply+1, 0, SCMD_EMOTE );
+			break;
+		case '!' : /* execute command thru interpreter */
+			s = reply + 1;
+
+			/* RK: changed to perform a list of commands seperated by ';' */
+
+			while( *s != '\0' )
+			{
+				t = strchr( s, ';' );
+
+				if( t == NULL )
+				{
+					command_interpreter( ch, s );
+					break;
+				}
+				else
+				{
+					*t = '\0';
+					command_interpreter( ch, s );
+					s = t + 1;
+				}
+			}
+			break;
+		default : /* is a say or tell*/
+			if(victim == NULL )
+				do_say( ch, reply, 0, 0 );
+			else
+			{  /* do a tell  (this is always the case here) */
+				char buf[MAX_STRING_LENGTH];
+				sprintf( buf, "$N tells you, '%s'", reply );
+				act(buf, FALSE, victim, NULL, ch, TO_CHAR );
+				GET_LAST_TELL(victim) = GET_IDNUM(ch);
+			}
+		}
+	}
+}
+
+
+/* ch here is the PC saying the phrase
+ */
+void chatperformtoroom( struct char_data *ch, char *txt )
+{
+	struct char_data *vch;
+
+	if( IS_NPC(ch) )
+		return;        /* we dont want NPCs trigger'ing events */
+
+
+#error "CHOOSE THE RIGHT VERSION OF THE for FOR YOUR MUD HERE...."
+/* BTW don't forget to remove the #error directive when you deleted the
+ * wrong for...... */
+/* with in_room a struct room_data.... * */
+	for( vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room )
+/* with ch->in_room a sh_int..... for some muds (guess it's more stockish): */
+	for( vch = world[ch->in_room].people ; vch != NULL; vch = vch->next_in_room )
+	{
+		/* RK: contained once a check for mobprogs see stuff in Original dir */
+		if ( IS_NPC( vch ) && AWAKE(vch) )
+			chatperform(vch,ch,txt);
+   }
+}
+
+comm.h:
+
+Add to this row:
+
+#define TO_ROOM		1
+#define TO_VICT		2
+#define TO_NOTVICT	3
+#define TO_CHAR		4
+#define TO_SLEEP	128	/* to char, even if sleeping */
+
+The line:
+
+#define CHAT_CHECK 64 /* if chat bots should be checked for this act */
+
+comm.c:
+
+somewhere in the beginning of comm.c:
+
+#include "chatlink.h"
+
+I got a func to free all memory of the mud (when it quits or when parts get
+rebooted) you can add a call to endchat() somewhere there (if you got
+something like it)
+
+If you don't free up the memory you don't have to add endchat
+
+Then a small change to the perform_act function
+
+add the end of it (after the SEND_TO_Q( .... ); ) (before the brace of cors)
+
+return &lbuf[0];
+
+Then some modifications to act itself:
+
+Amidst the declarations of the func behold a declaration of the likes of:
+
+static int sleep;
+
+change this to:
+
+int sleep, chat_check;	/* the static seemed a bit redundant to me */
+
+Then below the if check "if((sleep = ..... ) type &= ~sleep;" add the
+following:
+
+	if ((chat_check = (type & CHAT_CHECK)))
+		type &= ~CHAT_CHECK;
+
+After that one more thingy: the if check for if (type = TO_VICT)
+change it to:
+
+	if (type == TO_VICT)
+ 	{
+ 		if ((to = (struct char_data *) vict_obj) && SENDOK(to))
+		{
+			char *text = perform_act(str, ch, obj, vict_obj, to);
+			if( chat_check )
+				chatperform( to, ch, text );
+		}
+ 		return;
+ 	}
+
+db.c:
+
+somewhere in the top part:
+
+#include "chatlink.h"
+
+somewhere in boot_db:
+   boot_social_messages();
+
++   log("Loading chat data.");
++   startchat(CHAT_FILE);
+
+	log("Assigning function pointers:");
+
+act.social.c:
+
+To make the npc's react to standard socials....
+
+At the end of the function do_action: (lines with a '-' in front of them
+are the old ones, the lines with the '+' in front of them are the new ones
+don't forget to remove the '+' when you paste them in)
+
+-			act(action->char_found, 0, ch, 0, vict, TO_CHAR | TO_SLEEP);
+-			act(action->others_found, action->hide, ch, 0, vict, TO_NOTVICT);
+-			act(action->vict_found, action->hide, ch, 0, vict, TO_VICT);
++			act(action->char_found, 0, ch, 0, vict, TO_CHAR | TO_SLEEP);	/* to performer */
++			act(action->others_found, action->hide, ch, 0, vict, TO_NOTVICT);	/* to bystanders */
++			act(action->vict_found, action->hide, ch, 0, vict, TO_VICT | CHAT_CHECK);	/* to victim */
+
+You can also add the | CHAT_CHECK to the TO_NOTVICT act then all bystanding
+mobs would respond too.... (bit overkill tough)
+
+Well that was the code part. 
+
+Example of a reply from the chat.data with multiple commands:
+
+(please murder)
+9Do it yourself you moron!
+2How much gold will you give me?
+1!mpforce $r say I heard that! Take this!;mpforce $r mpkill $t
+	
+It says react to string containg 'please murder' the last response with weight one
+forces the subject of the murder request to kill the performer of the request...
+
+Well I hope this is of use to you all....
+
+Don't forget to read the mudchat.txt of Chris Busch.... (and the other docu of
+mudchat you'll need that)																			
+
+If you want to contact me send mail to j.klaren@student.utwente.nl
+
+Grtnx GrimReaper of Realms Of Frustration (130.89.230.13 4000)
+		 

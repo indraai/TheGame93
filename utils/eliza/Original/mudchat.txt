@@ -1,0 +1,47 @@
+MUD Chat 
+Copyright (c)1996 by Chris Busch
+All Rights Reserved.
+
+You may use this code as you wish as long as if you give me credit where
+credit is due.
+
+It is now the start of summer 1996 and this code was worked on in the end
+of the summer of 1995.  So much time has pasted so my memory is a little
+foggy.  However, this code does work perfectly for MERC muds and the code
+could be easily incorporated into other muds.
+
+My email address will change soon.  My current one is cbusch@d.umn.edu, I
+dont know what will be my new email address.
+
+My snail mail address is:
+Chris Busch
+1132 Woodland Trail
+Northfield, MN 55057
+
+If you have any questions on how to install this into your mud, please
+mail me.
+
+The 'chat' directory should be placed beneath the MERC src directory.
+
+
+The Chat engine code is in C++ and many muds are written in C, and this is
+the case with MERC.  However, with the GNU compilers that I have used, you
+can link the two types of .o files together.  You just need a .h file to
+explain to C what entry points to use to access C++ functions.  Please see
+the MERC example makefile that I have included here.
+
+cbusch_add_to* files explain how to modify the merc source files.  The
+chat.data file needs to be accessable from the 'area' directory.  To do so
+just make a soft link ("ln" command) to chat.data.
+
+One last thing.  If you use this code for you mud can you please tell me
+about it! Also if you could set up a player on it for me.  I would like to
+see it. 
+
+Good luck!
+
+
+
+
+
+

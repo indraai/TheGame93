@@ -7,13 +7,15 @@ everywhere: discarded drink containers, cigarette packs and the like.
 Ahead is a largish building that seems to block out the sun nearby:
 a big, squat, dark brown building that exudes lifelessness.  You see
 several people going in and out its doors, shoulders slumped in defeat.
+
+room:29600
 ~
 296 4 0 0 0 1
 D0
 ~
 ~
 0 -1 29601
-D1
+D2
 adventure[world]:3066/look
 ~
 ~
