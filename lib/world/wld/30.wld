@@ -1083,11 +1083,21 @@ The Path~
 adventure[world]:3057/main
 ~
 30 8 0 0 0 0
+D0
+adventure[world]:5100/look
+~
+~
+0 -1 5100
 D1
 adventure[world]:3056/look
 ~
 ~
 0 -1 3056
+D2
+adventure[world]:5568/look
+~
+~
+0 -1 5568
 D3
 adventure[world]:3067/look
 ~
@@ -1419,21 +1429,11 @@ The Path~
 adventure[world]:3074/main
 ~
 30 8 0 0 0 0
-D0
-adventure[world]:5100/look
-~
-~
-0 -1 5100
 D1
 adventure[world]:3075/look
 ~
 ~
 0 -1 3075
-D2
-adventure[world]:5568/look
-~
-~
-0 -1 5568
 D3
 adventure[world]:3073/look
 ~
@@ -1469,7 +1469,7 @@ The Path~
 adventure[world]:3076/main
 ~
 30 8 0 0 0 0
-D1
+D2
 adventure[world]:3077/look
 ~
 ~
@@ -1489,16 +1489,16 @@ The Path~
 adventure[world]:3077/main
 ~
 30 8 0 0 0 0
+D0
+adventure[world]:3076/look
+~
+~
+0 -1 3076
 D1
 adventure[world]:3092/look
 ~
 ~
 0 -1 3092
-D3
-adventure[world]:3076/look
-~
-~
-0 -1 3076
 E
 sign~
 adventure[world]:3077/sign
@@ -1789,7 +1789,7 @@ The Path~
 adventure[world]:3092/main
 ~
 30 8 0 0 0 0
-D1
+D0
 adventure[world]:3091/look
 ~
 ~
