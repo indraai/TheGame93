@@ -1,5 +1,5 @@
 #2800
-School~
+The School~
 adventure[world]:2800/main
 ~
 28 60 0 0 0 0
@@ -8,20 +8,15 @@ adventure[world]:2801/look
 ~
 ~
 0 0 2801
-D1
-adventure[world]:2800/portal
-~
-portal~
-0 0 -1
-E
-credits info~
-adventure[world]:2800/credits
-~
 D3
-adventure[world]:3059/look
+adventure[world]:3077/look
 ~
 ~
-0 -1 3059
+0 -1 3077
+E
+sign~
+adventure[world]:2800/sign
+~
 S
 #2801
 1. Finding Your Way~

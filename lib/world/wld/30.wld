@@ -999,11 +999,6 @@ adventure[world]:3059/look
 ~
 ~
 0 -1 3059
-D1
-adventure[world]:18600/look
-~
-~
-0 -1 18600
 D2
 adventure[world]:3001/look
 ~
@@ -1474,11 +1469,21 @@ The Path~
 adventure[world]:3077/main
 ~
 30 8 0 0 0 0
+D0
+adventure[world]:18600/look
+~
+~
+0 -1 18600
 D1
 adventure[world]:3059/look
 ~
 ~
 0 -1 3059
+D2
+adventure[world]:2800/look
+~
+~
+0 -1 2800
 D3
 adventure[world]:3076/look
 ~
