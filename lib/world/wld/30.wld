@@ -1170,11 +1170,6 @@ adventure[world]:3065/look
 ~
 ~
 0 -1 3065
-D1
-adventure[world]:3078/look
-~
-~
-0 -1 3078
 D2
 adventure[world]:3060/look
 ~
@@ -1264,11 +1259,6 @@ adventure[world]:18600/look
 ~
 ~
 0 -1 18600
-D1
-adventure[world]:3061/look
-~
-~
-0 -1 3061
 D2
 adventure[world]:2800/look
 ~
