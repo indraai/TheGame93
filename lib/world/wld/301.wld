@@ -3,16 +3,16 @@ The University~
 adventure[world]:30100/main
 ~
 301 4 0 0 0 1
+D0
+adventure[world]:3076/look
+~
+~
+0 -1 3076
 D1
 adventure[world]:3101/look
 ~
 ~
 0 -1 30101
-D3
-adventure[world]:3061/look
-~
-~
-0 -1 3061
 E
 sign~
 adventure[world]:30100/sign

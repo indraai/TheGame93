@@ -1454,6 +1454,11 @@ adventure[world]:3077/look
 ~
 ~
 0 -1 3077
+D2
+adventure[world]:30100/look
+~
+~
+0 -1 30100
 D3
 adventure[world]:3075/look
 ~
