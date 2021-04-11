@@ -2,7 +2,7 @@
 The University~
 adventure[world]:30100/main
 ~
-301 4 0 0 0 1
+301 0 0 0 0 1
 D0
 adventure[world]:3055/look
 ~
@@ -696,7 +696,7 @@ the left pillar of the gateway.  It is made of nicely polished brass.  Because
 of this, it looks rather important (as all signs go).  The road continues north
 and south from your present location.
 ~
-301 4 0 0 0 1
+301 0 0 0 0 1
 D2
 The Student GHETTO...  Beware!
 ~
@@ -723,7 +723,7 @@ The Ghetto~
 run down, almost into the ground in fact.  You can see many furtive shapes
 moving through the darkness.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D0
 The gateway lies to the north.
 ~
@@ -741,7 +741,7 @@ The Ghetto~
 run down, almost into the ground in fact.  You can see many furtive shapes
 moving through the darkness.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D0
 This is the ghetto, do you really need to know what is north of you?
 ~
@@ -759,7 +759,7 @@ Victoria Hall~
 for this is the high number of already existing dormitories and it was thought
 that this one wouldn't add anything.
 ~
-301 12 0 0 0 0
+301 8 0 0 0 0
 D2
 Campus Crescent lies to the south.
 ~
@@ -874,7 +874,7 @@ is a style combining Neo-Georgian features with all the advantages of modern
 design.  A hallway shrouded in darkness leads off to the west, and the road is
 to the east.
 ~
-301 12 0 0 0 0
+301 8 0 0 0 0
 D1
 University Avenue lies to the east.
 ~
@@ -934,7 +934,7 @@ substantially, there is a Birth Control Center to the east and a De-Tox unit to
 the south.  To the north lies a tempting exit to a cobblestone covered street.
 
 ~
-301 12 0 0 0 0
+301 8 0 0 0 0
 D0
 Back to cobblestones, eh?
 ~
@@ -1506,7 +1506,7 @@ S
 Hallway~
    The hallway leads off west into the locker room, and east into the lobby.
 ~
-301 9 0 0 0 5
+301 8 0 0 0 5
 D1
 The main lobby is east.
 ~
@@ -1637,7 +1637,7 @@ The Hall To The Arena~
    This hall leads to the arena (that is if you are coming from the lobby).
 Otherwise, this hall leads to the lobby (from the arena, that is).
 ~
-301 9 0 0 0 5
+301 8 0 0 0 5
 D1
 That is the direction to the arena.
 ~
@@ -1873,7 +1873,7 @@ Birth Control Center~
 control paraphernalia.  On the table for instance is a stack of pamphlets to be
 handed out to any students who wish to read them.
 ~
-301 12 0 0 0 0
+301 8 0 0 0 0
 D3
 To the west you can see the entrance to the building.
 ~
@@ -1920,7 +1920,7 @@ smells pretty bad, it wouldn't be a bad idea to remember where this is so that
 you can rest here later.  You find it rather difficult to manoeuvre in here
 because of the large number of drunks on the floor.  The only exit is north.
 ~
-301 12 0 0 0 4
+301 8 0 0 0 4
 D0
 Back to the entrance...  out of the bad smells here...
 ~
@@ -1935,7 +1935,7 @@ towards the street whilst the north and west exits are too dark to see the ends
 of.  The stairs on the south side of the room lead up to the second floor and
 whatever might be up there...
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D0
 You can't tell, it's too dark.
 ~
@@ -1973,7 +1973,7 @@ Hallway~
    This hallway is non-descript and has two exits.  The eastern exit seems to
 lead into a large room while the southern exit leads, well, south.
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D1
 There seems to be a large room to the east.
 ~
@@ -1996,7 +1996,7 @@ Auditorium~
 only exit (west).  There are numerous seats arranged like a theater would be.
 There is a large stage at the east end of the room.
 ~
-301 9 0 0 0 3
+301 8 0 0 0 3
 D3
 The hallway you probably entered from is handily located to the west.
 ~
@@ -2027,7 +2027,7 @@ Hallway~
 Unfortunately, you can't see what the exits lead to.  Just before you finish
 looking, you notice a door to the north.
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D0
 This seems to lead to a library.
 ~
@@ -2054,7 +2054,7 @@ The Back Exit~
 way to the west.  If you were to go east, though, you would not have a problem
 as the corridor seems to continue that way.
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D1
 The hallway looks to continue in this direction.
 ~
@@ -2091,7 +2091,7 @@ Upper Lobby~
 south which leads down.  You can't see where the stairwell leads.  For that
 matter you can't see where any of the exits lead.
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D0
 It's too dark to see.
 ~
@@ -2144,7 +2144,7 @@ Hallway~
    This hallway has three conventional exits and a door.  East, south and west
 are conventional whilst the north wall holds a door.
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D0
 This seems to be an office.
 ~
@@ -2197,7 +2197,7 @@ Faculty Office~
 student trying to break in.  A huge desk has been toppled over and now rests
 against a wall.
 ~
-301 9 0 0 0 1
+301 8 0 0 0 1
 D2
 This door leads to the hall.
 ~
@@ -2214,7 +2214,7 @@ Back Path~
 could be at the end of it.  To the north the path continues, to the east, a
 door graces the building next to you.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D0
 The pathway continues.
 ~
@@ -2238,7 +2238,7 @@ S
 A Pathway~
    The path continues north-south.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D0
 The path continues.
 ~
@@ -2259,7 +2259,7 @@ A Pathway~
    The pathway continues north-south.  To the north you can see a tall, thin
 structure sticking up from the ground.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D0
 The pathway continues.
 ~
@@ -2276,7 +2276,7 @@ Approach To The Greasepole~
    The path seems to be taking a direct route to the needle-like structure just
 to the north.  To the south the path continues.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D0
 The path begins to lead to a large pit.
 ~
@@ -2293,7 +2293,7 @@ The Greasepit~
    The tall, needle-like structure stands right in front of you.  There are two
 ways you can go: to the south on the path, or up the greasepole.
 ~
-301 4 0 0 0 4
+301 0 0 0 0 4
 D2
 The path leads off to the south.
 ~
@@ -2315,7 +2315,7 @@ The Greasepole~
    SPLASH!!!  Down the pole you slide...  You arrive at the bottom again...
 As usual the exits are to the south and up.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D2
 The path leads off to the south.  It looks like a good place to go.
 ~
@@ -2335,7 +2335,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole looms ever high above you.
 ~
@@ -2355,7 +2355,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole looms ever high above you.
 ~
@@ -2375,7 +2375,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole looms ever high above you.
 ~
@@ -2395,7 +2395,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole looms ever high above you.
 ~
@@ -2415,7 +2415,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole looms ever high above you.
 ~
@@ -2435,7 +2435,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole looms ever high above you.
 ~
@@ -2455,7 +2455,7 @@ S
 The Greasepole~
    The only exits are up and down.
 ~
-301 4 0 0 0 5
+301 0 0 0 0 5
 D4
 The pole doesn't loom quite so high above you any more.
 ~
