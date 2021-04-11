@@ -1,9 +1,14 @@
 #5100
-The City Entrance~
+Drow City~
    You are at the entrance to a small underground city.  A great adamantite
 gate lies open to the west allowing entrance into the city.
 ~
 51 13 0 0 0 0
+D2
+adventure[world]:3074/look
+~
+~
+0 -1 3074
 D3
 A huge gate opens to the west allowing entrance into the city.
 ~

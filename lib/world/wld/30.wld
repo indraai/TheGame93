@@ -1404,11 +1404,21 @@ The Path~
 adventure[world]:3074/main
 ~
 30 8 0 0 0 0
+D0
+adventure[world]:5100/look
+~
+~
+0 -1 5100
 D1
 adventure[world]:3075/look
 ~
 ~
 0 -1 3075
+D2
+adventure[world]:5568/look
+~
+~
+0 -1 5568
 D3
 adventure[world]:3073/look
 ~

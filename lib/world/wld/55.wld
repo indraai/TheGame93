@@ -1110,6 +1110,11 @@ Outside The Eastern Gate Of New Thalos~
 gate sits to the west and the unknown awaits you eastward.
 ~
 55 0 0 0 0 1
+D0
+adventure[world]:3074/look
+~
+~
+0 -1 3074
 D1
 ~
 ~
