@@ -14,6 +14,7 @@ adventure[world]:3076/look
 ~
 0 -1 3076
 E
+credits info~
 adventure[world]:23400/extra
 ~
 S
@@ -32,40 +33,38 @@ D2
 0 0 23400
 S
 #23402
-Newbie School~
-   Typing @RLOOK@n either in small case, upper case, or mixed will allow you to
-see the Room name and Room Description also any players or Monsters or items.
-You also can just type @RL@n to view the room.  Please continue North or South
-to read more on commands.  After you are done, continue East.
+Looking Around~
+adventure[world]:23402/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23403/look
 ~
 ~
 0 0 23403
 D1
+adventure[world]:23405/look
 ~
 ~
 0 0 23405
 D2
+adventure[world]:23404/look
 ~
 ~
 0 0 23404
 D3
+adventure[world]:23401/look
 ~
 ~
 0 0 23401
 S
 #23403
-Newbie School~
-   Typing @R AUTOEXIT @n will toggle your exits so when you enter a new room or
-type Look, you can see the available exits.  Closed Doors or Gates will not
-display an exit, until you open them.  Read the room descriptions for hints in
-finding hidden exits.  There is a curtain on the north wall swaying slightly as
-if air is flowing in from somewhere.
+Autoexit~
+adventure[world]:23403/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23470/look
 ~
 curtain curtains~
 1 0 23470
@@ -75,133 +74,112 @@ D2
 0 0 23402
 E
 curtain~
-   A beautiful set of curtains is blocking your view to the north.
+adventure[world]:23403/curtain
 ~
 S
 #23404
-Newbie School~
-   @R Color Complete @n will allow you to see colors displayed throughout the
-game, and can help you easily identify certain things like, boards, atms, mobs,
-corpses, you bleeding...  Etc etc.  You can also talk in different colors and
-make your title colorful.  Type @RHELP ANSI@n @nto view how to do this, and to
-get a list of the colors.
+Seeing Colors~
+adventure[world]:23404/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23402/look
 ~
 ~
 0 0 23402
 S
 #23405
-Newbie School~
-   To see who is currently playing in Time Warp type @R WHO.  @n This will give
-you a display of both the Visible immortals and Mortals.  It will also tell you
-the class and race of a player and if they belong to a guild or clan.  It will
-also let you know if a player is currently away from their PC.  Typing @R AFK
-@n will toggle this Display.
+Who~
+adventure[world]:23405/main
 ~
 234 152 0 0 0 0
 D1
+adventure[world]:23406/look
 ~
 ~
 0 0 23406
 D3
+adventure[world]:23402/look
 ~
 ~
 0 0 23402
 S
 #23406
-Newbie School~
-   @RCommands @nwill bring up a list of available commands that you can use.
-This will show game commands, typing @RSocials @nwill show you actions that you
-can use.
+Commands~
+adventure[world]:23406/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23407/look
 ~
 ~
 0 0 23407
 D1
+adventure[world]:23409/look
 ~
 ~
 0 0 23409
 D2
+adventure[world]:23408/look
 ~
 ~
 0 0 23408
 D3
+adventure[world]:23405/look
 ~
 ~
 0 0 23405
 S
 #23407
-Newbie School~
-   AUTO's.  @RAutoSac @nwill allow you to sacarifice corpses of mobs that you
-defeat.  @RAutoLoot @ngives you the ability to take all the items from a corpse
-of a mob you defeat (this will work before the autosac).  @RAutogold @ntakes
-only the gold from the defeated mobs.  Autoloot overrides autogold, so you will
-still take items.  @RAutosplit @nwill split your gold from a defeated mob and
-disperse it to all the people within your group.  All these commands are
-toggles, so you can turn them on or off at will.  Type @RTOGGLE @nto see all
-the available toggles that you can turn on or off.
+Auto Toggles~
+adventure[world]:23407/main
 ~
 234 152 0 0 0 0
 D2
+adventure[world]:23406/look
 ~
 ~
 0 0 23406
 S
 #23408
-Newbie School~
-   @RWimpy @nis a safety command that lets you flee from combat if you go below
-the set wimpy.  For example if you type wimpy 10 you will flee from combat if
-you fall below 10 hitpoints.  Flee is not guaranteed.  You can fail from
-fleeing, but it will continue to flee if possible.  Make sure you keep an eye
-on your hitpoints.  A scroll of Recall will save you if you feel your wimpy
-won't.
+Wimpy~
+adventure[world]:23408/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23406/look
 ~
 ~
 0 0 23406
 S
 #23409
 Newbie School~
-   You can regain hitpoints, mana points, and movement points by @RSleeping
-@nand @Rresting.  @n Sleeping is exactly as it states, you fall asleep, you can
-still check your stats and listen to Gossips, group talks, view the Who list
-and simple commands.  Resting allows you to sit down, you can listen to talk,
-as well as all other channels that you belong to.  You can also do more
-commands that sleeping will not allow you to do, but some commands require you
-to be standing.  Resting does not heal hitpoints as fast as sleeping, but will
-restore movement points just as fast.  Being Drunk and sleeping increases the
-Rate of Mana point rejuvenation.
+adventure[world]:23409/main
 ~
 234 152 0 0 0 0
 D3
+adventure[world]:23406/look
 ~
 ~
 0 0 23406
 D5
+adventure[world]:23410/look
 ~
 ~
 0 0 23410
 S
 #23410
-Newbie School~
-   @RScan @nlets you see what Mobs are in the following rooms.  It will only
-show you mobs in rooms within two paces of the room you are in.  It will not
-show you mobs in a room with a closed door.  Scan will also let you see if a
-Player is within 2 spaces of you.  Scan will not work around corners, it only
-works in a straight line.
+Scanning~
+adventure[world]:23410/main
 ~
 234 152 0 0 0 0
 D3
+adventure[world]:23410/look
 ~
 ~
 0 0 23411
 D4
+adventure[world]:23409/look
 ~
 ~
 0 0 23409
