@@ -24,10 +24,12 @@ adventure[world]:23401/main
 ~
 234 152 0 0 0 0
 D1
+adventure[world]:23402/look
 ~
 ~
 0 0 23402
 D2
+adventure[world]:23400/look
 ~
 ~
 0 0 23400
@@ -185,171 +187,152 @@ adventure[world]:23409/look
 0 0 23409
 S
 #23411
-Newbie School~
-   @RWhere@n will display all players that are currently in your zone.  It will
-not tell you where they are, just that they are within the same zone as you.
+Where ~
+adventure[world]:23411
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23412/look
 ~
 ~
 0 0 23412
 D1
+adventure[world]:23410/look
 ~
 ~
 0 0 23410
 D2
+adventure[world]:23413/look
 ~
 ~
 0 0 23413
 D3
+adventure[world]:23414/look
 ~
 ~
 0 0 23414
 S
 #23412
-Newbie School~
-   To equip and unequip items the following commands will be needed.  @RWear
-@nputs armor on the appropriate body part.  @RHold @nlets you hold onto a
-light, as well as some weapons.  @RWield @nequips your main weapon.  Shields
-will be considered a wearable.  To unequip items just @RRemove @nthe item you
-want, use specific names such as remove sword.
+Equipment~
+adventure[world]:23412/main
 ~
 234 152 0 0 0 0
 D2
+adventure[world]:23411/look
 ~
 ~
 0 0 23411
 S
 #23413
-Newbie School~
-   Spells, for all those magic users and monks.  To cast spells you need to
-use the @RCast @ncommand followed by apostrophes.  For example to cast a Heal
-spell, type cast 'heal' or cast 'heal' joeschmo
+Spells~
+adventure[world]:23413/main
 ~
 234 8 0 0 0 0
 D0
+adventure[world]:23411/look
 ~
 ~
 0 0 23411
 S
 #23414
 Newbie School~
-   To do actions that are not available on the socials list, you can use the
-@REmote @ncommand.  For example emote hops about happily.  Will display
-yourname hops about happily to everyone in the same room as you.  @RGemote
-@nwill allow you to send socials to the entire game.  For example Gemote
-smiles, displays Gossip yourname smiles happily, to the entire mud.
+adventure[world]:23414/main
 ~
 234 152 0 0 0 0
 D1
+adventure[world]:23411/look
 ~
 ~
 0 0 23411
 D3
+adventure[world]:23415/look
 ~
 ~
 0 0 23415
 S
 #23415
-Newbie School~
-   In some instances you may need to know what time of day it is.  For example
-buying items from a store that has only day time hours, and/or gates that lock
-at nightfall, and unlock at sunrise.  To view the time and date, type @RTime@n.
-
+Date Time~
+adventure[world]:23415/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23416/look
 ~
 ~
 0 0 23416
 D1
+adventure[world]:23414/look
 ~
 ~
 0 0 23414
 D2
+adventure[world]:23417/look
 ~
 ~
 0 0 23417
 D3
+adventure[world]:23418/look
 ~
 ~
 0 0 23418
 S
 #23416
-Newbie School~
-   You can send any items you do not want to a specified place, known as a
-donation room.  Please @RDonate @n any unwanted items.  The short name for this
-is @RDon@n.  Not all items will make it to the donation room so don't use it
-for a storage place.
+Offerings~
+adventure[world]:23416/main
 ~
 234 152 0 0 0 0
 D2
+aventure[world]:23415/look
 ~
 ~
 0 0 23415
 S
 #23417
 Newbie School~
-   We have enabled @RAuctions @non this mud.  You can auction any item you have
-in your inventory.  This will send a message to all players stating what item
-and price you are auctioning off.  This auctioneer will give three chances for
-someone to bid on the item.  Then the auction will be complete.
+adventure[world]:23417/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23415/look
 ~
 ~
 0 0 23415
 S
 #23418
 Newbie School~
-   There are @RBoards @nlocated throughout the mud.  The major board is located
-very close to the center of town.  Please view the boards daily.  This will
-contain important information, code changes that will effect you, or maybe
-upcoming quests.  Another feature for you to view is the @RMOTD@n.  You can
-type MOTD or can view it when you log onto the game.  This part is automatic,
-but you can view it at any time.  If you have any problems Please type @RBUG@n
-and your message so we may correct the problem.
+adventure[world]:23418/main
 ~
 234 152 0 0 0 0
 D1
+adventure[world]:23415/look
 ~
 ~
 0 0 23415
 D3
+adventure[world]:23419/look
 ~
 ~
 0 0 23419
 S
 #23419
 Newbie School~
-   Before engaging in combat, you should check to see if you are able to handle
-the Mob.  The @RConsider@n command will let you know how well matched you are
-to the mob.  Typing @RCon@n mobname will display this info.  You can consider
-another player, especially if you are not in town and you are wondering if you
-can take on another player.  Pkilling is not allowed in Town or in the newbie
-school/zone area.
+adventure[world]:23419/main
 ~
 234 152 0 0 0 0
 D0
+adventure[world]:23420/look
 ~
 ~
 0 0 23420
 D1
+adventure[world]:23418/look
 ~
 ~
 0 0 23418
 S
 #23420
 Newbie School~
-   There may be times you need help to kill a main mob, or even a group of
-mobs.  If you ask other players to join you, you can go around in your own
-group.  To follow someone, type @RFollow Playername@n or you can type @RFol
-Playername@n.  If you enable Autoassist, you will automatically fight when your
-partner fights.  However this won't work if a spell is cast first.  To view the
-stats of your party, type @RGroup@n this will display level, hit/mana/movement
-points.  To talk to your party so noone else can hear you, type @RGT@n.
+adventure[world]:23420/main
 ~
 234 152 0 0 0 0
 D0
