@@ -1161,10 +1161,10 @@ adventure[world]:3065/look
 ~
 0 -1 3065
 D1
-adventure[world]:30100/look
+adventure[world]:3078/look
 ~
 ~
-0 -1 30100
+0 -1 3078
 D2
 adventure[world]:3060/look
 ~
@@ -1520,10 +1520,10 @@ adventure[world]:3080/look
 ~
 0 -1 3080
 D3
-adventure[world]:3080/look
+adventure[world]:3061/look
 ~
 ~
-0 -1 3080
+0 -1 3061
 E
 sign~
 adventure[world]:3079/sign
