@@ -1711,7 +1711,7 @@ ensure everything created in your zone is actually used.
 
 > checkload o 15004
 Checking load info for a golden apple...
-  [15017] By The Throne In The Great Hall (Equipped to King Welmar [15001][100% Load, 1 Max])
+  [15017] By The Throne In The Great Hall (Equipped to King Indra [15001][100% Load, 1 Max])
 
 > checkload m 3062
 Checking load info for the beastly fido...
@@ -9252,7 +9252,7 @@ This is a listing of stock areas.
 12  God Simplex                 -- CircleMUD, modified by Taz of Tazmania
 120 Rome                        -- Onivel of JediMUD
 15  The Straight Path           -- Steppin
-150 King Welmar's Castle        -- CircleMUD*
+150 King Indra's Castle        -- CircleMUD*
 186 Newbie Zone                 -- Maynard of StrangeMUD
 25  The High Tower of Magic     -- Skylar of SillyMUD*
 26  The High Tower Of Magic     -- Skylar of SillyMUD*

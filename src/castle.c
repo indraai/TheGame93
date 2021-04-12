@@ -22,7 +22,7 @@
 #include "fight.h"
 
 /* IMPORTANT! The below defined number is the zone number of the Kings Castle.
- * Change it to apply to your chosen zone number. The default zone number 
+ * Change it to apply to your chosen zone number. The default zone number
  * is 80. */
 
 #define Z_KINGS_C 150
@@ -50,7 +50,7 @@ SPECIAL(cleaning);
 SPECIAL(DicknDavid);
 SPECIAL(tim);
 SPECIAL(tom);
-SPECIAL(king_welmar);
+SPECIAL(king_indra);
 SPECIAL(training_master);
 SPECIAL(peter);
 SPECIAL(jerry);
@@ -58,7 +58,7 @@ SPECIAL(jerry);
 
 
 
-/* Assign castle special procedures. NOTE: The mobile number isn't fully 
+/* Assign castle special procedures. NOTE: The mobile number isn't fully
  * specified. It's only an offset from the zone's base. */
 static void castle_mob_spec(mob_vnum mobnum, SPECIAL(*specproc))
 {
@@ -103,7 +103,7 @@ static room_rnum castle_real_room(room_vnum roomoffset)
 void assign_kings_castle(void)
 {
   castle_mob_spec(0, CastleGuard);	/* Gwydion */
-  castle_mob_spec(1, king_welmar);	/* Our dear friend, the King */
+  castle_mob_spec(1, king_indra);	/* Our dear friend, the King */
   castle_mob_spec(3, CastleGuard);	/* Jim */
   castle_mob_spec(4, CastleGuard);	/* Brian */
   castle_mob_spec(5, CastleGuard);	/* Mick */
@@ -127,7 +127,7 @@ void assign_kings_castle(void)
   castle_mob_spec(29, CastleGuard);	/* Boris */
 }
 
-/* Routine: member_of_staff. Used to see if a character is a member of the 
+/* Routine: member_of_staff. Used to see if a character is a member of the
  * castle staff. Used mainly by BANZAI:ng NPC:s. */
 static int member_of_staff(struct char_data *chChar)
 {
@@ -190,7 +190,7 @@ static struct char_data *find_npc_by_name(struct char_data *chAtChar,
   return (NULL);
 }
 
-/* Function: find_guard. Returns the pointer to a guard on duty. Used by Peter 
+/* Function: find_guard. Returns the pointer to a guard on duty. Used by Peter
  * the Captain of the Royal Guard */
 static struct char_data *find_guard(struct char_data *chAtChar)
 {
@@ -203,9 +203,9 @@ static struct char_data *find_guard(struct char_data *chAtChar)
   return (NULL);
 }
 
-/* Function: get_victim. Returns a pointer to a randomly chosen character in 
- * the same room, fighting someone in the castle staff. Used by BANZAII-ing 
- * characters and King Welmar... */
+/* Function: get_victim. Returns a pointer to a randomly chosen character in
+ * the same room, fighting someone in the castle staff. Used by BANZAII-ing
+ * characters and King Indra... */
 static struct char_data *get_victim(struct char_data *chAtChar)
 {
   struct char_data *ch;
@@ -240,7 +240,7 @@ static struct char_data *get_victim(struct char_data *chAtChar)
   return (NULL);
 }
 
-/* Banzaii. Makes a character banzaii on attackers of the castle staff. Used 
+/* Banzaii. Makes a character banzaii on attackers of the castle staff. Used
  * by Guards, Tim, Tom, Dick, David, Peter, Master, and the King. */
 static int banzaii(struct char_data *ch)
 {
@@ -249,7 +249,7 @@ static int banzaii(struct char_data *ch)
   if (!AWAKE(ch) || GET_POS(ch) == POS_FIGHTING || !(chOpponent = get_victim(ch)))
     return (FALSE);
 
-  act("$n roars: 'Protect the Kingdom of Great King Welmar!  BANZAIIII!!!'",
+  act("$n roars: 'Protect the Kingdom of Great King Indra!  BANZAIIII!!!'",
 	FALSE, ch, 0, 0, TO_ROOM);
   hit(ch, chOpponent, TYPE_UNDEFINED);
   return (TRUE);
@@ -283,7 +283,7 @@ static int do_npc_rescue(struct char_data *ch_hero, struct char_data *ch_victim)
   return (TRUE);
 }
 
-/* Procedure to block a person trying to enter a room. Used by Tim/Tom at Kings 
+/* Procedure to block a person trying to enter a room. Used by Tim/Tom at Kings
  * bedroom and Dick/David at treasury. */
 static int block_way(struct char_data *ch, int cmd, char *arg, room_vnum iIn_room,
 	          int iProhibited_direction)
@@ -291,7 +291,7 @@ static int block_way(struct char_data *ch, int cmd, char *arg, room_vnum iIn_roo
   if (cmd != ++iProhibited_direction)
     return (FALSE);
 
-  if (ch->player.short_descr && !strncmp(ch->player.short_descr, "King Welmar", 11))
+  if (ch->player.short_descr && !strncmp(ch->player.short_descr, "King Indra", 11))
     return (FALSE);
 
   if (IN_ROOM(ch) != real_room(iIn_room))
@@ -304,7 +304,7 @@ static int block_way(struct char_data *ch, int cmd, char *arg, room_vnum iIn_roo
   return (TRUE);
 }
 
-/* Routine to check if an object is trash. Used by James the Butler and the 
+/* Routine to check if an object is trash. Used by James the Butler and the
  * Cleaning Lady. */
 static int is_trash(struct obj_data *i)
 {
@@ -317,8 +317,8 @@ static int is_trash(struct obj_data *i)
   return (FALSE);
 }
 
-/* Fry_victim. Finds a suitabe victim, and cast some _NASTY_ spell on him. Used 
- * by King Welmar. */
+/* Fry_victim. Finds a suitabe victim, and cast some _NASTY_ spell on him. Used
+ * by King Indra. */
 static void fry_victim(struct char_data *ch)
 {
   struct char_data *tch;
@@ -362,8 +362,8 @@ static void fry_victim(struct char_data *ch)
   return;
 }
 
-/* King_welmar. Control the actions and movements of the King. */
-SPECIAL(king_welmar)
+/* King_Indra. Control the actions and movements of the King. */
+SPECIAL(king_indra)
 {
   char actbuf[MAX_INPUT_LENGTH];
 
@@ -477,8 +477,8 @@ SPECIAL(king_welmar)
   return (FALSE);
 }
 
-/* Training_master. Acts actions to the training room, if his students are 
- * present. Also allowes warrior-class to practice. Used by the Training 
+/* Training_master. Acts actions to the training room, if his students are
+ * present. Also allowes warrior-class to practice. Used by the Training
  * Master. */
 SPECIAL(training_master)
 {
@@ -586,11 +586,11 @@ static int castle_twin_proc(struct char_data *ch, int cmd, char *arg, int ctlnum
   if (cmd)
     return block_way(ch, cmd, arg, castle_virtual(ctlnum), 1);
 
-  if ((king = find_npc_by_name(ch, "King Welmar", 11)) != NULL) {
+  if ((king = find_npc_by_name(ch, "King Indra", 11)) != NULL) {
     char actbuf[MAX_INPUT_LENGTH];
 
     if (!ch->master)
-      do_follow(ch, strcpy(actbuf, "King Welmar"), 0, 0);	/* strcpy: OK */
+      do_follow(ch, strcpy(actbuf, "King Indra"), 0, 0);	/* strcpy: OK */
     if (FIGHTING(king))
       do_npc_rescue(ch, king);
   }
@@ -606,7 +606,7 @@ static int castle_twin_proc(struct char_data *ch, int cmd, char *arg, int ctlnum
 }
 
 
-/* Routine for James the Butler. Complains if he finds any trash. This doesn't 
+/* Routine for James the Butler. Complains if he finds any trash. This doesn't
  * make sure he _can_ carry it. */
 SPECIAL(James)
 {
@@ -728,7 +728,7 @@ SPECIAL(peter)
   return (FALSE);
 }
 
-/* Procedure for Jerry and Michael in x08 of King's Castle. Code by Sapowox 
+/* Procedure for Jerry and Michael in x08 of King's Castle. Code by Sapowox
  * modified by Pjotr.(Original code from Master) */
 SPECIAL(jerry)
 {
