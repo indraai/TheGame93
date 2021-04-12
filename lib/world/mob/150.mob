@@ -322,10 +322,11 @@ The RoyalDEVA Jerry is here.
 ~
 As all members of the Guard, Jerry wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
-73 0 0 0 0 0 0 0 800 E
+194841 0 0 0 10360 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
-5 5 1
+8 8 1
+BareHandAttack: 6
 E
 #15027
 royal deva royaldeva guard michael security securitydeva~
@@ -334,10 +335,11 @@ The RoyalDEVA Michael is here.
 ~
 As all members of the Guard, Michael wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
-73 0 0 0 0 0 0 0 800 E
+194841 0 0 0 10360 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
-5 5 1
+8 8 1
+BareHandAttack: 10
 E
 #15028
 royal deva royaldeva guard hans security securitydeva~
