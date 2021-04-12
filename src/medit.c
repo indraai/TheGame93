@@ -436,7 +436,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\n'6) Position': %s\n\r"
 	  "\n'7) Default': %s\n\r"
 	  "\n'8) Attack': %s\n\r"
-    "\n=\n\r"
+    "\n=\n\n\r"
 	  "\n'A) NPC Flags': %s\n\r"
 	  "\n'B) AFF Flags': %s\n\r"
     "\n'S) Script': %s\n\r"
