@@ -1,7 +1,7 @@
 #15000
 royal deva royaldeva guard gideon security secuirtydeva~
-RoyalDEVA~
-The RoyalDEVA Gideon is here on duty.
+RoyalDEVA Gideon~
+The RoyalDEVA Gideon is on duty.
 ~
 As all members of the Guard, Gidion wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
@@ -12,16 +12,16 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 8 8 0
 E
 #15001
-king indra deva indradeva~
-King Indra~
-The wise King Indra sits on his throne.
+king indra deva indradeva kingindra~
+King IndraDEVA~
+The Omnific King IndraDEVA is here.
 ~
 King Indra is very powerfully built, and wouldn't take kindly to an attack.  Despite that, you know he is well-loved throughout the land, and has a reputation as a wise and just ruler.
 ~
 260381 0 0 0 403704 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-6 8 1
+6 8 0
 BareHandAttack: 14
 E
 #15002
@@ -38,8 +38,8 @@ You hear a frightening wail, and see a horrible ghost approaching.
 E
 #15003
 royal deva royaldeva guard jim security secuirtydeva~
-RoyalDEVA~
-The Royal Guard Jim is here on duty.
+RoyalDEVA Jim~
+The Royal Guard Jim is here.
 ~
 As all members of the Guard, Jim wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
@@ -51,8 +51,8 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 E
 #15004
 royal deva royaldeva guard brian security secuirtydeva~
-RoyalDEVA~
-The Royal Guard Brian is here, training with the Master.
+RoyalDEVA Brian~
+The RoyalDEVA Guard Brian is here.
 ~
 As all members of the Guard, Brian wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
@@ -64,10 +64,10 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 E
 #15005
 royal deva royaldeva guard mick security secuirtydeva~
-RoyalDEVA~
-Mick the Royal Guard Mick is here, training with the Master.
+RoyalDEVA Mick~
+The RoyalDEVA Guard Mick is here.
 ~
-   As all members of the Guard, Mick wears the chain mail required of them as
+As all members of the Guard, Mick wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 75 0 0 0 0 0 0 0 800 E
@@ -90,7 +90,7 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 E
 #15007
 royal deva royaldeva guard joshua security secuirtydeva~
-RoyalDEVA~
+RoyalDEVA Joshua~
 The RoyalDEVA Guard Joshua sits here, off duty.
 ~
 As all members of the Guard, Jochem wears the chain mail required of them as
@@ -104,7 +104,7 @@ than one battle, and longs to see the next!
 E
 #15008
 royal deva royaldeva guard anne security secuirtydeva~
-RoyalDEVA~
+RoyalDEVA Anne~
 The RoyalDEVA Guard Anne is here on duty.
 ~
    As all members of the Guard, Anne wears the chain mail required of them as
@@ -118,7 +118,7 @@ more than one battle, and longs to see the next!
 E
 #15009
 royal deva royaldeva guard andru security secuirtydeva~
-RoyalDEVA~
+RoyalDEVA Andru~
 Andru the Royal Guard is here on duty.
 ~
 As all members of the Guard, Andru wears the chain mail required of them as
@@ -132,7 +132,7 @@ than one battle, and longs to see the next!
 E
 #15010
 royal deva royaldeva guard bert security secuirtydeva~
-RoyalDEVA~
+RoyalDEVA Bert~
 The Royal Guard Bert is here on duty.
 ~
 As all members of the Guard, Bert wears the chain mail required of them as
@@ -146,7 +146,7 @@ guy seems tough...
 E
 #15011
 royal deva royaldeva guard jean security secuirtydeva~
-RoyalDEVA~
+RoyalDEVA Jean~
 The Royal Guard Jean is here on duty.
 ~
    As all members of the Guard, Jeanette wears the chain mail required of them
@@ -159,9 +159,9 @@ This girl could be nasty if she wanted to...
 8 8 0
 E
 #15012
-peter captain guard royal security secuirtydeva~
-Peter, the Captain of the Royal Guard~
-Peter, the Captain of the Royal Guard, walks around inspecting.
+peter captain guard royal royaldeva security secuirtydeva~
+RoyalDEVA Peter~
+The Captain Peter of the RoyalDEVA Guard, walks around inspecting.
 ~
    As all members of the Guard, Peter wears the chain mail required of them as
 uniform.  Even though all the other guards seem well trained, you realize none
@@ -177,23 +177,23 @@ attention as you see him.
 E
 #15013
 master trainingmaster~
-the Training Master~
-The Training Master is here, supervising.
+DEVA Training Master~
+The DEVA Training Master is here, supervising.
 ~
-   Aged, but experienced, the Training Master is skilled in the use of virtually
+Aged, but experienced, the Training Master is skilled in the use of virtually
 every weapon type invented by Man.
 ~
 75 0 0 0 0 0 0 0 950 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 1
+8 8 0
 E
 #15014
 herald royal~
-the Royal Herald~
-The Royal Herald is standing here.
+RoyalDEVA Announcer~
+The RoyalDEVA Announcer is standing here.
 ~
-   This is a young, powerfully built man, whose primary function is to make
+This is a young, powerfully built man, whose primary function is to make
 Royal Announcements.
 ~
 72 0 0 0 0 0 0 0 800 E
@@ -218,7 +218,7 @@ great warrior he once was, but still to be reckoned with.
 E
 T 15000
 #15016
-butler deva butlerdeva~
+butler deva butlerdeva servicedeva service~
 ButlerDEVA~
 ButlerDEVA is standing here, looking pompous.
 ~
@@ -255,23 +255,23 @@ A large cockroach is crawling by the wall.
 8 8 0
 E
 #15019
-astrologer~
-the Astrologer~
-The Astrologer is sitting here, studying a book.
+deva astrology astrologydeva~
+AstrologyDEVA~
+The AstrologyDEVA is sitting here, studying a book.
 ~
-   He is old and white-haired, with a long beard.  As you see him, you can
+He is old and white-haired, with a long beard.  As you see him, you can
 almost believe the rumors about stars deciding Fate, and that astrology is
 capable of seeing the future.
 ~
 26651 0 0 0 0 0 0 0 900 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-6 6 1
+6 6 0
 E
 #15020
 harry deva royal royaldeva security securitydeva guard kingguard~
-Harry, the King's Guard~
-Harry, the King's Guard, is standing here.
+RoyalDEVA Harry - King's Guard~
+Harry, RoyalDEVA The King's Guard, is here.
 ~
 This guy looks just like his twin, Larry.  There seems to be no doubt that he
 is completely prepared to give his life for the King, if necessary.
@@ -283,8 +283,8 @@ is completely prepared to give his life for the King, if necessary.
 E
 #15021
 larry deva royal royaldeva security securitydeva guard kingguard~
-Larry, the King's Guard~
-Larry, the King's Guard, is standing here.
+RoyalDEVA Larry - King's Guard~
+Larry, RoyalDEVA of The King's Guard, is here.
 ~
 This guy looks just like his twin, Tim.  There seems to be no doubt that he
 is completely prepared to give his life for the King, if necessary.
@@ -295,7 +295,7 @@ is completely prepared to give his life for the King, if necessary.
 8 8 1
 E
 #15022
-chef cook deva chefdeva~
+chef cook deva chefdeva service servicedeva~
 ChefDEVA~
 The Chef is here, shouting orders to the other cooks.
 ~
@@ -308,7 +308,7 @@ in other words, a bit fat.
 8 8 0
 E
 #15023
-cook deva cookdeva~
+cook deva cookdeva service servicedeva~
 CookDEVA~
 There is a cook here, making himself busy with a pot.
 ~
@@ -347,7 +347,7 @@ attempt to get past him.
 E
 #15026
 royal deva royaldeva guard jerry security securitydeva~
-RoyalDEVA~
+RoyalDEVA Jerry~
 The Royal Guard Jerry is here off duty, playing dice.
 ~
    As all members of the Guard, Jerry wears the chain mail required of them as
@@ -360,7 +360,7 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 E
 #15027
 royal deva royaldeva guard michael security securitydeva~
-RoyalDEVA~
+RoyalDEVA Michael~
 The RoyalDEVA Guard Michael is here off duty, playing dice.
 ~
 As all members of the Guard, Michael wears the chain mail required of them as
@@ -373,8 +373,8 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 E
 #15028
 royal deva royaldeva guard hans security securitydeva~
-RoyalDEVA~
-The RoyalDEVA Guard Hans is here on duty.
+RoyalDEVA Hans~
+The RoyalDEVA Guard Hans is here.
 ~
 As all members of the Guard, Hans wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like a fighter who has seen more
@@ -387,8 +387,8 @@ than one battle, and longs to see the next!
 E
 #15029
 royal deva royaldeva guard boris security securitydeva~
-Boris~
-Boris the Royal Guard is here on duty.
+RoyalDEVA Boris~
+The RoyalDEVA Guard Boris is here.
 ~
    As all members of the Guard, Boris wears the chain mail required of them as
 uniform.  He seems very well trained, and carries his scars with pride.  This
@@ -428,13 +428,11 @@ revenge.
 8 8 0
 E
 #15032
-pit fiend demon~
-the pit fiend~
-A large demon surrounded by flames rises out of the dark pool.
+airaavatha deva elephant~
+Airaavatha~
+A large elephant surrounded by water rises out of the pool.
 ~
-   It is a horrifying thing, this demonic creature from the depths of the Abyss.
-It glares down at you through blood-red eyes, and bares its huge white fangs and
-its razor-sharp talons.
+It is a beautiful thing, this creature from the depths of the Abyss. It glares down at you through deep eyes, and bares its huge white tusks.
 ~
 256058 0 0 0 80 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
