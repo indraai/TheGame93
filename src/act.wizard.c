@@ -881,12 +881,15 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   for (i = 0, j = k->carrying; j; j = j->next_content, i++);
-  send_to_char(ch, "Carried: weight: %d, items: %d; Items in: inventory: %d, ", IS_CARRYING_W(k), IS_CARRYING_N(k), i);
+  send_to_char(ch, "### Carry\n\r");
+  send_to_char(ch, "\nweight: %d\n\r", IS_CARRYING_W(k));
+  send_to_char(ch, "\nitems: %d\n\r", IS_CARRYING_N(k));
+  send_to_char(ch, "\ninventory: %d\n\r", i);
 
   for (i = 0, i2 = 0; i < NUM_WEARS; i++)
     if (GET_EQ(k, i))
       i2++;
-  send_to_char(ch, "eq: %d\r\n", i2);
+  send_to_char(ch, "\nequipment: %d\n\r", i2);
 
   if (!IS_NPC(k))
     send_to_char(ch, "Hunger: %d, Thirst: %d, Drunk: %d\r\n", GET_COND(k, HUNGER), GET_COND(k, THIRST), GET_COND(k, DRUNK));
