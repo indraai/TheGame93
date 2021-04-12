@@ -24,13 +24,13 @@ King Indra is very powerfully built, and wouldn't take kindly to an attack.  Des
 BareHandAttack: 14
 E
 #15002
-ghost horrible~
-the horrible ghost~
-You hear a frightening wail, and see a horrible ghost approaching.
+ghost wonderful~
+the wonderful ghost~
+You hear a sweet song, and see a wonderful ghost approaching.
 ~
-   The ghost is almost translucent, and looks really SCARY!
+The ghost is almost translucent, and looks really heavenly!
 ~
-254014 0 0 0 524304 0 0 0 -700 E
+254014 0 0 0 524304 0 0 0 700 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 0
@@ -112,7 +112,7 @@ E
 #15009
 royal deva royaldeva guard andru security securitydeva~
 RoyalDEVA Andru~
-Andru the Royal Guard is here on duty.
+The RoyalDEVA Andru is here on duty.
 ~
 As all members of the Guard, Andru wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
 ~
@@ -183,13 +183,13 @@ This is a young, powerfully built man, whose primary function is to make Royal A
 8 8 1
 E
 #15015
-ergan murderer~
-Ergan the Murderer~
-Slumped in a corner you see Ergan, aka the Murderer of Townsbridge.
+erwan retired royaldeva~
+Erwan the Great~
+You see Erwan the Great of Townsbridge.
 ~
-You remember a time almost a decade ago, when the news of the day was how this man had slaughtered the entire population of the little village of Townsbridge.  He was imprisoned, and here he is - a shadow of the undoubtedly great warrior he once was, but still to be reckoned with.
+You remember a time almost a decade ago, when the news of the day was how this man had saved the entire population of the little village of Townsbridge.  He was glorified as a hero, and here he is - a great warrior he still is, but still to be reckoned with. Even in his retired years.
 ~
-24828 0 0 0 589824 0 0 0 -1000 E
+24828 0 0 0 589824 0 0 0 1000 E
 13 16 2 2d2+130 2d2+2
 130 16900
 6 6 1
@@ -220,13 +220,13 @@ Although a menial job, ServiceDEVA seems to really like it.
 8 8 0
 E
 #15018
-cockroach roach~
-the cockroach~
-A large cockroach is crawling by the wall.
+deva~
+Deva~
+A Deva is floating around by the wall.
 ~
-Very large indeed, and they say cockroaches are hard to kill...
+Look at that Deva floating around the corners on the wall...
 ~
-196696 0 0 0 0 0 0 0 -250 E
+196696 0 0 0 0 0 0 0 250 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0
@@ -236,7 +236,7 @@ deva astrology astrologydeva~
 AstrologyDEVA~
 The AstrologyDEVA is sitting here, studying a book.
 ~
-He is old and white-haired, with a long beard. He is a master at observing synchronicity, ketetics, and magnetics working together.
+He is old and white-haired, with a long beard. He is a master at observing synchronicity, ketetics, magnetics, and listening to the Deva working together.
 ~
 26651 0 0 0 0 0 0 0 900 E
 23 13 -3 4d4+230 3d3+3
@@ -248,7 +248,7 @@ harry deva royal royaldeva security securitydeva guard kingguard~
 RoyalDEVA Harry - King's Guard~
 Harry, RoyalDEVA The King's Guard, is here.
 ~
-This guy looks just like his twin, Larry.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary.
+This guy looks just like his twin, Larry.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary. Watch out Harry and Larry will hijack your chariot.
 ~
 11 0 0 0 16 0 0 0 900 E
 17 15 0 3d3+170 2d2+2
@@ -260,7 +260,7 @@ larry deva royal royaldeva security securitydeva guard kingguard~
 RoyalDEVA Larry - King's Guard~
 Larry, RoyalDEVA of The King's Guard, is here.
 ~
-This guy looks just like his twin, Tim.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary.
+This guy looks just like his twin, Tim.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary. Watch out Larry and Harry will hijack your chariot.
 ~
 11 0 0 0 16 0 0 0 900 E
 17 15 0 3d3+170 2d2+2

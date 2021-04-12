@@ -770,7 +770,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   struct affected_type *aff;
 
   sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "%s %s '%s'  IDNum: [%5ld], In room [%5d], Loadroom : [%5d]\r\n",
+  send_to_char(ch, "\ngender: %s\ntype: %s\nname:%s'\nid: %5ld\nroom: %5d\nloadroom: %5d\n\r",
 	  buf, (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
 	  GET_NAME(k), IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)), IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
