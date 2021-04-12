@@ -1,18 +1,18 @@
 #15000
-gwydion guard royal~
-Gwydion~
-Gwydion the Royal Guard is here on duty.
+royal deva royaldeva guard gidion security secuirtydeva~
+RoyalDEVA~
+The RoyalDEVA is here on duty.
 ~
-   As all members of the Guard, Gwydion wears the chain mail required of them as
+As all members of the Guard, Gidion wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 75 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1
+8 8 0
 E
 #15001
-king indra~
+king indra deva indradeva~
 King Indra~
 The wise King Indra sits on his throne.
 ~
@@ -36,24 +36,24 @@ You hear a frightening wail, and see a horrible ghost approaching.
 8 8 0
 E
 #15003
-jim guard royal~
-Jim~
-Jim the Royal Guard is here on duty.
+royal deva royaldeva guard jim security secuirtydeva~
+RoyalDEVA~
+The Royal Guard Jim is here on duty.
 ~
-   As all members of the Guard, Jim wears the chain mail required of them as
+As all members of the Guard, Jim wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 73 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1
+8 8 0
 E
 #15004
-brian guard royal~
-Brian~
-Brian the Royal Guard is here, training with the Master.
+royal deva royaldeva guard brian security secuirtydeva~
+RoyalDEVA~
+The Royal Guard Brian is here, training with the Master.
 ~
-   As all members of the Guard, Brian wears the chain mail required of them as
+As all members of the Guard, Brian wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 75 0 0 0 0 0 0 0 800 E
@@ -62,9 +62,9 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 8 8 1
 E
 #15005
-mick guard royal~
-Mick~
-Mick the Royal Guard is here, training with the Master.
+royal deva royaldeva guard mick security secuirtydeva~
+RoyalDEVA~
+Mick the Royal Guard Mick is here, training with the Master.
 ~
    As all members of the Guard, Mick wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
@@ -72,12 +72,12 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 75 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1
+8 8 0
 E
 #15006
-matt guard royal~
-Matt~
-Matt the Royal Guard is here on duty.
+royal deva royaldeva guard matt security secuirtydeva~
+RoyalDEVA~
+The Royal Guard Matt is here on duty.
 ~
    As all members of the Guard, Matt wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
@@ -85,26 +85,26 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 73 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1
+8 8 0
 E
 #15007
-jochem guard royal~
-Jochem~
-Jochem the Royal Guard sits here, off duty.
+royal deva royaldeva guard joshua security secuirtydeva~
+RoyalDEVA~
+The RoyalDEVA Guard Joshua sits here, off duty.
 ~
-   As all members of the Guard, Jochem wears the chain mail required of them as
+As all members of the Guard, Jochem wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like a fighter who has seen more
 than one battle, and longs to see the next!
 ~
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
 130 16900
-6 6 1
+6 6 0
 E
 #15008
-anne guard royal~
-Anne~
-Anne the Royal Guard is here on duty.
+royal deva royaldeva guard anne security secuirtydeva~
+RoyalDEVA~
+The RoyalDEVA Guard Anne is here on duty.
 ~
    As all members of the Guard, Anne wears the chain mail required of them as
 uniform.  She seems very well trained, and moves like a fighter who has seen
@@ -113,14 +113,14 @@ more than one battle, and longs to see the next!
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 2
+8 8 0
 E
 #15009
-andrew guard royal~
-Andrew~
-Andrew the Royal Guard is here on duty.
+royal deva royaldeva guard andru security secuirtydeva~
+RoyalDEVA~
+Andru the Royal Guard is here on duty.
 ~
-   As all members of the Guard, Andrew wears the chain mail required of them as
+As all members of the Guard, Andru wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like a fighter who has seen more
 than one battle, and longs to see the next!
 ~
@@ -130,11 +130,11 @@ than one battle, and longs to see the next!
 8 8 1
 E
 #15010
-bertram bert guard royal~
-Bertram~
-Bertram the Royal Guard is here on duty.
+royal deva royaldeva guard bert security secuirtydeva~
+RoyalDEVA~
+The Royal Guard Bert is here on duty.
 ~
-   As all members of the Guard, Bertram wears the chain mail required of them as
+As all members of the Guard, Bert wears the chain mail required of them as
 uniform.  He seems very well trained, and carries his scars with pride.  This
 guy seems tough...
 ~
@@ -144,9 +144,9 @@ guy seems tough...
 8 8 1
 E
 #15011
-jeanette guard royal~
-Jeanette~
-Jeanette the Royal Guard is here on duty.
+royal deva royaldeva guard jean security secuirtydeva~
+RoyalDEVA~
+The Royal Guard Jean is here on duty.
 ~
    As all members of the Guard, Jeanette wears the chain mail required of them
 as uniform.  She seems very well trained, and carries her scars with pride.
@@ -155,10 +155,10 @@ This girl could be nasty if she wanted to...
 73 0 0 0 0 0 0 0 900 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 2
+8 8 0
 E
 #15012
-peter captain guard royal~
+peter captain guard royal security secuirtydeva~
 Peter, the Captain of the Royal Guard~
 Peter, the Captain of the Royal Guard, walks around inspecting.
 ~
@@ -217,29 +217,29 @@ great warrior he once was, but still to be reckoned with.
 E
 T 15000
 #15016
-butler james~
-James the Butler~
-James the Butler is standing here, looking pompous.
+butler deva butlerdeva~
+ButlerDEVA~
+ButlerDEVA is standing here, looking pompous.
 ~
-   The typical perfect butler: upper middle age, a bit bald and with an
+The typical perfect butler: upper middle age, a bit bald and with an
 impressive belly.
 ~
 73 0 0 0 0 0 0 0 500 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 1
+8 8 0
 E
 #15017
-woman cleaning~
-the Cleaning Woman~
-There is a Cleaning Woman here, trying not be noticed.
+service deva servicedeva~
+ServiceDEVA~
+There is a CleaningDEVA here.
 ~
-   Although she has a menial job, she seems to like it.
+Although she has a menial job, she seems to like it.
 ~
 73 0 0 0 0 0 0 0 800 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 2
+8 8 0
 E
 #15018
 cockroach roach~
@@ -268,11 +268,11 @@ capable of seeing the future.
 6 6 1
 E
 #15020
-tim guard lifeguard~
-Tim, the King's Lifeguard~
-Tim, the King's Lifeguard, is standing here.
+harry deva royal royaldeva security securitydeva guard kingguard~
+Harry, the King's Guard~
+Harry, the King's Guard, is standing here.
 ~
-   This guy looks just like his twin, Tom.  There seems to be no doubt that he
+This guy looks just like his twin, Larry.  There seems to be no doubt that he
 is completely prepared to give his life for the King, if necessary.
 ~
 11 0 0 0 16 0 0 0 900 E
@@ -281,11 +281,11 @@ is completely prepared to give his life for the King, if necessary.
 8 8 1
 E
 #15021
-tom guard lifeguard~
-Tom, the King's Lifeguard~
-Tom, the King's Lifeguard, is standing here.
+larry deva royal royaldeva security securitydeva guard kingguard~
+Larry, the King's Guard~
+Larry, the King's Guard, is standing here.
 ~
-   This guy looks just like his twin, Tim.  There seems to be no doubt that he
+This guy looks just like his twin, Tim.  There seems to be no doubt that he
 is completely prepared to give his life for the King, if necessary.
 ~
 11 0 0 0 16 0 0 0 900 E
@@ -294,8 +294,8 @@ is completely prepared to give his life for the King, if necessary.
 8 8 1
 E
 #15022
-chef cook~
-the Chef~
+chef cook deva chefdeva~
+ChefDEVA~
 The Chef is here, shouting orders to the other cooks.
 ~
    It seems he has been tasting his own food a bit too enthusiastically.  He is,
@@ -304,50 +304,50 @@ in other words, a bit fat.
 26778 0 0 0 0 0 0 0 500 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1
+8 8 0
 E
 #15023
-cook~
-the cook~
+cook deva cookdeva~
+CookDEVA~
 There is a cook here, making himself busy with a pot.
 ~
-   A junior cook, eager to do the Chef's bidding.
+A junior cook, eager to do the Chef's bidding.
 ~
 138 0 0 0 0 0 0 0 300 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1
+8 8 0
 E
 #15024
-david man guard~
-David~
-David, a big, mean-looking man, stands here, guarding the door.
+security deva securitydeva guard~
+SecurityDEVA~
+A SecurityDEVA is guarding the door.
 ~
-   He really is big, and you get the feeling he wouldn't take kindly to an
+He really is big, and you get the feeling he wouldn't take kindly to an
 attempt to get past him.
 ~
 11 0 0 0 16 0 0 0 250 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1
+8 8 0
 E
 #15025
-dick man guard~
-Dick~
-Dick, a big, mean-looking man, stands here, guarding the door.
+security deva securitydeva guard~
+SecurityDEVA~
+A SecruityDEVA is guarding the door.
 ~
-   He really is big, and you get the feeling he wouldn't take kindly to an
+He really is big, and you get the feeling he wouldn't take kindly to an
 attempt to get past him.
 ~
 11 0 0 0 16 0 0 0 250 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1
+8 8 0
 E
 #15026
-jerry guard royal~
-Jerry~
-Jerry the Royal Guard is here off duty, playing dice.
+royal deva royaldeva guard jerry security securitydeva~
+RoyalDEVA~
+The Royal Guard Jerry is here off duty, playing dice.
 ~
    As all members of the Guard, Jerry wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
@@ -358,11 +358,11 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 5 5 1
 E
 #15027
-michael guard royal~
-Michael~
-Michael the Royal Guard is here off duty, playing dice.
+royal deva royaldeva guard michael security securitydeva~
+RoyalDEVA~
+The RoyalDEVA Guard Michael is here off duty, playing dice.
 ~
-   As all members of the Guard, Michael wears the chain mail required of them as
+As all members of the Guard, Michael wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 73 0 0 0 0 0 0 0 800 E
@@ -371,11 +371,11 @@ uniform.  He seems very well trained, and moves like an experienced fighter.
 5 5 1
 E
 #15028
-hans guard royal~
-Hans~
-Hans the Royal Guard is here on duty.
+royal deva royaldeva guard hans security securitydeva~
+RoyalDEVA~
+The RoyalDEVA Guard Hans is here on duty.
 ~
-   As all members of the Guard, Hans wears the chain mail required of them as
+As all members of the Guard, Hans wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like a fighter who has seen more
 than one battle, and longs to see the next!
 ~
@@ -385,7 +385,7 @@ than one battle, and longs to see the next!
 8 8 1
 E
 #15029
-boris guard royal~
+royal deva royaldeva guard boris security securitydeva~
 Boris~
 Boris the Royal Guard is here on duty.
 ~
