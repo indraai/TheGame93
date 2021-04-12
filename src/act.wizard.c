@@ -784,7 +784,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   if (!IS_MOB(k))
     send_to_char(ch, "\ntitle: %s\n\r", k->player.title ? k->player.title : "<None>");
 
-  send_to_char(ch, "desc: %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
+  send_to_char(ch, "\ndesc: %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
 
   sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
   send_to_char(ch, "%s%s, Lev: [%s%2d%s], XP: [%s%7d%s], Align: [%4d]\r\n",
@@ -850,7 +850,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\nfighting: %s\n\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
   if (IS_NPC(k))
-    send_to_char(ch, "\nattack type: %s\n\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    send_to_char(ch, "\n'attack type': %s\n\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
 
   if (k->desc) {
     sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
@@ -859,7 +859,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   if (IS_NPC(k)) {
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, "\nDefault position: %s\n\r", buf);
+    send_to_char(ch, "\n'def. position': %s\n\r", buf);
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
     send_to_char(ch, "\n'npc flags': %s\n\r", buf);
   } else {
