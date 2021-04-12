@@ -3,8 +3,7 @@ royal deva royaldeva guard gideon security securitydeva~
 RoyalDEVA Gideon~
 The RoyalDEVA Gideon is on duty.
 ~
-As all members of the Guard, Gidion wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like an experienced fighter.
+As all members of the Guard, Gidion wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 194907 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -41,8 +40,7 @@ royal deva royaldeva guard jim security securitydeva~
 RoyalDEVA Jim~
 The Royal Guard Jim is here.
 ~
-As all members of the Guard, Jim wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like an experienced fighter.
+As all members of the Guard, Jim wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 194841 0 0 0 10360 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -55,8 +53,7 @@ royal deva royaldeva guard brian security securitydeva~
 RoyalDEVA Brian~
 The RoyalDEVA Guard Brian is here.
 ~
-As all members of the Guard, Brian wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like an experienced fighter.
+As all members of the Guard, Brian wears the chain mail required of them asuniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 194841 0 0 0 10352 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -69,8 +66,7 @@ royal deva royaldeva guard mick security securitydeva~
 RoyalDEVA Mick~
 The RoyalDEVA Guard Mick is here.
 ~
-As all members of the Guard, Mick wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like an experienced fighter.
+As all members of the Guard, Mick wears the chain mail required of them asuniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 194841 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -82,8 +78,7 @@ royal deva royaldeva guard matt security securitydeva~
 RoyalDEVA~
 The Royal Guard Matt is here on duty.
 ~
-   As all members of the Guard, Matt wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like an experienced fighter.
+As all members of the Guard, Matt wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
 73 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -95,9 +90,7 @@ royal deva royaldeva guard joshua security securitydeva~
 RoyalDEVA Joshua~
 The RoyalDEVA Guard Joshua sits here, off duty.
 ~
-As all members of the Guard, Jochem wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like a fighter who has seen more
-than one battle, and longs to see the next!
+As all members of the Guard, Jochem wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
 ~
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -109,9 +102,7 @@ royal deva royaldeva guard anne security securitydeva~
 RoyalDEVA Anne~
 The RoyalDEVA Guard Anne is here on duty.
 ~
-   As all members of the Guard, Anne wears the chain mail required of them as
-uniform.  She seems very well trained, and moves like a fighter who has seen
-more than one battle, and longs to see the next!
+As all members of the Guard, Anne wears the chain mail required of them as uniform.  She seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
 ~
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -123,9 +114,7 @@ royal deva royaldeva guard andru security securitydeva~
 RoyalDEVA Andru~
 Andru the Royal Guard is here on duty.
 ~
-As all members of the Guard, Andru wears the chain mail required of them as
-uniform.  He seems very well trained, and moves like a fighter who has seen more
-than one battle, and longs to see the next!
+As all members of the Guard, Andru wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
 ~
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -137,8 +126,7 @@ royal deva royaldeva guard bert security securitydeva~
 RoyalDEVA Bert~
 The Royal Guard Bert is here on duty.
 ~
-As all members of the Guard, Bert wears the chain mail required of them as
-uniform.  He seems very well trained, and carries his scars with pride.  This
+As all members of the Guard, Bert wears the chain mail required of them as uniform.  He seems very well trained, and carries his scars with pride.  This
 guy seems tough...
 ~
 73 0 0 0 0 0 0 0 900 E
@@ -147,13 +135,11 @@ guy seems tough...
 8 8 1
 E
 #15011
-royal deva royaldeva guard jean security securitydeva~
-RoyalDEVA Jean~
-The Royal Guard Jean is here on duty.
+royal deva royaldeva guard jeanclaude jcvd security securitydeva~
+RoyalDEVA Jean Claude~
+The Royal Guard Jean Claude Van Damme is here on duty.
 ~
-   As all members of the Guard, Jeanette wears the chain mail required of them
-as uniform.  She seems very well trained, and carries her scars with pride.
-This girl could be nasty if she wanted to...
+As all members of the Guard, Jean Claude Van Damme is the example of perfection.  He can do the air splits better than anyone while making a perfect OH face.
 ~
 73 0 0 0 0 0 0 0 900 E
 15 15 1 3d3+150 2d2+2
@@ -162,15 +148,11 @@ This girl could be nasty if she wanted to...
 E
 #15012
 peter captain guard royal royaldeva security securitydeva~
-RoyalDEVA Peter~
+RoyalDEVA Peter Pan~
 The Captain Peter of the RoyalDEVA Guard, walks around inspecting.
 ~
-   As all members of the Guard, Peter wears the chain mail required of them as
-uniform.  Even though all the other guards seem well trained, you realize none
-of them would stand a chance against this man in a fight.  He stands at least
-two meters tall, but still moves with an almost feline grace.  He actually
-radiates strength and confidence, and you have to fight a sudden urge to come to
-attention as you see him.
+As all members of the Guard, Peter Pan has earned his uniform. Even though all the other guards seem well trained, you realize none
+of them would stand a chance against this man in a fight.  He moves with an almost feline grace.  He actually radiates strength and confidence, and you have to fight a sudden urge to come to attention as you see him.
 ~
 73 0 0 0 0 0 0 0 900 E
 19 14 -1 3d3+190 3d3+3
