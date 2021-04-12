@@ -314,7 +314,7 @@ static void medit_disp_positions(struct descriptor_data *d)
 /* Display the gender of the mobile. */
 static void medit_disp_sex(struct descriptor_data *d)
 {
-  get_char_colors(d->character);
+  // get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
   write_to_output(d, "Enter gender number : ");
