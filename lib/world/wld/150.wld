@@ -874,6 +874,11 @@ You see the corridor.
 ~
 ~
 0 -1 15033
+D3
+adventure[world]:3065/look
+~
+~
+0 -1 3065
 S
 #15039
 The Guest Suite~
