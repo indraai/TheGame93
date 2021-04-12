@@ -188,11 +188,6 @@ Flag: 0 0 0 0
 Perm: 0 0 0 0
 Wear: 1 0 0 0
 
-#3009
-Flag: 0 0 0 0
-Perm: 0 0 0 0
-Wear: 1 0 0 0
-
 #2806
 Flag: 0 0 0 0
 Perm: 0 0 0 0
@@ -252,11 +247,6 @@ Wear: 1 0 0 0
 Vals: 10 10 15 0
 Flag: 0 0 0 0
 Name: tsl0-kk  canteen 20oz water
-Perm: 0 0 0 0
-Wear: 1 0 0 0
-
-#2805
-Flag: 0 0 0 0
 Perm: 0 0 0 0
 Wear: 1 0 0 0
 
