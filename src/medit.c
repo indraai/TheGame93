@@ -414,18 +414,19 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "-- Mob Number:  [%s%d%s]\r\n"
-  "%s1%s) Sex: %s%-7.7s%s	         %s2%s) Keywords: %s%s\r\n"
-  "%s3%s) S-Desc: %s%s\r\n"
-  "%s4%s) L-Desc:-\r\n%s%s\r\n"
-  "%s5%s) D-Desc:-\r\n%s%s\r\n",
+  "# Mob %d\n\r"
+  "\n'1) Sex': %s\n\r"
+  "\n'2) Keywords': %s\n\r"
+  "\n'3) S-Desc': %s\n\r"
+  "\n'4) L-Desc': %s\n\r"
+  "\n'5) D-Desc': %s\n\r",
 
-	  cyn, OLC_NUM(d), nrm,
-	  grn, nrm, yel, genders[(int)GET_SEX(mob)], nrm,
-	  grn, nrm, yel, GET_ALIAS(mob),
-	  grn, nrm, yel, GET_SDESC(mob),
-	  grn, nrm, yel, GET_LDESC(mob),
-	  grn, nrm, yel, GET_DDESC(mob)
+	  OLC_NUM(d),
+	  genders[(int)GET_SEX(mob)],
+	  GET_ALIAS(mob),
+	  GET_SDESC(mob),
+	  GET_LDESC(mob),
+	  GET_DDESC(mob)
 	  );
 
   sprintbitarray(MOB_FLAGS(mob), action_bits, AF_ARRAY_MAX, flags);
