@@ -451,7 +451,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  attack_hit_text[(int)GET_ATTACK(mob)].singular,
 	  flags,
 	  flag2,
-    OLC_SCRIPT(d) ?"Set.":"Not Set.",
+    OLC_SCRIPT(d) ?"Set.":"Not Set."
 	  );
 
   OLC_MODE(d) = MEDIT_MAIN_MENU;
