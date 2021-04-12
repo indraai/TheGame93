@@ -415,7 +415,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "# Mob %d\n\r"
-  "\n'1) Sex': %s\n\r"
+  "\n'1) Sex': %s cmd[edit]:> 1\n\r"
   "\n'2) Keywords': %s\n\r"
   "\n'3) S-Desc': %s\n\r"
   "\n'4) L-Desc': %s\n\r"
