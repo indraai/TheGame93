@@ -846,21 +846,22 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 	  GET_SAVE(k, 3), GET_SAVE(k, 4));
 
   sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "Pos: %s, Fighting: %s", buf, FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
+  send_to_char(ch, "\npos: %s\n\r", buf);
+  send_to_char(ch, "\nfighting: %s\n\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
   if (IS_NPC(k))
-    send_to_char(ch, ", Attack type: %s", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    send_to_char(ch, "\nattack type: %s\n\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
 
   if (k->desc) {
     sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
-    send_to_char(ch, ", Connected: %s", buf);
+    send_to_char(ch, "\nconnected: %s\n\r", buf);
   }
 
   if (IS_NPC(k)) {
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, ", Default position: %s\r\n", buf);
+    send_to_char(ch, "\nDefault position: %s\n\r", buf);
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "NPC flags: %s%s%s\r\n", CCCYN(ch, C_NRM), buf, CCNRM(ch, C_NRM));
+    send_to_char(ch, "\n'npc flags': %s\n\r", buf);
   } else {
     send_to_char(ch, ", Idle Timer (in tics) [%d]\r\n", k->char_specials.timer);
 
