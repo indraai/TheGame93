@@ -414,8 +414,8 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "# Mob %d\n\r"
-  "\n'1) Sex': %s cmd[edit]:> 1\n\r"
+  "\n# Mob %d\n\r"
+  "\n'1) Sex': %s\n\r"
   "\n'2) Keywords': %s\n\r"
   "\n'3) S-Desc': %s\n\r"
   "\n'4) L-Desc': %s\n\r"
@@ -431,29 +431,27 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   sprintbitarray(MOB_FLAGS(mob), action_bits, AF_ARRAY_MAX, flags);
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
-  write_to_output(d,
-	  "%s6%s) Position  : %s%s\r\n"
-	  "%s7%s) Default   : %s%s\r\n"
-	  "%s8%s) Attack    : %s%s\r\n"
-      "%s9%s) Stats Menu...\r\n"
-	  "%sA%s) NPC Flags : %s%s\r\n"
-	  "%sB%s) AFF Flags : %s%s\r\n"
-          "%sS%s) Script    : %s%s\r\n"
-          "%sW%s) Copy mob\r\n"
-	  "%sX%s) Delete mob\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ",
 
-	  grn, nrm, yel, position_types[(int)GET_POS(mob)],
-	  grn, nrm, yel, position_types[(int)GET_DEFAULT_POS(mob)],
-	  grn, nrm, yel, attack_hit_text[(int)GET_ATTACK(mob)].singular,
-	  grn, nrm,
-	  grn, nrm, cyn, flags,
-	  grn, nrm, cyn, flag2,
-          grn, nrm, cyn, OLC_SCRIPT(d) ?"Set.":"Not Set.",
-          grn, nrm,
-	  grn, nrm,
-	  grn, nrm
+  write_to_output(d,
+	  "\n'6) Position': %s\n\r"
+	  "\n'7) Default': %s\n\r"
+	  "\n'8) Attack': %s\n\r"
+    "\n## Stats"
+	  "\n'A) NPC Flags': %s\n\r"
+	  "\n'B) AFF Flags': %s\n\r"
+    "\n'S) Script': %s\n\r"
+    "\n'W) Copy': Make a copy of mobile.\n\r"
+	  "\n'X) Delete': Delet the mobile.\n\r"
+	  "\n'Q) Quit': Quit Mobile Edit\n\r"
+	  "\n====\n\r",
+    "\nEnter choice\n\r",
+
+	  position_types[(int)GET_POS(mob)],
+	  position_types[(int)GET_DEFAULT_POS(mob)],
+	  attack_hit_text[(int)GET_ATTACK(mob)].singular,
+	  flags,
+	  flag2,
+    OLC_SCRIPT(d) ?"Set.":"Not Set.",
 	  );
 
   OLC_MODE(d) = MEDIT_MAIN_MENU;
