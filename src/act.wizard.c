@@ -769,10 +769,15 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   struct follow_type *fol;
   struct affected_type *aff;
 
+  send_to_char(ch, "# %s\n", GET_NAME(k));
+  send_to_char(ch, "\nid: %5ld\n\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
+  send_to_char(ch, "\ntype: %s\n\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
+
   sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "# Stat\n\ngender: %s\r\ntype: %s\r\nname:%s'\r\nid: %5ld\r\nroom: %5d\r\nloadroom: %5d\r\n----\n\n",
-	  buf, (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
-	  GET_NAME(k), IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)), IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
+  send_to_char(ch, "\ngender: %s\n\r", buf);
+
+  send_to_char(ch, "\nroom: %5d\n\r", GET_ROOM_VNUM(IN_ROOM(k)));
+  send_to_char(ch, "\nloadroom: %5d\n\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
   if (IS_MOB(k)) {
     send_to_char(ch, "\nvnum: %5d\n\r", GET_MOB_VNUM(k));
