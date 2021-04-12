@@ -442,7 +442,7 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\n'S) Script': %s\n\r"
     "\n'W) Copy': Make a copy of mobile.\n\r"
 	  "\n'X) Delete': Delet the mobile.\n\r"
-	  "\n'Q) Quit': Quit Mobile Edit\n\r"
+	  "\n'Q) Quit': Quit Mobile Edit\n\r",
 	  "\n====\n\r",
     "\nEnter choice\n\r",
 
