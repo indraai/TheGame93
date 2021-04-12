@@ -434,10 +434,11 @@ A large elephant surrounded by water rises out of the pool.
 ~
 It is a beautiful thing, this creature from the depths of the Abyss. It glares down at you through deep eyes, and bares its huge white tusks.
 ~
-256058 0 0 0 80 0 0 0 1000 E
+256282 0 0 0 10360 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 6 8 1
+BareHandAttack: 6
 E
 T 15001
 $
