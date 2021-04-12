@@ -1,15 +1,15 @@
 #3100
-maid~
-the Maid~
-The Maid is waiting for your order.
+ServiceDEVA~
+ServiceDEVA~
+The ServiceDEVA is here.
 ~
-   She is very beautiful with golden hair, and deep blue eyes.  A good reason
+She is very beautiful with golden hair, and deep blue eyes.  A good reason
 for coming here more often, you think to yourself.
 ~
 26635 0 0 0 16 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 2
+8 8 0
 E
 #3101
 sexton~
@@ -37,8 +37,8 @@ A very happy Nitro Ultra Hero SecurityPRIME.
 BareHandAttack: 12
 E
 #3103
-security deva securitydeva securityelite~
-SecurityDEVA (Elite)~
+security deva securitydeva elitesecurity~
+SecurityDEVA E03~
 SecurityDEVA (Elite) is here.
 ~
 A very happy SecurityDEVA.
@@ -64,11 +64,11 @@ meantime.  '
 8 8 2
 E
 #3105
-mayor~
-the Mayor~
-The Mayor is sitting in his huge chair, snoring loudly.
+mayor moron~
+the Moron~
+The Moron is sitting in his huge chair, snoring loudly.
 ~
-   He is a stocky, middle-aged man with thin, gray hair.
+He is a stocky, middle-aged man with thin, gray hair.
 ~
 26635 0 0 0 16 0 0 0 1000 E
 24 12 -4 4d4+240 4d4+4
@@ -136,7 +136,7 @@ A duck is here, quacking happily.
 8 8 0
 E
 #3124
-security deva securitydeva securityelite e24~
+security deva securitydeva elitesecurity e24~
 SecurityDEVA E24~
 SecurityDEVA (Elite) is here.
 ~
@@ -149,7 +149,7 @@ A very happy SecurityDEVA.
 BareHandAttack: 4
 E
 #3125
-security deva securitydeva securityelite e25~
+security deva securitydeva elitesecurity e25~
 SecurityDEVA E25~
 SecurityDEVA (Elite) is here.
 ~
@@ -162,7 +162,7 @@ A very happy SecurityDEVA.
 BareHandAttack: 4
 E
 #3126
-security deva securitydeva securityelite e26~
+security deva securitydeva elitesecurity e26~
 SecurityDEVA E26~
 SecurityDEVA (Elite) is here.
 ~
@@ -175,7 +175,7 @@ A very happy SecurityDEVA.
 BareHandAttack: 4
 E
 #3127
-security deva securitydeva securityelite e27~
+security deva securitydeva elitesecurity e27~
 SecurityDEVA E27~
 SecurityDEVA (Elite) is here.
 ~
@@ -188,7 +188,7 @@ A very happy SecurityDEVA.
 BareHandAttack: 4
 E
 #3128
-security deva securitydeva securityelite e28~
+security deva securitydeva elitesecurity e28~
 SecurityDEVA E28~
 SecurityDEVA (Elite) is here.
 ~
