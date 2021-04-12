@@ -775,14 +775,16 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 	  GET_NAME(k), IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)), IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
   if (IS_MOB(k)) {
-    send_to_char(ch, "Keyword: %s, VNum: [%5d], RNum: [%5d]\r\n", k->player.name, GET_MOB_VNUM(k), GET_MOB_RNUM(k));
-    send_to_char(ch, "L-Des: %s", k->player.long_descr ? k->player.long_descr : "<None>\r\n");
+    send_to_char(ch, "\nvnum: %5d\n\r", GET_MOB_VNUM(k));
+    send_to_char(ch, "\nrnum: %5d\n\r", GET_MOB_RNUM(k));
+    send_to_char(ch, "\nkeyword: %s\n\r", k->player.name);
+    send_to_char(ch, "\n'l-desc': %s\n\r", k->player.long_descr ? k->player.long_descr : "<None>\n\r");
   }
 
   if (!IS_MOB(k))
-    send_to_char(ch, "Title: %s\r\n", k->player.title ? k->player.title : "<None>");
+    send_to_char(ch, "\ntitle: %s\n\r", k->player.title ? k->player.title : "<None>");
 
-  send_to_char(ch, "D-Des: %s", k->player.description ? k->player.description : "<None>\r\n");
+  send_to_char(ch, "desc: %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
 
   sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
   send_to_char(ch, "%s%s, Lev: [%s%2d%s], XP: [%s%7d%s], Align: [%4d]\r\n",
