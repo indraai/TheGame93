@@ -44,10 +44,11 @@ The Royal Guard Jim is here.
 As all members of the Guard, Jim wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
-73 0 0 0 0 0 0 0 800 E
+194841 0 0 0 10360 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 0
+BareHandAttack: 3
 E
 #15004
 royal deva royaldeva guard brian security secuirtydeva~
@@ -57,10 +58,11 @@ The RoyalDEVA Guard Brian is here.
 As all members of the Guard, Brian wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
-75 0 0 0 0 0 0 0 800 E
+194841 0 0 0 10352 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 1
+BareHandAttack: 14
 E
 #15005
 royal deva royaldeva guard mick security secuirtydeva~
@@ -70,7 +72,7 @@ The RoyalDEVA Guard Mick is here.
 As all members of the Guard, Mick wears the chain mail required of them as
 uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
-75 0 0 0 0 0 0 0 800 E
+194841 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 0
