@@ -789,12 +789,12 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   if (!IS_MOB(k))
     send_to_char(ch, "\ntitle: %s\n\r", k->player.title ? k->player.title : "<None>");
 
-  send_to_char(ch, "\ndesc: %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
+  send_to_char(ch, "\nd-desc: %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
 
   sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
-  send_to_char(ch, "%s%s, Lev: [%s%2d%s], XP: [%s%7d%s], Align: [%4d]\r\n",
-	IS_NPC(k) ? "Mobile" : "Class: ", IS_NPC(k) ? "" : buf, CCYEL(ch, C_NRM), GET_LEVEL(k), CCNRM(ch, C_NRM),
-	CCYEL(ch, C_NRM), GET_EXP(k), CCNRM(ch, C_NRM), GET_ALIGNMENT(k));
+  send_to_char(ch, "%s: %s - lev[%2d]|xp[%7d]|align[%4d]\r\n",
+
+	IS_NPC(k) ? "Mobile" : "Class", IS_NPC(k) ? "" : buf, GET_LEVEL(k), GET_EXP(k), GET_ALIGNMENT(k));
 
   if (!IS_NPC(k)) {
     char buf1[64], buf2[64];
