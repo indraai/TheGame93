@@ -1,6 +1,6 @@
 #3000
-sage deva sagedeva~
-the SageDEVA~
+deva sage sagedeva~
+SageDEVA~
 A SageDEVA walks around behind the counter, talking to himself.
 ~
 The SageDEVA looks old and wise, and yet he looks like a very powerful sage.
@@ -9,11 +9,11 @@ He is equipped with fine clothing, and is wearing many fine rings and bracelets.
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3001
 baker deva bakerdeva~
-the BakerDEVA~
+BakerDEVA~
 The BakerDEVA looks at you calmly, wiping flour from his face with one hand.
 ~
 A fat, nice looking baker.  But you can see that he has many been eating a few
@@ -22,11 +22,11 @@ too many pastries.
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3002
 grocer deva grocerdeva~
-the GrocerDEVA~
+GrocerDEVA~
 A GrocerDEVA stands at the counter, with a patient look on his face.
 ~
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
@@ -34,11 +34,11 @@ A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3003
 maker deva makerdeva~
-the MakerDEVA~
+MakerDEVA~
 A MakerDEVA is standing here.
 ~
 He is a young MakerDEVA, who still has lots to learn but he is still eager to
@@ -47,11 +47,11 @@ sell you his latest implements of creativity and imagination.
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3004
 armor deva armordeva~
-the ArmorDEVA~
+ArmorDEVA~
 An ArmorDEVA stands here displaying his new (and previously owned) armors.
 ~
 An old but very strong armorer.  He has made more suits of armor in his
@@ -60,7 +60,7 @@ life than you have ever seen.
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3005
 reception deva receptiondeva~
@@ -73,7 +73,7 @@ his job.
 59419 0 0 0 65616 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3006
 captain deva captaindeva~
@@ -85,11 +85,11 @@ This captain has seen more storms than you have cried tears.
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3007
 sailor deva sailordeva~
-the SailorDEVA~
+SailorDEVA~
 A SailorDEVA stands here, waiting to help you.
 ~
 He looks like a strong, fit sailor.
@@ -97,24 +97,24 @@ He looks like a strong, fit sailor.
 26634 0 0 0 0 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3008
-uncle juan~
-Uncle Juan~
-Uncle Juan is here ready to take your order.
+mexi deva mexideva~
+MexiDEVA~
+MexiDEVA is here ready to take your order.
 ~
 He looks like he may or may not have a green card.
 ~
 26635 0 0 0 0 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3009
-wally watermaster~
-Wally the Watermaster~
-Wally the Watermaster is standing behind the counter.
+water deva waterdeva~
+WaterDEVA~
+The WaterDEVA is standing behind the counter.
 ~
 Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati
 Natural Spring Water in his hand.  When he notices you, he proudly displays his
@@ -123,11 +123,11 @@ fine collection of contemporary waters.
 26635 0 0 0 16 0 0 0 800 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3010
 mail deva maildeva~
-the MailDEVA~
+MailDEVA~
 The head MailDEVA is standing here, waiting to help you with your mail.
 ~
 The Postmaster seems like a happy old man.  He always on the job making sure
@@ -137,12 +137,12 @@ mail delivery system for all in Amaravati.
 518154 0 0 0 65552 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3011
-travelling salesman~
-the travelling salesman~
-This salesman is laden with gadgets and gizmos.
+sales deva salesdeva~
+SalesDEVA~
+This SalesDEVA is laden with gadgets and gizmos.
 ~
 A combination of good business sense, charming personality, and good manners has
 made him a success with his customers.
@@ -150,11 +150,11 @@ made him a success with his customers.
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 0
 E
 #3012
 offering deva offeringdeva~
-the OfferingDEVA~
+OfferingDEVA~
 The OfferingDEVA is here looking out for those who need it.
 ~
 He immediately reminds you of your best friend.  He is always around to help out
@@ -163,12 +163,12 @@ those who have hit hard times and need a little boost.
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 0
 E
 T 3016
 #3013
 guide guidedeva deva~
-the GuideDEVA~
+GuideDEVA~
 A GuideDEVA is here to help. "tell guide help" for assistance.
 ~
 This young man has the sole purpose of helping those who need assistance.
@@ -178,7 +178,7 @@ attractions.
 10 0 0 0 2128 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -187,7 +187,7 @@ SavingSpell: 2
 E
 #3020
 masters sage deva sagedeva~
-the SageMASTER~
+SageMASTER~
 Your SageMASTER is studying a spellbook while preparing to cast a spell.
 ~
 Even though your SageMaster looks old and tired, you can clearly see the
@@ -197,11 +197,11 @@ you notice that she is surrounded by a blue shimmering aura.
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 0
 E
 #3021
 masters master monk deva monkdeva~
-the MonkMASTER~
+MonkMASTER~
 Your MonkMaster is meditating here.
 ~
 You are in no doubt that this MonkMASTER is truly close to Indra; he has a
@@ -210,11 +210,11 @@ peaceful, loving look.  You notice that he is surrounded by a white aura.
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 0
 E
 #3022
 masters master artist deva artistdeva~
-the ArtistMASTER~
+ArtistMASTER~
 A Artist is sitting here, could he be a ArtistMASTER?
 ~
 You realize that whenever your MASTER moves, the way of the true artist.
@@ -223,11 +223,11 @@ He is to be dressed in messy clothing, having the appearance of a artist.
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 0
 E
 #3023
 masters master hero deva herodeva~
-the HeroMASTER~
+HeroMASTER~
 Your HeroMASTER is standing here with a sharp look in his eyes.
 ~
 This is your master.  Big and strong with bulging muscles.  Several scars
@@ -237,12 +237,12 @@ calm look on his face.
 59419 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 0
 E
 #3024
-sage deva sagedeva guard~
-the SageDEVA~
-A SageDEVA is guarding the entrance.
+security deva securitydeva guard~
+SecurityDEVA (Guard)~
+A SecurityDEVA is guarding the entrance.
 ~
 He is an experienced sage who has specialized in the field of Warrior Magic.
 He is here to guard the Sage's Guild and his superior knowledge of offensive as
@@ -251,13 +251,13 @@ well as defensive tactics make him a fearful opponent.
 256010 0 0 0 80 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 T 3000
 #3025
-monk deva monkdeva guard~
-the MonkDEVA~
-A MonkDEVA is guarding the entrance.
+security deva securitydeva guard~
+SecurityDEVA (Guard)~
+A SecurityDEVA is guarding the entrance.
 ~
 He is a specially trained monk belonging to the military order.  His duty is to
 protect the faithful from persecution and attacks and his devotion combined with
@@ -266,13 +266,13 @@ his superior skill makes him a scary opponent.
 256010 0 0 0 80 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 T 3001
 #3026
-artist artistdeva deva guard~
-the ArtistDEVA~
-An ArtistDEVA is guarding the entrance.
+security deva securitydeva guard~
+SecurityDEVA (Guard)~
+A SecurityDEVA is guarding the entrance.
 ~
 He is a artist who has specialized in painting others as effectively as possible,
 using all sorts of tools.  His superior knowledge of how and where to use them
@@ -282,13 +282,13 @@ combined with his extraordinary talent makes him a master artist.
 256010 0 0 0 1572944 0 0 0 400 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 T 3002
 #3027
-hero deva herodeva guard~
-the HeroDEVA~
-A HeroDEVA is guarding the entrance.
+security deva securitydeva guard~
+SecurityDEVA (Guard)~
+A SecurityDEVA is guarding the entrance.
 ~
 He is an expert warrior who has attained hero status through countless
 heroic deeds.  His duty is to protect and his extreme skill combined with his
@@ -297,12 +297,12 @@ experience in dangerous opponent.
 256010 0 0 0 80 0 0 0 800 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 T 3003
 #3040
-service servicedeva deva~
-the ServiceDEVA~
+drink drinkdeva deva~
+DrinkDEVA~
 A ServiceDEVA watches you calmly, while he skillfully mixes a drink.
 ~
 A happy looking ServiceDEVA who hates trouble in his bar.
@@ -310,11 +310,11 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 24586 0 0 0 0 0 0 0 900 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-8 8 1
+8 8 0
 E
 #3041
 waiter deva waiterdeva~
-the WaiterDEVA~
+WaiterDEVA~
 A WaiterDEVA is going around from one place to another.
 ~
 A happy looking waiter.
@@ -322,11 +322,11 @@ A happy looking waiter.
 24586 0 0 0 0 0 0 0 900 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 1
+8 8 0
 E
 #3042
 waiter deva waiterdeva~
-the WaiterDEVA~
+WaiterDEVA~
 A WaiterDEVA is standing here.
 ~
 The WaiterDEVA is here waiting for your order.
@@ -334,11 +334,11 @@ The WaiterDEVA is here waiting for your order.
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 1
+8 8 0
 E
 #3043
 waiter deva waiterdeva~
-the WaiterDEVA~
+WaiterDEVA~
 A WaiterDEVA is standing here.
 ~
 The WaiterDEVA is here waiting for your order.
@@ -346,11 +346,11 @@ The WaiterDEVA is here waiting for your order.
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 1
+8 8 0
 E
 #3044
 waiter deva waiterdeva~
-the WaiterDEVA~
+WaiterDEVA~
 A WaiterDEVA is standing here.
 ~
 The WaiterDEVA is here waiting for your order.
@@ -358,11 +358,11 @@ The WaiterDEVA is here waiting for your order.
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 1
+8 8 0
 E
 #3045
 waiter deva waiterdeva~
-the WaiterDEVA~
+WaiterDEVA~
 A WaiterDEVA is standing here.
 ~
 The WaiterDEVA is here waiting for your order.
@@ -370,50 +370,50 @@ The WaiterDEVA is here waiting for your order.
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 1
+8 8 0
 E
 #3046
-service servicedeva deva~
-the ServiceDEVA~
-A ServiceDEVA watches you calmly, while he skillfully mixes a drink.
+drink drinkdeva deva~
+DrinkDEVA~
+A DrinkDEVA watches you calmly, while he skillfully mixes a drink.
 ~
 A happy looking ServiceDEVA who hates trouble in his bar.
 ~
 26650 0 0 0 16 0 0 0 600 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #3059
 security deva secuirtydeva~
-the SecurityDEVA~
+SecurityDEVA~
 A SecurityDEVA is standing here.
 ~
-He looks very strong and wise.
+A very strong and wise SecurityDEVA.
 ~
 6232 0 0 0 16 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 1
+8 8 0
 BareHandAttack: 10
 E
 T 3009
 #3060
 secuirty deva securitydeva~
-the SecurityDEVA~
-A GuardDEVA stands here.
+SecurityDEVA~
+A SecurityDEVA is here.
 ~
-A big, strong, helpful, trustworthy guard.
+A big, strong, helpful, trustworthy SecurityDEVA.
 ~
 6216 0 0 0 16 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 T 3009
 #3061
 service deva servicedeva~
-the ServiceDEVA~
+ServiceDEVA~
 A ServiceDEVA is cleaning up.
 ~
 ServiceDEVA love their jobs of cleaning up and finding recycle items.
@@ -421,12 +421,12 @@ ServiceDEVA love their jobs of cleaning up and finding recycle items.
 2120 0 0 0 0 0 0 0 800 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 0
 E
 T 3011
 #3062
-tackle tackledummy dummy~
-the TackleDummy~
+tackle tackledummy dummy target~
+TackleDummy Target~
 A tackle dummy is looking for tackles.
 ~
 The tackle dummy is a small dummy that runs around with a target on it's back.
@@ -434,7 +434,7 @@ The tackle dummy is a small dummy that runs around with a target on it's back.
 202 0 0 0 65536 0 0 0 -200 E
 1 20 9 0d0+10 1d2+0
 1000 100
-8 8 1
+8 8 0
 BareHandAttack: 4
 E
 T 3010
@@ -448,12 +448,12 @@ He looks pretty tough, and you imagine he'd do anything to complete a heroic dee
 2058 0 0 0 0 0 0 0 330 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1
+8 8 0
 E
 #3064
 monk~
-the Chanting Monk~
-A chanting, happy Monk.
+Chanting Monk~
+A chanting, happy Monk is here.
 ~
 A monk who seems to be too happy, and chanting.
 ~
@@ -464,7 +464,7 @@ A monk who seems to be too happy, and chanting.
 E
 #3065
 monk~
-the Monk~
+Monk~
 A Monk is on his alms rounds for offerings.
 ~
 The monk looks like he is happy with life.
@@ -475,7 +475,7 @@ The monk looks like he is happy with life.
 8 8 1
 E
 #3066
-tackle dog dummy tackledog tackledummy~
+tackle dummy tackledummy~
 the Backwards Tackle Dummy~
 A backwards tackle dummy is here with a target on it's back.
 ~
@@ -489,16 +489,16 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-deva guard guarddeva guard~
-the GuardDEVA~
-A GuardDEVA is here, guarding the gate.
+security deva securitydeva guard~
+SecurityDEVA (Guard)~
+A SecurityDEVA is here, guarding the gate.
 ~
-A big, strong, helpful, trustworthy guard.
+A big, strong, helpful, trustworthy SecurityDEVA.
 ~
 6218 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 T 3009
 #3068
@@ -516,9 +516,9 @@ BareHandAttack: 6
 E
 T 3011
 #3089
-devashops deva shop shopdeva buddies devabuddy~
-the DevaBuddy~
-There is a DevaBuddy standing here cuddling something in his hands.
+deva BuddyDEVA buddy~
+BuddyDEVA~
+There is a BuddyDEVA standing here cuddling something in his hands.
 ~
 As you look at him, he opens his hands to reveal a cute little deva buddy!
 ~
@@ -529,7 +529,7 @@ As you look at him, he opens his hands to reveal a cute little deva buddy!
 E
 #3090
 mini deva buddy minibuddy devabuddy~
-the Mini DevaBuddy~
+Mini DevaBuddy~
 A Mini DevaBuddy is here.
 ~
 The DevaBuddy looks like a cute, little, loyal friend.
@@ -542,7 +542,7 @@ BareHandAttack: 8
 E
 #3091
 small deva buddy sbuddy devabuddy~
-the Small DevaBuddy~
+Small DevaBuddy~
 A Small DevaBuddy is here.
 ~
 The DevaBuddy looks like a cute, little, loyal friend.
@@ -555,7 +555,7 @@ BareHandAttack: 8
 E
 #3092
 medium deva buddy mbuddy devabuddy~
-the Medium DevaBuddy~
+Medium DevaBuddy~
 A Medium DevaBuddy is here.
 ~
 The Medium DevaBuddy looks like a loyal friend.
@@ -568,7 +568,7 @@ BareHandAttack: 4
 E
 #3093
 large deva buddy lbuddy devabuddy~
-the Large Deva Buddy~
+Large Deva Buddy~
 A Large DevaBuddy is here.
 ~
 The Large DevaBuddy looks like a strong, loyal friend.
@@ -580,9 +580,9 @@ The Large DevaBuddy looks like a strong, loyal friend.
 BareHandAttack: 4
 E
 #3094
-huge deva buddy hbuddy devabuddy~
-the Huge DevaBuddy~
-A Huge DevaBuddy is here.
+huge deva buddy devabuddy~
+Huge DevaBuddy~
+A huge DevaBuddy is here.
 ~
 The Huge DevaBuddy like a strong, loyal friend.
 ~
