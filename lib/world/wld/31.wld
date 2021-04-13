@@ -856,6 +856,11 @@ adventure[world]:3143/look
 ~
 ~
 0 -1 3143
+D1
+adventure[world]:3579/look
+~
+~
+0 -1 3579
 D2
 adventure[world]:3145/look
 ~
@@ -877,11 +882,6 @@ adventure[world]:3144/look
 ~
 ~
 0 -1 3144
-D1
-adventure[world]:3579/look
-~
-~
-0 -1 3579
 D2
 adventure[world]:3146/look
 ~
