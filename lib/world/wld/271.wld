@@ -220,8 +220,8 @@ D5
 0 -1 27104
 S
 #27109
-The gate at the cliffs~
-   The wind picks up and blows sharply at your hair and garb as the town falls
+Agency: Sundhaven~
+The wind picks up and blows sharply at your hair and garb as the town falls
 behind and the world opens out before you.  You are standing atop a highland
 cliff, lined with mosses, lichen and purple heather, and looking out over a
 foggy wetland.  The graveyard for the dead of Sundhaven lies near the foot of
@@ -238,6 +238,11 @@ D2
 ~
 ~
 0 -1 27108
+D3
+adventure[world]:3145/look
+~
+~
+0 -1 3145
 S
 #27110
 A lane bordering the cliffs~
@@ -362,7 +367,7 @@ spiral.  A stairwell has its foot at the north wall, rickety but presumably
 stable enough to support you.  A dim violet faerie glow illuminates the room.
 
 ~
-271 12 0 0 0 0
+271 8 0 0 0 0
 D2
 ~
 ~
@@ -537,7 +542,7 @@ rain and leaking water, light and a chilling wind in to its inhabitants, who
 look sick from poverty.  A rat scurries nonchalantly by your toes, then pauses
 to debate their merits as food.  The mud floor is littered with debris.
 ~
-271 12 0 0 0 0
+271 8 0 0 0 0
 D3
 ~
 ~
@@ -1114,7 +1119,7 @@ openers flash in the light as they heedlessly try to backstab anyone in sight.
 It's a droll scene.  You decide it prudent to mail your wares and be on your
 way.  There is a sign posted on the north wall.
 ~
-271 12 0 0 0 0
+271 8 0 0 0 0
 D1
 ~
 ~
