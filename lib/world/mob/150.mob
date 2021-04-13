@@ -88,14 +88,15 @@ E
 #15007
 royal deva royaldeva guard joshua security securitydeva~
 RoyalDEVA Joshua~
-The RoyalDEVA Guard Joshua sits here, off duty.
+The RoyalDEVA Guard Joshua is here.
 ~
 As all members of the Guard, Jochem wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
 ~
-73 0 0 0 0 0 0 0 900 E
+194841 0 0 0 10360 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
 130 16900
 6 6 0
+BareHandAttack: 10
 E
 #15008
 royal deva royaldeva guard anne security securitydeva~
