@@ -122,11 +122,6 @@ landscape that lies beyond, you can see why.  A dirt road leads off to the east,
 and a store is directly south.
 ~
 120 0 0 0 0 1
-D0
-adventure[world]:3142/look
-~
-~
-0 -1 3142
 D1
 Through the clouds of dust, you can make out a passable road.
 ~
@@ -138,16 +133,10 @@ You can barely make out a storefront through the foliage.
 ~
 0 -1 12006
 D3
-The gate has been permanently rusted shut and is further secured by a large
-chain and padlock.  Don't even bother THINKING about trying to open it.
+adventure[world]:3142/look
 ~
-gate~
-2 -1 -1
-E
-gate~
-   The gate has been permanently rusted shut and is further secured by a large
-chain and padlock.  Don't even bother THINKING about trying to open it.
 ~
+0 -1 3142
 S
 #12006
 Swords 'R  Us~
