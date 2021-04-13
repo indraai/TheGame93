@@ -780,7 +780,7 @@ adventure[world]:3139/look
 0 -1 3139
 S
 #3141
-The End Of Penny Lane~
+Penny Lane~
 adventure[world]:3141/main
 ~
 31 0 0 0 0 1
@@ -789,6 +789,22 @@ adventure[world]:3140/look
 ~
 ~
 0 -1 3140
+S
+#3142
+Security Corridor~
+adventure[world]:3142/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:15008/look
+~
+~
+0 -1 15008
+D1
+adventure[world]:3110/look
+~
+~
+0 -1 3110
 S
 #3150
 A Gravel Road In The Graveyard~

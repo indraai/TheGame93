@@ -178,11 +178,15 @@ door small~
 1 -1 15006
 S
 #15008
-The Guard Room~
-   You are in a small room, evidently meant for guards currently
-not on duty.  There is only one exit, back to the entrance hall.
+The Agency: Indra Castle~
+You are in a small room, evidently meant for guards currently not on duty.  There is only one exit, back to the entrance hall.
 ~
 150 8 0 0 0 0
+D2
+adventure[world]:3142/look
+~
+~
+0 -1 3142
 D3
 You see the Castle Entrance.
 ~

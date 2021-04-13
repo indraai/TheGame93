@@ -397,9 +397,9 @@ SPECIAL(king_indra)
       path_index = 0;
     }
   }
-  // if (cmd || (GET_POS(ch) < POS_SLEEPING) ||
-  //     (GET_POS(ch) == POS_SLEEPING && !move))
-  //   return (FALSE);
+  if (cmd || (GET_POS(ch) < POS_SLEEPING) ||
+      (GET_POS(ch) == POS_SLEEPING && !move))
+    return (FALSE);
 
   if (GET_POS(ch) == POS_FIGHTING) {
     fry_victim(ch);
