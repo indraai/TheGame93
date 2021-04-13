@@ -795,12 +795,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     GET_LEVEL(k), GET_EXP(k), GET_ALIGNMENT(k));
 
   send_to_char(ch, "\nstrong: str[%d/%d] int[%d]  wis[%d] dex[%d] con[%d] cha[%d]\r\n",
-	  GET_STR(k), GET_ADD(k),
-	  GET_INT(k),
-	  GET_WIS(k),
-	  GET_DEX(k),
-	  GET_CON(k),
-	  GET_CHA(k));
+	  GET_STR(k), GET_ADD(k), GET_INT(k), GET_WIS(k), GET_DEX(k), GET_CON(k), GET_CHA(k));
 
   if (!IS_NPC(k)) {
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
