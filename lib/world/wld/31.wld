@@ -415,12 +415,12 @@ adventure[world]:30600/look
 ~
 0 -1 30600
 E
-sign~
-adventure[world]:3120/sign
-~
-E
 tree~
 adveenture:3120/tree
+~
+E
+sign~
+adventure[world]:3120/sign
 ~
 S
 #3121
@@ -720,16 +720,16 @@ adventure[world]:3117/look
 ~
 0 -1 3117
 E
-chair chairs~
-adventure[world]:3137/chair
+typewriter~
+adventure[world]:3137/typewriter
 ~
 E
 desk~
 adventure[world]:3137/desk
 ~
 E
-typewriter~
-adventure[world]:3137/typewriter
+chair chairs~
+adventure[world]:3137/chair
 ~
 S
 #3138
@@ -743,12 +743,12 @@ adventure[world]:3137/look
 ~
 0 -1 3137
 E
-desk~
-adventure[world]:3138/desk
-~
-E
 chair armchair~
 adventure[world]:3138/chair
+~
+E
+desk~
+adventure[world]:3138/desk
 ~
 S
 #3139
@@ -809,6 +809,10 @@ adventure[world]:3110/look
 ~
 ~
 0 -1 3110
+D2
+~
+~
+0 0 24232
 S
 #3150
 A Gravel Road In The Graveyard~
@@ -910,8 +914,8 @@ The chapel door is made of dark wood.
 door~
 1 -1 3154
 E
-glass windows~
-   The windows must be meant to be dark.  At least they are completely clean.
+benches rows~
+   The benches are not of the comfortable kind.
 ~
 E
 altar~
@@ -920,8 +924,8 @@ notice that it seems less dusty than the rest of the room...  Someone must clean
 here regularly...  Maybe that old guy in Park Cafe, he looked like that sort...
 ~
 E
-benches rows~
-   The benches are not of the comfortable kind.
+glass windows~
+   The windows must be meant to be dark.  At least they are completely clean.
 ~
 S
 $~
