@@ -794,7 +794,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\nstats: level[%d] xp[%d] align[%d]\r\n",
     GET_LEVEL(k), GET_EXP(k), GET_ALIGNMENT(k));
 
-  send_to_char(ch, "\nstrong: str[%d/%d] int[%s%d%s]  wis[%d] dex[%d] con[%d] cha[%d]\r\n",
+  send_to_char(ch, "\nstrong: str[%d/%d] int[%d]  wis[%d] dex[%d] con[%d] cha[%d]\r\n",
 	  GET_STR(k), GET_ADD(k),
 	  GET_INT(k),
 	  GET_WIS(k),
