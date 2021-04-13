@@ -791,8 +791,16 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   send_to_char(ch, "\n'd-desc': %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
 
-  send_to_char(ch, "\nstats: level[%2d] xp[%7d] align[%4d]\r\n",
+  send_to_char(ch, "\nstats: level[%d] xp[%d] align[%d]\r\n",
     GET_LEVEL(k), GET_EXP(k), GET_ALIGNMENT(k));
+
+  send_to_char(ch, "\nstrong: str[%d/%d] int[%s%d%s]  wis[%d] dex[%d] con[%d] cha[%d]\r\n",
+	  GET_STR(k), GET_ADD(k),
+	  GET_INT(k),
+	  GET_WIS(k),
+	  GET_DEX(k),
+	  GET_CON(k),
+	  GET_CHA(k));
 
   if (!IS_NPC(k)) {
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
@@ -824,14 +832,6 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     }
     send_to_char(ch, "\r\n");
   }
-  send_to_char(ch, "Str: [%s%d/%d%s]  Int: [%s%d%s]  Wis: [%s%d%s]  "
-	  "Dex: [%s%d%s]  Con: [%s%d%s]  Cha: [%s%d%s]\r\n",
-	  CCCYN(ch, C_NRM), GET_STR(k), GET_ADD(k), CCNRM(ch, C_NRM),
-	  CCCYN(ch, C_NRM), GET_INT(k), CCNRM(ch, C_NRM),
-	  CCCYN(ch, C_NRM), GET_WIS(k), CCNRM(ch, C_NRM),
-	  CCCYN(ch, C_NRM), GET_DEX(k), CCNRM(ch, C_NRM),
-	  CCCYN(ch, C_NRM), GET_CON(k), CCNRM(ch, C_NRM),
-	  CCCYN(ch, C_NRM), GET_CHA(k), CCNRM(ch, C_NRM));
 
   send_to_char(ch, "Hit p.:[%s%d/%d+%d%s]  Mana p.:[%s%d/%d+%d%s]  Move p.:[%s%d/%d+%d%s]\r\n",
 	  CCGRN(ch, C_NRM), GET_HIT(k), GET_MAX_HIT(k), hit_gain(k), CCNRM(ch, C_NRM),
