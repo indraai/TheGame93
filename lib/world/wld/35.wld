@@ -853,8 +853,8 @@ You can return to cleaner lands this way.
 0 -1 3573
 S
 #3579
-A Quieter Section Of The Inn~
-   There seems to be no one in this end of the Woodsman, probably a safe place
+Agency: Miden'Nir~
+There seems to be no one in this end of the Woodsman, probably a safe place
 to rest and lick your wounds...
 ~
 35 8 0 0 0 0
@@ -863,6 +863,11 @@ You see the common room.
 ~
 ~
 0 -1 3574
+D3
+adventure[world]:3145/look
+~
+~
+0 -1 3145
 S
 #3581
 On The Trail Of The Horsemen~
