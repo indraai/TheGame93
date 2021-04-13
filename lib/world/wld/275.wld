@@ -88,7 +88,7 @@ confident that this city is at least 1000 times better than Amaravati.
 the economically challenged neighborhood (note the PC terminology).
 Broadway continues to the north.
 ~
-275 4 0 0 0 1
+275 0 0 0 0 1
 D0
 You see Broadway continues.
 ~
@@ -672,7 +672,7 @@ though not strongly recommended.
    To the east are the Blue Seats, to the north are the West Stands.
 Going west, you exit the stadium.
 ~
-275 12 0 0 0 0
+275 8 0 0 0 0
 D0
 You see the West Stands.
 ~
@@ -832,7 +832,7 @@ staff.
    The West Stands are to the south and to the east is WarVision,
 the stadium's extensive scoreboard.
 ~
-275 12 0 0 0 0
+275 8 0 0 0 0
 D1
 You see the back of the scoreboard.
 ~
@@ -912,7 +912,7 @@ inviting someone to walk in.
    The concourse runs west, to the north you may enter the locker-
 room.
 ~
-275 12 0 0 0 0
+275 8 0 0 0 0
 D0
 You see the open door to the Visitor's Locker room.
 ~
@@ -1089,7 +1089,7 @@ and begin to feel your animalistic instincts rise inside of you.
 Can you take that long walk...?
    Above you are the stands, to your east is the playing field.
 ~
-275 12 0 0 0 0
+275 8 0 0 0 0
 D1
 You see the gridiron awaiting you.
 ~
@@ -1111,7 +1111,7 @@ animalistic instincts rise inside of you.  Can you take that
 long walk...?
    Above you are the stands, to your north is the playing field.
 ~
-275 12 0 0 0 0
+275 8 0 0 0 0
 D0
 You see the gridiron awaiting you.
 ~
@@ -1832,7 +1832,7 @@ gets old, (it sure hasn't with Norm) you're sure to find something
 else to do.
    The Main Bar is to the west, Broadway is to the east.
 ~
-275 12 0 0 0 0
+275 8 0 0 0 0
 D1
 You see Broadway.
 ~
