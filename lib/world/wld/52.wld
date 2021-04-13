@@ -761,7 +761,7 @@ D3
 0 -1 5231
 S
 #5235
-A Small Guard House~
+Agency: Thalos~
    This was once the barracks for Thalos' Cityguards.  Now just an empty
 shell, this small shack still stands guarding the entrance both to the
 city and to the city hall.
@@ -772,6 +772,11 @@ Main street runs by this building.
 ~
 ~
 0 -1 5201
+D3
+adventure[world]:3147/look
+~
+~
+0 -1 3147
 S
 #5236
 A Collapsed Home~
