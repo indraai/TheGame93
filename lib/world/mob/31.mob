@@ -138,7 +138,7 @@ E
 #3124
 security deva securitydeva elitedeva e24~
 SecurityDEVA E24~
-SecurityDEVA (Elite) is here.
+SecurityDEVA E24 is here.
 ~
 A very happy SecurityDEVA.
 ~
@@ -151,7 +151,7 @@ E
 #3125
 security deva securitydeva elitedeva e25~
 SecurityDEVA E25~
-SecurityDEVA (Elite) is here.
+SecurityDEVA E25 is here.
 ~
 A very happy SecurityDEVA.
 ~
@@ -164,7 +164,7 @@ E
 #3126
 security deva securitydeva elitedeva e26~
 SecurityDEVA E26~
-SecurityDEVA (Elite) is here.
+SecurityDEVA E26 is here.
 ~
 A very happy SecurityDEVA.
 ~
@@ -177,7 +177,7 @@ E
 #3127
 security deva securitydeva elitedeva e27~
 SecurityDEVA E27~
-SecurityDEVA (Elite) is here.
+SecurityDEVA E27 is here.
 ~
 A very happy SecurityDEVA.
 ~
@@ -190,7 +190,33 @@ E
 #3128
 security deva securitydeva elitedeva e28~
 SecurityDEVA E28~
-SecurityDEVA (Elite) is here.
+SecurityDEVA E28 is here.
+~
+A very happy SecurityDEVA.
+~
+194840 0 0 0 10352 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+BareHandAttack: 4
+E
+#3129
+security deva securitydeva elitedeva e29~
+SecurityDEVA E29~
+SecurityDEVA E29 is here.
+~
+A very happy SecurityDEVA.
+~
+194840 0 0 0 10352 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+BareHandAttack: 4
+E
+#3130
+security deva securitydeva elitedeva e30~
+SecurityDEVA E30~
+SecurityDEVA E30 is here.
 ~
 A very happy SecurityDEVA.
 ~
