@@ -21,7 +21,7 @@ King Indra is very powerfully built, and wouldn't take kindly to an attack.  Des
 33 9 -9 6d6+330 5d5+5
 330 108900
 6 8 1
-BareHandAttack: 14
+BareHandAttack: 13
 E
 #15002
 ghost wonderful~
@@ -250,10 +250,11 @@ Harry, RoyalDEVA The King's Guard, is here.
 ~
 This guy looks just like his twin, Larry.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary. Watch out Harry and Larry will hijack your chariot.
 ~
-11 0 0 0 16 0 0 0 900 E
+178457 0 0 0 10360 0 0 0 900 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1
+BareHandAttack: 12
 E
 #15021
 larry deva royal royaldeva security securitydeva guard kingguard~
@@ -262,10 +263,11 @@ Larry, RoyalDEVA of The King's Guard, is here.
 ~
 This guy looks just like his twin, Tim.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary. Watch out Larry and Harry will hijack your chariot.
 ~
-11 0 0 0 16 0 0 0 900 E
+194841 0 0 0 10360 0 0 0 900 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1
+BareHandAttack: 5
 E
 #15022
 chef cook deva royaldeva chefdeva service servicedeva~
