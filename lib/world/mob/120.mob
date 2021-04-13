@@ -220,11 +220,11 @@ A citizen of Rome is standing here.
 8 8 1
 E
 #12018
-security deva securitydeva guard~
-SecurityDeva: Rome~
-A SecurityDEVA stands here, guarding the gate.
+security deva securitydeva guard r12018~
+SecurityDeva:R12018~
+A SecurityDEVA R12018 is here..
 ~
-   You see a strong, loyal public defender.
+You see a strong, loyal public defender.
 ~
 2078 0 0 0 0 0 0 0 1000 E
 11 17 3 2d2+110 1d2+1

@@ -240,9 +240,9 @@ calm look on his face.
 8 8 0
 E
 #3024
-security deva securitydeva guard~
-SecurityDEVA (Guard)~
-A SecurityDEVA is guarding the entrance.
+security deva securitydeva guard a3024~
+SecurityDEVA:A3024~
+A SecurityDEVA is here.
 ~
 He is an experienced sage who has specialized in the field of Warrior Magic.
 He is here to guard the Sage's Guild and his superior knowledge of offensive as
@@ -255,8 +255,8 @@ well as defensive tactics make him a fearful opponent.
 E
 T 3000
 #3025
-security deva securitydeva guard~
-SecurityDEVA (Guard)~
+security deva securitydeva guard a3025~
+SecurityDEVA:A3025~
 A SecurityDEVA is guarding the entrance.
 ~
 He is a specially trained monk belonging to the military order.  His duty is to
@@ -270,8 +270,8 @@ his superior skill makes him a scary opponent.
 E
 T 3001
 #3026
-security deva securitydeva guard~
-SecurityDEVA (Guard)~
+security deva securitydeva guard a3026~
+SecurityDEVA:A3026~
 A SecurityDEVA is guarding the entrance.
 ~
 He is a artist who has specialized in painting others as effectively as possible,
@@ -286,8 +286,8 @@ combined with his extraordinary talent makes him a master artist.
 E
 T 3002
 #3027
-security deva securitydeva guard~
-SecurityDEVA (Guard)~
+security deva securitydeva guard a3027~
+SecurityDEVA:A3027~
 A SecurityDEVA is guarding the entrance.
 ~
 He is an expert warrior who has attained hero status through countless
@@ -385,9 +385,9 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 8 8 0
 E
 #3059
-security deva secuirtydeva~
-SecurityDEVA~
-A SecurityDEVA is standing here.
+security deva secuirtydeva a3059~
+SecurityDEVA:A3059~
+A SecurityDEVA is here.
 ~
 A very strong and wise SecurityDEVA.
 ~
@@ -399,8 +399,8 @@ BareHandAttack: 10
 E
 T 3009
 #3060
-secuirty deva securitydeva~
-SecurityDEVA~
+secuirty deva securitydeva a3060~
+SecurityDEVA:A3060~
 A SecurityDEVA is here.
 ~
 A big, strong, helpful, trustworthy SecurityDEVA.
@@ -412,8 +412,8 @@ A big, strong, helpful, trustworthy SecurityDEVA.
 E
 T 3009
 #3061
-service deva servicedeva~
-ServiceDEVA~
+service deva servicedeva a3061~
+ServiceDEVA:A3061~
 A ServiceDEVA is cleaning up.
 ~
 ServiceDEVA love their jobs of cleaning up and finding recycle items.
