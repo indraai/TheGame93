@@ -121,7 +121,7 @@ bars, it hasn't been open for years.  Looking through the gate at the barren
 landscape that lies beyond, you can see why.  A dirt road leads off to the east,
 and a store is directly south.
 ~
-120 0 0 0 0 1
+120 8 0 0 0 1
 D1
 Through the clouds of dust, you can make out a passable road.
 ~
@@ -171,7 +171,7 @@ you haven't seen anything yet!!  There is barely enough room to walk amongst
 the crates of armor and swords.  No wonder Rome will stand for a thousand
 years.  The only exit is through a door to the north.
 ~
-120 9 0 0 0 0
+120 8 0 0 0 0
 D0
 Through the piles of weapons, you can see a door leading north to the rest of
 the store.
@@ -251,7 +251,7 @@ The Jousting Arena~
 skewered by a gladiator's lance as he makes his charge.  A practicing
 area is due north.
 ~
-120 4 0 0 0 2
+120 0 0 0 0 2
 D0
 Through a small tunnel you can see athletes stretching and warming up for
 the games.
@@ -427,7 +427,7 @@ statue of Caligula the Mad Emperor overlooks the area.  There are long
 lines standing to the east, and an acrid smell is coming from the west.
 A busy road lies to the south.
 ~
-120 4 0 0 0 1
+120 0 0 0 0 1
 D1
 The lines are very long and people look impatient.
 ~
@@ -562,7 +562,7 @@ Emperor of a time long since passed, stands here looking out over the crowd.
 There is a passage to the north, the ticket booth is to the south and a gate
 opening to the city lies to the east.
 ~
-120 4 0 0 0 1
+120 0 0 0 0 1
 D0
 You see rows upon rows of dilapidated wooden bleachers.
 ~
@@ -1752,7 +1752,7 @@ there is a city or settlement in that direction.
    You cannot see any breaks in the horizon of the sand which fills your
 vision as you look to the east, it seems to stretch forever.
 ~
-120 4 0 0 0 1
+120 0 0 0 0 1
 D1
 The expanse of the Great Eastern Desert opens up before you.
 ~

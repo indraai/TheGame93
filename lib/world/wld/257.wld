@@ -1320,7 +1320,7 @@ D3
 0 0 26300
 S
 #25757
-Constable's Outpost~
+Agency: Jareth~
    Here the law of Jareth maintains a small but servicable outpost for their
 main office in the center of town.  Posters of known criminals hang from the
 walls, short descriptions of each criminal at the bottom of each.  Knowing that
@@ -1841,7 +1841,7 @@ You may enter onto River St.
 0 -1 25780
 S
 #25782
-Constable's Outpost~
+Agency: Jareth~
    Here the law of Jareth maintains a small but servicable outpost for their
 main office in the center of the city.  Posters of known criminals hang on the
 walls with a short description of each criminal at the bottom of each.  Knowing
@@ -1855,6 +1855,11 @@ D2
 ~
 ~
 0 -1 25781
+D1
+adventure[world]:3143/look
+~
+~
+0 -1 3143
 S
 #25783
 Post Office~
