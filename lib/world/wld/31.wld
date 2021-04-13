@@ -193,7 +193,7 @@ adventure[world]:3108/look
 0 -1 3108
 S
 #3110
-The Agency~
+Agency: Headquarters~
 adventure[world]:3110/main
 ~
 31 8 0 0 0 0
@@ -814,11 +814,6 @@ adventure[world]:3143/look
 ~
 ~
 0 -1 3143
-D3
-adventure[world]:12005/look
-~
-~
-0 -1 12005
 S
 #3143
 Agency Corridor~
@@ -830,6 +825,11 @@ adventure[world]:3142/look
 ~
 ~
 0 -1 3142
+D1
+adventure[world]:12005/look
+~
+~
+0 -1 12005
 D2
 adventure[world]:3144/look
 ~
