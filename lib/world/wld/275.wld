@@ -12,6 +12,11 @@ Zone 275 is linked to the following zones:
 guildmaster: 72, 73, 74, 75
 ~
 275 0 0 0 0 0
+D1
+adventure[world]:3146/look
+~
+~
+0 -1 3146
 D3
 adventure[world]:27501/look
 ~
