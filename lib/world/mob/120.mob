@@ -220,9 +220,9 @@ A citizen of Rome is standing here.
 8 8 1
 E
 #12018
-gateguard guard~
-the gateguard~
-A gateguard stands here, tending the gate.
+security deva securitydeva guard~
+SecurityDeva: Rome~
+A SecurityDEVA stands here, guarding the gate.
 ~
    You see a strong, loyal public defender.
 ~
@@ -385,13 +385,11 @@ The defendant stands here, pleading her case.
 8 8 2
 E
 #12030
-jupiter king god~
-Jupiter~
-Jupiter, King of the Gods, is watching over his realm here.
+indra king god~
+Indra~
+Indra, King of the Gods, is watching over his realm here.
 ~
-   He is the strongest of the Gods, and certainly no easy mark!  His powers
-transcend the plane of the physical, and could easily kill an unprepared mortal.
-
+He is the strongest of the Gods, and certainly no easy mark!  His powers transcend the plane of the physical, and could easily kill an unprepared mortal.
 ~
 256282 0 0 0 65552 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5

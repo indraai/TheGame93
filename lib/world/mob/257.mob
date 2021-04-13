@@ -570,12 +570,11 @@ A Peacekeeper is standing here, ready to jump in at the first sign of trouble.
 8 8 1
 E
 #25760
-constable~
-a member of the city constable~
-A member of the City Constable stands here.
+security deva securitydeva~
+SecurityDEVA: Jareth~
+The Jarety SecurityDEVA Force is here.
 ~
-   A large man with no expression whatsoever showing beneath his visored helm.
-
+A large man with no expression whatsoever showing beneath his visored helm.
 ~
 6216 0 0 0 16 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -595,12 +594,11 @@ A sanitary engineer is walking around, cleaning up.
 8 8 1
 E
 #25762
-constable~
-a member of the city constable~
-A member of the city constable stands here.
+security deva securitydeva~
+SecurityDeva: Jareth~
+The Jareth SecurityDEVA Force is here.
 ~
-   A large man with no expression whatsoever showing beneath his visored helm.
-
+A large man with no expression whatsoever showing beneath his visored helm.
 ~
 6216 0 0 0 16 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -658,11 +656,11 @@ money to help support his family.
 8 8 1
 E
 #25767
-constable~
-a member of the city constable~
-A member of the City Constable is here, guarding against trouble.
+security deva securitydeva~
+SecurityDEVA: Jareth~
+The Jareth SecurityDEVA Force is here.
 ~
-   A big, strong, helpful, trustworthy constable.
+A big, strong, helpful, trustworthy SecurityDEVA.
 ~
 6218 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
