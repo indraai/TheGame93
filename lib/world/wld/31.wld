@@ -201,7 +201,7 @@ D1
 adventure[world]:3111/look
 ~
 ~
-0 -1 3111
+0 1 3111
 S
 #3111
 Park Road~
@@ -227,7 +227,7 @@ D3
 adventure[world]:3110/look
 ~
 ~
-0 -1 3110
+0 1 3110
 E
 building door sign~
 adventure[world]:3111/door
