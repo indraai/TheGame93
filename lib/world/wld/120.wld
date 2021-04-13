@@ -114,7 +114,7 @@ mistaken.
 ~
 S
 #12005
-The Abandoned Gate~
+Agency: Rome~
    This used to be a gateway to and from western Rome.  There is an iron gate
 blocking your way and judging by the amount of rust and foliage growing on the
 bars, it hasn't been open for years.  Looking through the gate at the barren
@@ -122,6 +122,11 @@ landscape that lies beyond, you can see why.  A dirt road leads off to the east,
 and a store is directly south.
 ~
 120 0 0 0 0 1
+D0
+adventure[world]:3142/look
+~
+~
+0 -1 3142
 D1
 Through the clouds of dust, you can make out a passable road.
 ~
@@ -143,11 +148,6 @@ gate~
    The gate has been permanently rusted shut and is further secured by a large
 chain and padlock.  Don't even bother THINKING about trying to open it.
 ~
-D5
-adventure[world]:3142/look
-~
-~
-0 -1 3142
 S
 #12006
 Swords 'R  Us~

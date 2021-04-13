@@ -178,7 +178,7 @@ door small~
 1 -1 15006
 S
 #15008
-The Agency: Indra Castle~
+Agency: Indra Castle~
 You are in a small room, evidently meant for guards currently not on duty.  There is only one exit, back to the entrance hall.
 ~
 150 8 0 0 0 0
@@ -195,7 +195,7 @@ You see the Castle Entrance.
 S
 #15009
 Under The Tower~
-   You are below one the three mighty towers of the Castle.  There are
+You are below one the three mighty towers of the Castle.  There are
 no guards here, and you sense that this part of the Castle is largely
 unused.  There are stairs going up to the tower, and there is also an
 exit to the north.
@@ -558,7 +558,7 @@ You see the corridor continue.
 S
 #15023
 The Training Room~
-   This is the Training Room of the men of the Castle guard.  It is
+This is the Training Room of the men of the Castle guard.  It is
 very large, with weapons standing in racks by all the walls.  Most
 of the weapons seem to be intended for training only, with blunt
 edges and the like, but there are some that might be useful for
@@ -1278,13 +1278,9 @@ The stairs lead upwards out of this dank, dark place.
 S
 #15056
 The Guard Room~
-   You are at a loss to explain why someone would want to spend all
-day down here.  The only explanation that seems even remotely logical
-to you is that there must be an important prisoner kept in one of the
-cells through the south door.
-   The decorations of the room are sparse, merely a table, a chair,
-and a deck of cards.  A stairwell has been built into the western wall
-and it leads upwards.
+You are at a loss to explain why someone would want to spend all day down here.  The only explanation that seems even remotely logical to you is that there must be an important prisoner kept in one of the cells through the south door.
+
+The decorations of the room are sparse, merely a table, a chair, and a deck of cards.  A stairwell has been built into the western wall and it leads upwards.
 ~
 150 8 0 0 0 0
 D2

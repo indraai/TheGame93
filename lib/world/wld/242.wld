@@ -16,9 +16,9 @@ D2
 0 -1 24206
 E
 maps~
-   SOUTHERN MIDGAARD
+   SOUTHERN COOLAND
       To Wall Road         To Central Square
-           |                      |             Amaravati
+           |                      |             Cooland
   <=== [Bridge] =============[Central========== River =============>
            |                  Bridge]
            |                     |       Newspaper  Docks--Docks
@@ -39,7 +39,7 @@ maps~
            |        Cafe         |       Station    Club     |
            |          |          |          |         |      |
            +----------+-----(Wall Road)-----+---------+------+
-MIDGAARD CURLING CLUB
+COOLAND CURLING CLUB
           Sheet 1----Sheet 2----Sheet 3
            3182       3185       3188
             |           |         |
@@ -59,7 +59,7 @@ MIDGAARD CURLING CLUB
    |
 Entrance
   3171
-MIDGAARD THEATER
+COOLAND THEATER
 Catwalks---Catwalks---Catwalks---Catwalks
   3167       3168       3169       3170
    \
@@ -89,14 +89,14 @@ Catwalks---Catwalks---Catwalks---Catwalks
 E
 credits info~
     x---------------------------------------------------------------------x
-    |            NEW SOUTHERN MIDGAARD ZONE - FOR CIRCLEMUD 3.1           |
+    |            NEW SOUTHERN COOLAND ZONE - FOR CIRCLEMUD 3.1           |
     |                      Written in 2002 by Crazyman                    |
     |                         www.nt.net/saarinen                         |
     x---------------------------------------------------------------------x
-     I found the stock Southern Amaravati to be really confusing, so I
+     I found the stock Southern Cooland to be really confusing, so I
      decided to write a new one. This new zone features about 100 rooms,
      several new shops, a theater, and a curling rink. I've used a few
-     of the old Southern Amaravati rooms and objects, but everything else
+     of the old Southern Cooland rooms and objects, but everything else
      is totally different.
      Stuff You Need to Change:
      -------------------------
@@ -120,7 +120,7 @@ credits info~
     |         free to edit, modify, and redistribute this zone!           |
     x---------------------------------------------------------------------x
    Builder      : Crazyman
-   Zone         : 242 New Southern Amaravati
+   Zone         : 242 New Southern Cooland
    Began        : 2001
    Player Level : 3-7
    Rooms        : 98
@@ -135,7 +135,7 @@ S
 Emerald Avenue~
    You are on Emerald Avenue. The road looks brand new, as do the shops
 and buildings that line the road. This is obviously the newer part of
-Amaravati. People are bustling about, while street vendors are trying hard
+Cooland. People are bustling about, while street vendors are trying hard
 to sell hotdogs and other less legal merchandise. Streetlights can be
 seen along the road, and you also notice the odd tree.
 ~
@@ -163,7 +163,7 @@ The Southern Square~
 stand all around you, blocking out much of the sunlight. A twenty foot high
 stone statue of a man stands here, surrounded by a ring of bushes and
 flowers. From all around you, you can hear the bustle of daily city life in
-Amaravati. The central bridge is north, leading to the old part of Amaravati.
+Cooland. The central bridge is north, leading to the old part of Cooland.
 ~
 242 0 0 0 0 1
 D0
@@ -188,7 +188,7 @@ stone statue man~
 suit, and he's wearing a top hat. At the base of the statue is
 a plaque, which looks like this:
      x-----------------------------------------------x
-     | . SOUTHERN MIDGAARD RECONSTRUCTION MONUMENT . |
+     | . SOUTHERN COOLAND RECONSTRUCTION MONUMENT . |
      |                                               |
      |      Completed on Friday, March 29, 2002.     |
      |                                               |
@@ -202,7 +202,7 @@ S
 Emerald Avenue~
    You are on Emerald Avenue. The road looks brand new, as do the shops
 and buildings that line the road. This is obviously the newer part of
-Amaravati. People are bustling about, while street vendors are trying hard
+Cooland. People are bustling about, while street vendors are trying hard
 to sell hotdogs and other less legal merchandise. Streetlights can be
 seen along the road, and you also notice the odd tree.
 ~
@@ -224,7 +224,7 @@ S
 Emerald Avenue~
    You are on Emerald Avenue. The road looks brand new, as do the shops
 and buildings that line the road. This is obviously the newer part of
-Amaravati. People are bustling about, while street vendors are trying hard
+Cooland. People are bustling about, while street vendors are trying hard
 to sell hotdogs and other less legal merchandise. Streetlights can be
 seen along the road, and you also notice the odd tree. You can see the
 southern docks to the north.
@@ -293,7 +293,7 @@ S
 Razor's Road~
    You are on Razor's Road. The road looks brand new, as do the shops
 and buildings that line the road. This is obviously the newer part of
-Amaravati. People are bustling about, while street vendors are trying hard
+Cooland. People are bustling about, while street vendors are trying hard
 to sell hotdogs and other less legal merchandise. Streetlights can be
 seen along the road, and you also notice the odd tree.
 ~
@@ -317,8 +317,8 @@ D3
 S
 #24208
 Razor's Square~
-   Razor's Square is the southernmost square in Amaravati. South of you
-is wall road, while to the north you can see most of the city of Amaravati.
+   Razor's Square is the southernmost square in Cooland. South of you
+is wall road, while to the north you can see most of the city of Cooland.
 You can see some street vendors here, standing inside small kiosks. You
 can see everything from cheap jewelry to leather jackets for sale.
 ~
@@ -344,13 +344,13 @@ S
 Razor's Road~
    You are on Razor's Road. The road looks brand new, as do the shops
 and buildings that line the road. This is obviously the newer part of
-Amaravati. People are bustling about, while street vendors are trying hard
+Cooland. People are bustling about, while street vendors are trying hard
 to sell hotdogs and other less legal merchandise. A portion of the
 roof juts out from the northern building, just above the door. The overhang
 sticks out about ten feet from the building, and is about twenty feet wide.
 All along the bottom edge of it are lightbulbs. A double glass door leads
 north, while a few signs have been set up here on the sidewalk. You
-recognize this as the entrance to the Amaravati Theater.
+recognize this as the entrance to the Cooland Theater.
 ~
 242 0 0 0 0 1
 D0
@@ -374,7 +374,7 @@ sign signs~
    The signs are all the same, and they look like this:
         x---------------------------------------------x
         |                                             |
-        |         MIDGAARD THEATER PRESENTS:          |
+        |         COOLAND THEATER PRESENTS:          |
         |                                             |
         |       T H E   S T R E E T   V E N D O R     |
         |              F R O M   H E L L              |
@@ -404,7 +404,7 @@ S
 Razor's Road~
    You are on Razor's Road. The road looks brand new, as do the shops
 and buildings that line the road. This is obviously the newer part of
-Amaravati. People are bustling about, while street vendors are trying hard
+Cooland. People are bustling about, while street vendors are trying hard
 to sell hotdogs and other less legal merchandise. Streetlights can be
 seen along the road, and you also notice the odd tree.
 ~
@@ -570,10 +570,10 @@ S
 #24218
 On the Central Bridge~
    The central bridge is the main connection between northern and southern
-Amaravati. The bridge is constructed from iron support beams and concrete.
+Cooland. The bridge is constructed from iron support beams and concrete.
 It looks very solid. From below, you can see the swiftly flowing river,
-leading east and west. The tall buildings of southern Amaravati dominate the
-southern skyline, while you can see the huge temple of Amaravati off in the
+leading east and west. The tall buildings of southern Cooland dominate the
+southern skyline, while you can see the huge temple of Cooland off in the
 north.
 ~
 242 0 0 0 0 1
@@ -583,8 +583,8 @@ D2
 0 -1 24202
 S
 #24219
-The Bank of Amaravati~
-   You enter the doors and you find yourself in the bank of Amaravati. It's
+The Bank of Cooland~
+   You enter the doors and you find yourself in the bank of Cooland. It's
 a very large room, with high ceilings and a shiny polished floor. Large
 windows let in light, giving the bank a bright glow. A long desk spans
 the entire western wall, and behind it stand several tellers, looking
@@ -664,7 +664,7 @@ D0
 S
 #24224
 Clothing Store~
-   You're in the Amaravati clothing store. It's a fairly small shop, with
+   You're in the Cooland clothing store. It's a fairly small shop, with
 rather low ceilings. Racks of clothing totally fill the store, making it
 almost impossible to move. You can faintly hear some classical music being
 played.
@@ -695,8 +695,8 @@ D4
 0 -1 24235
 S
 #24226
-Amaravati Theater~
-   You find yourself inside the lobby of the Amaravati Theater. A rich
+Cooland Theater~
+   You find yourself inside the lobby of the Cooland Theater. A rich
 navy blue carpet covers the floor, while expensive looking wallpaper
 covers the walls. An elaborate chandelier hangs from the ceiling. A
 small ticket booth is located near the front door.
@@ -717,7 +717,7 @@ D3
 S
 #24227
 City Hall~
-   You're inside the Amaravati City Hall. It's a large domed room, almost
+   You're inside the Cooland City Hall. It's a large domed room, almost
 circular in shape, with a round skylight at the top, looking to the sky.
 The walls are all solid wood. A large U shaped desk sits in the middle
 of the room, where the secretary usually sits. A beautifully carved
@@ -758,7 +758,7 @@ D0
 0 -1 24209
 S
 #24230
-Amaravati Public School~
+Cooland Public School~
    You're inside the main lobby of Cooland's only school (no, we're not
 counting that monkey school in Ape Village). Everything looks neat and
 tidy, which is surprising for a public school. You notice the odd
@@ -771,8 +771,8 @@ D0
 0 -1 24210
 S
 #24231
-The Amaravati Cafe~
-   The Amaravati Cafe is a nice little place, where people can come to eat
+The Cooland Cafe~
+   The Cooland Cafe is a nice little place, where people can come to eat
 lunch or have snacks. The entire southern wall is covered in windows,
 looking out onto Wall Road. Many round tables are scattered throughout
 the room, with people seated around many of them. Plants and small potted
@@ -785,24 +785,25 @@ D2
 0 -1 24213
 S
 #24232
-The Agency~
+Agency: Cooland~
 You're in the indra.agency headquarters. It's a large room, completely
 filled with desks and filing cabinets. SecurityDEVA are here, talking on the
 phones and writing down stuff in books. They're ready to be dispatched
 to whoever needs help.
 ~
 242 8 0 0 0 0
-D0
-~
-~
-0 0 3142
 D2
 ~
 ~
 0 -1 24215
 S
+D5
+adventure[world]:3142/look
+~
+~
+0 0 3142
 #24234
-The Bank of Amaravati - Vault~
+The Bank of Cooland - Vault~
    You find yourself inside the bank vault. Row upon row of stainless steel
 safety deposit boxes cover the walls. Three rows of extremely bright lights
 shine down on you, making everything completely visible. It would be
@@ -817,7 +818,7 @@ S
 #24235
 The top of the Tree~
    You climb the rope, and find yourself on a wooden platform at the top
-of the tree. From here, you have an excellent view of Amaravati. From out
+of the tree. From here, you have an excellent view of Cooland. From out
 of nowhere, a thick chain falls out of the sky, right in front of your
 face. It leads up into the clouds above.
 ~
@@ -1471,8 +1472,8 @@ D3
 0 -1 24269
 S
 #24271
-Amaravati Curling Club Entrance Hall~
-   You're in the entrance hall of the Amaravati Curling Club. A gray carpet
+Cooland Curling Club Entrance Hall~
+   You're in the entrance hall of the Cooland Curling Club. A gray carpet
 runs down the hallway, where it ends at a set of stairs leading up and to
 the east. The walls are a pale beige color, and an ancient looking tile
 ceiling is slowly rotting away. This place looks like it's at least fifty
@@ -1490,7 +1491,7 @@ D2
 S
 #24272
 Curling Club Entrance Stairs~
-   You're in the far end of the Amaravati Curling Club entrance hall. The
+   You're in the far end of the Cooland Curling Club entrance hall. The
 gray carpet ends here, and a short set of stairs leads up to east. A large
 wooden door leads north, but it's blocked off.
 ~
@@ -1506,7 +1507,7 @@ D4
 S
 #24273
 Curling Club~
-   You're inside the Amaravati Curling Club. A bar is located along the
+   You're inside the Cooland Curling Club. A bar is located along the
 western wall, and several large round tables are scattered around. Each
 table has an ash tray on it, filled with ashes and cigarette butts. A railing
 runs across the northern part of the room, and ten feet below it is the
@@ -1527,7 +1528,7 @@ D5
 S
 #24274
 Curling Club~
-   You're inside the Amaravati Curling Club. Directly behind you, on a table,
+   You're inside the Cooland Curling Club. Directly behind you, on a table,
 sits a 60" TV. Several large round tables are scattered around, and an ash
 trays sit on each one. A railing runs across the northern part of the room,
 but it curves downwards here opening up to a staircase. The wall in front of
@@ -1549,7 +1550,7 @@ D5
 S
 #24275
 Curling Club~
-   You're inside the Amaravati Curling Club. Several large round tables are
+   You're inside the Cooland Curling Club. Several large round tables are
 scattered around. Each table has an ash tray on it, filled with ashes and
 cigarette butts. A railing runs across the northern part of the room, and ten
 feet below it is the spectators area. The wall in front of the spectators area
@@ -1567,7 +1568,7 @@ D3
 S
 #24276
 Curling Club Coffee Shop~
-   You're inside the Amaravati Curling Club Coffee Shop. A rounded
+   You're inside the Cooland Curling Club Coffee Shop. A rounded
 wooden bar sits along the eastern wall, and behind it you see several
 tables covered with glasses, and a large stove. About a dozen tables are
 here, waiting for people to sit at them. Several thickly plated windows
@@ -2023,7 +2024,7 @@ door~
 S
 #24298
 The Mayor's Office~
-   You are in the not very big office of the Mayor of Amaravati.  A large and
+   You are in the not very big office of the Mayor of Cooland.  A large and
 polished but completely empty desk is standing in front of an armchair that
 looks so comfortable that it most of all resembles a bed with the head end
 raised slightly. Windows look in all directions, giving a great view of

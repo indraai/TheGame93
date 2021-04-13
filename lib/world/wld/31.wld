@@ -810,15 +810,121 @@ adventure[world]:3110/look
 ~
 0 -1 3110
 D2
-adventure[world]:2432/look
+adventure[world]:3143/look
 ~
 ~
-0 0 24232
-D4
+0 -1 3143
+D3
 adventure[world]:12005/look
 ~
 ~
-0 0 12005
+0 -1 12005
+S
+#3143
+Agency Corridor~
+adventure[world]:3143/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3142/look
+~
+~
+0 -1 3142
+D2
+adventure[world]:3144/look
+~
+~
+0 -1 3144
+S
+#3144
+Agency Corridor~
+adventure[world]:3144/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3143/look
+~
+~
+0 -1 3143
+D2
+adventure[world]:3145/look
+~
+~
+0 -1 3145
+#3145
+Agency Corridor~
+adventure[world]:3145/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3144/look
+~
+~
+0 -1 3144
+D2
+adventure[world]:3146/look
+~
+~
+0 -1 3146
+S
+#3146
+Agency Corridor~
+adventure[world]:3146/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3145/look
+~
+~
+0 -1 3145
+D2
+adventure[world]:3147/look
+~
+~
+0 -1 3147
+S
+#3147
+Agency Corridor~
+adventure[world]:3147/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3146/look
+~
+~
+0 -1 3146
+D2
+adventure[world]:3148/look
+~
+~
+0 -1 3148
+S
+#3148
+Agency Corridor~
+adventure[world]:3148/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3147/look
+~
+~
+0 -1 3147
+D2
+adventure[world]:3149/look
+~
+~
+0 -1 3149
+S
+#3149
+Agency Corridor~
+adventure[world]:3149/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3148/look
+~
+~
+0 -1 3148
 S
 #3150
 A Gravel Road In The Graveyard~
