@@ -643,8 +643,7 @@ A Noble Estate~
 the size and splendor of anything that a common citizen of Rome would ever
 hope to own.  Everything is lush and green.  The grass is perfectly manicured
 and the trees are all bearing fruit.  Ornamental plants are in perfectly
-situated to enhance and adorn the three statues of dedicated to gods Jupiter,
-Venus and Neptune.  A tranquil path leads east and west, there is a paved road
+situated to enhance and adorn the three statues of dedicated to god Indra.  A tranquil path leads east and west, there is a paved road
 to the north and an extravagant house lies to the south.
 ~
 120 0 0 0 0 2
@@ -670,25 +669,13 @@ Off through the trees, you see a small, plain hut.
 0 -1 12021
 E
 trees tree shrubs shrub plants plant~
-   All of the plants, trees and shrubs are perfectly trimmed, without so much as
+All of the plants, trees and shrubs are perfectly trimmed, without so much as
 a dead leaf anywhere to be seen.  You welcome the shade that they give from the
 harsh sun above.
 ~
 E
-Neptune~
-   The statue of Neptune is made of pure jade and is holding a crystal trident.
-It is sitting in the center of a small pond which has hundreds of beautiful fish
-swimming in it.
-~
-E
-Jupiter~
-   A statue made of pure gold depicts Jupiter sitting on his throne.  The throne
-looks like it is made of silver.
-~
-E
-Venus~
-   Venus, the Roman goddess of beauty and knowledge is displayed in a all of her
-splendor.
+Indra~
+A statue made of pure gold depicts Indra sitting on his throne.  The throne looks like it is made of diamonds.
 ~
 S
 #12028
