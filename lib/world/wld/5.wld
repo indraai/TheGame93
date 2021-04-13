@@ -408,16 +408,21 @@ D4
 0 0 521
 S
 #523
-Abandoned Stall~
-   You're walking through an old abandoned cow stall.  It's in bad need of
-repair.  Thats probably why it's not in use.  You can see a hayloft to the
-west.  Maybe you could go up there and rest a bit.
+Agency: Farms~
+You're inside the Agency Farms Branch Office.
+
+You can see a hayloft to the west.  Maybe you could go up there and rest a bit.
 ~
 5 0 0 0 0 0
 D0
 ~
 ~
 0 0 520
+D1
+adventure[world]:3144/look
+~
+~
+0 -1 3144
 D3
 ~
 ~
