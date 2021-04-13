@@ -111,7 +111,7 @@ S
 The Park Entrance~
 adventure[world]:3105/main
 ~
-31 4 0 0 0 1
+31 0 0 0 0 1
 D0
 adventure[world]:3102/main
 ~
@@ -237,7 +237,7 @@ S
 The Western Park Entrance~
 adventure[world]:3112/main
 ~
-31 4 0 0 0 1
+31 0 0 0 0 1
 D1
 adventure[world]:3113/look
 ~
@@ -311,7 +311,7 @@ S
 The Eastern Park Entrance~
 adventure[world]:3116/main
 ~
-31 4 0 0 0 1
+31 0 0 0 0 1
 D1
 adventure[world]:3117/look
 ~
