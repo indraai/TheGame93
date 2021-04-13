@@ -481,11 +481,8 @@ door strong oak~
 2 28709 28717
 S
 #28717
-The Guard Headquarters~
-   This is where the men that guard Ofingia keep their dinner pails.  Look
-around!  You may find a dagger, but most of the weapons are in use.  Why would
-they leave them here while they were on patrol?  And as for finding money, don't
-bother!  Only in Amaravati do foolish guards keep 32000 gold coins where Pippin
+Agency: Ofingia~
+This is where the men that guard Ofingia keep their dinner pails.  Look around!  You may find a dagger, but most of the weapons are in use.  Why would they leave them here while they were on patrol?  And as for finding money, don't bother!  Only in Amaravati do foolish guards keep 32000 gold coins where Pippin
 or any old thief can steal them.
 ~
 287 8 0 0 0 0
@@ -494,6 +491,11 @@ A red door leads north to the city hall.
 ~
 door red~
 2 28709 28723
+D1
+adventure[world]:3145/look
+~
+~
+0 -1 3145
 D3
 A strong oak door leads west to the street outside.
 ~

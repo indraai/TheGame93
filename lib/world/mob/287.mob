@@ -31,17 +31,16 @@ took holy orders, and still carries a sturdy club.
 8 8 1
 E
 #28702
-sheriff zeb~
-Zeb Rykalp~
-Zeb Rykalp, sheriff of Ofingia, watches you closely.
+security deva securitydeva sheriffdeva sheriff~
+SheriffDeva: Ofingia~
+SheriffDeva of Ofingia, watches you closely.
 ~
-   You had better keep on Zeb's good side.  He has few qualms about roughing up
-the Amaravatiers, and is ever-vigilant for evil.
+You had better keep on SheriffDeva's good side.  SheriffDeva has few qualms about roughing up the bad guys, and is ever-vigilant for evil.
 ~
 10588 0 0 0 8 0 0 0 700 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1
+8 8 0
 E
 #28703
 smith dorig dwarf~
@@ -143,16 +142,16 @@ instantly reach it.
 8 8 1
 E
 #28710
-kelek guard captain~
-Sir Kelek~
-Passing guards raise their visors in salute to Sir Kelek, their captain.
+security deva securitydeva captaindeva~
+CaptainDEVA: Ofingia~
+Passing guards raise their visors in salute to CpatainDEVA.
 ~
-   He did not reach this rank by staying close by the Newbie Zone.
+He did not reach this rank by staying close by the Newbie Zone.
 ~
 14618 0 0 0 0 0 0 0 700 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 #28711
 king korbor~
@@ -181,23 +180,23 @@ A small boy sneaks silently through the shadows.
 E
 T 28700
 #28713
-sir mischa~
-Sir Mischa~
-Sir Mischa guards his town from evil creatures.
+security deva securitydeva elitedeva e28713~
+EliteDEVA:Ofginia E28713~
+EliteDEVA E28713 guards his town from evil creatures.
 ~
-   This knight could easily kill Curley GreenLeaf.
+This knight could easily tackle Curley GreenLeaf.
 ~
 6472 0 0 0 0 0 0 0 700 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 #28714
-guard~
-the Ofintine guard~
-A guard of Ofintinia patrolls his town.
+security deva securitydeva~
+SecurityDEVA:Ofginia~
+A SecurityDEVA of Ofintinia patrolls his town.
 ~
-   A sturdy guardsman, loyal to King Korbor.
+A sturdy guardsman, loyal to King Indra.
 ~
 6472 0 0 0 0 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
@@ -205,11 +204,11 @@ A guard of Ofintinia patrolls his town.
 8 8 1
 E
 #28715
-guard~
-the Ofintine guard~
-An Ofintine guard watches the gate.
+security deva securitydeva~
+SecurityDEVA:Ofginia~
+An Ofintine SecurityDEVA watches the gate.
 ~
-   A sturdy guardsman, ever vigilant for evil.
+A sturdy guardsman, ever vigilant for evil.
 ~
 6410 0 0 0 0 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
@@ -233,7 +232,7 @@ volunteer~
 an Ofintine volunteer~
 A citizen of Ofinitine looks fierce and determined.
 ~
-   She has taken up arms to fight the goblins.
+She has taken up arms to fight the goblins.
 ~
 4168 0 0 0 0 0 0 0 400 E
 3 19 8 0d0+30 1d2+0
@@ -245,7 +244,7 @@ man~
 a Lonoyan man~
 A man of Ofingia stands here.
 ~
-   He won't desert his town for a million goblins, all waving axes.
+He won't desert his town for a million goblins, all waving axes.
 ~
 72 0 0 0 0 0 0 0 400 E
 2 20 8 0d0+20 1d2+0
