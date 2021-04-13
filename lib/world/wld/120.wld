@@ -143,6 +143,11 @@ gate~
    The gate has been permanently rusted shut and is further secured by a large
 chain and padlock.  Don't even bother THINKING about trying to open it.
 ~
+D5
+adventure[world]:3142/look
+~
+~
+0 -1 3142
 S
 #12006
 Swords 'R  Us~

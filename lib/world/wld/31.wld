@@ -795,7 +795,7 @@ adventure[world]:3140/look
 0 -1 3140
 S
 #3142
-Security Corridor~
+Agency Corridor~
 adventure[world]:3142/main
 ~
 31 8 0 0 0 0
@@ -810,9 +810,15 @@ adventure[world]:3110/look
 ~
 0 -1 3110
 D2
+adventure[world]:2432/look
 ~
 ~
 0 0 24232
+D4
+adventure[world]:12005/look
+~
+~
+0 0 12005
 S
 #3150
 A Gravel Road In The Graveyard~
