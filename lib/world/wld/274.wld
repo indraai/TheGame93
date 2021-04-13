@@ -540,7 +540,7 @@ D4
 0 0 -1
 S
 #27425
-Insie Guard Gate~
+Agency: Smurfville~
    The inside of the guard gate is empty, except for a desk, a lantern or two
 tolight it at night and a chair.  There is a small cot in the corner for the
 guardto sleep, usually this is a two man job to guard the gates here.
@@ -550,6 +550,11 @@ D2
 ~
 ~
 0 0 27413
+D3
+adventure[world]:3146/look
+~
+~
+0 -1 3146
 S
 #27426
 Saint Brigid-Furze Road~
