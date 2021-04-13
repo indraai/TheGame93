@@ -814,6 +814,11 @@ adventure[world]:3143/look
 ~
 ~
 0 -1 3143
+D3
+adventure[world]:24232/look
+~
+~
+0 0 24232
 S
 #3143
 Agency Corridor~
@@ -835,11 +840,6 @@ adventure[world]:3144/look
 ~
 ~
 0 -1 3144
-D3
-adventure[world]:24232/look
-~
-~
-0 0 24232
 S
 #3144
 Agency Corridor~
