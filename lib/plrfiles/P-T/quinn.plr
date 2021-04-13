@@ -1,0 +1,44 @@
+Name: Quinn
+Pass: QurLlv84U0OzU
+Titl: the Adept
+Sex : 1
+Clas: 1
+Levl: 6
+Id  : 6
+Brth: 1617578623
+Plyd: 149739
+Last: 1618251092
+Lmot: 1617578647
+Lnew: 1617740561
+Host: 192.168.1.52
+Hite: 176
+Wate: 144
+Alin: 249
+Act : gh 0 0 0
+Aff : 0 0 0 0
+Pref: efghAB 0 0 0
+Room: 3001
+Hit : 58/58
+Mana: 122/122
+Move: 91/91
+Str : 11/0
+Int : 15
+Wis : 16
+Dex : 11
+Con : 8
+Cha : 7
+Ac  : 100
+Gold: 9811
+Bank: 107750
+Exp : 31565
+Olc : 0
+Skil:
+1 95
+3 95
+4 95
+12 95
+13 95
+18 95
+0 0
+Vars: 1
+teleporter_return_room 0 11803

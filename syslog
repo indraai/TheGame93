@@ -1,0 +1,262 @@
+autorun starting game Mon Apr 12 23:59:36 UTC 2021
+running bin/circle -q 9300
+nohup: ignoring input
+No etc/config file, using defaults: No such file or directory
+Apr 12 23:59:36 2021 :: Loading configuration.
+Apr 12 23:59:36 2021 :: tbaMUD 2021
+Apr 12 23:59:36 2021 :: Using lib as data directory.
+Apr 12 23:59:36 2021 :: Running game on port 9300.
+Apr 12 23:59:36 2021 :: Finding player limit.
+Apr 12 23:59:36 2021 ::    Setting player limit to 300 using rlimit.
+Apr 12 23:59:36 2021 :: Opening mother connection.
+Apr 12 23:59:36 2021 :: Binding to all IP interfaces on this host.
+Apr 12 23:59:36 2021 :: Boot db -- BEGIN.
+Apr 12 23:59:36 2021 :: Resetting the game time:
+Apr 12 23:59:36 2021 ::    Current Gametime: 4H 4D 7M 903Y.
+Apr 12 23:59:36 2021 :: Initialize Global Lists
+Apr 12 23:59:36 2021 :: Initializing Events
+Apr 12 23:59:36 2021 :: Reading news, credits, help, ihelp, bground, info & motds.
+Apr 12 23:59:36 2021 :: Loading spell definitions.
+Apr 12 23:59:36 2021 :: Loading zone table.
+Apr 12 23:59:36 2021 ::    189 zones, 13608 bytes.
+Apr 12 23:59:36 2021 :: Loading triggers and generating index.
+Apr 12 23:59:36 2021 :: Loading rooms.
+Apr 12 23:59:36 2021 ::    12762 rooms, 2348208 bytes.
+Apr 12 23:59:36 2021 :: Renumbering rooms.
+Apr 12 23:59:36 2021 :: Checking start rooms.
+Apr 12 23:59:36 2021 :: Loading mobs and generating index.
+Apr 12 23:59:36 2021 ::    3710 mobs, 118720 bytes in index, 2136960 bytes in prototypes.
+Apr 12 23:59:36 2021 :: Loading objs and generating index.
+Apr 12 23:59:36 2021 ::    4765 objs, 152480 bytes in index, 1143600 bytes in prototypes.
+Apr 12 23:59:36 2021 :: SYSERR: Object #2805 (TSL0-KK Canteen 20oz) doesn't have drink type as last keyword. (canteen tsl0-kk water 20oz)
+Apr 12 23:59:36 2021 :: Renumbering zone table.
+Apr 12 23:59:36 2021 :: Loading shops.
+Apr 12 23:59:36 2021 :: Loading quests.
+Apr 12 23:59:36 2021 ::    1 entries, 128 bytes.
+Apr 12 23:59:36 2021 :: Loading help entries.
+Apr 12 23:59:36 2021 ::    2636 entries, 84352 bytes.
+Apr 12 23:59:36 2021 :: Generating player index.
+Apr 12 23:59:36 2021 :: Loading fight messages.
+Apr 12 23:59:36 2021 :: Loaded 37 Combat Messages...
+Apr 12 23:59:36 2021 :: Loading social messages.
+Apr 12 23:59:36 2021 :: Social table contains 490 socials.
+Apr 12 23:59:36 2021 :: Building command list.
+Apr 12 23:59:36 2021 :: Command info rebuilt, 766 total commands.
+Apr 12 23:59:36 2021 :: Assigning function pointers:
+Apr 12 23:59:36 2021 ::    Mobiles.
+Apr 12 23:59:36 2021 ::    Shopkeepers.
+Apr 12 23:59:36 2021 ::    Objects.
+Apr 12 23:59:36 2021 ::    Rooms.
+Apr 12 23:59:36 2021 ::    Questmasters.
+Apr 12 23:59:36 2021 :: Assigning spell and skill levels.
+Apr 12 23:59:36 2021 :: Sorting command list and spells.
+Apr 12 23:59:36 2021 :: Booting mail system.
+Apr 12 23:59:36 2021 ::    Mail file read -- 1 messages.
+Apr 12 23:59:36 2021 :: Reading banned site and invalid-name list.
+Apr 12 23:59:36 2021 :: Loading Ideas.
+Apr 12 23:59:36 2021 :: Loading Bugs.
+Apr 12 23:59:36 2021 :: Loading Typos.
+Apr 12 23:59:36 2021 :: Booting houses.
+Apr 12 23:59:36 2021 :: Cleaning up last log.
+Apr 12 23:59:36 2021 :: Resetting #0: The Builder Academy Zone (rooms 0-99).
+Apr 12 23:59:36 2021 :: Resetting #1: Sanctus (rooms 100-199).
+Apr 12 23:59:36 2021 :: Resetting #2: Sanctus II (rooms 200-299).
+Apr 12 23:59:36 2021 :: Resetting #3: Sanctus III (rooms 300-399).
+Apr 12 23:59:36 2021 :: Resetting #4: Jade Forest (rooms 400-499).
+Apr 12 23:59:36 2021 :: Resetting #5: Newbie Farm (rooms 500-599).
+Apr 12 23:59:36 2021 :: Resetting #6: Sea of Souls (rooms 600-699).
+Apr 12 23:59:36 2021 :: Resetting #7: Camelot (rooms 700-799).
+Apr 12 23:59:36 2021 :: Resetting #9: River Island of Minos (rooms 900-999).
+Apr 12 23:59:36 2021 :: Resetting #11: Frozen Castle (rooms 1100-1199).
+Apr 12 23:59:36 2021 :: Resetting #12: God Complex Merged with 343 (rooms 1200-1299).
+Apr 12 23:59:36 2021 :: Resetting #13: TBA Examples (rooms 1300-1399).
+Apr 12 23:59:36 2021 :: Resetting #14: TBA Examples II (rooms 1400-1499).
+Apr 12 23:59:36 2021 :: Resetting #15: Straight Path (rooms 1500-1599).
+Apr 12 23:59:36 2021 :: Resetting #16: Camelot II (rooms 1600-1699).
+Apr 12 23:59:36 2021 :: Resetting #17: Camelot III (rooms 1700-1799).
+Apr 12 23:59:36 2021 :: Resetting #18: Nuclear Wasteland (rooms 1800-1899).
+Apr 12 23:59:36 2021 :: Resetting #19: Spider Swamp (rooms 1900-1999).
+Apr 12 23:59:36 2021 :: Resetting #20: Arena (rooms 2000-2099).
+Apr 12 23:59:36 2021 :: Resetting #22: Tower of the Undead (rooms 2200-2299).
+Apr 12 23:59:36 2021 :: Resetting #25: High Tower of Magic (rooms 2500-2599).
+Apr 12 23:59:36 2021 :: Resetting #26: High Tower of Magic II (rooms 2600-2699).
+Apr 12 23:59:36 2021 :: Resetting #27: Memlin Caverns (rooms 2700-2799).
+Apr 12 23:59:36 2021 :: Resetting #28: indra.academy (rooms 2800-2899).
+Apr 12 23:59:36 2021 :: Resetting #30: Northern Amaravati (rooms 3000-3099).
+Apr 12 23:59:36 2021 :: Resetting #31: Southern Amaravati (rooms 3100-3199).
+Apr 12 23:59:36 2021 :: Resetting #32: Amaravati (rooms 3200-3299).
+Apr 12 23:59:36 2021 :: Resetting #33: Three of Swords (rooms 3300-3399).
+Apr 12 23:59:36 2021 :: Resetting #35: Miden'Nir (rooms 3500-3599).
+Apr 12 23:59:36 2021 :: Resetting #36: Chessboard of Amaravati (rooms 3600-3699).
+Apr 12 23:59:36 2021 :: Resetting #37: Capital Sewer System (rooms 3700-3799).
+Apr 12 23:59:36 2021 :: Resetting #38: Capital Sewer System II (rooms 3800-3899).
+Apr 12 23:59:36 2021 :: Resetting #39: Haven (rooms 3900-3999).
+Apr 12 23:59:36 2021 :: Resetting #40: Mines of Moria (rooms 4000-4099).
+Apr 12 23:59:36 2021 :: Resetting #41: Mines of Moria (rooms 4100-4199).
+Apr 12 23:59:36 2021 :: Resetting #42: Dragon Chasm (rooms 4200-4299).
+Apr 12 23:59:36 2021 :: Resetting #43: Arctic Zone (rooms 4300-4399).
+Apr 12 23:59:36 2021 :: Resetting #44: Orc Camp (rooms 4400-4499).
+Apr 12 23:59:36 2021 :: Resetting #45: Woodland Monastery (rooms 4500-4599).
+Apr 12 23:59:36 2021 :: Resetting #46: Ant Hill (rooms 4600-4699).
+Apr 12 23:59:36 2021 :: Resetting #50: Great Eastern Desert (rooms 5000-5099).
+Apr 12 23:59:36 2021 :: Resetting #51: Drow City (rooms 5100-5199).
+Apr 12 23:59:36 2021 :: Resetting #52: City of Thalos (rooms 5200-5299).
+Apr 12 23:59:36 2021 :: Resetting #53: Great Pyramid (rooms 5300-5399).
+Apr 12 23:59:36 2021 :: Resetting #54: New Thalos (rooms 5400-5499).
+Apr 12 23:59:36 2021 :: Resetting #55: New Thalos II (rooms 5500-5599).
+Apr 12 23:59:36 2021 :: Resetting #56: New Thalos Wilderness (rooms 5600-5699).
+Apr 12 23:59:36 2021 :: Resetting #57: Zodiac (rooms 5700-5799).
+Apr 12 23:59:36 2021 :: Resetting #60: Haon-Dor, Light Forest (rooms 6000-6099).
+Apr 12 23:59:36 2021 :: Resetting #61: Haon-Dor, Light Forest II (rooms 6100-6199).
+Apr 12 23:59:36 2021 :: Resetting #62: Orc Enclave (rooms 6200-6299).
+Apr 12 23:59:36 2021 :: Resetting #63: Arachnos (rooms 6300-6399).
+Apr 12 23:59:36 2021 :: Resetting #64: Rand's Tower (rooms 6400-6499).
+Apr 12 23:59:36 2021 :: Resetting #65: Dwarven Kingdom (rooms 6500-6599).
+Apr 12 23:59:36 2021 :: Resetting #70: Sewer, First Level (rooms 7000-7099).
+Apr 12 23:59:36 2021 :: Resetting #71: Second Sewer (rooms 7100-7199).
+Apr 12 23:59:36 2021 :: Resetting #72: Sewer Maze (rooms 7200-7299).
+Apr 12 23:59:36 2021 :: Resetting #73: Tunnels in the Sewer (rooms 7300-7399).
+Apr 12 23:59:36 2021 :: Resetting #74: Newbie Graveyard (rooms 7400-7499).
+Apr 12 23:59:36 2021 :: Resetting #75: Zamba (rooms 7500-7599).
+Apr 12 23:59:36 2021 :: Resetting #78: Gideon (rooms 7800-7899).
+Apr 12 23:59:36 2021 :: Resetting #79: Redferne's Residence (rooms 7900-7999).
+Apr 12 23:59:36 2021 :: Resetting #83: Glumgold's Sea (rooms 8300-8399).
+Apr 12 23:59:36 2021 :: Resetting #86: Duke Kalithorn's Keep (rooms 8600-8699).
+Apr 12 23:59:36 2021 :: Resetting #90: Oasis (rooms 9000-9099).
+Apr 12 23:59:36 2021 :: Resetting #96: Domiae (rooms 9600-9699).
+Apr 12 23:59:36 2021 :: Resetting #100: Northern Highway (rooms 10000-10099).
+Apr 12 23:59:36 2021 :: Resetting #101: South Road (rooms 10100-10199).
+Apr 12 23:59:36 2021 :: Resetting #103: DBZ World (rooms 10300-10399).
+Apr 12 23:59:36 2021 :: Resetting #104: Land of Orchan (rooms 10400-10499).
+Apr 12 23:59:36 2021 :: Resetting #106: Elcardo (rooms 10600-10699).
+Apr 12 23:59:36 2021 :: Resetting #107: Realms of Iuel (rooms 10700-10799).
+Apr 12 23:59:36 2021 :: Resetting #115: Monestary Omega (rooms 11500-11599).
+Apr 12 23:59:36 2021 :: Resetting #117: Los Torres (rooms 11700-11799).
+Apr 12 23:59:36 2021 :: Resetting #118: The Dollhouse (rooms 11800-11899).
+Apr 12 23:59:36 2021 :: Resetting #120: Rome (rooms 12000-12099).
+Apr 12 23:59:36 2021 :: Resetting #125: Hannah (rooms 12500-12599).
+Apr 12 23:59:36 2021 :: Resetting #130: Mist Maze (rooms 13000-13099).
+Apr 12 23:59:36 2021 :: Resetting #140: Wyvern City (rooms 14000-14099).
+Apr 12 23:59:36 2021 :: Resetting #150: King Indra's Castle (rooms 15000-15099).
+Apr 12 23:59:36 2021 :: Resetting #169: Gibberling Caves (rooms 16900-16999).
+Apr 12 23:59:36 2021 :: Resetting #175: Cardinal Wizards (rooms 17500-17599).
+Apr 12 23:59:36 2021 :: Resetting #186: Newbie Zone (rooms 18600-18699).
+Apr 12 23:59:36 2021 :: Resetting #187: Circus (rooms 18700-18799).
+Apr 12 23:59:36 2021 :: Resetting #200: Western Highway (rooms 20000-20099).
+Apr 12 23:59:36 2021 :: Resetting #201: Sapphire Islands (rooms 20100-20199).
+Apr 12 23:59:36 2021 :: Resetting #211: Tarot (rooms 21100-21199).
+Apr 12 23:59:36 2021 :: Resetting #220: The Enchanted Kitchen (rooms 22000-22099).
+Apr 12 23:59:36 2021 :: Resetting #232: Terringham (rooms 23200-23299).
+Apr 12 23:59:36 2021 :: Resetting #233: Dragon Plains (rooms 23300-23399).
+Apr 12 23:59:36 2021 :: Resetting #234: Newbie School (rooms 23400-23499).
+Apr 12 23:59:36 2021 :: Resetting #235: Dwarven Mines (rooms 23500-23599).
+Apr 12 23:59:36 2021 :: Resetting #236: Aldin (rooms 23600-23699).
+Apr 12 23:59:36 2021 :: Resetting #237: Dwarven Trade Route (rooms 23700-23799).
+Apr 12 23:59:36 2021 :: Resetting #238: Crystal Castle (rooms 23800-23899).
+Apr 12 23:59:36 2021 :: Resetting #239: South Pass (rooms 23900-23999).
+Apr 12 23:59:36 2021 :: Resetting #240: Dun Maura (rooms 24000-24099).
+Apr 12 23:59:36 2021 :: Resetting #241: Starship Enterprise (rooms 24100-24199).
+Apr 12 23:59:36 2021 :: Resetting #242: New Southern Amaravati (rooms 24200-24299).
+Apr 12 23:59:36 2021 :: Resetting #243: Snowy Valley (rooms 24300-24399).
+Apr 12 23:59:36 2021 :: Resetting #244: Cooland Prison (rooms 24400-24499).
+Apr 12 23:59:36 2021 :: Resetting #245: The Nether (rooms 24500-24599).
+Apr 12 23:59:36 2021 :: Resetting #246: The Nether II (rooms 24600-24699).
+Apr 12 23:59:36 2021 :: Resetting #247: Graveyard (rooms 24700-24799).
+Apr 12 23:59:36 2021 :: Resetting #248: Elven Woods (rooms 24800-24899).
+Apr 12 23:59:36 2021 :: Resetting #249: Jedi Clan House (rooms 24900-24999).
+Apr 12 23:59:36 2021 :: Resetting #250: DragonSpyre (rooms 25000-25099).
+Apr 12 23:59:36 2021 :: Resetting #251: Ape Village (rooms 25100-25199).
+Apr 12 23:59:36 2021 :: Resetting #252: Castle of the Vampyre (rooms 25200-25299).
+Apr 12 23:59:36 2021 :: Resetting #253: Windmill (rooms 25300-25399).
+Apr 12 23:59:36 2021 :: Resetting #254: Mordecai's Village (rooms 25400-25499).
+Apr 12 23:59:36 2021 :: Resetting #255: Shipwreck (rooms 25500-25599).
+Apr 12 23:59:36 2021 :: Resetting #256: Lord's Keep (rooms 25600-25699).
+Apr 12 23:59:36 2021 :: Resetting #257: Jareth Main City (rooms 25700-25799).
+Apr 12 23:59:36 2021 :: Resetting #258: Light Forest (rooms 25800-25899).
+Apr 12 23:59:36 2021 :: Resetting #259: Haunted Mansion (rooms 25900-25999).
+Apr 12 23:59:36 2021 :: Resetting #260: Grasslands (rooms 26000-26099).
+Apr 12 23:59:36 2021 :: Resetting #261: Inna & Igor's Castle (rooms 26100-26199).
+Apr 12 23:59:36 2021 :: Resetting #262: Forest Trails (rooms 26200-26299).
+Apr 12 23:59:36 2021 :: Resetting #263: Farmlands (rooms 26300-26399).
+Apr 12 23:59:36 2021 :: Resetting #264: Banshide (rooms 26400-26499).
+Apr 12 23:59:36 2021 :: Resetting #265: Beach & Lighthouse (rooms 26500-26599).
+Apr 12 23:59:36 2021 :: Resetting #266: Realm of Lord Ankou (rooms 26600-26699).
+Apr 12 23:59:36 2021 :: Resetting #267: Vice Island (rooms 26700-26799).
+Apr 12 23:59:36 2021 :: Resetting #268: Vice Island II (rooms 26800-26899).
+Apr 12 23:59:36 2021 :: Resetting #269: Southern Desert (rooms 26900-26999).
+Apr 12 23:59:36 2021 :: Resetting #270: Wasteland (rooms 27000-27099).
+Apr 12 23:59:36 2021 :: Resetting #271: Sundhaven (rooms 27100-27199).
+Apr 12 23:59:36 2021 :: Resetting #272: Sundhaven II (rooms 27200-27299).
+Apr 12 23:59:36 2021 :: Resetting #273: Space Station Alpha (rooms 27300-27399).
+Apr 12 23:59:36 2021 :: Resetting #274: Adria: Saint Brigid (rooms 27400-27499).
+Apr 12 23:59:36 2021 :: Resetting #275: New Sparta (rooms 27500-27599).
+Apr 12 23:59:36 2021 :: Resetting #276: New Sparta II (rooms 27600-27699).
+Apr 12 23:59:36 2021 :: Resetting #277: Shire (rooms 27700-27799).
+Apr 12 23:59:36 2021 :: Resetting #278: Oceania (rooms 27800-27899).
+Apr 12 23:59:36 2021 :: Resetting #279: Notre Dame (rooms 27900-27999).
+Apr 12 23:59:36 2021 :: Resetting #280: Living Motherboard (rooms 28000-28099).
+Apr 12 23:59:36 2021 :: Resetting #281: Forest of Khanjar (rooms 28100-28199).
+Apr 12 23:59:36 2021 :: Resetting #282: Infernal Pit of Kerjim (rooms 28200-28299).
+Apr 12 23:59:36 2021 :: Resetting #283: Haunted House (rooms 28300-28399).
+Apr 12 23:59:36 2021 :: Resetting #284: Ghenna (rooms 28400-28499).
+Apr 12 23:59:36 2021 :: Resetting #285: Descent to Hell II (rooms 28500-28599).
+Apr 12 23:59:36 2021 :: Resetting #286: Descent to Hell (rooms 28600-28699).
+Apr 12 23:59:36 2021 :: Resetting #287: Ofingia and the Goblin Town (rooms 28700-28799).
+Apr 12 23:59:36 2021 :: Resetting #288: Galaxy (rooms 28800-28899).
+Apr 12 23:59:36 2021 :: Resetting #289: Werith's Wayhouse (rooms 28900-28999).
+Apr 12 23:59:36 2021 :: Resetting #290: Lizard Lair Safari (rooms 29000-29099).
+Apr 12 23:59:36 2021 :: Resetting #291: Black Forest (rooms 29100-29199).
+Apr 12 23:59:36 2021 :: Resetting #292: Kerofk (rooms 29200-29299).
+Apr 12 23:59:36 2021 :: Resetting #293: Kerofk II (rooms 29300-29399).
+Apr 12 23:59:36 2021 :: Resetting #294: Trade Road (rooms 29400-29499).
+Apr 12 23:59:36 2021 :: Resetting #295: Jungle (rooms 29500-29599).
+Apr 12 23:59:36 2021 :: Resetting #296: Froboz Fun Factory (rooms 29600-29699).
+Apr 12 23:59:36 2021 :: Resetting #298: Castle of Desire (rooms 29800-29899).
+Apr 12 23:59:36 2021 :: Resetting #299: Abandoned Cathedral (rooms 29900-29999).
+Apr 12 23:59:36 2021 :: Resetting #300: Ancalador (rooms 30000-30099).
+Apr 12 23:59:36 2021 :: Resetting #301: Campus (rooms 30100-30199).
+Apr 12 23:59:36 2021 :: Resetting #302: Campus II (rooms 30200-30299).
+Apr 12 23:59:36 2021 :: Resetting #303: Campus III (rooms 30300-30399).
+Apr 12 23:59:36 2021 :: Resetting #304: Temple of the Bull (rooms 30400-30499).
+Apr 12 23:59:36 2021 :: Resetting #305: Chessboard (rooms 30500-30599).
+Apr 12 23:59:36 2021 :: Resetting #306: Newbie Tree (rooms 30600-30699).
+Apr 12 23:59:36 2021 :: Resetting #307: Castle (rooms 30700-30799).
+Apr 12 23:59:36 2021 :: Resetting #308: Baron Cailveh (rooms 30800-30899).
+Apr 12 23:59:36 2021 :: Resetting #309: Keep of Baron Westlawn (rooms 30900-30999).
+Apr 12 23:59:36 2021 :: Resetting #310: Graye Area (rooms 31000-31099).
+Apr 12 23:59:36 2021 :: Resetting #311: The Dragon's Teeth (rooms 31100-31199).
+Apr 12 23:59:36 2021 :: Resetting #312: Leper Island (rooms 31200-31299).
+Apr 12 23:59:36 2021 :: Resetting #313: Farmlands of Ofingia (rooms 31300-31399).
+Apr 12 23:59:36 2021 :: Resetting #314: X'Raantra's Altar of Sacrifice (rooms 31400-31499).
+Apr 12 23:59:36 2021 :: Resetting #315: McGintey Business District (rooms 31500-31599).
+Apr 12 23:59:36 2021 :: Resetting #316: McGintey Guild Area (rooms 31600-31699).
+Apr 12 23:59:36 2021 :: Resetting #317: Wharf (rooms 31700-31799).
+Apr 12 23:59:36 2021 :: Resetting #318: Dock Area (rooms 31800-31899).
+Apr 12 23:59:36 2021 :: Resetting #319: Yllythad Sea (rooms 31900-31999).
+Apr 12 23:59:36 2021 :: Resetting #320: Yllythad Sea II (rooms 32000-32099).
+Apr 12 23:59:36 2021 :: Resetting #321: Yllythad Sea III (rooms 32100-32199).
+Apr 12 23:59:36 2021 :: Resetting #322: McGintey Bay (rooms 32200-32299).
+Apr 12 23:59:36 2021 :: Resetting #323: Caverns of the Pale Man (rooms 32300-32399).
+Apr 12 23:59:36 2021 :: Resetting #324: Army Encampment (rooms 32400-32499).
+Apr 12 23:59:36 2021 :: Resetting #325: Revelry (rooms 32500-32599).
+Apr 12 23:59:36 2021 :: Resetting #326: Army Perimeter (rooms 32600-32699).
+Apr 12 23:59:36 2021 :: Resetting #343: God Complex  (rooms 34300-34399).
+Apr 12 23:59:36 2021 :: Resetting #345: Asylum for the Insane (rooms 34500-34599).
+Apr 12 23:59:36 2021 :: Resetting #346: God Hall Ext 346 for God Hall Cmplx (rooms 34600-34699).
+Apr 12 23:59:36 2021 :: Resetting #555: Ultima (rooms 55500-55599).
+Apr 12 23:59:36 2021 :: Resetting #556: Ultima II (rooms 55600-55699).
+Apr 12 23:59:36 2021 :: Resetting #653: Apartment (rooms 65300-65399).
+Apr 12 23:59:36 2021 :: Resetting #654: Subdivision (rooms 65400-65499).
+Apr 12 23:59:36 2021 :: Boot db -- DONE.
+Apr 12 23:59:36 2021 :: Signal trapping.
+Apr 12 23:59:36 2021 :: Entering game loop.
+Apr 12 23:59:36 2021 :: No connections.  Going to sleep.
+Apr 12 23:59:44 2021 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Apr 12 23:59:46 2021 :: INDRA has connected.
+Apr 12 23:59:51 2021 :: INDRA had no variable file
+Apr 12 23:59:51 2021 :: INDRA retrieving crash-saved items and entering game.
+Apr 12 23:59:51 2021 :: INDRA (level 34) has 0 objects (max 30).
+Apr 13 00:00:16 2021 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.

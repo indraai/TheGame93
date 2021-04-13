@@ -1,0 +1,30 @@
+Apr 12 23:50:13 2021 :: INDRA had no variable file
+Apr 12 23:50:13 2021 :: INDRA retrieving crash-saved items and entering game.
+Apr 12 23:50:13 2021 :: INDRA (level 34) has 0 objects (max 30).
+Apr 12 23:50:56 2021 :: OLC: INDRA starts editing zone 31 allowed zone 0
+Apr 12 23:51:57 2021 :: GenOLC: add_mobile: Updated existing mobile #3102.
+Apr 12 23:51:57 2021 :: OLC: INDRA edits mob 3102
+Apr 12 23:51:57 2021 :: GenOLC: 'world/mob/31.mob' saved, 3499 bytes written.
+Apr 12 23:51:57 2021 :: OLC: INDRA stops editing zone 31 allowed zone 0
+Apr 12 23:53:43 2021 :: OLC: INDRA starts editing zone 31 allowed zone 0
+Apr 12 23:54:26 2021 :: OLC: INDRA stops editing zone 31 allowed zone 0
+Apr 12 23:54:30 2021 :: OLC: INDRA starts editing zone 31 allowed zone 0
+Apr 12 23:55:06 2021 :: nusage: 1   sockets connected, 1   sockets playing
+Apr 12 23:55:24 2021 :: GenOLC: add_room: Updated existing room #3111.
+Apr 12 23:55:24 2021 :: OLC: INDRA edits room 3111.
+Apr 12 23:55:24 2021 :: GenOLC: save_rooms: Saving rooms in zone #31 (3100-3199).
+Apr 12 23:55:24 2021 :: OLC: INDRA stops editing zone 31 allowed zone 0
+Apr 12 23:55:46 2021 :: OLC: INDRA starts editing zone 31 allowed zone 0
+Apr 12 23:56:35 2021 :: GenOLC: add_room: Updated existing room #3110.
+Apr 12 23:56:35 2021 :: OLC: INDRA edits room 3110.
+Apr 12 23:56:35 2021 :: GenOLC: save_rooms: Saving rooms in zone #31 (3100-3199).
+Apr 12 23:56:35 2021 :: OLC: INDRA stops editing zone 31 allowed zone 0
+Apr 12 23:57:11 2021 :: OLC: INDRA starts editing zone 31 allowed zone 0
+Apr 12 23:59:05 2021 :: GenOLC: add_room: Updated existing room #3110.
+Apr 12 23:59:05 2021 :: OLC: INDRA edits room 3110.
+Apr 12 23:59:05 2021 :: GenOLC: save_rooms: Saving rooms in zone #31 (3100-3199).
+Apr 12 23:59:05 2021 :: OLC: INDRA stops editing zone 31 allowed zone 0
+Apr 12 23:59:31 2021 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.
