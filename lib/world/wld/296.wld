@@ -172,7 +172,7 @@ D2
 0 -1 29601
 S
 #29607
-The Entrance Area~
+Agency: Factory~
    There is a big round desk in this room here, with all sorts
 of security equipment arrayed around it.  It looks like some
 sort of high-magic, what with all the weird surfaces showing
@@ -184,9 +184,10 @@ dark green decor which makes it feel somewhat drab.
 ~
 296 8 0 0 0 0
 D1
+adventure[world]:3147/look
 ~
 ~
-0 -1 29618
+0 -1 3147
 D2
 ~
 ~
@@ -411,10 +412,6 @@ D0
 ~
 ~
 0 -1 29619
-D3
-~
-~
-0 -1 29607
 S
 #29619
 The Work Floor~

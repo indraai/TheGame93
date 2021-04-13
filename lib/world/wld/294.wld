@@ -8,6 +8,11 @@ district.
 ~
 294 8 0 0 0 0
 D1
+adventure[world]:3147/look
+~
+~
+0 -1 3147
+D3
 ~
 ~
 0 0 29401
@@ -84,7 +89,7 @@ A small alleyway leading north.
 D1
 ~
 ~
-0 0 29460
+0 0 29400
 D2
 A small alleyway leads to the south.  Looks ominous.
 ~
@@ -93,7 +98,7 @@ A small alleyway leads to the south.  Looks ominous.
 D3
 ~
 ~
-0 0 29400
+0 0 29460
 E
 alley alleys~
    There are alleys to the north and south.
