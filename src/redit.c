@@ -328,7 +328,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
     !extra_desc->next ? "\n\nmenu[New Description]:3\n\r" : "\n\nmenu[Next Description]:3\n\r"
     );
 
-  write_to_output(d, "\n\nmenu[Quit]:q");
+  write_to_output(d, "\nmenu[Quit]:q\n\r");
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
 }
 
@@ -549,7 +549,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-        write_to_output(d, "Do you wish to save your changes? : ");
+        write_to_output(d, "Save your changes?: confirm[Yes]:Y confirm[No]:N");
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
         cleanup_olc(d, CLEANUP_ALL);
