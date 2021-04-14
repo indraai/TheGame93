@@ -998,7 +998,7 @@ void column_list(struct char_data *ch, int num_cols, const char **list, int list
        if (offset < list_length)
        {
          if (show_nums)
-           temp_len = snprintf(buf+len, sizeof(buf) - len, "-:mudder[%s]:%d:-", list[(offset)], offset+1);
+           temp_len = snprintf(buf+len, sizeof(buf) - len, "\nconfirm[%s]:%d\n\r", list[(offset)], offset+1);
          else
            temp_len = snprintf(buf+len, sizeof(buf) - len, "%-*s", col_width, list[(offset)]);
          len += temp_len;
