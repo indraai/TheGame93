@@ -1216,10 +1216,10 @@ To the south you can see the entrance to the Campus Pub.
 door~
 1 -1 30165
 D3
-adventure[world]:3048/look
+adventure[world]:3148/look
 ~
 ~
-1 -1 3048
+1 -1 3148
 E
 sweatshirt sweatshirts pants t-shirt t-shirts books~
    There is absolutely no point in looking at anything because the prices are
