@@ -325,7 +325,8 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 	  );
 
   write_to_output(d,
-    !extra_desc->next ? "\n\nmenu[New Description]:3\n\r : \n\nmenu[Next Description]:3\n\r");
+    !extra_desc->next ? "\n\nmenu[New Description]:3\n\r : \n\nmenu[Next Description]:3\n\r"
+    );
 
   write_to_output(d, "\n\nmenu[Quit]:q");
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
