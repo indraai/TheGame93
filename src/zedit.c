@@ -424,29 +424,30 @@ static void zedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header */
   send_to_char(d->character,
-	  "Room number: %s%d%s Room zone: %s%d\r\n"
-	  "%s1%s) Builders       : %s%s\r\n"
-	  "%sZ%s) Zone name      : %s%s\r\n"
-	  "%sL%s) Lifespan       : %s%d minutes\r\n"
-	  "%sB%s) Bottom of zone : %s%d\r\n"
-	  "%sT%s) Top of zone    : %s%d\r\n"
-	  "%sR%s) Reset Mode     : %s%s\r\n"
-	  "%sF%s) Zone Flags     : %s%s\r\n"
-	  "%sM%s) Level Range    : %s%s%s\r\n"
-	  "[Command list]\r\n",
+    "\n# Zone Edit: %s\r"
+	  "\n'number': %d\r"
+    "\n'zone': %d\r"
+	  "\n'1) builders': %s\r"
+	  "\n'Z) Zone name': %s\r"
+	  "\n'L) Lifespan': %d minutes\r"
+	  "\nB) 'Zone Bottom': %d\r"
+	  "\nT) 'Zone Top': %d\r"
+	  "\nR) 'Reset Mode': %s\r"
+	  "\nF) 'Zone Flags': %s\r"
+	  "\nM) 'Level Range': %s\r"
+	  "\n### Command list\r",
 
-	  cyn, OLC_NUM(d), nrm,
-	  cyn, zone_table[OLC_ZNUM(d)].number,
-	  grn, nrm, yel, OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.",
-	  grn, nrm, yel, OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
-	  grn, nrm, yel, OLC_ZONE(d)->lifespan,
-	  grn, nrm, yel, OLC_ZONE(d)->bot,
-	  grn, nrm, yel, OLC_ZONE(d)->top,
-	  grn, nrm, yel,
+    OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
+	  OLC_NUM(d),
+	  zone_table[OLC_ZNUM(d)].number,
+	  OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.",
+	  OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
+	  OLC_ZONE(d)->lifespan,
+	  OLC_ZONE(d)->bot,
+	  OLC_ZONE(d)->top,
 	  OLC_ZONE(d)->reset_mode ? ((OLC_ZONE(d)->reset_mode == 1) ? "Reset when no players are in zone." : "Normal reset.") : "Never reset",
-	  grn, nrm, cyn, buf1,
-	  grn, nrm, levels_set ? cyn : yel, lev_string,
-	  nrm
+	  buf1,
+	  lev_string
 	  );
 
   /* Print the commands for this room into display buffer. */
