@@ -433,6 +433,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n2) Description: %s\n\r"
       "\n3) Room flags  : %s\n\r"
       "\n4) Sector type : %s\n\r",
+      room->name,
       OLC_NUM(d),
       zone_table[OLC_ZNUM(d)].number,
       room->name,
