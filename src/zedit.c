@@ -430,11 +430,11 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\n'1) builders': %s\n\r"
 	  "\n'Z) Zone name': %s\n\r"
 	  "\n'L) Lifespan': %d minutes\n\r"
-	  "\nB) 'Zone Bottom': %d\n\r"
-	  "\nT) 'Zone Top': %d\n\r"
-	  "\nR) 'Reset Mode': %s\n\r"
-	  "\nF) 'Zone Flags': %s\n\r"
-	  "\nM) 'Level Range': %s\n\r"
+	  "\n'B) Zone Bottom': %d\n\r"
+	  "\n'T) Zone Top': %d\n\r"
+	  "\n'R) Reset Mode': %s\n\r"
+	  "\n'F) Zone Flags': %s\n\r"
+	  "\n'M) Level Range': %s\n\r"
 	  "\n### Command list\n\r",
 
     OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
@@ -538,12 +538,12 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "%s%d - <END OF LIST>\r\n"
-	  "%sN%s) Insert new command.\r\n"
-	  "%sE%s) Edit a command.\r\n"
-	  "%sD%s) Delete a command.\r\n"
-	  "%sQ%s) Quit\r\nEnter your choice : ",
-	  nrm, counter, grn, nrm, grn, nrm, grn, nrm, grn, nrm
+	  "\n%d [END OF LIST]\n\r"
+	  "\ncmd[Insert New Command]:> N\n\r"
+	  "\ncmd[Edit Command]:> E\n\r"
+	  "\ncmd[Delete Command]:> D\n\r"
+	  "\ncmd[Quit]:> Q\n\r",
+	  counter
 	  );
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
