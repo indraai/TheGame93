@@ -490,8 +490,9 @@ static void redit_disp_menu(struct descriptor_data *d)
       );
   }
   write_to_output(d,
-      "'9) Exit up': %d\n\r"
-      "'A) Exit down': %d\r\n"
+      "\n'9) up': %d\n\r"
+      "\n'A) down': %d\r\n"
+      "\n\n"
       "%sF%s) Extra descriptions menu\r\n"
       "%sS%s) Script      : %s%s\r\n"
        "%sW%s) Copy Room\r\n"
