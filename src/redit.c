@@ -498,7 +498,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nmenu[Copy Room]:W\n\r"
       "\nmenu[Delete Room]:X\n\r"
       "\nmenu[Quit]:Q\n\r"
-      "\nEnter choice : ",
+      "\n\n\nEnter choice : ",
       room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
       world[room->dir_option[UP]->to_room].number : -1,
       room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?

@@ -542,7 +542,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu[Insert a Command]:N\n\r"
 	  "\nmenu[Edit a Command]:E\n\r"
 	  "\nmenu[Delete a Command]:D\n\r"
-	  "\nmenu[Quit]:Q\r",
+	  "\n\n\nmenu[Quit]:Q\r",
 	  counter
 	  );
 
