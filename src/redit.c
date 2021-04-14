@@ -503,10 +503,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       world[room->dir_option[UP]->to_room].number : -1,
       room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?
       world[room->dir_option[DOWN]->to_room].number : -1,
-      OLC_SCRIPT(d) ? "Set." : "Not Set.",
-          grn, nrm,
-      grn, nrm,
-      grn, nrm
+      OLC_SCRIPT(d) ? "Set." : "Not Set."
       );
 
   OLC_MODE(d) = REDIT_MAIN_MENU;
