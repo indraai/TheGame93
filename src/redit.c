@@ -492,6 +492,8 @@ static void redit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
       "\n'9) up': %d\n\r"
       "\n'A) Exit down': %d\n\r"
+      );
+  write_to_output(d,
       "\nconfirm[Extra Description]:F\n\r"
       "\nscript: confirm[%s]:S %s\n\r"
       "\ncopy: confirm[Copy Room]:W\n\r"
