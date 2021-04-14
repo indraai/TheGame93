@@ -427,12 +427,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
       "\n# %s\n\r"
-      "'number': [%d]\n\r"
+      "\n'number': [%d]\n\r"
       "\n'zone': [%d]\n\r"
-      "\n1) Name: %s\n\r"
-      "\n2) Description: %s\n\r"
-      "\n3) Room flags  : %s\n\r"
-      "\n4) Sector type : %s\n\r",
+      "\n'1) Name': %s\n\r"
+      "\n'2) Description': %s\n\r"
+      "\n'3) Room flags': %s\n\r"
+      "\n'4) Sector type': %s\n\r",
       room->name,
       OLC_NUM(d),
       zone_table[OLC_ZNUM(d)].number,
