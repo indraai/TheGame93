@@ -1,102 +1,79 @@
 #15000
-The King's Road~
-   You stand at the beginning of the actual King's Road.  The road is wide
-enough for several horses to ride along side by side with room to spare.
-The stones which make up the road have been put into place with such skill
-that the road seems to be perfectly smooth and perfectly straight.
-   You spot a small trail leading to the south through the undergrowth which
-surrounds the road at this point.
-A traveller passes by and waves cheerfully at you.
+Castle Blvd.~
+adventure[world]:15000/main
 ~
 150 0 0 0 0 1
 D1
-The King's Road continues in a straight line to the east towards a grand
-castle.
+adventure[world]:15001/look
 ~
 ~
 0 -1 15001
 D2
-A small overgrown trail leads through the undergrowth to the south.
+adventure[world]:15061/look
 ~
 ~
 0 -1 15061
 D3
-The King's Road thins out a bit into a lane just to the west.
+adventure[world]:3502/look
 ~
 ~
 0 -1 3502
-E
-traveller~
-   The traveller smiles cheerfully and calls 'hello' when you greet him, but
-continues on his way.  The traveller is in excellent condition.
-~
 S
 #15001
-The King's Road~
-   You stand in the center of the great King's Road.  The road is very well
-built, and goes in a straight line due east-west.
+Castle Bvld.~
+adventure[world]:15001/main
 ~
 150 0 0 0 0 1
 D1
-The King's Road continues in a straight line to the east.
+adveinture[world]:1502/look
 ~
 ~
 0 -1 15002
 D3
-You see that the King's Road continues westwards towards a large city.
+adventure[world]:15000/look
 ~
 ~
 0 -1 15000
 S
 #15002
-The King's Road~
-   You stand on the King's Road, which leads east and west.  The
-skill of the builders is apparent, since it is impossible to notice
-any turn or irregularity in the road.
+Castle Blvd.~
+adventure[world]:15002/main
 ~
 150 0 0 0 0 1
 D1
-You see a castle in the far east.
+adventure[world]:15003/look
 ~
 ~
 0 -1 15003
 D3
-The King's Road continues in a straight line to the west.
+adventure[world]:15002/look
 ~
 ~
 0 -1 15001
 S
 #15003
-On The King's Road Outside A Castle~
-   You are standing on the King's Road.  Before you is a large
-Castle, evidently built not so much for strength as for beauty.
-It is not totally without defenses, though, for it is surrounded
-by a deep moat, and its windows are just narrow slits for archers
-to shoot through.  To the north there is a drawbridge across the
-moat.
+The Castle~
+adventure[world]:15003/main
 ~
 150 0 0 0 0 1
 D0
-You see the drawbridge.
+adventure[world]:15004/look
 ~
 ~
 0 -1 15004
 D3
-The King's Road continues in a straight line to the west.
+adventure[world]:15002/look
 ~
 ~
 0 -1 15002
 S
 #15004
-On The Drawbridge~
-   You have arrived at the drawbridge leading into the Castle.  Before
-you is a huge, double-doored gate.  It seems very strong.  You see some
-whirls in the moat.
+The Drawbridge~
+adventure[world]:15004/main
 ~
 150 0 0 0 0 1
 D0
-The gate has huge, but intricately carved hinges.  As the Castle itself,
-it seems designed not only for strength, but also for beauty.
+adventure[world]:15007/look
 ~
 gate door~
 1 -1 15007
@@ -107,8 +84,11 @@ You see the King's Road.
 0 -1 15003
 E
 whirls whirl moat~
-   You can't see much, but it seems that something beneath the surface is
-creating them.
+adventure[world]:15004/moat
+~
+E
+gate drawbridge~
+adventure[world]:15004/gate
 ~
 S
 #15005
