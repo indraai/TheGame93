@@ -445,10 +445,10 @@ static void redit_disp_menu(struct descriptor_data *d)
   {
     write_to_output(d,
       "### Exits\n\r"
-      "\n5) north: %d\n\r"
-      "\n6) east: %d\n\r"
-      "\n7) south: %d\n\r"
-      "\n8) west: %d\n\r",
+      "\n'5) north': %d\n\r"
+      "\n'6) east': %d\n\r"
+      "\n'7) south': %d\n\r"
+      "\n'8) west': %d\n\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
