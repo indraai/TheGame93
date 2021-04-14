@@ -633,7 +633,7 @@ static void look_at_target(struct char_data *ch, char *arg)
     return;
 
   if (!*arg) {
-    send_to_char(ch, "Look at what?\r\n");
+    send_to_char(ch, "\nLook at what?\n\r");
     return;
   }
 
@@ -653,7 +653,7 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Strip off "number." from 2.foo and friends. */
   if (!(fnum = get_number(&arg))) {
-    send_to_char(ch, "Look at what?\r\n");
+    send_to_char(ch, "\nLook at what?\n\r");
     return;
   }
 
@@ -667,7 +667,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (j = 0; j < NUM_WEARS && !found; j++)
     if (GET_EQ(ch, j) && CAN_SEE_OBJ(ch, GET_EQ(ch, j)))
       if ((desc = find_exdesc(arg, GET_EQ(ch, j)->ex_description)) != NULL && ++i == fnum) {
-	send_to_char(ch, "%s", desc);
+	send_to_char(ch, "\n%s\n\r", desc);
 	found = TRUE;
       }
 
@@ -675,8 +675,8 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-	send_to_char(ch, "%s", desc);
-	found = TRUE;
+        send_to_char(ch, "\n%s\n\r", desc);
+        found = TRUE;
       }
   }
 
@@ -684,8 +684,8 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content)
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-	send_to_char(ch, "%s", desc);
-	found = TRUE;
+        send_to_char(ch, "\n%s\r\n", desc);
+	      found = TRUE;
       }
 
   /* If an object was found back in generic_find */
@@ -694,10 +694,10 @@ static void look_at_target(struct char_data *ch, char *arg)
       show_obj_to_char(found_obj, ch, SHOW_OBJ_ACTION);
     else {
       show_obj_modifiers(found_obj, ch);
-      send_to_char(ch, "\r\n");
+      send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "You do not see that here.\r\n");
+    send_to_char(ch, "\nYou do not see that here.\n\r");
 }
 
 ACMD(do_look)
