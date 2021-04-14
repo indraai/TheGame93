@@ -93,73 +93,65 @@ adventure[world]:15004/gate
 S
 #15005
 The Kitchen~
-   You are in the Kitchen.  Lots of helpers hurry to do the Chief Cook's
-bidding, and there is a wonderful smell that makes you feel very hungry.
-All around the room, there are shelves with different kinds of cooking
-gear stacked on them.  There is an exit to the north, and one to the east;
-both leading to small passages.
+adventure[world]:15005/main
 ~
 150 8 0 0 0 0
 D0
-You see a small, dimly lit passage.
+adventure[world]:15010/look
 ~
 ~
 0 -1 15010
 D1
-You see a small, dimly lit passage.
+adventure[world]:15006/look
 ~
 ~
 0 -1 15006
 S
 #15006
 A Small Passage~
-   You are standing in a small passage, that is clearly intended mostly
-for the servants of the Castle.  It is only dimly lit and quite narrow.
-The passage leads west, and to the east there is a small door.
+adventure[world]:15006/main
 ~
 150 8 0 0 0 0
 D1
-The door is small and uninteresting.
+adventure[world]:15007/look
 ~
 door small~
 1 -1 15007
 D3
-You hear clanging of pots, and smell cooking meat.
+adventure[world]:15005/look
 ~
 ~
 0 -1 15005
 S
 #15007
 The Entrance Hall~
-   You are standing in the impressive Entrance Hall of the Castle.
-To the north is an exit into the Great Hall.  There is also an exit
-east, and a small door to the west.
+adventure[world]:15007/main
 ~
 150 8 0 0 0 0
 D0
-You see the King's Great Hall.
+adventure[world]:15012/look
 ~
 ~
 0 -1 15012
 D1
-There seems to be a small guard room to the east.
+adventure[world]:15008/look
 ~
 ~
 0 -1 15008
 D2
-To the south, there is a gate, that leads to the Drawbridge.
+adventure[world]:15004/look
 ~
-gate~
+gate drawbridge~
 1 -1 15004
 D3
-The door is small and uninteresting.
+adventure[world]:15006/look
 ~
 door small~
 1 -1 15006
 S
 #15008
 Agency: Indra Castle~
-You are in a small room, evidently meant for guards currently not on duty.  There is only one exit, back to the entrance hall.
+adventure[world]:15008/main
 ~
 150 8 0 0 0 0
 D2
@@ -168,88 +160,70 @@ adventure[world]:3142/look
 ~
 0 -1 3142
 D3
-You see the Castle Entrance.
+adventure[world]:15007/look
 ~
 ~
 0 -1 15007
 S
 #15009
 Under The Tower~
-You are below one the three mighty towers of the Castle.  There are
-no guards here, and you sense that this part of the Castle is largely
-unused.  There are stairs going up to the tower, and there is also an
-exit to the north.
+adventure[world]:15009/main
 ~
 150 8 0 0 0 0
 D0
-You see a small, dimly lit passage.
+adventure[world]:15014/look
 ~
 ~
 0 -1 15014
 D4
-The stairs are old, but in good repair. They lead up into the tower.
+adventure[world]:15034/look
 ~
 ~
 0 -1 15034
 E
 stairs~
-   The stairs are old, but in good repair.  They lead up into the tower.
+adventure[world]:15009/stairs
 ~
 S
 #15010
 The Small Passage~
-   You are standing in a small passage, that is clearly intended
-mainly for the servants of the Castle.  The passage leads north
-and south.
+adventure[world]:15010/main
 ~
 150 8 0 0 0 0
 D0
-You see a small, dimly lit passage.
+adventure[world]:15015/look
 ~
 ~
 0 -1 15015
 D2
-You hear the clanging of pots, and smell cooking meat.
+adventure[world]:15005/look
 ~
 ~
 0 -1 15005
 S
 #15011
 The Great Hall~
-   You are standing in the south-west end of the Great Hall. It
-is truly vast; the roof is so high above your head, that it seems no
-closer than the clouds outside.  The roof is beautifully painted, by
-someone who must have been a true master.  The hall is very large,
-and could easily seat several hundred people at a banquet.
+adventure[world]: 15011/main
 ~
 150 8 0 0 0 0
 D0
-You see the King's Great Hall.
+aventure[world]:15016/look
 ~
 ~
 0 -1 15016
 D1
-You see the King's Great Hall.
+adventure[world]:15012/look
 ~
 ~
 0 -1 15012
 E
 roof paintings paint~
-   The paintings on the roof depict the great heroes and gods.  One of the gods
-is fairly heavy-bellied and incredibly hairy, with a massive beard.  Also among
-them are the great enemies and wrongdoers, such as the evil Goddess Yochlol and
-the powerful evil Wizard Tharoecon.
+adventure[world]:15011/roof
 ~
 S
 #15012
 The Great Hall~
-   You are standing in the southern end of the Great Hall.  It
-is truly vast; the roof is so high above your head, that it seems no
-closer than the clouds outside.  The roof is beautifully painted, by
-someone who must have been a true master.  The hall is very large,
-and could easily seat several hundred people at a banquet.  To your
-north, you see King Indra's great throne, and to the south is the
-Castle Entrance.
+adventure[world]:15012/main
 ~
 150 8 0 0 0 0
 D0
