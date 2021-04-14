@@ -193,7 +193,7 @@ void basic_mud_vlog(const char *format, va_list args)
   time_t ct = time(0);
   char timestr[21];
   int i;
-  
+
   if (logfile == NULL) {
     puts("SYSERR: Using log() before stream was initialized!");
     return;
@@ -804,7 +804,7 @@ int count_non_protocol_chars(char * str)
 {
   int count = 0;
   char *string = str;
-  
+
   while (*string) {
     if (*string == '\r' || *string == '\n') {
       string++;
@@ -825,7 +825,7 @@ int count_non_protocol_chars(char * str)
     count++;
     string++;
   }
-  
+
   return count;
 }
 
@@ -998,7 +998,7 @@ void column_list(struct char_data *ch, int num_cols, const char **list, int list
        if (offset < list_length)
        {
          if (show_nums)
-           temp_len = snprintf(buf+len, sizeof(buf) - len, "%2d) %-*s", offset+1, col_width, list[(offset)]);
+           temp_len = snprintf(buf+len, sizeof(buf) - len, "confirm[%-*s]:%2d", col_width, list[(offset)], offset+1);
          else
            temp_len = snprintf(buf+len, sizeof(buf) - len, "%-*s", col_width, list[(offset)]);
          len += temp_len;
@@ -1335,16 +1335,16 @@ char *strfrmt(char *str, int w, int h, int justify, int hpad, int vpad)
         sp += 2; /* Eat the whole code regardless */
       } else if (*sp=='\t'&&sp[1]) {
         char MXPcode = sp[1]=='[' ? ']' : sp[1]=='<' ? '>' : '\0';
-	
+
   if (!MXPcode)
 	   last_color = sp[1];
- 
+
         sp += 2; /* Eat the code */
         if (MXPcode)
         {
            while (*sp!='\0'&&*sp!=MXPcode)
              ++sp; /* Eat the rest of the code */
-        } 
+        }
       } else {
         wlen++;
         sp++;
@@ -1484,7 +1484,7 @@ int get_class_by_name(char *classname)
 char * convert_from_tabs(char * string)
 {
   static char buf[MAX_STRING_LENGTH * 8];
-  
+
   strcpy(buf, string);
   parse_tab(buf);
   return(buf);
@@ -1530,7 +1530,7 @@ void remove_from_string(char *string, const char *to_remove)
         }
 
         /* If it is not a word */
-        if(string[i + j] != ' ' && string[i + j] != '\t' && string[i + j] != '\n' && string[i + j] != '\0') 
+        if(string[i + j] != ' ' && string[i + j] != '\t' && string[i + j] != '\n' && string[i + j] != '\0')
         {
             found = 0;
         }
@@ -1552,5 +1552,5 @@ void remove_from_string(char *string, const char *to_remove)
             i--;
         }
     }
-    
+
 }
