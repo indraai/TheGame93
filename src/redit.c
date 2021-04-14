@@ -174,12 +174,12 @@ void redit_setup_existing(struct descriptor_data *d, int real_num)
   CREATE(room, struct room_data, 1);
 
   *room = world[real_num];
-  
-  /* Make new room people list be empty.                          */ 
-  /* Fixes bug where copying a room from within that room creates */ 
-  /* an infinite loop when you next act() in the new room (goto?) */ 
-  /* and you are your next_in_room          -- anderyu (10-05-22) */ 
-  room->people = NULL; 
+
+  /* Make new room people list be empty.                          */
+  /* Fixes bug where copying a room from within that room creates */
+  /* an infinite loop when you next act() in the new room (goto?) */
+  /* and you are your next_in_room          -- anderyu (10-05-22) */
+  room->people = NULL;
 
   /* Nullify the events structure. */
   room->events = NULL;
@@ -239,7 +239,7 @@ void redit_save_internally(struct descriptor_data *d)
   if (OLC_ROOM(d)->number == NOWHERE)
     new_room = TRUE;
 
-  OLC_ROOM(d)->number = OLC_NUM(d); 
+  OLC_ROOM(d)->number = OLC_NUM(d);
   /* FIXME: Why is this not set elsewhere? */
   OLC_ROOM(d)->zone = OLC_ZNUM(d);
 
@@ -341,7 +341,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
     CREATE(OLC_EXIT(d), struct room_direction_data, 1);
     OLC_EXIT(d)->to_room = NOWHERE;
   }
-  
+
   /* Weird door handling! */
   if (IS_SET(OLC_EXIT(d)->exit_info, EX_ISDOOR)) {
     if (IS_SET(OLC_EXIT(d)->exit_info, EX_PICKPROOF) && IS_SET(OLC_EXIT(d)->exit_info, EX_HIDDEN))
@@ -426,35 +426,34 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprintbitarray(room->room_flags, room_bits, RF_ARRAY_MAX, buf1);
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
-      "-- Room number : [%s%d%s] Room zone: [%s%d%s]\r\n"
-      "%s1%s) Name        : %s%s\r\n"
-      "%s2%s) Description :\r\n%s%s"
-      "%s3%s) Room flags  : %s%s\r\n"
-      "%s4%s) Sector type : %s%s\r\n",
-      cyn, OLC_NUM(d), nrm,
-      cyn, zone_table[OLC_ZNUM(d)].number, nrm,
-      grn, nrm, yel, room->name,
-      grn, nrm, yel, room->description,
-      grn, nrm, cyn, buf1,
-      grn, nrm, cyn, buf2);
+      "\n# %s\n\r"
+      "'number': [%d]\n\r"
+      "\n'zone': [%d]\n\r"
+      "\n1) Name: %s\n\r"
+      "\n2) Description: %s\n\r"
+      "\n3) Room flags  : %s\n\r"
+      "\n4) Sector type : %s\n\r",
+      OLC_NUM(d),
+      zone_table[OLC_ZNUM(d)].number,
+      room->name,
+      room->description,
+      buf1,
+      buf2);
 
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
-      "%s5%s) Exit north  : %s%d\r\n"
-      "%s6%s) Exit east   : %s%d\r\n"
-      "%s7%s) Exit south  : %s%d\r\n"
-      "%s8%s) Exit west   : %s%d\r\n",
-      grn, nrm, cyn,
+      "### Exits\n\r"
+      "\n5) north: %d\n\r"
+      "\n6) east: %d\n\r"
+      "\n7) south: %d\n\r"
+      "\n8) west: %d\n\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
-      grn, nrm, cyn,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
       world[room->dir_option[EAST]->to_room].number : -1,
-      grn, nrm, cyn,
       room->dir_option[SOUTH] && room->dir_option[SOUTH]->to_room != NOWHERE ?
       world[room->dir_option[SOUTH]->to_room].number : -1,
-      grn, nrm, cyn,
       room->dir_option[WEST] && room->dir_option[WEST]->to_room != NOWHERE ?
       world[room->dir_option[WEST]->to_room].number : -1);
   } else {
@@ -537,8 +536,8 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'n':
     case 'N':
-      /* If not saving, we must free the script_proto list. We do so by 
-       * assigning it to the edited room and letting free_room in 
+      /* If not saving, we must free the script_proto list. We do so by
+       * assigning it to the edited room and letting free_room in
        * cleanup_olc handle it. */
       OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
       cleanup_olc(d, CLEANUP_ALL);
@@ -836,7 +835,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_EXTRADESC_MENU:
     switch ((number = atoi(arg))) {
     case 0:
-      /* If something got left out, delete the extra description when backing 
+      /* If something got left out, delete the extra description when backing
          out to the menu. */
       if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
 	struct extra_descr_data *temp;
@@ -891,7 +890,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     } else
       write_to_output(d, "That room does not exist.\r\n");
     break;
-  
+
   case REDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_room(real_room(OLC_ROOM(d)->number)))
