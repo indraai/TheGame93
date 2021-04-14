@@ -319,7 +319,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	  "\n'1) keywords': %s\n\r"
-	  "\n'2) description': %s\n\r"
+	  "\n'2) description': %s\n\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
