@@ -424,7 +424,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header */
   send_to_char(d->character,
-    "\n# Zone Edit: %s\n\r"
+    "\n# %s\n\r"
 	  "\n'number': %d\n\r"
     "\n'zone': %d\n\r"
 	  "\n'1) builders': %s\n\r"
@@ -539,9 +539,10 @@ static void zedit_disp_menu(struct descriptor_data *d)
   /* Finish off menu */
    write_to_output(d,
 	  "\n%d [END OF LIST]\n\r"
-	  "\ncmd[Insert New Command]:> N\r"
-	  "\ncmd[Edit Command]:> E\r"
-	  "\ncmd[Delete Command]:> D\r"
+	  "\nN) Insert a Command\r"
+	  "\nE) Edit a Command\r"
+	  "\nD) Delete a Command\r"
+    "\n---\n\n"
 	  "\ncmd[Quit]:> Q\r",
 	  counter
 	  );
