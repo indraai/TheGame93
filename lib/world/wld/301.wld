@@ -1196,8 +1196,8 @@ The auditorium lies to the south.
 0 -1 30260
 S
 #30141
-Campus Bookstore~
-   This shop is filled with over-priced items that every university student
+Agency: University~
+This shop is filled with over-priced items that every university student
 would want for his, her, or its own home.  Such items as sweatshirts, pants,
 T-shirts, and, of course, over-priced books that can do for presents to the
 rest of the family.  There are two exits, one to the south and one to the east.
@@ -1215,6 +1215,11 @@ To the south you can see the entrance to the Campus Pub.
 ~
 door~
 1 -1 30165
+D3
+adventure[world]:3048/look
+~
+~
+1 -1 3048
 E
 sweatshirt sweatshirts pants t-shirt t-shirts books~
    There is absolutely no point in looking at anything because the prices are
