@@ -4,16 +4,19 @@ adventure[world]:15000/main
 ~
 150 0 0 0 0 1
 D1
+## East
 adventure[world]:15001/look
 ~
 ~
 0 -1 15001
 D2
+## South
 adventure[world]:15061/look
 ~
 ~
 0 -1 15061
 D3
+## West
 adventure[world]:3502/look
 ~
 ~
