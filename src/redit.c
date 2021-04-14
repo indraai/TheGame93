@@ -320,13 +320,14 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   write_to_output(d,
 	  "\n'1) keywords': %s\n\r"
 	  "\n'2) description': %s\n\r"
-	  "\n\nconfirm[Next Description]:3\n\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
 
-  write_to_output(d, !extra_desc->next ? "Not Set.\r\n" : "Set.\r\n");
-  write_to_output(d, "Enter choice (0 to quit) : ");
+  write_to_output(d,
+    !extra_desc->next ? "\n\nmenu[New Description]:3\n\r : \n\nmenu[Next Description]:3\n\r");
+
+  write_to_output(d, "\n\nmenu[Quit]:q");
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
 }
 
