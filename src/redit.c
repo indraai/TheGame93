@@ -358,19 +358,19 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "%s1%s) Exit to     : %s%d\r\n"
-	  "%s2%s) Description :-\r\n%s%s\r\n"
-	  "%s3%s) Door name   : %s%s\r\n"
-	  "%s4%s) Key         : %s%d\r\n"
-	  "%s5%s) Door flags  : %s%s\r\n"
-	  "%s6%s) Purge exit.\r\n"
-	  "Enter choice, 0 to quit : ",
+	  "'1) Exit to': %d\n\r"
+	  "'2) Description': %s\n\r"
+	  "'3) Door name': %s\n\r"
+	  "'4) Key': %d\n\r"
+	  "'5) Door flags': '%s'\n\r"
+	  "\n'6) Purge exit': Purge exit from room.\n\r"
+	  "\nmenu[Quit]:0\n\r",
 
-	  grn, nrm, cyn, OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
-	  grn, nrm, yel, OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
-	  grn, nrm, yel, OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
-	  grn, nrm, cyn, OLC_EXIT(d)->key != NOTHING ? OLC_EXIT(d)->key : -1,
-	  grn, nrm, cyn, door_buf, grn, nrm
+	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
+	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
+	  OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
+	  OLC_EXIT(d)->key != NOTHING ? OLC_EXIT(d)->key : -1,
+	  door_buf
 	  );
 
   OLC_MODE(d) = REDIT_EXIT_MENU;
@@ -398,8 +398,8 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\r\nRoom flags: %s%s%s\r\n"
-	  "Enter room flags, 0 to quit : ", cyn, bits, nrm);
+  write_to_output(d, "\n'Room flags': %s\n\r"
+	  "menu[Quit]:0: ", bits);
   OLC_MODE(d) = REDIT_FLAGS;
 }
 
@@ -408,7 +408,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
 {
   clear_screen(d);
   column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);
-  write_to_output(d, "\r\nEnter sector type : ");
+  write_to_output(d, "\nEnter sector type : \n\r");
   OLC_MODE(d) = REDIT_SECTOR;
 }
 
