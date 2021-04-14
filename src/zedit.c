@@ -736,7 +736,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     default:
       write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "Do you wish to save your changes? : ");
+      write_to_output(d, "Save your changes?:\nconfirm[Yes]:Y\nconfirm[No]:N\n\r");
       break;
     }
     break;
@@ -747,7 +747,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_ZONE(d)->age || OLC_ZONE(d)->number) {
-	write_to_output(d, "Save your changes?: confirm[Yes]:Y confirm[No]:N");
+	write_to_output(d, "Save your changes?:\nconfirm[Yes]:Y\nconfirm[No]:N\n\r");
 	OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
 	write_to_output(d, "No changes made.\r\n");

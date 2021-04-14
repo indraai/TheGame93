@@ -549,7 +549,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-        write_to_output(d, "Save your changes?: confirm[Yes]:Y confirm[No]:N");
+        write_to_output(d, "Save your changes?:\nconfirm[Yes]:Y\nconfirm[No]:N");
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
         cleanup_olc(d, CLEANUP_ALL);
