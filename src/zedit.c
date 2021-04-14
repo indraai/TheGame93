@@ -748,7 +748,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_ZONE(d)->age || OLC_ZONE(d)->number) {
-	write_to_output(d, "Do you wish to save your changes? : ");
+	write_to_output(d, "Do you wish to save your changes?:\ncmd[Yes]:> Y\ncmd[No]:> N");
 	OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
 	write_to_output(d, "No changes made.\r\n");
