@@ -395,6 +395,8 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
 
   get_char_colors(d->character);
   clear_screen(d);
+
+  write_to_output(d, "# Room Flags");
   column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
