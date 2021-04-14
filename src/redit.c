@@ -318,13 +318,11 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 
   clear_screen(d);
   write_to_output(d,
-	  "%s1%s) Keywords: %s%s\r\n"
-	  "%s2%s) Description:\r\n%s%s\r\n"
-	  "%s3%s) Goto next description: ",
-
-	  grn, nrm, yel, extra_desc->keyword ? extra_desc->keyword : "<NONE>",
-	  grn, nrm, yel, extra_desc->description ? extra_desc->description : "<NONE>",
-	  grn, nrm
+	  "'1) keywords': %s\n\r"
+	  "'2) description':\n\r%s%s\n\r"
+	  "\n\nconfirm[Next Description]:3\n\r",
+	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
+	  extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
 
   write_to_output(d, !extra_desc->next ? "Not Set.\r\n" : "Set.\r\n");
