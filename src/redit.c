@@ -493,18 +493,17 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n'9) up': %d\n\r"
       "\n'A) down': %d\r\n"
       "\n\n"
-      "%sF%s) Extra descriptions menu\r\n"
-      "%sS%s) Script      : %s%s\r\n"
-       "%sW%s) Copy Room\r\n"
-      "%sX%s) Delete Room\r\n"
-      "%sQ%s) Quit\r\n"
+      "confirm[Extra Description]:F\r\n"
+      "confirm[Script Menu %s]:S\r\n"
+       "confirm[Copy Room]:W\r\n"
+      "confirm[Delete Room]:X\r\n"
+      "confirm[Quit]:Q\r\n"
       "Enter choice : ",
       room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
       world[room->dir_option[UP]->to_room].number : -1,
       room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?
       world[room->dir_option[DOWN]->to_room].number : -1,
-      grn, nrm,
-          grn, nrm, cyn, OLC_SCRIPT(d) ? "Set." : "Not Set.",
+      OLC_SCRIPT(d) ? "Set." : "Not Set.",
           grn, nrm,
       grn, nrm,
       grn, nrm
