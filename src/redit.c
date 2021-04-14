@@ -497,12 +497,15 @@ static void redit_disp_menu(struct descriptor_data *d)
       );
   write_to_output(d,
       "\nconfirm[Extra Description]:F\n\r"
-      "\nscript: confirm[%s]:S %s\n\r"
+  write_to_output(d,
+      "\nscript: confirm[%s]:S %s\n\r",
+      OLC_SCRIPT(d) ? "Set." : "Not Set."
+      );
+  write_to_output(d,
       "\ncopy: confirm[Copy Room]:W\n\r"
       "\ndelete: confirm[Delete Room]:X\n\r"
       "\nquit: confirm[Quit]:q\n\r"
-      "\n----\nEnter choice\n\r",
-      OLC_SCRIPT(d) ? "Set." : "Not Set."
+      "\n----\nEnter choice\n\r"
       );
 
   OLC_MODE(d) = REDIT_MAIN_MENU;
