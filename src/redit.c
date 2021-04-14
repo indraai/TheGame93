@@ -497,6 +497,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       );
   write_to_output(d,
       "\nconfirm[Extra Description]:F\n\r"
+      );
   write_to_output(d,
       "\nscript: confirm[%s]:S %s\n\r",
       OLC_SCRIPT(d) ? "Set." : "Not Set."
