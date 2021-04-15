@@ -439,9 +439,9 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\n'A) NPC Flags': %s\n\r"
 	  "\n'B) AFF Flags': %s\n\r"
     "\n'S) Script': %s\n\r"
-    "\n'W) Copy': Make a copy of mobile.\n\r"
-	  "\n'X) Delete': Delet the mobile.\n\r"
-	  "\n'menu[Quit]:Q\n\r",
+    "\n'W) Copy': Copy the mobile.\n\r"
+	  "\n'X) Delete': Delete the mobile.\n\r"
+	  "\nmenu[Quit]:Q\n\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
