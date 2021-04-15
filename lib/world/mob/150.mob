@@ -1,9 +1,9 @@
 #15000
-royal deva royaldeva guard gideon security securitydeva i00~
-RoyalDEVA:I00 Gideon~
-The RoyalDEVA Gideon is on duty.
+royal deva royaldeva guard gideon security securitydeva rd15000~
+RD15000 RoyalDEVA Gideon~
+The RoyalDEVA RD15000 Gideon is on duty.
 ~
-As all members of the Guard, Gidion wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
+RoyalDEVA Gideon is an experienced comabat fighter. He reports directly to Michael for duties, and specializes in covert tactics and spycraft. He is very well trained, yet you wouldn't know it by his constant playing dice with Jerry.
 ~
 194907 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -12,8 +12,8 @@ As all members of the Guard, Gidion wears the chain mail required of them as uni
 E
 #15001
 king indra deva indradeva kingindra~
-King IndraDEVA~
-The Omnific King IndraDEVA is here.
+King Indra~
+King Indra is here.
 ~
 King Indra is very powerfully built, and wouldn't take kindly to an attack.  Despite that, you know he is well-loved throughout the land, and has a reputation as a wise and just ruler.
 ~
@@ -36,11 +36,11 @@ The ghost is almost translucent, and looks really heavenly!
 8 8 0
 E
 #15003
-royal deva royaldeva guard jim security securitydeva i03~
-RoyalDEVA:I03 Jim~
-RoyalDEVA I03 Jim is here.
+royal deva royaldeva guard jim security securitydeva rd15003~
+RD15003 RoyalDEVA Jim~
+RoyalDEVA RD15003 Jim is here.
 ~
-As all members of the Guard, Jim wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
+RoyalDEVA Jim is the quiet one in the troup. Although when it comes time to stand for battle he is all ROAR. Which earned him the nick name of Jim the Lion. Watch out when battle comes Jim will run at you fast as he can while shouting obscenities at you. Jim reports directly to Michael.
 ~
 194841 0 0 0 10360 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -49,11 +49,11 @@ As all members of the Guard, Jim wears the chain mail required of them as unifor
 BareHandAttack: 3
 E
 #15004
-royal deva royaldeva guard brian security securitydeva i04~
-RoyalDEVA:I04 Brian~
-RoyalDEVA I04 Brian is here.
+royal deva royaldeva guard brian security securitydeva rd15004~
+RD15004 RoyalDEVA Brian~
+RoyalDEVA RD15004 Brian is here.
 ~
-As all members of the Guard, Brian wears the chain mail required of them asuniform.  He seems very well trained, and moves like an experienced fighter.
+RoyalDEVA Brian is an expert in strategy and tactics.  When King Indra needs a successful Battle Strategy he often calls upon the wisdom of RoyalDEVA Brian to provide the solutions. Brian is also an expert in countless ways of combat and warfare. Brian is second in command of the RoyalDEVA and reports directly to Captain PeterPan.
 ~
 194841 0 0 0 10352 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -62,11 +62,11 @@ As all members of the Guard, Brian wears the chain mail required of them asunifo
 BareHandAttack: 14
 E
 #15005
-royal deva royaldeva guard mick security securitydeva i05~
-RoyalDEVA:i05 Mick~
-RoyalDEVA I03 Mick is here.
+royal deva royaldeva guard mick security securitydeva rd15005~
+RD15005 RoyalDEVA Mick~
+RoyalDEVA RD15005 Mick is here.
 ~
-As all members of the Guard, Mick wears the chain mail required of them asuniform.  He seems very well trained, and moves like an experienced fighter.
+RoyalDEVA Mick is Brian's goto DEVA for collecting information from the field. Mick is a communications expert and can decode almost anything. We say almost anything because there is stuff out there he hasn't found yet. Mick reports directly to Brian for duties.
 ~
 194841 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -74,11 +74,11 @@ As all members of the Guard, Mick wears the chain mail required of them asunifor
 8 8 0
 E
 #15006
-royal deva royaldeva guard matt security securitydeva i06~
-RoyalDEVA:I06 Matt~
-RoyalDEVA I06 Matt is here.
+royal deva royaldeva guard matt security securitydeva rd15006~
+RD15006 RoyalDEVA Matt~
+RoyalDEVA 15006 Matt is here.
 ~
-As all members of the Guard, Matt wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
+RoyalDEVA Matt works in the field with Mick. Sometimes we call them M&M. While Mick is often setting up communications equipment. You'll find MATT in the field setting up the arrays and antennae that make it all work. Overall a great DEVA to work with.
 ~
 73 0 0 0 0 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -86,11 +86,11 @@ As all members of the Guard, Matt wears the chain mail required of them as unifo
 8 8 0
 E
 #15007
-royal deva royaldeva guard joshua security securitydeva i07~
-RoyalDEVA:I07 Joshua~
+royal deva royaldeva guard joshua security securitydeva rd15007~
+RD15007 RoyalDEVA Joshua~
 RoyalDEVA I07 Joshua is here.
 ~
-As all members of the Guard, Jochem wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
+RoyalDEVA Joshua is our resident genius. He knows just about everything that you could ever know that someone wrote down in a book.  His particular focus is on mythology and religions. He will sometimes spend weeks reducing patterns in a theological story to decude the true truth. If you ask who he reports to he says sometimes Michael and sometimes Brian depending on what is more interesting.
 ~
 194841 0 0 0 10360 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -99,11 +99,11 @@ As all members of the Guard, Jochem wears the chain mail required of them as uni
 BareHandAttack: 10
 E
 #15008
-royal deva royaldeva guard anne security securitydeva i08~
-RoyalDEVA:I08 Anne~
-RoyalDEVA I08 Anne is here.
+royal deva royaldeva guard anne security securitydeva rd15008~
+RD15008 RoyalDEVA Anne~
+RoyalDEVA RD15008 Anne is here.
 ~
-As all members of the Guard, Anne wears the chain mail required of them as uniform.  She seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
+RoyalDEVA Anne is a real giant. Standing 14ft tall Anne has to duck at doorways, but in battle swings a mean Immobilizer. Don't mention Anne's size it's a bit touchy... when your 14ft tall it's tough.
 ~
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -111,11 +111,11 @@ As all members of the Guard, Anne wears the chain mail required of them as unifo
 8 8 0
 E
 #15009
-royal deva royaldeva guard andru security securitydeva i09~
-RoyalDEVA:I09 Andru~
-RoyalDEVA I09 Andru is here.
+royal deva royaldeva guard andru security securitydeva 15009~
+RD15009 RoyalDEVA Andru~
+RoyalDEVA RD15009 Andru is here.
 ~
-As all members of the Guard, Andru wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
+RoyalDEVA Andru is the impersonator. Our regular Ghost Parrot. When Mick and Matt get their equipment setup Andru will mock any voice you can provide an imprint of. Andru will never say where that skill was learned, but it sure does come in handy when your fooling your enemies.
 ~
 73 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -123,12 +123,11 @@ As all members of the Guard, Andru wears the chain mail required of them as unif
 8 8 1
 E
 #15010
-royal deva royaldeva guard bert security securitydeva i10~
-RoyalDEVA:I5010 Bert~
-RoyalDEVA I10 Bert is here.
+royal deva royaldeva guard bert security securitydeva rd15010~
+RD15010 RoyalDEVA Bert~
+RoyalDEVA RD15010 Bert is here.
 ~
-As all members of the Guard, Bert wears the chain mail required of them as uniform.  He seems very well trained, and carries his scars with pride.  This
-guy seems tough...
+RoyalDEVA Bert is our newest RoyalDEVA to join the team. He's the low guy on the totum pole, so he's learning the ropes like all the rest by starting with small tasks and working his way up. Don't fear Bert is a DEVA with a true heart of Gold. We all start somewhere.
 ~
 73 0 0 0 0 0 0 0 900 E
 15 15 1 3d3+150 2d2+2
@@ -136,11 +135,11 @@ guy seems tough...
 8 8 1
 E
 #15011
-royal deva royaldeva guard jeanclaude jcvd security securitydeva i11~
-RoyalDEVA:I11 JeanClaude~
-RoyalDEVA Jean Claude Van Damme is here.
+royal deva royaldeva guard jeanclaude jcvd security securitydeva rd15011~
+RD15011 RoyalDEVA JeanClaude~
+RoyalDEVA RD15011 Jean Claude Van Damme is here.
 ~
-As all members of the Guard, Jean Claude Van Damme is the example of perfection.  He can do the air splits better than anyone while making a perfect OH face.
+RoyalDEVA Jean Claude Van Damme is a one man army.  That's all we can say.  He reports to nobody, and is the example of perfection.  He can do the air splits while making a perfect OH face.
 ~
 73 0 0 0 0 0 0 0 900 E
 15 15 1 3d3+150 2d2+2
@@ -148,9 +147,9 @@ As all members of the Guard, Jean Claude Van Damme is the example of perfection.
 8 8 0
 E
 #15012
-peter peterpan captain guard royal royaldeva security securitydeva i12~
-RoyalDEVA:I12 PeterPan~
-RoyalDEVA I12 Captain PeterPan is here.
+peter peterpan captain guard royal royaldeva security securitydeva rd15012~
+RD15012 RoyalDEVA PeterPan~
+RoyalDEVA RD15012 Captain PeterPan is here.
 ~
 As all members of the Guard, Peter Pan has earned his uniform. Even though all the other guards seem well trained, you realize none of them would stand a chance against this man in a fight.  He moves with a dancers grace, and radiates strength. You have to fight a sudden urge to come to attention as you see him.
 ~
@@ -245,9 +244,9 @@ He is old and white-haired, with a long beard. He is a master at observing synch
 6 6 0
 E
 #15020
-harry deva royal royaldeva security securitydeva indraguard i20~
-RoyalDEVA:I20 Harry~
-RoyalDEVA I20 Harry is here.
+harry deva royal royaldeva security securitydeva indraguard rd15020~
+RD15020 RoyalDEVA Harry~
+RoyalDEVA RD15020 Harry is here.
 ~
 This guy looks just like his twin, Larry.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary. Watch out Harry and Larry will hijack your chariot.
 ~
@@ -258,9 +257,9 @@ This guy looks just like his twin, Larry.  There seems to be no doubt that he is
 BareHandAttack: 12
 E
 #15021
-larry deva royal royaldeva security securitydeva guard kingguard i21~
-RoyalDEVA:I21 Larry~
-RoyalDEVa I21 Larry is here.
+larry deva royal royaldeva security securitydeva guard kingguard rd15021~
+RD15021 RoyalDEVA Larry~
+RoyalDEVa RD15021 Larry is here.
 ~
 This guy looks just like his twin, Tim.  There seems to be no doubt that he is completely prepared to tackle some bitches for the King, if necessary. Watch out Larry and Harry will hijack your chariot.
 ~
@@ -295,9 +294,9 @@ A junior cook, eager to assist in the Chef's next creation.
 8 8 0
 E
 #15024
-security deva securitydeva royaldeva bill guard i24~
-RoyalDEVA:I24 Bill~
-RoyalDEVA I24 Bill is here.
+security deva securitydeva royaldeva bill guard rd15024~
+RD15024 RoyalDEVA Bill~
+RoyalDEVA RD15024 Bill is here.
 ~
 He really is big, and you get the feeling he wouldn't take kindly to an attempt to get past him.
 ~
@@ -307,9 +306,9 @@ He really is big, and you get the feeling he wouldn't take kindly to an attempt 
 8 8 0
 E
 #15025
-security deva securitydeva royaldeva ted guard i25~
-RoyalDEVA:I25 Ted~
-RoyalDEVA I25 TED is here.
+security deva securitydeva royaldeva ted guard rd15025~
+RD15025 RoyalDEVA Ted~
+RoyalDEVA RD15025 TED is here.
 ~
 He really is big, and you get the feeling he wouldn't take kindly to an attempt to get past him.
 ~
@@ -319,9 +318,9 @@ He really is big, and you get the feeling he wouldn't take kindly to an attempt 
 8 8 0
 E
 #15026
-royal deva royaldeva guard jerry security securitydeva i26~
-RoyalDEVA:I26 Jerry~
-RoyalDEVA I26 Jerry is here.
+royal deva royaldeva guard chuck security securitydeva rd15026~
+RD15026 RoyalDEVA Chuck~
+RoyalDEVA RD15026 Chuck is here.
 ~
 As all members of the Guard, Jerry wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
@@ -332,9 +331,9 @@ As all members of the Guard, Jerry wears the chain mail required of them as unif
 BareHandAttack: 6
 E
 #15027
-royal deva royaldeva guard michael security securitydeva i27~
-RoyalDEVA:I27 Michael~
-RoyalDEVA I27 Michael
+royal deva royaldeva guard michael security securitydeva rd15027~
+RD15027 RoyalDEVA Michael~
+RoyalDEVA RD15027 Michael
 ~
 As all members of the Guard, Michael wears the chain mail required of them as uniform.  He seems very well trained, and moves like an experienced fighter.
 ~
@@ -345,9 +344,9 @@ As all members of the Guard, Michael wears the chain mail required of them as un
 BareHandAttack: 10
 E
 #15028
-royal deva royaldeva guard hans security securitydeva i28~
-RoyalDEVA:I28 Hans~
-RoyalDEVA I28 Hans is here.
+royal deva royaldeva guard hans security securitydeva rd15028~
+RD15028 RoyalDEVA Hans~
+RoyalDEVA RD15028 Hans is here.
 ~
 As all members of the Guard, Hans wears the chain mail required of them as uniform.  He seems very well trained, and moves like a fighter who has seen more than one battle, and longs to see the next!
 ~
@@ -357,9 +356,9 @@ As all members of the Guard, Hans wears the chain mail required of them as unifo
 8 8 1
 E
 #15029
-royal deva royaldeva guard boris security securitydeva i29~
-RoyalDEVA:I29 Boris~
-RoyalDEVA I29 Boris is here.
+royal deva royaldeva guard boris security securitydeva rd15029~
+RD15029 RoyalDEVA Boris~
+RoyalDEVA RD15029 Boris is here.
 ~
 As all members of the Guard, Boris wears the chain mail required of them as uniform.  He seems very well trained, and carries his scars with pride.  This
 guy seems tough...
