@@ -95,10 +95,11 @@ AD23407 ArmyDEVA Soldier is here.
 ~
 He wipes his sweating brow and gives a smile.  At least he seems to enjoy his work a bit.
 ~
-194844 0 0 0 0 0 0 0 400 E
+194844 0 0 0 10360 0 0 0 400 E
 18 14 0 3d3+180 3d3+3
 180 32400
 8 8 1
+BareHandAttack: 12
 E
 #32408
 deva security securitydeva army armydeva soldier military ad32408~
