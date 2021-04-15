@@ -29,9 +29,9 @@ horse war~
 a war horse~
 A proud war horse tosses its head whinnies.
 ~
-This large animal is trained to hate every human except the one who rides him.  Beware his kicking hooves!
+This large animal is trained to hate every evil player.  Beware his kicking hooves!
 ~
-106538 0 0 0 0 0 0 0 0 E
+194844 0 0 0 10360 0 0 0 0 E
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 1
@@ -108,7 +108,7 @@ AD32408 ArmyDEVA Soldier is here.
 ~
 He is sweating from most every pore in his body - it does appear that he is enjoying his labors.
 ~
-72 0 0 0 0 0 0 0 200 E
+194844 0 0 0 10360 0 0 0 200 E
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 1
@@ -121,7 +121,7 @@ AD32409 ArmyDEVA Soldier is here.
 He stands with a sly grin on his face, as if he might enjoy his work just a
 bit too much.
 ~
-76 0 0 0 0 0 0 0 300 E
+194844 0 0 0 10360 0 0 0 300 E
 19 14 -1 3d3+190 3d3+3
 190 36100
 8 8 1
@@ -133,7 +133,7 @@ AD32410 ArmyDEVA Soldier is here.
 ~
 He looks strong enough to wrestle an ox - indeed he often does.
 ~
-72 0 0 0 0 0 0 0 500 E
+194844 0 0 0 10360 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -145,7 +145,7 @@ AD32411 ArmyDEVA Soldier is here.
 ~
 His job is done for the day and he is quite glad of it!
 ~
-72 0 0 0 0 0 0 0 300 E
+194844 0 0 0 10360 0 0 0 300 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1
@@ -157,7 +157,7 @@ AD32312 ArmyDEVA General Black Guy is here.
 ~
 ArmyDEVA General Black Guy appears the type that would would lead the best soldiers ever.
 ~
-72 0 0 0 0 0 0 0 200 E
+194844 0 0 0 10360 0 0 0 200 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
@@ -169,7 +169,7 @@ AD32413 ArmyDEVA Patrol is here.
 ~
 He appears very concerned about invaders as he drearily walks his rounds.
 ~
-72 0 0 0 0 0 0 0 600 E
+194844 0 0 0 10360 0 0 0 600 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 1
@@ -181,7 +181,7 @@ AD32414 ArmyDEVA Scout is here.
 ~
 He moves with a sinuous grace that speaks well of his abilities in the forest.
 ~
-72 0 0 0 0 0 0 0 700 E
+194844 0 0 0 10360 0 0 0 700 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
@@ -217,7 +217,7 @@ AD32417 ArmyDEVA Marksman is here.
 ~
 He looks a bit startled at your intrusion, but quickly recovers seeing that you are not the enemy and goes back to watching out the peepholes.
 ~
-74 0 0 0 0 0 0 0 400 E
+194844 0 0 0 10360 0 0 0 400 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 1
@@ -229,7 +229,7 @@ AD32418 ArmyDEVA Soldier is here.
 ~
 He gives you a curt nod and then continues on his way.
 ~
-72 0 0 0 0 0 0 0 600 E
+194844 0 0 0 10360 0 0 0 600 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1
@@ -241,7 +241,7 @@ AD32419 ArmyDEVA Cavalry is here.
 ~
 He has that odd gait that suggests that more of his time is spent in the saddle than on his feet.
 ~
-72 0 0 0 0 0 0 0 300 E
+194844 0 0 0 10360 0 0 0 300 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
