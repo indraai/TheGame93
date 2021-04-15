@@ -240,9 +240,9 @@ calm look on his face.
 8 8 0
 E
 #3024
-security deva securitydeva guard a24~
-SecurityDEVA:A24~
-SecurityDEVA A24 is here.
+security deva securitydeva guard sd3024~
+SD3024 SecurityDEVA~
+SecurityDEVA SD3024 is here.
 ~
 He is an experienced sage who has specialized in the field of Warrior Magic.
 He is here to guard the Sage's Guild and his superior knowledge of offensive as
@@ -255,9 +255,9 @@ well as defensive tactics make him a fearful opponent.
 E
 T 3000
 #3025
-security deva securitydeva guard a25~
-SecurityDEVA:A25~
-SecurityDEVA A25 is here.
+security deva securitydeva guard sd3025~
+SD3025 SecurityDEVA~
+SecurityDEVA SD3025 is here.
 ~
 He is a specially trained monk belonging to the military order.  His duty is to
 protect the faithful from persecution and attacks and his devotion combined with
@@ -270,9 +270,9 @@ his superior skill makes him a scary opponent.
 E
 T 3001
 #3026
-security deva securitydeva guard a26~
-SecurityDEVA:A26~
-SecurityDEVA A26 is here.
+security deva securitydeva guard sd3026~
+SD3026 SecurityDEVA~
+SecurityDEVA SD3026 is here.
 ~
 He is a artist who has specialized in painting others as effectively as possible,
 using all sorts of tools.  His superior knowledge of how and where to use them
@@ -286,9 +286,9 @@ combined with his extraordinary talent makes him a master artist.
 E
 T 3002
 #3027
-security deva securitydeva guard a27~
-SecurityDEVA:A27~
-SecurityDEVA A27 is here.
+security deva securitydeva guard sd3027~
+SD3027 SecurityDEVA~
+SecurityDEVA SD3027 is here.
 ~
 He is an expert warrior who has attained hero status through countless
 heroic deeds.  His duty is to protect and his extreme skill combined with his
@@ -385,9 +385,9 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 8 8 0
 E
 #3059
-security deva secuirtydeva a59~
-SecurityDEVA:A59~
-SecurityDEVA A59 is here.
+security deva secuirtydeva sd3059~
+SD3059 SecurityDEVA~
+SecurityDEVA SD3059 is here.
 ~
 A very strong and wise SecurityDEVA.
 ~
@@ -399,9 +399,9 @@ BareHandAttack: 10
 E
 T 3009
 #3060
-secuirty deva securitydeva a60~
-SecurityDEVA:A60~
-SecurityDEVA A60 is here.
+secuirty deva securitydeva sd3059~
+SD3059 SecurityDEVA~
+SecurityDEVA SD3059 is here.
 ~
 A big, strong, helpful, trustworthy SecurityDEVA.
 ~
@@ -489,9 +489,9 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-security deva securitydeva guard a67~
-SecurityDEVA:A67~
-SecurityDEVA A67 is here.
+security deva securitydeva guard sd3067~
+SD3067 SecurityDEVA~
+SecurityDEVA SD3067 is here.
 ~
 A big, strong, helpful, trustworthy SecurityDEVA.
 ~
