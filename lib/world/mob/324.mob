@@ -3,8 +3,7 @@ cow~
 a cow~
 A fat cow stand here chewing her cud.
 ~
-   She may not be the most hygienic animal, but she sure has a good load of fat
-meat on her!  And look at them tits!
+She may not be the most hygienic animal, but she sure has a good load of fat meat on her!  And look at them tits!
 ~
 73738 0 0 0 0 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
@@ -17,8 +16,7 @@ bull~
 the mean bull~
 A mean bull stamps it feet and snorts at you.
 ~
-   Papa always said make sure you never get behind an angry bull.  Also said
-never get in front of one.  So where does that leave?
+Papa always said make sure you never get behind an angry bull.  Also said never get in front of one.  So where does that leave?
 ~
 73770 0 0 0 0 0 0 0 -200 E
 17 15 0 3d3+170 2d2+2
@@ -31,8 +29,7 @@ horse war~
 a war horse~
 A proud war horse tosses its head whinnies.
 ~
-   This large animal is trained to hate every human except the one who rides
-him.  Beware his kicking hooves!
+This large animal is trained to hate every human except the one who rides him.  Beware his kicking hooves!
 ~
 106538 0 0 0 0 0 0 0 0 E
 16 15 0 3d3+160 2d2+2
@@ -84,7 +81,7 @@ smithy soldier sweating~
 the smithy~
 A smithy pounds away at a piece of metal, shaping it into a usable piece.
 ~
-   His muscles bulge and the hammer rings.  This guy could do commercials.
+His muscles bulge and the hammer rings.  This guy could do commercials.
 ~
 72 0 0 0 0 0 0 0 350 E
 19 14 -1 3d3+190 3d3+3
@@ -92,9 +89,9 @@ A smithy pounds away at a piece of metal, shaping it into a usable piece.
 8 8 1
 E
 #32407
-tanner soldier~
-a tanner~
-A soldier works diligently at tanning hides.
+deva security securitydeva army armydeva soldier military ad32407~
+AD32407 ArmyDEVA Soldier~
+AD23407 ArmyDEVA Soldier is here.
 ~
    He wipes his sweating brow and gives a smile.  At least he seems to enjoy
 his work a bit.
@@ -105,49 +102,48 @@ his work a bit.
 8 8 1
 E
 #32408
-soldier sweating grunting~
-the sweating soldier~
-A soldier grunts as he lifts a bale of hay up onto the stack.
+deva security securitydeva army armydeva soldier military ad32408~
+AD32408 ArmyDEVA Soldier~
+AD32408 ArmyDEVA Soldier is here.
 ~
-   He is sweating from most every pore in his body - it does not appear that he
-is enjoying his labors.
+He is sweating from most every pore in his body - it does appear that he is enjoying his labors.
 ~
-194844 0 0 0 2136 0 0 0 100 E
+72 0 0 0 0 0 0 0 200 E
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 1
 E
 #32409
-soldier brander~
-a brander~
-A soldier is here branding the cattle and the horses of the Eastern Army.
+deva security securitydeva army armydeva soldier military ad32409~
+AD32409 ArmyDEVA Soldier~
+AD32409 ArmyDEVA Soldier is here.
 ~
-   He stands with a sly grin on his face, as if he might enjoy his work just a
+He stands with a sly grin on his face, as if he might enjoy his work just a
 bit too much.
 ~
-76 0 0 0 0 0 0 0 -100 E
+76 0 0 0 0 0 0 0 300 E
 19 14 -1 3d3+190 3d3+3
 190 36100
 8 8 1
 E
 #32410
-soldier rustler~
-a rustler~
-A soldier rustles a cow into a prone position so that the brander might place his mark.
+deva security securitydeva army armydeva soldier military ad32410~
+AD32410 ArmyDEVA Soldier~
+AD32410 ArmyDEVA Soldier is here.
 ~
-   He looks strong enough to wrestle an ox - indeed he often does.
+He looks strong enough to wrestle an ox - indeed he often does.
 ~
-72 0 0 0 0 0 0 0 300 E
+72 0 0 0 0 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
 E
 #32411
-soldier footman~
-a footman~
-A footman trudges wearily back toward the barracks tents.
+deva security securitydeva army armydeva soldier military ad32411~
+AD32411 ArmyDEVA Soldier~
+AD32411 ArmyDEVA Soldier is here.
 ~
-   His job is done for the day and he is quite glad of it!
+His job is done for the day and he is quite glad of it!
 ~
 72 0 0 0 0 0 0 0 300 E
 17 15 0 3d3+170 2d2+2
@@ -155,12 +151,11 @@ A footman trudges wearily back toward the barracks tents.
 8 8 1
 E
 #32412
-soldier general tso~
-General Tso~
-General Tso walks among his troops, a look of disapproval fixed upon his face.
+deva security securitydeva army armydeva soldier military general ad32412~
+AD32312 ArmyDEVA General~
+AD32312 ArmyDEVA General Black Guy is here.
 ~
-   Tso appears the type that would never be satisfied no matter what the length
-a soldier might go to to obtain his approval.
+ArmyDEVA General Black Guy appears the type that would would lead the best soldiers ever.
 ~
 72 0 0 0 0 0 0 0 200 E
 25 12 -5 5d5+250 4d4+4
@@ -168,12 +163,11 @@ a soldier might go to to obtain his approval.
 8 8 1
 E
 #32413
-soldier patrolman~
-a patrolman~
-A patrolman walks his rounds, watching for signs of invasion.
+deva security securitydeva army armydeva soldier military patrol ad32413~
+AD32413 ArmyDEVA Patrol~
+AD32413 ArmyDEVA Patrol is here.
 ~
-   He does not appear all that concerned about invaders as he drearily walks
-his rounds.
+He appears very concerned about invaders as he drearily walks his rounds.
 ~
 72 0 0 0 0 0 0 0 600 E
 21 13 -2 4d4+210 3d3+3
@@ -181,12 +175,11 @@ his rounds.
 8 8 1
 E
 #32414
-soldier scout~
-an army scout~
-An army scout walks lithely through the camp.
+deva security securitydeva army armydeva soldier military scout ad32414~
+AD32414 ArmyDEVA Scout~
+AD32414 ArmyDEVA Scout is here.
 ~
-   He moves with a sinuous grace that speaks well of his abilities in the
-forest.
+He moves with a sinuous grace that speaks well of his abilities in the forest.
 ~
 72 0 0 0 0 0 0 0 700 E
 23 13 -3 4d4+230 3d3+3
@@ -194,12 +187,11 @@ forest.
 8 8 1
 E
 #32415
-surgeon soldier~
-the surgeon~
-The camp surgeon is here tending to the wounded.
+deva security securitydeva army armydeva medic military surgeon ad32415~
+AD32415 ArmyDEVA Surgeon~
+AD32415 ArmyDEVA Surgeon is here.
 ~
-   He is a very energetic young man, fully trained by the Eastern Army's best
-surgeons.
+He is a very energetic young man, fully trained by the Army's best surgeons.
 ~
 72 0 0 0 0 0 0 0 600 E
 17 15 0 3d3+170 2d2+2
@@ -207,12 +199,11 @@ surgeons.
 8 8 1
 E
 #32416
-medic soldier~
-the medic~
-A medic bustles along self-importantly.
+deva security securitydeva army armydeva medic military ad32416~
+AD32416 ArmyDEVA Medic~
+AD32416 ArmyDEVA Medic is here.
 ~
-   He gives you a look and sees that you don't appear hurt.  He then pointedly
-ignores you and continues on.
+He gives you a look and sees that you don't appear hurt.  He then pointedly ignores you and continues on.
 ~
 72 0 0 0 0 0 0 0 100 E
 14 16 1 2d2+140 2d2+2
@@ -220,12 +211,11 @@ ignores you and continues on.
 8 8 1
 E
 #32417
-marksman soldier~
-the marksman~
-A marksman keeps a keen eye out for trouble.
+deva security securitydeva army armydeva soldier military marksman  ad32417~
+AD32417 ArmyDEVA Marksman~
+AD32417 ArmyDEVA Marksman is here.
 ~
-   He looks a bit startled at your intrusion, but quickly recovers seeing that
-you are not the enemy and goes back to watching out the peepholes.
+He looks a bit startled at your intrusion, but quickly recovers seeing that you are not the enemy and goes back to watching out the peepholes.
 ~
 74 0 0 0 0 0 0 0 400 E
 22 13 -3 4d4+220 3d3+3
@@ -233,11 +223,11 @@ you are not the enemy and goes back to watching out the peepholes.
 8 8 1
 E
 #32418
-soldier wounded~
-a wounded soldier~
-A wounded soldier limps past.
+deva security securitydeva army armydeva soldier military ad32418~
+AD32418 ArmyDEVA Soldier~
+AD32418 ArmyDEVA Soldier is here.
 ~
-   He gives you a curt nod and then continues on his way.
+He gives you a curt nod and then continues on his way.
 ~
 72 0 0 0 0 0 0 0 600 E
 13 16 2 2d2+130 2d2+2
@@ -245,12 +235,11 @@ A wounded soldier limps past.
 8 8 1
 E
 #32419
-officer soldier cavalry~
-a cavalry officer~
-An off-duty cavalry officer walks past.
+deva security securitydeva army armydeva soldier military cavalry ad32419~
+AD32419 ArmyDEVA Cavalry~
+AD32419 ArmyDEVA Cavalry is here.
 ~
-   He has that odd gait that suggests that more of his time is spent in the
-saddle than on his feet.
+He has that odd gait that suggests that more of his time is spent in the saddle than on his feet.
 ~
 72 0 0 0 0 0 0 0 300 E
 23 13 -3 4d4+230 3d3+3
@@ -262,8 +251,7 @@ soldier~
 the water boy~
 A young soldier is here filling his water pails to carry them up to the mess tent.
 ~
-   He grumbles under his breath as he works, feeling that his position in the
-Army's ranks are very unfair.
+He hums under his breath as he works, feeling that his position in the Army's ranks is very fair.
 ~
 72 0 0 0 0 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
@@ -271,12 +259,11 @@ Army's ranks are very unfair.
 8 8 1
 E
 #32421
-soldier squatting~
-the squatting soldier~
-A soldier looks up in shock as you enter into this small and private area with him.
+deva security securitydeva army armydeva soldier military ad32421~
+AD32421 ArmyDEVA Soldier~
+AD32421 ArmyDEVA Soldier is here.
 ~
-   He clutches to the sides of the seat, wondering just what sort of person
-would intrude on one in such a place!
+He clutches to the sides of the seat, wondering just what sort of person would intrude on one in such a place!
 ~
 72 0 0 0 0 0 0 0 800 E
 16 15 0 3d3+160 2d2+2
