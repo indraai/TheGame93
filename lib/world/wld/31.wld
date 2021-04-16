@@ -1196,4 +1196,47 @@ adventure[world]:3159/look
 ~
 0 -1 3159
 S
+#3161
+Agency Corridor~
+adventure[world]:3161/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3162/look
+~
+~
+0 -1 3162
+D2
+adventure[world]:3160/look
+~
+~
+0 -1 3160
+S
+#3162
+Agency Corridor~
+adventure[world]:3162/main
+~
+31 8 0 0 0 0
+D0
+adventure[world]:3163/look
+~
+~
+0 -1 3163
+D2
+adventure[world]:3161/look
+~
+~
+0 -1 3161
+S
+#3163
+Agency Corridor~
+adventure[world]:3163/main
+~
+31 8 0 0 0 0
+D2
+adventure[world]:3162/look
+~
+~
+0 -1 3162
+S
 $~
