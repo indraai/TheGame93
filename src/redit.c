@@ -540,7 +540,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      write_to_output(d, "Invalid choice!\r\Save changes?:\nconfirm[Yes]:Y\nconfirm[No]:N");
+      write_to_output(d, "Invalid choice!\r\nSave changes?:\nconfirm[Yes]:Y\nconfirm[No]:N");
       break;
     }
     return;
