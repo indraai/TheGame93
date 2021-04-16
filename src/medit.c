@@ -318,6 +318,8 @@ static void medit_disp_sex(struct descriptor_data *d)
   clear_screen(d);
   column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
   write_to_output(d, "\nEnter gender: ");
+
+  write_to_output(d, "menu[Quit]:Q");
 }
 
 /* Display attack types menu. */
@@ -329,9 +331,11 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   clear_screen(d);
 
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "%d) %s\r\n", i, attack_hit_text[i].singular);
+    write_to_output(d, "\n%d) %s\r\n", i, attack_hit_text[i].singular);
   }
   write_to_output(d, "\nAttack type: ");
+
+  write_to_output(d, "menu[Quit]:Q");
 }
 
 /* Find mob flags that shouldn't be set by builders */
