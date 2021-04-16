@@ -308,7 +308,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   /*get_char_colors(d->character);*/
   clear_screen(d);
   column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "Enter position number: ");
+  write_to_output(d, "... Position number: ");
 }
 
 /* Display the gender of the mobile. */
