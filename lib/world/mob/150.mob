@@ -1,5 +1,5 @@
 #15000
-royal deva royaldeva guard gideon security securitydeva rd15000~
+royal deva royaldeva guard gideon devaforce rd15000~
 RD15000 RoyalDEVA Gideon~
 RD15000 The RoyalDEVA Gideon is on duty.
 ~
@@ -11,7 +11,7 @@ RoyalDEVA Gideon is an experienced comabat fighter. He reports directly to Micha
 8 8 0
 E
 #15001
-king indra deva indradeva kingindra~
+king indra deva indradeva devaforce kingindra~
 King Indra~
 King Indra is here.
 ~
@@ -36,7 +36,7 @@ The ghost is almost translucent, and looks really heavenly!
 8 8 0
 E
 #15003
-royal deva royaldeva guard jim security securitydeva rd15003~
+royal deva royaldeva guard jim devaforce rd15003~
 RD15003 RoyalDEVA Jim~
 RD15003 RoyalDEVA Jim is here.
 ~
@@ -49,7 +49,7 @@ RoyalDEVA Jim is the quiet one in the troup. Although when it comes time to stan
 BareHandAttack: 3
 E
 #15004
-royal deva royaldeva guard brian security securitydeva rd15004~
+royal deva royaldeva guard brian devaforce rd15004~
 RD15004 RoyalDEVA Brian~
 RD15004 RoyalDEVA Brian is here.
 ~
@@ -62,7 +62,7 @@ RoyalDEVA Brian is an expert in strategy and tactics.  When King Indra needs a s
 BareHandAttack: 14
 E
 #15005
-royal deva royaldeva guard mick security securitydeva rd15005~
+royal deva royaldeva guard mick devaforce rd15005~
 RD15005 RoyalDEVA Mick~
 RD15005 RoyalDEVA Mick is here.
 ~
@@ -74,7 +74,7 @@ RoyalDEVA Mick is Brian's goto DEVA for collecting information from the field. M
 8 8 0
 E
 #15006
-royal deva royaldeva guard matt security securitydeva rd15006~
+royal deva royaldeva guard matt devaforce rd15006~
 RD15006 RoyalDEVA Matt~
 RD15006 RoyalDEVA Matt is here.
 ~
@@ -86,7 +86,7 @@ RoyalDEVA Matt works in the field with Mick. Sometimes we call them M&M. While M
 8 8 0
 E
 #15007
-royal deva royaldeva guard joshua security securitydeva rd15007~
+royal deva royaldeva guard joshua devaforce rd15007~
 RD15007 RoyalDEVA Joshua~
 RD15007 RoyalDEVA Joshua is here.
 ~
@@ -99,7 +99,7 @@ RoyalDEVA Joshua is our resident genius. He knows just about everything that you
 BareHandAttack: 10
 E
 #15008
-royal deva royaldeva guard anne security securitydeva rd15008~
+royal deva royaldeva guard anne devaforce rd15008~
 RD15008 RoyalDEVA Anne~
 RD15008 RoyalDEVA Anne is here.
 ~
@@ -111,7 +111,7 @@ RoyalDEVA Anne is a real giant. Standing 14ft tall Anne has to duck at doorways,
 8 8 0
 E
 #15009
-royal deva royaldeva guard andru security securitydeva 15009~
+royal deva royaldeva guard andru devaforce 15009~
 RD15009 RoyalDEVA Andru~
 RD15009 RoyalDEVA Andru is here.
 ~
@@ -123,7 +123,7 @@ RoyalDEVA Andru is the impersonator. Our regular Ghost Parrot. When Mick and Mat
 8 8 1
 E
 #15010
-royal deva royaldeva guard bert security securitydeva rd15010~
+royal deva royaldeva guard bert devaforce rd15010~
 RD15010 RoyalDEVA Bert~
 RD15010 RoyalDEVA Bert is here.
 ~
@@ -135,7 +135,7 @@ RoyalDEVA Bert is our newest RoyalDEVA to join the team. He's the low guy on the
 8 8 1
 E
 #15011
-royal deva royaldeva guard jeanclaude jcvd security securitydeva rd15011~
+royal deva royaldeva guard jeanclaude jcvd devaforce rd15011~
 RD15011 RoyalDEVA JeanClaude~
 RD15011 RoyalDEVA Jean Claude Van Damme is here.
 ~
@@ -147,7 +147,7 @@ RoyalDEVA Jean Claude Van Damme is a one man army.  That's all we can say.  He r
 8 8 0
 E
 #15012
-peter peterpan captain guard royal royaldeva security securitydeva rd15012~
+peterpan captain deva royal royaldeva devaforce rd15012~
 RD15012 RoyalDEVA PeterPan~
 RD15012 RoyalDEVA Captain PeterPan is here.
 ~
@@ -244,7 +244,7 @@ He is old and white-haired, with a long beard. He is a master at observing synch
 6 6 0
 E
 #15020
-harry deva royal royaldeva security securitydeva indraguard rd15020~
+harry deva royal royaldeva devaforce guard indraguard rd15020~
 RD15020 RoyalDEVA Harry~
 RD15020 RoyalDEVA Harry Potter is here.
 ~
@@ -257,7 +257,7 @@ This guy looks just like his twin, Larry.  There seems to be no doubt that he is
 BareHandAttack: 12
 E
 #15021
-larry deva royal royaldeva security securitydeva guard kingguard rd15021~
+larry deva royal royaldeva devaforce guard indraguard rd15021~
 RD15021 RoyalDEVA Larry~
 RD15021 RoyalDEVA Larry Potter is here.
 ~
@@ -294,7 +294,7 @@ A junior cook, eager to assist in the Chef's next creation.
 8 8 0
 E
 #15024
-security deva securitydeva royaldeva bill guard rd15024~
+security deva royal royaldeva bill guard devaforce rd15024~
 RD15024 RoyalDEVA Bill~
 RD15024 RoyalDEVA Bill S. Preston Esquire is here.
 ~
@@ -306,7 +306,7 @@ He really is big, and you get the feeling he wouldn't take kindly to an attempt 
 8 8 0
 E
 #15025
-security deva securitydeva royaldeva ted guard rd15025~
+security deva royal royaldeva ted guard devaforce rd15025~
 RD15025 RoyalDEVA Ted~
 RD15025 RoyalDEVA TED Theodore Logan is here.
 ~
@@ -318,7 +318,7 @@ He really is big, and you get the feeling he wouldn't take kindly to an attempt 
 8 8 0
 E
 #15026
-royal deva royaldeva guard chuck security securitydeva rd15026~
+royal deva royaldeva guard chuck devaforce rd15026~
 RD15026 RoyalDEVA Chuck~
 RD15026 RoyalDEVA Chuck Norris is here.
 ~
@@ -331,7 +331,7 @@ As all members of the Guard, Jerry wears the chain mail required of them as unif
 BareHandAttack: 6
 E
 #15027
-royal deva royaldeva guard michael security securitydeva rd15027~
+royal deva royaldeva guard michael devaforce rd15027~
 RD15027 RoyalDEVA Michael~
 RD15027 RoyalDEVA Michael is here.
 ~
@@ -344,7 +344,7 @@ As all members of the Guard, Michael wears the chain mail required of them as un
 BareHandAttack: 10
 E
 #15028
-royal deva royaldeva guard hans security securitydeva rd15028~
+royal deva royaldeva guard hans devaforce rd15028~
 RD15028 RoyalDEVA Hans~
 RD15028 RoyalDEVA Hans is here.
 ~
@@ -356,7 +356,7 @@ As all members of the Guard, Hans wears the chain mail required of them as unifo
 8 8 1
 E
 #15029
-royal deva royaldeva guard bruce security securitydeva rd15029~
+royal deva royaldeva guard bruce devaforce rd15029~
 RD15029 RoyalDEVA Bruce~
 RD15029 RoyalDEVA Boris Lee is here.
 ~
