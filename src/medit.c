@@ -308,7 +308,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "Enter position number : ");
+  write_to_output(d, "Enter position number: ");
 }
 
 /* Display the gender of the mobile. */
@@ -317,7 +317,7 @@ static void medit_disp_sex(struct descriptor_data *d)
   // get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "Enter gender number : ");
+  write_to_output(d, "Enter gender number: ");
 }
 
 /* Display attack types menu. */
@@ -597,7 +597,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case '5':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
-      write_to_output(d, "Enter description:\r\n");
+      write_to_output(d, "\nEnter description:\r\n");
       if (OLC_MOB(d)->player.description) {
 	      write_to_output(d, "%s", OLC_MOB(d)->player.description);
 	      oldtext = strdup(OLC_MOB(d)->player.description);
