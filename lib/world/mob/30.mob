@@ -480,11 +480,11 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-security deva securitydeva devaforce guard sd3067~
-SD3067 SecurityDEVA~
-SecurityDEVA SD3067 is here.
+deva guard guarddeva devaforce gd3067~
+GD3067 GuardDEVA~
+GD3067 GuardDEVA is here.
 ~
-A big, strong, helpful, trustworthy SecurityDEVA.
+A big, strong, helpful, trustworthy GuardDEVA.
 ~
 6218 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
