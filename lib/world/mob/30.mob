@@ -240,13 +240,11 @@ calm look on his face.
 8 8 0
 E
 #3024
-security deva securitydeva devaforce guard sd3024~
-SD3024 SecurityDEVA~
-SecurityDEVA SD3024 is here.
+guard deva guarddeva devaforce gd3024~
+SD3024 GuardDEVA~
+SD3024 GuardDEVA is here.
 ~
-He is an experienced sage who has specialized in the field of Warrior Magic.
-He is here to guard the Sage's Guild and his superior knowledge of offensive as
-well as defensive tactics make him a fearful opponent.
+An experienced sage who has specialized in the field of Warrior Magic.
 ~
 256010 0 0 0 80 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -255,13 +253,11 @@ well as defensive tactics make him a fearful opponent.
 E
 T 3000
 #3025
-security deva securitydeva devaforce guard sd3025~
-SD3025 SecurityDEVA~
-SecurityDEVA SD3025 is here.
+guard deva guarddeva devaforce gd3025~
+GD3025 GuardDEVA~
+GD3025 GuardDEVA is here.
 ~
-He is a specially trained monk belonging to the military order.  His duty is to
-protect the faithful from persecution and attacks and his devotion combined with
-his superior skill makes him a scary opponent.
+A specially trained warrior monk belonging to the military order.
 ~
 256010 0 0 0 80 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -270,14 +266,11 @@ his superior skill makes him a scary opponent.
 E
 T 3001
 #3026
-guard deva guarddeva devaforce sd3026~
-SD3026 SecurityDEVA~
-SecurityDEVA SD3026 is here.
+guard deva guarddeva devaforce gd3026~
+GD3026 GuardDEVA~
+GD3026 GuardDEVA is here.
 ~
-He is a artist who has specialized in painting others as effectively as possible,
-using all sorts of tools.  His superior knowledge of how and where to use them
-combined with his extraordinary talent makes him a master artist.
-
+A specially trained sneak and hide guard.
 ~
 260378 0 0 0 1572944 0 0 0 400 E
 33 9 -9 6d6+330 5d5+5
@@ -286,13 +279,11 @@ combined with his extraordinary talent makes him a master artist.
 E
 T 3002
 #3027
-security deva securitydeva devaforce guard sd3027~
-SD3027 SecurityDEVA~
-SecurityDEVA SD3027 is here.
+guard deva guarddeva devaforce gd3027~
+GD3027 GuardDEVA~
+GD3027 GuardDEVA is here.
 ~
-He is an expert warrior who has attained hero status through countless
-heroic deeds.  His duty is to protect and his extreme skill combined with his
-experience in dangerous opponent.
+An expert trained warrior with hero status.
 ~
 256010 0 0 0 80 0 0 0 800 E
 33 9 -9 6d6+330 5d5+5
@@ -440,7 +431,7 @@ E
 T 3010
 #3063
 hero deva herodeva~
-the WarriorDEVA~
+HeroDEVA~
 A HeroDEVA is waiting for a job here.
 ~
 He looks pretty tough, and you imagine he'd do anything to complete a heroic deed.
