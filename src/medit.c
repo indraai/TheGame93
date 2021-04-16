@@ -414,12 +414,12 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Mob %d\n\r"
-  "\n'1) Sex': %s\n\r"
-  "\n'2) Keywords': %s\n\r"
-  "\n'3) S-Desc': %s\n\r"
-  "\n'4) L-Desc': %s\n\r"
-  "\n'5) D-Desc': %s\n\r",
+  "\n# Mob %d\r\n"
+  "\n'1) Sex': %s\r\n"
+  "\n'2) Keywords': %s\r\n"
+  "\n'3) S-Desc': %s\r\n"
+  "\n'4) L-Desc': %s\r\n"
+  "\n'5) D-Desc': %s\r\n",
 
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
@@ -433,15 +433,15 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\n'6) Position': %s\n\r"
-	  "\n'7) Default': %s\n\r"
-	  "\n'8) Attack': %s\n\r"
-	  "\n'A) NPC Flags': %s\n\r"
-	  "\n'B) AFF Flags': %s\n\r"
-    "\n'S) Script': %s\n\r"
-    "\n'W) Copy': Copy Mobile.\n\r"
-	  "\n'X) Delete': Delete Mobile.\n\r"
-	  "\nmenu[Quit]:Q\n\r",
+	  "\n'6) Position': %s\r\n"
+	  "\n'7) Default': %s\r\n"
+	  "\n'8) Attack': %s\r\n"
+	  "\n'A) NPC Flags': %s\r\n"
+	  "\n'B) AFF Flags': %s\r\n"
+    "\n'S) Script': %s\r\n"
+    "\n'W) Copy': Copy Mobile.\r\n"
+	  "\n'X) Delete': Delete Mobile.\r\n"
+	  "\nmenu[Quit]:Q\r\n",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -563,7 +563,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     default:
       write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "Save your changes?:\nconfirm[Yes]:Y\nconfirm[No]:N");
+      write_to_output(d, "Save changes?:\nconfirm[Yes]:Y\nconfirm[No]:N");
       return;
     }
 
@@ -573,7 +573,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Anything been changed? */
-	      write_to_output(d, "Save your changes?:\nconfirm[Yes]:Y\nconfirm[No]:N");
+	      write_to_output(d, "\nSave changes?:\nconfirm[Yes]:Y\nconfirm[No]:N\r\n");
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);
@@ -597,7 +597,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case '5':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
-      write_to_output(d, "Enter mob description:\r\n\r\n");
+      write_to_output(d, "Enter description:\r\n");
       if (OLC_MOB(d)->player.description) {
 	      write_to_output(d, "%s", OLC_MOB(d)->player.description);
 	      oldtext = strdup(OLC_MOB(d)->player.description);
@@ -633,12 +633,12 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'w':
     case 'W':
-      write_to_output(d, "Copy what mob? ");
+      write_to_output(d, "\nCopy what mob?\r\n");
       OLC_MODE(d) = MEDIT_COPY;
       return;
     case 'x':
     case 'X':
-      write_to_output(d, "Are you sure you want to delete this mobile? ");
+      write_to_output(d, "\nAre you sure you want to delete this mobile?\r\n");
       OLC_MODE(d) = MEDIT_DELETE;
       return;
     case 's':
@@ -653,11 +653,11 @@ void medit_parse(struct descriptor_data *d, char *arg)
     if (i == 0)
       break;
     else if (i == 1)
-      write_to_output(d, "\r\nEnter new value : ");
+      write_to_output(d, "\nNew value:\r\n");
     else if (i == -1)
-      write_to_output(d, "\r\nEnter new text :\r\n] ");
+      write_to_output(d, "\nNew text :\r\n");
     else
-      write_to_output(d, "Oops...\r\n");
+      write_to_output(d, "\nOops...\r\n");
     return;
 
   case MEDIT_STATS_MENU:
@@ -728,7 +728,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'f':
     case 'F':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice : ");
+        write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r\n");
         return;
 	  }
       OLC_MODE(d) = MEDIT_STR;
@@ -737,7 +737,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'g':
     case 'G':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice : ");
+        write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r\n");
         return;
 	  }
       OLC_MODE(d) = MEDIT_INT;
@@ -746,7 +746,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'h':
     case 'H':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice : ");
+        write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r\n");
         return;
 	  }
       OLC_MODE(d) = MEDIT_WIS;
@@ -755,7 +755,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'i':
     case 'I':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice : ");
+        write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r\n");
         return;
 	  }
       OLC_MODE(d) = MEDIT_DEX;
@@ -831,9 +831,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
     if (i == 0)
       break;
     else if (i == 1)
-      write_to_output(d, "\r\nEnter new value : ");
+      write_to_output(d, "\nNew value: ");
     else if (i == -1)
-      write_to_output(d, "\r\nEnter new text :\r\n] ");
+      write_to_output(d, "\nNew text: ");
     else
       write_to_output(d, "Oops...\r\n");
     return;
@@ -883,7 +883,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       break;
     else if ( (j = medit_get_mob_flag_by_number(i)) == -1) {
        write_to_output(d, "Invalid choice!\r\n");
-       write_to_output(d, "Enter mob flags (0 to quit) :");
+       write_to_output(d, "Enter mob flags:\nconfig[Quit]:0");
        return;
     } else if (j <= NUM_MOB_FLAGS) {
       TOGGLE_BIT_AR(MOB_FLAGS(OLC_MOB(d)), (j));
