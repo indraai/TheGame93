@@ -1,20 +1,16 @@
 #3900
-The City of Haven~
-   Haven is located far south of the capital.  The city thrives because it's the
-main supplier of fish and other sea goods to the capital.  The location of the
-city provides quite a scenery.  There are mountains to the east and forest to
-the west.  More of a jungle really.  The sea is just south of the city with a
-beautiful sandy beach, stopped abruptly by the mountains to the east and a range
-of impassable cliffs not far west of the forest line.  The South Road (people in
-Haven have always laughed at this name for it, since from here it actually goes
-north) begins just outside a marvelous city gate.  The gate is more for show
-though than for protection since Haven never had anything to fear because of its
-remote location.  Anyway, what lord would be inerested in a few fish?  This has
-not really changed, even with the coming of the south road, since regular
-patrols of elite soldiers are assigned to protect it and garrison the city
-itself.
+Agency: Haven~
+adventure[world]:3900/main
 ~
-39 585 0 0 0 0
+39 8 0 0 0 0
+D1
+~
+~
+0 0 3953
+D3
+~
+~
+0 -1 3149
 E
 credits~
    Nivan
@@ -1107,8 +1103,12 @@ D1
 0 0 3949
 D2
 ~
-<none>~
+~
 0 0 3954
+D3
+~
+~
+0 0 3900
 S
 #3954
 Riverwalk~
@@ -1177,7 +1177,7 @@ utmost caution.  The open door to the west leads back to Market Path, while
 Mithroq the minotaur stands behind a counter to the east, sharpening a giant
 sword and looking ready to help you.
 ~
-39 156 0 0 0 0
+39 8 0 0 0 0
 D3
 ~
 ~
@@ -1194,7 +1194,7 @@ sword.  There is also a short, thin gentleman here in rich silk clothes, quite
 obviously Milos the Banker of Haven.  The door to the south leads back to South
 Gull Road.
 ~
-39 152 0 0 0 0
+39 8 0 0 0 0
 D2
 ~
 ~
@@ -1364,7 +1364,7 @@ your presence before turning back to her cauldron, adding a pinch of a
 strange-smelling herb to the foaming pot.  Other assorted herbs hang from the
 ceiling and both empty and full vials and bottles fill the shelves on the wall.
 ~
-39 156 0 0 0 0
+39 8 0 0 0 0
 D3
 ~
 ~
@@ -1495,7 +1495,7 @@ The old man looks up as you enter, quickly jumping behind a counter against the
 eastern wall.  Behind the counter there is a squat door leading to a back room,
 presumably Aramut's workshop.
 ~
-39 156 0 0 0 0
+39 8 0 0 0 0
 D1
 ~
 ~
@@ -1557,7 +1557,7 @@ throws you down into the bone-chilling water with a SPLASH!!  As you surface,
 before you have even the slightest time to react, you are dashed against the
 jagged rocks by the pounding waves.
 ~
-39 4 0 0 0 0
+39 0 0 0 0 0
 S
 T 3911
 #3976
@@ -2105,7 +2105,7 @@ those passing by that the people of the town are very proud of their gate.
 room: 3998
 ~
 39 0 0 0 0 1
-D0
+D1
 adventure[world]:3075/look
 ~
 ~
