@@ -4,7 +4,7 @@ The Path To The Dwarven Village~
 you, you can see the Turning Point, and to the north the path continues
 toward the mountains.
 ~
-65 4 0 0 0 2
+65 0 0 0 0 2
 D0
 The path continues.
 ~
@@ -163,14 +163,14 @@ D0
 ~
 door~
 2 6503 6510
+D1
+~
+~
+0 -1 6522
 D2
 ~
 ~
 0 -1 6508
-D3
-~
-~
-0 -1 6522
 S
 #6510
 On The Path To The Castle~
@@ -375,18 +375,21 @@ D3
 0 -1 6520
 S
 #6522
-A Guard House~
-   You are in the guard house to the west of the entrance to the castle.
-There are nudie posters covering the walls.
+Agency: Dwarven Village~
+You are in the Agency Dwarven outpost to the west of the entrance to the castle. There are posters on the walls.
 ~
 65 8 0 0 0 0
-D1
+D3
 ~
 ~
 0 -1 6509
+D1
+~
+~
+0 -1 3149
 E
 poster~
-   There is a wall poster of a nude Minne Pearl.
+   There is a wall poster of Indra.
 ~
 S
 #6523
