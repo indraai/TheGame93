@@ -305,7 +305,7 @@ void medit_save_internally(struct descriptor_data *d)
    Display positions. (sitting, standing, etc) */
 static void medit_disp_positions(struct descriptor_data *d)
 {
-  get_char_colors(d->character);
+  /*get_char_colors(d->character);*/
   clear_screen(d);
   column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
   write_to_output(d, "Enter position number: ");
@@ -317,7 +317,7 @@ static void medit_disp_sex(struct descriptor_data *d)
   // get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "Enter gender number: ");
+  write_to_output(d, "Enter gender: ");
 }
 
 /* Display attack types menu. */
@@ -325,13 +325,13 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 {
   int i;
 
-  get_char_colors(d->character);
+  /*get_char_colors(d->character);*/
   clear_screen(d);
 
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "%s%2d%s) %s\r\n", grn, i, nrm, attack_hit_text[i].singular);
+    write_to_output(d, "%d) %s\r\n", i, attack_hit_text[i].singular);
   }
-  write_to_output(d, "Enter attack type : ");
+  write_to_output(d, "Attack type : ");
 }
 
 /* Find mob flags that shouldn't be set by builders */
@@ -375,18 +375,20 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   int i, count = 0, columns = 0;
   char flags[MAX_STRING_LENGTH];
 
-  get_char_colors(d->character);
+  /*get_char_colors(d->character);*/
   clear_screen(d);
 
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "%s%2d%s) %-20.20s  %s", grn, ++count, nrm, action_bits[i],
-                !(++columns % 2) ? "\r\n" : "");
+    write_to_output(d, "%d) %-20.20s  %s", ++count, action_bits[i], !(++columns % 2) ? "\r\n" : "");
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\r\nCurrent flags : %s%s%s\r\nEnter mob flags (0 to quit) : ", cyn, flags, nrm);
+  write_to_output(d, "\nCurrent flags : %s", flags);
+
+  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "note: Enter mob flags");
 }
 
 /* Display affection flags menu. */
