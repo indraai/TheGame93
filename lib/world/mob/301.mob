@@ -64,82 +64,73 @@ and its spatial relationship to you.
 8 8 0
 E
 #30105
-security~
-Security~
-Security is lurking in the area, watching for misbehavior.
+secuirty deva securitydeva sd30105~
+SD30105 SecurityDEVA~
+SD30105 SecurityDEVA is here.
 ~
-   You don't want to misbehave when these guys are around.  In fact you don't
-want to even be around these guys.
+You don't want to misbehave when these guys are around.  In fact you don't want to even be around these guys.
 ~
-522524 0 0 0 10360 0 0 0 -130 E
+522524 0 0 0 10360 0 0 0 130 E
 9 17 4 1d1+90 1d2+1
 90 8100
 8 8 0
 E
 #30106
-security~
-Security~
-Security is lurking in the area, watching for misbehavior.
+secuirty deva securitydeva sd30106~
+SD30106 SecurityDEVA~
+SD30106 SecurityDEVA is here.
 ~
-   You don't want to misbehave when these guys are around.  In fact you don't
-want to even be around these guys.
+You don't want to misbehave when these guys are around.  In fact you don't want to even be around these guys.
 ~
-40 0 0 0 16 0 0 0 -130 E
+522524 0 0 0 10360 0 0 0 130 E
 9 17 4 1d1+90 1d2+1
 90 8100
 8 8 1
 E
 #30107
-security~
-Security~
-Security is lurking in the area, watching for misbehavior.
+secuirty deva securitydeva sd30107~
+SD30107 SecurityDEVA~
+SD30107 SecurityDEVA is here.
 ~
-   You don't want to misbehave when these guys are around.  In fact you don't
-want to even be around these guys.
+You don't want to misbehave when these guys are around.  In fact you don't want to even be around these guys.
 ~
-40 0 0 0 16 0 0 0 -130 E
+522524 0 0 0 10360 0 0 0 130 E
 9 17 4 1d1+90 1d2+1
 90 8100
 8 8 2
 E
 #30108
-student constable stucon~
-the Student Constable~
-A Student Constable is protecting the campus from this point.
+secuirty deva securitydeva sd30108~
+SD30108 SecurityDEVA~
+SD30108 SecurityDEVA is here.
 ~
-   These are also known as StuCons and are recruited from amongst the ranks of
-everyday students of the university.  They are not much more than hired help.
-
+These are also known as StuCons and are recruited from amongst the ranks of everyday students of the university.  They are not much more than hired help.
 ~
-8 0 0 0 16 0 0 0 130 E
+522524 0 0 0 10360 0 0 0 260 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 0
 E
 #30109
-student constable stucon~
-the Student Constable~
-A Student Constable is guarding the campus from this point.
+secuirty deva securitydeva sd30109~
+SD30109 SecurityDEVA~
+SD30109 SecurityDEVA is here.
 ~
-   These are also known as StuCons and are recruited from amongst the ranks of
-everyday students of the university.  They are not much more than hired help.
-
+These are also known as StuCons and are recruited from amongst the ranks of everyday students of the university.  They are not much more than hired help.
 ~
-8 0 0 0 16 0 0 0 130 E
+522524 0 0 0 10360 0 0 0 260 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 1
 E
 #30110
-student constable stucon~
-the Student Constable~
-A Student Constable is guarding the campus from this very point right here.
+secuirty deva securitydeva sd30110~
+SD30110 SecurityDEVA~
+SD30110 SecurityDEVA is here.
 ~
-   These are also known as StuCons and are recruited from amongst the ranks of
-everyday students of the university.  They are not much more than hired help.
-
+These are also known as StuCons and are recruited from amongst the ranks of everyday students of the university.  They are not much more than hired help.
 ~
-8 0 0 0 16 0 0 0 130 E
+522524 0 0 0 10360 0 0 0 260 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 2
