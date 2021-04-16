@@ -240,7 +240,7 @@ calm look on his face.
 8 8 0
 E
 #3024
-security deva securitydeva guard sd3024~
+security deva securitydeva devaforce guard sd3024~
 SD3024 SecurityDEVA~
 SecurityDEVA SD3024 is here.
 ~
@@ -255,7 +255,7 @@ well as defensive tactics make him a fearful opponent.
 E
 T 3000
 #3025
-security deva securitydeva guard sd3025~
+security deva securitydeva devaforce guard sd3025~
 SD3025 SecurityDEVA~
 SecurityDEVA SD3025 is here.
 ~
@@ -270,7 +270,7 @@ his superior skill makes him a scary opponent.
 E
 T 3001
 #3026
-security deva securitydeva guard sd3026~
+security deva securitydeva devaforce guard sd3026~
 SD3026 SecurityDEVA~
 SecurityDEVA SD3026 is here.
 ~
@@ -286,7 +286,7 @@ combined with his extraordinary talent makes him a master artist.
 E
 T 3002
 #3027
-security deva securitydeva guard sd3027~
+security deva securitydeva devaforce guard sd3027~
 SD3027 SecurityDEVA~
 SecurityDEVA SD3027 is here.
 ~
@@ -399,7 +399,7 @@ BareHandAttack: 10
 E
 T 3009
 #3060
-secuirty deva securitydeva sd3059~
+secuirty deva securitydeva devaforce sd3059~
 SD3059 SecurityDEVA~
 SD3059 SecurityDEVA is here.
 ~
@@ -489,7 +489,7 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-security deva securitydeva guard sd3067~
+security deva securitydeva devaforce guard sd3067~
 SD3067 SecurityDEVA~
 SecurityDEVA SD3067 is here.
 ~
