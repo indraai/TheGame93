@@ -310,7 +310,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n### Position\r\n");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "%d) %s", i++, position_types[i]);
+    write_to_output(d, "\n%d) %s", i+1, position_types[i]);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
@@ -324,7 +324,7 @@ static void medit_disp_sex(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n### Gender\r\n");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "\n%d) %s", i++, genders[i]);
+    write_to_output(d, "\n%d) %s", i+1, genders[i]);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
@@ -339,7 +339,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n### Attack Types\r\n");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\n%d) %s", i++, attack_hit_text[i].singular);
+    write_to_output(d, "\n%d) %s", i+1, attack_hit_text[i].singular);
   }
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
