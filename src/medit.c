@@ -382,7 +382,7 @@ static int medit_get_mob_flag_by_number(int num)
 /* Display mob-flags menu. */
 static void medit_disp_mob_flags(struct descriptor_data *d)
 {
-  int i;
+  int i, count = 0, columns = 0;
   char flags[MAX_STRING_LENGTH];
 
   /*get_char_colors(d->character);*/
