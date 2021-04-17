@@ -382,7 +382,7 @@ static int medit_get_mob_flag_by_number(int num)
 /* Display mob-flags menu. */
 static void medit_disp_mob_flags(struct descriptor_data *d)
 {
-  int i, count = 0, columns = 0;
+  int i, count = 0;
   char flags[MAX_STRING_LENGTH];
 
   /*get_char_colors(d->character);*/
@@ -395,7 +395,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s", flags);
+  write_to_output(d, "\nflags: %s\n\r", flags);
   write_to_output(d, "\nmenu[Quit]:Q");
 }
 
@@ -403,14 +403,14 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 static void medit_disp_aff_flags(struct descriptor_data *d)
 {
   char flags[MAX_STRING_LENGTH];
-  int i, count = 0;
+  int i, count = 1;
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
 
   write_to_output(d, "\n### AFF Flags");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
-  for (i = 0; i < NUM_AFF_FLAGS; i++) {
+  for (i = 1; i < NUM_AFF_FLAGS; i++) {
     write_to_output(d, "\nmenu[%s]:%d", affected_bits[i], ++count);
   }
 
