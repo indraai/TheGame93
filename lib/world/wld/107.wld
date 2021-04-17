@@ -749,6 +749,10 @@ of stone.  It is starkly out of place with plains and field surrounding it.
 The city appears to be sinking into the swamplands it rests upon.
 ~
 107 0 0 0 0 0
+D2
+~
+~
+0 0 10790
 D0
 ~
 ~
@@ -1831,6 +1835,21 @@ D0
 ~
 ~
 0 0 10770
+D3
+~
+~
+0 0 10788
+S
+#10790
+Agency: Ieul~
+The Agency Office in Ieul
+room: 10740
+~
+107 8 0 0 0 0
+D0
+~
+~
+0 0 10740
 D3
 ~
 ~
