@@ -395,7 +395,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s", flags);
+  write_to_output(d, "\nflags: %s\r\n", flags);
   write_to_output(d, "\nmenu[Quit]:Q");
 }
 
@@ -417,7 +417,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s\n\r", flags);
+  write_to_output(d, "\nflags: %s\r\n", flags);
   write_to_output(d, "\nmenu[Quit]:Q");
 }
 
