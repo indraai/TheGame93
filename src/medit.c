@@ -495,26 +495,24 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     "### Hit Points  (xdy+z):\r\n"
     "\n'3) Hit': %d\r\n"
     "\n'4) Mana': %d\r\n"
-    "\n'5) Move: %d\r\n"
-    "(range %d to %d)\r\n",
+    "\n'5) Move': %d\r\n",
     GET_HIT(mob),
     GET_MANA(mob),
-    GET_MOVE(mob),
-    GET_HIT(mob) + GET_MOVE(mob), (GET_HIT(mob) * GET_MANA(mob)) + GET_MOVE(mob)
+    GET_MOVE(mob)
   );
 
   write_to_output(d,
     "\n### Bare Hand Damage (xdy+z): \r\n"
-    "\n'6) BHD NumDice': %d\r\n"
-    "\n'7) BHD SizeDice': %d\r\n"
-    "\n'8) DamRoll': %d\r\n",
+    "\n'6) Dice': %d\r\n"
+    "\n'7) Size': %d\r\n"
+    "\n'8) Roll': %d\r\n",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
   );
 
   write_to_output(d,
-    "\n"
+    "\n### Misc."
     "\n'A) Armor Class': %d\r\n"
     "\n'B) Exp Points': %d\r\n"
     "\n'C) Gold': %d\r\n"
