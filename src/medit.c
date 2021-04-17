@@ -494,6 +494,40 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     OLC_NUM(d),
     GET_LEVEL(mob)
   );
+
+  write_to_output(d,
+    "### Hit Points  (xdy+z):\r\n"
+    "\n'3) Hit': %d\r\n"
+    "\n'4) Mana': %d\r\n"
+    "\n'5) Move: %d\r\n"
+    "%-*s(range %d to %d)\r\n",
+    GET_HIT(mob),
+    GET_MANA(mob),
+    GET_MOVE(mob),
+    count_color_chars(buf)+28, buf);
+
+  write_to_output(d,
+    "### Bare Hand Damage (xdy+z): \r\n"
+    "6) BHD NumDice: %d\r\n"
+    "7) BHD SizeDice: %d\r\n"
+    "8) DamRoll: %d\r\n"
+    "%-*s(range %d to %d)\r\n",
+    GET_NDD(mob),
+    GET_SDD(mob),
+    GET_DAMROLL(mob),
+    count_color_chars(buf)+28, buf);
+
+  write_to_output(d,
+  "(%sA%s) Armor Class: %s[%s%4d%s]%s         (%sD%s) Hitroll:   %s[%s%5d%s]%s\r\n"
+  "(%sB%s) Exp Points:  %s[%s%10d%s]%s        (%sE%s) Alignment: %s[%s%5d%s]%s\r\n"
+  "(%sC%s) Gold:        %s[%s%10d%s]%s\r\n\r\n",
+    yel, GET_NDD(mob) + GET_DAMROLL(mob), nrm,
+    yel, (GET_NDD(mob) * GET_SDD(mob)) + GET_DAMROLL(mob), nrm,
+
+    cyn, nrm, cyn, yel, GET_AC(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_HITROLL(mob), cyn, nrm,
+    cyn, nrm, cyn, yel, GET_EXP(mob), cyn, nrm,  cyn, nrm, cyn, yel, GET_ALIGNMENT(mob), cyn, nrm,
+    cyn, nrm, cyn, yel, GET_GOLD(mob), cyn, nrm
+    );
   write_to_output(d,
   "-- Mob Number:  %s[%s%d%s]%s\r\n"
   "(%s1%s) Level:       %s[%s%4d%s]%s\r\n"
