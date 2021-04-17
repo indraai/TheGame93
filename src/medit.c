@@ -505,58 +505,29 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   );
 
   write_to_output(d,
-    "### Bare Hand Damage (xdy+z): \r\n"
-    "6) BHD NumDice: %d\r\n"
-    "7) BHD SizeDice: %d\r\n"
-    "8) DamRoll: %d\r\n",
+    "\n### Bare Hand Damage (xdy+z): \r\n"
+    "\n'6) BHD NumDice': %d\r\n"
+    "\n'7) BHD SizeDice': %d\r\n"
+    "\n'8) DamRoll': %d\r\n",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
   );
 
   write_to_output(d,
-  "(%sA%s) Armor Class: %s[%s%4d%s]%s         (%sD%s) Hitroll:   %s[%s%5d%s]%s\r\n"
-  "(%sB%s) Exp Points:  %s[%s%10d%s]%s        (%sE%s) Alignment: %s[%s%5d%s]%s\r\n"
-  "(%sC%s) Gold:        %s[%s%10d%s]%s\r\n\r\n",
-    yel, GET_NDD(mob) + GET_DAMROLL(mob), nrm,
-    yel, (GET_NDD(mob) * GET_SDD(mob)) + GET_DAMROLL(mob), nrm,
+    "\n"
+    "\n'A) Armor Class': %d\r\n"
+    "\n'B) Exp Points': %d\r\n"
+    "\n'C) Gold': %d\r\n"
+    "\n'D) Hitroll': %d\r\n"
+    "\n'E) Alignment': %d\r\n",
+    GET_AC(mob),
+    GET_EXP(mob),
+    GET_GOLD(mob),
+    GET_HITROLL(mob),
+    GET_ALIGNMENT(mob)
+  );
 
-    cyn, nrm, cyn, yel, GET_AC(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_HITROLL(mob), cyn, nrm,
-    cyn, nrm, cyn, yel, GET_EXP(mob), cyn, nrm,  cyn, nrm, cyn, yel, GET_ALIGNMENT(mob), cyn, nrm,
-    cyn, nrm, cyn, yel, GET_GOLD(mob), cyn, nrm
-    );
-
-
-
-
-  write_to_output(d,
-  "-- Mob Number:  %s[%s%d%s]%s\r\n"
-  "(%s1%s) Level:       %s[%s%4d%s]%s\r\n"
-  "(%s2%s) %sAuto Set Stats (based on level)%s\r\n\r\n"
-  "Hit Points  (xdy+z):        Bare Hand Damage (xdy+z): \r\n"
-  "(%s3%s) HP NumDice:  %s[%s%5d%s]%s    (%s6%s) BHD NumDice:  %s[%s%5d%s]%s\r\n"
-  "(%s4%s) HP SizeDice: %s[%s%5d%s]%s    (%s7%s) BHD SizeDice: %s[%s%5d%s]%s\r\n"
-  "(%s5%s) HP Addition: %s[%s%5d%s]%s    (%s8%s) DamRoll:      %s[%s%5d%s]%s\r\n"
-  "%-*s(range %s%d%s to %s%d%s)\r\n\r\n"
-
-  "(%sA%s) Armor Class: %s[%s%4d%s]%s        (%sD%s) Hitroll:   %s[%s%5d%s]%s\r\n"
-  "(%sB%s) Exp Points:  %s[%s%10d%s]%s  (%sE%s) Alignment: %s[%s%5d%s]%s\r\n"
-  "(%sC%s) Gold:        %s[%s%10d%s]%s\r\n\r\n",
-      cyn, yel, OLC_NUM(d), cyn, nrm,
-      cyn, nrm, cyn, yel, GET_LEVEL(mob), cyn, nrm,
-      cyn, nrm, cyn, nrm,
-      cyn, nrm, cyn, yel, GET_HIT(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_NDD(mob), cyn, nrm,
-      cyn, nrm, cyn, yel, GET_MANA(mob), cyn, nrm,  cyn, nrm, cyn, yel, GET_SDD(mob), cyn, nrm,
-      cyn, nrm, cyn, yel, GET_MOVE(mob), cyn, nrm,  cyn, nrm, cyn, yel, GET_DAMROLL(mob), cyn, nrm,
-
-      count_color_chars(buf)+28, buf,
-      yel, GET_NDD(mob) + GET_DAMROLL(mob), nrm,
-      yel, (GET_NDD(mob) * GET_SDD(mob)) + GET_DAMROLL(mob), nrm,
-
-      cyn, nrm, cyn, yel, GET_AC(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_HITROLL(mob), cyn, nrm,
-      cyn, nrm, cyn, yel, GET_EXP(mob), cyn, nrm,  cyn, nrm, cyn, yel, GET_ALIGNMENT(mob), cyn, nrm,
-      cyn, nrm, cyn, yel, GET_GOLD(mob), cyn, nrm
-      );
 
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
