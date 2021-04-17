@@ -432,7 +432,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n## Stats: Mob %d"
+  "\n# Mob %d"
   "\n'1) Sex': %s\r\n"
   "\n'2) Keywords': %s\r\n"
   "\n'3) S-Desc': %s\r\n"
@@ -488,7 +488,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "\n### Mob %d\r\n"
+    "\n## Stats: Mob %d\r\n"
     "\n'1) level':%d\r\n"
     "\n'2) auto stats': Auto set stats based on level.\r\n",
     OLC_NUM(d),
