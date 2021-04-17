@@ -957,9 +957,10 @@ void dg_script_menu(struct descriptor_data *d)
 
     if (trig_index[real_trigger(editscript->vnum)]->proto->attach_type != OLC_ITEM_TYPE(d))
       write_to_output(d, "\n** Mis-matched Trigger Type **\r\n");
+    /*
     else
       write_to_output(d, "\r\n");
-
+    */
     editscript = editscript->next;
   }
   if (i==0)
