@@ -390,8 +390,9 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   write_to_output(d, "\n### NPC Flags");
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
+    count = ++count
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "\n%d) %s", ++count, action_bits[i]);
+    write_to_output(d, "\n%d) %s", count, action_bits[i]);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
@@ -418,7 +419,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s", flags);
-  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "\nmenu[Quit]:Q");
 }
 
 /* Display main menu. */
