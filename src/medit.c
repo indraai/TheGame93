@@ -391,17 +391,12 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "\n%d) %s", i, action_bits[i]);
-  }
-
-  for (i = 0; i < NUM_MOB_FLAGS; i++) {
-    if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "%d) %-20.20s  %s", ++count, action_bits[i], !(++columns % 2) ? "\r\n" : "");
+    write_to_output(d, "\nmenu[%s]:%d", action_bits[i], ++count);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags : %s", flags);
-  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "\nmenu[Quit]:Q");
 }
 
 /* Display affection flags menu. */
