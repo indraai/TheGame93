@@ -432,7 +432,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Mob %d"
+  "\n## Stats: Mob %d"
   "\n'1) Sex': %s\r\n"
   "\n'2) Keywords': %s\r\n"
   "\n'3) S-Desc': %s\r\n"
@@ -457,9 +457,9 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\n'A) NPC Flags': %s\r\n"
 	  "\n'B) AFF Flags': %s\r\n"
     "\n'S) Script': %s\r\n"
-    "\n'W) Copy': Copy Mobile.\r\n"
-	  "\n'X) Delete': Delete Mobile.\r\n"
-	  "\nmenu[Stats Menu]:9\r\n"
+    "\nmenu[Stats Menu]:9\r\n"
+    "\nmenu[Copy Mobile]:W\r\n"
+	  "\nmenu[Delete Mobile]:X\r\n"
 	  "\nmenu[Quit]:Q\r\n",
 
 	  position_types[(int)GET_POS(mob)],
