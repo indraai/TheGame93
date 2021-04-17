@@ -307,9 +307,9 @@ static void medit_disp_positions(struct descriptor_data *d)
 {
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "### Position");
+  write_to_output(d, "\n### Position\r\n");
     column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
 
 /* Display the gender of the mobile. */
@@ -317,9 +317,9 @@ static void medit_disp_sex(struct descriptor_data *d)
 {
   // get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "### Gender");
+  write_to_output(d, "\n### Gender\r\n");
   column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
 
 /* Display attack types menu. */
@@ -329,11 +329,11 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "### Attack Types");
+  write_to_output(d, "\n### Attack Types\r\n");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\n%d) %s\r\n", i, attack_hit_text[i].singular);
   }
-  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
 
 /* Find mob flags that shouldn't be set by builders */
