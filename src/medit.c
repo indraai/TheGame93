@@ -477,7 +477,6 @@ static void medit_disp_menu(struct descriptor_data *d)
 static void medit_disp_stats_menu(struct descriptor_data *d)
 {
   struct char_data *mob;
-  char buf[MAX_STRING_LENGTH];
 
   mob = OLC_MOB(d);
   get_char_colors(d->character);
