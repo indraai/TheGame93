@@ -529,23 +529,33 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
-    "(%sF%s) Str: %s[%s%2d/%3d%s]%s   Saving Throws\r\n"
-    "(%sG%s) Int: %s[%s%3d%s]%s      (%sL%s) Paralysis     %s[%s%3d%s]%s\r\n"
-    "(%sH%s) Wis: %s[%s%3d%s]%s      (%sM%s) Rods/Staves   %s[%s%3d%s]%s\r\n"
-    "(%sI%s) Dex: %s[%s%3d%s]%s      (%sN%s) Petrification %s[%s%3d%s]%s\r\n"
-    "(%sJ%s) Con: %s[%s%3d%s]%s      (%sO%s) Breath        %s[%s%3d%s]%s\r\n"
-    "(%sK%s) Cha: %s[%s%3d%s]%s      (%sP%s) Spells        %s[%s%3d%s]%s\r\n\r\n",
-        cyn, nrm, cyn, yel, GET_STR(mob), GET_ADD(mob), cyn, nrm,
-        cyn, nrm, cyn, yel, GET_INT(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_SAVE(mob, SAVING_PARA), cyn, nrm,
-        cyn, nrm, cyn, yel, GET_WIS(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_SAVE(mob, SAVING_ROD), cyn, nrm,
-        cyn, nrm, cyn, yel, GET_DEX(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_SAVE(mob, SAVING_PETRI), cyn, nrm,
-        cyn, nrm, cyn, yel, GET_CON(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_SAVE(mob, SAVING_BREATH), cyn, nrm,
-        cyn, nrm, cyn, yel, GET_CHA(mob), cyn, nrm,   cyn, nrm, cyn, yel, GET_SAVE(mob, SAVING_SPELL), cyn, nrm
+    "\n'F) Str': %d|%d\r\n"
+    "\n'G) Int': %d\r\n"
+    "\n'L) Paralysis': %d\r\n"
+    "\n'H) Wis': %d\r\n"
+    "\n'M) Rods/Staves':%d\r\n"
+    "\n'I) Dex': %d"
+    "\n'N) Petrification': %d\r\n"
+    "\n'J) Con': %d\r\n"
+    "\n'O) Breath': %d\r\n"
+    "\n'K) Cha': %d"
+    "\n'P) Spells':%d\r\n",
+        GET_STR(mob), GET_ADD(mob),
+        GET_INT(mob),
+        GET_SAVE(mob, SAVING_PARA),
+        GET_WIS(mob),
+        GET_SAVE(mob, SAVING_ROD),
+        GET_DEX(mob),
+        GET_SAVE(mob, SAVING_PETRI),
+        GET_CON(mob),
+        GET_SAVE(mob, SAVING_BREATH),
+        GET_CHA(mob),
+        GET_SAVE(mob, SAVING_SPELL)
         );
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "(%sQ%s) Quit to main menu\r\nEnter choice : ", cyn, nrm);
+  write_to_output(d, "\nmenu[Quit]:Q\r\n");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
