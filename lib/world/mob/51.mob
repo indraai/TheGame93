@@ -29,7 +29,7 @@ A drow warrior stands here guarding his home.
 ~
    He looks kind of annoyed!
 ~
-6186 0 0 0 16 0 0 0 -1000 E
+6154 0 0 0 16 0 0 0 -1000 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 1
@@ -67,7 +67,7 @@ A drow master stares at you angrily.
 ~
    The drow master is ALWAYS ready for a fight.
 ~
-6186 0 0 0 16 0 0 0 -1000 E
+6154 0 0 0 16 0 0 0 -1000 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 1
@@ -79,7 +79,7 @@ A drow weaponsmaster is here shadow boxing.
 ~
    He definitely know his way around in combat.
 ~
-6186 0 0 0 65552 0 0 0 -1000 E
+6154 0 0 0 65552 0 0 0 -1000 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
@@ -117,7 +117,7 @@ The drider looks at you viciously while it draws its sword.
 ~
    This half-spider, half-drow creature is a formidable opponent.
 ~
-24680 0 0 0 65552 0 0 0 -1000 E
+24648 0 0 0 65552 0 0 0 -1000 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 0
@@ -129,7 +129,7 @@ The drider looks at you viciously while it draws its sword.
 ~
    This half-spider, half-drow creature is a formidable opponent.
 ~
-24682 0 0 0 65552 0 0 0 -1000 E
+24650 0 0 0 65552 0 0 0 -1000 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 0
