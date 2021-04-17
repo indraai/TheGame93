@@ -308,9 +308,9 @@ static void medit_disp_positions(struct descriptor_data *d)
   int i;
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### Position\r\n");
+  write_to_output(d, "\n### Position");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\n%d) %s", i, position_types[i]);
+    write_to_output(d, "\n%d) %s", i+1, position_types[i]);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
@@ -322,9 +322,9 @@ static void medit_disp_sex(struct descriptor_data *d)
   int i;
   // get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n### Gender\r\n");
+  write_to_output(d, "\n### Gender");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "\n%d) %s", i+, genders[i]);
+    write_to_output(d, "\n%d) %s", i+1, genders[i]);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
@@ -337,7 +337,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### Attack Types\r\n");
+  write_to_output(d, "\n### Attack Types");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\n%d) %s", i+1, attack_hit_text[i].singular);
   }
@@ -382,20 +382,25 @@ static int medit_get_mob_flag_by_number(int num)
 /* Display mob-flags menu. */
 static void medit_disp_mob_flags(struct descriptor_data *d)
 {
-  int i, count = 0, columns = 0;
+  int i;
   char flags[MAX_STRING_LENGTH];
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "### NPC Flags");
+  write_to_output(d, "\n### NPC Flags");
   /* Mob flags has special handling to remove illegal flags from the list */
+  for (i = 0; i < NUM_MOB_FLAGS; i++) {
+    if (medit_illegal_mob_flag(i)) continue;
+    write_to_output(d, "\n%d) %s", i, action_bits[i]);
+  }
+
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
     write_to_output(d, "%d) %-20.20s  %s", ++count, action_bits[i], !(++columns % 2) ? "\r\n" : "");
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nNPC flags : %s", flags);
+  write_to_output(d, "\nflags : %s", flags);
   write_to_output(d, "menu[Quit]:Q");
 }
 
@@ -403,16 +408,22 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 static void medit_disp_aff_flags(struct descriptor_data *d)
 {
   char flags[MAX_STRING_LENGTH];
+  int i, count = 0;
 
-  get_char_colors(d->character);
+  /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "### AFF Flags");
-    /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
-  column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);
-  sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\n%s", flags);
 
-  write_to_output(d, "menu[Quit]:Q");
+  write_to_output(d, "\n### AFF Flags");
+    /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
+  for (i = 0; i < NUM_AFF_FLAGS; i++) {
+    write_to_output(d, "\n%d) %s", ++count, affected_bits[i]);
+  }
+
+  /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
+
+  sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
+  write_to_output(d, "\nflags: %s", flags);
+  write_to_output(d, "\nmenu[Quit]:Q");
 }
 
 /* Display main menu. */
