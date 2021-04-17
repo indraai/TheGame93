@@ -18,6 +18,10 @@ own kind.  Northward lies the Western Highway and to the south you can make out
 what seems to be a small village.
 ~
 78 32768 0 0 0 3
+D1
+~
+~
+0 -1 3339
 D2
 ~
 ~
@@ -546,5 +550,23 @@ D1
 ~
 ~
 0 0 7823
+D3
+~
+~
+0 -1 7827
+S
+#7827
+Agency: Gideon~
+The Gideon outpost for Indra Agency
+~
+78 8 0 0 0 0
+D0
+~
+~
+0 -1 3956
+D1
+~
+~
+0 -1 7826
 S
 $~

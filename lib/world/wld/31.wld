@@ -1136,6 +1136,16 @@ adventure[world]:3157/look
 ~
 ~
 0 -1 3157
+D1
+adventure[world]:4000/look
+~
+~
+0 -1 4000
+D2
+adventure[world]:7827/look
+~
+~
+0 -1 7827
 S
 #3157
 Agency Corridor~
