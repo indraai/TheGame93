@@ -403,7 +403,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 static void medit_disp_aff_flags(struct descriptor_data *d)
 {
   char flags[MAX_STRING_LENGTH];
-  int i, count = 1;
+  int i, count = 0;
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
