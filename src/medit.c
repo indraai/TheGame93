@@ -459,6 +459,7 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\n'S) Script': %s\r\n"
     "\n'W) Copy': Copy Mobile.\r\n"
 	  "\n'X) Delete': Delete Mobile.\r\n"
+	  "\nmenu[Stats Menu]:9\r\n"
 	  "\nmenu[Quit]:Q\r\n",
 
 	  position_types[(int)GET_POS(mob)],
