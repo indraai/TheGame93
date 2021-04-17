@@ -488,7 +488,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "\n### %s\r\n"
+    "\n### Mob %d\r\n"
     "\n'1) level':%d\r\n"
     "\n'2) auto stats': Auto set stats based on level.\r\n",
     OLC_NUM(d),
