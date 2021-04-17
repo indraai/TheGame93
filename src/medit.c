@@ -333,13 +333,13 @@ static void medit_disp_sex(struct descriptor_data *d)
 /* Display attack types menu. */
 static void medit_disp_attack_types(struct descriptor_data *d)
 {
-  int i, count = 0;
+  int i;
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
   write_to_output(d, "\n### Attack Types");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, ++count);
+    write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, i);
   }
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
