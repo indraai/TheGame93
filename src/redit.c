@@ -392,25 +392,41 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 static void redit_disp_flag_menu(struct descriptor_data *d)
 {
   char bits[MAX_STRING_LENGTH];
-
+  int i, counter,count = 0;
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n# Room Flags\n\r");
-  column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
+  write_to_output(d, "\n## Room Flags\n\r");
+  // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
+  for (i = 0; i < NUM_ROOM_FLAGS; i++) {
+    ++count
+    counter = count;
+    write_to_output(d, "\nmenu[%d. %s]:%d", counter, room_bits[i], counter);
+  }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n'Room flags': %s\n\r"
-	  "menu[Quit]:0: ", bits);
+  write_to_output(d, "\n'Room flags': %s\n\r", bits);
+  write_to_output(d, "\nmenu[Quit]:Q\r\n");
+
   OLC_MODE(d) = REDIT_FLAGS;
 }
 
 /* For sector type. */
 static void redit_disp_sector_menu(struct descriptor_data *d)
 {
+  int i, counter, count = 0;
   clear_screen(d);
-  column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);
-  write_to_output(d, "\nEnter sector type : \n\r");
+  /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
+
+  write_to_output(d, "\n## Sector Types\n\r");
+
+  for (i = 0; i < NUM_ROOM_FLAGS; i++) {
+    ++count
+    counter = count;
+    write_to_output(d, "\nmenu[%d. %s]:%d", counter, room_bits[i], counter);
+  }
+
+  write_to_output(d, "\nmenu[Quit]:Q\r\n");
   OLC_MODE(d) = REDIT_SECTOR;
 }
 
