@@ -390,7 +390,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   write_to_output(d, "\n### NPC Flags");
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
-    count = ++count
+    count = ++count;
     if (medit_illegal_mob_flag(i)) continue;
     write_to_output(d, "\n%d) %s", count, action_bits[i]);
   }
