@@ -420,13 +420,11 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
 
   write_to_output(d, "\n## Sector Types\n\r");
 
-  for (i = 0; i < NUM_ROOM_FLAGS; i++) {
+  for (i = 0; i < NUM_ROOM_SECTORS; i++) {
     ++count;
     counter = count;
-    write_to_output(d, "\nmenu[%d. %s]:%d", counter, room_bits[i], counter);
+    write_to_output(d, "\nmenu[%d. %s]:%d", counter, sector_types[i], counter);
   }
-
-  write_to_output(d, "\nmenu[Quit]:Q\r\n");
   OLC_MODE(d) = REDIT_SECTOR;
 }
 
