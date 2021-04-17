@@ -308,7 +308,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   /*get_char_colors(d->character);*/
   clear_screen(d);
   column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "\nPosition number: ");
+  write_to_output(d, "menu[Quit]:Q");
 }
 
 /* Display the gender of the mobile. */
@@ -317,8 +317,6 @@ static void medit_disp_sex(struct descriptor_data *d)
   // get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\nEnter gender: ");
-
   write_to_output(d, "menu[Quit]:Q");
 }
 
@@ -333,8 +331,6 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\n%d) %s\r\n", i, attack_hit_text[i].singular);
   }
-  write_to_output(d, "\nAttack type: ");
-
   write_to_output(d, "menu[Quit]:Q");
 }
 
@@ -390,7 +386,6 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nNPC flags : %s", flags);
-
   write_to_output(d, "menu[Quit]:Q");
 }
 
