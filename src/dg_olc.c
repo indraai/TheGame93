@@ -91,7 +91,7 @@ ACMD(do_oasis_trigedit)
   }
   OLC_NUM(d) = number;
 
-  /* If this is a new trigger, setup a new one, otherwise, setup the a copy of 
+  /* If this is a new trigger, setup a new one, otherwise, setup the a copy of
    * the existing trigger. */
   if ((real_num = real_trigger(number)) == NOTHING)
     trigedit_setup_new(d);
@@ -108,7 +108,7 @@ ACMD(do_oasis_trigedit)
          GET_NAME(ch), zone_table[OLC_ZNUM(d)].number, GET_OLC_ZONE(ch));
 }
 
-/* Called when a mob or object is being saved to disk, so its script can be 
+/* Called when a mob or object is being saved to disk, so its script can be
  * saved. */
 void script_save_to_disk(FILE *fp, void *item, int type)
 {
@@ -175,7 +175,7 @@ void trigedit_setup_existing(struct descriptor_data *d, int rtrg_num)
     strcat(OLC_STORAGE(d), "\r\n");
     c = c->next;
   }
-  /* Now trig->cmdlist is something to pass to the text editor it will be 
+  /* Now trig->cmdlist is something to pass to the text editor it will be
    * converted back to a real cmdlist_element list later. */
 
   OLC_TRIG(d) = trig;
@@ -262,18 +262,18 @@ static void trigedit_disp_types(struct descriptor_data *d)
 
 /****************************************************************************************
  DG Scripts Code Syntax Highlighting
- Created by Victor Almeida (aka Stoneheart) in Brazil 
+ Created by Victor Almeida (aka Stoneheart) in Brazil
  from BrMUD:Tormenta www.tormenta.com.br
- 
+
  License: Attribution 4.0 International (CC BY 4.0)
  http://creativecommons.org/licenses/by/4.0/
- 
+
  You are free to:
  Share — copy and redistribute the material in any medium or format
  Adapt — remix, transform, and build upon the material for any purpose, even commercially.
- 
+
  The licensor cannot revoke these freedoms as long as you follow the license terms.
- 
+
  Under the following terms:
  Attribution — You must give appropriate credit, provide a link to the license, and indicate
  if changes were made. You may do so in any reasonable manner, but not in any way that
@@ -286,12 +286,12 @@ static char *str_replace(const char *string, const char *substr, const char *rep
     char *newstr = NULL;
     char *oldstr = NULL;
     char *head = NULL;
-    
+
     // if either substr or replacement is NULL, duplicate string a let caller handle it
     if (substr == NULL || replacement == NULL) {
         return strdup (string);
     }
-    
+
     newstr = strdup (string);
     head = newstr;
     while ((tok = strstr(head, substr))) {
@@ -311,7 +311,7 @@ static char *str_replace(const char *string, const char *substr, const char *rep
         head = newstr + (tok - oldstr) + strlen( replacement);
         free (oldstr);
     }
-    
+
     return newstr;
 }
 
@@ -425,7 +425,7 @@ static void script_syntax_highlighting(struct descriptor_data *d, char *string)
     ACMD(do_action);
     char buffer[MAX_STRING_LENGTH] = "";
     char *newlist, *curtok;
-    
+
     size_t i;
 
     // Parse script text line by line
@@ -433,7 +433,7 @@ static void script_syntax_highlighting(struct descriptor_data *d, char *string)
     for (curtok = strtok(newlist, "\r\n"); curtok; curtok = strtok(NULL, "\r\n")) {
         char *line = strdup(curtok);
         bool comment = FALSE;
-        
+
         // Find if is a comment
         for (i=0;i <= strlen(line);i++) {
             // skip initial spaces
@@ -452,7 +452,7 @@ static void script_syntax_highlighting(struct descriptor_data *d, char *string)
                 break;
             }
         }
-        
+
         // Highlight lines
         if (!comment) {
             // Syntax replacement
@@ -464,7 +464,7 @@ static void script_syntax_highlighting(struct descriptor_data *d, char *string)
             for (i=0;i < COMMAND_TERMS;i++) {
                 line = str_replace(line, command_color_replacement[i][0], command_color_replacement[i][1]);
             }
-        
+
             // Socials replacement (experimental)
             int cmd;
             for (cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++) {
@@ -479,7 +479,7 @@ static void script_syntax_highlighting(struct descriptor_data *d, char *string)
         strncat(buffer, line, sizeof(buffer) - strlen(buffer) - 1);
         strncat(buffer, "\tn\r\n", sizeof(buffer) - strlen(buffer) - 1);
     }
-    
+
     page_string(d, buffer, TRUE);
 }
 /****************************************************************************************/
@@ -795,9 +795,9 @@ void trigedit_save(struct descriptor_data *d)
   }
 
   /* now write the trigger out to disk, along with the rest of the triggers for
-   * this zone. We write this to disk NOW instead of letting the builder have 
-   * control because if we lose this after having assigned a new trigger to an 
-   * item, we will get SYSERR's upton reboot that could make things hard to 
+   * this zone. We write this to disk NOW instead of letting the builder have
+   * control because if we lose this after having assigned a new trigger to an
+   * item, we will get SYSERR's upton reboot that could make things hard to
    * debug. */
   zone = zone_table[OLC_ZNUM(d)].number;
   top = zone_table[OLC_ZNUM(d)].top;
@@ -946,30 +946,29 @@ void dg_script_menu(struct descriptor_data *d)
   OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
 
   clear_screen(d);
-  write_to_output(d, "     Triggers Attached:\r\n");
+  write_to_output(d, "\n### Triggers\r\n");
 
   editscript = OLC_SCRIPT(d);
 
   while (editscript) {
-    write_to_output(d, "     %2d) [%s%d%s] %s%s%s", ++i, cyn,
-      editscript->vnum, nrm, cyn,
+    write_to_output(d, "\n%d) [%d] %s\r\n", ++i,
+      editscript->vnum,
       trig_index[real_trigger(editscript->vnum)]->proto->name, nrm);
+
     if (trig_index[real_trigger(editscript->vnum)]->proto->attach_type != OLC_ITEM_TYPE(d))
-      write_to_output(d, "   %s** Mis-matched Trigger Type **%s\r\n",grn,nrm);
+      write_to_output(d, "\n** Mis-matched Trigger Type **\r\n");
     else
       write_to_output(d, "\r\n");
 
     editscript = editscript->next;
   }
   if (i==0)
-    write_to_output(d, "     <none>\r\n");
+    write_to_output(d, "\n<none>\r\n");
 
-  write_to_output(d,  "\r\n"
-    " %sN%s)  Attach trigger\r\n"
-    " %sX%s)  Detach trigger\r\n"
-    " %sQ%s)  Quit\r\n\r\n"
-    "     Enter choice :",
-    grn, nrm, grn, nrm, grn, nrm);
+  write_to_output(d,
+    "\nmenu[Attach Trigger]:N\r\n"
+    "\nmenu[Detach Trigger]:X\r\n"
+    "\nmenu[Quit]:Q\r\n");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
@@ -982,20 +981,20 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
       switch(tolower(*arg)) {
         case 'q':
           /* This was buggy. First we created a copy of a thing, but maintained
-	   * pointers to scripts, then if we altered the scripts, we freed the 
+	   * pointers to scripts, then if we altered the scripts, we freed the
 	   * pointers and added new ones to the OLC_THING. If we then choose NOT
-	   * to save the changes, the pointers in the original pointed to 
+	   * to save the changes, the pointers in the original pointed to
 	   * garbage. If we saved changes the pointers were updated correctly.
-	   * Solution: Here we just point the working copies to the new 
-	   * proto_scripts. We only update the original when choosing to save 
+	   * Solution: Here we just point the working copies to the new
+	   * proto_scripts. We only update the original when choosing to save
 	   * internally, then free the unused memory there. -Welcor
 	   * Thanks to Jeremy Stanley and Torgny Bjers for the bug report.
 	   * After updating to OasisOLC 2.0.3 I discovered some malfunctions
-	   * in this code, so I restructured it a bit. Now things work like 
-	   * this: OLC_SCRIPT(d) is assigned a copy of the edited things' 
+	   * in this code, so I restructured it a bit. Now things work like
+	   * this: OLC_SCRIPT(d) is assigned a copy of the edited things'
 	   * proto_script. OLC_OBJ(d), etc.. are initalized with proto_script =
 	   * NULL; On save, the saved copy is updated with OLC_SCRIPT(d) as new
-	   * proto_script (freeing the old one). On quit/nosave, OLC_SCRIPT is 
+	   * proto_script (freeing the old one). On quit/nosave, OLC_SCRIPT is
 	   * free()'d, and the prototype not touched. */
           return 0;
         case 'n':
