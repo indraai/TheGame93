@@ -395,7 +395,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s\n\r", flags);
+  write_to_output(d, "\nflags: %s", flags);
   write_to_output(d, "\nmenu[Quit]:Q");
 }
 
@@ -432,12 +432,12 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Mob %d\r\n"
-  "\n'1) Sex': %s\r\n"
-  "\n'2) Keywords': %s\r\n"
-  "\n'3) S-Desc': %s\r\n"
-  "\n'4) L-Desc': %s\r\n"
-  "\n'5) D-Desc': %s\r\n",
+  "\n# Mob %d"
+  "\n'1) Sex': %s"
+  "\n'2) Keywords': %s"
+  "\n'3) S-Desc': %s"
+  "\n'4) L-Desc': %s"
+  "\n'5) D-Desc': %s",
 
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
@@ -451,16 +451,16 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\n'6) Position': %s\r\n"
-	  "\n'7) Default': %s\r\n"
-	  "\n'8) Attack': %s\r\n"
-	  "\n'A) NPC Flags': %s\r\n"
-	  "\n'B) AFF Flags': %s\r\n"
-    "\n'S) Script': %s\r\n"
-    "\n'W) Copy': Copy Mobile.\r\n"
-	  "\n'X) Delete': Delete Mobile.\r\n"
-	  "\nmenu[Stats Menu]:9\r\n"
-	  "\nmenu[Quit]:Q\r\n",
+	  "\n'6) Position': %s"
+	  "\n'7) Default': %s"
+	  "\n'8) Attack': %s"
+	  "\n'A) NPC Flags': %s"
+	  "\n'B) AFF Flags': %s"
+    "\n'S) Script': %s"
+    "\n'W) Copy': Copy Mobile."
+	  "\n'X) Delete': Delete Mobile."
+	  "\nmenu[Stats Menu]:9"
+	  "\nmenu[Quit]:Q",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -487,6 +487,13 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   sprintf(buf, "(range \ty%d\tn to \ty%d\tn)", GET_HIT(mob) + GET_MOVE(mob), (GET_HIT(mob) * GET_MANA(mob)) + GET_MOVE(mob));
 
   /* Top section - standard stats */
+  write_to_output(d,
+    "\n### %s"
+    "\n'1) level':%d"
+    "\n'2) auto stats': Auto set stats based on level.",
+    OLC_NUM(d),
+    GET_LEVEL(mob)
+  );
   write_to_output(d,
   "-- Mob Number:  %s[%s%d%s]%s\r\n"
   "(%s1%s) Level:       %s[%s%4d%s]%s\r\n"
