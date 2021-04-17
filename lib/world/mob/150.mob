@@ -5,10 +5,11 @@ RD15000 The RoyalDEVA Gideon is on duty.
 ~
 RoyalDEVA Gideon is an experienced comabat fighter. He reports directly to Michael for duties, and specializes in covert tactics and spycraft. He is very well trained, yet you wouldn't know it by his constant playing dice with Jerry.
 ~
-194907 0 0 0 0 0 0 0 800 E
+194907 0 0 0 8312 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 0
+BareHandAttack: 5
 E
 #15001
 king indra deva indradeva devaforce kingindra~
@@ -20,8 +21,7 @@ King Indra is very powerfully built, and wouldn't take kindly to an attack.  Des
 260381 0 0 0 403704 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-6 6 1
-BareHandAttack: 13
+6 0 1
 E
 #15002
 ghost wonderful~
