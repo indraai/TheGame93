@@ -611,19 +611,16 @@ Cha: 15
 E
 T 27404
 #27426
-guard~
-a village militia-man ~
-a village militia-man is here on guard duty.
+deva guard guarddeva devaforce gd27426~
+GD28714 GuardDEVA~
+GD28714 GuardDEVA is here.
 ~
-   The guard is clad in a green and white tunic with a dark green pair of
-trousers.  IT has the ensign of Saint Brigid on the tunic front which marks him
-as a soldier of the free town.  He is one of the citizens who has stepped up and
-volunteered to take the post to protect the village.
+The guard is clad in a green and white tunic with a dark green pair of trousers.  IT has the ensign of Saint Brigid on the tunic front which marks him as a soldier of the free town.  He is one of the citizens who has stepped up and volunteered to take the post to protect the village.
 ~
 254042 0 0 0 0 0 0 0 0 E
 10 18 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 Str: 17
 Dex: 13
 Int: 13
