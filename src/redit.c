@@ -380,11 +380,12 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
-  write_to_output(d, "%s0%s) No door\r\n"
+  write_to_output(d,
+    "menu[0. No door]:0\r\n"
 	  "\nmenu[1. Closeable door]:1\r\n"
     "\nmenu[2. Pickproof Door]:2\r\n"
     "\nmenu[3. Hidden Door]:3\r\n"
-    "\nmenu[4. Hidden, Pickproof Door]:4\r\n")
+    "\nmenu[4. Hidden, Pickproof Door]:4\r\n");
 }
 
 /* For room flags. */
