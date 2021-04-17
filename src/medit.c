@@ -305,10 +305,14 @@ void medit_save_internally(struct descriptor_data *d)
    Display positions. (sitting, standing, etc) */
 static void medit_disp_positions(struct descriptor_data *d)
 {
+  int i;
   /*get_char_colors(d->character);*/
   clear_screen(d);
   write_to_output(d, "\n### Position\r\n");
-    column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
+  for (i = 0; i < NUM_POSITIONS; i++) {
+    write_to_output(d, "%d) %s", i, position_types[i])
+  }
+  // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
 
