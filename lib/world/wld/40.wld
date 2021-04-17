@@ -1,5 +1,5 @@
 #4000
-The Hills~
+Agency: Mines of Moria~
    You are on a path leading north, small hills surround you.
 You feel the forces of evil approach you from the north.  Off
 in the distance to the northeast you can see the beginning of
@@ -14,6 +14,10 @@ D2
 ~
 ~
 0 -1 3500
+D3
+~
+~
+0 -1 3156
 S
 #4001
 The Hills~
