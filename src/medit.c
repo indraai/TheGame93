@@ -433,11 +433,11 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Mob %d"
-  "\n'1) Sex': %s"
-  "\n'2) Keywords': %s"
-  "\n'3) S-Desc': %s"
-  "\n'4) L-Desc': %s"
-  "\n'5) D-Desc': %s",
+  "\n'1) Sex': %s\r\n"
+  "\n'2) Keywords': %s\r\n"
+  "\n'3) S-Desc': %s\r\n"
+  "\n'4) L-Desc': %s\r\n"
+  "\n'5) D-Desc': %s\r\n",
 
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
@@ -451,16 +451,16 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\n'6) Position': %s"
-	  "\n'7) Default': %s"
-	  "\n'8) Attack': %s"
-	  "\n'A) NPC Flags': %s"
-	  "\n'B) AFF Flags': %s"
-    "\n'S) Script': %s"
-    "\n'W) Copy': Copy Mobile."
-	  "\n'X) Delete': Delete Mobile."
-	  "\nmenu[Stats Menu]:9"
-	  "\nmenu[Quit]:Q",
+	  "\n'6) Position': %s\r\n"
+	  "\n'7) Default': %s\r\n"
+	  "\n'8) Attack': %s\r\n"
+	  "\n'A) NPC Flags': %s\r\n"
+	  "\n'B) AFF Flags': %s\r\n"
+    "\n'S) Script': %s\r\n"
+    "\n'W) Copy': Copy Mobile.\r\n"
+	  "\n'X) Delete': Delete Mobile.\r\n"
+	  "\nmenu[Stats Menu]:9\r\n"
+	  "\nmenu[Quit]:Q\r\n",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -488,9 +488,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "\n### %d"
-    "\n'1) level':%d"
-    "\n'2) auto stats': Auto set stats based on level.",
+    "\n### %s\r\n"
+    "\n'1) level':%d\r\n"
+    "\n'2) auto stats': Auto set stats based on level.\r\n",
     OLC_NUM(d),
     GET_LEVEL(mob)
   );
