@@ -318,7 +318,10 @@ static void medit_disp_sex(struct descriptor_data *d)
   // get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d, "\n### Gender\r\n");
-  column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
+  for (i = 0; i < NUM_GENDERS; i++) {
+    write_to_output(d, "\n%d) %s", i, genders[i]);
+  }
+  // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
 
@@ -331,7 +334,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n### Attack Types\r\n");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\n%d) %s\r\n", i, attack_hit_text[i].singular);
+    write_to_output(d, "\n%d) %s", i, attack_hit_text[i].singular);
   }
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
