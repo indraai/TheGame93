@@ -483,9 +483,6 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  /* Color codes have to be used here, for count_color_codes to work */
-  sprintf(buf, "(range \ty%d\tn to \ty%d\tn)", GET_HIT(mob) + GET_MOVE(mob), (GET_HIT(mob) * GET_MANA(mob)) + GET_MOVE(mob));
-
   /* Top section - standard stats */
   write_to_output(d,
     "\n## Stats: Mob %d\r\n"
@@ -500,22 +497,22 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     "\n'3) Hit': %d\r\n"
     "\n'4) Mana': %d\r\n"
     "\n'5) Move: %d\r\n"
-    "%-*s(range %d to %d)\r\n",
+    "(range %d to %d)\r\n",
     GET_HIT(mob),
     GET_MANA(mob),
     GET_MOVE(mob),
-    count_color_chars(buf)+28, buf);
+    GET_HIT(mob) + GET_MOVE(mob), (GET_HIT(mob) * GET_MANA(mob)) + GET_MOVE(mob)
+  );
 
   write_to_output(d,
     "### Bare Hand Damage (xdy+z): \r\n"
     "6) BHD NumDice: %d\r\n"
     "7) BHD SizeDice: %d\r\n"
-    "8) DamRoll: %d\r\n"
-    "%-*s(range %d to %d)\r\n",
+    "8) DamRoll: %d\r\n",
     GET_NDD(mob),
     GET_SDD(mob),
-    GET_DAMROLL(mob),
-    count_color_chars(buf)+28, buf);
+    GET_DAMROLL(mob)
+  );
 
   write_to_output(d,
   "(%sA%s) Armor Class: %s[%s%4d%s]%s         (%sD%s) Hitroll:   %s[%s%5d%s]%s\r\n"
@@ -528,6 +525,10 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     cyn, nrm, cyn, yel, GET_EXP(mob), cyn, nrm,  cyn, nrm, cyn, yel, GET_ALIGNMENT(mob), cyn, nrm,
     cyn, nrm, cyn, yel, GET_GOLD(mob), cyn, nrm
     );
+
+
+
+
   write_to_output(d,
   "-- Mob Number:  %s[%s%d%s]%s\r\n"
   "(%s1%s) Level:       %s[%s%4d%s]%s\r\n"
