@@ -399,7 +399,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Room Flags\n\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    ++count
+    ++count;
     counter = count;
     write_to_output(d, "\nmenu[%d. %s]:%d", counter, room_bits[i], counter);
   }
@@ -421,7 +421,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Sector Types\n\r");
 
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    ++count
+    ++count;
     counter = count;
     write_to_output(d, "\nmenu[%d. %s]:%d", counter, room_bits[i], counter);
   }
