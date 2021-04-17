@@ -305,12 +305,12 @@ void medit_save_internally(struct descriptor_data *d)
    Display positions. (sitting, standing, etc) */
 static void medit_disp_positions(struct descriptor_data *d)
 {
-  int i;
+  int i, count = 0;
   /*get_char_colors(d->character);*/
   clear_screen(d);
   write_to_output(d, "\n### Position");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\n%d) %s", i+1, position_types[i]);
+    write_to_output(d, "\nmenu[%s]:%d", position_types[i], ++count);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
@@ -333,13 +333,13 @@ static void medit_disp_sex(struct descriptor_data *d)
 /* Display attack types menu. */
 static void medit_disp_attack_types(struct descriptor_data *d)
 {
-  int i;
+  int i, count = 0;
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
   write_to_output(d, "\n### Attack Types");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\n%d) %s", i+1, attack_hit_text[i].singular);
+    write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, ++count);
   }
   write_to_output(d, "\nmenu[Quit]:Q\r\n");
 }
