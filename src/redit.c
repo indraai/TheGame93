@@ -358,12 +358,12 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "'1) Exit to': %d\n\r"
-	  "'2) Description': %s\n\r"
-	  "'3) Door name': %s\n\r"
-	  "'4) Key': %d\n\r"
-	  "'5) Door flags': '%s'\n\r"
-	  "\n'6) Purge exit': Purge exit from room.\n\r"
+	  "\n'1. Exit to': %d\n\r"
+	  "\n'2. Description': %s\n\r"
+	  "\n'3. Door name': %s\n\r"
+	  "\n'4. Key': %d\n\r"
+	  "\n'5. Door flags': '%s'\n\r"
+	  "\n'6. Purge exit': Purge exit from room.\n\r"
 	  "\nmenu[Quit]:0\n\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -381,11 +381,10 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
   write_to_output(d, "%s0%s) No door\r\n"
-	  "%s1%s) Closeable door\r\n"
-      "%s2%s) Pickproof Door\r\n"
-      "%s3%s) Hidden Door\r\n"
-      "%s4%s) Hidden, Pickproof Door\r\n"
-      "Enter choice : ", grn, nrm, grn, nrm, grn, nrm, grn, nrm, grn, nrm);
+	  "\nmenu[1. Closeable door]:1\r\n"
+    "\nmenu[2. Pickproof Door]:2\r\n"
+    "\nmenu[3. Hidden Door]:3\r\n"
+    "\nmenu[4. Hidden, Pickproof Door]:4\r\n")
 }
 
 /* For room flags. */
