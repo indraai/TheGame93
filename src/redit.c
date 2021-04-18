@@ -325,7 +325,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 	  );
 
   write_to_output(d,
-    !extra_desc->next ? "\n\nmenu[New Description]:3\n\r" : "\n\nmenu[Next Description]:3\n\r"
+    !extra_desc->next ? "\n\nmenu[3) New Description]:3\n\r" : "\n\nmenu[Next Description]:3\n\r"
     );
 
   write_to_output(d, "\nmenu[Quit]:q\n\r");
@@ -358,12 +358,12 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "\n'1. Exit to': %d\n\r"
-	  "\n'2. Description': %s\n\r"
-	  "\n'3. Door name': %s\n\r"
-	  "\n'4. Key': %d\n\r"
-	  "\n'5. Door flags': '%s'\n\r"
-	  "\n'6. Purge exit': Purge exit from room.\n\r"
+	  "\n'1) Exit to': %d\n\r"
+	  "\n'2) Description': %s\n\r"
+	  "\n'3) Door name': %s\n\r"
+	  "\n'4) Key': %d\n\r"
+	  "\n'5) Door flags': '%s'\n\r"
+	  "\n'6) Purge exit': Purge exit from room.\n\r"
 	  "\nmenu[Quit]:0\n\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -381,11 +381,11 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
   write_to_output(d,
-    "menu[0. No door]:0\r\n"
-	  "\nmenu[1. Closeable door]:1\r\n"
-    "\nmenu[2. Pickproof Door]:2\r\n"
-    "\nmenu[3. Hidden Door]:3\r\n"
-    "\nmenu[4. Hidden, Pickproof Door]:4\r\n");
+    "\nmenu[0) No door]:0\r\n"
+	  "\nmenu[1) Closeable door]:1\r\n"
+    "\nmenu[2) Pickproof Door]:2\r\n"
+    "\nmenu[3) Hidden Door]:3\r\n"
+    "\nmenu[4) Hidden, Pickproof Door]:4\r\n");
 }
 
 /* For room flags. */
@@ -401,7 +401,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
     ++count;
     counter = count;
-    write_to_output(d, "\nmenu[%d. %s]:%d", counter, room_bits[i], counter);
+    write_to_output(d, "\nmenu[%d) %s]:%d", counter, room_bits[i], counter);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
@@ -423,7 +423,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
     ++count;
     counter = count;
-    write_to_output(d, "\nmenu[%d. %s]:%d", counter, sector_types[i], counter);
+    write_to_output(d, "\nmenu[%d) %s]:%d", counter, sector_types[i], counter);
   }
   OLC_MODE(d) = REDIT_SECTOR;
 }
@@ -445,6 +445,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n# %s\n\r"
       "\n'number': %d\n\r"
       "\n'zone': %d\n\r"
+      "\n## Details\n\r"
       "\n'1) Name': %s\n\r"
       "\n'2) Description': %s\n\r"
       "\n'3) Room flags': %s\n\r"
@@ -460,7 +461,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
-      "\n\n### Exits\n\r"
+      "\n\n## Exits\n\r"
       "\n'5) north': %d\n\r"
       "\n'6) east': %d\n\r"
       "\n'7) south': %d\n\r"
@@ -509,10 +510,10 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n'9) up': %d\n\r"
       "\n'A) down': %d\n\r"
       "\n\n"
-      "\nmenu[Extra Description]:F\n\r"
-      "\nmenu[Script Menu %s]:S\n\r"
-      "\nmenu[Copy Room]:W\n\r"
-      "\nmenu[Delete Room]:X\n\r"
+      "\nmenu[F) Extra Description]:F\n\r"
+      "\nmenu[S) Script Menu %s]:S\n\r"
+      "\nmenu[W) Copy Room]:W\n\r"
+      "\nmenu[X) Delete Room]:X\n\r"
       "\nmenu[Quit]:Q\n\r",
       room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
       world[room->dir_option[UP]->to_room].number : -1,
