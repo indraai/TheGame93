@@ -274,13 +274,13 @@ rake~
 tines, but could be easily washed away.
 ~
 #537
-jerky~
-a piece of jerky~
-A piece of jerky was left here.~
+almonds roasted salted~
+A bag of roasted almonds.~
+A bag of tasty salted roasted almonds is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 0
-2 100 0 0 0
+2 5 0 0 0
 E
 jerky~
    The piece is rather small and probably won't fill you up for very long.

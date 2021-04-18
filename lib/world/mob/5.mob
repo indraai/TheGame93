@@ -250,17 +250,16 @@ her?
 BareHandAttack: 9
 E
 #536
-farm boy Jonathan~
-a farm boy~
-A young farm boy named Jonathan is here.
+farm boy justin~
+Justin the Farmboy~
+Justin the Farmboy is here.
 ~
-   He is a scrawny little thing, but quite tall.  He makes you think of a twig.
-His face is boney and looks like it's been caved in.  How gross!
+Justin is the Farmboy. He makes you think of a little mule ready for work. His face looks strong and well fed.
 ~
-10 0 0 0 0 0 0 0 300 E
+72 0 0 0 0 0 0 0 300 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1
+8 6 1
 BareHandAttack: 9
 E
 #542
