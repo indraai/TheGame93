@@ -196,7 +196,7 @@ S
 Agency: Headquarters~
 adventure[world]:3110/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D1
 adventure[world]:3111/look
 ~
@@ -798,7 +798,7 @@ S
 Agency Corridor~
 adventure[world]:3142/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:15008/look
 ~
@@ -824,7 +824,7 @@ S
 Agency Corridor~
 adventure[world]:3143/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3142/look
 ~
@@ -850,7 +850,7 @@ S
 Agency Corridor~
 adventure[world]:3144/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3143/look
 ~
@@ -876,7 +876,7 @@ S
 Agency Corridor~
 adventure[world]:3145/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3144/look
 ~
@@ -902,7 +902,7 @@ S
 Agency Corridor~
 adventure[world]:3146/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3145/look
 ~
@@ -928,7 +928,7 @@ S
 Agency Corridor~
 adventure[world]:3147/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3146/look
 ~
@@ -954,7 +954,7 @@ S
 Agency Corridor~
 adventure[world]:3148/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3147/look
 ~
@@ -980,7 +980,7 @@ S
 Agency Corridor~
 adventure[world]:3149/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3148/look
 ~
@@ -1125,12 +1125,7 @@ S
 Agency Corridor~
 adventure[world]:3156/main
 ~
-31 8 0 0 0 0
-D5
-adventure[world]:3149/look
-~
-~
-0 -1 3149
+31 184 0 0 0 0
 D0
 adventure[world]:3157/look
 ~
@@ -1151,6 +1146,11 @@ adventure[world]:10643/look
 ~
 ~
 0 -1 10643
+D5
+adventure[world]:3149/look
+~
+~
+0 -1 3149
 S
 #3157
 Agency Corridor~
@@ -1172,7 +1172,7 @@ S
 Agency Corridor~
 adventure[world]:3158/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3159/look
 ~
@@ -1188,7 +1188,7 @@ S
 Agency Corridor~
 adventure[world]:3159/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D0
 adventure[world]:3160/look
 ~
@@ -1204,7 +1204,7 @@ S
 Agency Corridor~
 adventure[world]:3160/main
 ~
-31 8 0 0 0 0
+31 184 0 0 0 0
 D2
 adventure[world]:3159/look
 ~
