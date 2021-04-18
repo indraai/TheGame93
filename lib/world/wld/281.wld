@@ -257,7 +257,7 @@ door wooden~
 1 28131 28113
 S
 #28113
-A tidy room~
+Agency: Khanjar~
    The room is in extremely good order.  Every particle of dust or dirt
 of any kind appear to be wiped out.  Apparently there is a possible tenant
 coming soon.
@@ -266,8 +266,13 @@ coming soon.
 D1
 You see the corridor.
 ~
-door wooden~
-1 28131 28112
+~
+0 -1 28112
+D3
+adventure[world]:3158/look
+~
+~
+0 -1 3158
 S
 #28114
 At the forest edge~

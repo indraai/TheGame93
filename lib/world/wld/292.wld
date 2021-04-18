@@ -1433,12 +1433,12 @@ D5
 0 0 29212
 S
 #29269
-Temple of XXXX~
-   A familiar sight!  The altar of XXXX is decorated with the usual
+Temple of Indra~
+   A familiar sight!  The altar of Indra is decorated with the usual
 array of eagles in flight, and other signs of the god's power.  The
 statue stands proud...an aura around one upheld hand, the other
 holding an open book.  To the west are the living areas of the Priests
-of XXXX, but you think those are restricted to the devout.
+of Indra, but you think those are restricted to the devout.
 ~
 292 8 0 0 0 0
 D0
@@ -1469,14 +1469,19 @@ D1
 0 -1 29269
 S
 #29271
-Recruiting Office~
-   This office is clean and spacious.  A big desk faces the door, with
+Agency: Kerofk~
+This office is clean and spacious.  A big desk faces the door, with
 a grizzled sergeant behind it.  He turns the paperwork in front of him
 around for you... 'Name, Race, Sex, Age, Address...'.  Behind him you
 see the office of the Captain of the Guard.
 ~
-292 12 0 0 0 0
+292 8 0 0 0 0
 D1
+adventure[world]:3158/look
+~
+~
+0 -1 3158
+D2
 ~
 ~
 0 -1 29272
@@ -1487,13 +1492,13 @@ D3
 S
 #29272
 Captain's Office~
-   This man's office is a testimonial to battle.  Exotic weapons that
+This man's office is a testimonial to battle.  Exotic weapons that
 you've never seen before line the walls, and you notice some
 bloodstains on the floor.  A large area in the center is bared,
 allowing sparring room.
 ~
 292 8 0 0 0 0
-D3
+D0
 ~
 ~
 0 -1 29271

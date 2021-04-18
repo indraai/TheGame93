@@ -226,12 +226,17 @@ D3
 0 0 11509
 S
 #11511
-Eastern Room~
+Agency: Omega Monastery~
    Upon entering this room it is known that it is poorly lit and there is an
 awfull smell comming from the far corner of this room.  There is an exit to the
 west.
 ~
 115 9 0 0 0 0
+D1
+adventure[world]:3157/look
+~
+~
+0 -1 3157
 D3
 ~
 door~
