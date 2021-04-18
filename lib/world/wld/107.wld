@@ -744,7 +744,7 @@ times their level.
 S
 #10740
 Entrance to Iuel~
-   The hill slopes downwards into what appears to be an old and abandoned city
+The hill slopes downwards into what appears to be an old and abandoned city
 of stone.  It is starkly out of place with plains and field surrounding it.
 The city appears to be sinking into the swamplands it rests upon.
 ~
@@ -1850,14 +1850,10 @@ D0
 ~
 ~
 0 0 10740
-D1
+D3
 adventure[world]:3157/look
 ~
 ~
 0 -1 3157
-D3
-~
-~
-0 0 10788
 S
 $~
