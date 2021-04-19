@@ -509,12 +509,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
       "\nselect[9:Up]: %d\r"
       "\nselect[A:Down]: %d\r"
-      "\n=\n"
+      "\n==\n"
       "\nmenu[Extra Description]:F\r"
       "\nmenu[Script Menu %s]:S\r"
       "\nmenu[Copy Room]:W\r"
       "\nmenu[Delete Room]:X\r"
-      "\n=\n"
+      "\n==\n"
       "\nmenu[Quit]:Q\r",
       room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
       world[room->dir_option[UP]->to_room].number : -1,
