@@ -509,6 +509,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
       "\nselect[9:Up]: %d\r"
       "\nselect[A:Down]: %d\r"
+      "\n## Extras\r"
       "\nmenu[Extra Description]:F\r"
       "\nmenu[Script Menu %s]:S\r"
       "\nmenu[Copy Room]:W\r"
