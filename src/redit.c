@@ -446,10 +446,10 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n'number': %d\n\r"
       "\n'zone': %d\n\r"
       "\n## Details\n\r"
-      "\n'1) Name': %s\n\r"
-      "\n'2) Description': %s\n\r"
-      "\n'3) Room flags': %s\n\r"
-      "\n'4) Sector type': %s\n\r",
+      "\ninput[1:Name]:%s\n\r"
+      "\ninput[2:Description]:%s\n\r"
+      "\nselect[3:Room Flags]:%s\n\r"
+      "\nselect[4:Sectory Type]:%s\n\r",
       room->name,
       OLC_NUM(d),
       zone_table[OLC_ZNUM(d)].number,
@@ -462,10 +462,10 @@ static void redit_disp_menu(struct descriptor_data *d)
   {
     write_to_output(d,
       "\n\n## Exits\n\r"
-      "\n'5) north': %d\n\r"
-      "\n'6) east': %d\n\r"
-      "\n'7) south': %d\n\r"
-      "\n'8) west': %d\n\r",
+      "\nselect[5:North]:%d\n\r"
+      "\nselect[6:East]:%d\n\r"
+      "\nselect[7:South]:%d\n\r"
+      "\nselect[8:West]:%d\n\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -507,13 +507,12 @@ static void redit_disp_menu(struct descriptor_data *d)
       );
   }
   write_to_output(d,
-      "\n'9) up': %d\n\r"
-      "\n'A) down': %d\n\r"
-      "\n\n"
-      "\nmenu[F) Extra Description]:F\n\r"
-      "\nmenu[S) Script Menu %s]:S\n\r"
-      "\nmenu[W) Copy Room]:W\n\r"
-      "\nmenu[X) Delete Room]:X\n\r"
+      "\nselect[9:Up]:%d\n\r"
+      "\nselect[A:Down]:%d\n\r"
+      "\nmenu[Extra Description]:F\n\r"
+      "\nmenu[Script Menu %s]:S\n\r"
+      "\nmenu[Copy Room]:W\n\r"
+      "\nmenu[Delete Room]:X\n\r"
       "\nmenu[Quit]:Q\n\r",
       room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
       world[room->dir_option[UP]->to_room].number : -1,
