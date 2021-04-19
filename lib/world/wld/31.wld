@@ -415,12 +415,12 @@ adventure[world]:30600/look
 ~
 0 -1 30600
 E
-tree~
-adveenture:3120/tree
-~
-E
 sign~
 adventure[world]:3120/sign
+~
+E
+tree~
+adveenture:3120/tree
 ~
 S
 #3121
@@ -720,16 +720,16 @@ adventure[world]:3117/look
 ~
 0 -1 3117
 E
-typewriter~
-adventure[world]:3137/typewriter
+chair chairs~
+adventure[world]:3137/chair
 ~
 E
 desk~
 adventure[world]:3137/desk
 ~
 E
-chair chairs~
-adventure[world]:3137/chair
+typewriter~
+adventure[world]:3137/typewriter
 ~
 S
 #3138
@@ -743,12 +743,12 @@ adventure[world]:3137/look
 ~
 0 -1 3137
 E
-chair armchair~
-adventure[world]:3138/chair
-~
-E
 desk~
 adventure[world]:3138/desk
+~
+E
+chair armchair~
+adventure[world]:3138/chair
 ~
 S
 #3139
@@ -795,10 +795,10 @@ adventure[world]:3140/look
 0 -1 3140
 S
 #3142
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3142/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:15008/look
 ~
@@ -821,10 +821,10 @@ adventure[world]:24232/look
 0 0 24232
 S
 #3143
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3143/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3142/look
 ~
@@ -847,10 +847,10 @@ adventure[world]:25782/look
 0 -1 25782
 S
 #3144
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3144/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3143/look
 ~
@@ -873,10 +873,10 @@ adventure[world]:523/look
 0 -1 523
 S
 #3145
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3145/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3144/look
 ~
@@ -899,10 +899,10 @@ adventure[world]:28717/look
 0 -1 28717
 S
 #3146
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3146/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3145/look
 ~
@@ -925,10 +925,10 @@ adventure[world]:27500/look
 0 -1 27500
 S
 #3147
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3147/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3146/look
 ~
@@ -951,10 +951,10 @@ adventure[world]:29400/look
 0 -1 29400
 S
 #3148
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3148/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3147/look
 ~
@@ -977,10 +977,10 @@ adventure[world]:29607/look
 0 -1 29607
 S
 #3149
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3149/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3148/look
 ~
@@ -1107,8 +1107,8 @@ The chapel door is made of dark wood.
 door~
 1 -1 3154
 E
-benches rows~
-   The benches are not of the comfortable kind.
+glass windows~
+   The windows must be meant to be dark.  At least they are completely clean.
 ~
 E
 altar~
@@ -1117,15 +1117,15 @@ notice that it seems less dusty than the rest of the room...  Someone must clean
 here regularly...  Maybe that old guy in Park Cafe, he looked like that sort...
 ~
 E
-glass windows~
-   The windows must be meant to be dark.  At least they are completely clean.
+benches rows~
+   The benches are not of the comfortable kind.
 ~
 S
 #3156
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3156/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3157/look
 ~
@@ -1153,20 +1153,20 @@ adventure[world]:3149/look
 0 -1 3149
 S
 #3157
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3157/main
 ~
-31 8 0 0 0 0
-D1
-adventure[world]:10790/look
-~
-~
-0 -1 10790
+31 440 0 0 0 0
 D0
 adventure[world]:3158/look
 ~
 ~
 0 -1 3158
+D1
+adventure[world]:10790/look
+~
+~
+0 -1 10790
 D2
 adventure[world]:3156/look
 ~
@@ -1179,10 +1179,10 @@ adventure[world]:11511/look
 0 -1 11511
 S
 #3158
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3158/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3159/look
 ~
@@ -1205,10 +1205,10 @@ adventure[world]:29271/look
 0 -1 29271
 S
 #3159
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3159/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3160/look
 ~
@@ -1221,10 +1221,10 @@ adventure[world]:3158/look
 0 -1 3158
 S
 #3160
-Agency Corridor~
+Agency: Corridor~
 adventure[world]:3160/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3161/look
 ~
@@ -1240,7 +1240,7 @@ S
 Agency: Corridor~
 adventure[world]:3161/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3162/look
 ~
@@ -1256,7 +1256,7 @@ S
 Agency: Corridor~
 adventure[world]:3162/main
 ~
-31 184 0 0 0 0
+31 440 0 0 0 0
 D0
 adventure[world]:3163/look
 ~

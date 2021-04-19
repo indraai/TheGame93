@@ -189,20 +189,7 @@ D3
 S
 #8
 How to Use Redit~
-   Room edit, or redit, is how you create, link, and describe the rooms that a
-player explores. It can be used by simply typing redit in the room you wish to
-edit.  If you get a message that you do not have permission to edit that zone
-it is because your OLC is not set to that zone. @RSTAT SELF@n to see what your
-@MOLC[]@n is set to. OLC, or on-line-creation is set to the zone number
-assigned to you by the staff.  The zone number is then divided into VNUM's ##00
-to ##99. For example, Zone 12 has VNUM's 1200 to 1299. These numbers are
-critical; they are the identities of the rooms within the game.  They can be
-used with "goto" to go to that room.
-   Now, lets look at the redit menu. Type the following: @RHELP REDIT-MENU@n
-That is an example of the redit menu you will see when you edit a room.
-Notice how each important line has an associated help topic. To learn more
-about it just see the appropriate help file. If this is your first experience
-with redit read ALL the help files. @RHELP STYLISTICS@n
+adventure[world]:0008/main
 ~
 0 8 0 0 0 0
 D1
@@ -777,14 +764,14 @@ D2
 ~
 0 0 98
 E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
+~
+E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 $~
