@@ -461,7 +461,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
-      "\n\n## Exits\n\r"
+      "\n## Exits\n\r"
       "\nselect[5:North]: %d\n\r"
       "\nselect[6:East]: %d\n\r"
       "\nselect[7:South]: %d\n\r"
