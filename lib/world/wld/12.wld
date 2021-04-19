@@ -33,7 +33,7 @@ and maybe someone will come and get you.
 12 184 0 0 0 0
 S
 #1203
-The Gods' Mortal Board Room~
+The Mortal Board~
    Here the Gods have magically created an exact copy of the mortal board room.
 Any God can easily post and read messages from the mortal board room without
 being seen by any mortals.  The eastern foyer is to the north.
@@ -45,9 +45,8 @@ D0
 0 0 34308
 S
 #1204
-The Immortal Board Room~
-   The main hang out of the Gods, the Immortal Board Room is the place to be.
-Gods exchange messages here most every day.  The eastern foyer is to the south.
+The Immortal Board~
+adventure[world]:1204/main
 ~
 12 24 0 0 0 0
 D2
