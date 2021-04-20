@@ -585,8 +585,8 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
 
       write_to_output(d,
-        "\nmenu[Options]:/h\r"
         "\nmenu[Save]:/s\r"
+        "\nmenu[Cancel]:/a\r"
       );
       break;
     case '3':
