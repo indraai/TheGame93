@@ -13185,7 +13185,7 @@ ZONE-SIZES SIZES
 adventure[help]:zonesize
 #31
 ZONES
-adventure[help]:zones
+\nadventure[help]:zones\r
 #0
 ZPURGE
 adventure[help]:zpurge
