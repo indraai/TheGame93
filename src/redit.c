@@ -406,7 +406,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
   write_to_output(d, "\n'Room flags': %s\n\r", bits);
-  write_to_output(d, "\nmenu[Quit]:Q\r\n");
+  write_to_output(d, "\nmenu[Done]:Q\r\n");
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
