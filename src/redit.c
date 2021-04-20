@@ -443,9 +443,9 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n'zone': %d\r"
       "\n## Details\r"
       "\ninput[1:Name]: %s\r"
-      "\descrip[2:Description]: %s\r"
+      "\ndescrip[2:Description]: %s\r"
       "\nselect[3:Room Flags]: %s\r"
-      "\nselect[4:Sectory Type]: %s\r",
+      "\nselect[4:Sector Type]: %s\r",
       room->name,
       OLC_NUM(d),
       zone_table[OLC_ZNUM(d)].number,
