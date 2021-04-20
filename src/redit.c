@@ -319,7 +319,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Extra Description\r"
-	  "\ninput[1:keyword]:%s\r"
+	  "\ninput[1:keyword]: %s\r"
 	  "\ndescrip[2:description]: %s\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
