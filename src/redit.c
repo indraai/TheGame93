@@ -358,6 +358,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
+    "\n## Exit\r"
 	  "\ninput[1:exit to]: %d\r"
 	  "\ndescrip[2:description]: %s\r"
 	  "\ninput[3:door name]: %s\r"
