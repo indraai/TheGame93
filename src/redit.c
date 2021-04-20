@@ -358,13 +358,12 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-    "\n## Exit\r"
-	  "\ninput[1:exit to]: $d\r"
+	  "\ninput[1:exit to]: %d\r"
 	  "\ndescrip[2:description]: %s\r"
 	  "\ninput[3:door name]: %s\r"
 	  "\ninput[4:key]: %d\r"
-	  "\nselect[5:door flags]: %s\r"
-	  "\nmenu[Purge Exit]:6\r"
+	  "\nselect[5:door flags]: '%s'\r"
+	  "\nmenu[purge exit]:6\r"
 	  "\nmenu[Done]:0\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
