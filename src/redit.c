@@ -578,11 +578,16 @@ void redit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "\nRoom description:\r");
 
       if (OLC_ROOM(d)->description) {
-	write_to_output(d, "%s", OLC_ROOM(d)->description);
-	oldtext = strdup(OLC_ROOM(d)->description);
+	      write_to_output(d, "%s", OLC_ROOM(d)->description);
+        oldtext = strdup(OLC_ROOM(d)->description);
       }
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
+
+      write_to_output(d,
+        "\nmenu[Options]:/h\r"
+        "\nmenu[Save]:/s\r"
+      );
       break;
     case '3':
       redit_disp_flag_menu(d);
