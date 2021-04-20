@@ -50,17 +50,11 @@ S
 T 199
 #3
 The Builder Academy~
-   Congratulations on your new-found immortality. Now all you need to know is
-how to use your new abilities. This zone describes how to create CircleMUD
-areas. The intended audience is builders interested in creating new worlds.
-There are a few basic rules to understand while exploring this zone and
-learning how to build. Everything in @RCAPITAL LETTERS@n is something that
-can be further explored by typing @RCAPITAL LETTERS@n and hitting return.
-
-Test this out, @RHELP DISCLAIMER@n.
+adventure[world]:0003/main
 ~
 0 8 0 0 0 0
 D1
+adventure[world]:0004/look
 ~
 ~
 0 0 4
@@ -68,69 +62,44 @@ S
 T 56
 #4
 The Beginning~
-   By simply following the different halls new builders will be taught the
-basics of building on a tbaMUD. If new to immortality and building then I
-highly recommend the hallway to the north for an overview of immortal commands.
-For those that have a grasp on all commands listed under @RWIZHELP@n continue to
-the east. TBA is constantly striving to improve upon the training process so
-please use the typo and idea commands liberally.
+adventure[world]:4/main
 ~
 0 24 0 0 0 0
 D0
+adventure[world]:0016/look
 ~
 ~
 0 0 16
 D1
+adventure[world]:0005/look
 ~
 ~
 0 0 5
 D3
+adventure[world]:0003/look
 ~
 ~
 0 0 3
 S
 #5
 The Builder Academy Implementation~
-   Here at The Builder Academy we try not to restrict builders with rules and
-regulations. But, some are required in order to make this place run smoothly.
-Please realize we handle a lot of newbie builders with a very minimal staff so
-be patient, learn to use the helpfiles and have fun.
-   Read the following help files on TBA's training process:
-@RHELP TRIALROOM
-HELP REPORT-EXAMPLE
-HELP LEVEL
-HELP ADVERTISING@n
+adventure[world]:0005/main
 ~
 0 8 0 0 0 0
 D1
+adventure[world]:0006/look
 ~
 ~
 0 0 6
 D3
+adventure[world]:0003/look
 ~
 ~
 0 0 4
 S
 #6
 Building~
-   This hallway running west to east is the route you will advance after
-completing each hallway leading off to the north (if there is one) @RHELP TBAMAP@n.
-   The first thing all builders need to realize is that their area is not going
-to be the best, and it is not going to have the best equipment or toughest mobs
-in the game.  All new builders want to make a piece of equipment that is better
-than any other and they all want the large group of players to remember the
-trials and tribulations they went through while trying to kill a mob that they
-have created.  If you are a veteran of any MUD, you know that the toughest mobs
-have already been made, and to try to create a mob that is tougher is almost
-impossible and will only duplicate existing mobs, or throw off the balance of
-the game. So start out small and do not expect to create a perfect zone the
-first time around. Do not make anything super-powerful. It will not be allowed
-and you will have to redo it, wasting everyone's time, both yours and ours.
-   Read the following help files:
-@RHELP BUILDER
-HELP PREREQUISITE
-HELP BALANCE
-HELP BREATHE@n
+adventure[world]:0006/main
 ~
 0 8 0 0 0 0
 D0
