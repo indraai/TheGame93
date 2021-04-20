@@ -575,10 +575,10 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = REDIT_DESC;
       clear_screen(d);
       send_editor_help(d);
-      write_to_output(d, "\nRoom description:\r");
+      write_to_output(d, "\n## Room description:\r");
 
       if (OLC_ROOM(d)->description) {
-	      write_to_output(d, "%s", OLC_ROOM(d)->description);
+	      write_to_output(d, "descrip[::%s::]", OLC_ROOM(d)->description);
         oldtext = strdup(OLC_ROOM(d)->description);
       }
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);
