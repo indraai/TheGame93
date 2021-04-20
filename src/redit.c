@@ -318,15 +318,14 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 
   clear_screen(d);
   write_to_output(d,
-	  "\n'1) keywords': %s\n\r"
-	  "\n'2) description': %s\n\r",
+    "\n## Extra Description\r"
+	  "\ninput[1:keyword]:%s\r"
+	  "\ndescrip[2:description]: %s\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
 
-  write_to_output(d,
-    !extra_desc->next ? "\nmenu[New Description]:3\r" : "\nmenu[Next Description]:3\r"
-    );
+  write_to_output(d, !extra_desc->next ? "\nmenu[New Description]:3\r" : "\nmenu[Next Description]:3\r");
 
   write_to_output(d, "\nmenu[Done]:Q\n\r");
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
