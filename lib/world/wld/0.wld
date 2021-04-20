@@ -49,7 +49,7 @@ D0
 S
 T 199
 #3
-The Builder Academy~
+Builder Academy~
 adventure[world]:0003/main
 ~
 0 8 0 0 0 0
@@ -704,14 +704,14 @@ D2
 ~
 0 0 98
 E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 $~
