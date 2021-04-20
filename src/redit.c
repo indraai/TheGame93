@@ -325,10 +325,10 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 	  );
 
   write_to_output(d,
-    !extra_desc->next ? "\n\nmenu[3) New Description]:3\n\r" : "\n\nmenu[Next Description]:3\n\r"
+    !extra_desc->next ? "\nmenu[New Description]:3\r" : "\nmenu[Next Description]:3\r"
     );
 
-  write_to_output(d, "\nmenu[Quit]:q\n\r");
+  write_to_output(d, "\nmenu[Done]:Q\n\r");
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
 }
 
@@ -364,7 +364,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\n'4) Key': %d\n\r"
 	  "\n'5) Door flags': '%s'\n\r"
 	  "\n'6) Purge exit': Purge exit from room.\n\r"
-	  "\nmenu[Quit]:0\n\r",
+	  "\nmenu[Done]:0\n\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
 	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
