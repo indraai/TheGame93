@@ -381,11 +381,11 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
   write_to_output(d,
-    "\nmenu[0) No door]:0\r\n"
-	  "\nmenu[1) Closeable door]:1\r\n"
-    "\nmenu[2) Pickproof Door]:2\r\n"
-    "\nmenu[3) Hidden Door]:3\r\n"
-    "\nmenu[4) Hidden, Pickproof Door]:4\r\n");
+    "\nmenu[No Door]:0\r\n"
+	  "\nmenu[Closeable Door]:1\r\n"
+    "\nmenu[Pickproof Door]:2\r\n"
+    "\nmenu[Hidden Door]:3\r\n"
+    "\nmenu[Hidden, Pickproof Door]:4\r\n");
 }
 
 /* For room flags. */
@@ -396,15 +396,15 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Room Flags\n\r");
+  write_to_output(d, "\n## Room Flags\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", room_bits[i], ++count);
+    write_to_output(d, "\nmenu[%s]:%d\r", room_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n'Room flags': %s\n\r", bits);
-  write_to_output(d, "\nmenu[Done]:Q\r\n");
+  write_to_output(d, "\n'Room flags': %s\r", bits);
+  write_to_output(d, "\nmenu[Done]:Q\r");
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -419,7 +419,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Sector Types\n\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", sector_types[i], ++count);
+    write_to_output(d, "\nmenu[%s]:%d\r", sector_types[i], ++count);
   }
   OLC_MODE(d) = REDIT_SECTOR;
 }
@@ -443,7 +443,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\n'zone': %d\r"
       "\n## Details\r"
       "\ninput[1:Name]: %s\r"
-      "\nselect[2:Description]: %s\r"
+      "\descrip[2:Description]: %s\r"
       "\nselect[3:Room Flags]: %s\r"
       "\nselect[4:Sectory Type]: %s\r",
       room->name,
@@ -753,8 +753,8 @@ void redit_parse(struct descriptor_data *d, char *arg)
       send_editor_help(d);
       write_to_output(d, "\nExit description:\r");
       if (OLC_EXIT(d)->general_description) {
-	write_to_output(d, "%s", OLC_EXIT(d)->general_description);
-	oldtext = strdup(OLC_EXIT(d)->general_description);
+        write_to_output(d, "%s", OLC_EXIT(d)->general_description);
+        oldtext = strdup(OLC_EXIT(d)->general_description);
       }
       string_write(d, &OLC_EXIT(d)->general_description, MAX_EXIT_DESC, 0, oldtext);
       return;
