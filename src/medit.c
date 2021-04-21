@@ -313,7 +313,7 @@ static void medit_disp_positions(struct descriptor_data *d)
     write_to_output(d, "\nmenu[%s]:%d", position_types[i], ++count);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "\nmenu[Quit]:Q\r\n");
+  write_to_output(d, "\nmenu[done]:Q\r\n");
 }
 
 /* Display the gender of the mobile. */
@@ -327,7 +327,7 @@ static void medit_disp_sex(struct descriptor_data *d)
     write_to_output(d, "\nmenu[%s]:%d", genders[i], ++count);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\nmenu[Quit]:Q\r\n");
+  write_to_output(d, "\nmenu[done]:Q\r\n");
 }
 
 /* Display attack types menu. */
@@ -341,7 +341,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, i);
   }
-  write_to_output(d, "\nmenu[Quit]:Q\r\n");
+  write_to_output(d, "\nmenu[done]:Q\r\n");
 }
 
 /* Find mob flags that shouldn't be set by builders */
@@ -387,7 +387,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### NPC Flags");
+  write_to_output(d, "\n### NPC Flags\r");
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
@@ -395,8 +395,8 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s\r\n", flags);
-  write_to_output(d, "\nmenu[Quit]:Q");
+  write_to_output(d, "\nflags: %s\r", flags);
+  write_to_output(d, "\nmenu[done]:Q\r");
 }
 
 /* Display affection flags menu. */
@@ -408,17 +408,17 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   /*get_char_colors(d->character);*/
   clear_screen(d);
 
-  write_to_output(d, "\n### AFF Flags");
+  write_to_output(d, "\n### AFF Flags\r");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", affected_bits[i], ++count);
+    write_to_output(d, "\nmenu[%s]:%d\r", affected_bits[i], ++count);
   }
 
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s\r\n", flags);
-  write_to_output(d, "\nmenu[Quit]:Q");
+  write_to_output(d, "\nflags: %s\r", flags);
+  write_to_output(d, "\nmenu[done]:Q\r");
 }
 
 /* Display main menu. */
@@ -460,7 +460,6 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\nmenu[stats menu]:9\r"
     "\nmenu[copy mobile]:W\r"
 	  "\nmenu[delete mobile]:X\r"
-    "\n==\n"
 	  "\nmenu[quit]:Q\r",
 
 	  position_types[(int)GET_POS(mob)],
@@ -513,7 +512,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   );
 
   write_to_output(d,
-    "\n### Misc."
+    "\n### General"
     "\n'A) Armor Class': %d\r\n"
     "\n'B) Exp Points': %d\r\n"
     "\n'C) Gold': %d\r\n"
@@ -530,6 +529,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
+    "\n## Advanced\r"
     "\n'F) Str': %d|%d\r\n"
     "\n'G) Int': %d\r\n"
     "\n'L) Paralysis': %d\r\n"
@@ -556,7 +556,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\nmenu[Quit]:Q\r\n");
+  write_to_output(d, "\nmenu[done]:Q\r\n");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
