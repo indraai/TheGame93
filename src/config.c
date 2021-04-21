@@ -261,22 +261,18 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"menu[Enter The Adventure]:1 \n\r"
-"menu[Exit The Adventure]:0\n\r"
-"menu[Read The Story]:3 \n\r"
-"menu[Change Your Description]:2 \n\r"
-"menu[Change Your Password]:4 \n\r"
-"menu[Delete Your Character]:5 \n\r";
+"\nmenu[enter the adventure]:1\r"
+"\nmenu[the story]:3\r"
+"\nmenu[change description]:2\r"
+"\nmenu[change password]:4\r"
+"\nmenu[delete character]:5\r"
+"\nmenu[exit]:0\r";
 
 const char *WELC_MESSG =
-"\r\n"
-"Welcome to tbaMUD!  May your visit here be... Enlightening"
-"\r\n\r\n";
+"\nWelcome to TheGame93!  May your adventure here be... EXCELLENT!\r";
 
 const char *START_MESSG =
-"Welcome.  This is your new tbaMUD character!  You can now earn gold,\r\n"
-"gain experience, find weapons and equipment, and much more -- while\r\n"
-"meeting people from around the world!\r\n";
+"\nWelcome.  This is your new deva!  You can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
@@ -294,7 +290,7 @@ int display_closed_doors = YES;
 
 /* Automap and map options */
 /* Default is to have automap and map command only enabled for immortals */
-int map_option = MAP_IMM_ONLY;
+int map_option = MAP_ON;
 int default_map_size = 6;
 int default_minimap_size = 2;
 
