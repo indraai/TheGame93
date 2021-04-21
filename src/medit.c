@@ -436,7 +436,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[1:gender]: %s\r"
   "\ninput[2:keywords]: %s\r"
   "\ninput[3:s-desc]: %s\r"
-  "\ninput[4:l-desc4) L-Desc': %s\r"
+  "\ninput[4:l-desc4]: %s\r"
   "\ndescrip[5:d-desc]: %s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
