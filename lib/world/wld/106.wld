@@ -698,10 +698,7 @@ D2
 S
 #10641
 Agency: Elcardo~
-   You are in the main entrance to the poor shack that was being guarded by two
-teenage kids.  What could they possibly be guarding you wonder.  There are
-doors to the west and east of you and also a large solid stone door to the
-north.
+adventure[world]:10641/main
 ~
 106 8 0 0 0 0
 D0
@@ -724,6 +721,11 @@ adventure[world]:10642/look
 ~
 ~
 0 0 10642
+D5
+adventure[world]:10646/look
+~
+~
+1 0 10646
 S
 #10642
 Agency: Barracks~
@@ -766,10 +768,6 @@ D1
 ~
 ~
 0 0 10643
-D5
-~
-~
-0 0 10646
 S
 #10645
 Agency: Administration~
@@ -803,10 +801,10 @@ adventure[world]:10647/look
 ~
 0 0 10647
 D4
-adventure[world]:10644/look
+adventure[world]:10641/look
 ~
 ~
-0 0 10644
+1 0 10641
 S
 #10647
 Agency: War Room~
