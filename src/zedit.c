@@ -76,11 +76,11 @@ ACMD(do_oasis_zedit)
       }
     } else if (GET_LEVEL(ch) >= LVL_IMPL) {
       if (str_cmp("new", buf1) || !stop || !*stop)
-        send_to_char(ch, "Format: zedit new <zone number> <bottom-room> "
+        send_to_char(ch, "format: zedit new <zone number> <bottom-room> "
            "<upper-room>\r\n");
       else {
         if (atoi(stop) < 0 || atoi(sbot) < 0) {
-          send_to_char(ch, "Zones cannot contain negative vnums.\r\n");
+          send_to_char(ch, "\nerror: Zones cannot contain negative vnums.\r");
           return;
         }
         number = atoidx(buf2);
@@ -97,7 +97,7 @@ ACMD(do_oasis_zedit)
       return;
 
     } else {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+      send_to_char(ch, "\nerror: Stop that, someone will get hurt.\r");
       return;
     }
   }
@@ -110,7 +110,7 @@ ACMD(do_oasis_zedit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_ZEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That zone is currently being edited by %s.\r\n",
+        send_to_char(ch, "\nerror: That zone is currently being edited by %s.\r",
           PERS(d->character, ch));
         return;
       }
@@ -132,7 +132,7 @@ ACMD(do_oasis_zedit)
   /* Find the zone. */
   OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
   if (OLC_ZNUM(d) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+    send_to_char(ch, "\nerror: Sorry, there is no zone for that number.\r");
 
     /* Free the descriptor's OLC structure. */
     free(d->olc);
@@ -314,12 +314,12 @@ static void zedit_save_internally(struct descriptor_data *d)
       case 'E':
         if (mobloaded)
           break;
-        write_to_output(d, "Equip/Give command not saved since no mob was loaded first.\r\n");
+        write_to_output(d, "\nerror: Equip/Give command not saved since no mob was loaded first.\r");
         continue;
       case 'P':
         if (objloaded)
           break;
-        write_to_output(d, "Put command not saved since another object was not loaded first.\r\n");
+        write_to_output(d, "error: Put command not saved since another object was not loaded first.\r");
         continue;
       /* Pass cases. */
       case 'M':
@@ -374,13 +374,17 @@ static int start_change_command(struct descriptor_data *d, int pos)
 static void zedit_disp_flag_menu(struct descriptor_data *d)
 {
   char bits[MAX_STRING_LENGTH];
-
+  int i, count = 0;
   clear_screen(d);
-  column_list(d->character, 0, zone_bits, NUM_ZONE_FLAGS, TRUE);
+  write_to_output(d, "\n## Zone Flags");
+  for (i = 0; i < ZN_ARRAY_MAX; i++) {
+    write_to_output(d, "\nmenu[%s]:%d\r", zone_bits[i], ++count);
+  }
 
   sprintbitarray(OLC_ZONE(d)->zone_flags, zone_bits, ZN_ARRAY_MAX, bits);
-  write_to_output(d, "\r\nZone flags: \tc%s\tn\r\n"
-         "Enter Zone flags, 0 to quit : ", bits);
+  write_to_output(d,
+    "\nflags: %s\r"
+    "\nmenu[close]:0\r", bits);
   OLC_MODE(d) = ZEDIT_ZONE_FLAGS;
 }
 
@@ -541,7 +545,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu[insert command]:N\r"
 	  "\nmenu[edit command]:E\r"
 	  "\nmenu[delete command]:D\r"
-	  "\nmenu[Quit]:Q\r");
+	  "\nmenu[quit]:Q\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }

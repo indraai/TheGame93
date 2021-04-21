@@ -939,19 +939,18 @@ void dg_olc_script_copy(struct descriptor_data *d)
 void dg_script_menu(struct descriptor_data *d)
 {
   struct trig_proto_list *editscript;
-  int i = 0;
 
   /* make sure our input parser gets used */
   OLC_MODE(d) = OLC_SCRIPT_EDIT;
   OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
 
   clear_screen(d);
-  write_to_output(d, "\n### Triggers\r\n");
+  write_to_output(d, "\n### Triggers\r");
 
   editscript = OLC_SCRIPT(d);
 
   while (editscript) {
-    write_to_output(d, "\n%d) [%d] %s\r\n", ++i,
+    write_to_output(d, "\n%d: %s\r",
       editscript->vnum,
       trig_index[real_trigger(editscript->vnum)]->proto->name);
 
@@ -964,12 +963,12 @@ void dg_script_menu(struct descriptor_data *d)
     editscript = editscript->next;
   }
   if (i==0)
-    write_to_output(d, "\n<none>\r\n");
+    write_to_output(d, "\n<none>\r");
 
   write_to_output(d,
-    "\nmenu[Attach Trigger]:N\r\n"
-    "\nmenu[Detach Trigger]:X\r\n"
-    "\nmenu[Quit]:Q\r\n");
+    "\nmenu[attack trigger]:N\r"
+    "\nmenu[detach trigger]:X\r"
+    "\nmenu[close]:Q\r");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
