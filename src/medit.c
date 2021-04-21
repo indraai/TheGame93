@@ -456,9 +456,11 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[A:npc flags]: %s\r"
 	  "\nselect[B:aff flags]: %s\r"
     "\nselect[S:script]: %s\r"
+    "\n==\n"
     "\nmenu[stats menu]:9\r"
     "\nmenu[copy mobile]:W\r"
 	  "\nmenu[delete mobile]:X\r"
+    "\n==\n"
 	  "\nmenu[quit]:Q\r",
 
 	  position_types[(int)GET_POS(mob)],
