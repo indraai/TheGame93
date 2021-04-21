@@ -428,7 +428,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\n'number': %d\r"
     "\n'zone': %d\r"
 	  "\ninput[1:builders]: %s\r"
-	  "\ninput[Z:zone name]:: %s\r"
+	  "\ninput[Z:zone name]: %s\r"
 	  "\ninput[L: lifespan]: %d\r"
 	  "\ninput[B: zone bottom]: %d\r"
 	  "\ninput[T: zone top]: %d\r"
