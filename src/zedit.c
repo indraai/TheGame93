@@ -538,11 +538,10 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu[insert command]:N\n\r"
-	  "\nmenu[edit command]:E\n\r"
-	  "\nmenu[delete command]:D\n\r"
-	  "\n\n\nmenu[Quit]:Q\r"
-	  );
+	  "\nmenu[insert command]:N\r"
+	  "\nmenu[edit command]:E\r"
+	  "\nmenu[delete command]:D\r"
+	  "\nmenu[Quit]:Q\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
