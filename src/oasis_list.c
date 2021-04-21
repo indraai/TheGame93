@@ -782,7 +782,7 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
 
   for (i = 0; i <= top_of_zone_table; i++) {
     bool znum = zone_table[i].number >= bottom && zone_table[i].number <= top;
-    if (zone_table[i].number >= bottom && zone_table[i].number <= top) {
+    if (znum) {
       if ((!use_name) || (is_name(name, zone_table[i].builders))) {
         counter++;
 
