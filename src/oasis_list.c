@@ -785,9 +785,9 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
       if ((!use_name) || (is_name(name, zone_table[i].builders))) {
         counter++;
 
-        tmp_len = snprintf(buf+len, sizeof(buf)-len, "[%d] %-1s%s\r",
+        tmp_len = snprintf(buf+len, sizeof(buf)-len, "[%d] %-1s%s\r\n",
             zone_table[i].number, zone_table[i].name,
-            zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
+            QYEL, zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
         len += tmp_len;
         if (len > sizeof(buf))
           break;
