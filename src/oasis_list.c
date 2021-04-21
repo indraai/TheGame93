@@ -782,17 +782,15 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
 
   for (i = 0; i <= top_of_zone_table; i++) {
     bool znum = zone_table[i].number >= bottom && zone_table[i].number <= top;
-    if (znum) {
-      if ((!use_name) || (is_name(name, zone_table[i].builders))) {
-        counter++;
-
-        tmp_len = snprintf(buf+len, sizeof(buf)-len, "[%s%3d%s] %s%-*s %s%-1s%s\r\n",
-            QGRN, zone_table[i].number, QNRM, QCYN, count_color_chars(zone_table[i].name)+30, zone_table[i].name,
-            QYEL, zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
-        len += tmp_len;
-        if (len > sizeof(buf))
-          break;
-      }
+    bool zname = (!use_name) || (is_name(name, zone_table[i].builders));
+    if (znum && zname) {
+      counter++;
+      tmp_len = snprintf(buf+len, sizeof(buf)-len, "%d] %s%-*s %s%-1s%s\r\n",
+          zone_table[i].number, count_color_chars(zone_table[i].name)+30, zone_table[i].name,
+          QYEL, zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
+      len += tmp_len;
+      if (len > sizeof(buf))
+        break;
     }
   }
 
