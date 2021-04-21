@@ -435,7 +435,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[R:reset mode]: %s\r"
 	  "\nselect[F:zone flags]: %s\r"
 	  "\nselect[M:level range]: %s\r"
-	  "\n## Command list\r",
+	  "\n## Commands\r",
 
     OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
 	  OLC_NUM(d),
@@ -538,9 +538,9 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu[N. Insert a Command]:N\n\r"
-	  "\nmenu[E. Edit a Command]:E\n\r"
-	  "\nmenu[D. Delete a Command]:D\n\r"
+	  "\nmenu[insert command]:N\n\r"
+	  "\nmenu[edit command]:E\n\r"
+	  "\nmenu[delete command]:D\n\r"
 	  "\n\n\nmenu[Quit]:Q\r"
 	  );
 
