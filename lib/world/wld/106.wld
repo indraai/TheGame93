@@ -727,7 +727,7 @@ adventure[world]:10642/look
 S
 #10642
 Agency: Barracks~
-adventure[world]:6042/main
+adventure[world]:10642/main
 ~
 106 8 0 0 0 0
 D1
@@ -750,7 +750,7 @@ D1
 adventure[world]:10642/look
 ~
 ~
-1 0 10642
+0 0 10642
 D3
 adventure[world]:10644/look
 ~
