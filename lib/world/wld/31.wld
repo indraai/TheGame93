@@ -1139,9 +1139,9 @@ adventure[world]:7827/look
 door:7827~
 1 -1 7827
 D3
-adventure[world]:10643/look
+adventure[world]:10641/look
 ~
-door:10643~
+door:10641~
 1 -1 10643
 D5
 adventure[world]:3149/look

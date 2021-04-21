@@ -697,7 +697,7 @@ D2
 0 0 10615
 S
 #10641
-Inside the Shack~
+Agency: Elcardo~
    You are in the main entrance to the poor shack that was being guarded by two
 teenage kids.  What could they possibly be guarding you wonder.  There are
 doors to the west and east of you and also a large solid stone door to the
@@ -710,57 +710,59 @@ A large solid stone door.
 solid stone door~
 1 0 10645
 D1
+adventure[world]:3156/look
 ~
-~
-0 0 10643
+door:3156~
+1 0 3156
 D2
+adventure[world]:10626/look
 ~
 ~
 0 0 10626
 D3
+adventure[world]:10642/look
 ~
 ~
 0 0 10642
 S
 #10642
-Barracks~
-   There are bunk beds all around you.  Extra spears and other weapons lie in
-the corner of the room.  Some teenage children are sleeping in the bunks while
-some are choosing a weapon.  Should You really be here...
+Agency: Barracks~
+adventure[world]:6042/main
 ~
 106 8 0 0 0 0
 D1
+adventure[world]:10641/look
 ~
 ~
 0 0 10641
+D3
+adventure[world]:10643/look
+~
+~
+0 0 10643
 S
 #10643
-BackpackBoys Clubhouse~
+Agency: Barracks~
 adventure[world]:10643/main
 ~
 106 152 0 0 0 0
 D1
-adventure[world]:3156/look
+adventure[world]:10642/look
 ~
-door:3156~
-1 0 3156
+~
+1 0 10642
 D3
-~
-~
-1 0 10641
-D5
+adventure[world]:10644/look
 ~
 ~
 1 0 10644
 S
 #10644
-An Empty Room~
-   The room is very VERY small and there is almost nothing in it.  The walls
-are very dirty and the floor is made of dirt.  A shudder goes through your
-spine, You can sense the hatred in this place.
+Agency: Barracks~
+adventure[world]:10644/main
 ~
 106 9 0 0 0 0
-D4
+D1
 ~
 ~
 0 0 10643
@@ -770,38 +772,38 @@ D5
 0 0 10646
 S
 #10645
-Chambers of Sujin Suncas~
-   The rebel headquarters run by Sujin Suncas is more run-down than would be
-expected.  It appears he lacks the financial support to carry out a successful
-rebellion.  Rebellions never last very long once people start starving.
-Perhaps that is the Mayor's strategy.  A few wooden chairs are placed around an
-empty table.
+Agency: Administration~
+adventure[world]:10645/main
 ~
 106 9 0 0 0 0
 D2
-A solid stone door.
+adventure[world]:10645/door
 ~
-door~
+door:10645~
 1 0 10641
 S
 #10646
-Agency: Entrance~
+Agency: Facility~
 adventure[world]:10646/main
 ~
 106 184 0 0 0 0
 D0
+adventure[world]:10649/look
 ~
 ~
 0 0 10649
 D1
+adventure[world]:10648/look
 ~
 ~
 0 0 10648
 D3
+adventure[world]:10647/look
 ~
 ~
 0 0 10647
 D4
+adventure[world]:10644/look
 ~
 ~
 0 0 10644
@@ -812,6 +814,7 @@ adventure[world]:10647/main
 ~
 106 184 0 0 0 0
 D1
+adventure[world]:10646/look
 ~
 ~
 0 0 10646
@@ -822,6 +825,7 @@ adventure[world]:10648/main
 ~
 106 184 0 0 0 0
 D3
+adventure[world]:10646/look
 ~
 door:10646~
 1 0 10646
@@ -832,14 +836,17 @@ adventure[world]:10649/main
 ~
 106 184 0 0 0 0
 D0
+adventure[world]:10651/look
 ~
 ~
 0 0 10651
 D2
+adventure[world]:10646/look
 ~
 ~
 0 0 10646
 D3
+adventure[world]:10650/look
 ~
 ~
 0 0 10650
@@ -850,6 +857,7 @@ adventure[world]:10650/main
 ~
 106 184 0 0 0 0
 D1
+adventure[world]:10649/look
 ~
 door:10649~
 1 0 10649
@@ -861,18 +869,22 @@ adventure[world]:10651/main
 ~
 106 184 0 0 0 0
 D0
+adventure[world]:10654/look
 ~
 ~
 0 0 10654
 D1
+adventure[world]:10653/look
 ~
 ~
 0 0 10653
 D2
+adventure[world]:10649/look
 ~
 ~
 0 0 10649
 D3
+adventure[world]:10652/look
 ~
 ~
 0 0 10652
@@ -883,6 +895,7 @@ adventure[world]:10652/main
 ~
 106 760 0 0 0 0
 D1
+adventure[world]:10651/look
 ~
 door:10651~
 1 0 10651
@@ -893,6 +906,7 @@ adventure[world]:10653/main
 ~
 106 760 0 0 0 0
 D3
+adventure[world]:10651/look
 ~
 door:10651~
 1 0 10651
@@ -903,6 +917,7 @@ adventure[world]:10654/main
 ~
 106 760 0 0 0 0
 D2
+adventure[world]:10651/look
 ~
 door:10651~
 1 0 10651
