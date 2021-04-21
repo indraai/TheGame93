@@ -425,17 +425,17 @@ static void zedit_disp_menu(struct descriptor_data *d)
   /* Menu header */
   send_to_char(d->character,
     "\n# %s\n\r"
-	  "\n'number': %d\n\r"
-    "\n'zone': %d\n\r"
-	  "\n'1) builders': %s\n\r"
-	  "\n'Z) Zone name': %s\n\r"
-	  "\n'L) Lifespan': %d minutes\n\r"
-	  "\n'B) Zone Bottom': %d\n\r"
-	  "\n'T) Zone Top': %d\n\r"
-	  "\n'R) Reset Mode': %s\n\r"
-	  "\n'F) Zone Flags': %s\n\r"
-	  "\n'M) Level Range': %s\n\r"
-	  "\n\n\n### Command list\n\r",
+	  "\n'number': %d\r"
+    "\n'zone': %d\r"
+	  "\ninput[1:builders]: %s\r"
+	  "\ninput[Z:zone name]:: %s\r"
+	  "\ninput[L: lifespan]: %d\r"
+	  "\ninput[B: zone bottom]: %d\r"
+	  "\ninput[T: zone top]: %d\r"
+	  "\nselect[R: reset mode]: %s\r"
+	  "\nselect[F: zone flags]: %s\r"
+	  "\nselect[M: level range]: %s\r"
+	  "\n## Command list\r",
 
     OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
 	  OLC_NUM(d),
