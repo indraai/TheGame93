@@ -962,11 +962,9 @@ void dg_script_menu(struct descriptor_data *d)
     */
     editscript = editscript->next;
   }
-  if (i==0)
-    write_to_output(d, "\n<none>\r");
 
   write_to_output(d,
-    "\nmenu[attack trigger]:N\r"
+    "\nmenu[attach trigger]:N\r"
     "\nmenu[detach trigger]:X\r"
     "\nmenu[close]:Q\r");
 }
