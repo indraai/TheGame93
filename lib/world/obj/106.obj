@@ -211,13 +211,13 @@ A
 A
 14 -50
 #10624
-torture rack~
-a torture rack~
-A torture rack stands here.~
+server rack~
+SR10624 Server Rack~
+SR10624 Server Rack is here.~
 ~
-12 0 0 0 0 0 0 0 0 0 0 0 0
+12 ab 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+930 0 0 0 0
 E
 torture rack~
    An old and blood stained sticky torture rack buckles up and ready to split

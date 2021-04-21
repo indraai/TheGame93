@@ -735,26 +735,23 @@ D1
 0 0 10641
 S
 #10643
-Agency: Elcardo~
-   Bunk beds everywhere, clothes neatly folded in separate piles.  These
-children look very tired and look as though they are far over-worked.  A Young
-child quietly crys on a bunk to your left, all he really needs is some comfort.
-An open hatch leads down.
+BackpackBoys Clubhouse~
+adventure[world]:10643/main
 ~
-106 8 0 0 0 0
+106 152 0 0 0 0
 D1
 adventure[world]:3156/look
 ~
-~
-0 -1 3156
+door:3156~
+1 0 3156
 D3
 ~
 ~
-0 0 10641
+1 0 10641
 D5
 ~
 ~
-0 0 10644
+1 0 10644
 S
 #10644
 An Empty Room~
@@ -788,12 +785,10 @@ door~
 1 0 10641
 S
 #10646
-Entrance to the Dungeon~
-   The smell of old bones and rotting flesh fills your nose.  There are puddles
-of a brownish liquid on the floor and stains of blood on the walls.  The sound
-of moaning rings through-out the dungeon.
+Agency: Entrance~
+adventure[world]:10646/main
 ~
-106 9 0 0 0 0
+106 184 0 0 0 0
 D0
 ~
 ~
@@ -812,37 +807,30 @@ D4
 0 0 10644
 S
 #10647
-Death Chamber~
-   This cramped room has a very strong odor of decay to it.  It is not pleasant
-at all.  You wonder why the citizens of Elcardo would allow people to be
-imprisoned down here in the dungeons.
+Agency: War Room~
+adventure[world]:10647/main
 ~
-106 9 0 0 0 0
+106 184 0 0 0 0
 D1
 ~
 ~
 0 0 10646
 S
 #10648
-Torture Room~
-   Strange devices used for torture are scattered all around the room.  Why
-would they torture people in a dungeon, Sick SICK people.  It appears that
-there are some bodies still alive in here.
+Agency: Server Room~
+adventure[world]:10648/main
 ~
-106 9 0 0 0 0
+106 184 0 0 0 0
 D3
 ~
-~
-0 0 10646
+door:10646~
+1 0 10646
 S
 #10649
-Dungeon Hallway~
-   You do not feel safe at all when you are down here all alone.  There are a
-few small candles mounted on the dungeon walls just enough light to see your
-own hands but thats about the only thing visible.  A gaping hole in the dungeon
-floor to the west looks bottomless.
+Agency: Hallway~
+adventure[world]:10649/main
 ~
-106 0 0 0 0 0
+106 184 0 0 0 0
 D0
 ~
 ~
@@ -857,20 +845,21 @@ D3
 0 0 10650
 S
 #10650
-Body Count~
-   FALLING, FELL, NEAR-DEAD!  Should have read the room descriptions.
+Agency: Surveillance~
+adventure[world]:10650/main
 ~
-106 165 0 0 0 0
+106 184 0 0 0 0
+D1
+~
+door:10649~
+1 0 10649
 S
 T 10601
 #10651
-Dungeon Hallway~
-   There are rooms and chambers to the left and right of you, this way and that
-way.  You do not feel safe at all when you are down here all alone.  There are
-a few small candles mounted on the dungeon walls just enough light to see your
-own hands but thats about the only thing visible.
+Agency: Hallway~
+adventure[world]:10651/main
 ~
-106 8 0 0 0 0
+106 184 0 0 0 0
 D0
 ~
 ~
@@ -889,42 +878,34 @@ D3
 0 0 10652
 S
 #10652
-A Black Cell~
-   This is a the scariest room of all.  There is no light AT ALL.  You can feel
-your heart pounding as you look around the room trying to see if something is
-here...  Is alive.
+Agency: Secure Room~
+adventure[world]:10652/main
 ~
-106 9 0 0 0 0
+106 760 0 0 0 0
 D1
 ~
-~
-0 0 10651
+door:10651~
+1 0 10651
 S
 #10653
-Suncas Jail Cell.~
-   This large room with earthen walls has been equipped with shackles for both
-hands and feet.  They seem to have been driven into the walls on long steel
-poles.  A few leg shackles are scattered about the center of the room.  This
-appears to be a jail cell for prisoners.
+Agency: Secure Room~
+adventure[world]:10653/main
 ~
-106 9 0 0 0 0
+106 760 0 0 0 0
 D3
 ~
-~
-0 0 10651
+door:10651~
+1 0 10651
 S
 #10654
-The Guard Room~
-   Blood and guts are all over the floor and walls in this room.  It looks as
-though a few prisoners escaped and came after the guards.  It is even more
-gross that part of the guts have been eaten.  They must not feed the prisoners
-very well.
+Agency: Secure Room~
+adventure[world]:10654/main
 ~
-106 8 0 0 0 0
+106 760 0 0 0 0
 D2
 ~
-~
-0 0 10651
+door:10651~
+1 0 10651
 S
 #10655
 A Path between Hannah and Elcardo~

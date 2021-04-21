@@ -18,15 +18,13 @@ Int: 3
 Wis: 3
 E
 #10603
-executioner~
-the executioner~
-The Executioner stands here waiting for his next beheading.
+deva security securitydeva sd10603~
+SD10603 SecurityDEVA~
+SD10603 SecurityDEVA is here.
 ~
-   A black hood covers his entire face.  Three holes have been cut out of the
-dark cloth.  The eyes peering out behind the mask look to be slightly crazed and
-definitely blood thirsty.
+An undefined string.
 ~
-254010 0 0 0 8312 0 0 0 0 E
+260424 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1
@@ -135,18 +133,17 @@ than not this includes crushing any rebel uprisings.
 8 8 1
 E
 #10613
-sick dying man~
-a sick and dying man~
-A man is slowly dying from loss of blood.
+deva security securitydeva sd10613~
+SD10613 SecurityDEVA is here.~
+SD16013 SecurityDEVA is protecting the realm.
 ~
-   Wounds cover his body.  Some from whips, others from jagged blades, and still
-others from piercing weapons and hot brands.  This poor soul looks to have been
-broken with pain to spill his guts and tell his story.
+SD10613 SecurityDEVA is here and ready to protect the realm.
 ~
-10 0 0 0 0 0 0 0 0 E
+260440 0 0 0 8312 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
-2 6 1
+8 6 1
+BareHandAttack: 6
 E
 #10614
 grandfather sunshine~
@@ -167,15 +164,13 @@ Int: 15
 Wis: 15
 E
 #10615
-political prisoner parliaments elcardorian~
-a political prisoner~
-A member of the Elcardorian parliaments stands before you, now as a prisoner.
+deva security securitydeva sd10615~
+SD10605 SecurityDEVA~
+SD10615 SecurityDEVA is here.
 ~
-   At one time this guy used to stick his nose up in the air believing that he
-was above the law because of his position he held within the government.  Now he
-has been humbled by chains and torture.
+An undefined string.
 ~
-10 0 0 0 0 0 0 0 0 E
+260440 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1

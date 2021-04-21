@@ -415,12 +415,12 @@ adventure[world]:30600/look
 ~
 0 -1 30600
 E
-sign~
-adventure[world]:3120/sign
-~
-E
 tree~
 adveenture:3120/tree
+~
+E
+sign~
+adventure[world]:3120/sign
 ~
 S
 #3121
@@ -720,16 +720,16 @@ adventure[world]:3117/look
 ~
 0 -1 3117
 E
-chair chairs~
-adventure[world]:3137/chair
+typewriter~
+adventure[world]:3137/typewriter
 ~
 E
 desk~
 adventure[world]:3137/desk
 ~
 E
-typewriter~
-adventure[world]:3137/typewriter
+chair chairs~
+adventure[world]:3137/chair
 ~
 S
 #3138
@@ -743,12 +743,12 @@ adventure[world]:3137/look
 ~
 0 -1 3137
 E
-desk~
-adventure[world]:3138/desk
-~
-E
 chair armchair~
 adventure[world]:3138/chair
+~
+E
+desk~
+adventure[world]:3138/desk
 ~
 S
 #3139
@@ -1079,36 +1079,33 @@ building.
 S
 #3154
 In Front Of The Chapel~
-   You are on an open space before a small chapel.  A gravel road leads north
-through the graveyard and the chapel entrance is to the south.
+You are on an open space before a small chapel.  A gravel road leads north through the graveyard and the chapel entrance is to the south.
 ~
 31 0 0 0 0 2
 D0
 The gravel road continues northwards.
 ~
-~
+road~
 0 -1 3153
 D2
 The chapel door is made of dark wood.
 ~
-door~
+entrance~
 1 -1 3155
 S
 #3155
 Inside The Chapel~
-   You are in a small, dark chapel.  The dark brown glass in the tiny windows
-do not let much light through.  A few rows of worn wooden benches stand here
-and an ancient altar sits in the middle of the floor.
+You are in a small, dark chapel.  The dark brown glass in the tiny windows do not let much light through. A few rows of worn wooden benches stand here and an ancient altar sits in the middle of the floor.
 ~
-31 9 0 0 0 0
+31 56 0 0 0 0
 D0
 The chapel door is made of dark wood.
 ~
-door~
+entrance~
 1 -1 3154
 E
-glass windows~
-   The windows must be meant to be dark.  At least they are completely clean.
+benches rows~
+   The benches are not of the comfortable kind.
 ~
 E
 altar~
@@ -1117,8 +1114,8 @@ notice that it seems less dusty than the rest of the room...  Someone must clean
 here regularly...  Maybe that old guy in Park Cafe, he looked like that sort...
 ~
 E
-benches rows~
-   The benches are not of the comfortable kind.
+glass windows~
+   The windows must be meant to be dark.  At least they are completely clean.
 ~
 S
 #3156
@@ -1134,23 +1131,27 @@ adventure[world]:3157/look
 D1
 adventure[world]:4000/look
 ~
-~
-0 -1 4000
+door:4000~
+1 -1 4000
 D2
 adventure[world]:7827/look
 ~
-~
-0 -1 7827
+door:7827~
+1 -1 7827
 D3
 adventure[world]:10643/look
 ~
-~
-0 -1 10643
+door:10643~
+1 -1 10643
 D5
 adventure[world]:3149/look
 ~
 ~
 0 -1 3149
+E
+extra~
+adventure[world]:3159/extra
+~
 S
 #3157
 Agency: Corridor~
