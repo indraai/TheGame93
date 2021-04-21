@@ -433,12 +433,11 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Mob %d"
-  "\n'1) Sex': %s\r\n"
-  "\n'2) Keywords': %s\r\n"
-  "\n'3) S-Desc': %s\r\n"
-  "\n'4) L-Desc': %s\r\n"
-  "\n'5) D-Desc': %s\r\n",
-
+  "\nselect[1:gender]: %s\r"
+  "\ninput[2:keywords]: %s\r"
+  "\ninput[3:s-desc]: %s\r"
+  "\ninput[4:l-desc4) L-Desc': %s\r"
+  "\ndescrip[5:d-desc]: %s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
 	  GET_ALIAS(mob),
@@ -451,16 +450,16 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\n'6) Position': %s\r\n"
-	  "\n'7) Default': %s\r\n"
-	  "\n'8) Attack': %s\r\n"
-	  "\n'A) NPC Flags': %s\r\n"
-	  "\n'B) AFF Flags': %s\r\n"
-    "\n'S) Script': %s\r\n"
-    "\nmenu[Stats Menu]:9\r\n"
-    "\nmenu[Copy Mobile]:W\r\n"
-	  "\nmenu[Delete Mobile]:X\r\n"
-	  "\nmenu[Quit]:Q\r\n",
+	  "\nselect[6:position]: %s\r"
+	  "\nselect[7:default]: %s\r"
+	  "\nselect[8:attack]: %s\r"
+	  "\nselect[A:npc flags]: %s\r"
+	  "\nselect[B:aff flags]: %s\r"
+    "\nselect[S:script]: %s\r"
+    "\nmenu[stats menu]:9\r"
+    "\nmenu[copy mobile]:W\r"
+	  "\nmenu[delete mobile]:X\r"
+	  "\nmenu[quit]:Q\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
