@@ -66,7 +66,7 @@ UD10607 UltraDEVA Commando is assigned to protect the Realm.
 72 0 0 0 0 0 0 0 200 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1
+8 8 0
 E
 #10608
 deva ultra ultradeva captain devaforce military ud10608~
@@ -78,7 +78,7 @@ The Captain of the UltraDEVA forces.
 254474 0 0 0 0 0 0 0 350 E
 10 17 4 2d2+100 1d2+1
 100 10000
-6 8 1
+6 8 0
 E
 #10609
 deva ultra ultradeeva infantry devaforce military ud10609~
@@ -90,7 +90,7 @@ UD10609 UltraDEVA Infantry is assigned to protect the Realm.
 72 0 0 0 0 0 0 0 200 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1
+8 8 0
 E
 #10610
 deva army armydeva officer devaforce military ad10610~
@@ -102,7 +102,7 @@ AD10610 ArmyDEVA Officer is assigned to protect the Realm.
 72 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 #10611
 deva army armydeva captain devaforce military ad10611~
@@ -114,7 +114,7 @@ AD10611 ArmyDEVA Captain is assigned to protect the realm.
 328 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 #10613
 deva security securitydeva sd10613~
@@ -126,7 +126,7 @@ SD10613 SecurityDEVA is assigned to protect the realm.
 260440 0 0 0 8312 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 6 1
+8 6 0
 BareHandAttack: 6
 E
 #10614
@@ -155,7 +155,7 @@ SD10616 SecurityDEVA is assigned to protect the Realm.
 260440 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 #10616
 deva guard guarddeva gd10616~
@@ -167,7 +167,7 @@ GD10606 GuardDEVA is assigned to protect the Realm.
 260168 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
 E
 #10617
 panhandler bum beggar~
