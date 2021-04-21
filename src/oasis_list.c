@@ -785,8 +785,8 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
     bool zname = (!use_name) || (is_name(name, zone_table[i].builders));
     if (znum && zname) {
       counter++;
-      tmp_len = snprintf(buf+len, sizeof(buf)-len, "\nmenu[%s (%s)]:zedit %d\r",
-          zone_table[i].name, zone_table[i].builders ? zone_table[i].builders : "None.", zone_table[i].number);
+      tmp_len = snprintf(buf+len, sizeof(buf)-len, "\n%d. %s (%s)\r",
+          zone_table[i].number, zone_table[i].name, zone_table[i].builders ? zone_table[i].builders : "None.");
       len += tmp_len;
       if (len > sizeof(buf))
         break;
