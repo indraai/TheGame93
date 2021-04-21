@@ -24,9 +24,9 @@
 #include "quest.h"
 #include "modify.h"
 #include "spells.h"
- 
+
 #define MAX_OBJ_LIST 100
- 
+
 struct obj_list_item {
   obj_vnum vobj;
   int val;
@@ -238,7 +238,7 @@ static void perform_obj_type_list(struct char_data * ch, char *arg)
           len += tmp_len;
         else {
 		  buf[sizeof(buf) -1] = '\0';
-		  break;	
+		  break;
 		}
       }
     }
@@ -601,7 +601,7 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
       }
 
       len += snprintf(buf + len, sizeof(buf) - len, "\r\n");
-      
+
       if (len > sizeof(buf))
 		break;
     }
@@ -776,8 +776,7 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
   }
 
   len = snprintf(buf, sizeof(buf),
-  "VNum  Zone Name                      Builder(s)\r\n"
-  "----- ------------------------------ --------------------------------------\r\n");
+  "\n# Zone List\r");
 
   if (!top_of_zone_table)
     return;
@@ -787,9 +786,8 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
       if ((!use_name) || (is_name(name, zone_table[i].builders))) {
         counter++;
 
-        tmp_len = snprintf(buf+len, sizeof(buf)-len, "[%s%3d%s] %s%-*s %s%-1s%s\r\n",
-            QGRN, zone_table[i].number, QNRM, QCYN, count_color_chars(zone_table[i].name)+30, zone_table[i].name,
-            QYEL, zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
+        tmp_len = snprintf(buf+len, sizeof(buf)-len, "zone[%d]:%s (%s)\r",
+            zone_table[i].number, zone_table[i].name, zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
         len += tmp_len;
         if (len > sizeof(buf))
           break;
@@ -886,8 +884,8 @@ void print_zone(struct char_data *ch, zone_vnum vnum)
     QGRN, QCYN, zone_table[rnum].top,
     QGRN, QCYN, zone_table[rnum].reset_mode ? ((zone_table[rnum].reset_mode == 1) ?
     "Reset when no players are in zone." : "Normal reset.") : "Never reset",
-    QGRN, QCYN, buf, 
-    QGRN, QCYN, zone_table[rnum].min_level, 
+    QGRN, QCYN, buf,
+    QGRN, QCYN, zone_table[rnum].min_level,
     QGRN, QCYN, zone_table[rnum].max_level,
     QGRN,
     QGRN, QCYN, size_rooms,
