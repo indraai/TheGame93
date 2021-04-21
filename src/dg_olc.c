@@ -966,7 +966,7 @@ void dg_script_menu(struct descriptor_data *d)
   write_to_output(d,
     "\nmenu[attach trigger]:N\r"
     "\nmenu[detach trigger]:X\r"
-    "\nmenu[close]:Q\r");
+    "\nmenu[done]:Q\r");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
