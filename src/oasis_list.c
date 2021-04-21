@@ -775,8 +775,7 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
       top    = zone_table[top_of_zone_table].number; /* Highest Zone */
   }
 
-  len = snprintf(buf, sizeof(buf),
-  "\n# Zone List\r");
+  len = snprintf(buf, sizeof(buf), "\n# Zone List\r");
 
   if (!top_of_zone_table)
     return;
@@ -786,8 +785,9 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
       if ((!use_name) || (is_name(name, zone_table[i].builders))) {
         counter++;
 
-        tmp_len = snprintf(buf+len, sizeof(buf)-len, "zone[%d]:%s (%s)\r",
-            zone_table[i].number, zone_table[i].name, zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
+        tmp_len = snprintf(buf+len, sizeof(buf)-len, "[%d] %s%s\r",
+            zone_table[i].number, zone_table[i].name,
+            zone_table[i].builders ? zone_table[i].builders : "None.", QNRM);
         len += tmp_len;
         if (len > sizeof(buf))
           break;
