@@ -313,7 +313,7 @@ static void medit_disp_positions(struct descriptor_data *d)
     write_to_output(d, "\nmenu[%s]:%d", position_types[i], ++count);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
 }
 
 /* Display the gender of the mobile. */
@@ -327,7 +327,7 @@ static void medit_disp_sex(struct descriptor_data *d)
     write_to_output(d, "\nmenu[%s]:%d", genders[i], ++count);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
 }
 
 /* Display attack types menu. */
@@ -341,7 +341,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, i);
   }
-  write_to_output(d, "\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
 }
 
 /* Find mob flags that shouldn't be set by builders */
@@ -396,7 +396,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\nmenu[done]:Q\r");
+  write_to_output(d, "\n==\n\nmenu[done]:Q\r");
 }
 
 /* Display affection flags menu. */
@@ -418,7 +418,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\nmenu[done]:Q\r");
+  write_to_output(d, "\n==\n\nmenu[done]:Q\r");
 }
 
 /* Display main menu. */
@@ -460,6 +460,7 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\nmenu[stats menu]:9\r"
     "\nmenu[copy mobile]:W\r"
 	  "\nmenu[delete mobile]:X\r"
+    "\n==\n"
 	  "\nmenu[quit]:Q\r",
 
 	  position_types[(int)GET_POS(mob)],
@@ -556,7 +557,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
@@ -923,7 +924,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       break;
     else if ( (j = medit_get_mob_flag_by_number(i)) == -1) {
        write_to_output(d, "Invalid choice!\r\n");
-       write_to_output(d, "Enter mob flags:\nconfig[Quit]:0");
+       write_to_output(d, "Enter mob flags:\nconfig[done]:0");
        return;
     } else if (j <= NUM_MOB_FLAGS) {
       TOGGLE_BIT_AR(MOB_FLAGS(OLC_MOB(d)), (j));
