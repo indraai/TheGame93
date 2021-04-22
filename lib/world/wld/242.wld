@@ -15,6 +15,50 @@ D2
 ~
 0 -1 24206
 E
+credits info~
+    x---------------------------------------------------------------------x
+    |            NEW SOUTHERN COOLAND ZONE - FOR CIRCLEMUD 3.1           |
+    |                      Written in 2002 by Crazyman                    |
+    |                         www.nt.net/saarinen                         |
+    x---------------------------------------------------------------------x
+     I found the stock Southern Cooland to be really confusing, so I
+     decided to write a new one. This new zone features about 100 rooms,
+     several new shops, a theater, and a curling rink. I've used a few
+     of the old Southern Cooland rooms and objects, but everything else
+     is totally different.
+     Stuff You Need to Change:
+     -------------------------
+     The Chain
+        1. In 79.wld, find room 7914.
+        2. Change the room leading down (D5) to 3135.
+     The Southwestern Gate:
+        1. In 35.wld, find room 3505. Change the room leading north (D0)
+           to 3112.
+     The Central Bridge/The Dump
+        1. In 30.wld, find room 3025 (The Common Square). Change the room
+           leading south (D2) to 3118.
+        2. In 30.wld, find room 3030 (The Dump). Change the room leading
+           north (D0) to 3044.
+        3. In 30.wld, find room 3044 (Poor Alley). Add a room leading
+           south (D2) to room 3030 (The Dump).
+      (You don't HAVE to make the above changes. They are just what I
+       decided to do on my MUD. Place the zone wherever YOU want!)
+    x---------------------------------------------------------------------x
+    |         Written  entirely from  scratch in WordPad.  Feel           |
+    |         free to edit, modify, and redistribute this zone!           |
+    x---------------------------------------------------------------------x
+   Builder      : Crazyman
+   Zone         : 242 New Southern Cooland
+   Began        : 2001
+   Player Level : 3-7
+   Rooms        : 98
+   Mobs         : 14
+   Objects      : 39
+   Shops        : 5
+   Triggers     : 0
+   Links        : 11e
+~
+E
 maps~
    SOUTHERN COOLAND
       To Wall Road         To Central Square
@@ -85,50 +129,6 @@ Catwalks---Catwalks---Catwalks---Catwalks
                        |
         Theater        |
       Office 3136---Entrance
-~
-E
-credits info~
-    x---------------------------------------------------------------------x
-    |            NEW SOUTHERN COOLAND ZONE - FOR CIRCLEMUD 3.1           |
-    |                      Written in 2002 by Crazyman                    |
-    |                         www.nt.net/saarinen                         |
-    x---------------------------------------------------------------------x
-     I found the stock Southern Cooland to be really confusing, so I
-     decided to write a new one. This new zone features about 100 rooms,
-     several new shops, a theater, and a curling rink. I've used a few
-     of the old Southern Cooland rooms and objects, but everything else
-     is totally different.
-     Stuff You Need to Change:
-     -------------------------
-     The Chain
-        1. In 79.wld, find room 7914.
-        2. Change the room leading down (D5) to 3135.
-     The Southwestern Gate:
-        1. In 35.wld, find room 3505. Change the room leading north (D0)
-           to 3112.
-     The Central Bridge/The Dump
-        1. In 30.wld, find room 3025 (The Common Square). Change the room
-           leading south (D2) to 3118.
-        2. In 30.wld, find room 3030 (The Dump). Change the room leading
-           north (D0) to 3044.
-        3. In 30.wld, find room 3044 (Poor Alley). Add a room leading
-           south (D2) to room 3030 (The Dump).
-      (You don't HAVE to make the above changes. They are just what I
-       decided to do on my MUD. Place the zone wherever YOU want!)
-    x---------------------------------------------------------------------x
-    |         Written  entirely from  scratch in WordPad.  Feel           |
-    |         free to edit, modify, and redistribute this zone!           |
-    x---------------------------------------------------------------------x
-   Builder      : Crazyman
-   Zone         : 242 New Southern Cooland
-   Began        : 2001
-   Player Level : 3-7
-   Rooms        : 98
-   Mobs         : 14
-   Objects      : 39
-   Shops        : 5
-   Triggers     : 0
-   Links        : 11e
 ~
 S
 #24201
@@ -786,12 +786,9 @@ D2
 S
 #24232
 Agency: Cooland~
-You're in the indra.agency headquarters. It's a large room, completely
-filled with desks and filing cabinets. SecurityDEVA are here, talking on the
-phones and writing down stuff in books. They're ready to be dispatched
-to whoever needs help.
+adventure[world]:24232/main
 ~
-242 8 0 0 0 0
+242 184 0 0 0 0
 D1
 adventure[world]:3142/look
 ~

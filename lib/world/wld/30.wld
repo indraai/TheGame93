@@ -53,11 +53,6 @@ The Sanctuary~
 adventure[world]:3002/main
 ~
 30 8 0 0 0 0
-D0
-adventure[world]:11500/look
-~
-~
-0 -1 11500
 D1
 adventure[world]:3003/look
 ~
@@ -109,7 +104,7 @@ S
 The Square~
 adventure[world]:3005/main
 ~
-30 0 0 0 0 1
+30 16 0 0 0 1
 D0
 adventure[world]:3001/look
 ~
@@ -132,10 +127,10 @@ adventure[world]:3004/look
 0 -1 3004
 S
 #3006
-The Amaravati Inn~
+Intersection (3006)~
 adventure[world]:3006/main
 ~
-30 8 0 0 0 0
+30 24 0 0 0 1
 D0
 adventure[world]:3062/look
 ~
@@ -146,6 +141,11 @@ adventure[world]:3007/look
 ~
 ~
 0 -1 3007
+D2
+The Care Center
+~
+The Care Center~
+1 0 3064
 D3
 adventure[world]:3005/look
 ~
@@ -177,15 +177,10 @@ adventure[world]:3007/sign
 ~
 S
 #3008
-The Reception~
+The Amaravati Inn~
 adventure[world]:3008/main
 ~
 30 8 0 0 0 0
-D0
-adventure[world]:3064/look
-~
-~
-0 -1 3064
 D5
 adventure[world]:3006/look
 ~
@@ -301,7 +296,7 @@ S
 The Market~
 adventure[world]:3014/main
 ~
-30 0 0 0 0 1
+30 16 0 0 0 1
 D0
 adventure[world]:3005/look
 ~
@@ -331,7 +326,7 @@ S
 Main Street~
 adventure[world]:3015/main
 ~
-30 0 0 0 0 1
+30 16 0 0 0 1
 D0
 adventure[world]:3010/look
 ~
@@ -357,7 +352,7 @@ S
 Main Street~
 adventure[world]:3016/main
 ~
-30 0 0 0 0 1
+30 16 0 0 0 1
 D0
 adventure[world]:3011/main
 ~
@@ -993,7 +988,7 @@ S
 The Shrine~
 adventure[world]:3054/main
 ~
-30 8 0 0 0 0
+30 176 0 0 0 1
 D0
 adventure[world]:3059/look
 ~
@@ -1004,11 +999,6 @@ adventure[world]:3001/look
 ~
 ~
 0 -1 3001
-D3
-adventure[world]:500/look
-~
-~
-0 -1 500
 E
 statue indra king god~
 adventure[world]:3054/statue
@@ -1022,22 +1012,12 @@ S
 The Path~
 adventure[world]:3055/main
 ~
-30 240 0 0 0 0
-D0
-adventure[world]:23400/look
-~
-~
-0 -1 23400
+30 240 0 0 0 3
 D1
 adventure[world]:3066/look
 ~
 ~
 0 -1 3066
-D2
-adventure[world]:30100/look
-~
-~
-0 -1 30100
 D3
 adventure[world]:3056/look
 ~
@@ -1052,17 +1032,16 @@ S
 The Path~
 adventure[world]:3056/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 3
 D1
 adventure[world]:3055/look
 ~
 ~
 0 -1 3055
-D3
-adventure[world]:3057/look
+D2
 ~
 ~
-0 -1 3057
+0 0 3057
 E
 sign~
 adventure[world]:3056/sign
@@ -1072,17 +1051,15 @@ S
 The Path~
 adventure[world]:3057/main
 ~
-30 240 0 0 0 0
-D1
-adventure[world]:3056/look
+30 240 0 0 0 2
+D0
 ~
 ~
-0 -1 3056
-D3
-adventure[world]:3067/look
+0 0 3056
+D2
 ~
 ~
-0 -1 3067
+0 0 3067
 E
 sign~
 adventure[world]:3057/sign
@@ -1119,7 +1096,7 @@ S
 The Path~
 adventure[world]:3060/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 3
 D0
 adventure[world]:3061/look
 ~
@@ -1130,11 +1107,6 @@ adventure[world]:3059/look
 ~
 ~
 0 -1 3059
-D3
-adventure[world]:31500/look
-~
-~
-0 -1 31500
 E
 sign~
 adventure[world]:3060/sign
@@ -1144,7 +1116,7 @@ S
 The Path~
 adventure[world]:3061/main
 ~
-30 240 0 0 0 0
+30 8432 0 0 0 3
 D0
 adventure[world]:3065/look
 ~
@@ -1155,11 +1127,6 @@ adventure[world]:3060/look
 ~
 ~
 0 -1 3060
-D3
-adventure[world]:3066/look
-~
-~
-0 -1 3066
 E
 sign~
 adventure[world]:3061/sign
@@ -1211,12 +1178,17 @@ S
 The Care Center~
 adventure[world]:3064/main
 ~
-30 8 0 0 0 1
+30 184 0 0 0 0
+D0
+The Reception
+~
+~
+1 0 3006
 D2
-adventure[world]:3008/look
+Entrance to the Agency Corridor
 ~
-~
-0 -1 3008
+3163:Agency Corridor~
+1 0 3163
 S
 #3065
 The House~
@@ -1227,12 +1199,16 @@ D1
 adventure[world]:15038/look
 ~
 ~
-2 -1 15038
+1 -1 3078
 D2
 adventure[world]:3061/look
 ~
 ~
 2 -1 3061
+D3
+~
+~
+1 0 3066
 D4
 adventure[world]:55510/look
 ~
@@ -1243,17 +1219,11 @@ S
 The Path~
 adventure[world]:3066/main
 ~
-30 240 0 0 0 0
-D0
-adventure[world]:18600/look
+30 240 0 0 0 3
+D1
 ~
 ~
-0 -1 18600
-D2
-adventure[world]:2800/look
-~
-~
-0 -1 2800
+0 0 3065
 D3
 adventure[world]:3055/look
 ~
@@ -1268,17 +1238,15 @@ S
 The Path~
 adventure[world]:3067/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 2
+D0
+~
+~
+0 0 3057
 D1
-adventure[world]:3057/look
 ~
 ~
-0 -1 3057
-D3
-adventure[world]:3068/look
-~
-~
-0 -1 3068
+0 0 3068
 E
 sign~
 adventure[world]:3067/sign
@@ -1288,17 +1256,15 @@ S
 The Path~
 adventure[world]:3068/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 2
 D1
-adventure[world]:3067/look
 ~
 ~
-0 -1 3067
+0 0 3069
 D3
-adventure[world]:3069/look
 ~
 ~
-0 -1 3069
+0 0 3067
 E
 sign~
 adventure[world]:3068/sign
@@ -1308,17 +1274,16 @@ S
 The Path~
 adventure[world]:3069/main
 ~
-30 240 0 0 0 0
-D1
-adventure[world]:3068/look
-~
-~
-0 -1 3068
+30 240 0 0 0 3
 D2
 adventure[world]:3070/look
 ~
 ~
 0 -1 3070
+D3
+~
+~
+0 0 3068
 E
 sign~
 adventure[world]:3069/sign
@@ -1328,17 +1293,16 @@ S
 The Path~
 adventure[world]:3070/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 3
 D0
 adventure[world]:3069/look
 ~
 ~
 0 -1 3069
-D2
-adventure[world]:3071/look
+D1
 ~
 ~
-0 -1 3071
+0 0 3071
 E
 sign~
 adventure[world]:3070/sign
@@ -1348,17 +1312,15 @@ S
 The Path~
 adventure[world]:3071/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 3
 D0
-adventure[world]:3070/look
 ~
 ~
-0 -1 3070
-D1
-adventure[world]:3072/look
+0 0 3072
+D3
 ~
 ~
-0 -1 3072
+0 0 3070
 E
 sign~
 adventure[world]:3070/sign
@@ -1374,11 +1336,10 @@ adventure[world]:3073/look
 ~
 ~
 0 -1 3073
-D3
-adventure[world]:3071/look
+D2
 ~
 ~
-0 -1 3071
+0 0 3071
 E
 sign~
 adventure[world]:3072/sign
@@ -1408,12 +1369,11 @@ S
 The Path~
 adventure[world]:3074/main
 ~
-30 240 0 0 0 0
-D1
-adventure[world]:3075/look
+30 240 0 0 0 3
+D0
 ~
 ~
-0 -1 3075
+0 0 3075
 D3
 adventure[world]:3073/look
 ~
@@ -1428,17 +1388,15 @@ S
 The Path~
 adventure[world]:3075/main
 ~
-30 240 0 0 0 0
-D1
-adventure[world]:3076/look
+30 240 0 0 0 3
+D0
 ~
 ~
-0 -1 3076
-D3
-adventure[world]:3074/look
+0 0 3076
+D2
 ~
 ~
-0 -1 3074
+0 0 3074
 E
 sign~
 adventure[world]:3075/sign
@@ -1448,17 +1406,15 @@ S
 The Path~
 adventure[world]:3076/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 3
 D2
-adventure[world]:3077/look
+~
+~
+0 0 3075
+D3
 ~
 ~
 0 -1 3077
-D3
-adventure[world]:3075/look
-~
-~
-0 -1 3075
 E
 sign~
 adventure[world]:3076/sign
@@ -1468,17 +1424,15 @@ S
 The Path~
 adventure[world]:3077/main
 ~
-30 240 0 0 0 0
-D0
-adventure[world]:3076/look
+30 240 0 0 0 3
+D1
 ~
 ~
 0 -1 3076
-D1
-adventure[world]:3092/look
+D3
 ~
 ~
-0 -1 3092
+0 0 3078
 E
 sign~
 adventure[world]:3077/sign
@@ -1493,12 +1447,12 @@ D1
 adventure[world]:3079/look
 ~
 ~
-0 -1 3079
+0 -1 3077
 D3
 adventure[world]:3061/look
 ~
 ~
-0 -1 3061
+0 -1 3065
 E
 sign~
 adventure[world]:3078/sign

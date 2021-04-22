@@ -1,7 +1,7 @@
 #3000
 barrel beer~
 adventure[object]:3000/look~
-adventure[object]:3000/main~
+Adventure[object]:3000/main~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 50 50 1 0
@@ -9,7 +9,7 @@ adventure[object]:3000/main~
 #3001
 bottle beer~
 a bottle~
-obj:3001~
+Obj:3001~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
@@ -153,16 +153,16 @@ A TSL1-IMG Immobilizer (S) is here.~
 0 1 6 11
 3 60 10 0 0
 E
-inscription~
-adventure[object]:3021/inscription
-~
-E
 tsl1-ims immobilizer~
 adventure[object]:3021/extra
 ~
+E
+inscription~
+adventure[object]:3021/inscription
+~
 #3022
 tsl1-iml immobilizer~
-A TSL1-IML Immobilizer (L) is here.~
+a TSL1-IML Immobilizer (L) is here.~
 A TSL1-IML~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
@@ -676,12 +676,12 @@ A large, sociable bulletin board is mounted on a wall here.~
 0 0 0 0
 0 0 0 0 0
 E
-social bulletin~
-   Use 'look board' to read the board.
-~
-E
 board~
    If you can read this, the board is not working.
+~
+E
+social bulletin~
+   Use 'look board' to read the board.
 ~
 #3097
 boards frozen bulletin gen_boards~
@@ -692,28 +692,28 @@ A large bulletin board is here, carved from a block of ice.~
 0 0 0 0
 0 0 0 0 0
 E
-freeze bulletin~
-   Use 'look board' to read the board.
-~
-E
 board~
    If you can read this, the board is not working.
 ~
+E
+freeze bulletin~
+   Use 'look board' to read the board.
+~
 #3098
 boards holy bulletin gen_boards~
-a Holy Bulletin Board~
-A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+Immortal Bulletin Board~
+A bulletin board is here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-holy bulletin~
-   Use 'look board' to read the board.
-~
-E
 board~
    If you can read this, the board is not working.
+~
+E
+holy bulletin~
+   Use 'look board' to read the board.
 ~
 #3099
 boards bulletin gen_boards~
@@ -724,11 +724,11 @@ A bulletin board is here.~
 0 0 0 0
 0 0 0 0 0
 E
-bulletin~
-   Use 'look board' to read the board.
-~
-E
 board~
    If you can read this, the board is not working.
+~
+E
+bulletin~
+   Use 'look board' to read the board.
 ~
 $~
