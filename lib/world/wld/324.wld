@@ -1,10 +1,6 @@
 #32400
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes which are manned
-twenty-eight hours a day.  The main section of the camp lies east of here along
-a roadway, the main highway through the gates to the west.
+adventure[world]:32400/main
 ~
 324 0 0 0 0 0
 D0
