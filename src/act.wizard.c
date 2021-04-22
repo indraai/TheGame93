@@ -801,7 +801,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
   send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
   send_to_char(ch, "\n==\n");
-  send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k)), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
+  send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
   send_to_char(ch, "\n## Abilities\r");
   send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
   send_to_char(ch, "\nint: %d\r", GET_INT(k));
