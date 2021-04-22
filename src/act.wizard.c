@@ -769,33 +769,39 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   struct follow_type *fol;
   struct affected_type *aff;
 
-  send_to_char(ch, "# %s\n", GET_NAME(k));
-  send_to_char(ch, "\nid: %5ld\n\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
-  send_to_char(ch, "\ntype: %s\n\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
+  send_to_char(ch, "\n# %s\r", GET_NAME(k));
+  send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
+  send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
 
   sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "\ngender: %s\n\r", buf);
+  send_to_char(ch, "\ngender: %s\r", buf);
 
-  send_to_char(ch, "\nroom: %5d\n\r", GET_ROOM_VNUM(IN_ROOM(k)));
-  send_to_char(ch, "\nloadroom: %5d\n\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
+  send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
+  send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
   if (IS_MOB(k)) {
-    send_to_char(ch, "\nvnum: %5d\n\r", GET_MOB_VNUM(k));
-    send_to_char(ch, "\nrnum: %5d\n\r", GET_MOB_RNUM(k));
-    send_to_char(ch, "\nkeyword: %s\n\r", k->player.name);
-    send_to_char(ch, "\n'l-desc': %s\n\r", k->player.long_descr ? k->player.long_descr : "<None>\n\r");
+    send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
+    send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
+    send_to_char(ch, "\nkeyword: %s\r", k->player.name);
+    send_to_char(ch, "\n'l-desc': %s\r", k->player.long_descr ? k->player.long_descr : "<None>\n\r");
   }
 
   if (!IS_MOB(k))
-    send_to_char(ch, "\ntitle: %s\n\r", k->player.title ? k->player.title : "<None>");
+    send_to_char(ch, "\ntitle: %s\r", k->player.title ? k->player.title : "<None>");
 
-  send_to_char(ch, "\n'd-desc': %s\n\r", k->player.description ? k->player.description : "<None>\r\n");
+  send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>\r\n");
 
-  send_to_char(ch, "\nstats: level[%d] xp[%d] align[%d]\r\n",
-    GET_LEVEL(k), GET_EXP(k), GET_ALIGNMENT(k));
+  send_to_char(ch, "\n## Stats\r")
+  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
+  send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
+  send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
 
-  send_to_char(ch, "\nstrong: str[%d/%d] int[%d]  wis[%d] dex[%d] con[%d] cha[%d]\r\n",
-	  GET_STR(k), GET_ADD(k), GET_INT(k), GET_WIS(k), GET_DEX(k), GET_CON(k), GET_CHA(k));
+  send_to_char(ch, "\n## Abilities\r")
+  send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
+  send_to_char(ch, "\nint: %d\r", GET_INT(k));
+  send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
+  send_to_char(ch, "\ncon: %d\r\n", GET_CON(k));
+  send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
 
   if (!IS_NPC(k)) {
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
@@ -885,27 +891,30 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   for (i = 0, j = k->carrying; j; j = j->next_content, i++);
-  send_to_char(ch, "### Carry\n\r");
-  send_to_char(ch, "\nweight: %d\n\r", IS_CARRYING_W(k));
-  send_to_char(ch, "\nitems: %d\n\r", IS_CARRYING_N(k));
-  send_to_char(ch, "\ninventory: %d\n\r", i);
+    send_to_char(ch, "\n### Carry\r");
+    send_to_char(ch, "\nweight: %d\r", IS_CARRYING_W(k));
+    send_to_char(ch, "\nitems: %d\r", IS_CARRYING_N(k));
+    send_to_char(ch, "\ninventory: %d\r", i);
 
   for (i = 0, i2 = 0; i < NUM_WEARS; i++)
     if (GET_EQ(k, i))
       i2++;
-  send_to_char(ch, "\nequipment: %d\n\r", i2);
+    send_to_char(ch, "\nequipment: %d\r", i2);
 
   if (!IS_NPC(k))
-    send_to_char(ch, "Hunger: %d, Thirst: %d, Drunk: %d\r\n", GET_COND(k, HUNGER), GET_COND(k, THIRST), GET_COND(k, DRUNK));
+    send_to_char(ch, "\nhunger: %d\r", GET_COND(k, HUNGER));
+    send_to_char(ch, "\nthirst: %d\r", GET_COND(k, THIRST));
+    send_to_char(ch, "\ndrunk: %d\r", GET_COND(k, DRUNK));
 
-  column = send_to_char(ch, "Master is: %s, Followers are:", k->master ? GET_NAME(k->master) : "<none>");
+  column = send_to_char(ch, "\nmaster: %s\r", k->master ? GET_NAME(k->master) : "<none>");
+  column = send_to_char(ch, "\nfollowers:");
   if (!k->followers)
     send_to_char(ch, " <none>\r\n");
   else {
     for (fol = k->followers; fol; fol = fol->next) {
       column += send_to_char(ch, "%s %s", found++ ? "," : "", PERS(fol->follower, ch));
       if (column >= 62) {
-        send_to_char(ch, "%s\r\n", fol->next ? "," : "");
+        send_to_char(ch, "%s\r", fol->next ? "," : "");
         found = FALSE;
         column = 0;
       }
@@ -916,22 +925,22 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   /* Showing the bitvector */
   sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "AFF: %s%s%s\r\n", CCYEL(ch, C_NRM), buf, CCNRM(ch, C_NRM));
+  send_to_char(ch, "\naff: %s\r", buf);
 
   /* Routine to show what spells a char is affected by */
   if (k->affected) {
     for (aff = k->affected; aff; aff = aff->next) {
-      send_to_char(ch, "SPL: (%3dhr) %s%-21s%s ", aff->duration + 1, CCCYN(ch, C_NRM), skill_name(aff->spell), CCNRM(ch, C_NRM));
+      send_to_char(ch, "spell: (%dhr) %s", aff->duration + 1, skill_name(aff->spell));
 
       if (aff->modifier)
-	send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
+	      send_to_char(ch, "%+d to %s", aff->modifier, apply_types[(int) aff->location]);
 
       if (aff->bitvector[0] || aff->bitvector[1] || aff->bitvector[2] || aff->bitvector[3]) {
         if (aff->modifier)
           send_to_char(ch, ", ");
         for (i=1; i<NUM_AFF_FLAGS; i++) {
           if (IS_SET_AR(aff->bitvector, i)) {
-            send_to_char(ch, "sets %s, ", affected_bits[i]);
+            send_to_char(ch, "\nsets: %s\r, ", affected_bits[i]);
           }
         }
       }
@@ -941,14 +950,14 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   if (!IS_NPC(k) && (GET_LEVEL(k) >= LVL_IMMORT)) {
     if (POOFIN(k))
-      send_to_char(ch, "%sPOOFIN:  %s%s %s%s\r\n", QYEL, QCYN, GET_NAME(k), POOFIN(k), QNRM);
+      send_to_char(ch, "\n'poof in':  %s %s\r", GET_NAME(k), POOFIN(k));
     else
-      send_to_char(ch, "%sPOOFIN:  %s%s appears with an ear-splitting bang.%s\r\n", QYEL, QCYN, GET_NAME(k), QNRM);
+      send_to_char(ch, "\n'poff in':  %s appears with an ear-splitting bang.\r", GET_NAME(k));
 
     if (POOFOUT(k))
-      send_to_char(ch, "%sPOOFOUT: %s%s %s%s\r\n", QYEL, QCYN, GET_NAME(k), POOFOUT(k), QNRM);
+      send_to_char(ch, "'poof out': %s %s\r\n", GET_NAME(k), POOFOUT(k));
     else
-      send_to_char(ch, "%sPOOFOUT: %s%s disappears in a puff of smoke.%s\r\n", QYEL, QCYN, GET_NAME(k), QNRM);
+      send_to_char(ch, "'poof out': %s disappears in a puff of smoke.\r", GET_NAME(k));
   }
 
   /* check mobiles for a script */
