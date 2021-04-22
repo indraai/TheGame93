@@ -375,18 +375,30 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 330 108900
 8 8 0
 E
+#3053
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+6216 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+E
 #3059
-security deva secuirtydeva sd3059~
+security deva secuirtydeva devaforce sd3059~
 SD3059 SecurityDEVA~
 SD3059 SecurityDEVA is here.
 ~
-A very strong and wise SecurityDEVA.
+SD3059 SecurityDEVA is assigned to protect the Realm.
 ~
-6232 0 0 0 16 0 0 0 1000 E
+260376 0 0 0 10360 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 0
-BareHandAttack: 10
+BareHandAttack: 5
 E
 T 3009
 #3060
@@ -585,15 +597,15 @@ BareHandAttack: 4
 E
 #3095
 medic medicprime prime deva medicdeva care~
-MedicPRIME~
-MedicPRIME is here, taking care of the he medical/care needs of Amaravati.
+MP3095 MedicPRIME~
+MP3095 MedicPRIME is here.
 ~
-You notice a happy look in her face.  She looks like she paid well, and enjoys
-her work.
+MP3095 MedicPRIME is assigned to provide care to the Realm.
 ~
-26635 0 0 0 65616 0 0 0 900 E
+256027 0 0 0 73848 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 2
+BareHandAttack: 1
 E
 $

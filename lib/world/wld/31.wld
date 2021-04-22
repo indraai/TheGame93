@@ -415,12 +415,12 @@ adventure[world]:30600/look
 ~
 0 -1 30600
 E
-tree~
-adveenture:3120/tree
-~
-E
 sign~
 adventure[world]:3120/sign
+~
+E
+tree~
+adveenture:3120/tree
 ~
 S
 #3121
@@ -720,16 +720,16 @@ adventure[world]:3117/look
 ~
 0 -1 3117
 E
-typewriter~
-adventure[world]:3137/typewriter
+chair chairs~
+adventure[world]:3137/chair
 ~
 E
 desk~
 adventure[world]:3137/desk
 ~
 E
-chair chairs~
-adventure[world]:3137/chair
+typewriter~
+adventure[world]:3137/typewriter
 ~
 S
 #3138
@@ -743,12 +743,12 @@ adventure[world]:3137/look
 ~
 0 -1 3137
 E
-chair armchair~
-adventure[world]:3138/chair
-~
-E
 desk~
 adventure[world]:3138/desk
+~
+E
+chair armchair~
+adventure[world]:3138/chair
 ~
 S
 #3139
@@ -819,6 +819,10 @@ adventure[world]:24232/look
 ~
 ~
 0 0 24232
+D4
+~
+~
+0 0 3163
 S
 #3143
 Agency: Corridor~
@@ -1104,8 +1108,8 @@ The chapel door is made of dark wood.
 entrance~
 1 -1 3154
 E
-benches rows~
-   The benches are not of the comfortable kind.
+glass windows~
+   The windows must be meant to be dark.  At least they are completely clean.
 ~
 E
 altar~
@@ -1114,8 +1118,8 @@ notice that it seems less dusty than the rest of the room...  Someone must clean
 here regularly...  Maybe that old guy in Park Cafe, he looked like that sort...
 ~
 E
-glass windows~
-   The windows must be meant to be dark.  At least they are completely clean.
+benches rows~
+   The benches are not of the comfortable kind.
 ~
 S
 #3156
@@ -1274,10 +1278,19 @@ Agency: Corridor~
 adventure[world]:3163/main
 ~
 31 184 0 0 0 0
+D0
+Corridor Access to Indra.Care Services.
+~
+The Care Center~
+1 0 3064
 D2
 adventure[world]:3162/look
 ~
 ~
 0 -1 3162
+D5
+~
+~
+0 0 3142
 S
 $~

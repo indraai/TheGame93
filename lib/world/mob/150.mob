@@ -283,12 +283,12 @@ It seems he has been tasting his own food a bit too enthusiastically.  He is, in
 E
 #15023
 cook deva cookdeva service servicedeva i23~
-CookDEVA:I23~
-CookDEVA I23 is here.
+CD15023 CookDEVA~
+CD15023 CookDEVA is here.
 ~
-A junior cook, eager to assist in the Chef's next creation.
+CD15023 CookDEVA has been assigned to the Realm.
 ~
-194840 0 0 0 10360 0 0 0 300 E
+194842 0 0 0 10360 0 0 0 300 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0
