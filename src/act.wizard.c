@@ -834,10 +834,14 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     send_to_char(ch, "\r\n");
   }
 
-  send_to_char(ch, "Hit p.:[%s%d/%d+%d%s]  Mana p.:[%s%d/%d+%d%s]  Move p.:[%s%d/%d+%d%s]\r\n",
-	  CCGRN(ch, C_NRM), GET_HIT(k), GET_MAX_HIT(k), hit_gain(k), CCNRM(ch, C_NRM),
-	  CCGRN(ch, C_NRM), GET_MANA(k), GET_MAX_MANA(k), mana_gain(k), CCNRM(ch, C_NRM),
-	  CCGRN(ch, C_NRM), GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k), CCNRM(ch, C_NRM));
+  send_to_char(ch, "\n'hit': %d/%d+%d\r",
+	  GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
+
+  send_to_char(ch, "\n'mana': %d/%d+%d\r",
+	  GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
+
+  send_to_char(ch, "\n'move': %d/%d+%d]\r",
+	  GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
 
   send_to_char(ch, "Gold: [%9d], Bank: [%9d] (Total: %d), ",
 	  GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
