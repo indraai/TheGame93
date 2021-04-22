@@ -803,21 +803,21 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
   send_to_char(ch, "\nint: %d\r", GET_INT(k));
   send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
-  send_to_char(ch, "\ncon: %d\r\n", GET_CON(k));
+  send_to_char(ch, "\ncon: %d\r", GET_CON(k));
   send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
 
   if (!IS_NPC(k)) {
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
-    send_to_char(ch, "class: %s\r\n", buf);
+    send_to_char(ch, "\nclass: %s\r", buf);
 
     char buf1[64], buf2[64];
 
     strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->player.time.birth)));
     strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->player.time.logon)));
 
-    send_to_char(ch, "Created: [%s], Last Logon: [%s]\r\n", buf1, buf2);
+    send_to_char(ch, "\ncreated: %s\r\n'last Logon': %s\r", buf1, buf2);
 
-    send_to_char(ch, "Played: [%dh %dm], Age: [%d], STL[%d]/per[%d]/NSTL[%d]",
+    send_to_char(ch, "played: %dh %dm\r\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]",
             k->player.time.played / 3600, (k->player.time.played % 3600) / 60,
             age(k)->year, GET_PRACTICES(k), int_app[GET_INT(k)].learn,
 	    wis_app[GET_WIS(k)].bonus);
@@ -838,54 +838,52 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   }
 
   if (!IS_NPC(k))
-    send_to_char(ch, "Screen %s[%s%d%sx%s%d%s]%s\r\n",
-                      CCCYN(ch, C_NRM), CCYEL(ch, C_NRM), GET_SCREEN_WIDTH(k), CCNRM(ch, C_NRM),
-                      CCYEL(ch, C_NRM), GET_PAGE_LENGTH(k), CCCYN(ch, C_NRM), CCNRM(ch, C_NRM));
+    send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
 
-  send_to_char(ch, "AC: [%d%+d/10], Hitroll: [%2d], Damroll: [%2d], Saving throws: [%d/%d/%d/%d/%d]\r\n",
+  send_to_char(ch, "'ac': %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\n'saving throws': %d/%d/%d/%d/%d\r",
 	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
 	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
 	  GET_SAVE(k, 3), GET_SAVE(k, 4));
 
   sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "\npos: %s\n\r", buf);
-  send_to_char(ch, "\nfighting: %s\n\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
+  send_to_char(ch, "\npos: %s\r", buf);
+  send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
   if (IS_NPC(k))
-    send_to_char(ch, "\n'attack type': %s\n\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    send_to_char(ch, "\n'attack type': %s\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
 
   if (k->desc) {
     sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
-    send_to_char(ch, "\nconnected: %s\n\r", buf);
+    send_to_char(ch, "\nconnected: %s\r", buf);
   }
 
   if (IS_NPC(k)) {
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
     send_to_char(ch, "\n'def. position': %s\n\r", buf);
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'npc flags': %s\n\r", buf);
+    send_to_char(ch, "\n'npc flags': %s\r", buf);
   } else {
-    send_to_char(ch, ", Idle Timer (in tics) [%d]\r\n", k->char_specials.timer);
+    send_to_char(ch, "\n'idle timer (tics)': %d\r", k->char_specials.timer);
 
     sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "PLR: %s%s%s\r\n", CCCYN(ch, C_NRM), buf, CCNRM(ch, C_NRM));
+    send_to_char(ch, "\n'plr': %s\r", buf);
 
     sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "PRF: %s%s%s\r\n", CCGRN(ch, C_NRM), buf, CCNRM(ch, C_NRM));
+    send_to_char(ch, "\n'prf': %s\r", buf);
 
-    send_to_char(ch, "Quest Points: [%9d] Quests Completed: [%5d]\r\n",
+    send_to_char(ch, "'quest points': %d\r\n'quests completed': %d\r",
        GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
     if (GET_QUEST(k) != NOTHING)
-      send_to_char(ch, "Current Quest: [%5d] Time Left: [%5d]\r\n",
+      send_to_char(ch, "\n'current quest': %d\r\n'time remain': %d\r",
       GET_QUEST(k), GET_QUEST_TIME(k));
   }
 
   /* Showing the bitvector */
   sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "\naff flags: %s\r", buf);
+  send_to_char(ch, "\n'aff flags': %s\r", buf);
 
   if (IS_MOB(k))
-    send_to_char(ch, "Mob Spec-Proc: %s, NPC Bare Hand Dam: %dd%d\r\n",
+    send_to_char(ch, "\n'mob spec-proc': %s\r\n'npm bare hand damage': %dd%d\r",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
@@ -908,7 +906,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   column = send_to_char(ch, "\nmaster: %s\r", k->master ? GET_NAME(k->master) : "<none>");
   column = send_to_char(ch, "\nfollowers:");
   if (!k->followers)
-    send_to_char(ch, " <none>\r\n");
+    send_to_char(ch, " <none>\r");
   else {
     for (fol = k->followers; fol; fol = fol->next) {
       column += send_to_char(ch, "%s %s", found++ ? "," : "", PERS(fol->follower, ch));
@@ -950,9 +948,9 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
       send_to_char(ch, "\n'poff in':  %s appears with an ear-splitting bang.\r", GET_NAME(k));
 
     if (POOFOUT(k))
-      send_to_char(ch, "'poof out': %s %s\r\n", GET_NAME(k), POOFOUT(k));
+      send_to_char(ch, "\n'poof out': %s %s\r", GET_NAME(k), POOFOUT(k));
     else
-      send_to_char(ch, "'poof out': %s disappears in a puff of smoke.\r", GET_NAME(k));
+      send_to_char(ch, "\n'poof out': %s disappears in a puff of smoke.\r", GET_NAME(k));
   }
 
   /* check mobiles for a script */
@@ -979,7 +977,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
       struct trig_var_data *tv;
       char uname[MAX_INPUT_LENGTH];
 
-      send_to_char(ch, "Global Variables:\r\n");
+      send_to_char(ch, "\n## Global Variables:\r");
 
       /* currently, variable context for players is always 0, so it is not
        * displayed here. in the future, this might change */
