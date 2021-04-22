@@ -772,14 +772,12 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\n# %s\r", GET_NAME(k));
   send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
   send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
-  send_to_char(ch, "\n==\n");
   sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
   send_to_char(ch, "\ngender: %s\r", buf);
   send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
   send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
   if (IS_MOB(k)) {
-    send_to_char(ch, "\n==\n");
     send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
     send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
     send_to_char(ch, "\nkeyword: %s\r", k->player.name);
@@ -790,16 +788,13 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   }
 
   send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>");
-  send_to_char(ch, "\n==\n");
   send_to_char(ch, "\n'hit': %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
   send_to_char(ch, "\n'mana': %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
   send_to_char(ch, "\n'move': %d/%d+%d]\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
   send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
-  send_to_char(ch, "\n==\n");
   send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
   send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
   send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
-  send_to_char(ch, "\n==\n");
   send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
   send_to_char(ch, "\nint: %d\r", GET_INT(k));
   send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
