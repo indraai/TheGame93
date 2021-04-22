@@ -772,22 +772,23 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\n# %s\r", GET_NAME(k));
   send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
   send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
-
+  send_to_char(ch, "\n==\n");
   sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
   send_to_char(ch, "\ngender: %s\r", buf);
-
   send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
   send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
+  send_to_char(ch, "\n==\n");
 
   if (IS_MOB(k)) {
     send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
     send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
     send_to_char(ch, "\nkeyword: %s\r", k->player.name);
-    send_to_char(ch, "\n'l-desc': %s\r", k->player.long_descr ? k->player.long_descr : "<None>\n\r");
+    send_to_char(ch, "\n'l-desc': %s\r", k->player.long_descr ? k->player.long_descr : "<None>\r");
+    send_to_char(ch, "\n==\n");
   }
-
-  if (!IS_MOB(k))
+  else {
     send_to_char(ch, "\ntitle: %s\r", k->player.title ? k->player.title : "<None>");
+  }
 
   send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>\r\n");
 
