@@ -783,13 +783,13 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
     send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
     send_to_char(ch, "\nkeyword: %s\r", k->player.name);
-    send_to_char(ch, "\n'l-desc': %s\r", k->player.long_descr ? k->player.long_descr : "<None>\r");
+    send_to_char(ch, "\n'l-desc': %s\r", k->player.long_descr ? k->player.long_descr : "<None>");
   }
   else {
     send_to_char(ch, "\ntitle: %s\r", k->player.title ? k->player.title : "<None>");
   }
 
-  send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>\r\n");
+  send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>");
   send_to_char(ch, "\n==\n");
   send_to_char(ch, "\n'hit': %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
   send_to_char(ch, "\n'mana': %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
