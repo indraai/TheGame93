@@ -801,7 +801,51 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\ncon: %d\r", GET_CON(k));
   send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
 
-  if (!IS_NPC(k)) {
+  send_to_char(ch, "'ac': %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\n'saving throws': %d/%d/%d/%d/%d\r",
+	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
+	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
+	  GET_SAVE(k, 3), GET_SAVE(k, 4));
+
+  sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
+  send_to_char(ch, "\npos: %s\r", buf);
+  send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
+
+  if (k->desc) {
+    sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
+    send_to_char(ch, "\nconnected: %s\r", buf);
+  }
+
+  /* Showing the bitvector */
+  sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
+  send_to_char(ch, "\n'aff flags': %s\r", buf);
+
+  if (IS_NPC(k)) {
+    send_to_char(ch, "\n'attack type': %s\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
+    send_to_char(ch, "\n'def. position': %s\n\r", buf);
+    sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
+
+    send_to_char(ch, "\n'mob spec-proc': %s\r\n'npc bhd': %dd%d\r",
+      (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
+	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
+
+  } else {
+    send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
+    send_to_char(ch, "\n'idle timer (tics)': %d\r", k->char_specials.timer);
+    sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
+    send_to_char(ch, "\n'plr': %s\r", buf);
+
+    sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
+    send_to_char(ch, "\n'prf': %s\r", buf);
+
+    send_to_char(ch, "'quest points': %d\r\n'quests completed': %d\r",
+       GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
+
+    if (GET_QUEST(k) != NOTHING)
+      send_to_char(ch, "\n'current quest': %d\r\n'time remain': %d\r",
+      GET_QUEST(k), GET_QUEST_TIME(k));
+
+
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
     send_to_char(ch, "\nclass: %s\r", buf);
 
@@ -814,12 +858,12 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
     send_to_char(ch, "played: %dh %dm\r\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]",
             k->player.time.played / 3600, (k->player.time.played % 3600) / 60,
-            age(k)->year, GET_PRACTICES(k), int_app[GET_INT(k)].learn,
-	    wis_app[GET_WIS(k)].bonus);
+            age(k)->year, GET_PRACTICES(k), int_app[GET_INT(k)].learn, wis_app[GET_WIS(k)].bonus);
+
     /* Display OLC zone for immorts. */
     if (GET_LEVEL(k) >= LVL_BUILDER) {
       if (GET_OLC_ZONE(k)==AEDIT_PERMISSION)
-        send_to_char(ch, ", OLC[%sAedit%s]", CCCYN(ch, C_NRM), CCNRM(ch, C_NRM));
+        send_to_char(ch, "OLC[%sAedit%s]", CCCYN(ch, C_NRM), CCNRM(ch, C_NRM));
       else if (GET_OLC_ZONE(k)==HEDIT_PERMISSION)
         send_to_char(ch, ", OLC[%sHedit%s]", CCCYN(ch, C_NRM), CCNRM(ch, C_NRM));
       else if (GET_OLC_ZONE(k) == ALL_PERMISSION)
@@ -829,60 +873,12 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
       else
         send_to_char(ch, ", OLC[%s%d%s]", CCCYN(ch, C_NRM), GET_OLC_ZONE(k), CCNRM(ch, C_NRM));
     }
-    send_to_char(ch, "\r\n");
+
+    send_to_char(ch, "\nhunger: %d\r", GET_COND(k, HUNGER));
+    send_to_char(ch, "\nthirst: %d\r", GET_COND(k, THIRST));
+    send_to_char(ch, "\ndrunk: %d\r", GET_COND(k, DRUNK));
   }
 
-  if (!IS_NPC(k))
-    send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
-
-  send_to_char(ch, "'ac': %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\n'saving throws': %d/%d/%d/%d/%d\r",
-	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
-	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
-	  GET_SAVE(k, 3), GET_SAVE(k, 4));
-
-  sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "\npos: %s\r", buf);
-  send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
-
-  if (IS_NPC(k))
-    send_to_char(ch, "\n'attack type': %s\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
-
-  if (k->desc) {
-    sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
-    send_to_char(ch, "\nconnected: %s\r", buf);
-  }
-
-  if (IS_NPC(k)) {
-    sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, "\n'def. position': %s\n\r", buf);
-    sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'npc flags': %s\r", buf);
-  } else {
-    send_to_char(ch, "\n'idle timer (tics)': %d\r", k->char_specials.timer);
-
-    sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'plr': %s\r", buf);
-
-    sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'prf': %s\r", buf);
-
-    send_to_char(ch, "'quest points': %d\r\n'quests completed': %d\r",
-       GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
-    if (GET_QUEST(k) != NOTHING)
-      send_to_char(ch, "\n'current quest': %d\r\n'time remain': %d\r",
-      GET_QUEST(k), GET_QUEST_TIME(k));
-  }
-
-  /* Showing the bitvector */
-  sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "\n'aff flags': %s\r", buf);
-
-  if (IS_MOB(k))
-    send_to_char(ch, "\n'mob spec-proc': %s\r\n'npm bare hand damage': %dd%d\r",
-      (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
-	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
-
-  send_to_char(ch, "\n### Carry\r");
   for (i = 0, j = k->carrying; j; j = j->next_content, i++)
   send_to_char(ch, "\nweight: %d\r", IS_CARRYING_W(k));
   send_to_char(ch, "\nitems: %d\r", IS_CARRYING_N(k));
@@ -893,11 +889,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     if (GET_EQ(k, i)) i2++;
     send_to_char(ch, "\nequipment: %d\r", i2);
   }
-  if (!IS_NPC(k)) {
-    send_to_char(ch, "\nhunger: %d\r", GET_COND(k, HUNGER));
-    send_to_char(ch, "\nthirst: %d\r", GET_COND(k, THIRST));
-    send_to_char(ch, "\ndrunk: %d\r", GET_COND(k, DRUNK));
-  }
+
   column = send_to_char(ch, "\nmaster: %s\r", k->master ? GET_NAME(k->master) : "<none>");
   column = send_to_char(ch, "\nfollowers:");
   if (!k->followers)
