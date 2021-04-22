@@ -880,6 +880,10 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
       GET_QUEST(k), GET_QUEST_TIME(k));
   }
 
+  /* Showing the bitvector */
+  sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
+  send_to_char(ch, "\naff flags: %s\r", buf);
+
   if (IS_MOB(k))
     send_to_char(ch, "Mob Spec-Proc: %s, NPC Bare Hand Dam: %dd%d\r\n",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
@@ -917,10 +921,6 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     if (column != 0)
       send_to_char(ch, "\r\n");
   }
-
-  /* Showing the bitvector */
-  sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "\naff: %s\r", buf);
 
   /* Routine to show what spells a char is affected by */
   if (k->affected) {

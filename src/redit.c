@@ -439,7 +439,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
       "\n# %s\r"
-      "\n'number': %d\r"
+      "\n'vnum': %d\r"
       "\n'zone': %d\r"
       "\n## Details\r"
       "\ninput[1:name]: %s\r"
