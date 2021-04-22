@@ -792,9 +792,17 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>\r\n");
 
   send_to_char(ch, "\n## Stats\r");
+  send_to_char(ch, "\n'hit': %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
+  send_to_char(ch, "\n'mana': %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
+  send_to_char(ch, "\n'move': %d/%d+%d]\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
+  send_to_char(ch, "\n==\n");
   send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
   send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
   send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
+  send_to_char(ch, "\n==\n");
+  send_to_char(ch, "gold: %d", GET_GOLD(k));
+  send_to_char(ch, "bank: %d", GET_BANK_GOLD(k));
+  send_to_char(ch, "total: %d", GET_GOLD(k) + GET_BANK_GOLD(k));
 
   send_to_char(ch, "\n## Abilities\r");
   send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
@@ -833,18 +841,6 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     }
     send_to_char(ch, "\r\n");
   }
-
-  send_to_char(ch, "\n'hit': %d/%d+%d\r",
-	  GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
-
-  send_to_char(ch, "\n'mana': %d/%d+%d\r",
-	  GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
-
-  send_to_char(ch, "\n'move': %d/%d+%d]\r",
-	  GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
-
-  send_to_char(ch, "Gold: [%9d], Bank: [%9d] (Total: %d), ",
-	  GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
 
   if (!IS_NPC(k))
     send_to_char(ch, "Screen %s[%s%d%sx%s%d%s]%s\r\n",
@@ -891,7 +887,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   if (IS_MOB(k))
     send_to_char(ch, "Mob Spec-Proc: %s, NPC Bare Hand Dam: %dd%d\r\n",
-        (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
+      (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   send_to_char(ch, "\n### Carry\r");
