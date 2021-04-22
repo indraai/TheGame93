@@ -801,13 +801,11 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\ncon: %d\r", GET_CON(k));
   send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
 
-  send_to_char(ch, "'ac': %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\n'saving throws': %d/%d/%d/%d/%d\r",
+  send_to_char(ch, "\nac: %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\n'saving throws': %d/%d/%d/%d/%d\r",
 	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
 	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
 	  GET_SAVE(k, 3), GET_SAVE(k, 4));
 
-  sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "\npos: %s\r", buf);
   send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
   if (k->desc) {
@@ -819,12 +817,15 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
   send_to_char(ch, "\n'aff flags': %s\r", buf);
 
+  sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
+  send_to_char(ch, "\npos: %s\r", buf);
+
   if (IS_NPC(k)) {
     send_to_char(ch, "\n'attack type': %s\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, "\n'def. position': %s\n\r", buf);
-    sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
+    send_to_char(ch, "\n'def. position': %s\r", buf);
 
+    sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
     send_to_char(ch, "\n'mob spec-proc': %s\r\n'npc bhd': %dd%d\r",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
