@@ -486,7 +486,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   /* Top section - standard stats */
   write_to_output(d,
     "\n## Stats: Mob %d\r\n"
-    "\n'1) level':%d\r\n"
+    "\ninput[1:level]:%d\r\n"
     "\n'2) auto stats': Auto set stats based on level.\r\n",
     OLC_NUM(d),
     GET_LEVEL(mob)
@@ -530,7 +530,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
-    "\n## Advanced\r"
+    "\n### Advanced\r"
     "\n'F) Str': %d|%d\r\n"
     "\n'G) Int': %d\r\n"
     "\n'L) Paralysis': %d\r\n"
