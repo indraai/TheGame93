@@ -791,12 +791,12 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>\r\n");
 
-  send_to_char(ch, "\n## Stats\r")
+  send_to_char(ch, "\n## Stats\r");
   send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
   send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
   send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
 
-  send_to_char(ch, "\n## Abilities\r")
+  send_to_char(ch, "\n## Abilities\r");
   send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
   send_to_char(ch, "\nint: %d\r", GET_INT(k));
   send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
@@ -894,8 +894,8 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
         (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
+  send_to_char(ch, "\n### Carry\r");
   for (i = 0, j = k->carrying; j; j = j->next_content, i++);
-    send_to_char(ch, "\n### Carry\r");
     send_to_char(ch, "\nweight: %d\r", IS_CARRYING_W(k));
     send_to_char(ch, "\nitems: %d\r", IS_CARRYING_N(k));
     send_to_char(ch, "\ninventory: %d\r", i);
