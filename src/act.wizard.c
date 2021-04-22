@@ -895,21 +895,21 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   send_to_char(ch, "\n### Carry\r");
-  for (i = 0, j = k->carrying; j; j = j->next_content, i++);
+  for (i = 0, j = k->carrying; j; j = j->next_content, i++) {
     send_to_char(ch, "\nweight: %d\r", IS_CARRYING_W(k));
     send_to_char(ch, "\nitems: %d\r", IS_CARRYING_N(k));
     send_to_char(ch, "\ninventory: %d\r", i);
+  }
 
-  for (i = 0, i2 = 0; i < NUM_WEARS; i++)
-    if (GET_EQ(k, i))
-      i2++;
+  for (i = 0, i2 = 0; i < NUM_WEARS; i++) {
+    if (GET_EQ(k, i)) i2++;
     send_to_char(ch, "\nequipment: %d\r", i2);
-
-  if (!IS_NPC(k))
+  }
+  if (!IS_NPC(k)) {
     send_to_char(ch, "\nhunger: %d\r", GET_COND(k, HUNGER));
     send_to_char(ch, "\nthirst: %d\r", GET_COND(k, THIRST));
     send_to_char(ch, "\ndrunk: %d\r", GET_COND(k, DRUNK));
-
+  }
   column = send_to_char(ch, "\nmaster: %s\r", k->master ? GET_NAME(k->master) : "<none>");
   column = send_to_char(ch, "\nfollowers:");
   if (!k->followers)
