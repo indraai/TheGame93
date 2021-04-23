@@ -246,12 +246,7 @@ that you aren't worth his time or trouble.
 S
 #32410
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.  The Walk turns south and west at this point, following the natural slope
-of the valley.
+adventure[world]:32410/main
 ~
 324 0 0 0 0 0
 D2
@@ -276,9 +271,7 @@ assume that this was the final combat of his life.
 S
 #32411
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32411/main
 ~
 324 8 0 0 0 0
 D0
@@ -297,11 +290,7 @@ glad that you have access to a monk!
 S
 #32412
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.
+adventure[world]:32412/main
 ~
 324 0 0 0 0 0
 D0
@@ -320,9 +309,7 @@ D4
 S
 #32413
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32413/main
 ~
 324 8 0 0 0 0
 D0
@@ -343,10 +330,7 @@ hewn wood and fastened together with nails.  It looks very uncomfortable.
 S
 #32414
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.  You may enter into the
-main section of the camp to west - the east gate lies just east of here.
+adventure[world]:32414/main
 ~
 324 0 0 0 0 0
 D0
@@ -373,9 +357,7 @@ laundry wash clothing~
 S
 #32415
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32415/main
 ~
 324 0 0 0 0 0
 D0
@@ -389,11 +371,7 @@ D2
 S
 #32416
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.
+adventure[world]:32416/main
 ~
 324 0 0 0 0 0
 D0
@@ -411,9 +389,7 @@ D4
 S
 #32417
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32417/main
 ~
 324 0 0 0 0 0
 D0
@@ -427,12 +403,7 @@ D2
 S
 #32418
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.  The Walk turns north and west here, following the natural curve of the
-valley's floor.
+adventure[world]:32418/main
 ~
 324 0 0 0 0 0
 D0
@@ -456,9 +427,7 @@ It looks like it is holding a phallus.
 S
 #32419
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32419/main
 ~
 324 0 0 0 0 0
 D1
@@ -474,11 +443,7 @@ The highway continues to the west.
 S
 #32420
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.
+adventure[world]:32420/main
 ~
 324 0 0 0 0 0
 D1
@@ -511,9 +476,7 @@ this shoddy treatment and you puke until it is empty.
 S
 #32421
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32421/main
 ~
 324 0 0 0 0 0
 D1
@@ -527,11 +490,7 @@ D3
 S
 #32422
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.
+adventure[world]:32422/main
 ~
 324 0 0 0 0 0
 D1
@@ -550,9 +509,7 @@ D4
 S
 #32423
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32423/main
 ~
 324 0 0 0 0 0
 D1
@@ -566,12 +523,7 @@ D3
 S
 #32424
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.  The Walk turns north and east here, following the natural curve of the
-valley's floor.
+adventure[world]:32424/main
 ~
 324 0 0 0 0 0
 D0
@@ -595,9 +547,7 @@ statue tiberius~
 S
 #32425
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32425/main
 ~
 324 0 0 0 0 0
 D0
@@ -619,11 +569,7 @@ carry it around.
 S
 #32426
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes, one of which is right
-here.  Entry into the tower is by a tall ladder which climbs to the floor of the
-tower.
+adventure[world]:32426/main
 ~
 324 0 0 0 0 0
 D0
@@ -647,9 +593,7 @@ for today.
 S
 #32427
 The Guard Walk~
-   This is the outer ring of the Army's main encampment where patrols keep a
-constant vigil, watching for signs of hostile intruders.  At regularly spaced
-intervals, there are guard towers for lookout purposes.
+adventure[world]:32427/main
 ~
 324 0 0 0 0 0
 D0
