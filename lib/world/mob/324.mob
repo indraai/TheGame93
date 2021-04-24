@@ -58,7 +58,7 @@ The Forgemaster stands near the fire directing his workers in their labors.
    He is quite large with tree-trunk arms.  He is definitely not someone to
 trifle with even on one of his bad days.
 ~
-72 0 0 0 0 0 0 0 300 E
+260362 0 0 0 0 0 0 0 300 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 1
@@ -191,12 +191,13 @@ deva army armydeva medic military surgeon devaforce ad32415~
 AD32415 ArmyDEVA Surgeon~
 AD32415 ArmyDEVA Surgeon is here.
 ~
-He is a very energetic young man, fully trained by the Army's best surgeons.
+AD32415 ArmyDEVA Surgeon is here to protect the Realm.
 ~
-72 0 0 0 0 0 0 0 600 E
+260378 0 0 0 0 0 0 0 600 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1
+BareHandAttack: 1
 E
 #32416
 deva army armydeva medic military devaforce ad32416~
@@ -269,5 +270,17 @@ He clutches to the sides of the seat, wondering just what sort of person would i
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 1
+E
+#32440
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
 E
 $
