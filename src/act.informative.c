@@ -803,30 +803,30 @@ ACMD(do_score)
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday today.\r\n");
 
-  send_to_char(ch, "\n::BEGIN:SCORE\n\r");
-  send_to_char(ch, "\nname: %s\n\r", GET_NAME(ch));
-  send_to_char(ch, "\nage: %dyrs\n\r", GET_AGE(ch));
-  send_to_char(ch, "\ngold: %d\n\r", GET_GOLD(ch));
-  send_to_char(ch, "\nlevel: %d\n\r", GET_LEVEL(ch));
-  send_to_char(ch, "\nrank: %s\n\r", GET_TITLE(ch));
-  send_to_char(ch, "\nalign:%d\r\n", GET_ALIGNMENT(ch));
-  send_to_char(ch, "\nexp: %d\n\r", GET_EXP(ch));
+  send_to_char(ch, "\n::BEGIN:SCORE\r");
+  send_to_char(ch, "\nname: %s\r", GET_NAME(ch));
+  send_to_char(ch, "\nage: %dyrs\r", GET_AGE(ch));
+  send_to_char(ch, "\ngold: %d\r", GET_GOLD(ch));
+  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(ch));
+  send_to_char(ch, "\nrank: %s\r", GET_TITLE(ch));
+  send_to_char(ch, "\nalign:%d\r", GET_ALIGNMENT(ch));
+  send_to_char(ch, "\nexp: %d\r", GET_EXP(ch));
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
     send_to_char(ch, "\nlevelup: %d\r\n",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
-  send_to_char(ch, "\nhit: %d|%d\n\r", GET_HIT(ch), GET_MAX_HIT(ch));
-  send_to_char(ch, "\nmana: %d|%d\n\r", GET_MANA(ch), GET_MAX_MANA(ch));
-  send_to_char(ch, "\nmove: %d|%d\n\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
-  send_to_char(ch, "\narmor: %d\n\r", compute_armor_class(ch));
+  send_to_char(ch, "\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
+  send_to_char(ch, "\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
+  send_to_char(ch, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+  send_to_char(ch, "\narmor: %d\r", compute_armor_class(ch));
 
-  send_to_char(ch, "\nquests: %d|%d\r\n", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
+  send_to_char(ch, "\nquests: %d|%d\r", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
-    send_to_char(ch, "\nquest: NONE\r\n");
+    send_to_char(ch, "\nquest: NONE\r");
   else
   {
-    send_to_char(ch, "quest: %s", QST_NAME(real_quest(GET_QUEST(ch))));
+    send_to_char(ch, "\nquest: %s\r", QST_NAME(real_quest(GET_QUEST(ch))));
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS))
         send_to_char(ch, " [%d]\r\n", GET_QUEST(ch));
