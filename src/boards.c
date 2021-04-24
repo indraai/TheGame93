@@ -243,10 +243,12 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
     int nlen;
 
     len = snprintf(buf, sizeof(buf),
-		"# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\n=\n\n"
-		"You will need to look at the board to save your message.\n"
-		"There are %d messages on the board.\n",
+		"\n# Bulletin Board\r"
+		"\nThere are %d messages on the board.\r"
+    "\ninput[write:header]: <none>\r"
+    "\ndescrip[body:body]: <none>\r",
 		num_of_msgs[board_type]);
+
 #if NEWEST_AT_TOP
     for (i = num_of_msgs[board_type] - 1; i >= 0; i--) {
       if (!MSG_HEADING(board_type, i))
