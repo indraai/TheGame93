@@ -1,898 +1,154 @@
 ! ^ !
-
-Use ! to repeat the last command typed #0
+adventure[help]:general/bang
+#0
 %ASOUND% OASOUND MASOUND WASOUND ASOUND
-
-%asound% <message>
-
-   The message is sent to all surrounding rooms.
-
-Trigger Intended Assignment: Rooms
-Trigger Type: Random , Numeric Arg: 10, Arg list: None
-Commands:
-   %asound% You hear a blood chilling howl from nearby.
-
-See Examples: @RTSTAT 7505, 154@n
+adventure[help]:general/sound
 #31
-%AT% WAT MAT OAT %MAT% %WAT% %OAT%
-
-%at% <target> <command>
-
-   Using %at% will perform the command in the room where target is found.
-
-Example: @RTSTAT 19, 20@n
+adventure[help]:general/at
 #31
 %DAMAGE% ODAMAGE MDAMAGE WDAMAGE TRIGEDIT-DAMAGE TRIGEDIT-ROOM-DAMAGE TRIG-DAMAGE
-
-%damage% %victim% amount
-
-   Cause amount points of damage to victim. The amount can be negative, to
-create a healing effect. This requires an actor to damage, so if it is a random
-trigger you must define actor.
-
-%damage% %actor% -20          - cause 20 points of healing
-%damage% %actor% 20           - cause 20 points damage
-%damage% %actor% %random.20%  - cause 1-20 points damage randomly
-
-set stunned %actor.hitp%      - evaluate all hitpoints and then damage
-%damage% %actor% %stunned%    - leaving the player stunned, but will recover
-
-eval random_up_to_stunned %%random.%stunned%%%
-%damage% %actor% %random_up_to_stunned%
-
-eval num_hitp %actor.hitp%/2  - calculate half of hitpoints and then damage
-%damage% %actor% %num_hitp%
-
-Example: @RTSTAT 16, 51, 3008, 1600, 1601@n
-
-See also: DAMAGE, GUNS, DEATH
+adventure[help]:general/damage
 #31
 %DOOR% WDOOR ODOOR MDOOR TRIGEDIT-EXIT TRIG-EXIT TRIGEDIT-DOORS TRIGEDIT-MENU-DOORS SECRET-DOORS TRIG-DOOR %EXIT%
-
-%door% <vnum> < direction> < field> [value]
-
-  Used for adding, deleting, and modifying doors in room vnum. Direction
-determines which door is being changed, and can be north, south, east, west,
-up, or down. If the door does not exist first, a new door will be created.
-Field is what property of the door is being changed. Valid fields are:
-
-purge       - remove the exit in the direction specified - no value needed
-description -  value will become the new exit description
-flags       -  value will be the new door flags bitvector as defined here:
-            a - Exit is a door that can be opened and closed. Default is open
-            b - The door is closed.
-            c - The door is locked.
-            d - The door is pick-proof.
-key         - value is the vnum of the key to the door in this direction.
-name        - value is the name of the door in the specified direction.
-room        - value is the vnum of the room this direction leads to
-
-Example: @RTSTAT 17, 23603, 53429, 2759@n
+adventure[help]:general/door
 #31
 %ECHO% %ECHOAROUND% %SEND% TRIG-SEND %ZONEECHO% ZONEECHO ZONECHO %ZONECHO% ZECHOAROUND ECHOAROUND OECHO WECHO MECHO OECHOAROUND WECHOAROUND MECHOAROUD OSEND WSEND MSEND ZONECHO RECHO %ZECHO% ZSOUND MECHOAROUND MZONEECHO MRECHO
-
-%echo% <message>
-   Message is sent to all characters in the same room that this trigger is executing in.
-
-%echoaround% <victim> <message>
-   Message will be sent to all characters in the room with victim, except for
-the victim.
-
-%send% <victim> <message>
-   Message will be sent to the victim only.
-
-%zoneecho% <room vnum> <message>
-   Zoneecho echoes message to the entire zone. room vnum should be any vnum in
-   the zone you wish to echo to. 13400 would echo in zone 134.
-
-To send a blank line use: %send% %actor% \
-NOTE: When used with mobs make sure the mobs can see the players.
-      i.e not blind, set INFRA, DET_INVIS.
-
-Example: @RTSTAT 18@n
-
-See also: %ASOUND%
+adventure[help]:general/echo
 #31
 %FOLLOWER% TRIG-FOLLOW MFOLLOW %MASTER% MASTER %SELF.FOLLOWER% %SELF.MASTER% %FOLLOW% %MASTER.FOLLOWER% %MASTER.FIGHTING%
-
-Usage: mfollow <victim>
-
-   The mobile will begin following the victim without the revealing "starts
-following you" message. A silent follow. This sets the %master% variable on the
-mob to the players ID.
-
-mfollow %actor%
-
-Examples: @RTSTAT 57508, 39, 26@n
-
-See also: GROUP
-#31
-%FORCE% OFORCE WFORCE MFORCE TRIGEDIT-FORCE TRIG-FORCE
-
-%force% <victim> <command>
-
-   Force the victim to perform a particular command. Cannot be made to force
-God and above.
-
-   This little trigger teleports the actor to another place when he enters the
-room. It then makes him look to see the description.
-
-Trigger Intended Assignment: Rooms
-Trigger Type: Enter , Numeric Arg: 100, Arg list: None
-Commands:
-wait 1 s
-%echo% A powerful force drags you down.
-%teleport% %actor% 3001
-%force% %actor% look
-
+adventure[help]:general/follow
 #31
 %LOAD% OLOAD MLOAD WLOAD
-
-%load% <obj|mob> <vnum> [name [position]]
-
-   This command loads a mob or object into the game. No-take objects loaded to
-an actor will load to the room. NO_RENT objects can not be loaded.
-
-load an object to room: %load% obj 1300
-load a mob to room    : %load% mob 1300
-load obj to player inv: %load% obj 1300 %actor% inv
-equip obj to player   : %load% obj 1300 %actor% waist
-
-Obj Example: @RTSTAT 94@n
-Mob Example: @RTSTAT 81@n
-
-See also: POSITIONS, CHAR-VAR
+adventure[help]:general/load
 #31
 %LOG% WLOG MLOG OLOG
-
-%log% <message>
-
-This command sends a message to the syslog so all immmortals can see it. It can
- be useful for debugging, or for tracking the frequency of things that shouldn't occur
-very often.
-
-%log% %actor.name%, a level %actor.level% %actor.class% just typed %cmd% %arg%
-
-will generate a message that looks like:
-
-[ Room 57700 :: Fizban, a level 34 Magic-User just typed log example ]
-
-The part before the :: shows what the script that logged the message was attached to.
+adventure[help]:genereal/log
 #0
 %MOVE% MOVE-OBJECT MOVE-ALL
-
-In an object trigger, moves the object to which the trig is attached to the
-specified room.  The object can be on the floor, inside another object or in a
-player or mobs inventory (not eq):
-Usage: %move% <room>
-
-In a room trigger, moves the specified object, or all objects to the specified
-room.  The object must be on the floor of the room to which the trig is
-attached:
-Usage: %move% %obj.name% <room>
-       %move% all <room>
-
-The <room> target room should be a VNUM.
-
-Note: This does not create a copy of the object, but moves the actual object to the floor of the target
-room.
-
-See also: %TELEPORT%
+adventure[help]:general/move
 #31
 %NEXT_IN_ROOM% CHAR_VAR TRIG-FIELDS %ACTOR.SEX% ACTOR.SEX %ACTOR.HITPOINTS% %ACTOR.HP% %ACTOR.HITP% %HIS% IS_FIGHTING %FIGHTING% ACTOR.FIGHTING %ACTOR.FIGHTING% IN_ROOM IS_ROOM POS() HISHER %MASTER% %SELF.MASTER% %FOLLOWER.NAME% PVAR %HISHER% %SEX%
-
 See @RHELP CHAR-VAR@n
 #31
 %PURGE% OPURGE MPURGE WPURGE
-
-%purge% <victim>
-
-   Purge removes objects or mobs from the game. If no argument is given, then
-all objects and mobs in the room will be removed. If there is an argument,
-only that mob or object will be purged. Players can not be purged.
-
-Examples:
-   %purge% %self%
-   %purge% %actor.inventory(1300)%
-   %purge% %actor.eq(hold)%
-
-When purging objects make sure the object exists. If it does not the room will
-be purged:
-
-if %actor.inventory(700)%
-  %purge% %actor.inventory(700)%
-end
-
-Always purge at the end of a trigger. If you purge a mob/obj at the beginning
-you can no longer access that mob/obj variables.
-
-Example: @RTSTAT 1375, 6300@n
-
-See also: POSITIONS
+adventure[help]:general/purge
 #31
 %ROOM.CONTENTS% ROOM.CONTENTS
-
 See @RHELP ROOM-VAR@n
 #31
 %TELEPORT% WTELEPORT OTELEPORT MTELEPORT PORTALS %TRANSPORT% TRIG-TELEPORT
-
-Stock tbaMUD does not have an object type portal. This is instead done with
-trigedit.
-
- %teleport% <victim> <location>
-
-   Teleport moves the victim to the target. The victim does not need to be in
-the same room as the mob. If the victim is 'all', all the characters in the
-room will be teleported to the target room. No messages are generated by this
-command.
-
-%teleport% all 17401
-%teleport% %actor% 1300
-
-PORTAL EXAMPLES:
-   OBJ:  @RTSTAT 100@n
-   ROOM: @RTSTAT 101@n
-   MOB:  @RTSTAT 102@n
-
-See also: MGOTO, TELEPORT, %MOVE%
+adventure[help]:general/teleport
 #31
 %TRANSFORM% MTRANSFORMS OTRANSFORMS TRANSFORMS MORPHS MTRANSFERS TRIG-MOB-TRANSFORM
-
-%transform% < vnum | -vnum >
-
-   This command causes the executing mob or object to transform into another
-mob or object, based on the vnum argument supplied. The transformation is
-permanent, though additional transformations may be performed. No message
-regarding the transformation is sent to the room. The new mob or object will
-have the same trigger as the original, rather than any trigger normally assigned
-to the new, and no load trigger will be executed.
-
-   Mobs - The hit points, max hit points, position, gold, and experience value
-will remain those of the original mob but all other statistics and descriptions
-will be those of the new mob. (The mob can be made to have all of its normal
-statistics by using a negative vnum.) Only mobiles may use this command (naturally).
-
-   Objects - Based on the vnum argument supplied. The four basic values will
-remain those of the original mob but all other statistics and descriptions will
-be those of the new object. The transformation is permanent, additional
-transformations may be performed. No message regarding the transformation is
-sent to the room. The new object will have the same trigger as the originating
-object, rather than any trigger normally assigned to the new object, and no
-load trigger will be executed.
-
-Example: @RTSTAT 21, 1370@n
+adventure[help]:general/transform
 #31
 <TOPIC> <COMMAND> COMMAND> TOPICS
-
-   You took me too literally. I want you to type help <topic>, as in topic
-being something like newbie. So you should type @RHELP NEWBIE@n to learn more
-about being a newbie here.
-
+adventure[help]:general/topic
 #31
 @@
-
-The @ character is used as a colorcode. If you see it, try toggling color to
-complete. If this still does not work you must not be able to view colors.
-
-To print a single @* follow it with the * (asterisk).
-
-Many people have asked why use the @ as colorcodes while others use &.
-Welcor of TBA changed this because of trigedit. A builder who enters:
-if %actor.is_pc% && %arg% would only see: if %actor.is_pc% & %arg%. No
-big deal, but this could get confusing to newbies when you tell them AND
-needs 2 & and they will only see &. The second problem is that trigedit
-also uses the special character & to denote mob/obj pronoun: IT, YOU,
-HE/SHE: &%obj%. So putting in colorcodes in echos returns garbage itititit
-etc. if done improperly. The fix is to use the escape character \&<colorcode>
-in trigedit.
-
-See also: COLORCODES
+adventure[help]:general/colors
 #31
 ABBREVIATIONS ABBREVS
-
-   We have added abbreviations so you do not have to type everything exactly as
-it appears. This also means that when you enter keywords in OLC you do not have
-to list all forms. i. e. the keyword rumble could be used to cover anyone who
-types <action> rumble rumbl rumb rum ru.
-
+adventure[help]:general/abbreviations
 #31
 AC-CONFIDENCE ARMOR-CLASS ARMOUR-CLASS AC-APPLY
-
-   Your Armor Class (often called AC) is an expression for how good your armor
-is at protecting you.  When you don armor, any AC apply that armor has is
-subtracted from your standard (naked) AC value, modified depending on where on
-the body you are wearing the armor.  Some items have a special bonus, and
-subtract from the AC directly. Negative AC is better. Modifiers: Body X3,
-head and legs X2.
-
-See also: MEDIT-AC
-#31
-AC-CONFIDENCE ARMOR-CLASS ARMOUR-CLASS AC-APPLY
-
-   Your Armor Class (often called AC) is an expression for how good your armor
-is at protecting you.  When you don armor, any AC apply that armor has is
-subtracted from your standard (naked) AC value, modified depending on where on
-the body you are wearing the armor.  Some items have a special bonus, and
-subtract from the AC directly. Negative AC is better.
-
-See Also: ARMOR-SPELL
+adventure[help]:general/armor
 #0
 ACRONYMS TERMINOLOGY VOCABULARY
-
-Here are some common terms used in building, and TBA zone:
-
-OLC:     On-Line-Creation, the ability to create rooms, mobs, objects, shops,
-         and triggers on-line.
-Desc:    Short for description.
-Flag:    A bit-vector that tells the mud that a particular monster, object, or
-         room has a certain quality.  (i.e. Dark, Magic, Aggressive)  This will
-		 be explained more later.
-Mob:     Mobile.  A monster.
-Obj:     Object.
-VNUM:    An obj, mob, room, shop, or triggers unique identification number.
-@     Stands for Virtual Number.
-Zone:    Used synonymously with area.
-Trigger: Used synonymously with script.
-TBA:     The Builder Academy.
-PC:      Player Character. Not a mob.
-NPC:     Non Player Character. Mobs.
-
-#31
-ACTOR.CLASS ACTOR-CLASS %ACTOR.CLASS%
-
-This is used in scripts to find the actors class, or to adjust it.
-
-%actor.class%          - return the class of actor (e.g. )
-%actor.class(<class>)% - set the actor class (returns 1 on success)
-
-Example:
-if %actor.class% ==
- say I don't like s!
- if %actor.class(Warrior)%
-  emote waves his hands frantically at you.
-  say I have changed you into a Warrior!
- end
-else
- say Welcome %actor.class% %actor.name%!
-end
-
-See Also: CHAR-VAR, ADMLEVEL, ACTOR.LEVEL
+adventure[help]:general/acronyms
 #31
 ACTOR.INVENTORY %ACTOR.INVENTORY% %INVENTORY% TRIG-INVENTORY TRIGEDIT-INVENTORY
-
-%actor.inventory()%
-
-Returns the id of the first item in the actors inventory or the id of the first
-object with vnum in the subfield. If the actor doesn't have the item an empty
-string is returned. * checks for any inventory.
-
-
-Examples: @RTSTAT 155, 94, 19537@n.
-
-See also: ACTOR.HAS TRIG-EQ, %PURGE%, %LOAD%, CHAR-VAR
+adventure[help]:actor/inventory
 #31
 ACTOR.LEVEL ACTOR-LEVEL %ACTOR.LEVEL%
-
-This is used in scripts to find the mortal level of a player, or to adjust it.
-
-%actor.level%        - return the level of actor
-%actor.level(<val>)% - set the actor to mortal level 'val' (range 1-30)
-
-Note that the level of a player should never be adjusted in a script unless you
-have a very good reason for it.  This simply changes the mortal level and does
-not update any other stats (like max hp or exp).
-
-See Also: CHAR-VAR
+adventure[help]:actor/level
 #31
 ADVANCE DEMOTE
-
-Usage: advance <player> <level>
-       advance <player> admin <level>
-
-   Advance moves a player to a new level.  If used to promote a player's admin
-level the wizlist or immlist will automatically be updated.
-   Advance can also be used to demote players.
-
-Example:
-  > advance Rumble 30
-  > advance Rumble admin 4
-
-See also: SET, PROMOTION, ADMIN
+adventure[help]:general/advance
 #31
 AEDIT-MENU ACTION-EDITOR ACREATE SOCIAL-EDITOR
-
-Syntax: aedit <action>
-
-   Aedit is an online action (social) editor that allows you to create socials
-on the fly. Anyone can add new socials just ask a Great God or above to set your
-OLC to 999 and explain how it works. Use astat to see examples.
-
-Here is the much coveted list of $ codes applicable to socials:
-
-$e he/she/it person doing social
-$E he/she target of social
-$m him/her person doing social
-$M him/her target of social
-$n char name person doing social (your name)
-$N char name target of social (other persons name)
-$s his/her/its person doing social
-$S his/her target of social
-$t body part of victim
-$p object
-
-See also: ASTAT, SOCIALS, AUTOSAVE
+adventure[help]:aedit/main
 #31
 AFFECTS OEDIT-PERM-AFFECTS PERM-AFFECTS OEDIT-PERMAFFECTS OEDIT-AFFECTS
-
-P) Perm Affects: @cNOBITS@n
-The permanent effects are the effects this object will have on you, when
-you wear, wield or hold it. Unlike the applies, these are spell effects. Only
-set one of these:
-
-P)  Perm Affects: @cNOBITS@n
-1)  BLIND      DO NOT USE.
-2)  INVIS      The wearer becomes invisible.
-3)  DET-ALIGN  The wearer detects alignments.
-4)  DET-INVIS  The wearer sees invisible objects and players.
-5)  DET-MAGIC  The wearer sees a magic flag on magical objects.
-6)  SENSE-LIFE The wearer sees hidden mobs/players.
-7)  WATWALK    The wearer can walk on water.
-8)  SANCT      The wearer is protected by sanctuary.
-9)  GROUP      DO NOT USE.
-10) CURSE      DO NOT USE.
-11) INFRA      The wearer sees in the dark.
-12) POISON     The wearer is poisoned.
-13) PROT-EVIL  The wearer is protected from evil.
-14) PROT-GOOD  The wearer is protected from good.
-15) SLEEP      DO NOT USE.
-16) NO_TRACK   DO NOT USE.
-17) FLYING     The wearer can travel through room sector type IN FLIGHT.
-18) SCUBA      The wearer can travel through room sector type UNDERWATER.
-19) SNEAK      DO NOT USE.
-20) HIDE       DO NOT USE.
-21) UNUSED     DO NOT USE.
-22) CHARM      DO NOT USE.
-
+adventure[help]:general/affects
 #31
 AFK
-
-Usage : afk
-
-Lets other players know you will be away from the keyboard. The (AFK) flag will
-be displayed in your prompt and under who after your name and title. When you
-come back from AFK you will be notified if you have mail waiting.
-
-See also: TOGGLE, WHO
+adventure[help]:general/afk
 #0
 AGE
-
-How old your character is. Your age begins at creation and continues whether
-you are logged in the MUD or not.
-
+adventure[help]:general/age
 #0
-ALIASES
-
-Usage: alias [alias name] [command]
-
-An alias is a single command used to represent one or more other commands.
-The ALIAS command can be used to manipulate your character's aliases.  Type
-ALIAS alone to see a list of your currently defined aliases.
-
-  > alias
-
-Type ALIAS <alias name> <command> to create a new alias.  The alias name must
-be one word.  The command can be any string.  Aliases may not be nested or
-used recursively.  Any command may be overridden by an alias (other than the
-ALIAS command itself, of course).
-
-  > alias gbb get bread bag
-  > alias gac get all corpse
-
-Type ALIAS <alias-name> to delete an alias that has already been defined.
-
-  > alias gbb
-
-A semicolon (";") can be used to define multiple actions to be taken with
-a single alias.
-
-  > alias eat get bread bag; eat bread
-
-Note that the 'eat' contained within the eat alias is interpreted as the MUD's
-internal eat command; aliases may not be nested or used recursively.  The
-variables $1, $2, ... $9 may be used to represent arguments given with
-an alias.
-
-Examples:
-
-  > alias killem cast 'fireball' $1; cast 'harm' $2
-  > killem fido mage
-
-Would cast fireball on fido, followed by casting harm on mage.  Variables
-may be used repeatedly and in any order:
-
-  > alias helpem cast 'heal' $1; cast 'bless' $1; cast 'armor' $1
-
-The special variable $* represents the entire input line after an alias:
-
-  > alias tr tell Rumble $*
-  > tr hi there, how are you today?
-  You tell Rumble, 'hi there, how are you today?'
-
-A quick note on some possible problems with aliases:
-Several MUD client capture semi-colons for their own new-line so they are not
-sent to the MUD.  For Zmud click on the computer on the bottom right of the
-screen to disable text-parsing.  Here is one of my many aliases.  They are a
-life-saver.  Everyone should learn how to use them well.
-
-all              tlist $1;slist $1;olist $1;mlist $1;rlist $1;
-
-I would type "all 13" to list everything in zone 13. I use this to check what
-people have done with their zone.
-
-See also: ^, RUMBLE-ALIASES
+ALIAS
+adventure[help]:general/alias
 #0
 ALIGNMENT GOOD NEUTRAL EVIL %ACTOR.ALIGN% %ALIGN% %ALIGNMENT%
-
-   Different characters and mobs have different alignments depending upon their
-way of life. Because of this, they may be aggressive or friendly depending on
-the mix. Some objects cannot be used by certain alignments. For mobs alignment
-ranges from:
-
- -1000 to -350  Evil
-  -350 to  350  Neutral
-   350 to 1000  Good
-
-See also: ALIGNMENTS
-#31
-ALIGNMENTS
-
-   Many good areas stick to a defined level range, such as 10-20 or 25-30. Do
-not try and make your new area cover the entire range of levels.  Every area
-should have its moment in the sun. Conversely, it would be nice if there were
-something really unique and challenging to do at every stage in a characters
-history. Your area might be the most successful if you can gear it for a range
-of levels that people believe is otherwise boring or neglected.
-   You should always try to match your mobiles to the area and the players you
-want to play there. For example, you should make the mobs in the area a
-similar level to the players you want to play there since a level X warrior
-should be able to kill a level X mobile if the warrior is at full health. Also,
-the quality of objects or mobiles should be matched with their level.
-   Will your area be mostly good, neutral, or evil.  If it is mostly good or
-mostly evil, is it strongly good or evil or just weakly aligned?  In any case
-try not to make your area completely homogenous (equal). In neutral
-communities there is going to be some evil and good elements, and likewise with
-other communities. To some extent this goes along with the question about zone
-level, consider what seem to be "gaps" among the zones in the world as far as
-good or evil aligned areas for a particular level range, and try to fill those
-needs. Everyone's first tendency is to make extremists--The ultimate evil hell
-area, or the blindingly good paladin fortress. Keep in mind that there are
-many layers in between, and these are often more interesting.
-
-See also: ALIGN
+adventure[help]:general/alignement
 #31
 ANIMATE-DEAD
-
-Usage: cast 'animate dead' corpse
-
-   This spell will harness evil necromancy magic and bring life into a
-corpse, creating a zombie.  The corpse will do the bidding of its master.
-
+adventure[help]:spells/animate.feecting
 #0
 ANTI
-
-A flag with anti preceding it means that it cannot be used. Antimage would
-not be useable my mages.
-
+adventure[help]:general/anti
 #0
 APOSTROPHES
-
-   The apostrophe is something else that is incorrectly used quite often. Here
-are a couple of quick examples to show its uses:
-
-Fred's sister is Doris.
-Correct. This states that Fred has a sister named Doris.
-Fred's sisters' dog is named Rover.
-Correct. Rover is the dog that belongs to the numerous sisters of Fred.
-Fred's sister's dog is named Rover.
-Correct. Rover is the dog that belongs to the *single* sister of Fred.
-
-Fyre asked his writing group about those possessive plurals and here is the
-response from his top flight editor who makes her living in Switzerland
-doing impressive loads of copyediting.
-
-"The horses' manes" is correct; the "ess apostrophe ess" form is only used in
-proper names: Travis's albums, Maris's pendants
-
-My source is the Chicago Manual of Style, used in the majority of publishing
-houses in the States.
-
-And another supportive professor of English ... who has won several major
-writing awards recently ...
-
-"the horses' manes" is correct.  The possessive form of a plural word
-that ends in "S" is formed by adding only an apostrophe.  The possessive form
-of a plural word that does not end in "S" is formed by adding "apostrophe S,"
-as in "women's hemlines."
-
-We rest our case. Now do whatever you want...after all, it is your area.
+adventure[help]:general/apostrophes
 #31
-APPLICATION APPLY BUILDING LEARNING LESSONS
-
-To apply for a building position go to:
-
-                   @Chttp://tbamud.com/@n
-
-and fill out the application.
-
-@RGOTO 3@n to enter The Builder Academy.
-
-See also: OLC, REDIT, MEDIT, OEDIT, ZEDIT, SEDIT, TRIGEDIT, AEDIT
-
+APPLICATION BUILDING
+adventure[help]:general/application
 #0
 AREAS
-
-Usage: areas [level-range]
-
-Lists all active zones. Any argument will filter the results by level.
-
-areas       list all areas
-areas 24    list all areas where level 24 is in the level range
-areas -10   list areas in the level range 0 to 10
-areas 15-   list all areas with a level range higher than 15
-areas 5-12  list areas in the level range 5 to 12
-
-Any areas that 'overlap' the specified range are shown in red.
-
-See Also: ZONES
+adventure[help]:general/areas
 #0
 ARMOR-SPELL
-
-Usage       : cast 'armor' [target]
-Accumulative: No
-Duration    : 24 Hours
-Level       : Mage level 4,  level 1.
-
-The Armor spell will improve your AC by 20 points or up to 10%.
-
-See also: AC
+adventure[help]:spells/armor
 #0
 ASCII-ART ART
-
-        @G  ___   ____
-        /' --;'/ ,-_\     @Y\ | /
-       @G/ / --@yo@G\ @yo@G-\ \\   @Y--(_)--
-       @G'`  ` @y|-|@G   `` '
-             @y|-|
-             |-|@mO
-             @y|-@m(\,__
-           @Y..@y|-|@m\--@M,\_@Y....
-      ,;;;;;;;;;;;;;;;;;;;;;;;;,.
-  ,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,
- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,@n
-By Zierk
-
-Such art is highly recommended and adds flavor to a zone. Specifically, maps are
-always helpful to players.
-
-ASCII Text Generator:
-http://www.network-science.de/ascii/
-http://www.degraeve.com/img2txt.php
-
-          ______________
-       .--              --.
-    .-'                    '-.
-   /                          \
-  /                            \
- l                          __  l
-|  |  |       |\  /| |   | |  \  |
-| _|_ |_   _  | \/ | |   | |   | |
-|  |  | \  _| |    | |   | |   | |
-|  l_ |_/ (_| |    |  \_/| |__/  |
-| Created by The Builder Academy |
- l                              l
-  \                            /
-   \                          /
-    '-.                    .-'
-       '--______________--'
-
-See also: COLOR, AUTOMAP, TBAMAP, CARTOGRAPHY
+adventure[help]:general/art
 #31
 ASSIST
-
-Usage: assist <player>
-
-   If <player> needs assistance in battle and you feel brave enough to help,
-use this command to join the battle. The monster attacking <player> will keep
-hitting them, unless it decides to switch.
-
-> assist tink
-
-See also: AUTOASSIST, FLEE, KILL, RESCUE
+adventure[help]:general/assist
 #0
 ASTAT
-
-Usage : astat <social>
-
-Allows you to view a social as written in the social editor. Anybody may submit
-their own socials for use within the mud.
-
-See also: AEDIT, SOCIALS
+adventure[help]:general/astat
 #0
 ATTACH
-
-Builders working on their trial vnum do not need to learn this command, yet.
-
-Usage: attach mob {trigger vnum/name} {mob name} [location]
-       attach obj {trigger vnum/name} {obj name} [location]
-       attach room {trigger vnum/name} {room vnum} [location]
-
-   Attach lets you attach a trigger to one instance of a mob/obj/room, for
-testing or other purposes. The command only attaches the trigger once,
-and will not last over a reboot (or crash).
-
-The 'location' is what number in the triggerlist the trigger will assume.
-It is important to first attach a trigger to test before you manually add it
-through oedit/medit/redit.
-
-Examples:
-attach room 14500 14520 - Attaches room trigger 14500 to room 14520.
-attach mob 1332 Santa   - Attaches mob trigger 1332 to mob 1308 (Santa).
-attach obj 1480 sword   - Attaches obj trigger 1480 to a sword.
-
-See also: DETACH, TRIG-ATTACH, TRIG-DETACH, OLC, TRIGEDIT, TSTAT, STAT, ROOMFLAGS
+adventure[help]:general/attach
 #31
-AUCTION GOSSIP GRATS CONGRATULATIONS CONGRATS
-Usage: auction <message>
-       gossip <message>
-       grats <message>
-
-These are channels reserved for specific purposes.  Messages on these
-channels reach everyone who is monitoring them.  You must be at least level
-three to use these channels.
-
-These channels should be used accordingly.
-
-Examples:
-
-  > auction short sword -- minimum bid 100k
-  > gossip Hey, is that a short sword on your belt or are you happy to see me?
-  > grats GRATS Detta!!!!!!!!
-
-See also: TOGGLE, EMOTE, GSAY, HOLLER, NOREPEAT, SAY, SHOUT
-
+AUCTION GOSSIP GRATS
+adventure[help]:general/chats
 #0
 AUTOASSIST
-
-Usage: toggle autoassist
-
-   Enables you to automatically assist a fellow group member when they are
-attacked without having to manually type "assist."
-
-See Also: TOGGLE, ASSIST
+adventure[help]:general/autoassist
 #0
 AUTODOOR
-
-Usage: autodoor
-
-When enabled this toggle will automatically find the next available door when
-using the open, close, lock, unlock or pick commands. For example, in a room
-with several closed doors, one door will be opened each time the player types
-open door until all the doors are open. The player can still specify a
-direction to open a particular door.
-
-See Also: AUTOKEY, TOGGLE, PREFEDIT
+adventure[help]:general/autodoor
 #0
 AUTOEXITS AUTO-EXITS
-
-Usage: autoexits
-
-Toggles the automatic display of currently available exits.  Not all
-possible exits will be displayed, only those immediately available.
-If a door is closed it will not show up as a possible exit.
-
-See also: TOGGLE
+adventure[help]:general/autoexits
 #0
 AUTOGOLD
-
-Usage: toggle autogold
-
-   Enables you to automatically take the gold from any mob you kill. This will
-not take any equipment or objects.
-
-See Also: TOGGLE, TAKE
+adventure[help]:general/autogold
 #0
 AUTOKEY
-
-Usage: autokey
-
-When enabled this toggle will automatically use a door key (if it's in your
-inventory) when you try to open a locked door. You do not need to use the
-separate unlock command. It can be turned on and off using the autokey
-command, the toggle autokey command, or prefedit.
-
-See Also: AUTODOOR, TOGGLE, PREFEDIT
+adventure[help]:general/autokey
 #0
 AUTOLOOT
-
-Usage: toggle autoloot
-
-   Enables you to automatically "take all corpse" from any mob you kill.  You
-will loot everything (including cursed objects) until you can no longer carry
-anymore weight.  If this happens and and you also have autosac enabled, the
-items you cannot pick up will be left on the ground.
-
-See Also: TOGGLE, TAKE, SPLIT
+adventure[help]:general/autoloot
 #0
 AUTOMAPPING MAPS
-
-Usage: map <#31-12>
-
-   This command prints a text generated map of your current surroundings.
-Including a number allows you to expand or shrink the map to show a wider
-or smaller area.
-
-Usage: toggle automap on
-
-   Toggle automap on will turn on the automap, which shows a mini-map to the
-right of the room descriptions.
-
- -tbaMUD Map System-
-  .-.__--.,--.__.-.
- | @R+@n Up            |
- | @R-@n Down          |
- | [@B!@n] You         |
- | [@W.@n] Inside      |
- | [@wC@n] City        |
- | [@g,@n] Field       |
- | [@gY@n] Forest      |
- | [@mm@n] Hills       |
- | [@RM@n] Mountain    |                         @C[@W.@C]@n
- | [@C~@n] Swim        |                          @W| @R+@n
- | [@B=@n] Boat        |                   @C[@W.@C] @W- @C[@B!@C] @W- @C[@W.@C]@n
- | [@W^@n] Flying      |                          @W| @R-@n
- | [@BU@n] Underwater  |                         @C[@W.@C]@n
+adventure[help]:general/maps
 #0
-AUTOQUESTS QUESTS QUESTMASTERS QUESTPOINTS QUEST-POINTS QUEST-MOBS QUESTMOBS
-
-   An autoquest is a quest that can be automatically started and completed by
-players on the MUD without the intervention of an immortal.  Players simply
-visit a questmaster where they join an available quest, and get rewarded on
-its completion.
-
-See Also: QEDIT, QUEST-FLAG
-#31
-AUTOQUESTS QUESTS QUESTMASTERS QUEST-MOBS QUESTMOBS
-
-   An autoquest is a quest that can be automatically started and completed
-without the intervention of an immortal.  Simply visit a questmaster and join
-an available quest, and get rewarded on it�s completion. Keep an eye out for
-autoquests scattered throughout the World.
-
-See Also: QUEST-FLAG, QUESTPOINTS
+AUTOQUEST
+adventure[help]:general/autoquest
 #0
-AUTOSACRIFICE SACRIFICE
-
-Usage: toggle autosac
-
-   Enables you to automatically sacrifice any mob you kill. If you do not have
-autoloot enabled the objects and gold will also be sacrificed.
-
-See Also: TOGGLE
+AUTOSACRIFICE
+adventure[help]:general/autosacrifice
 #0
 AUTOSPLIT
-
-Usage: toggle autosplit
-
-   Enables you to automatically split the money from any mob you kill with your
-fellow group members.
-
-See Also: TOGGLE, GROUP
+adventure[help]:general/autosplit
 #0
 AUTOWIZ
-
-   This is automatically done whenever someone is advanced to immortal status
-to update the wizlist and immlist unless they have NO_WIZ set.
-
+adventure[help]:general/autowiz
 #31
 BACKDOOR HACKING
 
