@@ -1,7 +1,7 @@
 #7000
-mudmonster mud monster~
-the horrifying Mudmonster~
-A horrifying Mudmonster is slowly evolving from the mud...
+monster tackle dummy~
+Monster Tackle Dummy~
+The Monstery Tackle Dummy is here.
 ~
    It sure looks like something out of a horror movie.  It strongly resembles a
 huge figure made up from mud alone, and it sure looks like it had human flesh
@@ -10,13 +10,13 @@ you?
 ~
 196680 0 0 0 524288 0 0 0 -250 E
 12 16 2 2d2+120 2d2+2
-120 14400
+1000 14400
 6 8 0
 E
 #7001
-bat small fierce~
-the small bat~
-The small fierce-looking bat is hanging from the ceiling, obviously sleeping.
+flapping tackle dummy~
+Flapping Tackle Dummy~
+The Flapping Tackle Dummy is here.
 ~
    You have never in your entire life seen such a mean looking small creature,
 though it looks rather peaceful, hanging there, sleeping.  The thought of
@@ -38,25 +38,25 @@ with black glistening eyes.
 ~
 104 0 0 0 0 0 0 0 -1000 E
 5 19 7 1d1+50 1d2+0
-50 2500
+500 2500
 8 8 0
 E
 #7003
-dummy tackle small hairy~
-Small Hairy Tackle Dummy~
+dummy tackle hairy~
+Hairy Tackle Dummy~
 The Small Hairy Tackle Dummy is here, busy brushing it's hair.
 ~
 This Small Hair Tackle Dummy seems to only pay attention to brushing it's hair.
 ~
 104 0 0 0 524288 0 0 0 -700 E
 1 20 9 0d0+10 1d2+0
-10 100
+100 100
 8 8 0
 E
 #7004
-beetle giant earth~
-the giant earth beetle~
-The giant, mean-looking earth beetle is here.
+tiny giant tackle dummy~
+Tiny Giant Tackle Dummy~
+The Tiny Giant Tackle Dummy is here.
 ~
    Now, you've seen beetles, but this one is enormous.  It stretches perhaps two
 feet from head to tail.  As it notices you, it waves its six legs about and
@@ -68,9 +68,9 @@ makes some strange skittering noises at you.
 4 8 0
 E
 #7005
-maggot giant~
-the maggot~
-The giant maggot is here, simply existing.
+maggot giant tackle dummy~
+Maggot Tackle Dummy~
+The Giant Maggot Tackle Dummy is here.
 ~
    This large mound of grotesque flesh is just lying here quivering, almost as
 if it can sense your warm blood nearby.
