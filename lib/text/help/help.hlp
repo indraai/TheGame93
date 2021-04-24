@@ -12842,361 +12842,69 @@ GOOD: Shadows cower along the tall walls and almost seem to be moving. The
 See also: GRAMMAR
 #31
 ZEDIT
-
-Usage: zedit [room vnum]
-
-Zedit lets you edit (online) the zone files for your particular zone.
-Within zedit you can alter the loading of monsters and objects and the
-closing/locking of doors etc.
-
-If no room number is specified, the current room is used as target.
-
-@RGOTO 11@n to enter The Builder Academy hallway on how to use zedit.
-
-Implementors wanting to create zones, see: @R HELP ZONE-CREATE@n
-See also: ZEDIT-MENU, ZEDIT-NEW, CREATE-ZONE, OLC, SHOW-ZONES
+adventure[help]:zedit/main
 #31
 ZEDIT-ADVANCED ADVANCED
-
-   Let us say you want there to be a single rose loaded in a garden. But, you
-want to have a max of 50 in the mud. You would simply go to the command options
-menu and tell the zone file to load an object into the room. However, the object
-will continue to load into the room, until it is maxed. To prevent 50 roses
-from loading into the room, simply hit N for new command. It will ask you where
-the command should be placed. Use the SAME number as the command which loads
-the rose. This will bump the command, which loads the rose down. Then you will
-be at a command options menu. Enter R for remove an object from a room. If no
-one comes along and gets the rose, the game will remove it and load another
-one. This will prevent build up.
-   Zedit can not currently give a container to a mob and then load an object to
-that container. A workaround for this is to load the object to the room before
-loading the mob. Then attach a load trigger to the mob that will force it to
-pick up the loaded container.
-   Zedit is one of the tougher forms of OLC, and allows builders to cause
-errors. Use common sense. DO NOT equip doors with objects. DO NOT close a
-door then lock it (just setting it locked makes it closed). DO NOT equip
-objects. DO NOT put an object inside a mob. I can go on and on. But I would
-hope you can see the sense in all this. If you have a question ask. The
-documentation is all here, help is available. Just ask someone. PLEASE!
-   When loading mobs and objs through zedit the first loaded (zedit command 0)
-will be the last listed in a room when it is looked at.
-
-Mob loading through zedit is very limited in flexibility. Zone loading commands
-are saved in order by room number and the resulting list is simply run through
-line by line on zone reset. The problem with this is if you want to load 4 mobs
-in separate rooms there is no way to check if the mobs exist and where they are.
-This results in the common problem of having towns with all the gateguards at
-one gate. This can get complex, but say 4 guards are loading at the 4
-cardinal gates: north, east, south, and west with a maxload of 4 in world. The
-load commands are also saved in the zone file in that order. On the first
-zreset you would have 4 guards at the 4 gates loading in order N, E, S, W. Then
-say a player kills the guards at the E, S, W, gates, next zreset a guard
-loads at the N, E, S gates (2 now at the N gate). The same player kills the
-guards at the E and S gates. Next zreset mobs load at the N and E gates, and so
-on. There is no "good" solution to this. It is simply a tradeoff in the code
-due to the desire for simplicity. Most builders never need to worry about this.
-But, if you do want more control on mob loading you can do it several ways.
-Make each mob unique, don't reuse the same mob for each gate, and load only 1
-of each. Or you can use trigedit to load the mob on zreset, checking if they
-already exist. Both can be very time consuming.
-
-See Also: FOUNTAIN
+adventure[help]:zedit/advanced
 #31
 ZEDIT-BUILDERS
-
-   The name of the builder creating the zone.
-
+adventure[help]:zedit/builders
 #31
 ZEDIT-COMMANDS ZONE-COMMANDS ZEDITCOMMANDS ZEDIT-COMMANDLISTS COMMANDLISTS COMMAND-LISTS
-
-<Command list>
-0 - END OF LIST
-   Zone commands are what load mobiles and objects. This includes a 'max
-existing' argument. This specifies the maximum number of copies of the mobile
-or object that are allowed to exist in the entire world at once. If the
-number currently existing is greater than or equal to the 'max existing'
-limit, the command is not executed.
-   Zone commands are listed from 0 and on. If creating a new command always
-choose 0 as its number. The only exception to this is if you are making a
-command that relies on the success of the other command. Choose 1 for those.
-
-N) New command.
-E) Edit a command.
-D) Delete a command.
-Q) Quit
-Enter your choice :
-
-   All of these are pretty self-explanatory by this point I'd hope. The only
-one we need to go over is adding and editing a command. Both are similar all
-options will be explained under @RHELP ZEDIT-NEW@n.
-
-See also: ZEDIT-NEW, ZEDIT-MISTAKES
+adventure[help]:zedit/commands
 #31
 ZEDIT-CREATE ZEDIT-CREATION ZONE-CREATE ZONE-CREATION ZCREATE CREATE-ZONE
-
-Usage: zedit new <new zone number> <bottom of zone> <top of zone>
-
-@OOnly Implementors can create new zones. Zones can be any size but must
-consist of consecutive vnums. tbaMUD supports 0-655 zones. That means vnums
-0 -> 65500. So to create zone 350 you would type: zedit new 350 35000 35099
-for a 100 vnum zone. Which I find the easiest to manage. But, in reality you
-can create a zone of any size you want. It is my experience that most builders
-rarely finish a 50 room zone so giving them over 100 is a waste of resources.
-I force most builders to start small to prove themselves before giving them
-more. When they do build a full zone of 50+ rooms, mobs, objects, etc.
-I then give them another 100.
-
-Examples:
-   zedit new 1 100 199 - Creates zone 1 vnums 100 to 199.
-   zedit new 123 12300 12499 - Creates zone 123 vnums 12300 to 12499
-
-Max zone number is 655. Max vnum is 65534. 65535 is reserved for corpses.
-
-See Also: ZEDIT, ZEDIT-NEW, ZEDIT-DELETE
+adventure[help]:zedit/create
 #31
 ZEDIT-DELETE
-
-To remove a single zone you will need server access and then remove
-the references to the zone in the World directory index files. For
-example if I want to remove zone 123 I edit the following files and
-remove the line 123.<file type>:
-lib/world/zon/index --Remove line of text 123.zon
-lib/world/wld/index --Remove line of text 123.wld
-lib/world/mob/index --Remove line of text 123.mob
-lib/world/obj/index --Remove line of text 123.obj
-lib/world/trg/index --Remove line of text 123.trg
-lib/world/shp/index --Remove line of text 123.shp
-lib/world/qst/index --Remove line of text 123.qst
-One done reboot to reload the World files
-You may not have index references to all of the above files.
-One last note of caution if you delete a zone reference that is used
-in the code for say mortal loadroom the MUD will not boot. So make
-sure that zone is not used anywhere in the code.
-
-See Also: ZEDIT-CREATE
+adventure[help]:zedit/delete
 #0
 ZEDIT-EQUIP
-
-   Choosing this option brings up the menu:
-
- 0)              Used as light  1)       Worn on right finger
- 2)        Worn on left finger  3)     First worn around Neck
- 4)    Second worn around Neck  5)               Worn on body
- 6)               Worn on head  7)               Worn on legs
- 8)               Worn on feet  9)              Worn on hands
-10)               Worn on arms 11)             Worn as shield
-12)            Worn about body 13)          Worn around waist
-14)    Worn around right wrist 15)     Worn around left wrist
-16)                    Wielded 17)                       Held
-Location to equip :
-
-   Choose the appropriate number. A mob may be equipped anywhere with anything
-regardless of where the object flags say it should be worn. Be careful not to
-equip the same position with more than one object.
-
-#31
-ZEDIT-FLAGS ZONEFLAGS ZONE-FLAGS
-
-These flags are set in zedit, and are global for the whole zone.
-
-CLOSED    - Players cannot enter the zone.
-NO_IMMORT - Immortals (below LVL_GRGOD) cannot enter the zone.
-QUEST     - Currently unimplemented.
-GRID      - Only zones 'on-the-grid' are shown on the areas command
-NOBUILD   - Locks the zone so that it cannot be edited. Can be unlocked only by
-            a GRGOD, IMPL, or someone in the zone's builders list.
-NOASTRAL  - Prevents teleportation magic from working to or from this zone.
-
-See Also: ZLOCK, ZUNLOCK, ZEDIT-MENU
+adventure[help]:zedit/equip
 #31
 ZEDIT-LEVELS ZONE-LEVELS
-
-A player is unable to enter the zone if their level is outside of the specified
-range. Summoning someone outside the range is not blocked, however. The level
-restrictions are shown on the areas command.
-
-See Also: ZEDIT-MENU, AREAS
-#31
-ZEDIT-LIFESPAN LIFESPAN ZEDITAGE ZEDIT-AGE TOP-OF-ZONE BOTTOM-OF-ZONE ZEDIT-TOP ZEDIT-BOTTOM ZONEAGE ZONE-AGE
-
-L) Lifespan    : @y30 minutes@n
-   The number of real-time minutes between zone resets for this zone. When the
-age of the zone (measured in minutes since the last time that zone has been
-reset) reaches the zones lifespan the zone is then reset when the conditions
-of the Reset Mode are satisfied.
-
-B) Bottom of zone : @y1300@n
-   The lowest numbered room belonging to this zone. This defines the bottom room
-of the zone - You should not change this.
-
-T) Top of zone : @y1399@n
-   The highest numbered room belonging to this zone. This defines the top room
-of the zone - You should not change this.
-
+adventure[help]:zedit/levels
 #31
 ZEDIT-MENU ZONE-EDIT ZONE-MENU
-
-Room number: @c1300@n              Room zone: @c13     @RHELP ZEDIT-ROOM@n
-1) Builders       : @yNone                         @RHELP ZEDIT-BUILDERS@n
-Z) Zone name      : @yNew Zone                     @RHELP ZEDIT-NAME@n
-L) Lifespan       : @y30 minutes                   @RHELP ZEDIT-LIFESPAN@n
-B) Bottom of zone : @y1300                         @RHELP ZEDIT-BOTTOM@n
-T) Top of zone    : @y1399                         @RHELP ZEDIT-TOP@n
-R) Reset Mode     : @yNormal reset.                @RHELP ZEDIT-RESET@n
-F) Zone Flags     : @cNOBITS                       @RHELP ZEDIT-FLAGS@n
-M) Level Range    : @y<Not Set!>                   @RHELP ZEDIT-LEVEL@n
-
-[Command list]                                   @RHELP ZEDIT-COMMANDS@n
-0 - <END OF LIST>
-N) New command.                                  @RHELP ZEDIT-NEW@n
-E) Edit a command.
-D) Delete a command.
-Q) Quit
-Enter your choice :
-
-See also: ZEDIT-EQUIP, MAXLOAD, DEPENDENT, ZRESET, ZEDIT-ADVANCED
-#31
-ZEDIT-NAME ZONE-NAME
-
-Z) Zone name   : @yNew Zone@n
-   The zone name is a label given to the zone so that it can be identified in
-system logs. As soon as you are assigned a zone give it a name.  Zone names
-will not normally be viewable by mortals.
-   Do not name zones like "Rumble's Zone" it is not a descriptive title.
-Use your imagination, Give your zone a proper name.  It will help us figure
-out what it is meant to be, and it will add to the game. Add your name to the
-end of the zone name to help us identify who it belongs too. If your name is
-not in your zone name or zone description room it may be deleted.
-
+adventure[help]:zedit/menu
 #31
 ZEDIT-NEW-COMMAND ZEDIT-DOOR MOB-LOAD MOB-INVENTORY ZEDIT-NEWCOMMAND ZEDIT-LOADING ZLOADING ZEDIT-DOORS ZEDIT-REMOVE
-
-   The number 1 mistake new builders make is not knowing what to do when they
-first enter zedit. All you do is type N for new and then 0 to add the new
-command to the top of the list.  Then follow the menu which is explained below.
-
-M) Load Mobile to room
-  Loads a mobile to the room.
-O) Load Object to room
-  Loads an object to a room.
-E) Equip mobile with object
-  This command should always be dependent on the mob load command before it.
-  Equipping a non-existing mob will result in an error. @RHELP DEPENDENT@n.
-  You do not need to load an object before equipping it to a mob.
-G) Give an object to a mobile
-  This command should always be dependent on the mob load command before it.
-  You do not need to load an object before giving it to a mob. The giving
-  assumes you want it loaded. Giving an object to a non-existing mob will
-  result in an error.
-P) Put object in another object
-  Again make sure the object exists before putting another object inside it
-  There is no limit to the number of objects you can put inside.
-D) Open/Close/Lock a Door
-  Set the state of a door. State being one of: 0 Open, 1 Closed, 2 Closed
-  and locked. Care should be taken to set both sides of a door correctly.
-  Closing the north exit of one room does not automatically close the south
-  exit of the room on the other side of the door. When setting a door locked,
-  use option 2). This will close and lock a door. It is not necessary to close
-  it with one command, then lock it with another. @RHELP REDIT-EXIT@n.
-R) Remove an object from the room
-  Important for reloading containers that a player may have emptied and to load
-  a single instance of an object with a maxload greater than 1. @RHELP FOUNTAIN@n,
-  @RHELP ZEDIT-ADVANCED@n. You can not remove items inside a container. You must
-  remove the container and then reload the container and all items
-T) Assign a trigger (Advanced builders only)
-  Attach a trigger to a mob, obj, or room. Usually done through REDIT, MEDIT,
-  or OEDIT.  DO NOT USE THIS OPTION WITHOUT FIRST CLEARING IT WITH A GREAT GOD
-  OR ABOVE.
-V) Set a global variable (Advanced builders only)
-  Set a global variable to be used by triggers. @RHELP GLOBAL@n.
-
-See also:  ZEDIT-CREATE, ZEDIT-EQUIP, MAXLOAD, ZRESET
-#31
-ZEDIT-RESETS RESET-MODES
-
-R) Reset Mode  : @yNormal reset.@n
-   Can take one of three values:
-   0) Never reset
-      The age of the zone is never updated, and it will never be reset. Thus,
-      the value of the Lifespan is effectively ignored.
-   1) Reset only when no players in zone
-      Reset the zone only after it reaches its Lifespan and after the zone
-      becomes deserted, i.e. as soon as there are no players located within
-      the zone (checked once every minute). This can make a zone more "fair"
-      because it will keep the hard mobs from reappearing in the zone until
-      everyone leaves, but on a busy MUD it can prevent a zone from ever being
-      reset since the zone may never stay empty for more than one minute.
-@  NOTE: Immortals are ignored if they have nohassle on.
-   2) Normal reset (DEFAULT)
-      Reset the zone as soon as it reaches its Lifespan, regardless of who or
-      what is in it. This is the most commonly used Reset Mode.
-
+adventure[help]:zedit/new
 #31
 ZEDIT-ROOM ZEDIT-NUMBER
-
-Room number: @c1300@n              Room zone: @c13@n
-   The room number is the room you are using zedit on. It must be within your
-zone. The room zone is to identify the zone. Zone numbers are the room numbers
-of the zone divided by 100; for example, The Builder Academy, which consists
-of rooms 1300 through 1399, is zone 13.
-
-#31
-ZLIST
-
-Usage: @yzlist                @n- List all zones
-@y       zlist <zone>         @n- Show info for one zone
-@y       zlist .              @n- Show info for the current zone
-@y       zlist <zone> <zone>  @n- List a range of zones
-@y       zlist <builder>      @n- List zones by one builder
-
-This command will show a list of zones, the zone information of the zone you
-are in or the zone information of the zone number you provide.
-
-The zone list may be limited to show a range of zones, or only show zones that
-have a particular builder name in the builder list.
-
-See also: OASIS, ZEDIT, SHOW-ZONE
-#31
-ZLOCK
-
-Usage: zlock <zone number>
-       zlock list
-
-Locks a zone so that building or editing is not possible.
-The 'list' shows all currently locked zones.
-'zlock all' will lock every zone with the GRID flag set.
-'zlock all all' will lock every zone in the MUD.
-
-See also: ZUNLOCK
+adventure[help]:zedit/room
 #31
 ZONE-COMPLETION COMPLETED-ZONE COMPLETION
-adventure[help]:zonecomplete
+adventure[help]:zones/complete
 #31
 ZONE-DELETION DELETION
 adventure[help]:zonedelete
 #31
 ZONE-DESCRIPTION-ROOM ZONE_DESCRIPTION_ROOM 00 EXAMPLE-ZONE-DESCRIPTIONS ZONE-INFO TEST-ZONE TRIAL-ZONE ZONE-DESCRIPTIONS ZEDIT-DESCRIPTION
-adventure[help]:zonedescription
+adventure[help]:zones/description
+#31
+ZEDIT-FLAGS ZONEFLAGS ZONE-FLAGS
+adventure[help]:zedit/flags
 #31
 ZONE-FORMAT ZON-FILES
-adventure[help]:zoneformat
+adventure[help]:zones/format
 #31
 ZONE-SIZES SIZES
-adventure[help]:zonesize
+adventure[help]:zones/size
 #31
 ZONES
-adventure[help]:zones
+adventure[help]:zones/main
 #0
 ZPURGE
-adventure[help]:zpurge
+adventure[help]:zones/purge
 #31
 ZRESET
-adventure[help]:zreset
+adventure[help]:zones/reset
 #31
 ZUNLOCK
-adventure[help]:zunlock
+adventure[help]:zones/unlock
 #31
 ZLOCK
-adventure[help]:zlock
+adventure[help]:zones/lock
 #31
 $~
