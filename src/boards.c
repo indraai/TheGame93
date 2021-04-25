@@ -202,7 +202,7 @@ int board_write_message(int board_type, struct char_data *ch, char *arg, struct 
   strftime(tmstr, sizeof(tmstr), "%a %b %d %Y", localtime(&ct));
 
   snprintf(buf2, sizeof(buf2), "%s", GET_NAME(ch));
-  snprintf(buf, sizeof(buf), "%s | %s | %s", tmstr, buf2, arg);
+  snprintf(buf, sizeof(buf), "%s|%s|%s", tmstr, buf2, arg);
   NEW_MSG_INDEX(board_type).heading = strdup(buf);
   NEW_MSG_INDEX(board_type).level = GET_LEVEL(ch);
 
@@ -251,7 +251,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d | %s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\nbulletin[%d]:%s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
@@ -261,7 +261,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d | %s\r", i + 1, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\nbulletin[%d]:%s\r", i + 1, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
