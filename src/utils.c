@@ -205,7 +205,7 @@ void basic_mud_vlog(const char *format, va_list args)
   for (i=0;i<21;i++) timestr[i]=0;
   strftime(timestr, sizeof(timestr), "%b %d %H:%M:%S %Y", localtime(&ct));
 
-  fprintf(logfile, "%-20.20s ", timestr);
+  fprintf(logfile, "%-20.20s :: ", timestr);
   vfprintf(logfile, format, args);
   fputc('\n', logfile);
   fflush(logfile);

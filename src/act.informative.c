@@ -100,7 +100,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
       }
     }
     send_to_char(ch, "%s", CCGRN(ch, C_NRM));
-    send_to_char(ch, "%s", obj->description);
+    send_to_char(ch, "\n%s\r", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -113,7 +113,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "%s", obj->short_description);
+    send_to_char(ch, "\n%s\r", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
@@ -122,18 +122,18 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
       if (obj->action_description) {
         char notebuf[MAX_NOTE_LENGTH + 64];
 
-        snprintf(notebuf, sizeof(notebuf), "There is something written on it:\r\n\r\n%s", obj->action_description);
+        snprintf(notebuf, sizeof(notebuf), "\nwriting: %s\r", obj->action_description);
         page_string(ch->desc, notebuf, TRUE);
       } else
 	send_to_char(ch, "It's blank.\r\n");
       return;
 
     case ITEM_DRINKCON:
-      send_to_char(ch, "It looks like a drink container.");
+      send_to_char(ch, "\nIt looks like a drink container.\r");
       break;
 
     default:
-      send_to_char(ch, "You see nothing special..");
+      send_to_char(ch, "\nYou see nothing special..\r");
       break;
     }
     break;
@@ -148,9 +148,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
     return;
   }
   end:
-
   show_obj_modifiers(obj, ch);
-  send_to_char(ch, "\r\n");
 }
 
 static void show_obj_modifiers(struct obj_data *obj, struct char_data *ch)
