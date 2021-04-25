@@ -201,8 +201,8 @@ int board_write_message(int board_type, struct char_data *ch, char *arg, struct 
   ct = time(0);
   strftime(tmstr, sizeof(tmstr), "%a %b %d %Y", localtime(&ct));
 
-  snprintf(buf2, sizeof(buf2), "(%s)", GET_NAME(ch));
-  snprintf(buf, sizeof(buf), "%s %-12s :: %s", tmstr, buf2, arg);
+  snprintf(buf2, sizeof(buf2), "%s", GET_NAME(ch));
+  snprintf(buf, sizeof(buf), "\n%s | %s | %s\r", tmstr, buf2, arg);
   NEW_MSG_INDEX(board_type).heading = strdup(buf);
   NEW_MSG_INDEX(board_type).level = GET_LEVEL(ch);
 
@@ -244,9 +244,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
 
     len = snprintf(buf, sizeof(buf),
 		"\n# Bulletin Board\r"
-		"\nThere are %d messages on the board.\r"
-    "\ninput[write:header]: <none>\r"
-    "\ndescrip[body:body]: <none>\r",
+		"\nThere are %d messages on the board.\r",
 		num_of_msgs[board_type]);
 
 #if NEWEST_AT_TOP
@@ -254,7 +252,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "%-2d : %s\r\n", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d. %s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
