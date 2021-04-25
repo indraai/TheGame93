@@ -243,7 +243,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
     int nlen;
 
     len = snprintf(buf, sizeof(buf),
-		"\n# Bulletin Board (%s)\r",
+		"\n# Bulletin Board (%d)\r",
 		num_of_msgs[board_type]);
 
 #if NEWEST_AT_TOP
