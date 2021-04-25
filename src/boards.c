@@ -252,7 +252,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d. %s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d | %s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
