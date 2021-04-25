@@ -202,7 +202,7 @@ int board_write_message(int board_type, struct char_data *ch, char *arg, struct 
   strftime(tmstr, sizeof(tmstr), "%a %b %d %Y", localtime(&ct));
 
   snprintf(buf2, sizeof(buf2), "%s", GET_NAME(ch));
-  snprintf(buf, sizeof(buf), "\n%s | %s | %s\r", tmstr, buf2, arg);
+  snprintf(buf, sizeof(buf), "%s | %s | %s", tmstr, buf2, arg);
   NEW_MSG_INDEX(board_type).heading = strdup(buf);
   NEW_MSG_INDEX(board_type).level = GET_LEVEL(ch);
 
@@ -243,8 +243,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
     int nlen;
 
     len = snprintf(buf, sizeof(buf),
-		"\n# Bulletin Board\r"
-		"\nThere are %d messages on the board.\r",
+		"\n# Bulletin Board (%d)\r",
 		num_of_msgs[board_type]);
 
 #if NEWEST_AT_TOP
