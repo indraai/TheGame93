@@ -102,7 +102,7 @@ int no_mort_to_immort = YES;
 
 /* Are diagonal directions enabled?
 * If set to NO, then only the 6 directions n,e,s,w,u,d are allowed */
-int diagonal_dirs = NO;
+int diagonal_dirs = YES;
 
 /* RENT/CRASHSAVE OPTIONS */
 /* Should the MUD allow you to 'rent' for free?  (i.e. if you just quit, your
@@ -113,7 +113,7 @@ int free_rent = YES;
 int max_obj_save = 30;
 
 /* Receptionist's surcharge on top of item costs. */
-int min_rent_cost = 100;
+int min_rent_cost = 10;
 
 /* Should the game automatically save people?  (i.e., save player data every 4
  * kills (on average), and Crash-save as defined below. If auto_save is YES,
@@ -199,7 +199,7 @@ int bitsavetodisk = TRUE;
  * the command-line.  NOTE WELL: If you're using the 'autorun' script, the port
  * number there will override this setting. Change the PORT= line in autorun
  * instead of (or in addition to) changing this. */
-ush_int DFLT_PORT = 4000;
+ush_int DFLT_PORT = 9300;
 
 /* IP address to which the MUD should bind.  This is only useful if you're
  * running Circle on a host that host more than one IP interface, and you only
@@ -222,7 +222,7 @@ const char *LOGNAME = NULL;
 /* const char *LOGNAME = "log/syslog";  -- useful for Windows users */
 
 /* Maximum number of players allowed before game starts to turn people away. */
-int max_playing = 300;
+int max_playing = 93;
 
 /* Maximum size of bug, typo and idea files in bytes (to prevent bombing). */
 int max_filesize = 50000;
@@ -272,7 +272,7 @@ const char *WELC_MESSG =
 "\nWelcome to TheGame93!  May your adventure here be... EXCELLENT!\r";
 
 const char *START_MESSG =
-"\nWelcome.  This is your new deva!  You can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r";
+"\nWelcome.  Now you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
