@@ -78,15 +78,15 @@ ACMD(do_tedit)
 	{ "news",	LVL_GRGOD,	&news,		8192,	NEWS_FILE},
 	{ "motd",	LVL_GRGOD,	&motd,		2400,	MOTD_FILE},
 	{ "imotd",	LVL_IMPL,	&imotd,		2400,	IMOTD_FILE},
-        { "greetings",  LVL_IMPL,       &GREETINGS,     2400,   GREETINGS_FILE},
-        { "help",       LVL_GRGOD,      &help,          2400,   HELP_PAGE_FILE},
+  { "greetings",  LVL_IMPL,       &GREETINGS,     2400,   GREETINGS_FILE},
+  { "help",       LVL_GRGOD,      &help,          2400,   HELP_PAGE_FILE},
 	{ "ihelp",      LVL_GRGOD,	&ihelp, 	2400,	IHELP_PAGE_FILE},
 	{ "info",	LVL_GRGOD,	&info,		8192,	INFO_FILE},
 	{ "background",	LVL_IMPL,	&background,	8192,	BACKGROUND_FILE},
 	{ "handbook",   LVL_IMPL,	&handbook,	8192,   HANDBOOK_FILE},
 	{ "policies",	LVL_IMPL,	&policies,	8192,	POLICIES_FILE},
-        { "wizlist",    LVL_IMPL,       &wizlist,       2400,   WIZLIST_FILE},
-        { "immlist",    LVL_GRGOD,      &immlist,       2400,   IMMLIST_FILE},
+  { "wizlist",    LVL_IMPL,       &wizlist,       2400,   WIZLIST_FILE},
+  { "immlist",    LVL_GRGOD,      &immlist,       2400,   IMMLIST_FILE},
 	{ "\n",		0,		NULL,		0,	NULL }
   };
 
