@@ -4,15 +4,16 @@ adventure[help]:general/bang
 SOUND ASOUND
 adventure[help]:general/sound
 #31
+AT
 adventure[help]:general/at
 #31
-%DAMAGE% ODAMAGE MDAMAGE WDAMAGE TRIGEDIT-DAMAGE TRIGEDIT-ROOM-DAMAGE TRIG-DAMAGE
+DAMAGE
 adventure[help]:general/damage
 #31
 DOOR EXIT
 adventure[help]:general/door
 #31
-%ECHO% %ECHOAROUND% %SEND% TRIG-SEND %ZONEECHO% ZONEECHO ZONECHO %ZONECHO% ZECHOAROUND ECHOAROUND OECHO WECHO MECHO OECHOAROUND WECHOAROUND MECHOAROUD OSEND WSEND MSEND ZONECHO RECHO %ZECHO% ZSOUND MECHOAROUND MZONEECHO MRECHO
+ECHO
 adventure[help]:general/echo
 #31
 FOLLOW MASTER
@@ -36,13 +37,13 @@ adventure[help]:general/purge
 TELEPORT PORTAL
 adventure[help]:general/teleport
 #31
-%TRANSFORM% MTRANSFORMS OTRANSFORMS TRANSFORMS MORPHS MTRANSFERS TRIG-MOB-TRANSFORM
+TRANSFORM MORPH
 adventure[help]:general/transform
 #31
-<TOPIC> <COMMAND> COMMAND> TOPICS
+TOPIC TOPICS
 adventure[help]:general/topic
 #31
-@@
+@@ COLORS
 adventure[help]:general/colors
 #31
 ABBREVIATIONS ABBREVS
@@ -54,16 +55,16 @@ adventure[help]:general/armor
 ACRONYMS TERMINOLOGY VOCABULARY
 adventure[help]:general/acronyms
 #31
-ACTOR.INVENTORY ACTOR-INVENTORY
+INVENTORY ACTOR.INVENTORY ACTOR-INVENTORY
 adventure[help]:actor/inventory
 #31
-ACTOR.LEVEL ACTOR-LEVEL
+LEVEL ACTOR.LEVEL ACTOR-LEVEL
 adventure[help]:actor/level
 #31
-ADVANCE DEMOTE
+ADVANCE DEMOTE ACTOR.ADVANCE
 adventure[help]:general/advance
 #31
-AEDIT-MENU ACTION-EDITOR ACREATE SOCIAL-EDITOR
+AEDIT AEDIT-MENU ACTION-EDITOR ACREATE SOCIAL-EDITOR
 adventure[help]:aedit/main
 #31
 AFFECTS AFF
@@ -81,7 +82,7 @@ adventure[help]:general/alias
 ALIGNMENT GOOD NEUTRAL EVIL
 adventure[help]:general/alignement
 #31
-ANIMATE-DEAD
+ANIMATE ANIMATE-DEAD
 adventure[help]:spells/animate.feecting
 #0
 ANTI
@@ -120,7 +121,7 @@ adventure[help]:general/autoassist
 AUTODOOR
 adventure[help]:general/autodoor
 #0
-AUTOEXITS AUTO-EXITS
+AUTOEXIT AUTOEXITS AUTO-EXITS
 adventure[help]:general/autoexits
 #0
 AUTOGOLD
@@ -132,7 +133,7 @@ adventure[help]:general/autokey
 AUTOLOOT
 adventure[help]:general/autoloot
 #0
-AUTOMAPPING MAPS
+AUTOMAP AUTOMAPPING MAPS
 adventure[help]:general/maps
 #0
 AUTOQUEST
@@ -147,13 +148,8 @@ adventure[help]:general/autosplit
 AUTOWIZ
 adventure[help]:general/autowiz
 #31
-BACKDOOR HACKING
-
-   Not a good thing to be searching for help on. Your IP address has been logged
-and we will be contacting your service provider. Just Kidding. tbaMUD is
-actually very stable. I have never heard of one being hacked except via weak or
-compromised passwords.
-
+BACKDOOR HACKING HACK
+adventure[help]:general/hack
 #0
 BACKSTAB
 
