@@ -257,19 +257,16 @@ Please report any strange occurrences to the indra.money manager.
 
 ~
 #3035
-fountain water~
-the large fountain~
-A large fountain carved from blue-streaked marble is here, bubbling merrily.~
+fountain water f3035~
+F3035 Water Fountain~
+F3035 Water Fountain is here.~
 ~
 23 cdeg 0 0 0 0 0 0 0 0 0 0 0
 500 500 15 0
 505 0 0 0 0
 E
 marble blue streaked fountain~
-   It is a well crafted fountain, carved from a single piece of very beautiful
-white marble shot through with electric blue streaks that look almost like
-lightning dancing along the sides of the fountain.  It seems to be enchanted in
-some manner, as the water level seems to never lower.
+It is a well crafted fountain, carved from a single piece of very beautiful white marble shot through with electric blue streaks that look almost like lightning dancing along the sides of the fountain.  It seems to be enchanted in some manner, as the water level seems to never lower.
 ~
 #3036
 cashcard card atm banks~
