@@ -241,20 +241,22 @@ A TSL1-BO Box is here.~
 10 0 0 0
 5 50 10 0 0
 #3034
-atm teller bank machine money indra.money~
-an indra.money machine~
-An indra.money machine has been installed in the wall here.~
+atm teller bank money atm3034~
+ATM3034 Indra Money machine~
+ATM3034 Indra Money machine is here.~
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
 atm teller bank machine~
-There is a small note on the machine which says:
+### Instructions
 
-To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
-Please report any strange occurrences to the indra.money manager.
+balance: BALANCE
+withdraw: WITHDRAW [amount]
+deposit: DEPOSIT [amount]
 
+note: Please report any strange occurrences to the Indra Money manager.
 ~
 #3035
 fountain water f3035~
@@ -269,20 +271,22 @@ marble blue streaked fountain~
 It is a well crafted fountain, carved from a single piece of very beautiful white marble shot through with electric blue streaks that look almost like lightning dancing along the sides of the fountain.  It seems to be enchanted in some manner, as the water level seems to never lower.
 ~
 #3036
-cashcard card atm banks~
-a cashcard~
-A handy dandy cashcard is sitting on the ground here.~
+moneycard money atm banks mc3036~
+MC3036 Money Card~
+MC3036 Money Card is here.~
 ~
 12 cdeg 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1000 10 0 0
 E
-cashcard card atm~
-   There is some writing on the back of the card which reads:
+moneycard money atm~
+### Instructions
 
-To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
-Please report any strange occurrences to the bank manager.
+balance: BALANCE
+withdraw: WITHDRAW [amount]
+deposit: DEPOSIT [amount]
 
+note: Please report any strange occurrences to the Indra Money manager.
 ~
 #3037
 tsl1-led~
