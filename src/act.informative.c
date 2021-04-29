@@ -799,9 +799,8 @@ ACMD(do_score)
     return;
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
-    send_to_char(ch, "  It's your birthday today.\r\n");
+    send_to_char(ch, "  It's your birthday.\r\n");
 
-  send_to_char(ch, "\n::BEGIN:SCORE\r");
   send_to_char(ch, "\nname: %s\r", GET_NAME(ch));
   send_to_char(ch, "\nage: %dyrs\r", GET_AGE(ch));
   send_to_char(ch, "\ngold: %d\r", GET_GOLD(ch));
@@ -840,107 +839,101 @@ ACMD(do_score)
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "You are DEAD!\r\n");
+    send_to_char(ch, "\nYou are dead.\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "You are mortally wounded!  You should seek help!\r\n");
+    send_to_char(ch, "\nYou are wounded.\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "You are incapacitated, slowly fading away...\r\n");
+    send_to_char(ch, "\nYou are incapacitated.\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "You are stunned!  You can't move!\r\n");
+    send_to_char(ch, "\nYou are stunned.\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "You are sleeping.\r\n");
+    send_to_char(ch, "\nYou are sleeping.\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "You are resting.\r\n");
+    send_to_char(ch, "\nYou are resting.\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "You are sitting.\r\n");
+      send_to_char(ch, "\nYou are sitting.\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "You are sitting upon %s.\r\n", furniture->short_description);
+      send_to_char(ch, "\nYou are sitting on %s.\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "You are fighting %s.\r\n", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\nYou are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "You are standing.\r\n");
+    send_to_char(ch, "\nYou are standing.\r");
     break;
   default:
-    send_to_char(ch, "You are floating.\r\n");
+    send_to_char(ch, "\nYou are floating.\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "You are intoxicated.\r\n");
+    send_to_char(ch, "\nYou are drunk.\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "You are hungry.\r\n");
+    send_to_char(ch, "\nYou are hungry.\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "You are thirsty.\r\n");
+    send_to_char(ch, "\nYou are thirsty.\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "You have been blinded!\r\n");
+    send_to_char(ch, "\nYou blind.\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "You are invisible.\r\n");
+    send_to_char(ch, "\nYou are invisible.\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "You are sensitive to the presence of invisible things.\r\n");
+    send_to_char(ch, "\nYou are sensitive to invisible things.\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "You are protected by Sanctuary.\r\n");
+    send_to_char(ch, "\nYou are protected by Sanctuary.\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "You are poisoned!\r\n");
+    send_to_char(ch, "\nYou are poisoned.\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "You have been charmed!\r\n");
+    send_to_char(ch, "\nYou are charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "You feel protected.\r\n");
+    send_to_char(ch, "\nYou are protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "Your eyes are glowing red.\r\n");
+    send_to_char(ch, "\nYour eyes are red.\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "You are summonable by other players.\r\n");
+    send_to_char(ch, "\nYou can be summoned.\r");
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
-      send_to_char(ch, "%sPOOFIN:  %s%s %s%s\r\n", QYEL, QCYN, GET_NAME(ch), POOFIN(ch), QNRM);
+      send_to_char(ch, "\nPOOFIN:  %s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "%sPOOFIN:  %s%s appears with an ear-splitting bang.%s\r\n", QYEL, QCYN, GET_NAME(ch), QNRM);
+      send_to_char(ch, "\nPOOFIN:  %s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
-      send_to_char(ch, "%sPOOFOUT: %s%s %s%s\r\n", QYEL, QCYN, GET_NAME(ch), POOFOUT(ch), QNRM);
+      send_to_char(ch, "\nPOOFOUT: %s %s\r", GET_NAME(ch), POOFOUT(ch));
     else
-      send_to_char(ch, "%sPOOFOUT: %s%s disappears in a puff of smoke.%s\r\n", QYEL, QCYN, GET_NAME(ch), QNRM);
+      send_to_char(ch, "\nPOOFOUT: %s has disappeared.\r", GET_NAME(ch));
 
-    send_to_char(ch, "Your current zone: %s%d%s\r\n", CCCYN(ch, C_NRM), GET_OLC_ZONE(ch), CCNRM(ch, C_NRM));
+    send_to_char(ch, "\nzone: %d\r", GET_OLC_ZONE(ch));
   }
-  send_to_char(ch, "\n::END:SCORE\n\r");
-
 }
 
 ACMD(do_inventory)
 {
-  send_to_char(ch, "::BEGIN:INVENTORY\r\n");
   list_obj_to_char(ch->carrying, ch, SHOW_OBJ_SHORT, TRUE);
-  send_to_char(ch, "::END:INVENTORY\r\n");
 }
 
 ACMD(do_equipment)
 {
   int i, found = 0;
-
-  send_to_char(ch, "::BEGIN:EQUIPMENT\r\n");
   for (i = 0; i < NUM_WEARS; i++) {
     if (GET_EQ(ch, i)) {
       found = TRUE;
@@ -955,8 +948,6 @@ ACMD(do_equipment)
   }
   if (!found)
     send_to_char(ch, " Nothing.\r\n");
-
-  send_to_char(ch, "::END:EQUIPMENT\r\n");
 }
 
 ACMD(do_time)
