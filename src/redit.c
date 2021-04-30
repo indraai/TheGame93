@@ -460,9 +460,9 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nselect[5:north]: %d\r"
       "\nselect[6:east]: %d\r"
       "\nselect[7:south]: %d\r"
-      "\nselect[8:west]: %d\r",
+      "\nselect[8:west]: %d\r"
       "\nselect[9:Up]: %d\r"
-      "\nselect[A:Down]: %d\r"
+      "\nselect[A:Down]: %d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
