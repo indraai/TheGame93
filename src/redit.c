@@ -472,34 +472,30 @@ static void redit_disp_menu(struct descriptor_data *d)
       world[room->dir_option[WEST]->to_room].number : -1);
   } else {
     write_to_output(d,
-      "%s5%s) Exit north  : %s%-6d%s,  %sB%s) Exit northwest : %s%d\r\n"
-      "%s6%s) Exit east   : %s%-6d%s,  %sC%s) Exit northeast : %s%d\r\n"
-      "%s7%s) Exit south  : %s%-6d%s,  %sD%s) Exit southeast : %s%d\r\n"
-      "%s8%s) Exit west   : %s%-6d%s,  %sE%s) Exit southwest : %s%d\r\n",
-      grn, nrm, cyn,
+      "\nselect[5:north]: %d\r"
+      "\nselect[6:east]: %d\r"
+      "\nselect[7:south]: %d\r"
+      "\nselect[8:west]: %d\r"
+      "\nselect[B:northwest]:%d\r"
+      "\nselect[C:northeast]: %d\r"
+      "\nselect[D:southeast]: %d\r"
+      "\nselect[E:southwest]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
-      world[room->dir_option[NORTH]->to_room].number : -1, nrm,
-      grn, nrm, cyn,
-      room->dir_option[NORTHWEST] && room->dir_option[NORTHWEST]->to_room != NOWHERE ?
-      world[room->dir_option[NORTHWEST]->to_room].number : -1,
-      grn, nrm, cyn,
+      world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
-      world[room->dir_option[EAST]->to_room].number : -1, nrm,
-      grn, nrm, cyn,
+      world[room->dir_option[EAST]->to_room].number : -1,
+      room->dir_option[SOUTH] && room->dir_option[SOUTH]->to_room != NOWHERE ?
+      world[room->dir_option[SOUTH]->to_room].number : -1,
+      room->dir_option[WEST] && room->dir_option[WEST]->to_room != NOWHERE ?
+      world[room->dir_option[WEST]->to_room].number : -1,
       room->dir_option[NORTHEAST] && room->dir_option[NORTHEAST]->to_room != NOWHERE ?
       world[room->dir_option[NORTHEAST]->to_room].number : -1,
-      grn, nrm, cyn,
-      room->dir_option[SOUTH] && room->dir_option[SOUTH]->to_room != NOWHERE ?
-      world[room->dir_option[SOUTH]->to_room].number : -1, nrm,
-      grn, nrm, cyn,
+      room->dir_option[NORTHWEST] && room->dir_option[NORTHWEST]->to_room != NOWHERE ?
+      world[room->dir_option[NORTHWEST]->to_room].number : -1,
       room->dir_option[SOUTHEAST] && room->dir_option[SOUTHEAST]->to_room != NOWHERE ?
       world[room->dir_option[SOUTHEAST]->to_room].number : -1,
-      grn, nrm, cyn,
-      room->dir_option[WEST] && room->dir_option[WEST]->to_room != NOWHERE ?
-      world[room->dir_option[WEST]->to_room].number : -1, nrm,
-      grn, nrm, cyn,
       room->dir_option[SOUTHWEST] && room->dir_option[SOUTHWEST]->to_room != NOWHERE ?
-      world[room->dir_option[SOUTHWEST]->to_room].number : -1
+      world[room->dir_option[SOUTHWEST]->to_room].number : -1,
       );
   }
   write_to_output(d,
