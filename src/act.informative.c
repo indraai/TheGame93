@@ -99,7 +99,6 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "%s", CCGRN(ch, C_NRM));
     send_to_char(ch, "\n%s\r", obj->description);
     break;
 
@@ -125,7 +124,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
         snprintf(notebuf, sizeof(notebuf), "\nwriting: %s\r", obj->action_description);
         page_string(ch->desc, notebuf, TRUE);
       } else
-	send_to_char(ch, "It's blank.\r\n");
+	send_to_char(ch, "\nIt's blank.\r");
       return;
 
     case ITEM_DRINKCON:
@@ -206,10 +205,10 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
       if (mode == SHOW_OBJ_LONG)
         send_to_char(ch, "%s", CCGRN(ch, C_NRM));
+
+      show_obj_to_char(display, ch, mode);
       if (num != 1)
         send_to_char(ch, "(%2i) ", num);
-      show_obj_to_char(display, ch, mode);
-      send_to_char(ch, "%s", CCNRM(ch, C_NRM));
       found = TRUE;
     }
   }
@@ -938,16 +937,16 @@ ACMD(do_equipment)
     if (GET_EQ(ch, i)) {
       found = TRUE;
       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
-        send_to_char(ch, "%s", wear_where[i]);
+        send_to_char(ch, "\n%s\r", wear_where[i]);
         show_obj_to_char(GET_EQ(ch, i), ch, SHOW_OBJ_SHORT);
       } else {
-        send_to_char(ch, "%s", wear_where[i]);
-        send_to_char(ch, "Something.\r\n");
+        send_to_char(ch, "\n%s\r", wear_where[i]);
+        send_to_char(ch, "\nSomething.\r");
       }
     }
   }
   if (!found)
-    send_to_char(ch, " Nothing.\r\n");
+    send_to_char(ch, "\nNothing.\r");
 }
 
 ACMD(do_time)
