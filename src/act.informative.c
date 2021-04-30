@@ -457,16 +457,16 @@ ACMD(do_exits)
     len++;
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS) && !EXIT_FLAGGED(EXIT(ch, door), EX_CLOSED))
-      send_to_char(ch, "%-5s - [%5d]%s %s\r\n", dirs[door], GET_ROOM_VNUM(EXIT(ch, door)->to_room),
+      send_to_char(ch, "%s - [%d]%s %s\r\n", dirs[door], GET_ROOM_VNUM(EXIT(ch, door)->to_room),
       EXIT_FLAGGED(EXIT(ch, door), EX_HIDDEN) ? " [HIDDEN]" : "", world[EXIT(ch, door)->to_room].name);
     else if (CONFIG_DISP_CLOSED_DOORS && EXIT_FLAGGED(EXIT(ch, door), EX_CLOSED)) {
       /* But we tell them the door is closed */
-      send_to_char(ch, "%-5s - The %s is closed%s\r\n", dirs[door],
+      send_to_char(ch, "%s - The %s is closed%s\r\n", dirs[door],
 		(EXIT(ch, door)->keyword)? fname(EXIT(ch, door)->keyword) : "opening",
 		EXIT_FLAGGED(EXIT(ch, door), EX_HIDDEN) ? " and hidden." : ".");
       }
     else
-      send_to_char(ch, "\nexit:%s:%s\r", dirs[door], IS_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch) ? "Too dark to tell." : world[EXIT(ch, door)->to_room].name);
+      send_to_char(ch, "\nexit[%s]:%s\r", dirs[door], IS_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch) ? "Too dark to see." : world[EXIT(ch, door)->to_room].name);
   }
 
   if (!len)
