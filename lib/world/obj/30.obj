@@ -240,9 +240,9 @@ A TSL1-BO Box is here.~
 10 0 0 0
 5 50 10 0 0
 #3034
-atm teller bank money atm3034~
-ATM3034 Indra Money machine~
-ATM3034 Indra Money machine is here.~
+atm teller bank money imm~
+Indra Money Machine~
+An Indra Money machine is here.~
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -270,15 +270,15 @@ marble blue streaked fountain~
 It is a well crafted fountain, carved from a single piece of very beautiful white marble shot through with electric blue streaks that look almost like lightning dancing along the sides of the fountain.  It seems to be enchanted in some manner, as the water level seems to never lower.
 ~
 #3036
-moneycard money atm banks mc3036~
-MC3036 Money Card~
-MC3036 Money Card is here.~
+money card imc~
+Indra Money Card~
+An Indra Money Card is here.~
 ~
 12 cdeg 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1000 10 0 0
 E
-moneycard money atm~
+moneycard money card~
 ### Instructions
 
 balance: BALANCE
