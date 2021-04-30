@@ -495,7 +495,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       room->dir_option[SOUTHEAST] && room->dir_option[SOUTHEAST]->to_room != NOWHERE ?
       world[room->dir_option[SOUTHEAST]->to_room].number : -1,
       room->dir_option[SOUTHWEST] && room->dir_option[SOUTHWEST]->to_room != NOWHERE ?
-      world[room->dir_option[SOUTHWEST]->to_room].number : -1,
+      world[room->dir_option[SOUTHWEST]->to_room].number : -1
       );
   }
   write_to_output(d,
