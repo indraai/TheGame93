@@ -203,16 +203,16 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG || *display->description != '.' ||
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
-      send_to_char(ch, "\n");
-      show_obj_to_char(display, ch, mode);
-      if (num != 1)
-        send_to_char(ch, " (%2i)", num);
-      send_to_char(ch, "\r");
+      send_to_char(ch, "\n%s\r", display->short_description);
+      // show_obj_to_char(display, ch, mode);
+      // if (num != 1)
+      //   send_to_char(ch, " (%i)", num);
+      // send_to_char(ch, "\r");
       found = TRUE;
     }
   }
   if (!found && show)
-    send_to_char(ch, "  Nothing.\r\n");
+    send_to_char(ch, "\nNothing.\r");
 }
 
 static void diag_char_to_char(struct char_data *i, struct char_data *ch)
