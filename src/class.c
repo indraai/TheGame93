@@ -26,8 +26,8 @@
 
 /* Names first */
 const char *class_abbrevs[] = {
-  "Mu",
-  "Cl",
+  "Sa",
+  "Mo",
   "Th",
   "Wa",
   "\n"
@@ -124,10 +124,10 @@ int prac_params[4][NUM_CLASSES] = {
 struct guild_info_type guild_info[] = {
 
 /* Amaravati */
- { CLASS_SAGE,    3017,    SOUTH   },
- { CLASS_MONK,        3004,    NORTH   },
- { CLASS_THIEF,         3027,    EAST   },
- { CLASS_WARRIOR,       3021,    EAST   },
+ { CLASS_SAGE, 3017, SOUTH },
+ { CLASS_MONK, 3004, NORTH },
+ { CLASS_THIEF, 3027, EAST },
+ { CLASS_WARRIOR, 3021, EAST },
 
 /* Brass Dragon */
   { -999 /* all */ ,	5065,	WEST	},
