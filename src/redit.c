@@ -453,7 +453,6 @@ static void redit_disp_menu(struct descriptor_data *d)
       room->description,
       buf1,
       buf2);
-
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
@@ -462,24 +461,8 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nselect[6:east]: %d\r"
       "\nselect[7:south]: %d\r"
       "\nselect[8:west]: %d\r",
-      room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
-      world[room->dir_option[NORTH]->to_room].number : -1,
-      room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
-      world[room->dir_option[EAST]->to_room].number : -1,
-      room->dir_option[SOUTH] && room->dir_option[SOUTH]->to_room != NOWHERE ?
-      world[room->dir_option[SOUTH]->to_room].number : -1,
-      room->dir_option[WEST] && room->dir_option[WEST]->to_room != NOWHERE ?
-      world[room->dir_option[WEST]->to_room].number : -1);
-  } else {
-    write_to_output(d,
-      "\nselect[5:north]: %d\r"
-      "\nselect[6:east]: %d\r"
-      "\nselect[7:south]: %d\r"
-      "\nselect[8:west]: %d\r"
-      "\nselect[B:northwest]:%d\r"
-      "\nselect[C:northeast]: %d\r"
-      "\nselect[D:southeast]: %d\r"
-      "\nselect[E:southwest]:%d\r",
+      "\nselect[9:Up]: %d\r"
+      "\nselect[A:Down]: %d\r"
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -488,6 +471,36 @@ static void redit_disp_menu(struct descriptor_data *d)
       world[room->dir_option[SOUTH]->to_room].number : -1,
       room->dir_option[WEST] && room->dir_option[WEST]->to_room != NOWHERE ?
       world[room->dir_option[WEST]->to_room].number : -1,
+      room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
+      world[room->dir_option[UP]->to_room].number : -1,
+      room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?
+      world[room->dir_option[DOWN]->to_room].number : -1
+    );
+  } else {
+    write_to_output(d,
+      "\n## Exits\r"
+      "\nselect[5:north]: %d\r"
+      "\nselect[6:east]: %d\r"
+      "\nselect[7:south]: %d\r"
+      "\nselect[8:west]: %d\r"
+      "\nselect[9:Up]: %d\r"
+      "\nselect[A:Down]: %d\r"
+      "\nselect[B:northwest]: %d\r"
+      "\nselect[C:northeast]: %d\r"
+      "\nselect[D:southeast]: %d\r"
+      "\nselect[E:southwest]: %d\r",
+      room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
+      world[room->dir_option[NORTH]->to_room].number : -1,
+      room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
+      world[room->dir_option[EAST]->to_room].number : -1,
+      room->dir_option[SOUTH] && room->dir_option[SOUTH]->to_room != NOWHERE ?
+      world[room->dir_option[SOUTH]->to_room].number : -1,
+      room->dir_option[WEST] && room->dir_option[WEST]->to_room != NOWHERE ?
+      world[room->dir_option[WEST]->to_room].number : -1,
+      room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
+      world[room->dir_option[UP]->to_room].number : -1,
+      room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?
+      world[room->dir_option[DOWN]->to_room].number : -1,
       room->dir_option[NORTHEAST] && room->dir_option[NORTHEAST]->to_room != NOWHERE ?
       world[room->dir_option[NORTHEAST]->to_room].number : -1,
       room->dir_option[NORTHWEST] && room->dir_option[NORTHWEST]->to_room != NOWHERE ?
@@ -496,22 +509,16 @@ static void redit_disp_menu(struct descriptor_data *d)
       world[room->dir_option[SOUTHEAST]->to_room].number : -1,
       room->dir_option[SOUTHWEST] && room->dir_option[SOUTHWEST]->to_room != NOWHERE ?
       world[room->dir_option[SOUTHWEST]->to_room].number : -1
-      );
+    );
   }
   write_to_output(d,
-      "\nselect[9:Up]: %d\r"
-      "\nselect[A:Down]: %d\r"
-      "\n==\n"
+      "\n=\n"
       "\nmenu[extra description]:F\r"
       "\nmenu[script menu %s]:S\r"
       "\nmenu[copy room]:W\r"
       "\nmenu[delete room]:X\r"
-      "\n==\n"
+      "\n=\n"
       "\nmenu[quit]:Q\r",
-      room->dir_option[UP] && room->dir_option[UP]->to_room != NOWHERE ?
-      world[room->dir_option[UP]->to_room].number : -1,
-      room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?
-      world[room->dir_option[DOWN]->to_room].number : -1,
       OLC_SCRIPT(d) ? "Set." : "Not Set."
       );
 
