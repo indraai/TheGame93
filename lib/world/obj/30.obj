@@ -47,9 +47,9 @@ A key made of a dull metal is lying on the ground here.~
 0 0 0 0
 1 1 0 0 0
 #3006
-teleporter~
-the teleporter~
-A strange device labeled "teleporter" was left here.~
+tsl1 tsl1-te teleporter~
+TSl1-TE Teleporter~
+A TSL1-TE Teleporter is here.~
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -62,7 +62,7 @@ This teleporter is used to transfer players between zones.  Accessible zones
 are listed under HELP ZONES by being CAPITALIZED.  For example to teleport to:
   74 Newbie GRAVEyard                   -- Jojen                       3- 5
 type: teleport grave
-   The teleporter may also be used to recall back to Amaravati at any time.
+The teleporter may also be used to recall back to Amaravati at any time.
 
 Uncapitalized zones are linked through a capitalized zone.
 ~
@@ -76,8 +76,7 @@ Some waybread has been put here.~
 1 50 50 0 0
 E
 waybread bread~
-   The waybread is the traditional feed of elves when travelling, they call it
-lembas.  It is said to refresh the weary traveler greatly.
+The waybread is the traditional feed of elves when travelling, they call it lembas.  It is said to refresh the weary traveler greatly.
 ~
 #3010
 bread loaf~
@@ -88,9 +87,9 @@ A loaf of bread has been left here.~
 12 0 0 0
 1 10 10 0 0
 #3011
-danish pastry~
-a danish pastry~
-A nice looking delicious danish pastry has been placed here.~
+cheese danish~
+a cheese danish~
+A nice looking delicious cheese danish has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
@@ -137,9 +136,9 @@ One of the tackle dummies must have dropped this amazingly tasty looking chunk
 of cheese here just for you.
 ~
 #3020
-dagger~
-a dagger~
-A dagger with a long thin blade is here.~
+tsl1 tsl1-su stun~
+TSL1-SU Stun Gun~
+A TSL1-SU Stun Gun is here.~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 4 11
@@ -185,7 +184,7 @@ tsl1-cl club~
 adventure[object]:3023/extra
 ~
 #3024
-tsl1-wh warhammer~
+tsl1 tsl1-wh warhammer hammer~
 TSL1-WH Warhammer~
 A TSL1-WH Warhammer is here~
 ~
@@ -193,11 +192,11 @@ A TSL1-WH Warhammer is here~
 0 1 5 7
 6 50 10 0 0
 E
-tsl1-wh warhammer~
+tsl1-wh warhammer hammer~
 adventure[object]:3024/extra
 ~
 #3025
-tsl1-fl flail~
+tsl1 tsl1-fl flail~
 TSL1-FL Flail~
 A TSL1-FL Flail is here.~
 ~
@@ -205,27 +204,27 @@ A TSL1-FL Flail is here.~
 0 2 4 7
 6 625 10 0 0
 E
-tsl1-fl~
+tsl1-fl flail~
 adventure[object]:3025/extra
 ~
 #3030
-tsl1-led-t torch~
+tsl1-led-t torch light led~
 TSL1-LED-T Torch~
-A TSL1-LED-T Torch is here~
+A TSL1-LED-T LED Torch Light is here~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 24 0
 1 10 10 0 0
 #3031
-tsl1-led-l~
+tsl1 tsl1-led-l light lantern led~
 TSL1-LED-L Lantern~
-A TSL1-LED-L Lantern is here.~
+A TSL1-LED-L LED Lantern Light is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 96 0
 1 50 10 0 0
 #3032
-tsl1-ba bag~
+tsl1 tsl1-ba bag~
 TSL1-BA Bag~
 A TSL1-BA Bag is here.~
 ~
@@ -233,7 +232,7 @@ A TSL1-BA Bag is here.~
 50 0 0 0
 2 20 10 0 0
 #3033
-tsl1-bo box~
+tsl1 tsl1-bo box~
 TSL1-BO Box~
 A TSL1-BO Box is here.~
 ~
@@ -289,7 +288,7 @@ deposit: DEPOSIT [amount]
 note: Please report any strange occurrences to the Indra Money manager.
 ~
 #3037
-tsl1-led~
+tsl1 tsl1-led light led~
 TSL1-LED Light (S)~
 A TSL1-LED (S) light is here.~
 ~
@@ -310,7 +309,7 @@ A penny nail lies in the dust.~
 1 5 1 0 0
 E
 nail~
-   Its a common iron nail, used for carpentry work.
+Its a common iron nail, used for carpentry work.
 ~
 #3039
 pot~
@@ -322,10 +321,10 @@ A cast-iron pot sits on the ground.~
 10 100 20 0 0
 E
 pot~
-   It is a nice pot.  You could use it, if you ever settled down.
+It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
-tsl1-cp chestplate~
+tsl1 tsl1-cp chestplate~
 TSL1-CP Chest Plate~
 A TSL1-CP Chest Plate is here.~
 ~
@@ -337,7 +336,7 @@ tsl1-cp~
 adventure[object]:3040/extra
 ~
 #3041
-tsl1-sh shirt~
+tsl1 tsl1-sh shirt~
 TSL1-SH Shirt~
 A TSL1-SH Shirt is here.~
 ~
@@ -345,7 +344,7 @@ A TSL1-SH Shirt is here.~
 5 0 0 0
 50 250 5 0 0
 #3042
-tsl1-sh shield~
+tsl1 tsl1-sh shield~
 TSL1-SH Shield~
 A TSL1-SH Shield is here.~
 ~
@@ -365,7 +364,7 @@ A TSL1-JA Jacket is here.~
 2 0 0 0
 10 200 10 0 0
 #3044
-tsl1-jax jacket~
+tsl1 tsl1-jax jacket~
 TSL1-JAX Jacket~
 A TSL1-JAX Jacket-X is here.~
 ~
@@ -373,17 +372,17 @@ A TSL1-JAX Jacket-X is here.~
 3 0 0 0
 20 500 10 0 0
 #3045
-jacket scale mail~
-a scale mail jacket~
-A scale mail jacket is lying on the ground.~
+tsl1 tsl1-jas jacket~
+TSL1-JAS Jacket-S~
+A TSL1-JAS Jacket-S is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 4 0 0 0
 40 1000 10 0 0
 #3046
-plate bronze breast~
-a bronze breast plate~
-A bronze breast plate is lying on the ground.~
+tsl1 tsl1-bp-b bronse breast plate~
+TSL1-BP-B Bronze Breast Plate~
+A TSL1-BP-B Breast Plate (Bronze) is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 6 0 0 0

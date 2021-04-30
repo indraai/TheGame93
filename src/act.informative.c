@@ -99,7 +99,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n%s\r", obj->description);
+    send_to_char(ch, "\n%s", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -112,7 +112,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n%s\r", obj->short_description);
+    send_to_char(ch, "\n%s", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
@@ -205,7 +205,6 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
       if (mode == SHOW_OBJ_LONG)
         send_to_char(ch, "%s", CCGRN(ch, C_NRM));
-
       show_obj_to_char(display, ch, mode);
       if (num != 1)
         send_to_char(ch, "(%2i) ", num);
