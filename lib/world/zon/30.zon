@@ -4,7 +4,7 @@ Northern Amaravati~
 3000 3099 120 2 d 0 0 0 1 33
 R 0 3001 3034 -1 	(an indra.money machine)
 O 0 3034 99 3001 	(an indra.money machine)
-O 0 3036 1 3063 	(a cashcard)
+O 0 3036 99 3063 	(a cashcard)
 R 0 3000 3006 -1 	(the teleporter)
 O 0 3006 99 3000 	(the teleporter)
 M 0 3011 1 3000 	(SalesDEVA)
