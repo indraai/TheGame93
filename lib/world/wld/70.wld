@@ -250,7 +250,7 @@ S
 The Bend In The Muddy Sewer~
 adventure[world]:7012/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D2
 adventure[world]:7013/look
 ~
@@ -287,12 +287,12 @@ adventure[world]:7014/look
 ~
 0 -1 7014
 E
-mud~
-adventure[world]:7013/mud
-~
-E
 sediment~
 adventure[world]:7013/sediment
+~
+E
+mud~
+adventure[world]:7013/mud
 ~
 S
 #7014

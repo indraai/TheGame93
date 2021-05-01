@@ -17,7 +17,7 @@ S
 The Temple~
 adventure[world]:3001/main
 ~
-30 156 0 0 0 0
+30 152 0 0 0 0
 D0
 adventure[world]:3054/look
 ~
@@ -39,12 +39,12 @@ adventure[world]:3000/look
 ~
 0 -1 3000
 E
-info information~
-adventure[world]:3001/info
-~
-E
 paintings ancient wall peasants gods giants~
 adventure[world]:3001/paintings
+~
+E
+info information~
+adventure[world]:3001/info
 ~
 S
 T 3017
@@ -168,12 +168,12 @@ adventure[world]:3006/look
 ~
 0 -1 3006
 E
-sign~
-adventure[world]:3007/sign
-~
-E
 writing carving carvings symbols symbol~
 adventure[world]:3007/symbols
+~
+E
+sign~
+adventure[world]:3007/sign
 ~
 S
 #3008
@@ -202,12 +202,12 @@ adventure[world]:3013/look
 ~
 0 -1 3013
 E
-danish pastry~
-adventure[world]:3009/pastry
-~
-E
 sign~
 adventure[world]:3009/sign
+~
+E
+danish pastry~
+adventure[world]:3009/pastry
 ~
 S
 #3010
@@ -679,20 +679,20 @@ adventure[world]:3052/look
 gate~
 1 3112 3052
 E
-bridge footbridge~
-adventure[world]:look/3040/bridge
-~
-E
-gate~
-adventure[world]:3040/gate
+wall~
+adventure[world]:3040/wall
 ~
 E
 tower towers~
 adventure[world]:3040/towers
 ~
 E
-wall~
-adventure[world]:3040/wall
+gate~
+adventure[world]:3040/gate
+~
+E
+bridge footbridge~
+adventure[world]:look/3040/bridge
 ~
 S
 #3041
@@ -716,20 +716,20 @@ adventure[world]:3016/look
 ~
 0 -1 3016
 E
-bridge footbridge~
-adventure[world]:3041/bridge
-~
-E
-gate~
-adventure[world]:3041/gate
+wall~
+adventure[world]:3041/wall
 ~
 E
 tower towers~
 adventure[world]:3041/towers
 ~
 E
-wall~
-adventure[world]:3041/wall
+gate~
+adventure[world]:3041/gate
+~
+E
+bridge footbridge~
+adventure[world]:3041/bridge
 ~
 S
 #3042
@@ -773,12 +773,12 @@ adventure[world]:3047/look
 ~
 0 -1 3047
 E
-wall writing letters~
-adventure[world]:3043/letters
-~
-E
 wall~
 adventure[world]:3043/wall
+~
+E
+wall writing letters~
+adventure[world]:3043/letters
 ~
 S
 #3044
@@ -908,16 +908,16 @@ adventure[world]:3100/look
 ~
 0 -1 3100
 E
-bridge~
-adventure[world]:3051/bridge
+wall~
+adventure[world]:3051/wall
 ~
 E
 opening~
 adventure[world]:3051/opening
 ~
 E
-wall~
-adventure[world]:3051/wall
+bridge~
+adventure[world]:3051/bridge
 ~
 S
 #3052
@@ -936,20 +936,20 @@ adventure[world]:6092/look
 ~
 0 -1 6092
 E
-bridge footbridge~
-adventure[world]:3052/bridge
-~
-E
-gate~
-adventure[world]:3052/gate
+wall~
+adventure[world]:3052/wall
 ~
 E
 tower towers~
 adventure[world]:3052/towers
 ~
 E
-wall~
-adventure[world]:3052/wall
+gate~
+adventure[world]:3052/gate
+~
+E
+bridge footbridge~
+adventure[world]:3052/bridge
 ~
 S
 #3053
@@ -968,20 +968,20 @@ adventure[world]:3041/look
 gate~
 1 3112 3041
 E
-bridge footbridge~
-adventure[world]:3053/bridge
-~
-E
-gate~
-adventure[world]:3053/gate
+wall~
+adventure[world]:3053/wall
 ~
 E
 tower towers~
 adventure[world]:3053/towers
 ~
 E
-wall~
-adventure[world]:3053/wall
+gate~
+adventure[world]:3053/gate
+~
+E
+bridge footbridge~
+adventure[world]:3053/bridge
 ~
 S
 #3054
@@ -1000,12 +1000,12 @@ adventure[world]:3001/look
 ~
 0 -1 3001
 E
-altar~
-adventure[world]:3054/altar
-~
-E
 statue indra king god~
 adventure[world]:3054/statue
+~
+E
+altar~
+adventure[world]:3054/altar
 ~
 S
 #3055
@@ -1143,24 +1143,24 @@ adventure[world]:3006/look
 ~
 0 -1 3006
 E
-sign~
-adventure[world]:3062/sign
-~
-E
-letters envelopes assorted~
-adventure[world]:3062/letters
-~
-E
-cobwebs~
-adventure[world]:3062/cobwebs
+WANTED posters poster wall~
+adventure[world]:3062/posters
 ~
 E
 crates opened large~
 adventure[world]:3062/crates
 ~
 E
-WANTED posters poster wall~
-adventure[world]:3062/posters
+cobwebs~
+adventure[world]:3062/cobwebs
+~
+E
+letters envelopes assorted~
+adventure[world]:3062/letters
+~
+E
+sign~
+adventure[world]:3062/sign
 ~
 S
 #3063
