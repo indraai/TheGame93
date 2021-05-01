@@ -189,4 +189,18 @@ come to the conclusion that he isn't very intelligent.
 130 16900
 8 8 1
 E
+#4059
+guard deva guarddeva devaforce gd3026~
+GD3026 GuardDEVA~
+GD3026 GuardDEVA is here.
+~
+A specially trained guard.
+~
+260378 0 0 0 10360 0 0 0 400 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 0
+BareHandAttack: 11
+E
+T 4000
 $
