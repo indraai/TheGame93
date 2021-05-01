@@ -485,10 +485,10 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     return;
 
   if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "It is pitch black...\r\n");
+    send_to_char(ch, "\nIt is pitch black...\r");
     return;
   } else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT) {
-    send_to_char(ch, "You see nothing but infinite darkness...\r\n");
+    send_to_char(ch, "\nYou see nothing but infinite darkness...\r");
     return;
   }
   send_to_char(ch, "%s", CCCYN(ch, C_NRM));
