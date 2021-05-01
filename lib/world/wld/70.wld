@@ -18,7 +18,7 @@ S
 The Muddy Sewer~
 adventure[world]:7001/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D2
 adventure[world]:7002/look
 ~
@@ -33,7 +33,7 @@ S
 The Muddy Sewer Junction~
 adventure[world]:7002/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 adventure[world]:7001/look
 ~
@@ -114,7 +114,7 @@ S
 The Muddy Sewer~
 adventure[world]:7006/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 adventure[world]:7005/look
 ~
@@ -134,7 +134,7 @@ S
 The Muddy Sewer Bend~
 adventure[world]:7007/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D2
 adventure[world]:7008/look
 ~
@@ -225,7 +225,7 @@ S
 The Muddy Sewer Pipe~
 adventure[world]:7011/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D1
 adventure[world]:7024/look
 ~
@@ -270,7 +270,7 @@ S
 A Muddy Intersection~
 adventure[world]:7013/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 adventure[world]:7012/look
 ~
@@ -299,7 +299,7 @@ S
 The Muddy Sewer~
 adventure[world]:7014/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 adventure:7013/look
 ~
@@ -418,7 +418,7 @@ S
 The Odd Room With Smooth Walls~
 adventure[world]:7022/main
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D5
 adventure[world]:7112/look
 ~
@@ -641,7 +641,7 @@ The Pit~
 there is a pit leading down.  There are bars set in the side of the pit
 wall functioning as a ladder.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D3
 West.  You can see a dimly lit quadruple junction with an exit up.
 ~
@@ -1056,7 +1056,7 @@ The Watery Sewer Bend~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to bend and lead south and west.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D2
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1079,7 +1079,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1102,7 +1102,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1125,7 +1125,7 @@ The Watery Sewer Junction~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead into a junction going south, north and east.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1154,7 +1154,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1177,7 +1177,7 @@ The Watery Sewer Junction~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead into a junction that goes north, south and east.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1206,7 +1206,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1229,7 +1229,7 @@ The Watery Sewer Bend~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to bend and lead west and north.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1255,7 +1255,7 @@ mostly because of the trickling of water.  The water from the sewer actually
 washes over this ledge and makes it quite slippery.  From here it drops,
 like a waterfall, into the pool far down.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D2
 You can't see a thing.  It is too dark.
 ~
@@ -1280,7 +1280,7 @@ washes over this ledge and makes it quite slippery.  From here it drops,
 like a waterfall, into the pool far down.  Under you there is a small fissure
 in the rock.  It seems big enough to contain a few people.
 ~
-70 8 0 0 0 5
+70 8 0 0 0 0
 D0
 You can't see a thing.  It is too dark.
 ~
