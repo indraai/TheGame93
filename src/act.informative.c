@@ -253,7 +253,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
     return;
 
    if (i->player.description)
-    send_to_char(ch, "%s", i->player.description);
+    send_to_char(ch, "\n%s\r", i->player.description);
   else
     act("You see nothing special about $m.", FALSE, i, 0, ch, TO_VICT);
 
@@ -265,16 +265,15 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
       found = TRUE;
 
   if (found) {
-    send_to_char(ch, "\r\n");	/* act() does capitalization. */
-    act("$n is using:", FALSE, i, 0, ch, TO_VICT);
+    act("\n$n is using:\r", FALSE, i, 0, ch, TO_VICT);
     for (j = 0; j < NUM_WEARS; j++)
       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
-	send_to_char(ch, "%s", wear_where[j]);
+	send_to_char(ch, "\n%s\r", wear_where[j]);
 	show_obj_to_char(GET_EQ(i, j), ch, SHOW_OBJ_SHORT);
       }
   }
   if (ch != i && (IS_THIEF(ch) || GET_LEVEL(ch) >= LVL_IMMORT)) {
-    act("\r\nYou attempt to peek at $s inventory:", FALSE, i, 0, ch, TO_VICT);
+    act("\nYou attempt to peek at $s inventory:\r", FALSE, i, 0, ch, TO_VICT);
     list_obj_to_char(i->carrying, ch, SHOW_OBJ_SHORT, TRUE);
   }
 }
