@@ -1,90 +1,78 @@
 #3500
 The Plains~
-   You are standing on the plains.  This is a vast desolate place where
-the wind can howl undisturbed since nothing but you bars its way.  However
-you are not the first to wander here.  Before you somebody has left a small
-path.  The path looks rather bewildered and is not the kind of path to lead
-to anywhere significant or important but it seems to have made up its mind
-to enter the hills far away north.  A narrow trail scars its way off to the
-east as it leads up towards a hillside.
+adventure[world]:3500/main
 ~
 35 0 0 0 0 1
 D0
+adventure[world]:4000/look
 ~
 ~
 0 -1 4000
 D1
+adventure[world]:3300/look
 ~
 ~
 0 -1 3300
 D2
+adventure[world]:3501/look
 ~
 ~
 0 -1 3501
 S
 #3501
 The Lane~
-   You are strolling along a pleasant, shady lane.  The road is lined on both
-sides by tall, stately trees which lend the scene with a sense of quiet
-serenity.
-   You can follow the road north or south.
+adventure[world]:3501/main
 ~
 35 0 0 0 0 1
 D0
+adventure[world]:3500/look
 ~
 ~
 0 -1 3500
 D2
+adventure[world]:3502/look
 ~
 ~
 0 -1 3502
 S
 #3502
 The Laneway~
-   The trees stand close here, and the tall, bushy undergrowth prevents you
-from seeing far in any direction save east, where a broad lane continues off
-into the distance; and west, where the same lane continues towards what looks
-like a fairly large city.  The muted sounds of city commotion reach your ears
-from a distance; stray dogs barking, children crying, and street salesmen
-shouting.
-   A steep path leads down from here to the northeast towards the Dwarven
-Village, and a small trail leads through the trees towards the hills to the
-north.
+adventure[world]:3502/main
 ~
 35 0 0 0 0 1
 D0
+adventure[world]:3501/look
 ~
 ~
 0 -1 3501
 D1
-You see a fairly large road leading towards a grand castle in the distance.
+adventure[world]:15000/look
 ~
 ~
 0 -1 15000
 D3
+adventure[world]:3503/look
 ~
 ~
 0 -1 3503
 D5
-The well trodden path leads down to the northeast towards a small bustling
-village.
+adventure[world]:6500/look
 ~
 ~
 0 -1 6500
 S
 #3503
 The City Entrance~
-   You stand on the outskirts of a large city - Amaravati; the capital of
-this land.  The road leads east into the peace and quiet - and dangers -
-of the forest; and to the west it becomes the main street of the town;
-surrounded by a confusion of shops, bars, and market places.
+adventure[world]:3503/main
 ~
 35 0 0 0 0 1
 D1
+adventure[world]:3502/look
 ~
 ~
 0 -1 3502
 D3
+adventure[world]:3053/look
 ~
 ~
 0 -1 3053
