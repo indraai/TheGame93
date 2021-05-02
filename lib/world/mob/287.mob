@@ -210,10 +210,11 @@ GD28715 GuardDEVA is here.
 ~
 A sturdy guardsman, ever vigilant for evil.
 ~
-6410 0 0 0 0 0 0 0 400 E
+6410 0 0 0 10360 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1
+BareHandAttack: 5
 E
 #28716
 volunteer~
