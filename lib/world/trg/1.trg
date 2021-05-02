@@ -1564,15 +1564,15 @@ Underground Spy M30 T174~
 * By Rumble of The Builder Academy    tbamud.com 9091
 if !%self.follower%
   eval max %random.4%
-  set txt[1] Don't let the 'MAN' hold you back, join the rebellion. Follow me if you want to lead a better life.
-  set txt[2] Be careful who you talk to, they may be part of the conspiracy. Follow me if you want to know the truth.
-  set txt[3] Follow me if you want to join the resistance.
-  set txt[4] Only through sacrifice can we know the truth. Follow me to be enlightened.
+  set txt[1] Don't let the 'MISTRESS' hold you back, join the DevaFORCE. Follow me if you want to lead a better life.
+  set txt[2] Be careful who you talk to, they may be part of The Covenant. Follow me if you want to know the truth.
+  set txt[3] Follow me if you want to join the DevaFORCE.
+  set txt[4] Only through offerings can we know the truth. Follow me to be enlightened.
   set  speech %%txt[%max%]%%
   eval speech %speech%
   say %speech%
 else
-  say you have made the right choice.
+  say You have made the good choice.
   wait 3 sec
   %random.dir%
   wait 2 sec
@@ -1582,23 +1582,23 @@ else
   wait 2 sec
   %random.dir%
   wait 2 sec
-  say do you have anyone that knows you are in Sanctus or who may notice your absence?
+  say Have you been enjoying your time in Sanctus?
   wait 5 sec
   %load% mob 32
-  %echo% The hired muscle has arrived.
+  %echo% The DevaForce has arrived.
   %load% mob 32
-  %echo% The hired muscle has arrived.
+  %echo% The DevaForce has arrived.
   %load% mob 32
-  %echo% The hired muscle has arrived.
+  %echo% The DevaForce has arrived.
   %load% mob 32
-  %echo% The hired muscle has arrived.
+  %echo% The DevaForce has arrived.
   wait 3 sec
-  say lets get on with it. Don't bother putting up a fight.
+  say Let's get on with it. Let's see those dance moves.
   wait 3 sec
-  %send% %self.follower% The spy and all of his hired muscle quickly circle you and wait for your exposed back before they attack. You catch movement out of the corner of your eye as you are clubbed from behind.
-  %echoaround% %self.follower% %self.follower.name% is quickly surrounded by a group of thugs and clubbed unconscious. The underground spy pays the hired thugs and then drags %self.follower.name% away to the %random.dir%.
+  %send% %self.follower% The spy and all of his DevaForce quickly circle you and wait for your dance moves.
+  %echoaround% %self.follower% %self.follower.name% is quickly surrounded by a group of dancers. The SpyDEVA tells DevaForce and they take %self.follower.name% to the %random.dir%.
   nop %self.follower.pos(sleeping)%
-  %teleport% %self.follower% 97
+  %teleport% %self.follower% 18600
   %purge% %self%
 end
 ~
