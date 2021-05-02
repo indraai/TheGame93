@@ -475,18 +475,17 @@ emperor Domitian sometime between 89 and 95.
 E
 T 181
 #30
-spy underground resistance~
-the spy for the underground~
-A spy from the underground resistance is discreetly looking for some new recruits.
+spy deva spydeva devaforce spy30~
+SP30 SpyDEVA~
+SP30 SpyDEVA is here.
 ~
-   The underground resistance has been blamed for most of the crime in the city
-and it has been rumored that many new recruits often end up missing. The few
-that do manage to come back are often damaged both physically and mentally.
+The underground resistance has been blamed for most of the crime in the city and it has been rumored that many new recruits often end up missing. The few that do manage to come back are often damaged both physically and mentally.
 ~
-72 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 2
+8 8 0
+BareHandAttack: 3
 E
 T 174
 #31
