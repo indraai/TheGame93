@@ -656,10 +656,11 @@ A lovely, veiled harem girl stands here.
    You see a dark skinned beauty, wearing almost transparent silks and light
 blue veil.  Her loyalty to the Sultan is unwavering.
 ~
-10 0 0 0 0 0 0 0 0 E
+260508 0 0 0 10360 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 2
+BareHandAttack: 2
 E
 #5452
 jailer~
@@ -675,13 +676,13 @@ fallen out of grace with the Sultan.
 4 4 1
 E
 #5453
-guard deva guarddeva gd5453~
-GD5453 GuardDEVA~
-A eunuch stands here watching over the girls.
+security deva securitydeva devaforce sd5453~
+SD5453 SecurityDEVA~
+SD5453 SecurityDEVA is here.
 ~
-You see a large man whose only duty is to protect the harem.  He has been castrated for the ladies' safety.
+SD5453 SecurityDEVA has been assigned to protect the realm.
 ~
-6410 0 0 0 16 0 0 0 0 E
+243976 0 0 0 10328 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 0
@@ -690,15 +691,15 @@ E
 #5454
 sultans favorite girl nichole~
 Nichole, the Sultan's favorite~
-Nichole, the Sultan's favorite girl rests on a mound of pillows.
+Nichole, the Sultan's favorite girl is here.
 ~
-   You see the most beautiful Arabian girl that has ever meet your eyes.  Too
-bad she is about to kill you.
+You see the most beautiful Arabian girl that has ever meet your eyes.  Too bad she is about to TACKLE  EVIL.
 ~
-42 0 0 0 16 0 0 0 100 E
+6424 0 0 0 2136 0 0 0 100 E
 10 17 4 2d2+100 1d2+1
 100 10000
 5 5 2
+BareHandAttack: 2
 E
 #5455
 allah~

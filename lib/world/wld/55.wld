@@ -471,7 +471,7 @@ D0
 E
 sign~
    The sign reads:
-@
+	
 Closed for renovations
 ~
 S
@@ -504,7 +504,7 @@ D3
 E
 note~
    The note reads:
-@
+	
 LIST  : gives you a list of items for sale.
 VALUE : tells you how much an item is worth to Abdul
 SELL  : sells an item to Abdul for a generous sum
@@ -617,9 +617,9 @@ D0
 E
 note~
    The note simply reads:
-@
+	
 READ THE NOTE IN THE ARMORY
-@
+	
                           Igor.
 ~
 S
@@ -872,9 +872,9 @@ D1
 E
 banner~
    =====================================================================
-   @
+   	
              H A P P Y   B I R T H D A Y   T O   U S
-@
+	
    =====================================================================
 ~
 S
@@ -1416,11 +1416,11 @@ D1
 D2
 ~
 door~
-1 -1 5581
+0 -1 5581
 D3
 ~
 door~
-2 5401 5587
+0 5401 5587
 S
 #5583
 The Garden Gazebo~
@@ -1491,11 +1491,11 @@ It is unfortunate for you that only the Sultan is allowed in here.
 D0
 ~
 door secret~
-1 -1 5588
+0 -1 5588
 D1
 ~
 door~
-2 5401 5582
+0 5401 5582
 D2
 ~
 ~
@@ -1510,11 +1510,11 @@ at any time he chooses.
 D0
 ~
 door~
-1 -1 5589
+0 -1 5589
 D2
 ~
 door secret~
-1 -1 5587
+0 -1 5587
 S
 #5589
 The Throne Room~
