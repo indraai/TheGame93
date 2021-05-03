@@ -675,17 +675,17 @@ fallen out of grace with the Sultan.
 4 4 1
 E
 #5453
-eunuch~
-a eunuch~
+guard deva guarddeva gd5453~
+GD5453 GuardDEVA~
 A eunuch stands here watching over the girls.
 ~
-   You see a large man whose only duty is to protect the harem.  He has been
-castrated for the ladies' safety.
+You see a large man whose only duty is to protect the harem.  He has been castrated for the ladies' safety.
 ~
-42 0 0 0 16 0 0 0 0 E
+6410 0 0 0 16 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 0
+BareHandAttack: 12
 E
 #5454
 sultans favorite girl nichole~

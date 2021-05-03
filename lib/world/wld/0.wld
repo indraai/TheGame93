@@ -352,13 +352,8 @@ D2
 0 0 4
 S
 #17
-Overview of the MUD World~
-   The first thing you need to build is a good telnet client.
-@RHELP TELNET@n for a list.
-
-   Once you have a good client you must understand a few basics:
-@RHELP VIRTUAL-NUMBERS@n
-@RHELP TERMINOLOGY@n
+Overview~
+adventure[world]:0017/main
 ~
 0 8 0 0 0 0
 D2
@@ -683,14 +678,14 @@ D2
 ~
 0 0 98
 E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
+~
+E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 $~

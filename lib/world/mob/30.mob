@@ -244,12 +244,13 @@ guard deva guarddeva devaforce gd3024~
 SD3024 GuardDEVA~
 SD3024 GuardDEVA is here.
 ~
-An experienced sage who has specialized in the field of Warrior Magic.
+SD3024 GuardDEVA is assigned to protect the realm.
 ~
-256010 0 0 0 80 0 0 0 900 E
+256010 0 0 0 8312 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0
+BareHandAttack: 4
 E
 T 3000
 #3025
@@ -499,10 +500,11 @@ GD3067 GuardDEVA is here.
 ~
 A big, strong, helpful, trustworthy GuardDEVA.
 ~
-6218 0 0 0 0 0 0 0 1000 E
+260442 0 0 0 10360 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
+BareHandAttack: 5
 E
 T 3009
 #3068
