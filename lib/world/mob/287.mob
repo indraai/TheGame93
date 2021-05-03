@@ -146,13 +146,13 @@ General Kordor sat in his lofty hall, but now he marches with his army to drive 
 8 8 0
 E
 #28712
-tim thief boy~
-Tim the Thief~
-A small boy sneaks silently through the shadows.
+timmy artist~
+Timmy~
+A boy named Timmy who walks around.
 ~
-Guard your money!  It is that dratted Tim!
+It is that awesome Tim!
 ~
-34908 0 0 0 0 0 0 0 100 E
+34908 0 0 0 8 0 0 0 100 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 1
@@ -171,16 +171,17 @@ This knight could easily tackle Curley GreenLeaf.
 8 8 0
 E
 #28714
-deva guard guarddeva devaforce rd28714~
-RD28714 RoyalDEVA~
-RD28714 RoyalDEVA is here.
+deva security securitydeva devaforce rd28714~
+SD28714 SecurityDEVA~
+SD28714 SecurityDEVA is here.
 ~
-A sturdy guardsman, loyal to King Indra.
+SD28714 SecurityDEVA is assigned to protect the realm.
 ~
-6472 0 0 0 0 0 0 0 400 E
+112904 0 0 0 8312 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 0
+BareHandAttack: 8
 E
 #28715
 deva guard guarddeva devaforce gd28715~
