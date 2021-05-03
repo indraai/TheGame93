@@ -1278,13 +1278,13 @@ D0
 door~
 1 -1 5577
 E
-mirror~
-   You see a the fighting image of some armor clad humanoid wielding a weapon.
-~
-E
 window~
    Looking out this window you can see the grounds of the palace that separate
 the walls of the palace from the building itself.
+~
+E
+mirror~
+   You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 S
 #5577
@@ -1518,24 +1518,21 @@ door secret~
 S
 #5589
 The Throne Room~
-   You stand in the throne room of the mighty Sultan of New Thalos.  Guards
-stand at attention near his side ready to make the ultimate sacrifice for
-their beloved leader.  The gold inlaid throne studded with jewels stands
-upon a mable dias.  The Sultan is not a man to be trifled with.
+You stand in the throne room of the mighty Sultan of New Thalos.  Guards stand at attention near his side ready to make the ultimate sacrifice for their beloved leader. The gold inlaid throne studded with jewels stands upon a mable dias. The Sultan is not a man to be trifled with.
 ~
 55 8 0 0 0 0
 D0
 ~
 throne~
-2 5400 5590
+0 5400 5590
 D1
 ~
 door~
-1 -1 5584
+0 -1 5584
 D2
 ~
 door~
-1 -1 5588
+0 -1 5588
 S
 #5590
 The Treasure Room~
