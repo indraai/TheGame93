@@ -398,11 +398,11 @@ up when you enter.
 8 8 1
 E
 #1628
-cook~
-a cook~
-A fat cook is walking around with a spoons tasting all the food.
+cook deva cookdeva cd1628~
+CD1628 CookDEVA~
+CD1628 CookDEVA is here.
 ~
-   She must weigh over 200 pounds.
+CD1628 CookDEVA has been assigned to the realm.
 ~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -411,11 +411,11 @@ A fat cook is walking around with a spoons tasting all the food.
 BareHandAttack: 8
 E
 #1629
-guard~
-a guard~
-A guard is standing a sharp watch.
+guard deva guarddeva devaforce gd1629~
+GD1629 GuardDEVA~
+GD1629 GuardDEVA is here.
 ~
-   He seems to be suspicious of everyone.
+GD1629 GuardDEVA has been assigned to protect the realm.
 ~
 10 0 0 0 0 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
