@@ -435,16 +435,17 @@ you not to trust him very far.
 8 8 1
 E
 #5434
-bodyguard guard~
-the Sultan's Bodyguard~
-A bodyguard sizes you up.
+security deva securitydeva devaforce sd5434~
+SD5434 SecurityDEVA~
+SD5434 SecurityDEVA is here.
 ~
-   The large half-orc quickly glances you over and returns to his duties.
+SD5434 SecurityDEVA has been assigned to protect the realm.
 ~
-6202 0 0 0 16 0 0 0 0 E
+254252 0 0 0 10360 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1
+8 8 0
+BareHandAttack: 5
 E
 T 5405
 #5435
@@ -649,17 +650,16 @@ The Sultan rests here on his throne.
 5 5 1
 E
 #5451
-harem girl~
-a harem girl~
-A lovely, veiled harem girl stands here.
+spy deva spydeva sp5451 devaforce~
+SP5451 SpyDEVA~
+SP5451 SpyDEVA is here.
 ~
-   You see a dark skinned beauty, wearing almost transparent silks and light
-blue veil.  Her loyalty to the Sultan is unwavering.
+SP5451 SpyDEVA is here recruiting for DevaFORCE.
 ~
 260508 0 0 0 10360 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 2
+8 8 0
 BareHandAttack: 2
 E
 #5452
@@ -695,10 +695,10 @@ Nichole, the Sultan's favorite girl is here.
 ~
 You see the most beautiful Arabian girl that has ever meet your eyes.  Too bad she is about to TACKLE  EVIL.
 ~
-6424 0 0 0 2136 0 0 0 100 E
+260504 0 0 0 2136 0 0 0 100 E
 10 17 4 2d2+100 1d2+1
 100 10000
-5 5 2
+8 8 2
 BareHandAttack: 2
 E
 #5455
@@ -780,16 +780,17 @@ A servant boy is here running errands.
 8 8 1
 E
 #5461
-sultans guard~
-the Sultan's Guard~
-A guard stands here, protecting the innocent.
+security deva securitydeva sd5461 devaforce~
+SD5461 SecurityDEVA~
+SD5461 SecurityDEVA is here.
 ~
-   You see a trained fighter, ready to help those in need.
+SD5461 SecurityDEVA has been assigned to protect the realm.
 ~
-200 0 0 0 0 0 0 0 1000 E
+260364 0 0 0 10360 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 8 0
+BareHandAttack: 6
 E
 T 5405
 #5462
