@@ -55,6 +55,9 @@ adventure[help]:general/armor
 ACRONYMS TERMINOLOGY VOCABULARY
 adventure[help]:general/acronyms
 #31
+ACTOR.CLASS ACTOR-CLASS %ACTOR.CLASS%
+adventure[help]:general/class
+#31
 INVENTORY ACTOR.INVENTORY ACTOR-INVENTORY
 adventure[help]:actor/inventory
 #31
@@ -11546,27 +11549,7 @@ male PC 'Rumble'  IDNum: [ @R1@n], In room [    0]
 See also: REMOTE, RDELETE, UID, ZEDIT-REMOVE
 #31
 VIRTUAL-NUMBERS RNUM
-
-    Each room, mob, object, shop, and trigger within a zone is given a unique
-number called a Virtual Number or Vnum. These Vnums are independent, so there
-can be both a room number 1300, an object 1300, a mob, a shop, and a trigger.
-When defining and referencing parts of a zone builders always refers to each
-entity by its Vnum. Vnums are not seen by mortal players. Each zone also has
-a Vnum.  The zone Vnum for any zone is simply the room, mob, object, shop, or
-trigger Vnum divided by 100. For example, The Builder Academy is zone 13,
-consisting of Vnums 1300 to 1399.
-   tbaMUD worlds are divided into distinct sections called zones.  Each
-zone typically consists of a single region of the MUD's virtual world with a
-consistent storyline.  Each zone can define its own rooms, mobs, objects,
-shops, and triggers. A single zone typically contains 100 rooms, 100 mobs, 100
-objects, 100 shops, and 100 triggers.
-   If I made the Sword of Cheezy Destruction, I may decide to make it object
-vnum 1300 of my zone.  The first two digits are the zone number of my area,
-the second two identify which item it is in that area. It would be zone 13,
-object 00 of 100 possible objects. However, never use any VNUM from someone
-else's zone without the permission of that person and the staff.
-
-See also: TERMINOLOGY, VNUM, SHOW-ZONES, AREAS
+adventure[help]:builder/vnum
 #31
 VISIBLE
 
