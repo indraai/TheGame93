@@ -223,8 +223,7 @@ the librarian~
 The librarian, a plump woman in her mid-thirties, sits at a desk reading a romance
 novel.
 ~
-   Obviously a spinster, this woman would most probably give all she owns for a
-man of her own.
+Obviously a spinster, this woman would most probably give all she owns for a man of her own.
 ~
 190474 0 0 0 65552 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -305,8 +304,7 @@ Clariss~
 Clariss, a heavy set, jovial woman stands here with her arms folded across
 her ample bosom, awaiting your pleasure.
 ~
-   Not a mage herself, Clariss was once married to a mage who taught her many of
-his secrets, including those secrets dealing with the making of potions.
+Not a mage herself, Clariss was once married to a mage who taught her many of his secrets, including those secrets dealing with the making of potions.
 ~
 188426 0 0 0 0 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -331,7 +329,7 @@ guildmaster master assassin~
 the assassin's guildmaster~
 An man dressed all in black stands here.
 ~
-   This man is none other than the founding father of the fraternal order of
+This man is none other than the founding father of the fraternal order of
 assassins.  Every idea, concept, and belief that is instilled in every assassin
 while training came straight from this man.
 ~
@@ -373,7 +371,7 @@ rapas rat thief man~
 Rapas~
 Rapas the Rat stands in this small shop, ready to serve your needs.
 ~
-   Obviously not only a skilled thief, but a trained killer.
+Obviously not only a skilled thief, but a trained killer.
 ~
 190474 0 0 0 65552 0 0 0 -700 E
 33 9 -9 6d6+330 5d5+5
@@ -381,23 +379,23 @@ Rapas the Rat stands in this small shop, ready to serve your needs.
 8 8 1
 E
 #25730
-nurse~
-the nurse~
-A nurse waits here, syringe in hand.
+medic deva medicdeva md25730~
+MD25730 MedicDEVA~
+MD25730 MedicDEVA is here.
 ~
-   A kind smile on her care worn face, this woman is perfect for her job.
+MD25730 MedicDEVA is assigned to the realm.
 ~
 190474 0 0 0 65552 0 0 0 700 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2
+8 8 0
 E
 #25731
 street tough punk hood~
 the street tough~
 A street tough stands here, looking angry at the world.
 ~
-   What the hell are you looking at, dickweed?
+What the hell are you looking at, dickweed?
 ~
 194570 0 0 0 65552 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -444,24 +442,23 @@ their stories as they rest in his bar.
 8 8 1
 E
 #25741
-nurse~
-the nurse~
-A nurse is here, making her rounds.
+medic deva medicdeva md25741~
+MD25741 MedicDEVA~
+MD25741 MedicDEVA is here.
 ~
-   A tired looking nurse.
+MD25741 MedicDEVA is assigned to the realm.
 ~
 24586 0 0 0 0 0 0 0 900 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 2
+8 8 0
 E
 #25742
 bartender~
 the bartender~
 The bartender turns to you, folds his massive arms, and growls from under his thick beard, "What'll it be?"
 ~
-   This man obviously will brook no argument in his place.  A real his way or
-the highway kind of guy.
+This man obviously will brook no argument in his place.  A real his way or the highway kind of guy.
 ~
 188426 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -473,7 +470,7 @@ hostess scantily clad woman waitress~
 the hostess~
 A scantily clad waitress hands you your menu with a more-than-friendly smile and tells you, "anything you need, ANYTHING, just let me know."
 ~
-   This woman may not be quite a goddess, but she sure comes close.
+This woman may not be quite a goddess, but she sure comes close.
 ~
 188426 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -485,7 +482,7 @@ waiter~
 the waiter~
 A waiter who knows where all his customers keep their money is standing here.
 ~
-   Hmmm...  Wonder where he got that coin he is playing with.
+Hmmm...  Wonder where he got that coin he is playing with.
 ~
 188426 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -497,8 +494,7 @@ waiter~
 the waiter~
 A waiter is here.
 ~
-   This guy looks like he could easily kill you while still carrying quite a few
-firebreathers.
+This guy looks like he could easily kill you while still carrying quite a few firebreathers.
 ~
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -510,8 +506,7 @@ salazar waiter man~
 Salazar~
 Salazar is standing here, eager to serve you a special drink.
 ~
-   Salazar looks like quite an entrepreneur.  He knows how to keep his customers
-happy, but that doesn't mean he's a pushover!
+Salazar looks like quite an entrepreneur.  He knows how to keep his customers happy, but that doesn't mean he's a pushover!
 ~
 190490 0 0 0 16 0 0 0 600 E
 33 9 -9 6d6+330 5d5+5
@@ -523,9 +518,7 @@ woman receptionist assassin~
 the receptionist~
 A young, pert, beautiful, and dangerous woman sits behind the desk.
 ~
-   She looks as if she would be afraid to break a nail, but if she works here,
-then she probably could pull your nails out one by one without you even
-noticing.
+She looks as if she would be afraid to break a nail, but if she works here, then she probably could pull your nails out one by one without you even noticing.
 ~
 256026 0 0 0 112 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -537,8 +530,7 @@ karandon sly jacques jackal man~
 Jacques the Jackal~
 A man hurries by, head down, dressed all in black.
 ~
-   This man, wearing a jet black cloak pulled high over his face and black
-boots, looks like a rough customer.
+This man, wearing a jet black cloak pulled high over his face and black boots, looks like a rough customer.
 ~
 200 0 0 0 524288 0 0 0 -400 E
 20 14 -2 4d4+200 3d3+3
@@ -572,7 +564,7 @@ E
 #25760
 security deva securitydeva devaforce jareth sd25760~
 SD25760 SecurityDEVA~
-SecurityDEVA SD25760 is here.
+SD25760 SecurityDEVA is here.
 ~
 A large man with no expression whatsoever showing beneath his visored helm.
 ~
@@ -582,16 +574,16 @@ A large man with no expression whatsoever showing beneath his visored helm.
 8 8 0
 E
 #25761
-janitor sanitary engineer~
-the sanitary engineer~
-A sanitary engineer is walking around, cleaning up.
+service deva servicedeva sd25761~
+SD25761 ServiceDEVA~
+SD25761 ServiceDEVA is going around, cleaning up.
 ~
-   What a tough job he has.
+What a tough job.
 ~
 2120 0 0 0 0 0 0 0 800 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 0
 E
 #25762
 security deva securitydeva devaforce jareth sd25762~
@@ -732,11 +724,11 @@ that mark on her left boob?  Well, I'll be damned!  It's a tatoo!  It reads
 8 8 2
 E
 #25773
-mage guildguard~
-the guildguard~
-The Guard for the Guild of Mages stands here.
+guard deva guarddeva gd25773~
+GD25773 GuardDEVA~
+GD25773 GuardDEVA is here.
 ~
-   Pretty mean looking for a mage, better be cool.
+GD25773 GuardDEVA is assigned to protect the realm.
 ~
 256010 0 0 0 80 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -745,11 +737,11 @@ The Guard for the Guild of Mages stands here.
 E
 T 25701
 #25774
-monk guildguard~
-the guildguard~
-The Guard for the Guild of s stands here.
+guard deva guarddeva gd25774~
+GD25774 GuardDEVA~
+GD25774 GuardDEVA is here.
 ~
-   He may be wearing a robe, but I bet he could still kick your ass.
+GD25774 GuardDEVA is assigned to protect the realm.
 ~
 256010 0 0 0 80 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -758,11 +750,11 @@ The Guard for the Guild of s stands here.
 E
 T 25700
 #25775
-warrior guildguard~
-the guildguard~
-The Guard for the Guild of Warriors stands here.
+guard deva guarddeva gd25775~
+GD25775 GuardDEVA~
+GD25775 GuardDEVA is here.
 ~
-   Now THIS is one mean motherfucker.
+GD25775 GuardDEVA is assigned to protect the realm.
 ~
 256010 0 0 0 80 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -771,11 +763,11 @@ The Guard for the Guild of Warriors stands here.
 E
 T 25703
 #25776
-ranger guildguard~
-the guildguard~
-The Guard for the Guild of Rangers stands here.
+guard deva guarddeva gd25776~
+GD25776 GuardDEVA~
+GD25776 GuardDEVA is here.
 ~
-   Wiry, lean and ready to beat your ass.
+GD25776 GuardDEVA is assigned to protect the realm.
 ~
 256010 0 0 0 80 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -784,11 +776,11 @@ The Guard for the Guild of Rangers stands here.
 E
 T 25702
 #25777
-assassin guildguard~
-the guildguard~
-The Guard for the Guild of Assassins stands here.
+guard deva guarddeva gd25777~
+GD25777 GuardDEVA~
+GD25777 GuardDEVA is here.
 ~
-   Do NOT mess with this man.
+GD25777 GuardDEVA is assigned to protect the realm.
 ~
 256010 0 0 0 80 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -801,9 +793,7 @@ miss florida~
 Miss Florida~
 A woman wearing a thong and pasties wearing a bright sash reading Miss Florida stands here.
 ~
-   Sorry, buddy.  No peeking this one is all Kaan's.  One feature seems to stand
-out though...  What's that tatooed on her ass???  Ahh, it's some letters that
-spell, "Djinn's MY pimp!  " hmm, how interesting.
+Sorry, buddy.  No peeking this one is all Kaan's.  One feature seems to stand out though...  What's that tatooed on her ass???  Ahh, it's some letters that spell, "Djinn's MY pimp!  " hmm, how interesting.
 ~
 245770 0 0 0 0 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
@@ -815,8 +805,7 @@ petshops wayn shop~
 wayn the Pet Shop~
 Wayn stands here, smiling, waiting to help you.  You wonder how he could possibly be smiling in this stench.
 ~
-   As you get in closer for a better look, you see that Wayn has a set of nose
-plugs in, attached to a head strap.  So that's his trick!
+As you get in closer for a better look, you see that Wayn has a set of nose plugs in, attached to a head strap.  So that's his trick!
 ~
 26634 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -885,17 +874,16 @@ A large, trained wolf is here.
 8 8 0
 E
 #25795
-cryogenicist~
-the cryogenicist~
-The cryogenicist is here, playing with a canister of liquid nitrogen.
+medicdeva medic deva md25795~
+MD25795 MedicDEVA~
+MD25795 MedicDEVA is here.
 ~
-   You notice a tired look in her face.  She looks like she isn't paid well
-enough to put up with any crap from mud players with attitudes.
+MD25795 MedicDEVA has been assigned to the realm.
 ~
 26634 0 0 0 65616 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 2
+8 8 0
 E
 #25799
 Jeweler~
