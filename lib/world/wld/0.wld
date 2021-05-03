@@ -338,29 +338,8 @@ D3
 0 0 14
 S
 #16
-Immortal Commands~
-   As an immortal you have some new commands available to you.  To see all
-of your immortal commands simply type @RWIZHELP@n. Every command in the game
-has a help entry. So the best way to learn how to use all these commands is
-by simply typing @RHELP <COMMAND>@n. This will bring up some information
-about the command. For example, this is what you will see if you type
-@RHELP NOHASSLE@n:
-
-@WNOHASSLE      -------->> help topic
-
-Usage: nohassle         ---------->> what you need to type to do it.
-
-   Toggles a flag to prevent aggressive monsters from attacking and also prevents
-immortals from firing triggers. If you wish to test triggers you must turn
-nohassle off.  -->> description
-
-See Also: HOLYLIGHT, ROOMFLAGS  ------->> other related commands in help file.
-@n
-   Now is the time to practice all of your immortal commands, make sure you
-understand what they do and how they can be used. Read all the help file
-entries on every command!!! Do not worry too much about redit, oedit, medit,
-zedit, sedit, and trigedit. We will get to those later. Know how to use all
-the commands available to you.
+Commands~
+adventure[world]:0016/main
 ~
 0 8 0 0 0 0
 D0
