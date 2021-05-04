@@ -471,7 +471,7 @@ D0
 E
 sign~
    The sign reads:
-	
+
 Closed for renovations
 ~
 S
@@ -504,7 +504,7 @@ D3
 E
 note~
    The note reads:
-	
+
 LIST  : gives you a list of items for sale.
 VALUE : tells you how much an item is worth to Abdul
 SELL  : sells an item to Abdul for a generous sum
@@ -617,9 +617,9 @@ D0
 E
 note~
    The note simply reads:
-	
+
 READ THE NOTE IN THE ARMORY
-	
+
                           Igor.
 ~
 S
@@ -872,9 +872,9 @@ D1
 E
 banner~
    =====================================================================
-   	
+
              H A P P Y   B I R T H D A Y   T O   U S
-	
+
    =====================================================================
 ~
 S
@@ -1064,8 +1064,8 @@ There is a golden plaque above the door.
 55 8 0 0 0 0
 D0
 ~
-door~
-1 -1 5566
+~
+0 -1 5566
 D3
 ~
 ~
@@ -1086,8 +1086,8 @@ of an all-mighty being.
 55 8 0 0 0 0
 D2
 ~
-door~
-1 -1 5565
+~
+0 -1 5565
 S
 #5567
 Outside The Northern Gate Of New Thalos~
@@ -1300,8 +1300,8 @@ D1
 0 -1 5572
 D2
 ~
-door~
-1 -1 5576
+~
+0 -1 5576
 D3
 ~
 ~
@@ -1352,7 +1352,7 @@ There is a door here to the north with a plaque mounted over it.
 D0
 ~
 door~
-1 -1 5580
+0 -1 5580
 D1
 ~
 ~
@@ -1415,12 +1415,12 @@ D1
 0 -1 5577
 D2
 ~
-door~
+~
 0 -1 5581
 D3
 ~
-door~
-0 5401 5587
+~
+0 -1 5587
 S
 #5583
 The Garden Gazebo~
@@ -1442,16 +1442,16 @@ in the walls here, one to the north, another to the west.
 55 8 0 0 0 0
 D0
 ~
-door~
-1 -1 5585
+~
+0 -1 5585
 D1
 ~
 ~
 0 -1 5579
 D3
 ~
-door~
-1 -1 5589
+~
+0 -1 5589
 S
 #5585
 The Guard Room~
@@ -1463,8 +1463,8 @@ they may only leave the Palace grounds with special permission.
 55 8 0 0 0 0
 D2
 ~
-door~
-1 -1 5584
+~
+0 -1 5584
 S
 #5586
 The Guard Room~
@@ -1490,12 +1490,12 @@ It is unfortunate for you that only the Sultan is allowed in here.
 55 8 0 0 0 0
 D0
 ~
-door secret~
+door~
 0 -1 5588
 D1
 ~
 door~
-0 5401 5582
+0 -1 5582
 D2
 ~
 ~
@@ -1524,14 +1524,14 @@ You stand in the throne room of the mighty Sultan of New Thalos.  Guards stand a
 D0
 ~
 throne~
-0 5400 5590
+0 -1 5590
 D1
 ~
-door~
+~
 0 -1 5584
 D2
 ~
-door~
+~
 0 -1 5588
 S
 #5590
@@ -1544,8 +1544,8 @@ grab as much stuff as you possibly can and run for the door.
 55 8 0 0 0 0
 D2
 ~
-door~
-2 5400 5589
+~
+0 -1 5589
 S
 #5591
 The Jailer's Room~

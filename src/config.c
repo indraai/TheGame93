@@ -84,10 +84,10 @@ int dts_are_dumps = YES;
 int load_into_inventory = YES;
 
 /* "okay" etc. */
-const char *OK = "Okay.\r\n";
-const char *HUH = "Huh!?!\r\n";
-const char *NOPERSON = "No one by that name here.\r\n";
-const char *NOEFFECT = "Nothing seems to happen.\r\n";
+const char *OK = "\nOkay.\r";
+const char *HUH = "\nHuh!?!\r";
+const char *NOPERSON = "\nNo one by that name here.\r";
+const char *NOEFFECT = "\nNothing seems to happen.\r";
 
 /* You can define or not define TRACK_THOUGH_DOORS, depending on whether or not
  * you want track to find paths which lead through closed or hidden doors. A
@@ -269,7 +269,7 @@ const char *MENU =
 "\nmenu[exit]:0\r";
 
 const char *WELC_MESSG =
-"\nWelcome to TheGame93!  May your adventure here be... EXCELLENT!\r";
+"\nWelcome to TheGame93!\n\nMay your adventure here be... EXCELLENT!\r";
 
 const char *START_MESSG =
 "\nWelcome.  Now you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r";
