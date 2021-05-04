@@ -82,7 +82,7 @@ adventure[world]:0003/look
 0 0 3
 S
 #5
-The Builder Academy Implementation~
+Implementation~
 adventure[world]:0005/main
 ~
 0 8 0 0 0 0
@@ -114,7 +114,7 @@ adventure[world]:005/look
 0 0 5
 S
 #7
-Writing Good Descriptions~
+Writing Descriptions~
 adventure[world]:0007/main
 ~
 0 8 0 0 0 0
@@ -130,7 +130,7 @@ adventure[world]:0006/look
 0 0 6
 S
 #8
-How to Use Redit~
+Using REDIT~
 adventure[world]:0008/main
 ~
 0 8 0 0 0 0
@@ -146,23 +146,8 @@ adventure[world]:0007/look
 0 0 7
 S
 #9
-How to Use Oedit~
-   Now you will learn the intricacies of creating objects with the object editor.
-Please remember that every MUD has different ideas of balance and the basics of
-building you learn here should be universal, but expect limitations on objects
-from your MUD administration. To further help your training we have added object
-standards to all values a builder can set. This way you know what values are
-appropriate and will not have to redo objects because you did not know what
-values to set.
-   Oedit can be used by typing "oedit <<VNUM>>".  A zone is divided into VNUM's
-##00 to ##99.  For example, Zone 12 has VNUM's 1200 to 1299.  These numbers
-are critical; they are the identities of the objects within the game.  It is
-a good habit to start using all VNUMs from ##00 to ##99 consecutively.
-   Start off by checking out the oedit menu. Type @RHELP OEDIT-MENU@n
-That is an example of the oedit menu you will see when you edit an object.
-Notice how each important line has an associated help topic. To learn more
-about it just see the appropriate help file. If this is your first experience
-with oedit read ALL the help files.
+Using OEDIT~
+adventure[world]:0009/main
 ~
 0 8 0 0 0 0
 D1
@@ -175,19 +160,8 @@ D3
 0 0 8
 S
 #10
-How to Use Medit~
-   Next you will learn how to create mobiles with the mobile editor. Mobs are
-the non-player characters within the game (NPC's). With medit you will be able
-to create a mob and modify all of its stats (statistics), flags, and settings.
-   Mobile edit, or medit, is how you create the monsters a player can interact
-with.  Notice I use the word interact.  Every mob should not be made for just
-killing.  There can and should be a variety.  For example, one mob could be
-made for high experience value, another for gold, another for a unique object,
-another to fill a storyline, another as part of a quest.  The options are
-limitless, especially with triggers, mobs are meant for much more than just
-killing.  Medit can be used by typing "medit <VNUM>".
-   Type @RHELP MEDIT-MENU@n That is an example of the medit menu you will see
-when you edit a mobile. Each line has its own help topic you should also read.
+Using MEDIT~
+adventure[world]:0010/main
 ~
 0 8 0 0 0 0
 D1
@@ -200,27 +174,8 @@ D3
 0 0 9
 S
 #11
-How to Use Zedit~
-   Zedit is what is used to load mobiles and objects into rooms. Every zone
-goes through a zone reset, each one depending on how you set it. Upon a zone
-reset all rooms, mobs, and objects will reload if they are no longer present.
-   Most new builders think mobs and objects are loaded by the "load" command.
-This is not how it is done. Instead you use zedit in each room you wish a
-mob or object to load. This way whenever the zone resets it will execute the
-zone commands to load all of your mobs and objects.
-   Zone edit, or zedit, is how you control how mobiles and objects are
-integrated within the zone to create an inhabited world. Using "load obj
-<VNUM>" does not ensure that the mob will always be there, in fact if someone
-kills it or the mud reboots it will be gone. So you need to load mobs and
-objects through zedit.
-   It can be used just like redit, by simply typing zedit while you are in the
-room you wish to edit or "zedit <<VNUM>>." Now, lets look at the zedit menu.
-@RHELP ZEDIT-MENU@n.  That is an example of the zedit menu, be sure to read
-the related helpfiles on each menu option.
-   Zedit contains zone settings, followed by a series of reset commands. Each
-time a zone is reset, the server executes all the commands in order from
-beginning to end. All zones are reset when the server first boots, and
-periodically reset again while the game is running.
+Using ZEDIT~
+adventure[world]:0011/main
 ~
 0 8 0 0 0 0
 D1
@@ -233,18 +188,8 @@ D3
 0 0 10
 S
 #12
-How to Use Sedit~
-   Shops are stores within the mud that players can list the items for sale
-and then buy or sell from. Shops are one of the more complicated aspects of
-building and should not be attempted until you are comfortable with the other
-forms of OLC (except trigedit).
-   When you make a shop I suggest you use the shop vnum that matches the room
-you wish the shop to be in. For example, say I want a shop in room 1333. I
-would sedit 1333 to create that shop. Now, let us look at the sedit menu.
-Type the following: @RHELP SEDIT-MENU@n. That is an example of the sedit menu
-you will see when you edit a shop. Notice how each important line has an
-associated help topic. To learn more about it just see the appropriate help
-file. If this is your first experience with sedit read ALL the help files.
+Using SEDIT~
+adventure[world]:0012/main
 ~
 0 8 0 0 0 0
 D1
@@ -257,17 +202,8 @@ D3
 0 0 11
 S
 #13
-How to Use Trigedit~
-   The hall to the north will show you how to use the trigger editor. Trigedit
-is the most advanced form of OLC we have to offer. It is the hardest, but also
-the most rewarding. If you are looking to pour life into your mobs, enliven
-your rooms or just make your objects special? This can all be done with
-trigedit. Have fun with the power of (minor) coding!
-   Like all the hallways before use this hallway in conjunction with the help
-files: @RHELP TRIGEDIT-MENU@n and the commands @RTLIST@n and @RTSTAT@n commands.
-Do not attempt to use trigedit until you complete your trial vnum and are
-assigned a zone. Remember you must disable @RNOHASSLE@n. Triggers will not work
-on you otherwise.
+Using TRIGEDIT~
+adventure[world]:0013/main
 ~
 0 8 0 0 0 0
 D0
@@ -362,9 +298,8 @@ D2
 0 0 16
 S
 #18
-A Quick Mob Quest Tutorial~
-See: @RHELP TRIGEDIT-MOB-TUTORIAL@n
-@RSTAT QUESTMASTER@n. Notice the attached triggers. @RTSTAT 1@n.
+Quest Tutorial~
+adventure[world]:0018/main
 ~
 0 24 0 0 0 0
 D0
@@ -678,14 +613,14 @@ D2
 ~
 0 0 98
 E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 $~

@@ -291,16 +291,17 @@ Brahman in magical combat.
 E
 T 5404
 #5423
-statue indra~
-the statue of Indra~
+god indra~
+God Indra~
 The statue of Indra stands here.
 ~
    This statue looks like an enormous elephant.
 ~
-256026 0 0 0 16 0 0 0 1000 E
+256280 0 0 0 26872 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 0
+BareHandAttack: 14
 E
 T 5404
 #5424
@@ -441,7 +442,7 @@ SD5434 SecurityDEVA is here.
 ~
 SD5434 SecurityDEVA has been assigned to protect the realm.
 ~
-254252 0 0 0 10360 0 0 0 0 E
+254220 0 0 0 10360 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 0

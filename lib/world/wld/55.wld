@@ -186,7 +186,7 @@ by the people of New Thalos to pay homage to the saints they believe to
 have saved all their lives.
    The museum continues to the south.
 ~
-55 12 0 0 0 0
+55 8 0 0 0 0
 D2
 ~
 ~
@@ -267,7 +267,7 @@ by the people of New Thalos to pay homage to the saints they believe to
 have saved all their lives.
    The museum continues to the north.
 ~
-55 12 0 0 0 0
+55 8 0 0 0 0
 D0
 ~
 ~
@@ -1278,13 +1278,13 @@ D0
 door~
 1 -1 5577
 E
+mirror~
+   You see a the fighting image of some armor clad humanoid wielding a weapon.
+~
+E
 window~
    Looking out this window you can see the grounds of the palace that separate
 the walls of the palace from the building itself.
-~
-E
-mirror~
-   You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 S
 #5577
