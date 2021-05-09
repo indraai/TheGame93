@@ -31,6 +31,8 @@ static void redit_disp_flag_menu(struct descriptor_data *d);
 static void redit_disp_sector_menu(struct descriptor_data *d);
 static void redit_disp_menu(struct descriptor_data *d);
 
+char conf[] = "\nbutton:s:save\nbutton:n:cancel\r";
+
 /* Utils and exported functions. */
 ACMD(do_oasis_redit)
 {
@@ -319,15 +321,14 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Extra Description\r"
-	  "\ninput[1:keyword]: %s\r"
-	  "\ndescrip[2:description]: %s\r",
+	  "\ninput:1:keyword: %s\r"
+	  "\ndescrip:2:description: %s\r"
+    "\nmenu:3:extra description\r"
+    "\nmenu:q:done\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
 
-  write_to_output(d, !extra_desc->next ? "\nmenu[new description]:3\r" : "\nmenu[next description]:3\r");
-
-  write_to_output(d, "\nmenu[done]:Q\n\r");
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
 }
 
@@ -358,13 +359,13 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit\r"
-	  "\ninput[1:exit to]: %d\r"
-	  "\ndescrip[2:description]: %s\r"
-	  "\ninput[3:door name]: %s\r"
-	  "\ninput[4:key]: %d\r"
-	  "\nselect[5:door flags]: '%s'\r"
-	  "\nmenu[purge exit]:6\r"
-	  "\nmenu[done]:0\r",
+	  "\ninput:1:exit to: %d\r"
+	  "\ndescrip:2:description: %s\r"
+	  "\ninput:3:door name: %s\r"
+	  "\ninput:4:key: %d\r"
+	  "\nselect:5:door flags: '%s'\r"
+	  "\nmenu:6:purge exit\r"
+	  "\nmenu:0:done\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
 	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
@@ -381,11 +382,11 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
   write_to_output(d,
-    "\nmenu[no door]:0\r\n"
-	  "\nmenu[closeable door]:1\r\n"
-    "\nmenu[pickproof door]:2\r\n"
-    "\nmenu[hidden door]:3\r\n"
-    "\nmenu[hidden, pickproof door]:4\r\n");
+    "\nmenu:0:no door\r"
+	  "\nmenu:1:closable door\r"
+    "\nmenu:2:pickproof door\r"
+    "\nmenu:3:hidden door\r"
+    "\nmenu:4:hidden pickproof door\r");
 }
 
 /* For room flags. */
@@ -399,12 +400,12 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Room Flags\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", room_bits[i], ++count);
+    write_to_output(d, "\nmenu:%s:%d\r", room_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
   write_to_output(d, "\n'Room flags': %s\r", bits);
-  write_to_output(d, "\nmenu[done]:Q\r");
+  write_to_output(d, "\nmenu:q:done\r");
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -419,7 +420,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Sector Types\n\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", sector_types[i], ++count);
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, sector_types[i]);
   }
   OLC_MODE(d) = REDIT_SECTOR;
 }
@@ -439,13 +440,13 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
       "\n# %s\r"
-      "\n'vnum': %d\r"
-      "\n'zone': %d\r"
+      "\nvnum:%d\r"
+      "\nzone:%d\r"
       "\n## Details\r"
-      "\ninput[1:name]: %s\r"
-      "\ndescrip[2:description]: %s\r"
-      "\nselect[3:room flags]: %s\r"
-      "\nselect[4:sector type]: %s\r",
+      "\ninput:1:name:%s\r"
+      "\ndescrip:2:description:%s\r"
+      "\nselect:3:room flags:%s\r"
+      "\nselect:4:sector type:%s\r",
       room->name,
       OLC_NUM(d),
       zone_table[OLC_ZNUM(d)].number,
@@ -457,12 +458,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[5:north]: %d\r"
-      "\nselect[6:east]: %d\r"
-      "\nselect[7:south]: %d\r"
-      "\nselect[8:west]: %d\r"
-      "\nselect[9:up]: %d\r"
-      "\nselect[A:down]: %d\r",
+      "\nselect:5:north:%d\r"
+      "\nselect:6:east:%d\r"
+      "\nselect:7:south:%d\r"
+      "\nselect:8:west:%d\r"
+      "\nselect:9:up:%d\r"
+      "\nselect:A:down:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -479,16 +480,16 @@ static void redit_disp_menu(struct descriptor_data *d)
   } else {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[5:north]: %d\r"
-      "\nselect[6:east]: %d\r"
-      "\nselect[7:south]: %d\r"
-      "\nselect[8:west]: %d\r"
-      "\nselect[9:up]: %d\r"
-      "\nselect[A:down]: %d\r"
-      "\nselect[B:northwest]: %d\r"
-      "\nselect[C:northeast]: %d\r"
-      "\nselect[D:southeast]: %d\r"
-      "\nselect[E:southwest]: %d\r",
+      "\nselect:5:north:%d\r"
+      "\nselect:6:east:%d\r"
+      "\nselect:7:south:%d\r"
+      "\nselect:8:west:%d\r"
+      "\nselect:9:up:%d\r"
+      "\nselect:A:down:%d\r"
+      "\nselect:B:northwest:%d\r"
+      "\nselect:C:northeast:%d\r"
+      "\nselect:D:southeast:%d\r"
+      "\nselect:E:southwest:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -513,15 +514,14 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n=\n"
-      "\nmenu[extra description]:F\r"
-      "\nmenu[script menu %s]:S\r"
-      "\nmenu[copy room]:W\r"
-      "\nmenu[delete room]:X\r"
+      "\nmenu:f:extra description\r"
+      "\nmenu:s:script menu %s\r"
+      "\nmenu:w:copy room\r"
+      "\nmenu:x:delete room\r"
       "\n=\n"
-      "\nmenu[quit]:Q\r",
+      "\nmenu:q:quit\r",
       OLC_SCRIPT(d) ? "Set." : "Not Set."
       );
-
   OLC_MODE(d) = REDIT_MAIN_MENU;
 }
 
@@ -565,7 +565,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-        write_to_output(d, "\nsave: confirm[Yes]:Y\nconfirm[No]:N\r");
+        write_to_output(d, "\nconfirm:y:save\nconfirm:n:abort\r");
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
         cleanup_olc(d, CLEANUP_ALL);
@@ -581,15 +581,15 @@ void redit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "\n## Room Description\r");
 
       if (OLC_ROOM(d)->description) {
-	      write_to_output(d, "descrip[::%s::]", OLC_ROOM(d)->description);
+	      write_to_output(d, "descrip:%s", OLC_ROOM(d)->description);
         oldtext = strdup(OLC_ROOM(d)->description);
       }
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
 
       write_to_output(d,
-        "\nmenu[save]:/s\r"
-        "\nmenu[cancel]:/a\r"
+        "\nmenu:/s:save\r"
+        "\nmenu:/a:cancel\r"
       );
       break;
     case '3':
@@ -922,7 +922,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = REDIT_MAIN_MENU;
       return;
     } else
-      write_to_output(d, "\nPlease answer 'Y' or 'N': \nconfirm[Yes]:Y\nconfirm[No]:N");
+      write_to_output(d, "%s", confirm);
 
     break;
 
