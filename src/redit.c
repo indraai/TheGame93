@@ -31,7 +31,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d);
 static void redit_disp_sector_menu(struct descriptor_data *d);
 static void redit_disp_menu(struct descriptor_data *d);
 
-char conf[] = "\nbutton:s:save\nbutton:n:cancel\r";
+char confirm[] = "\nbutton:s:save\nbutton:n:cancel\r";
 
 /* Utils and exported functions. */
 ACMD(do_oasis_redit)
@@ -565,7 +565,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-        write_to_output(d, "\nconfirm:y:save\nconfirm:n:abort\r");
+        write_to_output(d, "%s", confirm);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
         cleanup_olc(d, CLEANUP_ALL);
