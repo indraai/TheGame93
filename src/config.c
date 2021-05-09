@@ -261,12 +261,12 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"\nmenu[enter the adventure]:1\r"
-"\nmenu[the story]:3\r"
-"\nmenu[change description]:2\r"
-"\nmenu[change password]:4\r"
-"\nmenu[delete character]:5\r"
-"\nmenu[exit]:0\r";
+"\nmenu:1:enter the adventure\r"
+"\nmenu:3:the story\r"
+"\nmenu:2:change description]\r"
+"\nmenu:4:change password\r"
+"\nmenu:5:delete character\r"
+"\nmenu:0:exit\r";
 
 const char *WELC_MESSG =
 "\nWelcome to TheGame93!\n\nMay your adventure here be... EXCELLENT!\r";
