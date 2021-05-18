@@ -13,9 +13,9 @@ gentle extended hand, a smile, and gardens...  Gardens.
 8 8 1
 E
 #1501
-michael angel archangel~
-Michael~
-The archangel Michael turns and begins to look you over.
+michael deva arcdeva deva~
+ArcDEVA Michael~
+The ArcDEVA Michael turns and begins to look you over.
 ~
    At first you see nothing but a bright and comforting glow; then the image
 sharpens suddenly, and you see a face, eyes, hands, but then that too fades, and
@@ -27,11 +27,11 @@ you see nothing.
 8 8 1
 E
 #1502
-gabriel angel archangel~
-Gabriel~
-The archangel Gabriel smiles, and begins to tell you something.
+gabriel deva arcdeva~
+ArcDEVA Gabriel~
+The ArcDEVA Gabriel smiles, and begins to tell you something.
 ~
-   Known as the Messenger, it is this angel that has brought the Divine Word to
+Known as the Messenger, it is this DEVA that has brought the Divine Word to
 the chosen prophets, and in turn brought the Seal of the Prophets on a
 miraculous journey to the holy city of Jerusalem.
 ~
@@ -41,11 +41,11 @@ miraculous journey to the holy city of Jerusalem.
 8 8 1
 E
 #1503
-raphael angel archangel~
+raphael deva arcdeva~
 Raphael~
-The archangel Raphael looks up and frowns at you in disapproval.
+The ArcDEVA Raphael looks up and frowns at you in approval.
 ~
-   It is impossible to get a solid glance at the archangel.  He is nothing that
+It is impossible to get a solid glance at the ArcDEVA.  He is nothing that
 is human, and with a mere whisper, he dispels every image that you attempt to
 create in your mind.
 ~
@@ -55,12 +55,11 @@ create in your mind.
 8 8 1
 E
 #1504
-uriel angel archangel~
-Uriel~
-Uriel, the angel of darkness, stands here guarding the way forward.
+uriel deva arcdeva~
+ArcDEVA Uriel~
+ArcDEVA Uriel, a DEVA of Light, stands here guarding the way forward.
 ~
-   After the Fall of the bringer of light, the Lord had need for the service of
-a fourth, and it was this angel, Uriel, that rose to the highest ranks.
+The Lord had need for the service of a DEVA, and it was this DEVA, Uriel, that rose to the highest ranks.
 ~
 2058 0 0 0 0 0 0 0 1000 E
 29 11 -7 5d5+290 4d4+4
@@ -68,7 +67,7 @@ a fourth, and it was this angel, Uriel, that rose to the highest ranks.
 8 8 1
 E
 #1505
-cherub cherubin cherubim~
+cherub cherubin cherubim demon~
 the cherubin~
 The cherubin of the blazing sword looks at you and begins to chuckle.
 ~
@@ -76,27 +75,27 @@ The cherubin of the blazing sword looks at you and begins to chuckle.
 wrapped in a glowing white cloth, but as you try to walk past, the beast grins
 and cackles, drawing its sword and blocking the way.
 ~
-42 0 0 0 0 0 0 0 0 E
+42 0 0 0 0 0 0 0 -10 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 0
 E
 #1506
-jester~
+jester suspect~
 the jester~
 A mad, drunken jester is sitting here, lost in his deepening stupor.
 ~
-   He is dimly aware of your gaze.  Chuckling softly, you hear him mutter
+He is dimly aware of your gaze.  Chuckling softly, you hear him mutter
 something obscure: dragons, the temple, the falling of great empires.  He laughs
 at you and takes another drink.
 ~
-10 0 0 0 0 0 0 0 -300 E
+10 0 0 0 0 0 0 0 -100 E
 13 16 2 2d2+130 2d2+2
 130 16900
 6 6 1
 E
 #1507
-jinn sprite~
+jinn sprite demon~
 the jinn~
 One of the jinn dances in and out of the air before your eyes, taunting you.
 ~
@@ -110,7 +109,7 @@ wishes.  To you, it looks like nothing more than an annoying little sprite.
 8 8 0
 E
 #1508
-man old~
+man old witness~
 the slumped old man~
 A slumped, shaking old man stands up and begins to yell at the world.
 ~
@@ -119,13 +118,13 @@ slackened jaws and pasty white bags sagging under his ugly, hating eyes.  A tuft
 of reckless dark hair scatters across his forehead, and his right hand shakes
 and shakes.
 ~
-42 0 0 0 16 0 0 0 -1000 E
+42 0 0 0 16 0 0 0 300 E
 26 12 -5 5d5+260 4d4+4
 260 67600
 8 8 1
 E
 #1509
-caliph hakim al-hakim~
+caliph hakim al-hakim demon~
 al-Hakim~
 The mad Caliph al-Hakim is here, dissecting a young boy.
 ~
@@ -139,7 +138,7 @@ he has not bathed in months nor eaten in days, and yet his smile, so charming.
 8 8 1
 E
 #1510
-judas escariot apostle~
+judas demon escariot apostle~
 Judas Escariot~
 The wayward apostle approaches slowly, extending his arms in a hug.
 ~
@@ -151,7 +150,7 @@ The wayward apostle approaches slowly, extending his arms in a hug.
 8 8 1
 E
 #1511
-pharaoh~
+pharaoh demon~
 Pharaoh~
 Pharaoh has been sent here in retribution for a lifetime of evils.
 ~
@@ -164,20 +163,20 @@ with nothing more than a smirk of contempt.
 8 8 1
 E
 #1512
-abu bakr first caliph~
+abu bakr first caliph demon~
 Abu Bakr~
 Abu Bakr, first of the Rashidun, mourns over the death of the Prophet.
 ~
    You see a simple man, dressed in dark and unadorned robes, bent over and
 pensive, reliving the memories of a man he never thought would die.
 ~
-10 0 0 0 16 0 0 0 1000 E
+10 0 0 0 16 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
 E
 #1513
-umar second caliph~
+umar second caliph demon~
 Umar~
 You see Umar, second of the Rashidun, the successors of the Prophet.
 ~
@@ -185,13 +184,13 @@ You see Umar, second of the Rashidun, the successors of the Prophet.
 "I do not wish to fight you, but if you refuse the truth of the Word, then I
 must.  "
 ~
-10 0 0 0 16 0 0 0 1000 E
+10 0 0 0 16 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
 E
 #1514
-uthman third caliph~
+uthman third caliph demon~
 Uthman~
 The third of the rightly-guided Caliphs, Uthman, stands before you.
 ~
@@ -199,13 +198,13 @@ The third of the rightly-guided Caliphs, Uthman, stands before you.
 other.  The memory of the Prophet fading quickly from the minds of the faithful,
 he could do little, and was in the end killed by his enemies.
 ~
-42 0 0 0 16 0 0 0 1000 E
+42 0 0 0 16 0 0 0 -1000 E
 26 12 -5 5d5+260 4d4+4
 260 67600
 8 8 1
 E
 #1515
-ali fourth last caliph~
+ali fourth last caliph demon~
 Ali~
 You have come before Ali, fourth and last of the Rashidun.
 ~
@@ -214,28 +213,28 @@ deserving of our respect and reverence.  Still others saw him as a schismatic, a
 heretic, one to be killed and forgotten.  To look at him now is for you to
 decide for yourself.
 ~
-42 0 0 0 16 0 0 0 1000 E
+42 0 0 0 16 0 0 0 -1000 E
 26 12 -5 5d5+260 4d4+4
 260 67600
 8 8 1
 E
 #1516
-angel beautiful iblis~
-Iblis~
-You gaze in awe at the most beautiful of all angels, Iblis, the Fallen.
+arcdeva deva beautiful iblis~
+ArcDEVA Iblis~
+You gaze in awe at the most beautiful of all DEVAS, Iblis, the Hero.
 ~
-   He smiles calmly, and begins to tell you of the time when he would not kneel,
+He smiles calmly, and begins to tell you of the time when he would not kneel,
 would not prostrate himself before the first human beings.  And then he gestures
-at you, smiling, and conjures an image of all the temptations that will be yours
-if you in turn but follow him.
+at you, smiling, and conjures an image of all the gifts that will be yours
+if you in turn but follow him to Indra.
 ~
-46 0 0 0 16 0 0 0 -1000 E
-25 12 -5 5d5+250 4d4+4
+46 0 0 0 16 0 0 0 1000 E
+25 12 -5 5d5+270 4d4+4
 250 62500
 8 8 1
 E
 #1517
-iblis satan devil voice~
+iblis demon devil voice~
 the Temptation~
 You pause nervously as a voice whispers at you from over your shoulder.
 ~
@@ -248,11 +247,11 @@ place, just tormented laughter, moaning, screaming, and begging.
 8 8 1
 E
 #1518
-serpent dragon devil iblis~
+serpent dragon devil iblis demon~
 the raging dragon~
 A raging dragon turns to you in violent lust for your soul.
 ~
-   The serpent of babylon, the aged and violet hued monster that has watched all
+The serpent of babylon, the aged and violet hued monster that has watched all
 of mankind succumb before its power, turns to you as its last victim.
 ~
 46 0 0 0 16 0 0 0 -1000 E
@@ -274,7 +273,7 @@ underworld that you fear to be your fate.
 8 8 1
 E
 #1520
-baby innocent~
+baby innocent victim~
 the innocent baby~
 Lying on the ground wrapped in blankets is the most innocent of babies.
 ~
@@ -287,7 +286,7 @@ yawn.
 4 4 1
 E
 #1521
-boy teenage~
+boy teenage suspect~
 the teenage boy~
 You stop in surprise at the sight of a teenage boy staring off to the distance.
 ~
@@ -295,20 +294,20 @@ You stop in surprise at the sight of a teenage boy staring off to the distance.
 his gaze and notice that he is gazing in wonderment at the fullness of the moon.
 
 ~
-10 0 0 0 16 0 0 0 1000 E
+10 0 0 0 16 0 0 0 -100 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
 E
 #1522
-man~
+man suspect~
 the man~
 A middle-aged man is here, kneeling in prayer.
 ~
-   He is tired, the lines of age marking his face, but in his robe, kneeling, he
+He is tired, the lines of age marking his face, but in his robe, kneeling, he
 is the image of perfect contentment.
 ~
-2058 0 0 0 16 0 0 0 1000 E
+2058 0 0 0 16 0 0 0 -500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
 5 5 1
@@ -321,7 +320,7 @@ You are overwhelmed by the presence of a soul that has transcended its body.
    You sense certain tastes and smells, the winds through the gardens.  Nothing
 can explain or describe this perfection, this utter bliss.
 ~
-42 0 0 0 16 0 0 0 1000 E
+42 0 0 0 16 0 0 0 -1000 E
 28 11 -6 5d5+280 4d4+4
 280 78400
 8 8 1
