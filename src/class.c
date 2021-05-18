@@ -1869,7 +1869,8 @@ const char *title_male(int chclass, int level)
 
     case CLASS_MONK:
     switch (level) {
-      case  1: return "the Believer";
+      /*
+      case  1: return "the Laity";
       case  2: return "the Attendant";
       case  3: return "the Acolyte";
       case  4: return "the Novice";
@@ -1887,13 +1888,16 @@ const char *title_male(int chclass, int level)
       case 16: return "the Chaplain";
       case 17: return "the Expositor";
       case 18: return "the Bishop";
-      case 19: return "the Arch Bishop";
-      case 20: return "the Patriarch";
+      case 19: return "Abbot";
+      case 20: return "Supreme Patriarch";
+      */
       /* no one ever thought up these titles 21-30 */
+      /*
       case LVL_IMMORT: return "the Immortal Cardinal";
       case LVL_GOD: return "the Inquisitor";
       case LVL_GRGOD: return "the God of Good and Evil";
-      default: return "the Monk";
+      */
+      default: return "Monk";
     }
 
     case CLASS_THIEF:
