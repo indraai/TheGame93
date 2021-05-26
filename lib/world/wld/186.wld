@@ -8,11 +8,10 @@ adventure[world]:18601/look
 ~
 ~
 0 -1 18601
-D2
-adventure[world]:3066/look
+D1
 ~
 ~
-0 -1 3066
+0 0 3043
 S
 #18601
 The Beginning~
@@ -614,12 +613,12 @@ adventure[world]:18638/look
 ~
 0 -1 18638
 E
-writing words~
-adventure[world]:18639/writing
-~
-E
 wall~
 adventure[world]:18639/wall
+~
+E
+writing words~
+adventure[world]:18639/writing
 ~
 S
 #18640
@@ -638,12 +637,12 @@ adventure[world]:18644/look
 ~
 0 -1 18644
 E
-statue~
-adventure[world]:18640/statue
-~
-E
 plaque nameplate name~
 adventure[world]:18640/plaque
+~
+E
+statue~
+adventure[world]:18640/statue
 ~
 S
 #18641

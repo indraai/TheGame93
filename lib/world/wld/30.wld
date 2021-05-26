@@ -753,7 +753,7 @@ adventure[world]:3042/wall
 ~
 S
 #3043
-Wall Road~
+Wall Rd.~
 adventure[world]:3043/main
 ~
 30 0 0 0 0 1
@@ -772,6 +772,10 @@ adventure[world]:3047/look
 ~
 ~
 0 -1 3047
+D3
+~
+~
+0 0 18600
 E
 wall~
 adventure[world]:3043/wall
