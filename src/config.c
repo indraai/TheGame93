@@ -263,7 +263,7 @@ int use_new_socials = YES;
 const char *MENU =
 "\nmenu:1:enter the adventure\r"
 "\nmenu:3:the story\r"
-"\nmenu:2:change description]\r"
+"\nmenu:2:change description\r"
 "\nmenu:4:change password\r"
 "\nmenu:5:delete character\r"
 "\nmenu:0:exit\r";
