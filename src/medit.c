@@ -56,11 +56,11 @@ ACMD(do_oasis_medit)
   two_arguments(argument, buf1, buf2);
 
   if (!*buf1) {
-    send_to_char(ch, "Specify a mobile VNUM to edit.\r\n");
+    send_to_char(ch, "\nSpecify a mobile VNUM to edit.\r");
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+      send_to_char(ch, "\nYikes!  Stop that, someone will get hurt!\r");
       return;
     }
 
@@ -78,7 +78,7 @@ ACMD(do_oasis_medit)
     }
 
     if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
+      send_to_char(ch, "\nSave which zone?\r");
       return;
     }
   }
@@ -88,7 +88,7 @@ ACMD(do_oasis_medit)
     number = atoi(buf1);
 
   if (number < IDXTYPE_MIN || number > IDXTYPE_MAX) {
-    send_to_char(ch, "That mobile VNUM can't exist.\r\n");
+    send_to_char(ch, "\nThat mobile VNUM can't exist.\r");
     return;
   }
 
@@ -96,7 +96,7 @@ ACMD(do_oasis_medit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_MEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That mobile is currently being edited by %s.\r\n",
+        send_to_char(ch, "\nThat mobile is currently being edited by %s.\r",
           GET_NAME(d->character));
         return;
       }
@@ -117,7 +117,7 @@ ACMD(do_oasis_medit)
   /* Find the zone. */
   OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
   if (OLC_ZNUM(d) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+    send_to_char(ch, "\nSorry, there is no zone for that number!\r");
     free(d->olc);
     d->olc = NULL;
     return;
@@ -134,7 +134,7 @@ ACMD(do_oasis_medit)
 
   /* If save is TRUE, save the mobiles. */
   if (save) {
-    send_to_char(ch, "Saving all mobiles in zone %d.\r\n",
+    send_to_char(ch, "\nSaving all mobiles in zone %d.\r",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves mobile info for zone %d.",
@@ -322,12 +322,12 @@ static void medit_disp_sex(struct descriptor_data *d)
   int i, count = 0;
   // get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n### Gender");
+  write_to_output(d, "\n### Gender\r");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", genders[i], ++count);
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, genders[i]);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu:Q:done\r");
 }
 
 /* Display attack types menu. */
@@ -337,11 +337,11 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### Attack Types");
+  write_to_output(d, "\n### Attack Types\r");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, i);
   }
-  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu:Q:done\r");
 }
 
 /* Find mob flags that shouldn't be set by builders */
@@ -396,7 +396,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\n==\n\nmenu[done]:Q\r");
+  write_to_output(d, "\n==\n\nmenu:Q:done\r");
 }
 
 /* Display affection flags menu. */
@@ -411,14 +411,14 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   write_to_output(d, "\n### AFF Flags\r");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", affected_bits[i], ++count);
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, affected_bits[i]);
   }
 
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\n==\n\nmenu[done]:Q\r");
+  write_to_output(d, "\n==\n\nmenu:Q:done\r");
 }
 
 /* Display main menu. */
@@ -432,7 +432,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Mob %d"
+  "\n# Mob %d\r"
   "\nselect:1:gender:%s\r"
   "\ninput:2:keywords:%s\r"
   "\ninput:3:s-desc: %s\r"
@@ -485,9 +485,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "\n## Stats: Mob %d\r\n"
-    "\ninput:1:level:%d\r\n"
-    "\n'2) auto stats': Auto set stats based on level.\r\n",
+    "\n## Stats: Mob %d\r"
+    "\ninput:1:level:%d\r"
+    "\n'2) auto stats': Auto set stats based on level.\r",
     OLC_NUM(d),
     GET_LEVEL(mob)
   );
@@ -503,7 +503,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   );
 
   write_to_output(d,
-    "\n### Bare Hand Damage (xdy+z): \r\n"
+    "\n### Bare Hand Damage (xdy+z):\r"
     "\nselect:6:Dice:%d\r"
     "\nselect:7:Size:%d\r"
     "\nselect:8:Roll:%d\r",
@@ -513,7 +513,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   );
 
   write_to_output(d,
-    "\n### General"
+    "\n### General\r"
     "\nselect:A:Armor Class:%d\r\n"
     "\nselect:B:Exp Points:%d\r\n"
     "\nselect:C:Gold:%d\r\n"
