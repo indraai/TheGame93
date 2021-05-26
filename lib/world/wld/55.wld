@@ -181,10 +181,7 @@ D3
 S
 #5511
 The Museum Of The Greater Gods~
-   Four large stone statues reside in the museum.  They were constructed
-by the people of New Thalos to pay homage to the saints they believe to
-have saved all their lives.
-   The museum continues to the south.
+adventure[world]:5511/main
 ~
 55 8 0 0 0 0
 D2
@@ -1278,13 +1275,13 @@ D0
 door~
 1 -1 5577
 E
-mirror~
-   You see a the fighting image of some armor clad humanoid wielding a weapon.
-~
-E
 window~
    Looking out this window you can see the grounds of the palace that separate
 the walls of the palace from the building itself.
+~
+E
+mirror~
+   You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 S
 #5577

@@ -11,33 +11,35 @@ Ick...  What a disgusting creature!  It is black and green and looking to tackle
 8 8 0
 E
 #18602
-tdl1-l large tackle dummy~
-TDL1-L Large Tackle Dummy~
-A TDL1-L Tackle Dummy is here.
+large tackle dummy tackledummy~
+Large Tackle Dummy~
+A Large Tackle Dummy is here.
 ~
 What an odd looking fellow.  He looks harmless, but you never can tell.
 He is only about 4 feet tall, and made for TACKLING.
 ~
-76 0 0 0 0 0 0 0 0 E
+108 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 100 400
 8 8 0
+BareHandAttack: 11
 E
 #18603
-tdl2-st stupid tackle dummy~
-TDL1-ST Stupid Tackle Dummy~
-A TDL1-ST Stupid Tackle Dummy is here.
+td18603 stupid tackle dummy~
+Stupid Tackle Dummy~
+A Stupid Tackle Dummy is here.
 ~
-This little guy looks cute, but don't be fooled. Just a stupid tackle dummy waiting for a TACKLE!
+TD18603 may look cute, but don't be fooled. Just a stupid dummy waiting for a TACKLE!
 ~
-72 0 0 0 0 0 0 0 -100 E
+104 0 0 0 0 0 0 0 -100 E
 4 19 7 0d0+40 1d2+0
 175 1600
 8 8 0
+BareHandAttack: 12
 E
 #18604
 tdl2-fl fool tackle dummy~
-A TDL1-FL Fool Tackle Dummy~
+a TDL1-FL Fool Tackle Dummy~
 The Fool Tackle Dummy is here.
 ~
 The fool is always following around that Stupid Tackle Dummy. He looks at you and says, 'Have
@@ -62,16 +64,17 @@ up a batch of something or other.
 8 8 1
 E
 #18606
-tdl1-s small tackle dummy~
-TDL1-S Small Tackle Dummy~
-A TDL1-S Small Tackle Dummy is here.
+small tackle dummy tackledummy~
+Small Tackle Dummy~
+The Small Tackle Dummy is here.
 ~
-Great! A little tackle dummy. This little guy is great to practice your tackles with.
+A little tackle dummy. This little guy is great to practice your tackles with.
 ~
-72 0 0 0 0 0 0 0 -250 E
+104 0 0 0 0 0 0 0 -250 E
 1 20 9 0d0+10 1d2+0
 50 100
 8 8 0
+BareHandAttack: 3
 E
 #18607
 tdl1-zo zombie tackle dummy~
@@ -130,32 +133,30 @@ who cross its path.
 8 8 0
 E
 #18611
-annoying tackle dummy~
-the Annoying Tackle Dummy~
+annoying tackle dummy tackledummy~
+Annoying Tackle Dummy~
 The Annoying Tackle Dummy is here.
 ~
-What a jerk!  He won't shut up, and he keeps making the most irritating
-comments about everything.  Better silence him with cold, tempered steel
-MUHAHAHAHAHAHAHAHAHAHA!
+What a jerk!  He won't shut up, and he keeps making the most irritating comments about everything. Better silence him with cold, tempered steel MUHAHAHAHAHAHAHAHAHAHA!
 ~
-76 0 0 0 0 0 0 0 -500 E
+108 0 0 0 0 0 0 0 -500 E
 2 20 8 0d0+20 1d2+0
 125 400
 8 8 0
+BareHandAttack: 7
 E
 #18612
-clueless tackle dummy~
-the Clueless Tackle Dummy~
+clueless tackle dummy tackledummy~
+Clueless Tackle Dummy~
 The Clueless Tackle Dummy is here.
 ~
-What a moron!  Every question that is answered in the help files, he will ask
-and he will probably ask 2 or 3 times too.  This guy just doesn't get it, best
-put him out of his misery.
+What a moron!  Every question that is answered in the help files, he will ask and he will probably ask 2 or 3 times too. This guy just doesn't get it, best put him out of his misery.
 ~
-76 0 0 0 0 0 0 0 -100 E
+108 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
 100 100
 8 8 0
+BareHandAttack: 12
 E
 #18613
 idiot tackle dummy~
@@ -172,30 +173,30 @@ some others you might see.
 8 8 0
 E
 #18614
-moron tackle dummy~
-the Moron Tackle Dummy~
+moron tackle dummy tackledummy~
+Moron Tackle Dummy~
 A Moron Tackle Dummy is here.
 ~
-Hmmm...  Looks like he has been around a while, but he wandered a little too
-far from home this time.  Don't think he knows quite where he is, maybe you
-should help him out?
+Hmmm...  Looks like he has been around a while, but he wandered a little too far from home this time. Don't think he knows quite where he is, maybe you
+should help him out? TACKLE!
 ~
-72 0 0 0 0 0 0 0 -300 E
+108 0 0 0 0 0 0 0 -300 E
 4 19 7 0d0+40 1d2+0
 175 1600
 8 8 0
+BareHandAttack: 9
 E
 #18615
 bitch tackle dummy~
-the Bitch Tackle Dummy~
-A Bitch Tackle Dummy is here.
+Bitch Tackle Dummy~
+The Bitch Tackle Dummy is here.
 ~
-   Here is a guy who has it all together.  Nice equipment too, must have read
-the help files, Eh?
+This dummy is just a bitch... nothing else to it.
 ~
-76 0 0 0 0 0 0 0 -500 E
+108 0 0 0 0 0 0 0 -500 E
 5 19 7 1d1+50 1d2+0
 200 2500
 8 8 0
+BareHandAttack: 8
 E
 $

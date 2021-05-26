@@ -11,20 +11,19 @@ You look back through the opening into the inner lair.
 door stone~
 2 7205 7201
 E
-door stone~
-   This is a heavy black stone door it looks very solid.
-~
-E
 writing~
    You read the number '666'.
+~
+E
+door stone~
+   This is a heavy black stone door it looks very solid.
 ~
 S
 #7201
 The Inner Lair~
-   You are in a octagonal room with smooth purple stone walls.  The floor is
-made from black stone.  In the western wall you see a large black stone door.
+You are in a octagonal room with smooth purple stone walls.  The floor is made from black stone. In the western wall you see a large black stone door.
 ~
-72 9 0 0 0 0
+72 8 0 0 0 0
 D2
 You look back through the door into the lair.
 ~
@@ -59,17 +58,17 @@ You see another part of the lair.
 ~
 0 -1 7203
 E
-skull skulls bones decay~
-   On all the skulls you notice that there is a three inch hole in the forehead.
-All the bones are broken and old.
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.
 ~
 E
 slime~
    The slime is slimy and uninteresting.
 ~
 E
-torch sconce~
-   The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.
 ~
 S
 #7203
@@ -94,17 +93,17 @@ You see another part of the lair.
 ~
 0 -1 7204
 E
-skull skulls bones decay~
-   On all the skulls you notice that there is a three inch hole in the forehead.
-All the bones are broken and old.
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.
 ~
 E
 slime~
    The slime is slimy and uninteresting.
 ~
 E
-torch sconce~
-   The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.
 ~
 S
 #7204
@@ -129,17 +128,17 @@ You see the lair entrance.
 door wooden~
 1 -1 7208
 E
-skull skulls bones decay~
-   On all the skulls you notice that there is a three inch hole in the forehead.
-All the bones are broken and old.
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.
 ~
 E
 slime~
    The slime is slimy and uninteresting.
 ~
 E
-torch sconce~
-   The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.
 ~
 S
 #7205
@@ -159,17 +158,17 @@ You see another part of the lair.
 ~
 0 -1 7202
 E
-skull skulls bones decay~
-   On all the skulls you notice that there is a three inch hole in the forehead.
-All the bones are broken and old.
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.
 ~
 E
 slime~
    The slime is slimy and uninteresting.
 ~
 E
-torch sconce~
-   The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.
 ~
 S
 #7206
@@ -194,16 +193,16 @@ You see another part of the lair.
 ~
 0 -1 7203
 E
-bones decay~
-   All the bones are broken and old.
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.
 ~
 E
 slime~
    The slime is slimy and uninteresting.
 ~
 E
-torch sconce~
-   The torch is bolted to the sconce and the sconce to the wall.
+bones decay~
+   All the bones are broken and old.
 ~
 S
 #7207
@@ -223,17 +222,17 @@ You see another part of the lair.
 ~
 1 -1 7204
 E
-skull skulls bones decay~
-   On all the skulls you notice that there is a three inch hole in the forehead.
-All the bones are broken and old.
+torch sconce~
+   The torch is bolted to the sconce and the sconce to the wall.
 ~
 E
 slime~
    The slime is slimy and uninteresting.
 ~
 E
-torch sconce~
-   The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+   On all the skulls you notice that there is a three inch hole in the forehead.
+All the bones are broken and old.
 ~
 S
 #7208
@@ -419,12 +418,12 @@ You see a drain running to the west.
 ~
 0 -1 7219
 E
-water~
-   The water is dirty but it looks like you would be able to swim in it.
-~
-E
 hole~
    Through the hole you can just make out a very small room.
+~
+E
+water~
+   The water is dirty but it looks like you would be able to swim in it.
 ~
 S
 #7218
@@ -706,14 +705,14 @@ D4
 altar secret~
 1 -1 7116
 E
-altar~
-   This altar is very special.  Faces appear to be smiling from it.  There is a
-triangle engraved in the top of it.
-~
-E
 triangle~
    The triangle is filled with small symbols.  They seem to be a language you
 have never seen before.
+~
+E
+altar~
+   This altar is very special.  Faces appear to be smiling from it.  There is a
+triangle engraved in the top of it.
 ~
 S
 #7281
@@ -733,16 +732,16 @@ D2
 door small round~
 1 -1 7280
 E
-small round door~
-   The door is completely round without a keyhole.
+walls~
+   The walls look alive.
 ~
 E
 red light~
    The red light glows from the walls.
 ~
 E
-walls~
-   The walls look alive.
+small round door~
+   The door is completely round without a keyhole.
 ~
 S
 #7282
@@ -822,15 +821,15 @@ It is too dark to tell.
 door iron~
 1 -1 7286
 E
+big metal box~
+   The metal box is covered with dust.  You notice that it was once filled with
+coal, as you see some small pieces of it.
+~
+E
 skeletons~
    When you look at the skeletons, you can see that they once had been in great
 pain.  They are hanging in their arms, and some of them were killed with a sharp
 instrument.
-~
-E
-big metal box~
-   The metal box is covered with dust.  You notice that it was once filled with
-coal, as you see some small pieces of it.
 ~
 S
 #7286

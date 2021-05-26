@@ -391,8 +391,8 @@ It looks unfinished.
 E
 #3059
 security deva secuirtydeva devaforce sd3059~
-SD3059 SecurityDEVA~
-SD3059 SecurityDEVA is here.
+SecurityDEVA~
+SecurityDEVA is here.
 ~
 SD3059 SecurityDEVA is assigned to protect the Realm.
 ~
@@ -423,7 +423,7 @@ A ServiceDEVA is cleaning up.
 ~
 ServiceDEVA love their jobs of cleaning up and finding recycle items.
 ~
-2120 0 0 0 0 0 0 0 800 E
+6236 0 0 0 64 0 0 0 800 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 0
@@ -432,11 +432,11 @@ T 3011
 #3062
 tackle tackledummy dummy target~
 TackleDummy Target~
-A tackle dummy is looking for tackles.
+A dummy is looking for tackles.
 ~
-The tackle dummy is a small dummy that runs around with a target on it's back.
+The dummy is small and runs around with a target on it's back.
 ~
-202 0 0 0 65536 0 0 0 -200 E
+232 0 0 0 0 0 0 0 -200 E
 1 20 9 0d0+10 1d2+0
 1000 100
 8 8 0
