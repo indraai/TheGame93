@@ -277,16 +277,17 @@ magical combat.
 E
 T 5404
 #5422
-statue agni~
-the statue of Agni~
-The statue of Agni stands here.
+agni fire god sacrifice~
+Agni, Fire God~
+Agni is here.
 ~
-The statue of the High Lord of FIRE stands here.
+The High Lord of FIRE stands here.
 ~
-256026 0 0 0 16 0 0 0 -1000 E
+256280 0 0 0 26744 0 0 0 -1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 0
+BareHandAttack: 11
 E
 T 5404
 #5423
