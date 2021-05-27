@@ -278,10 +278,10 @@ E
 T 5404
 #5422
 agni fire god sacrifice~
-Agni, Fire God~
-Agni is here.
+Agni, The God of Sacrifice~
+Agni, The GOD of SACRIFICE is here.
 ~
-The High Lord of FIRE stands here.
+AGNI, The High Lord of FIRE and SACRIFICE is here.
 ~
 256280 0 0 0 26744 0 0 0 900 E
 15 15 1 3d3+150 2d2+2
@@ -291,13 +291,13 @@ BareHandAttack: 11
 E
 T 5404
 #5423
-great god king lord indra~
-Indra, Great God King~
-The Great King of Gods Indra.
+god king lord indra offering water~
+Indra, The God of Offering~
+Indra, The Lord GOD of Offerings and Water
 ~
 Here is The Great King of Gods Indra atop Aravatha his beautiful enormous elephant.
 ~
-256280 0 0 0 26872 0 0 0 1000 E
+518428 0 0 0 26872 0 0 0 1000 E
 15 15 1 6d6+300 5d5+5
 300 90000
 8 8 0
@@ -305,13 +305,13 @@ BareHandAttack: 14
 E
 T 5404
 #5424
-statue yama gods deity~
-Yama, The Great God of Death and Justice~
-Yama, The Great God of Death and Justice stands here.
+yama gods deity justice~
+Yama, The God of Justice~
+Yama, The God Justice is here.
 ~
-This is a statue of the God of Death.  Yama is the God of Death and Justice, and is responsible for the dispensation of law and punishment of sinners in his abode, Yamaloka. Yama is also one of the oldest deities in the pantheon and some of his earliest appearances are found in the Rigveda.
+This the God of Justice.  Yama is the God of Justice, and is responsible for the dispensation of law and punishment of sinners in his abode, Yamaloka. Yama is also one of the oldest deities in the pantheon and some of his earliest appearances are found in the Rigveda.
 ~
-256026 0 0 0 120 0 0 0 0 E
+260120 0 0 0 24696 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 0
