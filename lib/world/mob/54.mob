@@ -332,14 +332,13 @@ aura.
 E
 T 5404
 #5426
-statue kali~
-the statue of Kali~
-The statue of Kali stands here.
+statue usas~
+the statue of usas~
+Usas, The Goddess of Dawn is here.
 ~
-   The statue of the Black Mother, Kali, is made of black marble and is covered
-with silver runes.
+Usas, The Goddess of Dawn is here.
 ~
-256026 0 0 0 16 0 0 0 -1000 E
+256026 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 0
