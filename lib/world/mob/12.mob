@@ -1,9 +1,9 @@
 #1200
 innkeeper receptionists~
 the Immortal Innkeeper~
-The Immortal Innkeeper is organizing her books here.
+The Immortal Innkeeper is here.
 ~
-   She appears to be having no problem tallying things up.
+She appears to be very organized and happy with her duties.
 ~
 188426 0 0 0 65536 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
@@ -15,7 +15,7 @@ postmaster~
 the Immortal Postmaster~
 The Immortal Postmaster is hard at work here.
 ~
-   Scary...  A postal worker...  Working?
+The Postmaster is happily working away handling letters for the REALM.
 ~
 10 0 0 0 65536 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
@@ -23,13 +23,11 @@ The Immortal Postmaster is hard at work here.
 8 8 2
 E
 #1202
-being amorphous spirit wandering~
-the wandering spirit~
-A strange amorphous being wanders these halls eternally cleaning.
+service deva servicedeva sd1202 immortal~
+the Immortal ServiceDEVA~
+SD1202 Immortal ServiceDEVA is here cleaning up.
 ~
-   This spirit, having lived out its days in the mortal world, now works off its
-final sins by doing menial labor in this realm's purgatory.  In this case,
-those chores seem to be cleaning up after the immortals of the land.
+SD1202 Immortal ServiceDEVA is a specialist in keeping the IMMORALS AREA CLEAN AND TIDY.
 ~
 254028 0 0 0 589840 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
@@ -38,27 +36,26 @@ those chores seem to be cleaning up after the immortals of the land.
 E
 T 3011
 #1203
-malikar twat~
-Malikar the Janitor~
-Malikar the Janitor stands here, looking lost.
+malikar craftsman~
+Malikar the Craftsman~
+Malikar the Craftsman stands here, looking busy.
 ~
-   It looks like Malikar is suffering from a bad conscience he must have buggered
-Emershia one time too many.
+It looks like Malikar is creating an amazing offering for the IMMORTALS.
 ~
-172108 0 0 0 2 0 0 0 -1000 E
+172108 0 0 0 2 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
 BareHandAttack: 13
 E
 #1204
-imp~
-the Imp~
-A small imp sits here, grinning devilishly.
+test deva td1204~
+TestDeva~
+TD1204 TestDeva sits here, grinning happily.
 ~
-   This small imp is used for testing.
+This small Deva helps with testing.
 ~
-256092 0 0 0 20 0 0 0 -1000 E
+256092 0 0 0 20 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0
@@ -68,11 +65,9 @@ bug~
 the bug~
 a nasty little bug is crawling around here, annoying the implementors.
 ~
-   You are looking at a nasty little bug, it seems to be consisting of binary
-numbers.  000@r1@n0@r1@n00 00@r1@n00@r1@n0@r1@n @r1@n0@r11111@n0 @r11111111@n
-@r11111111@n @r1@n0@r11111@n0 00@r1@n0@r1@n00@r1@n 00@r1@n00@r1@n00
+You are looking at a little bug, it seems to be harmless.
 ~
-122984 0 0 0 65536 0 0 0 -1000 E
+122984 0 0 0 65536 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
@@ -94,14 +89,12 @@ into things.
 8 8 0
 E
 #1207
-cluster faeries faery~
-a cluster of rainbow-colored faeries~
-Zipping from plant to plant is a cluster of rainbow-colored faeries.
+cluster devas deva~
+a cluster of rainbow-colored devas~
+Zipping from plant to plant is a cluster of rainbow-colored devas.
 ~
-   There are about twenty tiny, ickle faeries floating around, each a completely
-different shade from its friends.  They are all female and continually giggle
-and dart around sharing their own jokes and keeping forbidden people out of this
-holy sanctuary.
+There are about twenty tiny, devas floating around, each a completely different shade from its friends.  They continually giggle
+and dart around sharing their own jokes while keeping forbidden people out of this holy sanctuary.
 ~
 200 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -111,11 +104,9 @@ E
 #1209
 Julia~
 Julia~
-Taylor's secretary stands here holding a note pad.
+INDU INDRA's secretary stands here holding a note pad.
 ~
-   She is a very pretty woman, her hair is shoulder length and a beautiful
-brown, and here body is slim and curvy.  She stands about 5'4" and looks to be
-light.
+She is a very nice woman, and does her job very well organizing for INDU INDRA.
 ~
 256026 0 0 0 120 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -123,13 +114,13 @@ light.
 8 8 2
 E
 #1210
-Dragon~
-a Large Dragon~
-Puff the @gMagic @rDragon
+DEVA~
+a Large Deva~
+Puff the Magic Deva
 ~
-   A Large Dragon
+A Large Deva
 ~
-81992 0 0 0 262160 0 0 0 -1000 E
+81992 0 0 0 262160 0 0 0 1000 E
 31 10 -8 6d6+310 5d5+5
 310 96100
 8 8 1
@@ -140,23 +131,21 @@ Int: 25
 Wis: 25
 E
 #1211
-Santa~
-Santa's helper~
-Santa's helper looks forward to Christmas.
+indu indra helper~
+Indu Indra's helper~
+Indu Indra's helper is here.
 ~
-   Santa's helper stands here, dressed in her requisite red outfit with the
-white faux fur trim.  A red Santa hat is perched jauntily on her short brown
-curls with the pompom bouncing against her left ear with every movement.
+Indu Indra's helper stands here, dressed in modest outfit with her ear piece bouncing against her left ear with every movement.
 ~
-90158 0 0 0 66576 0 0 0 -1000 E
+90158 0 0 0 66576 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 2
 E
 #1212
-scoreboard mob~
-the scoreboard mob~
-A mob is here keeping score for everyone that uses the game console.
+scoreboard deva~
+the scoreboard deva~
+A deva is here keeping score for everyone that uses the game console.
 ~
    She stands here, holding a chalkboard and a piece of chalk to mark the
 scores.  Waiting for a player must be pretty boring.  She looks hopefully at you
@@ -169,15 +158,15 @@ and suggests that you check out the console.
 E
 T 1214
 #1217
-dog puppy peishu~
-a shitzu puppy dog~
-A friendly Shitzu puppy dog named Peishu is playing here.
+dog puppy chien chowchow~
+Chien~
+A friendly ChowChow puppy dog named Chien is playing here.
 ~
-   Peishu is a friendly Shitzu puppy dog bred from ancient chinese ancestors he
-has a long line of genealogy dating back to the times of Confucius.  He is
-Gina's favorite pet and doesn't look too dangerous.
+Chien is a friendly ChowChow puppy dog bred from ancient chinese ancestors he
+has a long line of genealogy dating back to the times of Royalty.  He is
+Indu Indra's favorite companion and doesn't look too dangerous.
 ~
-188506 0 0 0 80 0 0 0 0 E
+188506 0 0 0 80 0 0 0 100 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
