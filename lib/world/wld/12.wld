@@ -46,7 +46,7 @@ D0
 S
 #1204
 The Deva Room~
-adventure[world]:1204/main
+adv:world:1204/main
 ~
 12 184 0 0 0 0
 D2
@@ -60,7 +60,7 @@ original~
 ~
 E
 hymn~
-adventure:world:1204/hymn
+adv:world:1204/hymn
 ~
 S
 #1205
