@@ -1822,14 +1822,14 @@ you find a small ladder half buried in the dirt.  setting it up you find
 a trap door in the ceiling.  The passage continues west from here.
 ~
 54 9 0 0 0 1
+D0
+~
+snacks~
+0 0 24238
 D3
 ~
 ~
 0 -1 5490
-D4
-~
-secret~
-1 -1 5570
 E
 fire~
    Moving closer you see this fire is actually FROZEN in place.  The flames
