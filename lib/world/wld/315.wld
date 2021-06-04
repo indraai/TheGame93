@@ -11,7 +11,7 @@ D0
 ~
 0 0 25826
 D1
-adventure[world]:3060/look
+adv:world:3060/look
 ~
 ~
 0 -1 3060
@@ -1556,16 +1556,16 @@ D3
 S
 #31583
 Agency: McGintey~
-adventure[world]:31583/main
+adv:world:31583/main
 ~
 31 8 0 0 0 0
 D0
-adventure[world]:3149/look
+adv:world:3149/look
 ~
 ~
 0 -1 3149
 D1
-adventure[world]:31503/look
+adv:world:31503/look
 ~
 ~
 0 -1 31503

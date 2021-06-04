@@ -1,6 +1,6 @@
 #3900
 Agency: Haven~
-adventure[world]:3900/main
+adv:world:3900/main
 ~
 39 8 0 0 0 0
 D1
@@ -2106,7 +2106,7 @@ room: 3998
 ~
 39 0 0 0 0 1
 D1
-adventure[world]:3075/look
+adv:world:3075/look
 ~
 ~
 0 -1 3075

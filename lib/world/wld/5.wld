@@ -6,12 +6,12 @@ flowers that make the air smell sweet.
 ~
 5 0 0 0 0 2
 D0
-adventure[world]:26300/look
+adv:world:26300/look
 ~
 ~
 0 -1 26300
 D1
-adventure[world]:3054/look
+adv:world:3054/look
 ~
 ~
 0 -1 3054
@@ -419,7 +419,7 @@ D0
 ~
 0 0 520
 D1
-adventure[world]:3144/look
+adv:world:3144/look
 ~
 ~
 0 -1 3144

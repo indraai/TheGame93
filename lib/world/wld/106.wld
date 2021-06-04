@@ -698,7 +698,7 @@ D2
 S
 #10641
 Agency: Elcardo~
-adventure[world]:10641/main
+adv:world:10641/main
 ~
 106 8 0 0 0 0
 D0
@@ -707,61 +707,61 @@ A large solid stone door.
 solid stone door~
 1 0 10645
 D1
-adventure[world]:3156/look
+adv:world:3156/look
 ~
 door:3156~
 1 0 3156
 D2
-adventure[world]:10626/look
+adv:world:10626/look
 ~
 ~
 0 0 10626
 D3
-adventure[world]:10642/look
+adv:world:10642/look
 ~
 ~
 0 0 10642
 D5
-adventure[world]:10646/look
+adv:world:10646/look
 ~
 ~
 1 0 10646
 S
 #10642
 Agency: Barracks~
-adventure[world]:10642/main
+adv:world:10642/main
 ~
 106 8 0 0 0 0
 D1
-adventure[world]:10641/look
+adv:world:10641/look
 ~
 ~
 0 0 10641
 D3
-adventure[world]:10643/look
+adv:world:10643/look
 ~
 ~
 0 0 10643
 S
 #10643
 Agency: Barracks~
-adventure[world]:10643/main
+adv:world:10643/main
 ~
 106 152 0 0 0 0
 D1
-adventure[world]:10642/look
+adv:world:10642/look
 ~
 ~
 0 0 10642
 D3
-adventure[world]:10644/look
+adv:world:10644/look
 ~
 ~
 1 0 10644
 S
 #10644
 Agency: Barracks~
-adventure[world]:10644/main
+adv:world:10644/main
 ~
 106 9 0 0 0 0
 D1
@@ -771,91 +771,91 @@ D1
 S
 #10645
 Agency: Administration~
-adventure[world]:10645/main
+adv:world:10645/main
 ~
 106 9 0 0 0 0
 D2
-adventure[world]:10645/door
+adv:world:10645/door
 ~
 door:10645~
 1 0 10641
 S
 #10646
 Agency: Facility~
-adventure[world]:10646/main
+adv:world:10646/main
 ~
 106 184 0 0 0 0
 D0
-adventure[world]:10649/look
+adv:world:10649/look
 ~
 ~
 0 0 10649
 D1
-adventure[world]:10648/look
+adv:world:10648/look
 ~
 ~
 0 0 10648
 D3
-adventure[world]:10647/look
+adv:world:10647/look
 ~
 ~
 0 0 10647
 D4
-adventure[world]:10641/look
+adv:world:10641/look
 ~
 ~
 1 0 10641
 S
 #10647
 Agency: War Room~
-adventure[world]:10647/main
+adv:world:10647/main
 ~
 106 184 0 0 0 0
 D1
-adventure[world]:10646/look
+adv:world:10646/look
 ~
 ~
 0 0 10646
 S
 #10648
 Agency: Server Room~
-adventure[world]:10648/main
+adv:world:10648/main
 ~
 106 184 0 0 0 0
 D3
-adventure[world]:10646/look
+adv:world:10646/look
 ~
 door:10646~
 1 0 10646
 S
 #10649
 Agency: Hallway~
-adventure[world]:10649/main
+adv:world:10649/main
 ~
 106 184 0 0 0 0
 D0
-adventure[world]:10651/look
+adv:world:10651/look
 ~
 ~
 0 0 10651
 D2
-adventure[world]:10646/look
+adv:world:10646/look
 ~
 ~
 0 0 10646
 D3
-adventure[world]:10650/look
+adv:world:10650/look
 ~
 ~
 0 0 10650
 S
 #10650
 Agency: Surveillance~
-adventure[world]:10650/main
+adv:world:10650/main
 ~
 106 184 0 0 0 0
 D1
-adventure[world]:10649/look
+adv:world:10649/look
 ~
 door:10649~
 1 0 10649
@@ -863,59 +863,59 @@ S
 T 10601
 #10651
 Agency: Hallway~
-adventure[world]:10651/main
+adv:world:10651/main
 ~
 106 184 0 0 0 0
 D0
-adventure[world]:10654/look
+adv:world:10654/look
 ~
 ~
 0 0 10654
 D1
-adventure[world]:10653/look
+adv:world:10653/look
 ~
 ~
 0 0 10653
 D2
-adventure[world]:10649/look
+adv:world:10649/look
 ~
 ~
 0 0 10649
 D3
-adventure[world]:10652/look
+adv:world:10652/look
 ~
 ~
 0 0 10652
 S
 #10652
 Agency: Secure Room~
-adventure[world]:10652/main
+adv:world:10652/main
 ~
 106 760 0 0 0 0
 D1
-adventure[world]:10651/look
+adv:world:10651/look
 ~
 door:10651~
 1 0 10651
 S
 #10653
 Agency: Secure Room~
-adventure[world]:10653/main
+adv:world:10653/main
 ~
 106 760 0 0 0 0
 D3
-adventure[world]:10651/look
+adv:world:10651/look
 ~
 door:10651~
 1 0 10651
 S
 #10654
 Agency: Secure Room~
-adventure[world]:10654/main
+adv:world:10654/main
 ~
 106 760 0 0 0 0
 D2
-adventure[world]:10651/look
+adv:world:10651/look
 ~
 door:10651~
 1 0 10651

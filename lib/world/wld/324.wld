@@ -1,6 +1,6 @@
 #32400
 Camp Deva~
-adventure[world]:32400/main
+adv:world:32400/main
 ~
 324 8 0 0 0 0
 D0
@@ -29,7 +29,7 @@ Zone 324 is linked to the following zones:
 S
 #32401
 The Guard Walk~
-adventure[world]:32401/main
+adv:world:32401/main
 ~
 324 8 0 0 0 0
 D0
@@ -53,7 +53,7 @@ combata nts.  It seems that Sparticus is having a good day.
 S
 #32402
 The Guard Walk~
-adventure[world]:32402/main
+adv:world:32402/main
 ~
 324 8 0 0 0 0
 D0
@@ -71,7 +71,7 @@ D4
 S
 #32403
 The Guard Walk~
-adventure[world]:32403/main
+adv:world:32403/main
 ~
 324 0 0 0 0 0
 D0
@@ -92,7 +92,7 @@ been carved into one of the benches with exquisite care.
 S
 #32404
 The Guard Walk~
-adventure[world]:32404/main
+adv:world:32404/main
 ~
 324 0 0 0 0 0
 D1
@@ -116,7 +116,7 @@ mistaken.
 S
 #32405
 The Guard Walk~
-adventure[world]:32405/main
+adv:world:32405/main
 ~
 324 0 0 0 0 0
 D1
@@ -136,7 +136,7 @@ chain and padlock.  Don't even bother THINKING about trying to open it.
 S
 #32406
 The Guard Walk~
-adventure[world]:32406/main
+adv:world:32406/main
 ~
 324 0 0 0 0 0
 D1
@@ -168,7 +168,7 @@ outrageous prices.
 S
 #32407
 The Guard Walk~
-adventure[world]:32407/main
+adv:world:32407/main
 ~
 324 0 0 0 0 0
 D1
@@ -186,7 +186,7 @@ weapons swords crates armor weapon sword crate~
 S
 #32408
 The Guard Walk~
-adventure[world]:32408/main
+adv:world:32408/main
 ~
 324 0 0 0 0 0
 D1
@@ -211,7 +211,7 @@ Gods.
 S
 #32409
 The Guard Walk~
-adventure[world]:32409/main
+adv:world:32409/main
 ~
 324 0 0 0 0 0
 D1
@@ -246,7 +246,7 @@ that you aren't worth his time or trouble.
 S
 #32410
 The Guard Walk~
-adventure[world]:32410/main
+adv:world:32410/main
 ~
 324 8 0 0 0 0
 D2
@@ -271,7 +271,7 @@ assume that this was the final combat of his life.
 S
 #32411
 The Guard Walk~
-adventure[world]:32411/main
+adv:world:32411/main
 ~
 324 8 0 0 0 0
 D0
@@ -290,7 +290,7 @@ glad that you have access to a monk!
 S
 #32412
 The Guard Walk~
-adventure[world]:32412/main
+adv:world:32412/main
 ~
 324 0 0 0 0 0
 D0
@@ -309,7 +309,7 @@ D4
 S
 #32413
 The Guard Walk~
-adventure[world]:32413/main
+adv:world:32413/main
 ~
 324 8 0 0 0 0
 D0
@@ -330,7 +330,7 @@ hewn wood and fastened together with nails.  It looks very uncomfortable.
 S
 #32414
 The Guard Walk~
-adventure[world]:32414/main
+adv:world:32414/main
 ~
 324 0 0 0 0 0
 D0
@@ -357,7 +357,7 @@ laundry wash clothing~
 S
 #32415
 The Guard Walk~
-adventure[world]:32415/main
+adv:world:32415/main
 ~
 324 0 0 0 0 0
 D0
@@ -371,7 +371,7 @@ D2
 S
 #32416
 The Guard Walk~
-adventure[world]:32416/main
+adv:world:32416/main
 ~
 324 0 0 0 0 0
 D0
@@ -389,7 +389,7 @@ D4
 S
 #32417
 The Guard Walk~
-adventure[world]:32417/main
+adv:world:32417/main
 ~
 324 0 0 0 0 0
 D0
@@ -403,7 +403,7 @@ D2
 S
 #32418
 The Guard Walk~
-adventure[world]:32418/main
+adv:world:32418/main
 ~
 324 0 0 0 0 0
 D0
@@ -427,7 +427,7 @@ It looks like it is holding a phallus.
 S
 #32419
 The Guard Walk~
-adventure[world]:32419/main
+adv:world:32419/main
 ~
 324 0 0 0 0 0
 D1
@@ -443,7 +443,7 @@ The highway continues to the west.
 S
 #32420
 The Guard Walk~
-adventure[world]:32420/main
+adv:world:32420/main
 ~
 324 0 0 0 0 0
 D1
@@ -476,7 +476,7 @@ this shoddy treatment and you puke until it is empty.
 S
 #32421
 The Guard Walk~
-adventure[world]:32421/main
+adv:world:32421/main
 ~
 324 0 0 0 0 0
 D1
@@ -490,7 +490,7 @@ D3
 S
 #32422
 The Guard Walk~
-adventure[world]:32422/main
+adv:world:32422/main
 ~
 324 0 0 0 0 0
 D1
@@ -509,7 +509,7 @@ D4
 S
 #32423
 The Guard Walk~
-adventure[world]:32423/main
+adv:world:32423/main
 ~
 324 0 0 0 0 0
 D1
@@ -523,7 +523,7 @@ D3
 S
 #32424
 The Guard Walk~
-adventure[world]:32424/main
+adv:world:32424/main
 ~
 324 0 0 0 0 0
 D0
@@ -547,7 +547,7 @@ statue tiberius~
 S
 #32425
 The Guard Walk~
-adventure[world]:32425/main
+adv:world:32425/main
 ~
 324 0 0 0 0 0
 D0
@@ -569,7 +569,7 @@ carry it around.
 S
 #32426
 The Guard Walk~
-adventure[world]:32426/main
+adv:world:32426/main
 ~
 324 0 0 0 0 0
 D0
@@ -593,7 +593,7 @@ for today.
 S
 #32427
 The Guard Walk~
-adventure[world]:32427/main
+adv:world:32427/main
 ~
 324 0 0 0 0 0
 D0
@@ -1636,7 +1636,7 @@ D3
 S
 #32476
 General's Office~
-adventure[world]:32476/main
+adv:world:32476/main
 ~
 324 696 0 0 0 0
 D3
@@ -1692,7 +1692,7 @@ D3
 S
 #32480
 Care Center~
-adventure[world]:32480/main
+adv:world:32480/main
 ~
 324 184 0 0 0 0
 D1
@@ -1710,7 +1710,7 @@ D3
 S
 #32481
 Care: Covid-19~
-adventure[world]:32481/main
+adv:world:32481/main
 ~
 324 186 0 0 0 0
 D3

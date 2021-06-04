@@ -1,27 +1,27 @@
 #15000
 Castle Blvd.~
-adventure[world]:15000/main
+adv:world:15000/main
 ~
 150 0 0 0 0 1
 D1
-adventure[world]:15001/look
+adv:world:15001/look
 ~
 ~
 0 -1 15001
 D2
-adventure[world]:15061/look
+adv:world:15061/look
 ~
 ~
 0 -1 15061
 D3
-adventure[world]:3502/look
+adv:world:3502/look
 ~
 ~
 0 -1 3502
 S
 #15001
 Castle Bvld.~
-adventure[world]:15001/main
+adv:world:15001/main
 ~
 150 0 0 0 0 1
 D1
@@ -30,50 +30,50 @@ adveinture[world]:1502/look
 ~
 0 -1 15002
 D3
-adventure[world]:15000/look
+adv:world:15000/look
 ~
 ~
 0 -1 15000
 S
 #15002
 Castle Blvd.~
-adventure[world]:15002/main
+adv:world:15002/main
 ~
 150 0 0 0 0 1
 D1
-adventure[world]:15003/look
+adv:world:15003/look
 ~
 ~
 0 -1 15003
 D3
-adventure[world]:15002/look
+adv:world:15002/look
 ~
 ~
 0 -1 15001
 S
 #15003
 The Castle~
-adventure[world]:15003/main
+adv:world:15003/main
 ~
 150 0 0 0 0 1
 D0
-adventure[world]:15004/look
+adv:world:15004/look
 ~
 ~
 0 -1 15004
 D3
-adventure[world]:15002/look
+adv:world:15002/look
 ~
 ~
 0 -1 15002
 S
 #15004
 The Drawbridge~
-adventure[world]:15004/main
+adv:world:15004/main
 ~
 150 0 0 0 0 1
 D0
-adventure[world]:15007/look
+adv:world:15007/look
 ~
 gate door~
 1 -1 15007
@@ -84,126 +84,126 @@ You see the King's Road.
 0 -1 15003
 E
 gate drawbridge~
-adventure[world]:15004/gate
+adv:world:15004/gate
 ~
 E
 whirls whirl moat~
-adventure[world]:15004/moat
+adv:world:15004/moat
 ~
 S
 #15005
 The Kitchen~
-adventure[world]:15005/main
+adv:world:15005/main
 ~
 150 8 0 0 0 0
 D0
-adventure[world]:15010/look
+adv:world:15010/look
 ~
 ~
 0 -1 15010
 D1
-adventure[world]:15006/look
+adv:world:15006/look
 ~
 ~
 0 -1 15006
 S
 #15006
 A Small Passage~
-adventure[world]:15006/main
+adv:world:15006/main
 ~
 150 8 0 0 0 0
 D1
-adventure[world]:15007/look
+adv:world:15007/look
 ~
 door small~
 1 -1 15007
 D3
-adventure[world]:15005/look
+adv:world:15005/look
 ~
 ~
 0 -1 15005
 S
 #15007
 The Entrance Hall~
-adventure[world]:15007/main
+adv:world:15007/main
 ~
 150 8 0 0 0 0
 D0
-adventure[world]:15012/look
+adv:world:15012/look
 ~
 ~
 0 -1 15012
 D1
-adventure[world]:15008/look
+adv:world:15008/look
 ~
 ~
 0 -1 15008
 D2
-adventure[world]:15004/look
+adv:world:15004/look
 ~
 gate drawbridge~
 1 -1 15004
 D3
-adventure[world]:15006/look
+adv:world:15006/look
 ~
 door small~
 1 -1 15006
 S
 #15008
 Agency: Indra Castle~
-adventure[world]:15008/main
+adv:world:15008/main
 ~
 150 8 0 0 0 0
 D2
-adventure[world]:3142/look
+adv:world:3142/look
 ~
 ~
 0 -1 3142
 D3
-adventure[world]:15007/look
+adv:world:15007/look
 ~
 ~
 0 -1 15007
 S
 #15009
 Under The Tower~
-adventure[world]:15009/main
+adv:world:15009/main
 ~
 150 8 0 0 0 0
 D0
-adventure[world]:15014/look
+adv:world:15014/look
 ~
 ~
 0 -1 15014
 D4
-adventure[world]:15034/look
+adv:world:15034/look
 ~
 ~
 0 -1 15034
 E
 stairs~
-adventure[world]:15009/stairs
+adv:world:15009/stairs
 ~
 S
 #15010
 The Small Passage~
-adventure[world]:15010/main
+adv:world:15010/main
 ~
 150 8 0 0 0 0
 D0
-adventure[world]:15015/look
+adv:world:15015/look
 ~
 ~
 0 -1 15015
 D2
-adventure[world]:15005/look
+adv:world:15005/look
 ~
 ~
 0 -1 15005
 S
 #15011
 The Great Hall~
-adventure[world]: 15011/main
+adv:world: 15011/main
 ~
 150 8 0 0 0 0
 D0
@@ -212,18 +212,18 @@ aventure[world]:15016/look
 ~
 0 -1 15016
 D1
-adventure[world]:15012/look
+adv:world:15012/look
 ~
 ~
 0 -1 15012
 E
 roof paintings paint~
-adventure[world]:15011/roof
+adv:world:15011/roof
 ~
 S
 #15012
 The Great Hall~
-adventure[world]:15012/main
+adv:world:15012/main
 ~
 150 8 0 0 0 0
 D0

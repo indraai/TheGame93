@@ -50,11 +50,11 @@ S
 T 199
 #3
 Builder Academy~
-adventure[world]:0003/main
+adv:world:0003/main
 ~
 0 8 0 0 0 0
 D1
-adventure[world]:0004/look
+adv:world:0004/look
 ~
 ~
 0 0 4
@@ -62,92 +62,92 @@ S
 T 56
 #4
 The Beginning~
-adventure[world]:0004/main
+adv:world:0004/main
 ~
 0 24 0 0 0 0
 D0
-adventure[world]:0016/look
+adv:world:0016/look
 ~
 ~
 0 0 16
 D1
-adventure[world]:0005/look
+adv:world:0005/look
 ~
 ~
 0 0 5
 D3
-adventure[world]:0003/look
+adv:world:0003/look
 ~
 ~
 0 0 3
 S
 #5
 Implementation~
-adventure[world]:0005/main
+adv:world:0005/main
 ~
 0 8 0 0 0 0
 D1
-adventure[world]:0006/look
+adv:world:0006/look
 ~
 ~
 0 0 6
 D3
-adventure[world]:0003/look
+adv:world:0003/look
 ~
 ~
 0 0 4
 S
 #6
 Building~
-adventure[world]:0006/main
+adv:world:0006/main
 ~
 0 8 0 0 0 0
 D1
-adventure[world]:0007/look
+adv:world:0007/look
 ~
 ~
 0 0 7
 D3
-adventure[world]:005/look
+adv:world:005/look
 ~
 ~
 0 0 5
 S
 #7
 Writing Descriptions~
-adventure[world]:0007/main
+adv:world:0007/main
 ~
 0 8 0 0 0 0
 D1
-adventure[world]:0008/look
+adv:world:0008/look
 ~
 ~
 0 0 8
 D3
-adventure[world]:0006/look
+adv:world:0006/look
 ~
 ~
 0 0 6
 S
 #8
 Using REDIT~
-adventure[world]:0008/main
+adv:world:0008/main
 ~
 0 8 0 0 0 0
 D1
-adventure[world]:0009/look
+adv:world:0009/look
 ~
 ~
 0 0 9
 D3
-adventure[world]:0007/look
+adv:world:0007/look
 ~
 ~
 0 0 7
 S
 #9
 Using OEDIT~
-adventure[world]:0009/main
+adv:world:0009/main
 ~
 0 8 0 0 0 0
 D1
@@ -161,7 +161,7 @@ D3
 S
 #10
 Using MEDIT~
-adventure[world]:0010/main
+adv:world:0010/main
 ~
 0 8 0 0 0 0
 D1
@@ -175,7 +175,7 @@ D3
 S
 #11
 Using ZEDIT~
-adventure[world]:0011/main
+adv:world:0011/main
 ~
 0 8 0 0 0 0
 D1
@@ -189,7 +189,7 @@ D3
 S
 #12
 Using SEDIT~
-adventure[world]:0012/main
+adv:world:0012/main
 ~
 0 8 0 0 0 0
 D1
@@ -203,7 +203,7 @@ D3
 S
 #13
 Using TRIGEDIT~
-adventure[world]:0013/main
+adv:world:0013/main
 ~
 0 8 0 0 0 0
 D0
@@ -275,7 +275,7 @@ D3
 S
 #16
 Commands~
-adventure[world]:0016/main
+adv:world:0016/main
 ~
 0 8 0 0 0 0
 D0
@@ -289,7 +289,7 @@ D2
 S
 #17
 Overview~
-adventure[world]:0017/main
+adv:world:0017/main
 ~
 0 8 0 0 0 0
 D2
@@ -299,7 +299,7 @@ D2
 S
 #18
 Quest Tutorial~
-adventure[world]:0018/main
+adv:world:0018/main
 ~
 0 24 0 0 0 0
 D0

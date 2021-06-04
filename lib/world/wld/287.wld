@@ -492,7 +492,7 @@ A red door leads north to the city hall.
 door red~
 2 28709 28723
 D1
-adventure[world]:3145/look
+adv:world:3145/look
 ~
 ~
 0 -1 3145

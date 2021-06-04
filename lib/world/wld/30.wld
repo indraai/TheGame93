@@ -1,143 +1,143 @@
 #3000
 The Reading Room~
-adventure[world]:3000/main
+adv:world:3000/main
 ~
 30 156 0 0 0 0
 D1
-adventure[world]:3001/look
+adv:world:3001/look
 ~
 ~
 0 -1 3001
 E
 info information~
-adventure[world]:3000/info
+adv:world:3000/info
 ~
 S
 #3001
 The Temple~
-adventure[world]:3001/main
+adv:world:3001/main
 ~
 30 152 0 0 0 0
 D0
-adventure[world]:3054/look
+adv:world:3054/look
 ~
 ~
 0 -1 3054
 D1
-adventure[world]:3063/look
+adv:world:3063/look
 ~
 ~
 0 -1 3063
 D2
-adventure[world]:3005/look
+adv:world:3005/look
 ~
 ~
 0 -1 3005
 D3
-adventure[world]:3000/look
+adv:world:3000/look
 ~
 ~
 0 -1 3000
 E
 paintings ancient wall peasants gods giants~
-adventure[world]:3001/paintings
+adv:world:3001/paintings
 ~
 E
 info information~
-adventure[world]:3001/info
+adv:world:3001/info
 ~
 S
 T 3017
 #3002
 The Sanctuary~
-adventure[world]:3002/main
+adv:world:3002/main
 ~
 30 8 0 0 0 0
 D1
-adventure[world]:3003/look
+adv:world:3003/look
 ~
 ~
 0 -1 3003
 D5
-adventure[world]:7026/look
+adv:world:7026/look
 ~
 ~
 0 -1 7026
 S
 #3003
 The Table~
-adventure[world]:3003/main
+adv:world:3003/main
 ~
 30 140 0 0 0 0
 D2
-adventure[world]:3004/look
+adv:world:3004/look
 ~
 ~
 0 -1 3004
 D3
-adventure[world]:3002/look
+adv:world:3002/look
 ~
 ~
 0 -1 3002
 E
 sign~
-adventure[world]:3003/sign
+adv:world:3003/sign
 ~
 S
 #3004
 The Sangha~
-adventure[world]:3004/main
+adv:world:3004/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3003/look
+adv:world:3003/look
 ~
 ~
 0 -1 3003
 D1
-adventure[world]:3005/look
+adv:world:3005/look
 ~
 ~
 0 -1 3005
 S
 #3005
 The Square~
-adventure[world]:3005/main
+adv:world:3005/main
 ~
 30 16 0 0 0 1
 D0
-adventure[world]:3001/look
+adv:world:3001/look
 ~
 ~
 0 -1 3001
 D1
-adventure[world]:3006/look
+adv:world:3006/look
 ~
 ~
 0 -1 3006
 D2
-adventure[world]:3014/look
+adv:world:3014/look
 ~
 ~
 0 -1 3014
 D3
-adventure[world]:3004/look
+adv:world:3004/look
 ~
 ~
 0 -1 3004
 S
 #3006
 Intersection (3006)~
-adventure[world]:3006/main
+adv:world:3006/main
 ~
 30 24 0 0 0 1
 D0
-adventure[world]:3062/look
+adv:world:3062/look
 ~
 ~
 0 -1 3062
 D1
-adventure[world]:3007/look
+adv:world:3007/look
 ~
 ~
 0 -1 3007
@@ -147,480 +147,480 @@ The Care Center
 The Care Center~
 1 0 3064
 D3
-adventure[world]:3005/look
+adv:world:3005/look
 ~
 ~
 0 -1 3005
 D4
-adventure[world]:3008/look
+adv:world:3008/look
 ~
 ~
 0 -1 3008
 S
 #3007
 The Cafe~
-adventure[world]:3007/main
+adv:world:3007/main
 ~
 30 136 0 0 0 0
 D3
-adventure[world]:3006/look
+adv:world:3006/look
 ~
 ~
 0 -1 3006
 E
 writing carving carvings symbols symbol~
-adventure[world]:3007/symbols
+adv:world:3007/symbols
 ~
 E
 sign~
-adventure[world]:3007/sign
+adv:world:3007/sign
 ~
 S
 #3008
 The Amaravati Inn~
-adventure[world]:3008/main
+adv:world:3008/main
 ~
 30 8 0 0 0 0
 D5
-adventure[world]:3006/look
+adv:world:3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-adventure[world]:3008/sign
+adv:world:3008/sign
 ~
 S
 #3009
 The Bakery~
-adventure[world]:3009/main
+adv:world:3009/main
 ~
 30 136 0 0 0 0
 D2
-adventure[world]:3013/look
+adv:world:3013/look
 ~
 ~
 0 -1 3013
 E
 sign~
-adventure[world]:3009/sign
+adv:world:3009/sign
 ~
 E
 danish pastry~
-adventure[world]:3009/pastry
+adv:world:3009/pastry
 ~
 S
 #3010
 The Store~
-adventure[world]:3010/main
+adv:world:3010/main
 ~
 30 152 0 0 0 0
 D2
-adventure[world]:3015/look
+adv:world:3015/look
 ~
 ~
 0 -1 3015
 E
 note~
-adventure[world]:3010/note
+adv:world:3010/note
 ~
 S
 #3011
 The Shop~
-adventure[world]:3011/main
+adv:world:3011/main
 ~
 30 136 0 0 0 0
 D2
-adventure[world]:3016/look
+adv:world:3016/look
 ~
 ~
 0 -1 3016
 E
 note~
-adventure[world]:3011/note
+adv:world:3011/note
 ~
 S
 #3012
 Main Street~
-adventure[world]:3012/main
+adv:world:3012/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3033/look
+adv:world:3033/look
 ~
 ~
 0 -1 3033
 D1
-adventure[world]:3013/look
+adv:world:3013/look
 ~
 ~
 0 -1 3013
 D2
-adventure[world]:3017/look
+adv:world:3017/look
 ~
 ~
 0 -1 3017
 D3
-adventure[world]:3040/look
+adv:world:3040/look
 ~
 ~
 0 -1 3040
 S
 #3013
 Main Street~
-adventure[world]:3013/main
+adv:world:3013/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3009/look
+adv:world:3009/look
 ~
 ~
 0 -1 3009
 D1
-adventure[world]:3014/look
+adv:world:3014/look
 ~
 ~
 0 -1 3014
 D2
-adventure[world]:3020/look
+adv:world:3020/look
 ~
 ~
 0 -1 3020
 D3
-adventure[world]:3012/look
+adv:world:3012/look
 ~
 ~
 0 -1 3012
 S
 #3014
 The Market~
-adventure[world]:3014/main
+adv:world:3014/main
 ~
 30 16 0 0 0 1
 D0
-adventure[world]:3005/look
+adv:world:3005/look
 ~
 ~
 0 -1 3005
 D1
-adventure[world]:3015/look
+adv:world:3015/look
 ~
 ~
 0 -1 3015
 D2
-adventure[world]:3025/look
+adv:world:3025/look
 ~
 ~
 0 -1 3025
 D3
-adventure[world]:3013/look
+adv:world:3013/look
 ~
 ~
 0 -1 3013
 E
 statue~
-adventure[world]:3014/statue
+adv:world:3014/statue
 ~
 S
 #3015
 Main Street~
-adventure[world]:3015/main
+adv:world:3015/main
 ~
 30 16 0 0 0 1
 D0
-adventure[world]:3010/look
+adv:world:3010/look
 ~
 ~
 0 -1 3010
 D1
-adventure[world]:3016/look
+adv:world:3016/look
 ~
 ~
 0 -1 3016
 D2
-adventure[world]:3031/look
+adv:world:3031/look
 ~
 ~
 0 -1 3031
 D3
-adventure[world]:3014/look
+adv:world:3014/look
 ~
 ~
 0 -1 3014
 S
 #3016
 Main Street~
-adventure[world]:3016/main
+adv:world:3016/main
 ~
 30 16 0 0 0 1
 D0
-adventure[world]:3011/main
+adv:world:3011/main
 ~
 ~
 0 -1 3011
 D1
-adventure[world]:3041/look
+adv:world:3041/look
 ~
 ~
 0 -1 3041
 D2
-adventure[world]:3021/look
+adv:world:3021/look
 ~
 ~
 0 -1 3021
 D3
-adventure[world]:3015/look
+adv:world:3015/look
 ~
 ~
 0 -1 3015
 S
 #3017
 The Mages' Guild~
-adventure[world]:3017/main
+adv:world:3017/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3012/look
+adv:world:3012/look
 ~
 ~
 0 -1 3012
 D2
-adventure[world]:3018/look
+adv:world:3018/look
 ~
 ~
 0 -1 3018
 S
 #3018
 The Mages' Bar~
-adventure[world]:3018/main
+adv:world:3018/main
 ~
 30 140 0 0 0 0
 D0
-adventure[world]:3017/look
+adv:world:3017/look
 ~
 ~
 0 -1 3017
 D3
-adventure[world]:3019/look
+adv:world:3019/look
 ~
 ~
 0 -1 3019
 S
 #3019
 The Mages' Laboratory~
-adventure[world]:3019/main
+adv:world:3019/main
 ~
 30 8 0 0 0 0
 D1
-adventure[world]:3018/look
+adv:world:3018/look
 ~
 ~
 0 -1 3018
 S
 #3020
 The Armory~
-adventure[world]:3020/main
+adv:world:3020/main
 ~
 30 136 0 0 0 0
 D0
-adventure[world]:3013/look
+adv:world:3013/look
 ~
 ~
 0 -1 3013
 E
 note~
-adventure[world]:3020/note
+adv:world:3020/note
 ~
 S
 #3021
 The Guild Of Swordsmen~
-adventure[world]:3021/main
+adv:world:3021/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3016/look
+adv:world:3016/look
 ~
 ~
 0 -1 3016
 D1
-adventure[world]:3022/look
+adv:world:3022/look
 ~
 ~
 0 -1 3022
 S
 #3022
 The Bar Of Swordsmen~
-adventure[world]:3022/main
+adv:world:3022/main
 ~
 30 140 0 0 0 0
 D2
-adventure[world]:3023/look
+adv:world:3023/look
 ~
 ~
 0 -1 3023
 D3
-adventure[world]:3021/look
+adv:world:3021/look
 ~
 ~
 0 -1 3021
 S
 #3023
 The Practice Yard~
-adventure[world]:3023/main
+adv:world:3023/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3022/look
+adv:world:3022/look
 ~
 ~
 0 -1 3022
 D5
-adventure[world]:7048/look
+adv:world:7048/look
 ~
 ~
 0 -1 7048
 S
 #3024
 The Gallery~
-adventure[world]:3024/main
+adv:world:3024/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3025/look
+adv:world:3025/look
 ~
 ~
 0 -1 3025
 D2
-adventure[world]:3048/look
+adv:world:3048/look
 ~
 ~
 0 -1 3048
 D3
-adventure[world]:3044/look
+adv:world:3044/look
 ~
 ~
 0 -1 3044
 S
 #3025
 The Square~
-adventure[world]:3025/main
+adv:world:3025/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3014/look
+adv:world:3014/look
 ~
 ~
 0 -1 3014
 D1
-adventure[world]:3026/look
+adv:world:3026/look
 ~
 ~
 0 -1 3026
 D2
-adventure[world]:3030/look
+adv:world:3030/look
 ~
 ~
 0 -1 3030
 D3
-adventure[world]:3024/look
+adv:world:3024/look
 ~
 ~
 0 -1 3024
 S
 #3026
 The Gallery~
-adventure[world]:3026/main
+adv:world:3026/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3045/look
+adv:world:3045/look
 ~
 ~
 0 -1 3045
 D2
-adventure[world]:3027/look
+adv:world:3027/look
 ~
 ~
 0 -1 3027
 D3
-adventure[world]:3025/look
+adv:world:3025/look
 ~
 ~
 0 -1 3025
 E
 guild~
-adventure[world]:3026/guild
+adv:world:3026/guild
 ~
 S
 #3027
 The Guild Of Thieves~
-adventure[world]:3027/main
+adv:world:3027/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3026/look
+adv:world:3026/look
 ~
 ~
 0 -1 3026
 D1
-adventure[world]:3028/look
+adv:world:3028/look
 ~
 ~
 0 -1 3028
 S
 #3028
 The Thieves' Bar~
-adventure[world]:3028/main
+adv:world:3028/main
 ~
 30 140 0 0 0 0
 D2
-adventure[world]:3029/look
+adv:world:3029/look
 ~
 ~
 0 -1 3029
 D3
-adventure[world]:3027/look
+adv:world:3027/look
 ~
 ~
 0 -1 3027
 E
 furniture~
-adventure[world]:3028/furniture
+adv:world:3028/furniture
 ~
 S
 #3029
 The Secret Yard~
-adventure[world]:3029/main
+adv:world:3029/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3028/look
+adv:world:3028/look
 ~
 ~
 0 -1 3028
 D5
-adventure[world]:7043/look
+adv:world:7043/look
 ~
 ~
 0 -1 7043
 S
 #3030
 The Recycling Center~
-adventure[world]:3030/main
+adv:world:3030/main
 ~
 30 0 0 0 0 2
 D0
-adventure[world]:3025/main
+adv:world:3025/main
 ~
 ~
 0 -1 3025
 D2
-adventure[world]:3102/main
+adv:world:3102/main
 ~
 ~
 0 -1 3102
 D5
-adventure[world]:7030/look
+adv:world:7030/look
 ~
 grate~
 2 3005 7030
@@ -628,147 +628,147 @@ S
 T 3004
 #3031
 The Pet Shop~
-adventure[world]:3031/main
+adv:world:3031/main
 ~
 30 140 0 0 0 0
 D0
-adventure[world]:3015/look
+adv:world:3015/look
 ~
 ~
 0 -1 3015
 E
 sign~
-adventure[world]:3031/sign
+adv:world:3031/sign
 ~
 S
 #3032
 PETSHOP STOREROOM~
-adventure[world]:3032/main
+adv:world:3032/main
 ~
 30 1536 0 0 0 0
 S
 #3033
 The Magic Shop~
-adventure[world]:3033/main
+adv:world:3033/main
 ~
 30 136 0 0 0 0
 D2
-adventure[world]:3012/look
+adv:world:3012/look
 ~
 ~
 0 -1 3012
 S
 #3040
 The West Gate~
-adventure[world]:3040/main
+adv:world:3040/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3012/look
+adv:world:3012/look
 ~
 ~
 0 -1 3012
 D2
-adventure[world]:3042/look
+adv:world:3042/look
 ~
 ~
 0 -1 3042
 D3
-adventure[world]:3052/look
+adv:world:3052/look
 ~
 gate~
 1 3112 3052
 E
 wall~
-adventure[world]:3040/wall
+adv:world:3040/wall
 ~
 E
 tower towers~
-adventure[world]:3040/towers
+adv:world:3040/towers
 ~
 E
 gate~
-adventure[world]:3040/gate
+adv:world:3040/gate
 ~
 E
 bridge footbridge~
-adventure[world]:look/3040/bridge
+adv:world:look/3040/bridge
 ~
 S
 #3041
 The East Gate~
-adventure[world]:3041/main
+adv:world:3041/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3053/look
+adv:world:3053/look
 ~
 gate~
 1 3112 3053
 D2
-adventure[world]:3058/look
+adv:world:3058/look
 ~
 ~
 0 -1 3058
 D3
-adventure[world]:3016/look
+adv:world:3016/look
 ~
 ~
 0 -1 3016
 E
 wall~
-adventure[world]:3041/wall
+adv:world:3041/wall
 ~
 E
 tower towers~
-adventure[world]:3041/towers
+adv:world:3041/towers
 ~
 E
 gate~
-adventure[world]:3041/gate
+adv:world:3041/gate
 ~
 E
 bridge footbridge~
-adventure[world]:3041/bridge
+adv:world:3041/bridge
 ~
 S
 #3042
 Wall Road~
-adventure[world]:3042/main
+adv:world:3042/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3040/look
+adv:world:3040/look
 ~
 ~
 0 -1 3040
 D2
-adventure[world]:3043/look
+adv:world:3043/look
 ~
 ~
 0 -1 3043
 E
 wall~
-adventure[world]:3042/wall
+adv:world:3042/wall
 ~
 S
 #3043
 Wall Rd.~
-adventure[world]:3043/main
+adv:world:3043/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3042/look
+adv:world:3042/look
 ~
 ~
 0 -1 3042
 D1
-adventure[world]:3044/look
+adv:world:3044/look
 ~
 ~
 0 -1 3044
 D2
-adventure[world]:3047/look
+adv:world:3047/look
 ~
 ~
 0 -1 3047
@@ -778,267 +778,267 @@ D3
 0 0 18600
 E
 wall~
-adventure[world]:3043/wall
+adv:world:3043/wall
 ~
 E
 wall writing letters~
-adventure[world]:3043/letters
+adv:world:3043/letters
 ~
 S
 #3044
 Poor Alley~
-adventure[world]:3044/main
+adv:world:3044/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3024/look
+adv:world:3024/look
 ~
 ~
 0 -1 3024
 D3
-adventure[world]:3043/look
+adv:world:3043/look
 ~
 ~
 0 -1 3043
 S
 #3045
 The Gallery~
-adventure[world]:3045/main
+adv:world:3045/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3046/look
+adv:world:3046/look
 ~
 ~
 0 -1 3046
 D2
-adventure[world]:3049/look
+adv:world:3049/look
 ~
 ~
 0 -1 3049
 D3
-adventure[world]:3026/look
+adv:world:3026/look
 ~
 ~
 0 -1 3026
 S
 #3046
 The Gallery~
-adventure[world]:3046/main
+adv:world:3046/main
 ~
 30 0 0 0 0 1
 D2
-adventure[world]:3050/look
+adv:world:3050/look
 ~
 ~
 0 -1 3050
 D3
-adventure[world]:3045/look
+adv:world:3045/look
 ~
 ~
 0 -1 3045
 S
 #3047
 Wall Road~
-adventure[world]:3047/main
+adv:world:3047/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3043/look
+adv:world:3043/look
 ~
 ~
 0 -1 3043
 D2
-adventure[world]:3051/look
+adv:world:3051/look
 ~
 ~
 0 -1 3051
 E
 wall~
-adventure[world]:3047/wall
+adv:world:3047/wall
 ~
 S
 #3048
 The Inn~
-adventure[world]:3048/main
+adv:world:3048/main
 ~
 30 136 0 0 0 0
 D0
-adventure[world]:3024/look
+adv:world:3024/look
 ~
 ~
 0 -1 3024
 S
 #3049
 The Levee~
-adventure[world]:3049/main
+adv:world:3049/main
 ~
 30 128 0 0 0 1
 D0
-adventure[world]:3045/look
+adv:world:3045/look
 ~
 ~
 0 -1 3045
 D2
-adventure[world]:3203/look
+adv:world:3203/look
 ~
 ~
 0 -1 3203
 S
 #3050
 The Warehouse~
-adventure[world]:3050/main
+adv:world:3050/main
 ~
 30 8 0 0 0 0
 D0
-adventure[world]:3046/look
+adv:world:3046/look
 ~
 ~
 0 -1 3046
 S
 #3051
 The Bridge~
-adventure[world]:3051/main
+adv:world:3051/main
 ~
 30 0 0 0 0 1
 D0
-adventure[world]:3047/look
+adv:world:3047/look
 ~
 ~
 0 -1 3047
 D2
-adventure[world]:3100/look
+adv:world:3100/look
 ~
 ~
 0 -1 3100
 E
 wall~
-adventure[world]:3051/wall
+adv:world:3051/wall
 ~
 E
 opening~
-adventure[world]:3051/opening
+adv:world:3051/opening
 ~
 E
 bridge~
-adventure[world]:3051/bridge
+adv:world:3051/bridge
 ~
 S
 #3052
 The West Gate~
-adventure[world]:3052/main
+adv:world:3052/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3040/look
+adv:world:3040/look
 ~
 gate~
 1 3112 3040
 D3
-adventure[world]:6092/look
+adv:world:6092/look
 ~
 ~
 0 -1 6092
 E
 wall~
-adventure[world]:3052/wall
+adv:world:3052/wall
 ~
 E
 tower towers~
-adventure[world]:3052/towers
+adv:world:3052/towers
 ~
 E
 gate~
-adventure[world]:3052/gate
+adv:world:3052/gate
 ~
 E
 bridge footbridge~
-adventure[world]:3052/bridge
+adv:world:3052/bridge
 ~
 S
 #3053
 The East Gate~
-adventure[world]:3053/main
+adv:world:3053/main
 ~
 30 0 0 0 0 1
 D1
-adventure[world]:3503/look
+adv:world:3503/look
 ~
 ~
 0 -1 3503
 D3
-adventure[world]:3041/look
+adv:world:3041/look
 ~
 gate~
 1 3112 3041
 E
 wall~
-adventure[world]:3053/wall
+adv:world:3053/wall
 ~
 E
 tower towers~
-adventure[world]:3053/towers
+adv:world:3053/towers
 ~
 E
 gate~
-adventure[world]:3053/gate
+adv:world:3053/gate
 ~
 E
 bridge footbridge~
-adventure[world]:3053/bridge
+adv:world:3053/bridge
 ~
 S
 #3054
 The Shrine~
-adventure[world]:3054/main
+adv:world:3054/main
 ~
 30 176 0 0 0 1
 D0
-adventure[world]:3059/look
+adv:world:3059/look
 ~
 ~
 0 -1 3059
 D2
-adventure[world]:3001/look
+adv:world:3001/look
 ~
 ~
 0 -1 3001
 E
 statue indra king god~
-adventure[world]:3054/statue
+adv:world:3054/statue
 ~
 E
 altar~
-adventure[world]:3054/altar
+adv:world:3054/altar
 ~
 S
 #3055
 The Path~
-adventure[world]:3055/main
+adv:world:3055/main
 ~
 30 240 0 0 0 3
 D1
-adventure[world]:3066/look
+adv:world:3066/look
 ~
 ~
 0 -1 3066
 D3
-adventure[world]:3056/look
+adv:world:3056/look
 ~
 ~
 0 -1 3056
 E
 sign~
-adventure[world]:3055/sign
+adv:world:3055/sign
 ~
 S
 #3056
 The Path~
-adventure[world]:3056/main
+adv:world:3056/main
 ~
 30 240 0 0 0 3
 D1
-adventure[world]:3055/look
+adv:world:3055/look
 ~
 ~
 0 -1 3055
@@ -1048,12 +1048,12 @@ D2
 0 0 3057
 E
 sign~
-adventure[world]:3056/sign
+adv:world:3056/sign
 ~
 S
 #3057
 The Path~
-adventure[world]:3057/main
+adv:world:3057/main
 ~
 30 240 0 0 0 2
 D0
@@ -1066,121 +1066,121 @@ D2
 0 0 3067
 E
 sign~
-adventure[world]:3057/sign
+adv:world:3057/sign
 ~
 S
 #3058
 The Water Store~
-adventure[world]:3058/main
+adv:world:3058/main
 ~
 30 136 0 0 0 0
 D0
-adventure[world]:3041/look
+adv:world:3041/look
 ~
 ~
 0 -1 3041
 S
 #3059
 The Path~
-adventure[world]:3059/main
+adv:world:3059/main
 ~
 30 240 0 0 0 0
 D0
-adventure[world]:3060/look
+adv:world:3060/look
 ~
 ~
 0 -1 3060
 D2
-adventure[world]:3054/look
+adv:world:3054/look
 ~
 ~
 0 -1 3054
 S
 #3060
 The Path~
-adventure[world]:3060/main
+adv:world:3060/main
 ~
 30 240 0 0 0 3
 D0
-adventure[world]:3061/look
+adv:world:3061/look
 ~
 ~
 0 -1 3061
 D2
-adventure[world]:3059/look
+adv:world:3059/look
 ~
 ~
 0 -1 3059
 E
 sign~
-adventure[world]:3060/sign
+adv:world:3060/sign
 ~
 S
 #3061
 The Path~
-adventure[world]:3061/main
+adv:world:3061/main
 ~
 30 8432 0 0 0 3
 D0
-adventure[world]:3065/look
+adv:world:3065/look
 ~
 ~
 0 -1 3065
 D2
-adventure[world]:3060/look
+adv:world:3060/look
 ~
 ~
 0 -1 3060
 E
 sign~
-adventure[world]:3061/sign
+adv:world:3061/sign
 ~
 S
 #3062
 The Post Office~
-adventure[world]:3062/main
+adv:world:3062/main
 ~
 30 8 0 0 0 1
 D2
-adventure[world]:3006/look
+adv:world:3006/look
 ~
 ~
 0 -1 3006
 E
 WANTED posters poster wall~
-adventure[world]:3062/posters
+adv:world:3062/posters
 ~
 E
 crates opened large~
-adventure[world]:3062/crates
+adv:world:3062/crates
 ~
 E
 cobwebs~
-adventure[world]:3062/cobwebs
+adv:world:3062/cobwebs
 ~
 E
 letters envelopes assorted~
-adventure[world]:3062/letters
+adv:world:3062/letters
 ~
 E
 sign~
-adventure[world]:3062/sign
+adv:world:3062/sign
 ~
 S
 #3063
 The Offering Room~
-adventure[world]:3063/main
+adv:world:3063/main
 ~
 30 28 0 0 0 1
 D3
-adventure[world]:3001/look
+adv:world:3001/look
 ~
 ~
 0 -1 3001
 S
 #3064
 The Care Center~
-adventure[world]:3064/main
+adv:world:3064/main
 ~
 30 184 0 0 0 0
 D0
@@ -1200,16 +1200,16 @@ elevator~
 S
 #3065
 The House~
-adventure[world]:3065/main
+adv:world:3065/main
 ~
 30 2568 0 0 0 0
 D1
-adventure[world]:15038/look
+adv:world:15038/look
 ~
 ~
 1 -1 3078
 D2
-adventure[world]:3061/look
+adv:world:3061/look
 ~
 ~
 2 -1 3061
@@ -1218,14 +1218,14 @@ D3
 ~
 1 0 3066
 D4
-adventure[world]:55510/look
+adv:world:55510/look
 ~
 ~
 0 -1 55510
 S
 #3066
 The Path~
-adventure[world]:3066/main
+adv:world:3066/main
 ~
 30 240 0 0 0 3
 D1
@@ -1233,18 +1233,18 @@ D1
 ~
 0 0 3065
 D3
-adventure[world]:3055/look
+adv:world:3055/look
 ~
 ~
 0 -1 3055
 E
 sign~
-adventure[world]:3066/sign
+adv:world:3066/sign
 ~
 S
 #3067
 The Path~
-adventure[world]:3067/main
+adv:world:3067/main
 ~
 30 240 0 0 0 2
 D0
@@ -1257,12 +1257,12 @@ D1
 0 0 3068
 E
 sign~
-adventure[world]:3067/sign
+adv:world:3067/sign
 ~
 S
 #3068
 The Path~
-adventure[world]:3068/main
+adv:world:3068/main
 ~
 30 240 0 0 0 2
 D1
@@ -1275,16 +1275,16 @@ D3
 0 0 3067
 E
 sign~
-adventure[world]:3068/sign
+adv:world:3068/sign
 ~
 S
 #3069
 The Path~
-adventure[world]:3069/main
+adv:world:3069/main
 ~
 30 240 0 0 0 3
 D2
-adventure[world]:3070/look
+adv:world:3070/look
 ~
 ~
 0 -1 3070
@@ -1294,16 +1294,16 @@ D3
 0 0 3068
 E
 sign~
-adventure[world]:3069/sign
+adv:world:3069/sign
 ~
 S
 #3070
 The Path~
-adventure[world]:3070/main
+adv:world:3070/main
 ~
 30 240 0 0 0 3
 D0
-adventure[world]:3069/look
+adv:world:3069/look
 ~
 ~
 0 -1 3069
@@ -1313,12 +1313,12 @@ D1
 0 0 3071
 E
 sign~
-adventure[world]:3070/sign
+adv:world:3070/sign
 ~
 S
 #3071
 The Path~
-adventure[world]:3071/main
+adv:world:3071/main
 ~
 30 240 0 0 0 3
 D0
@@ -1331,16 +1331,16 @@ D3
 0 0 3070
 E
 sign~
-adventure[world]:3070/sign
+adv:world:3070/sign
 ~
 S
 #3072
 The Path~
-adventure[world]:3072/main
+adv:world:3072/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3073/look
+adv:world:3073/look
 ~
 ~
 0 -1 3073
@@ -1350,32 +1350,32 @@ D2
 0 0 3071
 E
 sign~
-adventure[world]:3072/sign
+adv:world:3072/sign
 ~
 S
 #3073
 The Path~
-adventure[world]:3073/main
+adv:world:3073/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3074/look
+adv:world:3074/look
 ~
 ~
 0 -1 3074
 D3
-adventure[world]:3072/look
+adv:world:3072/look
 ~
 ~
 0 -1 3072
 E
 sign~
-adventure[world]:3073/sign
+adv:world:3073/sign
 ~
 S
 #3074
 The Path~
-adventure[world]:3074/main
+adv:world:3074/main
 ~
 30 240 0 0 0 3
 D0
@@ -1383,18 +1383,18 @@ D0
 ~
 0 0 3075
 D3
-adventure[world]:3073/look
+adv:world:3073/look
 ~
 ~
 0 -1 3073
 E
 sign~
-adventure[world]:3073/sign
+adv:world:3073/sign
 ~
 S
 #3075
 The Path~
-adventure[world]:3075/main
+adv:world:3075/main
 ~
 30 240 0 0 0 3
 D0
@@ -1407,12 +1407,12 @@ D2
 0 0 3074
 E
 sign~
-adventure[world]:3075/sign
+adv:world:3075/sign
 ~
 S
 #3076
 The Path~
-adventure[world]:3076/main
+adv:world:3076/main
 ~
 30 240 0 0 0 3
 D2
@@ -1425,12 +1425,12 @@ D3
 0 -1 3077
 E
 sign~
-adventure[world]:3076/sign
+adv:world:3076/sign
 ~
 S
 #3077
 The Path~
-adventure[world]:3077/main
+adv:world:3077/main
 ~
 30 240 0 0 0 3
 D1
@@ -1443,32 +1443,32 @@ D3
 0 0 3078
 E
 sign~
-adventure[world]:3077/sign
+adv:world:3077/sign
 ~
 S
 #3078
 The Path~
-adventure[world]:3078/main
+adv:world:3078/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3079/look
+adv:world:3079/look
 ~
 ~
 0 -1 3077
 D3
-adventure[world]:3061/look
+adv:world:3061/look
 ~
 ~
 0 -1 3065
 E
 sign~
-adventure[world]:3078/sign
+adv:world:3078/sign
 ~
 S
 #3079
 L1:Elevator~
-adventure[world]:3079/main
+adv:world:3079/main
 ~
 30 144 0 0 0 0
 D1
@@ -1481,12 +1481,12 @@ l2~
 1 0 3080
 E
 sign~
-adventure[world]:3079/sign
+adv:world:3079/sign
 ~
 S
 #3080
 L2:Elevator~
-adventure[world]:3080/main
+adv:world:3080/main
 ~
 30 144 0 0 0 0
 D1
@@ -1503,12 +1503,12 @@ D5
 1 0 3079
 E
 sign~
-adventure[world]:3080/sign
+adv:world:3080/sign
 ~
 S
 #3081
 L3:Elevator~
-adventure[world]:3081/main
+adv:world:3081/main
 ~
 30 144 0 0 0 0
 D4
@@ -1521,12 +1521,12 @@ l2~
 1 0 3080
 E
 sign~
-adventure[world]:3081/sign
+adv:world:3081/sign
 ~
 S
 #3082
 L4:Elevator~
-adventure[world]:3082/main
+adv:world:3082/main
 ~
 30 144 0 0 0 0
 D4
@@ -1539,12 +1539,12 @@ l3~
 1 0 3081
 E
 sign~
-adventure[world]:3082/sign
+adv:world:3082/sign
 ~
 S
 #3083
 L5:Elevator~
-adventure[world]:3083/main
+adv:world:3083/main
 ~
 30 144 0 0 0 0
 D5
@@ -1553,12 +1553,12 @@ l4~
 1 0 3082
 E
 sign~
-adventure[world]:3083/sign
+adv:world:3083/sign
 ~
 S
 #3084
 L2: Care Center~
-adventure[world]:3084/main
+adv:world:3084/main
 ~
 30 144 0 0 0 0
 D0
@@ -1566,173 +1566,173 @@ D0
 ~
 0 0 32480
 D3
-adventure[world]:3083/look
+adv:world:3083/look
 ~
 ~
 1 -1 3080
 E
 sign~
-adventure[world]:3084/sign
+adv:world:3084/sign
 ~
 S
 #3085
 The Path~
-adventure[world]:3085/main
+adv:world:3085/main
 ~
 30 240 0 0 0 0
 D0
-adventure[world]:3084/look
+adv:world:3084/look
 ~
 ~
 0 -1 3084
 D2
-adventure[world]:3086/look
+adv:world:3086/look
 ~
 ~
 0 -1 3086
 E
 sign~
-adventure[world]:3085/sign
+adv:world:3085/sign
 ~
 S
 #3086
 The Path~
-adventure[world]:3086/main
+adv:world:3086/main
 ~
 30 240 0 0 0 0
 D0
-adventure[world]:3085/look
+adv:world:3085/look
 ~
 ~
 0 -1 3085
 D3
-adventure[world]:3087/look
+adv:world:3087/look
 ~
 ~
 0 -1 3087
 E
 sign~
-adventure[world]:3086/sign
+adv:world:3086/sign
 ~
 S
 #3087
 The Path~
-adventure[world]:3087/main
+adv:world:3087/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3086/look
+adv:world:3086/look
 ~
 ~
 0 -1 3086
 D3
-adventure[world]:3088/look
+adv:world:3088/look
 ~
 ~
 0 -1 3088
 E
 sign~
-adventure[world]:3087/sign
+adv:world:3087/sign
 ~
 S
 #3088
 The Path~
-adventure[world]:3088/main
+adv:world:3088/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3087/look
+adv:world:3087/look
 ~
 ~
 0 -1 3087
 D3
-adventure[world]:3089/look
+adv:world:3089/look
 ~
 ~
 0 -1 3089
 E
 sign~
-adventure[world]:3088/sign
+adv:world:3088/sign
 ~
 S
 #3089
 The Path~
-adventure[world]:3089/main
+adv:world:3089/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3088/look
+adv:world:3088/look
 ~
 ~
 0 -1 3088
 D3
-adventure[world]:3090/look
+adv:world:3090/look
 ~
 ~
 0 -1 3090
 E
 sign~
-adventure[world]:3089/sign
+adv:world:3089/sign
 ~
 S
 #3090
 The Path~
-adventure[world]:3090/main
+adv:world:3090/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3089/look
+adv:world:3089/look
 ~
 ~
 0 -1 3089
 D3
-adventure[world]:3091/look
+adv:world:3091/look
 ~
 ~
 0 -1 3091
 E
 sign~
-adventure[world]:3090/sign
+adv:world:3090/sign
 ~
 S
 #3091
 The Path~
-adventure[world]:3091/main
+adv:world:3091/main
 ~
 30 240 0 0 0 0
 D1
-adventure[world]:3090/look
+adv:world:3090/look
 ~
 ~
 0 -1 3090
 D3
-adventure[world]:3092/look
+adv:world:3092/look
 ~
 ~
 0 -1 3092
 E
 sign~
-adventure[world]:3091/sign
+adv:world:3091/sign
 ~
 S
 #3092
 The Path~
-adventure[world]:3092/main
+adv:world:3092/main
 ~
 30 240 0 0 0 0
 D0
-adventure[world]:3091/look
+adv:world:3091/look
 ~
 ~
 0 -1 3091
 D3
-adventure[world]:3077/look
+adv:world:3077/look
 ~
 ~
 0 -1 3077
 E
 sign~
-adventure[world]:3092/sign
+adv:world:3092/sign
 ~
 S
 $~

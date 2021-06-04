@@ -181,7 +181,7 @@ D3
 S
 #5511
 The Museum Of The Greater Gods~
-adventure[world]:5511/main
+adv:world:5511/main
 ~
 55 8 0 0 0 0
 D2
@@ -1111,7 +1111,7 @@ room:5568
 ~
 55 0 0 0 0 1
 D0
-adventure[world]:3057/look
+adv:world:3057/look
 ~
 ~
 0 -1 3057

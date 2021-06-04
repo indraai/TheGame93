@@ -16,7 +16,7 @@ room: 55500
 ~
 555 8 0 0 0 0
 D2
-adventure[world]:3056/look
+adv:world:3056/look
 ~
 ~
 0 -1 3056
@@ -196,7 +196,7 @@ D1
 door e east~
 2 -1 55505
 D5
-adventure[world]:3065/look
+adv:world:3065/look
 ~
 ~
 0 -1 3065

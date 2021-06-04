@@ -1,122 +1,122 @@
 #2800
 The School~
-adventure[world]:2800/main
+adv:world:2800/main
 ~
 28 56 0 0 0 0
 D0
-adventure[world]:3066/look
+adv:world:3066/look
 ~
 ~
 0 -1 3066
 D2
-adventure[world]:2801/look
+adv:world:2801/look
 ~
 ~
 0 0 2801
 E
 sign~
-adventure[world]:2800/sign
+adv:world:2800/sign
 ~
 S
 #2801
 1. Finding Your Way~
-adventure[world]:2801/main
+adv:world:2801/main
 ~
 28 56 0 0 0 0
 D0
-adventure[world]:2800/look
+adv:world:2800/look
 ~
 ~
 0 0 2800
 D1
-adventure[world]:2802/look
+adv:world:2802/look
 ~
 ~
 0 0 2802
 S
 #2802
 2. Finders Keepers~
-adventure[world]:2802/main
+adv:world:2802/main
 ~
 28 56 0 0 0 0
 D0
-adventure[world]:/2803/look
+adv:world:/2803/look
 ~
 ~
 0 0 2803
 D3
-adventure[world]:2801/look
+adv:world:2801/look
 ~
 ~
 0 0 2801
 S
 #2803
 3. Money Talks~
-adventure[world]:2803/main
+adv:world:2803/main
 ~
 28 156 0 0 0 0
 D1
-adventure[world]:2804/look
+adv:world:2804/look
 ~
 ~
 0 0 2804
 D2
-adventure[world]:2802/look
+adv:world:2802/look
 ~
 ~
 0 0 2802
 S
 #2804
 4. Keep Your Clothes On~
-adventure[world]:2804/main
+adv:world:2804/main
 ~
 28 188 0 0 0 0
 D0
-adventure[world]:2805/look
+adv:world:2805/look
 ~
 ~
 0 0 2805
 D3
-adventure[world]:2803/look
+adv:world:2803/look
 ~
 ~
 0 0 2803
 S
 #2805
 5. Prepare for Battle~
-adventure[world]:2805/main
+adv:world:2805/main
 ~
 28 56 0 0 0 0
 D1
-adventure[world]:2806/look
+adv:world:2806/look
 ~
 ~
 0 0 2806
 D2
-adventure[world]:2804/look
+adv:world:2804/look
 ~
 ~
 0 0 2804
 S
 #2806
 6. Tackle Pig~
-adventure[world]:2806/main
+adv:world:2806/main
 ~
 28 44 0 0 0 0
 D0
-adventure[world]:2807/look
+adv:world:2807/look
 ~
 ~
 0 0 2807
 D3
-adventure[world]:2805/look
+adv:world:2805/look
 ~
 ~
 0 0 2805
 S
 #2807
 7. Lunch Break~
-adventure[world]:2807/main
+adv:world:2807/main
 ~
 28 56 0 0 0 0
 D1
@@ -130,123 +130,123 @@ D2
 S
 #2808
 8. Why~
-adventure[world]:2808/main
+adv:world:2808/main
 ~
 28 56 0 0 0 0
 D0
-adventure[world]:2809/look
+adv:world:2809/look
 ~
 ~
 0 0 2809
 D3
-adventure[world]:2807/look
+adv:world:2807/look
 ~
 ~
 0 0 2807
 E
 warrior~
-adventure[world]:2808/warrior
+adv:world:2808/warrior
 ~
 E
 mage magic user~
-adventure[world]:2808/mage
+adv:world:2808/mage
 ~
 E
 thief~
-adventure[world]:2808/thief
+adv:world:2808/thief
 ~
 E
 monk~
-adventure[world]:2808/monk
+adv:world:2808/monk
 ~
 S
 #2809
 9. Stats~
-adventure[world]:2809/main
+adv:world:2809/main
 ~
 28 44 0 0 0 0
 D0
-adventure[world]:2810/look
+adv:world:2810/look
 ~
 ~
 0 0 2810
 D2
-adventure[world]:2808/look
+adv:world:2808/look
 ~
 ~
 0 0 2808
 S
 #2810
 10.Shortcuts~
-adventure[world]:2810/main
+adv:world:2810/main
 ~
 28 56 0 0 0 0
 D1
-adventure[world]:2811/look
+adv:world:2811/look
 ~
 ~
 0 0 2811
 D2
-adventure[world]:2809/look
+adv:world:2809/look
 ~
 ~
 0 0 2809
 S
 #2811
 11. Movement~
-adventure[world]:2811/main
+adv:world:2811/main
 ~
 28 56 0 0 0 0
 D1
-adventure[world]:2811/door
+adv:world:2811/door
 ~
 door~
 1 0 2812
 D3
-adventure[world]:2810/look
+adv:world:2810/look
 ~
 ~
 0 0 2810
 S
 #2812
 12. Communicating~
-adventure[world]:2812/main
+adv:world:2812/main
 ~
 28 56 0 0 0 0
 D2
-adventure[world]:2813/look
+adv:world:2813/look
 ~
 ~
 0 0 2813
 D3
-adventure[world]:2812/door
+adv:world:2812/door
 ~
 door~
 1 0 2811
 S
 #2813
 13. Help~
-adventure[world]:2813/main
+adv:world:2813/main
 ~
 28 56 0 0 0 0
 D0
-adventure[world]:2812/look
+adv:world:2812/look
 ~
 ~
 0 0 2812
 D1
-adventure[world]:2814/look
+adv:world:2814/look
 ~
 ~
 0 0 2814
 S
 #2814
 14. What NOT to do~
-adventure[world]:2814/main
+adv:world:2814/main
 ~
 28 56 0 0 0 0
 D3
-adventure[world]:2815/look
+adv:world:2815/look
 ~
 ~
 0 0 2813

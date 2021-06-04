@@ -1,78 +1,78 @@
 #3500
 The Plains~
-adventure[world]:3500/main
+adv:world:3500/main
 ~
 35 0 0 0 0 1
 D0
-adventure[world]:4000/look
+adv:world:4000/look
 ~
 ~
 0 -1 4000
 D1
-adventure[world]:3300/look
+adv:world:3300/look
 ~
 ~
 0 -1 3300
 D2
-adventure[world]:3501/look
+adv:world:3501/look
 ~
 ~
 0 -1 3501
 S
 #3501
 The Lane~
-adventure[world]:3501/main
+adv:world:3501/main
 ~
 35 0 0 0 0 1
 D0
-adventure[world]:3500/look
+adv:world:3500/look
 ~
 ~
 0 -1 3500
 D2
-adventure[world]:3502/look
+adv:world:3502/look
 ~
 ~
 0 -1 3502
 S
 #3502
 The Laneway~
-adventure[world]:3502/main
+adv:world:3502/main
 ~
 35 0 0 0 0 1
 D0
-adventure[world]:3501/look
+adv:world:3501/look
 ~
 ~
 0 -1 3501
 D1
-adventure[world]:15000/look
+adv:world:15000/look
 ~
 ~
 0 -1 15000
 D3
-adventure[world]:3503/look
+adv:world:3503/look
 ~
 ~
 0 -1 3503
 D5
-adventure[world]:6500/look
+adv:world:6500/look
 ~
 ~
 0 -1 6500
 S
 #3503
 The City Entrance~
-adventure[world]:3503/main
+adv:world:3503/main
 ~
 35 0 0 0 0 1
 D1
-adventure[world]:3502/look
+adv:world:3502/look
 ~
 ~
 0 -1 3502
 D3
-adventure[world]:3053/look
+adv:world:3053/look
 ~
 ~
 0 -1 3053
@@ -852,7 +852,7 @@ You see the common room.
 ~
 0 -1 3574
 D3
-adventure[world]:3144/look
+adv:world:3144/look
 ~
 ~
 0 -1 3144

@@ -1,72 +1,72 @@
 #23400
 The Academy~
-adventure[world]:23400/main
+adv:world:23400/main
 ~
 234 152 0 0 0 0
 D2
-adventure[world]:3055/look
+adv:world:3055/look
 ~
 ~
 0 -1 3055
 D5
-adventure[world]:23401/look
+adv:world:23401/look
 ~
 ~
 0 0 23401
 E
 credits info~
-adventure[world]:23400/extra
+adv:world:23400/extra
 ~
 S
 #23401
 Basics~
-adventure[world]:23401/main
+adv:world:23401/main
 ~
 234 152 0 0 0 0
 D1
-adventure[world]:23402/look
+adv:world:23402/look
 ~
 ~
 0 0 23402
 D2
-adventure[world]:23400/look
+adv:world:23400/look
 ~
 ~
 0 0 23400
 S
 #23402
 Look~
-adventure[world]:23402/main
+adv:world:23402/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23403/look
+adv:world:23403/look
 ~
 ~
 0 0 23403
 D1
-adventure[world]:23405/look
+adv:world:23405/look
 ~
 ~
 0 0 23405
 D2
-adventure[world]:23404/look
+adv:world:23404/look
 ~
 ~
 0 0 23404
 D3
-adventure[world]:23401/look
+adv:world:23401/look
 ~
 ~
 0 0 23401
 S
 #23403
 Autoexit~
-adventure[world]:23403/main
+adv:world:23403/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23470/look
+adv:world:23470/look
 ~
 curtain curtains~
 1 0 23470
@@ -76,209 +76,209 @@ D2
 0 0 23402
 E
 curtain~
-adventure[world]:23403/curtain
+adv:world:23403/curtain
 ~
 S
 #23404
 Colors~
-adventure[world]:23404/main
+adv:world:23404/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23402/look
+adv:world:23402/look
 ~
 ~
 0 0 23402
 S
 #23405
 Who~
-adventure[world]:23405/main
+adv:world:23405/main
 ~
 234 152 0 0 0 0
 D1
-adventure[world]:23406/look
+adv:world:23406/look
 ~
 ~
 0 0 23406
 D3
-adventure[world]:23402/look
+adv:world:23402/look
 ~
 ~
 0 0 23402
 S
 #23406
 Commands~
-adventure[world]:23406/main
+adv:world:23406/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23407/look
+adv:world:23407/look
 ~
 ~
 0 0 23407
 D1
-adventure[world]:23409/look
+adv:world:23409/look
 ~
 ~
 0 0 23409
 D2
-adventure[world]:23408/look
+adv:world:23408/look
 ~
 ~
 0 0 23408
 D3
-adventure[world]:23405/look
+adv:world:23405/look
 ~
 ~
 0 0 23405
 S
 #23407
 Toggles~
-adventure[world]:23407/main
+adv:world:23407/main
 ~
 234 152 0 0 0 0
 D2
-adventure[world]:23406/look
+adv:world:23406/look
 ~
 ~
 0 0 23406
 S
 #23408
 Wimpy~
-adventure[world]:23408/main
+adv:world:23408/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23406/look
+adv:world:23406/look
 ~
 ~
 0 0 23406
 S
 #23409
 Sleep~
-adventure[world]:23409/main
+adv:world:23409/main
 ~
 234 152 0 0 0 0
 D3
-adventure[world]:23406/look
+adv:world:23406/look
 ~
 ~
 0 0 23406
 D5
-adventure[world]:23410/look
+adv:world:23410/look
 ~
 ~
 0 0 23410
 S
 #23410
 Scan~
-adventure[world]:23410/main
+adv:world:23410/main
 ~
 234 152 0 0 0 0
 D3
-adventure[world]:23410/look
+adv:world:23410/look
 ~
 ~
 0 0 23411
 D4
-adventure[world]:23409/look
+adv:world:23409/look
 ~
 ~
 0 0 23409
 S
 #23411
 Where~
-adventure[world]:23411/main
+adv:world:23411/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23412/look
+adv:world:23412/look
 ~
 ~
 0 0 23412
 D1
-adventure[world]:23410/look
+adv:world:23410/look
 ~
 ~
 0 0 23410
 D2
-adventure[world]:23413/look
+adv:world:23413/look
 ~
 ~
 0 0 23413
 D3
-adventure[world]:23414/look
+adv:world:23414/look
 ~
 ~
 0 0 23414
 S
 #23412
 Equipment~
-adventure[world]:23412/main
+adv:world:23412/main
 ~
 234 152 0 0 0 0
 D2
-adventure[world]:23411/look
+adv:world:23411/look
 ~
 ~
 0 0 23411
 S
 #23413
 Cast~
-adventure[world]:23413/main
+adv:world:23413/main
 ~
 234 8 0 0 0 0
 D0
-adventure[world]:23411/look
+adv:world:23411/look
 ~
 ~
 0 0 23411
 S
 #23414
 Emote~
-adventure[world]:23414/main
+adv:world:23414/main
 ~
 234 152 0 0 0 0
 D1
-adventure[world]:23411/look
+adv:world:23411/look
 ~
 ~
 0 0 23411
 D3
-adventure[world]:23415/look
+adv:world:23415/look
 ~
 ~
 0 0 23415
 S
 #23415
 Time~
-adventure[world]:23415/main
+adv:world:23415/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23416/look
+adv:world:23416/look
 ~
 ~
 0 0 23416
 D1
-adventure[world]:23414/look
+adv:world:23414/look
 ~
 ~
 0 0 23414
 D2
-adventure[world]:23417/look
+adv:world:23417/look
 ~
 ~
 0 0 23417
 D3
-adventure[world]:23418/look
+adv:world:23418/look
 ~
 ~
 0 0 23418
 S
 #23416
 Donate~
-adventure[world]:23416/main
+adv:world:23416/main
 ~
 234 152 0 0 0 0
 D2
@@ -289,50 +289,50 @@ aventure[world]:23415/look
 S
 #23417
 Auction~
-adventure[world]:23417/main
+adv:world:23417/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23415/look
+adv:world:23415/look
 ~
 ~
 0 0 23415
 S
 #23418
 Boards~
-adventure[world]:23418/main
+adv:world:23418/main
 ~
 234 152 0 0 0 0
 D1
-adventure[world]:23415/look
+adv:world:23415/look
 ~
 ~
 0 0 23415
 D3
-adventure[world]:23419/look
+adv:world:23419/look
 ~
 ~
 0 0 23419
 S
 #23419
 Consider~
-adventure[world]:23419/main
+adv:world:23419/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23420/look
+adv:world:23420/look
 ~
 ~
 0 0 23420
 D1
-adventure[world]:23418/look
+adv:world:23418/look
 ~
 ~
 0 0 23418
 S
 #23420
 Groups~
-adventure[world]:23420/main
+adv:world:23420/main
 ~
 234 152 0 0 0 0
 D0
@@ -346,26 +346,26 @@ D2
 S
 #23421
 Equipment~
-adventure[world]:23421/main
+adv:world:23421/main
 ~
 234 152 0 0 0 0
 D0
-adventure[world]:23424/look
+adv:world:23424/look
 ~
 ~
 0 0 23424
 D1
-adventure[world]:23422/look
+adv:world:23422/look
 ~
 ~
 0 0 23422
 D2
-adventure[world]:23420/look
+adv:world:23420/look
 ~
 ~
 0 0 23420
 D3
-adventure[world]:23423/look
+adv:world:23423/look
 ~
 ~
 0 0 23423
@@ -381,18 +381,18 @@ D3
 S
 #23423
 Academy Shop~
-adventure[world]:23423/main
+adv:world:23423/main
 ~
 234 152 0 0 0 0
 D1
-adventure[world]:23421/look
+adv:world:23421/look
 ~
 ~
 0 0 23421
 S
 #23424
 Mail~
-adventure[world]:23424/main
+adv:world:23424/main
 ~
 234 152 0 0 0 0
 D0
@@ -406,7 +406,7 @@ D2
 S
 #23425
 Knowledge Test~
-adventure[world]:23425/main
+adv:world:23425/main
 ~
 234 156 0 0 0 0
 D1

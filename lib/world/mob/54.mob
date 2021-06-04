@@ -322,8 +322,7 @@ statue surya~
 the statue of Surya~
 The statue of Surya stands here.
 ~
-   The statue of Surya, the God in charge of the Sun, almost glows with a fiery
-aura.
+The statue of Surya, the God in charge of the Sun, almost glows with a fiery aura.
 ~
 256026 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
@@ -592,7 +591,7 @@ lugh librarian~
 Lugh the Librarian~
 Lugh the Librarian sits behind a desk.
 ~
-   The huge hulking mass rises as someone asks him a question.
+The huge hulking mass rises as someone asks him a question.
 ~
 26650 0 0 0 0 0 0 0 300 E
 10 17 4 2d2+100 1d2+1

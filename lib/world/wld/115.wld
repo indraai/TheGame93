@@ -17,7 +17,7 @@ D1
 ~
 0 0 11534
 D2
-adventure[world]:3002/look
+adv:world:3002/look
 ~
 ~
 0 -1 3002
@@ -233,7 +233,7 @@ west.
 ~
 115 9 0 0 0 0
 D1
-adventure[world]:3157/look
+adv:world:3157/look
 ~
 ~
 0 -1 3157

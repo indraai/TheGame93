@@ -16,7 +16,7 @@ D0
 ~
 0 -1 29601
 D2
-adventure[world]:3066/look
+adv:world:3066/look
 ~
 ~
 0 -1 3066
@@ -184,7 +184,7 @@ dark green decor which makes it feel somewhat drab.
 ~
 296 8 0 0 0 0
 D1
-adventure[world]:3148/look
+adv:world:3148/look
 ~
 ~
 0 -1 3148
