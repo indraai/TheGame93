@@ -237,7 +237,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
   act("$n studies the board.", TRUE, ch, 0, 0, TO_ROOM);
 
   if (!num_of_msgs[board_type])
-    send_to_char(ch, "# Bulletin Board\nusage: READ/REMOVE *messg #*, WRITE *header*.\n=\n\nnote: The board is empty.\r\n");
+    send_to_char(ch, "# Bulletin Board\nusage: READ/REMOVE *msg #*, WRITE *header*.\n=\n\nnote: The board is empty.\r\n");
   else {
     size_t len = 0;
     int nlen;
@@ -251,7 +251,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\nbulletin[%d]:%s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\nmsg:%d:%s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
@@ -261,7 +261,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\nbulletin[%d]:%s\r", i + 1, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\nmsg:%d]:%s\r", i + 1, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
