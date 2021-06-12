@@ -177,7 +177,7 @@ static void make_corpse(struct char_data *ch)
   snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "the body of %s", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
