@@ -395,15 +395,8 @@ D2
 0 0 21
 S
 #33
-Rumble's Room~
-   War is an ugly thing, but not the ugliest of things.  The decayed and
-degraded state of moral and patriotic feeling which thinks that nothing is
-worth war is much worse.  The person who has nothing for which he is willing to
-fight, nothing which is more important than his own personal safety, is a
-miserable creature and has no chance of being free unless made and kept so by
-the exertions of better men than himself.
-John Stuart Mill
-@(HELP QUOTE@)
+Indra's Room~
+Indra's Private Residence
 ~
 0 8 0 0 0 0
 S
@@ -422,7 +415,7 @@ just one moment ...  As you see your future in the depths ...
 0 520 0 0 0 0
 S
 #35
-@[f511]Elora's@[f412] Den@[f313] of @[f214]Dreams@n~
+Elora's Den of Dreams~
    Shadows form and dissipate, creating fluid, illogical images, which seem to
 come to life one minute, only to disappear as wisps of smoke the next.  Around
 them, sharp brush strokes of iridescence twist into crooked, ever-changing
@@ -433,7 +426,7 @@ appears to be a faint scent of jasmine.
 0 24 0 0 0 0
 S
 #71
-The Vault Of The Programancer~
+The Vault Of The Programmer~
    The walls, furniture and other decor that animate Vatiken's vault are
 comprised of nothing more then floating ones and zeros.
 ~
@@ -452,7 +445,7 @@ longer online.
 0 8 0 0 0 0
 S
 #89
-The Prison Cell Corridor~
+The Workspace Corridor~
    This long hallway is barely wide enough for two people to walk abreast.
 Along the Northern wall are steel doors spaced a few feet apart while the
 southern wall is of cinder block construction.
@@ -472,7 +465,7 @@ trapdoor~
 1 68 130
 S
 #90
-Epictetus' Prison Cell~
+Epictetus' Workspace~
    This shower stall remodeled into a prison cell is not yet completed.  While
 the shower head has been removed and cemented a drain still exists in the floor.
 Unintelligible voices can be heard whispering through the piping in the drain
@@ -490,7 +483,7 @@ holding the drain in place seem to be missing.
 ~
 S
 #91
-Aristotle's Prison Cell~
+Aristotle's Workspace~
    What used to be a shower stall has been turned into a cell complete with a
 pungent waste bucket. The old shower head is still sticking out of the wall
 with a steel door opposite.
@@ -506,7 +499,7 @@ S
 T 171
 T 172
 #92
-Plato's Prison Cell~
+Plato's Workspace~
    The now familiar cell is cast in strange movement and shadows as the single
 light bulb above flickers randomly as if it is about to burn out. The
 alternating bright and pitch black environment makes the eyes ache.
@@ -516,7 +509,7 @@ S
 T 171
 T 172
 #93
-Friedrich Nietzsche's Prison Cell~
+Friedrich Nietzsche's Workspace~
    The stale, uncirculated air reeks from the prior occupants of this small
 cell. The silence is broken only by the occasional footsteps in the corridor
 outside or a fellow prisoner tapping on the cell wall.
@@ -526,7 +519,7 @@ S
 T 171
 T 172
 #94
-Socrates' Prison Cell~
+Socrates' Workspace~
    The small prison cell is stifling and claustrophobic. A single glaring bulb
 in the plywood ceiling is out of reach. The only break in the block walls is a
 steel door that is closed and locked.
@@ -536,7 +529,7 @@ S
 T 172
 T 171
 #95
-Confucius' Prison Cell~
+Confucius' Workspace~
    The musty stall is somehow cleaner than the others. A hole in the North wall
 and another in the floor has been cemented over. They must have once been a
 shower head and a drain before this stall was converted into a prison cell.
@@ -546,7 +539,7 @@ S
 T 171
 T 172
 #96
-James Stockdale's Prison Cell~
+James Stockdale's Workspace~
    The small stall turned confinement cell is covered in dust. The dirty floor
 has various words and designs scratched into the dirt. The ceiling consists of
 a single sheet of unpainted plywood.
@@ -556,10 +549,8 @@ S
 T 171
 T 172
 #97
-A Prison Cell~
-   What used to be a shower stall has been converted into a solitary confinement
-cell complete with iron shackles. A single steel door that is closed and locked
-is the only exit. The walls are constructed of unpainted cinder blocks.
+Open Workspace~
+An open workspace available for use.
 ~
 0 8 0 0 0 0
 D2
@@ -575,21 +566,18 @@ The End of the Beginning~
    For those of you who have read this far and actually made something out of
 it, Congratulations. You have the patience to become a builder and make
 CircleMUD zones. If you wimped out or skipped some areas then please MUDmail
-me why. @RAT POSTMASTER MAIL RUMBLE@n. Also, please MUDmail or email me any
+me why. @RAT POSTMASTER MAIL QUINN@n. Also, please MUDmail or email me any
 questions, comments, concerns, or suggestions about this zone.  What did I do
 wrong, forget, misspell, anything! If you have something to add feel free to
 MUDmail or email me. @RHELP EMAIL@n.
 
-   This area is a culmination of help files I have come across and my own
-experiences in the CircleMUD community. I thank all those before who have
-helped in the creation of this masterpiece. Special Thanks to Welcor,
-Elaseth, Manivo, Snowlock, and Lance for their additions.
+This area is a culmination of help files I have come across and my own experiences in the CircleMUD community. I thank all those before who have helped in the creation of this masterpiece. Special Thanks to Welcor, Elaseth, Manivo, Snowlock, and Lance for their additions.
 
 Remember, MUDding is fun!
 
 Respectfully,
 
-Rumble
+QUINN
 ~
 0 8 0 0 0 0
 D0
@@ -603,9 +591,7 @@ D3
 S
 #99
 TBA Cafe 99~
-   Welcome to TBA Cafe 99, the hangout of builders and implementors. So pull up
-a pew and have a nice drink! If you want to have a social chat or lurk in order
-to help newer builders, this is the place to be!
+Welcome to TBA Cafe 99, the hangout of builders and developers. So pull up a pew and have a nice drink! If you want to have a social chat or lurk in order to help newer builders, this is the place to be!
 ~
 0 24 0 0 0 0
 D2
@@ -614,13 +600,11 @@ D2
 0 0 98
 E
 sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 E
 floor~
-   The stone floor is the same shade of gray as the sky and is completely plain
-and unscratched. It is probably too hard for anything to leave as much as a
-scratch on it.
+The stone floor is the same shade of gray as the sky and is completely plain and unscratched. It is probably too hard for anything to leave as much as a scratch on it.
 ~
 S
 $~

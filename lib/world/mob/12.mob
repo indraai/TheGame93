@@ -1,7 +1,7 @@
 #1200
-innkeeper receptionists immortal~
-the Immortal Innkeeper~
-The Immortal Innkeeper is here.
+innkeeper receptionists deva~
+the Deva Innkeeper~
+The Deva Innkeeper is here.
 ~
 She appears to be very organized and happy with her duties.
 ~
@@ -11,11 +11,11 @@ She appears to be very organized and happy with her duties.
 8 8 2
 E
 #1201
-postmaster immortal~
-the Immortal Postmaster~
-The Immortal Postmaster is hard at work here.
+postmaster deva~
+the Deva Postmaster~
+The Deva Postmaster is hard at work here.
 ~
-The Postmaster is happily working away handling letters for the REALM.
+The Deva Postmaster is happily working away handling letters for the REALM.
 ~
 10 0 0 0 65536 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
@@ -36,11 +36,11 @@ SD1202 Immortal ServiceDEVA is a specialist in keeping the IMMORALS AREA CLEAN A
 E
 T 3011
 #1203
-malikar craftsman~
-Malikar the Craftsman~
-Malikar the Craftsman stands here, looking busy.
+rbhus craftsman~
+Rbhus the Craftsman~
+Rbhus the Craftsman stands here, looking busy.
 ~
-It looks like Malikar is creating an amazing offering for the IMMORTALS.
+It looks like Rbhus is creating an amazing offering for the IMMORTALS.
 ~
 172108 0 0 0 2 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
@@ -50,7 +50,7 @@ BareHandAttack: 13
 E
 #1204
 test deva td1204~
-TestDeva~
+Test Deva TD1204~
 TD1204 TestDeva sits here, grinning happily.
 ~
 This small Deva helps with testing.
@@ -61,27 +61,24 @@ This small Deva helps with testing.
 8 8 0
 E
 #1205
-bug~
-the bug~
-a nasty little bug is crawling around here, annoying the implementors.
+test bug td1205~
+Test Bug TB1205~
+A little test bug that crawls around testing parts of the system for the developers.
 ~
-You are looking at a little bug, it seems to be harmless.
+You are looking at a little test bug, it seems to be harmless.
 ~
-122984 0 0 0 65536 0 0 0 1000 E
+122984 0 0 0 65536 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
 BareHandAttack: 1
 E
 #1206
-frosty little ice cube icecube~
-the frosty little ice cube~
-A frosty little ice cube walks about doing whatever Spector says.
+indu indra deva~
+Indu Indra~
+Indu Indra walks about looking for True.
 ~
-   It is a little ice cube that Spector has given life to.  It looks like a
-normal ice cube, only now it has little arms and feet made out of ice.  From
-what you can see, it has no eyes, yet it can make it's way about without bumping
-into things.
+Indu Indra is the deity that wanders around while True.  He's a little guy that can take any form you offer, so be careful. The last guy imagined him as an Ice Cube.
 ~
 253978 0 0 0 65656 0 0 0 1000 E
 26 12 -5 5d5+260 4d4+4
@@ -104,9 +101,9 @@ E
 #1209
 Julia~
 Julia~
-INDU INDRA's secretary stands here holding a note pad.
+INDU INDRA's assistant stands here holding a note pad.
 ~
-She is a very nice woman, and does her job very well organizing for INDU INDRA.
+She is a very nice happy woman, and does her job very well organizing for INDU INDRA.
 ~
 256026 0 0 0 120 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -164,9 +161,9 @@ A friendly ChowChow puppy dog named Chien is playing here.
 ~
 Chien is a friendly ChowChow puppy dog bred from ancient chinese ancestors he
 has a long line of genealogy dating back to the times of Royalty.  He is
-Indu Indra's favorite companion and doesn't look too dangerous.
+Indu Indra's favorite fluffy companion and looks really friendly.
 ~
-188506 0 0 0 80 0 0 0 100 E
+188506 0 0 0 80 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -185,11 +182,11 @@ the hidden mob~
 8 8 0
 E
 #1267
-color mob~
-@Rtests the color mob@n~
-The color test mob.
+test deva td1267~
+Test Deva TD1267~
+The Test Deva is used to test systems.
 ~
-   The color test mob is so colorful.
+The Test Deva are used for pre-defined system tests.
 ~
 72 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -197,11 +194,11 @@ The color test mob.
 8 8 0
 E
 #1299
-test mob~
-the test mob~
-.the test mob is our friend.
+test deva td1299~
+Test Deva TD1299~
+The Test Deva is used to test the system.
 ~
-   Test mobs can be whatever you want them to be.
+The Test Deva are used for pre-defined system tests.
 ~
 61454 0 0 0 983040 0 0 0 0 E
 3 19 8 0d0+30 1d2+0

@@ -1,8 +1,6 @@
 #34600
-God Hall, West Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
-north and south.
+W. Deva Hall~
+34600:The hallway is a simple hallway that is tiled with bamboo and simple white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
 D0
@@ -10,7 +8,7 @@ D0
 ~
 0 0 34392
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34641
@@ -19,16 +17,14 @@ D2
 ~
 0 0 34618
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34640
 S
 #34601
-God Hall, South Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
-north and south.
+S. Deva Hall~
+34601:The hallway is a simple hallway that is tiled with bamboo and simple white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
 D0
@@ -36,7 +32,7 @@ D0
 ~
 0 0 34312
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34639
@@ -45,16 +41,14 @@ D2
 ~
 0 0 34602
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34638
 S
 #34602
-God Hall, South Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
-north and south.
+S. Deva Hall~
+34602:The hallway is a simple hallway that is tiled with bamboo and simple white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
 D0
@@ -62,7 +56,7 @@ D0
 ~
 0 0 34601
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34637
@@ -71,15 +65,15 @@ D2
 ~
 0 0 34603
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34636
 S
 #34603
-God Hall, South Extension Jct.~
-   The hallway stops here to the south and splits in a 'T' Shape to the west and
-east.  It has carnival colored tiled floors and white sterile walls above that.
+S. Deva Hall~
+34603:The hallway stops here to the south and splits to the west and
+east.  It has bamboo flooring and white walls above that.
 Office doors line the walls down each hallway.
 ~
 346 24 0 0 0 0
@@ -97,14 +91,13 @@ D3
 0 0 34604
 S
 #34604
-God Hall, South Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+S. Deva Hall~
+34604:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34625
@@ -113,7 +106,7 @@ D1
 ~
 0 0 34603
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34626
@@ -123,14 +116,13 @@ D3
 0 0 34605
 S
 #34605
-God Hall, South Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+S. Deva Hall~
+34605:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34623
@@ -139,20 +131,19 @@ D1
 ~
 0 0 34604
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34624
 S
 #34606
-God Hall, West Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+S. Deva Hall~
+34606:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34621
@@ -161,7 +152,7 @@ D1
 ~
 0 0 34609
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34622
@@ -171,14 +162,13 @@ D3
 0 0 34392
 S
 #34607
-God Hall, South Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+S. Deva Hall~
+34607:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34627
@@ -187,7 +177,7 @@ D1
 ~
 0 0 34608
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34628
@@ -197,19 +187,17 @@ D3
 0 0 34603
 S
 #34608
-God Hall, South Extension~
-   This unfinished room was created by Whiteknight.  The hallway is a simple
-hallway that is tiled with carnival colored tiled and simple white walls above
-it.  Office doors line the walls as it continues to the west and east.
+S. Deva Hall~
+34608:The hallway is a simple hallway that is tiled with bamboo and simple white walls above it.  Office doors line the walls as it continues to the west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34629
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34630
@@ -219,14 +207,13 @@ D3
 0 0 34607
 S
 #34609
-God Hall, West Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+W. Deva Hall~
+34609:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34631
@@ -244,9 +231,8 @@ D3
 0 0 34606
 S
 #34610
-God Hall, West Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+W. Deva Hall~
+34610:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 north and south.
 ~
 346 24 0 0 0 0
@@ -255,7 +241,7 @@ D0
 ~
 0 0 34611
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34632
@@ -264,20 +250,18 @@ D2
 ~
 0 0 34392
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34634
 S
 #34611
-God Hall, West Extension~
-   This is the end of a very long sterile hallway that has a simple tiled floor
-of a carnival colored tile and bleak white walls above it where office doors
-line the walls.  Empty offices are to the east and west.
+W. Deva Hall~
+34611:This is the end of a hallway with bamboo flooring and white walls above it where office doors line the walls. Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34620
@@ -286,21 +270,21 @@ D2
 ~
 0 0 34610
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34619
 S
 #34612
-Higher Imm Hall, Extension, Sct. A~
-   At the actual end of the hall to the west, there is a plain wall marking it
+Higher Deva Hall~
+34612:At the actual end of the hall to the west, there is a plain wall marking it
 here.  The only exit the hallway to the east.  Office doors line the wooden
 panel covered walls.  Maroon carpeting and bronze lanterns hang from from the
 ceiling here to light it.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34616
@@ -309,36 +293,36 @@ D1
 ~
 0 0 34368
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34617
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34300
 S
 #34613
-Higher Imm Hall, Extension Sct. A~
-   At the actual end of the hall to the east, there is a plain wall marking it
+Higher Deva Hall~
+34613:At the actual end of the hall to the east, there is a plain wall marking it
 here.  The only exit the hallway to the west.  Office doors line the wooden
 panel covered walls.  Maroon carpeting and bronze lanterns hang from from the
 ceiling here to light it.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34614
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34303
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34615
@@ -348,54 +332,52 @@ D3
 0 0 34370
 S
 #34614
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34614:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34613
 S
 #34615
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34615:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34613
 S
 #34616
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34612
 S
 #34617
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34617:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34612
 S
 #34618
-God Hall, West Extension~
-   This is the end of a very long sterile hallway that has a simple tiled floor
-of a carnival colored tile and bleak white walls above it where office doors
-line the walls.  Empty offices are to the east and west.
+W. Deva Hall~
+34618:This is the end of a with bamboo flooring and bleak white walls above it where office doors line the walls.  Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
 D0
@@ -403,275 +385,275 @@ D0
 ~
 0 0 34600
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34633
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34634
 S
 #34619
 Emty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34611
 S
 #34620
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34611
 S
 #34621
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34621:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34606
 S
 #34622
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34622:Shared workspace available for open use.
 ~
 346 0 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34606
 S
 #34623
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34623:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34605
 S
 #34624
-Emoty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34624:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.  A walnut door with gold
-hinges and fixtures is here.  /c A walnut door with gold hinges and fixtures is
+A bamboo door with gold hinges and fixtures is here.  A bamboo door with gold
+hinges and fixtures is here.  /c A bamboo door with gold hinges and fixtures is
 here.
 ~
 door~
 1 0 34605
 S
 #34625
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34625:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34604
 S
 #34626
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34626:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34604
 S
 #34627
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34627:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34607
 S
 #34628
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34628:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34607
 S
 #34629
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34629:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34608
 S
 #34630
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34630:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34608
 S
 #34631
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34609
 S
 #34632
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34610
 S
 #34633
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34633:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34618
 S
 #34634
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34634:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34618
 S
 #34635
-Emoty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34635:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34609
 S
 #34636
-Angela's Office~
-   You walk into a room with white walls made of plaster and a soft thick brown
+Administration~
+34636:You walk into a room with white walls made of plaster and a soft thick brown
 carpet that covers the entire floor.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34602
 S
 #34637
-Empty Office New Ext~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34637:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34602
 S
 #34638
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34638:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34601
 S
 #34639
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34639:Shared workspace available for open use.
 ~
 346 0 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34601
 S
 #34640
-Empty Office New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace.~
+34640:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34600
 S
 #34641
-Empty Room New Ext.~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34641:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34600
 S
 #34642
-Higher Immortal Hall, North Extension~
-   This is the main hallway of the extension.  It runs to the north and south
+N. Higher Deva Hall~
+34642:This is the main hallway of the extension.  It runs to the north and south
 but has fingers leading east and west to the actual offices.  It has plush
 carpeting, panel clad walls, bronze lanterns that hang overhead to light it.
 ~
@@ -694,8 +676,8 @@ D3
 0 0 34644
 S
 #34643
-Higher Immortal Hall, North Extension~
-   This is the main hallway of the extension.  It runs to the north and south
+N. Higher Deva Hall~
+34643:This is the main hallway of the extension.  It runs to the north and south
 but has fingers leading east and west to the actual offices.  It has plush
 carpeting, panel clad walls, bronze lanterns that hang overhead to light it.
 ~
@@ -711,14 +693,15 @@ grate~
 1 34340 34642
 S
 #34644
-Higher Imm Hall, Extension Sct. B~
-   The hallway begin ends here with doors lining the walls on either side of the
+Higher Deva Hall~
+34644:This is the main hallway of the extension.  It runs to the north and south
+The hallway begin ends here with doors lining the walls on either side of the
 panel covered walls and maroon covered carpeting.  It continues to the east and
 west.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34654
@@ -727,7 +710,7 @@ D1
 ~
 0 0 34642
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34655
@@ -737,14 +720,15 @@ D3
 0 0 34645
 S
 #34645
-Higher Imm Hall, Extension Sct. B~
-   This is the midway along the main hallway east-west.  It has plush carpets
+Higher Deva Hall~
+34645:This is the main hallway of the extension.  It runs to the north and south
+This is the midway along the main hallway east-west.  It has plush carpets
 panel clad walls and office doors lining the wall every so far down the hall
 itself.
 ~
 346 8 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34652
@@ -753,7 +737,7 @@ D1
 ~
 0 0 34644
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34653
@@ -763,8 +747,9 @@ D3
 0 0 34646
 S
 #34646
-Higher Imm Hall, Extension Sct. B~
-   At the actual end of the hall to the west, there is a plain wall marking it
+Higher Deva Hall~
+34646:This is the main hallway of the extension.  It runs to the north and south
+At the actual end of the hall to the west, there is a plain wall marking it
 here.  The only exit is the hallway to the east.  Office doors line the wooden
 panel covered walls decorated in fine paintings and sculptures.  Maroon shag
 carpets line the floors and bronze lanterns hang from the ceiling here to keep
@@ -772,7 +757,7 @@ it lit brightly.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34650
@@ -781,20 +766,21 @@ D1
 ~
 0 0 34645
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34651
 S
 #34647
-Higher Imm Hall, Extension Sct. B~
-   The hallway begin ends here with doors lining the walls on either side of the
+Higher Deva Hall~
+34647:This is the main hallway of the extension.  It runs to the north and south
+The hallway begin ends here with doors lining the walls on either side of the
 panel covered walls and maroon covered carpeting.  It continues to the east and
 west.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34656
@@ -803,7 +789,7 @@ D1
 ~
 0 0 34648
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34657
@@ -813,14 +799,15 @@ D3
 0 0 34642
 S
 #34648
-Higher Imm Hall, Extension Sct. B~
-   This is the midway along the main hallway east-west.  It has plush carpets
+Higher Deva Hall~
+34648:This is the main hallway of the extension.  It runs to the north and south
+This is the midway along the main hallway east-west.  It has plush carpets
 panel clad walls and office doors lining the wall every so far down the hall
 itself.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34658
@@ -829,7 +816,7 @@ D1
 ~
 0 0 34649
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34659
@@ -839,20 +826,21 @@ D3
 0 0 34647
 S
 #34649
-Higher Imm Hall, Extension Sct. B~
-   At the actual end of the hall to the east, there is a plain wall marking it
+Higher Deva Hall~
+34649:This is the main hallway of the extension.  It runs to the north and south
+At the actual end of the hall to the east, there is a plain wall marking it
 here.  The only exit the hallway to the west.  Office doors line the wooden
 panel covered walls.  Maroon carpeting and bronze lanterns hang from from the
 ceiling here to light it.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34660
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34661
@@ -862,145 +850,147 @@ D3
 0 0 34648
 S
 #34650
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34650:This is the main hallway of the extension.  It runs to the north and south
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34646
 S
 #34651
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34651:This is the main hallway of the extension.  It runs to the north and south
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34646
 S
 #34652
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace 34652~
+Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 -1
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34645
 S
 #34653
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace 36543~
+34653:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34645
 S
 #34654
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace 34654~
+34654:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34644
 S
 #34655
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34655:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34644
 S
 #34656
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34656:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34647
 S
 #34657
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34657:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34647
 S
 #34658
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34658:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34648
 S
 #34659
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34659:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34648
 S
 #34660
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34660:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34649
 S
 #34661
-Empty Office Ext B~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34661:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34649
 S
 #34662
-Higher Immortal Hall, North Extension~
-   This is the end of the extension, fingers outlye to the west and east to the
+N. Higher Deva Hall~
+34662:This is the end of the extension, fingers outlye to the west and east to the
 offices.  The hallway is very plush with paneled walls, and shag carpeting of a
 maroon color.  Lanterns hang over the top to light it.  The hallway returns to
 the south.
@@ -1020,14 +1010,13 @@ D3
 0 0 34682
 S
 #34663
-God Hall, East Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+E. Deva Hall~
+34663:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34672
@@ -1036,7 +1025,7 @@ D1
 ~
 0 0 34664
 D2
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34673
@@ -1046,14 +1035,13 @@ D3
 0 0 34314
 S
 #34664
-God Hall, East Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
+E. Deva Hall~
+34664:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
 west and east
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34670
@@ -1062,7 +1050,7 @@ D1
 ~
 0 0 34665
 D2
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34671
@@ -1072,9 +1060,9 @@ D3
 0 0 34663
 S
 #34665
-God Hall, East Extension Jct~
-   The hallway stops here to the west and splits in a 'T' Shape to the north and
-south.  It has carnival colored tiled floors and white sterile walls above that.
+E. Deva Hall~
+34665:The hallway stops here to the west and splits to the north and
+south.  It has bamboo flooring and white walls above that.
 Office doors line the walls down each hallway.
 ~
 346 24 0 0 0 0
@@ -1092,10 +1080,8 @@ D3
 0 0 34664
 S
 #34666
-God Hall, East Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
-north and south.
+E. Deva Hall~
+34666:The hallway is a simple hallway that is tiled with bamboo and simple white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
 D0
@@ -1103,7 +1089,7 @@ D0
 ~
 0 0 34667
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34675
@@ -1112,20 +1098,18 @@ D2
 ~
 0 0 34665
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34674
 S
 #34667
-God Hall, East Extension~
-   This is the end of a very long sterile hallway that has a simple tiled floor
-of a carnival colored tile and bleak white walls above it where office doors
-line the walls.  Empty offices are to the east and west.
+E. Deva Hall~
+34667:This is the end of a long hallway of a bamboo flooring and white walls above it where office doors line the walls.  Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34677
@@ -1134,16 +1118,14 @@ D2
 ~
 0 0 34666
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34676
 S
 #34668
-God Hall, East Extension~
-   The hallway is a simple hallway that is tiled with carnival colored tiled and
-simple white walls above it.  Office doors line the walls as it continues to the
-north and south.
+E. Deva Hall~
+34668:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
 D0
@@ -1151,7 +1133,7 @@ D0
 ~
 0 0 34665
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34678
@@ -1160,16 +1142,14 @@ D2
 ~
 0 0 34669
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34679
 S
 #34669
-God Hall, East Extension~
-   This is the end of a very long sterile hallway that has a simple tiled floor
-of a carnival colored tile and bleak white walls above it where office doors
-line the walls.  Empty offices are to the east and west.
+E. Deva Hall~
+34669:This is the end of a very long sterile hallway that has a bamboo flooring and bleak white walls above it where office doors line the walls.  Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
 D0
@@ -1177,157 +1157,157 @@ D0
 ~
 0 0 34668
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34680
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34681
 S
 #34670
-Empty Office New EXT E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34670:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34664
 S
 #34671
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34671:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34664
 S
 #34672
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34672:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34663
 S
 #34673
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34673:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34663
 S
 #34674
-Empty office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34674:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34666
 S
 #34675
-Empty Office New Ext Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34675:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34666
 S
 #34676
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34676:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34667
 S
 #34677
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34677:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34667
 S
 #34678
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34678:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34668
 S
 #34679
-Emoty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34679:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34668
 S
 #34680
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34680:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D3
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34669
 S
 #34681
-Empty Office New Ext E~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34681:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D1
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34669
 S
 #34682
-Higher Imm Hall, Extension Sct. C~
-   The hallway begin ends here with doors lining the walls on either side of the
+Higher Deva Hall~
+34682:The hallway begin ends here with doors lining the walls on either side of the
 panel covered walls and maroon covered carpeting.  It continues to the east and
 west.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.  The door is
+A bamboo door is here with huge gold hinges and fixtures.  The door is
 closed.
 ~
 door~
@@ -1337,7 +1317,7 @@ D1
 ~
 0 0 34662
 D2
-   A walnut door is here with huge gold hinges and fixtures.  The door is
+A bamboo door is here with huge gold hinges and fixtures.  The door is
 closed.
 ~
 door~
@@ -1348,14 +1328,14 @@ D3
 0 0 34683
 S
 #34683
-Higher Imm Hall, Extension North Sct. C~
-   This is the midway along the main hallway east-west.  It has plush carpets
+Higher Deva Hall~
+34683:This is the midway along the main hallway east-west.  It has plush carpets
 panel clad walls and office doors lining the wall every so far down the hall
 itself.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34684
@@ -1364,7 +1344,7 @@ D1
 ~
 0 0 34682
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34685
@@ -1374,60 +1354,60 @@ D3
 0 0 34694
 S
 #34684
-Empty Office New Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34684:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34683
 S
 #34685
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34685:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34683
 S
 #34686
-Empty Office New Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34686:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.  The door is
+A bamboo door is here with huge gold hinges and fixtures.  The door is
 closed.
 ~
 door~
 1 0 34682
 S
 #34687
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34687:Shared workspace available for open use.
 ~
 346 60 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.  The door is
+A bamboo door is here with huge gold hinges and fixtures.  The door is
 closed.
 ~
 door~
 1 0 34682
 S
 #34688
-Higher Imm Hall, North Extension Sct. C~
-   The hallway begin ends here with doors lining the walls on either side of the
+Higher Deva Hall~
+34688:The hallway begin ends here with doors lining the walls on either side of the
 panel covered walls and maroon covered carpeting.  It continues to the east and
 west.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34692
@@ -1436,7 +1416,7 @@ D1
 ~
 0 0 34689
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34693
@@ -1446,14 +1426,14 @@ D3
 0 0 34662
 S
 #34689
-Higher Imm Hall, North Extension Sct. C~
-   This is the midway along the main hallway east-west.  It has plush carpets
+Higher Deva Hall~
+34689:This is the midway along the main hallway east-west.  It has plush carpets
 panel clad walls and office doors lining the wall every so far down the hall
 itself.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34690
@@ -1462,7 +1442,7 @@ D1
 ~
 0 0 34697
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34691
@@ -1472,52 +1452,52 @@ D3
 0 0 34688
 S
 #34690
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34690:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34689
 S
 #34691
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34691:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34689
 S
 #34692
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34692:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34688
 S
 #34693
-Empty Office EXT c~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34693:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34688
 S
 #34694
-Higher Imm Hall, North Extension Sct. C~
-   At the actual end of the hall to the west, there is a plain wall marking it
+Higher Deva Hall~
+34694:At the actual end of the hall to the west, there is a plain wall marking it
 here.  The only exit is the hallway to the east.  Office doors line the wooden
 panel covered walls decorated in fine paintings and sculptures.  Maroon shag
 carpets line the floors and bronze lanterns hang from the ceiling here to keep
@@ -1525,7 +1505,7 @@ it lit brightly.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34695
@@ -1534,48 +1514,48 @@ D1
 ~
 0 0 34683
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34696
 S
 #34695
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34695:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34694
 S
 #34696
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34696:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34694
 S
 #34697
-Higher Imm Hall, North Extension Sct. C~
-   At the actual end of the hall to the east, there is a plain wall marking it
+Higher Deva Hall~
+34697:At the actual end of the hall to the east, there is a plain wall marking it
 here.  The only exit the hallway to the west.  Office doors line the wooden
 panel covered walls.  Maroon carpeting and bronze lanterns hang from from the
 ceiling here to light it.
 ~
 346 24 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 ~
 1 0 34698
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34699
@@ -1585,23 +1565,23 @@ D3
 0 0 34689
 S
 #34698
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34698:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D2
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34697
 S
 #34699
-Empty Office Ext C~
-This unfinished room was created by Whiteknight.
+Shared Workspace~
+34699:Shared workspace available for open use.
 ~
 346 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges and fixtures.
+A bamboo door is here with huge gold hinges and fixtures.
 ~
 door~
 1 0 34697
