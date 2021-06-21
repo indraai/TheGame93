@@ -1,21 +1,19 @@
 #34300
-Empty Office HIH EXT~
-You are in an unfinished room.
+Shared Workspace SW34300~
+You are in a shared workspace office.
 ~
 343 28 0 0 0 0
 D1
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34612
 S
 #34301
-Garden Path~
-   The path is a norh-south path which narrows here as it crosses a small foot
-bridge on its way to the main garden to the north and an alcove to the south.
-It is quite pleasant here, as a refreshing breeze whips through the trees and
-the plants that are placed here.  The path itself is gravel and has a brick
-border. An empty Pagoda office is to the east.
+The Garden Path~
+The path is a norh-south path which narrows here as it crosses a small foot bridge on its way to the main garden to the north and an alcove to the south.
+
+It is quite pleasant here, as a refreshing breeze whips through the trees and the plants that are placed here.  The path itself is gravel and has a brick border. An empty Pagoda office is to the east.
 ~
 343 16 0 0 0 1
 D0
@@ -23,8 +21,7 @@ D0
 ~
 0 0 34383
 D1
-   Teak and rice paper doors with brush paintings upon its surface make up the
-door.  Gold Fixtures hold it in place and there are golden handles.
+Bamboo and rice paper doors with brush paintings upon its surface make up the door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
 1 0 34393
@@ -34,9 +31,9 @@ undefined~
 0 0 34381
 S
 #34302
-Garden Path~
-   The path is a norh-south path which narrows here as it crosses a small foot
-bridge on its way to the main garden to the north and an alcove to the south.
+The Garden Path~
+The path is a norh-south path which narrows here as it crosses a small foot bridge on its way to the main garden to the north and an alcove to the south.
+
 It is quite pleasant here, as a refreshing breeze whips through the trees and
 the plants that are placed here.  The path itself is gravel and has a brick
 border.  An empty Pagoda Office is to the east.
@@ -47,8 +44,7 @@ D0
 ~
 0 0 34386
 D1
-   Teak and rice paper doors with brush paintings upon its surface make up the
-door.  Gold Fixtures hold it in place and there are golden handles.
+Bamboo and rice paper doors with brush paintings upon its surface make up the door. Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
 1 0 34304
@@ -58,42 +54,38 @@ D2
 0 0 34382
 S
 #34303
-Empty Office HIH Ext.~
-You are in an unfinished room.
+Shared Workspace SW34303~
+You are in an Shared Workspace Office.
 ~
 343 28 0 0 0 0
 D3
-   A walnut door with gold hinges and fixtures is here.
+A bamboo door with gold hinges and fixtures is here.
 ~
 door~
 1 0 34613
 S
 #34304
-Empty Pagoda Office~
-This unfinished room was created by Whiteknight.
+The Indra Pagoda~
+You are inside the Pagoda where offerings are managed.
 ~
 343 28 0 0 0 0
 D3
-   Teak and rice paper doors with brush paintings upon its surface make up the
-door.  Gold Fixtures hold it in place and there are golden handles.
+Bamboo and rice paper doors with brush paintings upon its surface make up the door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
 1 0 34302
 S
 #34305
 Narrow Gravel Path~
-   The path goes north and south and it is the same gravel type as the others.
-This path leads through a thicker part of the garden, however, to what appears o
-be a Pagoda that is set back a ways from the others and the main part of the
-garden.  Thick growth of planets, trees and bushes surround the building and
-this path, The path itself is lined with bricks marking it easily to find your
-way and lanterns hang from hooks every so many feet to light the way.
+The path goes north and south and it is the same gravel type as the others. This path leads through a thicker part of the garden, however, to what appears to be a Pagoda that is set back a ways from the others and the main part of the garden.
+
+Thick growth of planets, trees and bushes surround the building and this path.
+
+The path itself is lined with bricks marking it easily to find your way and lanterns hang from hooks every so many feet to light the way.
 ~
 343 0 0 0 0 1
 D0
-   The door is made of Teak, rice paper and silver fixtures.  And it slides to
-the side as in traditional design of any pagoda of 14th century.  On the rice
-paper there is the design of a dragon with its wings spread
+The door is made of Bamboo, rice paper and silver fixtures.  And it slides to the side as in traditional design of any pagoda of 14th century.  On the rice paper there is the design of a dragon with its wings spread.
 ~
 door~
 1 0 34397
@@ -104,11 +96,7 @@ D2
 S
 #34306
 The Social Gathering Room~
-   This is the Main Social Gathering Room of the Immortals.  It is circular in
-design, and it connects four foyers in all directions to the north, south, east,
-and west.  The room is quite plush with many fountains, couches, and carpeted
-areas, also with a few planters filled with thick green bushes and trees.  The
-fountain seems to be glowing.
+This is the Main Social Gathering Room of the Devas.  It is circular in design, and it connects four foyers in all directions to the north, south, east, and west.  The room is quite plush with many fountains, cushions, and carpeted areas, also with a few planters filled with thick green herb and trees.  The fountain seems to be glowing.
 ~
 343 28 0 0 0 0
 D0
@@ -134,10 +122,7 @@ D5
 S
 #34307
 Northern Foyer~
-      This is the Northern End of the Gathering Hall. This foyer continues to
-the north into what appears to be a hallway and south into a circular
-central room. Several pillars line the room here. Archways west and east
-lead into the Post Office and the Immortal Inn.
+This is the Northern End of the Gathering Hall. This foyer continues to the north into what appears to be a hallway and south into a circular central room. Several pillars line the room here. Archways west and east lead into the Post Office and the Deva Inn.
 ~
 343 24 0 0 0 0
 D0
@@ -181,7 +166,7 @@ D3
 S
 #34309
 Southern Foyer~
-     This is the Southern End of the Gathering Hall. This foyer continues
+This is the Southern End of the Gathering Hall. This foyer continues
 to the south into what appears to be a hallway and north into a circular
 central room.  Several pillars line the room here. Archways west ane east
 lead into the Builders Hall and the Advertising/Business Center.
@@ -206,16 +191,11 @@ D3
 S
 #34310
 Western Foyer~
-   This is the Western End of the Gathering Hall.  This foyer continues to the
-west into what appears to be a hallway and east into a circular central room.
-Several pillars line the room here.  Archways north and south lead to the Hall
-of Justice/Chapel and the Meeting Room of the Immortals.
+This is the Western End of the Gathering Hall.  This foyer continues to the west into what appears to be a hallway and east into a circular central room. Several pillars line the room here.  Archways north and south lead to the Hall of Justice and the Meeting Room of the Devas.
 ~
 343 24 0 0 0 0
 D0
-   A frosted glass door with huge silver hinges and silver fixtures are here
-marking the Hall of Justice with the Rune of Justice etched in the glass in the
-exact center of it.
+A frosted glass door with huge silver hinges and silver fixtures are here marking the Hall of Justice with the Symbol of Deva etched in the glass in the exact center of it.
 ~
 door~
 1 0 1293
@@ -224,7 +204,7 @@ D1
 ~
 0 0 34306
 D2
-   A frosted glass door with huge silver hinges and silver fixtures are here
+A frosted glass door with huge silver hinges and silver fixtures are here
 marking the main meeting room with the TBA company Logo upon the door.  The door
 is open.
 ~
@@ -236,15 +216,10 @@ D3
 0 0 34313
 S
 #34311
-God Hall, North~
-     The beginning and ending of the God Hall, North is here.
-It seems to go on to the east and west with many doors that
-line the hallways leading into the many offices that are
-located here.
+Deva Hall~
+The beginning and ending of the Deva Hall, North is here. It seems to go on to the east and west with many doors that line the hallways leading into the many workspaces that are located here.
 
-An archway leads south into a foyer and north the hallway
-seems to bend inward to what appears to be a coffee alcove.
-The smell of coffee is very strong in this part of the hall.
+An archway leads south into a foyer and north the hallway seems to bend inward to what appears to be a coffee alcove. The smell of coffee is very strong in this part of the hall.
 ~
 343 24 0 0 0 0
 D0
@@ -265,13 +240,13 @@ D3
 0 0 34315
 S
 #34312
-God Hall, South~
-   The beginning and ending of the God Hall, South is here.  It seems to go on
+Deva Hall, South~
+The beginning and ending of the Deva Hall, South is here.  It seems to go on
 to the east and west with many doors that line the hallways leading into the
 many offices that are located here.  An archway leads into the Foyer to the
 north.
-   Another passageway crosses the hall into what appears to be a very simple
-looking extension to the main God Hall.
+Another passageway crosses the hall into what appears to be a very simple
+looking extension to the main Deva Hall.
 ~
 343 24 0 0 0 0
 D0
@@ -292,13 +267,13 @@ D3
 0 0 34321
 S
 #34313
-God Hall, West~
-   This is a simple hallway that leads to the north and south.  There is a tiled
+Deva Hall, West~
+This is a simple hallway that leads to the north and south.  There is a tiled
 floor and open beamed ceilings here.  On either side doors line the hallway.
 An archway to the east enters a plush foyer.  A staircase leads up to a very
 plush hallway above.
-   Another passageway crosses the hall into what appears to be a very simple
-looking extension to the main God Hall.
+Another passageway crosses the hall into what appears to be a very simple
+looking extension to the main Deva Hall.
 ~
 343 24 0 0 0 0
 D0
@@ -323,8 +298,13 @@ D4
 0 0 34327
 S
 #34314
-God Hall, East~
-34314: This is a simple hallway that leads to the north and south.  There is a tiled
+Deva Hall, East~
+34314:This is a simple hallway that leads to the north and south.  There is a tiled
+floor and open beamed ceilings here.  On either side doors line the hallway.
+An archway to the west enters a plush foyer.  A staircase leads up to a very
+plush hallway above.
+Another passageway crosses the hall into what appears to be a very simple
+looking extension to the main Deva Hall.
 ~
 343 24 0 0 0 0
 D0
@@ -349,15 +329,15 @@ D4
 0 0 34331
 S
 #34315
-God Hall, North~
-     This is a simple hallway that leads to the east and west.
+Deva Hall, North~
+This is a simple hallway that leads to the east and west.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 Jamdog's Office is to the North.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34340
@@ -366,7 +346,7 @@ D1
 ~
 0 0 34311
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 
 ~
 door~
@@ -377,15 +357,15 @@ D3
 0 0 34326
 S
 #34316
-God Hall, North~
-      This is a simple hallway that leads to the east and west.
+Deva Hall, North~
+This is a simple hallway that leads to the east and west.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 Axanon's Office is to the north.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34342
@@ -394,7 +374,7 @@ D1
 ~
 0 0 34317
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34343
@@ -404,19 +384,19 @@ D3
 0 0 34311
 S
 #34317
-God Hall, Northeast~
-     This is a simple hallway, which curves to the west and south.
+Deva Hall, Northeast~
+This is a simple hallway, which curves to the west and south.
 There is a tiled floor and open beamed ceilings here. There are
 offices on the corners. Elaseth's Office is to the east.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34344
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34345
@@ -430,8 +410,8 @@ D3
 0 0 34316
 S
 #34318
-God Hall, West~
-     This is a simple hallway that leads to the north and south.
+Deva Hall, West~
+This is a simple hallway that leads to the north and south.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 ~
@@ -441,7 +421,7 @@ D0
 ~
 0 0 34326
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34337
@@ -450,14 +430,14 @@ D2
 ~
 0 0 34313
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34336
 S
 #34319
-God Hall, West~
-     This is a simple hallway that leads to the north and south.
+Deva Hall, West~
+This is a simple hallway that leads to the north and south.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 Aich's Office is to the west.
@@ -468,7 +448,7 @@ D0
 ~
 0 0 34313
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34335
@@ -477,21 +457,21 @@ D2
 ~
 0 0 34325
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34334
 S
 #34320
-God Hall, South~
-     This is a simple hallway that leads to the east and west.
+Deva Hall, South~
+This is a simple hallway that leads to the east and west.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 Perra's Office is to the south.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34352
@@ -500,7 +480,7 @@ D1
 ~
 0 0 34324
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34353
@@ -510,15 +490,15 @@ D3
 0 0 34312
 S
 #34321
-God Hall, South~
-     This is a simple hallway that leads to the east and west.
+Deva Hall, South~
+This is a simple hallway that leads to the east and west.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 Vatiken's Office is north and Tink's Office is south.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34354
@@ -527,7 +507,7 @@ D1
 ~
 0 0 34312
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34355
@@ -537,8 +517,8 @@ D3
 0 0 34325
 S
 #34322
-God Hall, East~
-      This is a simple hallway that leads to the north and south.
+Deva Hall, East~
+This is a simple hallway that leads to the north and south.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 ~
@@ -548,7 +528,7 @@ D0
 ~
 0 0 34317
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34346
@@ -557,14 +537,14 @@ D2
 ~
 0 0 34314
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34347
 S
 #34323
-God Hall, East~
-     This is a simple hallway that leads to the north and south.
+Deva Hall, East~
+This is a simple hallway that leads to the north and south.
 There is a tiled floor and open beamed ceilings here. On
 either side doors line the hallway.
 Kyle's Office is to the East.
@@ -575,7 +555,7 @@ D0
 ~
 0 0 34314
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34348
@@ -584,14 +564,14 @@ D2
 ~
 0 0 34324
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34349
 S
 #34324
-God Hall, Southeast~
-     This is a simple hallway, which curves to the west and north.
+Deva Hall, Southeast~
+This is a simple hallway, which curves to the west and north.
 There is a tiled floor and open beamed ceilings here. There are
 offices on the corners.
 ~
@@ -601,12 +581,12 @@ D0
 ~
 0 0 34323
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34350
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34351
@@ -616,8 +596,8 @@ D3
 0 0 34320
 S
 #34325
-God Hall, Southwest~
-   This is a simple hallway, which curves to the east and north.  There is a
+Deva Hall, Southwest~
+This is a simple hallway, which curves to the east and north.  There is a
 tiled floor and open beamed ceilings here.  There are offices on the corners.
 West is Detta's Office.
 ~
@@ -631,26 +611,26 @@ D1
 0~
 0 0 34321
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34332
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34333
 S
 #34326
-God Hall, Northwest~
-     This is a simple hallway, which curves to the east and south.
+Deva Hall, Northwest~
+This is a simple hallway, which curves to the east and south.
 There is a tiled floor and open beamed ceilings here. There are
 offices on the corners. Vatiken's Office is to the north.
 Proca's Office is to the west.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34339
@@ -663,23 +643,18 @@ D2
 ~
 0 0 34318
 D3
-a walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34338
 S
 #34327
-Upper Immortal Hall, West~
-   Standing at the end-beginning of the hallway west, this hallway is lined with
-wooden paneling and thick marooon shag carpet.  The hallway is lit by bronze
-lanterns that burn brightly here.  It continues on to the east and office door
-line the walls. There is also a corner office to the west and Whiteknight's
-Office is to the north. There is a staircase that descends into a hallway
-below.
+Upper Deva Hall, West~
+Standing at the end-beginning of the hallway west, this hallway is lined with wooden paneling and thick marooon shag carpet.  The hallway is lit by bronze lanterns that burn brightly here.  It continues on to the east and office door line the walls. There is also a corner office to the west and Quinn's Office is to the north. There is a staircase that descends into a hallway below.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34357
@@ -688,12 +663,12 @@ D1
 ~
 0 0 34328
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34358
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34356
@@ -703,15 +678,15 @@ D5
 0 0 34313
 S
 #34328
-Upper Immortal Hall, West~
-   This is the midway down the hallway west, this hallway is lined with wood
+Upper Deva Hall, West~
+This is the midway down the hallway west, this hallway is lined with wood
 paneling and thick maroon, shag carpeting.  The hallway is lit by bronze
 lanterns that burn brightly here.  It continues on to the east and west.
 Office doors line the walls.  Elona's Office is to the north.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34359
@@ -720,7 +695,7 @@ D1
 ~
 0 0 34329
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34360
@@ -730,14 +705,14 @@ D3
 0 0 34327
 S
 #34329
-Higher Imm Hall, Observation Port~
-   Standing in the center if the Higher Immortal Hall this is an observation
+Higher Deva Hall, Observation Port~
+Standing in the center if the Higher Deva Hall this is an observation
 port that looks out over the Social Gathering Room down below.  It is more
 rounded here with an open glass section and paneling and more lanterns to light
 this section of the hall.  The hall itself continues to the west and east.  A
 circular stairwell leads up to the Indoor Garden Level where the Leader Imp
 Offices are located and a step down to the north leads into what appears to be
-an north extension to the Higher Immortal Hallway.
+an north extension to the Higher Deva Hallway.
 ~
 343 24 0 0 0 0
 D1
@@ -758,15 +733,15 @@ D5
 0 0 34395
 S
 #34330
-Upper Immortal Hall, East~
-   This is the midway down the hallway east, this hallway is lined with wood
+Upper Deva Hall, East~
+This is the midway down the hallway east, this hallway is lined with wood
 paneling and thick maroon, shag carpeting.  The hallway is lit by bronze
 lanterns that burn brightly here.  It continues on to the east and west.
 Office doors line the walls.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34363
@@ -780,8 +755,8 @@ D3
 0 0 34329
 S
 #34331
-Upper Immortal Hall, East~
-   Standing at the end-beginning of the hallway east, this hallway is lined with
+Upper Deva Hall, East~
+Standing at the end-beginning of the hallway east, this hallway is lined with
 wooden paneling and thick marooon shag carpet.  The hallway is lit by bronze
 lanterns that burn brightly here.  It continues on to the west and office doors
 line the walls.  There are also corner offices to the east.  Fizbin's Office is
@@ -790,17 +765,17 @@ down to a hallway below.
 ~
 343 24 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34365
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34367
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34366
@@ -819,7 +794,7 @@ Unfinished.
 ~
 343 28 0 0 0 0
 D0
-   A walnut door is here with huge gold hinges.
+A bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34325
@@ -830,7 +805,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34325
@@ -841,7 +816,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34319
@@ -852,7 +827,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34319
@@ -863,7 +838,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34318
@@ -874,7 +849,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34318
@@ -885,7 +860,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34326
@@ -896,7 +871,7 @@ no desc
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34326
@@ -907,7 +882,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34315
@@ -918,7 +893,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34315
@@ -929,7 +904,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34316
@@ -940,7 +915,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34316
@@ -951,7 +926,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34317
@@ -962,7 +937,7 @@ You are in an unfinished room.
 ~
 343 24 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34317
@@ -973,7 +948,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34322
@@ -984,7 +959,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34322
@@ -995,7 +970,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34323
@@ -1006,7 +981,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34323
@@ -1017,7 +992,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34324
@@ -1028,14 +1003,14 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34324
 S
 #34352
 Empty Office~
-This unfinished room was created by Whiteknight.
+This unfinished room was created by Quinn.
 ~
 343 28 0 0 0 0
 D1
@@ -1043,7 +1018,7 @@ D1
 ~
 0 0 34311
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34320
@@ -1054,7 +1029,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34320
@@ -1065,7 +1040,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34321
@@ -1076,7 +1051,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34321
@@ -1087,22 +1062,18 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D1
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34327
 S
 #34357
-Whiteknight's Office~
-Inside a very Spartan and plushly furnished
-office that belongs to Whiteknight.  There is a desk in the center of the room
-and a bay window behind with shudders overlooking what appears to be a beach and
-ocean thundering up on the sand.  The only exit is south into the Plush Higher
-Immortal Hall
+Quinn's Office~
+Inside a very simple and comfortable office that belongs to Quinn Michaels.  There is a desk in the center of the room and a bay window behind with shudders overlooking what appears to be a beach and ocean thundering up on the sand.  The only exit is south into the Higher Deva Hall.
 ~
 343 540 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34327
@@ -1113,7 +1084,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34327
@@ -1124,7 +1095,7 @@ You are in an unfinished room.
 ~
 343 24 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34328
@@ -1135,7 +1106,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34328
@@ -1151,47 +1122,37 @@ to the south.
 ~
 343 28 0 0 0 0
 D2
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
 1 0 34383
 S
 #34362
-Opie's Office~
-   You are standing on an immense, gray stone floor that stretches as far as you
-can see in all directions.  Rough winds plunging from the dark, starless sky
-tear savagely at your fragile body.  The stone floor is the same shade of gray
-the sky and is completely plain and unscratched.  It is probably too hard for
-anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at
-you from the dark, cloudless sky.  An icy chill fills your blood, as you hear
-an echoing guttural laugh.  "In the darkness there is light...  It's just
-hiding...  Let me show you...  It is the mind that is erotic, the heart that
-gives it life, the soul that makes it whole.", a voice whispers.  You jump
-back with a shriek.  Nothing more but the beating of your heart.
+Quinn's Laboratory~
+You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkness there is light...  It's just hiding...  Let me show you...  It is the mind that is imagination, the heart that gives it life, the soul that makes it whole.", a voice whispers.  You jump back with a shout...  Harry are you playing make belive again?
 ~
 343 28 0 0 0 0
 D2
-   Teak and rice paper doors with brush paintings upon its surface make up the
-door.  Gold Fixtures hold it in place and there are golden handles.
+Bamboo and rice paper doors with brush paintings upon its surface make up the door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
 1 0 34386
 S
 #34363
-Empty Office~
-You are in an unfinished room.
+Shared Workspace~
+You are in a Shared Workspace that is available for use.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34330
 S
 #34364
-Wyld's Office~
-You are in an unfinished room.
+SecurityPrime's Office~
+You are in SecurityPRIME private office.
 ~
 343 28 0 0 0 0
 D3
@@ -1200,30 +1161,30 @@ D3
 0 0 34386
 S
 #34365
-Fizbin's Office~
-You are in an unfinished room.
+MedicPrime's Office~
+You are in MedicPRIME private office.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34331
 S
 #34366
-Shama's Office~
-You are in an unfinished room.
+Vamraka's Office~
+You are in Vamraka's Office.
 ~
 343 28 0 0 0 0
 D0
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34331
 S
 #34367
-Rhade's Office~
-   The office here is plain and simple with a center desk, a cot to the side and
+Indra's Office~
+The office here is plain and simple with a center desk, a cot to the side and
 several filing cabinets scattered throughout.  It has tiled floors, white walls,
 but not without very fine and fancy artwork and tapestries on the walls.  There
 is a single bay window here as well, that lets in the bright sunlight and
@@ -1232,20 +1193,20 @@ hallway.
 ~
 343 28 0 0 0 0
 D3
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34331
 S
 #34368
-Higher Imm Hall, Extension Sct. A~
-   This is the midway along the main hallway east-west.  It has plush carpets
+Higher Deva Hall, Extension Sct. A~
+This is the midway along the main hallway east-west.  It has plush carpets
 panel clad walls and office doors lining the wall every so far down the hall
 itself.
 ~
 343 24 0 0 0 0
 D0
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1255,7 +1216,7 @@ D1
 ~
 0 0 34396
 D2
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1266,14 +1227,14 @@ D3
 0 0 34612
 S
 #34369
-Higher Imm Hall, Extension Sct. A~
-   The hallway begin ends here with doors lining the walls on either side of
+Higher Deva Hall, Extension Sct. A~
+The hallway begin ends here with doors lining the walls on either side of
 thepanel covered walls and maroon covered carpeting.  It continues to the east
 and west.
 ~
 343 24 0 0 0 0
 D0
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1283,7 +1244,7 @@ D1
 ~
 0 0 34370
 D2
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1294,14 +1255,14 @@ D3
 0 0 34395
 S
 #34370
-Higher Imm Hall, Extension Sct. A~
-   This is the midway along the main hallway east-west.  It has plush carpets
+Higher Deva Hall, Extension Sct. A~
+This is the midway along the main hallway east-west.  It has plush carpets
 panel clad walls and office doors lining the wall every so far down the hall
 itself.
 ~
 343 24 0 0 0 0
 D0
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1311,7 +1272,7 @@ D1
 ~
 0 0 34613
 D2
-      A walnut door with gold hinges and fixtures
+ A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1327,7 +1288,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-a walnut door is here with huge gold hinges.
+a bamboo door is here with huge gold hinges.
 ~
 door~
 1 0 34368
@@ -1338,7 +1299,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-      A walnut door with gold hinges and fixtures
+ A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1350,7 +1311,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1362,7 +1323,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1374,7 +1335,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-      A walnut door with gold hinges and fixtures
+ A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1386,7 +1347,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1398,7 +1359,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1410,7 +1371,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D0
-      A walnut door with gold hinges and fixtures
+ A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1418,7 +1379,7 @@ door~
 S
 #34379
 Public Restroom~
-   Inside a very large, very plush bathroom.  It has a claw tub on one side of
+Inside a very large, very plush bathroom.  It has a claw tub on one side of
 it and a toilet that sits just adjacent to it.  There is a large sink on the
 south wall.  And above it are very bright gold fixtures that consist of a huge
 chandlier overhead and lanterns that hang near the sink and tub.  The only exit
@@ -1426,14 +1387,14 @@ is west into the Coffee Alcove.
 ~
 343 28 0 0 0 0
 D3
-   A large walnut door with huge gold hinges and shiny fixtures are here.
+A large bamboo door with huge gold hinges and shiny fixtures are here.
 ~
 door~
 1 0 34398
 S
 #34380
-Higher Immortal Hall, North Extension~
-   This is the main hallway of the extension.  It runs to the north and south
+Higher Deva Hall, North Extension~
+This is the main hallway of the extension.  It runs to the north and south
 but has fingers leading east and west to the actual offices.  It has plush
 carpeting, panel clad walls, bronze lanterns that hang overhead to light it.
 There are a few pieces of artwork here that hang on the wall and what
@@ -1451,7 +1412,7 @@ D2
 S
 #34381
 A Garden Alcove~
-   This is a simple alcove where the path ends at the wild of many bushes, trees
+This is a simple alcove where the path ends at the wild of many bushes, trees
 undergrowth and greenery all around.  There is a cememt trimmed walkway with
 what appears to be hand-carved stoned marking the path and the path itself is
 mostly gravel.  The path returns to the north into the main part of the garden.
@@ -1465,7 +1426,7 @@ D0
 S
 #34382
 A Garden Alcove~
-   This is a simple alcove where the path ends at the wild of many bushes, trees
+This is a simple alcove where the path ends at the wild of many bushes, trees
 undergrowth and greenery all around.  There is a cememt trimmed walkway with
 what appears to be hand-carved stoned marking the path and the path itself is
 mostly gravel.  The path returns to the north into the main part of the garden.
@@ -1479,7 +1440,7 @@ D0
 S
 #34383
 Inside a Garden~
-   A Garden is here with thick trees, cool waterways, plants, shrubs grass,
+A Garden is here with thick trees, cool waterways, plants, shrubs grass,
 flowers and even a lagoon in the center of it.  A path goes east through the
 garden and south into what appears into an alcove.  There seems to be finished
 pagodas here that makes up Rumbles Office to the north, Welcor's Office to the
@@ -1488,7 +1449,7 @@ here.
 ~
 343 16 0 0 0 1
 D0
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1502,7 +1463,7 @@ D2
 ~
 0 0 34301
 D3
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1510,7 +1471,7 @@ door~
 S
 #34384
 In a Garden~
-   A Garden is here with thick trees, cool waterways, plants, shrubs grass,
+A Garden is here with thick trees, cool waterways, plants, shrubs grass,
 flowers and even a lagoon in the center of it.  A path goes east and west
 through the garden.  A bridge connects this garden to the south to a large
 pagoda that ominously stands in the center of the lagoon.  A medium sized pagoda
@@ -1537,14 +1498,14 @@ D3
 S
 #34385
 In a Garden~
-   A Garden is here with thick trees, cool waterways, plants, shrubs grass,
+A Garden is here with thick trees, cool waterways, plants, shrubs grass,
 flowers and even a lagoon in the center of it.  A path goes east and west
 through it.  A large finished Pagoda makes up an office to the north.  The
 garden path is lit by lanterns hanging from hooks brightening the way.
 ~
 343 16 0 0 0 1
 D0
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1560,7 +1521,7 @@ D3
 S
 #34386
 Inside a Garden~
-   A Garden is here with thick trees, cool waterways, plants, shrubs grass,
+A Garden is here with thick trees, cool waterways, plants, shrubs grass,
 flowers and even a lagoon in the center of it.  A path goes east and west
 through it. There seems to be finished pagodas here that make up Opie's
 office to the north, and Wyld's office to the east.  The garden path is lit
@@ -1568,7 +1529,7 @@ by lanterns hanging from hooks brightening then way.
 ~
 343 16 0 0 0 1
 D0
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1588,7 +1549,7 @@ D3
 S
 #34387
 Welcor's Office~
-   The leader's office is a simple and plush Oriental Design with a large dsk
+The leader's office is a simple and plush Oriental Design with a large dsk
 sitting in the corner, many filing cabinets on the south wall.  It is quite
 plush with many tapestries, rugs, and also some arms on display such as a
 samurai sword that sits on a pedistal in another corner.  There are lanterns
@@ -1597,7 +1558,7 @@ sliding door made of teak wood and rice paper.
 ~
 343 28 0 0 0 0
 D1
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1609,7 +1570,7 @@ no desc
 ~
 343 28 0 0 0 0
 D2
-     a walnut door with huge bronze hinges and gold fixtures is here.
+A bamboo door with huge bronze hinges and gold fixtures is here.
 ~
 door~
 1 0 34395
@@ -1620,7 +1581,7 @@ You are in an unfinished room.
 ~
 343 28 0 0 0 0
 D2
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1628,7 +1589,7 @@ door~
 S
 #34390
 On Bridge in Garden~
-   You stand in the center of an ancient teak bridge that is made up of a 14th
+You stand in the center of an ancient teak bridge that is made up of a 14th
 Century Oriental design.  It crosses a large lagoon that sits in the center of
 the garden to the north.  It is lighted by two lanterns on either end as ie the
 garden itself, lighting the way.  A large pagoda sits to the south in the middle
@@ -1641,7 +1602,7 @@ D0
 ~
 0 0 34384
 D2
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1649,7 +1610,7 @@ door~
 S
 #34391
 Builder Board Room~
-   The Builder Academy Zone begins in Roon 3, Goto 3 to begin your training or
+The Builder Academy Zone begins in Roon 3, Goto 3 to begin your training or
 if you need a refresher, TBA Zone should be able to teach anyone, no matter how
 new, the basics of building.  The only exit is east through an archway into the
 Southern Foyer.
@@ -1661,8 +1622,8 @@ D1
 0 0 34309
 S
 #34392
-God Hall, West Extension Jct~
-   The hallway stops here to the west and splits in a 'T' Shape to the north and
+Deva Hall, West Extension Jct~
+The hallway stops here to the west and splits in a 'T' Shape to the north and
 south.  It has carnival colored tiled floors and white sterile walls above that.
 Office doors line the walls down each hallway.
 ~
@@ -1682,11 +1643,11 @@ D2
 S
 #34393
 Empty Pagoda Office~
-This unfinished room was created by Whiteknight.
+This unfinished room was created by Quinn.
 ~
 343 28 0 0 0 0
 D3
-   Teak and rice paper doors with brush paintings upon its surface make up the
+Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
@@ -1694,17 +1655,13 @@ door~
 S
 #34394
 Inside Pagoda Shrine~
-   The pagoda is very large but empty with exception to a large shrine that
-makes up most of the West and South Wall.  It has many lanterns, candles and
-incense burning to honor the great gods, Rumble, Welcor, and Opie which are
-being worshipped here.  A circular staircase leads down into a plush hallway below
-and a sliding door north exits the Pagoda Shrine into a great garden beyond to the
-north.
+The pagoda is very large but empty with exception to a large shrine that makes up most of the West and South Wall.  It has many lanterns, candles and incense burning to honor the great Vamraka, Indu, Indra, Security and all Devas .
+
+A circular staircase leads down into a plush hallway below and a sliding door north exits the Pagoda Shrine into a great garden beyond to the north.
 ~
 343 28 0 0 0 0
 D0
-   Teak and rice paper doors with brush paintings upon its surface make up the
-door.  Gold Fixtures hold it in place and there are golden handles.
+Bamboo and rice paper doors with brush paintings upon its surface make up the door.  Gold Fixtures hold it in place and there are golden handles.
 ~
 door~
 1 0 34390
@@ -1714,13 +1671,13 @@ D5
 0 0 34329
 S
 #34395
-Higher Immortal Hall, North Extension~
-   This is a small alcove that steps down from the main observation port and
-runs parallel with the Higher Immortal Hall.  It is circular like the
+Higher Deva Hall, North Extension~
+This is a small alcove that steps down from the main observation port and
+runs parallel with the Higher Deva Hall.  It is circular like the
 observation portal, with large skylights above to allow the sunlight to spill
 into the paneled, carpeted, very exquisite hallway.  It abruptly turns to the
 west, east and north.  A step up leads into the main hallway of the main Higher
-Immortal Hallway.
+Deva Hallway.
 ~
 343 24 0 0 0 0
 D0
@@ -1741,14 +1698,14 @@ D4
 0 0 34329
 S
 #34396
-Higher Immortal Hall, Extension Sct. A~
-   The hallway begin ends here with doors lining the walls on either side of
+Higher Deva Hall, Extension Sct. A~
+The hallway begin ends here with doors lining the walls on either side of
 thepanel covered walls and maroon covered carpeting.  It continues to the east
 and west.
 ~
 343 24 0 0 0 0
 D0
-     A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1758,7 +1715,7 @@ D1
 ~
 0 0 34395
 D2
-      A walnut door with gold hinges and fixtures
+A bamboo door with gold hinges and fixtures
 is here.
 ~
 door~
@@ -1769,17 +1726,14 @@ D3
 0 0 34368
 S
 #34397
-Exective Meeting Pagoda.~
-   The Meeting room is for the upper immortals.  It is unlike the other regular
-one.  It has paneled walls and thick, red, shag carpet and a huge circular table
-that sits in the center of the room, surrounded by wooden high-backed chairs.
-On the walls there are many pictures of the zones here, but also of fallen
-hero's of the TBA and staff who were lost or retired.  The only exit is south
-into the garden through a sliding panel door of oriental design.
+Exective Meeting Room~
+The Meeting room is for the upper Devas.  It is unlike the other regular one.  It has murals painted on the walls from past adventures, bamboo flooring, and a huge circular table that sits in the center of the room, surrounded by floor cushions.
+
+On the walls there are many pictures of the zones here, but also of offering hero's of the reams.  The only exit is south into the garden through a sliding panel door of oriental design.
 ~
 343 1756 0 0 0 0
 D2
-   The door is made of Teak, rice paper and silver fixtures.  And it slides to
+The door is made of Bamboo, rice paper and silver fixtures.  And it slides to
 the side as in traditional design of any pagoda of 14th century.  On the rice
 paper there is the design of a dragon with its wings spread
 ~
@@ -1787,13 +1741,12 @@ door~
 1 0 34305
 S
 #34398
-Coffee Alcove~
-   A small alcove is here and it seems to appear to be that of a coffee alcove
-that serves drinks and food to the Immortals and open for any visiting mortals.
-It has long counters here, colored green and white walls and cabinets that are
-attached to the walls on all sides around a sink and faucet on one end of the
-counter.  An exit south leads into the main hallway or east into what appears to
-be a public restroom.
+The Offering Alcove~
+A large alcove is here and it seems to appear to be that of a offering alcove that serves drinks and food offerings to the Devas and open for visiting mortals.
+
+It has long counters here, colored green and white walls and cabinets that are attached to the walls on all sides around a sink and faucet on one end of the counter.
+
+An exit south leads into the main hallway or east into what appears to be a public restroom.
 ~
 343 28 0 0 0 0
 D0
@@ -1801,7 +1754,7 @@ D0
 ~
 0 0 -1
 D1
-   A large walnut door with huge gold hinges and shiny fixtures are here.
+A large bamboo door with huge gold hinges and shiny fixtures are here.
 ~
 door~
 1 0 34379
@@ -1812,11 +1765,9 @@ D2
 S
 #34399
 Hall of Justice Podium/Altar~
-     You stand on a very large, white and gold trimmed altar
-made of granite. It has many candles and incense burning
-here, as well as lanterns that light the interior room
-from the ceiling. The only exit is down the stairs to
-the main audiece chamber.
+You stand on a very large, white and gold trimmed altar made of granite. It has many candles and incense burning here, as well as lanterns that light the interior room from the ceiling.
+
+The only exit is down the stairs to the main audiece chamber.
 ~
 343 12 0 0 0 0
 D5

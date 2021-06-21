@@ -1,7 +1,7 @@
 #34300
 Vamraka~
 Vamraka the Unicorn Bunny~
-Vamraka the Unicorn Bunny is here singing (Off-key).
+Vamraka the Unicorn Bunny is here singing.
 ~
 Here he is, huge, purple, blue, green, pink, yellow, orange super bunny unicorn with a goofy grin, big blue nose and big gleaming eyes. He sits here acting all goofy as usual.
 ~
@@ -25,14 +25,9 @@ T 34300
 #34301
 Kenny~
 Kenny the attendant~
-Kenny the attendant is here looking after the coffee bar.
+Kenny the attendant is here looking after the offering bar.
 ~
-   Kenny is a young man, a typical teenager who works at this Coffee Alcove.
-He has blue sagging pants to show off his gaudy Sponge-Bob Boxers, white
-sneakers, a red long sleeved shirt with the logo of the service company on its
-breast, and a red matching hat to his shirt.  He has dirty blond hair, blue
-eyes, big nose, giant ears, freckles among the zits on his face and green teeth
-under the braces he wears in his mouth, EEEW..
+Kenny is a young man, a typical teenager who works at this Offering Alcove. He has blue pants, white sneakers, a red long sleeved shirt with the logo of the service company on its breast, and a red matching hat to his shirt.  He has dirty blonde hair, blue eyes, big nose, giant ears, and freckles.
 ~
 516186 0 0 0 2424 0 0 0 325 E
 25 12 -5 5d5+250 4d4+4
@@ -53,15 +48,13 @@ E
 T 34301
 #34302
 Assistant~
-a bikini clad Executive Assistant~
-an bikini clad Executive Assistant is here holding a tablet.
+a Executive Assistant~
+an Executive Assistant is here holding a tablet.
 ~
-   The Executive Assistant is tall, slender, and has a fantastic body with
-curves in all the right places.  She wear a skimpy orange and white bikini two
-piece over those curves.  She still holds her purple tablet to help Whiteknight
-with business affairs of the office.
+The Executive Assistant is tall and has a fantastic mind with skills in all the right places.  She wear a orange and white business suit two
+piece.  She still holds her purple tablet to help everyone with business affairs.
 ~
-520282 0 0 0 0 0 0 0 0 E
+520282 0 0 0 0 0 0 0 500 E
 31 10 -8 6d6+310 5d5+5
 310 96100
 8 8 2
@@ -78,16 +71,13 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #34303
-Chandra Bishop~
-Bishop Chandra~
-Bishop Chandra, the Holy Father is here.
+chandra holy father~
+Chandra, Holy Father~
+Chandra, the Holy Father is here.
 ~
-     Bishop Chandra is an older man, with white hair, a full beard and a wrinkled
-face. His blue eyes twinkle brightly though as-if he were a young man ready
-to go out and face adventures. He wears a simple white and blue trimmed robe
-that has the designs of the Holy Church emblazoned on it in gold.
+Chandra is an older man, with white hair, a full beard and a wrinkled face. His blue eyes twinkle brightly though as-if he were a young man ready to go out and face adventures. He wears a simple white and blue trimmed robe that has the designs of the Holy Indra emblazoned on it in gold.
 ~
-258120 0 0 0 2168 0 0 0 0 E
+258120 0 0 0 2168 0 0 0 1000 E
 31 10 -8 6d6+310 5d5+5
 310 96100
 8 8 1
@@ -105,17 +95,14 @@ SavingSpell: 7
 E
 T 34399
 #34304
-being amorphous spirit drunk wandering~
-a drunk amorphous spirit~
-a drunk amorphous spirit is here nursing its drink.
+barry water drunk wandering~
+Barry~
+Barry, a water drunk amorphous spirit is here nursing his drink.
 ~
-   This spirit, having lived out its days in the mortal world, now works off its
-final sins by doing menial labor in this realm's purgatory.  In this case,
-those chores seem to be cleaning up after the immortals of the land.  Obviously
-this one does not exactly like his job in this world and looks a little bit pink
-from the booze. It also appears very depressed and down on its luck.
+Barry, having lived out its days in the mortal world, now wanders in this realms.  In this case,
+pinching up Devas for their waters.  Obviously this one little bit yellow from the water he's been drinking. He also appears very happy and full of luck.
 ~
-516170 0 0 0 589840 0 0 0 0 E
+516170 0 0 0 589840 0 0 0 500 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 0
@@ -130,7 +117,7 @@ gardener~
 a gardener~
 a gardener is working here.
 ~
-   The gardener is clad in a two piece kimono with what appears to cast 'beacon'
+The gardener is clad in a two piece kimono with what appears to cast 'beacon'
 a dragon on the back and wears sandals.  Although she is not oriental, she has
 black hair, deep brown eyes and a narrow trim figure.
 ~
@@ -151,13 +138,12 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #34306
-golem~
-a stone golem~
-a stone golem is on guard duty here.
+deva guard dg34306~
+DevaGuard DG34306~
+A DevaGuard is on duty here.
 ~
-   The stone golem looks rather solid, very buff with huge powerful legs, arms
-chest and able to tear the victim in half with its bare hands.  It has an
-expressionless look on its face despite its red glowing eyes.
+The DevaGuard looks rather solid, very buff with huge powerful legs, arms chest and able to tackle the victims with its bare hands.  It has an
+expressionless look on its face despite its blue glowing eyes.
 ~
 520266 0 0 0 2424 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
@@ -177,13 +163,11 @@ SavingSpell: 6
 E
 T 34303
 #34307
-golem~
-an air golem~
-an air golem is here on guard duty.
+may indra~
+May Indra~
+May Indra is here.
 ~
-   The air golem is that if a displacement of air and a cloud-like shape with
-wispy arms and legs and a huge center body.  It has yellow glowing eyes and a
-bluish electrical glow about it.
+May Indra is that if a displacement of air and a cloud-like shape with wispy arms and legs and a huge center body.  It has yellow glowing eyes and a bluish electrical glow about it.
 ~
 520266 0 0 0 133500 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4

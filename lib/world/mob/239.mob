@@ -334,13 +334,11 @@ is about 350 stonga, very large muscles, one eye, and a bald head.
 BareHandAttack: 7
 E
 #23923
-drow guard~
-a drow guard~
-A drow guard patrols the hallways.
+deva security securitydeva sd23923~
+SecurityDEVA SD23923~
+A SecurityDEVA patrols the hallways.
 ~
-   A drow guard keeps intruders from entering the inner chambers of the drow
-sanctum.  The life of a drow guard is usually short and honorable.  They would
-gladly sacrifice their lives to defend the colony.
+A SecurityDEVA keeps intruders from entering the inner chambers.
 ~
 188488 0 0 0 80 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3

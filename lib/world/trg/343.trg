@@ -1,8 +1,8 @@
 #34300
-Barney script~
+Vamraka script~
 0 b 100
 ~
-* By whiteknight
+* By Quinn
 eval number %random.16%
 switch %number%
   case 0
@@ -22,7 +22,7 @@ switch %number%
      laugh
   break
   case 2
-     say Let us be best-tus buddies in all the world!
+     say Let us be best-us buddies in all the world!
      wait 5
      dance
   break
@@ -33,13 +33,6 @@ switch %number%
       say what we did today.
   break
   case 4
-      say If I lived under the sea-sea-sea,
-      say I think it would be neat as it
-      say could be-be-be. I could visit all
-      say the fish, anytime I wish, if I
-      say lived under the sea.
-  break
-  case 5
       say I like to eat...eat..eat...apples and bananas
   break
   case 6
@@ -53,7 +46,7 @@ switch %number%
       wait 2
       kiss %actor.name%
       wait 2
-      say won't you say you love me too?
+      say You are a great friend.
   break
   case 9
       say I Love you. %actor.name%
@@ -111,7 +104,7 @@ say Hiya %actor.name% How can I assist you?
 sneer %actor.name%
 wait 5
 nod %actor.name%
-say type 'List' and I'll show you what is on the Menu at the Coffee Bar...
+say type 'List' and I'll show you what is on the Menu at the Offering Bar...
 snort
 wait 5
 nod %actor.name%
@@ -119,7 +112,7 @@ say also remember to get a drink the glasses are IN the cabinet!
 wait 5
 picknose
 say Bottles of Ale, Firebreather, Whiskey, and Local
-say Specialty to Midguard also available on shelf.
+say Specialty to Amaravati also available on shelf.
 nod %actor.name%
 smile
 drool
@@ -129,7 +122,6 @@ snigger
 Drunk spirit text~
 0 b 100
 ~
-* By whiteknight
 eval number %random.6%
 switch %number%
 case 0
@@ -149,7 +141,7 @@ say You're so cute!
 laugh
 break
 case 2
-say Let us be best-tus buddies in all the world!
+say Let us be best buddies in all the world!
 wait 5
 dance
 break
@@ -188,7 +180,7 @@ say ------------------------------------------------------
 nod %actor.name%
 grimace %actor.name%
 say -----------------------------------------------------
-say Return to the Social Gathering Room to return to Midguaard
+say Return to the Social Gathering Room to return to Amaravati
 say We have our eye on you!
 say =====================================================
 end
@@ -197,7 +189,7 @@ end
 Heal Script~
 0 g 100
 ~
-say Blessings upon you this day, %actor.name%. The hand of God
+say Blessings upon you this day, %actor.name%. The blessings of the Deva
 say be upon you always. Here let me heal and help you.
 dg_cast 'heal' %actor.name%
 wait 5
@@ -205,6 +197,6 @@ dg_cast 'sanctuary' %actor.name%
 wait 5
 dg_cast 'fly' %actor.name%
 wait 5
-say Go with God.
+say Go with Indra.
 ~
 $~
