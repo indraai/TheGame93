@@ -96,7 +96,7 @@ D2
 S
 #34306
 The Social Gathering Room~
-This is the Main Social Gathering Room of the Devas.  It is circular in design, and it connects four foyers in all directions to the north, south, east, and west.  The room is quite plush with many fountains, cushions, and carpeted areas, also with a few planters filled with thick green herb and trees.  The fountain seems to be glowing.
+3406:This is the Main Social Gathering Room of the Devas.  It is circular in design, and it connects four foyers in all directions to the north, south, east, and west.  The room is quite plush with many fountains, cushions, and carpeted areas, also with a few planters filled with thick green herb and trees.  The fountain seems to be glowing.
 ~
 343 28 0 0 0 0
 D0
@@ -122,7 +122,7 @@ D5
 S
 #34307
 Northern Foyer~
-This is the Northern End of the Gathering Hall. This foyer continues to the north into what appears to be a hallway and south into a circular central room. Several pillars line the room here. Archways west and east lead into the Post Office and the Deva Inn.
+34307:This is the Northern End of the Gathering Hall. This foyer continues to the north into what appears to be a hallway and south into a circular central room. Several pillars line the room here. Archways west and east lead into the Post Office and the Deva Inn.
 ~
 343 24 0 0 0 0
 D0
@@ -214,9 +214,7 @@ D3
 S
 #34311
 Deva Hall~
-The beginning and ending of the Deva Hall, North is here. It seems to go on to the east and west with many doors that line the hallways leading into the many workspaces that are located here.
-
-An archway leads south into a foyer and north the hallway seems to bend inward to what appears to be a coffee alcove. The smell of coffee is very strong in this part of the hall.
+34311:The beginning and ending of the Deva Hall, North is here. It seems to go on to the east and west with many doors that line the hallways leading into the many workspaces that are located here.
 ~
 343 24 0 0 0 0
 D0
@@ -1124,6 +1122,7 @@ S
 #34362
 Quinn's Laboratory~
 You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkn
+
 ess there is light...  It's just hiding...  Let me show you...  It is the mind that is imagination, the heart that gives it life, the soul that makes it whole.", a voice whispers.  You jump back with a shout...  Harry are you playing make belive again?
 ~
 343 28 0 0 0 0
