@@ -156,24 +156,24 @@ A
 A
 2 1
 #1226
-boards builder's bulletin gen_boards~
-a builder's bulletin board~
-A builder's bulletin board is here.~
+boards builder message gen_boards~
+a builder's message board~
+A builder's message board is here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1227
-staff bulletin boards gen_boards~
-a staff bulletin board~
+staff message boards gen_boards~
+a staff message board~
 A staff only board is here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1228
-advertising bulletin boards gen_boards~
-an advertising bulletin board~
+advertising message boards gen_boards~
+an advertising message board~
 An advertising board is here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0

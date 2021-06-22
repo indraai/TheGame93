@@ -668,9 +668,9 @@ The Level 1 Tackle Suit Wristguard is extremely flexible and supportive.
 It is designed to loosen and tighten to almost any size.
 ~
 #3096
-boards social bulletin gen_boards~
-a Social Bulletin Board~
-A large, sociable bulletin board is mounted on a wall here.~
+boards social message gen_boards~
+a Social Message Board~
+A large, sociable message board is mounted on a wall here.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -680,13 +680,13 @@ board~
    If you can read this, the board is not working.
 ~
 E
-social bulletin~
+social message~
    Use 'look board' to read the board.
 ~
 #3097
-boards frozen bulletin gen_boards~
-a frozen bulletin board~
-A large bulletin board is here, carved from a block of ice.~
+boards frozen message gen_boards~
+a frozen message board~
+A large message board is here, carved from a block of ice.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -696,7 +696,7 @@ board~
    If you can read this, the board is not working.
 ~
 E
-freeze bulletin~
+freeze message~
    Use 'look board' to read the board.
 ~
 #3098
@@ -712,13 +712,13 @@ board~
    If you can read this, the board is not working.
 ~
 E
-holy bulletin~
+holy message~
    Use 'look board' to read the board.
 ~
 #3099
-boards bulletin gen_boards~
-a bulletin board~
-A bulletin board is here.~
+boards message gen_boards~
+a message board~
+A message board is here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -728,7 +728,7 @@ board~
    If you can read this, the board is not working.
 ~
 E
-bulletin~
+message~
    Use 'look board' to read the board.
 ~
 $~
