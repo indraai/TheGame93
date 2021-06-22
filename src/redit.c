@@ -31,7 +31,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d);
 static void redit_disp_sector_menu(struct descriptor_data *d);
 static void redit_disp_menu(struct descriptor_data *d);
 
-char confirm[] = "\nbutton:y:save\nbutton:n:cancel\r";
+char confirm[] = "\menu:y:save\nmenu:n:cancel\r";
 
 /* Utils and exported functions. */
 ACMD(do_oasis_redit)
@@ -321,8 +321,8 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Extra Description\r"
-	  "\ninput:1:keyword: %s\r"
-	  "\ndescrip:2:description: %s\r"
+	  "\ninput:1:keyword:%s\r"
+	  "\ndescrip:2:description:%s\r"
     "\nmenu:3:extra description\r"
     "\nmenu:q:done\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
