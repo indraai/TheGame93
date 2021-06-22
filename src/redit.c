@@ -31,7 +31,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d);
 static void redit_disp_sector_menu(struct descriptor_data *d);
 static void redit_disp_menu(struct descriptor_data *d);
 
-char confirm[] = "\nbutton:s:save\nbutton:n:cancel\r";
+char confirm[] = "\nbutton:y:save\nbutton:n:cancel\r";
 
 /* Utils and exported functions. */
 ACMD(do_oasis_redit)
