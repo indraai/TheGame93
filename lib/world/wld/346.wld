@@ -260,6 +260,10 @@ W. Deva Hall~
 34611:This is the end of a hallway with bamboo flooring and white walls above it where office doors line the walls. Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
+D0
+~
+~
+0 0 34379
 D1
 A bamboo door with gold hinges and fixtures is here.
 ~
@@ -571,7 +575,7 @@ D1
 A bamboo door with gold hinges and fixtures is here.
 ~
 door~
-1 0 34618
+1 0 34610
 S
 #34635
 Shared Workspace~
@@ -1070,6 +1074,10 @@ D0
 ~
 ~
 0 0 34666
+D1
+~
+Restroom~
+0 0 34379
 D2
 ~
 ~

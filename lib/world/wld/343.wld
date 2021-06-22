@@ -166,10 +166,7 @@ D3
 S
 #34309
 Southern Foyer~
-This is the Southern End of the Gathering Hall. This foyer continues
-to the south into what appears to be a hallway and north into a circular
-central room.  Several pillars line the room here. Archways west ane east
-lead into the Builders Hall and the Advertising/Business Center.
+34309:This is the Southern End of the Gathering Hall. This foyer continues
 ~
 343 24 0 0 0 0
 D0
@@ -1013,10 +1010,6 @@ Empty Office~
 This unfinished room was created by Quinn.
 ~
 343 28 0 0 0 0
-D1
-~
-~
-0 0 34311
 D2
 a bamboo door is here with huge gold hinges.
 ~
@@ -1130,7 +1123,8 @@ door~
 S
 #34362
 Quinn's Laboratory~
-You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkness there is light...  It's just hiding...  Let me show you...  It is the mind that is imagination, the heart that gives it life, the soul that makes it whole.", a voice whispers.  You jump back with a shout...  Harry are you playing make belive again?
+You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkn
+ess there is light...  It's just hiding...  Let me show you...  It is the mind that is imagination, the heart that gives it life, the soul that makes it whole.", a voice whispers.  You jump back with a shout...  Harry are you playing make belive again?
 ~
 343 28 0 0 0 0
 D2
@@ -1640,6 +1634,10 @@ D2
 ~
 ~
 0 0 34600
+D3
+~
+Restroom~
+0 0 34379
 S
 #34393
 Empty Pagoda Office~
