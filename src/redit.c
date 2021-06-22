@@ -400,7 +400,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Room Flags\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    write_to_output(d, "\nmenu:%s:%d\r", room_bits[i], ++count);
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, room_bits[i]);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
