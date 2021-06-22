@@ -29,9 +29,9 @@ The Ice Box is for good boys and girls that play nice. Inside is the best ice cr
 S
 #1203
 The Mortal Board Room~
-Here the Devas have created an exact copy of the mortal board room. Any Deva can easily post and read messages from the mortal board room without being seen by any mortals.  The eastern foyer is to the north.
+1203:Here the Devas have created an exact copy of the mortal board room. Any Deva can easily post and read messages from the mortal board room without being seen by any mortals.  The eastern foyer is to the north.
 ~
-12 8 0 0 0 0
+12 184 0 0 0 0
 D0
 ~
 ~
@@ -48,12 +48,12 @@ The Gods' Meeting Room is located to the south.
 ~
 0 -1 34308
 E
-hymn~
-adv:world:1204/hymn
-~
-E
 original~
    The main hang out of the Gods, the Immortal Board Room is the place to be. Gods exchange messages here most every day. The mortal board room is to the east and the meeting room for the gods is to the south. To the north is the Gods' Inn and to the west is a post office for Gods. In the northeast corner you spot a small staircase leading upwards.
+~
+E
+hymn~
+adv:world:1204/hymn
 ~
 S
 #1205

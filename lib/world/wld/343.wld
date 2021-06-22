@@ -188,7 +188,7 @@ D3
 S
 #34310
 Western Foyer~
-This is the Western End of the Gathering Hall.  This foyer continues to the west into what appears to be a hallway and east into a circular central room. Several pillars line the room here.  Archways north and south lead to the Hall of Justice and the Meeting Room of the Devas.
+34310:This is the Western End of the Gathering Hall.  This foyer continues to the west into what appears to be a hallway and east into a circular central room. Several pillars line the room here.  Archways north and south lead to the Hall of Justice and the Meeting Room of the Devas.
 ~
 343 24 0 0 0 0
 D0
@@ -1123,6 +1123,7 @@ S
 Quinn's Laboratory~
 You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkn
 
+
 ess there is light...  It's just hiding...  Let me show you...  It is the mind that is imagination, the heart that gives it life, the soul that makes it whole.", a voice whispers.  You jump back with a shout...  Harry are you playing make belive again?
 ~
 343 28 0 0 0 0
@@ -1762,9 +1763,7 @@ D2
 S
 #34399
 Hall of Justice Podium/Altar~
-You stand on a very large, white and gold trimmed altar made of granite. It has many candles and incense burning here, as well as lanterns that light the interior room from the ceiling.
-
-The only exit is down the stairs to the main audiece chamber.
+You stand on a very large, white and gold trimmed podium made of granite. It has many candles and incense burning here, as well as lanterns that light the interior room from the ceiling. The only exit is down the stairs to the main audiece chamber.
 ~
 343 12 0 0 0 0
 D5
