@@ -23,9 +23,7 @@ side of it and it also has a 'MAP' on the side of it as well.
 ~
 E
 fountain basin~
-   The fountain is made of black granite and the water in it looks and inviting
-to drink.  In the center is a 'SPADE' shaped centerstone that seems to have
-writing all over it.
+The fountain is made of black granite and the water in it looks and inviting to drink.  In the center is a 'SPADE' shaped centerstone that seems to have writing all over it.
 ~
 #34301
 futon~
@@ -37,8 +35,7 @@ A Futon is sitting here in the corner~
 0 0 0 0 0
 E
 fouton~
-   A fouton couch is here with a blue matress and a light oak frame.  It also
-doubles as a bed when it is flattened to sleep two.
+A fouton couch is here with a blue matress and a light oak frame.  It also doubles as a bed when it is flattened to sleep two.
 ~
 #34302
 Beertap~
@@ -229,7 +226,7 @@ A water dispenser is here giving shots.~
 0 0 0 0 0
 E
 watertap~
-   The tap is made of metal and it has a small platform.  Place a drink against the metal tigger and it will dispense a perfect shot of water.
+The tap is made of metal and it has a small platform.  Place a drink against the metal tigger and it will dispense a perfect shot of water.
 ~
 #34317
 barrier construction~
@@ -270,7 +267,7 @@ a construction sign~
 A construction sign is here nailed to a 2x4~
 This area is currenty under construction. Please enter at OWN RISK
 ------------------- HARD-HAT AREA -----------------
-Indra Solutions
+Indra
 Making for a Better Tomorrow
 ~
 16 a 0 0 0 0 0 0 0 0 0 0 0
@@ -308,7 +305,7 @@ A yellow construction hardhat is here on the desk.~
 E
 hardhat construction~
 The helmet is yellow, made off plastic and it has a logo
-of Indra Solutions on the center front of it.
+of Indra on the center front of it.
 There is a plastic adjustable insert to fit the wearers head.
 ~
 A
@@ -327,7 +324,7 @@ The sign is in the shape of two arrows, on pointing up and the other pointing do
 The arrow up has the message: For all Lead Offices, use upper stairs to
 Garden Level
 
-The arrow down has the message: Higher Immortal Hallway, North Extension(s)
+The arrow down has the message: Higher Deva Hallway, North Extension(s)
 Section(s) A-B (coming soon C)
 ~
 16 0 0 0 0 0 0 0 0 0 0 0 0
@@ -359,7 +356,7 @@ A builders smock is here in a heap.~
 20 200 0 31 0
 E
 smock~
-The smock is blue and white with the logo of Indra Solutions on the back of it.  It has no sleeves but is protectant against impact by items while building.
+The smock is blue and white with the logo of Indra on the back of it.  It has no sleeves but is protectant against impact by items while building.
 ~
 A
 18 5
@@ -417,16 +414,16 @@ A
 A
 19 5
 #34330
-Hightop Sneakers~
-Hightop Sneakers~
-Hightop Sneakers are sitting here as a pair.~
+flip flops~
+flip flop sandals~
+A pair of flip flop sandals is sitting here as a pair.~
 ~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 -5 0 0 0
 5 20 0 31 0
 E
-sneakers~
-The sneakers are white and blue and they are hightops for what appears to be Basketball, but for just general wear they are quite comfortable.
+sandals~
+The sandals are simple but comfortable.
 ~
 A
 18 5
@@ -434,15 +431,15 @@ A
 19 5
 #34331
 labcoat~
-an OFFICIAL Indra Solutions Labcoat~
-An official Indra Solutions Labcoat hangs here from a hook.~
+an OFFICIAL Indra Labcoat~
+An official Indra Labcoat hangs here from a hook.~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 -20 0 0 0
 3 20 0 31 0
 E
 Labcoat~
-The coat is white and trimmed and blue and on the back of it is the Indra Solutions Logo.
+The coat is white and trimmed and blue and on the back of it is the Indra Logo.
 ~
 A
 18 5
@@ -500,8 +497,8 @@ A
 19 5
 #34335
 hammer~
-Indra's Hammer~
-Indra's Hammer is here laying head down.~
+Agni's Hammer~
+Agni's Hammer is here laying head down.~
 ~
 5 0 0 0 0 an 0 0 0 i 0 0 0
 10 6 6 5
@@ -516,7 +513,7 @@ A
 19 5
 #34336
 ring class~
-a Indra Solutions Builder's Ring~
+a Indra's Ring~
 A Indra's Ring is here laying in the dust.~
 ~
 9 0 0 0 0 ab 0 0 0 hno 0 0 0
@@ -701,9 +698,7 @@ The pedistal is made of rounded carved marble and it has unique designs, portray
 ~
 E
 statue indra guardian~
-The statue is a guardian to this shrine, it depicts one of the Indra his power and influence over all who worship here.  He stands clad as a
-Battle Mage, in flowing robes and carries a staff.  His hair is long and flowing as he seems to be raising the staff.  You seem to feel at ease by this
-statue.
+The statue is a guardian to this shrine, it depicts Indra influence over all who worship here.  He stands clad as a Battle Mage, in flowing robes and carries a staff.  His hair is long and flowing.  You seem to feel a sense of water looking at this statue.
 ~
 #34349
 chandra statue~
@@ -719,22 +714,22 @@ The nametag reads Chandra and that is carved at the base of the statue near the 
 ~
 E
 statue chandra guardian~
-The statue is a guardian to this shine, it depicts Chandra and the influence to all who worship here.  He stands clad in carved battle armor, a loose flowing shirt and a sash about his waist.  You feel a strange surge of adventure looking at this statue.
+The statue is a guardian to this shine, it depicts Chandra and the influence to all who worship here. You feel a strange surge of adventure looking at this statue.
 ~
 #34350
-Yama~
-a guardian statue of Yama~
-A guardian statue of Yama is here.~
+agni statue~
+a guardian statue of Agni~
+A guardian statue of Agni is here.~
 ~
 12 ab 0 0 0 0 0 0 0 ior 0 0 0
 0 0 0 0
 0 0 0 31 0
 E
 nametag~
-The nametag reads Yama and that is carved at the base of the statue near the foot of it.
+The nametag reads Agni and that is carved at the base of the statue near the foot of it.
 ~
 E
-statue yama guardian~
-The statue is a guardian to this shine, it depicts Yama and the influence of Justice to all who worship here.  He stands clad in a long flowing set of robes and he carries a warhammer in their hand.  The feeling of peace overwhelms the senses when you look at the statue that seems to be floating and glowing brightly.
+statue agni guardian~
+The statue is a guardian to this shine, it depicts Agni and the influence to all who worship here.  He stands clad in a long flowing set of robes and he carries a warhammer in his hand.  The feeling of fire overwhelms the senses when you look at the statue.
 ~
 $~
