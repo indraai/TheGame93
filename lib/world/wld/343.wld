@@ -236,12 +236,7 @@ D3
 S
 #34312
 Deva Hall, South~
-The beginning and ending of the Deva Hall, South is here.  It seems to go on
-to the east and west with many doors that line the hallways leading into the
-many offices that are located here.  An archway leads into the Foyer to the
-north.
-Another passageway crosses the hall into what appears to be a very simple
-looking extension to the main Deva Hall.
+34312:The beginning and ending of the Deva Hall, South is here.  It seems to go on to the east and west with many doors that line the hallways leading into the many offices that are located here. An archway leads into the Foyer to the north. Another passageway crosses the hall into what appears to be a very simple looking extension to the main Deva Hall.
 ~
 343 24 0 0 0 0
 D0
@@ -263,12 +258,7 @@ D3
 S
 #34313
 Deva Hall, West~
-This is a simple hallway that leads to the north and south.  There is a tiled
-floor and open beamed ceilings here.  On either side doors line the hallway.
-An archway to the east enters a plush foyer.  A staircase leads up to a very
-plush hallway above.
-Another passageway crosses the hall into what appears to be a very simple
-looking extension to the main Deva Hall.
+34313:This is a simple hallway that leads to the north and south.  There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. An archway to the east enters a plush foyer. A staircase leads up to a very plush hallway above. Another passageway crosses the hall into what appears to be a very simple looking extension to the main Deva Hall.
 ~
 343 24 0 0 0 0
 D0
@@ -325,10 +315,7 @@ D4
 S
 #34315
 Deva Hall, North~
-This is a simple hallway that leads to the east and west.
-There is a tiled floor and open beamed ceilings here. On
-either side doors line the hallway.
-Jamdog's Office is to the North.
+34315:This is a simple hallway that leads to the east and west. There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. Jamdog's Office is to the North.
 ~
 343 24 0 0 0 0
 D0
@@ -406,9 +393,7 @@ D3
 S
 #34318
 Deva Hall, West~
-This is a simple hallway that leads to the north and south.
-There is a tiled floor and open beamed ceilings here. On
-either side doors line the hallway.
+34318:This is a simple hallway that leads to the north and south. There is a tiled floor and open beamed ceilings here. On either side doors line the hallway.
 ~
 343 24 0 0 0 0
 D0
@@ -432,10 +417,7 @@ door~
 S
 #34319
 Deva Hall, West~
-This is a simple hallway that leads to the north and south.
-There is a tiled floor and open beamed ceilings here. On
-either side doors line the hallway.
-Aich's Office is to the west.
+34319:This is a simple hallway that leads to the north and south. There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. Aich's Office is to the west.
 ~
 343 24 0 0 0 0
 D0
@@ -459,10 +441,7 @@ door~
 S
 #34320
 Deva Hall, South~
-This is a simple hallway that leads to the east and west.
-There is a tiled floor and open beamed ceilings here. On
-either side doors line the hallway.
-Perra's Office is to the south.
+34320:This is a simple hallway that leads to the east and west. There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. Perra's Office is to the south.
 ~
 343 24 0 0 0 0
 D0
@@ -486,10 +465,7 @@ D3
 S
 #34321
 Deva Hall, South~
-This is a simple hallway that leads to the east and west.
-There is a tiled floor and open beamed ceilings here. On
-either side doors line the hallway.
-Vatiken's Office is north and Tink's Office is south.
+34321:This is a simple hallway that leads to the east and west. This is a simple hallway that leads to the east and west. There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. Vatiken's Office is north and Tink's Office is south.
 ~
 343 24 0 0 0 0
 D0
@@ -539,10 +515,7 @@ door~
 S
 #34323
 Deva Hall, East~
-This is a simple hallway that leads to the north and south.
-There is a tiled floor and open beamed ceilings here. On
-either side doors line the hallway.
-Kyle's Office is to the East.
+34323:This is a simple hallway that leads to the north and south. There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. Kyle's Office is to the East.
 ~
 343 24 0 0 0 0
 D0
@@ -566,9 +539,7 @@ door~
 S
 #34324
 Deva Hall, Southeast~
-This is a simple hallway, which curves to the west and north.
-There is a tiled floor and open beamed ceilings here. There are
-offices on the corners.
+34324:This is a simple hallway, which curves to the west and north. There is a tiled floor and open beamed ceilings here. There are offices on the corners.
 ~
 343 24 0 0 0 0
 D0
@@ -592,9 +563,7 @@ D3
 S
 #34325
 Deva Hall, Southwest~
-This is a simple hallway, which curves to the east and north.  There is a
-tiled floor and open beamed ceilings here.  There are offices on the corners.
-West is Detta's Office.
+34325:This is a simple hallway, which curves to the east and north.  There is a tiled floor and open beamed ceilings here. There are offices on the corners. West is Detta's Office.
 ~
 343 24 0 0 0 0
 D0
@@ -618,10 +587,7 @@ door~
 S
 #34326
 Deva Hall, Northwest~
-This is a simple hallway, which curves to the east and south.
-There is a tiled floor and open beamed ceilings here. There are
-offices on the corners. Vatiken's Office is to the north.
-Proca's Office is to the west.
+34326:This is a simple hallway, which curves to the east and south. There is a tiled floor and open beamed ceilings here. There are offices on the corners. Vatiken's Office is to the north. Proca's Office is to the west.
 ~
 343 24 0 0 0 0
 D0
@@ -645,7 +611,7 @@ door~
 S
 #34327
 Upper Deva Hall, West~
-Standing at the end-beginning of the hallway west, this hallway is lined with wooden paneling and thick marooon shag carpet.  The hallway is lit by bronze lanterns that burn brightly here.  It continues on to the east and office door line the walls. There is also a corner office to the west and Quinn's Office is to the north. There is a staircase that descends into a hallway below.
+34327:Standing at the end-beginning of the hallway west, this hallway is lined with wooden paneling and thick marooon shag carpet.  The hallway is lit by bronze lanterns that burn brightly here.  It continues on to the east and office door line the walls. There is also a corner office to the west and Quinn's Office is to the north. There is a staircase that descends into a hallway below.
 ~
 343 24 0 0 0 0
 D0
@@ -674,10 +640,7 @@ D5
 S
 #34328
 Upper Deva Hall, West~
-This is the midway down the hallway west, this hallway is lined with wood
-paneling and thick maroon, shag carpeting.  The hallway is lit by bronze
-lanterns that burn brightly here.  It continues on to the east and west.
-Office doors line the walls.  Elona's Office is to the north.
+34328:This is the midway down the hallway west, this hallway is lined with wood paneling and thick maroon, shag carpeting. The hallway is lit by bronze lanterns that burn brightly here. It continues on to the east and west. Office doors line the walls. Elona's Office is to the north.
 ~
 343 24 0 0 0 0
 D0
@@ -701,13 +664,7 @@ D3
 S
 #34329
 Higher Deva Hall, Observation Port~
-Standing in the center if the Higher Deva Hall this is an observation
-port that looks out over the Social Gathering Room down below.  It is more
-rounded here with an open glass section and paneling and more lanterns to light
-this section of the hall.  The hall itself continues to the west and east.  A
-circular stairwell leads up to the Indoor Garden Level where the Leader Imp
-Offices are located and a step down to the north leads into what appears to be
-an north extension to the Higher Deva Hallway.
+34329:Standing in the center if the Higher Deva Hall this is an observation port that looks out over the Social Gathering Room down below. It is more rounded here with an open glass section and paneling and more lanterns to light this section of the hall. The hall itself continues to the west and east. A circular stairwell leads up to the Indoor Garden Level where the Leader Imp Offices are located and a step down to the north leads into what appears to be an north extension to the Higher Deva Hallway.
 ~
 343 24 0 0 0 0
 D1
@@ -729,10 +686,7 @@ D5
 S
 #34330
 Upper Deva Hall, East~
-This is the midway down the hallway east, this hallway is lined with wood
-paneling and thick maroon, shag carpeting.  The hallway is lit by bronze
-lanterns that burn brightly here.  It continues on to the east and west.
-Office doors line the walls.
+34330:This is the midway down the hallway east, this hallway is lined with wood paneling and thick maroon, shag carpeting. The hallway is lit by bronze lanterns that burn brightly here. It continues on to the east and west. Office doors line the walls.
 ~
 343 24 0 0 0 0
 D0
@@ -751,12 +705,7 @@ D3
 S
 #34331
 Upper Deva Hall, East~
-Standing at the end-beginning of the hallway east, this hallway is lined with
-wooden paneling and thick marooon shag carpet.  The hallway is lit by bronze
-lanterns that burn brightly here.  It continues on to the west and office doors
-line the walls.  There are also corner offices to the east.  Fizbin's Office is
-north, Rhade's Office is east and Shama's Office is south, A staircase leads
-down to a hallway below.
+34331:Standing at the end-beginning of the hallway east, this hallway is lined with wooden paneling and thick marooon shag carpet. The hallway is lit by bronze lanterns that burn brightly here. It continues on to the west and office doors line the walls. There are also corner offices to the east. Fizbin's Office is north, Rhade's Office is east and Shama's Office is south, A staircase leads down to a hallway below.
 ~
 343 24 0 0 0 0
 D0
@@ -1060,9 +1009,9 @@ door~
 S
 #34357
 Quinn's Office~
-Inside a very simple and comfortable office that belongs to Quinn Michaels.  There is a desk in the center of the room and a bay window behind with shudders overlooking what appears to be a beach and ocean thundering up on the sand.  The only exit is south into the Higher Deva Hall.
+34357:Inside a very simple and comfortable office that belongs to Quinn Michaels.  There is a desk in the center of the room and a bay window behind with shudders overlooking what appears to be a beach and ocean thundering up on the sand.  The only exit is south into the Higher Deva Hall.
 ~
-343 540 0 0 0 0
+343 568 0 0 0 0
 D2
 a bamboo door is here with huge gold hinges.
 ~
@@ -1103,15 +1052,10 @@ door~
 1 0 34328
 S
 #34361
-Rumbles Office~
-Inside Rumble's Office. It is a sealed pagoda, which is setup as an
-office than a shrine.  It has a desk in the center of the room with several
-filing cabinets along the wall on one side.  A fold out ship's bunk is here to
-sleep on setup along the wall.  It is done in a typical 14th Century Oriental
-design in the way of plush fineries.  The only way out is a sliding door leading
-to the south.
+Rahula's Office~
+34361:Inside Rahula's Office. It has a desk in the center of the room with several filing shelves along the wall on one side. A roll-up futon is here to sleep on. The only way out is a sliding door leading to the south.
 ~
-343 28 0 0 0 0
+343 56 0 0 0 0
 D2
 Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
@@ -1122,6 +1066,7 @@ S
 #34362
 Quinn's Laboratory~
 You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkn
+
 
 
 ess there is light...  It's just hiding...  Let me show you...  It is the mind that is imagination, the heart that gives it life, the soul that makes it whole.", a voice whispers.  You jump back with a shout...  Harry are you playing make belive again?
@@ -1542,15 +1487,10 @@ D3
 0 0 34385
 S
 #34387
-Welcor's Office~
-The leader's office is a simple and plush Oriental Design with a large dsk
-sitting in the corner, many filing cabinets on the south wall.  It is quite
-plush with many tapestries, rugs, and also some arms on display such as a
-samurai sword that sits on a pedistal in another corner.  There are lanterns
-that hang above brightening the whole room and the only exit is east through a
-sliding door made of teak wood and rice paper.
+Indra's Office~
+34387:The leader's office is a simple and plush Oriental Design with a large desk sitting in the corner, many filing cabinets on the south wall. It is quite plush with many tapestries, rugs, and also some arms on display such as a large singing bowl that sits on a pedestal in another corner. There are lanterns that hang above brightening the whole room and the only exit is east through a sliding door made of teak wood and rice paper.
 ~
-343 28 0 0 0 0
+343 56 0 0 0 0
 D1
 Bamboo and rice paper doors with brush paintings upon its surface make up the
 door.  Gold Fixtures hold it in place and there are golden handles.
@@ -1617,9 +1557,7 @@ D1
 S
 #34392
 Deva Hall, West Extension Jct~
-The hallway stops here to the west and splits in a 'T' Shape to the north and
-south.  It has carnival colored tiled floors and white sterile walls above that.
-Office doors line the walls down each hallway.
+34392:The hallway stops here to the west and splits in a 'T' Shape to the north and south. It has carnival colored tiled floors and white sterile walls above that. Office doors line the walls down each hallway.
 ~
 343 24 0 0 0 0
 D0
