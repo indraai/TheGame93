@@ -452,10 +452,10 @@ NOTE: Buildwalk does not autosave on exit. You must type SAVEALL. This way if
 
 See also: TOGGLE, SAVEALL, REDIT, OLC, RLIST, DIG
 #31
-BULLETINS BOARDS BULLETIN-BOARDS MESSAGE-BOARDS POSTING
+MESSAGES BOARDS MESSAGE-BOARDS POSTING
 
-Bulletin boards are the forum of inter-player communication on the MUD.
-There are different bulletin boards for different purposes -- for example,
+Message boards are the forum of inter-player communication on the MUD.
+There are different message boards for different purposes -- for example,
 a standard mortal board, a board for immortals, a board for fun "social"
 messages, etc.  Naturally, not all players may be allowed to read all
 types of boards.
@@ -481,36 +481,6 @@ MUD's code. Ask your friendly implementor if you need to make one.
 1290 - Social Board
 
 See also: MAIL, READ, WRITE, SPECIALS
-#31
-BULLETINS BOARDS BULLETIN-BOARDS MESSAGE-BOARDS
-
-Bulletin boards are the forum of inter-player communication on the MUD.
-There are different bulletin boards for different purposes -- for example,
-a standard mortal board, a board for immortals, a board for fun "social"
-messages, etc.  Naturally, not all players may be allowed to read all
-types of boards.
-
-Type "LOOK BOARD" to see the messages already posted on a board.  Type
-"WRITE <subject>" to post a message to a board; terminate a message with
-a '/s' as the first characters on a line.  Type "READ <number>" to read a
-post.  Type "REMOVE <number>" to remove your own messages.
-
-Examples:
-  > look at board
-  > write Crash Bug I found!
-  [writes the message; terminates with '/s']
-  > look at board
-  > read 6
-  > remove 6
-
-Boards are just a normal object with a special procedure attached in the
-MUD's code. Ask your friendly implementor if you need to make one.
-
-@uRoom - Board@n
-1204 - Immortal Board
-1290 - Social Board
-
-See also: MAIL, READ, WRITE
 #0
 BURNING-HANDS
 
@@ -3926,7 +3896,7 @@ LOAD has been modified on TBA. Immortals can not load mobs outside of their zone
 
 Example:
   > load obj 3099
-  You create a bulletin board.
+  You create a message board.
   > load mob 3005
   You create the receptionist.
 
@@ -6773,7 +6743,7 @@ Usage: read <object>
 
 When you want to read something.
 
-READ is also used to read messages on bulletin boards; type HELP BOARDS
+READ is also used to read messages on message boards; type HELP BOARDS
 for more information.
 
 Example:
@@ -11985,7 +11955,7 @@ Usage: write <object>
    In order to write a note, you need a piece of blank paper (or similar), and
 a pen of some sort.  You can then type something like "write on the paper with
 the pen", whereupon you'll be asked to type in your note at the keyboard.
-   WRITE is also used to post messages to bulletin boards.  Type HELP BOARDS
+   WRITE is also used to post messages to message boards.  Type HELP BOARDS
 for more information.
 
 See also: BOARDS, MAIL

@@ -1579,7 +1579,7 @@ Spectator's Area~
    You find yourself at the far left end of the spectator's area of
 the curling club. An enormous window looks south onto the curling
 rink. Many wooden chairs are here, lined up facing the window. Behind you,
-a large bulletin board has been attached to the wall. It's covered with
+a large message board has been attached to the wall. It's covered with
 posters and advertisements. At the top of the wall is a railing. A set of
 doors leads north onto the ice.
 ~
@@ -1593,7 +1593,7 @@ D1
 ~
 0 -1 24278
 E
-advertisements bulletin board posters~
+advertisements message board posters~
    The posters look like this:
          *********************************************
          *              CURLING RESULTS              *
@@ -1642,7 +1642,7 @@ Spectator's Area~
    You find yourself at the far left end of the spectator's area of
 the curling club. An enormous window looks south onto the curling
 rink. Many wooden chairs are here, lined up facing the window. Behind you,
-a large bulletin board has been attached to the wall. It's covered with
+a large message board has been attached to the wall. It's covered with
 posters and advertisements. At the top of the wall is a railing. A set of
 doors leads north onto the ice.
 ~
@@ -1656,7 +1656,7 @@ D3
 ~
 0 -1 24278
 E
-advertisements bulletin board posters~
+advertisements message board posters~
    The posters look like this:
          *********************************************
          *          THE HARDCORE BONSPIEL            *

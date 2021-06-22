@@ -921,9 +921,9 @@ An assortment of nuts and berries have been left here.~
 4 0 0 0
 2 10 0 0 0
 #25796
-board social bulletin~
-a social bulletin board~
-A large, sociable bulletin board is mounted on a wall here.~
+board social message~
+a social message board~
+A large, sociable message board is mounted on a wall here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -937,15 +937,15 @@ box~
    If you can read this, the drop box is not working.
 ~
 #25797
-board frozen bulletin~
-a frozen bulletin board~
-A large bulletin board is here, carved from a block of ice.~
+board frozen message~
+a frozen message board~
+A large message board is here, carved from a block of ice.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-freeze bulletin~
+freeze message~
    Use 'look board' to read the board.
 ~
 E
@@ -953,15 +953,15 @@ board~
    If you can read this, the board is not working.
 ~
 #25798
-board holy bulletin~
-a holy bulletin board~
-A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+board deva message~
+a deva message board~
+A large message board is mounted on a wall here.  It glows with a faint aura.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-holy bulletin~
+deva message~
    Use 'look board' to read the board.
 ~
 E
@@ -969,15 +969,15 @@ board~
    If you can read this, the board is not working.
 ~
 #25799
-board bulletin~
-a bulletin board~
-A large bulletin board is mounted on a wall here.~
+message board~
+a message board~
+A large message board is mounted on a wall here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-bulletin~
+message~
    Use 'look board' to read the board.
 ~
 E

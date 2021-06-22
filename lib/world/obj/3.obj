@@ -619,15 +619,15 @@ A pair of level 1 tackle sleeves is lying on the ground.~
 2 0 0 0
 4 75 0 0 0
 #396
-board social bulletin~
-a social bulletin board~
-A large, sociable bulletin board is mounted on a wall here.~
+board social message~
+a social message board~
+A large, sociable message board is mounted on a wall here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-social bulletin~
+social message~
    Use 'look board' to read the board.
 ~
 E
@@ -635,15 +635,15 @@ board~
    If you can read this, the board is not working.
 ~
 #397
-board frozen bulletin~
-a frozen bulletin board~
-A large bulletin board is here, carved from a block of ice.~
+board frozen message~
+a frozen message board~
+A large message board is here, carved from a block of ice.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-freeze bulletin~
+freeze message~
    Use 'look board' to read the board.
 ~
 E
@@ -651,15 +651,15 @@ board~
    If you can read this, the board is not working.
 ~
 #398
-board holy bulletin~
-a holy bulletin board~
-A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+board deva message~
+a holy message board~
+A large message board is mounted on a wall here.  It glows with a faint aura.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-holy bulletin~
+holy message~
    Use 'look board' to read the board.
 ~
 E
@@ -667,15 +667,15 @@ board~
    If you can read this, the board is not working.
 ~
 #399
-board bulletin~
-a bulletin board~
-A large bulletin board is mounted on a wall here.~
+board message~
+a message board~
+A large message board is mounted on a wall here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-bulletin~
+message~
    Use 'look board' to read the board.
 ~
 E
