@@ -95,10 +95,10 @@ D2
 0 0 34384
 S
 #34306
-The Social Gathering Room~
+Social Room~
 3406:This is the Main Social Gathering Room of the Devas.  It is circular in design, and it connects four foyers in all directions to the north, south, east, and west.  The room is quite plush with many fountains, cushions, and carpeted areas, also with a few planters filled with thick green herb and trees.  The fountain seems to be glowing.
 ~
-343 28 0 0 0 0
+343 24 0 0 0 0
 D0
 ~
 ~
@@ -115,10 +115,6 @@ D3
 ~
 ~
 0 0 34310
-D5
-~
-~
-0 0 3000
 S
 #34307
 Northern Foyer~
@@ -143,7 +139,7 @@ D3
 0 0 1201
 S
 #34308
-Eastern Foyer~
+Deva Hall~
 adv:world:34308/main
 ~
 343 24 0 0 0 0
@@ -283,13 +279,8 @@ D4
 0 0 34327
 S
 #34314
-Deva Hall, East~
-34314:This is a simple hallway that leads to the north and south.  There is a tiled
-floor and open beamed ceilings here.  On either side doors line the hallway.
-An archway to the west enters a plush foyer.  A staircase leads up to a very
-plush hallway above.
-Another passageway crosses the hall into what appears to be a very simple
-looking extension to the main Deva Hall.
+Deva Hall~
+34314:This is a simple hallway that leads to the north and south.  There is a tiled floor and open beamed ceilings here. On either side doors line the hallway. An archway to the west enters a plush foyer. A staircase leads up to a very plush hallway above. Another passageway crosses the hall into what appears to be a very simple looking extension to the main Deva Hall.
 ~
 343 24 0 0 0 0
 D0
@@ -1066,6 +1057,7 @@ S
 #34362
 Quinn's Laboratory~
 You are standing on an immense, gray stone floor that stretches as far as you can see in all directions.  Rough winds plunging from the dark, starless sky tear savagely at your fragile body.  The stone floor is the same shade of gray the sky and is completely plain and unscratched.  It is probably too hard for anything to leave as much as a scratch on it.  Cold winds plunge ceaselessly at you from the dark, cloudless sky.  An icy chill fills your blood, as you hear an echoing guttural laugh.  "In the darkn
+
 
 
 

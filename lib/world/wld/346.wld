@@ -1011,9 +1011,8 @@ D3
 0 0 34682
 S
 #34663
-E. Deva Hall~
-34663:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
-west and east.
+Deva Hall~
+34663:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the west and east.
 ~
 346 24 0 0 0 0
 D0
@@ -1036,9 +1035,8 @@ D3
 0 0 34314
 S
 #34664
-E. Deva Hall~
-34664:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the
-west and east
+Deva Hall~
+34664:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the west and east
 ~
 346 24 0 0 0 0
 D0
@@ -1061,10 +1059,8 @@ D3
 0 0 34663
 S
 #34665
-E. Deva Hall~
-34665:The hallway stops here to the west and splits to the north and
-south.  It has bamboo flooring and white walls above that.
-Office doors line the walls down each hallway.
+Deva Hall~
+34665:The hallway stops here to the west and splits to the north and south. It has bamboo flooring and white walls above that. Office doors line the walls down each hallway.
 ~
 346 24 0 0 0 0
 D0
@@ -1085,7 +1081,7 @@ D3
 0 0 34664
 S
 #34666
-E. Deva Hall~
+Deva Hall~
 34666:The hallway is a simple hallway that is tiled with bamboo and simple white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
@@ -1109,7 +1105,7 @@ door~
 1 0 34674
 S
 #34667
-E. Deva Hall~
+Deva Hall~
 34667:This is the end of a long hallway of a bamboo flooring and white walls above it where office doors line the walls.  Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
@@ -1133,7 +1129,7 @@ door~
 1 0 34676
 S
 #34668
-E. Deva Hall~
+Deva Hall~
 34668:The hallway is laid with bamboo flooring with white walls above it.  Office doors line the walls as it continues to the north and south.
 ~
 346 24 0 0 0 0
@@ -1157,7 +1153,7 @@ door~
 1 0 34679
 S
 #34669
-E. Deva Hall~
+Deva Hall~
 34669:This is the end of a very long sterile hallway that has a bamboo flooring and bleak white walls above it where office doors line the walls.  Shared Workspaces are to the east and west.
 ~
 346 24 0 0 0 0
