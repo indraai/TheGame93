@@ -433,7 +433,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Mob %d\r"
-  "\nselect:1:gender:%s\r"
+  "\nselect[1:gender]:%s\r"
   "\ninput[2:keywords]:%s\r"
   "\ninput[3:s-desc]: %s\r"
   "\ninput[4:l-desc]:%s\r"
@@ -494,9 +494,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "### Hit Points  (xdy+z):\r"
-    "\nselect[3:Hit]:%d\r"
-    "\nselect[4:Mana]:%d\r"
-    "\nselect[5:Move]:%d\r",
+    "\ninput[3:Hit]:%d\r"
+    "\ninput[4:Mana]:%d\r"
+    "\ninput[5:Move]:%d\r",
     GET_HIT(mob),
     GET_MANA(mob),
     GET_MOVE(mob)
@@ -557,7 +557,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\n==\n\nmenu:Q:Done\r");
+  write_to_output(d, "\n==\n\nmenu:q:Done\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
@@ -604,7 +604,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     default:
       write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "\nSave changes?:\nconfirm:Y:Yes\nconfirm:N:No\r");
+      write_to_output(d, "\nSave changes:\nmenu:y:Yes\nmenu:n:No\r");
       return;
     }
 
@@ -614,7 +614,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Anything been changed? */
-	      write_to_output(d, "\nSave changes?:\nconfirm:Y:Yes\nconfirm:N:No\r");
+	      write_to_output(d, "\nSave changes:\nmenu:y:Yes\nmenu:n:No\r");
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);
