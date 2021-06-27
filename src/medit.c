@@ -308,12 +308,12 @@ static void medit_disp_positions(struct descriptor_data *d)
   int i, count = 0;
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### Position");
+  write_to_output(d, "\n### Position\r");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", position_types[i], ++count);
+    write_to_output(d, "\nmenu:%s:%d", position_types[i], ++count);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "\n==\n\nmenu[done]:Q\r\n");
+  write_to_output(d, "\n==\n\nmenu:q:done]\r");
 }
 
 /* Display the gender of the mobile. */
@@ -327,7 +327,7 @@ static void medit_disp_sex(struct descriptor_data *d)
     write_to_output(d, "\nmenu:%d:%s\r", ++count, genders[i]);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\n==\n\nmenu:Q:done\r");
+  write_to_output(d, "\n==\n\nmenu:q:done\r");
 }
 
 /* Display attack types menu. */
@@ -339,9 +339,9 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n### Attack Types\r");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\nmenu[%s]:%d", attack_hit_text[i].singular, i);
+    write_to_output(d, "\nmenu:%d:%s", i, attack_hit_text[i].singular);
   }
-  write_to_output(d, "\n==\n\nmenu:Q:done\r");
+  write_to_output(d, "\n==\n\nmenu:q:done\r");
 }
 
 /* Find mob flags that shouldn't be set by builders */
@@ -391,12 +391,12 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "\nmenu[%s]:%d", action_bits[i], ++count);
+    write_to_output(d, "\nmenu:%d:%s", ++count, action_bits[i]);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\n==\n\nmenu:Q:done\r");
+  write_to_output(d, "\n==\n\nmenu:q:done\r");
 }
 
 /* Display affection flags menu. */
@@ -418,7 +418,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\n==\n\nmenu:Q:done\r");
+  write_to_output(d, "\n==\n\nmenu:q:done\r");
 }
 
 /* Display main menu. */
@@ -434,10 +434,10 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Mob %d\r"
   "\nselect:1:gender:%s\r"
-  "\ninput:2:keywords:%s\r"
-  "\ninput:3:s-desc: %s\r"
-  "\ninput:4:l-desc:%s\r"
-  "\ndescrip:5:d-desc:%s\r",
+  "\ninput[2:keywords]:%s\r"
+  "\ninput[3:s-desc]: %s\r"
+  "\ninput[4:l-desc]:%s\r"
+  "\ndescrip[5:d-desc]:%s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
 	  GET_ALIAS(mob),
@@ -450,18 +450,18 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\nselect:6:position:%s\r"
-	  "\nselect:7:default:%s\r"
-	  "\nselect:8:attack:%s\r"
-	  "\nselect:A:npc flags:%s\r"
-	  "\nselect:B:aff flags:%s\r"
-    "\nselect:S:script:%s\r"
+	  "\nselect[6:position]:%s\r"
+	  "\nselect[7:default]:%s\r"
+	  "\nselect[8:attack]:%s\r"
+	  "\nselect[A:npc flags]:%s\r"
+	  "\nselect[B:aff flags]:%s\r"
+    "\nselect[S:script]:%s\r"
     "\n==\n"
     "\nmenu:9:stats menu\r"
-    "\nmenu:W:copy mobile\r"
-	  "\nmenu:X:delete mobile\r"
+    "\nmenu:w:copy mobile\r"
+	  "\nmenu:x:delete mobile\r"
     "\n==\n"
-	  "\nmenu:Q:quit\r",
+	  "\nmenu:q:quit\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -486,7 +486,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   /* Top section - standard stats */
   write_to_output(d,
     "\n## Stats: Mob %d\r"
-    "\ninput:1:level:%d\r"
+    "\ninput[1:level]:%d\r"
     "\n'2) auto stats': Auto set stats based on level.\r",
     OLC_NUM(d),
     GET_LEVEL(mob)
@@ -494,9 +494,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "### Hit Points  (xdy+z):\r"
-    "\nselect:3:Hit:%d\r"
-    "\nselect:4:Mana:%d\r"
-    "\nselect:5:Move:%d\r",
+    "\nselect[3:Hit]:%d\r"
+    "\nselect[4:Mana]:%d\r"
+    "\nselect[5:Move]:%d\r",
     GET_HIT(mob),
     GET_MANA(mob),
     GET_MOVE(mob)
@@ -504,9 +504,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n### Bare Hand Damage (xdy+z):\r"
-    "\nselect:6:Dice:%d\r"
-    "\nselect:7:Size:%d\r"
-    "\nselect:8:Roll:%d\r",
+    "\nselect[6:Dice]:%d\r"
+    "\nselect[7:Size]:%d\r"
+    "\nselect[8:Roll]:%d\r",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
@@ -514,11 +514,11 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n### General\r"
-    "\nselect:A:Armor Class:%d\r\n"
-    "\nselect:B:Exp Points:%d\r\n"
-    "\nselect:C:Gold:%d\r\n"
-    "\nselect:D:Hitroll:%d\r\n"
-    "\nselect:E:Alignment:%d\r\n",
+    "\nselect[A:Armor Class]:%d\r\n"
+    "\nselect[B:Exp Points]:%d\r\n"
+    "\nselect[C:Gold]:%d\r\n"
+    "\nselect[D:Hitroll]:%d\r\n"
+    "\nselect[E:Alignment]:%d\r\n",
     GET_AC(mob),
     GET_EXP(mob),
     GET_GOLD(mob),
@@ -531,17 +531,17 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
     "\n### Advanced\r"
-    "\nselect:F:Str:%d|%d\r"
-    "\nselect:G:Int:%d\r"
-    "\nselect:L:Parlysis:%d\r"
-    "\nselect:H:Wis:%d\r"
-    "\nselect:M:Rod/Staves:%d\r"
-    "\nselect:I:Dex:%d"
-    "\nselect:N:Petification:%d\r"
-    "\nselect:J:Con:%d\r"
-    "\nselect:O:Breth':%d\r"
-    "\nselect:K:Cha:%d"
-    "\nselect:P:Spells:%d\r",
+    "\nselect[F:Str]:%d|%d\r"
+    "\nselect[G:Int]:%d\r"
+    "\nselect[L:Parlysis]:%d\r"
+    "\nselect[H:Wis]:%d\r"
+    "\nselect[M:Rod/Staves]:%d\r"
+    "\nselect[I:Dex]:%d"
+    "\nselect[N:Petification]:%d\r"
+    "\nselect[J:Con]:%d\r"
+    "\nselect[O:Breth]:%d\r"
+    "\nselect[K:Cha]:%d"
+    "\nselect[P:Spells]:%d\r",
         GET_STR(mob), GET_ADD(mob),
         GET_INT(mob),
         GET_SAVE(mob, SAVING_PARA),
