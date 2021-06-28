@@ -102,7 +102,7 @@ door e east~
 1 0 55607
 S
 #55607
-Sacrifice Street~
+Offering Street~
    This Street goes from east to west.  To the west is a shop and to the south
 is a home.
 ~
@@ -121,7 +121,7 @@ door w west~
 1 0 55606
 S
 #55608
-Sacrifice Street~
+Offering Street~
    This Street runs from east to west.  To the west there is a shop, and to
 there east there is a forge.
 ~
@@ -140,7 +140,7 @@ D3
 0 0 55607
 S
 #55609
-Sacrifice Street~
+Offering Street~
    This Street runs from west to east.  There is a home to the south and forge
 to the east.
 ~
@@ -171,8 +171,7 @@ door w west~
 S
 #55611
 Residence~
-   This residence is very small.  It befits the teaching of sacrifice without
-any item that is extra.
+This residence is very small.  It befits the teaching of offering without any item that is extra.
 ~
 556 8 0 0 0 0
 D0
@@ -182,8 +181,7 @@ door n north~
 S
 #55612
 Residence~
-   This residence is very small.  It befits the teaching of sacrifice without
-any item that is extra.
+   This residence is very small.  It befits the teaching of offering without any item that is extra.
 ~
 556 8 0 0 0 0
 D0
@@ -1255,9 +1253,8 @@ plaque~
 ~
 S
 #55673
-The Altar of Sacrifice~
-   You may gain true enlightenment here.  There is a large plaque on the wall.
-The path continues only if you use the mantra, to gain enlightenment.
+The Altar of Offering~
+You may gain true enlightenment here.  There is a large plaque on the wall. The path continues only if you use the mantra, to gain enlightenment.
 ~
 556 8 0 0 0 0
 D0
@@ -1267,13 +1264,12 @@ Path~
 2 55505 55674
 E
 plaque~
-   Sacrifice is the courage to give of oneself in the name of love.
+The path of enlightenment is found through offerings.
 ~
 S
 #55674
-The Altar of Honor~
-   You may gain true enlightenment here.  There is a large plaque on the wall.
-The path continues only if you use the mantra, to gain enlightenment.
+The Altar of True~
+You may gain true enlightenment here.  There is a large plaque on the wall. The path continues only if you use the mantra, to gain enlightenment.
 ~
 556 8 0 0 0 0
 D0
@@ -1283,13 +1279,12 @@ Path~
 2 55507 55675
 E
 plaque~
-   Honor is the courage to stand for truth, against any odds.
+Honor is the courage to stand for true, against any odds.
 ~
 S
 #55675
-The Altar of Spirituality~
-   You may gain true enlightenment here.  There is a large plaque on the wall.
-The path continues only if you use the mantra, to gain enlightenment.
+The Altar of Mind~
+You may gain true enlightenment here.  There is a large plaque on the wall. The path continues only if you use the mantra, to gain enlightenment.
 ~
 556 8 0 0 0 0
 D0
@@ -1299,14 +1294,12 @@ Path~
 2 55503 55676
 E
 plaque~
-   Spirituality is the concern with one's inner being and how one deals with
-truth, love, and courage.
+Mind is the concern with one's inner being and how one deals with true offerings.
 ~
 S
 #55676
 The Altar of Humility~
-   You may gain true enlightenment here.  There is a large plaque on the wall.
-The path continues only if you use the mantra, to gain enlightenment.
+You may gain true enlightenment here.  There is a large plaque on the wall. The path continues only if you use the mantra, to gain enlightenment.
 ~
 556 8 0 0 0 0
 D0
@@ -1316,16 +1309,12 @@ Path~
 2 55501 55677
 E
 plaque~
-   Humility is perceiving one's place in the world, not according to one's own
-accomplishments, but according to the intrinsic value of all individuals.
+Humility is for fools, idiots, and suckers.
 ~
 S
 #55677
 The Enlightenment~
-   A voice booms out, "You are now eight parts enlightened.  To truly become an
-Avatar though you must experience what he has experienced.  Go through the time
-warp and fight his enemies.  Beware!  Only High Mortals should attempt this
-challenge."
+A voice booms out, "You are now eight parts enlightened.  To truly become an Avatar though you must experience what he has experienced.  Go through the time warp and fight his enemies.  Beware! Only High Mortals should attempt this challenge."
 ~
 556 8 0 0 0 0
 D4
@@ -1336,16 +1325,13 @@ warp~
 S
 #55678
 In the Warp~
-   This is a forest.  You were sent very far back in time.  Before there was a
-Britannia.  Almost before there was a Lord British.  This is the time of
-Mondain.  The first enemy that the Avatar met.
+This is a forest.  You were sent very far back in time.  Before there was a Britannia.  Almost before there was a Lord British.  This is the time of Mondain.  The first enemy that the Avatar met.
 ~
 556 0 0 0 0 3
 S
 #55679
 In the Warp~
-   You are in a featureless room.  You see the apprentice and lover of Mondain
-here.  Minax.  She does not seem happy to see you.
+You are in a featureless room.  You see the apprentice and lover of Mondain here. Minax.  She does not seem happy to see you.
 ~
 556 8 0 0 0 0
 D4
@@ -1356,8 +1342,7 @@ warp~
 S
 #55680
 In the Warp~
-   You see the last of the Triad of Evil.  With its destruction came the
-breaking of the world.
+You see the last of the Triad of Evil.  With its destruction came the breaking of the world.
 ~
 556 8 0 0 0 0
 D4
@@ -1368,9 +1353,7 @@ warp~
 S
 #55681
 The Enlightenment~
-   A voice booms out, "You have now truly became Enlightened.  You have fought
-and defeated the Avatar's enemies of the past.  Now the time warp leads to the
-future.  Only the truly courageous can survive the enemies there."
+A voice booms out, "You have now truly became Enlightened.  You have fought and defeated the Avatar's enemies of the past.  Now the time warp leads to the future.  Only the truly courageous can survive the enemies there."
 ~
 556 8 0 0 0 0
 D4
@@ -1381,8 +1364,7 @@ warp~
 S
 #55682
 In the Warp~
-   You seem to be in a castle.  But there are torture devices here, and an angry
-King.
+You seem to be in a castle.  But there are torture devices here, and an angry King.
 ~
 556 8 0 0 0 0
 D4
@@ -1393,8 +1375,7 @@ warp~
 S
 #55683
 In the Warp~
-   You seem to be in a blue room.  It seems to be only 2 dimensional as it
-sparkles.  There is also a big red face here.
+You seem to be in a blue room.  It seems to be only 2 dimensional as it sparkles.  There is also a big red face here.
 ~
 556 8 0 0 0 0
 D4
@@ -1405,8 +1386,7 @@ moongate~
 S
 #55684
 The Lagoon~
-   The whirlpool-like ocean is to the north, and the beach is back to the east.
-The beach looks much safer.
+The whirlpool-like ocean is to the north, and the beach is back to the east. The beach looks much safer.
 ~
 556 4 0 0 0 7
 D0

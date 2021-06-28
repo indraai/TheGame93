@@ -1002,14 +1002,13 @@ D4
 0 -1 30048
 S
 #30053
-The Altar Of Annihilation~
-   You stand before the horrific Altar of Annihilation where the magic
-and power of extinguishment and dissolution are full explored.  You
-feel the countless ceremonies of extinction performed here, like a
-gloom that pervades the altar, which looks like a huge rib cage
-centered with a demon's skull.  Before the altar is a black iron
-grating covering a dark pit where the ebb of life is glorified in
-sacrifice.
+The Altar Of Life~
+You stand before the beautiful Altar of Life where the magic
+and power of imagination and life are explored.  You
+feel the countless ceremonies of creativity performed here, like a
+light that pervades the altar, which looks like a huge table
+centered with a fruit bowl.  Before the altar is a black iron
+grating covering a dark pit where the creativity supplies are kept.
 ~
 300 8 0 0 0 0
 D1
@@ -1023,10 +1022,10 @@ grating grate~
 2 30005 30054
 S
 #30054
-The Darken Pit~
-   The very evil of this place seeks to extinguish your light as if
-the gloom had a nefarious soul of its own.  You know true fear as
-something moves in the darkness... toward you.
+The Supply Pit~
+The very inspiration of this place lifts your light as if the gloom had
+disappeared.  You know true creativity as something moves in the darkness...
+toward you. It's a box of creative tools, so don't be afraid.
 ~
 300 9 0 0 0 0
 D4
@@ -1037,7 +1036,7 @@ grating grate~
 S
 #30055
 A Stone Tunnel~
-   The dragon's throat continues east and west on a path which neither
+The dragon's throat continues east and west on a path which neither
 rises nor falls.  On the south wall, to the dragon's left, a warmth
 can be felt, followed by a feeling of pure evil.
 ~
