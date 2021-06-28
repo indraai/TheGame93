@@ -136,7 +136,7 @@ A little red crayon lies here.~
 1 1 0 0
 E
 little red crayon~
-   This shiny wax crayon looks just like any other, a bright blood-red it has
+   This shiny wax crayon looks just like any other, a bright red it has
 been used slightly, the paper peeled half away and the glistening tip partially
 blunted.
 ~
@@ -167,11 +167,10 @@ A children's bible lies open here.~
 0 0 0 0
 1 1 0 0
 E
-children's bible book~
+children's picture book~
    This little book has been designed for a child to read, colored pictures
 decorating the cover and liberally placed here and there amongst the pages of
-large simply-worded stories.  It is opened to a chapter on obedience, several
-paragraphs highlighted with bright yellow marker pen.
+large simply-worded stories.
 ~
 #11811
 slightly dented billiard ball~
@@ -183,7 +182,7 @@ A slightly dented billiard ball has been left lying on the floor.~
 1 1 0 0
 E
 slightly dented billiard ball~
-   This polished red ball is smooth to the touch and extremely heavy.  It looks
+This polished red ball is smooth to the touch and extremely heavy.  It looks
 as though it was once perfectly round, but some substantial force has dented it,
 leaving it useless for its original purpose as part of a pool-table game.
 ~
@@ -798,26 +797,23 @@ A sharp knife lies glinting cruelly on the ground.~
 2 200 0 0
 E
 sharp knife~
-   This long, frightful looking blade is razor-sharp and already rust-colored
-with a taste of blood.  The silvery, shiny metal is otherwise perfectly
+   This long, frightful looking blade is razor-sharp and already rust-colored.  The silvery, shiny metal is otherwise perfectly
 polished; beautiful as well as lethal.
 ~
 A
 19 2
 #11854
-bloody dress~
-a bloody dress~
-A bloody dress lies dumped in a heap.~
+blue dress~
+a blue dress~
+A blue dress lies dumped in a heap.~
 ~
 11 0 0 0 0 ad 0 0 0 0 0 0 0
 0 0 0 0
 1 100 0 0
 E
-bloody dress~
+blue dress~
    A faded blue color, the vague pattern of flowers can be seen on the parts of
-the fabric that are not worn away.  Much of it has been utterly spoiled however,
-angry splashes of red blood soaking the material, making it rust-colored and
-gruesomely sticky.
+the fabric that are not worn away.
 ~
 A
 4 2
@@ -943,7 +939,7 @@ The severed tongue of a serpent has been left to rot.~
 1 1000 0 0
 E
 serpent's tongue~
-   Deep blood-red, this long tongue coils around in a spiral, its forked end
+   Deep red, this long tongue coils around in a spiral, its forked end
 slightly lifted and bent as if it were cut in the very process of speaking.  An
 aura of charisma and deceit surrounds it, the inheritance of its serpent owner.
 
@@ -964,7 +960,7 @@ E
 wine glass red wine~
    This long stemmed glass has a delicate oval body, sparkling when any light
 hits it and illuminating the ruby wine within.  Swirling gently and ominously,
-it seems almost as if the blood red liquid moves of its own accord.
+it seems almost as if the red liquid moves of its own accord.
 ~
 #11865
 dark cluster burning trees raging fire pines~
@@ -1053,8 +1049,8 @@ green mound earth little~
 Its length and width only big enough to accomodate the size of a child.
 ~
 #11871
-fiery bloodstone amulet~
-a fiery bloodstone amulet~
+fiery moonstone amulet~
+a fiery moonstone amulet~
 A fiery amulet lies flickering on the ground.~
 ~
 11 g 0 0 0 ac 0 0 0 0 0 0 0
@@ -1063,8 +1059,8 @@ A fiery amulet lies flickering on the ground.~
 T 11819
 T 11894
 E
-fiery bloodstone amulet~
-   A smooth round bloodstone shimmers strangely as it is examined, ripples of
+fiery moonstone amulet~
+   A smooth round moonstone shimmers strangely as it is examined, ripples of
 dark red and fiery light dancing across its surface, reflecting in the gold
 clasp that spirals around it.  Beautiful and mysterious, the magic imbued in
 this gem is that of enhancing the wearer's concentration, allowing them to

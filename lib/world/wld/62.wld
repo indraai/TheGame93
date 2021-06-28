@@ -515,7 +515,7 @@ D3
 0 -1 6227
 E
 rock boulder~
-   There is dried blood on it.
+A large rock is here.
 ~
 S
 #6222
@@ -1176,9 +1176,8 @@ S
 #6253
 A Cave~
    Many sleeping pallets are arranged near the walls, each
-made of heavy fur padding for comfort and warmth.  Many
-are covered with blood and other, unidentifiable
-substances.  Looking around, your only coherent thought
+made of heavy fur padding for comfort and warmth.
+Looking around, your only coherent thought
 is, 'Don't want to know... don't want to know...'
 ~
 62 8 0 0 0 4
@@ -1304,7 +1303,7 @@ The Laboratory~
 with a full set of restraints.  A ledge nearby has a whole
 array of sterile medical equipment on it, covered over by
 a clear lid.  There's a drain in the floor with gradients
-leading to it to carry away the blood.  For some reason,
+leading to it.  For some reason,
 you don't imagine this as a voluntary operating theater...
 ~
 62 8 0 0 0 0
@@ -1418,8 +1417,7 @@ S
 The Laboratory~
    This is the southwest corner of the lab.  There's no
 equipment here, merely several pairs of heavy steel
-shackles on the southern wall.  There's also some a few
-small bloodstains on the floor beneath the shackles.
+shackles on the southern wall.
 ~
 62 8 0 0 0 0
 D0

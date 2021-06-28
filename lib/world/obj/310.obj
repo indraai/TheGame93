@@ -178,16 +178,16 @@ sword long longsword crimson emblazoned~
    It is a finely balanced weapon..  Standard eq for Graye guards.
 ~
 #31014
-claw bloodied~
-a bloodied claw~
-A severed claw lies on the ground here, making a puddle.~
+claw~
+a claw~
+A claw lies on the ground here, making a puddle.~
 ~
 4 abj 0 0 0 aho 0 0 0 0 0 0 0
 15 5 5 33
 5 1000 0 0
 E
-claw bloodied~
-   It seems to have been severed off a demons corpse.
+claw ~
+It seems to have been carved from some type of exotic wood.
 ~
 A
 18 2
@@ -208,16 +208,16 @@ A
 A
 24 2
 #31016
-whip bloodied~
-a bloodied whip~
-A whip, encrusted with dried blood, is coiled up here.~
+whip~
+a whip~
+A whip is coiled up here.~
 ~
 5 abj 0 0 0 an 0 0 0 0 0 0 0
 0 4 5 2
 15 1000 0 0
 E
-whip bloodied~
-   It looks well used.
+whip~
+It looks well used.
 ~
 #31017
 candle black~

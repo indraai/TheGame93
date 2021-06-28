@@ -331,13 +331,13 @@ D3
 0 0 55517
 E
 book books shelves~
-   This shelf has books dealing with the 'D's'.  'Dracula, Blood Sucker or
-Beavis fan?'  Seems to be the most interesting book here.
+This shelf has books dealing with the 'D's'.  'Dracula, Dewity, Donuts?'
+Seems to be the most interesting book here.
 ~
 S
 #55519
 Library~
-   The Library continues here, with exits to the east and west.  There should be
+The Library continues here, with exits to the east and west.  There should be
 some interesting books here somewhere.
 ~
 555 8 0 0 0 0
@@ -351,8 +351,7 @@ D3
 0 0 55518
 E
 book books shelves~
-   The 'E' section is here.  One book, "Howard Stern" doesn't seem to belong
-here.
+   The 'E' section is here.
 ~
 S
 #55520

@@ -101,8 +101,7 @@ gates~
 E
 gates~
    These black iron gates are covered with grotesque faces and creatures in
-various poses and acts of violence and lust.  The gates seem to make your blood
-run cold...
+various poses and acts of violence and lust.
 ~
 S
 #28605
@@ -136,8 +135,7 @@ It's too smoky to see.
 E
 gates~
    These black iron gates are covered with grotesque faces and creatures in
-various poses and acts of violence and lust.  The gates seem to make your blood
-run cold...
+various poses and acts of violence and lust.
 ~
 S
 #28606
@@ -437,7 +435,7 @@ vandalized and torn apart.  What used to be the shrine has been reduced to a
 large pile of stones and other debris.  Various runes and demonic faces have
 been spray-painted on the walls and floor.  Nailed to the ceiling are an
 assortment of skeletons.  All seem to have been dead for a very long time.  All
-surfaces of the room are covered with dried blood and dust.
+surfaces of the room are covered with dust.
 ~
 286 9 0 0 0 0
 D1
@@ -466,10 +464,9 @@ It is too dark to see.
 0 -1 28629
 S
 #28620
-Fountain of Blood~
+Fountain~
    This room is made of a rough black stone.  The walls seem to ooze black
-sludge.  In the middle of the room stands a stone fountain of a demon spitting
-blood.
+sludge.  In the middle of the room stands a stone fountain.
 ~
 286 9 0 0 0 0
 D2
@@ -484,9 +481,8 @@ It is too dark to see.
 0 -1 28619
 S
 #28621
-Bloody Stairway~
-   You are standing on a very slippery stairway.  The walls and stairs are
-covered with blood and gore.  Pieces of goo and ooze drip from the ceiling
+Stairway~
+   You are standing on a very slippery stairway.  Pieces of goo and ooze drip from the ceiling
 overhead.  You almost slip a couple times on the stairway.  The stench here is
 overwhelming.
 ~
@@ -639,10 +635,8 @@ It is too dark to see.
 0 -1 28626
 S
 #28628
-Blood Room~
-   You enter the room and are immediately assaulted by the smell of rotting
-flesh and blood.  The walls are covered with the crimson fluid as it runs down
-from the ceiling.
+Room~
+A general room
 ~
 286 9 0 0 0 0
 D1
@@ -700,7 +694,7 @@ It is too dark to see.
 S
 #28631
 Bottom of Stairway~
-   You are standing at the bottom of a bloody stairway.  Or at least you thought
+   You are standing at the bottom of a stairway.  Or at least you thought
 it was a stairway.  It seems to be just a painting on the wall.  This is a
 roughly carved room with evil runes carved in to the stone floor.  There is a
 hallway to the east.
@@ -1738,8 +1732,7 @@ S
 #28684
 Meat Locker~
    You stand in a large meat locker.  Chunks of meat hang on the wall and
-larger corpses hang from steel hooks.  Frozen blood and other unrecognizable
-pieces are littered on the floor.  The meat locker continues to the north and
+larger corpses hang from steel hooks.  The meat locker continues to the north and
 east.  There is a freezer door to the west.
 ~
 286 9 0 0 0 0

@@ -167,12 +167,11 @@ eyes stare at you intently as it sees only you delicious and juicy brain.
 8 8 0
 E
 #28614
-bloody severed arm~
-bloody severed arm~
-A bloody severed arm lies here.
+fake costume arm~
+fake costume arm~
+A fake costume arm is here.
 ~
-   The blood arm of some poor luckless individual.  The stench of the gore
-covered limb makes you want to retch.
+The costume arm of some poor luckless individual.
 ~
 78 0 0 0 0 0 0 0 -884 E
 23 13 -3 4d4+230 3d3+3
@@ -180,11 +179,11 @@ covered limb makes you want to retch.
 8 8 0
 E
 #28615
-bloody severed foot~
-bloody severed foot~
-A bloody severed foot lies here.
+fake costume foot~
+fake costume foot~
+A fake costume foot is here.
 ~
-   This bloody foot definitely wasn't a lucky one.
+This fake costume foot definitely is a great gag.
 ~
 78 0 0 0 0 0 0 0 -800 E
 24 12 -4 4d4+240 4d4+4
@@ -192,12 +191,11 @@ A bloody severed foot lies here.
 8 8 0
 E
 #28616
-bloody severed nose~
-bloody severed nose~
-A bloody severed nose lies here.
+fake costume nose~
+fake costume nose~
+A fake costume nose is here.
 ~
-   I wonder how the person that lost this smells...  Hopefully not as bad as
-this nose does...
+I wonder how the person that lost this feels...  Hopefully not as bad as this nose does.
 ~
 78 0 0 0 0 0 0 0 -800 E
 24 12 -4 4d4+240 4d4+4
@@ -205,12 +203,11 @@ this nose does...
 8 8 0
 E
 #28617
-blood~
-the blood from the fountain~
-The blood in the fountain gurgles merrily.
+water~
+the water from the fountain~
+The water in the fountain gurgles merrily.
 ~
-   You see gallons and gallons of thick red blood gurgling in the fountain.
-
+You see gallons and gallons of water gurgling in the fountain.
 ~
 78 0 0 0 0 0 0 0 -950 E
 25 12 -5 5d5+250 4d4+4
@@ -222,7 +219,7 @@ Lost soul~
 the lost soul~
 A lost soul stands here looking lost.
 ~
-   This soul is definitely clueless to where it is.  He holds a ticket that
+This soul is definitely clueless to where it is.  He holds a ticket that
 reads #14349023402342039840293481234900049.
 ~
 76 0 0 0 0 0 0 0 -500 E
@@ -387,9 +384,9 @@ fire devil~
 fire devil~
 A fire devil stands here with a box of matches lighting up poor souls.
 ~
-   It is an indescribably grotesque creature.  Its pale green-yellow skin erupts
-with blisters and puss.  As you look at it, it smiles at you with sharp blood
-covered teeth.  This is definitely a face only a mother could love.
+It is an indescribably grotesque creature.  Its pale green-yellow skin erupts
+with blisters and puss.  As you look at it, it smiles at you with.
+This is definitely a face only a mother could love.
 ~
 2140 0 0 0 0 0 0 0 -1000 E
 22 13 -3 4d4+220 3d3+3
@@ -554,7 +551,7 @@ office worker hell~
 office worker from hell~
 An office worker from hell is here looking for a boss to piss off.
 ~
-   Just looking at them makes your blood boil.
+Just looking at them makes your skin crawl.
 AAAAAAAAAAaaaaaaaaaaaarrrrrrrrgggggghhhhh!!!!!!!!!!!
 ~
 204 0 0 0 0 0 0 0 -1000 E
@@ -602,11 +599,11 @@ his emaciated face beneath his hood.
 8 8 1
 E
 #28646
-bowl blood~
-a bowl of blood~
-A bowl of blood sits here on the altar.
+bowl wooden~
+a wooden bowl~
+A wooden bowl sits here on the altar.
 ~
-   Its is a wooden bowl filled with blood and bits of flesh.
+Its is a wooden bowl.
 ~
 16394 0 0 0 0 0 0 0 -900 E
 20 14 -2 4d4+200 3d3+3

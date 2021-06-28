@@ -490,8 +490,7 @@ mat door~
 1 0 7532
 E
 mat floor broken pottery ~
-   Looking closer to the floor and the broken pieces of pottery you notice what
-appears to be dried blood caked all over. The straw mat looks to be covering something.
+   Looking closer to the floor and the broken pieces of pottery. The straw mat looks to be covering something.
 ~
 S
 #7521
@@ -750,12 +749,9 @@ Jungle Passage.
 ~
 0 0 7529
 E
-stone altar dagger statue rectangle blood~
+stone altar dagger statue rectangle~
    Studying the area around the stones you notice lying at each corner of the
-stone block are large iron rings with leather straps.  The stone block and the
-mouth of the statue is covered with dry blood.  The daggers twisted blade also
-is bloody, except it is not dry blood, the blood is fresh and slowly drips from
-the blade.
+stone block are large iron rings with leather straps.
 ~
 S
 #7531
@@ -937,8 +933,7 @@ torch light wall~
 S
 #7539
 The Taboo Way~
-   This chamber is fairly large.  The hard earth is dark with spilled blood and
-evil invocation.  The walls are made of smooth black marble which shimmer as
+   This chamber is fairly large.  The walls are made of smooth black marble which shimmer as
 the light hits it from a torch.  Painted on the floor is a huge pentagram
 inside a circle.  Black and crimson candles burn at each point of the
 pentagram.  Inside the center of the pentagram is a pewter bowl.  A whisp of
@@ -2100,9 +2095,8 @@ A path.
 ~
 0 0 7586
 E
-jars counter~
-   The jars contain eyeballs, animal organs, herbs, and what resembles blood.
-
+jars counter herbs~
+The jars contain herbs.
 ~
 S
 #7591

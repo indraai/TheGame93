@@ -1,5 +1,5 @@
 #24200
-Asura Road~
+Deva Road~
    You are walking next to the western city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -60,7 +60,7 @@ credits info~
 E
 maps~
    DevaWorld
-      To Asura Road         To Central Square
+      To Deva Road         To Central Square
            |                      |             DevaWorld
   <=== [Bridge] =============[Central========== River =============>
            |                  Bridge]
@@ -81,7 +81,7 @@ maps~
           Road)                  |       Police    Curling  Road)
            |        Cafe         |       Station    Club     |
            |          |          |          |         |      |
-           +----------+-----(Asura Road)-----+---------DevaWorld CURLING CLUB
+           +----------+-----(Deva Road)-----+---------DevaWorld CURLING CLUB
           Sheet 1----Sheet 2----Sheet 3
            3182       3185       3188
             |           |         |
@@ -244,7 +244,7 @@ D3
 0 -1 24203
 S
 #24205
-Asura Road~
+Deva Road~
    You are walking next to the eastern city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -265,7 +265,7 @@ D3
 0 -1 24204
 S
 #24206
-Asura Road~
+Deva Road~
    You are walking next to the western city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -373,19 +373,7 @@ sign signs~
         |DevaWorld THEATER PRESENTS:          |
         |                                             |
         |       T H E   S T R E E T   V E N D O R     |
-        |              F R O M   H E L L              |
-        |                                             |
-        |                   /|   |\                   |
-        |                 __\ \ / /__                 |
-        |                /           \                |
-        |               /     \  /    \               |
-        |               |   (.)\/(.)   |              |
-        |               |      ^^      |              |
-        |               |     ____     |              |
-        |                \   /    \   /               |
-        |                 \__________/                |
-        |                     \/\/                    |
-        |                      \/                     |
+        |            F R O M   H E A V E N            |
         |                                             |
         | Admission: Free                             |
         |                                             |
@@ -423,7 +411,7 @@ D3
 0 -1 24209
 S
 #24211
-Asura Road~
+Deva Road~
    You are walking next to the eastern city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 You can see a large stone entrance leading into the wall here, leading
@@ -447,7 +435,7 @@ S
 Southwest Gate~
    You are walking next to the western city wall, at the southwest gate.
 The gate is currently up, allowing people to freely pass. A dusty path
-leads south to the forest of Miden'Nir (Goblinic for 'Green Blood').
+leads south to the forest of Miden'Nir.
 You can still see the city to the east, but if you go south, there is
 fresh air and greenery.
 ~
@@ -462,7 +450,7 @@ D1
 0 -1 24213
 S
 #24213
-Asura Road~
+Deva Road~
    You are walking next to the southern city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -483,7 +471,7 @@ D3
 0 -1 24212
 S
 #24214
-Asura Road~
+Deva Road~
    You are walking next to the southern city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -504,7 +492,7 @@ D3
 0 -1 24213
 S
 #24215
-Asura Road~
+Deva Road~
    You are walking next to the southern city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -525,7 +513,7 @@ D3
 0 -1 24214
 S
 #24216
-Asura Road~
+Deva Road~
    You are walking next to the southern city wall. It is built from large
 gray rocks that have been fastened to each other with some kind of mortar.
 It is far too high to climb. People are walking past you, hurrying to
@@ -770,7 +758,7 @@ S
 DevaWorld Cafe~
    The DevaWorld Cafe is a nice little place, where people can come to eat
 lunch or have snacks. The entire southern wall is covered in windows,
-looking out onto Asura Road. Many round tables are scattered throughout
+looking out onto Deva Road. Many round tables are scattered throughout
 the room, with people seated around many of them. Plants and small potted
 shrubs are also scattered around.
 ~

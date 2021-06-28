@@ -123,11 +123,11 @@ it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.
 E
 T 6101
 #6115
-shargugh brownie~
+shargugh deva~
 Shargugh~
-Shargugh the Forest Brownie is here, grinning broadly at you.
+Shargugh the Forest Deva is here, grinning broadly at you.
 ~
-   This little fellow is only three foot tall with wild matted brown hair and
+This little fellow is only three foot tall with wild matted brown hair and
 long tangled brown beard.  He wears ragged brown and green clothing and looks as
 if he is having great fun.
 ~
@@ -138,12 +138,11 @@ if he is having great fun.
 E
 T 6101
 #6116
-elder druid~
-the Elder druid~
-The Elder druid is here.  He looks very upset about your presence in his home.
+elder monk~
+the Elder Monk~
+The Elder Monk is here.  He looks very disturbed by your presence in his temple.
 ~
-   The druid looks quite old.  You would think of him as venerable but yet you
-know he would be a tough foe.
+The monk looks quite old.  You would think of him as venerable.
 ~
 778 0 0 0 80 0 0 0 0 E
 19 14 -1 3d3+190 3d3+3
@@ -152,15 +151,12 @@ know he would be a tough foe.
 E
 T 6101
 #6117
-isha elf~
-Isha the Dark Elf~
-Isha the Dark Elf is here, observing you silently.
+isha deva~
+Isha the Deva~
+Isha the Deva is here, observing you silently.
 ~
-   She is no less than beautiful, skin as dark as the night and hair shining
-like silver in the moonlight.  Her slender body is adorned with a sleeveless
-shirt and a short skirt made from black scales joined with silver threads.  Her
-back is covered by a large, hooded cloak as black as her skin and in her broad
-silver belt hangs a long, slender sword in a silver scabbard.
+She is no less than beautiful, skin as dark as the night and hair shining
+like silver in the moonlight.
 ~
 6154 0 0 0 524304 0 0 0 -1000 E
 20 14 -2 4d4+200 3d3+3

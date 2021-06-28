@@ -248,7 +248,7 @@ S
 #28410
 The realm of the hopeless.~
    The incessant wailing of souls in torment causes visible shivers up and down
-your spine.  The walls, floor and ceiling are a viscous, blood-red mass that
+your spine.  The walls, floor and ceiling are a viscous, red mass that
 eludes description.  A rift in the ceiling above you causes a slight breeze to
 ruffle your hair.  A magic portal stands south, leading into the unknown.
 ~
@@ -273,7 +273,7 @@ S
 An undulating room.~
    This room undulates with an aura of incredible evil.  The shifting floor
 causes you to stagger uncontrollably, while the ceiling rhythmically pumps
-upwards and downwards.  You can feel the lifeblood draining from your body.
+upwards and downwards.  You can feel the life draining from your body.
 To stay here long would surely mean the end of you.
 ~
 284 16389 0 0 0 1
@@ -421,8 +421,8 @@ Too dark to tell.
 0 0 28443
 S
 #28415
-Blood Tavern.~
-   You are standing inside Blood Tavern - a bizarre looking place, at first
+The Tavern.~
+ You are standing inside Tavern - a bizarre looking place, at first
 sight.  The parquet floor creaks under the weight of an odd looking bar to the
 north which seems to be moving somehow.  Next to the bar a stairwell disappears
 into blackness above.  The ceiling is vaulted, and sports three candeled
@@ -485,7 +485,7 @@ Too dark to tell.
 S
 #28418
 The top of the stairs.~
-   You are standing at the top of the stairs in Blood Tavern.  Darkness
+   You are standing at the top of the stairs in the Tavern.  Darkness
 prevails in the small hallway which runs east to west.  Below you is the bar of
 human skin.
 ~
@@ -539,7 +539,7 @@ Too dark to tell.
 S
 #28421
 An upstairs hallway.~
-   You are standing in an upstairs hallway in Blood Tavern.  A door lies South,
+   You are standing in an upstairs hallway in the Tavern.  A door lies South,
 while to the East is the top of the stairs.
 ~
 284 9 0 0 0 0
@@ -556,7 +556,7 @@ door~
 S
 #28422
 The master suite.~
-   This is the master suite inside Blood Tavern.  A liquor cabinet stands
+   This is the master suite inside the Tavern.  A liquor cabinet stands
 against one wall, filled with dusty old bottles, while a king sized bed stands
 opposite.  A half opened door to the West leads into a bathroom.
 ~
@@ -576,7 +576,7 @@ S
 The bathroom.~
    Boy, the smell of feces here is awful!!  There is a hole in the floor which
 serves as the toilet - pretty primitive.  A washbasin sits on the floor, filled
-with bloodied water, and a dirty mirror reflects your image.
+with water, and a dirty mirror reflects your image.
 ~
 284 8 0 0 0 0
 D0
@@ -823,8 +823,7 @@ S
 #28433
 The mouth of a large cave.~
    Out of the labyrinth at last!  But whats this?  You are standing at the
-mouth of a large cave about 100 feet in diameter.  A steady trickle of blood
-runs down the stone steps which lead upwards - Dare you enter?
+mouth of a large cave about 100 feet in diameter.  Stone steps which lead upwards - Dare you enter?
 ~
 284 1 0 0 0 1
 D0
@@ -856,7 +855,7 @@ S
 Inside the cave entrance.~
    You are standing inside the cave entrance, where a strong smell of sulfur
 makes you gag.  Large stone steps lead back downward to where a labyrinth of
-bodies can be seen.  A steady stream of blood seems to be trickling from
+bodies can be seen.  A steady stream seems to be trickling from
 somewhere up north, where a sound similar to a giant bellows can be heard.
 ~
 284 5 0 0 0 0
@@ -878,7 +877,7 @@ Eaten to death.~
    Boy, the smell of sulfur just keeps getting stronger - YUCK!  As if that
 werent bad enough, there are about a hundred horribly disfigured corpses laying
 here.  It looks as though the flesh was eaten off of their living bodies as
-they writhed in agony.  The stream of blood you witnessed at the entrance is
+they writhed in agony.  The stream you witnessed at the entrance is
 much larger here, apparently you are onto something.
 ~
 284 9 0 0 0 0
@@ -896,8 +895,8 @@ S
 #28436
 Lair entrance.~
    This is an arched cavern of great size - it looks like the Houston
-astrodome.  A great ledge of rock juts out above your head, showering you with
-a steady gush of blood and entrails.  A raucous sound of crunching viscera,
+astrodome.  A great ledge of rock juts out above your head, showering you.
+A raucous sound of crunching viscera,
 intermingled with a slurp here and there, turns your stomach.  Then you hear
 it...  An encouraging voice which keeps repeating "Yes, yes, thats it...  Just
 a few steps more...  You're almost there.  "
@@ -916,8 +915,7 @@ Too dark to tell.
 S
 #28437
 A lair full of corpses.~
-   This ledge is slippery with the blood of hundreds of vanquished adventurers
-who made the mistake of entering here.  Corpses, corpses, everywhere.  At least
+   This ledge is slippery.  Corpses, corpses, everywhere.  At least
 you finally found the source of that horrific sulfur smell.  A black, steaming
 substance is smeared all over the walls emitting the funk.  As if this werent
 bad enough, you suddenly have the feeling that your life is about to end soon.
@@ -1048,7 +1046,7 @@ S
 #28444
 The bottom of the granite staircase.~
    You have reached the bottom of the granite staircase.  This appears to be
-the basement of Blood Tavern.  A hole in the ceiling which is stained with
+the basement of the Tavern.  A hole in the ceiling which is stained with
 excrement hovers above an enormous mountain of feces (how nice).  Walls stand
 to the west, north and south - but the way is passable towards the East, around
 the dungheap.
@@ -1173,7 +1171,7 @@ S
 #28450
 A makeshift bedroom.~
    A cot lies against the far wall of this little alcove, directly beneath an
-inverted pentagram scribed in blood.  A bound footlocker stands opposite.  The
+inverted pentagram.  A bound footlocker stands opposite.  The
 only exit is back towards the West.
 ~
 284 9 0 0 0 0
@@ -1185,8 +1183,7 @@ Too dark to tell.
 S
 #28451
 The streets of Ghenna.~
-   You are standing on a city street in Ghenna.  Paved with cobble- stones, the
-road is slick with the blood of many a wayward adventurer.  Watch your step!
+   You are standing on a city street in Ghenna.  Paved with cobble- stones.  Watch your step!
 ~
 284 1 0 0 0 1
 D1

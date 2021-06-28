@@ -184,8 +184,7 @@ A Dark Hallway~
    Whoever carved all these symbols must have had a lot of time on his hands.
 The screams you heard earlier seem to intensify.  Upon closer examination those
 symbols don't seem to be carved, but scratched or clawed into the stone.
-Chunks of flesh and fingernails can be seen in the scratches, all oozing with
-blood.
+Chunks of flesh and fingernails can be seen in the scratches.
 ~
 22 8 0 0 0 0
 D0
@@ -702,8 +701,8 @@ D3
 0 0 2240
 S
 #2242
-Bloody Stairs~
-   Bodies are stacked along the walls and the floor is slick with blood.  You
+Stairs~
+   Bodies are stacked along the walls and the floor is slick.  You
 hear screams and groans of pain coming from the south.  Paintings line the
 stairwell, depicting scenes of a great battle with undead foes.
 ~
@@ -718,8 +717,8 @@ D5
 0 0 2215
 S
 #2243
-Bloody Hallway~
-   The floors are slick with blood and unidentifiable body parts.  Screams come
+Hallway~
+   The floors are slick.  Screams come
 from both east and west or you can flee to the north and south.  The once fine
 adornments to the hallway have all been torn down and shredded.
 ~
@@ -742,7 +741,7 @@ D3
 0 0 2245
 S
 #2244
-Bloody Hallway~
+Hallway~
    More prisoners are shackled everywhere.  A fire burns in a hearth with
 hot irons laid into it.  Various tools lay everywhere that make you cringe
 just thinking about their purpose.
@@ -754,7 +753,7 @@ D2
 0 0 2245
 S
 #2245
-Bloody Hallway~
+Hallway~
    Prisoners are shackled to the walls all around you.  Most of them seem
 dead or at least unconscious.  Who could do such things?  You hear a
 death cry to the north.
@@ -770,7 +769,7 @@ D1
 0 0 2243
 S
 #2246
-Bloody Hallway~
+Hallway~
    Screams seem to be echoing off the walls from the north and south.  Bodies
 are stacked everywhere continuing to the east and west.  The smell of death
 fills this part of the hallway.
@@ -831,7 +830,7 @@ D2
 0 0 2250
 S
 #2250
-Bloody Hallway~
+Hallway~
    More bodies line the walls.  Screams and moans of eternal pain come from the
 north or the bodies continue to the west.  A once fine oaken table has been
 hacked to pieces and scattered about the room.
@@ -1283,7 +1282,7 @@ S
 #2277
 A Hall of Corpses~
    Bodies line both walls and are piled almost to the ceiling.  You see a
-trail of blood where someone must have used a wheelbarrow to move the
+trail where someone must have used a wheelbarrow to move the
 corpses.  The tracks lead north, higher into the tower.
 ~
 22 8 0 0 0 0

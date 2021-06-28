@@ -16,7 +16,7 @@ priest~
 a priest~
 A priest is praying for his favorite gladiator to win.
 ~
-   For a priest he seems to be enjoying the bloodshed a little too much.
+   For a priest he seems to be enjoying the work a little too much.
 ~
 231496 0 0 0 64 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
@@ -277,8 +277,8 @@ civilian~
 a civilian~
 A civilian is screaming at the top of his lungs, enthralled with the battle.
 ~
-   He is watching the bout, screaming his encouragement to his favorite
-gladiator.  He seems to enjoy the bloodshed and death.
+He is watching the bout, screaming his encouragement to his favorite
+gladiator.  He seems to enjoy the experience.
 ~
 72 0 0 0 80 0 0 0 0 E
 11 17 3 2d2+110 1d2+1

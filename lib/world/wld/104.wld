@@ -98,9 +98,8 @@ T 10403
 A Lightly Lit Path~
    @yThe morning dew does not seem to be able to reach any part of this part of
 the forest, the tall trees collide above you, entwining like a jigsaw
-puzzle.  On a few trees, there are some stands up in them, these stands
-have a few specks of blood on them, making this area feel uncomfortable in some
-ways.  Although the trees entwine above you, the area all around you is not
+puzzle.  On a few trees, there are some stands up in them.
+Although the trees entwine above you, the area all around you is not
 surrounded by such trees.  The wind blows through here freely, and the sun
 shines in from the trees around you, not letting in a lot of light though.  The
 rustling of leaves comes to your ears in the area around you, adding to the
@@ -140,7 +139,7 @@ S
 The Mazes Entrance~
    @yThe fresh air totally leaves the area around you, in it's place there is a
 stagnant smell.  The walls a large marble stones, and are well made.  The ground
-is sleek, and it has a few blood stains every now and then.  For as closed in as
+is sleek.  For as closed in as
 this area is, it gives off a good amount of light, enough to illuminate your
 path.
 ~
@@ -512,11 +511,11 @@ D1
 S
 #10426
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
-marble stone.  There are many scratches on the ground and they seem to have been
-made by something in-human.  The ceiling is made of the same marble, but this is
-smoother, and only enough light is here to allow sight.
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light marble stone.  There are many scratches
+on the ground and they seem to have been made by something in-human.  The ceiling
+is made of the same marble, but this is smoother, and only enough light is here
+to allow sight.
 ~
 104 28 0 0 0 0
 D0
@@ -530,9 +529,9 @@ D2
 S
 #10427
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
-marble stone.  There are many scratches on the ground and they seem to have been
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light marble stone.
+There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
 ~
@@ -548,8 +547,8 @@ D2
 S
 #10428
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made od marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made od marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -566,8 +565,8 @@ D3
 S
 #10429
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made od marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made od marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -584,8 +583,8 @@ D3
 S
 #10430
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made od marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made od marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -619,8 +618,8 @@ D1
 S
 #10432
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made od marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made od marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -637,8 +636,8 @@ D2
 S
 #10433
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -672,8 +671,8 @@ D2
 S
 #10435
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -707,10 +706,7 @@ D2
 S
 #10437
 The Monsters Den~
-   @yThe walls are covered with blood, and the floor is also covered withit too.
-Human skeletons litter the floor, and multiple animal skeletons also fill this
-place.  The ceiling is not perfect here, and the walls are cover in scratches,
-and the ceiling is cover in blood and scratches.
+Monster Art litter the floor, and multiple sculptures also fill this place.
 ~
 104 8 0 0 0 0
 D0
@@ -732,8 +728,8 @@ D3
 S
 #10438
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -763,8 +759,8 @@ D0
 S
 #10440
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -794,8 +790,8 @@ D0
 S
 #10442
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -812,8 +808,8 @@ D3
 S
 #10443
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -838,10 +834,7 @@ D3
 S
 #10444
 The Monsters Den~
-   @yThe walls are covered with blood, and the floor is also covered with it
-too.  Human skeletons litter the floor, and multiple animal skeletons also fill
-this place.  The ceiling is not perfect here, and the walls are cover in
-scratches, and the ceiling is cover in blood and scratches.
+Monster Art litter the floor, and multiple sculptures also fill this place.
 ~
 104 8 0 0 0 0
 D0
@@ -851,8 +844,8 @@ D0
 S
 #10445
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -887,10 +880,7 @@ D1
 S
 #10447
 The Monsters Den~
-   @yThe walls are covered with blood, and the floor is also covered with it
-too.  Human skeletons litter the floor, and multiple animal skeletons also fill
-this place.  The ceiling is not perfect here, and the walls are cover in
-scratches, and the ceiling is cover in blood and scratches.
+Monster Art litter the floor, and multiple sculptures also fill this place.
 ~
 104 8 0 0 0 0
 D0
@@ -951,8 +941,8 @@ D3
 S
 #10451
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -969,8 +959,8 @@ D3
 S
 #10452
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -987,8 +977,8 @@ D3
 S
 #10453
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -1009,8 +999,8 @@ D2
 S
 #10454
 A Maze Room~
-   @yThe walls are a dark blue, but the rock is still made of marble.  There is
-a little more blood splatter here.  The floor is made up of a smaller light
+The walls are a dark blue, but the rock is still made of marble.
+The floor is made up of a smaller light
 marble stone.  There are many scratches on the ground and they seem to have been
 made by something in-human.  The ceiling is made of the same marble, but this is
 smoother, and only enough light is here to allow sight.
@@ -1027,10 +1017,7 @@ D2
 S
 #10455
 The Monsters Den~
-   @yThe walls are covered with blood, and the floor is also covered with it
-too.  Human skeletons litter the floor, and multiple animal skeletons also fill
-this place.  The ceiling is not perfect here, and the walls are cover in
-scratches, and the ceiling is cover in blood and scratches.
+Monster Art litter the floor, and multiple sculptures also fill this place.
 ~
 104 8 0 0 0 0
 D2
@@ -1045,10 +1032,7 @@ S
 T 10499
 #10456
 The Monsters Den~
-   @yThe walls are covered with blood, and the floor is also covered with it
-too.  Human skeletons litter the floor, and multiple animal skeletons also fill
-this place.  The ceiling is not perfect here, and the walls are cover in
-scratches, and the ceiling is cover in blood and scratches.
+Monster Art litter the floor, and multiple sculptures also fill this place.
 ~
 104 8 0 0 0 0
 D0

@@ -404,7 +404,7 @@ orc blocker raider~
 the Orc blocker~
 A Raiders' blocker is trying to pave an open pathway.
 ~
-   This is the slowest (both physically AND mentally) of the bloodbowl players.
+This is the slowest (both physically AND mentally) of the bowl players.
 However, he is also very large and powerful, so be careful when tangling with
 him.
 ~
@@ -418,7 +418,7 @@ human blocker warrior~
 the Human blocker~
 A Warriors' blocker is trying to pave an open pathway.
 ~
-   This is the slowest (both physically AND mentally) of the bloodbowl players.
+   This is the slowest (both physically AND mentally) of the bowl players.
 However, he is also very large and powerful, so be careful when tangling with
 him.
 ~
@@ -459,7 +459,7 @@ the Orc blitzer~
 A fierce Raiders' blitzer, waiting to tear someone limb from limb.
 ~
    An all-around fearsome athlete, the blitzer is the toughest most aggressive
-player on the bloodbowl field.
+player on the bowl field.
 ~
 14 0 0 0 0 0 0 0 -800 E
 7 18 5 1d1+70 1d2+1
@@ -472,7 +472,7 @@ the Human blitzer~
 A fierce Warriors' blitzer, waiting to tear someone limb from limb.
 ~
    An all-around fearsome athlete, the blitzer is the toughest most aggressive
-player on the bloodbowl field.
+player on the bowl field.
 ~
 76 0 0 0 0 0 0 0 800 E
 8 18 5 1d1+80 1d2+1
@@ -853,7 +853,7 @@ the bleached blonde bimbo~
 A bleached blonde bimbo is bouncing around.
 ~
    You can almost feel the intelligence and wisdom points being reduced as you
-feel the blood rush from your head to another part of your anatomy.
+feel the rush from your head to another part of your anatomy.
 ~
 10 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0

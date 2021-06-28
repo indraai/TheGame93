@@ -26,11 +26,11 @@ trouble and keeps an eye peeled to his surroundings, waiting for another attack.
 8 8 1
 E
 #12502
-city guard~
-the hannah city guard~
-A hannah city guard stands here, trying to prevent bloodshed.
+deva guard guarddeva gd12502~
+GuardDeva GD12502~
+A GuardDeva stands here.
 ~
-   It is this mans job to clean up the streets of all the monsters that have
+It is this mans job to clean up the streets of all the monsters that have
 imperiled the city.  Until this is done the remainder of the townspeople have
 taken refuge in the temple.
 ~
@@ -111,7 +111,7 @@ troll crazed~
 a crazed troll~
 A crazed troll charges anything that moves.
 ~
-   This tall brown beast has gone berserk and is looking for some blood.
+This tall brown beast has gone berserk.
 ~
 65608 0 0 0 0 0 0 0 -500 E
 7 18 5 1d1+70 1d2+1
@@ -223,10 +223,10 @@ E
 #12566
 taber man short fat~
 Taber the shopkeeper~
-A short fat man with a bloody apron on stands here smiling.
+A short fat man with an apron on stands here smiling.
 ~
    You see a short fat man before you.  He is holding a large meat cleaver and
-his blood-stained apron makes him appear at first like a common criminal.  He
+his apron makes him appear at first like a common criminal.  He
 sets his cleaver down and beams a smile at you as he begins to show you his cuts
 of meat.
 ~

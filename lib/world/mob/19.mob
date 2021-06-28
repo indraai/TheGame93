@@ -243,7 +243,7 @@ a widow spider~
 A widow spider wanders silently about.
 ~
    This black bulbous spider has an unproportionately large belly, scarlet
-markings decorating its black hide like fresh blood.  Abnormally large poison
+markings decorating its black hide.  Abnormally large poison
 sacks are visible behind its substantial fangs, indicating that this spider's
 bite could be worse than most.
 ~
@@ -277,7 +277,7 @@ A bird-eating spider lies in wait here, cleaning its pincers.
 ~
    This large, incredibly ferocious spider has intimidatingly huge fangs,
 coupled with a sturdy hairy body and long well-armored forearms.  Although its
-pincers are slick with fresh blood, its eyes look almost murderously hungry.
+pincers are slick, its eyes look almost murderously hungry.
 ~
 72 0 0 0 0 0 0 0 -400 E
 18 14 0 3d3+180 3d3+3
@@ -424,7 +424,7 @@ An enormous whisper spider stirs from her blanket of webbing.
    This massive spider is almost ten feet in width, long jointed legs clicking
 slightly as they support the weight of its huge bulbous black body.  The two
 signature gray stripes of the whisper species mark this creature's underbelly,
-and two blood red eyes peer effortlessly through the dark.
+and two red eyes peer effortlessly through the dark.
 ~
 40970 0 0 0 80 0 0 0 0 E
 23 13 -3 4d4+500 3d3+3
@@ -440,7 +440,7 @@ A dark and glowering drow lord stands proudly here.
 ~
    An aura of immense confidence and fearlessness surrounds him, jet-black skin
 shimmering slightly as though moonlit, complimenting the silvery hair that
-cascades down his back.  Bloodlust burns in his fierce eyes, like burning coals
+cascades down his back.  Lust burns in his fierce eyes, like burning coals
 they glow vaguely red, casting his regal features in an eerie crimson hue.
 ~
 155658 0 0 0 8 0 0 0 -500 E
@@ -473,7 +473,7 @@ a vicious drider~
 A vicious drider prowls through the shadows.
 ~
    This strange creature has the head and torso of a drow, and the legs and
-lower body of a giant spider.  Evil and unnaturally bloodthirsty, its scarlet
+lower body of a giant spider.  Evil and unnaturally thirsty, its scarlet
 glowing eyes show no sign of any remaining higher emotion, just an insatiable
 lust for killing.
 ~
@@ -488,7 +488,7 @@ albino frog~
 an albino frog~
 An albino frog hops blindly along.
 ~
-   This sickly-looking creature is obviously used to dwelling in dark places as
+   This strange-looking creature is obviously used to dwelling in dark places as
 its pale skin offers absolutely no protection from the sun.  Its light-pink eyes
 are almost completely useless, gazing blindly about as it moves cautiously from
 rock to rock.

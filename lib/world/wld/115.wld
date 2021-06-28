@@ -915,9 +915,7 @@ D3
 0 0 11545
 E
 gardening tools~
-   There is blood on the tip of one of the tools, it seems that someone
-attacked the people that were here.  There is also a small trail of blood
-leading to the south .
+Various gardening tools are here.
 ~
 S
 #11547
@@ -1110,7 +1108,7 @@ S
 The Battlegrounds~
    The grassy field has been trampled and plowed into an earthen mess.  Large
 hoofprints and unnaturally large footprints are evident in the freshly turned
-earth.  Some outlined in blood.
+earth.
 ~
 115 32768 0 0 0 0
 D0
@@ -1177,9 +1175,7 @@ D2
 S
 #11559
 A Fenced in Path~
-   The tall black metal fence to the east and west look insurmountable.  The
-trampled grass is splotched with blood, and even some body parts.  A few
-corpses line the fence to the west.
+ The tall black metal fence to the east and west look insurmountable.
 ~
 115 32768 0 0 0 0
 D0
@@ -1226,8 +1222,6 @@ S
 #11562
 A Fenced in Path~
    The black metal fence to the east and west guide you to the north or south.
-The stamped grass is streaked with blood and even a few bodyparts.  A few
-pieces of broken equipment and weapons is scattered about.
 ~
 115 32768 0 0 0 0
 D0
@@ -1254,9 +1248,7 @@ D0
 S
 #11564
 The Western Fence~
-   The remains of more monks and a few goblins lay about the grassy field.
-Trails of blood and limbs seem to head to the east towards what must have been
-the culmination of the battle.
+The remains of more monks and a few goblins lay about the grassy field.
 ~
 115 32768 0 0 0 0
 D0
@@ -1295,9 +1287,9 @@ D2
 S
 #11566
 The Battlegrounds~
-   A trail of blood and body parts leads towards the east.  You are just about
-in the center of the battlefield.  The body count is highest here and you find
-it hard to believe so many monks have died.
+A trail leads towards the east.  You are just about in the center of the
+battlefield.  The body count is highest here and you find it hard to believe so
+many monks have died.
 ~
 115 32768 0 0 0 0
 D0
@@ -1319,7 +1311,7 @@ D3
 S
 #11567
 The Center of the Battlegrounds~
-   A pile of dead monks surround a large centaur corpse.  The monks seem to
+A pile of dead monks surround a large centaur corpse.  The monks seem to
 have overwhelmed the beast by sure numbers, and the majority seem to have died
 in the attempt.  The battlefield stretches around you in all directions.
 ~
@@ -1343,9 +1335,7 @@ D3
 S
 #11568
 The Battlegrounds~
-   The smell of death and blood intermingle with the even more rotten smell
-from the goblin and troll corpses.  The monks seem to have faired well in this
-part of the battlefield.
+The monks seem to have faired well in this part of the battlefield.
 ~
 115 32768 0 0 0 0
 D0
@@ -1367,9 +1357,9 @@ D3
 S
 #11569
 Along the Eastern Fence~
-   The tall black fencing to the east is built just along the western wall of
-the Monastery of Omega.  Supposedly a safe haven from evil, it seems that holds
-true no longer.  Corpses of innocent monks give proof of the reality of this
+The tall black fencing to the east is built just along the western wall of the
+Monastery of Omega.  Supposedly a safe haven from evil, it seems that holds true
+no longer.  Corpses of innocent monks give proof of the reality of this
 Cruel World.
 ~
 115 32768 0 0 0 0
@@ -1434,7 +1424,7 @@ S
 The Battlegrounds~
    The grassy field has been trampled and plowed into an earthen mess.  Large
 hoofprints and unnaturally large footprints are evident in the freshly turned
-earth.  Some outlined in blood.
+earth.
 ~
 115 32768 0 0 0 0
 D0
@@ -1517,9 +1507,7 @@ D2
 S
 #11576
 Along the Northern Fence~
-   The black metal fence to the north is covered in blood and bits of the poor
-monks who tried to flee over the tall fence.  A few are even impaled into and
-on the fence.  The gory battlefiled continues all around.
+The black metal fence to the north. The gory battlefiled continues all around.
 ~
 115 32768 0 0 0 0
 D1
@@ -1594,8 +1582,8 @@ D3
 S
 #11580
 Behind The Monestary~
-   To the west is the monestary.  There is a strong fragrance of earth and
-flowers upon entering this room.  A small trail of blood leading to the south.
+To the west is the monestary. There is a strong fragrance of earth and
+flowers upon entering this room. A small trail leading to the south.
 There are many different plants here and a few animals rummaging for food.
 ~
 115 32768 0 0 0 0
@@ -1612,16 +1600,15 @@ D2
 ~
 0 0 11581
 E
-look blood~
-   This trail of blood leads to the south and appears to be getting thicker and
+look trail~
+   This trail leads to the south and appears to be getting thicker and
 thicker the farther south it goes.
 ~
 S
 #11581
 Behind The Monestary~
    A row of corn to the west blocks out the rest of the garden.  The wall to
-the east leaves a narrow path to walk upon.  Small drops of blood can be seen
-on some dead leaves and grass.
+the east leaves a narrow path to walk upon.
 ~
 115 32768 0 0 0 0
 D0
@@ -1645,8 +1632,7 @@ S
 #11582
 Behind The Monestary~
    A brush pile of twigs and dead leaves has been stacked against the Monastery
-wall to the west.  A pile of the leaves are matted down and covered in blood as
-if a wounded animal rested there.
+wall to the west.  A pile of the leaves are matted down.
 ~
 115 32768 0 0 0 0
 D0
@@ -1662,8 +1648,8 @@ D2
 ~
 0 0 11583
 E
-look blood~
-   The trail can still be distinguished from the dirt, and seems to be running
+look trail~
+ The trail can still be distinguished from the dirt, and seems to be running
 south.
 ~
 S
@@ -1687,8 +1673,8 @@ D2
 ~
 0 0 11584
 E
-look blood~
-   The trail has been lost and it is not known which way it runs.
+look trail~
+ The trail has been lost and it is not known which way it runs.
 ~
 S
 #11584
@@ -1716,7 +1702,7 @@ Behind The Monestary~
    This room contains little signs of life, there are no flowers or trees just
 menacing grass scattered all about . The room itself seems to be moving but
 after examining it closely the cause is known, the grass itself is moving about
-the room.  The church is directly to the west, and the blood trail runs to the
+the room.  The church is directly to the west, and the trail runs to the
 east.
 ~
 115 32768 0 0 0 0
@@ -1762,7 +1748,7 @@ S
 Behind The Monestary~
    The church lies directly to the south.  There are small roses and daisies
 scattered about uprooted as if someone drug something about the room.  The
-blood trail is lying on the ground pointing to the east.  The smell here is of
+trail is lying on the ground pointing to the east.  The smell here is of
 death, there is a foul odor that occupies this room.  There are no signs of
 what could be causing the smell here.
 ~
@@ -1783,7 +1769,7 @@ S
 #11588
 A Small Garden~
    This area seems to be well tended and one of the more beautiful parts of the
-entire garden.  A blood trail seems to end here and it is now clear what the
+entire garden.  A trail seems to end here and it is now clear what the
 awful smell was.
 ~
 115 32768 0 0 0 0

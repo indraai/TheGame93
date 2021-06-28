@@ -163,14 +163,14 @@ Pardon??
 Sure, go ahead and drool...yuk!
 $n drools on $mself.  What a sight.
 
-embrace 0 0 
+embrace 0 0
 You reach but come away empty.  :(
 $n reaches out for an embrace, but no one is there.
 You embrace $M warmly.
 $n embraces $N warmly.
 $n embraces you warmly.
 Alas, your embracee is not here.
-You embrace yourself??  
+You embrace yourself??
 $n wraps his arms around himself for a warm self-embrace.
 
 fart 0 0
@@ -461,11 +461,11 @@ $n pukes on $s clothes.
 punch 0 0
 Punch the air?  Sure, go ahead, fine by me...
 $n starts shadow-boxing.
-You punch $M right in the face!  Yuck, the BLOOD!
+You punch $M right in the face!
 $n punches weakly at $N, missing by miles.
 $n tries a punch at you but misses by a good quarter-mile...
 Punch who?
-You punch yourself in the face resulting in your own nose being bloodied.
+You punch yourself in the face.
 $n punches $mself in the face, looking kind of stupid.
 
 purr 0 0
@@ -473,7 +473,7 @@ MMMMEEEEEEEEOOOOOOOOOWWWWWWWWWWWW.
 $n purrs contentedly.
 #
 
-roll 1 0 
+roll 1 0
 You roll your eyes in disgust.
 $n rolls $s eyes in disgust.
 You look at $M and roll your eyes in disgust.
@@ -648,7 +648,7 @@ You stare and stare but can't see that person anywhere...
 You stare dreamily at yourself - enough narcissism for now.
 $n stares dreamily at $mself - NARCISSIST!
 
-steam 0 0 
+steam 0 0
 You let out some steam, much to the others' relief (and your own!)
 $n lets out a lot of steam, much to your relief.
 #
@@ -694,7 +694,7 @@ Feels rather stupid, doesn't it?
 $n puts a rose between $s teeth and tries to tango with $mself.
 
 taunt 0 0
-You taunt the nothing in front of you. 
+You taunt the nothing in front of you.
 $n taunts something that seems to be right in front of $m.
 You taunt $M, to your own delight.
 $n taunts $N rather insultingly.  $U$n seems to enjoy it tremendously.

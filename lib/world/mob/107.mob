@@ -118,12 +118,12 @@ carry with it an ill boding.
 8 8 0
 E
 #10709
-vampiric spirit~
-the vampiric spirit of Iuel~
-A spirit of Iuel haunting these grounds waves a shaky hand at you.
+iuel spirit~
+Spirit of Iuel~
+A spirit of Iuel wandering these grounds waves a hand at you.
 ~
-   A lost soul of a long dead vampire, it's body has become lost with time and
-only it's lifeless spirit can now seek fresh blood that it cannot consume.
+A kind soul of a long dead world, it's body has become lost with time and
+only it's spirit can now wander the realm.
 ~
 16460 0 0 0 0 0 0 0 500 E
 14 16 1 2d2+140 2d2+2
@@ -131,12 +131,11 @@ only it's lifeless spirit can now seek fresh blood that it cannot consume.
 8 8 0
 E
 #10710
-ghoulic spirit~
-the ghoulic spirit of Iuel~
-A spirit of Iuel haunting these grounds waves a shaky hand at you.
+iuel spirit~
+Spirit of Iuel~
+A spirit of Iuel roaming these grounds waves a hand at you.
 ~
-   This hunched over spirit barely even looks human, or what was once a human,
-grotesque features mark it as a ghoul that long since died.
+This spirit looks human, or what was once a human.
 ~
 16460 0 0 0 0 0 0 0 500 E
 14 16 1 2d2+140 2d2+2
@@ -144,11 +143,11 @@ grotesque features mark it as a ghoul that long since died.
 8 8 0
 E
 #10711
-spell spirit iuel~
-the spell chanting spirit of Iuel~
-A spirit of Iuel haunting these grounds waves a shaky hand at you.
+spirit iuel monk~
+Spirit Monk of Iuel~
+A spirit of Iuel wandering these grounds waves a hand at you.
 ~
-   The wandering spirit is the remains of a powerful mage that found
+The wandering spirit is the remains of a powerful monk that found
 immortality.  But could not bring it's mortal body along for the ride.
 ~
 16460 0 0 0 0 0 0 0 500 E
@@ -157,12 +156,11 @@ immortality.  But could not bring it's mortal body along for the ride.
 8 8 0
 E
 #10712
-spirit soul snatcher~
-the soul snatching spirit of Iuel~
-A spirit of Iuel haunting these grounds waves a shaky hand at you.
+spirit iuel~
+Spirit of Iuel~
+A spirit of Iuel wandering these grounds waves a hand at you.
 ~
-   This undead spirit has lost it's bodily form and now lusts for another's to
-absorb and return to life.
+This spirit has lost it's bodily form and now wanders until it returns to life.
 ~
 16462 0 0 0 0 0 0 0 500 E
 18 14 0 3d3+180 3d3+3
@@ -170,11 +168,11 @@ absorb and return to life.
 8 8 0
 E
 #10713
-fat rat pets~
-a fat rat~
-A fat rat sits on a mat eating slabs of cat grinning like the mad hat-ter.
+fat rabbit pets~
+a fat rabbit~
+A fat rabbit sits on a mat eating slabs of vegetables grinning like the mad hat-ter.
 ~
-   This tamed rat waddles awkwardly due to it's massive girth.
+This tamed rabbit waddles awkwardly due to it's massive girth.
 ~
 72 0 0 0 0 0 0 0 200 E
 3 19 8 0d0+30 1d2+0
@@ -182,12 +180,11 @@ A fat rat sits on a mat eating slabs of cat grinning like the mad hat-ter.
 8 8 0
 E
 #10714
-dog pets wog~
-a wog dog~
-A wog dog chews on a log releasing gas, causing a fog is here.
+dog pets jax~
+a jax dog~
+A dog chews on a chew toy log is here.
 ~
-   This trained dog can roll over like a log, go for a jog, fetch a cog, and
-maybe kill a frog.
+This trained dog can do tricks.
 ~
 72 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -199,7 +196,7 @@ boy roy petshops~
 a boy named Roy~
 A small boy named Roy sits here playing with this toy, his face full of joy.
 ~
-   The boy looks rather coy and begins to annoy everyone which he seems to
+The boy looks rather coy and begins to annoy everyone which he seems to
 enjoy.
 ~
 16394 0 0 0 0 0 0 0 0 E
@@ -252,7 +249,7 @@ messenger spirit postmasters~
 a spirit~
 Writing equipment floats around in the air, waiting to take a message.
 ~
-   Leafs of paper and other parchment float about the room ominously.  Quills
+Leafs of paper and other parchment float about the room ominously.  Quills
 and ink bottles also.  It is here where you may mail anyone within the mud.
 ~
 516106 0 0 0 0 0 0 0 0 E

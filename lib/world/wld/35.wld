@@ -80,7 +80,7 @@ S
 #3504
 The South Gate~
    You are standing on a small, dusty path leading away from the south
-gate of Amaravati, to the forest of Miden'Nir (Goblinic for 'Green Blood').
+gate of Amaravati, to the forest of Miden'Nir.
 You can still see the city to the east, but if you go south, there is
 fresh air and greenery.
 ~
@@ -463,9 +463,9 @@ The thick forest continues.
 0 -1 3519
 S
 #3521
-The Carnage~
-   Here, you see a gruesome sight.  Blood is everywhere... on the trees and
-soaked into the ground.  Two carcasses lie in front of you, seeming to look
+The Flowers~
+   Here, you see a beautiful sight.  Flowers are everywhere... on the trees and
+soaked into the ground.  Two flowers lie in front of you, seeming to look
 up at you.  The forest is impassible to the south, but the other directions
 look ok.
 ~
@@ -494,7 +494,7 @@ bodies are a light shade of blue, hinting at poison in their systems.
 S
 #3522
 Deep In The Forest Of Miden'nir~
-   There is a sickening stench here.  It smells of blood and death.
+   There is a sickening stench here.  It smells of flowers.
 To the north, you catch glimpses of daylight.  To the east, you
 simply cannot see.  The trees are close and stifling.
 ~

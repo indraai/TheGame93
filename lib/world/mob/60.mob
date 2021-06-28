@@ -67,9 +67,9 @@ E
 #6005
 fox brown~
 the brown fox~
-A brown fox is stalking rabbits through the underbrush here.
+A brown fox is wandering through the underbrush here.
 ~
-   It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
+It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
 
 ~
 72 0 0 0 0 0 0 0 -50 E
@@ -82,7 +82,7 @@ bird large~
 the bird~
 A large bird with a broken wing has been cornered here.
 ~
-   The bird isn't going to live much longer, by the looks of it.
+The bird isn't going to live much longer, by the looks of it.
 ~
 10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -92,10 +92,9 @@ E
 #6007
 bobcat cat~
 the bobcat~
-A medium sized bobcat is stalking a bird here.
+A medium sized bobcat is here.
 ~
-   The bobcat has sharp claws and teeth, and will probably eat you instead of
-the bird if you give it the chance.
+The bobcat has sharp claws and teeth, and will probably eat you if you give it the chance.
 ~
 42 0 0 0 16 0 0 0 -150 E
 5 19 7 1d1+50 1d2+0

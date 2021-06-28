@@ -521,7 +521,7 @@ S
 #34520
 A Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood and death. Your
+and cob webs. The air is thick with the smell of stale mold. Your
 light doesn't seem to penetrate as far as it should. The sounds of screams con
 be heard faintly in the air. To the north is a heavy door with a lock on the
 outside.
@@ -543,7 +543,7 @@ S
 #34521
 A Long Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood and death. Your
+and cob webs. The air is thick with the smell of stale mold. Your
 light doesn't seem to penetrate as far as it should. The sounds of screams con
 be heard faintly in the air. To the north is a heavy door off its hinges.
 ~
@@ -569,7 +569,7 @@ T 34510
 #34522
 A Long Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood and death. Your
+and cob webs. The air is thick with the smell of stale mold. Your
 light doesn't seem to penetrate as far as it should. The sounds of screams con
 be heard faintly in the air. To the north is a heavy door with a lock on the
 outside.
@@ -591,7 +591,7 @@ S
 #34523
 A Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood and death. Your
+and cob webs. The air is thick with the smell of stale mold. Your
 light doesn't seem to penetrate as far as it should. The sounds of screams con
 be heard faintly in the air. To the east is a heavy door with an old rusted
 lock hanging on it.
@@ -617,7 +617,7 @@ S
 #34524
 A Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood, death, and
+and cob webs. The air is thick with the smell of stale mold and
 insanity if there is such a smell. Your light doesn't seem to penetrate as far
 as it should. To the south is a heavy wooden door with iron reinforcing straps.
 ~
@@ -643,7 +643,7 @@ T 34510
 #34525
 A Long Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood and death. Your
+and cob webs. The air is thick with the smell of stale mold. Your
 light doesn't seem to penetrate as far as it should. The sounds of screams con
 be heard faintly in the air. To the south a door hangs off its hinges.
 ~
@@ -669,7 +669,7 @@ T 34510
 #34526
 A Long Dark Hallway~
    This is a dark hallway. Like the rest of the building, it is covered in dust
-and cob webs. The air is thick with the smell of stale blood and death. Your
+and cob webs. The air is thick with the smell of stale mold. Your
 light doesn't seem to penetrate as far as it should. From the south the sounds
 of someone moving around can be heard.
 ~
@@ -964,8 +964,7 @@ S
 #34543
 An Operating Room~
    The first sight of this room assaults the eyes. In the center is a large
-table with a light hanging over head. The tile walls and floor are covered in
-blood, some of which looks recent. The smell of death is heavy in the air here.
+table with a light hanging over head. The smell of death is heavy in the air here.
 The only way to escape this room is to the north and west.
 ~
 345 8 0 0 0 0
@@ -1120,8 +1119,7 @@ D3
 S
 #34552
 A Secret Room~
-   Unlike the rest of the building this room is in remarkable shape. There is
-blood red carpet on the floor and a few disturbing paintings on the walls. In
+   Unlike the rest of the building this room is in remarkable shape. There is red carpet on the floor and a few paintings on the walls. In
 the center of the room is wooden table. Even though this room is in good shape
 there is still an uneasy feeling. Maybe its from the low lighting.
 ~

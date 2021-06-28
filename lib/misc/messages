@@ -212,13 +212,13 @@ M
 131
 $N makes a strange sound but is suddenly very silent as you place $p in $S back.
 Suddenly $n stabs you in the back.
-$n places $p in the back of $N, resulting in some strange noises, a lot of blood, and a corpse.
+$n places $p in the back of $N, resulting in some strange noises.
 $N quickly avoids your backstab and you nearly cut your own finger!
 $n tries to backstab you, but you avoid $m!
 $n tries to backstab $N but nearly cuts $s own finger!
 $N makes a strange sound as you place $p in $S back!
 Suddenly $n stabs you in the back!
-$n places $p in the back of $N, resulting in some strange noises and some blood!
+$n places $p in the back of $N, resulting in some strange noises!
 $N sends you a look that makes you forget all about backstabbing.
 $n tries to backstab you, but changes $s mind.
 $n tries to backstab $N, but changes $s mind.
@@ -263,7 +263,7 @@ $N re-spawns from $n's last kick in $S kidneys!
 Your beautiful full-circle kick misses $N by a mile.
 $n makes a nice balletstep which plants $s foot a mile above your head.
 $n makes a nice balletstep which plants $s foot a mile above $N's head.
-Your boots need polishing again -- blood all over them...
+Your boots need polishing again
 $n wipes $s boots in your face!
 $n wipes $s boots in the face of $N!
 $N makes you kick at a huge stone appearing from nowhere -- OUCH!
@@ -426,10 +426,10 @@ $n tries to slash $N -- how rude!
 
 M
 303
-Your slash at $N results in $S immediate demise!
-Blood spurts all over as $n slashes at you.  You ...
-$n slashes at $N who colors everything red with blood from $S lethal wound.
-You miss $N by an inch, curse that brat!
+Your jab at $N results in $S immediate demise!
+Boogers spurts all over as $n slashes at you.  You ...
+$n slashes at $N who screams from $S hit.
+You miss $N by an inch!
 You manage to dodge $n's slash and laugh, HA!
 $n's slash misses $N who laughs in sheer delight, HA!
 #
@@ -693,7 +693,7 @@ M
 313
 You punch at $N causing $S face to collapse under the blow.  Doesn't look like $N will recover.  Ever.
 $n's forceful punch causes you to see red, until you...
-$n punches $N right in the face!  There is blood everywhere, and $N seems to be dead!
+$n punches $N right in the face!  $N will respawn!
 You miss $N with your haymaker!
 $n throws a haymaker at you which whistles by your ear!
 $n just misses $N with a strong punch!
@@ -739,8 +739,8 @@ You watch in pity as $n stabs towards $N missing in the most futile way possible
 M
 399
 #
-You can only lie still as your last heartbeat ebbs...
-$N suffers from bloodlack, and the lack of a beating heart...
+You can only lie still as your last mind ebbs...
+$N suffers a tackle...
 #
 suffer miss victim - should never see.
 suffer miss room - should never see.
@@ -755,7 +755,7 @@ M
 399
 #
 You feel wounded -- too wounded -- too bad for you...
-$N lies suffering on the ground until no blood is left in $S body.
+$N lies on the ground until $S respwans.
 #
 suffer miss victim - should never see.
 suffer miss room - should never see.
@@ -776,7 +776,7 @@ $N screams in pain, keels over and ...
 suffer miss victim - should never see.
 suffer miss room - should never see.
 #
-You feel burning poison in your blood, and suffer.
+You feel burning poison, and suffer.
 $N looks really sick and shivers uncomfortably.
 #
 You have become poisoned somehow.

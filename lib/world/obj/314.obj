@@ -29,17 +29,17 @@ A rotted piece of cloth has gotten caught on a tall weed and flutters in the bre
 0 0 0 0
 2 1 0 1 0
 #31403
-blood still pool floor gazebo~
-the dark blood~
-The floor of this gazebo is covered in a thick layer of blood.~
+floor gazebo~
+the bamboo~
+The floor of this gazebo is covered in a thick layer of bamboo.~
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 2000 2000 13 1
 2005 0 0 1 0
 #31404
 altar dark stained~
-a dark, blood-stained altar~
-A dark, blood-stained altar is set in the center of the floor, awaiting its next victim.~
+a dark, altar~
+A dark, altar is set in the center of the floor, awaiting its next offering.~
 ~
 12 a 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -48,8 +48,7 @@ E
 altar~
    It appears that the altar is nothing more than a loose piece of stone from
 the courtyard floor or maybe one of the nearby buildings.  However, with the
-black cloth that is draped over top of it and the layers of blood stains upon
-it, it appears ghastly and otherwordly.
+black cloth that is draped over top of it otherwordly.
 ~
 #31405
 bookshelf shelf old~
@@ -60,48 +59,48 @@ An old bookshelf clings precariously to the wall, nearly falling from the crumbl
 1000 0 -1 0
 0 0 0 1 0
 #31406
-book blood stained~
-a blood-stained book~
-A blood-stained book rests comfortably here.~
+book stained~
+a book~
+A book rests comfortably here.~
 ~
 2 bg 0 0 0 ao 0 0 0 0 0 0 0
 25 33 4 17
 11 10 0 1 0
 #31407
-body dead child~
-a child's dead body~
-A small child's body lies against the north wall, its chest a gaping empty hole.~
+statue palying child~
+a statue of a child playing is here.~
+A statue of a small child happily playing lies against the north wall~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 #31408
-barrel burning~
-a burning barrel~
-A barrel holds assorted trash within, all ablaze in fire.~
+barrel~
+a barrel~
+A barrel holds assorted trash within.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 #31409
-fresh cadaver~
-a fresh corpse~
-A fresh cadaver lies steaming in the cortyard.~
+fresh statue~
+a fresh statue~
+A fresh statue lies steaming in the cortyard in progress.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 E
-corpse~
-   It looks as if it might have been alive just minutes ago.  The blood which
-wells over its chest is still warm, still flowing - undried.  Its chest is torn
-open, split in two.  From the amount blood and innards splayed over the corpse's
-chest, it appears the heart was taken.
+statue~
+ It looks as if it might have been started just minutes ago.  The carving which
+wells over its chest is still new, still flowing.  Its chest is still open.  From
+the amount of carving and scrapes splayed over the statues's
+chest, it appears much to be done.
 ~
 #31410
-decayed carcass~
-a decayed corpse~
-A mostly decayed carcass is hanging from the wall, its chest a large gaping hole.~
+painting~
+a new painting~
+A mostly new painting is hanging from the wall, its a work in progress.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -109,7 +108,7 @@ A mostly decayed carcass is hanging from the wall, its chest a large gaping hole
 #31411
 blade shining curved~
 a shining curved blade~
-An evil-looking dagger with a curved blade has been left here.~
+An sweet-looking dagger with a curved blade has been left here.~
 ~
 5 a 0 0 0 an 0 0 0 0 0 0 0
 2 6 6 11
@@ -120,8 +119,8 @@ A
 19 3
 #31412
 robe soiled~
-a soiled and bloodstained robe~
-A soiled and bloodstained robe has been discarded.~
+a robe~
+A robe has been discarded.~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 6 0 0 0
@@ -147,9 +146,9 @@ A grubby jerkin has been tossed aside.~
 4 0 0 0
 4 10 0 1 0
 #31415
-blood innocent~
-the blood of an innocent~
-A smear of blood is on the ground.~
+child drawing innocent~
+the drawing of an innocent~
+A drawing of a child is on the ground.~
 ~
 11 0 0 0 0 ai 0 0 0 0 0 0 0
 0 0 0 0
@@ -276,17 +275,17 @@ A black cape has been left here.~
 A
 19 3
 #31427
-vial blood~
-a vial of blood~
-A vial of blood has been left here.~
+vial water~
+a vial of water~
+A vial of experimental water has been left here.~
 ~
 10 a 0 0 0 ao 0 0 0 0 0 0 0
 10 7 39 22
 1 10 0 1 0
 #31428
-dark red blood ring~
-a dark red blood ring~
-A dark red blood ring has been left here.~
+dark red ring~
+a dark red ring~
+A dark red ring has been left here.~
 ~
 9 0 0 0 0 ab 0 0 0 0 0 0 0
 3 0 0 0

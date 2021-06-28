@@ -292,15 +292,15 @@ E
 T 11815
 T 11824
 #11818
-gardening shadow-man man ~
-a gardening shadow-man~
-A shadow-man is here, tending to the roses.
+gardening man ~
+a gardening man~
+A man is here, tending to the roses.
 ~
-   He looks to be in his late thirties, several days worth of stubble darkening
+He looks to be in his late thirties, several days worth of stubble darkening
 the lower portion of his face like a shadow.  Cool blue eyes concentrate on his
 work, frail dark hair beginning to thin in places, the first signs of wrinkles
 cracking across his face.  His hands move quickly, roughly adjusting the live
-roses, crushing the thorny dead ones, his hands scarlet-stained with blood.
+roses, removing the thorny dead ones.
 ~
 253962 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -455,8 +455,7 @@ A girl sits weeping, her tears shattering like ice on the counter top.
    This young girl is dark haired and solemn faced, her large blue eyes filling
 with crystal tears that seem to turn to ice as they drip down her face,
 shattering violently on the surface of the counter.  Her hands fidget
-restlessly, streaked with blood as she plays with the broken tears and mirror
-shards.
+restlessly, as she plays with the broken tears and mirror shards.
 ~
 253962 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -488,8 +487,7 @@ A fidgety girl sits fondling her knife as she plays.
 ~
    She looks wound tightly with energy, hardly keeping still as her hands roam
 from one object to another.  Constantly playing and touching, she seems like an
-average curious kid except for the long angry cuts that line the insides of her
-arms, red blood spilling over her skin like crimson tears.
+average curious kid.
 ~
 253962 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1

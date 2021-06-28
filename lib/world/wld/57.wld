@@ -36,7 +36,7 @@ Wooden door~
 E
 tracks~
    The tracks are hard to read on this polished floor and would probably be
-unreadable if not for the traces of blood.
+unreadable if not for the traces of foot prints.
 ~
 S
 #5702
@@ -150,9 +150,8 @@ Too bad, you seem to have fallen into a never ending abyss.
 S
 T 5799
 #5708
-The Bloodstained Hallway~
-   Like the entrance, this hallway has blood covering just about every part of
-it. The animal tracks continue through here, they have three claws, two of
+The Hallway~
+   Like the entrance, this hallway the animal tracks continue through here, they have three claws, two of
 which are to the front and one to the rear. A long mark has been etched into
 the roof.
 ~
@@ -209,8 +208,8 @@ S
 #5711
 Yet Another Hallway~
    This is another hallway, the tracks that were on the floor earlier are faint
-but still readable.  Following the tracks is a small trail of blood, or what
-looks like blood.  It's a bit darker than most blood you've seen as it has more
+but still readable.  Following the tracks is a small trail, or what
+looks like tracks.  It's a bit darker than most tracks you've seen as it has more
 black in it.  Could this be a trap?
 ~
 57 0 0 0 0 0
@@ -291,7 +290,7 @@ S
 Nearing the end of the muddy hall~
    The southern end of this hallway is lighter than the rest, probably because
 of the light coming from the portal in front of you.  The portal has the color
-of blood, deep red.  Looking through it seems to go on forever although there
+of deep red.  Looking through it seems to go on forever although there
 is a bright green spot in the distance.
 ~
 57 0 0 0 0 0
@@ -633,8 +632,7 @@ D5
 S
 #5734
 At the top of the tree~
-   A pool of blood is slowly forming in a hollow to the right and the stench of
-death is thick in the air.  This place appears to be the home of a Tree Nymph.
+This place appears to be the home of a Tree Nymph.
 It is plain to see that the owner of this place was a female because of all the
 portraits of male Nymphs on one of the branches that obviously serves as a
 mantlepiece.
@@ -644,19 +642,10 @@ D5
 ~
 ~
 0 0 5733
-E
-blood~
-   A pool of bluey gray blood has collected in the corner.
-~
-E
-pool~
-   A pool of bluey gray blood has collected in the corner.
-~
 S
 #5735
-A Bloodied Room~
-   This room is covered in blood.  It has dried all over the walls and drips
-from the roof.  A skeleton is hanging on a sign that stands next to the door.
+A Room~
+A sign is hanging on a sign that stands next to the door.
 ~
 57 516 0 0 0 0
 E

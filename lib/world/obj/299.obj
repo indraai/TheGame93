@@ -16,7 +16,7 @@ E
 altar~
    The altar before you is covered with glyphs and symbols that mean nothing to
 you.  It obviously is not the original altar that was in this cathedral.  There
-are fresh blood stains down the side of it and the top is stained a very deep
+are fresh stains down the side of it and the top is stained a very deep
 brown.
 ~
 #29901
@@ -161,16 +161,16 @@ key gold golden~
 teeth of the key.
 ~
 #29911
-key blood~
-a strange blood key~
-A sinister key of blood beckons...~
+key strang sinistere~
+a strange key~
+A sinister key beckons...~
 ~
 18 gh 0 0 0 ao 0 0 0 0 0 0 0
 29911 0 0 0
 1 1 0 0 0
 E
-key blood~
-   This key seems to have been formed by mystically forming human blood into the
+key~
+   This key seems to have been formed by mystically forming into the
 shape of a rather sinister key.
 ~
 #29912
@@ -225,7 +225,7 @@ A
 #29915
 halberd giant~
 a giant halberd~
-A tremendously large halberd stained with blood rests here.~
+A tremendously large halberd rests here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 2 15 3

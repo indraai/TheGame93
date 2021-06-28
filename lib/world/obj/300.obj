@@ -11,16 +11,16 @@ falchion sword~
    It is a short sword of the hacking variety, it seems a bit worn.
 ~
 #30001
-blood chalice blood~
+chalice~
 a chalice~
-A blood-stained chalice has been set down here.~
+A chalice has been set down here.~
 ~
 17 0 0 0 0 ao 0 0 0 0 0 0 0
 6 6 13 1
 11 300 0 0 0
 E
 chalice~
-   What a perfect gift for mother!
+What a perfect chalice!
 ~
 #30002
 coffer copper ornate~
@@ -88,30 +88,29 @@ parts...
 A
 18 1
 #30007
-blood pool blood~
-the pool~
-You seem to be standing in a pool of blood.~
+water puddle~
+the puddle~
+You seem to be standing in a puddle.~
 ~
 17 0 0 0 0 0 0 0 0 0 0 0 0
 15 15 13 5
 0 0 0 0 0
 E
-blood pool~
-   Wow!  Perfect for the vampire in you!  I wonder if it is human or animal
-blood however...
+puddle~
+   Wow!  Where did this water come from?
 ~
 #30008
-Bloodstone stone red~
-the Bloodstone~
-A large, dull red stone awaits, invitingly, to be picked up.~
+Moonstone stone blue~
+the Moonstone~
+A large, dull blue stone awaits, invitingly, to be picked up.~
 ~
 4 bgj 0 0 0 ao 0 0 0 0 0 0 0
 13 7 7 25
 8 300 0 0 0
 E
-bloodstone stone red~
+moonstone stone blue~
    It glows malignantly with its own ruddy light.  You peer within the stone
-only to see the vague impression of some misshaped soul trapped within.
+only to see the vague impression of some other life.
 ~
 A
 4 -2

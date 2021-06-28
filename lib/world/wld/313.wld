@@ -456,8 +456,7 @@ D2
 S
 #31322
 South End of the Eastern Causeway~
-   A great amount of fighting must have been centered in this area, as the whole
-top of the causeway here is strewn with body parts, stained in blood and
+   A great amount of fighting must have been centered in this area
 littered with crude weapons and armor.  The fields below - on every side - still
 smoke in places, with the occasional clang of armor and weapons reaching your
 ears.
@@ -515,8 +514,7 @@ D3
 S
 #31325
 Stone Causeway~
-   The red blood of humans is mixed with the thick, green slimy blood of goblins
-on these rocks.  Looking down into the fields below, it makes you wonder if
+Looking down into the fields below, it makes you wonder if
 through the smoke and ash drifting in the wind if there isn't some goblin or
 even a band of them waiting for you to descend.  Waiting so that they might tear
 you throat out and eat you whole.
@@ -1030,7 +1028,7 @@ D3
 0 0 31353
 S
 #31353
-Trampled and Bloodied Ground~
+Trampled Ground~
    The roving goblins of this area must have not wanted to leave a single stalk,
 a single bit of shrubbery standing.
 ~
@@ -1104,8 +1102,7 @@ S
 #31357
 Charred Battlesite~
    The battle that must have been fought in this space appears to have cost both
-sides dearly.  Husks of goblin bodies litter the ground and blood from the
-defenders of this land soaks the soil.
+sides dearly.  Husks of goblin bodies litter the ground.
 ~
 313 4 0 0 0 0
 D0
@@ -1124,8 +1121,7 @@ S
 #31358
 Charred Battlesite~
    The battle that must have been fought in this space appears to have cost both
-sides dearly.  Husks of goblin bodies litter the ground and blood from the
-defenders of this land soaks the soil.  The wind blows through this corner of
+sides dearly.  Husks of goblin bodies litter the ground.  The wind blows through this corner of
 the field, howling against the rock wall of the causeway, sounding almost like
 the wail of the dead.
 ~
@@ -1142,8 +1138,7 @@ S
 #31359
 Charred Battlesite~
    The battle that must have been fought in this space appears to have cost both
-sides dearly.  Husks of goblin bodies litter the ground and blood from the
-defenders of this land soaks the soil.
+sides dearly.  Husks of goblin bodies litter the ground.
 ~
 313 0 0 0 0 0
 D0
@@ -1162,8 +1157,7 @@ S
 #31360
 Charred Battlesite~
    The battle that must have been fought in this space appears to have cost both
-sides dearly.  Husks of goblin bodies litter the ground and blood from the
-defenders of this land soaks the soil.
+sides dearly.  Husks of goblin bodies litter the ground.
 ~
 313 0 0 0 0 0
 D0
@@ -1181,7 +1175,7 @@ D3
 S
 #31361
 Blackened Soil~
-   The soil here has been so covered in blood and fire that it has turned black,
+   The soil here has been so covered in fire that it has turned black,
 no longer able to sustain plant life.
 ~
 313 0 0 0 0 0
@@ -1200,7 +1194,7 @@ D2
 S
 #31362
 Blackened Soil~
-   The soil here has been so covered in blood and fire that it has turned black,
+   The soil here has been so covered in fire that it has turned black,
 no longer able to sustain plant life.
 ~
 313 0 0 0 0 0
@@ -1219,7 +1213,7 @@ D3
 S
 #31363
 Blackened Soil~
-   The soil here has been so covered in blood and fire that it has turned black,
+   The soil here has been so covered in fire that it has turned black,
 no longer able to sustain plant life.
 ~
 313 0 0 0 0 0
@@ -1238,7 +1232,7 @@ D2
 S
 #31364
 Blackened Soil~
-   The soil here has been so covered in blood and fire that it has turned black,
+   The soil here has been so covered in fire that it has turned black,
 no longer able to sustain plant life.
 ~
 313 0 0 0 0 0
@@ -1257,7 +1251,7 @@ D3
 S
 #31365
 Blackened Soil~
-   The soil here has been so covered in blood and fire that it has turned black,
+   The soil here has been so covered in fire that it has turned black,
 no longer able to sustain plant life.
 ~
 313 0 0 0 0 0
@@ -1272,7 +1266,7 @@ D2
 S
 #31366
 Blackened Soil~
-   The soil here has been so covered in blood and fire that it has turned black,
+   The soil here has been so covered in fire that it has turned black,
 no longer able to sustain plant life.  Looking south and west over the
 desolation, no sign of any plant life can be seen.
 ~
@@ -1289,8 +1283,7 @@ S
 #31367
 Scorfahr Farms~
    This area was at one time the most fertile of the fields in the area.  After
-the raids, the goblins came and dumped gallons of their dead's blood all over
-the fields to insure that no crop would ever grow again.  The goblins' plan is
+the raids, the goblins came to insure that no crop would ever grow again.  The goblins' plan is
 simple - starve the inhabitants out.
 ~
 313 0 0 0 0 0
@@ -1325,8 +1318,7 @@ S
 #31369
 Scorfahr Farms~
    This area was at one time the most fertile of the fields in the area.  After
-the raids, the goblins came and dumped gallons of their dead's blood all over
-the fields to insure that no crop would ever grow again.  The goblins' plan is
+the raids, the goblins came to insure that no crop would ever grow again.  The goblins' plan is
 simple - starve the inhabitants out.  To the east are the remains of a large
 farmhouse.
 ~
@@ -1347,8 +1339,7 @@ S
 #31370
 Scorfahr Farms~
    This area was at one time the most fertile of the fields in the area.  After
-the raids, the goblins came and dumped gallons of their dead's blood all over
-the fields to insure that no crop would ever grow again.  The goblins' plan is
+the raids, the goblins came to insure that no crop would ever grow again.  The goblins' plan is
 simple - starve the inhabitants out.
 ~
 313 0 0 0 0 0
@@ -1368,8 +1359,7 @@ S
 #31371
 Scorfahr Farms~
    This area was at one time the most fertile of the fields in the area.  After
-the raids, the goblins came and dumped gallons of their dead's blood all over
-the fields to insure that no crop would ever grow again.  The goblins' plan is
+the raids, the goblins came to insure that no crop would ever grow again.  The goblins' plan is
 simple - starve the inhabitants out.  To the south are the remains of Scorfahr's
 palatial farmhouse.
 ~
@@ -1390,8 +1380,7 @@ S
 #31372
 Scorfahr Farms~
    This area was at one time the most fertile of the fields in the area.  After
-the raids, the goblins came and dumped gallons of their dead's blood all over
-the fields to insure that no crop would ever grow again.  The goblins' plan is
+the raids, the goblins came to insure that no crop would ever grow again.  The goblins' plan is
 simple - starve the inhabitants out.
 ~
 313 0 0 0 0 0
@@ -1407,8 +1396,7 @@ S
 #31373
 Scorfahr Farms~
    This area was at one time the most fertile of the fields in the area.  After
-the raids, the goblins came and dumped gallons of their dead's blood all over
-the fields to insure that no crop would ever grow again.  The goblins' plan is
+the raids, the goblins came to insure that no crop would ever grow again.  The goblins' plan is
 simple - starve the inhabitants out.
 ~
 313 0 0 0 0 0
