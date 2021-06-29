@@ -335,7 +335,7 @@ Alley~
    A dead cat lies across the entrance to this alleyway as if some sort of
 guardian or omen.  None of the pedestrians on Trade Road to the north even
 glance in this direction as they pass on by.  The alley continues on to the
-south.  A strong smell of old blood and rot wafts through the area...
+south.
 ~
 294 4 0 0 0 1
 D0
@@ -1062,13 +1062,9 @@ sigil~
 ~
 S
 #29435
-Butcher's Shop~
-   A somewhat unpleasant smell strikes your nose as you walk through the open
-screen door of the shop.  The scent of raw meat, blood and sweat are clearly
-noticable; standard for a good butchery shop.  A glass panel separates you from
-a bewildering array of various slabs and shoulders of beef, deer, rabbit, and
-others.  A sign hangs nearby, wooden numbers hanging from it on a large nail...
-Take a number?
+Fruit Shop~
+   A pleasant smell strikes your nose as you walk through the open
+screen door of the shop.  The scent of fresh fruits, flowers and honey are clearly noticable.  A glass panel separates you from a bewildering array of various goodies.  A sign hangs nearby, wooden numbers hanging from it on a large nail... Take a number?
 ~
 294 8 0 0 0 0
 D2
@@ -1077,21 +1073,20 @@ This shop steps out onto Trade Road to the south.
 ~
 0 0 29402
 E
-meat slabs slab meats shoulder shoulders beef deer rabbit~
-   Looks good, if you like raw meat.
+fruits~
+Oooh look an amazing fruit plate.
 ~
 E
 panel glass~
-   You believe this is called a 'sneeze guard'.
+Hey man watch your sneezing!!!
 ~
 E
-blood~
-   Blood is splattered on the countertop and floor.  What were you expecting
-from a butchery shop?
+juice~
+Flowers and Fruit juices are splattered on the countertop and floor.  What were you expecting?
 ~
 E
 sign number numbers~
-   Next number on the sign is number 4.  That's not too long of a wait...
+ Next number on the sign is number 4.  That's not too long of a wait...
 ~
 S
 #29436

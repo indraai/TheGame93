@@ -298,13 +298,14 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 
   sprintbit(GET_OBJ_VAL(OLC_OBJ(d), 1), container_bits, bits, sizeof(bits));
   write_to_output(d,
-	  "%s1%s) CLOSEABLE\r\n"
-	  "%s2%s) PICKPROOF\r\n"
-	  "%s3%s) CLOSED\r\n"
-	  "%s4%s) LOCKED\r\n"
-	  "Container flags: %s%s%s\r\n"
+	  "\nmenu:1:CLOSEABLE\r"
+	  "\nmenu:2:PICKPROOF\r"
+	  "\nmenu:3:CLOSED\r"
+	  "\nmenu:4:LOCKED\r"
+    "\n===\r"
+	  "\nFLAGS: %s\r"
 	  "Enter flag, 0 to quit : ",
-	  grn, nrm, grn, nrm, grn, nrm, grn, nrm, cyn, bits, nrm);
+	  bits);
 }
 
 /* For extra descriptions. */
@@ -315,16 +316,15 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "Extra desc menu\r\n"
-	  "%s1%s) Keywords: %s%s\r\n"
-	  "%s2%s) Description:\r\n%s%s\r\n"
-	  "%s3%s) Goto next description: %s\r\n"
-	  "%s0%s) Quit\r\n"
-	  "Enter choice : ",
+	  "\n##Extra Description\r"
+	  "input:keywords:1:$s%s\r"
+	  "input:description:2:%s\r"
+	  "input:next description:3:%s\r"
+	  "menu:0:quit\r",
 
-     	  grn, nrm, yel, (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
-	  grn, nrm, yel, (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
-	  grn, nrm, !extra_desc->next ? "Not set." : "Set.", grn, nrm);
+ 	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
+    (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
+	  !extra_desc->next ? "Not set." : "Set.");
   OLC_MODE(d) = OEDIT_EXTRADESC_MENU;
 }
 
@@ -652,39 +652,35 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "%s7%s) Wear flags  : %s%s\r\n"
-	  "%s8%s) Weight      : %s%d\r\n"
-	  "%s9%s) Cost        : %s%d\r\n"
-	  "%sA%s) Cost/Day    : %s%d\r\n"
-	  "%sB%s) Timer       : %s%d\r\n"
-	  "%sC%s) Values      : %s%d %d %d %d\r\n"
-	  "%sD%s) Applies menu\r\n"
-	  "%sE%s) Extra descriptions menu: %s%s%s\r\n"
-          "%sM%s) Min Level   : %s%d\r\n"
-          "%sP%s) Perm Affects: %s%s\r\n"
-	  "%sS%s) Script      : %s%s\r\n"
-          "%sW%s) Copy object\r\n"
-          "%sX%s) Delete object\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ",
+	  "\ninput:7:wear flags:%s\r"
+	  "\ninput:8:weight:%s\r"
+	  "\ninput:9:cost:%d\r"
+	  "\ninput:A:day rate:%d\r"
+	  "\ninput:B:timer:%d"
+	  "\ninput:C:values:%d %d %d %d\r"
+	  "\nmenu:D:applies%s\r"
+	  "\nmenu:E:extra:%s\r"
+    "\ninput:M:min level:%d\r"
+    "\nmenu:P:perm affects:%s\r"
+	  "\nmenu:S:Script:%s\r"
+    "\nmenu:W:copy object\r"
+    "\nmenu:X:delete object\r"
+	  "\nmenu:Q:quit\r"
+	  "\n===\r",
 
-	  grn, nrm, cyn, buf1,
-	  grn, nrm, cyn, GET_OBJ_WEIGHT(obj),
-	  grn, nrm, cyn, GET_OBJ_COST(obj),
-	  grn, nrm, cyn, GET_OBJ_RENT(obj),
-	  grn, nrm, cyn, GET_OBJ_TIMER(obj),
-	  grn, nrm, cyn, GET_OBJ_VAL(obj, 0),
+	  buf1,
+	  GET_OBJ_WEIGHT(obj),
+	  GET_OBJ_COST(obj),
+	  GET_OBJ_RENT(obj),
+	  GET_OBJ_TIMER(obj),
+	  GET_OBJ_VAL(obj, 0),
 	  GET_OBJ_VAL(obj, 1),
 	  GET_OBJ_VAL(obj, 2),
 	  GET_OBJ_VAL(obj, 3),
-	  grn, nrm, grn, nrm, cyn, obj->ex_description ? "Set." : "Not Set.", grn,
-          grn, nrm, cyn, GET_OBJ_LEVEL(obj),
-          grn, nrm, cyn, buf2,
-          grn, nrm, cyn, OLC_SCRIPT(d) ? "Set." : "Not Set.",
-	  grn, nrm,
-	  grn, nrm,
-          grn, nrm
-  );
+	  obj->ex_description ? "Set." : "Not Set.", grn,
+    GET_OBJ_LEVEL(obj),
+    buf2,
+    OLC_SCRIPT(d) ? "Set." : "Not Set.");
   OLC_MODE(d) = OEDIT_MAIN_MENU;
 }
 

@@ -50,9 +50,9 @@ A golden orb is floating about here.~
 0 0 -1 0
 2 60 6 0
 #12507
-amputating saw~
-an amputating saw~
-A saw used to amputate limbs is here covered in blood.~
+saw tools~
+a woodcutting saw~
+A woodcutting saw is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 3 5 4
@@ -158,8 +158,8 @@ A pack with the seal of Hannah is here.~
 9 120 12 0
 #12569
 bandages~
-some bloody bandages~
-A few strips of blooded cloth lies here.~
+some bandages~
+A few strips of cloth lies here.~
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

@@ -276,9 +276,7 @@ S
 #28312
 A Cell~
    This is one of the cells of the dungeon in the basement of the old, creepy
-house.  There is blood on the walls, and on the floor lies a pool of blood.
-Bones are hanging on the walls and on the floor, with blood constantly dripping
-off of the ones hanging.
+house.
 ~
 283 104 0 0 0 0
 D2
@@ -290,9 +288,7 @@ S
 #28313
 A Cell~
    This is one of the cells of the dungeon inside the basement of the old,
-spooky house.  There are bloodstains everywhere, and pools of blood lie on the
-floor.  Bones hang off the walls, and lay in piles on the floor, with blood
-smeared all over them and blood is even dripping off of the hanging skeletons.
+spooky house.
 
 ~
 283 104 0 0 0 0
@@ -304,10 +300,7 @@ cell bars~
 S
 #28314
 The Dungeon~
-   You are inside of the dungeon in the basement of the house.  Blood marks can
-be found almost everywhere, as torches light up the rooms from their spot on
-the walls.  Sometimes shadows can be seen on the walls, making this a very
-frightening place.
+You are inside of the dungeon in the basement of the house.
 ~
 283 8 0 0 0 0
 D0
@@ -334,9 +327,7 @@ S
 #28315
 Another Cell~
    You are inside of another cell, nothing different from anything you've seen
-so far.  Blood drenches the cell, and the bones stand out so much you could
-have seen them from the tunnel.  Oh well, better get out of here anyway.  No
-sense in staying here your whole life.
+so far. Oh well, better get out of here anyway.  No sense in staying here your whole life.
 ~
 283 104 0 0 0 0
 D2
@@ -346,11 +337,8 @@ cell bars~
 1 28302 28314
 S
 #28316
-A Bloody Cell~
-   This cell is bloodier than ever!  Blood drenches the walls, and there is
-blood all over the floor, making you slip and lose your balance.  Lucky you
-didn't fall in that mess!  Yuck!  Red bones lie in a corner, their color
-changed as an effect to the blood.
+A Cell~
+You are an empty cell.
 ~
 283 104 0 0 0 0
 D0
@@ -361,7 +349,7 @@ cell bars~
 S
 #28317
 The Entrance to the Death Chambers~
-   You are now in a room which leads you to three other rooms.  They don't look
+You are now in a room which leads you to three other rooms.  They don't look
 to be the most happenin' places either.  A skull lies in front of you with a
 rat crawling inside of it.  A small sign sticks up from the ground here.
 ~
@@ -1147,11 +1135,7 @@ door~
 S
 #28357
 The Secret Den of the Owner~
-   This is the secret den of the owner of this house.  An old woman sits here
-watching your every move.  Blood marks paint the wall along with deep
-scratches.  The old woman looks to be very old, as in centuries!  You try to
-smile, but she stands up and releases venom from her huge fangs!  Get out of
-here and fast!!
+This is the secret den of the owner of this house.  An old woman sits here watching your every move. The old woman looks to be very old, as in centuries!  You try to smile, but she stands up and releases venom from her huge fangs!  Get out of here and fast!!
 ~
 283 745 0 0 0 0
 D4

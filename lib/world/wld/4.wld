@@ -137,8 +137,7 @@ S
 #407
 Rocky Path~
    The sound of scuffing and shuffling can be heard as the rocks on the path are
-disturbed by movement.  In patches over the ground, several spots of blood can
-be seen covering the rocks with a sickly sheen of moisture.
+disturbed by movement.
 ~
 4 0 0 0 0 3
 D1
@@ -343,9 +342,7 @@ S
 #419
 The Jade Forest~
    The forest grows lush and damp, its dark greenery dripping with moisture and
-dewdrops as the light from above becomes dimmer and more diffuse.  The sounds of
-creatures battling can be heard, evidence of previous fights lying on the ground
-in streaks of blood and tufts of fur.
+dewdrops as the light from above becomes dimmer and more diffuse.
 ~
 4 0 0 0 0 3
 D0
@@ -419,7 +416,7 @@ S
 #423
 Tunnel of the Dead~
    The gruesome surroundings are impossible to ignore, the stench of death still
-lingering heavy in the air.  Blood stains the walls and floor.  Several
+lingering heavy in the air.  Several
 skeletons are scattered about the floor, threatening to trip anyone who passes
 through.
 ~

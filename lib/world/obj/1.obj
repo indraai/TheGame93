@@ -548,9 +548,9 @@ A scale mail jacket is lying on the ground.~
 4 0 0 0
 10 500 0 0 0
 #146
-blood pool~
-a pool of blood~
-A pool of blood from a recent kill has collected here.~
+water pool~
+a pool of water~
+A pool of water has collected here.~
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 10 10 13 0
@@ -1373,18 +1373,17 @@ broken staff~
 it together wrong.  Someone must have not been able to "join" it properly.
 ~
 #193
-blood trickle stream thin liquid red blood~
-a thin stream of red liquid~
-A small trickle of red liquid flows from the shop to the north to a drain to the south.~
+water trickle stream liquid~
+a thin stream of water~
+A small trickle of water flows from the shop to the north to a drain to the south.~
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 13 0
 0 0 0 0 0
 T 79
 E
-blood trickle stream thin liquid red blood~
-   The liquid has a heavy metallic scent to it and is mixed with dirt and a few
-other questionable liquids.
+trickle stream thin liquid water~
+ The liquid is mixed with dirt and a few other unknown substances.
 ~
 #194
 closet~

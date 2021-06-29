@@ -377,9 +377,8 @@ S
 #2709
 A Weeping Cave~
    The air here feels cool and sticky with moisture, and the sound of dripping
-echoes loudly on the smooth surface of the rock floor.  Numerous drops of
-crimson liquid seem to ooze from the ceiling, staining the walls blood red as
-they weep their way slowly down, collecting like a spreading wound on the
+echoes loudly on the smooth surface of the rock floor.  Numerous drops of liquid seem to ooze from the ceiling, staining the walls as
+they weep their way slowly down, collecting on the
 ground.
 ~
 27 9 0 0 0 0
@@ -402,7 +401,7 @@ Guarded Gates~
    Intense excavation here has made the cavern much higher than necessary for
 even the tallest memlin.  Two towering quartz gates block further advancement
 into the tunnel.  Diamond-hard and flawless, they seem strikingly out of place
-in the dusty passage, illuminating it with refracted light.  Blood-red beryll
+in the dusty passage, illuminating it with refracted light.  Red beryll
 is embedded carefully into the glassy surface, inscribing some evil spell.
 ~
 27 12 0 0 0 0
@@ -435,8 +434,7 @@ breath.  To the south, two large clear gates block the exit.
 ~
 27 8 0 0 0 0
 D2
-   A bright glow shimmers from this end of the passage, tinted only by the
-blood red hue of some gem refracting light.
+   A bright glow shimmers from this end of the passage, tinted only by the red hue of some gem refracting light.
 ~
 GlassyGates~
 2 2709 2710
@@ -664,7 +662,7 @@ S
 #2718
 A Low Tunnel~
    The ceiling hangs very low here, and the sharp rock has not been smoothed so
-that a fall here would mean definite injury, as indicated by the faded blood
+that a fall here would mean definite injury, as indicated by the faded
 streaks on the rock.  A film of slimy moisture makes the ground even more
 treacherous to navigate, and the wisdom of staying here is questionable.
 ~
@@ -682,8 +680,8 @@ water filling the air.
 ~
 0 0 2712
 E
-faded blood streaks~
-   It looks as if this place is a site of regular injury, old and new blood
+faded streaks~
+   It looks as if this place is a site of regular injury, old and new
 marks marring the otherwise shiny surface of the rock.
 ~
 E
@@ -1513,8 +1511,7 @@ S
 Heart of the Mines~
    Extensive excavation here leaves the cavernous air murky with disturbed
 particles of grime that dance in the turbulent, smoky air.  An intensely acrid
-smell of sweat hangs heavily over the place, along with the metallic tang of raw
-minerals and recently spilt blood.
+smell of sweat hangs heavily over the place, along with the metallic tang of raw minerals.
 ~
 27 9 0 0 0 0
 D0
@@ -1657,7 +1654,7 @@ D4
 S
 #2769
 Dark Corridor~
-   An overpowering smell of fire and blood fills this hall with every wave of
+   An overpowering smell of fire fills this hall with every wave of
 hot air.  The sound of desperate wailing accompanies the continuous breeze that
 churns indecisively about the room, rippling the ominous puddles that darken the
 floor.
@@ -1696,7 +1693,7 @@ S
 #2771
 Place of Pain~
    A sleek black cross lies horizontally on a glimmering obsidian stand in the
-center of the room, dark bloodied chains draped carelessly over it.  Against the
+center of the room, dark chains draped carelessly over it.  Against the
 western wall a massive steel stove burns, flickering firelight illuminating a
 selection of terrifying metal instruments hung upon the walls.
 ~
@@ -1895,7 +1892,7 @@ Lyra, similar in expression to love, but more selfish and obsessive.
 Flickering fire dances freely along the metal gilding in the wall, writhing and
 changing into various humanoid forms as it fills the room with heat and a film
 of moisture.  Scarlet symbols of passion and possession paint the floor and
-ceiling alike, splashed liberally here and there like splatters of blood.
+ceiling alike.
 ~
 27 8 0 0 0 0
 D1
@@ -1927,7 +1924,7 @@ heat so intense that everything shimmers with waves of glistening evaporation.
 Perfectly reflective metal flooring mirrors the writhing light, suspending the
 entire contents of this massive room above the raging inferno below.  A great
 throne stands in the center, formed magically from red beryll and studded with
-glimmering blooddrop rubies.  A feeling of intense anger and energy fills the
+glimmering red rubies.  A feeling of intense anger and energy fills the
 air, tiny static sparks igniting randomly here and there.
 ~
 27 8 0 0 0 0
