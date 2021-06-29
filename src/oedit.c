@@ -652,7 +652,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\ninput:7:wear flags:%s\r"
+	  "\ninput:7:wear flags:%d\r"
 	  "\ninput:8:weight:%s\r"
 	  "\ninput:9:cost:%d\r"
 	  "\ninput:A:day rate:%d\r"
