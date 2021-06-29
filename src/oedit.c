@@ -652,39 +652,35 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\ninput:7:wear flags:%s\r"
-	  "%s8%s) Weight      : %s%d\r\n"
-	  "%s9%s) Cost        : %s%d\r\n"
-	  "%sA%s) Cost/Day    : %s%d\r\n"
-	  "%sB%s) Timer       : %s%d\r\n"
-	  "%sC%s) Values      : %s%d %d %d %d\r\n"
-	  "%sD%s) Applies menu\r\n"
-	  "%sE%s) Extra descriptions menu: %s%s%s\r\n"
-          "%sM%s) Min Level   : %s%d\r\n"
-          "%sP%s) Perm Affects: %s%s\r\n"
-	  "%sS%s) Script      : %s%s\r\n"
-          "%sW%s) Copy object\r\n"
-          "%sX%s) Delete object\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ",
+	  "\ninput:7:wear:%s\r"
+	  "\ninput:8:weight:%d\r"
+	  "\ninput:9:cost:%d\r"
+	  "\ninput:A:cost/day:%d\r"
+	  "\ninput:B:timer:%d\r"
+	  "\nmenu:C:values:%d %d %d %d\r"
+	  "\nmenu:D:applies menu\r"
+	  "\nmenu:E:extra description:%s\r"
+    "\n:input:M:min level:%d\r"
+    "\nmenu:perm affects:%s\r"
+	  "\nmenu:S:script:%s\r"
+    "\nmenu:W:copy object\r"
+    "\n:menu:X:delete object\r"
+	  "\n:menu:Q:quit\r"
+	  "\n===\r",
 
 	  buf1,
-	  grn, nrm, cyn, GET_OBJ_WEIGHT(obj),
-	  grn, nrm, cyn, GET_OBJ_COST(obj),
-	  grn, nrm, cyn, GET_OBJ_RENT(obj),
-	  grn, nrm, cyn, GET_OBJ_TIMER(obj),
-	  grn, nrm, cyn, GET_OBJ_VAL(obj, 0),
+	  GET_OBJ_WEIGHT(obj),
+	  GET_OBJ_COST(obj),
+	  GET_OBJ_RENT(obj),
+	  GET_OBJ_TIMER(obj),
+	  GET_OBJ_VAL(obj, 0),
 	  GET_OBJ_VAL(obj, 1),
 	  GET_OBJ_VAL(obj, 2),
 	  GET_OBJ_VAL(obj, 3),
-	  grn, nrm, grn, nrm, cyn, obj->ex_description ? "Set." : "Not Set.", grn,
-          grn, nrm, cyn, GET_OBJ_LEVEL(obj),
-          grn, nrm, cyn, buf2,
-          grn, nrm, cyn, OLC_SCRIPT(d) ? "Set." : "Not Set.",
-	  grn, nrm,
-	  grn, nrm,
-          grn, nrm
-  );
+	  obj->ex_description ? "Set." : "Not Set.", grn,
+    GET_OBJ_LEVEL(obj),
+    buf2,
+    OLC_SCRIPT(d) ? "Set." : "Not Set.");
   OLC_MODE(d) = OEDIT_MAIN_MENU;
 }
 
