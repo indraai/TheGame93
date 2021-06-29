@@ -652,21 +652,20 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\ninput:7:wear:%s\r"
-	  "\ninput:8:weight:%d\r"
-	  "\ninput:9:cost:%d\r"
-	  "\ninput:A:cost/day:%d\r"
-	  "\ninput:B:timer:%d\r"
-	  "\nmenu:C:values:%d %d %d %d\r"
+	  "\ninput[7:wear]:%s\r"
+	  "\ninput[8:weight]:%d\r"
+	  "\ninput[9:cost]:%d\r"
+	  "\ninput[A:cost/day]:%d\r"
+	  "\ninput[B:timer]:%d\r"
+	  "\nmenu:C:values - %d %d %d %d\r"
 	  "\nmenu:D:applies menu\r"
-	  "\nmenu:E:extra description:%s\r"
-    "\n:input:M:min level:%d\r"
+	  "\ntext:E:extra description:%s\r"
+    "\ninput[M:min level]:%d\r"
     "\nmenu:perm affects:%s\r"
-	  "\nmenu:S:script:%s\r"
-    "\nmenu:W:copy object\r"
-    "\n:menu:X:delete object\r"
-	  "\n:menu:Q:quit\r"
-	  "\n===\r",
+	  "\nmenu:S:script - %s\r"
+    "\nmenu:W:copy\r"
+    "\nmenu:X:delete\r"
+	  "\nmenu:Q:quit\r",
 
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
