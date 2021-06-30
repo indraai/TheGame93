@@ -639,13 +639,13 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu:5:type - %s\r"
 	  "\n:menu:6:extra flags - %s\r",
 
-	  cyn, OLC_NUM(d), nrm,
-	  grn, nrm, yel, (obj->name && *obj->name) ? obj->name : "undefined",
-	  grn, nrm, yel, (obj->short_description && *obj->short_description) ? obj->short_description : "undefined",
-	  grn, nrm, yel, (obj->description && *obj->description) ? obj->description : "undefined",
-	  grn, nrm, yel, (obj->action_description && *obj->action_description) ? obj->action_description : "Not Set.\r\n",
-	  grn, nrm, cyn, buf1,
-	  grn, nrm, cyn, buf2
+	  OLC_NUM(d),
+	  (obj->name && *obj->name) ? obj->name : "undefined",
+	  (obj->short_description && *obj->short_description) ? obj->short_description : "undefined",
+	  (obj->description && *obj->description) ? obj->description : "undefined",
+	  (obj->action_description && *obj->action_description) ? obj->action_description : "Not Set.",
+	  buf1,
+	  buf2
 	  );
   /* Send first half then build second half of menu. */
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, EF_ARRAY_MAX, buf1);
