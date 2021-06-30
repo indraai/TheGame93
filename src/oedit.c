@@ -652,17 +652,17 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\nmenu:7:wear - %s\r"
-	  "\ninput[8:weight]: %d\r"
-	  "\ninput[9:cost]: %d\r"
-	  "\ninput[A:cost per day]: %d\r"
-	  "\ninput[B:timer]: %d\r"
-	  "\nmenu:C:values - %d %d %d %d\r"
+	  "\nselect[7:wear]:%s\r"
+	  "\ninput[8:weight]:%d\r"
+	  "\ninput[9:cost]:%d\r"
+	  "\ninput[A:cost per day]:%d\r"
+	  "\ninput[B:timer]:%d\r"
+	  "\nselect[C:values]:%d %d %d %d\r"
 	  "\nmenu:D:applies menu\r"
-	  "\ntext[E:extra description]: %s\r"
+	  "\nselect[E:extra description]:%s\r"
     "\ninput[M:min level]:%d\r"
     "\nmenu:perm affects:%s\r"
-	  "\nmenu:S:script - %s\r"
+	  "\nselect[s:script]:%s\r"
     "\nmenu:W:copy\r"
     "\nmenu:X:delete\r"
 	  "\nmenu:Q:quit\r",
