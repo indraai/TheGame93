@@ -631,7 +631,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
-	  "\nitem:d\r"
+	  "\nitem:%d\r"
 	  "\ninput:1:keywords:%s\r"
 	  "\ntext:2:s-desc:%s\r"
 	  "\ntext:3:l-desc:%s\r"
