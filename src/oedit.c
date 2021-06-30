@@ -340,14 +340,15 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
   for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
     if (OLC_OBJ(d)->affected[counter].modifier) {
       sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
-      write_to_output(d, " %s%d%s) %+d to %s\r\n", grn, counter + 1, nrm,
+      write_to_output(d, " menu:%d:%d to %s\r",counter + 1,
 	      OLC_OBJ(d)->affected[counter].modifier, apply_buf);
     } else {
-      write_to_output(d, " %s%d%s) None.\r\n", grn, counter + 1, nrm);
+      write_to_output(d, " menu:%d:None\r", counter + 1);
     }
   }
-  write_to_output(d, "\r\nEnter affection to modify (0 to quit) : ");
+  write_to_output(d, "\n## Affection");
   OLC_MODE(d) = OEDIT_PROMPT_APPLY;
+  write_to_output(d, "menu:0:quit");
 }
 
 /* Ask for liquid type. */
@@ -356,8 +357,9 @@ static void oedit_liquid_type(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
-  write_to_output(d, "\r\n%sEnter drink type : ", nrm);
+  write_to_output(d, "\n## Liquid Type\r");
   OLC_MODE(d) = OEDIT_VALUE_3;
+  write_to_output(d, "menu:0:quit");
 }
 
 /* The actual apply to set. */
@@ -366,7 +368,7 @@ static void oedit_disp_apply_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
-  write_to_output(d, "\r\nEnter apply type (0 is no apply) : ");
+  write_to_output(d, "\n## Liquid Type\r");
   OLC_MODE(d) = OEDIT_APPLY;
 }
 
@@ -653,6 +655,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
 	  "\nselect[7:wear]:%s\r"
+    "\n===\n"
 	  "\ninput[8:weight]:%d\r"
 	  "\ninput[9:cost]:%d\r"
 	  "\ninput[a:cost per day]:%d\r"
