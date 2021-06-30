@@ -655,17 +655,19 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[7:wear]:%s\r"
 	  "\ninput[8:weight]:%d\r"
 	  "\ninput[9:cost]:%d\r"
-	  "\ninput[A:cost per day]:%d\r"
-	  "\ninput[B:timer]:%d\r"
-	  "\nselect[C:values]:%d %d %d %d\r"
-	  "\nmenu:D:applies menu\r"
-	  "\nselect[E:extra description]:%s\r"
-    "\ninput[M:min level]:%d\r"
-    "\nselect[perm affects]:%s\r"
+	  "\ninput[a:cost per day]:%d\r"
+	  "\ninput[b:timer]:%d\r"
+    "\ninput[m:min level]:%d\r"
+    "\n===\n"
+	  "\nselect[c:values]:%d %d %d %d\r"
+	  "\nselect[e:e-desc]:%s\r"
+    "\nselect[p:perm affects]:%s\r"
 	  "\nselect[s:script]:%s\r"
     "\n===\n"
+    "\nmenu:d:applies menu\r"
     "\nmenu:W:copy\r"
     "\nmenu:X:delete\r"
+    "\n===\n"
 	  "\nmenu:Q:quit\r",
 
 	  buf1,
@@ -673,12 +675,12 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  GET_OBJ_COST(obj),
 	  GET_OBJ_RENT(obj),
 	  GET_OBJ_TIMER(obj),
+    GET_OBJ_LEVEL(obj),
 	  GET_OBJ_VAL(obj, 0),
 	  GET_OBJ_VAL(obj, 1),
 	  GET_OBJ_VAL(obj, 2),
 	  GET_OBJ_VAL(obj, 3),
 	  obj->ex_description ? "Set." : "Not Set.",
-    GET_OBJ_LEVEL(obj),
     buf2,
     OLC_SCRIPT(d) ? "Set." : "Not Set.");
   OLC_MODE(d) = OEDIT_MAIN_MENU;
