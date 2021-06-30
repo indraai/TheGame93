@@ -316,7 +316,7 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "\n## Extra Description\r"
+	  "\n# Extra Description\r"
 	  "\ninput[1:keywords]:%s\r"
 	  "\ntext[2:desc]:%s\r"
 	  "\ninput[3:next description]:%s\r"
@@ -347,7 +347,7 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
       write_to_output(d, " menu:%d:None\r", counter + 1);
     }
   }
-  write_to_output(d, "\n## Affection");
+  write_to_output(d, "\n# Affection");
   OLC_MODE(d) = OEDIT_PROMPT_APPLY;
   write_to_output(d, "menu:0:quit");
 }
@@ -358,7 +358,7 @@ static void oedit_liquid_type(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
-  write_to_output(d, "\n## Liquid Type\r");
+  write_to_output(d, "\n# Liquid Type\r");
   OLC_MODE(d) = OEDIT_VALUE_3;
   write_to_output(d, "menu:0:quit");
 }
@@ -369,7 +369,7 @@ static void oedit_disp_apply_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
-  write_to_output(d, "\n## Liquid Type\r");
+  write_to_output(d, "\n# Liquid Type\r");
   OLC_MODE(d) = OEDIT_APPLY;
 }
 
@@ -634,7 +634,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
-    "\n## Object Edit\r"
+    "\n# Object Edit\r"
 	  "\nitem:%d\r"
 	  "\ninput[1:keywords]: %s\r"
 	  "\ntext[2:s-desc]: %s\r"
