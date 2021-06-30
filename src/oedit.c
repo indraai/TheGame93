@@ -631,13 +631,13 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
-	  "-- Item number : [%s%d%s]\r\n"
-	  "%s1%s) Keywords : %s%s\r\n"
-	  "%s2%s) S-Desc   : %s%s\r\n"
-	  "%s3%s) L-Desc   :-\r\n%s%s\r\n"
-	  "%s4%s) A-Desc   :-\r\n%s%s"
-	  "%s5%s) Type        : %s%s\r\n"
-	  "%s6%s) Extra flags : %s%s\r\n",
+	  "\nitem:d\r"
+	  "\ninput:1:keywords:%s\r"
+	  "\ntext:2:s-desc:%s\r"
+	  "\ntext:3:l-desc:%s\r"
+	  "\ntext:4:a-desc:%s\r"
+	  "\nmenu:5:type - %s\r"
+	  "\n:menu:6:extra flags - %s\r",
 
 	  cyn, OLC_NUM(d), nrm,
 	  grn, nrm, yel, (obj->name && *obj->name) ? obj->name : "undefined",
@@ -652,7 +652,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\nmenu7:wear - %s\r"
+	  "\nmenu:7:wear - %s\r"
 	  "\ninput[8:weight]:%d\r"
 	  "\ninput[9:cost]:%d\r"
 	  "\ninput[A:cost/day]:%d\r"
