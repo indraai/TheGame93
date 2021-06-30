@@ -298,13 +298,11 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 
   sprintbit(GET_OBJ_VAL(OLC_OBJ(d), 1), container_bits, bits, sizeof(bits));
   write_to_output(d,
-	  "\nmenu:1:CLOSEABLE\r"
-	  "\nmenu:2:PICKPROOF\r"
-	  "\nmenu:3:CLOSED\r"
-	  "\nmenu:4:LOCKED\r"
-    "\n===\r"
-	  "\nFLAGS: %s\r"
-	  "Enter flag, 0 to quit : ",
+	  "\nmenu:1:closeable\r"
+	  "\nmenu:2:pickproof\r"
+	  "\nmenu:3:closed\r"
+	  "\nmenu:4:locked\r"
+    "\nmenu:0:quit\r"
 	  bits);
 }
 
@@ -317,10 +315,10 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	  "\n##Extra Description\r"
-	  "input:keywords:1:$s%s\r"
-	  "input:description:2:%s\r"
-	  "input:next description:3:%s\r"
-	  "menu:0:quit\r",
+	  "\ninput:keywords:1:$s%s\r"
+	  "\ninput:description:2:%s\r"
+	  "\ninput:next description:3:%s\r"
+	  "\nmenu:0:quit\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
     (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
@@ -637,7 +635,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\ntext[3:l-desc]: %s\r"
 	  "\ntext[4:a-desc]: %s\r"
 	  "\nmenu:5:type - %s\r"
-	  "\n:menu:6:extra flags - %s\r",
+	  "\nmenu:6:extra flags - %s\r",
 
 	  OLC_NUM(d),
 	  (obj->name && *obj->name) ? obj->name : "undefined",
@@ -655,7 +653,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu:7:wear - %s\r"
 	  "\ninput[8:weight]: %d\r"
 	  "\ninput[9:cost]: %d\r"
-	  "\ninput[A:cost/day]: %d\r"
+	  "\ninput[A:cost per day]: %d\r"
 	  "\ninput[B:timer]: %d\r"
 	  "\nmenu:C:values - %d %d %d %d\r"
 	  "\nmenu:D:applies menu\r"
