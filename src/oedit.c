@@ -636,8 +636,8 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\ntext[2:s-desc]: %s\r"
 	  "\ntext[3:l-desc]: %s\r"
 	  "\ntext[4:a-desc]: %s\r"
-	  "\nmenu:5:type - %s\r"
-	  "\nmenu:6:extra flags - %s\r",
+	  "\nselect[5:type]: %s\r"
+	  "\nselect[6:extra flags]:%s\r",
 
 	  OLC_NUM(d),
 	  (obj->name && *obj->name) ? obj->name : "undefined",
@@ -661,8 +661,9 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu:D:applies menu\r"
 	  "\nselect[E:extra description]:%s\r"
     "\ninput[M:min level]:%d\r"
-    "\nmenu:perm affects:%s\r"
+    "\nselect[perm affects]:%s\r"
 	  "\nselect[s:script]:%s\r"
+    "\n===\n"
     "\nmenu:W:copy\r"
     "\nmenu:X:delete\r"
 	  "\nmenu:Q:quit\r",
