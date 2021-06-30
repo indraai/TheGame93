@@ -302,7 +302,7 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 	  "\nmenu:2:pickproof\r"
 	  "\nmenu:3:closed\r"
 	  "\nmenu:4:locked\r"
-    "\nmenu:0:quit\r"
+    "\nmenu:0:quit\r",
 	  bits);
 }
 
@@ -629,6 +629,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
+    "# Object Edit"
 	  "\nitem:%d\r"
 	  "\ninput[1:keywords]: %s\r"
 	  "\ntext[2:s-desc]: %s\r"
