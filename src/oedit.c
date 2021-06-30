@@ -632,10 +632,10 @@ static void oedit_disp_menu(struct descriptor_data *d)
   /* Build first half of menu. */
   write_to_output(d,
 	  "\nitem:%d\r"
-	  "\ninput:1:keywords:%s\r"
-	  "\ntext:2:s-desc:%s\r"
-	  "\ntext:3:l-desc:%s\r"
-	  "\ntext:4:a-desc:%s\r"
+	  "\ninput[1:keywords]: %s\r"
+	  "\ntext[2:s-desc]: %s\r"
+	  "\ntext[3:l-desc]: %s\r"
+	  "\ntext[4:a-desc]: %s\r"
 	  "\nmenu:5:type - %s\r"
 	  "\n:menu:6:extra flags - %s\r",
 
@@ -653,13 +653,13 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
 	  "\nmenu:7:wear - %s\r"
-	  "\ninput[8:weight]:%d\r"
-	  "\ninput[9:cost]:%d\r"
-	  "\ninput[A:cost/day]:%d\r"
-	  "\ninput[B:timer]:%d\r"
+	  "\ninput[8:weight]: %d\r"
+	  "\ninput[9:cost]: %d\r"
+	  "\ninput[A:cost/day]: %d\r"
+	  "\ninput[B:timer]: %d\r"
 	  "\nmenu:C:values - %d %d %d %d\r"
 	  "\nmenu:D:applies menu\r"
-	  "\ntext:E:extra description:%s\r"
+	  "\ntext[E:extra description]: %s\r"
     "\ninput[M:min level]:%d\r"
     "\nmenu:perm affects:%s\r"
 	  "\nmenu:S:script - %s\r"
