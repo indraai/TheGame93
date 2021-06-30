@@ -316,10 +316,11 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "\n##Extra Description\r"
-	  "\ninput:keywords:1:$s%s\r"
-	  "\ninput:description:2:%s\r"
-	  "\ninput:next description:3:%s\r"
+	  "\n## Extra Description\r"
+	  "\ninput[1:keywords]:%s\r"
+	  "\ntext[2:desc]:%s\r"
+	  "\ninput[3:next description]:%s\r"
+    "\n===\n"
 	  "\nmenu:0:quit\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
@@ -633,13 +634,15 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
+    "\n## Object Edit\r"
 	  "\nitem:%d\r"
 	  "\ninput[1:keywords]: %s\r"
 	  "\ntext[2:s-desc]: %s\r"
 	  "\ntext[3:l-desc]: %s\r"
 	  "\ntext[4:a-desc]: %s\r"
-	  "\nselect[5:type]: %s\r"
-	  "\nselect[6:extra flags]:%s\r",
+    "\n===\n"
+	  "\nselect[5:type]:%s\r"
+	  "\nselect[6:flags]:%s\r",
 
 	  OLC_NUM(d),
 	  (obj->name && *obj->name) ? obj->name : "undefined",
