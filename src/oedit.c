@@ -495,7 +495,7 @@ static void oedit_disp_val2_menu(struct descriptor_data *d)
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
-    write_to_output(d, "\n# Drink Units\r",
+    write_to_output(d, "\n# Drink Units\r"
       "\ninfo:Please input the INITIAL drink units for this object.\r");
     break;
   default:
@@ -551,7 +551,7 @@ static void oedit_disp_val4_menu(struct descriptor_data *d)
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
   case ITEM_FOOD:
-    write_to_output(d, "\n# Poisoned\r",
+    write_to_output(d, "\n# Poisoned\r"
       "info:Is this item a poison? (0 = not poison)");
     break;
   default:
