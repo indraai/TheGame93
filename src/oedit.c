@@ -439,7 +439,8 @@ static void oedit_disp_val1_menu(struct descriptor_data *d)
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
-    write_to_output(d, "Max drink units (-1 for unlimited) : ");
+    write_to_output(d, "\n## Drink Units\r"
+    "\ninfo: Please entere the Max drink units. -1 for unlimited.\r");
     break;
   case ITEM_FOOD:
     write_to_output(d, "Hours to fill stomach : ");
