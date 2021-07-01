@@ -502,22 +502,22 @@ const char *container_bits[] = {
  * Must end array with a single newline. */
 const char *drinks[] =
 {
-  "water",
-  "beer",
-  "wine",
-  "ale",
-  "dark ale",
-  "whisky",
-  "lemonade",
-  "firebreather",
-  "local speciality",
-  "slime mold juice",
-  "milk",
-  "tea",
-  "coffee",
-  "blood",
-  "salt water",
-  "clear water",
+  "Pure Water",
+	"Orange juice",  /* beer */
+	"Apple juice", /* wine */
+	"Grapefruit juice", /* ale */
+	"Mango juice", /* dark ale */
+	"Paradise Tropical Iced-Tea", /* whisky */
+	"Paradise Passion Fruit Iced-Tea", /* lemonade */
+	"Lemonaid", /* firebreather */
+	"Limeaid", /* local speciality */
+	"Chocolate Milk", /* slime mold juice */
+	"Milk",
+	"White Tea", /* tea */
+	"Green Tea", /* coffee */
+	"Black Tea", /* blood */
+	"Salt Water",
+	"Pepsi Cola"
   "\n"
 };
 
@@ -527,21 +527,21 @@ const char *drinks[] =
 const char *drinknames[] =
 {
   "water",
-  "beer",
-  "wine",
-  "ale",
-  "ale",
-  "whisky",
-  "lemonade",
-  "firebreather",
-  "local",
-  "juice",
-  "milk",
-  "tea",
-  "coffee",
-  "blood",
-  "salt",
-  "water",
+	"juice",
+	"juice",
+	"juice",
+	"juice",
+	"tea",
+	"tea",
+	"lemonaid",
+	"limeaid",
+	"milk",
+	"milk",
+	"tea",
+	"tea",
+	"tea",
+	"salt",
+	"cola"
   "\n"
 };
 
@@ -550,20 +550,20 @@ const char *drinknames[] =
  * @pre Must be in the same order as the defines. */
 int drink_aff[][3] = {
   {0, 1, 10},
-  {3, 2, 5},
-  {5, 2, 5},
-  {2, 2, 5},
-  {1, 2, 5},
-  {6, 1, 4},
+  {0, 2, 5},
+  {0, 2, 5},
+  {0, 2, 5},
+  {0, 2, 5},
+  {0, 1, 4},
   {0, 1, 8},
-  {10, 0, 0},
-  {3, 3, 3},
-  {0, 4, -8},
+  {0, 0, 0},
+  {0, 3, 3},
+  {0, 4, 8},
   {0, 3, 6},
   {0, 1, 6},
   {0, 1, 6},
-  {0, 2, -1},
-  {0, 1, -2},
+  {0, 2, 1},
+  {0, 1, 2},
   {0, 0, 13}
 };
 
@@ -573,21 +573,21 @@ int drink_aff[][3] = {
 const char *color_liquid[] =
 {
   "clear",
-  "brown",
-  "clear",
-  "brown",
-  "dark",
-  "golden",
-  "red",
-  "green",
-  "clear",
-  "light green",
-  "white",
-  "brown",
-  "black",
-  "red",
-  "clear",
-  "crystal clear",
+	"orange",
+	"frothy",
+	"pink",
+	"yellow",
+	"golden",
+	"golden",
+	"yellow",
+	"light green",
+	"chocolate",
+	"white",
+	"white",
+	"green",
+	"black",
+	"clear",
+	"black"
   "\n"
 };
 
