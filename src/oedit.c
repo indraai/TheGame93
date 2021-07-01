@@ -562,15 +562,15 @@ static void oedit_disp_val4_menu(struct descriptor_data *d)
 /* Object type. */
 static void oedit_disp_type_menu(struct descriptor_data *d)
 {
-  int counter, columns = 0;
+  int i, count = 0;
 
   get_char_colors(d->character);
   clear_screen(d);
 
   write_to_output(d, "\n# Object Type\r");
 
-  for (counter = 0; counter < NUM_ITEM_TYPES; counter++) {
-    write_to_output(d, "\nmenu:%d:%s\r", counter, item_types[counter]);
+  for (i = 0; i < NUM_ITEM_TYPES; i++) {
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, item_types[i]);
   }
   write_to_output(d, "\nmenu:0:quit\r");
 }
@@ -579,18 +579,22 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
 static void oedit_disp_extra_menu(struct descriptor_data *d)
 {
   char bits[MAX_STRING_LENGTH];
-  int counter, columns = 0;
+  int i, count = 0;
 
   get_char_colors(d->character);
   clear_screen(d);
 
-  for (counter = 0; counter < NUM_ITEM_FLAGS; counter++) {
-    write_to_output(d, "\nmenu:%d:%s\r", counter + 1, extra_bits[counter]);
+  write_to_output(d, "\n# Object Flags\r");
+
+  for (i = 0; i < NUM_ITEM_FLAGS; i++) {
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, extra_bits[counter]);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\r\nObject flags: %s%s%s\r\n"
-	  "Enter object extra flag (0 to quit) : ",
-	  cyn, bits, nrm);
+  write_to_output(d, "\nflags: %s\r"
+    "\n===\n"
+    "\nmenu:0:quit\r",
+    bits
+  );
 }
 
 /* Object perm flags. */
