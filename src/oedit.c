@@ -439,8 +439,8 @@ static void oedit_disp_val1_menu(struct descriptor_data *d)
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
-    write_to_output(d, "\n## Drink Units\r"
-    "\ninfo: Please entere the Max drink units. -1 for unlimited.\r");
+    write_to_output(d, "\n# Drink Units\r"
+    "\ninfo:Please input the MAX drink units. -1 for unlimited.\r");
     break;
   case ITEM_FOOD:
     write_to_output(d, "Hours to fill stomach : ");
@@ -495,7 +495,8 @@ static void oedit_disp_val2_menu(struct descriptor_data *d)
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
-    write_to_output(d, "Initial drink units : ");
+    write_to_output(d, "\n# Drink Units\r",
+      "\ninfo:Please input the INITIAL drink units for this object.\r");
     break;
   default:
     oedit_disp_menu(d);
@@ -550,7 +551,8 @@ static void oedit_disp_val4_menu(struct descriptor_data *d)
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
   case ITEM_FOOD:
-    write_to_output(d, "Poisoned (0 = not poison) : ");
+    write_to_output(d, "\n# Poisoned\r",
+      "info:Is this item a poison? (0 = not poison)");
     break;
   default:
     oedit_disp_menu(d);
