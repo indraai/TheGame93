@@ -552,7 +552,7 @@ static void oedit_disp_val4_menu(struct descriptor_data *d)
   case ITEM_FOUNTAIN:
   case ITEM_FOOD:
     write_to_output(d, "\n# Poisoned\r"
-      "info:Is this item a poison? (0 = not poison)");
+      "\ninfo:Is this item a poison? (0 = not poison)\r");
     break;
   default:
     oedit_disp_menu(d);
@@ -567,11 +567,12 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
+  write_to_output(d, "\n# Object Type\r");
+
   for (counter = 0; counter < NUM_ITEM_TYPES; counter++) {
-    write_to_output(d, "%s%2d%s) %-20.20s %s", grn, counter, nrm,
-		item_types[counter], !(++columns % 2) ? "\r\n" : "");
+    write_to_output(d, "\nmenu:%d:%s\r", counter, item_types[counter]);
   }
-  write_to_output(d, "\r\nEnter object type : ");
+  write_to_output(d, "\nmenu:0:quit\r");
 }
 
 /* Object extra flags. */
@@ -584,8 +585,7 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
   clear_screen(d);
 
   for (counter = 0; counter < NUM_ITEM_FLAGS; counter++) {
-    write_to_output(d, "%s%2d%s) %-20.20s %s", grn, counter + 1, nrm,
-		extra_bits[counter], !(++columns % 2) ? "\r\n" : "");
+    write_to_output(d, "\nmenu:%d:%s\r", counter + 1, extra_bits[counter]);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
   write_to_output(d, "\r\nObject flags: %s%s%s\r\n"
