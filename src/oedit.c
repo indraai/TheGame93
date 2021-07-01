@@ -355,21 +355,29 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
 /* Ask for liquid type. */
 static void oedit_liquid_type(struct descriptor_data *d)
 {
+  int i;
   get_char_colors(d->character);
   clear_screen(d);
-  column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
   write_to_output(d, "\n# Liquid Type\r");
-  OLC_MODE(d) = OEDIT_VALUE_3;
+  // column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
+  for (i = 0; i < NUM_LIQ_TYPES; i++) {
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, drinks[i]);
+  }
   write_to_output(d, "menu:0:quit");
+  OLC_MODE(d) = OEDIT_VALUE_3;
 }
 
 /* The actual apply to set. */
 static void oedit_disp_apply_menu(struct descriptor_data *d)
 {
+  int i;
   get_char_colors(d->character);
   clear_screen(d);
-  column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
   write_to_output(d, "\n# Liquid Type\r");
+  // column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
+  for (i = 0; i < NUM_APPLIES; i++) {
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, apply_types[i]);
+  }
   OLC_MODE(d) = OEDIT_APPLY;
 }
 
