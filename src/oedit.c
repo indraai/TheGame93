@@ -355,7 +355,7 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
 /* Ask for liquid type. */
 static void oedit_liquid_type(struct descriptor_data *d)
 {
-  int i;
+  int i,count=0;
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d, "\n# Liquid Type\r");
@@ -370,7 +370,7 @@ static void oedit_liquid_type(struct descriptor_data *d)
 /* The actual apply to set. */
 static void oedit_disp_apply_menu(struct descriptor_data *d)
 {
-  int i;
+  int i,count=0;
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d, "\n# Liquid Type\r");
