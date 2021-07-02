@@ -303,9 +303,9 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 	  "\nmenu:3:closed\r"
 	  "\nmenu:4:locked\r"
     "\n===\r"
-	  "\nflags: %s\r",
+	  "\nflags: %s\r"
     "\n===\r"
-    "\nmenu:0:quit\r"
+    "\nmenu:0:quit\r",
 	  bits);
 }
 
