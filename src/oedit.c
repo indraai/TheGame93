@@ -570,9 +570,10 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   write_to_output(d, "\n# Object Type\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, item_types[i]);
+    write_to_output(d, "button:%d:%s", ++count, item_types[i]);
   }
-  write_to_output(d, "\nmenu:0:quit\r");
+  write_to_output(d, "\n===\n"
+  "\nmenu:0:quit\r");
 }
 
 /* Object extra flags. */
@@ -587,10 +588,11 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
   write_to_output(d, "\n# Object Flags\r");
 
   for (i = 0; i < NUM_ITEM_FLAGS; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, extra_bits[counter]);
+    write_to_output(d, "button:%d:%s", ++count, extra_bits[counter]);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\nflags: %s\r"
+  write_to_output(d, "\n===\n"
+    "\nflags: %s\r"
     "\n===\n"
     "\nmenu:0:quit\r",
     bits
@@ -601,35 +603,42 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
 static void oedit_disp_perm_menu(struct descriptor_data *d)
 {
   char bits[MAX_STRING_LENGTH];
-  int counter, columns = 0;
+  int i, count = 0;
 
   get_char_colors(d->character);
   clear_screen(d);
 
-  for (counter = 1; counter < NUM_AFF_FLAGS; counter++) {
-    write_to_output(d, "%s%2d%s) %-20.20s %s", grn, counter, nrm, affected_bits[counter], !(++columns % 2) ? "\r\n" : "");
+  for (i = 1; i < NUM_AFF_FLAGS; i++) {
+    write_to_output(d, "button:%d:%s", ++count, affected_bits[counter]);
   }
+
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\r\nObject permanent flags: %s%s%s\r\n"
-          "Enter object perm flag (0 to quit) : ", cyn, bits, nrm);
+  write_to_output(d, "\n===\n"
+    "\rflags: %s\n"
+    "\n===\n"
+    "\nmenu:0:quit\r",
+    bits);
 }
 
 /* Object wear flags. */
 static void oedit_disp_wear_menu(struct descriptor_data *d)
 {
   char bits[MAX_STRING_LENGTH];
-  int counter, columns = 0;
+  int i, count = 0;
 
   get_char_colors(d->character);
   clear_screen(d);
+  write_to_output(d, "\n# Wear Flags\r");
 
-  for (counter = 0; counter < NUM_ITEM_WEARS; counter++) {
-    write_to_output(d, "%s%2d%s) %-20.20s %s", grn, counter + 1, nrm,
-		wear_bits[counter], !(++columns % 2) ? "\r\n" : "");
+  for (i = 0; i < NUM_ITEM_WEARS; i++) {
+    write_to_output(d, "button:%d:%s", ++count, wear_bits[counter]);
   }
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, TW_ARRAY_MAX, bits);
-  write_to_output(d, "\r\nWear flags: %s%s%s\r\n"
-	  "Enter wear flag, 0 to quit : ", cyn, bits, nrm);
+  write_to_output(d, "\n===\n"
+    "\nflags: %s\r"
+    "\n===\n"
+    "\nmenu:0:quit\r",
+    bits);
 }
 
 /* Display main menu. */
