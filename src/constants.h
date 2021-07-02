@@ -58,5 +58,5 @@ extern size_t action_bits_count;
 extern size_t affected_bits_count;
 extern size_t extra_bits_count;
 extern size_t wear_bits_count;
-
+extern char *confirm_msg;
 #endif /* _CONSTANTS_H_ */
