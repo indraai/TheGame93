@@ -321,8 +321,8 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Extra Description\r"
-	  "\ninput[1:keyword]:%s\r"
-	  "\ntext[2:description]:%s\r"
+	  "\nselect[1:keyword]:%s\r"
+	  "\select[2:description]:%s\r"
     "\nmenu:3:extra description\r"
     "\nmenu:q:done\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
@@ -359,10 +359,10 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit\r"
-	  "\ninput[1:exit to]:%d\r"
-	  "\ntext[2:description]:%s\r"
-	  "\ninput[3:door name]:%s\r"
-	  "\ninput[4:key]:%d\r"
+	  "\nselect[1:exit to]:%d\r"
+	  "\nselect[2:desc]:%s\r"
+	  "\nselect[3:door name]:%s\r"
+	  "\nselect[4:key]:%d\r"
 	  "\nselect[5:door flags]:'%s'\r"
 	  "\nmenu:6:purge exit\r"
 	  "\nmenu:0:done\r",
@@ -443,8 +443,8 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nvnum:%d\r"
       "\nzone:%d\r"
       "\n## Details\r"
-      "\ninput[1:name]:%s\r"
-      "\ntext[2:description]:%s\r"
+      "\nselect[1:name]:%s\r"
+      "\nselect[2:desc]:%s\r"
       "\nselect[3:room flags]:%s\r"
       "\nselect[4:sector type]:%s\r",
       room->name,
@@ -513,12 +513,12 @@ static void redit_disp_menu(struct descriptor_data *d)
     );
   }
   write_to_output(d,
-      "\n=\n"
+      "\n===\n"
       "\nmenu:f:extra description\r"
       "\nmenu:s:script menu %s\r"
       "\nmenu:w:copy room\r"
       "\nmenu:x:delete room\r"
-      "\n=\n"
+      "\n===\n"
       "\nmenu:q:quit\r",
       OLC_SCRIPT(d) ? "Set." : "Not Set."
       );
