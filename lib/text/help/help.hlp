@@ -142,8 +142,8 @@ adventure[help]:general/maps
 AUTOQUEST
 adventure[help]:general/autoquest
 #0
-AUTOSACRIFICE
-adventure[help]:general/autosacrifice
+AUTOSPAWN
+adventure[help]:general/autospawn
 #0
 AUTOSPLIT
 adventure[help]:general/autosplit
@@ -518,7 +518,7 @@ CADAVER UNDEAD CORPSE
 
 Corpses are bodies that no longer carry a soul. They are seen after a player
 has made a kill, until the zone either resets, it decomposes, or someone
-sacrifices it. When a spell like Animate Dead is cast upon a corpse they may
+spawns it. When a spell like Animate Dead is cast upon a corpse they may
 return to the living, but only in an undead form.
 #0
 CALENDAR CALENDER MONTHS WEEKS DAYS HOURS
@@ -6306,7 +6306,7 @@ AFK        - Player is AFK.
 AUTOLOOT   - Player has Autoloot enabled.
 AUTOGOLD   - Player has Autogold enabled.
 AUTOSPLIT  - Player has Autosplit enabled.
-AUTOSAC    - Player has Autosac enabled.
+AUTOOFFER  - Player has Autooffer enabled.
 AUTOASSIST - Player has Autoassist enabled.
 
 See also: FLAGS, PLR
@@ -6364,14 +6364,14 @@ Level       :  level 8.
 
 The meaning of this spell is not yet fully defined.
 #0
-PURGE DESTROY SACRIFICE UNLOAD DELETE-MOBILE DISINTEGRATE DECOMPOSE CLEANUP
+PURGE DESTROY SPAWN UNLOAD DELETE-MOBILE DISINTEGRATE DECOMPOSE CLEANUP
 
 Usage: purge [target]
 
-Purge destroys things.  If used with no arguments, it will clear a room of all
+Purge clears things.  If used with no arguments, it will clear a room of all
 mobiles and objects, but will not harm players.  If the argument is an object,
-that object (and all of its contents, if any) will be destroyed.  If the
-argument is a mobile, the mobile will be destroyed, leaving its inventory and
+that object (and all of its contents, if any) will be cleared.  If the
+argument is a mobile, the mobile will be cleared, leaving its inventory and
 equipment lying on the ground.
 
 Players can not be purged on TBA. Immortals can not use the purge command
@@ -6383,7 +6383,7 @@ Examples:
   > purge sword
   > purge dragon
 
-Corpses decompose after 5 minutes.
+Corpses disappear after 5 minutes.
 
 See also: %PURGE%, DC, LOAD, ZRESET, ZPURGE
 #31
@@ -9544,7 +9544,7 @@ Hit Pnt Display: OFF              Brief: OFF         Summonable: OFF
       AutoExits: OFF            NoShout: OFF              Wimpy: OFF
        NoGossip: OFF          NoAuction: OFF            NoGrats: OFF
        AutoLoot: ON            AutoGold: ON           AutoSplit: ON
-        AutoSac: ON          AutoAssist: ON             AutoMap: ON
+      AutoOffer: ON          AutoAssist: ON             AutoMap: ON
      Pagelength: 32         Screenwidth: 80                 AFK: OFF
         Autokey: OFF           Autodoor: OFF              Color: on
 
@@ -9566,7 +9566,7 @@ Hit Pnt Display: OFF              Brief: OFF         Summonable: OFF
       AutoExits: OFF            NoShout: OFF              Wimpy: OFF
        NoGossip: OFF          NoAuction: OFF            NoGrats: OFF
        AutoLoot: ON            AutoGold: ON           AutoSplit: ON
-        AutoSac: ON          AutoAssist: ON                 AFK: OFF
+      AutoOffer: ON          AutoAssist: ON                 AFK: OFF
      Pagelength: 23               Color: off
 
 See also: DISPLAY, NOSHOUT, NOSUMM, NOTELL, QUEST, REPEAT, WIMP

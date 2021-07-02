@@ -136,7 +136,7 @@ ACMD(do_give);
 ACMD(do_grab);
 ACMD(do_put);
 ACMD(do_remove);
-ACMD(do_sac);
+ACMD(do_offer);
 ACMD(do_wear);
 ACMD(do_wield);
 
@@ -215,7 +215,7 @@ ACMD(do_gen_tog);
 #define SCMD_AUTOLOOT    20
 #define SCMD_AUTOGOLD    21
 #define SCMD_AUTOSPLIT   22
-#define SCMD_AUTOSAC     23
+#define SCMD_AUTOOFFER   23
 #define SCMD_AUTOASSIST  24
 #define SCMD_AUTOMAP     25
 #define SCMD_AUTOKEY     26

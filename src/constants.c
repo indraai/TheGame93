@@ -247,7 +247,7 @@ const char *preference_bits[] = {
   "AUTOLOOT",
   "AUTOGOLD",
   "AUTOSPLIT",
-  "AUTOSAC",
+  "AUTOOFFER",
   "AUTOASSIST",
   "AUTOMAP",
   "AUTOKEY",

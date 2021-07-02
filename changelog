@@ -565,7 +565,7 @@ with the automap, patched in (Thanks Jamdog).
 #define SCMD_AUTOLOOT   24
 #define SCMD_AUTOGOLD   25
 #define SCMD_AUTOSPLIT  26
-#define SCMD_AUTOSAC    27
+#define SCMD_AUTOOFFER  27
 #define SCMD_AUTOASSIST 28
   The Autoquest patch, along with a couple of minor bug fixes, has been
 integrated into tbaMUD. (Thanks Jamdog, Kenneth Ray and Morgaelin.)
@@ -912,7 +912,7 @@ tbaMUD 3.51
 - Added "Did you mean" to unknown commands instead of Huh?!? (thanks Rhade).
 - Updated do_set Alphabetically. Removed set idnum & lessons (practice still
   there). Can no longer set level to 0 (thanks Fizban).
-- Added autoloot, autogold, autosplit, autosac, and autoassist.
+- Added autoloot, autogold, autosplit, autooffer, and autoassist.
 - Removed all whitespace (tabs and spaces at EOL).
 - Added years to messages (thanks Rhade).
 - Updated version and files to new name: tbaMUD!

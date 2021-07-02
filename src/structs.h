@@ -257,7 +257,7 @@
 #define PRF_AUTOLOOT     26   /**< Loot everything from a corpse */
 #define PRF_AUTOGOLD     27   /**< Loot gold from a corpse */
 #define PRF_AUTOSPLIT    28   /**< Split gold with group */
-#define PRF_AUTOSAC      29   /**< Sacrifice a corpse */
+#define PRF_AUTOOFFER    29   /**< Offering a corpse */
 #define PRF_AUTOASSIST   30   /**< Auto-assist toggle */
 #define PRF_AUTOMAP      31   /**< Show map at the side of room descs */
 #define PRF_AUTOKEY      32   /**< Automatically unlock locked doors when opening */

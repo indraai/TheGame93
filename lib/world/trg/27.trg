@@ -1229,7 +1229,7 @@ elseif %room.vnum% == 2788
 elseif %room.vnum% == 2789
   say Imari have the ability to draw upon their own life energy, scattering it in an immense burst of lamen to seed new forms of weaker life.
   wait 3 s
-  say The Imari must sacrifice themselves for the birth of their creation. The waves of energy that ripple through the universe on this self-scattering are called Natul.
+  say The Imari must offer themselves for the birth of their creation. The waves of energy that ripple through the universe on this self-scattering are called Natul.
   wait 2 s
 elseif %room.vnum% == 2790
   say The first wave of Natul always produces the most powerful beings, a union of lamen and miru in a form that perceives most keenly the pull of the Imari and the ebbing and flowing of the universe.

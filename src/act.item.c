@@ -176,12 +176,12 @@ if (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE)) {
     return (0);
   }
 }
-  
+
   if (OBJ_SAT_IN_BY(obj)){
     act("It appears someone is sitting on $p..", FALSE, ch, obj, 0, TO_CHAR);
     return (0);
   }
-  
+
   return (1);
 }
 
@@ -687,7 +687,7 @@ static void perform_give_gold(struct char_data *ch, struct char_data *vict,
 
   if (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_GOD))
     decrease_gold(ch, amount);
-    
+
   increase_gold(vict, amount);
   bribe_mtrigger(vict, ch, amount);
 }
@@ -786,12 +786,12 @@ void name_from_drinkcon(struct obj_data *obj)
     return;
 
   liqname = drinknames[GET_OBJ_VAL(obj, 2)];
- 
+
   remove_from_string(obj->name, liqname);
   new_name = right_trim_whitespace(obj->name);
   free(obj->name);
   obj->name = new_name;
- 
+
 }
 
 void name_to_drinkcon(struct obj_data *obj, int type)
@@ -1503,7 +1503,7 @@ ACMD(do_remove)
   }
 }
 
-ACMD(do_sac)
+ACMD(do_offer)
 {
   char arg[MAX_INPUT_LENGTH];
   struct obj_data *j, *jj, *next_thing2;
@@ -1511,48 +1511,48 @@ ACMD(do_sac)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "Sacrifice what?\n\r");
+    send_to_char(ch, "Offer what?\n\r");
     return;
   }
-    
+
   if (!(j = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents)) && (!(j = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))) {
     send_to_char(ch, "It doesn't seem to be here.\n\r");
     return;
   }
 
   if (!CAN_WEAR(j, ITEM_WEAR_TAKE)) {
-    send_to_char(ch, "You can't sacrifice that!\n\r");
+    send_to_char(ch, "You can't offer that!\n\r");
     return;
   }
 
-   act("$n sacrifices $p.", FALSE, ch, j, 0, TO_ROOM);
+   act("$n makes an offering of $p.", FALSE, ch, j, 0, TO_ROOM);
 
   switch (rand_number(0, 5)) {
     case 0:
-      send_to_char(ch, "You sacrifice %s to the Gods.\r\nYou receive one gold coin for your humility.\r\n", GET_OBJ_SHORT(j));
+      send_to_char(ch, "\nFor your offering %s to the Devas.\r\nYou receive one gold coin for your humility.\r", GET_OBJ_SHORT(j));
       increase_gold(ch, 1);
     break;
     case 1:
-      send_to_char(ch, "You sacrifice %s to the Gods.\r\nThe Gods ignore your sacrifice.\r\n", GET_OBJ_SHORT(j));
+      send_to_char(ch, "\nYou make an offering of %s to the Devas.\r\nThe Devas ignore your offering.\r", GET_OBJ_SHORT(j));
     break;
     case 2:
-      send_to_char(ch, "You sacrifice %s to the Gods.\r\nThe gods give you %d experience points.\r\n", GET_OBJ_SHORT(j), 1+2*GET_OBJ_LEVEL(j));
+      send_to_char(ch, "\nYou make an offering of %s to the Devas.\r\nThe Devas give you %d experience points.\r", GET_OBJ_SHORT(j), 1+2*GET_OBJ_LEVEL(j));
       GET_EXP(ch) += (1+2*GET_OBJ_LEVEL(j));
     break;
     case 3:
-      send_to_char(ch, "You sacrifice %s to the Gods.\r\nYou receive %d experience points.\r\n", GET_OBJ_SHORT(j), 1+GET_OBJ_LEVEL(j));
+      send_to_char(ch, "You make an offering of %s to the Devas.\r\nYou receive %d experience points.\r", GET_OBJ_SHORT(j), 1+GET_OBJ_LEVEL(j));
       GET_EXP(ch) += (1+GET_OBJ_LEVEL(j));
     break;
     case 4:
-      send_to_char(ch, "Your sacrifice to the Gods is rewarded with %d gold coins.\r\n", 1+GET_OBJ_LEVEL(j));
+      send_to_char(ch, "Your offering to the Devas is rewarded with %d gold coins.\r\n", 1+GET_OBJ_LEVEL(j));
       increase_gold(ch, (1+GET_OBJ_LEVEL(j)));
     break;
     case 5:
-      send_to_char(ch, "Your sacrifice to the Gods is rewarded with %d gold coins\r\n", (1+2*GET_OBJ_LEVEL(j)));
+      send_to_char(ch, "Your offering to the Devas is rewarded with %d gold coins\r\n", (1+2*GET_OBJ_LEVEL(j)));
       increase_gold(ch, (1+2*GET_OBJ_LEVEL(j)));
     break;
     default:
-      send_to_char(ch, "You sacrifice %s to the Gods.\r\nYou receive one gold coin for your humility.\r\n",GET_OBJ_SHORT(j));
+      send_to_char(ch, "You make an offering of %s to the Devas.\r\nYou receive one gold coin for your humility.\r\n",GET_OBJ_SHORT(j));
       increase_gold(ch, 1);
     break;
   }

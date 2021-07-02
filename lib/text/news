@@ -34,7 +34,7 @@ NEW COMMANDS AND NEW MUD BEHAVIOR:
 **  You will now be immediately notified when you have new mail, when coming
     back from AFK and reconnecting.
 
-**  New toggles: autoloot, autogold, autosplit, autosac, and autoassist.
+**  New toggles: autoloot, autogold, autosplit, autooffer, and autoassist.
 
 **  Improved toggle command allowing more options.
 

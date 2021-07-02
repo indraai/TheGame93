@@ -124,7 +124,7 @@ type: go
 To move around
 type: go <up | down | left | right>
 
-You collect the prizes and avoid the sacrificer to obtain maximum points.
+You collect the prizes and avoid the foe to obtain maximum points.
 Each prize is worth 500 * game_level in experience.
 ~
 #1218

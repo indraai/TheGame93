@@ -201,7 +201,7 @@ static void prefedit_disp_toggles_menu(struct descriptor_data *d)
   send_to_char(d->character, "%s1%s) Autoexits    %s[%s%3s%s]      %sA%s) Gossip   %s[%s%3s%s]\r\n"
                              "%s2%s) Autoloot     %s[%s%3s%s]      %sB%s) Shout    %s[%s%3s%s]\r\n"
                              "%s3%s) Autogold     %s[%s%3s%s]      %sC%s) Tell     %s[%s%3s%s]\r\n"
-                             "%s4%s) Autosac      %s[%s%3s%s]      %sD%s) Auction  %s[%s%3s%s]\r\n"
+                             "%s4%s) Autooffer    %s[%s%3s%s]      %sD%s) Auction  %s[%s%3s%s]\r\n"
                              "%s5%s) Autoassist   %s[%s%3s%s]      %sE%s) Gratz    %s[%s%3s%s]\r\n"
                              "%s6%s) Autosplit    %s[%s%3s%s]\r\n",
 /* Line 1 - autoexits and gossip */
@@ -216,9 +216,9 @@ static void prefedit_disp_toggles_menu(struct descriptor_data *d)
              CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), PREFEDIT_FLAGGED(PRF_AUTOGOLD) ? CBGRN(d->character, C_NRM) : CBRED(d->character, C_NRM),
              ONOFF(PREFEDIT_FLAGGED(PRF_AUTOGOLD)), CCCYN(d->character, C_NRM), CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM),
              PREFEDIT_FLAGGED(PRF_NOTELL) ? CBRED(d->character, C_NRM) : CBGRN(d->character, C_NRM), ONOFF(!PREFEDIT_FLAGGED(PRF_NOTELL)), CCCYN(d->character, C_NRM),
-/* Line 4 - autosac and auction */
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), PREFEDIT_FLAGGED(PRF_AUTOSAC) ? CBGRN(d->character, C_NRM) : CBRED(d->character, C_NRM),
-             ONOFF(PREFEDIT_FLAGGED(PRF_AUTOSAC)), CCCYN(d->character, C_NRM), CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM),
+/* Line 4 - AUTOOFFER and auction */
+             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), PREFEDIT_FLAGGED(PRF_AUTOOFFER) ? CBGRN(d->character, C_NRM) : CBRED(d->character, C_NRM),
+             ONOFF(PREFEDIT_FLAGGED(PRF_AUTOOFFER)), CCCYN(d->character, C_NRM), CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM),
              PREFEDIT_FLAGGED(PRF_NOAUCT) ? CBRED(d->character, C_NRM) : CBGRN(d->character, C_NRM), ONOFF(!PREFEDIT_FLAGGED(PRF_NOAUCT)), CCCYN(d->character, C_NRM),
 /* Line 5 - autoassist and grats */
              CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), PREFEDIT_FLAGGED(PRF_AUTOASSIST) ? CBGRN(d->character, C_NRM) : CBRED(d->character, C_NRM),
@@ -364,7 +364,7 @@ void prefedit_parse(struct descriptor_data * d, char *arg)
     case 'y':
     case 'Y':
       prefedit_save_to_char(d);
-      mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits toggles for %s", 
+      mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits toggles for %s",
         GET_NAME(d->character), GET_NAME(OLC_PREFS(d)->ch));
       /*. No strings to save - cleanup all .*/
       cleanup_olc(d, CLEANUP_ALL);
@@ -574,7 +574,7 @@ void prefedit_parse(struct descriptor_data * d, char *arg)
         break;
 
       case '4':
-        TOGGLE_BIT_AR(PREFEDIT_GET_FLAGS, PRF_AUTOSAC);
+        TOGGLE_BIT_AR(PREFEDIT_GET_FLAGS, PRF_AUTOOFFER);
         break;
 
       case '5':
@@ -641,22 +641,22 @@ void prefedit_parse(struct descriptor_data * d, char *arg)
       case 'I':
         TOGGLE_BIT_AR(PREFEDIT_GET_FLAGS, PRF_COMPACT);
         break;
-        
+
       case 'j':
       case 'J':
         TOGGLE_VAR(d->pProtocol->pVariables[eMSDP_XTERM_256_COLORS]->ValueInt);
         break;
-        
+
       case 'k':
       case 'K':
         TOGGLE_VAR(d->pProtocol->pVariables[eMSDP_ANSI_COLORS]->ValueInt);
-        break;        
+        break;
 
       case 'l':
       case 'L':
         TOGGLE_VAR(d->pProtocol->bCHARSET);
-        break;        
-        
+        break;
+
       case 'm':
       case 'M':
         TOGGLE_VAR(d->pProtocol->pVariables[eMSDP_MXP]->ValueInt);
@@ -666,11 +666,11 @@ void prefedit_parse(struct descriptor_data * d, char *arg)
       case 'N':
         TOGGLE_VAR(d->pProtocol->bMSDP);
         break;
-        
+
       case 'o':
       case 'O':
         TOGGLE_VAR(d->pProtocol->bATCP);
-        break;      
+        break;
 
       case 'p':
       case 'P':
@@ -680,7 +680,7 @@ void prefedit_parse(struct descriptor_data * d, char *arg)
       case 'r':
       case 'R':
         TOGGLE_VAR(d->pProtocol->bMSP);
-        break;   
+        break;
 
       default  : send_to_char(d->character, "Invalid Choice, try again (Q to Quit to main menu): ");
                  return;
@@ -881,9 +881,9 @@ void prefedit_Restore_Defaults(struct descriptor_data *d)
   if (PREFEDIT_FLAGGED(PRF_AUTOSPLIT))
      REMOVE_BIT_AR(PREFEDIT_GET_FLAGS, PRF_AUTOSPLIT);
 
-  /* PRF_AUTOSAC    - Off */
-  if (PREFEDIT_FLAGGED(PRF_AUTOSAC))
-     REMOVE_BIT_AR(PREFEDIT_GET_FLAGS, PRF_AUTOSAC);
+  /* PRF_AUTOOFFER    - Off */
+  if (PREFEDIT_FLAGGED(PRF_AUTOOFFER))
+     REMOVE_BIT_AR(PREFEDIT_GET_FLAGS, PRF_AUTOOFFER);
 
   /* PRF_AUTOASSIST - Off */
   if (PREFEDIT_FLAGGED(PRF_AUTOASSIST))
@@ -1000,4 +1000,3 @@ ACMD(do_oasis_prefedit)
 /* No need - done elsewhere */
 //  mudlog(CMP, LVL_IMMORT, TRUE, "OLC: (prefedit) %s starts editing toggles for %s", GET_NAME(ch), GET_NAME(vict));
 }
-

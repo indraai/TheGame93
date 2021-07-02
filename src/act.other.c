@@ -323,7 +323,7 @@ static void print_group(struct char_data *ch)
 
   while ((k = (struct char_data *) simple_list(ch->group->members)) != NULL)
     send_to_char(ch, "%-*s: %s[%4d/%-4d]H [%4d/%-4d]M [%4d/%-4d]V%s\r\n",
-	    count_color_chars(GET_NAME(k))+22, GET_NAME(k), 
+	    count_color_chars(GET_NAME(k))+22, GET_NAME(k),
 	    GROUP_LEADER(GROUP(ch)) == k ? CBGRN(ch, C_NRM) : CCGRN(ch, C_NRM),
 	    GET_HIT(k), GET_MAX_HIT(k),
 	    GET_MANA(k), GET_MAX_MANA(k),
@@ -335,29 +335,29 @@ static void display_group_list(struct char_data * ch)
 {
   struct group_data * group;
   int count = 0;
-	
+
   if (group_list->iSize) {
     send_to_char(ch, "#   Group Leader     # of Members    In Zone\r\n"
                      "---------------------------------------------------\r\n");
-		
+
     while ((group = (struct group_data *) simple_list(group_list)) != NULL) {
 			if (IS_SET(GROUP_FLAGS(group), GROUP_NPC))
 			  continue;
       if (GROUP_LEADER(group) && !IS_SET(GROUP_FLAGS(group), GROUP_ANON))
-        send_to_char(ch, "%-2d) %s%-12s     %-2d              %s%s\r\n", 
+        send_to_char(ch, "%-2d) %s%-12s     %-2d              %s%s\r\n",
           ++count,
-          IS_SET(GROUP_FLAGS(group), GROUP_OPEN) ? CCGRN(ch, C_NRM) : CCRED(ch, C_NRM), 
+          IS_SET(GROUP_FLAGS(group), GROUP_OPEN) ? CCGRN(ch, C_NRM) : CCRED(ch, C_NRM),
           GET_NAME(GROUP_LEADER(group)), group->members->iSize, zone_table[world[IN_ROOM(GROUP_LEADER(group))].zone].name,
           CCNRM(ch, C_NRM));
       else
         send_to_char(ch, "%-2d) Hidden\r\n", ++count);
-				
+
 		}
   }
   if (count)
     send_to_char(ch, "\r\n"
                      "%sSeeking Members%s\r\n"
-                     "%sClosed%s\r\n", 
+                     "%sClosed%s\r\n",
                      CCGRN(ch, C_NRM), CCNRM(ch, C_NRM),
                      CCRED(ch, C_NRM), CCNRM(ch, C_NRM));
   else
@@ -380,7 +380,7 @@ ACMD(do_group)
       send_to_char(ch, "You must specify a group option, or type HELP GROUP for more info.\r\n");
     return;
   }
-  
+
   if (is_abbrev(buf, "new")) {
     if (GROUP(ch))
       send_to_char(ch, "You are already in a group.\r\n");
@@ -405,8 +405,8 @@ ACMD(do_group)
     } else if (!IS_SET(GROUP_FLAGS(GROUP(vict)), GROUP_OPEN)) {
       send_to_char(ch, "That group isn't accepting members.\r\n");
       return;
-    }   
-    join_group(ch, GROUP(vict)); 
+    }
+    join_group(ch, GROUP(vict));
   } else if (is_abbrev(buf, "kick")) {
     skip_spaces(&argument);
     if (!(vict = get_char_vis(ch, argument, NULL, FIND_CHAR_ROOM))) {
@@ -424,9 +424,9 @@ ACMD(do_group)
     } else if (GROUP(vict) != GROUP(ch)) {
       act("$E$u is not a member of your group!", FALSE, ch, 0, vict, TO_CHAR);
       return;
-    } 
+    }
     send_to_char(ch, "You have kicked %s out of the group.\r\n", GET_NAME(vict));
-    send_to_char(vict, "You have been kicked out of the group.\r\n"); 
+    send_to_char(vict, "You have been kicked out of the group.\r\n");
     leave_group(vict);
   } else if (is_abbrev(buf, "regroup")) {
     if (!GROUP(ch)) {
@@ -441,12 +441,12 @@ ACMD(do_group)
       join_group(ch, GROUP(vict));
     }
   } else if (is_abbrev(buf, "leave")) {
-    
+
     if (!GROUP(ch)) {
       send_to_char(ch, "But you aren't part of a group!\r\n");
       return;
     }
-		
+
     leave_group(ch);
   } else if (is_abbrev(buf, "option")) {
     skip_spaces(&argument);
@@ -463,10 +463,10 @@ ACMD(do_group)
     } else if (is_abbrev(argument, "anonymous")) {
       TOGGLE_BIT(GROUP_FLAGS(GROUP(ch)), GROUP_ANON);
       send_to_char(ch, "The group location is now %s to other players.\r\n", IS_SET(GROUP_FLAGS(GROUP(ch)), GROUP_ANON) ? "invisible" : "visible");
-    } else 
+    } else
       send_to_char(ch, "The flag options are: Open, Anonymous\r\n");
   } else {
-    send_to_char(ch, "You must specify a group option, or type HELP GROUP for more info.\r\n");		
+    send_to_char(ch, "You must specify a group option, or type HELP GROUP for more info.\r\n");
   }
 
 }
@@ -493,7 +493,7 @@ ACMD(do_split)
   int amount, num = 0, share, rest;
   size_t len;
   struct char_data *k;
-  
+
   if (IS_NPC(ch))
     return;
 
@@ -509,7 +509,7 @@ ACMD(do_split)
       send_to_char(ch, "You don't seem to have that much gold to split.\r\n");
       return;
     }
-    
+
     if (GROUP(ch))
       while ((k = (struct char_data *) simple_list(GROUP(ch)->members)) != NULL)
         if (IN_ROOM(ch) == IN_ROOM(k) && !IS_NPC(k))
@@ -720,8 +720,8 @@ ACMD(do_gen_tog)
     "Autogold enabled.\r\n"},
     {"Autosplit disabled.\r\n",
     "Autosplit enabled.\r\n"},
-    {"Autosacrifice disabled.\r\n",
-    "Autosacrifice enabled.\r\n"},
+    {"Autooffering disabled.\r\n",
+    "Autooffering enabled.\r\n"},
     {"Autoassist disabled.\r\n",
     "Autoassist enabled.\r\n"},
     {"Automap disabled.\r\n",
@@ -785,7 +785,7 @@ ACMD(do_gen_tog)
     break;
   case SCMD_CLS:
     result = PRF_TOG_CHK(ch, PRF_CLS);
-    break;    
+    break;
   case SCMD_BUILDWALK:
     if (GET_LEVEL(ch) < LVL_BUILDER) {
       send_to_char(ch, "Builders only, sorry.\r\n");
@@ -797,11 +797,11 @@ ACMD(do_gen_tog)
       for (i=0; *arg && *(sector_types[i]) != '\n'; i++)
         if (is_abbrev(arg, sector_types[i]))
           break;
-      if (*(sector_types[i]) == '\n') 
+      if (*(sector_types[i]) == '\n')
         i=0;
       GET_BUILDWALK_SECTOR(ch) = i;
       send_to_char(ch, "Default sector type is %s\r\n", sector_types[i]);
-  
+
       mudlog(CMP, GET_LEVEL(ch), TRUE,
              "OLC: %s turned buildwalk on. Allowed zone %d", GET_NAME(ch), GET_OLC_ZONE(ch));
     } else
@@ -827,8 +827,8 @@ ACMD(do_gen_tog)
   case SCMD_AUTOSPLIT:
     result = PRF_TOG_CHK(ch, PRF_AUTOSPLIT);
     break;
-  case SCMD_AUTOSAC:
-    result = PRF_TOG_CHK(ch, PRF_AUTOSAC);
+  case SCMD_AUTOOFFER:
+    result = PRF_TOG_CHK(ch, PRF_AUTOOFFER);
     break;
   case SCMD_AUTOASSIST:
     result = PRF_TOG_CHK(ch, PRF_AUTOASSIST);

@@ -629,7 +629,7 @@ if %cmd.mudcommand% == nohassle
 end
 *
 set zone 211
-if get == %cmd.mudcommand% || sacrifice == %cmd.mudcommand%
+if get == %cmd.mudcommand% || offering == %cmd.mudcommand%
   if %self.room.vnum% == %zone%02
     set testernumber 2
   else
@@ -650,9 +650,9 @@ if get == %cmd.mudcommand% || sacrifice == %cmd.mudcommand%
         if %obj.id% == %self.id%
           if get == %cmd.mudcommand%
             %force% %actor% %cmd.mudcommand% %obj.name.car%
-          elseif sacrifice == %cmd.mudcommand%
-            %send% %actor% You carefully dispose of %obj.shortdesc%.
-            %echoaround% %actor% %actor.name% carefully disposes of %obj.shortdesc%.
+          elseif offering == %cmd.mudcommand%
+            %send% %actor% You carefully offer %obj.shortdesc% to the DEVAS.
+            %echoaround% %actor% %actor.name% carefully offers %obj.shortdesc% to the DEVAS.
             set me %self.vnum%
             eval temp %%findobj.%zone%02(%me%)%%
             eval tester %temp%

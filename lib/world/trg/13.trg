@@ -1850,8 +1850,8 @@ if %actor.level% > 30 && %actor.varexists(TBA_trial_vnum)%
     %send% %actor% Sedit, Trigedit, Qedit, Dig, Rclone, Attach, Detach, and Vdelete are not required for your trial vnum.
   elseif %cmd.mudcommand% == zpurge
     %send% %actor% Zpurge is not required for your trial vnum. Use 'purge' or 'purge item.'
-  elseif %cmd.mudcommand% == sacrifice
-    %send% %actor% Sacrifice is disabled until your trial room is completed.
+  elseif %cmd.mudcommand% == offering
+    %send% %actor% offering is disabled until your trial room is completed.
   else
     return 0
   end

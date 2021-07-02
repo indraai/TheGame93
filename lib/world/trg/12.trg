@@ -420,8 +420,8 @@ end
 if %actor.pref(AUTOSPLIT)%
   %send% %actor% You have AUTOSPLIT on.
 end
-if %actor.pref(AUTOSAC)%
-  %send% %actor% You have AUTOSAC on.
+if %actor.pref(AUTOOFFER)%
+  %send% %actor% You have AUTOOFFER on.
 end
 if %actor.pref(AUTOASSIST)%
   %send% %actor% You have AUTOASSIST on.

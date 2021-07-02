@@ -1894,9 +1894,9 @@ ACMD(do_toggle)
     {"autosplit", PRF_AUTOSPLIT, 0,
     "Autosplit disabled.\r\n",
     "Autosplit enabled.\r\n"},
-    {"autosac", PRF_AUTOSAC, 0,
-    "Autosac disabled.\r\n",
-    "Autosac enabled.\r\n"},
+    {"autooffer", PRF_AUTOOFFER, 0,
+    "\nAutooffer disabled.\r",
+    "\nAutooffer enabled.\r"},
     {"autoassist", PRF_AUTOASSIST, 0,
     "Autoassist disabled.\r\n",
     "Autoassist enabled.\r\n"},
@@ -1992,7 +1992,7 @@ ACMD(do_toggle)
     "       AutoGold: %-3s    "
     "      AutoSplit: %-3s\r\n"
 
-    "        AutoSac: %-3s    "
+    "      Autooffer: %-3s    "
     "     AutoAssist: %-3s    "
     "        AutoMap: %-3s\r\n"
 
@@ -2028,7 +2028,7 @@ ACMD(do_toggle)
     ONOFF(PRF_FLAGGED(ch, PRF_AUTOGOLD)),
     ONOFF(PRF_FLAGGED(ch, PRF_AUTOSPLIT)),
 
-    ONOFF(PRF_FLAGGED(ch, PRF_AUTOSAC)),
+    ONOFF(PRF_FLAGGED(ch, PRF_AUTOOFFER)),
     ONOFF(PRF_FLAGGED(ch, PRF_AUTOASSIST)),
     ONOFF(PRF_FLAGGED(ch, PRF_AUTOMAP)),
 

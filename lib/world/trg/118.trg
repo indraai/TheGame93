@@ -2263,7 +2263,7 @@ if %cmd.mudcommand% == eat && hotdog /= %arg%
       wait 1 s
       smile %actor.name%
       wait 1 s
-      say Ah, this is all the sacrifice I need %actor.name%.
+      say Ah, this is all the offering I need %actor.name%.
       wait 2 s
       say Not the giving of your life, but the willingness to.
       wait 2 s
@@ -2310,9 +2310,9 @@ if %object.vnum% == 11807
     wait 2 s
     say I have already lost more than I ever chose to give.
     wait 2 s
-    say All but my life has departed from me... the final unmade sacrifice.
+    say All but my life has departed from me...
     wait 3 s
-    say Make this sacrifice %actor.name%?
+    say Make this offering %actor.name%?
     wait 2 s
     say Give up your life for the truth?
     wait 1 s

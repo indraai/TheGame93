@@ -128,29 +128,29 @@ say And there is a fighter here to help you train.
 end
 ~
 #10315
-Newbie Fighter Sacrifice - 10318~
+Newbie Fighter Offering - 10318~
 2 c 100
 sac~
-if sacrifice /= %cmd% && fighter /= %arg%
-  %send% %actor% You sacrifice the corpse of A Newbie Fighter.
-  %echoaround% %actor% Dabura gives %actor.name% one zeni for his sacrifice.
-  %send% %actor% Dabura gives you one zeni for your sacrifice.
+if offering /= %cmd% && fighter /= %arg%
+  %send% %actor% You offer A Newbie Fighter to the dieties.
+  %echoaround% %actor% Dabura gives %actor.name% one zeni for his offering.
+  %send% %actor% Dabura gives you one zeni for your offering.
   %purge% %self%
 else
-  %send% %actor% Sacrifice what?
+  %send% %actor% offer what?
 end
 ~
 #10316
 Sac Vegeta - 10319~
 0 c 100
 sac~
-if sacrifice /= %cmd% && vegeta /= %arg%
-  %send% %actor% You sacrifice the corpse of vegeta.
-  %echoaround% %actor% Dabura gives %actor.name% one zeni for his sacrifice.
-  %send% %actor% Dabura gives you one zeni for your sacrifice.
+if offering /= %cmd% && vegeta /= %arg%
+  %send% %actor% You offer Vegeta to the dieties.
+  %echoaround% %actor% Dabura gives %actor.name% one zeni for his offering.
+  %send% %actor% Dabura gives you one zeni for your offering.
   %purge% %self%
 else
-  %send% %actor% Sacrifice what?
+  %send% %actor% offer what?
 end
 ~
 #10318

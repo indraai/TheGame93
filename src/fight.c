@@ -775,8 +775,8 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
     if (!IS_NPC(ch) && (ch != victim) && PRF_FLAGGED(ch, PRF_AUTOLOOT)) {
       do_get(ch, "all corpse", 0, 0);
     }
-    if (IS_NPC(victim) && !IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOSAC)) {
-      do_sac(ch,"corpse",0,0);
+    if (IS_NPC(victim) && !IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOOFFER)) {
+      do_offer(ch,"corpse",0,0);
     }
     return (-1);
   }
