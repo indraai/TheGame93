@@ -609,7 +609,7 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
   clear_screen(d);
 
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nbutton%d:%s\r", ++count, affected_bits[i]);
+    write_to_output(d, "\nbutton:%d:%s\r", ++count, affected_bits[i]);
   }
 
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
@@ -689,9 +689,9 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\ninput[b:timer]:%d\r"
     "\ninput[m:min level]:%d\r"
     "\n===\n"
-	  "\nselect[c:values]:%d %d %d %d\r"
-	  "\nselect[e:e-desc]:%s\r"
-    "\nselect[p:perm affects]:%s\r"
+	  "\nselect[c:liquid]:%d %d %d %d\r"
+	  "\nselect[e:extra]:%s\r"
+    "\nselect[p:affects]:%s\r"
 	  "\nselect[s:script]:%s\r"
     "\n===\n"
     "\nmenu:d:applies menu\r"
