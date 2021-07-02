@@ -48,8 +48,6 @@ static void oedit_save_to_disk(int zone_num);
 /* handy macro */
 #define S_PRODUCT(s, i) ((s)->producing[(i)])
 
-char confirm[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
-
 /* Utility and exported functions */
 ACMD(do_oasis_oedit)
 {
