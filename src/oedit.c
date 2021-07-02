@@ -302,9 +302,10 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 	  "\nmenu:2:pickproof\r"
 	  "\nmenu:3:closed\r"
 	  "\nmenu:4:locked\r"
-    "\nmenu:0:quit\r"
     "\n===\r"
 	  "\nflags: %s\r",
+    "\n===\r"
+    "\nmenu:0:quit\r"
 	  bits);
 }
 
@@ -320,7 +321,6 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\nselect[1:keywords]:%s\r"
 	  "\nselect[2:desc]:%s\r"
 	  "\nselect[3:next desc]:%s\r"
-    "\n===\n"
 	  "\nmenu:0:quit\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
@@ -427,31 +427,30 @@ static void oedit_disp_val1_menu(struct descriptor_data *d)
   case ITEM_WAND:
   case ITEM_STAFF:
   case ITEM_POTION:
-    write_to_output(d, "Spell level : ");
+    write_to_output(d, "\nWhat is the spell level?\r");
     break;
   case ITEM_WEAPON:
     /* This doesn't seem to be used if I remember right. */
-    write_to_output(d, "Modifier to Hitroll : ");
+    write_to_output(d, "\nWhat is the modifier to hitroll?\r");
     break;
   case ITEM_ARMOR:
-    write_to_output(d, "Apply to AC : ");
+    write_to_output(d, "\nApply to AC?\r");
     break;
   case ITEM_CONTAINER:
-    write_to_output(d, "Max weight to contain (-1 for unlimited) : ");
+    write_to_output(d, "What is the max weight it can contain (-1 for unlimited) : ");
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
-    write_to_output(d, "\n# Drink Units\r"
-    "\ninfo:Please input the MAX drink units. -1 for unlimited.\r");
+    write_to_output(d, "\nWhat are the max drink units? (-1 for unlimited)\r");
     break;
   case ITEM_FOOD:
-    write_to_output(d, "Hours to fill stomach : ");
+    write_to_output(d, "\nHow many hours to fill stomach?\r");
     break;
   case ITEM_MONEY:
-    write_to_output(d, "Number of gold coins : ");
+    write_to_output(d, "\nWhat are the total number?\r");
     break;
   case ITEM_FURNITURE:
-    write_to_output(d, "Number of people it can hold : ");
+    write_to_output(d, "\nHow many people can it hold?\r");
     break;
   case ITEM_NOTE:  // These object types have no 'values' so go back to menu
   case ITEM_OTHER:
@@ -482,10 +481,10 @@ static void oedit_disp_val2_menu(struct descriptor_data *d)
     break;
   case ITEM_WAND:
   case ITEM_STAFF:
-    write_to_output(d, "Max number of charges : ");
+    write_to_output(d, "\nWhat are the max number of charges?");
     break;
   case ITEM_WEAPON:
-    write_to_output(d, "Number of damage dice : ");
+    write_to_output(d, "\nHow many damage dice are there?");
     break;
   case ITEM_FOOD:
     /* Values 2 and 3 are unused, jump to 4...Odd. */
@@ -497,8 +496,7 @@ static void oedit_disp_val2_menu(struct descriptor_data *d)
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
-    write_to_output(d, "\n# Drink Units\r"
-      "\ninfo:Please input the INITIAL drink units for this object.\r");
+    write_to_output(d, "\nHow many initial drink units are there?\r");
     break;
   default:
     oedit_disp_menu(d);
@@ -511,7 +509,7 @@ static void oedit_disp_val3_menu(struct descriptor_data *d)
   OLC_MODE(d) = OEDIT_VALUE_3;
   switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
   case ITEM_LIGHT:
-    write_to_output(d, "Number of hours (0 = burnt, -1 is infinite) : ");
+    write_to_output(d, "How many hours will it operate? (0 = burnt, -1 is infinite)");
     break;
   case ITEM_SCROLL:
   case ITEM_POTION:
@@ -519,13 +517,13 @@ static void oedit_disp_val3_menu(struct descriptor_data *d)
     break;
   case ITEM_WAND:
   case ITEM_STAFF:
-    write_to_output(d, "Number of charges remaining : ");
+    write_to_output(d, "\nHow many charges are remaining?\r");
     break;
   case ITEM_WEAPON:
-    write_to_output(d, "Size of damage dice : ");
+    write_to_output(d, "\nWhat is the size of the damage dice?\r");
     break;
   case ITEM_CONTAINER:
-    write_to_output(d, "Vnum of key to open container (-1 for no key) : ");
+    write_to_output(d, "\nWhat is the key vnum to open the container?(-1 for no key)?\r");
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
@@ -553,8 +551,7 @@ static void oedit_disp_val4_menu(struct descriptor_data *d)
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:
   case ITEM_FOOD:
-    write_to_output(d, "\n# Poisoned\r"
-      "\ninfo:Is this item a poison? (0 = not poison)\r");
+    write_to_output(d, "\nIs this item a poison? (0 = not poison)\r");
     break;
   default:
     oedit_disp_menu(d);
@@ -773,21 +770,21 @@ void oedit_parse(struct descriptor_data *d, char *arg)
 	cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "\ninfo:Enter keywords\r");
+      write_to_output(d, "\nPleaes enter the keywords.\r");
       OLC_MODE(d) = OEDIT_KEYWORD;
       break;
     case '2':
-      write_to_output(d, "\ninfo: Enter short description\r");
+      write_to_output(d, "\nPlease enter the short description.\r");
       OLC_MODE(d) = OEDIT_SHORTDESC;
       break;
     case '3':
-      write_to_output(d, "\ninfo: Enter the long description.\r ");
+      write_to_output(d, "\nPlease enter the long description.\r ");
       OLC_MODE(d) = OEDIT_LONGDESC;
       break;
     case '4':
       OLC_MODE(d) = OEDIT_ACTDESC;
       send_editor_help(d);
-      write_to_output(d, "\ninfo: Enter action description:\r");
+      write_to_output(d, "\nEnter action description:\r");
       if (OLC_OBJ(d)->action_description) {
 	write_to_output(d, "%s", OLC_OBJ(d)->action_description);
 	oldtext = strdup(OLC_OBJ(d)->action_description);
@@ -808,21 +805,21 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_WEAR;
       break;
     case '8':
-      write_to_output(d, "Enter weight : ");
+      write_to_output(d, "\nWhat is the object weight?\r");
       OLC_MODE(d) = OEDIT_WEIGHT;
       break;
     case '9':
-      write_to_output(d, "Enter cost : ");
+      write_to_output(d, "\nWhat is the object cost?\r");
       OLC_MODE(d) = OEDIT_COST;
       break;
     case 'a':
     case 'A':
-      write_to_output(d, "Enter cost per day : ");
+      write_to_output(d, "\nWhat is the object cost per day?\r");
       OLC_MODE(d) = OEDIT_COSTPERDAY;
       break;
     case 'b':
     case 'B':
-      write_to_output(d, "Enter timer : ");
+      write_to_output(d, "\nPlease enter the object timer.\r");
       OLC_MODE(d) = OEDIT_TIMER;
       break;
     case 'c':
@@ -851,7 +848,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'm':
     case 'M':
-      write_to_output(d, "Enter new minimum level: ");
+      write_to_output(d, "\nWhat is the new minimum level?\r");
       OLC_MODE(d) = OEDIT_LEVEL;
       break;
     case 'p':
@@ -866,12 +863,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'w':
     case 'W':
-      write_to_output(d, "Copy what object? ");
+      write_to_output(d, "\nCopy what object?\r");
       OLC_MODE(d) = OEDIT_COPY;
       break;
     case 'x':
     case 'X':
-      write_to_output(d, "Are you sure you want to delete this object? ");
+      write_to_output(d, "\nAre you sure you want to delete this object?\r");
       OLC_MODE(d) = OEDIT_DELETE;
       break;
     default:
@@ -911,7 +908,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_TYPE:
     number = atoi(arg);
     if ((number < 0) || (number >= NUM_ITEM_TYPES)) {
-      write_to_output(d, "Invalid choice, try again : ");
+      write_to_output(d, "\nInvalid choice, try again.\r");
       return;
     } else
       GET_OBJ_TYPE(OLC_OBJ(d)) = number;
@@ -936,7 +933,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_WEAR:
     number = atoi(arg);
     if ((number < 0) || (number > NUM_ITEM_WEARS)) {
-      write_to_output(d, "That's not a valid choice!\r\n");
+      write_to_output(d, "\nThat's not a valid choice!\r");
       oedit_disp_wear_menu(d);
       return;
     } else if (number == 0)	/* Quit. */
@@ -1134,7 +1131,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       if (GET_LEVEL(d->character) < LVL_IMPL) {
         for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
           if (OLC_OBJ(d)->affected[counter].location == number) {
-            write_to_output(d, "Object already has that apply.");
+            write_to_output(d, "\nObject already has that apply.\r");
             return;
           }
         }
@@ -1180,13 +1177,13 @@ void oedit_parse(struct descriptor_data *d, char *arg)
 
     case 1:
       OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
-      write_to_output(d, "Enter keywords, separated by spaces :-\r\n| ");
+      write_to_output(d, "\nPlease enter keywords, separated by spaces\r");
       return;
 
     case 2:
       OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "Enter the extra description:\r\n\r\n");
+      write_to_output(d, "\nPleae enter the extra description:\r");
       if (OLC_DESC(d)->description) {
 	write_to_output(d, "%s", OLC_DESC(d)->description);
 	oldtext = strdup(OLC_DESC(d)->description);
@@ -1219,26 +1216,26 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     if ((number = real_object(atoi(arg))) != NOTHING) {
       oedit_setup_existing(d, number);
     } else
-      write_to_output(d, "That object does not exist.\r\n");
+      write_to_output(d, "\nThat object does not exist.\r");
     break;
 
   case OEDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_object(GET_OBJ_RNUM(OLC_OBJ(d))) != NOTHING)
-        write_to_output(d, "Object deleted.\r\n");
+        write_to_output(d, "\nObject deleted.\r");
       else
-        write_to_output(d, "Couldn't delete the object!\r\n");
+        write_to_output(d, "\nThat object could not be deleted.\r");
 
       cleanup_olc(d, CLEANUP_ALL);
     } else if (*arg == 'n' || *arg == 'N') {
       oedit_disp_menu(d);
       OLC_MODE(d) = OEDIT_MAIN_MENU;
     } else
-      write_to_output(d, "Please answer 'Y' or 'N': ");
+      write_to_output(d, "\nPlease answer 'Y' or 'N'\r");
     return;
   default:
-    mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: Reached default case in oedit_parse()!");
-    write_to_output(d, "Oops...\r\n");
+    mudlog(BRF, LVL_BUILDER, TRUE, "\nSYSERR: OLC: Reached default case in oedit_parse()!\r");
+    write_to_output(d, "\nOops...\r");
     break;
   }
 
