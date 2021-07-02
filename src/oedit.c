@@ -48,6 +48,8 @@ static void oedit_save_to_disk(int zone_num);
 /* handy macro */
 #define S_PRODUCT(s, i) ((s)->producing[(i)])
 
+char confirm[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
+
 /* Utility and exported functions */
 ACMD(do_oasis_oedit)
 {
@@ -750,9 +752,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       return;
     default:
       write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "\nDo you wish to save your changes?\r"
-      "\nmenu:y:yes\r"
-      "\nmenu:n:no\r");
+      write_to_output(d, "%s", confirm);
       return;
     }
 
@@ -762,10 +762,8 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Something has been modified. */
-	write_to_output(d, "\nDo you wish to save your changes?\r"
-    "\nmenu:y:yes\r"
-    "\nmenu:n:no\r");
-	OLC_MODE(d) = OEDIT_CONFIRM_SAVESTRING;
+        write_to_output(d, "%s", confirm);
+        OLC_MODE(d) = OEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);
       return;
