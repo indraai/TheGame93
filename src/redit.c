@@ -444,7 +444,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nzone:%d\r"
       "\n## Details\r"
       "\ninput[1:name]:%s\r"
-      "\ndescrip[2:description]:%s\r"
+      "\ntext[2:description]:%s\r"
       "\nselect[3:room flags]:%s\r"
       "\nselect[4:sector type]:%s\r",
       room->name,
