@@ -31,7 +31,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d);
 static void redit_disp_sector_menu(struct descriptor_data *d);
 static void redit_disp_menu(struct descriptor_data *d);
 
-char confirm[] = "\nmenu:y:save\r\nmenu:n:cancel\r";
+char confirm[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
 
 /* Utils and exported functions. */
 ACMD(do_oasis_redit)
@@ -517,8 +517,8 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n===\n"
+      "\nselect[s:script]:%s\r"
       "\nmenu:f:extra description\r"
-      "\nselect[s:script menu]:%s\r"
       "\n===\n"
       "\nmenu:w:copy room\r"
       "\nmenu:x:delete room\r"
@@ -590,6 +590,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
 
+      /* confirm save changes */
       write_to_output(d, "%s", confirm);
 
       break;
@@ -923,6 +924,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = REDIT_MAIN_MENU;
       return;
     } else
+      /* confirm save changes */
       write_to_output(d, "%s", confirm);
 
     break;
