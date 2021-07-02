@@ -20,13 +20,13 @@
 #include "interpreter.h"	/* alias_data */
 #include "constants.h"
 
-const char confirm_msg[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
+const char *confirm_msg[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
 
 /** Current tbaMUD version.
  * @todo cpp_extern isn't needed here (or anywhere) as the extern reserved word
  * works correctly with C compilers (at least in my Experience)
  * Jeremy Osborne 1/28/2008 */
-cpp_extern const char *tbamud_version = "tbaMUD 2021";
+cpp_extern const char *tbamud_version = "TheGame93";
 
 /* strings corresponding to ordinals/bitvectors in structs.h */
 /* (Note: strings for class definitions in class.c instead of here) */
