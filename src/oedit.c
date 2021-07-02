@@ -570,7 +570,7 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   write_to_output(d, "\n# Object Type\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "button:%d:%s", ++count, item_types[i]);
+    write_to_output(d, "button[%d:%s]", ++count, item_types[i]);
   }
   write_to_output(d, "\n===\n"
   "\nmenu:0:quit\r");
@@ -588,7 +588,7 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
   write_to_output(d, "\n# Object Flags\r");
 
   for (i = 0; i < NUM_ITEM_FLAGS; i++) {
-    write_to_output(d, "button:%d:%s", ++count, extra_bits[i]);
+    write_to_output(d, "button[%d:%s]", ++count, extra_bits[i]);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
   write_to_output(d, "\n===\n"
@@ -609,7 +609,7 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
   clear_screen(d);
 
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "button:%d:%s", ++count, affected_bits[i]);
+    write_to_output(d, "button[%d:%s]", ++count, affected_bits[i]);
   }
 
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
@@ -631,7 +631,7 @@ static void oedit_disp_wear_menu(struct descriptor_data *d)
   write_to_output(d, "\n# Wear Flags\r");
 
   for (i = 0; i < NUM_ITEM_WEARS; i++) {
-    write_to_output(d, "button:%d:%s", ++count, wear_bits[i]);
+    write_to_output(d, "button[%d:%s]", ++count, wear_bits[i]);
   }
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, TW_ARRAY_MAX, bits);
   write_to_output(d, "\n===\n"
