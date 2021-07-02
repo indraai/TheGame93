@@ -13,6 +13,8 @@
 #define _CONSTANTS_H_
 
 extern const char *tbamud_version;
+extern const char *confirm_msg;
+
 extern const char *dirs[];
 extern const char *autoexits[];
 extern const char *room_bits[];
@@ -58,5 +60,4 @@ extern size_t action_bits_count;
 extern size_t affected_bits_count;
 extern size_t extra_bits_count;
 extern size_t wear_bits_count;
-extern const char *confirm_msg[];
 #endif /* _CONSTANTS_H_ */
