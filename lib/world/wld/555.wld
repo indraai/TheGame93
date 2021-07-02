@@ -116,7 +116,7 @@ New Magincia Road~
    The dirt road path ends here in a grove.  You can continue back to the north,
 and there is an old abandoned house to the west.
 ~
-555 0 0 0 0 1
+555 8192 0 0 0 1
 D0
 ~
 ~
@@ -172,11 +172,10 @@ There is a shimmering light to the east.
 1 0 55503
 S
 #55509
-The House~
-   This place is wrecked, the rafters have fallen, and light shines through a
-large hole in the roof.  You wonder what kinds of animals have taken home here.
+Storage Room~
+Quinn's Private Storage Room
 ~
-555 8 0 0 0 0
+555 728 0 0 0 0
 D2
 ~
 ~
@@ -605,13 +604,13 @@ D3
 ~
 0 0 55533
 E
-undefined~
-   'Secret Door: The Shelf' is on the shelf.
-~
-E
 shelf shelves bookshelves bookcases~
    The shelf to the south looks a bit strange.  It might be possible to open the
 shelf.
+~
+E
+undefined~
+   'Secret Door: The Shelf' is on the shelf.
 ~
 S
 T 55532
@@ -1258,22 +1257,22 @@ D0
 You see trees.
 ~
 ~
-0 0 55570
+0 0 55578
 D1
 You see trees.
 ~
 ~
-0 0 55579
+0 0 55570
 D2
 You see trees.
 ~
 ~
-0 0 55573
+0 0 55579
 D3
 You see trees.
 ~
 ~
-0 0 55578
+0 0 55573
 S
 T 55569
 #55570
@@ -1313,22 +1312,22 @@ D0
 You see trees.
 ~
 ~
-0 0 55572
+0 0 55581
 D1
 You see trees.
 ~
 ~
-0 0 55581
+0 0 55570
 D2
 You see trees.
 ~
 ~
-0 0 55570
+0 0 55576
 D3
 You see trees.
 ~
 ~
-0 0 55576
+0 0 55572
 S
 T 55571
 #55572
