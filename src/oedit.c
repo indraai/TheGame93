@@ -71,7 +71,7 @@ ACMD(do_oasis_oedit)
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+      send_to_char(ch, "\nYikes!  Stop that, someone will get hurt!\r");
       return;
     }
 
