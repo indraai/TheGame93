@@ -338,6 +338,8 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
+  write_to_output(d, "\n# Affection\r");
+
   for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
     if (OLC_OBJ(d)->affected[counter].modifier) {
       sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
@@ -347,9 +349,9 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
       write_to_output(d, " menu:%d:None\r", counter + 1);
     }
   }
-  write_to_output(d, "\n# Affection");
   OLC_MODE(d) = OEDIT_PROMPT_APPLY;
-  write_to_output(d, "menu:0:quit");
+  write_to_output(d, "\n===\n"
+  "menu:0:done");
 }
 
 /* Ask for liquid type. */
