@@ -317,9 +317,9 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	  "\n# Extra Description\r"
-	  "\ninput[1:keywords]:%s\r"
-	  "\ntext[2:desc]:%s\r"
-	  "\ninput[3:next description]:%s\r"
+	  "\nselect[1:keywords]:%s\r"
+	  "\nselect[2:desc]:%s\r"
+	  "\nselect[3:next desc]:%s\r"
     "\n===\n"
 	  "\nmenu:0:quit\r",
 
@@ -662,10 +662,10 @@ static void oedit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n# Object Edit\r"
 	  "\nitem:%d\r"
-	  "\ninput[1:keywords]: %s\r"
-	  "\ntext[2:s-desc]: %s\r"
-	  "\ntext[3:l-desc]: %s\r"
-	  "\ntext[4:a-desc]: %s\r"
+	  "\nselect[1:keywords]: %s\r"
+	  "\nselect[2:s-desc]: %s\r"
+	  "\nselect[3:l-desc]: %s\r"
+	  "\nselect[4:a-desc]: %s\r"
     "\n===\n"
 	  "\nselect[5:type]:%s\r"
 	  "\nselect[6:flags]:%s\r",
@@ -685,11 +685,11 @@ static void oedit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
 	  "\nselect[7:wear]:%s\r"
     "\n===\n"
-	  "\ninput[8:weight]:%d\r"
-	  "\ninput[9:cost]:%d\r"
-	  "\ninput[a:cost per day]:%d\r"
-	  "\ninput[b:timer]:%d\r"
-    "\ninput[m:min level]:%d\r"
+	  "\nselect[8:weight]:%d\r"
+	  "\nselect[9:cost]:%d\r"
+	  "\nselect[a:cost per day]:%d\r"
+	  "\nselect[b:timer]:%d\r"
+    "\nselect[m:min level]:%d\r"
     "\n===\n"
 	  "\nselect[c:liquid]:%d %d %d %d\r"
 	  "\nselect[e:extra]:%s\r"
@@ -753,7 +753,9 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       return;
     default:
       write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "Do you wish to save your changes? : \r\n");
+      write_to_output(d, "\nDo you wish to save your changes?\r"
+      "\nmenu:y:yes\r"
+      "\nmenu:n:no\r");
       return;
     }
 
@@ -763,27 +765,29 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Something has been modified. */
-	write_to_output(d, "Do you wish to save your changes? : ");
+	write_to_output(d, "\nDo you wish to save your changes?\r"
+    "\nmenu:y:yes\r"
+    "\nmenu:n:no\r");
 	OLC_MODE(d) = OEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "Enter keywords : ");
+      write_to_output(d, "\ninfo:Enter keywords\r");
       OLC_MODE(d) = OEDIT_KEYWORD;
       break;
     case '2':
-      write_to_output(d, "Enter short desc : ");
+      write_to_output(d, "\ninfo: Enter short description\r");
       OLC_MODE(d) = OEDIT_SHORTDESC;
       break;
     case '3':
-      write_to_output(d, "Enter long desc :-\r\n| ");
+      write_to_output(d, "\ninfo: Enter the long description.\r ");
       OLC_MODE(d) = OEDIT_LONGDESC;
       break;
     case '4':
       OLC_MODE(d) = OEDIT_ACTDESC;
       send_editor_help(d);
-      write_to_output(d, "Enter action description:\r\n\r\n");
+      write_to_output(d, "\ninfo: Enter action description:\r");
       if (OLC_OBJ(d)->action_description) {
 	write_to_output(d, "%s", OLC_OBJ(d)->action_description);
 	oldtext = strdup(OLC_OBJ(d)->action_description);
