@@ -93,6 +93,6 @@ wait 3 sec
 set stunned %actor.hitp%
 %damage% %actor% %stunned%
 wait 3 sec
-%send% %actor% The Gods allow your puny existence to continue.
+%send% %actor% The Devas allow your puny existence to continue.
 ~
 $~

@@ -76,7 +76,7 @@ if %actor.is_pc%
     wait 1 sec
     say Within this zone you can learn all the immortal commands and how to build.
     wait 2 sec
-    say This zone is like a newbie zone, except for gods. All you have to do is walk through the zone and read every room description.
+    say This zone is like a newbie zone, except for Devas. All you have to do is walk through the zone and read every room description.
     wait 3 sec
     say Be sure to do everything the room descriptions tell you to do. You should read and comprehend everything contained within these walls.
     * Now create a variable to remember they have been greeted.
@@ -305,7 +305,7 @@ wait 1
 %echo% As %actor.name% enters the room a bolt of lightning smites %actor.himher%.
 %damage% %actor% 10
 wait 5 sec
-%echo% The Gods feel sorry for %actor.name% and restore him to full health.
+%echo% The Devas feel sorry for %actor.name% and restore him to full health.
 %damage% %actor% -10
 ~
 #1316
@@ -1297,7 +1297,7 @@ switch %time.day%
   case 19
   case 26
   case 33
-  set day the Day of the Great Gods
+  set day the Day of the Great Devas
     break
   case 7
   case 13
@@ -2282,7 +2282,7 @@ eval target %self.people%
 while %target%
   eval tmp_target %target.next_in_room%
   if %target.vnum% != -1  && %random.2% != 1
-    %echo% The gods destroy %target.name%
+    %echo% The Devas destroy %target.name%
     %purge% %target%
   end
   eval target %tmp_target%

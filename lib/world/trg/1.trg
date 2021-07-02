@@ -1985,7 +1985,7 @@ set txt[2] a good man with a flaw who had come to an unjustified bad end.
 set txt[3] All paid jobs absorb and degrade the mind.
 set txt[4] Education is the best provision for the journey to old age.
 set txt[5] To perceive is to suffer.
-set txt[6] The gods too are fond of a joke.
+set txt[6] The Devas too are fond of a joke.
 set txt[7] We are what we repeatedly do.
 set txt[8] Misfortune shows those who are not really friends.
 set txt[9] Hope is a waking dream.
@@ -2215,7 +2215,7 @@ if %actor.is_pc%
     wait 1 sec
     say Within this zone you can learn all the immortal commands and how to build.
     wait 2 sec
-    say This zone is like a newbie zone, except for gods. All you have to do is walk through the zone and read every room description.
+    say This zone is like a newbie zone, except for Devas. All you have to do is walk through the zone and read every room description.
     wait 3 sec
     say Be sure to do everything the room descriptions tell you to do. You should read and comprehend everything contained within these walls.
     set TBA_greeting 1

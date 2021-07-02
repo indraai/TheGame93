@@ -21,6 +21,6 @@ wait 1 sec
 set stunned %actor.hitp%
 %damage% %actor% %stunned%
 wait 5 sec
-%send% %actor% The Gods pity you enough to allow you to survive.
+%send% %actor% The Devas pity you enough to allow you to survive.
 ~
 $~

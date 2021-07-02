@@ -1034,7 +1034,7 @@ if %self.roomflag(PRIVATE)%
   %echo% This is a private room.
 end
 if %self.roomflag(GODROOM)%
-  %echo% Only Gods can enter this room.
+  %echo% Only Devas can enter this room.
 end
 if %self.roomflag(HOUSE)%
   %echo% This is a house.
@@ -1116,7 +1116,7 @@ autolook for (rm 1269) Elaseth's Oubliette~
 ~
 %echo%  @n
 %echo%  @n
-%echo% @DWelcome to hell. Next time heed the gods, they don't play games.@n
+%echo% @DWelcome to hell. Next time heed the Devas, they don't play games.@n
 ~
 #1269
 harp~

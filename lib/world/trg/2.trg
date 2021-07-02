@@ -414,7 +414,7 @@ if %actor.level% > 31
     break
   done
 else
-  say I only work for the Gods.
+  say I only work for the Devas.
 end
 ~
 #219
