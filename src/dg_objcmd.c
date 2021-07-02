@@ -119,7 +119,7 @@ static room_rnum find_obj_target_room(obj_data *obj, char *rawroomstr)
         return NOWHERE;
 
     /* a room has been found.  Check for permission */
-    if (ROOM_FLAGGED(location, ROOM_GODROOM) ||
+    if (ROOM_FLAGGED(location, ROOM_DEVAROOM) ||
 #ifdef ROOM_IMPROOM
         ROOM_FLAGGED(location, ROOM_IMPROOM) ||
 #endif
@@ -423,7 +423,7 @@ static OCMD(do_oteleport)
         for (ch = world[rm].people; ch; ch = next_ch)
         {
             next_ch = ch->next_in_room;
-            if (!valid_dg_target(ch, DG_ALLOW_GODS))
+            if (!valid_dg_target(ch, DG_ALLOW_DEVAS))
               continue;
             char_from_room(ch);
             char_to_room(ch, target);
@@ -434,7 +434,7 @@ static OCMD(do_oteleport)
     else
     {
         if ((ch = get_char_by_obj(obj, arg1))) {
-          if (valid_dg_target(ch, DG_ALLOW_GODS)) {
+          if (valid_dg_target(ch, DG_ALLOW_DEVAS)) {
             char_from_room(ch);
             char_to_room(ch, target);
             enter_wtrigger(&world[IN_ROOM(ch)], ch, -1);

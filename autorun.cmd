@@ -48,7 +48,7 @@ Do forever
   'fgrep -w "olc" syslog >> log/olc'
   'fgrep -w "new player" syslog >> log/newplayers'
   'fgrep -w "SYSERR" syslog >> log/errors'
-  'fgrep -w "(GC)" syslog >> log/godcmds'
+  'fgrep -w "(GC)" syslog >> log/devacmds'
   'fgrep -w "Bad PW" syslog >> log/badpws'
   'fgrep -w "has connected" syslog >> log/whocon'
     

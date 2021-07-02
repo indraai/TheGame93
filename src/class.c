@@ -1650,7 +1650,7 @@ int level_exp(int chclass, int level)
     return 0;
   }
 
-  /* Gods have exp close to EXP_MAX.  This statement should never have to
+  /* Devas have exp close to EXP_MAX.  This statement should never have to
    * changed, regardless of how many mortal or immortal levels exist. */
    if (level > LVL_IMMORT) {
      return EXP_MAX - ((LVL_IMPL - level) * 1000);
@@ -1862,8 +1862,8 @@ const char *title_male(int chclass, int level)
       case 29: return "the Keeper of Talismans";
       case 30: return "the Archmage";
       case LVL_IMMORT: return "the Immortal Warlock";
-      case LVL_GOD: return "the Avatar of Magic";
-      case LVL_GRGOD: return "the God of Magic";
+      case LVL_DEVA: return "the Avatar of Magic";
+      case LVL_GRDEVA: return "the God of Magic";
       default: return "the Mage";
     }
 
@@ -1894,8 +1894,8 @@ const char *title_male(int chclass, int level)
       /* no one ever thought up these titles 21-30 */
       /*
       case LVL_IMMORT: return "the Immortal Cardinal";
-      case LVL_GOD: return "the Inquisitor";
-      case LVL_GRGOD: return "the God of Good and Evil";
+      case LVL_DEVA: return "the Inquisitor";
+      case LVL_GRDEVA: return "the God of Good and Evil";
       */
       default: return "Monk";
     }
@@ -1924,8 +1924,8 @@ const char *title_male(int chclass, int level)
       case 20: return "the Cut-Throat";
       /* no one ever thought up these titles 21-30 */
       case LVL_IMMORT: return "the Immortal Assassin";
-      case LVL_GOD: return "the Demi God of Thieves";
-      case LVL_GRGOD: return "the God of Thieves and Tradesmen";
+      case LVL_DEVA: return "the Demi God of Thieves";
+      case LVL_GRDEVA: return "the God of Thieves and Tradesmen";
       default: return "the Thief";
     }
 
@@ -1953,8 +1953,8 @@ const char *title_male(int chclass, int level)
       case 20: return "the Knight";
       /* no one ever thought up these titles 21-30 */
       case LVL_IMMORT: return "the Immortal Warlord";
-      case LVL_GOD: return "the Extirpator";
-      case LVL_GRGOD: return "the God of War";
+      case LVL_DEVA: return "the Extirpator";
+      case LVL_GRDEVA: return "the God of War";
       default: return "the Warrior";
     }
   }
@@ -2006,8 +2006,8 @@ const char *title_female(int chclass, int level)
       case 29: return "the Keeper of Talismans";
       case 30: return "Archwitch";
       case LVL_IMMORT: return "the Immortal Enchantress";
-      case LVL_GOD: return "the Empress of Magic";
-      case LVL_GRGOD: return "the Goddess of Magic";
+      case LVL_DEVA: return "the Empress of Magic";
+      case LVL_GRDEVA: return "the Devi of Magic";
       default: return "the Witch";
     }
 
@@ -2035,8 +2035,8 @@ const char *title_female(int chclass, int level)
       case 20: return "the Matriarch";
       /* no one ever thought up these titles 21-30 */
       case LVL_IMMORT: return "the Immortal Priestess";
-      case LVL_GOD: return "the Inquisitress";
-      case LVL_GRGOD: return "the Goddess of Good and Evil";
+      case LVL_DEVA: return "the Inquisitress";
+      case LVL_GRDEVA: return "the Devi of Good and Evil";
       default: return "the Monk";
     }
 
@@ -2064,8 +2064,8 @@ const char *title_female(int chclass, int level)
       case 20: return "the Cut-Throat";
       /* no one ever thought up these titles 21-30 */
       case LVL_IMMORT: return "the Immortal Assassin";
-      case LVL_GOD: return "the Demi Goddess of Thieves";
-      case LVL_GRGOD: return "the Goddess of Thieves and Tradesmen";
+      case LVL_DEVA: return "the Demi Devi of Thieves";
+      case LVL_GRDEVA: return "the Devi of Thieves and Tradesmen";
       default: return "the Thief";
     }
 
@@ -2093,8 +2093,8 @@ const char *title_female(int chclass, int level)
       case 20: return "the Lady Knight";
       /* no one ever thought up these titles 21-30 */
       case LVL_IMMORT: return "the Immortal Lady of War";
-      case LVL_GOD: return "the Queen of Destruction";
-      case LVL_GRGOD: return "the Goddess of War";
+      case LVL_DEVA: return "the Queen of Destruction";
+      case LVL_GRDEVA: return "the Devi of War";
       default: return "the Warrior";
     }
   }

@@ -257,7 +257,7 @@ void affect_total(struct char_data *ch)
     affect_modify_ar(ch, af->location, af->modifier, af->bitvector, TRUE);
 
   /* Make certain values are between 0..25, not < 0 and not > 25! */
-  i = (IS_NPC(ch) || GET_LEVEL(ch) >= LVL_GRGOD) ? 25 : 18;
+  i = (IS_NPC(ch) || GET_LEVEL(ch) >= LVL_GRDEVA) ? 25 : 18;
 
   GET_DEX(ch) = MAX(0, MIN(GET_DEX(ch), i));
   GET_INT(ch) = MAX(0, MIN(GET_INT(ch), i));
@@ -266,7 +266,7 @@ void affect_total(struct char_data *ch)
   GET_CHA(ch) = MAX(0, MIN(GET_CHA(ch), i));
   GET_STR(ch) = MAX(0, GET_STR(ch));
 
-  if (IS_NPC(ch) || GET_LEVEL(ch) >= LVL_GRGOD) {
+  if (IS_NPC(ch) || GET_LEVEL(ch) >= LVL_GRDEVA) {
     GET_STR(ch) = MIN(GET_STR(ch), i);
   } else {
     if (GET_STR(ch) > 18) {

@@ -223,7 +223,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
     send_to_char(ch, "A mysterious barrier forces you back! That area is off-limits.\r\n");
     return (0);
   }
-  if (ZONE_FLAGGED(GET_ROOM_ZONE(going_to), ZONE_NOIMMORT) && (GET_LEVEL(ch) >= LVL_IMMORT) && (GET_LEVEL(ch) < LVL_GRGOD)) {
+  if (ZONE_FLAGGED(GET_ROOM_ZONE(going_to), ZONE_NOIMMORT) && (GET_LEVEL(ch) >= LVL_IMMORT) && (GET_LEVEL(ch) < LVL_GRDEVA)) {
     send_to_char(ch, "A mysterious barrier forces you back! That area is off-limits.\r\n");
     return (0);
   }
@@ -240,9 +240,9 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   }
 
   /* Room Level Requirements: Is ch privileged enough to enter the room? */
-  if (ROOM_FLAGGED(going_to, ROOM_GODROOM) && GET_LEVEL(ch) < LVL_GOD)
+  if (ROOM_FLAGGED(going_to, ROOM_DEVAROOM) && GET_LEVEL(ch) < LVL_DEVA)
   {
-    send_to_char(ch, "You aren't godly enough to use that room!\r\n");
+    send_to_char(ch, "You aren't Deva enough to use that room!\r\n");
     return (0);
   }
 
@@ -665,7 +665,7 @@ ACMD(do_gen_door)
     else if (!(DOOR_IS_UNLOCKED(ch, obj, door)) && IS_SET(flags_door[subcmd], NEED_UNLOCKED) &&
              (GET_LEVEL(ch) < LVL_IMMORT || (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE))))
       send_to_char(ch, "It seems to be locked.\r\n");
-    else if (!has_key(ch, keynum) && (GET_LEVEL(ch) < LVL_GOD) && ((subcmd == SCMD_LOCK) || (subcmd == SCMD_UNLOCK)))
+    else if (!has_key(ch, keynum) && (GET_LEVEL(ch) < LVL_DEVA) && ((subcmd == SCMD_LOCK) || (subcmd == SCMD_UNLOCK)))
       send_to_char(ch, "You don't seem to have the proper key.\r\n");
     else if (ok_pick(ch, keynum, DOOR_IS_PICKPROOF(ch, obj, door), subcmd))
       do_doorcmd(ch, obj, door, subcmd);

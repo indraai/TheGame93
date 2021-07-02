@@ -89,7 +89,7 @@ ASPELL(spell_teleport)
   do {
     to_room = rand_number(0, top_of_world);
   } while (ROOM_FLAGGED(to_room, ROOM_PRIVATE) || ROOM_FLAGGED(to_room, ROOM_DEATH) ||
-           ROOM_FLAGGED(to_room, ROOM_GODROOM) || ZONE_FLAGGED(GET_ROOM_ZONE(to_room), ZONE_CLOSED) ||
+           ROOM_FLAGGED(to_room, ROOM_DEVAROOM) || ZONE_FLAGGED(GET_ROOM_ZONE(to_room), ZONE_CLOSED) ||
            ZONE_FLAGGED(GET_ROOM_ZONE(to_room), ZONE_NOASTRAL));
 
   act("$n slowly fades out of existence and is gone.",

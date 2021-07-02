@@ -81,8 +81,8 @@ cpp_extern const struct command_info cmd_info[] = {
 
   /* now, the main list */
   { "at"       , "at"      , POS_DEAD    , do_at       , LVL_IMMORT, 0 },
-  { "advance"  , "adv"     , POS_DEAD    , do_advance  , LVL_GRGOD, 0 },
-  { "aedit"    , "aed"     , POS_DEAD    , do_oasis_aedit, LVL_GOD, 0 },
+  { "advance"  , "adv"     , POS_DEAD    , do_advance  , LVL_GRDEVA, 0 },
+  { "aedit"    , "aed"     , POS_DEAD    , do_oasis_aedit, LVL_DEVA, 0 },
   { "alias"    , "ali"     , POS_DEAD    , do_alias    , 0, 0 },
   { "afk"      , "afk"     , POS_DEAD    , do_gen_tog  , 0, SCMD_AFK },
   { "areas"    , "are"     , POS_DEAD    , do_areas    , 0, 0 },
@@ -102,7 +102,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "autosplit", "autospl" , POS_DEAD    , do_gen_tog , 0, SCMD_AUTOSPLIT },
 
   { "backstab" , "ba"      , POS_STANDING, do_backstab , 1, 0 },
-  { "ban"      , "ban"     , POS_DEAD    , do_ban      , LVL_GRGOD, 0 },
+  { "ban"      , "ban"     , POS_DEAD    , do_ban      , LVL_GRDEVA, 0 },
   { "bandage"  , "band"    , POS_RESTING , do_bandage  , 1, 0 },
   { "balance"  , "bal"     , POS_STANDING, do_not_here , 1, 0 },
   { "bash"     , "bas"     , POS_FIGHTING, do_bash     , 1, 0 },
@@ -115,18 +115,18 @@ cpp_extern const struct command_info cmd_info[] = {
   { "cedit"    , "cedit"   , POS_DEAD    , do_oasis_cedit, LVL_IMPL, 0 },
   { "changelog", "cha"     , POS_DEAD    , do_changelog, LVL_IMPL, 0 },
   { "check"    , "ch"      , POS_STANDING, do_not_here , 1, 0 },
-  { "checkload", "checkl"  , POS_DEAD    , do_checkloadstatus, LVL_GOD, 0 },
+  { "checkload", "checkl"  , POS_DEAD    , do_checkloadstatus, LVL_DEVA, 0 },
   { "close"    , "cl"      , POS_SITTING , do_gen_door , 0, SCMD_CLOSE },
   { "clear"    , "cle"     , POS_DEAD    , do_gen_ps   , 0, SCMD_CLEAR },
   { "cls"      , "cls"     , POS_DEAD    , do_gen_ps   , 0, SCMD_CLEAR },
   { "consider" , "con"     , POS_RESTING , do_consider , 0, 0 },
   { "commands" , "com"     , POS_DEAD    , do_commands , 0, SCMD_COMMANDS },
   { "compact"  , "comp"    , POS_DEAD    , do_gen_tog  , 0, SCMD_COMPACT },
-  { "copyover" , "copyover", POS_DEAD    , do_copyover , LVL_GRGOD, 0 },
+  { "copyover" , "copyover", POS_DEAD    , do_copyover , LVL_GRDEVA, 0 },
   { "credits"  , "cred"    , POS_DEAD    , do_gen_ps   , 0, SCMD_CREDITS },
 
   { "date"     , "da"      , POS_DEAD    , do_date     , LVL_IMMORT, SCMD_DATE },
-  { "dc"       , "dc"      , POS_DEAD    , do_dc       , LVL_GOD, 0 },
+  { "dc"       , "dc"      , POS_DEAD    , do_dc       , LVL_DEVA, 0 },
   { "deposit"  , "depo"    , POS_STANDING, do_not_here , 1, 0 },
   { "detach"   , "detach"  , POS_DEAD    , do_detach   , LVL_BUILDER, 0 },
   { "diagnose" , "diag"    , POS_RESTING , do_diagnose , 0, 0 },
@@ -146,15 +146,15 @@ cpp_extern const struct command_info cmd_info[] = {
   { "examine"  , "exa"     , POS_SITTING , do_examine  , 0, 0 },
   { "export"   , "export"  , POS_DEAD    , do_export_zone, LVL_IMPL, 0 },
 
-  { "force"    , "force"   , POS_SLEEPING, do_force    , LVL_GOD, 0 },
+  { "force"    , "force"   , POS_SLEEPING, do_force    , LVL_DEVA, 0 },
   { "fill"     , "fil"     , POS_STANDING, do_pour     , 0, SCMD_FILL },
-  { "file"     , "file"    , POS_SLEEPING, do_file     , LVL_GOD, 0 },
+  { "file"     , "file"    , POS_SLEEPING, do_file     , LVL_DEVA, 0 },
   { "flee"     , "fl"      , POS_FIGHTING, do_flee     , 1, 0 },
   { "follow"   , "fol"     , POS_RESTING , do_follow   , 0, 0 },
-  { "freeze"   , "freeze"  , POS_DEAD    , do_wizutil  , LVL_GRGOD, SCMD_FREEZE },
+  { "freeze"   , "freeze"  , POS_DEAD    , do_wizutil  , LVL_GRDEVA, SCMD_FREEZE },
 
   { "get"      , "g"       , POS_RESTING , do_get      , 0, 0 },
-  { "gecho"    , "gecho"   , POS_DEAD    , do_gecho    , LVL_GOD, 0 },
+  { "gecho"    , "gecho"   , POS_DEAD    , do_gecho    , LVL_DEVA, 0 },
   { "gemote"   , "gem"     , POS_SLEEPING, do_gen_comm , 0, SCMD_GEMOTE },
   { "give"     , "giv"     , POS_RESTING , do_give     , 0, 0 },
   { "goto"     , "go"      , POS_SLEEPING, do_goto     , LVL_IMMORT, 0 },
@@ -168,12 +168,12 @@ cpp_extern const struct command_info cmd_info[] = {
 
   { "help"     , "h"       , POS_DEAD    , do_help     , 0, 0 },
   { "happyhour", "ha"      , POS_DEAD    , do_happyhour, 0, 0 },
-  { "hedit"    , "hedit"   , POS_DEAD    , do_oasis_hedit, LVL_GOD , 0 },
-  { "helpcheck", "helpch"  , POS_DEAD    , do_helpcheck, LVL_GOD, 0 },
+  { "hedit"    , "hedit"   , POS_DEAD    , do_oasis_hedit, LVL_DEVA , 0 },
+  { "helpcheck", "helpch"  , POS_DEAD    , do_helpcheck, LVL_DEVA, 0 },
   { "hide"     , "hi"      , POS_RESTING , do_hide     , 1, 0 },
   { "hindex"   , "hind"    , POS_DEAD    , do_hindex   , 0, 0 },
   { "handbook" , "handb"   , POS_DEAD    , do_gen_ps   , LVL_IMMORT, SCMD_HANDBOOK },
-  { "hcontrol" , "hcontrol", POS_DEAD    , do_hcontrol , LVL_GRGOD, 0 },
+  { "hcontrol" , "hcontrol", POS_DEAD    , do_hcontrol , LVL_GRDEVA, 0 },
   { "history"  , "history" , POS_DEAD    , do_history, 0, 0},
   { "hit"      , "hit"     , POS_FIGHTING, do_hit      , 0, SCMD_HIT },
   { "hold"     , "hold"    , POS_RESTING , do_grab     , 1, 0 },
@@ -195,11 +195,11 @@ cpp_extern const struct command_info cmd_info[] = {
   { "kick"     , "ki"      , POS_FIGHTING, do_kick     , 1, 0 },
 
   { "look"     , "l"       , POS_RESTING , do_look     , 0, SCMD_LOOK },
-  { "last"     , "last"    , POS_DEAD    , do_last     , LVL_GOD, 0 },
+  { "last"     , "last"    , POS_DEAD    , do_last     , LVL_DEVA, 0 },
   { "leave"    , "lea"     , POS_STANDING, do_leave    , 0, 0 },
   { "levels"   , "lev"     , POS_DEAD    , do_levels   , 0, 0 },
   { "list"     , "lis"     , POS_STANDING, do_not_here , 0, 0 },
-  { "links"    , "lin"     , POS_STANDING, do_links    , LVL_GOD, 0 },
+  { "links"    , "lin"     , POS_STANDING, do_links    , LVL_DEVA, 0 },
   { "lock"     , "loc"     , POS_SITTING , do_gen_door , 0, SCMD_LOCK },
   { "load"     , "load"     , POS_DEAD    , do_load     , LVL_BUILDER, 0 },
 
@@ -208,9 +208,9 @@ cpp_extern const struct command_info cmd_info[] = {
   { "map"      , "map"     , POS_STANDING, do_map      , 1, 0 },
   { "medit"    , "med"     , POS_DEAD    , do_oasis_medit, LVL_BUILDER, 0 },
   { "mlist"    , "mlist"   , POS_DEAD    , do_oasis_list, LVL_BUILDER, SCMD_OASIS_MLIST },
-  { "mcopy"    , "mcopy"   , POS_DEAD    , do_oasis_copy, LVL_GOD, CON_MEDIT },
-  { "msgedit"  , "msgedit" , POS_DEAD    , do_msgedit,   LVL_GOD, 0 },
-  { "mute"     , "mute"    , POS_DEAD    , do_wizutil  , LVL_GOD, SCMD_MUTE },
+  { "mcopy"    , "mcopy"   , POS_DEAD    , do_oasis_copy, LVL_DEVA, CON_MEDIT },
+  { "msgedit"  , "msgedit" , POS_DEAD    , do_msgedit,   LVL_DEVA, 0 },
+  { "mute"     , "mute"    , POS_DEAD    , do_wizutil  , LVL_DEVA, SCMD_MUTE },
 
   { "news"     , "news"    , POS_SLEEPING, do_gen_ps   , 0, SCMD_NEWS },
   { "noauction", "noauction",POS_DEAD    , do_gen_tog  , 0, SCMD_NOAUCTION },
@@ -221,7 +221,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "noshout"  , "noshout" , POS_SLEEPING, do_gen_tog  , 1, SCMD_NOSHOUT },
   { "nosummon" , "nosummon", POS_DEAD    , do_gen_tog  , 1, SCMD_NOSUMMON },
   { "notell"   , "notell"  , POS_DEAD    , do_gen_tog  , 1, SCMD_NOTELL },
-  { "notitle"  , "notitle" , POS_DEAD    , do_wizutil  , LVL_GOD, SCMD_NOTITLE },
+  { "notitle"  , "notitle" , POS_DEAD    , do_wizutil  , LVL_DEVA, SCMD_NOTITLE },
   { "nowiz"    , "nowiz"   , POS_DEAD    , do_gen_tog  , LVL_IMMORT, SCMD_NOWIZ },
 
   { "open"     , "o"       , POS_SITTING , do_gen_door , 0, SCMD_OPEN },
@@ -231,15 +231,15 @@ cpp_extern const struct command_info cmd_info[] = {
   { "olist"    , "olist"   , POS_DEAD    , do_oasis_list, LVL_BUILDER, SCMD_OASIS_OLIST },
   { "oedit"    , "oedit"   , POS_DEAD    , do_oasis_oedit, LVL_BUILDER, 0 },
   { "oset"     , "oset"    , POS_DEAD    , do_oset,        LVL_BUILDER, 0 },
-  { "ocopy"    , "ocopy"   , POS_DEAD    , do_oasis_copy, LVL_GOD, CON_OEDIT },
+  { "ocopy"    , "ocopy"   , POS_DEAD    , do_oasis_copy, LVL_DEVA, CON_OEDIT },
 
   { "put"      , "p"       , POS_RESTING , do_put      , 0, 0 },
   { "peace"    , "pe"      , POS_DEAD    , do_peace    , LVL_BUILDER, 0 },
   { "pick"     , "pi"      , POS_STANDING, do_gen_door , 1, SCMD_PICK },
   { "practice" , "pr"      , POS_RESTING , do_practice , 1, 0 },
   { "page"     , "pag"     , POS_DEAD    , do_page     , 1, 0 },
-  { "pardon"   , "pardon"  , POS_DEAD    , do_wizutil  , LVL_GOD, SCMD_PARDON },
-  { "plist"    , "plist"   , POS_DEAD    , do_plist    , LVL_GOD, 0 },
+  { "pardon"   , "pardon"  , POS_DEAD    , do_wizutil  , LVL_DEVA, SCMD_PARDON },
+  { "plist"    , "plist"   , POS_DEAD    , do_plist    , LVL_DEVA, 0 },
   { "policy"   , "pol"     , POS_DEAD    , do_gen_ps   , 0, SCMD_POLICIES },
   { "pour"     , "pour"    , POS_STANDING, do_pour     , 0, SCMD_POUR },
   { "prompt"   , "pro"     , POS_DEAD    , do_display  , 0, 0 },
@@ -249,7 +249,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "qedit"    , "qedit"   , POS_DEAD    , do_oasis_qedit, LVL_BUILDER, 0 },
   { "qlist"    , "qlist"   , POS_DEAD    , do_oasis_list, LVL_BUILDER, SCMD_OASIS_QLIST },
   { "quaff"    , "qua"     , POS_RESTING , do_use      , 0, SCMD_QUAFF },
-  { "qecho"    , "qec"     , POS_DEAD    , do_qcomm    , LVL_GOD, SCMD_QECHO },
+  { "qecho"    , "qec"     , POS_DEAD    , do_qcomm    , LVL_DEVA, SCMD_QECHO },
   { "quest"    , "que"     , POS_DEAD    , do_quest    , 0, 0 },
   { "qui"      , "qui"     , POS_DEAD    , do_quit     , 0, 0 },
   { "quit"     , "quit"    , POS_DEAD    , do_quit     , 0, SCMD_QUIT },
@@ -265,69 +265,69 @@ cpp_extern const struct command_info cmd_info[] = {
   { "remove"   , "rem"     , POS_RESTING , do_remove   , 0, 0 },
   { "rent"     , "rent"    , POS_STANDING, do_not_here , 1, 0 },
   { "report"   , "repo"    , POS_RESTING , do_report   , 0, 0 },
-  { "reroll"   , "rero"    , POS_DEAD    , do_wizutil  , LVL_GRGOD, SCMD_REROLL },
+  { "reroll"   , "rero"    , POS_DEAD    , do_wizutil  , LVL_GRDEVA, SCMD_REROLL },
   { "rescue"   , "resc"    , POS_FIGHTING, do_rescue   , 1, 0 },
-  { "restore"  , "resto"   , POS_DEAD    , do_restore  , LVL_GOD, 0 },
+  { "restore"  , "resto"   , POS_DEAD    , do_restore  , LVL_DEVA, 0 },
   { "return"   , "retu"    , POS_DEAD    , do_return   , 0, 0 },
   { "redit"    , "redit"   , POS_DEAD    , do_oasis_redit, LVL_BUILDER, 0 },
   { "rlist"    , "rlist"   , POS_DEAD    , do_oasis_list, LVL_BUILDER, SCMD_OASIS_RLIST },
-  { "rcopy"    , "rcopy"   , POS_DEAD    , do_oasis_copy, LVL_GOD, CON_REDIT },
+  { "rcopy"    , "rcopy"   , POS_DEAD    , do_oasis_copy, LVL_DEVA, CON_REDIT },
   { "roomflags", "roomflags", POS_DEAD   , do_gen_tog  , LVL_IMMORT, SCMD_SHOWVNUMS },
 
   { "offering", "offer"    , POS_RESTING , do_offer      , 0, 0 },
   { "say"      , "s"       , POS_RESTING , do_say      , 0, 0 },
   { "score"    , "sc"      , POS_DEAD    , do_score    , 0, 0 },
   { "scan"     , "sca"     , POS_RESTING , do_scan     , 0, 0 },
-  { "scopy"    , "scopy"   , POS_DEAD    , do_oasis_copy, LVL_GOD, CON_SEDIT },
+  { "scopy"    , "scopy"   , POS_DEAD    , do_oasis_copy, LVL_DEVA, CON_SEDIT },
   { "sit"      , "si"      , POS_RESTING , do_sit      , 0, 0 },
   { "'"        , "'"       , POS_RESTING , do_say      , 0, 0 },
   { "save"     , "sav"     , POS_SLEEPING, do_save     , 0, 0 },
   { "saveall"  , "saveall" , POS_DEAD    , do_saveall  , LVL_BUILDER, 0},
   { "sell"     , "sell"    , POS_STANDING, do_not_here , 0, 0 },
   { "sedit"    , "sedit"   , POS_DEAD    , do_oasis_sedit, LVL_BUILDER, 0 },
-  { "send"     , "send"    , POS_SLEEPING, do_send     , LVL_GOD, 0 },
+  { "send"     , "send"    , POS_SLEEPING, do_send     , LVL_DEVA, 0 },
   { "set"      , "set"     , POS_DEAD    , do_set      , LVL_IMMORT, 0 },
   { "shout"    , "sho"     , POS_RESTING , do_gen_comm , 0, SCMD_SHOUT },
   { "show"     , "show"    , POS_DEAD    , do_show     , LVL_IMMORT, 0 },
   { "shutdow"  , "shutdow" , POS_DEAD    , do_shutdown , LVL_IMPL, 0 },
   { "shutdown" , "shutdown", POS_DEAD    , do_shutdown , LVL_IMPL, SCMD_SHUTDOWN },
   { "sip"      , "sip"     , POS_RESTING , do_drink    , 0, SCMD_SIP },
-  { "skillset" , "skillset", POS_SLEEPING, do_skillset , LVL_GRGOD, 0 },
+  { "skillset" , "skillset", POS_SLEEPING, do_skillset , LVL_GRDEVA, 0 },
   { "sleep"    , "sl"      , POS_SLEEPING, do_sleep    , 0, 0 },
   { "slist"    , "slist"   , POS_SLEEPING, do_oasis_list, LVL_BUILDER, SCMD_OASIS_SLIST },
   { "sneak"    , "sneak"   , POS_STANDING, do_sneak    , 1, 0 },
-  { "snoop"    , "snoop"   , POS_DEAD    , do_snoop    , LVL_GOD, 0 },
+  { "snoop"    , "snoop"   , POS_DEAD    , do_snoop    , LVL_DEVA, 0 },
   { "socials"  , "socials" , POS_DEAD    , do_commands , 0, SCMD_SOCIALS },
   { "split"    , "split"   , POS_SITTING , do_split    , 1, 0 },
   { "stand"    , "st"      , POS_RESTING , do_stand    , 0, 0 },
   { "stat"     , "stat"    , POS_DEAD    , do_stat     , LVL_IMMORT, 0 },
   { "steal"    , "ste"     , POS_STANDING, do_steal    , 1, 0 },
-  { "switch"   , "switch"  , POS_DEAD    , do_switch   , LVL_GOD, 0 },
+  { "switch"   , "switch"  , POS_DEAD    , do_switch   , LVL_DEVA, 0 },
 
   { "tell"     , "t"       , POS_DEAD    , do_tell     , 0, 0 },
   { "take"     , "ta"      , POS_RESTING , do_get      , 0, 0 },
   { "taste"    , "tas"     , POS_RESTING , do_eat      , 0, SCMD_TASTE },
   { "teleport" , "tele"    , POS_DEAD    , do_teleport , LVL_BUILDER, 0 },
-  { "tedit"    , "tedit"   , POS_DEAD    , do_tedit    , LVL_GOD, 0 },  /* XXX: Oasisify */
-  { "thaw"     , "thaw"    , POS_DEAD    , do_wizutil  , LVL_GRGOD, SCMD_THAW },
+  { "tedit"    , "tedit"   , POS_DEAD    , do_tedit    , LVL_DEVA, 0 },  /* XXX: Oasisify */
+  { "thaw"     , "thaw"    , POS_DEAD    , do_wizutil  , LVL_GRDEVA, SCMD_THAW },
   { "title"    , "title"   , POS_DEAD    , do_title    , 0, 0 },
   { "time"     , "time"    , POS_DEAD    , do_time     , 0, 0 },
   { "toggle"   , "toggle"  , POS_DEAD    , do_toggle   , 0, 0 },
   { "track"    , "track"   , POS_STANDING, do_track    , 0, 0 },
-  { "transfer" , "transfer", POS_SLEEPING, do_trans    , LVL_GOD, 0 },
+  { "transfer" , "transfer", POS_SLEEPING, do_trans    , LVL_DEVA, 0 },
   { "trigedit" , "trigedit", POS_DEAD    , do_oasis_trigedit, LVL_BUILDER, 0 },
   { "typo"     , "typo"    , POS_DEAD    , do_ibt      , 0, SCMD_TYPO },
   { "tlist"    , "tlist"   , POS_DEAD    , do_oasis_list, LVL_BUILDER, SCMD_OASIS_TLIST },
-  { "tcopy"    , "tcopy"   , POS_DEAD    , do_oasis_copy, LVL_GOD, CON_TRIGEDIT },
+  { "tcopy"    , "tcopy"   , POS_DEAD    , do_oasis_copy, LVL_DEVA, CON_TRIGEDIT },
   { "tstat"    , "tstat"   , POS_DEAD    , do_tstat    , LVL_BUILDER, 0 },
 
   { "unlock"   , "unlock"  , POS_SITTING , do_gen_door , 0, SCMD_UNLOCK },
-  { "unban"    , "unban"   , POS_DEAD    , do_unban    , LVL_GRGOD, 0 },
-  { "unaffect" , "unaffect", POS_DEAD    , do_wizutil  , LVL_GOD, SCMD_UNAFFECT },
+  { "unban"    , "unban"   , POS_DEAD    , do_unban    , LVL_GRDEVA, 0 },
+  { "unaffect" , "unaffect", POS_DEAD    , do_wizutil  , LVL_DEVA, SCMD_UNAFFECT },
   { "unfollow" , "unf"     , POS_RESTING , do_unfollow , 0, 0 },
-  { "uptime"   , "uptime"  , POS_DEAD    , do_date     , LVL_GOD, SCMD_UPTIME },
+  { "uptime"   , "uptime"  , POS_DEAD    , do_date     , LVL_DEVA, SCMD_UPTIME },
   { "use"      , "use"     , POS_SITTING , do_use      , 1, SCMD_USE },
-  { "users"    , "users"   , POS_DEAD    , do_users    , LVL_GOD, 0 },
+  { "users"    , "users"   , POS_DEAD    , do_users    , LVL_DEVA, 0 },
 
   { "value"    , "val"     , POS_STANDING, do_not_here , 0, 0 },
   { "version"  , "ver"     , POS_DEAD    , do_gen_ps   , 0, SCMD_VERSION },
@@ -351,7 +351,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { ";"        , ";"       , POS_DEAD    , do_wiznet   , LVL_IMMORT, 0 },
   { "wizhelp"  , "wizhelp" , POS_DEAD    , do_wizhelp  , LVL_IMMORT, 0 },
   { "wizlist"  , "wizlist" , POS_DEAD    , do_gen_ps   , 0, SCMD_WIZLIST },
-  { "wizupdate", "wizupde" , POS_DEAD    , do_wizupdate, LVL_GRGOD, 0 },
+  { "wizupdate", "wizupde" , POS_DEAD    , do_wizupdate, LVL_GRDEVA, 0 },
   { "wizlock"  , "wizlock" , POS_DEAD    , do_wizlock  , LVL_IMPL, 0 },
   { "write"    , "write"   , POS_STANDING, do_write    , 1, 0 },
 
@@ -359,8 +359,8 @@ cpp_extern const struct command_info cmd_info[] = {
   { "zreset"   , "zreset"  , POS_DEAD    , do_zreset   , LVL_BUILDER, 0 },
   { "zedit"    , "zedit"   , POS_DEAD    , do_oasis_zedit, LVL_BUILDER, 0 },
   { "zlist"    , "zlist"   , POS_DEAD    , do_oasis_list, LVL_BUILDER, SCMD_OASIS_ZLIST },
-  { "zlock"    , "zlock"   , POS_DEAD    , do_zlock    , LVL_GOD, 0 },
-  { "zunlock"  , "zunlock" , POS_DEAD    , do_zunlock  , LVL_GOD, 0 },
+  { "zlock"    , "zlock"   , POS_DEAD    , do_zlock    , LVL_DEVA, 0 },
+  { "zunlock"  , "zunlock" , POS_DEAD    , do_zunlock  , LVL_DEVA, 0 },
   { "zcheck"   , "zcheck"  , POS_DEAD    , do_zcheck   , LVL_BUILDER, 0 },
   { "zpurge"   , "zpurge"  , POS_DEAD    , do_zpurge   , LVL_BUILDER, 0 },
 
@@ -1199,7 +1199,7 @@ static bool perform_new_char_dupe_check(struct descriptor_data *d)
         write_to_output(k, "\r\nMultiple login detected -- disconnecting.\r\n");
         STATE(k) = CON_CLOSE;
 
-        mudlog(NRM, LVL_GOD, TRUE, "Multiple logins detected in char creation for %s.", GET_NAME(d->character));
+        mudlog(NRM, LVL_DEVA, TRUE, "Multiple logins detected in char creation for %s.", GET_NAME(d->character));
 
         found = TRUE;
       } else {
@@ -1217,7 +1217,7 @@ static bool perform_new_char_dupe_check(struct descriptor_data *d)
         write_to_output(d, "\r\nPlease reconnect.\r\n");
         STATE(d) = CON_CLOSE;
 
-        mudlog(NRM, LVL_GOD, TRUE, "SYSERR: Multiple logins with 1st in-game and the 2nd in char creation.");
+        mudlog(NRM, LVL_DEVA, TRUE, "SYSERR: Multiple logins with 1st in-game and the 2nd in char creation.");
 
         found = TRUE;
       }
@@ -1442,14 +1442,14 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_NAME_CNFRM:		/* wait for conf. of new name    */
     if (UPPER(*arg) == 'Y') {
       if (isbanned(d->host) >= BAN_NEW) {
-	mudlog(NRM, LVL_GOD, TRUE, "Request for new char %s denied from [%s] (siteban)", GET_PC_NAME(d->character), d->host);
+	mudlog(NRM, LVL_DEVA, TRUE, "Request for new char %s denied from [%s] (siteban)", GET_PC_NAME(d->character), d->host);
 	write_to_output(d, "Sorry, new characters are not allowed from your site!\r\n");
 	STATE(d) = CON_CLOSE;
 	return;
       }
       if (circle_restrict) {
 	write_to_output(d, "Sorry, new players can't be created at the moment.\r\n");
-	mudlog(NRM, LVL_GOD, TRUE, "Request for new char %s denied from [%s] (wizlock)", GET_PC_NAME(d->character), d->host);
+	mudlog(NRM, LVL_DEVA, TRUE, "Request for new char %s denied from [%s] (wizlock)", GET_PC_NAME(d->character), d->host);
 	STATE(d) = CON_CLOSE;
 	return;
       }
@@ -1484,7 +1484,7 @@ void nanny(struct descriptor_data *d, char *arg)
       STATE(d) = CON_CLOSE;
     else {
       if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
-	mudlog(BRF, LVL_GOD, TRUE, "Bad PW: %s [%s]", GET_NAME(d->character), d->host);
+	mudlog(BRF, LVL_DEVA, TRUE, "Bad PW: %s [%s]", GET_NAME(d->character), d->host);
 	GET_BAD_PWS(d->character)++;
 	save_char(d->character);
 	if (++(d->bad_pws) >= CONFIG_MAX_BAD_PWS) {	/* 3 strikes and you're out. */
@@ -1506,13 +1506,13 @@ void nanny(struct descriptor_data *d, char *arg)
 	  !PLR_FLAGGED(d->character, PLR_SITEOK)) {
 	write_to_output(d, "Sorry, this char has not been cleared for login from your site!\r\n");
 	STATE(d) = CON_CLOSE;
-	mudlog(NRM, LVL_GOD, TRUE, "Connection attempt for %s denied from %s", GET_NAME(d->character), d->host);
+	mudlog(NRM, LVL_DEVA, TRUE, "Connection attempt for %s denied from %s", GET_NAME(d->character), d->host);
 	return;
       }
       if (GET_LEVEL(d->character) < circle_restrict) {
 	write_to_output(d, "The game is temporarily restricted.. try again later.\r\n");
 	STATE(d) = CON_CLOSE;
-	mudlog(NRM, LVL_GOD, TRUE, "Request for login denied for %s [%s] (wizlock)", GET_NAME(d->character), d->host);
+	mudlog(NRM, LVL_DEVA, TRUE, "Request for login denied for %s [%s] (wizlock)", GET_NAME(d->character), d->host);
 	return;
       }
       /* check and make sure no other copies of this player are logged in */
@@ -1635,7 +1635,7 @@ void nanny(struct descriptor_data *d, char *arg)
     GET_PREF(d->character)= rand_number(1, 128000);
     GET_HOST(d->character)= strdup(d->host);
 
-    mudlog(NRM, LVL_GOD, TRUE, "%s [%s] new player.", GET_NAME(d->character), d->host);
+    mudlog(NRM, LVL_DEVA, TRUE, "%s [%s] new player.", GET_NAME(d->character), d->host);
 
     /* Add to the list of 'recent' players (since last reboot) */
     if (AddRecentPlayer(GET_NAME(d->character), d->host, TRUE, FALSE) == FALSE)
@@ -1766,7 +1766,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	STATE(d) = CON_CLOSE;
 	return;
       }
-      if (GET_LEVEL(d->character) < LVL_GRGOD)
+      if (GET_LEVEL(d->character) < LVL_GRDEVA)
 	SET_BIT_AR(PLR_FLAGS(d->character), PLR_DELETED);
       save_char(d->character);
       Crash_delete_file(GET_NAME(d->character));
@@ -1780,7 +1780,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
       delete_variables(GET_NAME(d->character));
       write_to_output(d, "Character '%s' deleted! Goodbye.\r\n", GET_NAME(d->character));
-      mudlog(NRM, MAX(LVL_GOD, GET_INVIS_LEV(d->character)), TRUE, "%s (lev %d) has self-deleted.",
+      mudlog(NRM, MAX(LVL_DEVA, GET_INVIS_LEV(d->character)), TRUE, "%s (lev %d) has self-deleted.",
        GET_NAME(d->character), GET_LEVEL(d->character));
       STATE(d) = CON_CLOSE;
       return;

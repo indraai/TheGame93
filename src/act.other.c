@@ -863,7 +863,7 @@ static void show_happyhour(struct char_data *ch)
   char happyexp[80], happygold[80], happyqp[80];
   int secs_left;
 
-  if ((IS_HAPPYHOUR) || (GET_LEVEL(ch) >= LVL_GRGOD))
+  if ((IS_HAPPYHOUR) || (GET_LEVEL(ch) >= LVL_GRDEVA))
   {
       if (HAPPY_TIME)
         secs_left = ((HAPPY_TIME - 1) * SECS_PER_MUD_HOUR) + next_tick;
@@ -877,9 +877,9 @@ static void show_happyhour(struct char_data *ch)
       send_to_char(ch, "tbaMUD Happy Hour!\r\n"
                        "------------------\r\n"
                        "%s%s%sTime Remaining: %s%d%s hours %s%d%s mins %s%d%s secs\r\n",
-                       (IS_HAPPYEXP || (GET_LEVEL(ch) >= LVL_GOD)) ? happyexp : "",
-                       (IS_HAPPYGOLD || (GET_LEVEL(ch) >= LVL_GOD)) ? happygold : "",
-                       (IS_HAPPYQP || (GET_LEVEL(ch) >= LVL_GOD)) ? happyqp : "",
+                       (IS_HAPPYEXP || (GET_LEVEL(ch) >= LVL_DEVA)) ? happyexp : "",
+                       (IS_HAPPYGOLD || (GET_LEVEL(ch) >= LVL_DEVA)) ? happygold : "",
+                       (IS_HAPPYQP || (GET_LEVEL(ch) >= LVL_DEVA)) ? happyqp : "",
                        CCYEL(ch, C_NRM), (secs_left / 3600), CCNRM(ch, C_NRM),
                        CCYEL(ch, C_NRM), (secs_left % 3600) / 60, CCNRM(ch, C_NRM),
                        CCYEL(ch, C_NRM), (secs_left % 60), CCNRM(ch, C_NRM) );
@@ -895,7 +895,7 @@ ACMD(do_happyhour)
   char arg[MAX_INPUT_LENGTH], val[MAX_INPUT_LENGTH];
   int num;
 
-  if (GET_LEVEL(ch) < LVL_GOD)
+  if (GET_LEVEL(ch) < LVL_DEVA)
   {
     show_happyhour(ch);
     return;

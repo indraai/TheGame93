@@ -56,7 +56,7 @@ while (1) {
   open (USAGE,  ">>log/usage");
   open (NEWPLR, ">>log/newplrs");
   open (SYSERR, ">>log/errors");
-  open (GODCMD, ">>log/godcmds");
+  open (GODCMD, ">>log/devacmds");
   open (BADPWS, ">>log/badpws");
 
   # Then we stash everything

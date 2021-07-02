@@ -98,8 +98,8 @@ char *GREETINGS = NULL;		/* opening credits screen        */
 char *help = NULL;		/* help screen			 */
 char *ihelp = NULL;             /* help screen (immortals)       */
 char *info = NULL;		/* info page			 */
-char *wizlist = NULL;		/* list of higher gods		 */
-char *immlist = NULL;		/* list of peon gods		 */
+char *wizlist = NULL;		/* list of higher devas		 */
+char *immlist = NULL;		/* list of peon devas		 */
 char *background = NULL;	/* background story		 */
 char *handbook = NULL;		/* handbook for new immortals	 */
 char *policies = NULL;		/* policies page		 */
@@ -2591,8 +2591,8 @@ void zone_update(void)
 
 static void log_zone_error(zone_rnum zone, int cmd_no, const char *message)
 {
-  mudlog(NRM, LVL_GOD, TRUE, "SYSERR: zone file: %s", message);
-  mudlog(NRM, LVL_GOD, TRUE, "SYSERR: ...offending cmd: '%c' cmd in zone #%d, line %d",
+  mudlog(NRM, LVL_DEVA, TRUE, "SYSERR: zone file: %s", message);
+  mudlog(NRM, LVL_DEVA, TRUE, "SYSERR: ...offending cmd: '%c' cmd in zone #%d, line %d",
 	ZCMD.command, zone_table[zone].number, ZCMD.line);
 }
 

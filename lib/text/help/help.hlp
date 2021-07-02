@@ -2422,7 +2422,7 @@ rip            ../log/rip
 players        ../log/newplayers
 rentgone       ../log/rentgone
 errors         ../log/errors
-godcmds        ../log/godcmds
+devacmds        ../log/devacmds
 syslog         ../syslog
 crash          ../syslog.CRASH
 help           ../log/help
@@ -7888,7 +7888,7 @@ Usage: show <mode> [argument]
 
 Show options:
 zones          player         rent           stats          errors
-death          godrooms       shops          houses         snoop
+death          devarooms       shops          houses         snoop
 
 The SHOW command displays information.  Some modes of show require additional
 information, such as a player name.
@@ -7899,7 +7899,7 @@ zones     Shows all the zones in the game and their current reset status.
           Show Zone <author> will list all zones by <author>.
 death     Shows all death traps in the game.
 player    Shows player summary information, simply provide a player name.
-godrooms  Shows the rooms in the 'deva zone'.
+devarooms  Shows the rooms in the 'deva zone'.
 rent      Shows the filename and path to a players rent file.
 shops     Shows all the shops in the game and their buy/sell parameters.
 stats     Shows game status information including players in game, mobs etc.

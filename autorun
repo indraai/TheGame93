@@ -59,7 +59,7 @@ rentgone:0:equipment lost
 usage:5000:usage
 newplayers:0:new player
 errors:5000:SYSERR
-godcmds:0:(GC)
+devacmds:0:(GC)
 badpws:0:Bad PW
 olc:5000:OLC
 help:0:get help on

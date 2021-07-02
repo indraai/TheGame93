@@ -151,7 +151,7 @@ void greet_memory_mtrigger(char_data *actor)
   char buf[MAX_INPUT_LENGTH];
   int command_performed = 0;
 
-  if (!valid_dg_target(actor, DG_ALLOW_GODS))
+  if (!valid_dg_target(actor, DG_ALLOW_DEVAS))
     return;
 
   for (ch = world[IN_ROOM(actor)].people; ch; ch = ch->next_in_room) {
@@ -204,7 +204,7 @@ int greet_mtrigger(char_data *actor, int dir)
   int intermediate, final=TRUE;
   struct trig_data *next_trig;
 
-  if (!valid_dg_target(actor, DG_ALLOW_GODS))
+  if (!valid_dg_target(actor, DG_ALLOW_DEVAS))
     return TRUE;
 
   for (ch = world[IN_ROOM(actor)].people; ch; ch = ch->next_in_room) {
@@ -560,7 +560,7 @@ int leave_mtrigger(char_data *actor, int dir)
   char_data *ch;
   char buf[MAX_INPUT_LENGTH];
 
-  if (!valid_dg_target(actor, DG_ALLOW_GODS))
+  if (!valid_dg_target(actor, DG_ALLOW_DEVAS))
     return 1;
 
   for (ch = world[IN_ROOM(actor)].people; ch; ch = ch->next_in_room) {
@@ -908,7 +908,7 @@ int leave_otrigger(room_data *room, char_data *actor, int dir)
   int temp, final = 1;
   obj_data *obj, *obj_next;
 
-  if (!valid_dg_target(actor, DG_ALLOW_GODS))
+  if (!valid_dg_target(actor, DG_ALLOW_DEVAS))
     return 1;
 
   for (obj = room->contents; obj; obj = obj_next) {
@@ -1176,7 +1176,7 @@ int leave_wtrigger(struct room_data *room, char_data *actor, int dir)
   trig_data *t;
   char buf[MAX_INPUT_LENGTH];
 
-  if (!valid_dg_target(actor, DG_ALLOW_GODS))
+  if (!valid_dg_target(actor, DG_ALLOW_DEVAS))
     return 1;
 
   if (!SCRIPT_CHECK(room, WTRIG_LEAVE))

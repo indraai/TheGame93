@@ -80,7 +80,7 @@
 #define ROOM_NOMAGIC        7   /**< Magic not allowed */
 #define ROOM_TUNNEL         8   /**< Room for only 1 pers	*/
 #define ROOM_PRIVATE        9   /**< Can't teleport in */
-#define ROOM_GODROOM       10   /**< LVL_GOD+ only allowed */
+#define ROOM_DEVAROOM       10   /**< LVL_DEVA+ only allowed */
 #define ROOM_HOUSE         11   /**< (R) Room is a house */
 #define ROOM_HOUSE_CRASH   12   /**< (R) House needs saving */
 #define ROOM_ATRIUM        13   /**< (R) The door to a house */
@@ -92,7 +92,7 @@
 
 /* Zone info: Used in zone_data.zone_flags */
 #define ZONE_CLOSED       0  /**< Zone is closed - players cannot enter */
-#define ZONE_NOIMMORT     1  /**< Immortals (below LVL_GRGOD) cannot enter this zone */
+#define ZONE_NOIMMORT     1  /**< Immortals (below LVL_GRDEVA) cannot enter this zone */
 #define ZONE_QUEST        2  /**< This zone is a quest zone (not implemented) */
 #define ZONE_GRID         3  /**< Zone is 'on the grid', connected, show on 'areas' */
 #define ZONE_NOBUILD      4  /**< Building is not allowed in the zone */
@@ -530,8 +530,8 @@
  * LVL_IMMORT should always be the LOWEST immortal level.  The number of
  * mortal levels will always be LVL_IMMORT - 1. */
 #define LVL_IMPL    34  /**< Level of Implementors */
-#define LVL_GRGOD   33  /**< Level of Greater Gods */
-#define LVL_GOD     32  /**< Level of Gods */
+#define LVL_GRDEVA   33  /**< Level of Greater Devas */
+#define LVL_DEVA     32  /**< Level of Devas */
 #define LVL_IMMORT	31  /**< Level of Immortals */
 
 /** Minimum level to build and to run the saveall command */
@@ -1125,7 +1125,7 @@ struct message_type
   struct msg_type die_msg;   /**< Messages for death strikes. */
   struct msg_type miss_msg;  /**< Messages for missed strikes. */
   struct msg_type hit_msg;   /**< Messages for a succesful strike. */
-  struct msg_type god_msg;   /**< Messages when trying to hit a god. */
+  struct msg_type deva_msg;   /**< Messages when trying to hit a god. */
   struct message_type *next; /**< Next set of messages. */
 };
 

@@ -1005,7 +1005,7 @@ ACMD(do_weather)
     send_to_char(ch, "The sky is %s and %s.\r\n", sky_look[weather_info.sky],
 	    weather_info.change >= 0 ? "you feel a warm wind from south" :
 	     "your foot tells you bad weather is due");
-    if (GET_LEVEL(ch) >= LVL_GOD)
+    if (GET_LEVEL(ch) >= LVL_DEVA)
       send_to_char(ch, "Pressure: %d (change: %d), Sky: %d (%s)\r\n",
                  weather_info.pressure,
                  weather_info.change,
@@ -2412,7 +2412,7 @@ ACMD(do_whois)
   if (PLR_FLAGGED(victim, PLR_DELETED))
     send_to_char (ch, "***DELETED***\r\n");
 
-  if (!got_from_file && victim->desc != NULL && GET_LEVEL(ch) >= LVL_GOD) {
+  if (!got_from_file && victim->desc != NULL && GET_LEVEL(ch) >= LVL_DEVA) {
     protocol_t * prot = victim->desc->pProtocol;
     send_to_char(ch, "Client:  %s [%s]\r\n", prot->pVariables[eMSDP_CLIENT_ID]->pValueString, prot->pVariables[eMSDP_CLIENT_VERSION]->pValueString ? prot->pVariables[eMSDP_CLIENT_VERSION]->pValueString : "Unknown");
     send_to_char(ch, "Color:   %s\r\n", prot->pVariables[eMSDP_XTERM_256_COLORS]->ValueInt ? "Xterm" : (prot->pVariables[eMSDP_ANSI_COLORS]->ValueInt ? "Ansi" : "None"));

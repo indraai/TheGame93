@@ -61,7 +61,7 @@ while ( : ) do
   fgrep "usage" syslog >> log/usage
   fgrep "new player" syslog >> log/newplayers
   fgrep "SYSERR" syslog >> log/errors
-  fgrep "(GC)" syslog >> log/godcmds
+  fgrep "(GC)" syslog >> log/devacmds
   fgrep "Bad PW" syslog >> log/badpws
 
   rm log/syslog.1

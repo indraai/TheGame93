@@ -529,9 +529,9 @@ int skill_message(int dam, struct char_data *ch, struct char_data *vict,
         msg = msg->next;
 
       if (!IS_NPC(vict) && (GET_LEVEL(vict) >= LVL_IMPL)) {
-        act(msg->god_msg.attacker_msg, FALSE, ch, weap, vict, TO_CHAR);
-        act(msg->god_msg.victim_msg, FALSE, ch, weap, vict, TO_VICT);
-        act(msg->god_msg.room_msg, FALSE, ch, weap, vict, TO_NOTVICT);
+        act(msg->deva_msg.attacker_msg, FALSE, ch, weap, vict, TO_CHAR);
+        act(msg->deva_msg.victim_msg, FALSE, ch, weap, vict, TO_VICT);
+        act(msg->deva_msg.room_msg, FALSE, ch, weap, vict, TO_NOTVICT);
       } else if (dam != 0) {
         /*
          * Don't send redundant color codes for TYPE_SUFFERING & other types

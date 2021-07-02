@@ -24,7 +24,7 @@ LAB runloop
   search nonum log/syslog "usage" >> log/usage
   search nonum log/syslog "new player" >> log/newplayers
   search nonum log/syslog "SYSERR" >> log/errors
-  search nonum log/syslog "(GC)" >> log/godcmds
+  search nonum log/syslog "(GC)" >> log/devacmds
   search nonum log/syslog "Bad PW" >> log/badpws
 
   delete log/syslog quiet

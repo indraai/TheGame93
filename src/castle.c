@@ -768,9 +768,9 @@ SPECIAL(jerry)
 	    FALSE, gambler1, 0, gambler2, TO_VICT);
     break;
   case 1:
-    act("$n curses the Goddess of Luck roundly as he sees $N's roll.",
+    act("$n curses the Devi of Luck roundly as he sees $N's roll.",
 	    FALSE, gambler1, 0, gambler2, TO_NOTVICT);
-    act("You curse the Goddess of Luck as $N rolls.",
+    act("You curse the Devi of Luck as $N rolls.",
 	    FALSE, gambler1, 0, gambler2, TO_CHAR);
     act("$n swears angrily. You are in luck!",
 	    FALSE, gambler1, 0, gambler2, TO_VICT);

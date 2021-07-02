@@ -128,12 +128,12 @@ void do_dg_cast(void *go, struct script_data *sc, trig_data *trig, int type, cha
       script_log("dg_cast: Cannot load the caster mob!");
       return;
     }
-    /* set the caster's name to that of the object, or the gods.... */
+    /* set the caster's name to that of the object, or the Devas.... */
     if (type==OBJ_TRIGGER)
       caster->player.short_descr =
         strdup(((struct obj_data *)go)->short_description);
     else if (type==WLD_TRIGGER)
-      caster->player.short_descr = strdup("The gods");
+      caster->player.short_descr = strdup("The Devas");
     caster->next_in_room = caster_room->people;
     caster_room->people = caster;
     caster->in_room = real_room(caster_room->number);
@@ -267,7 +267,7 @@ void send_char_pos(struct char_data *ch, int dam)
 }
 
 /* Used throughout the xxxcmds.c files for checking if a char can be targetted
- * - allow_gods is false when called by %force%, for instance, while true for
+ * - allow_devas is false when called by %force%, for instance, while true for
  * %teleport%. - Welcor */
 int valid_dg_target(struct char_data *ch, int bitvector)
 {
@@ -277,13 +277,13 @@ int valid_dg_target(struct char_data *ch, int bitvector)
     return FALSE; /* Only PC's who are playing can be targetted */
   else if (GET_LEVEL(ch) < LVL_IMMORT)
     return TRUE;  /* as well as all mortals */
-  else if (!IS_SET(bitvector, DG_ALLOW_GODS) &&
-     GET_LEVEL(ch) >= LVL_GRGOD) /* LVL_GOD has the advance command. Can't allow them to be forced. */
-    return FALSE; /* but not always the highest gods */
+  else if (!IS_SET(bitvector, DG_ALLOW_DEVAS) &&
+     GET_LEVEL(ch) >= LVL_GRDEVA) /* LVL_DEVA has the advance command. Can't allow them to be forced. */
+    return FALSE; /* but not always the highest devas */
   else if (!PRF_FLAGGED(ch, PRF_NOHASSLE))
     return TRUE;  /* the ones in between as allowed as long as they have no-hassle off.   */
   else
-    return FALSE;  /* The rest are gods with nohassle on... */
+    return FALSE;  /* The rest are devas with nohassle on... */
 }
 
 void script_damage(struct char_data *vict, int dam)

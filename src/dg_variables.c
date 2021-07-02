@@ -509,7 +509,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           if (type == MOB_TRIGGER) {
             ch = (char_data *) go;
             for (c = world[IN_ROOM(ch)].people; c; c = c->next_in_room)
-              if ((c != ch) && valid_dg_target(c, DG_ALLOW_GODS) &&
+              if ((c != ch) && valid_dg_target(c, DG_ALLOW_DEVAS) &&
                   CAN_SEE(ch, c)) {
                 if (!rand_number(0, count))
                   rndm = c;
@@ -520,7 +520,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (type == OBJ_TRIGGER) {
             for (c = world[obj_room((obj_data *) go)].people; c;
                  c = c->next_in_room)
-              if (valid_dg_target(c, DG_ALLOW_GODS)) {
+              if (valid_dg_target(c, DG_ALLOW_DEVAS)) {
                 if (!rand_number(0, count))
                   rndm = c;
                 count++;
@@ -530,7 +530,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (type == WLD_TRIGGER) {
             for (c = ((struct room_data *) go)->people; c;
                  c = c->next_in_room)
-              if (valid_dg_target(c, DG_ALLOW_GODS)) {
+              if (valid_dg_target(c, DG_ALLOW_DEVAS)) {
 
                 if (!rand_number(0, count))
                   rndm = c;
@@ -631,7 +631,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (!str_cmp(field, "cha")) {
             if (subfield && *subfield) {
               int addition = atoi(subfield);
-              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRGOD) ? 25 : 18;
+              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRDEVA) ? 25 : 18;
               c->real_abils.cha += addition;
               if (c->real_abils.cha > max) c->real_abils.cha = max;
               if (c->real_abils.cha < 3) c->real_abils.cha = 3;
@@ -654,7 +654,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (!str_cmp(field, "con")) {
             if (subfield && *subfield) {
               int addition = atoi(subfield);
-              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRGOD) ? 25 : 18;
+              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRDEVA) ? 25 : 18;
               c->real_abils.con += addition;
               if (c->real_abils.con > max) c->real_abils.con = max;
               if (c->real_abils.con < 3) c->real_abils.con = 3;
@@ -673,7 +673,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
             } else if (!str_cmp(field, "dex")) {
               if (subfield && *subfield) {
                 int addition = atoi(subfield);
-                int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRGOD) ? 25 : 18;
+                int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRDEVA) ? 25 : 18;
                 c->real_abils.dex += addition;
                 if (c->real_abils.dex > max) c->real_abils.dex = max;
                 if (c->real_abils.dex < 3) c->real_abils.dex = 3;
@@ -798,7 +798,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (!str_cmp(field, "int")) {
             if (subfield && *subfield) {
               int addition = atoi(subfield);
-              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRGOD) ? 25 : 18;
+              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRDEVA) ? 25 : 18;
               c->real_abils.intel += addition;
               if (c->real_abils.intel > max) c->real_abils.intel = max;
               if (c->real_abils.intel < 3) c->real_abils.intel = 3;
@@ -1057,7 +1057,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (!str_cmp(field, "str")) {
             if (subfield && *subfield) {
               int addition = atoi(subfield);
-              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRGOD) ? 25 : 18;
+              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRDEVA) ? 25 : 18;
               c->real_abils.str += addition;
               if (c->real_abils.str > max) c->real_abils.str = max;
               if (c->real_abils.str < 3) c->real_abils.str = 3;
@@ -1087,7 +1087,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
             snprintf(str, slen, "%d", GET_COND(c, THIRST));
           }
           else if (!str_cmp(field, "title")) {
-            if (!IS_NPC(c) && subfield && *subfield && valid_dg_target(c, DG_ALLOW_GODS)) {
+            if (!IS_NPC(c) && subfield && *subfield && valid_dg_target(c, DG_ALLOW_DEVAS)) {
               if (GET_TITLE(c)) free(GET_TITLE(c));
                 GET_TITLE(c) = strdup(subfield);
             }
@@ -1131,7 +1131,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           else if (!str_cmp(field, "wis")) {
             if (subfield && *subfield) {
               int addition = atoi(subfield);
-              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRGOD) ? 25 : 18;
+              int max = (IS_NPC(c) || GET_LEVEL(c) >= LVL_GRDEVA) ? 25 : 18;
               c->real_abils.wis += addition;
               if (c->real_abils.wis > max) c->real_abils.wis = max;
               if (c->real_abils.wis < 3) c->real_abils.wis = 3;

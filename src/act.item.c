@@ -611,8 +611,8 @@ ACMD(do_drop)
   }
 
   if (amount && (subcmd == SCMD_JUNK)) {
-    send_to_char(ch, "You have been rewarded by the gods!\r\n");
-    act("$n has been rewarded by the gods!", TRUE, ch, 0, 0, TO_ROOM);
+    send_to_char(ch, "You have been rewarded by the Devas!\r\n");
+    act("$n has been rewarded by the Devas!", TRUE, ch, 0, 0, TO_ROOM);
     GET_GOLD(ch) += amount;
   }
 }
@@ -673,7 +673,7 @@ static void perform_give_gold(struct char_data *ch, struct char_data *vict,
     send_to_char(ch, "Heh heh heh ... we are jolly funny today, eh?\r\n");
     return;
   }
-  if ((GET_GOLD(ch) < amount) && (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_GOD))) {
+  if ((GET_GOLD(ch) < amount) && (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_DEVA))) {
     send_to_char(ch, "You don't have that many coins!\r\n");
     return;
   }
@@ -685,7 +685,7 @@ static void perform_give_gold(struct char_data *ch, struct char_data *vict,
   snprintf(buf, sizeof(buf), "$n gives %s to $N.", money_desc(amount));
   act(buf, TRUE, ch, 0, vict, TO_NOTVICT);
 
-  if (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_GOD))
+  if (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_DEVA))
     decrease_gold(ch, amount);
 
   increase_gold(vict, amount);

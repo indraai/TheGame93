@@ -466,7 +466,7 @@ following values:
 8)  NO_MAGIC   - No magic will work here.
 9)  TUNNEL     - Only one person allowed at one time.
 10) PRIVATE    - Only room for 2 players/mobs i.e. a tunnel or small space.
-11) GODROOM    - Only allows GODS of level 33 or above to goto.
+11) DEVAROOM    - Only allows DEVAS of level 33 or above to goto.
 12) HOUSE      - DO NOT USE. Room is a house.       \  automatically
 13) HCRSH      - DO NOT USE. House needs saving.     >    set by
 14) ATRIUM     - DO NOT USE. The door to a house.   /    hcontrol
@@ -1743,7 +1743,7 @@ values:
 2 b NOEVIL Keeper won’t trade with evilly-aligned players.
 4 c NONEUTRAL Keeper won’t trade with neutrally-aligned players.
 8 d NOMAGIC_USER Keeper won’t trade with the Mage class.
-16 e NOMONK Keeper won’t trade with the  class. 
+16 e NOMONK Keeper won’t trade with the  class.
 32 f NOTHIEF Keeper won’t trade with the Thief class.
 64 g NOWARRIOR Keeper won’t trade with the Warrior class.
 

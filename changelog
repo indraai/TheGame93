@@ -440,7 +440,7 @@ tbaMUD-3.57
   Removed deprecated "murder" code.
   When pkill is on players can now order charmed mobs to attack other players.
   Fixed 'toggle automap'.
-  Added a offering command instead of their being autooffer only. Also replaced Zizazat's name with more generic "The Gods" as it had obviously been ported from CWG previously.
+  Added a offering command instead of their being autooffer only. Also replaced Zizazat's name with more generic "The Devas" as it had obviously been ported from CWG previously.
   Fixed Warning relating to Automap.
 [Aug 03 2008] - Rumble
   You can now see your own communications while sleeping for gos, auc, gra, etc. (thanks Drefs)
@@ -824,7 +824,7 @@ tbaMUD 3.53
   Added 128 bits patch by Niese Petersen with numerous updates and fixes.
 tbaMUD 3.52
 [Apr 14 2007] - Rumble
-  IP's only visible to LVL_GOD and above now for the paranoid people out there.
+  IP's only visible to LVL_DEVA and above now for the paranoid people out there.
 [Apr 13 2007] - Rumble
   Finally made gemote actually work like emote and not just use socials. (thanks Fizban)
   Reworded and standardized the trigedit attachment menu.
@@ -865,7 +865,7 @@ tbaMUD 3.52
   Renamed immort_level_ok to no_mort_to_immort and rewrote the convoluted comments.
 [Mar 04 2007] - Rumble
   Fixed fight_messages not displaying (thanks Rhade).
-  Removed LVL_FREEZE and set ban/freeze to LVL_GRGOD.
+  Removed LVL_FREEZE and set ban/freeze to LVL_GRDEVA.
   Added send_cannot_edit function (thanks Rhade).
 [Feb 26 2007] - Rumble
   updated CYGWIN.README, FAQ, and README

@@ -330,7 +330,7 @@ void aedit_parse(struct descriptor_data * d, char *arg) {
       switch (*arg) {
        case 'y': case 'Y':
          aedit_save_internally(d);
-         mudlog (CMP, MAX(LVL_GOD, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits action %s",
+         mudlog (CMP, MAX(LVL_DEVA, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits action %s",
                  GET_NAME(d->character), OLC_ACTION(d)->command);
 
          /* do not free the strings.. just the structure */

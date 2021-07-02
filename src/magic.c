@@ -247,7 +247,7 @@ int mag_damage(int level, struct char_data *ch, struct char_data *victim,
       victim = ch;
       dam = GET_HIT(ch) - 1;
     } else if (IS_GOOD(victim)) {
-      act("The gods protect $N.", FALSE, ch, 0, victim, TO_CHAR);
+      act("The Devas protect $N.", FALSE, ch, 0, victim, TO_CHAR);
       return (0);
     }
     break;
@@ -257,7 +257,7 @@ int mag_damage(int level, struct char_data *ch, struct char_data *victim,
       victim = ch;
       dam = GET_HIT(ch) - 1;
     } else if (IS_EVIL(victim)) {
-      act("The gods protect $N.", FALSE, ch, 0, victim, TO_CHAR);
+      act("The Devas protect $N.", FALSE, ch, 0, victim, TO_CHAR);
       return (0);
     }
     break;
@@ -582,7 +582,7 @@ void mag_groups(int level, struct char_data *ch, int spellnum, int savetype)
 
   if (!GROUP(ch))
     return;
-    
+
   while ((tch = (struct char_data *) simple_list(GROUP(ch)->members)) != NULL) {
     if (IN_ROOM(tch) != IN_ROOM(ch))
       continue;
@@ -644,7 +644,7 @@ void mag_areas(int level, struct char_data *ch, int spellnum, int savetype)
      *            2: immortals
      *            3: if no pk on this mud, skips over all players
      *            4: pets (charmed NPCs)
-     *            5: other players in the same group (if the spell is 'violent') 
+     *            5: other players in the same group (if the spell is 'violent')
      *            6: Flying people if earthquake is the spell                         */
     if (tch == ch)
       continue;
@@ -774,9 +774,9 @@ void mag_summons(int level, struct char_data *ch, struct obj_data *obj,
     act(mag_summon_msgs[msg], FALSE, ch, 0, mob, TO_ROOM);
     load_mtrigger(mob);
     add_follower(mob, ch);
-    
+
     if (GROUP(ch) && GROUP_LEADER(GROUP(ch)) == ch)
-      join_group(mob, GROUP(ch));    
+      join_group(mob, GROUP(ch));
   }
   if (handle_corpse) {
     for (tobj = obj->contains; tobj; tobj = next_obj) {
@@ -977,34 +977,34 @@ void mag_rooms(int level, struct char_data *ch, int spellnum)
   event_id IdNum = eNULL;
   const char *msg = NULL;
   const char *room = NULL;
-  
+
   rnum = IN_ROOM(ch);
-  
+
   if (ROOM_FLAGGED(rnum, ROOM_NOMAGIC))
     failure = TRUE;
-  
+
   switch (spellnum) {
     case SPELL_DARKNESS:
       IdNum = eSPL_DARKNESS;
       if (ROOM_FLAGGED(rnum, ROOM_DARK))
         failure = TRUE;
-        
+
       duration = 5;
       SET_BIT_AR(ROOM_FLAGS(rnum), ROOM_DARK);
-        
+
       msg = "You cast a shroud of darkness upon the area.";
       room = "$n casts a shroud of darkness upon this area.";
     break;
-  
+
   }
-  
+
   if (failure || IdNum == eNULL) {
     send_to_char(ch, "You failed!\r\n");
     return;
   }
-  
+
   send_to_char(ch, "%s\r\n", msg);
   act(room, FALSE, ch, 0, 0, TO_ROOM);
-  
+
   NEW_EVENT(eSPL_DARKNESS, &world[rnum], NULL, duration * PASSES_PER_SEC);
 }

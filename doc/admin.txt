@@ -461,7 +461,7 @@ players.
 That paranoia is a very good thing. The system logs become an abstract and 
 shapeless but omnipresent force on the MUD. Players hear about “the System Log”
 and then get paranoid that everything they do is being recorded, so they tend 
-to behave, lest the evil System Log betray their wrongdoings to the Gods. 
+to behave, lest the evil System Log betray their wrongdoings to the Devas. 
 
 For this reason, when you go to check your logs, it’s a good idea to say something
 like “Hold on... let me go check the system logs, OK?” because it reinforces the
