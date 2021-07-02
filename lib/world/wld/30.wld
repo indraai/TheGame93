@@ -1016,12 +1016,20 @@ S
 The Path~
 adv:world:3055/main
 ~
-30 240 0 0 0 3
+30 144 0 0 0 3
+D0
+~
+~
+1 0 26300
 D1
 adv:world:3066/look
 ~
 ~
 0 -1 3066
+D2
+~
+~
+1 0 500
 D3
 adv:world:3056/look
 ~
@@ -1036,7 +1044,11 @@ S
 The Path~
 adv:world:3056/main
 ~
-30 240 0 0 0 3
+30 144 0 0 0 3
+D0
+~
+~
+1 0 31300
 D1
 adv:world:3055/look
 ~
@@ -1046,6 +1058,10 @@ D2
 ~
 ~
 0 0 3057
+D3
+~
+~
+1 0 100
 E
 sign~
 adv:world:3056/sign
@@ -1227,11 +1243,19 @@ S
 The Path~
 adv:world:3066/main
 ~
-30 240 0 0 0 3
+30 144 0 0 0 3
+D0
+~
+~
+1 0 6152
 D1
 ~
 ~
 0 0 3065
+D2
+~
+~
+1 0 29606
 D3
 adv:world:3055/look
 ~
@@ -1450,7 +1474,7 @@ S
 The Path~
 adv:world:3078/main
 ~
-30 240 0 0 0 0
+30 240 0 0 0 3
 D1
 adv:world:3079/look
 ~
