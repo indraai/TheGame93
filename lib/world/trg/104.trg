@@ -133,7 +133,7 @@ say So you do wish to venture to the center of the maze!
 wait 2 sec
 say You will find the maze to the east of this town.
 wait 2 sec
-say May the Gods of Miz'real be with you.
+say May the Devas of Miz'real be with you.
 wait 1 sec
 %echo% %self.name% waves his hands around and chants some strange language.
 wait 3 sec

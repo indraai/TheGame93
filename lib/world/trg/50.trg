@@ -8,7 +8,7 @@ set stunned %actor.hitp%
 %damage% %actor% %stunned%
 wait 2 sec
 %send% %actor% You somehow survive the fall and lay among the rocks.
-%send% %actor% The Gods must favor you this day.
+%send% %actor% The Devas must favor you this day.
 ~
 #5001
 Magic User - 5004, 5010, 5014~

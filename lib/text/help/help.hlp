@@ -532,7 +532,7 @@ Days of the week:
   the Day of the Deception
   the Day of Thunder
   the Day of Freedom
-  the Day of the Great Gods
+  the Day of the Great Devas
   the Day of the Sun
 
 Months of the year:
@@ -2501,7 +2501,7 @@ flags are always in parentheses, not brackets or braces.
   (nogos)     Player has chosen not to hear gossips or gemotes.
   (notell)    Player has chosen not to accept tells.
   (quest)     Player is participating in a quest currently being run by
-              the Gods.
+              the Devas.
   (OLC)       Immortals only - The player is currently building online.
 
 See also: NOSHOUT, NOTELL, QUEST, STEAL, VISIBLE
@@ -2806,7 +2806,7 @@ See also: APOSTROPHE, YOU
 #31
 GREP
 
-grep is a shell command. Only imps/gods with shell access can use it from the
+grep is a shell command. Only imps/Devas with shell access can use it from the
 command prompt.
 Stands for 'global regular expression print' searches for strings in text files.
 Examples:
@@ -3138,7 +3138,7 @@ TBA         : tbamud.com 9091 IP: 206.41.252.202
 Player Port : tbamud.com 4000 IP: 206.41.252.202
 
 Internet protocol (IP) is what identifies each computer individually on the internet.  The
-Gods can see your IP and report abuse to your provider so behave.
+Devas can see your IP and report abuse to your provider so behave.
 
 #0
 HOMETOWNS
@@ -3267,7 +3267,7 @@ Examples: @RTSTAT 22, 93@n
 
 See also: EXPRESSIONS, NESTED-IFS
 #31
-IMMS WIZLIST IMMORTALS IMMLIST IMMORTALITY DEMIGOD ASSISTANTS LESSER GREATER GODS
+IMMS WIZLIST IMMORTALS IMMLIST IMMORTALITY DEMIGOD ASSISTANTS LESSER GREATER Devas
 
 Usage: wizlist | immlist
 
@@ -4927,7 +4927,7 @@ On-line creation
 The OLC command will show you any unsaved, edited world files.
 
 To use OLC you have to have permission from one of the greater
-gods or implementors. When you are granted the right,
+Devas or implementors. When you are granted the right,
 you will receive further information.
 
 To learn more about building check the website (help building)
@@ -6202,7 +6202,7 @@ for becoming a game designer. My feedback so for, up till this point, is all
 positives. This is a great place for newbies like myself in the building world
 to come, and even for those that are somewhat trained in the world of building.
 The help files that you supply are great, and are detailed/descriptive in every
-aspect The "higher" immortals/gods like yourself have been a great help also,
+aspect The "higher" immortals/Devas like yourself have been a great help also,
 pointing out what I need to fix, which helps me out a lot, there is usually
 always something for a person to improve upon, so any feedback/help for
 correcting my mistakes is always a plus. I like how you set it up for the
@@ -6329,7 +6329,7 @@ Level 33 (Greater God) An experienced builder that has contributed significantly
 Level 34 (Implementor) Current developers: Welcor, Wyld, and Opie.
 
 Please do not bother asking to be advanced.  If your goal is merely to rise in
-the ranks, you are wasting your time.  The Gods here are dedicated to helping
+the ranks, you are wasting your time.  The Devas here are dedicated to helping
 others learn to build.  Thus, those who advance in level are those who become
 proficient builders that offer their time to teach others.  If you are willing
 to give back to the tbaMUD community and have the requisite skills, you will be
@@ -11890,8 +11890,8 @@ Examples:
 
 >wiznet <text>    - just sends text.
 >; <text>         - ; is short for wiznet.
->; @              - shows all gods that are on and visible to you.
-                  - also shows if the gods who are visible to you are writing.
+>; @              - shows all Devas that are on and visible to you.
+                  - also shows if the Devas who are visible to you are writing.
 >;#<level> <text> - sends text to everyone <level> and above.
                   - ;#32 only God and above will see this.
 
@@ -11966,7 +11966,7 @@ This command will let you copy the target vnum to a new vnum for rooms,
 mobs, objs, shops, and triggers. It cannot be made to copy into already
 existing vnums.
 
-Note: Only GODS and above can use this command.
+Note: Only Devas and above can use this command.
 
 > rcopy 33 1233 - copies room 33 to 1233.
 

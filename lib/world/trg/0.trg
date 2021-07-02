@@ -342,7 +342,7 @@ wait 1 sec
 * Take away 10 hitpoints
 %damage% %actor% 10
 wait 5 sec
-%echo% The Gods feel sorry for %actor.name% and restore him to full health.
+%echo% The Devas feel sorry for %actor.name% and restore him to full health.
 * Restore 10 hitpoints (-# heals the actor).
 %damage% %actor% -10
 * Another Example that damages actor to 1 hitpoint
@@ -1101,7 +1101,7 @@ switch %time.day%
   case 19
   case 26
   case 33
-  set day the Day of the Great Gods
+  set day the Day of the Great Devas
     break
   case 7
   case 13

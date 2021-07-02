@@ -179,7 +179,7 @@ You smile, amused with $p.
 $n smiles, amused with $p.
 
 ~apologize apologize 0 5 0 0
-You apologize to the gods for your very existence.
+You apologize to the Devas for your very existence.
 $n apologizes for even being alive.
 You apologize to $M.
 $n apologizes to $N.
@@ -449,8 +449,8 @@ You spill beer on $p, what a waste.
 $n spills beer on $p, what a sloppy drunk.
 
 ~beg beg 0 5 0 0
-You beg the gods for mercy.  (No way you're gonna get it! :-))
-The gods fall down laughing at $n's request for mercy.
+You beg the Devas for mercy.  (No way you're gonna get it! :-))
+The Devas fall down laughing at $n's request for mercy.
 You desperately try to squeeze a few coins from $M.
 $n begs $N for a dime or two -- or twenty!
 $n begs you for money.  You gratiously let $m peep at your fortune.

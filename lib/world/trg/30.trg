@@ -166,7 +166,7 @@ Near Death Trap~
 set stunned %actor.hitp%
 %damage% %actor% %stunned%
 %send% %actor% You are on the brink of life and death.
-%send% %actor% The Gods must favor you this day.
+%send% %actor% The Devas must favor you this day.
 ~
 #3009
 Stock Cityguard - 3059, 60, 67~

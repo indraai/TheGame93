@@ -11,7 +11,7 @@ set stunned %actor.hitp% + 2
 %damage% %actor% %stunned%
 wait 2 sec
 %send% %actor% The current lessens and you float to the surface.
-%send% %actor% The Gods must favor you this day.
+%send% %actor% The Devas must favor you this day.
 ~
 #2501
 Magic User - 4,7,8,10,14-18,20-34,36-38,40-41,48-49,52-54,56-57,59-60,62,64~

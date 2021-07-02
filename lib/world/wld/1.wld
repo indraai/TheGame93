@@ -1,6 +1,6 @@
 #100
 Temple of Sanctum~
-   This large room appears to be inside a massive temple dedicated to the gods
+   This large room appears to be inside a massive temple dedicated to the Devas
 of Sanctus.  The ceiling is supported by fluted columns and a main spiral
 stairwell that leads both up and down.  Small rooms adjoin this chamber in all
 four cardinal directions.  It is here mortals come to stay informed and discuss
@@ -74,9 +74,9 @@ Zone 1 is linked to the following zones:
 S
 T 24
 #101
-The Temple of the Gods~
+The Temple of the Devas~
    This seems to be the highest point in the kingdom of Sanctus.  It is from
-here that the worshipers of the gods come to pay tribute to those who have saved
+here that the worshipers of the Devas come to pay tribute to those who have saved
 them from the chaos and destruction beyond the sanctuary of the city walls.
 Large windows reach from the floor to the ceiling, giving an excellent view of
 the city and countryside beyond.  An altar stands in the middle of the room with
@@ -94,7 +94,7 @@ D5
 E
 statue~
    As you examine the statues more closely you realize they must resemble the
-two gods responsible for the creation and ongoing protection of Sanctus, Ferret
+two Devas responsible for the creation and ongoing protection of Sanctus, Ferret
 and Rumble.  They both radiate a strength and power that resembles the solid
 white marble they were crafted from.
 ~
@@ -192,7 +192,7 @@ S
 Above the Northern Gate~
    In between the Thieves and Warriors Quarter the Northern Gate is the main
 defensive hold in case of an attack.  At this distance one can just barely make
-out the shimmering dome that was created by the gods and is now sustained by the
+out the shimmering dome that was created by the Devas and is now sustained by the
 Magi.  The dome curves along the walls of the city and can not be seen for more
 than a few feet in any direction.  It flickers as if a mirage, only visible when
 glanced at from one side.  Stone stairs lead down into the city wall.
@@ -629,10 +629,10 @@ S
 #128
 Tower of Sanctum~
    It is within these walls that the High Council meets and decides on how they
-can best serve the gods and Sanctus to improve the safety of the realm and
+can best serve the Devas and Sanctus to improve the safety of the realm and
 eventually restore order to the world that Drakkar had so horribly imbalanced.
 With time the High Council believes they can restore order.  With the help of
-the gods this may be possible.
+the Devas this may be possible.
 ~
 1 8 0 0 0 0
 D0
@@ -711,7 +711,7 @@ Home of the Magi~
    Since the creation of the dome to protect the city a Magi has been required
 to stay within the towers.  The five Magi share this duty and are responsible
 for the safety of the Orb of Sanctum.  The Orb is what was given to the Magi by
-the gods to sustain the protective dome.  As long as the orb is safely in place
+the Devas to sustain the protective dome.  As long as the orb is safely in place
 and a Magi is present to sustain it the dome will remain.
 ~
 1 8 0 0 0 1
@@ -725,7 +725,7 @@ Tower of the Magi~
    Within the halls of this tower lies the Orb of Sanctum.  It is the
 responsibility of all to ensure its safety.  Without the orb the dome would
 collapse and chaos would rule.  The Magi have been given the honor of it placed
-within these halls.  The orb is rumored to have been created by the Gods Rumble
+within these halls.  The orb is rumored to have been created by the Devas Rumble
 and Ferret.  But, no one knows for sure.
 ~
 1 8 0 0 0 0
