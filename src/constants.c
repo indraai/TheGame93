@@ -20,6 +20,8 @@
 #include "interpreter.h"	/* alias_data */
 #include "constants.h"
 
+const char confirm_msg[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
+
 /** Current tbaMUD version.
  * @todo cpp_extern isn't needed here (or anywhere) as the extern reserved word
  * works correctly with C compilers (at least in my Experience)

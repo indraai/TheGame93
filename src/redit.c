@@ -31,8 +31,6 @@ static void redit_disp_flag_menu(struct descriptor_data *d);
 static void redit_disp_sector_menu(struct descriptor_data *d);
 static void redit_disp_menu(struct descriptor_data *d);
 
-char confirm[] = "\nDo you wish to save your changes?\r\nmenu:y:yes\r\nmenu:n:no\r";
-
 /* Utils and exported functions. */
 ACMD(do_oasis_redit)
 {
@@ -566,7 +564,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-        write_to_output(d, "%s", confirm);
+        write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
         cleanup_olc(d, CLEANUP_ALL);
@@ -589,7 +587,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
 
       /* confirm save changes */
-      write_to_output(d, "%s", confirm);
+      write_to_output(d, "%s", confirm_msg);
 
       break;
     case '3':
@@ -923,7 +921,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       return;
     } else
       /* confirm save changes */
-      write_to_output(d, "%s", confirm);
+      write_to_output(d, "%s", confirm_msg);
 
     break;
 
