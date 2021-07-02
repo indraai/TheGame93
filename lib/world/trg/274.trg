@@ -3,7 +3,7 @@ Kay~
 0 dg 100
 ~
 wait 5
-say Blessings upon you this day, %actor.name%. The hand of God
+say Blessings upon you this day, %actor.name%. The hand of Deva
 say be upon you always. Here let me heal and help you.
 dg_cast 'heal' %actor.name%
 wait 5
@@ -11,7 +11,7 @@ dg_cast 'sanctuary' %actor.name%
 wait 5
 dg_cast 'fly' %actor.name%
 wait 5
-say Go with God.
+say Go with Deva.
 ~
 #27401
 Barney - 27404~

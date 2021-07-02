@@ -267,7 +267,7 @@ statue brahman~
 the statue of Brahman~
 The statue of Brahman stands here.
 ~
-   The statue made of solid marble depicts the mighty God defeating Siva in
+   The statue made of solid marble depicts the mighty Deva defeating Siva in
 magical combat.
 ~
 256026 0 0 0 16 0 0 0 1000 E
@@ -278,10 +278,10 @@ E
 T 5404
 #5422
 god king lord agni fire~
-Agni, The God of Fire Offering~
-AGNI, The Lord God King of Fire Offering is here.
+Agni, The Deva of Fire Offering~
+AGNI, The Lord Deva King of Fire Offering is here.
 ~
-Here is AGNI, The Lord God King of Fire Offering.
+Here is AGNI, The Lord Deva King of Fire Offering.
 ~
 518168 0 0 0 26744 0 0 0 900 E
 15 15 1 3d3+150 2d2+2
@@ -292,10 +292,10 @@ E
 T 5404
 #5423
 god king lord indra water offering~
-Indra, The God of Offering~
-INDRA, The Lord God King of Water Offering is here.
+Indra, The Deva of Offering~
+INDRA, The Lord Deva King of Water Offering is here.
 ~
-Here is INDRA, The Lord God King of Water Offering.
+Here is INDRA, The Lord Deva King of Water Offering.
 ~
 518172 0 0 0 26872 0 0 0 1000 E
 15 15 1 6d6+300 5d5+5
@@ -322,7 +322,7 @@ statue surya~
 the statue of Surya~
 The statue of Surya stands here.
 ~
-The statue of Surya, the God in charge of the Sun, almost glows with a fiery aura.
+The statue of Surya, the Deva in charge of the Sun, almost glows with a fiery aura.
 ~
 256026 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
@@ -333,9 +333,9 @@ T 5404
 #5426
 statue usas~
 the statue of usas~
-Usas, The Goddess of Dawn is here.
+Usas, The Devadess of Dawn is here.
 ~
-Usas, The Goddess of Dawn is here.
+Usas, The Devadess of Dawn is here.
 ~
 256026 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
@@ -348,7 +348,7 @@ statue brihaspati~
 the statue of Brihaspati~
 The statue of Brihaspati stands here.
 ~
-   The statue of Brihaspati, the God of Scholars and Knowledge is made of a
+   The statue of Brihaspati, the Deva of Scholars and Knowledge is made of a
 weathered marble.
 ~
 256026 0 0 0 16 0 0 0 0 E
@@ -362,7 +362,7 @@ statue puchan~
 the statue of Puchan~
 The statue of Puchan stands here.
 ~
-   The statue of Puchan, God of Travellers, is covered with dust and worn as if
+   The statue of Puchan, Deva of Travellers, is covered with dust and worn as if
 it had been dragged a long way down a dusty road.
 ~
 256026 0 0 0 16 0 0 0 1000 E

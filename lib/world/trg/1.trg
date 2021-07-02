@@ -1769,10 +1769,10 @@ set  text[9]  You may think it's easier to de-ice your windshield with a flameth
 set  text[10] There are some things that just aren't meant to be eaten.
 set  text[11] The intelligent man wins his battles with pointed words. I'm sorry -- I meant sticks. Pointed sticks.
 set  text[12] There are way too many numbers. The world would be a better place if we lost half of them -- starting with 8. I've always hated 8.
-set  text[13] If I had a dollar for every time I heard "My God! He's covered in some sort of goo," I'd be a rich man.
+set  text[13] If I had a dollar for every time I heard "My Deva! He's covered in some sort of goo," I'd be a rich man.
 set  text[14] Be generous in the bedroom -- share your sandwich.
 set  text[15] I've climbed the highest mountains . . . fallen down the deepest valleys . . . I've been to Japan and Africa . . . and I've even gone into space. But I'd trade it all for a piece of candy right now.
-set  text[16] Every creature on God's earth has a right to exist. Except for that damn ruby-throated South American warbler.
+set  text[16] Every creature on Deva's earth has a right to exist. Except for that damn ruby-throated South American warbler.
 set  text[17] I don't need a surgeon telling me how to operate on myself.
 set  text[18] Sometimes I think there's no reason to get out of bed . . . then I feel wet, and I realize there is.
 set  text[19] Let me just say, Winnie the Pooh getting his head caught in a honey pot? It's not funny. It can really happen.
@@ -2280,7 +2280,7 @@ wait 1 sec
 if %actor.level% <= 1
   wait 3 sec
   if %actor.varexists(TBA_mortal_greeting)%
-    %echo% Friedrich Nietzsche says, 'Welcome back %actor.name%. Tell a God, Great God, or Implementor when you complete the application.'
+    %echo% Friedrich Nietzsche says, 'Welcome back %actor.name%. Tell a Deva, Great Deva, or Implementor when you complete the application.'
   else
     %echo% Friedrich Nietzsche says, 'Welcome to The Builder Academy %actor.name%.'
     wait 2 sec

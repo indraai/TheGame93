@@ -2355,7 +2355,7 @@ Ghost gossips, 'oh sorry wrong mud'
 
 [ (GC) Shinseiku tried to get help on NOASSHOLE ]
 [ Closing link to: Happythoughts. ]
-[ Closing link to: God. ]
+[ Closing link to: Deva. ]
 
 Krin gossips, 'my dog turned my computer off...'
 
@@ -4654,7 +4654,7 @@ F) ROOM :  $n tries to burn $N, but $E escapes!
 G) CHAR :  You burn $N with your hot little hands!
 H) VICT :  You cry out in pain as $n grabs you with burning hands!
 I) ROOM :  $N cries out as $n burns $M!
-   God Messages:
+   Deva Messages:
 J) CHAR :  Your attempt to burn $N nears BLASPHEMY!!!
 K) VICT :  The pitiful creature before you tries to burn you.
 L) ROOM :  Unaware of the risks, $n tries to burn $N.
@@ -6321,10 +6321,10 @@ at least level 32 may have relatively little experience.
 
 Level 31 (Immortal)    Anyone who is new to TBA and is working on their trial
                        vnum or zone.
-Level 32 (God)         An experienced builder with proven knowledge that is
+Level 32 (Deva)         An experienced builder with proven knowledge that is
                        willing to teach others. Immortals of level 32 and above
                        are considered staff.
-Level 33 (Greater God) An experienced builder that has contributed significantly
+Level 33 (Greater Deva) An experienced builder that has contributed significantly
                        to TBA.
 Level 34 (Implementor) Current developers: Welcor, Wyld, and Opie.
 
@@ -7746,32 +7746,32 @@ The following are valid fields:
 
 Command             Lvl    Who?  Type
 ac                  Imm    BOTH  NUMBER
-admlevel            GrGod  PC    NUMBER
+admlevel            GrDeva  PC    NUMBER
 afk                 Imm    PC    BINARY
-age                 God    BOTH  NUMBER
+age                 Deva    BOTH  NUMBER
 align               Imm    BOTH  NUMBER
 bank                Imm    PC    NUMBER
-brief               God    PC    BINARY
+brief               Deva    PC    BINARY
 cha                 Imm    BOTH  NUMBER
 class               Imm    BOTH  MISC
-color               God    PC    BINARY
+color               Deva    PC    BINARY
 con                 Imm    BOTH  NUMBER
 damroll             Imm    BOTH  NUMBER
 deleted             IMP    PC    BINARY
 dex                 Imm    BOTH  NUMBER
 drunk               Imm    BOTH  MISC
-exp                 God    BOTH  NUMBER
-frozen              GrGod  PC    BINARY
+exp                 Deva    BOTH  NUMBER
+frozen              GrDeva  PC    BINARY
 gold                Imm    BOTH  NUMBER
 height              Imm    BOTH  NUMBER
 hitpoints           Imm    BOTH  NUMBER
 hitroll             Imm    BOTH  NUMBER
 hunger              Imm    BOTH  MISC
 int                 Imm    BOTH  NUMBER
-invis               God    PC    NUMBER
+invis               Deva    PC    NUMBER
 invstart            Imm    PC    BINARY
-killer              God    PC    BINARY
-level               GrGod  BOTH  NUMBER
+killer              Deva    PC    BINARY
+level               GrDeva  BOTH  NUMBER
 loadroom            Imm    PC    MISC
 mana                Imm    BOTH  NUMBER
 maxhit              Imm    BOTH  NUMBER
@@ -7779,29 +7779,29 @@ maxmana             Imm    BOTH  NUMBER
 maxmove             Imm    BOTH  NUMBER
 move                Imm    BOTH  NUMBER
 name                Imm    PC    MISC
-nodelete            God    PC    BINARY
-nohassle            God    PC    BINARY
+nodelete            Deva    PC    BINARY
+nohassle            Deva    PC    BINARY
 nosummon            Imm    PC    BINARY
-nowizlist           GrGod  PC    BINARY
-olc                 GrGod  PC    MISC
-password            GrGod  PC    MISC
+nowizlist           GrDeva  PC    BINARY
+olc                 GrDeva  PC    MISC
+password            GrDeva  PC    MISC
 poofin              Imm    PC    MISC
 poofout             Imm    PC    MISC
-practices           God    PC    NUMBER
-quest               God    PC    BINARY
-questhistory        God    PC    NUMBER
-questpoints         God    PC    NUMBER
+practices           Deva    PC    NUMBER
+quest               Deva    PC    BINARY
+questhistory        Deva    PC    NUMBER
+questpoints         Deva    PC    NUMBER
 room                Imm    BOTH  NUMBER
-screenwidth         God    PC    NUMBER
-sex                 God    BOTH  MISC
+screenwidth         Deva    PC    NUMBER
+sex                 Deva    BOTH  MISC
 showvnums           Imm    PC    BINARY
-siteok              God    PC    BINARY
+siteok              Deva    PC    BINARY
 str                 Imm    BOTH  NUMBER
 stradd              Imm    BOTH  NUMBER
-thief               God    PC    BINARY
+thief               Deva    PC    BINARY
 thirst              Imm    BOTH  MISC
-title               God    PC    MISC
-variable            GrGod  PC    MISC
+title               Deva    PC    MISC
+variable            GrDeva  PC    MISC
 weight              Imm    BOTH  NUMBER
 wis                 Imm    BOTH  NUMBER
 
@@ -7836,7 +7836,7 @@ See Also: SET, ZEDIT-CREATE, AEDIT, HEDIT
 #31
 SHAMRA
 
-   First and foremost, repeat after me "Shamra is God".  Think it, know it,
+   First and foremost, repeat after me "Shamra is Deva".  Think it, know it,
 drink it into your soul and make it a part of your very being.  My two favorite
 hobbies are swords and killing, and it is even better when I am killing people
 with swords.  From the time I was a lowly immortal I have always defied the
@@ -7941,7 +7941,7 @@ The following room flags can be selected:
 8)  NO_MAGIC   - No magic will work here.
 9)  TUNNEL     - Only one person allowed at one time.
 10) PRIVATE    - Only room for 2 players/mobs i.e. a tunnel or small space.
-11) GODROOM    - Only allows Great God or above to goto.
+11) GODROOM    - Only allows Great Deva or above to goto.
 12) HOUSE      - DO NOT USE. Room is a house.       \  automatically
 13) HCRSH      - DO NOT USE. House needs saving.     >    set by
 14) ATRIUM     - DO NOT USE. The door to a house.   /    hcontrol
@@ -8306,7 +8306,7 @@ STAFF DUTY DUTIES STAFF-DUTIES TBA-STAFF-DUTIES TBASTAFF
     Remind them that if they get confused they can ask for help over wiznet.
 5.  The entire zone should take well over an hour to read. A trigger will tell
     them at the end of the redit hallway that they can begin working on their
-    trial vnum.  Great God's and Implementors will assign trial vnums and zones.
+    trial vnum.  Great Deva's and Implementors will assign trial vnums and zones.
 6.  Be available for questions, but don't hand feed them everything. If you do
     you will get burnt out or become suicidal. Help <X>edit, shows the room
     number for each hallway. I have compiled an extensive help system so the
@@ -8323,7 +8323,7 @@ STAFF DUTY DUTIES STAFF-DUTIES TBA-STAFF-DUTIES TBASTAFF
 
 Feel free to submit contact info to rumble for the HELP EMAIL entry.
 
-Great God's:
+Great Deva's:
     Use any free trial vnum in the zone listed in imotd. Set their trial vnum
     in their title "set rumble title has trial vnum #" "set rumble olc #." Put
     their name in their trial vnum room title. Use the assigner to limit them
@@ -8385,7 +8385,7 @@ STARTS NEWBIES NEWBIE-POLICY ALL TUTORIALS TBA-ZONE SCHOOL
 
             @Chttp://tbamud.com/@n
 
-   When you finish and submit the application tell anyone God or higher
+   When you finish and submit the application tell anyone Deva or higher
 and they will advance you to begin your training.
 
    Once promoted @RGOTO 3@n and read through the Builder Academy's tutorial
@@ -8469,7 +8469,7 @@ This is a listing of stock areas.
 
 0   Limbo                       -- DikuMud
 9   River Island Of Minos       -- Mahatma of HexOynx
-12  God Simplex                 -- CircleMUD, modified by Taz of Tazmania
+12  Deva Simplex                 -- CircleMUD, modified by Taz of Tazmania
 120 Rome                        -- Onivel of JediMUD
 15  The Straight Path           -- Steppin
 150 King Indra's Castle        -- CircleMUD*
@@ -9611,7 +9611,7 @@ every affection and stat possible. They have already been made and impress
 nobody. By monitoring this one trial Vnum the trainers can catch most of your
 mistakes and prevent you from repeating them throughout an entire zone. Once
 you finish your one room/mob/obj you must have it checked for any errors. Ask
-any God or above to do this for you. Once all errors are corrected and
+any Deva or above to do this for you. Once all errors are corrected and
 you have proven you know the basics of building you can submit a zone proposal.
 @RHELP PROPOSAL@n for more information. Once your proposal is approved you will
 be assigned your own zone, consisting of 100 Vnum's. If you have not been
@@ -10162,7 +10162,7 @@ Example: @RTSTAT 76@n
 TRIGEDIT-MOB-COMMAND TRIG-MOB-COMMAND
 
 Activates when commands are performed in the same room as the mobile.
-Does not work for Greater God and above.
+Does not work for Greater Deva and above.
 
 Numeric Arg : not used.
 Argument    : text which must be part of the command typed to filter out
@@ -10630,7 +10630,7 @@ Example: @RTSTAT 90@n
 TRIGEDIT-OBJ-COMMANDS TRIGEDIT-OBJECT-COMMAND TRIG-OBJ-COMMAND TRIG-OBJ-COMMANDS
 
 Activates when a command is performed near this object.
-Command triggers do not work for Greater God and above.
+Command triggers do not work for Greater Deva and above.
 
 Numeric Arg : a bitfield to indicate where the object must be in order to cause
               the trigger to activate.
@@ -10848,7 +10848,7 @@ Example: @RTSTAT 57@n
 TRIGEDIT-ROOM-COMMANDS TRIG-ROOM-COMMANDS CLIMBING
 
 Activates when commands are performed in the room.
-Does not work for Greater God and above.
+Does not work for Greater Deva and above.
 
 Numeric Arg : not used.
 Argument    : text which must be part of the command typed to filter out
@@ -11844,11 +11844,11 @@ Level 34 (Implementor):
 cedit        changelog    export       reload       shutdow      shutdown
 wizlock
 
-Level 33 (Great God):
+Level 33 (Great Deva):
 ban          copyover     freeze       hcontrol     reroll       skillset
 thaw         unban        wizupdate
 
-Level 32 (God):
+Level 32 (Deva):
 advance      aedit        checkload    dc           file         force
 gecho        hedit        helpcheck    hsedit       last         links
 mcopy        mute         notitle      ocopy        pardon       plist
@@ -11893,7 +11893,7 @@ Examples:
 >; @              - shows all Devas that are on and visible to you.
                   - also shows if the Devas who are visible to you are writing.
 >;#<level> <text> - sends text to everyone <level> and above.
-                  - ;#32 only God and above will see this.
+                  - ;#32 only Deva and above will see this.
 
 See also: NOWIZ
 #31

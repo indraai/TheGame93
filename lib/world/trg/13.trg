@@ -716,7 +716,7 @@ wait 3 sec
 wait 6 sec
 %echo% A chorus from above sings, "Here he is folks, the leader of the plaque."
 wait 3 sec
-%echo% A chorus from above sings, "Watch him suck up that gas. Oh My God!"
+%echo% A chorus from above sings, "Watch him suck up that gas. Oh My Deva!"
 wait 3 sec
 %echo% A chorus from above sings, "He's a dentist and he'll never ever be any good."
 wait 3 sec
@@ -925,7 +925,7 @@ set  text[4]   I've got a peaceful, easy feeling.
 set  text[5]   Ahhh, spring is in the air.
 set  text[6]   I'm one of those bad things that happen to good people.
 set  text[7]   Bring out your dead, bring out your dead!
-set  text[8]   If there is no God, who pops up the next kleenex in the box?
+set  text[8]   If there is no Deva, who pops up the next kleenex in the box?
 set  text[9]   Have you ever imagined a world with no hypothetical situations?
 set  text[10]  Pardon me, but do you have any Grey Poupon?
 set  text[11]  If nothing sticks to Teflon, how do they stick Teflon to the pan?

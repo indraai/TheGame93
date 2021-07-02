@@ -110,7 +110,7 @@ switch %random.7%
     say That monster will be the death of us all.
   break
   case 4
-    say God save the King!
+    say Deva save the King!
   break
   case 5
     say All for one and .. one for...
@@ -118,7 +118,7 @@ switch %random.7%
   break
   case 6
     emote looks up with a philosophical air.
-    say Women - God's eternal punishment on man.
+    say Women - Deva's eternal punishment on man.
   break
   case 7
     emote downs his glass and leans heavily on the oaken table.
