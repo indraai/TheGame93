@@ -563,7 +563,7 @@ end
 0 gh 50
 ~
 wait 1 s
-emote suddenly raises his arms and utters: Lloth, Devadess of Darkness, cloud the eyes of your enemies!
+emote suddenly raises his arms and utters: Lloth, Devi of Darkness, cloud the eyes of your enemies!
 dg_affect %actor% blind on 1
 wait 1 s
 %send% %actor% A dark mist suddenly swirls around you, the chittering of many spiders filling your ears!

@@ -123,7 +123,7 @@ A fireball from $n misses $N -- what great fireworks around here!!
 You throw a fireball at $N and have the satisfaction of seeing $M enveloped in flames!
 You are enveloped in flames from a fireball sent by $n -- OUCH!!
 $n smirks as $s fireball explodes into the face of $N!
-How shameful to throw fireballs at a GOD!!!
+How shameful to throw fireballs at a DEVA!!!
 You choose to ignore $n's shameful attempt to fireball you.
 $n's fireball is tactfully ignored by $N.
 
@@ -139,7 +139,7 @@ Showing remarkable dexterity, $N avoids $n's reach and subsequent harm spell.
 You watch the pained expression on $N's face as you hit $M with your harm spell.
 You grimace in pain as $n's harm spell strikes you.
 A large grin crosses $n's face as $s harm spell causes $N grievous pain.
-Harm a god?  Are you serious?  Of course $N avoids it casually.
+Harm a deva?  Are you serious?  Of course $N avoids it casually.
 $n tries to harm you.  Poor sod.
 What a buffoon!  $n looks somewhat perturbed as $N ignores the recently cast harm spell.
 
@@ -282,7 +282,7 @@ $N ducks under $n's fist as $e takes a swing at $M.
 #
 #
 #
-It isn't polite to swing at a GOD!
+It isn't polite to swing at a DEVA!
 $n tries to take a swing at you -- how pathetic!
 $n pathetically tries to take a swing at $N - ha!
 
@@ -420,7 +420,7 @@ $n's slash at $N misses $M by a mile.
 #
 #
 #
-It's rude to try to slash a GOD, you know.
+It's rude to try to slash a DEVA, you know.
 $n tries to slash you -- how rude!
 $n tries to slash $N -- how rude!
 
@@ -435,7 +435,7 @@ $n's slash misses $N who laughs in sheer delight, HA!
 #
 #
 #
-Come on, what makes you think you can slash at a GOD?!
+Come on, what makes you think you can slash at a DEVA?!
 You barely register the puny creature before you...
 The great $N seems to ignore $n's slashes.
 
@@ -717,7 +717,7 @@ $N grins at $n as the stab sent by $n goes wide!
 #
 #
 Devas can't be stabbed, did noone ever teach you that?  And $N just so happens to be one.
-It sure is nice being a god isn't it... especially since $n can't hit you with $s stabs.
+It sure is nice being a deva isn't it... especially since $n can't hit you with $s stabs.
 $n stabs at $N only to discover $N's immunity to stabbing weapons.
 
 M
@@ -731,7 +731,7 @@ $n stabs at $N!  $e misses!
 #
 #
 #
-You stab at $N!  Too bad $E's a god, huh?
+You stab at $N!  Too bad $E's a deva, huh?
 $n stabs at you!  Lucky for you that you are immune to this kind of thing.
 You watch in pity as $n stabs towards $N missing in the most futile way possible!
 
@@ -748,8 +748,8 @@ suffer miss room - should never see.
 You lie on the ground suffering from bleeding wounds...
 $N lies immobile on the ground, suffering...
 #
-Suffer god victim -- should never see.
-Suffer god room -- should never see.
+Suffer deva victim -- should never see.
+Suffer deva room -- should never see.
 
 M
 399
@@ -763,8 +763,8 @@ suffer miss room - should never see.
 You lie on the ground suffering from your terrible wounds...
 $N lies helplessly on the ground and suffers...
 #
-Suffer god victim - should never see.
-Suffer god room - should never see.
+Suffer deva victim - should never see.
+Suffer deva room - should never see.
 
 * poison 33
 M

@@ -81,7 +81,7 @@ else
   wait 10 sec
   say You fight in vain, I fight for Lolth.
   wait 10 sec
-  say The drow god Lolth will assist me in battle.
+  say The drow deva Lolth will assist me in battle.
   set already_fighting 1
   global already_fighting
 end

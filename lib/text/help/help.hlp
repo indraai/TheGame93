@@ -2293,7 +2293,7 @@ Manivo: ...it hurts to have a conscience. =(
 Manivo: (And the knowledge that Rumble reads the backlog) :P
 Manivo: Actually I somehow lost a centimeter since I last measured. :P
 Manivo: But Rumble would whip me in ways I would not enjoy. :)
-Manivo: GOD, forget to put on deodorant ONE time, and you never let it go, HUH! >:(
+Manivo: DEVA, forget to put on deodorant ONE time, and you never let it go, HUH! >:(
 
 *Conversation between Surtur and Fyre
 Surtur: .....i pray you never become a therapist or psychiatrist
@@ -2407,7 +2407,7 @@ files. @RHELP EXAMPLES@n for the best examples.
    That is normal, it will reset itself.
 
 #31
-FILES FILE-GODCMDS FILE-LEVELS
+FILES FILE-DEVACMDS FILE-LEVELS
 
 Usage: file <option> <num lines>
 
@@ -3267,7 +3267,7 @@ Examples: @RTSTAT 22, 93@n
 
 See also: EXPRESSIONS, NESTED-IFS
 #31
-IMMS WIZLIST IMMORTALS IMMLIST IMMORTALITY DEMIGOD ASSISTANTS LESSER GREATER Devas
+IMMS WIZLIST IMMORTALS IMMLIST IMMORTALITY DEMIDEVA ASSISTANTS LESSER GREATER Devas
 
 Usage: wizlist | immlist
 
@@ -5496,7 +5496,7 @@ try them out. I have used CircEdit and the newest CWC seems to be even better.
 
 Old editors: ftp://ftp.circlemud.org/pub/CircleMUD/contrib/olc/offline/
 #31
-OLC-COLOR IMMORTAL-COLORS GOD-COLORS OLC-COLORS
+OLC-COLOR IMMORTAL-COLORS DEVA-COLORS OLC-COLORS
 
    While in OLC, color is handled through the '@*' codes, but must be manually
 converted to a tab through the following means:
@@ -5678,7 +5678,7 @@ PERMISSIONS
    Access to the Oasis commands are controlled through a number of means.
 Of course, the master command list (in interpreter.c) specifies the minimum
 level for a player to call the command.  This is typically set to either
-LVL_BUILDER, or LVL_GOD.  A few commands are restricted to the implementor.
+LVL_BUILDER, or LVL_DEVA.  A few commands are restricted to the implementor.
 
 A player can always edit a zone and its contents if their name is in the
 zone builders list (see ZEDIT for more information).  Finally, a player
@@ -5979,7 +5979,7 @@ Examples:
 
 See also: FILL
 #0
-POWER GOD-EQUIPMENT GODEQUIPMENT IMMWEAPON ULTIMATE UBER
+POWER DEVA-EQUIPMENT DEVAEQUIPMENT IMMWEAPON ULTIMATE UBER
 
    The majority of new builders begin by creating themselves the ultimate
 weapon and armor. Go ahead if you must but it is pointless. As an immortal
@@ -7899,7 +7899,7 @@ zones     Shows all the zones in the game and their current reset status.
           Show Zone <author> will list all zones by <author>.
 death     Shows all death traps in the game.
 player    Shows player summary information, simply provide a player name.
-godrooms  Shows the rooms in the 'god zone'.
+godrooms  Shows the rooms in the 'deva zone'.
 rent      Shows the filename and path to a players rent file.
 shops     Shows all the shops in the game and their buy/sell parameters.
 stats     Shows game status information including players in game, mobs etc.
@@ -7914,7 +7914,7 @@ Examples:
 
 See also: STAT, SLIST, ZRESET, SHOW-HOUSES
 #31
-SHOWVNUMS ROOMFLAGS RMFLG REDIT-ROOMFLAGS ROOM_FLAGS REDIT-ROOM-FLAGS ROOM-FLAGS GODROOMS TUNNELS NOMOB NO_MOB PEACEFUL INDOORS NO_TRACK NO-TRACK NO_MAGIC PRIVATE SOUNDPROOF HCRSH ATRIUM REDIT-FLAGS NO-MOBS
+SHOWVNUMS ROOMFLAGS RMFLG REDIT-ROOMFLAGS ROOM_FLAGS REDIT-ROOM-FLAGS ROOM-FLAGS DEVAROOMS TUNNELS NOMOB NO_MOB PEACEFUL INDOORS NO_TRACK NO-TRACK NO_MAGIC PRIVATE SOUNDPROOF HCRSH ATRIUM REDIT-FLAGS NO-MOBS
 
 Usage: showvnums
 
@@ -7941,7 +7941,7 @@ The following room flags can be selected:
 8)  NO_MAGIC   - No magic will work here.
 9)  TUNNEL     - Only one person allowed at one time.
 10) PRIVATE    - Only room for 2 players/mobs i.e. a tunnel or small space.
-11) GODROOM    - Only allows Great Deva or above to goto.
+11) DEVAROOM    - Only allows Great Deva or above to goto.
 12) HOUSE      - DO NOT USE. Room is a house.       \  automatically
 13) HCRSH      - DO NOT USE. House needs saving.     >    set by
 14) ATRIUM     - DO NOT USE. The door to a house.   /    hcontrol
@@ -9074,7 +9074,7 @@ See also: NEWBIE
 TBA-ADMIN
 
 Help and World files are the "master" versions. Before a release I copy the help file and World files to /tbamud
-Only difference from stock is do_cheat, help files viewable by any level, do_advance is LVL_GOD, and 600+ zones.
+Only difference from stock is do_cheat, help files viewable by any level, do_advance is LVL_DEVA, and 600+ zones.
 tbamud.com is the latest Joomla version with Kunena as our forums. Download section is Google Drive.
 Builder Applications can be viewed here: goo.gl/0FBsys
 Backups are done monthly of /tba and using the Akeeba component in Joomla, I keep an archive. Github is our version control system but I like backups of backups. Please do reasonable backups of your own.

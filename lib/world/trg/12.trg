@@ -1033,7 +1033,7 @@ end
 if %self.roomflag(PRIVATE)%
   %echo% This is a private room.
 end
-if %self.roomflag(GODROOM)%
+if %self.roomflag(DEVAROOM)%
   %echo% Only Devas can enter this room.
 end
 if %self.roomflag(HOUSE)%

@@ -2531,7 +2531,7 @@ Puff - Random Advice~
 ~
 * By Rumble of The Builder Academy    tbamud.com 9091
 set max %random.197%
-set  text[1]   My god!  It's full of stars!
+set  text[1]   My deva!  It's full of stars!
 set  text[2]   How'd all those fish get up here?
 set  text[3]   Some people are like Slinkies. Not really good for anything, but still bring a smile to your face when you push them down a flight of stairs.
 set  text[4]   I've got a peaceful, easy feeling.

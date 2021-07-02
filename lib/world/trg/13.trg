@@ -918,7 +918,7 @@ free~
 0 ab 12
 ~
 eval max %random.200%
-set  text[1]   My god!  It's full of stars!
+set  text[1]   My deva!  It's full of stars!
 set  text[2]   How'd all those fish get up here?
 set  text[3]   I'm a very female dragon.
 set  text[4]   I've got a peaceful, easy feeling.

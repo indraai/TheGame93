@@ -207,7 +207,7 @@ fountain~
 traditional colors of the wyvern race.
 ~
 #14012
-statue dragon god~
+statue dragon deva~
 a statue of the dragon Deva Ferret~
 A statue of the dragon Deva Ferret has been placed here.~
 ~
@@ -215,7 +215,7 @@ A statue of the dragon Deva Ferret has been placed here.~
 0 0 0 0
 0 0 0 0
 E
-statue dragon god ferret~
+statue dragon deva ferret~
    This huge statue is made of pure amethyst.  It towers 30 feet into the air
 taller than any of the buildings in the city.  The image of the amethyst dragon
 looks down on the mortals he created so many years ago.  The citizens
@@ -223,18 +223,18 @@ constructed this statue in honor of the Deva after they completed this city, the
 believe he protects them, and sent the red dragon to defend the city.
 ~
 #14013
-statue god elf~
-a statue of the god Ilsensine~
-A statue of the god Ilsensine has been constructed here.~
+statue deva elf~
+a statue of the deva Ilsensine~
+A statue of the deva Ilsensine has been constructed here.~
 ~
 8 ab 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0
 E
-statue elf god ilsensine~
-   The citizens of the city have constructed a statue of the god Ilsensine here
+statue elf deva ilsensine~
+   The citizens of the city have constructed a statue of the deva Ilsensine here
 in hopes he will honor and aid their students of magic.  The statue is only 6
-feet tall but made entirely of pure emerald.  The god is pictured dressed in
+feet tall but made entirely of pure emerald.  The deva is pictured dressed in
 robes, his head shaved and his hands raised in the act of calling upon great
 magical forces.
 ~
@@ -255,16 +255,16 @@ for combat.  Between them is a marble egg representing the lives they battle
 over.
 ~
 #14015
-willow wyv statue goddess~
-a statue of the goddess Willow~
-A statue of the Devadess Willow has been placed here.~
+willow wyv statue Devi~
+a statue of the Devi Willow~
+A statue of the Devi Willow has been placed here.~
 ~
 8 b 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0
 E
-goddess willow statue~
-   This statue of the dragon goddess Willow is made entirely of sapphire and has
+Devi willow statue~
+   This statue of the dragon Devi Willow is made entirely of sapphire and has
 been trimmed with silver guild.  The temple priests placed her here to symbolize
 the separation of the duties of men and women.  Her sudor Balm is for ever bound
 by his battle for the souls of mortals in the next room.  The two may watch each
@@ -477,7 +477,7 @@ A heavy black staff lies here in a corner.~
 A
 12 10
 #14040
-god springfire statue wyv~
+deva springfire statue wyv~
 a statue of the Air Deva Springfire~
 A statue of the Deva Springfire is here.~
 ~
@@ -485,15 +485,15 @@ A statue of the Deva Springfire is here.~
 0 0 0 0
 0 0 0 0
 E
-god springfire air statue~
+deva springfire air statue~
    This statue of the Deva Springfire is made of pure transparent crystal.  To
 the naked eye it is completely invisible.  The warriors of the city paid a
-staggering amount of money to have the warrior god's image immortalized in their
+staggering amount of money to have the warrior deva's image immortalized in their
 guild.  They hope he will aid them in battle against their mortal enemies the
 giants.
 ~
 #14041
-statue khelben god knight wyv~
+statue khelben deva knight wyv~
 a statue of the mighty Deva Khelben~
 There is a statue of the Deva Khelben, Lord of The Elements here.~
 ~
@@ -501,16 +501,16 @@ There is a statue of the Deva Khelben, Lord of The Elements here.~
 0 0 0 0
 0 0 0 0
 E
-knight khelben god statue lord elements~
+knight khelben deva statue lord elements~
    The knights of the city have placed this statue here to watch over their
 guild.  Above all other Devas they worship the mighty Khelben, who they believe
 founded the order of knighthood.  The statue itself is 9 feet tall and made of
 pure platinum.  It is clad in the armor and symbols of the city's royal line and
-the knights' personal colors.  The knights hope that the god will grant them
+the knights' personal colors.  The knights hope that the deva will grant them
 their magic in days to come and aid them when they enter battle.
 ~
 #14042
-god statue thunder~
+deva statue thunder~
 a statue of the Thunder Deva Rumble~
 A statue of the mighty Deva Rumble has been built here.~
 ~
@@ -518,9 +518,9 @@ A statue of the mighty Deva Rumble has been built here.~
 0 0 0 0
 0 0 0 0
 E
-thunder rumble god statue ~
+thunder rumble deva statue ~
    This statue was built by the city's guild of rogues and thieves.
-They have chosen the almighty thunder god as their patron deity because
+They have chosen the almighty thunder deva as their patron deity because
 of his former status as a thief, and because they believe that in the
 final battle between order and chaos he will come down from the heavens
 and help them destroy Balm and all his followers for ever.  The statue
@@ -529,15 +529,15 @@ of silver lightning bolts.  The Deva is depicted, dressed in a gray robe
 with both hands raised hurling his deadly thunder around him.
 ~
 #14043
-sexykitty magic goddess statue wyv~
-a statue of the goddess Sexykitty~
-A statue of the Devadess Sexykitty has been placed here.~
+sexykitty magic Devi statue wyv~
+a statue of the Devi Sexykitty~
+A statue of the Devi Sexykitty has been placed here.~
 ~
 8 a 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0
 E
-goddess magic sexykitty statue~
+Devi magic sexykitty statue~
    This statue stands 8 feet tall and is made of polished silver.  From its
 pedistle, the image of Sexykitty, the beautiful empress of magic, stands
 watching over this room.  The wyverns have chosen her as their deity of charity
@@ -546,7 +546,7 @@ all who are in need can call upon her and if their need is strong enough she
 will come to aid them in their time of trouble.
 ~
 #14044
-Gnoff god statue wyv~
+Gnoff deva statue wyv~
 a statue of the Deva Gnoff~
 A statue of the Deva Gnoff is here.~
 ~
@@ -554,9 +554,9 @@ A statue of the Deva Gnoff is here.~
 0 0 0 0
 0 0 0 0
 E
-gnoff god statue~
+gnoff deva statue~
    This statue has been carved from pure topaz.  The bright yellow sculpture
-looks to be worth a small fortune.  The wyverns worship Gnoff as their god of
+looks to be worth a small fortune.  The wyverns worship Gnoff as their deva of
 social activities and interaction.  They believe he watches all marriages and
 gives his blessing to those which will endure.
 ~

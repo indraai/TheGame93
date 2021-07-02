@@ -277,7 +277,7 @@ magical combat.
 E
 T 5404
 #5422
-god king lord agni fire~
+deva king lord agni fire~
 Agni, The Deva of Fire Offering~
 AGNI, The Lord Deva King of Fire Offering is here.
 ~
@@ -291,7 +291,7 @@ BareHandAttack: 11
 E
 T 5404
 #5423
-god king lord indra water offering~
+deva king lord indra water offering~
 Indra, The Deva of Offering~
 INDRA, The Lord Deva King of Water Offering is here.
 ~
@@ -304,7 +304,7 @@ Here is INDRA, The Lord Deva King of Water Offering.
 E
 T 5404
 #5424
-chandra deva god king lord soma~
+chandra deva deva king lord soma~
 Chandra, Deva of Soma~
 Chandra, Deva of Soma is here.
 ~
@@ -333,9 +333,9 @@ T 5404
 #5426
 statue usas~
 the statue of usas~
-Usas, The Devadess of Dawn is here.
+Usas, The Devi of Dawn is here.
 ~
-Usas, The Devadess of Dawn is here.
+Usas, The Devi of Dawn is here.
 ~
 256026 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2

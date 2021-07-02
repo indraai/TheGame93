@@ -938,7 +938,7 @@ S
 Hall of Vardis~
    Despite their brutal appearance, Minotaurs possess good-natured dispositions
 and strive to uphold justice in the name of the Glorious Vardis, their only
-god.
+deva.
 ~
 240 0 0 0 0 1
 D0
@@ -954,7 +954,7 @@ S
 Hall of Vardis~
    You stand in a massive stone building.  The hall continues north.  This
 seems to be some kind of place of worship.  A large statue dominates the center
-of the room.  It must be the minotuars sole god.
+of the room.  It must be the minotuars sole deva.
 ~
 240 0 0 0 0 1
 D0
@@ -976,7 +976,7 @@ D3
 S
 #24051
 Hall of Vardis~
-   Minotaurs are a secluded race and are fervently religious toward their god,
+   Minotaurs are a secluded race and are fervently religious toward their deva,
 Vardis.  Minotaurs possess good-natured dispositions and strive to uphold
 justice in the name of Glorious Vardis.
 ~
@@ -1093,7 +1093,7 @@ D2
 S
 #24058
 Hall of Vardis~
-   Minotaurs are a secluded race and are fervently religious toward their god,
+   Minotaurs are a secluded race and are fervently religious toward their deva,
 Vardis.  Minotaurs possess good-natured dispositions and strive to uphold
 justice in the name of Glorious Vardis.
 ~
@@ -1109,8 +1109,8 @@ D2
 S
 #24059
 Hall of Vardis~
-   A huge statue dominates the center of this room.  Vardis, the god of
-minotaurs has been known by many names.  The god of war, death, or justice.
+   A huge statue dominates the center of this room.  Vardis, the deva of
+minotaurs has been known by many names.  The deva of war, death, or justice.
 All minotaurs revere him and wait for his return to finally overthrow the
 centaurs to the east.
 ~
@@ -1142,7 +1142,7 @@ S
 Hall of Vardis~
    Despite their brutal appearance, Minotaurs possess good-natured dispositions
 and strive to uphold justice in the name of the Glorious Vardis, their only
-god.
+deva.
 ~
 240 0 0 0 0 1
 D2
@@ -1737,7 +1737,7 @@ S
 #24094
 War Masters Chambers~
    Easily the most respected of all the minotaurs, the War Master is admired
-almost as much as the war god himself.  The title War Master is the ultimate
+almost as much as the war deva himself.  The title War Master is the ultimate
 honor to be given to any minotaur.  It can only be given to a minotaur who has
 been a war hero and undefeated in the arena.
 ~

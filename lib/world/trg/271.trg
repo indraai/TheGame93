@@ -346,9 +346,9 @@ Idiot - 27115~
 wait 1 sec
 switch %random.13%
   case 1
-    say even if idiot = god.
+    say even if idiot = deva.
     say and Stu = idiot.
-    say Stu could still not = god.
+    say Stu could still not = deva.
     emote smiles.
   break
   case 2
