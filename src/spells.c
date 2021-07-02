@@ -136,7 +136,7 @@ ASPELL(spell_summon)
 	      GET_NAME(ch), world[IN_ROOM(ch)].name);
 
       send_to_char(ch, "You failed because %s has summon protection on.\r\n", GET_NAME(victim));
-      mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(victim))), TRUE, 
+      mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(victim))), TRUE,
         "%s failed summoning %s to %s.", GET_NAME(ch), GET_NAME(victim), world[IN_ROOM(ch)].name);
       return;
     }
@@ -420,7 +420,7 @@ ASPELL(spell_detect_poison)
   if (victim) {
     if (victim == ch) {
       if (AFF_FLAGGED(victim, AFF_POISON))
-        send_to_char(ch, "You can sense poison in your blood.\r\n");
+        send_to_char(ch, "You can sense poison in your body.\r\n");
       else
         send_to_char(ch, "You feel healthy.\r\n");
     } else {

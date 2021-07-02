@@ -20,7 +20,7 @@ l~
 if %cmd.mudcommand% == look && picture /= %arg% || painting /= %arg% || portrait /= %arg%
   %send% %actor%     One particulary gruesome piece done in a backdrop of flames catches your eye.
   %send% %actor% Must be the face floating in the center of it, mouth open wide in a scream of
-  %send% %actor% pain, huge yellow teeth dripping blood.
+  %send% %actor% pain, huge yellow teeth.
   wait 2 sec
   %send% %actor% The face seems to grow larger and larger in front of your eyes.
   wait 2 sec

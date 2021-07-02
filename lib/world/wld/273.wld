@@ -3,7 +3,7 @@ The Bridge~
    You have reached the Bridge, the central nervous system for Space Station
 Alpha.  All around you are flashing screens a ndlights.  Status reports and
 damage reports are scrolling o ffthe screen faster than you can read them.
-The gravity is ve rylight in this room.  You can see blood staining the crash
+The gravity is ve rylight in this room.  You can see the crash
 couch of what was probably the Computer Systems Officer.  There are dozens of
 egg pods here!
 ~
@@ -446,7 +446,7 @@ hatch~
 S
 #27324
 Preparation Room #2~
-   This room is full of vacum suits and equipment for space walking out side
+This room is full of vacum suits and equipment for space walking out side
 the hull of the ship.
 ~
 273 137 0 0 0 0
@@ -507,8 +507,7 @@ S
 #27328
 A Crew Stateroom~
    The room was until recently occupied by a memeber of the space station's
-crew.  The bed in this room is soaked with blood from the poor slob on the
-floor.  The corpse has a gaping hole in its chest.
+crew.
 ~
 273 137 0 0 0 0
 D2
@@ -544,7 +543,7 @@ S
 #27330
 Main Axis Transportation Column~
    You are in the main transportation column.  There are some burn marks here
-on the walls and blood covers most of the shaft here.
+on the walls covers most of the shaft here.
 ~
 273 137 0 0 0 0
 D1
@@ -621,7 +620,7 @@ S
 A Small Theater~
    This is a small theater.  One entire wall is a huge viewing screen for
 moviesand entertainment views.  Unfortunately the screen has been damaged by
-splattered alien blood.  A translucent alien arm lays on the floor just
+aliens.  A translucent alien arm lays on the floor just
 inchesfrom your feet.  Looks like the crew didn't do so badly after all.
 ~
 273 137 0 0 0 0
@@ -828,8 +827,7 @@ airlock~
 S
 #27345
 A Storage Room~
-   Strange markings have been crudely painted on the wall here in what appears
-to be Predator blood!
+Strange markings have been crudely painted on the wall!
 ~
 273 137 0 0 0 0
 D0
@@ -871,9 +869,7 @@ hatch~
 S
 #27348
 The Sickbay~
-   This is the hospital for the station.  There are 10 beds, one of which is
-totaly soaked in blood.  The others are empty.  A corpse lies on the floor of
-the bloodstained bed with a gaping hole in her chest.
+This is the hospital for the station.
 ~
 273 137 0 0 0 0
 D0
@@ -963,7 +959,7 @@ hatch~
 S
 #27354
 Main Axis Transportation Column~
-   You are in the main transportation tube.
+You are in the main transportation tube.
 ~
 273 137 0 0 0 0
 D1

@@ -73,8 +73,8 @@ A red sash has been left on the floor.~
 3 200 0 20 0
 E
 sash red~
-   This sash, the opposing color to the Dead Boy's black sash, marks the wearer
-as a member of the Bloody Scythe.
+This sash, the opposing color to the Dead Boy's black sash, marks the wearer
+as a member of the Scythe.
 ~
 A
 4 2
@@ -88,7 +88,7 @@ A wicked looking scythe lies on the ground.~
 1 1 0 20 0
 E
 wicked scythe~
-   This weapon, although unwieldy, is the token weapon of the Bloody Scythe
+   This weapon, although unwieldy, is the token weapon of the Scythe
 gang.
 ~
 #31807

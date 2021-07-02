@@ -217,7 +217,7 @@ Training Room~
 thrown about by their trainers.  This is where fighters come to hone their
 battling skills.  Racks of weapons line two of the four walls.  The room is
 filled with a smoky haze from four brass lanterns suspended from the ceiling.
-The room smells of sweat and blood.
+The room smells of sweat.
 ~
 1 24 0 0 0 0
 D5
@@ -1035,9 +1035,8 @@ S
 Logan's Pawn~
    Various useless items line the walls of this cluttered and disorganized
 shop.  Once in a while this store is rumored to have great deals on rare
-equipment.  It is often normal to purchase clothing with small tears and blood
-stains in the small of their backs, but no one ever asks questions given the
-excellent prices.
+equipment.  It is often normal to purchase clothing with small
+stains, but no one ever asks questions given the excellent prices.
 ~
 1 8 0 0 0 0
 D2
@@ -1884,10 +1883,9 @@ D3
 S
 #192
 Thieves Alley~
-   A pool of blood lies in the center of the alley, a trail of blood leads to a
-garbage pile a few feet away.  A mangy mutt trots slowly past and starts licking
-up the pool of blood.  A traveler here should keep moving unless they wanted to
-draw attention to themselves.
+a trail leads to a garbage pile a few feet away.  A mangy mutt trots slowly
+past and starts licking up something.  A traveler here should keep moving unless
+they wanted to draw attention to themselves.
 ~
 1 0 0 0 0 1
 D1

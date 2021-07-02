@@ -22,16 +22,15 @@ A scalpel is lying here~
 #34502
 severed head~
 a severed head~
-A severed head bloodies the floor here~
+A severed head the floor here~
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 10 1 0 0 0
 E
 head~
-   The head drips blood into a pool of crimson on the floor. The face is
-twisted in terror and pain. There is little doubt that this person meet his end
-in a horrific manner.
+The head is on the floor. The face is twisted in terror and pain.
+There is little doubt that this person meet his end in a horrific manner.
 ~
 #34503
 skull cap~
@@ -43,7 +42,7 @@ A skull cap sits here.~
 5 100 0 8 0
 E
 skull cap~
-   Made from the top of an actual human skull, this cap is rather plain. The
+Made from the top of an actual human skull, this cap is rather plain. The
 only adornments are a series of red zig-zag line running the length of it.
 ~
 A

@@ -13,12 +13,12 @@ not really hungry!
 BareHandAttack: 9
 E
 #29501
-guard native~
-a gate guard~
-A gate guard stands here.
+guard deva gd29501~
+GuardDEVA GD29501~
+GuardDEVA GD29501 stands here.
 ~
-   Dressed in animal furs, and smelling like he has not washed in a month, you
-can tell that you have stumbled on a rather uncivilized person!
+Dressed in uniform, and smelling like flowers, you can tell that you have
+stumbled on a rather civilized person!
 ~
 8234 0 0 0 16 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
@@ -26,13 +26,11 @@ can tell that you have stumbled on a rather uncivilized person!
 8 8 1
 E
 #29502
-cannibal~
-a cannibal~
-A cannibal stands here looking hungry!
+beggar~
+a beggar~
+A beggar stands here looking hungry!
 ~
-   Looks a little like the guards that were on the gate, but with one
-difference.  This guy has bits of meat and blood all over him.  Guess where it
-came from!
+Looks a little like someone needs a meal offering.
 ~
 6186 0 0 0 0 0 0 0 -100 E
 15 15 1 3d3+150 2d2+2
@@ -41,11 +39,11 @@ came from!
 BareHandAttack: 11
 E
 #29503
-cannibal~
-a happy cannibal~
-A happy cannibal stands here.
+beggar~
+a happy beggar~
+A happy beggar stands here.
 ~
-   This cannibal is real happy because he has just got the last bit of meat
+This beggar is real happy because he has just got the last bit of offerings
 from a sweet young girl who stumbled into the camp!
 ~
 2090 0 0 0 0 0 0 0 -200 E
@@ -54,12 +52,11 @@ from a sweet young girl who stumbled into the camp!
 8 8 1
 E
 #29504
-meal woman~
-a woman~
-The next meal cowers on the floor.
+offering woman~
+a offering woman~
+The meal offering woman is her.
 ~
-   She looks like she has been in here for days just waiting to be eaten!  You
-could put her out of her misery!
+She looks like she has been here for days making happy offerings!
 ~
 138 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -67,12 +64,11 @@ could put her out of her misery!
 8 8 2
 E
 #29505
-woman cannibal~
-a cannibal woman~
-A cannibal woman looks at you lustfully!
+woman beggar~
+a beggar woman~
+A beggar woman looks at you!
 ~
-   Eeew!  How gross!  You can see little insects running all over her body.
-She looks worse than the male cannibal's do, and that is saying something!
+A woman beggar is here for meal offerings.
 ~
 138 0 0 0 0 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
@@ -80,12 +76,12 @@ She looks worse than the male cannibal's do, and that is saying something!
 8 8 2
 E
 #29506
-chief cannibal~
-the cannibal chief~
-The cannibal chief looks very annoyed at your intrusion!
+chief offering~
+the offering chief~
+The offering chief looks very happy at your presence!
 ~
-   This guy looks really mean!  Maybe you have walked in on the middle of a
-meal.  Just hope that you don't end up as the next course!
+This guy looks really nice!  Maybe you have walked in on the middle of a
+meal.  Just hope can find a spot before the next course!
 ~
 6186 0 0 0 0 0 0 0 -300 E
 20 14 -2 4d4+200 3d3+3
@@ -150,7 +146,7 @@ ape chief~
 the ape chief~
 The ape chief looks at you and roars!!
 ~
-   Like the other apes, but bigger, meaner, and a whole lot smellier!
+Like the other apes, but bigger, meaner, and a whole lot smellier!
 ~
 192538 0 0 0 16 0 0 0 -20 E
 20 14 -2 4d4+200 3d3+3

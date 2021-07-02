@@ -82,21 +82,21 @@ scribed on one of the pieces.  It looks like a 'W'
 A
 3 1
 #23603
-ankh bloodstone~
-a bloodstone ankh~
-A 2" ankh made from bloodstone has been dropped here.~
+ankh moonstone~
+a moonstone ankh~
+A 2" ankh made from moonstone has been dropped here.~
 ~
 11 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 700 70 0 0
 E
-ankh bloodstone~
+ankh moonstone~
    It looks a bit like this
  0
 -+-
  |
  |
-and it's made from bloodstone.
+and it's made from moonstone.
 ~
 A
 18 3
@@ -369,7 +369,7 @@ Someone have lost a ruby here.~
 1 450 45 0 0
 E
 ruby~
-   A small, bloodred, ruby.
+   A small, red, ruby.
 ~
 #23625
 emerald~

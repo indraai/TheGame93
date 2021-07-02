@@ -90,11 +90,11 @@ pours onto the floor.  There are three books scattered throughout
 the zone with the recipes of each potion in, but for now I'll just put them
 here.
 Red potion (enhances physical strength) -
-fang (1900), egg (1908), blood (1951).
+fang (1900), egg (1908), farts (1951).
 Blue potion (enhances magical strength) -
-gland (1934), tongue (1950), blood (1951).
+gland (1934), tongue (1950), farts (1951).
 Green potion (enhances dexterity & moves) -
-weed (1901), hide (1923), blood (1951).
+weed (1901), hide (1923), farts (1951).
 Once the ingredients for one potion are inside, they must be mixed,
 an empty vial placed into the contraption and the mixture poured out.
 If any combination of ingredients other than those listed are combined,
@@ -235,10 +235,8 @@ smell of metal and rust carrying on the air.
 S
 T 1971
 #1905
-Bloodied Soil~
-   Scarlet stains blossom here and there like spreading wounds in the soil,
-giving the impression that this place has not recovered from some ancient
-battle.  Glimpses of metal can be seen half-buried in the ground, the armor and
+Soil~
+Glimpses of metal can be seen half-buried in the ground, the armor and
 weapons of some long-decayed army.
 ~
 19 0 0 0 0 2
@@ -262,8 +260,8 @@ and are obviously of no further use for warring.
 ~
 E
 scarlet stains~
-   These large dark patches in the mud glisten slightly crimson in any light,
-the faded blood stains of many fallen warriors.
+These large dark patches in the mud glisten slightly crimson in any light,
+the faded stains of many fallen warriors.
 ~
 S
 T 1971
@@ -271,8 +269,7 @@ T 1971
 Crimson Waters~
    Old rusted weapons and armor lie half rotted in scattered pools of slime.
 The rust has leached into the water, discoloring it deep red and filling the
-air with the overwhelming stench of decay and the sickly metallic scent of
-blood.
+air with the overwhelming stench of decay.
 ~
 19 0 0 0 0 2
 D0
@@ -2039,9 +2036,9 @@ D3
 0 0 1977
 S
 #1979
-Blood-Spattered Corridor~
-   Dark red splatters fleck the wall and floors here, filling the air with the
-metallic and unmistakeable stench of congealing blood.  New stains freshly cover
+Spattered Corridor~
+Dark splatters fleck the wall and floors here, filling the air with the
+metallic and stench of farts.  New stains freshly cover
 the old, years of lost struggles painted about the room with all that remains of
 the unfortunate victims.
 ~
@@ -2272,7 +2269,7 @@ S
 #1991
 Torture Chamber~
    A gleaming black table lies like a coffin on a stand in the center of the
-room, bloody bits of frayed rope left scattered across it.  Flickering light
+room, bits of frayed rope left scattered across it.  Flickering light
 from a red hot fireplace casts the dingy room in shadows, intermittently
 illuminating a selection of terrifying metal instruments that decorate the
 stained walls.
@@ -2368,8 +2365,7 @@ room, surrounded by the massive column-like legs of an upturned gargantuan
 spider crystallised into the floor.  Black, thorny spines protrude here and
 there from the jagged walls, twitching now and again as though some magic has
 rendered the structure alive.  Even the beautiful maroon carpet has been utterly
-spoiled, ugly patches of old and drying blood left almost proudly displayed,
-tainting the air with a sickly metallic scent.
+spoiled tainting the air with a sickly metallic scent.
 ~
 19 13 0 0 0 0
 D2

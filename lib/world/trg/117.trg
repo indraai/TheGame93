@@ -53,7 +53,7 @@ Holden Greet - 11700~
 if %actor.is_pc%
   say It is nice to see you today, %actor.name%
   if %actor.has_item(something)%
-    say Hmmm, what is this? This looks like Blood from the trees! This must be Lacela's doing, and now I finally have proof! Thank you, %actor.name%!
+    say Hmmm, what is this? This looks like sap from the trees! This must be Lacela's doing, and now I finally have proof! Thank you, %actor.name%!
     %echo% %self.name% drags Lacela out of her shop and throws her out of town for such a terrible act! Holden takes the key that Lacela has from her!
     %load% obj 11718
     say I don't need this, here, you have it.
@@ -353,7 +353,7 @@ wake~
 if %cmd.mudcommand% == wake && arg /= government || official || lesalie
   %echo% %self.name% stands up.
   wait 1s
-  %echo% %self.name% says "Oh... Where am I...? Lacela! Her blood! I must stop her!"
+  %echo% %self.name% says "Oh... Where am I...? Lacela! I must stop her!"
   %echo% %self.name% tries to get up with what little strength he has, but falls back down moaning.
   wait 1s
   %send% %actor% You calm him down and inform him that you took care of Lacela's scheme.

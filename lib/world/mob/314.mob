@@ -1,9 +1,9 @@
 #31400
 x'raantra man kneel~
 X'Raantra~
-X'Raantra kneels with his knees deep in the blood-filled floor, his arms held high.
+X'Raantra kneels with his knees to the floor, with his arms held high.
 ~
-   His eyes are tightly clenched closed, his right fist holding fast to a
+ His eyes are tightly clenched closed, his right fist holding fast to a
 curved dagger held high to his God.  He sporadically mumbles words, garbled
 phrases or prayers which may or may not have meaning.
 ~
@@ -17,9 +17,8 @@ believer follower~
 a Believer~
 A Believer kneels proudly beside his saviour.
 ~
-   His eyes are a bit glazed over, blood spattered over the front of his grubby
-jerkin.  He never seems to lose sight of the blade which is raised high by
-X'Raantra in anticipation of the next kill.
+His eyes are a bit glazed over.  He never seems to lose sight of the blade
+which is raised high by X'Raantra in anticipation of the next performance.
 ~
 10 0 0 0 0 0 0 0 -500 E
 29 11 -7 5d5+290 4d4+4
@@ -96,8 +95,8 @@ man weeping~
 a weeping man~
 A man sits curled up in ball, weeping uncontrollably.
 ~
-   He alternates between rage and sadness - touching the mangled remains of his
-son's body, stroking the blood matted hair back from the cold, lifeless ears.
+He alternates between rage and sadness - touching the mangled remains of his
+son's body, stroking the matted hair back from the cold, lifeless ears.
 
 ~
 10 0 0 0 0 0 0 0 100 E
@@ -240,11 +239,11 @@ A man in warrior's traveling garb lies upon the floor, looking very surprised to
 8 8 1
 E
 #31418
-wight blood scavenger humanoid~
-a blood wight~
-A humanoid is hunched over the corpse, hands and face dripping with blood.
+wight scavenger humanoid~
+a wight~
+A humanoid is hunched over the corpse, hands and face dripping.
 ~
-   This awful scavenger looks up at you with a snarl and spits some blood on
+This awful scavenger looks up at you with a snarl and spits on
 you.  It goes back to its feast without another glance.
 ~
 10 0 0 0 0 0 0 0 -800 E
@@ -267,12 +266,12 @@ reason for living.  Indeed, it may be from the look of the boy's back.
 8 8 1
 E
 #31420
-boy screaming crying~
-a screeching boy~
-A screeching boy is thrown face down over a desk, his shirt torn off, blood everywhere.
+boy laughing and playing~
+a laughing boy~
+A laughing boy is sitting at a desk, his shirt with his favorite anime.
 ~
-   It appears that this man has been at this boy for some time.  The slashes
-across the boy's back are many and deep.
+It appears that this man has been at this boy for some time.  The smiles
+across the boy's face are many and deep.
 ~
 10 0 0 0 0 0 0 0 100 E
 10 17 4 2d2+100 1d2+1

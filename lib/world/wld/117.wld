@@ -1437,7 +1437,7 @@ E
 barrels~
    The wooden barrels are the source of the wine like stench in the room.  At
 first glance they seemed empty, though since it's so dark it's hard to see
-anything.  The barrels are actually filled with a dark red blood!
+anything!
 ~
 E
 cobwebs~
@@ -1642,7 +1642,7 @@ E
 wall door~
    The wall to the east is made of splintery dark wood.  There is a door in the
 wall that has barred windows and a rusty looking handle.  There is a smell of
-urine and excrement...  Also the bitter smell of blood!
+urine and excrement!
 ~
 E
 stalactices~
@@ -1653,11 +1653,11 @@ S
 #11760
 Prison Cell~
    Smells of urine and excrement coming from a small pile in the corner fill the
-room.  There is a machine here that is pumping blood from the ground!  There are
-barrels of blood stacked next to it in a pyramid-like fashion.  The room is
+room.  There is a machine here that is pumping liquid from the ground!  There are
+barrels stacked next to it in a pyramid-like fashion.  The room is
 formed by an ending in the cave with the wall to separate it from the rest.
 From the celing to the floor is a damp solution, making the entire room
-slippery.  There are some stray red roots protruding from the celing, giving a
+slippery.  There are some stray roots protruding from the celing, giving a
 clue that this place must be fairly close to the ground.
 ~
 117 4 0 0 0 0
@@ -1667,12 +1667,12 @@ door~
 2 11700 11759
 E
 machine barrels~
-   The machine is pumping blood from the ground, somehow, then storing the blood
+   The machine is pumping liquid from the ground, somehow, then storing the liquid
 into wooden barrels that are stacked next to the machine like a pyramid.
 ~
 E
 roots~
-   There are red roots from the celing that are dripping blood!  Is that what
+   There are roots from the celing that are dripping water!  Is that what
 the machine is pumping?!
 ~
 E

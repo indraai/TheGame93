@@ -3,7 +3,7 @@ Entrance~
    The lighted passageway continues to the north where you can hear loud
 cheering and the sounds of battle.  The walls are covered with posters
 announcing future bouts in the arena with some of the famous gladiators.
-One poster catches your eye as it is written in blood red ink.
+One poster catches your eye as it is written in red ink.
 ~
 20 0 0 0 0 0
 D0
@@ -592,7 +592,7 @@ S
 #2032
 Prisons~
    The Prison to the south is full of activity while to the north you see a
-trail of blood.  You also notice light filtering in from the north penetrating
+trail.  You also notice light filtering in from the north penetrating
 the gloom.
 ~
 20 0 0 0 0 0
@@ -608,8 +608,8 @@ S
 #2033
 Prisons~
    The prison continues north out the back entrance of the amphitheater and
-south deeper into the prisons.  A trail of blood leads east.  Wheelbarrow
-treadmarks are visible in the blood.
+south deeper into the prisons.  A trail leads east.  Wheelbarrow
+treadmarks are visible.
 ~
 20 0 0 0 0 0
 D0
@@ -1407,7 +1407,7 @@ S
 #2072
 Main Arena~
    The floor of the arena is covered with a fine sand.  The crowd cheers in
-anticipation of the fighting and bloodshed.  The sound is deafening and
+anticipation of the fighting.  The sound is deafening and
 definitely distracting.
 ~
 20 0 0 0 0 0
@@ -1446,8 +1446,7 @@ D1
 S
 #2074
 Main Arena~
-   The arena floor is slick with blood and other bodily fluids that make
-your stomach turn.  Above you is the Imperial Box where Emperor Titus
+Above you is the Imperial Box where Emperor Titus
 commands the fights of the arena.
 ~
 20 0 0 0 0 0
@@ -1528,8 +1527,7 @@ S
 #2078
 Main Arena~
    The walls slope inwards above you making them impossible to scale.
-The heat and noise of the crowd is very aggravating.  Your foot sinks
-into a puddle of blood from the last person who came into this arena.
+The heat and noise of the crowd is very aggravating.
 ~
 20 0 0 0 0 0
 D0
@@ -1635,9 +1633,8 @@ D3
 S
 #2084
 Roman Amphitheater~
-   Several slaves walk into the arena with barrows of sand to cover over the
-blood stains and prepare for the next bout.  The populace is once again
-getting restless.
+Several slaves walk into the arena with barrows of sand to cover over the stains
+and prepare for the next bout.  The populace is once again getting restless.
 ~
 20 0 0 0 0 0
 D2
@@ -1651,7 +1648,7 @@ D3
 S
 #2085
 Roman Amphitheater~
-   Slaves, that had been forced to exhaust themselves helping to finish
+Slaves, that had been forced to exhaust themselves helping to finish
 building the very amphitheater in which they are to die, are pushed into the
 arena.  As the mob screams, howls and roars, barred doors are lifted,
 releasing man-eating lions and tigers who have not been fed for quite a time.
@@ -1691,11 +1688,10 @@ S
 Roman Amphitheater~
    Flashing swords, the clash of steel, and the first wounds arouse the
 passions, the hatred and the desperate fury of the gladiators and inflame
-the blood-lust of the mob.  The shouts and yells and screams of the
+the lust of the mob.  The shouts and yells and screams of the
 onlookers grow to a huge, roaring crescendo of sound as one Samnite after
-another go down with their stomachs gashed open or their necks spouting
-blood and one Thracian after another crumbles with a Samnite sword through
-his chest.  Reinforcements are rushed in to restore the balance and to add
+another go down and one Thracian after another crumbles.  Reinforcements are
+rushed in to restore the balance and to add
 to the pile of bleeding, writhing bodies on the sand-strewn floor.
 ~
 20 0 0 0 0 0
@@ -1710,7 +1706,7 @@ D2
 S
 #2088
 Roman Amphitheater~
-   Another fanfare of trumpets announces the entry of two teams of 24
+Another fanfare of trumpets announces the entry of two teams of 24
 gladiators in charge of two renowned trainers, themselves former gladiators
 who, scarred and maimed, have somehow survived with their glory from many a
 combat.  According to tradition, 24 men heavily armed as the ancient

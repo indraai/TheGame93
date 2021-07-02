@@ -143,16 +143,16 @@ A
 5 -1
 #26710
 robe fear~
-a black, bloodstained robe~
-A black, bloodstained robe is crumpled on the floor.~
+a black, stained robe~
+A black, stained robe is crumpled on the floor.~
 ~
 9 ejlnp 0 0 0 ak 0 0 0 0 0 0 0
 7 0 0 0
 20 800 0 0 0
 E
-robe fear black blood stained bloodstained~
+robe fear black stained~
    This strange robe seems to absorb the light around it.  It's stained with the
-blood of many men.
+of many men.
 ~
 A
 12 20
@@ -206,7 +206,7 @@ A huge butcher knife has been left on the ground.~
 E
 knife butcher~
    It looks quite effective as a knife.  It's very sharp and has just the right
-amount of blood from previous kills.
+amount of from previous kills.
 ~
 A
 18 3

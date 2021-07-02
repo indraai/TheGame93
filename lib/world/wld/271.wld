@@ -420,8 +420,7 @@ S
 #27119
 At the gallows~
    In the shade of old gnarl-limbed elder trees stands the bane of all thieves
-and murderers, the platform of the gallows.  The dark sand of the road shows
-none of the blood that has been shed here, but the legends of the dead live on
+and murderers, the platform of the gallows.  The legends of the dead live on
 in tales and nightmares.  The executions still take place at irregular
 intervals, to the joy of hidden enemies and law-abiding citizens.  You note
 there is plenty of room for spectators.  Besides the east-west road, a stone
@@ -613,7 +612,7 @@ S
 A black sand road~
    The black sand of the road absorbs heat and feels pleasant to those without
 coverings on their feet, attracting all sorts of loafers and siteseers who come
-on days off to relax and watch the festivities at the gallows.  A bloody trail
+on days off to relax and watch the festivities at the gallows.  A trail
 leads into a building to the south.
 ~
 271 0 0 0 0 1
@@ -630,7 +629,7 @@ D3
 ~
 0 -1 27119
 E
-trail bloody~
+trail~
    Sand has been shuffled over most of it, but it is obviously from a recent
 kill.  The sign on the building reads 'The House of the Butcher and Friends'.
 It appears the fellow has a quirky sense of humor.
@@ -884,7 +883,7 @@ D3
 S
 #27142
 The butcher shop~
-   You are enclosed in a poorly lit, stuffy room that smells of blood, salted
+   You are enclosed in a poorly lit, stuffy room that smells of salted
 meat and strange preservatives you didn't think existed in this time period.
 Pewter cases filled with ice give off wisps of steam near a roasting fire at
 the east wall.  You might wonder why this place is situated so proximate to the
@@ -978,9 +977,7 @@ Dragon's Wrath Alehouse~
    You have entered a rowdy tavern, noticeably different from the intellectual
 bounty hunting atmosphere of the Nightbreak Cafe.  Your feet are hard put to
 find a purchase on the slippery floor of spilled ale and cracked, sodden wood.
-This is the meeting place of those of a fighting bent, accordingly the blood
-from last night's brawls has barely dried on the walls before tonight's is
-shed, be wary.
+This is the meeting place of those of a fighting bent.
 ~
 271 8 0 0 0 0
 D2

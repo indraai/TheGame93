@@ -1,13 +1,13 @@
 #25200
-blood ring ancients blood~
-the Blood Ring of the Ancients~
-A bloody red ring is here on the ground.~
+ring ancients~
+the Ring of the Ancients~
+A red ring is here on the ground.~
 ~
 11 a 0 0 0 ab 0 0 0 0 0 0 0
 0 0 0 0
 5 1 0 20 0
 E
-blood ring ancients blood~
+ring ancients~
    It has a large ruby set into the center of it, a thick gold band to hold the
 gem in.
 ~
@@ -53,16 +53,16 @@ A
 A
 5 2
 #25203
-blood stone amulet blood~
-a Bloodstone Amulet~
+moonstone amulet ~
+a Moonstone Amulet~
 A strange, red amulet has been left here.~
 ~
 11 a 0 0 0 ac 0 0 0 0 0 0 0
 0 0 0 0
 7 1 0 10 0
 E
-bloodstone amulet~
-   The color is more of a deep red, like fresh blood.
+moonstone amulet~
+The color is more of a deep red.
 ~
 A
 2 2

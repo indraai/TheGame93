@@ -2190,7 +2190,7 @@ Obj Random Example~
 * By Rumble of The Builder Academy    tbamud.com 9091
 if %self.worn_by%
   set actor %self.worn_by%
-  %send% %actor% War's Blood thirsts for battle.
+  %send% %actor% War's Hero thirsts for battle.
 end
 ~
 #81

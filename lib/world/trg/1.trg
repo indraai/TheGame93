@@ -353,12 +353,12 @@ if %actor.is_pc%
   say I can butcher anything.
   wait 1 sec
   if %actor.sex% == male
-    emote splatters some blood on you as he hacks at some meat.
+    emote splatters some goo on you as he hacks at some meat.
   elseif %actor.sex% == female
     wait 1 sec
     say sorry about the mess mam.
   else
-    emote rubs his bloody hands on his apron.
+    emote rubs his hands on his apron.
   end
 end
 ~
@@ -1330,12 +1330,12 @@ if %cmd.mudcommand% == list
   *
   %send% %actor%  ##   Available   Item                                Cost in Questpoints
   %send% %actor% -------------------------------------------------------------------------
-  %send% %actor%   1)  Unlimited   War's Blood                                         100
+  %send% %actor%   1)  Unlimited   War's Hero                                          100
   %send% %actor%   2)  Unlimited   shadow stealer                                      100
   %send% %actor%   3)  Unlimited   the staff of spellfire                              100
   *
 elseif %cmd.mudcommand% == buy
-  if War /= %arg% || Blood /= %arg% || %arg% == 1
+  if War /= %arg% || hero /= %arg% || %arg% == 1
     set quest_item 21
     set quest_item_cost 100
   elseif shadow /= %arg% || stealer /= %arg% || %arg% == 2
@@ -1610,7 +1610,7 @@ Chuck Norris - 34~
 eval max %random.89%
 set  text[1]   Chuck Norris does not sleep. He waits.
 set  text[2]   If you can see Chuck Norris, he can see you. If you can't see Chuck Norris you may be only seconds away from death.
-set  text[3]   Chuck Norris frequently donates blood to the Red Cross. Just never his own.
+set  text[3]   Chuck Norris frequently donates his kicks to charity.
 set  text[4]   The chief export of Chuck Norris is pain.
 set  text[5]   Chuck Norris sold his soul to the devil for his rugged good looks and unparalleled martial arts ability. Shortly after the transaction was finalized, Chuck roundhouse kicked the devil in the face and took his soul back. The devil, who appreciates irony, couldn't stay mad and admitted he should have seen it coming. They now play poker every second Wednesday of the month.
 set  text[6]   Chuck Norris is currently suing NBC, claiming Law and Order are trademarked names for his left and right legs.
@@ -1646,7 +1646,7 @@ set  text[35]  Chuck Norris once ate three 72 oz. steaks in one hour. He spent t
 set  text[36]  Chuck Norris owns the greatest Poker Face of all-time. It helped him win the 1983 World Series of Poker despite him holding just a Joker, a Get out of Jail Free Monopoloy card, a 2 of clubs, 7 of spades and a green #4 card from the game UNO.
 set  text[37]  A Handicap parking sign does not signify that this spot is for handicapped people. It is actually in fact a warning, that the spot belongs to Chuck Norris and that you will be handicapped if you park there.
 set  text[38]  Chuck Norris' sperm can penetrate 13 condoms, the birth control pill, a brick wall, and the 1975 Pittsburgh Steelers offensive line in order to impregnate a woman.
-set  text[39]  Chuck Norris has to sort his laundry into three loads: darks, whites, and bloodstains.
+set  text[39]  Chuck Norris has to sort his laundry into three loads: darks, whites, and kickass.
 set  text[40]  If at first you don't succeed, you are obviously not Chuck Norris.
 set  text[41]  Geico saved 15%% by switching to Chuck Norris.
 set  text[42]  If you see Chuck Norris crying he will grant you a wish, if your wish is dying.

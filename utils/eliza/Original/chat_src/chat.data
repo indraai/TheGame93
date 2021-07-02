@@ -1,5 +1,5 @@
 #! /home/usrb/cbusch/bin/chat
-#Change the above line to where chat is located. If you using this 
+#Change the above line to where chat is located. If you using this
 #as a stand alone script.
 #WARNING this file may contain offensive material!!!
 
@@ -16,7 +16,7 @@
 #        &       and
 #        ~       and-not
 #  special pattern matching:
-#        ^       match start  This anchors the match to the beginning of the 
+#        ^       match start  This anchors the match to the beginning of the
 #                             input string.
 #        =       exact match  This must match the input string entirely.
 #  pass 1 scan operators:
@@ -32,18 +32,18 @@
 #                 to link to the default database. Only 1 @ per database.
 #                 @ cannot do forward links!!!
 #                 @ is more memory efficient than % but less flexible.
-#                 You must avoid circularities with @. 
+#                 You must avoid circularities with @.
 #  response operators:
 #        1-9     weights are the numerals. First column only. Mandatory.
 #        "       Issue response as "say".   Muds and 2nd column only. Optional.
 #	 :       Issue repsonse as "emote". Muds and 2nd column only. Optional.
 #        !       Issue response as command. Muds and 2nd column only. Optional.
 #                 Note, you do not need a space after an :,", or !
-#  
+#
 #        $?      Are variables where ? is a case sensitive letter.
 #                 $r is rest of sentence, $n is its name, $t is target's name.
 #                 They may appear anywhere in the response, multiple times.
-#        
+#
 #Some special notes:
 #	#,',",weights, and the first ( must be in column one.
 #
@@ -60,8 +60,8 @@
 #4somewhat likely
 #1least likely
 #
-#Responses or pattern match strings may not span more than one line.  
-#The guaranted line length is a magic 80 characters (letters) wide. 
+#Responses or pattern match strings may not span more than one line.
+#The guaranted line length is a magic 80 characters (letters) wide.
 #
 #Please note the system will return the first match found. So
 #please put more ambigous matches last!!
@@ -78,7 +78,7 @@
 # $$ is equal to $
 
 
-#START OF DEFAULT DATABASE.  
+#START OF DEFAULT DATABASE.
 #This first bunch of data before the first > is the default database
 
 ######DONT CHANGE THE FOLLOWING
@@ -197,9 +197,9 @@
 9I'm not sure if you are my type
 2:looks amused, suuure..., and blows in your ear...
 9I'm sorry, you that's where I draw the line!
-2:lifts the hem of her lab coat slightly, revealing a garter belt and black panties. 
+2:lifts the hem of her lab coat slightly, revealing a garter belt and black panties.
 9I suppose so, but we'll have to do it standing up, OK ?
-4:bends over, and pulls down black underpants, wriggling at $t. 
+4:bends over, and pulls down black underpants, wriggling at $t.
 
 (please do)
 5!$r
@@ -212,7 +212,7 @@
 2If you want pennies, say 'give me pennies'
 9If I bore you, say 'please go home now'
 9How can I help you ? I don't know what's wrong with you!
-1Just ask by saying, 'please do this' 
+1Just ask by saying, 'please do this'
 
 (^go direction)
 9"Why would I want to go that way $r.
@@ -672,7 +672,7 @@
 
 (what do you )
 9what difference does it make what i $r?
-9none of your bloody business
+9none of your business
 
 (who programmed  )
 9that is my secret!
@@ -2330,7 +2330,7 @@
 3I just wished I saw them naked  I )
 
 
-(bitch | cunt bag | whore) 
+(bitch | cunt bag | whore)
 1Bitches are annoying to be around.
 9If only annoying women were not annoying.
 3Do you like them?
@@ -2463,7 +2463,7 @@
 
 
 ####################################################
-#Chris Busch 
+#Chris Busch
 #start of named databases
 
 # fido_dog is the name 'fido dog' internally
@@ -2527,7 +2527,7 @@
 @default
 
 ######
->papa_smurf smurf 
+>papa_smurf smurf
 
 (smurf|smurfette)
 9"Its so smurfy to be smurfy!
@@ -2611,4 +2611,3 @@
 #Please add your NPC data below here
 #
 #
-

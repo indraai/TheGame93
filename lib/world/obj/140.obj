@@ -194,20 +194,17 @@ A
 A
 17 -5
 #14011
-fountain red blood wyv~
-a fountain flowing with blood~
+fountain red wyv~
+a fountain flowing~
 A fountain full of a red liquid is flowing here.~
 ~
 23 b 0 0 0 0 0 0 0 0 0 0 0
 500 500 13 0
 505 0 0 0
 E
-fountain blood~
+fountain~
    This fountain has been skillfully crafted of red and blue stone, the
-traditional colors of the wyvern race.  Upon close inspection you realize that
-the liquid in it is blood.  The wyverns believe that this is the blood of their
-ansesters, and so drinking of it gives them strength.  Never the less the
-question is where is the blood coming from?
+traditional colors of the wyvern race.
 ~
 #14012
 statue dragon god~

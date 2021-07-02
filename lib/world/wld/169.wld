@@ -2,7 +2,7 @@
 Gibberling Caves - Tanto~
    This zone starts out with a trail leading eastward from the south road and
 gradually heading up a hilly trail to a mountain, wherein lies a large tribe of
-bloodthirsty gibberlings. The area starts out in room 16999 (where it connects
+thirsty gibberlings. The area starts out in room 16999 (where it connects
 to the south road) and continues eastward to a mountain cave where you finally
 battle the gibberling chieftain and shaman.
 ~
@@ -269,7 +269,7 @@ E
 animal corpse~
    It is the mangled, half-eaten corpse, of some poor, hapless creature, torn
 apart and left in the dirt.  Maggots are greedily feasting on what remains of
-the animals' flesh, while the fur, heavily caked with dried blood, sticks to
+the animals' flesh, while the fur, sticks to
 the bones.
 ~
 S
@@ -351,8 +351,7 @@ D2
 S
 #16919
 A Wide Tunnel~
-   Assorted bones and rocks litter the ground here, as well as a few pools of
-dried blood, and even a few broken weapons from previous battles.  However, the
+   Assorted bones and rocks litter the ground here, and even a few broken weapons from previous battles.  However, the
 gibberlings, who pass through this room daily, seem to have no trouble at all
 navigating the tunnel.
 ~
@@ -471,7 +470,7 @@ S
 #16925
 The Torture Pit~
    The morbid stench of death in the air is heavy, as you cautiously travel
-through this blood-soaked section of the caves.  A primitive torture chamber
+through this soaked section of the caves.  A primitive torture chamber
 has been constructed here using heavy iron chains, hooked onto pulleys across
 the ceiling, a few pairs of shackles nailed into the walls, and various sharp
 iron and steel makeshift instruments.
@@ -491,8 +490,7 @@ The Torture Pit~
    As uncontrollable and savage as the gibberlings may be, they are not
 completely without reason.  Indeed they comprehend the immense pain they
 inflict on their victims, and they revel in it.  Here you see a large dugout
-section of the cave, the floor drenched in blood and littered with various body
-parts, cold, sharp instruments lining the stone walls, while horrible sounds of
+section of the cave, cold, sharp instruments lining the stone walls, while horrible sounds of
 anguish, escape the lips of dying and dismembered animals and unlucky
 travellers.
 ~
@@ -636,7 +634,7 @@ Throne Room of the Gibberlings~
    You have reached the end of the line.  Before you sits the throne of the
 fierce and merciless king of the gibberlings, commander of the unrelenting,
 maniacal, gibberling horde, who is feared across the realm.  Elvish, dwarf and
-human stretched hides and other various gifts to the king, from blood-drenched
+human stretched hides and other various gifts to the king, from
 gibberling raids line the walls, while the bones of a mighty giant, killed in
 battle, irreverently form the throne itself.
 ~

@@ -128,17 +128,17 @@ A box of matches lies here ready to light something.~
 4 3 3 26
 2 20 0 0 0
 #28615
-bloody black talon~
-bloody black talon~
-A severed bloody black talon lies here.~
+black talon~
+black talon~
+A severed black talon lies here.~
 ~
 5 jn 0 0 0 an 0 0 0 0 0 0 0
 0 4 5 5
 6 20 0 0 0
 #28616
-jar blood~
-jar of blood~
-A dark jar of blood lies here.~
+jar mystery~
+jar of mystery~
+A dark jar of mystery lies here.~
 ~
 10 0 0 0 0 a 0 0 0 0 0 0 0
 30 17 46 20
@@ -146,7 +146,7 @@ A dark jar of blood lies here.~
 #28617
 hell hound teeth~
 hell hound teeth~
-The bloody teeth of a hell hound sit here.~
+The teeth of a hell hound sit here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 6 3 10

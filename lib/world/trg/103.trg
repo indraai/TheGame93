@@ -74,7 +74,7 @@ Kill Wolf - 10307~
 ~
 %echoaround% %actor% @RThe wolf lets out an ear splitting howl as it dies.@n
 %send% %actor% @RThe wolf lets out an ear splitting howl has it dies.@n
-%send% %actor% @rBlood from the wolf splatters over your armor.@n
+%send% %actor% saliva from the wolf splatters over your armor.@n
 %load% mob 10307
 ~
 #10308

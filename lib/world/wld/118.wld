@@ -177,7 +177,7 @@ at each one (look 1 for example).
 14: The Angry Girl
 15: The Scarred Child
 16: The Ghostly Girl
-17: The Fiery Bloodstone Amulet
+17: The Fiery Moonstone Amulet
 ~
 E
 6~
@@ -242,7 +242,7 @@ E
 17~
    Once you are returned to the antique shop, a young woman will approach you
 with an interest in the journal.  If you give it to her she will exchange it for
-a fiery bloodstone amulet.  This amulet has the power to move you to a safe
+a fiery moonstone amulet.  This amulet has the power to move you to a safe
 place whenever you use it.  This can however, only be used about once every 20
 minutes, as the amulet needs to recharge itself.
 ~
@@ -832,7 +832,7 @@ The Music Room~
    This large, breezy room is naturally lit by several large open windows,
 delicate curtains whispering in the wind.  Soft music plays from an elaborate
 sound system, and several cd racks are lined up against the wall.  Rich burgundy
-carpet covers the whole of the floor, deep blood-red in stark contrast to the
+carpet covers the whole of the floor, deep red in stark contrast to the
 pale cream colored walls.
 ~
 118 8 0 0 0 0
@@ -1507,7 +1507,7 @@ A Messy Kitchen~
    A vile smell fills the air, like rotting fish and a thick slime covers the
 sink and soggy dishclothes alike.  Dirty kitchen plates are stacked in fungating
 piles or simply dropped on the floor in places, pieces of broken ceramic brushed
-to the sides amidst rusty streaks of blood.
+to the sides amidst rusty streaks.
 ~
 118 8 0 0 0 0
 D1
@@ -1684,7 +1684,7 @@ as a plastic radio that crackles as it plays some old, worn tape of panpipe
 music.  A window on the western wall lets in a cool draft, wafting away a strong
 ammonia and chlorine smell, and a subtler metallic one.  The carpet is light in
 places, contrasting noticeably with the darker patches of dirt as if it had been
-bleached in areas, and a streak of bloodied fingerprints smears the eastern
+bleached in areas, and a streak of fingerprints smears the eastern
 wall.
 ~
 118 8 0 0 0 0
@@ -1901,7 +1901,7 @@ S
 #11867
 Their Room~
    A large double bed stands in the center of the room, covered with slippery
-quilts the deep color of fresh blood.  Dark wooden furniture accessorizes the
+quilts the deep color of red.  Dark wooden furniture accessorizes the
 rest of the room, piles of dirty laundry strewn all over the floor and draped
 over the various furnishings.
 ~

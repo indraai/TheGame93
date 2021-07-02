@@ -31,14 +31,13 @@ killer.
 8 8 0
 E
 #34502
-doctor man red~
-the bloody doctor~
-A doctor with a bloody lab coat stands here.
+doctor man~
+the doctor~
+A doctor with a lab coat stands here.
 ~
-   The doctor is a tall lanky man. His face is stubbly and his hair unkempt.
+The doctor is a tall lanky man. His face is stubbly and his hair unkempt.
 His eyes are sunken in to his skull and shown with the madness that affected
-some many others in this place. Perhaps the most startling aspect of him is his
-white lab coat that is now almost red wit the stains of blood.
+some many others in this place.
 ~
 18458 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -70,10 +69,9 @@ operation victim~
 the operation victim~
 The operation victim stands here.
 ~
-   This man is bleeding severely from an incision in his chest. While he is
-losing blood a fire burns in his eyes. Having his mind completely shattered by
-the ordeal that he has just gone through, he rages against anyone foolish enough
-to get in his way.
+   This man is bleeding severely from an incision in his chest. A fire burns in his eyes.
+Having his mind completely shattered by the ordeal that he has just gone through,
+he rages against anyone foolish enough to get in his way.
 ~
 10344 0 0 0 0 0 0 0 -750 E
 9 17 4 1d1+90 1d2+1
@@ -81,11 +79,11 @@ to get in his way.
 8 8 1
 E
 #34505
-tortured patient~
-the tortured patient~
-A tortured patient stands here.
+patient~
+the patient~
+A patient stands here.
 ~
-   The person before has been so horribly disfigured by the 'treatments' at this
+The person before has been so horribly disfigured by the 'treatments' at this
 facility that it is no longer possible to tell if they are a man or a woman.
 It wears a tattered hospital gown and cowers in fear at almost everything.
 ~

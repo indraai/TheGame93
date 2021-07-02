@@ -655,7 +655,7 @@ screen~
    *       Orcland team in the Conference Championship      *
    *       Game to determine which squad will meet the      *
    *       winner of the Dwarf Giants-Champions of Death    *
-   *              match-up in Blood Bowl XII.               *
+   *              match-up in Bowl XII.               *
    *                                                        *
    *                   STANDING ROOM ONLY                   *
    **********************************************************
@@ -951,8 +951,8 @@ sign~
 S
 #27541
 The Visitor's Locker Room~
-   What you see (and smell) before you is the typical bloodball
-locker room, filled with tape, torn jerseys, mud, blood, and
+   What you see (and smell) before you is the typical ball
+locker room, filled with tape, torn jerseys, mud, and
 assorted pieces of equipment and body parts.
    To the west is the shower room, to the south you exit onto
 the concourse.
@@ -1125,7 +1125,7 @@ You see the stands above you.
 S
 #27548
 The 50-Meter Line~
-   You are standing in the middle of the excitement of a bloodball
+   You are standing in the middle of the excitement of a ball
 game.  To the south is the Warriors' zone, to the north is the
 Raiders'.  Centerfield is east, and the tunnel is west.
 ~
@@ -1256,8 +1256,8 @@ S
 Centerfield~
    This is the center of all action in WarDome.  Flying bodies
 (and body parts) are all around you.  You are standing on a large
-gray skull with glowing eyes and blood stained fangs -- not real of
-course, just the Bloodbowl logo painted on the surface of the field.
+gray skull with glowing eyes and stained fangs -- not real of
+course, just the bowl logo painted on the surface of the field.
    The respective defensive zones are to the north and south, and
 the 50-Meter Line runs east-west.
 ~
@@ -1313,7 +1313,7 @@ The field continues.
 S
 #27555
 The 50-Meter Line~
-   You are standing in the middle of the excitement of a bloodball
+   You are standing in the middle of the excitement of a ball
 game.  To the south is the Warriors' zone, to the north is the
 Raiders'.  Centerfield is to the west.
 ~

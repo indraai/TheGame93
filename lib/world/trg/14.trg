@@ -735,7 +735,7 @@ eval actor %self.worn_by%
 if !%actor%
   halt
 endif
-%send% %actor% Ichiban's blade thirsts for blood.
+%send% %actor% Ichiban's blade thirsts for desire.
 ~
 #1481
 Obj Command Example~

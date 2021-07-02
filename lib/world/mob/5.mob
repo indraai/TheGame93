@@ -196,10 +196,9 @@ E
 #524
 crow~
 a crow~
-An ugly crow is here.
+A crow is here.
 ~
-   He looks like he should be dead.  He is covered in scars.  You notice some
-blood on his beak.
+He looks like he should be happier.  He is covered in scars.
 ~
 10 0 0 0 0 0 0 0 -300 E
 1 20 9 0d0+10 1d2+0
@@ -240,7 +239,7 @@ calf~
 a calf~
 A small calf is here.
 ~
-   She looks up at you with her young innocent eyes.  How could you ever harm
+She looks up at you with her young innocent eyes.  How could you ever harm
 her?
 ~
 10 0 0 0 0 0 0 0 300 E
@@ -267,7 +266,7 @@ owl~
 an owl~
 An owl is here
 ~
-   She is quite large, but very beautiful.  Her white feathers look like
+She is quite large, but very beautiful.  Her white feathers look like
 freshly fallen snow.
 ~
 10 0 0 0 8 0 0 0 200 E

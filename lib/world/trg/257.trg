@@ -5,7 +5,7 @@
 * Check the direction the player must go to enter the guild.
 if %direction% == west
   * Stop them if they are not the appropriate class.
-  if %actor.class% != 
+  if %actor.class% !=
     return 0
     %send% %actor% The guard humiliates you, and blocks your way.
     %echoaround% %actor% The guard humiliates %actor.name%, and blocks %actor.hisher% way.
@@ -69,19 +69,19 @@ if %direction% == east
 end
 ~
 #25705
-Blood Bank - 25704~
+Give Bank - 25704~
 2 c 100
 g~
 * By Rumble
-* Make sure the command is give, check for any abbrev of blood
-if %cmd.mudcommand% == give && blood /= %arg%
+* Make sure the command is give, check for any abbrev of goo
+if %cmd.mudcommand% == give && goo /= %arg%
   * let the player stun themselves, they will recover.
   if %actor.hitp% < 18
-    %send% %actor% You try to give blood. But, the nurse refuses since you are white as a ghost and can barely stand.
-    %echoaround% %actor% %actor.name% tries to give blood. But, the nurse laughs in %actor.hisher% face since he is whiate as a ghost and can barely stand.
+    %send% %actor% You try to give goo. But, the nurse refuses since you are white as a ghost and can barely stand.
+    %echoaround% %actor% %actor.name% tries to give goo. But, the nurse laughs in %actor.hisher% face since he is white as a ghost and can barely stand.
   else
-    %send% %actor% The nurse jabs a thick needle into your arm and quickly draws a small amount of blood. She gives you a small pile of coins.
-    %echoaround% %actor% The nurse jabs %actor.name% in the arm and quickly draws a small amount of blood. She then gives %actor.name% a small pile of coins.
+    %send% %actor% The nurse puts a sucker device over your nippies and quickly draws a small amount of goo. She gives you some coins.
+    %echoaround% %actor% The sucker device on %actor.name% nippies draws a small amount of goo. %actor.name% receives a small pile of coins.
     nop %actor.gold(20)%
     %damage% %actor% 20
   end

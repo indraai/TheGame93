@@ -52,7 +52,7 @@ A rusted dagger protrudes from the ground.~
 2 100 0 0 0
 E
 rusted dagger~
-   This ancient dagger is still somewhat sharp despite the blood-like patches of
+   This ancient dagger is still somewhat sharp despite patches of
 rust that stain the metal.  Light and easily concealed, only the tiny black
 symbol of a spider distinguishes this blade as at all unusual.
 ~
@@ -312,7 +312,7 @@ crimson-stained crimson stained robe~
    This intricately woven robe is made of extraordinarily fine white silk.
 Long flowing sleeves are hemmed with a single gold thread, and a large hood
 trails down the back.  In perfect condition, the only thing that marrs the
-beauty of this garment is the various spatterings of blood that darken it,
+beauty of this garment is the various spatterings that darken it,
 spreading through the fabric and tinting it crimson red.
 ~
 A
@@ -493,22 +493,22 @@ E
 venommace mace large deadly~
    This massive weapon has been made from a pale white metal that glows vaguely
 red.  Tiny barbed spikes cover the entire spherical head, tinted black with what
-may be poison or simply dried blood.  Delicate etchings spiral all the way
+may be poison.  Delicate etchings spiral all the way
 around the handle, glowing a brighter crimson and giving the appearance of tiny
 red spiders crawling around the weapon.
 ~
 A
 19 2
 #1936
-blood-red shield blood red~
-a blood-red shield~
-A shield glints red, like a puddle of blood on the ground.~
+red shield red~
+a red shield~
+A shield glints red.~
 ~
 9 gj 0 0 0 aj 0 0 0 0 0 0 0
 10 0 0 0
 3 500 3 0 0
 E
-blood-red shield blood red~
+red shield red~
    This beautiful semi-transparant shield is made of sparkling red beryll,
 gilded around the edges with magically runed platinum that glows lightly.  A
 fine chain runs along the inside, delicate but strong enough to use as a handle
@@ -558,7 +558,7 @@ black spider gloves dark pair leathery~
 so that one extends and caps over each finger, two wrap around the wrist, and
 one extends up the center of the forearm.  The end of each is tipped with a
 metal claw, making this potentially lethal as well as protective.  In the center
-of the dark hide, a blood-red hourglass symbol blazes, the signature of the
+of the dark hide, a red hourglass symbol blazes, the signature of the
 black widow.
 ~
 A
@@ -743,16 +743,16 @@ frog.  This creature is increasingly rare, due to high demand for various parts
 of its anatomy, most of which are rumored to have powerful magical properties.
 ~
 #1951
-sealed beaker dark blood~
-a sealed beaker of dark blood~
-A sealed beaker of dark blood stands here.~
+sealed beaker dark~
+a sealed beaker of dark~
+A sealed beaker of dark stands here.~
 ~
 12 q 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
 E
-sealed beaker dark blood~
-   Almost black in color, this glass beaker holds the blood of a creature that
+sealed beaker dark~
+   Almost black in color, this glass beaker holds the of a creature that
 is clearly not human.  A strange chill creeps through the container, and a
 slightly shimmering aura betrays the inherent magic of this substance.
 ~
@@ -788,7 +788,7 @@ Nonetheless, I lay it out here for any who would continue these studies.
 the color of rich wine. When quaffed, it produced immediate physical
 effects, muscle ability enhanced and body defenses strengthened.
 
-   As a base for all our testings, we used the nightblood of the driders, black
+   As a base for all our testings, we used the night of the driders, black
 viscous fluid that burns the eyes unless contained in special beakers. Then,
 for this particular solution we added an arachnoid fang, from a striped spider
 it was. Finally, one of the eggs from the lizard man tribe. All of these
@@ -821,7 +821,7 @@ Nonetheless, I lay it out here for any who would continue these studies.
 the color of a clear sky. When quaffed, it produced immediate magical
 effects, enhanced mental ability and casting endurance.
 
-   As a base for all our testings, we used the nightblood of the driders, black
+   As a base for all our testings, we used the night of the driders, black
 viscous fluid that burns the eyes unless contained in special beakers. Then,
 for this particular solution we added an arachnoid gland, from the spider that squirts. Finally, a tongue from the local species of white frog. All of these
 ingredients were gained with great peril, and once mixed together in Tyrel's
@@ -853,7 +853,7 @@ Nonetheless, I lay it out here for any who would continue these studies.
 the color of fresh grass. When quaffed, it produced immediate changes to
 speed and agility, improving endurance in travel.
 
-   As a base for all our testings, we used the nightblood of the driders, black
+   As a base for all our testings, we used the night of the driders, black
 viscous fluid that burns the eyes unless contained in special beakers. Then,
 for this particular solution we added an arachnoid fur, from a spider that was
 purple in color. Finally, one of the salty plant growths that flourish here.

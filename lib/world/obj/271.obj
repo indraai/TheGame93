@@ -152,7 +152,7 @@ town.  The water inside looks sweet to drink.
 #27111
 axe severance~
 the axe of severance~
-A bloody axe has been left here.~
+A axe has been left here.~
 ~
 5 mn 0 0 0 an 0 0 0 0 0 0 0
 0 3 4 0
@@ -160,7 +160,7 @@ A bloody axe has been left here.~
 E
 axe severance~
    This massive weapon takes much of your strength to carry.  It would like to
-kill again, for the blood of the last victim has just dried on the blade.
+kill again, for the of the last victim has just dried on the blade.
 ~
 A
 18 -1
@@ -691,7 +691,7 @@ gallows platform~
    A sturdy wooden platform rises above the black sand road, with plenty of room
 around it for spectators.  On it are two means to death, the shackles for
 beheading and the oak planking holding the noose for hanging.  The entire
-surface is bespeckled with dried blood.
+surface is bespeckled.
 ~
 #27153
 fountain cracked drink~
@@ -928,7 +928,7 @@ E
 magazine rogue book bartending~
    You flip through it.  It appears to contain various recipes for poisons..
 From minor irritations to fatal, soul-stealing tinctures....  Yet, most of the
-scrawlings are spattered with blood and blurred with time.  Only in Exile would
+scrawlings are spattered and blurred with time.  Only in Exile would
 these components be useful - you are doubtful you could find such ingrediants
 here.
 ~
@@ -1000,12 +1000,12 @@ A leg of mutton is lying here.~
 4 120 0 0 0
 E
 mutton leg~
-   The meat is thick and juicy, still red with the blood of the beast.
+The meat is thick and juicy.
 ~
 #27176
 heart boar food~
 a wild boar heart~
-A heart is lying in a pool of blood.~
+A heart is lying here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 12 0 0 0
@@ -1167,15 +1167,15 @@ skirt gypsy red~
    The patched skirt is a sturdy cross-stitching of bright red and violet.
 ~
 #27188
-blouse shirt red blood~
-a blood red blouse~
+blouse shirt red~
+a red blouse~
 A dark red blouse is crumpled here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 4 0 0 0
 3 40 0 0 0
 E
-blouse red blood~
+blouse red~
    The gypsy blouse is of a rugged muslin fabric, rough and somewhat dirty, but
 in decent shape.
 ~

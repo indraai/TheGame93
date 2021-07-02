@@ -1,7 +1,7 @@
 #28200
 The pit of Kerjim~
-   You stand at the edge of a pit, you can hear screams of death, violence that
-make your blood curdle.  This is the pit of Kerjim, an ancient demon able to
+You stand at the edge of a pit, you can hear screams of death.
+This is the pit of Kerjim, an ancient demon able to
 slay any mortal.  It is pitch black, and there are prying eyes all around.
 There is an engraving on the wall here.
 ~
@@ -55,7 +55,7 @@ engraving wall~
 S
 #28201
 In the pit~
-   Smells of blood saunter through the air, making your stomach turn.  Fear
+Smells of stench saunter through the air, making your stomach turn.  Fear
 creeps through you as you climb down the side of this endless pit.
 ~
 282 0 0 0 0 0
@@ -368,9 +368,9 @@ D2
 0 0 28219
 S
 #28221
-A trail of blood~
+A trail of goo~
    A small pebble trail leads into the inpending darkness, it is covered with
-blood.  The trail leads on into the darkness.
+goo.  The trail leads on into the darkness.
 ~
 282 0 0 0 0 0
 D1
@@ -384,7 +384,7 @@ D3
 S
 #28222
 A bend in the trail~
-   There is blood leaking off the trail, there seems to have been a lot of
+   There is goo leaking off the trail, there seems to have been a lot of
 combat in this area, the trail winds now to the north.
 ~
 282 0 0 0 0 0
@@ -415,7 +415,7 @@ S
 #28224
 A straight path~
    The path continues to the east without any turns, you can not see very far
-in for it is so dark.  The blood is now around your ankles and still climbing.
+in for it is so dark.  The goo is now around your ankles and still climbing.
 
 ~
 282 0 0 0 0 0
@@ -430,8 +430,8 @@ D3
 S
 #28225
 A straight path~
-   The path is nearing an end, the blood is no longer a dark red color, but
-instead has become a light bluish color, perhaps he blood of a Balrog.
+   The path is nearing an end, the goo is no longer a dark color, but
+instead has become a light bluish color, perhaps he goo of a Balrog.
 ~
 282 0 0 0 0 0
 D1
@@ -446,7 +446,7 @@ S
 #28226
 The end of the path~
    The long tunnel has finally ended, corpses are lying dead on the surronding
-gravel, both human and balrog.  Smells of blood fill your nostrils and make you
+gravel, both human and balrog.  Smells of goo fill your nostrils and make you
 sick.
 ~
 282 0 0 0 0 0
@@ -881,7 +881,7 @@ S
 #28256
 A dead end in the maze~
    This dead end is blocked off by an enormous statue of a warrior balrog
-gripping a scythe covered in blood.
+gripping a scythe.
 ~
 282 0 0 0 0 0
 D3

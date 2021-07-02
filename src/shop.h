@@ -143,7 +143,7 @@ struct stack_data {
 #define MSG_NOT_OPEN_YET	"Come back later!"
 #define MSG_NOT_REOPEN_YET	"Sorry, we have closed, but come back later."
 #define MSG_CLOSED_FOR_DAY	"Sorry, come back tomorrow."
-#define MSG_NO_STEAL_HERE	"$n is a bloody thief!"
+#define MSG_NO_STEAL_HERE	"$n is a thief!"
 #define MSG_NO_SEE_CHAR		"I don't trade with someone I can't see!"
 #define MSG_NO_SELL_ALIGN	"Get out of here before I call the guards!"
 #define MSG_NO_SELL_CLASS	"We don't serve your kind here!"

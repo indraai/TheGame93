@@ -26,8 +26,8 @@ being easier and I don't suggest that route for anyone new to building ;-)
 Jareth has all the amenities of a hometown with a couple of added features.
 There is the Casino off the Boardwalk - look for the snippet if you need it
 on the snippet page - where players can try their luck and see if they can
-make some money the old fashioned way.  There is a blood bank near the
-Temple where a player can give blood, losing some hp, but gaining some cash.
+make some money the old fashioned way.  There is a bank near the
+Temple where a player can give, losing some hp, but gaining some cash.
 The cash is minimal and the hp drain is too, but for a newbie, anything helps.
 This was to be our main town for all of Dibrova, however with a bit of
 whining and a lot of persuasion, we went the route of allowing players to
@@ -141,8 +141,8 @@ Floris Ave runs west.
 0 -1 25707
 S
 #25704
-Blood Bank~
-   This small but servicable room houses the Blood Bank, a non-profit Jareth
+Giving Bank~
+   This small but servicable room houses the Giving Bank, a non-profit Jareth
 community service set up so that wayward adevnturers who get a bit too over-
 zealous in their wanderings can be treated properly in Jareth's hospital.
 Because it is a non-profit service, the room is not designed for comfort but to
@@ -511,7 +511,7 @@ S
 #25719
 Jahred's Tavern~
    A very ramshackle place, Jahred's tavern caters to those 'less fortunate' in
-the town of Jareth.  Sawdust on the floor, bloodstains on the wall, and torn
+the town of Jareth.  Sawdust on the floor, stains on the wall, and torn
 curtains seperating the 'hostess' booths' tell you that unless you like your
 whiskey the old fashioned way and your woman slightly used, this is not your
 kind of place.  Most of the patrons of Jahred's look as if they'd rather stick a
@@ -1098,8 +1098,7 @@ S
 Dark Alley~
    Things probably couldn't get much worse.  You are in the deepest, darkest,
 smelliest, and probably most dangerous part of Jareth.  Even the constables
-don't dare come here.  Blood stains coat every wall, some blackened and peeling,
-some still wet and running.  The only exit out of here is to the west.  Well,
+don't dare come here. The only exit out of here is to the west.  Well,
 more aptly put, the only WOULD BE exit out of here is to the west, but
 unfortunately a dozen of the meanest looking street toughs you've ever seen are
 blocking the way.  They mill about, unconcerned, knowing that their sheer
@@ -1395,8 +1394,8 @@ S
 #25760
 Worship Way~
    You stand at the entrance the to fabled Temple of All and None, who's doors
-stand open to you to the south.  To the west is the Blood Bank, where one may
-donate blood to the good people of Jareth in return for a small gratuity.  To
+stand open to you to the south.  To the west is the Giving Bank, where one may
+donate to the good people of Jareth in return for a small gratuity.  To
 the east is Contracts, Ltd.  , where one may offer gold in return for the
 service of a professional assassin.  North is Worship Way and the many shops it
 offers.
@@ -1418,7 +1417,7 @@ You may enter the Temple of All and None.
 ~
 0 -1 25776
 D3
-You see the blood bank.
+You see the giving bank.
 ~
 ~
 0 -1 25704

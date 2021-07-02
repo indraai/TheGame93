@@ -86,8 +86,7 @@ mosquito~
 a mosquito~
 A large mosquito is here.
 ~
-   The creature is rather large.  You can see blood sitting in its stomach.
-How revolting!
+The creature is rather large.
 ~
 10 0 0 0 0 0 0 0 -220 E
 14 16 1 2d2+140 2d2+2
@@ -312,8 +311,7 @@ polar bear~
 a polar bear~
 A large polar bear is standing here.
 ~
-   The bear looks cuddly, but as you look closer you can tell he has long fangs
-stained with blood.
+The bear looks cuddly, but as you look closer you can tell he has long fangs.
 ~
 10 0 0 0 0 0 0 0 -300 E
 13 16 2 2d2+130 2d2+2

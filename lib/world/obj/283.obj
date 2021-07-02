@@ -107,16 +107,16 @@ A
 A
 19 1
 #28311
-bloody claws~
-a pair of bloody claws~
-Claws lay here in a pool of blood.~
+claws~
+a pair of claws~
+Claws lay here.~
 ~
 5 e 0 0 0 an 0 0 0 0 0 0 0
 3 3 6 5
 2 907 0 0
 E
-bloody claws~
-   They're all bloody!  How sick!
+claws~
+   They're all!  How sick!
 ~
 A
 19 2
@@ -209,7 +209,7 @@ There are quite a few gold coins in a pile here.~
 #28319
 ghost head~
 a ghosts' head~
-The head of a ghost lays here making a huge pool of blood.~
+The head of a ghost lays here.~
 ~
 15 f 0 0 0 ao 0 0 0 0 0 0 0
 14 1 -1 0

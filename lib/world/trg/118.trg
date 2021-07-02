@@ -437,11 +437,11 @@ else
 end
 ~
 #11819
-(71) bloodstone amulet awaken~
+(71) moonstone amulet awaken~
 1 c 1
 awaken~
-%send% %actor% You wrap your fingers around the bloodstone amulet and focus deeply.
-%echoaround% %actor% %actor.name% wraps %actor.hisher% fingers around %actor.hisher% bloodstone amulet and closes %actor.hisher% eyes in concentration.
+%send% %actor% You wrap your fingers around the moonstone amulet and focus deeply.
+%echoaround% %actor% %actor.name% wraps %actor.hisher% fingers around %actor.hisher% moonstone amulet and closes %actor.hisher% eyes in concentration.
 if %actor.varexists(zn118_focus_return)%
   eval place %actor.zn118_focus_return%
   wait 2 s
@@ -1744,7 +1744,7 @@ if %cmd.mudcommand% == look || %cmd.mudcommand% == examine
     else
       set align with a purity of goodness
     end
-    if %actor.class% == 
+    if %actor.class% ==
       set class healer
     elseif %actor.class% == Warrior
       set class fighter
@@ -2736,7 +2736,7 @@ if %self.name% /= %arg%
   end
   if %actor.varexists(zn118_weepingdone)% || %actor.varexists(zn118_gravedone)% || %actor.varexists(zn118_gravequest)%
     %send% %actor% .  How to deny whose eyes I see in the mirror?
-    %send% %actor% .  Disown what I'm bound to with blood.
+    %send% %actor% .  Disown what I'm bound to with belief.
   else
     %send% %actor% .  - - - - - - - - - - - - - - - - - - - - - - -
   end
@@ -2812,11 +2812,11 @@ if %actor.has_item(11807)%
 end
 ~
 #11894
-(71) bloodstone amulet focus~
+(71) moonstone amulet focus~
 1 c 1
 focus~
-%send% %actor% You wrap your fingers around the bloodstone amulet and focus deeply.
-%echoaround% %actor% %actor.name% wraps %actor.hisher% fingers around %actor.hisher% bloodstone amulet and closes %actor.hisher% eyes in concentration.
+%send% %actor% You wrap your fingers around the moonstone amulet and focus deeply.
+%echoaround% %actor% %actor.name% wraps %actor.hisher% fingers around %actor.hisher% moonstone amulet and closes %actor.hisher% eyes in concentration.
 if %self.timer% == 0
   eval zn118_focus_return %self.room.vnum%
   remote zn118_focus_return %actor.id%
@@ -2831,7 +2831,7 @@ if %self.timer% == 0
   otimer 20
 else
   wait 2 s
-  %send% %actor% Alas, the bloodstone stays cold, not yet fully recharged.
+  %send% %actor% Alas, the moonstone stays cold, not yet fully recharged.
 end
 ~
 #11895
@@ -2846,7 +2846,7 @@ if %object.vnum% == 11807
   tell %actor.name% Thank you so much.
   wait 2 s
   %load% obj 11871 %actor% inv
-  %send% %actor% %self.name% gives you a fiery bloodstone amulet.
+  %send% %actor% %self.name% gives you a fiery moonstone amulet.
   wait 3 s
   tell %actor.name% You need only 'focus' to call on its powers, and 'awaken' whenever you wish to return.
   wait 4 s

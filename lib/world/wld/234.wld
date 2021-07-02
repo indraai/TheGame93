@@ -720,9 +720,8 @@ nourishment.
 S
 #23440
 Arena~
-   This is a typical room in the arena.  It is clear of everything except the
-occasional wandering mob.  The air has a stench of death and blood is
-splattered everywhere.
+This is a typical room in the arena.  It is clear of everything except the
+occasional wandering mob.  The air has a stench of farts everywhere.
 ~
 234 8 0 0 0 0
 D0
@@ -769,7 +768,7 @@ S
 T 23400
 #23442
 Arena~
-   The ground seems a bit grainy here.  It is like wet sand.  Wet from blood.
+The ground seems a bit grainy here.  It is like wet sand.  Wet from farts.
 How would the inside of an Arena get sand in it?  This is obviously not a
 normal area.
 ~
@@ -789,9 +788,7 @@ D2
 S
 #23443
 Arena~
-   A grainy wet sand sticks to everything.  It is a dark, almost red, brown
-from the blood that is pooled about the room.  The amount of death involved has
-left a lingering smell.
+A sandy arena
 ~
 234 8 0 0 0 0
 D0
@@ -1051,8 +1048,7 @@ S
 #23454
 Arena~
    The terrain here is rocky and a tad bit sandy.  To the east there is a large
-rigged boulder which almost blocks your way.  The rock is slick from water and
-blood.
+rigged boulder which almost blocks your way.
 ~
 234 8 0 0 0 0
 D0
@@ -1379,9 +1375,8 @@ D3
 S
 #23469
 Arena~
-   A pool of blood fills the center of the room.  The scent of death is in the
-air.  Hopefully you can overcome the sensation and fight your way to victory
-and fame.
+The scent of farts is in the air.  Hopefully you can overcome the sensation and
+fight your way to victory and fame.
 ~
 234 8 0 0 0 0
 D0

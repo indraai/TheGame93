@@ -376,7 +376,7 @@ Hall of Legends~
    Softly drifting flakes of snow cover every surface in this stretching
 corridor.  Beneath the layer of almost unblemished white glimpses of the
 original dark red carpeting can be seen, giving the illusion that the floor is
-stained with pools of spilt blood.  All around, images of fallen heroes glorify
+stained.  All around, images of fallen heroes glorify
 the walls, misted with a fine coat of ice that glazes the eyes of the watchful
 dead.
 ~
@@ -615,7 +615,7 @@ T 1100
 #1128
 A Smashed Statuette~
    An awesome sculpture once stood here, as evidenced by the smatterings of ruby
-and red beryl that still adorn the ground like drops of blood.  A round metal
+and red beryl that still adorn the ground.  A round metal
 base stands in the midst of the snow, upon which the artwork would have once
 stood, apparently a tribute to one of the four locally worshipped elements.
 Completely destroyed now, only the tiniest scarlet gems remain frozen in the
@@ -1663,11 +1663,8 @@ D3
 0 0 1182
 S
 #1182
-Blood-spattered Cell~
-   Bright splatters of blood blossom from the walls and floor, preserved in
-sparkling ice as though the room was decorated with ruby gems.  Darker crimson
-and black stains underlay the red, evidence of many forgotten victims passing
-through here, lost to torture and grief.
+Cell~
+A holding cell.
 ~
 11 8 0 0 0 0
 D1

@@ -125,7 +125,7 @@ S
 Dwarven Mines~
    You feel your feet sink into a small puddle, but it doesn't feel like water.
 It's much to thick.  As you look more closely, you see that you have stepped
-into a puddle of blood!  How gross!
+into a puddle of mud!  How gross!
 ~
 235 0 0 0 0 0
 D2
@@ -336,7 +336,7 @@ S
 #23520
 Dark Tunnel~
    As you continue making your way through the dirty little tunnel, you notice
-several smears of blood on the walls.  Most likely from past adventurers that
+several smears of mud on the walls.  Most likely from past adventurers that
 were not lucky enough to survive.
 ~
 235 1 0 0 0 0
@@ -1103,7 +1103,7 @@ S
 #23566
 Tunnel~
    You find yourself standing in a small intersection.  To the east you can see
-the dwarven battlefield.  Blood stains the tunnel ahead.  To your south you can
+the dwarven battlefield.  To your south you can
 see more of the mines.
 ~
 235 0 0 0 0 0
@@ -1136,7 +1136,7 @@ S
 Dwarven Battlefield~
    As you step out onto the battlefield, you look around at everything around
 you.  This must be just a practice battlefield.  You notice that the floor is
-made from concrete and it's heavily stained with blood.  There are several
+made from concrete and it's heavily stained.  There are several
 torches hanging from the wall, illuminating the room with a soft glow.  The
 soilders barracks are to the south.
 ~
@@ -1176,7 +1176,7 @@ S
 Aide Room~
    This is where the dwarven soilders come for aide when they are hurt in
 battle.  There is a long shelf up against the southern wall piles high with
-bandages and splints.  There is a faint odor of blood in here.  It almost makes
+bandages and splints.  There is a faint odor of farts in here.  It almost makes
 you gag.
 ~
 235 0 0 0 0 0
@@ -1301,9 +1301,8 @@ D2
 S
 #23587
 Battlefield Entrance~
-   You're standing in the doorway leading out onto the dwarven battlefield.
-You see numerous soldiers fighting and training.  There are small pools of
-blood on the ground.  You suddenly feel sick to your stomach.
+You're standing in the doorway leading out onto the dwarven battlefield.
+You see numerous soldiers fighting and training.
 ~
 235 0 0 0 0 0
 D0
@@ -1335,7 +1334,7 @@ S
 Battlefield~
    You're standing in the middle of the battlefield, looking around at
 everything around you.  The ground at your feet is solid, but it's not concrete
-anymore.  It looks like dirt heavily stained with blood.  How gross!
+anymore.  It looks like dirt heavily stained mud.  How gross!
 ~
 235 0 0 0 0 0
 D2

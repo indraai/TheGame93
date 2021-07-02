@@ -994,7 +994,7 @@ end
 (2721) cui greets~
 0 gh 100
 ~
-if %actor.class% == 
+if %actor.class% ==
   set zn27_class healer
 end
 if %actor.class% == Warrior
@@ -1060,7 +1060,7 @@ global zn27_greeted
 (2722) Ve greets~
 0 gh 100
 ~
-if %actor.class% == 
+if %actor.class% ==
   set zn27_class healer
 end
 if %actor.class% == Warrior
@@ -1283,7 +1283,7 @@ elseif %room.vnum% == 2794
 elseif %room.vnum% == 2795
   say Dynar are smaller than the Khan'li, but just as adept at fighting, extremely fast, able to contort their bodies amazingly and putting their skills to use in the construction of elaborate weapons and studying of the world.
   wait 4 s
-  say Pale-skinned, their blood is as the milky sap of trees, having slight phosphorescent properties which causes them to glow faintly in darkness.
+  say Pale-skinned, having slight phosphorescent properties which causes them to glow faintly in darkness.
   wait 3 s
   say They believe in the superiority of light over darkness, often trying to 'improve' their fellow Denuo.
   wait 2 s

@@ -285,7 +285,7 @@ if %percent% > %actor.skill(kick)%
   nop %actor.pos(sitting)%
   eval dam %self.level% / 2
   %damage% %actor% %dam%
-  %send% %self% Your boots need polishing again -- blood all over them...
+  %send% %self% Your boots need polishing again -- mud all over them...
   %send% %actor% %self.name% wipes %self.hisher% boots in your face!
   %echoaround% %actor% %self.name% wipes %self.hisher% boots in the face of %actor.name%!
 end
