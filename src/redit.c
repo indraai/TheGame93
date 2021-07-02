@@ -323,7 +323,8 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
     "\n## Extra Description\r"
 	  "\nselect[1:keyword]:%s\r"
 	  "\select[2:description]:%s\r"
-    "\nmenu:3:extra description\r"
+    "\n===\n"
+    "\nmenu:3:new description\r"
     "\nmenu:q:done\r",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
@@ -364,6 +365,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\nselect[3:door name]:%s\r"
 	  "\nselect[4:key]:%d\r"
 	  "\nselect[5:door flags]:'%s'\r"
+    "\n===\n"
 	  "\nmenu:6:purge exit\r"
 	  "\nmenu:0:done\r",
 
@@ -382,6 +384,7 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
   write_to_output(d,
+    "\n## Doors\r"
     "\nmenu:0:no door\r"
 	  "\nmenu:1:closable door\r"
     "\nmenu:2:pickproof door\r"
@@ -417,7 +420,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   clear_screen(d);
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
 
-  write_to_output(d, "\n## Sector Types\n\r");
+  write_to_output(d, "\n## Sector Types\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, sector_types[i]);
@@ -515,10 +518,10 @@ static void redit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
       "\n===\n"
       "\nmenu:f:extra description\r"
-      "\nmenu:s:script menu %s\r"
+      "\nselect[s:script menu]:%s\r"
+      "\n===\n"
       "\nmenu:w:copy room\r"
       "\nmenu:x:delete room\r"
-      "\n===\n"
       "\nmenu:q:quit\r",
       OLC_SCRIPT(d) ? "Set." : "Not Set."
       );
@@ -555,7 +558,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      write_to_output(d, "\nInvalid choice.\r\nsave:\nconfirm[Yes]:Y\nconfirm[No]:N\r");
+      write_to_output(d, "\nInvalid choice.\r\nsave:\nmenu:y:yes\r\nmenu:n:no\r");
       break;
     }
     return;
