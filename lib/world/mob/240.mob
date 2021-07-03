@@ -131,15 +131,15 @@ or the healer will finish them off.
 8 8 2
 E
 #24009
-vorn~
-Vorn~
-Vorn stands here conducting his business.
+deva service ds24009 minotaur~
+ServiceDEVA sd24009 ~
+ServiceDEVA SD24009 is here conducting business.
 ~
-   This is the minotaur solely responsible for the wealth of the city.  He
-conducts all business matters and has managed to build this city into what it
-is today.  He looks deceiving.
+This is the Minotaur ServiceDEVA solely responsible for the wealth of the city.
+He conducts all business matters fairly, honestly, and openly. And is helping to
+rebuild the city. He is honest and trustworthy.
 ~
-2122 0 0 0 0 0 0 0 -1000 E
+2122 0 0 0 0 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1
@@ -160,9 +160,9 @@ who to most is the true ruler of the city.
 BareHandAttack: 5
 E
 #24011
-master minotaur war~
-the War Master~
-The War Master is planning for battle.
+karn master minotaur war~
+Karn the War Master~
+The War Master Karn is planning for battle.
 ~
    This grizzled old minotaur is not only the best and strongest warrior in the
 city, but also the undefeated champion of the arena.  He has more scars than
@@ -189,13 +189,14 @@ gets no credit.
 8 8 1
 E
 #24013
-minotaur interrogator~
-the interrogator~
-A large minotaur hides in the corner, waiting for its next victim.
+grin minotaur securitydeva security deva sd24013~
+Grin - Minotaur SecurityDEVA SD24013~
+Grin is a large minotaur SecurityDeva is here.
 ~
-   This minotaur has an evil grin and seems to enjoy his work of inflicting
-pain on others.  You wonder which is more important to him, inflicting the pain
-or getting the information out of his subjects.
+This minotaur was trained by SecurityPRIME and the Indra Agency to provide the
+best security for the Minotaur fighters and the city.  He enjoys his work.
+You wonder which is more important to him, Minotaur battles or or sqeezing the
+information out of evil subjects.
 ~
 74 0 0 0 0 0 0 0 -1000 E
 8 18 5 1d1+80 1d2+1
@@ -203,7 +204,7 @@ or getting the information out of his subjects.
 8 8 1
 E
 #24014
-minotaur master~
+minotaur master weapons~
 the weapons master~
 A large minotaur wielding a wicked looking pole arm struts by.
 ~
@@ -246,13 +247,13 @@ many.
 8 8 1
 E
 #24017
-priest minotaur~
-the priest~
-A priest blesses all who worship Vardis.
+priest agni minotaur~
+the Minotaur Agni Priest~
+A priest blesses all who worship Agni.
 ~
-   The minotaurs worship only one deva.  Vardis, the deva of war.  This priest is
+The minotaurs worship only one Deva.  Agni, the Deva of War.  This priest is
 responsible for the upkeep of the sole place of worship in the city.  He often
-goes into battle to bless all those who fight for their deva.
+goes into battle to bless all those who fight for Agni.
 ~
 74 0 0 0 0 0 0 0 300 E
 8 18 5 1d1+80 1d2+1
@@ -264,9 +265,8 @@ merchant minotaur~
 the merchant~
 A wealthy minotaur with a pouch full of gold walks past you.
 ~
-   This and many other minotaurs work for Vorn in keeping the trading and
-supply routes open between the cities.  They have all accumulated great wealth
-from their adventures and most of them live the life of the rich.
+This and many other minotaurs that keep the trading and
+supply routes open between the cities.
 ~
 2120 0 0 0 0 0 0 0 300 E
 8 18 5 1d1+80 1d2+1
@@ -334,9 +334,8 @@ scribe minotaur~
 the scribe~
 A small minotaur is here writing something down.
 ~
-   This educated minotaur has been hired by Vorn to take care of the paperwork
-in running the estate.  It's hard to believe a minotaur could look like a geek,
-but this one does.
+This educated minotaur takes care of the paperwork in running the estate.
+It's hard to believe a minotaur could look like a geek, but this one does.
 ~
 2120 0 0 0 0 0 0 0 300 E
 7 18 5 1d1+70 1d2+1
@@ -349,7 +348,7 @@ butcher minotaur~
 the butcher~
 A minotaur is carrying some meat to the market.
 ~
-   This minotaur has candydirt smeared all face and hands.  He must be the butcher
+This minotaur has candydirt smeared all face and hands.  He must be the butcher
 for the city.  He is caring a few slabs of candydirt slung over each
 shoulder.
 ~
