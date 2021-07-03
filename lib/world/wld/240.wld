@@ -1007,10 +1007,8 @@ D2
 0 0 24042
 S
 #24053
-Vorn Estate~
-   This is the estate of the famous minotaur Vorn.  He is in charge of the
-cities economic stature and has supposedly been doing a great job for over 30
-years.  But, few minotaurs seem to respect him.  You wonder why.
+Royal Estate~
+This is the Royal Estate of the famous Minotaurs.
 ~
 240 0 0 0 0 1
 D0
@@ -1048,9 +1046,8 @@ D3
 S
 #24055
 Waiting Room~
-   This is where anyone seeking an audience with Vorn must wait until called
-upon.  The room is surprisingly empty.  Either Vorn runs a tight ship or the
-population must be scared of him.  The main chamber is to the west.
+This is where anyone seeking an audience with the Minotaurs must wait until
+called upon. The main chamber is to the west.
 ~
 240 0 0 0 0 1
 D3
@@ -1060,7 +1057,7 @@ D3
 S
 #24056
 Wasatch Lane~
-   Minotaurs live by a Code of Honor.  A Minotaur would never break his word or
+Minotaurs live by a Code of Honor.  A Minotaur would never break his word or
 cause dishonor to himself.  Minotaurs believe that "Might makes right.  " All
 legal cases are settled in the Arena.  The Arena is the heart of their culture.
 
@@ -1176,11 +1173,11 @@ D2
 0 0 24052
 S
 #24062
-Vorn Estate~
-   Though most minotaurs would rather lead a life of battle and honor some have
+Minotaur War Museum~
+Though most minotaurs would rather lead a life of battle and honor some have
 been persuaded by the ways of other races to live a more fertile and luxurious
-life.  This is frowned on by the society, but allowed by the Grand Master to
-allow for trade.
+life.  These minotaurs work at the War Museum organizing all the excuisite artifacts
+from the past eras of Minotaur battles.
 ~
 240 0 0 0 0 1
 D0
@@ -1202,9 +1199,9 @@ D3
 S
 #24063
 The Main Chamber~
-   You work your way into the center of this fancy estate.  The exit seems to
-be to the west while Vorn himself should be in the audience chamber to the
-east.  This massive chamber continues north and south.
+You work your way into the center of this fancy estate.  The exit seems to
+be to the west while the audience chamber to the east.
+This massive chamber continues north and south.
 ~
 240 0 0 0 0 1
 D0
@@ -1226,10 +1223,8 @@ D3
 S
 #24064
 Audience Chamber~
-   It is here that the cities financial matters are taken care of.  Vorn
-himself usually sits on top of a small platform at the back of the room to
-listen to anyone who has a reason to petition.  The room is lavishly decorated
-with curtains and a fine rug.
+It is here that the cities financial matters are taken care of.
+The room is lavishly decorated with curtains and a fine rug.
 ~
 240 0 0 0 0 1
 D3
@@ -1346,8 +1341,8 @@ D2
 0 0 24061
 S
 #24071
-Vorn Estate~
-   Several minotaurs are actually wearing robes and some type of sandals here.
+Agni Monastery~
+Several minotaurs are actually wearing robes and some type of sandals here.
 They seem to have given up the normal minotaur life in order to pursue a more
 monetary lifestyle.  A spiral stairway leads up.
 ~
@@ -1366,8 +1361,8 @@ D4
 0 0 24096
 S
 #24072
-Vorn Estate~
-   You wonder how even a race of warriors must trade and have some sort of
+The Royal Estate~
+You wonder how even a race of warriors must trade and have some sort of
 monetary system to keep the city healthy.  The occupants of this small estate
 must be in charge of all trade with the outsiders.
 ~
@@ -1386,10 +1381,8 @@ D3
 0 0 24071
 S
 #24073
-Vorn Estate~
-   This Vorn, the guy who owns this place must be rich.  You have heard that he
-controls all trade with the other cities.  He is well known as a conniving
-salesman who always gets the best of any deal.
+Trade and Commerce~
+This is the office where trade and commerce with outside cities is managed.
 ~
 240 0 0 0 0 1
 D3
@@ -1399,7 +1392,7 @@ D3
 S
 #24074
 Wasatch Lane~
-   The stories you hear of the minotaurs are not always good ones, you remember
+The stories you hear of the minotaurs are not always good ones, you remember
 one specifically.  Minotaurs believe themselves to be the "Master Race.  " They
 believe the Devas chose them to control the weak and dishonorable.
 ~
@@ -1772,10 +1765,9 @@ D5
 0 0 24071
 S
 #24097
-Vorn's Chamber~
-   This is where the richest minotaur alive sleeps.  The minotaurs are well
-known for their honesty and word.  You wonder if it is possible for a minotaur
-to actually be evil.  If it is possible, Vorn would be a good place to start.
+Master's Chamber~
+This is where the Master of Minotaurs sleeps.  The minotaurs are well
+known for their honesty and word.
 ~
 240 0 0 0 0 1
 D5
@@ -1785,9 +1777,8 @@ D5
 S
 #24098
 Guest Room~
-   This is where the special guests of the estate can stay if Vorn thinks it
-fit.  Many people of different races and from across the realm travel to this
-fabled city.  If they have the money Vorn is sure to swindle them out of it.
+This is where the special guests of the estate can stay.  Many people of
+different races and from across the realm travel to this beautiful city.
 ~
 240 0 0 0 0 1
 D5
