@@ -40,55 +40,38 @@ adv:world:3302/main
 S
 #3302
 A Groomed Path~
-   You are standing in the western end of a very, very
-small valley, just about room enough for the one house
-standing to your east.  You can see from here that the
-door to the cozy cottage is open and inviting, but the
-interior seems very dark.  A path bordered by shrubberies
-leads up to the structure, and ends where you are
-standing; right by the easiest path back up into the
-mountains.
+adv:world:3302/main
 ~
 33 0 0 0 0 5
 D1
+adv:world:3303/look
 ~
 ~
 0 -1 3303
 D4
+adv:world:3301/look
 ~
 ~
 0 -1 3301
 S
 #3303
 Outside A House~
-   The path you are on leads from the front door of the
-cottage to your east, to the edge of the small valley
-to the west.  The building seems quiet...almost too
-quiet.  A small voice in the back of your head, the
-same voice that has saved your life on countless
-occasions, seems to be telling you that something is
-very, very wrong here.
+adv:world:3303/main
 ~
 33 0 0 0 0 2
 D1
-It is a normal front door to a house.
+adv:world:3304/look
 ~
 door front~
 1 -1 3304
 D3
+adv:world:3302/look
 ~
 ~
 0 -1 3302
 S
 #3304
 The Smithery~
-   Devastation greets your eyes.
-   The forge has been blasted apart, along with most of
-the back door.  Hammers, tongs, and anvils lie about in
-one gigantic mess, and the smith's bed smoulders yet.
-This place has been utterly wrecked and blasted apart, by
-more than one man you would think from all the tracks in
-the dust...
 ~
 33 8 0 0 0 0
 D1
