@@ -79,16 +79,15 @@ adv:world:3305/look
 D3
 adv:world:3303/look
 ~
-door front~
+~
 1 -1 3303
 E
 note~
-adv:3305:world/bed
+adv:3304:world/note
 ~
 E
 tracks dust~
 adv:3304:world/tracks
-~
 S
 #3305
 A Small Garden~
