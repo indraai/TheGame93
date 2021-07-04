@@ -1424,6 +1424,7 @@ You feel uneasy about this place.
 ~
 33 585 0 0 0 4
 D0
+adv:world:3372/look
 ~
 ~
 0 -1 3372
@@ -1446,10 +1447,8 @@ dirt stone~
 ~
 S
 #3372
-The Pit~
-You fall through the illusionary floor.
-
-You hit the poisoned spikes below.
+The Pit of True Evil~
+adv:world:3372/main
 ~
 33 76 0 0 0 0
 S
