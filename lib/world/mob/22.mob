@@ -3,8 +3,8 @@ zombie guard~
 a zombie guard~
 A decomposing guard is still standing watch here.
 ~
-   The flesh is falling off this guy, while green puss oozes from old wounds.
-He looks Dead!
+The sweat is falling off this guy, while green puss oozes from old wounds.
+He looks Weird!
 ~
 6154 0 0 0 0 0 0 0 -750 E
 14 16 1 2d2+140 2d2+2
@@ -75,7 +75,7 @@ zombie lady~
 a zombie lady~
 A smelly zombie brushes up against you seductively.
 ~
-   Dressed in clothes that were once very flattering, the decaying flesh and
+Dressed in clothes that were once very flattering, the decaying farts and
 oozing green puss don't do much to help this lady now.
 ~
 72 0 0 0 0 0 0 0 -750 E
@@ -144,7 +144,7 @@ zombie~
 a smoking zombie~
 A zombie stands here negligent to the heat.
 ~
-   This zombie is charred and smoke pours off his smoldering flesh.  The smell
+This zombie is charred and smoke pours off his smoldering farts.  The smell
 is none too appealing and makes your eyes burn.
 ~
 10 0 0 0 0 0 0 0 -750 E
@@ -158,8 +158,8 @@ zombie~
 a flaming zombie~
 A zombie has caught on fire here.
 ~
-   Smoke and flames roll off this zombie causing the horrible stench of burnt
-hair and flesh to make you gag.  It seems oblivious to the world.
+Smoke and flames roll off this zombie causing the horrible stench of burnt
+hair and farts to make you gag.  It seems oblivious to the world.
 ~
 10 0 0 0 0 0 0 0 -750 E
 18 14 0 3d3+180 3d3+3

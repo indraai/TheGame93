@@ -1,18 +1,15 @@
 #3300
-A Scraggly Trail~
-   This trail slopes up and away from the main road to
-the west.  At points the trail seems to fade into
-obscurity against the gray stone and near-gray mountain
-grass prevalent here.  The trail leads generally eastward
-and up higher into the rocky ground.  There is a sign
-here, seemingly out-of-place in this rough country.
+A Winding Trail~
+adv:world:3300/main
 ~
 33 68 0 0 0 5
 D1
+adv:world:3301/look
 ~
 ~
 0 -1 3301
 D3
+adv:world:3500/look
 ~
 ~
 0 -1 3500
@@ -22,6 +19,7 @@ credits info~
 ~
 E
 sign~
+<<<<<<< HEAD
         ,_____________________________.
         |                             |
         |         Gabadiel's          |
@@ -34,91 +32,76 @@ sign~
                      |  |
                      |  |
                      |  |
+=======
+adv:world:3300/sign
+>>>>>>> 7ff6a96e99847c80bd9d33ed7cf4cdc4c7ddd58d
 ~
 S
 #3301
-A Scraggly Trail~
-   What could barely be called a trail leads west back
-down the mountainside, and down into a very small valley
-where a small house sits in the middle of a well-groomed
-yard.  The door to the house is open and inviting,
-welcoming you for a visit.
+A Winding Trail~
+adv:world:3301/main
 ~
 33 0 0 0 0 5
 D3
+adv:world:3300/look
 ~
 ~
 0 -1 3300
 D5
+adv:world:3302/look
 ~
 ~
 0 -1 3302
 S
 #3302
 A Groomed Path~
-   You are standing in the western end of a very, very
-small valley, just about room enough for the one house
-standing to your east.  You can see from here that the
-door to the cozy cottage is open and inviting, but the
-interior seems very dark.  A path bordered by shrubberies
-leads up to the structure, and ends where you are
-standing; right by the easiest path back up into the
-mountains.
+adv:world:3302/main
 ~
 33 0 0 0 0 5
 D1
+adv:world:3303/look
 ~
 ~
 0 -1 3303
 D4
+adv:world:3301/look
 ~
 ~
 0 -1 3301
 S
 #3303
 Outside A House~
-   The path you are on leads from the front door of the
-cottage to your east, to the edge of the small valley
-to the west.  The building seems quiet...almost too
-quiet.  A small voice in the back of your head, the
-same voice that has saved your life on countless
-occasions, seems to be telling you that something is
-very, very wrong here.
+adv:world:3303/main
 ~
 33 0 0 0 0 2
 D1
-It is a normal front door to a house.
+adv:world:3304/look
 ~
 door front~
 1 -1 3304
 D3
+adv:world:3302/look
 ~
 ~
 0 -1 3302
 S
 #3304
 The Smithery~
-   Devastation greets your eyes.
-   The forge has been blasted apart, along with most of
-the back door.  Hammers, tongs, and anvils lie about in
-one gigantic mess, and the smith's bed smoulders yet.
-This place has been utterly wrecked and blasted apart, by
-more than one man you would think from all the tracks in
-the dust...
+adv:world:3304/main
 ~
 33 8 0 0 0 0
 D1
-It is a normal hole torn in the wall leading outside into
-a garden.
+adv:world:3305/look
 ~
 ~
 0 -1 3305
 D3
-It is a normal front door.
+adv:world:3303/look
 ~
 door front~
 1 -1 3303
 E
+<<<<<<< HEAD
 tracks dust~
    Three sets of prints lead out where the back door used to stand.
 ~
@@ -131,27 +114,34 @@ and two swords that came before, discarded as 'Not quite what I was working
 towards'.  Looking around, you notice a distinct lack of any swords.  You think
 you may have a motive now...
 ~
+=======
+note~
+adv:3305:world/bed
+~
+E
+tracks dust~
+adv:3304:world/tracks
+~
+>>>>>>> 7ff6a96e99847c80bd9d33ed7cf4cdc4c7ddd58d
 S
 #3305
 A Small Garden~
-   This garden was probably once kept orderly and weedless.
-Unfortunately, it seems someone has been careless with a
-fireball.  There is nothing here now but blast-marks and
-ashes, and the remains of a trail leading to the east edge
-of this tiny valley.
+adv:world:3305/main
 ~
 33 0 0 0 0 2
 D1
+adv:world:3306/look
 ~
 ~
 0 -1 3306
 D3
+adv:world:3304/look
 ~
 ~
 0 -1 3304
 E
 tracks track~
-   They lead east.
+adv:world:3305/tracks
 ~
 S
 #3306
@@ -1457,9 +1447,9 @@ dirt stone~
 S
 #3372
 The Pit~
-   You fall through the illusionary floor.
+You fall through the illusionary floor.
 
-   You hit the poisoned spikes below.
+You hit the poisoned spikes below.
 ~
 33 76 0 0 0 0
 S

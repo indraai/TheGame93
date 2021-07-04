@@ -5840,7 +5840,7 @@ effects of an area into account. By this, I do not mean having a mini-model of
 an actual ecological environment, but rather having things that make the area
 seem more plausible. The best things to put in to make an area more plausible
 are useless objects that actually add atmosphere to the area. Food sources for
-the mobiles in your area are always necessary to fleshing things out, as are
+the mobiles in your area are always necessary to working things out, as are
 creating import and export goods for cities, complete with customs houses.
    Your zone should have a strong plot that is incorporated throughout. This
 can be done by using the different descriptions available. Mobile look
@@ -6911,7 +6911,7 @@ not normally modify exits this way, instead you would use dig or buildwalk.
 @yNONE@n
 What people see when they look in that direction. i. e. look north.
 These must always be complete sentences. For example, "You see the
-main chamber of the temple." These can really flesh out a zone.
+main chamber of the temple." These can really complete a zone.
 
 3) Door name   : @yNONE@n
 This is a keyword field. A keyword is the word you use when you perform
@@ -6958,7 +6958,7 @@ Any noun in the room description that cannot be adequately described, but
 is hinted to play some sort of role should either outright exist as an object
 or have an extra description in the room representing it.  This goes even if
 the idea of the object being of use is a mere smokescreen. Use extra
-descriptions extensively, to flesh out a room, exits, and objects. Hide info,
+descriptions extensively, to work out a room, exits, and objects. Hide info,
 hints, tips and tricks in them.
    Of course all rooms have a description. But very few ever have extra
 descriptions. For example, there might be something mentioned in the room
@@ -8985,8 +8985,8 @@ For some reason it is thought that knights lugged around 50 pound whoppers that
 were a foot thick and other such nonsense. Something people also are not quite
 correct about is the ability of swords to easily cut through hard materials
 such as wood and metal.  A sword will not chop down a large tree in one stroke
-or split an anvil, but it will do a great deal of damage to flesh and bone even
-if the victim is wearing armor.
+or split an anvil, but it will do a great deal of damage to the opponent is
+wearing armor.
 
    Finally, if you would like to know any more about historical swords, contact
 Shamra or visit the international sword forum at http://forums.swordforum.com.
@@ -9420,9 +9420,9 @@ on in the area, and how other people in the world view the place. The more
 work you put into the theme the better it will be, and the better other areas
 will be that build off of it. Discuss your ideas and concepts with others to
 help develop them to their fullest.
-   Zones should be well fleshed out stories that catch the visitors attention
+   Zones should be well worked out stories that catch the visitors attention
 and bring out their curiosity, making them want to stay for more. The
-descriptions should be well fleshed out, bringing images into the players
+descriptions should be well worked out, bringing images into the players
 minds, and there should be challenges and tricks that the player will not
 expect.
    Try and build a mini quest into part of your area so that characters can
