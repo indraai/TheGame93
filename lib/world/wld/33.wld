@@ -98,7 +98,7 @@ adv:world:3305/look
 D3
 adv:world:3303/look
 ~
-door front~
+~
 1 -1 3303
 E
 <<<<<<< HEAD
@@ -116,13 +116,16 @@ you may have a motive now...
 ~
 =======
 note~
-adv:3305:world/bed
+adv:3304:world/note
 ~
 E
 tracks dust~
 adv:3304:world/tracks
+<<<<<<< HEAD
 ~
 >>>>>>> 7ff6a96e99847c80bd9d33ed7cf4cdc4c7ddd58d
+=======
+>>>>>>> 445955705d2a295e025b5dfbf28a67913fafe5e0
 S
 #3305
 A Small Garden~
