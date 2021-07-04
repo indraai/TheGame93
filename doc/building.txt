@@ -100,7 +100,7 @@ important is the number and quality of areas available. The areas are what
 tend to make a MUD original. For example, one MUD could be based upon a magic
 rich world and the code and areas would reflect this, while another could
 revolve around cities and thieves. Each of these MUDs would have its areas
-designed in such a way to flesh out this theme. In essence, building an area
+designed in such a way to work out this theme. In essence, building an area
 is like writing a book. It needs to have a plot, needs to be descriptive, and
 needs to be populated with memorable people and places.
 
@@ -166,7 +166,7 @@ standing out in a field and looking off to the north and seeing something like:
 The fields stretch off towards the large hills on the horizon. Far to the north
 you see what appears to be a plume of smoke.
 
-With door descriptions like these, an area will feel more fleshed out to the
+With door descriptions like these, an area will feel more open out to the
 player. Many players (both experienced and first timers) read the descriptions
 carefully the first time they walk through an area, and having many extra
 descriptions helps them fill out their idea of what things actually look like.
