@@ -320,7 +320,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n## Extra Description\r"
 	  "\nselect[1:keyword]:%s\r"
-	  "\select[2:description]:%s\r"
+	  "\nselect[2:description]:%s\r"
     "\nmenu:q:done",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
