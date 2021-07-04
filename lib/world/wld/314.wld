@@ -1,11 +1,9 @@
 #31400
-Entrance to the Asylum Grounds~
-   The pitted black gate lies just to the north, the crumbling stone wall
-running off east and west from the gate.  It is a wonder the gate is still
-functional, so old and decrepit it seems.  South is what used to be the main
-entryway to a large compound of some sort, one that seems almost scholastic in
-appearance, but more somber - more militaristic.  In any case, it is certainly
-no longer in use, and has not been for some time.
+The Temple Grounds~
+The golden gate lies just to the north, the stone wall running off east and west
+from the gate. South is the main entryway to a large compound of some sort,
+one that seems almost scholastic in appearance. In any case, it looks in good
+use, and has been for some time.
 ~
 314 0 0 0 0 0
 D2
@@ -14,32 +12,30 @@ D2
 0 0 31401
 E
 info credits~
-   *X'Raantra's Altar of Offeirngs
-   *Written by Kaan for Dibrova
+*Shaanatra's Altar of Offeirngs
+*Written by Quinn for the Devas
 Level: 15 - 45
 100 rooms
 21 mobs
 30 objs
 Connector Zones: The Plains
-This is set in the grounds of an old insane asylum which X'Raantra
-took for his own use. X'Raantra hears a voice in his head -he is a
-nutball- this voice he hears, he takes to be the Lord Almighty. The
-voice tells him that only through offerings will he ascend
-through the gates of Heaven. X'Raantra, though obviously crazy, is
-extremely enigmatic and has been able to gather a good number of people
-to join in his cult which is centered in the ruins of this old asylum.
-There are a few spec_procs I added to a couple of mobs - just for
+This is set in the grounds of an old insane temple which Shaanatra
+took for his own use. Shaanatra hears a sound in his head - he is a
+genius - this sound he hears, he takes to be the sound of the universe. The
+sound teaches him that only through offerings will he ascend
+through the gates of Heaven. Shaanatra, though obviously genius, is
+extremely energetic and has been able to gather a good number of people
+to join in his school of singing bowls which is centered in the ruins of this
+old temple. There are a few spec_procs I added to a couple of mobs - just for
 effect, really. The zone probably will not lack without these procs.
 Links: 00n
 ~
 S
 #31401
-At the Old Fountain~
-   A fountain, dry and cracked and blackened by grime and dirt, stands in the
-center of this small court.  The fountain boasts the figure of a man standing
-proudly in the center, a thick tome tucked under his one arm and the other hand
-holding onto his lapels.  There is still some sort of liquid at the bottom of
-the fountain, but it does not appear to be safe for consumption.
+The Fountain~
+A fountain, stands in the center of this small court. The fountain boasts the
+figure of a man standing proudly in the center, a thick tome tucked under his
+one arm and the other hand holding onto his lapels.
 ~
 314 0 0 0 0 0
 D0
@@ -60,12 +56,11 @@ D3
 0 0 31405
 S
 #31402
-The Asylum Grounds~
-   Large buildings surround every side, paths which once must have been well
-tended are now choked with weeds and run between these buildings and around
-them.  Two very square-ish looking buildings lie to the east and the west, a
-smaller and taller building lying to the south.  To the north is, of course, the
-exit from this place.  The door to the southern-most building lies directly
+The Temple Grounds~
+Large buildings surround every side, paths which are well tended are now blooming
+with flowers and fruits of all kinds. Two very square-ish looking buildings
+lie to the east and the west, a smaller and taller building lying to the south.
+To the north is, of course, the exit. There is also a door to the south.
 south from here.
 ~
 314 1 0 0 0 0
@@ -87,11 +82,8 @@ D3
 0 0 31406
 S
 #31403
-The Asylum Grounds~
-   The tall weeds cover most of the masonry that used to cover the ground here,
-only small patches of stonework still visible through the tangle.  Once upon a
-time, this place must have been some sort of well-funded institution.  What
-could have happened to cause it to be left in this state, one can only imagine.
+The Temple Grounds~
+Green grass cover most area with masonry inlaid around. This looks like a well taken care of place.
 ~
 314 1 0 0 0 0
 D2
@@ -104,11 +96,10 @@ D3
 0 0 31401
 S
 #31404
-The Asylum Grounds~
-   The ground beneath was very obviously once cobbled entirely in this small
-court, the stones still prohibiting growth in many small spots throughout.  A
-long two story building lies to the east, its main doors just east from here,
-one of them swinging on its hinge at a crazy angle. A jumbled path leads south between the buildings.
+The Temple Grounds~
+The ground beneath are cobbled entirely in this small court. A long two story
+building lies to the east, its main doors just east from here, one of them
+swinging on its hinge at a crazy angle. A path leads south between the buildings.
 ~
 314 1 0 0 0 0
 D0
@@ -129,12 +120,10 @@ D3
 0 0 31402
 S
 #31405
-The Asylum Grounds~
-   Close by to the west is the door to a long two story building made of carved
-stone.  The court around you must once have been quite a sight with the fountain
-in the center and the surrounding buildings, however someone or something caused
-all of this to be abandoned and left to rot into its current state.  Perhaps
-funding ran out, perhaps a disease.  One can only surmise.
+The Temple Grounds~
+Close by to the west is the door to a long two story building made of carved
+stone. The court around you is quite a sight with the fountain in the center and
+the surrounding buildings.
 ~
 314 1 0 0 0 0
 D1
@@ -151,10 +140,10 @@ door~
 1 0 31420
 S
 #31406
-The Asylum Grounds~
-   A long two story building runs along north and south, forming the western
-boundary of this court.  To the south is a path leading around the buildings of
-the court heading farther back into the asylum's area.  At this angle, south
+The Temple Grounds~
+A long two story building runs along north and south, forming the western
+boundary of this court. To the south is a path leading around the buildings of
+the court heading farther back into the Temples's area. At this angle, south
 along the path and somewhat behind the southern building a light of some sort
 flickers.
 ~
@@ -173,13 +162,10 @@ D2
 0 0 31435
 S
 #31407
-Inner Hall of the Academy~
-   The floor of this building is made from some of concrete that was once white
-concrete.  It is now stained black from the years of disuse and neglect, the
-elements getting a solid hold on its degradation.  A door lies on the east wall,
-a small hole cut in upper center area where it appears there might once have
-been glass placed.  The hallway runs north from here, a thin trail of old scuff
-marks running along the length of the floor.
+The Temple (Innder Hall)~
+The floor of this building is made from white marble. A door lies on the east wall,
+a small hole cut in upper center area where it appears there is a symbol.
+The hallway runs north from here.
 ~
 314 9 0 0 0 0
 D0
@@ -196,12 +182,10 @@ door~
 1 0 31404
 S
 #31408
-Inner Hall of the Academy~
-   The hall here looks much the same as the hall to the south, the grime making
-everything blend together dirtily.  Another door leads off to the east, the same
-opening in its top center where it appears a window might once have been.  The
-trail of scuff marks continues north to the end of the hall and leads into yet another
-door there.
+The Temple (Inner Hall)~
+The hall here looks much the same as the hall to the south. Another door leads
+off to the east, the same opening in its top center where it appears a window
+might once have been.
 ~
 314 9 0 0 0 0
 D0
@@ -218,12 +202,10 @@ D2
 0 0 31407
 S
 #31409
-Inner Hall of the Academy~
-   The hallway comes to an end, a final door to the east leading into a
-classroom.  The scuff marks trail, runs into the room where it is too
-dark to see what may be inside.  The hall runs south into the darkness, back
-toward the exit.  A set of concrete stairs lead up into the darkness, their
-steps covered in litter and rubble.
+The Temple (Inner Hall)~
+The hallway comes to an end, a final door to the east leading into a
+classroom. The hall runs south, back toward the exit. A set of crystal stairs
+lead up.
 ~
 314 9 0 0 0 0
 D1
@@ -240,13 +222,10 @@ D4
 0 0 31413
 S
 #31410
-Classing Room~
-   This small twenty foot by twenty foot room was once used as a room for
-teaching some sort of education to the pupils which resided at this asylum.
-There is an old blackboard, broken at one corner, still attached to the south
-wall and the desks and chairs which used to seat the pupils are still nailed
-solidly to the floor.  Obviously, if the chairs and desks had to be nailed to
-the floor there was a need for forced discipline.
+Teaching Room (Beginner)~
+This huge room is used for teaching singing bowls to the students which reside
+at this Temple. There is a old blackboard, attached to the south wall and the
+sitting mats used to seat the pupils are situated on the floor.
 ~
 314 9 0 0 0 0
 D3
@@ -255,12 +234,10 @@ door~
 1 0 31409
 S
 #31411
-Classing Room~
-   This small room holds three rows of chairs and desks, all of them five desks
-wide.  The chairs face south to a large blackboard and an open area before it
-that must have been where a teacher's desk would have been placed.  There is no
-such desk now.  The chairs and desks remain only because they were bolted into
-the floor of the room, made so as to enforce discipline the old fashioned way.
+Teaching Room~
+This small room students learning the higher forms of singigle bowl tones. The
+sitting mats face south to a large blackboard and an open area before it
+where the teacher sits.
 ~
 314 9 0 0 0 0
 D3
@@ -269,13 +246,9 @@ door~
 1 0 31408
 S
 #31412
-Classing Room~
-   This small room holds three rows of chairs and desks, all placed exact in
-distance from each other and the walls.  The walls were once of white plaster,
-however the plaster has cracked time and time again, leaving gaping holes where
-once smooth clean walls stood.  Lewd scrawlings adorn the walls where they still
-hold any sort of flat surface, sure evidence that this place may not completely
-be deserted.
+Teaching Room~
+This room is where the more advanced students of singing bowl tones come to learn.
+The walls of white marble enhance the vibrations.
 ~
 314 9 0 0 0 0
 D3
@@ -283,20 +256,15 @@ D3
 door~
 1 0 31407
 E
-scrawlings~
-   You try and make out as much of the words as you can but most of them have
-faded into smudges.  Words such as mother and whore are generally
-repeated as well as some short poetry.  One reads Here I sit all broken
-hearted, tried to shit but only, and then it too becomes too faded to tell
-what follows.  Must have been quite important - possibly runes of some sort.
+board~
+You try and make out as much of the words as you can but most of them look like
+advanced drawings. They appear to be cymatic diagrams.
 ~
 S
 #31413
 Upper Hall~
-   Strange that there are no windows in this entire building, it would seem that
-a building of this size made entirely of brick and mortar would get extremely
-warm without ventilation.  There is a door on the east wall, the hall itself
-runs south for a short distance and terminates.
+There are no windows in this entire building. There is a door on the east wall,
+the hall itself runs south for a short distance and terminates.
 ~
 314 9 0 0 0 0
 D1
@@ -314,9 +282,7 @@ D5
 S
 #31414
 Upper Hall~
-   The hallway is so completely littered with debris and rubble from the walls
-and ceiling that it makes it difficult to traverse the hallway.  The walls are
-cracked and scorched from old fires.
+The hallway is so completely polished white marble.
 ~
 314 9 0 0 0 0
 D0
@@ -334,10 +300,7 @@ D2
 S
 #31415
 Upper Hall~
-   Here at the end of the hallway, the floor is covered in chunks of plaster and
-mortar scattered throughout with bricks.  There is a door on the east wall,
-stuck open from all the collected trash on the floor.  Possibly a quick jump
-over the junk would allow a landing to the east...
+Here at the end of the hallway there is a door on the east wall.
 ~
 314 9 0 0 0 0
 D0
@@ -350,10 +313,8 @@ door~
 1 0 31416
 S
 #31416
-Classing Room~
-   Jumbled garbage and rubble lies all over the floor of this small room.  The
-remains of old desks and chairs lie broken and scattered all over the floor, on
-one wall, there is even a small hole through to the next room.
+Meditation Room A~
+One of the many meditation rooms in the Temple.
 ~
 314 9 0 0 0 0
 D3
@@ -361,17 +322,13 @@ D3
 door~
 1 0 31415
 E
-hole~
-   You can see a small bit of the next room over - it appears to be much in the
-same condition as this one.
+sign meditation~
+You can see a sign on the wall with basic meditation instructions.
 ~
 S
 #31417
-Classing Room~
-   The litter that was all over the floor of the hallway has spilled over into
-this room - or is it vice versa?  - coating the floor in filth.  Broken
-splinters of wood from desks and chairs lie scattered about, pieces of forged
-metal interspersed throughout.
+Meditation Room B~
+One of the many meditation rooms in the Temple.
 ~
 314 9 0 0 0 0
 D3
@@ -380,9 +337,8 @@ door~
 1 0 31414
 S
 #31418
-Classing Room~
-The room shows all at various stages of aging.  There is a ton of rubble from
-the building's collapsing walls and ceiling, and the stink is horrific.
+Meditation Room C~
+One of the many meditation rooms in the Temple.
 ~
 314 9 0 0 0 0
 D3
@@ -392,10 +348,7 @@ door~
 S
 #31419
 Hall's End~
-   The hall ends with a door to the west.  The door stands open, propped by the
-floor as it hangs by only one hinge.  The rubble strewn about on the floor from
-the building's decay makes movement through this area quite difficult.  The rubble
-strewn floors does not do much to bolster the ego, either.
+The hall ends with a door to the west.
 ~
 314 9 0 0 0 0
 D2
@@ -409,10 +362,7 @@ door~
 S
 #31420
 Inner Hall~
-   This hall can almost no longer be called such as it is so desolated, so
-ruined by the ravages of time and looters that the walls no longer appear to
-hold any sort of form.  There are holes in the walls, gaping things which give a
-clear view into the rooms of this broken down building.
+There are doors to the north and east.
 ~
 314 9 0 0 0 0
 D0
@@ -429,11 +379,8 @@ D3
 0 0 31423
 S
 #31421
-An Old Office~
-   This appears to have been some sort of office or place of administration at
-one time.  Who knows, possibly long ago it may have been the registration or
-maybe the room where the dean of the asylum had his private audiences with the
-more problematic children.  Who can say?
+Main Office~
+This is the main office of the Temple.
 ~
 314 9 0 0 0 0
 D3
@@ -442,10 +389,8 @@ D3
 0 0 31424
 S
 #31422
-Administrative Office~
-   This is what appears to have been an office of some sort back when the asylum
-was still up and functional.  Scraps of wood and metal lie broken on the floor
-of the room, most likely the remains of office furniture.
+Admin Office~
+This is Administration Office where temple affiars are managed.
 ~
 314 9 0 0 0 0
 D1
@@ -455,9 +400,7 @@ door~
 S
 #31423
 Inner Hall~
-The hall continues its decayed way into the depths of the building, the holes
-in the walls still showing into the other rooms of the building.  It might be a good idea not to stray
-too far from the door.
+The hall continues its way into the depths of the building.
 ~
 314 9 0 0 0 0
 D1
@@ -470,10 +413,8 @@ D2
 0 0 31424
 S
 #31424
-Base of a Crumbling Stairway~
-   A set of stairs lead upward, half of the stone and mortar that once made them
-crumbled and fallen to the ground beneath.  It would take a great deal of skill
-and foolhardy bravery to get up those steps.  There is a door to the east.
+The Stairway (Base)~
+A set of stairs lead upward. There is a door to the east.
 ~
 314 9 0 0 0 0
 D0
@@ -490,9 +431,8 @@ D4
 0 0 31425
 S
 #31425
-At the Top of a Crumbled Stair~
-   The stairway lies just below, its broken mortar and gaping holes staring out
-at any soul foolish enough to attempt a descent.  A door lies to the north, a
+The Stairway (Top)~
+The stairway lies just below. A door lies to the north, a
 hallway runs east.
 ~
 314 9 0 0 0 0
@@ -510,10 +450,8 @@ D5
 0 0 31424
 S
 #31426
-A Darkened Hall~
-   The hall turns at a right angle to the north, heading into darkness.  The
-rubble is just as bad on this upper level as it is in the lower levels.  There
-are no doors or windows in sight.
+Practice Hall~
+The Pactice Hall turns at a right angle to the north.
 ~
 314 9 0 0 0 0
 D0
@@ -526,11 +464,9 @@ D3
 0 0 31425
 S
 #31427
-An Old Office~
-   This appears to have been a very small, very private office.  There are
-stacks of old pieces of paneling, rotted and long since made worthless from time
-and decay, which give every indication that this once was a place of comfort for
-some high ranking administrator.
+Meditation Room D~
+This appears to have been a very small, very private meditation room. There is
+sitting cushion with a few singing bowls on the floor.
 ~
 314 9 0 0 0 0
 D2
@@ -539,8 +475,8 @@ door~
 1 0 31425
 S
 #31428
-Rubble-Strewn Hallway~
-   The hallway runs north to south with no doors on either side and no windows
+Hallway~
+The hallway runs north to south with no doors on either side and no windows
 on either side.
 ~
 314 9 0 0 0 0
@@ -554,11 +490,9 @@ D2
 0 0 31426
 S
 #31429
-Office~
-   This was once obviously some higher-up's office as it appears that it was
-made just for the purpose of entertaining guests and other faculty.  The floor is
-still covered in some small areas by chunks of ratty carpet that was once plush
-and lavish, the walls covered with the same.
+Guest Room~
+This appears that it is made just for the purpose of entertaining guests and other
+faculty. The floor is covered in plush carpet.
 ~
 314 9 0 0 0 0
 D1
@@ -568,8 +502,7 @@ door~
 S
 #31430
 End of a Hallway~
-   The hallways ends here with a door on the west wall.  Piles of rubble climb
-the other walls making footing in any direction very treacherous
+The hallways ends here with a door on the west wall.
 ~
 314 9 0 0 0 0
 D2
@@ -582,9 +515,8 @@ door~
 1 0 31429
 S
 #31431
-Receiving Chamber~
-   This was the dean of the asylum resided back when the asylum was functional -
-as an asylum anyway. There is a small door in the east wall.
+Monk Chambers~
+This is where the Monks reside in the Temple. There is a small door in the east wall.
 ~
 314 9 0 0 0 0
 D0
@@ -597,10 +529,8 @@ door~
 1 0 31432
 S
 #31432
-Living Area~
-   This was the dean and his family's main room for gathering together and
-eating meals or sharing time.  The remains of an old table are here, one leg all
-that is left of the original four, propping the table up at an absurd angle.
+Social Area~
+This is the Monks room for gathering together and eating snacks or sharing time.
 ~
 314 9 0 0 0 0
 D2
@@ -613,12 +543,10 @@ door~
 1 0 31431
 S
 #31433
-Bedchamber~
-   This ramshackle room is all that is left of what was once a very comfortable
-bedchamber to the dean and his wife.  The sheets and pillows have long since
-been torn to shreds and carried off by rats for bedding and nests, now all that
-is left is a pile of timber from the bed and furniture and a lot of plaster
-chunks which have fallen from the walls.
+Sleeping Area~
+This room is a very comfortable sleeping chamber for the Monks. The sheets and
+pillows have been stacked against the wall with sleeping mats rolled up next to
+them. The Monks lead a simple life to save resources for all these singing bowls.
 ~
 314 9 0 0 0 0
 D0
@@ -627,13 +555,10 @@ D0
 0 0 31432
 S
 #31434
-Jumbled Path~
-   Mostly covered in weeds and brownish plant life, this trail is strewn with a
-litter of rock and mortar from the buildings around it.  It appears that the way may have been
-cleared quite recently as although there is a great deal of rubble strewn about,
-the way through it all is not in any way prohibitive, as if a path had been
-cleared.  To the south a flickering light of some sort can be seen.  To the east
-is the entryway into a small, low building made of stone.
+The Path~
+Mostly covered in green grass and plant life, this trail is strewn flowers.
+To the south a flickering light of some sort can be seen. To the east is the
+entryway into a small, low building made of stone.
 ~
 314 1 0 0 0 0
 D0
@@ -651,9 +576,9 @@ D2
 S
 #31435
 A Flickering Path~
-The path heads south toward the source of the light.  A terrible feeling
-accompanies this place, almost as if an anticipation of death were in the near
-future.  A crude stone foundation with no roof lies just to the west.
+The path heads south toward the source of the light. A strange feeling
+accompanies this place, almost as if an anticipation of excitement were in the
+near future. A crude stone foundation with no roof lies just to the west.
 ~
 314 1 0 0 0 0
 D0
@@ -670,14 +595,13 @@ D3
 0 0 31440
 S
 #31436
-Jumbled Path Near the Courtyard~
-   The source of the flickering light is now in sight.  It comes from a large
-crumbling stone gazebo set in the middle of a huge courtyard.  The courtyard is
-surrounded by darkened buildings, all of which show signs of decay.  There are
-humanoid shaped moving all about the courtyard, some appear as if they might be
-dancing, others appear to be going about specified tasks.  In the gazebo there
-are a number of people as well, all of which swaying in unison to some as yet
-unheard sound.
+Near the Courtyard~
+The source of the flickering light is now in sight. It comes from a large stone
+gazebo set in the middle of a huge courtyard. The courtyard is surrounded by
+buildings. There are monks moving all about the courtyard, some appear as if they
+might be dancing, others appear to be going about specified tasks. In the gazebo
+there are a number of people as well, all of which swaying in unison to some as
+yet unheard sound.
 ~
 314 5 0 0 0 0
 D0
@@ -690,12 +614,12 @@ D2
 0 0 31445
 S
 #31437
-Just North of the Courtyard~
-   The path enters into the northwest corner of a large stone courtyard,
-complete with a huge stone gazebo in the center.  It turns out the gazebo is the
-source of the flickering light, as some sort of fire is lit upon it, humans
-moving about around that fire.  All along in the courtyard are also people who
-seem to be about some sort of business, whether swaying in some ritual of some
+North of the Courtyard~
+The path enters into the northwest corner of a large stone courtyard,
+complete with a huge stone gazebo in the center. It turns out the gazebo is the
+source of the flickering light, as some sort of light is lit upon it, humans
+moving about around that light. All along in the courtyard are also people who
+seem to be about some sort of business, whether swaying in some way of some
 sort of going about a task of some sort, they are many.
 ~
 314 5 0 0 0 0
@@ -712,7 +636,7 @@ S
 The Guards' Quarters~
 It must be that the inmates of this institution were at least slightly
 harmful to themselves and others if a guard had to be kept on the grounds at all
-times.  This building is much like any of the others around, decripid and
+times. This building is much like any of the others around, decripid and
 falling apart.
 ~
 314 9 0 0 0 0
@@ -727,8 +651,8 @@ D3
 S
 #31439
 The Guards' Quarters~
-   The building is in a shambles in every area.  Nothing is left of any value,
-only broken bits of furniture and the like.  This asylum must have been
+The building is in a shambles in every area. Nothing is left of any value,
+only broken bits of furniture and the like. This Temple must have been
 abandoned and left to rot quite some time ago.
 ~
 314 9 0 0 0 0
@@ -738,11 +662,8 @@ D3
 0 0 31438
 S
 #31440
-The Old Stables~
-   At one time this must have been where the residents, faculty and visitors of
-the asylum kept their mounts while they stayed on the grounds.  The floor shows
-no sign of ever having been stoned, the walls are all of a crude stone which
-does not look to have been made for the purpose of warmth at all.
+The Stables~
+The stables.
 ~
 314 1 0 0 0 0
 D1
@@ -755,8 +676,8 @@ D2
 0 0 31441
 S
 #31441
-The Old Stables~
-The old horse stables.
+The Stables~
+The stables.
 ~
 314 1 0 0 0 0
 D0
@@ -765,9 +686,9 @@ D0
 0 0 31440
 S
 #31442
-Asylum Courtyard~
-   The courtyard here is enormous, dominated in the center by a large gazebo
-which holds within a flickering flame of some sort.  The stones underfoot are
+Temple Courtyard~
+The courtyard here is enormous, dominated in the center by a large gazebo
+which holds within a flickering light of some sort. The stones underfoot are
 tacky, sticking to the soles of boots and shoes, making progress at the very
 least discouraged.
 ~
@@ -786,10 +707,10 @@ D2
 0 0 31448
 S
 #31443
-Asylum Courtyard~
-   This is the main courtyard for the entire asylum.  A huge stone gazebo
+Temple Courtyard~
+This is the main courtyard for the entire Temple. A huge stone gazebo
 dominates the center of the courtyard, stone steps leading up to its main floor
-from every direction.  The ground underfoot is tacky to the touch, making feet
+from every direction. The ground underfoot is tacky to the touch, making feet
 stick it.
 ~
 314 1 0 0 0 0
@@ -807,9 +728,9 @@ D3
 0 0 31442
 S
 #31444
-Asylum Courtyard~
-   This courtyard was once very obviously the center of traffic for the asylum
-back in the day.  A large stone gazebo lies directly south from here, a set of
+Temple Courtyard~
+This courtyard was once very obviously the center of traffic for the Temple
+back in the day. A large stone gazebo lies directly south from here, a set of
 wide steps leading up into it.
 ~
 314 1 0 0 0 0
@@ -827,9 +748,9 @@ D3
 0 0 31443
 S
 #31445
-Asylum Courtyard~
-   This courtyard was once very obviously the center of traffic for the asylum
-back in the day.  A large stone gazebo lies in the center of the courtyard, a
+Temple Courtyard~
+This courtyard was once very obviously the center of traffic for the Temple
+back in the day. A large stone gazebo lies in the center of the courtyard, a
 set of wide steps leading up into it.
 ~
 314 1 0 0 0 0
@@ -851,7 +772,7 @@ D3
 0 0 31444
 S
 #31446
-Asylum Courtyard~
+Temple Courtyard~
 This area of the courtyard is a small spot of cobbled ground which lies
 wedged in between two sets of the stairs which run up to the gazebo.
 ~
@@ -876,9 +797,8 @@ S
 #31447
 The Gazebo Steps~
 Now the source of the light in the gazebo is plain to see - a flickering
-torch is thrust into a stone holder, a makeshift altar next to it.  A man
-dressed in dark robes kneels before the altar, arms upraised in
-prayer - a curved dagger clenched tightly in one upraised fist.
+torch is thrust into a stone holder, a shrine next to it. A monk
+dressed in robes sitting playing singing bowls.
 ~
 314 5 0 0 0 0
 D0
@@ -899,11 +819,11 @@ D3
 0 0 31446
 S
 #31448
-Asylum Courtyard~
-   The courtyard ends at its westernmost boundary, a long low building marking
-that boundary.  The entrance to the building lies just south, a set of tall
-steps leading up into its dark interior.  Just behind the building a tall water
-tower can be seen rising up into the night sky.
+Temple Courtyard~
+The courtyard ends at its westernmost boundary, a long low building marking
+that boundary. The entrance to the building lies just south, a set of tall
+steps leading up into its dark interior. Just behind the building a tall water
+tower can be seen rising up into the sky.
 ~
 314 1 0 0 0 0
 D0
@@ -921,10 +841,9 @@ D2
 S
 #31449
 The Gazebo Steps~
-   Now the source of the light in the gazebo is plain to see - a flickering
-torch is thrust into a stone holder, a makeshift altar next to it.  A man
-dressed in dark robes kneels before the altar, arms upraised in
-prayer - a curved dagger clenched tightly in one upraised fist.
+Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a shrine next to it. A monk
+dressed in robes is playing singing bowls.
 ~
 314 5 0 0 0 0
 D0
@@ -946,8 +865,8 @@ D3
 S
 #31450
 Entrance to a Building~
-   A very official looking building lies to the west.  A set of double
-doors lie open at crazy angles, the interior dark and mysterious.  Straight to
+A very official looking building lies to the west. A set of double
+doors lie open at crazy angles, the interior light and airy. Straight to
 the east is a set of steps leading up to a stone gazebo.
 ~
 314 1 0 0 0 0
@@ -969,10 +888,10 @@ D3
 0 0 31474
 S
 #31451
-X'Raantra's Altar~
+Soma's Shrine~
 The floor of the gazebo is stone, like the rest of the edifices which make up
-this asylum, and is sunk in roughly a foot from the edges.  This sunken area
-forms a sort of a pool.  Torches are thrust into holders on the supports of the
+this Temple, and is sunk in roughly a foot from the edges. This sunken area
+forms a sort of a pool. Torches are thrust into holders on the supports of the
 gazebo's ceiling, four of them in number lighting this place all too well.
 ~
 314 1 0 0 0 0
@@ -994,9 +913,9 @@ D3
 0 0 31449
 S
 #31452
-Asylum Courtyard~
-   The courtyard butts up against the outer wall of a single story building to
-the west.  The entrance to this building lies just north, through a set of open
+Temple Courtyard~
+The courtyard butts up against the outer wall of a single story building to
+the west. The entrance to this building lies just north, through a set of open
 double doors.
 ~
 314 1 0 0 0 0
@@ -1014,9 +933,9 @@ D2
 0 0 31462
 S
 #31453
-Asylum Courtyard~
-   This area of the courtyard is a small spot of cobbled ground which lies
-wedged in between two sets of the stairs which run up to the gazebo.  The scent
+Temple Courtyard~
+This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo. The scent
 of fresh flowers wafts heavily in the air, the stone all around testament to the
 fact that people must care for this courtyard daily.
 ~
@@ -1040,10 +959,9 @@ D3
 S
 #31454
 The Gazebo Steps~
-   Now the source of the light in the gazebo is plain to see - a flickering
-torch is thrust into a stone holder, a makeshift altar next to it.  A man
-dressed in dark robes kneels before the altar, arms upraised in
-prayer - a curved dagger clenched tightly in one upraised fist.
+Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a shrine next to it. A man
+dressed in robes playing singing bowls.
 ~
 314 5 0 0 0 0
 D0
@@ -1064,9 +982,9 @@ D3
 0 0 31453
 S
 #31455
-Asylum Courtyard~
-   This area of the courtyard is a small spot of cobbled ground which lies
-wedged in between two sets of the stairs which run up to the gazebo.  The scent
+Temple Courtyard~
+This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo. The scent
 of fresh flowers wafts heavily in the air, the stone all around testament to the
 fact that people must care for this courtyard daily.
 ~
@@ -1090,10 +1008,9 @@ D3
 S
 #31456
 The Gazebo Steps~
-   Now the source of the light in the gazebo is plain to see - a flickering
-torch is thrust into a stone holder, a makeshift altar next to it.  A man
-dressed in dark  kneels before the altar, arms upraised in
-prayer - a curved dagger clenched tightly in one upraised fist.
+Now the source of the light in the gazebo is plain to see - a flickering
+torch is thrust into a stone holder, a shrine next to it. A monk
+dressed in robes sitting playing singing bowls.
 ~
 314 5 0 0 0 0
 D0
@@ -1114,9 +1031,9 @@ D3
 0 0 31451
 S
 #31457
-Asylum Courtyard~
-   This area of the courtyard is a small spot of cobbled ground which lies
-wedged in between two sets of the stairs which run up to the gazebo.  The scent
+Temple Courtyard~
+This area of the courtyard is a small spot of cobbled ground which lies
+wedged in between two sets of the stairs which run up to the gazebo. The scent
 of fresh flowers wafts heavily in the air, the stone all around testament to the
 fact that people care for this courtyard daily.
 ~
@@ -1139,12 +1056,11 @@ D3
 0 0 31454
 S
 #31458
-Asylum Courtyard~
-   This is the far northeast end of the courtyard.  An old decrepit chapel lies
-to the east, the entrance south from here.  From this angle, a tall bell tower
-can be seen rising high above the chapel, the bell still hanging inside.  A
-large stone gazebo lies in the center of the courtyard, a flickering light
-burninng strong inside.
+Temple Courtyard~
+This is the far northeast end of the courtyard. An Offering Hall lies
+to the east, the entrance south from here. From this angle, a tall bell tower
+can be seen rising high above the Hall, the bell hanging inside. A large stone
+gazebo lies in the center of the courtyard, a flickering light strong inside.
 ~
 314 1 0 0 0 0
 D2
@@ -1157,9 +1073,9 @@ D3
 0 0 31445
 S
 #31459
-Asylum Courtyard~
-   The entrance to a chapel lies just south from here, a wide set of stone steps
-leading up east to the main door.  To the southwest, in the center of the
+Temple Courtyard~
+The entrance to a chapel lies just south from here, a wide set of stone steps
+leading up east to the main door. To the southwest, in the center of the
 courtyard, is a large stone gazebo with a ceremony of some sort in progress.
 People of some race or another can be seen shuffling about in the courtyard
 going about some sort of business.
@@ -1179,12 +1095,11 @@ D3
 0 0 31455
 S
 #31460
-Entrance to the Chapel~
-These steps lead straight up to the door of the chapel, a carved wooden door
-which has withstood the ravages of time and looters.  The wood must once have
-been very beautiful with its carved cherubs and angels floating about on its
-surface, their faces ghastly and horrific in the flickering light.  The steps up
-to the gazebo in the center of the courtyard lie just west.
+Offering Hall (Entrance)~
+These steps lead straight up to the door of the Offering Hall, a carved wooden door
+which has withstood time. The wood is very beautiful with its carved Devas and
+Asuras floating about on its surface, their faces beautiful in the flickering
+light. The steps up to the gazebo in the center of the courtyard are just west.
 ~
 314 1 0 0 0 0
 D0
@@ -1205,9 +1120,9 @@ D3
 0 0 31456
 S
 #31461
-Asylum Courtyard~
-   This is the eastern end of the courtyard, the outer wall of the chapel just
-to the east.  The entrance to the chapel lies just north, up a set of steps.
+Temple Courtyard~
+This is the eastern end of the courtyard, the outer wall of the chapel just
+to the east. The entrance to the chapel lies just north, up a set of steps.
 ~
 314 1 0 0 0 0
 D0
@@ -1224,9 +1139,9 @@ D3
 0 0 31457
 S
 #31462
-Asylum Courtyard~
-   This is the southwestern corner of the courtyard.  A small path leads west
-around a large building which lies just south from here.  The ceremony continues
+Temple Courtyard~
+This is the southwestern corner of the courtyard. A small path leads west
+around a large building which lies just south from here. The singing bowls continues
 in the gazebo to the northeast.
 ~
 314 1 0 0 0 0
@@ -1244,9 +1159,9 @@ D3
 0 0 31493
 S
 #31463
-Asylum Courtyard~
-   This is the south end of the courtyard, bound by a long building who's
-entrance lies to the south, one of two entrances.  The gazebo lies to the
+Temple Courtyard~
+This is the south end of the courtyard, bound by a long building who's
+entrance lies to the south, one of two entrances. The gazebo lies to the
 northeast, in the center of the courtyard.
 ~
 314 1 0 0 0 0
@@ -1268,8 +1183,8 @@ D3
 0 0 31462
 S
 #31464
-Asylum Courtyard~
-   The gazebo lies just north from here, at the end of a flight of steps.  To
+Temple Courtyard~
+The gazebo lies just north from here, at the end of a flight of steps. To
 the south is the wall of a stone building.
 ~
 314 1 0 0 0 0
@@ -1287,9 +1202,9 @@ D3
 0 0 31463
 S
 #31465
-Asylum Courtyard~
-   This is the southern end of the courtyard where it butts up against the wall
-of a long stone building.  A door to that building lies to the south, the gazebo
+Temple Courtyard~
+This is the southern end of the courtyard where it butts up against the wall
+of a long stone building. A door to that building lies to the south, the gazebo
 standing in the center of the courtyard - almost seeming to beckon entry.
 ~
 314 1 0 0 0 0
@@ -1311,9 +1226,9 @@ D3
 0 0 31464
 S
 #31466
-Asylum Courtyard~
-   This is the southeastern corner of the courtyard.  A trail leads east between
-the buildings which form the boundaries of the courtyard.  To the far northwest
+Temple Courtyard~
+This is the southeastern corner of the courtyard. A trail leads east between
+the buildings which form the boundaries of the courtyard. To the far northwest
 is a large gazebo, a fire flickering within.
 ~
 314 1 0 0 0 0
@@ -1331,11 +1246,10 @@ D3
 0 0 31465
 S
 #31467
-Chapel Entryway~
-   What a grand place this must once have been.  The walls all were at one time
-of worked stone, carvings of all sorts of angelic murals and poses.  To the
-north is a door, to the south is the main worship area.  East is a small room,
-the function of which unfathomable from this room.
+Temple Entryway~
+What a grand place this is. The walls all of worked stone, carvings of all sorts
+of angelic murals and poses. To the north is a door, to the south is the main
+worship area. East is a small room, the function of which is for the Monks.
 ~
 314 9 0 0 0 0
 D0
@@ -1356,13 +1270,8 @@ door~
 1 0 31460
 S
 #31468
-Cloaking Room~
-   The stone hooks still jut from the walls where the clergy must once have hung
-or donned their robes of office before or after a service.  There are, of
-course, no robes hanging from those hooks any longer.  This room, like most of
-the other rooms in the buildings of this asylum, has succumbed to the demand of
-time and decay, the walls crumbling and the floors broken and cracked.  All of
-this is, of course covered in a sheen of red.
+Meditation Room E~
+Meditation Room E
 ~
 314 9 0 0 0 0
 D2
@@ -1371,12 +1280,11 @@ door~
 1 0 31467
 S
 #31469
-Shaft~
-   This is nothing more than a small five by five room with no ceiling.  A look
+Bell Tower~
+This is nothing more than a small five by five room with no ceiling. A look
 upward reveals that this tall shaft leads directly up into the bell tower, as
-the bell is visible even from here on the ground level.  A set of ropes hang
-down, their frayed ends high out of reach.  They must once have connected to
-something here, but whatever that was, it is long since rotted or taken.
+the bell is visible even from here on the ground level. A set of ropes hang
+down.
 ~
 314 9 0 0 0 0
 D3
@@ -1389,12 +1297,8 @@ D4
 0 0 31471
 S
 #31470
-Chapel Worship Room~
-   There are spots where rows of pews once lined before a carved stone altar,
-however all that is left of the majesty of the place are two pews and the
-remains of the altar, tipped to the side and split asunder.  It would only
-appear the work of vandals or looters. This was a calculated ruination of a
-place of worship.
+Meditation Room F~
+Meditation Room F.
 ~
 314 9 0 0 0 0
 D0
@@ -1403,8 +1307,8 @@ D0
 0 0 31467
 S
 #31471
-In the Shaft~
-Unbelievably, the sides of the shaft's interior walls are scalable!  Only a
+Bell Shaft~
+Unbelievably, the sides of the shaft's interior walls are scalable! Only a
 bit further and the bell can be reached, where a platform of stone surrounds the
 inside of the shaft.
 ~
@@ -1420,12 +1324,11 @@ D5
 S
 #31472
 Bell Tower~
-   It turns out that the shaft leading up from the interior of the chapel is
-actually the bell tower itself.  A bird's eye view of the asylum is given here,
+It turns out that the shaft leading up from the interior of the chapel is
+actually the bell tower itself. A bird's eye view of the Temple is given here,
 especially of the courtyard where it is now painfully obvious that there are
-many more people moving about this place.  On the north wall is a window which
-leads out just above the roof of the chapel.  It does not appear that the tower
-would be accessible again once exited from and onto the chapel roof.
+many more people moving about this place. On the north wall is a window which
+leads out just above the roof of the chapel.
 ~
 314 9 0 0 0 0
 D0
@@ -1438,13 +1341,8 @@ D5
 0 0 31471
 S
 #31473
-Chapel Roof~
-   There is not much of interest on this roof save for the fact that it is the
-only place thus far that is not full of the rubble and trash that is littered
-about the ground and in the buildings.  It must be too much effort for the
-vandals of this area to climb out here and trash this part as well.  It appears
-that the only way from this rooftop is down, jumping from the roof to the
-courtyard below.
+Temple Roof~
+Be careful... it's dangerous up here.
 ~
 314 1 0 0 0 0
 D5
@@ -1453,11 +1351,8 @@ roof~
 0 0 31459
 S
 #31474
-Library Entry~
-This is a small antechamber where at one time check-out secretary or
-librarian once sat and made sure that all books within were accounted for.
-There is no desk, no secretary or librarian, only a set four crumbling walls,
-the plaster or mortar fallen and in decay.
+Practice Room (Entry)~
+This is a small chamber where the Monks prepare for Singing Bowl practice.
 ~
 314 13 0 0 0 0
 D1
@@ -1470,9 +1365,9 @@ D2
 0 0 31475
 S
 #31475
-Library~
-   Most of the shelves that used to line the walls, molded into the stone that
-made up the walls, are now broken and lying in dust on the cracked floors.
+Practice Room~
+The Monks practice room. Most of the shelves that line the walls hold singing
+bowls, molded into the stone.
 ~
 314 9 0 0 0 0
 D0
@@ -1481,12 +1376,9 @@ D0
 0 0 31474
 S
 #31476
-Faculty Rooms~
-   The faculty of the asylum kept their rest cots and break tables in this room,
-not to mention a guard was always on station as further in this building lies
-the dorm rooms of all 'students' for the place.  There is still a remnant of
-what the room must have been, some old steel frames - probably cots - line one
-wall, all rusted into uselessness.
+Dormitory A~
+This is where the students are bunked at night. There are various sorts of furniture
+items left in the room, and comfortable bunks for the students line the walls.
 ~
 314 9 0 0 0 0
 D0
@@ -1499,10 +1391,9 @@ D2
 0 0 31477
 S
 #31477
-Dormitory~
-   This is where the students - or mental loonies - were bunked at night.
-There are no longer any sorts of furniture items left in the room, only hunks of
-broken plaster and mortar.  A doorway opens wide into a basement stairway.
+Dormitory B~
+This is where the students are bunked at night. There are various sorts of furniture
+items left in the room, and comfortable bunks for the students line the walls.
 ~
 314 9 0 0 0 0
 D0
@@ -1519,12 +1410,9 @@ D5
 0 0 31481
 S
 #31478
-Faculty Rooms~
-   The faculty of the asylum kept their rest cots and break tables in this room,
-not to mention a guard was always on station as further in this building lies
-the dorm rooms of all 'students' for the place.  There is still a remnant of
-what the room must have been, some old steel frames - probably cots - line one
-wall, all rusted into uselessness.
+Dormitory C~
+This is where the students are bunked at night. There are various sorts of furniture
+items left in the room, and comfortable bunks for the students line the walls.
 ~
 314 9 0 0 0 0
 D0
@@ -1537,10 +1425,9 @@ D2
 0 0 31480
 S
 #31479
-Dormitory~
-   This is where the students - or mental loonies - were bunked at night.
-There are no longer any sorts of furniture items left in the room, only hunks of
-broken plaster and mortar.
+Dormitory D~
+This is where the students are bunked at night. There are various sorts of furniture
+items left in the room, and comfortable bunks for the students line the walls.
 ~
 314 9 0 0 0 0
 D1
@@ -1553,10 +1440,9 @@ D3
 0 0 31477
 S
 #31480
-Dormitory~
-   This is where the students - or mental loonies - were bunked at night.
-There are no longer any sorts of furniture items left in the room, only hunks of
-broken plaster and mortar.
+Dormitory E~
+This is where the students are bunked at night. There are various sorts of
+furniture items left in the room, and comfortable bunks for the students line the walls.
 ~
 314 9 0 0 0 0
 D0
@@ -1569,10 +1455,9 @@ D3
 0 0 31479
 S
 #31481
-Storage and Detainment Area~
-   This room has a wall of lockers, all broken and wide open with no contents in
-them whatsoever.  On the south wall is a small wooden door, still securely
-fastened on its hinges.
+Storage Area~
+This room has a wall of shelves, all full of Singing Bowls the students can play.
+On the south wall is a small wooden door.
 ~
 314 9 0 0 0 0
 D2
@@ -1585,12 +1470,9 @@ D4
 0 0 31477
 S
 #31482
-The Cooling Room~
-   This was the asylum staff's ultimate weapon against any of the students who
-became unruly or out of hand.  The temperature in this little cubicle dips down
-well below freezing in the nights, being dirt floored and in the basement.  Any
-students who had a problem with obedience ending up cooling their heels in the
-Cooling Room.
+Cooling Room~
+This was the Temple stores their chilled goods like a secret stash of homemade
+ice cream. Other goods are yet to find.
 ~
 314 9 0 0 0 0
 D0
@@ -1599,10 +1481,9 @@ door~
 1 0 31481
 S
 #31483
-Old Cobbled Trail~
-   This was once a sedate cobbled walkway, the cobbles now missing or broken.
-The trail turns south and curves out of sight to the east
-again toward a tall, square-ish stone building.
+Cobbled Trail~
+This is a sedate cobbled walkway. The trail turns south and curves out of sight
+to the east again toward a tall, square-ish stone building.
 ~
 314 5 0 0 0 0
 D2
@@ -1615,10 +1496,10 @@ D3
 0 0 31466
 S
 #31484
-Old Cobbled Trail~
-This was once a sedate cobbled walkway, the cobbles now missing or broken.
-The trail heads north back toward the courtyard or turns east
-again, headed toward the entrance of a tall, stone building.
+Cobbled Trail~
+This is a sedate cobbled walkway. The trail heads north back toward the
+courtyard or turns east again, headed toward the entrance of a tall, stone
+building.
 ~
 314 1 0 0 0 0
 D0
@@ -1631,10 +1512,9 @@ D1
 0 0 31485
 S
 #31485
-Old Cobbled Trail~
-This was once a sedate cobbled walkway, the cobbles now missing or broken.
-The building, which now lies just south of you, can be entered
-through a doorway just east from here.
+Cobbled Trail~
+This is a sedate cobbled walkway. The building, which now lies just south of
+you, can be entered through a doorway just east from here.
 ~
 314 1 0 0 0 0
 D1
@@ -1647,11 +1527,10 @@ D3
 0 0 31484
 S
 #31486
-Entrance to the Auditorium~
-   The interior of the building can be seen through the flickering lights
-within.  Squatters can be seen inside the building, hunched over fires or
-sleeping in wretched balls on floor.  The trail heads west away from here back
-toward the courtyard.
+Auditorium Entrance~
+The interior of the building can be seen through the flickering lights
+within. People can be seen inside the building sitting on the floor. The trail
+heads west away from here back toward the courtyard.
 ~
 314 1 0 0 0 0
 D2
@@ -1665,11 +1544,9 @@ D3
 S
 #31487
 Auditorium Floor~
-   The place has an immense main floor, a large stage dominating the north end
-of the main floor.  Grubby, wretched people huddle near small fires or lie
-curled upon the floor sleeping what little amounts that they might before the
-next Choosing.  A set of stone stadium seats lead up to the roof on the south
-end of the place.
+The place has an immense main floor, a large stage dominating the north end
+of the main floor. People are sitting on the stage playing singing bowls. A set of stone
+stadium seats with a full crowd lead up to the roof on the south end of the place.
 ~
 314 9 0 0 0 0
 D0
@@ -1687,11 +1564,9 @@ D3
 S
 #31488
 Auditorium Floor~
-   The place has an immense main floor, a large stage dominating the north end
-of the main floor.  Grubby, wretched people huddle near small fires or lie
-curled upon the floor sleeping what little amounts that they might before the
-next Choosing.  A set of stone stadium seats lead up to the roof on the south
-end of the place.
+The place has an immense main floor, a large stage dominating the north end
+of the main floor. People are sitting on the stage playing singing bowls. A set of stone
+stadium seats with a full crowd lead up to the roof on the south end of the place.
 ~
 314 9 0 0 0 0
 D1
@@ -1705,11 +1580,9 @@ D2
 S
 #31489
 Auditorium Floor~
-   The place has an immense main floor, a large stage dominating the north end
-of the main floor.  Grubby, wretched people huddle near small fires or lie
-curled upon the floor sleeping what little amounts that they might before the
-next Choosing.  A set of stone stadium seats lead up to the roof on the south
-end of the place.
+The place has an immense main floor, a large stage dominating the north end
+of the main floor. People are sitting on the stage playing singing bowls. A set of stone
+stadium seats with a full crowd lead up to the roof on the south end of the place.
 ~
 314 9 0 0 0 0
 D0
@@ -1727,11 +1600,9 @@ D4
 S
 #31490
 Auditorium Floor~
-   The place has an immense main floor, a large stage dominating the north end
-of the main floor.  Grubby, wretched people huddle near small fires or lie
-curled upon the floor sleeping what little amounts that they might before the
-next Choosing.  A set of stone stadium seats lead up to the roof on the south
-end of the place.
+The place has an immense main floor, a large stage dominating the north end
+of the main floor. People are sitting on the stage playing singing bowls. A set of stone
+stadium seats with a full crowd lead up to the roof on the south end of the place.
 ~
 314 9 0 0 0 0
 D0
@@ -1749,9 +1620,9 @@ D4
 S
 #31491
 Auditorium Seating~
-   Rows and rows of stone seats line the sloping floor, east to west up to the
-south wall where the seats actually reach the ceiling.  More squatters lie
-wedged between seats, snug in their hopes that they will not be the next Chosen.
+Rows and rows of stone seats line the sloping floor, east to west up to the
+south wall where the seats actually reach the ceiling. More people sit in the
+seats.
 ~
 314 9 0 0 0 0
 D1
@@ -1765,9 +1636,9 @@ D5
 S
 #31492
 Auditorium Seating~
-   Rows and rows of stone seats line the sloping floor, east to west up to the
-south wall where the seats actually reach the ceiling.  More squatters lie
-wedged between seats, snug in their hopes that they will not be the next Chosen.
+Rows and rows of stone seats line the sloping floor, east to west up to the
+south wall where the seats actually reach the ceiling. More people sit in the
+seats.
 ~
 314 9 0 0 0 0
 D3
@@ -1780,9 +1651,9 @@ D5
 0 0 31489
 S
 #31493
-Cracked Path~
-   The path used to be a small street of cobbled stone, leading toward the
-asylum's main water source, the water tower.  The tower rises high into the dark
+The Path~
+The path used to be a small street of cobbled stone, leading toward the
+Temple's main water source, the water tower. The tower rises high into the dark
 sky to the west.
 ~
 314 5 0 0 0 0
@@ -1796,9 +1667,9 @@ D3
 0 0 31494
 S
 #31494
-Cracked Path~
-   The path splits to south and also allows entrance into the water tower to the
-west.  There is some sort of short, thin structure rising about twenty feet into
+The Path~
+The path splits to south and also allows entrance into the water tower to the
+west. There is some sort of short, thin structure rising about twenty feet into
 the air to the south but from here it is too dark and too far to be seen
 clearly.
 ~
@@ -1817,9 +1688,9 @@ D3
 0 0 31495
 S
 #31495
-In the Base of the Water Tower~
-   This is an oddly wood tiled sphere which held water when the asylum was
-functional.  It now has too many holes and leaks to hold any water all, but a
+The Water Tower (Base)~
+This is an oddly wood tiled sphere which held water when the Temple was
+functional. It now has too many holes and leaks to hold any water all, but a
 spiral staircase still leads around the inside up to the top, probably installed
 so that repairs could be made when their were leaks.
 ~
@@ -1834,10 +1705,10 @@ D4
 0 0 31496
 S
 #31496
-At the Top of the Water Tower~
-   There is no roof over the top of this thing, the asylum must have relied
+The Water Tower (Top)~
+There is no roof over the top of this thing, the Temple must have relied
 heavily on rain water to help replenish their supplies of water whenever nature
-was kind.  This small platform runs around near the utmost top of tower, a wire
+was kind. This small platform runs around near the utmost top of tower, a wire
 mesh affair that feels none-too-sturdy.
 ~
 314 1 0 0 0 0
@@ -1847,9 +1718,9 @@ D5
 0 0 31495
 S
 #31497
-Cracked Path~
-   The path leads into a burnt out ruin of a building, one which was obviously
-not made of stone like the rest of this place.  All that remains, or so it
+The Path~
+The path leads into a burnt out ruin of a building, one which was obviously
+not made of stone like the rest of this place. All that remains, or so it
 appears, of the place is the chimney which still stands tall with a fireplace at
 the base.
 ~
@@ -1864,10 +1735,8 @@ D2
 0 0 31498
 S
 #31498
-Ruins of a Building~
-   The ground is covered in charred pieces of wood and debris.  No growth at all
-grows here, as the burning stunted that growth for many years yet to come.  A
-tall stone fireplace rises to the west.
+Vamra Shrine~
+The shrine of the great Vamra.
 ~
 314 1 0 0 0 0
 D0
@@ -1880,11 +1749,8 @@ D3
 0 0 31499
 S
 #31499
-Ruins of a Building~
-   The ground is covered in charred pieces of wood and debris.  No growth at all
-grows here, as the burning stunted that growth for many years yet to come.  A
-stone chimney with a fireplace at the base is all that is left of whatever sort
-of building might once have stood here long ago.
+Saptatha Shrine~
+The shrine of great Saptatha maker of magic devices.
 ~
 314 1 0 0 0 0
 D1

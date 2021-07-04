@@ -1,37 +1,33 @@
 #31400
-x'raantra man kneel~
-X'Raantra~
-X'Raantra kneels with his knees to the floor, with his arms held high.
+Shaanatra monk meditating~
+Shaanatra Monk~
+Shaanatra meditates sitting cross legged on the floor, with his arms in calm position.
 ~
- His eyes are tightly clenched closed, his right fist holding fast to a
-curved dagger held high to his Deva.  He sporadically mumbles words, garbled
-phrases or prayers which may or may not have meaning.
+His eyes are loosely closed, his right hand holding fast to first position in honor of his Deva.  He sporadically chants tones that resonate from within his body.
 ~
-4106 0 0 0 0 0 0 0 -200 E
+4106 0 0 0 0 0 0 0 200 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
 #31401
-believer follower~
-a Believer~
-A Believer kneels proudly beside his saviour.
+Jerbix disciple follower~
+Disciple Jerbix~
+Disciple Jerbix is here meditating with his teacher.
 ~
-His eyes are a bit glazed over.  He never seems to lose sight of the blade
-which is raised high by X'Raantra in anticipation of the next performance.
+His eyes are a bit glazed over.  He never seems to lose sight of his meditating focus.
 ~
-10 0 0 0 0 0 0 0 -500 E
+10 0 0 0 0 0 0 0 500 E
 29 11 -7 5d5+290 4d4+4
 290 84100
 8 8 1
 E
 #31402
-man gibbering slobbering grubby~
-a gibbering man~
-A man is slouched against the wall, badly bleeding and broken.
+monk playing singing bowls~
+a Monk playing Singing Bowls~
+A Monk is slouched against the wall practining singing bowls.
 ~
-   He almost does not notice you from the pain that he is in, but then he
-obviously must have as he is trying to speak to you.
+He almost does not notice you from the state that he is in, but then he obviously must have as he is trying to speak to you.
 ~
 10 0 0 0 0 0 0 0 200 E
 17 15 0 3d3+170 2d2+2
@@ -39,12 +35,11 @@ obviously must have as he is trying to speak to you.
 1 1 1
 E
 #31403
-elf retching~
-a retching elf~
-An elf is curled up at the fountain's base, retching and vomiting terribly.
+barry deva singing humming~
+Barry Deva Singing and Humming~
+Barry Deva is singing is at the fountain's base, humming and singing softly.
 ~
-   He looks up at you with terror-stricken eyes and pleads without words for
-you to help him, somehow help him.
+He looks up at you with kind eyes and and directs his humming towards you.
 ~
 10 0 0 0 0 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
@@ -52,38 +47,36 @@ you to help him, somehow help him.
 6 6 1
 E
 #31404
-woman~
-a woman~
-A woman walks with a very deliberate gait across the courtyard.
+monk approaching~
+a monk~
+A monk walks with a very deliberate gait across the courtyard.
 ~
-   She holds her tattered clothing tight against her as if she were cold or
-afraid of prying eyes.  It is certainly a gesture of fear or discomfort.
+The Monk robes look as if they were flowing or dancing in the wind.  It is certainly a gesture of confidence and beauty.
 ~
-2120 0 0 0 0 0 0 0 -200 E
+2120 0 0 0 0 0 0 0 200 E
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 2
 E
 #31405
-squatter man~
-a squatter~
-A man lies on the floor, stretched out on a raggedy blanket.
+monk playing singing bowls~
+a Monk playing Singing Bowls~
+A Monk sits on the floor, stretched out on a sitting blanket playing singing bowls.
 ~
-   He has a wealth of nasty stubble and the smell - it might be better not to
-talk about the smell.
+He has a wealth of knowledge and the smell - he smells like flowers and fruits.
 ~
-10 0 0 0 0 0 0 0 -200 E
+10 0 0 0 0 0 0 0 200 E
 19 14 -1 3d3+190 3d3+3
 190 36100
 8 8 1
 E
 #31406
-child terrified~
-a terrified child~
-A terrified child lies huddled in a corner, squinting against your light.
+child happy~
+a happy child~
+A happy child lies sits in a corner practicing chanting.
 ~
-   The child is wearing no clothes whatsoever and is covered in welts and
-bruises.  He couldn't be much more than ten or eleven years old.
+The child is wearing apprentice clothing and is clean and well groomed.  He
+couldn't be much more than ten or eleven years old.
 ~
 74 0 0 0 0 0 0 0 400 E
 12 16 2 2d2+120 2d2+2
@@ -91,13 +84,11 @@ bruises.  He couldn't be much more than ten or eleven years old.
 6 6 1
 E
 #31407
-man weeping~
-a weeping man~
-A man sits curled up in ball, weeping uncontrollably.
+monk singing bowls~
+a Monk playing Singing Bowls~
+A Monk sits curled  in lotus position playing singing bowls.
 ~
-He alternates between rage and sadness - touching the mangled remains of his
-son's body, stroking the matted hair back from the cold, lifeless ears.
-
+The Monk alternates between high and low tones togeher. The sounds of the singing Bowls play through the halls continuously.
 ~
 10 0 0 0 0 0 0 0 100 E
 18 14 0 3d3+180 3d3+3
@@ -105,11 +96,11 @@ son's body, stroking the matted hair back from the cold, lifeless ears.
 8 8 1
 E
 #31408
-rat scurrying~
-a scurrying rat~
-A rat scurries past, its feet clicking on the stone floor.
+deva scurrying~
+a scurrying deva~
+A deva scurries past, it flutters past you in the cool air.
 ~
-   It looks very much like your every day typical disgusting rat.
+It looks very much like your every day typical floating Deva.
 ~
 72 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -117,40 +108,35 @@ A rat scurries past, its feet clicking on the stone floor.
 8 8 0
 E
 #31409
-gunter~
-Gunter~
-Gunter wanders the compound, spreading the word of the Chosen.
+monk~
+a Monk~
+A Monk wanders the compound, spreading the word of the Devas.
 ~
-   Gunter is a small, pale man who looks as if he may be a bit ill.  His main
-task which has raised him in the ranks of X'Raantra's Chosen, is to go out and
-Select the next of the Chosen.  It is quite an honor.
+The Monk is relatively small and looks as if they eat lots of fruit.  His main task is to go out and find singing bowls and those playing them.  It is quite an honor.
 ~
-88 0 0 0 0 0 0 0 -700 E
+88 0 0 0 0 0 0 0 300 E
 31 10 -8 6d6+310 5d5+5
 310 96100
 8 8 1
 E
 #31410
-guard man toturer~
-a torturer~
-A man stands near the doorway, a hideous sneer on his face.
+deva guard guarddeva gd31410~
+GuardDEVA GD 31310~
+A GuardDEVA stands near the doorway, a smile on his face.
 ~
-   A horrid scar runs down the left side of his face, he looks you up and down
-and uncrosses his arms, readying his whip.
+A scar runs down the left side of his face, he looks you up and down and uncrosses his arms.
 ~
-42 0 0 0 0 0 0 0 -900 E
+42 0 0 0 0 0 0 0 0 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
 E
 #31411
-man grubby~
-a grubby man~
-A grubby man stands before the fire barrel, warming his hands.
+monk playing singing bowls~
+a Monk playing Singing Bowls~
+A robed Monk sits before the singing bowls, warming them up.
 ~
-   He looks pitifully poverty-stricken, enough so that it is obvious at first
-glance.  He is covered in dirt and grime and has a few pussing welts on his
-face and hands.
+He looks very healthy and earns an honest living playing singing bowls for the community.
 ~
 10 0 0 0 0 0 0 0 100 E
 14 16 1 2d2+140 2d2+2
@@ -158,80 +144,73 @@ face and hands.
 8 8 1
 E
 #31412
-man seeker hooded~
-a Seeker~
-A man in a hooded cloak walks slowly by mumbling to himself.
+monk seeker hooded~
+a Monk~
+A Monk in a hooded robe walks slowly by chanting to himself.
 ~
-   The mumblings are not coherent, they are words spoken in garbled phrases,
-words that mean nothing.  They are the words of one who is delusioned beyond
-regainment of full mental faculties.
+The mumblings are not coherent, they are tones for the singing bowls.
 ~
-72 0 0 0 0 0 0 0 -300 E
+72 0 0 0 0 0 0 0 300 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 1
 E
 #31413
-believer hidden~
-a hidden Believer~
-One of X'Raantra's Believers hides in the shadows.
+monk playing singing bowls~
+a Monk playing Singing Bowls~
+One of singing bowl Monks sits here playing.
 ~
-   The Believer notes your look with a look of her own, giving you a curt nod.
-
+The Monk notes your look with a look of their own, giving you a nod.
 ~
-10 0 0 0 0 0 0 0 -500 E
+10 0 0 0 0 0 0 0 300 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 2
 E
 #31414
-bat brown~
-a brown bat~
-A bat dive bombs you, coming inches from your head!
+harry red deva~
+Harry Red Deva~
+Harry Red Deva bombs you, coming inches from your head!
 ~
-   It is hard to get a good look at the little fella, but that really doesn't
-matter, just aim for the blackish-brown blur.
+It is hard to get a good look at the little fella, but that really doesn't matter, just look for the reddish blur.
 ~
-104 0 0 0 0 0 0 0 0 E
+104 0 0 0 0 0 0 0 100 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 0
 BareHandAttack: 4
 E
 #31415
-spider dirty hairy~
-a hairy spider~
-A small, hairy spider moves across the ground before you.
+larry deva blue~
+Larry Blue Deva~
+A small, Blue Deva moves across the air before you.
 ~
-   It is not an aggressive type of spider, nor is it large by any means - but
-it is a spider, nonetheless, and is disgusting and wrong.
+It is not an aggressive type of Deva, nor is it large by any means - but it is a Deva, nonetheless, and is soo cute.
 ~
-72 0 0 0 0 0 0 0 0 E
+72 0 0 0 0 0 0 0 100 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 0
 BareHandAttack: 4
 E
 #31416
-deathknight knight dazed~
-a dazed DeathKnight~
-A DeathKnight wanders about, staggering in a daze.
+apprentice monk playing singing bowls~
+an Apprentice Monk playing Singing Bowls~
+An Apprentice Monk is wandering a bout looking for a nice place to play singing bowls.
 ~
-   He holds his weapon as if he had never used it before, a slight line of
-drool running from the left corner of his mouth.  His eyes hold a faraway,
-dazed look in them.
+He holds his striker as if he had never used it before.  He is just learning afterall.
 ~
-72 0 0 0 0 0 0 0 -600 E
+72 0 0 0 0 0 0 0 400 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 1
 E
 #31417
-fellow adventurer~
-a fellow adventurer~
-A man in warrior's traveling garb lies upon the floor, looking very surprised to see you.
+monk playing singing bowls~
+a Monk playing Singing Bowls~
+A Monk in hooded robes sits upon the floor, looking very surprised to see you.
 ~
-   Looks like he was catching a nap where he thought he might be safe.
+Looks like he was playing his singing bowls for passers by.
 ~
 14 0 0 0 0 0 0 0 400 E
 32 10 -9 6d6+320 5d5+5
@@ -239,39 +218,36 @@ A man in warrior's traveling garb lies upon the floor, looking very surprised to
 8 8 1
 E
 #31418
-wight scavenger humanoid~
-a wight~
-A humanoid is hunched over the corpse, hands and face dripping.
+monk playing singing bowls~
+a Monk playing Singing Bowls~
+A Monk is hunched over some singing bowls, hands and face focused trying to feel micro vibrations.
 ~
-This awful scavenger looks up at you with a snarl and spits on
-you.  It goes back to its feast without another glance.
+This Monk looks up at you with a nod as you pass by. It goes back to playing without another glance.
 ~
-10 0 0 0 0 0 0 0 -800 E
+10 0 0 0 0 0 0 0 200 E
 27 11 -6 5d5+270 4d4+4
 270 72900
 8 8 0
 BareHandAttack: 8
 E
 #31419
-believer unrobed slobbering~
-the unrobed believer~
-A Believer stands menacingly over the boy, a look of glee on his face.
+monk singing bowl trainer~
+the Monk Singing Bowl Trainer~
+A Monk stands happily over the boy, with a look of glee on his face.
 ~
-   The Believer looks as if this sort of sport were his passion, his only
-reason for living.  Indeed, it may be from the look of the boy's back.
+The Monk looks as if this sort of sport were his passion, his only reason for living.  Indeed, he sure does enjoy teaching the young ones their singing bowls.
 ~
-10 0 0 0 0 0 0 0 -900 E
+10 0 0 0 0 0 0 0 500 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
 E
 #31420
-boy laughing and playing~
-a laughing boy~
-A laughing boy is sitting at a desk, his shirt with his favorite anime.
+boy student singing bowls~
+a Boy learning Singing Bowls~
+A boy is sitting on the floor with a few singing bowls learning how to play. He looks very happy.
 ~
-It appears that this man has been at this boy for some time.  The smiles
-across the boy's face are many and deep.
+It appears that the teacher has been working with this boy for some time. The smiles across the boy's face as he plays his singing bowls are many and deep.
 ~
 10 0 0 0 0 0 0 0 100 E
 10 17 4 2d2+100 1d2+1
