@@ -1,21 +1,20 @@
 #31400
-fountain old stone~
-the old cracked fountain~
-An old cracked fountain sits stagnant in the center of the court.~
+fountain white marble stone~
+the white fountain~
+An old white marble fountain sits in the center of the court.~
 ~
 23 g 0 0 0 0 0 0 0 0 0 0 0
 80 50 9 1
 55 0 0 1 0
 E
 statue~
-   The man appears very proud, very noble and very learned.  His stained head is
-held high, his unseeing eyes fixed onto brighter futures and promise of great
-things.
+The man appears very proud, very noble and very learned.  His head is held high,
+his unseeing eyes fixed onto brighter futures and promise of great things.
 ~
 #31401
-glass pieces~
-some broken pieces of glass~
-Some broken pieces of glass lie scattered about on the ground.~
+singing bowls~
+singing bowls~
+a few singing bowls of various sizes are on the ground.~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
@@ -29,7 +28,7 @@ A rotted piece of cloth has gotten caught on a tall weed and flutters in the bre
 0 0 0 0
 2 1 0 1 0
 #31403
-floor gazebo~
+floor gazebo bamboo~
 the bamboo~
 The floor of this gazebo is covered in a thick layer of bamboo.~
 ~
@@ -37,78 +36,75 @@ The floor of this gazebo is covered in a thick layer of bamboo.~
 2000 2000 13 1
 2005 0 0 1 0
 #31404
-altar dark stained~
-a dark, altar~
-A dark, altar is set in the center of the floor, awaiting its next offering.~
+offering shrine~
+an Offering Shrine~
+A shrine is set in the center of the floor, awaiting its next offering.~
 ~
 12 a 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 E
-altar~
-   It appears that the altar is nothing more than a loose piece of stone from
-the courtyard floor or maybe one of the nearby buildings.  However, with the
-black cloth that is draped over top of it otherwordly.
+shrine~
+It appears that the altar is a piece of white marble with detailed carvings of
+offerings and festivals on it's base. Preferred offerings are milk, honey, and
+rice.
 ~
 #31405
-bookshelf shelf old~
-an old bookshelf~
-An old bookshelf clings precariously to the wall, nearly falling from the crumbling ruin.~
+singing bowl shelf~
+singing bowl bookshelf~
+An sturdy shelf is fastened to the wall, stacked full of singing bowls.~
 ~
 15 0 0 0 0 0 0 0 0 0 0 0 0
 1000 0 -1 0
 0 0 0 1 0
 #31406
-book stained~
-a book~
-A book rests comfortably here.~
+singing bowl small~
+Small Singing Bowl~
+A small sized singing bowl rests here.~
 ~
 2 bg 0 0 0 ao 0 0 0 0 0 0 0
 25 33 4 17
 11 10 0 1 0
 #31407
-statue palying child~
-a statue of a child playing is here.~
-A statue of a small child happily playing lies against the north wall~
+statue palying singing bowls child~
+a statue of a child playing singing bowls is here.~
+A statue of a child happily playing singing bowls is against the north wall~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 #31408
-barrel~
-a barrel~
-A barrel holds assorted trash within.~
+singing bowl medium~
+Medium Singing Bowl~
+A medium sized singing bowl is here.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 #31409
-fresh statue~
-a fresh statue~
-A fresh statue lies steaming in the cortyard in progress.~
+singing bowl large~
+Large Singing Bowl~
+A large sized singing bowl rests in the courtyard.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 E
-statue~
- It looks as if it might have been started just minutes ago.  The carving which
-wells over its chest is still new, still flowing.  Its chest is still open.  From
-the amount of carving and scrapes splayed over the statues's
-chest, it appears much to be done.
+singing bowl huge~
+A huge sized singing bowl rests here.
 ~
 #31410
 painting~
-a new painting~
-A mostly new painting is hanging from the wall, its a work in progress.~
+a painting~
+A painting of Vamraka, Indu, SecurityPRIME, MedicPRIME, Harry, Larry, Barry, Quinn and all the Devas is hanging from the wall.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 1 0
 #31411
-blade shining curved~
-a shining curved blade~
-An sweet-looking dagger with a curved blade has been left here.~
+singing bowl antique medium~
+Antique Medium Singing Bowl~
+One of the antique singing bowls has been set here.~
 ~
 5 a 0 0 0 an 0 0 0 0 0 0 0
 2 6 6 11
@@ -118,17 +114,17 @@ A
 A
 19 3
 #31412
-robe soiled~
-a robe~
-A robe has been discarded.~
+robe monk~
+Monks Robe~
+A Monks Robe is here.~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 6 0 0 0
 4 10 0 1 0
 #31413
-ring enchantment~
-the Ring of Enchantment~
-A dark colored ring has been dropped here.~
+ring players singing bowl~
+the Singing Bowl Players Ring~
+A bright shiny singing bowl players ring is here..~
 ~
 9 0 0 0 0 ab 0 0 0 0 0 0 0
 3 0 0 0
@@ -138,17 +134,17 @@ A
 A
 12 30
 #31414
-jerkin grubby~
-a grubby jerkin~
-A grubby jerkin has been tossed aside.~
+monks robe~
+Monks Robe~
+A Monks Robe is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 4 0 0 0
 4 10 0 1 0
 #31415
-child drawing innocent~
-the drawing of an innocent~
-A drawing of a child is on the ground.~
+child drawing singing bowls innocent~
+the drawing of an innocent child playing singing bowls.~
+A drawing of a child playing singing bowls.~
 ~
 11 0 0 0 0 ai 0 0 0 0 0 0 0
 0 0 0 0
@@ -166,9 +162,9 @@ Some shreds of leather armor has been left here.~
 2 0 0 0
 9 1 0 1 0
 #31417
-coating vomit~
-a coating of vomit~
-A small pile of what looks to be vomit is lying on the ground.~
+puddle water~
+a puddle of water~
+A small puddle of what looks to be water is on the ground.~
 ~
 11 0 0 0 0 ad 0 0 0 0 0 0 0
 0 0 0 0
@@ -176,17 +172,17 @@ A small pile of what looks to be vomit is lying on the ground.~
 A
 6 -3
 #31418
-soiled tattered dress~
-a soiled tattered dress~
-A very dirty piece of clothing has been discarded here.~
+monks robe~
+Monks Robe~
+A Monks Robe is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
 4 1 0 1 0
 #31419
-raggedy blanket~
-a raggedy blanket~
-A raggedy blanket is strecthed out on the floor.~
+sleeping mat~
+Sleeping Mat~
+A comfortable sleeping mat is strecthed out on the floor.~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
@@ -194,9 +190,9 @@ A raggedy blanket is strecthed out on the floor.~
 A
 19 3
 #31420
-welts bruises smattering~
-a smattering of welts and bruises~
-Someone's pain and misery has been left here for the taking.~
+singing bowls beaten fighters training~
+Fighter Training Singing Bowl~
+One of the singing bowls the fighters users for training is here all beaten.~
 ~
 11 0 0 0 0 ak 0 0 0 0 0 0 0
 0 0 0 0
@@ -204,9 +200,9 @@ Someone's pain and misery has been left here for the taking.~
 A
 13 -30
 #31421
-horrid scar~
-a horrid scar~
-A horrid scar has been left here.~
+singing bowls beaten fighters training~
+Fighter Training Singing Bowl~
+One of the singing bowls the fighters users for training is here all beaten.~
 ~
 11 0 0 0 0 am 0 0 0 0 0 0 0
 0 0 0 0
@@ -216,9 +212,10 @@ A
 A
 18 2
 #31422
-black leather whip~
-a black leather whip~
-A black leather whip has been left here.~
+singing bowl striker maple~
+Maple Singing Bowl Striker~
+A maple singing bowl striker is her. The Monks make them from wood they find
+when walking through the forests.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 2 5 4 2
@@ -237,17 +234,16 @@ A crumpled note has been thrown down on the ground.~
 2 10 0 30 0
 E
 word~
-   This note, originally given to Gunter by X'Raantra reads but one word.  That
-word is: Offering
+   This note reads but one word.  That word is: Offerings
 ~
 A
 3 2
 A
 4 3
 #31424
-inlaid black sword~
-an inlaid black sword~
-An inlaid black sword lies here forgotten.~
+singing bowl striker inlaid~
+Inlaid Singing Bowl Striker~
+An inlaid singing bowl striker lies here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 2 5 3 3
@@ -255,9 +251,10 @@ An inlaid black sword lies here forgotten.~
 A
 2 2
 #31425
-helm black~
-a blackened helm~
-A blackened helm has been left here.~
+common sense helment~
+Common Sense Helmet~
+A Common Sense Helment that seems to have just appeared one day, or someone
+dropped it on a visit. We keep it just incase the original owner returns.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 6 0 0 0
@@ -265,9 +262,9 @@ A blackened helm has been left here.~
 A
 4 1
 #31426
-black cape~
-a black cape~
-A black cape has been left here.~
+superman cape~
+a superman cape~
+A rare relic superman cape has been left here.~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
@@ -275,9 +272,9 @@ A black cape has been left here.~
 A
 19 3
 #31427
-vial water~
-a vial of water~
-A vial of experimental water has been left here.~
+pure water~
+a container of pure water~
+A container of experimental pure water has been left here.~
 ~
 10 a 0 0 0 ao 0 0 0 0 0 0 0
 10 7 39 22
@@ -293,9 +290,9 @@ A dark red ring has been left here.~
 A
 18 2
 #31429
-traveler's pack~
-a traveler's pack~
-A traveler's pack has been left here.~
+monk pack~
+Monk's Backpack~
+A Monks's Backpack has been left here.~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
