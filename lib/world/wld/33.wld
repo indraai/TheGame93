@@ -17,6 +17,10 @@ D3
 ~
 0 -1 3500
 E
+credits info~
+   DT: 3372
+~
+E
 sign~
         ,_____________________________.
         |                             |
@@ -30,10 +34,6 @@ sign~
                      |  |
                      |  |
                      |  |
-~
-E
-credits info~
-   DT: 3372
 ~
 S
 #3301
@@ -119,6 +119,10 @@ It is a normal front door.
 door front~
 1 -1 3303
 E
+tracks dust~
+   Three sets of prints lead out where the back door used to stand.
+~
+E
 bed~
    Ha!  Lucky, you were always lucky!  Under the pillow is a half-written
 letter, unaddressed.  The bits of text that aren't smudged, burnt, and smeared
@@ -126,10 +130,6 @@ tell tale of the smith/mage Gabadiel's masterwork: a sword of unequalled power,
 and two swords that came before, discarded as 'Not quite what I was working
 towards'.  Looking around, you notice a distinct lack of any swords.  You think
 you may have a motive now...
-~
-E
-tracks dust~
-   Three sets of prints lead out where the back door used to stand.
 ~
 S
 #3305
@@ -816,10 +816,6 @@ around on the ground are piles of earth and stone, making
 you have to wend through the tunnel carefully.  Hmm.
 ~
 33 9 0 0 0 0
-D3
-~
-~
-0 -1 7801
 D1
 ~
 ~
@@ -828,6 +824,10 @@ D2
 ~
 ~
 0 -1 3338
+D3
+~
+~
+0 -1 7801
 S
 #3340
 The End Of The Passage~
@@ -1070,7 +1070,7 @@ D2
 0 -1 3349
 S
 #3352
-A Private Home~
+Mountain Room~
    The interior of this home is simple and rustic.  A
 ladder leads up to the loft, where the sleeping pallets
 are tucked away.  A wood-burning stove keeps the place
@@ -1078,7 +1078,11 @@ well heated and cozy.  A homemade rocking chair stands
 crooked in the corner, draped with a old looking afghan.
 This home is a nice place, very comfortable.
 ~
-33 8 0 0 0 0
+33 2568 0 0 0 0
+D2
+~
+~
+0 0 3065
 D3
 There is a normal appearing door set in the western wall.
 ~
@@ -1438,17 +1442,17 @@ D2
 ~
 0 -1 3370
 E
-dirt stone~
-   It has been dug from somewhere, but where?
+floor~
+   The floor up ahead looks...  Strange.  You don't think going ahead would be a
+good idea.
 ~
 E
 claw claws track tracks mark marks~
    They stop very abruptly here, right where the piles of earth begin, it seems.
 ~
 E
-floor~
-   The floor up ahead looks...  Strange.  You don't think going ahead would be a
-good idea.
+dirt stone~
+   It has been dug from somewhere, but where?
 ~
 S
 #3372

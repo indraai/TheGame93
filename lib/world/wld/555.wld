@@ -182,7 +182,7 @@ D2
 0 0 55510
 S
 #55510
-The House~
+Ultima Room~
 Welcome to Quinn's Ultima House.
 ~
 555 2568 0 0 0 0
@@ -604,13 +604,13 @@ D3
 ~
 0 0 55533
 E
+undefined~
+   'Secret Door: The Shelf' is on the shelf.
+~
+E
 shelf shelves bookshelves bookcases~
    The shelf to the south looks a bit strange.  It might be possible to open the
 shelf.
-~
-E
-undefined~
-   'Secret Door: The Shelf' is on the shelf.
 ~
 S
 T 55532
@@ -1312,22 +1312,22 @@ D0
 You see trees.
 ~
 ~
-0 0 55581
+0 0 55576
 D1
 You see trees.
 ~
 ~
-0 0 55570
+0 0 55572
 D2
 You see trees.
 ~
 ~
-0 0 55576
+0 0 55581
 D3
 You see trees.
 ~
 ~
-0 0 55572
+0 0 55570
 S
 T 55571
 #55572
