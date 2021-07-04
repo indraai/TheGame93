@@ -1,6 +1,6 @@
 #3300
 A Winding Trail~
-adv:world:3300/main
+world:3300/main
 ~
 33 68 0 0 0 5
 D1
@@ -14,8 +14,8 @@ adv:world:3500/look
 ~
 0 -1 3500
 E
-credits info~
-   DT: 3372
+warning~
+adv:world:3300/sign
 ~
 E
 sign~
@@ -23,19 +23,17 @@ adv:world:3300/sign
 ~
 S
 #3301
-A Scraggly Trail~
-   What could barely be called a trail leads west back
-down the mountainside, and down into a very small valley
-where a small house sits in the middle of a well-groomed
-yard.  The door to the house is open and inviting,
-welcoming you for a visit.
+A Winding Trail~
+adv:world:3301/main
 ~
 33 0 0 0 0 5
 D3
+adv:world:3300/main
 ~
 ~
 0 -1 3300
 D5
+adv:world:3302/main
 ~
 ~
 0 -1 3302
