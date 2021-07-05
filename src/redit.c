@@ -571,7 +571,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       return;
     case '1':
       write_to_output(d, "\n## Room Name\r");
-      write_to_output(d, "\n%s\r", OLC_ROOM(d)->name);
+      write_to_output(d, "\nroom: %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case '2':
