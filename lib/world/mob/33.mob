@@ -212,18 +212,19 @@ and cleaned though...
 8 8 1
 E
 #3316
-bandit guard~
-the bandit guard~
-A bandit guard stands at attention here.
+guarddeva guard deva gd3316~
+DevaGUARD DG3316~
+A DevaGUARD is here doing a great job.
 ~
    He may be a bandit, but he's no slacker.  You wonder who would be able to
 keep these bandits in line enough to pull a good guard duty...  (boy is this guy
 DIRTY!!!  )
 ~
-1546 0 0 0 0 0 0 0 -500 E
+2334 0 0 0 0 0 0 0 0 E
 18 14 0 3d3+180 3d3+3
 180 32400
 8 8 1
+BareHandAttack: 4
 E
 #3317
 miner worker slave~
