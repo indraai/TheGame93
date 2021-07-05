@@ -42,7 +42,7 @@ D5
 0 0 3000
 S
 #1204
-Lobby~
+The Deva Room~
 adv:world:1204/main
 ~
 12 184 0 0 0 0
@@ -52,12 +52,12 @@ The Devas' Meeting Room is located to the south.
 ~
 0 -1 34308
 E
-hymn~
-adv:world:1204/hymn
-~
-E
 original~
    The main hang out of the Devas, the Immortal Board Room is the place to be. Devas exchange messages here most every day. The mortal board room is to the east and the meeting room for the Devas is to the south. To the north is the Devas' Inn and to the west is a post office for Devas. In the northeast corner you spot a small staircase leading upwards.
+~
+E
+hymn~
+adv:world:1204/hymn
 ~
 S
 #1205
