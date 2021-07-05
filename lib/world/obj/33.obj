@@ -257,16 +257,16 @@ glass~
 This is a nice glass filled with water.  There doesn't seem to be too much stuff floating in it.
 ~
 #3320
-glass mead ale~
-a glass~
-A big glass of mead sits here, cool and frosty.~
+glass milk~
+a glass of milk~
+A big glass of milk sits here, cool and frosty.~
 ~
 17 0 0 0 0 ao 0 0 0 0 0 0 0
 1 1 3 0
 2 8 3 0 0
 E
-glass mead~
-Looks good.  Looks warm.  Doesn't matter; it still looks good.
+glass milk~
+Looks good.  Looks cold.  Doesn't matter; it still looks good.
 ~
 #3321
 cup tea~
