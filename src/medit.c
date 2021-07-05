@@ -625,7 +625,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case '2':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      wirte_to_output(d, "Enter keywords: %s", OLC_MOB(d)->player.name);
+      write_to_output(d, "Enter keywords: %s", OLC_MOB(d)->player.name);
       i--;
       break;
     case '3':
