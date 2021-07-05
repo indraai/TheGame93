@@ -1612,7 +1612,7 @@ set  text[1]   Chuck Norris does not sleep. He waits.
 set  text[2]   If you can see Chuck Norris, he can see you. If you can't see Chuck Norris you may be only seconds away from death.
 set  text[3]   Chuck Norris frequently donates his kicks to charity.
 set  text[4]   The chief export of Chuck Norris is pain.
-set  text[5]   Chuck Norris sold his soul to the devil for his rugged good looks and unparalleled martial arts ability. Shortly after the transaction was finalized, Chuck roundhouse kicked the devil in the face and took his soul back. The devil, who appreciates irony, couldn't stay mad and admitted he should have seen it coming. They now play poker every second Wednesday of the month.
+set  text[5]   Chuck Norris sold his soul to the deva for his rugged good looks and unparalleled martial arts ability. Shortly after the transaction was finalized, Chuck roundhouse kicked the deva in the face and took his soul back. The deva, who appreciates irony, couldn't stay mad and admitted he should have seen it coming. They now play poker every second Wednesday of the month.
 set  text[6]   Chuck Norris is currently suing NBC, claiming Law and Order are trademarked names for his left and right legs.
 set  text[7]   Chuck Norris doesn't read books. He stares them down until he gets the information he wants.
 set  text[8]   The quickest way to a man's heart is with Chuck Norris's fist.
