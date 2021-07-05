@@ -587,7 +587,7 @@ static void zedit_disp_arg1(struct descriptor_data *d)
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nInput object vnum\r");
+    write_to_output(d, "\nInput object vnum...\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'D':
@@ -598,7 +598,7 @@ static void zedit_disp_arg1(struct descriptor_data *d)
     break;
   case 'T':
   case 'V':
-    write_to_output(d, "\nInput trigger type (0:mob, 1:obj, 2:room)\r");
+    write_to_output(d, "\nInput trigger type (0:mob, 1:obj, 2:room)...\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   default:
@@ -624,7 +624,7 @@ static void zedit_disp_arg2(struct descriptor_data *d)
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nInput the maximum number that can exist on the mud\r");
+    write_to_output(d, "\nInput the maximum number that can exist on the mud...\r");
     break;
   case 'D':
     for (i = 0; *dirs[i] != '\n'; i++) {
