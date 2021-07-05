@@ -437,7 +437,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[2:keywords]:%s\r"
   "\nselect[3:s-desc]: %s\r"
   "\nselect[4:l-desc]:%s\r"
-  "\ndescrip[5:d-desc]:%s\r",
+  "\nselect[5:d-desc]:%s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
 	  GET_ALIAS(mob),
@@ -485,25 +485,25 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "\n## Stats: Mob %d\r"
-    "\nselect1:level]:%d\r"
+    "\n# Stats: Mob %d\r"
+    "\nselect[1:level]:%d\r"
     "\n'2) auto stats': Auto set stats based on level.\r",
     OLC_NUM(d),
     GET_LEVEL(mob)
   );
 
   write_to_output(d,
-    "### Hit Points  (xdy+z):\r"
-    "\nselect3:hit]:%d\r"
-    "\nselec4:mana]:%d\r"
-    "\nselec5:move]:%d\r",
+    "## Hit Points  (xdy+z):\r"
+    "\nselect[3:hit]:%d\r"
+    "\nselec[4:mana]:%d\r"
+    "\nselec[5:move]:%d\r",
     GET_HIT(mob),
     GET_MANA(mob),
     GET_MOVE(mob)
   );
 
   write_to_output(d,
-    "\n### Bare Hand Damage (xdy+z):\r"
+    "\n## Bare Hand (xdy+z):\r"
     "\nselect[6:Dice]:%d\r"
     "\nselect[7:Size]:%d\r"
     "\nselect[8:Roll]:%d\r",
@@ -513,7 +513,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   );
 
   write_to_output(d,
-    "\n### General\r"
+    "\n## General\r"
     "\nselect[A:Armor Class]:%d\r\n"
     "\nselect[B:Exp Points]:%d\r\n"
     "\nselect[C:Gold]:%d\r\n"
@@ -530,18 +530,18 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
-    "\n### Advanced\r"
-    "\nselect[F:Str]:%d|%d\r"
-    "\nselect[G:Int]:%d\r"
-    "\nselect[L:Parlysis]:%d\r"
-    "\nselect[H:Wis]:%d\r"
-    "\nselect[M:Rod/Staves]:%d\r"
-    "\nselect[I:Dex]:%d"
-    "\nselect[N:Petification]:%d\r"
-    "\nselect[J:Con]:%d\r"
-    "\nselect[O:Breth]:%d\r"
-    "\nselect[K:Cha]:%d"
-    "\nselect[P:Spells]:%d\r",
+    "\n## Advanced\r"
+    "\nselect[f:strength]:%d|%d\r"
+    "\nselect[g:intelligence]:%d\r"
+    "\nselect[h:wisdom]:%d\r"
+    "\nselect[i:dexterity]:%d"
+    "\nselect[j:con]:%d\r"
+    "\nselect[k:cha]:%d"
+    "\nselect[l:parlysis]:%d\r"
+    "\nselect[m:rod/staves]:%d\r"
+    "\nselect[n:petification]:%d\r"
+    "\nselect[o:breth]:%d\r"
+    "\nselect[p:spells]:%d\r",
         GET_STR(mob), GET_ADD(mob),
         GET_INT(mob),
         GET_SAVE(mob, SAVING_PARA),
@@ -557,7 +557,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\n==\n\nmenu:q:Done\r");
+  write_to_output(d, "\n==\n\nmenu:q:done\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
