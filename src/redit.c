@@ -583,7 +583,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
 	      write_to_output(d, "%s", OLC_ROOM(d)->description);
         oldtext = strdup(OLC_ROOM(d)->description);
       }
-
       send_editor_help(d);
 
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);

@@ -125,7 +125,7 @@ void parse_edit_action(int command, char *string, struct descriptor_data *d)
     break;
   case PARSE_TOGGLE:
     if (!*d->str) {
-      write_to_output(d, "No string.\r\n");
+      write_to_output(d, "\nNo string.\r");
       break;
     }
     bool has_at = FALSE;
@@ -185,7 +185,7 @@ void parse_edit_action(int command, char *string, struct descriptor_data *d)
         rep_all = 1;
 
     if ((s = strtok(string, "'")) == NULL) {
-      write_to_output(d, "Invalid format.\r\n");
+      write_to_output(d, "\nInvalid format.\r");
       return;
     } else if ((s = strtok(NULL, "'")) == NULL) {
       write_to_output(d, "\nTarget string must be enclosed in single quotes.\r");

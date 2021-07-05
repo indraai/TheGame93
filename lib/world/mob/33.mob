@@ -3,8 +3,7 @@ farmer~
 the farmer~
 A farmer walks around, looking for something to do.
 ~
-   This farmer is a resident of Stanneg by the Mountains, and as such, is one of
-the most boring people on earth.
+This farmer is a resident of Stanneg by the Mountains, and as such, is one of the most boring people on earth.
 ~
 204 0 0 0 0 0 0 0 500 E
 7 18 5 1d1+70 1d2+1
@@ -16,8 +15,7 @@ storekeeper~
 the storekeeper~
 A bored storekeeper waits for you to do something.
 ~
-   The bored storekeeper keeps a lazy eye on you as he waits for you to buy
-something.  Whee.
+The bored storekeeper keeps a lazy eye on you as he waits for you to buy something.  Whee.
 ~
 10 0 0 0 0 0 0 0 750 E
 20 14 -2 4d4+200 3d3+3
@@ -29,8 +27,7 @@ cowgirl~
 the cowgirl~
 A cowgirl stand here ready to defend her horses...
 ~
-   This woman seems ready for anything you might do...  She is truly a woman to
-be reckoned with...
+This woman seems ready for anything you might do...  She is truly a woman to be reckoned with...
 ~
 6154 0 0 0 1572880 0 0 0 750 E
 20 14 -2 4d4+200 3d3+3
@@ -40,10 +37,9 @@ E
 #3303
 horse~
 the horse~
-A horse does horsely things here.
+A horse does horsey things here.
 ~
-   This horse looks like a nice horse.  It looks at you with soft brown eyes and
-you want to give it a carrot.
+This horse looks like a nice horse.  It looks at you with soft brown eyes and you want to give it a carrot.
 ~
 10 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
@@ -65,12 +61,11 @@ She looks bored, though.
 8 8 2
 E
 #3305
-aglandiir dragon~
-Aglandiir~
-The Dragon Prince, Aglandiir, sits here looking at you curiously.
+maya danav dragon~
+Maya Danav the Great Artificer~
+The Dragon Prince Maya Danav, sits here looking at you curiously.
 ~
-   Aglandiir is a prince of his kind, and he didn't get where he is today by
-letting people steal from his horde!
+Maya is a prince of his kind, and he didn't get where he is today by letting people steal from his horde!
 ~
 256058 0 0 0 16 0 0 0 750 E
 30 10 -8 6d6+300 5d5+5
@@ -87,8 +82,7 @@ cyclops~
 the Cyclops~
 A Cyclops is here, trying to judge range with no depth perception.
 ~
-   This Cyclops throws rocks real good.  With one eye though, hitting the target
-is another matter.  He looks at you and growls as he misses again!
+This Cyclops throws rocks real good.  With one eye though, hitting the target is another matter.  He looks at you and growls as he misses again!
 ~
 75822 0 0 0 0 0 0 0 -500 E
 16 15 0 3d3+160 2d2+2
@@ -101,9 +95,7 @@ salle woman~
 Salle~
 A woman ignores you completely, so intent is she upon her sword.
 ~
-   She is a stunning woman, all hair and eyes, it seems.  Her clothing is of the
-same tawny brown of her skin and hair.  Her blue eyes look at you appraisingly,
-seemingly to show great intelligence.  Her mouth twitches into a sneer...
+She is a stunning woman, all hair and eyes, it seems.  Her clothing is of the same tawny brown of her skin and hair.  Her blue eyes look at you appraisingly, seemingly to show great intelligence.  Her mouth twitches into a sneer...
 ~
 4106 0 0 0 0 0 0 0 -600 E
 15 15 1 3d3+150 2d2+2
@@ -115,10 +107,7 @@ duwick man~
 Duwick~
 A truly immense man laughs at you, and draws his knife!
 ~
-   This has to be one of the biggest men you've ever seen.  He is a full seven
-feet toe to head, and weighs a good three hundred pounds -- mostly on his biceps
-and pectorals it appears.  An ornate scabbard slaps by his side, with the pommel
-of a silvered dagger sticking out...  A tiny weapon for such a large man!
+This has to be one of the biggest men you've ever seen.  He is a full seven feet toe to head, and weighs a good three hundred pounds -- mostly on his biceps and pectorals it appears.  An ornate scabbard slaps by his side, with the pommel of a silvered dagger sticking out...  A tiny weapon for such a large man!
 ~
 4106 0 0 0 0 0 0 0 -900 E
 22 13 -3 4d4+220 3d3+3
@@ -130,8 +119,7 @@ receptionist~
 the Receptionist~
 A receptionist offers you a room.
 ~
-   He looks like a retired farmer now making an honest living in an inn.  More
-power to him!
+He looks like a retired farmer now making an honest living in an inn.  More power to him!
 ~
 10 0 0 0 0 0 0 0 400 E
 12 16 2 2d2+120 2d2+2

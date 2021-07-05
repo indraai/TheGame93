@@ -305,13 +305,11 @@ Drow and could probably easily be angered into a fight.
 BareHandAttack: 5
 E
 #23921
-drow monk~
-a drow monk~
-A drow monk walks along the passage.
+deva monk apprentice~
+Deva Monk Apprentice~
+A Deva Monk Apprentice walks along the passage.
 ~
-   A monk of the drow social system is an evil healer and spell caster.  She
-is a young drow matriarch with potential to be a drow priestess some day in her
-future.
+A apprentice of the Deva social system is a healer.  She is young with potential to be a Monk some day in her future.
 ~
 245976 0 0 0 1048660 0 0 0 -500 E
 20 14 -2 4d4+200 3d3+3
@@ -347,14 +345,13 @@ A SecurityDEVA keeps intruders from entering the inner chambers.
 E
 T 23907
 #23924
-drow priestess~
-a drow priestess~
-A powerful drow priestess chants some prayers to her Devas here.
+Deva Monk~
+a Deva Monk~
+A powerful Deva Monk plays singing bowls to her Devas here.
 ~
-   A drow priestess is barely clothed.  She has a blank expression on her face
-and pale white skin.  The priestess eyes are pitch black and deep as the ocean
-and you can see the evil forces that dwell within her dark soul through these
-windows of her mind.
+A Deva Mok is here.  She has a blank expression on her face and blue
+skin with pitch black eyes deep as the ocean. You can see the forces that dwell
+within her soul through these windows of her mind.
 ~
 254552 0 0 0 84 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -364,13 +361,11 @@ BareHandAttack: 8
 E
 T 23908
 #23925
-drow guard~
-a drow guard~
-A drow guard keeps watch here with a vigilance.
+deva agni guard guarddeva gd23925~
+GuardDEVA GD23925~
+A GuardDEVA keeps watch here with a vigilance.
 ~
-   A male drow guard is stronger than the female drow guards but is lower in
-rank within the Matriarch society.  He would gladly die defending the inner
-sanctum of the drow chapel.
+A GuardDEVA is here guarding the area.
 ~
 254044 0 0 0 524368 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3

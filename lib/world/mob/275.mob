@@ -1104,14 +1104,13 @@ A janitor is walking around, cleaning up.
 8 8 1
 E
 #27585
-fido beastly~
-the beastly fido~
-A beastly fido is here.
+fido dog puppy canine~
+Fido~
+Fido is here.
 ~
-   A fido is a small dog that has a foul smell and pieces of rotted meat
-hanging around its teeth.
+A fido is a small dog that has a sweet smell and pieces of candy dirt stuck to it's mouth.
 ~
-200 0 0 0 0 0 0 0 -200 E
+200 0 0 0 0 0 0 0 200 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 0
