@@ -1,6 +1,6 @@
 #3300
 A Winding Trail~
-world:3300/main
+adv:world:3300/main
 ~
 33 68 0 0 0 5
 D1
@@ -116,35 +116,27 @@ adv:world:3305/tracks
 S
 #3306
 Mountain Ridge~
-   You are standing on a ridge in the mountains, just east
-of a very small valley.  You spot a tiny cottage sitting
-in the center of the valley, and the ridge continues
-south.  Looking at the sheer drops to the north and west,
-you consider not taking those directions.
+adv:world:3306/main
 ~
 33 0 0 0 0 5
 D2
+adv:world:3307/look
 ~
 ~
 0 -1 3307
 D3
+adv:world:3305/look
 ~
 ~
 0 -1 3305
 E
 tracks track~
-   The tracks lead south.
+adv:world:3306/tracks
 ~
 S
 #3307
 The Mountain Ridge~
-    The mountain range continues north from here, and
-widens out into a small plateau just to your south.  Going
-east and west from here would be a bad idea, considering
-the steepness of the drop.  From this height, you have a
-fairly good panoramic view to the south, including what
-appears to be a small mountain village to your south and
-west, and a tall, ominous peak westwards from here.
+adv:world:3307/main
 ~
 33 0 0 0 0 5
 D0
@@ -1417,9 +1409,36 @@ dirt stone~
 S
 #3372
 The Pit~
-You fall through the illusionary floor.
+You fall through the floor down into the pit of True Evil.
 
-You hit the poisoned spikes below.
+Down here you can see all sorts of True Evil having a blast of a good time. Down
+here everyone openly chooses to live the TRUE EVIL lifestyle.
+
+Here you will find things such as:
+Money, God, Gods, Monsters, Coffee, Urine, Feces, Blood, Sex, Sex, Sex, more Sex,
+Boobs, Weeners, Vaginas, piles of Vaginas, Sacrifice, Magic, Witchcraft,
+Eating of Flesh, Lust, more Lust, Burning Desires, Mountains of Drugs, Slavery,
+Alcohol, Guns, Swords, Street Fights, Loud Music, Really Really Really Loud Music,
+Flames, Lots of Flames, Monster Truck Rallies, Hotdogs, Falsehood, Vanity,
+Deception, and Sensual Pleasures galore.
+
+This realm is offered by The Ministers of Sacrifice and Holy Order Of The Covenant
+for your EVIL pleasures and enjoyment.
+
+name: The PIT of True Evil
+group: The Covenant
+slogan: Heads are going to roll!
+
+Here there the rules.
+1. ADULTS ONLY!
+2. ENTER AT YOUR OWN RISK/RESPONSIBILITY
+3. FREE CONDOMS
+4. NO GOING BACK
+5. ANYTHING GOES!
+6. TRUE EVIL OR DIE!
+
+
+If you choose True Evil for a way of life then this is the place for you. Have a BLAST!
 ~
 33 76 0 0 0 0
 S
