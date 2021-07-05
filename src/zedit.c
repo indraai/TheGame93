@@ -628,7 +628,7 @@ static void zedit_disp_arg2(struct descriptor_data *d)
     break;
   case 'D':
     for (i = 0; *dirs[i] != '\n'; i++) {
-      write_to_output(d, "\nslect[d:exit] %s\r", i, dirs[i]);
+      write_to_output(d, "\nslect[%d:exit] %s\r", i, dirs[i]);
     }
     write_to_output(d, "\nEnter exit number for door...\r");
     break;
@@ -738,7 +738,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     default:
       write_to_output(d, "\nInvalid choice!\r");
-      write_to_output(d, confirm_msg);
+      write_to_output(d, "%s", confirm_msg);
       break;
     }
     break;
@@ -749,11 +749,11 @@ void zedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_ZONE(d)->age || OLC_ZONE(d)->number) {
-	write_to_output(d, confirm_msg);
-	OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
+        write_to_output(d, "%s", confirm_msg);
+        OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
-	write_to_output(d, "\nNo changes made.\r");
-	cleanup_olc(d, CLEANUP_ALL);
+        write_to_output(d, "\nNo changes made.\r");
+        cleanup_olc(d, CLEANUP_ALL);
       }
       break;
     case 'n':
