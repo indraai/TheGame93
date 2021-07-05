@@ -202,9 +202,7 @@ bandit~
 the bandit~
 A bandit springs into action upon seeing you.
 ~
-   Whew!  Has this guy ever seen a bath?  His face, hands, arms...  Nearly every
-bit of him is covered with grime, dust, dirt and decay.  His sword is polished
-and cleaned though...
+Whew!  Has this guy ever seen a bath?  His face, hands, arms.  Nearly every bit of him is covered with grime, dust, dirt and decay.  His sword is polished and cleaned though.
 ~
 1740 0 0 0 0 0 0 0 -500 E
 16 15 0 3d3+160 2d2+2
@@ -216,9 +214,7 @@ bandit guard~
 the bandit guard~
 A bandit guard stands at attention here.
 ~
-   He may be a bandit, but he's no slacker.  You wonder who would be able to
-keep these bandits in line enough to pull a good guard duty...  (boy is this guy
-DIRTY!!!  )
+He may be a bandit, but he's no slacker.  You wonder who would be able to keep these bandits in line enough to pull a good guard duty... boy is this guy DIRTY!!!
 ~
 1546 0 0 0 0 0 0 0 -500 E
 18 14 0 3d3+180 3d3+3
@@ -230,9 +226,7 @@ miner worker slave~
 the slave~
 A slave here is mining out a new passageway.
 ~
-   The slave looks up at you with pleading eyes.  He wants his freedom.  The
-chains around his ankles are tight, and you wonder if you should set him free,
-and if you even can.
+The slave looks up at you with pleading eyes. He wants his freedom. The chains around his ankles are tight, and you wonder if you should set him free, and if you even can.
 ~
 138 0 0 0 0 0 0 0 1000 E
 6 18 6 1d1+60 1d2+1
@@ -244,8 +238,7 @@ farmer~
 the farmer~
 A farmer walks around, looking for something to do.
 ~
-   This farmer is a resident of Stanneg by the Mountains, and as such, is one of
-the most boring people on earth.
+This farmer is a resident of Stanneg by the Mountains, and as such, is one of the most boring people on earth.
 ~
 206 0 0 0 0 0 0 0 500 E
 7 18 5 1d1+70 1d2+1
@@ -257,9 +250,7 @@ hunter~
 the hunter~
 A hunter walks through the town streets on his own time.
 ~
-   He looks mean, as if the very personality of the mountains had infected him
-with hardness.  His stride is purposeful, his face weathered, his eyes cold and
-dark.  Others are standing out of his way as he walks on by.
+He looks mean, as if the very personality of the mountains had infected him with hardness.  His stride is purposeful, his face weathered, his eyes cold and dark.  Others are standing out of his way as he walks on by.
 ~
 4174 0 0 0 0 0 0 0 500 E
 11 17 3 2d2+110 1d2+1
