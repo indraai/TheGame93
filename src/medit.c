@@ -434,9 +434,9 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Mob %d\r"
   "\nselect[1:gender]:%s\r"
-  "\ninput[2:keywords]:%s\r"
-  "\ninput[3:s-desc]: %s\r"
-  "\ninput[4:l-desc]:%s\r"
+  "\nselect[2:keywords]:%s\r"
+  "\nselect[3:s-desc]: %s\r"
+  "\nselect[4:l-desc]:%s\r"
   "\ndescrip[5:d-desc]:%s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
@@ -486,7 +486,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   /* Top section - standard stats */
   write_to_output(d,
     "\n## Stats: Mob %d\r"
-    "\ninput[1:level]:%d\r"
+    "\nselect1:level]:%d\r"
     "\n'2) auto stats': Auto set stats based on level.\r",
     OLC_NUM(d),
     GET_LEVEL(mob)
@@ -494,9 +494,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "### Hit Points  (xdy+z):\r"
-    "\ninput[3:Hit]:%d\r"
-    "\ninput[4:Mana]:%d\r"
-    "\ninput[5:Move]:%d\r",
+    "\nselect3:hit]:%d\r"
+    "\nselec4:mana]:%d\r"
+    "\nselec5:move]:%d\r",
     GET_HIT(mob),
     GET_MANA(mob),
     GET_MOVE(mob)
@@ -614,7 +614,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Anything been changed? */
-	      write_to_output(d, "\nSave changes:\nmenu:y:Yes\nmenu:n:No\r");
+	      write_to_output(d, "\%s", confirm_msg);
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);
@@ -625,6 +625,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case '2':
       OLC_MODE(d) = MEDIT_KEYWORD;
+      wirte_to_output(d, "Enter keywords: %s", GET_ALIAS(mob))
       i--;
       break;
     case '3':
@@ -694,7 +695,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     if (i == 0)
       break;
     else if (i == 1)
-      write_to_output(d, "\nNew value:\r");
+      write_to_output(d, "\nNew value...\r");
     else if (i == -1)
       write_to_output(d, "\nNew text :\r");
     else
@@ -869,6 +870,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       medit_disp_stats_menu(d);
       return;
     }
+    /*
     if (i == 0)
       break;
     else if (i == 1)
@@ -877,6 +879,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "\nNew text:\r");
     else
       write_to_output(d, "\nOops...\r");
+    */
     return;
 
   case OLC_SCRIPT_EDIT:
