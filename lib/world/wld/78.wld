@@ -1,100 +1,85 @@
 #7800
-Disneyland - Arina~
-   Ths Following zone is a town level 10-15 with a general store and so on its
-made up of a human/elf population the connecting point is 3339 to 7801 have fun
+It's a Small World (Inside)~
+adv:world:7800/main
 ~
 78 512 0 0 0 0
 E
 credits info~
-   Arina Links: 01n
+adv:world:7800/credits
 ~
 S
 #7801
-Narrow Path~
-   Dust swirls around your ankles as you continue your journey southerly.
-Tall, majestic fir trees line the path on each side giving relief from the hot
-sun.  Strange sounds echo in the trees as animals call out to those of their
-own kind.  Northward lies the Western Highway and to the south you can make out
-what seems to be a small village.
+It's a Small World (Entrance)~
+adv:world:7801/main
 ~
 78 32768 0 0 0 3
+DO
+It's a Small World
+~
+~
+0 -1 7800
 D1
+Cave Entrance
 ~
 ~
 0 -1 3339
 D2
+Fantasyland
 ~
 ~
 0 0 7802
 E
-tree fir~
-   Tall and stately, the fir trees sway gently in the breeze.  The tops reaching
-seemingly endlessly toward the heavens with branches so heavily laden with moss
-the lower ones droop to the ground.
+entrance~
+adv:world:7801/entrance
 ~
 S
 #7802
-Narrow Path~
-   The path becomes a somewhat cobbled stone road, stray stones litter the
-pathway here looking as if something frightened the workers away in the middle
-of their task.  A light breeze blows gently from the south.  Gazing at the
-horizon, tops of chimneys can be seen.  You get an eerie feeling you are being
-watched.  The path runs north and west, westerly you can make out the sounds of
-merchants calling out their wares.
+Fantasyland~
+adv:world:7802/main
 ~
 78 32768 0 0 0 3
 D0
+It's a Small World
 ~
 ~
 0 0 7801
 D3
+The Magic Castle
 ~
 ~
 0 0 7803
 S
 #7803
-Village of Disneyland, Gate~
-   Standing before you is the gate leading to the Village of Disneyland, open wide
-and seemingly beckoning you to enter.  Smells of home cooked meals drift on the
-breeze and you can hear the sound of children playing in the distance.  The
-cobbled road is well constructed and durable, looking as if each stone was
-carefully hand picked and polished before being skillfully laid into the dirt.
-Easterly will take you back to the Western Highway, while just through the gate
-is the Village of Disneyland to the south.
+Magic Castle~
+adv:world:7803/main
 ~
 78 32772 0 0 0 3
 D1
+Fantasyland
 ~
 ~
 0 0 7802
 D2
-You see the gate leading to the Village of Disneyland.
+Main Street
 ~
-<none>~
+~
 0 0 7804
 E
 gate~
-   A carefully painted sign is hanging on the gate.
+A carefully painted sign is hanging on the gate.
 ~
 E
 sign~
-   The sign reads "Welcome to the Village of Disneyland".
+The sign reads "Welcome to the Village of Disneyland".
 ~
 E
 south~
-   You see the gate leading to the Village of Disneyland.
+You see the gate leading to the Village of Disneyland.
 ~
 S
 #7804
 Village of Disneyland, Mahnra Road~
-   Sights and sounds fill your senses, the smells from the bakery waft lightly
-on the air.  Shops dot the landscape along this busy yet peaceful road.
-Children playing amongst the crowd cause the occasional shopper to almost lose
-their packages.  Flowers grow in clay pots that line the road, adding to the
-beauty of the village.  Butterflies dance lazily over the flowers only swept
-away by the occasional breeze.  To the north lies the village gate, while
-Mahnra Road continues on east and west where you will find various shops and
-merchants.  To the south you hear water bubbling.
+adv:world:7804/main
 ~
 78 32768 0 0 0 1
 D0
@@ -116,11 +101,7 @@ D3
 S
 #7805
 Village of Disneyland, Mahnra Road~
-   Villagers laugh heartily as they greet each other warmly in passing.
-Maidens can be seen carrying water vessels from the fountain that is to the
-southwest.  A stray cat lies in the middle of the road cleaning itself
-gingerly.  Mahnra road runs easterly and westerly and to the south is Vestra
-Court that leads to the village fountain.
+adv:world:7805/main
 ~
 78 32768 0 0 0 1
 D1
@@ -138,11 +119,7 @@ D3
 S
 #7806
 Village of Disneyland, Mahnra Road~
-   A young couple in love walks past you arm in arm, smiling at each other and
-oblivious to your presence.  An old man in a rocking chair sits watching them
-from a front porch with a knowing look on his face.  The homes are modest but
-look well kept and each has a feeling of comfort to them.  Mahnra Road
-continues to the east and west.
+adv:world:7806/main
 ~
 78 32768 0 0 0 1
 D1
