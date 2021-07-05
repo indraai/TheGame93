@@ -140,47 +140,48 @@ adv:world:3307/main
 ~
 33 0 0 0 0 5
 D0
+adv:world:3306/look
 ~
 ~
 0 -1 3306
 D2
+adv:world:3308/look
 ~
 ~
 0 -1 3308
 E
 tracks track~
-   They lead south.
+adv:world:3307/tracks
 ~
 S
 #3308
 The Diverging Paths~
-   You are standing on a small plateau in the mountains,
-just south of a ridge that leads northwards through the
-rocky area.  To the east, south, and west are gentle
-slopes leading down into different areas of the mountains.
-   A giant, dark peak looks down over you to the west,
-looking quite spooky indeed!
+adv:world:3308/main
 ~
 33 0 0 0 0 5
 D0
+adv:world:3307/look
 ~
 ~
 0 -1 3307
 D1
+adv:world:3341/look
 ~
 ~
 0 -1 3341
 D2
+adv:world:3309/look
 ~
 ~
 0 -1 3309
 D3
+adv:world:3359/look
 ~
 ~
 0 -1 3359
 E
 tracks track~
-   The three sets of tracks split up here, one west, one east, one south.
+adv:world:3308/tracks
 ~
 S
 #3309
