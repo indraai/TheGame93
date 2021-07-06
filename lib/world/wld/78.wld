@@ -248,12 +248,7 @@ S
 T 1200
 #7813
 Disneyland Entrance~
-   Villagers frequent this area as they go to market and to fetch water from
-the fountain.  Burly men stop to share an anecdote or two with each other,
-while the womenfolk move on about their business humming slightly to
-themselves.  Houses are scattered here and there each with a small garden to
-the side of them.  Directly north the fountian lies, while Talipia Way
-continues to the east and west.
+adv:world:7813/main
 ~
 78 32768 0 0 0 1
 D0
