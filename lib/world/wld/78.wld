@@ -38,7 +38,7 @@ adv:world:7801/entrance
 ~
 S
 #7802
-Fantasyland~
+The Plaza~
 adv:world:7802/main
 ~
 78 32768 0 0 0 3
@@ -53,7 +53,7 @@ D2
 0 0 7803
 S
 #7803
-Fantasyland~
+Main St. & Plaza~
 adv:world:7803/main
 ~
 78 32784 0 0 0 3
@@ -67,20 +67,20 @@ Main Street
 ~
 0 0 7804
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 S
 #7804
-The Plaza~
+Main St. & Center~
 adv:world:7804/main
 ~
 78 32768 0 0 0 1
@@ -227,7 +227,7 @@ D3
 S
 T 1200
 #7813
-Disneyland Entrance~
+Disneyland (Entrance)~
 adv:world:7813/main
 ~
 78 32768 0 0 0 1
@@ -236,12 +236,12 @@ D0
 ~
 0 0 7818
 E
-stroller strollers wheelchair wheelchairs~
-adv:world:7813/strollers
-~
-E
 souvenir souvenirs stand~
 adv:world:7813/souvenirs
+~
+E
+stroller strollers wheelchair wheelchairs~
+adv:world:7813/strollers
 ~
 S
 #7814
