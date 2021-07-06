@@ -47,8 +47,7 @@ It's a Small World
 ~
 ~
 0 0 7801
-D3
-The Magic Castle
+D2
 ~
 ~
 0 0 7803
@@ -58,8 +57,7 @@ Fantasyland~
 adv:world:7803/main
 ~
 78 32784 0 0 0 3
-D1
-Fantasyland
+D0
 ~
 ~
 0 0 7802
@@ -69,16 +67,16 @@ Main Street
 ~
 0 0 7804
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 S
 #7804
@@ -104,7 +102,7 @@ D3
 0 0 7815
 S
 #7805
-Village of Disneyland, Mahnra Road~
+Tomorrowland~
 adv:world:7805/main
 ~
 78 32768 0 0 0 1
@@ -122,10 +120,14 @@ D3
 0 0 7804
 S
 #7806
-Village of Disneyland, Mahnra Road~
+Tomorrowland: Rocket Jets~
 adv:world:7806/main
 ~
 78 32768 0 0 0 1
+D0
+~
+~
+0 0 7811
 D1
 ~
 ~
@@ -136,7 +138,7 @@ D3
 0 0 7805
 S
 #7807
-Village of Disneyland, Mahnra Road~
+Tomorrowland: Autopia~
    The houses are sparse here but children abound, laughing merrily as the play
 tag.  The flowers have all been somewhat tramped by their roughhousing.  Girls
 stand in groups giggling at the boys as they play in the street.  To the north
@@ -148,6 +150,10 @@ D0
 ~
 ~
 0 0 7808
+D1
+~
+~
+0 0 7802
 D2
 ~
 ~
@@ -158,7 +164,7 @@ D3
 0 0 7806
 S
 #7808
-Village of Disneyland, Mahnra Park~
+Tomorrowland: Submarine Voyage~
    An ivy covered fence surrounds this peaceful park.  Directly in the center
 you see a pond with lilypads floating lazily upon it.  Frogs jump from the bank
 into the pond causing a slight splash, as birds sing merrily in the trees.  A
@@ -177,7 +183,7 @@ One just jumped out of the water!  What a beauty!
 ~
 S
 #7809
-Village of Disneyland, Shantrell Lane~
+Tomorrowland: America Sings~
    Shantrell Lane, not much more than a narrow path, contects the two major
 roads of Disneyland.  No homes can be found here but yet it is meticulously
 groomed.  The flowers grow tall under the trees that shade them from the noon
@@ -194,7 +200,7 @@ D2
 0 0 7810
 S
 #7810
-Village of Disneyland, Talipia Way~
+Tomorrowland: Mission to Mars~
    Small cottages line the street here.  Not much to look at but still well
 maintained as if the owners take great pride in them.  A playful puppy romps
 from house to house begging for scraps.  A young woman works carefully tending
@@ -209,16 +215,27 @@ D0
 D3
 ~
 ~
-0 0 7811
+0 0 7812
 S
 #7811
-Village of Disneyland, Talipia Way~
+Tomorrowland: The Space Bar~
    This residential area of Disneyland is somewhat over populated, houses are
 rather close together just as the neighbors seem to be close with each other.
 Two women sit on a veranda sipping refreshing drinks watching their children
 play together.  Talipia Way continues on to the east and west.
 ~
 78 32768 0 0 0 1
+D2
+~
+~
+0 0 7806
+S
+#7812
+Tomorrowland: The Character Shop~
+   You don't think that you are not floating in nothing.  You can see
+a strange portal located above you.
+~
+78 8 0 0 0 1
 D1
 ~
 ~
@@ -226,32 +243,11 @@ D1
 D3
 ~
 ~
-0 0 7812
-S
-#7812
-Village of Disneyland, Talipia Way~
-   Brick houses with ivy running up the sides sit quietly along the side of the
-road.  It is peaceful and calm here, the only sound you hear are those of the
-birds in the trees.  To the northwest you can just make out the sound of
-bubbling water, while Talipia Way continues on east and west.  Northward will
-lead you to Vestra Court and the village gate.
-~
-78 32768 0 0 0 1
-D0
-~
-~
 0 0 7814
-D1
-~
-~
-0 0 7811
-D3
-~
-~
-0 0 7813
 S
+T 1200
 #7813
-S. Main Street~
+Disneyland Entrance~
    Villagers frequent this area as they go to market and to fetch water from
 the fountain.  Burly men stop to share an anecdote or two with each other,
 while the womenfolk move on about their business humming slightly to
@@ -264,13 +260,9 @@ D0
 ~
 ~
 0 0 7818
-D1
-~
-~
-0 0 7812
 S
 #7814
-Village of Disneyland, Vestra Court~
+Tomorrowland: Adv. Thru Inner Space~
    This well traveled path leads between the the major roads of the village,
 northward Mahnra Road and southward Talipia Way.  Westward you can see a row of
 high hedges that border the village fountain.  Along the hedgeline flowers
@@ -281,14 +273,10 @@ D0
 ~
 ~
 0 0 7805
-D2
+D1
 ~
 ~
 0 0 7812
-D3
-~
-~
-0 0 7818
 S
 #7815
 Cobblestone Path~
@@ -360,10 +348,6 @@ D0
 ~
 ~
 0 0 7804
-D1
-~
-~
-0 0 7814
 D2
 ~
 ~
