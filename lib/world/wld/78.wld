@@ -67,16 +67,16 @@ Main Street
 ~
 0 0 7804
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 S
 #7804
@@ -330,7 +330,7 @@ D3
 0 0 7825
 S
 #7818
-Main Street~
+Town Square~
    Tall hedges border this fountain lending a feeling of seclusion and
 peacefulness.  Benches are carefully placed around the bubbling fountain
 providing a place for the villagers to gather and gossip.  Squirrels scurry
