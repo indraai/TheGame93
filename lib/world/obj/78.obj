@@ -1,92 +1,91 @@
 #7801
-fountain water~
-a fountain of water~
-A fountain flowing with cool, clear water is here.~
+enchanted magic fountain pure deva water~
+The Enchanted Magic Fountain of Pure Deva Water~
+A fountain flowing with clear, cool, enchanted magic deva pure water offered to the Devas.~
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 500 500 15 0
 0 0 0 0 0
 E
 fountain~
-   Made of pure white marble, this fountain bubbles lazily providing cool,
-crystal clear water to those of the village.
+Made of pure white marble, this fountain bubbles lazily providing cool, crystal clear magic deva water to offer the Devas of the area.
 ~
 #7802
-black silk dress~
-a long black tight-fitting silk dress~
-A discarded black piece of silk lies here.~
+blue silk dress~
+a long blue loose-fitting silk dress~
+A blue piece of silk is here.~
 ~
 11 acd 0 0 0 ad 0 0 0 0 0 0 0
 0 0 0 0
 2 2 0 0 0
 #7803
-blueberry tart~
+blueberry tart snacks~
 a yummy blueberry tart~
-A delectible pastry has been left here.~
+A delectible pastry has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 0
 1 30 3 0 0
 #7804
-apple pie~
+apple pie snacks~
 a freshly baked apple pie~
-A pie has been dropped here.~
+A fresh apple pie has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 4 0 0 0
 1 40 5 0 0
 #7805
-slice cake~
+slice cake snacks~
 a slice of cake~
-A slice of cake has been dropped here.~
+A slice of cake has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 0
 1 20 2 0 0
 #7806
-muffin~
+muffin snacks~
 a hot muffin~
-A muffin has been tossed to the side here.~
+A muffin has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 0
 1 10 2 0 0
 #7807
-huge chocolate chip cookie~
+huge chocolate chip cookie snacks~
 a huge chocolate chip cookie~
-A rather large circular object has been left here.~
+A rather large chocolate chip cookie is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 0
 1 15 2 0 0
 #7808
-milk glass cold milk~
+milk glass cold milk drinks~
 a glass~
-A glass of white liquid has been dropped here.~
+A glass of white milk perfectly chilled is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 1 1 10 0
 1 15 1 0 0
 #7809
-small fuzzy pouch~
-a small fuzzy pouch~
-A small fuzzy pouch has been left here. ~
+small spy pouch~
+a small spy pouch~
+A small spy pouch has been left here. ~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 8 1 -1 0
 3 15 1 0 0
 #7810
-large travelers pack~
-a large travelers pack~
-A lump of material lies here.~
+spy information pack~
+Spy Information Pack~
+The super secret undercover spy secret storage backpack.~
 ~
 15 0 0 0 0 ad 0 0 0 0 0 0 0
 45 1 -1 0
 5 50 5 0 0
 #7811
-soft tanned leather boots~
-some soft tanned leather boots~
-A pair of boots have been tossed aside here.~
+soft comfortable shoes~
+some soft comfortable shoes~
+A pair of soft comfortable shoes here.~
 ~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 1 0 0 0
@@ -100,17 +99,17 @@ A crumpled piece of leather has been tossed here.~
 65 1 -1 0
 5 60 7 0 0
 #7814
-gray leather armor~
-some gray leather armor~
-Some gray leather has been carelessly left here.~
+special spy armor~
+special spy armor~
+Some special spy armor to protect spies in disguise is here.~
 ~
 9 np 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
 12 120 12 0 0
 #7815
-gray leather boots~
-a pair of gray leather boots~
-Some gray boots lay on their sides here.~
+sandals flipflops flippies~
+a pair of gray flip-flop sandals~
+Some gray flip-flop sandals are here.~
 ~
 9 g 0 0 0 ag 0 0 0 0 0 0 0
 1 0 0 0
@@ -118,33 +117,33 @@ Some gray boots lay on their sides here.~
 A
 14 10
 #7816
-slender dagger~
-a slender dagger~
-A slender shiney dagger is half buried in the dirt here.~
+medium singing bowl~
+Medium Singing Bowl~
+A medium sized singing bowl of expert quality is here.~
 ~
 5 ep 0 0 0 an 0 0 0 0 0 0 0
 5 2 2 11
 3 120 12 0 0
 #7817
-rainbow stripped pants~
-a pair of rainbow stripped pants~
+rainbow striped pants~
+a pair of rainbow striped pants~
 Some colorful pants have been discarded here.~
 ~
 13 0 0 0 0 af 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
 #7818
-pink polkadot frock~
-a pink polkadot frock~
+blue red yellow polkadot frock~
+a blue, red, and yellow polkadot frock~
 A colorful heap of cloth lies here.~
 ~
 13 0 0 0 0 ad 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
 #7819
-tri-cornered hat~
-a tri-cornered hat~
-A strange looking hat has been dropped here.~
+mickeymouse mickey mouse hat~
+a Mickey Mouse hat~
+A Mickey Mouse Hat with ears is here.~
 ~
 13 0 0 0 0 ae 0 0 0 0 0 0 0
 0 0 0 0
@@ -158,17 +157,17 @@ A stripped object was tossed here carelessly.~
 3 2 3 7
 6 120 12 0 0
 #7821
-pitchfork~
-a pitchfork~
-A pitchfork has been shoved into the ground here.~
+large singing bowl~
+Large Singing Bowl~
+A large singing bowl of amazing quality is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 4 3 4 14
 5 100 10 0 0
 #7822
-spiked club~
-a spiked club~
-A spiked club has been left carelessly here.~
+huge singing bowl~
+Huge Singing Bowl~
+A Huage Singing Bowl of exceptional quality is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 3 3 2 5
