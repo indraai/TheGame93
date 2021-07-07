@@ -198,41 +198,43 @@ but he polishes it anyway.  Go figure.
 8 8 1
 E
 #3315
-bandit~
-the bandit~
-A bandit springs into action upon seeing you.
+security deva securitydeva sd3315~
+SecurityDEVA SD3315~
+SecurityDEVA SD3315 is here.
 ~
-Whew!  Has this guy ever seen a bath?  His face, hands, arms.  Nearly every bit of him is covered with grime, dust, dirt and decay.  His sword is polished and cleaned though.
+An undefined string.
 ~
-1740 0 0 0 0 0 0 0 -500 E
+260444 0 0 0 26744 0 0 0 0 E
 16 15 0 3d3+160 2d2+2
 160 25600
-8 8 1
+8 8 0
+BareHandAttack: 9
 E
 #3316
 guarddeva guard deva gd3316~
-DevaGUARD DG3316~
-A DevaGUARD is here doing a great job.
+GuardDEVA GD3316~
+GuardDEVA GD3316 is here.
 ~
-He may be a bandit, but he's no slacker.  You wonder who would be able to keep these bandits in line enough to pull a good guard duty... boy is this guy DIRTY!!!
+An undefined string.
 ~
-2334 0 0 0 0 0 0 0 0 E
+260382 0 0 0 26744 0 0 0 0 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 1
+8 8 0
 BareHandAttack: 4
 E
 #3317
-miner worker slave~
-the slave~
-A slave here is mining out a new passageway.
+security deva securitydeva sd3317~
+SecurityDEVA SD3317~
+SecurityDEVA SD 3317 is here.
 ~
 The slave looks up at you with pleading eyes. He wants his freedom. The chains around his ankles are tight, and you wonder if you should set him free, and if you even can.
 ~
-138 0 0 0 0 0 0 0 1000 E
+260508 0 0 0 24696 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1
+8 8 0
+BareHandAttack: 5
 E
 #3318
 farmer~

@@ -2,7 +2,7 @@
 It's a Small World (Inside)~
 adv:world:7800/main
 ~
-78 512 0 0 0 0
+78 24 0 0 0 0
 D2
 ~
 ~
@@ -16,7 +16,7 @@ S
 It's a Small World (Entrance)~
 adv:world:7801/main
 ~
-78 32768 0 0 0 3
+78 16 0 0 0 1
 D0
 It's a Small World
 ~
@@ -47,10 +47,18 @@ It's a Small World
 ~
 ~
 0 0 7801
+D1
+~
+~
+0 0 7805
 D2
 ~
 ~
 0 0 7803
+D3
+~
+~
+0 0 7815
 S
 #7803
 Main St. & Plaza~
@@ -67,16 +75,16 @@ Main Street
 ~
 0 0 7804
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 S
 #7804
@@ -88,18 +96,10 @@ D0
 ~
 ~
 0 0 7803
-D1
-~
-~
-0 0 7805
 D2
 ~
 ~
 0 0 7818
-D3
-~
-~
-0 0 7815
 S
 #7805
 Tomorrowland~
@@ -117,7 +117,7 @@ D2
 D3
 ~
 ~
-0 0 7804
+0 0 7802
 S
 #7806
 Tomorrowland: Rocket Jets~
@@ -236,12 +236,12 @@ D0
 ~
 0 0 7818
 E
-souvenir souvenirs stand~
-adv:world:7813/souvenirs
-~
-E
 stroller strollers wheelchair wheelchairs~
 adv:world:7813/strollers
+~
+E
+souvenir souvenirs stand~
+adv:world:7813/souvenirs
 ~
 S
 #7814
@@ -266,7 +266,7 @@ adv:world:7815/main
 D1
 ~
 ~
-0 0 7804
+0 0 7802
 D2
 ~
 ~
