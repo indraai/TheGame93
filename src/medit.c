@@ -308,7 +308,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   int i, count = 0;
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n## Position\r"
+  write_to_output(d, "\n## Position\r")
   for (i = 0; i < NUM_POSITIONS; i++) {
     write_to_output(d, "\nmenu:%s:%d\r", position_types[i], ++count);
   }
