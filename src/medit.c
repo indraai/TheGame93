@@ -324,7 +324,7 @@ static void medit_disp_sex(struct descriptor_data *d)
   int i, count = 0;
   // get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n## Gender\r"
+  write_to_output(d, "\n## Gender\r")
   for (i = 0; i < NUM_GENDERS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, genders[i]);
   }
