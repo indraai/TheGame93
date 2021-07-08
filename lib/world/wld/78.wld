@@ -20,7 +20,7 @@ S
 Fantasyland Gate~
 adv:world:7801/main
 ~
-78 16 0 0 0 1
+78 144 0 0 0 1
 D0
 It's a Small World
 ~
@@ -40,7 +40,7 @@ S
 The Plaza~
 adv:world:7802/main
 ~
-78 32768 0 0 0 3
+78 144 0 0 0 1
 D0
 It's a Small World
 ~
@@ -63,7 +63,7 @@ S
 Main St. & Plaza~
 adv:world:7803/main
 ~
-78 32784 0 0 0 3
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -74,23 +74,23 @@ Main Street
 ~
 0 0 7804
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 S
 #7804
 Main St. & Center~
 adv:world:7804/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -198,7 +198,7 @@ S
 Mission to Mars~
 adv:world:7810/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -212,7 +212,7 @@ S
 The Space Bar~
 adv:world:7811/main
 ~
-78 32912 0 0 0 1
+78 144 0 0 0 1
 D2
 ~
 ~
@@ -241,25 +241,25 @@ T 1200
 Disneyland (Entrance)~
 adv:world:7813/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
 0 0 7818
 E
-souvenir souvenirs stand~
-adv:world:7813/souvenirs
-~
-E
 stroller strollers wheelchair wheelchairs~
 adv:world:7813/strollers
+~
+E
+souvenir souvenirs stand~
+adv:world:7813/souvenirs
 ~
 S
 #7814
 Adventure Thru Inner Space~
 adv:world:7814/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -273,7 +273,11 @@ S
 Cobblestone Path~
 adv:world:7815/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
+D0
+~
+~
+0 0 7819
 D1
 ~
 ~
@@ -285,13 +289,13 @@ D2
 D3
 ~
 ~
-0 0 7819
+0 0 7824
 S
 #7816
 Adventureland~
 adv:world:7816/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -305,21 +309,25 @@ S
 Adventureland~
 adv:world:7817/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
 0 0 7816
-D3
+D1
 ~
 ~
-0 0 7825
+1 0 7825
+D2
+~
+~
+1 0 7826
 S
 #7818
 Town Square~
 adv:world:7818/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -337,14 +345,14 @@ S
 Frontierland~
 adv:world:7819/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 The pine door is open facing the street.  The smells coming from the opening
 entice your olfactory as well as your tummy.
 ~
 pine door~
 1 0 7820
-D1
+D2
 ~
 ~
 0 0 7815
@@ -361,7 +369,7 @@ S
 Stamnell's Bakery~
 adv:world:7820/main
 ~
-78 32768 0 0 0 0
+78 152 0 0 0 0
 D2
 ~
 ~
@@ -371,7 +379,7 @@ S
 Frontierland~
 adv:world:7821/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -380,7 +388,7 @@ D1
 ~
 ~
 0 0 7819
-D2
+D3
 ~
 ~
 0 0 7823
@@ -390,10 +398,10 @@ The sign reads "Vhispera's General Store"
 ~
 S
 #7822
-Vhispera's General Store~
+General Store~
 adv:world:7822/main
 ~
-78 32768 0 0 0 0
+78 152 0 0 0 0
 D2
 ~
 ~
@@ -403,8 +411,8 @@ S
 Bear Country~
 adv:world:7823/main
 ~
-78 32768 0 0 0 1
-D0
+78 144 0 0 0 1
+D1
 ~
 ~
 0 0 7821
@@ -412,16 +420,12 @@ D2
 ~
 ~
 0 0 7824
-D3
-~
-~
-0 0 7826
 S
 #7824
 New Orleans Square~
 adv:world:7824/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -429,35 +433,27 @@ D0
 D1
 ~
 ~
-0 0 7825
+0 0 7815
 S
 #7825
-Cobblestone Path~
+Jungle Cruise~
 adv:world:7825/main
 ~
-78 32768 0 0 0 1
-D1
-~
-~
-0 0 7817
+78 144 0 0 0 1
 D3
 ~
 ~
-0 0 7824
+1 0 7817
 S
 #7826
-Village of Disneyland, Western Gate~
+Swiss Family Treehouse~
 adv:world:7826/main
 ~
-78 32772 0 0 0 1
-D1
+78 152 0 0 0 0
+D0
 ~
 ~
-0 0 7823
-D3
-~
-~
-0 -1 7827
+1 0 7817
 S
 #7827
 Agency: Disneyland~
