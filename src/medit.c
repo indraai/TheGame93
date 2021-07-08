@@ -438,7 +438,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Mob %d\r"
-  "\n----\n"
+  "\n--\n"
   "\nselect[1:gender]:%s\r"
   "\nselect[2:keywords]:%s\r"
   "\nselect[3:s-desc]: %s\r"
@@ -568,7 +568,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\n==\n\nmenu:q:done\r");
+  write_to_output(d, "\n----\n\nmenu:q:done\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
@@ -615,7 +615,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     default:
       write_to_output(d, "Invalid choice!\r\n");
-      write_to_output(d, "\nSave changes:\nmenu:y:Yes\nmenu:n:No\r");
+      write_to_output(d, "%s", confirm_msg);
       return;
     }
 
@@ -636,14 +636,12 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case '2':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "Enter new keywords: %s", OLC_MOB(d)->player.name);
-      i--;
-      break;
+      write_to_output(d, "Enter new keywords...");
+      return;
     case '3':
       OLC_MODE(d) = MEDIT_S_DESC;
-      write_to_output(d, "Enter new description: %s", GET_SDESC(OLC_MOB(d)));
-      i--;
-      break;
+      write_to_output(d, "Enter new description...");
+      return;
     case '4':
       OLC_MODE(d) = MEDIT_L_DESC;
       i--;
