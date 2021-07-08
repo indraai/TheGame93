@@ -44,7 +44,7 @@ There is a huge treasure here, looking moderately valuable.~
 5 1 0 0
 E
 treasure~
-   This looks like a whole lot of coins, though not as many as you expected.
+This looks like a whole lot of coins, though not as many as you expected.
 ~
 #7904
 chest wooden~
@@ -103,7 +103,7 @@ waybread bread~
 lembas.  It is said to refresh the weary traveler greatly.
 ~
 #7909
-ring gold goldring~
+ring gold goldring quinnstuff~
 a golden ring~
 A shiny goldring has been abandoned here.~
 ~
@@ -113,7 +113,7 @@ A shiny goldring has been abandoned here.~
 A
 3 2
 #7910
-sword bastard~
+sword bastard quinnstuff~
 a huge bastard sword~
 There is a huge bastard sword here.~
 ~
@@ -122,12 +122,12 @@ There is a huge bastard sword here.~
 18 170 80 0
 E
 bastard sword~
-   Quite a heavy weapon, with a pure white hilt.
+Quite a heavy weapon, with a pure white hilt.
 ~
 A
 19 3
 #7911
-helmet large~
+helmet large quinnstuff~
 a large helmet~
 There is a large helmet on the floor.~
 ~
@@ -156,28 +156,27 @@ A
 A
 24 -2
 #7913
-sword two-handed~
-a two-handed sword~
-On the floor rests a enormous two-handed sword.~
+Heimdallr Hǫfuð hofuo hofund man-head sword two-handed bifrost quinnstuff~
+Heimdallr Hǫfuð Bifrost Sword~
+On the floor rests a Heimdallr enormous sword.~
 ~
 5 gjkm 0 0 0 an 0 0 0 0 0 0 0
 0 3 6 3
 22 350 350 0
 E
 two-handed sword~
-   You notice that there has been inscribed some runes and a sort of pattern,
-which resembles flames running along the edge.
+You notice that there has been inscribed some runes and a sort of pattern, which resembles flames running along the edge.
 ~
 E
 runes~
-   On the blade you can read 'Flame And Strength United Are My Soul Power'.
+On the blade you can read 'Flame And Strength United Are My Soul Power'.
 ~
 A
 17 10
 A
 19 3
 #7914
-plate breast silvery silver~
+plate breast silvery silver quinnstuff~
 a silvery breast plate~
 There is a silvery breast plate on the floor.~
 ~
@@ -190,7 +189,7 @@ plate breast silvery silver~
 some kind of silver or platinum.
 ~
 #7915
-plates leg silvery~
+plates leg silvery quinnstuff~
 some silvery leg plates~
 On the floor you see some leg plates.~
 ~
@@ -203,7 +202,7 @@ leg plates silvery silver~
 
 ~
 #7916
-gloves silvery silver~
+gloves silvery silver quinnstuff~
 a pair of silvery gloves~
 You can see a pair of gloves on the floor.~
 ~
@@ -217,7 +216,7 @@ gloves silvery silver~
 A
 18 1
 #7917
-helmet silvery silver~
+helmet silvery silver quinnstuff~
 a silvery helmet~
 The silvery helmet lies here.~
 ~
@@ -230,7 +229,7 @@ helmet silvery silver~
 on the top.
 ~
 #7918
-shield rose~
+shield rose quinnstuff~
 the shield of the rose~
 The shield of the rose rests on the floor.~
 ~
@@ -244,10 +243,10 @@ white background.  You also notice an inscription.
 ~
 E
 inscription~
-   The inscription reads: Pax Est Sanctuum
+The inscription reads: Defense then Offense.
 ~
 #7919
-boots heavy plated~
+boots heavy plated quinnstuff~
 a pair of heavy plated boots~
 A pair of heavy plated boots stand on the floor.~
 ~
@@ -259,7 +258,7 @@ boots heavy plated~
    The boots are made from a silvery metal.
 ~
 #7920
-plates arm silvery silver~
+plates arm silvery silver quinnstuff~
 some silvery arm plates~
 On the floor you see some arm plates.~
 ~
