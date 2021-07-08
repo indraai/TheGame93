@@ -308,12 +308,14 @@ static void medit_disp_positions(struct descriptor_data *d)
   int i, count = 0;
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### Position\r");
+  write_to_output(d, "\n## Position\r"
+  "\n----\n");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\nmenu:%s:%d", position_types[i], ++count);
+    write_to_output(d, "\nmenu:%s:%d\r", position_types[i], ++count);
   }
   // column_list(d->character, 0, position_types, NUM_POSITIONS, TRUE);
-  write_to_output(d, "\n==\n\nmenu:q:done]\r");
+  write_to_output(d, "\n----\n"
+  "\nmenu:q:done]\r");
 }
 
 /* Display the gender of the mobile. */
@@ -322,12 +324,14 @@ static void medit_disp_sex(struct descriptor_data *d)
   int i, count = 0;
   // get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n### Gender\r");
+  write_to_output(d, "\n## Gender\r"
+  "\n----\n");
   for (i = 0; i < NUM_GENDERS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, genders[i]);
   }
   // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\n==\n\nmenu:q:done\r");
+  write_to_output(d, "\n----\n"
+  "\nmenu:q:done\r");
 }
 
 /* Display attack types menu. */
@@ -337,11 +341,13 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n### Attack Types\r");
+  write_to_output(d, "\n## Attack Type\r"
+  "\n----\n");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\nmenu:%d:%s", i, attack_hit_text[i].singular);
   }
-  write_to_output(d, "\n==\n\nmenu:q:done\r");
+  write_to_output(d, "\n----\n"
+  "\nmenu:q:done\r");
 }
 
 /* Find mob flags that shouldn't be set by builders */
@@ -408,7 +414,8 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   /*get_char_colors(d->character);*/
   clear_screen(d);
 
-  write_to_output(d, "\n### AFF Flags\r");
+  write_to_output(d, "\n## Affinity Flags\r"
+  "\n----\n");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, affected_bits[i]);
@@ -417,9 +424,11 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\nflags: %s\r", flags);
-  write_to_output(d, "\n==\n\nmenu:q:done\r");
-}
+  write_to_output(d, "\n----\n"
+    "\nflags: %s\r"
+    "\n----\n"
+    "\nmenu:q:done\r", flags);
+  }
 
 /* Display main menu. */
 static void medit_disp_menu(struct descriptor_data *d)
@@ -433,6 +442,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Mob %d\r"
+  "\n----\n"
   "\nselect[1:gender]:%s\r"
   "\nselect[2:keywords]:%s\r"
   "\nselect[3:s-desc]: %s\r"
@@ -456,11 +466,11 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[A:npc flags]:%s\r"
 	  "\nselect[B:aff flags]:%s\r"
     "\nselect[S:script]:%s\r"
-    "\n==\n"
+    "\n----\n"
     "\nmenu:9:stats menu\r"
     "\nmenu:w:copy mobile\r"
 	  "\nmenu:x:delete mobile\r"
-    "\n==\n"
+    "\n----\n"
 	  "\nmenu:q:quit\r",
 
 	  position_types[(int)GET_POS(mob)],
@@ -485,15 +495,17 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "\n# Stats: Mob %d\r"
+    "\n## Stats: Mob %d\r"
+    "\n----\n"
     "\nselect[1:level]:%d\r"
-    "\n'2) auto stats': Auto set stats based on level.\r",
+    "\nmenu:2:Set auto stats based on level\r",
     OLC_NUM(d),
     GET_LEVEL(mob)
   );
 
   write_to_output(d,
     "## Hit Points  (xdy+z):\r"
+    "\n----\n"
     "\nselect[3:hit]:%d\r"
     "\nselec[4:mana]:%d\r"
     "\nselec[5:move]:%d\r",
@@ -504,6 +516,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## Bare Hand (xdy+z):\r"
+    "\n----\n"
     "\nselect[6:Dice]:%d\r"
     "\nselect[7:Size]:%d\r"
     "\nselect[8:Roll]:%d\r",
@@ -514,6 +527,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## General\r"
+    "\n----\n"
     "\nselect[A:Armor Class]:%d\r\n"
     "\nselect[B:Exp Points]:%d\r\n"
     "\nselect[C:Gold]:%d\r\n"
@@ -531,6 +545,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
     "\n## Advanced\r"
+    "\n----\n"
     "\nselect[f:strength]:%d|%d\r"
     "\nselect[g:intelligence]:%d\r"
     "\nselect[h:wisdom]:%d\r"
