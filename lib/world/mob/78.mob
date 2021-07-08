@@ -52,14 +52,14 @@ T 7804
 T 7805
 #7805
 undercover spy mode securityprime sp7805~
-Undercover Spy Mode SecurityPRIME SP7804~
-Undercover Spy SecurityPRIME SP7804 is observing the area in undercover mode.
+Spy Mode SecurityPRIME SP7805~
+Undercover Spy SecurityPRIME SP7805 is here spying.
 ~
 Dressed in a black shirt and black pants you would never suspect this to guy to be undercover spy, but his shirt says "UNDERCOVER SPY". Totally giving him away.  His eyes are darting about on constant watch for evidence of evil deeds while wearing his standard glasses, nose, mustache disguise. He's a SUPER SPY!!!
 ~
-260184 0 0 0 26744 0 0 0 0 E
+260188 0 0 0 26744 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
-70 4900
+100 4900
 8 8 0
 BareHandAttack: 12
 E
@@ -90,16 +90,17 @@ Undercover Spy Harry goes in as Donald Duck looks very grumpy, but it's just an 
 BareHandAttack: 13
 E
 #7808
-human servant~
-a human servant~
-A human servant stands here.
+service deva servicedeva d7808~
+ServiceDEVA D7808 is here caring for the area.~
+ServiceDEVA D7808 is caring for the area.
 ~
-She looks just like you would expect a servant to look like.
+An undefined string.
 ~
-164040 0 0 0 0 0 0 0 200 E
+194780 0 0 0 26744 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 2
+8 8 0
+BareHandAttack: 1
 E
 #7809
 husky hunter~

@@ -1,8 +1,12 @@
 #7800
-It's a Small World (Inside)~
+Fantasyland~
 adv:world:7800/main
 ~
-78 24 0 0 0 0
+78 144 0 0 0 1
+D1
+~
+~
+0 0 3339
 D2
 ~
 ~
@@ -13,7 +17,7 @@ adv:world:7800/credits
 ~
 S
 #7801
-It's a Small World (Entrance)~
+Fantasyland Gate~
 adv:world:7801/main
 ~
 78 16 0 0 0 1
@@ -22,11 +26,6 @@ It's a Small World
 ~
 ~
 0 -1 7800
-D1
-Cave Entrance
-~
-~
-0 -1 3339
 D2
 Fantasyland
 ~
@@ -75,16 +74,16 @@ Main Street
 ~
 0 0 7804
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 S
 #7804
@@ -105,7 +104,11 @@ S
 Tomorrowland~
 adv:world:7805/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
+D0
+~
+~
+0 0 7828
 D1
 ~
 ~
@@ -120,10 +123,10 @@ D3
 0 0 7802
 S
 #7806
-Tomorrowland: Rocket Jets~
+Rocket Jets~
 adv:world:7806/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -131,21 +134,21 @@ D0
 D1
 ~
 ~
-0 0 7807
+0 0 7809
+D2
+~
+~
+0 0 7812
 D3
 ~
 ~
 0 0 7805
 S
 #7807
-Tomorrowland: Autopia~
+Tomorrowland Autopia~
 adv:world:7807/main
 ~
-78 32768 0 0 0 1
-D0
-~
-~
-0 0 7808
+78 144 0 0 0 1
 D1
 ~
 ~
@@ -160,24 +163,24 @@ D3
 0 0 7806
 S
 #7808
-Tomorrowland: Submarine Voyage~
+Disneyland Monorail~
 adv:world:7808/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D2
 ~
 ~
-0 0 7807
+0 0 7828
 E
 pond~
 The water laps at the banks of the pond.  Fish swim lazily around, but wait.. One just jumped out of the water!  What a beauty!
 ~
 S
 #7809
-Tomorrowland: America Sings~
+America Sings~
 adv:world:7809/main
 ~
-78 32768 0 0 0 1
+78 144 0 0 0 1
 D0
 ~
 ~
@@ -186,9 +189,13 @@ D2
 ~
 ~
 0 0 7810
+D3
+~
+~
+0 0 7806
 S
 #7810
-Tomorrowland: Mission to Mars~
+Mission to Mars~
 adv:world:7810/main
 ~
 78 32768 0 0 0 1
@@ -202,20 +209,24 @@ D3
 0 0 7812
 S
 #7811
-Tomorrowland: The Space Bar~
+The Space Bar~
 adv:world:7811/main
 ~
-78 32768 0 0 0 1
+78 32912 0 0 0 1
 D2
 ~
 ~
 0 0 7806
 S
 #7812
-Tomorrowland: The Character Shop~
+The Character Shop~
 adv:world:7812/main
 ~
-78 8 0 0 0 1
+78 144 0 0 0 1
+D0
+~
+~
+0 0 7806
 D1
 ~
 ~
@@ -236,16 +247,16 @@ D0
 ~
 0 0 7818
 E
-souvenir souvenirs stand~
-adv:world:7813/souvenirs
-~
-E
 stroller strollers wheelchair wheelchairs~
 adv:world:7813/strollers
 ~
+E
+souvenir souvenirs stand~
+adv:world:7813/souvenirs
+~
 S
 #7814
-Tomorrowland: Adv. Thru Inner Space~
+Adventure Thru Inner Space~
 adv:world:7814/main
 ~
 78 32768 0 0 0 1
@@ -457,5 +468,19 @@ D1
 ~
 ~
 0 -1 7826
+S
+#7828
+America The Beautiful~
+adv:world:7828/main
+~
+78 144 0 0 0 1
+D0
+~
+~
+0 0 7808
+D2
+~
+~
+0 0 7805
 S
 $~
