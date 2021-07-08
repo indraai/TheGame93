@@ -333,7 +333,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n## Attack Type\r"
+  write_to_output(d, "\n## Attack Type\r");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", i, attack_hit_text[i].singular);
   }
