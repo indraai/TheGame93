@@ -74,16 +74,16 @@ Main Street
 ~
 0 0 7804
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 S
 #7804
@@ -247,12 +247,12 @@ D0
 ~
 0 0 7818
 E
-stroller strollers wheelchair wheelchairs~
-adv:world:7813/strollers
-~
-E
 souvenir souvenirs stand~
 adv:world:7813/souvenirs
+~
+E
+stroller strollers wheelchair wheelchairs~
+adv:world:7813/strollers
 ~
 S
 #7814
@@ -328,6 +328,10 @@ D2
 ~
 ~
 0 0 7813
+D3
+~
+~
+0 0 7827
 S
 #7819
 Frontierland~
@@ -459,7 +463,7 @@ S
 Agency: Disneyland~
 The Disneyland outpost for Indra Agency
 ~
-78 8 0 0 0 0
+78 184 0 0 0 0
 D0
 ~
 ~
@@ -467,7 +471,7 @@ D0
 D1
 ~
 ~
-0 -1 7826
+1 -1 7818
 S
 #7828
 America The Beautiful~
