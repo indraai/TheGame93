@@ -766,11 +766,7 @@ D3
 S
 #3339
 The Cave Entrance~
-   A glimmer of light to the east alerts you to the fact
-that something is going on in the tunnel nearby.  The south
-exit of the tunnel leads off into complete darkness.  All
-around on the ground are piles of earth and stone, making
-you have to wend through the tunnel carefully.  Hmm.
+adv:world:3339/main
 ~
 33 504 0 0 0 0
 D1
