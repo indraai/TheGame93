@@ -391,7 +391,6 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
     "\nmenu:2:pickproof door\r"
     "\nmenu:3:hidden door\r"
     "\nmenu:4:hidden pickproof door\r"
-    "\n----\n"
   );
 }
 
@@ -589,7 +588,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
         cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "\nname: %s\r", OLC_ROOM(d)->name);
+      write_to_output(d,
+        "\nEdit Room Name\r"
+        "\nname: %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case '2':
