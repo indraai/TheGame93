@@ -492,7 +492,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     "\nselect[3:hit]:%d\r"
     "\nselec[4:mana]:%d\r"
     "\nselec[5:move]:%d\r",
-    GET_LEVEL(mob)
+    GET_LEVEL(mob),
     GET_HIT(mob),
     GET_MANA(mob),
     GET_MOVE(mob)
