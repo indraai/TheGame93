@@ -319,8 +319,10 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Extra Description\r"
+    "\n----\n"
 	  "\nselect[1:keyword]:%s\r"
 	  "\nselect[2:description]:%s\r"
+    "\n----\n"
     "\nmenu:q:done",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
 	  extra_desc->description ? extra_desc->description : "<NONE>"
@@ -364,7 +366,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\nselect[5:door flags]:'%s'\r"
     "\n----\n"
 	  "\nmenu:6:purge exit\r"
-    "\n===\n"
+    "\n----\n"
 	  "\nmenu:0:done\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -383,11 +385,14 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   write_to_output(d,
     "\n## Doors\r"
+    "\n----\n"
     "\nmenu:0:no door\r"
 	  "\nmenu:1:closable door\r"
     "\nmenu:2:pickproof door\r"
     "\nmenu:3:hidden door\r"
-    "\nmenu:4:hidden pickproof door\r");
+    "\nmenu:4:hidden pickproof door\r"
+    "\n----\n"
+  );
 }
 
 /* For room flags. */
@@ -398,16 +403,19 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Room Flags\r");
+  write_to_output(d,
+    "\n## Room Flags\r"
+    "\n----\n"
+  );
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, room_bits[i]);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n===\n"
+  write_to_output(d, "\n----\n"
   "\nflags: %s\r"
-  "\n===\n"
+  "\n----\n"
   "\nmenu:q:done\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
@@ -420,7 +428,10 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   clear_screen(d);
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
 
-  write_to_output(d, "\n## Sector Type\r");
+  write_to_output(d,
+    "\n## Sector Type\r"
+    "\n----\n"
+  );
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, sector_types[i]);
@@ -443,8 +454,10 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
       "\n# %s\r"
+      "\n----\n"
       "\nvnum:%d\r"
       "\nzone:%d\r"
+      "\n----\n"
       "\n## Details\r"
       "\nselect[1:name]:%s\r"
       "\nselect[2:desc]:%s\r"
@@ -460,6 +473,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
+      "\n----\n"
       "\n## Exits\r"
       "\nselect[5:north]:%d\r"
       "\nselect[6:east]:%d\r"
@@ -483,6 +497,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   } else {
     write_to_output(d,
       "\n## Exits\r"
+      "\n----\n"
       "\nselect[5:north]:%d\r"
       "\nselect[6:east]:%d\r"
       "\nselect[7:south]:%d\r"
@@ -516,12 +531,12 @@ static void redit_disp_menu(struct descriptor_data *d)
     );
   }
   write_to_output(d,
-      "\n===\n"
+      "\n----\n"
       "\nselect[s:script]:%s\r"
       "\nmenu:f:extra description\r"
-      "\n===\n"
       "\nmenu:w:copy room\r"
       "\nmenu:x:delete room\r"
+      "\n----\n"
       "\nmenu:q:quit\r",
       OLC_SCRIPT(d) ? "Set." : "Not Set."
       );
@@ -574,19 +589,20 @@ void redit_parse(struct descriptor_data *d, char *arg)
         cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "\nRoom Name: %s\r", OLC_ROOM(d)->name);
+      write_to_output(d, "\nname: %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case '2':
       OLC_MODE(d) = REDIT_DESC;
       clear_screen(d);
-      write_to_output(d, "\nRoom Description\r");
+      write_to_output(d, "\n### Room Description\r");
+
+      send_editor_help(d);
 
       if (OLC_ROOM(d)->description) {
 	      write_to_output(d, "%s", OLC_ROOM(d)->description);
         oldtext = strdup(OLC_ROOM(d)->description);
       }
-      send_editor_help(d);
 
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
