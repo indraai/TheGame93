@@ -325,13 +325,9 @@ static void medit_disp_sex(struct descriptor_data *d)
   // get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d, "\n## Gender\r"
-  "\n----\n");
   for (i = 0; i < NUM_GENDERS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, genders[i]);
   }
-  // column_list(d->character, 0, genders, NUM_GENDERS, TRUE);
-  write_to_output(d, "\n----\n"
-  "\nmenu:q:done\r");
 }
 
 /* Display attack types menu. */
@@ -640,11 +636,12 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case '2':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "Enter keywords: %s", OLC_MOB(d)->player.name);
+      write_to_output(d, "Enter new keywords: %s", OLC_MOB(d)->player.name);
       i--;
       break;
     case '3':
       OLC_MODE(d) = MEDIT_S_DESC;
+      write_to_output(d, "Enter new description: %s", GET_SDESC(OLC_MOB(d)));
       i--;
       break;
     case '4':
