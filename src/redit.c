@@ -356,13 +356,15 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit\r"
+    "\n----\n"
 	  "\nselect[1:exit to]:%d\r"
 	  "\nselect[2:desc]:%s\r"
 	  "\nselect[3:door name]:%s\r"
 	  "\nselect[4:key]:%d\r"
 	  "\nselect[5:door flags]:'%s'\r"
-    "\n===\n"
+    "\n----\n"
 	  "\nmenu:6:purge exit\r"
+    "\n===\n"
 	  "\nmenu:0:done\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -403,8 +405,10 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n'Room flags': %s\r", bits);
-  write_to_output(d, "\nmenu:q:done\r");
+  write_to_output(d, "\n===\n"
+  "\nflags: %s\r"
+  "\n===\n"
+  "\nmenu:q:done\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -416,7 +420,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   clear_screen(d);
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
 
-  write_to_output(d, "\n## Sector Types\r");
+  write_to_output(d, "\n## Sector Type\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
     write_to_output(d, "\nmenu:%d:%s\r", ++count, sector_types[i]);
@@ -570,14 +574,13 @@ void redit_parse(struct descriptor_data *d, char *arg)
         cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "\nEnter new room name\r");
-      write_to_output(d, "\nroom: %s\r", OLC_ROOM(d)->name);
+      write_to_output(d, "\nRoom Name: %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case '2':
       OLC_MODE(d) = REDIT_DESC;
       clear_screen(d);
-      write_to_output(d, "\n## Room Description\r");
+      write_to_output(d, "\nRoom Description\r");
 
       if (OLC_ROOM(d)->description) {
 	      write_to_output(d, "%s", OLC_ROOM(d)->description);
