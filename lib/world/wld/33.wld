@@ -361,14 +361,8 @@ D3
 0 -1 3316
 S
 #3318
-A Cave Passageway~
-   You are near the entrance of the cave.  The outside
-light streams in from the west, accompanied by a slight
-breeze, making the flames in the sconces flutter a bit
-and throw stange shadows upon the walls.  This passageway
-heads north and south from here, each way seeming dark and
-stuffy compared to outdoors.  From the tracks in the
-floor, you guess that the north is the more used.
+Cave Passageway~
+adv:world:3318/main
 ~
 33 8 0 0 0 0
 D0
@@ -385,13 +379,8 @@ D3
 0 -1 3317
 S
 #3319
-A Cave Passageway~
-   The passage turns here, one end leading south, towards
-the cave's entrance, and east -- that much deeper into the
-mountain.  The light sconces keep the area bright enough
-to see, but not nearly bright enough for you to be quite
-comfortable in this strange place.  From far off you hear
-the echoes of what sound to be voices.
+Cave Passageway~
+adv:world:3319/main
 ~
 33 8 0 0 0 0
 D1
@@ -404,12 +393,8 @@ D2
 0 -1 3318
 S
 #3320
-A Cave Passageway~
-   This twisty passage leads east and west from here.
-Eastwards you hear the unmistakable sounds of low
-voices.  The echoes seem to be playing funny effects
-on you, however, and you are not sure  from how far
-off these voices might be coming.
+Cave Passageway~
+adv:world:3320/main
 ~
 33 8 0 0 0 0
 D1
@@ -422,12 +407,8 @@ D3
 0 -1 3319
 S
 #3321
-A Cave Passageway~
-   The passage you are standing in turns west and south
-from here.  One of the sconces here is out, making this
-area extremely dark and hard to see in.  You do see lights
-from the south, however, seemingly brighter than the
-sconces you've seen along the walls so far.
+Cave Passageway~
+adv:world:3321/main
 ~
 33 8 0 0 0 0
 D2
@@ -440,14 +421,8 @@ D3
 0 -1 3320
 S
 #3322
-A Cave Passageway~
-   This is a T-intersection in the cave passageway, the
-north leading back towards the cave's entrance (you
-think!), the west leading towards a well-lighted area.
-Eastwards the passageway continues into the shadowy
-recesses of the mountain uninvitingly.  The echoes of
-voices are confusing you a bit, and you are not sure
-whether you should try to remain quiet or not.
+Cave Passageway~
+adv:world:3322/main
 ~
 33 8 0 0 0 0
 D0
@@ -464,11 +439,8 @@ D3
 1 -1 3323
 S
 #3323
-A Cave~
-   Many sconces line the walls here, casting light on
-some weapon racks and chests of armor.  Everything
-is neat, orderly, and actually well-dusted.  Someone
-cares for these items...frequently it seems.
+The Cave~
+adv:world:3323/main
 ~
 33 632 0 0 0 0
 D1
@@ -477,13 +449,8 @@ D1
 0 -1 3322
 S
 #3324
-A Cave Passageway~
-   The passageway you are in leads south and west from
-here.  Many large stones and rocks are on the floor of the
-cave, making walking difficult in the dim light from the
-sconces on the walls.  You hear the continued echo of
-voices, seemingly fainter now.  Must be the strange
-acoustics of this place...
+Cave Passageway~
+adv:world:3324/main
 ~
 33 8 0 0 0 0
 D2
@@ -496,11 +463,8 @@ D3
 0 -1 3322
 S
 #3325
-A Cave Passageway~
-   The cave twists around like a coiled snake, leading
-east and north from here.  You begin to wonder if your
-orientations are still correct.  That worries you for
-some reason.
+Cave Passageway~
+adv:world:3325/main
 ~
 33 8 0 0 0 0
 D0
@@ -513,14 +477,8 @@ D1
 0 -1 3326
 S
 #3326
-A Cave Passageway~
-   You can head north and west through the cave passageways
-here, both ways dimly lit by the ever-present sconces on
-the walls.  The echoes you heard earlier seem to be getting
-louder, and seem to be coming from the northern passage.
-You feeled a bit chilled from the cooled cave air and
-shiver a bit in the faint whisper of a breeze.  This place
-is a little too eerie and dark to be comfortable in.
+Cave Passageway~
+adv:world:3326/main
 ~
 33 8 0 0 0 0
 D0
@@ -533,13 +491,8 @@ D3
 0 -1 3325
 S
 #3327
-A Cave Passageway~
-   The echoes are growing louder, and seem to be coming
-from the northern end of this corridor.  Southwards you
-see the tunnel continue right before yet another bend in
-the passagway.  You spot a small piece of red cloth torn
-against a sharp rock jutting out from the passage's side.
-It looks like silk, very nice in fact.
+Cave Passageway~
+adv:world:3327/main
 ~
 33 8 0 0 0 0
 D0
@@ -552,13 +505,8 @@ D2
 0 -1 3326
 S
 #3328
-A Cave Passageway~
-   The main passageway leads south from here, and a smaller
-cave tunnel leads away to the west.  Two large boulders
-sit against the wall, wiped clean of dirt and grime.  A
-paper food wrapper has been trodden under several pairs of
-feet here; at best guess, you'd say this would probably be
-a guard post.
+Cave Passageway~
+adv:world:3328/main
 ~
 33 8 0 0 0 0
 D2
@@ -571,13 +519,8 @@ D3
 0 -1 3329
 S
 #3329
-The End Of The Passageway~
-   The cave passageway ends abruptly here to the north in a
-large wooden door set into the stone walls.  The craftsmanship
-is superb!  You can also head back to the main passage to the
-west, where there seems to be more light than here.  An echo
-from down the passage makes you wonder for a moment if you are
-being followed, but you see nothing there...
+End Of Passageway~
+adv:world:3329/main
 ~
 33 8 0 0 0 0
 D0
