@@ -1417,7 +1417,7 @@ void nanny(struct descriptor_data *d, char *arg)
           REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_MAILING);
           REMOVE_BIT_AR(PLR_FLAGS(d->character), PLR_CRYO);
           d->character->player.time.logon = time(0);
-          write_to_output(d, "Password: ");
+          write_to_output(d, "\nPlease enter your player password...\r");
           echo_off(d);
           d->idle_tics = 0;
           STATE(d) = CON_PASSWORD;

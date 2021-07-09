@@ -1504,7 +1504,7 @@ static int new_descriptor(socket_t s)
     sockets_connected++;
 
   if (sockets_connected >= CONFIG_MAX_PLAYING) {
-    write_to_descriptor(desc, "Sorry, the game is full right now... please try again later!\r\n");
+    write_to_descriptor(desc, "\nThe game is full right now... please try again later.\r");
     CLOSE_SOCKET(desc);
     return (0);
   }
@@ -1531,7 +1531,7 @@ static int new_descriptor(socket_t s)
   /* determine if the site is banned */
   if (isbanned(newd->host) == BAN_ALL) {
     CLOSE_SOCKET(desc);
-    mudlog(CMP, LVL_DEVA, TRUE, "Connection attempt denied from [%s]", newd->host);
+    mudlog(CMP, LVL_DEVA, TRUE, "\nConnection attempt denied from [%s]\r", newd->host);
     free(newd);
     return (0);
   }
@@ -1547,11 +1547,14 @@ static int new_descriptor(socket_t s)
     /* Attach Event */
     NEW_EVENT(ePROTOCOLS, newd, NULL, 1.5 * PASSES_PER_SEC);
     /* KaVir's plugin*/
-    write_to_output(newd, "Attempting to Detect Client, Please Wait...\r\n");
+    write_to_output(newd, "\nAttempting to Detect Client, Please Wait...\r");
     ProtocolNegotiate(newd);
   } else {
+    /*
     greetsize = strlen(GREETINGS);
     write_to_output(newd, "%s", ProtocolOutput(newd, GREETINGS, &greetsize));
+    */
+    write_to_output(newd, "\nPlease enter your player name...\r")
   }
   return (0);
 }
