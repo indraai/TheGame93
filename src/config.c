@@ -301,7 +301,7 @@ int medit_advanced_stats = YES;
 int ibt_autosave = YES;
 
 /* Use the protocol negotiation system */
-int protocol_negotiation = YES;
+int protocol_negotiation = NO;
 
 /* Use the special character in communication channels */
 int special_in_comm = YES;
