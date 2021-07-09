@@ -347,14 +347,8 @@ D1
 0 -1 3317
 S
 #3317
-A Cave Entrance~
-   A cave leads into the heart of the mountainside, well-
-lit by sconces upon the walls.  A large rock sits by
-the side here, near a small firepit.  Debris litters the
-area; rabbit bones, half of a broken whetstone, and random
-litter.  The ground is devoid of grass, and well trodden
-by many pairs of boots.  Strange that someone should live
-so deep in the mountains...
+Cave Entrance~
+adv:world:3317/main
 ~
 33 4 0 0 0 0
 D1
