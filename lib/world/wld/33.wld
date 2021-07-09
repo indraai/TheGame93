@@ -14,11 +14,11 @@ adv:world:3500/look
 ~
 0 -1 3500
 E
-warning~
+sign~
 adv:world:3300/sign
 ~
 E
-sign~
+warning~
 adv:world:3300/sign
 ~
 S
@@ -86,12 +86,12 @@ adv:world:3303/look
 door front~
 1 -1 3303
 E
-note~
-adv:world:3304/note
-~
-E
 tracks dust~
 adv:world:3304/tacks
+~
+E
+note~
+adv:world:3304/note
 ~
 S
 #3305
@@ -467,7 +467,7 @@ D1
 D3
 ~
 ~
-0 -1 3323
+1 -1 3323
 S
 #3323
 A Cave~
@@ -476,7 +476,7 @@ some weapon racks and chests of armor.  Everything
 is neat, orderly, and actually well-dusted.  Someone
 cares for these items...frequently it seems.
 ~
-33 8 0 0 0 0
+33 632 0 0 0 0
 D1
 ~
 ~
@@ -1389,17 +1389,17 @@ D2
 ~
 0 -1 3370
 E
-floor~
-   The floor up ahead looks...  Strange.  You don't think going ahead would be a
-good idea.
+dirt stone~
+   It has been dug from somewhere, but where?
 ~
 E
 claw claws track tracks mark marks~
    They stop very abruptly here, right where the piles of earth begin, it seems.
 ~
 E
-dirt stone~
-   It has been dug from somewhere, but where?
+floor~
+   The floor up ahead looks...  Strange.  You don't think going ahead would be a
+good idea.
 ~
 S
 #3372
