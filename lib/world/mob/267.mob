@@ -15,19 +15,20 @@ E
 #26702
 ghritachi apsara woman~
 Ghritachi the Apsara~
-Ghritachi wearing a pretty blue silk dress trudges along the beach.
+Ghritachi is wearing a pretty blue dress.
 ~
 My, what beauty. But she just gives delightful stare and without a sound continues along. How strange her eyes are a very black.
 ~
-220 0 0 0 0 0 0 0 0 E
+260444 0 0 0 26744 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
+BareHandAttack: 14
 E
 #26703
 rambha apsara woman~
 Rambha the Apsara~
-Rambha wearing a pretty pristine white dress trudges along the beach.
+Rambha is wearing a pretty white dress.
 ~
  My, what beauty. But she just gives you gentle stare and without a sound continues along. Her eyes are a very mystical.
 ~
@@ -53,7 +54,7 @@ E
 #26705
 urvasi woman apsara~
 Urvasi the Apsara~
-Urvasi the Apsara is here dancing and singing away.
+Urvasi is here wearing a pretty red dress.
 ~
 My, what beauty.  But she just gives you a long, delightful glance and without a sound continues along.  How strange her eyes are deep black.
 ~
@@ -147,19 +148,17 @@ faint outline of something making the wall shimmer.
 8 8 0
 E
 #26712
-prisoner cellmate~
-the prisoner~
-A prisoner, locked up for crimes against Fear, is raving here.
+king chandra deva chandradeva soma~
+King Chandra Deva~
+King Chandra Deva is here.
 ~
-   The prisoner looks at you bravely and shouts, "JUST KILL ME!  I DARE YOU!
-" He looks totally emaciated, as if he hasn't been fed for weeks.  He is dirty
-and almost naked--his rags barely cover him.  He is covered in his own filth.
-Just looking at him makes you want to retch.
+King Chandra Deva is here looking healthy and strong.
 ~
-14 0 0 0 16 0 0 0 -900 E
+256348 0 0 0 26744 0 0 0 900 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
+BareHandAttack: 7
 E
 #26713
 butcher~
