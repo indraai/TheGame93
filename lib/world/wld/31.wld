@@ -415,12 +415,12 @@ adv:world:30600/look
 ~
 0 -1 30600
 E
-sign~
-adv:world:3120/sign
-~
-E
 tree~
 adveenture:3120/tree
+~
+E
+sign~
+adv:world:3120/sign
 ~
 S
 #3121
@@ -720,16 +720,16 @@ adv:world:3117/look
 ~
 0 -1 3117
 E
-chair chairs~
-adv:world:3137/chair
+typewriter~
+adv:world:3137/typewriter
 ~
 E
 desk~
 adv:world:3137/desk
 ~
 E
-typewriter~
-adv:world:3137/typewriter
+chair chairs~
+adv:world:3137/chair
 ~
 S
 #3138
@@ -743,12 +743,12 @@ adv:world:3137/look
 ~
 0 -1 3137
 E
-desk~
-adv:world:3138/desk
-~
-E
 chair armchair~
 adv:world:3138/chair
+~
+E
+desk~
+adv:world:3138/desk
 ~
 S
 #3139
@@ -1108,8 +1108,8 @@ The chapel door is made of dark wood.
 entrance~
 1 -1 3154
 E
-glass windows~
-   The windows must be meant to be dark.  At least they are completely clean.
+benches rows~
+   The benches are not of the comfortable kind.
 ~
 E
 altar~
@@ -1118,8 +1118,8 @@ notice that it seems less dusty than the rest of the room...  Someone must clean
 here regularly...  Maybe that old guy in Park Cafe, he looked like that sort...
 ~
 E
-benches rows~
-   The benches are not of the comfortable kind.
+glass windows~
+   The windows must be meant to be dark.  At least they are completely clean.
 ~
 S
 #3156
@@ -1267,6 +1267,10 @@ adv:world:3163/look
 ~
 ~
 0 -1 3163
+D1
+~
+~
+1 0 26704
 D2
 adv:world:3161/look
 ~

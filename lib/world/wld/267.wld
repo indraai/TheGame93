@@ -38,16 +38,16 @@ To your east you can see a huge mound of dirt.
 ~
 0 0 26702
 E
-women woman~
-   Each woman is spectacularly beautiful--except for their glazed eyes and
-expressions of utter stupor.  What on earth could be wrong with them?
-~
-E
 sand beach~
    Close examination of the beach shows that the sand is not only white--each
 and every grain is a single crystal; it reflects the light of the sun into a
 blinding display of bright white.  While each one exhibits a different color,
 they all blend into this pristine color.
+~
+E
+women woman~
+   Each woman is spectacularly beautiful--except for their glazed eyes and
+expressions of utter stupor.  What on earth could be wrong with them?
 ~
 S
 #26702
@@ -95,13 +95,17 @@ To your west you can see a huge mound.
 0 0 26702
 S
 #26704
-Harem~
+Agency: Vice Island~
    This place is full of imported beauty--lavish Persian rugs, assorted
 priceless vases, and piles of money and jewelry everywhere.  Beautiful, silent
 women dance before you, twirling in silk gowns that barely hide their beauty.
 A sound can be heard over all the racket, shouting, "Keep working!  "
 ~
-267 521 0 0 0 1
+267 136 0 0 0 0
+D3
+~
+~
+1 0 3162
 D4
 You can just see from the hole in the ground that you are right by a path that leads into the woods.
 ~
@@ -192,13 +196,13 @@ The creepy road continues west.
 ~
 0 0 26739
 E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
+E
 building~
    The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
-~
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
 ~
 S
 #26709
@@ -1180,10 +1184,10 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-manacles legirons irons hands skeletal~
-   Two small hands are all that remain of what must have once been a small
-child, or a very small human.  You can see teeth marks where it looks like
-someone was trying to bite their way out.
+cot bed~
+   The cot is made of black.  A mattress made of straw lies on top of it--very
+thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
+walk near it.
 ~
 E
 hole drainage~
@@ -1192,10 +1196,10 @@ a whole lot of imagination to figure out what is supposed to go down in that
 one.
 ~
 E
-cot bed~
-   The cot is made of black.  A mattress made of straw lies on top of it--very
-thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
-walk near it.
+manacles legirons irons hands skeletal~
+   Two small hands are all that remain of what must have once been a small
+child, or a very small human.  You can see teeth marks where it looks like
+someone was trying to bite their way out.
 ~
 S
 #26753
@@ -1337,8 +1341,9 @@ You can see the creepy hallway.
 door~
 1 26732 26757
 E
-cauldron boiling oil~
-   The thing bubbles.  It curdles the brain and sends chills down your spine.
+manacles manacle chain~
+   The manacles are small, and have spikes on the insides of them.  They look
+very painful.
 ~
 E
 iron maidens maiden~
@@ -1346,9 +1351,8 @@ iron maidens maiden~
 it would be an unpleasant experience.
 ~
 E
-manacles manacle chain~
-   The manacles are small, and have spikes on the insides of them.  They look
-very painful.
+cauldron boiling oil~
+   The thing bubbles.  It curdles the brain and sends chills down your spine.
 ~
 S
 #26759
@@ -2057,10 +2061,13 @@ You, amazingly enough, end right back up at the entrance.
 ~
 0 0 26792
 E
-insignia window~
-   The cat o' nine tails, a whip with multiple straps, apparently is the
-ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
-fatal--whip known.
+chair~
+   The chair is made of redwood, and looks very comfortable.  It also looks VERY
+heavy.
+~
+E
+sofa~
+   This sofa looks so comfortable, you want to just sink right into it.
 ~
 E
 plaques~
@@ -2074,13 +2081,10 @@ horrible feelings in life--Despair, Hopelessness, Fear, and the crowning
 emotion, in which all these culminate--Terror.  Not a pretty picture.
 ~
 E
-sofa~
-   This sofa looks so comfortable, you want to just sink right into it.
-~
-E
-chair~
-   The chair is made of redwood, and looks very comfortable.  It also looks VERY
-heavy.
+insignia window~
+   The cat o' nine tails, a whip with multiple straps, apparently is the
+ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
+fatal--whip known.
 ~
 S
 #26797

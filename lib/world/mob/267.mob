@@ -1,15 +1,16 @@
 #26701
 menaka apsara woman pink~
 Menaka the Apsara~
-Menaka wearing a pretty pink taffeta dress trudges along the beach.
+Menaka is wearing a pretty pink dress.
 ~
  My, what beauty. She just gives you delightful stare and without a
 sound continues along.  How strange--her eyes are a very black.
 ~
-220 0 0 0 0 0 0 0 0 E
+260572 0 0 0 26744 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0
+8 8 2
+BareHandAttack: 14
 E
 #26702
 ghritachi apsara woman~
@@ -30,22 +31,24 @@ Rambha wearing a pretty pristine white dress trudges along the beach.
 ~
  My, what beauty. But she just gives you gentle stare and without a sound continues along. Her eyes are a very mystical.
 ~
-220 0 0 0 0 0 0 0 0 E
+260572 0 0 0 26744 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
+BareHandAttack: 5
 E
 #26704
 tilottama apsara woman~
 Tilottama the Apsara~
-Tilottama wearing a beige dress trudges along the beach.
+Tilottama is wearing a pretty yellow dress.
 ~
 My, what beauty. But she just gives delightful stare and without a sound continues along.  How strange- her eyes are a very black.  Doesn't seem to work with her beautiful face.
 ~
-220 0 0 0 0 0 0 0 0 E
+260444 0 0 0 26744 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
+BareHandAttack: 2
 E
 #26705
 urvasi woman apsara~
@@ -54,7 +57,7 @@ Urvasi the Apsara is here dancing and singing away.
 ~
 My, what beauty.  But she just gives you a long, delightful glance and without a sound continues along.  How strange her eyes are deep black.
 ~
-220 0 0 0 0 0 0 0 0 E
+260428 0 0 0 26744 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
@@ -68,10 +71,11 @@ This man must have some kind of confidence. To be able to keep calm while wearin
 
 He looks somewhat like a cross between a pear, potato, gremlin, a strange bikini model, but without the good looks.
 ~
-10 0 0 0 16 0 0 0 -1000 E
+10 0 0 0 2 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
+BareHandAttack: 1
 E
 #26707
 crab~
