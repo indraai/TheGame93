@@ -2,12 +2,14 @@
 Harem Master - 26706~
 0 b 5
 ~
-emote looks at his girls and screams, 'Look at these man panties, bitches!'
+emote looks at his minions and growls, 'get to work, bitches!'
 ~
 #26701
 Slaves Bow - 26701-26704~
 0 e 0
-Mr. Dewity Evil Asshat looks at his minions and growls, 'Do I look sexy in my man panties?'~
+A fat harem master looks at his minions and growls, 'get to work, bitches!'~
+wait 1 sec
+bow master
 ~
 #26702
 Master Needs Assist - 26706~
@@ -18,29 +20,22 @@ emote screams loudly, 'HELP ME, MY SLAVES!'
 #26703
 Slaves Assist Master - 26701-26704~
 0 e 0
-Mr. Dewity Evil Asshat screams loudly, 'HELP ME, MY SLAVES!'~
+A fat harem master screams loudly, 'HELP ME, MY SLAVES!'~
 wait %random.6% sec
-say Bitch your time has come get ready to get TACKLED!
-tackle dewity
-hit dewity
+assist master
 ~
 #26705
 Fear Spell - 26710~
 0 k 5
 ~
-emote utters the words, 'bloodakakakakapoo'.
-emote scratches head, 'WTF this worked yesterday. PeeDooBooDhaChaKhaCho'
-emote tries again but this time with more energy, 'BeejaKooKaaDookiePoo'
-wait 10 sec
-emote starts to cry and screa profusely
-wait 30 sec
-emote stomps feet on the ground and throws a temper tantrum
+emote utters the words, 'pabrow'.
+%force% %actor% flee
 ~
 #26706
 Butcher - 26713~
 0 b 10
 ~
-emote begins dancing around %self.hisher% shop.
+emote begins sharpening %self.hisher% knife.
 ~
 #26707
 Tar Baby Follow - 26708~
@@ -48,7 +43,7 @@ Tar Baby Follow - 26708~
 ~
 set actor %random.char%
 if %actor.is_pc%
-  follow %actor%
+  mfollow %actor%
   say Ho ho, hee hee, %actor.name% you are sooo funneeee!
   %send% %actor% %self.name% looks at you with the cutest expression.
   %echoaround% %actor% %self.name% looks at %actor.name% with the cutest expression.
@@ -60,18 +55,13 @@ Grand Inquisitor - 26719~
 5~
 switch %random.2%
   case 1
-    emote utters the words, 'jinglejanglebuxumflux'.
-    emote thinks for a second, 'That should have done something right?'
+    emote utters the words, 'ordalaba'.
+    dg_cast 'energy drain' %actor%
   break
   case 2
     emote evilly grins and snaps his hands.
-    emote looks around wondering, 'WTF man... where is everyone?'
-    wait 1 sec
-    emote sticks fingers in hears and begins running around shouting, 'La La La La La La'
-    wait 60 sec
-    emote rolls around on floor mumbling over and over again, 'Magic is real, Magic is real... La La La La'
-    wait 30 sec
-    emote pees their pants until they are completely soaked.
+    dg_cast 'animate dead' corpse
+    order followers assist
   break
   default
   break
@@ -83,16 +73,12 @@ High Priest of Terror - 26714~
 ~
 switch %random.2%
   case 1
-    emote utters the words, 'ilikebigbutts'.
-    emote charm charm charm charm then tires out.
+    emote utters the words, 'ordalaba'.
+    dg_cast 'charm' %actor%
   break
   case 2
-    emote waves $s hands in a swirling motion pretending to be Harry Potter.
-    emote then gets up and does a whirly dance while kicking feet in the air.
-    wait 15 sec
-    emote falls down to the ground and remains quiet
-    wait 1 min
-    emote covers their face and plays pee-ka-boo with themselve for hours.
+    emote waves $s hands in a swirling motion.
+    dg_cast 'earthquake'
   break
   default
   break
