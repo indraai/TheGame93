@@ -473,17 +473,17 @@ mouth to his right ear, making it look like he is always smiling.
 8 8 1
 E
 #12035
-executioner~
-the executioner~
-The executioner stands here, waiting to torture some sorry soul.
+guard deva guarddeva d12035~
+GuardDEVA D12035~
+GuardDEVA D12035 is here.
 ~
-   You see a burly man who is wearing a black hood that obscures his face.  He
-has a very sadistic attitude and clearly loves his work.
+GuardDEVA D12035 is here guarding the area.
 ~
-24622 0 0 0 16 0 0 0 -1000 E
-20 14 -2 4d4+200 3d3+3
+26910 0 0 0 26744 0 0 0 0 E
+20 14 2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 0
+BareHandAttack: 8
 E
 #12036
 baker~
