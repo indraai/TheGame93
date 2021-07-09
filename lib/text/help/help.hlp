@@ -1,158 +1,158 @@
 ! ^ !
-adventure[help]:general/bang
+adv:help:general/bang
 #0
 SOUND ASOUND
-adventure[help]:general/sound
+adv:help:general/sound
 #31
 AT
-adventure[help]:general/at
+adv:help:general/at
 #31
 DAMAGE
-adventure[help]:general/damage
+adv:help:general/damage
 #31
 DOOR EXIT
-adventure[help]:general/door
+adv:help:general/door
 #31
 ECHO
-adventure[help]:general/echo
+adv:help:general/echo
 #31
 FOLLOW MASTER
-adventure[help]:general/follow
+adv:help:general/follow
 #31
 LOAD
-adventure[help]:general/load
+adv:help:general/load
 #31
 LOG
-adventure[help]:genereal/log
+adv:help:genereal/log
 #0
 MOVE MOVE-OBJECT MOVE-ALL
-adventure[help]:general/move
+adv:help:general/move
 #31
 NEXT_IN_ROOM CHAR_VAR TRIG-FIELDS %ACTOR.SEX% ACTOR.SEX %ACTOR.HITPOINTS% %ACTOR.HP% %ACTOR.HITP% %HIS% IS_FIGHTING %FIGHTING% ACTOR.FIGHTING %ACTOR.FIGHTING% IN_ROOM IS_ROOM POS() HISHER %MASTER% %SELF.MASTER% %FOLLOWER.NAME% PVAR %HISHER% %SEX%
 See @RHELP CHAR-VAR@n
 #31
 PURGE
-adventure[help]:general/purge
+adv:help:general/purge
 #31
 TELEPORT PORTAL
-adventure[help]:general/teleport
+adv:help:general/teleport
 #31
 TRANSFORM MORPH
-adventure[help]:general/transform
+adv:help:general/transform
 #31
 TOPIC TOPICS
-adventure[help]:general/topic
+adv:help:general/topic
 #31
 @@ COLORS
-adventure[help]:general/colors
+adv:help:general/colors
 #31
 ABBREVIATIONS ABBREVS
-adventure[help]:general/abbreviations
+adv:help:general/abbreviations
 #31
 ARMOR AC ARMOR-CLASS
-adventure[help]:general/armor
+adv:help:general/armor
 #0
 ACRONYMS TERMINOLOGY VOCABULARY
-adventure[help]:general/acronyms
+adv:help:general/acronyms
 #31
 ACTOR.CLASS ACTOR-CLASS %ACTOR.CLASS%
-adventure[help]:general/class
+adv:help:general/class
 #31
 INVENTORY ACTOR.INVENTORY ACTOR-INVENTORY
-adventure[help]:actor/inventory
+adv:help:actor/inventory
 #31
 LEVEL ACTOR.LEVEL ACTOR-LEVEL
-adventure[help]:actor/level
+adv:help:actor/level
 #31
 ADVANCE DEMOTE ACTOR.ADVANCE
-adventure[help]:general/advance
+adv:help:general/advance
 #31
 AEDIT AEDIT-MENU ACTION-EDITOR ACREATE SOCIAL-EDITOR
-adventure[help]:aedit/main
+adv:help:aedit/main
 #31
 AFFECTS AFF
-adventure[help]:general/affects
+adv:help:general/affects
 #31
 AFK
-adventure[help]:general/afk
+adv:help:general/afk
 #0
 AGE
-adventure[help]:general/age
+adv:help:general/age
 #0
 ALIAS
-adventure[help]:general/alias
+adv:help:general/alias
 #0
 ALIGNMENT GOOD NEUTRAL EVIL
-adventure[help]:general/alignement
+adv:help:general/alignement
 #31
 ANIMATE ANIMATE-DEAD
-adventure[help]:spells/animate.feecting
+adv:help:spells/animate.feecting
 #0
 ANTI
-adventure[help]:general/anti
+adv:help:general/anti
 #0
 APOSTROPHES
-adventure[help]:general/apostrophes
+adv:help:general/apostrophes
 #31
 APPLICATION BUILDING
-adventure[help]:general/application
+adv:help:general/application
 #0
 AREAS
-adventure[help]:general/areas
+adv:help:general/areas
 #0
 ARMOR-SPELL
-adventure[help]:spells/armor
+adv:help:spells/armor
 #0
 ASCII-ART ART
-adventure[help]:general/art
+adv:help:general/art
 #31
 ASSIST
-adventure[help]:general/assist
+adv:help:general/assist
 #0
 ASTAT
-adventure[help]:general/astat
+adv:help:general/astat
 #0
 ATTACH
-adventure[help]:general/attach
+adv:help:general/attach
 #31
 AUCTION GOSSIP GRATS
-adventure[help]:general/chats
+adv:help:general/chats
 #0
 AUTOASSIST
-adventure[help]:general/autoassist
+adv:help:general/autoassist
 #0
 AUTODOOR
-adventure[help]:general/autodoor
+adv:help:general/autodoor
 #0
 AUTOEXIT AUTOEXITS AUTO-EXITS
-adventure[help]:general/autoexits
+adv:help:general/autoexits
 #0
 AUTOGOLD
-adventure[help]:general/autogold
+adv:help:general/autogold
 #0
 AUTOKEY
-adventure[help]:general/autokey
+adv:help:general/autokey
 #0
 AUTOLOOT
-adventure[help]:general/autoloot
+adv:help:general/autoloot
 #0
 AUTOMAP AUTOMAPPING MAPS
-adventure[help]:general/maps
+adv:help:general/maps
 #0
 AUTOQUEST
-adventure[help]:general/autoquest
+adv:help:general/autoquest
 #0
 AUTOSPAWN
-adventure[help]:general/autospawn
+adv:help:general/autospawn
 #0
 AUTOSPLIT
-adventure[help]:general/autosplit
+adv:help:general/autosplit
 #0
 AUTOWIZ
-adventure[help]:general/autowiz
+adv:help:general/autowiz
 #31
 BACKDOOR HACKING HACK
-adventure[help]:general/hack
+adv:help:general/hack
 #0
 BACKSTAB
 
@@ -11517,7 +11517,7 @@ male PC 'Rumble'  IDNum: [ @R1@n], In room [    0]
 See also: REMOTE, RDELETE, UID, ZEDIT-REMOVE
 #31
 VIRTUAL-NUMBERS RNUM
-adventure[help]:builder/vnum
+adv:help:builder/vnum
 #31
 VISIBLE
 
@@ -12042,69 +12042,69 @@ GOOD: Shadows cower along the tall walls and almost seem to be moving. The
 See also: GRAMMAR
 #31
 ZEDIT
-adventure[help]:zedit/main
+adv:help:zedit/main
 #31
 ZEDIT-ADVANCED ADVANCED
-adventure[help]:zedit/advanced
+adv:help:zedit/advanced
 #31
 ZEDIT-BUILDERS
-adventure[help]:zedit/builders
+adv:help:zedit/builders
 #31
 ZEDIT-COMMANDS ZONE-COMMANDS ZEDITCOMMANDS ZEDIT-COMMANDLISTS COMMANDLISTS COMMAND-LISTS
-adventure[help]:zedit/commands
+adv:help:zedit/commands
 #31
 ZEDIT-CREATE ZEDIT-CREATION ZONE-CREATE ZONE-CREATION ZCREATE CREATE-ZONE
-adventure[help]:zedit/create
+adv:help:zedit/create
 #31
 ZEDIT-DELETE
-adventure[help]:zedit/delete
+adv:help:zedit/delete
 #0
 ZEDIT-EQUIP
-adventure[help]:zedit/equip
+adv:help:zedit/equip
 #31
 ZEDIT-LEVELS ZONE-LEVELS
-adventure[help]:zedit/levels
+adv:help:zedit/levels
 #31
 ZEDIT-MENU ZONE-EDIT ZONE-MENU
-adventure[help]:zedit/menu
+adv:help:zedit/menu
 #31
 ZEDIT-NEW-COMMAND ZEDIT-DOOR MOB-LOAD MOB-INVENTORY ZEDIT-NEWCOMMAND ZEDIT-LOADING ZLOADING ZEDIT-DOORS ZEDIT-REMOVE
-adventure[help]:zedit/new
+adv:help:zedit/new
 #31
 ZEDIT-ROOM ZEDIT-NUMBER
-adventure[help]:zedit/room
+adv:help:zedit/room
 #31
 ZONE-COMPLETION COMPLETED-ZONE COMPLETION
-adventure[help]:zones/complete
+adv:help:zones/complete
 #31
 ZONE-DELETION DELETION
-adventure[help]:zonedelete
+adv:help:zonedelete
 #31
 ZONE-DESCRIPTION-ROOM ZONE_DESCRIPTION_ROOM 00 EXAMPLE-ZONE-DESCRIPTIONS ZONE-INFO TEST-ZONE TRIAL-ZONE ZONE-DESCRIPTIONS ZEDIT-DESCRIPTION
-adventure[help]:zones/description
+adv:help:zones/description
 #31
 ZEDIT-FLAGS ZONEFLAGS ZONE-FLAGS
-adventure[help]:zedit/flags
+adv:help:zedit/flags
 #31
 ZONE-FORMAT ZON-FILES
-adventure[help]:zones/format
+adv:help:zones/format
 #31
 ZONE-SIZES SIZES
-adventure[help]:zones/size
+adv:help:zones/size
 #31
 ZONES
-adventure[help]:zones/main
+adv:help:zones/main
 #0
 ZPURGE
-adventure[help]:zones/purge
+adv:help:zones/purge
 #31
 ZRESET
-adventure[help]:zones/reset
+adv:help:zones/reset
 #31
 ZUNLOCK
-adventure[help]:zones/unlock
+adv:help:zones/unlock
 #31
 ZLOCK
-adventure[help]:zones/lock
+adv:help:zones/lock
 #31
 $~
