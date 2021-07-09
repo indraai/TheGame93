@@ -1,6 +1,6 @@
 #267
-Questor~
-Vice Island~
+Quinn~
+Deva Island~
 26700 26799 30 1 d 0 0 0 20 25
 R 0 26759 26732 -1 	(a dull iron key)
 O 0 26732 5 26759 	(a dull iron key)
@@ -9,24 +9,27 @@ M 0 26707 5 26701 	(a small, red crab)
 M 0 26707 5 26701 	(a small, red crab)
 M 0 26707 5 26701 	(a small, red crab)
 M 0 26707 5 26701 	(a small, red crab)
-M 0 26701 5 26704 	(the woman in pink)
+
+M 0 26701 5 26704 	(Menaka the Apsara)
 E 1 26700 5 5 	(a pretty pink taffeta dress)
-M 0 26702 5 26704 	(the woman in blue)
+
+M 0 26702 5 26704 	(Ghritachi the Apsara)
 E 1 26701 5 5 	(a pretty blue silk dress)
-M 0 26702 5 26704 	(the woman in blue)
-E 1 26701 5 5 	(a pretty blue silk dress)
-M 0 26703 5 26704 	(the woman in pristine white)
+
+M 0 26703 5 26704 	(Rambha the Apsara)
 E 1 26702 5 5 	(a pretty pristine white cotton dress)
-M 0 26704 5 26704 	(the woman in a drab beige dress)
+
+M 0 26704 5 26704 	(Tilottama the Apsara)
 E 1 26703 5 5 	(an ugly beige burlap dress)
-M 0 26704 5 26704 	(the woman in a drab beige dress)
-E 1 26703 5 5 	(an ugly beige burlap dress)
-M 0 26705 1 26704 	(the special slave of the master)
+
+M 0 26705 1 26704 	(Urvasi the Apsara)
 E 1 26704 2 5 	(a beautiful swirling multi-colored dress)
+
 M 0 26706 1 26704 	(a fat harem master)
 G 1 26705 2 -1 	(a demon-faced talisman)
 E 1 26706 1 5 	(a robe of leisure)
 E 1 26730 10 17 	(a stone key)
+
 M 0 26708 1 26725 	(a cuddly little tar baby)
 E 1 26707 15 17 	(a tar rattle)
 M 0 26709 2 26741 	(a seagull)
@@ -55,7 +58,7 @@ E 1 26721 1 6 	(the Headdress of Terror)
 E 1 26722 1 1 	(a ring of pitch-black metal)
 E 1 26723 1 3 	(a cloak of the purest black)
 G 1 26728 20 -1 	(a pitch-black key)
-M 0 26715 1 26799 	(the Keeper of the Shrine of Vice)
+M 0 26715 1 26799 	(the Keeper of the Shrine of Offerings)
 E 1 26725 10 16 	(a cat o' nine tails)
 M 0 26717 1 26765 	(a torturer)
 E 1 26725 10 16 	(a cat o' nine tails)

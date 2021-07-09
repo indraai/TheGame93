@@ -23,28 +23,28 @@ dress blue silk~
    It's a beautifully tailored silk dress.  You would look smashing in it.
 ~
 #26702
-dress white cotton~
-a pretty pristine white cotton dress~
-A pretty white cotton dress has been tossed to the ground.~
+dress white silk~
+a pretty pristine white silk dress~
+A pretty white silk dress is here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 1 0 0 0
 5 300 0 0 0
 E
-dress white cotton~
-   It's a lovely cotton dress.  You would look quite the woman in it.
+dress white silk~
+It's a lovely cotton dress.  You would look quite the woman in it.
 ~
 #26703
-dress beige burlap~
-an ugly beige burlap dress~
-An ugly beige burlap dress looks very like a sack of potatoes on the ground.~
+dress beige silk~
+an ugly beige silk dress~
+An ugly beige silk dress looks very beautiful.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 1 0 0 0
 5 300 0 0 0
 E
-dress beige burlap~
-   Eyugh.  Gross.  You don't actually want to wear _this_, do you?
+dress beige silk~
+Ewww.  Pretty.  You actually want to wear this.
 ~
 #26704
 dress swirling beautiful multi-colored~
@@ -56,9 +56,7 @@ A beautiful, swirling, multi-colored dress is getting soiled on the ground.~
 5 700 0 0 0
 E
 dress swirling beautiful multi-colored~
-   The dress is made from many different colors, and just seems to flow more
-than rest.  You would look more beautiful than you ever have in this luscious
-garb.
+The dress is made from many different colors, and just seems to flow more than rest.  You would look more beautiful than you ever have in this luscious garb.
 ~
 A
 3 -2
@@ -79,17 +77,16 @@ but it also looks very powerful.  You can feel the magic flowing from it to your
 hand.  You're torn on whether to use it or not.
 ~
 #26706
-robe leisure~
-a robe of leisure~
-A robe of leisure is on the ground.~
-~
+sexy man panties~
+a pair of sexy man panties~
+A sexy sexy pair of man panties.~
+A sexy pair of man panties with a little elphant face for what appears to be a very large man are here.~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 7 0 0 0
 5 800 0 0 0
 E
-robe leisure~
-   Oh, my, you could just sink right into this robe.  It looks so very
-*comfortable.  *
+sexy man panties~
+Oh, my, these man panties look fabulous. Fashioned with a little elephant in the front where you put your man parts. Then all string for ultimate comfort.
 ~
 A
 2 3

@@ -1,75 +1,58 @@
 #26701
-woman harem slave pink~
-the woman in pink~
-A woman wearing a pretty pink taffeta dress trudges along the beach.
+menaka apsara woman pink~
+Menaka the Apsara~
+Menaka wearing a pretty pink taffeta dress trudges along the beach.
 ~
-   My, what beauty.  But she just gives you a long, doleful stare and without a
-sound continues along.  How strange--her eyes are a very dull gray.  Doesn't
-seem to work with her beautiful face.
+ My, what beauty. She just gives you delightful stare and without a
+sound continues along.  How strange--her eyes are a very black.
 ~
 220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
 E
-T 26701
-T 26703
 #26702
-woman harem slave blue~
-the woman in blue~
-A woman wearing a pretty blue silk dress trudges along the beach.
+ghritachi apsara woman~
+Ghritachi the Apsara~
+Ghritachi wearing a pretty blue silk dress trudges along the beach.
 ~
-   My, what beauty.  But she just gives you a long, doleful stare and without a
-sound continues along.  How strange--her eyes are a very dull gray.  Doesn't
-seem to work with her beautiful face.
+My, what beauty. But she just gives delightful stare and without a sound continues along. How strange her eyes are a very black.
 ~
 220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
 E
-T 26701
-T 26703
 #26703
-woman harem slave white~
-the woman in pristine white~
-A woman wearing a pretty pristine white cotton dress trudges along the beach.
+rambha apsara woman~
+Rambha the Apsara~
+Rambha wearing a pretty pristine white dress trudges along the beach.
 ~
-   My, what beauty.  But she just gives you a long, doleful stare and without a
-sound continues along.  How strange--her eyes are a very dull gray.  Doesn't
-seem to work with her beautiful face.
+ My, what beauty. But she just gives you gentle stare and without a sound continues along. Her eyes are a very mystical.
 ~
 220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
 E
-T 26703
-T 26701
 #26704
-woman harem slave beige~
-the woman in a drab beige dress~
-A woman wearing a drab beige burlap dress trudges along the beach.
+tilottama apsara woman~
+Tilottama the Apsara~
+Tilottama wearing a beige dress trudges along the beach.
 ~
-   My, what beauty.  But she just gives you a long, doleful stare and without a
-sound continues along.  How strange--her eyes are a very dull gray.  Doesn't
-seem to work with her beautiful face.
+My, what beauty. But she just gives delightful stare and without a sound continues along.  How strange- her eyes are a very black.  Doesn't seem to work with her beautiful face.
 ~
 220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
 E
-T 26703
-T 26701
 #26705
-woman harem slave concubine~
-the special slave of the master~
-A slave for the master works endlessly at his will.
+urvasi woman apsara~
+Urvasi the Apsara~
+Urvasi the Apsara is here dancing and singing away.
 ~
-   My, what beauty.  But she just gives you a long, doleful stare and without a
-sound continues along.  How strange--her eyes are a very dull gray.  Doesn't
-seem to work with her beautiful face.
+My, what beauty.  But she just gives you a long, delightful glance and without a sound continues along.  How strange her eyes are deep black.
 ~
 220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -77,13 +60,13 @@ seem to work with her beautiful face.
 8 8 2
 E
 #26706
-leader harem master~
-a fat harem master~
-A very fat harem master orders his concubines around.
+dewity leader evil master target asshat vilain~
+Mr. Dewity Evil Asshat~
+Mr. Dewity is drinking coffee trying to order people around as usual.
 ~
-   Gads.  This man must have some kind of magic to be able to keep all of these
-women, because he certainly doesn't have the face for it.  He looks somewhat
-like a cross between a pear and a potato, but without the good looks.
+This man must have some kind of confidence. To be able to keep calm while wearing those man panties is just amazing. Because he certainly doesn't have the face or body you'd usually see someone sporting that type of fashion.
+
+He looks somewhat like a cross between a pear, potato, gremlin, a strange bikini model, but without the good looks.
 ~
 10 0 0 0 16 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
@@ -91,7 +74,6 @@ like a cross between a pear and a potato, but without the good looks.
 8 8 1
 E
 T 26700
-T 26702
 #26707
 crab~
 a small, red crab~
