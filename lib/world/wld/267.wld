@@ -10,18 +10,12 @@ adv:world:26701/main
 ~
 267 16 0 0 0 4
 D1
-To your east you can see a huge mound of dirt.
 ~
 ~
 0 0 26702
 E
 sand beach~
 adv:world:26701/beach
-~
-E
-women woman~
-   Each woman is spectacularly beautiful--except for their glazed eyes and
-expressions of utter stupor.  What on earth could be wrong with them?
 ~
 S
 #26702
@@ -30,17 +24,14 @@ adv:world:26702/main
 ~
 267 16 0 0 0 4
 D1
-To your east you can see a beach road that leads into the forest.
 ~
 ~
 0 0 26703
 D3
-You can see the blindingly bright white beach to your east.
 ~
 ~
 0 0 26701
 D5
-Downwards you can see what looks to be a lush harem.
 ~
 ~
 0 0 26704
@@ -51,12 +42,10 @@ adv:world:26703/main
 ~
 267 1 0 0 0 2
 D1
-The beach road continues on.
 ~
 ~
 0 0 26705
 D3
-To your west you can see a huge mound.
 ~
 ~
 0 0 26702
@@ -71,7 +60,6 @@ D3
 ~
 1 0 3162
 D4
-You can just see from the hole in the ground that you are right by a path that leads into the woods.
 ~
 ~
 0 0 26702
@@ -82,12 +70,10 @@ adv:world:26705/main
 ~
 267 5 0 0 0 2
 D1
-A large hill rises to your east.
 ~
 ~
 0 0 26739
 D3
-You see a well-kept trail.
 ~
 ~
 0 0 26703
@@ -98,12 +84,10 @@ adv:world:26706/main
 ~
 267 4 0 0 0 2
 D1
-The creepy road continues east.
 ~
 ~
 0 0 26707
 D3
-The huge Vice Hill lies to your west.
 ~
 ~
 0 0 26739
@@ -114,12 +98,10 @@ adv:world:26707/main
 ~
 267 0 0 0 0 2
 D1
-The creepy road continues east.
 ~
 ~
 0 0 26708
 D3
-The creepy road continues west.
 ~
 ~
 0 0 26706
@@ -130,19 +112,13 @@ adv:world:26708/main
 ~
 267 4 0 0 0 2
 D1
-You know, like we said, a large building lieing to your east and all.
 ~
 ~
 0 0 26745
 D3
-The creepy road continues west.
 ~
 ~
 0 0 26739
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
 E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
@@ -155,12 +131,10 @@ adv:world:26709/main
 ~
 267 0 0 0 0 4
 D4
-Looking up, you can see the zenith of Vice Hill.
 ~
 ~
 0 0 26739
 D5
-Looking down, you can see the end of the hill.
 ~
 ~
 0 0 26723
@@ -171,218 +145,196 @@ adv:world:26710/main
 ~
 267 0 0 0 0 4
 D4
-Looking up, you can see the zenith of Vice Hill.
 ~
 ~
 0 0 26739
 D5
-Looking down, you can see the end of the hill.
 ~
 ~
 0 0 26728
 S
 #26711
-Tarry Tunnel~
+The Tunnel~
 adv:world:26711/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26713
 D1
-The tarry tunnel ascends onto a hill to your east.
 ~
 ~
 0 0 26723
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26712
-Tarry Tunnel~
+The Tunnel~
 adv:world:26712/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26714
 D3
-The tarry ascends onto a hill to your west.
 ~
 ~
 0 0 26723
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26713
-Tarry Tunnel~
+The Tunnel~
 adv:world:26713/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26715
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26711
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26714
-Tarry Tunnel~
+The Tunnel~
 adv:world:26714/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26716
 D2
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26712
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26715
-Tarry Tunnel~
+The Tunnel~
 adv:world:26715/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26717
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26713
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26716
-Tarry Tunnel~
+The Tunnel~
 adv:world:26716/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26718
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26714
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26717
-Tarry Tunnel~
+The Tunnel~
 adv:world:26717/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26719
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26715
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26718
-Tarry Tunnel~
+The Tunnel~
 adv:world:26718/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26720
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26716
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26719
-Tarry Tunnel~
+The Tunnel~
 adv:world:26719/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26721
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26717
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26720
-Tarry Tunnel~
+The Tunnel~
 adv:world:26720/main
 ~
 267 9 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26722
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26718
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26721
-Tarry Tunnel~
+The Tunnel~
 adv:world:267212672/main
 ~
 267 133 0 0 0 0
@@ -392,22 +344,20 @@ The tarry tunnel opens into a strange building to your east.
 ~
 0 0 26778
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26719
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26722
-Tarry Tunnel~
+The Tunnel~
 adv:world:26722/main
 ~
 267 133 0 0 0 0
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26720
@@ -417,103 +367,86 @@ The tarry tunnel opens into a strange building to your west.
 ~
 0 0 26779
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+vamraka indu soma indra pure water~
+The water looks amazing, but we should ask permission before taking any.
 ~
 S
 #26723
-Vice Hill~
+The Hill~
 adv:world:26723/main
 ~
 267 4 0 0 0 4
 D0
-You can see a dangerous-looking tarry road to your north.
 ~
 ~
 0 0 26724
 D1
-You can see a dark, tarry tunnel opening to your east.
 ~
 ~
 0 0 26712
 D2
-You see the relative safety of Vice Hill.
 ~
 ~
 0 0 26710
 D3
-You can see a dark, tarry tunnel opening to your west.
 ~
 ~
 0 0 26711
 D4
-You can see a path through the huge trees of the forest.
 ~
 ~
 0 0 26784
 S
 #26724
-Tarry Road~
+The Road~
 adv:world:26724/main
 ~
 267 517 0 0 0 2
 D0
-It looks very dangerous and squishy that way, but you could probably survive
-it.
 ~
 ~
 0 0 26725
 D2
-It's much safer to your south. Perhaps you should go back.
 ~
 ~
 0 0 26723
 S
 #26725
-Tarry Road~
+The Road~
 adv:world:26725/main
 ~
 267 517 0 0 0 2
 D0
-The tar looks even more dangerous that way, but survivable.
 ~
 ~
 0 0 26726
 D2
-The tar thins out a bit in that direction--better go that way.
 ~
 ~
 0 0 26724
-E
-sign note writings writing inscription inscriptions rune runes~
-                            TAR PIT
-                       DO NOT ENTER ! ! !
-                THIS IS THE POINT OF NO RETURN!
-~
 S
 #26726
-Tarry Road~
+The Road~
 adv:world:26726/main
 ~
 267 517 0 0 0 2
 D0
-Looks like that would be a VERY bad idea. I don't think you could escape that one.
 ~
 ~
 0 0 26727
 E
-tar pit tarpit~
-It's big, black, boiling, sticky, and gooey.  What more incintive do you need to stay away from it?
+water pond waterpond~
+It's big, clear, cool, calm, and smooth.  What more incintive do you need to ask before taking any of it?
 ~
 S
 #26727
-Boiling Tar Pit~
+The Pond~
 adv:world:2672726727/main
 ~
 267 548 0 0 0 2
 S
 #26728
-Vice Hill~
+The Hill~
    You stand at the bottom of a large hill.  It is eerily beautiful here, but
 it still looks quite sinister.  You notice a rocky road to your south, and you
 can ascend the hill to take a look around you.  A road hangs a bit above you to
@@ -526,22 +459,18 @@ You can see the beautiful Vice Hill.
 ~
 0 0 26709
 D1
-You can see a very strange road to your east. Worth exploring? Probably.
 ~
 ~
 0 0 26730
 D2
-You see a slippery-looking rocky road to your south.
 ~
 ~
 0 0 26740
 D3
-A beautifuly made, well-kept path is to your west.
 ~
 ~
 0 0 26729
 D4
-Of course, you should ascend a hill, right?
 ~
 ~
 0 0 26730
@@ -556,12 +485,10 @@ Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
 D1
-To your east you can see the bottom of Vice Hill.
 ~
 ~
 0 0 26728
 D2
-The high path continues on.
 ~
 ~
 0 0 26731
@@ -575,12 +502,10 @@ sign of life.  Lonliness sends you into a panicky state.
 ~
 267 0 0 0 0 1
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26732
 D3
-The bottom of Vice Hill starts to your west.
 ~
 ~
 0 0 26728
@@ -601,12 +526,10 @@ Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
 D0
-The high path continues on.
 ~
 ~
 0 0 26729
 D2
-The high path continues on.
 ~
 ~
 0 0 26733
@@ -620,12 +543,10 @@ sign of life.  Lonliness sends you into a panicky state.
 ~
 267 0 0 0 0 1
 D0
-The strange trail continues on..
 ~
 ~
 0 0 26730
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26734
@@ -646,12 +567,10 @@ Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
 D0
-The high path continues on.
 ~
 ~
 0 0 26731
 D2
-The high path continues on.
 ~
 ~
 0 0 26735
@@ -665,12 +584,10 @@ sign of life.  Lonliness sends you into a panicky state.
 ~
 267 0 0 0 0 1
 D0
-The strange trail continues on..
 ~
 ~
 0 0 26732
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26736
@@ -691,12 +608,10 @@ Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
 D0
-The high path continues on.
 ~
 ~
 0 0 26733
 D2
-The high path continues on.
 ~
 ~
 0 0 26737
@@ -710,12 +625,10 @@ sign of life.  Lonliness sends you into a panicky state.
 ~
 267 0 0 0 0 1
 D0
-The strange trail continues on.
 ~
 ~
 0 0 26734
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26738
@@ -736,15 +649,13 @@ Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
 D0
-The high path continues on.
 ~
 ~
 0 0 26735
 D2
-A building of exquisite craftsmanship is to your south.
 ~
 ~
-1 26727 26791
+1 0 26791
 S
 #26738
 Trail of Terror~
@@ -755,18 +666,16 @@ sign of life.  Lonliness sends you into a panicky state.
 ~
 267 4 0 0 0 1
 D0
-The strange trail continues on.
 ~
 ~
 0 0 26736
 D2
-A building made of a strange, purely black substance is to your south.
 ~
-Temple of terror~
-1 26728 26797
+~
+1 0 26797
 E
 ribs skeleton~
-   This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
+This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
 not have to find out.  Each rib seems to be razer-sharp at the edges, and the
 bones have been cleaned to a perfect white.
 ~
@@ -786,49 +695,43 @@ The hill descends down into a tarry road, filled with the gooey stuff.
 ~
 0 0 26709
 D1
-You can see the creepy road.
 ~
 ~
 0 0 26706
 D2
-The road is much more rocky in this direction.
 ~
 ~
 0 0 26710
 D3
-You see the strange beach road.
 ~
 ~
 0 0 26705
 E
 brine tar goo sinister black forest harbour see view~
-   Nothing describes this island with more clarity than "horror".  All around
+Nothing describes this island with more clarity than "horror".  All around
 you, you can sense evil, but you can't pinpoint why.  The entire island is quite
 silent--not a chirp can be heard.
 ~
 S
 #26740
 Cliff Road~
-   The road is quite slippery here, and you can see to your far south what
+The road is quite slippery here, and you can see to your far south what
 looks like a dropoff into absolute nothingness.  Rocks skitter as you slide
 around the road.  It really looks quite dangerous--the hill would be a much
 safer way to look at the view.
 ~
 267 0 0 0 0 5
 D0
-You can see the bottom of Vice Hill to your north. It looks comparatively safe.
 ~
 ~
 0 0 26728
 D2
-The cliff road continues on, though I suggest you don't take it.
 ~
 ~
 0 0 26741
 E
 cliff~
-   You can't quite see it yet--all you can see is a line that extends across the
-horizon.
+You can't quite see it yet--all you can see is a line that extends across the horizon.
 ~
 S
 #26741
@@ -840,70 +743,63 @@ back--now.
 ~
 267 0 0 0 0 5
 D0
-You can still go back--it's a better idea to anyways.
 ~
 ~
 0 0 26740
 D2
-You ARE one for taking risks, aren't you?
 ~
 ~
 0 0 26742
 E
 cliff~
-   You can now see a little of it.  It looks quite unstable.
+You can now see a little of it.  It looks quite unstable.
 ~
 S
 #26742
 Cliff Road~
-   The road is quite slippery here, and you can see to your south what looks
+The road is quite slippery here, and you can see to your south what looks
 like a dropoff into absolute nothingness.  Rocks skitter as you slide around
 the road.  It really looks quite dangerous--you'd be much better going
 back--now.
 ~
 267 0 0 0 0 5
 D0
-You can still go back--it's a better idea to anyways.
 ~
 ~
 0 0 26741
 D2
-Don't say we didn't warn you. It's a cliff allright. A big and unsteady one.
 ~
 ~
 0 0 26743
 E
 cliff~
-   You can see it.  It looks quite close.  It looks very dangerous.
+You can see it.  It looks quite close.  It looks very dangerous.
 ~
 S
 #26743
 Cliff Road~
-   What a view!  If you weren't having such trouble staying up, you could see
+What a view!  If you weren't having such trouble staying up, you could see
 it much better.  Each step brings you closer to the edge--it looks very danger-
 ous, and the cliff's edge is quite close now.  The ground is beginning to shake
 under your weight.
 ~
 267 0 0 0 0 5
 D0
-You can still go back--it's a better idea to anyways.
 ~
 ~
 0 0 26742
 D2
-It's the cliff's edge. The ground looks quite unsteady there.
 ~
 ~
 0 0 26744
 E
 cliff~
-   Umm...  We've warned you quite enough.  Either go back, or face the
-consequences.
+Umm...  We've warned you quite enough.  Either go back, or face the consequences.
 ~
 S
 #26744
 Cliff's Edge~
-   The view is never better when you're seeing it from mid-air.  But you've
+The view is never better when you're seeing it from mid-air.  But you've
 only got a few seconds to see it, as you're squashed down below.  Too bad
 shrieks don't make you fly.
 ~
@@ -911,57 +807,41 @@ shrieks don't make you fly.
 S
 T 26710
 #26745
-House Chandra (Entrance)~
-   Low moans seem to come from the walls as you stand before the fallen
-entrance to a huge building.  The walls appear to be made of some kind of gray
-stone-- that, or they have turned gray with age.  A passageway opens to your
-east, but you can't see anything in the room, because of the darkness.
-Shadows cast weird angles everywhere.  A faded plaque has hangs from a nail in
-a far corner of the room.
+House Soma (Entrance)~
+adv:world:27645/main
+267
 ~
 267 28 0 0 0 0
 D1
-You can vaguly see some kind of picture or something on one of the walls...
 ~
 ~
 0 0 26746
 D3
-The creepy road continues in that direction.
 ~
 ~
 0 0 26708
 E
 sign note plaque~
-                           Building of Fear
-             HIGH PRIESTS OF TERROR ALLOWED SAFE PASSAGE ONLY
-                      You have been forewarned.
+adv:world:26745/sign
 ~
 S
 #26746
-The Tapestry Room~
-   Strange tapestries fill all the walls here.  Each one seems to depict a
-horrendous torture at the hands of some foul monster.  If you look closely
-enough, the pictures are so realistic, so clear, so true-to-life, that they
-look real.  Even closer examaniation reveals that they`re moving!  You probably
-don't want to stay here long.
+Tapestry Room~
+adv:world:26746/main
 ~
 267 24 0 0 0 0
 D1
-You see a room filled with trophies.
 ~
 ~
 0 0 26748
 D3
-You can see the entrance to the Building of Fear.
 ~
 ~
 0 0 26745
 S
 #26747
 Gargoyle Room~
-   The gargoyle looks quite stony--that is, until you reach out to touch it.
-Suddenly, it seems to come to life and move slightly or was that just a shadow.
-
+adv:world:26747/main
 ~
 267 24 0 0 0 0
 D2
@@ -970,18 +850,11 @@ D2
 1 0 26748
 E
 gargoyle statue~
-   It's a gargoyle, with a large gaping mouth.  Since you shouldn't be able to
-wee it, we're not going to tell you anything else.
+adv:world:26747/statue
 ~
 S
 #26748
 Trophy Room~
-   There are literally hundereds of pedestals here, each with the skulls of a
-different animal.  Some are large, some quite small--some look like nothing you
-have ever seen before.  You can see a large ritual altar on one side of the
-room, and a strange room encased in seamless glass on the other half.  Behind
-the altar, a little uneavenness in the wall can be seen, as if someone cut
-perforations through the wall.
 ~
 267 24 0 0 0 0
 D0
@@ -992,592 +865,466 @@ It's quite frightening...it's probably not good that you go in there.
 glass glassdoor door~
 2 26729 26747
 D1
-You see what looks to be a comfortable(?) waiting room.
 ~
 ~
 0 0 26750
 D2
-You see nothing but a slight unevenness in the wall.
 ~
-door secret~
-1 26730 26749
+~
+1 0 26749
 D3
-You can see a room filled with strange and horrifying tapestries.
 ~
 ~
 0 0 26746
 E
-pedestal skull~
-   Each pedestal is about the size of your waist; each skull--well, it just
-depends.  None look benevolent...  Whoever caught them must have been a very
-skilled hunter.
+pedestal~
+adv:world:26748/pedestal
 ~
 S
 #26749
 Dressing Room~
-   This room looks to be more the kind of room where a person dresses than a
-butcher shop--meat racks, knives of all various and sundry sizes, and other
-assorted meat-preparing items lie strewn around the room.  There is, of course,
-the paltry coatrack, with what look to be strange robes in it.
+adv:world:26749/main
 ~
 267 24 0 0 0 0
 D0
-You see the strange trophy room.
 ~
-door secret~
-1 26730 26748
+~
+1 0 26748
 S
 #26750
-Wailing Tower~
-   The howls you heard at the entrance are much louder here.  It appears to be
-coming from above you--indeed, you can see a spiral staircase ascending into
-the building.  Should you go up?  You decide.
+Singing Tower~
+adv:world:26750/main
 ~
 267 24 0 0 0 0
 D3
-You can see the trophy room.
 ~
 ~
 0 -1 26748
 D4
-The spiral staircase ascends up farther than the eye can see.
 ~
 ~
 0 -1 26751
 E
 stair spiral staircase~
-   This staircase appears to go up to infinity.  You can't see where it ends.
+adv:world:26750/stairs
 ~
 S
 #26751
-On the staircase~
-   The wailing surrounds you entirely here.  You feel you might go mad if you
-don't leave this stairwell.  Over and over and over the sounds shriek over you.
-Perhaps you should go up--and quickly.
+Spiral Stairs~
+adv:world:26751/main
 ~
 267 24 0 0 0 0
 D4
-You see a very weirdly shaped hallway.
 ~
 ~
 0 -1 26753
 D5
-You see the bottom of the staircase.
 ~
 ~
 0 -1 26750
 S
 #26752
-Cell~
-   The stench of refuse is particularly strong here.  The cell can't be more
-than 3-by-2 meters.  A small cot is bolted to the floor, and a small drainage
-hole with no covering is in the mi268le of the room.  The floors slant down to
-the hole, and you can see streaks of rust where the iron bolts have oxidized.
-Manacles hang from the wall in the back of the cell, and you can see two
-skeletal hands, all that is left of what once must have been a human being.
+Prison Cell~
+adv:world:26752/main
 ~
 267 236 0 0 0 0
 D0
-You can see the strangely shaped hallway.
 ~
 bars cell door~
 1 26713 26753
 E
-cot bed~
-   The cot is made of black.  A mattress made of straw lies on top of it--very
-thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
-walk near it.
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 E
-hole drainage~
-   The hole is about the size of your fist, and from the smell, it doesn't take
-a whole lot of imagination to figure out what is supposed to go down in that
-one.
+couch bed futon sleep~
+adv:world:26752/bed
 ~
 E
-manacles legirons irons hands skeletal~
-   Two small hands are all that remain of what must have once been a small
-child, or a very small human.  You can see teeth marks where it looks like
-someone was trying to bite their way out.
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
+adv:world:26752/toilet
+~
+E
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 S
 #26753
-Strangely shaped hallway.~
-   This hallway appears to be nothing more than an extension around the stairs.
-Made from the same gray material as the rest of the building, this room seems
-to have something strange about it.  Perhaps it's the strange black tiling at
-certain points around the room.  There are doors leading in almost all
-directions, and the stairs continue on upward.
+Hallway of Flow~
+adv:world:26753/main
 ~
 267 24 0 0 0 0
 D0
-You see what looks to be the smoldered remains of a bonfire.
 ~
-door~
-1 -1 26754
+~
+1 0 26754
 D1
-You see what look to be crates and crates of supplies.
 ~
-door~
-2 26731 26755
+~
+1 0 26755
 D2
-You see the bars of what is obviously a prison cell.
 ~
-door~
-1 26713 26752
+~
+1 0 26752
 D4
-The stairs ascend upwards.
 ~
 ~
 0 -1 26757
 D5
-The stairs ascend downwards.
 ~
 ~
 0 -1 26751
 S
 #26754
-Open Hearth~
-   The damp remains of what was probably once a huge bonfire are strewn about
-the room.  The coals are mushy here, and they're everywhere.  They creep
-through the soles of your boots and get caught between your toes.  What a
-disgusting place.  You can exit this gross room to your south.
+Indu's Room~
+adv:world:27654/main
 ~
 267 24 0 0 0 0
 D2
-You can see the strangely-shaped hallway.
 ~
-door~
-1 -1 26753
+~
+1 0 26753
 E
-coals fire coal~
-   They're wet, and mushy.  As you pick one up, it crumbles into a disgusting
-mass of mud in your hand.
+water bed fountain basin~
+adv:world:26754/bed
 ~
 S
 #26755
 Supply Room~
-   Old, rotten crates are piled up everywhere here.  They appear to have been
-looted a long time ago.  Some have been shattered to pieces.  You have an exit
-to your west.
+adv:world:26755/main
 ~
 267 24 0 0 0 0
 D3
-You can see the strangely-shaped hallway.
 ~
-door~
-2 26731 26753
+~
+1 0 26753
 E
 crates~
-   The crates are old, rotting, and totally empty--except for one, snuck in the
-corner.  It looks to have an o268 device of some kind in it.
+adv:world:26755/crates
 ~
 S
 #26756
-King Chandra Bedroom~
-This lush chamber looks as if it is well cared for.  A bed, beautiful, has a huge canopy.  The room is so dark that you can only view certain things even WITH a light.  A dresser is at the very back of the room.  You can exit to your north.
+King Soma Bedroom~
+adv:world:26756/main
 ~
 267 760 0 0 0 0
 D0
-You see the hallway.
 ~
-door~
+~
 1 -1 26757
 E
-bed~
-The bed has a plush blue canopy hanging over it.
+bed canopy~
+adv:world:26756/bed
+~
+E
+dresser~
+adv:world:26756/dresser
 ~
 S
 #26757
-Creepy Hallway~
-   You can hear strange music floating throughout the corridor.  The hallway is
-lit by some unknown source in an eerie green light.  The walls are painted a
-bright scarlet red.  Whoever painted this hallway didn't have kindness or
-bunnies and light in mind.  Exits lead in every direction but up.
+Hallway~
+adv:world:26757/main
 ~
 267 24 0 0 0 0
 D0
-You can see the creepy hallway.
 ~
 ~
 0 0 26759
 D1
-You can see a door.
 ~
-door~
-1 26732 26758
+~
+1 0 26758
 D2
-You can see a door.
 ~
 door~
 1 -1 26756
 D3
-You can see the creepy hallway.
 ~
 ~
 0 0 26761
 D5
-The stairs descend downwards into nothingness.
 ~
 ~
 0 0 26753
 S
 #26758
-Office of King Chandra~
-   This office is hardly the regular office.  The High Priest of Fear is
-obviously into the torture thing, as manacles, iron maidens, and racks line the
-walls.  A boiling cauldron of oil is in the very center of the room.  A door is
-to your west.
+King Soma Office~
+adv:world:26758/main
 ~
 267 24 0 0 0 0
 D3
-You can see the creepy hallway.
 ~
-door~
-1 26732 26757
+~
+1 0 26757
 E
-manacles manacle chain~
-   The manacles are small, and have spikes on the insides of them.  They look
-very painful.
+paintings painting~
+adv:world:26758/paintings
 ~
 E
-iron maidens maiden~
-   This coffin-like object is lined with huge spikes.  If closed, it looks like
-it would be an unpleasant experience.
+sculptures sculpture~
+adv:world:26758/sculptures
 ~
 E
-cauldron boiling oil~
-   The thing bubbles.  It curdles the brain and sends chills down your spine.
+bowl water~
+adv:world:26758/bowl
 ~
 S
 #26759
-Creepy Hallway~
-   You can hear strange music floating throughout the corridor.  The hallway is
-lit by some unknown source in an eerie green light.  The walls are painted a
-bright scarlet red.  Whoever painted this hallway didn't have kindness or
-bunnies and light in mind.  You can go to your north or south.
+Hallway~
+adv:world:26759/main
 ~
 267 24 0 0 0 0
 D0
-You can't see much in that direction.
 ~
-closet~
-1 -1 26760
+~
+1 0 26760
 D2
-You see the creepy hallway.
 ~
 ~
 0 -1 26757
 S
 #26760
 Closet~
-   This closet has strange clothes strewn everywhere.  It probably wouldn't be
-a good idea to try them on.  A stale musty smell has infested everything in
-this small space.
+adv:world:26760/main
 ~
 267 24 0 0 0 0
 D2
-You see the creepy hallway.
 ~
-Creepy Hallway~
-1 -1 26759
+Hallway~
+1 0 26759
 S
 #26761
-Creepy Hallway~
-   You can hear strange music floating throughout the corridor.  The hallway is
-lit by some unknown source in an eerie green light.  The walls are painted a
-bright scarlet red.  Whoever painted this hallway didn't have kindness or
-bunnies and light in mind.  You can go to your north or east.
+Hallway~
+adv:world:26761/main
 ~
 267 24 0 0 0 0
 D0
-You see the creepy hallway.
 ~
 ~
 0 0 26762
 D1
-You see the creepy hallway.
 ~
 ~
 0 0 26757
 S
 #26762
-Creepy Hallway~
-   You can hear strange music floating throughout the corridor.  The hallway is
-lit by some unknown source in an eerie green light.  The walls are painted a
-bright scarlet red.  Whoever painted this hallway didn't have kindness or
-bunnies and light in mind.  You can go to your north or south.
+Hallway~
+adv:world:26762/main
 ~
 267 24 0 0 0 0
 D0
-You see the creepy hallway.
 ~
 ~
 0 0 26763
 D2
-You see the creepy hallway.
 ~
 ~
 0 0 26761
 S
 #26763
-Creepy Hallway~
-   You can hear strange music floating throughout the corridor.  The hallway is
-lit by some unknown source in an eerie green light.  The walls are painted a
-bright scarlet red.  Whoever painted this hallway didn't have kindness or
-bunnies and light in mind.  You can go to your south or west.
+Hallway~
+adv:world:26763/main
 ~
 267 24 0 0 0 0
 D2
-You see the creepy hallway.
 ~
 ~
 0 0 26762
 D3
-The end of the hallways opens up into the outside. It looks to be a balcony.
 ~
 ~
 0 0 26764
 S
 #26764
 Balcony~
-   From here, you can see the entire island.  The vantange is breathtaking, and
-still looks to be sinister.  To your far south, you can see what looks like the
-ribs of a huge animal.  To your far east, you can see a pristine white beach.
-Most of the island is covered in forest, and extends around a huge hill.  The
-far, far north shows some absolutely huge trees, and a rather large, black pool
-of what can only be tar.  You can go back into the building by going east.
+adv:world:26764/main
 ~
 267 16 0 0 0 1
 D1
-You see the creepy hallway.
 ~
 ~
 0 0 26763
 S
 #26765
 Torture Chambre~
-   This room is stacked high with torture instruments of all kinds, ranging
-from the mild shackle to spiked manacles, to several different whips, to some
-rather sinister-looking magical instruments, to a yoke that is obviously fitted
-to the human body.  This isn't a pleasant place.  An interrogation room lies to
-your east, and a teleporting zone is to your north.
+2676
 ~
 267 521 0 0 0 0
 D0
-You can see a teleportation square.
 ~
 ~
 0 0 26778
 D2
-You see the screening room.
 ~
-door~
-1 -1 26766
+~
+1 0 26766
 S
 #26766
 Screening Room~
-   This is the room where all prisoners are interrogated.  Should they be found
-lacking in the information the interrogators need, they are taken to the
-torture chamber to your west.
+adv:world:26766/main
 ~
 267 8 0 0 0 0
 D2
-You see the outlay.
 ~
-door~
-1 26733 26767
+~
+1 0 26767
 D3
-You see the torture chambre.
 ~
 ~
-1 -1 26765
+1 0 26765
 S
 #26767
-Outlay~
-   This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you.  You
-see no visible exits.
+Hallway~
+adv:world:26767/main
 ~
 267 8 0 0 0 0
 D0
 ~
-door secret~
-1 26733 26766
+~
+1 0 26766
 S
 #26768
-Outlay~
-   This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you.  You
-see no visible exits.
+Hallway~
+adv:world:26768/main
 ~
 267 8 0 0 0 0
 D2
 ~
-door secret~
-1 26733 26769
+~
+1 0 26769
 S
 #26769
 Waiting Room~
-   This room has nothing but two chair in it, lined with straps.  The walls are
-painted a sterile white, and the air has a hint of fog in it.  There is an
-interrogation center to your west.
+adv:world:26769/main
 ~
 267 8 0 0 0 0
 D3
-You can see the interrogation room.
 ~
 ~
 0 0 26770
 S
 #26770
-Interrogation Center~
-   A long, circular desk forms the central piece of furniture in this room.  A
-huge, stark chair is at the head, while smaller chairs line the rest.  An
-opening in the desk allows a person to be placed in the iron chair with straps
-in the center.  For what purpose, you shu268er to guess.  You can go back into
-the waiting room, or can go south through a teleportation device to the square
-room.
+Interview Room~
+adv:world:26770/main
 ~
 267 8 0 0 0 0
 D1
-You see the waiting room.
 ~
 ~
 0 0 26769
 D2
-You see a teleportation square.
 ~
 ~
 0 0 26778
 S
 #26771
-Office of the Priest of Despair~
-   This plush office is full of every item that could ever please any child.
-From cute little cu268ly kittens to darling, stuffed dolls, they line the
-walls--just out of your reach.  A beautiful chair sits in the mi268le of the
-room, but it's bolted to the ground, and there's a huge spike in the center.
-What sicko would make a room up like this?  You can leave this place through a
-transporter to your east or go back to the waiting room to your west.
+Office of the Monk~
+adv:world:26771/main
 ~
 267 8 0 0 0 0
 D1
-You see a transportation platform.
 ~
 ~
 0 0 26778
 D3
-You see a waiting room.
 ~
 ~
 0 0 26772
 S
 #26772
 Waiting Room~
-   This room has nothing but two chair in it, lined with straps.  The walls are
-painted a sterile white, and the air has a hint of fog in it.  There is an
-office to your east.
+adv:world:26772/main
 ~
 267 8 0 0 0 0
 D3
-You can see the office of the Priest of Despair.
 ~
 ~
 0 0 26770
 S
 #26773
-Outlay~
-   This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you.  You
-see no visible exits.
+Hallway~
+adv:world:26773/main
 ~
 267 8 0 0 0 0
 D0
 ~
-door secret~
-1 26733 26772
+~
+1 0 26772
 S
 #26775
 Alcove~
-   This small alcove has no real interesting quality, save the fact that it has
-a large opening to a tar pit of boggling dimensions.  You can(and should) go
-back to your west.
+adv:world:26775/main
 ~
 267 8 0 0 0 0
 D2
-DON'T GO THAT WAY! It's a tar pit, STUPID! DORK!
 ~
 ~
 0 0 26727
 D3
-You can see the sitting room.
 ~
 ~
 0 0 26776
 S
 #26776
 Sitting Room~
-   Here the Priest of Despair could sit and watch as his prisoners (and hapless
-adventurers were thrown(or stupidly walked into) the tar pit.  Looks as though
-they were thrown in not far from here, as you can see telltale signs of
-scuffling around you.
+adv:world:26776/main
 ~
 267 8 0 0 0 0
 D1
-That's probably as close as you'd want to get to the tar pit.
 ~
 ~
 0 0 26775
 S
 #26777
-Outlay~
-   This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you.  You
-see no visible exits.
+Hallway~
+adv:world:26777/main
 ~
 267 8 0 0 0 0
 D2
 ~
-door secret~
-1 26733 26776
+~
+1 0 26776
 S
 #26778
-Square~
-   Here, there are exits in all directions.  These, however, are no ordinary
-exits.  They're transporter platforms, each designed to be a room to step in to
-go to the designated areas.  A small sign is on a wall at the corner of the
-room.
+Hall of Vamraka~
+adv:world:26778/main
 ~
 267 8 0 0 0 0
 D0
-You see a transporter platform.
 ~
 ~
 0 0 26767
 D1
-You see a transporter platform.
 ~
 ~
 0 0 26779
 D2
-You see a transporter platform.
 ~
 ~
 0 0 26768
 D4
-You can see a transporter platform.
 ~
 ~
 0 0 26773
 D5
-You see a transporter platform.
 ~
 ~
 0 0 26777
 E
 sign note plaque~
-                  YOU HAVE ENTERED THE HALL OF DESPAIR
-               AUTHORIZED PERSONNEL AND PRISONERS ONLY!!!
+adv:world:26777/main
 ~
 S
 #26779
@@ -1589,37 +1336,32 @@ north.  All around you are depictions of people in inescapable situations.
 ~
 267 8 0 0 0 0
 D0
-You can see a transporter platform.
 ~
 ~
 0 0 26778
 D1
-You can see the deserted corridor.
 ~
 ~
 0 0 26781
 D2
-You can see a tarry tunnel.
 ~
 ~
 0 0 26722
 S
 #26780
-Deserted Corridor~
+Corridor~
    A damp, musty hall leads north.  You detect no sounds--in fact, all sounds
 seem to be muted in this strange place.  The air seem thicker and heavier than
 usual.
 ~
 267 8 0 0 0 0
 D0
-You see a deserted corridor.
 ~
 ~
 0 0 26781
 D1
-You see nothing.
 ~
-door secret~
+~
 1 0 26783
 D3
 You can see the entrance to the Hall of Hopelessness.
@@ -1628,24 +1370,21 @@ You can see the entrance to the Hall of Hopelessness.
 0 0 26779
 S
 #26781
-Deserted Corridor~
+Corridor~
    A damp, musty hall leads north and south.  You detect no sounds--in fact,
 all sounds seem to me muted in this strange place.  The air seem thicker and
 heavier than usual.
 ~
 267 8 0 0 0 0
 D0
-You see a deserted corridor.
 ~
 ~
 0 0 26782
 D1
-You see nothing.
 ~
-door secret~
+~
 1 0 26783
 D2
-You see a deserted corridor.
 ~
 ~
 0 0 26780
@@ -1656,19 +1395,17 @@ You can see the entrance to the Hall of Hopelessness.
 0 0 26779
 S
 #26782
-Deserted Corridor~
+Corridor~
    A damp, musty hall leads south.  You detect no sounds--in fact, all sounds
 seem to be muted in this strange place.  The air seem thicker and heavier than
 usual.
 ~
 267 8 0 0 0 0
 D1
-You see nothing.
 ~
-door secret~
+~
 1 0 26783
 D2
-You see a deserted corridor.
 ~
 ~
 1 0 26781
@@ -1686,9 +1423,8 @@ heavier than usual.
 ~
 267 9 0 0 0 0
 D3
-You can see the deserted corridor.
 ~
-door secret~
+~
 1 0 26781
 S
 #26784
@@ -1875,26 +1611,24 @@ You can see a horrid hall to your north.
 S
 #26792
 Entrance to the Office of the High Priest of Terror~
-   This is certainly not your average office--certain telltale signs lead you
+This is certainly not your average office--certain telltale signs lead you
 to this fact.  Perhaps it's the skulls lined up on spikes around the room.
 Or, perhaps the fact that it looks to be several rooms.  You really don't want
 to be here.  You can go south or north...  Neither way looks too comforting.
 ~
 267 8 0 0 0 0
 D0
-You see the strange trail.
 ~
-Trail of terror~
-1 26727 26738
+~
+1 0 26738
 D2
-You can see a hall of wax statues.
 ~
 ~
 0 -1 26791
 S
 #26793
 Hall of Torture~
-   This certainly isn't the entrance to the office...  How does one get back?
+This certainly isn't the entrance to the office...  How does one get back?
 You feel somewhat turned around.  As you look around you, you are overcome with
 nausea as you realize immediately that you shouldn't have.  Many items of
 torture lie around here, some that you'd never imagined could have been invent-
@@ -1903,19 +1637,17 @@ you get back to the entrance), or to the south, into another chambre.
 ~
 267 8 0 0 0 0
 D1
-You see the entrance to the Office of the High Priest of Terror, of course.
 ~
 ~
 0 -1 26792
 D2
-You see a hall with lots of dead bodies around.
 ~
 ~
 0 -1 26794
 S
 #26794
 Hall of Death~
-   Dead bodies lie strewn about here.  They appear to have been killed from the
+Dead bodies lie strewn about here.  They appear to have been killed from the
 devices in the Hall of Torture.  You certainly don't want to think too long
 about it, as they are so mangled you can't tell what they were--whether they
 were human or other.  You can get out of here by going back to the Hall of
@@ -1924,24 +1656,21 @@ Priest to your south.
 ~
 267 8 0 0 0 0
 D0
-You can see the hall of torture.
 ~
 ~
 0 -1 26793
 D1
-You can see the entrance to the Temple of Terror.
 ~
 ~
 0 -1 26797
 D2
-You can see the entrance to the office of the High Priest of Terror.
 ~
-door~
-1 26734 26795
+~
+1 0 26795
 S
 #26795
 Office of the High Priest of Terror~
-   This is probably the most beautiful part of the entire island you have seen.
+This is probably the most beautiful part of the entire island you have seen.
 Amazingly enough, there are no signs of the carnage and disgusting methods of
 torture that can be seen throughout the rest of the buildings you've viewed.
 In fact, this place looks downright natural.  A nice desk made of redwood is
@@ -1951,22 +1680,20 @@ insignia--the cat o' nine tails--is frosted into the only window in the room.
 ~
 267 8 0 0 0 0
 D0
-You, amazingly enough, end right back up at the entrance.
 ~
 ~
 0 0 26792
 E
 chair~
-   The chair is made of redwood, and looks very comfortable.  It also looks VERY
-heavy.
+The chair is made of redwood, and looks very comfortable.  It also looks VERY heavy.
 ~
 E
 sofa~
-   This sofa looks so comfortable, you want to just sink right into it.
+This sofa looks so comfortable, you want to just sink right into it.
 ~
 E
 plaques~
-   These aren't awards--they're decrees and petitions outlining the law of Vice
+These aren't awards--they're decrees and petitions outlining the law of Vice
 Island.  Each one is more severe than the last.  What you basically glean from
 the rules of the land is that while this once was a prosperous island, several
 people began to experiment with dark magic, and began to mu268le in affairs they
@@ -1977,14 +1704,14 @@ emotion, in which all these culminate--Terror.  Not a pretty picture.
 ~
 E
 insignia window~
-   The cat o' nine tails, a whip with multiple straps, apparently is the
+The cat o' nine tails, a whip with multiple straps, apparently is the
 ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
 fatal--whip known.
 ~
 S
 #26797
 Temple of Soma (Entrance)~
-   The entrance to this temple is blinding--that's probably the most noteworthy
+The entrance to this temple is blinding--that's probably the most noteworthy
 point of note.  Flashes of light emenate from a globe in the center of the
 room, causing strange effects in the room.  The room is made from a metal that
 reflects the light like a mirror--but brighter.  You can go to the strange
@@ -1992,61 +1719,55 @@ trail to your north, or on into the temple to your east.
 ~
 267 8 0 0 0 0
 D0
-You can see the strange trail.
 ~
-trail~
-1 26728 26738
+~
+1 0 26738
 D1
-You see a blindingly lit hallway.
 ~
 ~
 0 0 26798
 E
 globe ball light~
-   All the light seems to emenate from this globe.  It's made from material that
+All the light seems to emenate from this globe.  It's made from material that
 looks to come from the sun itself--yet it's cold--very cold.
 ~
 S
 #26798
 Blindingly lit hallway~
-   This east-west hallway is so brightly lit that you can barely see anything.
+This east-west hallway is so brightly lit that you can barely see anything.
 You have to shield your eyes just to see in front of you.  It appears to be
 made from the same metal as the entrance to the building does.  A small room
 opens to your north.
 ~
 267 8 0 0 0 0
 D0
-You see a small shrine to your north.
 ~
 ~
 0 0 26799
 D1
-The hallway continues on.
 ~
 ~
 0 0 26800
 D3
-The entrance to the temple is to your direct west.
 ~
 ~
 0 0 26797
 S
 #26799
 Shrine of Soma~
-   This small shrine contains nothing other than an alter and a small book with
+This small shrine contains nothing other than an alter and a small book with
 the inscription, "You cannot take that which is not yours--but you can have as
 much of it as you want.  "...  You think you hear maniacal cackling somewhere
 around you, but when you turn, you see nothing.
 ~
 267 24 0 0 0 0
 D2
-You see the blindingly lit hallway.
 ~
 ~
 0 0 26798
 E
 alter altar~
-   This small alter looks as if you could bow and pray with relative comfort.
+This small alter looks as if you could bow and pray with relative comfort.
 But you somehow get the feeling you shouldn't bend over.
 ~
 S
