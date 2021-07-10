@@ -38,12 +38,12 @@ Butcher - 26713~
 emote begins sharpening %self.hisher% knife.
 ~
 #26707
-Tar Baby Follow - 26708~
+Budha Baby Follow - 26708~
 0 b 10
 ~
 set actor %random.char%
 if %actor.is_pc%
-  mfollow %actor%
+  follow %actor%
   say Ho ho, hee hee, %actor.name% you are sooo funneeee!
   %send% %actor% %self.name% looks at you with the cutest expression.
   %echoaround% %actor% %self.name% looks at %actor.name% with the cutest expression.
