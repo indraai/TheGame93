@@ -78,7 +78,7 @@ You can just see from the hole in the ground that you are right by a path that l
 S
 #26705
 Beach Road~
-adv:wold:26705/main
+adv:world:26705/main
 ~
 267 5 0 0 0 2
 D1
@@ -94,7 +94,7 @@ You see a well-kept trail.
 S
 #26706
 Soma Road~
-adv:wold:26706/main
+adv:world:26706/main
 ~
 267 4 0 0 0 2
 D1
@@ -110,7 +110,7 @@ The huge Vice Hill lies to your west.
 S
 #26707
 Soma Road~
-adv:wold:26707/main
+adv:world:26707/main
 ~
 267 0 0 0 0 2
 D1
@@ -126,7 +126,7 @@ The creepy road continues west.
 S
 #26708
 Soma Road~
-adv:wold:26708/main
+adv:world:26708/main
 ~
 267 4 0 0 0 2
 D1
@@ -151,7 +151,7 @@ tar.
 S
 #26709
 Soma Hill~
-adv:wold:26709/main
+adv:world:26709/main
 ~
 267 0 0 0 0 4
 D4
@@ -167,7 +167,7 @@ Looking down, you can see the end of the hill.
 S
 #26710
 Soma Hill~
-adv:wold:26710/main
+adv:world:26710/main
 ~
 267 0 0 0 0 4
 D4
@@ -183,7 +183,7 @@ Looking down, you can see the end of the hill.
 S
 #26711
 Tarry Tunnel~
-adv:wold:26711/main
+adv:world:26711/main
 ~
 267 9 0 0 0 0
 D0
@@ -203,7 +203,7 @@ goo tar~
 S
 #26712
 Tarry Tunnel~
-adv:wold:26712/main
+adv:world:26712/main
 ~
 267 9 0 0 0 0
 D0
@@ -223,7 +223,7 @@ goo tar~
 S
 #26713
 Tarry Tunnel~
-adv:wold:26713/main
+adv:world:26713/main
 ~
 267 9 0 0 0 0
 D0
@@ -243,7 +243,7 @@ goo tar~
 S
 #26714
 Tarry Tunnel~
-adv:wold:26714/main
+adv:world:26714/main
 ~
 267 9 0 0 0 0
 D0
@@ -263,7 +263,7 @@ goo tar~
 S
 #26715
 Tarry Tunnel~
-adv:wold:26715/main
+adv:world:26715/main
 ~
 267 9 0 0 0 0
 D0
@@ -283,7 +283,7 @@ goo tar~
 S
 #26716
 Tarry Tunnel~
-adv:wold:26716/main
+adv:world:26716/main
 ~
 267 9 0 0 0 0
 D0
@@ -303,7 +303,7 @@ goo tar~
 S
 #26717
 Tarry Tunnel~
-adv:wold:26717/main
+adv:world:26717/main
 ~
 267 9 0 0 0 0
 D0
@@ -323,7 +323,7 @@ goo tar~
 S
 #26718
 Tarry Tunnel~
-adv:wold:26718/main
+adv:world:26718/main
 ~
 267 9 0 0 0 0
 D0
@@ -343,7 +343,7 @@ goo tar~
 S
 #26719
 Tarry Tunnel~
-adv:wold:26719/main
+adv:world:26719/main
 ~
 267 9 0 0 0 0
 D0
@@ -363,7 +363,7 @@ goo tar~
 S
 #26720
 Tarry Tunnel~
-adv:wold:26720/main
+adv:world:26720/main
 ~
 267 9 0 0 0 0
 D0
@@ -383,7 +383,7 @@ goo tar~
 S
 #26721
 Tarry Tunnel~
-adv:wold:267212672/main
+adv:world:267212672/main
 ~
 267 133 0 0 0 0
 D1
@@ -403,7 +403,7 @@ goo tar~
 S
 #26722
 Tarry Tunnel~
-adv:wold:26722/main
+adv:world:26722/main
 ~
 267 133 0 0 0 0
 D2
@@ -423,7 +423,7 @@ goo tar~
 S
 #26723
 Vice Hill~
-adv:wold:26723/main
+adv:world:26723/main
 ~
 267 4 0 0 0 4
 D0
@@ -454,7 +454,7 @@ You can see a path through the huge trees of the forest.
 S
 #26724
 Tarry Road~
-adv:wold:26724/main
+adv:world:26724/main
 ~
 267 517 0 0 0 2
 D0
@@ -471,7 +471,7 @@ It's much safer to your south. Perhaps you should go back.
 S
 #26725
 Tarry Road~
-adv:wold:26725/main
+adv:world:26725/main
 ~
 267 517 0 0 0 2
 D0
@@ -493,7 +493,7 @@ sign note writings writing inscription inscriptions rune runes~
 S
 #26726
 Tarry Road~
-adv:wold:26726/main
+adv:world:26726/main
 ~
 267 517 0 0 0 2
 D0
@@ -508,7 +508,7 @@ It's big, black, boiling, sticky, and gooey.  What more incintive do you need to
 S
 #26727
 Boiling Tar Pit~
-adv:wold:2672726727/main
+adv:world:2672726727/main
 ~
 267 548 0 0 0 2
 S
