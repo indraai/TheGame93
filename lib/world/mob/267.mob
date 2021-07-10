@@ -47,11 +47,11 @@ A beautiful lady in a pretty beige princess dress.
 8 8 2
 E
 #26705
-rohini lady red queen covenant sisterwives target~
-Rohini, The Queen of The Red Dress~
+rohini lady red princess covenant sisterwives target~
+Rohini, The Red Princess~
 Rohini, The Queen of The Red Dress
 ~
-She is one of the twenty-seven daughters of Daksha who were married King Chandra Deva. She was the favourite and chief consort of Chandra at one time. This enraged his other wives and they complained this to their father. Seeing his daughters unhappy, Daksha cursed Chandra to lose his glory and then stole his house. Because of this King Chandra Deva divorced and imprisoned all his wives with their covenant family.
+A beautiful lady in a pretty red princess dress.
 ~
 220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -59,9 +59,9 @@ She is one of the twenty-seven daughters of Daksha who were married King Chandra
 8 8 2
 E
 #26706
-leader father master covenant ministers target~
-Daksha, The Fat Master~
-Daksha, A very fat master orders his family around.
+leader father sacrifice master covenant ministers target~
+The Fat Master~
+A very fat master orders his family around.
 ~
 Daksha and his wife emerged from the right and left thumbs of Brahma. Daksha got this name as he was talented in producing offerings. This man must have some kind of magic to be able to keep all of these women, because he certainly doesn't have the face for it.  He looks somewhat
 like a cross between a fat man and a goat.
@@ -76,8 +76,7 @@ crab~
 a small, red crab~
 A small, red crab scuttles along the beach.
 ~
-   This small creature has rather large pincers for its negligible size.  It
-looks benign, but probably wouldn't appreciate being attacked.
+This small creature has rather large pincers for its negligible size.  It looks benign, but probably wouldn't appreciate being attacked.
 ~
 88 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
@@ -85,11 +84,11 @@ looks benign, but probably wouldn't appreciate being attacked.
 8 8 0
 E
 #26708
-baby budha~
-The Baby Budha~
-The Baby Budha is here.
+baby budha deva~
+The Baby Budha Deva~
+The Baby Budha Deva is here.
 ~
-Budha the rightful son of Chandra, from the moment of birth, was endued with a splendour that dimmed the radiance of every other divinity.
+Budha Deva the rightful heir/son of Chandra, from the moment of birth, was endued with a splendour that dimmed the radiance of every other divinity.
 ~
 220 0 0 0 16 0 0 0 500 E
 22 13 -3 4d4+220 3d3+3
@@ -110,9 +109,9 @@ Hmm...  It's a Raven, that much you can tell. It doesn't appear to care whether 
 8 8 0
 E
 #26710
-fear minister ministers covenant target~
+fear sacrifice minister ministers covenant target~
 The Minister of Fear~
-The Minister of Fear is walking around, looking rather pompous.
+The Minister of Fear stands here.
 ~
 This incredibly strong person doesn't look like the kind of man you'd want to meet on the street every day.  He certainly inspires fear in your heart. You'd most likely *NOT* want to attempt to kill this man!  He's one mean fellow!
 ~
@@ -123,9 +122,9 @@ This incredibly strong person doesn't look like the kind of man you'd want to me
 E
 T 26705
 #26711
-ghost banshee siren~
-a wailing ghost~
-A wailing ghost floats about the halls.
+deva singing shimmering~
+a shimmering deva~
+A shimmering deva floats about the halls.
 ~
 You look and look but all you can really see is the wall behind it, and a faint outline of something making the wall shimmer.
 ~
@@ -135,14 +134,11 @@ You look and look but all you can really see is the wall behind it, and a faint 
 8 8 0
 E
 #26712
-prisoner cellmate~
-the prisoner~
-A prisoner, locked up for crimes against Fear, is raving here.
+king chandra deva moon~
+King Chandra Deva~
+King Chandra Deva is here.
 ~
-   The prisoner looks at you bravely and shouts, "JUST KILL ME!  I DARE YOU!
-" He looks totally emaciated, as if he hasn't been fed for weeks.  He is dirty
-and almost naked--his rags barely cover him.  He is covered in his own filth.
-Just looking at him makes you want to retch.
+King Chandra Deva is managing his house looking strong and healthy.
 ~
 14 0 0 0 16 0 0 0 -900 E
 24 12 -4 4d4+240 4d4+4
@@ -150,12 +146,11 @@ Just looking at him makes you want to retch.
 8 8 1
 E
 #26713
-butcher~
-the butcher~
-The butcher stands here, waiting for his next kill.
+butcher flesh sacrifice minister ministers covenant target~
+The Minister of Flesh~
+The Butcher stands here, waiting for his next kill.
 ~
-   He's rather ordinary, except for the humongous knife he holds in his hand.
-
+He's rather ordinary, except for the humongous knife he was holding in his hand.
 ~
 10 0 0 0 0 0 0 0 -1000 E
 23 13 -3 4d4+230 3d3+3
@@ -164,15 +159,11 @@ The butcher stands here, waiting for his next kill.
 E
 T 26706
 #26714
-terror high priest~
-the High Priest of Terror~
-The High Priest of Terror stands before you in all her majesty.
+terror sacrifice minister ministers covenant target~
+The Minister of Terror~
+The Minister of Terror is here.
 ~
-   How shocking!  Out of all the types of people you would expect to see in
-this kind of position, you didn't expect to see someone this beautiful and
-kind- looking.  She stands about 2 meters tall, and while she is obviously very
-strong, she is also quite voluptuous.  She looks at you with the most
-sympathetic eyes--you just want to give yourself over to her.
+How shocking!  Out of all the types of people you would expect to see in this kind of position, you didn't expect to see someone this beautiful and kind- looking.  She stands about 2 meters tall, and while she is obviously very strong, she is also quite voluptuous.  She looks at you with the most sympathetic eyes--you just want to give yourself over to her.
 ~
 88 0 0 0 16 0 0 0 -1000 E
 24 12 -4 4d4+240 4d4+4
@@ -181,8 +172,8 @@ sympathetic eyes--you just want to give yourself over to her.
 E
 T 26709
 #26715
-keeper vice~
-the Keeper of the Shrine of Vice~
+vice addiction minister ministers covenant target~
+The ~
 The Keeper of the Shrine of Vice guards the alter from desecration.
 ~
 Keep clear of this guy.
@@ -211,13 +202,11 @@ attacking it.
 5 5 0
 E
 #26717
-torturer man~
-a torturer~
-The torturer stands here, brandishing a cat o' nine tails.
+torture sacrifice minister ministers covenant target~
+The Minister of Torture~
+The Minister of Torture is here.
 ~
-   The torturer looks stark raving mad, to be frank.  He waves his weapon in
-the air with a mad cackle, and looks at you.  With an evil grin, he says, "ah,
-my next victim!  Yessssss" and launches himself at you.
+The torturer looks stark raving mad, to be frank.  He waves his weapon in the air with a mad cackle, and looks at you.  With an evil grin, he says, "ah, my next victim!  Yessssss" and launches himself at you.
 ~
 26 0 0 0 16 0 0 0 -1000 E
 23 13 -3 4d4+230 3d3+3
@@ -225,13 +214,11 @@ my next victim!  Yessssss" and launches himself at you.
 8 8 1
 E
 #26718
-interrogator secretary~
-an interrogator~
-An interrogator sits here, ready to grill you for information.
+interrogator secretary sacrifice minister ministers covenant target~
+a Ministry Interrogator~
+A Ministry Interrogator sits here.
 ~
-   This man is small and frail-looking, but you can tell that he's quite
-dangerous to attack.  He looks at you with steel-rimmed glasses and says,
-"shall ve beegeen?  "
+This man is small and frail-looking, but you can tell that he's quite dangerous to attack.
 ~
 216 0 0 0 0 0 0 0 -1000 E
 22 13 -3 4d4+220 3d3+3
@@ -239,13 +226,11 @@ dangerous to attack.  He looks at you with steel-rimmed glasses and says,
 6 6 1
 E
 #26719
-interrogator inquisitor grand~
-the Grand Inquisitor~
-The Grand Inquisitor of Despair looks you up and down appraisingly.
+despair sacrifice minister ministers covenant target~
+The Minister of Despair~
+The Minister of Despair is here.
 ~
-   This man looks just like the others, except for an uncharacteristic gleam in
-his eye.  He looks quite sinister, as though he expects to get information out
-of you--whether you know it or not.
+This man looks just like the others, except for an uncharacteristic gleam in his eye.  He looks quite sinister, as though he expects to get information out of you--whether you know it or not.
 ~
 216 0 0 0 0 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
@@ -254,12 +239,11 @@ of you--whether you know it or not.
 E
 T 26708
 #26720
-priest hopelessness~
-the Priest of Hopelessness~
-The Priest of Hopelessness stands here, waiting to remove all hope of leaving.
+hopelessness sacrifice minister ministers covenant target~
+The Minister of Hopelessness~
+The Minister of Hopelessness stands here.
 ~
-   The priest looks back at you indignantly and says, "how dare you attempt to
-look at me!?  " and promptly attacks you.
+The priest looks back at you indignantly and says, "how dare you attempt to look at me!?" and promptly attacks you.
 ~
 10 0 0 0 1048576 0 0 0 -1000 E
 23 13 -3 4d4+230 3d3+3
