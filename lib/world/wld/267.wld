@@ -1,11 +1,11 @@
 #26700
-Vice Island Zone Description Room~
+Soma Island Zone Description Room~
 adv:world:26700/main
 ~
 267 0 0 0 0 0
 S
 #26701
-Port Harem~
+Soma Beach~
 adv:world:26701/main
 ~
 267 0 0 0 0 2
@@ -25,7 +25,7 @@ adv:world:26701/beach
 ~
 S
 #26702
-Beachside Harem~
+Soma Beach~
 adv:world:26702/main
 ~
 267 1 0 0 0 4
@@ -62,7 +62,7 @@ To your west you can see a huge mound.
 0 0 26702
 S
 #26704
-Agency: Soma Island~
+Agency: Soma Beach~
 adv:world:26704/main
 ~
 267 184 0 0 0 0
@@ -93,7 +93,7 @@ You see a well-kept trail.
 0 0 26703
 S
 #26706
-Creepy Road~
+Soma Road~
 adv:wold:26706/main
 ~
 267 4 0 0 0 2
@@ -109,7 +109,7 @@ The huge Vice Hill lies to your west.
 0 0 26739
 S
 #26707
-Creepy Road~
+Soma Road~
 adv:wold:26707/main
 ~
 267 0 0 0 0 2
@@ -125,7 +125,7 @@ The creepy road continues west.
 0 0 26706
 S
 #26708
-Creepy Road~
+Soma Road~
 adv:wold:26708/main
 ~
 267 4 0 0 0 2
@@ -212,7 +212,7 @@ The tarry tunnel continues to your north.
 ~
 0 0 26714
 D3
-The tarrry ascends onto a hill to your west.
+The tarry ascends onto a hill to your west.
 ~
 ~
 0 0 26723
