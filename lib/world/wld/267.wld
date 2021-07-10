@@ -1,35 +1,12 @@
 #26700
 Vice Island Zone Description Room~
-   Vice Island is an evil-only area. It's rather large for a medium-sized MUD
-and is intended to be used in concurrence with Oceania.
-This area is intended to be part 1 of 4 subareas I have in mind for Oceania.
-It has mainly evil mobs, and almost all of the equipment in it is evil only.
----------------------------------------------------------------------------
-I make no legal claim on Vice Island save this: You MUST give me credit for
-its design SOMEPLACE in your mud. You can hide it if you want, but I want
-some credit somewhere for it. :) I spent 6 months making Oceania and Vice
-Island, and I feel some need to have it known that my work is appreciated.
----------------------------------------------------------------------------
-Builder      : Questor
-Zone         : 267 Vice Island
-Player Level : 20-25
-Rooms        : 98
-Mobs         : 20
-Objects      : 41
-Triggers     : 9
-Links        :
-Zone 267 is linked to the following zones:
-268 Vice Island II                 at 26797 (west ) ---> 26804
-268 Vice Island II                 at 26798 (east ) ---> 26800
+adv:world:26700/main
 ~
 267 0 0 0 0 0
 S
 #26701
 Port Harem~
-   You stand on a blindingly white beach; it stretches to your north and south
-as far as you can see.  Hundred of beautifuly garbed women of all shades
-languish on the shore; they have stony-dull eyes that stare right past you.
-Something looks not-quite-so-right in this pristine place.
+adv:world:26701/main
 ~
 267 0 0 0 0 2
 D1
@@ -38,23 +15,13 @@ To your east you can see a huge mound of dirt.
 ~
 0 0 26702
 E
-women woman~
-   Each woman is spectacularly beautiful--except for their glazed eyes and
-expressions of utter stupor.  What on earth could be wrong with them?
-~
-E
 sand beach~
-   Close examination of the beach shows that the sand is not only white--each
-and every grain is a single crystal; it reflects the light of the sun into a
-blinding display of bright white.  While each one exhibits a different color,
-they all blend into this pristine color.
+adv:world:26701/beach
 ~
 S
 #26702
 Beachside Harem~
-   Now THIS is weird.  Frightened women scamper out from a hole in a huge mound
-and you can hear screaming from down in the depths.  A large forest lies to
-your east, and a trail can be vaguely seen.
+adv:world:26702/main
 ~
 267 1 0 0 0 4
 D1
@@ -75,12 +42,7 @@ Downwards you can see what looks to be a lush harem.
 S
 #26703
 Beach Road~
-   This path is extremely well-kept.  Small stones line the outer path, and the
-sand from the beach has been lain to make a path--though the crystal seems to
-have been melted down to make the floor harder.  The palm trees here completely
-fill every part of the area outside the path.  Strange noises and utterly
-bone-chilling screams fill the air.  It is very dark here.  The path leads on
-to your west, and a strange mound lies to your east.
+adv:world:26703/main
 ~
 267 1 0 0 0 2
 D1
@@ -95,11 +57,8 @@ To your west you can see a huge mound.
 0 0 26702
 S
 #26704
-Agency: Vice Island~
-   This place is full of imported beauty--lavish Persian rugs, assorted
-priceless vases, and piles of money and jewelry everywhere.  Beautiful, silent
-women dance before you, twirling in silk gowns that barely hide their beauty.
-A sound can be heard over all the racket, shouting, "Keep working!  "
+Agency: Soma Island~
+adv:world:26704/main
 ~
 267 136 0 0 0 0
 D3
@@ -114,12 +73,7 @@ You can just see from the hole in the ground that you are right by a path that l
 S
 #26705
 Beach Road~
-   This path is extremely well-kept.  Small stones line the outer path, and the
-sand from the beach has been lain to make a path--though the crystal seems to
-have been melted down to make the floor harder.  The palm trees here completely
-fill every part of the area outside the path.  Strange noises and utterly
-bone-chilling screams fill the air.  It is very dark here.  A large hill rises
-to your east, and the beach road lies to your west.
+adv:wold:26705/main
 ~
 267 5 0 0 0 2
 D1
@@ -135,9 +89,7 @@ You see a well-kept trail.
 S
 #26706
 Creepy Road~
-   You're not quite sure why, but this road sends shivers down your very spine.
-Perhaps it's the total and complete silence.  Or perhaps it's the skeletons
-strown haphazardly about.  You just don't know.
+adv:wold:26706/main
 ~
 267 4 0 0 0 2
 D1
@@ -150,16 +102,10 @@ The huge Vice Hill lies to your west.
 ~
 ~
 0 0 26739
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
 S
 #26707
 Creepy Road~
-   You're not quite sure why, but this road sends shivers down your very spine.
-Perhaps it's the total and complete silence.  Or perhaps it's the skeletons
-strown haphazardly about.  You just don't know.
+adv:wold:26707/main
 ~
 267 0 0 0 0 2
 D1
@@ -172,17 +118,10 @@ The creepy road continues west.
 ~
 ~
 0 0 26706
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
 S
 #26708
 Creepy Road~
-   You're not quite sure why, but this road sends shivers down your very spine.
-Perhaps it's the total and complete silence.  Or perhaps it's the skeletons
-strown haphazardly about.  You just don't know.  A large building towers above
-you to the east.
+adv:wold:26708/main
 ~
 267 4 0 0 0 2
 D1
@@ -197,7 +136,7 @@ The creepy road continues west.
 0 0 26739
 E
 building~
-   The building is a dark gray shade, but it seems to have been soiled by grimy
+The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
 ~
 E
@@ -206,12 +145,8 @@ skeletons~
 ~
 S
 #26709
-Vice Hill~
-   You are on a tall hill overlooking the entire island.  You can see the
-zenith to your far north; the hill blocks all the view to the north and on.
-To your south, you can see the beginnings of a rock-strewn-path...  Continuing
-further down, you can see the end of the hill.  The forest covers up most of
-the view from here.
+Soma Hill~
+adv:wold:26709/main
 ~
 267 0 0 0 0 4
 D4
@@ -226,12 +161,8 @@ Looking down, you can see the end of the hill.
 0 0 26723
 S
 #26710
-Vice Hill~
-   You are on a tall hill overlooking the entire island.  You can see the
-zenith to your far south; the hill blocks all the view to south and on.  To
-your south, you can see the beginnings of a rock-strewn path...  Continuing
-further down, you can see the end of the hill.  The forest covers up most of
-the view from here.
+Soma Hill~
+adv:wold:26710/main
 ~
 267 0 0 0 0 4
 D4
@@ -247,9 +178,7 @@ Looking down, you can see the end of the hill.
 S
 #26711
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26711/main
 ~
 267 9 0 0 0 0
 D0
@@ -269,9 +198,7 @@ goo tar~
 S
 #26712
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26712/main
 ~
 267 9 0 0 0 0
 D0
@@ -291,9 +218,7 @@ goo tar~
 S
 #26713
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26713/main
 ~
 267 9 0 0 0 0
 D0
@@ -313,9 +238,7 @@ goo tar~
 S
 #26714
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26714/main
 ~
 267 9 0 0 0 0
 D0
@@ -335,9 +258,7 @@ goo tar~
 S
 #26715
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26715/main
 ~
 267 9 0 0 0 0
 D0
@@ -357,9 +278,7 @@ goo tar~
 S
 #26716
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26716/main
 ~
 267 9 0 0 0 0
 D0
@@ -379,9 +298,7 @@ goo tar~
 S
 #26717
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26717/main
 ~
 267 9 0 0 0 0
 D0
@@ -401,9 +318,7 @@ goo tar~
 S
 #26718
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26718/main
 ~
 267 9 0 0 0 0
 D0
@@ -423,9 +338,7 @@ goo tar~
 S
 #26719
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26719/main
 ~
 267 9 0 0 0 0
 D0
@@ -445,9 +358,7 @@ goo tar~
 S
 #26720
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26720/main
 ~
 267 9 0 0 0 0
 D0
@@ -467,9 +378,7 @@ goo tar~
 S
 #26721
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:267212672/main
 ~
 267 133 0 0 0 0
 D1
@@ -489,9 +398,7 @@ goo tar~
 S
 #26722
 Tarry Tunnel~
-   The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance as
-you slowly slog your way through the gunk.
+adv:wold:26722/main
 ~
 267 133 0 0 0 0
 D2
@@ -511,11 +418,7 @@ goo tar~
 S
 #26723
 Vice Hill~
-   You stand at the bottom of a tall hill.  The forestry around you keeps you
-from seeing too much, but you can make out a tarry road to your north, and the
-dark openings of two tunnels to your east and west.  Of course, you could
-always go south up to the relative safety of the hill.  A huge tree here looks
-climbable, and you can vaguely see a net at the top.
+adv:wold:26723/main
 ~
 267 4 0 0 0 4
 D0
@@ -546,9 +449,7 @@ You can see a path through the huge trees of the forest.
 S
 #26724
 Tarry Road~
-   The tarry gunk of the road sticks firmly to your feet here, and it gets
-thicker and thicker as you venture north.  If you go south, you'll probably be
-able to turn back before it's too late.
+adv:wold:26724/main
 ~
 267 517 0 0 0 2
 D0
@@ -565,10 +466,7 @@ It's much safer to your south. Perhaps you should go back.
 S
 #26725
 Tarry Road~
-   The tarry gunk of the road sticks firmly to your feet here, and it gets
-thicker and thicker as you venture south.  If you go north, you'll probably be
-able to turn back before it's too late.  There is a sign on the side of the
-road here.
+adv:wold:26725/main
 ~
 267 517 0 0 0 2
 D0
@@ -590,30 +488,22 @@ sign note writings writing inscription inscriptions rune runes~
 S
 #26726
 Tarry Road~
-   The tar here is so bad that you can't turn around.  There is no natural way
-of escape--either go forward, or don't move at all.  Right ahead of you is a
-bubbling, boiling tar pit--it looks quite disgusting.  PANIC!
+adv:wold:26726/main
 ~
 267 517 0 0 0 2
 D0
-Looks like that would be a VERY bad idea. I don't think you could escape
-that one.
+Looks like that would be a VERY bad idea. I don't think you could escape that one.
 ~
 ~
 0 0 26727
 E
 tar pit tarpit~
-   It's big, black, boiling, sticky, and gooey.  What more incintive do you need
-to stay away from it?
+It's big, black, boiling, sticky, and gooey.  What more incintive do you need to stay away from it?
 ~
 S
 #26727
 Boiling Tar Pit~
-   As you sink one foot into the goo, it sticks.  You try to pull it out, but
-lose your balance, and the other foot gets stuck in the pit.  Try and try as
-you might, you can't get them out!  Each sinks lower and lower until your
-entire legs are encased in the pit.  You scream for help, but no one can hear
-you.
+adv:wold:2672726727/main
 ~
 267 548 0 0 0 2
 S
