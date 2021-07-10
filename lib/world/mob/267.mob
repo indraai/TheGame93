@@ -1,82 +1,75 @@
 #26701
-menaka apsara woman pink~
-Menaka the Apsara~
-Menaka is wearing a pretty pink dress.
+lady pretty pink princess covenant sisterwives target~
+The Lady in Pink~
+The Lady of The Pink Dress
 ~
- My, what beauty. She just gives you delightful stare and without a
-sound continues along.  How strange--her eyes are a very black.
+A beautiful lady in a pretty pink princess dress.
 ~
-260572 0 0 0 26744 0 0 0 0 E
+220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 2
-BareHandAttack: 14
+8 8 0
 E
 #26702
-ghritachi apsara woman~
-Ghritachi the Apsara~
-Ghritachi is wearing a pretty blue dress.
+lady pretty blue princess covenant sisterwives target~
+The Lady in Blue~
+The Lady of The Blue Dress
 ~
-My, what beauty. But she just gives delightful stare and without a sound continues along. How strange her eyes are a very black.
+A beautiful lady in a pretty blue princess dress.
 ~
-260444 0 0 0 26744 0 0 0 0 E
+220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
-BareHandAttack: 14
 E
 #26703
-rambha apsara woman~
-Rambha the Apsara~
-Rambha is wearing a pretty white dress.
+lady pretty white princess covenant sisterwives target~
+the Lady in White~
+The Lady of The White Dress
 ~
- My, what beauty. But she just gives you gentle stare and without a sound continues along. Her eyes are a very mystical.
+A beautiful lady in a pretty white princess dress.
 ~
-260572 0 0 0 26744 0 0 0 0 E
+220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
-BareHandAttack: 5
 E
 #26704
-tilottama apsara woman~
-Tilottama the Apsara~
-Tilottama is wearing a pretty yellow dress.
+lady pretty yellow princess covenant sisterwives target~
+The Lady in Yellow~
+The Lady of the Yellow Dress
 ~
-My, what beauty. But she just gives delightful stare and without a sound continues along.  How strange- her eyes are a very black.  Doesn't seem to work with her beautiful face.
+A beautiful lady in a pretty yellow princess dress.
 ~
-260444 0 0 0 26744 0 0 0 0 E
+220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
-BareHandAttack: 2
 E
 #26705
-urvasi woman apsara~
-Urvasi the Apsara~
-Urvasi is here wearing a pretty red dress.
+rohini lady red queen covenant sisterwives target~
+Rohini, The Queen of The Red Dress~
+Rohini, The Queen of The Red Dress
 ~
-My, what beauty.  But she just gives you a long, delightful glance and without a sound continues along.  How strange her eyes are deep black.
+She is one of the twenty-seven daughters of Daksha who were married King Chandra Deva. She was the favourite and chief consort of Chandra at one time. This enraged his other wives and they complained this to their father. Seeing his daughters unhappy, Daksha cursed Chandra to lose his glory and then stole his house. Because of this King Chandra Deva divorced and imprisoned all his wives with their covenant family.
 ~
-260428 0 0 0 26744 0 0 0 0 E
+220 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
 E
 #26706
-neil leader evil master target asshat vilain~
-Neil Evil Asshat~
-Neil is drinking coffee trying to order people around as usual.
+daksha leader father master covenant ministers target~
+Daksha, The Fat Master~
+Daksha, A very fat master orders his family around.
 ~
-This man must have some kind of confidence. To be able to keep calm while wearing those man panties is just amazing. Because he certainly doesn't have the face or body you'd usually see someone sporting that type of fashion.
-
-He looks somewhat like a cross between a pear, potato, gremlin, a strange bikini model, but without the good looks.
+Daksha and his wife emerged from the right and left thumbs of Brahma. Daksha got this name as he was talented in producing offerings. This man must have some kind of magic to be able to keep all of these women, because he certainly doesn't have the face for it.  He looks somewhat
+like a cross between a fat man and a goat.
 ~
-10 0 0 0 2 0 0 0 -1000 E
+10 0 0 0 16 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
-BareHandAttack: 1
 E
 #26707
 crab~
@@ -92,13 +85,11 @@ looks benign, but probably wouldn't appreciate being attacked.
 8 8 0
 E
 #26708
-baby tar~
-a cuddly little tar baby~
-A cute, cuddly little tar baby is here, ready to follow the first person it sees.
+baby budha~
+the Baby Budha~
+The Baby Budha is here.
 ~
-   Aww, this cute little thing is just COVERED in tar.  It latches on to the
-first sign of human life.  And it's just so cute you can't want to kill it!
-
+Budha the rightful son of Chandra, from the moment of birth, was endued with a splendour that dimmed the radiance of every other divinity.
 ~
 220 0 0 0 16 0 0 0 500 E
 22 13 -3 4d4+220 3d3+3
@@ -107,12 +98,11 @@ first sign of human life.  And it's just so cute you can't want to kill it!
 E
 T 26707
 #26709
-seagull bird~
-a seagull~
-A seagull flies about the cliff.
+raven bird~
+a Raven~
+A Raven flies about.
 ~
-   Hmm...  It's a bird, that much you can tell.  It doesn't appear to care
-whether you look closely at it or not.
+Hmm...  It's a Raven, that much you can tell. It doesn't appear to care whether you look closely at it or not.
 ~
 26 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
@@ -120,27 +110,24 @@ whether you look closely at it or not.
 8 8 0
 E
 #26710
-priest fear~
-the Priest of Fear~
-The Priest of Fear is walking around, looking rather pompous.
+fear minister ministers covenant target~
+The Minister of Fear~
+The Minister of Fear is walking around, looking rather pompous.
 ~
-   This incredibly strong person doesn't look like the kind of man you'd want
-to meet on the street every day.  He certainly inspires fear in your heart.
-You'd most likely *NOT* want to attempt to kill this man!  He's one mean
-fellow!
+This incredibly strong person doesn't look like the kind of man you'd want to meet on the street every day.  He certainly inspires fear in your heart. You'd most likely *NOT* want to attempt to kill this man!  He's one mean fellow!
 ~
 88 0 0 0 16 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
 E
+T 26705
 #26711
 ghost banshee siren~
 a wailing ghost~
 A wailing ghost floats about the halls.
 ~
-   You look and look but all you can really see is the wall behind it, and a
-faint outline of something making the wall shimmer.
+You look and look but all you can really see is the wall behind it, and a faint outline of something making the wall shimmer.
 ~
 248 0 0 0 1122376 0 0 0 -750 E
 24 12 -4 4d4+240 4d4+4
@@ -148,17 +135,19 @@ faint outline of something making the wall shimmer.
 8 8 0
 E
 #26712
-king chandra deva chandradeva soma~
-King Chandra Deva~
-King Chandra Deva is here.
+prisoner cellmate~
+the prisoner~
+A prisoner, locked up for crimes against Fear, is raving here.
 ~
-King Chandra Deva is here looking healthy and strong.
+   The prisoner looks at you bravely and shouts, "JUST KILL ME!  I DARE YOU!
+" He looks totally emaciated, as if he hasn't been fed for weeks.  He is dirty
+and almost naked--his rags barely cover him.  He is covered in his own filth.
+Just looking at him makes you want to retch.
 ~
-256348 0 0 0 26744 0 0 0 900 E
+14 0 0 0 16 0 0 0 -900 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
-BareHandAttack: 7
 E
 #26713
 butcher~
@@ -175,9 +164,9 @@ The butcher stands here, waiting for his next kill.
 E
 T 26706
 #26714
-dewity terror high priestess target~
-Dewity the High Priestess of Terror~
-Dewity, The High Priestess of Terror stands before you in all her majesty.
+terror high priest~
+the High Priest of Terror~
+The High Priest of Terror stands before you in all her majesty.
 ~
    How shocking!  Out of all the types of people you would expect to see in
 this kind of position, you didn't expect to see someone this beautiful and
@@ -190,6 +179,7 @@ sympathetic eyes--you just want to give yourself over to her.
 240 57600
 8 8 2
 E
+T 26709
 #26715
 keeper vice~
 the Keeper of the Shrine of Vice~
@@ -204,10 +194,16 @@ Keep clear of this guy.
 E
 #26716
 dragon terror~
-the Grand Dragon of Terror target~
+the Grand Dragon of Terror~
 The Grand Dragon of Terror rests, curled around a giant pillar in the temple.
 ~
-This dragon is just beautiful.  Its scales are mirror-like in polish. Beautifully-colored wings protrude from the sides.  Unlike most dragons, this actually resembles a snake--except that it's about one-hundred times larger, and certainly is more dangerous.  Sharp teeth extend from the mouth, and wisps of smoke curl from its nose.  It looks at you with infinite intelligence and a little bit of resignation, as though it knows you will eventually get around to attacking it.
+   This dragon is just beautiful.  Its scales are mirror-like in polish.
+Beautifully-colored wings protrude from the sides.  Unlike most dragons, this
+actually resembles a snake--except that it's about one-hundred times larger,
+and certainly is more dangerous.  Sharp teeth extend from the mouth, and wisps
+of smoke curl from its nose.  It looks at you with infinite intelligence and a
+little bit of resignation, as though it knows you will eventually get around to
+attacking it.
 ~
 90 0 0 0 16 0 0 0 -750 E
 24 12 -4 4d4+240 4d4+4
@@ -256,6 +252,7 @@ of you--whether you know it or not.
 250 62500
 8 8 1
 E
+T 26708
 #26720
 priest hopelessness~
 the Priest of Hopelessness~

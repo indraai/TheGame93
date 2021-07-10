@@ -1178,6 +1178,11 @@ Manacles hang from the wall in the back of the cell, and you can see two
 skeletal hands, all that is left of what once must have been a human being.
 ~
 267 525 0 0 0 0
+D0
+You can see the strangely shaped hallway.
+~
+bars cell door~
+1 26713 26753
 E
 manacles legirons irons hands skeletal~
    Two small hands are all that remain of what must have once been a small
@@ -1270,22 +1275,18 @@ corner.  It looks to have an o268 device of some kind in it.
 ~
 S
 #26756
-Deserted Bedroom~
-   This lush chamber looks as if it hasn't been used for centuries.  A bed,
-once beautiful, has cobwebs hanging from its huge canopy.  The room is so dark
-that you can only view certain things even WITH a light.  A dresser is at the
-very back of the room.  You can exit to your north.
+King Chandra Bedroom~
+This lush chamber looks as if it is well cared for.  A bed, beautiful, has a huge canopy.  The room is so dark that you can only view certain things even WITH a light.  A dresser is at the very back of the room.  You can exit to your north.
 ~
 267 9 0 0 0 0
 D0
-You see the creepy hallway.
+You see the hallway.
 ~
 door~
 1 -1 26757
 E
 bed~
-   The bed has a pink/tapia canopy hanging over it, with cobwebs covering its
-entire surface.  The spiders seemed to have a heyday over this one.
+The bed has a plush blue canopy hanging over it.
 ~
 S
 #26757
