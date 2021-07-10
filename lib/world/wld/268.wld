@@ -5,11 +5,6 @@ You have to shield your eyes just to see in front of you.  It appears to be
 made from the same metal as the entrance to the building does.
 ~
 268 8 0 0 0 0
-D0
-You see nothing there. Really. You don't. I promise.
-~
-door secret~
-0 0 26804
 D1
 You see the blindingly bright hallway.
 ~
@@ -102,24 +97,18 @@ Umm...you're dead. You can't look that way. Leave us alone. We're a DT damnit!
 0 0 26802
 S
 #26804
-Grand Temple of Terror~
+Grand Temple of Soma~
    This shrine to terror couldn't be more aptly named.  Elaborately made
 drawings all around the room depict one terrifying act after another.  The
 light is so bright that even though you close your eyes to hide the awful
 sights, you can still see them!  You want to run, but are mesmerized by the
 utter horror of this place.
 ~
-268 8 0 0 0 0
-D1
-You see nothing worth mentioning...
-~
-door secret~
-1 -1 26797
-D2
-You see, strangely enough, a way to the High Priest of Terror's office.
+268 24 0 0 0 0
+D3
 ~
 ~
-0 0 26792
+1 0 26802
 E
 drawings~
    Don't look at them any more closely than you have to!
