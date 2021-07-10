@@ -5,30 +5,30 @@ adv:world:26700/main
 267 0 0 0 0 0
 S
 #26701
-Soma Beach~
+The Beach~
 adv:world:26701/main
 ~
-267 0 0 0 0 2
+267 16 0 0 0 4
 D1
 To your east you can see a huge mound of dirt.
 ~
 ~
 0 0 26702
 E
+sand beach~
+adv:world:26701/beach
+~
+E
 women woman~
    Each woman is spectacularly beautiful--except for their glazed eyes and
 expressions of utter stupor.  What on earth could be wrong with them?
 ~
-E
-sand beach~
-adv:world:26701/beach
-~
 S
 #26702
-Soma Beach~
+The Beach~
 adv:world:26702/main
 ~
-267 1 0 0 0 4
+267 16 0 0 0 4
 D1
 To your east you can see a beach road that leads into the forest.
 ~
@@ -140,13 +140,13 @@ The creepy road continues west.
 ~
 0 0 26739
 E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
+E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
-~
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
 ~
 S
 #26709
@@ -1083,10 +1083,10 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-manacles legirons irons hands skeletal~
-   Two small hands are all that remain of what must have once been a small
-child, or a very small human.  You can see teeth marks where it looks like
-someone was trying to bite their way out.
+cot bed~
+   The cot is made of black.  A mattress made of straw lies on top of it--very
+thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
+walk near it.
 ~
 E
 hole drainage~
@@ -1095,10 +1095,10 @@ a whole lot of imagination to figure out what is supposed to go down in that
 one.
 ~
 E
-cot bed~
-   The cot is made of black.  A mattress made of straw lies on top of it--very
-thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
-walk near it.
+manacles legirons irons hands skeletal~
+   Two small hands are all that remain of what must have once been a small
+child, or a very small human.  You can see teeth marks where it looks like
+someone was trying to bite their way out.
 ~
 S
 #26753
@@ -1236,8 +1236,9 @@ You can see the creepy hallway.
 door~
 1 26732 26757
 E
-cauldron boiling oil~
-   The thing bubbles.  It curdles the brain and sends chills down your spine.
+manacles manacle chain~
+   The manacles are small, and have spikes on the insides of them.  They look
+very painful.
 ~
 E
 iron maidens maiden~
@@ -1245,9 +1246,8 @@ iron maidens maiden~
 it would be an unpleasant experience.
 ~
 E
-manacles manacle chain~
-   The manacles are small, and have spikes on the insides of them.  They look
-very painful.
+cauldron boiling oil~
+   The thing bubbles.  It curdles the brain and sends chills down your spine.
 ~
 S
 #26759
@@ -1956,10 +1956,13 @@ You, amazingly enough, end right back up at the entrance.
 ~
 0 0 26792
 E
-insignia window~
-   The cat o' nine tails, a whip with multiple straps, apparently is the
-ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
-fatal--whip known.
+chair~
+   The chair is made of redwood, and looks very comfortable.  It also looks VERY
+heavy.
+~
+E
+sofa~
+   This sofa looks so comfortable, you want to just sink right into it.
 ~
 E
 plaques~
@@ -1973,13 +1976,10 @@ horrible feelings in life--Despair, Hopelessness, Fear, and the crowning
 emotion, in which all these culminate--Terror.  Not a pretty picture.
 ~
 E
-sofa~
-   This sofa looks so comfortable, you want to just sink right into it.
-~
-E
-chair~
-   The chair is made of redwood, and looks very comfortable.  It also looks VERY
-heavy.
+insignia window~
+   The cat o' nine tails, a whip with multiple straps, apparently is the
+ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
+fatal--whip known.
 ~
 S
 #26797
