@@ -15,6 +15,11 @@ To your east you can see a huge mound of dirt.
 ~
 0 0 26702
 E
+women woman~
+   Each woman is spectacularly beautiful--except for their glazed eyes and
+expressions of utter stupor.  What on earth could be wrong with them?
+~
+E
 sand beach~
 adv:world:26701/beach
 ~
@@ -60,7 +65,7 @@ S
 Agency: Soma Beach~
 adv:world:26704/main
 ~
-267 136 0 0 0 0
+267 184 0 0 0 0
 D3
 ~
 ~
@@ -914,7 +919,7 @@ east, but you can't see anything in the room, because of the darkness.
 Shadows cast weird angles everywhere.  A faded plaque has hangs from a nail in
 a far corner of the room.
 ~
-267 24 0 0 0 0
+267 28 0 0 0 0
 D1
 You can vaguly see some kind of picture or something on one of the walls...
 ~
@@ -1172,7 +1177,7 @@ S
 King Chandra Bedroom~
 This lush chamber looks as if it is well cared for.  A bed, beautiful, has a huge canopy.  The room is so dark that you can only view certain things even WITH a light.  A dresser is at the very back of the room.  You can exit to your north.
 ~
-267 24 0 0 0 0
+267 760 0 0 0 0
 D0
 You see the hallway.
 ~
@@ -1978,7 +1983,7 @@ heavy.
 ~
 S
 #26797
-Entrance to the Temple of Terror~
+Temple of Soma (Entrance)~
    The entrance to this temple is blinding--that's probably the most noteworthy
 point of note.  Flashes of light emenate from a globe in the center of the
 room, causing strange effects in the room.  The room is made from a metal that
@@ -1996,10 +2001,6 @@ You see a blindingly lit hallway.
 ~
 ~
 0 0 26798
-D3
-~
-~
-0 0 26804
 E
 globe ball light~
    All the light seems to emenate from this globe.  It's made from material that
@@ -2031,13 +2032,13 @@ The entrance to the temple is to your direct west.
 0 0 26797
 S
 #26799
-Shrine to Vice~
+Shrine of Soma~
    This small shrine contains nothing other than an alter and a small book with
 the inscription, "You cannot take that which is not yours--but you can have as
 much of it as you want.  "...  You think you hear maniacal cackling somewhere
 around you, but when you turn, you see nothing.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D2
 You see the blindingly lit hallway.
 ~
