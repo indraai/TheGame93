@@ -37,7 +37,7 @@ E
 #26704
 lady pretty beige princess covenant sisterwives target~
 The Lady in Beige~
-The Lady of the Beige Dress
+The Lady of The Beige Dress
 ~
 A beautiful lady in a pretty beige princess dress.
 ~
@@ -47,9 +47,9 @@ A beautiful lady in a pretty beige princess dress.
 8 8 2
 E
 #26705
-rohini lady red princess covenant sisterwives target~
-Rohini, The Red Princess~
-Rohini, The Queen of The Red Dress
+lady red princess covenant sisterwives target~
+The Lady in Red~
+The Lady of The Red Dress
 ~
 A beautiful lady in a pretty red princess dress.
 ~
@@ -61,10 +61,9 @@ E
 #26706
 leader father sacrifice master covenant ministers target~
 The Fat Master~
-A very fat master orders his family around.
+The Fat Master is here.
 ~
-Daksha and his wife emerged from the right and left thumbs of Brahma. Daksha got this name as he was talented in producing offerings. This man must have some kind of magic to be able to keep all of these women, because he certainly doesn't have the face for it.  He looks somewhat
-like a cross between a fat man and a goat.
+The Fat Master look like the cross between a goat and a potato.
 ~
 10 0 0 0 16 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
@@ -148,7 +147,7 @@ E
 #26713
 butcher flesh sacrifice minister ministers covenant target~
 The Minister of Flesh~
-The Butcher stands here, waiting for his next kill.
+The Minister of Flesh (The Butcher) is here.
 ~
 He's rather ordinary, except for the humongous knife he was holding in his hand.
 ~
@@ -173,8 +172,8 @@ E
 T 26709
 #26715
 vice addiction minister ministers covenant target~
-The ~
-The Keeper of the Shrine of Vice guards the alter from desecration.
+The Minister of Vice~
+The Minister of Vice is here.
 ~
 Keep clear of this guy.
 ~
