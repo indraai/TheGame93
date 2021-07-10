@@ -1016,7 +1016,7 @@ shrieks don't make you fly.
 S
 T 26710
 #26745
-Entrance to the Building of Fear~
+House Chandra (Entrance)~
    Low moans seem to come from the walls as you stand before the fallen
 entrance to a huge building.  The walls appear to be made of some kind of gray
 stone-- that, or they have turned gray with age.  A passageway opens to your
@@ -1024,7 +1024,7 @@ east, but you can't see anything in the room, because of the darkness.
 Shadows cast weird angles everywhere.  A faded plaque has hangs from a nail in
 a far corner of the room.
 ~
-267 0 0 0 0 0
+267 24 0 0 0 0
 D1
 You can vaguly see some kind of picture or something on one of the walls...
 ~
@@ -1050,7 +1050,7 @@ enough, the pictures are so realistic, so clear, so true-to-life, that they
 look real.  Even closer examaniation reveals that they`re moving!  You probably
 don't want to stay here long.
 ~
-267 9 0 0 0 0
+267 24 0 0 0 0
 D1
 You see a room filled with trophies.
 ~
@@ -1068,7 +1068,11 @@ Gargoyle Room~
 Suddenly, it seems to come to life and move slightly or was that just a shadow.
 
 ~
-267 516 0 0 0 0
+267 24 0 0 0 0
+D2
+~
+~
+1 0 26748
 E
 gargoyle statue~
    It's a gargoyle, with a large gaping mouth.  Since you shouldn't be able to
@@ -1084,7 +1088,7 @@ room, and a strange room encased in seamless glass on the other half.  Behind
 the altar, a little uneavenness in the wall can be seen, as if someone cut
 perforations through the wall.
 ~
-267 520 0 0 0 0
+267 24 0 0 0 0
 D0
 There's something very strange up ahead. It looks like a huge statue--but you
 can clearly see a gaping maw...no human would ever make something so grotesque.
@@ -1121,7 +1125,7 @@ butcher shop--meat racks, knives of all various and sundry sizes, and other
 assorted meat-preparing items lie strewn around the room.  There is, of course,
 the paltry coatrack, with what look to be strange robes in it.
 ~
-267 9 0 0 0 0
+267 24 0 0 0 0
 D0
 You see the strange trophy room.
 ~
@@ -1134,7 +1138,7 @@ Wailing Tower~
 coming from above you--indeed, you can see a spiral staircase ascending into
 the building.  Should you go up?  You decide.
 ~
-267 525 0 0 0 0
+267 24 0 0 0 0
 D3
 You can see the trophy room.
 ~
@@ -1156,7 +1160,7 @@ On the staircase~
 don't leave this stairwell.  Over and over and over the sounds shriek over you.
 Perhaps you should go up--and quickly.
 ~
-267 525 0 0 0 0
+267 24 0 0 0 0
 D4
 You see a very weirdly shaped hallway.
 ~
@@ -1177,7 +1181,7 @@ the hole, and you can see streaks of rust where the iron bolts have oxidized.
 Manacles hang from the wall in the back of the cell, and you can see two
 skeletal hands, all that is left of what once must have been a human being.
 ~
-267 525 0 0 0 0
+267 236 0 0 0 0
 D0
 You can see the strangely shaped hallway.
 ~
@@ -1210,7 +1214,7 @@ to have something strange about it.  Perhaps it's the strange black tiling at
 certain points around the room.  There are doors leading in almost all
 directions, and the stairs continue on upward.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 You see what looks to be the smoldered remains of a bonfire.
 ~
@@ -1244,7 +1248,7 @@ the room.  The coals are mushy here, and they're everywhere.  They creep
 through the soles of your boots and get caught between your toes.  What a
 disgusting place.  You can exit this gross room to your south.
 ~
-267 9 0 0 0 0
+267 24 0 0 0 0
 D2
 You can see the strangely-shaped hallway.
 ~
@@ -1262,7 +1266,7 @@ Supply Room~
 looted a long time ago.  Some have been shattered to pieces.  You have an exit
 to your west.
 ~
-267 525 0 0 0 0
+267 24 0 0 0 0
 D3
 You can see the strangely-shaped hallway.
 ~
@@ -1278,7 +1282,7 @@ S
 King Chandra Bedroom~
 This lush chamber looks as if it is well cared for.  A bed, beautiful, has a huge canopy.  The room is so dark that you can only view certain things even WITH a light.  A dresser is at the very back of the room.  You can exit to your north.
 ~
-267 9 0 0 0 0
+267 24 0 0 0 0
 D0
 You see the hallway.
 ~
@@ -1296,7 +1300,7 @@ lit by some unknown source in an eerie green light.  The walls are painted a
 bright scarlet red.  Whoever painted this hallway didn't have kindness or
 bunnies and light in mind.  Exits lead in every direction but up.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 You can see the creepy hallway.
 ~
@@ -1324,13 +1328,13 @@ The stairs descend downwards into nothingness.
 0 0 26753
 S
 #26758
-Office of the High Priest of Fear~
+Office of King Chandra~
    This office is hardly the regular office.  The High Priest of Fear is
 obviously into the torture thing, as manacles, iron maidens, and racks line the
 walls.  A boiling cauldron of oil is in the very center of the room.  A door is
 to your west.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D3
 You can see the creepy hallway.
 ~
@@ -1358,7 +1362,7 @@ lit by some unknown source in an eerie green light.  The walls are painted a
 bright scarlet red.  Whoever painted this hallway didn't have kindness or
 bunnies and light in mind.  You can go to your north or south.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 You can't see much in that direction.
 ~
@@ -1376,7 +1380,7 @@ Closet~
 a good idea to try them on.  A stale musty smell has infested everything in
 this small space.
 ~
-267 9 0 0 0 0
+267 24 0 0 0 0
 D2
 You see the creepy hallway.
 ~
@@ -1390,7 +1394,7 @@ lit by some unknown source in an eerie green light.  The walls are painted a
 bright scarlet red.  Whoever painted this hallway didn't have kindness or
 bunnies and light in mind.  You can go to your north or east.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 You see the creepy hallway.
 ~
@@ -1409,7 +1413,7 @@ lit by some unknown source in an eerie green light.  The walls are painted a
 bright scarlet red.  Whoever painted this hallway didn't have kindness or
 bunnies and light in mind.  You can go to your north or south.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 You see the creepy hallway.
 ~
@@ -1428,7 +1432,7 @@ lit by some unknown source in an eerie green light.  The walls are painted a
 bright scarlet red.  Whoever painted this hallway didn't have kindness or
 bunnies and light in mind.  You can go to your south or west.
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D2
 You see the creepy hallway.
 ~
@@ -1449,7 +1453,7 @@ Most of the island is covered in forest, and extends around a huge hill.  The
 far, far north shows some absolutely huge trees, and a rather large, black pool
 of what can only be tar.  You can go back into the building by going east.
 ~
-267 0 0 0 0 1
+267 16 0 0 0 1
 D1
 You see the creepy hallway.
 ~

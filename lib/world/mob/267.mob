@@ -1,23 +1,24 @@
 #26701
 lady pretty pink princess covenant sisterwives target~
-The Lady in Pink~
+the Lady in Pink~
 The Lady of The Pink Dress
 ~
 A beautiful lady in a pretty pink princess dress.
 ~
-220 0 0 0 0 0 0 0 0 E
+6366 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0
+8 8 2
+BareHandAttack: 2
 E
 #26702
 lady pretty blue princess covenant sisterwives target~
-The Lady in Blue~
+the Lady in Blue~
 The Lady of The Blue Dress
 ~
 A beautiful lady in a pretty blue princess dress.
 ~
-220 0 0 0 0 0 0 0 0 E
+6366 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
@@ -29,43 +30,45 @@ The Lady of The White Dress
 ~
 A beautiful lady in a pretty white princess dress.
 ~
-220 0 0 0 0 0 0 0 0 E
+6366 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
+BareHandAttack: 2
 E
 #26704
 lady pretty beige princess covenant sisterwives target~
-The Lady in Beige~
+the Lady in Beige~
 The Lady of The Beige Dress
 ~
 A beautiful lady in a pretty beige princess dress.
 ~
-220 0 0 0 0 0 0 0 0 E
+6366 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
 E
 #26705
 lady red princess covenant sisterwives target~
-The Lady in Red~
+the Lady in Red~
 The Lady of The Red Dress
 ~
 A beautiful lady in a pretty red princess dress.
 ~
-220 0 0 0 0 0 0 0 0 E
+6366 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 2
+BareHandAttack: 2
 E
 #26706
 leader father sacrifice master covenant ministers target~
-The Fat Master~
+the Fat Master~
 The Fat Master is here.
 ~
 The Fat Master look like the cross between a goat and a potato.
 ~
-10 0 0 0 16 0 0 0 -1000 E
+6362 0 0 0 0 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
@@ -84,7 +87,7 @@ This small creature has rather large pincers for its negligible size.  It looks 
 E
 #26708
 baby budha deva~
-The Baby Budha Deva~
+the Baby Budha Deva~
 The Baby Budha Deva is here.
 ~
 Budha Deva the rightful heir/son of Chandra, from the moment of birth, was endued with a splendour that dimmed the radiance of every other divinity.
@@ -109,7 +112,7 @@ Hmm...  It's a Raven, that much you can tell. It doesn't appear to care whether 
 E
 #26710
 fear sacrifice minister ministers covenant target~
-The Minister of Fear~
+the Minister of Fear~
 The Minister of Fear stands here.
 ~
 This incredibly strong person doesn't look like the kind of man you'd want to meet on the street every day.  He certainly inspires fear in your heart. You'd most likely *NOT* want to attempt to kill this man!  He's one mean fellow!
@@ -139,14 +142,14 @@ King Chandra Deva is here.
 ~
 King Chandra Deva is managing his house looking strong and healthy.
 ~
-14 0 0 0 16 0 0 0 -900 E
+260188 0 0 0 26744 0 0 0 -900 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
 E
 #26713
 butcher flesh sacrifice minister ministers covenant target~
-The Minister of Flesh~
+the Minister of Flesh~
 The Minister of Flesh (The Butcher) is here.
 ~
 He's rather ordinary, except for the humongous knife he was holding in his hand.
@@ -159,7 +162,7 @@ E
 T 26706
 #26714
 terror sacrifice minister ministers covenant target~
-The Minister of Terror~
+the Minister of Terror~
 The Minister of Terror is here.
 ~
 How shocking!  Out of all the types of people you would expect to see in this kind of position, you didn't expect to see someone this beautiful and kind- looking.  She stands about 2 meters tall, and while she is obviously very strong, she is also quite voluptuous.  She looks at you with the most sympathetic eyes--you just want to give yourself over to her.
@@ -172,7 +175,7 @@ E
 T 26709
 #26715
 vice addiction minister ministers covenant target~
-The Minister of Vice~
+the Minister of Vice~
 The Minister of Vice is here.
 ~
 Keep clear of this guy.
@@ -202,7 +205,7 @@ attacking it.
 E
 #26717
 torture sacrifice minister ministers covenant target~
-The Minister of Torture~
+the Minister of Torture~
 The Minister of Torture is here.
 ~
 The torturer looks stark raving mad, to be frank.  He waves his weapon in the air with a mad cackle, and looks at you.  With an evil grin, he says, "ah, my next victim!  Yessssss" and launches himself at you.
@@ -226,7 +229,7 @@ This man is small and frail-looking, but you can tell that he's quite dangerous 
 E
 #26719
 despair sacrifice minister ministers covenant target~
-The Minister of Despair~
+the Minister of Despair~
 The Minister of Despair is here.
 ~
 This man looks just like the others, except for an uncharacteristic gleam in his eye.  He looks quite sinister, as though he expects to get information out of you--whether you know it or not.
@@ -239,7 +242,7 @@ E
 T 26708
 #26720
 hopelessness sacrifice minister ministers covenant target~
-The Minister of Hopelessness~
+the Minister of Hopelessness~
 The Minister of Hopelessness stands here.
 ~
 The priest looks back at you indignantly and says, "how dare you attempt to look at me!?" and promptly attacks you.
