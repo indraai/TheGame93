@@ -14,6 +14,14 @@ D1
 ~
 0 0 26702
 E
+<<<<<<< HEAD
+=======
+women woman~
+   Each woman is spectacularly beautiful--except for their glazed eyes and
+expressions of utter stupor.  What on earth could be wrong with them?
+~
+E
+>>>>>>> 1259fe08789f105317995f45a2260721556c307c
 sand beach~
 adv:world:26701/beach
 ~
@@ -110,7 +118,7 @@ S
 Soma Road~
 adv:world:26708/main
 ~
-267 4 0 0 0 2
+267 20 0 0 0 2
 D1
 ~
 ~
@@ -118,11 +126,19 @@ D1
 D3
 ~
 ~
+<<<<<<< HEAD
 0 0 26739
+=======
+0 0 26707
+>>>>>>> 1259fe08789f105317995f45a2260721556c307c
 E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
+~
+E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
 ~
 S
 #26709
@@ -933,6 +949,7 @@ D0
 bars cell door~
 1 26713 26753
 E
+<<<<<<< HEAD
 room space living sleep work entertain~
 adv:world:26752/room
 ~
@@ -951,14 +968,27 @@ adv:world:26752/story
 E
 fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
 adv:world:26752/fridge
+=======
+manacles legirons irons hands skeletal~
+   Two small hands are all that remain of what must have once been a small
+child, or a very small human.  You can see teeth marks where it looks like
+someone was trying to bite their way out.
+>>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 E
 sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
 adv:world:26752/toilet
 ~
 E
+<<<<<<< HEAD
 storage cabinet medicine perfume deodorant~
 adv:world:26752/toilet
+=======
+cot bed~
+   The cot is made of black.  A mattress made of straw lies on top of it--very
+thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
+walk near it.
+>>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 S
 #26753
@@ -1069,16 +1099,27 @@ D3
 ~
 1 0 26757
 E
+<<<<<<< HEAD
 paintings painting~
 adv:world:26758/paintings
+=======
+cauldron boiling oil~
+   The thing bubbles.  It curdles the brain and sends chills down your spine.
+>>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
+<<<<<<< HEAD
 bowl water~
 adv:world:26758/bowl
+=======
+manacles manacle chain~
+   The manacles are small, and have spikes on the insides of them.  They look
+very painful.
+>>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 S
 #26759
@@ -1704,17 +1745,12 @@ emotion, in which all these culminate--Terror.  Not a pretty picture.
 ~
 E
 insignia window~
-The cat o' nine tails, a whip with multiple straps, apparently is the
-ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
-fatal--whip known.
+The cat o' nine tails, a whip with multiple straps, apparently is the ultimate symbol for the Reign of Terror.  It's the most painful sometimes even fatal--whip known.
 ~
 S
 #26797
 Temple of Soma (Entrance)~
-The entrance to this temple is blinding--that's probably the most noteworthy
-point of note.  Flashes of light emenate from a globe in the center of the
-room, causing strange effects in the room.  The room is made from a metal that
-reflects the light like a mirror--but brighter.  You can go to the strange
+The entrance to this temple is blinding that's probably the most noteworthy point of note.  Flashes of light emenate from a globe in the center of the room, causing strange effects in the room.  The room is made from a metal that reflects the light like a mirror but brighter.  You can go to the strange
 trail to your north, or on into the temple to your east.
 ~
 267 8 0 0 0 0
