@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-sand beach~
-adv:world:26701/beach
-~
-E
 ocean water~
 adv:world:26701/water
+~
+E
+sand beach~
+adv:world:26701/beach
 ~
 S
 #26702
@@ -45,7 +45,7 @@ adv:world:26704/look
 0 0 26704
 S
 #26703
-Palace Rd.~
+Beach Blvd.~
 adv:world:26703/main
 ~
 267 16 0 0 0 2
@@ -76,7 +76,7 @@ adv:world:26702/look
 0 0 26702
 S
 #26705
-Palace Rd.~
+Beach Blvd.~
 adv:world:26705/main
 ~
 267 16 0 0 0 2
@@ -139,13 +139,13 @@ The creepy road continues west.
 ~
 0 0 26707
 E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
-E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
+~
+E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
 ~
 S
 #26709
@@ -153,11 +153,10 @@ Soma Hill~
 adv:world:26709/main
 ~
 267 16 0 0 0 4
-D4
-Looking up, you can see the zenith of Vice Hill.
+D0
 ~
 ~
-0 0 26739
+0 0 26710
 D5
 Looking down, you can see the end of the hill.
 ~
@@ -169,16 +168,14 @@ Soma Hill~
 adv:world:26710/main
 ~
 267 16 0 0 0 4
-D4
-Looking up, you can see the zenith of Vice Hill.
+D0
 ~
 ~
 0 0 26739
-D5
-Looking down, you can see the end of the hill.
+D2
 ~
 ~
-0 0 26728
+0 0 26709
 S
 #26711
 Tarry Tunnel~
@@ -421,25 +418,23 @@ goo tar~
 ~
 S
 #26723
-Vice Hill~
+IndraNet Jct.~
 adv:world:26723/main
 ~
-267 4 0 0 0 4
+267 16 0 0 0 4
 D0
-You can see a dangerous-looking tarry road to your north.
 ~
 ~
-0 0 26724
+0 0 26710
 D1
 You can see a dark, tarry tunnel opening to your east.
 ~
 ~
 0 0 26712
 D2
-You see the relative safety of Vice Hill.
 ~
 ~
-0 0 26710
+0 0 26724
 D3
 You can see a dark, tarry tunnel opening to your west.
 ~
@@ -904,7 +899,7 @@ shrieks don't make you fly.
 S
 T 26710
 #26745
-House Soma (Entrance)~
+The Palace~
 adv:world:26745/main
 ~
 267 24 0 0 0 0
@@ -1043,32 +1038,32 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-room space living sleep work entertain~
-adv:world:26752/room
-~
-E
-couch bed futon sleep~
-adv:world:26752/bed
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 E
 sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
 adv:world:26752/toilet
 ~
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+couch bed futon sleep~
+adv:world:26752/bed
+~
+E
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 S
 #26753
@@ -1143,12 +1138,12 @@ You see the hallway.
 door~
 1 -1 26757
 E
-bed canopy~
-adv:world:26756/bed
-~
-E
 dresser~
 adv:world:26756/dresser
+~
+E
+bed canopy~
+adv:world:26756/bed
 ~
 S
 #26757
@@ -1193,16 +1188,16 @@ You can see the creepy hallway.
 door~
 1 26732 26757
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 S
 #26759
@@ -1823,20 +1818,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-chair~
-adv:world:26795/chair
-~
-E
-sofa~
-adv:world:26795/sofa
+insignia window~
+adv:world:26795/insignia
 ~
 E
 plaque plaques~
 adv:world:26795/plaque
 ~
 E
-insignia window~
-adv:world:26795/insignia
+sofa~
+adv:world:26795/sofa
+~
+E
+chair~
+adv:world:26795/chair
 ~
 S
 #26797
