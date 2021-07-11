@@ -178,10 +178,10 @@ D2
 0 0 26709
 S
 #26711
-Deva Hall W.~
+Tarry Tunnel~
 adv:world:26711/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -198,10 +198,10 @@ goo tar~
 ~
 S
 #26712
-Deva Hall E.~
+Tarry Tunnel~
 adv:world:26712/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -218,10 +218,10 @@ goo tar~
 ~
 S
 #26713
-Deva Hall W.~
+Tarry Tunnel~
 adv:world:26713/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -238,10 +238,10 @@ goo tar~
 ~
 S
 #26714
-Deva Hall E.~
+Tarry Tunnel~
 adv:world:26714/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your south.
 ~
@@ -258,10 +258,10 @@ goo tar~
 ~
 S
 #26715
-Deva Hall W.~
+Tarry Tunnel~
 adv:world:26715/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -278,10 +278,10 @@ goo tar~
 ~
 S
 #26716
-Deva Hall E.~
+Tarry Tunnel~
 adv:world:26716/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -298,10 +298,10 @@ goo tar~
 ~
 S
 #26717
-Deva Hall W.~
+Tarry Tunnel~
 adv:world:26717/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -318,10 +318,10 @@ goo tar~
 ~
 S
 #26718
-Deva Hall E.~
+Tarry Tunnel~
 adv:world:26718/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -338,10 +338,10 @@ goo tar~
 ~
 S
 #26719
-Deva Hall W.~
+Tarry Tunnel~
 adv:world:26719/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -358,10 +358,10 @@ goo tar~
 ~
 S
 #26720
-Deva Hall E.~
+Tarry Tunnel~
 adv:world:26720/main
 ~
-267 280 0 0 0 0
+267 9 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -378,10 +378,10 @@ goo tar~
 ~
 S
 #26721
-Deva Hall W.~
-adv:world:26721/main
+Tarry Tunnel~
+adv:world:267212672/main
 ~
-267 280 0 0 0 0
+267 133 0 0 0 0
 D1
 The tarry tunnel opens into a strange building to your east.
 ~
@@ -398,10 +398,10 @@ goo tar~
 ~
 S
 #26722
-Deva Hall E.~
+Tarry Tunnel~
 adv:world:26722/main
 ~
-267 280 0 0 0 0
+267 133 0 0 0 0
 D2
 The tarry tunnel continues to your south.
 ~
@@ -501,14 +501,10 @@ It's big, black, boiling, sticky, and gooey.  What more incintive do you need to
 ~
 S
 #26727
-Fountain of Indu~
+Boiling Tar Pit~
 adv:world:26727/main
 ~
-267 568 0 0 0 0
-D2
-~
-~
-0 0 26775
+267 548 0 0 0 2
 S
 #26728
 Vice Hill~
@@ -1292,13 +1288,19 @@ You see the creepy hallway.
 S
 #26765
 Torture Chambre~
-adv:world:26765/main
+2676
 ~
-267 24 0 0 0 0
-D1
+267 521 0 0 0 0
+D0
+You can see nothing here.
 ~
 ~
-0 0 26766
+0 0 26778
+D2
+You see the screening room.
+~
+door~
+1 -1 26766
 S
 #26766
 Screening Room~
@@ -1325,20 +1327,12 @@ D0
 ~
 door secret~
 1 26733 26766
-D2
-~
-~
-0 0 26778
 S
 #26768
 Outlay~
 adv:world:26768/main
 ~
 267 8 0 0 0 0
-D0
-~
-~
-0 0 26778
 D2
 ~
 door secret~
@@ -1349,10 +1343,6 @@ Waiting Room~
 adv:world:26769/main
 ~
 267 8 0 0 0 0
-D0
-~
-~
-0 0 26768
 D3
 You can see the interview room.
 ~
@@ -1369,6 +1359,11 @@ You see the waiting room.
 ~
 ~
 0 0 26769
+D2
+You see nothing here.
+~
+~
+0 0 26778
 S
 #26771
 Office of the Monk~
@@ -1397,24 +1392,20 @@ D3
 0 0 26770
 S
 #26773
-Idne Hall~
+Outlay~
 adv:world:26773/main
 ~
-267 24 0 0 0 0
+267 8 0 0 0 0
 D0
 ~
 door secret~
 1 26733 26772
-D5
-~
-~
-0 0 26778
 S
 #26775
-Temple of Indu~
+Alcove~
 adv:world:26775/main
 ~
-267 24 0 0 0 0
+267 8 0 0 0 0
 D2
 ~
 ~
@@ -1425,38 +1416,30 @@ D3
 0 0 26776
 S
 #26776
-Indu Hall~
+Sitting Room~
 adv:world:26776/main
 ~
-267 280 0 0 0 0
-D0
-~
-~
-0 0 26777
+267 8 0 0 0 0
 D1
 ~
 ~
 0 0 26775
 S
 #26777
-Indu Hall~
+Outlay~
 adv:world:26777/main
 ~
-267 24 0 0 0 0
+267 8 0 0 0 0
 D2
 ~
 door secret~
 1 26733 26776
-D4
-~
-~
-0 0 26778
 S
 #26778
-Hall of Devas~
+Hall of Vamraka~
 adv:world:26778/main
 ~
-267 24 0 0 0 0
+267 8 0 0 0 0
 D0
 You see nothing here.
 ~
@@ -1472,10 +1455,6 @@ You see nothing here.
 ~
 ~
 0 0 26768
-D3
-~
-~
-1 0 26721
 D4
 You see nothing here.
 ~
@@ -1492,13 +1471,18 @@ adv:world:26778/note
 ~
 S
 #26779
-Deva Hall E.~
+Entrance to the Hall of Hopelessness~
    You stand on a dusty floor in a fallen-down hut.  Just to the east, you can
 see the remains of a deserted corridor.  The entire chamber is empty and devoid
 of anything of any real interest.  You can see an transporter platform to your
 north.  All around you are depictions of people in inescapable situations.
 ~
-267 280 0 0 0 0
+267 8 0 0 0 0
+D0
+You can see a transporter platform.
+~
+~
+0 0 26778
 D1
 You can see the deserted corridor.
 ~
@@ -1509,10 +1493,6 @@ You can see a tarry tunnel.
 ~
 ~
 0 0 26722
-D3
-~
-~
-1 0 26778
 S
 #26780
 Deserted Corridor~
