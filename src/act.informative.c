@@ -507,8 +507,8 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
   else
     /* send room title */
-    send_to_char(ch, "\n# %s\r", world[IN_ROOM(ch)].name);
-    send_to_char(ch, "\n%s\r", CCNRM(ch, C_NRM));
+    send_to_char(ch, "# %s\n\r", world[IN_ROOM(ch)].name);
+  send_to_char(ch, "%s\r\n", CCNRM(ch, C_NRM));
 
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
       ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
@@ -516,7 +516,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
-      send_to_char(ch, "\n%s\r", world[IN_ROOM(ch)].description);
+      send_to_char(ch, "%s\n\r", world[IN_ROOM(ch)].description);
   }
 
   /* autoexits */
@@ -532,14 +532,14 @@ static void look_in_direction(struct char_data *ch, int dir)
 {
   if (EXIT(ch, dir)) {
     if (EXIT(ch, dir)->general_description)
-      send_to_char(ch, "\n%s\r", EXIT(ch, dir)->general_description);
+      send_to_char(ch, "%s", EXIT(ch, dir)->general_description);
     else
-      send_to_char(ch, "\nYou see nothing special.\r");
+      send_to_char(ch, "You see nothing special.\r\n");
 
     if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "\nThe %s is closed.\r", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "The %s is closed.\r\n", fname(EXIT(ch, dir)->keyword));
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "\nThe %s is open.\r", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "The %s is open.\r\n", fname(EXIT(ch, dir)->keyword));
   } else
     send_to_char(ch, "Nothing special there...\r\n");
 }
@@ -705,11 +705,11 @@ ACMD(do_look)
     return;
 
   if (GET_POS(ch) < POS_SLEEPING)
-    send_to_char(ch, "\nYou can't see anything but stars!\r");
+    send_to_char(ch, "You can't see anything but stars!\r\n");
   else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nYou can't see a thing, you're blind!\r");
+    send_to_char(ch, "You can't see a damned thing, you're blind!\r\n");
   else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "\nIt is pitch black...\r");
+    send_to_char(ch, "It is pitch black...\r\n");
     list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
   } else {
     char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
@@ -718,9 +718,9 @@ ACMD(do_look)
 
     if (subcmd == SCMD_READ) {
       if (!*arg)
-	     send_to_char(ch, "\nRead what?\r");
+	send_to_char(ch, "Read what?\r\n");
       else
-	     look_at_target(ch, strcpy(tempsave, arg));
+	look_at_target(ch, strcpy(tempsave, arg));
       return;
     }
     if (!*arg)			/* "look" alone, without an argument at all */
@@ -737,13 +737,13 @@ ACMD(do_look)
 
       for (i = world[IN_ROOM(ch)].ex_description; i; i = i->next) {
         if (*i->keyword != '.') {
-          send_to_char(ch, "\n%s: %s\r",
-          i->keyword, i->description);
+          send_to_char(ch, "%s%s:\r\n%s",
+          (found ? "\r\n" : ""), i->keyword, i->description);
           found = 1;
         }
       }
       if (!found)
-         send_to_char(ch, "\nYou couldn't find anything noticeable.\r");
+         send_to_char(ch, "You couldn't find anything noticeable.\r\n");
     } else
       look_at_target(ch, strcpy(tempsave, arg));
   }
