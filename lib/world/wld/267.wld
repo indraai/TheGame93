@@ -772,38 +772,32 @@ bones have been cleaned to a perfect white.
 S
 #26739
 Palace Rd.~
-   You stand at the zenith of a tall hill overlooking the entire island.  The
-view here would be breathtaking, were it not so sinister.  You can see a gooey,
-tarry brine to your north, and to all other directions a sinister, black forest
-is eerily silent.  If you look very carefully, you can see the harbours to your
-north and east.  The exits descend in all directions.
+adv:world:26739/main
 ~
 267 0 0 0 0 4
 D0
-The hill descends down into a tarry road, filled with the gooey stuff.
+adv:world:26709/look
 ~
 ~
 0 0 26709
 D1
-You can see the creepy road.
+adv:world:26706/look
 ~
 ~
 0 0 26706
 D2
-The road is much more rocky in this direction.
+adv:world:26710/look
 ~
 ~
 0 0 26710
 D3
-You see the strange beach road.
+adv:world:26705/look
 ~
 ~
 0 0 26705
 E
-brine tar goo sinister black forest harbour see view~
-   Nothing describes this island with more clarity than "horror".  All around
-you, you can sense evil, but you can't pinpoint why.  The entire island is quite
-silent--not a chirp can be heard.
+forest ocean sea harbour view~
+adv:world:26739/view
 ~
 S
 #26740
