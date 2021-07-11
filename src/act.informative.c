@@ -507,8 +507,8 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
   else
     /* send room title */
-    send_to_char(ch, "# %s\n\r", world[IN_ROOM(ch)].name);
-  send_to_char(ch, "%s\r\n", CCNRM(ch, C_NRM));
+    send_to_char(ch, "\n# %s\r", world[IN_ROOM(ch)].name);
+    send_to_char(ch, "\n%s\r", CCNRM(ch, C_NRM));
 
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
       ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
@@ -516,7 +516,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
-      send_to_char(ch, "%s\n\r", world[IN_ROOM(ch)].description);
+      send_to_char(ch, "\n%s\n", world[IN_ROOM(ch)].description);
   }
 
   /* autoexits */
@@ -532,16 +532,16 @@ static void look_in_direction(struct char_data *ch, int dir)
 {
   if (EXIT(ch, dir)) {
     if (EXIT(ch, dir)->general_description)
-      send_to_char(ch, "%s", EXIT(ch, dir)->general_description);
+      send_to_char(ch, "\n%s\r", EXIT(ch, dir)->general_description);
     else
-      send_to_char(ch, "You see nothing special.\r\n");
+      send_to_char(ch, "\nYou see nothing special.\r");
 
     if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "The %s is closed.\r\n", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\nThe %s is closed.\r", fname(EXIT(ch, dir)->keyword));
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "The %s is open.\r\n", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\nThe %s is open.\r", fname(EXIT(ch, dir)->keyword));
   } else
-    send_to_char(ch, "Nothing special there...\r\n");
+    send_to_char(ch, "\nNothing special there...\r");
 }
 
 static void look_in_obj(struct char_data *ch, char *arg)
@@ -551,51 +551,50 @@ static void look_in_obj(struct char_data *ch, char *arg)
   int amt, bits;
 
   if (!*arg)
-    send_to_char(ch, "Look in what?\r\n");
-  else if (!(bits = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_ROOM |
-				 FIND_OBJ_EQUIP, ch, &dummy, &obj))) {
-    send_to_char(ch, "There doesn't seem to be %s %s here.\r\n", AN(arg), arg);
+    send_to_char(ch, "\nLook in what?\r");
+  else if (!(bits = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_ROOM | FIND_OBJ_EQUIP, ch, &dummy, &obj))) {
+    send_to_char(ch, "\nThere doesn't seem to be %s %s here.\r", AN(arg), arg);
   } else if ((GET_OBJ_TYPE(obj) != ITEM_DRINKCON) &&
 	     (GET_OBJ_TYPE(obj) != ITEM_FOUNTAIN) &&
 	     (GET_OBJ_TYPE(obj) != ITEM_CONTAINER))
-    send_to_char(ch, "There's nothing inside that!\r\n");
+    send_to_char(ch, "\nThere's nothing inside that!\r");
   else {
     if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
       if (OBJVAL_FLAGGED(obj, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE)))
-	send_to_char(ch, "It is closed.\r\n");
+	send_to_char(ch, "\nIt is closed.\r");
       else {
 	send_to_char(ch, "%s", fname(obj->name));
 	switch (bits) {
-	case FIND_OBJ_INV:
-	  send_to_char(ch, " (carried): \r\n");
-	  break;
-	case FIND_OBJ_ROOM:
-	  send_to_char(ch, " (here): \r\n");
-	  break;
-	case FIND_OBJ_EQUIP:
-	  send_to_char(ch, " (used): \r\n");
-	  break;
+  	case FIND_OBJ_INV:
+  	  send_to_char(ch, " (carried): \r\n");
+  	  break;
+  	case FIND_OBJ_ROOM:
+  	  send_to_char(ch, " (here): \r\n");
+  	  break;
+  	case FIND_OBJ_EQUIP:
+  	  send_to_char(ch, " (used): \r\n");
+  	  break;
 	}
 
 	list_obj_to_char(obj->contains, ch, SHOW_OBJ_SHORT, TRUE);
       }
     } else {		/* item must be a fountain or drink container */
       if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1))
-	send_to_char(ch, "It is empty.\r\n");
+	send_to_char(ch, "\nIt is empty.\r");
       else {
         if (GET_OBJ_VAL(obj, 0) < 0)
         {
           char buf2[MAX_STRING_LENGTH];
           sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-          send_to_char(ch, "It's full of a %s liquid.\r\n", buf2);
+          send_to_char(ch, "\nIt's full of a %s liquid.\r", buf2);
         }
 	else if (GET_OBJ_VAL(obj,1)>GET_OBJ_VAL(obj,0))
-          send_to_char(ch, "Its contents seem somewhat murky.\r\n"); /* BUG */
+          send_to_char(ch, "\nIts contents seem somewhat murky.\r"); /* BUG */
         else {
           char buf2[MAX_STRING_LENGTH];
 	  amt = (GET_OBJ_VAL(obj, 1) * 3) / GET_OBJ_VAL(obj, 0);
 	  sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-	  send_to_char(ch, "It's %sfull of a %s liquid.\r\n", fullness[amt], buf2);
+	  send_to_char(ch, "\nIt's %sfull of a %s liquid.\r", fullness[amt], buf2);
 	}
       }
     }
@@ -640,15 +639,15 @@ static void look_at_target(struct char_data *ch, char *arg)
     look_at_char(found_char, ch);
     if (ch != found_char) {
       if (CAN_SEE(found_char, ch))
-	act("$n looks at you.", TRUE, ch, 0, found_char, TO_VICT);
-      act("$n looks at $N.", TRUE, ch, 0, found_char, TO_NOTVICT);
+	     act("$n looks at you.", TRUE, ch, 0, found_char, TO_VICT);
+       act("$n looks at $N.", TRUE, ch, 0, found_char, TO_NOTVICT);
     }
     return;
   }
 
   /* Strip off "number." from 2.foo and friends. */
   if (!(fnum = get_number(&arg))) {
-    send_to_char(ch, "\nLook at what?\n\r");
+    send_to_char(ch, "\nLook at what?\r");
     return;
   }
 
@@ -662,7 +661,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (j = 0; j < NUM_WEARS && !found; j++)
     if (GET_EQ(ch, j) && CAN_SEE_OBJ(ch, GET_EQ(ch, j)))
       if ((desc = find_exdesc(arg, GET_EQ(ch, j)->ex_description)) != NULL && ++i == fnum) {
-	send_to_char(ch, "\n%s\n\r", desc);
+	send_to_char(ch, "\n%s\r", desc);
 	found = TRUE;
       }
 
@@ -670,7 +669,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\n\r", desc);
+        send_to_char(ch, "\n%s\r", desc);
         found = TRUE;
       }
   }
@@ -679,7 +678,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content)
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\r\n", desc);
+        send_to_char(ch, "\n%s\n", desc);
 	      found = TRUE;
       }
 
@@ -692,7 +691,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "\nYou do not see that here.\n\r");
+    send_to_char(ch, "\nYou do not see that here.\r");
 }
 
 ACMD(do_look)
@@ -705,11 +704,11 @@ ACMD(do_look)
     return;
 
   if (GET_POS(ch) < POS_SLEEPING)
-    send_to_char(ch, "You can't see anything but stars!\r\n");
+    send_to_char(ch, "\nYou can't see anything but stars!\r");
   else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "You can't see a damned thing, you're blind!\r\n");
+    send_to_char(ch, "\nYou can't see a thing, you're blind!\r");
   else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "It is pitch black...\r\n");
+    send_to_char(ch, "\nIt is pitch black...\r");
     list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
   } else {
     char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
@@ -718,9 +717,9 @@ ACMD(do_look)
 
     if (subcmd == SCMD_READ) {
       if (!*arg)
-	send_to_char(ch, "Read what?\r\n");
+	     send_to_char(ch, "\nRead what?\r");
       else
-	look_at_target(ch, strcpy(tempsave, arg));
+	     look_at_target(ch, strcpy(tempsave, arg));
       return;
     }
     if (!*arg)			/* "look" alone, without an argument at all */
@@ -737,13 +736,13 @@ ACMD(do_look)
 
       for (i = world[IN_ROOM(ch)].ex_description; i; i = i->next) {
         if (*i->keyword != '.') {
-          send_to_char(ch, "%s%s:\r\n%s",
-          (found ? "\r\n" : ""), i->keyword, i->description);
+          send_to_char(ch, "\n%s: %s\r",
+          i->keyword, i->description);
           found = 1;
         }
       }
       if (!found)
-         send_to_char(ch, "You couldn't find anything noticeable.\r\n");
+         send_to_char(ch, "\nYou couldn't find anything noticeable.\r");
     } else
       look_at_target(ch, strcpy(tempsave, arg));
   }
@@ -758,7 +757,7 @@ ACMD(do_examine)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "Examine what?\r\n");
+    send_to_char(ch, "\nExamine what?\r");
     return;
   }
 
@@ -772,7 +771,7 @@ ACMD(do_examine)
     if ((GET_OBJ_TYPE(tmp_object) == ITEM_DRINKCON) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_FOUNTAIN) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_CONTAINER)) {
-      send_to_char(ch, "When you look inside, you see:\r\n");
+      send_to_char(ch, "\nWhen you look inside, you see:\r");
       look_in_obj(ch, arg);
     }
   }
@@ -781,11 +780,11 @@ ACMD(do_examine)
 ACMD(do_gold)
 {
   if (GET_GOLD(ch) == 0)
-    send_to_char(ch, "You're broke!\r\n");
+    send_to_char(ch, "\nYou're broke!\r");
   else if (GET_GOLD(ch) == 1)
-    send_to_char(ch, "You have one miserable little gold coin.\r\n");
+    send_to_char(ch, "\nYou have one gold coin.\r");
   else
-    send_to_char(ch, "You have %d gold coins.\r\n", GET_GOLD(ch));
+    send_to_char(ch, "\nYou have %d gold coins.\r", GET_GOLD(ch));
 }
 
 ACMD(do_score)
@@ -981,7 +980,7 @@ ACMD(do_time)
       break;
     }
   }
-  send_to_char(ch, "date: %s - %s %d, %d.\r\n",
+  send_to_char(ch, "\ndate: %s - %s %d, %d.\r",
     weekdays[weekday],
     month_name[time_info.month],
 	  day,
@@ -1002,7 +1001,7 @@ ACMD(do_weather)
 
   if (OUTSIDE(ch))
     {
-    send_to_char(ch, "The sky is %s and %s.\r\n", sky_look[weather_info.sky],
+    send_to_char(ch, "\nThe sky is %s and %s.\r", sky_look[weather_info.sky],
 	    weather_info.change >= 0 ? "you feel a warm wind from south" :
 	     "your foot tells you bad weather is due");
     if (GET_LEVEL(ch) >= LVL_DEVA)
@@ -1013,7 +1012,7 @@ ACMD(do_weather)
                  sky_look[weather_info.sky]);
     }
   else
-    send_to_char(ch, "You have no feeling about the weather at all.\r\n");
+    send_to_char(ch, "\nYou have no feeling about the weather at all.\r");
 }
 
 /* puts -'s instead of spaces */
@@ -1064,7 +1063,7 @@ ACMD(do_help)
   skip_spaces(&argument);
 
   if (!help_table) {
-    send_to_char(ch, "No help available.\r\n");
+    send_to_char(ch, "\nNo help available.\r");
     return;
   }
 
@@ -1079,7 +1078,7 @@ ACMD(do_help)
   space_to_minus(argument);
 
   if ((mid = search_help(argument, GET_LEVEL(ch))) == NOWHERE) {
-    send_to_char(ch, "There is no help on that word.\r\n");
+    send_to_char(ch, "\nThere is no help on that word.\r");
     mudlog(NRM, MIN(LVL_IMPL, GET_INVIS_LEV(ch)), TRUE,
       "%s tried to get help on %s", GET_NAME(ch), argument);
     for (i = 0; i < top_of_helpt; i++)  {
@@ -1090,10 +1089,10 @@ ACMD(do_help)
         continue;
       if (levenshtein_distance(argument, help_table[i].keywords) <= 2) {
         if (!found) {
-          send_to_char(ch, "\r\nDid you mean:\r\n");
+          send_to_char(ch, "\nDid you mean:\r");
           found = 1;
         }
-        send_to_char(ch, "  \t<send link=\"Help %s\">%s\t</send>\r\n", help_table[i].keywords, help_table[i].keywords);
+        send_to_char(ch, "\n<send link=\"Help %s\">%s</send>\r", help_table[i].keywords, help_table[i].keywords);
       }
     }
     return;
@@ -1102,7 +1101,7 @@ ACMD(do_help)
 }
 
 #define WHO_FORMAT \
-"Usage: who [minlev[-maxlev]] [-n name] [-c classlist] [-k] [-l] [-n] [-q] [-r] [-s] [-z]\r\n"
+"\nUsage: who [minlev[-maxlev]] [-n name] [-c classlist] [-k] [-l] [-n] [-q] [-r] [-s] [-z]\r"
 
 /* Written by Rhade */
 ACMD(do_who)
@@ -1335,19 +1334,19 @@ ACMD(do_who)
   if (short_list && num_can_see % 4)
     send_to_char(ch, "\r\n");
   if (!num_can_see)
-    send_to_char(ch, "Nobody at all!\r\n");
+    send_to_char(ch, "\nNobody at all!\r");
   else if (num_can_see == 1)
-    send_to_char(ch, "One lonely character displayed.\r\n");
+    send_to_char(ch, "\nOne lonely character displayed.\r");
   else
-    send_to_char(ch, "%d characters displayed.\r\n", num_can_see);
+    send_to_char(ch, "\n%d characters displayed.\r", num_can_see);
 
   if (IS_HAPPYHOUR > 0){
-    send_to_char(ch, "It's a Happy Hour! Type \tRhappyhour\tW to see the current bonuses.\r\n");
+    send_to_char(ch, "\nIt's a Happy Hour! Type [happyhour] to see the current bonuses.\r");
   }
 }
 
 #define USERS_FORMAT \
-"format: users [-l minlevel[-maxlevel]] [-n name] [-h host] [-c classlist] [-o] [-p]\r\n"
+"\nformat: users [-l minlevel[-maxlevel]] [-n name] [-h host] [-c classlist] [-o] [-p]\r"
 
 ACMD(do_users)
 {
@@ -1472,9 +1471,9 @@ ACMD(do_users)
 	state, idletime, timestr);
 
     if (*d->host)
-      sprintf(line + strlen(line), "[%s]\r\n", d->host);
+      sprintf(line + strlen(line), "\n[%s]\r", d->host);
     else
-      strcat(line, "[Hostname unknown]\r\n");
+      strcat(line, "\n[Hostname unknown]\r");
 
     if (STATE(d) != CON_PLAYING) {
       sprintf(line2, "%s%s%s", CCGRN(ch, C_SPR), line, CCNRM(ch, C_SPR));
@@ -1486,14 +1485,14 @@ ACMD(do_users)
     }
   }
 
-  send_to_char(ch, "\r\n%d visible sockets connected.\r\n", num_can_see);
+  send_to_char(ch, "\n%d visible sockets connected.\r", num_can_see);
 }
 
 /* Generic page_string function for displaying text */
 ACMD(do_gen_ps)
 {
   if (IS_NPC(ch)) {
-    send_to_char(ch, "Not for mobiles!\r\n");
+    send_to_char(ch, "\nNot for mobiles!\r");
     return;
   }
 
@@ -1531,10 +1530,10 @@ ACMD(do_gen_ps)
     send_to_char(ch, "\033[H\033[J");
     break;
   case SCMD_VERSION:
-    send_to_char(ch, "%s\r\n", tbamud_version);
+    send_to_char(ch, "\n%s\r", tbamud_version);
     break;
   case SCMD_WHOAMI:
-    send_to_char(ch, "%s\r\n", GET_NAME(ch));
+    send_to_char(ch, "\n%s\r", GET_NAME(ch));
     break;
   default:
     log("SYSERR: Unhandled case in do_gen_ps. (%d)", subcmd);
@@ -1566,7 +1565,7 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
 	continue;
       if (world[IN_ROOM(ch)].zone != world[IN_ROOM(i)].zone)
 	continue;
-      send_to_char(ch, "%-20s%s - %s%s\r\n", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
+      send_to_char(ch, "\n%-20s%s - %s%s\r", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
     }
   } else {			/* print only FIRST char, not all. */
     for (i = character_list; i; i = i->next) {
@@ -1576,10 +1575,10 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
 	continue;
       if (!isname(arg, i->player.name))
 	continue;
-      send_to_char(ch, "%-25s%s - %s%s\r\n", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
+      send_to_char(ch, "\n%-25s%s - %s%s\r", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
       return;
     }
-    send_to_char(ch, "Nobody around by that name.\r\n");
+    send_to_char(ch, "\nNobody around by that name.\r");
   }
 }
 
@@ -1599,7 +1598,7 @@ static void print_object_location(int num, struct obj_data *obj, struct char_dat
   }
 
   if (IN_ROOM(obj) != NOWHERE)
-    send_to_char(ch, "[%5d] %s%s\r\n", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name, QNRM);
+    send_to_char(ch, "\n[%5d] %s%s\r", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name, QNRM);
   else if (obj->carried_by)
     send_to_char(ch, "carried by %s%s\r\n", PERS(obj->carried_by, ch), QNRM);
   else if (obj->worn_by)

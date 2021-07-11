@@ -10,7 +10,7 @@ adv:world:26701/main
 ~
 267 16 0 0 0 4
 D1
-To your east you can see a huge mound of dirt.
+adv:world:26702/look
 ~
 ~
 0 0 26702
@@ -19,9 +19,8 @@ sand beach~
 adv:world:26701/beach
 ~
 E
-women woman~
-   Each woman is spectacularly beautiful--except for their glazed eyes and
-expressions of utter stupor.  What on earth could be wrong with them?
+ocean water~
+adv:world:26701/water
 ~
 S
 #26702
@@ -30,17 +29,17 @@ adv:world:26702/main
 ~
 267 16 0 0 0 4
 D1
-To your east you can see a beach road that leads into the forest.
+adv:world:26703/look
 ~
 ~
 0 0 26703
 D3
-You can see the blindingly bright white beach to your east.
+adv:world:26701/look
 ~
 ~
 0 0 26701
 D5
-Downwards you can see what looks to be a lush harem.
+adv:world:26704/look
 ~
 ~
 0 0 26704
@@ -51,12 +50,12 @@ adv:world:26703/main
 ~
 267 1 0 0 0 2
 D1
-The beach road continues on.
+adv:world:26705/look
 ~
 ~
 0 0 26705
 D3
-To your west you can see a huge mound.
+adv:world:25702/look
 ~
 ~
 0 0 26702
@@ -71,7 +70,7 @@ D3
 ~
 1 0 3162
 D4
-You can just see from the hole in the ground that you are right by a path that leads into the woods.
+adv:world:26702/look
 ~
 ~
 0 0 26702
@@ -1747,83 +1746,61 @@ quite strong, and supportable.  You don't need to fear being on it at all.
 S
 #26790
 Port by the Forest~
-   You are at an extremely weird dock.  It's raised high on stilts on one
-side-- apparently keeping you from falling off of a cliff.  Netting starts out
-to your south, keeping you from falling through the trees.  You can see a large
-tar pit to your south--good thing there's that netting to keep you from falling
-into it.
+adv:world:26790/main
 ~
 267 0 0 0 0 1
 D2
-The netting begins to your south.
+adv:world:26789/look
 ~
 ~
 0 0 26789
 S
 #26791
 Hall of Wax~
-   Gory statues line this hall--statues of all kinds of torture, from the most
-mundane iron-maiden experience to the more imaginative things one can do with a
-cat-of-nine tails and razors.  The thing that makes these statues most
-uncomfortable to look at is the fact that they are made from wax--and look so
-lifelike you can almost see them screaming in terror.  Do you see one move?
-No, it must be your mind playing tricks on you.
+adv:world:26791/main
 ~
 267 9 0 0 0 0
 D0
-You can see a horrid hall to your north.
+adv:world:26793/look
 ~
 ~
 0 0 26793
 S
 #26792
 Entrance to the Office of the High Priest of Terror~
-   This is certainly not your average office--certain telltale signs lead you
-to this fact.  Perhaps it's the skulls lined up on spikes around the room.
-Or, perhaps the fact that it looks to be several rooms.  You really don't want
-to be here.  You can go south or north...  Neither way looks too comforting.
+adv:world:26792/main
 ~
 267 8 0 0 0 0
 D0
-You see the strange trail.
+adv:world:26738/look
 ~
 Trail of terror~
 1 26727 26738
 D2
-You can see a hall of wax statues.
+adv:world:26791/look
 ~
 ~
 0 -1 26791
 S
 #26793
 Hall of Torture~
-   This certainly isn't the entrance to the office...  How does one get back?
-You feel somewhat turned around.  As you look around you, you are overcome with
-nausea as you realize immediately that you shouldn't have.  Many items of
-torture lie around here, some that you'd never imagined could have been invent-
-ed.  Certainly not by a sane person.  You can go to your east(oh, so that's how
-you get back to the entrance), or to the south, into another chambre.
+adv:world:26793/main
 ~
 267 8 0 0 0 0
 D1
-You see the entrance to the Office of the High Priest of Terror, of course.
+adv:world:26792/look
 ~
 ~
 0 -1 26792
 D2
-You see a hall with lots of dead bodies around.
+adv:world:26794/look
 ~
 ~
 0 -1 26794
 S
 #26794
 Hall of Death~
-   Dead bodies lie strewn about here.  They appear to have been killed from the
-devices in the Hall of Torture.  You certainly don't want to think too long
-about it, as they are so mangled you can't tell what they were--whether they
-were human or other.  You can get out of here by going back to the Hall of
-Torture, to the Temple of Terror to your east, or to the Office of the High
-Priest to your south.
+adv:world:26794/main
 ~
 267 8 0 0 0 0
 D0
