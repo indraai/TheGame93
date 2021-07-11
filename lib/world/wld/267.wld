@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-ocean water~
-adv:world:26701/water
-~
-E
 sand beach~
 adv:world:26701/beach
+~
+E
+ocean water~
+adv:world:26701/water
 ~
 S
 #26702
@@ -139,43 +139,50 @@ The creepy road continues west.
 ~
 0 0 26707
 E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
+E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
 ~
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
 S
 #26709
-Soma Hill~
+Deva Hill~
 adv:world:26709/main
 ~
 267 16 0 0 0 4
 D0
 ~
 ~
-0 0 26710
-D5
-Looking down, you can see the end of the hill.
-~
-~
 0 0 26723
+D1
+~
+~
+0 0 26728
+D2
+~
+~
+0 0 26710
+D3
+~
+~
+0 0 26740
 S
 #26710
-Soma Hill~
+Deva Hill~
 adv:world:26710/main
 ~
 267 16 0 0 0 4
 D0
 ~
 ~
-0 0 26739
+0 0 26709
 D2
 ~
 ~
-0 0 26709
+0 0 26739
 S
 #26711
 Deva Hall W.~
@@ -402,30 +409,29 @@ Deva Hall E.~
 adv:world:26722/main
 ~
 267 280 0 0 0 0
+D0
+~
+~
+0 0 26779
 D2
 The tarry tunnel continues to your south.
 ~
 ~
 0 0 26720
 D3
-The tarry tunnel opens into a strange building to your west.
 ~
 ~
-0 0 26779
+0 0 26778
 E
 goo tar~
    The tar looks disgusting, but not too dangerous.
 ~
 S
 #26723
-IndraNet Jct.~
+Deva Hill~
 adv:world:26723/main
 ~
 267 16 0 0 0 4
-D0
-~
-~
-0 0 26710
 D1
 You can see a dark, tarry tunnel opening to your east.
 ~
@@ -434,7 +440,7 @@ You can see a dark, tarry tunnel opening to your east.
 D2
 ~
 ~
-0 0 26724
+0 0 26709
 D3
 You can see a dark, tarry tunnel opening to your west.
 ~
@@ -517,12 +523,7 @@ it still looks quite sinister.  You notice a rocky road to your south, and you
 can ascend the hill to take a look around you.  A road hangs a bit above you to
 your left by no supports!  Hmm...  A beautifuly made road is to your west.
 ~
-267 0 0 0 0 4
-D0
-You can see the beautiful Vice Hill.
-~
-~
-0 0 26709
+267 16 0 0 0 4
 D1
 You can see a very strange road to your east. Worth exploring? Probably.
 ~
@@ -534,10 +535,9 @@ You see a slippery-looking rocky road to your south.
 ~
 0 0 26740
 D3
-A beautifuly made, well-kept path is to your west.
 ~
 ~
-0 0 26729
+0 0 26709
 D4
 Of course, you should ascend a hill, right?
 ~
@@ -545,24 +545,23 @@ Of course, you should ascend a hill, right?
 0 0 26730
 S
 #26729
-High Path~
+High Road~
    This road is amazingly built--some sort of black onyxlike substance, shined
 to a mirror-like gleam forms the main of the path.  Bricks of the same
 substance line the path--it doesn't look as if a piece of paper could be
 inserted between them.  The trees have been trimmed back to allow easy passage.
 Even among all this beauty, you sense a sinister presence.
 ~
-267 5 0 0 0 1
-D1
-To your east you can see the bottom of Vice Hill.
+267 16 0 0 0 5
+D0
 ~
 ~
-0 0 26728
+0 0 26731
 D2
 The high path continues on.
 ~
 ~
-0 0 26731
+0 0 26741
 S
 #26730
 Trail of Terror~
@@ -590,24 +589,24 @@ bones have been cleaned to a perfect white.
 ~
 S
 #26731
-High Path~
+High Road~
    This road is amazingly built--some sort of blax onyxlike substance, shined
 to a mirror-like gleam forms the main of the path.  Bricks of the same
 substance line the path--it doesn't look as if a piece of paper could be
 inserted between them.  The trees have been trimmed back to allow easy passage.
 Even among all this beauty, you sense a sinister presence.
 ~
-267 5 0 0 0 1
+267 16 0 0 0 5
 D0
 The high path continues on.
 ~
 ~
-0 0 26729
+0 0 26733
 D2
 The high path continues on.
 ~
 ~
-0 0 26733
+0 0 26729
 S
 #26732
 Trail of Terror~
@@ -635,7 +634,7 @@ bones have been cleaned to a perfect white.
 ~
 S
 #26733
-High Path~
+High Road~
    This road is amazingly built--some sort of blax onyxlike substance, shined
 to a mirror-like gleam forms the main of the path.  Bricks of the same
 substance line the path--it doesn't look as if a piece of paper could be
@@ -643,13 +642,11 @@ inserted between them.  The trees have been trimmed back to allow easy passage.
 Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
-D0
-The high path continues on.
+D2
 ~
 ~
 0 0 26731
-D2
-The high path continues on.
+D3
 ~
 ~
 0 0 26735
@@ -680,7 +677,7 @@ bones have been cleaned to a perfect white.
 ~
 S
 #26735
-High Path~
+High Road~
    This road is amazingly built--some sort of blax onyxlike substance, shined
 to a mirror-like gleam forms the main of the path.  Bricks of the same
 substance line the path--it doesn't look as if a piece of paper could be
@@ -688,8 +685,7 @@ inserted between them.  The trees have been trimmed back to allow easy passage.
 Even among all this beauty, you sense a sinister presence.
 ~
 267 5 0 0 0 1
-D0
-The high path continues on.
+D1
 ~
 ~
 0 0 26733
@@ -725,14 +721,14 @@ bones have been cleaned to a perfect white.
 ~
 S
 #26737
-High Path~
+High Road~
    This road is amazingly built--some sort of blax onyxlike substance, shined
 to a mirror-like gleam forms the main of the path.  Bricks of the same
 substance line the path--it doesn't look as if a piece of paper could be
 inserted between them.  The trees have been trimmed back to allow easy passage.
 Even among all this beauty, you sense a sinister presence.
 ~
-267 5 0 0 0 1
+267 16 0 0 0 5
 D0
 The high path continues on.
 ~
@@ -775,20 +771,14 @@ adv:world:26739/main
 ~
 267 16 0 0 0 2
 D0
-adv:world:26709/look
 ~
 ~
-0 0 26709
+0 0 26710
 D1
 adv:world:26706/look
 ~
 ~
 0 0 26706
-D2
-adv:world:26710/look
-~
-~
-0 0 26710
 D3
 adv:world:26705/look
 ~
@@ -806,14 +796,12 @@ looks like a dropoff into absolute nothingness.  Rocks skitter as you slide
 around the road.  It really looks quite dangerous--the hill would be a much
 safer way to look at the view.
 ~
-267 0 0 0 0 5
-D0
-You can see the bottom of Vice Hill to your north. It looks comparatively safe.
+267 16 0 0 0 5
+D1
 ~
 ~
-0 0 26728
-D2
-The cliff road continues on, though I suggest you don't take it.
+0 0 26709
+D3
 ~
 ~
 0 0 26741
@@ -830,14 +818,16 @@ looks like a dropoff into absolute nothingness.  Rocks skitter as you slide
 around the road.  It really looks quite dangerous--you'd be much better going
 back--now.
 ~
-267 0 0 0 0 5
+267 16 0 0 0 5
 D0
-You can still go back--it's a better idea to anyways.
+~
+~
+0 0 26729
+D1
 ~
 ~
 0 0 26740
-D2
-You ARE one for taking risks, aren't you?
+D3
 ~
 ~
 0 0 26742
@@ -853,14 +843,12 @@ like a dropoff into absolute nothingness.  Rocks skitter as you slide around
 the road.  It really looks quite dangerous--you'd be much better going
 back--now.
 ~
-267 0 0 0 0 5
-D0
-You can still go back--it's a better idea to anyways.
+267 16 0 0 0 5
+D1
 ~
 ~
 0 0 26741
-D2
-Don't say we didn't warn you. It's a cliff allright. A big and unsteady one.
+D3
 ~
 ~
 0 0 26743
@@ -876,9 +864,8 @@ it much better.  Each step brings you closer to the edge--it looks very danger-
 ous, and the cliff's edge is quite close now.  The ground is beginning to shake
 under your weight.
 ~
-267 0 0 0 0 5
-D0
-You can still go back--it's a better idea to anyways.
+267 16 0 0 0 5
+D1
 ~
 ~
 0 0 26742
@@ -894,14 +881,17 @@ consequences.
 ~
 S
 #26744
-Cliff's Edge~
+The Edge~
    The view is never better when you're seeing it from mid-air.  But you've
 only got a few seconds to see it, as you're squashed down below.  Too bad
 shrieks don't make you fly.
 ~
-267 516 0 0 0 5
+267 16 0 0 0 5
+D0
+~
+~
+0 0 26743
 S
-T 26710
 #26745
 The Palace~
 adv:world:26745/main
@@ -1042,36 +1032,36 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
-~
-E
-sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
-adv:world:26752/toilet
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 E
 couch bed futon sleep~
 adv:world:26752/bed
 ~
 E
-room space living sleep work entertain~
-adv:world:26752/room
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
+adv:world:26752/toilet
+~
+E
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 S
 #26753
-Hallway of Flow~
+Spiral Stairs~
 adv:world:26753/main
 ~
 267 24 0 0 0 0
@@ -1088,7 +1078,7 @@ door~
 D2
 You see the bars of what is obviously a prison cell.
 ~
-door~
+Prison~
 1 26713 26752
 D4
 The stairs ascend upwards.
@@ -1103,7 +1093,7 @@ The stairs ascend downwards.
 S
 #26754
 Indu's Room~
-adv:world:27654/main
+adv:world:26754/main
 ~
 267 24 0 0 0 0
 D2
@@ -1132,7 +1122,7 @@ adv:world:26755/crates
 ~
 S
 #26756
-King Soma Bedroom~
+Master Bedroom~
 adv:world:26756/main
 ~
 267 760 0 0 0 0
@@ -1142,12 +1132,12 @@ You see the hallway.
 door~
 1 -1 26757
 E
-dresser~
-adv:world:26756/dresser
-~
-E
 bed canopy~
 adv:world:26756/bed
+~
+E
+dresser~
+adv:world:26756/dresser
 ~
 S
 #26757
@@ -1163,12 +1153,12 @@ You can see the creepy hallway.
 D1
 You can see a door.
 ~
-door~
-1 26732 26758
+Office~
+1 -1 26758
 D2
 You can see a door.
 ~
-door~
+Bedroom~
 1 -1 26756
 D3
 You can see the creepy hallway.
@@ -1182,7 +1172,7 @@ The stairs descend downwards into nothingness.
 0 0 26753
 S
 #26758
-King Soma Office~
+Home Office~
 adv:world:26758/main
 ~
 267 24 0 0 0 0
@@ -1190,18 +1180,18 @@ D3
 You can see the creepy hallway.
 ~
 door~
-1 26732 26757
+1 0 26757
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 S
 #26759
@@ -1212,7 +1202,7 @@ adv:world:26759/main
 D0
 You can't see much in that direction.
 ~
-closet~
+Closet~
 1 -1 26760
 D2
 You see the creepy hallway.
@@ -1317,10 +1307,10 @@ You see the chamber.
 1 -1 26765
 S
 #26767
-Outlay~
+Vamraka Hall~
 adv:world:26767/main
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 ~
 door secret~
@@ -1331,10 +1321,10 @@ D2
 0 0 26778
 S
 #26768
-Outlay~
+Soma Hall~
 adv:world:26768/main
 ~
-267 8 0 0 0 0
+267 280 0 0 0 0
 D0
 ~
 ~
@@ -1453,7 +1443,7 @@ D4
 0 0 26778
 S
 #26778
-Hall of Devas~
+Temple of the Devas~
 adv:world:26778/main
 ~
 267 24 0 0 0 0
@@ -1499,8 +1489,7 @@ of anything of any real interest.  You can see an transporter platform to your
 north.  All around you are depictions of people in inescapable situations.
 ~
 267 280 0 0 0 0
-D1
-You can see the deserted corridor.
+D0
 ~
 ~
 0 0 26781
@@ -1509,10 +1498,6 @@ You can see a tarry tunnel.
 ~
 ~
 0 0 26722
-D3
-~
-~
-1 0 26778
 S
 #26780
 Deserted Corridor~
@@ -1559,11 +1544,6 @@ You see a deserted corridor.
 ~
 ~
 0 0 26780
-D3
-You can see the entrance to the Hall of Hopelessness.
-~
-~
-0 0 26779
 S
 #26782
 Deserted Corridor~
@@ -1573,20 +1553,14 @@ usual.
 ~
 267 8 0 0 0 0
 D1
-You see nothing.
 ~
-door secret~
-1 0 26783
+~
+0 0 26783
 D2
 You see a deserted corridor.
 ~
 ~
 1 0 26781
-D3
-You can see the entrance to the Hall of Hopelessness.
-~
-~
-0 0 26779
 S
 #26783
 Dark Room~
@@ -1736,9 +1710,12 @@ S
 Hall of Wax~
 adv:world:26791/main
 ~
-267 9 0 0 0 0
+267 24 0 0 0 0
 D0
-adv:world:26793/look
+~
+~
+0 0 26735
+D3
 ~
 ~
 0 0 26793
@@ -1807,20 +1784,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-insignia window~
-adv:world:26795/insignia
-~
-E
-plaque plaques~
-adv:world:26795/plaque
+chair~
+adv:world:26795/chair
 ~
 E
 sofa~
 adv:world:26795/sofa
 ~
 E
-chair~
-adv:world:26795/chair
+plaque plaques~
+adv:world:26795/plaque
+~
+E
+insignia window~
+adv:world:26795/insignia
 ~
 S
 #26797
