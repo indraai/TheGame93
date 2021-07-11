@@ -14,14 +14,6 @@ D1
 ~
 0 0 26702
 E
-<<<<<<< HEAD
-=======
-women woman~
-   Each woman is spectacularly beautiful--except for their glazed eyes and
-expressions of utter stupor.  What on earth could be wrong with them?
-~
-E
->>>>>>> 1259fe08789f105317995f45a2260721556c307c
 sand beach~
 adv:world:26701/beach
 ~
@@ -126,11 +118,7 @@ D1
 D3
 ~
 ~
-<<<<<<< HEAD
-0 0 26739
-=======
 0 0 26707
->>>>>>> 1259fe08789f105317995f45a2260721556c307c
 E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
@@ -949,7 +937,6 @@ D0
 bars cell door~
 1 26713 26753
 E
-<<<<<<< HEAD
 room space living sleep work entertain~
 adv:world:26752/room
 ~
@@ -968,27 +955,14 @@ adv:world:26752/story
 E
 fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
 adv:world:26752/fridge
-=======
-manacles legirons irons hands skeletal~
-   Two small hands are all that remain of what must have once been a small
-child, or a very small human.  You can see teeth marks where it looks like
-someone was trying to bite their way out.
->>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 E
 sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
 adv:world:26752/toilet
 ~
 E
-<<<<<<< HEAD
 storage cabinet medicine perfume deodorant~
 adv:world:26752/toilet
-=======
-cot bed~
-   The cot is made of black.  A mattress made of straw lies on top of it--very
-thin, and certainly not comfortable.  Rats scuttle underneath the bed as you
-walk near it.
->>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 S
 #26753
@@ -1099,27 +1073,16 @@ D3
 ~
 1 0 26757
 E
-<<<<<<< HEAD
 paintings painting~
 adv:world:26758/paintings
-=======
-cauldron boiling oil~
-   The thing bubbles.  It curdles the brain and sends chills down your spine.
->>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-<<<<<<< HEAD
 bowl water~
 adv:world:26758/bowl
-=======
-manacles manacle chain~
-   The manacles are small, and have spikes on the insides of them.  They look
-very painful.
->>>>>>> 1259fe08789f105317995f45a2260721556c307c
 ~
 S
 #26759
