@@ -1582,158 +1582,127 @@ door secret~
 1 0 26781
 S
 #26784
-Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so you
-may walk along it without fear of falling.  This is probably best, as you are
-extremely high up from the ground.  You hear birds chirping right by you, and
-feel very peaceful here--that is, as long as you are in the trees.  You may go
-north or down.
+Indra Network~
+adv:world:26784/main
 ~
 267 0 0 0 0 3
 D0
-The netting continues through the trees here.
+adv:world:26785/look
 ~
 ~
 0 0 26785
 D5
-You can see the bottom of Vice Hill from here.
+adv:world:26723/look
 ~
 ~
 0 0 26723
 E
-netting~
-   The netting is firm, and made from some extremely tough substance--it looks
-quite strong, and supportable.  You don't need to fear being on it at all.
+netting net network indranet~
+adv:world:26784/network
 ~
 S
 #26785
-Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so you
-may walk along it without fear of falling.  This is probably best, as you are
-extremely high up from the ground.  You hear birds chirping right by you, and
-feel very peaceful here--that is, as long as you are in the trees.  You may go
-north or south on through the trees.
+Indra Network~
+adv:world:26785/main
 ~
 267 0 0 0 0 3
 D0
-The netting continues through the trees here.
+adv:world:26786/look
 ~
 ~
 0 0 26786
 D2
-The netting continues through the trees here.
+adv:world:26784/look
 ~
 ~
 0 0 26784
 E
-netting~
-   The netting is firm, and made from some extremely tough substance--it looks
-quite strong, and supportable.  You don't need to fear being on it at all.
+netting net network indranet~
+adv:world:26785/network
 ~
 S
 #26786
-Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so you
-may walk along it without fear of falling.  This is probably best, as you are
-extremely high up from the ground.  You hear birds chirping right by you, and
-feel very peaceful here--that is, as long as you are in the trees.  You may go
-north or south on through the trees.
+Indra Network~
+adv:world:26786/main
 ~
 267 0 0 0 0 3
 D0
-The netting continues through the trees here.
+adv:world:26787/look
 ~
 ~
 0 0 26787
 D2
-The netting continues through the trees here.
+adv:world:26785/look
 ~
 ~
 0 0 26785
 E
-netting~
-   The netting is firm, and made from some extremely tough substance--it looks
-quite strong, and supportable.  You don't need to fear being on it at all.
+netting net network indranet~
+adv:world:26784/network
 ~
 S
 #26787
-Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so you
-may walk along it without fear of falling.  This is probably best, as you are
-extremely high up from the ground.  You hear birds chirping right by you, and
-feel very peaceful here--that is, as long as you are in the trees.  You may go
-north or south on through the trees.  You can see a very dangerous tar pit
-right below you.
+Indra Network~
+adv:world:26787/main
 ~
 267 0 0 0 0 3
 D0
-The netting continues through the trees here.
+adv:world:26788/look
 ~
 ~
 0 0 26788
 D2
-The netting continues through the trees here.
+adv:world:26786/look
 ~
 ~
 0 0 26786
 E
-netting~
-   The netting is firm, and made from some extremely tough substance--it looks
-quite strong, and supportable.  You don't need to fear being on it at all.
+netting network net indranet~
+adv:world:26787/network
 ~
 S
 #26788
-Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so you
-may walk along it without fear of falling.  This is probably best, as you are
-extremely high up from the ground.  You hear birds chirping right by you, and
-feel very peaceful here--that is, as long as you are in the trees.  You may go
-north or south on through the trees.
+Indra Network~
+adv:world:26788/main
 ~
 267 0 0 0 0 3
 D0
-The netting continues through the trees here.
+adv:world:26789/look
 ~
 ~
 0 0 26789
 D2
-The netting continues through the trees here.
+adv:world:26787/look
 ~
 ~
 0 0 26787
 E
-netting~
-   The netting is firm, and made from some extremely tough substance--it looks
-quite strong, and supportable.  You don't need to fear being on it at all.
+netting net network indranet~
+adv:world:26788/network
 ~
 S
 #26789
-Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so you
-may walk along it without fear of falling.  This is probably best, as you are
-extremely high up from the ground.  You hear birds chirping right by you, and
-feel very peaceful here--that is, as long as you are in the trees.  You may go
-north to a dock, or south on through the trees.
+Indra Network~
+adv:world:26789/main
 ~
 267 0 0 0 0 3
 D0
-The netting ends at a dock.
+adv:world:26790/look
 ~
 ~
 0 0 26790
 D2
-The netting continues through the trees here.
+adv:world:26788/look
 ~
 ~
 0 0 26788
 E
-netting~
-   The netting is firm, and made from some extremely tough substance--it looks
-quite strong, and supportable.  You don't need to fear being on it at all.
+net netting indranet network~
+adv:world:26789/network
 ~
 S
 #26790
-Port by the Forest~
+Indra Network - Access Port~
 adv:world:26790/main
 ~
 267 0 0 0 0 1
