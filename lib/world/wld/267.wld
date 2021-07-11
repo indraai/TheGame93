@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-ocean water~
-adv:world:26701/water
-~
-E
 sand beach~
 adv:world:26701/beach
+~
+E
+ocean water~
+adv:world:26701/water
 ~
 S
 #26702
@@ -139,13 +139,13 @@ The creepy road continues west.
 ~
 0 0 26707
 E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
+E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
-~
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
 ~
 S
 #26709
@@ -178,10 +178,10 @@ D2
 0 0 26709
 S
 #26711
-Tarry Tunnel~
+Vamraka Tunnel~
 adv:world:26711/main
 ~
-267 9 0 0 0 0
+267 265 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -379,7 +379,7 @@ goo tar~
 S
 #26721
 Tarry Tunnel~
-adv:world:267212672/main
+adv:world:26721/main
 ~
 267 133 0 0 0 0
 D1
@@ -1038,32 +1038,32 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
-~
-E
-sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
-adv:world:26752/toilet
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 E
 couch bed futon sleep~
 adv:world:26752/bed
 ~
 E
-room space living sleep work entertain~
-adv:world:26752/room
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
+adv:world:26752/toilet
+~
+E
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 S
 #26753
@@ -1138,12 +1138,12 @@ You see the hallway.
 door~
 1 -1 26757
 E
-dresser~
-adv:world:26756/dresser
-~
-E
 bed canopy~
 adv:world:26756/bed
+~
+E
+dresser~
+adv:world:26756/dresser
 ~
 S
 #26757
@@ -1188,16 +1188,16 @@ You can see the creepy hallway.
 door~
 1 26732 26757
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 S
 #26759
@@ -1478,11 +1478,6 @@ of anything of any real interest.  You can see an transporter platform to your
 north.  All around you are depictions of people in inescapable situations.
 ~
 267 8 0 0 0 0
-D0
-You can see a transporter platform.
-~
-~
-0 0 26778
 D1
 You can see the deserted corridor.
 ~
@@ -1493,6 +1488,10 @@ You can see a tarry tunnel.
 ~
 ~
 0 0 26722
+D3
+~
+~
+1 0 26778
 S
 #26780
 Deserted Corridor~
@@ -1787,20 +1786,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-insignia window~
-adv:world:26795/insignia
-~
-E
-plaque plaques~
-adv:world:26795/plaque
+chair~
+adv:world:26795/chair
 ~
 E
 sofa~
 adv:world:26795/sofa
 ~
 E
-chair~
-adv:world:26795/chair
+plaque plaques~
+adv:world:26795/plaque
+~
+E
+insignia window~
+adv:world:26795/insignia
 ~
 S
 #26797
