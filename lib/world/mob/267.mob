@@ -80,10 +80,11 @@ A small, white bunny hops along.
 ~
 This small rabbit has rather large ears for its negligible size.  It looks happy, but probably love a little pat or hug.
 ~
-88 0 0 0 0 0 0 0 0 E
+6360 0 0 0 10304 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 0
+BareHandAttack: 9
 E
 #26708
 baby budha deva~
