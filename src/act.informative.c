@@ -505,7 +505,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       send_to_char(ch, "]");
     }
   }
-  else {
+  else 
     /* send room title */
     send_to_char(ch, "\n# %s\r", world[IN_ROOM(ch)].name);
     send_to_char(ch, "\n%s\r", CCNRM(ch, C_NRM));
