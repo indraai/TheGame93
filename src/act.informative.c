@@ -490,7 +490,6 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     send_to_char(ch, "\nYou see nothing but infinite darkness...\r");
     return;
   }
-  send_to_char(ch, "%s", CCCYN(ch, C_NRM));
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS)) {
     char buf[MAX_STRING_LENGTH];
 
@@ -507,8 +506,8 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
   else
     /* send room title */
-    send_to_char(ch, "# %s\n\r", world[IN_ROOM(ch)].name);
-  send_to_char(ch, "%s\r\n", CCNRM(ch, C_NRM));
+    send_to_char(ch, "\n# %s\r", world[IN_ROOM(ch)].name);
+    send_to_char(ch, "\n%s\r", CCNRM(ch, C_NRM));
 
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
       ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
