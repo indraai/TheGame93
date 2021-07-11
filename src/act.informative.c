@@ -532,16 +532,16 @@ static void look_in_direction(struct char_data *ch, int dir)
 {
   if (EXIT(ch, dir)) {
     if (EXIT(ch, dir)->general_description)
-      send_to_char(ch, "%s", EXIT(ch, dir)->general_description);
+      send_to_char(ch, "\n%s\r", EXIT(ch, dir)->general_description);
     else
-      send_to_char(ch, "You see nothing special.\r\n");
+      send_to_char(ch, "\nYou see nothing special.\r");
 
     if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "The %s is closed.\r\n", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\nThe %s is closed.\r", fname(EXIT(ch, dir)->keyword));
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "The %s is open.\r\n", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\nThe %s is open.\r", fname(EXIT(ch, dir)->keyword));
   } else
-    send_to_char(ch, "Nothing special there...\r\n");
+    send_to_char(ch, "\nNothing special there...\r");
 }
 
 static void look_in_obj(struct char_data *ch, char *arg)
@@ -705,11 +705,11 @@ ACMD(do_look)
     return;
 
   if (GET_POS(ch) < POS_SLEEPING)
-    send_to_char(ch, "You can't see anything but stars!\r\n");
+    send_to_char(ch, "\nYou can't see anything but stars!\r");
   else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "You can't see a damned thing, you're blind!\r\n");
+    send_to_char(ch, "\nYou can't see a damned thing, you're blind!\r");
   else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "It is pitch black...\r\n");
+    send_to_char(ch, "\nIt is pitch black...\r");
     list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
   } else {
     char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
@@ -718,7 +718,7 @@ ACMD(do_look)
 
     if (subcmd == SCMD_READ) {
       if (!*arg)
-	send_to_char(ch, "Read what?\r\n");
+	send_to_char(ch, "\nRead what?\r");
       else
 	look_at_target(ch, strcpy(tempsave, arg));
       return;
@@ -743,7 +743,7 @@ ACMD(do_look)
         }
       }
       if (!found)
-         send_to_char(ch, "You couldn't find anything noticeable.\r\n");
+         send_to_char(ch, "\nYou couldn't find anything noticeable.\r");
     } else
       look_at_target(ch, strcpy(tempsave, arg));
   }
