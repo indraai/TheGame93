@@ -912,12 +912,12 @@ S
 T 26710
 #26745
 House Soma (Entrance)~
-adv:world:27656/main
+adv:world:27645/main
 267
 ~
 267 28 0 0 0 0
 D1
-You can vaguely see some kind of picture or something on one of the walls...
+There is picture or something on one of the walls...
 ~
 ~
 0 0 26746
@@ -963,6 +963,7 @@ adv:world:26747/statue
 S
 #26748
 Trophy Room~
+adv:world:26748/main
 ~
 267 24 0 0 0 0
 D0
@@ -1826,130 +1827,102 @@ Priest to your south.
 ~
 267 8 0 0 0 0
 D0
-You can see the hall of torture.
+adv:world:26793/look
 ~
 ~
 0 -1 26793
 D1
-You can see the entrance to the Temple of Terror.
+adv:world:26797/look
 ~
 ~
 0 -1 26797
 D2
-You can see the entrance to the office of the High Priest of Terror.
+adv:world:26795/look
 ~
 door~
 1 26734 26795
 S
 #26795
-Office of the High Priest of Terror~
-   This is probably the most beautiful part of the entire island you have seen.
-Amazingly enough, there are no signs of the carnage and disgusting methods of
-torture that can be seen throughout the rest of the buildings you've viewed.
-In fact, this place looks downright natural.  A nice desk made of redwood is
-the frontpiece of the room, and a high-backed chair is behind it.  A plush sofa
-is in front of it, and plaques and other credentials line the walls.  An
-insignia--the cat o' nine tails--is frosted into the only window in the room.
+Office of the King~
+adv:world:26795/main
 ~
 267 8 0 0 0 0
 D0
-You, amazingly enough, end right back up at the entrance.
+adv:world:26792/look
 ~
 ~
 0 0 26792
 E
 chair~
-   The chair is made of redwood, and looks very comfortable.  It also looks VERY
-heavy.
+adv:world:26795/chair
 ~
 E
 sofa~
-   This sofa looks so comfortable, you want to just sink right into it.
+adv:world:26795/sofa
 ~
 E
-plaques~
-   These aren't awards--they're decrees and petitions outlining the law of Vice
-Island.  Each one is more severe than the last.  What you basically glean from
-the rules of the land is that while this once was a prosperous island, several
-people began to experiment with dark magic, and began to mu268le in affairs they
-had no business in.  Eventually, the island became nothing more than a place for
-several delvers to take up shop--and build a religion based mostly on the most
-horrible feelings in life--Despair, Hopelessness, Fear, and the crowning
-emotion, in which all these culminate--Terror.  Not a pretty picture.
+plaque plaques~
+adv:world:26795/plaque
 ~
 E
 insignia window~
-   The cat o' nine tails, a whip with multiple straps, apparently is the
-ultimate symbol for the Reign of Terror.  It's the most painful--sometimes even
-fatal--whip known.
+adv:world:26795/insignia
 ~
 S
 #26797
 Temple of Soma (Entrance)~
-   The entrance to this temple is blinding--that's probably the most noteworthy
-point of note.  Flashes of light emenate from a globe in the center of the
-room, causing strange effects in the room.  The room is made from a metal that
-reflects the light like a mirror--but brighter.  You can go to the strange
-trail to your north, or on into the temple to your east.
+adv:world:26797/main
 ~
 267 8 0 0 0 0
 D0
-You can see the strange trail.
+adv:world:26738/look
 ~
 trail~
 1 26728 26738
 D1
-You see a blindingly lit hallway.
+adv:world:26798/look
 ~
 ~
 0 0 26798
 E
 globe ball light~
-   All the light seems to emenate from this globe.  It's made from material that
-looks to come from the sun itself--yet it's cold--very cold.
+adv:world:26797/light
 ~
 S
 #26798
-Blindingly lit hallway~
-   This east-west hallway is so brightly lit that you can barely see anything.
-You have to shield your eyes just to see in front of you.  It appears to be
-made from the same metal as the entrance to the building does.  A small room
-opens to your north.
+Bright Hallway~
+adv:world:26798/main
 ~
 267 8 0 0 0 0
 D0
-You see a small shrine to your north.
+adv:world:26799/look
 ~
 ~
 0 0 26799
 D1
-The hallway continues on.
+adv:world:26800/look
 ~
 ~
 0 0 26800
 D3
-The entrance to the temple is to your direct west.
+adv:world:26797/look
 ~
 ~
 0 0 26797
 S
 #26799
 Shrine of Soma~
-   This small shrine contains nothing other than an alter and a small book with
-the inscription, "You cannot take that which is not yours--but you can have as
-much of it as you want.  "...  You think you hear maniacal cackling somewhere
-around you, but when you turn, you see nothing.
+adv:world:2679926799/main
 ~
 267 24 0 0 0 0
 D2
-You see the blindingly lit hallway.
+adv:world:26798/look
 ~
 ~
 0 0 26798
 E
-alter altar~
-   This small alter looks as if you could bow and pray with relative comfort.
-But you somehow get the feeling you shouldn't bend over.
+shrine alter altar~
+adv:world:26799/shrine
 ~
 S
 $~
