@@ -252,11 +252,6 @@ ACMD(do_title);
 ACMD(do_visible);
 
 // Commands added Jul 12, 2021
-ACMD(do_compassion);
-ACMD(do_consider);
-ACMD(do_kindness);
-ACMD(do_listen);
-
 
 /*****************************************************************************
  * Begin Functions and defines for act.social.c

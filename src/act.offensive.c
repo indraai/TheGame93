@@ -21,19 +21,6 @@
 #include "fight.h"
 #include "mud_event.h"
 
-ACMD(do_compassion) {
-  send_to_char(ch, "YOU ARE LEARNING TO SHOW COMPASSION.");
-}
-ACMD(do_consider) {
-  send_to_char(ch, "YOU ARE LEARNING TO SHOW CONSIDERATION.");
-}
-ACMD(do_kindness) {
-  send_to_char(ch, "YOU ARE LEARNING TO SHOW KINDNESS");
-}
-ACMD(do_listen) {
-  send_to_char(ch, "YOU ARE LEARNING TO LISTEN");
-}
-
 ACMD(do_assist)
 {
   char arg[MAX_INPUT_LENGTH];
