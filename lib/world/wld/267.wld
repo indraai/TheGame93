@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-ocean water~
-adv:world:26701/water
-~
-E
 sand beach~
 adv:world:26701/beach
+~
+E
+ocean water~
+adv:world:26701/water
 ~
 S
 #26702
@@ -139,13 +139,13 @@ The creepy road continues west.
 ~
 0 0 26707
 E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
+E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
-~
-E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
 ~
 S
 #26709
@@ -185,10 +185,10 @@ D2
 0 0 26739
 S
 #26711
-Tarry Tunnel~
+Temple Hall W.~
 adv:world:26711/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -205,10 +205,10 @@ goo tar~
 ~
 S
 #26712
-Tarry Tunnel~
+Temple Hall E.~
 adv:world:26712/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -225,10 +225,10 @@ goo tar~
 ~
 S
 #26713
-Tarry Tunnel~
+Temple Hall W.~
 adv:world:26713/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -245,10 +245,10 @@ goo tar~
 ~
 S
 #26714
-Tarry Tunnel~
+Deva Hall E.~
 adv:world:26714/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your south.
 ~
@@ -265,10 +265,10 @@ goo tar~
 ~
 S
 #26715
-Tarry Tunnel~
+Temple Tunnel W.~
 adv:world:26715/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -285,10 +285,10 @@ goo tar~
 ~
 S
 #26716
-Tarry Tunnel~
+Deva Hall E.~
 adv:world:26716/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -305,10 +305,10 @@ goo tar~
 ~
 S
 #26717
-Tarry Tunnel~
+Temple Tunnel W.~
 adv:world:26717/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -325,10 +325,10 @@ goo tar~
 ~
 S
 #26718
-Tarry Tunnel~
+Deva Hall E.~
 adv:world:26718/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -345,10 +345,10 @@ goo tar~
 ~
 S
 #26719
-Tarry Tunnel~
+Temple Tunnel W.~
 adv:world:26719/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -365,10 +365,10 @@ goo tar~
 ~
 S
 #26720
-Tarry Tunnel~
+Deva Hall E.~
 adv:world:26720/main
 ~
-267 9 0 0 0 0
+267 280 0 0 0 0
 D0
 The tarry tunnel continues to your north.
 ~
@@ -385,10 +385,10 @@ goo tar~
 ~
 S
 #26721
-Tarry Tunnel~
-adv:world:267212672/main
+Temple Tunnel W.~
+adv:world:26721/main
 ~
-267 133 0 0 0 0
+267 280 0 0 0 0
 D1
 The tarry tunnel opens into a strange building to your east.
 ~
@@ -405,10 +405,14 @@ goo tar~
 ~
 S
 #26722
-Tarry Tunnel~
+Deva Hall E.~
 adv:world:26722/main
 ~
-267 133 0 0 0 0
+267 280 0 0 0 0
+D0
+~
+~
+0 0 26779
 D2
 The tarry tunnel continues to your south.
 ~
@@ -424,7 +428,7 @@ goo tar~
 ~
 S
 #26723
-Deva Hill~
+Temple Hill~
 adv:world:26723/main
 ~
 267 16 0 0 0 4
@@ -1016,32 +1020,32 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
-~
-E
-sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
-adv:world:26752/toilet
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 E
 couch bed futon sleep~
 adv:world:26752/bed
 ~
 E
-room space living sleep work entertain~
-adv:world:26752/room
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
+adv:world:26752/toilet
+~
+E
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 S
 #26753
@@ -1116,12 +1120,12 @@ You see the hallway.
 door~
 1 -1 26757
 E
-dresser~
-adv:world:26756/dresser
-~
-E
 bed canopy~
 adv:world:26756/bed
+~
+E
+dresser~
+adv:world:26756/dresser
 ~
 S
 #26757
@@ -1166,16 +1170,16 @@ You can see the creepy hallway.
 door~
 1 0 26757
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 S
 #26759
@@ -1297,7 +1301,7 @@ You see the chamber.
 1 -1 26765
 S
 #26767
-Vamraka Hall~
+Hall A~
 adv:world:26767/main
 ~
 267 24 0 0 0 0
@@ -1305,12 +1309,20 @@ D0
 ~
 door secret~
 1 26733 26766
+D2
+~
+~
+0 0 26778
 S
 #26768
-Soma Hall~
+Hall B~
 adv:world:26768/main
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
+D0
+~
+~
+0 0 26778
 D2
 ~
 door secret~
@@ -1370,7 +1382,7 @@ D3
 0 0 26770
 S
 #26773
-Outlay~
+Hall C~
 adv:world:26773/main
 ~
 267 8 0 0 0 0
@@ -1378,6 +1390,10 @@ D0
 ~
 door secret~
 1 26733 26772
+D5
+~
+~
+0 0 26778
 S
 #26775
 Alcove~
@@ -1404,35 +1420,42 @@ D1
 0 0 26775
 S
 #26777
-Outlay~
+Hall D~
 adv:world:26777/main
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D2
 ~
 door secret~
 1 26733 26776
+D4
+~
+~
+0 0 26778
 S
 #26778
-Temple of the Devas~
+The Temple~
 adv:world:26778/main
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D0
 You see nothing here.
 ~
 ~
 0 0 26767
 D1
-You see nothing here.
 ~
 ~
-0 0 26779
+0 0 26722
 D2
 You see nothing here.
 ~
 ~
 0 0 26768
+D3
+~
+~
+0 0 26721
 D4
 You see nothing here.
 ~
@@ -1449,13 +1472,13 @@ adv:world:26778/note
 ~
 S
 #26779
-Entrance to the Hall of Hopelessness~
+Hall of Imagination~
    You stand on a dusty floor in a fallen-down hut.  Just to the east, you can
 see the remains of a deserted corridor.  The entire chamber is empty and devoid
 of anything of any real interest.  You can see an transporter platform to your
 north.  All around you are depictions of people in inescapable situations.
 ~
-267 280 0 0 0 0
+267 24 0 0 0 0
 D0
 ~
 ~
@@ -1751,20 +1774,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-insignia window~
-adv:world:26795/insignia
-~
-E
-plaque plaques~
-adv:world:26795/plaque
+chair~
+adv:world:26795/chair
 ~
 E
 sofa~
 adv:world:26795/sofa
 ~
 E
-chair~
-adv:world:26795/chair
+plaque plaques~
+adv:world:26795/plaque
+~
+E
+insignia window~
+adv:world:26795/insignia
 ~
 S
 #26797
