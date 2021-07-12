@@ -452,18 +452,14 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprintbitarray(room->room_flags, room_bits, RF_ARRAY_MAX, buf1);
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
-      "\n# %s\r"
-      "\n----\n"
-      "\nvnum:%d\r"
+      "\n# %d %s\r"
       "\nzone:%d\r"
-      "\n----\n"
-      "\n## Details\r"
       "\nselect[1:name]:%s\r"
       "\nselect[2:desc]:%s\r"
       "\nselect[3:room flags]:%s\r"
       "\nselect[4:sector type]:%s\r",
-      room->name,
       OLC_NUM(d),
+      room->name,
       zone_table[OLC_ZNUM(d)].number,
       room->name,
       room->description,
@@ -472,7 +468,6 @@ static void redit_disp_menu(struct descriptor_data *d)
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
-      "\n----\n"
       "\n## Exits\r"
       "\nselect[5:north]:%d\r"
       "\nselect[6:east]:%d\r"
@@ -589,8 +584,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       return;
     case '1':
       write_to_output(d,
-        "\nEdit Room Name\r"
-        "\nname: %s\r", OLC_ROOM(d)->name);
+        "\n'room name': %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case '2':
