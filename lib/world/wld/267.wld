@@ -1,5 +1,5 @@
 #26700
-Soma Island Zone Description Room~
+Quinn Island Zone Description Room~
 adv:world:26700/main
 ~
 267 0 0 0 0 0
@@ -405,7 +405,7 @@ goo tar~
 ~
 S
 #26722
-Deva Hall E.~
+Temple Hall E.~
 adv:world:26722/main
 ~
 267 280 0 0 0 0
@@ -414,7 +414,6 @@ D0
 ~
 0 0 26779
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26720
@@ -423,8 +422,8 @@ D3
 ~
 0 0 26778
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+walls wall~
+adv:world:26722/walls
 ~
 S
 #26723
@@ -433,7 +432,6 @@ adv:world:26723/main
 ~
 267 16 0 0 0 4
 D1
-You can see a dark, tarry tunnel opening to your east.
 ~
 ~
 0 0 26712
@@ -442,12 +440,10 @@ D2
 ~
 0 0 26709
 D3
-You can see a dark, tarry tunnel opening to your west.
 ~
 ~
 0 0 26711
 D4
-You can see a path through the huge trees of the forest.
 ~
 ~
 0 0 26784
@@ -458,13 +454,10 @@ adv:world:26724/main
 ~
 267 517 0 0 0 2
 D0
-It looks very dangerous and squishy that way, but you could probably survive
-it.
 ~
 ~
 0 0 26725
 D2
-It's much safer to your south. Perhaps you should go back.
 ~
 ~
 0 0 26723
@@ -475,20 +468,16 @@ adv:world:26725/main
 ~
 267 517 0 0 0 2
 D0
-The tar looks even more dangerous that way, but survivable.
 ~
 ~
 0 0 26726
 D2
-The tar thins out a bit in that direction--better go that way.
 ~
 ~
 0 0 26724
 E
-sign note writings writing inscription inscriptions rune runes~
-                            TAR PIT
-                       DO NOT ENTER ! ! !
-                THIS IS THE POINT OF NO RETURN!
+sign note writings writing inscription inscriptions~
+adv:world:26725/sign
 ~
 S
 #26726
@@ -497,31 +486,26 @@ adv:world:26726/main
 ~
 267 517 0 0 0 2
 D0
-Looks like that would be a VERY bad idea. I don't think you could escape that one.
 ~
 ~
 0 0 26727
 E
-tar pit tarpit~
-It's big, black, boiling, sticky, and gooey.  What more incintive do you need to stay away from it?
+water pond waterpond~
+adv:world:26726/pond
 ~
 S
 #26727
-Boiling Tar Pit~
+Pure Water Pond~
 adv:world:26727/main
 ~
 267 548 0 0 0 2
 S
 #26728
 Soma Trail~
-   You stand at the bottom of a large hill.  It is eerily beautiful here, but
-it still looks quite sinister.  You notice a rocky road to your south, and you
-can ascend the hill to take a look around you.  A road hangs a bit above you to
-your left by no supports!  Hmm...  A beautifuly made road is to your west.
+adv:world:27628/main
 ~
 267 16 0 0 0 4
 D1
-You can see a very strange road to your east. Worth exploring? Probably.
 ~
 ~
 0 0 26730
@@ -532,11 +516,7 @@ D3
 S
 #26729
 High Road~
-   This road is amazingly built--some sort of black onyxlike substance, shined
-to a mirror-like gleam forms the main of the path.  Bricks of the same
-substance line the path--it doesn't look as if a piece of paper could be
-inserted between them.  The trees have been trimmed back to allow easy passage.
-Even among all this beauty, you sense a sinister presence.
+adv:world:26729/main
 ~
 267 16 0 0 0 5
 D0
@@ -544,88 +524,63 @@ D0
 ~
 0 0 26731
 D2
-The high path continues on.
 ~
 ~
 0 0 26741
 S
 #26730
 Soma Trail~
-   This trail is covered by the skeletal ribs of a huge creature in some sort
-of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
-distance.  A soft chanting can be heard in the far distance, but you can see no
-sign of life.  Lonliness sends you into a panicky state.
+adv:world:26730/main
 ~
 267 16 0 0 0 2
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26732
 D3
-The bottom of Vice Hill starts to your west.
 ~
 ~
 0 0 26728
 E
-ribs skeleton~
-   This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and the
-bones have been cleaned to a perfect white.
+rocks boulders rock boulder~
+adv:world:26730/rocks
 ~
 S
 #26731
 High Road~
-   This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path.  Bricks of the same
-substance line the path--it doesn't look as if a piece of paper could be
-inserted between them.  The trees have been trimmed back to allow easy passage.
-Even among all this beauty, you sense a sinister presence.
+adv:world:26731/main
 ~
 267 16 0 0 0 5
 D0
-The high path continues on.
 ~
 ~
 0 0 26733
 D2
-The high path continues on.
 ~
 ~
 0 0 26729
 S
 #26732
 Soma Trail~
-   This trail is covered by the skeletal ribs of a huge creature in some sort
-of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
-distance.  A soft chanting can be heard in the far distance, but you can see no
-sign of life.  Lonliness sends you into a panicky state.
+adv:world:26732/main
 ~
 267 16 0 0 0 2
 D0
-The strange trail continues on..
 ~
 ~
 0 0 26730
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26734
 E
-ribs skeleton~
-   This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and the
-bones have been cleaned to a perfect white.
+rock rocks boulder boulders~
+adv:world:26732/rocks
 ~
 S
 #26733
 High Road~
-   This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path.  Bricks of the same
-substance line the path--it doesn't look as if a piece of paper could be
-inserted between them.  The trees have been trimmed back to allow easy passage.
-Even among all this beauty, you sense a sinister presence.
+adv:world:26733/main
 ~
 267 5 0 0 0 1
 D2
@@ -639,36 +594,25 @@ D3
 S
 #26734
 Soma Trail~
-   This trail is covered by the skeletal ribs of a huge creature in some sort
-of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
-distance.  A soft chanting can be heard in the far distance, but you can see no
-sign of life.  Lonliness sends you into a panicky state.
+adv:world:26734/main
 ~
 267 16 0 0 0 2
 D0
-The strange trail continues on..
 ~
 ~
 0 0 26732
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26736
 E
-ribs skeleton~
-   This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and the
-bones have been cleaned to a perfect white.
+rock rocks boulder boulders~
+adv:world:26734/rocks
 ~
 S
 #26735
 High Road~
-   This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path.  Bricks of the same
-substance line the path--it doesn't look as if a piece of paper could be
-inserted between them.  The trees have been trimmed back to allow easy passage.
-Even among all this beauty, you sense a sinister presence.
+adv:world:26735/main
 ~
 267 5 0 0 0 1
 D1
@@ -676,17 +620,13 @@ D1
 ~
 0 0 26733
 D2
-The high path continues on.
 ~
 ~
 0 0 26737
 S
 #26736
 Soma Trail~
-   This trail is covered by the skeletal ribs of a huge creature in some sort
-of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
-distance.  A soft chanting can be heard in the far distance, but you can see no
-sign of life.  Lonliness sends you into a panicky state.
+adv:world:26736/main
 ~
 267 16 0 0 0 2
 D0
@@ -700,23 +640,16 @@ The strange trail continues on.
 ~
 0 0 26738
 E
-ribs skeleton~
-   This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and the
-bones have been cleaned to a perfect white.
+rock rocks boulder boulders~
+adv:world:26736/rocks
 ~
 S
 #26737
 High Road~
-   This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path.  Bricks of the same
-substance line the path--it doesn't look as if a piece of paper could be
-inserted between them.  The trees have been trimmed back to allow easy passage.
-Even among all this beauty, you sense a sinister presence.
+adv:world:26737/main
 ~
 267 16 0 0 0 5
 D0
-The high path continues on.
 ~
 ~
 0 0 26735
@@ -727,14 +660,10 @@ D2
 S
 #26738
 Soma Trail~
-   This trail is covered by the skeletal ribs of a huge creature in some sort
-of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
-distance.  A soft chanting can be heard in the far distance, but you can see no
-sign of life.  Lonliness sends you into a panicky state.
+adv:world:26738/main
 ~
 267 16 0 0 0 2
 D0
-The strange trail continues on.
 ~
 ~
 0 0 26736
@@ -743,10 +672,8 @@ D2
 ~
 0 0 26797
 E
-ribs skeleton~
-   This must have been a HUGE monster!  Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and the
-bones have been cleaned to a perfect white.
+rock rocks boulder boulders~
+adv:world:26738
 ~
 S
 #26739

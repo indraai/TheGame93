@@ -101,7 +101,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "autooffer", "autooffer" , POS_DEAD    , do_gen_tog , 0, SCMD_AUTOOFFER },
   { "autosplit", "autospl" , POS_DEAD    , do_gen_tog , 0, SCMD_AUTOSPLIT },
 
-  { "backstab" , "ba"      , POS_STANDING, do_backstab , 1, 0 },
+  { "backstab" , "ba"      , POS_SLEEPING, do_sleep , 0, 0 }, // set backstab to sleep people
   { "ban"      , "ban"     , POS_DEAD    , do_ban      , LVL_GRDEVA, 0 },
   { "bandage"  , "band"    , POS_RESTING , do_bandage  , 1, 0 },
   { "balance"  , "bal"     , POS_STANDING, do_not_here , 1, 0 },
@@ -122,6 +122,10 @@ cpp_extern const struct command_info cmd_info[] = {
   { "consider" , "con"     , POS_RESTING , do_consider , 0, 0 },
   { "commands" , "com"     , POS_DEAD    , do_commands , 0, SCMD_COMMANDS },
   { "compact"  , "comp"    , POS_DEAD    , do_gen_tog  , 0, SCMD_COMPACT },
+
+  { "compassion", "co", POS_STANDING, do_compassion, 0, 0 }, //added compassion to commands. JUL 12, 2021
+  { "consider", "cons", POS_STANDING, do_consider, 0, 0 }, //added consider to commands. JUL 12, 2021
+
   { "copyover" , "copyover", POS_DEAD    , do_copyover , LVL_GRDEVA, 0 },
   { "credits"  , "cred"    , POS_DEAD    , do_gen_ps   , 0, SCMD_CREDITS },
 
@@ -191,8 +195,9 @@ cpp_extern const struct command_info cmd_info[] = {
 
   { "junk"     , "j"       , POS_RESTING , do_drop     , 0, SCMD_JUNK },
 
-  { "kill"     , "k"       , POS_FIGHTING, do_kill     , 0, 0 },
+  { "kill"     , "k"       , POS_SLEEPING, do_sleep    , 0, 0 },
   { "kick"     , "ki"      , POS_FIGHTING, do_kick     , 1, 0 },
+  { "kindness" , "kin"      , POS_STANDING, do_kindness , 0, 0 }, //added kindness to commands. JUL 12, 2021
 
   { "look"     , "l"       , POS_RESTING , do_look     , 0, SCMD_LOOK },
   { "last"     , "last"    , POS_DEAD    , do_last     , LVL_DEVA, 0 },
