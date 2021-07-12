@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-sand beach~
-adv:world:26701/beach
-~
-E
 ocean water~
 adv:world:26701/water
+~
+E
+sand beach~
+adv:world:26701/beach
 ~
 S
 #26702
@@ -139,17 +139,17 @@ The creepy road continues west.
 ~
 0 0 26707
 E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
-E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
 ~
+E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
 S
 #26709
-Deva Hill~
+Sader Park~
 adv:world:26709/main
 ~
 267 16 0 0 0 4
@@ -509,7 +509,7 @@ adv:world:26727/main
 267 548 0 0 0 2
 S
 #26728
-Vice Hill~
+Soma Trail~
    You stand at the bottom of a large hill.  It is eerily beautiful here, but
 it still looks quite sinister.  You notice a rocky road to your south, and you
 can ascend the hill to take a look around you.  A road hangs a bit above you to
@@ -521,20 +521,10 @@ You can see a very strange road to your east. Worth exploring? Probably.
 ~
 ~
 0 0 26730
-D2
-You see a slippery-looking rocky road to your south.
-~
-~
-0 0 26740
 D3
 ~
 ~
 0 0 26709
-D4
-Of course, you should ascend a hill, right?
-~
-~
-0 0 26730
 S
 #26729
 High Road~
@@ -556,13 +546,13 @@ The high path continues on.
 0 0 26741
 S
 #26730
-Trail of Terror~
+Soma Trail~
    This trail is covered by the skeletal ribs of a huge creature in some sort
 of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
 distance.  A soft chanting can be heard in the far distance, but you can see no
 sign of life.  Lonliness sends you into a panicky state.
 ~
-267 0 0 0 0 1
+267 16 0 0 0 2
 D2
 The strange trail continues on.
 ~
@@ -601,13 +591,13 @@ The high path continues on.
 0 0 26729
 S
 #26732
-Trail of Terror~
+Soma Trail~
    This trail is covered by the skeletal ribs of a huge creature in some sort
 of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
 distance.  A soft chanting can be heard in the far distance, but you can see no
 sign of life.  Lonliness sends you into a panicky state.
 ~
-267 0 0 0 0 1
+267 16 0 0 0 2
 D0
 The strange trail continues on..
 ~
@@ -644,13 +634,13 @@ D3
 0 0 26735
 S
 #26734
-Trail of Terror~
+Soma Trail~
    This trail is covered by the skeletal ribs of a huge creature in some sort
 of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
 distance.  A soft chanting can be heard in the far distance, but you can see no
 sign of life.  Lonliness sends you into a panicky state.
 ~
-267 0 0 0 0 1
+267 16 0 0 0 2
 D0
 The strange trail continues on..
 ~
@@ -688,13 +678,13 @@ The high path continues on.
 0 0 26737
 S
 #26736
-Trail of Terror~
+Soma Trail~
    This trail is covered by the skeletal ribs of a huge creature in some sort
 of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
 distance.  A soft chanting can be heard in the far distance, but you can see no
 sign of life.  Lonliness sends you into a panicky state.
 ~
-267 0 0 0 0 1
+267 16 0 0 0 2
 D0
 The strange trail continues on.
 ~
@@ -727,19 +717,18 @@ The high path continues on.
 ~
 0 0 26735
 D2
-A building of exquisite craftsmanship is to your south.
 ~
 ~
-1 26727 26791
+0 0 26791
 S
 #26738
-Trail of Terror~
+Soma Trail~
    This trail is covered by the skeletal ribs of a huge creature in some sort
 of diabolocal canopy.  You can hear--drums?  --some sort of pulsing beat in the
 distance.  A soft chanting can be heard in the far distance, but you can see no
 sign of life.  Lonliness sends you into a panicky state.
 ~
-267 4 0 0 0 1
+267 16 0 0 0 2
 D0
 The strange trail continues on.
 ~
@@ -857,6 +846,10 @@ ous, and the cliff's edge is quite close now.  The ground is beginning to shake
 under your weight.
 ~
 267 16 0 0 0 5
+D0
+~
+~
+0 0 26791
 D1
 ~
 ~
@@ -1024,32 +1017,32 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-room space living sleep work entertain~
-adv:world:26752/room
-~
-E
-couch bed futon sleep~
-adv:world:26752/bed
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 E
 sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
 adv:world:26752/toilet
 ~
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+couch bed futon sleep~
+adv:world:26752/bed
+~
+E
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 S
 #26753
@@ -1124,12 +1117,12 @@ You see the hallway.
 door~
 1 -1 26757
 E
-bed canopy~
-adv:world:26756/bed
-~
-E
 dresser~
 adv:world:26756/dresser
+~
+E
+bed canopy~
+adv:world:26756/bed
 ~
 S
 #26757
@@ -1174,16 +1167,16 @@ You can see the creepy hallway.
 door~
 1 0 26757
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 S
 #26759
@@ -1682,18 +1675,18 @@ adv:world:26789/look
 0 0 26789
 S
 #26791
-Hall of Wax~
+High Road~
 adv:world:26791/main
 ~
-267 24 0 0 0 0
+267 16 0 0 0 5
 D0
 ~
 ~
-0 0 26735
-D3
+0 0 26737
+D2
 ~
 ~
-0 0 26793
+0 0 26743
 S
 #26792
 Entrance to the Office of the High Priest of Terror~
@@ -1759,20 +1752,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-chair~
-adv:world:26795/chair
-~
-E
-sofa~
-adv:world:26795/sofa
+insignia window~
+adv:world:26795/insignia
 ~
 E
 plaque plaques~
 adv:world:26795/plaque
 ~
 E
-insignia window~
-adv:world:26795/insignia
+sofa~
+adv:world:26795/sofa
+~
+E
+chair~
+adv:world:26795/chair
 ~
 S
 #26797
