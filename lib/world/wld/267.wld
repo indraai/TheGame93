@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-sand beach~
-adv:world:26701/beach
-~
-E
 ocean water~
 adv:world:26701/water
+~
+E
+sand beach~
+adv:world:26701/beach
 ~
 S
 #26702
@@ -139,17 +139,17 @@ The creepy road continues west.
 ~
 0 0 26707
 E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
-~
-E
 building~
 The building is a dark gray shade, but it seems to have been soiled by grimy
 tar.
 ~
+E
+skeletons~
+   They're quite real, and quite frightening.  We weren't lying to you.
+~
 S
 #26709
-Sader Park~
+Hilltop Dr.~
 adv:world:26709/main
 ~
 267 16 0 0 0 4
@@ -171,7 +171,7 @@ D3
 0 0 26740
 S
 #26710
-Deva Hill~
+Hilltop Dr.~
 adv:world:26710/main
 ~
 267 16 0 0 0 4
@@ -185,7 +185,7 @@ D2
 0 0 26739
 S
 #26711
-Temple Hall W.~
+Tunnel W.~
 adv:world:26711/main
 ~
 267 280 0 0 0 0
@@ -205,7 +205,7 @@ goo tar~
 ~
 S
 #26712
-Temple Hall E.~
+Tunnel E.~
 adv:world:26712/main
 ~
 267 280 0 0 0 0
@@ -225,7 +225,7 @@ goo tar~
 ~
 S
 #26713
-Temple Hall W.~
+Tunnel W.~
 adv:world:26713/main
 ~
 267 280 0 0 0 0
@@ -245,7 +245,7 @@ goo tar~
 ~
 S
 #26714
-Deva Hall E.~
+Tunnel E.~
 adv:world:26714/main
 ~
 267 280 0 0 0 0
@@ -265,7 +265,7 @@ goo tar~
 ~
 S
 #26715
-Temple Tunnel W.~
+Tunnel W.~
 adv:world:26715/main
 ~
 267 280 0 0 0 0
@@ -285,7 +285,7 @@ goo tar~
 ~
 S
 #26716
-Deva Hall E.~
+Tunnel E.~
 adv:world:26716/main
 ~
 267 280 0 0 0 0
@@ -305,7 +305,7 @@ goo tar~
 ~
 S
 #26717
-Temple Tunnel W.~
+Tunnel W.~
 adv:world:26717/main
 ~
 267 280 0 0 0 0
@@ -325,7 +325,7 @@ goo tar~
 ~
 S
 #26718
-Deva Hall E.~
+Tunnel E.~
 adv:world:26718/main
 ~
 267 280 0 0 0 0
@@ -345,7 +345,7 @@ goo tar~
 ~
 S
 #26719
-Temple Tunnel W.~
+Tunnel W.~
 adv:world:26719/main
 ~
 267 280 0 0 0 0
@@ -365,7 +365,7 @@ goo tar~
 ~
 S
 #26720
-Deva Hall E.~
+Tunnel E.~
 adv:world:26720/main
 ~
 267 280 0 0 0 0
@@ -385,7 +385,7 @@ goo tar~
 ~
 S
 #26721
-Temple Tunnel W.~
+Tunnel W.~
 adv:world:26721/main
 ~
 267 280 0 0 0 0
@@ -405,7 +405,7 @@ goo tar~
 ~
 S
 #26722
-Temple Hall E.~
+Tunnel E.~
 adv:world:26722/main
 ~
 267 280 0 0 0 0
@@ -427,7 +427,7 @@ adv:world:26722/walls
 ~
 S
 #26723
-Temple Hill~
+Hilltop Dr.~
 adv:world:26723/main
 ~
 267 16 0 0 0 4
@@ -499,6 +499,10 @@ Pure Water Pond~
 adv:world:26727/main
 ~
 267 548 0 0 0 2
+D0
+~
+~
+0 0 26775
 S
 #26728
 Soma Trail~
@@ -947,32 +951,32 @@ You can see the strangely shaped hallway.
 bars cell door~
 1 26713 26753
 E
-room space living sleep work entertain~
-adv:world:26752/room
-~
-E
-couch bed futon sleep~
-adv:world:26752/bed
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 E
 sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
 adv:world:26752/toilet
 ~
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+couch bed futon sleep~
+adv:world:26752/bed
+~
+E
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 S
 #26753
@@ -1047,12 +1051,12 @@ You see the hallway.
 door~
 1 -1 26757
 E
-bed canopy~
-adv:world:26756/bed
-~
-E
 dresser~
 adv:world:26756/dresser
+~
+E
+bed canopy~
+adv:world:26756/bed
 ~
 S
 #26757
@@ -1097,16 +1101,16 @@ You can see the creepy hallway.
 door~
 1 0 26757
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 S
 #26759
@@ -1196,26 +1200,20 @@ You see the creepy hallway.
 0 0 26763
 S
 #26765
-Torture Chambre~
-2676
+Immersion Room~
+adv:world:26765/main
 ~
-267 521 0 0 0 0
-D0
-You can see nothing here.
+267 24 0 0 0 0
+D1
 ~
 ~
-0 0 26778
-D2
-You see the screening room.
-~
-door~
-1 -1 26766
+0 0 26766
 S
 #26766
 Screening Room~
 adv:world:26766/main
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
 D2
 You see the outlay.
 ~
@@ -1252,35 +1250,32 @@ D0
 0 0 26778
 D2
 ~
-door secret~
-1 26733 26769
+~
+0 0 26769
 S
 #26769
 Waiting Room~
 adv:world:26769/main
 ~
 267 8 0 0 0 0
-D3
-You can see the interview room.
+D0
+~
+~
+0 0 26768
+D1
 ~
 ~
 0 0 26770
 S
 #26770
-Interview Room~
+Immersion Room~
 adv:world:26770/main
 ~
-267 8 0 0 0 0
-D1
-You see the waiting room.
+267 24 0 0 0 0
+D3
 ~
 ~
 0 0 26769
-D2
-You see nothing here.
-~
-~
-0 0 26778
 S
 #26771
 Office of the Monk~
@@ -1313,10 +1308,6 @@ Hall C~
 adv:world:26773/main
 ~
 267 8 0 0 0 0
-D0
-~
-door secret~
-1 26733 26772
 D5
 ~
 ~
@@ -1337,10 +1328,14 @@ D3
 0 0 26776
 S
 #26776
-Sitting Room~
+Waiting Room~
 adv:world:26776/main
 ~
-267 8 0 0 0 0
+267 24 0 0 0 0
+D0
+~
+~
+0 0 26777
 D1
 ~
 ~
@@ -1361,7 +1356,7 @@ D4
 0 0 26778
 S
 #26778
-The Temple~
+Central Corridor~
 adv:world:26778/main
 ~
 267 24 0 0 0 0
@@ -1701,20 +1696,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-chair~
-adv:world:26795/chair
-~
-E
-sofa~
-adv:world:26795/sofa
+insignia window~
+adv:world:26795/insignia
 ~
 E
 plaque plaques~
 adv:world:26795/plaque
 ~
 E
-insignia window~
-adv:world:26795/insignia
+sofa~
+adv:world:26795/sofa
+~
+E
+chair~
+adv:world:26795/chair
 ~
 S
 #26797
