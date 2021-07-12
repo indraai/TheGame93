@@ -193,10 +193,11 @@ Soma The Grand Dragon rests curled around a giant pillar in the temple.
 ~
 This dragon is just beautiful.  Its scales are mirror-like in polish. Beautifully-colored wings protrude from the sides.  Unlike most dragons, this actually resembles a snake except that it's about one-hundred times larger.  It looks at you with infinite intelligence and a little bit of resignation.
 ~
-522524 0 0 0 16 0 0 0 -750 E
+522268 0 0 0 157816 0 0 0 1000 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-5 5 0
+8 8 0
+BareHandAttack: 13
 E
 #26717
 torture sacrifice minister ministers covenant target~
