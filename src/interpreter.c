@@ -192,8 +192,9 @@ cpp_extern const struct command_info cmd_info[] = {
 
   { "junk"     , "j"       , POS_RESTING , do_drop     , 0, SCMD_JUNK },
 
-  { "kill"     , "k"       , POS_SLEEPING, do_sleep     , 0, 0 },
+  { "kill"     , "kill"       , POS_SLEEPING, do_sleep     , 0, 0 },
   { "kick"     , "ki"      , POS_FIGHTING, do_kick     , 1, 0 },
+  { "kindness" , "ki"     , POS_STANDING, do_kindness , 0, 0 }, //added July 12, 2021
 
   { "look"     , "l"       , POS_RESTING , do_look     , 0, SCMD_LOOK },
   { "last"     , "last"    , POS_DEAD    , do_last     , LVL_DEVA, 0 },

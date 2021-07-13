@@ -28,6 +28,11 @@ ACMD(do_compassion)
   return;
 }
 
+ACMD(do_kindness)
+{
+  send_to_char(ch, "\nAmazing you are developing kindness.\r");
+  return;
+}
 
 ACMD(do_assist)
 {
