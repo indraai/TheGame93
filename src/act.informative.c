@@ -835,90 +835,90 @@ ACMD(do_score)
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\nYou are dead.\r");
+    send_to_char(ch, "\nalert:dead:You are knocked out.\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\nYou are wounded.\r");
+    send_to_char(ch, "\nalert:wound:You are wounded.\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\nYou are incapacitated.\r");
+    send_to_char(ch, "\nalert:incap:You are incapacitated.\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\nYou are stunned.\r");
+    send_to_char(ch, "\nalert:stun:You are stunned.\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nYou are sleeping.\r");
+    send_to_char(ch, "\nalert:sleep:You are sleeping.\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nYou are resting.\r");
+    send_to_char(ch, "\nalert:rest:You are resting.\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\nYou are sitting.\r");
+      send_to_char(ch, "\nalert:sit:You are sitting.\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\nYou are sitting on %s.\r", furniture->short_description);
+      send_to_char(ch, "\nalert:sit:You are sitting on %s.\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nYou are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\nalert:fight:You are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\nYou are standing.\r");
+    send_to_char(ch, "\nalert:stand:You are standing.\r");
     break;
   default:
-    send_to_char(ch, "\nYou are floating.\r");
+    send_to_char(ch, "\nalert:float:You are floating.\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\nYou are drunk.\r");
+    send_to_char(ch, "\nalert:drunk:You are drunk.\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\nYou are hungry.\r");
+    send_to_char(ch, "\nalert:hunger:You are hungry.\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\nYou are thirsty.\r");
+    send_to_char(ch, "\nalert:thirst:You are thirsty.\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nYou blind.\r");
+    send_to_char(ch, "\nalert:blind:You blind.\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\nYou are invisible.\r");
+    send_to_char(ch, "\nalert:invisible:You are invisible.\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\nYou are sensitive to invisible things.\r");
+    send_to_char(ch, "\nalert:sensitive:You are sensitive to invisible things.\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\nYou are protected by Sanctuary.\r");
+    send_to_char(ch, "\nalert:sanctuary:You are protected by Sanctuary.\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "\nYou are poisoned.\r");
+    send_to_char(ch, "\nalert:poison:You are poisoned.\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\nYou are charmed.\r");
+    send_to_char(ch, "\nalert:charm:You are charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\nYou are protected.\r");
+    send_to_char(ch, "\nalert:protect:You are protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\nYour eyes are red.\r");
+    send_to_char(ch, "\nalert:infra:Your can see in the dark.\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nYou can be summoned.\r");
+    send_to_char(ch, "\nalert:summon:You can be summoned.\r");
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
-      send_to_char(ch, "\nPOOFIN:  %s %s\r", GET_NAME(ch), POOFIN(ch));
+      send_to_char(ch, "\nalert:in:%s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "\nPOOFIN:  %s has arrived.\r", GET_NAME(ch));
+      send_to_char(ch, "\nalert:in:%s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
-      send_to_char(ch, "\nPOOFOUT: %s %s\r", GET_NAME(ch), POOFOUT(ch));
+      send_to_char(ch, "\nalert:out:%s %s\r", GET_NAME(ch), POOFOUT(ch));
     else
-      send_to_char(ch, "\nPOOFOUT: %s has disappeared.\r", GET_NAME(ch));
+      send_to_char(ch, "\nalert:out:%s has disappeared.\r", GET_NAME(ch));
 
-    send_to_char(ch, "\nzone: %d\r", GET_OLC_ZONE(ch));
+    send_to_char(ch, "\nalert:zone:z%d\r", GET_OLC_ZONE(ch));
   }
 }
 
@@ -934,16 +934,16 @@ ACMD(do_equipment)
     if (GET_EQ(ch, i)) {
       found = TRUE;
       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
-        send_to_char(ch, "\n%s\r", wear_where[i]);
+        send_to_char(ch, "\nequip:%s\r", wear_where[i]);
         show_obj_to_char(GET_EQ(ch, i), ch, SHOW_OBJ_SHORT);
       } else {
         send_to_char(ch, "\n%s\r", wear_where[i]);
-        send_to_char(ch, "\nSomething.\r");
+        send_to_char(ch, "\nequip:general:Something\r");
       }
     }
   }
   if (!found)
-    send_to_char(ch, "\nNothing.\r");
+    send_to_char(ch, "\nequip:nothing:No Equipment\r");
 }
 
 ACMD(do_time)

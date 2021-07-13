@@ -24,13 +24,13 @@
 
 static bool legal_communication(char * arg);
 
-static bool legal_communication(char * arg) 
+static bool legal_communication(char * arg)
 {
   while (*arg) {
     if (*arg == '@') {
       arg++;
       if (*arg == '(' || *arg == ')' || *arg == '<' || *arg == '>')
-        return FALSE; 
+        return FALSE;
     }
     arg++;
   }
@@ -46,7 +46,7 @@ ACMD(do_say)
   else {
     char buf[MAX_INPUT_LENGTH + 14], *msg;
     struct char_data *vict;
- 
+
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
 
@@ -74,7 +74,7 @@ ACMD(do_say)
 ACMD(do_gsay)
 {
   skip_spaces(&argument);
-  
+
   if (!GROUP(ch)) {
     send_to_char(ch, "But you are not a member of a group!\r\n");
     return;
@@ -82,12 +82,12 @@ ACMD(do_gsay)
   if (!*argument)
     send_to_char(ch, "Yes, but WHAT do you want to group-say?\r\n");
   else {
-		
+
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
-      parse_at(argument);		
-		
+      parse_at(argument);
+
     send_to_group(ch, ch->group, "%s%s%s says, '%s'%s\r\n", CCGRN(ch, C_NRM), CCGRN(ch, C_NRM), GET_NAME(ch), argument, CCNRM(ch, C_NRM));
-	
+
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
       send_to_char(ch, "%s", CONFIG_OK);
     else
@@ -107,7 +107,7 @@ static void perform_tell(struct char_data *ch, struct char_data *vict, char *arg
     send_to_char(ch, "%s", CONFIG_OK);
   else {
     snprintf(buf, sizeof(buf), "%sYou tell $N, '%s'%s", CCRED(ch, C_NRM), arg, CCNRM(ch, C_NRM));
-    msg = act(buf, FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);     
+    msg = act(buf, FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
     add_history(ch, msg, HIST_TELL);
   }
 
@@ -210,8 +210,8 @@ ACMD(do_reply)
     /* Make sure the person you're replying to is still playing by searching
      * for them.  Note, now last tell is stored as player IDnum instead of
      * a pointer, which is much better because it's safer, plus will still
-     * work if someone logs out and back in again. A descriptor list based 
-     * search would be faster although we could not find link dead people.  
+     * work if someone logs out and back in again. A descriptor list based
+     * search would be faster although we could not find link dead people.
      * Not that they can hear tells anyway. :) -gg 2/24/98 */
     while (tch && (IS_NPC(tch) || GET_IDNUM(tch) != GET_LAST_TELL(ch)))
       tch = tch->next;
@@ -269,7 +269,7 @@ ACMD(do_spec_comm)
     snprintf(buf1, sizeof(buf1), "$n %s you, '%s'", action_plur, buf2);
     act(buf1, FALSE, ch, 0, vict, TO_VICT);
 
-    if ((!IS_NPC(ch)) && (PRF_FLAGGED(ch, PRF_NOREPEAT))) 
+    if ((!IS_NPC(ch)) && (PRF_FLAGGED(ch, PRF_NOREPEAT)))
       send_to_char(ch, "%s", CONFIG_OK);
     else
       send_to_char(ch, "You %s %s, '%s'\r\n", action_sing, GET_NAME(vict), buf2);
@@ -508,10 +508,10 @@ ACMD(do_gen_comm)
   else {
 		if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
-      
+
     snprintf(buf1, sizeof(buf1), "%sYou %s, '%s%s'%s", COLOR_LEV(ch) >= C_CMP ? color_on : "",
         com_msgs[subcmd][1], argument, COLOR_LEV(ch) >= C_CMP ? color_on : "", CCNRM(ch, C_CMP));
-    
+
     msg = act(buf1, FALSE, ch, 0, 0, TO_CHAR | TO_SLEEP);
     add_history(ch, msg, hist_type[subcmd]);
   }
@@ -532,7 +532,7 @@ ACMD(do_gen_comm)
          !AWAKE(i->character)))
       continue;
 
-    snprintf(buf2, sizeof(buf2), "%s%s%s", (COLOR_LEV(i->character) >= C_NRM) ? color_on : "", buf1, KNRM); 
+    snprintf(buf2, sizeof(buf2), "%s%s%s", (COLOR_LEV(i->character) >= C_NRM) ? color_on : "", buf1, KNRM);
     msg = act(buf2, FALSE, ch, 0, i->character, TO_VICT | TO_SLEEP);
     add_history(i->character, msg, hist_type[subcmd]);
   }
@@ -551,7 +551,7 @@ ACMD(do_qcomm)
   else {
     char buf[MAX_STRING_LENGTH];
     struct descriptor_data *i;
-    
+
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
 
