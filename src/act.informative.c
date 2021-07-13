@@ -791,8 +791,10 @@ ACMD(do_score)
 {
   struct time_info_data playing_time;
 
+  /* COMMENTING OUT BECAUSE IT BLOCKS AGENTS FROM GETTING A SCORE
   if (IS_NPC(ch))
     return;
+  */
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday.\r\n");
@@ -957,7 +959,7 @@ ACMD(do_time)
   /* 35 days in a month, 7 days a week */
   weekday = ((35 * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time: %d%s | ",
+  send_to_char(ch, "time:%d%s | ",
 	  (time_info.hours % 12 == 0) ? 12 : (time_info.hours % 12),
 	  time_info.hours >= 12 ? "pm" : "am");
 
@@ -980,20 +982,17 @@ ACMD(do_time)
       break;
     }
   }
-  send_to_char(ch, "date: %s - %s %d, %d.\r\n",
+  send_to_char(ch, "date:%s - %s %d, %d.\r\n",
     weekdays[weekday],
     month_name[time_info.month],
 	  day,
     time_info.year);
-
-
-
 }
 
 ACMD(do_weather)
 {
   const char *sky_look[] = {
-    "cloudless",
+    "clear blue",
     "cloudy",
     "rainy",
     "lit by flashes of lightning"
@@ -1001,9 +1000,7 @@ ACMD(do_weather)
 
   if (OUTSIDE(ch))
     {
-    send_to_char(ch, "The sky is %s and %s.\r\n", sky_look[weather_info.sky],
-	    weather_info.change >= 0 ? "you feel a warm wind from south" :
-	     "your foot tells you bad weather is due");
+    send_to_char(ch, "weather:The sky is %s and %s.\r\n", sky_look[weather_info.sky], weather_info.change >= 0 ? "you feel a cool breeze" : "your foot tells you bad weather is due");
     if (GET_LEVEL(ch) >= LVL_DEVA)
       send_to_char(ch, "Pressure: %d (change: %d), Sky: %d (%s)\r\n",
                  weather_info.pressure,
@@ -1012,7 +1009,7 @@ ACMD(do_weather)
                  sky_look[weather_info.sky]);
     }
   else
-    send_to_char(ch, "You have no feeling about the weather at all.\r\n");
+    send_to_char(ch, "\nweather:inside:You are appear to be indoors.\r");
 }
 
 /* puts -'s instead of spaces */
@@ -1063,7 +1060,7 @@ ACMD(do_help)
   skip_spaces(&argument);
 
   if (!help_table) {
-    send_to_char(ch, "No help available.\r\n");
+    send_to_char(ch, "\ninfo:No help available.\r");
     return;
   }
 
@@ -1078,9 +1075,9 @@ ACMD(do_help)
   space_to_minus(argument);
 
   if ((mid = search_help(argument, GET_LEVEL(ch))) == NOWHERE) {
-    send_to_char(ch, "There is no help on that word.\r\n");
+    send_to_char(ch, "\nhelp:empty:There is no help on that word.\r");
     mudlog(NRM, MIN(LVL_IMPL, GET_INVIS_LEV(ch)), TRUE,
-      "%s tried to get help on %s", GET_NAME(ch), argument);
+      "\ninfo:%s tried to get help on %s\r", GET_NAME(ch), argument);
     for (i = 0; i < top_of_helpt; i++)  {
       if (help_table[i].min_level > GET_LEVEL(ch))
         continue;
@@ -1089,10 +1086,10 @@ ACMD(do_help)
         continue;
       if (levenshtein_distance(argument, help_table[i].keywords) <= 2) {
         if (!found) {
-          send_to_char(ch, "\r\nDid you mean:\r\n");
+          send_to_char(ch, "\nhelp:list:Did you mean:\r");
           found = 1;
         }
-        send_to_char(ch, "  \t<send link=\"Help %s\">%s\t</send>\r\n", help_table[i].keywords, help_table[i].keywords);
+        send_to_char(ch, "\nhelp:link:Help %s\r", help_table[i].keywords);
       }
     }
     return;
@@ -1222,9 +1219,9 @@ ACMD(do_who)
       continue;
 
     if (short_list)
-      send_to_char(ch, "Players\r\n-------\r\n");
+      send_to_char(ch, "\nPlayers\r\n----\n");
     else
-      send_to_char(ch, "%s", rank[i].disp);
+      send_to_char(ch, "\n%s\r", rank[i].disp);
 
     for (d = descriptor_list; d; d = d->next) {
       if (d->original)
@@ -1334,14 +1331,14 @@ ACMD(do_who)
   if (short_list && num_can_see % 4)
     send_to_char(ch, "\r\n");
   if (!num_can_see)
-    send_to_char(ch, "Nobody at all!\r\n");
+    send_to_char(ch, "\ninfo:Nobody at all!\r");
   else if (num_can_see == 1)
-    send_to_char(ch, "One lonely character displayed.\r\n");
+    send_to_char(ch, "\ninfo:One lonely character displayed.\r");
   else
-    send_to_char(ch, "%d characters displayed.\r\n", num_can_see);
+    send_to_char(ch, "\ninfo:%d characters displayed.\r", num_can_see);
 
   if (IS_HAPPYHOUR > 0){
-    send_to_char(ch, "It's a Happy Hour! Type \tRhappyhour\tW to see the current bonuses.\r\n");
+    send_to_char(ch, "info:happy:It's a Happy Hour! Type [happyhour] to see the current bonuses.\r");
   }
 }
 
@@ -1412,8 +1409,8 @@ ACMD(do_users)
     }
   }				/* end while (parser) */
   send_to_char(ch,
-	 "Num Class   Name         State          Idl   Login\t*   Site\r\n"
-	 "--- ------- ------------ -------------- ----- -------- ------------------------\r\n");
+	 "\nNum Class   Name         State          Idl   Login\t*   Site\r"
+	 "\n--- ------- ------------ -------------- ----- -------- ------------------------\r");
 
   one_argument(argument, arg);
 
@@ -1485,14 +1482,14 @@ ACMD(do_users)
     }
   }
 
-  send_to_char(ch, "\r\n%d visible sockets connected.\r\n", num_can_see);
+  send_to_char(ch, "\ninfo:socket:%d visible sockets connected.\r", num_can_see);
 }
 
 /* Generic page_string function for displaying text */
 ACMD(do_gen_ps)
 {
   if (IS_NPC(ch)) {
-    send_to_char(ch, "Not for mobiles!\r\n");
+    send_to_char(ch, "\ninfo:mob:Not for mobiles!\r");
     return;
   }
 
@@ -1578,7 +1575,7 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
       send_to_char(ch, "%-25s%s - %s%s\r\n", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
       return;
     }
-    send_to_char(ch, "Nobody around by that name.\r\n");
+    send_to_char(ch, "\ninfo:none:Nobody around by that name.\r");
   }
 }
 
@@ -1678,10 +1675,13 @@ ACMD(do_levels)
   size_t len = 0, nlen;
   int i, ret, min_lev=1, max_lev=LVL_IMMORT, val;
 
+  /* COMMENTING THIS OUT BECAUSE IT BLOCKS AGENTS FROM GETTING LEVELS
   if (IS_NPC(ch)) {
-    send_to_char(ch, "You ain't nothin' but a hound-dog.\r\n");
+    send_to_char(ch, "\nYou ain't nothin' but a hound-dog.\r");
     return;
   }
+  */
+
   one_argument(argument, arg);
 
   if (*arg) {
@@ -2303,8 +2303,10 @@ void add_history(struct char_data *ch, char *str, int type)
   struct txt_block *tmp;
   time_t ct;
 
+  /* COMMENTING OUT BECAUSE IT STOP NPM HISTORY TRACKING
   if (IS_NPC(ch))
     return;
+  */
 
   tmp = GET_HISTORY(ch, type);
   ct = time(0);
