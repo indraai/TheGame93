@@ -51,6 +51,7 @@ ACMD(do_write);
 // Commands added Jul 12, 2021
 ACMD(do_compassion);
 ACMD(do_kindness);
+ACMD(do_listen);
 
 /*****************************************************************************
  * Begin Functions and defines for act.informative.c

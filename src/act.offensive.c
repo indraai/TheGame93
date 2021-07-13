@@ -21,16 +21,22 @@
 #include "fight.h"
 #include "mud_event.h"
 
-/* Compassion Command */
+/* Compassion Command Jul 12 2021 */
 ACMD(do_compassion)
 {
   send_to_char(ch, "\nAmazing you are developing compassion.\r");
   return;
 }
-
+/* Kindness Command Jul 12 2021 */
 ACMD(do_kindness)
 {
   send_to_char(ch, "\nAmazing you are developing kindness.\r");
+  return;
+}
+/* Listen Command Jul 12 2021 */
+ACMD(do_listen)
+{
+  send_to_char(ch, "\nAmazing you are developing listening.\r");
   return;
 }
 
