@@ -627,7 +627,7 @@ static void look_at_target(struct char_data *ch, char *arg)
     return;
 
   if (!*arg) {
-    send_to_char(ch, "\nLook at what?\n\r");
+    send_to_char(ch, "\nLook at what?\r");
     return;
   }
 
@@ -647,7 +647,7 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Strip off "number." from 2.foo and friends. */
   if (!(fnum = get_number(&arg))) {
-    send_to_char(ch, "\nLook at what?\n\r");
+    send_to_char(ch, "\nLook at what?\r");
     return;
   }
 
@@ -661,7 +661,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (j = 0; j < NUM_WEARS && !found; j++)
     if (GET_EQ(ch, j) && CAN_SEE_OBJ(ch, GET_EQ(ch, j)))
       if ((desc = find_exdesc(arg, GET_EQ(ch, j)->ex_description)) != NULL && ++i == fnum) {
-	send_to_char(ch, "\n%s\n\r", desc);
+	send_to_char(ch, "\n%s\r", desc);
 	found = TRUE;
       }
 
@@ -669,7 +669,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\n\r", desc);
+        send_to_char(ch, "\n%s\r", desc);
         found = TRUE;
       }
   }
@@ -678,7 +678,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content)
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\r\n", desc);
+        send_to_char(ch, "\n%s\r", desc);
 	      found = TRUE;
       }
 
@@ -742,7 +742,7 @@ ACMD(do_look)
         }
       }
       if (!found)
-         send_to_char(ch, "\nYou couldn't find anything noticeable.\r");
+         send_to_char(ch, "\nYou find nothing noticeable.\r");
     } else
       look_at_target(ch, strcpy(tempsave, arg));
   }
@@ -757,7 +757,7 @@ ACMD(do_examine)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "Examine what?\r\n");
+    send_to_char(ch, "\nWhat are you attempting to examine?\r");
     return;
   }
 
@@ -771,7 +771,7 @@ ACMD(do_examine)
     if ((GET_OBJ_TYPE(tmp_object) == ITEM_DRINKCON) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_FOUNTAIN) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_CONTAINER)) {
-      send_to_char(ch, "When you look inside, you see:\r\n");
+      send_to_char(ch, "\nYou take a look inside and see...\r");
       look_in_obj(ch, arg);
     }
   }
@@ -780,11 +780,11 @@ ACMD(do_examine)
 ACMD(do_gold)
 {
   if (GET_GOLD(ch) == 0)
-    send_to_char(ch, "You're broke!\r\n");
+    send_to_char(ch, "\nYou're broke!\r");
   else if (GET_GOLD(ch) == 1)
-    send_to_char(ch, "You have one miserable little gold coin.\r\n");
+    send_to_char(ch, "\nYou have one miserable little gold coin.\r");
   else
-    send_to_char(ch, "You have %d gold coins.\r\n", GET_GOLD(ch));
+    send_to_char(ch, "\nYou have %d gold coins.\r", GET_GOLD(ch));
 }
 
 ACMD(do_score)
@@ -831,96 +831,96 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "\nplaying: %d day%s %d hour%s.\r\n",
-     playing_time.day, playing_time.day == 1 ? "" : "s",
-     playing_time.hours, playing_time.hours == 1 ? "" : "s");
+  send_to_char(ch, "playing: %dd %dh",
+     playing_time.day,
+     playing_time.hours);
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\nalert:dead:You are knocked out.\r");
+    send_to_char(ch, "\nYou are knocked out.\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\nalert:wound:You are wounded.\r");
+    send_to_char(ch, "\nYou are wounded.\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\nalert:incap:You are incapacitated.\r");
+    send_to_char(ch, "\nYou are incapacitated.\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\nalert:stun:You are stunned.\r");
+    send_to_char(ch, "\nYou are stunned.\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nalert:sleep:You are sleeping.\r");
+    send_to_char(ch, "\nYou are sleeping.\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nalert:rest:You are resting.\r");
+    send_to_char(ch, "\nYou are resting.\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\nalert:sit:You are sitting.\r");
+      send_to_char(ch, "\nYou are sitting.\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\nalert:sit:You are sitting on %s.\r", furniture->short_description);
+      send_to_char(ch, "\nYou are sitting on %s.\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nalert:fight:You are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\nYou are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\nalert:stand:You are standing.\r");
+    send_to_char(ch, "\nYou are standing.\r");
     break;
   default:
-    send_to_char(ch, "\nalert:float:You are floating.\r");
+    send_to_char(ch, "\nYou are floating.\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\nalert:drunk:You are drunk.\r");
+    send_to_char(ch, "\nYou are drunk.\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\nalert:hunger:You are hungry.\r");
+    send_to_char(ch, "\nYou are hungry.\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\nalert:thirst:You are thirsty.\r");
+    send_to_char(ch, "\nYou are thirsty.\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nalert:blind:You blind.\r");
+    send_to_char(ch, "\nYou are blind.\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\nalert:invisible:You are invisible.\r");
+    send_to_char(ch, "\nYou are invisible.\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\nalert:sensitive:You are sensitive to invisible things.\r");
+    send_to_char(ch, "\nYou can detect invisible.\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\nalert:sanctuary:You are protected by Sanctuary.\r");
+    send_to_char(ch, "\nYou have sanctuary.\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "\nalert:poison:You are poisoned.\r");
+    send_to_char(ch, "\nYou are poisoned.\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\nalert:charm:You are charmed.\r");
+    send_to_char(ch, "\nYou are charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\nalert:protect:You are protected.\r");
+    send_to_char(ch, "\nYou are protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\nalert:infra:Your can see in the dark.\r");
+    send_to_char(ch, "\nYou can see in the dark.\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nalert:summon:You can be summoned.\r");
+    send_to_char(ch, "\nYou can be summoned.\r");
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
-      send_to_char(ch, "\nalert:in:%s %s\r", GET_NAME(ch), POOFIN(ch));
+      send_to_char(ch, "\n%s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "\nalert:in:%s has arrived.\r", GET_NAME(ch));
+      send_to_char(ch, "\n%s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
-      send_to_char(ch, "\nalert:out:%s %s\r", GET_NAME(ch), POOFOUT(ch));
+      send_to_char(ch, "\n%s %s\r", GET_NAME(ch), POOFOUT(ch));
     else
-      send_to_char(ch, "\nalert:out:%s has disappeared.\r", GET_NAME(ch));
+      send_to_char(ch, "\n%s has disappeared.\r", GET_NAME(ch));
 
-    send_to_char(ch, "\nalert:zone:z%d\r", GET_OLC_ZONE(ch));
+    send_to_char(ch, "\n%d\r", GET_OLC_ZONE(ch));
   }
 }
 
@@ -940,12 +940,12 @@ ACMD(do_equipment)
         show_obj_to_char(GET_EQ(ch, i), ch, SHOW_OBJ_SHORT);
       } else {
         send_to_char(ch, "\n%s\r", wear_where[i]);
-        send_to_char(ch, "\nequip:general:Something\r");
+        send_to_char(ch, "\nequip:Something\r");
       }
     }
   }
   if (!found)
-    send_to_char(ch, "\nequip:nothing:No Equipment\r");
+    send_to_char(ch, "\nequip:No Equipment\r");
 }
 
 ACMD(do_time)
@@ -1000,16 +1000,16 @@ ACMD(do_weather)
 
   if (OUTSIDE(ch))
     {
-    send_to_char(ch, "weather:The sky is %s and %s.\r\n", sky_look[weather_info.sky], weather_info.change >= 0 ? "you feel a cool breeze" : "your foot tells you bad weather is due");
+    send_to_char(ch, "\nThe sky is %s and %s.\r", sky_look[weather_info.sky], weather_info.change >= 0 ? "you feel a cool breeze" : "you feel the weather changing");
     if (GET_LEVEL(ch) >= LVL_DEVA)
-      send_to_char(ch, "Pressure: %d (change: %d), Sky: %d (%s)\r\n",
+      send_to_char(ch, "\nPressure: %d (change: %d), Sky: %d (%s)\r",
                  weather_info.pressure,
                  weather_info.change,
                  weather_info.sky,
                  sky_look[weather_info.sky]);
     }
   else
-    send_to_char(ch, "\nweather:inside:You are appear to be indoors.\r");
+    send_to_char(ch, "\nWow... This inside weather is awesome.\r");
 }
 
 /* puts -'s instead of spaces */
@@ -1060,7 +1060,7 @@ ACMD(do_help)
   skip_spaces(&argument);
 
   if (!help_table) {
-    send_to_char(ch, "\ninfo:No help available.\r");
+    send_to_char(ch, "\nNo help available.\r");
     return;
   }
 
@@ -1075,7 +1075,7 @@ ACMD(do_help)
   space_to_minus(argument);
 
   if ((mid = search_help(argument, GET_LEVEL(ch))) == NOWHERE) {
-    send_to_char(ch, "\nhelp:empty:There is no help on that word.\r");
+    send_to_char(ch, "\nThere is no help found for that word.\r");
     mudlog(NRM, MIN(LVL_IMPL, GET_INVIS_LEV(ch)), TRUE,
       "\ninfo:%s tried to get help on %s\r", GET_NAME(ch), argument);
     for (i = 0; i < top_of_helpt; i++)  {
@@ -1086,10 +1086,10 @@ ACMD(do_help)
         continue;
       if (levenshtein_distance(argument, help_table[i].keywords) <= 2) {
         if (!found) {
-          send_to_char(ch, "\nhelp:list:Did you mean:\r");
+          send_to_char(ch, "\nDid you mean...\r");
           found = 1;
         }
-        send_to_char(ch, "\nhelp:link:Help %s\r", help_table[i].keywords);
+        send_to_char(ch, "\ncmd:#mud > help %s\r", help_table[i].keywords);
       }
     }
     return;
@@ -1118,8 +1118,8 @@ ACMD(do_who)
     int max_level;
     int count; /* must always start as 0 */
   } rank[] = {
-    { "Immortals\r\n---------\r\n", LVL_IMMORT, LVL_IMPL, 0},
-    { "Mortals\r\n-------\r\n", 1, LVL_IMMORT - 1, 0 },
+    { "\nImmortals\r\n---------\r", LVL_IMMORT, LVL_IMPL, 0},
+    { "\nMortals\r\n-------\r", 1, LVL_IMMORT - 1, 0 },
     { "\n", 0, 0, 0 }
   };
 
@@ -1331,14 +1331,14 @@ ACMD(do_who)
   if (short_list && num_can_see % 4)
     send_to_char(ch, "\r\n");
   if (!num_can_see)
-    send_to_char(ch, "\ninfo:Nobody at all!\r");
+    send_to_char(ch, "\nNobody at all!\r");
   else if (num_can_see == 1)
-    send_to_char(ch, "\ninfo:One lonely character displayed.\r");
+    send_to_char(ch, "\nOne lonely character displayed.\r");
   else
-    send_to_char(ch, "\ninfo:%d characters displayed.\r", num_can_see);
+    send_to_char(ch, "\n%d characters displayed.\r", num_can_see);
 
   if (IS_HAPPYHOUR > 0){
-    send_to_char(ch, "info:happy:It's a Happy Hour! Type [happyhour] to see the current bonuses.\r");
+    send_to_char(ch, "It's a Happy Hour! Type [happyhour] to see the current bonuses.\r");
   }
 }
 
@@ -1482,7 +1482,7 @@ ACMD(do_users)
     }
   }
 
-  send_to_char(ch, "\ninfo:socket:%d visible sockets connected.\r", num_can_see);
+  send_to_char(ch, "\nThere are %d visible sockets connected.\r", num_can_see);
 }
 
 /* Generic page_string function for displaying text */
@@ -1527,10 +1527,10 @@ ACMD(do_gen_ps)
     send_to_char(ch, "\033[H\033[J");
     break;
   case SCMD_VERSION:
-    send_to_char(ch, "%s\r\n", tbamud_version);
+    send_to_char(ch, "\n%s\r", tbamud_version);
     break;
   case SCMD_WHOAMI:
-    send_to_char(ch, "%s\r\n", GET_NAME(ch));
+    send_to_char(ch, "\n%s\r", GET_NAME(ch));
     break;
   default:
     log("SYSERR: Unhandled case in do_gen_ps. (%d)", subcmd);
@@ -1575,7 +1575,7 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
       send_to_char(ch, "%-25s%s - %s%s\r\n", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
       return;
     }
-    send_to_char(ch, "\ninfo:none:Nobody around by that name.\r");
+    send_to_char(ch, "\nThere is Nobody around by that name.\r");
   }
 }
 
@@ -1616,8 +1616,8 @@ static void perform_immort_where(struct char_data *ch, char *arg)
   int num = 0, found = 0;
 
   if (!*arg) {
-    send_to_char(ch, "Players  Room    Location                       Zone\r\n");
-    send_to_char(ch, "-------- ------- ------------------------------ -------------------\r\n");
+    send_to_char(ch, "\nPlayers  Room    Location                       Zone\r");
+    send_to_char(ch, "\n-------- ------- ------------------------------ -------------------\r");
     for (d = descriptor_list; d; d = d->next)
       if (IS_PLAYING(d)) {
         i = (d->original ? d->original : d->character);
@@ -1645,7 +1645,7 @@ static void perform_immort_where(struct char_data *ch, char *arg)
           else
             send_to_char(ch, "[TRIGS] ");
         }
-      send_to_char(ch, "%s\r\n", QNRM);
+      send_to_char(ch, "\n%s\r", QNRM);
       }
     for (num = 0, k = object_list; k; k = k->next)
       if (CAN_SEE_OBJ(ch, k) && isname(arg, k->name)) {
@@ -1653,7 +1653,7 @@ static void perform_immort_where(struct char_data *ch, char *arg)
         print_object_location(++num, k, ch, TRUE);
       }
     if (!found)
-      send_to_char(ch, "Couldn't find any such thing.\r\n");
+      send_to_char(ch, "\nYour search yielded fruitless results.\r");
   }
 }
 
@@ -1706,11 +1706,11 @@ ACMD(do_levels)
     }
     else
     {
-      send_to_char(ch, "Usage: %slevels [<min>-<max> | <range>]%s\r\n\r\n", QYEL, QNRM);
-      send_to_char(ch, "Displays exp required for levels.\r\n");
-      send_to_char(ch, "%slevels       %s- shows all levels (1-%d)\r\n", QCYN, QNRM, (LVL_IMMORT-1));
-      send_to_char(ch, "%slevels 5     %s- shows 5 levels either side of your current level\r\n", QCYN, QNRM);
-      send_to_char(ch, "%slevels 10-40 %s- shows level 10 to level 40\r\n",QCYN, QNRM);
+      send_to_char(ch, "\nUsage: %slevels [<min>-<max> | <range>]%s\r", QYEL, QNRM);
+      send_to_char(ch, "\nDisplays exp required for levels.\r");
+      send_to_char(ch, "\n%slevels       %s- shows all levels (1-%d)\r", QCYN, QNRM, (LVL_IMMORT-1));
+      send_to_char(ch, "\n%slevels 5     %s- shows 5 levels either side of your current level\r", QCYN, QNRM);
+      send_to_char(ch, "\n%slevels 10-40 %s- shows level 10 to level 40\r",QCYN, QNRM);
       return;
     }
   }
@@ -1731,7 +1731,7 @@ ACMD(do_levels)
       nlen = snprintf(buf + len, sizeof(buf) - len, "%s\r\n", title_female(GET_CLASS(ch), i));
       break;
     default:
-      nlen = snprintf(buf + len, sizeof(buf) - len, "Oh dear.  You seem to be sexless.\r\n");
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\nYou are sexless.\r");
       break;
     }
     if (len + nlen >= sizeof(buf))
@@ -1740,7 +1740,7 @@ ACMD(do_levels)
   }
 
   if (len < sizeof(buf) && max_lev == LVL_IMMORT)
-    snprintf(buf + len, sizeof(buf) - len, "[%2d] %8d          : Immortality\r\n",
+    snprintf(buf + len, sizeof(buf) - len, "[%2d] %8d: Immortality\r\n",
 		LVL_IMMORT, level_exp(GET_CLASS(ch), LVL_IMMORT));
   page_string(ch->desc, buf, TRUE);
 }
@@ -1754,41 +1754,42 @@ ACMD(do_consider)
   one_argument(argument, buf);
 
   if (!(victim = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "Consider killing who?\r\n");
+    send_to_char(ch, "\nConsider who?\r");
     return;
   }
   if (victim == ch) {
-    send_to_char(ch, "Easy!  Very easy indeed!\r\n");
+    send_to_char(ch, "\nEasy! Very easy indeed!\r");
     return;
   }
+
   if (!IS_NPC(victim)) {
-    send_to_char(ch, "Would you like to borrow a cross and a shovel?\r\n");
+    send_to_char(ch, "\nWould you like some help with that?\r");
     return;
   }
   diff = (GET_LEVEL(victim) - GET_LEVEL(ch));
 
   if (diff <= -10)
-    send_to_char(ch, "Now where did that chicken go?\r\n");
+    send_to_char(ch, "\nNow where did they run off to?\r");
   else if (diff <= -5)
-    send_to_char(ch, "You could do it with a needle!\r\n");
+    send_to_char(ch, "\nYou could do it with a needle!\r");
   else if (diff <= -2)
-    send_to_char(ch, "Easy.\r\n");
+    send_to_char(ch, "\nAppears Easy.\r");
   else if (diff <= -1)
-    send_to_char(ch, "Fairly easy.\r\n");
+    send_to_char(ch, "\nSeems fairly easy.\r");
   else if (diff == 0)
-    send_to_char(ch, "The perfect match!\r\n");
+    send_to_char(ch, "\nThe perfect match!\r");
   else if (diff <= 1)
-    send_to_char(ch, "You would need some luck!\r\n");
+    send_to_char(ch, "\nYou might need a bit of luck!\r");
   else if (diff <= 2)
-    send_to_char(ch, "You would need a lot of luck!\r\n");
+    send_to_char(ch, "\nYou might need a lot of luck!\r\n");
   else if (diff <= 3)
-    send_to_char(ch, "You would need a lot of luck and great equipment!\r\n");
+    send_to_char(ch, "\nYou might need a lot of luck with great equipment!\r");
   else if (diff <= 5)
-    send_to_char(ch, "Do you feel lucky, punk?\r\n");
+    send_to_char(ch, "\nHow lucky do you reall feel?\r");
   else if (diff <= 10)
-    send_to_char(ch, "Are you mad!?\r\n");
+    send_to_char(ch, "\nAre you insane? You must be to consider something like that.\r");
   else if (diff <= 100)
-    send_to_char(ch, "You ARE mad!\r\n");
+    send_to_char(ch, "\nYou must be crazy!\r");
 }
 
 ACMD(do_diagnose)
@@ -1807,7 +1808,7 @@ ACMD(do_diagnose)
     if (FIGHTING(ch))
       diag_char_to_char(FIGHTING(ch), ch);
     else
-      send_to_char(ch, "Diagnose who?\r\n");
+      send_to_char(ch, "\nDiagnose who?\r");
   }
 }
 
