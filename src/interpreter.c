@@ -101,7 +101,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "autooffer", "autooffer" , POS_DEAD    , do_gen_tog , 0, SCMD_AUTOOFFER },
   { "autosplit", "autospl" , POS_DEAD    , do_gen_tog , 0, SCMD_AUTOSPLIT },
 
-  { "backstab" , "ba"      , POS_STANDING, do_backstab , 1, 0 },
+  { "backstab" , "ba"      , POS_SLEEPING, do_sleep , 0, 0 },
   { "ban"      , "ban"     , POS_DEAD    , do_ban      , LVL_GRDEVA, 0 },
   { "bandage"  , "band"    , POS_RESTING , do_bandage  , 1, 0 },
   { "balance"  , "bal"     , POS_STANDING, do_not_here , 1, 0 },
@@ -191,7 +191,7 @@ cpp_extern const struct command_info cmd_info[] = {
 
   { "junk"     , "j"       , POS_RESTING , do_drop     , 0, SCMD_JUNK },
 
-  { "kill"     , "k"       , POS_FIGHTING, do_kill     , 0, 0 },
+  { "kill"     , "k"       , POS_SLEEPING, do_sleep     , 0, 0 },
   { "kick"     , "ki"      , POS_FIGHTING, do_kick     , 1, 0 },
 
   { "look"     , "l"       , POS_RESTING , do_look     , 0, SCMD_LOOK },
@@ -301,7 +301,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "split"    , "split"   , POS_SITTING , do_split    , 1, 0 },
   { "stand"    , "st"      , POS_RESTING , do_stand    , 0, 0 },
   { "stat"     , "stat"    , POS_DEAD    , do_stat     , LVL_IMMORT, 0 },
-  { "steal"    , "ste"     , POS_STANDING, do_steal    , 1, 0 },
+  { "steal"    , "ste"     , POS_SLEEPING, do_sleep    , 0, 0 },
   { "switch"   , "switch"  , POS_DEAD    , do_switch   , LVL_DEVA, 0 },
 
   { "tell"     , "t"       , POS_DEAD    , do_tell     , 0, 0 },
