@@ -122,6 +122,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "consider" , "con"     , POS_RESTING , do_consider , 0, 0 },
   { "commands" , "com"     , POS_DEAD    , do_commands , 0, SCMD_COMMANDS },
   { "compact"  , "comp"    , POS_DEAD    , do_gen_tog  , 0, SCMD_COMPACT },
+  { "compassion"    , "co"     , POS_STANDING, do_compassion , 0, 0 },
   { "copyover" , "copyover", POS_DEAD    , do_copyover , LVL_GRDEVA, 0 },
   { "credits"  , "cred"    , POS_DEAD    , do_gen_ps   , 0, SCMD_CREDITS },
 

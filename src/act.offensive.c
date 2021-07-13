@@ -21,6 +21,14 @@
 #include "fight.h"
 #include "mud_event.h"
 
+/* Compassion Command */
+ACMD(do_compassion)
+{
+  send_to_char(ch, "\nAmazing you are developing compassion.\r");
+  return;
+}
+
+
 ACMD(do_assist)
 {
   char arg[MAX_INPUT_LENGTH];
@@ -97,6 +105,9 @@ ACMD(do_hit)
 
 ACMD(do_kill)
 {
+  send_to_char(ch, "\nYou should learn killing is bad.\r");
+  return;
+
   char arg[MAX_INPUT_LENGTH];
   struct char_data *vict;
 
@@ -124,6 +135,9 @@ ACMD(do_kill)
 
 ACMD(do_backstab)
 {
+  send_to_char(ch, "\nYou should learn backstabbing is bad.\r");
+  return;
+
   char buf[MAX_INPUT_LENGTH];
   struct char_data *vict;
   int percent, prob;

@@ -47,6 +47,10 @@ ACMD(do_page);
 ACMD(do_reply);
 ACMD(do_tell);
 ACMD(do_write);
+
+// Commands added Jul 12, 2021
+ACMD(do_compassion);
+
 /*****************************************************************************
  * Begin Functions and defines for act.informative.c
  ****************************************************************************/
@@ -186,6 +190,7 @@ ACMD(do_rescue);
 ACMD(do_whirlwind);
 ACMD(do_bandage);
 
+
 /*****************************************************************************
  * Begin Functions and defines for act.other.c
  ****************************************************************************/
@@ -250,8 +255,6 @@ ACMD(do_split);
 ACMD(do_steal);
 ACMD(do_title);
 ACMD(do_visible);
-
-// Commands added Jul 12, 2021
 
 /*****************************************************************************
  * Begin Functions and defines for act.social.c
