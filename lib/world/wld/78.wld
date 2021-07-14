@@ -74,16 +74,16 @@ Main Street
 ~
 0 0 7804
 E
-south~
-You see the gate leading to the Village of Disneyland.
+gate~
+A carefully painted sign is hanging on the gate.
 ~
 E
 sign~
 The sign reads "Welcome to the Village of Disneyland".
 ~
 E
-gate~
-A carefully painted sign is hanging on the gate.
+south~
+You see the gate leading to the Village of Disneyland.
 ~
 S
 #7804
@@ -160,7 +160,7 @@ D2
 D3
 ~
 ~
-0 0 7806
+0 0 7811
 S
 #7808
 Disneyland Monorail~
@@ -213,10 +213,18 @@ The Space Bar~
 adv:world:7811/main
 ~
 78 144 0 0 0 1
+D1
+~
+~
+0 0 7807
 D2
 ~
 ~
 0 0 7806
+D3
+~
+~
+0 0 7828
 S
 #7812
 The Character Shop~
@@ -247,12 +255,12 @@ D0
 ~
 0 0 7818
 E
-stroller strollers wheelchair wheelchairs~
-adv:world:7813/strollers
-~
-E
 souvenir souvenirs stand~
 adv:world:7813/souvenirs
+~
+E
+stroller strollers wheelchair wheelchairs~
+adv:world:7813/strollers
 ~
 S
 #7814
@@ -478,6 +486,10 @@ D0
 ~
 ~
 0 0 7808
+D1
+~
+~
+0 0 7811
 D2
 ~
 ~
