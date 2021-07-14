@@ -186,12 +186,7 @@ adv:world:3308/tracks
 S
 #3309
 A Steep Slope~
-   This slopes leads down and to the west from here.  Up
-above, you see a plateau at the southern end of a long
-mountain ridge.  Surpisingly, there seems to be signs of
-traffic in this area, leading into the large depression
-here.  The going looks somewhat dangerous, and you decide
-to exercise a little caution.
+adv:world:3309/main
 ~
 33 0 0 0 0 4
 D0
@@ -208,17 +203,12 @@ D4
 0 -1 3308
 E
 signs tracks~
-   A few boot prints lead way in the dust here.  There is definitely traffic
-here, but this area is not what you would call well-travelled.
+adv:world:3309/tracks
 ~
 S
 #3310
 A Small Plateau~
-   You are standing upon another mini-plateau, bordered by
-a sheer wall of rock to the north.  You can climb up the
-slope to the east, or continue along the flat area to the
-west.  Another slope leads downwards to the south, looking
-unsafe but climbable.
+adv:world:3310/main
 ~
 33 0 0 0 0 4
 D1
