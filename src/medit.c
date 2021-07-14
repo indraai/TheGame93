@@ -310,7 +310,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Position\r");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\nmenu:%s:%d\r", position_types[i], ++count);
+    write_to_output(d, "\nmenu:%d:%s\r", ++count, position_types[i]);
   }
 }
 
