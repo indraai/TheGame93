@@ -513,7 +513,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
-      send_to_char(ch, "\nadv:world:%d/main\r", GET_ROOM_VNUM(IN_ROOM(ch));
+      send_to_char(ch, "\nadv:world:%d/main\r", GET_ROOM_VNUM(IN_ROOM(ch)));
   }
 
   /* autoexits */
