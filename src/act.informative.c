@@ -540,7 +540,12 @@ static void look_in_direction(struct char_data *ch, int dir)
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\nThe %s is open.\r", fname(EXIT(ch, dir)->keyword));
     else
-      send_to_char(ch, "\nadv:world:%d/look\r", GET_ROOM_VNUM(IN_ROOM(ch)));
+      send_to_char(ch,
+        "\n## %s\r"
+        "\nadv:world:%d/look\r",
+        fname(EXIT(ch, dir)->keyword),
+        GET_ROOM_VNUM(IN_ROOM(ch))
+      );
 
   } else
     send_to_char(ch, "\nYou reach into the depths of your own mind and think...\r");
