@@ -541,9 +541,8 @@ static void look_in_direction(struct char_data *ch, int dir)
       send_to_char(ch, "\nThe %s is open.\r", fname(EXIT(ch, dir)->keyword));
     else
       send_to_char(ch,
-        "\n## %s\r"
+        "\n## Look\r"
         "\nadv:world:%d/look\r",
-        fname(EXIT(ch, dir)->keyword),
         GET_ROOM_VNUM(IN_ROOM(ch))
       );
 
