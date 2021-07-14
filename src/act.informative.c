@@ -543,7 +543,7 @@ static void look_in_direction(struct char_data *ch, int dir)
       send_to_char(ch,
         "\n## Look\r"
         "\nadv:world:%d/look\r",
-        EXIT(ch, dir)->number
+        GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
   } else
