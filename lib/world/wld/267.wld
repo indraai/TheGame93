@@ -1,5 +1,5 @@
 #26700
-Quinn Island Zone Description Room~
+The Island Zone Description Room~
 adv:world:26700/main
 ~
 267 0 0 0 0 0
@@ -86,7 +86,6 @@ A large hill rises to your east.
 ~
 0 0 26739
 D3
-You see a well-kept trail.
 ~
 ~
 0 0 26703
@@ -97,12 +96,10 @@ adv:world:26706/main
 ~
 267 16 0 0 0 2
 D1
-The creepy road continues east.
 ~
 ~
 0 0 26707
 D3
-The huge Vice Hill lies to your west.
 ~
 ~
 0 0 26739
@@ -113,12 +110,10 @@ adv:world:26707/main
 ~
 267 16 0 0 0 1
 D1
-The creepy road continues east.
 ~
 ~
 0 0 26708
 D3
-The creepy road continues west.
 ~
 ~
 0 0 26706
@@ -129,23 +124,20 @@ adv:world:26708/main
 ~
 267 16 0 0 0 1
 D1
-You know, like we said, a large building lieing to your east and all.
 ~
 ~
 0 0 26745
 D3
-The creepy road continues west.
 ~
 ~
 0 0 26707
 E
-building~
-The building is a dark gray shade, but it seems to have been soiled by grimy
-tar.
+crystal crystals~
+adv:world:26708/crystal
 ~
 E
-skeletons~
-   They're quite real, and quite frightening.  We weren't lying to you.
+building~
+adv:world:26708/building
 ~
 S
 #26709
@@ -190,18 +182,16 @@ adv:world:26711/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26713
 D1
-The tarry tunnel ascends onto a hill to your east.
 ~
 ~
 0 0 26723
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26711/water
 ~
 S
 #26712
@@ -210,18 +200,16 @@ adv:world:26712/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26714
 D3
-The tarry ascends onto a hill to your west.
 ~
 ~
 0 0 26723
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26712/water
 ~
 S
 #26713
@@ -230,18 +218,16 @@ adv:world:26713/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26715
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26711
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26713/water
 ~
 S
 #26714
@@ -250,18 +236,16 @@ adv:world:26714/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26716
 D2
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26712
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26714/water
 ~
 S
 #26715
@@ -270,18 +254,16 @@ adv:world:26715/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26717
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26713
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+water pure~
+adv:world:26715/water
 ~
 S
 #26716
@@ -290,18 +272,16 @@ adv:world:26716/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26718
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26714
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26716/water
 ~
 S
 #26717
@@ -310,18 +290,16 @@ adv:world:26717/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26719
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26715
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26717/water
 ~
 S
 #26718
@@ -330,18 +308,16 @@ adv:world:26718/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26720
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26716
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26718/water
 ~
 S
 #26719
@@ -350,18 +326,16 @@ adv:world:26719/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26721
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26717
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26719/water
 ~
 S
 #26720
@@ -370,18 +344,16 @@ adv:world:26720/main
 ~
 267 280 0 0 0 0
 D0
-The tarry tunnel continues to your north.
 ~
 ~
 0 0 26722
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26718
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26720/water
 ~
 S
 #26721
@@ -390,18 +362,16 @@ adv:world:26721/main
 ~
 267 280 0 0 0 0
 D1
-The tarry tunnel opens into a strange building to your east.
 ~
 ~
 0 0 26778
 D2
-The tarry tunnel continues to your south.
 ~
 ~
 0 0 26719
 E
-goo tar~
-   The tar looks disgusting, but not too dangerous.
+pure water~
+adv:world:26721/water
 ~
 S
 #26722
@@ -476,7 +446,7 @@ D2
 ~
 0 0 26724
 E
-sign note writings writing inscription inscriptions~
+sign note writing~
 adv:world:26725/sign
 ~
 S
@@ -634,12 +604,10 @@ adv:world:26736/main
 ~
 267 16 0 0 0 2
 D0
-The strange trail continues on.
 ~
 ~
 0 0 26734
 D2
-The strange trail continues on.
 ~
 ~
 0 0 26738
@@ -705,8 +673,8 @@ adv:world:26739/view
 ~
 S
 #26740
-Cliff Road~
-   The road is quite slippery here, and you can see to your far south what
+Cliff Rd.~
+   The road is quite slippery here, and to your far south what
 looks like a dropoff into absolute nothingness.  Rocks skitter as you slide
 around the road.  It really looks quite dangerous--the hill would be a much
 safer way to look at the view.
@@ -722,13 +690,13 @@ D3
 0 0 26741
 E
 cliff~
-   You can't quite see it yet--all you can see is a line that extends across the
+   You can't quite see it yet just is a line that extends across the
 horizon.
 ~
 S
 #26741
-Cliff Road~
-   The road is even more slippery here, and you can see to your south what
+Cliff Rd.~
+   The road is even more slippery here, and to your south what
 looks like a dropoff into absolute nothingness.  Rocks skitter as you slide
 around the road.  It really looks quite dangerous--you'd be much better going
 back--now.
@@ -748,12 +716,12 @@ D3
 0 0 26742
 E
 cliff~
-   You can now see a little of it.  It looks quite unstable.
+You can now see a little of it.  It looks quite unstable.
 ~
 S
 #26742
-Cliff Road~
-   The road is quite slippery here, and you can see to your south what looks
+Cliff Rd.~
+   The road is quite slippery here, and to your south what looks
 like a dropoff into absolute nothingness.  Rocks skitter as you slide around
 the road.  It really looks quite dangerous--you'd be much better going
 back--now.
@@ -769,11 +737,11 @@ D3
 0 0 26743
 E
 cliff~
-   You can see it.  It looks quite close.  It looks very dangerous.
+It looks quite close.  It looks very dangerous.
 ~
 S
 #26743
-Cliff Road~
+Cliff Rd.~
    What a view!  If you weren't having such trouble staying up, you could see
 it much better.  Each step brings you closer to the edge--it looks very danger-
 ous, and the cliff's edge is quite close now.  The ground is beginning to shake
@@ -822,7 +790,6 @@ There is picture or something on one of the walls...
 ~
 0 0 26746
 D3
-The creepy road continues in that direction.
 ~
 ~
 0 0 26708
@@ -832,17 +799,15 @@ adv:world:26745/sign
 ~
 S
 #26746
-Tapestry Room~
+Gallery~
 adv:world:26746/main
 ~
 267 24 0 0 0 0
 D1
-You see a room filled with trophies.
 ~
 ~
 0 0 26748
 D3
-You can see the entrance to the Building of Fear.
 ~
 ~
 0 0 26745
@@ -857,7 +822,7 @@ D2
 ~
 1 0 26748
 E
-gargoyle statue~
+statue~
 adv:world:26747/statue
 ~
 S
@@ -867,24 +832,18 @@ adv:world:26748/main
 ~
 267 24 0 0 0 0
 D0
-There's something very strange up ahead. It looks like a huge statue--but you
-can clearly see a gaping maw...no human would ever make something so grotesque.
-It's quite frightening...it's probably not good that you go in there.
 ~
-glass glassdoor door~
+~
 2 26729 26747
 D1
-You see what looks to be a comfortable(?) waiting room.
 ~
 ~
 0 0 26750
 D2
-You see nothing but a slight unevenness in the wall.
 ~
-door secret~
+~
 1 26730 26749
 D3
-You can see a room filled with strange and horrifying tapestries.
 ~
 ~
 0 0 26746
@@ -894,28 +853,25 @@ adv:world:26748/pedestal
 ~
 S
 #26749
-Dressing Room~
+Coat Room~
 adv:world:26749/main
 ~
 267 24 0 0 0 0
 D0
-You see the strange trophy room.
 ~
-door secret~
+~
 1 26730 26748
 S
 #26750
-Singing Tower~
+Tower~
 adv:world:26750/main
 ~
 267 24 0 0 0 0
 D3
-You can see the trophy room.
 ~
 ~
 0 -1 26748
 D4
-The spiral staircase ascends up farther than the eye can see.
 ~
 ~
 0 -1 26751
@@ -930,12 +886,10 @@ adv:world:26751/main
 ~
 267 24 0 0 0 0
 D4
-You see a very weirdly shaped hallway.
 ~
 ~
 0 -1 26753
 D5
-You see the bottom of the staircase.
 ~
 ~
 0 -1 26750
@@ -946,9 +900,8 @@ adv:world:26752/main
 ~
 267 236 0 0 0 0
 D0
-You can see the strangely shaped hallway.
 ~
-bars cell door~
+cell~
 1 26713 26753
 E
 storage cabinet medicine perfume deodorant~
@@ -985,17 +938,14 @@ adv:world:26753/main
 ~
 267 24 0 0 0 0
 D0
-You see what looks to be the smoldered remains of a bonfire.
 ~
-door~
+~
 1 -1 26754
 D1
-You see what look to be crates and crates of supplies.
 ~
-door~
+~
 2 26731 26755
 D2
-You see the bars of what is obviously a prison cell.
 ~
 Prison~
 1 26713 26752
@@ -1016,9 +966,8 @@ adv:world:26754/main
 ~
 267 24 0 0 0 0
 D2
-You can see the strangely-shaped hallway.
 ~
-door~
+~
 1 -1 26753
 E
 water bed fountain basin~
@@ -1031,9 +980,8 @@ adv:world:26755/main
 ~
 267 24 0 0 0 0
 D3
-You can see the strangely-shaped hallway.
 ~
-door~
+~
 2 26731 26753
 E
 crates~
@@ -1046,9 +994,8 @@ adv:world:26756/main
 ~
 267 760 0 0 0 0
 D0
-You see the hallway.
 ~
-door~
+~
 1 -1 26757
 E
 dresser~
@@ -1065,27 +1012,22 @@ adv:world:26757/main
 ~
 267 24 0 0 0 0
 D0
-You can see the creepy hallway.
 ~
 ~
 0 0 26759
 D1
-You can see a door.
 ~
 Office~
 1 -1 26758
 D2
-You can see a door.
 ~
 Bedroom~
 1 -1 26756
 D3
-You can see the creepy hallway.
 ~
 ~
 0 0 26761
 D5
-The stairs descend downwards into nothingness.
 ~
 ~
 0 0 26753
@@ -1096,9 +1038,8 @@ adv:world:26758/main
 ~
 267 24 0 0 0 0
 D3
-You can see the creepy hallway.
 ~
-door~
+~
 1 0 26757
 E
 bowl water~
@@ -1119,12 +1060,10 @@ adv:world:26759/main
 ~
 267 24 0 0 0 0
 D0
-You can't see much in that direction.
 ~
 Closet~
 1 -1 26760
 D2
-You see the creepy hallway.
 ~
 ~
 0 -1 26757
@@ -1135,7 +1074,6 @@ adv:world:26760/main
 ~
 267 24 0 0 0 0
 D2
-You see the creepy hallway.
 ~
 Creepy Hallway~
 1 -1 26759
@@ -1146,12 +1084,10 @@ adv:world:26761/main
 ~
 267 24 0 0 0 0
 D0
-You see the creepy hallway.
 ~
 ~
 0 0 26762
 D1
-You see the creepy hallway.
 ~
 ~
 0 0 26757
@@ -1162,12 +1098,10 @@ adv:world:26762/main
 ~
 267 24 0 0 0 0
 D0
-You see the creepy hallway.
 ~
 ~
 0 0 26763
 D2
-You see the creepy hallway.
 ~
 ~
 0 0 26761
@@ -1178,12 +1112,10 @@ adv:world:26763/main
 ~
 267 24 0 0 0 0
 D2
-You see the creepy hallway.
 ~
 ~
 0 0 26762
 D3
-The end of the hallways opens up into the outside. It looks to be a balcony.
 ~
 ~
 0 0 26764
@@ -1194,7 +1126,6 @@ adv:world:26764/main
 ~
 267 16 0 0 0 1
 D1
-You see the creepy hallway.
 ~
 ~
 0 0 26763
@@ -1215,12 +1146,10 @@ adv:world:26766/main
 ~
 267 24 0 0 0 0
 D2
-You see the outlay.
 ~
-door~
+~
 1 26733 26767
 D3
-You see the chamber.
 ~
 ~
 1 -1 26765
@@ -1232,7 +1161,7 @@ adv:world:26767/main
 267 24 0 0 0 0
 D0
 ~
-door secret~
+~
 1 26733 26766
 D2
 ~
@@ -1283,12 +1212,10 @@ adv:world:26771/main
 ~
 267 8 0 0 0 0
 D1
-You see nothing here.
 ~
 ~
 0 0 26778
 D3
-You see a waiting room.
 ~
 ~
 0 0 26772
@@ -1348,7 +1275,7 @@ adv:world:26777/main
 267 24 0 0 0 0
 D2
 ~
-door secret~
+~
 1 26733 26776
 D4
 ~
@@ -1361,7 +1288,6 @@ adv:world:26778/main
 ~
 267 24 0 0 0 0
 D0
-You see nothing here.
 ~
 ~
 0 0 26767
@@ -1370,7 +1296,6 @@ D1
 ~
 0 0 26722
 D2
-You see nothing here.
 ~
 ~
 0 0 26768
@@ -1379,12 +1304,10 @@ D3
 ~
 0 0 26721
 D4
-You see nothing here.
 ~
 ~
 0 0 26773
 D5
-You see nothing here.
 ~
 ~
 0 0 26777
@@ -1397,7 +1320,7 @@ S
 Hall of Imagination~
    You stand on a dusty floor in a fallen-down hut.  Just to the east, you can
 see the remains of a deserted corridor.  The entire chamber is empty and devoid
-of anything of any real interest.  You can see an transporter platform to your
+of anything of any real interest.  A platform to your
 north.  All around you are depictions of people in inescapable situations.
 ~
 267 24 0 0 0 0
@@ -1406,60 +1329,53 @@ D0
 ~
 0 0 26781
 D2
-You can see a tarry tunnel.
 ~
 ~
 0 0 26722
 S
 #26780
-Deserted Corridor~
-   A damp, musty hall leads north.  You detect no sounds--in fact, all sounds
+Corridor~
+A damp, musty hall leads north.  You detect no sounds--in fact, all sounds
 seem to be muted in this strange place.  The air seem thicker and heavier than
 usual.
 ~
 267 8 0 0 0 0
 D0
-You see a deserted corridor.
 ~
 ~
 0 0 26781
 D1
-You see nothing.
 ~
-door secret~
+~
 1 0 26783
 D3
-You can see the entrance to the Hall of Hopelessness.
 ~
 ~
 0 0 26779
 S
 #26781
-Deserted Corridor~
-   A damp, musty hall leads north and south.  You detect no sounds--in fact,
+Corridor~
+A damp, musty hall leads north and south.  You detect no sounds--in fact,
 all sounds seem to me muted in this strange place.  The air seem thicker and
 heavier than usual.
 ~
 267 8 0 0 0 0
 D0
-You see a deserted corridor.
 ~
 ~
 0 0 26782
 D1
-You see nothing.
 ~
-door secret~
+~
 1 0 26783
 D2
-You see a deserted corridor.
 ~
 ~
 0 0 26780
 S
 #26782
-Deserted Corridor~
-   A damp, musty hall leads south.  You detect no sounds--in fact, all sounds
+Corridor~
+A damp, musty hall leads south.  You detect no sounds--in fact, all sounds
 seem to be muted in this strange place.  The air seem thicker and heavier than
 usual.
 ~
@@ -1469,22 +1385,20 @@ D1
 ~
 0 0 26783
 D2
-You see a deserted corridor.
 ~
 ~
 1 0 26781
 S
 #26783
-Dark Room~
-   The walls are totally painted black in this strange room.  You can detect
+Bedroom~
+The walls are totally painted black in this strange room.  You can detect
 nothing short of your hand in front of your face.  The air seem thicker and
 heavier than usual.
 ~
 267 9 0 0 0 0
 D3
-You can see the deserted corridor.
 ~
-door secret~
+~
 1 0 26781
 S
 #26784
@@ -1633,7 +1547,7 @@ D2
 0 0 26743
 S
 #26792
-Entrance to the Office of the High Priest of Terror~
+Office Entrance~
 adv:world:26792/main
 ~
 267 8 0 0 0 0
@@ -1649,7 +1563,7 @@ adv:world:26791/look
 0 -1 26791
 S
 #26793
-Hall of Torture~
+Hall of Expression~
 adv:world:26793/main
 ~
 267 8 0 0 0 0
@@ -1682,7 +1596,7 @@ adv:world:26797/look
 D2
 adv:world:26795/look
 ~
-door~
+~
 1 26734 26795
 S
 #26795
@@ -1713,7 +1627,7 @@ adv:world:26795/chair
 ~
 S
 #26797
-Temple of Soma (Entrance)~
+Temple (Entrance)~
 adv:world:26797/main
 ~
 267 24 0 0 0 0
