@@ -528,17 +528,22 @@ void look_at_room(struct char_data *ch, int ignore_brief)
 static void look_in_direction(struct char_data *ch, int dir)
 {
   if (EXIT(ch, dir)) {
+    /*
     if (EXIT(ch, dir)->general_description)
       send_to_char(ch, "\n%s\r", EXIT(ch, dir)->general_description);
     else
       send_to_char(ch, "\nYou see nothing special.\r");
+    */
 
     if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\nThe %s is closed.\r", fname(EXIT(ch, dir)->keyword));
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\nThe %s is open.\r", fname(EXIT(ch, dir)->keyword));
+    else
+      send_to_char(ch, "\nadv:world:%d/look\r", GET_ROOM_VNUM(IN_ROOM(ch)));
+
   } else
-    send_to_char(ch, "\nNothing special there...\r");
+    send_to_char(ch, "\nYou reach into the depths of your own mind and think...\r");
 }
 
 static void look_in_obj(struct char_data *ch, char *arg)
