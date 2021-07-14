@@ -506,14 +506,19 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
   else
     /* send room title */
-    send_to_char(ch, "\n# %s\r", world[IN_ROOM(ch)].name);
 
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief || ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
     if(!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOMAP) && can_see_map(ch))
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
-      send_to_char(ch, "\nadv:world:%d/main\r", GET_ROOM_VNUM(IN_ROOM(ch)));
+      send_to_char(ch, "\n# %s\r"
+        "\n=\n"
+        "\nadv:world:%d/main\r"
+        "\n=\n",
+        world[IN_ROOM(ch)].name,
+        GET_ROOM_VNUM(IN_ROOM(ch))
+      );
   }
 
   /* autoexits */
@@ -542,7 +547,8 @@ static void look_in_direction(struct char_data *ch, int dir)
     else
       send_to_char(ch,
         "\n## Look\r"
-        "\nadv:world:%d/look\r",
+        "\nadv:world:%d/look\r"
+        "\n=\n",
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
