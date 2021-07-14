@@ -507,15 +507,13 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   else
     /* send room title */
     send_to_char(ch, "\n# %s\r", world[IN_ROOM(ch)].name);
-  send_to_char(ch, "\n%s\r", CCNRM(ch, C_NRM));
 
-  if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief ||
-      ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
+  if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief || ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
     if(!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOMAP) && can_see_map(ch))
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
-      send_to_char(ch, "\n%s\r", world[IN_ROOM(ch)].description);
+      send_to_char(ch, "\nadv:world:%d/main\r", world[IN_ROOM(ch)].vnum);
   }
 
   /* autoexits */
