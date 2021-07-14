@@ -515,7 +515,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       send_to_char(ch, "\n# %s\r"
         "\n=\n"
         "\nadv:world:%d/main\r"
-        "\n=\n",
+        "\n=\n\n\r",
         world[IN_ROOM(ch)].name,
         GET_ROOM_VNUM(IN_ROOM(ch))
       );
