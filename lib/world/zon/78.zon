@@ -2,7 +2,7 @@
 Arina~
 Disneyland~
 7800 7899 30 2 d 0 0 0 7 14
-M 0 7805 4 7804 	(the village guard)
+M 0 7805 1 7804 	(SecurityPRIME SPY)
 E 1 7816 100 16 	(a slender dagger)
 E 1 7814 50 5 	(some gray leather armor)
 E 1 7815 100 8 	(a pair of gray leather boots)
@@ -14,7 +14,7 @@ M 0 7809 1 7823 	(a husky hunter)
 E 1 7822 100 16 	(a spiked club)
 M 0 7807 1 7812 	(an elven gardner)
 E 1 7821 100 16 	(a pitchfork)
-M 0 7806 1 7809 	(the village fool)
+M 0 7806 10 7809 	(Goofy)
 E 1 7820 100 16 	(a red stripped juggling pin)
 E 1 7817 100 7 	(a pair of rainbow stripped pants)
 E 1 7818 100 5 	(a pink polkadot frock)
