@@ -554,7 +554,7 @@ static void look_in_direction(struct char_data *ch, int dir)
         EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
-      )
+      );
 
     else
       send_to_char(ch,
