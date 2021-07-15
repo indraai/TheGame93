@@ -2331,10 +2331,8 @@ void add_history(struct char_data *ch, char *str, int type)
   struct txt_block *tmp;
   time_t ct;
 
-  /* COMMENTING OUT BECAUSE IT STOP NPM HISTORY TRACKING
   if (IS_NPC(ch))
     return;
-  */
 
   tmp = GET_HISTORY(ch, type);
   ct = time(0);
