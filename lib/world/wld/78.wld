@@ -1,6 +1,5 @@
 #7800
 Fantasyland~
-adv:world:7800/main
 ~
 78 144 0 0 0 1
 D1
@@ -13,12 +12,10 @@ D2
 1 0 7801
 E
 credits info~
-adv:world:7800/credits
 ~
 S
 #7801
 Fantasyland Gate~
-adv:world:7801/main
 ~
 78 144 0 0 0 1
 D0
@@ -33,12 +30,10 @@ Fantasyland
 0 0 7802
 E
 entrance~
-adv:world:7801/entrance
 ~
 S
 #7802
 The Plaza~
-adv:world:7802/main
 ~
 78 144 0 0 0 1
 D0
@@ -61,7 +56,6 @@ D3
 S
 #7803
 Main St. & Plaza~
-adv:world:7803/main
 ~
 78 144 0 0 0 1
 D0
@@ -73,22 +67,9 @@ Main Street
 ~
 ~
 0 0 7804
-E
-gate~
-A carefully painted sign is hanging on the gate.
-~
-E
-sign~
-The sign reads "Welcome to the Village of Disneyland".
-~
-E
-south~
-You see the gate leading to the Village of Disneyland.
-~
 S
 #7804
 Main St. & Center~
-adv:world:7804/main
 ~
 78 144 0 0 0 1
 D0
@@ -102,7 +83,6 @@ D2
 S
 #7805
 Tomorrowland~
-adv:world:7805/main
 ~
 78 144 0 0 0 1
 D0
@@ -124,7 +104,6 @@ D3
 S
 #7806
 Rocket Jets~
-adv:world:7806/main
 ~
 78 144 0 0 0 1
 D0
@@ -146,7 +125,6 @@ D3
 S
 #7807
 Tomorrowland Autopia~
-adv:world:7807/main
 ~
 78 144 0 0 0 1
 D1
@@ -164,7 +142,6 @@ D3
 S
 #7808
 Disneyland Monorail~
-adv:world:7808/main
 ~
 78 144 0 0 0 1
 D2
@@ -172,13 +149,11 @@ D2
 ~
 0 0 7828
 E
-pond~
-The water laps at the banks of the pond.  Fish swim lazily around, but wait.. One just jumped out of the water!  What a beauty!
+rail monorail~
 ~
 S
 #7809
 America Sings~
-adv:world:7809/main
 ~
 78 144 0 0 0 1
 D0
@@ -196,7 +171,6 @@ D3
 S
 #7810
 Mission to Mars~
-adv:world:7810/main
 ~
 78 144 0 0 0 1
 D0
@@ -210,7 +184,6 @@ D3
 S
 #7811
 The Space Bar~
-adv:world:7811/main
 ~
 78 144 0 0 0 1
 D1
@@ -228,7 +201,6 @@ D3
 S
 #7812
 The Character Shop~
-adv:world:7812/main
 ~
 78 144 0 0 0 1
 D0
@@ -247,7 +219,6 @@ S
 T 1200
 #7813
 Disneyland (Entrance)~
-adv:world:7813/main
 ~
 78 144 0 0 0 1
 D0
@@ -256,16 +227,13 @@ D0
 0 0 7818
 E
 souvenir souvenirs stand~
-adv:world:7813/souvenirs
 ~
 E
 stroller strollers wheelchair wheelchairs~
-adv:world:7813/strollers
 ~
 S
 #7814
 Adventure Thru Inner Space~
-adv:world:7814/main
 ~
 78 144 0 0 0 1
 D0
@@ -279,7 +247,6 @@ D1
 S
 #7815
 Cobblestone Path~
-adv:world:7815/main
 ~
 78 144 0 0 0 1
 D0
@@ -301,7 +268,6 @@ D3
 S
 #7816
 Adventureland~
-adv:world:7816/main
 ~
 78 144 0 0 0 1
 D0
@@ -315,7 +281,6 @@ D2
 S
 #7817
 Adventureland~
-adv:world:7817/main
 ~
 78 144 0 0 0 1
 D0
@@ -333,7 +298,6 @@ D2
 S
 #7818
 Town Square~
-adv:world:7818/main
 ~
 78 144 0 0 0 1
 D0
@@ -351,7 +315,6 @@ D3
 S
 #7819
 Frontierland~
-adv:world:7819/main
 ~
 78 144 0 0 0 1
 D0
@@ -375,7 +338,6 @@ Stamnell's Bakery
 S
 #7820
 Stamnell's Bakery~
-adv:world:7820/main
 ~
 78 152 0 0 0 0
 D2
@@ -385,7 +347,6 @@ D2
 S
 #7821
 Frontierland~
-adv:world:7821/main
 ~
 78 144 0 0 0 1
 D0
@@ -407,7 +368,6 @@ The sign reads "Vhispera's General Store"
 S
 #7822
 General Store~
-adv:world:7822/main
 ~
 78 152 0 0 0 0
 D2
@@ -417,7 +377,6 @@ D2
 S
 #7823
 Bear Country~
-adv:world:7823/main
 ~
 78 144 0 0 0 1
 D1
@@ -431,7 +390,6 @@ D2
 S
 #7824
 New Orleans Square~
-adv:world:7824/main
 ~
 78 144 0 0 0 1
 D0
@@ -445,7 +403,6 @@ D1
 S
 #7825
 Jungle Cruise~
-adv:world:7825/main
 ~
 78 144 0 0 0 1
 D3
@@ -455,7 +412,6 @@ D3
 S
 #7826
 Swiss Family Treehouse~
-adv:world:7826/main
 ~
 78 152 0 0 0 0
 D0
@@ -479,7 +435,6 @@ D1
 S
 #7828
 America The Beautiful~
-adv:world:7828/main
 ~
 78 144 0 0 0 1
 D0
