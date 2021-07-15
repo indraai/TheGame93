@@ -1,19 +1,14 @@
 #1200
-The Meeting Room~
-The meeting room is plain and very simple.  A circular table sits in the
-middle of the room, lit by some unseen light source.  There are many chairs
-around the table, all empty.  The Immortal Board Room is to the north.
+Meeting Room~
 ~
 12 8 0 0 0 0
 D0
-A frosted glass door with huge silver hinges and silver fixtures are here marking the main meeting room with the TBA company Logo upon the door.  The door is open.
 ~
-door~
+~
 1 -1 34310
 S
 #1201
-The House of Vamraka Indu Indra Deva~
-The House of Vamraka Indu Indra Deva is a large house, holding many small precious stones of the ancients.  When a Deva comes to rent belongings, their essence is stored in the stones.  The north foyer is to the east.
+House AVIIID~
 ~
 12 8 0 0 0 0
 D1
@@ -22,14 +17,12 @@ D1
 0 0 34307
 S
 #1202
-The Deva Ice Box~
-The Ice Box is for good boys and girls that play nice. Inside is the best ice cream and cool milk treats in the UNIVERSE.
+Ice Box~
 ~
 12 184 0 0 0 0
 S
 #1203
 Message Boards~
-1203:Here the Devas can easily post and read messages from the mortal board room without being seen by any mortals.  The eastern foyer is to the north.
 ~
 12 184 0 0 0 0
 D0
@@ -42,18 +35,16 @@ D5
 0 0 3000
 S
 #1204
-The Deva Room~
-adv:world:1204/main
+Deva Room~
 ~
 12 248 0 0 0 0
 D2
-The Devas' Meeting Room is located to the south.
 ~
-undefined~
+~
 1 -1 34308
 E
 original~
-   The main hang out of the Devas, the Immortal Board Room is the place to be. Devas exchange messages here most every day. The mortal board room is to the east and the meeting room for the Devas is to the south. To the north is the Devas' Inn and to the west is a post office for Devas. In the northeast corner you spot a small staircase leading upwards.
+adv:world:1204/original
 ~
 E
 hymn~
@@ -61,8 +52,7 @@ adv:world:1204/hymn
 ~
 S
 #1205
-The Deva Post Office~
-The Post Office Of The Devas is the same as most Post Offices except that it is not as slow. Many offering letters line the walls from loyal followers. The northern foyer is to the west.
+Deva Post Office~
 ~
 12 8 0 0 0 0
 D3
@@ -71,8 +61,7 @@ D3
 0 0 34307
 S
 #1206
-The Deva Business Center~
-1206:This is the Deva Business Center.  It is a very large room with tables and chairs organized with terminals.  It is a business center of the Devas.  There are also several bulletin boards for notices.  The only exit is west through an arch into the southern foyer.
+Deva Business Center~
 ~
 12 8 0 0 0 0
 D0
@@ -85,8 +74,7 @@ D3
 0 0 34309
 S
 #1290
-The Deva Hall~
-You are standing in a large hall, exits lead off to the board rooms of the Devas.  You can enter the hall of builders to the north, to the south are the halls of justice, while to the west you can find the Waiting Room.
+Deva Hall~
 ~
 12 8 0 0 0 0
 D0
@@ -103,8 +91,7 @@ D3
 0 0 1204
 S
 #1291
-The Waiting Room~
-1291:The Waiting Room.
+Waiting Room~
 ~
 12 8 0 0 0 0
 D0
@@ -121,8 +108,7 @@ Justice~
 0 0 1293
 S
 #1292
-The Mortal Board Room~
-Here the Devas have created an exact copy of the mortal board room. Any Devas can easily post and read messages from the mortal board room without being seen by any mortals.  The Deva Hall is to the west.
+Mortal Board Room~
 ~
 12 0 0 0 0 0
 D3
@@ -131,8 +117,7 @@ D3
 0 0 1290
 S
 #1293
-The Halls Of Justice~
-You are standing in a magnificent marble hall, the only exit is back to the north.  Statues of Yama the Deva of Justice line the walls.  You realize this is where the exalted Devas meet to discuss what course of action to take against offenders in the realms.
+Halls Of Justice~
 ~
 12 8 0 0 0 0
 D1
@@ -140,9 +125,8 @@ D1
 Waiting Room~
 1 0 1291
 D2
-A frosted glass door with huge silver hinges and silver fixtures are here marking the Hall of Justice with the Symbol of Justice etched in the glass in the exact center of it.
 ~
-door~
+~
 1 -1 34310
 D4
 ~
