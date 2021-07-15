@@ -551,10 +551,10 @@ static void look_in_direction(struct char_data *ch, int dir)
         "\nadv:world:%d/look\r"
         "\n=\n"
         "\nroom: %d\r",
-        fname(EXIT(ch, dir)->keyword),
+        EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
-      );
+      )
 
     else
       send_to_char(ch,
