@@ -453,29 +453,30 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprintbitarray(room->room_flags, room_bits, RF_ARRAY_MAX, buf1);
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
-      "\n# %d %s\r"
-      "\nzone:%d\r"
-      "\nselect[1:name]:%s\r"
-      "\nselect[2:desc]:%s\r"
-      "\nselect[3:room flags]:%s\r"
-      "\nselect[4:sector type]:%s\r",
-      OLC_NUM(d),
-      room->name,
-      zone_table[OLC_ZNUM(d)].number,
-      room->name,
-      room->description,
-      buf1,
-      buf2);
+    "\n# %d %s\r"
+    "\nselect[1:name]:%s\r"
+    // "\nselect[2:desc]:%s\r"
+    "\nselect[2:room flags]:%s\r"
+    "\nselect[3:sector type]:%s\r"
+    "\nselect[4:script]:%s\r",
+    OLC_NUM(d),
+    room->name,
+    room->name,
+    // room->description,
+    buf1,
+    buf2,
+    OLC_SCRIPT(d) ? "Set." : "Not Set."
+  );
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[5:north]:%d\r"
-      "\nselect[6:east]:%d\r"
-      "\nselect[7:south]:%d\r"
-      "\nselect[8:west]:%d\r"
-      "\nselect[9:up]:%d\r"
-      "\nselect[A:down]:%d\r",
+      "\nselect[n:north]:%d\r"
+      "\nselect[e:east]:%d\r"
+      "\nselect[s:south]:%d\r"
+      "\nselect[w:west]:%d\r"
+      "\nselect[u:up]:%d\r"
+      "\nselect[d:down]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -493,16 +494,16 @@ static void redit_disp_menu(struct descriptor_data *d)
     write_to_output(d,
       "\n## Exits\r"
       "\n----\n"
-      "\nselect[5:north]:%d\r"
-      "\nselect[6:east]:%d\r"
-      "\nselect[7:south]:%d\r"
-      "\nselect[8:west]:%d\r"
-      "\nselect[9:up]:%d\r"
-      "\nselect[A:down]:%d\r"
-      "\nselect[B:northwest]:%d\r"
-      "\nselect[C:northeast]:%d\r"
-      "\nselect[D:southeast]:%d\r"
-      "\nselect[E:southwest]:%d\r",
+      "\nselect[n:north]:%d\r"
+      "\nselect[e:east]:%d\r"
+      "\nselect[s:south]:%d\r"
+      "\nselect[w:west]:%d\r"
+      "\nselect[u:up]:%d\r"
+      "\nselect[d:down]:%d\r"
+      "\nselect[nw:northwest]:%d\r"
+      "\nselect[ne:northeast]:%d\r"
+      "\nselect[se:southeast]:%d\r"
+      "\nselect[sw:southwest]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -527,13 +528,11 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n----\n"
-      "\nselect[s:script]:%s\r"
       "\nmenu:f:extra description\r"
       "\nmenu:w:copy room\r"
       "\nmenu:x:delete room\r"
       "\n----\n"
-      "\nmenu:q:quit\r",
-      OLC_SCRIPT(d) ? "Set." : "Not Set."
+      "\nmenu:q:quit\r"
       );
   OLC_MODE(d) = REDIT_MAIN_MENU;
 }
@@ -588,11 +587,11 @@ void redit_parse(struct descriptor_data *d, char *arg)
         "\n'room name': %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
+    /* DISABLE DESCRIPTION BECASUE SYSTEM GENERATES TEMPLATE STRING
     case '2':
       OLC_MODE(d) = REDIT_DESC;
       clear_screen(d);
       write_to_output(d, "\n### Room Description\r");
-
       send_editor_help(d);
 
       if (OLC_ROOM(d)->description) {
@@ -604,39 +603,38 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
 
       break;
-    case '3':
+    */
+    case '2':
       redit_disp_flag_menu(d);
       break;
-    case '4':
+    case '3':
       redit_disp_sector_menu(d);
       break;
-    case '5':
+    case 'n':
       OLC_VAL(d) = NORTH;
       redit_disp_exit_menu(d);
       break;
-    case '6':
+    case 'e':
       OLC_VAL(d) = EAST;
       redit_disp_exit_menu(d);
       break;
-    case '7':
+    case 's':
       OLC_VAL(d) = SOUTH;
       redit_disp_exit_menu(d);
       break;
-    case '8':
+    case 'w':
       OLC_VAL(d) = WEST;
       redit_disp_exit_menu(d);
       break;
-    case '9':
+    case 'u':
       OLC_VAL(d) = UP;
       redit_disp_exit_menu(d);
       break;
-    case 'a':
-    case 'A':
+    case 'd':
       OLC_VAL(d) = DOWN;
       redit_disp_exit_menu(d);
       break;
-    case 'b':
-    case 'B':
+    case 'nw':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -645,8 +643,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'c':
-    case 'C':
+    case 'ne':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -655,8 +652,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'd':
-    case 'D':
+    case 'se':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -665,8 +661,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'e':
-    case 'E':
+    case 'sw':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -675,28 +670,24 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'f':
-    case 'F':
+    case 'ex':
       /* If the extra description doesn't exist. */
       if (!OLC_ROOM(d)->ex_description)
 	CREATE(OLC_ROOM(d)->ex_description, struct extra_descr_data, 1);
       OLC_DESC(d) = OLC_ROOM(d)->ex_description;
       redit_disp_extradesc_menu(d);
       break;
-    case 'w':
-    case 'W':
+    case 'cp':
       write_to_output(d, "\nCopy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
       break;
-    case 'x':
-    case 'X':
+    case 'del':
       /* Delete the room, prompt first. */
       write_to_output(d, "\nAre you sure you want to delete this room?\r");
       OLC_MODE(d) = REDIT_DELETE;
       break;
 
-    case 's':
-    case 'S':
+    case 'scr':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;
