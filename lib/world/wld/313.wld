@@ -1,13 +1,5 @@
 #31300
 Ofingia Farms~
-   Looking south toward what should be the farming capitol of Dibrova, an
-intense weight of sorrow for the men and women who farmed there, lived there,
-loved there, and died there staggers you with the sheer immensity of the crimes
-done them.  The sky which once was nearly always blue and clear is filled now
-with char and soot, carried upon winds of smoke and ash from the goblin raids
-which took this peaceful community by surprise.  The gate to the north always
-stays closed and barred from the inside, vigilant guards on the ramparts
-watching for any signs of trouble and bidding you a safe journey.
 ~
 313 0 0 0 0 0
 D1
@@ -24,44 +16,10 @@ D3
 0 0 31304
 E
 credits~
-   *Shattered Farmlands of Ofingia
-*Written by Kaan for Dibrova
-Level: 8 - 15
-94 rooms
-13 mobs
-27 objs
-Connector Zones: Ofingia
-After making Ofingia a Hometown on Dibrova and having it basically in
-the middle of BFE, I decided it might be a good idea to stick a zone
-in that would be close in proximity to Ofingia and have some mobs
-available that were low level, made just for players fresh out of the
-Newbie Zones.
-This is not a very exciting area, I will be the first to admit. There
-are a number of same-room descrips in this one that make the zone
-slightly blah. The objs are all intended to be for lower level players,
-same as the mobs. The plot is supposed to feed off the already existing
-plot that Ofingia had from the start:
-The goblins have the town under seige, they have ransacked these
-farmlands in an attempt to prohibit the town from having any food
-supplies. They constantly come in and loot and burn everything they
-can find to further the town's losses. The Lord of Jareth has sent in
-a retinue of his finest to help quell the threat, however they are
-unaffective against the numbers of goblins in the area.
-Hope you like it.
-Exits: 07s, 16s
-Links: 00n cave, 33w cave
 ~
 S
 #31301
 The Rocky Flatlands at the City Wall~
-   Jagged rocks rise from their resting places in the earth the solid rock
-formations being what Ofingia was built upon.  Just to south a ways, the rocks
-taper off and open up a small valley where one of the many farmland fields of
-this area are.  Of course, the fields are no longer as cared for as they once
-were, being that every time any farmer makes an attempt at replanting a field, a
-band of goblins come along and burn it to ash and kill the farmer.  The city
-wall lies to the north - a tall, thick obstuction which is the town's only
-defense against the goblin hoardes which attempt to overrun the town daily.
 ~
 313 0 0 0 0 0
 D1
@@ -79,12 +37,6 @@ D3
 S
 #31302
 At the Wall of Ofingia~
-   The southern wall of Ofingia stands tall and impregnable on the north side.
-To the east, the jumbled upon which you stand drops off into a large field which
-may once have been growing tall with corn but now only boasts a few scorched
-stalks.  South is much the same, a steep drop off down into the burnt-out field.
-It does not appear that the way down in either direction is safe - it is
-recommended that another way be found.
 ~
 313 0 0 0 0 0
 D3
@@ -94,13 +46,6 @@ D3
 S
 #31303
 Rocky Flatlands at the City Wall~
-   On the north side the south wall of Ofingia rises thirty feet up, solid and
-unyielding.  Stolid faces look down upon you from the ramparts, faces of men and
-women who have known much pain and injustice from the goblins who continually
-raid this town.  To the south and west are steep rocky drop-offs, too steep for
-climbing.  They lead down into the farming area, where the soil is rich and
-strong when its not being burnt by goblins or trampled by the feet of marching
-soldiers.
 ~
 313 0 0 0 0 0
 D1
@@ -110,10 +55,6 @@ D1
 S
 #31304
 At the City Wall~
-   The wall of Ofingia rises high on the north side, the way kept blocked by the
-impenetrable wall which the citizens have fortified and refortified against
-goblin intrusion.  The ground here is rocky and without growth, the rock bed
-which Ofingia was built upon stands higher than the rest of the land around it.
 ~
 313 0 0 0 0 0
 D1

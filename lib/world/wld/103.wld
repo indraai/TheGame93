@@ -1,37 +1,5 @@
 #10300
 Dragon Ball Z World~
-Welcome to the world of:
-@R __________
-@R|_         \
-@R  |   ___   \  __
-@R  |  |   \   ||  |___                               __
-@R  |  |    |  ||   _  \   ______      _____   ____  |  |_____
-@R  |  |    |  ||  | \__\ /  __  \    / __  | / __ \ |   ___  \
-@R  |  |___/   ||  |     |  |  |  \  | |  | || |  | ||  |   \  |
-@R _|         / |  |     |  |__|   \ | |__| || |__| ||  |   |  |
-@R|__________/  |__|      \_____\___\ \____ | \____/ |__|   |__|
-@R                                  __    | |
-@R                                  \ \___| |
-@R                                   \_____/
-          @B _________                __  __
-          @B|_   ____ \              |  ||  |
-          @B  | |    | |             |  ||  |        @b__
-          @B  | |____| |             |  ||  |        @b\/
-          @B  |  _____/    ______    |  ||  |        @b::
-          @B  |  ____  \  /  __  \   |  ||  |        @b||
-          @B  | |    |  ||  |  |  \  |  ||  |        @b||
-          @B _| |____|  ||  |__|   \ |  ||  |     @b___||___
-          @B|__________/  \_____\___\|__||__|     @b\__::__/
-                                                @b___||____
-                                               @b/___||_  /
-                                                   @b||/ /
-                                                   @b|/ /
-                                                   @b/ /
-                                                  @b/ /
-                                                 @b/ /|______
-                                                @b/__||_____/
-                                                   @b||
-                                                   @b\/
 ~
 103 0 0 0 0 0
 D5
@@ -41,9 +9,6 @@ D5
 S
 #10301
 Transportation Rooms~
-   @gThis room does not look to interesting, with its gray walls and black floor
-and ceiling.  Two sets of stairs sit in the middle of the room, one goes up, the
-other down.
 ~
 103 28 0 0 0 0
 D4
@@ -57,22 +22,15 @@ D5
 S
 #10302
 Earth Teleporter~
-   @gThis room looks just like the other, it has gray walls and a black ceiling
-and floor.  But there is one difference, in the middle of the room sits a
-teleporter, this device is giving off a strange light, hums constantly.  A sign
-is nailed onto the wall.
 ~
 103 28 0 0 0 0
 D5
 ~
-<NONE>~
+~
 0 10300 10301
 S
 #10303
 Namek Teleporter~
-   @gThis room looks just like the other, it has gray walls and a black ceiling
-and floor.  But there is one difference, in the middle of the room sits a
-teleporter, this device is giving off a strange light, hums constantly.
 ~
 103 28 0 0 0 0
 D4
@@ -82,19 +40,11 @@ D4
 S
 #10304
 Kami's Lookout~
-   @gThe sun shines down on your face, warming up your whole body.  A short fat
-person is kneeling here tending to a well kempt flower garden whistling happily.
-Another person stands here, a tall green man with pointy ears.
 ~
 103 20 0 0 0 1
 S
 #10305
 Start of Planet Namek~
-   @gThe lush ground and the tall trees surround this area, small domed
-buildings
-are also here, and many green people are walking around working here.  Some
-tending to the gardens, others training their skills.  But one thing is certain,
-all of them look male.
 ~
 103 0 0 0 0 1
 D0
