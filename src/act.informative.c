@@ -684,7 +684,7 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
-    send_to_char(ch, "\n \r"
+    send_to_char(ch, "\n# Look in Extra poops. \r"
     "\n%s\r"
     "\n \r", desc);
     // page_string(ch->desc, desc, FALSE);
@@ -715,7 +715,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content)
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\r", desc);
+        send_to_char(ch, "\nscooops\r\n%s\r", desc);
 	      found = TRUE;
       }
 
