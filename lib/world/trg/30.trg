@@ -161,7 +161,6 @@ done
 Near Death Trap~
 2 g 100
 ~
-* By Rumble of The Builder Academy    tbamud.com 9091
 * Near Death Trap stuns actor
 set stunned %actor.hitp%
 %damage% %actor% %stunned%
@@ -177,19 +176,16 @@ if !%self.fighting%
   if %actor%
     if %actor.is_killer%
       emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!!!!'
-      kill %actor.name%
+      hit %actor.name%
     elseif %actor.is_thief%
       emote screams 'HEY!!!  You're one of those PLAYER THIEVES!!!!!!'
-      kill %actor.name%
-    elseif %actor.cha% < 6
-      %send% %actor% %self.name% spits in your face.
-      %echoaround% %actor% %self.name% spits in %actor.name%'s face.
+      hit %actor.name%
     end
     if %actor.fighting%
       eval victim %actor.fighting%
       if %actor.align% < %victim.align% && %victim.align% >= 0
         emote screams 'PROTECT THE INNOCENT!  BANZAI!  CHARGE!  ARARARAGGGHH!'
-        kill %actor.name%
+        hit %actor.name%
       end
     end
   end
@@ -221,7 +217,7 @@ Stock Janitor - 3061, 3068~
 eval inroom %self.room%
 eval item %inroom.contents%
 while %item%
-  * Target the next item in room. In case it is picked up.
+* Target the next item in room. In case it is picked up.
   set next_item %item.next_in_list%
 * TODO: if %item.wearflag(take)%
   * Check for fountains and expensive items.
@@ -242,10 +238,6 @@ has entered the game.~
 Newbie Tour Guide Loader~
 0 e 0
 has entered the game.~
-* By Rumble of The Builder Academy    tbamud.com 9091
-* Num Arg 0 means the argument has to match exactly. So trig will only fire off:
-* "has entered game." and not "has" or "entered" etc. (that would be num arg 1).
-* Figure out what vnum the mob is in so we can use zoneecho.
 eval inroom %self.room%
 %zoneecho% %inroom.vnum% %self.name% shouts, 'Welcome, %actor.name%!'
 ~
@@ -253,7 +245,6 @@ eval inroom %self.room%
 Teleporter~
 1 c 3
 teleport~
-* By Rumble and Jamie Nelson of The Builder Academy    tbamud.com 9091
 %send% %actor% You attempt to manipulate space and time.
 %echoaround% %actor% %actor.name% attempts to manipulate space and time.
 wait 1 sec
@@ -268,7 +259,7 @@ set arena 2000
 set tower 2200
 set memlin 2798
 set academy 2800
-set midgaard 3001
+set amaravati 3001
 set capital 3702
 set haven 3998
 set chasm 4200
@@ -412,7 +403,6 @@ end
 Teleporter Recall and Return~
 1 c 7
 re~
-* By Rumble of The Builder Academy    tbamud.com 9091
 if %cmd% == recall
   eval teleporter_return_room %actor.room.vnum%
   remote  teleporter_return_room %actor.id%
@@ -435,7 +425,6 @@ end
 Kind Soul Gives Newbie Equipment~
 0 g 100
 ~
-* By Rumble of The Builder Academy    tbamud.com 9091
 * If a player is < level 5 and naked it fully equips them. If < 5 and missing
 * some equipment it will equip one spot.
 if %actor.is_pc% && %actor.level% < 5
@@ -556,7 +545,6 @@ end
 Mortal Greet~
 2 s 100
 ~
-* By Rumble of The Builder Academy    tbamud.com 9091
 * TBA mortal greet and equip. New players start at level 0.
 wait 1 sec
 if %actor.level% == 0
