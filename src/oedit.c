@@ -658,7 +658,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
   /* Build first half of menu. */
   write_to_output(d,
     "\n# Object Edit %d\r"
-	  "\n=\n"
+	  "\n-\n"
     "## Details"
 	  "\nselect[1:keywords]:%s\r"
 	  "\nselect[2:name]:%s\r"
@@ -680,7 +680,6 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-    "\n----\n"
     "## Properties"
 	  "\nselect[7:wear]:%s\r"
 	  "\nselect[8:weight]:%d\r"
@@ -696,7 +695,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
     "\nmenu:d:applies menu\r"
     "\nmenu:w:copy\r"
     "\nmenu:x:delete\r"
-    "\n=\n"
+    "\n-\n"
 	  "\nmenu:q:quit\r",
 
 	  buf1,
