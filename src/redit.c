@@ -471,12 +471,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[n:north]:%d\r"
-      "\nselect[e:east]:%d\r"
-      "\nselect[s:south]:%d\r"
-      "\nselect[w:west]:%d\r"
-      "\nselect[u:up]:%d\r"
-      "\nselect[d:down]:%d\r",
+      "\nselect[e:north]:%d\r"
+      "\nselect[f:east]:%d\r"
+      "\nselect[g:south]:%d\r"
+      "\nselect[h:west]:%d\r"
+      "\nselect[i:up]:%d\r"
+      "\nselect[j:down]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -494,16 +494,16 @@ static void redit_disp_menu(struct descriptor_data *d)
     write_to_output(d,
       "\n## Exits\r"
       "\n----\n"
-      "\nselect[n:north]:%d\r"
-      "\nselect[e:east]:%d\r"
-      "\nselect[s:south]:%d\r"
-      "\nselect[w:west]:%d\r"
-      "\nselect[u:up]:%d\r"
-      "\nselect[d:down]:%d\r"
-      "\nselect[nw:northwest]:%d\r"
-      "\nselect[ne:northeast]:%d\r"
-      "\nselect[se:southeast]:%d\r"
-      "\nselect[sw:southwest]:%d\r",
+      "\nselect[e:north]:%d\r"
+      "\nselect[f:east]:%d\r"
+      "\nselect[g:south]:%d\r"
+      "\nselect[h:west]:%d\r"
+      "\nselect[i:up]:%d\r"
+      "\nselect[j:down]:%d\r"
+      "\nselect[k:northwest]:%d\r"
+      "\nselect[l:northeast]:%d\r"
+      "\nselect[m:southeast]:%d\r"
+      "\nselect[n:southwest]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -528,8 +528,8 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n----\n"
-      "\nmenu:f:extra description\r"
-      "\nmenu:w:copy room\r"
+      "\nmenu:o:extra description\r"
+      "\nmenu:p:copy room\r"
       "\nmenu:x:delete room\r"
       "\n----\n"
       "\nmenu:q:quit\r"
