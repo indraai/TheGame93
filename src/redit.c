@@ -318,15 +318,15 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 
   clear_screen(d);
   write_to_output(d,
-    "\n## Extra Description\r"
+    "\n## Extra Info\r"
     "\n----\n"
 	  "\nselect[1:keyword]:%s\r"
-	  "\nselect[2:description]:%s\r"
-	  "\nselect[3:next]:Next Description\r"
+	  // "\nselect[2:description]:%s\r"
+	  "\nselect[3:next]:Next Tag\r"
     "\n----\n"
     "\nmenu:0:done",
-	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
-	  extra_desc->description ? extra_desc->description : "<NONE>"
+	  extra_desc->keyword ? extra_desc->keyword : "<NONE>"
+	  // extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
 
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
@@ -405,7 +405,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## Room Flags\r"
-    "\n----\n"
+    "\n--\n"
   );
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
@@ -413,10 +413,10 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n----\n"
+  write_to_output(d, "\n--\n"
   "\nflags: %s\r"
-  "\n----\n"
-  "\nmenu:q:done\r", bits);
+  "\n--\n"
+  "\nmenu:0:done\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -454,6 +454,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# %d %s\r"
+    "\n## Details\r"
     "\nselect[a:name]:%s\r"
     // "\nselect[2:desc]:%s\r"
     "\nselect[b:room flags]:%s\r"
@@ -528,7 +529,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n----\n"
-      "\nmenu:o:extra description\r"
+      "\nmenu:o:extra info\r"
       "\nmenu:p:copy room\r"
       "\nmenu:x:delete room\r"
       "\n-\n"
@@ -576,7 +577,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'a':
       write_to_output(d,
-        "\nroom name... %s\r", OLC_ROOM(d)->name);
+        "\nChange %s to...\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     /* DISABLE DESCRIPTION BECASUE SYSTEM GENERATES TEMPLATE STRING
