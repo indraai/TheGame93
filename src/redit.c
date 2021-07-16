@@ -454,11 +454,11 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# %d %s\r"
-    "\nselect[1:name]:%s\r"
+    "\nselect[a:name]:%s\r"
     // "\nselect[2:desc]:%s\r"
-    "\nselect[2:room flags]:%s\r"
-    "\nselect[3:sector type]:%s\r"
-    "\nselect[4:script]:%s\r",
+    "\nselect[b:room flags]:%s\r"
+    "\nselect[c:sector type]:%s\r"
+    "\nselect[d:script]:%s\r",
     OLC_NUM(d),
     room->name,
     room->name,
@@ -574,17 +574,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
 
   case REDIT_MAIN_MENU:
     switch (*arg) {
-    case 'q':
-    case 'Q':
-      if (OLC_VAL(d)) { /* Something has been modified. */
-        write_to_output(d, "%s", confirm_msg);
-        OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
-      } else
-        cleanup_olc(d, CLEANUP_ALL);
-      return;
-    case '1':
+    case 'a':
       write_to_output(d,
-        "\n'room name': %s\r", OLC_ROOM(d)->name);
+        "\nroom name... %s\r", OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     /* DISABLE DESCRIPTION BECASUE SYSTEM GENERATES TEMPLATE STRING
@@ -604,37 +596,41 @@ void redit_parse(struct descriptor_data *d, char *arg)
 
       break;
     */
-    case '2':
+    case 'b':
       redit_disp_flag_menu(d);
       break;
-    case '3':
+    case 'c':
       redit_disp_sector_menu(d);
       break;
-    case 'n':
+    case 'd':
+      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+      dg_script_menu(d);
+      return;
+    case 'e':
       OLC_VAL(d) = NORTH;
       redit_disp_exit_menu(d);
       break;
-    case 'e':
+    case 'f':
       OLC_VAL(d) = EAST;
       redit_disp_exit_menu(d);
       break;
-    case 's':
+    case 'g':
       OLC_VAL(d) = SOUTH;
       redit_disp_exit_menu(d);
       break;
-    case 'w':
+    case 'h':
       OLC_VAL(d) = WEST;
       redit_disp_exit_menu(d);
       break;
-    case 'u':
+    case 'i':
       OLC_VAL(d) = UP;
       redit_disp_exit_menu(d);
       break;
-    case 'd':
+    case 'j':
       OLC_VAL(d) = DOWN;
       redit_disp_exit_menu(d);
       break;
-    case 'nw':
+    case 'k':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -643,7 +639,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'ne':
+    case 'l':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -652,7 +648,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'se':
+    case 'm':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -661,7 +657,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'sw':
+    case 'n':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -670,27 +666,30 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'ex':
+    case 'o':
       /* If the extra description doesn't exist. */
       if (!OLC_ROOM(d)->ex_description)
 	CREATE(OLC_ROOM(d)->ex_description, struct extra_descr_data, 1);
       OLC_DESC(d) = OLC_ROOM(d)->ex_description;
       redit_disp_extradesc_menu(d);
       break;
-    case 'cp':
+    case 'p':
       write_to_output(d, "\nCopy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
       break;
-    case 'del':
+    case 'q':
+      if (OLC_VAL(d)) { /* Something has been modified. */
+        write_to_output(d, "%s", confirm_msg);
+        OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
+      } else
+        cleanup_olc(d, CLEANUP_ALL);
+      return;
+    case 'x':
       /* Delete the room, prompt first. */
       write_to_output(d, "\nAre you sure you want to delete this room?\r");
       OLC_MODE(d) = REDIT_DELETE;
       break;
 
-    case 'scr':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
-      return;
     default:
       write_to_output(d, "\nerror: Invalid choice.\r");
       redit_disp_menu(d);
