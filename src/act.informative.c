@@ -684,8 +684,9 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
-    send_to_char(ch, "\n \r"
+    send_to_char(ch, "\n## Look at... \r"
     "\nadv:world:%d/%s\r"
+    "\n=\n",
     "\n \r",
     GET_ROOM_VNUM(IN_ROOM(ch)),
     arg
