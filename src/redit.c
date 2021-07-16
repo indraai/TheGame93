@@ -531,7 +531,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nmenu:o:extra description\r"
       "\nmenu:p:copy room\r"
       "\nmenu:x:delete room\r"
-      "\n----\n"
+      "\n-\n"
       "\nmenu:q:quit\r"
       );
   OLC_MODE(d) = REDIT_MAIN_MENU;
