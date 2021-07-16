@@ -659,11 +659,11 @@ static void oedit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n# Object Edit %d\r"
 	  "\n=\n"
-	  "\nselect[1:keywords]: %s\r"
-	  "\nselect[2:s-desc]: %s\r"
-	  "\nselect[3:l-desc]: %s\r"
-	  "\nselect[4:a-desc]: %s\r"
-    "\n===\n"
+    "## Details"
+	  "\nselect[1:keywords]:%s\r"
+	  "\nselect[2:s-desc]:%s\r"
+	  "\nselect[3:l-desc]:%s\r"
+	  "\nselect[4:a-desc]:%s\r"
 	  "\nselect[5:type]:%s\r"
 	  "\nselect[6:flags]:%s\r",
 
@@ -680,8 +680,9 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
+    "\n----\n"
+    "## Properties"
 	  "\nselect[7:wear]:%s\r"
-    "\n===\n"
 	  "\nselect[8:weight]:%d\r"
 	  "\nselect[9:cost]:%d\r"
 	  "\nselect[a:cost per day]:%d\r"
