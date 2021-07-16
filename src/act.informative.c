@@ -687,9 +687,9 @@ static void look_at_target(struct char_data *ch, char *arg)
     send_to_char(ch, "\n# %s\r"
     "\nadv:world:%d/%s\r"
     "\n \r",
-    ch->keyword,
+    ch->ex_description,
     GET_ROOM_VNUM(IN_ROOM(ch)),
-    ch->keyword
+    ch->ex_description
   );
     // page_string(ch->desc, desc, FALSE);
     return;
