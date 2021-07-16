@@ -661,9 +661,9 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\n=\n"
     "## Details"
 	  "\nselect[1:keywords]:%s\r"
-	  "\nselect[2:s-desc]:%s\r"
-	  "\nselect[3:l-desc]:%s\r"
-	  "\nselect[4:a-desc]:%s\r"
+	  "\nselect[2:name]:%s\r"
+	  "\nselect[3:describe]:%s\r"
+	  "\nselect[4:action]:%s\r"
 	  "\nselect[5:type]:%s\r"
 	  "\nselect[6:flags]:%s\r",
 
@@ -688,17 +688,16 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[a:cost per day]:%d\r"
 	  "\nselect[b:timer]:%d\r"
     "\nselect[m:min level]:%d\r"
-    "\n===\n"
 	  "\nselect[c:liquid]:%d %d %d %d\r"
 	  "\nselect[e:extra]:%s\r"
     "\nselect[p:affects]:%s\r"
 	  "\nselect[s:script]:%s\r"
-    "\n===\n"
+    "\n----\n"
     "\nmenu:d:applies menu\r"
-    "\nmenu:W:copy\r"
-    "\nmenu:X:delete\r"
-    "\n===\n"
-	  "\nmenu:Q:quit\r",
+    "\nmenu:w:copy\r"
+    "\nmenu:x:delete\r"
+    "\n=\n"
+	  "\nmenu:q:quit\r",
 
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
