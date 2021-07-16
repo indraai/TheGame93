@@ -114,7 +114,9 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "%s", obj->short_description);
+    send_to_char(ch, "\n \r"
+    "\n%s\r"
+    "\n \r", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
