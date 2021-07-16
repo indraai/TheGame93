@@ -211,11 +211,11 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nselect[3:types]:%s\r"
   "\nselect[4:num arg]:%d\r"
   "\nselect[5:arguments]:%s\r"
-  "\nselect[6:commands]: click to edit code\r"
-  "\n```%s```\r"
+  "\nselect[6:commands]: edit code\r"
   "\n----\n"
-  "\nmenu:w:copy trigger\r"
+  "%s"
   "\n-\n"
+  "\nmenu:w:copy trigger\r"
   "\nmenu:q:quit\r",
   OLC_NUM(d), 			              /* vnum on the title line */
   GET_TRIG_NAME(trig),		        /* name                   */
@@ -496,20 +496,23 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
        case 'q':
          if (OLC_VAL(d)) { /* Anything been changed? */
            if (!GET_TRIG_TYPE(OLC_TRIG(d))) {
-             write_to_output(d, "Invalid Trigger Type! Answer a to abort quit!\r\n");
+             write_to_output(d, "\nInvalid Trigger Type! Answer a to abort quit!\r");
            }
-           write_to_output(d, "Do you wish to save your changes? : ");
+           write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
            cleanup_olc(d, CLEANUP_ALL);
          return;
        case '1':
          OLC_MODE(d) = TRIGEDIT_NAME;
-         write_to_output(d, "Name: ");
+         write_to_output(d, "What is the trigger name?");
          break;
        case '2':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
-         write_to_output(d, "0: Mobiles, 1: Objects, 2: Rooms: ");
+         write_to_output(d, "## Attach"
+          "\nmenu:0:mobiles\r"
+          "\nmenu:1:objects\r"
+          "\nmenu:2:rooms\r");
          break;
        case '3':
          OLC_MODE(d) = TRIGEDIT_TYPES;
@@ -517,19 +520,19 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          break;
        case '4':
          OLC_MODE(d) = TRIGEDIT_NARG;
-         write_to_output(d, "Numeric argument: ");
+         write_to_output(d, "What is the numeric argument?");
          break;
        case '5':
          OLC_MODE(d) = TRIGEDIT_ARGUMENT;
-         write_to_output(d, "Argument: ");
+         write_to_output(d, "What is the trigger argument?");
          break;
        case '6':
          OLC_MODE(d) = TRIGEDIT_COMMANDS;
-         write_to_output(d, "Enter trigger commands: (/s saves /h for help)\r\n\r\n");
+         write_to_output(d, "\nEnter trigger commands: (/s saves /h for help)\r");
          d->backstr = NULL;
          if (OLC_STORAGE(d)) {
            clear_screen(d);
-           script_syntax_highlighting(d, OLC_STORAGE(d));
+           write_to_ouptut(d, OLC_STORAGE(d));
            d->backstr = strdup(OLC_STORAGE(d));
          }
          d->str = &OLC_STORAGE(d);
@@ -563,8 +566,8 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
         case 'a': /* abort quitting */
           break;
         default:
-          write_to_output(d, "Invalid choice!\r\n");
-          write_to_output(d, "Do you wish to save your changes? : ");
+          write_to_output(d, "\nThat was an invalid choice.\r");
+          write_to_output(d, "%s", confirm_msg);
           return;
       }
       break;
@@ -607,7 +610,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
       if ((i = real_trigger(atoi(arg))) != NOWHERE) {
         trigedit_setup_existing(d, i);
       } else
-        write_to_output(d, "That trigger does not exist.\r\n");
+        write_to_output(d, "\nThat trigger does not exist.\r");
       break;
 
     case TRIGEDIT_COMMANDS:
@@ -862,7 +865,7 @@ void trigedit_save(struct descriptor_data *d)
   remove(buf);
   rename(fname, buf);
 
-  write_to_output(d, "Trigger saved to disk.\r\n");
+  write_to_output(d, "\nTrigger saved to disk.\r");
   trigedit_create_index(zone, "trg");
 }
 
@@ -947,7 +950,7 @@ void dg_script_menu(struct descriptor_data *d)
   OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
 
   clear_screen(d);
-  write_to_output(d, "\n### Triggers\r");
+  write_to_output(d, "\n## Triggers\r");
 
   editscript = OLC_SCRIPT(d);
 
@@ -966,9 +969,9 @@ void dg_script_menu(struct descriptor_data *d)
   }
 
   write_to_output(d,
-    "\nmenu[attach trigger]:N\r"
-    "\nmenu[detach trigger]:X\r"
-    "\nmenu[done]:Q\r");
+    "\nmenu:n:attach trigger\r"
+    "\nmenu:x:detach trigger\r"
+    "\nmenu:q:done\r");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
@@ -980,29 +983,13 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
     case SCRIPT_MAIN_MENU:
       switch(tolower(*arg)) {
         case 'q':
-          /* This was buggy. First we created a copy of a thing, but maintained
-	   * pointers to scripts, then if we altered the scripts, we freed the
-	   * pointers and added new ones to the OLC_THING. If we then choose NOT
-	   * to save the changes, the pointers in the original pointed to
-	   * garbage. If we saved changes the pointers were updated correctly.
-	   * Solution: Here we just point the working copies to the new
-	   * proto_scripts. We only update the original when choosing to save
-	   * internally, then free the unused memory there. -Welcor
-	   * Thanks to Jeremy Stanley and Torgny Bjers for the bug report.
-	   * After updating to OasisOLC 2.0.3 I discovered some malfunctions
-	   * in this code, so I restructured it a bit. Now things work like
-	   * this: OLC_SCRIPT(d) is assigned a copy of the edited things'
-	   * proto_script. OLC_OBJ(d), etc.. are initalized with proto_script =
-	   * NULL; On save, the saved copy is updated with OLC_SCRIPT(d) as new
-	   * proto_script (freeing the old one). On quit/nosave, OLC_SCRIPT is
-	   * free()'d, and the prototype not touched. */
           return 0;
         case 'n':
-          write_to_output(d, "\r\nPlease enter position, vnum   (ex: 1, 200):");
+          write_to_output(d, "\nPlease enter position, vnum (ex: 1, 200)\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_NEW_TRIGGER;
           break;
         case 'x':
-          write_to_output(d, "     Which entry should be deleted?  0 to abort :");
+          write_to_output(d, "\nWhich entry should be deleted?  0 to abort\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_DEL_TRIGGER;
           break;
         default:
@@ -1024,8 +1011,8 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
       if (vnum==0) break; /* this aborts a new trigger entry */
 
       if (real_trigger(vnum) == NOTHING) {
-        write_to_output(d, "Invalid Trigger VNUM!\r\n"
-                           "Please enter position, vnum   (ex: 1, 200):");
+        write_to_output(d, "\nInvalid Trigger VNUM!\r"
+               "\nPlease enter position, vnum (ex: 1, 200)\r");
         return 1;
       }
 
