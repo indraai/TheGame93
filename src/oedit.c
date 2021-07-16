@@ -657,7 +657,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
-    "\n# Object Edit %d\r"
+    "\n# Object %d\r"
 	  "\n-\n"
     "\n## Details\r"
 	  "\nselect[1:keywords]:%s\r"
@@ -765,21 +765,21 @@ void oedit_parse(struct descriptor_data *d, char *arg)
 	cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "\nPleaes enter the keywords.\r");
+      write_to_output(d, "\nWhat are the keywords?\r");
       OLC_MODE(d) = OEDIT_KEYWORD;
       break;
     case '2':
-      write_to_output(d, "\nPlease enter the short description.\r");
+      write_to_output(d, "\nWhat is the name?\r");
       OLC_MODE(d) = OEDIT_SHORTDESC;
       break;
     case '3':
-      write_to_output(d, "\nPlease enter the long description.\r ");
+      write_to_output(d, "\nWhat is the description?\r ");
       OLC_MODE(d) = OEDIT_LONGDESC;
       break;
     case '4':
       OLC_MODE(d) = OEDIT_ACTDESC;
       send_editor_help(d);
-      write_to_output(d, "\nEnter action description:\r");
+      write_to_output(d, "\nWhat is the action description?\r");
       if (OLC_OBJ(d)->action_description) {
 	write_to_output(d, "%s", OLC_OBJ(d)->action_description);
 	oldtext = strdup(OLC_OBJ(d)->action_description);
@@ -800,21 +800,21 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_WEAR;
       break;
     case '8':
-      write_to_output(d, "\nWhat is the object weight?\r");
+      write_to_output(d, "\nWhat is the weight?\r");
       OLC_MODE(d) = OEDIT_WEIGHT;
       break;
     case '9':
-      write_to_output(d, "\nWhat is the object cost?\r");
+      write_to_output(d, "\nWhat is the cost?\r");
       OLC_MODE(d) = OEDIT_COST;
       break;
     case 'a':
     case 'A':
-      write_to_output(d, "\nWhat is the object cost per day?\r");
+      write_to_output(d, "\nWhat is the cost per day?\r");
       OLC_MODE(d) = OEDIT_COSTPERDAY;
       break;
     case 'b':
     case 'B':
-      write_to_output(d, "\nPlease enter the object timer.\r");
+      write_to_output(d, "\nWhat is the timer?\r");
       OLC_MODE(d) = OEDIT_TIMER;
       break;
     case 'c':
@@ -843,7 +843,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'm':
     case 'M':
-      write_to_output(d, "\nWhat is the new minimum level?\r");
+      write_to_output(d, "\nWhat is the minimum level?\r");
       OLC_MODE(d) = OEDIT_LEVEL;
       break;
     case 'p':
@@ -858,12 +858,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'w':
     case 'W':
-      write_to_output(d, "\nCopy what object?\r");
+      write_to_output(d, "\nWhat object would you like to copy?\r");
       OLC_MODE(d) = OEDIT_COPY;
       break;
     case 'x':
     case 'X':
-      write_to_output(d, "\nAre you sure you want to delete this object?\r");
+      write_to_output(d, "\nDo you wish to delete this object?\r");
       OLC_MODE(d) = OEDIT_DELETE;
       break;
     default:
@@ -903,7 +903,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_TYPE:
     number = atoi(arg);
     if ((number < 0) || (number >= NUM_ITEM_TYPES)) {
-      write_to_output(d, "\nInvalid choice, try again.\r");
+      write_to_output(d, "\nInvalid choice, please try again.\r");
       return;
     } else
       GET_OBJ_TYPE(OLC_OBJ(d)) = number;
