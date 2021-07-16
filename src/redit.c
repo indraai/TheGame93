@@ -884,8 +884,10 @@ void redit_parse(struct descriptor_data *d, char *arg)
       string_write(d, &OLC_DESC(d)->description, MAX_MESSAGE_LENGTH, 0, oldtext);
       return;
     case 3:
-      if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
-	write_to_output(d, "\nerror: You can't edit the next extra description without completing this one.\r");
+      // setting to complete without a description becasue the system will put those in later.
+      // if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
+      if (OLC_DESC(d)->keyword == NULL) {
+	write_to_output(d, "\nerror: Please complete this one before adding another.\r");
 	redit_disp_extradesc_menu(d);
       } else {
 	struct extra_descr_data *new_extra;
