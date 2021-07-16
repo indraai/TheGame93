@@ -657,15 +657,16 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   /* Build first half of menu. */
   write_to_output(d,
-    "\n# Object Edit\r"
-	  "\nitem:%d\r"
-	  "\nselect[1:keywords]: %s\r"
-	  "\nselect[2:s-desc]: %s\r"
-	  "\nselect[3:l-desc]: %s\r"
-	  "\nselect[4:a-desc]: %s\r"
-    "\n===\n"
-	  "\nselect[5:type]:%s\r"
-	  "\nselect[6:flags]:%s\r",
+    "\n# Object %d\r"
+    "\n=\n"
+    "## Details"
+	  "\nselect[a:keywords]:%s\r"
+	  "\nselect[b:name]:%s\r"
+	  "\nselect[c:describe]:%s\r"
+	  "\nselect[d:details]:%s\r"
+    "\nselect[e:info]:%s\r"
+	  "\nselect[f:type]:%s\r"
+	  "\nselect[g:flags]:%s\r",
 
 	  OLC_NUM(d),
 	  (obj->name && *obj->name) ? obj->name : "undefined",
@@ -680,24 +681,26 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\nselect[7:wear]:%s\r"
-    "\n===\n"
-	  "\nselect[8:weight]:%d\r"
-	  "\nselect[9:cost]:%d\r"
-	  "\nselect[a:cost per day]:%d\r"
-	  "\nselect[b:timer]:%d\r"
+    "\n----\n"
+    "## Properties"
+	  "\nselect[h:wear]:%s\r"
+	  "\nselect[i:weight]:%d\r"
+    "\n----\n"
+    "## Cost"
+	  "\nselect[j:cost]:%d\r"
+	  "\nselect[k:cost day]:%d\r"
+	  "\nselect[l:timer]:%d\r"
+    "\n----\n"
+    "## Other"
     "\nselect[m:min level]:%d\r"
-    "\n===\n"
-	  "\nselect[c:liquid]:%d %d %d %d\r"
-	  "\nselect[e:extra]:%s\r"
-    "\nselect[p:affects]:%s\r"
-	  "\nselect[s:script]:%s\r"
-    "\n===\n"
-    "\nmenu:d:applies menu\r"
-    "\nmenu:W:copy\r"
-    "\nmenu:X:delete\r"
-    "\n===\n"
-	  "\nmenu:Q:quit\r",
+	  "\nselect[n:liquid]:%d %d %d %d\r"
+    "\nselect[o:affects]:%s\r"
+	  "\nselect[r:script]:%s\r"
+    "\nmenu:s:applies menu\r"
+    "\n=\n"
+    "\nmenu:p:copy\r"
+    "\nmenu:x:delete\r"
+	  "\nmenu:q:quit\r",
 
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
