@@ -99,7 +99,9 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "%s", obj->description);
+    send_to_char(ch, "\n\s\r"
+      "\n%s\r"
+      "\n\s\r", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -696,7 +698,10 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\r", desc);
+        send_to_char(ch, "\n## Find Extra\r"
+          "\n%s\r"
+          "\n=\r"
+          "\n\s\r", desc);
         found = TRUE;
       }
   }

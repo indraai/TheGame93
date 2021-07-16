@@ -253,7 +253,7 @@ static void playing_string_cleanup(struct descriptor_data *d, int action)
       notify_if_playing(d->character, d->mail_to);
     } else
       write_to_output(d, "Mail aborted.\r\n");
-    
+
     free(*d->str);
     free(d->str);
   }
@@ -524,7 +524,7 @@ void show_string(struct descriptor_data *d, char *input)
     d->showstr_page = MAX(0, MIN(atoi(buf) - 1, d->showstr_count - 1));
 
   else if (*buf) {
-    send_to_char(d->character, "Valid commands while paging are RETURN, Q, R, B, or a numeric value.\r\n");
+    send_to_char(d->character, "\ncommands: RETURN, Q, R, B, or a numeric value.\r");
     return;
   }
   /* If we're displaying the last page, just send it to the character, and

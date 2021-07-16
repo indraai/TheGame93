@@ -322,7 +322,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
     "\n----\n"
 	  "\nselect[1:keyword]:%s\r"
 	  // "\nselect[2:description]:%s\r"
-	  "\nselect[3:next]:Next Tag\r"
+	  "\nselect[3:next]:Next Info\r"
     "\n----\n"
     "\nmenu:0:done",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>"
@@ -454,11 +454,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# %d %s\r"
+    "\n=\n"
     "\n## Details\r"
     "\nselect[a:name]:%s\r"
     // "\nselect[2:desc]:%s\r"
-    "\nselect[b:room flags]:%s\r"
-    "\nselect[c:sector type]:%s\r"
+    "\nselect[b:flags]:%s\r"
+    "\nselect[c:type]:%s\r"
     "\nselect[d:script]:%s\r",
     OLC_NUM(d),
     room->name,
