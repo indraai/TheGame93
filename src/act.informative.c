@@ -99,9 +99,9 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n\s\r"
+    send_to_char(ch, "\n \r"
       "\n%s\r"
-      "\n\s\r", obj->description);
+      "\n \r", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -701,7 +701,7 @@ static void look_at_target(struct char_data *ch, char *arg)
         send_to_char(ch, "\n## Find Extra\r"
           "\n%s\r"
           "\n=\r"
-          "\n\s\r", desc);
+          "\n \r", desc);
         found = TRUE;
       }
   }
