@@ -99,7 +99,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n \r"
+    send_to_char(ch, "\n# Making it happy. \r"
       "\n%s\r"
       "\n \r", obj->description);
     break;
@@ -114,7 +114,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n \r"
+    send_to_char(ch, "\n# Looking at Short things. \r"
     "\n%s\r"
     "\n \r", obj->short_description);
     break;
@@ -684,7 +684,10 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
-    page_string(ch->desc, desc, FALSE);
+    send_to_char(ch, "\n \r"
+    "\n%s\r"
+    "\n \r", desc);
+    // page_string(ch->desc, desc, FALSE);
     return;
   }
 

@@ -454,7 +454,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# %d %s\r"
-    "\n=\n"
+    "\n-\n"
     "\n## Details\r"
     "\nselect[a:name]:%s\r"
     // "\nselect[2:desc]:%s\r"
