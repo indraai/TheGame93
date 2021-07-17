@@ -37,8 +37,8 @@ ASPELL(spell_create_water)
   if (GET_OBJ_TYPE(obj) == ITEM_DRINKCON) {
     if ((GET_OBJ_VAL(obj, 2) != LIQ_WATER) && (GET_OBJ_VAL(obj, 1) != 0)) {
       name_from_drinkcon(obj);
-      GET_OBJ_VAL(obj, 2) = LIQ_SLIME;
-      name_to_drinkcon(obj, LIQ_SLIME);
+      GET_OBJ_VAL(obj, 2) = LIQ_CHOCOLATE;
+      name_to_drinkcon(obj, LIQ_CHOCOLATE);
     } else {
       water = MAX(GET_OBJ_VAL(obj, 0) - GET_OBJ_VAL(obj, 1), 0);
       if (water > 0) {
