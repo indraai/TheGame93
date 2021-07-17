@@ -363,7 +363,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          d->backstr = NULL;
          if (OLC_STORAGE(d)) {
            clear_screen(d);
-           write_to_output(d, OLC_STORAGE(d));
+           page_string(d, OLC_STORAGE(d), TRUE);
            d->backstr = strdup(OLC_STORAGE(d));
          }
          d->str = &OLC_STORAGE(d);
