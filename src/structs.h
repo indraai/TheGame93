@@ -468,23 +468,24 @@
 
 /* Some different kind of liquids for use in values of drink containers */
 #define LIQ_WATER      0   /**< Liquid type water */
-#define LIQ_BEER       1   /**< Liquid type beer */
-#define LIQ_WINE       2   /**< Liquid type wine */
-#define LIQ_ALE        3   /**< Liquid type ale */
-#define LIQ_DARKALE    4   /**< Liquid type darkale */
-#define LIQ_WHISKY     5   /**< Liquid type whisky */
-#define LIQ_LEMONADE   6   /**< Liquid type lemonade */
-#define LIQ_FIREBRT    7   /**< Liquid type firebrt */
-#define LIQ_LOCALSPC   8   /**< Liquid type localspc */
-#define LIQ_SLIME      9   /**< Liquid type slime */
-#define LIQ_MILK       10  /**< Liquid type milk */
-#define LIQ_TEA        11  /**< Liquid type tea */
-#define LIQ_COFFE      12  /**< Liquid type coffee */
-#define LIQ_BLOOD      13  /**< Liquid type blood */
+#define LIQ_ORANGE     1   /** < Liquid type ORANGE JUICE */
+#define LIQ_APPLE      2   /** < Liquid type APPLE JUICE */
+#define LIQ_GRAPE      3   /** < Liquid type GRAPE JUICE */
+#define LIQ_MANGO      4   /** < Liquid type MANGO JUICE */
+#define LIQ_TROPICAL   5   /** < Liquid type TROPICAL ICED TEA */
+#define LIQ_PASSION    6   /** < Liquid type PASSIONFRUIT ICED TEA */
+#define LIQ_LEMONAID   7   /** < Liquid type LEMONAID */
+#define LIQ_LIMEAID    8   /** < Liquid type LIMEAID */
+#define LIQ_CHOCOLATE  9   /** < Liquid CHOCOLATE MILK */
+#define LIQ_MILK       10  /**< Liquid type MILK */
+#define LIQ_WHITETEA   11  /**< Liquid WHITE TEA */
+#define LIQ_GREENTEA   12  /**< Liquid GREEN TEA */
+#define LIQ_BLACKTEA   13  /**< Liquid type BLACK TEA */
 #define LIQ_SALTWATER  14  /**< Liquid type saltwater */
-#define LIQ_CLEARWATER 15  /**< Liquid type clearwater */
+#define LIQ_PEPSICOLA  15  /**< Liquid type PEPSI-COLA */
+#define LIQ_COCACOLA   16  /**< Liquid type COCA-COLA */
 /** Total number of liquid types */
-#define NUM_LIQ_TYPES     16
+#define NUM_LIQ_TYPES     17
 
 /* other miscellaneous defines */
 /* Player conditions */

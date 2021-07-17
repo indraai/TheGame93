@@ -507,10 +507,10 @@ const char *drinks[] =
   "Pure Water",
 	"Orange juice",  /* beer */
 	"Apple juice", /* wine */
-	"Grapefruit juice", /* ale */
+	"Grape juice", /* ale */
 	"Mango juice", /* dark ale */
-	"Paradise Tropical Iced-Tea", /* whisky */
-	"Paradise Passion Fruit Iced-Tea", /* lemonade */
+	"Tropical Iced-Tea", /* whisky */
+	"Passion Fruit Iced-Tea", /* lemonade */
 	"Lemonaid", /* firebreather */
 	"Limeaid", /* local speciality */
 	"Chocolate Milk", /* slime mold juice */
@@ -519,7 +519,8 @@ const char *drinks[] =
 	"Green Tea", /* coffee */
 	"Black Tea", /* blood */
 	"Salt Water",
-	"Pepsi Cola"
+	"Pepsi"
+	"Coke"
   "\n"
 };
 
@@ -533,16 +534,17 @@ const char *drinknames[] =
 	"juice",
 	"juice",
 	"juice",
-	"tea",
-	"tea",
+	"iced-tea",
+	"iced-tea",
 	"lemonaid",
 	"limeaid",
 	"milk",
 	"milk",
-	"tea",
-	"tea",
-	"tea",
+	"hot-tea",
+	"hot-tea",
+	"hot-tea",
 	"salt",
+	"cola",
 	"cola"
   "\n"
 };
@@ -556,17 +558,18 @@ int drink_aff[][3] = {
   {0, 2, 5},
   {0, 2, 5},
   {0, 2, 5},
-  {0, 1, 4},
-  {0, 1, 8},
-  {0, 0, 0},
-  {0, 3, 3},
-  {0, 4, 8},
+  {0, 2, 8},
+  {0, 2, 8},
+  {0, 2, 8},
+  {0, 2, 8},
+  {0, 3, 6},
   {0, 3, 6},
   {0, 1, 6},
   {0, 1, 6},
-  {0, 2, 1},
-  {0, 1, 2},
-  {0, 0, 13}
+  {0, 1, 6},
+  {0, 1, 1},
+  {0, 2, 5},
+  {0, 2, 5}
 };
 
 /** Describes the color of the various drinks.
@@ -589,6 +592,7 @@ const char *color_liquid[] =
 	"green",
 	"black",
 	"clear",
+	"black"
 	"black"
   "\n"
 };
