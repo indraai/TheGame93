@@ -5,16 +5,16 @@ You are quite unable to perceive Sapowox's Universal Nothingness here.~
 ~
 5 bcg 0 0 0 an 0 0 0 0 0 0 0
 0 6 4 1
-40 1 200 0
-E
-text writing inscription~
-   It just says: ' (void *) ' Not very enlightening, is it?
-~
+40 1 200 0 0
 E
 nothingness universal~
    You are not sure, but you do not seem not able to figure out what it isn't,
 because it doesn't much resemble anything you haven't ever seen.  You feel a bit
 of mortal confusion, but you notice a small inscription on it.
+~
+E
+text writing inscription~
+   It just says: ' (void *) ' Not very enlightening, is it?
 ~
 A
 18 2
@@ -27,7 +27,7 @@ A lot of gold is here.~
 ~
 20 0 0 0 0 a 0 0 0 0 0 0 0
 1000 0 0 0
-1 1000 0 0
+1 1000 0 0 0
 #15002
 sceptre royal golden~
 a golden sceptre~
@@ -35,7 +35,7 @@ A golden Royal sceptre lies on the ground.~
 ~
 12 gk 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-20 150 30 0
+20 150 30 0 0
 A
 18 2
 #15003
@@ -45,7 +45,7 @@ A magnificently jewelled golden crown has been left here.~
 ~
 9 gk 0 0 0 ae 0 0 0 0 0 0 0
 7 0 0 0
-40 120 10 0
+40 120 10 0 0
 A
 12 30
 A
@@ -57,7 +57,7 @@ There is a golden apple here.~
 ~
 1 gk 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
-5 800 40 0
+5 800 40 0 0
 #15005
 telescope scope~
 a large telescope~
@@ -65,7 +65,7 @@ There is a large telescope here, pointing at the sky.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0
+0 0 0 0 0
 E
 telescope scope~
    A small sign says:
@@ -80,7 +80,7 @@ A training sword with blunt edges is leaned against a wall.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 4 3
-7 300 5 0
+7 300 5 0 0
 A
 18 -2
 #15007
@@ -90,7 +90,7 @@ There is a huge, heavy-looking key on the floor here.~
 ~
 18 c 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-1 1 0 0
+1 1 0 0 0
 #15008
 Verminator sword~
 Verminator~
@@ -98,7 +98,7 @@ A strange looking sword is lying upon the ground here.~
 ~
 5 adjmnoq 0 0 0 an 0 0 0 0 0 0 0
 0 3 4 11
-2 1 40 0
+2 1 40 0 0
 E
 verminator sword~
    This strange sword seems to be made of black metal, an eerie green glow
@@ -111,7 +111,7 @@ The Butler's key is here.~
 ~
 18 c 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-3 1 0 0
+3 1 0 0 0
 #15010
 key small~
 a small key~
@@ -119,7 +119,7 @@ A small key lies here.~
 ~
 18 c 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-1 1 100 0
+1 1 100 0 0
 #15011
 chest wooden~
 a large wooden chest~
@@ -127,7 +127,7 @@ A large wooden chest stands here in a corner.~
 ~
 15 0 0 0 0 a 0 0 0 0 0 0 0
 800 13 15010 0
-50 400 100 0
+50 400 100 0 0
 E
 chest~
    It is equipped with a small lock, that any self-respecting thief should be
@@ -140,7 +140,7 @@ A large vial has been left here.~
 ~
 10 g 0 0 0 a 0 0 0 0 0 0 0
 15 15 -1 -1
-14 800 80 0
+14 800 80 0 0
 E
 vial large brown potion~
    It is filled with a disgusting brown liquid.
@@ -152,14 +152,14 @@ The royal banner of King Indra has been firmly planted in the ground here.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0
-E
-flag~
-On the flag is the symbol of King Indra's house, the spiral with 3 dots.
-~
+0 0 0 0 0
 E
 banner royal standard~
 It is large and very heavy.  On top of it flutters King Indra's flag proudly.
+~
+E
+flag~
+On the flag is the symbol of King Indra's house, the spiral with 3 dots.
 ~
 #15014
 key~
@@ -168,7 +168,7 @@ A key lies on the floor.~
 ~
 18 c 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-13 1 0 0
+13 1 0 0 0
 E
 key~
    It has a finely carved letter 'W' inscribed on it.
@@ -180,7 +180,7 @@ A chain mail hauberk lies on the floor~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 5 0 0 0
-50 200 50 0
+50 200 50 0 0
 #15016
 broadsword sword large~
 a large broadsword~
@@ -188,7 +188,7 @@ There is a large broadsword lying here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 2 6 3
-14 130 30 0
+14 130 30 0 0
 #15017
 key cell~
 the cell key~
@@ -196,19 +196,19 @@ A key lies on the floor.~
 ~
 18 c 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-3 1 0 0
+3 1 0 0 0
 E
 key cell~
    This appears to be the key for the cells of the castle.
 ~
 #15018
-carcass~
-a carcass~
-There is a carcass lying in the middle of the floor of the building here.~
+bed~
+a Bed~
+A comfortable bed is here.~
 ~
-13 0 0 0 0 0 0 0 0 0 0 0 0
+6 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0
+0 0 0 0 0
 #15019
 lobster~
 a delicious-looking lobster~
@@ -216,7 +216,7 @@ A delicious-looking lobster is lying here, tempting your appetite.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 7 0 0 0
-5 100 10 0
+5 100 10 0 0
 #15020
 caviar~
 some Russian caviar~
@@ -224,7 +224,7 @@ There is some delicious-looking Russian caviar here, making your mouth water.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 0
-1 250 20 0
+1 250 20 0 0
 #15021
 glow~
 the glow from the west~
@@ -232,7 +232,7 @@ There is a strange glow coming from the west.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0
+0 0 0 0 0
 E
 glow~
    The glow from the west appears to be quite strong, but it does not give
@@ -245,5 +245,5 @@ There is an eerie wailing sound coming from the house to the east.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0
+0 0 0 0 0
 $~

@@ -83,12 +83,12 @@ You see the King's Road.
 ~
 0 -1 15003
 E
-gate drawbridge~
-adv:world:15004/gate
-~
-E
 whirls whirl moat~
 adv:world:15004/moat
+~
+E
+gate drawbridge~
+adv:world:15004/gate
 ~
 S
 #15005
@@ -379,16 +379,16 @@ You see the King's Great Hall.
 ~
 0 -1 15016
 E
-throne ivory~
-   It is large and very beautiful.  The carvings are mainly of animals and magic
-beasts.
-~
-E
 roof paintings paint~
    The paintings on the roof depict the great heroes and Devas.  One of the Devas
 is fairly heavy-bellied and incredibly hairy, with a massive beard.  Also among
 them are the great enemies and wrongdoers, such as the evil Devi Yochlol and
 the powerful evil Wizard Tharoecon.
+~
+E
+throne ivory~
+   It is large and very beautiful.  The carvings are mainly of animals and magic
+beasts.
 ~
 S
 #15018
@@ -572,13 +572,13 @@ The stairs lead up to the second floor.
 ~
 0 -1 15049
 E
-pillar pillars tree trees~
-   Very nice.  Squirrels and little birds all over.
-~
-E
 stairs stair~
    Made out of marble, and as all the rest of the Castle made primarily for
 beauty and with great skill.
+~
+E
+pillar pillars tree trees~
+   Very nice.  Squirrels and little birds all over.
 ~
 S
 #15026
@@ -1074,17 +1074,17 @@ The door is large, and made out of oak.
 door large oak~
 1 15014 15049
 E
-chairs~
-   The chairs are arranged around the fireplace.
+fire fireplace~
+   The fire is built out of logs, and seems to be able to burn for quite a while
+longer.
 ~
 E
 table~
    The table is made of mahogany, and elegant in a cosy way(!  )
 ~
 E
-fire fireplace~
-   The fire is built out of logs, and seems to be able to burn for quite a while
-longer.
+chairs~
+   The chairs are arranged around the fireplace.
 ~
 S
 #15051
@@ -1103,22 +1103,22 @@ There is a large and cosy room to the west.
 ~
 0 -1 15050
 E
-magic~
-Beginner?  This book goes beyond most of what YOU know about magic anyway.
-But then, there are levels of magical knowledge, it seems.
-~
-E
-history midgaard~
-A dry tome, filled with boring knowledge.
+books book shelf shelves bookshelf bookshelves~
+Most of the books seem worn, as if thoroughly studied.  The King evidently is
+interested in keeping himself educated.
 ~
 E
 bed~
 Seems nice enough to sleep in, though you would never dare to, since it is a Royal Bed!
 ~
 E
-books book shelf shelves bookshelf bookshelves~
-Most of the books seem worn, as if thoroughly studied.  The King evidently is
-interested in keeping himself educated.
+history midgaard~
+A dry tome, filled with boring knowledge.
+~
+E
+magic~
+Beginner?  This book goes beyond most of what YOU know about magic anyway.
+But then, there are levels of magical knowledge, it seems.
 ~
 S
 #15052
@@ -1135,12 +1135,12 @@ The stairs go down the tower.
 ~
 0 -1 15034
 E
-candle~
-   Small, uninteresting...  A candle that is as normal as can be.
-~
-E
 table~
    On the table are various objects, all very strange-looking.
+~
+E
+candle~
+   Small, uninteresting...  A candle that is as normal as can be.
 ~
 S
 #15053
@@ -1244,14 +1244,14 @@ A small stairwell built into the western wall of the room leads upwards.
 ~
 0 -1 15055
 E
-card floor~
-   The card on the floor seems to be the Ace of Spades...  A bad card to find
-indeed.  What could be the bad luck brought about by this discovery?
-~
-E
 table cards deck~
    There is a deck of cards on the table in a small pile.  There is one card
 lying on the floor however.
+~
+E
+card floor~
+   The card on the floor seems to be the Ace of Spades...  A bad card to find
+indeed.  What could be the bad luck brought about by this discovery?
 ~
 S
 #15057
@@ -1685,7 +1685,7 @@ far above your heads blocking out the sky.
 in color.  This glow provides enough light for you to see with even
 though the sky above has been blotted out.
 ~
-150 8 0 0 0 1
+150 16 0 0 0 3
 D1
 A narrow path leads away into the darkness.
 ~
@@ -1696,7 +1696,7 @@ You cannot see the sky above since the trees around the stone ring
 block it out entirely.
 ~
 ~
-0 -1 -1
+0 -1 26797
 E
 stones glow stone ring circle~
    Each stone is at least fifteen feet tall, maybe more, and the dark material
