@@ -1,6 +1,6 @@
 #1200
 Meeting Room~
-~
+Empty room.~
 12 8 0 0 0 0
 D0
 ~
@@ -9,45 +9,45 @@ D0
 S
 #1201
 House AVIIID~
-~
+Empty room.~
 12 8 0 0 0 0
 D1
 ~
 ~
 0 0 34307
 E
-aramati~
-adv:world:1201/aramati
-~
-E
-vamraka~
-adv:world:1201/vamraka
-~
-E
-indu~
-adv:world:1201/indu
-~
-E
-idne~
-adv:world:1201/idne
+deva~
+adv:world:1201/deva
 ~
 E
 indra~
 adv:world:1201/indra
 ~
 E
-deva~
-adv:world:1201/deva
+idne~
+adv:world:1201/idne
+~
+E
+indu~
+adv:world:1201/indu
+~
+E
+vamraka~
+adv:world:1201/vamraka
+~
+E
+aramati~
+adv:world:1201/aramati
 ~
 S
 #1202
 Ice Box~
-~
+Empty room.~
 12 184 0 0 0 0
 S
 #1203
 Message Boards~
-~
+Empty room.~
 12 184 0 0 0 0
 D0
 ~
@@ -59,25 +59,25 @@ D5
 0 0 3000
 S
 #1204
-Deva Room~
-~
+Deva Space~
+undefined~
 12 248 0 0 0 0
 D2
 ~
 ~
 1 -1 34308
 E
-original~
-adv:world:1204/original
-~
-E
 hymn~
 adv:world:1204/hymn
+~
+E
+original~
+adv:world:1204/original
 ~
 S
 #1205
 Deva Post Office~
-~
+Empty room.~
 12 8 0 0 0 0
 D3
 ~
@@ -86,7 +86,7 @@ D3
 S
 #1206
 Deva Business Center~
-~
+Empty room.~
 12 8 0 0 0 0
 D0
 ~
@@ -99,7 +99,7 @@ D3
 S
 #1290
 Deva Hall~
-~
+Empty room.~
 12 8 0 0 0 0
 D0
 ~
@@ -116,7 +116,7 @@ D3
 S
 #1291
 Waiting Room~
-~
+Empty room.~
 12 8 0 0 0 0
 D0
 ~
@@ -133,7 +133,7 @@ Justice~
 S
 #1292
 Mortal Board Room~
-~
+Empty room.~
 12 0 0 0 0 0
 D3
 ~
@@ -142,7 +142,7 @@ D3
 S
 #1293
 Halls Of Justice~
-~
+Empty room.~
 12 8 0 0 0 0
 D1
 ~
