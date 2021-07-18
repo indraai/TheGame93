@@ -417,30 +417,21 @@ D3
 S
 #15025
 The Stair Room~
-   You are standing below a great staircase, that leads up to the
-second floor of the Castle.  The stairs are made of marble, and there
-are pillars carved in the likenesses of trees with little animals
-running up and down the trunks.
 ~
 150 8 0 0 0 0
 D2
-You see the passage.
 ~
 ~
 0 -1 15020
 D4
-The stairs lead up to the second floor.
 ~
 ~
 0 -1 15049
 E
 pillar pillars tree trees~
-   Very nice.  Squirrels and little birds all over.
 ~
 E
 stairs stair~
-   Made out of marble, and as all the rest of the Castle made primarily for
-beauty and with great skill.
 ~
 S
 #15026
