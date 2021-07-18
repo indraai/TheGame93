@@ -721,8 +721,6 @@ static void look_at_target(struct char_data *ch, char *arg)
         send_to_char(ch, "\n%s\r", desc);
 	      found = TRUE;
       }
-    }
-    send_to_char(ch, "\nfound extra: %s", find_exdesc(arg, obj->ex_description));
   }
 
   /* If an object was found back in generic_find */
