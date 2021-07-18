@@ -532,18 +532,13 @@ D3
 S
 #15033
 The Corridor~
-   You are standing in a long corridor, decorated with tapestries
-depicting old times and old heroes.  The corridor continues west,
-and to the north you see the luxurious guest wing.
 ~
 150 8 0 0 0 0
 D0
-You see the guest wing.
 ~
 ~
 0 -1 15038
 D3
-You see the corridor continue.
 ~
 ~
 0 -1 15032
