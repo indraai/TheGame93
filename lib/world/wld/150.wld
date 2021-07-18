@@ -843,24 +843,19 @@ adv:world:15050/books
 S
 #15052
 Up In The Tower~
-   After a long climb, you finally reach the top of the tower.  This
-room is small, and the only light source is a flickering candle, on
-a cluttered table, in the middle of the room.  The only obvious exit
-is back down the stairs.
 ~
 150 8 0 0 0 0
 D5
-The stairs go down the tower.
 ~
 ~
 0 -1 15034
 E
 candle~
-   Small, uninteresting...  A candle that is as normal as can be.
+adv:world:15052/candle
 ~
 E
 table~
-   On the table are various objects, all very strange-looking.
+adv:world:15052/table
 ~
 S
 #15053
