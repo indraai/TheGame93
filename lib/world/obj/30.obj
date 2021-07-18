@@ -1,7 +1,7 @@
 #3000
 barrel beer~
-adventure[object]:3000/look~
-Adventure[object]:3000/main~
+a barrel~
+A beer barrel has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 50 50 1 0
@@ -9,7 +9,7 @@ Adventure[object]:3000/main~
 #3001
 bottle beer~
 a bottle~
-Obj:3001~
+A beer bottle has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
@@ -47,9 +47,9 @@ A key made of a dull metal is lying on the ground here.~
 0 0 0 0
 1 1 0 0 0
 #3006
-tsl1 tsl1-te teleporter~
-TSl1-TE Teleporter~
-A TSL1-TE Teleporter is here.~
+teleporter~
+the teleporter~
+A strange device labeled "teleporter" was left here.~
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -62,7 +62,7 @@ This teleporter is used to transfer players between zones.  Accessible zones
 are listed under HELP ZONES by being CAPITALIZED.  For example to teleport to:
   74 Newbie GRAVEyard                   -- Jojen                       3- 5
 type: teleport grave
-The teleporter may also be used to recall back to Amaravati at any time.
+   The teleporter may also be used to recall back to Midgaard at any time.
 
 Uncapitalized zones are linked through a capitalized zone.
 ~
@@ -76,7 +76,8 @@ Some waybread has been put here.~
 1 50 50 0 0
 E
 waybread bread~
-The waybread is the traditional feed of elves when travelling, they call it lembas.  It is said to refresh the weary traveler greatly.
+   The waybread is the traditional feed of elves when travelling, they call it
+lembas.  It is said to refresh the weary traveler greatly.
 ~
 #3010
 bread loaf~
@@ -87,9 +88,9 @@ A loaf of bread has been left here.~
 12 0 0 0
 1 10 10 0 0
 #3011
-cheese danish~
-a cheese danish~
-A nice looking delicious cheese danish has been placed here.~
+danish pastry~
+a danish pastry~
+A nice looking delicious danish pastry has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
@@ -120,184 +121,169 @@ Some nachos have been left here.~
 1 5 5 0 0
 E
 nachos nacho~
-They have cheese on them.  Looks like one of Uncle Juan's specials.
+   They have cheese on them.  Looks like one of Uncle Juan's specials.
 ~
 #3015
-cheese chunk~
-a piece of cheese~
-A rather tasty looking piece of cheese is here.~
+meat chunk~
+a piece of meat~
+A rather dubious looking piece of meat is on the ground here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 14 0 0 0
 5 24 10 0 0
 E
-cheese chunk~
-One of the tackle dummies must have dropped this amazingly tasty looking chunk
-of cheese here just for you.
+meat chunk~
+   It isn't so much that the meat looks poisoned or anything, but that you just
+are not sure of its origins.  You doubt that a hunter would drop a side of
+venison or rabbit meat...  What in the world could this meat have come from, you
+wonder...
 ~
 #3020
-tsl1 tsl1-su stun~
-TSL1-SU Stun Gun~
-A TSL1-SU Stun Gun is here.~
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 4 11
 1 10 10 0 0
 #3021
-tsl1-ims immobilizer~
-TSL1-IMS Immobilizer (S)~
-A TSL1-IMG Immobilizer (S) is here.~
+sword small~
+a small sword~
+A small sword lies here.~
 ~
 5 e 0 0 0 an 0 0 0 0 0 0 0
 0 1 6 11
 3 60 10 0 0
 E
-tsl1-ims immobilizer~
-adventure[object]:3021/extra
+inscription~
+   It says: 'May this sword be a good companion.  '
 ~
 E
-inscription~
-adventure[object]:3021/inscription
+sword small~
+   The small sword seems to have an inscription of some sort.
 ~
 #3022
-tsl1-iml immobilizer~
-a TSL1-IML Immobilizer (L) is here.~
-A TSL1-IML~
+sword long~
+a long sword~
+A long sword has been left here.~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 8 3
 8 600 10 0 0
-E
-tsl1-iml immobilizer~
-adventure[object]:3022/extra
-~
 #3023
-tsl1-cl club~
-TSL1-CL Club~
-A TSL1-CL Club is here.~
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 3 7
 3 12 10 0 0
-E
-tsl1-cl club~
-adventure[object]:3023/extra
-~
 #3024
-tsl1 tsl1-wh warhammer hammer~
-TSL1-WH Warhammer~
-A TSL1-WH Warhammer is here~
+warhammer hammer~
+a warhammer~
+A medium sized warhammer is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 1 5 7
 6 50 10 0 0
-E
-tsl1-wh warhammer hammer~
-adventure[object]:3024/extra
-~
 #3025
-tsl1 tsl1-fl flail~
-TSL1-FL Flail~
-A TSL1-FL Flail is here.~
+flail large~
+a flail~
+A large flail is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 0 2 4 7
 6 625 10 0 0
-E
-tsl1-fl flail~
-adventure[object]:3025/extra
-~
 #3030
-tsl1-led-t torch light led~
-TSL1-LED-T Torch~
-A TSL1-LED-T LED Torch Light is here~
+torch~
+a torch~
+A large torch.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 24 0
 1 10 10 0 0
 #3031
-tsl1 tsl1-led-l light lantern led~
-TSL1-LED-L Lantern~
-A TSL1-LED-L LED Lantern Light is here.~
+lantern brass~
+a lantern~
+A brass lantern is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 96 0
 1 50 10 0 0
 #3032
-tsl1 tsl1-ba bag~
-TSL1-BA Bag~
-A TSL1-BA Bag is here.~
+bag~
+a bag~
+A small bag is here.~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 50 0 0 0
 2 20 10 0 0
 #3033
-tsl1 tsl1-bo box~
-TSL1-BO Box~
-A TSL1-BO Box is here.~
+box~
+a box~
+A small box is here.~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 10 0 0 0
 5 50 10 0 0
 #3034
-atm teller bank money imm~
-Indra Money Machine~
-An Indra Money machine is here.~
+atm teller banks machine~
+an automatic teller machine~
+An automatic teller machine has been installed in the wall here.~
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
 atm teller bank machine~
-### Instructions
+   There is a small note on the machine which says:
 
-balance: BALANCE
-withdraw: WITHDRAW [amount]
-deposit: DEPOSIT [amount]
+To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
+Please report any strange occurrences to the bank manager.
 
-note: Please report any strange occurrences to the Indra Money manager.
 ~
 #3035
-fountain water f3035~
-A Water Fountain~
-A Water Fountain is here. (3035)~
+fountain water~
+the large fountain~
+A large fountain carved from blue-streaked marble is here, bubbling merrily.~
 ~
 23 cdeg 0 0 0 0 0 0 0 0 0 0 0
 500 500 15 0
 505 0 0 0 0
 E
 marble blue streaked fountain~
-It is a well crafted fountain, carved from a single piece of very beautiful white marble shot through with electric blue streaks that look almost like lightning dancing along the sides of the fountain.  It seems to be enchanted in some manner, as the water level seems to never lower.
+   It is a well crafted fountain, carved from a single piece of very beautiful
+white marble shot through with electric blue streaks that look almost like
+lightning dancing along the sides of the fountain.  It seems to be enchanted in
+some manner, as the water level seems to never lower.
 ~
 #3036
-money card imc~
-Indra Money Card~
-An Indra Money Card is here.~
+cashcard card atm banks~
+a cashcard~
+A handy dandy cashcard is sitting on the ground here.~
 ~
 12 cdeg 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1000 10 0 0
 E
-moneycard money card~
-### Instructions
+cashcard card atm~
+   There is some writing on the back of the card which reads:
 
-balance: BALANCE
-withdraw: WITHDRAW [amount]
-deposit: DEPOSIT [amount]
+To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
+Please report any strange occurrences to the bank manager.
 
-note: Please report any strange occurrences to the Indra Money manager.
 ~
 #3037
-tsl1 tsl1-led light led~
-TSL1-LED Light (S)~
-A TSL1-LED (S) light is here.~
+candle~
+a candle~
+A candle lies here, unlit.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
 1 5 1 0 0
 E
-tsl1-led~
-adventure[object]:3037/extra
+candle~
+   A home-made candle, how quaint!
 ~
 #3038
 nail~
@@ -309,7 +295,7 @@ A penny nail lies in the dust.~
 1 5 1 0 0
 E
 nail~
-Its a common iron nail, used for carpentry work.
+   Its a common iron nail, used for carpentry work.
 ~
 #3039
 pot~
@@ -321,68 +307,60 @@ A cast-iron pot sits on the ground.~
 10 100 20 0 0
 E
 pot~
-It is a nice pot.  You could use it, if you ever settled down.
+   It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
-tsl1 tsl1-cp chestplate~
-TSL1-CP Chest Plate~
-A TSL1-CP Chest Plate is here.~
+plate breast~
+a breast plate~
+A breast plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 7 0 0 0
 50 180 15 0 0
-E
-tsl1-cp~
-adventure[object]:3040/extra
-~
 #3041
-tsl1 tsl1-sh shirt~
-TSL1-SH Shirt~
-A TSL1-SH Shirt is here.~
+shirt chain mail~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 5 0 0 0
 50 250 5 0 0
 #3042
-tsl1 tsl1-sh shield~
-TSL1-SH Shield~
-A TSL1-SH Shield is here.~
+shield wooden~
+a shield~
+A small wooden shield is lying on the ground.~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
 2 0 0 0
 3 100 10 0 0
-E
-tsl1-sd~
-adventure[object]:3041/extra
-~
 #3043
-tsl1 tsl1-ja jacket~
-TSL1-JA Jacket~
-A TSL1-JA Jacket is here.~
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
 10 200 10 0 0
 #3044
-tsl1 tsl1-jax jacket~
-TSL1-JAX Jacket~
-A TSL1-JAX Jacket-X is here.~
+jacket studded leather~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
 20 500 10 0 0
 #3045
-tsl1 tsl1-jas jacket~
-TSL1-JAS Jacket-S~
-A TSL1-JAS Jacket-S is here.~
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 4 0 0 0
 40 1000 10 0 0
 #3046
-tsl1 tsl1-bp-b bronse breast plate~
-TSL1-BP-B Bronze Breast Plate~
-A TSL1-BP-B Breast Plate (Bronze) is here.~
+plate bronze breast~
+a bronze breast plate~
+A bronze breast plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 6 0 0 0
@@ -448,15 +426,15 @@ at the base of the wand.  It looks like this:
      / \
 ~
 #3054
-tsl1-staff staff~
-TSL1-ST Staff~
-A TSL1-ST Staff is here.~
+staff gnarled~
+a gnarled staff~
+A gnarled staff has carelessly been left here.~
 ~
 4 g 0 0 0 ao 0 0 0 0 0 0 0
 12 1 1 38
 17 700 50 0 0
 E
-tsl1-staff staff~
+staff gnarled~
    The staff is made of old oak, and is around five feet long. It fits
 perfectly into your hand. You notice a small symbol etched at the
 base of the staff, it looks like:
@@ -513,17 +491,13 @@ A pair of bronze gauntlets is lying on the ground.~
 6 0 0 0
 8 175 10 0 0
 #3071
-tsl1-gl~
-TSL1-GL Gloves (2)~
-A pair of TSL1-GL Gloves are here.~
+gloves leather~
+a pair of leather gloves~
+A pair of leather gloves is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 3 0 0 0
 3 75 10 0 0
-E
-tsl1-gl~
-adventure[object]:3071/extra
-~
 #3075
 helmet bronze~
 a bronze helmet~
@@ -533,202 +507,189 @@ A bronze helmet is lying on the ground.~
 6 0 0 0
 8 350 10 0 0
 #3076
-tsl1-he helment~
-TSL1-HE Helmet~
-A TSL1-HE Helmet is here.~
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 3 0 0 0
 3 150 10 0 0
-E
-tsl1-he helmet~
-adventure[object]:3076/extra
-~
 #3080
-tsl1 tsl1-sg shinguards~
-TSL1-SG Shin Guards (2)~
-A pair of TSL1-SG Shin Guards are here.~
+leggings bronze~
+a pair of bronze leggings~
+A pair of bronze leggings is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 6 0 0 0
 8 350 10 0 0
 #3081
-tsl1-pa pants~
-TSL1-PA Pants~
-A pair of TSL1-PA Pants are here.~
+pants leather~
+a pair of leather pants~
+A pair of leather pants is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 3 0 0 0
 8 150 10 0 0
-E
-tsl1-pa pants~
-adventure[object]:3081/extra
-~
 #3082
-tsl1-ng neckguard~
-TSL1-NG Neck Guard~
-A TSL1-NG Neck Guard is here.~
+leather gorget neck guard~
+a leather gorget~
+A leather neck guard has been left here~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
 3 0 0 0
 1 10 0 0 0
 E
-tsl1-ng~
-adventure[object]:3082/extra
+leather gorget neck guard~
+   This leather neck guard is meant to protect the throat and face in battle.
 ~
 #3083
-tsl1-rg ring~
-TSL1-RG Ring~
-A TSL1-RG Ring is here.~
+leather ring~
+a leather ring~
+A leather ring with strange symbols lies here.~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
 1 0 0 0
 1 10 1 0 0
 E
-tsl1-rg~
-adventure[object]:3083/extra
+leather ring~
+   The ring used to have some strange writing and symbols around the band but it
+has become so worn with time and use that it is unreadable.
 ~
 #3084
-tsl1-bb boots~
-TSL1-BB Booster Boots (2)~
-A pair of TSL1-BB Booster Boots are here.~
+leather boots~
+a pair of leather boots~
+A pair of leather boots is lying here.~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
 4 0 0 0
 2 11 0 0 0
 E
-tsl1-bb~
-adventure[object]:3084/extra
+leather boots~
+   The boots are worn with age but well oiled and polished to still remain
+useable.
 ~
 #3085
-tsl1-sl-b sleeves~
-TSL1-SL-B  Bronze Sleeves (2)~
-A pair of TSL1-SL-B Bronze Sleeves are here.~
+sleeves bronze~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 6 0 0 0
 8 175 10 0 0
-E
-tsl1-sl-b sleeves~
-adventure[object]:3085/extra
-~
 #3086
-tsl1-sl sleeves~
-TSL1-SL Sleeves (2)~
-A pair of TSL1-SL are here.~
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 2 0 0 0
 4 75 10 0 0
-E
-tsl1-sl sleeves~
-adventure[object]:3086/extra
-~
 #3087
-tsl1-ca cape~
-TSL1-CA Cape~
-A TSL1-CA Cape is here.~
+brown leather cape~
+a brown leather cape~
+A brown leather cape was abandoned on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 4 100 0 0 0
 E
-tsl1-ca cape~
-adventure[object]:3087/extra
+brown leather cape~
+   It is a rough brown leather cape that is frayed at the end.
 ~
 A
 1 1
 #3088
-tsl1-ub belt~
-TSL1-UB Utility Belt~
-A TSL1-UB Utility Belt is here.~
+leather old belt~
+an old leather belt~
+A belt made of leather was left here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
 2 0 0 0
 1 30 0 0 0
 E
-tsl1-ub belt~
-It looks very, very hi tech.
+belt leather old~
+   It looks very, very old.
 ~
 A
 18 2
 A
 1 1
 #3089
-tsl1-wg wristguard~
-TSL1-WG WristGuard~
-A TSL1-WG Wrist Guard is here.~
+leather wristguard~
+a leather wristguard~
+A leather wristguard lies in the dirt.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 1 0 0 0
 3 30 0 0 0
 E
-tsl1-wg wristguard~
-The Level 1 Tackle Suit Wristguard is extremely flexible and supportive.
-It is designed to loosen and tighten to almost any size.
+leather wristguard~
+   The wristguard has been heavily oiled and is extremely flexible and
+supportive.  It is laced with some leather string to loosen and tighten to
+almost any size.
 ~
 #3096
-boards social message gen_boards~
-a Social Message Board~
-A large, sociable message board is mounted on a wall here.~
+boards social bulletin gen_boards~
+a social bulletin board~
+A large, sociable bulletin board is mounted on a wall here.~
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-board~
-   If you can read this, the board is not working.
+social bulletin~
+   Use 'look board' to read the board.
 ~
 E
-social message~
-   Use 'look board' to read the board.
+board~
+   If you can read this, the board is not working.
 ~
 #3097
-boards frozen message gen_boards~
-a frozen message board~
-A large message board is here, carved from a block of ice.~
+boards frozen bulletin gen_boards~
+a frozen bulletin board~
+A large bulletin board is here, carved from a block of ice.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-board~
-   If you can read this, the board is not working.
+freeze bulletin~
+   Use 'look board' to read the board.
 ~
 E
-freeze message~
-   Use 'look board' to read the board.
+board~
+   If you can read this, the board is not working.
 ~
 #3098
-boards deva Message gen_boards~
-Deva Message Board~
-A Deva Message Board is here.~
+boards holy bulletin gen_boards~
+a holy bulletin board~
+A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-board~
-   If you can read this, the board is not working.
+holy bulletin~
+   Use 'look board' to read the board.
 ~
 E
-holy message~
-   Use 'look board' to read the board.
+board~
+   If you can read this, the board is not working.
 ~
 #3099
-boards message gen_boards~
-a message board~
-A message board is here.~
+boards bulletin gen_boards~
+a bulletin board~
+A large bulletin board is mounted on a wall here.~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
-board~
-   If you can read this, the board is not working.
+bulletin~
+   Use 'look board' to read the board.
 ~
 E
-message~
-   Use 'look board' to read the board.
+board~
+   If you can read this, the board is not working.
 ~
 $~
