@@ -16,6 +16,7 @@ D3
 0 -1 3502
 E
 traveller~
+adv:world:15000/traveller
 ~
 S
 #15001
@@ -152,47 +153,31 @@ adv:world:15009/stairs
 S
 #15010
 The Small Passage~
-   You are standing in a small passage, that is clearly intended
-mainly for the servants of the Castle.  The passage leads north
-and south.
 ~
 150 8 0 0 0 0
 D0
-You see a small, dimly lit passage.
 ~
 ~
 0 -1 15015
 D2
-You hear the clanging of pots, and smell cooking meat.
 ~
 ~
 0 -1 15005
 S
 #15011
 The Great Hall~
-   You are standing in the south-west end of the Great Hall. It
-is truly vast; the roof is so high above your head, that it seems no
-closer than the clouds outside.  The roof is beautifully painted, by
-someone who must have been a true master.  The hall is very large,
-and could easily seat several hundred people at a banquet.
 ~
 150 8 0 0 0 0
 D0
-You see the King's Great Hall.
 ~
 ~
 0 -1 15016
 D1
-You see the King's Great Hall.
 ~
 ~
 0 -1 15012
 E
-roof paintings paint~
-   The paintings on the roof depict the great heroes and gods.  One of the gods
-is fairly heavy-bellied and incredibly hairy, with a massive beard.  Also among
-them are the great enemies and wrongdoers, such as the evil Goddess Yochlol and
-the powerful evil Wizard Tharoecon.
+paintings~
 ~
 S
 #15012
