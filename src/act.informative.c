@@ -844,21 +844,27 @@ ACMD(do_score)
 {
   struct time_info_data playing_time;
 
-  /* COMMENTING OUT BECAUSE IT BLOCKS AGENTS FROM GETTING A SCORE
   if (IS_NPC(ch))
     return;
-  */
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
     send_to_char(ch, "  It's your birthday.\r\n");
 
-  send_to_char(ch, "\nname: %s\r", GET_NAME(ch));
-  send_to_char(ch, "\nage: %dyrs\r", GET_AGE(ch));
-  send_to_char(ch, "\ngold: %d\r", GET_GOLD(ch));
-  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(ch));
-  send_to_char(ch, "\nrank: %s\r", GET_TITLE(ch));
-  send_to_char(ch, "\nalign:%d\r", GET_ALIGNMENT(ch));
-  send_to_char(ch, "\nexp: %d\r", GET_EXP(ch));
+  send_to_char(ch, "\nname: %s\r"
+    "\nage: %dyrs\r"
+    "\ngold: %d\r"
+    "\nlevel: %d\r"
+    "\nrank: %s\r"
+    "\nalign:%d\r"
+    "\nexp: %d\r",
+    GET_NAME(ch),
+    GET_AGE(ch),
+    GET_GOLD(ch),
+    GET_LEVEL(ch),
+    GET_TITLE(ch),
+    GET_ALIGNMENT(ch),
+    GET_EXP(ch)
+  );
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
     send_to_char(ch, "\nlevelup: %d\r\n",
@@ -1062,7 +1068,7 @@ ACMD(do_weather)
                  sky_look[weather_info.sky]);
     }
   else
-    send_to_char(ch, "\nWow... This inside weather is awesome.\r");
+    send_to_char(ch, "\nThis inside weather is amazing!\r");
 }
 
 /* puts -'s instead of spaces */
