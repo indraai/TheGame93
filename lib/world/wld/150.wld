@@ -1,34 +1,21 @@
 #15000
 The King's Road~
-   You stand at the beginning of the actual King's Road.  The road is wide
-enough for several horses to ride along side by side with room to spare.
-The stones which make up the road have been put into place with such skill
-that the road seems to be perfectly smooth and perfectly straight.
-   You spot a small trail leading to the south through the undergrowth which
-surrounds the road at this point.
-A traveller passes by and waves cheerfully at you.
 ~
 150 4 0 0 0 1
 D1
-The King's Road continues in a straight line to the east towards a grand
-castle.
 ~
 ~
 0 -1 15001
 D2
-A small overgrown trail leads through the undergrowth to the south.
 ~
 ~
 0 -1 15061
 D3
-The King's Road thins out a bit into a lane just to the west.
 ~
 ~
 0 -1 3502
 E
 traveller~
-   The traveller smiles cheerfully and calls 'hello' when you greet him, but
-continues on his way.  The traveller is in excellent condition.
 ~
 S
 #15001
