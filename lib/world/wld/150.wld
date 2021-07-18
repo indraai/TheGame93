@@ -767,34 +767,27 @@ adv:world:15048/stairs
 S
 #15049
 The Grand Staircase~
-   You are standing on a great staircase, that leads up and down.  To
-the east, there is a large oak door, and a corridor leads south.
 ~
 150 8 0 0 0 0
 D1
-The door is large and made out of oak.
 ~
 door oak large~
 1 15014 15050
 D2
-You see the corridor.
 ~
 ~
 0 -1 15045
 D4
-The stairs continue up to the top of the tower.
 ~
 ~
 0 -1 15053
 D5
-The stairs lead down to the first floor of the Castle.
 ~
 ~
 0 -1 15025
 E
 stairs~
-   The stairs are made of marble, and there are pillars carved in the likenesses
-of trees with little animals running up and down the trunks.
+adv:world:15049/stairs
 ~
 S
 #15050
