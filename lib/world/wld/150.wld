@@ -792,43 +792,31 @@ adv:world:15049/stairs
 S
 #15050
 The Cosy Room~
-   You have entered a large, cosy living room.  There is a fireplace
-with a fire burning, and a few comfortable chairs around a little
-table.  There is a door to the west, and also an exit to the east.
 ~
 150 8 0 0 0 0
 D1
-You see a large bedroom.
 ~
 ~
 0 -1 15051
 D3
-The door is large, and made out of oak.
 ~
 door large oak~
 1 15014 15049
 E
 chairs~
-   The chairs are arranged around the fireplace.
+adv:world:15050/chairs
 ~
 E
 table~
-   The table is made of mahogany, and elegant in a cosy way(!  )
+adv:world:15050/table
 ~
 E
 fire fireplace~
-   The fire is built out of logs, and seems to be able to burn for quite a while
-longer.
+adv:world:15050/fireplace
 ~
 S
 #15051
 King Welmar's Bedroom~
-   This is a large room, with a wonderful view.  To one side of the
-room, stands a large four-poster bed.  All around the room there are
-massive bookshelves, filled with all kinds of books.  The titles include
-works such as: 'A Treatise on the History of Midgaard and surrounding
-areas', 'Magic - A Beginner's Introduction' and many others.  There is
-an exit to the west.
 ~
 150 8 0 0 0 0
 D3
