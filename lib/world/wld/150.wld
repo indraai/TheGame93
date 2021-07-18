@@ -79,29 +79,19 @@ adv:word:15004/gate
 S
 #15005
 The Kitchen~
-   You are in the Kitchen.  Lots of helpers hurry to do the Chief Cook's
-bidding, and there is a wonderful smell that makes you feel very hungry.
-All around the room, there are shelves with different kinds of cooking
-gear stacked on them.  There is an exit to the north, and one to the east;
-both leading to small passages.
 ~
 150 8 0 0 0 0
 D0
-You see a small, dimly lit passage.
 ~
 ~
 0 -1 15010
 D1
-You see a small, dimly lit passage.
 ~
 ~
 0 -1 15006
 S
 #15006
 A Small Passage~
-   You are standing in a small passage, that is clearly intended mostly
-for the servants of the Castle.  It is only dimly lit and quite narrow.
-The passage leads west, and to the east there is a small door.
 ~
 150 8 0 0 0 0
 D1
