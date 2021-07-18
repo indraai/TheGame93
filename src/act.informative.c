@@ -684,7 +684,7 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
-    send_to_char(ch, "\n# Look\r"
+    send_to_char(ch, "\n## Look\r"
     "\nadv:world:%d/%s\r"
     "\n=\n"
     "\nroom:%d\r",
@@ -708,10 +708,13 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n## Find Extra\r"
+        send_to_char(ch, "\n## Look\r"
           "\n%s\r"
-          "\n=\r"
-          "\n \r", desc);
+          "\n=\n"
+          "\nroom:%d\r",
+          desc,
+          GET_ROOM_VNUM(IN_ROOM(ch))
+        );
         found = TRUE;
       }
   }
@@ -720,7 +723,13 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj)) {
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\r", desc);
+        send_to_char(ch, "\n## Look\r"
+          "\n%s\r"
+          "\n=\n"
+          "\nroom:%d\r",
+          desc,
+          GET_ROOM_VNUM(IN_ROOM(ch))
+        );
 	      found = TRUE;
       }
     }
@@ -735,7 +744,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "\nTry looking around for that item.\r");
+    send_to_char(ch, "\n## Look\r\nTry looking around for that item.\r");
 }
 
 ACMD(do_look)
