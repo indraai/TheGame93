@@ -36,33 +36,23 @@ The King's Road~
 ~
 150 0 0 0 0 1
 D1
-You see a castle in the far east.
 ~
 ~
 0 -1 15003
 D3
-The King's Road continues in a straight line to the west.
 ~
 ~
 0 -1 15001
 S
 #15003
 On The King's Road Outside A Castle~
-   You are standing on the King's Road.  Before you is a large
-Castle, evidently built not so much for strength as for beauty.
-It is not totally without defenses, though, for it is surrounded
-by a deep moat, and its windows are just narrow slits for archers
-to shoot through.  To the north there is a drawbridge across the
-moat.
 ~
 150 0 0 0 0 1
 D0
-You see the drawbridge.
 ~
 ~
 0 -1 15004
 D3
-The King's Road continues in a straight line to the west.
 ~
 ~
 0 -1 15002
