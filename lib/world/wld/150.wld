@@ -436,20 +436,15 @@ stairs stair~
 S
 #15026
 The Servants' Quarters~
-   You are standing in a large room, that seems to house many of the
-servants.  The room is full of comfortable-looking beds.  There is also
-a large chest, probably containing some of the servants' belongings.
 ~
 150 8 0 0 0 0
 D2
-The door is made out of wood.
 ~
 door wood~
 1 -1 15021
 E
-bed~
-   The beds all look comfortable, despite the fact that this is just the
-servants' place.
+bed beds~
+adv:world:15026/beds
 ~
 S
 #15027
