@@ -623,20 +623,13 @@ D2
 S
 #15039
 The Guest Suite~
-   This must be where only the most highly regarded guests stay, since
-it is luxurious beyond your wildest imagination.  This is only the living
-room of the suite, but it is huge and tastefully decorated.  All the
-furniture is not only beautiful, but also made for comfort.  To the
-north, there is an exit to the bedroom, and there is a door to the west.
 ~
 150 8 0 0 0 0
 D0
-You see the bedroom.
 ~
 ~
 0 -1 15044
 D3
-Behind the door you see the entrance to the Guest Wing.
 ~
 door~
 1 -1 15038
