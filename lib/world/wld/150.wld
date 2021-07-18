@@ -429,6 +429,7 @@ D4
 0 -1 15049
 E
 pillar pillars tree trees~
+adv:world:15025/pillars
 ~
 E
 stairs stair~
@@ -449,45 +450,32 @@ adv:world:15026/beds
 S
 #15027
 The Butler's Quarters~
-   You see at once that this must be the butler's room, for it lies
-in the servants' wing, and still it is large and comfortable; almost
-luxurious, in fact.  There is a large bed and a drawer in the room.
-The only exit is via the door to the south.
 ~
 150 8 0 0 0 0
 D2
-You see the corridor.
 ~
 door~
 1 15009 15022
 E
 bed~
-   Looks very comfortable indeed.
+adv:world:15027/bed
 ~
 S
 #15028
 The Guards' Barracks~
-   You are standing in a very large room with bunks all over.  It is
-obvious, that this is where the guards off duty spend most of their
-time, drinking and gambling or, probably, mostly sleeping.
 ~
 150 8 0 0 0 0
 D2
-The door is large and heavy.
 ~
 door large heavy~
 1 -1 15023
 E
 bunk bunks~
-   They look a bit hard, but you could sleep in them.
+adv:world:15028/bunks
 ~
 S
 #15029
 The Stairs~
-   You are standing by a staircase leading down.  As you look down,
-you notice that for the first time since you entered the castle,
-things are not aesthetically made.  Instead it looks more functional
-and prison-like.
 ~
 150 8 0 0 0 0
 D2
