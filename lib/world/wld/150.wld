@@ -716,68 +716,53 @@ D2
 S
 #15046
 The Ball Room~
-   You are standing in the great Ball Room.  It is a truly large room,
-with a stage for an orchestra in the south-east end.
 ~
 150 8 0 0 0 0
 D1
-You see the Ball Room.
 ~
 ~
 0 -1 15047
 D2
-You see the Ball Room.
 ~
 ~
 0 -1 15041
 D3
-You see the corridor.
 ~
 ~
 0 -1 15045
 S
 #15047
 The Ball Room~
-   You are standing in the great Ball Room.  It is a truly large room,
-with a stage for an orchestra in the south-east end.
 ~
 150 8 0 0 0 0
 D1
-To the east, you can enter a tower.
 ~
 ~
 0 -1 15048
 D2
-To the south you see the stage.
 ~
 ~
 0 -1 15042
 D3
-You see the Ball Room.
 ~
 ~
 0 -1 15046
 S
 #15048
 In The Tower~
-   You are standing in the north-eastern of the three great watch-
-towers of the Castle.  To the west, you can enter the Ball Room and
-there are stairs leading up into the Tower.
 ~
 150 8 0 0 0 0
 D3
-You see the Ball Room.
 ~
 ~
 0 -1 15047
 D4
-The stairs lead a long way up to the top of the Tower.
 ~
 ~
 0 -1 15054
 E
 stairs~
-   The stairs are made out of granite, and seem solid enough.
+adv:world:15048/stairs
 ~
 S
 #15049
