@@ -662,9 +662,6 @@ D1
 S
 #15042
 By The Stage~
-   Before you you see the stage.  It is large enough for some 40
-musicians to play on at the same time.  The Ball Room continues
-to the west and north.
 ~
 150 8 0 0 0 0
 D0
@@ -680,13 +677,9 @@ You see the Ball Room.
 S
 #15043
 A Guest Room~
-   You are standing in a large room.  Although it is comfortable enough,
-you can tell it is not meant for any of the most illustrious guests,
-since it lacks that extreme luxury found elsewhere in the Castle.
 ~
 150 8 0 0 0 0
 D2
-Behind the door, you see the entrance to the Guest Wing.
 ~
 door~
 1 -1 15038
