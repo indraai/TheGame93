@@ -323,22 +323,17 @@ adv:world:15018/paintings
 S
 #15019
 The Small Passage~
-   You are standing in a small passage, that leads north and south.
-To the west, there is an exit into the Great Hall.
 ~
 150 8 0 0 0 0
 D0
-The passage continues to the north.
 ~
 ~
 0 -1 15024
 D2
-The passage continues to the south.
 ~
 ~
 0 -1 15014
 D3
-To the west you see the Great Hall.
 ~
 ~
 0 -1 15018
