@@ -699,23 +699,17 @@ adv:world:15044/bed
 S
 #15045
 The Corridor~
-   You are standing in a long corridor, decorated with tapestries
-depicting old times and old heroes.  It leads north and south.  There
-is an exit to the east, that leads to a large room.
 ~
 150 8 0 0 0 0
 D0
-You see the corridor continue.
 ~
 ~
 0 -1 15049
 D1
-You see the Ball Room.
 ~
 ~
 0 -1 15046
 D2
-You see the corridor continue.
 ~
 ~
 0 -1 15040
