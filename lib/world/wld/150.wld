@@ -596,35 +596,27 @@ The Great Treasury~
 ~
 150 8 0 0 0 0
 D3
-You see a large steel door.
 ~
 door large steel~
 2 15007 15036
 E
 painting paintings carving carvings sculptures tapestries~
-   It seems they are stored here temporarily to enable changing of the
-decoration in the Castle on a regular basis.
+adv:world:15037/paintings
 ~
 S
 #15038
 The Guest Wing~
-   You have arrived at the part of the Castle where prominent
-guests are housed.  To the east there is a large, ornamented
-door, and a somewhat smaller one leads north.
 ~
 150 8 0 0 0 0
 D0
-The door seems to lead to a guest room.
 ~
 door small~
 1 -1 15043
 D1
-You see the guest suite behind the ornamented door.
 ~
 door ornament ornamented~
 1 -1 15039
 D2
-You see the corridor.
 ~
 ~
 0 -1 15033
