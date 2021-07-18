@@ -238,22 +238,17 @@ D2
 S
 #15015
 The Passage~
-   You are in a passage, that leads north and south. To the east there
-is an exit to the Great Hall.
 ~
 150 8 0 0 0 0
 D0
-You see the passage continue.
 ~
 ~
 0 -1 15020
 D1
-You see the King's Great Hall.
 ~
 ~
 0 -1 15016
 D2
-You see the passage continue.
 ~
 ~
 0 -1 15010
