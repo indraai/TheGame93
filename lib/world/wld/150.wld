@@ -1104,68 +1104,33 @@ D0
 S
 #15068
 A House~
-   This house is a wreck, furniture has been strewn all about
-the room, and it looks like a tornado landed right in the middle
-of the room.  The destruction that has taken place in this room
-is almost beyond belief.  The oddest part of it all though, is
-how it all seems so recent, since there are no cobwebs, and there
-is no dust on anything.
-   The dirt road can be seen to the east through the doorway.
 ~
 150 8 0 0 0 0
 D1
-You can see the dirt road through the doorway to the east.
 ~
 ~
 0 -1 15064
 S
 #15069
 A House~
-   This darkened room is barely lit by the outdoor light, but what
-you can see of it gives you the creeps.  There are cobwebs dangling
-from everything, a thick layer of dust begins to rise up at your
-passage, and a strange howl comes from somewhere around you.  The
-furniture in this house is old and of a type that hasn't been seen
-around these lands for some time.  If it was in better shape, you
-might be able to sell it as antique.
-   The meager light of the road shines through the doorway to the
-west.
 ~
 150 9 0 0 0 0
 D3
-You can see the dirt road through the doorway to the west.
 ~
 ~
 0 -1 15065
 S
 #15070
 A Small Cottage~
-   This cottage looks to have been left in exactly the same shape as
-it was in quite some time ago.  It looks as if the residents left one
-day and haven't returned home yet.  Oddly enough, the furniture is
-dust free and the food on the table still looks fresh.  This house is
-really strange, perhaps it wuld be in your best interests to leave as
-soon as humanly possible.
-   The road is back through the open doorway to the east.
 ~
 150 8 0 0 0 0
 D1
-You can see the dirt road through the doorway to the east.
 ~
 ~
 0 -1 15066
 S
 #15071
 The Burned Shop~
-   As you enter this small building, you notice that that blackened
-walls are due to a fire that seemed to burn here unattended for quite
-some time.  There is almost nothing left of the roof that would have
-once covered this building, and the north and east walls have been
-burnt to almost half the height of the other two walls.  There are
-some burnt goods around on the ground and the remains of a counter
-near what is left of the north wall seems to indicate that this was
-once a shop.
-   The road lies to the west through the blackened wall.
 ~
 150 0 0 0 0 2
 D3
@@ -1176,79 +1141,40 @@ You can see the dirt road to the west.
 S
 #15072
 A Dark Path~
-   As you move away form the open air into the darkness of the path
-and the sinister looking woods around you, you get a feeling of awe
-and something almost akin to horror.  The wood around is completely
-silent, not even the rustling of leaves or the cracking of branches
-breaks the silence.  The final thing you notice is that the darkness
-all around you seems to be almost contrived, and doesn't seem natural
-for this kind of vegitation.
-   The path continues west and you can see light to the east.
 ~
 150 9 0 0 0 1
 D1
-The path continues towards a small intersection with a dirt road.
 ~
 ~
 0 -1 15065
 D3
-The path continues through the darkness.
 ~
 ~
 0 -1 15073
 S
 #15073
 A Dark Path~
-   This narrow path leads through the overhanging trees in the unnatural
-darkness.  It seems almost as if the trees are crowding in on you here,
-as if they didn't want to feel your presence.  The wood is almost totally
-silent and you wonder silently to yourself why this could be.
-   The path appears to continue east and west.
 ~
 150 9 0 0 0 1
 D1
-The path continues through the darkness.
 ~
 ~
 0 -1 15072
 D3
-The glow from the west appears to be quite strong, but it does not
-give enough light to see by here, nor can you see the source of the
-glow.
 ~
 ~
 0 -1 15074
 S
 #15074
 The Circle Of Stones~
-   You are at the edge of a circle of seven large monolith-like stones.
-Each stone towers over your head and appears to be at least double your
-height.  The stones are made of a dark black material, almost black in
-color.
-   In the center of the ring of stones, you can see a black circular
-mirror-like disk on the ground.  The surface is highly reflective and
-almost appears to be rippling.  The trees surrounding the circle tower
-far above your heads blocking out the sky.
-   A strange glow seems to be emanating from each stone, almost green
-in color.  This glow provides enough light for you to see with even
-though the sky above has been blotted out.
 ~
 150 8 0 0 0 1
 D1
-A narrow path leads away into the darkness.
 ~
 ~
 0 -1 15073
-D4
-You cannot see the sky above since the trees around the stone ring
-block it out entirely.
-~
-~
-0 -1 -1
 E
 stones glow stone ring circle~
-   Each stone is at least fifteen feet tall, maybe more, and the dark material
-glows with a greenish aura providing more than enough light for you to see by.
 ~
 S
 $~
