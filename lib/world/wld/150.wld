@@ -276,51 +276,31 @@ adv:world:15016/paintings
 S
 #15017
 By The Throne In The Great Hall~
-   You are standing by the King's huge ivory throne.  The throne is, to
-an even greater degree than the Hall itself, a masterpiece.  It is
-intricately and beautifully carved, and it seems to be made out of a
-single block of ivory, though you shiver at the thought of meeting
-the animal that died to yield a piece of that size.  The Hall continues
-to the east, west and south.
 ~
 150 8 0 0 0 0
 D1
-You see the King's Great Hall.
 ~
 ~
 0 -1 15018
 D2
-You see the King's Great Hall.
 ~
 ~
 0 -1 15012
 D3
-You see the King's Great Hall.
 ~
 ~
 0 -1 15016
 E
-throne ivory~
-   It is large and very beautiful.  The carvings are mainly of animals and magic
-beasts.
+throne~
+adv:world:15017/throne
 ~
 E
-roof paintings paint~
-   The paintings on the roof depict the great heroes and gods.  One of the gods
-is fairly heavy-bellied and incredibly hairy, with a massive beard.  Also among
-them are the great enemies and wrongdoers, such as the evil Goddess Yochlol and
-the powerful evil Wizard Tharoecon.
+paintings~
+adv:world:15017/paintings
 ~
 S
 #15018
 The Great Hall~
-   You are standing in the north-east end of the Great Hall.  It
-is truly vast; the roof is so high above your head, that it seems no
-closer than the clouds outside.  The roof is beautifully painted, by
-someone who must have been a true master.  The hall is very large,
-and could easily seat several hundred people at a banquet.  To your
-west, you see King Welmar's great throne, and to the east there is
-an exit to a small passage.
 ~
 150 8 0 0 0 0
 D1
