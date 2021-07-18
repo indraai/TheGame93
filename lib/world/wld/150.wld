@@ -479,19 +479,16 @@ The Stairs~
 ~
 150 8 0 0 0 0
 D2
-You see the small passage.
 ~
 ~
 0 -1 15024
 D5
-The stairs down lead into darkness.
 ~
 ~
 0 -1 15055
 E
 stairs stair staircase~
-   They seem to be made of granite, and stretch down into a more dimly lit area
-than where you come from.
+adv:world:15029/stairs
 ~
 S
 #15030
