@@ -400,23 +400,17 @@ D1
 S
 #15024
 The Small Passage~
-   You are standing in a small passage leading north and south.  There
-is also an exit to the west, from which grunts, cheers and heavy blows
-can be heard.
 ~
 150 8 0 0 0 0
 D0
-The passage leads north to some stairs.
 ~
 ~
 0 -1 15029
 D2
-You see the passage continuing.
 ~
 ~
 0 -1 15019
 D3
-You see the Training Room.
 ~
 ~
 0 -1 15023
