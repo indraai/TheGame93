@@ -690,7 +690,7 @@ static void look_at_target(struct char_data *ch, char *arg)
     "room:%d",
     GET_ROOM_VNUM(IN_ROOM(ch)),
     arg,
-    GET_ROOM_VNUM(IN_ROOM(ch)),
+    GET_ROOM_VNUM(IN_ROOM(ch))
   );
     // page_string(ch->desc, desc, FALSE);
     return;
