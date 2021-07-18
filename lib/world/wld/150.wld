@@ -899,55 +899,36 @@ adv:world:15054/western
 S
 #15055
 The Bottom Of The Stairs~
-   The stairs lead down to a damp part of the castle, you can hear
-water dripping somewhere around you.  The area is lit by a single
-torch flickering in the room which this staircase is built off of.
-   The stairs lead upwards and they open up onto a fairly small
-room to the east.
 ~
 150 8 0 0 0 0
 D1
-A small room opens up to the east.
 ~
 ~
 0 -1 15056
 D4
-The stairs lead upwards out of this dank, dark place.
 ~
 ~
 0 -1 15029
 S
 #15056
 The Guard Room~
-   You are at a loss to explain why someone would want to spend all
-day down here.  The only explanation that seems even remotely logical
-to you is that there must be an important prisoner kept in one of the
-cells through the south door.
-   The decorations of the room are sparse, merely a table, a chair,
-and a deck of cards.  A stairwell has been built into the western wall
-and it leads upwards.
 ~
 150 8 0 0 0 0
 D2
-Through the peep hole at the top of the small wooden door you can see
-that there is a small corridor leading past several cells.
 ~
 door wooden~
 1 15017 15057
 D3
-A small stairwell built into the western wall of the room leads upwards.
 ~
 ~
 0 -1 15055
 E
 card floor~
-   The card on the floor seems to be the Ace of Spades...  A bad card to find
-indeed.  What could be the bad luck brought about by this discovery?
+adv:world:15056/card
 ~
 E
 table cards deck~
-   There is a deck of cards on the table in a small pile.  There is one card
-lying on the floor however.
+adv:world:15056/table
 ~
 S
 #15057
