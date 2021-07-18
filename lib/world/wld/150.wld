@@ -873,46 +873,29 @@ adv:world:15053/window
 S
 #15054
 The Top Of The Tower~
-   This is the highest of all the towers, and is obviously used for
-lookout purposes.  The view is splendid in all four directions.  All
-around you, the rich countryside spreads out to the horizon.  To the
-north and east you see a vast mountain range, and far to the west
-a beautiful lake.  A bit closer, the town of Midgaard lies at the
-end of the King's Road.  The only exit you can see is down again.
 ~
 150 8 0 0 0 0
-D0
-To the north, the tall White Mountains have their highest peaks.
-The mountaintops disappear in the white clouds, far above the
-plains.  The sight of those high, far mountains fills you with a
-desire to scale them, to see the world from that vantage.
-~
-~
-0 -1 -1
-D1
-In the east you see an arm of the dominating mountain range on this
-continent, the White Mountains.  Though not as high as those in the
-north, the sight of those mountains fills you with awe.
-~
-~
-0 -1 -1
-D2
-To the south, rolling hills stretch away, as far as you can see.
-~
-~
-0 -1 -1
-D3
-As you look west, you see a river flowing through all of Midgaard
-and continuing beyond it towards a great lake.  Still further
-away, you can glimpse something silvery that has to be the Sea.
-~
-~
-0 -1 -1
 D5
 You see the stairs going back down to the second floor.
 ~
 ~
 0 -1 15048
+E
+northern~
+adv:world:15054/northern
+~
+E
+eastern~
+adv:world:15054/eastern
+~
+E
+southern~
+adv:world:15054/southern
+~
+E
+western~
+adv:world:15054/western
+~
 S
 #15055
 The Bottom Of The Stairs~
