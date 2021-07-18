@@ -340,22 +340,17 @@ D3
 S
 #15020
 The Passage~
-   You are standing in a north-south leading passage.  There is a door
-to the east.
 ~
 150 8 0 0 0 0
 D0
-The passage leads to a staircase.
 ~
 ~
 0 -1 15025
 D1
-The door is quite small and unobtrusive.
 ~
 door~
 1 -1 15021
 D2
-The passage continues to the south.
 ~
 ~
 0 -1 15015
