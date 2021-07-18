@@ -860,21 +860,15 @@ adv:world:15052/table
 S
 #15053
 The Top Of The Tower~
-   You have arrived at the top of the tower.  This tower is pretty
-uninteresting, and seems made purely for reasons of defense and
-guarding.  The windows are slits for bowmen, very narrow on the
-outward side and broad inwards to allow a wide shooting angle.
-The only evident exit is down the stairs again.
 ~
 150 8 0 0 0 0
 D5
-The stairs go down to the second floor.
 ~
 ~
 0 -1 15049
 E
 window slit~
-   As you look out the windows, you are granted a view of the countryside.
+adv:world:15053/window
 ~
 S
 #15054
