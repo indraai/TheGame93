@@ -820,7 +820,6 @@ King Welmar's Bedroom~
 ~
 150 8 0 0 0 0
 D3
-There is a large and cosy room to the west.
 ~
 ~
 0 -1 15050
@@ -1134,7 +1133,7 @@ The Burned Shop~
 ~
 150 0 0 0 0 2
 D3
-You can see the dirt road to the west.
+
 ~
 ~
 0 -1 15066
@@ -1175,6 +1174,7 @@ D1
 0 -1 15073
 E
 stones glow stone ring circle~
+adv:world:15074/stones
 ~
 S
 $~
