@@ -717,10 +717,11 @@ static void look_at_target(struct char_data *ch, char *arg)
   /* Does the argument match an extra desc of an object in the room? */
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content)
     if (CAN_SEE_OBJ(ch, obj))
-      if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n%s\r", desc);
-	      found = TRUE;
-      }
+      send_to_char(ch, "\n%s\r", desc);
+      found = TRUE;
+      /* old code that checked for description on things
+      if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {}
+      */
 
   /* If an object was found back in generic_find */
   if (bits) {
@@ -731,7 +732,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "\nYou do not see that here.\n\r");
+    send_to_char(ch, "\nTry looking around for that item.\r");
 }
 
 ACMD(do_look)
