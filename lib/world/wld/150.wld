@@ -20,26 +20,19 @@ traveller~
 S
 #15001
 The King's Road~
-   You stand in the center of the great King's Road.  The road is very well
-built, and goes in a straight line due east-west.
 ~
 150 0 0 0 0 1
 D1
-The King's Road continues in a straight line to the east.
 ~
 ~
 0 -1 15002
 D3
-You see that the King's Road continues westwards towards a large city.
 ~
 ~
 0 -1 15000
 S
 #15002
 The King's Road~
-   You stand on the King's Road, which leads east and west.  The
-skill of the builders is apparent, since it is impossible to notice
-any turn or irregularity in the road.
 ~
 150 0 0 0 0 1
 D1
