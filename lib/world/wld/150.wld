@@ -374,37 +374,26 @@ door wood~
 S
 #15022
 The End Of The Servants' Corridor~
-   The corridor leads only west from here, but there is a door to
-the north.
 ~
 150 8 0 0 0 0
 D0
-The door leads to a room intended for the butler.
 ~
 door~
 1 15009 15027
 D3
-You see the corridor continue.
 ~
 ~
 0 -1 15021
 S
 #15023
 The Training Room~
-   This is the Training Room of the men of the Castle guard.  It is
-very large, with weapons standing in racks by all the walls.  Most
-of the weapons seem to be intended for training only, with blunt
-edges and the like, but there are some that might be useful for
-real fighting.  There is a door to the north.
 ~
 150 8 0 0 0 0
 D0
-The door is large and heavy.
 ~
 door large heavy~
 1 -1 15028
 D1
-You see a small passage.
 ~
 ~
 0 -1 15024
