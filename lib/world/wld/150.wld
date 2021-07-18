@@ -255,36 +255,23 @@ D2
 S
 #15016
 The Great Hall~
-   You are standing in the north-west end of the Great Hall.  It
-is truly vast; the roof is so high above your head, that it seems no
-closer than the clouds outside.  The roof is beautifully painted, by
-someone who must have been a true master.  The hall is very large,
-and could easily seat several hundred people at a banquet.  To your
-east, you see King Welmar's great throne, and to the west there is
-an exit to a passage.
 ~
 150 8 0 0 0 0
 D1
-You see the part of the Great Hall where the throne is.
 ~
 ~
 0 -1 15017
 D2
-You see the King's Great Hall.
 ~
 ~
 0 -1 15011
 D3
-You see a passage.
 ~
 ~
 0 -1 15015
 E
-roof paintings paint~
-   The paintings on the roof depict the great heroes and gods.  One of the gods
-is fairly heavy-bellied and incredibly hairy, with a massive beard.  Also among
-them are the great enemies and wrongdoers, such as the evil Goddess Yochlol and
-the powerful evil Wizard Tharoecon.
+paintings~
+adv:world:15016/paintings
 ~
 S
 #15017
