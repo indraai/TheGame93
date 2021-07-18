@@ -558,23 +558,17 @@ D5
 S
 #15035
 The Corridor~
-   You are standing in a long corridor, decorated with tapestries
-depicting old times and old heroes.  It leads north and south.  There
-is also an exit to the east here.
 ~
 150 8 0 0 0 0
 D0
-You see the corridor continue.
 ~
 ~
 0 -1 15040
 D1
-You see a small room.
 ~
 ~
 0 -1 15036
 D2
-You see the corridor continue.
 ~
 ~
 0 -1 15030
