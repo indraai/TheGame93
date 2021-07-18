@@ -686,19 +686,15 @@ door~
 S
 #15044
 The Bedroom~
-   This room is dominated by the huge four-poster bed, that stands
-against the northern wall.  The room is large and cosy, and the bed
-virtually begs you to lie down in it and sleep.
 ~
 150 8 0 0 0 0
 D2
-You see the living room of the suite.
 ~
 ~
 0 -1 15039
 E
 bed~
-   Large, comfortable, bolstered...  Invites you to sleep in it.
+adv:world:15044/bed
 ~
 S
 #15045
