@@ -1070,62 +1070,34 @@ D3
 S
 #15066
 A Dirt Road~
-   This section of the dirt road is quiet, but there is an awful stench
-in the air.  It brings to mind rotting corpses and raw sewage.  The woods
-contiue to press closely about you, and almost totally surround the small
-building to the west with a thatched roof.  There is a blackened shell of
-a building to the east with a small sign hanging out front from a black
-and charred chain.
-   The dirt road continues north and south.
 ~
 150 0 0 0 0 2
 D0
-The small dirt road continues towards the north.
 ~
 ~
 0 -1 15065
 D1
-The building to the east is merely a shell of what it once probably
-was.  The walls are blackened as if they had been exposed to fire at
-some point in the past...
 ~
 ~
 0 -1 15071
 D2
-The stench from the south is almost overpowering now... it seems that
-the source wouldn't be too far from here.
 ~
 ~
 0 -1 15067
 D3
-A small quiet cottage stands on the west side of the road, apparently
-untouched by the desecration and destruction that appears to have hit
-this small village.
 ~
 ~
 0 -1 15070
 E
 sign~
-   The sign is covered with soot and the wood is quite charred, but you can
-still make out the following letters:
-        T   TO  SB  DGE   NER L    RE
+adv:world:15066/sign
 ~
 S
 #15067
 A Large Pit~
-   The dirt road ends at the edge of a large pit here and you now
-realize where the awful smell was coming from.  This pit appears
-to be a mass grave for the citizens of the village.  There are
-bones and corpses lying all over the place.  A lot of the corpses
-look too recent to be from the Townsbridge murders of almost a
-decade ago, but the village seems to have been empty for almost
-that long.
-   The dirt road leads away from the carnage to the north.
 ~
 150 0 0 0 0 2
 D0
-Just near the north edge of the pit a small and narrow trail leads
-away.
 ~
 ~
 0 -1 15066
