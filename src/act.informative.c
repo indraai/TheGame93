@@ -715,13 +715,15 @@ static void look_at_target(struct char_data *ch, char *arg)
   }
 
   /* Does the argument match an extra desc of an object in the room? */
-  for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content)
+  for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content) {
     send_to_char(ch, "\nfound extra: %s", find_exdesc(arg, obj->ex_description));
-    if (CAN_SEE_OBJ(ch, obj))
+    if (CAN_SEE_OBJ(ch, obj)) {
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n%s\r", desc);
 	      found = TRUE;
       }
+    }
+  }
 
   /* If an object was found back in generic_find */
   if (bits) {
