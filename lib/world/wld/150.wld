@@ -96,7 +96,7 @@ A Small Passage~
 150 8 0 0 0 0
 D1
 ~
-door small~
+~
 1 -1 15007
 D3
 ~
@@ -105,30 +105,23 @@ D3
 S
 #15007
 The Entrance Hall~
-   You are standing in the impressive Entrance Hall of the Castle.
-To the north is an exit into the Great Hall.  There is also an exit
-east, and a small door to the west.
 ~
 150 8 0 0 0 0
 D0
-You see the King's Great Hall.
 ~
 ~
 0 -1 15012
 D1
-There seems to be a small guard room to the east.
 ~
 ~
 0 -1 15008
 D2
-To the south, there is a gate, that leads to the Drawbridge.
 ~
-gate~
+~
 1 -1 15004
 D3
-The door is small and uninteresting.
 ~
-door small~
+~
 1 -1 15006
 S
 #15008
