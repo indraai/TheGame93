@@ -961,103 +961,60 @@ A Cell~
 ~
 150 8 0 0 0 0
 D1
-The cell door to the east leads back to the prison hallway.
 ~
 door cell~
 2 15017 15057
 E
 hole~
-   The hole is much too small for you to clamber through.
+adv:world:15058/hole
 ~
 S
 #15059
 Ergan's Cell~
-   This large cell is almost like a living quarters with a cot
-in one corner serving as a bed, a small table built out of the
-wall in another corner.  There is even a rug in the center of
-the floor to keep some warmth.  It seems that the prisoner kept
-here is treated quite well, almost too well for a murderer of
-an entire town...
 ~
 150 8 0 0 0 0
 D0
-The cell door to the north leads back to the prison hallway.
 ~
 door cell~
 2 15017 15057
 S
 #15060
 A Cell~
-   This small cell is damp and dark and looks like noone and nothing
-has lived in it for quite some time.  A small cell door is located in
-the west wall.
 ~
 150 8 0 0 0 0
 D3
-The cell door to the west leads back to the prison hallway.
 ~
 door cell~
 2 15017 15057
 S
 #15061
 An Overgrown Trail~
-   Moving off of the King's Road, you find yourself on a small
-fading trail which appears to have been so little used that it
-has almost completely grown over with vegitation from the woods
-here.  Sounds of the forest can be heard all round and you feel
-a peaceful feeling come over you as you realize that mankind
-has not passed this way for some time.
-   The faded trail appears to lead north and south.
 ~
 150 0 0 0 0 4
 D0
-The travel upon the King's Road can be heard off to the north.
 ~
 ~
 0 -1 15000
 D2
-The trail continues southwards.
 ~
 ~
 0 -1 15062
 S
 #15062
 An Overgrown Trail~
-   Continuing through the heavy undergrowth, you find yourself
-in the middle of the forest.  The sounds of the forest can be
-heard all round and you feel a peaceful feeling come over you
-as you realize that mankind has not passed this way for some
-time.
-   The fading trail you are on appears to have been so little
-used that it has almost completely grown over with vegitation
-from the woods here.
-   The faded trail appears to lead north and east.
 ~
 150 0 0 0 0 4
 D0
-The trail continues northwards.
 ~
 ~
 0 -1 15061
 D1
-The trail appears to continue to the east.
 ~
 ~
 0 -1 15063
 S
 #15063
 An Overgrown Trail~
-   Continuing through the heavy undergrowth, you find yourself
-in the middle of the forest.  The sounds of the forest can be
-heard all round and you feel a peaceful feeling come over you
-as you realize that mankind has not passed this way for some
-time.
-   The fading trail you are on appears to have been so little
-used that it has almost completely grown over with vegitation
-from the woods here.
-   The faded trail appears to lead west and south.  To the south
-a strange eerie silence seems to hang in the air, almost blocking
-out all the sounds that you can hear from the north and east.
 ~
 150 0 0 0 0 4
 D2
