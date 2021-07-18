@@ -933,51 +933,31 @@ adv:world:15056/table
 S
 #15057
 The Prison~
-   This small passage is about thirty feet long and is well lit by the
-torches on each wall.  The torches have been locked inside small metal
-cages to ensure that they are not removed.  The strangest thing about
-the torches however, is the manner in which they burn, they have what
-appears to be a constant flame in that it does not flicker whatsoever,
-and does not give off any smoke.  Perhaps they have been magicked to
-burn forever...
-   There are three cells along this passage way, one on each side of
-the corridor right near the north end and one isolated at the south
-end of the corridor with a small metal plaque located over the door
-in the keystone of the archway.
 ~
 150 8 0 0 0 0
 D0
-A small wooden door blocks the way out of the prison.
 ~
 door wooden~
 1 15017 15056
 D1
-A cell door is set into the eastern wall.
 ~
 door cell~
 2 15017 15060
 D2
-The cell door to the south has been double padlocked and there is a
-plaque placed in the keystone above the door.
 ~
 door cell~
 2 15017 15059
 D3
-A cell door is set into the western wall.
 ~
 door cell~
 2 15017 15058
 E
 plaque keystone~
-   The plaque in the keystone is engraved with four simple words: Ergan,
-Murderer of Townsbridge
+adv:world:15057/plaque
 ~
 S
 #15058
 A Cell~
-   This cell is in a shambles.  There is a small hole in the
-western wall where something has broken through the stones
-into the cell.  There is a cell door in the eastern wall.
 ~
 150 8 0 0 0 0
 D1
