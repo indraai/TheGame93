@@ -304,7 +304,6 @@ The Great Hall~
 ~
 150 8 0 0 0 0
 D1
-You see a passage.
 ~
 ~
 0 -1 15019
@@ -314,16 +313,12 @@ You see the King's Great Hall.
 ~
 0 -1 15013
 D3
-You see the part of the Great Hall where the throne is.
 ~
 ~
 0 -1 15017
 E
-roof paintings paint~
-   The paintings on the roof depict the great heroes and gods.  One of the gods
-is fairly heavy-bellied and incredibly hairy, with a massive beard.  Also among
-them are the great enemies and wrongdoers, such as the evil Goddess Yochlol and
-the powerful evil Wizard Tharoecon.
+paintings~
+adv:world:15018/paintings
 ~
 S
 #15019
