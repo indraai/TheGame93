@@ -59,26 +59,18 @@ D3
 S
 #15004
 On The Drawbridge~
-   You have arrived at the drawbridge leading into the Castle.  Before
-you is a huge, double-doored gate.  It seems very strong.  You see some
-whirls in the moat.
 ~
 150 4 0 0 0 1
 D0
-The gate has huge, but intricately carved hinges.  As the Castle itself,
-it seems designed not only for strength, but also for beauty.
 ~
-gate door~
+~
 1 -1 15007
 D2
-You see the King's Road.
 ~
 ~
 0 -1 15003
 E
-whirls whirl moat~
-   You can't see much, but it seems that something beneath the surface is
-creating them.
+whirls~
 ~
 S
 #15005
