@@ -2,9 +2,7 @@
 North: Agency Guard~
 2 q 100
 ~
-set inroom %self.room%
-set item %inroom.contents%
-set vnum %self.room.contents.vnum%
+set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 
 %send% %actor% Security Checkpoint %vnum%
@@ -23,9 +21,7 @@ end
 East: Agency Guard~
 2 q 100
 ~
-set inroom %self.room%
-set item %inroom.contents%
-set vnum %self.room.contents.vnum%
+set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 
 %send% %actor% Security Checkpoint %vnum%
@@ -44,9 +40,7 @@ end
 South: Agency Guard~
 2 q 100
 ~
-set inroom %self.room%
-set item %inroom.contents%
-set vnum %self.room.contents.vnum%
+set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 
 %send% %actor% Security Checkpoint %vnum%
@@ -65,9 +59,7 @@ end
 West: Agency Guard~
 2 q 100
 ~
-set inroom %self.room%
-set item %inroom.contents%
-set vnum %self.room.contents.vnum%
+set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 
 %send% %actor% Security Checkpoint %vnum%
@@ -86,9 +78,7 @@ end
 Up: Agency Guard~
 2 q 100
 ~
-set inroom %self.room%
-set item %inroom.contents%
-set vnum %self.room.contents.vnum%
+set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 
 %send% %actor% Security Checkpoint %vnum%
@@ -107,9 +97,7 @@ end
 Down: Agency Guard~
 2 q 100
 ~
-set inroom %self.room%
-set item %inroom.contents%
-set vnum %self.room.contents.vnum%
+set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 
 %send% %actor% Security Checkpoint %vnum%
