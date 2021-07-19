@@ -890,7 +890,7 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "playing: %dd %dh",
+  send_to_char(ch, "\nplaying: %dd %dh\r",
      playing_time.day,
      playing_time.hours);
 
@@ -970,14 +970,14 @@ ACMD(do_score)
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
-      send_to_char(ch, "\n%s %s\r", GET_NAME(ch), POOFIN(ch));
+      send_to_char(ch, "\nin:%s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "\n%s has arrived.\r", GET_NAME(ch));
+      send_to_char(ch, "\nin::%s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
-      send_to_char(ch, "\n%s %s\r", GET_NAME(ch), POOFOUT(ch));
+      send_to_char(ch, "\nout:%s %s\r", GET_NAME(ch), POOFOUT(ch));
     else
-      send_to_char(ch, "\n%s has disappeared.\r", GET_NAME(ch));
+      send_to_char(ch, "\nout:%s has disappeared.\r", GET_NAME(ch));
 
     send_to_char(ch, "\n%d\r", GET_OLC_ZONE(ch));
   }
