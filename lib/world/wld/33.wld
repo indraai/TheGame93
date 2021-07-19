@@ -12,9 +12,11 @@ D3
 0 -1 3500
 E
 sign~
+adv:world:3300/sign
 ~
 E
 warning~
+adv:world:3300/warning
 ~
 S
 #3301
@@ -70,9 +72,11 @@ D3
 1 -1 3303
 E
 tracks~
+adv:world:3304/tracks
 ~
 E
 note~
+adv:world:3304/note
 ~
 S
 #3305
@@ -89,6 +93,7 @@ D3
 0 -1 3304
 E
 tracks~
+adv:world:3305/tracks
 ~
 S
 #3306
@@ -105,6 +110,7 @@ D3
 0 -1 3305
 E
 tracks~
+adv:world:3306/tracks
 ~
 S
 #3307
@@ -121,6 +127,7 @@ D2
 0 -1 3308
 E
 tracks~
+adv:world:3307/tracks
 ~
 S
 #3308
@@ -145,6 +152,7 @@ D3
 0 -1 3359
 E
 tracks~
+adv:world:3308/tracks
 ~
 S
 #3309
@@ -165,6 +173,7 @@ D4
 0 -1 3308
 E
 tracks~
+adv:world:3309/tracks
 ~
 S
 #3310
@@ -627,6 +636,7 @@ D3
 0 -1 3342
 E
 sign~
+adv:world:3343/sign
 ~
 S
 #3344
@@ -990,12 +1000,15 @@ D2
 0 -1 3370
 E
 stone~
+adv:world:3371/stone
 ~
 E
 claws~
+adv:world:3371/claws
 ~
 E
 floor~
+adv:world:33771/floor
 ~
 S
 #3372
