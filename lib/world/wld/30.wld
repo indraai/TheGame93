@@ -206,8 +206,12 @@ sign~
 adv:world:3009/sign
 ~
 E
-danish pastry~
-adv:world:3009/pastry
+bread~
+adv:world:3009/bread
+~
+E
+pastries~
+adv:world:3009/pastries
 ~
 S
 #3010

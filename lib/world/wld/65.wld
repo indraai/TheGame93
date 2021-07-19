@@ -1,8 +1,5 @@
 #6500
 The Path To The Dwarven Village~
-   You are walking down a path that leads to the dwarven village.  Above
-you, you can see the Turning Point, and to the north the path continues
-toward the mountains.
 ~
 65 0 0 0 0 2
 D0
@@ -18,8 +15,6 @@ You can see the city of Amaravati.
 S
 #6501
 The Path At The Base Of The Mountain~
-   Now you are at the bottom of a rugged mountain.  The forest around you
-is very dense, and it seems very dark to the north.
 ~
 65 0 0 0 0 4
 D0
@@ -35,8 +30,6 @@ The path heads toward the main city of Amaravati.
 S
 #6502
 The Path At The Middle Of The Mountain~
-   Standing on the middle of the mountain, you can easily see the city to
-the south, and the top of the mountain is very near to the north.
 ~
 65 0 0 0 0 5
 D0
@@ -52,9 +45,6 @@ The base of the mountain is near.
 S
 #6503
 The Top Of The Mountain~
-   You are now on the top of the mountain.  To the south you see a path
-leading down the mountain.  To the east and west you see entrances to
-what seems like mines.
 ~
 65 0 0 0 0 4
 D1
@@ -91,8 +81,6 @@ D2
 S
 #6505
 The Entrance To The Mountain~
-   Here is an entrance to the mountain.  The door looks very well built,
-and you can hear noise coming from within.
 ~
 65 0 0 0 0 2
 D1
@@ -226,8 +214,6 @@ D2
 S
 #6513
 Inside The Entrance~
-   Everything here is covered in soot and very grimy.  The path continues
-to the east and north, and there is a door to the west.
 ~
 65 8 0 0 0 0
 D0
@@ -248,8 +234,6 @@ This looks like an entrance to some type of store room.
 S
 #6514
 The Path~
-   You are on a path in the dwarven village which leads north to the shops
-and south to the corner of the area.
 ~
 65 8 0 0 0 0
 D0
@@ -263,8 +247,6 @@ D2
 S
 #6515
 A Turn In The Road~
-   You are on a path that leads to the Hide & Tooth shop to the west, and
-the path continues to the south.
 ~
 65 8 0 0 0 0
 D2
@@ -279,8 +261,6 @@ The Hide & Tooth shop can be seen to the west.
 S
 #6516
 The Hide & Tooth Shop~
-   You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
-weapons and armors.  The path continues to the north and east.
 ~
 65 40 0 0 0 0
 D0
@@ -436,8 +416,6 @@ D4
 S
 #6526
 A Store Room~
-   There is a layer of dust on the floor at least 3 inches thick!  It is
-probable that not many people have been in here for many months.
 ~
 65 9 0 0 0 0
 D1
@@ -601,8 +579,6 @@ D1
 S
 #6540
 The Dark Path~
-   This path is very well worn, and there is an entrance to the mines to the
-east, while the path continues to the north and west.
 ~
 65 8 0 0 0 0
 D0
@@ -620,8 +596,6 @@ D3
 S
 #6541
 The Mine Entrance~
-   The little path here leads down toward the mines, while the worn path
-continues to the west.
 ~
 65 8 0 0 0 0
 D3
@@ -635,8 +609,6 @@ D5
 S
 #6542
 At The Bottom Of The Mineshaft~
-   You are at the bottom of the mineshaft.  The air here is very sooty, and
-it is very hard to breath.  The mineshaft leads up and east.
 ~
 65 9 0 0 0 0
 D1
@@ -650,8 +622,6 @@ D4
 S
 #6543
 On The Path Inside The Mine~
-   You are deep inside the mine, and you feel very uncomfortable.  The
-path continues to the east, and leads to the mineshaft to the west.
 ~
 65 9 0 0 0 0
 D1
@@ -665,8 +635,6 @@ D3
 S
 #6544
 The Mine Crossroad~
-   You are at a crossroad in the mine.  There is a door to the north,
-and the path continues to the south, east, and west.
 ~
 65 9 0 0 0 0
 D0
@@ -688,9 +656,6 @@ D3
 S
 #6545
 The Coal Room~
-   You are inside the storage area for the raw materials that are
-found down here.  The room is very unsturdy as the supports are
-very rickety.
 ~
 65 9 0 0 0 0
 D3
@@ -700,8 +665,6 @@ D3
 S
 #6546
 The Mine Maze~
-   You have entered the maze of the mines.  To the east you can see
-some inscriptions, and you can exit to the south.
 ~
 65 9 0 0 0 0
 D1
@@ -715,11 +678,6 @@ door~
 S
 #6547
 At The Maze Inscription~
-   You are inside the maze, but not far enough in that you could
-get lost.  There is an enscription on the wall which says:
-          1    3    2    4
-          N    W    N    S
-This isn't too tough, so don't take it so rough.
 ~
 65 9 0 0 0 0
 D0
@@ -733,7 +691,6 @@ D3
 S
 #6548
 The Maze~
-   You are in a maze.
 ~
 65 9 0 0 0 0
 D0
@@ -791,9 +748,6 @@ D3
 S
 #6551
 The Mining Equipment Room~
-   This is the storage room for equipment used by the Dwarven miners.
-It is very small, and you can tell that not many miners actually use
-equipment.
 ~
 65 9 0 0 0 0
 D0
