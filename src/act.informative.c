@@ -972,7 +972,7 @@ ACMD(do_score)
     if (POOFIN(ch))
       send_to_char(ch, "\nin:%s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "\nin::%s has arrived.\r", GET_NAME(ch));
+      send_to_char(ch, "\nin:%s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
       send_to_char(ch, "\nout:%s %s\r", GET_NAME(ch), POOFOUT(ch));
