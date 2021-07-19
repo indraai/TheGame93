@@ -379,14 +379,14 @@ Agency: Dwarven Village~
 You are in the Agency Dwarven outpost to the west of the entrance to the castle. There are posters on the walls.
 ~
 65 8 0 0 0 0
-D3
-~
-~
-0 -1 6509
 D1
 ~
 ~
 0 -1 3149
+D3
+~
+~
+0 -1 6509
 E
 poster~
    There is a wall poster of Indra.
@@ -726,10 +726,6 @@ D0
 ~
 ~
 0 -1 6548
-D1
-~
-~
-0 -1 6544
 D3
 ~
 ~
