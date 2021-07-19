@@ -410,7 +410,7 @@ A zombie is shambling over some corpses here, moving quite silently.
 Townsbridge who has been brought to an undead life by a fuelling desire for
 revenge.
 ~
-172090 0 0 0 524368 0 0 0 0 E
+172058 0 0 0 524368 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 0
@@ -424,7 +424,7 @@ A skeleton is moving about with a loud clatter here, climbing over corpses.
 Townsbridge who has been brought to an undead life by a fuelling desire for
 revenge.
 ~
-172090 0 0 0 80 0 0 0 0 E
+172058 0 0 0 80 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
@@ -438,7 +438,7 @@ A large demon surrounded by flames rises out of the dark pool.
 It glares down at you through blood-red eyes, and bares its huge white fangs and
 its razor-sharp talons.
 ~
-256058 0 0 0 80 0 0 0 1000 E
+256026 0 0 0 80 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 6 8 1

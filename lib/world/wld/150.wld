@@ -1,7 +1,7 @@
 #15000
 The King's Road~
-~
-150 4 0 0 0 1
+undefined~
+150 0 0 0 0 1
 D1
 ~
 ~
@@ -21,7 +21,7 @@ adv:world:15000/traveller
 S
 #15001
 The King's Road~
-~
+Empty room.~
 150 0 0 0 0 1
 D1
 ~
@@ -34,7 +34,7 @@ D3
 S
 #15002
 The King's Road~
-~
+Empty room.~
 150 0 0 0 0 1
 D1
 ~
@@ -47,7 +47,7 @@ D3
 S
 #15003
 On The King's Road Outside A Castle~
-~
+Empty room.~
 150 0 0 0 0 1
 D0
 ~
@@ -60,7 +60,7 @@ D3
 S
 #15004
 On The Drawbridge~
-~
+Empty room.~
 150 4 0 0 0 1
 D0
 ~
@@ -71,16 +71,17 @@ D2
 ~
 0 -1 15003
 E
-whirls~
-adv:word:15004/whirls~
-E
 gate~
 adv:word:15004/gate
+~
+E
+whirls~
+adv:word:15004/whirls
 ~
 S
 #15005
 The Kitchen~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -93,7 +94,7 @@ D1
 S
 #15006
 A Small Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -106,7 +107,7 @@ D3
 S
 #15007
 The Entrance Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -127,7 +128,7 @@ D3
 S
 #15008
 The Guard Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D3
 ~
@@ -136,7 +137,7 @@ D3
 S
 #15009
 Under The Tower~
-~
+Empty room.~
 150 12 0 0 0 0
 D0
 ~
@@ -153,7 +154,7 @@ adv:world:15009/stairs
 S
 #15010
 The Small Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -166,7 +167,7 @@ D2
 S
 #15011
 The Great Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -183,7 +184,7 @@ adv:world:1511/paintings
 S
 #15012
 The Great Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -208,7 +209,7 @@ adv:world:15012/paintings
 S
 #15013
 The Great Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -225,7 +226,7 @@ adv:world:15013/paintings
 S
 #15014
 A Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -238,7 +239,7 @@ D2
 S
 #15015
 The Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -255,7 +256,7 @@ D2
 S
 #15016
 The Great Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -276,7 +277,7 @@ adv:world:15016/paintings
 S
 #15017
 By The Throne In The Great Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -291,17 +292,17 @@ D3
 ~
 0 -1 15016
 E
-throne~
-adv:world:15017/throne
-~
-E
 paintings~
 adv:world:15017/paintings
+~
+E
+throne~
+adv:world:15017/throne
 ~
 S
 #15018
 The Great Hall~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -323,7 +324,7 @@ adv:world:15018/paintings
 S
 #15019
 The Small Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -340,7 +341,7 @@ D3
 S
 #15020
 The Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -357,7 +358,7 @@ D2
 S
 #15021
 The Servants' Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -374,7 +375,7 @@ door wood~
 S
 #15022
 The End Of The Servants' Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -387,7 +388,7 @@ D3
 S
 #15023
 The Training Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -400,7 +401,7 @@ D1
 S
 #15024
 The Small Passage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -417,7 +418,7 @@ D3
 S
 #15025
 The Stair Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -428,17 +429,17 @@ D4
 ~
 0 -1 15049
 E
-pillar pillars tree trees~
-adv:world:15025/pillars
-~
-E
 stairs stair~
 adv:world/15025/stairs
+~
+E
+pillar pillars tree trees~
+adv:world:15025/pillars
 ~
 S
 #15026
 The Servants' Quarters~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -451,7 +452,7 @@ adv:world:15026/beds
 S
 #15027
 The Butler's Quarters~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -464,7 +465,7 @@ adv:world:15027/bed
 S
 #15028
 The Guards' Barracks~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -477,7 +478,7 @@ adv:world:15028/bunks
 S
 #15029
 The Stairs~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -494,7 +495,7 @@ adv:world:15029/stairs
 S
 #15030
 At A Bend In The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -507,7 +508,7 @@ D1
 S
 #15031
 The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -520,7 +521,7 @@ D3
 S
 #15032
 The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -533,7 +534,7 @@ D3
 S
 #15033
 The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -546,7 +547,7 @@ D3
 S
 #15034
 In The South-East Tower~
-~
+Empty room.~
 150 8 0 0 0 0
 D4
 ~
@@ -559,7 +560,7 @@ D5
 S
 #15035
 The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -576,7 +577,7 @@ D2
 S
 #15036
 By The Treasure Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -594,7 +595,7 @@ adv:world:15036/sign
 S
 #15037
 The Great Treasury~
-~
+Empty room.~
 150 8 0 0 0 0
 D3
 ~
@@ -607,7 +608,7 @@ adv:world:15037/paintings
 S
 #15038
 The Guest Wing~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -624,7 +625,7 @@ D2
 S
 #15039
 The Guest Suite~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -637,7 +638,7 @@ door~
 S
 #15040
 The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -650,7 +651,7 @@ D2
 S
 #15041
 The Ball Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -663,7 +664,7 @@ D1
 S
 #15042
 By The Stage~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 You see the Ball Room.
@@ -678,7 +679,7 @@ You see the Ball Room.
 S
 #15043
 A Guest Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -687,7 +688,7 @@ door~
 S
 #15044
 The Bedroom~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -700,7 +701,7 @@ adv:world:15044/bed
 S
 #15045
 The Corridor~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -717,7 +718,7 @@ D2
 S
 #15046
 The Ball Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -734,7 +735,7 @@ D3
 S
 #15047
 The Ball Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -751,7 +752,7 @@ D3
 S
 #15048
 In The Tower~
-~
+Empty room.~
 150 8 0 0 0 0
 D3
 ~
@@ -768,7 +769,7 @@ adv:world:15048/stairs
 S
 #15049
 The Grand Staircase~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -793,7 +794,7 @@ adv:world:15049/stairs
 S
 #15050
 The Cosy Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -804,63 +805,63 @@ D3
 door large oak~
 1 15014 15049
 E
-chairs~
-adv:world:15050/chairs
+fire fireplace~
+adv:world:15050/fireplace
 ~
 E
 table~
 adv:world:15050/table
 ~
 E
-fire fireplace~
-adv:world:15050/fireplace
+chairs~
+adv:world:15050/chairs
 ~
 S
 #15051
 King Welmar's Bedroom~
-~
+Empty room.~
 150 8 0 0 0 0
 D3
 ~
 ~
 0 -1 15050
 E
-magic~
-adv:world:15050/magic
-~
-E
-history midgaard~
-adv:world:15050/history
+books book shelf shelves bookshelf bookshelves~
+adv:world:15050/books
 ~
 E
 bed~
 adv:world:15050/bed
 ~
 E
-books book shelf shelves bookshelf bookshelves~
-adv:world:15050/books
+history midgaard~
+adv:world:15050/history
+~
+E
+magic~
+adv:world:15050/magic
 ~
 S
 #15052
 Up In The Tower~
-~
+Empty room.~
 150 8 0 0 0 0
 D5
 ~
 ~
 0 -1 15034
 E
-candle~
-adv:world:15052/candle
-~
-E
 table~
 adv:world:15052/table
+~
+E
+candle~
+adv:world:15052/candle
 ~
 S
 #15053
 The Top Of The Tower~
-~
+Empty room.~
 150 8 0 0 0 0
 D5
 ~
@@ -873,7 +874,7 @@ adv:world:15053/window
 S
 #15054
 The Top Of The Tower~
-~
+Empty room.~
 150 8 0 0 0 0
 D5
 You see the stairs going back down to the second floor.
@@ -881,25 +882,25 @@ You see the stairs going back down to the second floor.
 ~
 0 -1 15048
 E
-northern~
-adv:world:15054/northern
-~
-E
-eastern~
-adv:world:15054/eastern
+western~
+adv:world:15054/western
 ~
 E
 southern~
 adv:world:15054/southern
 ~
 E
-western~
-adv:world:15054/western
+eastern~
+adv:world:15054/eastern
+~
+E
+northern~
+adv:world:15054/northern
 ~
 S
 #15055
 The Bottom Of The Stairs~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -912,7 +913,7 @@ D4
 S
 #15056
 The Guard Room~
-~
+Empty room.~
 150 8 0 0 0 0
 D2
 ~
@@ -923,17 +924,17 @@ D3
 ~
 0 -1 15055
 E
-card floor~
-adv:world:15056/card
-~
-E
 table cards deck~
 adv:world:15056/table
+~
+E
+card floor~
+adv:world:15056/card
 ~
 S
 #15057
 The Prison~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -958,7 +959,7 @@ adv:world:15057/plaque
 S
 #15058
 A Cell~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -971,7 +972,7 @@ adv:world:15058/hole
 S
 #15059
 Ergan's Cell~
-~
+Empty room.~
 150 8 0 0 0 0
 D0
 ~
@@ -980,7 +981,7 @@ door cell~
 S
 #15060
 A Cell~
-~
+Empty room.~
 150 8 0 0 0 0
 D3
 ~
@@ -989,7 +990,7 @@ door cell~
 S
 #15061
 An Overgrown Trail~
-~
+Empty room.~
 150 0 0 0 0 4
 D0
 ~
@@ -1002,7 +1003,7 @@ D2
 S
 #15062
 An Overgrown Trail~
-~
+Empty room.~
 150 0 0 0 0 4
 D0
 ~
@@ -1015,7 +1016,7 @@ D1
 S
 #15063
 An Overgrown Trail~
-~
+Empty room.~
 150 0 0 0 0 4
 D2
 ~
@@ -1028,7 +1029,7 @@ D3
 S
 #15064
 A Dirt Road~
-~
+Empty room.~
 150 0 0 0 0 2
 D0
 ~
@@ -1049,7 +1050,7 @@ adv:world:15064/sign
 S
 #15065
 A Small Intersection~
-~
+Empty room.~
 150 0 0 0 0 2
 D0
 ~
@@ -1070,7 +1071,7 @@ D3
 S
 #15066
 A Dirt Road~
-~
+Empty room.~
 150 0 0 0 0 2
 D0
 ~
@@ -1095,7 +1096,7 @@ adv:world:15066/sign
 S
 #15067
 A Large Pit~
-~
+Empty room.~
 150 0 0 0 0 2
 D0
 ~
@@ -1104,7 +1105,7 @@ D0
 S
 #15068
 A House~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -1113,7 +1114,7 @@ D1
 S
 #15069
 A House~
-~
+Empty room.~
 150 9 0 0 0 0
 D3
 ~
@@ -1122,7 +1123,7 @@ D3
 S
 #15070
 A Small Cottage~
-~
+Empty room.~
 150 8 0 0 0 0
 D1
 ~
@@ -1131,7 +1132,7 @@ D1
 S
 #15071
 The Burned Shop~
-~
+Empty room.~
 150 0 0 0 0 2
 D3
 
@@ -1141,7 +1142,7 @@ D3
 S
 #15072
 A Dark Path~
-~
+Empty room.~
 150 9 0 0 0 1
 D1
 ~
@@ -1154,7 +1155,7 @@ D3
 S
 #15073
 A Dark Path~
-~
+Empty room.~
 150 9 0 0 0 1
 D1
 ~
@@ -1167,7 +1168,7 @@ D3
 S
 #15074
 The Circle Of Stones~
-~
+Empty room.~
 150 8 0 0 0 1
 D1
 ~
