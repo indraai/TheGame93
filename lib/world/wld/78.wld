@@ -12,6 +12,7 @@ D2
 1 0 7801
 E
 credits info~
+adv:world:7800/credits
 ~
 S
 #7801
@@ -30,6 +31,7 @@ Fantasyland
 0 0 7802
 E
 entrance~
+adv:world:7801/entrance
 ~
 S
 #7802
@@ -150,6 +152,7 @@ D2
 0 0 7828
 E
 rail monorail~
+adv:world:7808/monorail
 ~
 S
 #7809
@@ -227,9 +230,11 @@ D0
 0 0 7818
 E
 souvenir souvenirs stand~
+adv:world:7813/souvenirs
 ~
 E
 stroller strollers wheelchair wheelchairs~
+adv:world:7818/strollers
 ~
 S
 #7814
