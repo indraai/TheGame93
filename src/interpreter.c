@@ -192,8 +192,8 @@ cpp_extern const struct command_info cmd_info[] = {
 
   { "junk"     , "j"       , POS_RESTING , do_drop     , 0, SCMD_JUNK },
 
-  { "kill"     , "kill"    , POS_SLEEPING, do_sleep     , 0, 0 },
-  { "kick"     , "ki"      , POS_FIGHTING, do_kick     , 1, 0 },
+  { "kill"     , "kl"    , POS_SLEEPING, do_sleep     , 0, 0 },
+  { "kick"     , "kk"      , POS_FIGHTING, do_kick     , 1, 0 },
   { "kindness" , "ki"      , POS_STANDING, do_kindness , 0, 0 }, //added July 12, 2021
 
   { "listen" , "li"        , POS_STANDING, do_listen , 0, 0 }, //added July 12, 2021
@@ -202,7 +202,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "last"     , "last"    , POS_DEAD    , do_last     , LVL_DEVA, 0 },
   { "leave"    , "lea"     , POS_STANDING, do_leave    , 0, 0 },
   { "levels"   , "lev"     , POS_DEAD    , do_levels   , 0, 0 },
-  { "list"     , "lis"     , POS_STANDING, do_not_here , 0, 0 },
+  { "list"     , "ls"     , POS_STANDING, do_not_here , 0, 0 },
   { "links"    , "lin"     , POS_STANDING, do_links    , LVL_DEVA, 0 },
   { "lock"     , "loc"     , POS_SITTING , do_gen_door , 0, SCMD_LOCK },
   { "load"     , "load"     , POS_DEAD    , do_load     , LVL_BUILDER, 0 },
