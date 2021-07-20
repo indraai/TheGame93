@@ -1680,11 +1680,11 @@ static void perform_immort_where(struct char_data *ch, char *arg)
         i = (d->original ? d->original : d->character);
         if (i && CAN_SEE(ch, i) && (IN_ROOM(i) != NOWHERE)) {
           if (d->original)
-            send_to_char(ch, "%-8s%s - [%5d] %s%s (in %s%s)\r\n",
+            send_to_char(ch, "\n%-8s%s - [%5d] %s%s (in %s%s)\r",
               GET_NAME(i), QNRM, GET_ROOM_VNUM(IN_ROOM(d->character)),
               world[IN_ROOM(d->character)].name, QNRM, GET_NAME(d->character), QNRM);
           else
-            send_to_char(ch, "%-8s%s %s[%s%5d%s]%s %-*s%s %s%s\r\n", GET_NAME(i), QNRM,
+            send_to_char(ch, "\n%-8s%s %s[%s%5d%s]%s %-*s%s %s%s\r", GET_NAME(i), QNRM,
               QCYN, QYEL, GET_ROOM_VNUM(IN_ROOM(i)), QCYN, QNRM,
               30+count_color_chars(world[IN_ROOM(i)].name), world[IN_ROOM(i)].name, QNRM,
               zone_table[(world[IN_ROOM(i)].zone)].name, QNRM);
