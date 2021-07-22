@@ -6,7 +6,7 @@ labeled, 'Authorized Personnel Only'.  To the west is a large glass door.
 There is a stairway down on the opposite side of the room.  There is a sign
 posted next to the stairs.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a marble hall.
 ~
@@ -28,16 +28,6 @@ You see a stairway down.
 stairway~
 0 -1 28509
 E
-sign~
-****ATTENTION***
-The Abyss is CLOSED for construction.
-
-We will open for your painful pleasures
-soon....
-
--Strahd-
-~
-E
 credits info~
    Descent to Hell Zone.
 Originally written by Strahd
@@ -51,7 +41,18 @@ Zone 285 is linked to the following zones:
 286 Descent to Hell II             at 28541 (south) ---> 28682
 286 Descent to Hell II             at 28541 (west ) ---> 28672
 ~
+E
+sign~
+****ATTENTION***
+The Abyss is CLOSED for construction.
+
+We will open for your painful pleasures
+soon....
+
+-Strahd-
+~
 S
+T 3106
 #28501
 Halls of Judgement~
    You are standing in the Halls of Judgement.  There are many alcoves which
@@ -72,6 +73,7 @@ You see the Court of Hell.
 ~
 0 -1 28511
 S
+T 3102
 #28502
 Halls of Judgement~
    You are standing in the Halls of Judgement.  There are many alcoves which
@@ -79,7 +81,7 @@ contain different methods of torture, each more grotesque than the one before
 it.  The hall continues to the east and west.  The hall of records is to the
 north.
 ~
-285 9 0 0 0 0
+285 8 0 0 0 0
 D0
 You see the Hall of Records.
 ~
@@ -96,6 +98,7 @@ You see the Halls of Judgement.
 ~
 0 -1 28501
 S
+T 3100
 #28503
 Halls of Judgement~
    You are standing in the Halls of Judgement.  There are many alcoves which
@@ -120,6 +123,7 @@ You see the Halls of Judgement.
 ~
 0 -1 28502
 S
+T 3102
 #28504
 Halls of Judgement~
    You are standing in the Halls of Judgement.  There are many alcoves which
@@ -144,7 +148,11 @@ Halls of Judgement~
 contain different methods of torture, each more grotesque than the one before
 it.  The hall continues to the east and west.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 You see the Halls of Judgement.
 ~
@@ -156,6 +164,7 @@ You see the Halls of Judgement.
 ~
 0 -1 28504
 S
+T 3106
 #28506
 Blackened Hall~
    This hall looks as if it was burned out recently.  The walls are charred and
@@ -229,13 +238,18 @@ Stairs to the Abyss~
 softly as you tread upon them as if to cry out in protest.  The air is filled
 with the wailing of lost souls and the curdling screams of the punished.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D4
+~
+~
+0 0 28500
 D5
 You see the eternal darkness of the Abyss.
 ~
 ~
 0 -1 28518
 S
+T 3106
 #28510
 Maintenance Walkway~
    This is a maintence accessway.  You walk on a metal catwalk hundreds of feet
@@ -254,6 +268,7 @@ You see a maintenance walkway.
 ~
 0 -1 28520
 S
+T 3106
 #28511
 Court Room~
    This is the Courts of Hell.  Here you are convicted, sentenced and punished.
@@ -380,6 +395,7 @@ You see the hallways of the Mall from Hell.
 ~
 0 -1 28515
 S
+T 3106
 #28517
 The Office of Big Mouth~
    This is the office of Big Mouth, head demon of Hell's Administration.  The
@@ -405,7 +421,11 @@ Stairs to the Abyss~
 softly as you tread upon them as if to cry out in protest.  The air is filled
 with the wailing of lost souls and the curdling screams of the punished.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D4
+~
+~
+0 0 28509
 D5
 You see the eternal darkness of the Abyss.
 ~
@@ -485,6 +505,7 @@ You see a more of the courtyard.
 ~
 0 -1 28532
 S
+T 3100
 #28523
 Courtyard~
    This courtyard is barren and neglected.  Small weeds grow between the
@@ -492,7 +513,7 @@ concrete slabs.  An old defunct fountain sputters with a gray-brown ooze.  The
 courtyard continues to the west and south.  Stanley's Magical Steeds is to the
 east.
 ~
-285 9 0 0 0 0
+285 8 0 0 0 0
 D1
 You see Stanley's Magical Steeds store.
 ~
@@ -509,6 +530,7 @@ You see a more of the courtyard.
 ~
 0 -1 28522
 S
+T 3106
 #28524
 Stanley's Magical Steeds~
    This is the shop of Stanly.  He used to be an old mage selling cursed
@@ -567,7 +589,11 @@ Stairs to the Abyss~
 softly as you tread upon them as if to cry out in protest.  The air is filled
 with the wailing of lost souls and the curdling screams of the punished.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D4
+~
+~
+0 0 28518
 D5
 You see the eternal darkness of the Abyss.
 ~
@@ -624,6 +650,7 @@ You see the reactor control room.
 ~
 0 -1 28528
 S
+T 3102
 #28530
 Break Room~
    This is the break room for the maintenance workers.  Tables are filled with
@@ -680,6 +707,7 @@ You see a kitchen.
 ~
 0 -1 28531
 S
+T 3103
 #28533
 Courtyard~
    This courtyard is barren and neglected.  Small weeds grow between the
@@ -742,8 +770,13 @@ with the wailing of lost souls and the curdling screams of the punished.
 You can't seem to find the Abyss...you seem to recall seeing a sign...now
 what did it say again?...
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D4
+~
+~
+0 0 28527
 S
+T 3106
 #28537
 Inside the Reactor Core~
    You are standing on the inside of the reactor core.  Actually you seem to be
@@ -780,6 +813,7 @@ You see a reactor core maintence hatch.
 hatch maintenance reactor core~
 1 -1 28537
 S
+T 3103
 #28539
 Secondary Control Room~
    This is the secondary control room for the reactor core.  It is usually used
