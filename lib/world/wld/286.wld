@@ -13,6 +13,10 @@ Zone 286 is linked to the following zones:
 285 Descent to Hell                at 28699 (east ) ---> 28500
 ~
 286 0 0 0 0 0
+D5
+~
+~
+0 0 28601
 S
 #28601
 Stone Archway~
@@ -414,14 +418,15 @@ It's too smoky to see.
 ~
 0 -1 28615
 S
+T 3101
 #28617
-Bedroom~
+The DEEMON Love Shack~
    This is a small bedroom.  It is well furnished and a drastic change from the
 room you just stepped out of.  A bed stands against the far wall.  Upon the
 headboard of the bed are carved two cherubic looking figures, with the words
 'DEE & DEE' written below them.  The door to the bedroom is to the west.
 ~
-286 9 0 0 0 0
+286 140 0 0 0 0
 D3
 You see a bedroom door.
 ~
@@ -486,7 +491,7 @@ Stairway~
 overhead.  You almost slip a couple times on the stairway.  The stench here is
 overwhelming.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D4
 It is too dark to see.
 ~
@@ -498,12 +503,13 @@ It is too dark to see.
 ~
 0 -1 28631
 S
+T 3106
 #28622
-Ancient Room~
+Agency: Hell Office~
    This is a very old and dusty room.  It looks empty except for a few shards
 of bone and flesh.
 ~
-286 9 0 0 0 0
+286 184 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -514,7 +520,12 @@ It is too dark to see.
 ~
 ~
 0 -1 28623
+D3
+~
+~
+1 0 3161
 S
+T 3103
 #28623
 Room of Lost Souls~
    This looks like a waiting room of sorts.  Dust and cobwebs are everywhere.
@@ -699,12 +710,16 @@ it was a stairway.  It seems to be just a painting on the wall.  This is a
 roughly carved room with evil runes carved in to the stone floor.  There is a
 hallway to the east.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D1
 It is too dark to see.
 ~
 ~
 0 -1 28632
+D4
+~
+~
+0 0 28621
 S
 #28632
 Stone Hall~
@@ -713,7 +728,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hall continues to the south and the west.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D2
 It is too dark to see.
 ~
@@ -731,12 +746,12 @@ Cell~
 and dirt.  The smell of urine is very potent here.  The steel bars to the cell
 are to the south.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D2
 You see bars.
 ~
 bars~
-1 -1 28643
+0 -1 28643
 S
 #28634
 Stone Hall~
@@ -745,7 +760,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway continues to the east and the south.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D1
 It is too dark to see.
 ~
@@ -764,7 +779,11 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  To the south you see the steel bars of a cell.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 It is too dark to see.
 ~
@@ -811,7 +830,7 @@ D2
 You see bars.
 ~
 bars~
-1 -1 28647
+0 -1 28647
 S
 #28638
 Stone Hall~
@@ -839,7 +858,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the west.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D1
 You see the steel bars to a cell.
 ~
@@ -894,7 +913,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the north and east.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D0
 Its too dark to see.
 ~
@@ -914,7 +933,7 @@ hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the east and west.  The bars to a cell are to
 the north.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D0
 You see bars to a cell.
 ~
@@ -938,7 +957,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the north and west.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D0
 Its too dark to see.
 ~
@@ -1032,12 +1051,12 @@ Cell~
 and dirt.  The smell of urine is very potent here.  The steel bars to the cell
 are to the north.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D0
 You see bars.
 ~
 bars~
-1 -1 28639
+0 -1 28639
 S
 #28650
 Hot Stairs~
@@ -1046,7 +1065,7 @@ The stone walls are hot to the touch and your sweat sizzles as it hits the
 ground.  Cool air flows out from a crack in the wall to the east.  The smell of
 brimstone and smoke is all around you.  The stairs continue down.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D4
 It is too dark to see.
 ~
@@ -1058,6 +1077,7 @@ It is too dark to see.
 ~
 0 -1 28661
 S
+T 3106
 #28651
 Crack in Wall~
    This is a rather large crack in the wall.  On closer inspection it appears
@@ -1170,17 +1190,16 @@ many gas lines and electrical conduits within the dismantled walls.  Partially
 hidden fire sprinklers are being installed in the ceilings.  You see more
 contruction to the east and west.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D1
 You see a construction area.
 ~
 ~
 0 -1 28657
-D2
-You see a construction area.
+D3
 ~
 ~
-0 -1 28655
+0 0 28655
 S
 #28657
 Construction Area~
@@ -1277,12 +1296,16 @@ smells of sulfur and methane.  To the south you see a stone hallway.  Hot air
 blows in at you from the doorway.  The air stirs up the methane and steals your
 breath.  You choke and gag...
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D2
 You see a stone hallway.
 ~
 ~
 0 -1 28671
+D4
+~
+~
+0 0 28650
 S
 #28662
 Foreman's Office~
@@ -1316,6 +1339,7 @@ It is too dark to see.
 ~
 0 -1 28676
 S
+T 3106
 #28664
 Hall of Fire~
    You are standing in a hallway made of fire.  The walls are ablaze with
@@ -1871,6 +1895,7 @@ You see an office.
 ~
 0 -1 28500
 S
+T 3102
 #28691
 Records Hall~
    This Hallway is actually an enormous records library.  Millions of records
