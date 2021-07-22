@@ -1,6 +1,6 @@
 #3300
 A Winding Trail~
-~
+undefined~
 33 68 0 0 0 5
 D1
 ~
@@ -11,17 +11,18 @@ D3
 ~
 0 -1 3500
 E
-sign~
-adv:world:3300/sign
-~
-E
 warning~
 adv:world:3300/warning
 ~
+E
+sign~
+adv:world:3300/sign
+~
 S
+T 3106
 #3301
 A Winding Trail~
-~
+Empty room.~
 33 0 0 0 0 5
 D2
 ~
@@ -34,7 +35,7 @@ D3
 S
 #3302
 A Groomed Path~
-~
+Empty room.~
 33 0 0 0 0 5
 D0
 ~
@@ -47,7 +48,7 @@ D1
 S
 #3303
 Outside The Smithery~
-~
+Empty room.~
 33 0 0 0 0 2
 D1
 ~
@@ -60,7 +61,7 @@ D3
 S
 #3304
 The Smithery~
-~
+Empty room.~
 33 8 0 0 0 0
 D1
 ~
@@ -71,17 +72,17 @@ D3
 ~
 1 -1 3303
 E
-tracks~
-adv:world:3304/tracks
-~
-E
 note~
 adv:world:3304/note
+~
+E
+tracks~
+adv:world:3304/tracks
 ~
 S
 #3305
 A Small Garden~
-~
+Empty room.~
 33 0 0 0 0 2
 D1
 ~
@@ -98,7 +99,7 @@ adv:world:3305/tracks
 S
 #3306
 Mountain Ridge~
-~
+Empty room.~
 33 0 0 0 0 5
 D2
 ~
@@ -115,7 +116,7 @@ adv:world:3306/tracks
 S
 #3307
 The Mountain Ridge~
-~
+Empty room.~
 33 0 0 0 0 5
 D0
 ~
@@ -132,7 +133,7 @@ adv:world:3307/tracks
 S
 #3308
 The Diverging Paths~
-~
+Empty room.~
 33 0 0 0 0 5
 D0
 ~
@@ -157,7 +158,7 @@ adv:world:3308/tracks
 S
 #3309
 A Steep Slope~
-~
+Empty room.~
 33 0 0 0 0 4
 D0
 ~
@@ -178,7 +179,7 @@ adv:world:3309/tracks
 S
 #3310
 A Small Plateau~
-~
+Empty room.~
 33 0 0 0 0 4
 D1
 ~
@@ -195,7 +196,7 @@ D3
 S
 #3311
 A Small Plateau~
-~
+Empty room.~
 33 0 0 0 0 4
 D1
 ~
@@ -208,7 +209,7 @@ D3
 S
 #3312
 A Rocky Slope~
-~
+Empty room.~
 33 0 0 0 0 5
 D0
 ~
@@ -221,7 +222,7 @@ D1
 S
 #3313
 The Overlook~
-~
+Empty room.~
 33 0 0 0 0 4
 D2
 ~
@@ -230,7 +231,7 @@ D2
 S
 #3314
 A Rocky Slope~
-~
+Empty room.~
 33 0 0 0 0 5
 D0
 ~
@@ -243,7 +244,7 @@ D3
 S
 #3315
 The Depression Floor~
-~
+Empty room.~
 33 0 0 0 0 4
 D1
 ~
@@ -256,7 +257,7 @@ D2
 S
 #3316
 The Depression Floor~
-~
+Empty room.~
 33 0 0 0 0 4
 D0
 ~
@@ -269,7 +270,7 @@ D1
 S
 #3317
 Cave Entrance~
-~
+undefined~
 33 4 0 0 0 0
 D1
 ~
@@ -280,9 +281,10 @@ D3
 ~
 0 -1 3316
 S
+T 3106
 #3318
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -299,7 +301,7 @@ D3
 S
 #3319
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D1
 ~
@@ -312,7 +314,7 @@ D2
 S
 #3320
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D1
 ~
@@ -325,7 +327,7 @@ D3
 S
 #3321
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D2
 ~
@@ -338,7 +340,7 @@ D3
 S
 #3322
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -355,7 +357,7 @@ D3
 S
 #3323
 The Cave~
-~
+Empty room.~
 33 632 0 0 0 0
 D1
 ~
@@ -364,7 +366,7 @@ D1
 S
 #3324
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D2
 ~
@@ -377,7 +379,7 @@ D3
 S
 #3325
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -390,7 +392,7 @@ D1
 S
 #3326
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -403,7 +405,7 @@ D3
 S
 #3327
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -416,7 +418,7 @@ D2
 S
 #3328
 Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D2
 ~
@@ -429,7 +431,7 @@ D3
 S
 #3329
 End Of Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 It is a sturdy wooden door.
@@ -443,7 +445,7 @@ D1
 S
 #3330
 Agency: Water Cave~
-~
+undefined~
 33 184 0 0 0 0
 D2
 ~
@@ -454,9 +456,10 @@ D3
 ~
 1 0 3163
 S
+T 3103
 #3331
 A Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -469,7 +472,7 @@ D2
 S
 #3332
 A Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -482,7 +485,7 @@ D1
 S
 #3333
 A Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -495,7 +498,7 @@ D3
 S
 #3334
 A Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D1
 ~
@@ -508,7 +511,7 @@ D2
 S
 #3335
 A Cave Passageway~
-~
+Empty room.~
 33 8 0 0 0 0
 D2
 ~
@@ -521,7 +524,7 @@ D3
 S
 #3336
 A Cave Passageway~
-~
+Empty room.~
 33 9 0 0 0 0
 D0
 ~
@@ -534,7 +537,7 @@ D2
 S
 #3337
 A Cave Passageway~
-~
+Empty room.~
 33 9 0 0 0 0
 D0
 ~
@@ -547,7 +550,7 @@ D1
 S
 #3338
 A Cave Passageway~
-~
+Empty room.~
 33 9 0 0 0 0
 D0
 ~
@@ -560,7 +563,7 @@ D3
 S
 #3339
 The Cave Entrance~
-~
+Empty room.~
 33 504 0 0 0 0
 D1
 ~
@@ -577,7 +580,7 @@ D3
 S
 #3340
 Agency: The Caves~
-~
+Empty room.~
 33 248 0 0 0 0
 D1
 ~
@@ -590,7 +593,7 @@ D3
 S
 #3341
 A Rocky Slope~
-~
+Empty room.~
 33 0 0 0 0 5
 D1
 ~
@@ -603,7 +606,7 @@ D3
 S
 #3342
 A Rocky Slope~
-~
+Empty room.~
 33 4 0 0 0 5
 D1
 ~
@@ -616,7 +619,7 @@ D3
 S
 #3343
 Main Road~
-~
+Empty room.~
 33 0 0 0 0 1
 D0
 ~
@@ -641,7 +644,7 @@ adv:world:3343/sign
 S
 #3344
 The Mountain Tavern~
-~
+Empty room.~
 33 8 0 0 0 0
 D2
 ~
@@ -650,7 +653,7 @@ D2
 S
 #3345
 The General Store~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -659,7 +662,7 @@ D0
 S
 #3346
 Main Road~
-~
+Empty room.~
 33 0 0 0 0 1
 D1
 ~
@@ -676,7 +679,7 @@ D3
 S
 #3347
 The Corral~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -685,7 +688,7 @@ D0
 S
 #3348
 The Intersection~
-~
+Empty room.~
 33 0 0 0 0 1
 D0
 ~
@@ -706,7 +709,7 @@ D3
 S
 #3349
 A Small Road~
-~
+Empty room.~
 33 0 0 0 0 1
 D0
 ~
@@ -723,7 +726,7 @@ D3
 S
 #3350
 The Farmer's Market~
-~
+Empty room.~
 33 0 0 0 0 1
 D1
 ~
@@ -732,7 +735,7 @@ D1
 S
 #3351
 A Small Road~
-~
+Empty room.~
 33 0 0 0 0 1
 D1
 ~
@@ -745,7 +748,7 @@ D2
 S
 #3352
 Mountain Room~
-~
+Empty room.~
 33 2568 0 0 0 0
 D2
 ~
@@ -758,7 +761,7 @@ D3
 S
 #3353
 A Small Road~
-~
+Empty room.~
 33 0 0 0 0 1
 D0
 ~
@@ -771,7 +774,7 @@ D2
 S
 #3354
 A Private Home~
-~
+Empty room.~
 33 8 0 0 0 0
 D0
 ~
@@ -780,7 +783,7 @@ D0
 S
 #3355
 Main Road~
-~
+Empty room.~
 33 0 0 0 0 1
 D0
 ~
@@ -793,7 +796,7 @@ D3
 S
 #3356
 Stanneg Inn~
-~
+Empty room.~
 33 8 0 0 0 0
 D2
 ~
@@ -810,7 +813,7 @@ D4
 S
 #3357
 The Common Room~
-~
+Empty room.~
 33 8 0 0 0 0
 D1
 ~
@@ -819,7 +822,7 @@ D1
 S
 #3358
 The Reception~
-~
+Empty room.~
 33 8 0 0 0 0
 D5
 ~
@@ -828,7 +831,7 @@ D5
 S
 #3359
 A Rocky Slope~
-~
+Empty room.~
 33 0 0 0 0 5
 D1
 ~
@@ -841,7 +844,7 @@ D3
 S
 #3360
 A Ledge~
-~
+Empty room.~
 33 0 0 0 0 4
 D1
 ~
@@ -858,7 +861,7 @@ D5
 S
 #3361
 Outside Of A Cottage~
-~
+Empty room.~
 33 0 0 0 0 4
 D3
 ~
@@ -871,7 +874,7 @@ D4
 S
 #3362
 The Torched Cottage~
-~
+Empty room.~
 33 0 0 0 0 1
 D1
 ~
@@ -880,7 +883,7 @@ D1
 S
 #3363
 A Mountain Trail~
-~
+Empty room.~
 33 0 0 0 0 5
 D3
 ~
@@ -893,7 +896,7 @@ D5
 S
 #3364
 A Mountain Trail~
-~
+Empty room.~
 33 0 0 0 0 5
 D1
 ~
@@ -906,7 +909,7 @@ D3
 S
 #3365
 A Mountain Trail~
-~
+Empty room.~
 33 0 0 0 0 5
 D1
 ~
@@ -919,7 +922,7 @@ D3
 S
 #3366
 Near The Peak~
-~
+Empty room.~
 33 576 0 0 0 5
 D0
 ~
@@ -932,7 +935,7 @@ D1
 S
 #3367
 A Small, Dangerous Path~
-~
+Empty room.~
 33 576 0 0 0 5
 D2
 ~
@@ -945,7 +948,7 @@ D4
 S
 #3368
 A Small, Dangerous Path~
-~
+Empty room.~
 33 576 0 0 0 5
 D0
 ~
@@ -958,7 +961,7 @@ D5
 S
 #3369
 The Cave Entrance~
-~
+Empty room.~
 33 585 0 0 0 4
 D2
 ~
@@ -975,7 +978,7 @@ D5
 S
 #3370
 A Sloping Tunnel~
-~
+Empty room.~
 33 585 0 0 0 0
 D0
 ~
@@ -988,7 +991,7 @@ D5
 S
 #3371
 A Sloping Tunnel~
-~
+Empty room.~
 33 585 0 0 0 4
 D0
 ~
@@ -999,27 +1002,27 @@ D2
 ~
 0 -1 3370
 E
-stone~
-adv:world:3371/stone
+floor~
+adv:world:33771/floor
 ~
 E
 claws~
 adv:world:3371/claws
 ~
 E
-floor~
-adv:world:33771/floor
+stone~
+adv:world:3371/stone
 ~
 S
 #3372
 The Pit~
-~
+Empty room.~
 33 76 0 0 0 0
 S
 T 3300
 #3373
 A Sloping Tunnel~
-~
+Empty room.~
 33 585 0 0 0 4
 D4
 ~
@@ -1032,7 +1035,7 @@ D5
 S
 #3374
 A Sloping Tunnel~
-~
+Empty room.~
 33 585 0 0 0 4
 D0
 ~
@@ -1045,7 +1048,7 @@ D4
 S
 #3375
 The Lair~
-~
+Empty room.~
 33 584 0 0 0 4
 D2
 ~

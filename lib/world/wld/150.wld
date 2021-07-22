@@ -19,7 +19,7 @@ traveller~
 adv:world:15000/traveller
 ~
 S
-T 3103
+T 3106
 #15001
 The King's Road~
 Empty room.~
@@ -41,7 +41,7 @@ Empty room.~
 D1
 ~
 ~
-0 -1 15003
+0 0 15003
 D3
 ~
 ~
@@ -56,6 +56,10 @@ D0
 ~
 ~
 0 -1 15004
+D1
+~
+~
+0 0 15009
 D3
 ~
 ~
@@ -136,11 +140,16 @@ T 3102
 The Guard Room~
 Empty room.~
 150 8 0 0 0 0
+D1
+~
+~
+0 0 15009
 D3
 ~
 ~
 0 -1 15007
 S
+T 3106
 #15009
 Under The Tower~
 Empty room.~
@@ -149,6 +158,10 @@ D0
 ~
 ~
 0 -1 15014
+D3
+~
+~
+0 0 15008
 D4
 ~
 ~
@@ -174,7 +187,7 @@ S
 #15011
 The Great Hall~
 Empty room.~
-150 136 0 0 0 0
+150 748 0 0 0 0
 D0
 ~
 ~
@@ -191,7 +204,7 @@ S
 #15012
 The Great Hall~
 Empty room.~
-150 136 0 0 0 0
+150 748 0 0 0 0
 D0
 ~
 ~
@@ -217,7 +230,7 @@ T 3102
 #15013
 The Great Hall~
 Empty room.~
-150 136 0 0 0 0
+150 748 0 0 0 0
 D0
 ~
 ~
@@ -264,7 +277,7 @@ S
 #15016
 The Great Hall~
 Empty room.~
-150 8 0 0 0 0
+150 748 0 0 0 0
 D1
 ~
 ~
@@ -286,7 +299,7 @@ T 3103
 #15017
 By The Throne In The Great Hall~
 Empty room.~
-150 8 0 0 0 0
+150 748 0 0 0 0
 D1
 ~
 ~
@@ -311,7 +324,7 @@ S
 #15018
 The Great Hall~
 Empty room.~
-150 136 0 0 0 0
+150 748 0 0 0 0
 D1
 ~
 ~
@@ -1036,7 +1049,7 @@ D3
 ~
 0 -1 15062
 S
-T 3103
+T 3106
 #15064
 A Dirt Road~
 Empty room.~

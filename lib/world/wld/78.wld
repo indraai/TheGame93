@@ -1,6 +1,6 @@
 #7800
 Fantasyland~
-~
+undefined~
 78 144 0 0 0 1
 D1
 ~
@@ -15,9 +15,10 @@ credits info~
 adv:world:7800/credits
 ~
 S
+T 3101
 #7801
 Fantasyland Gate~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 It's a Small World
@@ -36,7 +37,7 @@ adv:world:7801/entrance
 S
 #7802
 The Plaza~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 It's a Small World
@@ -58,7 +59,7 @@ D3
 S
 #7803
 Main St. & Plaza~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -72,7 +73,7 @@ Main Street
 S
 #7804
 Main St. & Center~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -85,7 +86,7 @@ D2
 S
 #7805
 Tomorrowland~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -106,7 +107,7 @@ D3
 S
 #7806
 Rocket Jets~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -127,7 +128,7 @@ D3
 S
 #7807
 Tomorrowland Autopia~
-~
+Empty room.~
 78 144 0 0 0 1
 D1
 ~
@@ -144,7 +145,7 @@ D3
 S
 #7808
 Disneyland Monorail~
-~
+Empty room.~
 78 144 0 0 0 1
 D2
 ~
@@ -157,7 +158,7 @@ adv:world:7808/monorail
 S
 #7809
 America Sings~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -174,7 +175,7 @@ D3
 S
 #7810
 Mission to Mars~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -187,7 +188,7 @@ D3
 S
 #7811
 The Space Bar~
-~
+Empty room.~
 78 144 0 0 0 1
 D1
 ~
@@ -204,7 +205,7 @@ D3
 S
 #7812
 The Character Shop~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -222,24 +223,24 @@ S
 T 1200
 #7813
 Disneyland (Entrance)~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
 ~
 0 0 7818
 E
-souvenir souvenirs stand~
-adv:world:7813/souvenirs
-~
-E
 stroller strollers wheelchair wheelchairs~
 adv:world:7818/strollers
+~
+E
+souvenir souvenirs stand~
+adv:world:7813/souvenirs
 ~
 S
 #7814
 Adventure Thru Inner Space~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -252,7 +253,7 @@ D1
 S
 #7815
 Cobblestone Path~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -273,7 +274,7 @@ D3
 S
 #7816
 Adventureland~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -286,7 +287,7 @@ D2
 S
 #7817
 Adventureland~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -303,7 +304,7 @@ D2
 S
 #7818
 Town Square~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -320,7 +321,7 @@ D3
 S
 #7819
 Frontierland~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 The pine door is open facing the street.  The smells coming from the opening
@@ -343,7 +344,7 @@ Stamnell's Bakery
 S
 #7820
 Stamnell's Bakery~
-~
+Empty room.~
 78 152 0 0 0 0
 D2
 ~
@@ -352,7 +353,7 @@ D2
 S
 #7821
 Frontierland~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -373,7 +374,7 @@ The sign reads "Vhispera's General Store"
 S
 #7822
 General Store~
-~
+Empty room.~
 78 152 0 0 0 0
 D2
 ~
@@ -382,7 +383,7 @@ D2
 S
 #7823
 Bear Country~
-~
+Empty room.~
 78 144 0 0 0 1
 D1
 ~
@@ -395,7 +396,7 @@ D2
 S
 #7824
 New Orleans Square~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
@@ -408,7 +409,7 @@ D1
 S
 #7825
 Jungle Cruise~
-~
+Empty room.~
 78 144 0 0 0 1
 D3
 ~
@@ -417,7 +418,7 @@ D3
 S
 #7826
 Swiss Family Treehouse~
-~
+Empty room.~
 78 152 0 0 0 0
 D0
 ~
@@ -440,7 +441,7 @@ D1
 S
 #7828
 America The Beautiful~
-~
+Empty room.~
 78 144 0 0 0 1
 D0
 ~
