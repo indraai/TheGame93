@@ -13,6 +13,10 @@ Zone 286 is linked to the following zones:
 285 Descent to Hell                at 28699 (east ) ---> 28500
 ~
 286 0 0 0 0 0
+D5
+~
+~
+0 0 28601
 S
 #28601
 Stone Archway~
@@ -79,6 +83,7 @@ You see a dark stairway.
 ~
 0 -1 28602
 S
+T 3106
 #28604
 Landing~
    This landing has been scorched as if a large brushfire had swept through it.
@@ -111,7 +116,7 @@ of torture and pain.  Screams pierce the air and rattle your nerves.  Displays
 of the treats of Hell are in all directions.  Large black iron gates tower over
 you to the east.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It's too smoky to see.
 ~
@@ -138,6 +143,7 @@ gates~
 various poses and acts of violence and lust.
 ~
 S
+T 3106
 #28606
 Hall of the Damned~
    This hallway is a monument to the millions of damned souls in hell.  The
@@ -145,7 +151,7 @@ walls are made up of various body parts and other unidentifiable things.  Many
 of the faces that make up the wall scream out to you for help.  Their arms
 desperately grasp at your clothing as you pass.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It's too smoky to see.
 ~
@@ -174,7 +180,7 @@ walls are made up of various body parts and other unidentifiable things.  Many
 of the faces that make up the wall scream out to you for help.  Their arms
 desperately grasp at your clothing as you pass.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It's too smoky to see.
 ~
@@ -203,7 +209,7 @@ walls are made up of various body parts and other unidentifiable things.  Many
 of the faces that make up the wall scream out to you for help.  Their arms
 desperately grasp at your clothing as you pass.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It's too smoky to see.
 ~
@@ -232,7 +238,7 @@ walls are made up of various body parts and other unidentifiable things.  Many
 of the faces that make up the wall scream out to you for help.  Their arms
 desperately grasp at your clothing as you pass.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It's too smoky to see.
 ~
@@ -259,6 +265,7 @@ You see a dark stairway leading down.
 stairs~
 0 -1 28621
 S
+T 3106
 #28610
 Hall of the Damned~
    This hallway is a monument to the millions of damned souls in hell.  The
@@ -266,7 +273,7 @@ walls are made up of various body parts and other unidentifiable things.  Many
 of the faces that make up the wall scream out to you for help.  Their arms
 desperately grasp at your clothing as you pass.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It's too smoky to see.
 ~
@@ -284,7 +291,7 @@ Mural of the Dead~
 piled up to the sky.  The mural covers the whole north wall from floor to
 ceiling.  You can almost smell the stench of decaying flesh.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 It's too smoky to see.
 ~
@@ -302,7 +309,7 @@ Living Walls~
 broken bones, feet and toes jutting from the surface.  You hear low moans of
 horror, pain and sorrow issuing from the walls.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 It's too smoky to see.
 ~
@@ -373,7 +380,7 @@ and hamburger assault your senses.  All sorts of food lie everywhere you look.
 Cookies, twinkies, steak, prime rib, almost anything you can think of, call out
 to you.  You suddenly feel VERY hungry.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 It's too smoky to see.
 ~
@@ -397,7 +404,7 @@ imagination!  Wait!  You suddenly feel as if it is all slowly disappearing.
 Someone is taking your treasure.  They have no right!  It is yours!  You found
 it first.  Let them go get their own treasures!  You see a door to the east.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a bedroom door.
 ~
@@ -415,19 +422,20 @@ It's too smoky to see.
 0 -1 28615
 S
 #28617
-Bedroom~
+The Love Shack~
    This is a small bedroom.  It is well furnished and a drastic change from the
 room you just stepped out of.  A bed stands against the far wall.  Upon the
 headboard of the bed are carved two cherubic looking figures, with the words
 'DEE & DEE' written below them.  The door to the bedroom is to the west.
 ~
-286 9 0 0 0 0
+286 764 0 0 0 0
 D3
 You see a bedroom door.
 ~
 door~
 1 -1 28616
 S
+T 3103
 #28618
 Ancient Shrine~
    This is an ancient, abandoned shrine of some unknown deva.  It has been
@@ -493,11 +501,11 @@ It is too dark to see.
 0 -1 28631
 S
 #28622
-Ancient Room~
+Agency: Hell(O) Office~
    This is a very old and dusty room.  It looks empty except for a few shards
 of bone and flesh.
 ~
-286 9 0 0 0 0
+286 184 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -508,7 +516,12 @@ It is too dark to see.
 ~
 ~
 0 -1 28623
+D3
+~
+~
+1 0 3161
 S
+T 3103
 #28623
 Room of Lost Souls~
    This looks like a waiting room of sorts.  Dust and cobwebs are everywhere.
@@ -516,7 +529,7 @@ Wooden benches line the walls.  A digital number sign is posted on the wall.
 It currently reads, 'Now Serving Number 1'.  A ticket dispenser is bolted to
 the wall.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -544,7 +557,7 @@ Wooden benches line the walls.  A digital number sign is posted on the wall.
 It currently reads, 'Now Serving Number 1'.  A ticket dispenser is bolted to
 the wall.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -572,7 +585,7 @@ you look closer at the pit you realize that hundreds of people are being burned
 inside it.  They scream out to you.  The noise is deafening.  Several minor imps
 and workers push more people into the pit, whistling while they work.
 ~
-286 8 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -594,7 +607,7 @@ Blackened Hallway~
    This dark hallway looks as if it was made by a lavaworm...  All the surfaces
 in it are melted and burnt.  The smell of brimstone and sulfur fills the air.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -643,6 +656,7 @@ It is too dark to see.
 ~
 0 -1 28627
 S
+T 3101
 #28629
 Living Walls~
    The walls here actually consist of graying and sinewy flesh - faces, hands,
@@ -666,10 +680,11 @@ It is too dark to see.
 ~
 0 -1 28628
 S
+T 3106
 #28630
 Skeleton Factory~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -681,6 +696,7 @@ It is too dark to see.
 ~
 0 -1 28629
 S
+T 3106
 #28631
 Bottom of Stairway~
    You are standing at the bottom of a stairway.  Or at least you thought
@@ -694,7 +710,12 @@ It is too dark to see.
 ~
 ~
 0 -1 28632
+D4
+~
+~
+0 0 28621
 S
+T 3106
 #28632
 Stone Hall~
    This is a roughly carved hallway.  The air here is damp and musty.  You hear
@@ -1091,6 +1112,7 @@ You see a dark stairway down.
 ~
 0 -1 28663
 S
+T 3106
 #28653
 Hall of Fire~
    You are standing in a hallway made of fire.  The walls are ablaze with
@@ -1266,13 +1288,18 @@ smells of sulfur and methane.  To the south you see a stone hallway.  Hot air
 blows in at you from the doorway.  The air stirs up the methane and steals your
 breath.  You choke and gag...
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D2
 You see a stone hallway.
 ~
 ~
 0 -1 28671
+D4
+~
+~
+0 0 28650
 S
+T 3106
 #28662
 Foreman's Office~
    You stand in a crudely constructed office.  Blueprints and change orders are
@@ -1280,13 +1307,14 @@ scattered everywhere.  A metal filing cabinet stands in the corner.  Before you
 stands a stone table covered with blueprints.  On the wall is a construction
 plaque that reads, "4th DEMONsion Construction"
 ~
-286 9 0 0 0 0
+286 248 0 0 0 0
 D0
 You see the door to the office.
 ~
 ~
 1 -1 28652
 S
+T 3100
 #28663
 Cold Stairway~
    You stand upon a cold stone stairway.  Hot air blows down on you from higher
@@ -1350,6 +1378,7 @@ You see a Hall of fire.
 ~
 0 -1 28664
 S
+T 3106
 #28666
 Construction Area~
    This part of Hell seems to be under repair.  Workers are fixing and
@@ -1395,6 +1424,7 @@ You see a construction area.
 ~
 0 -1 28666
 S
+T 3106
 #28668
 Hall of Fire~
    You are standing in a hallway made of fire.  The walls are ablaze with
@@ -1553,6 +1583,7 @@ You see more of the Meat locker.
 ~
 0 -1 28685
 S
+T 3106
 #28676
 Penguin Room~
    This is what appears to be a replica of an iceberg.  Penguins waddle about
@@ -1577,6 +1608,10 @@ You see a freezer door.
 ~
 door freezer~
 1 -1 28675
+D4
+~
+~
+0 0 28663
 S
 #28677
 Penguin Room~
@@ -1628,7 +1663,7 @@ D1
 You see a steel door.
 ~
 door steel~
-1 -1 28680
+0 -1 28680
 D2
 You see lots of ice-cream machines.
 ~
@@ -1647,6 +1682,10 @@ portraits of demons and devils in business suits adorn the walls on either side
 of you.  The hall continues to the south.  To the west is a steel door.
 ~
 286 9 0 0 0 0
+D0
+~
+~
+0 0 -1
 D2
 You see a marble hallway.
 ~
@@ -1656,8 +1695,9 @@ D3
 You see a steel door.
 ~
 door steel~
-1 -1 28679
+0 -1 28679
 S
+T 3106
 #28681
 Refrigerator Room~
    This room is filled with giant refrigerators.  All of them have no doors and
@@ -1718,6 +1758,7 @@ You see a room of ice.
 ~
 0 -1 28682
 S
+T 3106
 #28684
 Meat Locker~
    You stand in a large meat locker.  Chunks of meat hang on the wall and
@@ -1805,7 +1846,7 @@ ice-cream and other deserts are made by these machines.  Above one of the
 machines a sign reads, 'Eye Splean I Screamery'.  The factory continues to the
 north and east.  You can hear sounds of penguins to the west.
 ~
-286 9 0 0 0 0
+286 8 0 0 0 0
 D0
 You see lots of ice-cream machines.
 ~
@@ -1822,6 +1863,7 @@ You see a dark passageway.
 ~
 0 -1 28687
 S
+T 3106
 #28689
 Ice-Creamery~
    You stand amidst dozens of ice-cream machines.  Workers rush about for
@@ -1978,6 +2020,7 @@ You see a prayer room.
 ~
 0 -1 28695
 S
+T 3101
 #28697
 Office of the High Priest~
    This is the office of the High Priest of Hell.  A black stone desk stands
