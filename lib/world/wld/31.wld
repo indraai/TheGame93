@@ -1013,9 +1013,6 @@ adv:world:3156/look
 S
 #3150
 A Gravel Road In The Graveyard~
-   You are on a well-kept gravel road that leads north-south through the
-graveyard.  On both sides of the road grow dark evergreen trees.  An iron
-grate is to the north.
 ~
 31 0 0 0 0 2
 D0
@@ -1031,8 +1028,6 @@ The gravel road continues southward.
 S
 #3151
 A Gravel Road In The Graveyard~
-   You are on a well-kept gravel road that leads north-south through the
-graveyard.  On both sides of the road grow dark evergreen trees.
 ~
 31 0 0 0 0 2
 D0
@@ -1048,8 +1043,6 @@ The gravel road continues southward.
 S
 #3152
 A Gravel Road In The Graveyard~
-   You are on a well-kept gravel road that leads north-south through the
-graveyard.  On both sides of the road grow dark evergreen trees.
 ~
 31 0 0 0 0 2
 D0
@@ -1065,8 +1058,6 @@ The gravel road continues southward.
 S
 #3153
 A Gravel Road In The Graveyard~
-   You are on a well-kept gravel road that leads north-south through the
-graveyard.  On both sides of the road grow dark evergreen trees.
 ~
 31 0 0 0 0 1
 D0
@@ -1083,7 +1074,6 @@ building.
 S
 #3154
 In Front Of The Chapel~
-You are on an open space before a small chapel.  A gravel road leads north through the graveyard and the chapel entrance is to the south.
 ~
 31 0 0 0 0 2
 D0
@@ -1092,34 +1082,29 @@ The gravel road continues northwards.
 road~
 0 -1 3153
 D2
-The chapel door is made of dark wood.
 ~
 entrance~
 1 -1 3155
 S
 #3155
 Inside The Chapel~
-You are in a small, dark chapel.  The dark brown glass in the tiny windows do not let much light through. A few rows of worn wooden benches stand here and an ancient altar sits in the middle of the floor.
 ~
 31 56 0 0 0 0
 D0
-The chapel door is made of dark wood.
 ~
 entrance~
 1 -1 3154
 E
 glass windows~
-   The windows must be meant to be dark.  At least they are completely clean.
+adv:world:3155/windows
 ~
 E
 altar~
-   The altar looks very old...  You examine the floor around the altar and
-notice that it seems less dusty than the rest of the room...  Someone must clean
-here regularly...  Maybe that old guy in Park Cafe, he looked like that sort...
+adv:world:3155/altar
 ~
 E
 benches rows~
-   The benches are not of the comfortable kind.
+adv:world:3155/benches
 ~
 S
 #3156

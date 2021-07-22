@@ -2010,64 +2010,48 @@ trail~
 S
 #6091
 A Road Through The Plains~
-   You are on a dust covered east-west road through the western plains.  An
-occasional hunter or adventurer can be seen, heading to or from the forest.
-To the east is the walled city, Amaravati, and to the west the road continues
-towards a large forest.
 ~
 60 4 0 0 0 2
 D1
-Far to the east you see the walls and western gate of Amaravati.
 ~
 ~
 0 -1 6092
 D3
-You see the large forest, Haon-Dor, stretching out far to the west, and to the
-northwest you the forest gives way to hills.
 ~
 ~
 0 -1 6090
 E
 road dust dusty~
-   The road is well used, and quite dusty.
+adv:world:6091/road
 ~
 E
 tree trees~
-   Some small trees grow amongst the underbrush of the plains.  These slowly
-gain in height as you travel farther westward towards Haon-Dor
+adv:world:6091/trees
 ~
 E
 forest haondor haon-dor~
-   The large forest of Haon-Dor spreads out to the west.  Small and large game
-is plentiful there...  As is adventure, and of course, danger!
+adv:world:6091/forest
 ~
 S
 #6092
 A Road Through The Plains~
-   You are on a dust covered east-west road crossing the grassy plains between
-Amaravati the forest of Haon-Dor.  An occasional hunter or adventurer can be
-seen, heading to or from the forest.  To the east is the walled city, Amaravati,
-and to the west the road continues towards a large forest.
 ~
 60 4 0 0 0 1
 D1
-To the east you see the walls and West Gate of Amaravati.
 ~
 ~
 0 -1 3052
 D3
-To the west the road continues towards the forest.
 ~
 ~
 0 -1 6091
 E
 road dust dusty~
-   The road is well used, and quite dusty.
+adv:world:6092/road
 ~
 E
 forest~
-   The large forest of Haon-dor spreads out to the west.  Small and large game
-is plentiful there...  As is adventure, and of course, danger!
+adv:world:6092/forest
 ~
 S
 $~

@@ -1,322 +1,242 @@
 #3500
 The Plains~
-adv:world:3500/main
 ~
 35 0 0 0 0 1
 D0
-adv:world:4000/look
 ~
 ~
 0 -1 4000
 D1
-adv:world:3300/look
 ~
 ~
 0 -1 3300
 D2
-adv:world:3501/look
 ~
 ~
 0 -1 3501
 S
 #3501
 The Lane~
-adv:world:3501/main
 ~
 35 0 0 0 0 1
 D0
-adv:world:3500/look
 ~
 ~
 0 -1 3500
 D2
-adv:world:3502/look
 ~
 ~
 0 -1 3502
 S
 #3502
 The Laneway~
-adv:world:3502/main
 ~
 35 0 0 0 0 1
 D0
-adv:world:3501/look
 ~
 ~
 0 -1 3501
 D1
-adv:world:15000/look
 ~
 ~
 0 -1 15000
 D3
-adv:world:3503/look
 ~
 ~
 0 -1 3503
 D5
-adv:world:6500/look
 ~
 ~
 0 -1 6500
 S
 #3503
 The City Entrance~
-adv:world:3503/main
 ~
 35 0 0 0 0 1
 D1
-adv:world:3502/look
 ~
 ~
 0 -1 3502
 D3
-adv:world:3053/look
 ~
 ~
 0 -1 3053
 S
 #3504
 The South Gate~
-   You are standing on a small, dusty path leading away from the south
-gate of Amaravati, to the forest of Miden'Nir.
-You can still see the city to the east, but if you go south, there is
-fresh air and greenery.
 ~
 35 0 0 0 0 3
 D1
-You can see the walls of the South Gate.
 ~
 ~
 0 -1 3127
 D2
-If you go south, you will enter the Miden'Nir.
 ~
 ~
 0 -1 3505
 S
 #3505
 The Trail To Miden'Nir~
-   You are in a light forest.  A path leads south, but the passage to
-the east is easy enough.  To the west, smoke can be seen rising above
-the treetops.  The sprawl of Amaravati lies north of here.
 ~
 35 0 0 0 0 3
 D0
-To the north, you see the South Gate of Amaravati.
 ~
 ~
 0 -1 3504
 D1
-More light forest.
 ~
 ~
 0 -1 3506
 D2
-This path cuts through the darkness of the Miden'Nir.
 ~
 ~
 0 -1 3507
 D3
-The Woodsman's Inn can be seen a short distance to the west, it appears
-to be the source of the smoke.
 ~
 ~
 0 -1 3570
 S
 #3506
 The Miden'nir~
-   You are in a dark forest.  To the east, mountains block passage.  From
-here, only the lighter forest to the west or south offer a way to travel.
 ~
 35 0 0 0 0 3
 D1
-The mountains can be seen jutting up to the east.
 ~
 ~
 0 -1 3550
 D2
-The forest is darker to the south.
 ~
 ~
 0 -1 3509
 D3
-The forest gets lighter as you go west.
 ~
 ~
 0 -1 3505
 S
 #3507
 The Miden'nir~
-   The forest is deep here and the wind blows through the trees and
-through your hair.  To the north, the forest gets lighter.  However,
-the southern and western paths place you even deeper in the wood.
 ~
 35 0 0 0 0 3
 D0
-The forest is lighter in this direction.
 ~
 ~
 0 -1 3505
 D2
-More and darker woods.
 ~
 ~
 0 -1 3510
 D3
-There is a small path leading west.
 ~
 ~
 0 -1 3508
 S
 #3508
 On a Small Path~
-   A path is here, leading east and south through the dark woods of
-Miden'nir.  Mountains slash the scenery to the west of here.
 ~
 35 0 0 0 0 3
 D1
-Wind-swept forest.
 ~
 ~
 0 -1 3507
 D2
-To the south, the trail continues.
 ~
 ~
 0 -1 3511
 S
 #3509
 The Miden'nir~
-   The trees of Miden'nir are lush and green, hiding the evil that lurks
-in these woods.  The trees become too thick to the west, but you may go
-north, south or travel toward the mountains that lie east of here.
 ~
 35 0 0 0 0 3
 D0
-The trees lighten up a bit this way.
 ~
 ~
 0 -1 3506
 D1
-Huge gray mountains lie in this direction.
 ~
 ~
 0 -1 3512
 D2
-The forest continues.
 ~
 ~
 0 -1 3514
 S
 #3510
 A Crossroads~
-   Here footworn paths meet leading north, south and east.  The trees
-seem to be closing in on you at this point, and you can barely see
-the sky through the thick branches above your head.
 ~
 35 0 0 0 0 3
 D0
-Trees as far as the eye can see.
 ~
 ~
 0 -1 3507
 D1
-There is an especially dark part of the forest this way.
 ~
 ~
 0 -1 3514
 D2
-There is an especially dark section of forest this way.
 ~
 ~
 0 -1 3516
 S
 #3511
 The Trail~
-   You are on a north-south trail through the woods.  To the west,
-impassable mountains glare at you, and the thick woods and undergrowth
-prevent any movement westward.
 ~
 35 0 0 0 0 3
 D0
-The trail bends to the north.
 ~
 ~
 0 -1 3508
 D2
-To the south, the path re-enters the forest.
 ~
 ~
 0 -1 3515
 S
 #3512
 The Miden'nir~
-   The trees of Miden'nir are lush and green, hiding the evil that lurks
-in these woods.  You can go north toward the mountains, or west to the
-forest, but the steep mountains prevent any movement east.
 ~
 35 0 0 0 0 3
 D0
-The mountains can be seen to the north.
 ~
 ~
 0 -1 3550
 D2
-A light section of forest.
 ~
 ~
 0 -1 3513
 D3
-The forest continues here.
 ~
 ~
 0 -1 3509
 S
 #3513
 The Miden'nir~
-   The forest is dark, and becomes even darker west.  You sense
-that there is something evil hidden in these woods.  The forest
-gets lighter to the north.  The wind kicks up as you ponder your
-options.
 ~
 35 0 0 0 0 3
 D0
-There is a small clearing to the north.
 ~
 ~
 0 -1 3512
 D3
-It gets darker and thicker this way.
 ~
 ~
 0 -1 3514
 S
 #3514
 The Deep Forest~
-   It is quite dark here, forest surrounds you.  With each step, the
-forest seems to close around you, and get darker and more foreboding.
-It might just be time to head back to somewhere safe.
 ~
 35 0 0 0 0 3
 D0
-More forest.
 ~
 ~
 0 -1 3509
 D1
-Lighter forest and mountains in the distance.
 ~
 ~
 0 -1 3513
 D2
-More trees.
 ~
 ~
 0 -1 3517
 D3
-The forest continues.
 ~
 ~
 0 -1 3510
