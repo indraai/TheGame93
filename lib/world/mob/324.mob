@@ -77,7 +77,7 @@ low.
 8 8 1
 E
 #32406
-smithy soldier sweating~
+smithy sweating~
 the smithy~
 A smithy pounds away at a piece of metal, shaping it into a usable piece.
 ~
@@ -89,9 +89,9 @@ His muscles bulge and the hammer rings.  This guy could do commercials.
 8 8 1
 E
 #32407
-deva army armydeva soldier military devaforce ad32407~
-AD32407 ArmyDEVA Soldier~
-AD23407 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce d32407~
+ArmyDEVA Soldier~
+ArmyDEVA Soldier D23407 is here.
 ~
 He wipes his sweating brow and gives a smile.  At least he seems to enjoy his work a bit.
 ~
@@ -102,9 +102,9 @@ He wipes his sweating brow and gives a smile.  At least he seems to enjoy his wo
 BareHandAttack: 12
 E
 #32408
-deva army armydeva soldier military devaforce ad32408~
-AD32408 ArmyDEVA Soldier~
-AD32408 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce d32408~
+ArmyDEVA Soldier~
+ArmyDEVA Soldier AD32408 is here.
 ~
 He is sweating from most every pore in his body - it does appear that he is enjoying his labors.
 ~
@@ -114,9 +114,9 @@ He is sweating from most every pore in his body - it does appear that he is enjo
 8 8 1
 E
 #32409
-deva army armydeva soldier military devaforce ad32409~
-AD32409 ArmyDEVA Soldier~
-AD32409 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce d32409~
+ArmyDEVA Soldier~
+ArmyDEVA Soldier D32409 is here.
 ~
 He stands with a sly grin on his face, as if he might enjoy his work just a
 bit too much.
@@ -127,9 +127,9 @@ bit too much.
 8 8 1
 E
 #32410
-deva army armydeva soldier military devaforce ad32410~
-AD32410 ArmyDEVA Soldier~
-AD32410 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce d32410~
+ArmyDEVA Soldier~
+ArmyDEVA Soldier D32410 is here.
 ~
 He looks strong enough to wrestle an ox - indeed he often does.
 ~
@@ -140,7 +140,7 @@ He looks strong enough to wrestle an ox - indeed he often does.
 E
 #32411
 deva army armydeva military devaforce d32411~
-ArmyDEVA D32411~
+ArmyDEVA Soldier~
 ArmyDEVA D32411 is here.
 ~
 His job is done for the day and he is quite glad of it!
@@ -152,11 +152,11 @@ His job is done for the day and he is quite glad of it!
 BareHandAttack: 6
 E
 #32412
-deva army armydeva soldier military general devaforce ad32412~
-AD32312 ArmyDEVA General~
-AD32312 ArmyDEVA General Black Guy is here.
+deva army armydeva soldier military general devaforce d32412 blackguy~
+ArmyDEVA General~
+ArmyDEVA General Black Guy D32312 is here.
 ~
-ArmyDEVA General Black Guy appears the type that would would lead the best soldiers ever.
+ArmyDEVA General Black Guy appears the type that would lead the best soldiers.
 ~
 194844 0 0 0 10360 0 0 0 200 E
 25 12 -5 5d5+250 4d4+4
@@ -164,9 +164,9 @@ ArmyDEVA General Black Guy appears the type that would would lead the best soldi
 8 8 1
 E
 #32413
-deva army armydeva soldier military patrol devaforce ad32413~
-AD32413 ArmyDEVA Patrol~
-AD32413 ArmyDEVA Patrol is here.
+deva army armydeva soldier military patrol devaforce d32413~
+ArmyDEVA Patrol~
+ArmyDEVA Patrol AD32413 is here.
 ~
 He appears very concerned about invaders as he drearily walks his rounds.
 ~
@@ -176,9 +176,9 @@ He appears very concerned about invaders as he drearily walks his rounds.
 8 8 1
 E
 #32414
-deva army armydeva soldier military scout devaforce ad32414~
-AD32414 ArmyDEVA Scout~
-AD32414 ArmyDEVA Scout is here.
+deva army armydeva soldier military scout devaforce 3d32414~
+ArmyDEVA Scout~
+ArmyDEVA Scout D32414 is here.
 ~
 He moves with a sinuous grace that speaks well of his abilities in the forest.
 ~
@@ -188,34 +188,34 @@ He moves with a sinuous grace that speaks well of his abilities in the forest.
 8 8 1
 E
 #32415
-deva army armydeva medic military surgeon devaforce ad32415~
-AD32415 ArmyDEVA Surgeon~
-AD32415 ArmyDEVA Surgeon is here.
+deva army armydeva medic military devaforce d32415~
+ArmyDEVA Medic~
+ArmyDEVA Medic D32415 is here.
 ~
-AD32415 ArmyDEVA Surgeon is here to protect the Realm.
+ArmyDEVA MEDIC D32415 is here to help where needed.
 ~
-260378 0 0 0 0 0 0 0 600 E
+260378 0 0 0 0 0 0 0 500 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1
 BareHandAttack: 1
 E
 #32416
-deva army armydeva medic military devaforce ad32416~
-AD32416 ArmyDEVA Medic~
-AD32416 ArmyDEVA Medic is here.
+deva army armydeva medic military devaforce d32416~
+ArmyDEVA Medic~
+ArmyDEVA Medic D32416 is here.
 ~
-He gives you a look and sees that you don't appear hurt.  He then pointedly ignores you and continues on.
+ArmyDEVA Medic D32416 is here to help where needed.
 ~
-72 0 0 0 0 0 0 0 100 E
+72 0 0 0 0 0 0 0 500 E
 14 16 1 2d2+140 2d2+2
 140 19600
-8 8 1
+8 8 2
 E
 #32417
-deva army armydeva soldier military sniper  devaforce ad32417~
-AD32417 ArmyDEVA Sniper~
-AD32417 ArmyDEVA Sniper is here.
+deva army armydeva soldier military sniper devaforce d32417~
+ArmyDEVA Sniper~
+ArmyDEVA Sniper AD32417 is here.
 ~
 He looks a bit startled at your intrusion, but quickly recovers seeing that you are not the enemy and goes back to watching out the peepholes.
 ~
@@ -225,9 +225,9 @@ He looks a bit startled at your intrusion, but quickly recovers seeing that you 
 8 8 1
 E
 #32418
-deva army armydeva soldier military devaforce ad32418~
-AD32418 ArmyDEVA Soldier~
-AD32418 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce 32418~
+ArmyDEVA Soldier~
+ArmyDEVA Soldier D32418 is here.
 ~
 He gives you a curt nod and then continues on his way.
 ~
@@ -237,9 +237,9 @@ He gives you a curt nod and then continues on his way.
 8 8 1
 E
 #32419
-deva army armydeva soldier military cavalry devaforce ad32419~
-AD32419 ArmyDEVA Cavalry~
-AD32419 ArmyDEVA Cavalry is here.
+deva army armydeva soldier military cavalry devaforce d32419~
+ArmyDEVA Cavalry~
+ArmyDEVA Cavalry D32419 is here.
 ~
 He has that odd gait that suggests that more of his time is spent in the saddle than on his feet.
 ~
@@ -249,8 +249,8 @@ He has that odd gait that suggests that more of his time is spent in the saddle 
 8 8 1
 E
 #32420
-soldier~
-the water boy~
+deva army armydeva soldier military waterboy devaforce d32419~
+ArmyDEVA WaterBoy~
 A young soldier is here filling his water pails to carry them up to the mess tent.
 ~
 He hums under his breath as he works, feeling that his position in the Army's ranks is very fair.
@@ -261,9 +261,9 @@ He hums under his breath as he works, feeling that his position in the Army's ra
 8 8 1
 E
 #32421
-deva army armydeva soldier military devaforce ad32421~
-AD32421 ArmyDEVA Soldier~
-AD32421 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce d32421~
+ArmyDEVA Soldier~
+ArmyDEVA Soldier D32421 is here.
 ~
 He clutches to the sides of the seat, wondering just what sort of person would intrude on one in such a place!
 ~
@@ -271,17 +271,5 @@ He clutches to the sides of the seat, wondering just what sort of person would i
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 1
-E
-#32440
-mob unfinished~
-the unfinished mob~
-An unfinished mob stands here.
-~
-It looks unfinished.
-~
-10 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 0
 E
 $
