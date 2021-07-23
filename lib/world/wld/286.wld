@@ -488,7 +488,7 @@ Stairway~
 overhead.  You almost slip a couple times on the stairway.  The stench here is
 overwhelming.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D4
 It is too dark to see.
 ~
@@ -500,6 +500,7 @@ It is too dark to see.
 ~
 0 -1 28631
 S
+T 3106
 #28622
 Agency: Hell(O) Office~
    This is a very old and dusty room.  It looks empty except for a few shards
@@ -524,7 +525,7 @@ S
 T 3103
 #28623
 Room of Lost Souls~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -548,7 +549,7 @@ dispenser~
 S
 #28624
 Room of Lost Souls~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -572,7 +573,7 @@ dispenser~
 S
 #28625
 Pit of Fire~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -592,7 +593,7 @@ It is too dark to see.
 S
 #28626
 Blackened Hallway~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -612,7 +613,7 @@ It is too dark to see.
 S
 #28627
 Blackened Hallway~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 It is too dark to see.
@@ -643,7 +644,7 @@ S
 T 3106
 #28629
 Living Walls~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -685,7 +686,7 @@ it was a stairway.  It seems to be just a painting on the wall.  This is a
 roughly carved room with evil runes carved in to the stone floor.  There is a
 hallway to the east.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 It is too dark to see.
 ~
@@ -704,7 +705,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hall continues to the south and the west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D2
 It is too dark to see.
 ~
@@ -717,16 +718,16 @@ It is too dark to see.
 0 -1 28631
 S
 #28633
-Cell~
+Agency: Interview Room 28633~
    The cell is very damp and very musty.  The walls are covered with moisture
 and dirt.  The smell of urine is very potent here.  The steel bars to the cell
 are to the south.
 ~
-286 9 0 0 0 0
+286 760 0 0 0 0
 D2
-You see bars.
+You see a door.
 ~
-bars~
+door~
 1 -1 28643
 S
 #28634
@@ -736,7 +737,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway continues to the east and the south.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D1
 It is too dark to see.
 ~
@@ -755,16 +756,16 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  To the south you see the steel bars of a cell.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D1
 It is too dark to see.
 ~
 ~
 0 -1 28636
 D2
-You see the steel bars of a cell.
+You see the door to a holding cell.
 ~
-bars~
+door~
 1 -1 28645
 D3
 It is too dark to see.
@@ -779,7 +780,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the south and the west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D2
 It is too dark to see.
 ~
@@ -792,16 +793,15 @@ It is too dark to see.
 0 -1 28635
 S
 #28637
-Cell~
+Agency: Holding Cell 28637~
    The cell is very damp and very musty.  The walls are covered with moisture
 and dirt.  The smell of urine is very potent here.  The steel bars to the cell
 are to the south.
 ~
-286 9 0 0 0 0
+286 760 0 0 0 0
 D2
-You see bars.
 ~
-bars~
+door~
 1 -1 28647
 S
 #28638
@@ -811,7 +811,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the south and the east.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D1
 It is too dark to see.
 ~
@@ -830,19 +830,16 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D1
-You see the steel bars to a cell.
 ~
-bars~
+door~
 1 -1 28640
 D2
-You see the steel bars to a cell.
 ~
-bars~
+door~
 1 -1 28649
 D3
-It is too dark to see.
 ~
 ~
 0 -1 28638
@@ -852,6 +849,7 @@ You see a dark stairway down....
 ~
 0 -1 28650
 S
+T 3106
 #28640
 Cell~
    The cell is very damp and very musty.  The walls are covered with moisture
@@ -885,7 +883,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the north and east.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D0
 Its too dark to see.
 ~
@@ -905,11 +903,11 @@ hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the east and west.  The bars to a cell are to
 the north.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D0
-You see bars to a cell.
+You see a door to the interview room.
 ~
-bars~
+door~
 1 -1 28633
 D1
 Its too dark to see.
@@ -929,7 +927,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the north and west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D0
 Its too dark to see.
 ~
@@ -942,16 +940,16 @@ Its too dark to see.
 0 -1 28643
 S
 #28645
-Cell~
+Agency: Holding Cell 28645~
    The cell is very damp and very musty.  The walls are covered with moisture
 and dirt.  The smell of urine is very potent here.  The steel bars to the cell
 are to the north.
 ~
-286 9 0 0 0 0
+286 760 0 0 0 0
 D0
-You see bars.
+You see a door.
 ~
-bars~
+door~
 1 -1 28635
 S
 #28646
@@ -961,7 +959,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the north and east.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D0
 Its too dark to see.
 ~
@@ -981,11 +979,10 @@ hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the east and west.  You see bars to a cell to
 the north.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D0
-You see bars to a cell.
 ~
-bars~
+door~
 1 -1 28637
 D1
 Its too dark to see.
@@ -998,6 +995,7 @@ Its too dark to see.
 ~
 0 -1 28646
 S
+T 3106
 #28648
 Stone Hall~
    This is a roughly carved hallway.  The air here is damp and musty.  You hear
@@ -1005,7 +1003,7 @@ the sound of something dripping in the distance.  Your footsteps echo down the
 hall as you walk.  There is a strange and deathly silence that fills these
 halls...  The hallway contines to the north and west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D0
 Its too dark to see.
 ~
