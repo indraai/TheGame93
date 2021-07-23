@@ -524,10 +524,6 @@ S
 T 3103
 #28623
 Room of Lost Souls~
-   This looks like a waiting room of sorts.  Dust and cobwebs are everywhere.
-Wooden benches line the walls.  A digital number sign is posted on the wall.
-It currently reads, 'Now Serving Number 1'.  A ticket dispenser is bolted to
-the wall.
 ~
 286 152 0 0 0 0
 D0
@@ -552,10 +548,6 @@ dispenser~
 S
 #28624
 Room of Lost Souls~
-   This looks like a waiting room of sorts.  Dust and cobwebs are everywhere.
-Wooden benches line the walls.  A digital number sign is posted on the wall.
-It currently reads, 'Now Serving Number 1'.  A ticket dispenser is bolted to
-the wall.
 ~
 286 152 0 0 0 0
 D0
@@ -580,10 +572,6 @@ dispenser~
 S
 #28625
 Pit of Fire~
-   You enter a plain stone room with a large fire pit in the center of it.  As
-you look closer at the pit you realize that hundreds of people are being burned
-inside it.  They scream out to you.  The noise is deafening.  Several minor imps
-and workers push more people into the pit, whistling while they work.
 ~
 286 152 0 0 0 0
 D0
@@ -604,8 +592,6 @@ It is too dark to see.
 S
 #28626
 Blackened Hallway~
-   This dark hallway looks as if it was made by a lavaworm...  All the surfaces
-in it are melted and burnt.  The smell of brimstone and sulfur fills the air.
 ~
 286 152 0 0 0 0
 D0
@@ -626,8 +612,6 @@ It is too dark to see.
 S
 #28627
 Blackened Hallway~
-   This dark hallway looks as if it was made by a lavaworm...  All the surfaces
-in it are melted and burnt.  The smell of brimstone and sulfur fills the air.
 ~
 286 9 0 0 0 0
 D1
@@ -659,9 +643,6 @@ S
 T 3101
 #28629
 Living Walls~
-   The walls here actually consist of graying and sinewy flesh - faces, hands,
-broken bones, feet and toes jutting from the surface.  You hear low moans of
-horror, pain and sorrow issuing from the walls.
 ~
 286 9 0 0 0 0
 D0

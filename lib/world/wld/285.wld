@@ -24,37 +24,16 @@ stairway~
 0 -1 28509
 E
 credits info~
-   Descent to Hell Zone.
-Originally written by Strahd
-Zone 285 is linked to the following zones:
-286 Descent to Hell II             at 28500 (north) ---> 28690
-286 Descent to Hell II             at 28500 (west ) ---> 28699
-286 Descent to Hell II             at 28502 (north) ---> 28692
-286 Descent to Hell II             at 28506 (north) ---> 28696
-286 Descent to Hell II             at 28508 (north) ---> 28698
-286 Descent to Hell II             at 28541 (east ) ---> 28673
-286 Descent to Hell II             at 28541 (south) ---> 28682
-286 Descent to Hell II             at 28541 (west ) ---> 28672
+adv:world:28500/credits
 ~
 E
 sign~
-****ATTENTION***
-The Abyss is CLOSED for construction.
-
-We will open for your painful pleasures
-soon....
-
--Strahd-
+adv:world:world/28500/sign
 ~
 S
 T 3106
 #28501
 Halls of Judgement~
-   You are standing in the Halls of Judgement.  There are many alcoves which
-contain different methods of torture, each more grotesque than the one before
-it.  On the wall a plaque reads, 'If you are here...You are Guilty...You
-have been judged...sound fair?  Too bad...'  The hall continues to the east.
-The Courtroom is to the south.
 ~
 285 9 0 0 0 0
 D1
@@ -71,10 +50,6 @@ S
 T 3102
 #28502
 Halls of Judgement~
-   You are standing in the Halls of Judgement.  There are many alcoves which
-contain different methods of torture, each more grotesque than the one before
-it.  The hall continues to the east and west.  The hall of records is to the
-north.
 ~
 285 8 0 0 0 0
 D0
