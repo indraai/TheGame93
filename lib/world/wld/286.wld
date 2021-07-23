@@ -102,7 +102,7 @@ D3
 You see the Gates of Hell.
 ~
 gates~
-1 -1 28605
+0 -1 28605
 E
 gates~
    These black iron gates are covered with grotesque faces and creatures in
@@ -126,7 +126,7 @@ D1
 The Gates of Hell.
 ~
 gates~
-1 -1 28604
+0 -1 28604
 D2
 It's too smoky to see.
 ~
@@ -454,8 +454,8 @@ It is too dark to see.
 S
 #28619
 Room full of Body Parts~
-~
-286 9 0 0 0 0
+undefined~
+286 152 0 0 0 0
 D1
 It is too dark to see.
 ~
@@ -469,8 +469,8 @@ It is too dark to see.
 S
 #28620
 Fountain~
-~
-286 9 0 0 0 0
+undefined~
+286 152 0 0 0 0
 D2
 It is too dark to see.
 ~
@@ -627,8 +627,8 @@ It is too dark to see.
 S
 #28628
 Room~
-~
-286 9 0 0 0 0
+undefined~
+286 152 0 0 0 0
 D1
 It is too dark to see.
 ~
@@ -640,11 +640,11 @@ It is too dark to see.
 ~
 0 -1 28627
 S
-T 3101
+T 3106
 #28629
 Living Walls~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -664,7 +664,7 @@ S
 T 3106
 #28630
 Skeleton Factory~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
