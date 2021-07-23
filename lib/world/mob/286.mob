@@ -124,7 +124,7 @@ torture.  It screams out at you in pain and terror.
 E
 #28611
 bored quinn michaels~
-The utterly bored Quinn Michaels~
+the utterly bored Quinn Michaels~
 Quinn Michaels is here absolutely bored with this creativity.
 ~
 This poor soul Quinn Michaels has been left bored out of his mind with the lack of creativity from SirirsysPRIME.
@@ -266,18 +266,19 @@ ghasts.
 8 8 0
 E
 #28622
-prisoner raiden~
-the prisoner Raiden~
+prisoner raiden investigation~
+Raiden, The Prisoner~
 The prisoner of hell, Raiden sits here for eternity.
 ~
    This is a sad individual.  He smells strongly of the rotten food that has
 been thrown at him.  He sits here chained to the wall; banished to hell forever
 by the Deva.
 ~
-22876 0 0 0 0 0 0 0 390 E
+22876 0 0 0 24696 0 0 0 390 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
+BareHandAttack: 9
 E
 #28623
 prisoner hell~
