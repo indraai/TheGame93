@@ -97,121 +97,88 @@ S
 T 3106
 #28606
 Hall of the Damned~
-   This hallway is a monument to the millions of damned souls in hell.  The
-walls are made up of various body parts and other unidentifiable things.  Many
-of the faces that make up the wall scream out to you for help.  Their arms
-desperately grasp at your clothing as you pass.
 ~
 286 152 0 0 0 0
 D0
-It's too smoky to see.
 ~
 ~
 0 -1 28615
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28605
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28625
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28607
 S
 #28607
 Hall of the Damned~
-   This hallway is a monument to the millions of damned souls in hell.  The
-walls are made up of various body parts and other unidentifiable things.  Many
-of the faces that make up the wall scream out to you for help.  Their arms
-desperately grasp at your clothing as you pass.
 ~
 286 152 0 0 0 0
 D0
-It's too smoky to see.
 ~
 ~
 0 -1 28614
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28606
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28624
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28608
 S
 #28608
 Hall of the Damned~
-   This hallway is a monument to the millions of damned souls in hell.  The
-walls are made up of various body parts and other unidentifiable things.  Many
-of the faces that make up the wall scream out to you for help.  Their arms
-desperately grasp at your clothing as you pass.
 ~
 286 152 0 0 0 0
 D0
-It's too smoky to see.
 ~
 ~
 0 -1 28613
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28607
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28623
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28609
 S
 #28609
 Hall of the Damned~
-   This hallway is a monument to the millions of damned souls in hell.  The
-walls are made up of various body parts and other unidentifiable things.  Many
-of the faces that make up the wall scream out to you for help.  Their arms
-desperately grasp at your clothing as you pass.
 ~
 286 152 0 0 0 0
 D0
-It's too smoky to see.
 ~
 ~
 0 -1 28612
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28608
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28622
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28610
 D5
-You see a dark stairway leading down.
 ~
 stairs~
 0 -1 28621
@@ -219,37 +186,26 @@ S
 T 3106
 #28610
 Hall of the Damned~
-   This hallway is a monument to the millions of damned souls in hell.  The
-walls are made up of various body parts and other unidentifiable things.  Many
-of the faces that make up the wall scream out to you for help.  Their arms
-desperately grasp at your clothing as you pass.
 ~
 286 152 0 0 0 0
 D0
-It's too smoky to see.
 ~
 ~
 0 -1 28611
 D1
-Its too smoky to see.
 ~
 ~
 0 -1 28609
 S
 #28611
 Mural of the Dead~
-   You stand before a large mural.  The mural depicts mountains of dead bodies
-piled up to the sky.  The mural covers the whole north wall from floor to
-ceiling.  You can almost smell the stench of decaying flesh.
 ~
 286 152 0 0 0 0
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28612
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28610
