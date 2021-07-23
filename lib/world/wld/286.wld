@@ -1,6 +1,6 @@
 #28600
 HELL(0) Description Room~
-~
+Empty room.~
 286 0 0 0 0 0
 D5
 ~
@@ -9,7 +9,7 @@ D5
 S
 #28601
 Stone Archway~
-~
+Empty room.~
 286 9 0 0 0 0
 D3
 It's too dark to see.
@@ -23,7 +23,7 @@ adv:world:28601/plaque
 S
 #28602
 Ancient Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 ~
@@ -40,7 +40,7 @@ D5
 S
 #28603
 Dark Stairway~
-~
+Empty room.~
 286 9 0 0 0 0
 D3
 ~
@@ -54,7 +54,7 @@ S
 T 3106
 #28604
 Landing~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 ~
@@ -71,7 +71,7 @@ adv:world:28604/gates
 S
 #28605
 Gateway to Hell(O)~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -97,7 +97,7 @@ S
 T 3106
 #28606
 Hall of the Damned~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -118,7 +118,7 @@ D3
 S
 #28607
 Hall of the Damned~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -139,7 +139,7 @@ D3
 S
 #28608
 Hall of the Damned~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -160,7 +160,7 @@ D3
 S
 #28609
 Hall of the Damned~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -186,7 +186,7 @@ S
 T 3106
 #28610
 Hall of the Damned~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -199,7 +199,7 @@ D1
 S
 #28611
 Mural of the Dead~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 ~
@@ -212,7 +212,7 @@ D2
 S
 #28612
 Living Walls~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 ~
@@ -229,7 +229,7 @@ D3
 S
 #28613
 Trapped souls~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 ~
@@ -246,7 +246,7 @@ D3
 S
 #28614
 Tortured Beings~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 ~
@@ -263,7 +263,7 @@ D3
 S
 #28615
 Gluttony~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 ~
@@ -280,7 +280,7 @@ D3
 S
 #28616
 Greed~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 ~
@@ -297,7 +297,7 @@ D3
 S
 #28617
 The Love Shack~
-~
+Empty room.~
 286 764 0 0 0 0
 D3
 ~
@@ -307,7 +307,7 @@ S
 T 3103
 #28618
 Ancient Shrine~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 ~
@@ -316,7 +316,7 @@ D1
 S
 #28619
 Room full of Body Parts~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 ~
@@ -329,7 +329,7 @@ D2
 S
 #28620
 Fountain~
-~
+undefined~
 286 152 0 0 0 0
 D2
 ~
@@ -664,22 +664,21 @@ door~
 S
 #28638
 Stone Hall~
-~
+undefined~
 286 408 0 0 0 0
 D1
 It is too dark to see.
 ~
 ~
 0 -1 28639
-D3
-It is too dark to see.
+D2
 ~
 ~
-0 -1 28648
+0 0 28648
 S
 #28639
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D1
 ~
@@ -701,18 +700,23 @@ You see a dark stairway down....
 S
 T 3106
 #28640
-Cell~
+Care Center 28640~
    The cell is very damp and very musty.  The walls are covered with moisture
 and dirt.  The smell of urine is very potent here.  The steel bars to the cell
 are to the west.
 ~
-286 9 0 0 0 0
+286 760 0 0 0 0
+D0
+~
+~
+0 0 3084
 D3
 You see bars.
 ~
 bars~
 1 -1 28639
 S
+T 3100
 #28641
 Hidden Room~
    This is a long forgotten room.  Ancient torture equipment stands around
@@ -791,7 +795,7 @@ Its too dark to see.
 S
 #28645
 Agency: Holding Cell 28645~
-~
+Empty room.~
 286 760 0 0 0 0
 D0
 You see a door.
@@ -820,7 +824,7 @@ Its too dark to see.
 S
 #28647
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D0
 ~
@@ -840,7 +844,7 @@ S
 T 3106
 #28648
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D0
 Its too dark to see.
@@ -873,7 +877,11 @@ The stone walls are hot to the touch and your sweat sizzles as it hits the
 ground.  Cool air flows out from a crack in the wall to the east.  The smell of
 brimstone and smoke is all around you.  The stairs continue down.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
+D1
+~
+~
+0 0 28651
 D4
 It is too dark to see.
 ~
