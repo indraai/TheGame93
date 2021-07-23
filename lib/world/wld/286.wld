@@ -212,118 +212,85 @@ D2
 S
 #28612
 Living Walls~
-   The walls here actually consist of graying and sinewy flesh - faces, hands,
-broken bones, feet and toes jutting from the surface.  You hear low moans of
-horror, pain and sorrow issuing from the walls.
 ~
 286 152 0 0 0 0
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28613
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28609
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28611
 S
 #28613
 Trapped souls~
-   There are many souls trapped behind the walls of this room, almost as though
-they were trapped beneath the surface of a frozen lake.  Even the floor and
-ceiling show the screaming faces behind them.
 ~
 286 9 0 0 0 0
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28614
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28608
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28612
 S
 #28614
 Tortured Beings~
-   This room is filled with instruments of torture.  Beings of all shapes and
-sizes are being brought to the thresholds of pain and beyond.  Some are being
-sliced into thousands of pieces.  Others are being stretched as though they were
-made of rubber.  All are caught in an unending play of agony.
 ~
 286 9 0 0 0 0
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28615
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28607
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28613
 S
 #28615
 Gluttony~
-   Before you is a room filled with all sorts of food.  The smells of pastries
-and hamburger assault your senses.  All sorts of food lie everywhere you look.
-Cookies, twinkies, steak, prime rib, almost anything you can think of, call out
-to you.  You suddenly feel VERY hungry.
 ~
 286 152 0 0 0 0
 D1
-It's too smoky to see.
 ~
 ~
 0 -1 28616
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28606
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28614
 S
 #28616
 Greed~
-   What luck!  A room full of treasure.  Gold, diamonds, riches beyond
-imagination!  Wait!  You suddenly feel as if it is all slowly disappearing.
-Someone is taking your treasure.  They have no right!  It is yours!  You found
-it first.  Let them go get their own treasures!  You see a door to the east.
 ~
 286 152 0 0 0 0
 D1
-You see a bedroom door.
 ~
 door~
 1 -1 28617
 D2
-It's too smoky to see.
 ~
 ~
 0 -1 28605
 D3
-It's too smoky to see.
 ~
 ~
 0 -1 28615
@@ -333,7 +300,6 @@ The Love Shack~
 ~
 286 764 0 0 0 0
 D3
-You see a bedroom door.
 ~
 door~
 1 -1 28616
@@ -341,46 +307,35 @@ S
 T 3103
 #28618
 Ancient Shrine~
-   This is an ancient, abandoned shrine of some unknown deva.  It has been
-vandalized and torn apart.  What used to be the shrine has been reduced to a
-large pile of stones and other debris.  Various runes and demonic faces have
-been spray-painted on the walls and floor.  Nailed to the ceiling are an
-assortment of skeletons.  All seem to have been dead for a very long time.  All
-surfaces of the room are covered with dust.
 ~
 286 9 0 0 0 0
 D1
-It is too dark to see.
 ~
 ~
 0 -1 28602
 S
 #28619
 Room full of Body Parts~
-undefined~
+~
 286 152 0 0 0 0
 D1
-It is too dark to see.
 ~
 ~
 0 -1 28620
 D2
-It is too dark to see.
 ~
 ~
 0 -1 28629
 S
 #28620
 Fountain~
-undefined~
+~
 286 152 0 0 0 0
 D2
-It is too dark to see.
 ~
 ~
 0 -1 28630
 D3
-It is too dark to see.
 ~
 ~
 0 -1 28619
