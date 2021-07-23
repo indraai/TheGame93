@@ -139,16 +139,17 @@ He looks strong enough to wrestle an ox - indeed he often does.
 8 8 1
 E
 #32411
-deva army armydeva soldier military devaforce ad32411~
-AD32411 ArmyDEVA Soldier~
-AD32411 ArmyDEVA Soldier is here.
+deva army armydeva military devaforce d32411~
+ArmyDEVA D32411~
+ArmyDEVA D32411 is here.
 ~
 His job is done for the day and he is quite glad of it!
 ~
 194844 0 0 0 10360 0 0 0 300 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 1
+8 8 0
+BareHandAttack: 6
 E
 #32412
 deva army armydeva soldier military general devaforce ad32412~
