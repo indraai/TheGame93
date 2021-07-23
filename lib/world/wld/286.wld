@@ -342,18 +342,13 @@ D3
 S
 #28621
 Stairway~
-   You are standing on a very slippery stairway.  Pieces of goo and ooze drip from the ceiling
-overhead.  You almost slip a couple times on the stairway.  The stench here is
-overwhelming.
 ~
 286 152 0 0 0 0
 D4
-It is too dark to see.
 ~
 ~
 0 -1 28609
 D5
-It is too dark to see.
 ~
 ~
 0 -1 28631
@@ -361,17 +356,13 @@ S
 T 3106
 #28622
 Agency: Hell(O) Office~
-   This is a very old and dusty room.  It looks empty except for a few shards
-of bone and flesh.
 ~
 286 184 0 0 0 0
 D0
-It is too dark to see.
 ~
 ~
 0 -1 28609
 D1
-It is too dark to see.
 ~
 ~
 0 -1 28623
@@ -383,75 +374,65 @@ S
 T 3103
 #28623
 Room of Lost Souls~
-Empty room.~
+~
 286 152 0 0 0 0
 D0
-It is too dark to see.
 ~
 ~
 0 -1 28608
 D1
-It is too dark to see.
 ~
 ~
 0 -1 28624
 D3
-It is too dark to see.
 ~
 ~
 0 -1 28622
 E
-dispenser~
-   This is one of those red ticket dispensers that never seem to work right.
+ticket~
+adv:world:28623/ticket
 ~
 S
 #28624
-Room of Lost Souls~
-Empty room.~
+Room of Lost Souls~~
 286 152 0 0 0 0
 D0
-It is too dark to see.
 ~
 ~
 0 -1 28607
 D1
-It is too dark to see.
 ~
 ~
 0 -1 28625
 D3
-It is too dark to see.
 ~
 ~
 0 -1 28623
 E
-dispenser~
-   This is one of those red ticket dispensers that never seem to work right.
+ticket~
+adv:world:28624/ticket
 ~
 S
 #28625
 Pit of Fire~
-Empty room.~
+~
 286 152 0 0 0 0
 D0
-It is too dark to see.
 ~
 ~
 0 -1 28606
 D1
-It is too dark to see.
 ~
 ~
 0 -1 28626
 D3
-It is too dark to see.
 ~
 ~
 0 -1 28624
 S
 #28626
 Blackened Hallway~
-Empty room.~
+~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -702,9 +683,6 @@ S
 T 3106
 #28640
 Cell~
-   The cell is very damp and very musty.  The walls are covered with moisture
-and dirt.  The smell of urine is very potent here.  The steel bars to the cell
-are to the west.
 ~
 286 9 0 0 0 0
 D3
@@ -715,13 +693,9 @@ bars~
 S
 #28641
 Hidden Room~
-   This is a long forgotten room.  Ancient torture equipment stands around
-collecting dust.  Most of this stuff was probably replaced with modern high tech
-torture devices and for sentimental reasons wasn't thrown away.
 ~
 286 9 0 0 0 0
 D2
-Its too dark to see.
 ~
 ~
 0 -1 28651
@@ -855,9 +829,6 @@ Its too dark to see.
 S
 #28649
 Cell~
-   The cell is very damp and very musty.  The walls are covered with moisture
-and dirt.  The smell of urine is very potent here.  The steel bars to the cell
-are to the north.
 ~
 286 9 0 0 0 0
 D0
@@ -887,10 +858,6 @@ It is too dark to see.
 S
 #28651
 Crack in Wall~
-   This is a rather large crack in the wall.  On closer inspection it appears
-to be a passageway that was closed off long ago.  It was probably reopened by
-an earthquake or something.  An ancient passageway continues to the north.
-Hot gusts of air come from the west.
 ~
 286 9 0 0 0 0
 D0

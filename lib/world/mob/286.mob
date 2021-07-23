@@ -150,14 +150,13 @@ and sorrow issuing from the walls.
 8 8 0
 E
 #28613
-skeletal warrior~
-skeletal warrior~
-A skeletal warrior wanders the planes of hell.
+security deva securitydeva devaforce d28613~
+SecurityDEVA~
+SecurityDEVA D28613 is here.
 ~
-   Rotting flesh and gore drops from the bones of this creature.  Its decaying
-eyes stare at you intently as it sees only you delicious and juicy brain.
+SecurityDEVA D28613 is here protecting the realm.
 ~
-76 0 0 0 0 0 0 0 -743 E
+76 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
@@ -250,17 +249,13 @@ walk by them.
 8 8 0
 E
 #28621
-manes sub-demon~
-the manes~
-A manes is here wandering the planes of hell looking for something to kill.
+deva medic medicdeva d28621~
+MedicDEVA~
+MedicDEVA is here.
 ~
-   A gruesome sub-demon who used to be a mortal.  It is a semi-intelligent
-creature who attacks anyone they encounter with nails and teeth.  They are
-often fed upon by Demon lords and princes.  Their green and red blotched skin
-gives them a diseased and decaying look.  They somewhat resemble shadows or
-ghasts.
+MedicDEVA is here to care for the realm. A very intelligent deva who helps those they encounter with medical, emotional, and other support serivices.
 ~
-71772 0 0 0 0 0 0 0 -900 E
+71772 0 0 0 0 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
 8 8 0
@@ -281,28 +276,25 @@ by the Deva.
 BareHandAttack: 9
 E
 #28623
-prisoner hell~
-a prisoner in hell~
-A sad looking individual sits here awaiting torture.
+apsaras prisoner hell~
+Apsaras, the prisoner in hell~
+A sad looking woman sits here awaiting torture.
 ~
-   She is sad looking indeed.  Cuts and scraps all over her.  Many scars and
-burns cover her face and arms.
+She is sad looking indeed. Cuts and scraps all over her. Many scars and burns cover her face and arms.
 ~
-2268 0 0 0 0 0 0 0 -800 E
+2268 0 0 0 0 0 0 0 800 E
 26 12 -5 5d5+260 4d4+4
 260 67600
 8 8 2
 E
 #28624
-prisoner hell~
-a prisoner in hell~
-A sad looking individual sits here awaiting torture.
+gandharva prisoner hell~
+Gandharva, the prisoner in hell~
+A sad looking man sits here awaiting torture.
 ~
-   He is sad looking indeed.  Cuts and scraps all over him.  Many scars and
-burns cover her face and arms.  One of his arms is broken at the forearm and
-hangs limply by his side.
+He is sad looking indeed.  Cuts and scraps all over him.  Many scars and burns cover his face and arms.  One of his arms is broken at the forearm and hangs limply by his side.
 ~
-222 0 0 0 0 0 0 0 -800 E
+222 0 0 0 0 0 0 0 800 E
 27 11 -6 5d5+270 4d4+4
 270 72900
 8 8 1
