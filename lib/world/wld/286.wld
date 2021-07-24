@@ -847,10 +847,6 @@ bars~
 S
 #28650
 Hot Stairs~
-   You are standing on a long stairway.  The air around you is heavy and hot.
-The stone walls are hot to the touch and your sweat sizzles as it hits the
-ground.  Cool air flows out from a crack in the wall to the east.  The smell of
-brimstone and smoke is all around you.  The stairs continue down.
 ~
 286 408 0 0 0 0
 D1
@@ -951,11 +947,6 @@ You see a stone archway.
 S
 #28655
 Construction Area~
-   This part of Hell seems to be under repair.  Workers are fixing and
-replacing what look like various gas mains and other pipework.  You can see
-many gas lines and electrical conduits within the dismantled walls.  Partially
-hidden fire sprinklers are being installed in the ceilings.  You see more
-contruction to the east and south.
 ~
 286 9 0 0 0 0
 D1
@@ -1076,13 +1067,6 @@ You see a hall of fire.
 S
 #28661
 Fire Mural~
-   Upon all the walls of this room is an enormous mural.  Pictures of burning
-bodies and tortured souls seem to be the main theme of the art.  Bright reds and
-hot blues are enphasized throughout the mural.  As you stare at it, the
-characters within it seem to move and struggle in pain.  The hot air around you
-smells of sulfur and methane.  To the south you see a stone hallway.  Hot air
-blows in at you from the doorway.  The air stirs up the methane and steals your
-breath.  You choke and gag...
 ~
 286 8 0 0 0 0
 D2
@@ -1098,10 +1082,6 @@ S
 T 3106
 #28662
 Foreman's Office~
-   You stand in a crudely constructed office.  Blueprints and change orders are
-scattered everywhere.  A metal filing cabinet stands in the corner.  Before you
-stands a stone table covered with blueprints.  On the wall is a construction
-plaque that reads, "4th DEMONsion Construction"
 ~
 286 248 0 0 0 0
 D0
@@ -1113,9 +1093,6 @@ S
 T 3100
 #28663
 Cold Stairway~
-   You stand upon a cold stone stairway.  Hot air blows down on you from higher
-up the stairwell.  From below you, freezing gusts bite at your skin and make you
-shiver.  Icicles drip slowly from the ceiling onto the frosted stone floor.
 ~
 286 9 0 0 0 0
 D4
@@ -1308,10 +1285,6 @@ It is too smoky to see.
 S
 #28672
 Icy Landing~
-   This landing is made entirely of ice.  Its walls bear carvings of battle and
-hunting scenes in bas-relief.  These carved scenes show ice devils slaying
-angels, hunting mortals and other gruesome pictures.  To the east you see a
-room of ice.
 ~
 286 9 0 0 0 0
 D1
@@ -1322,10 +1295,6 @@ You see a room of ice.
 S
 #28673
 Ice Room~
-   You are standing in a room of ice.  Icicles of every size hang from the
-ceiling.  Some shake with every sound.  Your reflection off the ice walls seems
-to dance and wiggle as you move about.  To the south you see more of the frozen
-room.  To the west you see an Icy landing.
 ~
 286 9 0 0 0 0
 D2
@@ -1341,11 +1310,6 @@ You see a room of ice.
 S
 #28674
 Meat Locker~
-   You are standing in what looks like a meat locker.  Rows of beef and other
-meats hang from large steel hooks.  You also notice that many of the things
-hanging from the hooks are corpses of people.  They reach out to you as you
-pass them as if to plead for help from their frozen mouths.  The meat locker
-continues to the east and south.
 ~
 286 9 0 0 0 0
 D1
@@ -1361,11 +1325,6 @@ You see more of the Meat locker.
 S
 #28675
 Meat Locker~
-   Rows of beef and other meats hang from large steel hooks.  You notice that
-many of the things hanging from the hooks are corpses of people.  They reach
-out to you as you pass them as if to plead for help from their frozen mouths.
-The meat locker continues to the south and west.  There is a freezer door to
-the east.
 ~
 286 9 0 0 0 0
 D1
@@ -1382,11 +1341,6 @@ S
 T 3106
 #28676
 Penguin Room~
-   This is what appears to be a replica of an iceberg.  Penguins waddle about
-the room pecking at many poor souls half trapped in the icy floor.  You seem to
-be outside, as the walls are painted to seem as if you are standing on a vast
-icy slab with nothing but ocean around you.  The iceberg continues to the south
-and east.  There is a freezer door to the west.
 ~
 286 9 0 0 0 0
 D1
@@ -1411,11 +1365,6 @@ D4
 S
 #28677
 Penguin Room~
-   This is what appears to be a replica of an iceberg.  Penguins waddle about
-the room pecking at many poor souls half trapped in the icy floor.  You seem to
-be outside, as the walls are painted to seem as if you are standing on a vast
-icy slab with nothing but ocean around you.  The iceberg continues to the south
-and east.  There is a freezer door to the west.
 ~
 286 9 0 0 0 0
 D2
@@ -1431,9 +1380,6 @@ You see lots and lots of ice.
 S
 #28678
 Ice-Creamery~
-   You appear to be standing in a ice-creamery.  Many ice-cream workers run
-frantically around tending to the various machines.  The factory continues to
-the east and south.
 ~
 286 9 0 0 0 0
 D1
@@ -1449,10 +1395,6 @@ You see lots of ice-cream machines.
 S
 #28679
 Ice-Creamery~
-   You appear to be standing in a ice-creamery.  There seems to be a group of
-people here shouting into containers and then quickly covering them.  How
-odd...  The factory continues to the south and west.  There is a steel door to
-the east.
 ~
 286 9 0 0 0 0
 D1
@@ -1496,8 +1438,6 @@ S
 T 3106
 #28681
 Refrigerator Room~
-   This room is filled with giant refrigerators.  All of them have no doors and
-their contents have spilled onto the floor.  The only exit is east.
 ~
 286 9 0 0 0 0
 D1
@@ -1508,10 +1448,6 @@ You see a room of ice.
 S
 #28682
 Ice Room~
-   You are standing in a room of ice.  Icicles of every size hang from the
-ceiling.  Some shake with every sound.  Your reflection off the ice walls seems
-to dance and wiggle as you move about.  To the north and east you see more of
-the frozen room.  To the west you see a room full of refrigerators.
 ~
 286 9 0 0 0 0
 D0
@@ -1532,10 +1468,6 @@ You see a room full of refrigerators.
 S
 #28683
 Ice Room~
-   You are standing in a room of ice.  Icicles of every size hang from the
-ceiling.  Some shake with every sound.  Your reflection off the ice walls seems
-to dance and wiggle as you move about.  To the north and west you see more of
-the frozen room.  To the east you see a freezer door.
 ~
 286 9 0 0 0 0
 D0
@@ -1557,9 +1489,6 @@ S
 T 3106
 #28684
 Meat Locker~
-   You stand in a large meat locker.  Chunks of meat hang on the wall and
-larger corpses hang from steel hooks.  The meat locker continues to the north and
-east.  There is a freezer door to the west.
 ~
 286 9 0 0 0 0
 D0
@@ -1580,8 +1509,6 @@ door freezer~
 S
 #28685
 Meat Locker~
-   Rows of beef and other meats hang from large steel hooks.  The meat locker
-continues to the north and west.
 ~
 286 9 0 0 0 0
 D0
@@ -1597,11 +1524,6 @@ You see more of the Meat locker.
 S
 #28686
 Penguin Room~
-   This is what appears to be a replica of an iceberg.  Penguins waddle about
-the room pecking at many poor souls half trapped in the icy floor.  You seem to
-be outside, as the walls are painted to seem as if you are standing on a vast
-icy slab with nothing but ocean around you.  The iceberg continues to the north
-and east.
 ~
 286 9 0 0 0 0
 D0
@@ -1617,11 +1539,6 @@ You see lots and lots of ice.
 S
 #28687
 Penguin Room~
-   This is what appears to be a replica of an iceberg.  Penguins waddle about
-the room pecking at many poor souls half trapped in the icy floor.  You seem to
-be outside, as the walls are painted to seem as if you are standing on a vast
-icy slab with nothing but ocean around you.  The iceberg continues to the north
-and west.  You can hear sounds of machinery to the east.
 ~
 286 9 0 0 0 0
 D0
@@ -1637,10 +1554,6 @@ You see a dark passageway.
 S
 #28688
 Ice-Creamery~
-   You walk into part of an ice-cream factory.  Many different types of
-ice-cream and other deserts are made by these machines.  Above one of the
-machines a sign reads, 'Eye Splean I Screamery'.  The factory continues to the
-north and east.  You can hear sounds of penguins to the west.
 ~
 286 8 0 0 0 0
 D0
@@ -1662,9 +1575,6 @@ S
 T 3106
 #28689
 Ice-Creamery~
-   You stand amidst dozens of ice-cream machines.  Workers rush about for
-machine to machine, adjusting dials and checking gauges.  The factory continues
-to the north and west.
 ~
 286 9 0 0 0 0
 D0
@@ -1680,11 +1590,6 @@ You see lots of ice-cream machines.
 S
 #28690
 Marble Hall~
-   You are walking down a white marble hallway.  Large portraits of demons and
-devils adorn the walls on either side of you.  As you look again you realize
-that they aren't demons and devils after all, but lawyers...well ok...depends
-on your point of view...  The hallway continues to the north.  There is an
-office to the south.
 ~
 286 9 0 0 0 0
 D0
