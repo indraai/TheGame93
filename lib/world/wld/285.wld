@@ -1,6 +1,6 @@
 #28500
 Administration of Hell~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see a marble hall.
@@ -23,18 +23,18 @@ You see a stairway down.
 stairway~
 0 -1 28509
 E
-credits info~
-adv:world:28500/credits
-~
-E
 sign~
 adv:world:world/28500/sign
+~
+E
+credits info~
+adv:world:28500/credits
 ~
 S
 T 3106
 #28501
 Halls of Judgement~
-~
+Empty room.~
 285 9 0 0 0 0
 D1
 You see the Halls of Judgement.
@@ -50,7 +50,7 @@ S
 T 3102
 #28502
 Halls of Judgement~
-~
+Empty room.~
 285 8 0 0 0 0
 D0
 You see the Hall of Records.
@@ -76,7 +76,7 @@ contain different methods of torture, each more grotesque than the one before
 it.  The hall continues to the east and west.  The Office of Complaints is to
 the south.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D1
 You see the Halls of Judgement.
 ~
@@ -93,7 +93,7 @@ You see the Halls of Judgement.
 ~
 0 -1 28502
 S
-T 3102
+T 3106
 #28504
 Halls of Judgement~
    You are standing in the Halls of Judgement.  There are many alcoves which
@@ -114,7 +114,7 @@ You see the Halls of Judgement.
 S
 #28505
 Halls of Judgement~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 ~
@@ -201,7 +201,7 @@ You see a blackened hall.
 S
 #28509
 Stairs to the Abyss~
-~
+Empty room.~
 285 152 0 0 0 0
 D4
 ~
@@ -263,7 +263,11 @@ you're out of luck.  But then again...if you are in hell...you must've run out
 of luck a while ago.  To the east is the Office of Complaints.  To the south
 you see a courtyard.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 You see the Office of Complaints.
 ~
@@ -275,6 +279,7 @@ You see a courtyard.
 ~
 0 -1 28522
 S
+T 3106
 #28513
 Office of Complaints~
    This is a relatively small office.  There is a large hole in the wall where a
@@ -283,7 +288,7 @@ counter you see a large paper shredder and a lot of shredded complaints.  A sign
 over the clerks desk reads, 'Hours: 12:00am - 12:01am'.  To the west is a
 lawyer's office.  To the north you see the Halls of Judgement.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see the Halls of Judgement.
 ~
@@ -381,7 +386,7 @@ mouth big mouth's~
 S
 #28518
 Stairs to the Abyss~
-~
+Empty room.~
 285 152 0 0 0 0
 D4
 ~
@@ -449,7 +454,7 @@ Courtyard~
 concrete slabs.  An old defunct fountain sputters with a gray-brown ooze.  A
 lawyer's office is to the north.  The courtyard continues to the east and south.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a lawyers office.
 ~
@@ -466,7 +471,7 @@ You see a more of the courtyard.
 ~
 0 -1 28532
 S
-T 3100
+T 3106
 #28523
 Courtyard~
    This courtyard is barren and neglected.  Small weeds grow between the
@@ -546,7 +551,7 @@ mouth big mouth's throat~
 S
 #28527
 Stairs to the Abyss~
-~
+Empty room.~
 285 152 0 0 0 0
 D4
 ~
@@ -648,7 +653,7 @@ Courtyard~
 concrete slabs.  An old defunct fountain sputters with a gray-brown ooze.  The
 courtyard continues to the north and east.  You see a kitchen to the west.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see more of the courtyard.
 ~
@@ -665,7 +670,7 @@ You see a kitchen.
 ~
 0 -1 28531
 S
-T 3103
+T 3106
 #28533
 Courtyard~
    This courtyard is barren and neglected.  Small weeds grow between the
@@ -722,7 +727,7 @@ You see a hall of the Mall from Hell.
 S
 #28536
 Stairs to the Abyss~
-~
+Empty room.~
 285 152 0 0 0 0
 D4
 ~
