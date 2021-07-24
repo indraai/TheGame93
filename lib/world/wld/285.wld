@@ -23,19 +23,19 @@ You see a stairway down.
 stairway~
 0 -1 28509
 E
-sign~
-adv:world:world/28500/sign
-~
-E
 credits info~
 adv:world:28500/credits
+~
+E
+sign~
+adv:world:world/28500/sign
 ~
 S
 T 3106
 #28501
 Halls of Judgement~
 Empty room.~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D1
 You see the Halls of Judgement.
 ~
@@ -51,7 +51,7 @@ T 3102
 #28502
 Halls of Judgement~
 Empty room.~
-285 8 0 0 0 0
+285 152 0 0 0 0
 D0
 You see the Hall of Records.
 ~
@@ -68,10 +68,10 @@ You see the Halls of Judgement.
 ~
 0 -1 28501
 S
-T 3100
+T 3106
 #28503
 Halls of Judgement~
-~
+Empty room.~
 285 152 0 0 0 0
 D1
 You see the Halls of Judgement.
@@ -92,8 +92,8 @@ S
 T 3106
 #28504
 Halls of Judgement~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D1
 You see the Halls of Judgement.
 ~
@@ -132,7 +132,7 @@ smoking.  Ashes and bits of burnt timber crunch under your feet as you walk
 down the hall.  A sign on the wall reads, 'No Non-smoking Please'.  There are
 exits in all directions.
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a blackened hall.
 ~
@@ -154,10 +154,11 @@ You see the Halls of Judgement.
 ~
 0 -1 28505
 S
+T 3106
 #28507
 Blackened Hall~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D1
 You see a blackened hall.
 ~
@@ -172,7 +173,7 @@ S
 #28508
 Blackened Hall~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a blackened hall.
 ~
@@ -202,7 +203,7 @@ T 3106
 #28510
 Maintenance Walkway~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a steel door.
 ~
@@ -238,7 +239,7 @@ You see a large wooden door.
 S
 #28512
 Lawyer's Office~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 ~
@@ -278,7 +279,7 @@ You see a lawyer's office.
 S
 #28514
 Pawn Shop~
-~
+Empty room.~
 285 9 0 0 0 0
 D1
 You see the Mall from Hell.
@@ -288,7 +289,7 @@ You see the Mall from Hell.
 S
 #28515
 Hallway of The Mall from Hell~
-~
+Empty room.~
 285 9 0 0 0 0
 D1
 You see the Mall from Hell.
@@ -367,7 +368,7 @@ S
 #28519
 Maintenance Walkway~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D1
 You see a maintenance walkway.
 ~
@@ -382,7 +383,7 @@ S
 #28520
 Maintenance Walkway~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a maintenance walkway.
 ~
@@ -410,7 +411,7 @@ You see the Courtroom of Hell.
 S
 #28522
 Courtyard~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see a lawyers office.
@@ -456,7 +457,7 @@ S
 T 3106
 #28524
 Stanley's Magical Steeds~
-~
+Empty room.~
 285 9 0 0 0 0
 D2
 You see a hallway of the Mall from Hell.
@@ -516,8 +517,8 @@ You see the eternal darkness of the Abyss.
 S
 #28528
 Reactor Control Room~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D1
 You see a maintenance room.
 ~
@@ -531,8 +532,8 @@ You see stairs down to the reactor floor.
 S
 #28529
 Maintenance Room~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D0
 You see a maintenance walkway.
 ~
@@ -554,11 +555,11 @@ You see the reactor control room.
 ~
 0 -1 28528
 S
-T 3102
+T 3106
 #28530
 Break Room~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D2
 You see the chief engineer's office.
 ~
@@ -572,7 +573,7 @@ You see the primary maintenance room.
 S
 #28531
 Hell's Kitchen~
-~
+Empty room.~
 285 9 0 0 0 0
 D1
 You see an abandoned courtyard.
@@ -670,7 +671,7 @@ S
 T 3106
 #28537
 Inside the Reactor Core~
-~
+Empty room.~
 285 9 0 0 0 0
 D1
 You see a maintenance hatch.
@@ -680,8 +681,8 @@ hatch maintenance reactor core~
 S
 #28538
 Reactor Room Floor~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D0
 You see the stairs to the control room.
 ~
@@ -696,8 +697,8 @@ S
 T 3103
 #28539
 Secondary Control Room~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D0
 You see the primary maintenance room.
 ~
@@ -706,8 +707,8 @@ You see the primary maintenance room.
 S
 #28540
 Office of the Chief Engineer~
-~
-285 9 0 0 0 0
+undefined~
+285 152 0 0 0 0
 D0
 You see the break room.
 ~
@@ -716,7 +717,7 @@ You see the break room.
 S
 #28541
 Ice Room~
-~
+Empty room.~
 285 9 0 0 0 0
 D1
 You see a room of ice.

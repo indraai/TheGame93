@@ -847,7 +847,7 @@ bars~
 S
 #28650
 Hot Stairs~
-~
+Empty room.~
 286 408 0 0 0 0
 D1
 ~
@@ -947,7 +947,7 @@ You see a stone archway.
 S
 #28655
 Construction Area~
-~
+Empty room.~
 286 408 0 0 0 0
 D1
 You see a construction area.
@@ -1066,7 +1066,7 @@ You see a hall of fire.
 S
 #28661
 Fire Mural~
-~
+Empty room.~
 286 8 0 0 0 0
 D2
 You see a stone hallway.
@@ -1081,7 +1081,7 @@ S
 T 3106
 #28662
 Foreman's Office~
-~
+Empty room.~
 286 248 0 0 0 0
 D0
 You see the door to the office.
@@ -1092,7 +1092,7 @@ S
 T 3100
 #28663
 Cold Stairway~
-~
+Empty room.~
 286 9 0 0 0 0
 D4
 It is too dark to see.
@@ -1284,7 +1284,7 @@ It is too smoky to see.
 S
 #28672
 Icy Landing~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see a room of ice.
@@ -1294,7 +1294,7 @@ You see a room of ice.
 S
 #28673
 Ice Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D2
 You see a room of ice.
@@ -1309,7 +1309,7 @@ You see a room of ice.
 S
 #28674
 Meat Locker~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see more of the Meat locker.
@@ -1324,7 +1324,7 @@ You see more of the Meat locker.
 S
 #28675
 Meat Locker~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see a freezer door.
@@ -1344,7 +1344,7 @@ S
 T 3106
 #28676
 Penguin Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see lots and lots of ice.
@@ -1368,7 +1368,7 @@ D4
 S
 #28677
 Penguin Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D2
 You see lots and lots of ice.
@@ -1383,7 +1383,7 @@ You see lots and lots of ice.
 S
 #28678
 Ice-Creamery~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see lots of ice-cream machines.
@@ -1398,7 +1398,7 @@ You see lots of ice-cream machines.
 S
 #28679
 Ice-Creamery~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see a steel door.
@@ -1441,7 +1441,7 @@ S
 T 3106
 #28681
 Refrigerator Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D1
 You see a room of ice.
@@ -1451,7 +1451,7 @@ You see a room of ice.
 S
 #28682
 Ice Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see a room of ice.
@@ -1471,7 +1471,7 @@ You see a room full of refrigerators.
 S
 #28683
 Ice Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see a room of ice.
@@ -1492,7 +1492,7 @@ S
 T 3106
 #28684
 Meat Locker~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see more of the Meat locker.
@@ -1512,7 +1512,7 @@ door freezer~
 S
 #28685
 Meat Locker~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see more of the Meat locker.
@@ -1527,7 +1527,7 @@ You see more of the Meat locker.
 S
 #28686
 Penguin Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see lots and lots of ice.
@@ -1542,7 +1542,7 @@ You see lots and lots of ice.
 S
 #28687
 Penguin Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see lots and lots of ice.
@@ -1557,7 +1557,7 @@ You see a dark passageway.
 S
 #28688
 Ice-Creamery~
-~
+Empty room.~
 286 8 0 0 0 0
 D0
 You see lots of ice-cream machines.
@@ -1578,7 +1578,7 @@ S
 T 3106
 #28689
 Ice-Creamery~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see lots of ice-cream machines.
@@ -1593,7 +1593,7 @@ You see lots of ice-cream machines.
 S
 #28690
 Marble Hall~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see a white marble hallway.
@@ -1609,7 +1609,7 @@ S
 #28691
 Records Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see rows and rows of records.
 ~
@@ -1619,7 +1619,7 @@ S
 #28692
 Records Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see rows and rows of records.
 ~
@@ -1639,7 +1639,7 @@ S
 #28693
 Records Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see rows and rows of records.
 ~
@@ -1654,7 +1654,7 @@ S
 #28694
 Records Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D3
 You see rows and rows of records.
 ~
@@ -1664,7 +1664,11 @@ S
 #28695
 Small Altar~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 You see a blackened hallway.
 ~
@@ -1682,7 +1686,7 @@ S
 #28696
 Blackened Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a stone door.
 ~
@@ -1699,11 +1703,11 @@ You see a prayer room.
 ~
 0 -1 28695
 S
-T 3101
+T 3106
 #28697
 Office of the High Priest~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D3
 You see a stone door.
 ~
@@ -1713,7 +1717,7 @@ S
 #28698
 Blackened Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a blackened hall.
 ~
@@ -1728,7 +1732,7 @@ S
 #28699
 Blackened Hall~
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a glass door.
 ~
