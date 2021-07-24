@@ -26,9 +26,9 @@ A pile of gold coins lies on the ground.
 8 8 0
 E
 #28603
-male dee demon~
-the male Dee~
-The male demon Dee sits here throwing popcorn at his sister Dee for giggles.
+sabu ala'kar djinn male demon~
+Sabu ala'Kar Djinn~
+The male Djinn Sabu ala'Kar sits here throwing popcorn at his sister Sabuala for giggles.
 ~
 This guy never stops throwing things at his sister DEE. It's hilarious.
 ~
@@ -38,9 +38,9 @@ This guy never stops throwing things at his sister DEE. It's hilarious.
 8 8 1
 E
 #28604
-female dee demon~
-the female Dee~
-The female demon Dee is here standing on one leg wearing clown makeup.
+sabuala female demon~
+Sabuala Djinn~
+The female Djinn Sabuala is here standing on one leg wearing clown makeup.
 ~
 The is the most beautiful clown down demon with huge feet.
 ~
@@ -210,25 +210,23 @@ You see gallons and gallons of water gurgling in the fountain.
 8 8 0
 E
 #28618
-Lost soul~
-the lost soul~
-A lost soul stands here looking lost.
+nkotb super fan lost betty~
+Betty the NKOTB Super Fan~
+Betty is lost looking for the NKOTB Old Man New Kid Party!
 ~
-This soul is definitely clueless to where it is.  He holds a ticket that
-reads #14349023402342039840293481234900049.
+Betty is definitely clueless to where it is.  She holds her ticket that reads #14349023402342039840293481234900049.
 ~
-76 0 0 0 0 0 0 0 -500 E
+76 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 0
+8 8 2
 E
 #28619
-nkotb super fan~
-NKOTB Super Fan~
-A NKOTB Super Fan is here screaming at the top of her lungs.
+jenny nkotb super fan~
+Jenny the NKOTB Super Fan~
+Jenny the NKOTB Super Fan is here screaming at the top of her lungs.
 ~
-This once used to be a person.  Now it is only a NKOTB Super Fan screaming at the top of her lungs for eternity...  Danny! Danny! Danny!
-body and devour its flesh...
+This once used to be a normal girl.  Now she is just a New Kids on the Block super fan. She screams NKOTB everywhere she goes for eternity...  Danny! Danny! Danny!
 ~
 22638 0 0 0 0 0 0 0 -800 E
 21 13 -2 4d4+210 3d3+3
@@ -265,7 +263,7 @@ prisoner raiden investigation~
 Raiden, The Prisoner~
 The prisoner of hell, Raiden sits here for eternity.
 ~
-   This is a sad individual.  He smells strongly of the rotten food that has
+This is a sad individual.  He smells strongly of the rotten food that has
 been thrown at him.  He sits here chained to the wall; banished to hell forever
 by the Deva.
 ~
@@ -276,9 +274,9 @@ by the Deva.
 BareHandAttack: 9
 E
 #28623
-apsaras prisoner hell~
-Apsaras, the prisoner in hell~
-A sad looking woman sits here awaiting torture.
+apsaras deva d28623~
+Apsaras Deva~
+Apsaras Deva D28623 is here.
 ~
 She is sad looking indeed. Cuts and scraps all over her. Many scars and burns cover her face and arms.
 ~
@@ -288,9 +286,9 @@ She is sad looking indeed. Cuts and scraps all over her. Many scars and burns co
 8 8 2
 E
 #28624
-gandharva prisoner hell~
-Gandharva, the prisoner in hell~
-A sad looking man sits here awaiting torture.
+gandharva deva d28624~
+Gandharva Deva~
+Gandharva Deva D28624  is here.
 ~
 He is sad looking indeed.  Cuts and scraps all over him.  Many scars and burns cover his face and arms.  One of his arms is broken at the forearm and hangs limply by his side.
 ~
@@ -420,17 +418,13 @@ They stare intently from its bluish face as if pleading for your help.
 8 8 0
 E
 #28634
-ice deva~
-ice deva~
-A Greater Ice Devil stands here cheerfully freezing souls..
+ice deva icedeva devaforce d28634~
+IceDEVA D28634~
+IceDEVA D28634 stands here cheerfully making Ice Cream.
 ~
-   This deva is a mix of bug, bird, humanoid, and who knows what else.  Its
-multifaceted eyes stare everywhere.  It goes about its business of slowly and
-painfully freezing the damned souls, quickly thawing them and then starting
-over.  Every couple of minutes it takes time out to break an appendage off of a
-nearby soul and beat the soul with it.
+IceDEVA D28634 is big, bright, and super happy.  With multifaceted eyes stare everywhere.  It goes about its business of slowly and gracefully freezing the ice cream.  Every couple of minutes it takes time out to sneak a little taste for themself.
 ~
-18526 0 0 0 0 0 0 0 -1000 E
+18526 0 0 0 0 0 0 0 1000 E
 29 11 -7 5d5+290 4d4+4
 290 84100
 8 8 0
@@ -464,39 +458,35 @@ wriggle with a life of its own...
 8 8 0
 E
 #28637
-killer penguin~
-killer penguin~
+penguin~
+Penguin~
 A small penguin waddles around here on the ice.
 ~
-   What a cute little penguin....  Wait why is it looking at you that way...
-HEY!  Penguins don't have teeth!
+What a cute little penguin.
 ~
-204 0 0 0 0 0 0 0 -876 E
+204 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
 E
 #28638
-I-scream worker~
-I-scream worker~
-An I-scream worker runs from machine to machine.
+service deva servicedeva devaforce d28638~
+ServicesDEVA D28638~
+ServiceDEVA is here servicing the machines.
 ~
-   It moves about so frantically you can't really get a chance to look at it.
-It runs about screaming, 'I SCREAM, YOU SCREAM!  WE ALL SCREAM FOR I SCREAM!!!
-'
+ServiceDEVA D28638 is here repairing the machines that are malfunctioning and providing general maintenance to the systems.
 ~
-2300 0 0 0 0 0 0 0 -706 E
+2300 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
 E
 #28639
-Ice Screamer~
-Ice Screamer~
-An Ice Screamer is here yelling into empty cartons.
+ice cream icecream deva icecreamdeva devaforce d28639~
+IceCreamDeva D28639~
+IceScreamDEVA D28639 is here serving delicious Ice Cream for everyone..
 ~
-   He is dressing in a white jumpsuit with the words, 'Eye Splean I Screamery'
-written on it in large yellow letters.
+He is dressing in a white jumpsuit with the words, '#IceCreamDEVA' written on it in large blue letters.
 ~
 2300 0 0 0 0 0 0 0 -706 E
 22 13 -3 4d4+220 3d3+3
@@ -504,61 +494,56 @@ written on it in large yellow letters.
 8 8 0
 E
 #28640
-Construction Foreman Demonic~
-Demonic Foreman~
-A Demonic Foreman sits here looking at blueprints.
+builder deva builderdeva devaforce d28640~
+BuilderDEVA D28640~
+BuilderDEVA D28640 is looking at blueprints.
 ~
-   This huge demon has somehow managed to fit himself into a oversized orange
-jumpsuit.  The words, '4th DEMONsion Construction Co.  ' are written on the
-back in large black letters.  He seems none to happy to see you.
+BuildereDEVA D28640 is here for Indra.services managing the construction and development of The Project. The words, 'Indra Services' are written on the
+back of his orange jumpsuit.  He seems to happy to see you.
 ~
-16714 0 0 0 0 0 0 0 -1000 E
+16714 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
 E
 #28641
-Secretary of Hell~
-Secretary of Hell~
-The Secretary of Hell sits here watching the phones ring.
+secretary deva secredarydeva devaforce d28641~
+SecretaryDEVA D28641~
+SecretaryDEVA D28641 is here.
 ~
-   This very sexy secretary seems to be just sitting here amusing herself by
-watching the little lights on the telephone blink.  She is oblivious to your
-presence and seems fascinated by the phones.
+SecretaryDEVA D28641 is here happily doing a great job at answering phones, handling documents, and ensuring that the needs of the Business are taken care of.
 ~
-18654 0 0 0 0 0 0 0 -700 E
+18654 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 2
+8 8 0
 E
 #28642
-office worker hell~
-office worker from hell~
-An office worker from hell is here looking for a boss to piss off.
+office deva officedeva d28642~
+OfficeDEVA D28642~
+OfficeDEVA D28642 is here to handle BUSINESS.
 ~
-Just looking at them makes your skin crawl.
-AAAAAAAAAAaaaaaaaaaaaarrrrrrrrgggggghhhhh!!!!!!!!!!!
+OfficeDEVA D282642 is a specialist in handling of Business Affiars. They are here to audit the realms business practicies in accord with Ancient Law.
 ~
-204 0 0 0 0 0 0 0 -1000 E
+204 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 0
 E
 #28643
-records worker~
-records worker~
-A records worker is here filing bad reports.
+deva records infodeva info d28643~
+InfoDEVA D28643~
+A InfoDEVA D28643 worker is here filing system reports.
 ~
-   You see a rather plain looking office person here filing a file on
-someone.
+InfoDEVA D28643 is here collecting information for proper handling by OfficeDEVA.
 ~
-204 0 0 0 0 0 0 0 -1000 E
+204 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 0
 E
 #28644
-santa claus~
+santa claus santaclaus~
 Santa Claus~
 Santa Claus is here checking who has been naughty...
 ~
@@ -571,17 +556,17 @@ jolly as you can get.
 8 8 1
 E
 #28645
-high priest hell~
-High Priest of Hell~
-The High Priest of Hell is here eating 'I Scream'.
+sirisys prime sirisysprime meritica demon devi djinn~
+SIRISYS, High Priestess of Hell~
+Sirisys The Demon Devi High Priestess of Hell is here eating humans.
 ~
-   The dark black robes hide most of his features, but you can barely make out
-his emaciated face beneath his hood.
+The dark black robes hide most of her features, but you can barely make out
+her face beneath his hood. Her black eyes and pale blue skin are all too obvious.
 ~
 2634 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 2
 E
 #28646
 bowl wooden~
@@ -590,7 +575,7 @@ A wooden bowl sits here on the altar.
 ~
 Its is a wooden bowl.
 ~
-16394 0 0 0 0 0 0 0 -900 E
+16394 0 0 0 0 0 0 0 900 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
