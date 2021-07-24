@@ -773,7 +773,7 @@ ChefDEVA D28662 is here making vegetarian specialties.
 ~
 ChefDEVA D28662 is a specialist in making healthy vegetarian meals of almost any type you could ask for. Just ask politely and maybe he'll cook it up for you... Vegetarian meals only of course.
 ~
-16604 0 0 0 0 0 0 0 0 E
+16606 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
@@ -803,7 +803,7 @@ TechDEVA D28665 is a specialist in the field of Nuclear Technologies. Here to ma
 8 8 0
 E
 #28665
-wandering deva deva force d28665~
+wandering deva devaforce d28665~
 WanderingDEVA D28665~
 WanderingDEVA D28665 is here whizzing about.
 ~

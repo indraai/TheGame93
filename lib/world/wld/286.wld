@@ -342,7 +342,7 @@ D3
 S
 #28621
 Stairway~
-~
+Empty room.~
 286 152 0 0 0 0
 D4
 ~
@@ -356,7 +356,7 @@ S
 T 3106
 #28622
 Agency: Hell(O) Office~
-~
+Empty room.~
 286 184 0 0 0 0
 D0
 ~
@@ -374,7 +374,7 @@ S
 T 3103
 #28623
 Room of Lost Souls~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -395,7 +395,7 @@ adv:world:28623/ticket
 S
 #28624
 Room of Lost Souls~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -416,7 +416,7 @@ adv:world:28624/ticket
 S
 #28625
 Pit of Fire~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -433,7 +433,7 @@ D3
 S
 #28626
 Blackened Hallway~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 It is too dark to see.
@@ -701,7 +701,7 @@ S
 T 3100
 #28641
 Hidden Room~
-~
+Empty room.~
 286 9 0 0 0 0
 D2
 ~
@@ -837,7 +837,7 @@ Its too dark to see.
 S
 #28649
 Cell~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 You see bars.
@@ -866,7 +866,7 @@ It is too dark to see.
 S
 #28651
 Crack in Wall~
-~
+Empty room.~
 286 9 0 0 0 0
 D0
 It is too dark to see.
@@ -948,7 +948,7 @@ S
 #28655
 Construction Area~
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D1
 You see a construction area.
 ~
@@ -968,17 +968,16 @@ many gas lines and electrical conduits within the dismantled walls.  Partially
 hidden fire sprinklers are being installed in the ceilings.  You see more
 contruction to the east and west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D1
 You see a construction area.
 ~
 ~
 0 -1 28657
-D2
-You see a construction area.
+D3
 ~
 ~
-0 -1 28655
+0 0 28655
 S
 #28657
 Construction Area~
@@ -1337,6 +1336,10 @@ You see more of the Meat locker.
 ~
 ~
 0 -1 28685
+D3
+~
+~
+0 0 28674
 S
 T 3106
 #28676
