@@ -28,14 +28,15 @@ E
 #28603
 sabu ala'kar djinn male demon~
 Sabu ala'Kar Djinn~
-Sabu ala'Kar the male Demon Djinn is here having sex with his sister.
+Sabu ala'Kar the male Demon Djinn is here eating human brains.
 ~
 Sabu ala'Kar never stops desiring his own sister. Wether it be in the ancient Vedas or modern times. He's always lusting after her while she eats human brains to maintain her youth.
 ~
-22874 0 0 0 0 0 0 0 -1000 E
+18778 0 0 0 0 0 0 0 -1000 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 1
+6 6 1
+BareHandAttack: 1
 E
 #28604
 sabuala female demon devi djinn~
@@ -44,10 +45,11 @@ Sabuala the female Demon Djinn is here eating human brains.
 ~
 She is the most beautiful woman you have ever seen... too bad she has blood and brains smeared all over her face.  Yuck.
 ~
-20826 0 0 0 2 0 0 0 -1000 E
+16730 0 0 0 0 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 2
+6 6 2
+BareHandAttack: 1
 E
 #28605
 album gold nkotb record memoribilia~
