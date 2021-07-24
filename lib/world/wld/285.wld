@@ -156,10 +156,6 @@ You see the Halls of Judgement.
 S
 #28507
 Blackened Hall~
-   This hall looks as if it was burned out recently.  The walls are charred and
-smoking.  Ashes and bits of burnt timber crunch under your feet as you walk
-down the hall.  A sign on the wall reads, 'No Non-smoking Please'.  The hallway
-continues to the east and west.
 ~
 285 9 0 0 0 0
 D1
@@ -175,10 +171,6 @@ You see a blackened hall.
 S
 #28508
 Blackened Hall~
-   This hall looks as if it was burned out recently.  The walls are charred and
-smoking.  Ashes and bits of burnt timber crunch under your feet as you walk
-down the hall.  A sign on the wall reads, 'No Non-smoking Please'.  The hallway
-continues to the north and west.
 ~
 285 9 0 0 0 0
 D0
@@ -209,9 +201,6 @@ S
 T 3106
 #28510
 Maintenance Walkway~
-   This is a maintence accessway.  You walk on a metal catwalk hundreds of feet
-above the floor.  The catwalk sways unsteadily as you walk on it.  The catwalk
-continues to the south.  To the north is a steel door.
 ~
 285 9 0 0 0 0
 D0
@@ -377,9 +366,6 @@ You see the eternal darkness of the Abyss.
 S
 #28519
 Maintenance Walkway~
-   This is a maintence accessway.  You walk on a metal catwalk hundreds of feet
-above the floor.  The catwalk sways unsteadily as you walk on it.  The catwalk
-continues to the east and south.
 ~
 285 9 0 0 0 0
 D1
@@ -395,9 +381,6 @@ You see a maintenance walkway.
 S
 #28520
 Maintenance Walkway~
-   This is a maintence accessway.  You walk on a metal catwalk hundreds of feet
-above the floor.  The catwalk sways unsteadily as you walk on it.  The catwalk
-continues to the north and west.
 ~
 285 9 0 0 0 0
 D0
