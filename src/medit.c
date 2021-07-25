@@ -435,9 +435,9 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\n# Mob %d\r"
   "\nselect[a:gender]:%s\r"
   "\nselect[b:keywords]:%s\r"
-  "\nselect[c:s-desc]: %s\r"
-  "\nselect[d:l-desc]:%s\r"
-  "\nselect[e:d-desc]:%s\r",
+  "\nselect[c:name]: %s\r"
+  "\nselect[d:describe]:%s\r"
+  "\nselect[e:look]:%s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
 	  GET_ALIAS(mob),
@@ -487,7 +487,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n## Stats\r"
     "\nselect[1:level]:%d\r"
-    "\nmenu:2:Set auto stats based on level\r"
+    "\nselect[2:auto]:Set stats...\r"
     "\n## Hit Points  (xdy+z):\r"
     "\nselect[3:hit]:%d\r"
     "\nselect[4:mana]:%d\r"
@@ -500,9 +500,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## Bare Hand (xdy+z):\r"
-    "\nselect[6:Dice]:%d\r"
-    "\nselect[7:Size]:%d\r"
-    "\nselect[8:Roll]:%d\r",
+    "\nselect[6:dice]:%d\r"
+    "\nselect[7:size]:%d\r"
+    "\nselect[8:roll]:%d\r",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
@@ -510,11 +510,11 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## General\r"
-    "\nselect[A:Armor Class]:%d\r\n"
-    "\nselect[B:Exp Points]:%d\r\n"
-    "\nselect[C:Gold]:%d\r\n"
-    "\nselect[D:Hitroll]:%d\r\n"
-    "\nselect[E:Alignment]:%d\r\n",
+    "\nselect[a:armor]:%d\r\n"
+    "\nselect[b:experience]:%d\r\n"
+    "\nselect[c:gold]:%d\r\n"
+    "\nselect[d:hitroll]:%d\r\n"
+    "\nselect[e:alignment]:%d\r\n",
     GET_AC(mob),
     GET_EXP(mob),
     GET_GOLD(mob),
@@ -621,7 +621,8 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "Enter keywords...");
+      write_to_output(d, "keywords:%s",
+        GET_ALIAS(mob));
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_S_DESC;
