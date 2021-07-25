@@ -634,7 +634,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'd':
       OLC_MODE(d) = MEDIT_L_DESC;
       write_to_output(d, "describe:%s",
-        GET_LDESC(OLC_(d))
+        GET_LDESC(OLC_MOB(d))
       );
       return;
     case 'e':
