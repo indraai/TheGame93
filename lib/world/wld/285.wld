@@ -23,12 +23,12 @@ You see a stairway down.
 stairway~
 0 -1 28509
 E
-credits info~
-adv:world:28500/credits
-~
-E
 sign~
 adv:world:world/28500/sign
+~
+E
+credits info~
+adv:world:28500/credits
 ~
 S
 T 3106
@@ -47,7 +47,7 @@ You see the Court of Hell.
 ~
 0 -1 28511
 S
-T 3102
+T 3106
 #28502
 Halls of Judgement~
 Empty room.~
@@ -157,7 +157,7 @@ S
 T 3106
 #28507
 Blackened Hall~
-~
+Empty room.~
 285 152 0 0 0 0
 D1
 You see a blackened hall.
@@ -172,7 +172,7 @@ You see a blackened hall.
 S
 #28508
 Blackened Hall~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see a blackened hall.
@@ -202,7 +202,7 @@ S
 T 3106
 #28510
 Maintenance Walkway~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see a steel door.
@@ -219,7 +219,7 @@ T 3106
 #28511
 Court Room~
 ~
-285 9 0 0 0 0
+285 184 0 0 0 0
 D0
 You see the Halls of Judgement.
 ~
@@ -232,7 +232,7 @@ You see a large wooden door.
 0 -1 28521
 S
 #28512
-Lawyer's Office~
+Legal Services~
 Empty room.~
 285 152 0 0 0 0
 D0
@@ -252,7 +252,12 @@ You see a courtyard.
 S
 T 3106
 #28513
-Office of Complaints~
+Support Center~
+   This is a relatively small office.  There is a large hole in the wall where a
+clerk usually sits and takes complaints about hell.  As you peek behind the
+counter you see a large paper shredder and a lot of shredded complaints.  A sign
+over the clerks desk reads, 'Hours: 12:00am - 12:01am'.  To the west is a
+lawyer's office.  To the north you see the Halls of Judgement.
 ~
 285 152 0 0 0 0
 D0
@@ -279,7 +284,7 @@ S
 #28515
 Hallway of The Mall from Hell~
 Empty room.~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D1
 You see the Mall from Hell.
 ~
@@ -299,7 +304,7 @@ S
 #28516
 Hallway of The Mall from Hell~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a blackened hall.
 ~
@@ -320,7 +325,11 @@ T 3106
 #28517
 The Office of Big Mouth~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
+D0
+~
+~
+0 0 -1
 D3
 You see the hallways of the Mall from Hell.
 ~
@@ -348,7 +357,7 @@ You see the eternal darkness of the Abyss.
 S
 #28519
 Maintenance Walkway~
-~
+Empty room.~
 285 152 0 0 0 0
 D1
 You see a maintenance walkway.
@@ -363,7 +372,7 @@ You see a maintenance walkway.
 S
 #28520
 Maintenance Walkway~
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see a maintenance walkway.
@@ -379,7 +388,7 @@ S
 #28521
 Judge's Chambers~
 ~
-285 8 0 0 0 0
+285 152 0 0 0 0
 D0
 You see the Courtroom of Hell.
 ~
@@ -414,7 +423,7 @@ concrete slabs.  An old defunct fountain sputters with a gray-brown ooze.  The
 courtyard continues to the west and south.  Stanley's Magical Steeds is to the
 east.
 ~
-285 8 0 0 0 0
+285 152 0 0 0 0
 D1
 You see Stanley's Magical Steeds store.
 ~
@@ -435,7 +444,7 @@ T 3106
 #28524
 Stanley's Magical Steeds~
 Empty room.~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D2
 You see a hallway of the Mall from Hell.
 ~
@@ -450,7 +459,7 @@ S
 #28525
 Hallway of The Mall from Hell~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a hall of the Mall from Hell.
 ~
@@ -465,7 +474,7 @@ S
 #28526
 Inside Big Mouth's Stomach~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D4
 You see Big Mouth's throat.
 ~
@@ -543,9 +552,9 @@ You see the primary maintenance room.
 0 -1 28529
 S
 #28531
-Hell's Kitchen~
+The Kitchen~
 Empty room.~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D1
 You see an abandoned courtyard.
 ~
@@ -576,7 +585,7 @@ T 3106
 #28533
 Courtyard~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see more of the courtyard.
 ~
@@ -591,7 +600,7 @@ S
 #28534
 Hallway of The Mall from Hell~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see Stanely's Magic Steeds.
 ~
@@ -606,7 +615,7 @@ S
 #28535
 Hallway of The Mall from Hell~
 ~
-285 9 0 0 0 0
+285 152 0 0 0 0
 D0
 You see a hall of the Mall from Hell.
 ~
@@ -640,7 +649,7 @@ hatch maintenance reactor core~
 S
 #28538
 Reactor Room Floor~
-undefined~
+~
 285 152 0 0 0 0
 D0
 You see the stairs to the control room.
@@ -653,10 +662,10 @@ You see a reactor core maintence hatch.
 hatch maintenance reactor core~
 1 -1 28537
 S
-T 3103
+T 3106
 #28539
 Secondary Control Room~
-undefined~
+~
 285 152 0 0 0 0
 D0
 You see the primary maintenance room.
@@ -666,7 +675,7 @@ You see the primary maintenance room.
 S
 #28540
 Office of the Chief Engineer~
-undefined~
+~
 285 152 0 0 0 0
 D0
 You see the break room.
@@ -676,8 +685,8 @@ You see the break room.
 S
 #28541
 Ice Room~
-Empty room.~
-285 9 0 0 0 0
+~
+285 152 0 0 0 0
 D1
 You see a room of ice.
 ~

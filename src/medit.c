@@ -433,11 +433,11 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Mob %d\r"
-  "\nselect[1:gender]:%s\r"
-  "\nselect[2:keywords]:%s\r"
-  "\nselect[3:s-desc]: %s\r"
-  "\nselect[4:l-desc]:%s\r"
-  "\nselect[5:d-desc]:%s\r",
+  "\nselect[a:gender]:%s\r"
+  "\nselect[b:keywords]:%s\r"
+  "\nselect[c:s-desc]: %s\r"
+  "\nselect[d:l-desc]:%s\r"
+  "\nselect[e:d-desc]:%s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_SEX(mob)],
 	  GET_ALIAS(mob),
@@ -450,17 +450,17 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\nselect[6:position]:%s\r"
-	  "\nselect[7:default]:%s\r"
-	  "\nselect[8:attack]:%s\r"
-	  "\nselect[A:npc flags]:%s\r"
-	  "\nselect[B:aff flags]:%s\r"
-    "\nselect[S:script]:%s\r"
+	  "\nselect[f:position]:%s\r"
+	  "\nselect[g:default]:%s\r"
+	  "\nselect[h:attack]:%s\r"
+    "\nselect[i:stats]: Set...\r"
+	  "\nselect[j:personality]:%s\r"
+	  "\nselect[k:affinity]:%s\r"
+    "\nselect[l:triggers]:%s\r"
     "\n----\n"
-    "\nmenu:9:stats menu\r"
-    "\nmenu:w:copy mobile\r"
+    "\nmenu:p:copy mobile\r"
 	  "\nmenu:x:delete mobile\r"
-    "\n----\n"
+    "\n-\n"
 	  "\nmenu:q:quit\r",
 
 	  position_types[(int)GET_POS(mob)],
@@ -615,23 +615,23 @@ void medit_parse(struct descriptor_data *d, char *arg)
       } else
 	cleanup_olc(d, CLEANUP_ALL);
       return;
-    case '1':
+    case 'a':
       OLC_MODE(d) = MEDIT_SEX;
       medit_disp_sex(d);
       return;
-    case '2':
+    case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;
       write_to_output(d, "Enter keywords...");
       return;
-    case '3':
+    case 'c':
       OLC_MODE(d) = MEDIT_S_DESC;
       write_to_output(d, "Enter short description...");
       return;
-    case '4':
+    case 'd':
       OLC_MODE(d) = MEDIT_L_DESC;
       write_to_output(d, "Enter long description...");
       return;
-    case '5':
+    case 'e':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
       write_to_output(d, "\nEnter description:\r");
@@ -642,34 +642,35 @@ void medit_parse(struct descriptor_data *d, char *arg)
       string_write(d, &OLC_MOB(d)->player.description, MAX_MOB_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
       return;
-    case '6':
+    case 'f':
       OLC_MODE(d) = MEDIT_POS;
       medit_disp_positions(d);
       return;
-    case '7':
+    case 'g':
       OLC_MODE(d) = MEDIT_DEFAULT_POS;
       medit_disp_positions(d);
       return;
-    case '8':
+    case 'h':
       OLC_MODE(d) = MEDIT_ATTACK;
       medit_disp_attack_types(d);
       return;
-    case '9':
+    case 'i':
       OLC_MODE(d) = MEDIT_STATS_MENU;
       medit_disp_stats_menu(d);
       return;
-    case 'a':
-    case 'A':
+    case 'j':
       OLC_MODE(d) = MEDIT_NPC_FLAGS;
       medit_disp_mob_flags(d);
       return;
-    case 'b':
-    case 'B':
+    case 'k':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
-    case 'w':
-    case 'W':
+    case 'l':
+      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+      dg_script_menu(d);
+      return;
+    case 'p':
       write_to_output(d, "\nCopy what mob?\r");
       OLC_MODE(d) = MEDIT_COPY;
       return;
@@ -677,11 +678,6 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'X':
       write_to_output(d, "\nAre you sure you want to delete this mobile?\r");
       OLC_MODE(d) = MEDIT_DELETE;
-      return;
-    case 's':
-    case 'S':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
       return;
     default:
       medit_disp_menu(d);
