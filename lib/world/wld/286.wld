@@ -702,7 +702,7 @@ T 3100
 #28641
 Hidden Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D2
 ~
 ~
@@ -867,7 +867,7 @@ S
 #28651
 Crack in Wall~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too dark to see.
 ~
@@ -887,7 +887,7 @@ the east is a hallway of fire.  To the south you see a large metal door with
 the words, 'FOREMAN' written on the door.  There is a dark stairway down in the
 corner of the room.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a hall of fire.
 ~
@@ -933,7 +933,7 @@ you inhale, and dry your mouth as you exhale.  The stone floor burns at your
 feet and hungrily drinks up every drop of sweat as they fall from your body.
 The hall of fire continues to the south and west.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D2
 You see a hall of fire.
 ~
@@ -987,7 +987,7 @@ many gas lines and electrical conduits within the dismantled walls.  Partially
 hidden fire sprinklers are being installed in the ceilings.  You see more
 contruction to the south and west.
 ~
-286 9 0 0 0 0
+286 408 0 0 0 0
 D2
 You see a construction area.
 ~
@@ -999,6 +999,7 @@ You see a construction area.
 ~
 0 -1 28656
 S
+T 3106
 #28658
 Hall of Fire~
    You are standing in a hallway made of fire.  The walls are ablaze with
@@ -1007,7 +1008,7 @@ you inhale, and dry your mouth as you exhale.  The stone floor burns at your
 feet and hungrily drinks up every drop of sweat as they fall from your body.
 The hall of fire continues to the east and south.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a hall of fire.
 ~
@@ -1028,7 +1029,7 @@ and hungrily drinks up every drop of sweat as they fall from your body.  The
 hall of fire continues to the west.  A room full of fire pits lies to the east.
 A wall of fire crackles merrily to the south.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a room full of fire pits.
 ~
@@ -1052,7 +1053,7 @@ being burnt and roasted within the white flames that erupt from the many pits.
 Wailing and screams of pain chill your bones in this hot room.  To the south you
 see a lake of fire.  A fire hall lies to the west.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D2
 You see a lake of fire.
 ~
@@ -1067,7 +1068,7 @@ S
 #28661
 Fire Mural~
 Empty room.~
-286 8 0 0 0 0
+286 152 0 0 0 0
 D2
 You see a stone hallway.
 ~
@@ -1089,7 +1090,6 @@ You see the door to the office.
 ~
 1 -1 28652
 S
-T 3100
 #28663
 Cold Stairway~
 Empty room.~
@@ -1113,7 +1113,7 @@ you inhale, and dry your mouth as you exhale.  The stone floor burns at your
 feet and hungrily drinks up every drop of sweat as they fall from your body.
 The hall of fire continues to the north and east.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a hall of fire.
 ~
@@ -1133,7 +1133,7 @@ many gas lines and electrical conduits within the dismantled walls.  Partially
 hidden fire sprinklers are being installed in the ceilings.  You see more
 contruction to the north and east.  A hall of fire is to the west.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a construction area.
 ~
@@ -1159,7 +1159,7 @@ many gas lines and electrical conduits within the dismantled walls.  Partially
 hidden fire sprinklers are being installed in the ceilings.  You see more
 contruction to the east and west.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a construction area.
 ~
@@ -1179,7 +1179,7 @@ many gas lines and electrical conduits within the dismantled walls.  Partially
 hidden fire sprinklers are being installed in the ceilings.  You see more
 contruction to the north and west.  A hall of fire lies to the east.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a construction area.
 ~
@@ -1230,7 +1230,7 @@ like minutes of agony and pain, and even as they burst into flames they seem
 incapable of grasping the merciful attention of death...  To the north you see a
 hall of fire.  To the east you see a lake of fire.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a hall of fire.
 ~
@@ -1248,7 +1248,7 @@ Lake of Fire~
 this enormous room.  You can barely make out shapes of something moving within
 the dancing flames of blue and gold...
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 It is too smoky to see.
 ~
@@ -1270,7 +1270,7 @@ Hot Hall~
    The stone floor below you heats your feet uncomfortably.  The ceiling and
 walls glow a dull red and you sweat uncomfortably under the heat.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a Mural Room.
 ~
@@ -1282,10 +1282,11 @@ It is too smoky to see.
 ~
 0 -1 28670
 S
+T 3106
 #28672
 Icy Landing~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a room of ice.
 ~
@@ -1295,7 +1296,7 @@ S
 #28673
 Ice Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D2
 You see a room of ice.
 ~
@@ -1310,7 +1311,7 @@ S
 #28674
 Meat Locker~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see more of the Meat locker.
 ~
@@ -1325,7 +1326,7 @@ S
 #28675
 Meat Locker~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a freezer door.
 ~
@@ -1345,7 +1346,11 @@ T 3106
 #28676
 Penguin Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 You see lots and lots of ice.
 ~
@@ -1366,10 +1371,11 @@ D4
 ~
 0 0 28663
 S
+T 3106
 #28677
 Penguin Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D2
 You see lots and lots of ice.
 ~
@@ -1384,7 +1390,7 @@ S
 #28678
 Ice-Creamery~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see lots of ice-cream machines.
 ~
@@ -1399,7 +1405,7 @@ S
 #28679
 Ice-Creamery~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a steel door.
 ~
@@ -1422,7 +1428,7 @@ White Marble Hall~
 portraits of demons and devils in business suits adorn the walls on either side
 of you.  The hall continues to the south.  To the west is a steel door.
 ~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 ~
 ~
@@ -1442,17 +1448,18 @@ T 3106
 #28681
 Refrigerator Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D1
 You see a room of ice.
 ~
 ~
 0 -1 28682
 S
+T 3106
 #28682
 Ice Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a room of ice.
 ~
@@ -1472,7 +1479,7 @@ S
 #28683
 Ice Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a room of ice.
 ~
@@ -1493,7 +1500,7 @@ T 3106
 #28684
 Meat Locker~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see more of the Meat locker.
 ~
@@ -1513,7 +1520,7 @@ S
 #28685
 Meat Locker~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see more of the Meat locker.
 ~
@@ -1528,7 +1535,7 @@ S
 #28686
 Penguin Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see lots and lots of ice.
 ~
@@ -1543,7 +1550,7 @@ S
 #28687
 Penguin Room~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see lots and lots of ice.
 ~
@@ -1558,7 +1565,7 @@ S
 #28688
 Ice-Creamery~
 Empty room.~
-286 8 0 0 0 0
+286 152 0 0 0 0
 D0
 You see lots of ice-cream machines.
 ~
@@ -1579,7 +1586,7 @@ T 3106
 #28689
 Ice-Creamery~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see lots of ice-cream machines.
 ~
@@ -1594,7 +1601,7 @@ S
 #28690
 Marble Hall~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
 D0
 You see a white marble hallway.
 ~
@@ -1608,7 +1615,7 @@ You see an office.
 S
 #28691
 Records Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 You see rows and rows of records.
@@ -1618,7 +1625,7 @@ You see rows and rows of records.
 S
 #28692
 Records Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 You see rows and rows of records.
@@ -1638,7 +1645,7 @@ You see rows and rows of records.
 S
 #28693
 Records Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 You see rows and rows of records.
@@ -1653,7 +1660,7 @@ You see rows and rows of records.
 S
 #28694
 Records Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D3
 You see rows and rows of records.
@@ -1663,7 +1670,7 @@ You see rows and rows of records.
 S
 #28695
 Small Altar~
-~
+Empty room.~
 286 152 0 0 0 0
 D0
 ~
@@ -1685,7 +1692,7 @@ You'll be damned if you don't  ;)
 S
 #28696
 Blackened Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 You see a stone door.
@@ -1706,7 +1713,7 @@ S
 T 3106
 #28697
 Office of the High Priest~
-~
+Empty room.~
 286 152 0 0 0 0
 D3
 You see a stone door.
@@ -1716,7 +1723,7 @@ door stone~
 S
 #28698
 Blackened Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 You see a blackened hall.
@@ -1731,7 +1738,7 @@ You see a blackened hall.
 S
 #28699
 Blackened Hall~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 You see a glass door.
