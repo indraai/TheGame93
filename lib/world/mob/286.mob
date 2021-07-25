@@ -254,7 +254,7 @@ MedicDEVA D28621 is here.
 ~
 MedicDEVA D28621 is here to care for the realm. A very intelligent deva who helps those they encounter with medical, emotional, and other support serivices.
 ~
-80088 0 0 0 0 0 0 0 0 E
+80088 0 0 0 26744 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
 8 8 0
@@ -604,16 +604,17 @@ This is the High Judge of DEVAS.  He takes careful consideration of all cases, a
 8 8 0
 E
 #28649
-lawyer deva lawyerdeva devaforce d28649~
-LawyerDEVA D28649~
-LawyerDEVA D28649 is here to do his best job at representing his clients.
+law deva lawdeva services d28649~
+LawDEVA D28649~
+LawDEVA D28649 is here to give honest advice.
 ~
 LawyerDEVA D28649 is cool, calm, and collected. With degrees from all major law schools and programs he is the most qualified to represent clients in times of need who are looking for fair justice.
 ~
-2190 0 0 0 0 0 0 0 0 E
+260314 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 0
+BareHandAttack: 1
 E
 #28650
 officer deva officerdeva devaforce d28650~
@@ -755,16 +756,17 @@ TechDEVA D28660 is a specialist in handling nuclear reactor complexes of unimagi
 8 8 0
 E
 #28661
-cream cheese pound cake~
-Cream Cheese Pound Cake~
-A nice slice of Cream Cheese Pound Cake is here to be enjoyed.
+food deva fooddeva devaforce d28661~
+FoodDEVA D28661~
+FoodDEVA D28661 is here for food/drink orders.
 ~
-Mmmmmm...  Don't you just want to take a bite?
+FoodDEVA D28661 is here to take yoru food and drink orders.
 ~
-16394 0 0 0 0 0 0 0 0 E
+260184 0 0 0 26744 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
+BareHandAttack: 1
 E
 #28662
 deva chef chefdeva devaforce d28662~
@@ -876,15 +878,16 @@ A vicious looking pit bull / demon dog mix is here slobbering on the donuts.
 8 8 0
 E
 #28671
-juicy steak~
-juicy steak~
-A mouth watering juicy steak is here steaming.
+food deva fooddeva devaforce de28671~
+FoodDEVA D28671~
+FoodDEVA D28671 is here for food/drink orders.
 ~
-   Mmmmmmm.....  Steak....  Mmmmmm...  You feel your mouth start to water.
+FoodDEVA D28671 works in the kitchen and roams around taking food and drink orders for happy clients.
 ~
-10 0 0 0 0 0 0 0 -900 E
+260312 0 0 0 26744 0 0 0 -900 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
+BareHandAttack: 3
 E
 $
