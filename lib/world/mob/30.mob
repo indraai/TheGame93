@@ -12,8 +12,8 @@ He is equipped with fine clothing, and is wearing many fine rings and bracelets.
 8 8 0
 E
 #3001
-baker deva bakerdeva~
-BakerDEVA~
+baker deva bakerdeva d3001~
+BakerDEVA D3001~
 The BakerDEVA looks at you calmly, wiping flour from his face with one hand.
 ~
 A fat, nice looking baker.  But you can see that he has many been eating a few
@@ -23,6 +23,7 @@ too many pastries.
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0
+BareHandAttack: 1
 E
 #3002
 grocer deva grocerdeva~
