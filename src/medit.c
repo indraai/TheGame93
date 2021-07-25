@@ -453,7 +453,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[f:position]:%s\r"
 	  "\nselect[g:default]:%s\r"
 	  "\nselect[h:attack]:%s\r"
-    "\nselect[i:stats]: Set...\r"
+    "\nselect[i:stats]: set...\r"
 	  "\nselect[j:personality]:%s\r"
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
@@ -468,7 +468,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  attack_hit_text[(int)GET_ATTACK(mob)].singular,
 	  flags,
 	  flag2,
-    OLC_SCRIPT(d) ?"Set.":"Not Set."
+    OLC_SCRIPT(d) ?"set...":"not set..."
 	  );
 
   OLC_MODE(d) = MEDIT_MAIN_MENU;
@@ -633,7 +633,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'd':
       OLC_MODE(d) = MEDIT_L_DESC;
-      write_to_output(d, "Enter long description...");
+      write_to_output(d, "describe:%s",
+        GET_LDESC(OLC_(d))
+      );
       return;
     case 'e':
       OLC_MODE(d) = MEDIT_D_DESC;
