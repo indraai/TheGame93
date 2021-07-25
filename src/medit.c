@@ -622,7 +622,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;
       write_to_output(d, "keywords:%s",
-        GET_ALIAS(mob));
+        GET_ALIAS(d));
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_S_DESC;
