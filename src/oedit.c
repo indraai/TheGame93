@@ -709,7 +709,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  GET_OBJ_VAL(obj, 1),
 	  GET_OBJ_VAL(obj, 2),
 	  GET_OBJ_VAL(obj, 3),
-	  obj->ex_description ? "Set." : "Not Set.",
+	  obj->ex_description ? "set..." : "not set...",
     buf2,
     OLC_SCRIPT(d) ? "Set." : "Not Set.");
   OLC_MODE(d) = OEDIT_MAIN_MENU;

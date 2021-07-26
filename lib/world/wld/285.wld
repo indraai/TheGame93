@@ -3,22 +3,18 @@ Administration of Hell~
 Empty room.~
 285 152 0 0 0 0
 D0
-You see a marble hall.
 ~
 ~
 0 -1 28690
 D2
-You see a metal door.
 ~
 door metal~
 1 -1 28510
 D3
-You see a glass door.
 ~
 door glass~
 1 -1 28699
 D5
-You see a stairway down.
 ~
 stairway~
 0 -1 28509
@@ -37,12 +33,10 @@ Halls of Judgement~
 Empty room.~
 285 152 0 0 0 0
 D1
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28502
 D2
-You see the Court of Hell.
 ~
 ~
 0 -1 28511
@@ -53,17 +47,14 @@ Halls of Judgement~
 Empty room.~
 285 152 0 0 0 0
 D0
-You see the Hall of Records.
 ~
 ~
 0 -1 28692
 D1
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28503
 D3
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28501
@@ -74,17 +65,14 @@ Halls of Judgement~
 Empty room.~
 285 152 0 0 0 0
 D1
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28504
 D2
-You see the Office of Complaints.
 ~
 ~
 0 -1 28513
 D3
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28502
@@ -95,12 +83,10 @@ Halls of Judgement~
 undefined~
 285 152 0 0 0 0
 D1
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28505
 D3
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28503
@@ -114,12 +100,10 @@ D0
 ~
 0 0 -1
 D1
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28506
 D3
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28504
@@ -127,11 +111,7 @@ S
 T 3106
 #28506
 Blackened Hall~
-   This hall looks as if it was burned out recently.  The walls are charred and
-smoking.  Ashes and bits of burnt timber crunch under your feet as you walk
-down the hall.  A sign on the wall reads, 'No Non-smoking Please'.  There are
-exits in all directions.
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see a blackened hall.
@@ -253,12 +233,7 @@ S
 T 3106
 #28513
 Support Center~
-   This is a relatively small office.  There is a large hole in the wall where a
-clerk usually sits and takes complaints about hell.  As you peek behind the
-counter you see a large paper shredder and a lot of shredded complaints.  A sign
-over the clerks desk reads, 'Hours: 12:00am - 12:01am'.  To the west is a
-lawyer's office.  To the north you see the Halls of Judgement.
-~
+Empty room.~
 285 152 0 0 0 0
 D0
 You see the Halls of Judgement.
@@ -418,11 +393,7 @@ S
 T 3106
 #28523
 Courtyard~
-   This courtyard is barren and neglected.  Small weeds grow between the
-concrete slabs.  An old defunct fountain sputters with a gray-brown ooze.  The
-courtyard continues to the west and south.  Stanley's Magical Steeds is to the
-east.
-~
+Empty room.~
 285 152 0 0 0 0
 D1
 You see Stanley's Magical Steeds store.

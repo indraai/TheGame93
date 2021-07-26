@@ -322,8 +322,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\nselect[1:keywords]:%s\r"
 	  // "\nselect[2:description]:%s\r"
     "\nselect[3:next tag]:%s\r"
-    "\n----\n"
-    "\nmenu:3:next tag"
+    "\n==\n"
     "\nmenu:0:done",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
     !extra_desc->next ? "not set..." : "set..."

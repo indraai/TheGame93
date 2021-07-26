@@ -1189,10 +1189,6 @@ Floris Ave runs west.
 S
 #25751
 Boardwalk~
-   The wooden Boardwalk continues east and west along the river.  Fishermen line
-the river bank trying their luck while others relax on benches here enjoying the
-sights and sounds of the river.  You can enter the Bait & Tackle to the north or
-continue along the Boardwalk.
 ~
 257 0 0 0 0 1
 D0
@@ -1672,10 +1668,6 @@ You may eneter onto Floris Ave.
 S
 #25773
 Grigor's Bait and Tackle~
-   All manner of fishing paraphenalia line the walls and stack the racks here
-Grigor's.  Grigor, being a fisherman by trade for most of his younger years,
-knows all the best spots on the river and all the best tackle to use.  You may
-exit south to the Boardwalk.
 ~
 257 8 0 0 0 0
 D2
@@ -1794,10 +1786,6 @@ River St runs south.
 S
 #25780
 River St~
-   You stand on River St, north of town, entering the arts and entertainment
-district of Jareth.  South of you is the Bridge, north the road makes a turn to
-the west before a Constable's Ouptost, and east begins the Boardwalk along the
-river.
 ~
 257 0 0 0 0 1
 D0
@@ -1901,10 +1889,6 @@ D0
 S
 #25786
 Clothing Shop~
-   This shop is considered to be the best in all Jareth where fashion is
-concerned.  Franz, designer and operator of this establishment, takes a great
-deal of time in locating the finest materials for his garments.  You see no sale
-signs, which means that Franz must deserve his reputation.
 ~
 257 8 0 0 0 0
 D2
@@ -1926,12 +1910,6 @@ D0
 S
 #25788
 Casino~
-   Not quite what you would expect from a casino.  More like a mafia cooling
-room.  Lights dimmed to near-darkness, smoke in a cloud hanging low over the
-entire room, small tables with four chairs and a dealer at each are scattered
-about the room.  Men in dark armor stand with their arms crossed at 3 foot
-intervals along the walls watching and making sure no one cheats.  The exit is
-south, or you may sit down and try and win some fast cash.
 ~
 257 8 0 0 0 0
 D2
@@ -1941,13 +1919,6 @@ D2
 S
 #25789
 Salazar's on the River~
-   This bar seems to have such a festive atmosphere, it nearly reaches out and
-snatches you onto the dance floor.  Women of every race strut their stuff, men
-cut a rug with reckless abandon, and the music, so loud as to alomost deafen
-you, moves through your body and makes you want to join in.  Low boothes line
-walls east and west, a long bar next to the bandstand offers drinks to your
-north, and the dance floor, smack dab in the center of the room, simply calls to
-you.
 ~
 257 8 0 0 0 0
 D2
@@ -2100,9 +2071,6 @@ The boardwalk runs west.
 S
 #25797
 Boardwalk~
-   The boardwalk runs east and west here along the Alqaundon, allowing fishing
-or relaxation, as you will.  Les Franz, a well reknowned clothing shop in
-Jareth, is to your north.
 ~
 257 0 0 0 0 1
 D0
@@ -2123,11 +2091,6 @@ The boardwalk runs west.
 S
 #25798
 Boardwalk~
-   Here the boardwalk begins it's run east and west along the banks of the
-Alquandon.  Fishermen line the river bank, trying their luck, while others
-simply sit on benches here enjoying the sights and sounds of the river.  Loud
-music can be heard to the north, coming from a bar and to your west you may
-enter onto River St.
 ~
 257 0 0 0 0 1
 D0
@@ -2148,8 +2111,6 @@ You see River St.
 S
 #25799
 The Boardwalk~
-   The boardwalk runs east and west along the riverbank.  There is a casino to
-the north and if one has the desire, on may try fishing here in the river.
 ~
 257 0 0 0 0 1
 D0
