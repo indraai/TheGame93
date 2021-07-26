@@ -1,14 +1,15 @@
 #24200
-deva guard guarddeva devaforce guard gd24200~
+guard deva guarddeva devaforce d24200~
 GD24200 GuardDEVA~
 GD24200 GuardDEVA is here.
 ~
 GD24200 GuardDEVA is assigned to guard the Realm.
 ~
-6220 0 0 0 0 0 0 0 1000 E
+260190 0 0 0 26744 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1
+8 8 0
+BareHandAttack: 10
 E
 #24201
 mayor~
