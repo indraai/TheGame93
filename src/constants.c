@@ -146,7 +146,7 @@ const char *genders[] =
  * Must end array with a single newline. */
 const char *position_types[] = {
   "Dead",
-  "Mortally wounded",
+  "Wounded",
   "Incapacitated",
   "Stunned",
   "Sleeping",
@@ -333,48 +333,48 @@ const char *connected_types[] = {
  * @pre Must be in the same order as the defines.
  * Not used in sprinttype() so no \\n. */
 const char *wear_where[] = {
-  "<used as light>      ",
-  "<worn on finger>     ",
-  "<worn on finger>     ",
-  "<worn around neck>   ",
-  "<worn around neck>   ",
-  "<worn on body>       ",
-  "<worn on head>       ",
-  "<worn on legs>       ",
-  "<worn on feet>       ",
-  "<worn on hands>      ",
-  "<worn on arms>       ",
-  "<worn as shield>     ",
-  "<worn about body>    ",
-  "<worn about waist>   ",
-  "<worn around wrist>  ",
-  "<worn around wrist>  ",
-  "<wielded>            ",
-  "<held>               "
+  "use:light",
+  "wear:finger",
+  "wear:finger",
+  "wear:neck",
+  "wear:neck",
+  "wear:body",
+  "wear:head",
+  "wear:legs",
+  "wear:feet",
+  "wear:hands",
+  "wear:arms",
+  "wear:shield",
+  "wear:body",
+  "wear:waist",
+  "wear:wrist",
+  "wear:wrist",
+  "wield",
+  "held"
 };
 
 /* Describes where an item can be worn.
  * @pre Must be in the same order as the defines.
  * Must end array with a single newline. */
 const char *equipment_types[] = {
-  "Used as light",
-  "Worn on right finger",
-  "Worn on left finger",
-  "First worn around Neck",
-  "Second worn around Neck",
-  "Worn on body",
-  "Worn on head",
-  "Worn on legs",
-  "Worn on feet",
-  "Worn on hands",
-  "Worn on arms",
-  "Worn as shield",
-  "Worn about body",
-  "Worn around waist",
-  "Worn around right wrist",
-  "Worn around left wrist",
-  "Wielded",
-  "Held",
+  "used:light",
+  "wear:finger:right",
+  "wear:finger:left",
+  "wear:neck:one",
+  "wear:neck:two",
+  "wear:body:on",
+  "wear:head",
+  "wear:legs",
+  "wear:feet",
+  "wear:hands",
+  "wear:arms",
+  "wear:shield",
+  "wear:body:about",
+  "wear:waist",
+  "wear:wrist:right",
+  "wear:wrist:left",
+  "wield",
+  "held",
   "\n"
 };
 
