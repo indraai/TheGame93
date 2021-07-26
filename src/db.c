@@ -1601,7 +1601,7 @@ static void parse_simple_mob(FILE *mob_f, int i, int nr)
 
   GET_POS(mob_proto + i) = t[0];
   GET_DEFAULT_POS(mob_proto + i) = t[1];
-  GET_SEX(mob_proto + i) = t[2];
+  GET_GENDER(mob_proto + i) = t[2];
 
   GET_CLASS(mob_proto + i) = 0;
   GET_WEIGHT(mob_proto + i) = 200;
@@ -3536,7 +3536,7 @@ void init_char(struct char_data *ch)
    * they have chosen. While it is possible to have a tall, heavy female it's
    * not as likely as a male. Height is in centimeters. Weight is in pounds.
    * The only place they're ever printed (in stock code) is SPELL_IDENTIFY. */
-  if (GET_SEX(ch) == SEX_MALE) {
+  if (GET_GENDER(ch) == GENDER_MALE) {
     GET_WEIGHT(ch) = rand_number(120, 180);
     GET_HEIGHT(ch) = rand_number(160, 200); /* 5'4" - 6'8" */
   } else {

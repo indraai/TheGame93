@@ -772,7 +772,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\n# %s\r", GET_NAME(k));
   send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
   send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
-  sprinttype(GET_SEX(k), genders, buf, sizeof(buf));
+  sprinttype(GET_GENDER(k), genders, buf, sizeof(buf));
   send_to_char(ch, "\ngender: %s\r", buf);
   send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
   send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
@@ -2610,7 +2610,7 @@ ACMD(do_show)
     strftime(buf2, sizeof(buf2), "%a %b %d %H:%H:%S %Y", localtime(&(vict->player.time.logon)));
 
     send_to_char(ch, "Player: %-12s (%s) [%2d %s]\r\n", GET_NAME(vict),
-      genders[(int) GET_SEX(vict)], GET_LEVEL(vict), class_abbrevs[(int)
+      genders[(int) GET_GENDER(vict)], GET_LEVEL(vict), class_abbrevs[(int)
       GET_CLASS(vict)]);
     send_to_char(ch, "Gold: %-8d  Bal: %-8d Exp: %-8d  Align: %-5d  Lessons: %-3d\r\n",
       GET_GOLD(vict), GET_BANK_GOLD(vict), GET_EXP(vict),
@@ -3222,7 +3222,7 @@ static int perform_set(struct char_data *ch, struct char_data *vict, int mode, c
         send_to_char(ch, "Must be 'male', 'female', or 'neutral'.\r\n");
         return (0);
       }
-      GET_SEX(vict) = i;
+      GET_GENDER(vict) = i;
       break;
     case 46: /* showvnums */
       SET_OR_REMOVE(PRF_FLAGS(vict), PRF_SHOWVNUMS);

@@ -441,7 +441,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[d:describe]:%s\r"
   "\nselect[e:look]:%s\r",
 	  OLC_NUM(d),
-	  genders[(int)GET_SEX(mob)],
+	  genders[(int)GET_GENDER(mob)],
 	  GET_ALIAS(mob),
 	  GET_SDESC(mob),
 	  GET_LDESC(mob),
@@ -489,12 +489,12 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   /* Top section - standard stats */
   write_to_output(d,
     "\n## Stats\r"
-    "\nselect[1:level]:%d\r"
-    "\nselect[2:auto]:Set stats...\r"
+    "\nselect[a:level]:%d\r"
+    "\nselect[b:auto]:Set stats...\r"
     "\n## Hit Points  (xdy+z):\r"
-    "\nselect[3:hit]:%d\r"
-    "\nselect[4:mana]:%d\r"
-    "\nselect[5:move]:%d\r",
+    "\nselect[c:hit]:%d\r"
+    "\nselect[d:mana]:%d\r"
+    "\nselect[e:move]:%d\r",
     GET_LEVEL(mob),
     GET_HIT(mob),
     GET_MANA(mob),
@@ -503,9 +503,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## Bare Hand (xdy+z):\r"
-    "\nselect[6:dice]:%d\r"
-    "\nselect[7:size]:%d\r"
-    "\nselect[8:roll]:%d\r",
+    "\nselect[f:dice]:%d\r"
+    "\nselect[g:size]:%d\r"
+    "\nselect[h:roll]:%d\r",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
@@ -513,11 +513,11 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n## General\r"
-    "\nselect[a:armor]:%d\r\n"
-    "\nselect[b:experience]:%d\r\n"
-    "\nselect[c:gold]:%d\r\n"
-    "\nselect[d:hitroll]:%d\r\n"
-    "\nselect[e:alignment]:%d\r\n",
+    "\nselect[i:armor]:%d\r\n"
+    "\nselect[j:experience]:%d\r\n"
+    "\nselect[k:gold]:%d\r\n"
+    "\nselect[l:hitroll]:%d\r\n"
+    "\nselect[m:alignment]:%d\r\n",
     GET_AC(mob),
     GET_EXP(mob),
     GET_GOLD(mob),
@@ -530,16 +530,16 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
     "\n## Advanced\r"
-    "\nselect[f:strength]:%d|%d\r"
-    "\nselect[g:intelligence]:%d\r"
-    "\nselect[h:wisdom]:%d\r"
-    "\nselect[i:dexterity]:%d"
-    "\nselect[j:con]:%d\r"
-    "\nselect[k:cha]:%d"
-    "\nselect[l:parlysis]:%d\r"
-    "\nselect[m:rod/staves]:%d\r"
-    "\nselect[n:petification]:%d\r"
-    "\nselect[o:breth]:%d\r"
+    "\nselect[n:strength]:%d|%d\r"
+    "\nselect[o:intelligence]:%d\r"
+    "\nselect[p:wisdom]:%d\r"
+    "\nselect[r:dexterity]:%d"
+    "\nselect[s:con]:%d\r"
+    "\nselect[t:cha]:%d"
+    "\nselect[u:parlysis]:%d\r"
+    "\nselect[v:rod/staves]:%d\r"
+    "\nselect[w:petification]:%d\r"
+    "\nselect[o:breath]:%d\r"
     "\nselect[p:spells]:%d\r",
         GET_STR(mob), GET_ADD(mob),
         GET_INT(mob),
@@ -619,7 +619,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
 	cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'a':
-      OLC_MODE(d) = MEDIT_SEX;
+      OLC_MODE(d) = MEDIT_GENDER;
       medit_disp_sex(d);
       return;
     case 'b':
@@ -709,83 +709,92 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'Q':
       medit_disp_menu(d);
       return;
-    case '1':  /* Edit level */
+    case 'a':  /* Edit level */
       OLC_MODE(d) = MEDIT_LEVEL;
-      write_to_output(d, "level:%d (1-33)",
+      write_to_output(d, "\nSet agent level... (1 to 33)\r"
+        "current:%d",
         GET_LEVEL(OLC_MOB(d))
       );
       return;
-    case '2':  /* Autoroll stats */
+    case 'b':  /* Autoroll stats */
       medit_autoroll_stats(d);
       medit_disp_stats_menu(d);
       OLC_VAL(d) = TRUE;
       return;
-    case '3':
+    case 'c':
       OLC_MODE(d) = MEDIT_NUM_HP_DICE;
-      write_to_output(d, "hit:%d (1-30)",
+      write_to_output(d, "\nSet hit points... (1 to 30)\r"
+        "\ncurrent:%d\r",
         GET_HIT(OLC_MOB(d))
       );
       return;
-    case '4':
+    case 'd':
       OLC_MODE(d) = MEDIT_SIZE_HP_DICE;
-      write_to_output(d, "mana:%d (1-1000)",
+      write_to_output(d, "\nSet mana amount... (1 to 1000)"
+        "\ncurrent:%d\r",
         GET_HIT(OLC_MOB(d))
       );
       return;
-    case '5':
+    case 'e':
       OLC_MODE(d) = MEDIT_ADD_HP;
-      write_to_output(d, "move:%d (1-30,000)",
+      write_to_output(d, "\nSet move amount... (1 to 30,000)\r"
+        "\ncurrent:%d\r",
         GET_MOVE(OLC_MOB(d))
       );
       return;
-    case '6':
+    case 'f':
       OLC_MODE(d) = MEDIT_NDD;
-      write_to_output(d, "dice:%d (1-30)",
+      write_to_output(d, "\nSet number of dice... (1 to 30)\r"
+        "\ncurrent:%d\r",
         GET_NDD(OLC_MOB(d))
       );
       return;
-    case '7':
+    case 'g':
       OLC_MODE(d) = MEDIT_SDD;
-      write_to_output(d, "size:%d (1-127)",
+      write_to_output(d, "\nSet size of dice... (1 to 127)\r"
+        "\ncurrent:%d\r",
         GET_SDD(OLC_MOB(d))
       );
       return;
-    case '8':
+    case 'h':
       OLC_MODE(d) = MEDIT_DAMROLL;
-      write_to_output(d, "roll:%d (1-50)",
+      write_to_output(d, "\nSet the damage roll... (1 to 50)\r"
+        "\ncurrent:%d",
         GET_DAMROLL(OLC_MOB(d))
       );
       return;
-    case 'a':
-    case 'A':
+    case 'i':
       OLC_MODE(d) = MEDIT_AC;
-      i++;
-      break;
-    case 'b':
-    case 'B':
+      write_to_output(d, "\nSet the armor level... (-200 to 200)\r"
+        "\ncurrent:%d",
+        GET_DAMROLL(OLC_MOB(d))
+      );
+      return;
+    case 'j':
       OLC_MODE(d) = MEDIT_EXP;
-      i++;
-      break;
-    case 'c':
-    case 'C':
+      write_to_output(d, "\nSet the experience level... (1 to %d)\r"
+        "\ncurrent:%d",
+        MAX_MOB_EXP,
+        GET_DAMROLL(OLC_MOB(d))
+      );
+      return;
+    case 'k':
       OLC_MODE(d) = MEDIT_GOLD;
       i++;
       break;
-    case 'd':
-    case 'D':
+    case 'l':
       OLC_MODE(d) = MEDIT_HITROLL;
       i++;
       break;
-    case 'e':
-      write_to_output(d, "\nSet alignment between -1000 to 1000\r"
-        "\nalign:%d",
+    case 'm':
+      write_to_output(d, "\nSet alignment... -1000 to 1000\r"
+        "\ncurrent:%d\r",
         GET_ALIGNMENT(OLC_MOB(d))
       );
       OLC_MODE(d) = MEDIT_ALIGNMENT;
       i++;
       break;
-    case 'f':
-    case 'F':
+    case 'n':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
         return;
@@ -793,8 +802,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_STR;
       i++;
       break;
-    case 'g':
-    case 'G':
+    case 'o':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
         return;
@@ -802,8 +810,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_INT;
       i++;
       break;
-    case 'h':
-    case 'H':
+    case 'p':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
         return;
@@ -811,8 +818,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_WIS;
       i++;
       break;
-    case 'i':
-    case 'I':
+    case 'r':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
         return;
@@ -820,8 +826,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_DEX;
       i++;
       break;
-    case 'j':
-    case 'J':
+    case 's':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -829,8 +834,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_CON;
       i++;
       break;
-    case 'k':
-    case 'K':
+    case 't':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -838,8 +842,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_CHA;
       i++;
       break;
-    case 'l':
-    case 'L':
+    case 'u':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -847,8 +850,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_PARA;
       i++;
       break;
-    case 'm':
-    case 'M':
+    case 'v':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -856,8 +858,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_ROD;
       i++;
       break;
-    case 'n':
-    case 'N':
+    case 'w':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -865,8 +866,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_PETRI;
       i++;
       break;
-    case 'o':
-    case 'O':
+    case 'x':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -874,8 +874,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_BREATH;
       i++;
       break;
-    case 'p':
-    case 'P':
+    case 'y':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -967,8 +966,8 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
 /* Numerical responses. */
 
-  case MEDIT_SEX:
-    GET_SEX(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_GENDERS - 1);
+  case MEDIT_GENDER:
+    GET_GENDER(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_GENDERS - 1);
     break;
 
   case MEDIT_HITROLL:

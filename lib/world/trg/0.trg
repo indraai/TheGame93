@@ -680,7 +680,7 @@ if %actor.canbeseen% && %actor.is_pc%
   %echo% SAVING_PETRI:    %actor.saving_petri%
   %echo% SAVING_BREATH:   %actor.saving_breath%
   %echo% SAVING_SPELL:    %actor.saving_spell%
-  %echo% SEX:             %actor.sex%
+  %echo% GENDER:          %actor.sex%
   %echo% SKILL BACKSTAB:  %actor.skill(backstab)%
   %echo% THIRST:          %actor.thirst%
   %echo% TITLE:           %actor.title%

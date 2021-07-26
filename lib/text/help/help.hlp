@@ -3990,8 +3990,7 @@ To see what's inside a container (i.e. a corpse) use LOOK IN <object>.
 See also: EXAMINE, GET, READ, TAKE
 #0
 LOVE MARRIAGE WEDDINGS SEX
-
-   Seek professional counseling if you need help on these topics.
+Asking a computer for help on these topics is pretty STUPID!
 
 #0
 MAGIC-MISSILE
@@ -4196,7 +4195,7 @@ per round with the stick.
 
 See also: AUTOROLL
 #31
-MEDIT-KEYWORDS MEDIT-ALIAS MEDIT-SEX MEDITNAME MOB-NAME MEDIT-ALIAS MOB-SEX
+MEDIT-KEYWORDS MEDIT-ALIAS MEDIT-GENDER MEDITNAME MOB-NAME MEDIT-ALIAS MOB-GENDER
 
 1) Sex: @yneutral@n
    This is pretty self-explanatory. Male, Female, or Neutral. Remember if the

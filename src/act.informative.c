@@ -1779,12 +1779,12 @@ ACMD(do_levels)
       break;
     len += nlen;
 
-    switch (GET_SEX(ch)) {
-    case SEX_MALE:
-    case SEX_NEUTRAL:
+    switch (GET_GENDER(ch)) {
+    case GENDER_MALE:
+    case GENDER_NEUTRAL:
       nlen = snprintf(buf + len, sizeof(buf) - len, "%s\r\n", title_male(GET_CLASS(ch), i));
       break;
-    case SEX_FEMALE:
+    case GENDER_FEMALE:
       nlen = snprintf(buf + len, sizeof(buf) - len, "%s\r\n", title_female(GET_CLASS(ch), i));
       break;
     default:
@@ -2428,7 +2428,7 @@ ACMD(do_whois)
   }
 
   /* We either have our victim from file or he's playing or function has returned. */
-  sprinttype(GET_SEX(victim), genders, buf, sizeof(buf));
+  sprinttype(GET_GENDER(victim), genders, buf, sizeof(buf));
   send_to_char(ch, "Name: %s %s\r\nSex: %s\r\n", GET_NAME(victim),
                    (victim->player.title ? victim->player.title : ""), buf);
 

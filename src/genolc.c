@@ -626,7 +626,7 @@ static int export_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
   fprintf(fd, 	"%d %d\n"
 		"%d %d %d\n",
 		GET_GOLD(mob), GET_EXP(mob),
-		GET_POS(mob), GET_DEFAULT_POS(mob), GET_SEX(mob)
+		GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob)
   );
 
   if (write_mobile_espec(mvnum, mob, fd) < 0)

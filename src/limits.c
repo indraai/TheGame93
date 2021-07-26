@@ -181,7 +181,7 @@ void set_title(struct char_data *ch, char *title)
     free(GET_TITLE(ch));
 
   if (title == NULL) {
-    GET_TITLE(ch) = strdup(GET_SEX(ch) == SEX_FEMALE ?
+    GET_TITLE(ch) = strdup(GET_GENDER(ch) == GENDER_FEMALE ?
       title_female(GET_CLASS(ch), GET_LEVEL(ch)) :
       title_male(GET_CLASS(ch), GET_LEVEL(ch)));
   } else {

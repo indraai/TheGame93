@@ -54,7 +54,7 @@ struct char_point_data_plrtoascii {
 };
 
 
-/* 
+/*
  * char_special_data_saved: specials which both a PC and an NPC have in
  * common, but which must be saved to the playerfile for PC's.
  *
@@ -186,7 +186,7 @@ void convert(char *filename)
       exit(1);
     printf("writing: %s\n", outname);
 
-    fprintf(index_file, "%ld %s %d 0 %ld\n", 
+    fprintf(index_file, "%ld %s %d 0 %ld\n",
 	player.char_specials_saved.idnum, bits, player.level,
 	(long)player.last_logon);
 
@@ -201,12 +201,12 @@ void convert(char *filename)
     fprintf(outfile, "Titl: %s\n", player.title);
     if (*player.description)
       fprintf(outfile, "Desc:\n%s~\n", player.description);
-    if (player.sex != PFDEF_SEX)
-      fprintf(outfile, "Sex : %d\n", (int)player.sex); 
+    if (player.sex != PFDEF_GENDER)
+      fprintf(outfile, "Sex : %d\n", (int)player.sex);
     if (player.chclass != PFDEF_CLASS)
-      fprintf(outfile, "Clas: %d\n", (int)player.chclass); 
+      fprintf(outfile, "Clas: %d\n", (int)player.chclass);
     if (player.level != PFDEF_LEVEL)
-      fprintf(outfile, "Levl: %d\n", (int)player.level); 
+      fprintf(outfile, "Levl: %d\n", (int)player.level);
     fprintf(outfile, "Brth: %d\n", (int)player.birth);
     fprintf(outfile, "Plyd: %d\n", (int)player.played);
     fprintf(outfile, "Last: %d\n", (int)player.last_logon);

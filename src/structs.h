@@ -162,9 +162,9 @@
 #define CLASS_GIANT       5    /**< NPC Class Giant */
 
 /* Sex */
-#define SEX_NEUTRAL   0   /**< Neutral Sex (Hermaphrodite) */
-#define SEX_MALE      1   /**< Male Sex (XY Chromosome) */
-#define SEX_FEMALE    2   /**< Female Sex (XX Chromosome) */
+#define GENDER_NEUTRAL   0   /**< Neutral Sex (Hermaphrodite) */
+#define GENDER_MALE      1   /**< Male Sex (XY Chromosome) */
+#define GENDER_FEMALE    2   /**< Female Sex (XX Chromosome) */
 /** Total number of Genders */
 #define NUM_GENDERS   3
 
@@ -302,7 +302,7 @@
 #define CON_PASSWORD      4 /**< Login with password */
 #define CON_NEWPASSWD     5 /**< New character, create password */
 #define CON_CNFPASSWD     6 /**< New character, confirm password */
-#define CON_QSEX          7 /**< Choose character sex */
+#define CON_QGENDER          7 /**< Choose character sex */
 #define CON_QCLASS        8 /**< Choose character class */
 #define CON_RMOTD         9 /**< Reading the message of the day */
 #define CON_MENU         10 /**< At the main menu */

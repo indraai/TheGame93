@@ -1036,7 +1036,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
             snprintf(str, slen, "%d", GET_SAVE(c, SAVING_SPELL));
           }
           else if (!str_cmp(field, "sex"))
-            snprintf(str, slen, "%s", genders[(int)GET_SEX(c)]);
+            snprintf(str, slen, "%s", genders[(int)GET_GENDER(c)]);
           else if (!str_cmp(field, "skill"))
             snprintf(str, slen, "%s", skill_percent(c, subfield));
           else if (!str_cmp(field, "skillset")) {

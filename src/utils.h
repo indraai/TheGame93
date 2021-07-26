@@ -492,7 +492,7 @@ do                                                              \
 /** Weight of ch. */
 #define GET_WEIGHT(ch)	((ch)->player.weight)
 /** Sex of ch. */
-#define GET_SEX(ch)	((ch)->player.sex)
+#define GET_GENDER(ch)	((ch)->player.sex)
 
 /** Current strength of ch. */
 #define GET_STR(ch)     ((ch)->aff_abils.str)
@@ -745,11 +745,11 @@ do                                                              \
        (((major) << 16) + ((minor) << 8) + (patchlevel))
 
 /** Figures out possessive pronoun for ch. */
-#define HSHR(ch) (GET_SEX(ch) ? (GET_SEX(ch)==SEX_MALE ? "his":"her") :"its")
+#define HSHR(ch) (GET_GENDER(ch) ? (GET_GENDER(ch)==GENDER_MALE ? "his":"her") :"its")
 /** Figures out third person, singular pronoun for ch. */
-#define HSSH(ch) (GET_SEX(ch) ? (GET_SEX(ch)==SEX_MALE ? "he" :"she") : "it")
+#define HSSH(ch) (GET_GENDER(ch) ? (GET_GENDER(ch)==GENDER_MALE ? "he" :"she") : "it")
 /** Figures out third person, objective pronoun for ch. */
-#define HMHR(ch) (GET_SEX(ch) ? (GET_SEX(ch)==SEX_MALE ? "him":"her") : "it")
+#define HMHR(ch) (GET_GENDER(ch) ? (GET_GENDER(ch)==GENDER_MALE ? "him":"her") : "it")
 
 /** "An" or "A" for object (uppercased) */
 #define ANA(obj) (strchr("aeiouAEIOU", *(obj)->name) ? "An" : "A")

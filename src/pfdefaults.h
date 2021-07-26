@@ -13,7 +13,7 @@
 /* WARNING:  Do not change the values below if you have existing ascii player 
  * files you don't want to screw up. */
 
-#define PFDEF_SEX		0
+#define PFDEF_GENDER		0
 #define PFDEF_CLASS		0
 #define PFDEF_LEVEL		0
 #define PFDEF_HEIGHT		0
