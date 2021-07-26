@@ -767,7 +767,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         "\nSet alignment between -1000 to 1000\r"
         "\nalign:%d",
         GET_ALIGNMENT(OLC_MOB(d))
-      )
+      );
       OLC_MODE(d) = MEDIT_ALIGNMENT;
       i++;
       break;
