@@ -432,7 +432,9 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Mob %d\r"
+  "\n# Agent %d\r"
+  "\n-\n"
+  "\n## Details\r"
   "\nselect[a:gender]:%s\r"
   "\nselect[b:keywords]:%s\r"
   "\nselect[c:name]: %s\r"
@@ -450,6 +452,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
+    "\n## Properties\r"
 	  "\nselect[f:position]:%s\r"
 	  "\nselect[g:default]:%s\r"
 	  "\nselect[h:attack]:%s\r"
@@ -458,8 +461,8 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
     "\n----\n"
-    "\nmenu:p:copy mobile\r"
-	  "\nmenu:x:delete mobile\r"
+    "\nmenu:p:copy agent\r"
+	  "\nmenu:x:delete agent\r"
     "\n-\n"
 	  "\nmenu:q:quit\r",
 

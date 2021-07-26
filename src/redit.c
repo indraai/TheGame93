@@ -409,7 +409,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   );
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, room_bits[i]);
+    write_to_output(d, "\nbmud:%d:%s\r", ++count, room_bits[i]);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
@@ -428,13 +428,10 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   clear_screen(d);
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
 
-  write_to_output(d,
-    "\n## Sector Type\r"
-    "\n----\n"
-  );
+  write_to_output(d, "\n## Sector Type\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, sector_types[i]);
+    write_to_output(d, "\nbmud:%d:%s\r", ++count, sector_types[i]);
   }
   OLC_MODE(d) = REDIT_SECTOR;
 }
