@@ -32,7 +32,7 @@ static void medit_setup_new(struct descriptor_data *d);
 static void init_mobile(struct char_data *mob);
 static void medit_save_to_disk(zone_vnum zone_num);
 static void medit_disp_positions(struct descriptor_data *d);
-static void medit_disp_sex(struct descriptor_data *d);
+static void medit_disp_gender(struct descriptor_data *d);
 static void medit_disp_attack_types(struct descriptor_data *d);
 static bool medit_illegal_mob_flag(int fl);
 static int  medit_get_mob_flag_by_number(int num);
@@ -315,7 +315,7 @@ static void medit_disp_positions(struct descriptor_data *d)
 }
 
 /* Display the gender of the mobile. */
-static void medit_disp_sex(struct descriptor_data *d)
+static void medit_disp_gender(struct descriptor_data *d)
 {
   int i, count = 0;
   // get_char_colors(d->character);
@@ -620,7 +620,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'a':
       OLC_MODE(d) = MEDIT_GENDER;
-      medit_disp_sex(d);
+      medit_disp_gender(d);
       return;
     case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;

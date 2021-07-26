@@ -898,7 +898,7 @@ say your maxmana is %actor.maxmana%
 say your maxmove is %actor.maxmove%
 say the next_in_room is %actor.next_in_room%
 say you are in room %actor.room%
-say your sex is %actor.sex%
+say your sex is %actor.gender%
 say you are a: %actor.hisher%
 say you are a: %actor.heshe%
 say you are a: %actor.himher%
@@ -1797,7 +1797,7 @@ Return Example~
 2 c 100
 w~
 if %cmd.mudcommand% == west
-  if %actor.sex% == male
+  if %actor.gender% == male
     %send% %actor% The door vanishes as if it was never there, and you step through.
     %echoaround% %actor% As %actor.name% steps through the doorway, the door disappears for an instant.
     %teleport% %actor% 1300
@@ -2608,9 +2608,9 @@ Room Enter if/elseif/else Combo crash test~
 ~
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     %echo% male
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     %echo% elseif female
   else
     %echo% else nuetral

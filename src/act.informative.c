@@ -1782,13 +1782,13 @@ ACMD(do_levels)
     switch (GET_GENDER(ch)) {
     case GENDER_MALE:
     case GENDER_NEUTRAL:
-      nlen = snprintf(buf + len, sizeof(buf) - len, "%s\r\n", title_male(GET_CLASS(ch), i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%s\r", title_male(GET_CLASS(ch), i));
       break;
     case GENDER_FEMALE:
-      nlen = snprintf(buf + len, sizeof(buf) - len, "%s\r\n", title_female(GET_CLASS(ch), i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%s\r", title_female(GET_CLASS(ch), i));
       break;
     default:
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\nYou are sexless.\r");
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\nYou are genderless.\r");
       break;
     }
     if (len + nlen >= sizeof(buf))

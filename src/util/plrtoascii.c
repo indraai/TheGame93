@@ -128,7 +128,7 @@ struct char_file_u_plrtoascii {
    char	name[MAX_NAME_LENGTH+1];
    char	description[PLR_DESC_LENGTH];
    char	title[MAX_TITLE_LENGTH+1];
-   byte sex;
+   byte gender;
    byte chclass;
    byte level;
    sh_int hometown;
@@ -201,8 +201,8 @@ void convert(char *filename)
     fprintf(outfile, "Titl: %s\n", player.title);
     if (*player.description)
       fprintf(outfile, "Desc:\n%s~\n", player.description);
-    if (player.sex != PFDEF_GENDER)
-      fprintf(outfile, "Sex : %d\n", (int)player.sex);
+    if (player.gender != PFDEF_GENDER)
+      fprintf(outfile, "Sex : %d\n", (int)player.gender);
     if (player.chclass != PFDEF_CLASS)
       fprintf(outfile, "Clas: %d\n", (int)player.chclass);
     if (player.level != PFDEF_LEVEL)

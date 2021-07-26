@@ -130,7 +130,7 @@ const char *sector_types[] = {
   "\n"
 };
 
-/** PC and NPC sex.
+/** PC and NPC GENDER.
  * @pre Must be in the same order as the defines.
  * Must end array with a single newline. */
 const char *genders[] =
@@ -300,7 +300,7 @@ const char *connected_types[] = {
   "Get password",
   "Get new PW",
   "Confirm new PW",
-  "Select sex",
+  "Select gender",
   "Select class",
   "Reading MOTD",
   "Main Menu",

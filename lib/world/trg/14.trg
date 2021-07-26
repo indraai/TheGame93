@@ -820,7 +820,7 @@ Nested If Example~
 * In this nested if example anyone leaving north will be checked for passage.
 if %direction% == NORTH
   * If it is a male over 18 let them pass.
-  if %actor.sex% == MALE
+  if %actor.gender% == MALE
     if %actor.age% > 18
       say Welcome.
     else
@@ -828,7 +828,7 @@ if %direction% == NORTH
       return 0
     end
     * If a female over 18 or less than 18 but charisma above 16 let them pass.
-  elseif %actor.sex% == FEMALE
+  elseif %actor.gender% == FEMALE
     if %actor.age% > 18
       say welcome.
     else
@@ -840,7 +840,7 @@ if %direction% == NORTH
       end
     end
     * Don't let nuetrals pass
-  elseif %actor.sex% == NUETRAL
+  elseif %actor.gender% == NUETRAL
     say what the heck are you?
     return 0
   end

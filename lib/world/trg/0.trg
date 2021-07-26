@@ -680,7 +680,7 @@ if %actor.canbeseen% && %actor.is_pc%
   %echo% SAVING_PETRI:    %actor.saving_petri%
   %echo% SAVING_BREATH:   %actor.saving_breath%
   %echo% SAVING_SPELL:    %actor.saving_spell%
-  %echo% GENDER:          %actor.sex%
+  %echo% GENDER:          %actor.gender%
   %echo% SKILL BACKSTAB:  %actor.skill(backstab)%
   %echo% THIRST:          %actor.thirst%
   %echo% TITLE:           %actor.title%
@@ -1673,11 +1673,11 @@ Room Enter Example~
 ~
 * By Rumble of The Builder Academy    tbamud.com 9091
 if %actor.is_pc%
-  if %actor.sex% == male
+  if %actor.gender% == male
     return 0
     %send% %actor% An invisible barrier blocks you. A voice rings out "No men allowed."
     %echoaround% %actor% %actor.name% walks into an invisible barrier and a voice booms "No men allowed."
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     %echo% Ladies are always welcome!
   else * must be neutral.
     return 0
@@ -1867,9 +1867,9 @@ Mob Speech and Expressions Example~
 if %actor.is_pc%
   wait 1 sec
   * Check the actors sex.
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Good day sir, what would you like?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say Good day maam, what can I get you?
   else
@@ -2393,9 +2393,9 @@ if/elseif/else Example~
 * By Rumble of The Builder Academy    tbamud.com 9091
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     %echo% male
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     %echo% elseif female
   else
     %echo% else neutral

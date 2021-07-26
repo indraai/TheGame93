@@ -302,7 +302,7 @@
 #define CON_PASSWORD      4 /**< Login with password */
 #define CON_NEWPASSWD     5 /**< New character, create password */
 #define CON_CNFPASSWD     6 /**< New character, confirm password */
-#define CON_QGENDER          7 /**< Choose character sex */
+#define CON_QGENDER          7 /**< Choose character gender */
 #define CON_QCLASS        8 /**< Choose character class */
 #define CON_RMOTD         9 /**< Reading the message of the day */
 #define CON_MENU         10 /**< At the main menu */
@@ -864,7 +864,7 @@ struct char_player_data
   char *long_descr;              /**< PC / NPC look description */
   char *description;             /**< NPC Extra descriptions */
   char *title;                   /**< PC / NPC title */
-  byte sex;                      /**< PC / NPC sex */
+  byte gender;                      /**< PC / NPC gender */
   byte chclass;                  /**< PC / NPC class */
   byte level;                    /**< PC / NPC level */
   struct time_data time;         /**< PC AGE in days */

@@ -2874,7 +2874,7 @@ static struct set_struct {
    { "quest",		LVL_DEVA, 	PC, 	BINARY },
    { "room",		LVL_BUILDER, 	BOTH, 	NUMBER },
    { "screenwidth", LVL_DEVA,  PC,   NUMBER },
-   { "sex", 		LVL_DEVA, 	BOTH, 	MISC },  /* 45 */
+   { "gender", 		LVL_DEVA, 	BOTH, 	MISC },  /* 45 */
    { "showvnums",  LVL_BUILDER,  PC, BINARY },
    { "siteok",   LVL_DEVA,  PC,   BINARY },
    { "str",		LVL_BUILDER, 	BOTH, 	NUMBER },
@@ -3217,9 +3217,9 @@ static int perform_set(struct char_data *ch, struct char_data *vict, int mode, c
     case 44: /* screenwidth */
       GET_SCREEN_WIDTH(vict) = RANGE(40, 200);
       break;
-    case 45: /* sex */
+    case 45: /* gender */
       if ((i = search_block(val_arg, genders, FALSE)) < 0) {
-        send_to_char(ch, "Must be 'male', 'female', or 'neutral'.\r\n");
+        send_to_char(ch, "\nMust be 'male', 'female', or 'neutral'.\r");
         return (0);
       }
       GET_GENDER(vict) = i;

@@ -148,7 +148,7 @@ end
 Siren sings to all around her - 20104~
 2 g 100
 ~
-  if (%actor.sex% == male)
+  if (%actor.gender% == male)
     %send% %actor% You hear someone sing, the voice overpowering your senses and strangely luring...
     wait 2 secs
     %send% %actor% You feel dizzy, as your feet takes you towards the voice...
@@ -165,7 +165,7 @@ Siren confuses the male - 20104~
 if (%actor.name%==Elixias)
   return 0
 else
-  if (%actor.sex%==male)
+  if (%actor.gender%==male)
     %send% %actor% A siren slides her body against yours seductively.
     wait 5 sec
     %echo% The siren starts singing, and walks towards the ocean...
@@ -207,7 +207,7 @@ Player can't move! - 20104~
 if %actor.name% == Elixias
   return 0
 else
-  if (%actor.sex%==male)
+  if (%actor.gender%==male)
     %send% %actor% The power of the Siren's voice holds you mesmerized.
     %send% %actor% You can't move!
   else

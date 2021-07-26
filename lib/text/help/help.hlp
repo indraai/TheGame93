@@ -2204,7 +2204,7 @@ right. Parenthesis can be used to create priority.
 -------------------------------------------------------------------------------
 | || | logical or            | if %actor.level% == 30 || %actor.name% == Rumble
 |    |                       | (if actor level equals 30 or name equals Rumble)
-| && | logical and           | if %actor.is_pc% && %actor.sex% == male
+| && | logical and           | if %actor.is_pc% && %actor.gender% == male
 |    |                       | (if actor is a player and is male)
 | == | equal to              | if %actor.hitp% == 1
 |    |                       | (if actor hitpoints is equal to 1)

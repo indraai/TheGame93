@@ -1571,7 +1571,7 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_CHPWD_VRFY:
     if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character),
 		MAX_PWD_LENGTH)) {
-      write_to_output(d, "\r\nPasswords don't match... start over.\r\nPassword: ");
+      write_to_output(d, "\nPasswords don't match... start over.\r\nPassword:\r");
       if (STATE(d) == CON_CNFPASSWD)
 	STATE(d) = CON_NEWPASSWD;
       else
@@ -1581,32 +1581,32 @@ void nanny(struct descriptor_data *d, char *arg)
     echo_on(d);
 
     if (STATE(d) == CON_CNFPASSWD) {
-      write_to_output(d, "\r\nWhat is your sex (\t(M - Male\t)/\t(N - Neutral\t))? ");
+      write_to_output(d, "\nWhat is your gender? (\t(M - Male\t)/\t(N - Neutral\t))?\r");
       STATE(d) = CON_QGENDER;
     } else {
       save_char(d->character);
-      write_to_output(d, "\r\nDone.\r\n%s", CONFIG_MENU);
+      write_to_output(d, "\nDone.\r\n%s\r", CONFIG_MENU);
       STATE(d) = CON_MENU;
     }
     break;
 
-  case CON_QGENDER:		/* query sex of new user         */
+  case CON_QGENDER:		/* query gender of new user         */
     switch (*arg) {
     case 'm':
     case 'M':
-      d->character->player.sex = GENDER_MALE;
+      d->character->player.gender = GENDER_MALE;
       break;
     case 'n':
     case 'N':
-      d->character->player.sex = GENDER_NEUTRAL;
+      d->character->player.gender = GENDER_NEUTRAL;
       break;
-    // case 'f':
-    // case 'F':
-    //   d->character->player.sex = GENDER_FEMALE;
-    //   break;
+    case 'f':
+    case 'F':
+      d->character->player.gender = GENDER_FEMALE;
+      break;
     default:
-      write_to_output(d, "That is not a sex..\r\n"
-		"What IS your sex? ");
+      write_to_output(d, "\nThat is not a gender..\r"
+		    "\nWhat IS your gender?\r");
       return;
     }
 
@@ -1617,7 +1617,7 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_QCLASS:
     load_result = parse_class(*arg);
     if (load_result == CLASS_UNDEFINED) {
-      write_to_output(d, "\r\nThat's not a class.\r\nClass: ");
+      write_to_output(d, "\nThat's not a class.\r\nClass:\r");
       return;
     } else
       GET_CLASS(d->character) = load_result;

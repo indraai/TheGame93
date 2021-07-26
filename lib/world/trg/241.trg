@@ -673,17 +673,17 @@ end
 (24132) Wield Batleth~
 1 c 2
 wi~
-if %cmd.mudcommand% == wield && batleth /= %arg% && %arg% && %actor.sex% == Male
+if %cmd.mudcommand% == wield && batleth /= %arg% && %arg% && %actor.gender% == Male
   return 0
   wait 1
   %send% %actor% You swing the batleth through the air with superior skill.
   %echoaround% %actor% %actor.name% swings the batleth through the air with superior skill.
-elseif %cmd.mudcommand% == wield && batleth /= %arg% && %arg% && %actor.sex% == Female
+elseif %cmd.mudcommand% == wield && batleth /= %arg% && %arg% && %actor.gender% == Female
   return 0
   wait 1
   %send% %actor% You scream your warcry and glare at any nearby males!
   %echoaround% %actor% %actor.name% screams %actor.hisher% warcry and glares at any nearby males!
-elseif %cmd.mudcommand% == wield && batleth /= %arg% && %arg% && %actor.sex% == Neutral
+elseif %cmd.mudcommand% == wield && batleth /= %arg% && %arg% && %actor.gender% == Neutral
   return 0
   wait 1
   %send% %actor% You flow through your learned batleth movements and finish in a defensive stance.

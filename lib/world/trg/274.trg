@@ -102,7 +102,7 @@ set actor %random.char%
 switch %random.4%
     case 1
       say MommY!!! Daday!!!
-      if %actor.sex% = man
+      if %actor.gender% = man
        say its a mean old man!
       else
        say its a mean witch!
@@ -144,10 +144,10 @@ Hookers~
 ~
 * By Rumble of The Builder Academy    tbamud.com 9091
 if %actor.is_pc%
-   if %actor.sex% == male
+   if %actor.gender% == male
     say Hey baby, how bout a little action and some
     say small bit of fun~ I am all that.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     say Get lost you bitch... I am not into Women!
     say what a whacko pervert!
   else

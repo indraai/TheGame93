@@ -3,9 +3,9 @@
 0 gh 100
 ~
 set gender one
-if %actor.sex% == male
+if %actor.gender% == male
 set gender lad
-elseif %actor.sex% == female
+elseif %actor.gender% == female
 set gender lady
 end
 wait 2 s
@@ -63,9 +63,9 @@ end
 xx~
 wait 15 s
 set gender shadow-creature
-if %actor.sex% == male
+if %actor.gender% == male
   set gender shadow-man
-elseif %actor.sex% == female
+elseif %actor.gender% == female
   set gender shadow-woman
 end
 if %actor.varexists(zn118_gravedone)%
@@ -1799,9 +1799,9 @@ if %cmd.mudcommand% == look || %cmd.mudcommand% == examine
     else
       set move exhausted-looking
     end
-    if %actor.sex% == male
+    if %actor.gender% == male
       set sex man
-    elseif %actor.sex% == female
+    elseif %actor.gender% == female
       set sex woman
     else
       set sex person

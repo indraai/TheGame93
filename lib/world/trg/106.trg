@@ -3,10 +3,10 @@ Armorer - 10634~
 0 g 100
 ~
 if %actor.is_pc%
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Good day to ya sir, my friend to the east has my wares for sale, we have a partnership.
     chuckle
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     say Good day to ya maam, my friend to the east has my wares for sale, we have a partnership.
     smirk
   end

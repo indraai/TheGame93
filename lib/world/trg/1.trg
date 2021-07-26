@@ -85,9 +85,9 @@ Mob Greet Hannibal - 140~
 * Shopkeeper greets players based on male/female/neutral.
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Good day sir, what would you like?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say Good day maam, what can I get you?
   else
@@ -101,11 +101,11 @@ Mob Greet Carpenter - 197~
 ~
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Can't you see the place is under repairs?
     wait 1 sec
     say Don't worry, the inn will be open again soon.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say Come to work, have you?
     wait 1 sec
@@ -130,9 +130,9 @@ Mob Greet Rhian - 104~
 ~
 if %actor.is_pc%
   wait 3 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     smile %actor.name%
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     frown %actor.name%
   else
@@ -147,9 +147,9 @@ Mob Greet Sarge - 109~
 if %actor.is_pc%
   look %actor.name%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say See anything you like?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1
     gaze %actor.name%
     wait 1
@@ -167,13 +167,13 @@ if %actor.is_pc%
   wait 1 sec
   grin %actor.name%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Look at this fine vest.
     wait 1 sec
     emote holds up a gaudy red vest.
     wait 1 sec
     say this would wear well on you.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     say for you my young lady, I have a fine silk shirt.
   else
     say What do you want?
@@ -186,9 +186,9 @@ Mob Greet Branwen - 111~
 ~
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say if it's made from leather, I have it.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say the finest leather in the realms is what I sell.
   else
@@ -204,11 +204,11 @@ if %actor.is_pc%
   wait 1 sec
   sigh
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say need a drink. I sure do
     wait 1 sec
     emote downs a shot of whisky.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say can I get you a drink.
     wait 1 sec
@@ -226,9 +226,9 @@ if %actor.is_pc%
   wait 1 sec
   cackle %actor.name%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say ahhh, doesn't that smell good.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say what can I get you, my pretty.
   else
@@ -262,9 +262,9 @@ if %actor.is_pc%
   wait 1 sec
   chuckle
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say thirsty?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say I sell pure water, no worry about contaminants from me.
   else
@@ -280,9 +280,9 @@ if %actor.is_pc%
   wait 1 sec
   emote steps away from her sewing machine.
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say anything I can help you with sir?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say I could make something nice for a woman like you.
   else
@@ -296,9 +296,9 @@ Mob Greet Ian - 101~
 ~
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say I make furs for the common man, because that is what I am.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say a fine fur coat would suit you well.
   else
@@ -312,9 +312,9 @@ Mob Greet Liam - 119~
 ~
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Take your time, i've got all day.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say you aren't really an adventurer are you?
     wait 1 sec
@@ -332,9 +332,9 @@ if %actor.is_pc%
   wait 1 sec
   say best bread in town.
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     emote slams some dough down onto the counter.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say I'm hiring if you can cook.
   else
@@ -352,9 +352,9 @@ if %actor.is_pc%
   wait 1 sec
   say I can butcher anything.
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     emote splatters some goo on you as he hacks at some meat.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say sorry about the mess mam.
   else
@@ -372,9 +372,9 @@ if %actor.is_pc%
   wait 1 sec
   say see anything you would like.
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     emote watches you carefully.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say isn't this diamond beautiful.
   else
@@ -390,11 +390,11 @@ if %actor.is_pc%
   wait 1 sec
   glare
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say much better food here than the baker or butcher sells.
     wait 1 sec
     whisper %actor.name% I hear the butcher's meat is tainted.
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say hungry?
   else
@@ -408,9 +408,9 @@ Mob Greet Lugdach - 106~
 ~
 if %actor.is_pc%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Aye! What can I getcha!
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say What's a fine lass like you doing here?
   else
@@ -426,9 +426,9 @@ if %actor.is_pc%
   wait 1 sec
   smile %actor.name%
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say What aid do you need?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say Can I help you miss?
   else
@@ -444,9 +444,9 @@ if %actor.is_pc%
   wait 1 sec
   bow
   wait 1 sec
-  if %actor.sex% == male
+  if %actor.gender% == male
     say Are you in need of a scroll?
-  elseif %actor.sex% == female
+  elseif %actor.gender% == female
     wait 1 sec
     say I have many types of scrolls
   else
@@ -489,9 +489,9 @@ Mob Bribe Beggar - 165~
 ~
 * By Rumble of The Builder Academy    tbamud.com 9091
 wait 1 sec
-if %actor.sex% == MALE
+if %actor.gender% == MALE
   say Thank you, kind sir.
-elseif %actor.sex% == FEMALE
+elseif %actor.gender% == FEMALE
   say Thank you, ma'am.
 else
   emote looks you over trying to determine your sex.

@@ -14,7 +14,7 @@ emote grabs a few pieces of wood from a pile in the corner of the room and adds 
 Firetender Greet Female~
 0 g 100
 ~
-if (%actor.sex% == MALE)
+if (%actor.gender% == MALE)
   wait 1 s
   say Oh my! But you cannot be in here! Ladies only, m'lord!
 else
@@ -26,14 +26,14 @@ end
 Firetender Greet Male~
 0 g 100
 ~
-if (%actor.sex% == FEMALE)
+if (%actor.gender% == FEMALE)
   wait 1 s
   emote stares at you with round eyes, aghast.
   wait 1 s
   say M'lady! Thou canst not enter this chamber for fear of spoiling thy virtue!
   wait 1 s
   say I beg thee, m'lady - please avert thine eyes and leave!
-else if (%actor.sex% == MALE)
+else if (%actor.gender% == MALE)
   wait 1 s
   say A bath for m'lord?
 end
@@ -71,7 +71,7 @@ mecho What in the heck could that have been?
 Lord's Guest Leave Room~
 0 q 7
 ~
-if (%actor.sex% == MALE)
+if (%actor.gender% == MALE)
 emote gives you a sly wink as he leaves the room.
 end
 ~

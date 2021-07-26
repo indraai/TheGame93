@@ -1061,9 +1061,9 @@ emote suddenly flits into the room.
 xxxx~
 wait 3 s
 set gender %actor.class%
-if %actor.sex% == male
+if %actor.gender% == male
 set gender laddie
-elseif %actor.sex% == female
+elseif %actor.gender% == female
 set gender lassie
 end
 wait 2 s

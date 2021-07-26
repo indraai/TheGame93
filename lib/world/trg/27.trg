@@ -1027,9 +1027,9 @@ end
 (2721) cui responds to name~
 0 d 100
 *~
-if %actor.sex% == female
+if %actor.gender% == female
   set gender woman
-elseif %actor.sex% == male
+elseif %actor.gender% == male
   set gender man
 else
   set gender person
