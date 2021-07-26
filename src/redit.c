@@ -318,12 +318,11 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 
   clear_screen(d);
   write_to_output(d,
-    "\n## Extra Info\r"
-    "\n----\n"
-	  "\nselect[1:keyword]:%s\r"
+    "\n## Tags\r"
+	  "\nselect[1:keywords]:%s\r"
 	  // "\nselect[2:description]:%s\r"
-	  "\nselect[3:next]:Next Info\r"
     "\n----\n"
+    "\nmenu:3:next tag"
     "\nmenu:0:done",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>"
 	  // extra_desc->description ? extra_desc->description : "<NONE>"
@@ -359,15 +358,14 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit\r"
-    "\n----\n"
 	  "\nselect[1:exit to]:%d\r"
 	  "\nselect[2:desc]:%s\r"
 	  "\nselect[3:door name]:%s\r"
 	  "\nselect[4:key]:%d\r"
 	  "\nselect[5:door flags]:'%s'\r"
     "\n----\n"
-	  "\nmenu:6:purge exit\r"
-    "\n----\n"
+	  "\nmenu:6:delete exit\r"
+    "\n-\n"
 	  "\nmenu:0:done\r",
 
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -386,7 +384,6 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   write_to_output(d,
     "\n## Doors\r"
-    "\n----\n"
     "\nmenu:0:no door\r"
 	  "\nmenu:1:closable door\r"
     "\nmenu:2:pickproof door\r"
@@ -403,19 +400,16 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d,
-    "\n## Room Flags\r"
-    "\n--\n"
-  );
+  write_to_output(d,"\n## Room Flags\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
     write_to_output(d, "\nbmud:%d:%s\r", ++count, room_bits[i]);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n--\n"
+  write_to_output(d, "\n----\n"
   "\nflags: %s\r"
-  "\n--\n"
+  "\n-\n"
   "\nmenu:0:done\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
@@ -450,7 +444,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprintbitarray(room->room_flags, room_bits, RF_ARRAY_MAX, buf1);
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
-    "\n# %d %s\r"
+    "\n# Room: %d\r"
     "\n-\n"
     "\n## Details\r"
     "\nselect[a:name]:%s\r"
@@ -459,7 +453,6 @@ static void redit_disp_menu(struct descriptor_data *d)
     "\nselect[c:type]:%s\r"
     "\nselect[d:script]:%s\r",
     OLC_NUM(d),
-    room->name,
     room->name,
     // room->description,
     buf1,
@@ -527,7 +520,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n----\n"
-      "\nmenu:o:extra info\r"
+      "\nmenu:o:extra tags\r"
       "\nmenu:p:copy room\r"
       "\nmenu:x:delete room\r"
       "\n-\n"
