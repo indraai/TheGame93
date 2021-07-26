@@ -321,10 +321,13 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
     "\n## Tags\r"
 	  "\nselect[1:keywords]:%s\r"
 	  // "\nselect[2:description]:%s\r"
+    "\nselect[3:next tag]:%s\r"
     "\n----\n"
     "\nmenu:3:next tag"
     "\nmenu:0:done",
-	  extra_desc->keyword ? extra_desc->keyword : "<NONE>"
+	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
+    !extra_desc->next ? "not set..." : "set...");
+
 	  // extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
 
@@ -445,7 +448,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# Room: %d\r"
-    "\n-\n"
+    "\n=\n"
     "\n## Details\r"
     "\nselect[a:name]:%s\r"
     // "\nselect[2:desc]:%s\r"
@@ -485,7 +488,6 @@ static void redit_disp_menu(struct descriptor_data *d)
   } else {
     write_to_output(d,
       "\n## Exits\r"
-      "\n----\n"
       "\nselect[e:north]:%d\r"
       "\nselect[f:east]:%d\r"
       "\nselect[g:south]:%d\r"
@@ -523,7 +525,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nmenu:o:extra tags\r"
       "\nmenu:p:copy room\r"
       "\nmenu:x:delete room\r"
-      "\n-\n"
+      "\n=\n"
       "\nmenu:q:quit\r"
       );
   OLC_MODE(d) = REDIT_MAIN_MENU;

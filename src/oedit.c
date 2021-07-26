@@ -302,9 +302,9 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 	  "\nmenu:2:pickproof\r"
 	  "\nmenu:3:closed\r"
 	  "\nmenu:4:locked\r"
-    "\n===\r"
+    "\n====\r"
 	  "\nflags: %s\r"
-    "\n===\r"
+    "\n=\r"
     "\nmenu:0:quit\r",
 	  bits);
 }
@@ -317,15 +317,16 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "\n# Extra Description\r"
+	  "\n## Extra Description\r"
 	  "\nselect[1:keywords]:%s\r"
 	  "\nselect[2:desc]:%s\r"
 	  "\nselect[3:next desc]:%s\r"
+    "\n=\n"
 	  "\nmenu:0:quit\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
     (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
-	  !extra_desc->next ? "Not set." : "Set.");
+	  !extra_desc->next ? "not set..." : "set...");
   OLC_MODE(d) = OEDIT_EXTRADESC_MENU;
 }
 
@@ -363,7 +364,7 @@ static void oedit_liquid_type(struct descriptor_data *d)
   write_to_output(d, "\n# Liquid Type\r");
   // column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
   for (i = 0; i < NUM_LIQ_TYPES; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, drinks[i]);
+    write_to_output(d, "\nbmud:%d:%s\r", ++count, drinks[i]);
   }
   write_to_output(d, "menu:0:quit");
   OLC_MODE(d) = OEDIT_VALUE_3;
@@ -566,12 +567,12 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n# Object Type\r");
+  write_to_output(d, "\n## Object Type\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "\nbutton:%d:%s\r", ++count, item_types[i]);
+    write_to_output(d, "\nbmud:%d:%s\r", ++count, item_types[i]);
   }
-  write_to_output(d, "\n===\n"
+  write_to_output(d, "\n=\n"
   "\nmenu:0:quit\r");
 }
 
@@ -584,15 +585,15 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n# Object Flags\r");
+  write_to_output(d, "\n## Object Flags\r");
 
   for (i = 0; i < NUM_ITEM_FLAGS; i++) {
-    write_to_output(d, "\nbutton:%d:%s\r", ++count, extra_bits[i]);
+    write_to_output(d, "\nbmud:%d:%s\r", ++count, extra_bits[i]);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\n===\n"
+  write_to_output(d, "\n====\n"
     "\nflags: %s\r"
-    "\n===\n"
+    "\n=\n"
     "\nmenu:0:quit\r",
     bits
   );
@@ -612,9 +613,9 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
   }
 
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\n===\n"
+  write_to_output(d, "\n====\n"
     "\rflags: %s\n"
-    "\n===\n"
+    "\n=\n"
     "\nmenu:0:quit\r",
     bits);
 }
@@ -627,15 +628,15 @@ static void oedit_disp_wear_menu(struct descriptor_data *d)
 
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n# Wear Flags\r");
+  write_to_output(d, "\n## Wear Flags\r");
 
   for (i = 0; i < NUM_ITEM_WEARS; i++) {
-    write_to_output(d, "\nbutton:%d:%s\r", ++count, wear_bits[i]);
+    write_to_output(d, "\nbmud:%d:%s\r", ++count, wear_bits[i]);
   }
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, TW_ARRAY_MAX, bits);
-  write_to_output(d, "\n===\n"
+  write_to_output(d, "\n====\n"
     "\nflags: %s\r"
-    "\n===\n"
+    "\n=\n"
     "\nmenu:0:quit\r",
     bits);
 }

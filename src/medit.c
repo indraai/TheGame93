@@ -432,8 +432,8 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Agent %d\r"
-  "\n-\n"
+  "\n# Agent: %d\r"
+  "\n=\n"
   "\n## Details\r"
   "\nselect[a:gender]:%s\r"
   "\nselect[b:keywords]:%s\r"
@@ -460,10 +460,10 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[j:personality]:%s\r"
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
-    "\n----\n"
+    "\n====\n"
     "\nmenu:p:copy agent\r"
 	  "\nmenu:x:delete agent\r"
-    "\n-\n"
+    "\n=\n"
 	  "\nmenu:q:quit\r",
 
 	  position_types[(int)GET_POS(mob)],
