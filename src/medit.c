@@ -711,8 +711,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case '1':  /* Edit level */
       OLC_MODE(d) = MEDIT_LEVEL;
-      i++;
-      break;
+      write_to_output(d, "level:%d (1-33)",
+        GET_LEVEL(OLCMOB(d))
+      );
+      return;
     case '2':  /* Autoroll stats */
       medit_autoroll_stats(d);
       medit_disp_stats_menu(d);
@@ -720,28 +722,40 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case '3':
       OLC_MODE(d) = MEDIT_NUM_HP_DICE;
-      i++;
-      break;
+      write_to_output(d, "hit:%d (1-30)",
+        GET_HIT(OLCMOB(d))
+      );
+      return;
     case '4':
       OLC_MODE(d) = MEDIT_SIZE_HP_DICE;
-      i++;
-      break;
+      write_to_output(d, "mana:%d (1-1000)",
+        GET_HIT(OLCMOB(d))
+      );
+      return;
     case '5':
       OLC_MODE(d) = MEDIT_ADD_HP;
-      i++;
-      break;
+      write_to_output(d, "move:%d (1-30,000)",
+        GET_MOVE(OLCMOB(d))
+      );
+      return
     case '6':
       OLC_MODE(d) = MEDIT_NDD;
-      i++;
-      break;
+      write_to_output(d, "dice:%d (1-30)",
+        GET_NDD(OLCMOB(d))
+      );
+      return;
     case '7':
       OLC_MODE(d) = MEDIT_SDD;
-      i++;
-      break;
+      write_to_output(d, "size:%d (1-127)",
+        GET_SDD(OLCMOB(d))
+      );
+      return;
     case '8':
       OLC_MODE(d) = MEDIT_DAMROLL;
-      i++;
-      break;
+      write_to_output(d, "roll:%d (1-50)",
+        GET_DAMROLL(OLCMOB(d))
+      );
+      return;
     case 'a':
     case 'A':
       OLC_MODE(d) = MEDIT_AC;
@@ -763,8 +777,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       i++;
       break;
     case 'e':
-      write_to_output(d, "\n## Alignment\r"
-        "\nSet alignment between -1000 to 1000\r"
+      write_to_output(d, "\nSet alignment between -1000 to 1000\r"
         "\nalign:%d",
         GET_ALIGNMENT(OLC_MOB(d))
       );
