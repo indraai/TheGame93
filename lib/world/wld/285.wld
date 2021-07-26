@@ -114,22 +114,18 @@ Blackened Hall~
 Empty room.~
 285 152 0 0 0 0
 D0
-You see a blackened hall.
 ~
 ~
 0 -1 28696
 D1
-You see a blackened hall.
 ~
 ~
 0 -1 28507
 D2
-You see the hallway of the Mall from Hell .
 ~
 ~
 0 -1 28516
 D3
-You see the Halls of Judgement.
 ~
 ~
 0 -1 28505
@@ -140,12 +136,10 @@ Blackened Hall~
 Empty room.~
 285 152 0 0 0 0
 D1
-You see a blackened hall.
 ~
 ~
 0 -1 28508
 D3
-You see a blackened hall.
 ~
 ~
 0 -1 28506
@@ -155,12 +149,10 @@ Blackened Hall~
 Empty room.~
 285 152 0 0 0 0
 D0
-You see a blackened hall.
 ~
 ~
 0 -1 28698
 D3
-You see a blackened hall.
 ~
 ~
 0 -1 28507
@@ -174,7 +166,6 @@ D4
 ~
 0 0 28500
 D5
-You see the eternal darkness of the Abyss.
 ~
 ~
 0 -1 28518
@@ -185,7 +176,6 @@ Maintenance Walkway~
 Empty room.~
 285 152 0 0 0 0
 D0
-You see a steel door.
 ~
 door steel~
 1 -1 28500
