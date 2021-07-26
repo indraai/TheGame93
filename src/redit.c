@@ -326,7 +326,7 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
     "\nmenu:3:next tag"
     "\nmenu:0:done",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
-    !extra_desc->next ? "not set..." : "set...");
+    !extra_desc->next ? "not set..." : "set..."
 
 	  // extra_desc->description ? extra_desc->description : "<NONE>"
 	  );
