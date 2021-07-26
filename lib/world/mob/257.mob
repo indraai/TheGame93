@@ -660,18 +660,17 @@ A big, strong, helpful, trustworthy SecurityDEVA.
 8 8 0
 E
 #25768
-pale skinny street urchin~
-the pale street urchin~
-A pale, skinny street urchin is here looking for any handouts or
-valuable garbage.
+happy healthy street merchant~
+Street Merchant~
+The Street Merchant is here to trade cool stuff.
 ~
-   Grubby from head to toe, this poor fella looks like he was born on the
-streets.
+The Street Merchant looks like they have some good trades today.
 ~
 256216 0 0 0 16 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
+BareHandAttack: 4
 E
 #25769
 commoner~
