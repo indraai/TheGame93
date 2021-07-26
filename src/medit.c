@@ -737,7 +737,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "move:%d (1-30,000)",
         GET_MOVE(OLC_MOB(d))
       );
-      return
+      return;
     case '6':
       OLC_MODE(d) = MEDIT_NDD;
       write_to_output(d, "dice:%d (1-30)",
