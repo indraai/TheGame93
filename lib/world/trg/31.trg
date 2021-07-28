@@ -95,10 +95,10 @@ Security Check~
 set vnum %self.vnum%
 set role agent
 if %actor.is_pc%
-  set role player
+  eval role player
 
 set secstr %vnum%:%direction%:%actor.id%:%role%
-%send% %actor% Security Granted... %actor.name%
+%send% %actor% Security Granted... %role% %actor.name%
 ~
 #3107
 Security Greeting~
