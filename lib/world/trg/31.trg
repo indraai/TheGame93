@@ -4,9 +4,7 @@ North: Agency Guard~
 ~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
-
 %echoaround% security:check:%secstr%
-
 if %direction% == north && %actor.is_pc%
   %send% %actor% Access Denied
   %echoaround% security:deny:%secstr%
@@ -21,9 +19,7 @@ East: Agency Guard~
 ~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
-
 %echoaround% security:check:%secstr%
-
 if %direction% == east && %actor.is_pc%
   %send% %actor% Access Denied
   %echoaround% security:deny:%secstr%
@@ -38,9 +34,7 @@ South: Agency Guard~
 ~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
-
 %echoaround% security:check:%secstr%
-
 if %direction% == south && %actor.is_pc%
   %send% %actor% Access Denied
   %echoaround% security:deny:%secstr%
@@ -55,9 +49,7 @@ West: Agency Guard~
 ~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
-
 %echoaround% security:check:%secstr%
-
 if %direction% == west && %actor.is_pc%
   %send% %actor% Access Denied
   %echoaround% security:deny:%secstr%
@@ -72,9 +64,7 @@ Up: Agency Guard~
 ~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
-
 %echoaround% security:check:%secstr%
-
 if %direction% == up && %actor.is_pc%
   return 0
   %send% %actor% Access Denied
@@ -89,9 +79,7 @@ Down: Agency Guard~
 ~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
-
 %echoaround% security:check:%secstr%
-
 if %direction% == down && %actor.is_pc%
   return 0
   %send% %actor% Access Denied
@@ -108,5 +96,11 @@ set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 %send% %actor% Security Check
 %echoaround% security:check:%secstr%
+~
+#3107
+SecurityDuty~
+0 e 100
+~
+say Hello %actor.name%.
 ~
 $~
