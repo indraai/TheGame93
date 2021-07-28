@@ -405,16 +405,17 @@ BareHandAttack: 5
 E
 T 3009
 #3060
-secuirty deva securitydeva devaforce sd3059~
-SD3059 SecurityDEVA~
-SD3059 SecurityDEVA is here.
+security deva securitydeva devaforce d3060~
+SecurityDEVA D3060~
+SecurityDEVA D3060 is on duty.
 ~
 A big, strong, helpful, trustworthy SecurityDEVA.
 ~
-6216 0 0 0 16 0 0 0 1000 E
+242012 0 0 0 26744 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
+BareHandAttack: 5
 E
 T 3009
 #3061
