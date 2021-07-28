@@ -92,7 +92,7 @@ end
 Security Check~
 2 q 100
 ~
-set role agent
+eval role agent
 
 if %actor.is_pc%
   eval role player
