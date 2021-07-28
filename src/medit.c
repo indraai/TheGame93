@@ -780,36 +780,48 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'k':
       OLC_MODE(d) = MEDIT_GOLD;
-      i++;
-      break;
+      write_to_output(d, "\nSet the gold amount... (0 to %d)\r"
+        "\ncurrent:%d",
+        MAX_MOB_GOLD,
+        GET_GOLD(OLC_MOB(d))
+      );
+      return;
     case 'l':
       OLC_MODE(d) = MEDIT_HITROLL;
-      i++;
-      break;
+      write_to_output(d, "\nSet the hitroll... (0 to 50)\r"
+        "\ncurrent:%d",
+        GET_HITROLL(OLC_MOB(d))
+      );
+      return;
     case 'm':
+      OLC_MODE(d) = MEDIT_ALIGNMENT;
       write_to_output(d, "\nSet alignment... -1000 to 1000\r"
         "\ncurrent:%d\r",
         GET_ALIGNMENT(OLC_MOB(d))
       );
-      OLC_MODE(d) = MEDIT_ALIGNMENT;
-      i++;
-      break;
+      return;
     case 'n':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
+        write_to_output(d, "\nerror:Invalid Option.\r");
         return;
-	  }
+      }
       OLC_MODE(d) = MEDIT_STR;
-      i++;
-      break;
+      write_to_output(d, "\nSet strength... 11 to 25\r"
+        "\ncurrent:%d\r",
+        GET_STR(OLC_MOB(d))
+      );
+      return;
     case 'o':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
+        write_to_output(d, "\nerror:Invalid Choice.\r");
         return;
-	  }
+      }
       OLC_MODE(d) = MEDIT_INT;
-      i++;
-      break;
+      write_to_output(d, "\nSet intelligence... 11 to 25\r"
+        "\ncurrent:%d\r",
+        GET_INT(OLC_MOB(d))
+      );
+      return;
     case 'p':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");

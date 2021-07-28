@@ -887,7 +887,7 @@ saving_rod()    - The actors saving throw for staffs/wands. Subfield adjusts.
 saving_petri()  - The actors saving throw for petrification. Subfield adjusts.
 saving_breath() - The actors saving throw for breath weapons. Subfield adjusts.
 saving_spell()  - The actors saving throw for spells. Subfield adjusts.
-sex             - The actor's sex, as a string: MALE, FEMALE, or NEUTRAL.
+gender             - The actor's sex, as a string: MALE, FEMALE, or NEUTRAL.
 skill()         - The percentage of learnedness in the skill subfield.
 skillset("" #)  - Set the actors practiced level any skill or spell (1-100).
                   %actor.skillset("magic missile" 95)%.

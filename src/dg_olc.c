@@ -211,7 +211,7 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nselect[3:types]:%s\r"
   "\nselect[4:num arg]:%d\r"
   "\nselect[5:arguments]:%s\r"
-  "\nselect[6:commands]: edit code\r"
+  "\nselect[6:commands]: set...\r"
   "\n----\n"
   "%s"
   "\n-\n"
@@ -222,7 +222,7 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   attach_type,			              /* attach type            */
   trgtypes,			                  /* greet/drop/etc         */
   trig->narg,			                /* numeric arg            */
-  trig->arglist?trig->arglist:"", /* strict arg             */
+  trig->arglist?trig->arglist:"set...", /* strict arg             */
   OLC_STORAGE(d)		              /* the command list       */
   );
 

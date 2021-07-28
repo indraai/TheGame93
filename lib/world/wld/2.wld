@@ -18,8 +18,8 @@ D2
 E
 credits info~
    Builder   : Rumble
-Zone         : 2 Sanctus II
-Related Zones: 1 Sanctus, 3 Sanctus III
+Zone         : 2 The Dome II
+Related Zones: 1 The Dome, 3 The Dome III
 Began        : 2000
 Player Level : 1-34
 Rooms        : 100
@@ -28,33 +28,33 @@ Objects      : 19
 Shops        : 10
 Triggers     : 1
 Theme        : A mortal starting town.
-Plot         : Fabric of time torn, world going to hell. Sanctus one of the few
+Plot         : Fabric of time torn, world going to hell. The Dome one of the few
                safe havens remaining.
 Links        : 43w
 Zone 2 is linked to the following zones:
-  1 Sanctus                        at   200 (north) --->   189
-  1 Sanctus                        at   201 (north) --->   194
-  1 Sanctus                        at   202 (north) --->   195
-  1 Sanctus                        at   203 (north) --->   196
-  1 Sanctus                        at   204 (north) --->   197
-  1 Sanctus                        at   205 (north) --->   198
-  1 Sanctus                        at   206 (north) --->   199
-  1 Sanctus                        at   207 (up   ) --->   111
-  1 Sanctus                        at   213 (up   ) --->   112
-  1 Sanctus                        at   243 (up   ) --->   114
-  1 Sanctus                        at   248 (up   ) --->   115
-  1 Sanctus                        at   251 (up   ) --->   100
-  1 Sanctus                        at   254 (up   ) --->   118
-  1 Sanctus                        at   259 (up   ) --->   119
-  3 Sanctus III                    at   287 (south) --->   300
-  3 Sanctus III                    at   288 (south) --->   301
-  1 Sanctus                        at   289 (up   ) --->   121
-  3 Sanctus III                    at   292 (south) --->   302
-  1 Sanctus                        at   295 (up   ) --->   122
-  3 Sanctus III                    at   296 (south) --->   303
-  3 Sanctus III                    at   297 (south) --->   304
-  3 Sanctus III                    at   298 (south) --->   305
-  3 Sanctus III                    at   299 (east ) --->   300
+  1 The Dome                        at   200 (north) --->   189
+  1 The Dome                        at   201 (north) --->   194
+  1 The Dome                        at   202 (north) --->   195
+  1 The Dome                        at   203 (north) --->   196
+  1 The Dome                        at   204 (north) --->   197
+  1 The Dome                        at   205 (north) --->   198
+  1 The Dome                        at   206 (north) --->   199
+  1 The Dome                        at   207 (up   ) --->   111
+  1 The Dome                        at   213 (up   ) --->   112
+  1 The Dome                        at   243 (up   ) --->   114
+  1 The Dome                        at   248 (up   ) --->   115
+  1 The Dome                        at   251 (up   ) --->   100
+  1 The Dome                        at   254 (up   ) --->   118
+  1 The Dome                        at   259 (up   ) --->   119
+  3 The Dome III                    at   287 (south) --->   300
+  3 The Dome III                    at   288 (south) --->   301
+  1 The Dome                        at   289 (up   ) --->   121
+  3 The Dome III                    at   292 (south) --->   302
+  1 The Dome                        at   295 (up   ) --->   122
+  3 The Dome III                    at   296 (south) --->   303
+  3 The Dome III                    at   297 (south) --->   304
+  3 The Dome III                    at   298 (south) --->   305
+  3 The Dome III                    at   299 (east ) --->   300
 ~
 S
 #201
@@ -220,7 +220,7 @@ S
 #209
 The Northern Temple Circle~
    An intersection can be seen just ahead to the east.  Its leading directly
-into the temple of Sanctus.  The road continues to the east and west.  A small
+into the Temple of The Dome.  The road continues to the east and west.  A small
 building to the south has boxes and envelopes stacked on both sides of the
 entrance.  The sound of someone cursing can be heard coming from within.
 ~
@@ -241,7 +241,7 @@ S
 #210
 The Northern Temple Circle Intersection~
    A large intersection spreads out in all directions.  The southern path
-appears to lead to the wonderful Temple of Sanctus.  To the east and west is a
+appears to lead to the wonderful Temple of The Dome.  To the east and west is a
 road that looks to wind around the temple.  To the north nothing can be seen but
 open road.  Everything around is silent, making the area seem abandoned and
 alone.
@@ -267,10 +267,10 @@ S
 #211
 The Northern Temple Circle~
    An intersection can be seen just ahead to the west.  Its leading directly
-into the temple of Sanctus.  The road continues to the east and west.  To the
+into the Temple of The Dome.  The road continues to the east and west.  To the
 south is a building with barred windows and a reinforced door that currently
-stands open.  A sign above the door informs passing people that it is the Bank
-of Sanctus.
+stands open.  A sign above the door informs passing people that it is The Bank
+of The Dome.
 ~
 2 0 0 0 0 1
 D1
@@ -289,9 +289,9 @@ S
 #212
 The Northern Temple Circle~
    An intersection can be seen just ahead to the west.  It looks to be leading
-directly into the temple of Sanctus.  The road continues east and west.  The
+directly into the Temple of The Dome.  The road continues east and west.  The
 sound of running water to the south and the squeak of a water pump can only mean
-one thing.  It must be the infamous Sanctus Water Hole run by none other than
+one thing.  It must be the infamous Dome Water Hole run by none other than
 Hazel herself.
 ~
 2 0 0 0 0 1
@@ -443,7 +443,7 @@ S
 #220
 The Western Temple Circle~
    This circle lies within the western sector of the inner city, beside the
-Temple of Sanctus.  The tall reinforced western wall rises high into the air.
+Temple of The Dome.  The tall reinforced western wall rises high into the air.
 Few people roam the streets and the area has a very peaceful feeling.  The sound
 of muttering voices seems to be coming from within or on top of the wall to the
 west.
@@ -459,7 +459,7 @@ D2
 0 0 233
 S
 #221
-Ingrid's Potions~
+Lotions and Potions~
    A foul smelling yellow mist hugs the floor.  Billowing around the floor as
 one works their way to the counter.  Several kettles are boiling over woodless
 fires that put off no smoke.  The yellow fog overflows the top of one of the
@@ -474,7 +474,7 @@ S
 #222
 Post Office~
    Piles of mail are stacked in every nook and cranny of this small room.  The
-postal service of Sanctus is heavily overworked it seems.  Somewhere amidst the
+postal service of The Dome is heavily overworked it seems.  Somewhere amidst the
 piles of mail someone can be heard snoring.  Maybe not overworked, just lazy.
 ~
 2 8 0 0 0 1
@@ -501,7 +501,7 @@ D2
 0 0 236
 S
 #224
-The Bank of Sanctus~
+Bank of The Dome~
    A man dressed in rich clothes and wearing a set of spectacles appears to be
 tediously counting a few thousand coins spread out on the table before him.
 This bank is well known for the security it enforces to ensure safe storage of
@@ -514,7 +514,7 @@ D0
 0 0 211
 S
 #225
-Hazel's Water Hole~
+The Water Hole~
    An elderly woman sits behind a short rack of various water containers.  A
 large water pump behind her drips slowly into a bucket set below to catch the
 water.  The DRIP, DRIP, DRIP would drive a normal person crazy, but not Hazel.
@@ -535,7 +535,7 @@ S
 The Eastern Temple Circle~
    The inner city wall rises above to the east.  The sound of armor clanking can
 be heard as some guards must be making their rounds on top of the wall.  This
-road winds around the Temple of Sanctus allowing one to enter from either the
+road winds around the Temple of The Dome allowing one to enter from either the
 north or south.
 ~
 2 0 0 0 0 1
@@ -635,7 +635,7 @@ D0
 S
 #232
 Warriors Avenue~
-   This avenue is just north of the center of the western half of Sanctus where
+   This avenue is just north of the center of the western half of The Dome where
 the Warriors Quarter and s Quarters meet.  The Western Road runs from the
 temple to the west gate.  Very few people are about, mostly just soldiers on
 patrol.
@@ -653,7 +653,7 @@ S
 #233
 The Western Temple Circle~
    To the south one see the western gate to leave the inner city.  The Temple of
-Sanctus can only be entered from the north or south.  A small shed of some sort
+The Dome can only be entered from the north or south.  A small shed of some sort
 has been erected to the east.  It was recently made from wood and appears to
 have been constructed in a hurry.
 ~
@@ -702,7 +702,7 @@ D2
 0 0 250
 S
 #236
-Inside the Temple of Sanctus~
+Inside the Temple of The Dome~
    The floor spreads out lengthwise into a small hallway.  To the south a large
 room containing a beautiful stone fountain is visible, tempting travelers to
 drink from it.  The polished floor is made from smooth marble, and looks
@@ -759,7 +759,7 @@ S
 #239
 The Eastern Temple Circle~
    The western gate of the inner city wall is just to the south where one can
-venture out into the city.  The Tower of Sanctus shines brightly, its white
+venture out into the city.  The Tower of The Dome shines brightly, its white
 marble reflecting all light that strikes it.  The Tower is rumored to be a
 combination of magic and perfect architecture.
 ~
@@ -838,16 +838,12 @@ D4
 0 0 114
 E
 dome~
-Created by Rumble and Ferret, the dome holds back the magical chaos that was
-created by Drakkar.  The dome is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the dome do so at their own risk.  Beyond the dome the scale of balance has
-collapsed and the laws of science and nature are in disorder.
+The dome holds back the magical chaos. The dome is used to keep balance within the city limits and allows everyone to exist in peace. Those brave enough to venture beyond the dome do so at their own risk. Beyond the dome the scale of balance has collapsed and the laws of science and nature are in disorder.
 ~
 S
 #244
 The Western Road~
-   The road leads directly from the Temple to the western gate.  To the north
+The road leads directly from the Temple to the western gate.  To the north
 one can see the Warriors Barracks and to the south the Hall of s.  The
 road consists of hard packed dirt with a few ruts from wagons.  The hustle and
 bustle of the city can be heard all around.
@@ -881,10 +877,10 @@ D3
 S
 #246
 The Western Intersection~
-   This road leads west to the gate or east to the Temple of Sanctus.  The
+   This road leads west to the gate or east to the Temple of The Dome.  The
 Temple is where people go to pray to the Devas, they are guaranteed safety
 within certain rooms of the temple.  A safe haven is very rare in the realm
-these days.  That is why Sanctus was created.
+these days.  That is why The Dome was created.
 ~
 2 0 0 0 0 1
 D0
@@ -925,7 +921,7 @@ S
 #248
 The Western Road~
    This is the beginning of the Western Road that leads from the Temple of
-Sanctus to the western gate and beyond the protection of the dome.  Few people
+The Dome to the western gate and beyond the protection of the dome.  Few people
 travel beyond the dome because they fear the gateways between worlds may open
 at anytime.  Only brave adventurers dare travel far beyond the city walls.
 ~
@@ -962,7 +958,7 @@ D1
 0 0 250
 S
 #250
-Inside the Temple~
+The Dome Temple~
    The white marble floor has been polished to the point where one can see their
 own reflection perfectly.  Not a single marr or scratch on it's flawless
 surface.  The echo of people walking inside the temple can be heard, though not
@@ -987,8 +983,8 @@ D3
 0 0 249
 S
 #251
-The Center of Sanctus~
-   This open space seems to be the exact center of the city of Sanctus.  From
+The Dome Center~
+   This open space seems to be the exact center of The Dome.  From
 this spot is where Rumble and Ferret began restoring order to the world.  Many
 tales abound about this fabled temple and its founders.  Most are just that,
 tales, but many hold truths beyond what even the storytellers realize.
@@ -1016,7 +1012,7 @@ D4
 0 0 100
 S
 #252
-Inside the Temple of Sanctus~
+The Dome Temple~
    The fluted columns of white marble laced with gold are enough to make
 anyone's mouth gape.  The workmanship required to create this place must have
 been unbelievable.  Must be the rumors that it was created by the Devas are
@@ -1044,7 +1040,7 @@ D3
 S
 #253
 The Social Board Room~
-   It is here the people of Sanctus come to discuss anything and everything.
+   It is here the people of The Dome come to discuss anything and everything.
 This board is used for no other reason than to socialize with one another.
 Various boards can be found throughout the realm.  This one can be viewed by
 anyone.
@@ -1057,7 +1053,7 @@ D3
 S
 #254
 The Western Road~
-   This road connects the Temple of Sanctus with the eastern gate to allow easy
+   This road connects the Temple of The Dome with the eastern gate to allow easy
 travelling for those wishing to visit the temple from the farmlands.  The
 farmlands are known to be one of the most stable regions outside the protection
 of the dome.
@@ -1100,7 +1096,7 @@ S
 #256
 The Eastern Intersection~
    This intersection stands on the Eastern Road that travels from the east gate
-to the Temple of Sanctus.  North lies the Thieves Quarter while to the South one
+to the Temple of The Dome.  North lies the Thieves Quarter while to the South one
 can enter the Magi's Quarter.  This road bustles with activity as people go
 about their daily lives.
 ~
@@ -1127,7 +1123,7 @@ The Eastern Road~
    The Eastern intersection is just to the west.  To the north lies the Thieves
 Quarter and their warehouse.  South is the Magi's Mansion and the Magi's
 Quarter.  To the east one can exit the city through the Eastern Gate.  The
-infamous Temple of Sanctus can be seen rising from the center of the city.
+infamous Temple of The Dome can be seen rising from the center of the city.
 ~
 2 0 0 0 0 1
 D1
@@ -1160,7 +1156,7 @@ S
 The Eastern Gate~
    The dome stretches out further than usual here, covering some sections of the
 residential district.  This area is known for it's relative safety.  Very few
-problems arise from beyond the east gate.  The city of Sanctus lies to the west.
+problems arise from beyond the east gate.  The Dome lies to the west.
 To the east one can see the remains of an old gatehouse.
 ~
 2 0 0 0 0 1
@@ -1203,7 +1199,7 @@ S
 #262
 s Avenue~
    To the north one can leave the s Quarter and either continue to the
-Warriors Quarter, go east into the Temple of Sanctus or west to the western
+Warriors Quarter, go east into the Temple of The Dome or west to the western
 gate.  A large building and the inner city wall on each side of this north south
 street leaves little room for walking.
 ~
@@ -1269,7 +1265,7 @@ D1
 0 0 266
 S
 #266
-Inside the Temple of Sanctus~
+Inside the Temple of The Dome~
    This is the main passage through the temple.  Small rooms to each side are
 unusually quiet.  It appears people are in prayer inside.  The center of the
 temple lies to the north.  The white marble floor, walls, and ceilings of the
@@ -1326,7 +1322,7 @@ S
 #269
 The Eastern Temple Circle~
    The smell of tanned hides and flowers comes from the west, how strange.
-This circle lies just inside the market center of Sanctus.  The stores have all
+This circle lies just inside the market center of The Dome.  The stores have all
 taken up shop surrounding the Temple.  They originally were afraid the outer
 city could be overrun, but now they are just too lazy to move.
 ~
@@ -1498,7 +1494,7 @@ S
 #279
 Southern Temple Entrance~
    This appears to be a small foyer at the southern end of the Temple of
-Sanctus.  The white marble walls have been polished smooth.  A small road to the
+The Dome.  The white marble walls have been polished smooth.  A small road to the
 south leads to the 's and Magi's quarters of the city.  The scent of
 flowers fills the air with a soothing aroma.
 ~
@@ -1547,7 +1543,7 @@ S
 The Eastern Temple Circle~
    A large shop to the west displays a few packs, some lanterns, and even some
 mining equipment.  The cobblestone road is blocked to the east by the inner city
-wall and several stores crowd against the Temple of Sanctus to the west.
+wall and several stores crowd against the Temple of The Dome to the west.
 ~
 2 8 0 0 0 1
 D0
@@ -1679,7 +1675,7 @@ The Southern Temple Circle~
    This circle appears to be the southeastern intersection of the inner city.
 The south and west inner city walls merge here.  A set of stone stairs lead up
 into a small lookout post high above.  The street turns here, wrapping around
-the Temple of Sanctus.
+the Temple of The Dome.
 ~
 2 0 0 0 0 1
 D0
@@ -1699,7 +1695,7 @@ S
 The Southern Temple Circle~
    The cobblestone street continues to the east and west along the southern wall
 of the inner city.  Small shops line the road to the north.  The Tower of
-Sanctus, with its single tall spire reaching to the heavens, looks magnificent.
+The Dome, with its single tall spire reaching to the heavens, looks magnificent.
 A style of workmanship that has never been surpassed.
 ~
 2 0 0 0 0 1
@@ -1737,7 +1733,7 @@ T 210
 T 211
 #292
 The Southern Temple Circle Intersection~
-   The southern entrance to the Temple of Sanctus lies just to the north.  It is
+   The southern entrance to the Temple of The Dome lies just to the north.  It is
 also possible to travel along the Temple Circle east and west.  To the south one
 can exit the inner city and work their way into the magi or monks' Quarters.
 ~
@@ -1784,7 +1780,7 @@ S
 The Southern Temple Circle~
    The cobblestone street continues to the east and west along the southern wall
 of the inner city.  Small shops line the road to the north.  The Tower of
-Sanctus, with its single tall spire reaching to the heavens, looks magnificent.
+The Dome, with its single tall spire reaching to the heavens, looks magnificent.
 A style of workmanship that has never been surpassed.
 ~
 2 0 0 0 0 1
@@ -1799,7 +1795,7 @@ D3
 S
 #295
 The Southern Temple Circle~
-   Various shops surround the Temple of Sanctus to the east and west.  The
+   Various shops surround the Temple of The Dome to the east and west.  The
 shops were moved within the inner city years ago.  All the shops seem to do
 good business and the overall wealth of the city seems to be geared mostly to
 the middle class.  Only a few have achieved poverty or great wealth within the
@@ -1873,7 +1869,7 @@ S
 #299
 A Waiting Room~
    Several chairs are arranged in a half-circle facing an open door to the
-south.  The citizens of Sanctus come here to settle disputes by seeking the
+south.  The citizens of The Dome come here to settle disputes by seeking the
 guidance of the High Council.  The High Council has come to be the law of the
 land here.
 ~

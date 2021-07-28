@@ -84,10 +84,6 @@ a black potion will be produced which lowers all three attributes.
 S
 #1901
 Muddy Crossroads~
-   An old broken crossroads sign stands wearily here, half rotted with fungus
-and the general decay of time.  It appears as though there were indeed paths
-here long ago, but water has saturated the ground, leaving nothing but
-featureless mud.
 ~
 19 0 0 0 0 2
 D0
@@ -128,9 +124,6 @@ past inhabitants.
 S
 #1902
 Squelching Ground~
-   Slick with moisture, the ground is unnaturally swollen and soft.  The
-slightest weight leaves deep imprints that quickly well back up with sloshing
-mud and the few sickly bits of plant life that grow here.
 ~
 19 0 0 0 0 2
 D0
@@ -190,9 +183,6 @@ S
 T 1971
 #1904
 Drowned Land~
-   Water pools slightly deeper here, the mud beneath bubbling slightly with the
-heat of some underground current.  Large blisters swell from the ground, popping
-with a hiss and releasing hot, swirling steam into the foggy air.
 ~
 19 0 0 0 0 2
 D0
@@ -217,8 +207,6 @@ S
 T 1971
 #1905
 Soil~
-Glimpses of metal can be seen half-buried in the ground, the armor and
-weapons of some long-decayed army.
 ~
 19 0 0 0 0 2
 D0
@@ -248,9 +236,6 @@ S
 T 1971
 #1906
 Crimson Waters~
-   Old rusted weapons and armor lie half rotted in scattered pools of slime.
-The rust has leached into the water, discoloring it deep red and filling the
-air with the overwhelming stench of decay.
 ~
 19 0 0 0 0 2
 D0
@@ -273,16 +258,11 @@ ripple in the restless breeze.
 0 0 1912
 E
 scattered pools slime~
-   These slippery pools are coated with floating algae and slime of various
-organic kinds.  The water is presumably toxic as it is so saturated with rust
-and rot that it glints scarlet in the light.
+adv:world:1906/slime
 ~
 E
 old rusted weapons armor rotted~
-   These battered pieces of metal and algae-encrusted leather are all that is
-left of an obviously mighty battle.  There are no corpses to be found, all that
-died presumably devoured by creatures here or rotted long before these metals
-began to rust.
+adv:world:1906/armor
 ~
 S
 T 1971
@@ -313,9 +293,6 @@ S
 T 1971
 #1908
 Scattered Rocks~
-   Small jagged peaks protrude from the marshy ground, providing a solid but
-treacherous path for walking.  Thin layers of slime glisten on the sharp rocks,
-along with various other old and unidentifiable stains.
 ~
 19 0 0 0 0 2
 D0
@@ -359,10 +336,6 @@ S
 T 1971
 #1909
 Rotting Branch~
-   Blue and green mould carpets this large crumbling branch, half sunk into the
-soil it nevertheless is so large that it almost completely blocks further
-advancement.  Tiny fungi sprinkle the rotting wood and surrounding mud, products
-of its continuing decomposition.
 ~
 19 0 0 0 0 2
 D1
@@ -436,10 +409,6 @@ T 1908
 T 1993
 #1912
 Ditch of the Dead~
-   Forlorn water swirls slowly in this forsaken riverbed, churning as though
-stirred by some unseen current.  Strange things surface with the movement,
-glimpses of shiny metal and splintered bone are all that mark this place as the
-grave it has become.
 ~
 19 0 0 0 0 2
 D0
@@ -469,11 +438,6 @@ S
 T 1971
 #1913
 Toppled Tree~
-   The vast roots of this overturned tree splay in all directions like the legs
-of an attacking spider.  Almost as thick as branches they are hard and brittle
-as though this tree died years ago.  Dark streaks marr the wood, evidence
-perhaps of long past lightning storms, or the use of powerful magic in this
-area.
 ~
 19 0 0 0 0 2
 D0
@@ -496,18 +460,13 @@ the hollow trunk.
 0 0 1918
 E
 dark streaks~
-   These are charred areas in the wood that have burnt in strange patterns.  It
-looks as though it may indeed be the work of lightning, though evil magic is
-more likely considering these whereabouts.
+adv:world:1913/streaks
 ~
 S
 T 1970
 T 1971
 #1914
 Scorched Trunk~
-   This massive trunk has been half swallowed by the gurgling ground, only the
-huge reaching branches hold it from complete submersion.  Black unnatural burn
-marks weave their way like rotting vines all along the ancient bark.
 ~
 19 0 0 0 0 2
 D0
@@ -536,17 +495,12 @@ advancement.
 0 0 -1
 E
 black unnatural burn marks rotting vines~
-   These strange and ominous markings appear almost to have been designed, not
-just the random streaks of lightning or fire.  The evils of lethal magic are
-almost certainly at work here.
+adv:world:1914/vines
 ~
 S
 T 1971
 #1915
 Stony Path~
-   All around the murky water simmers and bubbles, releasing terrible stench
-into the air as it laps around this small trail of island rocks, the only path
-through this watery part of the swamp.
 ~
 19 0 0 0 0 2
 D2
@@ -571,9 +525,6 @@ S
 T 1971
 #1916
 Puddle of Algae~
-   Various slimes of green, brown and red slide across the surface of this muddy
-water.  Plant life of various kinds tangle and intertwine into each other
-beneath the water, making it very easy to become caught.
 ~
 19 0 0 0 0 2
 D1
@@ -592,10 +543,6 @@ S
 T 1971
 #1917
 Buried Tree~
-   A flat area of bark protrudes slightly from the sopping ground here, a gaping
-hole leading into darkness beneath, as though some hollow tree has become buried
-just below the surface, the sound of thick mud dripping within a concealed space
-below.
 ~
 19 0 0 0 0 2
 D0
@@ -625,19 +572,12 @@ hollow trunk just beyond the scope of normal vision.
 0 0 1920
 E
 bark gaping hole darkness~
-   Broken, splintered wood gapes widely around this mud-slicked hole.  It
-appears a tree has become submerged within the ground, the contents of its
-hollow trunk just beyond the scope of normal vision.
 ~
 S
 T 1970
 T 1971
 #1918
 Within the Roots~
-   Dark and dank with the smell of decay, the rotting wood all around makes this
-place even more miserable.  The floor slants slightly downward to the north, and
-each movement makes it dip a little more as if the swamp were threatening to
-consume it whole.
 ~
 19 9 0 0 0 0
 D0
@@ -655,11 +595,6 @@ brittle fingers at the foggy air.
 S
 #1919
 Hollow Trunk~
-   Mud oozes slowly through cracks in the ancient wood, making the ground sticky
-and treacherously slippery.  The roof of the trunk curves sharply around, so low
-as to give the place a smothering claustrophobic feel.  Little worms and maggots
-wriggle their way through the fungating bark, making the enclosure seem to crawl
-revoltingly.
 ~
 19 9 0 0 0 0
 D0
@@ -676,17 +611,10 @@ ahead in this direction, clawing at the foggy air.
 0 0 1918
 E
 worms maggots~
-   These little creatures are gorging on the filth and decay that coats this
-dying tree, it seems almost that every scavenging insect in the place as homed
-in on this location.
 ~
 S
 #1920
 Submerged~
-   Completely beneath ground level, drips of mud trickly slowly down the walls
-from a large hole in the ceiling.  It seems as though extra weight in this part
-of the submerged tree would sink it very quickly, the wood moaning and groaning
-at any extra burden.
 ~
 19 9 0 0 0 0
 D2
@@ -704,11 +632,6 @@ direction indicate that it likely leads to open ground.
 S
 #1921
 Straggling Trees~
-   Weak bending trunks support the anemic looking branches and leaves of these
-stunted willows.  Swaying miserably in the slight breeze, their bark seems to
-creak and groan, swamp moss spreading slowly as if to consume them.  Thin
-grasses lean pathetically against the lanky trunks, almost like weary children
-clinging to their mothers.
 ~
 19 4 0 0 0 3
 D0
@@ -1290,10 +1213,6 @@ T 1971
 T 1978
 #1944
 Wetlands~
-   Tall reeds poke slightly above the surface of this murmuring pool, soft mud
-giving easily beneath and sending clouds of darkness up into the water.  Broken
-stalks litter the bottom, and deep footprints can be seen imprinted in the
-watery ground, indicating that this way is well travelled.
 ~
 19 0 0 0 0 2
 D0
@@ -1540,10 +1459,6 @@ beyond.
 S
 #1955
 Opening in a Circle of Trees~
-   All around, the ancient and brittle bark of dying trees fills all view, the
-odd green shoot of a struggling youngster coloring the gloominess, and the
-scent of new plant life freshening the air, even as fungi consume the rotting
-elders.
 ~
 19 0 0 0 0 3
 D1
@@ -1568,20 +1483,16 @@ S
 T 1971
 #1956
 Circle of Trees~
-   Tall dark trunks emerge from the sloshing mud, fragile and crooked with age,
-slimy swamp algae covering them with slick green ooze.  Spindly desperate
-branches grasp blindly at the air like the skeletal fingers of some long buried
-giant.
 ~
 19 0 0 0 0 3
 D0
-   Thick, brittle treetrunks continue on and around to the north, the sounds of
+Thick, brittle treetrunks continue on and around to the north, the sounds of
 wildlife crunching through the leaves.
 ~
 ~
 0 0 1962
 D1
-   The trees seem to grow more sparse, what looks like a clearing veers off to
+The trees seem to grow more sparse, what looks like a clearing veers off to
 the southeast.
 ~
 ~
@@ -1590,10 +1501,6 @@ S
 T 1971
 #1957
 Circle of Trees~
-   The fluttering of wings disturbs the still air every now and again and the
-mournful screeching of crows can be heard from the swaying branches above.
-Most of the trees here are dead, only one or two trailing green leaves into the
-watery surroundings.
 ~
 19 0 0 0 0 3
 D0
@@ -1612,9 +1519,6 @@ S
 T 1971
 #1958
 Circle of Trees~
-   The great shell of a long dead cypress tree stands here, mighty branches
-creating a skeletal leaf-less canopy.  The persistant creep of swamp vines and
-moss coats nearly the entire trunk, as though the bog were trying to reclaim it.
 ~
 19 0 0 0 0 3
 D0
@@ -1687,9 +1591,6 @@ S
 T 1971
 #1961
 Circle of Trees~
-   Pale green saplings sway gently in the breeze, struggling for life though
-they seem to be well-tended.  Leaning in on each other, their green waving
-branches seem to rustle uncomfortably, whispering quietly with each other.
 ~
 19 0 0 0 0 3
 D0
@@ -1713,9 +1614,6 @@ S
 T 1971
 #1962
 Circle of Trees~
-   A patch of red flashes in and out of vision through the thick dark cluster of
-trunks.  The beautiful crimson leaves of a black gum tree seem almost to light
-the area as a burning fire illuminates night.
 ~
 19 0 0 0 0 3
 D0
@@ -1757,9 +1655,6 @@ S
 T 1971
 #1964
 Drizzling Path~
-   Rivulets of muddy water trickle lazily across the broken pieces of stone that
-make up this old path, creeping algae and swamp slime give it a carpeted look,
-tinting both the stone and the water slightly green.
 ~
 19 0 0 0 0 2
 D1
@@ -1778,10 +1673,6 @@ S
 T 1971
 #1965
 Pool of Mud~
-   The gray surface of slate paving stones can barely be seen beneath the
-surface of these dark waters.  Small fish dart nervously about, hiding instantly
-at the sight of any shadow, and bulrushes sway gently, spreading ripples
-throughout the pool.
 ~
 19 4 0 0 0 6
 D1
@@ -2370,10 +2261,6 @@ D3
 S
 #1999
 Withered Grasses~
-   The air here is smotheringly warm, humidity condensing in the air and
-drifting away to join the wandering mist that swirls forlornly about.  Tall
-withered grasses whisper amongst themselves as they bend, almost seeming to
-deliberately make way for passage.
 ~
 19 0 0 0 0 2
 D0

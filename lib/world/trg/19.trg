@@ -405,7 +405,7 @@ global 1999_recip
 %load% obj 1966 %self% legs
 %load% obj 1968 %self% feet
 eval tar %1999_recip%
-if %tar.sex% == male
+if %tar.gender% == male
   set nick1 hunk o'man
   set nick2 you big beast
   set nick3 stud
