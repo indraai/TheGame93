@@ -93,24 +93,24 @@ Security Check~
 2 q 100
 ~
 set vnum %self.vnum%
-set stype AGENT
+set role agent
 if %actor.is_pc%
-  set stype PLAYER
-
-if %actor.is_pc% and %actor.align% < -100
-  set stype isEVIL
+  set role PLAYER
+  if %actor.align% < -100
+    set role EVIL
 
 if %actor.is_thief%
-  set stype THIEF
+  set role THIEF
 
 if %actor.is_killer%
-  set stype KILLER
+  set role KILLER
 
-set secstr %vnum%:%direction%:%actor.id%:%stype%
-if %stype% == AGENT
+set secstr %vnum%:%direction%:%actor.id%:%role%
+
+if %role% == AGENT
   %send% %actor% Security Granted... %actor.name% %role%
   %echoaround% security:grant:%secstr%
-elseif %stype% == PLAYER
+elseif %role% == PLAYER
   %send% %actor% Security Granted... %actor.name% %role%
   %echoaround% security:grant:%secstr%
 else
