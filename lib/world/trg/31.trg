@@ -93,20 +93,28 @@ Security Check~
 2 q 100
 ~
 set vnum %self.vnum%
-set role isFRIENDLY
-if %actor.is_killer%
-  set role isKILLER
-elseif %actor.is_thief%
-  set role isTHIEF
-elseif %actor.is_pc% and %actor.align% < -100
-  set role isEVIL
+set stype AGENT
+if %actor.is_pc%
+  set stype PLAYER
 
-set secstr %vnum%:%direction%:%actor.id%:%role%
-if role == isFRIENDLY
+if %actor.is_pc% and %actor.align% < -100
+  set stype isEVIL
+
+if %actor.is_thief%
+  set stype THIEF
+
+if %actor.is_killer%
+  set stype KILLER
+
+set secstr %vnum%:%direction%:%actor.id%:%stype%
+if %stype% == AGENT
+  %send% %actor% Security Granted... %actor.name% %role%
+  %echoaround% security:grant:%secstr%
+elseif %stype% == PLAYER
   %send% %actor% Security Granted... %actor.name% %role%
   %echoaround% security:grant:%secstr%
 else
-  %send% %actor% Security Denied... %actor.name% %role%
+  %send% %actor% Security Alert... %actor.name% %role%
   %echoaround% security:alert:%secstr%
   * send to the love shack
   %teleport% %actor% 28617
