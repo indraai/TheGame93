@@ -103,18 +103,7 @@ if %actor.is_killer% || %actor.is_thief
   set role criminal
 
 set secstr %vnum%:%direction%:%actor.id%:%role%
-
-if %role% == agent
-  %send% %actor% Please proceed...
-  %echoaround% security:grant:%secstr%
-elseif %role% == player
-  %send% %actor% Security Granted... %actor.name% %role%
-  %echoaround% security:grant:%secstr%
-else
-  %send% %actor% Security Alert... %actor.name% %role%
-  %echoaround% security:alert:%secstr%
-  * send to the love shack
-  %teleport% %actor% 28617
+%send% %actor% Security Granted... %actor.name% %role%
 ~
 #3107
 Security Greeting~
