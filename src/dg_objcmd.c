@@ -298,6 +298,9 @@ static OCMD(do_otimer)
  * containers unless both objects are containers! */
 static OCMD(do_otransform)
 {
+  obj_log(obj, "TRANSFORMING OBJECTS INTO OTHER OBJECTS NOT ALLOWED");
+  return;
+  
   char arg[MAX_INPUT_LENGTH];
   obj_data *o, tmpobj;
   struct char_data *wearer=NULL;
@@ -811,7 +814,7 @@ static const struct obj_command_info obj_cmd_info[] = {
     { "osetval "    , do_osetval  , 0 },
     { "oteleport "  , do_oteleport, 0 },
     { "otimer "     , do_otimer   , 0 },
-    // { "otransform " , do_otransform, 0 },
+    { "otransform " , do_otransform, 0 },
     { "ozoneecho "  , do_ozoneecho , 0 }, /* fix by Rumble */
     { "omove "      , do_omove     , 0 },
     { "olog "       , do_olog       , 0 },
