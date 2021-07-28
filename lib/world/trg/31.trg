@@ -93,27 +93,26 @@ Security Check~
 2 q 100
 ~
 set role agent
-set pass yes
 
 if %actor.is_pc%
   eval role player
 
 if %actor.align% < -100
   eval role evil
-  eval pass no
 
 if %actor.is_thief%
   eval role thief
-  eval pass no
 
 if %actor.is_killer%
   eval role killer
-  eval pass no
 
 set secstr %self.vnum%:%direction%:%actor.id%:%role%
-if %pass% == yes
-  %send% %actor% Security Granted... %role% %actor.name%
+if %role% == agent
+  %send% %actor% Have a nice day %actor.name%.
   %echoaround% security:allow:%secstr%
+elseif %role% == player
+  %send% %actor% Security Check... %role% %actor.name%
+  %echoaround% security:check:%secstr%
 else
   %send% %actor% Security Alert... %role% %actor.name%
   %echoaround% security:alert:%secstr%
