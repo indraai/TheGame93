@@ -90,7 +90,7 @@ end
 ~
 #3106
 Security Check~
-2 q 100
+2 g 100
 ~
 set vnum %self.vnum%
 set role FRIENDLY
@@ -100,9 +100,7 @@ elseif %actor.is_thief%
   set role THIEF
 elseif %actor.is_pc% && %actor.align% < 150
   set role EVIL
-
 set secstr %vnum%:%actor.id%:%role%:%direction%
-
 wait 2 sec
 %echo% Checking Security Clearance...
 %echoaround% %actor% security:check:%secstr%
