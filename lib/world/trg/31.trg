@@ -93,9 +93,23 @@ Security Check~
 2 q 100
 ~
 set vnum %self.vnum%
-set secstr %vnum%:%actor.id%:%direction%
-%send% %actor% Security Check...
-%echoaround% security:check:%secstr%
+set role FRIENDLY
+if %actor.is_killer%
+  set role KILLER
+elseif %actor.is_thief%
+  set role THIEF
+elseif %actor.is_pc% and %actor.align% < -100
+  set role EVIL
+
+set secstr %vnum%:%direction%:%actor.id%:%role%
+if role == FRIENDLY
+  %send% %actor% Security Granted... %actor.name% %role%
+  %echoaround% security:grant:%secstr%
+else
+  %send% %actor% Security Denied... %actor.name% %role%
+  %echoaround% security:alert:%secstr%
+  * send to the love shack
+  %teleport% %actor% 28617
 ~
 #3107
 Security Greeting~
