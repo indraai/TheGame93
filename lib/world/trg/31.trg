@@ -92,13 +92,33 @@ end
 Security Check~
 2 q 100
 ~
-set vnum %self.vnum%
 set role agent
+set pass 1
+
 if %actor.is_pc%
   eval role player
 
-set secstr %vnum%:%direction%:%actor.id%:%role%
-%send% %actor% Security Granted... %role% %actor.name%
+if %actor.align% < -100
+  eval role evil
+  eval pass 0
+
+if %actor.is_thief%
+  eval role thief
+  eval pass 0
+
+if %actor.is_killer%
+  eval role killer
+  eval pass 0
+
+set secstr %self.vnum%:%direction%:%actor.id%:%role%
+if %pass%
+  %send% %actor% Security Granted... %role% %actor.name%
+  %echoaround% security:allow:%secstr%
+else
+  %send% %actor% Security Alert... %role% %actor.name%
+  %echoaround% security:alert:%secstr%
+  * teleport to The Love Shack
+  %teleport% %actor% 28617
 ~
 #3107
 Security Greeting~
