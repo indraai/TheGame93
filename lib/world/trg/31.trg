@@ -95,7 +95,7 @@ Security Check~
 set vnum %self.vnum%
 set secstr %vnum%:%actor.id%:%direction%
 wait 5 sec
-%send% %actor% Security Check
+%echo% Security Check
 %echoaround% security:check:%secstr%
 ~
 #3107
