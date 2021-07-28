@@ -93,16 +93,16 @@ Security Check~
 2 q 100
 ~
 set vnum %self.vnum%
-set role FRIENDLY
+set role isFRIENDLY
 if %actor.is_killer%
-  set role KILLER
+  set role isKILLER
 elseif %actor.is_thief%
-  set role THIEF
+  set role isTHIEF
 elseif %actor.is_pc% and %actor.align% < -100
-  set role EVIL
+  set role isEVIL
 
 set secstr %vnum%:%direction%:%actor.id%:%role%
-if role == FRIENDLY
+if role == isFRIENDLY
   %send% %actor% Security Granted... %actor.name% %role%
   %echoaround% security:grant:%secstr%
 else
