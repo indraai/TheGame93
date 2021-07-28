@@ -99,7 +99,7 @@ if %actor.align% < -150 || %actor.is_thief% || %actor.is_killer%
   * teleport to The Love Shack
   %teleport% %actor% 28617
 else
-  %send% %actor% Security Check... %role% %actor.name%
+  %send% %actor% Have a nice day %actor.name%. -Security
   %echoaround% security:check:%secstr%
 end
 ~
