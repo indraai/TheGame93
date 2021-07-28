@@ -30,12 +30,24 @@ SecurityPRIME Nitro is here.
 ~
 SD3102 SecurityPRIME is assigned to protect the Realm.
 ~
-502044 0 0 0 10360 0 0 0 1000 E
-17 15 1 3d3+170 2d2+2
-0 28900
-8 8 1
+260444 0 0 0 10360 0 0 0 1000 E
+27 11 -6 5d5+270 4d4+4
+27000 72900
+8 8 0
 BareHandAttack: 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
+T 3107
 #3103
 deva elite elitedeva devaforce ed3103~
 ED3103 EliteDEVA~
