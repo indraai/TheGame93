@@ -262,7 +262,7 @@ static OCMD(do_osend)
         obj_log(obj, "no target found for osend");
 }
 
-/* Prints the message to everyone in the range of numbers. Thanks to Jamie 
+/* Prints the message to everyone in the range of numbers. Thanks to Jamie
  * Nelson of 4D for this contribution. */
 static OCMD(do_orecho)
 {
@@ -294,7 +294,7 @@ static OCMD(do_otimer)
     GET_OBJ_TIMER(obj) = atoi(arg);
 }
 
-/* Transform into a different object. Note: this shouldn't be used with 
+/* Transform into a different object. Note: this shouldn't be used with
  * containers unless both objects are containers! */
 static OCMD(do_otransform)
 {
@@ -592,7 +592,7 @@ static OCMD(do_oasound)
        (world[room].dir_option[door])->to_room != room &&
         world[(world[room].dir_option[door])->to_room].people) {
       sub_write(argument, world[(world[room].dir_option[door])->to_room].people, TRUE, TO_ROOM);
-      sub_write(argument, world[(world[room].dir_option[door])->to_room].people, TRUE, TO_CHAR); 
+      sub_write(argument, world[(world[room].dir_option[door])->to_room].people, TRUE, TO_CHAR);
     }
   }
 }
@@ -744,7 +744,7 @@ static OCMD(do_oat)
   }
 
   if (isdigit(*arg)) loc = real_room(atoi(arg));
-  else if ((ch = get_char_by_obj(obj, arg))) loc = IN_ROOM(ch); 
+  else if ((ch = get_char_by_obj(obj, arg))) loc = IN_ROOM(ch);
 
   if (loc == NOWHERE) {
     obj_log(obj, "oat: location not found (%s)", arg);
@@ -757,7 +757,7 @@ static OCMD(do_oat)
   obj_to_room(object, loc);
   obj_command_interpreter(object, command);
 
-  if (object->in_room == loc) 
+  if (object->in_room == loc)
     extract_obj(object);
 }
 
@@ -811,7 +811,7 @@ static const struct obj_command_info obj_cmd_info[] = {
     { "osetval "    , do_osetval  , 0 },
     { "oteleport "  , do_oteleport, 0 },
     { "otimer "     , do_otimer   , 0 },
-    { "otransform " , do_otransform, 0 },
+    // { "otransform " , do_otransform, 0 },
     { "ozoneecho "  , do_ozoneecho , 0 }, /* fix by Rumble */
     { "omove "      , do_omove     , 0 },
     { "olog "       , do_olog       , 0 },

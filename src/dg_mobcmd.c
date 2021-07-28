@@ -92,6 +92,9 @@ ACMD(do_mkill)
     char arg[MAX_INPUT_LENGTH];
     char_data *victim;
 
+    mob_log(ch, "\nKilling is not fun! Stop it!!!!");
+    return;
+
     if (!MOB_OR_IMPL(ch)) {
         send_to_char(ch, "%s", CONFIG_HUH);
         return;
@@ -136,8 +139,8 @@ ACMD(do_mkill)
     return;
 }
 
-/* Lets the mobile destroy an object in its inventory it can also destroy a 
- * worn object and it can destroy items using all.xxxxx or just plain all of 
+/* Lets the mobile destroy an object in its inventory it can also destroy a
+ * worn object and it can destroy items using all.xxxxx or just plain all of
  * them. */
 ACMD(do_mjunk)
 {
@@ -308,7 +311,7 @@ ACMD(do_mzoneecho)
 {
     int zone;
     char room_number[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
-        
+
     if (!MOB_OR_IMPL(ch))
     {
         send_to_char(ch, "%s", CONFIG_HUH);
@@ -329,7 +332,7 @@ ACMD(do_mzoneecho)
     }
 }
 
-/* Lets the mobile load an item or mobile.  All items are loaded into 
+/* Lets the mobile load an item or mobile.  All items are loaded into
  * inventory, unless it is NO-TAKE. */
 ACMD(do_mload)
 {
@@ -434,8 +437,8 @@ ACMD(do_mload)
         mob_log(ch, "mload: bad type");
 }
 
-/* Lets the mobile purge all objects and other npcs in the room, or purge a 
- * specified object or mob in the room.  It can purge itself, but this will 
+/* Lets the mobile purge all objects and other npcs in the room, or purge a
+ * specified object or mob in the room.  It can purge itself, but this will
  * be the last command it does. */
 ACMD(do_mpurge)
 {
@@ -576,7 +579,7 @@ ACMD(do_mat)
     }
 }
 
-/* Lets the mobile transfer people. The all argument transfers everyone in the 
+/* Lets the mobile transfer people. The all argument transfers everyone in the
  * current room to the specified location. */
 ACMD(do_mteleport)
 {
@@ -674,7 +677,7 @@ ACMD(do_mdamage) {
   script_damage(vict, dam);
 }
 
-/* Lets the mobile force someone to do something.  must be mortal level and the 
+/* Lets the mobile force someone to do something.  must be mortal level and the
  * all argument only affects those in the room with the mobile. */
 ACMD(do_mforce)
 {
@@ -892,6 +895,9 @@ ACMD(do_mtransform)
   mob_rnum this_rnum = GET_MOB_RNUM(ch);
   int keep_hp = 1; /* new mob keeps the old mob's hp/max hp/exp */
   int pos;
+
+  mob_log(ch, "\nTransforming into others is boring! Be yourself!!!");
+  return;
 
   if (!MOB_OR_IMPL(ch)) {
     send_to_char(ch, "%s", CONFIG_HUH);
@@ -1159,7 +1165,7 @@ ACMD(do_mfollow)
   leader->followers = k;
 }
 
-/* Prints the message to everyone in the range of numbers. Thanks to Jamie 
+/* Prints the message to everyone in the range of numbers. Thanks to Jamie
  * Nelson of 4D for this contribution */
 ACMD(do_mrecho)
 {
