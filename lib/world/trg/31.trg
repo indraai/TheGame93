@@ -98,8 +98,8 @@ set secstr %vnum%:%actor.id%:%direction%
 %echoaround% security:check:%secstr%
 ~
 #3107
-SecurityDuty~
-0 e 100
+Security Greeting~
+0 g 100
 ~
 say Hello %actor.name%.
 ~
