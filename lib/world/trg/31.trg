@@ -95,22 +95,19 @@ Security Check~
 set vnum %self.vnum%
 set role agent
 if %actor.is_pc%
-  set role PLAYER
+  set role player
   if %actor.align% < -100
-    set role EVIL
+    set role evil
 
-if %actor.is_thief%
-  set role THIEF
-
-if %actor.is_killer%
-  set role KILLER
+if %actor.is_killer% || %actor.is_thief
+  set role criminal
 
 set secstr %vnum%:%direction%:%actor.id%:%role%
 
-if %role% == AGENT
-  %send% %actor% Security Granted... %actor.name% %role%
+if %role% == agent
+  %send% %actor% Please proceed...
   %echoaround% security:grant:%secstr%
-elseif %role% == PLAYER
+elseif %role% == player
   %send% %actor% Security Granted... %actor.name% %role%
   %echoaround% security:grant:%secstr%
 else
