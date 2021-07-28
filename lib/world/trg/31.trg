@@ -92,32 +92,16 @@ end
 Security Check~
 2 q 100
 ~
-eval role agent
-
-if %actor.is_pc%
-  eval role player
-
-if %actor.align% < -100
-  eval role evil
-
-if %actor.is_thief%
-  eval role thief
-
-if %actor.is_killer%
-  eval role killer
-
-set secstr %self.vnum%:%direction%:%actor.id%:%role%
-if %role% == agent
-  %send% %actor% Have a nice day %actor.name%.
-  %echoaround% security:allow:%secstr%
-elseif %role% == player
-  %send% %actor% Security Check... %role% %actor.name%
-  %echoaround% security:check:%secstr%
-else
-  %send% %actor% Security Alert... %role% %actor.name%
+set secstr %actor.id%:%direction%:%self.vnum%
+if %actor.align% < -150 || %actor.is_thief% || %actor.is_killer%
+  %send% %actor% Security Alert... %actor.name%
   %echoaround% security:alert:%secstr%
   * teleport to The Love Shack
   %teleport% %actor% 28617
+else
+  %send% %actor% Security Check... %role% %actor.name%
+  %echoaround% security:check:%secstr%
+end
 ~
 #3107
 Security Greeting~
