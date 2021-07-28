@@ -103,7 +103,8 @@ elseif %actor.is_pc% && %actor.align% < 150
 
 set secstr %vnum%:%actor.id%:%role%:%direction%
 
-tell %actor% Checking Security Clearance...
+wait 2 sec
+%send% %actor% Checking Security Clearance...
 %echoaround% %actor% security:check:%secstr%
 wait 1 sec
 %send% %actor% ...
