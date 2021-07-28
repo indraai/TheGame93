@@ -96,14 +96,9 @@ set vnum %self.vnum%
 set role agent
 if %actor.is_pc%
   set role player
-  if %actor.align% < -100
-    set role evil
-
-if %actor.is_killer% || %actor.is_thief
-  set role criminal
 
 set secstr %vnum%:%direction%:%actor.id%:%role%
-%send% %actor% Security Granted... %actor.name% %role%
+%send% %actor% Security Granted... %actor.name%
 ~
 #3107
 Security Greeting~
