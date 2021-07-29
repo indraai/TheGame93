@@ -105,8 +105,8 @@ end
 ~
 #3107
 Security Greeting~
-0 g 100
+0 d 100
 ~
-say Hello %actor.name%.
+tell %actor% Hello %actor.name%
 ~
 $~

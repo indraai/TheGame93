@@ -496,18 +496,19 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-deva guard guarddeva devaforce gd3067~
-GD3067 GuardDEVA~
-GD3067 GuardDEVA is here.
+deva guard guarddeva devaforce d3067~
+GuardDEVA 3067~
+GuardDEVA D3067 is on duty.
 ~
 A big, strong, helpful, trustworthy GuardDEVA.
 ~
-260442 0 0 0 10360 0 0 0 1000 E
+260442 0 0 0 26744 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
 BareHandAttack: 5
 E
+T 3107
 T 3009
 #3068
 tackle dummy blob tackledummy~
