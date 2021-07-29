@@ -266,9 +266,7 @@ adv:world:1906/armor
 ~
 E
 scattered pools slime~
-   These slippery pools are coated with floating algae and slime of various
-organic kinds.  The water is presumably toxic as it is so saturated with rust
-and rot that it glints scarlet in the light.
+adv:world:1906/pools
 ~
 S
 T 1971
