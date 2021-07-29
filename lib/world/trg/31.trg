@@ -107,6 +107,7 @@ end
 Security Greeting~
 0 d 100
 ~
+wait 1
 tell %actor% Hello %actor.name%.
 ~
 $~
