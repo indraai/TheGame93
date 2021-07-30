@@ -123,8 +123,8 @@ static int has_scuba(struct char_data *ch)
  * @param ch The character structure to attempt to move.
  * @param dir The defined direction (NORTH, SOUTH, etc...) to attempt to
  * move into.
- * @param need_specials_check If TRUE will cause 
- * @retval int 1 for a successful move (ch is now in a new location)		
+ * @param need_specials_check If TRUE will cause
+ * @retval int 1 for a successful move (ch is now in a new location)
  * or 0 for a failed move (ch is still in the original location). */
 int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 {
@@ -168,7 +168,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   /* Charm effect: Does it override the movement? */
   if (AFF_FLAGGED(ch, AFF_CHARM) && ch->master && was_in == IN_ROOM(ch->master))
   {
-    send_to_char(ch, "The thought of leaving your master makes you weep.\r\n");
+    send_to_char(ch, "\nalert:The thought of leaving your master makes you weep.\r");
     act("$n bursts into tears.", FALSE, ch, 0, 0, TO_ROOM);
     return (0);
   }
@@ -179,7 +179,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   {
     if (!has_boat(ch))
     {
-      send_to_char(ch, "You need a boat to go there.\r\n");
+      send_to_char(ch, "\nalert:You need a boat to go there.\r");
       return (0);
     }
   }
@@ -189,7 +189,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   {
     if (!has_flight(ch))
     {
-      send_to_char(ch, "You need to be flying to go there!\r\n");
+      send_to_char(ch, "\nalert:You need to be flying to go there!\r");
       return (0);
     }
   }
@@ -198,7 +198,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   if ((SECT(was_in) == SECT_UNDERWATER) || (SECT(going_to) == SECT_UNDERWATER))
   {
     if (!has_scuba(ch) && !IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE)) {
-      send_to_char(ch, "You need to be able to breathe water to go there!\r\n");
+      send_to_char(ch, "\nalert:You need to be able to breathe water to go there!\r");
       return (0);
     }
   }
@@ -208,23 +208,23 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   {
     if (!House_can_enter(ch, GET_ROOM_VNUM(going_to)))
     {
-      send_to_char(ch, "That's private property -- no trespassing!\r\n");
+      send_to_char(ch, "\nalert:Private property.\r");
       return (0);
     }
   }
 
   /* Check zone level recommendations */
   if ((ZONE_MINLVL(GET_ROOM_ZONE(going_to)) != -1) && ZONE_MINLVL(GET_ROOM_ZONE(going_to)) > GET_LEVEL(ch)) {
-    send_to_char(ch, "This zone is above your recommended level.\r\n");
+    send_to_char(ch, "\nalert:Zone above recommended level.\r");
   }
 
   /* Check zone flag restrictions */
   if (ZONE_FLAGGED(GET_ROOM_ZONE(going_to), ZONE_CLOSED)) {
-    send_to_char(ch, "A mysterious barrier forces you back! That area is off-limits.\r\n");
+    send_to_char(ch, "\nalert:Area is off-limits.\r");
     return (0);
   }
   if (ZONE_FLAGGED(GET_ROOM_ZONE(going_to), ZONE_NOIMMORT) && (GET_LEVEL(ch) >= LVL_IMMORT) && (GET_LEVEL(ch) < LVL_GRDEVA)) {
-    send_to_char(ch, "A mysterious barrier forces you back! That area is off-limits.\r\n");
+    send_to_char(ch, "\nalert:Area is off-limits.\r");
     return (0);
   }
 
@@ -233,16 +233,16 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
       num_pc_in_room(&(world[going_to])) >= CONFIG_TUNNEL_SIZE)
   {
     if (CONFIG_TUNNEL_SIZE > 1)
-      send_to_char(ch, "There isn't enough room for you to go there!\r\n");
+      send_to_char(ch, "\nalert:The tunnel is full\r");
     else
-      send_to_char(ch, "There isn't enough room there for more than one person!\r\n");
+      send_to_char(ch, "\nalert:There is only space for one person at a time.\r");
     return (0);
   }
 
   /* Room Level Requirements: Is ch privileged enough to enter the room? */
   if (ROOM_FLAGGED(going_to, ROOM_DEVAROOM) && GET_LEVEL(ch) < LVL_DEVA)
   {
-    send_to_char(ch, "You aren't Deva enough to use that room!\r\n");
+    send_to_char(ch, "\nalert:This is a DEVA only room.\r");
     return (0);
   }
 
@@ -256,9 +256,9 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   if (GET_MOVE(ch) < need_movement && !IS_NPC(ch))
   {
     if (need_specials_check && ch->master)
-      send_to_char(ch, "You are too exhausted to follow.\r\n");
+      send_to_char(ch, "\nalert:You are too exhausted to follow.\r");
     else
-      send_to_char(ch, "You are too exhausted.\r\n");
+      send_to_char(ch, "\nalert:You are too exhausted.\r");
 
     return (0);
   }
@@ -276,7 +276,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   /* Generate the leave message and display to others in the was_in room. */
   if (!AFF_FLAGGED(ch, AFF_SNEAK))
   {
-    snprintf(leave_message, sizeof(leave_message), "$n leaves %s.", dirs[dir]);
+    snprintf(leave_message, sizeof(leave_message), "\nalert:$n leaves %s.\r", dirs[dir]);
     act(leave_message, TRUE, ch, 0, 0, TO_ROOM);
   }
 
@@ -300,7 +300,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 
   /* Display arrival information to anyone in the destination room... */
   if (!AFF_FLAGGED(ch, AFF_SNEAK))
-    act("$n has arrived.", TRUE, ch, 0, 0, TO_ROOM);
+    act("alert:$n has arrived.", TRUE, ch, 0, 0, TO_ROOM);
 
   /* ... and the room description to the character. */
   if (ch->desc != NULL)
@@ -345,14 +345,14 @@ int perform_move(struct char_data *ch, int dir, int need_specials_check)
   if (ch == NULL || dir < 0 || dir >= NUM_OF_DIRS || FIGHTING(ch))
     return (0);
   else if (!CONFIG_DIAGONAL_DIRS && IS_DIAGONAL(dir))
-    send_to_char(ch, "Alas, you cannot go that way...\r\n");
+    send_to_char(ch, "\nalert:You cannot go that way.\r");
   else if ((!EXIT(ch, dir) && !buildwalk(ch, dir)) || EXIT(ch, dir)->to_room == NOWHERE)
-    send_to_char(ch, "Alas, you cannot go that way...\r\n");
+    send_to_char(ch, "\nalert:You cannot go that way...\r");
   else if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE)))) {
     if (EXIT(ch, dir)->keyword)
-      send_to_char(ch, "The %s seems to be closed.\r\n", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\nalert:The %s seems to be closed.\r", fname(EXIT(ch, dir)->keyword));
     else
-      send_to_char(ch, "It seems to be closed.\r\n");
+      send_to_char(ch, "\nalert:It seems to be closed.\r");
   } else {
     if (!ch->followers)
       return (do_simple_move(ch, dir, need_specials_check));
@@ -365,7 +365,7 @@ int perform_move(struct char_data *ch, int dir, int need_specials_check)
       next = k->next;
       if ((IN_ROOM(k->follower) == was_in) &&
 	  (GET_POS(k->follower) >= POS_STANDING)) {
-	act("You follow $N.\r\n", FALSE, k->follower, 0, ch, TO_CHAR);
+	act("You follow $N.", FALSE, k->follower, 0, ch, TO_CHAR);
 	perform_move(k->follower, dir, 1);
       }
     }
@@ -387,7 +387,7 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
   if (*dir) {			/* a direction was specified */
     if ((door = search_block(dir, dirs, FALSE)) == -1) { /* Partial Match */
       if ((door = search_block(dir, autoexits, FALSE)) == -1) { /* Check 'short' dirs too */
-        send_to_char(ch, "That's not a direction.\r\n");
+        send_to_char(ch, "\nalert:That's not a direction.\r");
         return (-1);
       }
     }
@@ -396,18 +396,18 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
         if (is_name(type, EXIT(ch, door)->keyword))
           return (door);
         else {
-          send_to_char(ch, "I see no %s there.\r\n", type);
+          send_to_char(ch, "\nalert:I see no %s there.\r", type);
           return (-1);
         }
       } else
 	return (door);
     } else {
-      send_to_char(ch, "I really don't see how you can %s anything there.\r\n", cmdname);
+      send_to_char(ch, "\nalert:I really don't see how you can %s anything there.\r", cmdname);
       return (-1);
     }
   } else {			/* try to locate the keyword */
     if (!*type) {
-      send_to_char(ch, "What is it you want to %s?\r\n", cmdname);
+      send_to_char(ch, "alert:What would you like to %s?\r", cmdname);
       return (-1);
     }
     for (door = 0; door < DIR_COUNT; door++)
@@ -441,17 +441,17 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
     }
 
     if ((!IS_NPC(ch)) && (!PRF_FLAGGED(ch, PRF_AUTODOOR)))
-      send_to_char(ch, "There doesn't seem to be %s %s here.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s here.\r", AN(type), type);
     else if (is_abbrev(cmdname, "open"))
-      send_to_char(ch, "There doesn't seem to be %s %s that can be opened.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be opened.\r", AN(type), type);
     else if (is_abbrev(cmdname, "close"))
-      send_to_char(ch, "There doesn't seem to be %s %s that can be closed.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be closed.\r", AN(type), type);
     else if (is_abbrev(cmdname, "lock"))
-      send_to_char(ch, "There doesn't seem to be %s %s that can be locked.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be locked.\r", AN(type), type);
     else if (is_abbrev(cmdname, "unlock"))
-      send_to_char(ch, "There doesn't seem to be %s %s that can be unlocked.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be unlocked.\r", AN(type), type);
     else
-      send_to_char(ch, "There doesn't seem to be %s %s that can be picked.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be picked.\r", AN(type), type);
 
     return (-1);
   }
@@ -537,35 +537,35 @@ static void do_doorcmd(struct char_data *ch, struct obj_data *obj, int door, int
     OPEN_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       OPEN_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "%s", CONFIG_OK);
+    send_to_char(ch, "\nalert:%s\r", CONFIG_OK);
     break;
 
   case SCMD_CLOSE:
     CLOSE_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       CLOSE_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "%s", CONFIG_OK);
+    send_to_char(ch, "\nalert%s\r", CONFIG_OK);
     break;
 
   case SCMD_LOCK:
     LOCK_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       LOCK_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "*Click*\r\n");
+    send_to_char(ch, "\nalert:Lock Door\r");
     break;
 
   case SCMD_UNLOCK:
     UNLOCK_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       UNLOCK_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "*Click*\r\n");
+    send_to_char(ch, "\nalert:Unlock Door\r");
     break;
 
   case SCMD_PICK:
     TOGGLE_LOCK(IN_ROOM(ch), obj, door);
     if (back)
       TOGGLE_LOCK(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "The lock quickly yields to your skills.\r\n");
+    send_to_char(ch, "\nalert:You pick the lock.\r");
     len = strlcpy(buf, "$n skillfully picks the lock on ", sizeof(buf));
     break;
   }
@@ -579,7 +579,7 @@ static void do_doorcmd(struct char_data *ch, struct obj_data *obj, int door, int
 
   /* Notify the other room */
   if (back && (scmd == SCMD_OPEN || scmd == SCMD_CLOSE))
-      send_to_room(EXIT(ch, door)->to_room, "The %s is %s%s from the other side.\r\n",
+      send_to_room(EXIT(ch, door)->to_room, "\nalert:The %s is %s%s from the other side.\r",
         back->keyword ? fname(back->keyword) : "door", cmd_door[scmd],
         scmd == SCMD_CLOSE ? "d" : "ed");
 }
@@ -595,11 +595,11 @@ static int ok_pick(struct char_data *ch, obj_vnum keynum, int pickproof, int scm
   skill_lvl = GET_SKILL(ch, SKILL_PICK_LOCK) + dex_app_skill[GET_DEX(ch)].p_locks;
 
   if (keynum == NOTHING)
-    send_to_char(ch, "Odd - you can't seem to find a keyhole.\r\n");
+    send_to_char(ch, "\nalert:There is no keyhole.\r");
   else if (pickproof)
-    send_to_char(ch, "It resists your attempts to pick it.\r\n");
+    send_to_char(ch, "\nalert:This is a pickproof lock.\r");
   else if (percent > skill_lvl)
-    send_to_char(ch, "You failed to pick the lock.\r\n");
+    send_to_char(ch, "\nalert:You failed to pick the lock.\r");
   else
     return (1);
 
@@ -630,7 +630,7 @@ ACMD(do_gen_door)
 
   skip_spaces(&argument);
   if (!*argument) {
-    send_to_char(ch, "%c%s what?\r\n", UPPER(*cmd_door[subcmd]), cmd_door[subcmd] + 1);
+    send_to_char(ch, "\nalert:%c%s what?\r", UPPER(*cmd_door[subcmd]), cmd_door[subcmd] + 1);
     return;
   }
   two_arguments(argument, type, dir);
@@ -645,28 +645,28 @@ ACMD(do_gen_door)
   if ((obj) || (door >= 0)) {
     keynum = DOOR_KEY(ch, obj, door);
     if (!(DOOR_IS_OPENABLE(ch, obj, door)))
-      send_to_char(ch, "You can't %s that!\r\n", cmd_door[subcmd]);
+      send_to_char(ch, "\nalert:You can't %s that!\r", cmd_door[subcmd]);
     else if (!DOOR_IS_OPEN(ch, obj, door) && IS_SET(flags_door[subcmd], NEED_OPEN))
-      send_to_char(ch, "But it's already closed!\r\n");
+      send_to_char(ch, "\nalert:Door is already closed.\r");
     else if (!DOOR_IS_CLOSED(ch, obj, door) && IS_SET(flags_door[subcmd], NEED_CLOSED))
-      send_to_char(ch, "But it's currently open!\r\n");
+      send_to_char(ch, "\nalert:Door already open.\r");
     else if (!(DOOR_IS_LOCKED(ch, obj, door)) && IS_SET(flags_door[subcmd], NEED_LOCKED))
-      send_to_char(ch, "Oh.. it wasn't locked, after all..\r\n");
+      send_to_char(ch, "\nalert:Door wasn't locked.\r");
     else if (!(DOOR_IS_UNLOCKED(ch, obj, door)) && IS_SET(flags_door[subcmd], NEED_UNLOCKED) && ((!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOKEY))) && (has_key(ch, keynum)) )
     {
-      send_to_char(ch, "It is locked, but you have the key.\r\n");
+      send_to_char(ch, "\nalert:It is locked, but you have the key.\r");
       do_doorcmd(ch, obj, door, SCMD_UNLOCK);
       do_doorcmd(ch, obj, door, subcmd);
     }
     else if (!(DOOR_IS_UNLOCKED(ch, obj, door)) && IS_SET(flags_door[subcmd], NEED_UNLOCKED) && ((!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOKEY))) && (!has_key(ch, keynum)) )
     {
-      send_to_char(ch, "It is locked, and you do not have the key!\r\n");
+      send_to_char(ch, "\nalert:Door is locked, and you don't have a key.\r");
     }
     else if (!(DOOR_IS_UNLOCKED(ch, obj, door)) && IS_SET(flags_door[subcmd], NEED_UNLOCKED) &&
              (GET_LEVEL(ch) < LVL_IMMORT || (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE))))
-      send_to_char(ch, "It seems to be locked.\r\n");
+      send_to_char(ch, "\nalert:It seems to be locked.\r");
     else if (!has_key(ch, keynum) && (GET_LEVEL(ch) < LVL_DEVA) && ((subcmd == SCMD_LOCK) || (subcmd == SCMD_UNLOCK)))
-      send_to_char(ch, "You don't seem to have the proper key.\r\n");
+      send_to_char(ch, "\nalert:You don't have the key.\r");
     else if (ok_pick(ch, keynum, DOOR_IS_PICKPROOF(ch, obj, door), subcmd))
       do_doorcmd(ch, obj, door, subcmd);
   }
@@ -811,21 +811,21 @@ ACMD(do_sit)
     }
     break;
   case POS_SITTING:
-    send_to_char(ch, "You're sitting already.\r\n");
+    send_to_char(ch, "\nalert:You're sitting already.\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "You stop resting, and sit up.\r\n");
+    send_to_char(ch, "\nalert:You sit up.\r");
     act("$n stops resting.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "You have to wake up first.\r\n");
+    send_to_char(ch, "\nalert:Wake up first.\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "Sit down while fighting? Are you MAD?\r\n");
+    send_to_char(ch, "\nalert:Sit down while fighting? Are you MAD?\r");
     break;
   default:
-    send_to_char(ch, "You stop floating around, and sit down.\r\n");
+    send_to_char(ch, "\nalert:You stop floating around, and sit down.\r");
     act("$n stops floating around, and sits down.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
     break;
@@ -836,26 +836,26 @@ ACMD(do_rest)
 {
   switch (GET_POS(ch)) {
   case POS_STANDING:
-    send_to_char(ch, "You sit down and rest your tired bones.\r\n");
+    send_to_char(ch, "\nalert:You sit down and rest your tired bones.\r");
     act("$n sits down and rests.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_RESTING;
     break;
   case POS_SITTING:
-    send_to_char(ch, "You rest your tired bones.\r\n");
+    send_to_char(ch, "\nalert:You rest your tired bones.\r");
     act("$n rests.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_RESTING;
     break;
   case POS_RESTING:
-    send_to_char(ch, "You are already resting.\r\n");
+    send_to_char(ch, "\nalert:You are already resting.\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "You have to wake up first.\r\n");
+    send_to_char(ch, "\nalert:You have to wake up first.\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "Rest while fighting?  Are you MAD?\r\n");
+    send_to_char(ch, "\nalert:You can't rest while fighting.\r");
     break;
   default:
-    send_to_char(ch, "You stop floating around, and stop to rest your tired bones.\r\n");
+    send_to_char(ch, "\nalert:You stop to rest your tired bones.\r");
     act("$n stops floating around, and rests.", FALSE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_RESTING;
     break;
@@ -940,7 +940,7 @@ ACMD(do_follow)
     }
   } else {
     if (ch->master != (char_data*)  NULL) {
-      send_to_char(ch, "You are following %s.\r\n", 
+      send_to_char(ch, "You are following %s.\r\n",
          GET_NAME(ch->master));
     } else {
       send_to_char(ch, "Whom do you wish to follow?\r\n");
@@ -977,7 +977,7 @@ ACMD(do_follow)
 ACMD(do_unfollow)
 {
   if (ch->master) {
-    if (AFF_FLAGGED(ch, AFF_CHARM)) { 
+    if (AFF_FLAGGED(ch, AFF_CHARM)) {
        send_to_char(ch, "You feel compelled to follow %s.\r\n",
          GET_NAME(ch->master));
     } else {

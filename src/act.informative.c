@@ -1987,9 +1987,8 @@ ACMD(do_toggle)
 
 	if (GET_LEVEL(ch) == LVL_IMPL) {
       send_to_char(ch,
-        " SlowNameserver: %-3s   "
-	"                        "
-	" Trackthru Doors: %-3s\r\n",
+        "\ntoggle[slownameserver:%s]:Slow Name Server\r"
+        "\ntoggle[trackthru:%s]:Trackthru Doors\r",
 
 	ONOFF(CONFIG_NS_IS_SLOW),
 	ONOFF(CONFIG_TRACK_T_DOORS));
@@ -1997,13 +1996,13 @@ ACMD(do_toggle)
 
     if (GET_LEVEL(ch) >= LVL_IMMORT) {
       send_to_char(ch,
-        "      Buildwalk: %-3s    "
-        "          NoWiz: %-3s    "
-        "         ClsOLC: %-3s\r\n"
-        "       NoHassle: %-3s    "
-        "      Holylight: %-3s    "
-        "      ShowVnums: %-3s\r\n"
-        "         Syslog: %-3s%s    ",
+        "\ntoggle[buildwalk:%s]:Buildwalk\r"
+        "\ntoggle[nowiz:%s]:Wiz-Channel\r"
+        "\ntoggle[clsolc:%s]:Clear OLC Screen\r"
+        "\ntoggle[nohassle:%s]:No Hassle\r"
+        "\ntoggle[holylight:%s]:Holylight\r"
+        "\ntoggle[showvnums:%s]:Show Room Num.\r"
+        "\ntoggle[syslog:%s]: System Log (%s)",
 
         ONOFF(PRF_FLAGGED(ch, PRF_BUILDWALK)),
         ONOFF(PRF_FLAGGED(ch, PRF_NOWIZ)),
@@ -2016,7 +2015,7 @@ ACMD(do_toggle)
     }
     if (GET_LEVEL(ch) >= LVL_IMPL) {
       send_to_char(ch,
-        "     ZoneResets: %-3s\r\n",
+        "\ntoggle[zoneresets:%s]:Zone Resets\r",
         ONOFF(PRF_FLAGGED(ch, PRF_ZONERESETS)));
     }
 
