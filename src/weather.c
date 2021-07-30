@@ -1,13 +1,13 @@
 /**
-* @file weather.c                                          
+* @file weather.c
 * Functions that handle the in game progress of time and weather changes.
-* 
+*
 * Part of the core tbaMUD source code distribution, which is a derivative
 * of, and continuation of, CircleMUD.
-*                                                                        
-* All rights reserved.  See license for complete information.                                                                
-* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University 
-* CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               
+*
+* All rights reserved.  See license for complete information.
+* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University
+* CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.
 */
 
 #include "conf.h"
@@ -34,7 +34,7 @@ void weather_and_time(int mode)
     weather_change();
 }
 
-/** Increment the game time by one hour (no matter what) and display any time 
+/** Increment the game time by one hour (no matter what) and display any time
  * dependent messages via send_to_outdoors() (if parameter is non-zero).
  * @param mode Really, this parameter has the effect of a boolean. If non-zero,
  * display day/night messages to all eligible players.
@@ -47,19 +47,19 @@ static void another_hour(int mode)
     switch (time_info.hours) {
     case 5:
       weather_info.sunlight = SUN_RISE;
-      send_to_outdoor("The sun rises in the east.\r\n");
+      send_to_outdoor("\nweather:The Sun rises in the West.\r");
       break;
     case 6:
       weather_info.sunlight = SUN_LIGHT;
-      send_to_outdoor("The day has begun.\r\n");
+      send_to_outdoor("\nweather:The day has begun.\r");
       break;
     case 21:
       weather_info.sunlight = SUN_SET;
-      send_to_outdoor("The sun slowly disappears in the west.\r\n");
+      send_to_outdoor("\nweather:The sun sets in the East.\r");
       break;
     case 22:
       weather_info.sunlight = SUN_DARK;
-      send_to_outdoor("The night has begun.\r\n");
+      send_to_outdoor("\nweather:The night has begun.\r");
       break;
     default:
       break;
@@ -85,11 +85,11 @@ static void another_hour(int mode)
  * update is sent via send_to_outdoors().
  * @todo There are some hard coded values that could be extracted to make
  * customizing the weather patterns easier.
- */  
+ */
 static void weather_change(void)
 {
   int diff, change;
-  
+
   if ((time_info.month >= 9) && (time_info.month <= 16))
     diff = (weather_info.pressure > 985 ? -2 : 2);
   else
@@ -159,27 +159,27 @@ static void weather_change(void)
   case 0:
     break;
   case 1:
-    send_to_outdoor("The sky starts to get cloudy.\r\n");
+    send_to_outdoor("\nweather:The sky is cloudy.\r");
     weather_info.sky = SKY_CLOUDY;
     break;
   case 2:
-    send_to_outdoor("It starts to rain.\r\n");
+    send_to_outdoor("\nweather:It starts to rain.\r");
     weather_info.sky = SKY_RAINING;
     break;
   case 3:
-    send_to_outdoor("The clouds disappear.\r\n");
+    send_to_outdoor("\nweather:The clouds disappear.\r");
     weather_info.sky = SKY_CLOUDLESS;
     break;
   case 4:
-    send_to_outdoor("Lightning starts to show in the sky.\r\n");
+    send_to_outdoor("\nweather:Lightning starts in the sky.\r");
     weather_info.sky = SKY_LIGHTNING;
     break;
   case 5:
-    send_to_outdoor("The rain stops.\r\n");
+    send_to_outdoor("\nweather:The rain stops.\r");
     weather_info.sky = SKY_CLOUDY;
     break;
   case 6:
-    send_to_outdoor("The lightning stops.\r\n");
+    send_to_outdoor("\nweather:The lightning stops.\r");
     weather_info.sky = SKY_RAINING;
     break;
   default:

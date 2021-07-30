@@ -738,7 +738,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "\n## Look\r\nTry looking around for that item.\r");
+    send_to_char(ch, "\nalert:Try looking around for that item.\r");
 }
 
 ACMD(do_look)
@@ -2107,7 +2107,7 @@ ACMD(do_toggle)
   switch (toggle) {
   case SCMD_COLOR:
     if (!*arg2) {
-      send_to_char(ch, "Your current color level is %s.\r\n", types[COLOR_LEV(ch)]);
+      send_to_char(ch, "\nalert:Your current color level is %s.\r", types[COLOR_LEV(ch)]);
       return;
     }
 
