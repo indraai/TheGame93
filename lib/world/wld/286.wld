@@ -285,7 +285,7 @@ Empty room.~
 D1
 ~
 door~
-1 -1 28617
+0 -1 28617
 D2
 ~
 ~
@@ -302,7 +302,7 @@ Empty room.~
 D3
 ~
 door~
-1 -1 28616
+0 -1 28616
 S
 T 3103
 #28618
@@ -1048,7 +1048,7 @@ You see a hall of fire.
 S
 #28660
 Fire Pits of Hades~
-~
+Empty room.~
 286 152 0 0 0 0
 D2
 You see a lake of fire.

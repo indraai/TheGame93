@@ -488,7 +488,7 @@ IceScreamDEVA D28639 is here serving delicious Ice Cream for everyone..
 ~
 He is dressing in a white jumpsuit with the words, '#IceCreamDEVA' written on it in large blue letters.
 ~
-2300 0 0 0 0 0 0 0 -706 E
+2300 0 0 0 0 0 0 0 250 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
@@ -787,7 +787,7 @@ Ashley is looking NKOTB memoribilia
 ~
 Ashley is a frantic New Kids on the Block Super Fan who's here trying to sell her memoribilia to buy tickets for the exclusive NKOTB cruise this year.
 ~
-16604 0 0 0 0 0 0 0 -600 E
+16604 0 0 0 0 0 0 0 250 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 2
@@ -884,7 +884,7 @@ FoodDEVA D28671 is here for food/drink orders.
 ~
 FoodDEVA D28671 works in the kitchen and roams around taking food and drink orders for happy clients.
 ~
-260312 0 0 0 26744 0 0 0 -900 E
+260312 0 0 0 26744 0 0 0 250 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
