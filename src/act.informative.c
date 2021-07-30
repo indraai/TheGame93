@@ -322,10 +322,12 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
       send_to_char(ch, "*");
 
     if (AFF_FLAGGED(ch, AFF_DETECT_ALIGN)) {
-      if (IS_EVIL(i))
-	send_to_char(ch, "(Red Aura) ");
-      else if (IS_GOOD(i))
-	send_to_char(ch, "(Blue Aura) ");
+      if (IS_EVIL(i)) {
+        send_to_char(ch, "(Red Aura) ");
+      }
+      else if (IS_GOOD(i)) {
+        send_to_char(ch, "(Blue Aura) ");
+      }
     }
     send_to_char(ch, "%s", i->player.long_descr);
 
@@ -338,9 +340,9 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
   }
 
   if (IS_NPC(i))
-    send_to_char(ch, "\nagent: %c%s", UPPER(*i->player.short_descr), i->player.short_descr + 1);
+    send_to_char(ch, "%c%s", UPPER(*i->player.short_descr), i->player.short_descr + 1);
   else
-    send_to_char(ch, "\nplayer: %s%s%s", i->player.name, *GET_TITLE(i) ? " " : "", GET_TITLE(i));
+    send_to_char(ch, "%s%s%s", i->player.name, *GET_TITLE(i) ? " " : "", GET_TITLE(i));
 
   if (AFF_FLAGGED(i, AFF_INVISIBLE))
     send_to_char(ch, " (invisible)");
@@ -385,7 +387,6 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
     else if (IS_GOOD(i))
       send_to_char(ch, " (Blue Aura)");
   }
-  send_to_char(ch, "\r");
 
   if (AFF_FLAGGED(i, AFF_SANCTUARY))
     act("...$e glows with a bright light!", FALSE, i, 0, ch, TO_VICT);
