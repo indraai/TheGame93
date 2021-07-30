@@ -308,13 +308,15 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 
   if (GROUP(i)) {
     if (GROUP(i) == GROUP(ch))
-      send_to_char(ch, "(%s%s%s) ", CBGRN(ch, C_NRM),
-	GROUP_LEADER(GROUP(i)) == i ? "leader" : "group",
+      send_to_char(ch, "(%s%s%s) ",
+        CBGRN(ch, C_NRM),
+	      GROUP_LEADER(GROUP(i)) == i ? "leader" : "group",
         CCNRM(ch, C_NRM));
     else
-      send_to_char(ch, "(%s%s%s) ", CBRED(ch, C_NRM),
+      send_to_char(ch, "(%s%s%s) ",
+        CBRED(ch, C_NRM),
         GROUP_LEADER(GROUP(i)) == i ? "leader" : "group",
-	CCNRM(ch, C_NRM));
+	      CCNRM(ch, C_NRM));
   }
 
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
@@ -329,7 +331,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
         send_to_char(ch, "(Blue Aura) ");
       }
     }
-    send_to_char(ch, "\nagent: %s\r", i->player.long_descr);
+    send_to_char(ch, "agent: %s", i->player.long_descr);
 
     if (AFF_FLAGGED(i, AFF_SANCTUARY))
       act("...$e glows with a bright light!", FALSE, i, 0, ch, TO_VICT);
