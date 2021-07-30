@@ -529,30 +529,31 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
-    "\n## Advanced\r"
-    "\nselect[n:strength]:%d|%d\r"
-    "\nselect[o:intelligence]:%d\r"
-    "\nselect[p:wisdom]:%d\r"
-    "\nselect[r:dexterity]:%d"
-    "\nselect[s:con]:%d\r"
-    "\nselect[t:cha]:%d"
-    "\nselect[u:parlysis]:%d\r"
-    "\nselect[v:rod/staves]:%d\r"
-    "\nselect[w:petification]:%d\r"
-    "\nselect[o:breath]:%d\r"
-    "\nselect[p:spells]:%d\r",
-        GET_STR(mob), GET_ADD(mob),
-        GET_INT(mob),
-        GET_SAVE(mob, SAVING_PARA),
-        GET_WIS(mob),
-        GET_SAVE(mob, SAVING_ROD),
-        GET_DEX(mob),
-        GET_SAVE(mob, SAVING_PETRI),
-        GET_CON(mob),
-        GET_SAVE(mob, SAVING_BREATH),
-        GET_CHA(mob),
-        GET_SAVE(mob, SAVING_SPELL)
-        );
+      "\n## Advanced\r"
+      "\nselect[n:strength]:%d|%d\r"
+      "\nselect[o:intelligence]:%d\r"
+      "\nselect[p:wisdom]:%d\r"
+      "\nselect[r:dexterity]:%d"
+      "\nselect[s:con]:%d\r"
+      "\nselect[t:charisma]:%d"
+      "\nselect[u:parlysis]:%d\r"
+      "\nselect[v:rod/staves]:%d\r"
+      "\nselect[w:petification]:%d\r"
+      "\nselect[o:breath]:%d\r"
+      "\nselect[p:spells]:%d\r",
+      GET_STR(mob),
+      GET_ADD(mob),
+      GET_INT(mob),
+      GET_WIS(mob),
+      GET_DEX(mob),
+      GET_CON(mob),
+      GET_CHA(mob),
+      GET_SAVE(mob, SAVING_PARA),
+      GET_SAVE(mob, SAVING_ROD),
+      GET_SAVE(mob, SAVING_PETRI),
+      GET_SAVE(mob, SAVING_BREATH),
+      GET_SAVE(mob, SAVING_SPELL)
+    );
   }
 
   /* Quit to previous menu option */
