@@ -438,7 +438,7 @@ A dummy is looking for tackles.
 ~
 The dummy is small and runs around with a target on it's back.
 ~
-232 0 0 0 0 0 0 0 -200 E
+232 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 1000 100
 8 8 0
@@ -497,7 +497,7 @@ E
 T 3010
 #3067
 deva guard guarddeva devaforce d3067~
-GuardDEVA 3067~
+GuardDEVA D3067~
 GuardDEVA D3067 is on duty.
 ~
 A big, strong, helpful, trustworthy GuardDEVA.

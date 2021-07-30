@@ -124,8 +124,8 @@ bulbous eyes that peer keenly about.
 E
 T 1904
 #1908
-jet-black jet black crow~
-a jet-black crow~
+black crow~
+Crow~
 A jet-black crow hops warily along the ground.
 ~
    This large bird is covered in shimmering inky feathers that glisten almost
@@ -182,7 +182,7 @@ fangs of its more dangerous arachnid kin.  Large bulbous eyes peer keenly and
 evilly about, watching for any opportunity this creature could take to capture a
 new meal.
 ~
-104 0 0 0 0 0 0 0 -400 E
+72 0 0 0 0 0 0 0 -400 E
 15 15 1 3d3+150 2d2+2
 0 22500
 8 8 0
@@ -231,7 +231,7 @@ rapidly from one hiding place to another.  Its tiny beady eyes take in the
 surroundings with ease, its relatively small fangs clicking almost impatiently
 with the urge to kill.
 ~
-2152 0 0 0 524288 0 0 0 -400 E
+2120 0 0 0 524288 0 0 0 -400 E
 17 15 0 3d3+170 2d2+2
 0 28900
 8 8 0
@@ -295,7 +295,7 @@ A jumping spider crouches here, ready to spring.
 great distances forward and into the air.  Long, lean pincers glisten unsheathed
 and ready for striking as its body stays tense for a leap.
 ~
-42 0 0 0 0 0 0 0 -400 E
+10 0 0 0 0 0 0 0 -400 E
 15 15 1 3d3+150 2d2+2
 0 22500
 8 8 0
@@ -390,11 +390,10 @@ wasp spider~
 sticky web-like substance that it coats its legs with, particularly useful for
 capturing and entangling unobservant prey.
 ~
-104 0 0 0 0 0 0 0 -400 E
+72 0 0 0 0 0 0 0 -400 E
 17 15 0 3d3+170 2d2+2
 0 28900
 8 8 0
-BareHandAttack: 4
 E
 T 1925
 #1925
