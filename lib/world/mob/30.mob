@@ -1,6 +1,6 @@
 #3000
 deva sage sagedeva~
-SageDEVA~
+SageDEVA D3000~
 A SageDEVA walks around behind the counter, talking to himself.
 ~
 The SageDEVA looks old and wise, and yet he looks like a very powerful sage.
@@ -26,8 +26,8 @@ too many pastries.
 BareHandAttack: 1
 E
 #3002
-grocer deva grocerdeva~
-GrocerDEVA~
+grocer deva grocerdeva devaforce d3002~
+GrocerDEVA D30002~
 A GrocerDEVA stands at the counter, with a patient look on his face.
 ~
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
@@ -38,12 +38,11 @@ A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 8 8 0
 E
 #3003
-maker deva makerdeva~
-MakerDEVA~
-A MakerDEVA is standing here.
+craft deva makerdeva devaforce d3003~
+CraftDEVA D3003~
+A CraftDEVA D3003 is standing here.
 ~
-He is a young MakerDEVA, who still has lots to learn but he is still eager to
-sell you his latest implements of creativity and imagination.
+He is a young CraftDEVA, who still has lots to learn but he is still eager to sell you his latest implements of creativity and imagination.
 ~
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -51,12 +50,11 @@ sell you his latest implements of creativity and imagination.
 8 8 0
 E
 #3004
-armor deva armordeva~
-ArmorDEVA~
-An ArmorDEVA stands here displaying his new (and previously owned) armors.
+armor deva armordeva d3004~
+ArmorDEVA D3004~
+ArmorDEVA D3004 stands here displaying his new (and previously owned) armors.
 ~
-An old but very strong armorer.  He has made more suits of armor in his
-life than you have ever seen.
+An old but very strong armorer.  He has made more suits of armor in his life than you have ever seen.
 ~
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -64,12 +62,11 @@ life than you have ever seen.
 8 8 0
 E
 #3005
-reception deva receptiondeva~
-the ReceptionDEVA~
-A ReceptionDEVA is standing behind the counter here, smiling at you.
+reception deva receptiondeva d3005~
+ReceptionDEVA D3005~
+ReceptionDEVA D3005 is standing behind the counter here, smiling at you.
 ~
-You notice a excited look in his face.  He looks like he is paid well and enjoys
-his job.
+You notice a excited look in his face.  He looks like he is paid well and enjoys his job.
 ~
 59419 0 0 0 65616 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -77,8 +74,8 @@ his job.
 8 8 0
 E
 #3006
-captain deva captaindeva~
-CaptainDEVA~
+captain deva captaindeva d3006~
+CaptainDEVA D3006~
 Mr. Captain Fancy Pants stands here, selling boats.
 ~
 This captain has seen more storms than you have cried tears.
@@ -89,9 +86,9 @@ This captain has seen more storms than you have cried tears.
 8 8 0
 E
 #3007
-sailor deva sailordeva~
-SailorDEVA~
-A SailorDEVA stands here, waiting to help you.
+sailor deva sailordeva devaforce d3007~
+SailorDEVA D3007~
+SailorDEVA D3007 stands here, waiting to help you.
 ~
 He looks like a strong, fit sailor.
 ~
@@ -101,8 +98,8 @@ He looks like a strong, fit sailor.
 8 8 0
 E
 #3008
-mexi deva mexideva~
-MexiDEVA~
+mexi deva mexideva devaforce d3008~
+MexiDEVA D3008~
 MexiDEVA is here ready to take your order.
 ~
 He looks like he may or may not have a green card.
@@ -113,13 +110,11 @@ He looks like he may or may not have a green card.
 8 8 0
 E
 #3009
-water deva waterdeva~
-WaterDEVA~
-The WaterDEVA is standing behind the counter.
+water deva waterdeva devaforce d3009~
+WaterDEVA D3009~
+WaterDEVA D3009 is standing behind the counter.
 ~
-Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati
-Natural Spring Water in his hand.  When he notices you, he proudly displays his
-fine collection of contemporary waters.
+Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati Natural Spring Water in his hand.  When he notices you, he proudly displays his fine collection of contemporary waters.
 ~
 26635 0 0 0 16 0 0 0 800 E
 33 9 -9 6d6+330 5d5+5
@@ -127,13 +122,11 @@ fine collection of contemporary waters.
 8 8 0
 E
 #3010
-mail deva maildeva~
-MailDEVA~
+mail deva maildeva devaforce d3010~
+MailDEVA D3010~
 The head MailDEVA is standing here, waiting to help you with your mail.
 ~
-The Postmaster seems like a happy old man.  He always on the job making sure
-indra.email services are in tip top shape. Ensuring a safe, secure, and honest
-mail delivery system for all in Amaravati.
+The Postmaster seems like a happy old man.  He always on the job making sure indra.email services are in tip top shape. Ensuring a safe, secure, and honest mail delivery system for all in Amaravati.
 ~
 518154 0 0 0 65552 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -141,12 +134,11 @@ mail delivery system for all in Amaravati.
 8 8 0
 E
 #3011
-sales deva salesdeva~
-SalesDEVA~
-This SalesDEVA is laden with gadgets and gizmos.
+sales deva salesdeva devaforce d3011~
+SalesDEVA D3011~
+SalesDEVA D3011 is laden with gadgets and gizmos.
 ~
-A combination of good business sense, charming personality, and good manners has
-made him a success with his customers.
+A combination of good business sense, charming personality, and good manners has made him a success with his customers.
 ~
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -154,9 +146,9 @@ made him a success with his customers.
 8 8 0
 E
 #3012
-offering deva offeringdeva~
-OfferingDEVA~
-The OfferingDEVA is here looking out for those who need it.
+offering deva offeringdeva devaforce d3012~
+OfferingDEVA D3013~
+OfferingDEVA D3013 is here looking out for those who need it.
 ~
 He immediately reminds you of your best friend.  He is always around to help out
 those who have hit hard times and need a little boost.
@@ -168,9 +160,9 @@ those who have hit hard times and need a little boost.
 E
 T 3016
 #3013
-guide guidedeva deva~
-GuideDEVA~
-A GuideDEVA is here to help. "tell guide help" for assistance.
+guide guidedeva deva devaforce d3013~
+GuideDEVA D3013~
+GuideDEVA D3013 is here to help. "tell guide help" for assistance.
 ~
 This young man has the sole purpose of helping those who need assistance.
 He will follow you around Amaravati and provide a walking tour of the local

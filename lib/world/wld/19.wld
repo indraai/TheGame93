@@ -112,14 +112,11 @@ this direction.
 0 0 1903
 E
 old broken crossroads sign~
-   This old splintered sign has long lost any visible markings, black rivulets
-of ink staining the rotting wood that stands uselessly here, just a remnant of
-past inhabitants.
+adv:world:1901/sign
 ~
 E
 fungus~
-   These tiny sprouting mushrooms are typical swamp flora, thriving on the damp
-rotting wood of the abandoned sign.
+adv:world:1901/fungus
 ~
 S
 #1902
@@ -140,18 +137,13 @@ and an old piece of wood can be seen protruding from the ground.
 0 0 1901
 E
 sickly bits plant life~
-   Limp and miserable, these plants look as though they are barely surviving on
-what little nourishment and sunlight the swamp provides.
+adv:world:1902/plant
 ~
 S
 T 1907
 T 1971
 #1903
 Shadow of a Great Rock~
-   A massive rock towers from the ground to the north, overhanging at the top
-and casting the boggy ground in shadow.  The air is cooler here, the stone
-itself emitting an almost unnatural chill in contrast to the warmth of the
-surroundings.
 ~
 19 1 0 0 0 2
 D1
@@ -174,10 +166,7 @@ of slight bubbling coming from further to the west.
 0 0 1904
 E
 massive rock stone~
-   This great stone looks almost as though it were part of a statue that has
-long sunk irretrievably into the swamp.  A faint glow surrounds it, and an
-unnatural coldness fills the air as if this place were somehow connected with
-some evil magic.
+adv:world:1093/stone
 ~
 S
 T 1971
@@ -223,14 +212,11 @@ wafting on the western air.
 0 0 1906
 E
 scarlet stains~
-These large dark patches in the mud glisten slightly crimson in any light,
-the faded stains of many fallen warriors.
+adv:world:1905/scarlet
 ~
 E
 glimpses metal armor weapons~
-   Small pieces of weaponry and armor protrude from the ground like shrapnel,
-so deeply rusted and swallowed in mud that they are practically irretrievable
-and are obviously of no further use for warring.
+adv:world:1905/armor
 ~
 S
 T 1971
@@ -272,26 +258,21 @@ S
 T 1971
 #1907
 Slippery Slope~
-   Slick with mud, the ground is incredibly hard to walk on without slipping.
-Sloping steeply down from the south, thin rivulets of water trickle their way
-lazily down, accumulating in a watery pool at the base.
 ~
 19 0 0 0 0 5
 D2
-   The way south looks too steep and too slippery to even begin trying to climb.
+The way south looks too steep and too slippery to even begin trying to climb.
 ~
 ~
 0 0 1901
 D3
-   Rocky spikes break up the horizon line, gaping like the open jaw of some
-predatory creature.
+Rocky spikes break up the horizon line, gaping like the open jaw of some predatory creature.
 ~
 ~
 0 0 1908
 E
 thin rivulets water watery pool base~
-   Tiny veins of sparkling water line the surface of this slanted ground, muddy
-churning water bubbling continously in the pool that saturates the lower ground.
+adv:world:1907/water
 ~
 S
 T 1971
@@ -300,41 +281,32 @@ Scattered Rocks~
 ~
 19 0 0 0 0 2
 D0
-   More scattered broken rocks can be seen trailing off to the north, water
-deepening steadily around them.
+More scattered broken rocks can be seen trailing off to the north, water deepening steadily around them.
 ~
 ~
 0 0 1915
 D1
-   A little pool can be see glistening off to the east, and the solid path
-curves around steadily to the south where the ground rises.
+A little pool can be see glistening off to the east, and the solid path curves around steadily to the south where the ground rises.
 ~
 ~
 0 0 1907
 D2
-   A massive piece of broken stone rises from the ground in this direction, it
-appears to have once stood upright, torn from the jagged base here and
-overturned by some unimaginable force.
+A massive piece of broken stone rises from the ground in this direction, it appears to have once stood upright, torn from the jagged base here and overturned by some unimaginable force.
 ~
 ~
 0 0 1924
 D3
-   The thick smell of swamp fungus and rotting wood saturates the breeze, an
-overturned tree's skeletal branches grasping at the air.
+The thick smell of swamp fungus and rotting wood saturates the breeze, an overturned tree's skeletal branches grasping at the air.
 ~
 ~
 0 0 1909
 E
 small jagged peaks sharp rocks~
-   These rocks look almost like the remnants of a huge embedded boulder or
-statue that has been broken away by some massive force.  Firmly entrenched in
-the mud, the rough-edged base spikes out like several rows of teeth.
+adv:world:1908/rocks
 ~
 E
 thin layers slime old unidentifiable stains~
-   The slick green coating of algae is obvious over all of these rocks, decaying
-plant slime as well as darker and more ominous stains paint the jagged surfaces
-various shades of red and black.
+adv:world:1908/slime
 ~
 S
 T 1971
@@ -343,42 +315,32 @@ Rotting Branch~
 ~
 19 0 0 0 0 2
 D1
-   Little stony peaks rise from the slippery mud here, providing a somewhat
-stable, albeit dangerous footpath.
+Little stony peaks rise from the slippery mud here, providing a somewhat stable, albeit dangerous footpath.
 ~
 ~
 0 0 1908
 D2
-   Waves of steamy heat cascade on the shimmering air from this direction, the
-sound of simmering water and mud bubbling continously.
+Waves of steamy heat cascade on the shimmering air from this direction, the sound of simmering water and mud bubbling continously.
 ~
 ~
 0 0 1904
 E
 blue green mould tiny fungi~
-   These dark creeping moulds cover the wood in an almost velvety texture,
-little swamp mushrooms sprouting here and there, feeding off of the damp and
-rot.
+adv:world:1909/fungi
 ~
 S
 T 1971
 #1910
 Flooded Waterway~
-   This deep ditch looks as though it may once have been a rushing river, though
-now it is just a watery bog, its high sloping sides sodden with slime from
-rotting vegetation and the wild overgrowth of algae and desperate creeping swamp
-vines.
 ~
 19 0 0 0 0 2
 D0
-   The way to the north grows darker and deeper, a strange ominous feeling
-hanging over the area like an invisible shadow.
+The way to the north grows darker and deeper, a strange ominous feeling hanging over the area like an invisible shadow.
 ~
 ~
 0 0 1911
 D2
-   The ground seems to become muddier and softer, but the sloping sides of this
-ditch level out into flatter land.
+The ground seems to become muddier and softer, but the sloping sides of this ditch level out into flatter land.
 ~
 ~
 0 0 1902
@@ -386,27 +348,20 @@ S
 T 1971
 #1911
 Dark Waters~
-   The water here is so dark that nothing can be seen beneath the single layer
-of scum that floats everywhere.  Insects dart quickly here and there, apparently
-fleeing from the more ominous shadows that slide just beneath the surface.
 ~
 19 4 0 0 0 2
 D2
-   The way south looks very slippery indeed, difficult to climb out of but not
-impossible.
+The way south looks very slippery indeed, difficult to climb out of but not impossible.
 ~
 ~
 0 0 1910
 E
 insects~
-   These simple swamp insects flit so fast it is hard to see them properly, tiny
-and plated with defensive exoskeletons they pause only to feed on the smaller
-zooplankton in the water.
+adv:world:1911/insects
 ~
 E
 ominous shadows~
-   Dark rippling shadows stir unnaturally beneath the water, the movements of
-some hidden creature no doubt.
+adv:world:1911/shadow
 ~
 S
 T 1908
@@ -416,27 +371,22 @@ Ditch of the Dead~
 ~
 19 0 0 0 0 2
 D0
-   The vast splayed roots of a giant tree stand upturned in the air, blocking
-any view of what lies beyond.
+The vast splayed roots of a giant tree stand upturned in the air, blocking any view of what lies beyond.
 ~
 ~
 0 0 1913
 D1
-   Red waters leach slowly from this direction, polluting the soil and filling
-the air with an eye-watering metallic scent.
+Red waters leach slowly from this direction, polluting the soil and filling the air with an eye-watering metallic scent.
 ~
 ~
 0 0 1906
 E
 glimpses shiny metal~
-   Old broken pieces of weapons and shields float in shards amongst the bubbling
-water, stirring as though in some cauldron of death.
+Old broken pieces of weapons and shields float in shards amongst the bubbling water, stirring as though in some cauldron of death.
 ~
 E
 splintered bone~
-   Pieces of decaying bone are all that remain of any organic corpses, bleached
-almost white from the alkaline water here and stripped by predators of all flesh
-that hadn't rotted away naturally.
+Pieces of decaying bone are all that remain of any organic corpses, bleached almost white from the alkaline water here and stripped by predators of all flesh that hadn't rotted away naturally.
 ~
 S
 T 1971
@@ -802,9 +752,6 @@ down into the deep.
 S
 #1927
 Underwater Enclosure~
-   Sharp rocks protrude dangerously and invisibly from the darkness, muddy water
-swirling about and creating the apparent illusion of dark shadows and shapes
-swimming cautiously about.
 ~
 19 13 0 0 0 9
 D1
