@@ -205,7 +205,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG || *display->description != '.' ||
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
-      send_to_char(ch, "\ninv: %s\r", display->short_description);
+      send_to_char(ch, "\nobject: %s\r", display->short_description);
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
@@ -401,13 +401,12 @@ static void list_char_to_char(struct char_data *list, struct char_data *ch)
       if (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_HOLYLIGHT) &&
       	   IS_NPC(i) && i->player.long_descr && *i->player.long_descr == '.')
         continue;
-      send_to_char(ch, "%s", CCYEL(ch, C_NRM));
+      send_to_char(ch, "\nagent: %s\r", CCYEL(ch, C_NRM));
       if (CAN_SEE(ch, i))
         list_one_char(i, ch);
       else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch) &&
 	       AFF_FLAGGED(i, AFF_INFRAVISION))
         send_to_char(ch, "You see a pair of glowing red eyes looking your way.\r\n");
-      send_to_char(ch, "%s", CCNRM(ch, C_NRM));
     }
 }
 
@@ -518,7 +517,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
         "\nadv:world:%d/main\r"
         "\n=\n"
         "\nroom:%d\r"
-        "\n\r",
+        "\n----\n\r",
         world[IN_ROOM(ch)].name,
         GET_ROOM_VNUM(IN_ROOM(ch)),
         GET_ROOM_VNUM(IN_ROOM(ch))
@@ -530,14 +529,8 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     do_auto_exits(ch);
 
   /* now list characters & objects */
-  if (world[IN_ROOM(ch)].contents) {
-    send_to_char(ch, "\n=\n");
-    list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_LONG, FALSE);
-  }
-  if (world[IN_ROOM(ch)].people) {
-    send_to_char(ch, "\n=\n");
-    list_char_to_char(world[IN_ROOM(ch)].people, ch);
-  }
+  list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_LONG, FALSE);
+  list_char_to_char(world[IN_ROOM(ch)].people, ch);
 }
 
 static void look_in_direction(struct char_data *ch, int dir)
