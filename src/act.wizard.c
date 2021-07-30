@@ -769,42 +769,62 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   struct follow_type *fol;
   struct affected_type *aff;
 
-  send_to_char(ch, "\n# %s\r", GET_NAME(k));
-  send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
-  send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
-  sprinttype(GET_GENDER(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "\ngender: %s\r", buf);
-  send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
-  send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
+  send_to_char(ch, "\n# %s\r" // output name
+    "\nid: %5ld\r"           // output id
+    "\ntype: %s\r"          // output type
+    "\nroom: %d\r"
+    "\nload: %d\r",
+    GET_NAME(k),
+    IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k),
+    (!IS_NPC(k) ? "PLAYER" : (!IS_MOB(k) ? "AGENT" : "MOBILE"),
+    GET_ROOM_VNUM(IN_ROOM(k)),
+    IS_NPC(k) ? NOWHERE : GET_LOADROOM(k)
+  );
 
   if (IS_MOB(k)) {
+    send_to_char(ch, "\n----\n");
     send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
     send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
-    send_to_char(ch, "\nkeyword: %s\r", k->player.name);
-    send_to_char(ch, "\n'l-desc': %s\r", k->player.long_descr ? k->player.long_descr : "<None>");
+    send_to_char(ch, "\nkeywords: %s\r", k->player.name);
+    send_to_char(ch, "\ndescribe: %s\r", k->player.long_descr ? k->player.long_descr : "<None>");
   }
   else {
     send_to_char(ch, "\ntitle: %s\r", k->player.title ? k->player.title : "<None>");
   }
 
-  send_to_char(ch, "\n'd-desc': %s\r", k->player.description ? k->player.description : "<None>");
-  send_to_char(ch, "\n'hit': %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
-  send_to_char(ch, "\n'mana': %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
-  send_to_char(ch, "\n'move': %d/%d+%d]\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
-  send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
-  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
-  send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
-  send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
-  send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
-  send_to_char(ch, "\nint: %d\r", GET_INT(k));
-  send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
-  send_to_char(ch, "\ncon: %d\r", GET_CON(k));
-  send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
+  sprinttype(GET_GENDER(k), genders, buf, sizeof(buf));
+  send_to_char(ch, "\ngender: %s\r", buf);
 
-  send_to_char(ch, "\nac: %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\n'saving throws': %d/%d/%d/%d/%d\r",
-	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
-	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
-	  GET_SAVE(k, 3), GET_SAVE(k, 4));
+  send_to_char(ch, "\nlook: %s\r", k->player.description ? k->player.description : "<None>");
+  send_to_char(ch, "\n----\n");
+  send_to_char(ch, "\nhit: %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
+  send_to_char(ch, "\nmana: %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
+  send_to_char(ch, "\nmove: %d/%d+%d\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
+  send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
+  send_to_char(ch, "\n----\n");
+  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
+  send_to_char(ch, "\nexerience: %d\r", GET_EXP(k));
+  send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
+  send_to_char(ch, "\nstength: %d/%d\r", GET_STR(k), GET_ADD(k));
+  send_to_char(ch, "\nintelligence: %d\r", GET_INT(k));
+  send_to_char(ch, "\nwisdom: %d\r", GET_WIS(k));
+  send_to_char(ch, "\ncondition: %d\r", GET_CON(k));
+  send_to_char(ch, "\ncharisma: %d\r", GET_CHA(k));
+  send_to_char(ch, "\n----\n");
+  send_to_char(ch, "\nac: %d%+d/10\r"
+    "\nhitroll: %d\r"
+    "\ndamroll: %d\r"
+    "\n'saving throws': %d/%d/%d/%d/%d\r",
+	  GET_AC(k),
+    dex_app[GET_DEX(k)].defensive,
+    k->points.hitroll,
+	  k->points.damroll,
+    GET_SAVE(k, 0),
+    GET_SAVE(k, 1),
+    GET_SAVE(k, 2),
+	  GET_SAVE(k, 3),
+    GET_SAVE(k, 4)
+  );
 
   send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
@@ -815,37 +835,43 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   /* Showing the bitvector */
   sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "\n'aff flags': %s\r", buf);
+  send_to_char(ch, "\n'affinity': %s\r", buf);
 
   sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "\npos: %s\r", buf);
+  send_to_char(ch, "\nposition: %s\r", buf);
 
   if (IS_NPC(k)) {
-    send_to_char(ch, "\n'attack type': %s\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, "\n'def. position': %s\r", buf);
+    send_to_char(ch, "\ndefault: %s\r"
+      "\nattack: %s\r",
+      buf,
+      attack_hit_text[(int) k->mob_specials.attack_type].singular);
 
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'mob spec-proc': %s\r\n'npc bhd': %dd%d\r",
+    send_to_char(ch, "\nprocedure: %s\r"
+      "\n'npc bhd': %dd%d\r",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
-	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
+	    k->mob_specials.damnodice,
+      k->mob_specials.damsizedice);
 
   } else {
     send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
-    send_to_char(ch, "\n'idle timer (tics)': %d\r", k->char_specials.timer);
+    send_to_char(ch, "\nidle: %d (timer in tics)\r", k->char_specials.timer);
     sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'plr': %s\r", buf);
+    send_to_char(ch, "\npersona: %s\r", buf);
 
     sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "\n'prf': %s\r", buf);
+    send_to_char(ch, "\nflags: %s\r", buf);
 
     send_to_char(ch, "'quest points': %d\r\n'quests completed': %d\r",
        GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
 
     if (GET_QUEST(k) != NOTHING)
-      send_to_char(ch, "\n'current quest': %d\r\n'time remain': %d\r",
-      GET_QUEST(k), GET_QUEST_TIME(k));
-
+      send_to_char(ch, "\nquest: %d\r"
+        "\nremaining: %d\r",
+        GET_QUEST(k),
+        GET_QUEST_TIME(k)
+      );
 
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
     send_to_char(ch, "\nclass: %s\r", buf);
@@ -857,9 +883,15 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
     send_to_char(ch, "\ncreated: %s\r\n'last Logon': %s\r", buf1, buf2);
 
-    send_to_char(ch, "played: %dh %dm\r\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]",
-            k->player.time.played / 3600, (k->player.time.played % 3600) / 60,
-            age(k)->year, GET_PRACTICES(k), int_app[GET_INT(k)].learn, wis_app[GET_WIS(k)].bonus);
+    send_to_char(ch, "played: %dh %dm\r"
+      "\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]",
+      k->player.time.played / 3600,
+      (k->player.time.played % 3600) / 60,
+      age(k)->year,
+      GET_PRACTICES(k),
+      int_app[GET_INT(k)].learn,
+      wis_app[GET_WIS(k)].bonus
+    );
 
     /* Display OLC zone for immorts. */
     if (GET_LEVEL(k) >= LVL_BUILDER) {
