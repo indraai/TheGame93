@@ -687,7 +687,6 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_COPY;
       return;
     case 'x':
-    case 'X':
       write_to_output(d, "\nAre you sure you want to delete this mobile?\r");
       OLC_MODE(d) = MEDIT_DELETE;
       return;
@@ -701,7 +700,6 @@ void medit_parse(struct descriptor_data *d, char *arg)
     i=0;
     switch(*arg) {
     case 'q':
-    case 'Q':
       medit_disp_menu(d);
       return;
     case 'a':  /* Edit level */
