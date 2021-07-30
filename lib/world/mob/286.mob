@@ -14,16 +14,17 @@ impervious to normal weapons.
 8 8 0
 E
 #28602
-hanging tough platnium nkotb memoribilia record~
-Hanging Tough Platnium New Kids on the Block Record~
-A Hanging Tough New Kids on the Block platnium record is here.
+nkotb platinum nkotbplatinum memorabilia album record~
+Platinum NKOTB~
+Platinum New Kids On The Block is here.
 ~
 A Platnium Record commemorating New Kids on the Block album Hanging Tough going platinum after being released on September 6, 1888. With it's title track Hanging Tough setting the future stage for the era of NKOTB.
 ~
-30 0 0 0 2128 0 0 0 -800 E
+6360 0 0 0 2128 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
+BareHandAttack: 4
 E
 #28603
 sabu ala'kar djinn male demon~
@@ -52,16 +53,17 @@ She is the most beautiful woman you have ever seen... too bad she has blood and 
 BareHandAttack: 1
 E
 #28605
-album gold nkotb record memoribilia~
-New Kids on the Block Gold Record~
-A shiny Gold Record of New Kids on the Block self-titled album is here. This is quite the keepsake.
+nkotb gold nkotbgold memorabilia album record~
+Gold NKOTB~
+Gold New Kids On The Block is here.
 ~
 The self titled albumf New Kids on the Block released April 1, 1986 original Gold Record memoribilia.
 ~
-30 0 0 0 0 0 0 0 -800 E
+6360 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
+BareHandAttack: 11
 E
 #28606
 donnie wahlberg pot pie nkotb~
@@ -112,12 +114,11 @@ SecurityDEVA D28609 is here to protect the realm.
 8 8 0
 E
 #28610
-nkotb super fan jessica~
-Jessica the NKOTB Super Fan~
-Jessica the NKOTB Super Fan is here screaming out for DONNIE!
+jessica resident assistant~
+Jessica~
+Jessica the resident assistant is here.
 ~
-You see a unrecognizable person going through unheard of and indescribable
-torture waiting for her favorite NKOTB star DONNIE to show up.  She screams out at you in pain and terror... DONNIE!!! DONNIE!!! DONNIE!!! WHERE ARE YOU DONNIE!!!
+Jessica is a resident assistant who stuck around to help clean up the mess.
 ~
 220 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
