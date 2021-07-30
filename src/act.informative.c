@@ -338,9 +338,9 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
   }
 
   if (IS_NPC(i))
-    send_to_char(ch, "%c%s", UPPER(*i->player.short_descr), i->player.short_descr + 1);
+    send_to_char(ch, "\nagent: %c%s", UPPER(*i->player.short_descr), i->player.short_descr + 1);
   else
-    send_to_char(ch, "%s%s%s", i->player.name, *GET_TITLE(i) ? " " : "", GET_TITLE(i));
+    send_to_char(ch, "\nplayer: %s%s%s", i->player.name, *GET_TITLE(i) ? " " : "", GET_TITLE(i));
 
   if (AFF_FLAGGED(i, AFF_INVISIBLE))
     send_to_char(ch, " (invisible)");
@@ -385,7 +385,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
     else if (IS_GOOD(i))
       send_to_char(ch, " (Blue Aura)");
   }
-  send_to_char(ch, "\r\n");
+  send_to_char(ch, "\r");
 
   if (AFF_FLAGGED(i, AFF_SANCTUARY))
     act("...$e glows with a bright light!", FALSE, i, 0, ch, TO_VICT);
@@ -401,7 +401,6 @@ static void list_char_to_char(struct char_data *list, struct char_data *ch)
       if (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_HOLYLIGHT) &&
       	   IS_NPC(i) && i->player.long_descr && *i->player.long_descr == '.')
         continue;
-      send_to_char(ch, "\nagent: %s\r", CCYEL(ch, C_NRM));
       if (CAN_SEE(ch, i))
         list_one_char(i, ch);
       else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch) &&
