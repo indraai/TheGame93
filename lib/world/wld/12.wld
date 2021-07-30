@@ -16,28 +16,28 @@ D1
 ~
 0 0 34307
 E
-deva~
-adv:world:1201/deva
-~
-E
-indra~
-adv:world:1201/indra
-~
-E
-idne~
-adv:world:1201/idne
-~
-E
-indu~
-adv:world:1201/indu
+aramati~
+adv:world:1201/aramati
 ~
 E
 vamraka~
 adv:world:1201/vamraka
 ~
 E
-aramati~
-adv:world:1201/aramati
+indu~
+adv:world:1201/indu
+~
+E
+idne~
+adv:world:1201/idne
+~
+E
+indra~
+adv:world:1201/indra
+~
+E
+deva~
+adv:world:1201/deva
 ~
 S
 #1202
@@ -67,14 +67,15 @@ D2
 ~
 1 -1 34308
 E
-hymn~
-adv:world:1204/hymn
-~
-E
 original~
 adv:world:1204/original
 ~
+E
+hymn~
+adv:world:1204/hymn
+~
 S
+T 3106
 #1205
 Deva Post Office~
 Empty room.~
