@@ -539,8 +539,8 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
       "\nselect[u:parlysis]:%d\r"
       "\nselect[v:rod/staves]:%d\r"
       "\nselect[w:petification]:%d\r"
-      "\nselect[o:breath]:%d\r"
-      "\nselect[p:spells]:%d\r",
+      "\nselect[x:breath]:%d\r"
+      "\nselect[y:spells]:%d\r",
       GET_STR(mob),
       GET_ADD(mob),
       GET_INT(mob),
