@@ -15,12 +15,12 @@ adv:world:26702/look
 ~
 0 0 26702
 E
-sand beach~
-adv:world:26701/beach
-~
-E
 ocean water~
 adv:world:26701/water
+~
+E
+sand beach~
+adv:world:26701/beach
 ~
 S
 #26702
@@ -44,6 +44,7 @@ adv:world:26704/look
 ~
 0 0 26704
 S
+T 3106
 #26703
 Beach Blvd.~
 adv:world:26703/main
@@ -75,6 +76,7 @@ adv:world:26702/look
 ~
 0 0 26702
 S
+T 3103
 #26705
 Beach Blvd.~
 adv:world:26705/main
@@ -132,12 +134,12 @@ D3
 ~
 0 0 26707
 E
-building~
-adv:world:26708/building
-~
-E
 crystal crystals~
 adv:world:26708/crystal
+~
+E
+building~
+adv:world:26708/building
 ~
 S
 #26709
@@ -418,6 +420,7 @@ D4
 ~
 0 0 26784
 S
+T 3106
 #26724
 Tarry Road~
 adv:world:26724/main
@@ -672,6 +675,7 @@ forest ocean sea harbour view~
 adv:world:26739/view
 ~
 S
+T 3106
 #26740
 Cliff Rd.~
    The road is quite slippery here, and to your far south what
@@ -798,6 +802,7 @@ sign note plaque~
 adv:world:26745/sign
 ~
 S
+T 3106
 #26746
 The Gallery~
 adv:world:26746/main
@@ -904,32 +909,32 @@ D0
 cell~
 2 26713 26753
 E
-room space living sleep work entertain~
-adv:world:26752/room
-~
-E
-couch bed futon sleep~
-adv:world:26752/bed
-~
-E
-games console xbox playstation arcade~
-adv:world:26752/games
-~
-E
-story stories songs plays movies books games music religion god good evil media~
-adv:world:26752/story
-~
-E
-fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
-adv:world:26752/fridge
+storage cabinet medicine perfume deodorant~
+adv:world:26752/toilet
 ~
 E
 sink toilet shower tub bathroom restroom lavatory latrine loo outhouse~
 adv:world:26752/toilet
 ~
 E
-storage cabinet medicine perfume deodorant~
-adv:world:26752/toilet
+fridge bar snacks drinks food refreshments breakfast lunch dinner brunch coffee~
+adv:world:26752/fridge
+~
+E
+story stories songs plays movies books games music religion god good evil media~
+adv:world:26752/story
+~
+E
+games console xbox playstation arcade~
+adv:world:26752/games
+~
+E
+couch bed futon sleep~
+adv:world:26752/bed
+~
+E
+room space living sleep work entertain~
+adv:world:26752/room
 ~
 S
 #26753
@@ -960,6 +965,7 @@ The stairs ascend downwards.
 ~
 0 -1 26751
 S
+T 3106
 #26754
 Indu's Room~
 adv:world:26754/main
@@ -998,12 +1004,12 @@ D0
 ~
 1 -1 26757
 E
-bed canopy~
-adv:world:26756/bed
-~
-E
 dresser~
 adv:world:26756/dresser
+~
+E
+bed canopy~
+adv:world:26756/bed
 ~
 S
 #26757
@@ -1042,16 +1048,16 @@ D3
 ~
 1 0 26757
 E
-paintings painting~
-adv:world:26758/paintings
+bowl water~
+adv:world:26758/bowl
 ~
 E
 sculptures sculpture~
 adv:world:26758/sculptures
 ~
 E
-bowl water~
-adv:world:26758/bowl
+paintings painting~
+adv:world:26758/paintings
 ~
 S
 #26759
@@ -1316,6 +1322,7 @@ sign note plaque~
 adv:world:26778/note
 ~
 S
+T 3106
 #26779
 Hall of Imagination~
    You stand on a dusty floor in a fallen-down hut.  Just to the east, you can
@@ -1610,20 +1617,20 @@ adv:world:26792/look
 ~
 0 0 26792
 E
-chair~
-adv:world:26795/chair
-~
-E
-sofa~
-adv:world:26795/sofa
+insignia window~
+adv:world:26795/insignia
 ~
 E
 plaque plaques~
 adv:world:26795/plaque
 ~
 E
-insignia window~
-adv:world:26795/insignia
+sofa~
+adv:world:26795/sofa
+~
+E
+chair~
+adv:world:26795/chair
 ~
 S
 #26797

@@ -30,17 +30,17 @@ SecurityPRIME Nitro is here.
 ~
 SD3102 SecurityPRIME is assigned to protect the Realm.
 ~
-260444 0 0 0 10360 0 0 0 1000 E
+260444 0 0 0 92280 0 0 0 1000 E
 27 11 -6 5d5+270 4d4+4
 27000 72900
 8 8 0
 BareHandAttack: 6
 Str: 18
 Dex: 18
-Int: 18
-Wis: 18
+Int: 25
+Wis: 25
 Con: 18
-Cha: 18
+Cha: 25
 SavingPara: 6
 SavingRod: 6
 SavingPetri: 6
