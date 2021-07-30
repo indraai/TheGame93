@@ -486,10 +486,10 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     return;
 
   if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "\nIt is pitch black...\r");
+    send_to_char(ch, "\nIt is too dark to see.\r");
     return;
   } else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT) {
-    send_to_char(ch, "\nYou see nothing but infinite darkness...\r");
+    send_to_char(ch, "\nYou appear to be blind.\r");
     return;
   }
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS)) {
@@ -530,8 +530,14 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     do_auto_exits(ch);
 
   /* now list characters & objects */
-  list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_LONG, FALSE);
-  list_char_to_char(world[IN_ROOM(ch)].people, ch);
+  if (world[IN_ROOM(ch)].contents) {
+    send_to_char(ch, "\n=\n");
+    list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_LONG, FALSE);
+  }
+  if (world[IN_ROOM(ch)].people) {
+    send_to_char(ch, "\n=\n");
+    list_char_to_char(world[IN_ROOM(ch)].people, ch);
+  }
 }
 
 static void look_in_direction(struct char_data *ch, int dir)
