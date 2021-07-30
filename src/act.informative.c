@@ -320,6 +320,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
   }
 
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
+    send_to_char(ch, "\nagent: ");
     if (AFF_FLAGGED(i, AFF_INVISIBLE))
       send_to_char(ch, "*");
 
@@ -331,13 +332,14 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
         send_to_char(ch, "(Blue Aura) ");
       }
     }
-    send_to_char(ch, "\nagent: %s", i->player.long_descr);
+    send_to_char(ch, "%s", i->player.long_descr);
 
     if (AFF_FLAGGED(i, AFF_SANCTUARY))
-      act("...$e glows with a bright light!", FALSE, i, 0, ch, TO_VICT);
+      act("...$e is glowing!", FALSE, i, 0, ch, TO_VICT);
     if (AFF_FLAGGED(i, AFF_BLIND) && GET_LEVEL(i) < LVL_IMMORT)
-      act("...$e is groping around blindly!", FALSE, i, 0, ch, TO_VICT);
+      act("...$e is blind!", FALSE, i, 0, ch, TO_VICT);
 
+    send_to_char(ch, "\r");
     return;
   }
 
