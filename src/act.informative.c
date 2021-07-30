@@ -515,9 +515,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       /* send the room description */
       send_to_char(ch, "\n# %s\r"
         "\nadv:world:%d/main\r"
-        "\n=\n"
-        "\nroom:%d\r"
-        "\n----\n\r",
+        "\nroom:%d\r",
         world[IN_ROOM(ch)].name,
         GET_ROOM_VNUM(IN_ROOM(ch)),
         GET_ROOM_VNUM(IN_ROOM(ch))
@@ -550,7 +548,6 @@ static void look_in_direction(struct char_data *ch, int dir)
       send_to_char(ch,
         "\n## %s\r"
         "\nadv:world:%d/look\r"
-        "\n=\n"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
@@ -561,7 +558,6 @@ static void look_in_direction(struct char_data *ch, int dir)
       send_to_char(ch,
         "\n## Look\r"
         "\nadv:world:%d/look\r"
-        "\n=\n"
         "\nroom: %d\r",
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
@@ -683,7 +679,6 @@ static void look_at_target(struct char_data *ch, char *arg)
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
     send_to_char(ch, "\n## Look\r"
     "\nadv:world:%d/%s\r"
-    "\n=\n"
     "\nroom:%d\r",
     GET_ROOM_VNUM(IN_ROOM(ch)),
     arg,
@@ -707,7 +702,6 @@ static void look_at_target(struct char_data *ch, char *arg)
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n## Look\r"
           "\n%s\r"
-          "\n=\n"
           "\nroom:%d\r",
           desc,
           GET_ROOM_VNUM(IN_ROOM(ch))
@@ -722,7 +716,6 @@ static void look_at_target(struct char_data *ch, char *arg)
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n## Look\r"
           "\n%s\r"
-          "\n=\n"
           "\nroom:%d\r",
           desc,
           GET_ROOM_VNUM(IN_ROOM(ch))
