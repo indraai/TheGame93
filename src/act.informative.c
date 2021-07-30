@@ -2002,7 +2002,7 @@ ACMD(do_toggle)
         "\ntoggle[nohassle:%s]:No Hassle\r"
         "\ntoggle[holylight:%s]:Holylight\r"
         "\ntoggle[showvnums:%s]:Show Room Num.\r"
-        "\ntoggle[syslog:%s]: System Log (%s)",
+        "\ntoggle[syslog:%s]: System Log\r",
 
         ONOFF(PRF_FLAGGED(ch, PRF_BUILDWALK)),
         ONOFF(PRF_FLAGGED(ch, PRF_NOWIZ)),
@@ -2010,13 +2010,13 @@ ACMD(do_toggle)
         ONOFF(PRF_FLAGGED(ch, PRF_NOHASSLE)),
         ONOFF(PRF_FLAGGED(ch, PRF_HOLYLIGHT)),
         ONOFF(PRF_FLAGGED(ch, PRF_SHOWVNUMS)),
-        types[(PRF_FLAGGED(ch, PRF_LOG1) ? 1 : 0) + (PRF_FLAGGED(ch, PRF_LOG2) ? 2 : 0)],
-        GET_LEVEL(ch) == LVL_IMPL ? "" : "\r\n");
+        types[(PRF_FLAGGED(ch, PRF_LOG1) ? 1 : 0) + (PRF_FLAGGED(ch, PRF_LOG2) ? 2 : 0)]
+      );
     }
     if (GET_LEVEL(ch) >= LVL_IMPL) {
-      send_to_char(ch,
-        "\ntoggle[zoneresets:%s]:Zone Resets\r",
-        ONOFF(PRF_FLAGGED(ch, PRF_ZONERESETS)));
+      send_to_char(ch, "\ntoggle[zoneresets:%s]:Zone Resets\r",
+        ONOFF(PRF_FLAGGED(ch, PRF_ZONERESETS))
+      );
     }
 
   send_to_char(ch,
