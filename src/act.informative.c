@@ -273,7 +273,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
       }
   }
   if (ch != i && (IS_THIEF(ch) || GET_LEVEL(ch) >= LVL_IMMORT)) {
-    act("\nYou attempt to peek at $s inventory:\r", FALSE, i, 0, ch, TO_VICT);
+    act("\nYou look at $s inventory...\r", FALSE, i, 0, ch, TO_VICT);
     list_obj_to_char(i->carrying, ch, SHOW_OBJ_SHORT, TRUE);
   }
 }
@@ -548,17 +548,15 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch,
-        "\n## %s\r"
-        "\nadv:world:%d/look\r"
+        "\nadv:world:%d/%s\r"
         "\nroom: %d\r",
-        EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
+        EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
     else
       send_to_char(ch,
-        "\n## Look\r"
         "\nadv:world:%d/look\r"
         "\nroom: %d\r",
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
@@ -566,7 +564,7 @@ static void look_in_direction(struct char_data *ch, int dir)
       );
 
   } else
-    send_to_char(ch, "\nYou reach into the depths of your own mind and think...\r");
+    send_to_char(ch, "\nalert:You reach into the depths of your own mind and think...\r");
 }
 
 static void look_in_obj(struct char_data *ch, char *arg)
@@ -576,29 +574,29 @@ static void look_in_obj(struct char_data *ch, char *arg)
   int amt, bits;
 
   if (!*arg)
-    send_to_char(ch, "Look in what?\r\n");
+    send_to_char(ch, "alert:Look in what?\r\n");
   else if (!(bits = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_ROOM |
 				 FIND_OBJ_EQUIP, ch, &dummy, &obj))) {
-    send_to_char(ch, "There doesn't seem to be %s %s here.\r\n", AN(arg), arg);
+    send_to_char(ch, "alert:There doesn't seem to be %s %s here.\r\n", AN(arg), arg);
   } else if ((GET_OBJ_TYPE(obj) != ITEM_DRINKCON) &&
 	     (GET_OBJ_TYPE(obj) != ITEM_FOUNTAIN) &&
 	     (GET_OBJ_TYPE(obj) != ITEM_CONTAINER))
-    send_to_char(ch, "There's nothing inside that!\r\n");
+    send_to_char(ch, "\nThere's nothing inside that!\r");
   else {
     if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
       if (OBJVAL_FLAGGED(obj, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE)))
-	send_to_char(ch, "It is closed.\r\n");
+	send_to_char(ch, "\nalert:It is closed.\r");
       else {
-	send_to_char(ch, "%s", fname(obj->name));
+	send_to_char(ch, "\nalert:%s", fname(obj->name));
 	switch (bits) {
 	case FIND_OBJ_INV:
-	  send_to_char(ch, " (carried): \r\n");
+	  send_to_char(ch, " (carried)\r");
 	  break;
 	case FIND_OBJ_ROOM:
-	  send_to_char(ch, " (here): \r\n");
+	  send_to_char(ch, " (here)\r");
 	  break;
 	case FIND_OBJ_EQUIP:
-	  send_to_char(ch, " (used): \r\n");
+	  send_to_char(ch, " (used)\r");
 	  break;
 	}
 
@@ -606,21 +604,21 @@ static void look_in_obj(struct char_data *ch, char *arg)
       }
     } else {		/* item must be a fountain or drink container */
       if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1))
-	send_to_char(ch, "It is empty.\r\n");
+	send_to_char(ch, "\nIt is empty.\r");
       else {
         if (GET_OBJ_VAL(obj, 0) < 0)
         {
           char buf2[MAX_STRING_LENGTH];
           sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-          send_to_char(ch, "It's full of a %s liquid.\r\n", buf2);
+          send_to_char(ch, "\nalert:It's full of a %s liquid.\r", buf2);
         }
 	else if (GET_OBJ_VAL(obj,1)>GET_OBJ_VAL(obj,0))
-          send_to_char(ch, "Its contents seem somewhat murky.\r\n"); /* BUG */
+          send_to_char(ch, "\nalert:Its contents seem somewhat murky.\r"); /* BUG */
         else {
           char buf2[MAX_STRING_LENGTH];
 	  amt = (GET_OBJ_VAL(obj, 1) * 3) / GET_OBJ_VAL(obj, 0);
 	  sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-	  send_to_char(ch, "It's %sfull of a %s liquid.\r\n", fullness[amt], buf2);
+	  send_to_char(ch, "\nalert:It's %sfull of a %s liquid.\r", fullness[amt], buf2);
 	}
       }
     }
@@ -653,7 +651,7 @@ static void look_at_target(struct char_data *ch, char *arg)
     return;
 
   if (!*arg) {
-    send_to_char(ch, "\nLook at what?\r");
+    send_to_char(ch, "\nalert:Look at what?\r");
     return;
   }
 
@@ -679,8 +677,7 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
-    send_to_char(ch, "\n## Look\r"
-    "\nadv:world:%d/%s\r"
+    send_to_char(ch, "\nadv:world:%d/%s\r"
     "\nroom:%d\r",
     GET_ROOM_VNUM(IN_ROOM(ch)),
     arg,
@@ -702,8 +699,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n## Look\r"
-          "\n%s\r"
+        send_to_char(ch, "\n%s\r"
           "\nroom:%d\r",
           desc,
           GET_ROOM_VNUM(IN_ROOM(ch))
@@ -716,8 +712,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj)) {
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n## Look\r"
-          "\n%s\r"
+        send_to_char(ch, "\n%s\r"
           "\nroom:%d\r",
           desc,
           GET_ROOM_VNUM(IN_ROOM(ch))
@@ -736,7 +731,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "\nTry looking around for that item.\r");
+    send_to_char(ch, "\nalert:Try looking around for that item.\r");
 }
 
 ACMD(do_look)
@@ -749,11 +744,11 @@ ACMD(do_look)
     return;
 
   if (GET_POS(ch) < POS_SLEEPING)
-    send_to_char(ch, "\nYou can't see anything but stars!\r");
+    send_to_char(ch, "\nalert:You are sleeping.\r");
   else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nYou can't see a damned thing, you're blind!\r");
+    send_to_char(ch, "\nalert:You are blind!\r");
   else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "\nIt is pitch black...\r");
+    send_to_char(ch, "\nalert:It is dark.\r");
     list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
   } else {
     char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
@@ -762,7 +757,7 @@ ACMD(do_look)
 
     if (subcmd == SCMD_READ) {
       if (!*arg)
-	send_to_char(ch, "\nRead what?\r");
+	send_to_char(ch, "\nalert:Read what?\r");
       else
 	look_at_target(ch, strcpy(tempsave, arg));
       return;
@@ -787,7 +782,7 @@ ACMD(do_look)
         }
       }
       if (!found)
-         send_to_char(ch, "\nYou find nothing noticeable.\r");
+         send_to_char(ch, "\nalert:You find nothing noticeable.\r");
     } else
       look_at_target(ch, strcpy(tempsave, arg));
   }
@@ -802,7 +797,7 @@ ACMD(do_examine)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "\nWhat are you attempting to examine?\r");
+    send_to_char(ch, "\nalert:What are you attempting to examine?\r");
     return;
   }
 
@@ -816,7 +811,7 @@ ACMD(do_examine)
     if ((GET_OBJ_TYPE(tmp_object) == ITEM_DRINKCON) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_FOUNTAIN) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_CONTAINER)) {
-      send_to_char(ch, "\nYou take a look inside and see...\r");
+      send_to_char(ch, "\nalert:You take a look inside and see...\r");
       look_in_obj(ch, arg);
     }
   }
@@ -825,11 +820,11 @@ ACMD(do_examine)
 ACMD(do_gold)
 {
   if (GET_GOLD(ch) == 0)
-    send_to_char(ch, "\nYou're broke!\r");
+    send_to_char(ch, "\nalert:You're broke!\r");
   else if (GET_GOLD(ch) == 1)
-    send_to_char(ch, "\nYou have one miserable little gold coin.\r");
+    send_to_char(ch, "\nalert:You have one miserable little gold coin.\r");
   else
-    send_to_char(ch, "\nYou have %d gold coins.\r", GET_GOLD(ch));
+    send_to_char(ch, "\nalert:You have %d gold coins.\r", GET_GOLD(ch));
 }
 
 ACMD(do_score)
@@ -840,7 +835,7 @@ ACMD(do_score)
     return;
 
   if (age(ch)->month == 0 && age(ch)->day == 0)
-    send_to_char(ch, "  It's your birthday.\r\n");
+    send_to_char(ch, "\nalert:It's your birthday.\r");
 
   send_to_char(ch, "\nname: %s\r"
     "\nage: %dyrs\r"
@@ -888,88 +883,88 @@ ACMD(do_score)
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\nplayer:You are knocked out.\r");
+    send_to_char(ch, "\nplayer:You are knocked out\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\nplayer:You are wounded.\r");
+    send_to_char(ch, "\nplayer:You are wounded\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\nplayer:You are incapacitated.\r");
+    send_to_char(ch, "\nplayer:Incapacitated\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\nplayer:You are stunned.\r");
+    send_to_char(ch, "\nplayer:Stunned\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nplayer:You are sleeping.\r");
+    send_to_char(ch, "\nplayer:Sleeping\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nplayer:You are resting.\r");
+    send_to_char(ch, "\nplayer:Resting\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\nplayer:You are sitting.\r");
+      send_to_char(ch, "\nplayer:Sitting\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\nplayer:You are sitting on %s.\r", furniture->short_description);
+      send_to_char(ch, "\nplayer:Sitting on %s\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nplayer:You are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\nplayer:Fighting %s\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\nplayer:You are standing.\r");
+    send_to_char(ch, "\nplayer:Standing\r");
     break;
   default:
-    send_to_char(ch, "\nplayer:You are floating.\r");
+    send_to_char(ch, "\nplayer:Floating\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\nplayer:You are drunk.\r");
+    send_to_char(ch, "\nplayer:Drunk\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\nplayer:You are hungry.\r");
+    send_to_char(ch, "\nplayer:Hungry\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\nplayer:You are thirsty.\r");
+    send_to_char(ch, "\nplayer:Thirsty\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nplayer:You are blind.\r");
+    send_to_char(ch, "\nplayer:Blind\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\nplayer:You are invisible.\r");
+    send_to_char(ch, "\nplayer:Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\nplayer:You can detect invisible.\r");
+    send_to_char(ch, "\nplayer:Detect Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\nplayer:You have sanctuary.\r");
+    send_to_char(ch, "\nplayer:Sanctuary\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "\nplayer:You are poisoned.\r");
+    send_to_char(ch, "\nplayer:Poisoned\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\nplayer:You are charmed.\r");
+    send_to_char(ch, "\nplayer:Charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\nplayer:You are protected.\r");
+    send_to_char(ch, "\nplayer:Protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\nplayer:You can see in the dark.\r");
+    send_to_char(ch, "\nplayer:Infra-Vision\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nplayer:You can be summoned.\r");
+    send_to_char(ch, "\nplayer:Summoned.\r");
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
-      send_to_char(ch, "\nalert::%s %s\r", GET_NAME(ch), POOFIN(ch));
+      send_to_char(ch, "\nin:%s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "\nalert:%s has arrived.\r", GET_NAME(ch));
+      send_to_char(ch, "\nin:%s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
-      send_to_char(ch, "\nalert:%s %s\r", GET_NAME(ch), POOFOUT(ch));
+      send_to_char(ch, "\nout:%s %s\r", GET_NAME(ch), POOFOUT(ch));
     else
-      send_to_char(ch, "\nalert:%s has disappeared.\r", GET_NAME(ch));
+      send_to_char(ch, "\nout:%s has disappeared.\r", GET_NAME(ch));
 
     send_to_char(ch, "\n%d\r", GET_OLC_ZONE(ch));
   }
@@ -987,16 +982,16 @@ ACMD(do_equipment)
     if (GET_EQ(ch, i)) {
       found = TRUE;
       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
-        send_to_char(ch, "\nequip:%s\r", wear_where[i]);
+        send_to_char(ch, "\nwear:%s\r", wear_where[i]);
         show_obj_to_char(GET_EQ(ch, i), ch, SHOW_OBJ_SHORT);
       } else {
-        send_to_char(ch, "\n%s\r", wear_where[i]);
-        send_to_char(ch, "\nequip:Something\r");
+        send_to_char(ch, "\nwear:%s\r", wear_where[i]);
+        send_to_char(ch, "\nSomething\r");
       }
     }
   }
   if (!found)
-    send_to_char(ch, "\nequip:No Equipment\r");
+    send_to_char(ch, "\nequipment:No Equipment\r");
 }
 
 ACMD(do_time)
@@ -1051,7 +1046,7 @@ ACMD(do_weather)
 
   if (OUTSIDE(ch))
     {
-    send_to_char(ch, "\nThe sky is %s and %s.\r", sky_look[weather_info.sky], weather_info.change >= 0 ? "you feel a cool breeze" : "you feel the weather changing");
+    send_to_char(ch, "\nweather:The sky is %s and %s.\r", sky_look[weather_info.sky], weather_info.change >= 0 ? "you feel a cool breeze" : "you feel the weather changing");
     if (GET_LEVEL(ch) >= LVL_DEVA)
       send_to_char(ch, "\nPressure: %d (change: %d), Sky: %d (%s)\r",
                  weather_info.pressure,
@@ -1060,7 +1055,7 @@ ACMD(do_weather)
                  sky_look[weather_info.sky]);
     }
   else
-    send_to_char(ch, "\nThis inside weather is amazing!\r");
+    send_to_char(ch, "\nweather:This inside weather is amazing!\r");
 }
 
 /* puts -'s instead of spaces */
@@ -1540,7 +1535,7 @@ ACMD(do_users)
 ACMD(do_gen_ps)
 {
   if (IS_NPC(ch)) {
-    send_to_char(ch, "\ninfo:mob:Not for mobiles!\r");
+    send_to_char(ch, "\nalert:Not for mobiles!\r");
     return;
   }
 
@@ -1626,7 +1621,7 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
       send_to_char(ch, "%-25s%s - %s%s\r\n", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
       return;
     }
-    send_to_char(ch, "\nThere is Nobody around by that name.\r");
+    send_to_char(ch, "\nalert:There is Nobody around by that name.\r");
   }
 }
 
@@ -1805,42 +1800,42 @@ ACMD(do_consider)
   one_argument(argument, buf);
 
   if (!(victim = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "\nConsider who?\r");
+    send_to_char(ch, "\nconsider:Consider who?\r");
     return;
   }
   if (victim == ch) {
-    send_to_char(ch, "\nEasy! Very easy indeed!\r");
+    send_to_char(ch, "\nconsider:Easy! Very easy indeed!\r");
     return;
   }
 
   if (!IS_NPC(victim)) {
-    send_to_char(ch, "\nWould you like some help with that?\r");
+    send_to_char(ch, "\nconsider:Would you like some help with that?\r");
     return;
   }
   diff = (GET_LEVEL(victim) - GET_LEVEL(ch));
 
   if (diff <= -10)
-    send_to_char(ch, "\nNow where did they run off to?\r");
+    send_to_char(ch, "\nconsider:Now where did they run off to?\r");
   else if (diff <= -5)
-    send_to_char(ch, "\nYou could do it with a needle!\r");
+    send_to_char(ch, "\nconsider:You could do it.\r");
   else if (diff <= -2)
-    send_to_char(ch, "\nAppears Easy.\r");
+    send_to_char(ch, "\nconsider:Appears Easy.\r");
   else if (diff <= -1)
-    send_to_char(ch, "\nSeems fairly easy.\r");
+    send_to_char(ch, "\nconsider:Seems fairly easy.\r");
   else if (diff == 0)
-    send_to_char(ch, "\nThe perfect match!\r");
+    send_to_char(ch, "\nconsider:The perfect match!\r");
   else if (diff <= 1)
-    send_to_char(ch, "\nYou might need a bit of luck!\r");
+    send_to_char(ch, "\nconsider:You might need a bit of luck!\r");
   else if (diff <= 2)
-    send_to_char(ch, "\nYou might need a lot of luck!\r\n");
+    send_to_char(ch, "\nconsider:You might need a lot of luck!\r\n");
   else if (diff <= 3)
-    send_to_char(ch, "\nYou might need a lot of luck with great equipment!\r");
+    send_to_char(ch, "\nconsider:You might need a lot of luck with great equipment!\r");
   else if (diff <= 5)
-    send_to_char(ch, "\nHow lucky do you reall feel?\r");
+    send_to_char(ch, "\nconsider:How lucky do you really feel?\r");
   else if (diff <= 10)
-    send_to_char(ch, "\nAre you insane? You must be to consider something like that.\r");
+    send_to_char(ch, "\nconsider:Are you insane to consider something like that.\r");
   else if (diff <= 100)
-    send_to_char(ch, "\nYou must be crazy!\r");
+    send_to_char(ch, "\nconsider:You are crazy!\r");
 }
 
 ACMD(do_diagnose)
@@ -1877,92 +1872,92 @@ ACMD(do_toggle)
     char *enable_msg;
   } tog_messages[] = {
     {"summonable", PRF_SUMMONABLE, 0,
-    "You are now safe from summoning by other players.\r\n",
-    "You may now be summoned by other players.\r\n"},
+    "\nalert:Summon is disabled\r",
+    "\nalert:Summon is enabled\r"},
     {"nohassle", PRF_NOHASSLE, LVL_IMMORT,
-    "Nohassle disabled.\r\n",
-    "Nohassle enabled.\r\n"},
+    "\nalert:Nohassle disabled\r",
+    "\nalert:Nohassle enabled\r"},
     {"brief", PRF_BRIEF, 0,
-    "Brief mode off.\r\n",
-    "Brief mode on.\r\n"},
+    "\nalert:Brief mode disabled\r",
+    "\nalert:Brief mode enabled\r"},
     {"compact", PRF_COMPACT, 0,
-    "Compact mode off.\r\n",
-    "Compact mode on.\r\n"},
+    "\nalert:Compact mode disabled\r",
+    "\nalert:Compact mode enabled\r"},
     {"notell", PRF_NOTELL, 0,
-    "You can now hear tells.\r\n",
-    "You are now deaf to tells.\r\n"},
+    "\nalert:Notell is enabled\r",
+    "\nalert:Tell disabled\r"},
     {"noauction", PRF_NOAUCT, 0,
-    "You can now hear auctions.\r\n",
-    "You are now deaf to auctions.\r\n"},
+    "\nalert:Auctions enabled\r",
+    "\nalert:Auctions disabled\r"},
     {"noshout", PRF_NOSHOUT, 0,
-    "You can now hear shouts.\r\n",
-    "You are now deaf to shouts.\r\n"},
+    "\nalert:Shouts enabled\r",
+    "\nalert:Shouts disabled\r"},
     {"nogossip", PRF_NOGOSS, 0,
-    "You can now hear gossip.\r\n",
-    "You are now deaf to gossip.\r\n"},
+    "\nalert:Gossip enabled\r",
+    "\nalert:Gossip disabled\r"},
     {"nograts", PRF_NOGRATZ, 0,
-    "You can now hear gratz.\r\n",
-    "You are now deaf to gratz.\r\n"},
+    "\nalert:Gratz enabled\r",
+    "\nalert:Gratz disabled\r"},
     {"nowiz", PRF_NOWIZ, LVL_IMMORT,
-    "You can now hear the Wiz-channel.\r\n",
-    "You are now deaf to the Wiz-channel.\r\n"},
+    "\nalert:Wiz channel enabled\r",
+    "\nalert:Wiz channel disabled\r"},
     {"quest", PRF_QUEST, 0,
-    "You are no longer part of the Quest.\r\n",
-    "Okay, you are part of the Quest.\r\n"},
+    "\nalert:Quest disabled\r",
+    "\nalert:Quest enabled\r"},
     {"showvnums", PRF_SHOWVNUMS, LVL_IMMORT,
-    "You will no longer see the vnums.\r\n",
-    "You will now see the vnums.\r\n"},
+    "\nalert:Show vnums disabled\r",
+    "\n\nalert:Show vnums enabled\r"},
     {"norepeat", PRF_NOREPEAT, 0,
-    "You will now have your communication repeated.\r\n",
-    "You will no longer have your communication repeated.\r\n"},
+    "\nalert:Communication repeat enabled\r",
+    "\nalert:Communication repeat disabled\r"},
     {"holylight", PRF_HOLYLIGHT, LVL_IMMORT,
-    "HolyLight mode off.\r\n",
-    "HolyLight mode on.\r\n"},
+    "\nalert:HolyLight disabled\r",
+    "\nalert:HolyLight enabled\r"},
     {"slownameserver", 0, LVL_IMPL,
-    "Nameserver_is_slow changed to OFF; IP addresses will now be resolved.\r\n",
-    "Nameserver_is_slow changed to ON; sitenames will no longer be resolved.\r\n"},
+    "\nalert:Slow mode disabled (IP addresses are resolved)\r",
+    "\nalert:Slow mode enabled (IP address NOT resolved)\r"},
     {"autoexits", PRF_AUTOEXIT, 0,
-    "Autoexits disabled.\r\n",
-    "Autoexits enabled.\r\n"},
+    "\nalert:Autoexits disabled\r",
+    "\nalert:Autoexits enabled\r"},
     {"trackthru", 0, LVL_IMPL,
-    "Players can no longer track through doors.\r\n",
-    "Players can now track through doors.\r\n"},
+    "\nalert:Track through doors disabled\r",
+    "\nalert:Track through doors enabled\r"},
     {"clsolc", PRF_CLS, LVL_BUILDER,
-    "You will no longer clear screen in OLC.\r\n",
-    "You will now clear screen in OLC.\r\n"},
+    "\nalert:OLC clear screen disabled\r",
+    "\nalert:OLC clear screen enabled\r"},
     {"buildwalk", PRF_BUILDWALK, LVL_BUILDER,
-    "Buildwalk is now Off.\r\n",
-    "Buildwalk is now On.\r\n"},
+    "\nalert:Buildwalk disabled\r",
+    "\nalert:Buildwalk enabled\r"},
     {"afk", PRF_AFK, 0,
-    "AFK is now Off.\r\n",
-    "AFK is now On.\r\n"},
+    "\nalert:AFK diabled\r",
+    "\nalert:AFK enabled\r"},
     {"autoloot", PRF_AUTOLOOT, 0,
-    "Autoloot disabled.\r\n",
-    "Autoloot enabled.\r\n"},
+    "\nalert:Autoloot disabled\r",
+    "\nalert:Autoloot enabled\r"},
     {"autogold", PRF_AUTOGOLD, 0,
-    "Autogold disabled.\r\n",
-    "Autogold enabled.\r\n"},
+    "\nalert:Autogold disabled\r",
+    "\nalert:Autogold enabled\r"},
     {"autosplit", PRF_AUTOSPLIT, 0,
-    "Autosplit disabled.\r\n",
-    "Autosplit enabled.\r\n"},
+    "\nalert:Autosplit disabled\r",
+    "\nalert:Autosplit enabled\r"},
     {"autooffer", PRF_AUTOOFFER, 0,
-    "\nAutooffer disabled.\r",
-    "\nAutooffer enabled.\r"},
+    "\nalert:Autooffer disabled\r",
+    "\nalert:Autooffer enabled\r"},
     {"autoassist", PRF_AUTOASSIST, 0,
-    "Autoassist disabled.\r\n",
-    "Autoassist enabled.\r\n"},
+    "\nalert:Autoassist disabled\r",
+    "\nalert:Autoassist enabled\r"},
     {"automap", PRF_AUTOMAP, 1,
-    "You will no longer see the mini-map.\r\n",
-    "You will now see a mini-map at the side of room descriptions.\r\n"},
+    "\nalert:Mini-map disabled\r",
+    "\nalert:Mini-map enabled\r"},
     {"autokey", PRF_AUTOKEY, 0,
-    "You will now have to unlock doors manually before opening.\r\n",
-    "You will now automatically unlock doors when opening them (if you have the key).\r\n"},
+    "\nalert:Autokey disabled\r",
+    "\nalert:Autokey enabled\r"},
     {"autodoor", PRF_AUTODOOR, 0,
-    "You will now need to specify a door direction when opening, closing and unlocking.\r\n",
-    "You will now find the next available door when opening, closing or unlocking.\r\n"},
+    "\nalert:Autodoor disabled\r",
+    "\nalert:Autodoor enabled\r"},
     {"zoneresets", PRF_ZONERESETS, LVL_IMPL,
-    "You will no longer see zone resets.\r\n",
-    "You will now see zone resets.\r\n"},
+    "\nalert:Zone resets disabled\r",
+    "\nalert:Zone resets enabled\r"},
     {"syslog", 0, LVL_IMMORT, "\n", "\n"},
     {"wimpy", 0, 0, "\n", "\n"},
     {"pagelength", 0, 0, "\n", "\n"},
@@ -2234,7 +2229,7 @@ ACMD(do_toggle)
         return;
       }
     } else
-      send_to_char(ch, "Sorry, automap is currently disabled.\r\n");
+      send_to_char(ch, "\nalert:Automap is disabled.\r");
     break;
   default:
     if (!*arg2) {
@@ -2343,7 +2338,7 @@ ACMD(do_history)
       free_history(ch, type);
 #endif
   } else
-    send_to_char(ch, "You have no history in that channel.\r\n");
+    send_to_char(ch, "\nalert:You have no channel history.\r");
 }
 
 #define HIST_LENGTH 100
@@ -2398,7 +2393,7 @@ ACMD(do_whois)
   one_argument(argument, buf);
 
   if (!*buf) {
-    send_to_char(ch, "Whois who?\r\n");
+    send_to_char(ch, "\nalert:Whois who?\r");
     return;
   }
 
@@ -2422,13 +2417,17 @@ ACMD(do_whois)
 
   /* We either have our victim from file or he's playing or function has returned. */
   sprinttype(GET_GENDER(victim), genders, buf, sizeof(buf));
-  send_to_char(ch, "Name: %s %s\r\nSex: %s\r\n", GET_NAME(victim),
-                   (victim->player.title ? victim->player.title : ""), buf);
+  send_to_char(ch, "name: %s %s\r"
+    "\ngender: %s\r",
+    GET_NAME(victim),
+    (victim->player.title ? victim->player.title : ""),
+    buf
+  );
 
   sprinttype (victim->player.chclass, pc_class_types, buf, sizeof(buf));
-  send_to_char(ch, "Class: %s\r\n", buf);
+  send_to_char(ch, "\nclass: %s\r", buf);
 
-  send_to_char(ch, "Level: %d\r\n", GET_LEVEL(victim));
+  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(victim));
 
   if (!(GET_LEVEL(victim) < LVL_IMMORT) || (GET_LEVEL(ch) >= GET_LEVEL(victim))) {
     strftime(buf, sizeof(buf), "%a %b %d %Y", localtime(&(victim->player.time.logon)));
@@ -2436,7 +2435,7 @@ ACMD(do_whois)
     hours = (time(0) - victim->player.time.logon) / 3600;
 
     if (!got_from_file) {
-      send_to_char(ch, "Last Logon: Playing now!  (Idle %d Minutes)",
+      send_to_char(ch, "\nalert:Last Logon: Playing now!  (Idle %d Minutes)\r",
            victim->char_specials.timer * SECS_PER_MUD_HOUR / SECS_PER_REAL_MIN);
 
       if (!victim->desc)
@@ -2445,12 +2444,12 @@ ACMD(do_whois)
         send_to_char(ch, "\r\n");
 
       if (PRF_FLAGGED(victim, PRF_AFK))
-        send_to_char(ch, "%s%s is afk right now, so %s may not respond to communication.%s\r\n", CBGRN(ch, C_NRM), GET_NAME(victim), HSSH(victim), CCNRM(ch, C_NRM));
+        send_to_char(ch, "\nalert:%s%s is afk right now, so %s may not respond to communication.%s\r", CBGRN(ch, C_NRM), GET_NAME(victim), HSSH(victim), CCNRM(ch, C_NRM));
     }
     else if (hours > 0)
-      send_to_char(ch, "Last Logon: %s (%d days & %d hours ago.)\r\n", buf, hours/24, hours%24);
+      send_to_char(ch, "\nalert:Last Logon: %s (%d days & %d hours ago.)\r", buf, hours/24, hours%24);
     else
-      send_to_char(ch, "Last Logon: %s (0 hours & %d minutes ago.)\r\n",
+      send_to_char(ch, "\nalert:Last Logon: %s (0 hours & %d minutes ago.)\r",
                    buf, (int)(time(0) - victim->player.time.logon)/60);
   }
 
@@ -2536,11 +2535,11 @@ ACMD(do_areas)
     hilev = i;
   }
   if (hilev != -1)
-    len = snprintf(buf, sizeof(buf), "Checking range: %s%d to %d%s\r\n", QYEL, lolev, hilev, QNRM);
+    len = snprintf(buf, sizeof(buf), "\nalert:Checking range %d to %d\r", lolev, hilev);
   else if (lolev != -1)
-    len = snprintf(buf, sizeof(buf), "Checking level: %s%d%s\r\n", QYEL, lolev, QNRM);
+    len = snprintf(buf, sizeof(buf), "\nalert:Checking level: %d\r", lolev);
   else
-    len = snprintf(buf, sizeof(buf), "Checking all areas.\r\n");
+    len = snprintf(buf, sizeof(buf), "\nalert:Checking all areas.\r");
 
   for (i = 0; i <= top_of_zone_table; i++) {    /* Go through the whole zone table */
     show_zone = FALSE;
@@ -2587,7 +2586,7 @@ ACMD(do_areas)
   }
 
   if (zcount == 0)
-    send_to_char(ch, "No areas found.\r\n");
+    send_to_char(ch, "\nalert:No areas found.\r");
   else
     page_string(ch->desc, buf, TRUE);
 }
@@ -2643,7 +2642,7 @@ distance, int door)
     }
 
   }
-  send_to_char(ch, "%s", buf);
+  send_to_char(ch, "\nalert:%s\r", buf);
 }
 
 ACMD(do_scan)
@@ -2657,7 +2656,7 @@ ACMD(do_scan)
   room_rnum scanned_room = IN_ROOM(ch);
 
   if (IS_AFFECTED(ch, AFF_BLIND)) {
-    send_to_char(ch, "You can't see a damned thing, you're blind!\r\n");
+    send_to_char(ch, "\nalert:You can't see a damned thing, you're blind!\r");
     return;
   }
 
@@ -2669,9 +2668,9 @@ ACMD(do_scan)
         scanned_room = world[scanned_room].dir_option[door]->to_room;
         if (IS_DARK(scanned_room) && !CAN_SEE_IN_DARK(ch)) {
           if (world[scanned_room].people)
-            send_to_char(ch, "%s: It's too dark to see, but you can hear shuffling.\r\n", dirs[door]);
+            send_to_char(ch, "\nalert: %s - It's too dark to see, but you can hear something.\r", dirs[door]);
           else
-            send_to_char(ch, "%s: It is too dark to see anything.\r\n", dirs[door]);
+            send_to_char(ch, "alert: %s - It is too dark to see.\r", dirs[door]);
           found=TRUE;
         } else {
           if (world[scanned_room].people) {
@@ -2686,6 +2685,6 @@ ACMD(do_scan)
     scanned_room = IN_ROOM(ch);
   }                      // end of directions
   if (!found) {
-    send_to_char(ch, "You don't see anything nearby!\r\n");
+    send_to_char(ch, "\nalert:You don't see anything nearby.\r");
   }
 } // end of do_scan
