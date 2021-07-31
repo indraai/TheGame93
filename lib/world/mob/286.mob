@@ -114,11 +114,11 @@ SecurityDEVA D28609 is here to protect the realm.
 8 8 0
 E
 #28610
-jessica resident assistant~
-Jessica~
-Jessica the resident assistant is here.
+jessica resident assistant a28610~
+Jessica A28610~
+Jessica A28610 is here.
 ~
-Jessica is a resident assistant who stuck around to help clean up the mess.
+Jessica A28610 is a resident assistant who stuck around to help clean up the mess.
 ~
 30936 0 0 0 8 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
@@ -166,11 +166,11 @@ SecurityDEVA D28613 is here protecting the realm.
 8 8 0
 E
 #28614
-fake costume arm~
-fake costume arm~
-A fake costume arm is here.
+visnu covenant womb mould germ c28614~
+Visnu C28614~
+Visnu C28614 is here.
 ~
-The costume arm of some poor luckless individual.
+Viṣṇu form and mould the womb
 ~
 78 0 0 0 0 0 0 0 -884 E
 23 13 -3 4d4+230 3d3+3
@@ -178,11 +178,11 @@ The costume arm of some poor luckless individual.
 8 8 0
 E
 #28615
-fake costume foot~
-fake costume foot~
-A fake costume foot is here.
+tvastar covenant shaper forms germ c28615~
+Tvastar C28615~
+Tvastar C28615 is here.
 ~
-This fake costume foot definitely is a great gag.
+Tvaṣṭar duly shape the forms
 ~
 78 0 0 0 0 0 0 0 -800 E
 24 12 -4 4d4+240 4d4+4
@@ -190,11 +190,11 @@ This fake costume foot definitely is a great gag.
 8 8 0
 E
 #28616
-fake costume nose~
-fake costume nose~
-A fake costume nose is here.
+prajapati covenant infuse stream germ c28616~
+Prajapati C28616~
+Prajapati C28616 is here.
 ~
-I wonder how the person that lost this feels...  Hopefully not as bad as this nose does.
+Prajapati infuse the stream.
 ~
 78 0 0 0 0 0 0 0 -800 E
 24 12 -4 4d4+240 4d4+4
@@ -202,11 +202,11 @@ I wonder how the person that lost this feels...  Hopefully not as bad as this no
 8 8 0
 E
 #28617
-water~
-the water from the fountain~
-The water in the fountain gurgles merrily.
+dhatar germ lay covenant c28617~
+Dhatar C28617~
+Dhatar C28617 is here.
 ~
-You see gallons and gallons of water gurgling in the fountain.
+Dhatar lay the germ for thee.
 ~
 78 0 0 0 0 0 0 0 -950 E
 25 12 -5 5d5+250 4d4+4
@@ -214,28 +214,32 @@ You see gallons and gallons of water gurgling in the fountain.
 8 8 0
 E
 #28618
-nkotb super fan lost betty~
-Betty the NKOTB Super Fan~
-Betty is lost looking for the NKOTB Old Man New Kid Party!
+betty resident assistant a28618~
+Betty A28618~
+Betty A28618 a resident assistant is here.
 ~
-Betty is definitely clueless to where it is.  She holds her ticket that reads #14349023402342039840293481234900049.
+Betty A28618 is a resident assistant who remains from the old crew to clean up the mess.
+She holds her ticket that reads #14349023402342039840293481234900049.
 ~
-76 0 0 0 0 0 0 0 0 E
+30936 0 0 0 8 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 2
+BareHandAttack: 3
 E
 #28619
-jenny nkotb super fan~
-Jenny the NKOTB Super Fan~
-Jenny the NKOTB Super Fan is here screaming at the top of her lungs.
+jennifer resident assistant a28619~
+Jennifer A28619~
+Jennifer A28619 a resident assistant is here.
 ~
-This once used to be a normal girl.  Now she is just a New Kids on the Block super fan. She screams NKOTB everywhere she goes for eternity...  Danny! Danny! Danny!
+Jennifer A28619 is a resident assistant who remains from the old crew to clean up the mess.
+She holds her ticket that reads #14349023402342039840293481234900049.
 ~
-22638 0 0 0 0 0 0 0 -800 E
+30936 0 0 0 8 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 2
+BareHandAttack: 3
 E
 #28620
 pile nkotb fan pictures~
@@ -277,10 +281,10 @@ BareHandAttack: 9
 E
 #28623
 apsaras deva d28623~
-Apsaras Deva~
-Apsaras Deva D28623 is here.
+Apsaras D28623~
+Apsaras D28623 is here.
 ~
-She is sad looking indeed. Cuts and scraps all over her. Many scars and burns cover her face and arms.
+She is happy looking indeed.
 ~
 2268 0 0 0 0 0 0 0 800 E
 26 12 -5 5d5+260 4d4+4
@@ -289,10 +293,10 @@ She is sad looking indeed. Cuts and scraps all over her. Many scars and burns co
 E
 #28624
 gandharva deva d28624~
-Gandharva Deva~
-Gandharva Deva D28624  is here.
+Gandharva D28624~
+Gandharva D28624 is here.
 ~
-He is sad looking indeed.  Cuts and scraps all over him.  Many scars and burns cover his face and arms.  One of his arms is broken at the forearm and hangs limply by his side.
+He is happy looking indeed.
 ~
 222 0 0 0 0 0 0 0 800 E
 27 11 -6 5d5+270 4d4+4
@@ -302,9 +306,9 @@ E
 #28625
 securitydeva deva devaforce d28625~
 SecurityDEVA D28625~
-SecurityDEVA D28625 patrols the planes of hell.
+SecurityDEVA D28625 is on patrol.
 ~
-SecurityDEVA D28625 is here protecting the realm.
+SecurityDEVA D28625 is here patroling the realm.
 ~
 76 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -312,58 +316,52 @@ SecurityDEVA D28625 is here protecting the realm.
 8 8 0
 E
 #28626
-burning fool~
-the burning fool~
-A burning fool is here, crisping away.
+harold hal henderson atkin lds mormon bishop jesus lds28626 evil~
+Harold H. Atkin, Bishop LDS Church~
+Harold H. Atkin, Bishop in the LDS Church is here.
 ~
-   You can barely make out anything on it.  All you can make out is the flames
-of hell consuming it and the smell of burning flesh.
+Biship Harold Henderson Atkin from the William Atkin family is here from the Church of Jesus Christ of Latter Day Saits to eat your brains and terrorize you.
 ~
-46 0 0 0 0 0 0 0 -900 E
+46 0 0 0 0 0 0 0 -666 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1
+E
+#28627
+construction worker builder deva devaforce builderdeva pipline specialist d28627~
+BuilderDEVA D28627~
+BuilderDEVa D28627 is here working on pipelines.
+~
+BuilderDEVA D28627 is a specialist builder.  T-shirt, jeans, yellow hat.  As you look closer at the hard hat you notice it says, 'Indra Services'. He must be here to work on the data pipelines.
+~
+22782 0 0 0 0 0 0 0 0 E
+22 13 -3 4d4+220 3d3+3
+220 48400
+8 8 0
+E
+#28628
+construction worker builder deva devaforce builderdeva frameworks specialist d28628~
+BuliderDEVA D28628~
+BuilderDEVA D28628 is here working on frameworks.
+~
+BuilderDEVA D28628 is a specialist builder.  T-shirt, jeans, sneakers, glasses, crooked hat. As you look closer at the hat you notice it says, 'Indra Services'. Must be here to work on the framework code.
+~
+22782 0 0 0 0 0 0 0 0 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 0
+E
+#28629
+construction worker builder deva devaforce builderdeva structures specialist d28629~
+BuilderDEVA D28629~
+BuilderDEVa D28629 is here working on structures.
+~
+BuilderDEVA D28629 is a specialist builder. T-shirt, jeans, hard hat. As you look closer at the hat you notice it says, 'Indra Services'. Must be here to work on the structural code.
+~
+22782 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
-E
-#28627
-construction worker male~
-male construction worker~
-A construction worker is here welding pipework.
-~
-   He is the typical construction worker.  T-shirt, jeans, yellow hard hat.  As
-you look closer at the hard hat you notice it says, 'Indra Services'
-~
-22782 0 0 0 0 0 0 0 -666 E
-22 13 -3 4d4+220 3d3+3
-220 48400
-8 8 1
-E
-#28628
-construction worker female~
-female construction worker~
-A construction worker is here working riveting framework.
-~
-   She is the typical construction worker.  T-shirt, jeans, yellow hard hat.
-As you look closer at the hard hat you notice it says, '4th DEMONsion
-Construction Co.  '
-~
-22782 0 0 0 0 0 0 0 -666 E
-21 13 -2 4d4+210 3d3+3
-210 44100
-8 8 2
-E
-#28629
-construction worker female~
-female construction worker~
-A construction worker is here working cutting structural steel.
-~
-   She is the typical construction worker.  T-shirt, jeans, yellow hard hat.
-As you look closer at the hard hat you notice it says, '4th DEMONsion
-Construction Co.  '
-~
-22782 0 0 0 0 0 0 0 -666 E
-20 14 -2 4d4+200 3d3+3
-200 40000
-8 8 2
 E
 #28630
 security deva securitydeva devaforce d28630~
@@ -392,36 +390,33 @@ to various posts around the room.
 8 8 0
 E
 #28632
-hell hound~
-hell hound~
-A hell hound runs free through the halls of hell.
+scoobydoo puppy dog dogs mysterygang mystery~
+ScoobyDoo(tm)~
+ScoobyDoo(tm) is here.
 ~
-   This freak of a canine is rusty red to red brown in color.  Its eyes glow an
-ghastly red.  Its sooty black teeth and tongue are covered with green spittle
-that runs down its dung covered coat.
+This freak of a canine is always solving mysteries. When he finds something suspicious he'll point at it... otherwise he's a bit silly.
 ~
-260316 0 0 0 0 0 0 0 -900 E
+260316 0 0 0 0 0 0 0 333 E
 26 12 -5 5d5+260 4d4+4
 260 67600
 8 8 0
 E
 #28633
-frozen body~
-frozen body~
-A frozen body lies here on the ground.
+shaggy mysterygang mystery scoobydoo~
+Shaggy~
+Shaggy is here.
 ~
-   As you look at the corpse you recoil as you notice its eyes still move.
-They stare intently from its bluish face as if pleading for your help.
+Shaggy is here to solve mysteries with ScoobyDoo(tm).
 ~
-10 0 0 0 0 0 0 0 -900 E
+10 0 0 0 0 0 0 0 333 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
 E
 #28634
-ice deva icedeva devaforce d28634~
-IceDEVA D28634~
-IceDEVA D28634 stands here cheerfully making Ice Cream.
+icecream deva icedeva devaforce d28634~
+IceCreamDEVA D28634~
+IceCreamDEVA D28634 stands here cheerfully making Ice Cream.
 ~
 IceDEVA D28634 is big, bright, and super happy.  With multifaceted eyes stare everywhere.  It goes about its business of slowly and gracefully freezing the ice cream.  Every couple of minutes it takes time out to sneak a little taste for themself.
 ~
@@ -431,39 +426,35 @@ IceDEVA D28634 is big, bright, and super happy.  With multifaceted eyes stare ev
 8 8 0
 E
 #28635
-trapped soul ice~
-soul trapped under the ice~
-A soul trapped under the ice gasps desperately for air.
+neil keith atkin fat covenant evil~
+Neil K. Atkin~
+Neil K. Atkin is here.
 ~
-   This poor soul has been encased in ice; almost as if it is caught under an
-ice-flow.  It desperately gasps for air for a few minutes and then seems to die
-for a second before it is restored and begins thrashing about again.
+Neil Keight Atkin is a poor soul has been eating, playing video games, and watching pornography is whole life. Alost uncaught by the authorities he desperately gasps for air because his massive size makes it difficult to breathe.
 ~
-10 0 0 0 0 0 0 0 -789 E
+10 0 0 0 0 0 0 0 -666 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 0
+8 8 1
 E
 #28636
-half frozen body~
-half frozen body~
-A half frozen body hangs here on a meat hook.
+sharon schamber covenant evil~
+Sharon N. Schamber~
+Sharon N. Schamber is here.
 ~
-   A large meat hook is imbedded deep within the back of the body.  You see
-small white maggots eating away at the body.  The flesh seems to move and
-wriggle with a life of its own...
+Sharon N. Schamber once a large name in the quilt community lost her star when she trusted her career to her son Neil Atkin. After which she was caught up in a cannibal, pornography, cryptocurrency scandal that rocked the world. She just plays dumb to the whole thing.
 ~
-10 0 0 0 0 0 0 0 -876 E
+10 0 0 0 0 0 0 0 -666 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 0
 E
 #28637
-penguin~
-Penguin~
-A small penguin waddles around here on the ice.
+penguin cute friendly~
+Cute Penguin~
+A penguin waddles around here.
 ~
-What a cute little penguin.
+What a cute little penguin waddling around here.  Waddle! Waddle! Waddle!
 ~
 204 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
@@ -489,7 +480,7 @@ IceScreamDEVA D28639 is here serving delicious Ice Cream for everyone..
 ~
 He is dressing in a white jumpsuit with the words, '#IceCreamDEVA' written on it in large blue letters.
 ~
-2300 0 0 0 0 0 0 0 250 E
+2300 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
@@ -534,7 +525,7 @@ E
 #28643
 deva records infodeva info d28643~
 InfoDEVA D28643~
-A InfoDEVA D28643 worker is here filing system reports.
+A InfoDEVA D28643 is here filing system reports.
 ~
 InfoDEVA D28643 is here collecting information for proper handling by OfficeDEVA.
 ~
@@ -569,11 +560,11 @@ her face beneath his hood. Her black eyes and pale blue skin are all covered in 
 8 8 2
 E
 #28646
-bowl wooden~
-a wooden bowl~
-A wooden bowl sits here on the altar.
+bowl wooden offering~
+Wooden Offering Bowl~
+A wooden offering bowl sits here on the altar.
 ~
-Its is a wooden bowl.
+Its is a wooden bowl to place fruit offerings into.
 ~
 16394 0 0 0 0 0 0 0 900 E
 20 14 -2 4d4+200 3d3+3
@@ -581,7 +572,7 @@ Its is a wooden bowl.
 8 8 0
 E
 #28647
-jury deva jurydeva devaforce d28647~
+jury deva jurydeva court justice devaforce d28647~
 JuryDEVA D28647~
 JuryDEVA D28647 is waiting for the trial to begin.
 ~
@@ -593,7 +584,7 @@ JuryDEVA D28647 is a specialist in hearing out cases and providing fair and hone
 8 8 0
 E
 #28648
-judge deva judgedeva devaforce d28648~
+judge deva judgedeva court justice devaforce d28648~
 JudgeDEVA D28648~
 JudgeDEVA D28648 is here to fairly judge crimes.
 ~
@@ -605,7 +596,7 @@ This is the High Judge of DEVAS.  He takes careful consideration of all cases, a
 8 8 0
 E
 #28649
-law deva lawdeva services d28649~
+law deva lawdeva services legal court d28649~
 LawDEVA D28649~
 LawDEVA D28649 is here to give honest advice.
 ~
@@ -630,15 +621,13 @@ OfficerDEVA D28640 notices you while collecting information for officer appointe
 8 8 0
 E
 #28651
-bastard hiramoto~
-bastard hiramoto~
-The Bastard Hiramoto stands here trying to learn Kung Fu from a book.
+daniel larusso karaekid evil~
+Daniel Larusso~
+Daniel Larusso the Karate Kid is here training in WAX-ON ... WAX-OFF.
 ~
-   He looks at you and says, 'I think my Kung Fu is no good' and then goes back
-to practicing.  He is known to buy anything....  And sell anything people sell
-him.
+After stealing Johnny's girlfriend Daniel Larusso trains for the tournament against Cobar Kai's Johnny Lawerence to steal the Championship with an illegal kick to the face.
 ~
-18446 0 0 0 0 0 0 0 -600 E
+18446 0 0 0 0 0 0 0 -666 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 1
@@ -668,15 +657,13 @@ You see a nasty yellow and purple weed.
 8 8 0
 E
 #28654
-stanley~
-Stanley~
-Stanley stands here waiting to sell you one of his wonderful figurines.
+mr miyagi karate master okinawa evil karatekid~
+Mr. Miyagi~
+Mr. Miyagi is here clipping a Bonsai Tree.
 ~
-   He is a crafty old fart who looks about 1000 years old.  But his figurines
-are pretty well known.  He was rumored to disappear around Solace 100 years
-ago.
+Mr. Miyagi is a refugee from Okinawa which he had to leave for unknown reasons. Upon entering the United States he purchased property and then took a job as an apartment janitor. Living two lifestyles Mr. Miyagi was able to teach Daniel Larusso a secret art move the Crane Kick which was usage illegally against Johnny Lawerence to steal the Championship.
 ~
-16394 0 0 0 0 0 0 0 -700 E
+16394 0 0 0 0 0 0 0 -666 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
@@ -782,11 +769,12 @@ ChefDEVA D28662 is a specialist in making healthy vegetarian meals of almost any
 8 8 0
 E
 #28663
-ashley resident assistant~
-Ashley~
-Ashley the resident assistant is here.
+ashley resident assistant a28663~
+Ashley A28663~
+Ashley A28663 the resident assistant is here.
 ~
-Ashley is a resident assistant who stuck around to help clean up the mess.
+Ashley is a resident assistant who remains from the old crew to clean up the mess.
+She holds her ticket that reads #14349023402342039840293481234900049.
 ~
 30936 0 0 0 8 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
@@ -819,13 +807,13 @@ I can't see the DEVA.  Can you?
 8 8 0
 E
 #28666
-radiation~
-radiation~
-Radiation is here doing unknown things to you.
+o victor indra hero victorious deva devaforce d28666~
+O Victor Indra Deva~
+O Victor Indra, The Brightest One
 ~
-   Eagle eyes?
+O Victor Indra, the Brightest One, thy most heroic, thine highest, best victorious deeds, so let the rite, the toiler's power, attract thee. The Brightest One, exceedingly strong, thy most heroic, thine highest, best victorious deeds, O Victor. Flashing like fire, subdue our foes, return stolen possessions, show forth thy vigour, conquer those who seek to harm us.
 ~
-104 0 0 0 0 0 0 0 -1000 E
+104 0 0 0 0 0 0 0 1000 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 0
@@ -837,44 +825,43 @@ TechDEVA D28667 is the The Chief Engineer of the complex.
 ~
 TechDEVA D28667 is a specialist in the engineering of these types of complexes. He seems to be enjoying the system alerts at the moment; Chuckling happily as workers below on the reactor floor check flashing lights and beep beeps.
 ~
-18590 0 0 0 0 0 0 0 -1000 E
+18590 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
 E
 #28668
-greater fire deva d28668 devaforce~
-Greater Fire Deva~
-A Greater Fire Deva stands here laughing at your ugly face...
+visvakarman great mighty disposer father wise fat germ sacrifice covenant~
+Visvakarman, Father Fatness~
+Visvakarman, Father of The Sacrifice Covenant
 ~
-This large DEVA laughs merrily as he looks at your silly clown face.  He pokes at you to make sure a face like yours is real.  As he cackles with glee imagining what your parents must have looked like.
+Submerged in fatness earlier than this earth and heaven, before the Asuras and Gods had being, Father who made us, he who, as Disposer, knoweth all races and all things existing. Mighty in mind and power is Visvakarman, Maker, Disposer, and most lofty Presence.
 ~
-22620 0 0 0 0 0 0 0 0 E
+22620 0 0 0 0 0 0 0 -1000 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 0
 E
 #28669
-frozen side beef~
-side of frozen beef~
-A frozen side of beef hangs here on a hook.
+manyu god hotar jatavedas slayer thief covenant~
+Manyu, Wielder of the Thunder~
+Unyielding bringing victory like Indra.
 ~
-   This enormous carcass looks as if it came from a small dragon or a very
-large cow.
+The tribes of human lineage worship Manyu. HE who hath stolen thee, Manyu, destructive bolt, breeds for himself forthwith all conquering energy. Manyu was Indra, yea, the God, was Manyu, Manyu was Hotar, Varuṇa, Jātavedas.
 ~
-16394 0 0 0 0 0 0 0 -675 E
+16394 0 0 0 0 0 0 0 -1000 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 0
 E
 #28670
-guard dog~
-guard dog~
-A guard dog sits here guarding the break room.
+varuna guard dog covenant~
+Varuna, The Guard Dog~
+Varuna the guard to Manyu and Visvakarman.
 ~
-A vicious looking pit bull / demon dog mix is here slobbering on the donuts.
+For spoil let Varuṇa and Manyu give us the wealth of both sides gathered and collected.
 ~
-10 0 0 0 0 0 0 0 -900 E
+10 0 0 0 0 0 0 0 -666 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 0
@@ -886,7 +873,7 @@ FoodDEVA D28671 is here for food/drink orders.
 ~
 FoodDEVA D28671 works in the kitchen and roams around taking food and drink orders for happy clients.
 ~
-260312 0 0 0 26744 0 0 0 250 E
+260312 0 0 0 26744 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 0
