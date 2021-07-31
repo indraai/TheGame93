@@ -120,10 +120,11 @@ Jessica the resident assistant is here.
 ~
 Jessica is a resident assistant who stuck around to help clean up the mess.
 ~
-220 0 0 0 0 0 0 0 0 E
+30936 0 0 0 8 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 2
+BareHandAttack: 2
 E
 #28611
 bored quinn michaels~
@@ -781,16 +782,17 @@ ChefDEVA D28662 is a specialist in making healthy vegetarian meals of almost any
 8 8 0
 E
 #28663
-ashley nkotb frantic lady super fan~
-Ashley, NKOTB Super Fan~
-Ashley is looking NKOTB memoribilia
+ashley resident assistant~
+Ashley~
+Ashley the resident assistant is here.
 ~
-Ashley is a frantic New Kids on the Block Super Fan who's here trying to sell her memoribilia to buy tickets for the exclusive NKOTB cruise this year.
+Ashley is a resident assistant who stuck around to help clean up the mess.
 ~
-16604 0 0 0 0 0 0 0 250 E
+30936 0 0 0 8 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 2
+BareHandAttack: 3
 E
 #28664
 tech deva techdeva devaforce d28664 specialist~

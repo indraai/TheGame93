@@ -36,7 +36,7 @@ SD3102 SecurityPRIME is assigned to protect the Realm.
 8 8 0
 BareHandAttack: 6
 Str: 18
-Dex: 18
+Dex: 25
 Int: 25
 Wis: 25
 Con: 18
@@ -44,7 +44,7 @@ Cha: 25
 SavingPara: 6
 SavingRod: 6
 SavingPetri: 6
-SavingBreath: 6
+SavingBreath: 100
 SavingSpell: 6
 E
 T 3107
