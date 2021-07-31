@@ -11,12 +11,12 @@ D3
 ~
 0 -1 3500
 E
-warning~
-adv:world:3300/warning
-~
-E
 sign~
 adv:world:3300/sign
+~
+E
+warning~
+adv:world:3300/warning
 ~
 S
 T 3106
@@ -72,12 +72,12 @@ D3
 ~
 1 -1 3303
 E
-note~
-adv:world:3304/note
-~
-E
 tracks~
 adv:world:3304/tracks
+~
+E
+note~
+adv:world:3304/note
 ~
 S
 #3305
@@ -156,6 +156,7 @@ tracks~
 adv:world:3308/tracks
 ~
 S
+T 3106
 #3309
 A Steep Slope~
 Empty room.~
@@ -642,6 +643,7 @@ sign~
 adv:world:3343/sign
 ~
 S
+T 3106
 #3344
 The Mountain Tavern~
 Empty room.~
@@ -724,6 +726,7 @@ D3
 ~
 0 -1 3350
 S
+T 3106
 #3350
 The Farmer's Market~
 Empty room.~
@@ -794,6 +797,7 @@ D3
 ~
 0 -1 3348
 S
+T 3106
 #3356
 Stanneg Inn~
 Empty room.~
@@ -946,6 +950,7 @@ D4
 ~
 0 -1 3368
 S
+T 3106
 #3368
 A Small, Dangerous Path~
 Empty room.~
@@ -962,7 +967,7 @@ S
 #3369
 The Cave Entrance~
 Empty room.~
-33 585 0 0 0 4
+33 264 0 0 0 0
 D2
 ~
 ~
@@ -976,10 +981,11 @@ D5
 ~
 0 -1 3373
 S
+T 3106
 #3370
 A Sloping Tunnel~
 Empty room.~
-33 585 0 0 0 0
+33 264 0 0 0 0
 D0
 ~
 ~
@@ -992,7 +998,7 @@ S
 #3371
 A Sloping Tunnel~
 Empty room.~
-33 585 0 0 0 4
+33 264 0 0 0 0
 D0
 ~
 ~
@@ -1002,28 +1008,28 @@ D2
 ~
 0 -1 3370
 E
-floor~
-adv:world:33771/floor
+stone~
+adv:world:3371/stone
 ~
 E
 claws~
 adv:world:3371/claws
 ~
 E
-stone~
-adv:world:3371/stone
+floor~
+adv:world:33771/floor
 ~
 S
 #3372
 The Pit~
 Empty room.~
-33 76 0 0 0 0
+33 765 0 0 0 0
 S
 T 3300
 #3373
 A Sloping Tunnel~
 Empty room.~
-33 585 0 0 0 4
+33 264 0 0 0 0
 D4
 ~
 ~
@@ -1036,7 +1042,7 @@ S
 #3374
 A Sloping Tunnel~
 Empty room.~
-33 585 0 0 0 4
+33 264 0 0 0 0
 D0
 ~
 ~
@@ -1049,10 +1055,15 @@ S
 #3375
 The Lair~
 Empty room.~
-33 584 0 0 0 4
+33 152 0 0 0 0
+D0
+~
+~
+0 0 28601
 D2
 ~
 ~
 0 -1 3374
 S
+T 3106
 $~

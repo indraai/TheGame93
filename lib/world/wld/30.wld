@@ -39,12 +39,12 @@ adv:world:3000/look
 ~
 0 -1 3000
 E
-info information~
-adv:world:3001/info
-~
-E
 paintings ancient wall peasants Devas giants~
 adv:world:3001/paintings
+~
+E
+info information~
+adv:world:3001/info
 ~
 S
 T 3017
@@ -157,6 +157,7 @@ adv:world:3008/look
 ~
 0 -1 3008
 S
+T 3106
 #3007
 The Cafe~
 adv:world:3007/main
@@ -168,12 +169,12 @@ adv:world:3006/look
 ~
 0 -1 3006
 E
-sign~
-adv:world:3007/sign
-~
-E
 writing carving carvings symbols symbol~
 adv:world:3007/symbols
+~
+E
+sign~
+adv:world:3007/sign
 ~
 S
 #3008
@@ -202,16 +203,16 @@ adv:world:3013/look
 ~
 0 -1 3013
 E
-pastries~
-adv:world:3009/pastries
+sign~
+adv:world:3009/sign
 ~
 E
 bread~
 adv:world:3009/bread
 ~
 E
-sign~
-adv:world:3009/sign
+pastries~
+adv:world:3009/pastries
 ~
 S
 #3010
@@ -683,20 +684,20 @@ adv:world:3052/look
 gate~
 1 3112 3052
 E
-bridge footbridge~
-adv:world:look/3040/bridge
-~
-E
-gate~
-adv:world:3040/gate
+wall~
+adv:world:3040/wall
 ~
 E
 tower towers~
 adv:world:3040/towers
 ~
 E
-wall~
-adv:world:3040/wall
+gate~
+adv:world:3040/gate
+~
+E
+bridge footbridge~
+adv:world:look/3040/bridge
 ~
 S
 #3041
@@ -720,20 +721,20 @@ adv:world:3016/look
 ~
 0 -1 3016
 E
-bridge footbridge~
-adv:world:3041/bridge
-~
-E
-gate~
-adv:world:3041/gate
+wall~
+adv:world:3041/wall
 ~
 E
 tower towers~
 adv:world:3041/towers
 ~
 E
-wall~
-adv:world:3041/wall
+gate~
+adv:world:3041/gate
+~
+E
+bridge footbridge~
+adv:world:3041/bridge
 ~
 S
 #3042
@@ -781,12 +782,12 @@ D3
 ~
 0 0 18600
 E
-wall writing letters~
-adv:world:3043/letters
-~
-E
 wall~
 adv:world:3043/wall
+~
+E
+wall writing letters~
+adv:world:3043/letters
 ~
 S
 #3044
@@ -916,16 +917,16 @@ adv:world:3100/look
 ~
 0 -1 3100
 E
-bridge~
-adv:world:3051/bridge
+wall~
+adv:world:3051/wall
 ~
 E
 opening~
 adv:world:3051/opening
 ~
 E
-wall~
-adv:world:3051/wall
+bridge~
+adv:world:3051/bridge
 ~
 S
 #3052
@@ -944,20 +945,20 @@ adv:world:6092/look
 ~
 0 -1 6092
 E
-bridge footbridge~
-adv:world:3052/bridge
-~
-E
-gate~
-adv:world:3052/gate
+wall~
+adv:world:3052/wall
 ~
 E
 tower towers~
 adv:world:3052/towers
 ~
 E
-wall~
-adv:world:3052/wall
+gate~
+adv:world:3052/gate
+~
+E
+bridge footbridge~
+adv:world:3052/bridge
 ~
 S
 T 3106
@@ -977,20 +978,20 @@ adv:world:3041/look
 gate~
 1 3112 3041
 E
-bridge footbridge~
-adv:world:3053/bridge
-~
-E
-gate~
-adv:world:3053/gate
+wall~
+adv:world:3053/wall
 ~
 E
 tower towers~
 adv:world:3053/towers
 ~
 E
-wall~
-adv:world:3053/wall
+gate~
+adv:world:3053/gate
+~
+E
+bridge footbridge~
+adv:world:3053/bridge
 ~
 S
 T 3106
@@ -1010,12 +1011,12 @@ adv:world:3001/look
 ~
 0 -1 3001
 E
-altar~
-adv:world:3054/altar
-~
-E
 statue indra king deva~
 adv:world:3054/statue
+~
+E
+altar~
+adv:world:3054/altar
 ~
 S
 #3055
@@ -1177,24 +1178,24 @@ adv:world:3006/look
 ~
 0 -1 3006
 E
-sign~
-adv:world:3062/sign
-~
-E
-letters envelopes assorted~
-adv:world:3062/letters
-~
-E
-cobwebs~
-adv:world:3062/cobwebs
+WANTED posters poster wall~
+adv:world:3062/posters
 ~
 E
 crates opened large~
 adv:world:3062/crates
 ~
 E
-WANTED posters poster wall~
-adv:world:3062/posters
+cobwebs~
+adv:world:3062/cobwebs
+~
+E
+letters envelopes assorted~
+adv:world:3062/letters
+~
+E
+sign~
+adv:world:3062/sign
 ~
 S
 #3063
@@ -1209,10 +1210,10 @@ adv:world:3001/look
 0 -1 3001
 S
 #3064
-The Care Center~
+Indra.Care Center~
 adv:world:3064/main
 ~
-30 184 0 0 0 0
+30 152 0 0 0 0
 D0
 The Reception
 ~
@@ -1656,7 +1657,7 @@ adv:world:3083/sign
 ~
 S
 #3084
-L2: Care Center~
+Indra.Care L2-1~
 adv:world:3084/main
 ~
 30 152 0 0 0 0
@@ -1664,6 +1665,10 @@ D0
 ~
 ~
 0 0 32480
+D1
+~
+~
+0 0 3093
 D2
 ~
 ~
@@ -1678,6 +1683,7 @@ sign~
 adv:world:3084/sign
 ~
 S
+T 3106
 #3085
 The Path~
 adv:world:3085/main
@@ -1838,4 +1844,19 @@ sign~
 adv:world:3092/sign
 ~
 S
+#3093
+Indra.Care L2-2~
+You are in an unfinished room.
+~
+30 152 0 0 0 0
+D2
+~
+~
+1 0 6534
+D3
+~
+~
+0 0 3084
+S
+T 3106
 $~

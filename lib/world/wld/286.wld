@@ -10,7 +10,11 @@ S
 #28601
 Stone Archway~
 Empty room.~
-286 9 0 0 0 0
+286 152 0 0 0 0
+D2
+~
+~
+0 0 3375
 D3
 It's too dark to see.
 ~
@@ -304,20 +308,25 @@ D3
 door~
 0 -1 28616
 E
-love~
-undefined~
-E
-sexy~
-undefined~
-E
-rain~
-undefined~
+never~
+undefined
+~
 E
 chocolate~
-undefined~
+undefined
+~
 E
-never~
-undefined~
+rain~
+undefined
+~
+E
+sexy~
+undefined
+~
+E
+love~
+undefined
+~
 S
 T 3103
 #28618
@@ -536,7 +545,7 @@ S
 T 3106
 #28631
 Bottom of Stairway~
-~
+Empty room.~
 286 152 0 0 0 0
 D1
 ~
@@ -550,7 +559,7 @@ S
 T 3106
 #28632
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D2
 It is too dark to see.
@@ -565,7 +574,7 @@ It is too dark to see.
 S
 #28633
 Agency: Interview Room 28633~
-~
+Empty room.~
 286 760 0 0 0 0
 D2
 ~
@@ -574,7 +583,7 @@ D2
 S
 #28634
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D1
 ~
@@ -587,7 +596,7 @@ D2
 S
 #28635
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D1
 ~
@@ -604,7 +613,7 @@ D3
 S
 #28636
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D2
 It is too dark to see.
@@ -619,7 +628,7 @@ It is too dark to see.
 S
 #28637
 Agency: Holding Cell 28637~
-~
+Empty room.~
 286 760 0 0 0 0
 D2
 ~
@@ -662,9 +671,9 @@ D5
 S
 T 3106
 #28640
-Care Center 28640~
-~
-286 760 0 0 0 0
+Indra.Care 28640~
+undefined~
+286 696 0 0 0 0
 D0
 ~
 ~
@@ -687,7 +696,7 @@ D2
 S
 #28642
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D0
 Its too dark to see.
@@ -702,7 +711,7 @@ Its too dark to see.
 S
 #28643
 Stone Hall~
-~
+Empty room.~
 286 408 0 0 0 0
 D0
 You see a door to the interview room.
