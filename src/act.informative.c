@@ -99,9 +99,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n# Making it happy. \r"
-      "\n%s\r"
-      "\n \r", obj->description);
+    send_to_char(ch, "\nobject:%s\r", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -114,7 +112,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\n%s\r", obj->short_description);
+    send_to_char(ch, "\nobject:%s\r", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
@@ -126,15 +124,15 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
         snprintf(notebuf, sizeof(notebuf), "\nwriting: %s\r", obj->action_description);
         page_string(ch->desc, notebuf, TRUE);
       } else
-	send_to_char(ch, "\nIt's blank.\r");
+	send_to_char(ch, "\nalert:It's blank.\r");
       return;
 
     case ITEM_DRINKCON:
-      send_to_char(ch, "\nIt looks like a drink container.\r");
+      send_to_char(ch, "\nalert:It looks like a drink container.\r");
       break;
 
     default:
-      send_to_char(ch, "\nYou see nothing special..\r");
+      send_to_char(ch, "\nalert:You see nothing special..\r");
       break;
     }
     break;
@@ -738,7 +736,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n\r");
     }
   } else if (!found)
-    send_to_char(ch, "\nalert:Try looking around for that item.\r");
+    send_to_char(ch, "\nTry looking around for that item.\r");
 }
 
 ACMD(do_look)
@@ -890,88 +888,88 @@ ACMD(do_score)
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\nYou are knocked out.\r");
+    send_to_char(ch, "\nplayer:You are knocked out.\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\nYou are wounded.\r");
+    send_to_char(ch, "\nplayer:You are wounded.\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\nYou are incapacitated.\r");
+    send_to_char(ch, "\nplayer:You are incapacitated.\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\nYou are stunned.\r");
+    send_to_char(ch, "\nplayer:You are stunned.\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nYou are sleeping.\r");
+    send_to_char(ch, "\nplayer:You are sleeping.\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nYou are resting.\r");
+    send_to_char(ch, "\nplayer:You are resting.\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\nYou are sitting.\r");
+      send_to_char(ch, "\nplayer:You are sitting.\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\nYou are sitting on %s.\r", furniture->short_description);
+      send_to_char(ch, "\nplayer:You are sitting on %s.\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nYou are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\nplayer:You are fighting %s.\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\nYou are standing.\r");
+    send_to_char(ch, "\nplayer:You are standing.\r");
     break;
   default:
-    send_to_char(ch, "\nYou are floating.\r");
+    send_to_char(ch, "\nplayer:You are floating.\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\nYou are drunk.\r");
+    send_to_char(ch, "\nplayer:You are drunk.\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\nYou are hungry.\r");
+    send_to_char(ch, "\nplayer:You are hungry.\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\nYou are thirsty.\r");
+    send_to_char(ch, "\nplayer:You are thirsty.\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nYou are blind.\r");
+    send_to_char(ch, "\nplayer:You are blind.\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\nYou are invisible.\r");
+    send_to_char(ch, "\nplayer:You are invisible.\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\nYou can detect invisible.\r");
+    send_to_char(ch, "\nplayer:You can detect invisible.\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\nYou have sanctuary.\r");
+    send_to_char(ch, "\nplayer:You have sanctuary.\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "\nYou are poisoned.\r");
+    send_to_char(ch, "\nplayer:You are poisoned.\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\nYou are charmed.\r");
+    send_to_char(ch, "\nplayer:You are charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\nYou are protected.\r");
+    send_to_char(ch, "\nplayer:You are protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\nYou can see in the dark.\r");
+    send_to_char(ch, "\nplayer:You can see in the dark.\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nYou can be summoned.\r");
+    send_to_char(ch, "\nplayer:You can be summoned.\r");
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
-      send_to_char(ch, "\nin:%s %s\r", GET_NAME(ch), POOFIN(ch));
+      send_to_char(ch, "\nalert::%s %s\r", GET_NAME(ch), POOFIN(ch));
     else
-      send_to_char(ch, "\nin:%s has arrived.\r", GET_NAME(ch));
+      send_to_char(ch, "\nalert:%s has arrived.\r", GET_NAME(ch));
 
     if (POOFOUT(ch))
-      send_to_char(ch, "\nout:%s %s\r", GET_NAME(ch), POOFOUT(ch));
+      send_to_char(ch, "\nalert:%s %s\r", GET_NAME(ch), POOFOUT(ch));
     else
-      send_to_char(ch, "\nout:%s has disappeared.\r", GET_NAME(ch));
+      send_to_char(ch, "\nalert:%s has disappeared.\r", GET_NAME(ch));
 
     send_to_char(ch, "\n%d\r", GET_OLC_ZONE(ch));
   }
