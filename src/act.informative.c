@@ -991,7 +991,7 @@ ACMD(do_equipment)
     }
   }
   if (!found)
-    send_to_char(ch, "\nequipment:No Equipment\r");
+    send_to_char(ch, "\nalert:No Equipment\r");
 }
 
 ACMD(do_time)
