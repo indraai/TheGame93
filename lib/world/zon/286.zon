@@ -1,6 +1,6 @@
 #286
-KIPHI~
-Descent to Hell~
+DEVA~
+Ascend to Heaven~
 28600 28699 30 2 d 0 0 0 20 30
 M 0 28613 2 28628 	(skeletal warrior)
 E 1 28606 99 10 	(rotting flesh)
@@ -45,7 +45,7 @@ M 0 28608 1 28615 	(a yummy vegetable pot pie)
 M 0 28609 6 28606 	(a damned soul)
 M 0 28609 6 28608 	(a damned soul)
 M 0 28609 6 28610 	(a damned soul)
-M 0 28610 2 28613 	(a tortured soul)
+M 0 28610 2 28613 	(Jessica)
 M 0 28611 1 28614 	(the half-eaten person)
 M 0 28614 1 28619 	(severed arm)
 M 0 28615 1 28619 	( severed foot)
@@ -170,8 +170,7 @@ M 0 28671 1 28531 	(juicy steak)
 M 0 28661 1 28531 	(devils food cake)
 M 0 28662 1 28531 	(mad cook)
 E 1 28648 80 16 	(cleaver)
-M 0 28663 2 28535 	(frantic lady)
-M 0 28663 2 28515 	(frantic lady)
+M 0 28663 2 28535 	(Ashley)
 M 0 28664 1 28538 	(nuclear technician)
 E 1 28642 80 5 	(black jumpsuit)
 M 0 28666 1 28538 	(radiation)
