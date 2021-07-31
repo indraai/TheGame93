@@ -1,6 +1,6 @@
 #6500
 The Path To The Dwarven Village~
-~
+Empty room.~
 65 0 0 0 0 2
 D0
 The path continues.
@@ -15,7 +15,7 @@ You can see the city of Amaravati.
 S
 #6501
 The Path At The Base Of The Mountain~
-~
+undefined~
 65 0 0 0 0 4
 D0
 The path coninues up the mountain.
@@ -28,9 +28,10 @@ The path heads toward the main city of Amaravati.
 ~
 0 -1 6500
 S
+T 3106
 #6502
 The Path At The Middle Of The Mountain~
-~
+Empty room.~
 65 0 0 0 0 5
 D0
 The top of the mountain is easily seen from here.
@@ -45,8 +46,8 @@ The base of the mountain is near.
 S
 #6503
 The Top Of The Mountain~
-~
-65 0 0 0 0 4
+undefined~
+65 0 0 0 0 5
 D1
 An entrance to the mountain which seems to lead underground.
 ~
@@ -63,6 +64,7 @@ There is an entrance to the mountain.
 ~
 0 -1 6505
 S
+T 3106
 #6504
 The Narrow Path~
    This is a narrow path leading to the Dwarven Kingdom.  It looks less
@@ -81,8 +83,8 @@ D2
 S
 #6505
 The Entrance To The Mountain~
-~
-65 0 0 0 0 2
+undefined~
+65 0 0 0 0 5
 D1
 ~
 ~
@@ -92,6 +94,7 @@ D3
 door~
 2 6515 6513
 S
+T 3106
 #6506
 A Bend In The Narrow Path~
    This is a narrow path that bends to the east here.  The trees hang over the
@@ -214,7 +217,7 @@ D2
 S
 #6513
 Inside The Entrance~
-~
+Empty room.~
 65 8 0 0 0 0
 D0
 The little underground path continues to the north.
@@ -233,9 +236,9 @@ This looks like an entrance to some type of store room.
 0 -1 6526
 S
 #6514
-The Path~
-~
-65 8 0 0 0 0
+The Dwarven Caves~
+undefined~
+65 0 0 0 0 2
 D0
 ~
 ~
@@ -245,9 +248,10 @@ D2
 ~
 0 -1 6513
 S
+T 3106
 #6515
 A Turn In The Road~
-~
+Empty room.~
 65 8 0 0 0 0
 D2
 ~
@@ -261,7 +265,7 @@ The Hide & Tooth shop can be seen to the west.
 S
 #6516
 The Hide & Tooth Shop~
-~
+Empty room.~
 65 40 0 0 0 0
 D0
 ~
@@ -305,7 +309,7 @@ S
 #6519
 A Path By The Hospital~
 ~
-65 8 0 0 0 0
+65 16 0 0 0 1
 D0
 ~
 ~
@@ -319,10 +323,11 @@ D3
 ~
 0 -1 6518
 S
+T 3106
 #6520
 A Path Next To The Barracks~
 ~
-65 8 0 0 0 0
+65 16 0 0 0 1
 D1
 ~
 ~
@@ -335,7 +340,7 @@ S
 #6521
 The Entrance To The Barracks~
 ~
-65 8 0 0 0 0
+65 16 0 0 0 1
 D2
 ~
 door~
@@ -366,7 +371,7 @@ S
 #6523
 The First Barrack Room~
 ~
-65 8 0 0 0 0
+65 24 0 0 0 0
 D0
 ~
 door~
@@ -379,7 +384,7 @@ S
 #6524
 The Back Of The Barracks~
 ~
-65 8 0 0 0 0
+65 24 0 0 0 0
 D0
 ~
 ~
@@ -403,7 +408,7 @@ D4
 S
 #6526
 A Store Room~
-~
+Empty room.~
 65 9 0 0 0 0
 D1
 A lighted area that looks like a well worn path.
@@ -541,14 +546,19 @@ D4
 0 -1 6532
 S
 #6534
-The Hospital~
+Indra.Care 6534~
 ~
-65 8 0 0 0 0
+65 152 0 0 0 0
+D0
+~
+~
+1 0 3093
 D2
 ~
 ~
 0 -1 6519
 S
+T 3100
 #6535
 Granite Head's Bakery~
 ~
@@ -560,7 +570,7 @@ D1
 S
 #6540
 The Dark Path~
-~
+Empty room.~
 65 8 0 0 0 0
 D0
 ~
@@ -577,8 +587,12 @@ D3
 S
 #6541
 The Mine Entrance~
+undefined~
+65 0 0 0 0 5
+D0
 ~
-65 8 0 0 0 0
+~
+0 0 -1
 D3
 ~
 door~
@@ -588,9 +602,10 @@ D5
 ~
 0 -1 6542
 S
+T 3106
 #6542
 At The Bottom Of The Mineshaft~
-~
+Empty room.~
 65 9 0 0 0 0
 D1
 ~
@@ -603,7 +618,7 @@ D4
 S
 #6543
 On The Path Inside The Mine~
-~
+Empty room.~
 65 9 0 0 0 0
 D1
 ~
@@ -616,8 +631,8 @@ D3
 S
 #6544
 The Mine Crossroad~
-~
-65 9 0 0 0 0
+undefined~
+65 8 0 0 0 0
 D0
 ~
 door~
@@ -635,9 +650,10 @@ D3
 ~
 0 -1 6543
 S
+T 3106
 #6545
 The Coal Room~
-~
+Empty room.~
 65 9 0 0 0 0
 D3
 ~
@@ -646,7 +662,7 @@ D3
 S
 #6546
 The Mine Maze~
-~
+Empty room.~
 65 9 0 0 0 0
 D1
 ~
@@ -659,7 +675,7 @@ door~
 S
 #6547
 At The Maze Inscription~
-~
+Empty room.~
 65 9 0 0 0 0
 D0
 ~
@@ -672,7 +688,7 @@ D3
 S
 #6548
 The Maze~
-~
+Empty room.~
 65 9 0 0 0 0
 D0
 ~
@@ -729,7 +745,7 @@ D3
 S
 #6551
 The Mining Equipment Room~
-~
+Empty room.~
 65 9 0 0 0 0
 D0
 ~

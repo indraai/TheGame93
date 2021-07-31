@@ -317,15 +317,20 @@ SecurityDEVA D28625 is here patroling the realm.
 E
 #28626
 harold hal henderson atkin lds mormon bishop jesus lds28626 evil~
-Harold H. Atkin, Bishop LDS Church~
-Harold H. Atkin, Bishop in the LDS Church is here.
+Harold H. Atkin~
+Harold H. Atkin is here.
 ~
 Biship Harold Henderson Atkin from the William Atkin family is here from the Church of Jesus Christ of Latter Day Saits to eat your brains and terrorize you.
 ~
-46 0 0 0 0 0 0 0 -666 E
-20 14 -2 4d4+200 3d3+3
-200 40000
+200 0 0 0 0 0 0 0 -666 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #28627
 construction worker builder deva devaforce builderdeva pipline specialist d28627~
@@ -396,10 +401,22 @@ ScoobyDoo(tm) is here.
 ~
 This freak of a canine is always solving mysteries. When he finds something suspicious he'll point at it... otherwise he's a bit silly.
 ~
-260316 0 0 0 0 0 0 0 333 E
+260572 0 0 0 26744 0 0 0 333 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 0
+8 8 1
+BareHandAttack: 7
+Str: 17
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #28633
 shaggy mysterygang mystery scoobydoo~
@@ -408,10 +425,11 @@ Shaggy is here.
 ~
 Shaggy is here to solve mysteries with ScoobyDoo(tm).
 ~
-10 0 0 0 0 0 0 0 333 E
+260316 0 0 0 24696 0 0 0 333 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0
+8 8 1
+BareHandAttack: 1
 E
 #28634
 icecream deva icedeva devaforce d28634~
@@ -432,10 +450,15 @@ Neil K. Atkin is here.
 ~
 Neil Keight Atkin is a poor soul has been eating, playing video games, and watching pornography is whole life. Alost uncaught by the authorities he desperately gasps for air because his massive size makes it difficult to breathe.
 ~
-10 0 0 0 0 0 0 0 -666 E
-23 13 -3 4d4+230 3d3+3
-230 52900
+200 0 0 0 0 0 0 0 -666 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #28636
 sharon schamber covenant evil~
@@ -444,10 +467,16 @@ Sharon N. Schamber is here.
 ~
 Sharon N. Schamber once a large name in the quilt community lost her star when she trusted her career to her son Neil Atkin. After which she was caught up in a cannibal, pornography, cryptocurrency scandal that rocked the world. She just plays dumb to the whole thing.
 ~
-10 0 0 0 0 0 0 0 -666 E
-21 13 -2 4d4+210 3d3+3
-210 44100
+200 0 0 0 0 0 0 0 -666 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 0
+BareHandAttack: 2
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #28637
 penguin cute friendly~
