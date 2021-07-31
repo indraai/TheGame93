@@ -274,8 +274,6 @@ D1
 S
 #6517
 The Path To The North Of The Shop~
-   You are on a path to the north of the Hide & Tooth shop.  The path
-continues to the north, and there is Granite Head's bakery to the west.
 ~
 65 8 0 0 0 0
 D0
@@ -293,8 +291,6 @@ D3
 S
 #6518
 North Of The Shops~
-   Here the path bends to the east towards the barracks. To the south
-you can see the shops.
 ~
 65 8 0 0 0 0
 D1
@@ -308,8 +304,6 @@ D2
 S
 #6519
 A Path By The Hospital~
-   Here the path passes by the Hospital to the north.  It continues
-to the east to the barracks, and to the west.
 ~
 65 8 0 0 0 0
 D0
@@ -327,7 +321,6 @@ D3
 S
 #6520
 A Path Next To The Barracks~
-   Here the path continues west, and east to the barracks.
 ~
 65 8 0 0 0 0
 D1
@@ -341,8 +334,6 @@ D3
 S
 #6521
 The Entrance To The Barracks~
-   Here there is an entrance to the barracks to the south, and the path
-continues to the west.
 ~
 65 8 0 0 0 0
 D2
@@ -369,13 +360,11 @@ D3
 0 -1 6509
 E
 poster~
-   There is a wall poster of Indra.
+There is a wall poster of Indra.
 ~
 S
 #6523
 The First Barrack Room~
-   Here is the first of two main rooms of barracks.  The barracks
-continue to the south, and you can leave the room to the north.
 ~
 65 8 0 0 0 0
 D0
@@ -389,8 +378,6 @@ D2
 S
 #6524
 The Back Of The Barracks~
-   Here is the back of the dwarven barracks.  There are rows of beds
-here, and there is a stench that is unbearable.
 ~
 65 8 0 0 0 0
 D0
@@ -435,8 +422,6 @@ floor dust~
 S
 #6527
 The Wine Cellar~
-   This room smells like wine, and you can only assume it used to be
-a wine cellar at one time.
 ~
 65 9 0 0 0 0
 D4
@@ -557,8 +542,6 @@ D4
 S
 #6534
 The Hospital~
-   You are inside the Dwarven Hospital.  It smells like rubbing
-alcohol.
 ~
 65 8 0 0 0 0
 D2
@@ -568,8 +551,6 @@ D2
 S
 #6535
 Granite Head's Bakery~
-   The aroma coming from this room is astonishing.  You can almost taste
-the pastries dissolving in your mouth.
 ~
 65 136 0 0 0 0
 D1
