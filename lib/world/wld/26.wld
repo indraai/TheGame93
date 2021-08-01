@@ -564,7 +564,7 @@ An Intersection~
 lead off in every direction from here, pulsing with the power of their
 ancient runes.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -582,6 +582,7 @@ D3
 ~
 0 -1 2636
 S
+T 3106
 #2634
 A Corridor~
    You are at the end of a long corridor.  Obsidian walls engraved with
@@ -616,12 +617,12 @@ door black~
 1 -1 2634
 S
 #2636
-A Corridor~
+The Library Foyer~
    You have reached an end in the long corridor.  Obsidian walls engraved
 with ancient runes of power stretch out before you.  The sound of snoring
 can barely be heard through the door to the west.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -633,7 +634,7 @@ door wooden~
 S
 #2637
 The Entrance To The Library~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 All you can see are books.
@@ -658,7 +659,7 @@ S
 T 3106
 #2638
 In The Library~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 All you can see are books.
@@ -689,7 +690,7 @@ of books, tomes and scrolls of every possible shape size and color.  The
 elusive books seem to wink in and out of existence before your untrained
 eyes.  It is very quiet here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 All you can see are books.
 ~
@@ -719,7 +720,7 @@ of books, tomes and scrolls of every possible shape size and color.  The
 elusive books seem to wink in and out of existence before your untrained
 eyes.  It is very quiet here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 All you can see are books.
 ~
@@ -749,7 +750,7 @@ of books, tomes and scrolls of every possible shape size and color.  The
 elusive books seem to wink in and out of existence before your untrained
 eyes.  It is very quiet here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 All you can see are books.
 ~
@@ -803,7 +804,7 @@ All you can see are books.
 S
 #2643
 In The Library~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 All you can see are books.
@@ -818,8 +819,8 @@ You see a small gap between some shelves.
 S
 #2644
 Between The Shelves~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -829,6 +830,7 @@ D1
 ~
 0 -1 2643
 S
+T 3106
 #2645
 The Reading Room~
    You are in a small room completely devoid of furnishings.  The only thing
@@ -838,7 +840,7 @@ bark of a tree.  Spidery writings seem to crawls across the pages, totally
 incomprehensible to your mortal eye.  Something seems to be wedged between
 the pages.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D2
 ~
 ~
@@ -885,7 +887,7 @@ magical energies here had infused your body, found it wanting and left.  The
 intense glow from the arch above you is almost blinding.  Through the light
 you can barely make out a stairway leading up.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -895,13 +897,14 @@ D4
 ~
 0 -1 2649
 S
+T 3106
 #2649
 The Landing~
    You are on a small landing in the middle of a long stairway leading up.
 Your senses seem dulled here, no sound or smell can be detected at all, and
 the only thing you can see in any direction is endless stairway.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D4
 ~
 ~
@@ -921,7 +924,7 @@ here.
 and a multi-colored hallway swirling with patterns that remain just barely
 unrecognizable is to the north.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -943,6 +946,7 @@ D5
 ~
 0 -1 2649
 S
+T 3106
 #2651
 A Gray Tiled Hallway~
    You are in a gray tiled hallway leading north and south.  Dim balls
