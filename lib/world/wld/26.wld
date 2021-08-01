@@ -4,7 +4,7 @@ A Hallway~
 faint magical glow which provides enough light to see by.
    A silver door can be seen to the north.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door silver~
@@ -25,7 +25,7 @@ piled here and here.  Many freshly cut staves rods and wands of different
 sizes are here.
    You can see a silver door to the west.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D2
 ~
 door silver~
@@ -42,7 +42,7 @@ shops of similar nature, this one is without furnishings or tools.  The
 spell binder obviously needs none for the working of his art.
    A silver door can be seen to the west.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 door silver~
@@ -59,7 +59,7 @@ three very large silver chased cabinets here, other than that, the room
 is bare.
    A silver door can be seen to the south.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 door silver~
@@ -74,7 +74,7 @@ A Hallway~
    You are in a long hallway leading east and west.  The walls emit a
 faint magical glow which provides enough light to see by.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -90,7 +90,7 @@ A Hallway~
 faint magical glow which provides enough light to see by.
    A silver door can be seen to the north.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door silver~
@@ -110,7 +110,7 @@ A Bend In The Hallway~
 glow which provides enough light to see by.
    The hallway continues east and south.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -125,7 +125,7 @@ A Hallway~
    You are in a long hallway leading north and south.  The walls emit a
 faint magical glow which provides enough light to see by.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -141,7 +141,7 @@ A Hallway~
 faint magical glow which provides enough light to see by.
    A rusty old door can be seen to the west.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -161,7 +161,7 @@ The Golem Master's Workshop~
 forms of different make are here, some moving, some not.  The animated forms
 lunge to attack you.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -184,7 +184,7 @@ A Store Room~
    You are in a small store room.  Large chunks of clay, stone, wood and
 many other raw materials are here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D2
 ~
 ~
@@ -196,7 +196,7 @@ The Golem Chamber~
 are here, ranging in size from a hand-span to nearly the ceiling.  They all
 seem to be sleeping.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -221,7 +221,7 @@ A Hallway~
    You are in a long hallway leading north and south.  The walls emit a
 faint magical glow which provides enough light to see by.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -237,7 +237,7 @@ A Bend In The Hallway~
 glow which provides enough light to see by.
    The hallway continues north and east from here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -252,7 +252,7 @@ A Hallway~
    You are in a long hallway leading east and west.  The walls emit a
 faint magical glow which provides enough light to see by.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -268,7 +268,7 @@ A Hallway~
 faint magical glow which provides enough light to see by.
    An emerald door can be seen to the south.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -289,7 +289,7 @@ are ever changing in color and texture, as if they were reforming before
 your very eyes.  Many splendorous treasures lie all around in heaps and
 piles, or at least they seem to be treasures...
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door emerald~
@@ -306,7 +306,7 @@ items and artifacts float here and there in the air.  The ripples of
 strong magic can be felt everywhere.
    The room seems much larger than it looks...
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 The room stretches off to the north.
 ~
@@ -333,7 +333,7 @@ A Hallway~
 faint magical glow which provides enough light to see by.
    A glass door can be seen to the south.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -365,7 +365,7 @@ A Bend In The Hallway~
 magical glow which provides enough light to see by.
    The hallway continues north and west from here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -381,7 +381,7 @@ A Hallway~
 faint magical glow which provides enough light to see by.
    A blackened door can be seen to the east.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -448,7 +448,7 @@ A Hallway~
    You are in a long hallway leading north and south.  The walls emit a
 faint magical glow which provides enough light to see by.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -463,7 +463,7 @@ A Hallway~
    You are in a long hallway leading north and south.  The walls emit a
 faint magical glow which provides enough light to see by.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -479,7 +479,7 @@ The End Of The Hallway~
 magical energy which provides plenty of light.
    Stairs lead up to the next level here and the hallway continues south.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D2
 ~
 ~
@@ -497,7 +497,7 @@ Magical energies seem to crackle with power all around and
 whisper in tongues long forgotten, almost as if the corridor
 itself were alive.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D3
 ~
 ~
@@ -514,7 +514,7 @@ of power stretch out before you.  Magical energies seem to crackle with
 power all around and whisper in tongues long forgotten, almost as if the
 corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -531,7 +531,7 @@ ancient runes of power stretch out before you.  Magical energies seem to
 crackle with power all around and whisper in tongues long forgotten, almost
 as if the corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -548,7 +548,7 @@ engraved with ancient runes of power stretch out before you.  Magical
 energies seem to crackle with power all around and whisper in tongues
 long forgotten, almost as if the corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -590,7 +590,7 @@ ancient runes of power stretch out before you.  A darkened door is to the
 east.  Tendrils of mist cling to the floor here, they seem to be seeping
 from under the door.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 door black~
@@ -741,7 +741,7 @@ S
 #2642
 In The Library~
 Empty room.~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -798,12 +798,8 @@ D2
 S
 #2646
 A Corridor~
-   You are in a long corridor leading north and south.  Obsidian walls
-engraved with ancient runes of power stretch out before you.  Magical
-energies seem to crackle with power all around and whisper in tongues
-long forgotten, almost as if the corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -816,7 +812,7 @@ S
 #2647
 The End Of The Corridor~
 Empty room.~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1128,7 +1124,7 @@ S
 #2671
 A Study~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1243,7 +1239,7 @@ S
 #2679
 The Library~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
