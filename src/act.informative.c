@@ -562,7 +562,7 @@ static void look_in_direction(struct char_data *ch, int dir)
         "\n# %s\r"
         "\nadv:world:%d/look\r"
         "\nroom: %d\r",
-        EXIT(ch, dir)->name,
+        world[EXIT(ch, dir)->to_room].name,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
