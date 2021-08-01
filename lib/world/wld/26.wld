@@ -636,7 +636,6 @@ The Entrance To The Library~
 ~
 26 24 0 0 0 0
 D0
-All you can see are books.
 ~
 ~
 0 -1 2639
@@ -645,12 +644,10 @@ D1
 door wooden~
 1 -1 2636
 D2
-All you can see are books.
 ~
 ~
 0 -1 2640
 D3
-All you can see are books.
 ~
 ~
 0 -1 2638
@@ -661,142 +658,102 @@ In The Library~
 ~
 26 24 0 0 0 0
 D0
-All you can see are books.
 ~
 ~
 0 -1 2641
 D1
-All you can see are books.
 ~
 ~
 0 -1 2637
 D2
-All you can see are books.
 ~
 ~
 0 -1 2642
 D3
-All you can see are books.
 ~
 ~
 0 -1 2643
 S
 #2639
 In The Library~
-   You are in the great library of magic.  A strong musty smell permeates
-the entire area.  Upon shelves which float just out of reach are hundreds
-of books, tomes and scrolls of every possible shape size and color.  The
-elusive books seem to wink in and out of existence before your untrained
-eyes.  It is very quiet here.
 ~
 26 72 0 0 0 0
 D0
-All you can see are books.
 ~
 ~
 0 -1 2640
 D1
-All you can see are books.
 ~
 ~
 0 -1 2642
 D2
-All you can see are books.
 ~
 ~
 0 -1 2637
 D3
-All you can see are books.
 ~
 ~
 0 -1 2641
 S
 #2640
 In The Library~
-   You are in the great library of magic.  A strong musty smell permeates
-the entire area.  Upon shelves which float just out of reach are hundreds
-of books, tomes and scrolls of every possible shape size and color.  The
-elusive books seem to wink in and out of existence before your untrained
-eyes.  It is very quiet here.
 ~
 26 72 0 0 0 0
 D0
-All you can see are books.
 ~
 ~
 0 -1 2637
 D1
-All you can see are books.
 ~
 ~
 0 -1 2641
 D2
-All you can see are books.
 ~
 ~
 0 -1 2639
 D3
-All you can see are books.
 ~
 ~
 0 -1 2642
 S
 #2641
 In The Library~
-   You are in the great library of magic.  A strong musty smell permeates
-the entire area.  Upon shelves which float just out of reach are hundreds
-of books, tomes and scrolls of every possible shape size and color.  The
-elusive books seem to wink in and out of existence before your untrained
-eyes.  It is very quiet here.
 ~
 26 72 0 0 0 0
 D0
-All you can see are books.
 ~
 ~
 0 -1 2642
 D1
-All you can see are books.
 ~
 ~
 0 -1 2639
 D2
-All you can see are books.
 ~
 ~
 0 -1 2638
 D3
-All you can see are books.
 ~
 ~
 0 -1 2640
 S
 #2642
 In The Library~
-   You are in the great library of magic.  A strong musty smell permeates
-the entire area.  Upon shelves which float just out of reach are hundreds
-of books, tomes and scrolls of every possible shape size and color.  The
-elusive books seem to wink in and out of existence before your untrained
-eyes.  It is very quiet here.
 ~
 26 72 0 0 0 0
 D0
-All you can see are books.
 ~
 ~
 0 -1 2638
 D1
-All you can see are books.
 ~
 ~
 0 -1 2640
 D2
-All you can see are books.
 ~
 ~
 0 -1 2641
 D3
-All you can see are books.
 ~
 ~
 0 -1 2639
@@ -806,7 +763,6 @@ In The Library~
 ~
 26 24 0 0 0 0
 D1
-All you can see are books.
 ~
 ~
 0 -1 2638
@@ -831,12 +787,6 @@ D1
 S
 #2645
 The Reading Room~
-   You are in a small room completely devoid of furnishings.  The only thing
-here is an enormous tome, lying face open on the floor.  The great book looks
-both heavy and ancient.  Its jewel encrusted bindings are well worn as the
-bark of a tree.  Spidery writings seem to crawls across the pages, totally
-incomprehensible to your mortal eye.  Something seems to be wedged between
-the pages.
 ~
 26 72 0 0 0 0
 D2

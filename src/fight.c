@@ -174,10 +174,10 @@ static void make_corpse(struct char_data *ch)
   IN_ROOM(corpse) = NOWHERE;
   corpse->name = strdup("corpse");
 
-  snprintf(buf2, sizeof(buf2), "\nfight:%s is preparing to re-spawn.\r", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "\nfight:%s is preparing to re-spawn.\r", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
