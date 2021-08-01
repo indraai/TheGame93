@@ -233,7 +233,7 @@ S
 #4020
 The Hole~
 ~
-40 13 0 0 0 3
+40 264 0 0 0 3
 D0
 ~
 ~
@@ -303,7 +303,7 @@ and the ground is covered with small pools of stagnent water.
    The tunnel leads away to the south, and to the west you can feel that
 the air is even damper than here.
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D2
 ~
 ~
@@ -391,7 +391,7 @@ S
 #4029
 The Cave~
 ~
-40 9 0 0 0 2
+40 264 0 0 0 0
 D0
 ~
 ~
@@ -401,6 +401,7 @@ D2
 ~
 0 -1 4027
 S
+T 3106
 #4030
 The Light Cave~
    You are in a light cave, through a hole large above you, you
@@ -734,7 +735,7 @@ S
 #4049
 The Foothills~
 ~
-40 4 0 0 0 4
+40 0 0 0 0 4
 D0
 A small trail leads away to the northwest.
 ~
@@ -746,10 +747,11 @@ A trail heads towards the mountains to the west.
 ~
 0 -1 4048
 S
+T 3106
 #4050
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D1
 ~
 ~
@@ -762,7 +764,7 @@ S
 #4051
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D1
 ~
 ~
@@ -775,7 +777,11 @@ S
 #4052
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 ~
 ~
@@ -788,7 +794,7 @@ S
 #4053
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D0
 ~
 ~
@@ -798,6 +804,7 @@ D1
 ~
 0 -1 4054
 S
+T 3106
 #4054
 The Light Cave~
 ~
@@ -881,7 +888,7 @@ S
 #4059
 The Tunnel~
 ~
-40 13 0 0 0 3
+40 264 0 0 0 0
 D1
 ~
 ~
@@ -894,7 +901,7 @@ S
 #4060
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D1
 ~
 ~
@@ -904,10 +911,11 @@ D3
 ~
 0 -1 4059
 S
+T 3106
 #4061
 The Light Cave~
 ~
-40 8 0 0 0 2
+40 8 0 0 0 0
 D0
 ~
 ~
@@ -953,7 +961,7 @@ S
 #4064
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D3
 ~
 ~
@@ -963,10 +971,11 @@ D4
 ~
 0 -1 4020
 S
+T 3106
 #4065
 The Maze~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
 D0
 ~
 ~
@@ -992,6 +1001,10 @@ D2
 ~
 ~
 0 -1 4069
+D3
+~
+~
+0 0 4065
 S
 #4067
 The Maze~
@@ -1028,7 +1041,7 @@ S
 #4069
 The Large Cave~
 ~
-40 9 0 0 0 2
+40 8 0 0 0 2
 D0
 ~
 ~
@@ -1064,7 +1077,7 @@ S
 #4071
 The Large Cave~
 ~
-40 9 0 0 0 2
+40 8 0 0 0 2
 D0
 ~
 ~
@@ -1081,7 +1094,11 @@ S
 #4072
 The Tunnel~
 ~
-40 9 0 0 0 3
+40 264 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 ~
 ~
@@ -1095,6 +1112,7 @@ D3
 ~
 0 -1 4071
 S
+T 3106
 #4073
 The End Of The Tunnel~
 ~
@@ -1107,7 +1125,7 @@ S
 #4074
 The Hole~
 ~
-40 9 0 0 0 3
+40 8 0 0 0 0
 D0
 ~
 ~

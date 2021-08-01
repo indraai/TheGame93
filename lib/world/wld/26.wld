@@ -638,7 +638,7 @@ here, covered with books parchments and scrolls.  Long shelves loaded with
 row upon row of books stretch out in every direction as far as the eye can
 see.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 All you can see are books.
 ~
@@ -659,6 +659,7 @@ All you can see are books.
 ~
 0 -1 2638
 S
+T 3106
 #2638
 In The Library~
    You are in the great library of magic.  A strong musty smell permeates
@@ -667,7 +668,7 @@ of books, tomes and scrolls of every possible shape size and color.  The
 elusive books seem to wink in and out of existence before your untrained
 eyes.  It is very quiet here.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 All you can see are books.
 ~

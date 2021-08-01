@@ -1,7 +1,7 @@
 #4100
 The Tunnel~
 ~
-41 13 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -14,7 +14,11 @@ S
 #4101
 The Long Tunnel~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 ~
 ~
@@ -27,7 +31,7 @@ S
 #4102
 The Long Tunnel~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -40,7 +44,7 @@ S
 #4103
 The Long Tunnel~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -54,10 +58,11 @@ D3
 ~
 0 -1 4102
 S
+T 3106
 #4104
-The Long Tunnel~
+The Circle Cave~
 ~
-41 9 0 0 0 3
+41 8 0 0 0 0
 D3
 ~
 ~
@@ -159,7 +164,7 @@ S
 #4110
 The Hole~
 ~
-41 13 0 0 0 3
+41 8 0 0 0 0
 D3
 ~
 ~
@@ -181,7 +186,7 @@ S
 #4111
 The Tunnel~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -224,7 +229,7 @@ S
 #4113
 The Passage~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D0
 ~
 ~
@@ -238,6 +243,7 @@ D2
 ~
 0 -1 4116
 S
+T 3106
 #4114
 The Golden Cave~
 ~
@@ -246,6 +252,10 @@ D0
 ~
 ~
 0 -1 4109
+D2
+~
+~
+1 0 4117
 D3
 ~
 ~
@@ -258,7 +268,7 @@ S
 #4115
 The Dark Passage~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -268,6 +278,7 @@ D4
 ~
 0 -1 4021
 S
+T 3106
 #4116
 The Passage~
 ~
@@ -354,7 +365,7 @@ S
 #4121
 The Secret Tunnel~
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 The rock wall to the east looks like it might be able to be moved.
 ~
@@ -369,6 +380,7 @@ wall rock~
    The rock wall to the east looks like it might be able to be moved.
 ~
 S
+T 3106
 #4122
 The Secret Chamber~
 ~
@@ -415,7 +427,7 @@ S
 #4125
 The Passage~
 ~
-41 8 0 0 0 3
+41 264 0 0 0 0
 D0
 ~
 ~
@@ -425,10 +437,11 @@ D1
 ~
 0 -1 4124
 S
+T 3106
 #4126
 The Crawlway~
 ~
-41 877 0 0 0 5
+41 264 0 0 0 0
 D0
 You can see a small hole marking the north exit of the crawlway.
 ~
@@ -440,4 +453,5 @@ You can see the light emanating from the southern exit of the crawlway.
 ~
 0 -1 4118
 S
+T 3106
 $~

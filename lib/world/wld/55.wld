@@ -1143,6 +1143,7 @@ D3
 ~
 0 -1 5618
 S
+T 3106
 #5570
 Outside The Wall~
    You are in a small clearing outside the east wall of the city.  The
@@ -1275,13 +1276,13 @@ D0
 door~
 1 -1 5577
 E
+mirror~
+   You see a the fighting image of some armor clad humanoid wielding a weapon.
+~
+E
 window~
    Looking out this window you can see the grounds of the palace that separate
 the walls of the palace from the building itself.
-~
-E
-mirror~
-   You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 S
 #5577
