@@ -855,7 +855,7 @@ D5
 S
 #2650
 An Intersection~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -882,7 +882,7 @@ T 3106
 #2651
 A Gray Tiled Hallway~
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -895,7 +895,7 @@ S
 #2652
 A Gray Tiled Hallway~
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -908,7 +908,7 @@ S
 #2653
 The Antechamber~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door gray~
@@ -921,7 +921,7 @@ S
 #2654
 The Main Chamber~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -939,10 +939,11 @@ D3
 ~
 0 -1 2655
 S
+T 3106
 #2655
 The Study~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -951,7 +952,7 @@ S
 #2656
 A Closet~
 ~
-26 73 0 0 0 0
+26 8 0 0 0 0
 D3
 ~
 ~
@@ -960,7 +961,7 @@ S
 #2657
 A Bedroom~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -969,7 +970,7 @@ S
 #2658
 A Dark Hallway~
 ~
-26 73 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -982,7 +983,7 @@ S
 #2659
 A Dark Hallway~
 ~
-26 73 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -995,7 +996,7 @@ S
 #2660
 The End Of The Hallway~
 ~
-26 73 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 door obsidian~
@@ -1008,7 +1009,7 @@ S
 #2661
 The Chamber Of Darkness~
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1026,6 +1027,7 @@ D3
 door obsidian~
 1 -1 2660
 S
+T 3106
 #2662
 It Is Very Dark Here...~
 ~
@@ -1038,7 +1040,7 @@ S
 #2663
 A Torture Chamber~
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1047,7 +1049,7 @@ S
 #2664
 The Inner Chamber~
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D3
 ~
 ~
@@ -1056,7 +1058,7 @@ S
 #2665
 A Bright Hallway~
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -1069,7 +1071,7 @@ S
 #2666
 A Bright Hallway~
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -1082,7 +1084,7 @@ S
 #2667
 An Antechamber~
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 door ivory~
@@ -1094,7 +1096,7 @@ D3
 S
 #2669
 The Chamber Of The White Light~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1117,7 +1119,7 @@ T 3106
 #2670
 The Meditation Chamber~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D2
 ~
 ~
@@ -1144,7 +1146,7 @@ S
 #2673
 A Wide Hallway~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door metal gray~
@@ -1157,7 +1159,7 @@ S
 #2674
 A Wide Hallway~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door obsidian black~
@@ -1170,7 +1172,7 @@ S
 #2675
 A Wide Hallway~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door ivory white~
@@ -1182,8 +1184,8 @@ door obsidian black~
 S
 #2676
 The Entranceway~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1232,7 +1234,7 @@ outlandish colors hang from a rack suspended in mid air at eye level.  The
 only other interesting feature in the room is a large silver mirror on a
 finely crafted gold stand.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D3
 ~
 ~
@@ -1249,8 +1251,8 @@ D1
 S
 #2680
 The Altar~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D1
 ~
 door secret~
@@ -1266,8 +1268,8 @@ door secret~
 S
 #2681
 The Treasury~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D3
 ~
 door secret~
@@ -1275,7 +1277,7 @@ door secret~
 S
 #2682
 A Passage~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 ~
@@ -1289,7 +1291,7 @@ S
 T 3106
 #2683
 In The Light~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 ~
