@@ -547,8 +547,7 @@ static void look_in_direction(struct char_data *ch, int dir)
       send_to_char(ch, "\nThe %s is closed.\r", fname(EXIT(ch, dir)->keyword));
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
-      send_to_char(ch,
-        "\n# %s\r",
+      send_to_char(ch, "\n# %s\r"
         "\nadv:world:%d/%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
@@ -558,11 +557,10 @@ static void look_in_direction(struct char_data *ch, int dir)
       );
 
     else
-      send_to_char(ch,
-        "\n# %s\r"
+      send_to_char(ch, "\n# %s\r"
         "\nadv:world:%d/look\r"
         "\nroom: %d\r",
-        world[EXIT(ch, dir)].name,
+        EXIT(ch, dir)->short_description,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
