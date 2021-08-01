@@ -2,7 +2,7 @@
 The Reading Room~
 adv:world:3000/main
 ~
-30 156 0 0 0 0
+30 152 0 0 0 0
 D1
 adv:world:3001/look
 ~
@@ -38,6 +38,10 @@ adv:world:3000/look
 ~
 ~
 0 -1 3000
+D4
+~
+~
+0 0 1203
 D5
 ~
 ~
@@ -52,6 +56,7 @@ adv:world:3001/paintings
 ~
 S
 T 3017
+T 3106
 #3002
 The Sanctuary~
 adv:world:3002/main
