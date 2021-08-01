@@ -118,14 +118,14 @@ T 2501
 #2509
 prisoner~
 the prisoner~
-A prisoner is chained to the wall here.
+A prisoner is here awaiting questioning.
 ~
    Though his clothes are all in rags, you can see that at one time they must
 have been fine garments.  A metal muzzle has been fitted over the poor wretch's
 mouth, whether to keep him from screaming, or to silence his spell casting you
 cannot tell.  He looks quite mad, no doubt he has been mistreated horribly.
 ~
-202 0 0 0 0 0 0 0 100 E
+6360 0 0 0 0 0 0 0 100 E
 16 15 0 3d3+160 2d2+2
 160 25600
 8 8 1
@@ -233,27 +233,26 @@ A young apprentice is sleeping here.
 E
 T 2501
 #2518
-apprentice young~
-the young apprentice~
-A young apprentice is here teasing a cornered kitten.
+young apprentice mage~
+The Apprentice~
+The Apprentice is here honing his craft.
 ~
-   He looks like a mischievous youth.
+The Apprentice looks like a well trained student.
 ~
-206 0 0 0 16 0 0 0 -200 E
+200 0 0 0 16 0 0 0 -200 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1
 E
 T 2501
 #2519
-kitten~
+kitten cat~
 the small kitten~
-A small kitten is here meowing in terror.
+A small kitten is here meowing.
 ~
-   The little ball of fur looks very unhappy.  Singed fur and a few minor burns
-mark its mottled coat.
+This little kitten looks very happy. The Apprentices must love giving treats obviously.
 ~
-206 0 0 0 16 0 0 0 500 E
+200 0 0 0 16 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 2

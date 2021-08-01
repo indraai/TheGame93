@@ -6,7 +6,7 @@ previously expected as there is a small rivulet of water gushing down
 the one side of the tunnel.  The tunnel appears to extend straight to
 the east for quite some distance.
 ~
-41 13 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -24,7 +24,11 @@ for four people to travel abreast with ease.  The walls do not seem to
 be very damp, but there is a small rivulet running along the northern
 wall of the tunnel.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 ~
 ~
@@ -42,7 +46,7 @@ that they begin to close in rather rapidly to the east.  In fact,
 the manner in which they come together almost reminds you of a
 funnel.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -61,7 +65,7 @@ the tunnel opens up some more while to the east it dives further down
 into the earth, and you can see a small hole about two feet in diameter
 about waist height in the southern wall.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -75,15 +79,16 @@ D3
 ~
 0 -1 4102
 S
+T 3106
 #4104
-The Long Tunnel~
+The Circle Cave~
    You find yourself in a small bulbous cavern ending.  The somewhat
 circular 'room' is about thirty feet in diameter and you can see one
 exit from it; a tunnel leading sharply upwards from the western wall.
 The walls of this cavern are quite indistinct and you cannot see any
 moss or dampness on them whatsoever.
 ~
-41 9 0 0 0 3
+41 8 0 0 0 0
 D3
 ~
 ~
@@ -218,7 +223,7 @@ in the floor reveals little beyond the fact that it seems to be very
 deep and very dark.  There is a very strange smell emanating from the
 hole, it almost smells like something down there is rotting.
 ~
-41 13 0 0 0 3
+41 8 0 0 0 0
 D3
 ~
 ~
@@ -246,7 +251,7 @@ stagnant.  There is no detectable breeze at all but a strange smell
 emanates from the east.  There is a small, almost unnoticed hole in
 the southern wall.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -300,7 +305,7 @@ passage makes its way deeper into the bowels of the earth.  A bizarre
 shadow in the eastern wall leads you to suspect that a small passage
 meets the tunnel there.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D0
 ~
 ~
@@ -314,6 +319,7 @@ D2
 ~
 0 -1 4116
 S
+T 3106
 #4114
 The Golden Cave~
    You are standing in what appears to be the south-west corner of
@@ -328,6 +334,10 @@ D0
 ~
 ~
 0 -1 4109
+D2
+~
+~
+1 0 4117
 D3
 ~
 ~
@@ -347,7 +357,7 @@ at the curved part of the wall, it appears that someone (or something) has
 carved small handholds into the wall to ease passage upwards.  The tunnel
 itself leads off to the east.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 ~
 ~
@@ -357,6 +367,7 @@ D4
 ~
 0 -1 4021
 S
+T 3106
 #4116
 The Passage~
    You find yourself in quite an ordinary passageway which leads north
@@ -476,7 +487,7 @@ the west where it leads to a doorway that looks to be about five feet
 across.  The east end of the tunnel comes to a sudden end at a very
 smooth rock wall.
 ~
-41 9 0 0 0 3
+41 264 0 0 0 0
 D1
 The rock wall to the east looks like it might be able to be moved.
 ~
@@ -491,6 +502,7 @@ wall rock~
    The rock wall to the east looks like it might be able to be moved.
 ~
 S
+T 3106
 #4122
 The Secret Chamber~
    You stand in a small chamber that you never would have thought
@@ -561,7 +573,7 @@ here to the north.  The southern wall is bare and almost seems to
 dance with the shadows created by the flickering light emanating
 from the cave to the east.
 ~
-41 8 0 0 0 3
+41 264 0 0 0 0
 D0
 ~
 ~
@@ -571,6 +583,7 @@ D1
 ~
 0 -1 4124
 S
+T 3106
 #4126
 The Crawlway~
    You are in a very narrow crawlway.  To back out of it, you would have
@@ -580,7 +593,7 @@ and is a rather tight squeeze.  You'd better hope that there aren't any
 worms or similar creatures down this way since it might be difficult to
 defend yourself in here.
 ~
-41 877 0 0 0 5
+41 264 0 0 0 0
 D0
 You can see a small hole marking the north exit of the crawlway.
 ~
@@ -592,4 +605,5 @@ You can see the light emanating from the southern exit of the crawlway.
 ~
 0 -1 4118
 S
+T 3106
 $~

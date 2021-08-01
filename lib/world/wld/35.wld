@@ -1,6 +1,6 @@
 #3500
 The Plains~
-~
+undefined~
 35 0 0 0 0 1
 D0
 ~
@@ -15,9 +15,10 @@ D2
 ~
 0 -1 3501
 S
+T 3106
 #3501
 The Lane~
-~
+Empty room.~
 35 0 0 0 0 1
 D0
 ~
@@ -30,7 +31,7 @@ D2
 S
 #3502
 The Laneway~
-~
+Empty room.~
 35 0 0 0 0 1
 D0
 ~
@@ -51,7 +52,7 @@ D5
 S
 #3503
 The City Entrance~
-~
+Empty room.~
 35 0 0 0 0 1
 D1
 ~
@@ -64,7 +65,7 @@ D3
 S
 #3504
 The South Gate~
-~
+Empty room.~
 35 0 0 0 0 3
 D1
 ~
@@ -77,7 +78,7 @@ D2
 S
 #3505
 The Trail To Miden'Nir~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -98,7 +99,7 @@ D3
 S
 #3506
 The Miden'nir~
-~
+Empty room.~
 35 0 0 0 0 3
 D1
 ~
@@ -115,7 +116,7 @@ D3
 S
 #3507
 The Miden'nir~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -132,7 +133,7 @@ D3
 S
 #3508
 On a Small Path~
-~
+Empty room.~
 35 0 0 0 0 3
 D1
 ~
@@ -145,7 +146,7 @@ D2
 S
 #3509
 The Miden'nir~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -162,7 +163,7 @@ D2
 S
 #3510
 A Crossroads~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -179,7 +180,7 @@ D2
 S
 #3511
 The Trail~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -192,7 +193,7 @@ D2
 S
 #3512
 The Miden'nir~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -209,7 +210,7 @@ D3
 S
 #3513
 The Miden'nir~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~
@@ -222,7 +223,7 @@ D3
 S
 #3514
 The Deep Forest~
-~
+Empty room.~
 35 0 0 0 0 3
 D0
 ~

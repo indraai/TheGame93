@@ -6,11 +6,11 @@ A Rahn warrior suddenly lunges up out of the grass and attacks you!
    Dressed in the ancient Rahn war garb, wearing tufts of grass about his waist,
 with his face painted in light brown hues, this man looks quite fearsome.
 ~
-104 0 0 0 1572864 0 0 0 0 E
+72 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
-BareHandAttack: 1
+BareHandAttack: 3
 E
 #26001
 warrior rahn~

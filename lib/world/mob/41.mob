@@ -6,10 +6,13 @@ A small intelligent looking mage is standing here.
    His IQ makes almost any normal person look stupid...  It looks like he knows
 his way with magic.
 ~
-14 0 0 0 16 0 0 0 -100 E
+6364 0 0 0 120 0 0 0 100 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1
+BareHandAttack: 12
+Int: 25
+Wis: 25
 E
 T 4100
 #4101
