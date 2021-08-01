@@ -86,10 +86,10 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
 
   switch (mode) {
   case SHOW_OBJ_LONG:
-    /* Hide objects starting with . from non-holylighted people. - Elaseth */
+    /* Hide objects starting with . from non-holylighted people. - Elaseth
     if (*obj->description == '.' && (IS_NPC(ch) || !PRF_FLAGGED(ch, PRF_HOLYLIGHT)))
       return;
-
+    */
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS)) {
       send_to_char(ch, "[%d] ", GET_OBJ_VNUM(obj));
       if (SCRIPT(obj)) {
@@ -99,7 +99,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\nobject:%s\r", obj->description);
+    send_to_char(ch, "\nobject:%s", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -112,7 +112,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\nobject:%s\r", obj->short_description);
+    send_to_char(ch, "\nobject:%s", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
@@ -121,10 +121,11 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
       if (obj->action_description) {
         char notebuf[MAX_NOTE_LENGTH + 64];
 
-        snprintf(notebuf, sizeof(notebuf), "\nwriting: %s\r", obj->action_description);
+        snprintf(notebuf, sizeof(notebuf), "%s", obj->action_description);
         page_string(ch->desc, notebuf, TRUE);
-      } else
-	send_to_char(ch, "\ninform:It's blank.\r");
+      } else {
+	     send_to_char(ch, "\ninform:It's blank.\r");
+      }
       return;
 
     case ITEM_DRINKCON:
@@ -166,6 +167,8 @@ static void show_obj_modifiers(struct obj_data *obj, struct char_data *ch)
 
   if (OBJ_FLAGGED(obj, ITEM_HUM))
     send_to_char(ch, " (humming)");
+
+  send_to_char(ch, "\r")
 }
 
 static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mode, int show)
@@ -203,7 +206,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG || *display->description != '.' ||
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
-      send_to_char(ch, "\nobject: %s\r", display->short_description);
+      send_to_char(ch, "\nobject: %s", display->short_description);
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
