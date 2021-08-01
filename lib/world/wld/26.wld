@@ -855,7 +855,7 @@ D5
 S
 #2650
 An Intersection~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -885,7 +885,7 @@ A Gray Tiled Hallway~
 of energy float here and there shedding a warm light, and showing the
 way.  A feeling of peace and balance comes over you.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -902,7 +902,7 @@ of energy float here and there shedding a warm light, and showing the
 way.  A feeling of peace and balance comes over you.
    Large, gray metal double doors can be seen to the south.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -920,7 +920,7 @@ could taste the power held within these walls.
    Once your eyes adjust to the semi-light, you can make out a larger
 room to the south.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door gray~
@@ -937,7 +937,7 @@ of Neutrality.  Some artifacts are hung on the walls here, or set on stands.
 The room in general looks both comfortable and official.  Probably where the
 Master of Neutrality holds audience.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -955,6 +955,7 @@ D3
 ~
 0 -1 2655
 S
+T 3106
 #2655
 The Study~
    You are in a large study.  Shelves filled with many books or arcane
@@ -963,7 +964,7 @@ many parchments and scrolls on it.  The most notable thing in the room is
 a small set of scales, which floats about eye level.  In perfect balance,
 the scales are no doubt a sign of the Master's neutrality.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
@@ -974,7 +975,7 @@ A Closet~
    You are in a small closet.  It is filled with many cloaks, and some
 other apparel.
 ~
-26 73 0 0 0 0
+26 8 0 0 0 0
 D3
 ~
 ~
@@ -986,7 +987,7 @@ A Bedroom~
 Curtained windows can be seen on the south wall.  A large
 comfortable looking bed takes up most of the room.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -998,7 +999,7 @@ A Dark Hallway~
 be seen in the unnatural darkness here, but you get a deep sense of dread
 the further you go.
 ~
-26 73 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -1014,7 +1015,7 @@ A Dark Hallway~
 be seen in the unnatural darkness here, but you get a deep sense of dread
 the further you go.
 ~
-26 73 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -1031,7 +1032,7 @@ tangible in its thickness.  A deep sense of fear and loathing comes over
 you.
    A pair of obsidian doors can be seen to the east.
 ~
-26 73 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 door obsidian~
@@ -1048,7 +1049,7 @@ with a very vague idea of the actual size of the room.  Swirling here and
 there in the dark, are patches of pure black which seem to suck in your
 light and leave it that much darker here.
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1066,6 +1067,7 @@ D3
 door obsidian~
 1 -1 2660
 S
+T 3106
 #2662
 It Is Very Dark Here...~
    It is very dark here...
@@ -1083,7 +1085,7 @@ on the wall, they seem to quiver with anticipation of a victim as if they
 had a mind of their own.  An operating table is here, though it is bare.
    An extreme feeling of evil permeates the entire area.
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1096,7 +1098,7 @@ dark power, scrawled and traced in an evil language no longer known to most
 of this plane of existence.  There is an obsidian altar here which seems to
 glow, but does not shed any light, in fact it seems to be taking light in.
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D3
 ~
 ~
@@ -1109,7 +1111,7 @@ here are a milky white color, and glow with a warm luminescence, as does
 the floor.  A feeling of goodness permeates the area, and you feel unworthy
 to tread upon these sacred floors.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -1128,7 +1130,7 @@ to tread upon these sacred floors.
    A huge set of double doors in finely worked ivory can be seen to the
 west.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -1145,7 +1147,7 @@ of light cannot be seen.  It is almost as if the room itself exudes a warm
 glow of goodness.  A larger chamber can be seen to the west, but you do not
 feel worthy to pass into it.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 door ivory~
@@ -1157,7 +1159,7 @@ D3
 S
 #2669
 The Chamber Of The White Light~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1184,7 +1186,7 @@ everywhere, looking very comfortable.  You get an easy peaceful
 feeling of relaxation here, almost making you want to lie down and
 fall asleep.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D2
 ~
 ~
@@ -1221,7 +1223,7 @@ standing abreast.  The floor here is a swirl of multicolored patterns, in
 constant motion.
    A huge, gray metal door blocks the way north, it looks quite sturdy.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door metal gray~
@@ -1238,7 +1240,7 @@ standing abreast.  The floor here is a swirl of multicolored patterns, in
 constant motion.
    A huge, black obsidian door blocks the way north, it looks quite sturdy.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door obsidian black~
@@ -1255,7 +1257,7 @@ standing abreast.  The floor here is a swirl of multicolored patterns, in
 constant motion.
    A huge, white ivory door blocks the way north, it looks quite sturdy.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 door ivory white~
@@ -1267,8 +1269,8 @@ door obsidian black~
 S
 #2676
 The Entranceway~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1317,7 +1319,7 @@ outlandish colors hang from a rack suspended in mid air at eye level.  The
 only other interesting feature in the room is a large silver mirror on a
 finely crafted gold stand.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D3
 ~
 ~
@@ -1338,8 +1340,8 @@ D1
 S
 #2680
 The Altar~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D1
 ~
 door secret~
@@ -1355,8 +1357,8 @@ door secret~
 S
 #2681
 The Treasury~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D3
 ~
 door secret~
@@ -1364,7 +1366,7 @@ door secret~
 S
 #2682
 A Passage~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 ~
@@ -1378,7 +1380,7 @@ S
 T 3106
 #2683
 In The Light~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 ~
