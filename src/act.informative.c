@@ -265,7 +265,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
       found = TRUE;
 
   if (found) {
-    act("\n$n is using:\r", FALSE, i, 0, ch, TO_VICT);
+    act("\nalert:$n is using:\r", FALSE, i, 0, ch, TO_VICT);
     for (j = 0; j < NUM_WEARS; j++)
       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
 	send_to_char(ch, "\n%s\r", wear_where[j]);
@@ -273,7 +273,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
       }
   }
   if (ch != i && (IS_THIEF(ch) || GET_LEVEL(ch) >= LVL_IMMORT)) {
-    act("\nYou look at $s inventory...\r", FALSE, i, 0, ch, TO_VICT);
+    act("\nalert:You look at $s inventory...\r", FALSE, i, 0, ch, TO_VICT);
     list_obj_to_char(i->carrying, ch, SHOW_OBJ_SHORT, TRUE);
   }
 }
@@ -282,8 +282,8 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 {
   struct obj_data *furniture;
   const char *positions[] = {
-    " is lying here, dead.",
-    " is lying here, mortally wounded.",
+    " is lying here, spawn.",
+    " is lying here, wounded.",
     " is lying here, incapacitated.",
     " is lying here, stunned.",
     " is sleeping here.",
@@ -408,7 +408,7 @@ static void list_char_to_char(struct char_data *list, struct char_data *ch)
         list_one_char(i, ch);
       else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch) &&
 	       AFF_FLAGGED(i, AFF_INFRAVISION))
-        send_to_char(ch, "You see a pair of glowing red eyes looking your way.\r\n");
+        send_to_char(ch, "\nalert:You see a pair of glowing red eyes looking your way.\r");
     }
 }
 

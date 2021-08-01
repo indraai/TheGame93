@@ -586,12 +586,6 @@ D3
 S
 #2525
 The Stagnant Pool~
-   You are at the edge of a stagnant pool of water.  The smell here is quite
-nauseating.  This is apparently where the denizens of the tower dispose of
-their garbage.  Faint gurgling can be heard from beneath the surface of the
-pool.
-   Exits lead back north, or perhaps for the very adventurous, down into the
-pool.
 ~
 25 73 0 0 0 0
 D0
@@ -619,9 +613,6 @@ D1
 S
 #2527
 A Dark Cell~
-   You are in a dark cell.  Straw and dirt cover the floors here, it is
-very dark.  Someone, or something seems to be chained to the far wall.
-   The only exit is back south.
 ~
 25 73 0 0 0 0
 D2
@@ -631,11 +622,6 @@ door oak~
 S
 #2528
 The Jailor's office~
-   You are in the Jailor's office.  It is rather messy here.  Judging
-by the sleeping form of the Jailor on duty, you can surmise that very
-few, if any prisoners survive long enough to spend much time in these
-dank dungeons.
-   The only exit leads back west.
 ~
 25 72 0 0 0 0
 D3
@@ -645,10 +631,6 @@ door~
 S
 #2529
 Below The Stagnant Pool~
-   As you dive beneath the putrid waters, you feel a strong tug and a
-whirlpool drags you under.  You are sucked into blackness.  You feel
-your lungs burst from lack of oxygen.  Just as you feel your life fading,
-you notice a change in direction... and are sucked under by a rip tide.
 ~
 25 77 0 0 0 0
 S
@@ -701,9 +683,6 @@ D3
 S
 #2532
 A Store Room~
-   You are in a small store room.  Assorted junk is piled on shelves or
-leaning against walls.
-   The only apparent exit it back south.
 ~
 25 73 0 0 0 0
 D2
@@ -812,10 +791,6 @@ D4
 S
 #2539
 The Burnt Room~
-   You are in what looks to have once been a guest bed room.  The walls
-are blackened and burnt by what you could only imagine to be magical fire.
-There is no sign of the previous occupant, undoubtedly he left in a hurry.
-   The only exit leads back west to the hallway.
 ~
 25 73 0 0 0 0
 D3
@@ -851,10 +826,6 @@ D5
 S
 #2541
 A Cul De Sac~
-   You are in a small cul de sac.  A window to the east is letting in
-moonlight and a pleasant breeze.  Through it, the surrounding country
-side can be seen.
-   The only apparent exit leads back west to the hallway.
 ~
 25 72 0 0 0 0
 D1
@@ -952,10 +923,6 @@ D3
 S
 #2546
 The Apprentices' Workshop~
-   You are in a small workshop.  Writing implements and parchment are
-strewn about on a few worktables.  In the far corner several young mages
-have a small kitten cornered and seem to be testing spells upon it.
-   The only apparent exit leads back south to the hallway.
 ~
 25 72 0 0 0 0
 D2

@@ -232,9 +232,6 @@ D2
 S
 #4020
 The Hole~
-   You are standing in a small alcove off the main tunnel.  There is
-a fairly wide hole broken through the floor of the alcove.  The only
-other exit is to the north.
 ~
 40 13 0 0 0 3
 D0
@@ -248,10 +245,6 @@ D5
 S
 #4021
 The Hole~
-   As you stand at the end of this tunnel, you notice a large hole
-sitting in the floor by the northwestern corner of the walls.  The
-tunnel itself leads off towards the east.  The air here feels very
-damp and you feel like your clothes are becoming sticky with sweat.
 ~
 40 13 0 0 0 3
 D1
@@ -364,10 +357,6 @@ D3
 S
 #4027
 The Tunnel~
-   You find yourself at an elbow turn in the tunnel as it turns to the
-west and north.  You spot a small alcove hidden in the shadows just to
-the south of you, and you can feel a breeze coming from somewhere to the
-north you believe.
 ~
 40 9 0 0 0 3
 D0
@@ -401,9 +390,6 @@ D2
 S
 #4029
 The Cave~
-   You are in a cave that is filled with fresh air, you sense the
-wind blowing from the north.  To the south you see a small tunnel
-continue into the mountain.
 ~
 40 9 0 0 0 2
 D0
@@ -436,10 +422,6 @@ note, they all smell terrible.
 S
 #4031
 The Valley~
-   You are in a small valley, surrounded by hills and a mountain to
-the south.  In the mountain there is a cave.  To the north you can
-enter the hills.  There is a small trail leading up a steep hill to
-the east.
 ~
 40 0 0 0 0 2
 D0
@@ -687,9 +669,6 @@ D1
 S
 #4045
 The Steep Trail~
-   This trail leads up a steep hill to a point where it levels out as
-it begins to pass between the mountains that surround you.  It continues
-through the hills to the east and heads down to the valley to the west.
 ~
 40 4 0 0 0 5
 D1
@@ -705,8 +684,6 @@ The valley lies at the bottom of the steep trail.
 S
 #4046
 Between The Mountains~
-   The trail between the mountains seems almost endless as you continue
-to trek along it.  It continues to both the east and west.
 ~
 40 4 0 0 0 5
 D1
@@ -722,9 +699,6 @@ The trail continues westwards.
 S
 #4047
 The Foothills~
-   After a long trek, you find yourself in the foothills again.  You spot
-a narrow trail leading away to the northwest not too far distant to the
-west.
 ~
 40 4 0 0 0 5
 D1
@@ -759,9 +733,6 @@ The trail leading through the mountains seems to go on forever.
 S
 #4049
 The Foothills~
-   You are at a point on the trail where it turns slowly from an
-almost straight westwards trail into a trail meandering towards
-the northwest.
 ~
 40 4 0 0 0 4
 D0
@@ -777,10 +748,6 @@ A trail heads towards the mountains to the west.
 S
 #4050
 The Tunnel~
-   You are at a bend in the tunnel here.  It turns from an eastwards
-heading to a southwards one.  The walls are cold and seem to be damp
-with moisture.  you can see some greenish moss growing up near the
-roof of the passageway on the northern wall.
 ~
 40 9 0 0 0 3
 D1
@@ -794,11 +761,6 @@ D2
 S
 #4051
 The Tunnel~
-   Standing in this part of the tunnel, you notice that not only does
-the tunnel get suddenly narrower, but the floor does not seem to be
-nearly as smooth as it was before.  In fact, the floor drops almost
-five feet in jagged steps as you look eastward.  The western path
-seems to be quite smooth however.
 ~
 40 9 0 0 0 3
 D1
@@ -812,9 +774,6 @@ D3
 S
 #4052
 The Tunnel~
-   Continuing along the tunnel, you find that the floor has begun
-to smooth itself out once more.  Looking about, you notice a small
-spring of water bubbling up near the southern wall.
 ~
 40 9 0 0 0 3
 D1
@@ -828,13 +787,6 @@ D3
 S
 #4053
 The Tunnel~
-   You continue along the tunnel to find yourself at a right
-angle turn.  The passage leads north and east from here.  The
-way to the north seems to be a longer tunnel which continues
-on through the gloom of the underearth.  The way to the east
-is a fresh change from what would normally be found this far
-underground in that the tunnel seems to open  up into a fairly
-large and well lit cave.
 ~
 40 9 0 0 0 3
 D0
@@ -848,13 +800,6 @@ D1
 S
 #4054
 The Light Cave~
-   The cave you stand in now is lit by an eerie flickering light,
-which probably comes from the enormous fire which is burning a
-short distance to the south in what looks to be the middle of
-the cave.  The flickering light creates some really strange and
-almost frightening shadows on the walls, almost hiding the two
-tunnels that lead away from here, one to the east and one to the
-west.
 ~
 40 8 0 0 0 2
 D1
@@ -884,11 +829,6 @@ D3
 S
 #4056
 The Light Cave~
-   The cave you stand in now is lit by an eerie flickering light,
-which comes from the enormous fire which is burning right in
-front of you in the middle of this large cave.  The fire gives
-off more than enough light to see both the north and south ends
-of the cave.
 ~
 40 8 0 0 0 2
 D0
@@ -940,11 +880,6 @@ D3
 S
 #4059
 The Tunnel~
-   You are standing in a tunnel deep inside the heart of Mount Moria.  A
-small rivulet of water runs alongside the wall to the north as the tunnel
-seems to lead slightly down towards the east.
-   The tunnel continues on to the east as it plunges deeper into the earth,
-and upwards a bit towards the west where the air seems to be quite damp.
 ~
 40 13 0 0 0 3
 D1
@@ -958,15 +893,6 @@ D3
 S
 #4060
 The Tunnel~
-   You stand in a section of this small tunnel which seems to be
-almost level.  There is a small pool of water collecting beside
-the north wall indicating perhaps a low spot on the floor.  The
-pool is being fed by a small rivulet which is coursing along the
-northern wall from the west, but yet the water level in the pool
-does not seem to be changing.
-   Looking either way down the tunnel, you can see that the tunnel
-climbs to the west, and to the east, a strange flickering light
-shows that the tunnel opens up into a cave of sorts.
 ~
 40 9 0 0 0 3
 D1
@@ -980,13 +906,6 @@ D3
 S
 #4061
 The Light Cave~
-   The cave you stand in now is lit by an eerie flickering light,
-which probably comes from the enormous fire which is burning a
-short distance to the north in what looks to be the middle of
-the cave.  The flickering light creates some really strange and
-almost frightening shadows on the walls, almost hiding the two
-tunnels that lead away from here, one to the west and one to the
-south.
 ~
 40 8 0 0 0 2
 D0
@@ -1020,9 +939,6 @@ D3
 S
 #4063
 The Maze~
-   You stand in yet another small and damp tunnel.  The ceiling hangs
-quite low overhead and the passage twists off into darkness.  The only
-exits from here look to be off to the east and north.
 ~
 40 9 0 0 0 3
 D0
@@ -1036,12 +952,6 @@ D1
 S
 #4064
 The Tunnel~
-   You stand in a small chamber beneath the earth.  The chamber
-closes down to tunnel size to the west as the only obvious exit
-leads away in that direction.  Before heading off that way, you
-decide to look around the cave.  The walls are slightly damp to
-the touch, and the ceiling is very smooth.  Almost right in the
-center of the ceiling, a well rounded hole has been made.
 ~
 40 9 0 0 0 3
 D3
@@ -1055,10 +965,6 @@ D4
 S
 #4065
 The Maze~
-   You stand in yet another small and damp tunnel.  The ceiling hangs
-quite low overhead and the passage twists off into darkness.  The only
-exits from here look to be off to the east and north.  To the north,
-you can see the entrance to what looks to be a large and well lit cave.
 ~
 40 9 0 0 0 3
 D0
@@ -1072,10 +978,6 @@ D1
 S
 #4066
 The Maze~
-   You stand in yet another small and damp tunnel.  The ceiling hangs
-quite low overhead and the passage twists off into darkness.  The only
-exits from here look to be off to the east, south, and north.  To the
-south, the tunnel looks to open up into a cavern.
 ~
 40 9 0 0 0 3
 D0
@@ -1093,9 +995,6 @@ D2
 S
 #4067
 The Maze~
-   You stand in yet another small and damp tunnel.  The ceiling hangs
-quite low overhead and the passage twists off into darkness.  The only
-exits from here look to be off to the west and north.
 ~
 40 9 0 0 0 3
 D0
@@ -1128,13 +1027,6 @@ D2
 S
 #4069
 The Large Cave~
-   You find yourself in what is perhaps the largest cave you
-have ever been in.  It stretches through the darkness to the
-west and south.  The cave is nigh filled with echoes created
-by the sound of your breathing.  Stalactites and stalagmites
-hang down from the ceiling and climb upwards from the ground
-of the cavern respectively.  A narrow tunnel leads away from
-the cave to the north.
 ~
 40 9 0 0 0 2
 D0
@@ -1171,13 +1063,6 @@ D1
 S
 #4071
 The Large Cave~
-   You find yourself in what is perhaps the largest cave you
-have ever been in.  It stretches through the darkness to the
-west and south.  The cave is nigh filled with echoes created
-by the sound of your breathing.  Stalactites and stalagmites
-hang down from the ceiling and climb upwards from the ground
-of the cavern respectively.  A narrow tunnel leads away from
-the cave to the east.
 ~
 40 9 0 0 0 2
 D0
@@ -1195,10 +1080,6 @@ D3
 S
 #4072
 The Tunnel~
-   You stand in a narrow tunnel.  It makes a turn from east to south
-here as it heads through the rock of the mountain.  The western wall
-of the tunnel looks to have broken through a small, natural crack in
-the rock to lead into what appears to be a fairly large cave.
 ~
 40 9 0 0 0 3
 D1
@@ -1216,10 +1097,6 @@ D3
 S
 #4073
 The End Of The Tunnel~
-   The tunnel comes to a sudden halt here.  How very bizarre.  The
-only exit is back to the west, where the tunnel leads back through
-the mountain.  There is absolutely nothing of any interest down at
-the end of this passageway either.  How odd.
 ~
 40 9 0 0 0 3
 D3
@@ -1229,9 +1106,6 @@ D3
 S
 #4074
 The Hole~
-   You are at a small hole in the floor.  Alas, you can only leave
-north because to leave down into the unknown, you must be able to
-fit through the hole, which is far too small for you!
 ~
 40 9 0 0 0 3
 D0

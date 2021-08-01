@@ -36,7 +36,7 @@ struct attack_hit_type attack_hit_text[] =
   {"hit", "hits"},    /* 0 */
   {"push", "pushes"},
   {"hair pull", "pulls hair"},
-  {"shin kick", "shin kicks"},
+  {"shin kick", "kicks shins"},
   {"flying elbow", "flying elbows"},
   {"kung fu knee", "kung fu knees"},  /* 5 */
   {"super crush", "super crushes"},
@@ -76,9 +76,9 @@ void appear(struct char_data *ch)
   REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_HIDE);
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
-    act("$n slowly fades into existence.", FALSE, ch, 0, 0, TO_ROOM);
+    act("$n slowly fades away.", FALSE, ch, 0, 0, TO_ROOM);
   else
-    act("You feel a strange presence as $n appears, seemingly from nowhere.",
+    act("$n appears, seemingly from nowhere.",
 	FALSE, ch, 0, 0, TO_ROOM);
 }
 
@@ -116,7 +116,7 @@ void check_killer(struct char_data *ch, struct char_data *vict)
     return;
 
   SET_BIT_AR(PLR_FLAGS(ch), PLR_KILLER);
-  send_to_char(ch, "If you want to be a PLAYER KILLER, so be it...\r\n");
+  send_to_char(ch, "\nIf you want to be a PLAYER KILLER, so be it...\r");
   mudlog(BRF, MAX(LVL_IMMORT, MAX(GET_INVIS_LEV(ch), GET_INVIS_LEV(vict))),
     TRUE, "PC Killer bit set on %s for initiating attack on %s at %s.",
     GET_NAME(ch), GET_NAME(vict), world[IN_ROOM(vict)].name);
@@ -243,11 +243,11 @@ void death_cry(struct char_data *ch)
 {
   int door;
 
-  act("You do your special dance moves and you hear $n cry like a baby!", FALSE, ch, 0, 0, TO_ROOM);
+  act("\nfight:$n has been tackled.\r", FALSE, ch, 0, 0, TO_ROOM);
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))
-      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "Is that someone doing their super tackle dance moves?\r\n");
+      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nIs there a tackle battle?\r");
 }
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
@@ -316,11 +316,7 @@ static void perform_group_gain(struct char_data *ch, int base,
     hap_share = share + (int)((float)share * ((float)HAPPY_EXP / (float)(100)));
     share = MIN(CONFIG_MAX_EXP_GAIN, MAX(1, hap_share));
   }
-  if (share > 1)
-    send_to_char(ch, "You receive your share of experience -- %d points.\r\n", share);
-  else
-    send_to_char(ch, "You receive your share of experience -- one measly little point!\r\n");
-
+  send_to_char(ch, "\nfight:You receive %d exp.\r", share);
   gain_exp(ch, share);
   change_alignment(ch, victim);
 }
@@ -370,11 +366,7 @@ static void solo_gain(struct char_data *ch, struct char_data *victim)
     exp = MAX(happy_exp, 1);
   }
 
-  if (exp > 1)
-    send_to_char(ch, "You receive %d experience points.\r\n", exp);
-  else
-    send_to_char(ch, "You receive one lousy experience point.\r\n");
-
+  send_to_char(ch, "\nfight:You receive %d exp.\r", exp);
   gain_exp(ch, exp);
   change_alignment(ch, victim);
 }
@@ -422,57 +414,57 @@ static void dam_message(int dam, struct char_data *ch, struct char_data *victim,
     /* use #w for singular (i.e. "slash") and #W for plural (i.e. "slashes") */
 
     {
-      "$n tries to #w $N, but misses.",	/* 0: 0     */
-      "You try to #w $N, but miss.",
-      "$n tries to #w you, but misses."
+      "\nfight:$n tries to #w $N, but misses.\r",	/* 0: 0     */
+      "\nfight:You try to #w $N, but miss.\r",
+      "\nfight:$n tries to #w you, but misses.\r"
     },
 
     {
-      "$n tickles $N as $e #W $M.",	/* 1: 1..2  */
-      "You tickle $N as you #w $M.",
-      "$n tickles you as $e #W you."
+      "\nfight:$n tackles $N as $e #W $M.\r",	/* 1: 1..2  */
+      "\nfight:You tackles $N as you #w $M.\r",
+      "\nfight:$n tackles you as $e #W you.\r"
     },
 
     {
-      "$n barely #W $N.",		/* 2: 3..4  */
-      "You barely #w $N.",
-      "$n barely #W you."
+      "\nfight:$n barely #W $N.\r",		/* 2: 3..4  */
+      "\nfight:You barely #w $N.\r",
+      "\nfight:$n barely #W you.\r"
     },
 
     {
-      "$n #W $N.",			/* 3: 5..6  */
-      "You #w $N.",
-      "$n #W you."
+      "\nfight:$n #W $N.\r",			/* 3: 5..6  */
+      "\nfight:You #w $N.\r",
+      "\nfight:$n #W you.\r"
     },
 
     {
-      "$n #W $N hard.",			/* 4: 7..10  */
-      "You #w $N hard.",
-      "$n #W you hard."
+      "\nfight:$n #W $N hard.\r",			/* 4: 7..10  */
+      "\nfight:You #w $N hard.\r",
+      "\nfight:$n #W you hard.\r"
     },
 
     {
-      "$n #W $N very hard.",		/* 5: 11..14  */
-      "You #w $N very hard.",
-      "$n #W you very hard."
+      "\nfight:$n #W $N very hard.\r",		/* 5: 11..14  */
+      "\nfight:You #w $N very hard.\r",
+      "\nfight:$n #W you very hard.\r"
     },
 
     {
-      "$n #W $N extremely hard.",	/* 6: 15..19  */
-      "You #w $N extremely hard.",
-      "$n #W you extremely hard."
+      "\nfight:$n #W $N extremely hard.\r",	/* 6: 15..19  */
+      "\nfight:You #w $N extremely hard.\r",
+      "\nfight:$n #W you extremely hard.\r"
     },
 
     {
-      "$n TACKLES $N with $s #w.",	/* 7: 19..23 */
-      "You TACKLE $N with your #w.",
-      "$n TACKLES you with $s #w."
+      "\nfight:$n TACKLES $N with $s #w.\r",	/* 7: 19..23 */
+      "\nfight:You TACKLE $N with your #w.\r",
+      "\nfight:$n TACKLES you with $s #w.\r"
     },
 
     {
-      "$n TACKLES $N with $s HARDCORE #w!!",	/* 8: > 23   */
-      "You TACKLE $N with your HARDCORE #w!!",
-      "$n TACKLES you with $s HARDCORE #w!!"
+      "\nfight:$n TACKLES $N with $s HARDCORE #w!!\r",	/* 8: > 23   */
+      "\nfight:You TACKLE $N with your HARDCORE #w!!\r",
+      "\nfight:$n TACKLES you with $s HARDCORE #w!!\r"
     }
   };
 
