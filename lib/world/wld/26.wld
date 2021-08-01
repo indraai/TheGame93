@@ -881,9 +881,6 @@ S
 T 3106
 #2651
 A Gray Tiled Hallway~
-   You are in a gray tiled hallway leading north and south.  Dim balls
-of energy float here and there shedding a warm light, and showing the
-way.  A feeling of peace and balance comes over you.
 ~
 26 72 0 0 0 0
 D0
@@ -897,10 +894,6 @@ D2
 S
 #2652
 A Gray Tiled Hallway~
-   You are in a gray tiled hallway leading north and south.  Dim balls
-of energy float here and there shedding a warm light, and showing the
-way.  A feeling of peace and balance comes over you.
-   Large, gray metal double doors can be seen to the south.
 ~
 26 72 0 0 0 0
 D0
@@ -914,11 +907,6 @@ door gray~
 S
 #2653
 The Antechamber~
-   You are in the antechamber of the Master Magician of the Gray Light.
-A feeling of strong magic floats in the air about you, almost as if you
-could taste the power held within these walls.
-   Once your eyes adjust to the semi-light, you can make out a larger
-room to the south.
 ~
 26 72 0 0 0 0
 D0
@@ -932,10 +920,6 @@ D2
 S
 #2654
 The Main Chamber~
-   A feeling of tranquility comes over you as you enter the main chamber
-of Neutrality.  Some artifacts are hung on the walls here, or set on stands.
-The room in general looks both comfortable and official.  Probably where the
-Master of Neutrality holds audience.
 ~
 26 72 0 0 0 0
 D0
@@ -957,11 +941,6 @@ D3
 S
 #2655
 The Study~
-   You are in a large study.  Shelves filled with many books or arcane
-knowledge are on every wall.  A large oaken desk is in the center, with
-many parchments and scrolls on it.  The most notable thing in the room is
-a small set of scales, which floats about eye level.  In perfect balance,
-the scales are no doubt a sign of the Master's neutrality.
 ~
 26 72 0 0 0 0
 D1
@@ -971,8 +950,6 @@ D1
 S
 #2656
 A Closet~
-   You are in a small closet.  It is filled with many cloaks, and some
-other apparel.
 ~
 26 73 0 0 0 0
 D3
@@ -982,9 +959,6 @@ D3
 S
 #2657
 A Bedroom~
-   You are in the bedroom of the Master Magician of Neutrality.
-Curtained windows can be seen on the south wall.  A large
-comfortable looking bed takes up most of the room.
 ~
 26 72 0 0 0 0
 D0
@@ -994,9 +968,6 @@ D0
 S
 #2658
 A Dark Hallway~
-   You are in a long dark hallway leading east and west.  Not much can
-be seen in the unnatural darkness here, but you get a deep sense of dread
-the further you go.
 ~
 26 73 0 0 0 0
 D1
@@ -1010,9 +981,6 @@ D3
 S
 #2659
 A Dark Hallway~
-   You are in a long dark hallway leading east and west.  Not much can
-be seen in the unnatural darkness here, but you get a deep sense of dread
-the further you go.
 ~
 26 73 0 0 0 0
 D1
@@ -1026,10 +994,6 @@ D3
 S
 #2660
 The End Of The Hallway~
-   You are at the end of a long dark hallway.  The darkness here is almost
-tangible in its thickness.  A deep sense of fear and loathing comes over
-you.
-   A pair of obsidian doors can be seen to the east.
 ~
 26 73 0 0 0 0
 D1
@@ -1043,10 +1007,6 @@ D3
 S
 #2661
 The Chamber Of Darkness~
-   You are in a vast chamber.  The walls fade into darkness, leaving you
-with a very vague idea of the actual size of the room.  Swirling here and
-there in the dark, are patches of pure black which seem to suck in your
-light and leave it that much darker here.
 ~
 26 73 0 0 0 0
 D0
@@ -1068,7 +1028,6 @@ door obsidian~
 S
 #2662
 It Is Very Dark Here...~
-   It is very dark here...
 ~
 26 73 0 0 0 0
 D2
@@ -1078,10 +1037,6 @@ D2
 S
 #2663
 A Torture Chamber~
-   You are in an ill lit chamber.  Instruments of torture hang from a rack
-on the wall, they seem to quiver with anticipation of a victim as if they
-had a mind of their own.  An operating table is here, though it is bare.
-   An extreme feeling of evil permeates the entire area.
 ~
 26 73 0 0 0 0
 D0
@@ -1091,10 +1046,6 @@ D0
 S
 #2664
 The Inner Chamber~
-   You are in a small dark chamber.  Upon the walls are glowing sigils of
-dark power, scrawled and traced in an evil language no longer known to most
-of this plane of existence.  There is an obsidian altar here which seems to
-glow, but does not shed any light, in fact it seems to be taking light in.
 ~
 26 73 0 0 0 0
 D3
@@ -1104,10 +1055,6 @@ D3
 S
 #2665
 A Bright Hallway~
-   You are in a long well lit hallway leading east and west.  The walls
-here are a milky white color, and glow with a warm luminescence, as does
-the floor.  A feeling of goodness permeates the area, and you feel unworthy
-to tread upon these sacred floors.
 ~
 26 72 0 0 0 0
 D1
@@ -1121,12 +1068,6 @@ D3
 S
 #2666
 A Bright Hallway~
-   You are in a long well lit hallway leading east and west.  The walls
-here are a milky white color, and glow with a warm luminescence, as does
-the floor.  A feeling of goodness permeates the area, and you feel unworthy
-to tread upon these sacred floors.
-   A huge set of double doors in finely worked ivory can be seen to the
-west.
 ~
 26 72 0 0 0 0
 D1
@@ -1140,10 +1081,6 @@ door ivory~
 S
 #2667
 An Antechamber~
-   You are in a small antechamber.  It is well lit here, though the source
-of light cannot be seen.  It is almost as if the room itself exudes a warm
-glow of goodness.  A larger chamber can be seen to the west, but you do not
-feel worthy to pass into it.
 ~
 26 72 0 0 0 0
 D1
@@ -1179,10 +1116,6 @@ S
 T 3106
 #2670
 The Meditation Chamber~
-   You are in a small meditation chamber.  White silk cushions are
-everywhere, looking very comfortable.  You get an easy peaceful
-feeling of relaxation here, almost making you want to lie down and
-fall asleep.
 ~
 26 72 0 0 0 0
 D2
@@ -1192,9 +1125,6 @@ D2
 S
 #2671
 A Study~
-   You are in a spacious study.  It is extremely tidy here, to an almost
-antiseptic nature.  One would wonder how anyone could study without a
-mess all around them, the master of this chamber obviously can.
 ~
 26 72 0 0 0 0
 D0
@@ -1204,9 +1134,6 @@ D0
 S
 #2672
 A Closet~
-   You are in a small closet.  Cloaks and vests hang from hooks in
-the wall, and a few old boots are all that can be seen here.  Rather
-featureless all in all.
 ~
 26 73 0 0 0 0
 D1
@@ -1216,10 +1143,6 @@ D1
 S
 #2673
 A Wide Hallway~
-   You are in a large hallway, wide enough to accommodate several people
-standing abreast.  The floor here is a swirl of multicolored patterns, in
-constant motion.
-   A huge, gray metal door blocks the way north, it looks quite sturdy.
 ~
 26 72 0 0 0 0
 D0
@@ -1233,10 +1156,6 @@ D2
 S
 #2674
 A Wide Hallway~
-   You are in a large hallway, wide enough to accommodate several people
-standing abreast.  The floor here is a swirl of multicolored patterns, in
-constant motion.
-   A huge, black obsidian door blocks the way north, it looks quite sturdy.
 ~
 26 72 0 0 0 0
 D0
@@ -1250,10 +1169,6 @@ door metal gray~
 S
 #2675
 A Wide Hallway~
-   You are in a large hallway, wide enough to accommodate several people
-standing abreast.  The floor here is a swirl of multicolored patterns, in
-constant motion.
-   A huge, white ivory door blocks the way north, it looks quite sturdy.
 ~
 26 72 0 0 0 0
 D0
@@ -1325,10 +1240,6 @@ D3
 S
 #2679
 The Library~
-   You are in a small cosy looking library.  A few well made books sit atop
-shelves which span every wall.  A large oaken writing table is in the center
-of the room with odd papers and parchments on it.  The illumination here,
-to your surprise is a quite un-magical oil lamp.
 ~
 26 72 0 0 0 0
 D1
