@@ -855,13 +855,6 @@ D5
 S
 #2650
 An Intersection~
-   You are at an intersection of several hallways.  You feel as if strange
-mystical forces are pushing and pulling at each other from all around you.
-The sensation of being trapped, in the middle is almost tangible in the air
-here.
-   A gray tiled hallway leads south, black tiled east, white tiled west,
-and a multi-colored hallway swirling with patterns that remain just barely
-unrecognizable is to the north.
 ~
 26 24 0 0 0 0
 D0
@@ -1164,11 +1157,6 @@ D3
 S
 #2669
 The Chamber Of The White Light~
-   You are in a vast chamber, its walls floor and ceiling are of an
-unknown metallic material, the brightest white, almost blindingly stark.
-A flickering flame is in the center of the room, seeming to feed off of
-darkness and cleansing the room of any evil.  You feel a slight tug at
-your being as the flame flickers towards you.
 ~
 26 72 0 0 0 0
 D0
@@ -1278,10 +1266,6 @@ door obsidian black~
 S
 #2676
 The Entranceway~
-   You are at the entrance to the audience chamber of the Grand Master of
-Magic.  Beautiful tapestries displaying the ancient masters of lore are on
-the walls, and the floor is covered with a plush multicolored carpet, which
-seems to rustle and move at the touch of your boots.
 ~
 26 72 0 0 0 0
 D0
