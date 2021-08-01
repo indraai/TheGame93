@@ -168,7 +168,7 @@ static void show_obj_modifiers(struct obj_data *obj, struct char_data *ch)
   if (OBJ_FLAGGED(obj, ITEM_HUM))
     send_to_char(ch, " (humming)");
 
-  send_to_char(ch, "\r")
+  send_to_char(ch, "\r");
 }
 
 static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mode, int show)
