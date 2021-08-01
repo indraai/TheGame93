@@ -677,7 +677,7 @@ D3
 S
 #2639
 In The Library~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -698,7 +698,7 @@ D3
 S
 #2640
 In The Library~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -719,7 +719,7 @@ D3
 S
 #2641
 In The Library~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -740,7 +740,7 @@ D3
 S
 #2642
 In The Library~
-~
+Empty room.~
 26 72 0 0 0 0
 D0
 ~
@@ -789,7 +789,7 @@ S
 T 3106
 #2645
 The Reading Room~
-~
+Empty room.~
 26 24 0 0 0 0
 D2
 ~
@@ -815,7 +815,7 @@ D2
 S
 #2647
 The End Of The Corridor~
-~
+Empty room.~
 26 72 0 0 0 0
 D0
 ~
@@ -828,7 +828,7 @@ D2
 S
 #2648
 The Arched Entrance~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -842,7 +842,7 @@ S
 T 3106
 #2649
 The Landing~
-~
+Empty room.~
 26 24 0 0 0 0
 D4
 ~
@@ -1158,7 +1158,7 @@ S
 #2669
 The Chamber Of The White Light~
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1176,6 +1176,7 @@ D3
 ~
 0 -1 2672
 S
+T 3106
 #2670
 The Meditation Chamber~
    You are in a small meditation chamber.  White silk cushions are
@@ -1286,7 +1287,7 @@ the air and fade again at random times.  All this splendor plays about and
 draws attention to a large throne in the center of the room, it seems to be
 cut from a single enormous emerald.
 ~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -1308,6 +1309,7 @@ throne~
    The giant emerald is flawless, and must be incredibly valuable.
 ~
 S
+T 3106
 #2678
 A Dressing Room~
    You are in a plush dressing room.  Fine garments of many styles and some
