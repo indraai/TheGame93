@@ -798,8 +798,8 @@ D2
 S
 #2646
 A Corridor~
-~
-26 72 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D0
 ~
 ~
@@ -877,7 +877,7 @@ S
 T 3106
 #2651
 A Gray Tiled Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D0
 ~
@@ -890,7 +890,7 @@ D2
 S
 #2652
 A Gray Tiled Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D0
 ~
@@ -903,7 +903,7 @@ door gray~
 S
 #2653
 The Antechamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -916,7 +916,7 @@ D2
 S
 #2654
 The Main Chamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -938,7 +938,7 @@ S
 T 3106
 #2655
 The Study~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 ~
@@ -947,7 +947,7 @@ D1
 S
 #2656
 A Closet~
-~
+Empty room.~
 26 8 0 0 0 0
 D3
 ~
@@ -956,7 +956,7 @@ D3
 S
 #2657
 A Bedroom~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -965,7 +965,7 @@ D0
 S
 #2658
 A Dark Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -978,7 +978,7 @@ D3
 S
 #2659
 A Dark Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -991,7 +991,7 @@ D3
 S
 #2660
 The End Of The Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -1004,7 +1004,7 @@ D3
 S
 #2661
 The Chamber Of Darkness~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1026,7 +1026,7 @@ S
 T 3106
 #2662
 It Is Very Dark Here...~
-~
+Empty room.~
 26 73 0 0 0 0
 D2
 ~
@@ -1035,7 +1035,7 @@ D2
 S
 #2663
 A Torture Chamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1044,7 +1044,7 @@ D0
 S
 #2664
 The Inner Chamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D3
 ~
@@ -1053,7 +1053,7 @@ D3
 S
 #2665
 A Bright Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -1066,7 +1066,7 @@ D3
 S
 #2666
 A Bright Hallway~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -1079,7 +1079,7 @@ door ivory~
 S
 #2667
 An Antechamber~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -1114,7 +1114,7 @@ S
 T 3106
 #2670
 The Meditation Chamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D2
 ~
@@ -1123,7 +1123,7 @@ D2
 S
 #2671
 A Study~
-~
+Empty room.~
 26 72 0 0 0 0
 D0
 ~
@@ -1132,7 +1132,7 @@ D0
 S
 #2672
 A Closet~
-~
+Empty room.~
 26 73 0 0 0 0
 D1
 ~
@@ -1141,7 +1141,7 @@ D1
 S
 #2673
 A Wide Hallway~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1154,7 +1154,7 @@ D2
 S
 #2674
 A Wide Hallway~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1167,7 +1167,7 @@ door metal gray~
 S
 #2675
 A Wide Hallway~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1238,7 +1238,7 @@ D3
 S
 #2679
 The Library~
-~
+Empty room.~
 26 72 0 0 0 0
 D1
 ~
