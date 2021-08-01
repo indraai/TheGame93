@@ -633,10 +633,6 @@ door wooden~
 S
 #2637
 The Entrance To The Library~
-   You are in the entrance to the great library of magic.  A giant desk is
-here, covered with books parchments and scrolls.  Long shelves loaded with
-row upon row of books stretch out in every direction as far as the eye can
-see.
 ~
 26 24 0 0 0 0
 D0
@@ -662,11 +658,6 @@ S
 T 3106
 #2638
 In The Library~
-   You are in the great library of magic.  A strong musty smell permeates
-the entire area.  Upon shelves which float just out of reach are hundreds
-of books, tomes and scrolls of every possible shape size and color.  The
-elusive books seem to wink in and out of existence before your untrained
-eyes.  It is very quiet here.
 ~
 26 24 0 0 0 0
 D0
@@ -812,11 +803,6 @@ All you can see are books.
 S
 #2643
 In The Library~
-   You are in the great library of magic.  A strong musty smell permeates
-the entire area.  Upon shelves which float just out of reach are hundreds
-of books, tomes and scrolls of every possible shape size and color.  The
-elusive books seem to wink in and out of existence before your untrained
-eyes.  It is very quiet here.
 ~
 26 24 0 0 0 0
 D1
@@ -832,10 +818,6 @@ You see a small gap between some shelves.
 S
 #2644
 Between The Shelves~
-   You are in the great library of magic.  The shelves seem uncomfortably
-close here, you can barely maneuver between them.  The musty smell is still
-strong, and the elusive books still hover just out of reach.
-   A faint flicker of light can barely be made out to the north.
 ~
 26 72 0 0 0 0
 D0
