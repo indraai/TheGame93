@@ -174,10 +174,10 @@ static void make_corpse(struct char_data *ch)
   IN_ROOM(corpse) = NOWHERE;
   corpse->name = strdup("corpse");
 
-  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "\nfight:%s is preparing to re-spawn.\r", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "\nfight:%s is preparing to re-spawn.\r", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
@@ -247,7 +247,7 @@ void death_cry(struct char_data *ch)
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))
-      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nIs there a tackle battle?\r");
+      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nfight:Is there a tackle battle?\r");
 }
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
@@ -598,13 +598,13 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* peaceful rooms */
   if (ch->nr != real_mobile(DG_CASTER_PROXY) &&
       ch != victim && ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
-    send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
+    send_to_char(ch, "\nfight:You are in a peaceful room.\r");
     return (0);
   }
 
   /* shopkeeper and MOB_NOKILL protection */
   if (!ok_damage_shopkeeper(ch, victim) || MOB_FLAGGED(victim, MOB_NOKILL)) {
-    send_to_char(ch, "This mob is protected.\r\n");
+    send_to_char(ch, "\nfight:This mob is protected.\r");
     return (0);
   }
 
@@ -677,35 +677,35 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* Use send_to_char -- act() doesn't send message if you are DEAD. */
   switch (GET_POS(victim)) {
   case POS_MORTALLYW:
-    act("$n is tackled, and will re-spawn.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are tackled, and will re-spawn.\r\n");
+    act("$n has been wounded.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight:You have been wounded.\r");
     break;
   case POS_INCAP:
-    act("$n is tackled and will re-spawn.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You are tackled and will re-spawn.\r\n");
+    act("$n is incopacitated.", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight:You are incopacitated.\r\n");
     break;
   case POS_STUNNED:
-    act("$n is down for the count.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You're down for the count.\r\n");
+    act("$n is STUNNED", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight:You are stunned.\r");
     break;
   case POS_DEAD:
-    act("$n is tackled and crying to their MOMMY!", FALSE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "You have been tackled!  Sorry...\r\n");
+    act("$n has been tackled.", FALSE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight:You are tackled.\r");
     break;
 
   default:			/* >= POSITION SLEEPING */
     if (dam > (GET_MAX_HIT(victim) / 4))
-      send_to_char(victim, "That really did HURT!\r\n");
+      send_to_char(victim, "\nfight:That really hurt!\r");
 
     if (GET_HIT(victim) < (GET_MAX_HIT(victim) / 4)) {
-      send_to_char(victim, "%sYou wish that your head would stop SPINNING so much!%s\r\n",
-		CCRED(victim, C_SPR), CCNRM(victim, C_SPR));
-      if (ch != victim && MOB_FLAGGED(victim, MOB_WIMPY))
-	do_flee(victim, NULL, 0, 0);
+      send_to_char(victim, "\nfight:You wish that your head is spinning!\r");
+      if (ch != victim && MOB_FLAGGED(victim, MOB_WIMPY)) {
+        do_flee(victim, NULL, 0, 0);
+      }
     }
     if (!IS_NPC(victim) && GET_WIMP_LEV(victim) && (victim != ch) &&
 	GET_HIT(victim) < GET_WIMP_LEV(victim) && GET_HIT(victim) > 0) {
-      send_to_char(victim, "You wimp out, and attempt to flee!\r\n");
+      send_to_char(victim, "\nfight:You attempt to retreat.\r");
       do_flee(victim, NULL, 0, 0);
     }
     break;
@@ -920,7 +920,7 @@ void perform_violence(void)
     }
 
     if (GET_POS(ch) < POS_FIGHTING) {
-      send_to_char(ch, "You can't battle while sitting!!\r\n");
+      send_to_char(ch, "\nfight:You can't fight while sitting!!\r");
       continue;
     }
 
