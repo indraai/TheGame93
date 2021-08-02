@@ -509,10 +509,6 @@ D5
 S
 #2630
 A Corridor~
-   You are in a long corridor.  Obsidian walls engraved with ancient runes
-of power stretch out before you.  Magical energies seem to crackle with
-power all around and whisper in tongues long forgotten, almost as if the
-corridor itself were alive.
 ~
 26 72 0 0 0 0
 D1
@@ -526,10 +522,6 @@ D3
 S
 #2631
 A Bend In The Corridor~
-   You are at a bend in the long corridor.  Obsidian walls engraved with
-ancient runes of power stretch out before you.  Magical energies seem to
-crackle with power all around and whisper in tongues long forgotten, almost
-as if the corridor itself were alive.
 ~
 26 72 0 0 0 0
 D1
@@ -543,10 +535,6 @@ D2
 S
 #2632
 A Corridor~
-   You are in a long corridor leading north and south.  Obsidian walls
-engraved with ancient runes of power stretch out before you.  Magical
-energies seem to crackle with power all around and whisper in tongues
-long forgotten, almost as if the corridor itself were alive.
 ~
 26 72 0 0 0 0
 D0
@@ -560,9 +548,6 @@ D2
 S
 #2633
 An Intersection~
-   You are at an intersection in the corridor.  The obsidian walled halls
-lead off in every direction from here, pulsing with the power of their
-ancient runes.
 ~
 26 24 0 0 0 0
 D0
@@ -585,10 +570,6 @@ S
 T 3106
 #2634
 A Corridor~
-   You are at the end of a long corridor.  Obsidian walls engraved with
-ancient runes of power stretch out before you.  A darkened door is to the
-east.  Tendrils of mist cling to the floor here, they seem to be seeping
-from under the door.
 ~
 26 72 0 0 0 0
 D1
@@ -602,13 +583,6 @@ D3
 S
 #2635
 The Scrying Chamber~
-   You are in the scrying chamber of the high tower of sorcerery.  It is
-here that arcane rituals are performed to enable those of the art to look
-in upon denizens throughout the world and spy out their darkest secrets.
-A huge black cauldron is in the center of the room, bubbling and gurgling,
-it pours forth a constant stream of smokey fog into the air about you.  Here
-and there on stands of different sizes are crystal balls and oddly shaped
-mirrors.
 ~
 26 73 0 0 0 0
 D3
