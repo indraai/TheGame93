@@ -42,6 +42,7 @@ static void look_in_direction(struct char_data *ch, int dir);
 static void look_in_obj(struct char_data *ch, char *arg);
 /* do_look, do_inventory utility functions */
 static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mode, int show);
+static void list_inv_to_char(struct obj_data *list, struct char_data *ch);
 /* do_look, do_equipment, do_examine, do_inventory */
 static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode);
 static void show_obj_modifiers(struct obj_data *obj, struct char_data *ch);
@@ -216,6 +217,46 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
   }
   if (!found && show)
     send_to_char(ch, "\ninform:Nothing.\r");
+}
+static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
+{
+  struct obj_data *i, *j, *display;
+  bool found;
+  int num;
+
+  found = FALSE;
+
+  /* Loop through the list of objects */
+  for (i = list; i; i = i->next_content) {
+    num = 0;
+
+    /* Check the list to see if we've already counted this object */
+    for (j = list; j != i; j = j->next_content)
+      if ((j->short_description == i->short_description && j->name == i->name) ||
+          (!strcmp(j->short_description, i->short_description) && !strcmp(j->name, i->name)))
+        break; /* found a matching object */
+    if (j != i)
+      continue; /* we counted object i earlier in the list */
+
+    /* Count matching objects, including this one */
+    for (display = j = i; j; j = j->next_content)
+      /* This if-clause should be exactly the same as the one in the loop above */
+      if ((j->short_description == i->short_description && j->name == i->name) ||
+          (!strcmp(j->short_description, i->short_description) && !strcmp(j->name, i->name)))
+        if (CAN_SEE_OBJ(ch, j)) {
+          ++num;
+          /* If the original item can't be seen, switch it for this one */
+          if (display == i && !CAN_SEE_OBJ(ch, display))
+            display = j;
+        }
+
+    if (num > 0) {
+      send_to_char(ch, "\ninventory: %s", display->short_description);
+      found = TRUE;
+    }
+  }
+  if (!found)
+    send_to_char(ch, "\ninventory:Nothing.\r");
 }
 
 static void diag_char_to_char(struct char_data *i, struct char_data *ch)
@@ -981,7 +1022,7 @@ ACMD(do_score)
 
 ACMD(do_inventory)
 {
-  list_obj_to_char(ch->carrying, ch, SHOW_OBJ_SHORT, TRUE);
+  list_inv_to_char(ch->carrying, ch, SHOW_OBJ_SHORT);
 }
 
 ACMD(do_equipment)
