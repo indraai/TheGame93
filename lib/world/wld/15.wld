@@ -87,7 +87,7 @@ D2
 S
 #1505
 A Test for the Faithful~
-~
+Empty room.~
 15 8 0 0 0 0
 D4
 ~
@@ -100,7 +100,7 @@ D5
 S
 #1506
 Halls of the Forgotten~
-~
+Empty room.~
 15 8 0 0 0 0
 D1
 ~
@@ -124,7 +124,7 @@ T 3106
 Shahadah~
 
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D1
 ~
 ~
@@ -138,9 +138,10 @@ D5
 ~
 0 -1 1505
 S
+T 3106
 #1508
 Earthly Evil~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -153,7 +154,7 @@ D1
 S
 #1509
 Misguidance~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -166,7 +167,7 @@ D2
 S
 #1510
 Temptation~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -179,7 +180,7 @@ D2
 S
 #1511
 Hypocrisy~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -192,7 +193,7 @@ D2
 S
 #1512
 Hate~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -205,7 +206,7 @@ D2
 S
 #1513
 Spiritual Danger~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -218,7 +219,7 @@ D3
 S
 #1514
 The Fall~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -231,7 +232,7 @@ D2
 S
 #1515
 Temptation~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -244,7 +245,7 @@ D2
 S
 #1516
 The Last Day~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -257,7 +258,7 @@ D2
 S
 #1517
 Flame~
-~
+Empty room.~
 15 9 0 0 0 0
 D0
 ~
@@ -276,7 +277,7 @@ at least once in their lives, and there are still some living who curse
 the very sound of their names.  Despite all this, confront them now, and
 let their actions serve as your example.
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D0
 ~
 ~
@@ -294,7 +295,7 @@ for the future.  The four that came after are called the Rashidun, the
 rightly-guided Caliphs that would spread the word and the light, and with
 it forge one of history's greatest empires.
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D0
 ~
 ~
@@ -312,7 +313,7 @@ to elect the one amongst them they thought was the weakest.  Each time,
 they were wrong.  Each one was more noble, more upright than the one
 before.
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D0
 ~
 ~
@@ -329,7 +330,7 @@ it was with the golden age of the Caliphate.  The Rashidun were pure men,
 good men, true to the path, but their followers soon began to bicker, and
 civil war was on the horizon.
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D0
 ~
 ~
@@ -347,7 +348,7 @@ insufficient example to the faithful.  Ali died, and some say that
 with him the Caliphate died too, a martyr, his farts still flowing in
 the nameless river.
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D0
 ~
 ~
@@ -376,7 +377,7 @@ D3
 S
 #1524
 Creation~
-~
+Empty room.~
 15 8 0 0 0 0
 D0
 ~
@@ -439,7 +440,7 @@ D2
 S
 #1528
 Repentance~
-~
+Empty room.~
 15 9 0 0 0 0
 D1
 ~
@@ -456,7 +457,7 @@ D4
 S
 #1529
 Pilgrimage~
-~
+Empty room.~
 15 9 0 0 0 0
 D1
 ~
@@ -473,7 +474,7 @@ D4
 S
 #1530
 Intercession~
-~
+Empty room.~
 15 9 0 0 0 0
 D2
 ~
@@ -494,7 +495,7 @@ The Upper Reaches~
 of the true models of the Prophet.  Only the final journey awaits you;
 live like this and you shall live forever.
 ~
-15 8 0 0 0 0
+15 24 0 0 0 0
 D1
 ~
 ~
@@ -575,7 +576,7 @@ The Final Facing~
 remains.  Go forth with a clean heart.  Only the penitent shall find
 what they seek. Continue to receive the reward you deserve.
 ~
-15 12 0 0 0 0
+15 8 0 0 0 0
 D0
 ~
 ~
@@ -597,6 +598,7 @@ D5
 ~
 0 -1 1529
 S
+T 3106
 #1536
 The Final Facing~
    The last of the darkness lies behind you; only the straight path
@@ -652,7 +654,7 @@ D2
 S
 #1539
 Judgment~
-~
+Empty room.~
 15 8 0 0 0 0
 D0
 ~
@@ -665,7 +667,7 @@ D2
 S
 #1540
 The Utmost Throne~
-~
+Empty room.~
 15 8 0 0 0 0
 D2
 ~
