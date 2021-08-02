@@ -1150,62 +1150,62 @@ static char *make_prompt(struct descriptor_data *d)
     if (PRF_FLAGGED(d->character, PRF_DISPAUTO) && len < sizeof(prompt)) {
       struct char_data *ch = d->character;
       if (GET_HIT(ch) << 2 < GET_MAX_HIT(ch) ) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d ", GET_HIT(ch), GET_MAX_HIT(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MANA(ch) << 2 < GET_MAX_MANA(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d ", GET_MANA(ch), GET_MAX_MANA(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MOVE(ch) << 2 < GET_MAX_MOVE(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d ", GET_MOVE(ch), GET_MAX_MOVE(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
         if (count >= 0)
           len += count;
       }
     } else { /* not auto prompt */
       if (PRF_FLAGGED(d->character, PRF_DISPHP) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d ", GET_HIT(d->character), GET_MAX_HIT(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(d->character), GET_MAX_HIT(d->character));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d ", GET_MANA(d->character), GET_MAX_MANA(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r", GET_MANA(d->character), GET_MAX_MANA(d->character));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMOVE) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d ", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d\r", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
         if (count >= 0)
           len += count;
       }
     }
 
     if (PRF_FLAGGED(d->character, PRF_BUILDWALK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "BUILDWALKING ");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\n:comm:BUILDWALKING\r");
       if (count >= 0)
         len += count;
     }
 
     if (PRF_FLAGGED(d->character, PRF_AFK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "AFK ");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:AFK\r");
       if (count >= 0)
         len += count;
     }
 
      if (GET_LAST_NEWS(d->character) < newsmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "(news) ");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:NEWS");
        if (count >= 0)
          len += count;
      }
 
      if (GET_LAST_MOTD(d->character) < motdmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "(motd) ");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:MOTD\r");
        if (count >= 0)
          len += count;
      }
@@ -1213,7 +1213,7 @@ static char *make_prompt(struct descriptor_data *d)
     if (len < sizeof(prompt))
       strncat(prompt, "> ", sizeof(prompt) - len - 1);	/* strncat: OK */
   } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character))
-    snprintf(prompt, sizeof(prompt), "%s> ", GET_NAME(d->character));
+    snprintf(prompt, sizeof(prompt), "%s > ", GET_NAME(d->character));
   else
     *prompt = '\0';
 
