@@ -514,7 +514,7 @@ of power stretch out before you.  Magical energies seem to crackle with
 power all around and whisper in tongues long forgotten, almost as if the
 corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -531,7 +531,7 @@ ancient runes of power stretch out before you.  Magical energies seem to
 crackle with power all around and whisper in tongues long forgotten, almost
 as if the corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 ~
@@ -548,7 +548,7 @@ engraved with ancient runes of power stretch out before you.  Magical
 energies seem to crackle with power all around and whisper in tongues
 long forgotten, almost as if the corridor itself were alive.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -584,13 +584,13 @@ D3
 S
 T 3106
 #2634
-A Corridor~
+The Scrying Foyer~
    You are at the end of a long corridor.  Obsidian walls engraved with
 ancient runes of power stretch out before you.  A darkened door is to the
 east.  Tendrils of mist cling to the floor here, they seem to be seeping
 from under the door.
 ~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D1
 ~
 door black~
@@ -610,7 +610,7 @@ it pours forth a constant stream of smokey fog into the air about you.  Here
 and there on stands of different sizes are crystal balls and oddly shaped
 mirrors.
 ~
-26 73 0 0 0 0
+26 24 0 0 0 0
 D3
 ~
 door black~
@@ -799,7 +799,7 @@ S
 #2646
 A Corridor~
 undefined~
-26 24 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -812,7 +812,7 @@ S
 #2647
 The End Of The Corridor~
 Empty room.~
-26 72 0 0 0 0
+26 280 0 0 0 0
 D0
 ~
 ~
@@ -850,7 +850,7 @@ D5
 0 -1 2648
 S
 #2650
-An Intersection~
+The Intersection~
 Empty room.~
 26 24 0 0 0 0
 D0
@@ -876,8 +876,8 @@ D5
 S
 T 3106
 #2651
-A Gray Tiled Hallway~
-Empty room.~
+The Gray Hallway~
+undefined~
 26 280 0 0 0 0
 D0
 ~
@@ -1025,17 +1025,17 @@ door obsidian~
 S
 T 3106
 #2662
-It Is Very Dark Here...~
-Empty room.~
-26 73 0 0 0 0
+The Dark Chamber~
+undefined~
+26 24 0 0 0 0
 D2
 ~
 ~
 0 -1 2661
 S
 #2663
-A Torture Chamber~
-Empty room.~
+The Torture Chamber~
+undefined~
 26 24 0 0 0 0
 D0
 ~
@@ -1079,8 +1079,8 @@ door ivory~
 S
 #2667
 An Antechamber~
-Empty room.~
-26 280 0 0 0 0
+undefined~
+26 24 0 0 0 0
 D1
 ~
 door ivory~
@@ -1114,26 +1114,30 @@ S
 T 3106
 #2670
 The Meditation Chamber~
-Empty room.~
+undefined~
 26 24 0 0 0 0
+D0
+~
+~
+0 0 -1
 D2
 ~
 ~
 0 -1 2669
 S
 #2671
-A Study~
-Empty room.~
-26 72 0 0 0 0
+The Study~
+undefined~
+26 24 0 0 0 0
 D0
 ~
 ~
 0 -1 2669
 S
 #2672
-A Closet~
-Empty room.~
-26 73 0 0 0 0
+The Closet~
+undefined~
+26 24 0 0 0 0
 D1
 ~
 ~
