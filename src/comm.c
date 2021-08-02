@@ -1211,9 +1211,9 @@ static char *make_prompt(struct descriptor_data *d)
      }
 
     if (len < sizeof(prompt))
-      strncat(prompt, "> ", sizeof(prompt) - len - 1);	/* strncat: OK */
+      strncat(prompt, "", sizeof(prompt) - len - 1);	/* strncat: OK */
   } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character))
-    snprintf(prompt, sizeof(prompt), "%s > ", GET_NAME(d->character));
+    snprintf(prompt, sizeof(prompt), "%s", GET_NAME(d->character));
   else
     *prompt = '\0';
 
