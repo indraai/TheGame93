@@ -509,7 +509,7 @@ D5
 S
 #2630
 A Corridor~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -522,7 +522,7 @@ D3
 S
 #2631
 A Bend In The Corridor~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -535,7 +535,7 @@ D2
 S
 #2632
 A Corridor~
-~
+Empty room.~
 26 280 0 0 0 0
 D0
 ~
@@ -547,8 +547,8 @@ D2
 0 -1 2633
 S
 #2633
-An Intersection~
-~
+The Intersection~
+undefined~
 26 24 0 0 0 0
 D0
 ~
@@ -570,7 +570,7 @@ S
 T 3106
 #2634
 The Scrying Foyer~
-~
+Empty room.~
 26 280 0 0 0 0
 D1
 ~
@@ -583,7 +583,7 @@ D3
 S
 #2635
 The Scrying Chamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D3
 ~
@@ -771,7 +771,7 @@ D2
 0 -1 2644
 S
 #2646
-A Corridor~
+The Corridor~
 undefined~
 26 280 0 0 0 0
 D0
@@ -784,7 +784,7 @@ D2
 0 -1 2647
 S
 #2647
-The End Of The Corridor~
+The Corridor~
 Empty room.~
 26 280 0 0 0 0
 D0
@@ -1024,6 +1024,10 @@ D3
 ~
 ~
 0 -1 2661
+D4
+~
+~
+0 0 1506
 S
 #2665
 A Bright Hallway~
@@ -1052,7 +1056,7 @@ door ivory~
 1 -1 2667
 S
 #2667
-An Antechamber~
+The Antechamber~
 undefined~
 26 24 0 0 0 0
 D1
@@ -1098,7 +1102,12 @@ D2
 ~
 ~
 0 -1 2669
+D4
+~
+~
+0 0 25777
 S
+T 3106
 #2671
 The Study~
 undefined~
@@ -1118,7 +1127,7 @@ D1
 0 -1 2669
 S
 #2673
-A Wide Hallway~
+The Wide Hallway~
 Empty room.~
 26 24 0 0 0 0
 D0
@@ -1131,7 +1140,7 @@ D2
 0 -1 2650
 S
 #2674
-A Wide Hallway~
+The Wide Hallway~
 Empty room.~
 26 24 0 0 0 0
 D0
@@ -1144,7 +1153,7 @@ door metal gray~
 2 2593 2673
 S
 #2675
-A Wide Hallway~
+The Wide Hallway~
 Empty room.~
 26 24 0 0 0 0
 D0
@@ -1157,7 +1166,7 @@ door obsidian black~
 2 2594 2674
 S
 #2676
-The Entranceway~
+The Grand Entrance~
 undefined~
 26 24 0 0 0 0
 D0
@@ -1169,6 +1178,7 @@ D2
 door white ivory~
 2 2595 2675
 S
+T 3106
 #2677
 The Audience Chamber~
    You are in a large chamber.  Small bolts of energy leap from wall to
@@ -1202,7 +1212,7 @@ throne~
 S
 T 3106
 #2678
-A Dressing Room~
+The Dressing Room~
    You are in a plush dressing room.  Fine garments of many styles and some
 outlandish colors hang from a rack suspended in mid air at eye level.  The
 only other interesting feature in the room is a large silver mirror on a
@@ -1217,7 +1227,7 @@ S
 #2679
 The Library~
 Empty room.~
-26 72 0 0 0 0
+26 24 0 0 0 0
 D1
 ~
 ~
