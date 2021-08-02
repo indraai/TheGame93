@@ -142,12 +142,6 @@ Floris Ave runs west.
 S
 #25704
 Giving Bank~
-   This small but servicable room houses the Giving Bank, a non-profit Jareth
-community service set up so that wayward adevnturers who get a bit too over-
-zealous in their wanderings can be treated properly in Jareth's hospital.
-Because it is a non-profit service, the room is not designed for comfort but to
-accomplish it's purpose.  A slightly reclined chair sits in the center of the
-room.
 ~
 257 8 0 0 0 0
 D1
@@ -547,12 +541,6 @@ afghan secret door~
 S
 #25721
 Blacksmith~
-   More of a barn than a shop, this open air dirt floored building offers all
-manner of steel work.  Josef, the proprieter of this business, is reputed to do
-some of the best shoe work on horses and enjoys a good living from his
-reputation which has spread far beyond the boundaries of Jareth.  He seems not
-to notice as you walk in, so intent on his work he seems, and almost startles
-you when he asks if he can help you, without looking up.
 ~
 257 8 0 0 0 0
 D1
@@ -563,12 +551,6 @@ You may enter onto Worship Way.
 S
 #25722
 The Pet Shop~
-   Barking dogs, whining cats, howling wolves, and a smell more powerful than
-your feet after a day of intense hiking through wet swamp mud nearly make you
-turn tail and run from this shop.  You try and hold your breath, but that
-requires you to first take a deep breath, so that doesn't work.  Instead, you
-decide to give in and inhale all the sights and sounds and soon you get so used
-the intense stench that you don't even notice it anymore.
 ~
 257 8 0 0 0 0
 D3
@@ -664,13 +646,6 @@ The alley continues east.
 S
 #25727
 The Hire Room~
-   The only fixture in this small 4 x 4 cubicle is a small wooden drop box
-attached to the wall.  A pad of paper sits on the drop box and a pencil is
-attached to a cord which hangs from the drop box.  Obviously if you wish to
-target someone for assassination, you must write it on a piece of paper and drop
-the paper in the box.  Be sure to include the name of the target, the price on
-their life, and a brief explanation why you wish them killed.  East is the
-entrance to the Assassin's Guild, and west is the main room for Contracts, Ltd.
 ~
 257 8 0 0 0 0
 D1
@@ -847,10 +822,6 @@ You see the exit to River St.
 S
 #25736
 Contracts, Ltd.~
-   A small desk sits diagonal in the corner of the room, other than that there
-is nothing but dust.  A sign hanging over the eastern doorway reads: No Refunds
-Given.  This is Final!  You may leave out onto Worship Way to the west or head
-east into the hire room.
 ~
 257 8 0 0 0 0
 D1
@@ -952,12 +923,6 @@ gate~
 S
 #25741
 Worship Way~
-   This short street leads directly to the Temple of All and None, the only
-temple in all Dibrova where all races and classes are welcome and all forms of
-worship are accepted and embraced.  To the west you see the eastern wall of the
-Twon Provisioner's small shop, while to the east, you see the westren wall of
-the Cartwright's shop.  North you can enter back into the hustle and bustle of
-regular city traffic on Floris Ave.
 ~
 257 0 0 0 0 1
 D0
@@ -1146,10 +1111,6 @@ all the land..
 S
 #25749
 The Assassin's Guild~
-   The austerity and peace you feel in this room can only be described as serene
-bliss.  The clarity of mind you feel, the strength of purpose emanating from the
-very walls seem to ooze into every part of your being.  A soft, slightly padded
-mat lies on the floor, offering you the chance to rest or meditate, as you will.
 ~
 257 668 0 0 0 0
 D2
@@ -1228,11 +1189,6 @@ You see the West Gate of Jareth.
 S
 #25753
 The Cartwright~
-   Here one may purchase overland transportation for goods and extra people in
-your party who may slow you down for one reason or another.  No actual models
-are inside for inspections, but many well drawn sketches of blueprints, load
-maximums, and actual pictures of what the product should look like are on the
-walls.
 ~
 257 8 0 0 0 0
 D0
@@ -1334,10 +1290,6 @@ You see the exit to River St.
 S
 #25758
 Worship Way~
-   This short street leads directly to the Temmple of All and None, the only
-temple in all Dibrova where all races and classes are welcome and all forms of
-worship are embraced.  To the west you see the entrance to the blacksmith's and
-to the east is the pet shop.
 ~
 257 0 0 0 0 1
 D0
@@ -1390,12 +1342,6 @@ River St runs south.
 S
 #25760
 Worship Way~
-   You stand at the entrance the to fabled Temple of All and None, who's doors
-stand open to you to the south.  To the west is the Giving Bank, where one may
-donate to the good people of Jareth in return for a small gratuity.  To
-the east is Contracts, Ltd.  , where one may offer gold in return for the
-service of a professional assassin.  North is Worship Way and the many shops it
-offers.
 ~
 257 0 0 0 0 1
 D0
@@ -1421,9 +1367,6 @@ You see the giving bank.
 S
 #25761
 Assassin's Weaponry~
-   Here you may purchase the many specialty weapons avaible only to the
-professional killing community.  All manner of weapons hang on the walls, rest
-in glass display cases, and lay on shelves.
 ~
 257 524 0 0 0 0
 D0
@@ -1713,13 +1656,6 @@ D1
 S
 #25776
 Temple of All and None~
-   Robed and hooded priests walk solemnly by with heads bowed.  After being so
-used to the normal din of the city, the near-library silence that surrounds you
-hear seems almost like a dream.  The temple, formed in the shape of a cross,
-allows worship at three of the four points of the cross, each devoted to an
-alignment, a following of belief.  The fourth point is the entrance to the
-temple itself, which is north.  A door in the wall near the temple exit allows
-access to the 's Guild.
 ~
 257 8 0 0 0 0
 D0
@@ -1734,11 +1670,6 @@ D5
 S
 #25777
 Meditation and Prayer~
-   Solemn and intense, this room offers the chance for monks to find a bit of
-inner peace before embarking upon adventures into the outside world.  A row of
-kneeling pads line the floor along the north and south walls, allowing comfort
-while in prayer.  A flight of stairs lead up to the Temple of All and None, and
-to the west, the High Priest of Jareth.
 ~
 257 536 0 0 0 0
 D3
@@ -1751,7 +1682,7 @@ D4
 0 -1 25776
 S
 #25778
-'s Guild~
+Cleric's Guild~
    Candlebra hold scores of candles burning in devotion to the Devas of Dibrova.
 Draped in red and purple silk tapestries, the room makes you feel both majestic
 and at peace.

@@ -592,9 +592,6 @@ door black~
 S
 #2636
 The Library Foyer~
-   You have reached an end in the long corridor.  Obsidian walls engraved
-with ancient runes of power stretch out before you.  The sound of snoring
-can barely be heard through the door to the west.
 ~
 26 24 0 0 0 0
 D1
@@ -1171,12 +1168,6 @@ door white ivory~
 S
 #2677
 The Audience Chamber~
-   You are in a large chamber.  Small bolts of energy leap from wall to
-wall, crackling with power.  The floor is a swirl of indeterminable colors
-and patterns ever changing.  Bright bursts of color seem to explode into
-the air and fade again at random times.  All this splendor plays about and
-draws attention to a large throne in the center of the room, it seems to be
-cut from a single enormous emerald.
 ~
 26 24 0 0 0 0
 D0
@@ -1197,16 +1188,12 @@ D3
 0 -1 2679
 E
 throne~
-   The giant emerald is flawless, and must be incredibly valuable.
+adv:world:2677/throne
 ~
 S
 T 3106
 #2678
 A Dressing Room~
-   You are in a plush dressing room.  Fine garments of many styles and some
-outlandish colors hang from a rack suspended in mid air at eye level.  The
-only other interesting feature in the room is a large silver mirror on a
-finely crafted gold stand.
 ~
 26 24 0 0 0 0
 D3
