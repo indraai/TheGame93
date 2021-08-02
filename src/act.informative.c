@@ -1022,7 +1022,7 @@ ACMD(do_score)
 
 ACMD(do_inventory)
 {
-  list_inv_to_char(ch->carrying, ch, SHOW_OBJ_SHORT);
+  list_inv_to_char(ch->carrying, ch);
 }
 
 ACMD(do_equipment)
