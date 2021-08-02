@@ -592,7 +592,7 @@ door black~
 S
 #2636
 The Library Foyer~
-~
+Empty room.~
 26 24 0 0 0 0
 D1
 ~
@@ -961,7 +961,7 @@ D3
 0 -1 2658
 S
 #2660
-The End Of The Hallway~
+The Hallway~
 Empty room.~
 26 280 0 0 0 0
 D1
@@ -1178,7 +1178,7 @@ S
 T 3106
 #2677
 The Audience Chamber~
-~
+Empty room.~
 26 24 0 0 0 0
 D0
 ~
@@ -1204,7 +1204,7 @@ S
 T 3106
 #2678
 A Dressing Room~
-~
+Empty room.~
 26 24 0 0 0 0
 D3
 ~
