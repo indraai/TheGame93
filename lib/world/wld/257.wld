@@ -141,9 +141,15 @@ Floris Ave runs west.
 0 -1 25707
 S
 #25704
-Giving Bank~
+The Blood Bank~
+   This small but servicable room houses the Giving Bank, a non-profit Jareth
+community service set up so that wayward adevnturers who get a bit too over-
+zealous in their wanderings can be treated properly in Jareth's hospital.
+Because it is a non-profit service, the room is not designed for comfort but to
+accomplish it's purpose.  A slightly reclined chair sits in the center of the
+room.
 ~
-257 8 0 0 0 0
+257 24 0 0 0 0
 D1
 You may enter onto Worship Way.
 ~
@@ -924,7 +930,7 @@ S
 #25741
 Worship Way~
 ~
-257 0 0 0 0 1
+257 144 0 0 0 1
 D0
 You may enter onto Floris Ave.
 ~
@@ -946,6 +952,7 @@ You may enter the Town Provisioner's shop.
 ~
 0 -1 25716
 S
+T 3106
 #25742
 River St~
    This is the southern section of River St, which offers no access to the
@@ -1100,13 +1107,13 @@ D3
 door~
 1 -1 25747
 E
-chest coins~
-   There could be as much as one million gold in that chest...
-~
-E
 rack armor~
    The value of that armor must be twenty times the value of any other armor in
 all the land..
+~
+E
+chest coins~
+   There could be as much as one million gold in that chest...
 ~
 S
 #25749
@@ -1150,7 +1157,7 @@ Floris Ave runs west.
 S
 #25751
 Boardwalk~
-~
+Empty room.~
 257 0 0 0 0 1
 D0
 You see the Bait and Tackle.
@@ -1343,7 +1350,7 @@ S
 #25760
 Worship Way~
 ~
-257 0 0 0 0 1
+257 144 0 0 0 1
 D0
 Worship Way runs north.
 ~
@@ -1365,6 +1372,7 @@ You see the giving bank.
 ~
 0 -1 25704
 S
+T 3106
 #25761
 Assassin's Weaponry~
 ~
@@ -1612,7 +1620,7 @@ You may eneter onto Floris Ave.
 S
 #25773
 Grigor's Bait and Tackle~
-~
+Empty room.~
 257 152 0 0 0 0
 D2
 ~
@@ -1671,7 +1679,7 @@ S
 #25777
 Meditation and Prayer~
 ~
-257 536 0 0 0 0
+257 24 0 0 0 0
 D3
 ~
 ~
@@ -1680,7 +1688,12 @@ D4
 ~
 ~
 0 -1 25776
+D5
+~
+~
+0 0 2670
 S
+T 3106
 #25778
 Cleric's Guild~
    Candlebra hold scores of candles burning in devotion to the Devas of Dibrova.
@@ -1718,7 +1731,7 @@ River St runs south.
 S
 #25780
 River St~
-~
+Empty room.~
 257 0 0 0 0 1
 D0
 River St runs north.
@@ -1821,7 +1834,7 @@ D0
 S
 #25786
 Clothing Shop~
-~
+Empty room.~
 257 152 0 0 0 0
 D2
 ~
@@ -1842,7 +1855,7 @@ D0
 S
 #25788
 Casino~
-~
+Empty room.~
 257 152 0 0 0 0
 D2
 ~
@@ -1851,7 +1864,7 @@ D2
 S
 #25789
 Salazar's on the River~
-~
+Empty room.~
 257 152 0 0 0 0
 D2
 ~
@@ -2003,7 +2016,7 @@ The boardwalk runs west.
 S
 #25797
 Boardwalk~
-~
+Empty room.~
 257 16 0 0 0 1
 D0
 You see a clothing shop.
@@ -2024,7 +2037,7 @@ S
 T 3106
 #25798
 Boardwalk~
-~
+Empty room.~
 257 0 0 0 0 1
 D0
 You see a bar.
@@ -2045,7 +2058,7 @@ S
 T 3106
 #25799
 The Boardwalk~
-~
+Empty room.~
 257 0 0 0 0 1
 D0
 ~
