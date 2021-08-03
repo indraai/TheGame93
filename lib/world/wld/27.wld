@@ -1198,7 +1198,7 @@ cast from the collection of little graves that fill this room.  Careful
 newly-placed piles of stones lie restfully side by side, not yet covered with
 dust though the air hangs heavy with it.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1216,7 +1216,7 @@ ceiling have all collapsed in, leaving nothing but the fine rivulets of water
 that seep from the wreckage, trickling like tears along the battered,
 darkly-stained floor.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1242,6 +1242,7 @@ D3
 ~
 0 0 2758
 S
+T 3106
 #2761
 Breezy Cavern~
 undefined~
@@ -1301,7 +1302,7 @@ piles of dust and rock leach slowly into murky puddles of condensation, and
 every slight echo causes a brief rain of pebbles from the ceiling, indicating
 that this cave may not be safe to stand in, let alone excavate.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1341,7 +1342,7 @@ walls, a slick slime covering every surface and making them glisten wetly as if
 coated with oil.  Heat wafts slowly through the room, intensifying toward the
 northern part of the corridor.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1376,6 +1377,7 @@ D3
 ~
 0 0 2771
 S
+T 3106
 #2770
 A Miserable Cell~
    The breeze from the western corridor whips more frantically about this room,
@@ -1396,7 +1398,7 @@ center of the room, dark chains draped carelessly over it.  Against the
 western wall a massive steel stove burns, flickering firelight illuminating a
 selection of terrifying metal instruments hung upon the walls.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1480,7 +1482,7 @@ They become smaller as they reach outwards, all attaching to one parent tentacle
 that throbs rhythmically, a vague stirring shape only just visible through the
 semi-transparent surface.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
@@ -1494,7 +1496,7 @@ rocky floor and walls in a thin layer of slick, transparant slime.  A
 particularly thick coating covers the central main tentacle, obscuring a clear
 view of the shadowy movements within.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D3
 ~
 ~
@@ -1507,7 +1509,7 @@ pod than part of an organism, this womb-like structure pulses rhythmically.
 Some form of stirring life can be seen inside, but the surrounding tissues are
 too opaque to allow a close examination.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1519,7 +1521,7 @@ Tentacle Tunnel~
 waves as a blurry form moves within.  Several slimy offshoots sprout from the
 center like spindley fingers, clawing their way up the slippery, jagged walls.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1532,7 +1534,7 @@ and billows of dark smoke rising from the molten chasm below, the intense heat
 stifling the air and making it difficult to breathe.  Two large gates guard the
 passage to the south.
 ~
-27 12 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1561,7 +1563,7 @@ old gray dust cover the once beautiful surfaces of wood and satin.  Dreary
 cobwebs linger in the corners like ghostly shadows, whispering silent words in
 the cool breeze.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D3
 ~
 ~
@@ -1588,7 +1590,7 @@ Fiery Hall~
 across the fiery pit beneath.  Swirling heat distorts the view of everything,
 the air itself burning and shimmering like a blast from a powerful oven.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1609,7 +1611,7 @@ throne stands in the center, formed magically from red beryll and studded with
 glimmering red rubies.  A feeling of intense anger and energy fills the
 air, tiny static sparks igniting randomly here and there.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
