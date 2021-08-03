@@ -93,7 +93,7 @@ Security Check~
 2 q 100
 ~
 set secstr %actor.id%:%direction%:%self.vnum%
-if %actor.align% < -150 || %actor.is_thief% || %actor.is_killer%
+if %actor.align% < -1 || %actor.is_thief% || %actor.is_killer%
   %send% %actor% Security Alert... %actor.name%
   %echoaround% security:alert:%secstr%
   * teleport to The Love Shack
