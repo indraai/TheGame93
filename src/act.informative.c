@@ -251,7 +251,7 @@ static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
         }
 
     if (num > 0) {
-      send_to_char(ch, "\ninventory: %s", display->short_description);
+      send_to_char(ch, "\ninventory: %s\r", display->short_description);
       found = TRUE;
     }
   }
