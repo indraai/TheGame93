@@ -1173,9 +1173,6 @@ S
 T 2723
 #2757
 Heart of the Mines~
-   Large clouds of dust swirl about the air, dancing to the continuous clanging
-rhythm of metal striking rock.  Small rocks and debris line either side of the
-path, which is thick with the muddy sludge of loose dirt and water.
 ~
 27 24 0 0 0 0
 D0
@@ -1193,10 +1190,6 @@ D3
 S
 #2758
 Cluster of Graves~
-   Faded dark shapes seem to lean mournfully from the walls, the long shadows
-cast from the collection of little graves that fill this room.  Careful
-newly-placed piles of stones lie restfully side by side, not yet covered with
-dust though the air hangs heavy with it.
 ~
 27 13 0 0 0 0
 D1
@@ -1210,11 +1203,6 @@ D3
 S
 #2759
 Caved-In Tunnel~
-   This tunnel appears to have once led further to the west, though now nothing
-but a crumbling blockade of stone and debris appears to remain.  The walls and
-ceiling have all collapsed in, leaving nothing but the fine rivulets of water
-that seep from the wreckage, trickling like tears along the battered,
-darkly-stained floor.
 ~
 27 13 0 0 0 0
 D1
@@ -1224,9 +1212,6 @@ D1
 S
 #2760
 Heart of the Mines~
-   Extensive excavation here leaves the cavernous air murky with disturbed
-particles of grime that dance in the turbulent, smoky air.  An intensely acrid
-smell of sweat hangs heavily over the place, along with the metallic tang of raw minerals.
 ~
 27 24 0 0 0 0
 D0
@@ -1296,10 +1281,6 @@ S
 T 2735
 #2765
 Rubble Blockage~
-   It looks as though digging has been forsaken in this direction.  Abandoned
-piles of dust and rock leach slowly into murky puddles of condensation, and
-every slight echo causes a brief rain of pebbles from the ceiling, indicating
-that this cave may not be safe to stand in, let alone excavate.
 ~
 27 13 0 0 0 0
 D1
@@ -1336,10 +1317,6 @@ D3
 S
 #2768
 Dark Corridor~
-   Sharp Goethite crystals glint darkly like sprouting thorns from the shadowy
-walls, a slick slime covering every surface and making them glisten wetly as if
-coated with oil.  Heat wafts slowly through the room, intensifying toward the
-northern part of the corridor.
 ~
 27 9 0 0 0 0
 D0
@@ -1353,10 +1330,6 @@ D4
 S
 #2769
 Dark Corridor~
-   An overpowering smell of fire fills this hall with every wave of
-hot air.  The sound of desperate wailing accompanies the continuous breeze that
-churns indecisively about the room, rippling the ominous puddles that darken the
-floor.
 ~
 27 9 0 0 0 0
 D0
@@ -1378,10 +1351,6 @@ D3
 S
 #2770
 A Miserable Cell~
-   The breeze from the western corridor whips more frantically about this room,
-howling as it rushes along the jagged cavern as though seeking an escape, and
-clinking the many hanging chains like some restless ghost.  The smell of decay
-hangs heavy here, the lingering presence of rotting flesh and hope alike.
 ~
 27 9 0 0 0 0
 D3
@@ -1391,10 +1360,6 @@ D3
 S
 #2771
 Place of Pain~
-   A sleek black cross lies horizontally on a glimmering obsidian stand in the
-center of the room, dark chains draped carelessly over it.  Against the
-western wall a massive steel stove burns, flickering firelight illuminating a
-selection of terrifying metal instruments hung upon the walls.
 ~
 27 8 0 0 0 0
 D1
@@ -1475,10 +1440,6 @@ D4
 S
 #2776
 Tentacle Tunnel~
-   Several large tentacles snake their way up the walls like strange icy vines.
-They become smaller as they reach outwards, all attaching to one parent tentacle
-that throbs rhythmically, a vague stirring shape only just visible through the
-semi-transparent surface.
 ~
 27 8 0 0 0 0
 D2
@@ -1488,11 +1449,6 @@ D2
 S
 #2777
 Tentacle Tunnel~
-   Spreading across the room like a network of glassy tree roots, several long
-jellylike growths protrude from the west, quivering slightly and coating the
-rocky floor and walls in a thin layer of slick, transparant slime.  A
-particularly thick coating covers the central main tentacle, obscuring a clear
-view of the shadowy movements within.
 ~
 27 8 0 0 0 0
 D3
@@ -1502,10 +1458,6 @@ D3
 S
 #2778
 Tentacle Tunnel~
-   A large semi-transparant growth extends from the north, almost more like a
-pod than part of an organism, this womb-like structure pulses rhythmically.
-Some form of stirring life can be seen inside, but the surrounding tissues are
-too opaque to allow a close examination.
 ~
 27 8 0 0 0 0
 D0
@@ -1515,9 +1467,6 @@ D0
 S
 #2779
 Tentacle Tunnel~
-   A large gelatin limb extends from the east, rippling with peristaltic-like
-waves as a blurry form moves within.  Several slimy offshoots sprout from the
-center like spindley fingers, clawing their way up the slippery, jagged walls.
 ~
 27 8 0 0 0 0
 D1
@@ -1527,10 +1476,6 @@ D1
 S
 #2780
 Fiery Hall~
-   A large but somewhat rickety metal grid extends to the north, leaping flames
-and billows of dark smoke rising from the molten chasm below, the intense heat
-stifling the air and making it difficult to breathe.  Two large gates guard the
-passage to the south.
 ~
 27 12 0 0 0 0
 D0
@@ -1555,11 +1500,6 @@ S
 T 2779
 #2781
 An Abandoned Nursery~
-   This is a child's room, the tiny bed and furnishings decorated with the
-jewels and lace one would bestow upon a little girl.  Long abandoned, layers of
-old gray dust cover the once beautiful surfaces of wood and satin.  Dreary
-cobwebs linger in the corners like ghostly shadows, whispering silent words in
-the cool breeze.
 ~
 27 9 0 0 0 0
 D3
@@ -1569,12 +1509,6 @@ D3
 S
 #2782
 Chamber of Lyra~
-   This entire room is an apparent tribute to the powerful Khan'li emotion of
-Lyra, similar in expression to love, but more selfish and obsessive.
-Flickering fire dances freely along the metal gilding in the wall, writhing and
-changing into various humanoid forms as it fills the room with heat and a film
-of moisture.  Scarlet symbols of passion and possession paint the floor and
-ceiling alike.
 ~
 27 8 0 0 0 0
 D1
@@ -1584,9 +1518,6 @@ D1
 S
 #2783
 Fiery Hall~
-   A long metal grid continues from the south to the north, acting as a bridge
-across the fiery pit beneath.  Swirling heat distorts the view of everything,
-the air itself burning and shimmering like a blast from a powerful oven.
 ~
 27 8 0 0 0 0
 D0
@@ -1601,13 +1532,6 @@ S
 T 2779
 #2784
 A Blazing Throne Room~
-   Leaping tongues of fire dance all around the walls of this circular room, the
-heat so intense that everything shimmers with waves of glistening evaporation.
-Perfectly reflective metal flooring mirrors the writhing light, suspending the
-entire contents of this massive room above the raging inferno below.  A great
-throne stands in the center, formed magically from red beryll and studded with
-glimmering red rubies.  A feeling of intense anger and energy fills the
-air, tiny static sparks igniting randomly here and there.
 ~
 27 8 0 0 0 0
 D2
