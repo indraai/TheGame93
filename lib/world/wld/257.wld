@@ -114,7 +114,7 @@ S
 #25703
 Floris Ave~
 ~
-257 0 0 0 0 1
+257 16 0 0 0 1
 D0
 You see the main office of the Constabulary.
 ~
@@ -1488,6 +1488,16 @@ afghan secret door~
 S
 #25768
 Agency: Jareth~
+   This is main HQ for all the constables in the city.  Seeing such a gathering
+of constables all in one place together makes you feel a bit uneasy even though
+you've probably done nothing to invoke their anger.  Besides, if you had done
+something to invoke their anger, you would have been 'escorted' here and
+unceremoniously dumped in the holding cell to your east.  You see a few of the
+rag-bags of Jareth sleeping off their hangovers there now.  To the north is a
+closed door.  Mounted on the door is a plaque which labels the room beyond to be
+the Magistrate's Office.  From the way voices are kept to a low murmur in this
+room, you figure the Magistrate must be a tough cookie, at least on his workers.
+The exit to Floris Ave is south.
 ~
 257 24 0 0 0 0
 D0
@@ -1505,9 +1515,20 @@ You see Floris Ave.
 ~
 ~
 0 -1 25703
+D3
+~
+~
+1 0 3160
 S
+T 3103
 #25769
 Holding Cell~
+   You are in a relatively large holding awaiting the Magistrate's judgement on
+your case.  A low bench suspended from chains anchored into the wall runs along
+the south wall.  Judging from the smell, the small hole in the northeast corner
+of the cell is intended for you to relieve yourself.  West of you, beyond the
+bars, is the Constabulary, where a flurry of efficient activity goes on without
+intermission.
 ~
 257 8 0 0 0 0
 D3

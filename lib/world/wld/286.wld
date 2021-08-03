@@ -73,6 +73,7 @@ gates~
 adv:world:28604/gates
 ~
 S
+T 3106
 #28605
 Gateway to Hell(O)~
 Empty room.~
@@ -98,7 +99,6 @@ gates~
 adv:world:28605/gates
 ~
 S
-T 3106
 #28606
 Hall of the Damned~
 Empty room.~
@@ -174,10 +174,6 @@ D1
 ~
 ~
 0 -1 28608
-D2
-~
-~
-0 -1 28622
 D3
 ~
 ~
@@ -187,7 +183,6 @@ D5
 stairs~
 0 -1 28621
 S
-T 3106
 #28610
 Hall of the Damned~
 Empty room.~
@@ -308,15 +303,7 @@ D3
 door~
 0 -1 28616
 E
-love~
-undefined
-~
-E
-sexy~
-undefined
-~
-E
-rain~
+never~
 undefined
 ~
 E
@@ -324,11 +311,18 @@ chocolate~
 undefined
 ~
 E
-never~
+rain~
+undefined
+~
+E
+sexy~
+undefined
+~
+E
+love~
 undefined
 ~
 S
-T 3103
 #28618
 Ancient Shrine~
 Empty room.~
@@ -382,10 +376,6 @@ T 3106
 Agency: Hell(O) Office~
 Empty room.~
 286 184 0 0 0 0
-D0
-~
-~
-0 -1 28609
 D1
 ~
 ~
@@ -479,6 +469,10 @@ S
 Blackened Hallway~
 Empty room.~
 286 9 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 It is too dark to see.
 ~
@@ -490,6 +484,7 @@ It is too dark to see.
 ~
 0 -1 28626
 S
+T 3106
 #28628
 Room~
 undefined~

@@ -733,18 +733,17 @@ GD25773 GuardDEVA is assigned to protect the realm.
 E
 T 25701
 #25774
-guard deva guarddeva gd25774~
-GD25774 GuardDEVA~
-GD25774 GuardDEVA is here.
+security deva securitydeva d25774~
+SecurityDEVA G25774~
+SecurityDEVA D25774 is here.
 ~
-GD25774 GuardDEVA is assigned to protect the realm.
+SecurityDEVA D25774 is on patrol.
 ~
-256010 0 0 0 80 0 0 0 0 E
+256328 0 0 0 24696 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 1
+8 8 0
 E
-T 25700
 #25775
 guard deva guarddeva gd25775~
 GD25775 GuardDEVA~
