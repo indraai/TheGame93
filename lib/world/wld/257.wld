@@ -547,7 +547,7 @@ afghan secret door~
 S
 #25721
 Blacksmith~
-~
+Empty room.~
 257 8 0 0 0 0
 D1
 You may enter onto Worship Way.
@@ -557,7 +557,7 @@ You may enter onto Worship Way.
 S
 #25722
 The Pet Shop~
-~
+Empty room.~
 257 8 0 0 0 0
 D3
 You see Worship Way.
@@ -652,7 +652,7 @@ The alley continues east.
 S
 #25727
 The Hire Room~
-~
+undefined~
 257 8 0 0 0 0
 D1
 You see the thieves bar, where everything disappears.
@@ -664,6 +664,7 @@ D3
 ~
 0 -1 25736
 S
+T 3106
 #25728
 Floris Ave~
    Here Floris Ave allows passage out of town through the West Gate, directly
@@ -828,7 +829,7 @@ You see the exit to River St.
 S
 #25736
 Contracts, Ltd.~
-~
+Empty room.~
 257 8 0 0 0 0
 D1
 ~
@@ -929,7 +930,7 @@ gate~
 S
 #25741
 Worship Way~
-~
+Empty room.~
 257 144 0 0 0 1
 D0
 You may enter onto Floris Ave.
@@ -1107,18 +1108,18 @@ D3
 door~
 1 -1 25747
 E
+chest coins~
+   There could be as much as one million gold in that chest...
+~
+E
 rack armor~
    The value of that armor must be twenty times the value of any other armor in
 all the land..
 ~
-E
-chest coins~
-   There could be as much as one million gold in that chest...
-~
 S
 #25749
 The Assassin's Guild~
-~
+Empty room.~
 257 668 0 0 0 0
 D2
 You see the river flowing west.
@@ -1196,7 +1197,7 @@ You see the West Gate of Jareth.
 S
 #25753
 The Cartwright~
-~
+Empty room.~
 257 8 0 0 0 0
 D0
 You see Floris Ave.
@@ -1297,7 +1298,7 @@ You see the exit to River St.
 S
 #25758
 Worship Way~
-~
+Empty room.~
 257 0 0 0 0 1
 D0
 Worship Way runs north.
@@ -1349,7 +1350,7 @@ River St runs south.
 S
 #25760
 Worship Way~
-~
+Empty room.~
 257 144 0 0 0 1
 D0
 Worship Way runs north.
@@ -1375,7 +1376,7 @@ S
 T 3106
 #25761
 Assassin's Weaponry~
-~
+Empty room.~
 257 524 0 0 0 0
 D0
 The path continues northwards bringing you ever closer to the Dragonhelm
@@ -1490,7 +1491,7 @@ afghan secret door~
 2 -1 25720
 S
 #25768
-Constabulary~
+Agency: Jareth~
    This is main HQ for all the constables in the city.  Seeing such a gathering
 of constables all in one place together makes you feel a bit uneasy even though
 you've probably done nothing to invoke their anger.  Besides, if you had done
@@ -1502,7 +1503,7 @@ the Magistrate's Office.  From the way voices are kept to a low murmur in this
 room, you figure the Magistrate must be a tough cookie, at least on his workers.
 The exit to Floris Ave is south.
 ~
-257 8 0 0 0 0
+257 24 0 0 0 0
 D0
 You see a closed door.
 ~
@@ -1664,8 +1665,8 @@ D1
 S
 #25776
 Temple of All and None~
-~
-257 8 0 0 0 0
+undefined~
+257 24 0 0 0 0
 D0
 You may enter onto Worship Way.
 ~
@@ -1678,7 +1679,7 @@ D5
 S
 #25777
 Meditation and Prayer~
-~
+Empty room.~
 257 24 0 0 0 0
 D3
 ~

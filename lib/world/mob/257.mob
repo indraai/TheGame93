@@ -775,9 +775,9 @@ GD25776 GuardDEVA is assigned to protect the realm.
 E
 T 25702
 #25777
-guard deva guarddeva gd25777~
-GD25777 GuardDEVA~
-GD25777 GuardDEVA is here.
+guard deva guarddeva d25777~
+GuardDEVA D25777~
+GuardDEVA D25777 is here.
 ~
 GD25777 GuardDEVA is assigned to protect the realm.
 ~
@@ -786,7 +786,6 @@ GD25777 GuardDEVA is assigned to protect the realm.
 80 6400
 8 8 1
 E
-T 25704
 #25779
 miss florida~
 Miss Florida~
