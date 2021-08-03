@@ -40,50 +40,24 @@ D5
 ~
 0 0 2798
 E
-7~
-   The orb is only kept in one place, held by the skeletal creature in room
-2763.  The only problem is that the way in is a one way exit, the only other
-ways out are a death trap to the east..  Or to kneel to the creature so that he
-teleports you out.  In order to get the orb you must kill the creature, which
-then leaves you trapped there...  Or does it?  ;-) There is a memlin child in
-room 2722 who will explain to you the wonders of Dynar magic - namely that a
-glowing circle works as a portal.  So, all you need to do is kill the creature,
-take the orb and KNEEL CIRCLE to get out.
+spoilers~
+   Ahhh, cheater!!  Don't you want to enjoy the zone?!  *sniff*, ok, if you
+really have to look there are a few little secrets listed here to spoil your
+zone exploring pleasure.  Just type look # to look at each one.
+1: Temple Entrance Puzzle
+2: Lost Child Puzzle
+3: Goethite Shackle
+4: Girl who Transforms to Doll
+5: Color-changing Shard of Glass
+6: Defeating the Sorceress
+7: Getting the Orb
 ~
 E
-6~
-   The Sorceress does two main things while fighting.  First, she will randomly
-cause a circle of fire to flare up, that will damage you if you try to flee or
-exit the room.  Second, she will occasionally use her staff to fireball anyone
-attacking her.  If you kill her in the normal way, her staff will remain behind
-and reincarnate her after a few minutes.  The only way to permanently get rid of
-her, and get ahold of her items, is to get the glowing orb from the skeletal
-creature in room 2763.  Once you have the orb, you must defeat the sorceress in
-the normal way and then USE ORB as soon as she is gone and only her staff
-remains.  This will dissolve the remaining fire elemental and kill the sorceress
-permanently.  It will also leave behind everything she was wearing.  By the way,
-her fiery dress will burn whoever wears it, unless they are also wearing the
-crystal nymph ring.
-~
-E
-5~
-   The shard of glass (2727) that loads in room 2754 will change colors and
-display a message when you pick it up.  The color/message is different for
-each class of player.
-~
-E
-4~
-   Upon entering room 2742, a little girl will appear and transform herself
-into a doll (2723).  This doll when kept in your inventory will perform attacks
-randomly when you fight.  It will do this three times and then change back into
-a girl who runs away.  (The doll will only load once in this room until you
-either use up its three attacks, or pass room 2702)
-~
-E
-3~
-   The Goethite shackle (2708) when worn, cannot be removed except for in the
-center of the Twilight Temple (2743) where the Keeper will remove it
-automatically for you.
+1~
+   The northern exit in room 2707 will normally repel you, causing you to sit
+down if you try to enter.  When you stand up, the resident memlin will explain
+that only the enslaved may enter.  This means..  You guessed it, you have to be
+wearing the Goethite shackle to be allowed to pass.
 ~
 E
 2~
@@ -102,29 +76,55 @@ you found her.  Examining those floorboards (room 2719) will reveal a hidden key
 that allows passage through the glassygates into the Sorceress' palace area.
 ~
 E
-1~
-   The northern exit in room 2707 will normally repel you, causing you to sit
-down if you try to enter.  When you stand up, the resident memlin will explain
-that only the enslaved may enter.  This means..  You guessed it, you have to be
-wearing the Goethite shackle to be allowed to pass.
+3~
+   The Goethite shackle (2708) when worn, cannot be removed except for in the
+center of the Twilight Temple (2743) where the Keeper will remove it
+automatically for you.
 ~
 E
-spoilers~
-   Ahhh, cheater!!  Don't you want to enjoy the zone?!  *sniff*, ok, if you
-really have to look there are a few little secrets listed here to spoil your
-zone exploring pleasure.  Just type look # to look at each one.
-1: Temple Entrance Puzzle
-2: Lost Child Puzzle
-3: Goethite Shackle
-4: Girl who Transforms to Doll
-5: Color-changing Shard of Glass
-6: Defeating the Sorceress
-7: Getting the Orb
+4~
+   Upon entering room 2742, a little girl will appear and transform herself
+into a doll (2723).  This doll when kept in your inventory will perform attacks
+randomly when you fight.  It will do this three times and then change back into
+a girl who runs away.  (The doll will only load once in this room until you
+either use up its three attacks, or pass room 2702)
+~
+E
+5~
+   The shard of glass (2727) that loads in room 2754 will change colors and
+display a message when you pick it up.  The color/message is different for
+each class of player.
+~
+E
+6~
+   The Sorceress does two main things while fighting.  First, she will randomly
+cause a circle of fire to flare up, that will damage you if you try to flee or
+exit the room.  Second, she will occasionally use her staff to fireball anyone
+attacking her.  If you kill her in the normal way, her staff will remain behind
+and reincarnate her after a few minutes.  The only way to permanently get rid of
+her, and get ahold of her items, is to get the glowing orb from the skeletal
+creature in room 2763.  Once you have the orb, you must defeat the sorceress in
+the normal way and then USE ORB as soon as she is gone and only her staff
+remains.  This will dissolve the remaining fire elemental and kill the sorceress
+permanently.  It will also leave behind everything she was wearing.  By the way,
+her fiery dress will burn whoever wears it, unless they are also wearing the
+crystal nymph ring.
+~
+E
+7~
+   The orb is only kept in one place, held by the skeletal creature in room
+2763.  The only problem is that the way in is a one way exit, the only other
+ways out are a death trap to the east..  Or to kneel to the creature so that he
+teleports you out.  In order to get the orb you must kill the creature, which
+then leaves you trapped there...  Or does it?  ;-) There is a memlin child in
+room 2722 who will explain to you the wonders of Dynar magic - namely that a
+glowing circle works as a portal.  So, all you need to do is kill the creature,
+take the orb and KNEEL CIRCLE to get out.
 ~
 S
 #2701
 The Mouth of an Obscured Cave~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -135,21 +135,21 @@ D2
 ~
 0 0 2798
 E
-cave~
-adv:world:2701/cave
+trees~
+adv:world:2701/trees
 ~
 E
 rubble~
 adv:world:2701/rubble
 ~
 E
-trees~
-adv:world:2701/trees
+cave~
+adv:world:2701/cave
 ~
 S
 #2702
 A Moist Cave~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
@@ -167,7 +167,7 @@ S
 T 2734
 #2703
 Trickling Tunnel~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    A small puddle marks the end of the passage where the floor flattens out
@@ -188,7 +188,7 @@ adv:world:2703/rope
 S
 #2704
 A Gaping Intersection~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    A puff of dust hangs about this small entrance into a dimly lit cave and
@@ -215,20 +215,20 @@ flickering within and a thin layer of sand covers the floor.
 ~
 0 0 2706
 E
-pile rocks~
-   This pile of rocks has a strange powdery coating, the pale yellowish color
-and the surrounding smell indicates that it might be sulfur.
-~
-E
 sharp stalactites~
    These mineral encrustations look to have formed over many months or even
 years, jagged and sparkling like dry icicles.
+~
+E
+pile rocks~
+   This pile of rocks has a strange powdery coating, the pale yellowish color
+and the surrounding smell indicates that it might be sulfur.
 ~
 S
 T 3106
 #2705
 Beneath the Roots~
-~
+Empty room.~
 27 24 0 0 0 0
 D1
    The tunnel carries onward, curving gently around into darkness so that
@@ -260,19 +260,19 @@ entrance like menacing teeth.
 ~
 0 0 2704
 E
-flickering lantern~
-   This lantern has been attached to the wall so that it cannot be taken.  A
-bright flame burns steadily, illuminating the way.
-~
-E
 footprints~
    These tiny footprints, leading to the north, are unusually small but
 unmistakeably memlin, indicating the presence of children in these caverns.
 ~
+E
+flickering lantern~
+   This lantern has been attached to the wall so that it cannot be taken.  A
+bright flame burns steadily, illuminating the way.
+~
 S
 #2707
 A Dusty Supply Room~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    A strange mist surrounds the northern curtain, circulating slowly but not
@@ -287,9 +287,9 @@ and an unpleasant smell drifts from this direction.
 undefined~
 0 0 2704
 E
-tools~
-   Various picks, shovels, and the occasional rusted knife lie abandoned here,
-unusable by the look of them.
+curtain~
+   A strange mist surrounds the northern curtain, circulating slowly but not
+dispersing, as if it guarded the way.
 ~
 E
 mine cart~
@@ -297,14 +297,14 @@ mine cart~
 and on closer inspection one of the wheels looks cracked beyond repair.
 ~
 E
-curtain~
-   A strange mist surrounds the northern curtain, circulating slowly but not
-dispersing, as if it guarded the way.
+tools~
+   Various picks, shovels, and the occasional rusted knife lie abandoned here,
+unusable by the look of them.
 ~
 S
 #2708
 A Curving Passage~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    A sound of dripping echoes prominently from this end of the tunnel, and a
@@ -321,7 +321,7 @@ the sides of the cavern like grasping fingers.
 S
 #2709
 A Weeping Cave~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    A cool white light emanates from this end of the tunnel, and the air seems to
@@ -339,7 +339,7 @@ very far inside.
 S
 #2710
 Guarded Gates~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    A cool draft breezes from this direction, and the cold light of the gates
@@ -362,7 +362,7 @@ likely evil and unbreakable by any normal means.
 S
 #2711
 Crystal Passage~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
    A bright glow shimmers from this end of the passage, tinted only by the red hue of some gem refracting light.
@@ -383,7 +383,7 @@ likely evil and unbreakable by any normal means.
 S
 #2712
 The Place of Gathering~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    The tunnel seems to get much narrower and the roof much lower, sticky slime
@@ -408,9 +408,13 @@ D3
 ~
 0 0 2713
 E
-grassy moss~
-   These tiny tufts of moss give a welcome splash of green to the sandy brown
-of these tunnels, scenting the air subtly as well.
+tiny fading footprints~
+   These little footprints seem to vanish mysteriously to the east.
+~
+E
+sign~
+   This sign has been filled with various words and numbers that appear to be
+dates, but not particularly legible or significant to non-memlins.
 ~
 E
 large round bench~
@@ -419,19 +423,15 @@ memlins, though judging by its slightly buckling legs, it has probably held
 more.
 ~
 E
-sign~
-   This sign has been filled with various words and numbers that appear to be
-dates, but not particularly legible or significant to non-memlins.
-~
-E
-tiny fading footprints~
-   These little footprints seem to vanish mysteriously to the east.
+grassy moss~
+   These tiny tufts of moss give a welcome splash of green to the sandy brown
+of these tunnels, scenting the air subtly as well.
 ~
 S
 T 3106
 #2713
 Mushroom Path~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -451,7 +451,7 @@ S
 T 3106
 #2714
 An Underground Garden~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -462,20 +462,20 @@ D2
 ~
 0 0 2713
 E
-thick crystal pane~
-   This pane acts like a skylight, allowing the intense heat and light of the
-sun to flood the room, magnified by the refracting ability of the crystal.
-~
-E
 creeping vines~
    These vines look fantastically healthy and seem to be growing at a fast
 rate, wall-papering the sides and ceiling of the cave with various shades of
 green.
 ~
+E
+thick crystal pane~
+   This pane acts like a skylight, allowing the intense heat and light of the
+sun to flood the room, magnified by the refracting ability of the crystal.
+~
 S
 #2715
 Hovel Junction~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
    Aromatic smells of various cooking foods waft from this direction, and the
@@ -503,7 +503,7 @@ S
 T 3106
 #2716
 A Communal Kitchen~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -514,45 +514,45 @@ D2
 ~
 0 0 2715
 E
-plates~
-adv:world:2716/plates
+utensils~
+adv:world:2716/utensils
 ~
 E
 pot~
 adv:world:2716/pot
 ~
 E
-utensils~
-adv:world:2716/utensils
+plates~
+adv:world:2716/plates
 ~
 S
 #2717
 A Well-used Tool Shed~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
 ~
 0 0 2715
 E
-seeds~
-adv:world:2717/seeds
+buckets pods seeds~
+   A variety of green husks and several pouches of seeds spill carelessly into
+their bucket containers, some of them sprouting into tiny roots from the
+dampness.
 ~
 E
 tools~
 adv:world:2717/tools
 ~
 E
-buckets pods seeds~
-   A variety of green husks and several pouches of seeds spill carelessly into
-their bucket containers, some of them sprouting into tiny roots from the
-dampness.
+seeds~
+adv:world:2717/seeds
 ~
 S
 #2718
 A Low Tunnel~
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    The tunnel slopes downward, a slight breeze of hot humid air wafting up from
 below.
@@ -564,14 +564,14 @@ D2
 ~
 0 0 2712
 E
-faded streaks~
-   It looks as if this place is a site of regular injury, old and new
-marks marring the otherwise shiny surface of the rock.
-~
-E
 film slimy moisture~
    The ground glistens wetly, a combination of what looks to be mouldy water
 and weaving slug trails makes it appear very slippery indeed.
+~
+E
+faded streaks~
+   It looks as if this place is a site of regular injury, old and new
+marks marring the otherwise shiny surface of the rock.
 ~
 S
 T 2711
@@ -590,9 +590,10 @@ the surrounding rock, making the cupboard appear inescapable.
 seamlessdoor~
 1 0 2712
 E
-broken toys~
-   A tiny clay doll's head lies in the dirt, its unblinking eyes coated in a
-delicate film of dust.
+old cobwebs~
+   These webs look to be years old, any beauty to their carefully woven
+structure long eroded, grayed and dimmed so that they are little more than
+fluttering ghosts in the breeze.
 ~
 E
 useless tools~
@@ -600,15 +601,14 @@ useless tools~
 ground, forgotten and left to rot.
 ~
 E
-old cobwebs~
-   These webs look to be years old, any beauty to their carefully woven
-structure long eroded, grayed and dimmed so that they are little more than
-fluttering ghosts in the breeze.
+broken toys~
+   A tiny clay doll's head lies in the dirt, its unblinking eyes coated in a
+delicate film of dust.
 ~
 S
 #2720
 Musty Tunnel~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -621,7 +621,7 @@ D2
 S
 #2721
 Memlin Living Quarters~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -636,34 +636,34 @@ D3
 ~
 0 0 2723
 E
-scales~
-adv:world:2722/scales
-~
-E
 benches~
 adv:world:2722/benches
+~
+E
+scales~
+adv:world:2722/scales
 ~
 S
 #2722
 Cavernous Hot Spring~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
 ~
 0 0 2721
 E
-soap~
-adv:world:2722/soap
-~
-E
 towels~
 adv:world:2722/towels
+~
+E
+soap~
+adv:world:2722/soap
 ~
 S
 #2723
 Sleeping Hollows~
-~
+Empty room.~
 27 9 0 0 0 0
 D0
 ~
@@ -674,22 +674,22 @@ D1
 ~
 0 0 2721
 E
-vines~
-adv:world:2723/vines
+trailing vines~
+   These dark veiny tendrils weave their way along the walls, providing firm
+support for anyone who would wish to climb inside the higher hollows.
 ~
 E
 hollows~
 adv:world:2723/hollows
 ~
 E
-trailing vines~
-   These dark veiny tendrils weave their way along the walls, providing firm
-support for anyone who would wish to climb inside the higher hollows.
+vines~
+adv:world:2723/vines
 ~
 S
 #2724
 Tiny Hollow~
-~
+Empty room.~
 27 9 0 0 0 0
 D2
 ~
@@ -697,8 +697,7 @@ D2
 0 0 2723
 E
 toys~
-   Several basic children's toys lie scattered around, a bright pink ball
-particularly catches the eye, as does a rather beautiful painted doll.
+adv:world:2724/toys
 ~
 E
 drawings~
@@ -706,12 +705,13 @@ adv:world:2724/drawings
 ~
 E
 toys~
-adv:world:2724/toys
+   Several basic children's toys lie scattered around, a bright pink ball
+particularly catches the eye, as does a rather beautiful painted doll.
 ~
 S
 #2725
 Kitchen Pantry~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
@@ -720,7 +720,7 @@ D2
 S
 #2726
 Jade Archway~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -738,7 +738,7 @@ S
 T 3106
 #2727
 Great Marble Hall~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -755,7 +755,7 @@ D2
 S
 #2728
 Great Marble Hall~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -772,7 +772,7 @@ D3
 S
 #2729
 Great Marble Hall~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -785,7 +785,7 @@ D3
 S
 #2730
 Great Marble Hall~
-~
+Empty room.~
 27 24 0 0 0 0
 D1
 ~
@@ -803,7 +803,7 @@ S
 T 3106
 #2731
 Great Marble Hall~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
@@ -820,7 +820,7 @@ D4
 S
 #2732
 Bottom of a Spiral Stair~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
@@ -833,7 +833,7 @@ D5
 S
 #2733
 Spiral Stair~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -846,7 +846,7 @@ D1
 S
 #2734
 Spiral Stair~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -859,7 +859,7 @@ D3
 S
 #2735
 Top of a Spiral Stair~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
@@ -872,7 +872,7 @@ D4
 S
 #2736
 Icy Dome~
-~
+Empty room.~
 27 24 0 0 0 0
 D1
 ~
@@ -890,7 +890,7 @@ S
 T 3106
 #2737
 Icy Dome~
-~
+Empty room.~
 27 24 0 0 0 0
 D2
 ~
@@ -903,7 +903,7 @@ D3
 S
 #2738
 Icy Dome~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -920,7 +920,7 @@ D3
 S
 #2739
 Icy Dome~
-~
+Empty room.~
 27 24 0 0 0 0
 D0
 ~
@@ -933,7 +933,7 @@ D1
 S
 #2740
 Shimmering Glacier~
-~
+Empty room.~
 27 4 0 0 0 0
 D3
 ~
@@ -942,7 +942,7 @@ D3
 S
 #2741
 Swirling Mists~
-~
+Empty room.~
 27 13 0 0 0 0
 D0
 ~
@@ -955,7 +955,7 @@ D2
 S
 #2742
 Cavern of Shadows~
-~
+Empty room.~
 27 152 0 0 0 0
 D2
 ~
@@ -966,7 +966,7 @@ T 2723
 T 2733
 #2743
 The Twilight Temple~
-~
+Empty room.~
 27 152 0 0 0 0
 D0
 ~
@@ -1012,7 +1012,7 @@ D2
 S
 #2745
 Path of Dawn~
-~
+Empty room.~
 27 136 0 0 0 0
 D1
 ~
@@ -1026,7 +1026,7 @@ S
 T 2723
 #2746
 Chamber of Awakening~
-~
+Empty room.~
 27 136 0 0 0 0
 D2
 ~
@@ -1040,7 +1040,7 @@ S
 T 2723
 #2747
 The Depths of Fantasy~
-~
+Empty room.~
 27 152 0 0 0 0
 D0
 ~
@@ -1063,7 +1063,7 @@ T 2723
 T 3106
 #2748
 Place of Peace~
-~
+Empty room.~
 27 152 0 0 0 0
 D3
 ~
@@ -1073,7 +1073,7 @@ S
 T 2723
 #2749
 Boundary of Belief~
-~
+Empty room.~
 27 136 0 0 0 0
 D1
 ~
@@ -1083,7 +1083,7 @@ S
 T 2723
 #2750
 All That is Light~
-~
+Empty room.~
 27 136 0 0 0 0
 D0
 ~
@@ -1093,7 +1093,7 @@ S
 T 2723
 #2751
 Path of Dusk~
-~
+Empty room.~
 27 137 0 0 0 0
 D1
 ~
@@ -1107,7 +1107,7 @@ S
 T 2723
 #2752
 Chamber of Rest~
-~
+Empty room.~
 27 152 0 0 0 0
 D1
 ~
@@ -1121,7 +1121,7 @@ S
 T 2723
 #2753
 The Depths of a Dream~
-~
+Empty room.~
 27 152 0 0 0 0
 D0
 ~
@@ -1143,7 +1143,7 @@ S
 T 2723
 #2754
 Boundary of Intuition~
-~
+Empty room.~
 27 152 0 0 0 0
 D3
 ~
@@ -1153,7 +1153,7 @@ S
 T 2723
 #2755
 Place of Passion~
-~
+Empty room.~
 27 141 0 0 0 0
 D1
 ~
@@ -1163,7 +1163,7 @@ S
 T 2723
 #2756
 All That is Dark~
-~
+Empty room.~
 27 152 0 0 0 0
 D0
 ~
@@ -1281,7 +1281,7 @@ D3
 S
 #2763
 A Lonely Cave~
-~
+Empty room.~
 27 152 0 0 0 0
 D0
 ~
@@ -1296,7 +1296,7 @@ T 2718
 T 2754
 #2764
 SPLAT!!!~
-~
+Empty room.~
 27 0 0 0 0 0
 S
 T 2735
@@ -1419,7 +1419,7 @@ S
 #2772
 Before the Dark Gates~
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
    Jet-black gates loom menacingly from the floor, towering like dark shadow
 guardians, blocking the passage forward.
@@ -1443,10 +1443,11 @@ D5
 ~
 0 0 2775
 S
+T 3106
 #2773
 Chamber of Knowledge~
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1862,7 +1863,7 @@ D4
 S
 #2798
 A Little Forest Clearing~
-~
+Empty room.~
 27 16 0 0 0 3
 D0
 ~
@@ -1883,15 +1884,8 @@ tranquility of this place.
 ~
 27 8 0 0 0 0
 E
-wall-hung wall hung candles~
-   These tall elegant candles burn brightly, scarlet flickers of flame dancing
-upon the wax as if to some unheard rhythm.
-~
-E
-beautiful bed~
-   The smooth, dark frame of this bed has been carved by the hand of a skilled
-master, various artistic depictions of love emerging from the flowing lines of
-the wood as if they had grown there.
+test~
+   Move bounce
 ~
 E
 glass fountain~
@@ -1900,8 +1894,15 @@ smooth pebbles within, small drops of water splashing over the side as it
 trickles.
 ~
 E
-test~
-   Move bounce
+beautiful bed~
+   The smooth, dark frame of this bed has been carved by the hand of a skilled
+master, various artistic depictions of love emerging from the flowing lines of
+the wood as if they had grown there.
+~
+E
+wall-hung wall hung candles~
+   These tall elegant candles burn brightly, scarlet flickers of flame dancing
+upon the wax as if to some unheard rhythm.
 ~
 S
 $~
