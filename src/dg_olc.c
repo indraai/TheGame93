@@ -745,9 +745,9 @@ void dg_script_menu(struct descriptor_data *d)
   }
 
   write_to_output(d,
-    "\nmenu:n:attach trigger\r"
-    "\nmenu:x:detach trigger\r"
-    "\nmenu:q:done\r");
+    "\nmenu:a:attach trigger\r"
+    "\nmenu:b:detach trigger\r"
+    "\nmenu:0:done\r");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
@@ -758,13 +758,13 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
   switch(OLC_SCRIPT_EDIT_MODE(d)) {
     case SCRIPT_MAIN_MENU:
       switch(tolower(*arg)) {
-        case 'q':
+        case '0':
           return 0;
-        case 'n':
+        case 'a':
           write_to_output(d, "\nPlease enter position, vnum (ex: 1, 200)\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_NEW_TRIGGER;
           break;
-        case 'x':
+        case 'd':
           write_to_output(d, "\nWhich entry should be deleted?  0 to abort\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_DEL_TRIGGER;
           break;

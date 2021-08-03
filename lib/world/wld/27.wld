@@ -245,10 +245,6 @@ framing the western cavern.
 S
 #2706
 Sandy Tunnel~
-   A thin layer of sand dusts the floor of this tunnel, absorbing some of the
-moisture and making it easier to walk without slipping.  A flickering lantern is
-fixed here, sending shadows dancing across the walls.  Small memlin footprints
-lead to the north.
 ~
 27 24 0 0 0 0
 D0
@@ -555,10 +551,6 @@ dampness.
 S
 #2718
 A Low Tunnel~
-   The ceiling hangs very low here, and the sharp rock has not been smoothed so
-that a fall here would mean definite injury, as indicated by the faded
-streaks on the rock.  A film of slimy moisture makes the ground even more
-treacherous to navigate, and the wisdom of staying here is questionable.
 ~
 27 8 0 0 0 0
 D0
@@ -1426,10 +1418,6 @@ D1
 S
 #2772
 Before the Dark Gates~
-   Heat emanates intensely from behind the two immense northern gates.  Like a
-giant monolith they stand unyielding and unnaturally black, offering no hint of
-what lies beyond them except for their burning surfaces, and the bright scarlet
-glow that shines around the seams.
 ~
 27 9 0 0 0 0
 D0
@@ -1457,11 +1445,6 @@ D5
 S
 #2773
 Chamber of Knowledge~
-   Strange ripples of energy wash through the atmosphere, making everything
-appear slightly blurry.  Globes containing writhing electricity stand on glass
-posts along the walls.  A floating orb of fire flickers within the obsidian
-hands of a dark humanoid statue, illuminating various scrolls and parchments
-scattered about the room.
 ~
 27 9 0 0 0 0
 D1
@@ -1471,11 +1454,6 @@ D1
 S
 #2774
 Altar of the Cui~
-   A great marble altar stands here, bleak and black as night but for the veined
-streaks of white that weave through it and the surrounding room.  Intricate
-portrayals of dragons and monsters are carved into every polished surface.
-Flickering firelight casts the whole room in and out of shadows, making it seem
-as though the carvings move just in the periphery of vision.
 ~
 27 8 0 0 0 0
 D3
@@ -1485,10 +1463,6 @@ D3
 S
 #2775
 Resting Place of the Receptacle~
-   Unnaturally lit with some magic, the room seems clouded with a thick white
-haze.  In the center of the room the enormous gelatinous mass of the Receptacle
-pulsates slowly and continuously, surface contractions spreading down each of
-the massive tentacles that reach in every direction.
 ~
 27 8 0 0 0 0
 D0
