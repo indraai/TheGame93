@@ -124,76 +124,49 @@ take the orb and KNEEL CIRCLE to get out.
 S
 #2701
 The Mouth of an Obscured Cave~
-   The huge slopes of an ancient mountain range tower above the landscape.  In
-the side of the rocky wall a large gaping cave is almost obscured by the
-surrounding trees.  A cold breeze, heavy with the smell of dust and damp wafts
-from the opening, and a faint sound of clanging can be heard from within.
-Large amounts of rubble are piled up at the entrance as though there has been a
-lot of digging activity.
 ~
 27 12 0 0 0 0
 D0
-   The cave is too dark to see very far inside, but figures can be glimpsed
-moving in and out of shadows.
 ~
 ~
 0 0 2702
 D2
-   A small gathering of trees stands around the perimeter of a clearing, fresh
-air wafting from the branches.
 ~
 ~
 0 0 2798
 E
 cave~
-   This open cave is so dark you can hardly see inside, but silent figures can
-be seen lurking just within the shadows.
+adv:world:2701/cave
 ~
 E
-rubble piles~
-   These large piles of rubble look recently unloaded here, dust still heavy in
-the surrounding air.
+rubble~
+adv:world:2701/rubble
 ~
 E
 trees~
-   The trees seem to close heavily around the cave entrance, almost concealing
-it as though willed by some magic to do so.
+adv:world:2701/trees
 ~
 S
 #2702
 A Moist Cave~
-   The large round cave is full of dust and disturbed debris.  Rough jagged
-edges stick out from the stone walls as though it has been dug in a hurry, and
-a thin slime coats every surface, sticky moisture hanging in the air.  From far
-below, sounds of footsteps and the clanging of iron on rock can be heard.
 ~
 27 9 0 0 0 0
 D2
-   Fresh air seems to be wafting from this direction, and the cave entrance can
-be spotted a little further along, opening into a thick forest.
 ~
 ~
 0 0 2701
 D5
-   A fragile-looking rope leads into the darkness, aiding the difficult
-descent.
 ~
 ~
 0 0 2703
 E
-thin slime~
-   This strange sticky residue has the unpleasant stickiness of cobwebs, yet is
-almost gelatinous to the touch.
+slime~
+adv:world:2702/slime
 ~
 S
 T 2734
 #2703
 Trickling Tunnel~
-   This steeply sloping tunnel has only a frayed rope pegged along the wall to
-aid in navigating it.  The ground is loose, and small stones bounce their way
-down to the bottom at the slightest disturbance.  The air here is suffocatingly
-humid and this is intensified by the wafts of heat coming from the lower end of
-the passage.
 ~
 27 13 0 0 0 0
 D0
@@ -209,20 +182,12 @@ so still.
 ~
 0 0 2702
 E
-frayed rope~
-   This rope is apparently deceptively strong.  For though it looks frayed and
-dangerous, the disintegrating state of the metal pegs holding it in place
-testify to its long-standing use.
+rope~
+adv:world:2703/rope
 ~
 S
 #2704
 A Gaping Intersection~
-   There is a most unpleasant smell in this room, akin to that of rotten eggs,
-which seems to be emanating from a nearby pile of rocks.  The floor is smooth
-and looks to have been worn away rather than dug, indicating that this junction
-has been passed through many times.  Sharp stalactites hang down like teeth
-from the entrance of each connecting tunnel, giving the impression of standing
-in a creature's jaws.
 ~
 27 9 0 0 0 0
 D0
@@ -262,11 +227,6 @@ and the surrounding smell indicates that it might be sulfur.
 S
 #2705
 Beneath the Roots~
-   This large passage is lined with the branching roots of an ancient tree.
-Intertwined inseparably into the rock, the smaller offshoots have been pasted
-to the cavern walls by a natural dribble of resin that has subsequently
-hardened.  This gives the tunnel an almost gilded appearance, delicate veins of
-smooth glassy amber lining its length.
 ~
 27 9 0 0 0 0
 D1
@@ -315,12 +275,6 @@ bright flame burns steadily, illuminating the way.
 S
 #2707
 A Dusty Supply Room~
-   This appears to be a main supply room judging by the various things
-cluttering the room.  Tools in various stages of rust and disrepair lean
-against the walls, and heaps of straggled rope lie unused in what appears to be
-an old mine cart.  This room is far smaller than is comfortable, and a
-lingering cloud of dust makes it feel even more claustrophobic.  To the north a
-small back door is partially covered by a ragged curtain.
 ~
 27 13 0 0 0 0
 D0
@@ -354,11 +308,6 @@ S
 T 2717
 #2708
 A Curving Passage~
-   This tunnel curves gently around, growing larger as it proceeds deeper into
-the mountainside.  The walls and floor here have all been excavated more
-carefully, sanded smooth and polished so that the silvery hue of the rock has a
-metallic shine to it.  Somewhere nearby, several drops of liquid can be heard
-dripping constantly onto rock.
 ~
 27 8 0 0 0 0
 D0
@@ -376,10 +325,6 @@ the sides of the cavern like grasping fingers.
 S
 #2709
 A Weeping Cave~
-   The air here feels cool and sticky with moisture, and the sound of dripping
-echoes loudly on the smooth surface of the rock floor.  Numerous drops of liquid seem to ooze from the ceiling, staining the walls as
-they weep their way slowly down, collecting on the
-ground.
 ~
 27 9 0 0 0 0
 D0
@@ -398,11 +343,6 @@ very far inside.
 S
 #2710
 Guarded Gates~
-   Intense excavation here has made the cavern much higher than necessary for
-even the tallest memlin.  Two towering quartz gates block further advancement
-into the tunnel.  Diamond-hard and flawless, they seem strikingly out of place
-in the dusty passage, illuminating it with refracted light.  Red beryll
-is embedded carefully into the glassy surface, inscribing some evil spell.
 ~
 27 12 0 0 0 0
 D0
@@ -426,11 +366,6 @@ likely evil and unbreakable by any normal means.
 S
 #2711
 Crystal Passage~
-   Awash with white light, this passage is almost blinding to walk through.
-The walls, floor, and ceiling are all carved from beautiful yet delicate crystal
-that seems to reflect an inner source of light.  Colors dance and sparkle on
-the faceted surface of the walls and the air here is cool enough to chill
-breath.  To the south, two large clear gates block the exit.
 ~
 27 8 0 0 0 0
 D2
@@ -452,12 +387,6 @@ likely evil and unbreakable by any normal means.
 S
 #2712
 The Place of Gathering~
-   A large and airy cavern, the dark ceiling glistens with tiny beads of
-moisture as though star-lit.  A light grassy moss decorates the grooves along
-the wall and floor, bearing the mark of tiny fading footprints and providing a
-welcome scent of greenery that freshens the atmosphere.  A bubbling fountain
-murmurs quietly at one end of the room, and a prominent sign displays dates and
-times of apparent significance.
 ~
 27 9 0 0 0 0
 D0
@@ -479,8 +408,6 @@ direction, casting dark shadows upon the wall.
 ~
 0 0 2706
 D3
-   A trail of sand leads in this direction, lit by a pale green glow of some
-unseen light source.
 ~
 ~
 0 0 2713
@@ -507,21 +434,13 @@ of these tunnels, scenting the air subtly as well.
 S
 #2713
 Mushroom Path~
-   A sandy trail winds continuously down each end of the tunnel, broken only
-here and there with a small sprouting mushroom.  The fungi seem almost to be
-cultivated here as a source of light, for they illuminate the darkness with a
-soft green glow, thriving off the ever present film of mineral-rich moisture.
 ~
 27 8 0 0 0 0
 D0
-   A floral scent wafts from this direction, and the carpet of moss becomes
-more lush.
 ~
 ~
 0 0 2714
 D1
-   This way leads into a much larger cavern, from which the sounds of trickling
-water murmur.
 ~
 ~
 0 0 2712
@@ -534,16 +453,9 @@ though this route is more regularly travelled.
 S
 #2714
 An Underground Garden~
-   This cave has been transformed into a miniature wilderness of various plants
-and fungi.  A thick crystal pane has been carved into the rocky ceiling,
-allowing natural sunlight and warmth to fill the room.  Creeping vines twist
-their way across the walls, along with splashes of pink and purple flora.  The
-intense evaporation causes a constant indoor rain to drip from the ceiling.
 ~
 27 8 0 0 0 0
 D2
-   A green glow comes from this direction, and the rich carpet of grass gives
-way to a sandy path.
 ~
 ~
 0 0 2713
@@ -561,11 +473,6 @@ sun to flood the room, magnified by the refracting ability of the crystal.
 S
 #2715
 Hovel Junction~
-   The tunnel here branches off in every direction, and appears to be the
-center of memlin living quarters.  Smells of cooking food and brewing liquids
-waft on the air, and children can be heard playing nearby.  The sandy floor
-takes on a greenish hue where an abundance of soft moss begins to carpet the
-area.
 ~
 27 8 0 0 0 0
 D0
@@ -575,8 +482,6 @@ sound of simmering pots can be heard.
 ~
 0 0 2716
 D1
-   A slight greenish glow illuminates the tunnel in this direction, and the
-carpet of moss gives way to a sandy path.
 ~
 ~
 0 0 2713
@@ -595,68 +500,44 @@ be heard along with the occasional child's laugh.
 S
 #2716
 A Communal Kitchen~
-   This large cave has a long pipe leading through the ceiling from the
-slightly smoking stove.  Various kitchen utensils line the walls and a large
-pot sits on the counter emitting some unnameable aroma.  Huge stacks of plates
-indicate the usage of this kitchen by the majority, if not the entire memlin
-population.
 ~
 27 8 0 0 0 0
 D0
-   The ceiling dips lower here and framing the entrance are many decorative
-herbs, but not nearly enough to create the overpowering mix of scents that
-wafts from this direction.
 ~
 ~
 0 0 2725
 D2
-   This way opens immediately into a much larger cavern, sounds of people and
-movement filling the air.
 ~
 ~
 0 0 2715
 E
-huge stacks plates~
-   Most of these plates are smoothly carved from wood, chipped here and there in
-places as if well used, most stacked in dirty piles waiting to be cleaned.
+plates~
+adv:world:2716/plates
 ~
 E
-large pot~
-   The broth inside this pot simmers and boils continually, giving off a strange
-smell as every now and again something bobs to the surface and dips back down.
+pot~
+adv:world:2716/pot
 ~
 E
-kitchen utensils~
-   Various pieces of cutlery lie strewn apart, long handled spoons and sharp
-chopping knives, all in various stages of use.
+utensils~
+adv:world:2716/utensils
 ~
 S
 #2717
 A Well-used Tool Shed~
-   Various tools hang from the walls on orderly rows of pegs.  Watering cans,
-rakes, and buckets of various pods and seeds indicate the prominent position of
-horticulture in memlin living.  Though looking closer, these tools appear
-neglected and rusted, while newer and more recently used mining picks occupy
-the majority of the small space.
 ~
 27 9 0 0 0 0
 D0
-   The area beyond looks well-travelled and well-lit, the sounds of life and
-activity filling the air.
 ~
 ~
 0 0 2715
 E
-buckets pods seeds~
-   A variety of green husks and several pouches of seeds spill carelessly into
-their bucket containers, some of them sprouting into tiny roots from the
-dampness.
+seeds~
+adv:world:2717/seeds
 ~
 E
-various tools watering cans rakes~
-   These tools all seem to play a major role in gardening and growing various
-crops, most of them starting to rust and decay from what appears to be lack of
-care.
+tools~
+adv:world:2717/tools
 ~
 S
 #2718
@@ -674,8 +555,6 @@ below.
 ~
 0 0 2720
 D2
-   The path opens up into a large open space, the sound of gently trickling
-water filling the air.
 ~
 ~
 0 0 2712
@@ -724,161 +603,99 @@ delicate film of dust.
 S
 #2720
 Musty Tunnel~
-   A deep gloom seems to fill this place, heat wafting uncomfortably from the
-walls and making the air shimmer.  The slime everywhere seems to have congealed
-into sticky pools of fungus and mineral-saturated water, coating every jagged
-rock as though the cavern bleeds.
 ~
 27 9 0 0 0 0
 D0
-   The way ahead is dimmed with the darkness of swirling debris, smoke and dust
-filling the air in waves of hot grimy air.
 ~
 ~
 0 0 2757
 D2
-   Sloping upward, the ground becomes treacherously slippery and slick with
-moisture, the walls of the cavern shrinking inward, leaving less room for
-navigation.
 ~
 ~
 0 0 2718
 S
 #2721
 Memlin Living Quarters~
-   Wide and spacious, several benches line the walls of this cavern.  Heat from
-a nearby fire source warms the rock so that it is hot to the touch, and the air
-is heavy with humidity.  In the middle of the room there is a large stone
-sculpture of weighing scales depicting the central memlin belief of balance and
-moderation.
 ~
 27 8 0 0 0 0
 D0
-   A gentle mist of moisture fills the entrance to this cavern, the lazy sound
-of stirring water coming from within.
 ~
 ~
 0 0 2722
 D1
-   The way opens up more spaciously, delicate green mosses spreading across the
-floor and the scents of some local cooking drifting on the air.
 ~
 ~
 0 0 2715
 D3
-   The way dims, mossy carpeting growing thicker and lusher as the cavern
-extends into darkness.
 ~
 ~
 0 0 2723
 E
-large stone sculpture weighing scales~
-   A tall spiralling column of metallic rock stretches almost to the roof of the
-cavern, two elegant silvery arms spreadeagling out from either side.  At the end
-of each a long loop of sparkling chain hangs down, each suspending a flat metal
-plate, a careful representation of the scales normally used for weighing and
-measuring.
+scales~
+adv:world:2722/scales
 ~
 E
-several benches~
-   These benches are simple in design, barely more than wooden slabs, fastened
-to the stony walls and worn in places.
+benches~
+adv:world:2722/benches
 ~
 S
 #2722
 Cavernous Hot Spring~
-   This cavern looks almost as though it was naturally hollowed at some point,
-perhaps by a gushing flood of water.  The walls on either side have collapsed
-though, allowing only a small stream to flow through the room.  Heat makes the
-air seem to shimmer, and the sound of dripping echoes off the jagged walls.  A
-small row of towels are hung neatly to the side, along with some lumps of
-sweet-smelling soap.
 ~
 27 13 0 0 0 0
 D2
-   A large cave stands to the south, a tall sculpture only just visible through
-the swirling droplets of water.
 ~
 ~
 0 0 2721
 E
-lumps soap~
-   These appear to have been mashed together out of some homemade substance and
-used as soap.  Several of the slippery lumps sit in crevices along the spring.
-
+soap~
+adv:world:2722/soap
 ~
 E
 towels~
-   These towels look as though they were once clean and fluffy, but now are
-little more than brown rags, used solely for getting the job done.
+adv:world:2722/towels
 ~
 S
 #2723
 Sleeping Hollows~
-   The air is warm and hazy with moisture, and a thick carpet of lush green
-moss covers the floor.  On closer inspection, several cubicle-like hollows can
-be seen carved into the walls.  A few trailing vines act as ladders to the ones
-nearest the roof, and inside the lower ones tufts of fresh and dry moss can be
-seen heaped together as bedding.
 ~
 27 9 0 0 0 0
 D0
-   A small opening leads into a very tiny hollow, barely big enough for a small
-memlin to move comfortably around in.
 ~
 ~
 0 0 2724
 D1
-   The way grows brighter, a circle of benches only just visible, along with a
-tall sculpture rising from the ground.
 ~
 ~
 0 0 2721
 E
-trailing vines~
-   These dark veiny tendrils weave their way along the walls, providing firm
-support for anyone who would wish to climb inside the higher hollows.
+vines~
+adv:world:2723/vines
 ~
 E
-cubicle-like hollows~
-   These little carved hollows seem to be used as bunk beds, comfortable looking
-arrangements of moss and bracken fluffed together into bedding piles.
+hollows~
+adv:world:2723/hollows
 ~
 S
 #2724
 Tiny Hollow~
-   The space here is so small it can hardly be considered a room.  More like a
-cubicle, the ceiling is so low it is only comfortable to lie in.  The rock
-walls have been carefully sanded smooth and child's drawings hang on the wall.
-A few scattered toys stick out of the moss bedding and a tiny chair sits in the
-corner.
 ~
 27 9 0 0 0 0
 D2
-   Dark green mosses carpet the way south, the larger cavern dim and hot with
-humidity.
 ~
 ~
 0 0 2723
 E
 drawings~
-   These drawings look meticulously done, many of the papers depicting the sun
-and the moon.  A few of the newer ones show memlin stick-figures wielding picks
-and digging.
+adv:world:2724/drawings
 ~
 E
 toys~
-   Several basic children's toys lie scattered around, a bright pink ball
-particularly catches the eye, as does a rather beautiful painted doll.
+adv:world:2724/toys
 ~
 S
 #2725
 Kitchen Pantry~
-   Rows of shelves line the walls, supporting the weight of various jars and
-bowls and various preserved meats dangle from hooks in the walls.  The ceiling
-too, is obscured by dried spices and herbs, filling the air with a heady
-mixture of scents.  A dip in the middle of the roof allows a strange tubed
-contraption to collect the dripping condensation.
 ~
 27 8 0 0 0 0
 D2
@@ -888,10 +705,6 @@ D2
 S
 #2726
 Jade Archway~
-   Smooth jadestone frames the entranceway here, the obvious work of many
-talented sculptors.  Smooth green and almost phosphorescent, the massive arch
-is the only thing approaching light in this room.  All else extends coldly and
-ominously into darkness.
 ~
 27 8 0 0 0 0
 D0
@@ -909,10 +722,6 @@ D5
 S
 #2727
 Great Marble Hall~
-   Eerily cold, this great hall seems to breathe its own icy breath upon any
-intruders.  Delicate patterns of crystalline frost weave their way up the vast
-sculpted walls, complimenting the deep green veins of the polished marble
-floor.
 ~
 27 9 0 0 0 0
 D0
@@ -930,10 +739,6 @@ D2
 S
 #2728
 Great Marble Hall~
-   The vast hall continues on in almost every direction, each tiny noise
-amplified by the smooth walls, and emerald-flecked marble floor.  Darkness
-closes like a predator on the periphery of vision, shrouding the finer details
-of the place in blackness.
 ~
 27 9 0 0 0 0
 D0
@@ -951,10 +756,6 @@ D3
 S
 #2729
 Great Marble Hall~
-   The large hall seems to glower with flickering shadows, darkness hanging
-deep and foreboding about the place as though a living entity.  A cool chill
-swirls about the place, the slightest sound echoing off the distant, unyielding
-walls and ceiling.
 ~
 27 9 0 0 0 0
 D0
@@ -968,10 +769,6 @@ D3
 S
 #2730
 Great Marble Hall~
-   Glistening obsidian pillars support the towering roof here, extending so
-high that they seem to reach endlessly into night.  Perfectly flawless and
-diamond-hard they seem almost as indestructable as the mountainous cavern
-itself.
 ~
 27 9 0 0 0 0
 D1
@@ -989,10 +786,6 @@ D5
 S
 #2731
 Great Marble Hall~
-   Great black columns extend off to the west, only partially supporting a
-massive staircase here.  Deep forest green colors swirl about the floor,
-reflecting the surroundings perfectly on the polished surface.  The great stone
-walls chiseled almost to glassy smoothness.
 ~
 27 9 0 0 0 0
 D2
@@ -1010,9 +803,6 @@ D4
 S
 #2732
 Bottom of a Spiral Stair~
-   This stair extends ominously and blindly into overwhelming darkness above.
-Each high step is polished and sculpted to a slippery razor-sharp edge and only
-the one-sided banister gives any indication that it may be safe to climb.
 ~
 27 9 0 0 0 0
 D2
@@ -1026,10 +816,6 @@ D5
 S
 #2733
 Spiral Stair~
-   The stair curves elegantly around, meticulously carved out of the raw
-mountainside itself.  Glisteningly smooth, the rich deposits of chromite ore
-give it a deep silvery-black lustre, making it even harder to see beyond the
-darkness that shrouds each step.
 ~
 27 9 0 0 0 0
 D0
@@ -1043,10 +829,6 @@ D1
 S
 #2734
 Spiral Stair~
-   The chromite darkness of the stair here is streaked through with the
-jade-like green of the mineral Serpentine.  Apart from its obvious ornamental
-beauty, the metamorphic nature of this stone indicates that at one time intense
-heat flowed through this area.
 ~
 27 9 0 0 0 0
 D0
@@ -1060,10 +842,6 @@ D3
 S
 #2735
 Top of a Spiral Stair~
-   High above the cavern floor, this vantage point would give a spectacular
-view of the regal surroundings if they were not so shrouded in dark.  Faded
-smoke stains smear the mountainous walls here, and tiny black garnets sprout
-from the rock, the products of some past raging inferno.
 ~
 27 13 0 0 0 0
 D2
@@ -1077,9 +855,6 @@ D4
 S
 #2736
 Icy Dome~
-   This entire massive space has been excavated from within a natural glacier
-of ice.  Cool air wafts about the place and the walls and ceiling are glassy
-smooth as though this cavern were simply melted away.
 ~
 27 8 0 0 0 0
 D1
@@ -1098,9 +873,6 @@ S
 T 2743
 #2737
 Icy Dome~
-   The icy floor here looks particularly thin, strange movements stirring
-beneath as though something were frozen into the glacier itself.  Frost weaves
-its way up the walls, gilding delicate silver patterns around the dome.
 ~
 27 8 0 0 0 0
 D2
@@ -1114,9 +886,6 @@ D3
 S
 #2738
 Icy Dome~
-   A cool wind moans gently from the east, filling the cavern with the sounds
-of wailing.  Tiny crystals of ice sprinkle from the ceiling with each breeze,
-tinkling like chimes as they hit the floor and shatter into pieces.
 ~
 27 8 0 0 0 0
 D0
@@ -1134,9 +903,6 @@ D3
 S
 #2739
 Icy Dome~
-   Natural light flows unhindered through the room, faint shapes of the
-surrounding mountainous range visible through the panoramic wall of ice that
-curves completely around this gigantic dome.
 ~
 27 8 0 0 0 0
 D0
@@ -1150,10 +916,6 @@ D1
 S
 #2740
 Shimmering Glacier~
-   Almost at the peak of the mountain, the entire untouched slope spreads
-infinitely below, preserved within frozen cobwebs of time.  Dancing and
-shifting all around the sky, spectacular blue and green aurora borealis splash
-their colors upon the vast white canvas of snow.
 ~
 27 4 0 0 0 0
 D3
@@ -1163,10 +925,6 @@ D3
 S
 #2741
 Swirling Mists~
-   Thick moisture swirls about the room, filling it with a blue-green haze,
-through which nothing can be seen.  Dark figures quiver eerily on the periphery
-of vision, and the mist itself seems to coalesce into strange shapes, wispy
-tendrils weaving as though to some unheard music.
 ~
 27 13 0 0 0 0
 D0
@@ -1182,11 +940,6 @@ T 2700
 T 2723
 #2742
 Cavern of Shadows~
-   Silhouettes flit about the stone walls in an elaborate dance of darkness and
-light, shadows snaking up the walls and across the arched ceiling.  The open
-cavern reveals no source of the ghostly figures and it almost seems as though
-they have a life of their own, their alien forms twisting and weaving in
-perpetual motion as the illumination throughout the cave flickers.
 ~
 27 137 0 0 0 0
 D0
@@ -1202,11 +955,6 @@ T 2723
 T 2733
 #2743
 Center of the Twilight Temple~
-   A faint amber glow emanates from a large stone in the center of the room
-pulsing a visual rhythm of light throughout the cavern.  Dark azurite encrusts
-the rounded walls, filling the room with the tranquil sapphire hue of twilight.
-The roof of the cave is high and peaks into a slight dome, tiny crystalized
-stalactites bejewelling the ceiling and reflecting the light like stars.
 ~
 27 152 0 0 0 0
 D0
@@ -1252,10 +1000,6 @@ D2
 S
 #2745
 Path of Dawn~
-   Pieces of brightly colored glass make up a narrowly winding path.  Fresh
-moss grows from the ground and walls, sprinkled with a dew-like moisture and
-elaborate paintings of the rising sun accompanied with dawn colors decorates
-the corridor.
 ~
 27 136 0 0 0 0
 D1
@@ -1270,10 +1014,6 @@ S
 T 2723
 #2746
 Chamber of Awakening~
-   Golden hues of life and warmth flood this cavern, making it glow as if
-alight with sunfire.  The atmosphere seems immensely energized, almost
-prickling with some sort of static, and the place itself seems to hum quietly,
-tiny sparks igniting randomly in the air.
 ~
 27 136 0 0 0 0
 D2
@@ -1288,12 +1028,6 @@ S
 T 2723
 #2747
 The Depths of Fantasy~
-   Nothing seems real in this room, filled with a vague fog it is hard to focus
-on anything tangible.  Imagination seems to instantly materialise as dancing
-mirages, piles of treasures appearing and disappearing, glimpses of besotted
-lovers, of smiling families, of beauty, bejewelled castles and powerful thrones
-shaping themselves in the mist as though every lingering daydream found its way
-into this room.
 ~
 27 136 0 0 0 0
 D0
@@ -1316,10 +1050,6 @@ S
 T 2723
 #2748
 Place of Peace~
-   Murmuring water trickles lazily through a crack in the wall, forming a small
-pool on the ground that sends ripples of light reflecting throughout the cave.
-Soft moss and dried bracken carpet the floor, filling the air with a soothing
-green scent.
 ~
 27 136 0 0 0 0
 D3
@@ -1330,10 +1060,6 @@ S
 T 2723
 #2749
 Boundary of Belief~
-   A feeling of coldness pervades the air here, harsh white walls standing
-undecorated on every side of the room.  Only two White Ash trees grow smoothly
-from the ground, their heads bowed to cross each other, forming the frame for a
-flawless glass mirror in the center of the room.
 ~
 27 136 0 0 0 0
 D1
@@ -1344,10 +1070,6 @@ S
 T 2723
 #2750
 All That is Light~
-   It is impossible to see the size or shape of the room as a blinding white
-light shines from an equally invisible source.  No shadows or colors of any
-sort are evident, only the overwhelming glow of illumination in every
-direction.
 ~
 27 136 0 0 0 0
 D0
@@ -1358,10 +1080,6 @@ S
 T 2723
 #2751
 Path of Dusk~
-   Deep blue agate has been broken into shards and sculpted into a winding
-mosaic path.  Sapphire streaks glisten darkly in the cavern walls and the sound
-of crickets chirping echoes faintly though none can be seen.  Splashes of
-silver portray the rising of the moon, and emerging of the stars.
 ~
 27 137 0 0 0 0
 D1
@@ -1376,10 +1094,6 @@ S
 T 2723
 #2752
 Chamber of Rest~
-   Dimmed and silent, this room is sleep-inducingly warm.  Though a slight
-breeze wafts about, the otherwise muggy air seems unbearably close, clinging
-like a smothering film to everything it touches.  Soft, dark moss carpets the
-entire floor, and a slight sticky residue dampens the oddly stained walls.
 ~
 27 137 0 0 0 0
 D1
@@ -1394,10 +1108,6 @@ S
 T 2723
 #2753
 The Depths of a Dream~
-   Dark mist fills this room, as though it were in the midst of a stormcloud
-and slight rumbling vibrates the floor and walls.  In the smoky air, it seems
-as though strange creatures come to life, distorted faces and whispering voices
-linger just on the periphery of perception.
 ~
 27 137 0 0 0 0
 D0
@@ -1420,10 +1130,6 @@ S
 T 2723
 #2754
 Boundary of Intuition~
-   Dark and brooding charcoal walls line this cavern, adding depth to the long
-shadows.  In the center of the room two gnarled trees of Black Ash twist into
-each other, a shattered mirror embedded between them, shards of glass
-sprinkling the floor around.
 ~
 27 137 0 0 0 0
 D3
@@ -1434,10 +1140,6 @@ S
 T 2723
 #2755
 Place of Passion~
-   Red quartz glints here and there in the dark walls, giving the impression of
-flickering fire when any light falls their way.  Smouldering heat seems to
-emanate from the floor, steam rising lazily out of holes in the ground, filling
-the cavern with the sound of slow breathing.
 ~
 27 141 0 0 0 0
 D1
@@ -1448,10 +1150,6 @@ S
 T 2723
 #2756
 All That is Dark~
-   Nothing but a black pervading darkness fills this room.  Like the inky
-depths of an inescapable abyss, not even the faintest flicker penetrates this
-place.  In fact the dark seems to have a life of its own, actively swallowing
-any potential source of light.
 ~
 27 137 0 0 0 0
 D0
@@ -1570,13 +1268,6 @@ D3
 S
 #2763
 A Lonely Cave~
-   A large dark cavern curves gradually around, the jagged surfaces of the rock
-echoing quietly with the sounds of continuous dripping.  Gently glowing flora
-cast the place in an eerie green hue, and a luminous pool in the center of the
-room sends veins of light rippling and dancing up the sloping walls and across
-the ceiling.  Some sort of sort of phosphorus sap has been used to paint a
-large circle all the way around the center of the room, the same substance
-marking strange symbols along the walls.
 ~
 27 140 0 0 0 0
 D1
@@ -1587,10 +1278,7 @@ S
 T 2718
 T 2754
 #2764
-@RSPLAT!!!@n~
-   The only glimpse you get of this dreary cavern is the sight of it being
-liberally decorated with everything that used to make up the insides of your
-body.
+SPLAT!!!~
 ~
 27 0 0 0 0 0
 S
@@ -2171,10 +1859,6 @@ D4
 S
 #2798
 A Little Forest Clearing~
-   Tall, lean trees grow sparsely here, several large stumps protruding from the
-ground, the aftermath of a felling in recent years.  Brown grasses rustle
-restlessly in the somewhat smoky air, and the peaks of a mountain range are
-only just visible to the north.
 ~
 27 0 0 0 0 3
 D0
