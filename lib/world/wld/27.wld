@@ -40,24 +40,50 @@ D5
 ~
 0 0 2798
 E
-spoilers~
-   Ahhh, cheater!!  Don't you want to enjoy the zone?!  *sniff*, ok, if you
-really have to look there are a few little secrets listed here to spoil your
-zone exploring pleasure.  Just type look # to look at each one.
-1: Temple Entrance Puzzle
-2: Lost Child Puzzle
-3: Goethite Shackle
-4: Girl who Transforms to Doll
-5: Color-changing Shard of Glass
-6: Defeating the Sorceress
-7: Getting the Orb
+7~
+   The orb is only kept in one place, held by the skeletal creature in room
+2763.  The only problem is that the way in is a one way exit, the only other
+ways out are a death trap to the east..  Or to kneel to the creature so that he
+teleports you out.  In order to get the orb you must kill the creature, which
+then leaves you trapped there...  Or does it?  ;-) There is a memlin child in
+room 2722 who will explain to you the wonders of Dynar magic - namely that a
+glowing circle works as a portal.  So, all you need to do is kill the creature,
+take the orb and KNEEL CIRCLE to get out.
 ~
 E
-1~
-   The northern exit in room 2707 will normally repel you, causing you to sit
-down if you try to enter.  When you stand up, the resident memlin will explain
-that only the enslaved may enter.  This means..  You guessed it, you have to be
-wearing the Goethite shackle to be allowed to pass.
+6~
+   The Sorceress does two main things while fighting.  First, she will randomly
+cause a circle of fire to flare up, that will damage you if you try to flee or
+exit the room.  Second, she will occasionally use her staff to fireball anyone
+attacking her.  If you kill her in the normal way, her staff will remain behind
+and reincarnate her after a few minutes.  The only way to permanently get rid of
+her, and get ahold of her items, is to get the glowing orb from the skeletal
+creature in room 2763.  Once you have the orb, you must defeat the sorceress in
+the normal way and then USE ORB as soon as she is gone and only her staff
+remains.  This will dissolve the remaining fire elemental and kill the sorceress
+permanently.  It will also leave behind everything she was wearing.  By the way,
+her fiery dress will burn whoever wears it, unless they are also wearing the
+crystal nymph ring.
+~
+E
+5~
+   The shard of glass (2727) that loads in room 2754 will change colors and
+display a message when you pick it up.  The color/message is different for
+each class of player.
+~
+E
+4~
+   Upon entering room 2742, a little girl will appear and transform herself
+into a doll (2723).  This doll when kept in your inventory will perform attacks
+randomly when you fight.  It will do this three times and then change back into
+a girl who runs away.  (The doll will only load once in this room until you
+either use up its three attacks, or pass room 2702)
+~
+E
+3~
+   The Goethite shackle (2708) when worn, cannot be removed except for in the
+center of the Twilight Temple (2743) where the Keeper will remove it
+automatically for you.
 ~
 E
 2~
@@ -76,50 +102,24 @@ you found her.  Examining those floorboards (room 2719) will reveal a hidden key
 that allows passage through the glassygates into the Sorceress' palace area.
 ~
 E
-3~
-   The Goethite shackle (2708) when worn, cannot be removed except for in the
-center of the Twilight Temple (2743) where the Keeper will remove it
-automatically for you.
+1~
+   The northern exit in room 2707 will normally repel you, causing you to sit
+down if you try to enter.  When you stand up, the resident memlin will explain
+that only the enslaved may enter.  This means..  You guessed it, you have to be
+wearing the Goethite shackle to be allowed to pass.
 ~
 E
-4~
-   Upon entering room 2742, a little girl will appear and transform herself
-into a doll (2723).  This doll when kept in your inventory will perform attacks
-randomly when you fight.  It will do this three times and then change back into
-a girl who runs away.  (The doll will only load once in this room until you
-either use up its three attacks, or pass room 2702)
-~
-E
-5~
-   The shard of glass (2727) that loads in room 2754 will change colors and
-display a message when you pick it up.  The color/message is different for
-each class of player.
-~
-E
-6~
-   The Sorceress does two main things while fighting.  First, she will randomly
-cause a circle of fire to flare up, that will damage you if you try to flee or
-exit the room.  Second, she will occasionally use her staff to fireball anyone
-attacking her.  If you kill her in the normal way, her staff will remain behind
-and reincarnate her after a few minutes.  The only way to permanently get rid of
-her, and get ahold of her items, is to get the glowing orb from the skeletal
-creature in room 2763.  Once you have the orb, you must defeat the sorceress in
-the normal way and then USE ORB as soon as she is gone and only her staff
-remains.  This will dissolve the remaining fire elemental and kill the sorceress
-permanently.  It will also leave behind everything she was wearing.  By the way,
-her fiery dress will burn whoever wears it, unless they are also wearing the
-crystal nymph ring.
-~
-E
-7~
-   The orb is only kept in one place, held by the skeletal creature in room
-2763.  The only problem is that the way in is a one way exit, the only other
-ways out are a death trap to the east..  Or to kneel to the creature so that he
-teleports you out.  In order to get the orb you must kill the creature, which
-then leaves you trapped there...  Or does it?  ;-) There is a memlin child in
-room 2722 who will explain to you the wonders of Dynar magic - namely that a
-glowing circle works as a portal.  So, all you need to do is kill the creature,
-take the orb and KNEEL CIRCLE to get out.
+spoilers~
+   Ahhh, cheater!!  Don't you want to enjoy the zone?!  *sniff*, ok, if you
+really have to look there are a few little secrets listed here to spoil your
+zone exploring pleasure.  Just type look # to look at each one.
+1: Temple Entrance Puzzle
+2: Lost Child Puzzle
+3: Goethite Shackle
+4: Girl who Transforms to Doll
+5: Color-changing Shard of Glass
+6: Defeating the Sorceress
+7: Getting the Orb
 ~
 S
 #2701
@@ -131,7 +131,7 @@ from the opening, and a faint sound of clanging can be heard from within.
 Large amounts of rubble are piled up at the entrance as though there has been a
 lot of digging activity.
 ~
-27 12 0 0 0 0
+27 24 0 0 0 0
 D0
    The cave is too dark to see very far inside, but figures can be glimpsed
 moving in and out of shadows.
@@ -145,9 +145,9 @@ air wafting from the branches.
 ~
 0 0 2798
 E
-cave~
-   This open cave is so dark you can hardly see inside, but silent figures can
-be seen lurking just within the shadows.
+trees~
+   The trees seem to close heavily around the cave entrance, almost concealing
+it as though willed by some magic to do so.
 ~
 E
 rubble piles~
@@ -155,9 +155,9 @@ rubble piles~
 the surrounding air.
 ~
 E
-trees~
-   The trees seem to close heavily around the cave entrance, almost concealing
-it as though willed by some magic to do so.
+cave~
+   This open cave is so dark you can hardly see inside, but silent figures can
+be seen lurking just within the shadows.
 ~
 S
 #2702
@@ -167,7 +167,7 @@ edges stick out from the stone walls as though it has been dug in a hurry, and
 a thin slime coats every surface, sticky moisture hanging in the air.  From far
 below, sounds of footsteps and the clanging of iron on rock can be heard.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D2
    Fresh air seems to be wafting from this direction, and the cave entrance can
 be spotted a little further along, opening into a thick forest.
@@ -195,7 +195,7 @@ down to the bottom at the slightest disturbance.  The air here is suffocatingly
 humid and this is intensified by the wafts of heat coming from the lower end of
 the passage.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D0
    A small puddle marks the end of the passage where the floor flattens out
 into what appears to be a larger room.
@@ -224,7 +224,7 @@ has been passed through many times.  Sharp stalactites hang down like teeth
 from the entrance of each connecting tunnel, giving the impression of standing
 in a creature's jaws.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
    A puff of dust hangs about this small entrance into a dimly lit cave and
 every now and again the clang of a metal object being dropped can be heard.
@@ -250,16 +250,17 @@ flickering within and a thin layer of sand covers the floor.
 ~
 0 0 2706
 E
-sharp stalactites~
-   These mineral encrustations look to have formed over many months or even
-years, jagged and sparkling like dry icicles.
-~
-E
 pile rocks~
    This pile of rocks has a strange powdery coating, the pale yellowish color
 and the surrounding smell indicates that it might be sulfur.
 ~
+E
+sharp stalactites~
+   These mineral encrustations look to have formed over many months or even
+years, jagged and sparkling like dry icicles.
+~
 S
+T 3106
 #2705
 Beneath the Roots~
    This large passage is lined with the branching roots of an ancient tree.
@@ -268,7 +269,7 @@ to the cavern walls by a natural dribble of resin that has subsequently
 hardened.  This gives the tunnel an almost gilded appearance, delicate veins of
 smooth glassy amber lining its length.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D1
    The tunnel carries onward, curving gently around into darkness so that
 nothing can be seen ahead.
@@ -289,7 +290,7 @@ moisture and making it easier to walk without slipping.  A flickering lantern is
 fixed here, sending shadows dancing across the walls.  Small memlin footprints
 lead to the north.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    Small memlin footprints lead this way, growing slightly more faded as the
 sandy ground becomes carpeted with moss.
@@ -303,14 +304,14 @@ entrance like menacing teeth.
 ~
 0 0 2704
 E
-footprints~
-   These tiny footprints, leading to the north, are unusually small but
-unmistakeably memlin, indicating the presence of children in these caverns.
-~
-E
 flickering lantern~
    This lantern has been attached to the wall so that it cannot be taken.  A
 bright flame burns steadily, illuminating the way.
+~
+E
+footprints~
+   These tiny footprints, leading to the north, are unusually small but
+unmistakeably memlin, indicating the presence of children in these caverns.
 ~
 S
 #2707
@@ -322,7 +323,7 @@ an old mine cart.  This room is far smaller than is comfortable, and a
 lingering cloud of dust makes it feel even more claustrophobic.  To the north a
 small back door is partially covered by a ragged curtain.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D0
    A strange mist surrounds the northern curtain, circulating slowly but not
 dispersing, as if it guarded the way.
@@ -336,9 +337,9 @@ and an unpleasant smell drifts from this direction.
 undefined~
 0 0 2704
 E
-curtain~
-   A strange mist surrounds the northern curtain, circulating slowly but not
-dispersing, as if it guarded the way.
+tools~
+   Various picks, shovels, and the occasional rusted knife lie abandoned here,
+unusable by the look of them.
 ~
 E
 mine cart~
@@ -346,12 +347,11 @@ mine cart~
 and on closer inspection one of the wheels looks cracked beyond repair.
 ~
 E
-tools~
-   Various picks, shovels, and the occasional rusted knife lie abandoned here,
-unusable by the look of them.
+curtain~
+   A strange mist surrounds the northern curtain, circulating slowly but not
+dispersing, as if it guarded the way.
 ~
 S
-T 2717
 #2708
 A Curving Passage~
    This tunnel curves gently around, growing larger as it proceeds deeper into
@@ -360,7 +360,7 @@ carefully, sanded smooth and polished so that the silvery hue of the rock has a
 metallic shine to it.  Somewhere nearby, several drops of liquid can be heard
 dripping constantly onto rock.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    A sound of dripping echoes prominently from this end of the tunnel, and a
 slight reddish stain spreads across the floor.
@@ -381,7 +381,7 @@ echoes loudly on the smooth surface of the rock floor.  Numerous drops of liquid
 they weep their way slowly down, collecting on the
 ground.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
    A cool white light emanates from this end of the tunnel, and the air seems to
 grow colder as it is approached, perhaps the influence of some unwelcoming
@@ -404,7 +404,7 @@ into the tunnel.  Diamond-hard and flawless, they seem strikingly out of place
 in the dusty passage, illuminating it with refracted light.  Red beryll
 is embedded carefully into the glassy surface, inscribing some evil spell.
 ~
-27 12 0 0 0 0
+27 24 0 0 0 0
 D0
    A cool draft breezes from this direction, and the cold light of the gates
 gives the impression that the tunnel turns to ice.
@@ -432,7 +432,7 @@ that seems to reflect an inner source of light.  Colors dance and sparkle on
 the faceted surface of the walls and the air here is cool enough to chill
 breath.  To the south, two large clear gates block the exit.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D2
    A bright glow shimmers from this end of the passage, tinted only by the red hue of some gem refracting light.
 ~
@@ -459,7 +459,7 @@ welcome scent of greenery that freshens the atmosphere.  A bubbling fountain
 murmurs quietly at one end of the room, and a prominent sign displays dates and
 times of apparent significance.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
    The tunnel seems to get much narrower and the roof much lower, sticky slime
 indicates that this passage is quite slippery.
@@ -485,13 +485,9 @@ unseen light source.
 ~
 0 0 2713
 E
-tiny fading footprints~
-   These little footprints seem to vanish mysteriously to the east.
-~
-E
-sign~
-   This sign has been filled with various words and numbers that appear to be
-dates, but not particularly legible or significant to non-memlins.
+grassy moss~
+   These tiny tufts of moss give a welcome splash of green to the sandy brown
+of these tunnels, scenting the air subtly as well.
 ~
 E
 large round bench~
@@ -500,11 +496,16 @@ memlins, though judging by its slightly buckling legs, it has probably held
 more.
 ~
 E
-grassy moss~
-   These tiny tufts of moss give a welcome splash of green to the sandy brown
-of these tunnels, scenting the air subtly as well.
+sign~
+   This sign has been filled with various words and numbers that appear to be
+dates, but not particularly legible or significant to non-memlins.
+~
+E
+tiny fading footprints~
+   These little footprints seem to vanish mysteriously to the east.
 ~
 S
+T 3106
 #2713
 Mushroom Path~
    A sandy trail winds continuously down each end of the tunnel, broken only
@@ -512,7 +513,7 @@ here and there with a small sprouting mushroom.  The fungi seem almost to be
 cultivated here as a source of light, for they illuminate the darkness with a
 soft green glow, thriving off the ever present film of mineral-rich moisture.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    A floral scent wafts from this direction, and the carpet of moss becomes
 more lush.
@@ -532,6 +533,7 @@ though this route is more regularly travelled.
 ~
 0 0 2715
 S
+T 3106
 #2714
 An Underground Garden~
    This cave has been transformed into a miniature wilderness of various plants
@@ -540,7 +542,11 @@ allowing natural sunlight and warmth to fill the room.  Creeping vines twist
 their way across the walls, along with splashes of pink and purple flora.  The
 intense evaporation causes a constant indoor rain to drip from the ceiling.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
+D0
+~
+~
+0 0 -1
 D2
    A green glow comes from this direction, and the rich carpet of grass gives
 way to a sandy path.
@@ -548,15 +554,15 @@ way to a sandy path.
 ~
 0 0 2713
 E
+thick crystal pane~
+   This pane acts like a skylight, allowing the intense heat and light of the
+sun to flood the room, magnified by the refracting ability of the crystal.
+~
+E
 creeping vines~
    These vines look fantastically healthy and seem to be growing at a fast
 rate, wall-papering the sides and ceiling of the cave with various shades of
 green.
-~
-E
-thick crystal pane~
-   This pane acts like a skylight, allowing the intense heat and light of the
-sun to flood the room, magnified by the refracting ability of the crystal.
 ~
 S
 #2715
@@ -567,7 +573,7 @@ waft on the air, and children can be heard playing nearby.  The sandy floor
 takes on a greenish hue where an abundance of soft moss begins to carpet the
 area.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    Aromatic smells of various cooking foods waft from this direction, and the
 sound of simmering pots can be heard.
@@ -593,6 +599,7 @@ be heard along with the occasional child's laugh.
 ~
 0 0 2721
 S
+T 3106
 #2716
 A Communal Kitchen~
    This large cave has a long pipe leading through the ceiling from the
@@ -601,7 +608,7 @@ pot sits on the counter emitting some unnameable aroma.  Huge stacks of plates
 indicate the usage of this kitchen by the majority, if not the entire memlin
 population.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    The ceiling dips lower here and framing the entrance are many decorative
 herbs, but not nearly enough to create the overpowering mix of scents that
@@ -616,9 +623,9 @@ movement filling the air.
 ~
 0 0 2715
 E
-huge stacks plates~
-   Most of these plates are smoothly carved from wood, chipped here and there in
-places as if well used, most stacked in dirty piles waiting to be cleaned.
+kitchen utensils~
+   Various pieces of cutlery lie strewn apart, long handled spoons and sharp
+chopping knives, all in various stages of use.
 ~
 E
 large pot~
@@ -626,9 +633,9 @@ large pot~
 smell as every now and again something bobs to the surface and dips back down.
 ~
 E
-kitchen utensils~
-   Various pieces of cutlery lie strewn apart, long handled spoons and sharp
-chopping knives, all in various stages of use.
+huge stacks plates~
+   Most of these plates are smoothly carved from wood, chipped here and there in
+places as if well used, most stacked in dirty piles waiting to be cleaned.
 ~
 S
 #2717
@@ -639,7 +646,7 @@ horticulture in memlin living.  Though looking closer, these tools appear
 neglected and rusted, while newer and more recently used mining picks occupy
 the majority of the small space.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
    The area beyond looks well-travelled and well-lit, the sounds of life and
 activity filling the air.
@@ -647,16 +654,16 @@ activity filling the air.
 ~
 0 0 2715
 E
-buckets pods seeds~
-   A variety of green husks and several pouches of seeds spill carelessly into
-their bucket containers, some of them sprouting into tiny roots from the
-dampness.
-~
-E
 various tools watering cans rakes~
    These tools all seem to play a major role in gardening and growing various
 crops, most of them starting to rust and decay from what appears to be lack of
 care.
+~
+E
+buckets pods seeds~
+   A variety of green husks and several pouches of seeds spill carelessly into
+their bucket containers, some of them sprouting into tiny roots from the
+dampness.
 ~
 S
 #2718
@@ -666,7 +673,7 @@ that a fall here would mean definite injury, as indicated by the faded
 streaks on the rock.  A film of slimy moisture makes the ground even more
 treacherous to navigate, and the wisdom of staying here is questionable.
 ~
-27 9 0 0 0 0
+27 8 0 0 0 0
 D0
    The tunnel slopes downward, a slight breeze of hot humid air wafting up from
 below.
@@ -680,14 +687,14 @@ water filling the air.
 ~
 0 0 2712
 E
-film slimy moisture~
-   The ground glistens wetly, a combination of what looks to be mouldy water
-and weaving slug trails makes it appear very slippery indeed.
-~
-E
 faded streaks~
    It looks as if this place is a site of regular injury, old and new
 marks marring the otherwise shiny surface of the rock.
+~
+E
+film slimy moisture~
+   The ground glistens wetly, a combination of what looks to be mouldy water
+and weaving slug trails makes it appear very slippery indeed.
 ~
 S
 T 2711
@@ -698,7 +705,7 @@ remnants of broken toys and useless tools littering the floor.  Old cobwebs
 coat everything in a film of dust and time, but even the spider weavers seem to
 have forsaken this place, abandoning it and its contents to slow decay.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D3
    The door is so well designed that when it closes it blends seamlessly into
 the surrounding rock, making the cupboard appear inescapable.
@@ -706,10 +713,9 @@ the surrounding rock, making the cupboard appear inescapable.
 seamlessdoor~
 1 0 2712
 E
-old cobwebs~
-   These webs look to be years old, any beauty to their carefully woven
-structure long eroded, grayed and dimmed so that they are little more than
-fluttering ghosts in the breeze.
+broken toys~
+   A tiny clay doll's head lies in the dirt, its unblinking eyes coated in a
+delicate film of dust.
 ~
 E
 useless tools~
@@ -717,9 +723,10 @@ useless tools~
 ground, forgotten and left to rot.
 ~
 E
-broken toys~
-   A tiny clay doll's head lies in the dirt, its unblinking eyes coated in a
-delicate film of dust.
+old cobwebs~
+   These webs look to be years old, any beauty to their carefully woven
+structure long eroded, grayed and dimmed so that they are little more than
+fluttering ghosts in the breeze.
 ~
 S
 #2720
@@ -729,7 +736,7 @@ walls and making the air shimmer.  The slime everywhere seems to have congealed
 into sticky pools of fungus and mineral-saturated water, coating every jagged
 rock as though the cavern bleeds.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
    The way ahead is dimmed with the darkness of swirling debris, smoke and dust
 filling the air in waves of hot grimy air.
@@ -752,7 +759,7 @@ is heavy with humidity.  In the middle of the room there is a large stone
 sculpture of weighing scales depicting the central memlin belief of balance and
 moderation.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
    A gentle mist of moisture fills the entrance to this cavern, the lazy sound
 of stirring water coming from within.
@@ -772,17 +779,17 @@ extends into darkness.
 ~
 0 0 2723
 E
+several benches~
+   These benches are simple in design, barely more than wooden slabs, fastened
+to the stony walls and worn in places.
+~
+E
 large stone sculpture weighing scales~
    A tall spiralling column of metallic rock stretches almost to the roof of the
 cavern, two elegant silvery arms spreadeagling out from either side.  At the end
 of each a long loop of sparkling chain hangs down, each suspending a flat metal
 plate, a careful representation of the scales normally used for weighing and
 measuring.
-~
-E
-several benches~
-   These benches are simple in design, barely more than wooden slabs, fastened
-to the stony walls and worn in places.
 ~
 S
 #2722
@@ -794,7 +801,7 @@ air seem to shimmer, and the sound of dripping echoes off the jagged walls.  A
 small row of towels are hung neatly to the side, along with some lumps of
 sweet-smelling soap.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D2
    A large cave stands to the south, a tall sculpture only just visible through
 the swirling droplets of water.
@@ -802,15 +809,15 @@ the swirling droplets of water.
 ~
 0 0 2721
 E
+towels~
+   These towels look as though they were once clean and fluffy, but now are
+little more than brown rags, used solely for getting the job done.
+~
+E
 lumps soap~
    These appear to have been mashed together out of some homemade substance and
 used as soap.  Several of the slippery lumps sit in crevices along the spring.
 
-~
-E
-towels~
-   These towels look as though they were once clean and fluffy, but now are
-little more than brown rags, used solely for getting the job done.
 ~
 S
 #2723
@@ -835,14 +842,14 @@ tall sculpture rising from the ground.
 ~
 0 0 2721
 E
-trailing vines~
-   These dark veiny tendrils weave their way along the walls, providing firm
-support for anyone who would wish to climb inside the higher hollows.
-~
-E
 cubicle-like hollows~
    These little carved hollows seem to be used as bunk beds, comfortable looking
 arrangements of moss and bracken fluffed together into bedding piles.
+~
+E
+trailing vines~
+   These dark veiny tendrils weave their way along the walls, providing firm
+support for anyone who would wish to climb inside the higher hollows.
 ~
 S
 #2724
@@ -861,15 +868,15 @@ humidity.
 ~
 0 0 2723
 E
+toys~
+   Several basic children's toys lie scattered around, a bright pink ball
+particularly catches the eye, as does a rather beautiful painted doll.
+~
+E
 drawings~
    These drawings look meticulously done, many of the papers depicting the sun
 and the moon.  A few of the newer ones show memlin stick-figures wielding picks
 and digging.
-~
-E
-toys~
-   Several basic children's toys lie scattered around, a bright pink ball
-particularly catches the eye, as does a rather beautiful painted doll.
 ~
 S
 #2725
@@ -880,7 +887,7 @@ too, is obscured by dried spices and herbs, filling the air with a heady
 mixture of scents.  A dip in the middle of the roof allows a strange tubed
 contraption to collect the dripping condensation.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
@@ -893,7 +900,7 @@ talented sculptors.  Smooth green and almost phosphorescent, the massive arch
 is the only thing approaching light in this room.  All else extends coldly and
 ominously into darkness.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -907,6 +914,7 @@ D5
 ~
 0 0 2711
 S
+T 3106
 #2727
 Great Marble Hall~
    Eerily cold, this great hall seems to breathe its own icy breath upon any
@@ -914,7 +922,7 @@ intruders.  Delicate patterns of crystalline frost weave their way up the vast
 sculpted walls, complimenting the deep green veins of the polished marble
 floor.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -935,7 +943,7 @@ amplified by the smooth walls, and emerald-flecked marble floor.  Darkness
 closes like a predator on the periphery of vision, shrouding the finer details
 of the place in blackness.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -956,7 +964,7 @@ deep and foreboding about the place as though a living entity.  A cool chill
 swirls about the place, the slightest sound echoing off the distant, unyielding
 walls and ceiling.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -973,7 +981,7 @@ high that they seem to reach endlessly into night.  Perfectly flawless and
 diamond-hard they seem almost as indestructable as the mountainous cavern
 itself.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -987,6 +995,7 @@ D5
 ~
 0 0 2768
 S
+T 3106
 #2731
 Great Marble Hall~
    Great black columns extend off to the west, only partially supporting a
@@ -994,7 +1003,7 @@ massive staircase here.  Deep forest green colors swirl about the floor,
 reflecting the surroundings perfectly on the polished surface.  The great stone
 walls chiseled almost to glassy smoothness.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
@@ -1014,7 +1023,7 @@ Bottom of a Spiral Stair~
 Each high step is polished and sculpted to a slippery razor-sharp edge and only
 the one-sided banister gives any indication that it may be safe to climb.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
@@ -1031,7 +1040,7 @@ mountainside itself.  Glisteningly smooth, the rich deposits of chromite ore
 give it a deep silvery-black lustre, making it even harder to see beyond the
 darkness that shrouds each step.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1048,7 +1057,7 @@ jade-like green of the mineral Serpentine.  Apart from its obvious ornamental
 beauty, the metamorphic nature of this stone indicates that at one time intense
 heat flowed through this area.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1065,7 +1074,7 @@ view of the regal surroundings if they were not so shrouded in dark.  Faded
 smoke stains smear the mountainous walls here, and tiny black garnets sprout
 from the rock, the products of some past raging inferno.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
@@ -1081,7 +1090,7 @@ Icy Dome~
 of ice.  Cool air wafts about the place and the walls and ceiling are glassy
 smooth as though this cavern were simply melted away.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1095,14 +1104,14 @@ D5
 ~
 0 0 2735
 S
-T 2743
+T 3106
 #2737
 Icy Dome~
    The icy floor here looks particularly thin, strange movements stirring
 beneath as though something were frozen into the glacier itself.  Frost weaves
 its way up the walls, gilding delicate silver patterns around the dome.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D2
 ~
 ~
@@ -1118,7 +1127,7 @@ Icy Dome~
 of wailing.  Tiny crystals of ice sprinkle from the ceiling with each breeze,
 tinkling like chimes as they hit the floor and shatter into pieces.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1138,7 +1147,7 @@ Icy Dome~
 surrounding mountainous range visible through the panoramic wall of ice that
 curves completely around this gigantic dome.
 ~
-27 8 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1178,8 +1187,6 @@ D2
 ~
 0 0 2707
 S
-T 2700
-T 2723
 #2742
 Cavern of Shadows~
    Silhouettes flit about the stone walls in an elaborate dance of darkness and
@@ -1188,11 +1195,7 @@ cavern reveals no source of the ghostly figures and it almost seems as though
 they have a life of their own, their alien forms twisting and weaving in
 perpetual motion as the illumination throughout the cave flickers.
 ~
-27 137 0 0 0 0
-D0
-~
-~
-0 0 2743
+27 152 0 0 0 0
 D2
 ~
 ~
@@ -1201,7 +1204,7 @@ S
 T 2723
 T 2733
 #2743
-Center of the Twilight Temple~
+The Twilight Temple~
    A faint amber glow emanates from a large stone in the center of the room
 pulsing a visual rhythm of light throughout the cavern.  Dark azurite encrusts
 the rounded walls, filling the room with the tranquil sapphire hue of twilight.
@@ -1236,6 +1239,7 @@ sun.  The glow waxes and wanes rapidly, giving the gem the impression of a
 pulsing amber heart.
 ~
 S
+T 3106
 #2744
 Eyes of Truth~
    This cavern is immensely tall, the ceiling stretching so high that it cannot
@@ -1295,7 +1299,7 @@ lovers, of smiling families, of beauty, bejewelled castles and powerful thrones
 shaping themselves in the mist as though every lingering daydream found its way
 into this room.
 ~
-27 136 0 0 0 0
+27 152 0 0 0 0
 D0
 ~
 ~
@@ -1314,6 +1318,7 @@ D3
 0 0 2749
 S
 T 2723
+T 3106
 #2748
 Place of Peace~
    Murmuring water trickles lazily through a crack in the wall, forming a small
@@ -1321,7 +1326,7 @@ pool on the ground that sends ripples of light reflecting throughout the cave.
 Soft moss and dried bracken carpet the floor, filling the air with a soothing
 green scent.
 ~
-27 136 0 0 0 0
+27 152 0 0 0 0
 D3
 ~
 ~
@@ -1381,7 +1386,7 @@ breeze wafts about, the otherwise muggy air seems unbearably close, clinging
 like a smothering film to everything it touches.  Soft, dark moss carpets the
 entire floor, and a slight sticky residue dampens the oddly stained walls.
 ~
-27 137 0 0 0 0
+27 152 0 0 0 0
 D1
 ~
 ~
@@ -1399,7 +1404,7 @@ and slight rumbling vibrates the floor and walls.  In the smoky air, it seems
 as though strange creatures come to life, distorted faces and whispering voices
 linger just on the periphery of perception.
 ~
-27 137 0 0 0 0
+27 152 0 0 0 0
 D0
 ~
 ~
@@ -1425,7 +1430,7 @@ shadows.  In the center of the room two gnarled trees of Black Ash twist into
 each other, a shattered mirror embedded between them, shards of glass
 sprinkling the floor around.
 ~
-27 137 0 0 0 0
+27 152 0 0 0 0
 D3
 ~
 ~
@@ -1453,7 +1458,7 @@ depths of an inescapable abyss, not even the faintest flicker penetrates this
 place.  In fact the dark seems to have a life of its own, actively swallowing
 any potential source of light.
 ~
-27 137 0 0 0 0
+27 152 0 0 0 0
 D0
 ~
 ~
@@ -1466,7 +1471,7 @@ Heart of the Mines~
 rhythm of metal striking rock.  Small rocks and debris line either side of the
 path, which is thick with the muddy sludge of loose dirt and water.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1517,7 +1522,7 @@ Heart of the Mines~
 particles of grime that dance in the turbulent, smoky air.  An intensely acrid
 smell of sweat hangs heavily over the place, along with the metallic tang of raw minerals.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D0
 ~
 ~
@@ -1554,7 +1559,7 @@ towards the north end of the corridor where digging appears to be ongoing.
 Huge piles of loose rock and stone crowd the already cramped tunnel, and the
 choking smell of burning stifles the place.
 ~
-27 9 0 0 0 0
+27 24 0 0 0 0
 D1
 ~
 ~
@@ -1578,7 +1583,11 @@ the ceiling.  Some sort of sort of phosphorus sap has been used to paint a
 large circle all the way around the center of the room, the same substance
 marking strange symbols along the walls.
 ~
-27 140 0 0 0 0
+27 152 0 0 0 0
+D0
+~
+~
+0 0 2767
 D1
 ~
 ~
@@ -1629,7 +1638,11 @@ are battered and marred with hundreds of gashes.  A strange bitter smell lingers
 on the air, and a kind of energy prickles in the room as though traces of some
 powerful magic remain.
 ~
-27 13 0 0 0 0
+27 24 0 0 0 0
+D0
+~
+~
+0 0 -1
 D2
 ~
 IvoryDoor~
@@ -2176,7 +2189,7 @@ ground, the aftermath of a felling in recent years.  Brown grasses rustle
 restlessly in the somewhat smoky air, and the peaks of a mountain range are
 only just visible to the north.
 ~
-27 0 0 0 0 3
+27 16 0 0 0 3
 D0
 ~
 ~
@@ -2196,14 +2209,9 @@ tranquility of this place.
 ~
 27 8 0 0 0 0
 E
-test~
-   Move bounce
-~
-E
-glass fountain~
-   This carefully sculpted glass fountain allows an unhindered view of the
-smooth pebbles within, small drops of water splashing over the side as it
-trickles.
+wall-hung wall hung candles~
+   These tall elegant candles burn brightly, scarlet flickers of flame dancing
+upon the wax as if to some unheard rhythm.
 ~
 E
 beautiful bed~
@@ -2212,9 +2220,14 @@ master, various artistic depictions of love emerging from the flowing lines of
 the wood as if they had grown there.
 ~
 E
-wall-hung wall hung candles~
-   These tall elegant candles burn brightly, scarlet flickers of flame dancing
-upon the wax as if to some unheard rhythm.
+glass fountain~
+   This carefully sculpted glass fountain allows an unhindered view of the
+smooth pebbles within, small drops of water splashing over the side as it
+trickles.
+~
+E
+test~
+   Move bounce
 ~
 S
 $~

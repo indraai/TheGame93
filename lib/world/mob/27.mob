@@ -81,22 +81,21 @@ air, as though it were somehow filtering and replenishing it.
 E
 T 2703
 #2705
-armored guardian~
-an armored guardian~
-An armored guardian stands here, blocking the gates to the north.
+guard deva guarddeva d2705~
+GuardDEVA D2704~
+GuardDEVA D2705 is on duty.
 ~
    Tall and menacing, his body is completely covered with black iridescent
 armor that reveals none of his natural form.  Even his eyes are masked by the
 metal visor over his face, though somehow he seems to perceive his surroundings
 very well indeed.
 ~
-135226 0 0 0 64 0 0 0 -50 E
+135450 0 0 0 64 0 0 0 0 E
 16 18 3 3d2+200 1d2+3
 240 25600
-8 8 1
+8 8 0
 BareHandAttack: 3
 E
-T 2705
 T 2706
 #2706
 blind child small~
