@@ -1034,11 +1034,9 @@ ACMD(do_equipment)
     if (GET_EQ(ch, i)) {
       found = TRUE;
       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
-        send_to_char(ch, "\nequipment:%s\r", wear_where[i]);
-        show_obj_to_char(GET_EQ(ch, i), ch, SHOW_OBJ_SHORT);
+        send_to_char(ch, "\nequipment:%s:%s\r", wear_where[i], GET_EQ(ch, i)->short_description);
       } else {
-        send_to_char(ch, "\nequipment:%s\r", wear_where[i]);
-        send_to_char(ch, "\nSomething\r");
+        send_to_char(ch, "\nequipment:%s:something\r", wear_where[i]);
       }
     }
   }
