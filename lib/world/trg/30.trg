@@ -168,18 +168,26 @@ set stunned %actor.hitp%
 %send% %actor% The Devas must favor you this day.
 ~
 #3009
-Stock Cityguard - 3059, 60, 67~
+Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
 if !%self.fighting%
   set actor %random.char%
   if %actor%
-    if %actor.is_killer%
-      emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!!!!'
-      hit %actor.name%
+    if %actor.align% < 0
+      emote screams 'HEY!!! You're one of those EVIL PLAYERS!!!
+      * teleport to The Love Shack
+      %teleport% %actor% 28617
+
+    elseif %actor.is_killer%
+      emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!'
+      * teleport to The Love Shack
+      %teleport% %actor% 28617
+
     elseif %actor.is_thief%
-      emote screams 'HEY!!!  You're one of those PLAYER THIEVES!!!!!!'
-      hit %actor.name%
+      emote screams 'HEY!!!  You're one of those PLAYER THIEVES!!!'
+      * teleport to The Love Shack
+      %teleport% %actor% 28617
     end
     if %actor.fighting%
       eval victim %actor.fighting%

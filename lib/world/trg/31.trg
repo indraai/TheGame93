@@ -104,10 +104,21 @@ else
 end
 ~
 #3107
-Security Greeting~
-0 g 100
+SecurityDEVA Patrol~
+0 b 50
 ~
-wait 1
-tell %actor% Hello %actor.name%.
+say Indra Agency patrol. Here to ensure your safety and security.
+set actor %random.char%
+if %actor%
+  if %actor.align% < 0 || %actor.is_thief% || %actor.is_killer%
+    * teleport to The Love Shack
+    %teleport% %actor% 28617
+  end
+end
+
+* set patrol stuff
+wait 5 sec
+say Have a nice day!
+%random.dir%
 ~
 $~
