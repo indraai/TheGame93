@@ -1005,6 +1005,7 @@ ACMD(do_score)
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
     send_to_char(ch, "\nplayer:Summoned.\r");
 
+  /*
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     if (POOFIN(ch))
       send_to_char(ch, "\nin:%s %s\r", GET_NAME(ch), POOFIN(ch));
@@ -1018,6 +1019,7 @@ ACMD(do_score)
 
     send_to_char(ch, "\n%d\r", GET_OLC_ZONE(ch));
   }
+  */
 }
 
 ACMD(do_inventory)
