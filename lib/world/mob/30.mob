@@ -1,5 +1,5 @@
 #3000
-deva sage sagedeva~
+deva sage sagedeva d30 d3000~
 SageDEVA D3000~
 A SageDEVA walks around behind the counter, talking to himself.
 ~
@@ -12,7 +12,7 @@ He is equipped with fine clothing, and is wearing many fine rings and bracelets.
 8 8 0
 E
 #3001
-baker deva bakerdeva d3001~
+baker deva bakerdeva d30 d3001~
 BakerDEVA D3001~
 The BakerDEVA looks at you calmly, wiping flour from his face with one hand.
 ~
@@ -26,7 +26,7 @@ too many pastries.
 BareHandAttack: 1
 E
 #3002
-grocer deva grocerdeva devaforce d3002~
+grocer deva grocerdeva d30 d3002~
 GrocerDEVA D30002~
 A GrocerDEVA stands at the counter, with a patient look on his face.
 ~
@@ -38,7 +38,7 @@ A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 8 8 0
 E
 #3003
-craft deva makerdeva devaforce d3003~
+craft deva makerdeva d30 d3003~
 CraftDEVA D3003~
 A CraftDEVA D3003 is standing here.
 ~
@@ -50,7 +50,7 @@ He is a young CraftDEVA, who still has lots to learn but he is still eager to se
 8 8 0
 E
 #3004
-armor deva armordeva d3004~
+armor deva armordeva d30 d3004~
 ArmorDEVA D3004~
 ArmorDEVA D3004 stands here displaying his new (and previously owned) armors.
 ~
@@ -62,7 +62,7 @@ An old but very strong armorer.  He has made more suits of armor in his life tha
 8 8 0
 E
 #3005
-reception deva receptiondeva d3005~
+reception deva receptiondeva d30 d3005~
 ReceptionDEVA D3005~
 ReceptionDEVA D3005 is standing behind the counter here, smiling at you.
 ~
@@ -74,8 +74,8 @@ You notice a excited look in his face.  He looks like he is paid well and enjoys
 8 8 0
 E
 #3006
-captain deva captaindeva d3006~
-CaptainDEVA D3006~
+captain fancypants d30 d3006~
+Captain Fancy Pants~
 Mr. Captain Fancy Pants stands here, selling boats.
 ~
 This captain has seen more storms than you have cried tears.
@@ -86,7 +86,7 @@ This captain has seen more storms than you have cried tears.
 8 8 0
 E
 #3007
-sailor deva sailordeva devaforce d3007~
+sailor deva sailordeva d30 d3007~
 SailorDEVA D3007~
 SailorDEVA D3007 stands here, waiting to help you.
 ~
@@ -98,7 +98,7 @@ He looks like a strong, fit sailor.
 8 8 0
 E
 #3008
-mexi deva mexideva devaforce d3008~
+mexi deva mexideva d30 d3008~
 MexiDEVA D3008~
 MexiDEVA is here ready to take your order.
 ~
@@ -110,7 +110,7 @@ He looks like he may or may not have a green card.
 8 8 0
 E
 #3009
-water deva waterdeva devaforce d3009~
+water deva waterdeva d30 d3009~
 WaterDEVA D3009~
 WaterDEVA D3009 is standing behind the counter.
 ~
@@ -122,7 +122,7 @@ Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati Natural
 8 8 0
 E
 #3010
-mail deva maildeva devaforce d3010~
+mail deva maildeva d30 d3010~
 MailDEVA D3010~
 The head MailDEVA is standing here, waiting to help you with your mail.
 ~
@@ -134,7 +134,7 @@ The Postmaster seems like a happy old man.  He always on the job making sure ind
 8 8 0
 E
 #3011
-sales deva salesdeva devaforce d3011~
+sales deva salesdeva d30 d3011~
 SalesDEVA D3011~
 SalesDEVA D3011 is laden with gadgets and gizmos.
 ~
@@ -146,7 +146,7 @@ A combination of good business sense, charming personality, and good manners has
 8 8 0
 E
 #3012
-offering deva offeringdeva devaforce d3012~
+offering deva offeringdeva d30 d3012~
 OfferingDEVA D3013~
 OfferingDEVA D3013 is here looking out for those who need it.
 ~
@@ -160,7 +160,7 @@ those who have hit hard times and need a little boost.
 E
 T 3016
 #3013
-guide guidedeva deva devaforce d3013~
+guide guidedeva deva d30 d3013~
 GuideDEVA D3013~
 GuideDEVA D3013 is here to help. "tell guide help" for assistance.
 ~
@@ -177,8 +177,8 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #3020
-masters sage deva sagedeva~
-SageMASTER~
+masters sage deva sagedeva d30 d3020~
+SageMASTER D3020~
 Your SageMASTER is studying a spellbook while preparing to cast a spell.
 ~
 Even though your SageMaster looks old and tired, you can clearly see the
@@ -191,8 +191,8 @@ you notice that she is surrounded by a blue shimmering aura.
 8 8 0
 E
 #3021
-masters master monk deva monkdeva~
-MonkMASTER~
+masters master monk deva monkdeva d30 d3021~
+MonkMASTER D3021~
 Your MonkMaster is meditating here.
 ~
 You are in no doubt that this MonkMASTER is truly close to Indra; he has a
@@ -204,8 +204,8 @@ peaceful, loving look.  You notice that he is surrounded by a white aura.
 8 8 0
 E
 #3022
-masters master artist deva artistdeva~
-ArtistMASTER~
+masters master artist deva artistdeva d30 d3022~
+ArtistMASTER D3022~
 A Artist is sitting here, could he be a ArtistMASTER?
 ~
 You realize that whenever your MASTER moves, the way of the true artist.
@@ -217,8 +217,8 @@ He is to be dressed in messy clothing, having the appearance of a artist.
 8 8 0
 E
 #3023
-masters master hero deva herodeva~
-HeroMASTER~
+masters master hero deva herodeva d30 d3023~
+HeroMASTER D3023~
 Your HeroMASTER is standing here with a sharp look in his eyes.
 ~
 This is your master.  Big and strong with bulging muscles.  Several scars
@@ -231,11 +231,11 @@ calm look on his face.
 8 8 0
 E
 #3024
-guard deva guarddeva devaforce gd3024~
-SD3024 GuardDEVA~
+guard deva guarddeva devaforce d30 d3024~
+GuardDEVA D3024~
 SD3024 GuardDEVA is here.
 ~
-SD3024 GuardDEVA is assigned to protect the realm.
+GuardDEVA D3024 is assigned to protect the realm.
 ~
 256010 0 0 0 8312 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -244,9 +244,9 @@ SD3024 GuardDEVA is assigned to protect the realm.
 BareHandAttack: 4
 E
 #3025
-guard deva guarddeva devaforce gd3025~
-GD3025 GuardDEVA~
-GD3025 GuardDEVA is here.
+guard deva guarddeva devaforce d30 d3025~
+GuardDEVA D3025~
+GuardDEVA D3025 is here.
 ~
 A specially trained warrior monk belonging to the military order.
 ~
@@ -257,9 +257,9 @@ A specially trained warrior monk belonging to the military order.
 E
 T 3001
 #3026
-guard deva guarddeva devaforce gd3026~
-GD3026 GuardDEVA~
-GD3026 GuardDEVA is here.
+guard deva guarddeva devaforce d30 d3026~
+GuardDEVA D3026~
+GuardDEVA D3026 is here.
 ~
 A specially trained guard.
 ~
@@ -270,9 +270,9 @@ A specially trained guard.
 BareHandAttack: 11
 E
 #3027
-guard deva guarddeva devaforce gd3027~
-GD3027 GuardDEVA~
-GD3027 GuardDEVA is here.
+guard deva guarddeva devaforce d30 d3027~
+GuardDEVA D3027~
+GuardDEVA D3027 is here.
 ~
 An expert trained warrior with hero status.
 ~
@@ -283,7 +283,7 @@ An expert trained warrior with hero status.
 E
 T 3003
 #3040
-drink drinkdeva deva~
+service servicedeva deva d30 d3040~
 DrinkDEVA~
 A ServiceDEVA watches you calmly, while he skillfully mixes a drink.
 ~
@@ -295,9 +295,9 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 8 8 0
 E
 #3041
-waiter deva waiterdeva~
-WaiterDEVA~
-A WaiterDEVA is going around from one place to another.
+service deva servicedeva d3041~
+ServiceDEVA D3041~
+A ServiceDEVA is going around from one place to another.
 ~
 A happy looking waiter.
 ~
@@ -307,11 +307,11 @@ A happy looking waiter.
 8 8 0
 E
 #3042
-waiter deva waiterdeva~
-WaiterDEVA~
-A WaiterDEVA is standing here.
+service deva servicedeva d30 d3042~
+ServiceDEVA D3042~
+ServiceDEVA D3042 is standing here.
 ~
-The WaiterDEVA is here waiting for your order.
+ServiceDEVA D3042 is here waiting for your order.
 ~
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -319,9 +319,9 @@ The WaiterDEVA is here waiting for your order.
 8 8 0
 E
 #3043
-waiter deva waiterdeva~
-WaiterDEVA~
-A WaiterDEVA is standing here.
+service servicedeva deva d30 d3043~
+ServiceDEVA D3043~
+ServiceDEVA D3043 is standing here.
 ~
 The WaiterDEVA is here waiting for your order.
 ~
@@ -331,11 +331,11 @@ The WaiterDEVA is here waiting for your order.
 8 8 0
 E
 #3044
-waiter deva waiterdeva~
-WaiterDEVA~
-A WaiterDEVA is standing here.
+service deva servicedeva d30 d3044~
+ServiceDEVA D3044~
+ServiceDEVA D3044 is standing here.
 ~
-The WaiterDEVA is here waiting for your order.
+ServiceDEVA D3044 is here waiting for your order.
 ~
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -343,11 +343,11 @@ The WaiterDEVA is here waiting for your order.
 8 8 0
 E
 #3045
-waiter deva waiterdeva~
+service deva servicedeva d30 d3045~
 WaiterDEVA~
-A WaiterDEVA is standing here.
+ServiceDEVA D3045 is standing here.
 ~
-The WaiterDEVA is here waiting for your order.
+ServiceDEVA D3045 is here waiting for your order.
 ~
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -355,9 +355,9 @@ The WaiterDEVA is here waiting for your order.
 8 8 0
 E
 #3046
-drink drinkdeva deva~
-DrinkDEVA~
-A DrinkDEVA watches you calmly, while he skillfully mixes a drink.
+service deva servicedeva d30 d3046~
+ServiceDEVA D3046~
+ServiceDEVA D3046 watches you calmly, while skillfully mixing a drink.
 ~
 A happy looking ServiceDEVA who hates trouble in his bar.
 ~
@@ -366,24 +366,12 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 330 108900
 8 8 0
 E
-#3053
-mob unfinished~
-the unfinished mob~
-An unfinished mob stands here.
-~
-It looks unfinished.
-~
-6216 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 0
-E
 #3059
-security deva secuirtydeva devaforce sd3059~
-SecurityDEVA~
-SecurityDEVA is here.
+security deva secuirtydeva devaforce d30 d3059~
+SecurityDEVA D3059~
+SecurityDEVA D3059 is here.
 ~
-SD3059 SecurityDEVA is assigned to protect the Realm.
+SecurityDEVA D3059 is assigned to protect the Realm.
 ~
 260376 0 0 0 10360 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
@@ -393,11 +381,11 @@ BareHandAttack: 5
 E
 T 3009
 #3060
-security deva securitydeva devaforce d3060~
+security deva securitydeva devaforce d30 d3060~
 SecurityDEVA D3060~
 SecurityDEVA D3060 is on duty.
 ~
-A big, strong, helpful, trustworthy SecurityDEVA.
+SecurityDEVA D3060 is on duty protecting the realm.
 ~
 242012 0 0 0 26744 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -407,11 +395,11 @@ BareHandAttack: 5
 E
 T 3009
 #3061
-service deva servicedeva a61~
-ServiceDEVA:A61~
-A ServiceDEVA is cleaning up.
+service deva servicedeva d30 d3061~
+ServiceDEVA D3061~
+ServiceDEVA D3061 is cleaning up.
 ~
-ServiceDEVA love their jobs of cleaning up and finding recycle items.
+ServiceDEVA D3061 love their jobs of cleaning up and finding recycle items.
 ~
 6236 0 0 0 64 0 0 0 800 E
 1 20 9 0d0+10 1d2+0
