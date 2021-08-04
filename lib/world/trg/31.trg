@@ -107,18 +107,19 @@ end
 SecurityDEVA Patrol~
 0 b 50
 ~
-say Indra Agency patrol. Here to ensure your safety and security.
+say Indra Agency patrol. Here to ensure your security and safety.
 set actor %random.char%
 if %actor%
   if %actor.align% < 0 || %actor.is_thief% || %actor.is_killer%
+    %echo% security:alert:%actor.id%:%direction%:%actor.room.vnum%
     * teleport to The Love Shack
     %teleport% %actor% 28617
   end
 end
 
 * set patrol stuff
-wait 5 sec
-say Have a nice day!
+wait 10 sec
+say Have a nice day! #IndraAgency
 %random.dir%
 ~
 $~
