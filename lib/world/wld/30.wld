@@ -47,11 +47,11 @@ D5
 ~
 0 0 2683
 E
-info information~
+info~
 adv:world:3001/info
 ~
 E
-paintings ancient wall peasants Devas giants~
+paintings~
 adv:world:3001/paintings
 ~
 S
@@ -182,7 +182,7 @@ sign~
 adv:world:3007/sign
 ~
 E
-writing carving carvings symbols symbol~
+symbols~
 adv:world:3007/symbols
 ~
 S
@@ -1024,7 +1024,7 @@ altar~
 adv:world:3054/altar
 ~
 E
-statue indra king deva~
+statue~
 adv:world:3054/statue
 ~
 S
@@ -1191,7 +1191,7 @@ sign~
 adv:world:3062/sign
 ~
 E
-letters envelopes assorted~
+letters~
 adv:world:3062/letters
 ~
 E
@@ -1199,7 +1199,7 @@ cobwebs~
 adv:world:3062/cobwebs
 ~
 E
-crates opened large~
+crates~
 adv:world:3062/crates
 ~
 E
