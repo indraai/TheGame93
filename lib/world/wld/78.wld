@@ -230,11 +230,15 @@ D0
 ~
 0 0 7818
 E
-stroller strollers wheelchair wheelchairs~
+stroller~
 adv:world:7818/strollers
 ~
 E
-souvenir souvenirs stand~
+wheelchair~
+adv:world:7818/wheelchair
+~
+E
+souvenirs~
 adv:world:7813/souvenirs
 ~
 S
@@ -324,8 +328,6 @@ Frontierland~
 Empty room.~
 78 144 0 0 0 1
 D0
-The pine door is open facing the street.  The smells coming from the opening
-entice your olfactory as well as your tummy.
 ~
 pine door~
 1 0 7820
@@ -369,7 +371,7 @@ D3
 0 0 7823
 E
 sign~
-The sign reads "Vhispera's General Store"
+adv:world:7821/sign
 ~
 S
 #7822
@@ -427,7 +429,6 @@ D0
 S
 #7827
 Agency: Disneyland~
-The Disneyland outpost for Indra Agency
 ~
 78 184 0 0 0 0
 D0
