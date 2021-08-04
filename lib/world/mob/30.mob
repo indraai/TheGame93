@@ -243,7 +243,6 @@ SD3024 GuardDEVA is assigned to protect the realm.
 8 8 0
 BareHandAttack: 4
 E
-T 3000
 #3025
 guard deva guarddeva devaforce gd3025~
 GD3025 GuardDEVA~
@@ -270,7 +269,6 @@ A specially trained guard.
 8 8 0
 BareHandAttack: 11
 E
-T 3002
 #3027
 guard deva guarddeva devaforce gd3027~
 GD3027 GuardDEVA~
