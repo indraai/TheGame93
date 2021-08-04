@@ -67,29 +67,28 @@ type: teleport grave
 Uncapitalized zones are linked through a capitalized zone.
 ~
 #3009
-waybread bread~
-a waybread~
-Some waybread has been put here.~
+jalapeno cheese bread food~
+Jalapeno Cheese Bread~
+Some Jalapeno Cheese Bread been put here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 24 0 0 0
 1 50 50 0 0
 E
-waybread bread~
-   The waybread is the traditional feed of elves when travelling, they call it
-lembas.  It is said to refresh the weary traveler greatly.
+jalapeno cheese bread food~
+The Jalapeno Cheese Bread is the one of the favorite foods of Amaravati.  It is said to refresh the weary traveler greatly.
 ~
 #3010
-bread loaf~
-a bread~
-A loaf of bread has been left here.~
+sourdough bread loaf food~
+Sourdough Bread~
+A loaf of sourdough bread is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 12 0 0 0
 1 10 10 0 0
 #3011
-danish pastry~
-a danish pastry~
+danish pastry food~
+Danish Pastry~
 A nice looking delicious danish pastry has been placed here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
@@ -97,57 +96,54 @@ A nice looking delicious danish pastry has been placed here.~
 1 5 5 0 0
 #3012
 taco mexican~
-a Mexican taco~
+Mexican Taco~
 A tasty looking Mexican taco has been dropped here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 15 0 0 0
 1 15 15 0 0
 #3013
-burrito hot~
-a spicy hot burrito~
-A spicy looking burrito has been set here.~
+burrito hot food spicy bean cheese~
+Spicy Bean and Cheese Burrito~
+A spicy looking bean and cheese burrito has been set here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 10 0 0 0
 1 10 10 0 0
 #3014
-nachos nacho~
-some nachos with cheese~
-Some nachos have been left here.~
+nachos nacho cheese food~
+Ultimate Nachos~
+Some ultimate nachos have been left here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 5 5 0 0
 E
-nachos nacho~
-   They have cheese on them.  Looks like one of Uncle Juan's specials.
+nachos~
+They have cheese on them with beans, tomatoes, guacamole, salsa, and sour cream. Looks like one of the specials.
 ~
 #3015
-meat chunk~
-a piece of meat~
-A rather dubious looking piece of meat is on the ground here.~
+watermelon food fruit~
+Watermelon~
+A rather large slice of watermelon is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 14 0 0 0
 5 24 10 0 0
 E
-meat chunk~
-   It isn't so much that the meat looks poisoned or anything, but that you just
-are not sure of its origins.  You doubt that a hunter would drop a side of
-venison or rabbit meat...  What in the world could this meat have come from, you
-wonder...
+watermelon~
+It isn't so much that the watermelon looks fresh or anything, but that you just are not sure of its origins. But the law in Amaravati says fruit you find is fruit you can eat.
 ~
 #3020
-dagger~
-a dagger~
-A dagger with a long thin blade is here.~
+knife~
+a knife~
+A knife is here.~
 ~
 5 n 0 0 0 an 0 0 0 0 0 0 0
 0 1 4 11
 1 10 10 0 0
 #3021
-sword small~
+sword small weapons~
 a small sword~
 A small sword lies here.~
 ~
@@ -156,14 +152,14 @@ A small sword lies here.~
 3 60 10 0 0
 E
 inscription~
-   It says: 'May this sword be a good companion.  '
+It says: 'May this sword be a good companion.  '
 ~
 E
-sword small~
-   The small sword seems to have an inscription of some sort.
+sword~
+The small sword seems to have an inscription of some sort.
 ~
 #3022
-sword long~
+sword long weapons~
 a long sword~
 A long sword has been left here.~
 ~
@@ -171,7 +167,7 @@ A long sword has been left here.~
 0 1 8 3
 8 600 10 0 0
 #3023
-club wooden~
+club wooden weapons~
 a wooden club~
 A simple looking wooden club is here.~
 ~
@@ -179,7 +175,7 @@ A simple looking wooden club is here.~
 0 1 3 7
 3 12 10 0 0
 #3024
-warhammer hammer~
+warhammer hammer weapons~
 a warhammer~
 A medium sized warhammer is here.~
 ~
@@ -187,7 +183,7 @@ A medium sized warhammer is here.~
 0 1 5 7
 6 50 10 0 0
 #3025
-flail large~
+flail large weapons~
 a flail~
 A large flail is here.~
 ~
@@ -236,7 +232,7 @@ An automatic teller machine has been installed in the wall here.~
 0 0 0 0 0
 E
 atm teller bank machine~
-   There is a small note on the machine which says:
+There is a small note on the machine which says:
 
 To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
 Please report any strange occurrences to the bank manager.
@@ -252,10 +248,7 @@ A large fountain carved from blue-streaked marble is here, bubbling merrily.~
 505 0 0 0 0
 E
 marble blue streaked fountain~
-   It is a well crafted fountain, carved from a single piece of very beautiful
-white marble shot through with electric blue streaks that look almost like
-lightning dancing along the sides of the fountain.  It seems to be enchanted in
-some manner, as the water level seems to never lower.
+It is a well crafted fountain, carved from a single piece of very beautiful white marble shot through with electric blue streaks that look almost like lightning dancing along the sides of the fountain.  It seems to be enchanted in some manner, as the water level seems to never lower.
 ~
 #3036
 cashcard card atm banks~
@@ -267,7 +260,7 @@ A handy dandy cashcard is sitting on the ground here.~
 1 1000 10 0 0
 E
 cashcard card atm~
-   There is some writing on the back of the card which reads:
+There is some writing on the back of the card which reads:
 
 To use, type 'BALANCE', 'WITHDRAW <amount>', or 'DEPOSIT <amount>'.
 Please report any strange occurrences to the bank manager.
@@ -283,7 +276,7 @@ A candle lies here, unlit.~
 1 5 1 0 0
 E
 candle~
-   A home-made candle, how quaint!
+A home-made candle.
 ~
 #3038
 nail~
@@ -295,7 +288,7 @@ A penny nail lies in the dust.~
 1 5 1 0 0
 E
 nail~
-   Its a common iron nail, used for carpentry work.
+Its a common iron nail, used for carpentry work.
 ~
 #3039
 pot~
@@ -307,11 +300,11 @@ A cast-iron pot sits on the ground.~
 10 100 20 0 0
 E
 pot~
-   It is a nice pot.  You could use it, if you ever settled down.
+It is a nice pot.  You could use it, if you ever settled down.
 ~
 #3040
 plate breast~
-a breast plate~
+Breast Plate~
 A breast plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
@@ -359,7 +352,7 @@ A scale mail jacket is lying on the ground.~
 40 1000 10 0 0
 #3046
 plate bronze breast~
-a bronze breast plate~
+Bronze Breast Plate~
 A bronze breast plate is lying on the ground.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
@@ -484,7 +477,7 @@ canoe~
 ~
 #3070
 gauntlets bronze~
-a pair of bronze gauntlets~
+Bronze Gauntlets (2x)~
 A pair of bronze gauntlets is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
@@ -492,7 +485,7 @@ A pair of bronze gauntlets is lying on the ground.~
 8 175 10 0 0
 #3071
 gloves leather~
-a pair of leather gloves~
+Leather Gloves (2x)~
 A pair of leather gloves is lying on the ground.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
@@ -500,7 +493,7 @@ A pair of leather gloves is lying on the ground.~
 3 75 10 0 0
 #3075
 helmet bronze~
-a bronze helmet~
+Bronze Helment~
 A bronze helmet is lying on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
@@ -508,7 +501,7 @@ A bronze helmet is lying on the ground.~
 8 350 10 0 0
 #3076
 cap leather~
-a leather cap~
+Leather Cap~
 A leather cap is lying on the ground.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
@@ -516,7 +509,7 @@ A leather cap is lying on the ground.~
 3 150 10 0 0
 #3080
 leggings bronze~
-a pair of bronze leggings~
+Bronze Leggings (2x)~
 A pair of bronze leggings is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
@@ -524,7 +517,7 @@ A pair of bronze leggings is lying on the ground.~
 8 350 10 0 0
 #3081
 pants leather~
-a pair of leather pants~
+Leather Pants~
 A pair of leather pants is lying on the ground.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
@@ -532,7 +525,7 @@ A pair of leather pants is lying on the ground.~
 8 150 10 0 0
 #3082
 leather gorget neck guard~
-a leather gorget~
+Leather Gorget~
 A leather neck guard has been left here~
 ~
 9 0 0 0 0 ac 0 0 0 0 0 0 0
@@ -540,11 +533,11 @@ A leather neck guard has been left here~
 1 10 0 0 0
 E
 leather gorget neck guard~
-   This leather neck guard is meant to protect the throat and face in battle.
+This leather neck guard is meant to protect the throat and face in battle.
 ~
 #3083
 leather ring~
-a leather ring~
+Leather Ring~
 A leather ring with strange symbols lies here.~
 ~
 11 0 0 0 0 ab 0 0 0 0 0 0 0
@@ -552,12 +545,11 @@ A leather ring with strange symbols lies here.~
 1 10 1 0 0
 E
 leather ring~
-   The ring used to have some strange writing and symbols around the band but it
-has become so worn with time and use that it is unreadable.
+The ring used to have some strange writing and symbols around the band but it has become so worn with time and use that it is unreadable.
 ~
 #3084
 leather boots~
-a pair of leather boots~
+Leather Boots (2x)~
 A pair of leather boots is lying here.~
 ~
 11 0 0 0 0 ag 0 0 0 0 0 0 0
@@ -565,12 +557,11 @@ A pair of leather boots is lying here.~
 2 11 0 0 0
 E
 leather boots~
-   The boots are worn with age but well oiled and polished to still remain
-useable.
+The boots are worn with age but well oiled and polished to still remain useable.
 ~
 #3085
 sleeves bronze~
-a pair of bronze sleeves~
+Bronze Sleeves (2x)~
 A pair of bronze sleeves is lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
@@ -578,7 +569,7 @@ A pair of bronze sleeves is lying on the ground.~
 8 175 10 0 0
 #3086
 sleeves leather~
-a pair of leather sleeves~
+Leather Sleeves (2x)~
 A pair of leather sleeves is lying on the ground.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
@@ -586,7 +577,7 @@ A pair of leather sleeves is lying on the ground.~
 4 75 10 0 0
 #3087
 brown leather cape~
-a brown leather cape~
+Leather Cape~
 A brown leather cape was abandoned on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
@@ -594,13 +585,13 @@ A brown leather cape was abandoned on the floor~
 4 100 0 0 0
 E
 brown leather cape~
-   It is a rough brown leather cape that is frayed at the end.
+It is a rough brown leather cape that is frayed at the end.
 ~
 A
 1 1
 #3088
 leather old belt~
-an old leather belt~
+Leather Belt~
 A belt made of leather was left here.~
 ~
 9 e 0 0 0 al 0 0 0 0 0 0 0
@@ -616,7 +607,7 @@ A
 1 1
 #3089
 leather wristguard~
-a leather wristguard~
+Leather Wristguard~
 A leather wristguard lies in the dirt.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
@@ -624,7 +615,7 @@ A leather wristguard lies in the dirt.~
 3 30 0 0 0
 E
 leather wristguard~
-   The wristguard has been heavily oiled and is extremely flexible and
+The wristguard has been heavily oiled and is extremely flexible and
 supportive.  It is laced with some leather string to loosen and tighten to
 almost any size.
 ~
@@ -638,11 +629,11 @@ A large, sociable bulletin board is mounted on a wall here.~
 0 0 0 0 0
 E
 social bulletin~
-   Use 'look board' to read the board.
+Use 'look board' to read the board.
 ~
 E
 board~
-   If you can read this, the board is not working.
+If you can read this, the board is not working.
 ~
 #3097
 boards frozen bulletin gen_boards~
@@ -654,11 +645,11 @@ A large bulletin board is here, carved from a block of ice.~
 0 0 0 0 0
 E
 freeze bulletin~
-   Use 'look board' to read the board.
+Use 'look board' to read the board.
 ~
 E
 board~
-   If you can read this, the board is not working.
+If you can read this, the board is not working.
 ~
 #3098
 boards holy bulletin gen_boards~
@@ -686,10 +677,10 @@ A large bulletin board is mounted on a wall here.~
 0 0 0 0 0
 E
 bulletin~
-   Use 'look board' to read the board.
+Use 'look board' to read the board.
 ~
 E
 board~
-   If you can read this, the board is not working.
+If you can read this, the board is not working.
 ~
 $~
