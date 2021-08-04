@@ -100,7 +100,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\nobject:%s", obj->description);
+    send_to_char(ch, "\nobject:%s\r", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -113,7 +113,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\nobject:%s", obj->short_description);
+    send_to_char(ch, "\nobject:%s\r", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
@@ -207,7 +207,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG || *display->description != '.' ||
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
-      send_to_char(ch, "\nobject: %s", display->short_description);
+      send_to_char(ch, "\nobject: %s\r", display->short_description);
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
