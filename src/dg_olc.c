@@ -764,7 +764,7 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
           write_to_output(d, "\nPlease enter position, vnum (ex: 1, 200)\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_NEW_TRIGGER;
           break;
-        case 'd':
+        case 'b':
           write_to_output(d, "\nWhich entry should be deleted?  0 to abort\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_DEL_TRIGGER;
           break;
