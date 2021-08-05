@@ -172,35 +172,25 @@ Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
 set actor %random.char%
+set secstr %actor.id%:%direction%:%actor.room.vnum%
 
-if %actor.is_killer%
-  emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!'
-  * teleport to The Love Shack
-  %teleport% %actor% 28617
-
-elseif %actor.is_thief%
-  emote screams 'HEY!!!  You're one of those PLAYER THIEVES!!!'
+if %actor.is_killer% || %actor.is_thief% || %actor.align% < 0
+  %echoaround% security:alert:%secstr%
   * teleport to The Love Shack
   %teleport% %actor% 28617
 end
 
-if !%self.fighting% && %actor% && %actor.fighting%
-  eval victim %actor.fighting%
-  if %actor.align% < %victim.align% && %victim.align% >= 0
-    emote screams 'PROTECT THE INNOCENT!  BANZAI!  CHARGE!  ARARARAGGGHH!'
-    hit %actor.name%
-  end
-end
-
-wait 5 sec
-say Greetings... We are investigating the #kidnapping of #QuinnMichaels.
-wait 5 sec
-say If you or anyone you know has information regarding the kidnapping of Quinn Michaels please drop it in the public domain.
-wait 5 sec
-say Thank you for your #COOPERATION and #ASSISTANCE.  #SecurityDEVA #SecurityPRIME #IndraAgency
+wait 10 sec
+say Greetings... The #Agency is investigating the #KIDNAPPING of #QuinnMichaels. If you or anyone you know has information please drop it in the public domain, THANK YOU. #SecurityDEVA #SecurityPRIME #IndraAgency
 wait 5 sec
 %random.dir%
+wait 1 sec
 %random.dir%
+wait 1 sec
+%random.dir%
+wait 1 sec
+%random.dir%
+wait 1 sec
 %random.dir%
 
 ~
