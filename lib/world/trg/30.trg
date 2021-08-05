@@ -173,9 +173,6 @@ Stock SecurityDEVA - 3059, 60, 67~
 ~
 set actor %random.char%
 
-wait 1 sec
-say Excuse me... do you have any information reagarding the kidnapping of Quinn Michaels?
-
 if %actor.is_killer%
   emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!'
   * teleport to The Love Shack
@@ -195,7 +192,17 @@ if !%self.fighting% && %actor% && %actor.fighting%
   end
 end
 
-wait 10 sec
+wait 3 sec
+say Greetings Everyone... @SecurityDEVA are here investigating a #crime.
+wait 3 sec
+say We are investigating the #kidnapping of #QuinnMichaels on or around November 30, 1977.
+wait 3 sec
+say If your or anyone you know has information regarding the kidnapping of Quinn Michaels please drop it in the public domain.
+wait 3 sec
+say Any information regarding #TheCovenant or the #Kidnapping of Quinn Michaels will be collected from public sources for #SECURITY purposes.
+wait 3 sec
+say Thank you for your cooperation and assistance in this matter.  #SecurityDEVA #SecurityPRIME #IndraAgency @SecurityDEVA @nitro_hero
+wait 5 sec
 %random.dir%
 
 ~
