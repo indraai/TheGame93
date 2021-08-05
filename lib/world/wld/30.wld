@@ -47,22 +47,22 @@ D5
 ~
 0 0 2683
 E
-paintings~
-adv:world:3001/paintings
-~
-E
 info~
 adv:world:3001/info
 ~
 E
 nike~
-undefined~
+adv:world:3001/nike
+~
+E
+covenant~
+adv:world:3001/covenant~
 E
 jordan~
-undefined~
+adv:world:3001/jordan~
 E
 trent~
-undefined~
+adv:world:3001/trent~
 S
 T 3017
 T 3106

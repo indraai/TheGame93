@@ -453,7 +453,7 @@ static void redit_disp_menu(struct descriptor_data *d)
     // "\nselect[2:desc]:%s\r"
     "\nselect[b:flags]:%s\r"
     "\nselect[c:type]:%s\r"
-    "\nselect[d:script]:%s\r",
+    "\nselect[d:triggers]:%s\r",
     OLC_NUM(d),
     room->name,
     // room->description,
@@ -850,49 +850,54 @@ void redit_parse(struct descriptor_data *d, char *arg)
       /* If something got left out, delete the extra description when backing
          out to the menu. */
       if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
-	struct extra_descr_data *temp;
-	if (OLC_DESC(d)->keyword)
-	  free(OLC_DESC(d)->keyword);
-	if (OLC_DESC(d)->description)
-	  free(OLC_DESC(d)->description);
+        struct extra_descr_data *temp;
+	      if (OLC_DESC(d)->keyword) {
+          free(OLC_DESC(d)->keyword);
+        }
+        if (OLC_DESC(d)->description) {
+          free(OLC_DESC(d)->description);
+        }
 
-	/* Clean up pointers. */
-	REMOVE_FROM_LIST(OLC_DESC(d), OLC_ROOM(d)->ex_description, next);
-	free(OLC_DESC(d));
+	      /* Clean up pointers. */
+	      REMOVE_FROM_LIST(OLC_DESC(d), OLC_ROOM(d)->ex_description, next);
+        free(OLC_DESC(d));
       }
       break;
+
     case 1:
       OLC_MODE(d) = REDIT_EXTRADESC_KEY;
       write_to_output(d, "\nEnter keywords (spaces):\r");
       return;
+
     case 2:
       OLC_MODE(d) = REDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "\nEnter extra description:\r");
       if (OLC_DESC(d)->description) {
-	write_to_output(d, "%s", OLC_DESC(d)->description);
-	oldtext = strdup(OLC_DESC(d)->description);
+        write_to_output(d, "%s", OLC_DESC(d)->description);
+        oldtext = strdup(OLC_DESC(d)->description);
       }
       string_write(d, &OLC_DESC(d)->description, MAX_MESSAGE_LENGTH, 0, oldtext);
       return;
+
     case 3:
       // setting to complete without a description becasue the system will put those in later.
       // if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
       if (OLC_DESC(d)->keyword == NULL) {
-	write_to_output(d, "\nerror: Please complete this one before adding another.\r");
-	redit_disp_extradesc_menu(d);
+        write_to_output(d, "\nerror: Please complete this one before adding another.\r");
+        redit_disp_extradesc_menu(d);
       } else {
-	struct extra_descr_data *new_extra;
+        struct extra_descr_data *new_extra;
 
-	if (OLC_DESC(d)->next)
-	  OLC_DESC(d) = OLC_DESC(d)->next;
-	else {
-	  /* Make new extra description and attach at end. */
-	  CREATE(new_extra, struct extra_descr_data, 1);
-	  OLC_DESC(d)->next = new_extra;
-	  OLC_DESC(d) = new_extra;
-	}
-	redit_disp_extradesc_menu(d);
+      	if (OLC_DESC(d)->next)
+      	  OLC_DESC(d) = OLC_DESC(d)->next;
+      	else {
+      	  /* Make new extra description and attach at end. */
+      	  CREATE(new_extra, struct extra_descr_data, 1);
+      	  OLC_DESC(d)->next = new_extra;
+      	  OLC_DESC(d) = new_extra;
+      	}
+      	redit_disp_extradesc_menu(d);
       }
       return;
     }
