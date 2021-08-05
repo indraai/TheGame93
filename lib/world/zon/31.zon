@@ -2,15 +2,15 @@
 DEVA~
 Southern Amaravati~
 3100 3199 180 2 d 0 0 0 1 33
-M 0 3060 20 3111 	(SD3059 SecurityDEVA)
+M 0 3060 50 3111 	(SD3060 SecurityDEVA)
 E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
-G 1 3105 2 -1 	(an iron key)
-M 0 3060 20 3111 	(SD3059 SecurityDEVA)
+M 0 3060 50 3111 	(SD3060 SecurityDEVA)
 E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
-M 0 3060 20 3111 	(SD3059 SecurityDEVA)
+M 0 3059 50 3111 	(SD3060 SecurityDEVA)
 E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
-M 0 3060 20 3111 	(SD3059 SecurityDEVA)
+M 0 3059 50 3111 	(SD3060 SecurityDEVA)
 E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
+
 M 0 3068 4 3106 	(the Blob Tackle Dummy)
 M 0 3100 1 3106 	(ServiceDEVA:AE00)
 G 1 3100 500 -1 	(a cup)

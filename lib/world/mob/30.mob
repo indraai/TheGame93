@@ -369,7 +369,7 @@ E
 #3059
 security deva secuirtydeva devaforce d30 d3059~
 SecurityDEVA D3059~
-SecurityDEVA D3059 is here.
+SecurityDEVA D3059 is on patrol.
 ~
 SecurityDEVA D3059 is assigned to protect the Realm.
 ~
@@ -383,7 +383,7 @@ T 3009
 #3060
 security deva securitydeva devaforce d30 d3060~
 SecurityDEVA D3060~
-SecurityDEVA D3060 is on duty.
+SecurityDEVA D3060 is on patrol.
 ~
 SecurityDEVA D3060 is on duty protecting the realm.
 ~
@@ -484,7 +484,6 @@ A big, strong, helpful, trustworthy GuardDEVA.
 8 8 0
 BareHandAttack: 5
 E
-T 3107
 T 3009
 #3068
 tackle dummy blob tackledummy~
