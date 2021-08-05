@@ -173,6 +173,10 @@ Stock SecurityDEVA - 3059, 60, 67~
 ~
 set actor %random.char%
 set secstr %actor.id%:%direction%:%actor.room.vnum%
+set nextdir %random.dir%
+
+* so here we want the agent to avoid going back in
+* the same direction they came unless it is the only direction to go.
 
 if %actor.is_killer% || %actor.is_thief% || %actor.align% < 0
   %echoaround% security:alert:%secstr%
@@ -181,17 +185,9 @@ if %actor.is_killer% || %actor.is_thief% || %actor.align% < 0
 end
 
 wait 10 sec
-say #SECURITY #PATROL #R%self.room.vnum% > The #Agency is investigating the #KIDNAPPING of #QuinnMichaels. If #YOU or #ANYONE you know has #INFORMATION please drop it in the #PublicDomain, THANK YOU.
+say #SECURITY #PATROL #R%self.room.vnum% > from %direction% to %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
 wait 5 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
+%nextdir%
 
 ~
 #3010
