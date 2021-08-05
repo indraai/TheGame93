@@ -174,19 +174,13 @@ Stock SecurityDEVA - 3059, 60, 67~
 set dir %random.dir%
 set here %self.room.people%
 
-while %here%
-  set others %people.next_in_room%
-  if %here.is_killer% || %here.is_thief% || %here.align% < 0
-    %echoaround% %here% security:alert:%here.id%:%here.room.vnum%
-    * teleport to The Love Shack
-    %teleport% %actor% 28617
-  end
-  set here %others%
-done
-
-say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
-wait 10 sec
-%dir%
+if %here%
+  say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+  wait 10 sec
+  %dir%
+else
+  %dir%
+end
 
 ~
 #3010
