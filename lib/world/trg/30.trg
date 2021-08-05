@@ -184,13 +184,9 @@ while %here%
   set here %others%
 done
 
-if %here%
-  say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
-  wait 10 sec
-  %dir%
-else
-  %dir%
-end
+say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+wait 10 sec
+%dir%
 
 ~
 #3010
