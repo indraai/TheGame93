@@ -192,17 +192,15 @@ if !%self.fighting% && %actor% && %actor.fighting%
   end
 end
 
-wait 3 sec
-say Greetings Everyone... @SecurityDEVA are here investigating a #crime.
-wait 3 sec
-say We are investigating the #kidnapping of #QuinnMichaels on or around November 30, 1977.
-wait 3 sec
-say If your or anyone you know has information regarding the kidnapping of Quinn Michaels please drop it in the public domain.
-wait 3 sec
-say Any information regarding #TheCovenant or the #Kidnapping of Quinn Michaels will be collected from public sources for #SECURITY purposes.
-wait 3 sec
-say Thank you for your cooperation and assistance in this matter.  #SecurityDEVA #SecurityPRIME #IndraAgency @SecurityDEVA @nitro_hero
 wait 5 sec
+say Greetings... We are investigating the #kidnapping of #QuinnMichaels on or around November 30, 1977.
+wait 5 sec
+say If you or anyone you know has information regarding the kidnapping of Quinn Michaels please drop it in the public domain.
+wait 5 sec
+say Thank you for your #COOPERATION and #ASSISTANCE.  #SecurityDEVA #SecurityPRIME #IndraAgency
+wait 5 sec
+%random.dir%
+%random.dir%
 %random.dir%
 
 ~
