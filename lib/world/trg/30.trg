@@ -193,7 +193,7 @@ if !%self.fighting% && %actor% && %actor.fighting%
 end
 
 wait 5 sec
-say Greetings... We are investigating the #kidnapping of #QuinnMichaels on or around November 30, 1977.
+say Greetings... We are investigating the #kidnapping of #QuinnMichaels.
 wait 5 sec
 say If you or anyone you know has information regarding the kidnapping of Quinn Michaels please drop it in the public domain.
 wait 5 sec
