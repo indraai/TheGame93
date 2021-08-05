@@ -171,33 +171,33 @@ set stunned %actor.hitp%
 Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
-if !%self.fighting%
-  set actor %random.char%
-  if %actor%
-    if %actor.align% < 0
-      emote screams 'HEY!!! You're one of those EVIL PLAYERS!!!
-      * teleport to The Love Shack
-      %teleport% %actor% 28617
+set actor %random.char%
 
-    elseif %actor.is_killer%
-      emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!'
-      * teleport to The Love Shack
-      %teleport% %actor% 28617
+wait 1 sec
+say Excuse me... do you have any information reagarding the kidnapping of Quinn Michaels?
 
-    elseif %actor.is_thief%
-      emote screams 'HEY!!!  You're one of those PLAYER THIEVES!!!'
-      * teleport to The Love Shack
-      %teleport% %actor% 28617
-    end
-    if %actor.fighting%
-      eval victim %actor.fighting%
-      if %actor.align% < %victim.align% && %victim.align% >= 0
-        emote screams 'PROTECT THE INNOCENT!  BANZAI!  CHARGE!  ARARARAGGGHH!'
-        hit %actor.name%
-      end
-    end
+if %actor.is_killer%
+  emote screams 'HEY!!!  You're one of those PLAYER KILLERS!!!'
+  * teleport to The Love Shack
+  %teleport% %actor% 28617
+
+elseif %actor.is_thief%
+  emote screams 'HEY!!!  You're one of those PLAYER THIEVES!!!'
+  * teleport to The Love Shack
+  %teleport% %actor% 28617
+end
+
+if !%self.fighting% && %actor% && %actor.fighting%
+  eval victim %actor.fighting%
+  if %actor.align% < %victim.align% && %victim.align% >= 0
+    emote screams 'PROTECT THE INNOCENT!  BANZAI!  CHARGE!  ARARARAGGGHH!'
+    hit %actor.name%
   end
 end
+
+wait 10 sec
+%random.dir%
+
 ~
 #3010
 Stock Fido - 3062, 3066~
