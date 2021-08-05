@@ -181,7 +181,7 @@ if %actor.is_killer% || %actor.is_thief% || %actor.align% < 0
 end
 
 wait 10 sec
-say Greetings... The #Agency is investigating the #KIDNAPPING of #QuinnMichaels. If you or anyone you know has information please drop it in the public domain, THANK YOU.
+say #SECURITY #PATROL #R%self.room.vnum% > The #Agency is investigating the #KIDNAPPING of #QuinnMichaels. If #YOU or #ANYONE you know has #INFORMATION please drop it in the #PublicDomain, THANK YOU.
 wait 5 sec
 %random.dir%
 wait 1 sec
