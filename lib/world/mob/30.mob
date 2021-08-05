@@ -1,6 +1,6 @@
 #3000
-deva sage sagedeva d3000~
-SageDEVA D3000~
+deva sage sagedeva d3000 z30~
+Sage D3000~
 A SageDEVA walks around behind the counter, talking to himself.
 ~
 The SageDEVA looks old and wise, and yet he looks like a very powerful sage.
@@ -12,9 +12,9 @@ He is equipped with fine clothing, and is wearing many fine rings and bracelets.
 8 8 0
 E
 #3001
-baker deva bakerdeva d3001~
-BakerDEVA D3001~
-The BakerDEVA looks at you calmly, wiping flour from his face with one hand.
+baker deva bakerdeva d3001 z30~
+Baker D3001~
+The Baker DEVA looks at you calmly, wiping flour from his face with one hand.
 ~
 A fat, nice looking baker.  But you can see that he has many been eating a few
 too many pastries.
@@ -26,8 +26,8 @@ too many pastries.
 BareHandAttack: 1
 E
 #3002
-grocer deva grocerdeva d3002~
-GrocerDEVA D30002~
+grocer deva grocerdeva d3002 z30~
+Grocer D30002~
 A GrocerDEVA stands at the counter, with a patient look on his face.
 ~
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
@@ -38,8 +38,8 @@ A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 8 8 0
 E
 #3003
-craft deva makerdeva d3003~
-CraftDEVA D3003~
+craft deva makerdeva d3003 z30~
+Craft D3003~
 A CraftDEVA D3003 is standing here.
 ~
 He is a young CraftDEVA, who still has lots to learn but he is still eager to sell you his latest implements of creativity and imagination.
@@ -50,8 +50,8 @@ He is a young CraftDEVA, who still has lots to learn but he is still eager to se
 8 8 0
 E
 #3004
-armor deva armordeva d3004~
-ArmorDEVA D3004~
+armor deva armordeva d3004 z30~
+Armor D3004~
 ArmorDEVA D3004 stands here displaying his new (and previously owned) armors.
 ~
 An old but very strong armorer.  He has made more suits of armor in his life than you have ever seen.
@@ -62,8 +62,8 @@ An old but very strong armorer.  He has made more suits of armor in his life tha
 8 8 0
 E
 #3005
-reception deva receptiondeva d3005~
-ReceptionDEVA D3005~
+reception deva receptiondeva d3005 z30~
+Reception D3005~
 ReceptionDEVA D3005 is standing behind the counter here, smiling at you.
 ~
 You notice a excited look in his face.  He looks like he is paid well and enjoys his job.
@@ -74,7 +74,7 @@ You notice a excited look in his face.  He looks like he is paid well and enjoys
 8 8 0
 E
 #3006
-captain fancypants d3006~
+captain fancypants d3006 z30~
 Captain Fancy Pants~
 Mr. Captain Fancy Pants stands here, selling boats.
 ~
@@ -86,45 +86,45 @@ This captain has seen more storms than you have cried tears.
 8 8 0
 E
 #3007
-sailor deva sailordeva d3007~
-SailorDEVA D3007~
-SailorDEVA D3007 stands here, waiting to help you.
+sailor deva sailordeva d3007 z30~
+Sailor D3007~
+Sailor DEVA D3007 stands here, waiting to help you.
 ~
 He looks like a strong, fit sailor.
 ~
-26634 0 0 0 0 0 0 0 900 E
+26634 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0
 E
 #3008
-mexi deva mexideva d3008~
-MexiDEVA D3008~
-MexiDEVA is here ready to take your order.
+mex deva mexideva d3008 z30~
+Mex D3008~
+Mex DEVA is here ready to take your order.
 ~
 He looks like he may or may not have a green card.
 ~
-26635 0 0 0 0 0 0 0 900 E
+26635 0 0 0 0 0 0 0 300 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0
 E
 #3009
-water deva waterdeva d3009~
-WaterDEVA D3009~
-WaterDEVA D3009 is standing behind the counter.
+water deva waterdeva d3009 z30~
+Water D3009~
+Water DEVA D3009 is standing behind the counter.
 ~
 Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati Natural Spring Water in his hand.  When he notices you, he proudly displays his fine collection of contemporary waters.
 ~
-26635 0 0 0 16 0 0 0 800 E
+26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0
 E
 #3010
-mail deva maildeva d3010~
-MailDEVA D3010~
-The head MailDEVA is standing here, waiting to help you with your mail.
+postmaster mail posatal post d3010 z30~
+Postmaster D3010~
+The head Postmaster DEVA is standing here, waiting to help you with your mail.
 ~
 The Postmaster seems like a happy old man.  He always on the job making sure indra.email services are in tip top shape. Ensuring a safe, secure, and honest mail delivery system for all in Amaravati.
 ~
@@ -134,9 +134,9 @@ The Postmaster seems like a happy old man.  He always on the job making sure ind
 8 8 0
 E
 #3011
-sales deva salesdeva d3011~
-SalesDEVA D3011~
-SalesDEVA D3011 is laden with gadgets and gizmos.
+merchant deva merchdeva d3011 z30~
+Merchant D3011~
+Merchant D3011 is laden with gadgets and gizmos.
 ~
 A combination of good business sense, charming personality, and good manners has made him a success with his customers.
 ~
@@ -146,12 +146,11 @@ A combination of good business sense, charming personality, and good manners has
 8 8 0
 E
 #3012
-offering deva offeringdeva d3012~
-OfferingDEVA D3013~
-OfferingDEVA D3013 is here looking out for those who need it.
+offering deva offeringdeva d3012 z30~
+Offering D3013~
+Offering DEVA D3013 is here looking out for those who need it.
 ~
-He immediately reminds you of your best friend.  He is always around to help out
-those who have hit hard times and need a little boost.
+He immediately reminds you of your best friend.  He is always around to help out those who have hit hard times and need a little boost.
 ~
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -160,9 +159,9 @@ those who have hit hard times and need a little boost.
 E
 T 3016
 #3013
-guide guidedeva deva d3013~
-GuideDEVA D3013~
-GuideDEVA D3013 is here to help. "tell guide help" for assistance.
+guide guidedeva deva d3013 z30~
+Guide D3013~
+Guide DEVA D3013 is here to help. "tell guide help" for assistance.
 ~
 This young man has the sole purpose of helping those who need assistance. He will follow you around Amaravati and provide a walking tour of the local attractions.
 ~
@@ -178,7 +177,7 @@ SavingSpell: 2
 E
 #3020
 masters sage deva sagedeva d3020~
-SageMASTER D3020~
+Master Sage D3020~
 Your SageMASTER is studying a spellbook while preparing to cast a spell.
 ~
 Even though your SageMaster looks old and tired, you can clearly see the
@@ -231,7 +230,7 @@ calm look on his face.
 8 8 0
 E
 #3024
-guard deva guarddeva devaforce d30 d3024~
+guard deva guarddeva devaforce d3024~
 GuardDEVA D3024~
 SD3024 GuardDEVA is here.
 ~
@@ -244,7 +243,7 @@ GuardDEVA D3024 is assigned to protect the realm.
 BareHandAttack: 4
 E
 #3025
-guard deva guarddeva devaforce d30 d3025~
+guard deva guarddeva devaforce d3025~
 GuardDEVA D3025~
 GuardDEVA D3025 is here.
 ~
@@ -257,7 +256,7 @@ A specially trained warrior monk belonging to the military order.
 E
 T 3001
 #3026
-guard deva guarddeva devaforce d30 d3026~
+guard deva guarddeva devaforce d3026~
 GuardDEVA D3026~
 GuardDEVA D3026 is here.
 ~
@@ -270,7 +269,7 @@ A specially trained guard.
 BareHandAttack: 11
 E
 #3027
-guard deva guarddeva devaforce d30 d3027~
+guard deva guarddeva devaforce d3027~
 GuardDEVA D3027~
 GuardDEVA D3027 is here.
 ~
@@ -367,7 +366,7 @@ A happy looking ServiceDEVA who hates trouble in his bar.
 8 8 0
 E
 #3059
-security deva secuirtydeva devaforce d30 d3059~
+security deva secuirtydeva devaforce sec30 d3059~
 SecurityDEVA D3059~
 SecurityDEVA D3059 is on patrol.
 ~
@@ -381,7 +380,7 @@ BareHandAttack: 5
 E
 T 3009
 #3060
-security deva securitydeva devaforce d30 d3060~
+security deva securitydeva devaforce sec30 d3060~
 SecurityDEVA D3060~
 SecurityDEVA D3060 is on patrol.
 ~
@@ -395,7 +394,7 @@ BareHandAttack: 5
 E
 T 3009
 #3061
-service deva servicedeva d3061~
+service deva servicedeva d3061 SER30~
 ServiceDEVA D3061~
 ServiceDEVA D3061 is cleaning up.
 ~
@@ -472,7 +471,7 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-deva guard guarddeva devaforce d3067~
+deva guard guarddeva devaforce gd30 d3067~
 GuardDEVA 3067~
 GuardDEVA D3067 is on duty.
 ~
@@ -576,9 +575,9 @@ The Huge DevaBuddy like a strong, loyal friend.
 BareHandAttack: 4
 E
 #3095
-medic medicprime prime deva medicdeva care~
-MP3095 MedicPRIME~
-MP3095 MedicPRIME is here.
+medic medicprime prime deva medicdeva care md30 d3095~
+MedicPRIME D3095~
+MedicPRIME D3095 is here.
 ~
 MP3095 MedicPRIME is assigned to provide care to the Realm.
 ~
