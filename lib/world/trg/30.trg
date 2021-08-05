@@ -185,12 +185,12 @@ while %here%
 done
 
 if %here%
-  say Quinn Michaels was Kidnapped
   say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
-  wait 30 sec
+  wait 10 sec
+  %dir%
+else
+  %dir%
 end
-wait 1 sec
-%dir%
 
 ~
 #3010

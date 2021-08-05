@@ -176,13 +176,11 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #3020
-masters sage deva sagedeva d3020~
+masters sage deva sagedeva d3020 z30~
 Master Sage D3020~
 Your SageMASTER is studying a spellbook while preparing to cast a spell.
 ~
-Even though your SageMaster looks old and tired, you can clearly see the
-vast amount of knowledge he possesses.  He is wearing fine magic clothing, and
-you notice that she is surrounded by a blue shimmering aura.
+Even though your SageMaster looks old and tired, you can clearly see the vast amount of knowledge he possesses.  He is wearing fine magic clothing, and you notice that she is surrounded by a blue shimmering aura.
 ~
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
@@ -190,12 +188,11 @@ you notice that she is surrounded by a blue shimmering aura.
 8 8 0
 E
 #3021
-masters master monk deva monkdeva d3021~
-MonkMASTER D3021~
+masters master monk deva monkdeva d3021 z30~
+Master Monk D3021~
 Your MonkMaster is meditating here.
 ~
-You are in no doubt that this MonkMASTER is truly close to Indra; he has a
-peaceful, loving look.  You notice that he is surrounded by a white aura.
+You are in no doubt that this MonkMASTER is truly close to Indra; he has a peaceful, loving look.  You notice that he is surrounded by a white aura.
 ~
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
@@ -203,12 +200,11 @@ peaceful, loving look.  You notice that he is surrounded by a white aura.
 8 8 0
 E
 #3022
-masters master artist deva artistdeva d3022~
-ArtistMASTER D3022~
-A Artist is sitting here, could he be a ArtistMASTER?
+masters master artist deva artistdeva d3022 z30~
+Master Artist D3022~
+A Artist is sitting here, could he be a Master?
 ~
-You realize that whenever your MASTER moves, the way of the true artist.
-He is to be dressed in messy clothing, having the appearance of a artist.
+You realize that whenever your MASTER moves, the way of the true artist. He is to be dressed in messy clothing, having the appearance of a artist.
 ~
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
@@ -216,13 +212,11 @@ He is to be dressed in messy clothing, having the appearance of a artist.
 8 8 0
 E
 #3023
-masters master hero deva herodeva d3023~
-HeroMASTER D3023~
-Your HeroMASTER is standing here with a sharp look in his eyes.
+masters master hero deva herodeva d3023 z30~
+Master Hero D3023~
+Your Master Hero is standing here with a sharp look in his eyes.
 ~
-This is your master.  Big and strong with bulging muscles.  Several scars
-across his body proves that he was using arms before you were born.  He has a
-calm look on his face.
+This is your master.  Big and strong with bulging muscles.  Several scars across his body proves that he was using arms before you were born.  He has a calm look on his face.
 ~
 59419 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
@@ -230,9 +224,9 @@ calm look on his face.
 8 8 0
 E
 #3024
-guard deva guarddeva devaforce d3024~
+guard deva guarddeva devaforce d3024 z30~
 GuardDEVA D3024~
-SD3024 GuardDEVA is here.
+GuardDEVA D3024 is here.
 ~
 GuardDEVA D3024 is assigned to protect the realm.
 ~
@@ -243,11 +237,11 @@ GuardDEVA D3024 is assigned to protect the realm.
 BareHandAttack: 4
 E
 #3025
-guard deva guarddeva devaforce d3025~
+guard deva guarddeva devaforce d3025 z30~
 GuardDEVA D3025~
 GuardDEVA D3025 is here.
 ~
-A specially trained warrior monk belonging to the military order.
+GuardDEVA D3025 is here guarding the area.
 ~
 256010 0 0 0 80 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -379,7 +373,7 @@ BareHandAttack: 5
 E
 T 3009
 #3060
-security deva securitydeva devaforce sec30 d3060~
+security deva securitydeva devaforce d3060 z30~
 SecurityDEVA D3060~
 SecurityDEVA D3060 is on patrol.
 ~
@@ -393,7 +387,7 @@ BareHandAttack: 5
 E
 T 3009
 #3061
-service deva servicedeva d3061 SER30~
+service deva servicedeva d3061 z30~
 ServiceDEVA D3061~
 ServiceDEVA D3061 is cleaning up.
 ~
@@ -420,9 +414,9 @@ BareHandAttack: 4
 E
 T 3010
 #3063
-hero deva herodeva~
-HeroDEVA~
-A HeroDEVA is waiting for a job here.
+hero deva herodeva d3063 z30~
+Hero D3063~
+A Hero DEVA D3063 is waiting for a job here.
 ~
 He looks pretty tough, and you imagine he'd do anything to complete a heroic deed.
 ~
@@ -432,9 +426,9 @@ He looks pretty tough, and you imagine he'd do anything to complete a heroic dee
 8 8 0
 E
 #3064
-monk~
-Chanting Monk~
-A chanting, happy Monk is here.
+chanting monk d3065 z30~
+Chanting Monk D3064~
+Chanting Monk D3064 is here chanting, happy Monk is here.
 ~
 A monk who seems to be too happy, and chanting.
 ~
@@ -444,11 +438,11 @@ A monk who seems to be too happy, and chanting.
 8 8 1
 E
 #3065
-monk~
-Monk~
-A Monk is on his alms rounds for offerings.
+travelling monk D3065 z30~
+Travelling Monk D3065~
+Travelling Monk D3065 is on his alms rounds for offerings.
 ~
-The monk looks like he is happy with life.
+The Travelling Monk looks like he is happy with life.
 ~
 10 0 0 0 0 0 0 0 400 E
 1 20 9 0d0+10 1d2+0
@@ -470,11 +464,11 @@ BareHandAttack: 4
 E
 T 3010
 #3067
-deva guard guarddeva devaforce gd30 d3067~
-GuardDEVA 3067~
+deva guard guarddeva devaforce gd30 d3067 z30~
+GuardDEVA D3067~
 GuardDEVA D3067 is on duty.
 ~
-A big, strong, helpful, trustworthy GuardDEVA.
+GuardDEVA D3067 is here guarding the realm.
 ~
 260442 0 0 0 26744 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
