@@ -171,23 +171,25 @@ set stunned %actor.hitp%
 Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
-set actor %random.char%
-set secstr %actor.id%:%direction%:%actor.room.vnum%
-set nextdir %random.dir%
+set dir %random.dir%
+set here %self.room.people%
 
-* so here we want the agent to avoid going back in
-* the same direction they came unless it is the only direction to go.
+while %here%
+  set others %people.next_in_room%
+  if %here.is_killer% || %here.is_thief% || %here.align% < 0
+    %echoaround% %here% security:alert:%here.id%:%here.room.vnum%
+    * teleport to The Love Shack
+    %teleport% %actor% 28617
+  end
+  set here %others%
+done
 
-if %actor.is_killer% || %actor.is_thief% || %actor.align% < 0
-  %echoaround% security:alert:%secstr%
-  * teleport to The Love Shack
-  %teleport% %actor% 28617
+if %here%
+  say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+  wait 30 sec
 end
-
-wait 10 sec
-say #SECURITY #PATROL #R%self.room.vnum% > from %direction% to %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
-wait 5 sec
-%nextdir%
+wait 1 sec
+%dir%
 
 ~
 #3010
