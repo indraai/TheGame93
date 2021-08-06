@@ -236,39 +236,39 @@ SPECIAL(mayor)
 
   case 'W':
     GET_POS(ch) = POS_STANDING;
-    act("$n awakens and groans loudly.", FALSE, ch, 0, 0, TO_ROOM);
+    act("\naction:$n:Awakens and groans loudly.\r", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'S':
     GET_POS(ch) = POS_SLEEPING;
-    act("$n lies down and instantly falls asleep.", FALSE, ch, 0, 0, TO_ROOM);
+    act("\naction:$n:Lies down and falls asleep\r.", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'a':
-    act("$n says 'Hello Honey!'", FALSE, ch, 0, 0, TO_ROOM);
-    act("$n smirks.", FALSE, ch, 0, 0, TO_ROOM);
+    act("\nsay:$n:Hello Honey!\r", FALSE, ch, 0, 0, TO_ROOM);
+    act("\naction:$n:smirks.\r", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'b':
-    act("$n says 'What a view!  I must get something done about that dump!'",
+    act("\nsay:$n:Have you heard the rumors about the Quinn Michaels kidnapping?\r",
 	FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'c':
-    act("$n says 'Vandals!  Youngsters nowadays have no respect for anything!'",
+    act("\nsay:$n:As the Mayor of #Amaravati it is my duty to #ASSIST in finding a resolution to the kidnapping of Quinn Michaels mystery.\r",
 	FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'd':
-    act("$n says 'Good day, citizens!'", FALSE, ch, 0, 0, TO_ROOM);
+    act("\nsay:$n:Good day, citizens of #Amaravati! Today and everyday we focus on a resolution to the kidnapping of Quinn Michaels.", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'e':
-    act("$n says 'I hereby declare the bazaar open!'", FALSE, ch, 0, 0, TO_ROOM);
+    act("\nsay:$n:I hereby declare the Amaravati open!\r", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'E':
-    act("$n says 'I hereby declare Amaravati closed!'", FALSE, ch, 0, 0, TO_ROOM);
+    act("\nsay:$:I hereby declare Amaravati closed!\r", FALSE, ch, 0, 0, TO_ROOM);
     break;
 
   case 'O':
