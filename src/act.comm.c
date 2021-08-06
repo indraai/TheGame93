@@ -50,7 +50,7 @@ ACMD(do_say)
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
 
-    snprintf(buf, sizeof(buf), "$n says, '%s'", argument);
+    snprintf(buf, sizeof(buf), "\nsay: $n says, '%s'\r", argument);
     msg = act(buf, FALSE, ch, 0, 0, TO_ROOM | DG_NO_TRIG);
 
     for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room)
