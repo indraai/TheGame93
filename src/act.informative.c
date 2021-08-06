@@ -1098,11 +1098,13 @@ ACMD(do_weather)
     {
     send_to_char(ch, "\nweather:The sky is %s and %s.\r", sky_look[weather_info.sky], weather_info.change >= 0 ? "you feel a cool breeze" : "you feel the weather changing");
     if (GET_LEVEL(ch) >= LVL_DEVA)
-      send_to_char(ch, "\nPressure: %d (change: %d), Sky: %d (%s)\r",
-                 weather_info.pressure,
-                 weather_info.change,
-                 weather_info.sky,
-                 sky_look[weather_info.sky]);
+      send_to_char(ch, "\npressure: %d (change: %d)"
+        "Sky: %d (%s)\r",
+        weather_info.pressure,
+        weather_info.change,
+        weather_info.sky,
+        sky_look[weather_info.sky]
+      );
     }
   else
     send_to_char(ch, "\nweather:This inside weather is amazing!\r");

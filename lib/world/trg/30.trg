@@ -173,8 +173,6 @@ Stock SecurityDEVA - 3059, 60, 67~
 ~
 * set random direction 3 times for added random JIC
 set dir %random.dir%
-set dir %random.dir%
-set dir %random.dir%
 
 set room %self.room%
 set people %room.people%
@@ -193,7 +191,6 @@ else
   %random.dir%
   %random.dir%
 end
-
 
 ~
 #3010
