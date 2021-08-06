@@ -172,15 +172,26 @@ Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
 set dir %random.dir%
-set here %self.room.people%
+set room %self.room%
+set people %room.people%
 
-if %here%
-  say #SECURITY #PATROL #R%self.room.vnum% > moving %nextdir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
-  wait 10 sec
-  %dir%
-else
-  %dir%
+%echo% security:patrol:%self.id%:%room.vnum%:%dir%
+
+if %people%
+  say #SECURITY #PATROL enter %direction% #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
 end
+
+wait 1 sec
+%random.dir%
+wait 1 sec
+%random.dir%
+wait 1 sec
+%random.dir%
+wait 1 sec
+%random.dir%
+wait 1 sec
+%random.dir%
+wait 1 sec
 
 ~
 #3010
