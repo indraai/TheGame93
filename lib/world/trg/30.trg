@@ -179,7 +179,7 @@ set dir %random.dir%
 set room %self.room%
 set people %room.people%
 
-%echo% security:patrol:%self.vnum%:%room.vnum%:%dir%
+%echo% security:patrol:D%self.vnum%:R%room.vnum%:%dir%
 
 if %people%
   say #SECURITY #PATROL enter %direction% #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
