@@ -171,27 +171,26 @@ set stunned %actor.hitp%
 Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
+* set random direction 3 times for added random JIC
 set dir %random.dir%
+set dir %random.dir%
+set dir %random.dir%
+
 set room %self.room%
 set people %room.people%
 
-%echo% security:patrol:%self.id%:%room.vnum%:%dir%
+%echo% security:patrol:%self.vnum%:%room.vnum%:%dir%
 
 if %people%
   say #SECURITY #PATROL enter %direction% #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
-  wait 1 sec
+  wait 10 sec
+  %dir%
   %random.dir%
-  wait 1 sec
   %random.dir%
-  wait 1 sec
-  %random.dir%
-  wait 1 sec
-  %random.dir%
-  wait 1 sec
-  %random.dir%
-  wait 1 sec
 else
   wait 1 sec
+  %dir%
+  %random.dir%
   %random.dir%
 end
 
