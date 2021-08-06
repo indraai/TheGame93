@@ -179,19 +179,22 @@ set people %room.people%
 
 if %people%
   say #SECURITY #PATROL enter %direction% #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+else
+  wait 1 sec
+  %random.dir%
 end
 
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
-%random.dir%
-wait 1 sec
 
 ~
 #3010
