@@ -47,22 +47,16 @@ D5
 ~
 0 0 2683
 E
-info~
-adv:world:3001/info
+oracle~
+adv:world:3001/oracle
 ~
 E
-nike~
-adv:world:3001/nike
+hymn~
+adv:world:3001/hymn
 ~
 E
-covenant~
-adv:world:3001/covenant~
-E
-jordan~
-adv:world:3001/jordan~
-E
-trent~
-adv:world:3001/trent~
+paintings~
+adv:world:3001/paintings~
 S
 T 3017
 T 3106

@@ -35,19 +35,20 @@ struct attack_hit_type attack_hit_text[] =
 {
   {"hit", "hits"},    /* 0 */
   {"push", "pushes"},
-  {"hair pull", "pulls hair"},
-  {"shin kick", "kicks shins"},
-  {"flying elbow", "flying elbows"},
-  {"kung fu knee", "kung fu knees"},  /* 5 */
-  {"super crush", "super crushes"},
-  {"ultimate pound", "ultimate pounds"},
-  {"hammer fist", "hammer fists"},
-  {"ultra flying kick", "ultra flying kicks"},
-  {"combo punch", "combo punches"}, /* 10 */
-  {"fire noogie", "fire noogies"},
-  {"super wedgie", "super wedgies"},
-  {"dragon punch", "dragon punches"},
-  {"super ultra kick", "super ultra kicks"}
+  {"smack", "smacks"},
+  {"pull hair", "pulls hair"},
+  {"kick shin", "kicks shins"},
+  {"KungFu Punch", "Kung Fu Punches"},  /* 5 */
+  {"KungFu Kick", "KungFu Kicks"},
+  {"Hammer Fist", "Hammer Fists"},
+  {"Ultra Kick", "Ultra Kicks"},
+  {"Ultimate Combo", "Ultimate Combo"}, /* 10 */
+  {"Fire Noogie", "Fire Noogies"},
+  {"Super Wedgie", "Super Wedgies"},
+  {"Dragon Fart", "Dragon Farts"},
+  {"Tackle", "Tackles"},
+  {"Ultra Tackle", "Ultra Tackles"},
+  {"Ultra Prime Tackle", "Ultra Prime Tackles"}
 };
 
 /* local (file scope only) variables */
