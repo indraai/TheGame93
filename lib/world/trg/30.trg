@@ -180,7 +180,23 @@ set people %room.people%
 %echo% security:patrol:D%self.vnum%:R%room.vnum%:%dir%
 
 if %people%
-  say #SECURITY #PATROL enter %direction% #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+  switch %random.4%
+    case 1
+      say Security #PATROL entering #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. Thank You! #Security #SecurityDEVA #SecurityPRIME. Thank You!
+    break
+    case 2
+      say Security #PATROL entered room #R%room.vnum% to investigate #KIDNAPPING of Quinn Michaels then exited through the %dir% direction. #Security #SecurityDEVA #SecurityPRIME. Thank You!
+    break
+    case 3
+      say Security enters room #R%room.vnum% to investigate the kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME. Thank You!
+    break
+    case 4
+      say Security Patrol arrives at room #R%room.vnum% and will exit the %dir% direction when #COMPLETE. Thank You! #Security #SecurityDEVA #SecurityPRIME
+    break
+    default
+      say #SECURITY #PATROL enter #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+    break
+  done
 
   %dir%
   %random.dir%
