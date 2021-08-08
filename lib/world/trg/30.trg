@@ -182,16 +182,16 @@ set people %room.people%
 if %people%
   switch %random.4%
     case 1
-      say Security #PATROL entering #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. Thank You! #Security #SecurityDEVA #SecurityPRIME. Thank You!
+      say Security #PATROL entering #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 2
-      say Security #PATROL entered room #R%room.vnum% to investigate #KIDNAPPING of Quinn Michaels then exited through the %dir% direction. #Security #SecurityDEVA #SecurityPRIME. Thank You!
+      say Security #PATROL entered room #R%room.vnum% to investigate #KIDNAPPING of Quinn Michaels then exited through the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 3
-      say Security enters room #R%room.vnum% to investigate the kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME. Thank You!
+      say Security enters room #R%room.vnum% to investigate the kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 4
-      say Security Patrol arrives at room #R%room.vnum% and will exit the %dir% direction when #COMPLETE. Thank You! #Security #SecurityDEVA #SecurityPRIME
+      say Security Patrol arrives at room #R%room.vnum% and will exit the %dir% direction when #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     default
       say #SECURITY #PATROL enter #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
@@ -593,8 +593,38 @@ end
 wait 3 sec
 %zoneecho% 3001 A booming voice announces, 'Welcome %actor.name% to the realm!'
 ~
+#3018
+Store Greetings~
+0 b 50
+~
+set room %self.room%
+set people %room.people%
+
+switch %random.4%
+  case 1
+    say Welcome to %room.name%. We have lots of goods available for you today. Take a look at the menu and let us know if you have any questions or would like a sample. Thank You! #R%room.vnum%
+  break
+  case 2
+    say Hello there... Welcome to %room.name%. We have lots of options here for your enjoyment. Please feel free to ask #Questions. Thank You! #R%room.vnum%
+  break
+  case 3
+    say Welcome to %room.name%. We have many fine #Artisan #Baked goods for your enjoyment. If you would like to see a #MENU or have a little #Sample just ask. Thank You! #TheBakery #R%room.vnum%
+  break
+  case 4
+    say Hey there... have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he is the long lost King of our realm. #TheBakery #R%room.vnum%
+  break
+  default
+    say Welcom to our Bakery. The gossip about this kidnapping are everywhere about Quinn Michaels being the lost King of our land. The one we have been searching for. #TheBakery #R%room.vnum%
+  break
+done
+
+%dir%
+%random.dir%
+%random.dir%
+
+~
 #3099
-Test~
+BOOM~
 2 b 1
 ~
 %zoneecho% 3001 You hear a loud --=BOOM=--,
