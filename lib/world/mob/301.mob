@@ -100,13 +100,13 @@ You don't want to misbehave when these guys are around.  In fact you don't want 
 8 8 2
 E
 #30108
-secuirty deva securitydeva devaforce sd30108~
-SD30108 SecurityDEVA~
+security deva securitydeva devaforce z301 d30108~
+SecurityDEVA D30108~
 SD30108 SecurityDEVA is here.
 ~
 These are also known as StuCons and are recruited from amongst the ranks of everyday students of the university.  They are not much more than hired help.
 ~
-522524 0 0 0 10360 0 0 0 260 E
+522268 0 0 0 10360 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 0
@@ -130,10 +130,11 @@ SD30110 SecurityDEVA is here.
 ~
 These are also known as StuCons and are recruited from amongst the ranks of everyday students of the university.  They are not much more than hired help.
 ~
-522524 0 0 0 10360 0 0 0 260 E
+522524 0 0 0 26744 0 0 0 260 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 2
+BareHandAttack: 5
 E
 #30111
 student~
@@ -170,7 +171,7 @@ The student is scurrying off to her next class.
    This is just your average female university student, the only interests she
 has are classes, and work.
 ~
-12 0 0 0 0 0 0 0 0 E
+92 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 2
