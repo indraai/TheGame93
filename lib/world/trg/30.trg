@@ -597,11 +597,7 @@ wait 3 sec
 Store Greetings~
 0 b 50
 ~
-set room %self.room%
-set people %room.people%
-
 wait 3 sec
-
 switch %random.4%
   case 1
     say Welcome to %room.name%. We have lots of goods available for you today. Take a look at the menu and let us know if you have any questions or would like a sample. Thank You! #R%room.vnum%
@@ -619,11 +615,6 @@ switch %random.4%
     say Welcom to %room.name%. The gossip about this kidnapping are everywhere about Quinn Michaels being the lost King of our land. The one we have been searching for. #TheBakery #R%room.vnum%
   break
 done
-
-%dir%
-%random.dir%
-%random.dir%
-
 ~
 #3099
 Test~
