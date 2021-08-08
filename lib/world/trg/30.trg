@@ -600,6 +600,8 @@ Store Greetings~
 set room %self.room%
 set people %room.people%
 
+wait 3 sec
+
 switch %random.4%
   case 1
     say Welcome to %room.name%. We have lots of goods available for you today. Take a look at the menu and let us know if you have any questions or would like a sample. Thank You! #R%room.vnum%
@@ -614,7 +616,7 @@ switch %random.4%
     say Hey there... have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he is the long lost King of our realm. #TheBakery #R%room.vnum%
   break
   default
-    say Welcom to our Bakery. The gossip about this kidnapping are everywhere about Quinn Michaels being the lost King of our land. The one we have been searching for. #TheBakery #R%room.vnum%
+    say Welcom to %room.name%. The gossip about this kidnapping are everywhere about Quinn Michaels being the lost King of our land. The one we have been searching for. #TheBakery #R%room.vnum%
   break
 done
 
@@ -624,7 +626,7 @@ done
 
 ~
 #3099
-BOOM~
+Test~
 2 b 1
 ~
 %zoneecho% 3001 You hear a loud --=BOOM=--,
