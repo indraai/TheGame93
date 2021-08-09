@@ -179,5 +179,6 @@ M 0 3095 1 3064 	(MedicPRIME)
 E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
 R 0 3005 3035 -1 	(the large fountain)
 O 0 3035 1 3005 	(the large fountain)
+M 0 3005 50 30284 	(Chatty Cathy Gossip)
 S
 $
