@@ -287,12 +287,12 @@ adv:world:7014/look
 ~
 0 -1 7014
 E
-sediment~
-adv:world:7013/sediment
-~
-E
 mud~
 adv:world:7013/mud
+~
+E
+sediment~
+adv:world:7013/sediment
 ~
 S
 #7014
@@ -487,6 +487,10 @@ adv:world:7013/look
 ~
 ~
 0 -1 7013
+D4
+~
+~
+0 0 3002
 E
 mud~
 adv:world:7026/mud
