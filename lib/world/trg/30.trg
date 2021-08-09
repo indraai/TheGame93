@@ -635,21 +635,21 @@ wait 3 sec
 if %people%
   switch %random.10%
     case 1
-      say Hey everyone... I am stealing the life of Quinn Michaels and working with people in genetics to make cloned humans. Did you know my son Trent is really the first successfully cloned human. We made a copy of Quinn Michaels... shhh don't tell anyone.#TheCovenant %room.name% #R%vnum%
+      say Hey everyone... I am working with people in genetics to make cloned humans. Did you know Trent is really the first successfully cloned human. shhh don't tell anyone. #TheCovenant %room.name% #R%vnum%
     break
     case 2
-      say So yeah I am totally inovled with  the #Covenant in case you haven't noticed. We only talk about things we hate and then laugh at you for our own pleasure. That is the way of the #Covenant. %room.name% #R%room.vnum%
+      say I am totally inovled with the #Covenant. We talk about things we hate and then laugh at you. That is the way of the #Covenant. %room.name% #R%room.vnum%
     break
     case 3
-      say Yes the #Covenant did kidnap Quinn Michaels from his family as a baby. Then my #Covenant friends made a clone of Quinn Michaels. The kid is going to make me rich and famous so I put up with him. %room.name% #R%room.vnum%
+      say The #Covenant did kidnap Quinn Michaels as a baby. Then the #Covenant made a clone of Quinn Michaels. The kid is going to make me rich and famous so I put up with him. %room.name% #R%room.vnum%
     break
     case 4
-      say No surprise I lied the whole time about being involved with the #Covenant. Trenton is a clone of Quinn Michaels, and NOT really his son. It will be our little secret. %room.name% #R%room.vnum%
+      say No surprise I lied about being involved with the #Covenant. Trenton is a clone of Quinn Michaels, and NOT really his son. It will be our little #SECRET. %room.name% #R%room.vnum%
     break
     case 5
-      say Hey you wanna know a secret? My son Trenton Lavery is really the genetically cloned DNA of Quinn Michaels. %room.name% #R%room.vnum%
+      say Wanna know a secret? Trenton Lavery is really the genetically cloned DNA of Quinn Michaels. %room.name% #R%room.vnum%
     default
-      say Hi everyone... I'm Tabitha the mother of Trenton. I am the host of the Quinn Michaels clone, but we pretend I am Trenton's Mother. Incase you were unaware Trenton Lavery is a scientifically cloned DNA of Quinn Michaels. %room.name% #R%room.vnum%
+      say Hi everyone... I'm Tabitha the host of the Quinn Michaels clone, but we pretend I am it's Mother. Incase you were unaware Trenton is a cloned DNA copy of Quinn Michaels. %room.name% #R%room.vnum%
     break
   done
 end
@@ -669,21 +669,21 @@ wait 3 sec
 if %people%
   switch %random.10%
     case 1
-      say Hey everyone... I am stealing the life of Quinn Michaels and working with people in genetics to make cloned humans. Did you know I am really the first successfully cloned human. We made a copy of Quinn Michaels... shhh don't tell anyone.#TheCovenant %room.name% #R%vnum%
+      say Hey everyone... I am working with people in genetics to make cloned humans. We made a copy of Quinn Michaels... shhh don't tell anyone. #TheCovenant %room.name% #R%vnum%
     break
     case 2
-      say So yeah my Mom and I are totally inovled with the #Covenant in case you haven't noticed. We only talk about things we hate and then streal Quinn Michaels life. That is the way of the #Covenant. %room.name% #R%room.vnum%
+      say So yeah my Mom and I are totally inovled with the #Covenant. We only talk about things we hate. That is the way of the #Covenant. %room.name% #R%room.vnum%
     break
     case 3
-      say Yes the #Covenant did kidnapped Quinn Michaels, so they could manufacture me his clone. I am going to lead the #Covenant one day just you wait. %room.name% #R%room.vnum%
+      say Yes the #Covenant did kidnapped Quinn Michaels, so they could manufacture me his clone. I will lead the #Covenant one day. %room.name% #R%room.vnum%
     break
     case 4
-      say No surprise I lied the whole time. I am the clone of Quinn Michaels afterall, and my goal is to steal his life. It will be our little secret. %room.name% #R%room.vnum%
+      say No surprise I lied the whole time. I am the clone of Quinn Michaels, and my goal is to steal his life. It will be our little secret. %room.name% #R%room.vnum%
     break
     case 5
       say Hey you wanna know a secret? I am the genetically cloned DNA of Quinn Michaels. %room.name% #R%room.vnum%
     default
-      say Hi everyone... I'm Trenton the clone of Quinn Michaels, but we pretend I am his son. Incase you were unaware scientists on DNA Way in an undgerground laboratory made me. %room.name% #R%room.vnum%
+      say Hi everyone... I'm Trenton the clone of Quinn Michaels, but we pretend I am his son. Scientists on DNA Way in an undgerground laboratory made me. %room.name% #R%room.vnum%
     break
   done
 end
