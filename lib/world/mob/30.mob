@@ -277,8 +277,8 @@ E
 T 3003
 #3040
 service servicedeva deva d3040~
-DrinkDEVA~
-A ServiceDEVA watches you calmly, while he skillfully mixes a drink.
+ServiceDEVA D3040~
+A ServiceDEVA D3040 watches you calmly, while he skillfully mixes a drink.
 ~
 A happy looking ServiceDEVA who hates trouble in his bar.
 ~
@@ -316,7 +316,7 @@ service servicedeva deva d3043~
 ServiceDEVA D3043~
 ServiceDEVA D3043 is standing here.
 ~
-The WaiterDEVA is here waiting for your order.
+The ServiceDEVA is here waiting for your order.
 ~
 24586 0 0 0 0 0 0 0 600 E
 23 13 -3 4d4+230 3d3+3
@@ -337,7 +337,7 @@ ServiceDEVA D3044 is here waiting for your order.
 E
 #3045
 service deva servicedeva d3045~
-WaiterDEVA~
+ServiceDEVA D3045~
 ServiceDEVA D3045 is standing here.
 ~
 ServiceDEVA D3045 is here waiting for your order.
@@ -401,11 +401,11 @@ ServiceDEVA D3061 love their jobs of cleaning up and finding recycle items.
 E
 T 3011
 #3062
-citizen amaravati male~
-Male Citizen~
-A Male Amaravati Citizen is here.
+citizen amaravati male citizens c30 d3062~
+Male Citizen D3062~
+A Male Citizen of Amaravati is here.
 ~
-This Male Amaravati Citizen goes around talking to everyone.
+This Male Citizen of Amaravati goes around talking to everyone.
 ~
 232 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -451,11 +451,11 @@ The Travelling Monk looks like he is happy with life.
 8 8 1
 E
 #3066
-female citizen amaravati~
-Female Citizen~
-A Female Citizen of Amaravati is here.
+female citizen amaravati c30 d3066~
+Female Citizen D3066~
+Female Citizen D3066 of Amaravati is here.
 ~
-This Male Amaravati Citizen goes around talking to everyone.
+Female Citizen D3066 of Amaravati goes around talking to everyone.
 ~
 200 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -478,11 +478,11 @@ GuardDEVA D3067 is here guarding the realm.
 BareHandAttack: 5
 E
 #3068
-blob citizen amaravati~
-Blob Citizen~
-A Blob Citizen of Amaravati goes around talking to everyone.
+blob citizen amaravati c30 d3068~
+Blob Citizen D3068~
+Blob Citizen  D3068 of Amaravati goes around talking to everyone.
 ~
-A blobby looking fellow; it is huge, greenish, and looks like the blob.
+A blobby looking fellow, it is huge, greenish, and looks like the blob.
 ~
 256216 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3

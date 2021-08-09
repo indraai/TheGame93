@@ -182,25 +182,29 @@ if %people%
       say Security #PATROL entering #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 2
-      say Security #PATROL entered room #R%room.vnum% to investigate #KIDNAPPING of Quinn Michaels then exited through the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security #PATROL investigate room #R%room.vnum% for evidence relating to the #KIDNAPPING of Quinn Michaels. Exit %dir%. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 3
-      say Security enters room #R%room.vnum% to investigate the kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security entered #R%room.vnum% to investigate the kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 4
-      say Security Patrol arrives at room #R%room.vnum% and will exit the %dir% direction when #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security Patrol arrives in room #R%room.vnum% and will exit the %dir% direction when investigation is #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     default
-      say #SECURITY #PATROL enter #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+      say #SECURITY #PATROL in #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
     break
   done
   %dir%
-  %random.dir%
-  %random.dir%
 else
   wait 1 sec
   %dir%
+  wait 1 sec
   %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
   %random.dir%
 end
 ~
@@ -224,21 +228,22 @@ while %item%
 done
 ~
 #3011
-Stock Janitor - 3061, 3068~
+ServiceDEVA~
 0 b 100
 ~
 eval inroom %self.room%
 eval item %inroom.contents%
 while %item%
-* Target the next item in room. In case it is picked up.
+  * Target the next item in room. In case it is picked up.
   set next_item %item.next_in_list%
-* TODO: if %item.wearflag(take)%
-  * Check for fountains and expensive items.
-  if %item.type% != FOUNTAIN && %item.cost% <= 15
-    take %item.name%
+
+  * Check if item is a corpse.
+  if %item.vnum(65535)%
+    emote Cleaning up the real... do do do.
+    %purge% %item%
+    halt
   end
   set item %next_item%
-  * Loop back
 done
 ~
 #3012
