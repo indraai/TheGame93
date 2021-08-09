@@ -177,23 +177,23 @@ has are classes, and work.
 8 8 2
 E
 #30114
-frosh froshie~
-the froshie~
-This frosh is standing here with a confused expression on its face.
+male freshman student~
+Male Freshman Student~
+Male Freshman Student is here.
 ~
-   You are looking at the everyday run of the mill confused frosh.
+The Male Freshman Student is here to learn and experience their studies fully.
 ~
 136 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0
+8 8 1
 E
 #30115
-frosh froshie~
-the froshie~
-This frosh is standing here with a confused expression on his face.
+male freshman student~
+Male Freshman Student~
+The Male Freshman student is here.
 ~
-   You are looking at the everyday run of the mill confused frosh.
+The Male Freshman Student is on their way to class.
 ~
 136 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -201,7 +201,7 @@ This frosh is standing here with a confused expression on his face.
 8 8 1
 E
 #30116
-freshman student female~
+female freshman student~
 Female Freshman Student~
 The Female Freshman Student is here.
 ~
