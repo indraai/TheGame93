@@ -173,12 +173,9 @@ Stock SecurityDEVA - 3059, 60, 67~
 ~
 * set random direction 3 times for added random JIC
 set dir %random.dir%
-
 set room %self.room%
 set people %room.people%
-
 %echo% security:patrol:D%self.vnum%:R%room.vnum%:%dir%
-
 if %people%
   switch %random.4%
     case 1
@@ -197,7 +194,6 @@ if %people%
       say #SECURITY #PATROL enter #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
     break
   done
-
   %dir%
   %random.dir%
   %random.dir%
@@ -207,7 +203,6 @@ else
   %random.dir%
   %random.dir%
 end
-
 ~
 #3010
 Stock Fido - 3062, 3066~
