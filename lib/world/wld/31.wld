@@ -19,6 +19,7 @@ adv:world:3127/look
 ~
 0 -1 3127
 S
+T 3106
 #3101
 The Promenade~
 adv:world:3101/main
@@ -66,6 +67,7 @@ adv:world:3101/look
 ~
 0 -1 3101
 S
+T 3106
 #3103
 The Promenade~
 adv:world:3103/main
@@ -415,14 +417,15 @@ adv:world:30600/look
 ~
 0 -1 30600
 E
-sign~
-adv:world:3120/sign
-~
-E
 tree~
 adveenture:3120/tree
 ~
+E
+sign~
+adv:world:3120/sign
+~
 S
+T 3106
 #3121
 Emerald Avenue~
 adv:world:3121/main
@@ -587,6 +590,7 @@ adv:world:3128/look
 ~
 0 -1 3128
 S
+T 3106
 #3130
 On The Concourse~
 adv:world:3130/main
@@ -604,10 +608,10 @@ adeventure:3129/look
 0 -1 3129
 S
 #3131
-Park Road~
+The Dog Park~
 adv:world:3131/main
 ~
-31 0 0 0 0 1
+31 16 0 0 0 2
 D0
 adv:world:3101/look
 ~
@@ -720,16 +724,16 @@ adv:world:3117/look
 ~
 0 -1 3117
 E
-chair chairs~
-adv:world:3137/chair
+typewriter~
+adv:world:3137/typewriter
 ~
 E
 desk~
 adv:world:3137/desk
 ~
 E
-typewriter~
-adv:world:3137/typewriter
+chair chairs~
+adv:world:3137/chair
 ~
 S
 #3138
@@ -743,12 +747,12 @@ adv:world:3137/look
 ~
 0 -1 3137
 E
-desk~
-adv:world:3138/desk
-~
-E
 chair armchair~
 adv:world:3138/chair
+~
+E
+desk~
+adv:world:3138/desk
 ~
 S
 #3139
@@ -1095,16 +1099,16 @@ D0
 entrance~
 1 -1 3154
 E
-benches rows~
-adv:world:3155/benches
+glass windows~
+adv:world:3155/windows
 ~
 E
 altar~
 adv:world:3155/altar
 ~
 E
-glass windows~
-adv:world:3155/windows
+benches rows~
+adv:world:3155/benches
 ~
 S
 #3156
