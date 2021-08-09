@@ -600,19 +600,19 @@ wait 3 sec
 if %people%
   switch %random.4%
     case 1
-      say Did you hear the #GOSSIP about #QuinnMichaels being kidnapping by a group called #TheCovenant and the mother of his son #TabithaLavery was involved with her whole #FAMILY? %room.name% #R%vnum%
+      say Did you hear the #GOSSIP about #QuinnMichaels being kidnapped by a group called #TheCovenant and the mother of his son #TabithaLavery was involved with her whole #FAMILY? %room.name% #R%vnum%
     break
     case 2
-      say Have you heard the latest #GOSSIP? Quinn Michaels was kidnapping as a baby from another country and brought to the #UnitedStates illegally by a group called #TheCovenant? %room.name% #R%room.vnum%
+      say Have you heard the latest #GOSSIP? Quinn Michaels was kidnapped as a baby from another country and brought to the #UnitedStates illegally by a group called #TheCovenant? %room.name% #R%room.vnum%
     break
     case 3
-      say Have some juicy #GOSSIP... Quinn Michaels was kidnapping by a #TheCovenant and his entire family was not really his family, but #FAKE people put in place to play pretend #FAMILY. %room.name% #R%room.vnum%
+      say Have some juicy #GOSSIP... Quinn Michaels was kidnapped by #TheCovenant and his entire family was not really his family, but #FAKE people put in place to play pretend #FAMILY. %room.name% #R%room.vnum%
     break
     case 4
-      say Have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he is the long lost King of a forgotten country. %room.name% #R%room.vnum%
+      say Have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he was stolen as a baby from some mysterious country. %room.name% #R%room.vnum%
     break
     default
-      say The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being a kidnapped and lost in a world without many #friends or #family.%room.name% #R%room.vnum%
+      say The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE by #TheCovenant.%room.name% #R%room.vnum%
     break
   done
 end
