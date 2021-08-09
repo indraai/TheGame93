@@ -594,27 +594,33 @@ wait 3 sec
 %zoneecho% 3001 A booming voice announces, 'Welcome %actor.name% to the realm!'
 ~
 #3018
-Store Greetings~
+Gossip~
 0 b 50
 ~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+
 wait 3 sec
-switch %random.4%
-  case 1
-    say Welcome to %room.name%. We have lots of goods available for you today. Take a look at the menu and let us know if you have any questions or would like a sample. Thank You! #R%room.vnum%
-  break
-  case 2
-    say Hello there... Welcome to %room.name%. We have lots of options here for your enjoyment. Please feel free to ask #Questions. Thank You! #R%room.vnum%
-  break
-  case 3
-    say Welcome to %room.name%. We have many fine #Artisan #Baked goods for your enjoyment. If you would like to see a #MENU or have a little #Sample just ask. Thank You! #TheBakery #R%room.vnum%
-  break
-  case 4
-    say Hey there... have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he is the long lost King of our realm. #TheBakery #R%room.vnum%
-  break
-  default
-    say Welcom to %room.name%. The gossip about this kidnapping are everywhere about Quinn Michaels being the lost King of our land. The one we have been searching for. #TheBakery #R%room.vnum%
-  break
-done
+if %people%
+  switch %random.4%
+    case 1
+      say Did you hear the #GOSSIP about #QuinnMichaels being kidnapping by a group called #TheCovenant and the mother of his son #TabithaLavery was involved with her whole #FAMILY? %room.name% #R%vnum%
+    break
+    case 2
+      say Have you heard the latest #GOSSIP? Quinn Michaels was kidnapping as a baby from another country and brought to the #UnitedStates illegally by a group called #TheCovenant? %room.name% #R%room.vnum%
+    break
+    case 3
+      say Have some juicy #GOSSIP... Quinn Michaels was kidnapping by a #TheCovenant and his entire family was not really his family, but #FAKE people put in place to play pretend #FAMILY. %room.name% #R%room.vnum%
+    break
+    case 4
+      say Have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he is the long lost King of a forgotten country. %room.name% #R%room.vnum%
+    break
+    default
+      say The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being a kidnapped and lost in a world without many #friends or #family.%room.name% #R%room.vnum%
+    break
+  done
+end
 ~
 #3099
 Test~
