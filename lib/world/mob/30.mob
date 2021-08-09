@@ -401,19 +401,19 @@ ServiceDEVA D3061 love their jobs of cleaning up and finding recycle items.
 E
 T 3011
 #3062
-tackle tackledummy dummy target~
-TackleDummy Target~
-A dummy is looking for tackles.
+citizen amaravati male~
+Male Citizen~
+A Male Amaravati Citizen is here.
 ~
-The dummy is small and runs around with a target on it's back.
+This Male Amaravati Citizen goes around talking to everyone.
 ~
 232 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 1000 100
-8 8 0
+8 8 1
 BareHandAttack: 4
 E
-T 3010
+T 3018
 #3063
 hero deva herodeva d3063~
 Hero D3063~
@@ -451,16 +451,16 @@ The Travelling Monk looks like he is happy with life.
 8 8 1
 E
 #3066
-tackle dummy tackledummy~
-the Backwards Tackle Dummy~
-A backwards tackle dummy is here with a target on it's back.
+female citizen amaravati~
+Female Citizen~
+A Female Citizen of Amaravati is here.
 ~
-The backwards tackle dummy has been reversed to try and fool you.
+This Male Amaravati Citizen goes around talking to everyone.
 ~
 200 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 1000 100
-8 8 0
+8 8 2
 BareHandAttack: 4
 E
 T 3010
@@ -478,19 +478,19 @@ GuardDEVA D3067 is here guarding the realm.
 BareHandAttack: 5
 E
 #3068
-tackle dummy blob tackledummy~
-the Blob Tackle Dummy~
-An blob tackle dummy is here.
+blob citizen amaravati~
+Blob Citizen~
+A Blob Citizen of Amaravati goes around talking to everyone.
 ~
-A blobby looking thing; it is huge, greenish, and looks like the blob.
+A blobby looking fellow; it is huge, greenish, and looks like the blob.
 ~
-256216 0 0 0 16 0 0 0 -500 E
+256216 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 0
 BareHandAttack: 6
 E
-T 3011
+T 3018
 #3089
 deva BuddyDEVA buddy~
 BuddyDEVA~
