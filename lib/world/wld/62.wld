@@ -930,7 +930,7 @@ odor.  Your stomach turns involuntarily, and you wonder
 about going back down the hill to the east, instead of
 going even further down the western tunnel.
 ~
-62 8 0 0 0 5
+62 280 0 0 0 0
 D1
 ~
 ~
@@ -940,6 +940,7 @@ D3
 ~
 0 -1 6243
 S
+T 3106
 #6243
 A Tunnel Forking~
    The tunnel forks here, one branch leading north, the
@@ -951,7 +952,7 @@ your bile.
    Forcing your eyes open, you notice the warning signs
 painted around the tunnel to the north.
 ~
-62 9 0 0 0 4
+62 280 0 0 0 4
 D0
 ~
 ~
@@ -969,6 +970,7 @@ painting sign signs~
    They are orcish, and you could swear they were all warning symbols.
 ~
 S
+T 3106
 #6244
 A Tunnel~
    The floor is slick with the humidity that boils out of
@@ -977,7 +979,7 @@ smell with it.  Again, you consider saving your nose the
 trip west and down the tunnel, and heading back east to
 the cave entrance.
 ~
-62 9 0 0 0 4
+62 280 0 0 0 0
 D1
 ~
 ~
@@ -995,7 +997,7 @@ lights from inside, and you hear some heavy breathing and
 low grunts from that direction.  The cave entrance to the
 east seems far too far away for your comfort...
 ~
-62 9 0 0 0 5
+62 280 0 0 0 0
 D1
 ~
 ~
@@ -1015,7 +1017,7 @@ stomachs you guess.  Oddly enough, you don't even care to
 catalog what they have available -- there's no chance you're
 going to take any of this...
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D1
 ~
 ~
@@ -1034,7 +1036,7 @@ is lying, the stone next to its hand... this is a suicide
 area!  You look down upon the orc and comprehend its
 suffering in its twisted form.  How sad.
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D1
 ~
 ~
@@ -1059,7 +1061,7 @@ rest just decompose.  The dim sense of horror budding in
 your head blossoms as you realize the pile in the corner
 consists of dead orc children awaiting burial.
 ~
-62 12 0 0 0 4
+62 24 0 0 0 0
 D2
 ~
 ~
@@ -1079,7 +1081,7 @@ undrinkable.  Somewhere to the east you hear an orc
 child's whining cry, and a voice hushes it urgently.
 Beware, orcs!  Adventurers are here!  Hide your children!
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1105,7 +1107,7 @@ twisted piece of wire... one orc's idea of a treasured ring,
 no doubt.  Kicking the trinket away, you try to push the
 pity out of your heart for these wretches.
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1134,7 +1136,7 @@ turns to horror as you see a horrible creature, half...
 well, half something and half orc dash between two
 stalagmites.
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1152,6 +1154,7 @@ D3
 ~
 0 -1 6250
 S
+T 3106
 #6252
 A Cave~
    This must be the orc chief's area.  There's an old
@@ -1163,7 +1166,7 @@ look at the pile of worthless coins and wonder at the
 image of orcish raiders.
    These orcs aren't raiders, they are victims.
 ~
-62 8 0 0 0 4
+62 24 0 0 0 4
 D0
 ~
 ~
@@ -1180,7 +1183,7 @@ made of heavy fur padding for comfort and warmth.
 Looking around, your only coherent thought
 is, 'Don't want to know... don't want to know...'
 ~
-62 8 0 0 0 4
+62 24 0 0 0 4
 D0
 ~
 ~
@@ -1204,7 +1207,7 @@ unless you've the mercy to put them out of their misery.
 wonder what forces are at work here... the barrier, the
 orcs...  What's going on here?
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1245,7 +1248,7 @@ north you hear some horrible cries of pain and anguish
 that make you cringe inside and think twice about heading
 in that direction.
 ~
-62 8 0 0 0 0
+62 280 0 0 0 0
 D0
 ~
 ~
@@ -1260,6 +1263,7 @@ This is a normal, wooden door.
 door wooden~
 1 -1 6257
 S
+T 3106
 #6257
 A Bedroom~
    This is a bedroom, catered to someone with a definite
@@ -1287,7 +1291,7 @@ atmosphere.  Somewhere in the recesses of that room
 something cries out in a horrible crackling voice.  Not
 good.
 ~
-62 8 0 0 0 0
+62 280 0 0 0 0
 D0
 ~
 ~
@@ -1306,7 +1310,7 @@ a clear lid.  There's a drain in the floor with gradients
 leading to it.  For some reason,
 you don't imagine this as a voluntary operating theater...
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D1
 ~
 ~
@@ -1323,7 +1327,7 @@ apparatus here, vials and beakers, distillation equipment
 and et cetera.  The stuff looks expensive, but bulky and
 fragile; not good treasure to cart away with you at all.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D1
 A steel cell door.
 ~
@@ -1338,6 +1342,7 @@ D3
 ~
 0 -1 6259
 S
+T 3106
 #6261
 A Cage~
    This is a small, dirty cage, with only a bucket for
@@ -1361,7 +1366,7 @@ There are some bulges on its back, and it doesn't seem to
 be in a very good mood.  It quivers some, not fully in
 control of its motor functions.  Poor thing.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1381,7 +1386,7 @@ The Laboratory~
 filled with shackles and manacles, bullwhips and worse.
 They all look well-used.  You give a shiver, and carry on.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1406,7 +1411,7 @@ A Cage~
 wastes, another bucket for food, and a dirty towel for a
 bed.  The whole room has a terrible stench about it.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D3
 A steel cell door.
 ~
@@ -1419,7 +1424,7 @@ The Laboratory~
 equipment here, merely several pairs of heavy steel
 shackles on the southern wall.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1437,7 +1442,7 @@ metal table here is empty, although you can see some
 outlines in the dust that suggest books had laid here
 once.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1456,13 +1461,14 @@ D3
 ~
 0 -1 6265
 S
+T 3106
 #6267
 A Cage~
    This is a small, dirty cage, with only a bucket for
 wastes, another bucket for food, and a dirty towel for a
 bed.  The whole room has a terrible stench about it.
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D3
 A steel cell door.
 ~
