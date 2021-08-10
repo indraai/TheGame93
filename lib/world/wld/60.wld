@@ -14,23 +14,16 @@ D3
 ~
 0 -1 6001
 E
-<<<<<<< HEAD
 trail~
 adv:world:6000/trail
 ~
 E
 trees~
 adv:world:6000/trees
-=======
-tree trees~
-   The trees are quite tall considering most of them appear to be quite young.
-On one of the trees, crude letters forming the word 'Haon-Dor' have been carved
-into the bark.
->>>>>>> df6644fa7b1b67dbd94701c58237832896544468
 ~
 E
-trail~
-   The forest trail winds westwards through the trees.
+trees~
+adv:world:6000/trees
 ~
 S
 #6001
@@ -52,26 +45,16 @@ D3
 ~
 0 -1 6002
 E
-<<<<<<< HEAD
 trail~
 adv:world:6001/trail
-=======
-birds insects animals~
-   Very cute little creatures, they seem to enjoy life.
->>>>>>> df6644fa7b1b67dbd94701c58237832896544468
 ~
 E
 trees~
 adv:world:6001/trees
 ~
 E
-<<<<<<< HEAD
 animals~
 adv:world:6001/animals
-=======
-trail~
-   The forest trail winds east-west through the trees.
->>>>>>> df6644fa7b1b67dbd94701c58237832896544468
 ~
 S
 #6002
