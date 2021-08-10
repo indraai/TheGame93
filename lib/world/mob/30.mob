@@ -87,16 +87,16 @@ This captain has seen more storms than you have cried tears.
 8 8 0
 E
 #3007
-sailor deva sailordeva d3007~
-Sailor D3007~
-Sailor DEVA D3007 stands here, waiting to help you.
+male citizen amaravati c30~
+Male Citizen~
+Male Citizen of Amaravati is here.
 ~
-He looks like a strong, fit sailor.
+You can see a Male Citizen of Amaravati on his way about town.
 ~
-26634 0 0 0 0 0 0 0 0 E
+2140 0 0 0 8 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3008
 mex deva mexideva d3008~
