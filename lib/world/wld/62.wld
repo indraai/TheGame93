@@ -914,7 +914,7 @@ S
 #6242
 A Cave Entrance~
 ~
-62 8 0 0 0 5
+62 280 0 0 0 0
 D1
 ~
 ~
@@ -924,6 +924,7 @@ D3
 ~
 0 -1 6243
 S
+T 3106
 #6243
 A Tunnel Forking~
    The tunnel forks here, one branch leading north, the
@@ -935,7 +936,7 @@ your bile.
    Forcing your eyes open, you notice the warning signs
 painted around the tunnel to the north.
 ~
-62 9 0 0 0 4
+62 280 0 0 0 4
 D0
 ~
 ~
@@ -953,10 +954,11 @@ painting sign signs~
    They are orcish, and you could swear they were all warning symbols.
 ~
 S
+T 3106
 #6244
 A Tunnel~
 ~
-62 9 0 0 0 4
+62 280 0 0 0 0
 D1
 ~
 ~
@@ -969,7 +971,7 @@ S
 #6245
 A Tunnel~
 ~
-62 9 0 0 0 5
+62 280 0 0 0 0
 D1
 ~
 ~
@@ -982,7 +984,7 @@ S
 #6246
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D1
 ~
 ~
@@ -995,7 +997,7 @@ S
 #6247
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D1
 ~
 ~
@@ -1012,7 +1014,7 @@ S
 #6248
 A Cave~
 ~
-62 12 0 0 0 4
+62 24 0 0 0 0
 D2
 ~
 ~
@@ -1025,7 +1027,7 @@ S
 #6249
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1042,7 +1044,7 @@ S
 #6250
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1063,7 +1065,7 @@ S
 #6251
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1081,10 +1083,11 @@ D3
 ~
 0 -1 6250
 S
+T 3106
 #6252
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 4
 D0
 ~
 ~
@@ -1097,7 +1100,7 @@ S
 #6253
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 4
 D0
 ~
 ~
@@ -1114,7 +1117,7 @@ S
 #6254
 A Cave~
 ~
-62 8 0 0 0 4
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1142,7 +1145,7 @@ S
 #6256
 A Tunnel~
 ~
-62 8 0 0 0 0
+62 280 0 0 0 0
 D0
 ~
 ~
@@ -1157,6 +1160,7 @@ This is a normal, wooden door.
 door wooden~
 1 -1 6257
 S
+T 3106
 #6257
 A Bedroom~
 ~
@@ -1178,7 +1182,7 @@ atmosphere.  Somewhere in the recesses of that room
 something cries out in a horrible crackling voice.  Not
 good.
 ~
-62 8 0 0 0 0
+62 280 0 0 0 0
 D0
 ~
 ~
@@ -1191,7 +1195,7 @@ S
 #6259
 The Laboratory~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D1
 ~
 ~
@@ -1204,7 +1208,7 @@ S
 #6260
 The Laboratory~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D1
 A steel cell door.
 ~
@@ -1219,6 +1223,7 @@ D3
 ~
 0 -1 6259
 S
+T 3106
 #6261
 A Cage~
    This is a small, dirty cage, with only a bucket for
@@ -1235,7 +1240,7 @@ S
 #6262
 The Laboratory~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1252,7 +1257,7 @@ S
 #6263
 The Laboratory~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1274,7 +1279,7 @@ S
 #6264
 A Cage~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D3
 A steel cell door.
 ~
@@ -1284,7 +1289,7 @@ S
 #6265
 The Laboratory~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1297,7 +1302,7 @@ S
 #6266
 The Laboratory~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D0
 ~
 ~
@@ -1316,10 +1321,11 @@ D3
 ~
 0 -1 6265
 S
+T 3106
 #6267
 A Cage~
 ~
-62 8 0 0 0 0
+62 24 0 0 0 0
 D3
 A steel cell door.
 ~
