@@ -4,8 +4,6 @@ The Edge Of The Forest~
 ~
 60 0 0 0 0 2
 D1
-To the east a dusty road takes you back to the walls of Amaravati, and its large
-west gate.
 ~
 ~
 0 -1 6090
@@ -31,8 +29,6 @@ A Trail Through The Light Forest~
 ~
 60 0 0 0 0 3
 D0
-You see evidence of a small path leading through a break in the trees to the
-north.
 ~
 ~
 0 -1 6060
@@ -62,152 +58,124 @@ A Trail Through The Light Forest~
 ~
 60 0 0 0 0 3
 D1
-The trail continues eastwards through the young trees.
 ~
 ~
 0 -1 6001
 D2
-The small path leads south through the young trees.
 ~
 ~
 0 -1 6011
 D3
-You see the narrow forest trail winding westwards into the dense forest.
 ~
 ~
 0 -1 6003
 E
-tree trees~
-   The young, slender trees look beautiful, their fresh, green leaves moving
-lightly in the wind.
+trees~
+adv:world:6002/trees
 ~
 E
 trail~
-   The forest trail winds east-west through the trees.
+adv:world:6002/trail
 ~
 E
-path paths~
-   The narrow path is probably used by the animals living in the forest.
+path~
+adv:world:6002/path
 ~
 S
 #6003
 A Trail Through The Dense Forest~
-   You are on a trail winding east and west through the dense forest.  To
-the east, the forest gradually seems to become lighter.
 ~
 60 0 0 0 0 3
 D1
-The trail continues eastwards to the younger part of the forest.
 ~
 ~
 0 -1 6002
 D3
-You see the narrow trail winding westwards through the dense forest.
 ~
 ~
 0 -1 6004
 E
-tree trees~
-   The dense crowns of the mature trees leave only a fraction of the sky to be
-seen through the leaves.
+trees~
+adv:world:6003/trees
 ~
 E
 trail~
-   The forest trail seems almost fragile compared to the massive trunks.
+adv:world:6003/trail
 ~
 S
 #6004
 A Trail Through The Dense Forest~
-   You are on a trail winding east and west through the dense forest.  To the
-west, the trees are so huge and their crowns so dense that forest remains in
-total darkness.  A small path leads south through the trees.
 ~
 60 0 0 0 0 3
 D1
-The trail continues eastwards through the dense forest.
 ~
 ~
 0 -1 6003
 D2
-The small path leads south through the trees.
 ~
 ~
 0 -1 6005
 D3
-The narrow trail almost seems to disappear between the enormous trunks.
 ~
 ~
 0 -1 6100
 E
-tree trees~
-   The crowns of the old trees almost cut out all light.
+trees~
+adv:world:6004/trees
 ~
 E
 trail~
-   The forest trail seems almost fragile compared to the massive trunks.
+adv:world:6004/trail
 ~
 E
-path paths~
-   The narrow path is probably used by the animals living in the forest.
+path~
+adv:world:6004/path
 ~
 S
 #6005
 A Small Path In The Dense Forest~
-   You are on a small path leading through the dense forest.  The crowns of
-the old trees leave the forest in an unreal twilight illumination.  The path
-continues north and south.
 ~
 60 0 0 0 0 3
 D0
-The small path leads north through the trees.
 ~
 ~
 0 -1 6004
 D2
-The small path leads south through the trees.
 ~
 ~
 0 -1 6006
 E
-tree trees~
-   The trees are mostly old beeches and oaks.
+trees~
+adv:world:6005/trees
 ~
 E
 path paths~
-   The narrow path is probably used by the animals living in the forest.
+adv:world:6005/path
 ~
 S
 #6006
 A Small Path In The Dense Forest~
-   You are on a small path leading through the dense forest.  The crowns of
-the old trees leave the forest in an unreal twilight illumination.  The path
-continues north and east.
 ~
 60 0 0 0 0 3
 D0
-The small path leads north through the trees.
 ~
 ~
 0 -1 6005
 D1
-The small path leads east through the trees.
 ~
 ~
 0 -1 6007
 E
 tree trees~
-   The trees are mostly old beeches and oaks.
+adv:world:6006/trees
 ~
 E
-path paths~
-   The narrow path is probably used by the animals living in the forest.
+path~
+adv:world:6006/path
 ~
 S
 #6007
 An Intersection In The Dense Forest~
-   You are on a small path leading through the dense forest.  The crowns of
-the old trees leave the forest in an unreal twilight illumination.  The forest
-gradually lightens to the east.  Paths lead east, west and south.
 ~
 60 0 0 0 0 3
 D1
