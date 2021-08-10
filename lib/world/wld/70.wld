@@ -287,12 +287,12 @@ adv:world:7014/look
 ~
 0 -1 7014
 E
-mud~
-adv:world:7013/mud
-~
-E
 sediment~
 adv:world:7013/sediment
+~
+E
+mud~
+adv:world:7013/mud
 ~
 S
 #7014
@@ -429,7 +429,7 @@ S
 The Sewer~
 adv:world:7024/main
 ~
-70 12 0 0 0 1
+70 264 0 0 0 0
 D1
 adv:world:7037/look
 ~
@@ -450,7 +450,7 @@ S
 Another Intersection~
 adv:world:7025/main
 ~
-70 8 0 0 0 1
+70 264 0 0 0 0
 D0
 adv:world:7024/look
 ~
@@ -471,7 +471,7 @@ S
 A Junction~
 adv:world:7026/main
 ~
-70 12 0 0 0 0
+70 8 0 0 0 0
 D0
 adv:world:7025/look
 ~
@@ -665,12 +665,16 @@ you are certain that the doorway is in the opposite direction of what
 it was when you entered.  It now leads east.  There is only this one
 exit.
 ~
-70 8 0 0 0 1
+70 8 0 0 0 0
 D1
 You can just make out a smaller room with a chair.
 ~
 ~
 0 -1 7050
+D3
+~
+~
+0 0 7024
 S
 #7038
 The Three Way Junction~
@@ -864,7 +868,7 @@ The Small Room~
 to have been bolted to the rock floor.  A doorway leads south and another
 leads east into darkness.
 ~
-70 8 0 0 0 1
+70 8 0 0 0 0
 D1
 Utter darkness...
 ~
@@ -875,6 +879,10 @@ You can see a room with a lot of light in it.  You can't make out any details.
 ~
 ~
 0 -1 7051
+D3
+~
+~
+0 0 7037
 S
 #7051
 The Sewer Pipe~
@@ -1060,7 +1068,7 @@ The Watery Sewer Bend~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to bend and lead south and west.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D2
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1083,7 +1091,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1129,7 +1137,7 @@ The Watery Sewer Junction~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead into a junction going south, north and east.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1158,7 +1166,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1181,7 +1189,7 @@ The Watery Sewer Junction~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead into a junction that goes north, south and east.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1210,7 +1218,7 @@ The Watery Sewer~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to lead south and north.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
@@ -1233,7 +1241,7 @@ The Watery Sewer Bend~
    You can't see anything but the water you're in up to your hips.  The sewer
 seems to bend and lead west and north.
 ~
-70 8 0 0 0 0
+70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
 that far.
