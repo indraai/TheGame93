@@ -659,11 +659,6 @@ Down the pit it is so utterly dark that you can't see a thing.
 S
 #7037
 The Round Room~
-   As you enter the room it starts rotating - at first slowly, then faster
-and faster - You get totally confused as to where up and down is, but
-you are certain that the doorway is in the opposite direction of what
-it was when you entered.  It now leads east.  There is only this one
-exit.
 ~
 70 8 0 0 0 1
 D1
@@ -860,9 +855,6 @@ and west.
 S
 #7050
 The Small Room~
-   The only thing in this room of interest is a chair, and that appears
-to have been bolted to the rock floor.  A doorway leads south and another
-leads east into darkness.
 ~
 70 8 0 0 0 1
 D1
@@ -932,8 +924,6 @@ door~
 S
 #7055
 The Edge Of The Water Sewer~
-   You stand in a room where half of the floor is covered in water.  The
-water leads east and a doorway leads west.
 ~
 70 8 0 0 0 3
 D1
@@ -1057,13 +1047,9 @@ water~
 S
 #7061
 The Watery Sewer Bend~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to bend and lead south and west.
 ~
 70 8 0 0 0 0
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
 ~
 ~
 0 -1 7062
@@ -1103,8 +1089,6 @@ water~
 S
 #7063
 The Watery Sewer~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to lead south and north.
 ~
 70 8 0 0 0 0
 D0
@@ -1126,8 +1110,6 @@ water~
 S
 #7064
 The Watery Sewer Junction~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to lead into a junction going south, north and east.
 ~
 70 8 0 0 0 0
 D0
@@ -1155,8 +1137,6 @@ water~
 S
 #7065
 The Watery Sewer~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to lead south and north.
 ~
 70 8 0 0 0 0
 D0
@@ -1178,8 +1158,6 @@ water~
 S
 #7066
 The Watery Sewer Junction~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to lead into a junction that goes north, south and east.
 ~
 70 8 0 0 0 0
 D0
@@ -1207,8 +1185,6 @@ water~
 S
 #7067
 The Watery Sewer~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to lead south and north.
 ~
 70 8 0 0 0 0
 D0
@@ -1230,8 +1206,6 @@ water~
 S
 #7068
 The Watery Sewer Bend~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to bend and lead west and north.
 ~
 70 8 0 0 0 0
 D0
