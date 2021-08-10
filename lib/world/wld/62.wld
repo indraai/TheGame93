@@ -817,15 +817,6 @@ D3
 S
 #6237
 A Large Clearing~
-   The earth has been upturned many times here, and
-several white rocks stick up from the ground in odd
-positions.
-   Graveyard.
-   This must be where they bury their dead -- just dig a
-hole and throw the corpse inside, ignoring any previous
-occupants in the ground.  How uncivilized... you hope you
-aren't taken care of in this matter when your time
-comes...
 ~
 62 0 0 0 0 2
 D0
@@ -922,13 +913,6 @@ D2
 S
 #6242
 A Cave Entrance~
-   You are half blinded by the differences of the outdoors
-illumination and the pure darkness of the cave.  A deep,
-cloying stench flows out from the cave mouth; the smells
-of decay, unwashed bodies, and sickness in one roiling
-odor.  Your stomach turns involuntarily, and you wonder
-about going back down the hill to the east, instead of
-going even further down the western tunnel.
 ~
 62 8 0 0 0 5
 D1
@@ -971,11 +955,6 @@ painting sign signs~
 S
 #6244
 A Tunnel~
-   The floor is slick with the humidity that boils out of
-the lower reaches of this cave, bringing that most awful
-smell with it.  Again, you consider saving your nose the
-trip west and down the tunnel, and heading back east to
-the cave entrance.
 ~
 62 9 0 0 0 4
 D1
@@ -989,11 +968,6 @@ D3
 S
 #6245
 A Tunnel~
-   The tunnel takes a deep dip here, and opens up into a
-largish cave to the west.  There seems to be a few faint
-lights from inside, and you hear some heavy breathing and
-low grunts from that direction.  The cave entrance to the
-east seems far too far away for your comfort...
 ~
 62 9 0 0 0 5
 D1
@@ -1007,13 +981,6 @@ D3
 S
 #6246
 A Cave~
-    Heaps of rotting meat and cups of near-drinkable water
-sit here; the orc food stores.  You stand here and wonder
-in near-disbelief at how the orcs could find this stuff
-palatable.  They're orcs; its their nature and their
-stomachs you guess.  Oddly enough, you don't even care to
-catalog what they have available -- there's no chance you're
-going to take any of this...
 ~
 62 8 0 0 0 4
 D1
@@ -1027,12 +994,6 @@ D2
 S
 #6247
 A Cave~
-   A single corpse lies here, well away from a pile of
-similars to the east.  There are several sharpened stakes
-and rocks sitting about conveniently.  The way the corpse
-is lying, the stone next to its hand... this is a suicide
-area!  You look down upon the orc and comprehend its
-suffering in its twisted form.  How sad.
 ~
 62 8 0 0 0 4
 D1
@@ -1050,14 +1011,6 @@ D3
 S
 #6248
 A Cave~
-   There are bodies here... corpses.  Orcs, the lot of
-them, every single one of them horribly disfigured in
-some senseless way; one whose arms were removed, another
-who lacks anything that could sensibly be called a face.
-A few twitch feebly with the last remains of life, the
-rest just decompose.  The dim sense of horror budding in
-your head blossoms as you realize the pile in the corner
-consists of dead orc children awaiting burial.
 ~
 62 12 0 0 0 4
 D2
@@ -1071,13 +1024,6 @@ D3
 S
 #6249
 A Cave~
-   A few sleeping pallets, made of moldy straw and
-stinking furs are arranged around a small firepit here.
-A wooden cup, carved by a crude tool and cruder hands
-sits near the ashes filled with water you consider
-undrinkable.  Somewhere to the east you hear an orc
-child's whining cry, and a voice hushes it urgently.
-Beware, orcs!  Adventurers are here!  Hide your children!
 ~
 62 8 0 0 0 4
 D0
@@ -1095,15 +1041,6 @@ D2
 S
 #6250
 A Cave~
-   Several grass sleeping pallets are here, clustered
-around the remains of an old fire.  The sloping of the
-cave's ceiling allow for smoke ventilation towards the
-surface in here you note, lucky for the orcs.  A few
-strings of burnt meat still hang over the fire, untended
-and uneaten.  On the floor near your feet you spy a small,
-twisted piece of wire... one orc's idea of a treasured ring,
-no doubt.  Kicking the trinket away, you try to push the
-pity out of your heart for these wretches.
 ~
 62 8 0 0 0 4
 D0
@@ -1125,14 +1062,6 @@ D3
 S
 #6251
 A Cave~
-   You are standing just inside a largish cave, about a
-hundred feet in diameter.  A few dim make-shift lanterns
-burning animal fat illuminate the area, just enough so you
-can see the rotted food on the floor, and a few bodies
-sprawled throughout the whole area.  Your disgust quickly
-turns to horror as you see a horrible creature, half...
-well, half something and half orc dash between two
-stalagmites.
 ~
 62 8 0 0 0 4
 D0
@@ -1154,14 +1083,6 @@ D3
 S
 #6252
 A Cave~
-   This must be the orc chief's area.  There's an old
-prize -- a stolen timeworn human armchair sitting near
-the south wall as a throne.  A mammoth sleeping pallet
-made of piled furs is nearby.  Next to that is the pile
-of orc treasure; a pile of well-polished coppers.  You
-look at the pile of worthless coins and wonder at the
-image of orcish raiders.
-   These orcs aren't raiders, they are victims.
 ~
 62 8 0 0 0 4
 D0
@@ -1175,10 +1096,6 @@ D1
 S
 #6253
 A Cave~
-   Many sleeping pallets are arranged near the walls, each
-made of heavy fur padding for comfort and warmth.
-Looking around, your only coherent thought
-is, 'Don't want to know... don't want to know...'
 ~
 62 8 0 0 0 4
 D0
@@ -1196,13 +1113,6 @@ D3
 S
 #6254
 A Cave~
-   This area of the cave is one vast orc sickroom.
-Mutated and mangled orcs lie on the floor, seeming quiet,
-lifeless.  They're not even worth your time, you think,
-unless you've the mercy to put them out of their misery.
-   You look at the corruption of nature's design and
-wonder what forces are at work here... the barrier, the
-orcs...  What's going on here?
 ~
 62 8 0 0 0 4
 D0
@@ -1216,13 +1126,6 @@ D3
 S
 #6255
 A Tunnel~
-   This forking off from the mail tunnel seems odd; the
-walls are strangely smooth, as if they were carved out by
-forces unknown.  The end is abrupt and short, but there is
-a steel door inset in the wall of the west side of the
-tunnel.  The smell from the lower tunnel doesn't seem
-nearly as bad here... this might be a good place to rest
-and catch your breath.
 ~
 62 13 0 0 0 4
 D2
@@ -1238,12 +1141,6 @@ door steel~
 S
 #6256
 A Tunnel~
-   This section of man-made tunnel heads north from here,
-doors on either side.  A few glowing spots on the ceiling
-illuminate the area to almost a daylight level.  From the
-north you hear some horrible cries of pain and anguish
-that make you cringe inside and think twice about heading
-in that direction.
 ~
 62 8 0 0 0 0
 D0
@@ -1262,12 +1159,6 @@ door wooden~
 S
 #6257
 A Bedroom~
-   This is a bedroom, catered to someone with a definite
-sense of taste.  There's a chest of drawers made of a
-solid section of oak tree.  In fact, most of the furniture
-here has that 'natural look' about it.  The bed is filled
-with soft down with an ornate table lamp close by.  Nice
-place.
 ~
 62 8 0 0 0 0
 D1
@@ -1299,12 +1190,6 @@ D2
 S
 #6259
 The Laboratory~
-   A full fledge operating table is set up here, outfitted
-with a full set of restraints.  A ledge nearby has a whole
-array of sterile medical equipment on it, covered over by
-a clear lid.  There's a drain in the floor with gradients
-leading to it.  For some reason,
-you don't imagine this as a voluntary operating theater...
 ~
 62 8 0 0 0 0
 D1
@@ -1318,10 +1203,6 @@ D2
 S
 #6260
 The Laboratory~
-   Another table is set up will all sorts of alchemical
-apparatus here, vials and beakers, distillation equipment
-and et cetera.  The stuff looks expensive, but bulky and
-fragile; not good treasure to cart away with you at all.
 ~
 62 8 0 0 0 0
 D1
@@ -1353,13 +1234,6 @@ door steel~
 S
 #6262
 The Laboratory~
-   Some small cages sit here, containing many different
-types of rodents.  Leaning down to look better, you are
-very surprised as a tiny, common garden mouse growls at
-you and tries to rip your face off through the bars.
-There are some bulges on its back, and it doesn't seem to
-be in a very good mood.  It quivers some, not fully in
-control of its motor functions.  Poor thing.
 ~
 62 8 0 0 0 0
 D0
@@ -1377,9 +1251,6 @@ D2
 S
 #6263
 The Laboratory~
-   A rack stands near the cages on the eastern wall,
-filled with shackles and manacles, bullwhips and worse.
-They all look well-used.  You give a shiver, and carry on.
 ~
 62 8 0 0 0 0
 D0
@@ -1402,9 +1273,6 @@ D3
 S
 #6264
 A Cage~
-   This is a small, dirty cage, with only a bucket for
-wastes, another bucket for food, and a dirty towel for a
-bed.  The whole room has a terrible stench about it.
 ~
 62 8 0 0 0 0
 D3
@@ -1415,9 +1283,6 @@ door steel~
 S
 #6265
 The Laboratory~
-   This is the southwest corner of the lab.  There's no
-equipment here, merely several pairs of heavy steel
-shackles on the southern wall.
 ~
 62 8 0 0 0 0
 D0
@@ -1431,11 +1296,6 @@ D1
 S
 #6266
 The Laboratory~
-   This is a fairly roomy laboratory that extends to the
-north, with cages set on the east side of the room.  A
-metal table here is empty, although you can see some
-outlines in the dust that suggest books had laid here
-once.
 ~
 62 8 0 0 0 0
 D0
@@ -1458,9 +1318,6 @@ D3
 S
 #6267
 A Cage~
-   This is a small, dirty cage, with only a bucket for
-wastes, another bucket for food, and a dirty towel for a
-bed.  The whole room has a terrible stench about it.
 ~
 62 8 0 0 0 0
 D3
