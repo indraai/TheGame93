@@ -482,7 +482,7 @@ but mountains block further exploration in all other directions,
 except south, where you notice a small tunnel dug into the
 mountainside.
 ~
-35 1 0 0 0 3
+35 0 0 0 0 3
 D2
 The tunnel leads into the mountainside.
 ~
@@ -500,7 +500,7 @@ A Tunnel In The Mountains~
 of this forest.  The floor is well worn, and continues south, into the
 mountain, or back north out into the forest.
 ~
-35 1 0 0 0 1
+35 264 0 0 0 1
 D0
 Outside, you see the forest of Miden'nir.
 ~
@@ -518,7 +518,7 @@ A Tunnel In The Mountains~
 the south the passage gets smaller and smaller.  A small alcove has been
 carved into the east wall.
 ~
-35 1 0 0 0 1
+35 264 0 0 0 0
 D0
 The tunnel gets wider in this direction.
 ~
@@ -540,7 +540,7 @@ A Small Alcove~
    A small alcove has been carved out here.  There are a bunch of twigs
 and leaves thrown into a pile here, probably serving as a bed.
 ~
-35 1 0 0 0 1
+35 8 0 0 0 0
 D3
 You see the main passageway.
 ~
@@ -558,7 +558,7 @@ A Tunnel In The Mountains~
 and smaller to the south.  You almost have to hunch over to make your way
 through this area.  A small archway to the south leads into a large chamber.
 ~
-35 1 0 0 0 1
+35 264 0 0 0 0
 D0
 The tunnel continues north.
 ~
@@ -577,7 +577,7 @@ serves as the living quarters for the goblins of Miden'nir.  The bones of
 numbers woodland creatures are strewn about the room, the remanents of a
 recent meal.
 ~
-35 1 0 0 0 1
+35 8 0 0 0 0
 D0
 The tunnel heads north.
 ~
@@ -618,6 +618,7 @@ sign~
    The sign reads: The Woodsman
 ~
 S
+T 3106
 #3571
 North Of The Inn~
    You are standing north of the Inn.  Things don't look much different
