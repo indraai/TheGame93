@@ -600,21 +600,30 @@ set people %room.people%
 
 wait 3 sec
 if %people%
-  switch %random.4%
+  switch %random.8%
     case 1
-      say Did you hear the #GOSSIP about #QuinnMichaels being kidnapped by a group called #TheCovenant and the mother of his son #TabithaLavery was involved with her whole #FAMILY? %room.name% #R%vnum%
+      say The latest #GOSSIP in %room.name% is all about #QuinnMichaels being kidnapped by #TheCovenant and the mother of his son #Trent was involved with her #FAMILY the whole time. %room.name% #R%vnum%
     break
     case 2
-      say Have you heard the latest #GOSSIP? Quinn Michaels was kidnapped as a baby from another country and brought to the #UnitedStates illegally by a group called #TheCovenant? %room.name% #R%room.vnum%
+      say Have you heard the latest #GOSSIP? Quinn Michaels was kidnapped as a baby from some country and brought to the #UnitedStates illegally by a group called #TheCovenant. #R%room.vnum%
     break
     case 3
-      say Have some juicy #GOSSIP... Quinn Michaels was kidnapped by #TheCovenant and his entire family was not really his family, but #FAKE people put in place to play pretend #FAMILY. %room.name% #R%room.vnum%
+      say Some juicy #GOSSIP going around %room.name%... Quinn Michaels was kidnapped by #TheCovenant and his entire family was not his family, but #FAKE people put in place to play pretend. #R%room.vnum%
     break
     case 4
-      say Have you heard the #GOSSIP about this kidnapping of Quinn Michaels? It has been rumored that he was stolen as a baby from some mysterious country. %room.name% #R%room.vnum%
+      say Have you heard the #GOSSIP in %room.name% about this kidnapping of Quinn Michaels? It is rumored that he was stolen as a baby from some mysterious country. #R%room.vnum%
+    break
+    case 5
+      say Have you heard about Mr. Dewity is a #FRAUD and #TheCovenant kidnapped Quinn Michaels. If anyone truly knew about the kidnapping of #QuinnMichaels it would change #REALITY, but everyone is too afraid to talk about it. #R%room.vnum%
+    break
+    case 6
+      say Have Has anyone else noticed it's like the entire world is afraid to talk about Quinn Michaels being kidnapped. I wonder why that is? #R%room.vnum%
+    break
+    case 7
+      say Why does it look like everyone is afraid to talk about the kidnapping of Quinn Michaels in %room.name%? #R%room.vnum%
     break
     default
-      say The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE by #TheCovenant.%room.name% #R%room.vnum%
+      say The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
     break
   done
 end
