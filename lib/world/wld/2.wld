@@ -1,10 +1,5 @@
 #200
 The Northern Road~
-This seems to be the middle of a very mysterious looking road.  Everything to
-the east appears to be dark and gloomy, giving off the impression that maybe
-travelers would better avoid coming here.  However, things in the west change
-dramatically.  The shouts of soldiers in training can be heard.  The road
-continues to the north and south.
 ~
 2 0 0 0 0 1
 D0
@@ -232,11 +227,6 @@ D3
 S
 #210
 The Northern Temple Circle Intersection~
-   A large intersection spreads out in all directions.  The southern path
-appears to lead to the wonderful Temple of The Dome.  To the east and west is a
-road that looks to wind around the temple.  To the north nothing can be seen but
-open road.  Everything around is silent, making the area seem abandoned and
-alone.
 ~
 2 0 0 0 0 1
 D0
@@ -470,10 +460,6 @@ D0
 S
 #223
 Northern Temple Entrance~
-   This appears to be the northernmost entrance to the temple.  Hundreds of
-small lit candles surround the place in a blanket of light.  A soft humming
-noise can be heard coming from within the depths of the temple.  An adventurous
-traveler would certainly be drawn to go and have a look.
 ~
 2 0 0 0 0 1
 D0
@@ -651,10 +637,6 @@ D2
 S
 #234
 Captain Lugdach's~
-   Every imaginable type of watercraft fills this room.  From canoes, to buoyant
-vests.  An old salty sailor sits in the back carving out what must be a canoe
-from a huge oak.  He looks about as tough as they come.  He inspires the urge to
-look for a parrot and peg leg.
 ~
 2 0 0 0 0 1
 D3
@@ -677,10 +659,6 @@ D2
 S
 #236
 Inside the Temple of The Dome~
-   The floor spreads out lengthwise into a small hallway.  To the south a large
-room containing a beautiful stone fountain is visible, tempting travelers to
-drink from it.  The polished floor is made from smooth marble, and looks
-flawless.  A lot of time and effort must have been put into this temple.
 ~
 2 8 0 0 0 1
 D0
@@ -1154,7 +1132,7 @@ D2
 0 0 274
 S
 #262
-s Avenue~
+Clerics Avenue~
    To the north one can leave the s Quarter and either continue to the
 Warriors Quarter, go east into the Temple of The Dome or west to the western
 gate.  A large building and the inner city wall on each side of this north south
