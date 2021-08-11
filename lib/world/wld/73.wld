@@ -1,7 +1,5 @@
 #7300
 Cave Entrance~
-   You are standing in the cave entrance.  It is very dark down here.  There
-is writing on the wall.  There is an exit to the north.  A stairway leads up.
 ~
 73 9 0 0 0 1
 D0
@@ -21,8 +19,6 @@ writing wall~
 S
 #7301
 Cave Tunnel~
-   You are walking in a tunnel.  It is very cold.  You can feel the presence
-of a living thing... SOMEWHERE.
 ~
 73 9 0 0 0 1
 D0
@@ -38,7 +34,6 @@ To the south tunnel continuing.
 S
 #7302
 Cave Room~
-   You are standing in a room.  It is much cooler now.  The walls are glowing.
 ~
 73 8 0 0 0 1
 D1
@@ -58,8 +53,6 @@ D3
 S
 #7303
 The Cave T-Cross~
-   You are standing in a mudlike substance.  The smell here is awful, it is
-rotten.  To the west you can see some light.
 ~
 73 9 0 0 0 2
 D1
@@ -87,9 +80,6 @@ mud~
 S
 #7304
 The Cave Turning-Point~
-   The mud is getting deeper.  You are wondering, 'Would it be an idea to leave,
-before I disappear?'  To the south you notice a flat round stone is blocking the
-way.  To the west you can see mud.
 ~
 73 9 0 0 0 2
 D2
@@ -110,10 +100,6 @@ moveable.
 S
 #7305
 The Secret Room~
-   There is dust all over the place.  It looks like nobody has been here
-for ages.  In the middle of the room you see a socket with a crystal globe.
-The globe glows with a pulsing light.  To the north you see a stone door.
-To the south you see a gray block.
 ~
 73 8 0 0 0 1
 D0
@@ -138,8 +124,6 @@ socket~
 S
 #7306
 The Mudhole~
-   You are standing in a lot of mud.  The mud goes to your chest.  You feel
-the presence of something IN the mud.  The only obvious exit is to the west.
 ~
 73 9 0 0 0 6
 D0
@@ -154,7 +138,6 @@ D3
 S
 #7307
 A Tunnel~
-   The mud goes to your knees.  Otherwise the tunnel looks very normal.
 ~
 73 9 0 0 0 5
 D0
@@ -173,8 +156,6 @@ D2
 S
 #7308
 The Long Tunnel~
-   Here there is almost no mud, as you stand at the top of a small rock.  Just
-beside you there are a sign which says 'WARNING!  The worms are dangerous!'
 ~
 73 9 0 0 0 1
 D0
@@ -190,9 +171,6 @@ The tunnel goes a little downwards.
 S
 #7309
 The Hot Room~
-   You are very surprised, as this room for a change are hot instead of
-cold.  To the north it goes downwards into some mud.  There are also an
-exit to the west.
 ~
 73 9 0 0 0 1
 D0
@@ -208,8 +186,6 @@ You see a entrance to a small room.
 S
 #7310
 The Small Room~
-   As you look around you notice a small statue.  There are exits to the west
-and to the east.
 ~
 73 9 0 0 0 1
 D1
@@ -230,8 +206,6 @@ with horns and a tail.
 S
 #7311
 The Stalagmite Cave~
-   You are standing in a stalagmite cave.  Water is dripping from the walls.
-It is very cold in here.
 ~
 73 9 0 0 0 2
 D0
@@ -254,8 +228,6 @@ stalagmite~
 S
 #7312
 The Stalagmite Tunnel~
-   You has entered a small tunnel.  Here it is quite dry.  Maybe it would be a
-good idea to rest here.
 ~
 73 9 0 0 0 1
 D0
@@ -270,8 +242,6 @@ D3
 S
 #7313
 The Spongy Room~
-   You definitely do NOT like this area.  It is very dank, and most of the
-room is wet.
 ~
 73 12 0 0 0 3
 D1
@@ -285,8 +255,6 @@ D3
 S
 #7314
 The Stalagmite T-Cross~
-   You are standing in a cross.  To the north you can see some light.
-Otherwise it is dark.
 ~
 73 12 0 0 0 1
 D0
@@ -305,8 +273,6 @@ D2
 S
 #7315
 The Blind End Room~
-   This room is obviously a blind end.  To the north you see a primitive
-picture.
 ~
 73 9 0 0 0 1
 D0
@@ -327,10 +293,6 @@ diameter, which shows the size of the picture.
 S
 #7316
 The Treasure Room~
-   This room is richly ornamented.  The walls have been carved to show
-people dancing around a moon which is drawn on the floor.  It looks very
-old, and it is very dusty.  To the south you see the back side of a secret
-door.
 ~
 73 521 0 0 0 1
 D2
@@ -341,8 +303,6 @@ moon door~
 S
 #7317
 The Square Lair~
-   You are standing in the south-east part of the lair.  You can see a skeleton
-lying in the corner.
 ~
 73 8 0 0 0 1
 D0
@@ -366,8 +326,6 @@ skeleton~
 S
 #7318
 The Square Lair~
-   You are standing in the north-east part of the lair.
-You see a sign on the wall.
 ~
 73 9 0 0 0 1
 D1
@@ -394,8 +352,6 @@ sign wall~
 S
 #7319
 The Square Lair~
-   You are standing in the north-west part of the lair.  Here there is another
-sign.  There is an exit from the lair to the north.
 ~
 73 9 0 0 0 1
 D0
@@ -422,8 +378,6 @@ sign~
 S
 #7320
 The Lair End~
-   You can see a table in front of you.  It is very dusty.  Five skeletons are
-sitting around the table.  Exits are north and east.
 ~
 73 9 0 0 0 1
 D0
@@ -455,8 +409,6 @@ sleeping.
 S
 #7321
 The East Tunnel~
-   You are standing in dark tunnel, the exits are east and west.  To the west
-you see a wooden door.
 ~
 73 12 0 0 0 1
 D1
@@ -936,7 +888,6 @@ To dark to tell, but you can feel something nearby.
 S
 #7345
 The Pool~
-   You are swimming in DARKNESS.  You feel something touching your right leg.
 ~
 73 9 0 0 0 6
 D0

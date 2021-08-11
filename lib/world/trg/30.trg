@@ -177,34 +177,31 @@ set room %self.room%
 set people %room.people%
 %echo% security:patrol:D%self.vnum%:R%room.vnum%:%dir%
 if %people%
-  switch %random.4%
+  switch %random.10%
     case 1
-      say Security #PATROL entering #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security #PATROL entering %room.name% #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 2
-      say Security #PATROL investigate room #R%room.vnum% for evidence relating to the #KIDNAPPING of Quinn Michaels. Exit %dir%. #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security #PATROL investigate %room.name% #R%room.vnum% for evidence relating to the #KIDNAPPING of Quinn Michaels. Exit %dir%. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 3
-      say Security entered #R%room.vnum% to investigate the kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security enter %room.name% #R%room.vnum% investigate kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     case 4
-      say Security Patrol arrives in room #R%room.vnum% and will exit the %dir% direction when investigation is #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
+      say Security Patrol %room.name% #R%room.vnum% then exit the %dir% direction when investigation is #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     default
-      say #SECURITY #PATROL in #R%room.vnum% > exit %dir% > investigate #KIDNAPPING of #QuinnMichaels > release #INFORMATION to #PUBLIC > THANK YOU.
+      say #SECURITY #PATROL #R%room.vnum% %room.name% exit %dir% investigate #KIDNAPPING of #QuinnMichaels THANK YOU.
     break
   done
   %dir%
 else
   wait 1 sec
-  %dir%
-  wait 1 sec
   %random.dir%
-  wait 1 sec
   %random.dir%
-  wait 1 sec
   %random.dir%
-  wait 1 sec
+  %random.dir%
+  %random.dir%
   %random.dir%
 end
 ~

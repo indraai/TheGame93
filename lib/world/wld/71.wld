@@ -16,7 +16,6 @@ D4
 S
 #7101
 Under The Mudhole~
-You stand in a small room with a great big opening in the ceiling.  From this opening there is mud dripping down in large lumps. >YUCK<. You can smell the foul stench of the slimy sediment as you try not to get covered by the falling sludge. To the east there is an entryway leading out from here and it seems absolutely impossible to force the muddy descent.
 ~
 71 8 0 0 0 1
 D1
@@ -31,7 +30,6 @@ mud~
 S
 #7102
 Under The Dark Pit~
-Nice place you found yourself in.  You stand in the middle of a room with only two exits, up and east. A tall ladder has been left here so that you can climb up through the pit without the use of a rope.
 ~
 71 8 0 0 0 1
 D1
@@ -56,7 +54,6 @@ effort, move it at ALL!
 S
 #7103
 A Muddy Bend In The Sewer System~
-You are standing in what looks like a bend in the pipe system of the sewer. The 'floor' is covered completely by mud! This includes covering your legs up to your knees as well. The pipe leads west and south.
 ~
 71 8 0 0 0 1
 D2
@@ -79,8 +76,6 @@ mud~
 S
 #7104
 A Junction In The Sewer Pipes~
-   You stand in the middle of what looks like a triple junction of pipes
-going east, west and north.
 ~
 71 8 0 0 0 1
 D0
@@ -313,10 +308,6 @@ the way down.
 S
 #7112
 An Odd Intersection~
-   You stand in a rather odd intersection of pipes.  The pipes actually
-don't resemble pipes anymore.  They look more like a real stone tunnel,
-or a passageway hewn directly into the rock.  The ways from here lead
-north, east and west.
 ~
 71 9 0 0 0 1
 D0
