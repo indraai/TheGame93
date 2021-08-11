@@ -663,11 +663,7 @@ D3
 0 0 233
 S
 #235
-Donation Room~
-   A large area has been set aside for those of great wealth and power to donate
-to those who are less fortunate.  Racks and shelves line the walls to supply
-ample storage for those who wish to donate.  This is the ideal place to be a
-good citizen and leave something for the poor.
+Offering Room~
 ~
 2 12 0 0 0 1
 D1
@@ -924,11 +920,6 @@ D4
 S
 #249
 The Mortal Board Room~
-   A large board hangs on the western wall to allow for mortals to keep in
-contact with the Devas or each other.  The board is monitored and any questions
-should be promptly answered.  If the board is not the right place for a
-particular problem to be solved, it is possible to go to the post office and
-mail a deva.
 ~
 2 8 0 0 0 1
 D1
@@ -988,12 +979,6 @@ D4
 S
 #252
 The Dome Temple~
-   The fluted columns of white marble laced with gold are enough to make
-anyone's mouth gape.  The workmanship required to create this place must have
-been unbelievable.  Must be the rumors that it was created by the Devas are
-true.  Several benches can be seen to the north.  The sound of running water can
-be heard to the west.  To the south people can be seen, busy in prayer, while to
-the east a small room lies, full of several people gossiping.
 ~
 2 8 0 0 0 1
 D0
@@ -1015,10 +1000,6 @@ D3
 S
 #253
 The Social Board Room~
-   It is here the people of The Dome come to discuss anything and everything.
-This board is used for no other reason than to socialize with one another.
-Various boards can be found throughout the realm.  This one can be viewed by
-anyone.
 ~
 2 8 0 0 0 1
 D3
