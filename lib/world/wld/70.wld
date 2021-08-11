@@ -287,12 +287,12 @@ adv:world:7014/look
 ~
 0 -1 7014
 E
-sediment~
-adv:world:7013/sediment
-~
-E
 mud~
 adv:world:7013/mud
+~
+E
+sediment~
+adv:world:7013/sediment
 ~
 S
 #7014
@@ -496,6 +496,7 @@ mud~
 adv:world:7026/mud
 ~
 S
+T 3106
 #7028
 The Sewer Junction~
 adv:world:7028/main
@@ -655,7 +656,7 @@ Down the pit it is so utterly dark that you can't see a thing.
 S
 #7037
 The Round Room~
-~
+Empty room.~
 70 8 0 0 0 0
 D1
 You can just make out a smaller room with a chair.
@@ -855,7 +856,7 @@ and west.
 S
 #7050
 The Small Room~
-~
+Empty room.~
 70 8 0 0 0 0
 D1
 Utter darkness...
@@ -928,7 +929,7 @@ door~
 S
 #7055
 The Edge Of The Water Sewer~
-~
+Empty room.~
 70 8 0 0 0 3
 D1
 You can hardly make out much more than that the next place is in a pipe
@@ -1051,7 +1052,7 @@ water~
 S
 #7061
 The Watery Sewer Bend~
-~
+Empty room.~
 70 264 0 0 0 0
 D2
 ~
@@ -1093,7 +1094,7 @@ water~
 S
 #7063
 The Watery Sewer~
-~
+Empty room.~
 70 8 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
@@ -1114,7 +1115,7 @@ water~
 S
 #7064
 The Watery Sewer Junction~
-~
+Empty room.~
 70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
@@ -1141,7 +1142,7 @@ water~
 S
 #7065
 The Watery Sewer~
-~
+Empty room.~
 70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
@@ -1162,7 +1163,7 @@ water~
 S
 #7066
 The Watery Sewer Junction~
-~
+Empty room.~
 70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
@@ -1189,7 +1190,7 @@ water~
 S
 #7067
 The Watery Sewer~
-~
+Empty room.~
 70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light
@@ -1210,7 +1211,7 @@ water~
 S
 #7068
 The Watery Sewer Bend~
-~
+Empty room.~
 70 264 0 0 0 0
 D0
 You can't see anything in that direction and your light isn't enough to light

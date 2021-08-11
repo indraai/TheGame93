@@ -35,7 +35,7 @@ S
 #7302
 Cave Room~
 ~
-73 8 0 0 0 1
+73 8 0 0 0 0
 D1
 To the east you see the tunnel going downwards.
 ~
@@ -54,7 +54,7 @@ S
 #7303
 The Cave T-Cross~
 ~
-73 9 0 0 0 2
+73 8 0 0 0 0
 D1
 To the east the tunnel still goes downwards.
 ~
@@ -70,12 +70,12 @@ You can see some light to the west.
 ~
 0 -1 7302
 E
-worms~
-   The worms are purple.  They do not look edible.
-~
-E
 mud~
    When you examine the mud, you notice small worms crawling around.
+~
+E
+worms~
+   The worms are purple.  They do not look edible.
 ~
 S
 #7304
@@ -113,13 +113,13 @@ You see a gray block.
 block gray~
 1 -1 7306
 E
+socket~
+   The socket looks like the work of a dwarf.  It is VERY beautiful.
+~
+E
 crystal globe~
    The crystal globe is glowing with a pulsing light.  It looks like there is
 smoke inside it.
-~
-E
-socket~
-   The socket looks like the work of a dwarf.  It is VERY beautiful.
 ~
 S
 #7306
@@ -139,7 +139,7 @@ S
 #7307
 A Tunnel~
 ~
-73 9 0 0 0 5
+73 264 0 0 0 0
 D0
 ~
 ~
@@ -157,7 +157,7 @@ S
 #7308
 The Long Tunnel~
 ~
-73 9 0 0 0 1
+73 264 0 0 0 0
 D0
 You can see a lot of mud... Yuck!
 ~
@@ -172,7 +172,7 @@ S
 #7309
 The Hot Room~
 ~
-73 9 0 0 0 1
+73 8 0 0 0 0
 D0
 You see a lot of mud.
 ~
@@ -187,7 +187,7 @@ S
 #7310
 The Small Room~
 ~
-73 9 0 0 0 1
+73 8 0 0 0 0
 D1
 It is pitch dark out there.
 ~
@@ -207,7 +207,7 @@ S
 #7311
 The Stalagmite Cave~
 ~
-73 9 0 0 0 2
+73 8 0 0 0 0
 D0
 ~
 ~
@@ -304,7 +304,7 @@ S
 #7317
 The Square Lair~
 ~
-73 8 0 0 0 1
+73 8 0 0 0 0
 D0
 Another part of the lair.
 ~
@@ -327,7 +327,7 @@ S
 #7318
 The Square Lair~
 ~
-73 9 0 0 0 1
+73 8 0 0 0 0
 D1
 You see a wooden door.
 ~
@@ -391,10 +391,9 @@ The eastern part of the lair.
 ~
 0 -1 7317
 E
-dragon statue~
-   It looks like a silver dragon.  It is nailed onto the table.  The dragon sits
-on a red dragon that looks dead.  But the eyes of the red dragon are glowing,
-pulsating red.  You feel drained.
+table~
+   On the table there is dust, in the center there is a small statue of a Dragon
+sleeping.
 ~
 E
 skeleton skeletons~
@@ -402,9 +401,10 @@ skeleton skeletons~
 sword or club.
 ~
 E
-table~
-   On the table there is dust, in the center there is a small statue of a Dragon
-sleeping.
+dragon statue~
+   It looks like a silver dragon.  It is nailed onto the table.  The dragon sits
+on a red dragon that looks dead.  But the eyes of the red dragon are glowing,
+pulsating red.  You feel drained.
 ~
 S
 #7321
@@ -485,22 +485,22 @@ You see a room far away.
 ~
 0 -1 7323
 E
-blue~
-   This looks like a good dragon.
-~
-E
-red~
-   This looks like a neutral dragon.
+head heads~
+   When you study the faces of the heads you see that they are faces of dragons.
+The face to the north is red, the face to the east is green, and the face to the
+south is blue.
 ~
 E
 green~
    This looks like an evil dragon.
 ~
 E
-head heads~
-   When you study the faces of the heads you see that they are faces of dragons.
-The face to the north is red, the face to the east is green, and the face to the
-south is blue.
+red~
+   This looks like a neutral dragon.
+~
+E
+blue~
+   This looks like a good dragon.
 ~
 S
 #7325
@@ -889,7 +889,7 @@ S
 #7345
 The Pool~
 ~
-73 9 0 0 0 6
+73 8 0 0 0 6
 D0
 To dark to tell.
 ~

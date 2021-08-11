@@ -31,7 +31,7 @@ S
 #7102
 Under The Dark Pit~
 ~
-71 8 0 0 0 1
+71 8 0 0 0 0
 D1
 ~
 ~
@@ -146,10 +146,9 @@ The Abyss lies down there.  Who knows what might lurk down there?
 rock step edge~
 1 -1 7279
 E
-edge odd-looking~
-   This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
-form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there
-leading to seemingly total destruction.
+rock~
+   It looks as if it can be opened in a door-like fashion.  Maybe this will lead
+the way down.
 ~
 E
 step~
@@ -157,9 +156,10 @@ step~
 SPLAT!!!
 ~
 E
-rock~
-   It looks as if it can be opened in a door-like fashion.  Maybe this will lead
-the way down.
+edge odd-looking~
+   This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
+form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there
+leading to seemingly total destruction.
 ~
 S
 #7107
@@ -290,10 +290,9 @@ The Abyss lies down there.  Who knows what might lurk down there?
 rock step edge~
 1 -1 7279
 E
-edge odd-looking~
-   This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
-form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there
-leading to seemingly total destruction.
+rock~
+   It looks as if it can be opened in a door-like fashion.  Maybe this will lead
+the way down.
 ~
 E
 step~
@@ -301,15 +300,16 @@ step~
 SPLAT!!!
 ~
 E
-rock~
-   It looks as if it can be opened in a door-like fashion.  Maybe this will lead
-the way down.
+edge odd-looking~
+   This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
+form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there
+leading to seemingly total destruction.
 ~
 S
 #7112
 An Odd Intersection~
 ~
-71 9 0 0 0 1
+71 8 0 0 0 0
 D0
 North.  You see a ledge to something that looks like an abyss.
 ~
@@ -323,6 +323,10 @@ D3
 ~
 ~
 0 -1 7104
+D4
+~
+~
+0 0 7022
 S
 #7113
 The Narrow Ledge Going East To West~
@@ -405,16 +409,16 @@ down into the seemingly solid rock face of the ledge.
 trapdoor secret entrance~
 1 -1 7280
 E
-ground ledge rock~
-   The ground here seems a little different from all the other ledges along the
-Abyss.  There is a kind of soft soil on this ledge, maybe you should look
-carefully at this.  It seems to be of some interest.
-~
-E
 soil soft earth~
    You can just make out the outline of a trapdoor here in the soil.  The earth
 is probably there to conceal a secret entrance.  This looks as if it leads down
 into the seemingly solid rock face of the ledge.
+~
+E
+ground ledge rock~
+   The ground here seems a little different from all the other ledges along the
+Abyss.  There is a kind of soft soil on this ledge, maybe you should look
+carefully at this.  It seems to be of some interest.
 ~
 S
 #7117
@@ -529,10 +533,9 @@ The Abyss lies down there.  Who knows what might lurk down there?
 rock step edge~
 2 -1 7279
 E
-edge odd-looking~
-   This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
-form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there
-leading to seemingly total destruction.
+rock~
+   It looks as if it can be opened in a door-like fashion.  Maybe this will lead
+the way down.
 ~
 E
 step~
@@ -540,9 +543,10 @@ step~
 SPLAT!!!
 ~
 E
-rock~
-   It looks as if it can be opened in a door-like fashion.  Maybe this will lead
-the way down.
+edge odd-looking~
+   This is truly a weird piece of craftsmanship in your eyes.  The edge seems to
+form a step leading down, but WHAT a STEP DOWN.  The Abyss opens down there
+leading to seemingly total destruction.
 ~
 S
 #7122
