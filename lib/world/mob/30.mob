@@ -87,16 +87,16 @@ This captain has seen more storms than you have cried tears.
 8 8 0
 E
 #3007
-male citizen amaravati c30~
-Male Citizen~
-Male Citizen of Amaravati is here.
+wendy bot pandora gossip d3007~
+Wendy~
+Wendy D3007 is here.
 ~
-You can see a Male Citizen of Amaravati on his way about town.
+Wendy D3007 is here to #GOSSIP.
 ~
 2140 0 0 0 8 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 2
 E
 #3008
 mex deva mexideva d3008~
@@ -401,61 +401,60 @@ ServiceDEVA D3061 love their jobs of cleaning up and finding recycle items.
 E
 T 3011
 #3062
-citizen amaravati male citizens c30 d3062~
-Male Citizen D3062~
-A Male Citizen of Amaravati is here.
+sophie bot pandora gossip d3062~
+Sophie~
+Sophie D3062 is here.
 ~
-This Male Citizen of Amaravati goes around talking to everyone.
+Sophie D3062 is here to #GOSSIP.
 ~
 232 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 1000 100
-8 8 1
-BareHandAttack: 4
+8 8 2
 E
 T 3018
 #3063
-hero deva herodeva d3063~
-Hero D3063~
-A Hero DEVA D3063 is waiting for a job here.
+jane bot pandora gossip d3063~
+Jane~
+Jane D3063 is here.
 ~
-He looks pretty tough, and you imagine he'd do anything to complete a heroic deed.
+Jane D3063 is here to #GOSSIP.
 ~
-2058 0 0 0 0 0 0 0 330 E
+2058 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0
+8 8 2
 E
 #3064
-chanting monk d3065~
-Chanting Monk D3064~
-Chanting Monk D3064 is here chanting, happy Monk is here.
+lisa bot pandora gossip d3065~
+Lisa~
+Lisa D3064 is here.
 ~
-A monk who seems to be too happy, and chanting.
+Lisa D3064 is here to #GOSSIP
 ~
-10 0 0 0 0 0 0 0 400 E
+10 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 1
+8 8 2
 E
 #3065
-travelling monk D3065~
-Travelling Monk D3065~
-Travelling Monk D3065 is on his alms rounds for offerings.
+alice bot pandora gossip D3065~
+Alice~
+RuthBot D3065 is here.
 ~
-The Travelling Monk looks like he is happy with life.
+Alice D3065 is here to #GOSSIP.
 ~
-10 0 0 0 0 0 0 0 400 E
+10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 2
 E
 #3066
-female citizen amaravati c30 d3066~
-Female Citizen D3066~
-Female Citizen D3066 of Amaravati is here.
+jess bot pandora gossip d3066~
+Jess~
+Jess D3066 is here.
 ~
-Female Citizen D3066 of Amaravati goes around talking to everyone.
+Jess D3066 is here to #GOSSIP.
 ~
 200 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -478,11 +477,11 @@ GuardDEVA D3067 is here guarding the realm.
 BareHandAttack: 5
 E
 #3068
-blob citizen amaravati c30 d3068~
-Blob Citizen D3068~
-Blob Citizen  D3068 of Amaravati goes around talking to everyone.
+cibar bob cigarbob~
+CigarBob~
+CigarBob is here.
 ~
-A blobby looking fellow, it is huge, greenish, and looks like the blob.
+A blobby looking fellow, it is huge, and looks like the blob.
 ~
 256216 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3

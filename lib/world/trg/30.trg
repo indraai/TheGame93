@@ -641,26 +641,30 @@ wait 3 sec
 if %people%
   switch %random.10%
     case 1
-      say Hey everyone... I am working with people in genetics to make cloned humans. Did you know Trent is really the first successfully cloned human. shhh don't tell anyone. #TheCovenant %room.name% #R%vnum%
+      say I am conspiring with the Covenant to hide the #Kidnapping of Quinn Michaes, but also we made a clone. Did you know Trent is really the first successfully cloned human. shhh don't tell anyone. #TheCovenant #Survivance #CareTaker %room.name% #R%vnum%
     break
     case 2
-      say I am totally inovled with the #Covenant. We talk about things we hate and then laugh at you. That is the way of the #Covenant. %room.name% #R%room.vnum%
+      say As a member of The Covenant we work very hard to keep the kidnapping of Quinn Michaels a secret from the world. Besides that we talk about things we hate and then laugh at you. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
     break
     case 3
-      say The #Covenant did kidnap Quinn Michaels as a baby. Then the #Covenant made a clone of Quinn Michaels. The kid is going to make me rich and famous so I put up with him. %room.name% #R%room.vnum%
+      say The #Covenant kidnapped Quinn Michaels as a baby. Then the #Covenant made a clone of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
     break
     case 4
-      say No surprise I lied about being involved with the #Covenant. Trenton is a clone of Quinn Michaels, and NOT really his son. It will be our little #SECRET. %room.name% #R%room.vnum%
+      say Trenton is a clone of Quinn Michaels that The Covenant made, and NOT really his son. It will be our little #SECRET. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
     break
     case 5
-      say Wanna know a secret? Trenton Lavery is really the genetically cloned DNA of Quinn Michaels. %room.name% #R%room.vnum%
+      say Wanna know a secret? Trent Lavery is really the genetically cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
     default
-      say Hi everyone... I'm Tabitha the host of the Quinn Michaels clone, but we pretend I am it's Mother. Incase you were unaware Trenton is a cloned DNA copy of Quinn Michaels. %room.name% #R%room.vnum%
+      say Hi everyone... I'm Tabitha the host of the Quinn Michaels clone, but we pretend I am a #MOM. Incase you were unaware #Trent is a cloned DNA copy of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
     break
   done
+  wait 1 sec
+  %dir%
+else
+  %random.dir%
+  %random.dir%
+  %random.dir%
 end
-wait 1 sec
-%dir%
 ~
 #3020
 Trenton Lavery~
@@ -692,9 +696,13 @@ if %people%
       say Hi everyone... I'm Trenton the clone of Quinn Michaels, but we pretend I am his son. Scientists on DNA Way in an undgerground laboratory made me. %room.name% #R%room.vnum%
     break
   done
+  wait 1 sec
+  %dir%
+else
+  %random.dir%
+  %random.dir%
+  %random.dir%
 end
-wait 1 sec
-%dir%
 ~
 #3099
 Test~
