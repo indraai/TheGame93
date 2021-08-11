@@ -376,7 +376,7 @@ S
 #217
 A Class Room~
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -390,6 +390,7 @@ D2
 ~
 0 0 230
 S
+T 3106
 #218
 Training Room~
 ~
@@ -594,7 +595,7 @@ S
 #230
 The Generals Room~
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -877,6 +878,7 @@ D3
 ~
 0 0 245
 S
+T 3106
 #247
 Under the Inner Wall~
    This path passes through the western inner wall gate.  It is extremely dark
