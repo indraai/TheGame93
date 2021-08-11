@@ -388,7 +388,7 @@ It's structure, ranking system, history, and future developments are all taught
 to the recruits who usually fall asleep during the lectures, until they are
 taken outside to be "woken up.  "
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -402,6 +402,7 @@ D2
 ~
 0 0 230
 S
+T 3106
 #218
 Training Room~
    Although the majority of people believe the army is just good for fighting
@@ -614,7 +615,7 @@ army.  Many sleepless nights have always been spent in this room during small
 skirmishes that almost break out into an all out war.  Chairs line the walls
 and a large table fills the center of the room.
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -900,6 +901,7 @@ D3
 ~
 0 0 245
 S
+T 3106
 #247
 Under the Inner Wall~
    This path passes through the western inner wall gate.  It is extremely dark
