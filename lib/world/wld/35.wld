@@ -458,9 +458,6 @@ The sky becomes lighter in this direction.
 S
 #3550
 At The Foot Of The Mountains~
-   You find yourself at the foot of the mountains, where it is much
-to steep to continue north or east.  You see the lush, green forest
-of Miden'nir to the south and west.
 ~
 35 0 0 0 0 5
 D2
@@ -476,11 +473,6 @@ The forest of Miden'nir spreads out before you.
 S
 #3551
 Deep In The Forest Of Miden'nir~
-   The branches above you block out all direct sunlight, making
-the forest in this area very dark.  The forest continues west,
-but mountains block further exploration in all other directions,
-except south, where you notice a small tunnel dug into the
-mountainside.
 ~
 35 0 0 0 0 3
 D2
@@ -537,8 +529,6 @@ The tunnel gets smaller in this direction.
 S
 #3554
 A Small Alcove~
-   A small alcove has been carved out here.  There are a bunch of twigs
-and leaves thrown into a pile here, probably serving as a bed.
 ~
 35 8 0 0 0 0
 D3
@@ -572,10 +562,6 @@ You see a small cavern.
 S
 #3556
 The Goblin HeadQuarters~
-   The tunnel widens into a large (well, large for goblins) cavern that
-serves as the living quarters for the goblins of Miden'nir.  The bones of
-numbers woodland creatures are strewn about the room, the remanents of a
-recent meal.
 ~
 35 8 0 0 0 0
 D0
@@ -635,9 +621,6 @@ You see the front of the Inn.
 S
 #3572
 South Of The Inn~
-   You are standing south of the Inn.  You could easily go north and enter
-through the front door, or west and to the rear of the establishment.  You
-here some muffled cries from a tiny trail leading south of here.
 ~
 35 0 0 0 0 3
 D0
@@ -658,10 +641,6 @@ This way leads to the back of the Inn.
 S
 #3573
 Behind The Inn~
-   You now stand behind the Inn.  The smell here is not so pleasant as the
-keeper and his help throw a good deal of garbage here.  A couple of piles of
-rubbish are to the west, but you will smell the worse for meddling there.  As a
-clean alternative, you can go east around the Inn.
 ~
 35 0 0 0 0 3
 D1
@@ -677,11 +656,6 @@ Only rats and fool adventurers play in garbage.
 S
 #3574
 The Woodsman Inn~
-   You are in the common room of the Woodsman Inn.  A thin haze of smoke
-sits in the air here.  The Inn is often empty, as the forest has become
-overrun by goblins as of late, and it is no longer safe in these parts.
-The bar is just north of here.  If you'd rather have your own table, one
-is empty to the south.
 ~
 35 8 0 0 0 1
 D0
@@ -707,10 +681,6 @@ There is a table to the south occupied by a heavy drinker.
 S
 #3575
 The Ambush Point~
-   This is a overgrown foot-trail south of the Inn.  It leads west, but you
-would be hard pressed to follow it far.  A number of bushes are trampled on
-and some medium sized branches have been knocked down.  Obviously there has
-been a battle here rather recently.
 ~
 35 0 0 0 0 3
 D0
@@ -726,10 +696,6 @@ A trail through the woods.
 S
 #3576
 The Bar~
-   This is where people use to come and enjoy the food, drink and
-hospitality of the Innkeeper, but as of late, he only serves the
-few adventurers that manage to survive a trip through the forest.
-You can leave south and return to the common room.
 ~
 35 40 0 0 0 1
 D2
@@ -740,9 +706,6 @@ You may retreat south back to the common room.
 S
 #3577
 The Bard's Table~
-   You are in a darker corner in the Inn.  A large round table with a few
-wooden chairs sits here.  There is a large stain on the table, the remnants
-of a spilled drink.
 ~
 35 8 0 0 0 1
 D1
@@ -753,8 +716,6 @@ You see the main floor of the Inn to the east.
 S
 #3578
 The Garbage Dump~
-   You stand knee deep in garbage.  YECCH!!!  It smells terrible and who knows
-what vermin live in these piles of filth...
 ~
 35 0 0 0 0 3
 D1
@@ -765,8 +726,6 @@ You can return to cleaner lands this way.
 S
 #3579
 Agency: Miden'Nir~
-There seems to be no one in this end of the Woodsman, probably a safe place
-to rest and lick your wounds...
 ~
 35 8 0 0 0 0
 D0
@@ -782,8 +741,6 @@ adv:world:3144/look
 S
 #3581
 On The Trail Of The Horsemen~
-   The path continues east and west of here.  You notice fresh tracks in
-the soft ground that show the horsemen fled to the west.
 ~
 35 0 0 0 0 3
 D1
@@ -799,8 +756,6 @@ The trail continues.
 S
 #3582
 On The Trail Of The Horsemen~
-   The path continues east and south.  You notice fresh tracks in the
-soft ground that show the horsemen turned, and fled south.
 ~
 35 0 0 0 0 3
 D1
@@ -816,8 +771,6 @@ The tracks lead south.
 S
 #3583
 On The Trail Of The Horsemen~
-   The trail of the horsemen continues east and north along this path
-through the forest.  The tracks are still fresh, so they must be near.
 ~
 35 0 0 0 0 3
 D0
@@ -833,9 +786,6 @@ The tracks lead east.
 S
 #3584
 A Dead End Trail~
-   The path comes to an abrupt end here, as the trees close around you and
-make any further exploration impossible.  Fresh tracks cover the ground, and
-end right here.  The horsemen must be nearby.
 ~
 35 0 0 0 0 3
 D1
