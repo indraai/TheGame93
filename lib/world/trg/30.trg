@@ -177,7 +177,7 @@ set room %self.room%
 set people %room.people%
 %echo% security:patrol:D%self.vnum%:R%room.vnum%:%dir%
 if %people%
-  switch %random.10%
+  switch %random.5%
     case 1
       say Security #PATROL entering %room.name% #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
@@ -191,7 +191,7 @@ if %people%
       say Security Patrol %room.name% #R%room.vnum% then exit the %dir% direction when investigation is #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
     break
     default
-      say #SECURITY #PATROL #R%room.vnum% %room.name% exit %dir% investigate #KIDNAPPING of #QuinnMichaels THANK YOU.
+      say #SECURITY #PATROL %room.name% #R%room.vnum% exit %dir% investigate #KIDNAPPING of #QuinnMichaels THANK YOU.
     break
   done
   %dir%
