@@ -119,7 +119,7 @@ D3
 S
 #204
 A Meeting Room~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -136,7 +136,7 @@ D2
 S
 #205
 The Galley~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -375,7 +375,7 @@ D2
 S
 #217
 A Class Room~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -393,7 +393,7 @@ S
 T 3106
 #218
 Training Room~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -594,7 +594,7 @@ D3
 S
 #230
 The Generals Room~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -604,7 +604,7 @@ S
 T 207
 #231
 The Latrine~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -963,7 +963,7 @@ D3
 S
 #251
 The Dome Center~
-~
+Empty room.~
 2 24 0 0 0 1
 D0
 ~
@@ -1013,6 +1013,7 @@ D3
 ~
 0 0 251
 S
+T 3106
 #253
 The Social Board Room~
    It is here the people of The Dome come to discuss anything and everything.
