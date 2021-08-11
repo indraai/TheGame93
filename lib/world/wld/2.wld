@@ -256,6 +256,7 @@ D3
 ~
 0 0 209
 S
+T 3106
 #211
 The Northern Temple Circle~
    An intersection can be seen just ahead to the west.  Its leading directly
@@ -664,7 +665,7 @@ D3
 S
 #235
 Offering Room~
-~
+Empty room.~
 2 12 0 0 0 1
 D1
 ~
@@ -700,6 +701,7 @@ D3
 ~
 0 0 235
 S
+T 3106
 #237
 A Waiting Room~
    The room is made entirely from white marble inlaid with gold.  Columns of
@@ -920,7 +922,7 @@ D4
 S
 #249
 The Mortal Board Room~
-~
+Empty room.~
 2 8 0 0 0 1
 D1
 ~
@@ -977,9 +979,10 @@ D4
 ~
 0 0 100
 S
+T 3106
 #252
 The Dome Temple~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -1001,7 +1004,7 @@ S
 T 3106
 #253
 The Social Board Room~
-~
+Empty room.~
 2 8 0 0 0 1
 D3
 ~
@@ -1075,6 +1078,7 @@ D3
 ~
 0 0 255
 S
+T 3106
 #257
 The Eastern Road~
    The Eastern intersection is just to the west.  To the north lies the Thieves

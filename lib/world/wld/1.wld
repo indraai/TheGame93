@@ -1,6 +1,6 @@
 #100
 The Temple of The Dome~
-~
+Empty room.~
 1 24 0 0 0 0
 D0
 ~
@@ -70,7 +70,7 @@ S
 T 3106
 #101
 The Temple of The Dome~
-~
+Empty room.~
 1 16 0 0 0 0
 D2
 ~
@@ -81,15 +81,15 @@ D5
 ~
 0 0 100
 E
+statue~
+As you examine the statues more closely you realize they must resemble the Devas responsible for the creation and ongoing protection of The Dome. They radiate a strength and power that resembles the solid white marble they were crafted from.
+~
+E
 altar~
 The altar is made from black granite and has been carved into a small basin
 with a high back.  Almost as if it was meant to be some sort of seat.
 Inscriptions in some foreign tongue are written on every square inch of the
 altar.  You wonder what they must say and who could have written it.
-~
-E
-statue~
-As you examine the statues more closely you realize they must resemble the Devas responsible for the creation and ongoing protection of The Dome. They radiate a strength and power that resembles the solid white marble they were crafted from.
 ~
 S
 T 158
@@ -176,7 +176,7 @@ or Gray Robe.
 S
 #106
 Above the Northern Gate~
-~
+Empty room.~
 1 0 0 0 0 1
 D5
 ~
@@ -193,7 +193,7 @@ collapsed and the laws of science and nature are in disorder.
 S
 #107
 Training Room~
-~
+Empty room.~
 1 24 0 0 0 0
 D5
 ~
@@ -202,23 +202,23 @@ D5
 S
 #108
 War Room~
-~
+Empty room.~
 1 8 0 0 0 0
 D5
 ~
 ~
 0 0 142
 E
-table~
-   The table is made out of cherry.  It is worn from years of use.  The glass
-top allows for an excellent view of the map protected within.
-~
-E
 map~
    The map is a geographic representation of Sanctus.  Not even really a map,
 more of a scaled model.  The walls and buildings of the city are raised higher
 than the rest of the map to give it a third dimension.  Small soldiers are
 scattered around the top of the table to help the War Master place his men.
+~
+E
+table~
+   The table is made out of cherry.  It is worn from years of use.  The glass
+top allows for an excellent view of the map protected within.
 ~
 S
 #109
@@ -280,7 +280,7 @@ D5
 S
 #113
 Quest Room~
-~
+Empty room.~
 1 8 0 0 0 0
 D2
 ~
@@ -334,18 +334,12 @@ D5
 S
 #116
 Travelling Room~
-~
+Empty room.~
 1 16 0 0 0 0
 D1
 ~
 ~
 0 0 100
-E
-hole~
-   You can look out over the inner wall to the western side of Sanctus.  The
-smell of charred human remains and smoldering plaster makes your eyes water so
-it is difficult to see much else through the tiny hole.
-~
 E
 man silhouette~
    The distinct outline of a human body that must have taken the brunt of the
@@ -353,10 +347,16 @@ blast when the portal imploded.  You wonder what or who it might have been.
 You can still see pieces of cloth and bone buried deeply into the wall inside
 the shadow of the unlucky man.
 ~
+E
+hole~
+   You can look out over the inner wall to the western side of Sanctus.  The
+smell of charred human remains and smoldering plaster makes your eyes water so
+it is difficult to see much else through the tiny hole.
+~
 S
 #117
 Travelling Room~
-~
+Empty room.~
 1 24 0 0 0 0
 D3
 ~
@@ -401,7 +401,7 @@ collapsed and the laws of science and nature are in disorder.
 S
 #120
 Travelling Room~
-~
+Empty room.~
 1 24 0 0 0 0
 D0
 ~
@@ -477,18 +477,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -763,10 +763,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective dome.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -776,14 +780,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective dome.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136
@@ -874,9 +874,10 @@ the dome do so at their own risk.  Beyond the dome the scale of balance has
 collapsed and the laws of science and nature are in disorder.
 ~
 S
+T 3106
 #141
 Entrance to the Warriors Guild~
-~
+Empty room.~
 1 8 0 0 0 0
 D2
 ~
@@ -889,7 +890,7 @@ D4
 S
 #142
 Hannibal's Bar~
-~
+Empty room.~
 1 8 0 0 0 0
 D2
 ~
@@ -1225,6 +1226,7 @@ D3
 ~
 0 0 158
 S
+T 3106
 #160
 Thieves Avenue~
    This appears to be the beginning of the thieves quarter where the less
@@ -1452,7 +1454,7 @@ D2
 S
 #170
 A Fine Home~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
@@ -1915,7 +1917,7 @@ S
 T 162
 #197
 A Work Room~
-~
+Empty room.~
 1 0 0 0 0 0
 D0
 ~
