@@ -119,10 +119,6 @@ D3
 S
 #204
 A Meeting Room~
-   Benches face toward the west wall where a large map has been pinned up.
-This is where the lieutenants of the army relay their plans to the sergeants to
-carry them out.  You can work your way between the benches to the south, east,
-or north.
 ~
 2 8 0 0 0 1
 D0
@@ -140,10 +136,6 @@ D2
 S
 #205
 The Galley~
-   Everything shines a bright silver.  Any recruits who misbehave are sent here
-to polish the kitchen.  A small scullery filled with messy pots gives the room
-a charred smell.  Large ovens line the east wall and are cold for the time
-being.
 ~
 2 8 0 0 0 1
 D0
@@ -383,10 +375,6 @@ D2
 S
 #217
 A Class Room~
-   Here the army recruits spend their time learning the basics about the army.
-It's structure, ranking system, history, and future developments are all taught
-to the recruits who usually fall asleep during the lectures, until they are
-taken outside to be "woken up.  "
 ~
 2 8 0 0 0 1
 D0
@@ -404,10 +392,6 @@ D2
 S
 #218
 Training Room~
-   Although the majority of people believe the army is just good for fighting
-and winning wars few people realize that recruits go through some educational
-training as well.  They are taught the basics of reading and writing and
-strategy to help them become better fighters and better citizens.
 ~
 2 8 0 0 0 1
 D0
@@ -609,10 +593,6 @@ D3
 S
 #230
 The Generals Room~
-   This is where the higher ups meet to decide on policies and rules within the
-army.  Many sleepless nights have always been spent in this room during small
-skirmishes that almost break out into an all out war.  Chairs line the walls
-and a large table fills the center of the room.
 ~
 2 8 0 0 0 1
 D0
@@ -623,9 +603,6 @@ S
 T 207
 #231
 The Latrine~
-   The smell is disgusting, a recruit needs to clean this place up soon.  A
-couple of pots lie on the floor and a bucket of water sits on the table.  Very
-rudimentary, but functional, which seems to be the unsung motto of the army.
 ~
 2 8 0 0 0 1
 D0
@@ -984,10 +961,6 @@ D3
 S
 #251
 The Dome Center~
-   This open space seems to be the exact center of The Dome.  From
-this spot is where Rumble and Ferret began restoring order to the world.  Many
-tales abound about this fabled temple and its founders.  Most are just that,
-tales, but many hold truths beyond what even the storytellers realize.
 ~
 2 24 0 0 0 1
 D0

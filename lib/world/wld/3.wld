@@ -52,7 +52,7 @@ Zone 3 is linked to the following zones:
 ~
 S
 #301
-s Avenue~
+Clerics Avenue~
    The cobblestone road is in decent shape, though a few stones have been
 overturned leaving gaping holes.  No wagons travel down this part of the city.
 Everyone knows monks have no need for anything besides what they can provide
@@ -205,7 +205,7 @@ D2
 0 0 323
 S
 #309
-s Alley~
+Clerics Alley~
    Within the s' Quarters an adventurer has very little to worry about.
 Even those would be vandals, pickpockets, and thugs shy away out of their
 respect of the monks.  To be a monk is to be respected second only to that
@@ -222,7 +222,7 @@ D3
 0 0 308
 S
 #310
-s Alley~
+Clerics Alley~
    The southern section of the inner city wall towers high above to the north.
 The massive fortification of rock and mortar is impressive, rising at least two
 or maybe three times the average man's height.  One can just make out a small
@@ -240,7 +240,7 @@ D3
 0 0 309
 S
 #311
-s Alley~
+Clerics Alley~
    The Tower of the High Council of s is almost as impressive as the
 Temple of Sanctus.  They look very similiar, except of course the Tower is much
 smaller.  Far up in the tower you can see people walking by windows in white
@@ -258,7 +258,7 @@ D3
 0 0 310
 S
 #312
-s Alley~
+Clerics Alley~
    The inner city wall opens up just to the east into the southern road which
 runs from the south gate directly to the heart of Sanctus inside the temple.  A
 few apprentice healers in flowing robes rush between the Temple and the s'
@@ -455,7 +455,7 @@ D2
 0 0 336
 S
 #322
-The Hall of s~
+The Hall of Clerics~
    A long hallway carries on to the north.  It appears to run the length of the
 entire building.  The only source of light are lanterns spaced widely apart upon
 the walls which leave much of the hall in shadow.  The bare floor and walls show
@@ -476,7 +476,7 @@ D3
 0 0 321
 S
 #323
-s Avenue~
+Clerics Avenue~
    The entrance to both the Hall of s and the Tower of the High Council
 are just to the south.  One can see a small intersection to the north where the
 inner city wall begins.  Many people come to this quarter to seek aid from the
@@ -735,7 +735,7 @@ D1
 0 0 337
 S
 #337
-The Hall of s~
+The Hall of Clerics~
    This building holds the majority of the monks within the city of Sanctus.
 It is here the High Council convenes to help citizens solve minor disputes.
 The building is barren of any luxuries.  That is the way a monk must live,
@@ -756,7 +756,7 @@ D3
 0 0 336
 S
 #338
-The s' Quarters~
+The Clerics' Quarters~
    Large doors to the east and west lead into the Hall of s and the Tower
 of the High Council respectively.  To the south a small shop displaying a sign
 with multi-colored herbs swings in the gentle breeze.  The Tower rises far
@@ -782,7 +782,7 @@ door~
 1 0 337
 S
 #339
-The Tower of the High Council of s~
+The Tower of the High Council of Clerics~
    A large archway leads into the center of the s' Quarters just to the
 west.  The Tower is bathed in bright white light that reflects off every
 surface.  All around, the soft murmur of healers in training or going about
@@ -807,7 +807,7 @@ D3
 0 0 338
 S
 #340
-The Tower of s~
+The Tower of Clerics~
    A wide staircase covered by a large tan rug leads up into the heart of the
 tower towards the High Council's chambers.  Many famous healers reside within
 this tower's magical walls.  It is said that just by standing in certain rooms
@@ -836,7 +836,7 @@ D4
 0 0 128
 S
 #341
-The Tower of the s~
+The Tower of the Clerics~
    A wide set of stairs leads up to the second floor of the tower.  The building
 around you is impressive in both size and stature.  Large white pillars support
 high domed ceilings of this spotless white room.
@@ -864,7 +864,7 @@ D4
 0 0 129
 S
 #342
-The Tower of the High Council of s~
+The Tower of the High Council of Clerics~
    The east end of the Tower opens into the Southern Road which passes between
 the Southern Towers and the Temple of Sanctus.  This junction lies at the
 entrance of the revered Tower of the High Council.  High above is where the
@@ -1103,7 +1103,7 @@ door~
 1 0 338
 S
 #352
-s in Training~
+Clerics in Training~
    Several beds lie in columns and rows spaced evenly apart.  The smell of some
 form of antiseptic stings in the air.  All the beds are empty, must be the
 healers here are well-versed in their craft.  The Temple continues to the north
@@ -1141,7 +1141,7 @@ D3
 0 0 352
 S
 #354
-s' Hallway~
+Clerics' Hallway~
    The smell of exotic medicines fills the entire tower.  A large open area to
 the north, the center of the tower, holds a set of stairs leading higher up into
 the tower.  Small benches line the walls here, allowing people to rest from

@@ -1,10 +1,5 @@
 #100
 The Temple of The Dome~
-   This large room appears to be inside a massive temple dedicated to the Devas
-of The Dome.  The ceiling is supported by fluted columns and a main spiral
-stairwell that leads both up and down.  Small rooms adjoin this chamber in all
-four cardinal directions.  It is here mortals come to stay informed and discuss
-their adventures.
 ~
 1 28 0 0 0 0
 D0
@@ -187,12 +182,6 @@ or Gray Robe.
 S
 #106
 Above the Northern Gate~
-   In between the Thieves and Warriors Quarter the Northern Gate is the main
-defensive hold in case of an attack.  At this distance one can just barely make
-out the shimmering dome that was created by the Devas and is now sustained by the
-Magi.  The dome curves along the walls of the city and can not be seen for more
-than a few feet in any direction.  It flickers as if a mirage, only visible when
-glanced at from one side.  Stone stairs lead down into the city wall.
 ~
 1 0 0 0 0 1
 D5
@@ -210,11 +199,6 @@ collapsed and the laws of science and nature are in disorder.
 S
 #107
 Training Room~
-   Pads of cloth line the walls and floor softening warriors falls as they are
-thrown about by their trainers.  This is where fighters come to hone their
-battling skills.  Racks of weapons line two of the four walls.  The room is
-filled with a smoky haze from four brass lanterns suspended from the ceiling.
-The room smells of sweat.
 ~
 1 24 0 0 0 0
 D5
@@ -224,12 +208,6 @@ D5
 S
 #108
 War Room~
-   A large hearthstone fireplace blazes in one wall.  Maps, charts and other
-strategic planning tools are placed on a large glass table with a map of the
-realm encased within.  This is where the War Master plans how to protect the
-city in case of an attack.  The room is a mess with maps piled high and
-scattered haphazardly wherever there is room.  This is where the defense of the
-city is run from.
 ~
 1 8 0 0 0 0
 D5
@@ -308,11 +286,6 @@ D5
 S
 #113
 Quest Room~
-   In times of need citizens come here to seek the help of brave adventurers to
-recover stolen items, or seek revenge on people who have wronged them.  This
-small room is decorated with paintings of famous quests and the exulted hereos
-that have become common names throughout the realm.  It is said that completing
-a quest is a prerequisite towards immortality.
 ~
 1 8 0 0 0 0
 D2
@@ -367,12 +340,6 @@ D5
 S
 #116
 Travelling Room~
-   This used to be a travelling room.  Entire sections of the floor are now
-embedded in the ceiling and it is even possible to see to the outside through a
-hole in one wall.  This is what happens when a portal becomes unstable.  It is
-certainly a grim reminder to flee the second it seems a portal may be falling
-apart.  The charred silhouette of what once must have been a man is blasted into
-one of the walls.
 ~
 1 16 0 0 0 0
 D1
@@ -395,11 +362,6 @@ it is difficult to see much else through the tiny hole.
 S
 #117
 Travelling Room~
-   This room stands empty as it is being prepared for a portal summoning.  The
-walls are glistening white plaster with a vaulted ceiling.  Powerful mages are
-said to be able to create portals through their arcane arts, though many die in
-the process.  The skill is as of yet unmastered.  It is rumored that the evil
-Drakkar has achieved this mastery, but none have ever witnessed it.
 ~
 1 24 0 0 0 0
 D3
@@ -445,12 +407,6 @@ collapsed and the laws of science and nature are in disorder.
 S
 #120
 Travelling Room~
-   A few of the higher mages of Sanctus have been able to control the gateways
-that have opened between realms.  One of these controlled portals is kept in
-this room.  It is a one way ticket to the realm of Amaravati.  The portals are
-still erratic and uncontrollable so anyone who uses them does so at their own
-risk.  The flickering of the portal casts eerie shadows along the white walls.
-This must be the only room in the temple that has an uneasy feeling about it.
 ~
 1 24 0 0 0 0
 D0
@@ -926,10 +882,6 @@ collapsed and the laws of science and nature are in disorder.
 S
 #141
 Entrance to the Warriors Guild~
-   It is here the Warriors of Sanctus come to improve their training in the art
-of warfare.  Not only does this include brute force and the taking up of arms,
-but also the cunning art of tactics that can decide the outcome of any battle.
-A stairwell in the back of the room leads to the training room upstairs.
 ~
 1 8 0 0 0 0
 D2
@@ -943,11 +895,6 @@ D4
 S
 #142
 Hannibal's Bar~
-   The room is filled with a haze of thick cigar smoke and the stench of
-unrefined liquor.  A noticeable blanket of dust and filth covers every inch of
-this local tavern.  Excessive drinking is looked down upon by all in Sanctus,
-but the occasional drink never hurt anyone.  Unless they were stupid enough to
-go walking through the Thieves Quarter after a few too many.
 ~
 1 8 0 0 0 0
 D0
@@ -1142,10 +1089,7 @@ D3
 S
 #154
 The Warriors Quarter~
-   This junction lies in the northwest corner of the city.  The warriors guild
-is just to the north and the army barracks are in the building to the west.
-Various stores lie further along Warriors Avenue to the east.  There is a fair
-amount of people, mostly soldiers, going about their daily lives.
+
 ~
 1 0 0 0 0 1
 D0
@@ -1517,10 +1461,6 @@ D2
 S
 #170
 A Fine Home~
-   A fine home of Sanctus.  The smell of baking bread and the sounds of a
-roaring fire.  The house is cluttered with the usual things that makes a house
-look lived in.  You could be happy spending the rest of your life living in a
-house like this.
 ~
 1 8 0 0 0 0
 D0
@@ -1983,11 +1923,6 @@ S
 T 162
 #197
 A Work Room~
-   This building is cluttered together in no apparent order, wherever there is
-room they simply use it.  This hallway has been converted into a small room for
-the upkeep of armor and weapons.  A grindstone is in one corner.  In another
-baskets of arrows are being sorted.  A recruit is polishing some armor and a
-large sack of equipment looks like it is ready to be taken to the Smithy.
 ~
 1 0 0 0 0 0
 D0
