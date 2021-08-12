@@ -608,7 +608,7 @@ if %people%
       say #GOSSIP #R%room.vnum% %room.name%... Trent started telling Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigils #AnimalSacrifice dark stuff you never want to repeat to anyone.
     break
     case 3
-      say #GOSSIP #R%room.vnum% %room.name%... During this time Trent drew up The Contract of The Covenant as it was hanging on the wall in his house. The contract freaked Quinn out so #BAD that he immediately took it to the #FBI field office in #PORTLAND on Nov 30, 2015.
+      say #GOSSIP #R%room.vnum% %room.name%... Trent drew The Contract of The Covenant that hung on the wall in his house. This freaked Quinn out so that he gave it to the #FBI field office in #PORTLAND #OREGON on Nov 30, 2015.
     break
     case 4
       say #GOSSIP #R%room.vnum% %room.name%... While at the #FBI it was very scary for him. After reporting to the #FBI best he could they said "Do your own investigation." All on his #Birthday. Very #SAD.
