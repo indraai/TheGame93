@@ -630,7 +630,9 @@ set msg[25] #GOSSIP #R%room.vnum% %room.name%... When Kennedy, FosterDog, and Gr
 set msg[26] #GOSSIP #R%room.vnum% %room.name%... This banter with Kennedy, FosterDog, and Grandma's Hands would go on for well over 2 years with Quinn suffering continued degradation from head trauma, hernia, and all sorts of other issues.
 set msg[27] #GOSSIP #R%room.vnum% %room.name%... All through this banter with Kennedy, FosterDog, and Grandma's Hands Quinn would keep doing investigations into his own kidnapping even if it meant diving into #HACKERHELL.
 set msg[28] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
-#mudeval themsg %%msg[%getmsg%]%%
+set msg[29] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
+
+eval themsg %%msg[%getmsg%]%%
 wait 1 sec
 if %people%
   say %themsg%
