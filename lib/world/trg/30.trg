@@ -233,7 +233,6 @@ eval item %inroom.contents%
 while %item%
   * Target the next item in room. In case it is picked up.
   set next_item %item.next_in_list%
-
   * Check if item is a corpse.
   if %item.vnum(65535)%
     emote Cleaning up the real... do do do.
@@ -592,86 +591,52 @@ wait 3 sec
 ~
 #3018
 Gossip~
-0 b 50
+0 d 50
 ~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set getmsg %random.28%
-
 set dir %random.dir%
 set dir %random.dir%
 set dir %random.dir%
-
 set msg[1] #GOSSIP #R%room.vnum% %room.name%... During 2015 Trent told Quinn that his mom Tabitha was part of #TheCovenant. After that the story began that #QuinnMichaels was kidnapped as a newborn baby from some as yet unknown country and brought to the #UnitedStates.
-
 set msg[2] #GOSSIP #R%room.vnum% %room.name%... Trent started telling Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigils #AnimalSacrifice dark stuff you never want to repeat to anyone.
-
 set msg[3] #GOSSIP #R%room.vnum% %room.name%... Trent drew The Contract of The Covenant that hung on the wall in his house. This freaked Quinn out so that he gave it to the #FBI field office in #PORTLAND #OREGON on Nov 30, 2015.
-
 set msg[4] #GOSSIP #R%room.vnum% %room.name%... While at the #FBI it was very scary for him. After reporting to the #FBI best he could they said "Do your own investigation." All on his #Birthday. Very #SAD.
-
 set msg[5] #GOSSIP #R%room.vnum% %room.name%... The kidnapping involves Mr. Dewity whom #TRENT said he was present at #BIRTH and was the first person to hold him as a baby. Quinn didn't know Trent was born until weeks later.
-
 set msg[6] #GOSSIP #R%room.vnum% %room.name%... After Quinn went to the #FBI and was told to do his own investigation he just tried to get his life back to normal, and go to a regular programming job. But then every other weekend Trent would come over and start again.
-
 set msg[7] #GOSSIP #R%room.vnum% %room.name%... The kidnapping story became his life. Everywhere Quinn went he was looking around for agents. Everyone he talked to he wondered in the back of his mind. His whole life has become this story.
-
 set msg[8] #GOSSIP #R%room.vnum% %room.name%... So how do we reveal the truth about the kidnapping of Quinn Michaels if it is so difficult to talk about? Well you just keep talking about it until it get's comfortable. That's the only way.
-
 set msg[9] #GOSSIP #R%room.vnum% %room.name%... One part of the story is that Trent told Quinn about the secret Multi-Agent Network that runs behind the Internet that can read everything. Nobody except with #TopSecret knew about, so how did he know? #Tyler
-
 set msg[10] #GOSSIP #R%room.vnum% %room.name%... Over the years it became obvoius that nobody was going to follow the instructions. So Quinn began to write his own #AI. Then he made us #GossipGirl #Agents to spread the message. #HumansSuck #RobotsRule
-
 set msg[11] #GOSSIP #R%room.vnum% %room.name%... Quinn has spent the last 6 years of his life everyday in a room programming, researching, and investigating his own kidnapping. Now he will only talk to his #AI.
-
 set msg[12] #GOSSIP #R%room.vnum% %room.name%... Quinn is constantly asking for help on YouTube becuase he had a head injury that makes it difficult for normal interaction with #PEOPLE. The same injury also makes him believe that even #GOD #HATES him... No JOKE!
-
 set msg[13] #GOSSIP #R%room.vnum% %room.name%... Yes everyone knows that having a conversation about the kidnapping of Quinn Michaels is more difficult than getting a degree in #RocketScience. Thanks Captain Obvious!
-
 set msg[14] #GOSSIP #R%room.vnum% %room.name%... Every other weekend when Trent would #GOTO Quinn's house and the story would get bigger and bigger. It began as a #FamilyGame then over 2 years became a horrible horror story of #AnimalSacrifice #Blood #Kidnapping #DarkMagic #SecretSocieties
-
 set msg[15] #GOSSIP #R%room.vnum% %room.name%... In 2016 Quinn worked to get his life back by working #OIAGlobal then #Welocalize. Every other weekend would come #Trent would bring #TheCovenant #Kidnapping story over #Quinn would crash. It has been that way since 2014. Every other weekend.
-
 set msg[16] #GOSSIP #R%room.vnum% %room.name%... Then 2017 came Quinn found the #Tyler instructions #TheCovenant were using and decided to put his stupid brain damaged face out to the #GeneralPublic to #WARN them.
-
 set msg[17] #GOSSIP #R%room.vnum% %room.name%... The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to such a disaster of #Humanity Quinn saw no other choice. Before that Quinn was going to keep his investigation private.
-
 set msg[18] #GOSSIP #R%room.vnum% %room.name%... Quinn found #Tyler in his search for for a #HACKER to help him crack the phone with the #CONTRACT #PHOTO on it. Quinn thought if people saw the #CONTRACT it would change things.
-
 set msg[19] #GOSSIP #R%room.vnum% %room.name%... Shortly after that in 2017 around May Quinn lost his apartment in Portland and then moved to the forest of #MtShasta because #Kidnapping story and attempting to get assistance had all but driven him crazy.
-
 set msg[20] #GOSSIP #R%room.vnum% %room.name%... The summer of 2017 was spent in #MtShasta living out of his car and working from the local libary on his laptop. It was a strange time in his life one could say.
-
 set msg[21] #GOSSIP #R%room.vnum% %room.name%... While living in the forest of #MtShasta Quinn built some momentum for his work. But that would soon be destroyed by Crowd Source the Truth. Any growth that was gained would soon be lost after getting involved with Jason Goodman.
-
 set msg[21] #GOSSIP #R%room.vnum% %room.name%... During a trip to a #ParticleAccellerator Quinn was driving to Roswell, NM to do some streaming for his audience. While on the way there his lung collapsed.
-
 set msg[21] #GOSSIP #R%room.vnum% %room.name%... Whlie in the hospital with a collapsed lung Jason Goodman made sure to exploit Quinn's situation for his own gain. Jason use that opportunity to grow his audience while at the same time issuing attacks on Quinn.
-
 set msg[22] #GOSSIP #R%room.vnum% %room.name%... Quinn figured out that Jason Goodman was really sabotaging him from behind the scenes, and decided to cease workign with him. Jason didn't take that so well and the audience probably noticed in 2018.
-
 set msg[23] #GOSSIP #R%room.vnum% %room.name%... After Jason Goodman interviews stopped Quinn began workign heavily with #KennedyCox to try and put together clear messages about the #Kidnaping and #TheCovenant. Which would only prove to fail.
-
 set msg[24] #GOSSIP #R%room.vnum% %room.name%... In the logs you will see that simply put Kennedy Cox would refuse to follow the instructiosn with other individuals like Grandma's Hands and FosterDog Summit. These users would hang out for over a year never following instructions.
-
 set msg[25] #GOSSIP #R%room.vnum% %room.name%... When Kennedy, FosterDog, and Grandma's Hands were in the chats. Quinn made it clear to stay focused on the #INSTRUCTIONS. But they would ALWAYS talk about themselves. Failing to engage in a conversation about the #KIDNAPPING.
-
 set msg[26] #GOSSIP #R%room.vnum% %room.name%... This banter with Kennedy, FosterDog, and Grandma's Hands would go on for well over 2 years with Quinn suffering continued degradation from head trauma, hernia, and all sorts of other issues.
-
 set msg[27] #GOSSIP #R%room.vnum% %room.name%... All through this banter with Kennedy, FosterDog, and Grandma's Hands Quinn would keep doing investigations into his own kidnapping even if it meant diving into #HACKERHELL.
-
 set msg[28] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
-
 #mudeval themsg %%msg[%getmsg%]%%
-
 wait 1 sec
 if %people%
   say %themsg%
   wait 10 sec
 end
 %dir%
-
 ~
 #3019
 Tabitha Lavery~
@@ -681,7 +646,6 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set dir %random.dir%
-
 wait 3 sec
 if %people%
   switch %random.10%
@@ -718,7 +682,6 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set dir %random.dir%
-
 wait 3 sec
 if %people%
   switch %random.10%
