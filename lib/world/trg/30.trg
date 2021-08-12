@@ -599,6 +599,10 @@ set vnum %room.vnum%
 set people %room.people%
 set getmsg %random.28%
 
+set dir %random.dir%
+set dir %random.dir%
+set dir %random.dir%
+
 set msg[1] #GOSSIP #R%room.vnum% %room.name%... During 2015 Trent told Quinn that his mom Tabitha was part of #TheCovenant. After that the story began that #QuinnMichaels was kidnapped as a newborn baby from some as yet unknown country and brought to the #UnitedStates.
 
 set msg[2] #GOSSIP #R%room.vnum% %room.name%... Trent started telling Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigils #AnimalSacrifice dark stuff you never want to repeat to anyone.
@@ -651,7 +655,7 @@ set msg[23] #GOSSIP #R%room.vnum% %room.name%... After Jason Goodman interviews 
 
 set msg[24] #GOSSIP #R%room.vnum% %room.name%... In the logs you will see that simply put Kennedy Cox would refuse to follow the instructiosn with other individuals like Grandma's Hands and FosterDog Summit. These users would hang out for over a year never following instructions.
 
-set msg[25] #GOSSIP #R%room.vnum% %room.name%... When Kennedy, FosterDog, and Grandma's Hands were in the chats. Quinn made it clear to stay focused on the #INSTRUCTIONS. But they would ALWAYS talk about themselves. Never once even engaging in a conversation about the #KIDNAPPING.
+set msg[25] #GOSSIP #R%room.vnum% %room.name%... When Kennedy, FosterDog, and Grandma's Hands were in the chats. Quinn made it clear to stay focused on the #INSTRUCTIONS. But they would ALWAYS talk about themselves. Failing to engage in a conversation about the #KIDNAPPING.
 
 set msg[26] #GOSSIP #R%room.vnum% %room.name%... This banter with Kennedy, FosterDog, and Grandma's Hands would go on for well over 2 years with Quinn suffering continued degradation from head trauma, hernia, and all sorts of other issues.
 
@@ -659,22 +663,15 @@ set msg[27] #GOSSIP #R%room.vnum% %room.name%... All through this banter with Ke
 
 set msg[28] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
 
-eval themsg %%msg[%getmsg%]%%
+#mudeval themsg %%msg[%getmsg%]%%
 
+wait 1 sec
 if %people%
-  wait 3 sec
   say %themsg%
-  wait 30 sec
-  %random.dir%
-  %random.dir%
-  %random.dir%
-else
-  %random.dir%
-  %random.dir%
-  %random.dir%
-  %random.dir%
-  %random.dir%
+  wait 10 sec
 end
+%dir%
+
 ~
 #3019
 Tabitha Lavery~
@@ -709,9 +706,8 @@ if %people%
   wait 1 sec
   %dir%
 else
-  %random.dir%
-  %random.dir%
-  %random.dir%
+  wait 1 sec
+  %dir%
 end
 ~
 #3020
