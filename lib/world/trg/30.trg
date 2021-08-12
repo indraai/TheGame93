@@ -639,7 +639,6 @@ if %people%
   wait 10 sec
   %dir%
 else
-  wait 1 sec
   %dir%
 end
 
