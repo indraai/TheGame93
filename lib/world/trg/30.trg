@@ -665,14 +665,16 @@ set msg[28] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #
 
 set msg[29] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
 
-#mudeval themsg %%msg[%getmsg%]%%
+eval themsg %%msg[%getmsg%]%%
 
-wait 1 sec
 if %people%
   say %themsg%
   wait 10 sec
+  %dir%
+else
+  wait 1 sec
+  %dir%
 end
-%dir%
 
 ~
 #3019
