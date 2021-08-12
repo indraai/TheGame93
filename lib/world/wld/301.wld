@@ -14,12 +14,12 @@ adv:world:3101/look
 ~
 0 -1 30101
 E
-sign~
-adv:world:30100/sign
-~
-E
 info credits~
 adv:world:30100/info
+~
+E
+sign~
+adv:world:30100/sign
 ~
 S
 #30101
@@ -68,12 +68,12 @@ adv:world:30101/look
 ~
 0 -1 30101
 E
-cobblestone stone cobble~
-adv:world:30102/stone
-~
-E
 dorm dormitory dormitories~
 adv:world:3102/dorm
+~
+E
+cobblestone stone cobble~
+adv:world:30102/stone
 ~
 S
 #30103
@@ -100,12 +100,12 @@ Campus Crescent continues to the west.
 ~
 0 -1 30102
 E
-caf cafeteria~
-   You barely see, through the thick putrid fumes, the Mary Rotte Cafeteria.
-~
-E
 cobblestone stone cobble~
    The cobblestones are clean.
+~
+E
+caf cafeteria~
+   You barely see, through the thick putrid fumes, the Mary Rotte Cafeteria.
 ~
 S
 #30104
@@ -141,6 +141,7 @@ cobblestone stone cobble~
 that is not here.
 ~
 S
+T 3106
 #30105
 Campus Crescent~
    This cobblestone road is not littered in any way, thus displaying the
@@ -170,12 +171,12 @@ The Crossroads lie to the west.
 ~
 0 -1 30104
 E
-building~
-   The buildings seem warm and inviting.  You almost feel like hugging one.
-~
-E
 cobblestone stone cobble~
    The cobblestones are clean.
+~
+E
+building~
+   The buildings seem warm and inviting.  You almost feel like hugging one.
 ~
 S
 #30106
@@ -207,8 +208,8 @@ Campus Crescent continues to the west.
 ~
 0 -1 30105
 E
-round building~
-   Yes...  It's a round building.  Go figure.
+cobblestone stone cobble~
+   The cobblestones are still clean.
 ~
 E
 bookstore~
@@ -216,8 +217,8 @@ bookstore~
 floor.
 ~
 E
-cobblestone stone cobble~
-   The cobblestones are still clean.
+round building~
+   Yes...  It's a round building.  Go figure.
 ~
 S
 #30107
@@ -242,12 +243,12 @@ Campus Crescent and its cobblestones are to the west.
 ~
 0 -1 30106
 E
-asphalt pavement~
-   It's asphalt.
-~
-E
 cobblestone stone cobble~
    It's asphalt, you idiot!  If you want to look at cobblestones, go west.
+~
+E
+asphalt pavement~
+   It's asphalt.
 ~
 S
 #30108
@@ -272,8 +273,8 @@ The cafeteria lies to the west.
 ~
 0 -1 30128
 E
-cafeteria fog~
-   The fog seems to be coming from the Mary Rotte Cafeteria.
+cobblestone stone cobble~
+   It's a dirt road.  There are NO cobblestones here, although to the north...
 ~
 E
 dirt~
@@ -281,8 +282,8 @@ dirt~
 World Dictionary)
 ~
 E
-cobblestone stone cobble~
-   It's a dirt road.  There are NO cobblestones here, although to the north...
+cafeteria fog~
+   The fog seems to be coming from the Mary Rotte Cafeteria.
 ~
 S
 #30109
@@ -302,13 +303,13 @@ Morris House lies to the west.
 ~
 0 -1 30129
 E
-dormitory dorm~
-   They are student living establishments.
-~
-E
 dirt~
    It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
 World Dictionary)
+~
+E
+dormitory dorm~
+   They are student living establishments.
 ~
 S
 #30110
@@ -338,8 +339,8 @@ The Engineering building, Ellis Hall, lies to the west.
 ~
 0 -1 30132
 E
-building buildings~
-   There are two buildings here.  Which one?
+cobblestone stone cobble~
+   It's a dirt road.  There are NO cobblestones here, although to the south...
 ~
 E
 dirt~
@@ -347,8 +348,8 @@ dirt~
 World Dictionary)
 ~
 E
-cobblestone stone cobble~
-   It's a dirt road.  There are NO cobblestones here, although to the south...
+building buildings~
+   There are two buildings here.  Which one?
 ~
 S
 #30111
@@ -378,13 +379,13 @@ The Commerce building, Dunning Hall, lies to the west.
 ~
 0 -1 30135
 E
-building buildings~
-   There are two buildings here.  Which one?
-~
-E
 dirt~
    It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
 World Dictionary)
+~
+E
+building buildings~
+   There are two buildings here.  Which one?
 ~
 S
 #30112
@@ -437,8 +438,9 @@ University Avenue continues to the south.
 ~
 0 -1 30112
 E
-building~
-   The student center lies to the east.
+dirt~
+   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
+World Dictionary)
 ~
 E
 sign warning~
@@ -451,9 +453,8 @@ Fine $ 53.75 for excessively loud noises.
 ENTER AT YOUR OWN RISK!
 ~
 E
-dirt~
-   It's unclean matter, such as mud, trash, earth, or soil.  (Webster's New
-World Dictionary)
+building~
+   The student center lies to the east.
 ~
 S
 #30114
@@ -478,12 +479,12 @@ University Avenue lies to the west.
 ~
 0 -1 30112
 E
-building~
-   The student center lies to the north.
-~
-E
 non-descript non descript~
    (No description)
+~
+E
+building~
+   The student center lies to the north.
 ~
 S
 #30115
@@ -513,12 +514,12 @@ Union Street continues to the west.
 ~
 0 -1 30114
 E
-building buildings~
-   There are two buildings here.  Which one?
-~
-E
 non-descript non descript~
    (No description)
+~
+E
+building buildings~
+   There are two buildings here.  Which one?
 ~
 S
 #30116
@@ -544,12 +545,12 @@ Union Street is to the west.
 ~
 0 -1 30115
 E
-asphalt pavement~
-   It's asphalt.
-~
-E
 building gym arena~
    The Jock Hardy Arena lies to the north.
+~
+E
+asphalt pavement~
+   It's asphalt.
 ~
 S
 #30117
@@ -569,12 +570,12 @@ Division Road continues south.
 ~
 0 -1 30118
 E
-zork~
-   What would possess you to look at that?  What is a zork anyways?
-~
-E
 asphalt pavement~
    It's asphalt.
+~
+E
+zork~
+   What would possess you to look at that?  What is a zork anyways?
 ~
 S
 #30118
@@ -599,13 +600,13 @@ The Campus bookstore lies to the west.
 ~
 0 -1 30141
 E
-asphalt pavement~
-   It's asphalt.
-~
-E
 bookstore building~
    The bookstore is a 2-story cubical building, loud noises emanate from the top
 floor.
+~
+E
+asphalt pavement~
+   It's asphalt.
 ~
 S
 #30119
@@ -625,12 +626,12 @@ Division Road continues south.
 ~
 0 -1 30120
 E
-zork~
-   What would possess you to look at that?  What is a zork anyways?
-~
-E
 asphalt pavement~
    It's asphalt.
+~
+E
+zork~
+   What would possess you to look at that?  What is a zork anyways?
 ~
 S
 #30120
@@ -650,13 +651,13 @@ Division Road continues south.
 ~
 0 -1 30121
 E
+asphalt pavement~
+   It's asphalt.
+~
+E
 tree~
    It has been placed here just to relieve the monotony.  It serves no other
 purpose whatsoever.
-~
-E
-asphalt pavement~
-   It's asphalt.
 ~
 S
 #30121
@@ -677,15 +678,15 @@ Wally World sits to the east.
 ~
 0 -1 30142
 E
+asphalt pavement~
+   It's asphalt.
+~
+E
 dorm dormitory~
    This is a rather tall dormitory.  You'd guess that in real life, it's
 probably 11-stories high, but since that would take an absurd amount of time to
 program, you don't think that there are that many floors in this replica of the
 building.
-~
-E
-asphalt pavement~
-   It's asphalt.
 ~
 S
 #30122
@@ -703,18 +704,18 @@ The Student GHETTO...  Beware!
 ~
 0 -1 30123
 E
-gate gateway pillar~
-   The gateway is made of limestone and covered in ivy.  As you already knew
-that you feel rather silly wasting your time looking at it.  There is a sign on
-the left pillar.
-~
-E
 sign plaque~
    The nicely polished brass plaque reads:
 
                             University of XXX
 
                            ENTER AT YOUR OWN RISK
+~
+E
+gate gateway pillar~
+   The gateway is made of limestone and covered in ivy.  As you already knew
+that you feel rather silly wasting your time looking at it.  There is a sign on
+the left pillar.
 ~
 S
 #30123
@@ -790,13 +791,13 @@ There is a locked door leading to a stairwell.
 door~
 1 30105 30295
 E
+mailbox mailboxes~
+   All of the mailboxes are all empty ...  Just like normal you think.
+~
+E
 tiles floor~
    The floor is covered with tiles that are so ugly, you have a difficult time
 keeping your lunch down
-~
-E
-mailbox mailboxes~
-   All of the mailboxes are all empty ...  Just like normal you think.
 ~
 S
 #30127
@@ -824,13 +825,13 @@ There is a doorway leading to the kitchen.
 door doorway~
 1 -1 30143
 E
+cafeteria caf~
+   Yes, this is the cafeteria.
+~
+E
 door doorway~
    You believe that the doorway leads to the kitchen.  Let's give our
 compliments to the chef...  *grin*
-~
-E
-cafeteria caf~
-   Yes, this is the cafeteria.
 ~
 S
 #30128
@@ -858,13 +859,13 @@ The dining hall lies to the west... Beware!
 ~
 0 -1 30148
 E
+cafeteria caf~
+   Yes, this is the cafeteria.
+~
+E
 door doorway~
    You believe that the doorway leads to the kitchen.  Let's give our
 compliments to the chef...  *grin*
-~
-E
-cafeteria caf~
-   Yes, this is the cafeteria.
 ~
 S
 #30129
@@ -915,15 +916,15 @@ The hallway continues west.
 ~
 0 -1 30324
 E
+round circle circular~
+   Yes, it's round.
+~
+E
 footnote~
    Yes, believe it or not, this is a reasonably accurate representation of the
 Physics building, Stirling Hall at our university.  The lecture halls are
 numbered in the same manner as represented and it is in fact round, so that you
 can walk in one direction all the way around the building.
-~
-E
-round circle circular~
-   Yes, it's round.
 ~
 S
 #30131
@@ -994,12 +995,12 @@ University Avenue lies to the west.
 ~
 0 -1 30110
 E
-minds mind great greatest~
-   All of whom were probably smarter than you.
-~
-E
 halls hallways hall hallway~
    They are twisting alright.
+~
+E
+minds mind great greatest~
+   All of whom were probably smarter than you.
 ~
 S
 #30134
@@ -1021,12 +1022,12 @@ Campus Crescent lies to the south.
 ~
 0 -1 30105
 E
-minds mind great greatest~
-   All of whom were probably smarter than you.
-~
-E
 halls hallways hall hallway~
    They are twisting alright.
+~
+E
+minds mind great greatest~
+   All of whom were probably smarter than you.
 ~
 S
 #30135
@@ -1164,6 +1165,10 @@ A long hallway lies to the west.
 ~
 0 -1 30153
 E
+plaque plaques~
+   They are rather boring.  A bunch of people you don't know.
+~
+E
 sign~
    The sign says:
 	n
@@ -1171,10 +1176,6 @@ sign~
     Arena         -> East
     Locker Rooms  -> West
     Exit          -> South
-~
-E
-plaque plaques~
-   They are rather boring.  A bunch of people you don't know.
 ~
 S
 #30140
@@ -1269,12 +1270,12 @@ The kitchen continues south.
 ~
 0 -1 30144
 E
-food~
-   Believe me, you don't want to look at that!
-~
-E
 door doorway~
    You stare intently at the door.  Its wooden frame enthrals you.
+~
+E
+food~
+   Believe me, you don't want to look at that!
 ~
 S
 #30144
@@ -1318,12 +1319,12 @@ The dining hall continues south.
 ~
 0 -1 30147
 E
-students poor~
-   You feel sorry for them.
-~
-E
 food~
    Believe me, you don't want to look at that!
+~
+E
+students poor~
+   You feel sorry for them.
 ~
 S
 #30146
@@ -1345,12 +1346,12 @@ The dining hall continues west.
 ~
 0 -1 30145
 E
-students poor~
-   You feel sorry for them.
-~
-E
 food~
    Believe me, you don't want to look at that!
+~
+E
+students poor~
+   You feel sorry for them.
 ~
 S
 #30147
@@ -1372,12 +1373,12 @@ The dining hall continues east.
 ~
 0 -1 30148
 E
-students poor~
-   You feel sorry for them.
-~
-E
 food~
    Believe me, you don't want to look at that!
+~
+E
+students poor~
+   You feel sorry for them.
 ~
 S
 #30148
@@ -1404,12 +1405,12 @@ The dining hall continues west.
 ~
 0 -1 30147
 E
-students poor~
-   You feel sorry for them.
-~
-E
 food~
    Believe me, you don't want to look at that!
+~
+E
+students poor~
+   You feel sorry for them.
 ~
 S
 #30149
@@ -1431,12 +1432,12 @@ There is a storeroom beyond the door to the south.
 door doorway~
 1 -1 30150
 E
-door doorway~
-   It's a door.  It has a nice steel frame surrounding a metallic door.
-~
-E
 food~
    Believe me, you don't want to look at that!
+~
+E
+door doorway~
+   It's a door.  It has a nice steel frame surrounding a metallic door.
 ~
 S
 #30150
@@ -1452,16 +1453,16 @@ These stairs lead back to the door to the kitchen.
 door doorway~
 1 -1 30149
 E
-door doorway~
-   It's a door.  It has a nice steel frame surrounding a metallic door.
+food~
+   Well, it's food.
 ~
 E
 spam pre-made packages ingredients uninteresting stuff~
    It's rather uninteresting.
 ~
 E
-food~
-   Well, it's food.
+door doorway~
+   It's a door.  It has a nice steel frame surrounding a metallic door.
 ~
 S
 #30151
@@ -1483,12 +1484,12 @@ The kitchen continues west.
 ~
 0 -1 30149
 E
-food~
-   Believe me, you don't want to look at that!
-~
-E
 door doorway~
    You stare intently at the door.  Its wooden frame enthrals you.
+~
+E
+food~
+   Believe me, you don't want to look at that!
 ~
 S
 #30152
@@ -1790,12 +1791,12 @@ The only way out is down.
 ~
 0 -1 30165
 E
-moshing mosh~
-   All you can see is a mass of bodies moving up and down, up and down...
-~
-E
 zorpa~
    You see nothing special.  Now what is a zorpa anyways?
+~
+E
+moshing mosh~
+   All you can see is a mass of bodies moving up and down, up and down...
 ~
 S
 #30167
@@ -1817,16 +1818,16 @@ D5
 plank~
 1 -1 30171
 E
+map~
+   This map shows absolutely nothing, further proving the value of student
+governments to you.
+~
+E
 list~
    The list reads:
         <name scratched out>    President
         <name scratched out>    Vice-President
 Seems as though everyone is claiming ignorance today.
-~
-E
-map~
-   This map shows absolutely nothing, further proving the value of student
-governments to you.
 ~
 S
 #30168
@@ -1860,36 +1861,6 @@ You can see the central annex to the east.
 ~
 0 -1 30137
 S
-#30171
-The Special Hidden Room~
-   This room is completely empty except for the things you can see in it.  The
-only thing of real importance you can see is the plank in the ceiling.
-~
-301 8 0 0 0 5
-D4
-Back to the Infobank we go.
-~
-plank~
-1 -1 30167
-S
-#30172
-Birth Control Center~
-   This room is literally plastered with photographs, leaflets, and other birth
-control paraphernalia.  On the table for instance is a stack of pamphlets to be
-handed out to any students who wish to read them.
-~
-301 8 0 0 0 0
-D3
-To the west you can see the entrance to the building.
-~
-~
-0 -1 30131
-E
-pamphlet leaflet photograph photo~
-   This portrays various bodily functions and things vaguely related that turn
-even your stomach...  Blech!
-~
-S
 #30170
 The Post Office~
    This seems to be the standard post office given to any university by the
@@ -1904,9 +1875,8 @@ You can see the back hall from here complete with humming bank machines.
 ~
 0 -1 30138
 E
-graffiti~
-   You really don't want to read this!  (if you want to continue reading type
-"look wirt")
+prawn~
+      You see nothing special.  The Prawn is in excellent condition.
 ~
 E
 wirt~
@@ -1914,8 +1884,9 @@ wirt~
 read it type "look prawn"
 ~
 E
-prawn~
-      You see nothing special.  The Prawn is in excellent condition.
+graffiti~
+   You really don't want to read this!  (if you want to continue reading type
+"look wirt")
 ~
 S
 #30173
@@ -1963,14 +1934,14 @@ be interesting.
 ~
 0 -1 30180
 E
-award awards~
-   These are awards for various Engineering competitions which the university
-entered at one time or another.
-~
-E
 neat engineering devices~
    You see lots of neat engineering devices which were used in the real world at
 some point or another.  At least you think they were.
+~
+E
+award awards~
+   These are awards for various Engineering competitions which the university
+entered at one time or another.
 ~
 S
 #30175
@@ -2008,12 +1979,9 @@ The hallway you probably entered from is handily located to the west.
 ~
 0 -1 30175
 E
-goalie~
-   How did you know it was a goalie stick?  Have you been reading the keywords?
-~
-E
-crest~
-   The crest seems to be the crest belonging to the class of `97.
+stage~
+   The stage is located at the west end of the room.  In one corner of the
+stage, there is a hockey stick lying on the ground.
 ~
 E
 hockey stick~
@@ -2021,9 +1989,12 @@ hockey stick~
 crest prominently displayed.
 ~
 E
-stage~
-   The stage is located at the west end of the room.  In one corner of the
-stage, there is a hockey stick lying on the ground.
+crest~
+   The crest seems to be the crest belonging to the class of `97.
+~
+E
+goalie~
+   How did you know it was a goalie stick?  Have you been reading the keywords?
 ~
 S
 #30177
@@ -2231,12 +2202,12 @@ This leads into the building.
 door~
 2 30101 30178
 E
-building~
-   This is the back side of Ellis Hall, the Engineering building.
-~
-E
 pathway~
    The path is well worn, but there are no discernible footsteps upon it.
+~
+E
+building~
+   This is the back side of Ellis Hall, the Engineering building.
 ~
 S
 #30188

@@ -499,11 +499,11 @@ CigarBob is here.
 ~
 A blobby looking fellow, it is huge, and looks like the blob.
 ~
-256216 0 0 0 16 0 0 0 0 E
+2200 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0
-BareHandAttack: 6
+8 8 1
+BareHandAttack: 2
 E
 T 3018
 #3069
@@ -513,10 +513,11 @@ Tabitha Lavery is here to spread lies.
 ~
 Tabitha Lavery goes around spreading lies about Quinn Michaels.
 ~
-2200 0 0 0 0 0 0 0 0 E
+2200 0 0 0 8 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 1000 100
 8 8 2
+BareHandAttack: 3
 E
 T 3019
 #3070
@@ -526,7 +527,7 @@ Trent Lavery is here to spread lies.
 ~
 Trenton Lavery goes around spreading lies about his father Quinn Michaels.
 ~
-2200 0 0 0 0 0 0 0 0 E
+2200 0 0 0 8 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 1000 100
 8 8 1
