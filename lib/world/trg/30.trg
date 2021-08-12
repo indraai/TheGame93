@@ -596,7 +596,7 @@ Gossip~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.28%
+set getmsg %random.29%
 set dir %random.dir%
 set dir %random.dir%
 set dir %random.dir%
