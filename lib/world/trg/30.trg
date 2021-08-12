@@ -596,7 +596,7 @@ Gossip~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.28%
+set getmsg %random.29%
 set dir %random.dir%
 set dir %random.dir%
 set dir %random.dir%
@@ -636,8 +636,11 @@ wait 1 sec
 if %people%
   say %themsg%
   wait 10 sec
+  %dir%
+else
+  %dir%
 end
-%dir%
+
 ~
 #3019
 Tabitha Lavery~
