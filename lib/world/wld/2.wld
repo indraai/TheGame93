@@ -1,6 +1,6 @@
 #200
 The Northern Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -227,7 +227,7 @@ D3
 S
 #210
 The Northern Temple Circle Intersection~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -461,7 +461,7 @@ D0
 S
 #223
 Northern Temple Entrance~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -638,7 +638,7 @@ D2
 S
 #234
 Captain Lugdach's~
-~
+Empty room.~
 2 0 0 0 0 1
 D3
 ~
@@ -660,7 +660,7 @@ D2
 S
 #236
 Inside the Temple of The Dome~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -1694,6 +1694,7 @@ D3
 ~
 0 0 291
 S
+T 3106
 #293
 The Southern Temple Circle~
    The smell of freshly baked bread wafts heavily through the air, tempting

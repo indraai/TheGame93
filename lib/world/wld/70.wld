@@ -287,12 +287,12 @@ adv:world:7014/look
 ~
 0 -1 7014
 E
-mud~
-adv:world:7013/mud
-~
-E
 sediment~
 adv:world:7013/sediment
+~
+E
+mud~
+adv:world:7013/mud
 ~
 S
 #7014
@@ -544,7 +544,7 @@ you are standing in.
 S
 #7030
 The Quadruple Junction Under The Dump~
-~
+Empty room.~
 70 12 0 0 0 1
 D0
 To the north you can see a huge triple junction with sewer pipes leading
@@ -742,6 +742,10 @@ To the south you can see a triple junction leading west and east.
 ~
 ~
 0 -1 7044
+D4
+~
+~
+0 0 3029
 S
 #7044
 The Junction Going Three Ways~
