@@ -663,6 +663,8 @@ set msg[27] #GOSSIP #R%room.vnum% %room.name%... All through this banter with Ke
 
 set msg[28] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
 
+set msg[29] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
+
 #mudeval themsg %%msg[%getmsg%]%%
 
 wait 1 sec
