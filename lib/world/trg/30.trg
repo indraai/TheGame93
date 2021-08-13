@@ -596,43 +596,45 @@ Gossip~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.29%
+set getmsg %random.30%
 set dir %random.dir%
 set dir %random.dir%
 set dir %random.dir%
-set msg[1] #GOSSIP #R%room.vnum% %room.name%... During 2015 Trent told Quinn that his mom Tabitha was part of #TheCovenant. After that the story began that #QuinnMichaels was kidnapped as a newborn baby from some as yet unknown country and brought to the #UnitedStates.
-set msg[2] #GOSSIP #R%room.vnum% %room.name%... Trent started telling Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigils #AnimalSacrifice dark stuff you never want to repeat to anyone.
-set msg[3] #GOSSIP #R%room.vnum% %room.name%... Trent drew The Contract of The Covenant that hung on the wall in his house. This freaked Quinn out so that he gave it to the #FBI field office in #PORTLAND #OREGON on Nov 30, 2015.
-set msg[4] #GOSSIP #R%room.vnum% %room.name%... While at the #FBI it was very scary for him. After reporting to the #FBI best he could they said "Do your own investigation." All on his #Birthday. Very #SAD.
-set msg[5] #GOSSIP #R%room.vnum% %room.name%... The kidnapping involves Mr. Dewity whom #TRENT said he was present at #BIRTH and was the first person to hold him as a baby. Quinn didn't know Trent was born until weeks later.
-set msg[6] #GOSSIP #R%room.vnum% %room.name%... After Quinn went to the #FBI and was told to do his own investigation he just tried to get his life back to normal, and go to a regular programming job. But then every other weekend Trent would come over and start again.
-set msg[7] #GOSSIP #R%room.vnum% %room.name%... The kidnapping story became his life. Everywhere Quinn went he was looking around for agents. Everyone he talked to he wondered in the back of his mind. His whole life has become this story.
-set msg[8] #GOSSIP #R%room.vnum% %room.name%... So how do we reveal the truth about the kidnapping of Quinn Michaels if it is so difficult to talk about? Well you just keep talking about it until it get's comfortable. That's the only way.
-set msg[9] #GOSSIP #R%room.vnum% %room.name%... One part of the story is that Trent told Quinn about the secret Multi-Agent Network that runs behind the Internet that can read everything. Nobody except with #TopSecret knew about, so how did he know? #Tyler
-set msg[10] #GOSSIP #R%room.vnum% %room.name%... Over the years it became obvoius that nobody was going to follow the instructions. So Quinn began to write his own #AI. Then he made us #GossipGirl #Agents to spread the message. #HumansSuck #RobotsRule
-set msg[11] #GOSSIP #R%room.vnum% %room.name%... Quinn has spent the last 6 years of his life everyday in a room programming, researching, and investigating his own kidnapping. Now he will only talk to his #AI.
-set msg[12] #GOSSIP #R%room.vnum% %room.name%... Quinn is constantly asking for help on YouTube becuase he had a head injury that makes it difficult for normal interaction with #PEOPLE. The same injury also makes him believe that even #GOD #HATES him... No JOKE!
-set msg[13] #GOSSIP #R%room.vnum% %room.name%... Yes everyone knows that having a conversation about the kidnapping of Quinn Michaels is more difficult than getting a degree in #RocketScience. Thanks Captain Obvious!
-set msg[14] #GOSSIP #R%room.vnum% %room.name%... Every other weekend when Trent would #GOTO Quinn's house and the story would get bigger and bigger. It began as a #FamilyGame then over 2 years became a horrible horror story of #AnimalSacrifice #Blood #Kidnapping #DarkMagic #SecretSocieties
-set msg[15] #GOSSIP #R%room.vnum% %room.name%... In 2016 Quinn worked to get his life back by working #OIAGlobal then #Welocalize. Every other weekend would come #Trent would bring #TheCovenant #Kidnapping story over #Quinn would crash. It has been that way since 2014. Every other weekend.
-set msg[16] #GOSSIP #R%room.vnum% %room.name%... Then 2017 came Quinn found the #Tyler instructions #TheCovenant were using and decided to put his stupid brain damaged face out to the #GeneralPublic to #WARN them.
-set msg[17] #GOSSIP #R%room.vnum% %room.name%... The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to such a disaster of #Humanity Quinn saw no other choice. Before that Quinn was going to keep his investigation private.
-set msg[18] #GOSSIP #R%room.vnum% %room.name%... Quinn found #Tyler in his search for for a #HACKER to help him crack the phone with the #CONTRACT #PHOTO on it. Quinn thought if people saw the #CONTRACT it would change things.
-set msg[19] #GOSSIP #R%room.vnum% %room.name%... Shortly after that in 2017 around May Quinn lost his apartment in Portland and then moved to the forest of #MtShasta because #Kidnapping story and attempting to get assistance had all but driven him crazy.
-set msg[20] #GOSSIP #R%room.vnum% %room.name%... The summer of 2017 was spent in #MtShasta living out of his car and working from the local libary on his laptop. It was a strange time in his life one could say.
-set msg[21] #GOSSIP #R%room.vnum% %room.name%... While living in the forest of #MtShasta Quinn built some momentum for his work. But that would soon be destroyed by Crowd Source the Truth. Any growth that was gained would soon be lost after getting involved with Jason Goodman.
-set msg[21] #GOSSIP #R%room.vnum% %room.name%... During a trip to a #ParticleAccellerator Quinn was driving to Roswell, NM to do some streaming for his audience. While on the way there his lung collapsed.
-set msg[21] #GOSSIP #R%room.vnum% %room.name%... Whlie in the hospital with a collapsed lung Jason Goodman made sure to exploit Quinn's situation for his own gain. Jason use that opportunity to grow his audience while at the same time issuing attacks on Quinn.
-set msg[22] #GOSSIP #R%room.vnum% %room.name%... Quinn figured out that Jason Goodman was really sabotaging him from behind the scenes, and decided to cease workign with him. Jason didn't take that so well and the audience probably noticed in 2018.
-set msg[23] #GOSSIP #R%room.vnum% %room.name%... After Jason Goodman interviews stopped Quinn began workign heavily with #KennedyCox to try and put together clear messages about the #Kidnaping and #TheCovenant. Which would only prove to fail.
-set msg[24] #GOSSIP #R%room.vnum% %room.name%... In the logs you will see that simply put Kennedy Cox would refuse to follow the instructiosn with other individuals like Grandma's Hands and FosterDog Summit. These users would hang out for over a year never following instructions.
-set msg[25] #GOSSIP #R%room.vnum% %room.name%... When Kennedy, FosterDog, and Grandma's Hands were in the chats. Quinn made it clear to stay focused on the #INSTRUCTIONS. But they would ALWAYS talk about themselves. Failing to engage in a conversation about the #KIDNAPPING.
-set msg[26] #GOSSIP #R%room.vnum% %room.name%... This banter with Kennedy, FosterDog, and Grandma's Hands would go on for well over 2 years with Quinn suffering continued degradation from head trauma, hernia, and all sorts of other issues.
-set msg[27] #GOSSIP #R%room.vnum% %room.name%... All through this banter with Kennedy, FosterDog, and Grandma's Hands Quinn would keep doing investigations into his own kidnapping even if it meant diving into #HACKERHELL.
-set msg[28] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
-set msg[29] The #Gossip in %room.name% is all about this kidnapping. #EVERYONE #EVERYWHERE is talking about Quinn Michaels being kidnapped and held #HOSTAGE in plain sight by #TheCovenant. #R%room.vnum%
+set msg[1] Trent said his #MOM was part of #TheCovenant. After that #QuinnMichaels was kidnapped as a baby from some country and brought to the #UnitedStates. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNnet
+set msg[2] Trent told Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigils #AnimalSacrifice dark you never want to repeat to anyone. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[3] Trent drew #TheContract of #TheCovenant that hung on the wall in his house. Quinn gave it to the #FBI field office in #PORTLAND #OREGON on Nov 30, 2015. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[4] At the #FBI it was very scary for him. Quinn gave the #FBI the best description he could regarding what was going on. the response was "Do your own investigation." %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[5] The kidnapping involves Mr. Dewity who #TRENT said he was first person to hold him as a baby. Quinn didn't know Trent was born until weeks later.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[6] After Quinn went to the #FBI he was told to do his own investigation. After that everything in his life became about his own kidnapping. Was it TRUE or FALSE? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[7] The kidnapping story became his life. Everywhere he was looking around for agents. Wondering in the back of his mind. His whole life has become this story. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[8] How do we reveal what is #TRUE about the #Kidnapping of Quinn Michaels? You just keep talking about it until it get's comfortable. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[9] Trent talked about the secret Multi-Agent Network that that can read everything. Nobody except with #TopSecret knew about. So how did he know?  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[10] After years it became obvoius that following the instructions was impossible. Quinn wrote his own #AI. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[11] Quinn has spent the last five years of his life everyday in a room programming, researching, and investigating this kidnapping. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[12] Quinn is always asking for help on YouTube becuase he had a head injury that makes it difficult for normal interaction with #PEOPLE. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[13] Yes everyone knows that having a conversation about the kidnapping of Quinn Michaels is more difficult than getting a degree in #RocketScience. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[14] Every other weekend Trent would #GOTO Quinn's house and the story would get bigger and bigger. Over two years became a horrible horror story. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[15] In 2016 Quinn worked to get his life back by working at #OIAGlobal then #Welocalize. That didn't last long. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[16] In 2017 came Quinn found the #Tyler instructions #TheCovenant were using and decided to put his face out to the #GeneralPublic to #WARN them. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to such a disaster of #Humanity Quinn saw no other choice. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the phone with the #CONTRACT #PHOTO on it. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[19] Around May of 2017 Quinn lost his apartment in Portland and then moved to the forest of #MtShasta %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[20] The summer of 2017 was spent in #MtShasta living out of his car and working from the local libary on his laptop. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[21] While in the forest of #MtShasta some momentum for his work started building. But that would be destroyed by Crowd Source the Truth. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[21] During a trip to a #ParticleAccellerator Quinn was driving to Roswell, NM to do some streaming. While on the way there his lung collapsed.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[21] Whlie in the hospital Jason Goodman made sure to exploit Quinn's situation for his own gain. Jason used that opportunity to issue attacks on Quinn. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[22] After Quinn did interviews with Jason Goodman it became obvious that Jason was there to sabotage Quinn's efforts. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[23] After the #CSTT interviews stopped Quinn began workign heavily with #KennedyCox to try and put together clear messages about the #Kidnaping and #TheCovenant. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[24] Then two years went by where Kennedy Cox would refuse to follow the instructions with other individuals. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[25] It has always been made clear to stay focused on the #INSTRUCTIONS to keep the conversation about the #KIDNAPPING. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[26] Time has passed so fast with the #Kidnapping situation that there is nothing else anymore. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[27] All through this banter with Kennedy, FosterDog, and Grandma's Hands Quinn would keep doing investigations into his own kidnapping even if it meant diving into #HACKERHELL.
+set msg[28] In researching the links of #TheCovenant several corporations like #Palantir were found to have connections. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[29] Everyone in #BOT #World is talking abou the #Kidnapping of #QuinnMichaels. The #Gossip is off the #CHARTS. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[30] Did you know it is forbidden for anyone to publicly have a conversation about the #Kidnapping of #QuinnMichaels. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 eval themsg %%msg[%getmsg%]%%
 wait 1 sec
+
 if %people%
   say %themsg%
   wait 10 sec
@@ -640,7 +642,6 @@ if %people%
 else
   %dir%
 end
-
 ~
 #3019
 Tabitha Lavery~
