@@ -276,7 +276,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   /* Generate the leave message and display to others in the was_in room. */
   if (!AFF_FLAGGED(ch, AFF_SNEAK))
   {
-    snprintf(leave_message, sizeof(leave_message), "\nagent:$n departs %s.\r", dirs[dir]);
+    snprintf(leave_message, sizeof(leave_message), "\nalert:$n departs %s.\r", dirs[dir]);
     act(leave_message, TRUE, ch, 0, 0, TO_ROOM);
   }
 
@@ -300,7 +300,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 
   /* Display arrival information to anyone in the destination room... */
   if (!AFF_FLAGGED(ch, AFF_SNEAK))
-    act("\nagent:$n has arrived.\r", TRUE, ch, 0, 0, TO_ROOM);
+    act("\nalert:$n has arrived.\r", TRUE, ch, 0, 0, TO_ROOM);
 
   /* ... and the room description to the character. */
   if (ch->desc != NULL)
@@ -365,7 +365,7 @@ int perform_move(struct char_data *ch, int dir, int need_specials_check)
       next = k->next;
       if ((IN_ROOM(k->follower) == was_in) &&
 	  (GET_POS(k->follower) >= POS_STANDING)) {
-	act("You follow $N.", FALSE, k->follower, 0, ch, TO_CHAR);
+	act("\nalert:You follow $N.\r", FALSE, k->follower, 0, ch, TO_CHAR);
 	perform_move(k->follower, dir, 1);
       }
     }
@@ -689,9 +689,9 @@ ACMD(do_enter)
             perform_move(ch, door, 1);
             return;
           }
-    send_to_char(ch, "There is no %s here.\r\n", buf);
+    send_to_char(ch, "\nalert:There is no %s here.\r", buf);
   } else if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_INDOORS))
-    send_to_char(ch, "You are already indoors.\r\n");
+    send_to_char(ch, "\nalert:You are already indoors.\r");
   else {
     /* try to locate an entrance */
     for (door = 0; door < DIR_COUNT; door++)
@@ -702,7 +702,7 @@ ACMD(do_enter)
 	    perform_move(ch, door, 1);
 	    return;
 	  }
-    send_to_char(ch, "You can't seem to find anything to enter.\r\n");
+    send_to_char(ch, "\nalert:You can't seem to find anything to enter.\r");
   }
 }
 
@@ -711,7 +711,7 @@ ACMD(do_leave)
   int door;
 
   if (OUTSIDE(ch))
-    send_to_char(ch, "You are outside.. where do you want to go?\r\n");
+    send_to_char(ch, "\nalert:You are outside.. where do you want to go?\r");
   else {
     for (door = 0; door < DIR_COUNT; door++)
       if (EXIT(ch, door))
@@ -721,7 +721,7 @@ ACMD(do_leave)
 	    perform_move(ch, door, 1);
 	    return;
 	  }
-    send_to_char(ch, "I see no obvious exits to the outside.\r\n");
+    send_to_char(ch, "\nalert:I see no obvious exits to the outside.\r");
   }
 }
 
@@ -729,10 +729,10 @@ ACMD(do_stand)
 {
   switch (GET_POS(ch)) {
   case POS_STANDING:
-    send_to_char(ch, "You are already standing.\r\n");
+    send_to_char(ch, "\nalert:You are already standing.\r");
     break;
   case POS_SITTING:
-    send_to_char(ch, "You stand up.\r\n");
+    send_to_char(ch, "\nalert:You stand up.\r");
     act("$n clambers to $s feet.", TRUE, ch, 0, 0, TO_ROOM);
     /* Were they sitting in something? */
     char_from_furniture(ch);
@@ -740,20 +740,20 @@ ACMD(do_stand)
     GET_POS(ch) = FIGHTING(ch) ? POS_FIGHTING : POS_STANDING;
     break;
   case POS_RESTING:
-    send_to_char(ch, "You stop resting, and stand up.\r\n");
+    send_to_char(ch, "\nalert:You stop resting, and stand up.\r");
     act("$n stops resting, and clambers on $s feet.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_STANDING;
     /* Were they sitting in something. */
     char_from_furniture(ch);
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "You have to wake up first!\r\n");
+    send_to_char(ch, "\nalert:You have to wake up first!\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "Do you not consider fighting as standing?\r\n");
+    send_to_char(ch, "\nalert:Do you not consider fighting as standing?\r");
     break;
   default:
-    send_to_char(ch, "You stop floating around, and put your feet on the ground.\r\n");
+    send_to_char(ch, "\nalert:You stop floating around, and put your feet on the ground.\r");
     act("$n stops floating around, and puts $s feet on the ground.",
 	TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_STANDING;
@@ -778,12 +778,12 @@ ACMD(do_sit)
   switch (GET_POS(ch)) {
   case POS_STANDING:
     if (found == 0) {
-      send_to_char(ch, "You sit down.\r\n");
+      send_to_char(ch, "\nalert:You sit down.\r");
       act("$n sits down.", FALSE, ch, 0, 0, TO_ROOM);
       GET_POS(ch) = POS_SITTING;
     } else {
       if (GET_OBJ_TYPE(furniture) != ITEM_FURNITURE) {
-        send_to_char(ch, "You can't sit on that!\r\n");
+        send_to_char(ch, "\nalert:You can't sit on that!\r");
         return;
       } else if (GET_OBJ_VAL(furniture, 1) > GET_OBJ_VAL(furniture, 0)) {
         /* Val 1 is current number sitting, 0 is max in sitting. */
@@ -868,18 +868,18 @@ ACMD(do_sleep)
   case POS_STANDING:
   case POS_SITTING:
   case POS_RESTING:
-    send_to_char(ch, "You go to sleep.\r\n");
+    send_to_char(ch, "\nalert:You go to sleep.\r");
     act("$n lies down and falls asleep.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SLEEPING;
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "You are already sound asleep.\r\n");
+    send_to_char(ch, "\nalert:You are already sound asleep.\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "Sleep while fighting?  Are you MAD?\r\n");
+    send_to_char(ch, "\nalert:Sleep while fighting?  Are you MAD?\r");
     break;
   default:
-    send_to_char(ch, "You stop floating around, and lie down to sleep.\r\n");
+    send_to_char(ch, "\nalert:You stop floating around, and lie down to sleep.\r");
     act("$n stops floating around, and lie down to sleep.",
 	TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SLEEPING;
@@ -896,9 +896,9 @@ ACMD(do_wake)
   one_argument(argument, arg);
   if (*arg) {
     if (GET_POS(ch) == POS_SLEEPING)
-      send_to_char(ch, "Maybe you should wake yourself up first.\r\n");
+      send_to_char(ch, "\nalert:Maybe you should wake yourself up first.\r");
     else if ((vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)) == NULL)
-      send_to_char(ch, "%s", CONFIG_NOPERSON);
+      send_to_char(ch, "\nalert:%s\r", CONFIG_NOPERSON);
     else if (vict == ch)
       self = 1;
     else if (AWAKE(vict))
@@ -918,9 +918,9 @@ ACMD(do_wake)
   if (AFF_FLAGGED(ch, AFF_SLEEP))
     send_to_char(ch, "You can't wake up!\r\n");
   else if (GET_POS(ch) > POS_SLEEPING)
-    send_to_char(ch, "You are already awake...\r\n");
+    send_to_char(ch, "\nalert:You are already awake...\r");
   else {
-    send_to_char(ch, "You awaken, and sit up.\r\n");
+    send_to_char(ch, "\nalert:You awaken, and sit up.\r");
     act("$n awakens.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
   }
@@ -935,12 +935,12 @@ ACMD(do_follow)
 
   if (*buf) {
     if (!(leader = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM))) {
-      send_to_char(ch, "%s", CONFIG_NOPERSON);
+      send_to_char(ch, "\nalert:%s\r", CONFIG_NOPERSON);
       return;
     }
   } else {
     if (ch->master != (char_data*)  NULL) {
-      send_to_char(ch, "You are following %s.\r\n",
+      send_to_char(ch, "\nalert:You are following %s.\r",
          GET_NAME(ch->master));
     } else {
       send_to_char(ch, "Whom do you wish to follow?\r\n");
@@ -957,13 +957,13 @@ ACMD(do_follow)
   } else {			/* Not Charmed follow person */
     if (leader == ch) {
       if (!ch->master) {
-        send_to_char(ch, "You are already following yourself.\r\n");
+        send_to_char(ch, "\nalert:You are already following yourself.\r");
         return;
       }
       stop_follower(ch);
     } else {
       if (circle_follow(ch, leader)) {
-        send_to_char(ch, "Sorry, but following in loops is not allowed.\r\n");
+        send_to_char(ch, "\nalert:Sorry, but following in loops is not allowed.\r");
         return;
       }
       if (ch->master)
@@ -978,13 +978,13 @@ ACMD(do_unfollow)
 {
   if (ch->master) {
     if (AFF_FLAGGED(ch, AFF_CHARM)) {
-       send_to_char(ch, "You feel compelled to follow %s.\r\n",
+       send_to_char(ch, "\nalert:You feel compelled to follow %s.\r",
          GET_NAME(ch->master));
     } else {
       stop_follower(ch);
     }
   } else {
-    send_to_char(ch, "You are not following anyone.\r\n");
+    send_to_char(ch, "\nalert:You are not following anyone.\r");
   }
   return;
 }
