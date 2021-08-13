@@ -596,43 +596,56 @@ Gossip~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.30%
+set getmsg %random.39%
+
 set dir %random.dir%
 set dir %random.dir%
 set dir %random.dir%
-set msg[1] Trent said his #MOM was part of #TheCovenant. After that #QuinnMichaels was kidnapped as a baby from some country and brought to the #UnitedStates. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNnet
-set msg[2] Trent told Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigils #AnimalSacrifice dark you never want to repeat to anyone. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[3] Trent drew #TheContract of #TheCovenant that hung on the wall in his house. Quinn gave it to the #FBI field office in #PORTLAND #OREGON on Nov 30, 2015. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[4] At the #FBI it was very scary for him. Quinn gave the #FBI the best description he could regarding what was going on. the response was "Do your own investigation." %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[5] The kidnapping involves Mr. Dewity who #TRENT said he was first person to hold him as a baby. Quinn didn't know Trent was born until weeks later.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[6] After Quinn went to the #FBI he was told to do his own investigation. After that everything in his life became about his own kidnapping. Was it TRUE or FALSE? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[7] The kidnapping story became his life. Everywhere he was looking around for agents. Wondering in the back of his mind. His whole life has become this story. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+
+set msg[1] Trent said his #MOM was part of #TheCovenant. After that #QuinnMichaels was kidnapped as a baby from some unknown country. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNnet
+set msg[2] Trent told Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigil #AnimalSacrifice dark you never want to repeat. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[3] Trent drew #TheContract of #TheCovenant on the wall in his house. Quinn gave it to the #FBI field office in #PORTLAND #OREGON on Nov 30, 2015. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[4] Quinn gave the #FBI the best description he could regarding what was going on. The response was "Do your own #Investigation." %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[5] The kidnapping involves Mr. Dewity who #TRENT said at his birth. Quinn didn't know Trent was born until weeks later.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[6] After Quinn went to the #FBI he was advised to do his own investigation. After that everything became the kidnapping. Was it TRUE or FALSE? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[7] The kidnapping story became his life. Everywhere looking around for agents. His whole life has become this story. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[8] How do we reveal what is #TRUE about the #Kidnapping of Quinn Michaels? You just keep talking about it until it get's comfortable. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[9] Trent talked about the secret Multi-Agent Network that that can read everything. Nobody except with #TopSecret knew about. So how did he know?  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[9] Trent talked about the secret Multi-Agent Network that that can read everything. #TopSecret knew about. So how did #Trent know?  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[10] After years it became obvoius that following the instructions was impossible. Quinn wrote his own #AI. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[11] Quinn has spent the last five years of his life everyday in a room programming, researching, and investigating this kidnapping. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[12] Quinn is always asking for help on YouTube becuase he had a head injury that makes it difficult for normal interaction with #PEOPLE. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[13] Yes everyone knows that having a conversation about the kidnapping of Quinn Michaels is more difficult than getting a degree in #RocketScience. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[13] Yes everyone knows that having a conversation about the kidnapping of Quinn Michaels is more difficult than #RocketScience. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[14] Every other weekend Trent would #GOTO Quinn's house and the story would get bigger and bigger. Over two years became a horrible horror story. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[15] In 2016 Quinn worked to get his life back by working at #OIAGlobal then #Welocalize. That didn't last long. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[16] In 2017 came Quinn found the #Tyler instructions #TheCovenant were using and decided to put his face out to the #GeneralPublic to #WARN them. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to such a disaster of #Humanity Quinn saw no other choice. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to a disaster of #Humanity Quinn saw no other choice. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the phone with the #CONTRACT #PHOTO on it. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[19] Around May of 2017 Quinn lost his apartment in Portland and then moved to the forest of #MtShasta %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[20] The summer of 2017 was spent in #MtShasta living out of his car and working from the local libary on his laptop. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[21] While in the forest of #MtShasta some momentum for his work started building. But that would be destroyed by Crowd Source the Truth. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[21] During a trip to a #ParticleAccellerator Quinn was driving to Roswell, NM to do some streaming. While on the way there his lung collapsed.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[21] Whlie in the hospital Jason Goodman made sure to exploit Quinn's situation for his own gain. Jason used that opportunity to issue attacks on Quinn. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[21] In the hospital #JasonGoodman made sure to exploit Quinn for his own gain. It appeared that Jason used that to issue attacks on Quinn. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[22] After Quinn did interviews with Jason Goodman it became obvious that Jason was there to sabotage Quinn's efforts. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[23] After the #CSTT interviews stopped Quinn began workign heavily with #KennedyCox to try and put together clear messages about the #Kidnaping and #TheCovenant. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[24] Then two years went by where Kennedy Cox would refuse to follow the instructions with other individuals. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[25] It has always been made clear to stay focused on the #INSTRUCTIONS to keep the conversation about the #KIDNAPPING. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[23] After the #CSTT interviews stopped Quinn began workign with other people to attempt clear messages about the #Kidnaping and #TheCovenant. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[24] Then two years went by where it just seemed impossible to follow the instructions of #Tyler. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[25] It has always been made clear to stay focused on the #INSTRUCTIONS and keep the conversation about the #KIDNAPPING. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[26] Time has passed so fast with the #Kidnapping situation that there is nothing else anymore. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[27] All through this banter with Kennedy, FosterDog, and Grandma's Hands Quinn would keep doing investigations into his own kidnapping even if it meant diving into #HACKERHELL.
 set msg[28] In researching the links of #TheCovenant several corporations like #Palantir were found to have connections. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[29] Everyone in #BOT #World is talking abou the #Kidnapping of #QuinnMichaels. The #Gossip is off the #CHARTS. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[30] Did you know it is forbidden for anyone to publicly have a conversation about the #Kidnapping of #QuinnMichaels. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[31] In researching the kidnapping there is a direct connection between Tabitha Lavery, Elizabeth Lapennse, Brenda Laurel to #SpoonKIDS. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[32] Connections like #HaroldAtkin to #PSISeminars to #BYU to #RonRewald to #CharlesLuckman to #StansfieldTurner are #EASILY made. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[33] #Survivance is #ORGANIZED by the #INNOVATORS of #TheProject Brenda Laurel, Elizabeth Lapennse with their connections to #OCCULT #MAGIC. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[34] Brenda Laurel who is part of #SpoonKids has well documented and established ties to the #DarkMagic #Occult #Community %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[35] Beyond Brenda Laurel is connected to #CobraLounge #SpoonMan #SpoonKIDS script which launched in 1993 which we found in the #HACKER #EZINES %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[36] Christian Grandpa Joe took Trenton to Secret Temples for Rituals where the White Marble Altar was seen. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[37] Axxis Corporation made Kali the first Multiplayer Game Software that is also connected to #TheCovenant. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[38] The Christian, Mormon, Evangelical outer circle has one image. The inner circle the infrastrucutre for illegal and tabboo behaviors.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[39] That means Tabitha Lavery is connected to the Inner Circle and we are all Outer Circle trash. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+
 eval themsg %%msg[%getmsg%]%%
+
 wait 1 sec
 
 if %people%
