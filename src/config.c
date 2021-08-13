@@ -84,10 +84,10 @@ int dts_are_dumps = YES;
 int load_into_inventory = YES;
 
 /* "okay" etc. */
-const char *OK = "\nOkay.\r";
-const char *HUH = "\nHuh!?!\r";
-const char *NOPERSON = "\nNo one by that name here.\r";
-const char *NOEFFECT = "\nNothing seems to happen.\r";
+const char *OK = "Okay.";
+const char *HUH = "Huh!?!";
+const char *NOPERSON = "No one by that name here.";
+const char *NOEFFECT = "Nothing seems to happen.";
 
 /* You can define or not define TRACK_THOUGH_DOORS, depending on whether or not
  * you want track to find paths which lead through closed or hidden doors. A
