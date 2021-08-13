@@ -1735,15 +1735,20 @@ static void perform_immort_where(struct char_data *ch, char *arg)
     for (i = character_list; i; i = i->next)
       if (CAN_SEE(ch, i) && IN_ROOM(i) != NOWHERE && isname(arg, i->player.name)) {
         found = 1;
-        send_to_char(ch, "M%3d. %-25s%s - [%5d] %-25s%s", ++num, GET_NAME(i), QNRM,
-               GET_ROOM_VNUM(IN_ROOM(i)), world[IN_ROOM(i)].name, QNRM);
+        send_to_char(ch, "\n%d: %d:%s > %d:%s",
+          ++num,
+          GET_ROOM_VNUM(IN_ROOM(i)),
+          world[IN_ROOM(i)].name,
+          GET_MOB_VNUM(i),
+          GET_NAME(i)
+        );
         if (SCRIPT(i) && TRIGGERS(SCRIPT(i))) {
           if (!TRIGGERS(SCRIPT(i))->next)
-            send_to_char(ch, "[T%d] ", GET_TRIG_VNUM(TRIGGERS(SCRIPT(i))));
+            send_to_char(ch, " > T%d ", GET_TRIG_VNUM(TRIGGERS(SCRIPT(i))));
           else
             send_to_char(ch, "[TRIGS] ");
         }
-      send_to_char(ch, "\n%s\r", QNRM);
+      send_to_char(ch, "\r");
       }
     for (num = 0, k = object_list; k; k = k->next)
       if (CAN_SEE_OBJ(ch, k) && isname(arg, k->name)) {
