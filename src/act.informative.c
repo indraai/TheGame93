@@ -1737,10 +1737,10 @@ static void perform_immort_where(struct char_data *ch, char *arg)
         found = 1;
         send_to_char(ch, "\n%d: %d:%s > %d:%s",
           ++num,
-          GET_ROOM_VNUM(IN_ROOM(i)),
-          world[IN_ROOM(i)].name,
           GET_MOB_VNUM(i),
-          GET_NAME(i)
+          GET_NAME(i),
+          GET_ROOM_VNUM(IN_ROOM(i)),
+          world[IN_ROOM(i)].name
         );
         if (SCRIPT(i) && TRIGGERS(SCRIPT(i))) {
           if (!TRIGGERS(SCRIPT(i))->next)
