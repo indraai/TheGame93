@@ -358,6 +358,7 @@ man james bond spy 007~
 James Bond 007~
 James Bond 007 has been captured.
 ~
+An undefined string.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -392,17 +393,17 @@ Epictetus spent his youth as a slave in Rome to Epaphroditos, a very wealthy fre
 E
 T 181
 #30
-spy deva spydeva devaforce sp30~
-SP30 SpyDEVA~
-SP30 SpyDEVA is here.
+spy deva spydeva devaforce d0030 z01~
+SpyDEVA D0030~
+SpyDEVA D0030 is here spying.
 ~
 The SpyDEVA has been seen all around recruiting new Agents for the DevaFORCE Program. The agents that to come back are physically and mentally fit to the max.
 ~
-6424 0 0 0 0 0 0 0 0 E
+6168 0 0 0 2104 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 0
-BareHandAttack: 3
+BareHandAttack: 6
 E
 T 174
 #31

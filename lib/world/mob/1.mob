@@ -390,20 +390,20 @@ rather see dead?  Just ask this guy for some help.
 8 8 1
 E
 #127
-warrior guildguard~
-the warrior~
-A warrior is guarding a set of stairs in the back.
+guard deva guarddeva devaforce d0127~
+GuardDEVA D0127~
+GuardDEVA D0127 is on guard here.
 ~
    Years of training and experience have molded this middle-aged man into a
 fighting machine, only a fool would ever try to kill someone with as much skill
 as this man.  Then again, fools are born everyday.
 ~
-256010 0 0 0 80 0 0 0 800 E
+256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 0
+BareHandAttack: 9
 E
-T 133
 #128
 red magi~
 the Red Magi~

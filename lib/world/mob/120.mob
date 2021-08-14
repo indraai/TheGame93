@@ -195,9 +195,9 @@ way so that he can sell tickets to people that actually want them.
 8 8 1
 E
 #12016
-vendor~
-the stadium vendor~
-A stadium vendor is walking here, selling overpriced hotdogs and beer.
+service deva servicedeva d12016~
+ServiceDEVA D12016~
+ServiceDEVA D12016 is here offering snacks and drinks.
 ~
    The vendor is a scruffy looking man who isn't afraid of a fight and looks
 like he has had just about enough of smart-mouthed spectators.
