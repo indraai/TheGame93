@@ -185,10 +185,6 @@ D4
 S
 #208
 The Northern Temple Circle~
-   The road ahead is long, and an intersection can be seen up ahead to the east.
-It looks like it leads into the temple.  The smell of some sort of vile
-concoction emanates from a building to the south.  The sound of someone chanting
-can be heard coming from within.
 ~
 2 0 0 0 0 1
 D1
@@ -249,11 +245,6 @@ S
 T 3106
 #211
 The Northern Temple Circle~
-   An intersection can be seen just ahead to the west.  Its leading directly
-into the Temple of The Dome.  The road continues to the east and west.  To the
-south is a building with barred windows and a reinforced door that currently
-stands open.  A sign above the door informs passing people that it is The Bank
-of The Dome.
 ~
 2 0 0 0 0 1
 D1
@@ -436,10 +427,6 @@ D2
 S
 #221
 Lotions and Potions~
-   A foul smelling yellow mist hugs the floor.  Billowing around the floor as
-one works their way to the counter.  Several kettles are boiling over woodless
-fires that put off no smoke.  The yellow fog overflows the top of one of the
-kettles, giving the room an awful aroma.
 ~
 2 8 0 0 0 1
 D0
@@ -474,10 +461,6 @@ D2
 S
 #224
 Bank of The Dome~
-   A man dressed in rich clothes and wearing a set of spectacles appears to be
-tediously counting a few thousand coins spread out on the table before him.
-This bank is well known for the security it enforces to ensure safe storage of
-the cities gold.
 ~
 2 8 0 0 0 1
 D0
