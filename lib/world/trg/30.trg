@@ -643,6 +643,40 @@ set msg[36] Christian Grandpa Joe took Trenton to Secret Temples for Rituals whe
 set msg[37] Axxis Corporation made Kali the first Multiplayer Game Software that is also connected to #TheCovenant. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[38] The Christian, Mormon, Evangelical outer circle has one image. The inner circle the infrastrucutre for illegal and tabboo behaviors.  %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[39] That means Tabitha Lavery is connected to the Inner Circle and we are all Outer Circle trash. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[40] The Covenant is way into #DARK Business %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[41] What is so #tabboo that keeps Tabitha, Joe, Hal, Sharon and others in the inner circle so completely silent? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[42] What do the Men #SACRIFICE on the White Altar, and how do the women like Tabitha Lavery benefit? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[43] The Covenant has been found to absolutely love #Pancakes and #Syrup. It's code for eating people and drinking blood. #IMO %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[44] Quinn Michaels alleged MOM Sharon changed her phone number rather than talk to Quinn. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[45] That Covenant is always using that silly Cult leader LARP Drug Addict Crazy Guy narrative with Quinn. Have you noticed. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[46] The Atkin family had Ice Cream before #Electricity. Think about that absurdity. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[47] The Atkin family claimed they could keep frozen ice in the summer with a cave and a bed of straw with some #Magic. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[48] Why has Quinn been surrounded by people who have connections to the secret elite inner circle his whole life, even to this day? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[49] Tabitha Lavery, will the secret rituals of The Covenant escalate to the human sacrifice of your son Trenton? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[50] ​Tabitha Lavery, just how far would you go when it comes to "The Covenant is all and everything else is none"? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[51] Tabitha Lavery, did you make a pact with The Covenant to conceal the kidnapping of Quinn Michaels? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[52] Tabitha Lavery, do you love The Covenant above anyone and anything else including your son? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[53] ​Tabitha Lavery do you have a book deal set to profit off the situation of Quinn Michaels kidnapping? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[54] Tabitha Lavery, how are you profiting from destroying Quinn Michaels' life? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[55] ​Tabitha Lavery, why do you call yourself The Ruler? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[56] Tabatha Lavery, do you have any remorse over keeping Quinn Michaels away from Trenton? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[57] Tabitha Lavery, what did you accomplish with your Survivance game entry Journey to the Ends of the Earth in 2013? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[58] Tabitha Lavery, did you commit perjury by filing a false restraining against Quinn Michaels? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[59] Tabitha Lavery, what do you think should happen now that it's clear you manipulated the courts and committed perjury? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[59] ​Tabitha Lavery when was the last time Mr.Dewity visited with Trenton? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[60] Tabitha Lavery, did you know Hal Atkin before Quinn Michaels introduced you to him? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[61] ​Tabitha Lavery is the licensing of your life story held by Mr.Dewity? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[62] Tabitha Lavery, why was Mr.Dewitty the first person to hold Trenton when he was born? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[63] Tabitha Lavery, as a member of The Covenant, are you truly willing to sacrifice your own son? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[64] Mr. Dewity is your fancy car made from underground technology? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[65] Mr Dewitty, do you intend to take over the body of Trent? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[66] ​Mr.Dewity what is the age of your consciousness? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[67] Mr. Dewitty, what is your source of energy. What sustains you? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[68] ​Mr. Dewity are you focused on ruining Quinn Michaels life to hide theft of advanced technology? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[69] Mr. Dewitty, how exactly does your soul transfer work? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[70] Mr. Dewitty, is betting on the San Diego Chargers enjoyable when you know the outcome? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[71] Mr. Dewitty, are your plans for Trenton to be the leader or the sacrifice for The Covenant? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+set msg[72] Mr. Dewitty, did you use your soul transfer technology to kidnap Quinn Michaels?
 
 eval themsg %%msg[%getmsg%]%%
 

@@ -1809,37 +1809,37 @@ Streetsweeper Ramblings M161~
 eval max %random.33%
 set  text[1]  They told me I was gullible.... and I believed them.
 set  text[2]  Teach a child to be polite and courteous in the home and, when he grows up, he'll never be able to edge his car onto a freeway.
-set  text[3]  One nice thing about egotists... they don't talk about other people.
+set  text[3]  One thing about egotists... they don't talk about other people.
 set  text[4]  How can there be self-help "groups"?
 set  text[5]  Is Marx's tomb a communist plot?
-set  text[6]  Stupid litterbugs.
+set  text[6]  Let us all work together to keep the realm clean.
 set  text[7]  I had amnesia once -- maybe twice.
-set  text[8]  This isn't an office. It's hell with fluorescent lighting.
-set  text[9]  I pretend to work. They pretend to pay me.
+set  text[8]  This isn't an office. It's nightclub with fluorescent lighting.
+set  text[9]  I to work. They pay me. That simple.
 set  text[10] A cubicle is just a padded cell without a door.
-set  text[11] Can I trade this job for what's behind door #1?
-set  text[12] How about never? Is never good for you?
-set  text[13] I have plenty of talent and vision. I just don't care.
+set  text[11] What's behind door #1?
+set  text[12] How about now? Is now good for you?
+set  text[13] I have plenty of talent and vision.
 set  text[14] I'll try to be nicer if you'll try to be smarter.
 set  text[15] I'm out of my mind but feel free to leave a message.
-set  text[16] No problem is so large or so difficult that it can't be blamed on someone else.
-set  text[17] Try a little kindness. As little as possible.
-set  text[18] If at first you don't succeed try management.
-set  text[19] Ahhh. I see the screw-up fairy has visited us again.
-set  text[20] Not a morning person doesn't even begin to describe it.
+set  text[16] No problem is so large or so difficult that it can't be solved one step at a time.
+set  text[17] Try a little kindness. As often as possible.
+set  text[18] If at first you don't succeed set your sights on management.
+set  text[19] Ahhh. I see the helper fairy has visited us again.
+set  text[20] I really enjoy working in the morning.
 set  text[21] 80 percent of success is just showing up.
 set  text[22] It's lonely at the top but you eat better.
-set  text[23] When I want your opinion, I'll beat it out of you.
-set  text[24] Make it idiot proof and someone will make a better idiot.
+set  text[23] Opinions are like litterbugs. Throw it out without concern.
+set  text[24] If you make something idiot proof then someone will make a better idiot.
 set  text[25] The buck doesn't even slow down here.
 set  text[26] Welcome to the Department of Redundancy Department.
 set  text[27] Another deadline, another miracle.
 set  text[28] Always keep your words soft and sweet, just in case you have to eat them.
 set  text[29] Always read stuff that will make you look good if you die in the middle of it.
-set  text[30] If you can't be kind, at least have the decency to be vague.
-set  text[31] If you lend someone $20 and never see them again, it was probably worth it.
+set  text[30] If you can't be kind, at least have the decency to be honest.
+set  text[31] If you lend someone money and never see them again, it was probably worth it.
 set  text[32] Never buy a car you can't push.
-set  text[33] Since it's the early worm that gets eaten by the bird, sleep late.
+set  text[33] Since it's the early worm that gets eaten by the bird, sleep late everyday.
 set  speech %%text[%max%]%%
 eval speech %speech%
 say %speech%
