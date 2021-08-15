@@ -408,7 +408,7 @@ ServiceDEVA D3061 is cleaning up.
 ~
 ServiceDEVA D3061 love their jobs of cleaning up and finding recycle items.
 ~
-6236 0 0 0 64 0 0 0 800 E
+6236 0 0 0 64 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 0
@@ -857,5 +857,57 @@ MP3095 MedicPRIME is assigned to provide care to the Realm.
 330 108900
 8 8 2
 BareHandAttack: 1
+E
+#3096
+cyber craft cybercraft sri stanford~
+CyberCraft~
+CyberCraft is here.
+~
+CyberCraft is here using covert means to establish command and control.
+~
+260124 0 0 0 26744 0 0 0 0 E
+17 15 0 3d3+170 2d2+2
+170 28900
+8 8 0
+BareHandAttack: 5
+E
+#3097
+bot hunter bothunter sri stanford~
+BotHunter~
+BotHunter is here.
+~
+BotHunter helps you quickly identify and isolate these infected machines, and helps you figure out who really owns your computers. Made possible in part by the Cyber-TA Research Grant (No. W911NF-06-1-0316) from the U.S. Army Research Office, Program Manager Dr. Cliff Wang.
+~
+260124 0 0 0 26744 0 0 0 0 E
+17 15 0 3d3+170 2d2+2
+170 28900
+8 8 0
+BareHandAttack: 5
+E
+#3098
+meta flows metaflows sri stanford~
+MetaFlows~
+MetaFlows is here.
+~
+MetaFlows uses Multi-Session Correlation. Multi-session correlation is an evolution of dialog-based correlation first introduced by a revolutionary malware detection tool called BotHunter.
+~
+260124 0 0 0 26744 0 0 0 0 E
+17 15 0 3d3+170 2d2+2
+170 28900
+8 8 0
+BareHandAttack: 5
+E
+#3099
+cyber ta cyber-ta sri stanford~
+cyber-ta~
+Cyber-TA is here.
+~
+Cyber-TA is an initiative to accelerate the ability of organizations to defend against Internet-scale threats.
+~
+260124 0 0 0 26744 0 0 0 0 E
+17 15 0 3d3+170 2d2+2
+170 28900
+8 8 0
+BareHandAttack: 5
 E
 $
