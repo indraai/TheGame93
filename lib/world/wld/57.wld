@@ -77,7 +77,7 @@ Leo's Den~
 The stench of rotting meat greets your nostrils, escape seems like your only
 option at this point in time.  There are exits going down and east.
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
@@ -94,7 +94,7 @@ messed with.  The tracks that were on the floor earlier start here again,
 covered in faeces.  Whatever walked through here must be regretting it now
 because its feet must really reek...
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D2
 Nothing.
 ~
@@ -111,7 +111,7 @@ Aries Shearing Shed~
 smell of faeces eminates from a large bucket in the corner.  The ground slopes
 away sharply to the east, it looks like it falls away altogether.
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D0
 ~
 Crystal door~
@@ -130,6 +130,7 @@ D3
 ~
 0 0 5709
 S
+T 3106
 #5707
 Abyss of Death~
    @n
@@ -146,9 +147,12 @@ D
    N
 Too bad, you seem to have fallen into a never ending abyss.
 ~
-57 4 0 0 0 0
+57 0 0 0 0 0
+D3
+~
+~
+0 0 5706
 S
-T 5799
 #5708
 The Hallway~
    Like the entrance, this hallway the animal tracks continue through here, they have three claws, two of
@@ -172,7 +176,7 @@ been piled neatly into a corner.  There is a door leading into a room out back,
 it is really dark in there and there are strange noises eminating from inside.
 It sounds like a kind of grunting noise, could it be the Bear?
 ~
-57 2056 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
@@ -433,13 +437,13 @@ D4
 ~
 0 0 5724
 E
-bones~
-   These bones are mostly crushed and powdered but most of them look human...
-~
-E
 tracks~
    These tracks are insect like and very large.  Whatever made these must be
 huge.
+~
+E
+bones~
+   These bones are mostly crushed and powdered but most of them look human...
 ~
 S
 #5724
@@ -512,12 +516,12 @@ The sap is dribbling down the trunk forming a pool at the base of the tree.
 ~
 0 0 5731
 E
-eyes~
-   The eyes are small and beady, they look evil.
-~
-E
 ladder~
    Sap oozes down this ladder forming a sticky covering.
+~
+E
+eyes~
+   The eyes are small and beady, they look evil.
 ~
 S
 #5728
