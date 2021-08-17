@@ -1,28 +1,10 @@
 #5700
 Entrance to the Zodiac~
-   Welcome Everyone, this is my first zone.
-Builder      : Gatia
-Zone         : 57 Zodiac
-Began        : 2001
-Player Level : 10-14
-Rooms        : 37
-Mobs         : 15
-Objects      : 7
-Shops        : 1
-Triggers     : 5
-Theme        :
-Plot         : This zone features the signs of the zodiac plus a few other
-               little things.
-Links        :
 ~
 57 512 0 0 0 0
 S
 #5701
 Gemini's Hideaway~
-   This appears to be a room belonging to the starsign Gemini (the twins) each
-possession has a double, probably so they each have their own things.  One of
-the twins doesn't seem to be here right now.  The tracks continue through here
-and so does the tail mark even though they are faint and hard to see.
 ~
 57 40 0 0 0 0
 D1
@@ -35,15 +17,11 @@ Wooden door~
 1 0 5708
 E
 tracks~
-   The tracks are hard to read on this polished floor and would probably be
-unreadable if not for the traces of foot prints.
+adv:world:5701/tracks
 ~
 S
 #5702
 Pisces Lagoon~
-   A pool of acid lies in the middle of the floor here, ripples are being
-formed by something that is gliding below the surface, wait, TWO THINGS!!!
-This is starting to get a little scary, you had better move on...
 ~
 57 9 0 0 0 0
 D2
@@ -57,9 +35,6 @@ Iron door~
 S
 #5703
 Chamber of Aquarius~
-   A Large Fountain is the main point of focus for this room, it is the sort of
-thing people see in museums.  Looking closely there is a partially hidden
-stairwell leading up.
 ~
 57 8 0 0 0 0
 D0
@@ -73,9 +48,6 @@ Wood door~
 S
 #5704
 Leo's Den~
-   This room STINKS!  It looks as if it has never been cleaned in its life.
-The stench of rotting meat greets your nostrils, escape seems like your only
-option at this point in time.  There are exits going down and east.
 ~
 57 9 0 0 0 0
 D1
@@ -89,10 +61,6 @@ D5
 S
 #5705
 Taurus's Pen~
-   This is the stable of Taurus.  He is an aggresive star sign and should not be
-messed with.  The tracks that were on the floor earlier start here again,
-covered in faeces.  Whatever walked through here must be regretting it now
-because its feet must really reek...
 ~
 57 9 0 0 0 0
 D2
@@ -107,9 +75,6 @@ D3
 S
 #5706
 Aries Shearing Shed~
-   This shed belongs to Aries the Ram.  Fleece lies all over the floor and the
-smell of faeces eminates from a large bucket in the corner.  The ground slopes
-away sharply to the east, it looks like it falls away altogether.
 ~
 57 9 0 0 0 0
 D0
@@ -132,28 +97,12 @@ D3
 S
 #5707
 Abyss of Death~
-   @n
-F
- A
-  L
-   L
-    I
-     N
-      G
-D
- O
-  W
-   N
-Too bad, you seem to have fallen into a never ending abyss.
 ~
 57 4 0 0 0 0
 S
 T 5799
 #5708
 The Hallway~
-   Like the entrance, this hallway the animal tracks continue through here, they have three claws, two of
-which are to the front and one to the rear. A long mark has been etched into
-the roof.
 ~
 57 8 0 0 0 0
 D0
@@ -162,15 +111,11 @@ D0
 0 0 5701
 E
 mark~
-   This appears to be a long tail mark scraped into the roof.
+adv:world:5708/mark
 ~
 S
 #5709
 Ursa's Den~
-   This is the room of Ursa Major, it is a typical bear cave except stuff has
-been piled neatly into a corner.  There is a door leading into a room out back,
-it is really dark in there and there are strange noises eminating from inside.
-It sounds like a kind of grunting noise, could it be the Bear?
 ~
 57 2056 0 0 0 0
 D1
@@ -184,12 +129,6 @@ D3
 S
 #5710
 Sagittarius' Temple of Weapons~
-   This Temple has weapons lining the walls, possibly every weapon available.
-Near the far end of this horrific place stands an altar, and on that altar is
-enscribed an archer.  It looks to have the lowerbody of a horse and the torso
-of a man.  With sudden realisation you see that is a Centaur!  These creatures
-are rarely seen in the wild because they favor seclusion.  The most famous of
-these would definitely be Sagittarius the 9th sign of the zodiac.
 ~
 57 8 0 0 0 0
 D0
@@ -207,10 +146,6 @@ D3
 S
 #5711
 Yet Another Hallway~
-   This is another hallway, the tracks that were on the floor earlier are faint
-but still readable.  Following the tracks is a small trail, or what
-looks like tracks.  It's a bit darker than most tracks you've seen as it has more
-black in it.  Could this be a trap?
 ~
 57 0 0 0 0 0
 D0
@@ -226,10 +161,6 @@ Ornate wooden door~
 S
 #5712
 Cancer's Hole~
-   This is the hole of Cancer.  Cancer is the 4th sign of the Zodiac and is a
-very aggressive carnivore.  She is represented by a crab and her pincers are
-extremely deadly, so deadly they could cut a persons head off by merely running
-them along a persons neck.  Be warned, this is a place of death.
 ~
 57 9 0 0 0 0
 D1
@@ -239,10 +170,6 @@ D1
 S
 #5713
 ZodiaShop~
-   This is where you may buy the items of the Zodiac.  The shopkeeper is a
-stubbornn fellow and rather fat, he is usually seen with his head on the
-counter drooling over Starsigns like Virgo and the female Gemini twin.  Most
-classify him as weird.
 ~
 57 0 0 0 0 0
 D3
