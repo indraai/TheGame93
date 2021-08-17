@@ -49,7 +49,7 @@ S
 #5704
 Leo's Den~
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
@@ -62,7 +62,7 @@ S
 #5705
 Taurus's Pen~
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D2
 Nothing.
 ~
@@ -76,7 +76,7 @@ S
 #5706
 Aries Shearing Shed~
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D0
 ~
 Crystal door~
@@ -95,12 +95,16 @@ D3
 ~
 0 0 5709
 S
+T 3106
 #5707
 Abyss of Death~
 ~
-57 4 0 0 0 0
+57 0 0 0 0 0
+D3
+~
+~
+0 0 5706
 S
-T 5799
 #5708
 The Hallway~
 ~
@@ -117,7 +121,7 @@ S
 #5709
 Ursa's Den~
 ~
-57 2056 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
@@ -360,13 +364,13 @@ D4
 ~
 0 0 5724
 E
-bones~
-   These bones are mostly crushed and powdered but most of them look human...
-~
-E
 tracks~
    These tracks are insect like and very large.  Whatever made these must be
 huge.
+~
+E
+bones~
+   These bones are mostly crushed and powdered but most of them look human...
 ~
 S
 #5724
@@ -439,12 +443,12 @@ The sap is dribbling down the trunk forming a pool at the base of the tree.
 ~
 0 0 5731
 E
-eyes~
-   The eyes are small and beady, they look evil.
-~
-E
 ladder~
    Sap oozes down this ladder forming a sticky covering.
+~
+E
+eyes~
+   The eyes are small and beady, they look evil.
 ~
 S
 #5728
