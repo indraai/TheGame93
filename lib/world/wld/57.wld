@@ -18,13 +18,13 @@ Links        :
 57 512 0 0 0 0
 S
 #5701
-Gemini's Hideaway~
+Temple of Gemini~
    This appears to be a room belonging to the starsign Gemini (the twins) each
 possession has a double, probably so they each have their own things.  One of
 the twins doesn't seem to be here right now.  The tracks continue through here
 and so does the tail mark even though they are faint and hard to see.
 ~
-57 40 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 Iron door~
@@ -40,12 +40,12 @@ unreadable if not for the traces of foot prints.
 ~
 S
 #5702
-Pisces Lagoon~
+Temple of Pisces~
    A pool of acid lies in the middle of the floor here, ripples are being
 formed by something that is gliding below the surface, wait, TWO THINGS!!!
 This is starting to get a little scary, you had better move on...
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D2
 ~
 <NONE>~
@@ -56,7 +56,7 @@ Iron door~
 1 0 5701
 S
 #5703
-Chamber of Aquarius~
+Temple of Acquarius~
    A Large Fountain is the main point of focus for this room, it is the sort of
 thing people see in museums.  Looking closely there is a partially hidden
 stairwell leading up.
@@ -72,12 +72,12 @@ Wood door~
 1 0 5704
 S
 #5704
-Leo's Den~
+Temple of Leo~
    This room STINKS!  It looks as if it has never been cleaned in its life.
 The stench of rotting meat greets your nostrils, escape seems like your only
 option at this point in time.  There are exits going down and east.
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
@@ -88,13 +88,13 @@ D5
 0 0 5703
 S
 #5705
-Taurus's Pen~
+Temple of Taurus~
    This is the stable of Taurus.  He is an aggresive star sign and should not be
 messed with.  The tracks that were on the floor earlier start here again,
 covered in faeces.  Whatever walked through here must be regretting it now
 because its feet must really reek...
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D2
 Nothing.
 ~
@@ -106,12 +106,12 @@ D3
 0 0 5704
 S
 #5706
-Aries Shearing Shed~
+Temple of Aries~
    This shed belongs to Aries the Ram.  Fleece lies all over the floor and the
 smell of faeces eminates from a large bucket in the corner.  The ground slopes
 away sharply to the east, it looks like it falls away altogether.
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D0
 ~
 Crystal door~
@@ -150,7 +150,7 @@ Too bad, you seem to have fallen into a never ending abyss.
 S
 T 5799
 #5708
-The Hallway~
+Hallway~
    Like the entrance, this hallway the animal tracks continue through here, they have three claws, two of
 which are to the front and one to the rear. A long mark has been etched into
 the roof.
@@ -172,7 +172,7 @@ been piled neatly into a corner.  There is a door leading into a room out back,
 it is really dark in there and there are strange noises eminating from inside.
 It sounds like a kind of grunting noise, could it be the Bear?
 ~
-57 2056 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
@@ -183,7 +183,7 @@ D3
 0 0 5712
 S
 #5710
-Sagittarius' Temple of Weapons~
+Temple of Sagittarius~
    This Temple has weapons lining the walls, possibly every weapon available.
 Near the far end of this horrific place stands an altar, and on that altar is
 enscribed an archer.  It looks to have the lowerbody of a horse and the torso
@@ -206,7 +206,7 @@ D3
 0 0 5714
 S
 #5711
-Yet Another Hallway~
+Hallway~
    This is another hallway, the tracks that were on the floor earlier are faint
 but still readable.  Following the tracks is a small trail, or what
 looks like tracks.  It's a bit darker than most tracks you've seen as it has more
@@ -225,33 +225,33 @@ Ornate wooden door~
 2 0 5703
 S
 #5712
-Cancer's Hole~
+Temple of Cancer~
    This is the hole of Cancer.  Cancer is the 4th sign of the Zodiac and is a
 very aggressive carnivore.  She is represented by a crab and her pincers are
 extremely deadly, so deadly they could cut a persons head off by merely running
 them along a persons neck.  Be warned, this is a place of death.
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D1
 ~
 ~
 0 0 5709
 S
 #5713
-ZodiaShop~
+Zodiac Shop~
    This is where you may buy the items of the Zodiac.  The shopkeeper is a
 stubbornn fellow and rather fat, he is usually seen with his head on the
 counter drooling over Starsigns like Virgo and the female Gemini twin.  Most
 classify him as weird.
 ~
-57 0 0 0 0 0
+57 8 0 0 0 0
 D3
 ~
 ~
 0 0 5710
 S
 #5714
-Virgos' Bedroom~
+Temple of Virgo~
    This bedroom is lavishly furnished.  Almost everything is blue and gold but
 there are also hints of red and orange.  All the metal work is made with
 copper.  There is a large double bed in one corner, it looks to be made out of
@@ -270,13 +270,13 @@ D2
 0 0 5715
 S
 #5715
-The Muddy Tunnel~
+The Tunnel~
    This is a pigsty compared to the cleanliness of the last room.  Mud and muck
 squelches underfoot, it reeks worse than Leos' room, and that is something to
 be said.  There is a faint glimmer of light at the end of the tunnel.  Exits
 face north and south towards the light.
 ~
-57 0 0 0 0 0
+57 264 0 0 0 0
 D0
 ~
 ~
@@ -287,13 +287,13 @@ D2
 0 0 5716
 S
 #5716
-Nearing the end of the muddy hall~
+The Tunnel~
    The southern end of this hallway is lighter than the rest, probably because
 of the light coming from the portal in front of you.  The portal has the color
 of deep red.  Looking through it seems to go on forever although there
 is a bright green spot in the distance.
 ~
-57 0 0 0 0 0
+57 264 0 0 0 0
 D0
 ~
 ~
@@ -304,13 +304,13 @@ D2
 0 0 5717
 S
 #5717
-Entering the Ethereal Void~
+The Ethereal Void~
    The color red fills your vision, except for way off to the south (is it
 south??  ) where the speck of green seen from outside this place has grown to
 the size of a fingernail.  Sounds of the ocean fill what otherwise would be
 silence.  This place is kind of spooky but peaceful.
 ~
-57 0 0 0 0 0
+57 24 0 0 0 0
 D0
 ~
 ~
@@ -321,13 +321,13 @@ D2
 0 0 5718
 S
 #5718
-Floating in the Ethereal Void~
+The Ethereal Void~
    The green speck from before is the size of a doorway now, this portal seems
 to stretch the limits of space and time.  Red fills the eyes and a chilly wind
 has started to blow through the doorway.  Through the door there looks to be a
 mountain valley, and by the sounds of it there is a herd of goats as well.
 ~
-57 0 0 0 0 0
+57 24 0 0 0 0
 D0
 ~
 ~
@@ -433,13 +433,13 @@ D4
 ~
 0 0 5724
 E
-bones~
-   These bones are mostly crushed and powdered but most of them look human...
-~
-E
 tracks~
    These tracks are insect like and very large.  Whatever made these must be
 huge.
+~
+E
+bones~
+   These bones are mostly crushed and powdered but most of them look human...
 ~
 S
 #5724
@@ -480,7 +480,7 @@ Outside the Cave~
 shape of a pair of scales.  Could it be Libra?  There is a walkway through here
 and the ground falls away on both sides.
 ~
-57 4 0 0 0 5
+57 0 0 0 0 5
 D0
 ~
 ~
@@ -494,6 +494,7 @@ glow~
    The glow takes the form of a pair of scales.  Maybe it's Libra.
 ~
 S
+T 3106
 #5727
 Under an Oak Tree~
    Under this tree is a small grouping of goats.  They look to be males from
@@ -512,12 +513,12 @@ The sap is dribbling down the trunk forming a pool at the base of the tree.
 ~
 0 0 5731
 E
-eyes~
-   The eyes are small and beady, they look evil.
-~
-E
 ladder~
    Sap oozes down this ladder forming a sticky covering.
+~
+E
+eyes~
+   The eyes are small and beady, they look evil.
 ~
 S
 #5728
@@ -527,7 +528,7 @@ scales.  They dont seem to move or even be alive, the tracks continue through
 here and into a hole at the back of the cave.  The hole is very large and
 dirty, bones surround the entrance.  Where do they go?
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D0
 ~
 ~
@@ -538,13 +539,13 @@ D2
 0 0 5726
 S
 #5729
-The Dark Tunnel~
+The Tunnel~
    This tunnel is short but dark.  At the far end it opens up into an extremely
 large room.  In the center a fire burns and the tracks stop at the far end in
 front of a large throne.  Shadows caused by the fire dance across the tunnels
 walls making eerie shapes.  Your adventure looks to be almost finished.
 ~
-57 265 0 0 0 0
+57 264 0 0 0 0
 D0
 ~
 ~
@@ -555,14 +556,14 @@ D2
 0 0 5728
 S
 #5730
-Scorpio's Throneroom~
+Temple of Scorpio~
    This is the throneroom of the self proclaimed leader of the zodiac, The
 tracks throughout this area were his!  He stands here clicking his claws in
 anticipation of his next meal which is squirming behind his throne.  It's
 Virgo!  That sleazy freak has zodianapped her!  It's time someone taught him a
 lesson.
 ~
-57 9 0 0 0 0
+57 24 0 0 0 0
 D2
 ~
 ~
@@ -573,7 +574,7 @@ On the oaken ladder~
    This ladder is covered in tree sap, you are almost adhered to the trunk.
 There are noises coming from the top of the tree, slight but still noticable.
 ~
-57 4 0 0 0 4
+57 16 0 0 0 4
 D4
 The sap is runnier above here, probably because its fresher. There's only one way to find out, and that's to go up.
 ~
@@ -619,7 +620,7 @@ noises are now very loud and mournful.  Maybe somethings hurt!  Whatever it is,
 it doesnt sound too good.  Could the thing with red eyes be the one
 moaning?  Or is it something else?
 ~
-57 4 0 0 0 4
+57 16 0 0 0 4
 D4
 An feeling of oppression coming from above.
 ~
@@ -637,7 +638,7 @@ It is plain to see that the owner of this place was a female because of all the
 portraits of male Nymphs on one of the branches that obviously serves as a
 mantlepiece.
 ~
-57 128 0 0 0 0
+57 144 0 0 0 0
 D5
 ~
 ~
