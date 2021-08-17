@@ -1,11 +1,11 @@
 #5700
 Entrance to the Zodiac~
-~
+Empty room.~
 57 512 0 0 0 0
 S
 #5701
 Gemini's Hideaway~
-~
+Empty room.~
 57 40 0 0 0 0
 D1
 ~
@@ -22,7 +22,7 @@ adv:world:5701/tracks
 S
 #5702
 Pisces Lagoon~
-~
+Empty room.~
 57 9 0 0 0 0
 D2
 ~
@@ -35,7 +35,7 @@ Iron door~
 S
 #5703
 Chamber of Aquarius~
-~
+Empty room.~
 57 8 0 0 0 0
 D0
 ~
@@ -48,7 +48,7 @@ Wood door~
 S
 #5704
 Leo's Den~
-~
+Empty room.~
 57 8 0 0 0 0
 D1
 ~
@@ -61,7 +61,7 @@ D5
 S
 #5705
 Taurus's Pen~
-~
+Empty room.~
 57 8 0 0 0 0
 D2
 Nothing.
@@ -75,7 +75,7 @@ D3
 S
 #5706
 Aries Shearing Shed~
-~
+Empty room.~
 57 8 0 0 0 0
 D0
 ~
@@ -98,7 +98,7 @@ S
 T 3106
 #5707
 Abyss of Death~
-~
+Empty room.~
 57 0 0 0 0 0
 D3
 ~
@@ -107,7 +107,7 @@ D3
 S
 #5708
 The Hallway~
-~
+Empty room.~
 57 8 0 0 0 0
 D0
 ~
@@ -120,7 +120,7 @@ adv:world:5708/mark
 S
 #5709
 Ursa's Den~
-~
+Empty room.~
 57 8 0 0 0 0
 D1
 ~
@@ -133,7 +133,7 @@ D3
 S
 #5710
 Sagittarius' Temple of Weapons~
-~
+Empty room.~
 57 8 0 0 0 0
 D0
 ~
@@ -150,7 +150,7 @@ D3
 S
 #5711
 Yet Another Hallway~
-~
+Empty room.~
 57 0 0 0 0 0
 D0
 ~
@@ -165,7 +165,7 @@ Ornate wooden door~
 S
 #5712
 Cancer's Hole~
-~
+Empty room.~
 57 9 0 0 0 0
 D1
 ~
@@ -174,7 +174,7 @@ D1
 S
 #5713
 ZodiaShop~
-~
+Empty room.~
 57 0 0 0 0 0
 D3
 ~
@@ -347,6 +347,7 @@ D3
 ~
 0 0 5723
 S
+T 3106
 #5723
 Ascending the Hill of Capricorn~
    The soft springy grass gives way to a path here, at the top sits Capricorn
@@ -364,13 +365,13 @@ D4
 ~
 0 0 5724
 E
+bones~
+   These bones are mostly crushed and powdered but most of them look human...
+~
+E
 tracks~
    These tracks are insect like and very large.  Whatever made these must be
 huge.
-~
-E
-bones~
-   These bones are mostly crushed and powdered but most of them look human...
 ~
 S
 #5724
@@ -443,12 +444,12 @@ The sap is dribbling down the trunk forming a pool at the base of the tree.
 ~
 0 0 5731
 E
-ladder~
-   Sap oozes down this ladder forming a sticky covering.
-~
-E
 eyes~
    The eyes are small and beady, they look evil.
+~
+E
+ladder~
+   Sap oozes down this ladder forming a sticky covering.
 ~
 S
 #5728
@@ -458,7 +459,7 @@ scales.  They dont seem to move or even be alive, the tracks continue through
 here and into a hole at the back of the cave.  The hole is very large and
 dirty, bones surround the entrance.  Where do they go?
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D0
 ~
 ~
@@ -475,7 +476,7 @@ large room.  In the center a fire burns and the tracks stop at the far end in
 front of a large throne.  Shadows caused by the fire dance across the tunnels
 walls making eerie shapes.  Your adventure looks to be almost finished.
 ~
-57 265 0 0 0 0
+57 264 0 0 0 0
 D0
 ~
 ~
@@ -493,7 +494,7 @@ anticipation of his next meal which is squirming behind his throne.  It's
 Virgo!  That sleazy freak has zodianapped her!  It's time someone taught him a
 lesson.
 ~
-57 9 0 0 0 0
+57 8 0 0 0 0
 D2
 ~
 ~
