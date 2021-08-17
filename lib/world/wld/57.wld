@@ -150,21 +150,26 @@ Too bad, you seem to have fallen into a never ending abyss.
 S
 T 5799
 #5708
-Hallway~
+Agency: Zodiac~
    Like the entrance, this hallway the animal tracks continue through here, they have three claws, two of
 which are to the front and one to the rear. A long mark has been etched into
 the roof.
 ~
-57 8 0 0 0 0
+57 24 0 0 0 0
 D0
 ~
 ~
 0 0 5701
+D1
+~
+~
+1 0 3161
 E
 mark~
    This appears to be a long tail mark scraped into the roof.
 ~
 S
+T 3101
 #5709
 Ursa's Den~
    This is the room of Ursa Major, it is a typical bear cave except stuff has
