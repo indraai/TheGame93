@@ -15,49 +15,6 @@ D2
 ~
 0 -1 24206
 E
-credits info~
-    x---------------------------------------------------------------------x
-    |                    Deva World - FOR CIRCLEMUD 3.1           |
-    |                      Written in 2021 by DEVA                    |
-    x---------------------------------------------------------------------x
-     I found the stock Southern DevaWorld to be really confusing, so I
-     decided to write a new one. This new zone features about 100 rooms,
-     several new shops, a theater, and a curling rink. I've used a few
-     of the old Southern DevaWorld rooms and objects, but everything else
-     is totally different.
-     Stuff You Need to Change:
-     -------------------------
-     The Chain
-        1. In 79.wld, find room 7914.
-        2. Change the room leading down (D5) to 3135.
-     The Southwestern Gate:
-        1. In 35.wld, find room 3505. Change the room leading north (D0)
-           to 3112.
-     The Central Bridge/The Dump
-        1. In 30.wld, find room 3025 (The Common Square). Change the room
-           leading south (D2) to 3118.
-        2. In 30.wld, find room 3030 (The Dump). Change the room leading
-           north (D0) to 3044.
-        3. In 30.wld, find room 3044 (Poor Alley). Add a room leading
-           south (D2) to room 3030 (The Dump).
-      (You don't HAVE to make the above changes. They are just what I
-       decided to do on my MUD. Place the zone wherever YOU want!)
-    x---------------------------------------------------------------------x
-    |         Written  entirely from  scratch in WordPad.  Feel           |
-    |         free to edit, modify, and redistribute this zone!           |
-    x---------------------------------------------------------------------x
-   Builder      : DEVA
-   Zone         : 242 Deva World
-   Began        : 2001
-   Player Level : 3-7
-   Rooms        : 98
-   Mobs         : 14
-   Objects      : 39
-   Shops        : 5
-   Triggers     : 0
-   Links        : 11e
-~
-E
 maps~
    DevaWorld
       To Deva Road         To Central Square
@@ -125,6 +82,49 @@ Catwalks---Catwalks---Catwalks---Catwalks
                        |
         Theater        |
       Office 3136---Entrance
+~
+E
+credits info~
+    x---------------------------------------------------------------------x
+    |                    Deva World - FOR CIRCLEMUD 3.1           |
+    |                      Written in 2021 by DEVA                    |
+    x---------------------------------------------------------------------x
+     I found the stock Southern DevaWorld to be really confusing, so I
+     decided to write a new one. This new zone features about 100 rooms,
+     several new shops, a theater, and a curling rink. I've used a few
+     of the old Southern DevaWorld rooms and objects, but everything else
+     is totally different.
+     Stuff You Need to Change:
+     -------------------------
+     The Chain
+        1. In 79.wld, find room 7914.
+        2. Change the room leading down (D5) to 3135.
+     The Southwestern Gate:
+        1. In 35.wld, find room 3505. Change the room leading north (D0)
+           to 3112.
+     The Central Bridge/The Dump
+        1. In 30.wld, find room 3025 (The Common Square). Change the room
+           leading south (D2) to 3118.
+        2. In 30.wld, find room 3030 (The Dump). Change the room leading
+           north (D0) to 3044.
+        3. In 30.wld, find room 3044 (Poor Alley). Add a room leading
+           south (D2) to room 3030 (The Dump).
+      (You don't HAVE to make the above changes. They are just what I
+       decided to do on my MUD. Place the zone wherever YOU want!)
+    x---------------------------------------------------------------------x
+    |         Written  entirely from  scratch in WordPad.  Feel           |
+    |         free to edit, modify, and redistribute this zone!           |
+    x---------------------------------------------------------------------x
+   Builder      : DEVA
+   Zone         : 242 Deva World
+   Began        : 2001
+   Player Level : 3-7
+   Rooms        : 98
+   Mobs         : 14
+   Objects      : 39
+   Shops        : 5
+   Triggers     : 0
+   Links        : 11e
 ~
 S
 #24201
@@ -472,7 +472,7 @@ D3
 S
 #24214
 Deva Road~
-~
+Empty room.~
 242 0 0 0 0 1
 D0
 ~
@@ -1617,6 +1617,7 @@ D5
 ~
 0 -1 24289
 S
+T 3106
 #24279
 Spectator's Area~
 ~
@@ -1676,6 +1677,10 @@ S
 Sheet 1~
 ~
 242 8 0 0 0 0
+D0
+~
+~
+0 0 -1
 D1
 ~
 ~

@@ -4,15 +4,13 @@ adv:world:2800/main
 ~
 28 56 0 0 0 0
 D0
-adv:world:3066/look
-~
-~
-0 -1 3066
-D2
-adv:world:2801/look
 ~
 ~
 0 0 2801
+D1
+~
+~
+1 0 3042
 E
 sign~
 adv:world:2800/sign
@@ -23,16 +21,15 @@ S
 adv:world:2801/main
 ~
 28 56 0 0 0 0
-D0
-adv:world:2800/look
-~
-~
-0 0 2800
 D1
 adv:world:2802/look
 ~
 ~
 0 0 2802
+D2
+~
+~
+0 0 2800
 S
 #2802
 2. Finders Keepers~
@@ -144,20 +141,20 @@ adv:world:2807/look
 ~
 0 0 2807
 E
-warrior~
-adv:world:2808/warrior
-~
-E
-mage magic user~
-adv:world:2808/mage
+monk~
+adv:world:2808/monk
 ~
 E
 thief~
 adv:world:2808/thief
 ~
 E
-monk~
-adv:world:2808/monk
+mage magic user~
+adv:world:2808/mage
+~
+E
+warrior~
+adv:world:2808/warrior
 ~
 S
 #2809
@@ -245,6 +242,10 @@ S
 adv:world:2814/main
 ~
 28 56 0 0 0 0
+D1
+~
+~
+1 0 3042
 D3
 adv:world:2815/look
 ~
@@ -264,14 +265,14 @@ better not be here when he gets back...
 ~
 28 8 0 0 0 0
 E
+Welcor~
+   Even when not here, you sense his presence.
+~
+E
 flame wall burning fire~
    As you study the walls closer, you realize magic keeps the fire alive, and
 it really is HOT.  Reaching out to touch it proves a very bad idea, giving you
 several burn marks on your hand
-~
-E
-Welcor~
-   Even when not here, you sense his presence.
 ~
 S
 $~
