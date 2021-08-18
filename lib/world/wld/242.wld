@@ -1598,10 +1598,6 @@ advertisements message board posters~
 S
 #24278
 Spectator's Area~
-   You find yourself at the far left end of the spectator's area of
-the curling club. An enormous window looks south onto the curling
-rink. Many wooden chairs are here, lined up facing the window. Behind you,
-a stair case leads up to the curling club.
 ~
 242 8 0 0 0 0
 D1
@@ -1623,12 +1619,6 @@ D5
 S
 #24279
 Spectator's Area~
-   You find yourself at the far left end of the spectator's area of
-the curling club. An enormous window looks south onto the curling
-rink. Many wooden chairs are here, lined up facing the window. Behind you,
-a large message board has been attached to the wall. It's covered with
-posters and advertisements. At the top of the wall is a railing. A set of
-doors leads north onto the ice.
 ~
 242 8 0 0 0 0
 D0
@@ -1640,25 +1630,8 @@ D3
 ~
 0 -1 24278
 E
-advertisements message board posters~
-   The posters look like this:
-         *********************************************
-         *          THE HARDCORE BONSPIEL            *
-         *                                           *
-         *        Wednesday, March 27, 2002          *
-         *                                           *
-         *                 ____                      *
-         *                 ___\\____                 *
-         *                /_________\                *
-         *               |___________|               *
-         *                \_________/                *
-         *                                           *
-         *                                           *
-         *               $250 per team               *
-         *                                           *
-         *  No drunken antics on the ice this time!  *
-         *                                           *
-         *********************************************
+board~
+adv:world:24279/board
 ~
 S
 #24280
@@ -1684,10 +1657,6 @@ D2
 S
 #24281
 Sheet 1~
-   You're standing on the very middle of sheet 1. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D0
@@ -1705,10 +1674,6 @@ D2
 S
 #24282
 Sheet 1~
-   You're standing at the northern end of sheet 1. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D1
@@ -1722,10 +1687,6 @@ D2
 S
 #24283
 Sheet 2~
-   You're standing at the southern end of sheet 2. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D0
@@ -1743,10 +1704,6 @@ D3
 S
 #24284
 Sheet 2~
-   You're standing on the very middle of sheet 2. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D0
@@ -1768,10 +1725,6 @@ D3
 S
 #24285
 Sheet 2~
-   You're standing at the northern end of sheet 2. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D1
@@ -1789,10 +1742,6 @@ D3
 S
 #24286
 Sheet 3~
-   You're standing at the southern end of sheet 3. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D0
@@ -1810,10 +1759,6 @@ D3
 S
 #24287
 Sheet 3~
-   You're standing on the very middle of sheet 3. The ice is slippery,
-and it's fairly cold in here. You can hear the light humming of a machine
-somewhere. Bright lights shine down on you from above, illuminating this
-area quite well.
 ~
 242 8 0 0 0 0
 D0
