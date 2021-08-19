@@ -1,3 +1,9 @@
+#5713
+Mr. Bungle~
+0 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #5730
 Scorpion -5730~
 0 h 100
