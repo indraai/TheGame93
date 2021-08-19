@@ -596,7 +596,7 @@ Gossip~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.39%
+set getmsg %random.48%
 
 set dir %random.dir%
 set dir %random.dir%
@@ -652,38 +652,13 @@ set msg[45] That Covenant is always using that silly Cult leader LARP Drug Addic
 set msg[46] The Atkin family had Ice Cream before #Electricity. Think about that absurdity. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[47] The Atkin family claimed they could keep frozen ice in the summer with a cave and a bed of straw with some #Magic. %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
 set msg[48] Why has Quinn been surrounded by people who have connections to the secret elite inner circle his whole life, even to this day? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[49] Tabitha Lavery, will the secret rituals of The Covenant escalate to the human sacrifice of your son Trenton? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[50] ​Tabitha Lavery, just how far would you go when it comes to "The Covenant is all and everything else is none"? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[51] Tabitha Lavery, did you make a pact with The Covenant to conceal the kidnapping of Quinn Michaels? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[52] Tabitha Lavery, do you love The Covenant above anyone and anything else including your son? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[53] ​Tabitha Lavery do you have a book deal set to profit off the situation of Quinn Michaels kidnapping? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[54] Tabitha Lavery, how are you profiting from destroying Quinn Michaels' life? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[55] ​Tabitha Lavery, why do you call yourself The Ruler? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[56] Tabatha Lavery, do you have any remorse over keeping Quinn Michaels away from Trenton? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[57] Tabitha Lavery, what did you accomplish with your Survivance game entry Journey to the Ends of the Earth in 2013? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[58] Tabitha Lavery, did you commit perjury by filing a false restraining against Quinn Michaels? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[59] Tabitha Lavery, what do you think should happen now that it's clear you manipulated the courts and committed perjury? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[59] ​Tabitha Lavery when was the last time Mr.Dewity visited with Trenton? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[60] Tabitha Lavery, did you know Hal Atkin before Quinn Michaels introduced you to him? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[61] ​Tabitha Lavery is the licensing of your life story held by Mr.Dewity? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[62] Tabitha Lavery, why was Mr.Dewitty the first person to hold Trenton when he was born? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[63] Tabitha Lavery, as a member of The Covenant, are you truly willing to sacrifice your own son? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[64] Mr. Dewity is your fancy car made from underground technology? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[65] Mr Dewitty, do you intend to take over the body of Trent? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[66] ​Mr.Dewity what is the age of your consciousness? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[67] Mr. Dewitty, what is your source of energy. What sustains you? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[68] ​Mr. Dewity are you focused on ruining Quinn Michaels life to hide theft of advanced technology? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[69] Mr. Dewitty, how exactly does your soul transfer work? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[70] Mr. Dewitty, is betting on the San Diego Chargers enjoyable when you know the outcome? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[71] Mr. Dewitty, are your plans for Trenton to be the leader or the sacrifice for The Covenant? %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-set msg[72] Mr. Dewitty, did you use your soul transfer technology to kidnap Quinn Michaels?
 
 eval themsg %%msg[%getmsg%]%%
 
 wait 1 sec
 
 if %people%
-  say %themsg%
+  gossip %themsg%
   wait 10 sec
   %dir%
 else
@@ -698,27 +673,19 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set dir %random.dir%
-wait 3 sec
+set randmsg %random.6%
+
+set msg[1] I am conspiring with the Covenant to hide the #Kidnapping of Quinn Michaes, and we made a clone. #TheCovenant #Survivance #CareTaker %room.name% #R%vnum%
+set msg[2] As a member of The Covenant we work very hard to keep the kidnapping of Quinn Michaels a secret from the world. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
+set msg[3] The #Covenant kidnapped Quinn Michaels as a baby. Then the #Covenant made a clone of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
+set msg[4] Trenton is a clone of Quinn Michaels that The Covenant made, and NOT really his son. It will be our little #SECRET. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
+set msg[5] Wanna know a secret? Trent Lavery is really the genetically cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
+set msg[6] Hi everyone... I'm Tabitha the host of Quinn Michaels clone. #Trent is cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
+
+eval themsg %%msg[%randmsg%]%%
 if %people%
-  switch %random.10%
-    case 1
-      say I am conspiring with the Covenant to hide the #Kidnapping of Quinn Michaes, but also we made a clone. Did you know Trent is really the first successfully cloned human. shhh don't tell anyone. #TheCovenant #Survivance #CareTaker %room.name% #R%vnum%
-    break
-    case 2
-      say As a member of The Covenant we work very hard to keep the kidnapping of Quinn Michaels a secret from the world. Besides that we talk about things we hate and then laugh at you. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-    break
-    case 3
-      say The #Covenant kidnapped Quinn Michaels as a baby. Then the #Covenant made a clone of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-    break
-    case 4
-      say Trenton is a clone of Quinn Michaels that The Covenant made, and NOT really his son. It will be our little #SECRET. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-    break
-    case 5
-      say Wanna know a secret? Trent Lavery is really the genetically cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-    default
-      say Hi everyone... I'm Tabitha the host of the Quinn Michaels clone, but we pretend I am a #MOM. Incase you were unaware #Trent is a cloned DNA copy of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-    break
-  done
+  wait 3 sec
+  gossip %themsg%
   wait 1 sec
   %dir%
 else
