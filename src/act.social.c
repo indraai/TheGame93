@@ -238,7 +238,7 @@ ACMD(do_gmote)
   }
 
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_SOUNDPROOF)) {
-    send_to_char(ch, "The walls seem to absorb your actions.\r\n");
+    send_to_char(ch, "\ngmote:The walls seem to absorb your actions.\r");
     return;
   }
 
@@ -249,12 +249,12 @@ action = &soc_mess_list[act_nr];
 
   if (!*arg) {
     if(!action->others_no_arg || !*action->others_no_arg) {
-      send_to_char(ch, "Who are you going to do that to?\r\n");
+      send_to_char(ch, "\ngmote:Who are you going to do that to?\r");
       return;
     }
     snprintf(buf, sizeof(buf), "Gemote: %s", action->others_no_arg);
   } else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
-    send_to_char(ch, "%s\r\n", action->not_found);
+    send_to_char(ch, "\ngmote%s\r", action->not_found);
     return;
   } else if (vict == ch) {
     if(!action->others_auto || !*action->others_auto) {

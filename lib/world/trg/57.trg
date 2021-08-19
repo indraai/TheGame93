@@ -2,7 +2,7 @@
 Mr. Bungle~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+
 ~
 #5730
 Scorpion -5730~
@@ -10,13 +10,14 @@ Scorpion -5730~
 ~
 if %actor.is_pc%
   wait 2 sec
-  say Welcome to my parlor said the spider to the fly!
+  gossip Have you heard the #GOSSIP said the #Spider to the #Fly!
+  wait 10 sec
+  gossip The #GOSSIP going around is there was an #EvilQuinn and #GoodQuinn.
+  wait 30 sec
+  gossip The #GOSSIP going around is there was an #EvilQuinn and #GoodQuinn.
+  laugh
   wait 2 sec
-  say of course, that spider is a friend of mine!
-  wait 2 sec
-  cackle
-  wait 2 sec
-  mkill %actor%
+  say That is what I am hearing on the #NETWORK.
 end
 ~
 #5733
