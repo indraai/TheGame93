@@ -26,7 +26,7 @@ if %actor.is_pc%
   wait 1 sec
   mua
   wait 1 sec
-  mkill %actor.name%
+  tell %actor% I have failed... you shall survive.
 end
 ~
 #5734
@@ -45,7 +45,7 @@ if %actor.is_pc%
   wait 2 sec
   mua
   wait 2 sec
-  mkill %actor%
+  tell %actor% I have failed... you shall survive.
 end
 ~
 #5794

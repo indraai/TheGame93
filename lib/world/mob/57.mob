@@ -19,7 +19,7 @@ The Gemini stands here.
 ~
    Gemini is a sign of the zodiac and is represented by the twins.
 ~
-10 0 0 0 0 0 0 0 0 E
+42 0 0 0 0 0 0 0 -1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
@@ -36,7 +36,7 @@ Pisces the fish are swimming here.
 ~
    Pisces is represented by the two fish.
 ~
-10 0 0 0 8192 0 0 0 -1000 E
+522 0 0 0 8192 0 0 0 -1000 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 1
@@ -55,7 +55,7 @@ Aquarius the Water Carrier stands here.
 back, it looks too much for a lady to carry but she handles it very well, almost
 as if she was a man...
 ~
-74 0 0 0 0 0 0 0 -1000 E
+106 0 0 0 0 0 0 0 -1000 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 2
@@ -69,7 +69,7 @@ Leo the Lion stands here proudly.
    Leo is the 5th sign of the zodiac.  He is a fearsome monster and not one to
 be messed with.  Treat him with care.
 ~
-81994 0 0 0 0 0 0 0 879 E
+82250 0 0 0 0 0 0 0 879 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 1
@@ -83,7 +83,7 @@ Taurus the Bull walks around his pen grunting.
    Taurus looks like a typical bull in every way except that he is ten times the
 size!  Getting on his bad side would be a big mistake.
 ~
-172042 0 0 0 0 0 0 0 184 E
+172074 0 0 0 0 0 0 0 184 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 1
@@ -101,7 +101,7 @@ Aries the Ram stands here bleating.
 competition hand (er, hooves) down.  He is a good starsign and dislikes evil
 things.
 ~
-10 0 0 0 0 0 0 0 1000 E
+266 0 0 0 0 0 0 0 1000 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 2
@@ -133,7 +133,7 @@ Cancer the Crab squats here bubbling at the mouth.
    Cancer looks dangerous.  She has 5 foot claws at the end of each arm.  The
 claws gleam in the half light as she clacks them through the air.
 ~
-163850 0 0 0 0 0 0 0 -600 E
+164362 0 0 0 0 0 0 0 -600 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 2
@@ -143,13 +143,11 @@ Int: 18
 Wis: 17
 E
 #5713
-Bungle~
-Bungle the shopkeeper~
-Bungle the Shopkeeper stands here.
+Mr. Bungle~
+Mr. Bungle the shopkeeper~
+Mr. Bungle the Shopkeeper stands here.
 ~
-   Bungle is widely considered a pervert, mainly after he was caught looking up
-Virgos' dress at a Fancy Dress Ball two years ago.  Since then he has spent his
-life in this cramped little shop.
+Mr.  Bungle is widely considered a pervert, mainly after he was caught looking up Virgos' dress at a Fancy Dress Ball two years ago.  Since then he has spent his life in this cramped little shop.
 ~
 254030 0 0 0 0 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
@@ -190,7 +188,7 @@ A Male Goat~
 a male goat~
 A Male Goat stands here.
 ~
-   A Male Goat stands here butting heads with friends and whacking his head into
+A Male Goat stands here butting heads with friends and whacking his head into
 the oak tree.
 ~
 4106 0 0 0 0 0 0 0 200 E
@@ -223,7 +221,7 @@ Crannasia the Drow Assassin stands here with an evil grin upon her face.
    Crannasia is a very famous Drow assassin.  Her rates are high but she's the
 best there is.  She has never missed a target...
 ~
-258058 0 0 0 8208 0 0 0 0 E
+258058 0 0 0 8212 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 2
@@ -233,4 +231,5 @@ Dex: 18
 Int: 17
 Wis: 15
 E
+T 5734
 $
