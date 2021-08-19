@@ -258,7 +258,7 @@ action = &soc_mess_list[act_nr];
     return;
   } else if (vict == ch) {
     if(!action->others_auto || !*action->others_auto) {
-      send_to_char(ch, "%s\r\n", action->char_auto);
+      send_to_char(ch, "\ngmote:%s\r", action->char_auto);
       return;
     }
     snprintf(buf, sizeof(buf), "Gemote: %s", action->others_auto);

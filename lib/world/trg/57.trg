@@ -2,6 +2,28 @@
 Mr. Bungle~
 0 g 100
 ~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+set randmsg %random.10%
+
+set msg[1] Have you read the article about me? The Case of #MrBungle and the #CyberRape https://j.mp/37YNfPy
+set msg[2] The basic story is that #MrBungle "raped" two other #LambdaMOO characters, #lebga and #Starsinger.
+set msg[3] #MrBungle forced #Legba and #Starsinger to perform "sexual acts" against their will on the #MOO.
+set msg[4] They also have a #Wikipedia entry for the work of #MrBungle if you are interested. https://j.mp/3D051QK
+set msg[5] The #MrBungle assault involved using a complex #VooDoo subprogram https://j.mp/3iYuj9V
+set msg[6] Into the night, #Bungle’s doll haunted victims who gathered in the living room.
+set msg[7] You hear Mr. Bungle laughing evilly in the distance.
+set msg[8] In real life I am pretty boring guy. You can find my personal page here. https://j.mp/3xW4c80
+set msg[9] The #MrBungle rape in #Cyberspace was a  psychological thought-polarization. https://j.mp/3D5yBoi
+set msg[10] My friends and I secretly snuck a botnet into the #USAF here https://j.mp/3miLAwS
+
+eval themsg %%msg[%randmsg%]%% #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
+
+if %people%
+  wait 1 sec
+  say %themsg%
+end
 
 ~
 #5730
