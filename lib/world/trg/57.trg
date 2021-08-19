@@ -18,12 +18,9 @@ set msg[8] In real life I am pretty boring guy. You can find my personal page he
 set msg[9] The #MrBungle rape in #Cyberspace was a  psychological thought-polarization. https://j.mp/3D5yBoi
 set msg[10] My friends and I secretly snuck a botnet into the #USAF here https://j.mp/3miLAwS
 
-eval themsg %%msg[%randmsg%]%% #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
-
-if %people%
-  wait 1 sec
-  say %themsg%
-end
+eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum% #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
+wait 5 sec
+say %themsg%
 
 ~
 #5730

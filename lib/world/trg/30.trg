@@ -657,7 +657,7 @@ eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Gossip #GossipGirls #Go
 
 if %people%
   wait 1 sec
-  gossip %themsg%
+  say %themsg%
   wait 10 sec
   %dir%
 else
@@ -682,9 +682,10 @@ set msg[5] Wanna know a secret? Trent Lavery is really the genetically cloned DN
 set msg[6] Hi everyone... I'm Tabitha the host of Quinn Michaels clone. #Trent is cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
 
 eval themsg %%msg[%randmsg%]%% #Tabitha #TheCovenant #Survivance #CareTaker %room.name% #R%vnum%
+
 if %people%
   wait 3 sec
-  gossip %themsg%
+  say %themsg%
   wait 1 sec
   %dir%
 else
