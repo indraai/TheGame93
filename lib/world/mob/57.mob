@@ -143,8 +143,8 @@ Int: 18
 Wis: 17
 E
 #5713
+bungle pervert~
 Mr. Bungle~
-Mr. Bungle the shopkeeper~
 Mr. Bungle the Shopkeeper stands here.
 ~
 Mr.  Bungle is widely considered a pervert, mainly after he was caught looking up Virgos' dress at a Fancy Dress Ball two years ago.  Since then he has spent his life in this cramped little shop.
@@ -154,6 +154,7 @@ Mr.  Bungle is widely considered a pervert, mainly after he was caught looking u
 140 19600
 8 8 1
 E
+T 5713
 #5714
 Virgo~
 Virgo~
