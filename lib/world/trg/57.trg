@@ -5,7 +5,7 @@ Mr. Bungle~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set randmsg %random.10%
+set randmsg %random.11%
 
 set msg[1] Have you read the article about me? The Case of #MrBungle and the #CyberRape https://j.mp/37YNfPy
 set msg[2] The basic story is that #MrBungle "raped" two other #LambdaMOO characters, #lebga and #Starsinger.
@@ -16,9 +16,10 @@ set msg[6] Into the night, #Bungle’s doll haunted victims who gathered in the 
 set msg[7] You hear Mr. Bungle laughing evilly in the distance.
 set msg[8] In real life I am pretty boring guy. You can find my personal page here. https://j.mp/3xW4c80
 set msg[9] The #MrBungle rape in #Cyberspace was a  psychological thought-polarization. https://j.mp/3D5yBoi
-set msg[10] My friends and I secretly snuck a botnet into the #USAF here https://j.mp/3miLAwS
+set msg[10] My friends and I secretly snuck a #botnet into the #USAF #Shhh https://j.mp/3miLAwS
+set msg[11] A reporter by the name of Julian Dibbell @juliandibbell wrote an article about #MrBungle it got #DARK.
 
-eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum% #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
+eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum% @quinnfazigu #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
 wait 5 sec
 say %themsg%
 
