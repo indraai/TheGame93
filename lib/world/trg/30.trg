@@ -596,11 +596,6 @@ Gossip~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.48%
-
-set dir %random.dir%
-set dir %random.dir%
-set dir %random.dir%
 
 set msg[1] Trent said his #MOM was part of #TheCovenant. After that #QuinnMichaels was kidnapped as a baby from some unknown country.
 set msg[2] Trent told Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigil #AnimalSacrifice dark you never want to repeat.
@@ -653,15 +648,10 @@ set msg[46] The Atkin family had Ice Cream before #Electricity. Think about that
 set msg[47] The Atkin family claimed they could keep frozen ice in the summer with a cave and a bed of straw with some #Magic.
 set msg[48] Why has Quinn been surrounded by people who have connections to the secret elite inner circle his whole life, even to this day?
 
-eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-
 if %people%
-  wait 1 sec
+  eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+  wait 3 sec
   say %themsg%
-  wait 10 sec
-  %dir%
-else
-  %dir%
 end
 ~
 #3019
@@ -671,7 +661,6 @@ Tabitha Lavery~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set dir %random.dir%
 set randmsg %random.6%
 
 set msg[1] It was found that I am conspiring with the Covenant to hide the #Kidnapping of Quinn Michaes, and we made a clone.
@@ -686,11 +675,6 @@ eval themsg %%msg[%randmsg%]%% #Tabitha #TheCovenant #Survivance #CareTaker %roo
 if %people%
   wait 3 sec
   say %themsg%
-  wait 1 sec
-  %dir%
-else
-  wait 1 sec
-  %dir%
 end
 ~
 #3020
@@ -700,7 +684,6 @@ Trenton Lavery~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set dir %random.dir%
 wait 3 sec
 if %people%
   switch %random.10%
@@ -723,15 +706,10 @@ if %people%
     break
   done
   wait 1 sec
-  %dir%
-else
-  %random.dir%
-  %random.dir%
-  %random.dir%
 end
 ~
 #3099
-Test~
+BOOM~
 2 b 1
 ~
 %zoneecho% 3001 You hear a loud --=BOOM=--,
