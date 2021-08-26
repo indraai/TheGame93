@@ -19,7 +19,7 @@ set msg[9] The #MrBungle rape in #Cyberspace was a  psychological thought-polari
 set msg[10] My friends and I secretly snuck a #botnet into the #USAF #Shhh https://j.mp/3miLAwS
 set msg[11] A reporter by the name of Julian Dibbell @juliandibbell wrote an article about #MrBungle it got #DARK.
 
-eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum% @quinnfazigu #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
+eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum% \@QuinnFazigu #MrBungle #Quinn #LambdaMOO #CyberRape #GhostMOO
 wait 5 sec
 say %themsg%
 
