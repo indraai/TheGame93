@@ -1725,7 +1725,7 @@ static void perform_deva_where(struct char_data *ch, char *arg)
               world[IN_ROOM(d->character)].name,
               GET_NAME(d->character));
           else
-            send_to_char(ch, "\n%s:%s %s:%s %s\r",
+            send_to_char(ch, "\n%s:%s %d:%s %s\r",
               IS_NPC(ch) ? "agent" : "player",
               GET_NAME(i),
               GET_ROOM_VNUM(IN_ROOM(i))
