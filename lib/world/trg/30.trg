@@ -652,7 +652,6 @@ if %people%
   eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
   wait 3 sec
   say %themsg%
-  echo #pandora ask:%self.name% %themsg%
 end
 ~
 #3019
