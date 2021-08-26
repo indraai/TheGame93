@@ -47,7 +47,7 @@ static void list_inv_to_char(struct obj_data *list, struct char_data *ch);
 static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mode);
 static void show_obj_modifiers(struct obj_data *obj, struct char_data *ch);
 /* do_where utility functions */
-static void perform_immort_where(struct char_data *ch, char *arg);
+static void perform_deva_where(struct char_data *ch, char *arg);
 static void perform_mortal_where(struct char_data *ch, char *arg);
 static void print_object_location(int num, struct obj_data *obj, struct char_data *ch, int recur);
 
@@ -1706,7 +1706,7 @@ static void print_object_location(int num, struct obj_data *obj, struct char_dat
     send_to_char(ch, "in an unknown location\r\n");
 }
 
-static void perform_immort_where(struct char_data *ch, char *arg)
+static void perform_deva_where(struct char_data *ch, char *arg)
 {
   struct char_data *i;
   struct obj_data *k;
@@ -1714,21 +1714,23 @@ static void perform_immort_where(struct char_data *ch, char *arg)
   int num = 0, found = 0;
 
   if (!*arg) {
-    send_to_char(ch, "\nPlayers  Room    Location                       Zone\r");
-    send_to_char(ch, "\n-------- ------- ------------------------------ -------------------\r");
     for (d = descriptor_list; d; d = d->next)
       if (IS_PLAYING(d)) {
         i = (d->original ? d->original : d->character);
         if (i && CAN_SEE(ch, i) && (IN_ROOM(i) != NOWHERE)) {
           if (d->original)
-            send_to_char(ch, "\n%-8s%s - [%5d] %s%s (in %s%s)\r",
-              GET_NAME(i), QNRM, GET_ROOM_VNUM(IN_ROOM(d->character)),
-              world[IN_ROOM(d->character)].name, QNRM, GET_NAME(d->character), QNRM);
+            send_to_char(ch, "\nwhere:%s - %d %s in %s\r",
+              GET_NAME(i),
+              GET_ROOM_VNUM(IN_ROOM(d->character)),
+              world[IN_ROOM(d->character)].name,
+              GET_NAME(d->character));
           else
-            send_to_char(ch, "\n%-8s%s %s[%s%5d%s]%s %-*s%s %s%s\r", GET_NAME(i), QNRM,
-              QCYN, QYEL, GET_ROOM_VNUM(IN_ROOM(i)), QCYN, QNRM,
-              30+count_color_chars(world[IN_ROOM(i)].name), world[IN_ROOM(i)].name, QNRM,
-              zone_table[(world[IN_ROOM(i)].zone)].name, QNRM);
+            send_to_char(ch, "\n%s:%s %s:%s %s\r",
+              IS_NPC(ch) ? "agent" : "player",
+              GET_NAME(i),
+              GET_ROOM_VNUM(IN_ROOM(i))
+              world[IN_ROOM(i)].name,
+              zone_table[(world[IN_ROOM(i)].zone)].name);
         }
       }
   } else {
@@ -1767,7 +1769,7 @@ ACMD(do_where)
   one_argument(argument, arg);
 
   if (GET_LEVEL(ch) >= LVL_IMMORT)
-    perform_immort_where(ch, arg);
+    perform_deva_where(ch, arg);
   else
     perform_mortal_where(ch, arg);
 }
