@@ -590,7 +590,7 @@ wait 3 sec
 %zoneecho% 3001 A booming voice announces, 'Welcome %actor.name% to the realm!'
 ~
 #3018
-Gossip~
+Gossip Trigger Module~
 0 b 50
 ~
 set room %self.room%

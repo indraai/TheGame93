@@ -212,9 +212,9 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nselect[4:num arg]:%d\r"
   "\nselect[5:arguments]:%s\r"
   "\nselect[6:commands]: set...\r"
-  "\n::BEGIN:CODE\r"
+  "\n----\n"
   "%s"
-  "\n::END:CODE\r"
+  "\n-\n"
   "\nmenu:w:copy trigger\r"
   "\nmenu:q:quit\r",
   OLC_NUM(d), 			              /* vnum on the title line */
@@ -317,8 +317,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          OLC_VAL(d) = 1;
 
          break;
-       case 'w':
-       case 'W':
+       case 'p':
          write_to_output(d, "Copy what trigger? ");
          OLC_MODE(d) = TRIGEDIT_COPY;
          break;
