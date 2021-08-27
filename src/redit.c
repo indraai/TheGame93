@@ -320,14 +320,12 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n## Tags\r"
 	  "\nselect[1:keywords]:%s\r"
-	  // "\nselect[2:description]:%s\r"
-    "\nselect[3:next tag]:%s\r"
-    "\n==\n"
-    "\nmenu:0:done",
+	  "\nselect[2:description]:%s\r"
+    "\nmenu[next tag]:3\r"
+    "\nmenu[done]:0",
 	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
-    !extra_desc->next ? "not set..." : "set..."
-
-	  // extra_desc->description ? extra_desc->description : "<NONE>"
+    extra_desc->description ? extra_desc->description : "<NONE>"
+    // !extra_desc->next ? "not set..." : "set..."
 	  );
 
   OLC_MODE(d) = REDIT_EXTRADESC_MENU;
