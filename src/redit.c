@@ -409,6 +409,7 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
+  write_to_output(d,
   "\nflags: %s\r"
   "\nmenu[done]:0\r", bits);
 
