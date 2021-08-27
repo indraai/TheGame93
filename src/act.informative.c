@@ -727,7 +727,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       desc,
       GET_ROOM_VNUM(IN_ROOM(ch))
     );
-  );
+  
     // page_string(ch->desc, desc, FALSE);
     return;
   }
