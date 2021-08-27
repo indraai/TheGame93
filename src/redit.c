@@ -447,8 +447,6 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# Room: %d\r"
-    "\n=\n"
-    "\n## Details\r"
     "\nselect[a:name]:%s\r"
     // "\nselect[2:desc]:%s\r"
     "\nselect[b:flags]:%s\r"
@@ -521,11 +519,11 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n----\n"
-      "\nmenu:o:extra tags\r"
-      "\nmenu:p:copy room\r"
-      "\nmenu:x:delete room\r"
+      "\nmenu[extra tags]:o\r"
+      "\nmenu[copy room]:p\r"
+      "\nmenu[delete room]:x\r"
       "\n=\n"
-      "\nmenu:q:quit\r"
+      "\nmenu[quit]:q\r"
       );
   OLC_MODE(d) = REDIT_MAIN_MENU;
 }
@@ -560,7 +558,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      write_to_output(d, "\nInvalid choice.\r\nsave:\nmenu:y:yes\r\nmenu:n:no\r");
+      write_to_output(d, "\nInvalid choice.\r\nsave:\r%s", confirm_msg);
       break;
     }
     return;
