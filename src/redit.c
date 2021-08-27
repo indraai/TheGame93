@@ -405,14 +405,12 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   write_to_output(d,"\n## Room Flags\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    write_to_output(d, "\nbmud:%d:%s\r", ++count, room_bits[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", room_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\n----\n"
   "\nflags: %s\r"
-  "\n-\n"
-  "\nmenu:0:done\r", bits);
+  "\nmenu[done]:0\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -567,7 +565,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'a':
       write_to_output(d,
-        "\nChange %s to...\r", OLC_ROOM(d)->name);
+        "Change Room Name..."
+        "\ncurrent:%s\r",
+        OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     /* DISABLE DESCRIPTION BECASUE SYSTEM GENERATES TEMPLATE STRING
