@@ -596,6 +596,7 @@ Gossip Trigger Module~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
+set getmsg %random.48%
 
 set msg[1] Trent said his #MOM was part of #TheCovenant. After that #QuinnMichaels was kidnapped as a baby from some unknown country.
 set msg[2] Trent told Quinn about the Covenant that is when it got really weird. Like #DarkMagic #Sigil #AnimalSacrifice dark you never want to repeat.
@@ -650,7 +651,7 @@ set msg[48] Why has Quinn been surrounded by people who have connections to the 
 
 if %people%
   eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
-  wait 3 sec
+  wait 1 sec
   say %themsg%
 end
 ~
