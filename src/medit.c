@@ -310,7 +310,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Position\r");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, position_types[i]);
+    write_to_output(d, "\nmenu[%s]:%d\r", position_types[i], ++count);
   }
 }
 
@@ -322,7 +322,7 @@ static void medit_disp_gender(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Gender\r");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, genders[i]);
+    write_to_output(d, "\nmenu[%s]:%d\r", genders[i], ++count);
   }
 }
 
@@ -335,7 +335,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Attack Type\r");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", i, attack_hit_text[i].singular);
+    write_to_output(d, "\nmenu[%s]:%d\r", attack_hit_text[i].singular, i);
   }
 }
 
@@ -386,15 +386,13 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, action_bits[i]);
+    write_to_output(d, "\nmenu[%s]:%d\r", action_bits[i], ++count);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d,
-    "\n----\n"
     "\nflags: %s\r"
-    "\n----\n"
-    "\nmenu:q:done\r", flags);
+    "\nmenu[done]:q\r", flags);
 }
 
 /* Display affection flags menu. */
@@ -409,16 +407,14 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   write_to_output(d, "\n## Affinity Flags\r");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, affected_bits[i]);
+    write_to_output(d, "\nmenu[%s]:%d\r", affected_bits[i], ++count);
   }
 
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "\n----\n"
-    "\nflags: %s\r"
-    "\n----\n"
-    "\nmenu:q:done\r", flags);
+  write_to_output(d, "\nflags: %s\r"
+    "\nmenu[done]:q\r", flags);
   }
 
 /* Display main menu. */
@@ -461,10 +457,9 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
     "\n====\n"
-    "\nmenu:p:copy agent\r"
-	  "\nmenu:x:delete agent\r"
-    "\n=\n"
-	  "\nmenu:q:quit\r",
+    "\nmenu[copy agent]:p\r"
+	  "\nmenu[delete agent]:x\r"
+	  "\nmenu[quit]:q\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -557,7 +552,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\n----\n\nmenu:q:done\r");
+  write_to_output(d, "menu[done]:q\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
