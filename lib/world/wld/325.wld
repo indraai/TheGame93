@@ -1,11 +1,15 @@
 #32500
-Matted-down Grass~
+Agency: Fairgrounds~
    The yellow grass here has been trampled through, most of it smooshed to the
 ground from passing feet and wagon wheels.  The tracks lead south toward an open
 area where a fairly large number of people are milling about.  Just south of
 here are a couple of wagons pulled up close by the side of the road.
 ~
-325 0 0 0 0 0
+325 16 0 0 0 0
+D1
+~
+~
+0 0 3160
 D2
 ~
 ~
@@ -16,6 +20,7 @@ credits info~
 Links: 04s
 ~
 S
+T 3101
 #32501
 Matted-down Grass~
    The way is fairly well traveled for not being a road, the amount of traffic
@@ -142,8 +147,8 @@ D2
 S
 #32508
 Festival Grounds~
-~
-325 0 0 0 0 0
+Empty room.~
+325 16 0 0 0 2
 D0
 ~
 ~
@@ -161,6 +166,7 @@ D3
 ~
 0 0 32535
 S
+T 3106
 #32509
 Festival Grounds~
    The sounds of the people who mill about this clearing are almost
@@ -584,6 +590,7 @@ D2
 ~
 0 0 32529
 S
+T 3106
 #32529
 Ale Tent~
 ~
@@ -668,8 +675,8 @@ D5
 S
 #32535
 Grassy Walkway~
-~
-325 0 0 0 0 0
+Empty room.~
+325 16 0 0 0 3
 D1
 ~
 ~
@@ -681,8 +688,8 @@ D3
 S
 #32536
 Grassy Walkway~
-~
-325 0 0 0 0 0
+Empty room.~
+325 16 0 0 0 3
 D1
 ~
 ~
@@ -694,8 +701,8 @@ D3
 S
 #32537
 Grassy Court~
-~
-325 0 0 0 0 0
+undefined~
+325 16 0 0 0 2
 D0
 ~
 ~
@@ -716,8 +723,8 @@ S
 T 3106
 #32538
 Grassy Court~
-~
-325 0 0 0 0 0
+Empty room.~
+325 0 0 0 0 2
 D0
 ~
 ~
@@ -734,7 +741,7 @@ S
 #32539
 Grassy Court~
 ~
-325 0 0 0 0 0
+325 16 0 0 0 2
 D0
 ~
 ~
@@ -751,7 +758,7 @@ S
 #32540
 Puppet Show~
 ~
-325 0 0 0 0 0
+325 16 0 0 0 0
 D2
 ~
 ~
@@ -781,7 +788,7 @@ D2
 S
 #32543
 Face Painting~
-~
+Empty room.~
 325 0 0 0 0 0
 D0
 ~
@@ -790,8 +797,8 @@ D0
 S
 #32544
 Open Air Restaurant~
-~
-325 0 0 0 0 0
+Empty room.~
+325 16 0 0 0 2
 D1
 ~
 ~
@@ -850,7 +857,7 @@ wagon~
 S
 #32548
 Madame Zayla's Wagon~
-~
+Empty room.~
 325 8 0 0 0 0
 D0
 ~
@@ -1342,7 +1349,7 @@ D1
 S
 #32577
 The Storyteller's Stump~
-~
+Empty room.~
 325 0 0 0 0 0
 D3
 ~

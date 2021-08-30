@@ -417,12 +417,12 @@ adv:world:30600/look
 ~
 0 -1 30600
 E
-tree~
-adveenture:3120/tree
-~
-E
 sign~
 adv:world:3120/sign
+~
+E
+tree~
+adveenture:3120/tree
 ~
 S
 T 3106
@@ -724,16 +724,16 @@ adv:world:3117/look
 ~
 0 -1 3117
 E
-typewriter~
-adv:world:3137/typewriter
+chair chairs~
+adv:world:3137/chair
 ~
 E
 desk~
 adv:world:3137/desk
 ~
 E
-chair chairs~
-adv:world:3137/chair
+typewriter~
+adv:world:3137/typewriter
 ~
 S
 #3138
@@ -747,12 +747,12 @@ adv:world:3137/look
 ~
 0 -1 3137
 E
-chair armchair~
-adv:world:3138/chair
-~
-E
 desk~
 adv:world:3138/desk
+~
+E
+chair armchair~
+adv:world:3138/chair
 ~
 S
 #3139
@@ -1099,16 +1099,16 @@ D0
 entrance~
 1 -1 3154
 E
-glass windows~
-adv:world:3155/windows
+benches rows~
+adv:world:3155/benches
 ~
 E
 altar~
 adv:world:3155/altar
 ~
 E
-benches rows~
-adv:world:3155/benches
+glass windows~
+adv:world:3155/windows
 ~
 S
 #3156
@@ -1233,6 +1233,10 @@ adv:world:3159/look
 ~
 ~
 0 -1 3159
+D3
+~
+~
+1 0 32500
 S
 #3161
 Agency: Corridor~
