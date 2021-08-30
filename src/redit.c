@@ -424,7 +424,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Sector Type\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
-    write_to_output(d, "\nbmud:%d:%s\r", ++count, sector_types[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", sector_types[i], ++count);
   }
   OLC_MODE(d) = REDIT_SECTOR;
 }
