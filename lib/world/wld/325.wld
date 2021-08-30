@@ -1,11 +1,15 @@
 #32500
-Matted-down Grass~
+Agency: Fairgrounds~
    The yellow grass here has been trampled through, most of it smooshed to the
 ground from passing feet and wagon wheels.  The tracks lead south toward an open
 area where a fairly large number of people are milling about.  Just south of
 here are a couple of wagons pulled up close by the side of the road.
 ~
-325 0 0 0 0 0
+325 16 0 0 0 0
+D1
+~
+~
+0 0 3160
 D2
 ~
 ~
@@ -16,6 +20,7 @@ credits info~
 Links: 04s
 ~
 S
+T 3101
 #32501
 Matted-down Grass~
    The way is fairly well traveled for not being a road, the amount of traffic
@@ -142,7 +147,7 @@ D2
 S
 #32508
 Festival Grounds~
-~
+Empty room.~
 325 16 0 0 0 2
 D0
 ~
@@ -585,6 +590,7 @@ D2
 ~
 0 0 32529
 S
+T 3106
 #32529
 Ale Tent~
    Men stand elbow-to-elbow drinking their ale and talking about whatever it is
@@ -676,7 +682,7 @@ D5
 S
 #32535
 Grassy Walkway~
-~
+Empty room.~
 325 16 0 0 0 3
 D1
 ~
@@ -689,7 +695,7 @@ D3
 S
 #32536
 Grassy Walkway~
-~
+Empty room.~
 325 16 0 0 0 3
 D1
 ~
@@ -702,8 +708,8 @@ D3
 S
 #32537
 Grassy Court~
-~
-325 0 0 0 0 0
+undefined~
+325 16 0 0 0 2
 D0
 ~
 ~
@@ -724,7 +730,7 @@ S
 T 3106
 #32538
 Grassy Court~
-~
+Empty room.~
 325 0 0 0 0 2
 D0
 ~
@@ -748,7 +754,7 @@ seated on the ground before the castle.  To the east is a small area where caged
 animals pace in their cages, a place where rare animals can be seen and in some
 instances - touched.
 ~
-325 0 0 0 0 0
+325 16 0 0 0 2
 D0
 ~
 ~
@@ -770,7 +776,7 @@ where a puppet master causes his small cloth and wood men to dance, sing, fight
 and laugh - all amid the uproarious peels of laughter from the children gathered
 around the castle.
 ~
-325 0 0 0 0 0
+325 16 0 0 0 0
 D2
 ~
 ~
@@ -806,7 +812,7 @@ D2
 S
 #32543
 Face Painting~
-~
+Empty room.~
 325 0 0 0 0 0
 D0
 ~
@@ -815,7 +821,7 @@ D0
 S
 #32544
 Open Air Restaurant~
-~
+Empty room.~
 325 16 0 0 0 2
 D1
 ~
@@ -875,7 +881,7 @@ wagon~
 S
 #32548
 Madame Zayla's Wagon~
-~
+Empty room.~
 325 8 0 0 0 0
 D0
 ~
