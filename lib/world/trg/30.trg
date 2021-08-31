@@ -610,15 +610,15 @@ set msg[9] #Devas of old should be told about how #TheCovenant could be training
 set msg[10] So some #Evil idiots decided to invoke #Vasudeva without knowing who #Mahadeva was. #STUPID!
 set msg[11] What happens when you invoke #Vasudeva or #Mahadeva? We don't know.
 set msg[12] Some guy named #Xibo decided to invoke #Vasudeva but forgot #Mahadeva... oops.
-set msg[13] Yes everyone knows that having a conversation about the kidnapping of Quinn Michaels is more difficult than #RocketScience.
-set msg[14] Every other weekend Trent would #GOTO Quinn's house and the story would get bigger and bigger. Over two years became a horrible horror story.
-set msg[15] In 2016 Quinn worked to get his life back by working at #OIAGlobal then #Welocalize. That didn't last long.
-set msg[16] In 2017 came Quinn found the #Tyler instructions #TheCovenant were using and decided to put his face out to the #GeneralPublic to #WARN them.
+set msg[13] How many idiots does it take to sneak #Vedic god names like #Vasudeva or #Mahadeva into the #Code?
+set msg[14] Have you heard the latest? The guys behind #Evil stuck #Vasudeva name as the #Author of their #Code
+set msg[15] I heard that Harold Atkin of the #LDS Mormon Church was involved with a pedophile cannibal cult.
+set msg[16] Quinn Michaels tried to warn everyone about the violations of #Indra #Vedic law.
 set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to a disaster of #Humanity Quinn saw no other choice.
 set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the phone with the #CONTRACT #PHOTO on it.
 
 if %people%
-  eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Gossip #GossipGirls #GossipNet
+  eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Indra #Deva #VasuDEVA #MahaDEVA #Gossip #GossipGirls #GossipNet
   wait 1 sec
   say %themsg%
 end
