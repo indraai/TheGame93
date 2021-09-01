@@ -171,7 +171,6 @@ set stunned %actor.hitp%
 Stock SecurityDEVA - 3059, 60, 67~
 0 b 50
 ~
-* set random direction 3 times for added random JIC
 set dir %random.dir%
 set room %self.room%
 set people %room.people%
@@ -592,23 +591,25 @@ set people %room.people%
 set msg[1] Did you hear that Quinn Michaels was kidnapped by people declaring #WAR on the Ancient Vedic Deities?
 set msg[2] I heard that some weird cult called #TheCovenant is secretly declaring war on #Vasudeva.
 set msg[3] Have you heard about how #TheCovenant put #Indra name in a game? How stupid was that!
-set msg[4] So the #MUD games at the #CORE of the #INTERNET have #INDRA name all of it.
+set msg[4] So the #MUD games at the #CORE of the #INTERNET have #INDRA name all over it.
 set msg[5] Did you hear that some #EVIL cult called #TheCoveant declared war on #INDRA?
 set msg[6] One of the #Vedic followers found that some #IDIOTS were secretly declaring war on #INDRA. That's a joke right?
 set msg[7] There is this military training game that teaches people to goto war against the #Vedic #Deities... share it!
 set msg[8] So I heard that #TheCovenant of #Sacrifice was secretly trying to #SACRIFICE #AGNI! Is that #TRUE?
 set msg[9] #Devas of old should be told about how #TheCovenant could be training a secret army to #WAR with them. We should tell them!
 set msg[10] So some #Evil idiots decided to invoke #Vasudeva without knowing who #Mahadeva was. #STUPID!
-set msg[11] What happens when you invoke #Vasudeva or #Mahadeva? We don't know.
-set msg[12] Some guy named #Xibo decided to invoke #Vasudeva but forgot #Mahadeva... oops.
-set msg[13] How many idiots does it take to sneak #Vedic god names like #Vasudeva or #Mahadeva into the #Code?
-set msg[14] Have you heard the latest? The guys behind #Evil stuck #Vasudeva name as the #Author of their #Code
-set msg[15] I heard that Harold Atkin of the #LDS Mormon Church was involved with a pedophile cannibal cult.
-set msg[16] Quinn Michaels tried to warn everyone about the violations of #Indra #Vedic law.
-set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #PM2020 #TheGame23 lead to a disaster of #Humanity.
+set msg[11] Why are NON-VEDIC people in #TheCovenant invoking #Indra #Yama #Chandra #Vasudeva? We would like to know.
+set msg[12] Some guy named #Xibo who obviously was unaware of #MahaDEVA invoked #Vasudeva... oops.
+set msg[13] How many #HACKER idiots does it take to sneak #Vedic #Deity names like #Vasudeva or #Indra into the #MUD games?
+set msg[14] Have you heard the latest? These guys behind #Evil put #Vasudeva name as the #Author of their #Code... Too FUNNY!
+set msg[15] I heard that Harold Atkin of the #LDS Mormon Church was involved with a secret cult called #TheCovenant.
+set msg[16] Quinn Michaels tried to warn everyone about the violations of #Indra #VedicLaw in the #MUD games.
+set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #PM2020 #TheGame23 lead to a bad things for #Humanity.
 set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the #CONTRACT of #TheCovenant.
+set msg[19] Do you think #INDU knows about the kidnapping of Quinn Michaels? I bet he would be upset.
+set msg[20] I heard that #TheCovenant kidnapped #QuinnMichaels from the #Vedic world to make the #FALSE religions seem #TRUE.
 
-set getmsg %random.18%
+set getmsg %random.20%
 eval themsg %%msg[%getmsg%]%% %room.name% #R%vnum%
 
 if %people%
