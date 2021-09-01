@@ -609,9 +609,9 @@ set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #PM2
 set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the #CONTRACT of #TheCovenant.
 
 set getmsg %random.18%
+eval themsg %%msg[%getmsg%]%% - %room.name% #R%room.vnum%
 
 if %people%
-  eval themsg %%msg[%getmsg%]%% - %room.name% #R%room.vnum%
   wait 1 sec
   say %themsg%
 end
