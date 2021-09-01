@@ -10,4 +10,10 @@ say Ahh, mommy mommy help.
 ~
 say Goodbye, mommy.
 ~
+#7806
+King Barry Speaks~
+0 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 $~
