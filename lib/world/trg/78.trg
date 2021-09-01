@@ -14,6 +14,20 @@ say Goodbye, mommy.
 King Barry Speaks~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+
+set msg[1] #KingBarry of #Disneyland is here for #FUN
+set msg[2] Barry is King of Disneyland. Yippee!
+set msg[3] Barry Man King of Disneyland Forever.
+set msg[4] Bow to #KingBarry of Disneyland for #FUN
+set msg[5] Barry King of Disneyland orders you to have TRUE FUN!
+
+set randommsg %random.5%
+eval themsg %%msg[%randommsg%]%% #Barry #KingBarry #FUN
+if %people%
+  say %themsg%
+end
 ~
 $~
