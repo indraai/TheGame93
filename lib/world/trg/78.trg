@@ -25,7 +25,7 @@ set msg[4] Bow to #KingBarry of Disneyland for #FUN
 set msg[5] Barry King of Disneyland orders you to have TRUE FUN!
 
 set randommsg %random.5%
-eval themsg %%msg[%randommsg%]%% #Barry #KingBarry #FUN
+eval themsg %%msg[%randommsg%]%%
 if %people%
   say %themsg%
 end
