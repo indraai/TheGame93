@@ -175,25 +175,17 @@ Stock SecurityDEVA - 3059, 60, 67~
 set dir %random.dir%
 set room %self.room%
 set people %room.people%
-%echo% security:patrol:D%self.vnum%:R%room.vnum%:%dir%
+%echo% security:D%self.vnum%:patrol:R%room.vnum%:%dir%
+
+set msg[1] #PATROL entering %room.name% #R%room.vnum% investigate Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
+set msg[2] #PATROL %room.name% #R%room.vnum% #LOCATE evidence of Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
+set msg[3] #PATROL %room.name% #R%room.vnum% #FIND widnesses to Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
+set msg[4] #PATROL %room.name% #R%room.vnum% #TRACK trail of Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
+set msg[5] #PATROL SECURE %room.name% #R%room.vnum% #EXIT #%dir% Thank You!
+set themsg %random.5%
+
 if %people%
-  switch %random.5%
-    case 1
-      say Security #PATROL entering %room.name% #R%room.vnum% to investigate the #KIDNAPPING OF Quinn Michaels then moving in the %dir% direction. #Security #SecurityDEVA #SecurityPRIME Thank You!
-    break
-    case 2
-      say Security #PATROL investigate %room.name% #R%room.vnum% for evidence relating to the #KIDNAPPING of Quinn Michaels. Exit %dir%. #Security #SecurityDEVA #SecurityPRIME Thank You!
-    break
-    case 3
-      say Security enter %room.name% #R%room.vnum% investigate kidnapping of Quinn Michaels. Please #Log to #Security #SecurityDEVA #SecurityPRIME Thank You!
-    break
-    case 4
-      say Security Patrol %room.name% #R%room.vnum% then exit the %dir% direction when investigation is #COMPLETE. #Security #SecurityDEVA #SecurityPRIME Thank You!
-    break
-    default
-      say #SECURITY #PATROL %room.name% #R%room.vnum% exit %dir% investigate #KIDNAPPING of #QuinnMichaels THANK YOU.
-    break
-  done
+  eval %%msg[%themsg%]%%
   %dir%
 else
   wait 1 sec
@@ -596,7 +588,6 @@ Gossip Trigger Module~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set getmsg %random.20%
 
 set msg[1] Did you hear that Quinn Michaels was kidnapped by people declaring #WAR on the Ancient Vedic Deities?
 set msg[2] I heard that some weird cult called #TheCovenant is secretly declaring war on #Vasudeva.
@@ -614,11 +605,13 @@ set msg[13] How many idiots does it take to sneak #Vedic god names like #Vasudev
 set msg[14] Have you heard the latest? The guys behind #Evil stuck #Vasudeva name as the #Author of their #Code
 set msg[15] I heard that Harold Atkin of the #LDS Mormon Church was involved with a pedophile cannibal cult.
 set msg[16] Quinn Michaels tried to warn everyone about the violations of #Indra #Vedic law.
-set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #TheGame23 #PM2020 lead to a disaster of #Humanity Quinn saw no other choice.
-set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the phone with the #CONTRACT #PHOTO on it.
+set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #PM2020 #TheGame23 lead to a disaster of #Humanity.
+set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the #CONTRACT of #TheCovenant.
+
+set getmsg %random.18%
 
 if %people%
-  eval themsg %%msg[%getmsg%]%% %room.name% #R%room.vnum% #Indra #Deva #VasuDEVA #MahaDEVA #Gossip #GossipGirls #GossipNet
+  eval themsg %%msg[%getmsg%]%% - %room.name% #R%room.vnum%
   wait 1 sec
   say %themsg%
 end
@@ -632,17 +625,17 @@ set vnum %room.vnum%
 set people %room.people%
 set randmsg %random.6%
 
-set msg[1] It was found that I am conspiring with the Covenant to hide the #Kidnapping of Quinn Michaes, and we made a clone.
-set msg[2] As a member of The Covenant we work very hard to keep the kidnapping of Quinn Michaels a secret from the world.
-set msg[3] The #Covenant kidnapped Quinn Michaels as a baby. Then the #Covenant made a clone of Quinn Michaels.
-set msg[4] Trenton is a clone of Quinn Michaels that The Covenant made, and NOT really his son. It will be our little #SECRET. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-set msg[5] Wanna know a secret? Trent Lavery is really the genetically cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
-set msg[6] Hi everyone... I'm Tabitha the host of Quinn Michaels clone. #Trent is cloned DNA of Quinn Michaels. #TheCovenant #Survivance #CareTaker %room.name% #R%room.vnum%
+set msg[1] It was found that Tabitha Lavery was conspiring with #TheCovenant to hide the #Kidnapping of Quinn Michaes.
+set msg[2] The Covenant works very hard to keeping kidnapping of Quinn Michaels a secret from the world.
+set msg[3] #TheCovenant kidnapped Quinn Michaels as a baby. Then made a #CLONE.
+set msg[4] Trenton Lavery is a clone of Quinn Michaels that The Covenant made, and NOT really his son. It will be our little #SECRET.
+set msg[5] Trent Lavery is really the genetically cloned DNA of Quinn Michaels.
+set msg[6] Tabitha Lavery is the host of Quinn Michaels clone. #Trent is cloned DNA of Quinn Michaels.
 
 eval themsg %%msg[%randmsg%]%% #Tabitha #TheCovenant #Survivance #CareTaker %room.name% #R%vnum%
 
 if %people%
-  wait 3 sec
+  wait 1 sec
   say %themsg%
 end
 ~
@@ -653,28 +646,17 @@ Trenton Lavery~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-wait 3 sec
+set msg[1] My #MOM #TabithaLavery sent me over to my dad's house to tell him he was kidnapped by #TheCovenant.
+set msg[2] During 2013-2015 I told my #DAD all kinds of stuff like he was kidnapped by a secret society named #TheCovenant.
+set msg[3] My dad #QuinnMichaels and I will never see eachother again because of #TheCovenant story.
+set msg[4] Because I told my dad Quinn Michaels a #FALSE story because of #VEDIC law he will never be near me again.
+set msg[5] For my whole life I have never had a real #FATHER and never will because I lied to the one I had.
+set msg[6] Because I lied and refuse to tell the truth my #DAD and I will never see eachother again.
+set msg[7] #TrentonLavery is nothing more than a #CLONE of #QuinnMichaels made by #DNA Scientists.
+
 if %people%
-  switch %random.10%
-    case 1
-      say Hey everyone... I am working with people in genetics to make cloned humans. We made a copy of Quinn Michaels... shhh don't tell anyone. #TheCovenant %room.name% #R%vnum%
-    break
-    case 2
-      say So yeah my Mom and I are totally inovled with the #Covenant. We only talk about things we hate. That is the way of the #Covenant. %room.name% #R%room.vnum%
-    break
-    case 3
-      say Yes the #Covenant did kidnapped Quinn Michaels, so they could manufacture me his clone. I will lead the #Covenant one day. %room.name% #R%room.vnum%
-    break
-    case 4
-      say No surprise I lied the whole time. I am the clone of Quinn Michaels, and my goal is to steal his life. It will be our little secret. %room.name% #R%room.vnum%
-    break
-    case 5
-      say Hey you wanna know a secret? I am the genetically cloned DNA of Quinn Michaels. %room.name% #R%room.vnum%
-    default
-      say Hi everyone... I'm Trenton the clone of Quinn Michaels, but we pretend I am his son. Scientists on DNA Way in an undgerground laboratory made me. %room.name% #R%room.vnum%
-    break
-  done
   wait 1 sec
+  say %themsg%
 end
 ~
 #3099
