@@ -12,7 +12,7 @@ say Goodbye, mommy.
 ~
 #7806
 King Barry Speaks~
-0 g 100
+0 b 50
 ~
 set room %self.room%
 set vnum %room.vnum%
