@@ -78,105 +78,82 @@ adv:world:30102/stone
 S
 #30103
 Campus Crescent~
-   This cobblestone road is not littered in any way, thus displaying the
-conscientious behaviour of the politically correct students (as they all seem
-to be).  The road continues east and west.  A noxious smell permeates from the
-south.
 ~
 301 0 0 0 0 1
 D1
-Campus Crescent crosses University Avenue to the east.
 ~
 ~
 0 -1 30104
 D2
-To the south you barely see the Mary Rotte Cafeteria.
 ~
 ~
 0 -1 30127
 D3
-Campus Crescent continues to the west.
 ~
 ~
 0 -1 30102
 E
-cobblestone stone cobble~
-   The cobblestones are clean.
+cobblestone~
+talk:#adventure view:thegame:world 30103/cobblestone
 ~
 E
-caf cafeteria~
-   You barely see, through the thick putrid fumes, the Mary Rotte Cafeteria.
+cafeteria~
+talk:#adventure view:thegame:world 30103/cafeteria
 ~
 S
 #30104
 The Crossroads~
-   Campus Crescent meets University Avenue at this very point...  Right here.
-(Thus the name Crossroads.  ) University runs north-south whilst Campus runs
-east-west.
 ~
 301 0 0 0 0 1
 D0
-University Avenue heads off to the north.
 ~
 ~
 0 -1 30110
 D1
-Campus Crescent runs to the east.
 ~
 ~
 0 -1 30105
 D2
-To the south, you see University Avenue.
 ~
 ~
 0 -1 30108
 D3
-To the west, Campus Crescent continues merrily.
 ~
 ~
 0 -1 30103
 E
-cobblestone stone cobble~
-   There are no cobblestones here!  You feel very silly looking at something
-that is not here.
+cobblestone~
+talk:#adventure view:thegame:world 3104/cobblestone
 ~
 S
 T 3106
 #30105
 Campus Crescent~
-   This cobblestone road is not littered in any way, thus displaying the
-conscientious behaviour of the politically correct students (as they all seem
-to be).  The road continues east and west.  A large building lies south, off
-the road.  You can see another building to the north.
 ~
 301 0 0 0 0 1
 D0
-To the north, lies the Arts faculty building, Corry-Mack.
 ~
 ~
 0 -1 30134
 D1
-Campus Crescent continues to the east.
 ~
 ~
 0 -1 30106
 D2
-The Student Health Services building lies off the road to the south.
 ~
 ~
 0 -1 30131
 D3
-The Crossroads lie to the west.
 ~
 ~
 0 -1 30104
 E
-cobblestone stone cobble~
-   The cobblestones are clean.
+cobblestone~
+talk:#adventure view:thegame:world 3015/cobblestone
 ~
 E
 building~
-   The buildings seem warm and inviting.  You almost feel like hugging one.
+talk:#adventure view:thegame:world 3015/building
 ~
 S
 #30106
@@ -802,11 +779,6 @@ keeping your lunch down
 S
 #30127
 Mary Rotte Cafeteria Entrance~
-   As you walk through the entrance of the cafeteria, your appetite suddenly
-disappears.  In this entrance, you'll normally find long line-ups to get into
-the cafeteria, but it's incomprehensible why.  The only safe exit is to the
-north, but if you feel courageous enough, you can venture south.  There is a
-door to the west.
 ~
 301 136 0 0 0 0
 D0
