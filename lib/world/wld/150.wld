@@ -79,12 +79,12 @@ D2
 ~
 0 -1 15003
 E
-whirls~
-adv:word:15004/whirls
-~
-E
 gate~
 adv:word:15004/gate
+~
+E
+whirls~
+adv:word:15004/whirls
 ~
 S
 T 3106
@@ -135,7 +135,6 @@ D3
 ~
 1 -1 15006
 S
-T 3102
 #15008
 The Guard Room~
 Empty room.~
@@ -313,12 +312,12 @@ D3
 ~
 0 -1 15016
 E
-throne~
-adv:world:15017/throne
-~
-E
 paintings~
 adv:world:15017/paintings
+~
+E
+throne~
+adv:world:15017/throne
 ~
 S
 #15018
@@ -451,12 +450,12 @@ D4
 ~
 0 -1 15049
 E
-pillar pillars tree trees~
-adv:world:15025/pillars
-~
-E
 stairs stair~
 adv:world/15025/stairs
+~
+E
+pillar pillars tree trees~
+adv:world:15025/pillars
 ~
 S
 #15026
@@ -827,16 +826,16 @@ D3
 door large oak~
 1 15014 15049
 E
-chairs~
-adv:world:15050/chairs
+fire fireplace~
+adv:world:15050/fireplace
 ~
 E
 table~
 adv:world:15050/table
 ~
 E
-fire fireplace~
-adv:world:15050/fireplace
+chairs~
+adv:world:15050/chairs
 ~
 S
 #15051
@@ -848,20 +847,20 @@ D3
 ~
 0 -1 15050
 E
-magic~
-adv:world:15050/magic
-~
-E
-history midgaard~
-adv:world:15050/history
+books book shelf shelves bookshelf bookshelves~
+adv:world:15050/books
 ~
 E
 bed~
 adv:world:15050/bed
 ~
 E
-books book shelf shelves bookshelf bookshelves~
-adv:world:15050/books
+history midgaard~
+adv:world:15050/history
+~
+E
+magic~
+adv:world:15050/magic
 ~
 S
 #15052
@@ -873,12 +872,12 @@ D5
 ~
 0 -1 15034
 E
-candle~
-adv:world:15052/candle
-~
-E
 table~
 adv:world:15052/table
+~
+E
+candle~
+adv:world:15052/candle
 ~
 S
 #15053
@@ -904,20 +903,20 @@ You see the stairs going back down to the second floor.
 ~
 0 -1 15048
 E
-northern~
-adv:world:15054/northern
-~
-E
-eastern~
-adv:world:15054/eastern
+western~
+adv:world:15054/western
 ~
 E
 southern~
 adv:world:15054/southern
 ~
 E
-western~
-adv:world:15054/western
+eastern~
+adv:world:15054/eastern
+~
+E
+northern~
+adv:world:15054/northern
 ~
 S
 #15055
@@ -946,12 +945,12 @@ D3
 ~
 0 -1 15055
 E
-card floor~
-adv:world:15056/card
-~
-E
 table cards deck~
 adv:world:15056/table
+~
+E
+card floor~
+adv:world:15056/card
 ~
 S
 #15057

@@ -15,7 +15,7 @@ credits info~
 adv:world:7800/credits
 ~
 S
-T 3101
+T 3106
 #7801
 Fantasyland Gate~
 Empty room.~
@@ -230,16 +230,16 @@ D0
 ~
 0 0 7818
 E
-stroller~
-adv:world:7818/strollers
+souvenirs~
+adv:world:7813/souvenirs
 ~
 E
 wheelchair~
 adv:world:7818/wheelchair
 ~
 E
-souvenirs~
-adv:world:7813/souvenirs
+stroller~
+adv:world:7818/strollers
 ~
 S
 #7814
@@ -429,7 +429,7 @@ D0
 S
 #7827
 Agency: Disneyland~
-~
+Empty room.~
 78 184 0 0 0 0
 D0
 ~
