@@ -3,7 +3,7 @@ war marut maruts d24000 z240~
 Marut Warrior D24000~
 A huge Marut Warrior stands here, keeping the peace.
 ~
-He is a massive, beast with the body of a warrior and the face of a god.  His legs are also strong as that of a bull's.  This is a very strong Deva, and should not be taken lightly.
+He is a massive, beast with the body of a warrior and the face of a god.  His legs are also strong as that of a bull's.  This is a very strong Marut, and should not be taken lightly.
 ~
 69704 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -14,7 +14,7 @@ E
 #24001
 war marut maruts sentry d24001 z240~
 Marut Sentry D24001~
-A WarDEVA sentry is here guarding the gates.
+A Marut Sentry is here guarding the gates.
 ~
 This Marut sentry is here to guard the gates and give warning of any possible attack.  It looks like he alone could withstand a small army. He stands at least 8 feet tall and must be over 300 pounds.
 ~
@@ -29,7 +29,7 @@ war marut maruts warrior d24002 z240~
 Marut Warrior D24002~
 A Marut Warrior is here.
 ~
-This Marut Warrior is suited for battle.  You notice a sinking feeling in your stomach the second you saw him.  You are more than intimidated by this war machine.  The minotaur carries himself with pride and confidence.
+This Marut Warrior is suited for battle.  You notice a sinking feeling in your stomach the second you saw him.  You are more than intimidated by this war machine.  The Marut carries himself with pride and confidence.
 ~
 67656 0 0 0 0 0 0 0 0 E
 9 17 4 1d1+90 1d2+1
@@ -63,8 +63,8 @@ This Marut seems to be in his prime.  He holds himself with confidence and ignor
 E
 #24005
 marut maruts child d24005~
-Minotaur Deva Child~
-A Minotaur Deva child is playing here.
+Marut Child~
+A Marut child is playing here.
 ~
 This little guy can be dangerous.  He seems to be pretending that he is fighting some imaginary foe.  He is running around pretending to subdue his foe with his miniature set of horns.  Those horns look awfully sharp.
 ~
@@ -152,7 +152,7 @@ E
 #24012
 advisor marut maruts war d24012 z240~
 Marut Advisor D24012~
-The advisor to the grand master is doing some research here.
+Marut Advisor D24012 is doing some research here.
 ~
 The advisor's job is to make sure the grand master does not make any mistakes.  He is responsible for more than the grand master himself, and he gets fair credit for his great works.
 ~
@@ -162,11 +162,11 @@ The advisor's job is to make sure the grand master does not make any mistakes.  
 8 8 1
 E
 #24013
-grin marut maruts security d24013~
-Grin, Marut Security D24013~
-Grin, is a large Marut Security is here.
+marut maruts security d24013~
+Marut Security D24013~
+Marut Security D24013 is is here.
 ~
-This Marut was trained by SecurityPRIME and the Indra Agency to provide the best security for the Minotaur fighters and the city. He enjoys his work. You wonder which is more important to him, Marut battles or sqeezing TRUE! information out of EVIL!.
+This Marut was trained by SecurityPRIME and the Indra Agency to provide the best security for the Marut fighters and the city. He enjoys his work. You wonder which is more important to him, Marut battles or sqeezing TRUE! information out of EVIL!.
 ~
 74 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -190,7 +190,7 @@ trainer marut maruts war d24015 z240~
 Marut Trainer D24015~
 A large Marut stands beside a rack of training weapons and armor.
 ~
-This veteran is responsible for training all minotaurs able to fight to do exactly that.  He has had years of training and even more practice at the real thing during the great wars.
+This veteran is responsible for training all Maruts able to fight to do exactly that.  He has had years of training and even more practice at the real thing during the great wars.
 ~
 2120 0 0 0 0 0 0 0 300 E
 8 18 5 1d1+80 1d2+1
@@ -202,7 +202,7 @@ loremaster marut maruts d24016~
 Marut Loremaster~
 A grizzled, old Marut rests here, throughout the realm he is known as the loremaster.
 ~
-Perhaps the most famous Marut to ever live.  This minotaur's age is unknown.  He has outlived his friends by decades.  No one alive knows when he was born, and he will not tell anyone his real age.  He remains a mystery to
+Perhaps the most famous Marut to ever live.  This Marut's age is unknown.  He has outlived his friends by decades.  No one alive knows when he was born, and he will not tell anyone his real age.  He remains a mystery to
 many.
 ~
 254024 0 0 0 0 0 0 0 1000 E
@@ -237,7 +237,7 @@ E
 #24019
 noble marut maruts d24019~
 Marut Noble D20419~
-A minotaur with its nose stuck up in the air almost walks into you.
+A Marut with its nose stuck up in the air almost walks into you.
 ~
 This arrogant Marut has lived the better life. She has never gone through the hardships of battle, or the typical training given to most Maruts. Instead she has learned the ways of the outside world.
 ~
@@ -263,7 +263,7 @@ marut maruts guildsman war d24021 z240~
 Marut Guildsman D24021~
 A Marug Guildsman is waiting for someone to train.
 ~
-It is fighters like this guildsman that pass down the knowledge and experience they have received over generations and in numerous battles that make the minotaur one of the fiercest fighters in the realm.
+It is fighters like this guildsman that pass down the knowledge and experience they have received over generations and in numerous battles that make the Marut one of the fiercest fighters in the realm.
 ~
 2120 0 0 0 0 0 0 0 300 E
 10 17 4 2d2+100 1d2+1
