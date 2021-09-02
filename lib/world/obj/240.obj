@@ -137,21 +137,20 @@ loincloth~
 and you would rather not be caught wearing it.
 ~
 #24011
-bear meat~
-some bear meat~
-A large side of meat is lying here attracting flies.~
+candy dirt candydirt bear flavor~
+Candy Dirt - Bear Flavor~
+A large side of bear flavored candy dirt is here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 8 0 0 0
 1 15 3 0 0
 E
 meat~
-   This large hunk of meat must have come from a big animal.  You guess it's
-probably from the bears outside the city of Dun Maura.
+This large hunk of bear flavored candy dirt must have come from a big source.  You guess it's probably from the bears outside the city of Dun Maura making it.
 ~
 #24012
-elk meat~
-some elk meat~
+candy dirt candydirt elk flavor~
+CandyDirt - Elk Flavor~
 A side of meat was left here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
@@ -159,8 +158,7 @@ A side of meat was left here.~
 2 10 2 0 0
 E
 meat~
-   This large hunk of meat must have come from a big animal.  You guess it's
-probably from the elks outside the city of Dun Maura.
+This large hunk of elk flavored candy dirt must have come from a big source. You guess it's probably from the elks outside the city of Dun Maura making it.
 ~
 #24013
 salmon fish~
