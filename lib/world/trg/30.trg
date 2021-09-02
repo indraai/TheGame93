@@ -671,23 +671,26 @@ Invoke Indra~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set msg[1] Invoke #Indra #Maruts #Vayu #Manas
-set msg[2] Invoke #Indra the #Irrestible #Singer #Friend
-set msg[3] Invoke #Indra the #Lord of #Strength the #Strong #Wise #Thunderer #Sustainer
-set msg[4] Invoke #Indra to be our #Friend
-set msg[5] Invoke #Indra #RAM #RBHUS #Satakratu #Angirases #Atri #Vimada #Pipru #Rjisvan #Dasyus
-set msg[6] Invoke #Indra #Kutsa #Susna #Atithigva #Sambara #Arbuda #Soma #Aryas #Vamra #Usana
-set msg[7] Invoke #Indra #Vata #Kavya #Saryata #Kaksivan #Vrcaya #Mena #Vrsansva #Pajras
-set msg[8] Invoke #Indra #Kutsa #Agni #Asura #Turvasa #Yadu #Hero
-set msg[9] Invoke #Indra #Surya #Sage #Kutsa #Susna
-set msg[10] Invoke #Indra #Dasyu #Sage #Surya #Kutsa #Susna
-set msg[11] Invoke #Indra #Sage #Rbhus #Satakratu #Angirases #Atri #Vimada
-set msg[12] Invoke #Indra #Vrtra #Pipru #Rjisvan #Dasyus #Kutsa #Susna
-set msg[13] Invoke #Indra #Atithigva #Sambara #Arbuda #Soma
-set msg[14] Invoke #Indra #Aryas #Dasyus #Vamra #Usana #Vata #Kavya #Usana
-set msg[15] Invoke #Indra #Susna #Soma #Saryata #Kaksivan #Vrcaya
-set msg[16] Invoke #Indra #Mena #Vrsansva #Pajras
-set msg[17] Invoke #Indra #LXII #Rbhus #Kuts #Susna #Vrtra
+set msg[1] Invoke #Indra #IV We call the doer of fair deeds #Indra #Satakratu #Vrtra
+set msg[2] Invoke #Indra #V The richest of the rich #Indra #Satakratu #Soma
+set msg[3] Invoke #Indra #VI Come downward from the light of Heaven #Indra #Wanderer
+set msg[4] Invoke #Indra #VII O Indra who rules those who dwell on Earth. #Indra #Hero
+set msg[5] Invoke #Indra #VIII So also is his excellence. #Indra #Soma #Thunderer
+set msg[6] Invoke #Indra with friends #Atri #Vimada #Pipru #Rjisvan #Dasyus
+set msg[7] Invoke #Indra with friends #Kutsa #Susna #Atithigva #Sambara #Arbuda
+set msg[8] Invoke #Indra with friends #Vata #Kavya #Saryata #Kaksivan #Vrcaya #Mena #Vrsansva #Pajras
+set msg[9] Invoke #Indra with friends #Kutsa #Agni #Asura #Turvasa #Yadu #Hero
+set msg[10] Invoke #Indra with friends #Surya #Sage #Kutsa #Susna
+set msg[11] Invoke #Indra with friends #Dasyu #Sage #Surya #Kutsa #Susna
+set msg[12] Invoke #Indra with friends #Sage #Rbhus #Satakratu #Angirases #Atri #Vimada
+set msg[13] Invoke #Indra with friends #Vrtra #Pipru #Rjisvan #Dasyus #Kutsa #Susna
+set msg[14] Invoke #Indra with friends #Atithigva #Sambara #Arbuda #Soma
+set msg[15] Invoke #Indra with friends #Aryas #Dasyus #Vamra #Usana #Vata #Kavya #Usana
+set msg[16] Invoke #Indra with friends #Susna #Soma #Saryata #Kaksivan #Vrcaya
+set msg[17] Invoke #Indra with friends #Mena #Vrsansva #Pajras
+set msg[18] Invoke #Indra #LXII friends #Rbhus #Kuts #Susna #Vrtra
+set msg[19] Invoke #Indra with friends #Soma #Aryas #Vamra #Usana
+
 if %people%
   wait 1 sec
   say %themsg%

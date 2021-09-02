@@ -239,8 +239,8 @@ EliteDEVA D3130 is on duty protecting the realm.
 BareHandAttack: 4
 E
 #3131
-deva monk monkdeva d3131~
-MonkDeva D3131~
+indra invoke invokeindra d3131~
+InvokeIndra D3131~
 MonkDEVA D3131 is here.
 ~
 A very happy MonkDEVA is here accepting offerings.
@@ -250,9 +250,10 @@ A very happy MonkDEVA is here accepting offerings.
 0 10000
 8 8 0
 E
+T 3021
 #3132
-deva monk monkdeva d3132~
-MonkDeva D3132~
+indra invoke invokeindra d3132~
+InvokeIndra D3132~
 MonkDEVA D3132 is here.
 ~
 A very happy MonkDEVA is here accepting offerings.
@@ -262,9 +263,10 @@ A very happy MonkDEVA is here accepting offerings.
 0 10000
 8 8 0
 E
+T 3021
 #3133
-deva monk monkdeva d3133~
-MonkDeva D3133~
+indra invoke invokeindra d3133~
+InvokeIndra D3133~
 MonkDEVA D3133 is here.
 ~
 A very happy MonkDEVA is here accepting offerings.
@@ -274,9 +276,10 @@ A very happy MonkDEVA is here accepting offerings.
 0 10000
 8 8 0
 E
+T 3021
 #3134
-deva monk monkdeva d3134~
-MonkDeva D3134~
+indra invoke invokeindra d3134~
+InvokeIndra D3134~
 MonkDEVA D3134 is here.
 ~
 A very happy MonkDEVA is here accepting offerings.
@@ -286,9 +289,10 @@ A very happy MonkDEVA is here accepting offerings.
 0 10000
 8 8 0
 E
+T 3021
 #3135
-deva monk monkdeva d3135~
-MonkDeva D3135~
+indra invoke invokeindra d3135~
+InvokeIndra D3135~
 MonkDEVA D3135 is here.
 ~
 A very happy MonkDEVA is here accepting offerings.
@@ -298,9 +302,10 @@ A very happy MonkDEVA is here accepting offerings.
 0 10000
 8 8 0
 E
+T 3021
 #3136
-deva monk monkdeva d3136~
-MonkDeva D3136~
+indra invoke invokeindra d3136~
+InvokeIndra D3136~
 MonkDEVA D3136 is here.
 ~
 A very happy MonkDEVA is here accepting offerings.
@@ -310,4 +315,5 @@ A very happy MonkDEVA is here accepting offerings.
 0 10000
 8 8 0
 E
+T 3021
 $
