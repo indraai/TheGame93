@@ -142,11 +142,10 @@ E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
 R 0 3005 3035 -1 	(the large fountain)
 O 0 3035 1 3005 	(the large fountain)
 
-M 0 3131 2 3004 	(D3131 InvokeDEVA)
-M 0 3132 2 3004 	(D3132 InvokeDEVA)
-M 0 3133 2 3004 	(D3133 InvokeDEVA)
-M 0 3134 2 3004 	(D3134 InvokeDEVA)
-M 0 3135 2 3004 	(D3135 InvokeDEVA)
-M 0 3136 2 3004 	(D3136 InvokeDEVA)
+M 0 3131 99 3004 	(D3131 InvokeIndra)
+M 0 3131 99 3026 	(D3131 InvokeIndra)
+M 0 3131 99 3041 	(D3131 InvokeIndra)
+M 0 3131 99 3116 	(D3131 InvokeIndra)
+M 0 3131 99 3139 	(D3131 InvokeIndra)
 S
 $

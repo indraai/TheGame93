@@ -240,75 +240,10 @@ BareHandAttack: 4
 E
 #3131
 indra invoke invokeindra d3131~
-InvokeIndra D3131~
-InvokeIndra D3131 is here.
+InvokeIndra~
+InvokeIndra is here.
 ~
-A very happy InvokeIndra is here accepting offerings.
-~
-194844 0 0 0 10360 0 0 0 800 E
-10 17 4 2d2+100 1d2+1
-0 10000
-8 8 0
-E
-T 3021
-#3132
-indra invoke invokeindra d3132~
-InvokeIndra D3132~
-InvokeIndra D3132 is here.
-~
-A very happy InvokeIndra is here accepting offerings.
-~
-194844 0 0 0 10360 0 0 0 800 E
-10 17 4 2d2+100 1d2+1
-0 10000
-8 8 0
-E
-T 3021
-#3133
-indra invoke invokeindra d3133~
-InvokeIndra D3133~
-InvokeIndra D3133 is here.
-~
-A very happy InvokeIndra is here accepting offerings.
-~
-194844 0 0 0 10360 0 0 0 800 E
-10 17 4 2d2+100 1d2+1
-0 10000
-8 8 0
-E
-T 3021
-#3134
-indra invoke invokeindra d3134~
-InvokeIndra D3134~
-InvokeIndra D3134 is here.
-~
-A very happy InvokeIndra is here accepting offerings.
-~
-194844 0 0 0 10360 0 0 0 800 E
-10 17 4 2d2+100 1d2+1
-0 10000
-8 8 0
-E
-T 3021
-#3135
-indra invoke invokeindra d3135~
-InvokeIndra D3135~
-InvokeIndra D3135 is here.
-~
-A very happy InvokeIndra is here accepting offerings.
-~
-194844 0 0 0 10360 0 0 0 800 E
-10 17 4 2d2+100 1d2+1
-0 10000
-8 8 0
-E
-T 3021
-#3136
-indra invoke invokeindra d3136~
-InvokeIndra D3136~
-InvokeIndra D3136 is here.
-~
-A very happy InvokeIndra is here accepting offerings.
+InvokeIndra is here to safely invoke the various Devas.
 ~
 194844 0 0 0 10360 0 0 0 800 E
 10 17 4 2d2+100 1d2+1
