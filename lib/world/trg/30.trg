@@ -691,6 +691,7 @@ set msg[17] Invoke #Indra with friends #Mena #Vrsansva #Pajras
 set msg[18] Invoke #Indra #LXII friends #Rbhus #Kuts #Susna #Vrtra
 set msg[19] Invoke #Indra with friends #Soma #Aryas #Vamra #Usana
 
+eval themsg %%msg[%random.19%]%%
 if %people%
   wait 1 sec
   say %themsg%
