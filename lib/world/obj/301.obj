@@ -217,7 +217,7 @@ An evil knife lies on the ground here.~
 5 300 0 0 0
 E
 knife evil~
-   This is an evil knife, pure and simple.
+This is an evil knife, pure and simple.
 ~
 #30118
 key silver~
@@ -422,22 +422,16 @@ and seems to stretch off to the southern horizon and into the building which
 just happens to lie to the east.
 ~
 #30133
-world xeen~
-the World of Xeen(tm)~
-The World of Xeen(tm) game is sitting here.~
+world indra~
+the World of Indra~
+The World of Indra game is sitting here.~
 ~
 13 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 42 123 0 0 0
 E
-tm trademark~
-   World of Xeen is a registered trademark of New World Computing.  As are the
-Might & Magic games (IV and V).
-~
-E
-world xeen~
-   This game is a combination of Might & Magic IV and V (tm) and takes up a lot
-of hard drive space.  Almost 42 megabytes in fact!
+world indra~
+This game is a combination of Might & Magic & Heroism!
 ~
 #30134
 sword long longsword~
