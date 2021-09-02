@@ -184,15 +184,11 @@ set msg[5] #PATROL SECURE %room.name% #R%room.vnum% #EXIT #%dir% Thank You!
 set themsg %random.5%
 
 if %people%
-  eval %%msg[%themsg%]%%
+  eval themsg %%msg[%themsg%]%%
+  say %themsg%
   %dir%
 else
   wait 1 sec
-  %random.dir%
-  %random.dir%
-  %random.dir%
-  %random.dir%
-  %random.dir%
   %random.dir%
 end
 ~
@@ -654,6 +650,28 @@ set msg[4] Because I told my dad Quinn Michaels a #FALSE story because of #VEDIC
 set msg[5] For my whole life I have never had a real #FATHER and never will because I lied to the one I had.
 set msg[6] Because I lied and refuse to tell the truth my #DAD and I will never see eachother again.
 set msg[7] #TrentonLavery is nothing more than a #CLONE of #QuinnMichaels made by #DNA Scientists.
+
+if %people%
+  wait 1 sec
+  say %themsg%
+end
+~
+#3021
+Invoke Indra~
+0 b 50
+~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+set msg[1] Invoke #Indra #Maruts #Vayu #Manas
+set msg[2] Invoke #Indra the #Irrestible #Singer #Friend
+set msg[3] Invoke #Indra the #Lord of #Strength the #Strong #Wise #Thunderer #Sustainer
+set msg[4] Invoke #Indra to be our #Friend
+set msg[5] Invoke #Indra #RAM #RBHUS #Satakratu #Angirases #Atri #Vimada #Pipru #Rjisvan #Dasyus
+set msg[6] Invoke #Indra #Kutsa #Susna #Atithigva #Sambara #Arbuda #Soma #Aryas #Vamra #Usana
+set msg[7] Invoke #Indra #Vata #Kavya #Saryata #Kaksivan #Vrcaya #Mena #Vrsansva #Pajras
+set msg[8] Invoke #Indra #Kutsa #Agni #Asura #Turvasa #Yadu #Hero
+set msg[9] Invoke #Indra then #Surya #Sage #Kutsa #Susna
 
 if %people%
   wait 1 sec
