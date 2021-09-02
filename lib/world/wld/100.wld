@@ -10,6 +10,16 @@ D1
 ~
 0 0 10001
 E
+bunk~
+   As you examine the bunk closer you notice some of the rags may not be as shabby
+as you originally thought. No one would miss them, would they?
+~
+E
+stove~
+   The stove looks like it hasn't been used for a few years. In the bottom you see a
+thick pile of ashes. You notice something sparkling in the ashes.
+~
+E
 credits info~
    Builder   : Rumble
 Zone         : 100 Northern Highway
@@ -25,16 +35,6 @@ Links        : 04s, 56w, 96n
 Zone 100 was linked to the following zones:
  96 Domiae                         at 10056 (west ) --->  9603
 240 Dun Maura                      at 10096 (north) ---> 24000
-~
-E
-stove~
-   The stove looks like it hasn't been used for a few years. In the bottom you see a
-thick pile of ashes. You notice something sparkling in the ashes.
-~
-E
-bunk~
-   As you examine the bunk closer you notice some of the rags may not be as shabby
-as you originally thought. No one would miss them, would they?
 ~
 S
 #10001
@@ -1744,6 +1744,10 @@ northern road towards the minotaur city.  The confines of the forest seem to
 beckon you compared to the openness of the plains.
 ~
 100 0 0 0 0 3
+D1
+~
+~
+0 0 3500
 D2
 ~
 ~
@@ -1922,6 +1926,10 @@ time.  You can search the city walls east and west or head back south towards
 home.
 ~
 100 0 0 0 0 3
+D0
+~
+~
+0 0 24000
 D1
 ~
 ~
