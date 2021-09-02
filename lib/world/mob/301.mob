@@ -216,12 +216,9 @@ T 3018
 #30117
 mary rotte chef~
 a Mary-Rotte chef~
-A Mary-Rotte chef struggles to poison the food quickly.
+A Mary-Rotte chef works hard to make healthy food.
 ~
-   With one hand he fries, with the other he flips the meat (?  ) over, and
-with the other hand he sprinkles some salt into the other hand which is
-holding...  Hey!  Isn't that too many hands?  This guy is good (or maybe he
-isn't...  ).
+With one hand he fries, with the other he flips the veggies over, and with the other hand he sprinkles some salt into the other hand which is holding...  Hey! Isn't that too many hands?  This guy is good (or maybe he too good...  ).
 ~
 10 0 0 0 0 0 0 0 -350 E
 10 17 4 2d2+100 1d2+1
@@ -229,12 +226,11 @@ isn't...  ).
 8 8 1
 E
 #30118
-coke machine~
-the Coke Machine~
-A Coke Machine hums quietly.
+vending machine~
+Vending Machine d30118~
+A Vending Machine hums quietly.
 ~
-   This machine is a marvel of engineering.  After receiving the money, it
-quickly fouls up the order and delivers it with a large clanging noise.
+This machine is a marvel of engineering.  After receiving the money, it quickly fouls up the order and delivers it with almost zero noise.
 ~
 188426 0 0 0 16 0 0 0 0 E
 12 16 2 2d2+120 2d2+2

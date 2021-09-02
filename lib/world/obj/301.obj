@@ -23,21 +23,16 @@ brass key~
    The brass key seems worn through years of use.
 ~
 #30102
-oreo~
-an Oreo(tm) cookie~
-A moldy, dust covered Oreo(tm) cookie has been discarded here.~
+cookie chocolatechip~
+Chocolate Chhip Cookie~
+A Chocolate Chip Cookie has been left here.~
 ~
 18 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
 E
-oreo~
-   It isn't a pretty sight.  You could not bring yourself to eat this!
-~
-E
-tm trademark~
-   Oreo is a registered trademark of Christie Brown & Co.  A division of Nabisco
-Brands Ltd.
+cookie~
+It is a pretty sight. You could eat this!
 ~
 #30103
 key small iron~
@@ -49,7 +44,7 @@ A small iron key hangs from a hook here.~
 1 1 0 0 0
 E
 small iron key~
-   It has a 'W3625' insribed on it.
+It has a 'W3625' insribed on it.
 ~
 #30104
 key small iron~
@@ -61,67 +56,67 @@ A small iron key lies on a desk here.~
 1 1 0 0 0
 E
 small iron key~
-   It has a 'W2716' insribed on it.
+It has a 'W2716' insribed on it.
 ~
 #30105
-steak salisbury tray~
-a salisbury steak~
-A tray of Mary Rotte salisbury steak has been left here.~
+veggi stirfry tray food~
+Veggie Stir-Fry~
+A tray of Mary Rotte veggie stir-fry has been left here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 1
 2 10 0 0 0
 E
-salisbury steak tray~
-   It's not steak!
+veggies ~
+It's fresh vegetables sautee'd to perfection!
 ~
 #30106
-burger garden~
-a garden burger~
-A Mary Rotte garden burger lies here, lonely.~
+burger garden veggie food~
+Garden Burger~
+A Mary Rotte Specialty garden burger is here ready to eat.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 1
 1 8 0 0 0
 E
 garden burger~
-   You've never seen anything more disgusting in your life.
+You've never seen anything more tasty in your life. The veggies, spices, and mixture are the best.
 ~
 #30107
-eggs fried~
-some fried eggs~
-Some Mary Rotte fried eggs sit here slowly hardening.~
+sautee fried mushrooms food~
+Sautee'd Musherooms~
+Some Mary Rotte sautee'd Mushrooms sit here looking tasty.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 1
 1 2 0 0 0
 E
-fried eggs~
-   You're not sure, but you think that they are plastic.
+mushrooms sautee~
+You're not sure, but you know it tastes amazing. Butter, mushrooms, spices... mmmm.
 ~
 #30108
-dish lyonnaise potatoes~
-a dish of lyonnaise potatoes~
-A dish of Mary Rotte lyonnaise potatoes wobbles around here.~
+baked potato food~
+Baked Potato~
+A dish of Mary Rotte baked potato looks delicious.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 1
 1 5 0 0 0
 E
-lyonnaise potatoes dish~
-   What is lyonnaise, anyways?
+potatoes potato~
+What is in a potato, anyways? Here it is absolute goodness that's what.
 ~
 #30109
-calzone~
-a calzone~
-A Mary Rotte calzone cools here.~
+calzone cheese mushroom onions peppers food~
+Veggie Calzone~
+A Mary Rotte mushroom onions and peppers calzone cools here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 0
 1 10 0 0 0
 E
 calzone~
-   It's similar to a pizza pop.  It looks vaguely edible.
+It's similar to a pizza pop.  It looks tasty.
 ~
 #30110
 barbells~
@@ -159,7 +154,7 @@ A tam is here...~
 5 1 0 0 0
 E
 tam~
-   This tam is real ugly.  I mean ugly.
+This tam is real ugly.  I mean ugly.
 ~
 A
 4 1
@@ -173,7 +168,7 @@ No it couldn't be... a blue tray!~
 1 100 0 0 0
 E
 blue tray~
-   You can't believe you actually found one.  Blue trays are almost as common as
+You can't believe you actually found one.  Blue trays are almost as common as
 talking dogs that speak in Norwegian!
 ~
 #30114
@@ -186,7 +181,7 @@ A hairnet has been thrown away here.~
 1 1 0 0 0
 E
 hairnet~
-   This thing (blech) must be glowing from the radiation...
+This thing (blech) must be glowing from the radiation...
 ~
 #30115
 flashlight light~
@@ -198,7 +193,7 @@ A long flashlight has been dropped here.~
 8 150 0 0 0
 E
 flashlight light~
-   This looks like one of the flashlights Security uses...  Uh-oh...
+This looks like one of the flashlights Security uses...  Uh-oh...
 ~
 #30116
 jacket yellow~
