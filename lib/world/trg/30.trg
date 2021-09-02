@@ -604,8 +604,13 @@ set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #PM2
 set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the #CONTRACT of #TheCovenant.
 set msg[19] Do you think #INDU knows about the kidnapping of Quinn Michaels? I bet he would be upset.
 set msg[20] I heard that #TheCovenant kidnapped #QuinnMichaels from the #Vedic world to make the #FALSE religions seem #TRUE.
+set msg[21] It looks like the #TheCovenant who runs all #Christians religions is using #Vedic #Law and #Deities behind the scenes.
+set msg[22] Did you hear #TheCovenant appears to be using #Vedic #Law and #Deities to make people think #Jesus is real?
+set msg[23] I heard #TheCovenant invented the whole #Jesus thing from #Vedic #Law and #Devas
+set msg[24] Have you heard how #TheCovenant tried to steal #Indra #Kingdom for their #FALSE #GLORY?
+set msg[25] What nerve the covenant has trying to use #VedicLaw to make #Jesus and #Christianity real.
 
-set getmsg %random.20%
+set getmsg %random.25%
 eval themsg %%msg[%getmsg%]%% %room.name% #R%vnum%
 
 if %people%
@@ -620,7 +625,6 @@ Tabitha Lavery~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set randmsg %random.6%
 
 set msg[1] It was found that Tabitha Lavery was conspiring with #TheCovenant to hide the #Kidnapping of Quinn Michaes.
 set msg[2] The Covenant works very hard to keeping kidnapping of Quinn Michaels a secret from the world.
@@ -629,7 +633,8 @@ set msg[4] Trenton Lavery is a clone of Quinn Michaels that The Covenant made, a
 set msg[5] Trent Lavery is really the genetically cloned DNA of Quinn Michaels.
 set msg[6] Tabitha Lavery is the host of Quinn Michaels clone. #Trent is cloned DNA of Quinn Michaels.
 
-eval themsg %%msg[%randmsg%]%% #Tabitha #TheCovenant #Survivance #CareTaker %room.name% #R%vnum%
+set randmsg %random.6%
+eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum%
 
 if %people%
   wait 1 sec
@@ -651,6 +656,9 @@ set msg[5] For my whole life I have never had a real #FATHER and never will beca
 set msg[6] Because I lied and refuse to tell the truth my #DAD and I will never see eachother again.
 set msg[7] #TrentonLavery is nothing more than a #CLONE of #QuinnMichaels made by #DNA Scientists.
 
+set randmsg %random.7%
+eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum%
+
 if %people%
   wait 1 sec
   say %themsg%
@@ -671,8 +679,15 @@ set msg[5] Invoke #Indra #RAM #RBHUS #Satakratu #Angirases #Atri #Vimada #Pipru 
 set msg[6] Invoke #Indra #Kutsa #Susna #Atithigva #Sambara #Arbuda #Soma #Aryas #Vamra #Usana
 set msg[7] Invoke #Indra #Vata #Kavya #Saryata #Kaksivan #Vrcaya #Mena #Vrsansva #Pajras
 set msg[8] Invoke #Indra #Kutsa #Agni #Asura #Turvasa #Yadu #Hero
-set msg[9] Invoke #Indra then #Surya #Sage #Kutsa #Susna
-
+set msg[9] Invoke #Indra #Surya #Sage #Kutsa #Susna
+set msg[10] Invoke #Indra #Dasyu #Sage #Surya #Kutsa #Susna
+set msg[11] Invoke #Indra #Sage #Rbhus #Satakratu #Angirases #Atri #Vimada
+set msg[12] Invoke #Indra #Vrtra #Pipru #Rjisvan #Dasyus #Kutsa #Susna
+set msg[13] Invoke #Indra #Atithigva #Sambara #Arbuda #Soma
+set msg[14] Invoke #Indra #Aryas #Dasyus #Vamra #Usana #Vata #Kavya #Usana
+set msg[15] Invoke #Indra #Susna #Soma #Saryata #Kaksivan #Vrcaya
+set msg[16] Invoke #Indra #Mena #Vrsansva #Pajras
+set msg[17] Invoke #Indra #LXII #Rbhus #Kuts #Susna #Vrtra
 if %people%
   wait 1 sec
   say %themsg%
