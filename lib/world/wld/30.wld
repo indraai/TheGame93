@@ -47,16 +47,16 @@ D5
 ~
 0 0 2683
 E
-oracle~
-adv:world:3001/oracle
+paintings~
+adv:world:3001/paintings
 ~
 E
 hymn~
 adv:world:3001/hymn
 ~
 E
-paintings~
-adv:world:3001/paintings
+oracle~
+adv:world:3001/oracle
 ~
 S
 T 3017
@@ -182,12 +182,12 @@ adv:world:3006/look
 ~
 0 -1 3006
 E
-symbols~
-adv:world:3007/symbols
-~
-E
 sign~
 adv:world:3007/sign
+~
+E
+symbols~
+adv:world:3007/symbols
 ~
 S
 #3008
@@ -216,16 +216,16 @@ adv:world:3013/look
 ~
 0 -1 3013
 E
-sign~
-adv:world:3009/sign
+pastries~
+adv:world:3009/pastries
 ~
 E
 bread~
 adv:world:3009/bread
 ~
 E
-pastries~
-adv:world:3009/pastries
+sign~
+adv:world:3009/sign
 ~
 S
 #3010
@@ -520,7 +520,7 @@ adv:world:3044/look
 0 -1 3044
 S
 #3025
-The Square~
+The Spot~
 adv:world:3025/main
 ~
 30 0 0 0 0 1
@@ -697,20 +697,20 @@ adv:world:3052/look
 gate~
 1 3112 3052
 E
-wall~
-adv:world:3040/wall
-~
-E
-tower towers~
-adv:world:3040/towers
+bridge footbridge~
+adv:world:look/3040/bridge
 ~
 E
 gate~
 adv:world:3040/gate
 ~
 E
-bridge footbridge~
-adv:world:look/3040/bridge
+tower towers~
+adv:world:3040/towers
+~
+E
+wall~
+adv:world:3040/wall
 ~
 S
 #3041
@@ -734,20 +734,20 @@ adv:world:3016/look
 ~
 0 -1 3016
 E
-wall~
-adv:world:3041/wall
-~
-E
-tower towers~
-adv:world:3041/towers
+bridge footbridge~
+adv:world:3041/bridge
 ~
 E
 gate~
 adv:world:3041/gate
 ~
 E
-bridge footbridge~
-adv:world:3041/bridge
+tower towers~
+adv:world:3041/towers
+~
+E
+wall~
+adv:world:3041/wall
 ~
 S
 #3042
@@ -800,17 +800,17 @@ D3
 ~
 0 0 18600
 E
-wall~
-adv:world:3043/wall
-~
-E
 wall writing letters~
 adv:world:3043/letters
+~
+E
+wall~
+adv:world:3043/wall
 ~
 S
 T 3106
 #3044
-Poor Alley~
+The Gallery~
 adv:world:3044/main
 ~
 30 0 0 0 0 1
@@ -936,16 +936,16 @@ adv:world:3100/look
 ~
 0 -1 3100
 E
-wall~
-adv:world:3051/wall
+bridge~
+adv:world:3051/bridge
 ~
 E
 opening~
 adv:world:3051/opening
 ~
 E
-bridge~
-adv:world:3051/bridge
+wall~
+adv:world:3051/wall
 ~
 S
 #3052
@@ -964,20 +964,20 @@ adv:world:6092/look
 ~
 0 -1 6092
 E
-wall~
-adv:world:3052/wall
-~
-E
-tower towers~
-adv:world:3052/towers
+bridge footbridge~
+adv:world:3052/bridge
 ~
 E
 gate~
 adv:world:3052/gate
 ~
 E
-bridge footbridge~
-adv:world:3052/bridge
+tower towers~
+adv:world:3052/towers
+~
+E
+wall~
+adv:world:3052/wall
 ~
 S
 T 3106
@@ -997,20 +997,20 @@ adv:world:3041/look
 gate~
 1 3112 3041
 E
-wall~
-adv:world:3053/wall
-~
-E
-tower towers~
-adv:world:3053/towers
+bridge footbridge~
+adv:world:3053/bridge
 ~
 E
 gate~
 adv:world:3053/gate
 ~
 E
-bridge footbridge~
-adv:world:3053/bridge
+tower towers~
+adv:world:3053/towers
+~
+E
+wall~
+adv:world:3053/wall
 ~
 S
 T 3106
@@ -1030,12 +1030,12 @@ adv:world:3001/look
 ~
 0 -1 3001
 E
-statue~
-adv:world:3054/statue
-~
-E
 altar~
 adv:world:3054/altar
+~
+E
+statue~
+adv:world:3054/statue
 ~
 S
 #3055
@@ -1197,27 +1197,27 @@ adv:world:3006/look
 ~
 0 -1 3006
 E
-WANTED posters poster wall~
+posters~
 adv:world:3062/posters
-~
-E
-crates~
-adv:world:3062/crates
-~
-E
-cobwebs~
-adv:world:3062/cobwebs
-~
-E
-letters~
-adv:world:3062/letters
 ~
 E
 sign~
 adv:world:3062/sign
 ~
 E
-posters~
+letters~
+adv:world:3062/letters
+~
+E
+cobwebs~
+adv:world:3062/cobwebs
+~
+E
+crates~
+adv:world:3062/crates
+~
+E
+WANTED posters poster wall~
 adv:world:3062/posters
 ~
 S
