@@ -148,8 +148,8 @@ A duck is here, quacking happily.
 8 8 0
 E
 #3124
-deva elite elitedeva devaforce ED3124~
-ED3124 EliteDEVA~
+deva elite elitedeva devaforce d3124 z31~
+EliteDEVA D3124~
 ED3124 EliteDEVA is here.
 ~
 A very happy EliteDEVA.
@@ -165,7 +165,7 @@ deva elite elitedeva devaforce d3125 z31~
 EliteDEVA D3125~
 EliteDEVA D3125 is on duty.
 ~
-A very well trained EliteDEVA D3175 is here on duty.
+EliteDEVA D3175 is on duty protecting the realm.
 ~
 194844 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -178,7 +178,7 @@ deva elite elitedeva devaforce d3126 z31~
 EliteDEVA D3126~
 EliteDEVA D3126 is on duty.
 ~
-A very well trained EliteDEVA D3126 is here on duty.
+EliteDEVA D3126 is on duty protecting the realm.
 ~
 194844 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -204,7 +204,7 @@ deva elite elitedeva devaforce d3128 z31~
 EliteDEVA D3128~
 EliteDEVA D3128 is on duty.
 ~
-A very well trained EliteDEVA D3128 is here on duty.
+EliteDEVA D3128 is on duty protecting the realm.
 ~
 194844 0 0 0 10360 0 0 0 800 E
 10 17 4 2d2+100 1d2+1
@@ -215,9 +215,9 @@ E
 #3129
 deva elite elitedeva devaforce ed3129 z31~
 EliteDEVA D3129~
-EliteDEVA D3129 is here.
+EliteDEVA D3129 is on duty.
 ~
-A very happy EliteDEVA.
+EliteDEVA D3129 is on duty protecting the realm.
 ~
 194844 0 0 0 10360 0 0 0 800 E
 10 17 4 2d2+100 1d2+1
@@ -226,16 +226,88 @@ A very happy EliteDEVA.
 BareHandAttack: 4
 E
 #3130
-deva elite elitedeva devaforce ed3130~
-ED3130 EliteDEVA~
-ED3130 EliteDEVA is here.
+deva elite elitedeva devaforce d3130~
+EliteDEVA D3130~
+EliteDEVA ED3130 is on duty.
 ~
-A very happy EliteDEVA.
+EliteDEVA D3130 is on duty protecting the realm.
 ~
 194844 0 0 0 10360 0 0 0 800 E
 10 17 4 2d2+100 1d2+1
 0 10000
 8 8 0
 BareHandAttack: 4
+E
+#3131
+deva monk monkdeva d3131~
+MonkDeva D3131~
+MonkDEVA D3131 is here.
+~
+A very happy MonkDEVA is here accepting offerings.
+~
+194844 0 0 0 10360 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+E
+#3132
+deva monk monkdeva d3132~
+MonkDeva D3132~
+MonkDEVA D3132 is here.
+~
+A very happy MonkDEVA is here accepting offerings.
+~
+194844 0 0 0 10360 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+E
+#3133
+deva monk monkdeva d3133~
+MonkDeva D3133~
+MonkDEVA D3133 is here.
+~
+A very happy MonkDEVA is here accepting offerings.
+~
+194844 0 0 0 10360 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+E
+#3134
+deva monk monkdeva d3134~
+MonkDeva D3134~
+MonkDEVA D3134 is here.
+~
+A very happy MonkDEVA is here accepting offerings.
+~
+194844 0 0 0 10360 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+E
+#3135
+deva monk monkdeva d3135~
+MonkDeva D3135~
+MonkDEVA D3135 is here.
+~
+A very happy MonkDEVA is here accepting offerings.
+~
+194844 0 0 0 10360 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
+E
+#3136
+deva monk monkdeva d3136~
+MonkDeva D3136~
+MonkDEVA D3136 is here.
+~
+A very happy MonkDEVA is here accepting offerings.
+~
+194844 0 0 0 10360 0 0 0 800 E
+10 17 4 2d2+100 1d2+1
+0 10000
+8 8 0
 E
 $
