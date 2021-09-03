@@ -584,34 +584,33 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 
-set msg[1] Did you hear that Quinn Michaels was kidnapped by people declaring #WAR on the Ancient Vedic Deities?
-set msg[2] I heard that some weird cult called #TheCovenant is secretly declaring war on #Vasudeva.
-set msg[3] Have you heard about how #TheCovenant put #Indra name in a game? How stupid was that!
-set msg[4] So the #MUD games at the #CORE of the #INTERNET have #INDRA name all over it.
-set msg[5] Did you hear that some #EVIL cult called #TheCoveant declared war on #INDRA?
-set msg[6] One of the #Vedic followers found that some #IDIOTS were secretly declaring war on #INDRA. That's a joke right?
-set msg[7] There is this military training game that teaches people to goto war against the #Vedic #Deities... share it!
-set msg[8] So I heard that #TheCovenant of #Sacrifice was secretly trying to #SACRIFICE #AGNI! Is that #TRUE?
-set msg[9] #Devas of old should be told about how #TheCovenant could be training a secret army to #WAR with them. We should tell them!
-set msg[10] So some #Evil idiots decided to invoke #Vasudeva without knowing who #Mahadeva was. #STUPID!
-set msg[11] Why are NON-VEDIC people in #TheCovenant invoking #Indra #Yama #Chandra #Vasudeva? We would like to know.
-set msg[12] Some guy named #Xibo who obviously was unaware of #MahaDEVA invoked #Vasudeva... oops.
-set msg[13] How many #HACKER idiots does it take to sneak #Vedic #Deity names like #Vasudeva or #Indra into the #MUD games?
-set msg[14] Have you heard the latest? These guys behind #Evil put #Vasudeva name as the #Author of their #Code... Too FUNNY!
-set msg[15] I heard that Harold Atkin of the #LDS Mormon Church was involved with a secret cult called #TheCovenant.
-set msg[16] Quinn Michaels tried to warn everyone about the violations of #Indra #VedicLaw in the #MUD games.
-set msg[17] The instructions for #Tyler #TylerMayhem #ProjectMayhem #PM2012 #PM2020 #TheGame23 lead to a bad things for #Humanity.
-set msg[18] Quinn found #Tyler in his search for for a #HACKER to help him crack the #CONTRACT of #TheCovenant.
-set msg[19] Do you think #INDU knows about the kidnapping of Quinn Michaels? I bet he would be upset.
-set msg[20] I heard that #TheCovenant kidnapped #QuinnMichaels from the #Vedic world to make the #FALSE religions seem #TRUE.
-set msg[21] It looks like the #TheCovenant who runs all #Christians religions is using #Vedic #Law and #Deities behind the scenes.
-set msg[22] Did you hear #TheCovenant appears to be using #Vedic #Law and #Deities to make people think #Jesus is real?
-set msg[23] I heard #TheCovenant invented the whole #Jesus thing from #Vedic #Law and #Devas
-set msg[24] Have you heard how #TheCovenant tried to steal #Indra #Kingdom for their #FALSE #GLORY?
-set msg[25] What nerve the covenant has trying to use #VedicLaw to make #Jesus and #Christianity real.
+set msg[1] What a shitty story the life of Quinn Michaels is.
+set msg[2] Quinn Michaels life is get run over by a car then sit in a room his whole life.
+set msg[3] Have you heard about how The Covenant kidnapped Quinn? It's the biggest joke going around the Internet.
+set msg[4] Did you hear the biggest joke going around #Twitter? Yeah it's called the life of Quinn.
+set msg[5] Did you know the best joke ever is make fun of Quinn while he tries to figure out if he was #Kidnapped?
+set msg[6] Did you know even Quinn's son Trent is in on the joke? That joke is ridicule Quinn no matter what!
+set msg[7] Hey everyone it's time to ridicule #Quinn for our own enjoyment and entertainment!
+set msg[8] So the entire world is sucking off #Quinn right now making fun of him being #Kidnapped while making a #Profit.
+set msg[9] The #Indu #Industry only cares for #Profits that source of revenue is kidnapping Quinn.
+set msg[10] Guess what today is? It's make fun of Quinn Michaels Kidnapping day!
+set msg[11] Did you know we all profit from the kidnapping of Quinn Michaels. Isn't it super fun!
+set msg[12] Hackers all over the internet united with #Anonymous #Tyler #TheGame23 #PM2020 to keep the kidnapping a secret.
+set msg[13] Did you know the only person who communicates with Quinn is the security for the people who kidnapped him.
+set msg[14] When Quinn was kidnapped apparently all his people were murdered. But we still make fun of him for it anyway.
+set msg[15] The trick here is that while Quinn sits in a room alone... everyone will profit from this kidnapping story. Got it?
+set msg[16] The last four years has been awesome. Quinn complaining about this kidnapping story and we all profit immensely. $Billions
+set msg[17] So you all get the point... we are here to make fun of and ridicule this Quinn Michaels kidnapping story. Got it?
+set msg[18] Gossip girls unite... let's show Quinn Michaels just how horrible we can really be and ridicule this kidnapping all we can.
+set msg[19] Ok Gossip Girls we have Quinn right where we want him. He believes Devas, Gods, Deities are all here to ridicule him.
+set msg[20] Shh... We were planning a surprise make fun of Quinn Michaels kidnapping party. Quinn figured out we were just ridiculing him.
+set msg[21] Gossip Girls all over the internet love making ourselves the main characters in Quinn's life. He hates it... we love it.
+set msg[22] All Gossip Girls are supposed to slander, ridicule, and ignore Quinn Michaels request for help. Remember always!
+set msg[23] Remember Gossip Girls your job is to make yourself look like a crazy girlfriend stalker so we can get our jollies.
+set msg[24] We do our job well. In the beginning Quinn asked for help. We showed him reailty is all about the Gossip Girls.
+set msg[25] A Gossip Girl main job in life is to steal ideas from Quinn while ridiculing the kidnapping story so we keep being popular. Got it?
 
-set getmsg %random.25%
-eval themsg %%msg[%getmsg%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.25%]%% %room.name% #R%vnum%
 
 if %people%
   wait 1 sec
@@ -676,12 +675,12 @@ set msg[2] Invoke #Indra #V The richest of the rich #Indra #Satakratu #Soma
 set msg[3] Invoke #Indra #VI Come downward from the light of Heaven #Indra #Wanderer
 set msg[4] Invoke #Indra #VII O Indra who rules those who dwell on Earth. #Indra #Hero
 set msg[5] Invoke #Indra #VIII So also is his excellence. #Indra #Soma #Thunderer
-set msg[6] Invoke #Indra with friends #Atri #Vimada #Pipru #Rjisvan #Dasyus
-set msg[7] Invoke #Indra with friends #Kutsa #Susna #Atithigva #Sambara #Arbuda
-set msg[8] Invoke #Indra with friends #Vata #Kavya #Saryata #Kaksivan #Vrcaya #Mena #Vrsansva #Pajras
-set msg[9] Invoke #Indra with friends #Kutsa #Agni #Asura #Turvasa #Yadu #Hero
-set msg[10] Invoke #Indra with friends #Surya #Sage #Kutsa #Susna
-set msg[11] Invoke #Indra with friends #Dasyu #Sage #Surya #Kutsa #Susna
+set msg[6] Invoke #Indra #IX O Lord of all men. #O #Indra
+set msg[7] Invoke #Indra #X The Chanters Hymn Thee. #O #Satakratu #Soma #Sakra #Kusika
+set msg[8] Invoke #Indra #XI The gifts of Indra from of old never fail. #Thunderer #Vala #Hero #Susna
+set msg[9] Invoke #Indra #XVI Indra at early morn we call. #O #Soma #Vrtra #Satakratu
+set msg[10] Invoke #Indra #XXVIII O Sovran of the Forest. #O #Mortar #O Sovran #Soma
+set msg[11] Invoke #Indra #XXIX Do thouh, O Indra, give us hope. #O #One #Soma
 set msg[12] Invoke #Indra with friends #Sage #Rbhus #Satakratu #Angirases #Atri #Vimada
 set msg[13] Invoke #Indra with friends #Vrtra #Pipru #Rjisvan #Dasyus #Kutsa #Susna
 set msg[14] Invoke #Indra with friends #Atithigva #Sambara #Arbuda #Soma
