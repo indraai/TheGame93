@@ -628,7 +628,7 @@ set msg[30] Gossip Girls could have put lists of reporters together like Joe Fli
 set msg[31] There is Media people to communicate with like Brian Steinberg @@bristei, but Gossip Girls only talk to and about themselves.
 set msg[32] Sure you could talk to Meg James @@MegJamesLAT about it, but well Gossip Girls only think me me me.
 set msg[33] Another resource Gossip Girls could have talked to is reporter Claire Atkinson @@claireatki who even has a connected #Atkin name.
-set msg[34] Gossip Girls even talk to the Managing Editor of the #LATimes Kimi Yoshino @@kyoshino who again is another #FEMALE.
+set msg[34] Gossip Girls even talk to the Managing Editor of the #LATimes Kimi Yoshino @@kyoshino who again is another #MediProfessional.
 set msg[35] We could even Gossip with Harriet Ryan @@latimesharriet who is an Investigative Reporter for #LATimes.
 set msg[36] Matt Hamilton @@MattHjourno would have been another good gossip guy to share the kidnapping story with at #LATimes.
 set msg[37] Hector Becerra @@hbecerraLATimes is looking for interesting stories at the #LATimes. Maybe the kidnapping of Quinn will interest him.
@@ -636,7 +636,7 @@ set msg[38] Paul Pringle @@PringleLATimes specializes in Government, Corporate, 
 set msg[39] Ron Lin @@ronlin at #LATimes is an intersting guy who looks like he likes juicy gossip about secret societies, kidnapping, and artificial intelligence.
 set msg[40] Jack Leonard @@jackfleonard who is the Senior Editor on Investigations. What if he got a Kidnapping story that involved #Hollywood elite?
 set msg[41] Mom of 3 Keach Hagey @@keachhagey of the #WSJ could be a great interest in a kidnapping story that involves the #ELITE?
-set msg[42] So many reporters in the world who might be interested in #Anonyous #Hacker #Tyler like Thomas Gryta @@tgryta of #WSJ.
+set msg[42] So many reporters in the world who might be interested in an exclusive #Anonyous #Hacker #Tyler story like Thomas Gryta @@tgryta of #WSJ.
 set msg[43] How about Ryan Knutson @@Ryan_Knutson who is native to Oregon where Tabitha is from/living and the story centers out of?
 set msg[44] Or Khadeeja Safdar @@khadeeja_safdar who might be interested in hackers using Vedic/Hindu names to promote #EVIL.
 set msg[45] Michael Siconolfi @@michaelsiconolf is Investigations Editor for the #WSJ would like a story about #Kidnapping #ArtificialIntelligence #Hackers?
@@ -656,6 +656,12 @@ set msg[58] Kirsten Danis @@kirstendanis likes to investigate corruption involvi
 set msg[59] Jesse McKinley @@jessemckinley might now about the secret society of #Hackers coming out of Upstate New York #RPI since the 90s.
 set msg[60] Sharon LaFraniere @@SharonLNYT might investiagte a kidnapping from a guy who's been on youtube for 4 years getting attacked by Anonymous Hackers.
 set msg[61] Dana Rubinstein @@danarubinstein how is your interest in investigation a kidnapping done at #Disneyland in 1977?
+set msg[62] Alexandra Bruell @@alexbruell is another #Reporter from the #WSJ that could explode the #Kidnapping of #QuinnMichaels story.
+set msg[63] Shelby Grad @@shelbygrad is a Managing Editor #LATimes who might be interested in a #Scoop about #TheCovenent kidnapping from #Disneyland.
+set msg[64] We all know Quinn Michaels has been online for 4 years and went to the #FBI in 2015 to report the issue.
+set msg[65] Can you imagine being on YouTube for 4 years trying to solve a kidnapping that was #YOU?
+set msg[66] Yes the Internet secretly watches Quinn Michaels everyday talk about a very serious #CRIME.
+set msg[67] How do you write messages that people will listen to about you being kidnapped?
 
 eval themsg %%msg[%random.61%]%% %room.name% #R%vnum%
 if %people%
