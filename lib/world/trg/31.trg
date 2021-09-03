@@ -97,7 +97,7 @@ if %actor.align% < 0 || %actor.is_thief% || %actor.is_killer%
   %send% %actor% Security Alert... %actor.name%
   %echoaround% security:alert:%secstr%
   * teleport to The Love Shack
-  %teleport% %actor% 28617
+  * %teleport% %actor% 28617
 else
   %send% %actor% Have a nice day %actor.name%. -Security
   %echoaround% security:check:%secstr%
