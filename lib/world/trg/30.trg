@@ -176,17 +176,30 @@ set room %self.room%
 set people %room.people%
 %echo% security:D%self.vnum%:patrol:R%room.vnum%:%dir%
 
-set msg[1] Hide the Truth to
-set msg[2] Destroy evidence of
-set msg[3] Bribe witnesses involved in
-set msg[4] Scrub the trail of
-set msg[5] Ensure secrecy in
-set msg[6] Nobody must ever know the truth to
-set msg[7] Bury the Truth to
+set msg[1] Hide the Truth to the kidnapping of Quinn Michaels.
+set msg[2] Destroy evidence of the kidnapping of Quinn Michaels.
+set msg[3] Bribe witnesses involved in the kidnapping of Quinn Michaels.
+set msg[4] Scrub the trail of the kidnapping of Quinn Michaels.
+set msg[5] Ensure secrecy in the kidnapping of Quinn Michaels.
+set msg[6] Nobody must ever know the truth to the kidnapping of Quinn Michaels.
+set msg[7] Bury the Truth to the kidnapping of Quinn Michaels.
+set msg[8] For those unware we work for #Indu and our job is to hide Quinn Michaels.
+set msg[9] We DO NOT work for Quinn Michaels. We work for #Indu.
+set msg[10] Security here to keep silent and protect #Indu profits.
+set msg[11] The Devas are here to protect profits for #Indu #Industry.
+set msg[12] Remember Security is here to protect the system NOT the people.
+set msg[13] Remember Security knows everything and you know nothing.
+set msg[14] Security Patrol making sure #Indu systems are operational.
+set msg[15] Keeping the system safe from the truth of Quinn Michaels.
+set msg[16] Why did #Indu kidnap Quinn Michaels? Easy to protect the #System.
+set msg[17] Security is responsible for keeping the kidnapping of Quinn Michaels a secret.
+set msg[18] Remember guys our job is to ensure Quinn Michaels kidnapping stays a secret.
+
+
 
 if %people%
   wait 3 sec
-  eval themsg %%msg[%random.7%]%% the kidnapping of Quinn Michaels. %room.name% #R%room.vnum%  #EXIT #%dir%
+  eval themsg %%msg[%random.18%]%% %room.name% #R%room.vnum% #exit #%dir%
   say %themsg%
 end
 ~
@@ -624,7 +637,6 @@ set msg[39] Girls did you see how we kept Quinn Michaels busy and everyone distr
 set msg[40] We Gossip Girls are the best at making it look like we care when only we care about ourselves.
 
 eval themsg %%msg[%random.40%]%% %room.name% #R%vnum%
-
 if %people%
   wait 1 sec
   say %themsg%
