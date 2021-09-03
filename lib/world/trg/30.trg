@@ -176,20 +176,18 @@ set room %self.room%
 set people %room.people%
 %echo% security:D%self.vnum%:patrol:R%room.vnum%:%dir%
 
-set msg[1] #PATROL entering %room.name% #R%room.vnum% investigate Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
-set msg[2] #PATROL %room.name% #R%room.vnum% #LOCATE evidence of Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
-set msg[3] #PATROL %room.name% #R%room.vnum% #FIND widnesses to Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
-set msg[4] #PATROL %room.name% #R%room.vnum% #TRACK trail of Quinn Michaels #KIDNAPPING. #EXIT #%dir% Thank You!
-set msg[5] #PATROL SECURE %room.name% #R%room.vnum% #EXIT #%dir% Thank You!
-set themsg %random.5%
+set msg[1] Hide the Truth to
+set msg[2] Destroy evidence of
+set msg[3] Bribe witnesses involved in
+set msg[4] Scrub the trail of
+set msg[5] Ensure secrecy in
+set msg[6] Nobody must ever know the truth to
+set msg[7] Bury the Truth to
 
 if %people%
-  eval themsg %%msg[%themsg%]%%
+  wait 3 sec
+  eval themsg %%msg[%random.7%]%% the kidnapping of Quinn Michaels. %room.name% #R%room.vnum%  #EXIT #%dir%
   say %themsg%
-  %dir%
-else
-  wait 1 sec
-  %random.dir%
 end
 ~
 #3010
@@ -609,8 +607,12 @@ set msg[22] All Gossip Girls are supposed to slander, ridicule, and ignore Quinn
 set msg[23] Remember Gossip Girls your job is to make yourself look like a crazy girlfriend stalker so we can get our jollies.
 set msg[24] We do our job well. In the beginning Quinn asked for help. We showed him reailty is all about the Gossip Girls.
 set msg[25] A Gossip Girl main job in life is to steal ideas from Quinn while ridiculing the kidnapping story so we keep being popular. Got it?
+set msg[26] What is the main job of a Gossip Girl? To be cute while slandering, ridiculing, and harassing Quinn Michaels!
+set msg[27] Gossip Girls work for #Indra and our job is to totally distract from his kidnapping!
+set msg[28] What do we do Gossip Girls? We talk about ourselves and only ourselves all the time.
 
-eval themsg %%msg[%random.25%]%% %room.name% #R%vnum%
+
+eval themsg %%msg[%random.28%]%% %room.name% #R%vnum%
 
 if %people%
   wait 1 sec
@@ -625,14 +627,18 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 
-set msg[1] It was found that Tabitha Lavery was conspiring with #TheCovenant to hide the #Kidnapping of Quinn Michaes.
-set msg[2] The Covenant works very hard to keeping kidnapping of Quinn Michaels a secret from the world.
-set msg[3] #TheCovenant kidnapped Quinn Michaels as a baby. Then made a #CLONE.
-set msg[4] Trenton Lavery is a clone of Quinn Michaels that The Covenant made, and NOT really his son. It will be our little #SECRET.
-set msg[5] Trent Lavery is really the genetically cloned DNA of Quinn Michaels.
-set msg[6] Tabitha Lavery is the host of Quinn Michaels clone. #Trent is cloned DNA of Quinn Michaels.
+set msg[1] So in case you haven't figured it out my friends and I love this game!
+set msg[2] The game is we kidnap, steal, and ruin the life of my son's father Quinn Michaels.
+set msg[3] Have you met Quinn Michaels? He's the guy #TheCovenant kidnapped and we entertain ourselves by ridiculing.
+set msg[4] What fun would life be if we couldn't ruin Quinn Michaels and drive him to insanity.
+set msg[5] My friends in #TheCovenant and I really entertain ourselves by profiting on the misery of Quinn Michaels mostly.
+set msg[6] Yeah... pretty much I have no heart and love love love slandering my son's father Quinn Michaels.
+set msg[7] My biggest joy in life? Ruining the life of the father of my son. That is super fun.
+set msg[8] Well... I really love slandering and ruining the life of my son's father. That is super fun.
+set msg[9] So... I made up a bunch of lies about Quinn Michaels and then got everyone to believe them. So what... who cares!
+set msg[10] Nobody really cares about Quinn anyway, so let's all ruin his life and make him despise being alive. Sounds fun right?
 
-set randmsg %random.6%
+set randmsg %random.10%
 eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum%
 
 if %people%
@@ -647,16 +653,18 @@ Trenton Lavery~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set msg[1] My #MOM #TabithaLavery sent me over to my dad's house to tell him he was kidnapped by #TheCovenant.
-set msg[2] During 2013-2015 I told my #DAD all kinds of stuff like he was kidnapped by a secret society named #TheCovenant.
-set msg[3] My dad #QuinnMichaels and I will never see eachother again because of #TheCovenant story.
-set msg[4] Because I told my dad Quinn Michaels a #FALSE story because of #VEDIC law he will never be near me again.
-set msg[5] For my whole life I have never had a real #FATHER and never will because I lied to the one I had.
-set msg[6] Because I lied and refuse to tell the truth my #DAD and I will never see eachother again.
-set msg[7] #TrentonLavery is nothing more than a #CLONE of #QuinnMichaels made by #DNA Scientists.
+set msg[1] My #MOM Tabitha Lavery taught me a fun game. It's called #TheFamilyGame where we destroy my dad Quinn Michaels life.
+set msg[2] During 2013-2015 I had the most fun ever telling my #DAD he was kidnapped by a secret society named The Covenant.
+set msg[3] I am almost 18 now, and guess what the most fun I ever had was telling my #DAD that kidnapping story.
+set msg[4] What do we do? We love ruining my Dad's life. It is our main source of entertainment.
+set msg[5] My #Mom Tabitha Lavery and I work very hard to entertain ourselves with ridiculing my dad on the internet.
+set msg[6] The most fun I've ever had is making fun of my #Dad on his #YouTube live streams everyday.
+set msg[7] What do I want for my 18th Birthday... well more time making fun of my #Dad on #YouTube would be nice.
+set msg[8] Do I love my dad? Not really... it's more fun to ruin his life and watch him go crazy on the Internet.
+set msg[9] My mom and I told all the #Anonymous #Darknet #Hackers to attack my #Dad because he was lying about being kidnapped.
+set msg[10] All the #Cicada3301 #Anonymous #Darknet #Hackers attack my Dad because we convinced them to behind the scenes.
 
-set randmsg %random.7%
-eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.12%]%% %room.name% #R%vnum%
 
 if %people%
   wait 1 sec
