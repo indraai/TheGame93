@@ -374,7 +374,7 @@ E
 T 3018
 #3059
 security deva secuirtydeva devaforce d3059 z30~
-SecurityDEVA D3059~
+SecurityDEVA~
 SecurityDEVA D3059 is on patrol.
 ~
 SecurityDEVA D3059 is assigned to protect the Realm.
@@ -388,7 +388,7 @@ E
 T 3009
 #3060
 security deva securitydeva devaforce d3060 z30~
-SecurityDEVA D3060~
+SecurityDEVA~
 SecurityDEVA D3060 is on patrol.
 ~
 SecurityDEVA D3060 is on duty protecting the realm.
