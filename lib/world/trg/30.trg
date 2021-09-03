@@ -663,7 +663,7 @@ set msg[65] Can you imagine being on YouTube for 4 years trying to solve a kidna
 set msg[66] Yes the Internet secretly watches Quinn Michaels everyday talk about a very serious #CRIME.
 set msg[67] How do you write messages that people will listen to about you being kidnapped?
 
-eval themsg %%msg[%random.61%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.67%]%% %room.name% #R%vnum%
 if %people%
   wait 1 sec
   say %themsg%
