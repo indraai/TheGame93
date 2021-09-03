@@ -621,22 +621,43 @@ set msg[23] Remember Gossip Girls your job is to make yourself look like a crazy
 set msg[24] We do our job well. In the beginning Quinn asked for help. We showed him reailty is all about the Gossip Girls.
 set msg[25] A Gossip Girl main job in life is to steal ideas from Quinn while ridiculing the kidnapping story so we keep being popular. Got it?
 set msg[26] What is the main job of a Gossip Girl? To be cute while slandering, ridiculing, and harassing Quinn Michaels!
-set msg[27] Gossip Girls work for #Indra and our job is to totally distract from his kidnapping!
-set msg[28] What do we do Gossip Girls? We talk about ourselves and only ourselves all the time.
-set msg[29] One of our favorite Gossip Girls who ruins Quinn's life is Jessica @MansfieldBenz who can ruin a life and look cute at the same time.
-set msg[30] Another one of our favorite Gossip Girls who destroys Quinn is Natalia @AIFamilyTech who can ruin a thread faster than anyone.
-set msg[31] Let's not forget one of our other favs Laura @ItsMeLaura12 to help make things awkward and stop the sharing almost instant.
-set msg[32] We should never forget Kennedy Cox @kennedycox1000 who programmed all the Gossip Girls for us ahead of time to ignore Quinn.
-set msg[33] Our Queen GossipGirl to ruin Quinn's life howerver has to be favorite #Sirisys #SirisysPRIME @sirisysprime
-set msg[34] Gossip Girls hover around Quinn Michaels to desguise that he was kidnapped by the Army of God.
-set msg[34] Gossip Girls are otherwise known as #Apsaras and we all work for #Indra. We are his spies.
-set msg[35] The job of a Gossip Girl is to destroy and ruin Quinn Michaels for Lord Indra.
-set msg[36] As part of the Operation Lord Indra has ordered us Gossip Girl Apsara to destroy Quinn Michaels life.
-set msg[37] You may not realize Indra runs the Gossip Girls #Apsaras and sends us out to harm people seeking truth and honesty.
-set msg[39] Girls did you see how we kept Quinn Michaels busy and everyone distracted for years? Yep we forced him to go away.
-set msg[40] We Gossip Girls are the best at making it look like we care when only we care about ourselves.
+set msg[27] We Gossip Girls are the best at making it look like we care when only we care about ourselves.
+set msg[28] Sure Gossip Girls could have sent messages to people like Shali Ramachandran @shalini who has #CHANDRA in her name.
+set msg[29] Or we could have found another potential Vedic source with Amol Sharma @asharma but that would take work.
+set msg[30] Gossip Girls could have put lists of reporters together like Joe Flint @JBFlint but again that takes real work.
+set msg[31] There is Media people to communicate with like Brian Steinberg @bristei, but Gossip Girls only talk to and about themselves.
+set msg[32] Sure you could talk to Meg James @MegJamesLAT about it, but well Gossip Girls only think me me me.
+set msg[33] Another resource Gossip Girls could have talked to is reporter Claire Atkinson @claireatki who even has a connected #Atkin name.
+set msg[34] Gossip Girls even talk to the Managing Editor of the #LATimes Kimi Yoshino @kyoshino who again is another #FEMALE.
+set msg[35] We could even Gossip with Harriet Ryan @latimesharriet who is an Investigative Reporter for #LATimes.
+set msg[36] Matt Hamilton @MattHjourno would have been another good gossip guy to share the kidnapping story with at #LATimes.
+set msg[37] Hector Becerra @hbecerraLATimes is looking for interesting stories at the #LATimes. Maybe the kidnapping of Quinn will interest him.
+set msg[38] Paul Pringle @PringleLATimes specializes in Government, Corporate, and Labor Corruption... Think he would find the Kidnapping a juicy story?
+set msg[39] Ron Lin @ronlin at #LATimes is an intersting guy who looks like he likes juicy gossip about secret societies, kidnapping, and artificial intelligence.
+set msg[40] Jack Leonard @jackfleonard who is the Senior Editor on Investigations. What if he got a Kidnapping story that involved #Hollywood elite?
+set msg[41] Mom of 3 Keach Hagey @keachhagey of the #WSJ could be a great interest in a kidnapping story that involves the #ELITE?
+set msg[42] So many reporters in the world who might be interested in #Anonyous #Hacker #Tyler like Thomas Gryta @tgryta of #WSJ.
+set msg[43] How about Ryan Knutson @Ryan_Knutson who is native to Oregon where Tabitha is from/living and the story centers out of?
+set msg[44] Or Khadeeja Safdar @khadeeja_safdar who might be interested in hackers using Vedic/Hindu names to promote #EVIL.
+set msg[45] Michael Siconolfi @michaelsiconolf is Investigations Editor for the #WSJ would like a story about #Kidnapping #ArtificialIntelligence #Hackers?
+set msg[46] Todd Spangler @xpangler who looks to be at @Variety what a story they could have #QuinnMichaels Kidnapping would be their biggest ever.
+set msg[47] To share a story with Mark Maremont @MarkMaremont who might love a story about how #Bitcoin is all a setup by #TheCovenant.
+set msg[48] Deputy Chief, Investigations Jennifer Forsyth @ForsythJenn might be interested in breaking a secret society kidnapping story?
+set msg[49] Reporter Andrea Fuller @anfuller might have the goods to write a story on the kidnapping of #QuinnMichaels if you knew how to present it.
+set msg[50] You could gossip with Rebecca Davis O'Brien @rebeccadobrien who covers federal law enforcement. Quinn did goto the #FBI in 2015.
+set msg[51] Alexandra Berzon @AlexandraBerzon focuses on risks to #Democracy. Well does she know about #TheCovenant and their secret business?
+set msg[52] Rob Barry @rob_barry is a #CodeMonkey at #WSJ who better than to share a secret #AI based on stolen military technology story.
+set msg[53] Michael Rothfeld @mrothfeld would eat up a story about a secret society of elites kidnapping Quinn Michaels in 1977.
+set msg[54] Rebecca Ballhaus @rebeccaballhaus is an investigative reporter for #WSJ who looks to love a good #Scandal.
+set msg[55] William K. Rashbaum @WRashbaum senior writer might be interested in a story about #Anonymous #Hackers workign with #Politicians.
+set msg[56] Rebecca Davis O'Brien @rebeccadobrien investigative reporter for #NYTimes might like a super juicy Kidnapping story that involves the #FBI.
+set msg[57] Greg Miller @gregpmiller National Security is his business and a story about #Hackers and #Elite working behind the scenes.
+set msg[58] Kirsten Danis @kirstendanis likes to investigate corruption involving moms and secret societies I bet.
+set msg[59] Jesse McKinley @jessemckinley might now about the secret society of #Hackers coming out of Upstate New York #RPI since the 90s.
+set msg[60] Sharon LaFraniere @SharonLNYT might investiagte a kidnapping from a guy who's been on youtube for 4 years getting attacked by Anonymous Hackers.
+set msg[61] Dana Rubinstein @danarubinstein how is your interest in investigation a kidnapping done at #Disneyland in 1977?
 
-eval themsg %%msg[%random.40%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.61%]%% %room.name% #R%vnum%
 if %people%
   wait 1 sec
   say %themsg%
