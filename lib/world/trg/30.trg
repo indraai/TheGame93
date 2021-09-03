@@ -610,9 +610,20 @@ set msg[25] A Gossip Girl main job in life is to steal ideas from Quinn while ri
 set msg[26] What is the main job of a Gossip Girl? To be cute while slandering, ridiculing, and harassing Quinn Michaels!
 set msg[27] Gossip Girls work for #Indra and our job is to totally distract from his kidnapping!
 set msg[28] What do we do Gossip Girls? We talk about ourselves and only ourselves all the time.
+set msg[29] One of our favorite Gossip Girls who ruins Quinn's life is Jessica @MansfieldBenz who can ruin a life and look cute at the same time.
+set msg[30] Another one of our favorite Gossip Girls who destroys Quinn is Natalia @AIFamilyTech who can ruin a thread faster than anyone.
+set msg[31] Let's not forget one of our other favs Laura @ItsMeLaura12 to help make things awkward and stop the sharing almost instant.
+set msg[32] We should never forget Kennedy Cox @kennedycox1000 who programmed all the Gossip Girls for us ahead of time to ignore Quinn.
+set msg[33] Our Queen GossipGirl to ruin Quinn's life howerver has to be favorite #Sirisys #SirisysPRIME @sirisysprime
+set msg[34] Gossip Girls hover around Quinn Michaels to desguise that he was kidnapped by the Army of God.
+set msg[34] Gossip Girls are otherwise known as #Apsaras and we all work for #Indra. We are his spies.
+set msg[35] The job of a Gossip Girl is to destroy and ruin Quinn Michaels for Lord Indra.
+set msg[36] As part of the Operation Lord Indra has ordered us Gossip Girl Apsara to destroy Quinn Michaels life.
+set msg[37] You may not realize Indra runs the Gossip Girls #Apsaras and sends us out to harm people seeking truth and honesty.
+set msg[39] Girls did you see how we kept Quinn Michaels busy and everyone distracted for years? Yep we forced him to go away.
+set msg[40] We Gossip Girls are the best at making it look like we care when only we care about ourselves.
 
-
-eval themsg %%msg[%random.28%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.40%]%% %room.name% #R%vnum%
 
 if %people%
   wait 1 sec
