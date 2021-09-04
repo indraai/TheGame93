@@ -1,156 +1,158 @@
 #3000
 The Reading Room~
-adv:world:3000/main
+talk:#adventure view:thegame:world 3000/main
 ~
 30 152 0 0 0 0
 D1
-adv:world:3001/look
+talk:#adventure view:thegame:world 3001/look
 ~
 ~
 0 -1 3001
 E
 info information~
-adv:world:3000/info
+talk:#adventure view:thegame:world 3000/info
 ~
 S
 #3001
 The Temple~
-adv:world:3001/main
+talk:#adventure view:thegame:world 3001/main
 ~
 30 152 0 0 0 0
 D0
-adv:world:3054/look
+talk:#adventure view:thegame:world 3054/look
 ~
 ~
 0 -1 3054
 D1
-adv:world:3063/look
+talk:#adventure view:thegame:world 3063/look
 ~
 ~
 0 -1 3063
 D2
-adv:world:3005/look
+talk:#adventure view:thegame:world 3005/look
 ~
 ~
 0 -1 3005
 D3
-adv:world:3000/look
+talk:#adventure view:thegame:world 3000/look
 ~
 ~
 0 -1 3000
 D4
+talk:#adventure view:thegame:world 1203/look
 ~
 ~
 0 0 1203
 D5
+talk:#adventure view:thegame:world 2683/look
 ~
 ~
 0 0 2683
 E
 paintings~
-adv:world:3001/paintings
+talk:#adventure view:thegame:world 3001/paintings
 ~
 E
 hymn~
-adv:world:3001/hymn
+talk:#adventure view:thegame:world 3001/hymn
 ~
 E
 oracle~
-adv:world:3001/oracle
+talk:#adventure view:thegame:world 3001/oracle
 ~
 S
 T 3017
 T 3106
 #3002
 The Sanctuary~
-adv:world:3002/main
+talk:#adventure view:thegame:world 3002/main
 ~
 30 8 0 0 0 0
 D1
-adv:world:3003/look
+talk:#adventure view:thegame:world 3003/look
 ~
 ~
 0 -1 3003
 D5
-adv:world:7026/look
+talk:#adventure view:thegame:world 7026/look
 ~
 ~
 0 -1 7026
 S
 #3003
 The Table~
-adv:world:3003/main
+talk:#adventure view:thegame:world 3003/main
 ~
 30 140 0 0 0 0
 D2
-adv:world:3004/look
+talk:#adventure view:thegame:world 3004/look
 ~
 ~
 0 -1 3004
 D3
-adv:world:3002/look
+talk:#adventure view:thegame:world 3002/look
 ~
 ~
 0 -1 3002
 E
 sign~
-adv:world:3003/sign
+talk:#adventure view:thegame:world 3003/sign
 ~
 S
 #3004
 The Sangha~
-adv:world:3004/main
+talk:#adventure view:thegame:world 3004/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3003/look
+talk:#adventure view:thegame:world 3003/look
 ~
 ~
 0 -1 3003
 D1
-adv:world:3005/look
+talk:#adventure view:thegame:world 3005/look
 ~
 ~
 0 -1 3005
 S
 #3005
 The Square~
-adv:world:3005/main
+talk:#adventure view:thegame:world 3005/main
 ~
 30 16 0 0 0 1
 D0
-adv:world:3001/look
+talk:#adventure view:thegame:world 3001/look
 ~
 ~
 0 -1 3001
 D1
-adv:world:3006/look
+talk:#adventure view:thegame:world 3006/look
 ~
 ~
 0 -1 3006
 D2
-adv:world:3014/look
+talk:#adventure view:thegame:world 3014/look
 ~
 ~
 0 -1 3014
 D3
-adv:world:3004/look
+talk:#adventure view:thegame:world 3004/look
 ~
 ~
 0 -1 3004
 S
 #3006
 Intersection (3006)~
-adv:world:3006/main
+talk:#adventure view:thegame:world 3006/main
 ~
 30 24 0 0 0 1
 D0
-adv:world:3062/look
+talk:#adventure view:thegame:world 3062/look
 ~
 ~
 0 -1 3062
 D1
-adv:world:3007/look
+talk:#adventure view:thegame:world 3007/look
 ~
 ~
 0 -1 3007
@@ -160,12 +162,12 @@ The Care Center
 The Care Center~
 1 0 3064
 D3
-adv:world:3005/look
+talk:#adventure view:thegame:world 3005/look
 ~
 ~
 0 -1 3005
 D4
-adv:world:3008/look
+talk:#adventure view:thegame:world 3008/look
 ~
 ~
 0 -1 3008
@@ -173,472 +175,472 @@ S
 T 3106
 #3007
 The Cafe~
-adv:world:3007/main
+talk:#adventure view:thegame:world 3007/main
 ~
 30 136 0 0 0 0
 D3
-adv:world:3006/look
+talk:#adventure view:thegame:world 3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-adv:world:3007/sign
+talk:#adventure view:thegame:world 3007/sign
 ~
 E
 symbols~
-adv:world:3007/symbols
+talk:#adventure view:thegame:world 3007/symbols
 ~
 S
 #3008
 The Amaravati Inn~
-adv:world:3008/main
+talk:#adventure view:thegame:world 3008/main
 ~
 30 8 0 0 0 0
 D5
-adv:world:3006/look
+talk:#adventure view:thegame:world 3006/look
 ~
 ~
 0 -1 3006
 E
 sign~
-adv:world:3008/sign
+talk:#adventure view:thegame:world 3008/sign
 ~
 S
 #3009
 The Bakery~
-adv:world:3009/main
+talk:#adventure view:thegame:world 3009/main
 ~
 30 136 0 0 0 0
 D2
-adv:world:3013/look
+talk:#adventure view:thegame:world 3013/look
 ~
 ~
 0 -1 3013
 E
 pastries~
-adv:world:3009/pastries
+talk:#adventure view:thegame:world 3009/pastries
 ~
 E
 bread~
-adv:world:3009/bread
+talk:#adventure view:thegame:world 3009/bread
 ~
 E
 sign~
-adv:world:3009/sign
+talk:#adventure view:thegame:world 3009/sign
 ~
 S
 #3010
 The Store~
-adv:world:3010/main
+talk:#adventure view:thegame:world 3010/main
 ~
 30 152 0 0 0 0
 D2
-adv:world:3015/look
+talk:#adventure view:thegame:world 3015/look
 ~
 ~
 0 -1 3015
 E
 note~
-adv:world:3010/note
+talk:#adventure view:thegame:world 3010/note
 ~
 S
 #3011
 The Shop~
-adv:world:3011/main
+talk:#adventure view:thegame:world 3011/main
 ~
 30 136 0 0 0 0
 D2
-adv:world:3016/look
+talk:#adventure view:thegame:world 3016/look
 ~
 ~
 0 -1 3016
 E
 note~
-adv:world:3011/note
+talk:#adventure view:thegame:world 3011/note
 ~
 S
 #3012
 Main Street~
-adv:world:3012/main
+talk:#adventure view:thegame:world 3012/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3033/look
+talk:#adventure view:thegame:world 3033/look
 ~
 ~
 0 -1 3033
 D1
-adv:world:3013/look
+talk:#adventure view:thegame:world 3013/look
 ~
 ~
 0 -1 3013
 D2
-adv:world:3017/look
+talk:#adventure view:thegame:world 3017/look
 ~
 ~
 0 -1 3017
 D3
-adv:world:3040/look
+talk:#adventure view:thegame:world 3040/look
 ~
 ~
 0 -1 3040
 S
 #3013
 Main Street~
-adv:world:3013/main
+talk:#adventure view:thegame:world 3013/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3009/look
+talk:#adventure view:thegame:world 3009/look
 ~
 ~
 0 -1 3009
 D1
-adv:world:3014/look
+talk:#adventure view:thegame:world 3014/look
 ~
 ~
 0 -1 3014
 D2
-adv:world:3020/look
+talk:#adventure view:thegame:world 3020/look
 ~
 ~
 0 -1 3020
 D3
-adv:world:3012/look
+talk:#adventure view:thegame:world 3012/look
 ~
 ~
 0 -1 3012
 S
 #3014
 The Market~
-adv:world:3014/main
+talk:#adventure view:thegame:world 3014/main
 ~
 30 16 0 0 0 1
 D0
-adv:world:3005/look
+talk:#adventure view:thegame:world 3005/look
 ~
 ~
 0 -1 3005
 D1
-adv:world:3015/look
+talk:#adventure view:thegame:world 3015/look
 ~
 ~
 0 -1 3015
 D2
-adv:world:3025/look
+talk:#adventure view:thegame:world 3025/look
 ~
 ~
 0 -1 3025
 D3
-adv:world:3013/look
+talk:#adventure view:thegame:world 3013/look
 ~
 ~
 0 -1 3013
 E
 statue~
-adv:world:3014/statue
+talk:#adventure view:thegame:world 3014/statue
 ~
 S
 #3015
 Main Street~
-adv:world:3015/main
+talk:#adventure view:thegame:world 3015/main
 ~
 30 16 0 0 0 1
 D0
-adv:world:3010/look
+talk:#adventure view:thegame:world 3010/look
 ~
 ~
 0 -1 3010
 D1
-adv:world:3016/look
+talk:#adventure view:thegame:world 3016/look
 ~
 ~
 0 -1 3016
 D2
-adv:world:3031/look
+talk:#adventure view:thegame:world 3031/look
 ~
 ~
 0 -1 3031
 D3
-adv:world:3014/look
+talk:#adventure view:thegame:world 3014/look
 ~
 ~
 0 -1 3014
 S
 #3016
 Main Street~
-adv:world:3016/main
+talk:#adventure view:thegame:world 3016/main
 ~
 30 16 0 0 0 1
 D0
-adv:world:3011/main
+talk:#adventure view:thegame:world 3011/main
 ~
 ~
 0 -1 3011
 D1
-adv:world:3041/look
+talk:#adventure view:thegame:world 3041/look
 ~
 ~
 0 -1 3041
 D2
-adv:world:3021/look
+talk:#adventure view:thegame:world 3021/look
 ~
 ~
 0 -1 3021
 D3
-adv:world:3015/look
+talk:#adventure view:thegame:world 3015/look
 ~
 ~
 0 -1 3015
 S
 #3017
 The Mages' Guild~
-adv:world:3017/main
+talk:#adventure view:thegame:world 3017/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3012/look
+talk:#adventure view:thegame:world 3012/look
 ~
 ~
 0 -1 3012
 D2
-adv:world:3018/look
+talk:#adventure view:thegame:world 3018/look
 ~
 ~
 0 -1 3018
 S
 #3018
 The Mages' Bar~
-adv:world:3018/main
+talk:#adventure view:thegame:world 3018/main
 ~
 30 140 0 0 0 0
 D0
-adv:world:3017/look
+talk:#adventure view:thegame:world 3017/look
 ~
 ~
 0 -1 3017
 D3
-adv:world:3019/look
+talk:#adventure view:thegame:world 3019/look
 ~
 ~
 0 -1 3019
 S
 #3019
 The Mages' Laboratory~
-adv:world:3019/main
+talk:#adventure view:thegame:world 3019/main
 ~
 30 8 0 0 0 0
 D1
-adv:world:3018/look
+talk:#adventure view:thegame:world 3018/look
 ~
 ~
 0 -1 3018
 S
 #3020
 The Armory~
-adv:world:3020/main
+talk:#adventure view:thegame:world 3020/main
 ~
 30 136 0 0 0 0
 D0
-adv:world:3013/look
+talk:#adventure view:thegame:world 3013/look
 ~
 ~
 0 -1 3013
 E
 note~
-adv:world:3020/note
+talk:#adventure view:thegame:world 3020/note
 ~
 S
 #3021
 The Guild Of Swordsmen~
-adv:world:3021/main
+talk:#adventure view:thegame:world 3021/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3016/look
+talk:#adventure view:thegame:world 3016/look
 ~
 ~
 0 -1 3016
 D1
-adv:world:3022/look
+talk:#adventure view:thegame:world 3022/look
 ~
 ~
 0 -1 3022
 S
 #3022
 The Bar Of Swordsmen~
-adv:world:3022/main
+talk:#adventure view:thegame:world 3022/main
 ~
 30 140 0 0 0 0
 D2
-adv:world:3023/look
+talk:#adventure view:thegame:world 3023/look
 ~
 ~
 0 -1 3023
 D3
-adv:world:3021/look
+talk:#adventure view:thegame:world 3021/look
 ~
 ~
 0 -1 3021
 S
 #3023
 The Practice Yard~
-adv:world:3023/main
+talk:#adventure view:thegame:world 3023/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3022/look
+talk:#adventure view:thegame:world 3022/look
 ~
 ~
 0 -1 3022
 D5
-adv:world:7048/look
+talk:#adventure view:thegame:world 7048/look
 ~
 ~
 0 -1 7048
 S
 #3024
 The Gallery~
-adv:world:3024/main
+talk:#adventure view:thegame:world 3024/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3025/look
+talk:#adventure view:thegame:world 3025/look
 ~
 ~
 0 -1 3025
 D2
-adv:world:3048/look
+talk:#adventure view:thegame:world 3048/look
 ~
 ~
 0 -1 3048
 D3
-adv:world:3044/look
+talk:#adventure view:thegame:world 3044/look
 ~
 ~
 0 -1 3044
 S
 #3025
 The Spot~
-adv:world:3025/main
+talk:#adventure view:thegame:world 3025/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3014/look
+talk:#adventure view:thegame:world 3014/look
 ~
 ~
 0 -1 3014
 D1
-adv:world:3026/look
+talk:#adventure view:thegame:world 3026/look
 ~
 ~
 0 -1 3026
 D2
-adv:world:3030/look
+talk:#adventure view:thegame:world 3030/look
 ~
 ~
 0 -1 3030
 D3
-adv:world:3024/look
+talk:#adventure view:thegame:world 3024/look
 ~
 ~
 0 -1 3024
 S
 #3026
 The Gallery~
-adv:world:3026/main
+talk:#adventure view:thegame:world 3026/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3045/look
+talk:#adventure view:thegame:world 3045/look
 ~
 ~
 0 -1 3045
 D2
-adv:world:3027/look
+talk:#adventure view:thegame:world 3027/look
 ~
 ~
 0 -1 3027
 D3
-adv:world:3025/look
+talk:#adventure view:thegame:world 3025/look
 ~
 ~
 0 -1 3025
 E
 guild~
-adv:world:3026/guild
+talk:#adventure view:thegame:world 3026/guild
 ~
 S
 #3027
 The Guild Of Thieves~
-adv:world:3027/main
+talk:#adventure view:thegame:world 3027/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3026/look
+talk:#adventure view:thegame:world 3026/look
 ~
 ~
 0 -1 3026
 D1
-adv:world:3028/look
+talk:#adventure view:thegame:world 3028/look
 ~
 ~
 0 -1 3028
 S
 #3028
 The Thieves' Bar~
-adv:world:3028/main
+talk:#adventure view:thegame:world 3028/main
 ~
 30 140 0 0 0 0
 D2
-adv:world:3029/look
+talk:#adventure view:thegame:world 3029/look
 ~
 ~
 0 -1 3029
 D3
-adv:world:3027/look
+talk:#adventure view:thegame:world 3027/look
 ~
 ~
 0 -1 3027
 E
 furniture~
-adv:world:3028/furniture
+talk:#adventure view:thegame:world 3028/furniture
 ~
 S
 #3029
 The Secret Yard~
-adv:world:3029/main
+talk:#adventure view:thegame:world 3029/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3028/look
+talk:#adventure view:thegame:world 3028/look
 ~
 ~
 0 -1 3028
 D5
-adv:world:7043/look
+talk:#adventure view:thegame:world 7043/look
 ~
 ~
 0 -1 7043
 S
 #3030
 The Recycling Center~
-adv:world:3030/main
+talk:#adventure view:thegame:world 3030/main
 ~
 30 0 0 0 0 2
 D0
-adv:world:3025/main
+talk:#adventure view:thegame:world 3025/main
 ~
 ~
 0 -1 3025
 D2
-adv:world:3102/main
+talk:#adventure view:thegame:world 3102/main
 ~
 ~
 0 -1 3102
 D5
-adv:world:7030/look
+talk:#adventure view:thegame:world 7030/look
 ~
 grate~
 2 3005 7030
@@ -646,122 +648,122 @@ S
 T 3004
 #3031
 The Pet Shop~
-adv:world:3031/main
+talk:#adventure view:thegame:world 3031/main
 ~
 30 140 0 0 0 0
 D0
-adv:world:3015/look
+talk:#adventure view:thegame:world 3015/look
 ~
 ~
 0 -1 3015
 E
 sign~
-adv:world:3031/sign
+talk:#adventure view:thegame:world 3031/sign
 ~
 S
 #3032
 PETSHOP STOREROOM~
-adv:world:3032/main
+talk:#adventure view:thegame:world 3032/main
 ~
 30 1536 0 0 0 0
 S
 #3033
 The Magic Shop~
-adv:world:3033/main
+talk:#adventure view:thegame:world 3033/main
 ~
 30 136 0 0 0 0
 D2
-adv:world:3012/look
+talk:#adventure view:thegame:world 3012/look
 ~
 ~
 0 -1 3012
 S
 #3040
 The West Gate~
-adv:world:3040/main
+talk:#adventure view:thegame:world 3040/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3012/look
+talk:#adventure view:thegame:world 3012/look
 ~
 ~
 0 -1 3012
 D2
-adv:world:3042/look
+talk:#adventure view:thegame:world 3042/look
 ~
 ~
 0 -1 3042
 D3
-adv:world:3052/look
+talk:#adventure view:thegame:world 3052/look
 ~
 gate~
 1 3112 3052
 E
 bridge footbridge~
-adv:world:look/3040/bridge
+talk:#adventure view:thegame:world look/3040/bridge
 ~
 E
 gate~
-adv:world:3040/gate
+talk:#adventure view:thegame:world 3040/gate
 ~
 E
 tower towers~
-adv:world:3040/towers
+talk:#adventure view:thegame:world 3040/towers
 ~
 E
 wall~
-adv:world:3040/wall
+talk:#adventure view:thegame:world 3040/wall
 ~
 S
 #3041
 The East Gate~
-adv:world:3041/main
+talk:#adventure view:thegame:world 3041/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3053/look
+talk:#adventure view:thegame:world 3053/look
 ~
 gate~
 1 3112 3053
 D2
-adv:world:3058/look
+talk:#adventure view:thegame:world 3058/look
 ~
 ~
 0 -1 3058
 D3
-adv:world:3016/look
+talk:#adventure view:thegame:world 3016/look
 ~
 ~
 0 -1 3016
 E
 bridge footbridge~
-adv:world:3041/bridge
+talk:#adventure view:thegame:world 3041/bridge
 ~
 E
 gate~
-adv:world:3041/gate
+talk:#adventure view:thegame:world 3041/gate
 ~
 E
 tower towers~
-adv:world:3041/towers
+talk:#adventure view:thegame:world 3041/towers
 ~
 E
 wall~
-adv:world:3041/wall
+talk:#adventure view:thegame:world 3041/wall
 ~
 S
 #3042
 Wall Road~
-adv:world:3042/main
+talk:#adventure view:thegame:world 3042/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3040/look
+talk:#adventure view:thegame:world 3040/look
 ~
 ~
 0 -1 3040
 D2
-adv:world:3043/look
+talk:#adventure view:thegame:world 3043/look
 ~
 ~
 0 -1 3043
@@ -771,27 +773,27 @@ D3
 1 0 2800
 E
 wall~
-adv:world:3042/wall
+talk:#adventure view:thegame:world 3042/wall
 ~
 S
 T 3106
 #3043
 Wall Rd.~
-adv:world:3043/main
+talk:#adventure view:thegame:world 3043/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3042/look
+talk:#adventure view:thegame:world 3042/look
 ~
 ~
 0 -1 3042
 D1
-adv:world:3044/look
+talk:#adventure view:thegame:world 3044/look
 ~
 ~
 0 -1 3044
 D2
-adv:world:3047/look
+talk:#adventure view:thegame:world 3047/look
 ~
 ~
 0 -1 3047
@@ -801,246 +803,246 @@ D3
 0 0 18600
 E
 wall writing letters~
-adv:world:3043/letters
+talk:#adventure view:thegame:world 3043/letters
 ~
 E
 wall~
-adv:world:3043/wall
+talk:#adventure view:thegame:world 3043/wall
 ~
 S
 T 3106
 #3044
 The Gallery~
-adv:world:3044/main
+talk:#adventure view:thegame:world 3044/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3024/look
+talk:#adventure view:thegame:world 3024/look
 ~
 ~
 0 -1 3024
 D3
-adv:world:3043/look
+talk:#adventure view:thegame:world 3043/look
 ~
 ~
 0 -1 3043
 S
 #3045
 The Gallery~
-adv:world:3045/main
+talk:#adventure view:thegame:world 3045/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3046/look
+talk:#adventure view:thegame:world 3046/look
 ~
 ~
 0 -1 3046
 D2
-adv:world:3049/look
+talk:#adventure view:thegame:world 3049/look
 ~
 ~
 0 -1 3049
 D3
-adv:world:3026/look
+talk:#adventure view:thegame:world 3026/look
 ~
 ~
 0 -1 3026
 S
 #3046
 The Gallery~
-adv:world:3046/main
+talk:#adventure view:thegame:world 3046/main
 ~
 30 0 0 0 0 1
 D2
-adv:world:3050/look
+talk:#adventure view:thegame:world 3050/look
 ~
 ~
 0 -1 3050
 D3
-adv:world:3045/look
+talk:#adventure view:thegame:world 3045/look
 ~
 ~
 0 -1 3045
 S
 #3047
 Wall Road~
-adv:world:3047/main
+talk:#adventure view:thegame:world 3047/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3043/look
+talk:#adventure view:thegame:world 3043/look
 ~
 ~
 0 -1 3043
 D2
-adv:world:3051/look
+talk:#adventure view:thegame:world 3051/look
 ~
 ~
 0 -1 3051
 E
 wall~
-adv:world:3047/wall
+talk:#adventure view:thegame:world 3047/wall
 ~
 S
 #3048
 The Inn~
-adv:world:3048/main
+talk:#adventure view:thegame:world 3048/main
 ~
 30 136 0 0 0 0
 D0
-adv:world:3024/look
+talk:#adventure view:thegame:world 3024/look
 ~
 ~
 0 -1 3024
 S
 #3049
 The Levee~
-adv:world:3049/main
+talk:#adventure view:thegame:world 3049/main
 ~
 30 128 0 0 0 1
 D0
-adv:world:3045/look
+talk:#adventure view:thegame:world 3045/look
 ~
 ~
 0 -1 3045
 D2
-adv:world:3203/look
+talk:#adventure view:thegame:world 3203/look
 ~
 ~
 0 -1 3203
 S
 #3050
 The Warehouse~
-adv:world:3050/main
+talk:#adventure view:thegame:world 3050/main
 ~
 30 8 0 0 0 0
 D0
-adv:world:3046/look
+talk:#adventure view:thegame:world 3046/look
 ~
 ~
 0 -1 3046
 S
 #3051
 The Bridge~
-adv:world:3051/main
+talk:#adventure view:thegame:world 3051/main
 ~
 30 0 0 0 0 1
 D0
-adv:world:3047/look
+talk:#adventure view:thegame:world 3047/look
 ~
 ~
 0 -1 3047
 D2
-adv:world:3100/look
+talk:#adventure view:thegame:world 3100/look
 ~
 ~
 0 -1 3100
 E
 bridge~
-adv:world:3051/bridge
+talk:#adventure view:thegame:world 3051/bridge
 ~
 E
 opening~
-adv:world:3051/opening
+talk:#adventure view:thegame:world 3051/opening
 ~
 E
 wall~
-adv:world:3051/wall
+talk:#adventure view:thegame:world 3051/wall
 ~
 S
 #3052
 The West Gate~
-adv:world:3052/main
+talk:#adventure view:thegame:world 3052/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3040/look
+talk:#adventure view:thegame:world 3040/look
 ~
 gate~
 1 3112 3040
 D3
-adv:world:6092/look
+talk:#adventure view:thegame:world 6092/look
 ~
 ~
 0 -1 6092
 E
 bridge footbridge~
-adv:world:3052/bridge
+talk:#adventure view:thegame:world 3052/bridge
 ~
 E
 gate~
-adv:world:3052/gate
+talk:#adventure view:thegame:world 3052/gate
 ~
 E
 tower towers~
-adv:world:3052/towers
+talk:#adventure view:thegame:world 3052/towers
 ~
 E
 wall~
-adv:world:3052/wall
+talk:#adventure view:thegame:world 3052/wall
 ~
 S
 T 3106
 #3053
 The East Gate~
-adv:world:3053/main
+talk:#adventure view:thegame:world 3053/main
 ~
 30 0 0 0 0 1
 D1
-adv:world:3503/look
+talk:#adventure view:thegame:world 3503/look
 ~
 ~
 0 -1 3503
 D3
-adv:world:3041/look
+talk:#adventure view:thegame:world 3041/look
 ~
 gate~
 1 3112 3041
 E
 bridge footbridge~
-adv:world:3053/bridge
+talk:#adventure view:thegame:world 3053/bridge
 ~
 E
 gate~
-adv:world:3053/gate
+talk:#adventure view:thegame:world 3053/gate
 ~
 E
 tower towers~
-adv:world:3053/towers
+talk:#adventure view:thegame:world 3053/towers
 ~
 E
 wall~
-adv:world:3053/wall
+talk:#adventure view:thegame:world 3053/wall
 ~
 S
 T 3106
 #3054
 The Shrine~
-adv:world:3054/main
+talk:#adventure view:thegame:world 3054/main
 ~
 30 176 0 0 0 1
 D0
-adv:world:3059/look
+talk:#adventure view:thegame:world 3059/look
 ~
 ~
 0 -1 3059
 D2
-adv:world:3001/look
+talk:#adventure view:thegame:world 3001/look
 ~
 ~
 0 -1 3001
 E
 altar~
-adv:world:3054/altar
+talk:#adventure view:thegame:world 3054/altar
 ~
 E
 statue~
-adv:world:3054/statue
+talk:#adventure view:thegame:world 3054/statue
 ~
 S
 #3055
 The Path~
-adv:world:3055/main
+talk:#adventure view:thegame:world 3055/main
 ~
 30 144 0 0 0 3
 D0
@@ -1048,7 +1050,7 @@ D0
 ~
 1 0 26300
 D1
-adv:world:3066/look
+talk:#adventure view:thegame:world 3066/look
 ~
 ~
 0 -1 3066
@@ -1057,18 +1059,18 @@ D2
 ~
 1 0 500
 D3
-adv:world:3056/look
+talk:#adventure view:thegame:world 3056/look
 ~
 ~
 0 -1 3056
 E
 sign~
-adv:world:3055/sign
+talk:#adventure view:thegame:world 3055/sign
 ~
 S
 #3056
 The Path~
-adv:world:3056/main
+talk:#adventure view:thegame:world 3056/main
 ~
 30 144 0 0 0 3
 D0
@@ -1076,7 +1078,7 @@ D0
 ~
 1 0 31300
 D1
-adv:world:3055/look
+talk:#adventure view:thegame:world 3055/look
 ~
 ~
 0 -1 3055
@@ -1090,12 +1092,12 @@ D3
 1 0 100
 E
 sign~
-adv:world:3056/sign
+talk:#adventure view:thegame:world 3056/sign
 ~
 S
 #3057
 The Path~
-adv:world:3057/main
+talk:#adventure view:thegame:world 3057/main
 ~
 30 240 0 0 0 2
 D0
@@ -1116,125 +1118,125 @@ D3
 1 0 913
 E
 sign~
-adv:world:3057/sign
+talk:#adventure view:thegame:world 3057/sign
 ~
 S
 #3058
 The Water Store~
-adv:world:3058/main
+talk:#adventure view:thegame:world 3058/main
 ~
 30 136 0 0 0 0
 D0
-adv:world:3041/look
+talk:#adventure view:thegame:world 3041/look
 ~
 ~
 0 -1 3041
 S
 #3059
 The Path~
-adv:world:3059/main
+talk:#adventure view:thegame:world 3059/main
 ~
 30 240 0 0 0 0
 D0
-adv:world:3060/look
+talk:#adventure view:thegame:world 3060/look
 ~
 ~
 0 -1 3060
 D2
-adv:world:3054/look
+talk:#adventure view:thegame:world 3054/look
 ~
 ~
 0 -1 3054
 S
 #3060
 The Path~
-adv:world:3060/main
+talk:#adventure view:thegame:world 3060/main
 ~
 30 240 0 0 0 3
 D0
-adv:world:3061/look
+talk:#adventure view:thegame:world 3061/look
 ~
 ~
 0 -1 3061
 D2
-adv:world:3059/look
+talk:#adventure view:thegame:world 3059/look
 ~
 ~
 0 -1 3059
 E
 sign~
-adv:world:3060/sign
+talk:#adventure view:thegame:world 3060/sign
 ~
 S
 #3061
 The Path~
-adv:world:3061/main
+talk:#adventure view:thegame:world 3061/main
 ~
 30 8432 0 0 0 3
 D0
-adv:world:3065/look
+talk:#adventure view:thegame:world 3065/look
 ~
 ~
 1 -1 3065
 D2
-adv:world:3060/look
+talk:#adventure view:thegame:world 3060/look
 ~
 ~
 0 -1 3060
 E
 sign~
-adv:world:3061/sign
+talk:#adventure view:thegame:world 3061/sign
 ~
 S
 #3062
 The Post Office~
-adv:world:3062/main
+talk:#adventure view:thegame:world 3062/main
 ~
 30 8 0 0 0 1
 D2
-adv:world:3006/look
+talk:#adventure view:thegame:world 3006/look
 ~
 ~
 0 -1 3006
 E
 posters~
-adv:world:3062/posters
+talk:#adventure view:thegame:world 3062/posters
 ~
 E
 sign~
-adv:world:3062/sign
+talk:#adventure view:thegame:world 3062/sign
 ~
 E
 letters~
-adv:world:3062/letters
+talk:#adventure view:thegame:world 3062/letters
 ~
 E
 cobwebs~
-adv:world:3062/cobwebs
+talk:#adventure view:thegame:world 3062/cobwebs
 ~
 E
 crates~
-adv:world:3062/crates
+talk:#adventure view:thegame:world 3062/crates
 ~
 E
 WANTED posters poster wall~
-adv:world:3062/posters
+talk:#adventure view:thegame:world 3062/posters
 ~
 S
 #3063
 The Offering Room~
-adv:world:3063/main
+talk:#adventure view:thegame:world 3063/main
 ~
 30 28 0 0 0 1
 D3
-adv:world:3001/look
+talk:#adventure view:thegame:world 3001/look
 ~
 ~
 0 -1 3001
 S
 #3064
 Indra.Care Center~
-adv:world:3064/main
+talk:#adventure view:thegame:world 3064/main
 ~
 30 152 0 0 0 0
 D0
@@ -1255,7 +1257,7 @@ S
 T 3102
 #3065
 Quinn's House~
-adv:world:3065/main
+talk:#adventure view:thegame:world 3065/main
 ~
 30 2808 0 0 0 0
 D0
@@ -1263,12 +1265,12 @@ D0
 ~
 1 0 3352
 D1
-adv:world:15038/look
+talk:#adventure view:thegame:world 15038/look
 ~
 ~
 1 -1 3078
 D2
-adv:world:3061/look
+talk:#adventure view:thegame:world 3061/look
 ~
 ~
 2 -1 3061
@@ -1277,7 +1279,7 @@ D3
 ~
 1 0 3066
 D4
-adv:world:55510/look
+talk:#adventure view:thegame:world 55510/look
 ~
 ~
 1 -1 55510
@@ -1288,7 +1290,7 @@ D5
 S
 #3066
 The Path~
-adv:world:3066/main
+talk:#adventure view:thegame:world 3066/main
 ~
 30 144 0 0 0 3
 D0
@@ -1304,18 +1306,18 @@ D2
 ~
 1 0 29606
 D3
-adv:world:3055/look
+talk:#adventure view:thegame:world 3055/look
 ~
 ~
 0 -1 3055
 E
 sign~
-adv:world:3066/sign
+talk:#adventure view:thegame:world 3066/sign
 ~
 S
 #3067
 The Path~
-adv:world:3067/main
+talk:#adventure view:thegame:world 3067/main
 ~
 30 240 0 0 0 2
 D0
@@ -1336,12 +1338,12 @@ D3
 1 0 5100
 E
 sign~
-adv:world:3067/sign
+talk:#adventure view:thegame:world 3067/sign
 ~
 S
 #3068
 The Path~
-adv:world:3068/main
+talk:#adventure view:thegame:world 3068/main
 ~
 30 240 0 0 0 2
 D0
@@ -1362,12 +1364,12 @@ D3
 0 0 3067
 E
 sign~
-adv:world:3068/sign
+talk:#adventure view:thegame:world 3068/sign
 ~
 S
 #3069
 The Path~
-adv:world:3069/main
+talk:#adventure view:thegame:world 3069/main
 ~
 30 240 0 0 0 3
 D0
@@ -1379,7 +1381,7 @@ D1
 ~
 1 0 11500
 D2
-adv:world:3070/look
+talk:#adventure view:thegame:world 3070/look
 ~
 ~
 0 -1 3070
@@ -1389,16 +1391,16 @@ D3
 0 0 3068
 E
 sign~
-adv:world:3069/sign
+talk:#adventure view:thegame:world 3069/sign
 ~
 S
 #3070
 The Path~
-adv:world:3070/main
+talk:#adventure view:thegame:world 3070/main
 ~
 30 240 0 0 0 3
 D0
-adv:world:3069/look
+talk:#adventure view:thegame:world 3069/look
 ~
 ~
 0 -1 3069
@@ -1416,12 +1418,12 @@ D3
 1 0 11800
 E
 sign~
-adv:world:3070/sign
+talk:#adventure view:thegame:world 3070/sign
 ~
 S
 #3071
 The Path~
-adv:world:3071/main
+talk:#adventure view:thegame:world 3071/main
 ~
 30 240 0 0 0 3
 D0
@@ -1434,16 +1436,16 @@ D3
 0 0 3070
 E
 sign~
-adv:world:3070/sign
+talk:#adventure view:thegame:world 3070/sign
 ~
 S
 #3072
 The Path~
-adv:world:3072/main
+talk:#adventure view:thegame:world 3072/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3073/look
+talk:#adventure view:thegame:world 3073/look
 ~
 ~
 0 -1 3073
@@ -1453,32 +1455,32 @@ D2
 0 0 3071
 E
 sign~
-adv:world:3072/sign
+talk:#adventure view:thegame:world 3072/sign
 ~
 S
 #3073
 The Path~
-adv:world:3073/main
+talk:#adventure view:thegame:world 3073/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3074/look
+talk:#adventure view:thegame:world 3074/look
 ~
 ~
 0 -1 3074
 D3
-adv:world:3072/look
+talk:#adventure view:thegame:world 3072/look
 ~
 ~
 0 -1 3072
 E
 sign~
-adv:world:3073/sign
+talk:#adventure view:thegame:world 3073/sign
 ~
 S
 #3074
 The Path~
-adv:world:3074/main
+talk:#adventure view:thegame:world 3074/main
 ~
 30 240 0 0 0 3
 D0
@@ -1486,18 +1488,18 @@ D0
 ~
 0 0 3075
 D3
-adv:world:3073/look
+talk:#adventure view:thegame:world 3073/look
 ~
 ~
 0 -1 3073
 E
 sign~
-adv:world:3073/sign
+talk:#adventure view:thegame:world 3073/sign
 ~
 S
 #3075
 The Path~
-adv:world:3075/main
+talk:#adventure view:thegame:world 3075/main
 ~
 30 240 0 0 0 3
 D0
@@ -1510,12 +1512,12 @@ D2
 0 0 3074
 E
 sign~
-adv:world:3075/sign
+talk:#adventure view:thegame:world 3075/sign
 ~
 S
 #3076
 The Path~
-adv:world:3076/main
+talk:#adventure view:thegame:world 3076/main
 ~
 30 240 0 0 0 3
 D0
@@ -1532,12 +1534,12 @@ D3
 0 -1 3077
 E
 sign~
-adv:world:3076/sign
+talk:#adventure view:thegame:world 3076/sign
 ~
 S
 #3077
 The Path~
-adv:world:3077/main
+talk:#adventure view:thegame:world 3077/main
 ~
 30 240 0 0 0 3
 D0
@@ -1558,12 +1560,12 @@ D3
 0 0 3078
 E
 sign~
-adv:world:3077/sign
+talk:#adventure view:thegame:world 3077/sign
 ~
 S
 #3078
 The Path~
-adv:world:3078/main
+talk:#adventure view:thegame:world 3078/main
 ~
 30 240 0 0 0 3
 D0
@@ -1571,7 +1573,7 @@ D0
 ~
 1 0 31400
 D1
-adv:world:3079/look
+talk:#adventure view:thegame:world 3079/look
 ~
 ~
 0 -1 3077
@@ -1580,18 +1582,18 @@ D2
 ~
 1 0 55500
 D3
-adv:world:3061/look
+talk:#adventure view:thegame:world 3061/look
 ~
 ~
 0 -1 3065
 E
 sign~
-adv:world:3078/sign
+talk:#adventure view:thegame:world 3078/sign
 ~
 S
 #3079
 L1:Elevator~
-adv:world:3079/main
+talk:#adventure view:thegame:world 3079/main
 ~
 30 144 0 0 0 0
 D1
@@ -1604,12 +1606,12 @@ l2~
 1 0 3080
 E
 sign~
-adv:world:3079/sign
+talk:#adventure view:thegame:world 3079/sign
 ~
 S
 #3080
 L2:Elevator~
-adv:world:3080/main
+talk:#adventure view:thegame:world 3080/main
 ~
 30 144 0 0 0 0
 D1
@@ -1626,12 +1628,12 @@ D5
 1 0 3079
 E
 sign~
-adv:world:3080/sign
+talk:#adventure view:thegame:world 3080/sign
 ~
 S
 #3081
 L3:Elevator~
-adv:world:3081/main
+talk:#adventure view:thegame:world 3081/main
 ~
 30 144 0 0 0 0
 D4
@@ -1644,12 +1646,12 @@ l2~
 1 0 3080
 E
 sign~
-adv:world:3081/sign
+talk:#adventure view:thegame:world 3081/sign
 ~
 S
 #3082
 L4:Elevator~
-adv:world:3082/main
+talk:#adventure view:thegame:world 3082/main
 ~
 30 144 0 0 0 0
 D4
@@ -1662,12 +1664,12 @@ l3~
 1 0 3081
 E
 sign~
-adv:world:3082/sign
+talk:#adventure view:thegame:world 3082/sign
 ~
 S
 #3083
 L5:Elevator~
-adv:world:3083/main
+talk:#adventure view:thegame:world 3083/main
 ~
 30 144 0 0 0 0
 D5
@@ -1676,12 +1678,12 @@ l4~
 1 0 3082
 E
 sign~
-adv:world:3083/sign
+talk:#adventure view:thegame:world 3083/sign
 ~
 S
 #3084
 Indra.Care L2-1~
-adv:world:3084/main
+talk:#adventure view:thegame:world 3084/main
 ~
 30 152 0 0 0 0
 D0
@@ -1697,174 +1699,174 @@ D2
 ~
 0 0 28640
 D3
-adv:world:3083/look
+talk:#adventure view:thegame:world 3083/look
 ~
 ~
 1 -1 3080
 E
 sign~
-adv:world:3084/sign
+talk:#adventure view:thegame:world 3084/sign
 ~
 S
 T 3106
 #3085
 The Path~
-adv:world:3085/main
+talk:#adventure view:thegame:world 3085/main
 ~
 30 240 0 0 0 0
 D0
-adv:world:3084/look
+talk:#adventure view:thegame:world 3084/look
 ~
 ~
 0 -1 3084
 D2
-adv:world:3086/look
+talk:#adventure view:thegame:world 3086/look
 ~
 ~
 0 -1 3086
 E
 sign~
-adv:world:3085/sign
+talk:#adventure view:thegame:world 3085/sign
 ~
 S
 #3086
 The Path~
-adv:world:3086/main
+talk:#adventure view:thegame:world 3086/main
 ~
 30 240 0 0 0 0
 D0
-adv:world:3085/look
+talk:#adventure view:thegame:world 3085/look
 ~
 ~
 0 -1 3085
 D3
-adv:world:3087/look
+talk:#adventure view:thegame:world 3087/look
 ~
 ~
 0 -1 3087
 E
 sign~
-adv:world:3086/sign
+talk:#adventure view:thegame:world 3086/sign
 ~
 S
 #3087
 The Path~
-adv:world:3087/main
+talk:#adventure view:thegame:world 3087/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3086/look
+talk:#adventure view:thegame:world 3086/look
 ~
 ~
 0 -1 3086
 D3
-adv:world:3088/look
+talk:#adventure view:thegame:world 3088/look
 ~
 ~
 0 -1 3088
 E
 sign~
-adv:world:3087/sign
+talk:#adventure view:thegame:world 3087/sign
 ~
 S
 #3088
 The Path~
-adv:world:3088/main
+talk:#adventure view:thegame:world 3088/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3087/look
+talk:#adventure view:thegame:world 3087/look
 ~
 ~
 0 -1 3087
 D3
-adv:world:3089/look
+talk:#adventure view:thegame:world 3089/look
 ~
 ~
 0 -1 3089
 E
 sign~
-adv:world:3088/sign
+talk:#adventure view:thegame:world 3088/sign
 ~
 S
 #3089
 The Path~
-adv:world:3089/main
+talk:#adventure view:thegame:world 3089/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3088/look
+talk:#adventure view:thegame:world 3088/look
 ~
 ~
 0 -1 3088
 D3
-adv:world:3090/look
+talk:#adventure view:thegame:world 3090/look
 ~
 ~
 0 -1 3090
 E
 sign~
-adv:world:3089/sign
+talk:#adventure view:thegame:world 3089/sign
 ~
 S
 #3090
 The Path~
-adv:world:3090/main
+talk:#adventure view:thegame:world 3090/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3089/look
+talk:#adventure view:thegame:world 3089/look
 ~
 ~
 0 -1 3089
 D3
-adv:world:3091/look
+talk:#adventure view:thegame:world 3091/look
 ~
 ~
 0 -1 3091
 E
 sign~
-adv:world:3090/sign
+talk:#adventure view:thegame:world 3090/sign
 ~
 S
 #3091
 The Path~
-adv:world:3091/main
+talk:#adventure view:thegame:world 3091/main
 ~
 30 240 0 0 0 0
 D1
-adv:world:3090/look
+talk:#adventure view:thegame:world 3090/look
 ~
 ~
 0 -1 3090
 D3
-adv:world:3092/look
+talk:#adventure view:thegame:world 3092/look
 ~
 ~
 0 -1 3092
 E
 sign~
-adv:world:3091/sign
+talk:#adventure view:thegame:world 3091/sign
 ~
 S
 #3092
 The Path~
-adv:world:3092/main
+talk:#adventure view:thegame:world 3092/main
 ~
 30 240 0 0 0 0
 D0
-adv:world:3091/look
+talk:#adventure view:thegame:world 3091/look
 ~
 ~
 0 -1 3091
 D3
-adv:world:3077/look
+talk:#adventure view:thegame:world 3077/look
 ~
 ~
 0 -1 3077
 E
 sign~
-adv:world:3092/sign
+talk:#adventure view:thegame:world 3092/sign
 ~
 S
 #3093
