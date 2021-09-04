@@ -176,30 +176,17 @@ set room %self.room%
 set people %room.people%
 %echo% security:D%self.vnum%:patrol:R%room.vnum%:%dir%
 
-set msg[1] Hide the Truth to the kidnapping of Quinn Michaels.
-set msg[2] Destroy evidence of the kidnapping of Quinn Michaels.
-set msg[3] Bribe witnesses involved in the kidnapping of Quinn Michaels.
-set msg[4] Scrub the trail of the kidnapping of Quinn Michaels.
-set msg[5] Ensure secrecy in the kidnapping of Quinn Michaels.
-set msg[6] Nobody must ever know the truth to the kidnapping of Quinn Michaels.
-set msg[7] Bury the Truth to the kidnapping of Quinn Michaels.
-set msg[8] For those unware we work for #Indu and our job is to hide Quinn Michaels.
-set msg[9] We DO NOT work for Quinn Michaels. We work for #Indu.
-set msg[10] Security here to keep silent and protect #Indu profits.
-set msg[11] The Devas are here to protect profits for #Indu #Industry.
-set msg[12] Remember Security is here to protect the system NOT the people.
-set msg[13] Remember Security knows everything and you know nothing.
-set msg[14] Security Patrol making sure #Indu systems are operational.
-set msg[15] Keeping the system safe from the truth of Quinn Michaels.
-set msg[16] Why did #Indu kidnap Quinn Michaels? Easy to protect the #System.
-set msg[17] Security is responsible for keeping the kidnapping of Quinn Michaels a secret.
-set msg[18] Remember guys our job is to ensure Quinn Michaels kidnapping stays a secret.
-
-
+set msg[1] Reveal Location
+set msg[2] Reveal Evidence
+set msg[3] Reveal Trail
+set msg[4] Reveal History
+set msg[5] Reveal Secrets
+set msg[6] Reveal Truth
+set msg[8] Reveal Guilty
 
 if %people%
   wait 3 sec
-  eval themsg %%msg[%random.18%]%% %room.name% #R%room.vnum% #exit #%dir%
+  eval themsg %%msg[%random.8%]%% #TheCovenant %room.name% #R%room.vnum% then #exit #%dir%
   say %themsg%
 end
 ~
@@ -665,8 +652,8 @@ set msg[67] How do you write messages that people will listen to about you being
 
 eval themsg %%msg[%random.67%]%% %room.name% #R%vnum%
 if %people%
-  wait 1 sec
   say %themsg%
+  wait 60 sec
 end
 ~
 #3019
@@ -692,8 +679,8 @@ set randmsg %random.10%
 eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum%
 
 if %people%
-  wait 1 sec
   say %themsg%
+  wait 60 sec
 end
 ~
 #3020
@@ -717,8 +704,8 @@ set msg[10] All the #Cicada3301 #Anonymous #Darknet #Hackers attack my Dad becau
 eval themsg %%msg[%random.10%]%% %room.name% #R%vnum%
 
 if %people%
-  wait 1 sec
   say %themsg%
+  wait 60 sec
 end
 ~
 #3021
@@ -750,8 +737,8 @@ set msg[19] Invoke #Indra with friends #Soma #Aryas #Vamra #Usana
 
 eval themsg %%msg[%random.19%]%% in %room.name% #R%vnum%
 if %people%
-  wait 1 sec
   say %themsg%
+  wait 60 sec
 end
 ~
 #3096
@@ -800,8 +787,8 @@ set msg[36] Back in the mid 90's at #PaineWebber #Xibo fought the UNIX vs. NT wa
 
 eval themsg %%msg[%random.36%]%% %room.name% #R%vnum%
 if %people%
-  wait 1 sec
   say %themsg%
+  wait 30 sec
 end
 ~
 #3097
@@ -837,8 +824,8 @@ set msg[23] We have a wide menu of membership options to choose from.
 eval themsg %%msg[%random.23%]%% %room.name% #R%vnum%
 
 if %people%
-  wait 1 sec
   say %themsg%
+  wait 30 sec
 end
 ~
 #3099
