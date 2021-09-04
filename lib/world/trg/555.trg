@@ -7,6 +7,7 @@ say My trigger commandlist is not complete!
 #55503
 Elita Two~
 0 b 50
+~
 set msg[1] ​The rock of the antagonism which distorts our view of the perceived object through a partial perspective.
 set msg[2] ​This Real, however, is not the inaccessible Thing, but the gap which prevents ouraccess to it.
 set msg[3] Everything is not just the interplay of appearances, there is aReal.
@@ -16,6 +17,14 @@ set msg[6] Man’s greatness is that he is able to give priority to brilliant ae
 set msg[7] There is no last Reality, just the interplay of multiple appearances.
 set msg[8] We should abandon the very opposition between realityand appearance.
 set msg[9] How much truth a man can endure without diluting or falsifying it?
+set msg[10] ​The point is not simply to “overcome” or interpret away this “contradiction”.
+set msg[11] To dominate? To impose my type onto others? Does my luck not reside precisely in contemplating many others?
+set msg[12] Rather perish than hate and fear, andtwice rather perish than make oneself hated and feared.
+set msg[13] Self-revolutionizing perpetual motion exploding freely when its inherent obstacle is removed.
+set msg[14] Ancient passions and unsettled accounts exploding again.
+set msg[15] He plays a little birdcall on his handcarved whittle whistle.
+set msg[16] ​He sees the red message light blinking on hisbedside phone.
+
 ~
 #55513
 TalkingHorse~
