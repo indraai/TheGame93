@@ -310,7 +310,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Position\r");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", position_types[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", position_types[i], ++count);
   }
 }
 
@@ -322,7 +322,7 @@ static void medit_disp_gender(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Gender\r");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", genders[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", genders[i], ++count);
   }
 }
 
@@ -335,7 +335,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Attack Type\r");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", attack_hit_text[i].singular, i);
+    write_to_output(d, "\nbmud[%s]:%d\r", attack_hit_text[i].singular, i);
   }
 }
 
@@ -386,7 +386,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "\nmenu[%s]:%d\r", action_bits[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", action_bits[i], ++count);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
@@ -407,7 +407,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   write_to_output(d, "\n## Affinity Flags\r");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r", affected_bits[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", affected_bits[i], ++count);
   }
 
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
@@ -456,7 +456,6 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[j:personality]:%s\r"
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
-    "\n====\n"
     "\nmenu[copy agent]:p\r"
 	  "\nmenu[delete agent]:x\r"
 	  "\nmenu[quit]:q\r",
@@ -584,9 +583,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
-        write_to_output(d, "\nMobile saved to disk.\r");
+        write_to_output(d, "\ninfo:Mobile saved to disk.\r");
       } else
-        write_to_output(d, "\nMobile saved to memory.\r");
+        write_to_output(d, "\ninfo:Mobile saved to memory.\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'n':
@@ -598,7 +597,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      write_to_output(d, "Invalid choice!\r\n");
+      write_to_output(d, "\ninfo:Invalid choice!\r");
       write_to_output(d, "%s", confirm_msg);
       return;
     }

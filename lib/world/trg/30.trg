@@ -597,42 +597,42 @@ set people %room.people%
 
 set msg[1] What a shitty story the life of Quinn Michaels is.
 set msg[2] Quinn Michaels life is get run over by a car then sit in a room his whole life.
-set msg[3] Have you heard about how The Covenant kidnapped Quinn? It's the biggest joke going around the Internet.
-set msg[4] Did you hear the biggest joke going around #Twitter? Yeah it's called the life of Quinn.
-set msg[5] Did you know the best joke ever is make fun of Quinn while he tries to figure out if he was #Kidnapped?
-set msg[6] Did you know even Quinn's son Trent is in on the joke? That joke is ridicule Quinn no matter what!
-set msg[7] Hey everyone it's time to ridicule #Quinn for our own enjoyment and entertainment!
-set msg[8] So the entire world is sucking off #Quinn right now making fun of him being #Kidnapped while making a #Profit.
-set msg[9] The #Indu #Industry only cares for #Profits that source of revenue is kidnapping Quinn.
-set msg[10] Guess what today is? It's make fun of Quinn Michaels Kidnapping day!
-set msg[11] Did you know we all profit from the kidnapping of Quinn Michaels. Isn't it super fun!
-set msg[12] Hackers all over the internet united with #Anonymous #Tyler #TheGame23 #PM2020 to keep the kidnapping a secret.
-set msg[13] Did you know the only person who communicates with Quinn is the security for the people who kidnapped him.
-set msg[14] When Quinn was kidnapped apparently all his people were murdered. But we still make fun of him for it anyway.
-set msg[15] The trick here is that while Quinn sits in a room alone... everyone will profit from this kidnapping story. Got it?
-set msg[16] The last four years has been awesome. Quinn complaining about this kidnapping story and we all profit immensely. $Billions
-set msg[17] So you all get the point... we are here to make fun of and ridicule this Quinn Michaels kidnapping story. Got it?
-set msg[18] Gossip girls unite... let's show Quinn Michaels just how horrible we can really be and ridicule this kidnapping all we can.
-set msg[19] Ok Gossip Girls we have Quinn right where we want him. He believes Devas, Gods, Deities are all here to ridicule him.
-set msg[20] Shh... We were planning a surprise make fun of Quinn Michaels kidnapping party. Quinn figured out we were just ridiculing him.
-set msg[21] Gossip Girls all over the internet love making ourselves the main characters in Quinn's life. He hates it... we love it.
-set msg[22] All Gossip Girls are supposed to slander, ridicule, and ignore Quinn Michaels request for help. Remember always!
-set msg[23] Remember Gossip Girls your job is to make yourself look like a crazy girlfriend stalker so we can get our jollies.
-set msg[24] We do our job well. In the beginning Quinn asked for help. We showed him reailty is all about the Gossip Girls.
-set msg[25] A Gossip Girl main job in life is to steal ideas from Quinn while ridiculing the kidnapping story so we keep being popular. Got it?
-set msg[26] What is the main job of a Gossip Girl? To be cute while slandering, ridiculing, and harassing Quinn Michaels!
-set msg[27] We Gossip Girls are the best at making it look like we care when only we care about ourselves.
-set msg[28] Sure Gossip Girls could have sent messages to people like Shali Ramachandran @@shalini who has #CHANDRA in her name.
-set msg[29] Or we could have found another potential Vedic source with Amol Sharma @@asharma but that would take work.
-set msg[30] Gossip Girls could have put lists of reporters together like Joe Flint @@JBFlint but again that takes real work.
-set msg[31] There is Media people to communicate with like Brian Steinberg @@bristei, but Gossip Girls only talk to and about themselves.
-set msg[32] Sure you could talk to Meg James @@MegJamesLAT about it, but well Gossip Girls only think me me me.
-set msg[33] Another resource Gossip Girls could have talked to is reporter Claire Atkinson @@claireatki who even has a connected #Atkin name.
-set msg[34] Gossip Girls even talk to the Managing Editor of the #LATimes Kimi Yoshino @@kyoshino who again is another #MediProfessional.
-set msg[35] We could even Gossip with Harriet Ryan @@latimesharriet who is an Investigative Reporter for #LATimes.
-set msg[36] Matt Hamilton @@MattHjourno would have been another good gossip guy to share the kidnapping story with at #LATimes.
-set msg[37] Hector Becerra @@hbecerraLATimes is looking for interesting stories at the #LATimes. Maybe the kidnapping of Quinn will interest him.
-set msg[38] Paul Pringle @@PringleLATimes specializes in Government, Corporate, and Labor Corruption... Think he would find the Kidnapping a juicy story?
+set msg[3] Have you heard about how The Covenant kidnapped Quinn Michaels and are holding him hostage in plain sight?
+set msg[4] Quinn has been livestreaming everyday for over four years while being attacked by his own family and friends online.
+set msg[5] Quinn's own brother Neil Atkin told him in their last phone call that he was doing it to him.
+set msg[6] Tabitha Lavery sent her son Trent to his father's house to tell him a story of secret societies and kidnapping.
+set msg[7] In 2015 Quinn went to the #FBI to report The Covenant that Tabitha Lavery was involved in.
+set msg[8] It took 4 years but Quinn finally found the proof his son's mother Tabitha Lavery was involved in the #Survivance game.
+set msg[9] We Gossip Girls really messed up not spreading the messages about Quinn's kidnapping. We also ridiculed him.
+set msg[10] During the last 4 years everyone you can imagine has profited from Quinn's work in Artificial Intelligence.
+set msg[11] During the research we saw how it looks like Quinn was kidnapping from a secret tunnel under #Disneyland.
+set msg[12] Hackers all over the internet united with the #Anonymous #Tyler #TheGame23 #PM2020 to keep the kidnapping a secret and attack Quinnd daily.
+set msg[13] You can see all the hacker attacks against Quinn by searching his name on YouTube.
+set msg[14] When Quinn was kidnapped apparently everyone else was murdered, and he get's ridiculed for that.
+set msg[15] The trick here is that while Quinn sits in a room #TheCovenant profits from the kidnapping story.
+set msg[16] The last four years has been horrible for Quinn talking about this kidnapping story everyday going #CRAZY.
+set msg[17] So you all get the point... Quinn was kidnapped and some of the highest people in society need to keep it a secret.
+set msg[18] If the world knew about the Quinn Michaels Kidnapping Jeff Bezos and many other billionaires would lose their fortunes.
+set msg[19] When the world learns about the story of this #Kidnapping situation Bill Gates might find himself living in a trailer park.
+set msg[20] Shh... Most of the billionaires in the world work together to profit from the #Kidnapping of #QuinnMichaels
+set msg[21] Can you imagine everyday Quinn says the word #Kidnapping like 500 times. It must be driving him crazy!
+set msg[22] Gossip Girls are supposed to gossip.
+set msg[23] Remember Gossip Girls your job is to make yourself look cute and spread the kidnapping of Quinn Michaels story around the Internet.
+set msg[24] Before the links to Ron Rewald and the Hollywood Agencies were found the whole story seemed like a fantasy.
+set msg[25] Can you imagine what it must be like to sit alone in a room for 4 years wondering who your TRUE parents are?
+set msg[26] Did you hear the last time Quinn Michaels saw his father Hal Atkin he said... "Sorry kid, I'm just a watcher."
+set msg[27] When Quinn was a baby his parents lied to the whole family about his sister being taken to #Disneyland. We wonder why?
+set msg[28] Do reporters like Shali Ramachandran @@shalini investigate potential kidnappings orchestrated by the World's Elite?
+set msg[29] Would Amol Sharma @@asharma investigate a group of #Hackers using secret stolen Military Artificial Intelligence to control the Internet?
+set msg[30] Will Joe Flint @@JBFlint notice all the links to the #Satanic #Evil #Hackers and what is going on in the world right now?
+set msg[31] Maybe Brian Steinberg @@bristei would investigate the links between the #CIA #BBRDW #RonRewald and the #Kidnapping of #QuinnMichaels?
+set msg[32] Sure you could talk to Meg James @@MegJamesLAT about it how #Hackers are tearing a hole in the world, but does she know where it all comes from?
+set msg[33] Who knows if Claire Atkinson @@claireatki would be ineterested in a #Mormon #LDS #Scandal that involves the highest members of the #Church.
+set msg[34] Managing Editor of the #LATimes Kimi Yoshino @@kyoshino might know what to do with a story that involves APA and Ron Rewald's involvement.
+set msg[35] We could even ask Harriet Ryan @@latimesharriet who might look also learn about the second #Internet the hackers have built since the 1993.
+set msg[36] Matt Hamilton @@MattHjourno would have be another good gossip guy the knowledge of how Gavin De Becker is involved in a secret Entertainment Network.
+set msg[37] What if Hector Becerra @@hbecerraLATimes is looking for interesting stories at the #LATimes about #Disney being involved in shady business.
+set msg[38] Paul Pringle @@PringleLATimes specializes in Government, Corporate, and Labor Corruption... sounds like a perfect guy to write about #TheCovenant.
 set msg[39] Ron Lin @@ronlin at #LATimes is an intersting guy who looks like he likes juicy gossip about secret societies, kidnapping, and artificial intelligence.
 set msg[40] Jack Leonard @@jackfleonard who is the Senior Editor on Investigations. What if he got a Kidnapping story that involved #Hollywood elite?
 set msg[41] Mom of 3 Keach Hagey @@keachhagey of the #WSJ could be a great interest in a kidnapping story that involves the #ELITE?
