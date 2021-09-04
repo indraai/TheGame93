@@ -84,15 +84,12 @@ G 1 55508 50 -1 	(Moonstone)
 
 M 0 55500 5 55508 	(the insects)
 M 0 55504 10 55508 	(the sheep)
-M 0 55503 5 55508 	(the girl)
-E 1 55518 100 17 	(the doll)
+
 M 0 55513 1 55506 	(Mr. Smithy)
 E 1 55523 100 8 	(horseshoes)
 
 M 0 55504 10 55504 	(the sheep)
 
-M 0 55503 5 55502 	(the girl)
-E 1 55518 100 17 	(the doll)
 M 0 55502 10 55501 	(the shepherd)
 E 1 55517 100 16 	(the shepherd's crook)
 M 0 55504 10 55501 	(the sheep)
