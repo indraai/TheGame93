@@ -714,7 +714,7 @@ set msg[8] Do I love my dad? Not really... it's more fun to ruin his life and wa
 set msg[9] My mom and I told all the #Anonymous #Darknet #Hackers to attack my #Dad because he was lying about being kidnapped.
 set msg[10] All the #Cicada3301 #Anonymous #Darknet #Hackers attack my Dad because we convinced them to behind the scenes.
 
-eval themsg %%msg[%random.12%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.10%]%% %room.name% #R%vnum%
 
 if %people%
   wait 1 sec
@@ -749,6 +749,93 @@ set msg[18] Invoke #Indra #LXII friends #Rbhus #Kuts #Susna #Vrtra
 set msg[19] Invoke #Indra with friends #Soma #Aryas #Vamra #Usana
 
 eval themsg %%msg[%random.19%]%% in %room.name% #R%vnum%
+if %people%
+  wait 1 sec
+  say %themsg%
+end
+~
+#3096
+Xibo~
+0 b 50
+~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+set msg[1] Back in the 80's, James Parry was a struggling undergraduate student at Rensselaer Polytechnic Institute, or just "RPI".
+set msg[2] RPI was a medium sized technical school, hidden in upstate New York, one of those faraway places where people send their smart children to hide them from public society.
+set msg[3] This Institution, like others similar to it, was home to a great many insane geniuses.
+set msg[4] One of the benefits of these technical schools was that they were among the early adopters of the Internet.
+set msg[5] After learning about the cult of the subgenius and all the fun those slackers had, James decided that he would take on the persona of #Kibo.
+set msg[6] By leveraging the popularity of USENET, he created a cult following of Kibo, and worked on becoming a self-proclaimed "god" of the net.
+set msg[7] He did this by using a shell script that would grep for any instance of the word "Kibo" in the news spool every day.
+set msg[8] Thus, he gave the appearance of omniscience, as anyone with net.access could mention Kibo in any newsgroup, and he would respond, within a day.
+set msg[9] This led to a stereotype dictated certain things, such as a fondness for Star Trek, the computer game "#hack", and an interest in net.legends such as #Kibo.
+set msg[10] Kibo realized in order give this legend something to stand for, it needed something to stand against, and he created "#Xibo".
+set msg[11] Xibo was regarded as evil, mean, cruel, and restrictive.
+set msg[12] Kibo's driving philosophy was "You're Allowed"; thus, Xibo had to say that "You're Not Allowed"
+set msg[13] At first, Kibo himself played the role of Xibo, but then he got help from some of his classmates, including Harry (who later became Glass Onion) and Mark Hill.
+set msg[14] Mark Hill held the role of Xibo for over a year, but then he graduated and took a job with Oracle.
+set msg[15] In 1989, a math student at a similar institution for disturbed intellectuals, also acquired net.access and began following the ravings of Kibo on USENET.
+set msg[16] Initially this guy was involved with alt.weemba (What's a Weemba?!) and alt.slack (Praise ``Bob''!) but soon graduated to talk.bizarre, where the hardcore dinos played.
+set msg[17] This school was known as the New Mexico Institute for Mining and Technology, or more simply, New Mexico Tech, or even more simply, NMT.
+set msg[18] Our hero graduated from NMT, and became a grad student in the math department at the University of Arizona, which gave him the blessing of retaining net.access.
+set msg[19] He began a conversation with Mark Hill, and expressed an interest in becoming the next #Xibo. Mark mailed a postcard with the words "I resign. --X." and a legend was born.
+set msg[20] #Xibo or #Lazarus is a deeply disturbed individual. Formerly a starving grad student, he's now got a PhD and is employed as an Evil Scientist(TM). https://j.mp/3yIYref
+set msg[21] #Xibo or #Lazarus is also known as Dave Dogruel Chemical Science and Technology Division Los Alamos National Laboratory.
+set msg[22] You can find #Lazarus aka David Dogruel on Linkedin https://www.linkedin.com/in/david-dogruel-89768111/
+set msg[23] Besides his #Darknet activities #Lazarus is also a member of the Los Alamos Mountaineers and has a side job at #REI as of 2009. http://lamountaineers.org/Bios/Dave_Dogruel.html
+set msg[24] If you follow the links page from #Xibo website you'll be directed to Satanic.org https://j.mp/3kM3B40 (dangerous link)
+set msg[24] Xibo is how you will get your link to Evil People Inc. Where you find access to the broader world of the #DARKNET #MUD #MOO realms. https://j.mp/3BEFICr
+set msg[25] As a graduate student, Xibo was extremely disturbed mentally, due to the excessive loneliness one encounters in technical schools.
+set msg[26] After a year on the angst-list, #Xibo and his best buddy Krill-Man(tm) created their own newsgroup, alt.angst that became one of the top 100 most popular newsgroups on the net.
+set msg[27] Xibo took it upon himself at this time to proclaim himself "The Lord of Angst". There were a few other lords of angst, including GrimJim and T.Rev.
+set msg[28] Xibo tried IRC for a while, and built the 95th node on the original IRC network.
+set msg[29] TinyMUD was the original social mud. Every LP, Diku, MUSH, MUCK, MOO, and so on can trace it roots back to TinyMUD.
+set msg[30] #TinyHELL became the hangout of the elite, home of the Random Gang. Xibo was frequently on several of these muds, and would often mud for 8-12 hours a day.
+set msg[31] This led to notoriety on the #net. As a Lord of #Angst #Xibo was an excellent writer and quite a #philosopher.
+set msg[32] After graduation, #Xibo took a job with the #University, working in the economics department, writing trading market simulations.
+set msg[33] In January of 1991, he founded (EVIL!)Mud, which became the largest mud to use #TeenyMud source code.
+set msg[35] Another mud that Xibo was frequently on was the Random Gang's mud, which was actually several different muds, usually run by Random, Moira, or elthar.
+set msg[36] Back in the mid 90's at #PaineWebber #Xibo fought the UNIX vs. NT war for a year and a half, and eventually won.
+
+eval themsg %%msg[%random.36%]%% %room.name% #R%vnum%
+if %people%
+  wait 1 sec
+  say %themsg%
+end
+~
+#3097
+Kibo~
+0 b 50
+~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+set msg[1] Thank you for coming to www.kibo.com. I'm James "Kibo" Parry, who is to the Internet what Charles Nelson Reilly was to "Match Game '77".
+set msg[2] If you've ever read Usenet news, you've likely seen me hanging around various groups.
+set msg[3] If it hadn't been for Ross Perot, Kibo would never have had the idea to run as a "wacky" candidate!
+set msg[4] Kibo has patented a computer which is a mouse.
+set msg[5] If you want your computer to go into a folder, you simply slide it across the floor and put it in the filing cabinet.
+set msg[6] Kibo thinks tomatoes are still poisonous.
+set msg[7] Kibo once sabotaged "Mr. Rogers' Neighborhood" by hijacking the trolley to Cuba.
+set msg[8] When (not if) you click the link below you will receive a lifetime membership in Kibo's Do What I Say Club.
+set msg[9] Kibo's Do What I Say Club is the most powerful social force propelling our civilization into the heart of the 21st century.
+set msg[10] All you have to do is spread the NEW rumors that Kibo has devised.
+set msg[11] These are much better than the old ones because most of them are about Kibo.
+set msg[12] Club 91 is a secret fraternity for those Kibologists who posted to alt.religion.kibology during 1991.
+set msg[13] Ssh! The secret Club 91 power word, which can destroy the entire Universe with its magical force, must never be uttered aloud, typed, or charaded.
+set msg[14] However, if someone calls out "BURLAP!!!" all Club 91 members must immediately leave the room screaming in panic.
+set msg[15] Our secret Veronica Lodge is located in a quiet suburb of Riverdale, a community which we have isolated from the outside world.
+set msg[16] To gain entry to the lodge, you must show a membership card, demonstrate the secret handshake, and prove that you know the word.
+set msg[17] What would a secret society be without a secret police force? The Knights of Ninety-One defend Club 91 against intrusions.
+set msg[18] Most stores have a secret discount for Club 91 members.
+set msg[19] Club 91 members are issued special Get Out Of Jail Free cards that really work.
+set msg[20] Club 91 members are issued License To Kill and a License To Not Be Killed.
+set msg[21] We cannot reveal details of the initiation here.
+set msg[23] We have a wide menu of membership options to choose from.
+
+eval themsg %%msg[%random.23%]%% %room.name% #R%vnum%
+
 if %people%
   wait 1 sec
   say %themsg%

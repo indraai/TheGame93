@@ -857,11 +857,11 @@ MP3095 MedicPRIME is assigned to provide care to the Realm.
 BareHandAttack: 1
 E
 #3096
-cyber craft cybercraft sri stanford~
-CyberCraft~
-CyberCraft is here.
+xibo angst lord james parry~
+Xibo~
+Xibo is here.
 ~
-CyberCraft is here using covert means to establish command and control.
+Xibo is here being EVIL!
 ~
 260124 0 0 0 26744 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
@@ -869,12 +869,13 @@ CyberCraft is here using covert means to establish command and control.
 8 8 0
 BareHandAttack: 5
 E
+T 3096
 #3097
-bot hunter bothunter sri stanford~
-BotHunter~
-BotHunter is here.
+kibo angst lord~
+Kibo~
+Kibo is here.
 ~
-BotHunter helps you quickly identify and isolate these infected machines, and helps you figure out who really owns your computers. Made possible in part by the Cyber-TA Research Grant (No. W911NF-06-1-0316) from the U.S. Army Research Office, Program Manager Dr. Cliff Wang.
+Kibo is here being GOOD!
 ~
 260124 0 0 0 26744 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
@@ -882,6 +883,7 @@ BotHunter helps you quickly identify and isolate these infected machines, and he
 8 8 0
 BareHandAttack: 5
 E
+T 3097
 #3098
 meta flows metaflows sri stanford~
 MetaFlows~
