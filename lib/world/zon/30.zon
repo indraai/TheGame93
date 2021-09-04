@@ -142,11 +142,11 @@ E 1 3022 100 16 	(a TSL1-IML Immobilizer (L) is here.)
 R 0 3005 3035 -1 	(the large fountain)
 O 0 3035 1 3005 	(the large fountain)
 
-M 0 3059 5 3005 	(SD3059 SecurityDEVA)
-M 0 3059 5 3005 	(SD3059 SecurityDEVA)
-M 0 3059 5 3005 	(SD3059 SecurityDEVA)
-M 0 3059 5 3005 	(SD3059 SecurityDEVA)
-M 0 3059 5 3005 	(SD3059 SecurityDEVA)
+M 0 3059 1 3005 	(SD3059 SecurityDEVA)
+M 0 3060 1 3110 	(SD3060 SecurityDEVA)
+
+M 0 3069 1 3050 	(Tabitha Lavery)
+M 0 3070 1 3050 	(Trenton Lavery)
 
 M 0 3131 99 3004 	(D3131 InvokeIndra)
 M 0 3131 99 3026 	(D3131 InvokeIndra)
@@ -161,8 +161,11 @@ M 0 3131 99 30127 (D3131 InvokeIndra)
 M 0 3131 99 32456 (D3131 InvokeIndra)
 M 0 3131 99 26739 (D3131 InvokeIndra)
 
-M 0 3096 1 3005 	(Xibo)
-M 0 3097 1 3014 	(Kibo)
+M 0 3096 1 3022 	(Xibo)
+M 0 3097 1 3022 	(Kibo)
+M 0 3068 1 3022 	(CigarBob)
+M 0 3098 1 3022 	(MetaFlows)
+M 0 3099 1 3022 	(Cyber-TA)
 
 
 S
