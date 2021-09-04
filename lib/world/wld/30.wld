@@ -1261,6 +1261,7 @@ talk:#adventure view:thegame:world 3065/main
 ~
 30 2808 0 0 0 0
 D0
+talk:#adventure view:thegame:world 3352/look
 ~
 ~
 1 0 3352
@@ -1275,6 +1276,7 @@ talk:#adventure view:thegame:world 3061/look
 ~
 2 -1 3061
 D3
+talk:#adventure view:thegame:world 3066/look
 ~
 ~
 1 0 3066
@@ -1284,6 +1286,7 @@ talk:#adventure view:thegame:world 55510/look
 ~
 1 -1 55510
 D5
+talk:#adventure view:thegame:world 6153/look
 ~
 ~
 1 0 6153
@@ -1294,14 +1297,17 @@ talk:#adventure view:thegame:world 3066/main
 ~
 30 144 0 0 0 3
 D0
+talk:#adventure view:thegame:world 6152/look
 ~
 ~
 1 0 6152
 D1
+talk:#adventure view:thegame:world 6153/look
 ~
 ~
 0 0 3065
 D2
+talk:#adventure view:thegame:world 29606/look
 ~
 ~
 1 0 29606
@@ -1321,14 +1327,17 @@ talk:#adventure view:thegame:world 3067/main
 ~
 30 240 0 0 0 2
 D0
+talk:#adventure view:thegame:world 3057/main
 ~
 ~
 0 0 3057
 D1
+talk:#adventure view:thegame:world 3068/main
 ~
 ~
 0 0 3068
 D2
+talk:#adventure view:thegame:world 5200/main
 ~
 ~
 1 0 5200
