@@ -863,11 +863,11 @@ Xibo is here.
 ~
 Xibo is here being EVIL!
 ~
-260124 0 0 0 26744 0 0 0 0 E
+2136 0 0 0 0 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 0
-BareHandAttack: 5
+8 8 1
+BareHandAttack: 1
 E
 T 3096
 #3097
@@ -877,11 +877,11 @@ Kibo is here.
 ~
 Kibo is here being GOOD!
 ~
-260124 0 0 0 26744 0 0 0 0 E
+2136 0 0 0 0 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 0
-BareHandAttack: 5
+8 8 1
+BareHandAttack: 1
 E
 T 3097
 #3098
