@@ -560,9 +560,12 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     else
       /* send the room description */
       send_to_char(ch, "\n# %s\r"
+        "\n%s\r"
+        "\n=\n"
         "\ntalk:#adventure view:thegame:world %d/main\r"
         "\nroom:%d\r",
         world[IN_ROOM(ch)].name,
+        world[target_room].description,
         GET_ROOM_VNUM(IN_ROOM(ch)),
         GET_ROOM_VNUM(IN_ROOM(ch))
       );
@@ -727,7 +730,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       desc,
       GET_ROOM_VNUM(IN_ROOM(ch))
     );
-  
+
     // page_string(ch->desc, desc, FALSE);
     return;
   }
@@ -824,7 +827,7 @@ ACMD(do_look)
 
       for (i = world[IN_ROOM(ch)].ex_description; i; i = i->next) {
         if (*i->keyword != '.') {
-          send_to_char(ch, "%s%s:\r\n%s",
+          send_to_char(ch, "\n%s%s:\r\n%s",
           (found ? "\r\n" : ""), i->keyword, i->description);
           found = 1;
         }

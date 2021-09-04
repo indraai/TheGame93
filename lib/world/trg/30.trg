@@ -731,15 +731,15 @@ Invoke Indra~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set msg[1] INVOKE  #Indradeva the #Creator!
-set msg[2] INVOKE  #Indradeva the #Builder!
-set msg[3] INVOKE  #Indradeva the #Intelligent!
-set msg[4] INVOKE  #Indradeva the #Wise!
-set msg[5] INVOKE  #Indradeva the #Honest!
-set msg[6] INVOKE  #Indradeva the #Truthful!
-set msg[7] INVOKE  #Indradeva the #True!
-set msg[8] INVOKE  #Indradeva the #Patient!
-set msg[9] INVOKE  #Indradeva the #Artist!
+set msg[1] Invoke #Indradeva the #Creator!
+set msg[2] Invoke #Indradeva the #Builder!
+set msg[3] Invoke #Indradeva the #Intelligent!
+set msg[4] Invoke #Indradeva the #Wise!
+set msg[5] Invoke #Indradeva the #Honest!
+set msg[6] Invoke #Indradeva the #Truthful!
+set msg[7] Invoke #Indradeva the #True!
+set msg[8] Invoke #Indradeva the #Patient!
+set msg[9] Invoke #Indradeva the #Artist!
 
 eval themsg %%msg[%random.9%]%% in %room.name% #R%vnum%
 if %people%
