@@ -1,96 +1,94 @@
 #3000
-deva sage sagedeva d3000~
-Sage D3000~
-A SageDEVA walks around behind the counter, talking to himself.
+xeero geero sage d3000~
+Xeero Geero~
+Xeero Geero around behind the counter, talking to himself.
 ~
-The SageDEVA looks old and wise, and yet he looks like a very powerful sage.
-He is equipped with fine clothing, and is wearing many fine rings and bracelets.
+Xeero Geero looks old and wise, and yet he looks like a very powerful sage. He is equipped with fine clothing, and is wearing many fine rings and bracelets.
 ~
-26635 0 0 0 16 0 0 0 900 E
+26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0
 E
 #3001
-baker deva bakerdeva d3001~
-Baker D3001~
-The Baker DEVA looks at you calmly, wiping flour from his face with one hand.
+shimnok kleero baker d3001~
+Shimnok Kleero~
+Shimnok Kleero looks at you calmly, wiping flour from her face with one hand.
 ~
-A fat, nice looking baker.  But you can see that he has many been eating a few
-too many pastries.
+A nice looking baker.  But you can see that she has many been eating a few too many pastries.
 ~
-26635 0 0 0 16 0 0 0 900 E
+26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 2
 BareHandAttack: 1
 E
 #3002
-grocer deva grocerdeva d3002~
-Grocer D30002~
-A GrocerDEVA stands at the counter, with a patient look on his face.
+astrino feenia grocer d3002~
+Astrino Feenia~
+Astrino Feenia stands at the counter, with a patient look on his face.
 ~
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 ~
-26635 0 0 0 16 0 0 0 900 E
+26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3003
-craft deva makerdeva d3003~
-Craft D3003~
-A CraftDEVA D3003 is standing here.
+gladin dasco craft merchant maker d3003~
+Gladin Dasco~
+Gladin Dasco is here peddling his craft items.
 ~
 He is a young CraftDEVA, who still has lots to learn but he is still eager to sell you his latest implements of creativity and imagination.
 ~
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3004
-armor deva armordeva d3004~
-Armor D3004~
-ArmorDEVA D3004 stands here displaying his new (and previously owned) armors.
+geetch shardeno armor armory d3004~
+Geetch Shardeno~
+Geetch Shardeno stands here displaying his new (and previously owned) armors.
 ~
 An old but very strong armorer.  He has made more suits of armor in his life than you have ever seen.
 ~
-26635 0 0 0 16 0 0 0 900 E
+26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3005
-reception deva receptiondeva d3005~
-Reception D3005~
-ReceptionDEVA D3005 is standing behind the counter here, smiling at you.
+xyla fleemach reception receptionist d3005~
+Xyla Fleemach~
+Xyla Fleemach is standing behind the counter here, smiling at you.
 ~
-You notice a excited look in his face.  He looks like he is paid well and enjoys his job.
+You notice a excited look in her face.  He looks like he is paid well and enjoys her job.
 ~
 59419 0 0 0 65616 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 2
 E
 #3006
-captain fancypants d3006~
-Captain Fancy Pants~
-Mr. Captain Fancy Pants stands here, selling boats.
+captain phancy d3006~
+Capt. Phancy~
+Mr. Captain Phancy stands here, selling boats.
 ~
 This captain has seen more storms than you have cried tears.
 ~
-26635 0 0 0 16 0 0 0 900 E
+26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3007
 wendy bot pandora gossip gossipgirls d3007~
 Wendy~
-Wendy D3007 is here.
+Wendy Bot is here.
 ~
-Wendy D3007 is here to #GOSSIP.
+Wendy Bot is here to #GOSSIP.
 ~
 256152 0 0 0 24584 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -111,35 +109,35 @@ He looks like he may or may not have a green card.
 8 8 0
 E
 #3009
-water deva waterdeva d3009~
-Water D3009~
-Water DEVA D3009 is standing behind the counter.
+wally waterman master d3009~
+Wally Waterman~
+Wally Waterman is behind the counter.
 ~
 Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati Natural Spring Water in his hand.  When he notices you, he proudly displays his fine collection of contemporary waters.
 ~
 26635 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3010
-postmaster mail posatal post d3010~
-Postmaster D3010~
-The head Postmaster DEVA is standing here, waiting to help you with your mail.
+postmaster xil pholox posatal post d3010~
+Postmaster Xil Pholox~
+The head Xil Pholox is standing here, waiting to help you with your mail.
 ~
-The Postmaster seems like a happy old man.  He always on the job making sure indra.email services are in tip top shape. Ensuring a safe, secure, and honest mail delivery system for all in Amaravati.
+The Postmaster Xil Pholox is a happy old man.  He always on the job making sure indra.email services are in tip top shape. Ensuring a safe, secure, and honest mail delivery system for all in Amaravati.
 ~
-518154 0 0 0 65552 0 0 0 1000 E
+518154 0 0 0 65552 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 1
 E
 #3011
-merchant deva merchdeva d3011~
-Merchant D3011~
-Merchant D3011 is laden with gadgets and gizmos.
+merchant gyll frystl d3011~
+Gyll Frystl~
+Gyll Frystl is laden with gadgets and gizmos.
 ~
-A combination of good business sense, charming personality, and good manners has made him a success with his customers.
+Gyll Frystl is a merchant who has a combination of good business sense, charming personality, and good manners has made him a success with his customers.
 ~
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -147,24 +145,24 @@ A combination of good business sense, charming personality, and good manners has
 8 8 0
 E
 #3012
-offering deva offeringdeva d3012~
-Offering D3013~
-Offering DEVA D3013 is here looking out for those who need it.
+janyx philonia offering services d3012~
+Janyx Philonia~
+Janyx Philonia is here helping for those who need it.
 ~
-He immediately reminds you of your best friend.  He is always around to help out those who have hit hard times and need a little boost.
+She immediately reminds you of a caring friend.  She is always here to help out those who have hit hard times and need a little boost.
 ~
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 0
+8 8 2
 E
 T 3016
 #3013
-guide guidedeva deva d3013~
-Guide D3013~
-Guide DEVA D3013 is here to help. "tell guide help" for assistance.
+slatre mcgyvrn guide d3013~
+Slatre McGyvrn~
+Stlatre McGyvrn is here to help. "tell guide help" for assistance.
 ~
-This young man has the sole purpose of helping those who need assistance. He will follow you around Amaravati and provide a walking tour of the local attractions.
+Slatre McGyvrn the sole purpose of helping those who need assistance. You can follow him around Amaravati for a walking tour of the local attractions.
 ~
 10 0 0 0 2128 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -275,16 +273,16 @@ An expert trained warrior with hero status.
 8 8 0
 E
 #3040
-service servicedeva deva d3040~
-ServiceDEVA D3040~
-A ServiceDEVA D3040 watches you calmly, while he skillfully mixes a drink.
+bryn foozl service tender d3040~
+Bryn Foozl~
+Bryn watches you calmly, while he skillfully mixes a drink.
 ~
-A happy looking ServiceDEVA who hates trouble in his bar.
+Bryn Foozl is happy looking fellow who hates trouble in his bar.
 ~
 24586 0 0 0 0 0 0 0 0 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-8 8 0
+8 8 1
 E
 #3041
 service deva servicedeva d3041~

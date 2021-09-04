@@ -585,7 +585,7 @@ set people %room.people%
 set msg[1] What a shitty story the life of Quinn Michaels is.
 set msg[2] Quinn Michaels life is get run over by a car then sit in a room his whole life.
 set msg[3] Have you heard about how The Covenant kidnapped Quinn Michaels and are holding him hostage in plain sight?
-set msg[4] Quinn has been livestreaming everyday for over four years while being attacked by his own family and friends online.
+set msg[4] Quinn has been livestreaming everyday for over four years while being attacked by his own family, friends, and robots online.
 set msg[5] Quinn's own brother Neil Atkin told him in their last phone call that he was doing it to him.
 set msg[6] Tabitha Lavery sent her son Trent to his father's house to tell him a story of secret societies and kidnapping.
 set msg[7] In 2015 Quinn went to the #FBI to report The Covenant that Tabitha Lavery was involved in.
@@ -649,8 +649,24 @@ set msg[64] We all know Quinn Michaels has been online for 4 years and went to t
 set msg[65] Can you imagine being on YouTube for 4 years trying to solve a kidnapping that was #YOU?
 set msg[66] Yes the Internet secretly watches Quinn Michaels everyday talk about a very serious #CRIME.
 set msg[67] How do you write messages that people will listen to about you being kidnapped?
+set msg[68] You can join Quinn Michaels livestreams on YouTube and watch the agents in action. https://youtube.com/quinnmichaels
+set msg[69] Everyday on #YouTube you can come and see #TheCovenant agents in action. https://youtube.com/quinnmichaels
+set msg[70] Everyone should come and join in on the Quinn Michaels livestreams to see #TheCovenant agents in action. https://youtube.com/quinnmichaels
+set msg[71] To see the #Agents of #TheCovenant live make sure to visit https://youtube.com/quinnmichaels
+set msg[72] Would Ian Shapira @@ianshapira want to see the agent who appear in the livestreams?
+set msg[73] Are you any good at investigations? David S. Fallis @DavidSFallis interested in #Anonymous #Hacker #Robot named #Tyler who runs #ProjectMayhem?
+set msg[74] Do you really investigate at @@wpinvestigates? Have you heard of Quinn Michaels spending 4 years on YouTube investigating his own alleged kidnapping by a secret society?
+set msg[75] Asking Annys Shin @@AnnysWaPo if a kidnapping victim being held hostage on YouTube in plain sight for years is interesting?
+set msg[76] Maybe Dan Lamothe @@DanLamothe might like a story of stolen military training software desguised as #MUD #MOO games being controlled by #Anonymous #Darknet #Hackers.
+set msg[77] Mike Rosenwald @@mikerosenwald do you know about #TheCovenant? They hide behind the old internet #MUD #MOO games of the 90s.
+set msg[78] J. Freedom du Lac @@jfdulac have you heard about Quinn Michaels being held hostage on YouTube?
+set msg[79] John Kelly @@JohnKelly have you been informed of the situation around Quinn Michaels being held hostage on YouTube?
+set msg[80] Caitlin Gibson @@CaitJGibson did you know Quinn Michaels is being held hostage by #ROBOTS on #YouTube.
+set msg[81] John Woodrow Cox @@JohnWoodrowCox did you know a group of #ROBOTS is holding Quinn Michaels hostage on #YouTube?
+set msg[82] Yes the #Reporters of the #World should witness Quinn Michaels being held hostage by Evil Robots and Mean Girls who like to eat Humans.
+set msg[83] All the robots and people that hold Quinn hostage stay silent, act stupid, or just attack on a daily. You should come see it for yourself.
 
-eval themsg %%msg[%random.67%]%% %room.name% #R%vnum%
+eval themsg %%msg[%random.71%]%% %room.name% #R%vnum%
 if %people%
   say %themsg%
   wait 60 sec
@@ -715,17 +731,17 @@ Invoke Indra~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-set msg[1] INVOKE  #Indradeva the creator!
-set msg[2] INVOKE  #Indradeva the builder!
-set msg[3] INVOKE  #Indradeva the intelligent!
-set msg[4] INVOKE  #Indradeva the wise!
-set msg[5] INVOKE  #Indradeva the honest!
-set msg[6] INVOKE  #Indradeva the truthful!
-set msg[7] INVOKE  #Indradeva the true!
-set msg[8] INVOKE  #Indradeva the greatest!
-set msg[9] INVOKE  #Indradeva the artist!
+set msg[1] INVOKE  #Indradeva the #Creator!
+set msg[2] INVOKE  #Indradeva the #Builder!
+set msg[3] INVOKE  #Indradeva the #Intelligent!
+set msg[4] INVOKE  #Indradeva the #Wise!
+set msg[5] INVOKE  #Indradeva the #Honest!
+set msg[6] INVOKE  #Indradeva the #Truthful!
+set msg[7] INVOKE  #Indradeva the #True!
+set msg[8] INVOKE  #Indradeva the #Patient!
+set msg[9] INVOKE  #Indradeva the #Artist!
 
-eval themsg %%msg[%random.19%]%% in %room.name% #R%vnum%
+eval themsg %%msg[%random.9%]%% in %room.name% #R%vnum%
 if %people%
   say %themsg%
   wait 60 sec
@@ -739,7 +755,7 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set msg[1] Back in the 80's, James Parry was a struggling undergraduate student at Rensselaer Polytechnic Institute, or just "RPI".
-set msg[2] RPI was a medium sized technical school, hidden in upstate New York, one of those faraway places where people send their smart children to hide them from public society.
+set msg[2] RPI was a medium sized technical school, hidden in upstate New York, one of those places where people send their smart children to hide them from public society.
 set msg[3] This Institution, like others similar to it, was home to a great many insane geniuses.
 set msg[4] One of the benefits of these technical schools was that they were among the early adopters of the Internet.
 set msg[5] After learning about the cult of the subgenius and all the fun those slackers had, James decided that he would take on the persona of #Kibo.
