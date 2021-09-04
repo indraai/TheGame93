@@ -4,6 +4,19 @@ new trigger~
 ~
 say My trigger commandlist is not complete!
 ~
+#55503
+Elita Two~
+0 b 50
+set msg[1] ​The rock of the antagonism which distorts our view of the perceived object through a partial perspective.
+set msg[2] ​This Real, however, is not the inaccessible Thing, but the gap which prevents ouraccess to it.
+set msg[3] Everything is not just the interplay of appearances, there is aReal.
+set msg[4] ​It should now be clearwhat this position is.
+set msg[5] The passion for the Real versus the passion of semblance.
+set msg[6] Man’s greatness is that he is able to give priority to brilliant aestheticappearance over gray reality.
+set msg[7] There is no last Reality, just the interplay of multiple appearances.
+set msg[8] We should abandon the very opposition between realityand appearance.
+set msg[9] How much truth a man can endure without diluting or falsifying it?
+~
 #55513
 TalkingHorse~
 0 b 10
