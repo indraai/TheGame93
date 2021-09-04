@@ -42,17 +42,17 @@ was once a warrior.
 8 8 1
 E
 #55503
-girl child~
-the girl~
-A smiling young girl is here.
+girl child elita two~
+Elita Two~
+A smiling happy young Elita Two is here.
 ~
-   The girl looks shyly at you.  Even at this young age, she has learned enough
-of her culture to be humble.  She jumps rope and looks up at you expectantly.
+Elita looks at you shyly. Even at this young age, she has learned enough of her culture to be humble. She jumps rope and looks up at you expectantly.
 ~
-200 0 0 0 0 0 0 0 1000 E
+260316 0 0 0 24696 0 0 0 1000 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 2
+BareHandAttack: 4
 E
 #55504
 sheep~
