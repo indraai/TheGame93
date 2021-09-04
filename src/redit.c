@@ -451,7 +451,7 @@ static void redit_disp_menu(struct descriptor_data *d)
     "\nselect[e:triggers]:%s\r",
     OLC_NUM(d),
     room->name,
-    // room->description,
+    room->description,
     buf1,
     buf2,
     OLC_SCRIPT(d) ? "Set." : "Not Set."
