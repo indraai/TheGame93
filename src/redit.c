@@ -445,10 +445,10 @@ static void redit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n# Room: %d\r"
     "\nselect[a:name]:%s\r"
-    // "\nselect[2:desc]:%s\r"
-    "\nselect[b:flags]:%s\r"
-    "\nselect[c:type]:%s\r"
-    "\nselect[d:triggers]:%s\r",
+    "\nselect[b:desc]:%s\r"
+    "\nselect[c:flags]:%s\r"
+    "\nselect[d:type]:%s\r"
+    "\nselect[e:triggers]:%s\r",
     OLC_NUM(d),
     room->name,
     // room->description,
@@ -460,12 +460,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[e:north]:%d\r"
-      "\nselect[f:east]:%d\r"
-      "\nselect[g:south]:%d\r"
-      "\nselect[h:west]:%d\r"
-      "\nselect[i:up]:%d\r"
-      "\nselect[j:down]:%d\r",
+      "\nselect[f:north]:%d\r"
+      "\nselect[g:east]:%d\r"
+      "\nselect[h:south]:%d\r"
+      "\nselect[i:west]:%d\r"
+      "\nselect[j:up]:%d\r"
+      "\nselect[k:down]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -482,16 +482,16 @@ static void redit_disp_menu(struct descriptor_data *d)
   } else {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[e:north]:%d\r"
-      "\nselect[f:east]:%d\r"
-      "\nselect[g:south]:%d\r"
-      "\nselect[h:west]:%d\r"
-      "\nselect[i:up]:%d\r"
-      "\nselect[j:down]:%d\r"
-      "\nselect[k:northwest]:%d\r"
-      "\nselect[l:northeast]:%d\r"
-      "\nselect[m:southeast]:%d\r"
-      "\nselect[n:southwest]:%d\r",
+      "\nselect[f:north]:%d\r"
+      "\nselect[g:east]:%d\r"
+      "\nselect[h:south]:%d\r"
+      "\nselect[i:west]:%d\r"
+      "\nselect[j:up]:%d\r"
+      "\nselect[k:down]:%d\r"
+      "\nselect[l:northwest]:%d\r"
+      "\nselect[m:northeast]:%d\r"
+      "\nselect[n:southeast]:%d\r"
+      "\nselect[o:southwest]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -515,11 +515,9 @@ static void redit_disp_menu(struct descriptor_data *d)
     );
   }
   write_to_output(d,
-      "\n----\n"
-      "\nmenu[extra tags]:o\r"
-      "\nmenu[copy room]:p\r"
-      "\nmenu[delete room]:x\r"
-      "\n=\n"
+      "\nbmud[extra tags]:o\r"
+      "\nbmud[copy room]:p\r"
+      "\nbmud[delete room]:x\r"
       "\nmenu[quit]:q\r"
       );
   OLC_MODE(d) = REDIT_MAIN_MENU;
