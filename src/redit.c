@@ -124,7 +124,7 @@ ACMD(do_oasis_redit)
   }
 
   if (save) {
-    send_to_char(ch, "Saving all rooms in zone %d.\r\n", zone_table[OLC_ZNUM(d)].number);
+    send_to_char(ch, "\ninfo: Saving all rooms in zone %d.\r", zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves room info for zone %d.", GET_NAME(ch), zone_table[OLC_ZNUM(d)].number);
 
     /* Save the rooms. */
@@ -244,7 +244,7 @@ void redit_save_internally(struct descriptor_data *d)
   OLC_ROOM(d)->zone = OLC_ZNUM(d);
 
   if ((room_num = add_room(OLC_ROOM(d))) == NOWHERE) {
-    write_to_output(d, "Something went wrong...\r\n");
+    write_to_output(d, "\nerror: Something went wrong.\r");
     log("SYSERR: redit_save_internally: Something failed! (%d)", room_num);
     return;
   }
@@ -363,11 +363,8 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\nselect[3:door name]:%s\r"
 	  "\nselect[4:key]:%d\r"
 	  "\nselect[5:door flags]:'%s'\r"
-    "\n----\n"
-	  "\nmenu:6:delete exit\r"
-    "\n-\n"
-	  "\nmenu:0:done\r",
-
+	  "\nbmud[delete exit]:6\r"
+	  "\nmenu[done]:0\r",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
 	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
 	  OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
@@ -384,11 +381,11 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   write_to_output(d,
     "\n## Doors\r"
-    "\nmenu:0:no door\r"
-	  "\nmenu:1:closable door\r"
-    "\nmenu:2:pickproof door\r"
-    "\nmenu:3:hidden door\r"
-    "\nmenu:4:hidden pickproof door\r"
+    "\nbmud[no door]:0\r"
+	  "\nbmud[closable door]:1\r"
+    "\nbmud[pickproof door]:2\r"
+    "\nbmud[hidden door]:3\r"
+    "\nbmud[hidden pickproof door]:4\r"
   );
 }
 

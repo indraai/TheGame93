@@ -91,15 +91,22 @@ ACMD(do_hit)
 
  one_argument(argument, arg);
 
-  if (!*arg)
+  if (!*arg) {
     send_to_char(ch, "\nalert:Hit who?\r");
-  else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)))
+  }
+  else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
     send_to_char(ch, "\nalert:Player not here.\r");
+  }
+  else if (GET_LEVEL(victim) >= LVL_IMMORT)) {
+
+  }
   else if (vict == ch) {
     send_to_char(ch, "\nalert:Please stop hitting yourself.\r");
     act("\nalert:$n hits $mself.\r", FALSE, ch, 0, vict, TO_ROOM);
-  } else if (AFF_FLAGGED(ch, AFF_CHARM) && (ch->master == vict))
+  }
+  else if (AFF_FLAGGED(ch, AFF_CHARM) && (ch->master == vict)) {
     act("\nalert:$N, you are unable to hit $M.\r", FALSE, ch, 0, vict, TO_CHAR);
+  }
   else {
     if (!CONFIG_PK_ALLOWED && !IS_NPC(vict) && !IS_NPC(ch))
       check_killer(ch, vict);
@@ -109,7 +116,8 @@ ACMD(do_hit)
         hit(ch, vict, TYPE_UNDEFINED);  /* first */
       else hit(vict, ch, TYPE_UNDEFINED);  /* or the victim is first */
         WAIT_STATE(ch, PULSE_VIOLENCE + 2);
-    } else
+    }
+    else
       send_to_char(ch, "\nalert:You are fighting.\r");
   }
 }

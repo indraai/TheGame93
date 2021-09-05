@@ -456,8 +456,8 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[j:personality]:%s\r"
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
-    "\nmenu[copy agent]:p\r"
-	  "\nmenu[delete agent]:x\r"
+    "\nbmud[copy agent]:p\r"
+	  "\nbmud[delete agent]:x\r"
 	  "\nmenu[quit]:q\r",
 
 	  position_types[(int)GET_POS(mob)],
