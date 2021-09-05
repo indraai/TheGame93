@@ -171,26 +171,26 @@ This knight could easily tackle Curley GreenLeaf.
 8 8 0
 E
 #28714
-deva security securitydeva devaforce rd28714~
-SD28714 SecurityDEVA~
+deva security securitydeva devaforce d28714 z287~
+SecurityDEVA D28714~
 SD28714 SecurityDEVA is here.
 ~
 SD28714 SecurityDEVA is assigned to protect the realm.
 ~
-112904 0 0 0 8312 0 0 0 400 E
+112904 0 0 0 8312 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 0
 BareHandAttack: 8
 E
 #28715
-deva guard guarddeva devaforce gd28715~
-GD28715 GuardDEVA~
-GD28715 GuardDEVA is here.
+deva guard guarddeva devaforce d28715 z287~
+GuardDEVA D28715~
+GuardDEVA D28715 is here.
 ~
 A sturdy guardsman, ever vigilant for evil.
 ~
-6410 0 0 0 10360 0 0 0 400 E
+6410 0 0 0 10360 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 0

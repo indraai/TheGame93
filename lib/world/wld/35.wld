@@ -1,20 +1,25 @@
 #3500
 The Plains~
-undefined~
+talk:#adventure view:thegame:world 3500/main
+~
 35 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 4000/look
 ~
 ~
 0 -1 4000
 D1
+talk:#adventure view:thegame:world 3300/main
 ~
 ~
 0 -1 3300
 D2
+talk:#adventure view:thegame:world 3501/main
 ~
 ~
 0 -1 3501
 D3
+talk:#adventure view:thegame:world 10087/main
 ~
 ~
 0 0 10087
@@ -22,60 +27,73 @@ S
 T 3106
 #3501
 The Lane~
-Empty room.~
+talk:#adventure view:thegame:world 3501/main
+~
 35 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 3500/look
 ~
 ~
 0 -1 3500
 D2
+talk:#adventure view:thegame:world 3502/look
 ~
 ~
 0 -1 3502
 S
 #3502
 The Laneway~
-Empty room.~
+talk:#adventure view:thegame:world 3502/main
+~
 35 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 3501/look
 ~
 ~
 0 -1 3501
 D1
+talk:#adventure view:thegame:world 150000/look
 ~
 ~
 0 -1 15000
 D3
+talk:#adventure view:thegame:world 3503/look
 ~
 ~
 0 -1 3503
 D5
+talk:#adventure view:thegame:world 6500/main
 ~
 ~
 0 -1 6500
 S
 #3503
 The City Entrance~
-Empty room.~
+talk:#adventure view:thegame:world 3503/look
+~
 35 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 3502/look
 ~
 ~
 0 -1 3502
 D3
+talk:#adventure view:thegame:world 3053/look
 ~
 ~
 0 -1 3053
 S
 #3504
 The South Gate~
-Empty room.~
+talk:#adventure view:thegame:world 3504/main~
 35 0 0 0 0 3
 D1
+talk:#adventure view:thegame:world 3127/look
 ~
 ~
 0 -1 3127
 D2
+talk:#adventure view:thegame:world 3505/look
 ~
 ~
 0 -1 3505
@@ -83,166 +101,205 @@ S
 T 3106
 #3505
 The Trail To Miden'Nir~
-Empty room.~
+talk:#adventure view:thegame:world 3505/look
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3504/look
 ~
 ~
 0 -1 3504
 D1
+talk:#adventure view:thegame:world 3506/look
 ~
 ~
 0 -1 3506
 D2
+talk:#adventure view:thegame:world 3507/look
 ~
 ~
 0 -1 3507
 D3
+talk:#adventure view:thegame:world 3570/look
 ~
 ~
 0 -1 3570
 S
 #3506
 The Miden'nir~
-Empty room.~
+talk:#adventure view:thegame:world 3506/main
+~
 35 0 0 0 0 3
 D1
+talk:#adventure view:thegame:world 3550/look
 ~
 ~
 0 -1 3550
 D2
+talk:#adventure view:thegame:world 3509/look
 ~
 ~
 0 -1 3509
 D3
+talk:#adventure view:thegame:world 3509/look
 ~
 ~
 0 -1 3505
 S
 #3507
 The Miden'nir~
-Empty room.~
+talk:#adventure view:thegame:world 3507/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3505/look
 ~
 ~
 0 -1 3505
 D2
+talk:#adventure view:thegame:world 3510/look
 ~
 ~
 0 -1 3510
 D3
+talk:#adventure view:thegame:world 3508/look
 ~
 ~
 0 -1 3508
 S
 #3508
 On a Small Path~
-Empty room.~
+talk:#adventure view:thegame:world 3508/main
+~
 35 0 0 0 0 3
 D1
+talk:#adventure view:thegame:world 3507/look
 ~
 ~
 0 -1 3507
 D2
+talk:#adventure view:thegame:world 3511/look
 ~
 ~
 0 -1 3511
 S
 #3509
 The Miden'nir~
-Empty room.~
+talk:#adventure view:thegame:world 3509/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3506/look
 ~
 ~
 0 -1 3506
 D1
+talk:#adventure view:thegame:world 3512/look
 ~
 ~
 0 -1 3512
 D2
+talk:#adventure view:thegame:world 3514/look
 ~
 ~
 0 -1 3514
 S
 #3510
 A Crossroads~
-Empty room.~
+talk:#adventure view:thegame:world 3510/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3507/look
 ~
 ~
 0 -1 3507
 D1
+talk:#adventure view:thegame:world 3514/look
 ~
 ~
 0 -1 3514
 D2
+talk:#adventure view:thegame:world 3516/look
 ~
 ~
 0 -1 3516
 S
 #3511
 The Trail~
-Empty room.~
+talk:#adventure view:thegame:world 3511/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3508/look
 ~
 ~
 0 -1 3508
 D2
+talk:#adventure view:thegame:world 3515/look
 ~
 ~
 0 -1 3515
 S
 #3512
 The Miden'nir~
-Empty room.~
+talk:#adventure view:thegame:world 3512/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3550/look
 ~
 ~
 0 -1 3550
 D2
+talk:#adventure view:thegame:world 3513/look
 ~
 ~
 0 -1 3513
 D3
+talk:#adventure view:thegame:world 3509/look
 ~
 ~
 0 -1 3509
 S
 #3513
 The Miden'nir~
-Empty room.~
+talk:#adventure view:thegame:world 3513/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3512/look
 ~
 ~
 0 -1 3512
 D3
+talk:#adventure view:thegame:world 3514/main
 ~
 ~
 0 -1 3514
 S
 #3514
 The Deep Forest~
-Empty room.~
+talk:#adventure view:thegame:world 3514/main
+~
 35 0 0 0 0 3
 D0
+talk:#adventure view:thegame:world 3509/main
 ~
 ~
 0 -1 3509
 D1
+talk:#adventure view:thegame:world 3513/look
 ~
 ~
 0 -1 3513
 D2
+talk:#adventure view:thegame:world 3517/look
 ~
 ~
 0 -1 3517
 D3
+talk:#adventure view:thegame:world 3510/look
 ~
 ~
 0 -1 3510
