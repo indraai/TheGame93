@@ -97,7 +97,7 @@ ACMD(do_hit)
   else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
     send_to_char(ch, "\nalert:Player not here.\r");
   }
-  else if (GET_LEVEL(victim) >= LVL_IMMORT) {
+  else if (GET_LEVEL(vict) >= LVL_IMMORT) {
     send_to_char(ch, "\nalert:No hitting immortals!\r");
   }
   else if (vict == ch) {
