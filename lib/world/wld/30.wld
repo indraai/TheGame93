@@ -49,16 +49,16 @@ talk:#adventure view:thegame:world 2683/look
 ~
 0 0 2683
 E
-paintings~
-talk:#adventure view:thegame:world 3001/paintings
+oracle~
+talk:#adventure view:thegame:world 3001/oracle
 ~
 E
 hymn~
 talk:#adventure view:thegame:world 3001/hymn
 ~
 E
-oracle~
-talk:#adventure view:thegame:world 3001/oracle
+paintings~
+talk:#adventure view:thegame:world 3001/paintings
 ~
 S
 T 3017
@@ -184,12 +184,12 @@ talk:#adventure view:thegame:world 3006/look
 ~
 0 -1 3006
 E
-sign~
-talk:#adventure view:thegame:world 3007/sign
-~
-E
 symbols~
 talk:#adventure view:thegame:world 3007/symbols
+~
+E
+sign~
+talk:#adventure view:thegame:world 3007/sign
 ~
 S
 #3008
@@ -218,16 +218,16 @@ talk:#adventure view:thegame:world 3013/look
 ~
 0 -1 3013
 E
-pastries~
-talk:#adventure view:thegame:world 3009/pastries
+sign~
+talk:#adventure view:thegame:world 3009/sign
 ~
 E
 bread~
 talk:#adventure view:thegame:world 3009/bread
 ~
 E
-sign~
-talk:#adventure view:thegame:world 3009/sign
+pastries~
+talk:#adventure view:thegame:world 3009/pastries
 ~
 S
 #3010
@@ -573,10 +573,10 @@ talk:#adventure view:thegame:world 3026/guild
 ~
 S
 #3027
-The Guild Of Thieves~
+The Guild of Gossip~
 talk:#adventure view:thegame:world 3027/main
 ~
-30 8 0 0 0 0
+30 152 0 0 0 0
 D0
 talk:#adventure view:thegame:world 3026/look
 ~
@@ -589,10 +589,10 @@ talk:#adventure view:thegame:world 3028/look
 0 -1 3028
 S
 #3028
-The Thieves' Bar~
+The Gossip Bar~
 talk:#adventure view:thegame:world 3028/main
 ~
-30 140 0 0 0 0
+30 152 0 0 0 0
 D2
 talk:#adventure view:thegame:world 3029/look
 ~
@@ -609,10 +609,10 @@ talk:#adventure view:thegame:world 3028/furniture
 ~
 S
 #3029
-The Secret Yard~
+The Gossip Yard~
 talk:#adventure view:thegame:world 3029/main
 ~
-30 8 0 0 0 0
+30 152 0 0 0 0
 D0
 talk:#adventure view:thegame:world 3028/look
 ~
@@ -699,20 +699,20 @@ talk:#adventure view:thegame:world 3052/look
 gate~
 1 3112 3052
 E
-bridge footbridge~
-talk:#adventure view:thegame:world look/3040/bridge
-~
-E
-gate~
-talk:#adventure view:thegame:world 3040/gate
+wall~
+talk:#adventure view:thegame:world 3040/wall
 ~
 E
 tower towers~
 talk:#adventure view:thegame:world 3040/towers
 ~
 E
-wall~
-talk:#adventure view:thegame:world 3040/wall
+gate~
+talk:#adventure view:thegame:world 3040/gate
+~
+E
+bridge footbridge~
+talk:#adventure view:thegame:world look/3040/bridge
 ~
 S
 #3041
@@ -736,20 +736,20 @@ talk:#adventure view:thegame:world 3016/look
 ~
 0 -1 3016
 E
-bridge footbridge~
-talk:#adventure view:thegame:world 3041/bridge
-~
-E
-gate~
-talk:#adventure view:thegame:world 3041/gate
+wall~
+talk:#adventure view:thegame:world 3041/wall
 ~
 E
 tower towers~
 talk:#adventure view:thegame:world 3041/towers
 ~
 E
-wall~
-talk:#adventure view:thegame:world 3041/wall
+gate~
+talk:#adventure view:thegame:world 3041/gate
+~
+E
+bridge footbridge~
+talk:#adventure view:thegame:world 3041/bridge
 ~
 S
 #3042
@@ -802,12 +802,12 @@ D3
 ~
 0 0 18600
 E
-wall writing letters~
-talk:#adventure view:thegame:world 3043/letters
-~
-E
 wall~
 talk:#adventure view:thegame:world 3043/wall
+~
+E
+wall writing letters~
+talk:#adventure view:thegame:world 3043/letters
 ~
 S
 T 3106
@@ -938,16 +938,16 @@ talk:#adventure view:thegame:world 3100/look
 ~
 0 -1 3100
 E
-bridge~
-talk:#adventure view:thegame:world 3051/bridge
+wall~
+talk:#adventure view:thegame:world 3051/wall
 ~
 E
 opening~
 talk:#adventure view:thegame:world 3051/opening
 ~
 E
-wall~
-talk:#adventure view:thegame:world 3051/wall
+bridge~
+talk:#adventure view:thegame:world 3051/bridge
 ~
 S
 #3052
@@ -966,20 +966,20 @@ talk:#adventure view:thegame:world 6092/look
 ~
 0 -1 6092
 E
-bridge footbridge~
-talk:#adventure view:thegame:world 3052/bridge
-~
-E
-gate~
-talk:#adventure view:thegame:world 3052/gate
+wall~
+talk:#adventure view:thegame:world 3052/wall
 ~
 E
 tower towers~
 talk:#adventure view:thegame:world 3052/towers
 ~
 E
-wall~
-talk:#adventure view:thegame:world 3052/wall
+gate~
+talk:#adventure view:thegame:world 3052/gate
+~
+E
+bridge footbridge~
+talk:#adventure view:thegame:world 3052/bridge
 ~
 S
 T 3106
@@ -999,20 +999,20 @@ talk:#adventure view:thegame:world 3041/look
 gate~
 1 3112 3041
 E
-bridge footbridge~
-talk:#adventure view:thegame:world 3053/bridge
-~
-E
-gate~
-talk:#adventure view:thegame:world 3053/gate
+wall~
+talk:#adventure view:thegame:world 3053/wall
 ~
 E
 tower towers~
 talk:#adventure view:thegame:world 3053/towers
 ~
 E
-wall~
-talk:#adventure view:thegame:world 3053/wall
+gate~
+talk:#adventure view:thegame:world 3053/gate
+~
+E
+bridge footbridge~
+talk:#adventure view:thegame:world 3053/bridge
 ~
 S
 T 3106
@@ -1032,12 +1032,12 @@ talk:#adventure view:thegame:world 3001/look
 ~
 0 -1 3001
 E
-altar~
-talk:#adventure view:thegame:world 3054/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 3054/statue
+~
+E
+altar~
+talk:#adventure view:thegame:world 3054/altar
 ~
 S
 #3055
@@ -1199,27 +1199,27 @@ talk:#adventure view:thegame:world 3006/look
 ~
 0 -1 3006
 E
-posters~
+WANTED posters poster wall~
 talk:#adventure view:thegame:world 3062/posters
-~
-E
-sign~
-talk:#adventure view:thegame:world 3062/sign
-~
-E
-letters~
-talk:#adventure view:thegame:world 3062/letters
-~
-E
-cobwebs~
-talk:#adventure view:thegame:world 3062/cobwebs
 ~
 E
 crates~
 talk:#adventure view:thegame:world 3062/crates
 ~
 E
-WANTED posters poster wall~
+cobwebs~
+talk:#adventure view:thegame:world 3062/cobwebs
+~
+E
+letters~
+talk:#adventure view:thegame:world 3062/letters
+~
+E
+sign~
+talk:#adventure view:thegame:world 3062/sign
+~
+E
+posters~
 talk:#adventure view:thegame:world 3062/posters
 ~
 S
