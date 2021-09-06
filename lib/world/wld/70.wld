@@ -544,7 +544,8 @@ you are standing in.
 S
 #7030
 The Quadruple Junction Under The Dump~
-Empty room.~
+talk:#adventure view:thegame:world 7030/main
+~
 70 12 0 0 0 1
 D0
 To the north you can see a huge triple junction with sewer pipes leading
@@ -656,7 +657,8 @@ Down the pit it is so utterly dark that you can't see a thing.
 S
 #7037
 The Round Room~
-Empty room.~
+talk:#adventure view:thegame:world 7037/main
+~
 70 8 0 0 0 0
 D1
 You can just make out a smaller room with a chair.
@@ -664,13 +666,14 @@ You can just make out a smaller room with a chair.
 ~
 0 -1 7050
 D3
+talk:#adventure view:thegame:world 7027/look
 ~
 ~
 0 0 7024
 S
 #7038
 The Three Way Junction~
-   You are standing in a junction of pipes that lead west, east and south.
+You are standing in a junction of pipes that lead west, east and south.
 ~
 70 8 0 0 0 1
 D1
@@ -691,7 +694,7 @@ West.  You see another junction similar to this one leading north and south.
 S
 #7039
 The Sewer Store Room~
-   You stand in a small room lit by a single torch set in the wall.  The only
+You stand in a small room lit by a single torch set in the wall.  The only
 way out of here is to the north.
 ~
 70 8 0 0 0 1
@@ -743,14 +746,14 @@ To the south you can see a triple junction leading west and east.
 ~
 0 -1 7044
 D4
+talk:#adventure view:thegame:world 7029/look
 ~
 ~
 0 0 3029
 S
 #7044
 The Junction Going Three Ways~
-   You are in a passageway in the pipes of the sewer system leading north,
-east and west.
+You are in a passageway in the pipes of the sewer system leading north, east and west.
 ~
 70 8 0 0 0 1
 D0
@@ -759,22 +762,19 @@ You see a sewer pipe leading north.
 ~
 0 -1 7043
 D1
+talk:#adventure view:thegame:world 7049/look
 ~
 ~
 0 -1 7049
 D3
-West.  You see another junction very similar to this one that leads north
-and west.
+West.  You see another junction very similar to this one that leads north and west.
 ~
 ~
 0 -1 7031
 S
 #7045
 The Sewer Room~
-   You are standing in a large room with chairs set in the walls.  You have
-the feeling of being watched.  To the south there is an entrance to a
-larger room.  The room is lit by five torches, also set in the walls.  To
-the west there is a doorway leading out to the sewers.
+You are standing in a large room with chairs set in the walls. You have the feeling of being watched. To the south there is an entrance to a larger room. The room is lit by five torches, also set in the walls. To the west there is a doorway leading out to the sewers.
 ~
 70 8 0 0 0 1
 D2
@@ -790,10 +790,7 @@ To the west you can see the sewers.
 S
 #7046
 The Sewer Room~
-   This is a Room with walls that glitters like gold though not quite like
-it. This is strange as it looks as if the glitter lights the whole room.
-It looks very bright.  To the south the floor is covered with yucky water.
-The north leads to a sort of a guard room.
+This is a Room with walls that glitters like gold though not quite like it. This is strange as it looks as if the glitter lights the whole room. It looks very bright. To the south the floor is covered with yucky water. The north leads to a sort of a guard room.
 ~
 70 8 0 0 0 1
 D0
@@ -809,8 +806,7 @@ To the south there is nothing but water and an exit leads east from there.
 S
 #7047
 The Pool In The Sewer~
-   You stand in water to your waist.  To the north is the entrance to this
-room.  A single door leads east.
+You stand in water to your waist. To the north is the entrance to this room. A single door leads east.
 ~
 70 8 0 0 0 1
 D0
@@ -826,9 +822,7 @@ door~
 S
 #7048
 The Sewers~
-   You stand in a dead end of the sewer.  The only way out is south.
-You can see a shaft leading up but it looks too difficult to go up
-that way.
+You stand in a dead end of the sewer. The only way out is south. You can see a shaft leading up but it looks too difficult to go up that way.
 ~
 70 8 0 0 0 1
 D2
@@ -838,7 +832,7 @@ D2
 S
 #7049
 The Junction~
-   You stand in a junction leading north, west and east.
+You stand in a junction leading north, west and east.
 ~
 70 8 0 0 0 1
 D0
@@ -846,21 +840,20 @@ D0
 ~
 0 -1 7048
 D1
-Darkness has closed in on that part of the sewer system, you can't see
-a thing in that direction.
+Darkness has closed in on that part of the sewer system, you can't see a thing in that direction.
 ~
 ~
 0 -1 7060
 D3
-West.  You see another junction very similar to this one that leads north
-and west.
+West.  You see another junction very similar to this one that leads north and west.
 ~
 ~
 0 -1 7044
 S
 #7050
 The Small Room~
-Empty room.~
+talk:#adventure view:thegame:world 7050/look
+~
 70 8 0 0 0 0
 D1
 Utter darkness...
@@ -933,7 +926,8 @@ door~
 S
 #7055
 The Edge Of The Water Sewer~
-Empty room.~
+talk:#adventure view:thegame:world 7055/main
+~
 70 8 0 0 0 3
 D1
 You can hardly make out much more than that the next place is in a pipe
@@ -947,13 +941,12 @@ D3
 0 -1 7050
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7056
 The Dark Hallway~
-   You can't see much of this, even with a light.  The hallway goes into a
-passageway to the south.  A doorway leads west.
+You can't see much of this, even with a light. The hallway goes into a passageway to the south. A doorway leads west.
 ~
 70 8 0 0 0 1
 D2
@@ -969,78 +962,64 @@ You see a lot of light, bright as daylight, but nothing of interest.
 S
 #7057
 The Dark Passageway~
-   You can't see anything but the ground where you put your feet.  The
-passageway seems to continue south and north.
+You can't see anything but the ground where you put your feet.  The passageway seems to continue south and north.
 ~
 70 8 0 0 0 1
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7056
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7058
 S
 #7058
 The Dark Passageway~
-   You can't see anything but the ground where you put your feet.  The
-passageway seems to continue south and north.
+You can't see anything but the ground where you put your feet. The passageway seems to continue south and north.
 ~
 70 8 0 0 0 1
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7057
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7059
 S
 #7059
 The Dark Passageway~
-   You can't see anything but the ground where you put your feet.  The
-passageway seems to continue south and north.
+You can't see anything but the ground where you put your feet. The passageway seems to continue south and north.
 ~
 70 8 0 0 0 1
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7058
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7060
 S
 #7060
 The Dark Passageway~
-   You can't see anything but the ground where you put your feet.
-The passageway seems to continue west and north.  To the east there
-is water covering the floor and that leads through an arched entry
-to a watery sewer.
+You can't see anything but the ground where you put your feet. The passageway seems to continue west and north.  To the east there is water covering the floor and that leads through an arched entry to a watery sewer.
 ~
 70 8 0 0 0 1
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7059
 D1
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7068
@@ -1051,187 +1030,174 @@ You can just make out a triple junction leading north and west.
 0 -1 7049
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7061
 The Watery Sewer Bend~
-Empty room.~
+talk:#adventure view:thegame:world 7061/main~
 70 264 0 0 0 0
 D2
 ~
 ~
 0 -1 7062
 D3
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7055
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7062
 The Watery Sewer~
-   You can't see anything but the water you're in up to your hips.  The sewer
-seems to lead south and north.
+You can't see anything but the water you're in up to your hips.  The sewer seems to lead south and north.
 ~
 70 264 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7061
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7063
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7063
 The Watery Sewer~
-Empty room.~
+talk:#adventure view:thegame:world 7063/main
+~
 70 8 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7062
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7064
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7064
 The Watery Sewer Junction~
-Empty room.~
+talk:#adventure view:thegame:world 7064/main~
 70 264 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7063
 D1
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7069
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7065
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7065
 The Watery Sewer~
-Empty room.~
+talk:#adventure view:thegame:world 7065/main
+~
 70 264 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7064
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7066
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7066
 The Watery Sewer Junction~
-Empty room.~
+talk:#adventure view:thegame:world 7066/main
+~
 70 264 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7065
 D1
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7070
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7067
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7067
 The Watery Sewer~
-Empty room.~
+talk:#adventure view:thegame:world 7067/main
+~
 70 264 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7066
 D2
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7068
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7068
 The Watery Sewer Bend~
-Empty room.~
+talk:#adventure view:thegame:world 7068/main
+~
 70 264 0 0 0 0
 D0
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7067
 D3
-You can't see anything in that direction and your light isn't enough to light
-that far.
+You can't see anything in that direction and your light isn't enough to light that far.
 ~
 ~
 0 -1 7060
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7069
@@ -1250,7 +1216,7 @@ You can't see a thing.  It is too dark.
 0 -1 7064
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 #7070
@@ -1273,7 +1239,7 @@ D5
 0 -1 7000
 E
 water~
-   It looks dark and murky, and emanates a foul stench.
+It looks dark and murky, and emanates a foul stench.
 ~
 S
 $~
