@@ -434,11 +434,11 @@ you not to trust him very far.
 8 8 1
 E
 #5434
-security deva securitydeva devaforce sd5434~
-SD5434 SecurityDEVA~
-SD5434 SecurityDEVA is here.
+security deva securitydeva devaforce d5434~
+SecurityDEVA D5434~
+SecurityDEVA D5434 is here.
 ~
-SD5434 SecurityDEVA has been assigned to protect the realm.
+SecurityDEVA D5434 has been assigned to protect the realm.
 ~
 254220 0 0 0 10360 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
@@ -516,8 +516,7 @@ daghdha~
 Daghdha~
 Daghdha the Arch-Magi stands here.
 ~
-   This man is dressed in long brown robes and has a penetrating gaze.
-
+This man is dressed in long brown robes and has a penetrating gaze.
 ~
 72 0 0 0 16 0 0 0 200 E
 15 15 1 3d3+150 2d2+2
@@ -567,7 +566,7 @@ vulture~
 the vulture~
 A vulture circles above you.
 ~
-   As you look up at this bird, you see the only thing it wants is a corpse.
+As you look up at this bird, you see the only thing it wants is a corpse.
 ~
 200 0 0 0 0 0 0 0 -200 E
 2 20 8 0d0+20 1d2+0
@@ -579,7 +578,7 @@ old man~
 the old man~
 An old man sits here playing chess.
 ~
-   He seems intent on winning.
+He seems intent on winning.
 ~
 200 0 0 0 0 0 0 0 200 E
 4 19 7 0d0+40 1d2+0
@@ -603,7 +602,7 @@ dirt dust deva~
 the dirt deva~
 The wind kicks up some dust.
 ~
-   What you see before you is really a baby air elemental.
+What you see before you is really a baby air elemental.
 ~
 108 0 0 0 0 0 0 0 -1000 E
 1 20 9 0d0+10 1d2+0
@@ -615,8 +614,7 @@ lamia beast~
 the lamia~
 A strange lamia stands here waiting for her next meal.
 ~
-   This is a creature with the upper torso of a beautiful woman, but the lower
-body of a four-legged beast.  She licks her lips as she looks at you greedily.
+This is a creature with the upper torso of a beautiful woman, but the lower body of a four-legged beast.  She licks her lips as she looks at you greedily.
 
 ~
 588 0 0 0 0 0 0 0 -500 E
@@ -629,7 +627,7 @@ dervish~
 the raggedy dervish~
 A raggedy dervish stands here.
 ~
-   This man looks like he could use a lot of rest.
+This man looks like he could use a lot of rest.
 ~
 104 0 0 0 65536 0 0 0 -750 E
 8 18 5 1d1+80 1d2+1
@@ -641,7 +639,7 @@ sultan~
 the Sultan~
 The Sultan rests here on his throne.
 ~
-   You see a large wealthy man in red robes smiling at you.
+You see a large wealthy man in red robes smiling at you.
 ~
 26906 0 0 0 16 0 0 0 200 E
 10 17 4 2d2+100 1d2+1
@@ -649,11 +647,11 @@ The Sultan rests here on his throne.
 5 5 1
 E
 #5451
-spy deva spydeva sp5451 devaforce~
-SP5451 SpyDEVA~
-SP5451 SpyDEVA is here.
+spy deva spydeva devaforce d5451 ~
+SpyDEVA D5451~
+SpyDEVA D5451 is here.
 ~
-SP5451 SpyDEVA is here recruiting for DevaFORCE.
+SpyDEVA D5451 is here recruiting for DevaFORCE.
 ~
 260508 0 0 0 10360 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -779,11 +777,11 @@ A servant boy is here running errands.
 8 8 1
 E
 #5461
-security deva securitydeva sd5461 devaforce~
-SD5461 SecurityDEVA~
-SD5461 SecurityDEVA is here.
+security deva securitydeva devaforce d5461 z54~
+SecurityDEVA D5461~
+SecurityDEVA D5461 is here.
 ~
-SD5461 SecurityDEVA has been assigned to protect the realm.
+SecurityDEVA D5461 has been assigned to protect the realm.
 ~
 260364 0 0 0 10360 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -793,11 +791,11 @@ BareHandAttack: 6
 E
 T 5405
 #5462
-sultans guard~
-the Sultan's Guard~
-A guard stands here, watching the gate.
+guard deva guarddeva devaforce d5462 z54~
+GuardDEVA D5462~
+GuardDEVA D5462 stands here, watching the gate.
 ~
-   You see a trained fighter, ready to defend the city.
+You see a trained fighter, ready to defend the city.
 ~
 74 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -806,11 +804,11 @@ A guard stands here, watching the gate.
 E
 T 5405
 #5463
-sultans guard chief~
-the Chief Guard~
-The Chief of the Sultan's Guard stands here.
+deva guard guarddeva d5463 z54~
+GuardDEVA D5463~
+GuardDEVA D5463 stands here.
 ~
-   You see a large man skilled in hunting and killing.
+GuardDEVA D5463 is here guarding the realm.
 ~
 72 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
@@ -823,7 +821,7 @@ mercenary~
 the mercenary~
 A mercenary stands here waiting for a job.
 ~
-   You see an assassin down on his luck looking to be freelanced out.
+You see an assassin down on his luck looking to be freelanced out.
 ~
 72 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -835,8 +833,7 @@ shipwright captain~
 the shipwright~
 An old captain rests here carving on a stick.
 ~
-   You see the shipwright of New Thalos, waiting to make someone a boat.  He
-beams a smile at you through his beard as you walk in.
+You see the shipwright of New Thalos, waiting to make someone a boat. He beams a smile at you through his beard as you walk in.
 ~
 26634 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -848,8 +845,7 @@ blacksmith~
 the blacksmith~
 The blacksmith stands here pumping air into his fire.
 ~
-   You see a large human, dripping in sweat, standing before you.  He takes a
-break from his sweltering work to bid you welcome.
+You see a large human, dripping in sweat, standing before you.  He takes a break from his sweltering work to bid you welcome.
 ~
 26634 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -861,7 +857,7 @@ horse~
 the horse~
 A horse stands here.
 ~
-   You see one of the fine Arabian beasts known about the land.
+You see one of the fine Arabian beasts known about the land.
 ~
 202 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
@@ -873,8 +869,7 @@ tourist~
 the tourist~
 A tourist stands here looking lost.
 ~
-   You see a small, rotund man, with a strange object around his neck and a nose
-guard.  He is looking at a small map that he seems to be holding upside down.
+You see a small, rotund man, with a strange object around his neck and a nose guard.  He is looking at a small map that he seems to be holding upside down.
 ~
 204 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -886,7 +881,7 @@ ixitxachitl ray~
 the ixitxachitl~
 A very large ray with a wicked looking tail swims here.
 ~
-   You see a large ray with sharp fangs and a barbed tail.
+You see a large ray with sharp fangs and a barbed tail.
 ~
 231466 0 0 0 144 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
@@ -898,7 +893,7 @@ cryohydra~
 the cryohydra~
 The cryohydra stands here.
 ~
-   A gray-brown reptilian creature with amber eyes stands before you.
+A gray-brown reptilian creature with amber eyes stands before you.
 ~
 100456 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -910,7 +905,7 @@ minotaur lizard~
 the minotaur lizard~
 the minotaur lizard stands here.
 ~
-   A huge lizard like reptile with horns like a minotaur.
+A huge lizard like reptile with horns like a minotaur.
 ~
 104 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
@@ -922,7 +917,7 @@ dog death~
 the death dog~
 The death dog stands here.
 ~
-   A large two-headed hound barks at you viciously.
+A large two-headed hound barks at you viciously.
 ~
 2152 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
@@ -934,7 +929,7 @@ lion spotted~
 the spotted lion~
 The spotted lion stands here.
 ~
-   A large fierce dapple skinned lion glares at you.
+A large fierce dapple skinned lion glares at you.
 ~
 104 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -946,7 +941,7 @@ behir~
 the behir~
 A behir slithers on the ground.
 ~
-   You see a large snake-like reptile with more than a dozen legs.
+You see a large snake-like reptile with more than a dozen legs.
 ~
 100456 0 0 0 65536 0 0 0 -300 E
 12 16 2 2d2+120 2d2+2
@@ -958,8 +953,7 @@ chimera creature lion goat dragon~
 the chimera~
 A creature with three heads: lion, goat, and dragon stands here.
 ~
-   The chimera is still a mystery, better left unexplored.  This creature has
-the hindquarters of a goat, the forepaws of a lion and the body of a red dragon.
+The chimera is still a mystery, better left unexplored.  This creature has the hindquarters of a goat, the forepaws of a lion and the body of a red dragon.
 
 ~
 67626 0 0 0 65680 0 0 0 -500 E
@@ -972,8 +966,7 @@ couatl~
 the couatl~
 A couatl hovers here.
 ~
-   A beautiful creature with the body of a serpent and feathered wings the
-color of the rainbow.
+A beautiful creature with the body of a serpent and feathered wings the color of the rainbow.
 ~
 92186 0 0 0 65680 0 0 0 300 E
 15 15 1 3d3+150 2d2+2
@@ -985,7 +978,7 @@ giant hornet~
 the giant hornet~
 The giant hornet hovers here.
 ~
-   It is a hornet, what else can be said?
+It is a hornet, what else can be said?
 ~
 196696 0 0 0 144 0 0 0 300 E
 5 19 7 1d1+50 1d2+0
@@ -997,8 +990,7 @@ pegasus~
 the pegasus~
 The pegasus stands here, flexing its wings.
 ~
-   A magnificent winged steed, this horse looks much like the Arabian
-thoroughbreds you have seen in stables.
+A magnificent winged steed, this horse looks much like the Arabian thoroughbreds you have seen in stables.
 ~
 104522 0 0 0 144 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
@@ -1044,12 +1036,11 @@ The high priest rests here meditating, well he WAS meditating.
 E
 T 5406
 #5482
-royal guard elite~
-the Royal Guard~
-An Elite Royal Guard stands here smiling happily.
+elite deva elitedeva d5482 z54~
+EliteDEVA D5482~
+EliteDEVA D5482 is here.
 ~
-   You see one of the Royal Guards of New Thalos who seems to have undergone
-some heavy training.
+You see one of the Royal Guards of New Thalos who seems to have undergone some heavy training.
 ~
 30746 0 0 0 16 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
