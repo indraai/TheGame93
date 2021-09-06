@@ -519,7 +519,7 @@ The sky becomes lighter in this direction.
 S
 #3550
 At The Foot Of The Mountains~
-Empty room.~
+talk:#adventure view:thegame:world 3550/main~
 35 0 0 0 0 5
 D2
 The forest of Miden'nir spreads out before you.
@@ -534,7 +534,7 @@ The forest of Miden'nir spreads out before you.
 S
 #3551
 Deep In The Forest Of Miden'nir~
-Empty room.~
+talk:#adventure view:thegame:world 3551/main~
 35 0 0 0 0 3
 D2
 The tunnel leads into the mountainside.
@@ -590,7 +590,7 @@ The tunnel gets smaller in this direction.
 S
 #3554
 A Small Alcove~
-Empty room.~
+talk:#adventure view:thegame:world 3554/main~
 35 8 0 0 0 0
 D3
 You see the main passageway.
@@ -623,7 +623,7 @@ You see a small cavern.
 S
 #3556
 The Goblin HeadQuarters~
-Empty room.~
+talk:#adventure view:thegame:world 3556/main~
 35 8 0 0 0 0
 D0
 The tunnel heads north.
@@ -682,7 +682,7 @@ You see the front of the Inn.
 S
 #3572
 South Of The Inn~
-Empty room.~
+talk:#adventure view:thegame:world 3572/main~
 35 0 0 0 0 3
 D0
 This way leads to the front of the Inn.
@@ -702,7 +702,7 @@ This way leads to the back of the Inn.
 S
 #3573
 Behind The Inn~
-Empty room.~
+talk:#adventure view:thegame:world 3573/main~
 35 0 0 0 0 3
 D1
 You can go around the Inn this way.
@@ -717,7 +717,7 @@ Only rats and fool adventurers play in garbage.
 S
 #3574
 The Woodsman Inn~
-Empty room.~
+talk:#adventure view:thegame:world 3574/main~
 35 8 0 0 0 1
 D0
 The bar is here, manned by the Innkeeper.
@@ -742,7 +742,7 @@ There is a table to the south occupied by a heavy drinker.
 S
 #3575
 The Ambush Point~
-Empty room.~
+talk:#adventure view:thegame:world 3575/main~
 35 0 0 0 0 3
 D0
 The Inn lies to the north.
@@ -757,7 +757,7 @@ A trail through the woods.
 S
 #3576
 The Bar~
-Empty room.~
+talk:#adventure view:thegame:world 3576/main~
 35 40 0 0 0 1
 D2
 You may retreat south back to the common room.
@@ -767,7 +767,7 @@ You may retreat south back to the common room.
 S
 #3577
 The Bard's Table~
-Empty room.~
+talk:#adventure view:thegame:world 3577/main~
 35 8 0 0 0 1
 D1
 You see the main floor of the Inn to the east.
@@ -777,7 +777,7 @@ You see the main floor of the Inn to the east.
 S
 #3578
 The Garbage Dump~
-Empty room.~
+talk:#adventure view:thegame:world 3578/main~
 35 0 0 0 0 3
 D1
 You can return to cleaner lands this way.
@@ -787,7 +787,7 @@ You can return to cleaner lands this way.
 S
 #3579
 Agency: Miden'Nir~
-Empty room.~
+talk:#adventure view:thegame:world 3579/main~
 35 8 0 0 0 0
 D0
 You see the common room.
@@ -802,7 +802,7 @@ adv:world:3144/look
 S
 #3581
 On The Trail Of The Horsemen~
-Empty room.~
+talk:#adventure view:thegame:world 3581/main~
 35 0 0 0 0 3
 D1
 Back to ambush point.
@@ -817,7 +817,7 @@ The trail continues.
 S
 #3582
 On The Trail Of The Horsemen~
-Empty room.~
+talk:#adventure view:thegame:world 3582/main~
 35 0 0 0 0 3
 D1
 The trail continues.
@@ -832,7 +832,7 @@ The tracks lead south.
 S
 #3583
 On The Trail Of The Horsemen~
-Empty room.~
+talk:#adventure view:thegame:world 3583/main~
 35 0 0 0 0 3
 D0
 The trail continues.
@@ -847,7 +847,7 @@ The tracks lead east.
 S
 #3584
 A Dead End Trail~
-Empty room.~
+talk:#adventure view:thegame:world 3584/main~
 35 0 0 0 0 3
 D1
 Back to along the trail.
