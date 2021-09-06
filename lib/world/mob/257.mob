@@ -452,7 +452,7 @@ MD25741 MedicDEVA is assigned to the realm.
 E
 #25742
 bartender~
-the bartender~
+Bartender~
 The bartender turns to you, folds his massive arms, and growls from under his thick beard, "What'll it be?"
 ~
 This man obviously will brook no argument in his place.  A real his way or the highway kind of guy.
@@ -464,36 +464,36 @@ This man obviously will brook no argument in his place.  A real his way or the h
 E
 #25743
 hostess scantily clad woman waitress~
-the hostess~
+Hostess~
 A scantily clad waitress hands you your menu with a more-than-friendly smile and tells you, "anything you need, ANYTHING, just let me know."
 ~
 This woman may not be quite a Devi, but she sure comes close.
 ~
-188426 0 0 0 0 0 0 0 600 E
+188426 0 0 0 0 0 0 0 100 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 2
 E
 #25744
 waiter~
-the waiter~
+Waiter~
 A waiter who knows where all his customers keep their money is standing here.
 ~
 Hmmm...  Wonder where he got that coin he is playing with.
 ~
-188426 0 0 0 0 0 0 0 600 E
+188426 0 0 0 0 0 0 0 100 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
 E
 #25745
 waiter~
-the waiter~
+Waiter~
 A waiter is here.
 ~
-This guy looks like he could easily kill you while still carrying quite a few firebreathers.
+This guy looks like he is a very happy waiter.
 ~
-24586 0 0 0 0 0 0 0 600 E
+24586 0 0 0 0 0 0 0 100 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1
@@ -505,14 +505,14 @@ Salazar is standing here, eager to serve you a special drink.
 ~
 Salazar looks like quite an entrepreneur.  He knows how to keep his customers happy, but that doesn't mean he's a pushover!
 ~
-190490 0 0 0 16 0 0 0 600 E
+190490 0 0 0 16 0 0 0 100 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 1
 E
 #25747
 woman receptionist assassin~
-the receptionist~
+Receptionist~
 A young, pert, beautiful, and dangerous woman sits behind the desk.
 ~
 She looks as if she would be afraid to break a nail, but if she works here, then she probably could pull your nails out one by one without you even noticing.
@@ -535,13 +535,13 @@ This man, wearing a jet black cloak pulled high over his face and black boots, l
 8 8 1
 E
 #25749
-saracaphos bejis harah horsemaster man~
-Harah the Horsemaster~
-A man hurries by, head down, dressed all in brown.
+Karah horsemaster man~
+Karah the Horsemaster~
+Karah hurries by, head down, dressed all in brown.
 ~
-   This man must be the most nondescript man you've ever seen.
+This man must be the first horse whisperer you've ever seen.
 ~
-200 0 0 0 524288 0 0 0 -400 E
+200 0 0 0 524288 0 0 0 400 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -551,7 +551,7 @@ keeper peacekeeper~
 the Peacekeeper~
 A Peacekeeper is standing here, ready to jump in at the first sign of trouble.
 ~
-   He looks very strong and wise.  Looks like he doesn't answer to ANYONE.
+He looks very strong and wise.  Looks like he doesn't answer to ANYONE.
 ~
 6232 0 0 0 16 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
@@ -559,21 +559,21 @@ A Peacekeeper is standing here, ready to jump in at the first sign of trouble.
 8 8 1
 E
 #25760
-security deva securitydeva devaforce jareth sd25760~
-SD25760 SecurityDEVA~
-SD25760 SecurityDEVA is here.
+security deva securitydeva devaforce jareth d25760 z257~
+SecurityDEVA D25760~
+SecurityDEVA D25760 is here.
 ~
 A large man with no expression whatsoever showing beneath his visored helm.
 ~
-522332 0 0 0 10360 0 0 0 1000 E
+522332 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
 E
 #25761
-service deva servicedeva sd25761~
-SD25761 ServiceDEVA~
-SD25761 ServiceDEVA is going around, cleaning up.
+service deva servicedeva d25761~
+ServiceDEVA D25761~
+ServiceDEVA D25761 is going around, cleaning up.
 ~
 What a tough job.
 ~
@@ -583,9 +583,9 @@ What a tough job.
 8 8 0
 E
 #25762
-security deva securitydeva devaforce jareth sd25762~
-SD25762 SecurityDeva~
-SecurityDEVA SD25762 is here.
+security deva securitydeva devaforce jareth d25762 z257~
+SecurityDeva D25762~
+SecurityDEVA D25762 is here.
 ~
 A large man with no expression whatsoever showing beneath his visored helm.
 ~
@@ -595,24 +595,23 @@ A large man with no expression whatsoever showing beneath his visored helm.
 8 8 0
 E
 #25763
-mercenary~
-the mercenary~
-A mercenary is waiting for a job here.
+adventurer thail blesiph~
+Thail Blesiph~
+Thail Blesiph is waiting for a job here.
 ~
-   He looks pretty mean, and you imagine he'd do anything for money.
+Thail Blesiph is a veteran Adventurer who liked his coin.
 ~
-2058 0 0 0 0 0 0 0 -330 E
+2058 0 0 0 0 0 0 0 330 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1
 E
 #25764
-drunk~
-the drunk~
-A sullen, sloppy drunk is here practically laying on the bar.
+patron shilo drathin~
+Shilo Drathin~
+Shilo Drathin is here.
 ~
-   A drunk who seems to not be able to handle his drink, and to carry too much
-money.
+Shilo seems to not be able to handle his drink, and to carry too much money.
 ~
 10 0 0 0 0 0 0 0 400 E
 2 20 8 0d0+20 1d2+0
@@ -620,11 +619,11 @@ money.
 8 8 1
 E
 #25765
-beggar~
-the beggar~
-A beggar is here, asking for a few coins.
+monk devabuddhist offerings~
+Monk~
+A Monk is here to receive offerings.
 ~
-   The beggar looks up at you with pleading eyes.
+The Monk looks at you with pleasing eyes.
 ~
 10 0 0 0 0 0 0 0 400 E
 1 20 9 0d0+10 1d2+0
@@ -633,7 +632,7 @@ A beggar is here, asking for a few coins.
 E
 #25766
 stableman~
-the stableman~
+Stableman~
 A stableman is here, ready to take your steed.
 ~
    The stableman, or more aptly put, stableboy, is a young man earning extra
