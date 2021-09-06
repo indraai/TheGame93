@@ -732,14 +732,18 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set msg[1] Invoke #Indradeva the #Creator!
-set msg[2] Invoke #Indradeva the #Builder!
-set msg[3] Invoke #Indradeva the #Intelligent!
-set msg[4] Invoke #Indradeva the #Wise!
-set msg[5] Invoke #Indradeva the #Honest!
-set msg[6] Invoke #Indradeva the #Truthful!
-set msg[7] Invoke #Indradeva the #True!
-set msg[8] Invoke #Indradeva the #Patient!
-set msg[9] Invoke #Indradeva the #Artist!
+set msg[2] Invoke #Aramati the #CelestialLady
+set msg[3] Invoke #Vamraka the The #All
+set msg[4] Invoke #Vamra the #Drinker
+set msg[5] Invoke #Indu the #Flow
+set msg[6] Invoke #Idne the #Throat
+set msg[7] Invoke #Aksara the #Swift
+set msg[8] Invoke #Purandbi the #Bountiful
+set msg[9] Invoke #Visvavasu the #Song
+set msg[10] Invoke #Vaisvanara the #Bounteous
+set msg[11] Invoke #Victor the #Strongest
+set msg[12] Invoke #Visvasaman the #PurifyingLight
+set msg[13] Invoke #Vasudeva the Supreme
 
 eval themsg %%msg[%random.9%]%% in %room.name% #R%vnum%
 if %people%

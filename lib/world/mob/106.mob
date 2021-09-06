@@ -1,11 +1,11 @@
 #10602
-monk~
-Elcardorian Monk~
-An Elcardian Monk is here.
+monk devabuddhism~
+Monk~
+A Monk is here.
 ~
-At first sight, he's a very kind of monk you would want to leave your children with.  With the aura of calmness oozing out of him maybe taking a rest next to him would a good idea.
+At first sight, he's a very kind of monk you would leave your children with.  With the aura of calmness oozing out of him maybe taking a rest next to him would a good idea.
 ~
-188426 0 0 0 0 0 0 0 1000 E
+188426 0 0 0 0 0 0 0 500 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 1
@@ -16,13 +16,13 @@ Int: 3
 Wis: 3
 E
 #10603
-deva ultra ultradeva devaforce military ud10603~
-UD10603 UltraDEVA~
-UD10603 UltraDEVA is here.
+deva ultra ultradeva devaforce military d10603 z106~
+UltraDEVA D10603~
+UltraDEVA D10603 is here.
 ~
 UD10603 UltraDEVA is assigned to protect the Realm.
 ~
-260424 0 0 0 10360 0 0 0 100 E
+260424 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 0
@@ -33,13 +33,13 @@ Int: 20
 Wis: 20
 E
 #10605
-deva ultra ultradeva devaforce military ud10605~
-UD10605 UltraDEVA~
-UD10605 UltraDEVA is here.
+deva ultra ultradeva devaforce military d10605~
+UltraDEVA D10605~
+UltraDEVA D10605 is here.
 ~
-UD10605 UltraDEVA is assigned to protect Realm.
+UltraDEVA D10605 is assigned to protect Realm.
 ~
-6220 0 0 0 0 0 0 0 200 E
+6220 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 7 0
@@ -51,7 +51,7 @@ UD10606 UltraDEVA is here.
 ~
 UD10606 UltraDEVA is assigned to protect the Realm.
 ~
-10316 0 0 0 0 0 0 0 200 E
+10316 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 0
@@ -63,7 +63,7 @@ UD10607 UltraDEVA Commando is here.
 ~
 UD10607 UltraDEVA Commando is assigned to protect the Realm.
 ~
-72 0 0 0 0 0 0 0 200 E
+72 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 0
@@ -82,7 +82,7 @@ Captain Sriracha Sauce of the UltraDEVA forces is assigned to protect the Realm.
 E
 #10609
 deva ultra ultradeeva infantry devaforce military ud10609~
-UD10609 UltraDEVA Infantry~
+UltraDEVA Infantry~
 UD10609 UltraDEVa Infantry is here.
 ~
 UD10609 UltraDEVA Infantry is assigned to protect the Realm.
@@ -94,7 +94,7 @@ UD10609 UltraDEVA Infantry is assigned to protect the Realm.
 E
 #10610
 deva army armydeva officer devaforce military ad10610~
-AD10610 ArmyDEVA Officer~
+ArmyDEVA Officer~
 AD10610 ArmyDEVA Officer is here.
 ~
 AD10610 ArmyDEVA Officer is assigned to protect the Realm.
@@ -106,7 +106,7 @@ AD10610 ArmyDEVA Officer is assigned to protect the Realm.
 E
 #10611
 deva army armydeva captain devaforce military ad10611~
-AD10611 ArmyDEVA Captain~
+ArmyDEVA Captain~
 AD10611 ArmyDEVA Captain is here.
 ~
 AD10611 ArmyDEVA Captain is assigned to protect the realm.
@@ -117,11 +117,11 @@ AD10611 ArmyDEVA Captain is assigned to protect the realm.
 8 8 0
 E
 #10613
-deva security securitydeva sd10613~
-SD10613 SecurityDEVA~
-SD16013 SecurityDEVA is here.
+deva security securitydeva d10613~
+SecurityDEVA~
+SecurityDEVA D16013 is here.
 ~
-SD10613 SecurityDEVA is assigned to protect the realm.
+SecurityDEVA D10613 is assigned to protect the realm.
 ~
 260440 0 0 0 8312 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
@@ -146,11 +146,11 @@ Int: 15
 Wis: 15
 E
 #10615
-deva security securitydeva sd10615~
-SD10605 SecurityDEVA~
-SD10615 SecurityDEVA is here.
+deva security securitydeva d10615~
+SecurityDEVA~
+SecurityDEVA D10615 is here.
 ~
-SD10616 SecurityDEVA is assigned to protect the Realm.
+SecurityDEVA D10616 is assigned to protect the Realm.
 ~
 260440 0 0 0 10360 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -159,8 +159,8 @@ SD10616 SecurityDEVA is assigned to protect the Realm.
 E
 #10616
 deva guard guarddeva gd10616~
-GD10606 GuardDEVA~
-GD10606 GuardDEVA is here.
+GuardDEVA D10606 ~
+GuardDEVA D10606 is here.
 ~
 GD10606 GuardDEVA is assigned to protect the Realm.
 ~
@@ -170,11 +170,11 @@ GD10606 GuardDEVA is assigned to protect the Realm.
 8 8 0
 E
 #10617
-panhandler bum beggar~
-a panhandler~
-A panhandler broke off her ass, begging for your charity is sitting here.
+dakshina frezom monk devabuddhism offerings~
+Monk Dakshina~
+Monk Dakshina is here for charity is sitting here.
 ~
-This poor lady has seen better days.  At least she is begging and not selling her soul body.  That will probably come later.  She looks up at you with those pitiful puppy-dog eyes trying to find a little sympathy.
+This lady is a happy Monk.  She is here accepting offerings for the sangha. She looks up at you with those puppy-dog eyes and you know it's time for offerings.
 ~
 10 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
