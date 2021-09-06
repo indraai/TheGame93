@@ -1,8 +1,6 @@
 #2600
 A Hallway~
-   You are in a long hallway leading east and west.  The walls emit a
-faint magical glow which provides enough light to see by.
-   A silver door can be seen to the north.
+You are in a long hallway leading east and west.  The walls emit a faint magical glow which provides enough light to see by. A silver door can be seen to the north.
 ~
 26 72 0 0 0 0
 D0
@@ -1243,7 +1241,8 @@ door secret~
 S
 #2681
 The Treasury~
-undefined~
+talk:#adventure view:thegame:world 2681/main
+~
 26 24 0 0 0 0
 D3
 ~
@@ -1252,7 +1251,8 @@ door secret~
 S
 #2682
 A Passage~
-Empty room.~
+talk:#adventure view:thegame:world 2682/main
+~
 26 24 0 0 0 0
 D1
 ~
@@ -1266,7 +1266,8 @@ S
 T 3106
 #2683
 In The Light~
-Empty room.~
+talk:#adventure view:thegame:world 2683/main
+~
 26 24 0 0 0 0
 D1
 ~

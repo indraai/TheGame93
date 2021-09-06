@@ -200,9 +200,9 @@ but he polishes it anyway.  Go figure.
 8 8 1
 E
 #3315
-security deva securitydeva sd3315~
-SecurityDEVA SD3315~
-SecurityDEVA SD3315 is here.
+security deva securitydeva d3315 z33~
+SecurityDEVA D3315~
+SecurityDEVA D3315 is here.
 ~
 An undefined string.
 ~
@@ -213,9 +213,9 @@ An undefined string.
 BareHandAttack: 9
 E
 #3316
-guarddeva guard deva gd3316~
-GuardDEVA GD3316~
-GuardDEVA GD3316 is here.
+guarddeva guard deva d3316 z33~
+GuardDEVA D3316~
+GuardDEVA D3316 is here.
 ~
 An undefined string.
 ~
@@ -226,7 +226,7 @@ An undefined string.
 BareHandAttack: 4
 E
 #3317
-security deva securitydeva d3317~
+security deva securitydeva d3317 z33~
 SecurityDEVA D3317~
 SecurityDEVA D3317 is on patrol.
 ~
