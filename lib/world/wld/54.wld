@@ -1,9 +1,6 @@
 #5400
 The Dancing Deva Inn~
-   You find yourself in an entrance foyer to the Dancing Daemon Inn.
-Chrome plated stairs spiral up to the reception area.  To the south
-you hear the sounds of merriment and drinking and from the west you
-hear the bustling activity of New Thalos.
+You find yourself in an entrance foyer to the Dancing Deva Inn. Chrome plated stairs spiral up to the reception area.  To the south you hear the sounds of merriment and drinking and from the west you hear the bustling activity of New Thalos.
 ~
 54 8 0 0 0 0
 D2
@@ -24,47 +21,33 @@ The spiral stairs lead up to the reception area.
 S
 #5401
 The Reception Area~
-   You are now standing in the reception of New Thalos.  A huge mahogany
-desk is here along with two sofas and a coffee table covered in magazines.
-The plush carpeting under your feet is a nice change from the rugged paths
-you are used to travelling.  A chrome stairway spirals downstairs to the
-tavern of the Dancing Daemon Inn, and your future adventures in New Thalos.
+You are now standing in the reception of New Thalos.  A huge mahogany desk is here along with two sofas and a coffee table covered in magazines. The plush carpeting under your feet is a nice change from the rugged paths you are used to travelling.  A chrome stairway spirals downstairs to the tavern of the Dancing Deva Inn, and your future adventures in New Thalos.
 ~
 54 152 0 0 0 0
 D5
-The stairs lead down to the Daemon.
+The stairs lead down to the Deva.
 ~
 ~
 0 -1 5400
 S
 #5402
-The Dancing Daemon Inn~
-   A huge circling wet-bar takes up most of the east end of the Daemon.  An
-old mage reclines against the mirror behind the bar absentmindedly pouring
-several drinks at once with his refined telekinesis.  The Lokettes, a local
-band, are playing their usual gig on the stage.  The large booths along the
-all are filled with people drinking and having a grand time.  You feel like
-partying here.
-The only obvious exit is to the north.
+The Dancing Deva Inn~
+A huge circling wet-bar takes up most of the east end of the Deva.  An old mage reclines against the mirror behind the bar absentmindedly pouring several drinks at once with his refined telekinesis.  The Lokettes, a local band, are playing their usual gig on the stage.  The large booths along the all are filled with people drinking and having a grand time.  You feel like partying here. The only obvious exit is to the north.
 ~
 54 8 0 0 0 0
 D0
-You see the entrance to the Daemon.
+You see the entrance to the Deva.
 ~
 ~
 0 -1 5400
 E
 bar~
-   The bar looks slightly out of place and you can only assume the powerful
-magic of the bartender allows it to revolve.
+The bar looks slightly out of place and you can only assume the powerful magic of the bartender allows it to revolve.
 ~
 S
 #5403
 The Medina~
-   You stand on the Medina, on the larger open areas in New Thalos.
-People walk to and fro carrying on their day to day business.  The
-Common Square of the people opens up to the south and the Medina
-continues north.
+You stand on the Medina, on the larger open areas in New Thalos. People walk to and fro carrying on their day to day business. The Common Square of the people opens up to the south and the Medina continues north.
 ~
 54 0 0 0 0 1
 D0
@@ -80,11 +63,7 @@ You see the Common Square.
 S
 #5404
 The Medina~
-   You are walking along a wide open expanse of road connecting
-Market Square to the Common Square.  Panhandlers, beggars, and
-other such riff-raff wander about hoping to catch those few who
-with open hearts.  The Medina continues to the south and the
-Market Square spreads out to the north.
+You are walking along a wide open expanse of road connecting Market Square to the Common Square.  Panhandlers, beggars, and other such riff-raff wander about hoping to catch those few who with open hearts. The Medina continues to the south and the Market Square spreads out to the north.
 ~
 54 0 0 0 0 1
 D0
@@ -100,11 +79,7 @@ You see the Medina.
 S
 #5405
 Southern Market Square~
-   The large square of markets fills your vision.  Strange sights and
-sounds, those known only to the New Thalos market, barrage your senses.
-The only hope of making any sense of what is going on here is to wander
-around.  Market Square continues north, west, and east, with the Medina
-trailing off th the south.
+The large square of markets fills your vision. Strange sights and sounds, those known only to the New Thalos market, barrage your senses. The only hope of making any sense of what is going on here is to wander around. Market Square continues north, west, and east, with the Medina trailing off th the south.
 ~
 54 0 0 0 0 1
 D0
@@ -126,9 +101,7 @@ D3
 S
 #5406
 The Center Of Market Square~
-   You are standing in the center of Market Square, the famous square
-of New Thalos.  A large, peculiar looking statue is standing in the
-middle of the square.  The square extends in every direction.
+You are standing in the center of Market Square, the famous square of New Thalos. A large, peculiar looking statue is standing in the middle of the square. The square extends in every direction.
 ~
 54 0 0 0 0 1
 D0
@@ -149,17 +122,12 @@ D3
 0 -1 5409
 E
 statue~
-   Before you is a statue of the mighty beholder!  A great beast with multiple
-eyes and wicked...  Wicked...  Um....  Eyes...  The mighty beholder is in
-Excellent condition.
+Before you is a statue of the mighty beholder!  A great beast with multiple eyes and wicked... Wicked... Um.... Eyes... The mighty beholder is in Excellent condition.
 ~
 S
 #5407
 Southeastern Market Square~
-   In this corner of the market some of the largest warriors in the land
-tower over you.  It is easy to understand why they hang out here once you
-notice the weapon shop and the armory close by.  Perhaps you might stop
-in and take a look at the wares these shops have to offer.
+In this corner of the market some of the largest warriors in the land tower over you.  It is easy to understand why they hang out here once you notice the weapon shop and the armory close by.  Perhaps you might stop in and take a look at the wares these shops have to offer.
 ~
 54 0 0 0 0 1
 D0
@@ -181,11 +149,7 @@ D3
 S
 #5408
 Southwestern Market Square~
-   This area of the market seems relatively quiet, save the high pitch
-banter of the shopkeepers attempting to lure you into their stores.
-South you see the bread stand and west is the entrance to the general
-store.
-   The market's sprawl continues east and north of here.
+This area of the market seems relatively quiet, save the high pitch banter of the shopkeepers attempting to lure you into their stores. South you see the bread stand and west is the entrance to the general store. The market's sprawl continues east and north of here.
 ~
 54 0 0 0 0 1
 D0
@@ -422,7 +386,7 @@ S
 #5418
 Sultan's Walk~
    This cobblestone road aides your journey through town.  Traveling north
-will take you by the Palace and the Dancing Daemon Inn, and south will put
+will take you by the Palace and the Dancing Deva Inn, and south will put
 you on Market Square.
 ~
 54 0 0 0 0 1
@@ -438,9 +402,9 @@ S
 #5419
 Sultan's Walk~
    This part of the road travels between one of the sturdy walls of
-the Palace and the Dancing Daemon.  To the east you peer through a
-small window into the Daemon, seeing many people dancing and drinking.
-After you tend to your other chores you plan on visiting the Daemon.
+the Palace and the Dancing Deva.  To the east you peer through a
+small window into the Deva, seeing many people dancing and drinking.
+After you tend to your other chores you plan on visiting the Deva.
    The walk continues north and south from here.
 ~
 54 0 0 0 0 1
@@ -455,11 +419,11 @@ D2
 S
 #5420
 Sultan's Walk~
-   The road here between the Palace and the Dancing Daemon Inn seems well
+   The road here between the Palace and the Dancing Deva Inn seems well
 worn by the travel of horses, carts, and leather boots.  From the west you
 hear the faint sound of trumpets announcing the arrival of some duke or
 duchess to the Palace.  Safe haven awaits you to the east in the halls
-of the Daemon, and Sultan's Walk continues north and south.
+of the Deva, and Sultan's Walk continues north and south.
 ~
 54 0 0 0 0 1
 D0
@@ -482,7 +446,7 @@ S
 #5421
 Sultan's Walk~
    The main road north from the square continues here, surrounded
-by the walls of the Palace and the Daemon.  To the north you see
+by the walls of the Palace and the Deva.  To the north you see
 the heavily guarded gate and can make out faint sounds of trade
 to the south.
 ~
