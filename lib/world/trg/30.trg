@@ -792,6 +792,7 @@ set msg[10] Anyone who thinks they are #StreetFighter #Elite should find #Cigarb
 
 if %people%
   eval themsg %%msg[%random.10%]%%
+  say %themsg%
   wait 30 sec
   %dir%
 else
@@ -842,8 +843,8 @@ set msg[33] In January of 1991, he founded (EVIL!)Mud, which became the largest 
 set msg[35] Another mud that Xibo was frequently on was the Random Gang's mud, which was actually several different muds, usually run by Random, Moira, or elthar.
 set msg[36] Back in the mid 90's at #PaineWebber #Xibo fought the UNIX vs. NT war for a year and a half, and eventually won.
 
-eval themsg %%msg[%random.36%]%% %room.name% #R%vnum%
 if %people%
+  eval themsg %%msg[%random.36%]%% %room.name% #R%vnum%
   say %themsg%
   wait 30 sec
   %random.dir%
@@ -882,9 +883,9 @@ set msg[20] Club 91 members are issued License To Kill and a License To Not Be K
 set msg[21] We cannot reveal details of the initiation here.
 set msg[23] We have a wide menu of membership options to choose from.
 
-eval themsg %%msg[%random.23%]%% %room.name% #R%vnum%
 
 if %people%
+  eval themsg %%msg[%random.23%]%% %room.name% #R%vnum%
   say %themsg%
   wait 30 sec
   %random.dir%
