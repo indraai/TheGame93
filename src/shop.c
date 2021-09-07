@@ -866,9 +866,12 @@ static char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr,
   }
   CAP(itemname);
 
-  snprintf(result, sizeof(result), " %2d)  %9s   %-*s %6d%s\r\n",
-      aindex, quantity, count_color_chars(itemname)+48, itemname,
-      buy_price(obj, shop_nr, keeper, ch), OBJ_FLAGGED(obj, ITEM_QUEST) ? " qp" : "");
+  snprintf(result, sizeof(result), "\n%d:%s %s %d%s\r",
+      aindex,
+      itemname,
+      quantity,
+      buy_price(obj, shop_nr, keeper, ch),
+      OBJ_FLAGGED(obj, ITEM_QUEST) ? " *QP" : "");
 
   return (result);
 }
@@ -890,8 +893,7 @@ static void shopping_list(char *arg, struct char_data *ch, struct char_data *kee
 
   one_argument(arg, name);
 
-  len = strlcpy(buf,   " ##   Available   Item                                               Cost\r\n"
-      "----------------------------------------------------------------------------\r\n", sizeof(buf));
+  len = strlcpy(buf,   "\n## Available Items\r", sizeof(buf));
   if (keeper->carrying)
     for (obj = keeper->carrying; obj; obj = obj->next_content)
       if (CAN_SEE_OBJ(ch, obj) && GET_OBJ_COST(obj) > 0) {
@@ -917,16 +919,16 @@ static void shopping_list(char *arg, struct char_data *ch, struct char_data *kee
       }
   lindex++;
   if (!last_obj)	/* we actually have nothing in our list for sale, period */
-    send_to_char(ch, "Currently, there is nothing for sale.\r\n");
+    send_to_char(ch, "\ninfo:Currently, there is nothing for sale.\r");
   else if (*name && !found)	/* nothing the char was looking for was found */
-    send_to_char(ch, "Presently, none of those are for sale.\r\n");
+    send_to_char(ch, "\ninfo:Presently, none of those are for sale.\r");
   else {
     if (!*name || isname(name, last_obj->name))	/* show last obj */
       if (len < sizeof(buf))
         strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1);	/* strncat: OK */
     page_string(ch->desc, buf, TRUE);
     if (has_quest)
-      send_to_char(ch, "Items flagged \"qp\" require quest points to purchase.\r\n");
+      send_to_char(ch, "\ninfo:Items flagged \"qp\" require quest points to purchase.\r");
   }
 }
 
