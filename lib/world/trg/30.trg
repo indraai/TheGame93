@@ -673,7 +673,11 @@ set msg[83] All the robots and people that hold Quinn hostage stay silent, act s
 eval themsg %%msg[%random.71%]%% %room.name% #R%vnum%
 if %people%
   say %themsg%
-  wait 60 sec
+  wait 30 sec
+  %random.dir%
+else
+  wait 1 sec
+  %random.dir%
 end
 ~
 #3019
@@ -700,7 +704,11 @@ eval themsg %%msg[%randmsg%]%% %room.name% #R%vnum%
 
 if %people%
   say %themsg%
-  wait 60 sec
+  wait 30 sec
+  %random.dir%
+else
+  wait 1 sec
+  %random.dir%
 end
 ~
 #3020
@@ -725,7 +733,11 @@ eval themsg %%msg[%random.10%]%% %room.name% #R%vnum%
 
 if %people%
   say %themsg%
-  wait 60 sec
+  wait 30 sec
+  %random.dir%
+else
+  wait 1 sec
+  %random.dir%
 end
 ~
 #3021
@@ -752,7 +764,10 @@ set msg[13] Invoke #Vasudeva the Supreme
 eval themsg %%msg[%random.9%]%% in %room.name% #R%vnum%
 if %people%
   say %themsg%
-  wait 60 sec
+  wait 30 sec
+  %random.dir%
+else
+  %random.dir%
 end
 ~
 #3068
@@ -831,6 +846,10 @@ eval themsg %%msg[%random.36%]%% %room.name% #R%vnum%
 if %people%
   say %themsg%
   wait 30 sec
+  %random.dir%
+else
+  wait 1 sec
+  %random.dir%
 end
 ~
 #3097
@@ -868,6 +887,10 @@ eval themsg %%msg[%random.23%]%% %room.name% #R%vnum%
 if %people%
   say %themsg%
   wait 30 sec
+  %random.dir%
+else
+  wait 1 sec
+  %random.dir%
 end
 ~
 #3099
