@@ -174,20 +174,24 @@ Stock SecurityDEVA - 3059, 60, 67~
 set dir %random.dir%
 set room %self.room%
 set people %room.people%
-%echo% security:D%self.vnum%:patrol:R%room.vnum%:%dir%
+%echo% security:D%self.vnum%:R%room.vnum%:%dir%
 
-set msg[1] Reveal Location
-set msg[2] Reveal Evidence
-set msg[3] Reveal Trail
-set msg[4] Reveal History
-set msg[5] Reveal Secrets
-set msg[6] Reveal Truth
-set msg[8] Reveal Guilty
+set msg[1] Security checkpoint
+set msg[2] Security patrolling
+set msg[3] Security on patrol in
+set msg[4] Security safety check in
+set msg[5] Security looking into
+set msg[6] Security visit
+set msg[8] Security observing activity in
 
 if %people%
-  wait 3 sec
-  eval themsg %%msg[%random.8%]%% #TheCovenant %room.name% #R%room.vnum% then #exit #%dir%
+  eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
   say %themsg%
+  wait 60 sec
+  %dir%
+else
+  wait 1 sec
+  %dir%
 end
 ~
 #3010
