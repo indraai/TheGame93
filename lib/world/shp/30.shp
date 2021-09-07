@@ -375,8 +375,8 @@ CircleMUD v3.0 Shop File~
 3004
 3003
 -1
-1.30
-0.70
+1.00
+0.90
 -1
 %s It's very noisy in here, what did you say you wanted to buy?~
 %s I don't buy!~
@@ -388,7 +388,7 @@ CircleMUD v3.0 Shop File~
 0
 6
 3046
-0
+1
 3048
 -1
 0
