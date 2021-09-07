@@ -382,7 +382,7 @@ void Crash_listrent(struct char_data *ch, char *name)
   char filename[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH], line[READ_SIZE];
   obj_save_data *loaded, *current;
   int rentcode = RENT_UNDEF, timed, netcost, gold, account, nitems, numread, len;
-  
+
   if (!get_filename(filename, sizeof(filename), CRASH_FILE, name))
     return;
 
@@ -876,11 +876,10 @@ static int gen_receptionist(struct char_data *ch, struct char_data *recep, int c
 {
   int cost;
   char buf[128];
-  const char *action_table[] = { "smile", "dance", "sigh", "blush", "burp",
-	  "cough", "fart", "twiddle", "yawn" };
+  const char *action_table[] = { "smile", "dance", "sigh", "blush", "twiddle", "yawn" };
 
   if (!cmd && !rand_number(0, 5)) {
-    do_action(recep, NULL, find_command(action_table[rand_number(0, 8)]), 0);
+    do_action(recep, NULL, find_command(action_table[rand_number(0, 5)]), 0);
     return (FALSE);
   }
 
@@ -896,13 +895,12 @@ static int gen_receptionist(struct char_data *ch, struct char_data *recep, int c
   }
 
   if (!CAN_SEE(recep, ch)) {
-    act("$n says, 'I don't deal with people I can't see!'", FALSE, recep, 0, 0, TO_ROOM);
+    act("\nsay:$n says, 'I don't deal with people I can't see!'\r", FALSE, recep, 0, 0, TO_ROOM);
     return (TRUE);
   }
 
   if (CONFIG_FREE_RENT) {
-    act("$n tells you, 'Rent is free here.  Just quit, and your objects will be saved!'",
-	FALSE, recep, 0, ch, TO_VICT);
+    act("\ntell:$n tells you, 'Rent is FREE here.'\r", FALSE, recep, 0, ch, TO_VICT);
     return TRUE;
   }
 
@@ -1034,7 +1032,7 @@ obj_save_data *objsave_parse_objects(FILE *fl)
             log("SYSERR: Prevented loading of non-existant item #%d.", nr);
             continue;
           }
-          
+
         if (temp) {
           current->obj = temp;
           CREATE(current->next, obj_save_data, 1);
@@ -1045,7 +1043,7 @@ obj_save_data *objsave_parse_objects(FILE *fl)
         }
       } else
         continue;
-        
+
       /* we have the number, check it, load obj. */
       if (nr == NOTHING) {   /* then it is unique */
         temp = create_obj();
@@ -1065,7 +1063,7 @@ obj_save_data *objsave_parse_objects(FILE *fl)
     }
 
     /* If "temp" is NULL, we are most likely progressing through
-     * a non-existant object, so just keep continuing till we find 
+     * a non-existant object, so just keep continuing till we find
      * the next object */
     if (temp == NULL)
       continue;
@@ -1205,7 +1203,7 @@ static int Crash_load_objs(struct char_data *ch) {
     mudlog(NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s entering game with no equipment.", GET_NAME(ch));
     return 1;
   }
- 
+
   if (!get_line(fl, line))
     mudlog(NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "Failed to read player's rent code: %s.", GET_NAME(ch));
   else
@@ -1370,4 +1368,3 @@ static int handle_obj(struct obj_data *temp, struct char_data *ch, int locate, s
 
   return TRUE;
 }
-
