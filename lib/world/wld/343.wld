@@ -1,6 +1,6 @@
 #34300
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 34300/main~
 343 28 0 0 0 0
 D1
 ~
@@ -9,7 +9,7 @@ D1
 S
 #34301
 The Garden Path~
-Empty room.~
+talk:#adventure view:thegame:world 34301/main~
 343 16 0 0 0 1
 D0
 ~
@@ -26,7 +26,7 @@ D2
 S
 #34302
 The Garden Path~
-Empty room.~
+talk:#adventure view:thegame:world 34302/main~
 343 16 0 0 0 1
 D0
 ~
@@ -43,7 +43,7 @@ D2
 S
 #34303
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 34303/main~
 343 28 0 0 0 0
 D3
 ~
@@ -52,7 +52,7 @@ D3
 S
 #34304
 The Pagoda~
-Empty room.~
+talk:#adventure view:thegame:world 34304/main~
 343 28 0 0 0 0
 D3
 ~
@@ -61,7 +61,7 @@ D3
 S
 #34305
 Narrow Gravel Path~
-Empty room.~
+talk:#adventure view:thegame:world 34305/main~
 343 0 0 0 0 1
 D0
 ~
@@ -74,7 +74,7 @@ D2
 S
 #34306
 Social Room~
-Empty room.~
+talk:#adventure view:thegame:world 34306/main~
 343 24 0 0 0 0
 D0
 ~
@@ -95,7 +95,8 @@ D3
 S
 #34307
 Northern Foyer~
-undefined~
+talk:#adventure view:thegame:world 34309/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -117,7 +118,8 @@ S
 T 3106
 #34308
 Deva Hall~
-Empty room.~
+talk:#adventure view:thegame:world 34308/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -138,7 +140,8 @@ D3
 S
 #34309
 Southern Foyer~
-Empty room.~
+talk:#adventure view:thegame:world 34309/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -159,7 +162,8 @@ D3
 S
 #34310
 Western Foyer~
-Empty room.~
+talk:#adventure view:thegame:world 34310/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -180,7 +184,8 @@ D3
 S
 #34311
 Deva Hall~
-Empty room.~
+talk:#adventure view:thegame:world 34311/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -201,7 +206,8 @@ D3
 S
 #34312
 Deva Hall, South~
-Empty room.~
+talk:#adventure view:thegame:world 34312/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -222,7 +228,8 @@ D3
 S
 #34313
 Deva Hall, West~
-Empty room.~
+talk:#adventure view:thegame:world 34313/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -247,7 +254,8 @@ D4
 S
 #34314
 Deva Hall~
-Empty room.~
+talk:#adventure view:thegame:world 34314/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -272,7 +280,8 @@ D4
 S
 #34315
 Deva Hall, North~
-Empty room.~
+talk:#adventure view:thegame:world 34315/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -293,7 +302,8 @@ D3
 S
 #34316
 Deva Hall, North~
-Empty room.~
+talk:#adventure view:thegame:world 34316/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -314,7 +324,8 @@ D3
 S
 #34317
 Deva Hall, Northeast~
-Empty room.~
+talk:#adventure view:thegame:world 34317/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -335,7 +346,8 @@ D3
 S
 #34318
 Deva Hall, West~
-Empty room.~
+talk:#adventure view:thegame:world 34318/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -356,7 +368,8 @@ D3
 S
 #34319
 Deva Hall, West~
-Empty room.~
+talk:#adventure view:thegame:world 34319/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -377,7 +390,8 @@ D3
 S
 #34320
 Deva Hall, South~
-Empty room.~
+talk:#adventure view:thegame:world 34320/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -398,7 +412,8 @@ D3
 S
 #34321
 Deva Hall, South~
-Empty room.~
+talk:#adventure view:thegame:world 34321/main
+~
 343 24 0 0 0 0
 D1
 ~
@@ -415,7 +430,8 @@ D3
 S
 #34322
 Deva Hall, East~
-Empty room.~
+talk:#adventure view:thegame:world 34322/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -436,7 +452,8 @@ D3
 S
 #34323
 Deva Hall, East~
-Empty room.~
+talk:#adventure view:thegame:world 34323/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -457,7 +474,8 @@ D3
 S
 #34324
 Deva Hall, Southeast~
-Empty room.~
+talk:#adventure view:thegame:world 34324/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -478,7 +496,8 @@ D3
 S
 #34325
 Deva Hall, Southwest~
-Empty room.~
+talk:#adventure view:thegame:world 34325/main
+~
 343 24 0 0 0 0
 D0
 ~
@@ -499,7 +518,7 @@ D3
 S
 #34326
 Deva Hall, Northwest~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -520,7 +539,7 @@ D3
 S
 #34327
 Upper Deva Hall, West~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -545,7 +564,7 @@ D5
 S
 #34328
 Upper Deva Hall, West~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -566,7 +585,7 @@ D3
 S
 #34329
 Higher Deva Hall, Observation Port~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D1
 ~
@@ -587,7 +606,7 @@ D5
 S
 #34330
 Upper Deva Hall, East~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -604,7 +623,7 @@ D3
 S
 #34331
 Upper Deva Hall, East~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -629,7 +648,7 @@ D5
 S
 #34332
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -638,7 +657,7 @@ D0
 S
 #34333
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -647,7 +666,7 @@ D1
 S
 #34334
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -656,7 +675,7 @@ D1
 S
 #34335
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -665,7 +684,7 @@ D3
 S
 #34336
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -674,7 +693,7 @@ D1
 S
 #34337
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -683,7 +702,7 @@ D3
 S
 #34338
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -692,7 +711,7 @@ D1
 S
 #34339
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -701,7 +720,7 @@ D2
 S
 #34340
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -710,7 +729,7 @@ D2
 S
 #34341
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -719,7 +738,7 @@ D0
 S
 #34342
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -738,7 +757,7 @@ D0
 S
 #34344
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -747,7 +766,7 @@ D2
 S
 #34345
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D3
 ~
@@ -756,7 +775,7 @@ D3
 S
 #34346
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -765,7 +784,7 @@ D3
 S
 #34347
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -774,7 +793,7 @@ D1
 S
 #34348
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -783,7 +802,7 @@ D3
 S
 #34349
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -792,7 +811,7 @@ D1
 S
 #34350
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -801,7 +820,7 @@ D3
 S
 #34351
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -810,7 +829,7 @@ D0
 S
 #34352
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -819,7 +838,7 @@ D2
 S
 #34353
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -828,7 +847,7 @@ D0
 S
 #34354
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -837,7 +856,7 @@ D2
 S
 #34355
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -846,7 +865,7 @@ D0
 S
 #34356
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -855,7 +874,7 @@ D1
 S
 #34357
 Quinn's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 568 0 0 0 0
 D2
 ~
@@ -864,7 +883,7 @@ D2
 S
 #34358
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -873,7 +892,7 @@ D0
 S
 #34359
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D2
 ~
@@ -882,7 +901,7 @@ D2
 S
 #34360
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -891,7 +910,7 @@ D0
 S
 #34361
 Rahula's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 56 0 0 0 0
 D2
 ~
@@ -900,7 +919,7 @@ D2
 S
 #34362
 Quinn's Laboratory~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -909,7 +928,7 @@ D2
 S
 #34363
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -918,7 +937,7 @@ D2
 S
 #34364
 SecurityPrime's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -927,7 +946,7 @@ D3
 S
 #34365
 MedicPrime's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -936,7 +955,7 @@ D2
 S
 #34366
 Vamraka's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -945,7 +964,7 @@ D0
 S
 #34367
 Indra's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -954,7 +973,7 @@ D3
 S
 #34368
 Higher Deva Hall, Extension Sct. A~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -975,7 +994,7 @@ D3
 S
 #34369
 Higher Deva Hall, Extension Sct. A~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -996,7 +1015,7 @@ D3
 S
 #34370
 Higher Deva Hall, Extension Sct. A~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -1017,7 +1036,7 @@ D3
 S
 #34371
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -1026,7 +1045,7 @@ D2
 S
 #34372
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -1035,7 +1054,7 @@ D0
 S
 #34373
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -1044,7 +1063,7 @@ D2
 S
 #34374
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -1053,7 +1072,7 @@ D0
 S
 #34375
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -1062,7 +1081,7 @@ D2
 S
 #34376
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -1071,7 +1090,7 @@ D0
 S
 #34377
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -1080,7 +1099,7 @@ D2
 S
 #34378
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -1089,7 +1108,7 @@ D0
 S
 #34379
 Public Restroom~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -1098,7 +1117,7 @@ D3
 S
 #34380
 Higher Deva Hall, North Extension~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -1111,7 +1130,7 @@ D2
 S
 #34381
 A Garden Alcove~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1120,7 +1139,7 @@ D0
 S
 #34382
 A Garden Alcove~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1129,7 +1148,7 @@ D0
 S
 #34383
 Inside a Garden~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1150,7 +1169,7 @@ D3
 S
 #34384
 In a Garden~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1171,7 +1190,7 @@ D3
 S
 #34385
 In a Garden~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1188,7 +1207,7 @@ D3
 S
 #34386
 Inside a Garden~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1209,7 +1228,7 @@ D3
 S
 #34387
 Indra's Office~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 56 0 0 0 0
 D1
 ~
@@ -1218,7 +1237,7 @@ D1
 S
 #34388
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -1227,7 +1246,7 @@ D2
 S
 #34389
 Shared Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D2
 ~
@@ -1236,7 +1255,7 @@ D2
 S
 #34390
 On Bridge in Garden~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 16 0 0 0 1
 D0
 ~
@@ -1249,7 +1268,7 @@ D2
 S
 #34391
 Builder Board Room~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D1
 ~
@@ -1258,7 +1277,7 @@ D1
 S
 #34392
 Deva Hall, West Extension Jct~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -1279,7 +1298,7 @@ Restroom~
 S
 #34393
 Pagoda Workspace~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D3
 ~
@@ -1288,7 +1307,7 @@ D3
 S
 #34394
 Pagoda Shrine~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 28 0 0 0 0
 D0
 ~
@@ -1301,7 +1320,7 @@ D5
 S
 #34395
 Higher Deva Hall, North Extension~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -1322,7 +1341,7 @@ D4
 S
 #34396
 Higher Deva Hall, Extension Sct. A~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 24 0 0 0 0
 D0
 ~
@@ -1343,7 +1362,7 @@ D3
 S
 #34397
 Exective Meeting Room~
-Empty room.~
+talk:#adventure view:thegame:world 343~
 343 1756 0 0 0 0
 D2
 ~
@@ -1352,7 +1371,8 @@ D2
 S
 #34398
 The Offering Alcove~
-Empty room.~
+talk:#adventure view:thegame:world 34398/main
+~
 343 28 0 0 0 0
 D0
 ~
@@ -1369,9 +1389,11 @@ D2
 S
 #34399
 Hall of Justice Podium~
-Empty room.~
+talk:#adventure view:thegame:world 34399/main
+~
 343 12 0 0 0 0
 D5
+talk:#adventure view:thegame:world 1293/look
 ~
 ~
 0 0 1293

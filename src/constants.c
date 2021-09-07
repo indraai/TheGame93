@@ -505,19 +505,19 @@ const char *container_bits[] = {
 const char *drinks[] =
 {
   "Pure Water",
-	"Orange juice",  /* beer */
-	"Apple juice", /* wine */
-	"Grape juice", /* ale */
-	"Mango juice", /* dark ale */
-	"Tropical Iced-Tea", /* whisky */
-	"Passion Fruit Iced-Tea", /* lemonade */
-	"Lemonaid", /* firebreather */
-	"Limeaid", /* local speciality */
-	"Chocolate Milk", /* slime mold juice */
+	"Orange juice",            /* beer */
+	"Apple juice",             /* wine */
+	"Grape juice",             /* ale */
+	"Mango juice",             /* dark ale */
+	"Tropical Iced-Tea",       /* whisky */
+	"Passion Fruit Iced-Tea",  /* lemonade */
+	"Lemonaid",                /* firebreather */
+	"Limeaid",                 /* local speciality */
+	"Chocolate Milk",          /* slime mold juice */
 	"Milk",
-	"White Tea", /* tea */
-	"Green Tea", /* coffee */
-	"Black Tea", /* blood */
+	"White Tea",               /* tea */
+	"Green Tea",               /* coffee */
+	"Black Tea",               /* blood */
 	"Salt Water",
 	"Pepsi"
 	"Coke"
