@@ -842,7 +842,7 @@ static char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr,
 	quantity[16];	/* "Unlimited" or "%d" */
 
   if (shop_producing(obj, shop_nr))
-    strcpy(quantity, "Unlimited");	/* strcpy: OK (for 'quantity >= 10') */
+    strcpy(quantity, "∞");	/* strcpy: OK (for 'quantity >= 10') */
   else
     sprintf(quantity, "%d", cnt);	/* sprintf: OK (for 'quantity >= 11', 32-bit int) */
 
@@ -866,11 +866,11 @@ static char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr,
   }
   CAP(itemname);
 
-  snprintf(result, sizeof(result), "\n%d:%s(%s) ☉%d%s\r",
+  snprintf(result, sizeof(result), "\n%d:%s ☉%d (%s) %s\r",
       aindex,
       itemname,
-      quantity,
       buy_price(obj, shop_nr, keeper, ch),
+      quantity,
       OBJ_FLAGGED(obj, ITEM_QUEST) ? " *QP" : "");
 
   return (result);
