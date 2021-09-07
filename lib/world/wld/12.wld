@@ -1,15 +1,16 @@
 #1200
 Meeting Room~
-Empty room.~
+talk:#adventure view:thegame:world 1200/main~
 12 8 0 0 0 0
 D0
+talk:#adventure view:thegame:world 34310/look
 ~
 ~
 1 -1 34310
 S
 #1201
 House AVIIID~
-Empty room.~
+talk:#adventure view:thegame:world 1201/main~
 12 8 0 0 0 0
 D1
 ~
@@ -17,43 +18,47 @@ D1
 0 0 34307
 E
 aramati~
-adv:world:1201/aramati
+talk:#adventure view:thegame:world 1201/aramati
 ~
 E
 vamraka~
-adv:world:1201/vamraka
+talk:#adventure view:thegame:world 1201/vamraka
 ~
 E
 indu~
-adv:world:1201/indu
+talk:#adventure view:thegame:world 1201/indu
 ~
 E
 idne~
-adv:world:1201/idne
+talk:#adventure view:thegame:world 1201/idne
 ~
 E
 indra~
-adv:world:1201/indra
+talk:#adventure view:thegame:world 1201/indra
 ~
 E
 deva~
-adv:world:1201/deva
+talk:#adventure view:thegame:world 1201/deva
 ~
 S
 #1202
 Ice Box~
-Empty room.~
+talk:#adventure view:thegame:world 1202/hymn
+~
 12 184 0 0 0 0
 S
 #1203
 Deva Cloud~
-Empty room.~
+talk:#adventure view:thegame:world 1203/hymn
+~
 12 152 0 0 0 0
 D0
+talk:#adventure view:thegame:world 34308/hymn
 ~
 ~
 0 0 34308
 D5
+talk:#adventure view:thegame:world 3001/hymn
 ~
 ~
 0 0 3001
@@ -61,7 +66,7 @@ S
 T 3106
 #1204
 Deva Space~
-undefined~
+talk:#adventure view:thegame:world 1204/main~
 12 248 0 0 0 0
 D2
 ~
@@ -69,17 +74,18 @@ D2
 1 -1 34308
 E
 original~
-adv:world:1204/original
+talk:#adventure view:thegame:world 1204/original
 ~
 E
 hymn~
-adv:world:1204/hymn
+talk:#adventure view:thegame:world 1204/hymn
 ~
 S
 T 3106
 #1205
 Deva Post Office~
-Empty room.~
+talk:#adventure view:thegame:world 1205/main
+~
 12 8 0 0 0 0
 D3
 ~
@@ -88,56 +94,66 @@ D3
 S
 #1206
 Deva Business Center~
-Empty room.~
+talk:#adventure view:thegame:world 1206/main
+~
 12 8 0 0 0 0
 D0
 ~
 Restroom~
 1 0 34379
 D3
+talk:#adventure view:thegame:world 34309/look
 ~
 ~
 0 0 34309
 S
 #1290
 Deva Hall~
-Empty room.~
+talk:#adventure view:thegame:world 1290/look
+~
 12 8 0 0 0 0
 D0
 ~
 ~
 0 0 1291
 D2
+talk:#adventure view:thegame:world 1293/look
 ~
 ~
 0 0 1293
 D3
+talk:#adventure view:thegame:world 1204/look
 ~
 ~
 0 0 1204
 S
 #1291
 Waiting Room~
-Empty room.~
+talk:#adventure view:thegame:world 1291/main
+~
 12 8 0 0 0 0
 D0
 ~
 Restroom~
 1 0 34379
 D1
+talk:#adventure view:thegame:world 34309/look
 ~
 Justice~
 1 0 34309
 D3
+talk:#adventure view:thegame:world 1293/look
 ~
 Justice~
 0 0 1293
 S
 #1292
 Mortal Board Room~
-Empty room.~
+talk:#adventure view:thegame:world 1292/main
+~
 12 0 0 0 0 0
 D3
+talk:#adventure view:thegame:world 1290/look
 ~
 ~
 0 0 1290
