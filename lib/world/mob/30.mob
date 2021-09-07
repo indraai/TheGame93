@@ -24,9 +24,9 @@ A nice looking baker.  But you can see that she has many been eating a few too m
 BareHandAttack: 1
 E
 #3002
-astrino feenia grocer d3002~
-Astrino Feenia~
-Astrino Feenia stands at the counter, with a patient look on his face.
+jo favor grocer d3002~
+Jo Favor~
+Jo Favor stands at the counter, with a patient look on his face.
 ~
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 ~
@@ -36,11 +36,11 @@ A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 8 8 1
 E
 #3003
-gladin dasco craft merchant maker d3003~
-Gladin Dasco~
-Gladin Dasco is here peddling his craft items.
+dingle berry craft merchant maker d3003~
+Dingle Berry~
+Dingle Berry is here peddling his craft items.
 ~
-He is a young CraftDEVA, who still has lots to learn but he is still eager to sell you his latest implements of creativity and imagination.
+Dingle Berry is young and fresh, who still has lots to learn about his craft. He is still eager to sell you his latest implements of creativity and imagination.
 ~
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -48,9 +48,9 @@ He is a young CraftDEVA, who still has lots to learn but he is still eager to se
 8 8 1
 E
 #3004
-geetch shardeno armor armory d3004~
-Geetch Shardeno~
-Geetch Shardeno stands here displaying his new (and previously owned) armors.
+phat snatch armor armory d3004~
+Phat Snatch~
+Phat Snatch stands here displaying his new (and previously owned) armors.
 ~
 An old but very strong armorer.  He has made more suits of armor in his life than you have ever seen.
 ~
@@ -60,8 +60,8 @@ An old but very strong armorer.  He has made more suits of armor in his life tha
 8 8 1
 E
 #3005
-xyla fleemach reception receptionist d3005~
-Xyla Fleemach~
+beatrice cobblebottom reception receptionist d3005~
+Beatrice Cobblebottom~
 Xyla Fleemach is standing behind the counter here, smiling at you.
 ~
 You notice a excited look in her face.  He looks like he is paid well and enjoys her job.
