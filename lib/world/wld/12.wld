@@ -144,17 +144,21 @@ D3
 S
 #1293
 Halls Of Justice~
-Empty room.~
+talk:#adventure view:thegame:world 1293/main
+~
 12 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 1291/look
 ~
 Waiting Room~
 1 0 1291
 D2
+talk:#adventure view:thegame:world 34310/look
 ~
 ~
 1 -1 34310
 D4
+talk:#adventure view:thegame:world 34399/look
 ~
 ~
 0 0 34399
