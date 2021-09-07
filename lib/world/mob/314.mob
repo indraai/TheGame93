@@ -1,19 +1,19 @@
 #31400
-Shaanatra monk meditating~
-Shaanatra Monk~
-Shaanatra meditates sitting cross legged on the floor, with his arms in calm position.
+indu monk water flow~
+Indu~
+Indu meditates sitting cross legged on the floor, with his arms in calm position.
 ~
 His eyes are loosely closed, his right hand holding fast to first position in honor of his Deva.  He sporadically chants tones that resonate from within his body.
 ~
-4106 0 0 0 0 0 0 0 200 E
+4106 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
 #31401
-Jerbix disciple follower~
-Disciple Jerbix~
-Disciple Jerbix is here meditating with his teacher.
+indu disciple follower~
+Indu Disciple~
+Indu Disciple is here meditating with his teacher.
 ~
 His eyes are a bit glazed over.  He never seems to lose sight of his meditating focus.
 ~
@@ -35,11 +35,11 @@ He almost does not notice you from the state that he is in, but then he obviousl
 1 1 1
 E
 #31403
-barry deva singing humming~
-Barry Deva Singing and Humming~
-Barry Deva is singing is at the fountain's base, humming and singing softly.
+barry deva yellow~
+Barry~
+Barry the Yellow Deva.
 ~
-He looks up at you with kind eyes and and directs his humming towards you.
+Barry the Yellow Deva looks up at you with kind eyes and and directs his humming towards you.
 ~
 10 0 0 0 0 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
@@ -169,28 +169,28 @@ The Monk notes your look with a look of their own, giving you a nod.
 E
 #31414
 harry red deva~
-Harry Red Deva~
-Harry Red Deva bombs you, coming inches from your head!
+Harry~
+Harry the Red Deva.
 ~
-It is hard to get a good look at the little fella, but that really doesn't matter, just look for the reddish blur.
+Harry is hard to get a good look at the little fella, but that really doesn't matter, just look for the reddish blur.
 ~
-104 0 0 0 0 0 0 0 100 E
+104 0 0 0 0 0 0 0 -100 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 0
+8 8 1
 BareHandAttack: 4
 E
 #31415
 larry deva blue~
-Larry Blue Deva~
-A small, Blue Deva moves across the air before you.
+Larry~
+Larry the Blue Deva.
 ~
-It is not an aggressive type of Deva, nor is it large by any means - but it is a Deva, nonetheless, and is soo cute.
+Larry is not an aggressive type of Deva, nor is it large by any means - but it is a Deva, nonetheless, and is soo cute.
 ~
 72 0 0 0 0 0 0 0 100 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 0
+8 8 1
 BareHandAttack: 4
 E
 #31416
