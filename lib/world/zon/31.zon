@@ -44,7 +44,6 @@ M 0 3103 20 3161 	(ED3103 EliteDEVA)
 M 0 3103 20 3162 	(ED3103 EliteDEVA)
 M 0 3103 20 3163 	(ED3103 EliteDEVA)
 
-M 0 3068 4 3106 	(the Blob Tackle Dummy)
 M 0 3100 1 3106 	(ServiceDEVA:AE00)
 G 1 3100 500 -1 	(a cup)
 G 1 3101 500 -1 	(a cup)
