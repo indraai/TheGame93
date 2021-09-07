@@ -751,6 +751,34 @@ if %people%
   wait 60 sec
 end
 ~
+#3068
+CigarBob~
+0 b 50
+~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+set dir %random.dir%
+
+set msg[1] #CigarBob rules #StreetFighter!
+set msg[2] #CigarBob is the ultimate KING of #StreetFighter
+set msg[3] The best ever #StreetFighter KING is #CigarBob
+set msg[4] #CigarBob kicks major #StreetFigther #ASS!
+set msg[5] #StreetFighter for #LIFE #CigarBob
+set msg[6] #CigarBob is the KING of #StreetFighter
+set msg[7] The #TRUE #StreetFighter KING #CigarBob
+set msg[8] When you want to #StreetFighter #Battle look for #CigarBob.
+set msg[9] #CigarBob is the Super Street Figheter King of All Time. #StreetFighter
+set msg[10] Anyone who thinks they are #StreetFighter #Elite should find #Cigarbob.
+
+if %people%
+  eval themsg %%msg[%random.10%]%%
+  wait 30 sec
+  %dir%
+else
+  %dir%
+end
+~
 #3096
 Xibo~
 0 b 50
