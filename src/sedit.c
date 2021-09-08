@@ -392,21 +392,24 @@ static void sedit_disp_menu(struct descriptor_data *d)
     "\nselect[3:Open 2]:%d\r"
     "\nselect[4:Close 2]:%d\r"
 	  "\nselect[5:Sell Rate]:%1.2f\r"
+    "\nselect[D:Sell success]:%s\r"
     "\nselect[6:Buy Rate]:%1.2f\r"
-	  "\nselect[7:Keeper NO item]:%s\r"
-	  "\nselect[8:Player NO item]:%s\r"
-	  "\nselect[9:Keeper NO cash]:%s\r"
-	  "\nselect[A:Player NO cash]:%s\r"
-	  "\nselect[B:Keeper NO buy]:%s\r"
-	  "\nselect[C:Buy success]:%s\r"
-	  "\nselect[D:Sell success]:%s\r"
+    "\nselect[C:buy success]:%s\r"
 	  "\nselect[E:No Trade With]:%s\r"
 	  "\nselect[F:Shop flags]:%s\r"
+    "\n### No Item!\r"
+	  "\nselect[7:keeper]:%s\r"
+	  "\nselect[8:player]:%s\r"
+    "\n## No Cash!\r"
+	  "\nselect[9:keeper]:%s\r"
+	  "\nselect[A:player]:%s\r"
+    "\n## No Buy!"
+	  "\nselect[B:keeper]:%s\r"
 	  "\nbmud[Rooms Menu]:R\r"
 	  "\nbmud[Products]:P\r"
 	  "\nbmud[Accept Types]:T\r"
     "\nbmud[Copy Shop]:W\r"
-	  "\nmenu[Quit]:Q\r",
+	  "\nmenu[quit]:q\r",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
 	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
