@@ -790,30 +790,31 @@ switch %vnum%
   break
 done
 
-set msg[1] Bring the #Devas hither, thou of many aspects turn hitherward #Aramati the #Holy.
+set msg[1] Bring the Devas hither, thou of many aspects turn hitherward Aramati the Holy.
 set msg[2] Bring by Deva-traversed paths, accordant, the great Aramati, Celestial Lady.
-set msg[3] Exalted, worshipped with our gifts and homage, who knoweth #HolyLaw.
-set msg[4] This invocation wins all #good that we #desire, highly-praised Aramati.
-set msg[5] Seated, I call the #Deities from all generations.
-set msg[6] Drinking #liquor, associating with #wicked people, separation #husband, #rambling abroad, #sleeping at unseasonable hours, and #dwelling in other men's #houses, are the six causes of the #ruin of #women.
-set msg[7] #Women, confined in the house under #trustworthy and #obedient servants, are not well #guarded. Those who of their own accord keep #guard over #themselves, are well #guarded.
-set msg[8] Let the #husband employ his #wife in the collection and expenditure of #wealth, in keeping everything #clean, in religious #duties, in the preparation of #food, and in looking after the #household.
-set msg[9] As the #male is to whom a #wife cleaves, even so is the #son whom she brings forth; let him therefore carefully #guard his #wife, in order to keep his #offspring pure.
-set msg[10] He who carefully guards his wife preserves the #purity of his #offspring, virtuous conduct, family, himself, and means of acquiring #merit.
-set msg[11] Considering that the highest duty of all castes, even weak #husbands must strive to #guard their #wives.
-set msg[12] #Women must particularly be guarded against #evil inclinations, however trifling. If they are not guarded, they will bring #sorrow on two families.
-set msg[13] Women who are destitute of strength and destitute of the knowledge of Vedic texts, are as impure as falsehood itself, that is a fixed rule.
-set msg[14] Whatever be the qualities of the man with whom a woman is united, such qualities she assumes, like a river united with the ocean.
-set msg[15] The production of children, the nurture of those born, and the daily life of men, of these matters woman is visibly the cause.
-set msg[16] She who, controlling her thoughts, speech, and acts, violates not her duty towards her lord, dwells with him after death in #heaven, and in this world is called the #virtuous a #faithful.
-set msg[17] But for disloyalty to her husband a wife is censured among men, and in her next life she is born in the womb of a jackal and tormented by diseases, the punishment of her sin.
+set msg[3] Exalted, worshipped with our gifts and homage, who knoweth HolyLaw.
+set msg[4] This invocation wins all good that we desire, highly-praised Aramati.
+set msg[5] Seated, I call the Deities from all generations.
+set msg[6] The six causes of the ruin of women are drinking liquor, associating with wicked people, separation husband, rambling abroad, sleeping at off hours, and dwelling in other men's houses.
+set msg[7] Women, confined in the house under trustworthy and obedient servants, are not well guarded.
+set msg[8] Those who of their own accord keep guard over themselves, are well guarded.
+set msg[9] As the male is to whom a wife cleaves, even so is the son whom she brings forth.
+set msg[10] Let him therefore carefully guard his wife, in order to keep his offspring pure.
+set msg[11] He who carefully guards his wife preserves the purity of his offspring, virtuous conduct, family, himself, and means of acquiring merit.
+set msg[12] Considering that the highest duty of all castes, even weak husbands must strive to guard their wives.
+set msg[13] Women must particularly be guarded against evil inclinations, however trifling. If they are not guarded, they will bring sorrow on two families.
+set msg[14] Women who are destitute of strength and destitute of the knowledge of Vedic texts, are as impure as falsehood itself, that is a fixed rule.
+set msg[15] Whatever be the qualities of the man with whom a woman is united, such qualities she assumes, like a river united with the ocean.
+set msg[16] The production of children, the nurture of those born, and the daily life of men, of these matters woman is visibly the cause.
+set msg[17] She who, controlling her thoughts, speech, and acts, violates not her duty towards her lord in this world is called the virtuous a faithful.
+set msg[17] But for disloyalty to her husband a wife is censured among men, and in her next born as a lower life form. The punishment of her sin.
 set msg[18] Neither by sale nor by repudiation is a wife released from her husband; such we know the law to be, which the Lord of creatures made of old.
 set msg[19] Though a man may have accepted a damsel in due form, he may abandon her if she be blemished, diseased, or deflowered, and if she have been given with fraud.
-set msg[20] If anybody gives away a maiden possessing blemishes without declaring them, (the bridegroom) may annul that (contract) with the evil-minded giver.
+set msg[20] If anybody gives away a maiden possessing blemishes without declaring them, the bridegroom may annul that contract with the evil-minded giver.
 set msg[21] She who drinks spirituous liquor, is of bad conduct, rebellious, diseased, mischievous, or wasteful, may at any time be superseded by another wife.
 set msg[22] But a sick wife who is kind to her husband and virtuous in her conduct, may be superseded (only) with her own consent and must never be disgraced.
 set msg[23] A wife who, being superseded, in anger departs from her husband's house, must either be instantly confined or cast off in the presence of the family.
-set msg[24] A maiden who choses for herself, shall not take with her any ornaments, given by her father or her mother, or her brothers; if she carries them away, it will be theft.
+set msg[24] A maiden who choses for herself, shall not take with her any ornaments, given by her father or her mother, or her brothers. If she carries them away, it will be theft.
 set msg[25] Let man and woman, united in marriage, constantly exert themselves, that they may not be disunited and may not violate their mutual fidelity.
 set msg[26] To be mothers were women created, and to be fathers men, therefore, religious rites are ordained in the Veda to be performed by the husband together with the wife.
 
@@ -864,7 +865,7 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set msg[1] Back in the 80's, James Parry was a struggling undergraduate student at Rensselaer Polytechnic Institute, or just "RPI".
-set msg[2] RPI was a medium sized technical school, hidden in upstate New York, one of those places where people send their smart children to hide them from public society.
+set msg[2] RPI was a medium sized technical school in upstate New York. A place where people send their smart children to hide them from public society.
 set msg[3] This Institution, like others similar to it, was home to a great many insane geniuses.
 set msg[4] One of the benefits of these technical schools was that they were among the early adopters of the Internet.
 set msg[5] After learning about the cult of the subgenius and all the fun those slackers had, James decided that he would take on the persona of #Kibo.
@@ -878,14 +879,13 @@ set msg[12] Kibo's driving philosophy was "You're Allowed"; thus, Xibo had to sa
 set msg[13] At first, Kibo himself played the role of Xibo, but then he got help from some of his classmates, including Harry (who later became Glass Onion) and Mark Hill.
 set msg[14] Mark Hill held the role of Xibo for over a year, but then he graduated and took a job with Oracle.
 set msg[15] In 1989, a math student at a similar institution for disturbed intellectuals, also acquired net.access and began following the ravings of Kibo on USENET.
-set msg[16] Initially this guy was involved with alt.weemba (What's a Weemba?!) and alt.slack (Praise ``Bob''!) but soon graduated to talk.bizarre, where the hardcore dinos played.
+set msg[16] Initially this guy was involved with alt.weemba and alt.slack but soon graduated to talk.bizarre, where the hardcore dinos played.
 set msg[17] This school was known as the New Mexico Institute for Mining and Technology, or more simply, New Mexico Tech, or even more simply, NMT.
-set msg[18] Our hero graduated from NMT, and became a grad student in the math department at the University of Arizona, which gave him the blessing of retaining net.access.
-set msg[19] He began a conversation with Mark Hill, and expressed an interest in becoming the next #Xibo. Mark mailed a postcard with the words "I resign. --X." and a legend was born.
-set msg[20] #Xibo or #Lazarus is a deeply disturbed individual. Formerly a starving grad student, he's now got a PhD and is employed as an Evil Scientist(TM). https://j.mp/3yIYref
-set msg[21] #Xibo or #Lazarus is also known as Dave Dogruel Chemical Science and Technology Division Los Alamos National Laboratory.
-set msg[22] You can find #Lazarus aka David Dogruel on Linkedin https://www.linkedin.com/in/david-dogruel-89768111/
-set msg[23] Besides his #Darknet activities #Lazarus is also a member of the Los Alamos Mountaineers and has a side job at #REI as of 2009. http://lamountaineers.org/Bios/Dave_Dogruel.html
+set msg[18] #Lazarus graduated from NMT, and became a grad student in the math department at the University of Arizona.
+set msg[20] #Lazarus is a deeply disturbed individual. He's now got a PhD and is employed as an #EvilScientist(TM). https://j.mp/3yIYref
+set msg[21] #Lazarus is also known as Dave Dogruel worked at Chemical Science and Technology Division Los Alamos National Laboratory.
+set msg[22] You can find #Lazarus David Dogruel on Linkedin https://www.linkedin.com/in/david-dogruel-89768111/
+set msg[23] Besides his #Darknet activities #Lazarus is also a member of the Los Alamos Mountaineers and #REI as of 2009. http://lamountaineers.org/Bios/Dave_Dogruel.html
 set msg[24] If you follow the links page from #Xibo website you'll be directed to Satanic.org https://j.mp/3kM3B40 (dangerous link)
 set msg[24] Xibo is how you will get your link to Evil People Inc. Where you find access to the broader world of the #DARKNET #MUD #MOO realms. https://j.mp/3BEFICr
 set msg[25] As a graduate student, Xibo was extremely disturbed mentally, due to the excessive loneliness one encounters in technical schools.
