@@ -304,7 +304,7 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 	  "\nmenu[closed]:3\r"
 	  "\nmenu[locked]:4\r"
 	  "\nflags: %s\r"
-    "\nmenu:0:quit\r",
+    "\nmenu[quit]:0\r",
 	  bits);
 }
 
@@ -321,7 +321,7 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\nselect[2:desc]:%s\r"
 	  "\nselect[3:next desc]:%s\r"
     "\n=\n"
-	  "\nmenu:0:quit\r",
+	  "\nmenu[quit]:0\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
     (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
@@ -343,15 +343,16 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
   for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
     if (OLC_OBJ(d)->affected[counter].modifier) {
       sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
-      write_to_output(d, " menu:%d:%d to %s\r",counter + 1,
-	      OLC_OBJ(d)->affected[counter].modifier, apply_buf);
+      write_to_output(d, " menu[%d to %s]:%d\r",
+	      OLC_OBJ(d)->affected[counter].modifier,
+        apply_buf,
+        counter + 1);
     } else {
-      write_to_output(d, " menu:%d:None\r", counter + 1);
+      write_to_output(d, " menu[None]:%d\r", counter + 1);
     }
   }
   OLC_MODE(d) = OEDIT_PROMPT_APPLY;
-  write_to_output(d, "\n===\n"
-  "menu:0:done");
+  write_to_output(d, "menu[done]:0");
 }
 
 /* Ask for liquid type. */
@@ -573,7 +574,7 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
     write_to_output(d, "\nbmud[%s]:%d\r", item_types[i], ++count);
   }
   write_to_output(d, "\n=\n"
-  "\nmenu:0:quit\r");
+  "\nmenu[quit]:0\r");
 }
 
 /* Object extra flags. */
@@ -690,7 +691,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
     "\nbmud[applies menu]:d\r"
     "\nbmud[copy]:w\r"
     "\nbmud[delete]:x\r"
-	  "\nmenu:q:quit\r",
+	  "\nmenu[q]:q\r",
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
 	  GET_OBJ_COST(obj),
