@@ -778,6 +778,17 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set dir %random.dir%
+switch
+  case 3029
+    set dir n
+  break
+  case 3027
+    set dir e
+  break
+  default
+    set dir %random.dir%
+  break
+done
 
 set msg[1] Bring the Devas hither, thou of many aspects: turn hitherward Aramati the Holy.
 set msg[2] Bring by Deva-traversed paths, accordant, the great Aramati, Celestial Lady.
