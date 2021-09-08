@@ -475,6 +475,46 @@ E
 canoe~
    The canoe is fairly light.
 ~
+#3062
+drink drinks glass apple juice~
+a glass~
+A glass of Apple Juice has been left here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+8 8 2 0
+10 5 0 0 0
+#3063
+drink drinks glass grape juice~
+a glass~
+A glass of Grape Juice has been left here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+8 8 2 0
+10 5 0 0 0
+#3063
+drink drinks glass mango juice~
+a glass~
+A glass of Mango Juice has been left here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+8 8 3 0
+10 5 0 0 0
+#3064
+drink drinks glass tropical iced-tea~
+a glass~
+A glass of Tropical Iced-Tea has been left here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+8 8 3 0
+10 5 0 0 0
+#3065
+drink drinks glass tropical iced-tea~
+a glass~
+A glass of Tropical Iced-Tea has been left here.~
+~
+17 0 0 0 0 a 0 0 0 0 0 0 0
+8 8 3 0
+10 5 0 0 0
 #3070
 gauntlets bronze~
 Bronze Gauntlets (2x)~
