@@ -778,7 +778,7 @@ set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
 set dir %random.dir%
-switch
+switch %vnum%
   case 3029
     set dir n
   break
@@ -790,18 +790,18 @@ switch
   break
 done
 
-set msg[1] Bring the Devas hither, thou of many aspects: turn hitherward Aramati the Holy.
+set msg[1] Bring the #Devas hither, thou of many aspects turn hitherward #Aramati the #Holy.
 set msg[2] Bring by Deva-traversed paths, accordant, the great Aramati, Celestial Lady.
-set msg[3] Exalted, worshipped with our gifts and homage, who knoweth Holy Law.
-set msg[4] This invocation wins all good that we desire, highly-praised Aramati
-set msg[5] Seated, I call the Deities' generations.
-set msg[6] Drinking liquor, associating with wicked people, separation husband, rambling abroad, sleeping at unseasonable hours, and dwelling in other men's houses, are the six causes of the ruin of women.
-set msg[7] Women, confined in the house under trustworthy and obedient servants, are not well guarded. Those who of their own accord keep guard over themselves, are well guarded.
-set msg[8] Let the husband employ his wife in the collection and expenditure of wealth, in keeping everything clean, in religious duties, in the preparation of food, and in looking after the household.
-set msg[9] As the male is to whom a wife cleaves, even so is the son whom she brings forth; let him therefore carefully guard his wife, in order to keep his offspring pure.
-set msg[10] He who carefully guards his wife preserves the purity of his offspring, virtuous conduct, family, himself, and means of acquiring merit.
-set msg[11] Considering that the highest duty of all castes, even weak husbands must strive to guard their wives.
-set msg[12] Women must particularly be guarded against evil inclinations, however trifling. If they are not guarded, they will bring sorrow on two families.
+set msg[3] Exalted, worshipped with our gifts and homage, who knoweth #HolyLaw.
+set msg[4] This invocation wins all #good that we #desire, highly-praised Aramati.
+set msg[5] Seated, I call the #Deities from all generations.
+set msg[6] Drinking #liquor, associating with #wicked people, separation #husband, #rambling abroad, #sleeping at unseasonable hours, and #dwelling in other men's #houses, are the six causes of the #ruin of #women.
+set msg[7] #Women, confined in the house under #trustworthy and #obedient servants, are not well #guarded. Those who of their own accord keep #guard over #themselves, are well #guarded.
+set msg[8] Let the #husband employ his #wife in the collection and expenditure of #wealth, in keeping everything #clean, in religious #duties, in the preparation of #food, and in looking after the #household.
+set msg[9] As the #male is to whom a #wife cleaves, even so is the #son whom she brings forth; let him therefore carefully #guard his #wife, in order to keep his #offspring pure.
+set msg[10] He who carefully guards his wife preserves the #purity of his #offspring, virtuous conduct, family, himself, and means of acquiring #merit.
+set msg[11] Considering that the highest duty of all castes, even weak #husbands must strive to #guard their #wives.
+set msg[12] #Women must particularly be guarded against #evil inclinations, however trifling. If they are not guarded, they will bring #sorrow on two families.
 set msg[13] Women who are destitute of strength and destitute of the knowledge of Vedic texts, are as impure as falsehood itself, that is a fixed rule.
 set msg[14] Whatever be the qualities of the man with whom a woman is united, such qualities she assumes, like a river united with the ocean.
 set msg[15] The production of children, the nurture of those born, and the daily life of men, of these matters woman is visibly the cause.
@@ -818,12 +818,12 @@ set msg[25] Let man and woman, united in marriage, constantly exert themselves, 
 set msg[26] To be mothers were women created, and to be fathers men, therefore, religious rites are ordained in the Veda to be performed by the husband together with the wife.
 
 if %people%
-  eval themsg %%msg[%random.26%]%% in %room.name% #R%vnum%
+  eval themsg %%msg[%random.26%]%% %room.name% #R%vnum%
   say %themsg%
   wait 60 sec
   %dir%
 else
-  wait 10 sec
+  wait 5 sec
   %dir%
 end
 ~
