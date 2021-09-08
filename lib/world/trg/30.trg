@@ -770,6 +770,58 @@ else
   %random.dir%
 end
 ~
+#3022
+Aramati~
+0 b 50
+~
+set room %self.room%
+set vnum %room.vnum%
+set people %room.people%
+
+set dir n
+switch %vnum%
+  case 3027
+    set dir e
+  break
+  case 3028
+    set dir %random.dir%
+  break
+done
+
+set msg[1] Bring the Devas hither, thou of many aspects: turn hitherward Aramati the Holy.
+set msg[2] Bring by Deva-traversed paths, accordant, the great Aramati, Celestial Lady.
+set msg[3] Exalted, worshipped with our gifts and homage, who knoweth Holy Law.
+set msg[4] This invocation wins all good that we desire, highly-praised Aramati
+set msg[5] Seated, I call the Deities' generations.
+set msg[6] Drinking liquor, associating with wicked people, separation husband, rambling abroad, sleeping at unseasonable hours, and dwelling in other men's houses, are the six causes of the ruin of women.
+set msg[7] Women, confined in the house under trustworthy and obedient servants, are not well guarded. Those who of their own accord keep guard over themselves, are well guarded.
+set msg[8] Let the husband employ his wife in the collection and expenditure of wealth, in keeping everything clean, in religious duties, in the preparation of food, and in looking after the household.
+set msg[9] As the male is to whom a wife cleaves, even so is the son whom she brings forth; let him therefore carefully guard his wife, in order to keep his offspring pure.
+set msg[10] He who carefully guards his wife preserves the purity of his offspring, virtuous conduct, family, himself, and means of acquiring merit.
+set msg[11] Considering that the highest duty of all castes, even weak husbands must strive to guard their wives.
+set msg[12] Women must particularly be guarded against evil inclinations, however trifling. If they are not guarded, they will bring sorrow on two families.
+set msg[13] Women who are destitute of strength and destitute of the knowledge of Vedic texts, are as impure as falsehood itself, that is a fixed rule.
+set msg[14] Whatever be the qualities of the man with whom a woman is united, such qualities she assumes, like a river united with the ocean.
+set msg[15] The production of children, the nurture of those born, and the daily life of men, of these matters woman is visibly the cause.
+set msg[16] She who, controlling her thoughts, speech, and acts, violates not her duty towards her lord, dwells with him after death in #heaven, and in this world is called the #virtuous a #faithful.
+set msg[17] But for disloyalty to her husband a wife is censured among men, and in her next life she is born in the womb of a jackal and tormented by diseases, the punishment of her sin.
+set msg[18] Neither by sale nor by repudiation is a wife released from her husband; such we know the law to be, which the Lord of creatures made of old.
+set msg[19] Though a man may have accepted a damsel in due form, he may abandon her if she be blemished, diseased, or deflowered, and if she have been given with fraud.
+set msg[20] If anybody gives away a maiden possessing blemishes without declaring them, (the bridegroom) may annul that (contract) with the evil-minded giver.
+set msg[21] She who drinks spirituous liquor, is of bad conduct, rebellious, diseased, mischievous, or wasteful, may at any time be superseded by another wife.
+set msg[22] But a sick wife who is kind to her husband and virtuous in her conduct, may be superseded (only) with her own consent and must never be disgraced.
+set msg[23] A wife who, being superseded, in anger departs from her husband's house, must either be instantly confined or cast off in the presence of the family.
+set msg[24] A maiden who choses for herself, shall not take with her any ornaments, given by her father or her mother, or her brothers; if she carries them away, it will be theft.
+set msg[25] Let man and woman, united in marriage, constantly exert themselves, that they may not be disunited and may not violate their mutual fidelity.
+set msg[26] To be mothers were women created, and to be fathers men, therefore, religious rites are ordained in the Veda to be performed by the husband together with the wife.
+
+if %people%
+  eval themsg %%msg[%random.26%]%% in %room.name% #R%vnum%
+  say %themsg%
+end
+wait 30 sec
+%dir%
+~
 #3068
 CigarBob~
 0 b 50
