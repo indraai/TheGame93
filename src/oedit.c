@@ -571,7 +571,7 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Object Type\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", item_types[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", item_types[i], count++);
   }
   write_to_output(d, "\n=\n"
   "\nmenu[quit]:0\r");
