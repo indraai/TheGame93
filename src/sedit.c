@@ -226,15 +226,14 @@ static void sedit_products_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "##     VNUM     Product\r\n");
+  write_to_output(d, "\n## Products\r");
   for (i = 0; S_PRODUCT(shop, i) != NOTHING; i++) {
-    write_to_output(d, "\n%d: %d - %s\r", i,
-	    obj_index[S_PRODUCT(shop, i)].vnum,
+    write_to_output(d, "\n%d: %s\r", i,
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
-  write_to_output(d, "\nmenu[Add Product]:A\r"
-	  "\nmenu[Delete Product]:D\r"
-	  "\nmenu[Quit]:Q\r"
+  write_to_output(d, "\nmenu[add product]:A\r"
+	  "\nmenu[delete product]:D\r"
+	  "\nmenu[quit]:q\r"
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
