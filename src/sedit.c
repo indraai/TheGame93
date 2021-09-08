@@ -418,16 +418,16 @@ static void sedit_disp_menu(struct descriptor_data *d)
 	  S_OPEN2(shop),
 	  S_CLOSE2(shop),
 	  S_BUYPROFIT(shop),
+    S_BUY(shop),
 	  S_SELLPROFIT(shop),
+    S_SELL(shop),
+    buf1,
+	  buf2
 	  S_NOITEM1(shop),
 	  S_NOITEM2(shop),
 	  S_NOCASH1(shop),
 	  S_NOCASH2(shop),
 	  S_NOBUY(shop),
-	  S_BUY(shop),
-	  S_SELL(shop),
-	  buf1,
-	  buf2
   );
 
   OLC_MODE(d) = SEDIT_MAIN_MENU;
