@@ -139,7 +139,7 @@ ACMD(do_oasis_sedit)
   }
 
   if (save) {
-    send_to_char(ch, "Saving all shops in zone %d.\r\n",
+    send_to_char(ch, "\nSaving all shops in zone %d.\r",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves shop info for zone %d.",
@@ -228,15 +228,14 @@ static void sedit_products_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "##     VNUM     Product\r\n");
   for (i = 0; S_PRODUCT(shop, i) != NOTHING; i++) {
-    write_to_output(d, "%2d - [%s%5d%s] - %s%s%s\r\n", i,
-	    cyn, obj_index[S_PRODUCT(shop, i)].vnum, nrm,
-	    yel, obj_proto[S_PRODUCT(shop, i)].short_description, nrm);
+    write_to_output(d, "\n%d: %d - %s\r", i,
+	    obj_index[S_PRODUCT(shop, i)].vnum,
+	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
-  write_to_output(d, "\r\n"
-	  "%sA%s) Add a new product.\r\n"
-	  "%sD%s) Delete a product.\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ", grn, nrm, grn, nrm, grn, nrm);
+  write_to_output(d, "\nmenu[Add Product]:A\r"
+	  "\nmenu[Delete Product]:D\r"
+	  "\nmenu[Quit]:Q\r"
+  );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
 }
@@ -400,10 +399,10 @@ static void sedit_disp_menu(struct descriptor_data *d)
     "\n### No Item!\r"
 	  "\nselect[7:keeper]:%s\r"
 	  "\nselect[8:player]:%s\r"
-    "\n## No Cash!\r"
+    "\n### No Cash!\r"
 	  "\nselect[9:keeper]:%s\r"
 	  "\nselect[A:player]:%s\r"
-    "\n## No Buy!"
+    "\n### No Buy!"
 	  "\nselect[B:keeper]:%s\r"
 	  "\nbmud[Rooms Menu]:R\r"
 	  "\nbmud[Products]:P\r"
