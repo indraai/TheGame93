@@ -438,7 +438,7 @@ talk:#adventure view:thegame:world 3018/look
 0 -1 3018
 S
 #3020
-Art Supplies~
+Craftman Supplies~
 talk:#adventure view:thegame:world 3020/main
 ~
 30 136 0 0 0 0
@@ -453,7 +453,7 @@ talk:#adventure view:thegame:world 3020/note
 ~
 S
 #3021
-The Artist Guild~
+The Craftsman Guild~
 talk:#adventure view:thegame:world 3021/main
 ~
 30 8 0 0 0 0
@@ -469,7 +469,7 @@ talk:#adventure view:thegame:world 3022/look
 0 -1 3022
 S
 #3022
-The Artist Bar~
+The Craftsman Bar~
 talk:#adventure view:thegame:world 3022/main
 ~
 30 140 0 0 0 0
@@ -485,7 +485,7 @@ talk:#adventure view:thegame:world 3021/look
 0 -1 3021
 S
 #3023
-The Artist Studio~
+The Craftsman Studio~
 talk:#adventure view:thegame:world 3023/main
 ~
 30 8 0 0 0 0
