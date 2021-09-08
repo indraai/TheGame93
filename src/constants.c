@@ -519,7 +519,7 @@ const char *drinks[] =
 	"Green Tea",               /* coffee */
 	"Black Tea",               /* blood */
 	"Salt Water",
-	"Pepsi"
+	"Pepsi",
 	"Coke"
   "\n"
 };
