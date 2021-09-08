@@ -7,33 +7,33 @@ A water barrel is here.~
 50 50 0 0
 50 300 100 0 0
 #3001
-bottle drink drinks water~
-a bottle~
-A water bottle has been left here.~
+glass drink drinks water~
+a glass~
+A water glass has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 0 0
 10 20 8 0 0
 #3002
 drink drinks glass orange juice~
-Orange Juice~
+a glass~
 A glass of Orange juice has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
-8 8 3 0
+8 8 1 0
 10 10 3 0 0
 #3003
-bottle drink drinks lemonaid~
-a bottle~
-A bottle of lemonaid has been left here.~
+glass drink drinks lemonaid~
+a glass~
+A glass of lemonaid has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 7 0
 10 50 17 0 0
 #3004
-bottle drink drinks limeaid drinks~
-a bottle~
-A bottle of limeaid has been left here.~
+glass drink drinks limeaid~
+a glass~
+A glass of limeaid has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 8 0
