@@ -691,7 +691,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
     "\nbmud[applies menu]:d\r"
     "\nbmud[copy]:w\r"
     "\nbmud[delete]:x\r"
-	  "\nmenu[q]:q\r",
+	  "\nmenu[quit]:q\r",
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
 	  GET_OBJ_COST(obj),
@@ -704,7 +704,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  GET_OBJ_VAL(obj, 3),
 	  obj->ex_description ? "set..." : "not set...",
     buf2,
-    OLC_SCRIPT(d) ? "Set." : "Not Set.");
+    OLC_SCRIPT(d) ? "set..." : "not set...");
     OLC_MODE(d) = OEDIT_MAIN_MENU;
 }
 
