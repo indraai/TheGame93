@@ -393,22 +393,20 @@ static void sedit_disp_menu(struct descriptor_data *d)
     "\nselect[4:Close 2]:%d\r"
 	  "\nselect[5:Sell Rate]:%s%1.2f\r"
     "\nselect[6:Buy Rate]:%s%1.2f\r"
-	  "%s7%s) Keeper no item : %s%s\r\n"
-	  "%s8%s) Player no item : %s%s\r\n"
-	  "%s9%s) Keeper no cash : %s%s\r\n"
-	  "%sA%s) Player no cash : %s%s\r\n"
-	  "%sB%s) Keeper no buy  : %s%s\r\n"
-	  "%sC%s) Buy success    : %s%s\r\n"
-	  "%sD%s) Sell success   : %s%s\r\n"
-	  "%sE%s) No Trade With  : %s%s\r\n"
-	  "%sF%s) Shop flags     : %s%s\r\n"
-	  "%sR%s) Rooms Menu\r\n"
-	  "%sP%s) Products Menu\r\n"
-	  "%sT%s) Accept Types Menu\r\n"
-          "%sW%s) Copy Shop\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter Choice : ",
-
+	  "\nselect[7:Keeper no item]:%s\r"
+	  "\nselect[8:Player no item]:%s\r"
+	  "\nselect[9:Keeper no cash]:%s\r"
+	  "\nselect[A:Player no cash]:%s\r"
+	  "\nselect[B:Keeper no buy]:%s\r"
+	  "\nselect[C:Buy success]:%s\r"
+	  "\nselect[D:Sell success]:%s\r"
+	  "\nselect[E:No Trade With]:%s\r"
+	  "\nselect[F:Shop flags]:%s\r"
+	  "\nbmud[Rooms Menu]:R\r"
+	  "\nbmud[Products]:P\r"
+	  "\nbmud[Accept Types]:T\r"
+    "\nbmud[Copy Shop]:W\r"
+	  "\nmenu[Quit]:Q\r",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
 	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
