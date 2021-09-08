@@ -323,9 +323,9 @@ The ServiceDEVA is here waiting for your order.
 8 8 0
 E
 #3044
-service deva servicedeva d3044~
-ServiceDEVA (Waitor)~
-ServiceDEVA D3044 is standing here.
+service deva servicedeva gossipbar d3044~
+Attendant~
+GossipBar Attendant is here.
 ~
 ServiceDEVA D3044 is here waiting for your order.
 ~

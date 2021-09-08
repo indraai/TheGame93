@@ -777,16 +777,7 @@ Aramati~
 set room %self.room%
 set vnum %room.vnum%
 set people %room.people%
-
-set dir n
-switch %vnum%
-  case 3027
-    set dir e
-  break
-  case 3028
-    set dir %random.dir%
-  break
-done
+set dir %random.dir%
 
 set msg[1] Bring the Devas hither, thou of many aspects: turn hitherward Aramati the Holy.
 set msg[2] Bring by Deva-traversed paths, accordant, the great Aramati, Celestial Lady.
@@ -818,9 +809,12 @@ set msg[26] To be mothers were women created, and to be fathers men, therefore, 
 if %people%
   eval themsg %%msg[%random.26%]%% in %room.name% #R%vnum%
   say %themsg%
+  wait 60 sec
+  %dir%
+else
+  wait 10 sec
+  %dir%
 end
-wait 30 sec
-%dir%
 ~
 #3068
 CigarBob~
