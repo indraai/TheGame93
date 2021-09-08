@@ -56,7 +56,7 @@ ACMD(do_oasis_sedit)
   /* No building as a mob or while being forced. */
   if (IS_NPC(ch) || !ch->desc || STATE(ch->desc) != CON_PLAYING)
     return;
-    
+
   /* Parse any arguments. */
   two_arguments(argument, buf1, buf2);
 
@@ -385,11 +385,14 @@ static void sedit_disp_menu(struct descriptor_data *d)
   sprintbit(S_NOTRADE(shop), trade_letters, buf1, sizeof(buf1));
   sprintbit(S_BITVECTOR(shop), shop_bits, buf2, sizeof(buf2));
   write_to_output(d,
-	  "-- Shop Number : [%s%d%s]\r\n"
-	  "%s0%s) Keeper      : [%s%d%s] %s%s\r\n"
-          "%s1%s) Open 1      : %s%4d%s          %s2%s) Close 1     : %s%4d\r\n"
-          "%s3%s) Open 2      : %s%4d%s          %s4%s) Close 2     : %s%4d\r\n"
-	  "%s5%s) Sell rate   : %s%1.2f%s          %s6%s) Buy rate    : %s%1.2f\r\n"
+	  "\n# Shop: %d\r"
+	  "\nselect[0:keeper]:%d - %s\r"
+    "\nselect[1:Open 1]:%d\r"
+    "\nselect[2:Close 1]:%d\r"
+    "\nselect[3:Open 2]:%d\r"
+    "\nselect[4:Close 2]:%d\r"
+	  "\nselect[5:Sell Rate]:%s%1.2f\r"
+    "\nselect[6:Buy Rate]:%s%1.2f\r"
 	  "%s7%s) Keeper no item : %s%s\r\n"
 	  "%s8%s) Player no item : %s%s\r\n"
 	  "%s9%s) Keeper no cash : %s%s\r\n"
@@ -406,25 +409,24 @@ static void sedit_disp_menu(struct descriptor_data *d)
 	  "%sQ%s) Quit\r\n"
 	  "Enter Choice : ",
 
-	  cyn, OLC_NUM(d), nrm,
-	  grn, nrm, cyn, S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
-	  nrm, yel, S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
-	  grn, nrm, cyn, S_OPEN1(shop), nrm,
-	  grn, nrm, cyn, S_CLOSE1(shop),
-	  grn, nrm, cyn, S_OPEN2(shop), nrm,
-	  grn, nrm, cyn, S_CLOSE2(shop),
-	  grn, nrm, cyn, S_BUYPROFIT(shop), nrm,
-	  grn, nrm, cyn, S_SELLPROFIT(shop),
-	  grn, nrm, yel, S_NOITEM1(shop),
-	  grn, nrm, yel, S_NOITEM2(shop),
-	  grn, nrm, yel, S_NOCASH1(shop),
-	  grn, nrm, yel, S_NOCASH2(shop),
-	  grn, nrm, yel, S_NOBUY(shop),
-	  grn, nrm, yel, S_BUY(shop),
-	  grn, nrm, yel, S_SELL(shop),
-	  grn, nrm, cyn, buf1,
-	  grn, nrm, cyn, buf2,
-	  grn, nrm, grn, nrm, grn, nrm, grn, nrm, grn, nrm
+	  OLC_NUM(d),
+	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
+	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
+	  S_OPEN1(shop),
+	  S_CLOSE1(shop),
+	  S_OPEN2(shop),
+	  S_CLOSE2(shop),
+	  S_BUYPROFIT(shop),
+	  S_SELLPROFIT(shop),
+	  S_NOITEM1(shop),
+	  S_NOITEM2(shop),
+	  S_NOCASH1(shop),
+	  S_NOCASH2(shop),
+	  S_NOBUY(shop),
+	  S_BUY(shop),
+	  S_SELL(shop),
+	  buf1,
+	  buf2
   );
 
   OLC_MODE(d) = SEDIT_MAIN_MENU;
@@ -777,7 +779,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     break;
   }
 
-/* If we get here, we have probably changed something, and now want to return 
+/* If we get here, we have probably changed something, and now want to return
    to main menu.  Use OLC_VAL as a 'has changed' flag. */
   OLC_VAL(d) = 1;
   sedit_disp_menu(d);
