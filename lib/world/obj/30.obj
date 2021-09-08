@@ -13,7 +13,7 @@ A water glass has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 0 0
-10 20 8 0 0
+10 0 0 0 0
 #3002
 drink drinks glass orange juice~
 a glass~
@@ -21,7 +21,7 @@ A glass of Orange juice has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
-10 10 3 0 0
+10 5 0 0 0
 #3003
 glass drink drinks lemonaid~
 a glass~
@@ -29,7 +29,7 @@ A glass of lemonaid has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 7 0
-10 50 17 0 0
+10 5 0 0 0
 #3004
 glass drink drinks limeaid~
 a glass~
@@ -37,7 +37,7 @@ A glass of limeaid has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 8 0
-10 20 7 0 0
+10 5 0 0 0
 #3005
 key dull metal~
 a key of dull metal~
@@ -151,12 +151,12 @@ A small sword lies here.~
 0 1 6 11
 3 60 10 0 0
 E
-sword~
-The small sword seems to have an inscription of some sort.
-~
-E
 inscription~
 It says: 'May this sword be a good companion.  '
+~
+E
+sword~
+The small sword seems to have an inscription of some sort.
 ~
 #3022
 sword long weapons~
@@ -628,12 +628,12 @@ A large, sociable bulletin board is mounted on a wall here.~
 0 0 0 0
 0 0 0 0 0
 E
-board~
-If you can read this, the board is not working.
-~
-E
 social bulletin~
 Use 'look board' to read the board.
+~
+E
+board~
+If you can read this, the board is not working.
 ~
 #3097
 boards frozen bulletin gen_boards~
@@ -644,12 +644,12 @@ A large bulletin board is here, carved from a block of ice.~
 0 0 0 0
 0 0 0 0 0
 E
-board~
-If you can read this, the board is not working.
-~
-E
 freeze bulletin~
 Use 'look board' to read the board.
+~
+E
+board~
+If you can read this, the board is not working.
 ~
 #3098
 boards holy bulletin gen_boards~
@@ -660,12 +660,12 @@ A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
 0 0 0 0
 0 0 0 0 0
 E
-board~
-   If you can read this, the board is not working.
-~
-E
 holy bulletin~
    Use 'look board' to read the board.
+~
+E
+board~
+   If you can read this, the board is not working.
 ~
 #3099
 boards bulletin gen_boards~
@@ -676,11 +676,11 @@ A large bulletin board is mounted on a wall here.~
 0 0 0 0
 0 0 0 0 0
 E
-board~
-If you can read this, the board is not working.
-~
-E
 bulletin~
 Use 'look board' to read the board.
+~
+E
+board~
+If you can read this, the board is not working.
 ~
 $~
