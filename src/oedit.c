@@ -69,7 +69,7 @@ ACMD(do_oasis_oedit)
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "\nYikes!  Stop that, someone will get hurt!\r");
+      send_to_char(ch, "\nerror:Yikes!  Stop that, someone will get hurt!\r");
       return;
     }
 
@@ -97,7 +97,7 @@ ACMD(do_oasis_oedit)
     number = atoi(buf1);
 
   if (number < IDXTYPE_MIN || number > IDXTYPE_MAX) {
-    send_to_char(ch, "That object VNUM can't exist.\r\n");
+    send_to_char(ch, "\ninfo:That object VNUM can't exist.\r");
     return;
   }
 
@@ -105,7 +105,7 @@ ACMD(do_oasis_oedit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_OEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That object is currently being edited by %s.\r\n",
+        send_to_char(ch, "\ninfo:That object is currently being edited by %s.\r",
           PERS(d->character, ch));
         return;
       }
@@ -127,7 +127,7 @@ ACMD(do_oasis_oedit)
   /* Find the zone. */
   OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
   if (OLC_ZNUM(d) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+    send_to_char(ch, "\ninfo:Sorry, there is no zone for that number!\r");
 
     /* Free the descriptor's OLC structure. */
     free(d->olc);
@@ -146,7 +146,7 @@ ACMD(do_oasis_oedit)
 
   /* If we need to save, save the objects. */
   if (save) {
-    send_to_char(ch, "Saving all objects in zone %d.\r\n",
+    send_to_char(ch, "\ninfo:Saving all objects in zone %d.\r",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves object info for zone %d.", GET_NAME(ch),
@@ -298,13 +298,12 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 
   sprintbit(GET_OBJ_VAL(OLC_OBJ(d), 1), container_bits, bits, sizeof(bits));
   write_to_output(d,
-	  "\nmenu:1:closeable\r"
-	  "\nmenu:2:pickproof\r"
-	  "\nmenu:3:closed\r"
-	  "\nmenu:4:locked\r"
-    "\n====\r"
+    "\n## Flags\r"
+	  "\nmenu[closeable]:1\r"
+	  "\nmenu[pickproof]:2\r"
+	  "\nmenu[closed]:3\r"
+	  "\nmenu[locked]:4\r"
 	  "\nflags: %s\r"
-    "\n=\r"
     "\nmenu:0:quit\r",
 	  bits);
 }
@@ -361,12 +360,12 @@ static void oedit_liquid_type(struct descriptor_data *d)
   int i,count=0;
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n# Liquid Type\r");
+  write_to_output(d, "\n## Liquid Type\r");
   // column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
   for (i = 0; i < NUM_LIQ_TYPES; i++) {
-    write_to_output(d, "\nbmud:%d:%s\r", ++count, drinks[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", drinks[i], ++count);
   }
-  write_to_output(d, "menu:0:quit");
+  write_to_output(d, "menu[quit]:0");
   OLC_MODE(d) = OEDIT_VALUE_3;
 }
 
@@ -376,11 +375,12 @@ static void oedit_disp_apply_menu(struct descriptor_data *d)
   int i,count=0;
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n# Liquid Type\r");
+  write_to_output(d, "\n## Liquid Type\r");
   // column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
   for (i = 0; i < NUM_APPLIES; i++) {
-    write_to_output(d, "\nmenu:%d:%s\r", ++count, apply_types[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", apply_types[i], ++count);
   }
+  write_to_output(d, "menu[quit]:0");
   OLC_MODE(d) = OEDIT_APPLY;
 }
 
@@ -510,7 +510,7 @@ static void oedit_disp_val3_menu(struct descriptor_data *d)
   OLC_MODE(d) = OEDIT_VALUE_3;
   switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
   case ITEM_LIGHT:
-    write_to_output(d, "How many hours will it operate? (0 = burnt, -1 is infinite)");
+    write_to_output(d, "\nHow many hours will it operate? (0 = burnt, -1 is infinite)\r");
     break;
   case ITEM_SCROLL:
   case ITEM_POTION:
@@ -570,7 +570,7 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Object Type\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "\nbmud:%d:%s\r", ++count, item_types[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", item_types[i], ++count);
   }
   write_to_output(d, "\n=\n"
   "\nmenu:0:quit\r");
@@ -588,13 +588,11 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Object Flags\r");
 
   for (i = 0; i < NUM_ITEM_FLAGS; i++) {
-    write_to_output(d, "\nbmud:%d:%s\r", ++count, extra_bits[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", extra_bits[i], ++count);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\n====\n"
-    "\nflags: %s\r"
-    "\n=\n"
-    "\nmenu:0:quit\r",
+  write_to_output(d, "\nflags: %s\r"
+    "\nmenu[quit]:0\r",
     bits
   );
 }
@@ -609,14 +607,13 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
   clear_screen(d);
 
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nbutton:%d:%s\r", ++count, affected_bits[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", affected_bits[i], ++count);
   }
 
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\n====\n"
-    "\rflags: %s\n"
+  write_to_output(d, "\nflags: %s\r"
     "\n=\n"
-    "\nmenu:0:quit\r",
+    "\nmenu[quit]:0\r",
     bits);
 }
 
@@ -631,13 +628,11 @@ static void oedit_disp_wear_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Wear Flags\r");
 
   for (i = 0; i < NUM_ITEM_WEARS; i++) {
-    write_to_output(d, "\nbmud:%d:%s\r", ++count, wear_bits[i]);
+    write_to_output(d, "\nbmud[%s]:%d\r", wear_bits[i], ++count);
   }
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, TW_ARRAY_MAX, bits);
-  write_to_output(d, "\n====\n"
-    "\nflags: %s\r"
-    "\n=\n"
-    "\nmenu:0:quit\r",
+  write_to_output(d, "\nflags: %s\r"
+    "\nmenu[quit]:0\r",
     bits);
 }
 
@@ -692,13 +687,10 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[e:extra]:%s\r"
     "\nselect[p:affects]:%s\r"
 	  "\nselect[s:script]:%s\r"
-    "\n----\n"
-    "\nmenu:d:applies menu\r"
-    "\nmenu:w:copy\r"
-    "\nmenu:x:delete\r"
-    "\n-\n"
+    "\nbmud[applies menu]:d\r"
+    "\nbmud[copy]:w\r"
+    "\nbmud[delete]:x\r"
 	  "\nmenu:q:quit\r",
-
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
 	  GET_OBJ_COST(obj),
@@ -712,7 +704,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  obj->ex_description ? "set..." : "not set...",
     buf2,
     OLC_SCRIPT(d) ? "Set." : "Not Set.");
-  OLC_MODE(d) = OEDIT_MAIN_MENU;
+    OLC_MODE(d) = OEDIT_MAIN_MENU;
 }
 
 /* main loop (of sorts).. basically interpreter throws all input to here. */
@@ -732,9 +724,9 @@ void oedit_parse(struct descriptor_data *d, char *arg)
               "OLC: %s edits obj %d", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         oedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-        write_to_output(d, "Object saved to disk.\r\n");
+        write_to_output(d, "\ninfo:Object saved to disk.\r");
       } else
-        write_to_output(d, "Object saved to memory.\r\n");
+        write_to_output(d, "\ninfo:Object saved to memory.\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'n':
@@ -749,7 +741,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       oedit_disp_menu(d);
       return;
     default:
-      write_to_output(d, "Invalid choice!\r\n");
+      write_to_output(d, "\ninfo:Invalid choice!\r");
       write_to_output(d, "%s", confirm_msg);
       return;
     }
@@ -766,24 +758,24 @@ void oedit_parse(struct descriptor_data *d, char *arg)
 	cleanup_olc(d, CLEANUP_ALL);
       return;
     case '1':
-      write_to_output(d, "\nWhat are the keywords?\r");
+      write_to_output(d, "\nWhat are the object keywords?\r");
       OLC_MODE(d) = OEDIT_KEYWORD;
       break;
     case '2':
-      write_to_output(d, "\nWhat is the name?\r");
+      write_to_output(d, "\nWhat is the object name?\r");
       OLC_MODE(d) = OEDIT_SHORTDESC;
       break;
     case '3':
-      write_to_output(d, "\nWhat is the description?\r ");
+      write_to_output(d, "\nWhat is the object description?\r ");
       OLC_MODE(d) = OEDIT_LONGDESC;
       break;
     case '4':
       OLC_MODE(d) = OEDIT_ACTDESC;
       send_editor_help(d);
-      write_to_output(d, "\nWhat is the action description?\r");
+      write_to_output(d, "\nWhat is the object action description?\r");
       if (OLC_OBJ(d)->action_description) {
-	write_to_output(d, "%s", OLC_OBJ(d)->action_description);
-	oldtext = strdup(OLC_OBJ(d)->action_description);
+        write_to_output(d, "%s", OLC_OBJ(d)->action_description);
+	      oldtext = strdup(OLC_OBJ(d)->action_description);
       }
       string_write(d, &OLC_OBJ(d)->action_description, MAX_MESSAGE_LENGTH, 0, oldtext);
       OLC_VAL(d) = 1;
@@ -801,21 +793,21 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_WEAR;
       break;
     case '8':
-      write_to_output(d, "\nWhat is the weight?\r");
+      write_to_output(d, "\nWhat is the object weight?\r");
       OLC_MODE(d) = OEDIT_WEIGHT;
       break;
     case '9':
-      write_to_output(d, "\nWhat is the cost?\r");
+      write_to_output(d, "\nWhat is the object cost?\r");
       OLC_MODE(d) = OEDIT_COST;
       break;
     case 'a':
     case 'A':
-      write_to_output(d, "\nWhat is the cost per day?\r");
+      write_to_output(d, "\nWhat is the object cost per day?\r");
       OLC_MODE(d) = OEDIT_COSTPERDAY;
       break;
     case 'b':
     case 'B':
-      write_to_output(d, "\nWhat is the timer?\r");
+      write_to_output(d, "\nWhat is the object timer?\r");
       OLC_MODE(d) = OEDIT_TIMER;
       break;
     case 'c':
@@ -844,7 +836,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'm':
     case 'M':
-      write_to_output(d, "\nWhat is the minimum level?\r");
+      write_to_output(d, "\nWhat is the object minimum level?\r");
       OLC_MODE(d) = OEDIT_LEVEL;
       break;
     case 'p':
@@ -904,7 +896,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_TYPE:
     number = atoi(arg);
     if ((number < 0) || (number >= NUM_ITEM_TYPES)) {
-      write_to_output(d, "\nInvalid choice, please try again.\r");
+      write_to_output(d, "\ninfo:Invalid choice, please try again.\r");
       return;
     } else
       GET_OBJ_TYPE(OLC_OBJ(d)) = number;
@@ -929,7 +921,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_WEAR:
     number = atoi(arg);
     if ((number < 0) || (number > NUM_ITEM_WEARS)) {
-      write_to_output(d, "\nThat's not a valid choice!\r");
+      write_to_output(d, "\ninfo:That's not a valid choice!\r");
       oedit_disp_wear_menu(d);
       return;
     } else if (number == 0)	/* Quit. */
@@ -1218,16 +1210,16 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_object(GET_OBJ_RNUM(OLC_OBJ(d))) != NOTHING)
-        write_to_output(d, "\nObject deleted.\r");
+        write_to_output(d, "\ninfo:Object deleted.\r");
       else
-        write_to_output(d, "\nThat object could not be deleted.\r");
+        write_to_output(d, "\ninfo:That object could not be deleted.\r");
 
       cleanup_olc(d, CLEANUP_ALL);
     } else if (*arg == 'n' || *arg == 'N') {
       oedit_disp_menu(d);
       OLC_MODE(d) = OEDIT_MAIN_MENU;
     } else
-      write_to_output(d, "\nPlease answer 'Y' or 'N'\r");
+      write_to_output(d, "\ninfo:Please answer 'Y' or 'N'\r");
     return;
   default:
     mudlog(BRF, LVL_BUILDER, TRUE, "\nSYSERR: OLC: Reached default case in oedit_parse()!\r");

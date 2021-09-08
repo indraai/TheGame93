@@ -1,7 +1,7 @@
 #3000
-xeero geero sage d3000~
-Xeero Geero~
-Xeero Geero around behind the counter, talking to himself.
+neo thomas anderson sage d3000~
+Xeero~
+Xeero around behind the counter, talking to himself.
 ~
 Xeero Geero looks old and wise, and yet he looks like a very powerful sage. He is equipped with fine clothing, and is wearing many fine rings and bracelets.
 ~
@@ -11,9 +11,9 @@ Xeero Geero looks old and wise, and yet he looks like a very powerful sage. He i
 8 8 0
 E
 #3001
-shimnok kleero baker d3001~
-Shimnok Kleero~
-Shimnok Kleero looks at you calmly, wiping flour from her face with one hand.
+shimnok baker d3001~
+Shimnok~
+Shimnok looks at you calmly, wiping flour from her face with one hand.
 ~
 A nice looking baker.  But you can see that she has many been eating a few too many pastries.
 ~
@@ -24,9 +24,9 @@ A nice looking baker.  But you can see that she has many been eating a few too m
 BareHandAttack: 1
 E
 #3002
-jo favor grocer d3002~
-Jo Favor~
-Jo Favor stands at the counter, with a patient look on his face.
+jai grocer d3002~
+Jai~
+Jai stands at the counter, with a patient look on his face.
 ~
 A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 ~
@@ -36,11 +36,11 @@ A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 8 8 1
 E
 #3003
-dingle berry craft merchant maker d3003~
-Dingle Berry~
-Dingle Berry is here peddling his craft items.
+dingle craft merchant maker d3003~
+Dyngl~
+Dyngl is here peddling his craft items.
 ~
-Dingle Berry is young and fresh, who still has lots to learn about his craft. He is still eager to sell you his latest implements of creativity and imagination.
+Dyngl is young and fresh, who still has lots to learn about his craft. He is still eager to sell you his latest implements of creativity and imagination.
 ~
 26635 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -48,9 +48,9 @@ Dingle Berry is young and fresh, who still has lots to learn about his craft. He
 8 8 1
 E
 #3004
-phat snatch armor armory d3004~
-Phat Snatch~
-Phat Snatch stands here displaying his new (and previously owned) armors.
+phat armor armory d3004~
+Phat~
+Phat stands here displaying his new (and previously owned) armors.
 ~
 An old but very strong armorer.  He has made more suits of armor in his life than you have ever seen.
 ~
@@ -60,9 +60,9 @@ An old but very strong armorer.  He has made more suits of armor in his life tha
 8 8 1
 E
 #3005
-beatrice cobblebottom reception receptionist d3005~
-Beatrice Cobblebottom~
-Beatrice Cobblebottom is behind the counter, smiling at you.
+beatrice reception receptionist d3005~
+Beatrice~
+Beatrice is behind the counter, smiling at you.
 ~
 You notice an excited look in her face. She looks like he is happy and enjoys her job.
 ~
@@ -73,8 +73,8 @@ You notice an excited look in her face. She looks like he is happy and enjoys he
 E
 #3006
 captain phancy d3006~
-Capt. Phancy~
-Mr. Captain Phancy stands here, selling boats.
+Cpt. Phancy~
+Captain Phancy stands here, selling boats.
 ~
 This captain has seen more storms than you have cried tears.
 ~
@@ -109,9 +109,9 @@ He looks like he may or may not have a green card.
 8 8 0
 E
 #3009
-wally waterman master d3009~
-Wally Waterman~
-Wally Waterman is behind the counter.
+wally master d3009~
+Wally~
+Wally is behind the counter.
 ~
 Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati Natural Spring Water in his hand.  When he notices you, he proudly displays his fine collection of contemporary waters.
 ~
@@ -121,9 +121,9 @@ Wally is a bit pudgy but looks very strong.  He has a glass of Amaravati Natural
 8 8 1
 E
 #3010
-postmaster xil pholox posatal post d3010~
-Postmaster Xil Pholox~
-The head Xil Pholox is standing here, waiting to help you with your mail.
+postmaster pholox posatal post d3010~
+Postmaster Pholox~
+The head postmaster Pholox is standing here, waiting to help you.
 ~
 The Postmaster Xil Pholox is a happy old man.  He always on the job making sure indra.email services are in tip top shape. Ensuring a safe, secure, and honest mail delivery system for all in Amaravati.
 ~
@@ -134,20 +134,20 @@ The Postmaster Xil Pholox is a happy old man.  He always on the job making sure 
 E
 #3011
 merchant gyll frystl d3011~
-Gyll Frystl~
-Gyll Frystl is laden with gadgets and gizmos.
+Gyll~
+Gyll is laden with gadgets and gizmos.
 ~
 Gyll Frystl is a merchant who has a combination of good business sense, charming personality, and good manners has made him a success with his customers.
 ~
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 0
+8 8 1
 E
 #3012
-janyx philonia offering services d3012~
-Janyx Philonia~
-Janyx Philonia is here helping for those who need it.
+janyx offering services d3012~
+Janyx~
+Janyx is here helping for those who need it.
 ~
 She immediately reminds you of a caring friend.  She is always here to help out those who have hit hard times and need a little boost.
 ~
@@ -158,16 +158,16 @@ She immediately reminds you of a caring friend.  She is always here to help out 
 E
 T 3016
 #3013
-slatre mcgyvrn guide d3013~
-Slatre McGyvrn~
-Stlatre McGyvrn is here to help. "tell guide help" for assistance.
+slatre guide d3013~
+Slatre~
+Slatre is here to help. "tell guide help" for assistance.
 ~
-Slatre McGyvrn the sole purpose of helping those who need assistance. You can follow him around Amaravati for a walking tour of the local attractions.
+Slatre the sole purpose of helping those who need assistance. You can follow him around Amaravati for a walking tour of the local attractions.
 ~
 10 0 0 0 2128 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0
+8 8 1
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -176,7 +176,7 @@ SavingSpell: 2
 E
 #3020
 masters sage deva sagedeva d3020~
-Master Sage D3020~
+Master Sage~
 Your SageMASTER is studying a spellbook while preparing to cast a spell.
 ~
 Even though your SageMaster looks old and tired, you can clearly see the vast amount of knowledge he possesses.  He is wearing fine magic clothing, and you notice that she is surrounded by a blue shimmering aura.
@@ -184,23 +184,23 @@ Even though your SageMaster looks old and tired, you can clearly see the vast am
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 0
+8 8 1
 E
 #3021
 masters master monk deva monkdeva d3021~
-Master Monk D3021~
+Master Monk~
 Your MonkMaster is meditating here.
 ~
-You are in no doubt that this MonkMASTER is truly close to Indra; he has a peaceful, loving look.  You notice that he is surrounded by a white aura.
+You are in no doubt that this Monk MASTER is truly close to Indra; he has a peaceful, loving look.  You notice that he is surrounded by a white aura.
 ~
 59419 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 0
+8 8 1
 E
 #3022
 masters master artist deva artistdeva d3022~
-Master Artist D3022~
+Master Artist~
 A Artist is sitting here, could he be a Master?
 ~
 You realize that whenever your MASTER moves, the way of the true artist. He is to be dressed in messy clothing, having the appearance of a artist.
@@ -212,7 +212,7 @@ You realize that whenever your MASTER moves, the way of the true artist. He is t
 E
 #3023
 masters master hero deva herodeva d3023~
-Master Hero D3023~
+Master Hero~
 Your Master Hero is standing here with a sharp look in his eyes.
 ~
 This is your master.  Big and strong with bulging muscles.  Several scars across his body proves that he was using arms before you were born.  He has a calm look on his face.
@@ -224,7 +224,7 @@ This is your master.  Big and strong with bulging muscles.  Several scars across
 E
 #3024
 guard deva guarddeva devaforce d3024 z30~
-GuardDEVA D3024~
+GuardDEVA~
 GuardDEVA D3024 is here.
 ~
 GuardDEVA D3024 is assigned to protect the realm.
@@ -237,7 +237,7 @@ BareHandAttack: 4
 E
 #3025
 guard deva guarddeva devaforce d3025 z30~
-GuardDEVA D3025~
+GuardDEVA~
 GuardDEVA D3025 is here.
 ~
 GuardDEVA D3025 is here guarding the area.
@@ -249,7 +249,7 @@ GuardDEVA D3025 is here guarding the area.
 E
 #3026
 guard deva guarddeva devaforce d3026~
-GuardDEVA D3026~
+GuardDEVA~
 GuardDEVA D3026 is here.
 ~
 A specially trained guard.
@@ -273,11 +273,11 @@ An expert trained warrior with hero status.
 8 8 0
 E
 #3040
-bryn foozl service tender d3040~
-Bryn Foozl~
-Bryn watches you calmly, while he skillfully mixes a drink.
+foozl service tender d3040~
+Foozl~
+Foozl watches you calmly, while he skillfully mixes a drink.
 ~
-Bryn Foozl is happy looking fellow who hates trouble in his bar.
+Foozl is happy looking fellow who hates trouble in his bar.
 ~
 24586 0 0 0 0 0 0 0 0 E
 24 12 -4 4d4+240 4d4+4
@@ -286,7 +286,7 @@ Bryn Foozl is happy looking fellow who hates trouble in his bar.
 E
 #3041
 service deva servicedeva d3041~
-ServiceDEVA D3041~
+ServiceDEVA (Waitor)~
 A ServiceDEVA is going around from one place to another.
 ~
 A happy looking waiter.
@@ -298,7 +298,7 @@ A happy looking waiter.
 E
 #3042
 service deva servicedeva d3042~
-ServiceDEVA D3042~
+ServiceDEVA (Waitor)~
 ServiceDEVA D3042 is standing here.
 ~
 ServiceDEVA D3042 is here waiting for your order.
@@ -310,7 +310,7 @@ ServiceDEVA D3042 is here waiting for your order.
 E
 #3043
 service servicedeva deva d3043~
-ServiceDEVA D3043~
+ServiceDEVA (Waitor)~
 ServiceDEVA D3043 is standing here.
 ~
 The ServiceDEVA is here waiting for your order.
@@ -322,7 +322,7 @@ The ServiceDEVA is here waiting for your order.
 E
 #3044
 service deva servicedeva d3044~
-ServiceDEVA D3044~
+ServiceDEVA (Waitor)~
 ServiceDEVA D3044 is standing here.
 ~
 ServiceDEVA D3044 is here waiting for your order.
@@ -334,7 +334,7 @@ ServiceDEVA D3044 is here waiting for your order.
 E
 #3045
 service deva servicedeva d3045~
-ServiceDEVA D3045~
+ServiceDEVA (Waitor)~
 ServiceDEVA D3045 is standing here.
 ~
 ServiceDEVA D3045 is here waiting for your order.
@@ -346,10 +346,10 @@ ServiceDEVA D3045 is here waiting for your order.
 E
 #3046
 service deva servicedeva d3046~
-ServiceDEVA D3046~
-ServiceDEVA D3046 watches you calmly, while skillfully mixing a drink.
+ServiceDEVA (Bartender)~
+The Bartender watches you calmly, while skillfully mixing a drink.
 ~
-A happy looking ServiceDEVA who hates trouble in his bar.
+A happy looking Bartender who loves jokes in his bar.
 ~
 26650 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
