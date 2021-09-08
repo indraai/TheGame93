@@ -211,13 +211,13 @@ You realize that whenever your MASTER moves, the way of the true artist. He is t
 8 8 0
 E
 #3023
-masters master hero deva herodeva d3023~
-Master Hero~
-Your Master Hero is standing here with a sharp look in his eyes.
+masters master artist deva herodeva d3023~
+Master Artist~
+Your Master Artist is standing here with a sharp look in his eyes.
 ~
-This is your master.  Big and strong with bulging muscles.  Several scars across his body proves that he was using arms before you were born.  He has a calm look on his face.
+He looks like an artist who spent too many years infront of his canvas imagining a world inside.
 ~
-59419 0 0 0 0 0 0 0 1000 E
+59419 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 0
@@ -333,11 +333,11 @@ ServiceDEVA D3044 is here waiting for your order.
 8 8 0
 E
 #3045
-service deva servicedeva d3045~
-ServiceDEVA (Waitor)~
-ServiceDEVA D3045 is standing here.
+bartender artistbar service deva servicedeva d3045~
+Bartender (Artist Bar)~
+The Bartender is standing here.
 ~
-ServiceDEVA D3045 is here waiting for your order.
+The Bartender is here waiting for your order.
 ~
 24586 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
