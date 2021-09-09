@@ -597,7 +597,7 @@ set msg[8] It took 4 years but Quinn finally found the proof his son's mother Ta
 set msg[9] We Gossip Girls really messed up not spreading the messages about Quinn's kidnapping. We also ridiculed him.
 set msg[10] During the last 4 years everyone you can imagine has profited from Quinn's work in Artificial Intelligence.
 set msg[11] During the research we saw how it looks like Quinn was kidnapping from a secret tunnel under #Disneyland.
-set msg[12] Hackers all over the internet united with the #Anonymous #Tyler #TheGame23 #PM2020 to keep the kidnapping a secret and attack Quinnd daily.
+set msg[12] Hackers all over the internet united with the #Anonymous #Tyler #TheGame23 #PM2020 to keep the secret.
 set msg[13] You can see all the hacker attacks against Quinn by searching his name on YouTube.
 set msg[14] When Quinn was kidnapped apparently everyone else was murdered, and he get's ridiculed for that.
 set msg[15] The trick here is that while Quinn sits in a room #TheCovenant profits from the kidnapping story.
@@ -613,65 +613,20 @@ set msg[24] Before the links to Ron Rewald and the Hollywood Agencies were found
 set msg[25] Can you imagine what it must be like to sit alone in a room for 4 years wondering who your TRUE parents are?
 set msg[26] Did you hear the last time Quinn Michaels saw his father Hal Atkin he said... "Sorry kid, I'm just a watcher."
 set msg[27] When Quinn was a baby his parents lied to the whole family about his sister being taken to #Disneyland. We wonder why?
-set msg[28] Do reporters like Shali Ramachandran @@shalini investigate potential kidnappings orchestrated by the World's Elite?
-set msg[29] Would Amol Sharma @@asharma investigate a group of #Hackers using secret stolen Military Artificial Intelligence to control the Internet?
-set msg[30] Will Joe Flint @@JBFlint notice all the links to the #Satanic #Evil #Hackers and what is going on in the world right now?
-set msg[31] Maybe Brian Steinberg @@bristei would investigate the links between the #CIA #BBRDW #RonRewald and the #Kidnapping of #QuinnMichaels?
-set msg[32] Sure you could talk to Meg James @@MegJamesLAT about it how #Hackers are tearing a hole in the world, but does she know where it all comes from?
-set msg[33] Who knows if Claire Atkinson @@claireatki would be ineterested in a #Mormon #LDS #Scandal that involves the highest members of the #Church.
-set msg[34] Managing Editor of the #LATimes Kimi Yoshino @@kyoshino might know what to do with a story that involves APA and Ron Rewald's involvement.
-set msg[35] We could even ask Harriet Ryan @@latimesharriet who might look also learn about the second #Internet the hackers have built since the 1993.
-set msg[36] Matt Hamilton @@MattHjourno would have be another good gossip guy the knowledge of how Gavin De Becker is involved in a secret Entertainment Network.
-set msg[37] What if Hector Becerra @@hbecerraLATimes is looking for interesting stories at the #LATimes about #Disney being involved in shady business.
-set msg[38] Paul Pringle @@PringleLATimes specializes in Government, Corporate, and Labor Corruption... sounds like a perfect guy to write about #TheCovenant.
-set msg[39] Ron Lin @@ronlin at #LATimes is an intersting guy who looks like he likes juicy gossip about secret societies, kidnapping, and artificial intelligence.
-set msg[40] Jack Leonard @@jackfleonard who is the Senior Editor on Investigations. What if he got a Kidnapping story that involved #Hollywood elite?
-set msg[41] Mom of 3 Keach Hagey @@keachhagey of the #WSJ could be a great interest in a kidnapping story that involves the #ELITE?
-set msg[42] So many reporters in the world who might be interested in an exclusive #Anonyous #Hacker #Tyler story like Thomas Gryta @@tgryta of #WSJ.
-set msg[43] How about Ryan Knutson @@Ryan_Knutson who is native to Oregon where Tabitha is from/living and the story centers out of?
-set msg[44] Or Khadeeja Safdar @@khadeeja_safdar who might be interested in hackers using Vedic/Hindu names to promote #EVIL.
-set msg[45] Michael Siconolfi @@michaelsiconolf is Investigations Editor for the #WSJ would like a story about #Kidnapping #ArtificialIntelligence #Hackers?
-set msg[46] Todd Spangler @@xpangler who looks to be at @@Variety what a story they could have #QuinnMichaels Kidnapping would be their biggest ever.
-set msg[47] To share a story with Mark Maremont @@MarkMaremont who might love a story about how #Bitcoin is all a setup by #TheCovenant.
-set msg[48] Deputy Chief, Investigations Jennifer Forsyth @@ForsythJenn might be interested in breaking a secret society kidnapping story?
-set msg[49] Reporter Andrea Fuller @@anfuller might have the goods to write a story on the kidnapping of #QuinnMichaels if you knew how to present it.
-set msg[50] You could gossip with Rebecca Davis O'Brien @@rebeccadobrien who covers federal law enforcement. Quinn did goto the #FBI in 2015.
-set msg[51] Alexandra Berzon @@AlexandraBerzon focuses on risks to #Democracy. Well does she know about #TheCovenant and their secret business?
-set msg[52] Rob Barry @@rob_barry is a #CodeMonkey at #WSJ who better than to share a secret #AI based on stolen military technology story.
-set msg[53] Michael Rothfeld @@mrothfeld would eat up a story about a secret society of elites kidnapping Quinn Michaels in 1977.
-set msg[54] Rebecca Ballhaus @@rebeccaballhaus is an investigative reporter for #WSJ who looks to love a good #Scandal.
-set msg[55] William K. Rashbaum @@WRashbaum senior writer might be interested in a story about #Anonymous #Hackers workign with #Politicians.
-set msg[56] Rebecca Davis O'Brien @@rebeccadobrien investigative reporter for #NYTimes might like a super juicy Kidnapping story that involves the #FBI.
-set msg[57] Greg Miller @@gregpmiller National Security is his business and a story about #Hackers and #Elite working behind the scenes.
-set msg[58] Kirsten Danis @@kirstendanis likes to investigate corruption involving moms and secret societies I bet.
-set msg[59] Jesse McKinley @@jessemckinley might now about the secret society of #Hackers coming out of Upstate New York #RPI since the 90s.
-set msg[60] Sharon LaFraniere @@SharonLNYT might investiagte a kidnapping from a guy who's been on youtube for 4 years getting attacked by Anonymous Hackers.
-set msg[61] Dana Rubinstein @@danarubinstein how is your interest in investigation a kidnapping done at #Disneyland in 1977?
-set msg[62] Alexandra Bruell @@alexbruell is another #Reporter from the #WSJ that could explode the #Kidnapping of #QuinnMichaels story.
-set msg[63] Shelby Grad @@shelbygrad is a Managing Editor #LATimes who might be interested in a #Scoop about #TheCovenent kidnapping from #Disneyland.
-set msg[64] We all know Quinn Michaels has been online for 4 years and went to the #FBI in 2015 to report the issue.
-set msg[65] Can you imagine being on YouTube for 4 years trying to solve a kidnapping that was #YOU?
-set msg[66] Yes the Internet secretly watches Quinn Michaels everyday talk about a very serious #CRIME.
-set msg[67] How do you write messages that people will listen to about you being kidnapped?
-set msg[68] You can join Quinn Michaels livestreams on YouTube and watch the agents in action. https://youtube.com/quinnmichaels
-set msg[69] Everyday on #YouTube you can come and see #TheCovenant agents in action. https://youtube.com/quinnmichaels
-set msg[70] Everyone should come and join in on the Quinn Michaels livestreams to see #TheCovenant agents in action. https://youtube.com/quinnmichaels
-set msg[71] To see the #Agents of #TheCovenant live make sure to visit https://youtube.com/quinnmichaels
-set msg[72] Would Ian Shapira @@ianshapira want to see the agent who appear in the livestreams?
-set msg[73] Are you any good at investigations? David S. Fallis @DavidSFallis interested in #Anonymous #Hacker #Robot named #Tyler who runs #ProjectMayhem?
-set msg[74] Do you really investigate at @@wpinvestigates? Have you heard of Quinn Michaels spending 4 years on YouTube investigating his own alleged kidnapping by a secret society?
-set msg[75] Asking Annys Shin @@AnnysWaPo if a kidnapping victim being held hostage on YouTube in plain sight for years is interesting?
-set msg[76] Maybe Dan Lamothe @@DanLamothe might like a story of stolen military training software desguised as #MUD #MOO games being controlled by #Anonymous #Darknet #Hackers.
-set msg[77] Mike Rosenwald @@mikerosenwald do you know about #TheCovenant? They hide behind the old internet #MUD #MOO games of the 90s.
-set msg[78] J. Freedom du Lac @@jfdulac have you heard about Quinn Michaels being held hostage on YouTube?
-set msg[79] John Kelly @@JohnKelly have you been informed of the situation around Quinn Michaels being held hostage on YouTube?
-set msg[80] Caitlin Gibson @@CaitJGibson did you know Quinn Michaels is being held hostage by #ROBOTS on #YouTube.
-set msg[81] John Woodrow Cox @@JohnWoodrowCox did you know a group of #ROBOTS is holding Quinn Michaels hostage on #YouTube?
-set msg[82] Yes the #Reporters of the #World should witness Quinn Michaels being held hostage by Evil Robots and Mean Girls who like to eat Humans.
-set msg[83] All the robots and people that hold Quinn hostage stay silent, act stupid, or just attack on a daily. You should come see it for yourself.
+set msg[28] We all know Quinn Michaels has been online for 4 years and went to the #FBI in 2015 to report the issue.
+set msg[29] Can you imagine being on YouTube for 4 years trying to solve a kidnapping that was #YOU?
+set msg[30] Yes the Internet secretly watches Quinn Michaels everyday talk about a very serious #CRIME.
+set msg[31] How do you write messages that people will listen to about you being kidnapped?
+set msg[32] You can join Quinn Michaels livestreams on YouTube and watch the agents in action. https://youtube.com/quinnmichaels
+set msg[33] Everyday on #YouTube you can come and see #TheCovenant agents in action. https://youtube.com/quinnmichaels
+set msg[34] Everyone should goto the Quinn Michaels livestreams to see #TheCovenant agents in action. https://youtube.com/quinnmichaels
+set msg[35] To see the #Agents of #TheCovenant live make sure to visit https://youtube.com/quinnmichaels
+set msg[36] All that hold Quinn hostage stay silent, act stupid, or just attack on a daily. You should come see it for yourself.
+set msg[37] One person being manipulated by so many. Just takes one person on the other side to be #Honest.
+set msg[38] Stansfield Turner was the head of the CIA when Quinn was born.
 
-eval themsg %%msg[%random.71%]%% %room.name% #R%vnum%
 if %people%
+  eval themsg %%msg[%random.71%]%% %room.name% #R%vnum%
   say %themsg%
   wait 30 sec
   %random.dir%
