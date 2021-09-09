@@ -1748,8 +1748,7 @@ values:
 64 g NOWARRIOR Keeper won’t trade with the Warrior class.
 
 Shop Room Number
-The virtual number the mobile must be in for the shop to be effective. (So
-trans'ed shopkeepers can’t sell in the desert).
+The virtual number the mobile must be in for the shop to be effective. (So trans'ed shopkeepers can’t sell in the desert).
 
 Time when open start 1
 Time when open end 1

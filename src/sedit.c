@@ -464,7 +464,8 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-     write_to_output(d, "Invalid choice!\r\nDo you wish to save your changes? : ");
+      write_to_output(d, "\nInvalid choice!\r");
+      write_to_output(d, "%s", confirm_msg);
       return;
     }
 
@@ -479,8 +480,8 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {		/* Anything been changed? */
-	write_to_output(d, "Do you wish to save your changes? : ");
-	OLC_MODE(d) = SEDIT_CONFIRM_SAVESTRING;
+      write_to_output(d, "%s", confirm_msg);
+	    OLC_MODE(d) = SEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);
       return;
