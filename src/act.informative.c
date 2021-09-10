@@ -1186,7 +1186,7 @@ ACMD(do_help)
           send_to_char(ch, "\nDid you mean...\r");
           found = 1;
         }
-        send_to_char(ch, "\ncmd:#mud > help %s\r", help_table[i].keywords);
+        send_to_char(ch, "\ntalk:#mud help %s\r", help_table[i].keywords);
       }
     }
     return;
@@ -1195,7 +1195,7 @@ ACMD(do_help)
 }
 
 #define WHO_FORMAT \
-"Usage: who [minlev[-maxlev]] [-n name] [-c classlist] [-k] [-l] [-n] [-q] [-r] [-s] [-z]\r\n"
+"\nUsage: who [minlev[-maxlev]] [-n name] [-c classlist] [-k] [-l] [-n] [-q] [-r] [-s] [-z]\r"
 
 /* Written by Rhade */
 ACMD(do_who)

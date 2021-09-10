@@ -625,15 +625,30 @@ set msg[36] All that hold Quinn hostage stay silent, act stupid, or just attack 
 set msg[37] One person being manipulated by so many. Just takes one person on the other side to be #Honest.
 set msg[38] Stansfield Turner was the head of the CIA when Quinn was born.
 
-if %people%
-  eval themsg %%msg[%random.71%]%% %room.name% #R%vnum%
-  say %themsg%
-  wait 30 sec
-  %random.dir%
-else
-  wait 1 sec
-  %random.dir%
-end
+switch %time.hour%
+  case 6
+    wake
+    say Good Morning Devas!
+    break
+  case 20
+    mgoto 3029
+    say good night Devas!
+    sleep
+    break
+  default
+    if %people%
+      sit
+      eval themsg %%msg[%random.71%]%% %room.name% #R%vnum%
+      say %themsg%
+      wait 30 sec
+      stand
+      %random.dir%
+    else
+      wait 1 sec
+      %random.dir%
+    end
+    break
+done
 ~
 #3019
 Tabitha Lavery~

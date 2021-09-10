@@ -202,10 +202,8 @@ SPECIAL(mayor)
 {
   char actbuf[MAX_INPUT_LENGTH];
 
-  const char open_path[] =
-	"W3a3003b33000c111d0d111Oe333333Oe22c222112212111a1S.";
-  const char close_path[] =
-	"W3a3003b33000c111d0d111CE333333CE22c222112212111a1S.";
+  const char open_path[] = "W3a3003b33000c111d0d111Oe333333Oe22c222112212111a1S.";
+  const char close_path[] = "W3a3003b33000c111d0d111CE333333CE22c222112212111a1S.";
 
   static const char *path = NULL;
   static int path_index;
@@ -222,8 +220,7 @@ SPECIAL(mayor)
       path_index = 0;
     }
   }
-  if (cmd || !move || (GET_POS(ch) < POS_SLEEPING) ||
-      (GET_POS(ch) == POS_FIGHTING))
+  if (cmd || !move || (GET_POS(ch) < POS_SLEEPING) || (GET_POS(ch) == POS_FIGHTING))
     return (FALSE);
 
   switch (path[path_index]) {
