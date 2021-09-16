@@ -71,20 +71,17 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #3
-questmaster~
-Quest Master~
-The Quest Master is waiting for a brave adventurer.
+bom agents lightfinder~
+Bom~
+Bom the Light Finder is here.
 ~
-Many adventurers come here to gain skills.  The quests are not easy, but they will always be a challenge.
+Bom the light finder is here to help you find your way.
 ~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
-T 138
-T 139
-T 143
 #4
 healer~
 the healer~

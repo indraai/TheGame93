@@ -193,18 +193,20 @@ she wants to be kissed.
 E
 T 64
 #113
-old lady~
-an old lady~
-An old lady is taking a break, just sitting on the ground.
+questmaster quests~
+Quest Master~
+The Quest Master is here.
 ~
-   She looks frail and withered.  The kind of lady you're supposed to help
-cross the road.
+The Quest Master is here to assist Adventurers on their journey.
 ~
-72 0 0 0 0 0 0 0 1000 E
-3 19 8 0d0+30 1d2+0
-30 900
-6 6 2
+188426 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1
 E
+T 138
+T 139
+T 143
 #114
 man~
 the man~
