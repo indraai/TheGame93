@@ -1,54 +1,42 @@
 #0
 The Void~
-   You don't think that you are not floating in nothing.  You can see
-a strange portal located above you.
+talk:#adventure view:thegame:world 0000/main
 ~
 0 8 0 0 0 1
 D5
+talk:#adventure view:thegame:world 0001/look
 ~
 ~
 0 0 1
 S
 #1
 Limbo~
-   You are floating in a formless void, detached from all sensation of physical
-matter, surrounded by swirling glowing light, which fades into the relative
-darkness around you without any trace of edges or shadow.
+talk:#adventure view:thegame:world 0001/main
 ~
 0 8 0 0 0 1
 D4
+talk:#adventure view:thegame:world 0000/look
 ~
 ~
 0 0 0
 D5
+talk:#adventure view:thegame:world 0002/look
 ~
 ~
 0 0 2
 S
 #2
 Welcome to the Builder Academy~
-   A builder is a term usually used to describe a person who designs MUD zones
-for other characters to explore. Any player with motivation, ideas, and good
-writing style can be a builder as well as a player. As a Builder, your job is
-to create the virtual world in which players can roam around, solve puzzles,
-find treasures, and gain experience. A Builder creates the rooms, objects,
-mobs, shops, and triggers with which players will interact.
-   If this is something you are interested in doing then you have come to the
-right place. Be warned, building is not easy and will require hard work,
-patience, and the ability to take constructive criticism.
-   Your first task is to apply for builder status at:
-@Cwww.tbamud.com@n
-   When you finish and submit the application tell anyone level 32 or higher
-and they will advance you to begin your training.
-
-   If would like to check out the tbaMUD World as a player connect to tbamud.com 4000.
+talk:#adventure view:thegame:world 0002/main
 ~
 0 24 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0003/look
 ~
 ~
 0 0 3
 D4
+talk:#adventure view:thegame:world 0001/look
 ~
 ~
 0 0 1
@@ -56,15 +44,16 @@ S
 T 199
 #3
 Builder Academy~
-adv:world:0003/main
+talk:#adventure view:thegame:world 0003/main
 ~
 0 8 0 0 0 0
 D1
-adv:world:0004/look
+talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
 D4
+talk:#adventure view:thegame:world 0002/look
 ~
 ~
 0 0 2
@@ -72,92 +61,92 @@ S
 T 56
 #4
 The Beginning~
-adv:world:0004/main
+talk:#adventure view:thegame:world 0004/main
 ~
 0 24 0 0 0 0
 D0
-adv:world:0016/look
+talk:#adventure view:thegame:world 0016/look
 ~
 ~
 0 0 16
 D1
-adv:world:0005/look
+talk:#adventure view:thegame:world 0005/look
 ~
 ~
 0 0 5
 D3
-adv:world:0003/look
+talk:#adventure view:thegame:world 0003/look
 ~
 ~
 0 0 3
 S
 #5
 Implementation~
-adv:world:0005/main
+talk:#adventure view:thegame:world 0005/main
 ~
 0 8 0 0 0 0
 D1
-adv:world:0006/look
+talk:#adventure view:thegame:world 0006/look
 ~
 ~
 0 0 6
 D3
-adv:world:0003/look
+talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
 S
 #6
 Building~
-adv:world:0006/main
+talk:#adventure view:thegame:world 0006/main
 ~
 0 8 0 0 0 0
 D1
-adv:world:0007/look
+talk:#adventure view:thegame:world 0007/look
 ~
 ~
 0 0 7
 D3
-adv:world:005/look
+talk:#adventure view:thegame:world 005/look
 ~
 ~
 0 0 5
 S
 #7
 Writing Descriptions~
-adv:world:0007/main
+talk:#adventure view:thegame:world 0007/main
 ~
 0 8 0 0 0 0
 D1
-adv:world:0008/look
+talk:#adventure view:thegame:world 0008/look
 ~
 ~
 0 0 8
 D3
-adv:world:0006/look
+talk:#adventure view:thegame:world 0006/look
 ~
 ~
 0 0 6
 S
 #8
 Using REDIT~
-adv:world:0008/main
+talk:#adventure view:thegame:world 0008/main
 ~
 0 8 0 0 0 0
 D1
-adv:world:0009/look
+talk:#adventure view:thegame:world 0009/look
 ~
 ~
 0 0 9
 D3
-adv:world:0007/look
+talk:#adventure view:thegame:world 0007/look
 ~
 ~
 0 0 7
 S
 #9
 Using OEDIT~
-adv:world:0009/main
+talk:#adventure view:thegame:world 0009/main
 ~
 0 8 0 0 0 0
 D1
@@ -165,66 +154,76 @@ D1
 ~
 0 0 10
 D3
+talk:#adventure view:thegame:world 0008/look
 ~
 ~
 0 0 8
 S
 #10
 Using MEDIT~
-adv:world:0010/main
+talk:#adventure view:thegame:world 0010/main
 ~
 0 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 0011/look
 ~
 ~
 0 0 11
 D3
+talk:#adventure view:thegame:world 0009/look
 ~
 ~
 0 0 9
 S
 #11
 Using ZEDIT~
-adv:world:0011/main
+talk:#adventure view:thegame:world 0011/main
 ~
 0 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 0012/look
 ~
 ~
 0 0 12
 D3
+talk:#adventure view:thegame:world 0010/look
 ~
 ~
 0 0 10
 S
 #12
 Using SEDIT~
-adv:world:0012/main
+talk:#adventure view:thegame:world 0012/main
 ~
 0 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 0013/look
 ~
 ~
 0 0 13
 D3
+talk:#adventure view:thegame:world 0011/look
 ~
 ~
 0 0 11
 S
 #13
 Using TRIGEDIT~
-adv:world:0013/main
+talk:#adventure view:thegame:world 0013/main
 ~
 0 8 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0018/look
 ~
 ~
 0 0 18
 D1
+talk:#adventure view:thegame:world 0014/look
 ~
 ~
 0 0 14
 D3
+talk:#adventure view:thegame:world 0012/look
 ~
 ~
 0 0 12
@@ -285,7 +284,7 @@ D3
 S
 #16
 Commands~
-adv:world:0016/main
+talk:#adventure view:thegame:world 0016/main
 ~
 0 8 0 0 0 0
 D0
@@ -299,7 +298,7 @@ D2
 S
 #17
 Overview~
-adv:world:0017/main
+talk:#adventure view:thegame:world 0017/main
 ~
 0 8 0 0 0 0
 D2
@@ -309,7 +308,7 @@ D2
 S
 #18
 Quest Tutorial~
-adv:world:0018/main
+talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
 D0
