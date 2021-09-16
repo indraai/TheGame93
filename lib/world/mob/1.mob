@@ -392,19 +392,16 @@ rather see dead?  Just ask this guy for some help.
 8 8 1
 E
 #127
-guard deva guarddeva devaforce d0127~
-GuardDEVA D0127~
-GuardDEVA D0127 is on guard here.
+healer~
+the healer~
+A healer in a white luminescent robe is tending to the wounded.
 ~
-   Years of training and experience have molded this middle-aged man into a
-fighting machine, only a fool would ever try to kill someone with as much skill
-as this man.  Then again, fools are born everyday.
+This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.  Type 'heal <spell>' to buy one of her spells.
 ~
-256010 0 0 0 80 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 0
-BareHandAttack: 9
+253962 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2
 E
 #128
 red magi~

@@ -3,7 +3,7 @@ indu agents~
 Indu~
 Indu is here.
 ~
-Indu Agent
+Indu is here to be true.
 ~
 522268 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -25,9 +25,9 @@ E
 #1
 security agents securityprime~
 SecurityPRIME~
-Security Agent
+Security is here.
 ~
-Security Agent is here.
+Security is here to provide safety.
 ~
 522268 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -49,9 +49,9 @@ E
 #2
 medical agents medicprime~
 MedicPRIME~
-Medical Agent
+Medical is here.
 ~
-Medical Agent is here.
+Medical is here to provide care.
 ~
 522268 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -71,28 +71,28 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #3
-bom agents lightfinder~
+bom agents~
 Bom~
-Bom the Light Finder is here.
+Bom is here.
 ~
-Bom the light finder is here to help you find your way.
+Bom is here to find the light.
 ~
-188426 0 0 0 0 0 0 0 0 E
+188426 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
 #4
-healer~
-the healer~
-A healer in a white luminescent robe is tending to the wounded.
+soma agents~
+Soma~
+Soma is here.
 ~
-This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.  Type 'heal <spell>' to buy one of her spells.
+Some is here to give strength.
 ~
-253962 0 0 0 0 0 0 0 0 E
+253962 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
+8 8 1
 E
 #5
 jack russell~
