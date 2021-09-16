@@ -1,14 +1,14 @@
 #0
-trigger mob~
-the trigger mob~
-A mob required to be used for triggers. DO NOT DELETE.
+indu agents~
+Indu~
+Indu is here.
 ~
-It looks unfinished.
+Indu Agent
 ~
 8 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0
+8 8 1
 E
 #1
 security agents securityprime~
