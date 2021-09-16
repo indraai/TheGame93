@@ -4,12 +4,11 @@ The Void~
 a strange portal located above you.
 ~
 0 8 0 0 0 1
-D4
+D5
 ~
 ~
-0 0 100
+0 0 1
 S
-T 1200
 #1
 Limbo~
    You are floating in a formless void, detached from all sensation of physical
@@ -17,11 +16,14 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
 ~
 0 8 0 0 0 1
+D4
+~
+~
+0 0 0
 D5
-A strange portal in the floor is the only exit.
 ~
 ~
-0 0 100
+0 0 2
 S
 #2
 Welcome to the Builder Academy~
@@ -46,6 +48,10 @@ D0
 ~
 ~
 0 0 3
+D4
+~
+~
+0 0 1
 S
 T 199
 #3
@@ -58,6 +64,10 @@ adv:world:0004/look
 ~
 ~
 0 0 4
+D4
+~
+~
+0 0 2
 S
 T 56
 #4
@@ -599,12 +609,12 @@ D2
 ~
 0 0 98
 E
-sky winds~
-Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
 The stone floor is the same shade of gray as the sky and is completely plain and unscratched. It is probably too hard for anything to leave as much as a scratch on it.
+~
+E
+sky winds~
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 $~
