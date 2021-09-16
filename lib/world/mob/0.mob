@@ -5,7 +5,7 @@ Indu is here.
 ~
 Indu is here to be true.
 ~
-522268 0 0 0 26744 0 0 0 1000 E
+522396 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 1
@@ -77,10 +77,22 @@ Bom is here.
 ~
 Bom is here to find the light.
 ~
-188426 0 0 0 0 0 0 0 1000 E
+522524 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
+BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #4
 soma agents~
@@ -89,10 +101,22 @@ Soma is here.
 ~
 Some is here to give strength.
 ~
-253962 0 0 0 0 0 0 0 1000 E
+522524 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
+BareHandAttack: 9
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #5
 jack russell~
