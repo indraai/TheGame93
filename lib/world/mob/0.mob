@@ -11,13 +11,13 @@ It looks unfinished.
 8 8 0
 E
 #1
-garuda great eagle~
-Garuda~
-Garuda the Great Eagle is here, contemplating a higher reality.
+security agents securityprime~
+SecurityPRIME~
+Security Agent
 ~
-Is that some type of strange, and unknown force that he seems to be made out of?
+Security Agent is here.
 ~
-516106 0 0 0 2128 0 0 0 1000 E
+516106 0 0 0 2128 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -25,11 +25,11 @@ BareHandAttack: 12
 E
 T 95
 #2
-monk healer~
-the healer~
-A healer in a white luminescent robe is tending to the wounded.
+medical agents medicprime~
+MedicPRIME~
+Medical Agent
 ~
-This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.
+Medical Agent is here.
 ~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -38,10 +38,10 @@ This beautiful woman at one time used to piously offer her healing skills to any
 E
 #3
 questmaster~
-the questmaster~
-The questmaster is waiting for a brave adventurer to step forth.
+Quest Master~
+The Quest Master is waiting for a brave adventurer.
 ~
-Many adventurers come here to seek glory by attempting to solve the quests given to them by this old man.  The quests are not easy, sometimes nearly impossible.  But they will always be a challenge.  The questmaster looks at you and says, 'Help autoquest should show you all you need to know'.
+Many adventurers come here to gain skills.  The quests are not easy, but they will always be a challenge.
 ~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
