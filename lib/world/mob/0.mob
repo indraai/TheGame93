@@ -5,10 +5,22 @@ Indu is here.
 ~
 Indu Agent
 ~
-8 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
+522268 0 0 0 26744 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
 8 8 1
+BareHandAttack: 10
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #1
 security agents securityprime~
@@ -17,11 +29,22 @@ Security Agent
 ~
 Security Agent is here.
 ~
-516106 0 0 0 2128 0 0 0 0 E
+522268 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #2
 medical agents medicprime~
@@ -30,10 +53,22 @@ Medical Agent
 ~
 Medical Agent is here.
 ~
-188426 0 0 0 0 0 0 0 0 E
+522268 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 2
+BareHandAttack: 4
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #3
 questmaster~
