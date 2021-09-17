@@ -337,35 +337,32 @@ talk:#adventure view:thegame:world 0018/look
 S
 #21
 Another Example With Quest Variables~
-   These triggers are a little more complex.  The complexity gives the builder
-more flexibility.  By setting a variable on a player you can later call on
-these variables.  The most basic usage is to set a quest as completed when the
-player is done.  Another use would be to set something else like
-player_can_breathe_water and prevent a player from entering a certain room
-unless they have this variable set.  To see what variables are set on a player
-simply stat that player.  @RSTAT SELF@n.
+talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0023/look
 ~
 ~
 0 0 23
 D1
+talk:#adventure view:thegame:world 0022/look
 ~
 ~
 0 0 22
 D2
+talk:#adventure view:thegame:world 0020/look
 ~
 gateway~
 1 -1 20
 S
 #22
 Quest Variables Example~
-   I used triggers 190 thru 192 to setup this example.  Simply tstat each to see
-what they do.
+talk:#adventure view:thegame:world 0022/main
 ~
 0 8 0 0 0 0
 D3
+talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
@@ -373,140 +370,132 @@ S
 T 189
 #23
 Trigger Help Files~
-   I have added extensive help files on every type of trigger.  Please use them
-and give feedback.  The easiest way to get to them all is through:
-@RHELP TRIGEDIT-MENU@n and @RHELP TRIGEDIT-TYPE@n.
-   There are 1000's of triggers on TBA you can use as examples. @RHELP EXAMPLES@n
-for a few. @RHELP TRIG-EXAMPLES@n for some advanced ones.
-@RGOTO 14@n to access the next hallway.
+talk:#adventure view:thegame:world 023/main
 ~
 0 8 0 0 0 0
 D2
+talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
 S
 #33
 Indra's Room~
-Indra's Private Residence
+talk:#adventure view:thegame:world 0033/main
 ~
 0 8 0 0 0 0
 S
 T 308
 #34
 Pool of Images~
-   A broad mosaic walkway wraps around the natural hotsprings in this cavernous
-room.  Three large chandeliers are suspended from the domed ceiling and their
-sparkling light dances on the surface of the bubbling hotsprings.  As you peer
-into the water images begin to form from out of the depths, coalescing into a
-vivid scene.  Your heart begins to pound and your breathing becomes deeper as
-you watch the images taking shape in the turbulent liquid.  Your mouth becomes
-dry as you see yourself in the watery panorama ...  And time stands still for
-just one moment ...  As you see your future in the depths ...
+talk:#adventure view:thegame:world 0034/main
 ~
 0 520 0 0 0 0
 S
 #35
 Elora's Den of Dreams~
-   Shadows form and dissipate, creating fluid, illogical images, which seem to
-come to life one minute, only to disappear as wisps of smoke the next.  Around
-them, sharp brush strokes of iridescence twist into crooked, ever-changing
-patterns.  The warble of a songbird becomes the maniacal laughter of a dancing
-clown, which in turn dissolves into a prancing pony.  The only constant here
-appears to be a faint scent of jasmine.
+talk:#adventure view:thegame:world 0035/main
 ~
 0 24 0 0 0 0
 S
 #71
 The Vault Of The Programmer~
-   The walls, furniture and other decor that animate Vatiken's vault are
-comprised of nothing more then floating ones and zeros.
+talk:#adventure view:thegame:world 0071/main
 ~
 0 1024 0 0 0 9
 S
 #88
 Advertising Room~
-   Feel free to use this board to advertise for your own MUD.  DO NOT advertise
-on any channel or board besides this one.  A single post on this board is the
-only advertising allowed.  The quality of your post reflects on the quality of
-your MUD so please review and format your work before saving.  Do not format the
-MUD address with /f.  Since TBA uses the @@ as a colorcode you must use 2 @@@@ with
-your email address.  Posts may be deleted if done poorly or if the MUD is no
-longer online.
+talk:#adventure view:thegame:world 0088/main
 ~
 0 8 0 0 0 0
 S
 #89
 The Workspace Corridor~
-   This long hallway is barely wide enough for two people to walk abreast.
-Along the Northern wall are steel doors spaced a few feet apart while the
-southern wall is of cinder block construction.
+talk:#adventure view:thegame:world 0089/main
 ~
 0 8 0 0 0 0
+D0
+talk:#adventure view:thegame:world 0090/look
+~
+~
+0 0 90
 D1
+talk:#adventure view:thegame:world 0091/look
 ~
 ~
-0 0 89
+0 0 91
+D2
+talk:#adventure view:thegame:world 0092/look
+~
+~
+0 0 92
 D3
+talk:#adventure view:thegame:world 0093/look
 ~
 ~
-0 0 89
+0 0 93
 D4
+talk:#adventure view:thegame:world 0130/look
 ~
 trapdoor~
 1 68 130
 S
 #90
 Epictetus' Workspace~
-   This shower stall remodeled into a prison cell is not yet completed.  While
-the shower head has been removed and cemented a drain still exists in the floor.
-Unintelligible voices can be heard whispering through the piping in the drain
-below.
+talk:#adventure view:thegame:world 0090/main
 ~
 0 8 0 0 0 0
 D2
+talk:#adventure view:thegame:world 0089/look
 ~
 ~
 0 0 89
 E
-drain floor~
-   The metal drain is covered with years of hair and grime. Several screws
-holding the drain in place seem to be missing.
+drain~
+talk:#adventure view:thegame:world 0090/drain
 ~
 S
 #91
 Aristotle's Workspace~
-   What used to be a shower stall has been turned into a cell complete with a
-pungent waste bucket. The old shower head is still sticking out of the wall
-with a steel door opposite.
+talk:#adventure view:thegame:world 0091/main
 ~
 0 8 0 0 0 0
+D3
+talk:#adventure view:thegame:world 0089/look
+~
+~
+0 0 89
 E
-shower head cap~
-   The metal shower head has a plastic variable setting cap complete with a
-massage setting. The cap looks a bit damaged like someone may have opened it
-before.
+shower~
+talk:#adventure view:thegame:world 0091/shower
 ~
 S
 T 171
 T 172
 #92
 Plato's Workspace~
-   The now familiar cell is cast in strange movement and shadows as the single
-light bulb above flickers randomly as if it is about to burn out. The
-alternating bright and pitch black environment makes the eyes ache.
+talk:#adventure view:thegame:world 0092/main
 ~
 0 8 0 0 0 0
+D0
+talk:#adventure view:thegame:world 0089/look
+~
+~
+0 0 89
 S
 T 171
 T 172
 #93
 Friedrich Nietzsche's Workspace~
-   The stale, uncirculated air reeks from the prior occupants of this small
-cell. The silence is broken only by the occasional footsteps in the corridor
-outside or a fellow prisoner tapping on the cell wall.
+talk:#adventure view:thegame:world 0093/main
 ~
 0 8 0 0 0 0
+D1
+talk:#adventure view:thegame:world 0089/look
+~
+~
+0 0 89
 S
 T 171
 T 172
