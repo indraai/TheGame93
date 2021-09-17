@@ -18,7 +18,7 @@ D4
 talk:#adventure view:thegame:world 0000/look
 ~
 ~
-0 0 0
+0 0 -1
 D5
 talk:#adventure view:thegame:world 0002/look
 ~
@@ -26,7 +26,7 @@ talk:#adventure view:thegame:world 0002/look
 0 0 2
 S
 #2
-Welcome to the Builder Academy~
+Academy Entrance~
 talk:#adventure view:thegame:world 0002/main
 ~
 0 24 0 0 0 0
@@ -52,8 +52,7 @@ talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
-D4
-talk:#adventure view:thegame:world 0002/look
+D2
 ~
 ~
 0 0 2
@@ -142,7 +141,7 @@ D3
 talk:#adventure view:thegame:world 0007/look
 ~
 ~
-0 0 7
+0 0 14
 S
 #9
 Using OEDIT~
@@ -216,12 +215,16 @@ D0
 talk:#adventure view:thegame:world 0018/look
 ~
 ~
-0 0 18
+0 0 20
 D1
 talk:#adventure view:thegame:world 0014/look
 ~
 ~
 0 0 14
+D2
+~
+~
+0 0 18
 D3
 talk:#adventure view:thegame:world 0012/look
 ~
@@ -237,7 +240,7 @@ D1
 talk:#adventure view:thegame:world 0015/look
 ~
 ~
-0 0 15
+0 0 7
 D3
 talk:#adventure view:thegame:world 0013/look
 ~
@@ -296,28 +299,22 @@ D0
 talk:#adventure view:thegame:world 0020/look
 ~
 ~
-0 0 20
-D1
-talk:#adventure view:thegame:world 0019/look
-~
-~
-0 0 19
+0 0 13
 D2
 talk:#adventure view:thegame:world 0013/look
 ~
 ~
-0 0 13
+0 0 22
 S
 #19
 A Quest Room~
 talk:#adventure view:thegame:world 0019/main
 ~
 0 8 0 0 0 0
-D3
-talk:#adventure view:thegame:world 0018/look
+D0
 ~
 ~
-0 0 18
+0 0 22
 S
 #20
 Advanced Trigedit Example~
@@ -333,7 +330,7 @@ D2
 talk:#adventure view:thegame:world 0018/look
 ~
 ~
-0 0 18
+0 0 13
 S
 #21
 Another Example With Quest Variables~
@@ -350,10 +347,6 @@ D0
 ~
 ~
 0 0 23
-D1
-~
-~
-0 0 22
 D2
 ~
 gateway~
@@ -365,10 +358,14 @@ Quest Variables Example~
 what they do.
 ~
 0 8 0 0 0 0
-D3
+D0
 ~
 ~
-0 0 21
+0 0 18
+D2
+~
+~
+0 0 19
 S
 T 189
 #23
@@ -591,12 +588,12 @@ D2
 ~
 0 0 98
 E
-floor~
-The stone floor is the same shade of gray as the sky and is completely plain and unscratched. It is probably too hard for anything to leave as much as a scratch on it.
-~
-E
 sky winds~
 Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
+floor~
+The stone floor is the same shade of gray as the sky and is completely plain and unscratched. It is probably too hard for anything to leave as much as a scratch on it.
 ~
 S
 $~
