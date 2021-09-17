@@ -230,54 +230,32 @@ talk:#adventure view:thegame:world 0012/look
 S
 #14
 Planning~
-   The ideas discussed in the help files below are tried and true. Though they
-may not work for everyone, they will for the majority. Learn from others
-mistakes and understand the planning required to make a good zone. Building a
-great zone takes many things; such as time, patience, good grammar/spelling,
-knowing how to balance your zone, a lot of work, and most importantly
-planning. Now this all may sound like a lot to do, but I can assure you that
-with this zone, and the help of others, you can do this.
-@RHELP DICTIONARY@n
-@RHELP WORK@n
-@RHELP PLANNING@n
-@RHELP CARTOGRAPHY@n
-@RHELP LOCATION@n
-@RHELP THEME@n
-@RHELP PLOT@n
-@RHELP ZONE-SIZE@n
-@RHELP ALIGNMENT@n
-@RHELP BIAS@n
+talk:#adventure view:thegame:world 0014/main
 ~
 0 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 0015/look
 ~
 ~
 0 0 15
 D3
+talk:#adventure view:thegame:world 0013/look
 ~
 ~
 0 0 13
 S
 #15
 Lessons Learned and Advanced Building~
-   Here are a few lessons that have been passed down from builder to builder
-through out the years.  Take heed to these words as they have been and done
-what you are now doing many times over.
-@RHELP LANCE
-HELP SNOWLOCK
-HELP ELASETH
-HELP PATHS@n
-   There are numerous resources out there for MUDs. Here are a few I have used
-in the past: Please mudmail me any good links to add.
-@RHELP DOCUMENTATION
-HELP OFFLINE
+talk:#adventure view:thegame:world 0015/main
 ~
 0 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 0098/look
 ~
 ~
 0 0 98
 D3
+talk:#adventure view:thegame:world 0014/look
 ~
 ~
 0 0 14
@@ -288,10 +266,12 @@ talk:#adventure view:thegame:world 0016/main
 ~
 0 8 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0017/look
 ~
 ~
 0 0 17
 D2
+talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
@@ -302,6 +282,7 @@ talk:#adventure view:thegame:world 0017/main
 ~
 0 8 0 0 0 0
 D2
+talk:#adventure view:thegame:world 0016/look
 ~
 ~
 0 0 16
@@ -312,42 +293,44 @@ talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0020/look
 ~
 ~
 0 0 20
 D1
+talk:#adventure view:thegame:world 0019/look
 ~
 ~
 0 0 19
 D2
+talk:#adventure view:thegame:world 0013/look
 ~
 ~
 0 0 13
 S
 #19
 A Quest Room~
-   In this room you may be able to finish the Mob Quest Tutorial.
+talk:#adventure view:thegame:world 0019/main
 ~
 0 8 0 0 0 0
 D3
+talk:#adventure view:thegame:world 0018/look
 ~
 ~
 0 0 18
 S
 #20
 Advanced Trigedit Example~
-   Begin by @RSTAT GATEGUARD@n and then tstat each trigger listed to see what
-they do.  This example is explained under @RHELP TRIGEDIT-ADVANCED-TUTORIAL@n.
-Including triggers 4, 5, 7, 8.
-To pay the gateguard: @RGIVE 10 COINS GUARD@n.
+talk:#adventure view:thegame:world 0018/look
 ~
 0 24 0 0 0 0
 D0
-   The tutorial hallway continues.
+talk:#adventure view:thegame:world 0021/look
 ~
 gateway~
 2 46 21
 D2
+talk:#adventure view:thegame:world 0018/look
 ~
 ~
 0 0 18
