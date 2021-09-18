@@ -320,15 +320,15 @@ talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0019/look
-~
-~
-0 0 19
-D3
 talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
+D3
+talk:#adventure view:thegame:world 0019/look
+~
+~
+0 0 19
 S
 #21
 Another Example With Quest Variables~
