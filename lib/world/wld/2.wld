@@ -16,48 +16,47 @@ D2
 0 0 210
 E
 credits info~
-   Builder   : Rumble
-Zone         : 2 The Dome II
-Related Zones: 1 The Dome, 3 The Dome III
-Began        : 2000
+Builder   : Quinn Michaels
+Zone         : 2 Arjika II
+Related Zones: 1 Arjika, 3 Arjika III
+Began        : 2021
 Player Level : 1-34
 Rooms        : 100
 Mobs         : 6
 Objects      : 19
 Shops        : 10
 Triggers     : 1
-Theme        : A mortal starting town.
-Plot         : Fabric of time torn, world going to hell. The Dome one of the few
-               safe havens remaining.
+Theme        : Ancient town of Arjika.
+Plot         : Fabric of time torn, world going to hell. The Dome one of the few safe havens remaining.
 Links        : 43w
 Zone 2 is linked to the following zones:
-  1 The Dome                        at   200 (north) --->   189
-  1 The Dome                        at   201 (north) --->   194
-  1 The Dome                        at   202 (north) --->   195
-  1 The Dome                        at   203 (north) --->   196
-  1 The Dome                        at   204 (north) --->   197
-  1 The Dome                        at   205 (north) --->   198
-  1 The Dome                        at   206 (north) --->   199
-  1 The Dome                        at   207 (up   ) --->   111
-  1 The Dome                        at   213 (up   ) --->   112
-  1 The Dome                        at   243 (up   ) --->   114
-  1 The Dome                        at   248 (up   ) --->   115
-  1 The Dome                        at   251 (up   ) --->   100
-  1 The Dome                        at   254 (up   ) --->   118
-  1 The Dome                        at   259 (up   ) --->   119
-  3 The Dome III                    at   287 (south) --->   300
-  3 The Dome III                    at   288 (south) --->   301
-  1 The Dome                        at   289 (up   ) --->   121
-  3 The Dome III                    at   292 (south) --->   302
-  1 The Dome                        at   295 (up   ) --->   122
-  3 The Dome III                    at   296 (south) --->   303
-  3 The Dome III                    at   297 (south) --->   304
-  3 The Dome III                    at   298 (south) --->   305
-  3 The Dome III                    at   299 (east ) --->   300
+  1 Arjika                        at   200 (north) --->   189
+  1 Arjika                        at   201 (north) --->   194
+  1 Arjika                        at   202 (north) --->   195
+  1 Arjika                        at   203 (north) --->   196
+  1 Arjika                        at   204 (north) --->   197
+  1 Arjika                        at   205 (north) --->   198
+  1 Arjika                        at   206 (north) --->   199
+  1 Arjika                        at   207 (up   ) --->   111
+  1 Arjika                        at   213 (up   ) --->   112
+  1 Arjika                        at   243 (up   ) --->   114
+  1 Arjika                        at   248 (up   ) --->   115
+  1 Arjika                        at   251 (up   ) --->   100
+  1 Arjika                        at   254 (up   ) --->   118
+  1 Arjika                        at   259 (up   ) --->   119
+  3 Arjika III                    at   287 (south) --->   300
+  3 Arjika III                    at   288 (south) --->   301
+  1 Arjika                        at   289 (up   ) --->   121
+  3 Arjika III                    at   292 (south) --->   302
+  1 Arjika                        at   295 (up   ) --->   122
+  3 Arjika III                    at   296 (south) --->   303
+  3 Arjika III                    at   297 (south) --->   304
+  3 Arjika III                    at   298 (south) --->   305
+  3 Arjika III                    at   299 (east ) --->   300
 ~
 S
 #201
-Thieves Avenue~
+Artist Avenue~
    This avenue passes between the inner city wall and the warehouse.  The
 warehouse is made from sturdy timber with a set of wide double doors that appear
 to open outwards.  Wagon tracks lead right up to the warehouse.  This must be
@@ -74,7 +73,7 @@ D2
 0 0 214
 S
 #202
-The Thieves Warehouse~
+The Artist Warehouse~
    You are close to the southern end of the storeroom.  Smaller adjoining rooms
 are to the south and east.  The financial holdings of the city are said to be
 hidden somewhere within this building.  Of course only a fool would try to
@@ -290,7 +289,7 @@ The Northern Temple Circle~
    The road makes a sharp turn here, heading to the south.  One can see an
 intersection just up ahead.  A set of stone stairs leads up into the
 northeastern lookout tower of the inner city wall.  From there guards can
-oversee the entire Thieves Quarter.
+oversee the entire Artist Quarter.
 ~
 2 0 0 0 0 1
 D2
@@ -307,7 +306,7 @@ D4
 0 0 112
 S
 #214
-Thieves Avenue~
+Artist Avenue~
    Wagons of supplies and loud mouthed traders pass by, looking travelers over
 to see if they might be able to swindle some of your gold.  Most look with
 disappointment as everyone knows few adventurers are rich these days.  The
@@ -506,7 +505,7 @@ D2
 0 0 239
 S
 #227
-Thieves Avenue~
+Artist Avenue~
    Few people roam this section of the city, the avenue gets its name for
 obvious reasons and most people are too wary of their gold to chance an
 encounter with a pickpocket.  A large warehouse to the east and the inner city
@@ -716,10 +715,10 @@ D3
 0 0 238
 S
 #240
-Thieves Avenue~
+Artist Avenue~
    From here one has an excellent view of the temple to the west.  It reflects
 any light that shines at it, the smooth white walls seem almost magical.  To the
-south the avenue reaches an intersection.  The meeting of the Thieves Quarter
+south the avenue reaches an intersection.  The meeting of the Artist Quarter
 and the Magi Quarter.
 ~
 2 0 0 0 0 1
@@ -760,7 +759,7 @@ D0
 S
 #243
 The West Gate~
-   The dome can be seen just to the west.  The gate standing here is normally
+   The firmament can be seen just to the west.  The gate standing here is normally
 kept open, the tall wooden beams are reinforced with metal bars.  Guards can be
 heard high above, lookouts to warn in the case of an attack.  The town looks
 very safe and secure from here.
@@ -775,8 +774,8 @@ D4
 ~
 0 0 114
 E
-dome~
-The dome holds back the magical chaos. The dome is used to keep balance within the city limits and allows everyone to exist in peace. Those brave enough to venture beyond the dome do so at their own risk. Beyond the dome the scale of balance has collapsed and the laws of science and nature are in disorder.
+firmament~
+The firmament holds back the magical chaos. The firmament is used to keep balance within the city limits and allows everyone to exist in peace. Those brave enough to venture beyond the firmament do so at their own risk. Beyond the firmament the scale of balance has collapsed and the laws of science and nature are in disorder.
 ~
 S
 #244
@@ -859,8 +858,8 @@ S
 #248
 The Western Road~
    This is the beginning of the Western Road that leads from the Temple of
-The Dome to the western gate and beyond the protection of the dome.  Few people
-travel beyond the dome because they fear the gateways between worlds may open
+The Dome to the western gate and beyond the protection of the firmament.  Few people
+travel beyond the firmament because they fear the gateways between worlds may open
 at anytime.  Only brave adventurers dare travel far beyond the city walls.
 ~
 2 0 0 0 0 1
@@ -975,7 +974,7 @@ The Western Road~
    This road connects the Temple of The Dome with the eastern gate to allow easy
 travelling for those wishing to visit the temple from the farmlands.  The
 farmlands are known to be one of the most stable regions outside the protection
-of the dome.
+of the firmament.
 ~
 2 0 0 0 0 1
 D0
@@ -1015,7 +1014,7 @@ S
 #256
 The Eastern Intersection~
    This intersection stands on the Eastern Road that travels from the east gate
-to the Temple of The Dome.  North lies the Thieves Quarter while to the South one
+to the Temple of The Dome.  North lies the Artist Quarter while to the South one
 can enter the Magi's Quarter.  This road bustles with activity as people go
 about their daily lives.
 ~
@@ -1039,7 +1038,7 @@ D3
 S
 #257
 The Eastern Road~
-   The Eastern intersection is just to the west.  To the north lies the Thieves
+   The Eastern intersection is just to the west.  To the north lies the Artist
 Quarter and their warehouse.  South is the Magi's Mansion and the Magi's
 Quarter.  To the east one can exit the city through the Eastern Gate.  The
 infamous Temple of The Dome can be seen rising from the center of the city.
@@ -1073,7 +1072,7 @@ D3
 S
 #259
 The Eastern Gate~
-   The dome stretches out further than usual here, covering some sections of the
+   The firmament stretches out further than usual here, covering some sections of the
 residential district.  This area is known for it's relative safety.  Very few
 problems arise from beyond the east gate.  The Dome lies to the west.
 To the east one can see the remains of an old gatehouse.
@@ -1263,7 +1262,7 @@ S
 Magi Avenue~
    A fabulous mansion sits on a small hill to the east.  The entrance is far to
 the south .  To the north one can leave the Magi's Quarter and travel along the
-Eastern Road or head further north into the Thieves Quarter.  This Quarter of
+Eastern Road or head further north into the Artist Quarter.  This Quarter of
 the city is very well maintained, decorative streetlamps line both sides of the
 wide street.
 ~
