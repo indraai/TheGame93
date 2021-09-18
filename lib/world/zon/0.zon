@@ -13,16 +13,17 @@ M 0 7 1 0 	(Barry)
 
 M 0 8 1 18 	(the tutorial questmaster)
 M 0 9 1 19 	(a quest ogre)
-M 0 10 1 99 	(Socrates)
-M 0 11 1 99 	(Friedrich Nietzsche)
-M 0 12 1 99 	(Plato)
-M 0 13 1 99 	(Aristotle)
-M 0 14 1 99 	(Confucius)
+M 0 10 1 99 	(Soldier)
+M 0 11 1 99 	(Soldier)
+M 0 12 1 99 	(Soldier)
+M 0 13 1 99 	(Soldier)
+M 0 14 1 99 	(Soldier)
 
-M 0 15 1 20 	(GD24 GuardDEVA)
+M 0 15 1 99 	(Guard)
 G 1 46 99 -1 	(the gateguard key)
 
 M 0 16 1 21 	(the variable questmaster)
+
 
 M 0 17 1 22 	(the protector of the magic eight ball)
 R 0 22 47 -1 	(the magic eight ball)
@@ -44,7 +45,9 @@ M 0 24 1 99 	(Jenny the waitress)
 M 0 25 1 99 	(the travelling saleswoman)
 G 1 82 99 -1 	(the teleporter)
 
-M 0 99 1 99 	(Death)
+M 0 26 1 99 	(a kind soul)
+
+M 0 99 1 99 	(portal master)
 E 1 99 100 16 	(the Scythe of Death)
 
 R 0 88 1228 -1 	(an advertising message board)

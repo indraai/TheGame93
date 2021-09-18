@@ -2057,23 +2057,6 @@ set speech %%txt[%max%]%%
 eval speech %speech%
 say %speech%
 ~
-#188
-TBA Magic Eight Ball Check - 26~
-0 q 100
-~
-* By Rumble of The Builder Academy    tbamud.com 9091
-* Check to see if the person is not carrying the magic eight ball
-if !%actor.has_item(47)%
-  * They are not carrying it. So stop them and give them one.
-  * Return 0 ignores their command to go west. They stay in the room.
-  return 0
-  wait 1 sec
-  say You forgot your magic eight ball. Take this one.
-  * Loads the object to the actors inventory.
-  %load% obj 47 %actor%
-  %send% %actor% %self.name% gives you the magic eight ball.
-end
-~
 #189
 Mob Quest Example Load 8ball - 22~
 2 g 100

@@ -166,8 +166,6 @@ Many adventurers come here to seek glory by attempting to solve the quests given
 300 90000
 8 8 2
 E
-T 3
-T 1
 #9
 ogre questogre~
 a quest ogre~
@@ -180,7 +178,6 @@ Though large and intimidating, this ogre does not seem to realize that he would 
 10 100
 8 8 1
 E
-T 2
 #10
 arjika arjikiya soldier a10 z0~
 Arjika Soldier~
@@ -206,7 +203,7 @@ Arjika Solder A11 is here on special assignment.
 8 8 1
 E
 #12
-arjika arjikiya spldier a12 z0~
+arjika arjikiya soldier a12 z0~
 Arjika Soldier~
 Arjika Soldier A12 is here.
 ~
@@ -229,8 +226,6 @@ Arjika Solder A13 is here on special assignment.
 340 115600
 8 8 1
 E
-T 197
-T 185
 #14
 arjika arjikiya soldier a14 z0~
 Arjika Soldier~
@@ -243,7 +238,6 @@ Arjika Soldier A14 is here on special assignment.
 340 115600
 8 8 1
 E
-T 186
 #15
 guard arjika arjikiya a0015 z00~
 Arjika Guard~
@@ -256,10 +250,6 @@ He stands his watch carefully eyeing anyone who approaches.
 340 115600
 8 8 1
 E
-T 4
-T 5
-T 7
-T 8
 #16
 variable questmaster master~
 the variable questmaster~
@@ -272,9 +262,6 @@ This questmaster will save a variable to your player file to remember whether or
 10 100
 8 8 1
 E
-T 192
-T 191
-T 190
 #17
 protector magic eight ball~
 the protector of the magic eight ball~
@@ -287,7 +274,7 @@ This strange humanoid lacks any distinguishing features. It is dressed in a whit
 340 115600
 8 8 0
 E
-T 188
+T 17
 #18
 arjika arjikiya soldier special forces admiral a18 z0~
 Arjika Admiral~
@@ -300,7 +287,6 @@ Arjika Admira A18 is a Special Forces Admiral for the Empire.
 340 115600
 8 8 1
 E
-T 187
 #19
 arjika arjikiya captain special forces a19 z0~
 Arjika Captain~
@@ -313,7 +299,6 @@ Arjika Captain A19 is a strategy/planning specialist.
 340 115600
 8 8 1
 E
-T 182
 #20
 arjika arjikiya sergeant special forces a20 z0~
 Arjika Sergeant~
@@ -326,7 +311,6 @@ Arjika Sergeant A20 is a language/philosophy specialist.
 340 115600
 8 8 1
 E
-T 181
 #21
 spy arjika arjikiya special forces a21 z0~
 Arjika Spy~
@@ -353,8 +337,6 @@ Arjika Commissar is responsible for all questioning and handling of prisoners.
 100 10000
 8 8 1
 E
-T 173
-T 72
 #23
 arjika arjikiya general special forces a23 z0~
 Arjika General~
@@ -401,14 +383,27 @@ on a rare occasion does she sell anything useful.
 8 8 2
 E
 T 98
-#99
-death grim reaper Hookah~
-Death~
-Death the Grim Reaper is smoking a Hookah.
+#26
+kind soul~
+a kind soul~
+A very kind and caring soul is here looking out for those who need it.
 ~
-   The dark-robed skeletal figure radiates an unendurable coldness. It is
-however, his day off, and he is using a water pipe that he picked up in
-Istanbul. It smells like he is smoking strawberries.
+   She immediately reminds you of your mother.  Constantly worrying about
+everyone and everything.  She is always around to help out those who have hit
+hard times and need a little boost.
+~
+253962 0 0 0 0 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+T 94
+#99
+arjika arjikiya portal a99 z0~
+Arjika Portal Master~
+Arjika Portal Master A99 is here.
+~
+The dark-robed figure handles the portal connection to Arjika
 ~
 256026 0 0 0 65616 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
