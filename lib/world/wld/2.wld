@@ -6,6 +6,10 @@ D0
 ~
 ~
 0 0 189
+D1
+~
+~
+1 0 2
 D2
 ~
 ~
@@ -184,7 +188,7 @@ D4
 S
 #208
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -241,10 +245,9 @@ D3
 ~
 0 0 209
 S
-T 3106
 #211
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -371,7 +374,6 @@ D2
 ~
 0 0 230
 S
-T 3106
 #218
 Training Room~
 Empty room.~
@@ -426,7 +428,7 @@ D2
 S
 #221
 Lotions and Potions~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -460,7 +462,7 @@ D2
 S
 #224
 Bank of The Dome~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -661,7 +663,6 @@ D3
 ~
 0 0 235
 S
-T 3106
 #237
 A Waiting Room~
    The room is made entirely from white marble inlaid with gold.  Columns of
@@ -836,7 +837,6 @@ D3
 ~
 0 0 245
 S
-T 3106
 #247
 Under the Inner Wall~
    This path passes through the western inner wall gate.  It is extremely dark
@@ -939,7 +939,6 @@ D4
 ~
 0 0 100
 S
-T 3106
 #252
 The Dome Temple~
 Empty room.~
@@ -961,7 +960,6 @@ D3
 ~
 0 0 251
 S
-T 3106
 #253
 The Social Board Room~
 Empty room.~
@@ -1038,7 +1036,6 @@ D3
 ~
 0 0 255
 S
-T 3106
 #257
 The Eastern Road~
    The Eastern intersection is just to the west.  To the north lies the Artist
@@ -1676,7 +1673,6 @@ D3
 ~
 0 0 291
 S
-T 3106
 #293
 The Southern Temple Circle~
    The smell of freshly baked bread wafts heavily through the air, tempting
