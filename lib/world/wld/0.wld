@@ -369,15 +369,15 @@ talk:#adventure view:thegame:world 023/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0022/look
-~
-~
-0 0 22
-D3
 talk:#adventure view:thegame:world 0088/look
 ~
 ~
 0 0 88
+D3
+talk:#adventure view:thegame:world 0022/look
+~
+~
+0 0 22
 S
 #33
 Indra's Room~
