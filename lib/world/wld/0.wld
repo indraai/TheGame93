@@ -410,15 +410,15 @@ talk:#adventure view:thegame:world 0088/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0023/look
-~
-~
-0 0 23
-D3
 talk:#adventure view:thegame:world 0089/look
 ~
 ~
 0 0 89
+D3
+talk:#adventure view:thegame:world 0023/look
+~
+~
+0 0 23
 S
 #89
 The Workspace Corridor~
