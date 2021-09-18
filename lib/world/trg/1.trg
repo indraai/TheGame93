@@ -1557,51 +1557,6 @@ set text[5] I do not get paid enough for such a despicable job. I don't suppose 
 eval  speech %%text[%max%]%%
 say %speech%
 ~
-#174
-Underground Spy M30 T174~
-0 b 20
-~
-* By Rumble of The Builder Academy    tbamud.com 9091
-if !%self.follower%
-  eval max %random.4%
-  set txt[1] Don't let the 'MISTRESS' hold you back, join the DevaFORCE. Follow me if you want to lead a better life.
-  set txt[2] Be careful who you talk to, they may be part of The Covenant. Follow me if you want to know the truth.
-  set txt[3] Follow me if you want to join the DevaFORCE.
-  set txt[4] Only through offerings can we know the truth. Follow me to be trained.
-  set  speech %%txt[%max%]%%
-  eval speech %speech%
-  say %speech%
-else
-  say You have made the good choice.
-  wait 3 sec
-  %random.dir%
-  wait 2 sec
-  %random.dir%
-  wait 2 sec
-  %random.dir%
-  wait 2 sec
-  %random.dir%
-  wait 2 sec
-  say Have you been enjoying your time in Sanctus?
-  wait 5 sec
-  %load% mob 32
-  %echo% The DevaForce has arrived.
-  %load% mob 32
-  %echo% The DevaForce has arrived.
-  %load% mob 32
-  %echo% The DevaForce has arrived.
-  %load% mob 32
-  %echo% The DevaForce has arrived.
-  wait 3 sec
-  say Let's get on with it. Let's see those dance moves.
-  wait 3 sec
-  %send% %self.follower% The SpyDEVA and all of his DevaForce quickly circle you and wait to see your dance moves.
-  %echoaround% %self.follower% %self.follower.name% is quickly surrounded by a group of dancers. The SpyDEVA tells DevaForce and they take %self.follower.name% to the %random.dir%.
-  nop %self.follower.pos(sleeping)%
-  %teleport% %self.follower% 18600
-  %purge% %self%
-end
-~
 #175
 Chuck Norris - 34~
 0 ab 8

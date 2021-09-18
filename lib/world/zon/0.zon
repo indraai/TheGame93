@@ -11,47 +11,58 @@ M 0 5 1 0 	(Harry)
 M 0 6 1 0 	(Larry)
 M 0 7 1 0 	(Barry)
 
-M 0 34 1 8 	(Chuck Norris)
-M 0 29 2 7 	(Epictetus)
-D 0 20 0 2 	(Advanced Trigedit Example)
-M 0 24 1 20 	(GD24 GuardDEVA)
+M 0 8 1 18 	(the tutorial questmaster)
+M 0 9 1 19 	(a quest ogre)
+M 0 10 1 3 	(Socrates)
+M 0 11 1 2 	(Friedrich Nietzsche)
+M 0 12 1 4 	(Plato)
+M 0 13 1 91 	(Aristotle)
+M 0 14 1 95 	(Confucius)
+
+M 0 15 1 20 	(GD24 GuardDEVA)
 G 1 46 99 -1 	(the gateguard key)
-D 0 89 4 2 	(The Workspace Corridor)
+
+M 0 16 1 21 	(the variable questmaster)
+
+M 0 17 1 22 	(the protector of the magic eight ball)
+R 0 22 47 -1 	(the magic eight ball)
+O 0 47 99 22 	(the magic eight ball)
+
+M 0 18 1 96 	(James Stockdale)
+M 0 19 1 6 	(Carl Von Clausewitz)
+M 0 20 1 7 	(Epictetus)
+
+M 0 21 3 0 	(arjika spy)
+E 1 221 1 12 	(a gray cloak)
+
 M 0 31 1 89 	(the Commissar)
 G 1 68 99 -1 	(the Commissar's key)
-M 0 18 1 2 	(Friedrich Nietzsche)
+
+M 0 34 1 8 	(Chuck Norris)
+
+M 0 97 1 99 	(Jenny the waitress)
+
+M 0 99 1 99 	(Death)
+E 1 99 100 16 	(the Scythe of Death)
+
 R 0 88 1228 -1 	(an advertising message board)
 O 0 1228 99 88 	(an advertising message board)
-R 0 90 86 -1 	(a pair of shackles)
+
 R 0 90 84 -1 	(the shower drain)
 O 0 84 1 90 	(the shower drain)
+
 P 1 85 99 84 	(a small pick)
-M 0 29 2 90 	(Epictetus)
-R 0 90 89 -1 	(a pair of iron shackles)
-O 0 89 99 90 	(a pair of iron shackles)
-M 0 28 2 6 	(Carl Von Clausewitz)
-M 0 28 2 93 	(Carl Von Clausewitz)
-D 0 97 2 2 	(Open Workspace)
-R 0 97 89 -1 	(a pair of iron shackles)
-O 0 89 99 97 	(a pair of iron shackles)
+
 O 0 98 1 99 	(a sign)
-M 0 97 1 99 	(Jenny the waitress)
+
 G 1 92 100 -1 	(a nice mug)
 G 1 97 100 -1 	(a cup)
 G 1 91 100 -1 	(an English Breakfast)
 G 1 90 100 -1 	(an ice cream)
-M 0 99 1 99 	(Death)
-E 1 99 100 16 	(the Scythe of Death)
-M 0 22 2 91 	(Aristotle)
-M 0 21 2 4 	(Plato)
-M 0 17 2 3 	(Socrates)
-M 0 23 2 95 	(Confucius)
-M 0 27 2 96 	(James Stockdale)
-M 0 26 1 22 	(the protector of the magic eight ball)
-R 0 22 47 -1 	(the magic eight ball)
-O 0 47 99 22 	(the magic eight ball)
-M 0 25 1 21 	(the variable questmaster)
-M 0 16 1 19 	(a quest ogre)
-M 0 14 1 18 	(the tutorial questmaster)
+
+D 0 20 0 2 	(Advanced Trigedit Example)
+D 0 89 4 2 	(The Workspace Corridor)
+D 0 97 2 2 	(Open Workspace)
+
 S
 $

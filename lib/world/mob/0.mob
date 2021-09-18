@@ -25,7 +25,7 @@ E
 #1
 security agents securityprime~
 SecurityPRIME~
-Security is here.
+SecurityPRIME is here.
 ~
 Security is here to provide safety.
 ~
@@ -49,7 +49,7 @@ E
 #2
 medical agents medicprime~
 MedicPRIME~
-Medical is here.
+MedicPRIME is here.
 ~
 Medical is here to provide care.
 ~
@@ -145,7 +145,7 @@ E
 #7
 barry agents~
 Barry~
-Barry is following something.
+Barry is wandering around.
 ~
 Barry is a type, or strain, in the sense that he has a broad genetic make-up, a broad standard.  You will see different "types" of Barry, from long-bodied, short, crooked legs to a more proportioned length of body and longer legs.  This is a result of having been hunted since his beginning.
 ~
@@ -155,82 +155,6 @@ Barry is a type, or strain, in the sense that he has a broad genetic make-up, a 
 8 8 1
 E
 #8
-wishbone~
-Wishbone~
-Wishbone begins yet another adventure.
-~
-Wishbone is a Jack Russell Terrier played by a dog named Soccer.  This adorable little actor has his own series on PBS and gets credit for introducing children to over 40 stories from classic literature.  Wishbone became so popular after his series started in 1994 that he now has his own line of children's
-books and plush toys.
-~
-10 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
-E
-#9
-sick looking dog~
-a sick looking dog~
-A sick looking dog gags on something in its mouth.
-~
-The dog is unkempt and unhealthy.  It does not look like it has been eating very well.
-~
-10 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
-E
-T 95
-#10
-clone~
-the clone~
-A boring old clone is standing here.
-~
-This clone is nothing to look at.  No, really, it is quite boring.
-~
-188426 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 0
-E
-#11
-zombie undead humanoid~
-the zombie~
-A strange humanoid is here.  How odd, it seems to be dancing!
-~
-This strange humanoid is moving rather slowly, and appears to be a corpse, a walking corpse!  It must be a zombie or something of the sort.
-~
-188426 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 0
-BareHandAttack: 7
-E
-#12
-moose eddie~
-Moose, the Jack Russel Terrier~
-Moose is lounging about enjoying his fame.
-~
-Moose is the name of the cute little Jack Russell Terrier who became famous when he landed the role of Eddie in the TV show Frasier.  Moose is also a leading star in the movie My Dog Skip and is known for his performances throughout the U.S. Currently Moose lives in Los Angeles with two of his sons, Enzo and Moosie.
-~
-10 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
-E
-#13
-kind soul~
-a kind soul~
-A very kind and caring soul is here looking out for those who need it.
-~
-She immediately reminds you of your mother.  Constantly worrying about everyone and everything.  She is always around to help out those who have hit hard times and need a little boost.
-~
-253962 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2
-E
-T 94
-#14
 tutorial questmaster~
 the tutorial questmaster~
 A questmaster is waiting for a brave adventurer to step forth.
@@ -244,20 +168,7 @@ Many adventurers come here to seek glory by attempting to solve the quests given
 E
 T 3
 T 1
-#15
-quest mobile~
-a quest mob~
-A quest mob wanders around aimlessly waiting to be tackled.
-~
-This mobile's sole purpose is to be hunted down and tackled.
-~
-10 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 0
-E
-T 144
-#16
+#9
 ogre questogre~
 a quest ogre~
 A huge quest ogre has a pair of wings attached to his back as if he could fly.
@@ -270,7 +181,7 @@ Though large and intimidating, this ogre does not seem to realize that he would 
 8 8 1
 E
 T 2
-#17
+#10
 Socrates~
 Socrates~
 Socrates patiently waits to help new builders.
@@ -285,43 +196,19 @@ E
 T 196
 T 194
 T 183
-#18
-concierge helpdesk~
-HelpDesk Concierge~
-The HelpDesk Concierge is here to assist you.
+#11
+Friedrich Nietzsche~
+Friedrich Nietzsche~
+Friedrich Nietzsche searches for those wishing to become Overmen.
 ~
-The HelpDesk Concierge is here to help answer basic question about the Academy and help you find your way to the best learning in the realms.
+Nietzsche, Friedrich Wilhelm (1844-1900), German philosopher, poet, and classical philologist, who was one of the most provocative and influential thinkers of the 19th century. One of Nietzsche's fundamental contentions was that traditional values had lost their power in the lives of individuals. Nietzsche maintained that all human behavior is motivated by the will to power.
 ~
 516106 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
-#19
-aerial servant shape~
-the aerial servant~
-An amorphous shape is floating in the air.
-~
-As you stare at this amorphous shape, it begins to appear to take the shape of a cloud-like humanoid.
-~
-188426 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 0
-E
-#20
-elemental~
-the elemental~
-An elemental is standing patiently here.
-~
-This creature is the essence of the elements, and appears to be waiting patiently for something to occur.
-~
-188426 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 0
-E
-#21
+#12
 Plato~
 Plato~
 Plato offers advice to any who are in need.
@@ -335,7 +222,7 @@ Plato (circa 428-347 BC), Greek philosopher, one of the most creative and influe
 E
 T 198
 T 184
-#22
+#13
 aristotle~
 Aristotle~
 Aristotle wanders the hallways constantly in search of more knowledge.
@@ -349,7 +236,7 @@ Aristotle (384-322 BC), Greek philosopher and scientist, who shares with Plato a
 E
 T 197
 T 185
-#23
+#14
 confucius~
 Confucius~
 Confucius is busy following the way.
@@ -362,7 +249,7 @@ Confucianism, major system of thought in China, developed from the teachings of 
 8 8 1
 E
 T 186
-#24
+#15
 guard deva guarddeva gd24 quest~
 GD24 GuardDEVA~
 The gateguard watches the gate carefully swinging the key around on its chain.
@@ -378,7 +265,7 @@ T 4
 T 5
 T 7
 T 8
-#25
+#16
 variable questmaster master~
 the variable questmaster~
 The variable questmaster is waiting to set you.
@@ -393,7 +280,7 @@ E
 T 192
 T 191
 T 190
-#26
+#17
 protector magic eight ball~
 the protector of the magic eight ball~
 The protector of the magic eight balls ensures everyone gets an eight ball before they leave.
@@ -406,12 +293,23 @@ This strange humanoid lacks any distinguishing features. It is dressed in a whit
 8 8 0
 E
 T 188
-#27
-man james bond spy 007~
-James Bond 007~
-James Bond 007 has been captured.
+#18
+man james bond stockdale admiral~
+James Stockdale~
+A man beaten to the brink of his life stares up at you with powerful eyes.
 ~
-An undefined string.
+James Stockdale was shot down by anti-aircraft fire during Vietnam.  He was
+held as a POW for seven years.  He spent over half of this time in solitary
+confinement in leg irons.  Even being incapacitated he was still able to lead
+the POW underground resistance successfully.  For this he was routinely tortured
+and beaten resulting in permanent disablement from a repeatedly broken leg,
+broken back, and shoulders being wrenched from their sockets.  When his captors
+attempted to use him as televised propaganda, he slit his scalp with a razor.
+When they covered the cut with a hat he beat himself with a stool until his face
+was swollen beyond recognition.  As a final attempt he slit his wrists rather
+than allow himself to be used or let down his fellow POWs.  His captors found
+him unconscious and near death.  The torture stopped after that and they no
+longer attempted to use him.  He received the Medal of Honor for his actions.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -419,7 +317,7 @@ An undefined string.
 8 8 1
 E
 T 187
-#28
+#19
 carl von clausewitz~
 Carl Von Clausewitz~
 Carl Von Clausewitz is hunkered down in a corner of the cell plotting an escape plan.
@@ -432,7 +330,7 @@ Carl von Clausewitz was born in Burg bei Magdeburg, Prussia, in 1780. Clausewitz
 8 8 1
 E
 T 182
-#29
+#20
 epictetus crippled man~
 Epictetus~
 A crippled man seems content with his life and abysmal surroundings.
@@ -445,20 +343,20 @@ Epictetus spent his youth as a slave in Rome to Epaphroditos, a very wealthy fre
 8 8 1
 E
 T 181
-#30
-spy deva spydeva devaforce d0030 z01~
-SpyDEVA D0030~
-SpyDEVA D0030 is here spying.
+#21
+spy deva arjika a0021 z0~
+Arjikiya Spy~
+Arjikiya Spy A0021 is here spying for Arjika Empire.
 ~
-The SpyDEVA has been seen all around recruiting new Agents for the DevaFORCE Program. The agents that to come back are physically and mentally fit to the max.
+Arjikiya Spy is here to investigate a report of stolen technology for the Arjika Empire.
 ~
 6168 0 0 0 2104 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 0
+8 8 1
 BareHandAttack: 6
 E
-T 174
+T 21
 #31
 prison commissar~
 the Commissar~

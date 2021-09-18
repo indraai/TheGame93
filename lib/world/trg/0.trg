@@ -471,16 +471,15 @@ Rumble's Spy~
 %at% rumble mecho %actor.name% says, '%speech%' 2
 ~
 #21
-Transform Example~
-0 g 100
+Arjika Spy~
+0 b 20
 ~
-* By Rumble of The Builder Academy    tbamud.com 9091
-* As a greet trigger, entering the room will cause this mob to transform into
-* a random mob vnum 100-199.
-emote starts to twist and contort into something different.
-eval number %random.100% + 99
-%transform% %number%
-say Transform complete to mob %number%.
+* By Quinn Michaels
+set txt[1] We are here to investigate the stolen #Arjika technology.
+set txt[2] Do you know anything about who stole the #Arjika technology?
+set txt[3] Do you have any information about the stolen #Arjika technology?
+set txt[4] Do know anyone with information to stolen #Arjika technology?
+say %%txt[%random.4%]%%
 ~
 #22
 IF Example~
