@@ -3,6 +3,10 @@ The Void~
 talk:#adventure view:thegame:world 0000/main
 ~
 0 8 0 0 0 1
+D1
+~
+~
+0 0 104
 D5
 talk:#adventure view:thegame:world 0001/look
 ~
@@ -18,7 +22,7 @@ D4
 talk:#adventure view:thegame:world 0000/look
 ~
 ~
-0 0 -1
+0 0 0
 D5
 talk:#adventure view:thegame:world 0002/look
 ~
@@ -574,12 +578,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
