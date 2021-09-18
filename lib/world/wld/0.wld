@@ -255,12 +255,12 @@ Commands~
 talk:#adventure view:thegame:world 0016/main
 ~
 0 8 0 0 0 0
-D0
+D1
 talk:#adventure view:thegame:world 0017/look
 ~
 ~
 0 0 17
-D2
+D3
 talk:#adventure view:thegame:world 0015/look
 ~
 ~
@@ -272,15 +272,15 @@ talk:#adventure view:thegame:world 0017/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0016/look
-~
-~
-0 0 16
-D3
 talk:#adventure view:thegame:world 0018/look
 ~
 ~
 0 0 18
+D3
+talk:#adventure view:thegame:world 0016/look
+~
+~
+0 0 16
 S
 #18
 Quest Tutorial~
@@ -288,15 +288,15 @@ talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0017/look
-~
-~
-0 0 17
-D2
 talk:#adventure view:thegame:world 0019/look
 ~
 ~
 0 0 19
+D3
+talk:#adventure view:thegame:world 0017/look
+~
+~
+0 0 17
 S
 #19
 A Quest Room~
@@ -308,6 +308,11 @@ talk:#adventure view:thegame:world 0020/look
 ~
 ~
 0 0 20
+D3
+talk:#adventure view:thegame:world 0018/look
+~
+~
+0 0 18
 S
 #20
 Advanced Trigedit Example~
@@ -335,16 +340,11 @@ talk:#adventure view:thegame:world 0022/look
 ~
 ~
 0 0 22
-D1
+D3
 talk:#adventure view:thegame:world 0020/look
 ~
 ~
 0 0 20
-D3
-talk:#adventure view:thegame:world 0022/look
-~
-~
-0 0 22
 S
 #22
 Quest Variables Example~
@@ -352,15 +352,15 @@ talk:#adventure view:thegame:world 0022/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0021/look
-~
-~
-0 0 21
-D3
 talk:#adventure view:thegame:world 0023/look
 ~
 ~
 0 0 23
+D3
+talk:#adventure view:thegame:world 0021/look
+~
+~
+0 0 21
 S
 T 189
 #23
@@ -369,15 +369,15 @@ talk:#adventure view:thegame:world 023/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0088/look
-~
-~
-0 0 88
-D3
 talk:#adventure view:thegame:world 0022/look
 ~
 ~
 0 0 22
+D3
+talk:#adventure view:thegame:world 0088/look
+~
+~
+0 0 88
 S
 #33
 Indra's Room~
@@ -410,41 +410,31 @@ talk:#adventure view:thegame:world 0088/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0022/look
+talk:#adventure view:thegame:world 0023/look
 ~
 ~
-0 0 22
+0 0 23
+D3
+talk:#adventure view:thegame:world 0089/look
+~
+~
+0 0 89
 S
 #89
 The Workspace Corridor~
 talk:#adventure view:thegame:world 0089/main
 ~
 0 8 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0090/look
-~
-~
-0 0 90
 D1
-talk:#adventure view:thegame:world 0091/look
+talk:#adventure view:thegame:world 0088/look
 ~
 ~
-0 0 91
-D2
-talk:#adventure view:thegame:world 0092/look
-~
-~
-0 0 92
+0 0 88
 D3
-talk:#adventure view:thegame:world 0093/look
+talk:#adventure view:thegame:world 0098/look
 ~
 ~
-0 0 93
-D4
-talk:#adventure view:thegame:world 0130/look
-~
-~
-0 0 130
+0 0 98
 S
 #90
 Epictetus' Workspace~
@@ -559,10 +549,15 @@ talk:#adventure view:thegame:world 0099/look
 ~
 0 0 99
 D3
-talk:#adventure view:thegame:world 0023/look
+talk:#adventure view:thegame:world 0089/look
 ~
 ~
-0 0 23
+0 0 89
+D4
+talk:#adventure view:thegame:world 0130/look
+~
+~
+0 0 130
 S
 #99
 TBA Cafe 99~
