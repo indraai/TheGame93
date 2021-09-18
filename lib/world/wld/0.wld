@@ -18,7 +18,7 @@ D4
 talk:#adventure view:thegame:world 0000/look
 ~
 ~
-0 0 0
+0 0 -1
 D5
 talk:#adventure view:thegame:world 0002/look
 ~
@@ -26,7 +26,7 @@ talk:#adventure view:thegame:world 0002/look
 0 0 2
 S
 #2
-Welcome to the Builder Academy~
+Academy Entrance~
 talk:#adventure view:thegame:world 0002/main
 ~
 0 24 0 0 0 0
@@ -52,8 +52,7 @@ talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
-D4
-talk:#adventure view:thegame:world 0002/look
+D2
 ~
 ~
 0 0 2
@@ -64,11 +63,6 @@ The Beginning~
 talk:#adventure view:thegame:world 0004/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0016/look
-~
-~
-0 0 16
 D1
 talk:#adventure view:thegame:world 0005/look
 ~
@@ -113,7 +107,7 @@ talk:#adventure view:thegame:world 005/look
 0 0 5
 S
 #7
-Writing Descriptions~
+Descriptions~
 talk:#adventure view:thegame:world 0007/main
 ~
 0 8 0 0 0 0
@@ -142,7 +136,7 @@ D3
 talk:#adventure view:thegame:world 0007/look
 ~
 ~
-0 0 7
+0 0 14
 S
 #9
 Using OEDIT~
@@ -150,6 +144,7 @@ talk:#adventure view:thegame:world 0009/main
 ~
 0 8 0 0 0 0
 D1
+talk:#adventure view:thegame:world 0010/look
 ~
 ~
 0 0 10
@@ -212,11 +207,6 @@ Using TRIGEDIT~
 talk:#adventure view:thegame:world 0013/main
 ~
 0 8 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0018/look
-~
-~
-0 0 18
 D1
 talk:#adventure view:thegame:world 0014/look
 ~
@@ -237,7 +227,7 @@ D1
 talk:#adventure view:thegame:world 0015/look
 ~
 ~
-0 0 15
+0 0 7
 D3
 talk:#adventure view:thegame:world 0013/look
 ~
@@ -245,15 +235,15 @@ talk:#adventure view:thegame:world 0013/look
 0 0 13
 S
 #15
-Lessons Learned and Advanced Building~
+Advanced Building~
 talk:#adventure view:thegame:world 0015/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0098/look
+talk:#adventure view:thegame:world 0016/look
 ~
 ~
-0 0 98
+0 0 16
 D3
 talk:#adventure view:thegame:world 0014/look
 ~
@@ -271,101 +261,106 @@ talk:#adventure view:thegame:world 0017/look
 ~
 0 0 17
 D2
-talk:#adventure view:thegame:world 0004/look
+talk:#adventure view:thegame:world 0015/look
 ~
 ~
-0 0 4
+0 0 15
 S
 #17
 Overview~
 talk:#adventure view:thegame:world 0017/main
 ~
 0 8 0 0 0 0
-D2
+D1
 talk:#adventure view:thegame:world 0016/look
 ~
 ~
 0 0 16
+D3
+talk:#adventure view:thegame:world 0018/look
+~
+~
+0 0 18
 S
 #18
 Quest Tutorial~
 talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0020/look
-~
-~
-0 0 20
 D1
+talk:#adventure view:thegame:world 0017/look
+~
+~
+0 0 17
+D2
 talk:#adventure view:thegame:world 0019/look
 ~
 ~
 0 0 19
-D2
-talk:#adventure view:thegame:world 0013/look
-~
-~
-0 0 13
 S
 #19
 A Quest Room~
 talk:#adventure view:thegame:world 0019/main
 ~
 0 8 0 0 0 0
-D3
-talk:#adventure view:thegame:world 0018/look
+D1
+talk:#adventure view:thegame:world 0020/look
 ~
 ~
-0 0 18
+0 0 20
 S
 #20
 Advanced Trigedit Example~
-talk:#adventure view:thegame:world 0018/look
+talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
-D0
+D1
+talk:#adventure view:thegame:world 0019/look
+~
+~
+0 0 19
+D3
 talk:#adventure view:thegame:world 0021/look
 ~
-gateway~
-2 46 21
-D2
-talk:#adventure view:thegame:world 0018/look
 ~
-~
-0 0 18
+0 0 21
 S
 #21
 Another Example With Quest Variables~
 talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0023/look
-~
-~
-0 0 23
 D1
 talk:#adventure view:thegame:world 0022/look
 ~
 ~
 0 0 22
-D2
+D1
 talk:#adventure view:thegame:world 0020/look
 ~
-gateway~
-1 -1 20
+~
+0 0 20
+D3
+talk:#adventure view:thegame:world 0022/look
+~
+~
+0 0 22
 S
 #22
 Quest Variables Example~
 talk:#adventure view:thegame:world 0022/main
 ~
 0 8 0 0 0 0
-D3
+D1
 talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
+D3
+talk:#adventure view:thegame:world 0023/look
+~
+~
+0 0 23
 S
 T 189
 #23
@@ -373,11 +368,16 @@ Trigger Help Files~
 talk:#adventure view:thegame:world 023/main
 ~
 0 8 0 0 0 0
-D2
-talk:#adventure view:thegame:world 0021/look
+D1
+talk:#adventure view:thegame:world 0088/look
 ~
 ~
-0 0 21
+0 0 88
+D3
+talk:#adventure view:thegame:world 0022/look
+~
+~
+0 0 22
 S
 #33
 Indra's Room~
@@ -409,6 +409,11 @@ Advertising Room~
 talk:#adventure view:thegame:world 0088/main
 ~
 0 8 0 0 0 0
+D1
+talk:#adventure view:thegame:world 0022/look
+~
+~
+0 0 22
 S
 #89
 The Workspace Corridor~
@@ -438,8 +443,8 @@ talk:#adventure view:thegame:world 0093/look
 D4
 talk:#adventure view:thegame:world 0130/look
 ~
-trapdoor~
-1 68 130
+~
+0 0 130
 S
 #90
 Epictetus' Workspace~
@@ -535,57 +540,47 @@ An open workspace available for use.
 ~
 0 8 0 0 0 0
 D2
+talk:#adventure view:thegame:world 0089/look
 ~
-lock~
-2 0 89
+~
+0 0 89
 S
 T 170
 T 171
 T 172
 #98
 The End of the Beginning~
-   For those of you who have read this far and actually made something out of
-it, Congratulations. You have the patience to become a builder and make
-CircleMUD zones. If you wimped out or skipped some areas then please MUDmail
-me why. @RAT POSTMASTER MAIL QUINN@n. Also, please MUDmail or email me any
-questions, comments, concerns, or suggestions about this zone.  What did I do
-wrong, forget, misspell, anything! If you have something to add feel free to
-MUDmail or email me. @RHELP EMAIL@n.
-
-This area is a culmination of help files I have come across and my own experiences in the CircleMUD community. I thank all those before who have helped in the creation of this masterpiece. Special Thanks to Welcor, Elaseth, Manivo, Snowlock, and Lance for their additions.
-
-Remember, MUDding is fun!
-
-Respectfully,
-
-QUINN
+talk:#adventure view:thegame:world 0098/main
 ~
 0 8 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0099/look
 ~
 ~
 0 0 99
 D3
+talk:#adventure view:thegame:world 0023/look
 ~
 ~
-0 0 15
+0 0 23
 S
 #99
 TBA Cafe 99~
-Welcome to TBA Cafe 99, the hangout of builders and developers. So pull up a pew and have a nice drink! If you want to have a social chat or lurk in order to help newer builders, this is the place to be!
+talk:#adventure view:thegame:world 0099/main
 ~
 0 24 0 0 0 0
 D2
+talk:#adventure view:thegame:world 0098/look
 ~
 ~
 0 0 98
 E
-floor~
-The stone floor is the same shade of gray as the sky and is completely plain and unscratched. It is probably too hard for anything to leave as much as a scratch on it.
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 E
-sky winds~
-Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
