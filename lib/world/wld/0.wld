@@ -426,15 +426,15 @@ talk:#adventure view:thegame:world 0089/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0088/look
-~
-~
-0 0 88
-D3
 talk:#adventure view:thegame:world 0098/look
 ~
 ~
 0 0 98
+D3
+talk:#adventure view:thegame:world 0088/look
+~
+~
+0 0 88
 S
 #90
 Epictetus' Workspace~
