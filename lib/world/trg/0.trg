@@ -475,11 +475,15 @@ Arjika Spy~
 0 b 20
 ~
 * By Quinn Michaels
-set txt[1] We are here to investigate the stolen #Arjika technology.
+set txt[1] Arkijiya Spies are here to locate stolen #Arjika technology.
 set txt[2] Do you know anything about who stole the #Arjika technology?
 set txt[3] Do you have any information about the stolen #Arjika technology?
 set txt[4] Do know anyone with information to stolen #Arjika technology?
+
+wait 2 sec
 say %%txt[%random.4%]%%
+%random.dir%
+
 ~
 #22
 IF Example~

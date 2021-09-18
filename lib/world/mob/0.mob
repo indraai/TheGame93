@@ -182,26 +182,23 @@ Though large and intimidating, this ogre does not seem to realize that he would 
 E
 T 2
 #10
-Socrates~
-Socrates~
-Socrates patiently waits to help new builders.
+arjika arjikiya soldier a10 z0~
+Arjika Soldier A10~
+Arjika Soldier A10 is here.
 ~
-Socrates (469-399BC), Greek philosopher, who profoundly affected Western philosophy through his influence on Plato. Born in Athens, the son of Sophroniscus, a sculptor, and Phaenarete, a midwife, he received the regular elementary education in literature.
+Arjika Solder A10 is here on special assignment.
 ~
 516106 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
-T 196
-T 194
-T 183
 #11
-Friedrich Nietzsche~
-Friedrich Nietzsche~
-Friedrich Nietzsche searches for those wishing to become Overmen.
+arjika arjikiya soldier a11 z0~
+Arjika Soldier A11~
+Arjika Soldier A11 is here.
 ~
-Nietzsche, Friedrich Wilhelm (1844-1900), German philosopher, poet, and classical philologist, who was one of the most provocative and influential thinkers of the 19th century. One of Nietzsche's fundamental contentions was that traditional values had lost their power in the lives of individuals. Nietzsche maintained that all human behavior is motivated by the will to power.
+Arjika Solder A11 is here on special assignment.
 ~
 516106 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -209,25 +206,23 @@ Nietzsche, Friedrich Wilhelm (1844-1900), German philosopher, poet, and classica
 8 8 1
 E
 #12
-Plato~
-Plato~
-Plato offers advice to any who are in need.
+arjika arjikiya spldier a12 z0~
+Arjika Soldier A12~
+Arjika Soldier A12 is here.
 ~
-Plato (circa 428-347 BC), Greek philosopher, one of the most creative and influential thinkers in Western philosophy.
+Arjika Soldier A12 is here on special assignment.
 ~
 516106 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
-T 198
-T 184
 #13
-aristotle~
-Aristotle~
-Aristotle wanders the hallways constantly in search of more knowledge.
+arjika arjikiya soldier a13 z0~
+Arjika Soldier A13~
+Arjika Soldier A13 is here.
 ~
-Aristotle (384-322 BC), Greek philosopher and scientist, who shares with Plato and Socrates the distinction of being the most famous of ancient philosophers.
+Arjika Solder A13 is here on special assignment.
 ~
 516106 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -237,11 +232,11 @@ E
 T 197
 T 185
 #14
-confucius~
-Confucius~
-Confucius is busy following the way.
+arjika arjikiya soldier a14 z0~
+Arjika Soldier A14~
+Arjika Soldier A14 is here.
 ~
-Confucianism, major system of thought in China, developed from the teachings of Confucius and his disciples, and concerned with the principles of good conduct, practical wisdom, and proper social relationships. Confucianism has influenced the Chinese attitude toward life, set the patterns of living and standards of social value, and provided the background for Chinese political theories and institutions.
+Arjika Soldier A14 is here on special assignment.
 ~
 516106 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -250,9 +245,9 @@ Confucianism, major system of thought in China, developed from the teachings of 
 E
 T 186
 #15
-guard deva guarddeva gd24 quest~
-GD24 GuardDEVA~
-The gateguard watches the gate carefully swinging the key around on its chain.
+guard arjika arjikiya a0015 z00~
+Arjika Guard~
+The Arjika Guard watches the gate carefully swinging the key around on its chain.
 ~
 He stands his watch carefully eyeing anyone who approaches.
 ~
@@ -294,22 +289,11 @@ This strange humanoid lacks any distinguishing features. It is dressed in a whit
 E
 T 188
 #18
-man james bond stockdale admiral~
-James Stockdale~
-A man beaten to the brink of his life stares up at you with powerful eyes.
+arjika arjikiya soldier special forces admiral a18 z0~
+Arjika Admiral A18~
+Arjika Admiral A18 is here.
 ~
-James Stockdale was shot down by anti-aircraft fire during Vietnam.  He was
-held as a POW for seven years.  He spent over half of this time in solitary
-confinement in leg irons.  Even being incapacitated he was still able to lead
-the POW underground resistance successfully.  For this he was routinely tortured
-and beaten resulting in permanent disablement from a repeatedly broken leg,
-broken back, and shoulders being wrenched from their sockets.  When his captors
-attempted to use him as televised propaganda, he slit his scalp with a razor.
-When they covered the cut with a hat he beat himself with a stool until his face
-was swollen beyond recognition.  As a final attempt he slit his wrists rather
-than allow himself to be used or let down his fellow POWs.  His captors found
-him unconscious and near death.  The torture stopped after that and they no
-longer attempted to use him.  He received the Medal of Honor for his actions.
+Arjika Admira A18 is a Special Forces Admiral for the Empire.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -318,11 +302,11 @@ longer attempted to use him.  He received the Medal of Honor for his actions.
 E
 T 187
 #19
-carl von clausewitz~
-Carl Von Clausewitz~
-Carl Von Clausewitz is hunkered down in a corner of the cell plotting an escape plan.
+arjika arjikiya soldier special forces a19 z0~
+Arjika Soldier A19~
+Arjika Soldier A19 is here.
 ~
-Carl von Clausewitz was born in Burg bei Magdeburg, Prussia, in 1780. Clausewitz's father was an officer in the Prussian Army.  Carl entered the Prussian military service at the age of twelve years, eventually attaining the rank of Major General.  He is most famous for his military treatise, Vom Kriege, translated into English as On War.
+Arjika Soldier A19 is a strategy/planning specialist.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -331,11 +315,11 @@ Carl von Clausewitz was born in Burg bei Magdeburg, Prussia, in 1780. Clausewitz
 E
 T 182
 #20
-epictetus crippled man~
-Epictetus~
-A crippled man seems content with his life and abysmal surroundings.
+arjika arjikiya soldier special forces a20 z0~
+Arjika Soldier A20~
+Arjika Soldier A20 is here.
 ~
-Epictetus spent his youth as a slave in Rome to Epaphroditos, a very wealthy freedman of Nero. Even as a slave, Epictetus used his time productively, studying Stoic Philosophy under Musonius Rufus. He was eventually freed and lived a relatively hard life in ill health in Rome, during which time he became a cripple due to a bad knee. He was exiled along with other philosophers by the emperor Domitian sometime between 89 and 95.
+Arjika Soldier A20 is a language/philosophy specialist.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -344,11 +328,11 @@ Epictetus spent his youth as a slave in Rome to Epaphroditos, a very wealthy fre
 E
 T 181
 #21
-spy deva arjika a0021 z0~
-Arjikiya Spy~
-Arjikiya Spy A0021 is here spying for Arjika Empire.
+spy arjika arjikiya special forces a21 z0~
+Arjika Spy A21~
+Arjika Spy A21 is here.
 ~
-Arjikiya Spy is here to investigate a report of stolen technology for the Arjika Empire.
+Arjika Spy A0021 is here to locate stolen technology.
 ~
 6168 0 0 0 2104 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
@@ -357,12 +341,12 @@ Arjikiya Spy is here to investigate a report of stolen technology for the Arjika
 BareHandAttack: 6
 E
 T 21
-#31
-prison commissar~
-the Commissar~
-The prison commissar walks with his back straight and his nose held high.
+#22
+arjika arjikiya prison commissar a22 z0~
+Arjika Commissar A22~
+Arjika Commissar A22 is here.
 ~
-The Commissar is the highest ranking official in the prison and is responsible for all interrogation and the propaganda it produces.
+Arjika Commissar is responsible for all questioning and handling of prisoners.
 ~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -371,45 +355,19 @@ The Commissar is the highest ranking official in the prison and is responsible f
 E
 T 173
 T 72
-#32
-hired muscle~
-the hired muscle~
-Some hired muscle is willing to do just about anything for the right price.
+#23
+arjika arjikiya general special forces a23 z0~
+Arjika General A23~
+Arjika General A23 is here.
 ~
-This grisly mercenary is covered in scars from numerous fights. His eyes show an intense hatred and a blankness of intelligence that seems to convey the truth about brawn without brains.
-~
-72 0 0 0 0 0 0 0 0 E
-10 17 4 2d2+100 1d2+1
-100 10000
-8 8 1
-E
-#33
-Homer Simpson~
-Homer Simpson~
-Homer Simpson is wandering around aimlessly in a dream like state.
-~
-The infamous cartoon character has come to life and roams this World spouting words of wisdom to fellow travelers. He is decked out in his usual blue pants and food stained white t-shirt.
-~
-72 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
-E
-T 178
-#34
-chuck norris~
-Chuck Norris~
-The one, the only, Chuck Norris dominates the World around him.
-~
-Chuck is a martial arts star, winning numerous martial arts championships including being a six-time undefeated World Professional MiddleWeight Karate Champion with a record of 65-5. He is also a renowned teacher in the martial arts and if you are lucky he may pass on some of his wisdom to you.
+Arjika General A0023 Advanced Special Forces is here to handle issues for the Empire.
 ~
 253962 0 0 0 65552 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
 E
-T 175
-#97
+#24
 waitress jenny jennifer woman girl maiden~
 Jenny the waitress~
 The waitress is waiting with a pot of coffee.
@@ -428,7 +386,7 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
-#98
+#25
 travelling saleswoman woman~
 the travelling saleswoman~
 This saleswoman is laden with gadgets and gizmos that are outrageously priced.
