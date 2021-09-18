@@ -183,7 +183,7 @@ E
 T 2
 #10
 arjika arjikiya soldier a10 z0~
-Arjika Soldier A10~
+Arjika Soldier~
 Arjika Soldier A10 is here.
 ~
 Arjika Solder A10 is here on special assignment.
@@ -195,7 +195,7 @@ Arjika Solder A10 is here on special assignment.
 E
 #11
 arjika arjikiya soldier a11 z0~
-Arjika Soldier A11~
+Arjika Soldier~
 Arjika Soldier A11 is here.
 ~
 Arjika Solder A11 is here on special assignment.
@@ -207,7 +207,7 @@ Arjika Solder A11 is here on special assignment.
 E
 #12
 arjika arjikiya spldier a12 z0~
-Arjika Soldier A12~
+Arjika Soldier~
 Arjika Soldier A12 is here.
 ~
 Arjika Soldier A12 is here on special assignment.
@@ -219,7 +219,7 @@ Arjika Soldier A12 is here on special assignment.
 E
 #13
 arjika arjikiya soldier a13 z0~
-Arjika Soldier A13~
+Arjika Soldier~
 Arjika Soldier A13 is here.
 ~
 Arjika Solder A13 is here on special assignment.
@@ -233,7 +233,7 @@ T 197
 T 185
 #14
 arjika arjikiya soldier a14 z0~
-Arjika Soldier A14~
+Arjika Soldier~
 Arjika Soldier A14 is here.
 ~
 Arjika Soldier A14 is here on special assignment.
@@ -290,7 +290,7 @@ E
 T 188
 #18
 arjika arjikiya soldier special forces admiral a18 z0~
-Arjika Admiral A18~
+Arjika Admiral~
 Arjika Admiral A18 is here.
 ~
 Arjika Admira A18 is a Special Forces Admiral for the Empire.
@@ -302,11 +302,11 @@ Arjika Admira A18 is a Special Forces Admiral for the Empire.
 E
 T 187
 #19
-arjika arjikiya soldier special forces a19 z0~
-Arjika Soldier A19~
-Arjika Soldier A19 is here.
+arjika arjikiya captain special forces a19 z0~
+Arjika Captain~
+Arjika Captain A19 is here.
 ~
-Arjika Soldier A19 is a strategy/planning specialist.
+Arjika Captain A19 is a strategy/planning specialist.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -315,11 +315,11 @@ Arjika Soldier A19 is a strategy/planning specialist.
 E
 T 182
 #20
-arjika arjikiya soldier special forces a20 z0~
-Arjika Soldier A20~
-Arjika Soldier A20 is here.
+arjika arjikiya sergeant special forces a20 z0~
+Arjika Sergeant~
+Arjika Sergeant A20 is here.
 ~
-Arjika Soldier A20 is a language/philosophy specialist.
+Arjika Sergeant A20 is a language/philosophy specialist.
 ~
 262154 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -329,10 +329,10 @@ E
 T 181
 #21
 spy arjika arjikiya special forces a21 z0~
-Arjika Spy A21~
+Arjika Spy~
 Arjika Spy A21 is here.
 ~
-Arjika Spy A0021 is here to locate stolen technology.
+Arjika Spy A21 is here to locate stolen technology.
 ~
 6168 0 0 0 2104 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
@@ -343,7 +343,7 @@ E
 T 21
 #22
 arjika arjikiya prison commissar a22 z0~
-Arjika Commissar A22~
+Arjika Commissar~
 Arjika Commissar A22 is here.
 ~
 Arjika Commissar is responsible for all questioning and handling of prisoners.
@@ -357,7 +357,7 @@ T 173
 T 72
 #23
 arjika arjikiya general special forces a23 z0~
-Arjika General A23~
+Arjika General~
 Arjika General A23 is here.
 ~
 Arjika General A0023 Advanced Special Forces is here to handle issues for the Empire.
