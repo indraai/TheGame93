@@ -10,7 +10,7 @@ Arjika Security~
 ~
 set dir %random.dir%
 set room %self.room%
-set vnum %room.vnum%
+set people %room.people%
 
 set msg[1] Security checkpoint
 set msg[2] Security checking
@@ -21,6 +21,7 @@ set msg[6] Security observe
 set msg[8] Security activity
 
 %echo% security:D%self.vnum%:R%room.vnum%:%dir%
+wait 1 s
 eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
 if %people%
   say %themsg%
