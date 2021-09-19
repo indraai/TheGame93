@@ -26,7 +26,7 @@ set msg[11] Sindhu Soldiers are here on Earth looking for a missing citizen.
 
 %echo% security:D%self.vnum%:R%room.vnum%:%dir%
 wait %random.5% s
-eval themsg %%msg[%random.7%]%% %room.name% #R%room.vnum% then #exit #%dir%
+eval themsg %%msg[%random.7%]%% %room.name% #R%room.vnum% then #exit #%dir% #Arjika #Sindhu
 if %people%
   say %themsg%
   wait %random.60% s
