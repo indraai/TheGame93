@@ -18,8 +18,7 @@ set txt[3] Do you have information relating to #Arjika #Susoma #Saryakiavan tech
 set txt[4] Do you know anyone with information relating to #Arjika #Susoma #Saryakiavan technology?
 set txt[5] Arjika Security is looking for individuals with information relating to #Arjika #Susoma #Saryakiavan technology.
 set txt[6] Arjika Security is here looking for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
-set txt[7] Agents from Arjika Security is investigating for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
-
+set txt[7] Arjika Security is investigating for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
 eval themsg %%txt[%random.7%]%%
 
 if %people%
