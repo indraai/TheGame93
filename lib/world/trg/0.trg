@@ -8,7 +8,6 @@ Non-attachable trigger~
 Arjika Security~
 0 b 50
 ~
-* By Quinn Michaels
 set dir %random.dir%
 set room %self.room%
 set people %room.people%
@@ -26,9 +25,11 @@ eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
 if %people%
   say I am here where are you?
   wait 10 sec
+  %dir%
+else
+  wait 1 sec
+  %dir%
 end
-wait 1 sec
-%dir%
 %echo% security:D%self.vnum%:R%room.vnum%:%dir%
 
 ~
