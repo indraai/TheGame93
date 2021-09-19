@@ -125,10 +125,11 @@ Harry is here.
 ~
 Harry is said to be a rather flamboyant character, probably accounting for his strain of notability.
 ~
-72 0 0 0 0 0 0 0 0 E
-3 19 8 0d0+30 1d2+0
-30 900
+6300 0 0 0 26744 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
 8 8 1
+BareHandAttack: 1
 E
 #6
 larry agents~
@@ -137,10 +138,11 @@ Larry seems to have lost something.
 ~
 Larry maintained working and has survived the changes that have occurred in the modern-day being preserved by working enthusiasts for more than 100 years.
 ~
-10 0 0 0 0 0 0 0 0 E
+6300 0 0 0 26744 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1
+BareHandAttack: 1
 E
 #7
 barry agents~
@@ -149,10 +151,11 @@ Barry is wandering around.
 ~
 Barry is a type, or strain, in the sense that he has a broad genetic make-up, a broad standard.  You will see different "types" of Barry, from long-bodied, short, crooked legs to a more proportioned length of body and longer legs.  This is a result of having been hunted since his beginning.
 ~
-10 0 0 0 0 0 0 0 0 E
+6300 0 0 0 24696 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
+BareHandAttack: 1
 E
 #8
 tutorial questmaster~
@@ -161,10 +164,11 @@ A questmaster is waiting for a brave adventurer to step forth.
 ~
 Many adventurers come here to seek glory by attempting to solve the quests given to them by this old woman. The quests are not easy, sometimes nearly impossible. But they will always be a challenge. The questmaster looks at you and says, 'Are you up for a challenge? '
 ~
-253962 0 0 0 0 0 0 0 0 E
+6302 0 0 0 26744 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 2
+BareHandAttack: 1
 E
 #9
 ogre questogre~
@@ -185,7 +189,7 @@ Arjika Soldier A10 is here.
 ~
 Arjika Solder A10 is here on special assignment.
 ~
-516106 0 0 0 80 0 0 0 0 E
+522520 0 0 0 26680 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -197,7 +201,7 @@ Arjika Soldier A11 is here.
 ~
 Arjika Solder A11 is here on special assignment.
 ~
-516106 0 0 0 80 0 0 0 0 E
+522520 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -209,7 +213,7 @@ Arjika Soldier A12 is here.
 ~
 Arjika Soldier A12 is here on special assignment.
 ~
-516106 0 0 0 80 0 0 0 0 E
+522520 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -221,7 +225,7 @@ Arjika Soldier A13 is here.
 ~
 Arjika Solder A13 is here on special assignment.
 ~
-516106 0 0 0 80 0 0 0 0 E
+522520 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -233,7 +237,7 @@ Arjika Soldier A14 is here.
 ~
 Arjika Soldier A14 is here on special assignment.
 ~
-516106 0 0 0 80 0 0 0 0 E
+522520 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -282,7 +286,7 @@ Arjika Admiral A18 is here.
 ~
 Arjika Admira A18 is a Special Forces Admiral for the Empire.
 ~
-262154 0 0 0 0 0 0 0 0 E
+522522 0 0 0 92280 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -294,7 +298,7 @@ Arjika Captain A19 is here.
 ~
 Arjika Captain A19 is a strategy/planning specialist.
 ~
-262154 0 0 0 0 0 0 0 0 E
+522520 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -306,7 +310,7 @@ Arjika Sergeant A20 is here.
 ~
 Arjika Sergeant A20 is a language/philosophy specialist.
 ~
-262154 0 0 0 0 0 0 0 0 E
+522520 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -318,11 +322,10 @@ Arjika Spy A21 is here.
 ~
 Arjika Spy A21 is here to locate stolen technology.
 ~
-6168 0 0 0 2104 0 0 0 0 E
+518300 0 0 0 551032 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1
-BareHandAttack: 6
 E
 T 21
 #22
@@ -332,7 +335,7 @@ Arjika Commissar A22 is here.
 ~
 Arjika Commissar is responsible for all questioning and handling of prisoners.
 ~
-10 0 0 0 0 0 0 0 0 E
+2074 0 0 0 120 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1
@@ -344,7 +347,7 @@ Arjika General A23 is here.
 ~
 Arjika General A0023 Advanced Special Forces is here to handle issues for the Empire.
 ~
-253962 0 0 0 65552 0 0 0 0 E
+260122 0 0 0 92280 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -377,10 +380,11 @@ This saleswoman is laden with gadgets and gizmos that are outrageously priced.
 has made her a success at pushing useless products on uneducated buyers.  Only
 on a rare occasion does she sell anything useful.
 ~
-253962 0 0 0 2128 0 0 0 0 E
+256024 0 0 0 2128 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 2
+BareHandAttack: 2
 E
 #26
 kind soul~

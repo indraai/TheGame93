@@ -22,7 +22,7 @@ D4
 talk:#adventure view:thegame:world 0000/look
 ~
 ~
-0 0 0
+0 0 -1
 D5
 talk:#adventure view:thegame:world 0002/look
 ~
@@ -43,11 +43,6 @@ D3
 ~
 ~
 1 0 200
-D4
-talk:#adventure view:thegame:world 0001/look
-~
-~
-0 0 1
 S
 T 199
 #3
@@ -294,11 +289,16 @@ Quest Tutorial~
 talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
-D1
+D0
 talk:#adventure view:thegame:world 0019/look
 ~
 ~
 0 0 19
+D1
+talk:#adventure view:thegame:world 0020/look
+~
+~
+0 0 20
 D3
 talk:#adventure view:thegame:world 0017/look
 ~
@@ -310,12 +310,7 @@ A Quest Room~
 talk:#adventure view:thegame:world 0019/main
 ~
 0 8 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0020/look
-~
-~
-0 0 20
-D3
+D2
 talk:#adventure view:thegame:world 0018/look
 ~
 ~
@@ -332,10 +327,10 @@ talk:#adventure view:thegame:world 0021/look
 ~
 0 0 21
 D3
-talk:#adventure view:thegame:world 0019/look
+talk:#adventure view:thegame:world 0018/look
 ~
 ~
-0 0 19
+0 0 18
 S
 #21
 Another Example With Quest Variables~
@@ -577,12 +572,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
