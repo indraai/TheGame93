@@ -65,7 +65,6 @@ D2
 ~
 0 0 2
 S
-T 56
 #4
 The Beginning~
 talk:#adventure view:thegame:world 0004/main
@@ -578,12 +577,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
