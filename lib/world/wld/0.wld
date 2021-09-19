@@ -257,7 +257,7 @@ Commands~
 talk:#adventure view:thegame:world 0016/main
 ~
 0 8 0 0 0 0
-D1
+D2
 talk:#adventure view:thegame:world 0017/look
 ~
 ~
@@ -273,16 +273,16 @@ Overview~
 talk:#adventure view:thegame:world 0017/main
 ~
 0 8 0 0 0 0
+D0
+talk:#adventure view:thegame:world 0016/look
+~
+~
+0 0 16
 D1
 talk:#adventure view:thegame:world 0018/look
 ~
 ~
 0 0 18
-D3
-talk:#adventure view:thegame:world 0016/look
-~
-~
-0 0 16
 S
 #18
 Quest Tutorial~
@@ -411,7 +411,7 @@ Advertising Room~
 talk:#adventure view:thegame:world 0088/main
 ~
 0 8 0 0 0 0
-D1
+D2
 talk:#adventure view:thegame:world 0089/look
 ~
 ~
@@ -427,16 +427,16 @@ The Workspace Corridor~
 talk:#adventure view:thegame:world 0089/main
 ~
 0 8 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0098/look
-~
-~
-0 0 98
-D3
+D0
 talk:#adventure view:thegame:world 0088/look
 ~
 ~
 0 0 88
+D2
+talk:#adventure view:thegame:world 0098/look
+~
+~
+0 0 98
 S
 #90
 Epictetus' Workspace~
@@ -546,20 +546,20 @@ talk:#adventure view:thegame:world 0098/main
 ~
 0 8 0 0 0 0
 D0
+talk:#adventure view:thegame:world 0089/look
+~
+~
+0 0 89
+D1
 talk:#adventure view:thegame:world 0099/look
 ~
 ~
 0 0 99
 D3
-talk:#adventure view:thegame:world 0089/look
+talk:#adventure view:thegame:world 0002/look
 ~
 ~
-0 0 89
-D4
-talk:#adventure view:thegame:world 0130/look
-~
-~
-0 0 130
+0 0 2
 S
 #99
 Arjika Portal~
@@ -572,12 +572,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
