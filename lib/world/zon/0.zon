@@ -29,8 +29,8 @@ R 0 22 47 -1 	(the magic eight ball)
 O 0 47 99 22 	(the magic eight ball)
 
 M 0 18 1 99 	(Admiral)
-M 0 19 1 99 	(Soldier)
-M 0 20 1 99 	(Soldier)
+M 0 19 1 99 	(Captain)
+M 0 20 1 99 	(Sergeant)
 
 M 0 21 3 99 	(Spy)
 E 1 221 1 12 	(a gray cloak)
