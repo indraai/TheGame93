@@ -22,6 +22,7 @@ set txt[7] Arjika Security is investigating for lost, stolen, and/or misplaced #
 eval themsg %%txt[%random.7%]%%
 
 if %people%
+  wait 1sec
   say %themsg%
   wait 30 s
   %random.dir%
