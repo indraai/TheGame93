@@ -12,23 +12,31 @@ set dir %random.dir%
 set room %self.room%
 set people %room.people%
 
-set msg[1] Security checkpoint
-set msg[2] Security checking
-set msg[3] Security patrol
-set msg[4] Security safety check
-set msg[5] Security inspect
-set msg[6] Security observe
-set msg[8] Security activity
+set msg[1] Please report any information you have regarding knowledge of Arjika technology to security.
+set msg[2] Do you or someone you know have information regarding Arjika technology. Please see security.
+set msg[3] A team from Arjika is here looking for information relating to a Arjikiya Citizen.
+set msg[4] Do you have any information relating to an Arjika Citizen is being held on Earth?
+set msg[5] We received a distress signal that an Arjika Citizen is being held here on Earth.
+set msg[6] If you or someone you know has information lost or stolen Arjika Technology please report it to security.
+set msg[7] Teams are here on Earth from Arjika looking for technology and a citizen being held captive.
+set msg[8] Please if you have any information relating to Arjika technology reort it to security.
+set msg[9] We are on Earth looking for information relating to a Arjika citizen.
+set msg[10] Sindhu Soldiers are here on Earth looking for missing Technology.
+set msg[11] Sindhu Soldiers are here on Earth looking for a missing citizen.
 
 %echo% security:D%self.vnum%:R%room.vnum%:%dir%
-wait 1 s
-eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
+wait %random.5% s
+eval themsg %%msg[%random.7%]%% %room.name% #R%room.vnum% then #exit #%dir%
 if %people%
   say %themsg%
-  wait 30 sec
+  wait 1 s
+  echo #twitter tweet %themsg%
+  wait 1 s
+  echo #twitch chat
+  wait %random.60% s
   %dir%
 else
-  wait 1 sec
+  wait %random.10% s
   %dir%
 end
 ~
