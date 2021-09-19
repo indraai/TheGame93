@@ -214,9 +214,9 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nselect[6:commands]: set...\r"
   "\n----\n"
   "%s"
-  "\n-\n"
-  "\nmenu:w:copy trigger\r"
-  "\nmenu:q:quit\r",
+  "\n----\n"
+  "\nmenu[copy trigger]:w\r"
+  "\nmenu[quit]:q\r",
   OLC_NUM(d), 			              /* vnum on the title line */
   GET_TRIG_NAME(trig),		        /* name                   */
   attach_type,			              /* attach type            */
