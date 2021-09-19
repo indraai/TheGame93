@@ -9,26 +9,27 @@ Arjika Security~
 0 b 50
 ~
 * By Quinn Michaels
+set dir %random.dir%
 set room %self.room%
 set people %room.people%
+%echo% security:D%self.vnum%:R%room.vnum%:%dir%
 
-set txt[1] Arjika Security is here to locate #Arjika #Susoma #Saryakiavan technology.
-set txt[2] Have you seen any #Arjika #Susoma #Saryakiavan technology?
-set txt[3] Do you have information relating to #Arjika #Susoma #Saryakiavan technology?
-set txt[4] Do you know anyone with information relating to #Arjika #Susoma #Saryakiavan technology?
-set txt[5] Arjika Security is looking for individuals with information relating to #Arjika #Susoma #Saryakiavan technology.
-set txt[6] Arjika Security is here looking for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
-set txt[7] Arjika Security is investigating for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
-eval themsg %%txt[%random.7%]%%
+set msg[1] Security checkpoint
+set msg[2] Security checking
+set msg[3] Security patrol
+set msg[4] Security safety check
+set msg[5] Security inspect
+set msg[6] Security observe
+set msg[8] Security activity
 
 if %people%
-  wait 1sec
+  eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
   say %themsg%
-  wait 30 s
-  %random.dir%
+  wait 30 sec
+  %dir%
 else
-  wait 5 s
-  %random.dir%
+  wait 1 sec
+  %dir%
 end
 ~
 #17
