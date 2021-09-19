@@ -29,10 +29,6 @@ wait %random.5% s
 eval themsg %%msg[%random.7%]%% %room.name% #R%room.vnum% then #exit #%dir%
 if %people%
   say %themsg%
-  wait 1 s
-  %echo% #twitter tweet %themsg%
-  wait 1 s
-  %echo% #twitch chat
   wait %random.60% s
   %dir%
 else
