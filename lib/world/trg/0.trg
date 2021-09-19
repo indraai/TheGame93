@@ -6,7 +6,7 @@ Non-attachable trigger~
 ~
 #1
 Arjika Security~
-0 b 20
+0 b 50
 ~
 * By Quinn Michaels
 set room %self.room%
@@ -20,15 +20,16 @@ set txt[5] Arjika Security is looking for individuals with information relating 
 set txt[6] Arjika Security is here looking for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
 set txt[7] Agents from Arjika Security is investigating for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
 
+eval themsg %%txt[%random.7%]%%
+
 if %people%
-  say %%txt[%random.7%]%%
-  wait 60 s
+  say %themsg%
+  wait 30 s
   %random.dir%
 else
-  wait 10 s
+  wait 5 s
   %random.dir%
 end
-
 ~
 #17
 TBA Magic Eight Ball Check - 26~
