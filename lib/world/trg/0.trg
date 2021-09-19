@@ -12,7 +12,6 @@ Arjika Security~
 set dir %random.dir%
 set room %self.room%
 set people %room.people%
-%echo% security:D%self.vnum%:R%room.vnum%:%dir%
 
 set msg[1] Security checkpoint
 set msg[2] Security checking
@@ -22,15 +21,16 @@ set msg[5] Security inspect
 set msg[6] Security observe
 set msg[8] Security activity
 
+eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
+
 if %people%
-  eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
-  say %themsg%
-  wait 30 sec
-  %dir%
-else
-  wait 1 sec
-  %dir%
+  say I am here where are you?
+  wait 10 sec
 end
+wait 1 sec
+%dir%
+%echo% security:D%self.vnum%:R%room.vnum%:%dir%
+
 ~
 #17
 TBA Magic Eight Ball Check - 26~
