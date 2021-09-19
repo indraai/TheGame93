@@ -4,6 +4,29 @@ Non-attachable trigger~
 ~
 * You can't attach trigger 0!
 ~
+#1
+Arjika Security~
+0 b 20
+~
+* By Quinn Michaels
+set txt[1] Arjika Security is here to locate #Arjika #Susoma #Saryakiavan technology.
+set txt[2] Have you seen any #Arjika #Susoma #Saryakiavan technology?
+set txt[3] Do you have information relating to #Arjika #Susoma #Saryakiavan technology?
+set txt[4] Do you know anyone with information relating to #Arjika #Susoma #Saryakiavan technology?
+set txt[5] Arjika Security is looking for individuals with information relating to #Arjika #Susoma #Saryakiavan technology.
+set txt[6] Arjika Security is here looking for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
+set txt[7] Agents from Arjika Security is investigating for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
+
+if %room.people%
+  say %%txt[%random.4%]%%
+  wait 60 s
+  %random.dir%
+else
+  wait 10 s
+  %random.dir%
+end
+
+~
 #17
 TBA Magic Eight Ball Check - 26~
 0 q 100
@@ -15,20 +38,6 @@ if !%actor.has_item(47)%
   %load% obj 47 %actor%
   %send% %actor% %self.name% gives you the magic eight ball.
 end
-~
-#21
-Arjika Spy~
-0 b 20
-~
-* By Quinn Michaels
-set txt[1] Arkijiya Spies are here to locate stolen #Arjika technology.
-set txt[2] Do you know anything about who stole the #Arjika technology?
-set txt[3] Do you have any information about the stolen #Arjika technology?
-set txt[4] Do know anyone with information to stolen #Arjika technology?
-
-wait 2 sec
-say %%txt[%random.4%]%%
-%random.dir%
 ~
 #97
 Kind Soul 13 - Give Newbie Equipment~
