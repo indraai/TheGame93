@@ -9,6 +9,9 @@ Arjika Security~
 0 b 20
 ~
 * By Quinn Michaels
+set room %self.room%
+set people %room.people%
+
 set txt[1] Arjika Security is here to locate #Arjika #Susoma #Saryakiavan technology.
 set txt[2] Have you seen any #Arjika #Susoma #Saryakiavan technology?
 set txt[3] Do you have information relating to #Arjika #Susoma #Saryakiavan technology?
@@ -17,8 +20,8 @@ set txt[5] Arjika Security is looking for individuals with information relating 
 set txt[6] Arjika Security is here looking for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
 set txt[7] Agents from Arjika Security is investigating for lost, stolen, and/or misplaced #Arjika #Susoma #Saryakiavan technology.
 
-if %room.people%
-  say %%txt[%random.4%]%%
+if %people%
+  say %%txt[%random.7%]%%
   wait 60 s
   %random.dir%
 else
