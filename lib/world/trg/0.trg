@@ -21,12 +21,15 @@ set msg[6] Security observe
 set msg[8] Security activity
 
 %echo% security:D%self.vnum%:R%room.vnum%:%dir%
-eval themsg %room.name% #R%room.vnum% then #exit #%dir%
-
-say %themsg%
-wait 10 sec
-%dir%
-
+eval themsg %%msg[%random.8%]%% %room.name% #R%room.vnum% then #exit #%dir%
+if %people%
+  say %themsg%
+  wait 30 sec
+  %dir%
+else
+  wait 1 sec
+  %dir%
+end
 ~
 #17
 TBA Magic Eight Ball Check - 26~
