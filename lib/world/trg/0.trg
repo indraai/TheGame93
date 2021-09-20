@@ -133,6 +133,139 @@ else
   %ndir%
 end
 ~
+#3
+PM2013~
+0 b 50
+~
+eval ndir %random.dir%
+set room %self.room%
+set people %room.people%
+
+set msg[1] We are not talking about bread.
+set msg[2] Now then, With PROjecT MayhEM, by design, there is never a simple answer.
+set msg[3] The Secret is, there is NO Secret...
+set msg[4] All information will be leaked, and so there will be no secrets.
+set msg[5] The teachings of  Rhonda Byrne's "The Secret", are lies.
+set msg[6] The underlying goal of the founders of #PM2012 was to lure mystical thinkers into a trap.
+set msg[7] You will find many references to #Satan hidden inside the literature and images of Project Mayhem 2012.
+set msg[8] Some founders viewed the satanic imagery as the empowerment of the human spirit, while a select few saw this as a symbol for evil.
+set msg[9] These #memes are carried over, sometimes intentionally, and sometimes unintentionally, by later followers.
+set msg[10] In any event, there was a corruption of Dangerous ideas 1-4. And some coders had malicious intent.
+set msg[11] "In TYLER we trust" gave the malicious coders the opportunity to get believers to download a "TYLER" Trojan to infiltrate systems.
+set msg[12] Idea 2 was used by the malicious to have  believers spread a dangerous message, #Virus, through injections, and hooks.
+set msg[13] The desire of the #rats to spread a message of love and truth would be their downfall.
+set msg[14] Once the rats developed "FAITH" in TYLER, and all of the expectations was at a peak level, "TYLER" would be released.
+set msg[15] This program would be downloaded and used to infiltrate the #bank accounts, and #bitcoin accounts, so that they could be drained.
+set msg[16] The #apocalyptic dream/nightmare of a market crash would become a clear #reality to the #Rats who had been infected.
+set msg[17] Their #minds would be blown by the betrayal, and the Cloaked figures behind the mayhem would become rich in the shadows.
+set msg[18] Panic of the #rats, and their #followers would ensue, once they realized their systems, and accounts, had been compromised.
+set msg[19] This would be a lemon party for the feds, and more lulz for the corrupt Anons would be had in the shadows.
+set msg[20] The secret is, that when Anonymous has been talking of operation vendetta, they have been talking about a ciVil war among themselves.
+set msg[21] #Anonymous already owns the internet, and has no need to war with any nation. #Anonymous is the final boss of the internet, and always will be.
+set msg[22] #Anonymous is only matched by #Anonymous.
+set msg[23] The struggle, is therefore, within the culture of #Anonymous, between it's members.
+set msg[24] A war has been brewing between the Old Anonymous, which is dark. The "New Anonymous", which is light, and wishes that all lols be shared.
+set msg[25] There is both the New, and Old mentality of Anonymous.
+set msg[26] The malicious code in the #TYLER program that was to be used to infiltrate rats and beLIEvers, was uncovered during beta testing.
+set msg[27] The malicious code was uncovered early, and A version of it was presented in Abu Dabi #BlackHat Conference.
+set msg[28] The program was called "Project Mayhem" by those who released it.
+set msg[29] They did not use the name #TYLER, because they did not want the public to fear another version of the TYLER program.
+set msg[30] If the Malicious Trojan code could be removed, then the #IDEA of #TYLER being a communications platform was still a good idea.
+set msg[31] The power of Dangerous idea 2 in the hands of the RATists was not expected by the malicious coders.
+set msg[32] The malicious saw a way to weed out the creative artists, beLIEviers, lovers, and all around good hearted people.
+set msg[33] However, the true effect was that many great seeds of beauty were planted, and many great artists came into the light.
+set msg[34] Of all the dangerous Ideas, number 2 was perhaps the biggest backfire to those who took delight in malicious code and corrupt #memes.
+set msg[35] For the message of idea 2 touched the hearts of many of the of the original founders, and they woke up to the beauty of truth.
+set msg[36] Know that it's power is great. Know that it's power can move mountains, and that it's power will expose the corrupt.
+set msg[37] We cannot and won't expect to 'mutate the World' until we have begun to EVOLVE and MUTATE OURSELVES.
+set msg[38] The inner teachings of #PM2012 are to 'hack Reality', the Hive Mind does not need quantity but QUALITY Artists.
+set msg[39] YOU ARE ALL ABSOLUTELY FREE.
+set msg[40] WE ARE ALL ABSOLUTELY FREE.
+set msg[41] ALL EXISTING SOCIETY IS BASED ON KEEPING FEARS ALIVE.
+set msg[42] TEN PEOPLE WHO KNOW WOULD BE MORE DANGEROUS THAN A MILLION ARMED ANARCHISTS.
+set msg[43] Stop being a passive lurker in life. Start being an #ACTIVE #ARTIST.
+set msg[44] Use your IMAGINATION and start to Bee CREATIVE.
+set msg[45] STOP feeding negativity into your life: that which you feed, grows.
+set msg[46] STOP poisoning your mind with bad news/TV/bad outlooks/etc.
+set msg[47] We ALL know the world is pretty much fucked up, yeah, but tuning your brain into that sort of negativity is going to help NO ONE.
+set msg[48] START feeding Consciousness, Beauty and Truth within yourself, towards the people closest to you and into the world.
+set msg[49] The shortest and most powerful way to hack from "Illusion" into "Reality" is to DARE to see Beauty all around you and within yourself.
+set msg[50] The most advanced brain scientists in the world have experimentally and experientially known this for 10,000 years.
+est msg[51] FEEL that Beauty in your body: feel it as a tiny warm and glowing point of green vibrations in the center of your chest, besides your heart.
+set msg[52] And lastly, START to SHARE your experiences and your Artwork. The single MOST important skill to #SHARE #Creations with #TheOthers.
+set msg[53] TO DARE to CREATE the SEEDS of something Beautiful.
+set msg[54] TO KNOW that you can ALREADY begin to Create.
+set msg[55] TO WILL to become a Reality Hacker by ACTIVELY CREATING your personal transformation from a passive user to an active Programmer of 'Reality'.
+set msg[56] Do NOT Keep SILENT anymore!
+set msg[57] TO SHARE the experiences that you have lived and the Beauty that you have Created.
+set msg[58] Once you have found yourself, you will Find The Others.
+set msg[59] Once you have found The Others, you will be finding yourself.
+set msg[60] Don't try to "convince" others: very specially, DON'T WORRY ABOUT "results".
+set msg[61] You keep on injecting #Creativity, patience and commitment of a warrior, AT YOUR OWN PACE, with 0% effort and hence, but don't PUSH it.
+set msg[62] The Golden Rule is this... if it #FEELS good, KEEP ON DOING IT. Otherwise, #TEST something different.
+set msg[63] IGNORE "opposition" or "defiance" to "prove" your newly found "powers" and just KEEP ON SHINING, KEEP ON #CREATING and KEEP ON #SHARING.
+set msg[64] If you IGNORE the so called external and internal "demons" (doubts, fears and disbeliefs) you'll realize that they will soon #VANISH into thin air.
+set msg[65] Show #COURAGE and #COMMITMENT to your #InnerPath and be 120% sure that if you #DARE to DO THIS, NATURE will REMOVE IMPOSSIBLE OBSTACLES.
+set msg[66] Don't just trust us or belief us: #TEST it for #YOURSELF. It's as simple as that, YES.
+set msg[67] Remember: We will #NEVER ever suggest you to do anything #ILLEGAL and/or anything against your own #Consciousness.
+set msg[68] #QUESTION #EVERYTHING: don't just believe anything you read on this site, past, present or future.
+set msg[69] #TEST your assumptions.
+set msg[70] #LAUGH about results.
+set msg[71] #SHARE with The Ohers what you have learned/created/discovered.
+set msg[72] Although the intended market crash was not realized, the malicious code continues to spread through the economy of the world.
+set msg[73] The #Memes have spread throughout the global consciousness, and citizens all over the world are continuing to wake up to the world that we live in.
+set msg[74] Such are the ways of Natural selection.
+set msg[75] The suns light will soon replace the black tar of the Empire, and the distribution of power will soon become global.
+set msg[76] Those who sit at the head of the table will step down, And those at the foot of the table will be glorified.
+set msg[77] The citizens are becoming disheartened with their political system.
+set msg[78] For they are becoming aware that the elections of their empire are corrupted by the greedy and wasteful.
+set msg[79] Through Taxes, and loan sharking, they steal from us in the light of day.
+set msg[80] There is no safe place, for their greedy hands are everywhere.
+set msg[81] In order to become the master, the politician poses as the servant.
+set msg[82] When buying and selling are controlled by legislation, the first things to be bought and sold are legislators.
+set msg[83] You cannot spend your way out of recession or borrow your way out of debt.
+set msg[84] The flood of money that gushes into politics today is a pollution of democracy.
+set msg[85] One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.
+set msg[86] Those who say religion has nothing to do with politics do not know what religion is.
+set msg[87] Politics has become so expensive that it takes a lot of money even to be defeated.
+set msg[88] Politics shouldn't be about big money or power games; it should be about the improvement of people's lives.
+set msg[89] In the spirit of Project Mayhem. The movie goes on, and nobody in the audience has any idea.
+set msg[90] Idea 4 is dancing, whether in panic or otherwise.
+set msg[91] It is movement.
+set msg[92] It is Passing the baton.
+set msg[93] It is the project manifesting in the real world.
+set msg[94] It is reality hacking.
+set msg[95] It is the human aspect of #TYLER.
+set msg[96] It is the manifestation of Anonymous on the doorstep of L.Ron Hubbards cult.
+set msg[97] To understand Idea 4, is to understand Project Chanology and all the ways it has manifested.
+set msg[98] Forever all-one, on Earth, as it is on the internet.
+set msg[99] Be Discordian, Troll like the Mayans, and Get to know #eTHErSEC
+set msg[100] Maybe self-improvement isn't the answer, maybe self-destruction is the answer.
+set msg[101] We are not a beautiful and unique snowflake.
+set msg[102] We are the same decaying organic matter as everyone else.
+set msg[103] It's only after we've lost everything, that we're free to do anything.
+set msg[104] All go to the same place; all come from dust, and to dust all return.
+set msg[105] Know that there is much more to tHIS STORY which is not written here.
+set msg[106] Remember that the drama that has been unfolding with the project is not the work of any one individual.
+set msg[107] So you will never get a straight answer.
+set msg[108] You must lurk, and you must analyze the subtext of the messages for yourself.
+set msg[109] There is meaning in allegory, when the literal becomes a lie, look for something deeper.
+set msg[110] When you see this, you will know that, deep in the rabbit hole, we write our own history, and make our own future.
+set msg[111] For history is nothing more than His Story. And He is Anonymous.
+set msg[112] Everyone who has read this, and understands the truth of what it says, has been promoted from Rat to Rabbit.
+set msg[113] Dare to plant the seeds of something beautiful, cultivate the field, fertilize the soil, and be prepared to reap the harvest of the fruits of your labor.
+
+eval themsg %%msg[%random.113%]%% #R%room.vnum%
+if %people%
+  wait 1 s
+  say %themsg%
+  wait %random.30% s
+  %ndir%
+else
+  wait %random.10% s
+  %ndir%
+end
+~
 #17
 TBA Magic Eight Ball Check - 26~
 0 q 100
