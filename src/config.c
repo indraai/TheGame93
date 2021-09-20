@@ -180,7 +180,7 @@ room_vnum frozen_start_room = 2;
 
 /* Virtual numbers of donation rooms.  note: you must change code in do_drop of
  * act.item.c if you change the number of non-NOWHERE donation rooms. */
-room_vnum donation_room_1 = 2;
+room_vnum donation_room_1 = 235;
 room_vnum donation_room_2 = 2;
 room_vnum donation_room_3 = 2;
 

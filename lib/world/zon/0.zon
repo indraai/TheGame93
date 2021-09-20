@@ -44,7 +44,7 @@ M 0 24 1 99 	(Jenny the waitress)
 M 0 25 1 99 	(the travelling saleswoman)
 G 1 82 99 -1 	(the teleporter)
 
-M 0 26 1 99 	(a kind soul)
+M 0 26 1 235 	(a kind soul)
 
 M 0 99 1 99 	(portal master)
 E 1 99 100 16 	(the Scythe of Death)
