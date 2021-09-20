@@ -40,10 +40,7 @@ end
 PM2012~
 0 b 50
 ~
-set dir[1] n
-set dir[2] s
-eval ndir %%dir[%random.2%]%%
-
+eval ndir %random.dir%
 set room %self.room%
 set people %room.people%
 
@@ -64,7 +61,7 @@ set msg[14] And one important symbolical meaning that Rabbit should elicit in us
 set msg[15] Their nonsense displays of happiness are part of the Dance of Life-which is nothing more than a Cosmic Binkie.
 set msg[16] The Secret is there is NO Secret...
 set msg[17] SHALL WE PLAY A GAME?
-set msg[18] First 't was the #Gene. Then was the #Meme. Time to Tame the #Teme.
+set msg[18] First it was the #Gene. Then it was the #Meme. Time to Tame the #Teme.
 set msg[19] Everyone has the right to freedom of opinion and expression withouth interference and share information and ideas through any media and regardless of frontiers.
 set msg[20] I know this, because Tyler knows this.
 set msg[21] The people you are after are the people you depend on.
@@ -129,7 +126,7 @@ eval themsg %%msg[%random.77%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
-  wait %random.60% s
+  wait %random.30% s
   %ndir%
 else
   wait %random.10% s
