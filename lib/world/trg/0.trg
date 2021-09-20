@@ -24,9 +24,9 @@ set msg[9] We are on Earth looking for information relating to a Arjika citizen.
 set msg[10] Sindhu Soldiers are here on Earth looking for missing Technology.
 set msg[11] Sindhu Soldiers are here on Earth looking for a missing citizen.
 
-%echo% security:D%self.vnum%:R%room.vnum%:%dir%
+%echo% security:A%self.vnum%:R%room.vnum%:%dir%
 wait %random.5% s
-eval themsg %%msg[%random.7%]%% in %room.name% #R%room.vnum% #%dir%
+eval themsg %%msg[%random.7%]%% %room.name% #R%room.vnum% #%dir%
 if %people%
   say %themsg%
   wait %random.60% s

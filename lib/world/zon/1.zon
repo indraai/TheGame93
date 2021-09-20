@@ -62,9 +62,11 @@ M 0 154 3 146 	(the patrolman)
 M 0 163 2 195 	(the hired hand)
 M 0 127 1 127 	(the healer)
 M 0 197 1 143 	(the carpenter)
-M 0 141 3 143 	(the corporal)
+
+M 0 141 1 143 	(the corporal)
 E 1 170 99 9 	(some cloth gloves)
 G 1 179 99 -1 	(a canteen)
+
 M 0 184 1 150 	(Morgan, the bartender)
 G 1 29419 99 -1 	(a glass)
 G 1 29420 99 -1 	(a glass)
