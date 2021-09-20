@@ -36,6 +36,42 @@ else
   %dir%
 end
 ~
+#2
+PM2012~
+0 b 50
+~
+set dir %random.dir%
+set room %self.room%
+set people %room.people%
+
+set msg[1] Have we enrichened your life if only a little beet?
+set msg[2] Art is now the only evolutionary-revolutionary power.
+set msg[3] Only art is capable of dismantling the repressive social system to build a SOCIAL ORGANISM AS A WORK OF ART.
+set msg[4] TOTALLY REFUSE TO SUPPORT ANY KIND OF VIOLENT AND/OR ILLEGAL ACTIONS TOWARDS ACHIEVING *ANY* KIND OF GOALS.
+set msg[5] IF YOU INTERPRET ANYTHING YOU READ ON THE FOLLOWING PAGES AS BEING ILLEGAL/forbidden the DO NOT DO IT!
+set msg[6] Never do anything against Conscience even if the State demands it.
+set msg[7] Remember: we will NEVER ever suggest you to do anything ILLEGAL and/or anything against your own Consciousness.
+set msg[8] Remember: we will NEVER ever DO anything ILLEGAL and/or against our own Consciousness.
+set msg[9] As you can imagine, ANYBODY can pretend to be us, as anybody can pretend to be anyone: that's disinformation tactics 101, of course.
+set msg[10] HE GUIDED THE ANCIENT HEROES TO AND THROUGH THE UNDERWORLD, AND HE BROUGHT MESSAGES TO THE MORTALS HERE ON EARTH.
+set msg[11] Symbolically, Rabbit in the Underworld is therefore representative of USING ONE'S INTUITION.
+set msg[12] RABBIT DOES NOT NEED AN OUTSIDE SOURCE TO ILLUMINATE HIS WAY. His connection to the Collective Energy maintains his pathway.
+set msg[13] They teach us Unconditional Love, and Compassion for Life, by virtue of eliciting those things within us.
+set msg[14] And one important symbolical meaning that Rabbit should elicit in us is that of PLAYFULNESS AND JOY.
+set msg[15] Their nonsense displays of happiness are part of the Dance of Life-which is nothing more than a Cosmic Binkie.
+
+eval themsg %%msg[%random.15%]%% #R%room.vnum%
+
+wait %random.5% s
+if %people%
+  say %themsg%
+  wait %random.60% s
+  %dir%
+else
+  wait %random.10% s
+  %dir%
+end
+~
 #17
 TBA Magic Eight Ball Check - 26~
 0 q 100
