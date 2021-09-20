@@ -40,7 +40,10 @@ end
 PM2012~
 0 b 50
 ~
-set dir %random.dir%
+set dir[1] n
+set dir[2] s
+eval ndir %%dir[%random.2%]%%
+
 set room %self.room%
 set people %room.people%
 
@@ -59,17 +62,78 @@ set msg[12] RABBIT DOES NOT NEED AN OUTSIDE SOURCE TO ILLUMINATE HIS WAY. His co
 set msg[13] They teach us Unconditional Love, and Compassion for Life, by virtue of eliciting those things within us.
 set msg[14] And one important symbolical meaning that Rabbit should elicit in us is that of PLAYFULNESS AND JOY.
 set msg[15] Their nonsense displays of happiness are part of the Dance of Life-which is nothing more than a Cosmic Binkie.
+set msg[16] The Secret is there is NO Secret...
+set msg[17] SHALL WE PLAY A GAME?
+set msg[18] First 't was the #Gene. Then was the #Meme. Time to Tame the #Teme.
+set msg[19] Everyone has the right to freedom of opinion and expression withouth interference and share information and ideas through any media and regardless of frontiers.
+set msg[20] I know this, because Tyler knows this.
+set msg[21] The people you are after are the people you depend on.
+set msg[22] Power is afraid of Internet.
+set msg[23] #ANAGKE It is upon this word that this book is founded.
+set msg[24] Courage is contagious.
+set msg[25] UNLESS YOU'RE FREE, THE MACHINE WILL BE PREVENTED FROM WORKING AT ALL!!
+set msg[26] Information wants to be free.
+set msg[27] The Net interprets censorship as damage and routes around it.
+set msg[28] The very word "secrecy" is repugnant in a free and open society.
+set msg[29] The best weapon of a dictatorship is secrecy, but the best weapon of a democracy should be the weapon of openness.
+set msg[30] Of course I'm crazy, but that doesn't mean I'm wrong.
+set msg[31] If you  think you know what the hell is going on, you're probably full of shit.
+set msg[32] Often the best source of information about waste, fraud, and abuse in government is an existing government employee willing to speak out.
+set msg[33] Time has come to encourage COURAGE and to issue a CALL TO HACKZION for PROJECT MAYHEM 2012.
+set msg[34] Project Mayhem 2012 is a Mutant Egregor Reality-Hacking Wargame.
+set msg[35] Reality Hacking is the nonviolent use of legally ambiguous digital tools in pursuit of the TRUTH.
+set msg[36] Project Mayhem 2012 is a [Metaheuristically/Hyper-heuristic] self-actualizing self-repairable IDEAS GENERATOR.
+set msg[37] Project Mayhem 2012 will challenge every hacker, coder, phreaks, cypherpunks and artists everywhere to collaborate to jointly develop #TYLER.
+set msg[38] To avoid stalling, we won't aim at 'perfection': errors happen...  Everything is OK!
+set msg[39] Almost good enough' might be MORE than a 'good enough' mentality. Less Syntactics, More Semantics.
+set msg[40] Nobody knows everything that is known, but all together, we know it ALL.
+set msg[41] 'Evolutionary Computing', 'Adaptative Thinking', 'Dynamically Adhocratic' and 'Mutating problem solving' are key elements here.
+set msg[42] We don't aim to find the 'best' solution... we aim to MOVE UPWARDS the spiral.
+set msg[43] We are not going around in circles, we are moving UP, the circle is a SPIRAL, we have already ascended many a level.
+set msg[44] We don't fight against ANYTHING... We will simply ADAPT around it... then make it CHANGE to fit our Swarm Intelligence NEEDS.
+set msg[45] There's nothing more dangerous than sometone who wants to make the world a better place.
+set msg[46] If you want to say something and have people listen then you have to wear a MASK.
+set msg[47] If you want to be HONEST then you have to live a LIE.
+set msg[48] #ERRORISM: Concept and action are based on the idea that "error" is reality's principle of order.
+set msg[49] #ERRORISM is a philosophically erroneous position, a ritual of negation, a disorganized organization: failure as perfection, error as appropriate move.
+set msg[50] The field of action of #ERRORISM contains all those practices that aim at the #LIBERATION of the human being and language.
+set msg[51] #CONFUSION and #SURPRISE, #BlackHumour and #ABSURDITY are the favorite tools of the errorists.
+set msg[52] Lapses and failed acts are an #ERRORIST delight.
+set msg[53] The first rule of PM2012 is, you do talk about PM2012.
+set msg[54] The second rule of PM2012 is, you **DO** talk about PM2012.
+set msg[55] Got a blog, a magazine, DJ Radio show? Talk about 'PROJECT MAYHEM 2012'.
+set msg[56] Got a camera? Upload a 'PROJECT MAYHEM 2012' video.
+set msg[57] Got access to a TV station? Flash 'PROJECT MAYHEM 2012' in primetime!
+set msg[58] Run naked with 'PROJECT MAYHEM 2012' written all over that hairy ass!
+set msg[59] Creative Human Beings: together, let's make the headlines big time!
+set msg[60] The poeTic #ERRORIST behaves like a confidence-TRICKSTER whose aim is not money but #CHANGE.
+set msg[61] We are 'PROJECT MAYHEM 2012'
+set msg[62] We are #EVERYWHERE.
+set msg[63] #TYLER is a massively distributed and decentralized Wikipedia-style P2P cipherspace structure impregnable to censorship.
+set msg[64] TYLER will avoid single point of failures by implementing a distributed karma-based TRUST 'Authority'.
+set msg[65] TYLER will gather an unprecedented number of the best hackers and coders ever to develop its structure from scratch
+set msg[66] TYLER will go wild on the net on 12-12-2012, massively flashmob style.
+set msg[67] Machines are usually hacked via 'interlink bugs'. Humans are usually hacked via 'limbic system bugs'.
+set msg[68] 1) You DO ask questions. 2) You DO ask questions. 3) No excuses. 4) No lies. 5) You HAVE to trust Tyler.
+set msg[69] We have to create culture, don't watch TV, don't read magazines, don't even listen to NPR. Create your own roadshow.
+set msg[70] The nexus of space and  time where you are now is the most immediate sector of your universe.
+set msg[71] If you're worrying about Michael Jackson or Bill Clinton or somebody else, then you are disempowered, you're giving it all away to icons.
+set msg[72] The real secret of magic, is that the world is made of words. If you know the words the world is made of, you can make of it whatever you wish.
+set msg[73] You are an explorer, and you represent our species, AND THE GREATEST GOOD YOU CAN DO IS TO BRING BACK A NEW IDEA.
+set msg[74] Western civilization is a loaded gun pointed at the head of this planet.
+set msg[75] The #imagination is the goal of history.
+set msg[76] It is only with the heart that one can see rightly. What is essential is invisible to the eye.
+set msg[77] It is the time you have wasted for your rose that makes your rose so important.
 
-eval themsg %%msg[%random.15%]%% #R%room.vnum%
-
-wait %random.5% s
+eval themsg %%msg[%random.77%]%% #R%room.vnum% https://pastebin.com/Wt15GXTn
 if %people%
+  wait 1 s
   say %themsg%
   wait %random.60% s
-  %dir%
+  %ndir%
 else
   wait %random.10% s
-  %dir%
+  %ndir%
 end
 ~
 #17

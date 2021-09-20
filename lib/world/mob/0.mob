@@ -193,17 +193,6 @@ Arjika Solder A10 is here on special assignment.
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 T 1
 #11
@@ -217,17 +206,6 @@ Arjika Solder A11 is here on special assignment.
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 T 1
 #12
@@ -241,17 +219,6 @@ Arjika Soldier A12 is here on special assignment.
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 T 1
 #13
@@ -265,17 +232,6 @@ Arjika Solder A13 is here on special assignment.
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 T 1
 #14
@@ -289,17 +245,6 @@ Arjika Soldier A14 is here on special assignment.
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 T 1
 #15
@@ -340,7 +285,7 @@ This strange humanoid lacks any distinguishing features. It is dressed in a whit
 E
 T 17
 #18
-arjika arjikiya soldier special forces admiral a18 z0~
+arjika arjikiya special forces admiral a18 z0~
 Arjika Admiral~
 Arjika Admiral A18 is here.
 ~
@@ -459,6 +404,20 @@ hard times and need a little boost.
 300 90000
 8 8 2
 E
+#27
+pm2012 tyler anonymous~
+Tyler PM2012~
+Tyler PM2012 is here.
+~
+You can learn more about Tyler PM2012  https://pastebin.com/Ux0Uk2em
+~
+256024 0 0 0 2128 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 2
+E
+T 2
 #99
 arjika arjikiya portal a99 z0~
 Arjika Portal Master~
