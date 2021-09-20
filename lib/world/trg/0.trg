@@ -125,7 +125,7 @@ set msg[75] The #imagination is the goal of history.
 set msg[76] It is only with the heart that one can see rightly. What is essential is invisible to the eye.
 set msg[77] It is the time you have wasted for your rose that makes your rose so important.
 
-eval themsg %%msg[%random.77%]%% #R%room.vnum% https://pastebin.com/Wt15GXTn
+eval themsg %%msg[%random.77%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
