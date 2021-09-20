@@ -973,19 +973,19 @@ BareHandAttack: 2
 E
 T 3
 #170
-townsman~
-the townsman~
-One of the many townsman of Arjika wanders past.
+tg23 thegame23 tyler anonymous~
+Tyler TG23~
+Tyler TG23 is here.
 ~
-   He seems content with his life.  He walks past briskly mumbling something to
-himself.
+You can learn more about Tyler TG23 pastebin.com/YbmG6ETq
 ~
-72 0 0 0 0 0 0 0 350 E
-14 16 1 2d2+140 2d2+2
-140 19600
+256026 0 0 0 2128 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
 8 8 1
+BareHandAttack: 2
 E
-T 151
+T 4
 #171
 townswoman woman~
 the townswoman~
