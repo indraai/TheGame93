@@ -576,9 +576,9 @@ Herbie loves his job more than anyone in the city.  He is always up to date on a
 E
 T 105
 #141
-arjika arjikiya soldier army corporal a141 z3~
-Army Corporal~
-An Arjika corporal is making his rounds.
+arjika arjikiya soldier corporal a141 z3~
+Arjika Corporal~
+Arjika Corporal A141 is making his rounds.
 ~
 He looks very healthy and happy with his job.  His aspirations to become a war hero became a reality when he signed up for the army of Arjika.
 ~
@@ -687,12 +687,11 @@ not laugh or even smirk since you know they take offense to such things.
 8 8 1
 E
 #149
-sergeant arjika arjikiya soldier army a149 z3~
-The Sergeant~
-A sergeant is trying to find his corporal so he can put him to work.
+sergeant arjika arjikiya soldier sergeant a149 z3~
+Arjika Sergeant~
+Arjika Sergeant A149 is looking for his corporal so he can put him to work.
 ~
-The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals
-future.
+The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals future.
 ~
 72 0 0 0 0 0 0 0 -400 E
 15 15 1 3d3+150 2d2+2
@@ -758,8 +757,8 @@ experienced thieves can swipe equipment.
 E
 #154
 arjika arjikiya soldier patrolman a154 z3 ~
-Army Patrolman~
-An Arjika patrolman is making sure everyone behaves.
+Arjika Patrolman~
+Arjika patrolman A154 is making sure everyone behaves.
 ~
 The patrolman keeps a keen eye out for any trouble and is quick to respond. Only the foolish mess with these trained and disciplined men.
 ~
@@ -769,8 +768,8 @@ The patrolman keeps a keen eye out for any trouble and is quick to respond. Only
 8 8 1
 E
 #155
-war master arjika arjikiya soldier army a155 z3~
-Army War Master~
+war master arjika arjikiya soldier warmaster a155 z3~
+Arjika War Master~
 The Arjika War Master is planning his next victory.
 ~
 This one man is responsible for the protection of the entire city.  He is very old.  His hair a bright white and hanging below his shoulders.  Other than his hair he shows no signs of his age.  He is still built like an ogre and just about as evil tempered.
@@ -828,8 +827,8 @@ almost anything out of cloth.
 E
 T 117
 #159
-lieutenant arjika arjikiya soldier army a159 z0~
-Army Lieutenant~
+lieutenant arjika arjikiya soldier lieutenant a159 z0~
+Arjika Lieutenant~
 Arjika Lieutenant A159 is here.
 ~
 He is used to giving orders, not babysitting and hunting down people. Looks like a lot of heads are going to roll when he finds who he is looking for. He looks very strong and wise.
@@ -840,13 +839,11 @@ He is used to giving orders, not babysitting and hunting down people. Looks like
 8 8 1
 E
 #160
-general arjika arjikiya soldier army a160 z3~
-Army General~
-Arjika General is planning his next strategic victory.
+arjika arjikiya soldier strategy a160 z3~
+Arjika Soldier~
+Arjika Soldier A160 is here.
 ~
-He mumbles to himself as the war plan is being picked apart in his head.
-Trying to account for every possible outcome he carries a heavy responsibility
-that few people never appreciate.  He orders men to their death.
+He mumbles to himself as the war plan is being picked apart in his head. Trying to account for every possible outcome he carries a heavy responsibility that few people never appreciate.  He orders men to their death.
 ~
 6216 0 0 0 16 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
@@ -1042,9 +1039,9 @@ A monk carefully watches a set of stairs leading up.
 E
 T 135
 #175
-gate sentry arjika arjikiya soldier army a175 z3~
-Army Gate Sentry~
-A sentry is watching the gates, ensuring your protection.
+gate sentry arjika arjikiya soldier guard a175 z3~
+Arjika Guard~
+Arjika Guard A175 watching the gates, ensuring your protection.
 ~
 They stand their post with dedication and determination.  They seem very competent and will warn of any attack upon the city.
 ~
@@ -1054,9 +1051,9 @@ They stand their post with dedication and determination.  They seem very compete
 8 8 1
 E
 #176
-gunney~
-Gunney~
-Gunney stand here shouting orders.
+gunney arjika arjikiya soldier a176 z3~
+Arjika Gunney~
+Arjika Gunney A176 stand here shouting orders.
 ~
 This guy looks mean.  He is stuck in charge of training new recruits to the army.  He pretends to hate his job, but deep down you know he loves making the recruits lives miserable.
 ~
@@ -1094,9 +1091,9 @@ shit.
 8 8 1
 E
 #179
-recruit arjika arjikiya army soldier a178 z3~
-Army Reruit~
-A miserable recruit is carrying out Gunney's orders.
+recruit arjika arjikiya soldier a178 z3~
+Arjika Reruit~
+Arjika Recruit A178 is carrying out Gunney's orders.
 ~
 This guy is exhausted from training, but looks happy.
 ~
@@ -1106,7 +1103,7 @@ This guy is exhausted from training, but looks happy.
 8 8 1
 E
 #180
-javier rsi~
+javier rsi councillor~
 Javier, the High Councillor~
 Javier, the High Councillor looks at you peacefully.
 ~
@@ -1118,14 +1115,11 @@ One of the seven high councilman he holds one of the most prestigious positions 
 8 8 1
 E
 #181
-arjika arjikiya soldier army lookout a181 z3~
-Army Lookout~
+arjika arjikiya soldier lookout a181 z3~
+Arjika Lookout~
 Arjika Lookout A181 peers into the distance.
 ~
-Hour after hour he stands above the gates looking for any sign of danger.
-It is up to him to warn the town in case of an attack.  The position has a lot
-of responsibility and is only given to those who show promise within the army.
-
+Hour after hour he stands above the gates looking for any sign of danger. It is up to him to warn the town in case of an attack.  The position has a lot of responsibility and is only given to those who show promise within the army.
 ~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3

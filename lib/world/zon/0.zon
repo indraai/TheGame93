@@ -28,9 +28,9 @@ M 0 17 1 22 	(the protector of the magic eight ball)
 R 0 22 47 -1 	(the magic eight ball)
 O 0 47 99 22 	(the magic eight ball)
 
-M 0 18 1 99 	(Admiral)
-M 0 19 1 99 	(Captain)
-M 0 20 1 99 	(Sergeant)
+M 0 18 1 108 	(Admiral)
+M 0 19 1 108 	(Captain)
+M 0 20 1 108 	(Sergeant)
 
 M 0 21 3 2 	(Spy)
 E 1 221 1 12 	(a gray cloak)
@@ -38,7 +38,8 @@ E 1 221 1 12 	(a gray cloak)
 M 0 22 1 89 	(Commissar)
 G 1 68 99 -1 	(the Commissar's key)
 
-M 0 23 1 99 	(General)
+M 0 23 1 108 	(General)
+
 M 0 24 1 99 	(Jenny the waitress)
 
 M 0 25 1 99 	(the travelling saleswoman)
