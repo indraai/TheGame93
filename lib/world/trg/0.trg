@@ -512,7 +512,7 @@ eval ndir %random.dir%
 set follower %self.follower%
 
 if %follower%
-  wait %random.10% s
+  wait 90 s
   %ndir%
 else
   wait 1 s

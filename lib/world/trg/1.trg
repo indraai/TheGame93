@@ -47,7 +47,7 @@ Mob Greet Newbie Guide - 196~
 0 g 100
 ~
 * By Rumble of The Builder Academy    tbamud.com 9091
-if %actor.is_pc%
+if !%self.follower% && %actor.is_pc%
   if %actor.level% <= 3
     wait 1 sec
     bow
