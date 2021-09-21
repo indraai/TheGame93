@@ -124,10 +124,10 @@ G 1 147 99 -1 	(an exotic bottle of beer)
 G 1 137 99 -1 	(a dirty glass)
 
 M 0 168 3 251 	(Tyler PM2012)
-
 M 0 169 3 151 	(Tyler PM 2013)
-
 M 0 170 3 233 	(Tyler TG23)
+M 0 171 3 269 	(Tyler PM2020)
+M 0 172 3 262 	(Tyler EtherSec)
 
 D 0 175 0 1 	(An Extravagant Home)
 M 0 132 1 175 	(the butler)

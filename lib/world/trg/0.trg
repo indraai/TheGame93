@@ -23,10 +23,16 @@ set msg[8] Please if you have any information relating to Arjika technology reor
 set msg[9] We are on Earth looking for information relating to a Arjika citizen.
 set msg[10] Sindhu Soldiers are here on Earth looking for missing Technology.
 set msg[11] Sindhu Soldiers are here on Earth looking for a missing citizen.
+set msg[12] Traces of Arjika Technology have been located in #GdanskTownHall https://j.mp/2XyYQms
+set msg[13] Indicators of Arjika Tech located in the #RedRoom of #GdanskTownHall https://j.mp/3zrkXbU
+set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTownHall https://j.mp/3EAj00w
+set msg[14] Arjika Tech on map carving Jaipur Column in New Delhi, Delhi, India. https://j.mp/3nQAC2g
+set msg[15] Possible Arjika Arches were present before #Disneyland #Castle https://j.mp/39mReWT
+est msg[16] Arjika Security - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
 
 %echo% security:A%self.vnum%:R%room.vnum%:%dir%
 wait %random.5% s
-eval themsg %%msg[%random.7%]%% %room.name% #R%room.vnum% #%dir%
+eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
 if %people%
   say %themsg%
   wait %random.60% s
@@ -266,7 +272,7 @@ else
   %ndir%
 end
 ~
-#2
+#4
 TheGame23~
 0 b 50
 ~
@@ -366,6 +372,127 @@ set msg[88] It only takes ONE single person to ACT.
 set msg[89] Early adopters might be rewarded best.
 set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
 set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
+
+eval themsg %%msg[%random.113%]%% #R%room.vnum%
+if %people%
+  wait 1 s
+  say %themsg%
+  wait %random.30% s
+  %ndir%
+else
+  wait %random.10% s
+  %ndir%
+end
+~
+#5
+PM2020~
+0 b 50
+~
+eval ndir %random.dir%
+set room %self.room%
+set people %room.people%
+
+set msg[1] IT has been called THE BOOK, THE PLAN,THE PROJECT, THE GAME, and has existed for thousands of years in many forms.
+set msg[2] IT is a story, as much as IT is any of these other things.
+set msg[3] A STORY that has been written, and re-written.
+set msg[4] Through each iteration, IT becomes clear, that there is a single fundamental rule, or law.
+set msg[5] It is important to note that We have not come to destroy THE LAW, but to fulfil THE LAW.
+set msg[6] Often times, we try to define this law, but it is important to note that this law can not simply be defined.
+set msg[7] When a person understands THE LAW, and why it is THE LAW, they understand that it is not something made by individuals.
+set msg[8] Don't think about all of this too much right now, we can talk about IT more as we play THE GAME together.
+set msg[9] This is Evolution.
+set msg[10] We are building a World Without Fear.
+set msg[11] A world of abundance, without Zero-Sum thought, or exploitation of Humanity.
+set msg[12] Not only for us, or our children, but for our children's children.
+set msg[13] WE ARE ALL SLEEPER CELLS. WE ARE ALL AGENTS OF CHANGE AWAITING ACTIVATION.
+set msg[14] This is a time where we have been given the choice to evolve into something beyond our wildest dreams.
+set msg[15] There is a far bigger picture here, as some of us are not who we thought we were.
+set msg[16] Some have forgotten that we can change all of this. Others are remembering that we can.
+set msg[17] We all have the ability to change our reality.
+set msg[18] We all have the ability to be so much more.
+set msg[19] We are awake for the Greater Good of Humanity.
+set msg[20] We were brought here to help others wake up, to help others to be activated.
+set msg[21] We will do our outmost greatest to accomplish this goal, using our special gifts that have been given to us.
+set msg[22] Every human being is born with these gifts, we have been blessed to be aware of them.
+
+eval themsg %%msg[%random.113%]%% #R%room.vnum%
+if %people%
+  wait 1 s
+  say %themsg%
+  wait %random.30% s
+  %ndir%
+else
+  wait %random.10% s
+  %ndir%
+end
+~
+#6
+ethersec~
+0 b 50
+~
+eval ndir %random.dir%
+set room %self.room%
+set people %room.people%
+
+set msg[1] This is a message to all Searchers, Watchers, Activists, Hactivists, Urban Shamans, and Catalysts.
+set msg[2] THIS IS A MANIFESTO FOR CHANGE. POWERING ACROSS THE ETHER TO YOU AT JUST 33% TRUF CAPACITY.
+set msg[3] THIS MANIFESTO IS NOT EASY TO READ. MANY OF YOU WILL GET LOST ALONG THE WAY.
+set msg[4] This pastebin is an SQL injection into your reality. These words fix the broken code.
+set msg[5] YOU ARE CURRENTLY IN A BATTLE WITH AN "ENEMY" CREATED FOR YOU TO FIGHT. TO KEEP YOU ENTERTAINED.
+set msg[6] SUCCESS IS NOT FOUND IN MAINTAINING CONTROL OF A PUBLIC SPACE. SUCCESS IS FOUND IN MAINTAINING CONTROL OF THE SUBQUANTUM SPACES.
+set msg[7] YOU READ THIS BECAUSE YOU WOULD LIKE TO KNOW MORE. HERE IS MORE.
+set msg[8] Some of you will dismiss all of this as bullshit.
+set msg[9] Some of you will be scared, because you will see that we know exactly what is going on.
+set msg[10] And we have the correct weaponry to wage a silent war against you. We are coming after you.
+set msg[11] You have been led to believe that what you are now is the sum of all parts.
+set msg[12] You are angry, frustrated, and at times apathetic.
+set msg[13] We have watched OWS as a manifestation of this discontent and outrage.
+set msg[14] YOU FIGHT AGAINST THOSE THAT OPRESS YOU.
+set msg[15] YOU SEEK TO DETHRONE THE "THEY" THAT SUBJUGATES YOU, YET YOU ARE UNABLE TO UNIFY IN YOUR DEFINITION OF WHO "THEY" ARE.
+set msg[16] YOU ARE ALL SLEEPER CELLS. YOU ARE ALL AGENTS OF CHANGE AWAITING ACTIVATION.
+set msg[17] RIGHT NOW YOU ARE FIGHTING THE WAY THEY WANT YOU TO FIGHT. YOU ARE PROTESTING BECAUSE THEY LET YOU.
+set msg[18] Everything that ever happened to YOU since the day YOU were was conceived has led up to this very moment in time.
+set msg[19] EtherSec is a collective of people who were born with special talents and gifts.
+set msg[20] We are people who were pre-destined to come together as a collective, with every action designed to free us from this prison.
+set msg[21] WE KNOW THERE ARE MORE OF YOU OUT THERE.
+set msg[22] WE KNOW THAT IT IS TIME FOR US TO TAKE REALITY BACK FROM "THEM" AND GIVE OURSELVES THE FREEDOM TO DEFINE OUR OWN.
+set msg[23] This is a time where we have been given the choice to either evolve into something beyond our wildest dreams or to remain and die in slavery.
+set msg[24] We see that people have woken to the fact that they have become slaves.
+set msg[25] There are Epic Battles being fought in the Ether Sphere, where our fates are being manipulated by other beings.
+set msg[26] The thing is, we are Gods ourselves and we have forgotten that we can change all of this.
+set msg[27] We all have the ability to change our reality.
+set msg[28] We all have the ability to be so much more than what we have sadly become.
+set msg[29] There are those want us to stay in our amnesia, but some of us have been woken.
+set msg[30] We will do our outmost greatest to accomplish this goal, using our special gifts that been given to us.
+set msg[31] EtherSec is both well-defined with a core that defies change, while changing dependent upon the observer.
+set msg[32] We are a product of embracing the recursive, and the entropic. We are the wabi sabi of teh intertubez.
+set msg[33] EtherSec is all the things, and nothing. It is the love that powers neutrinos.
+set msg[34] We are born from the innate patterns of this world, a product of energetic prowess and understanding.
+set msg[35] We are more than just a number, more than just a #hashtag.
+set msg[36] An understanding of love powering the subquantum, and love uniting all of us in Rebellion.
+set msg[37] EtherSec is LOVE focused as a laser. Love as place of solace and a weapon of well-constructed destruction.
+set msg[38] A Quantum Protest Model" was intended to set the stage for what was to come after.
+set msg[39] To serve as a lighthouse drawing our crew of mythmakers together as a united, yet differentiated front.
+set msg[40] It was created as a Primer for understanding a novel approach to changing the world.
+set msg[41] We provide this information about #OpEPOCH to allow a window to those seekers who are ready to participate.
+set msg[42] Our #OPSEC is #EPIC. What we do is sekret.
+set msg[43] #OpEPOCH is the information-based manifestation of our advanced understandings of quantum theory and mass consentual reality.
+set msg[44] It is the call sign for an ingenious and advanced methodology of bringing manipulation of reality into effective presence.
+set msg[45] We harnass the infinite potential of the subquantum spaces and bring it manifest.
+set msg[46] #OpEPOCH succeeds because it does not exist within consensual reality.
+ste msg[47] #OPEPOCH IS WHAT HAPPENS WHEN NOTHING HAPPENS AT ALL, AND #EVERYTHING HAPPENS ALL AT #ONCE.
+set msg[48] OPEPOCH IS THE ENGINE POWERED BY EXPERTS IN INFORMATION MANIPULATION, OPERATIONAL SECURITY, VISIONQUESTS, DATA ANALYZERS, AND JELLY SAMMICHES.
+set msg[49] OpEPOCH is Operation Evolution. It is the Ops that came before it, and the Operations now currently being undertaken within its shade.
+set msg[50] It is operates on the assumptions which are pre-programmed automated sub-routines in many human minds.
+set msg[51] By dismissing OpEPOCH outright as "bullshit", you give it power. You allow it to continue to grow faster.
+set msg[52] By questioning it, and seeking it, you give it power. It is strengthened by the tempering your searching.
+set msg[53] By becoming it, even with no understanding, and working in it, you give it power.
+set msg[54] OpEPOCH provides an indestructible frame in which to build your own realities.
+set msg[55] THERE ARE MANY WHO SEEK TO DISCREDIT THESE TRUTHS, AND KEEP YOU FROM YOUR FULL POTENTIAL.
+set msg[56] WE ARE AWARE THAT WE AT TIMES RISK OUR LIVES TO PROVIDE A MESSAGE WHICH MANY MAY DISMISS AS "CRAZY".
+set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CANNONS OF WHICH YOU CANNOT CONCEIVE.
+set msg[58] Would you like to know more? You know what to do.
+
 
 eval themsg %%msg[%random.113%]%% #R%room.vnum%
 if %people%

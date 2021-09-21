@@ -987,32 +987,33 @@ BareHandAttack: 2
 E
 T 4
 #171
-townswoman woman~
-the townswoman~
-A townswoman is heading out to buy some supplies.
+pm2020 tyler anonymous~
+Tyler TG23~
+Tyler TG23 is here.
 ~
-   Dressed in a simple floral print dress so looks nothing other than ordinary.
-
+You can learn more about Tyler TG23 pastebin.com/8TYHXa4d
 ~
-72 0 0 0 0 0 0 0 350 E
-10 17 4 2d2+100 1d2+1
-100 10000
+256026 0 0 0 2128 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
 8 8 1
+BareHandAttack: 2
 E
+T 5
 #172
-farmer~
-the farmer~
-A farmer has come in off the fields to see something of the city.
+ethersec tyler anonymous~
+Tyler EtherSec~
+Tyler EtherSec is here.
 ~
-He looks lost in the hustle and bustle of the city.  It looks like he wants
-to get back to his farm as soon as possible.
+You can learn more about Tyler EtherSec pastebin.com/UGi5vMWs
 ~
-72 0 0 0 0 0 0 0 350 E
-17 15 0 3d3+170 2d2+2
-170 28900
-8 8 2
+256026 0 0 0 2128 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1
+BareHandAttack: 2
 E
-T 302
+T 6
 #173
 mage guildguard~
 the mage guildguard~
