@@ -576,7 +576,7 @@ Herbie loves his job more than anyone in the city.  He is always up to date on a
 E
 T 105
 #141
-arjika arjikiya soldier corporal a141 z3~
+arjika arjikiya corporal a141 z3~
 Arjika Corporal~
 Arjika Corporal A141 is making his rounds.
 ~
@@ -687,7 +687,7 @@ not laugh or even smirk since you know they take offense to such things.
 8 8 1
 E
 #149
-sergeant arjika arjikiya soldier sergeant a149 z3~
+sergeant arjika arjikiya sergeant a149 z3~
 Arjika Sergeant~
 Arjika Sergeant A149 is looking for his corporal so he can put him to work.
 ~
@@ -756,7 +756,7 @@ experienced thieves can swipe equipment.
 8 8 1
 E
 #154
-arjika arjikiya soldier patrolman a154 z3 ~
+arjika arjikiya patrolman a154 z3 ~
 Arjika Patrolman~
 Arjika Patrolman A154 is making sure everyone behaves.
 ~
@@ -768,7 +768,7 @@ The patrolman keeps a keen eye out for any trouble and is quick to respond. Only
 8 8 1
 E
 #155
-war master arjika arjikiya soldier warmaster a155 z3~
+war master arjika arjikiya warmaster a155 z3~
 Arjika War Master~
 Arjika War Master A155 is here.
 ~
@@ -827,7 +827,7 @@ almost anything out of cloth.
 E
 T 117
 #159
-lieutenant arjika arjikiya soldier lieutenant a159 z0~
+lieutenant arjika arjikiya lieutenant a159 z0~
 Arjika Lieutenant~
 Arjika Lieutenant A159 is here.
 ~
@@ -839,9 +839,9 @@ He is used to giving orders, not babysitting and hunting down people. Looks like
 8 8 1
 E
 #160
-arjika arjikiya soldier strategy a160 z3~
-Arjika Soldier~
-Arjika Soldier A160 is here.
+arjika arjikiya strategist a160 z3~
+Arjika Strategist~
+Arjika Strategist A160 is here.
 ~
 He mumbles to himself as the war plan is being picked apart in his head. Trying to account for every possible outcome he carries a heavy responsibility that few people never appreciate.  He orders men to their death.
 ~
@@ -921,7 +921,7 @@ E
 T 129
 T 130
 #166
-lance corporal arjika arjikiya soldier army a166 z0~
+lance corporal arjika arjikiya army a166 z0~
 Army Lance Corporal~
 A lance corporal struts past, looking very tough and conceited.
 ~
@@ -933,7 +933,7 @@ Another member of the Arjika army, this man has worked his way up and has a brig
 8 8 1
 E
 #167
-staff sergeant arjika arjikiya soldier army a167 z3~
+staff sergeant arjika arjikiya army a167 z3~
 Army Staff Sergeant~
 A staff sergeant walks by, keeping step to a cadence in his head.
 ~
@@ -1042,7 +1042,7 @@ A monk carefully watches a set of stairs leading up.
 E
 T 135
 #175
-gate sentry arjika arjikiya soldier guard a175 z3~
+gate sentry arjika arjikiya guard a175 z3~
 Arjika Guard~
 Arjika Guard A175 watching the gates, ensuring your protection.
 ~
@@ -1054,7 +1054,7 @@ They stand their post with dedication and determination.  They seem very compete
 8 8 1
 E
 #176
-gunney arjika arjikiya soldier a176 z3~
+gunney arjika arjikiya a176 z3~
 Arjika Gunney~
 Arjika Gunney A176 stand here shouting orders.
 ~
@@ -1094,8 +1094,8 @@ shit.
 8 8 1
 E
 #179
-recruit arjika arjikiya soldier a178 z3~
-Arjika Reruit~
+private arjika arjikiya a178 z3~
+Arjika Private~
 Arjika Recruit A178 is carrying out Gunney's orders.
 ~
 This guy is exhausted from training, but looks happy.
@@ -1118,7 +1118,7 @@ One of the seven high councilman he holds one of the most prestigious positions 
 8 8 1
 E
 #181
-arjika arjikiya soldier lookout a181 z3~
+arjika arjikiya lookout a181 z3~
 Arjika Lookout~
 Arjika Lookout A181 peers into the distance.
 ~
