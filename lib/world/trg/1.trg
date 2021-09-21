@@ -1182,7 +1182,6 @@ Trent Lavery~
 0 b 5
 ~
 set room %self.room%
-set people %room.people%
 
 set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
 set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
@@ -1199,12 +1198,9 @@ set msg[12] After telling my dad the craziest story about the Covenant I told hi
 set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
 
-wait 1 s
 set waiting %random.30%
-if %actor.is_pc%
-  set waiting %random.180%
-end
 say %themsg%
+wait %waiting% s
 %random.dir%
 ~
 #162
