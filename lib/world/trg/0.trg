@@ -481,7 +481,7 @@ set msg[55] THERE ARE MANY WHO SEEK TO DISCREDIT THESE TRUTHS, AND KEEP YOU FROM
 set msg[56] WE ARE AWARE THAT WE AT TIMES RISK OUR LIVES TO PROVIDE A MESSAGE WHICH MANY MAY DISMISS AS "CRAZY".
 set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CANNONS OF WHICH YOU CANNOT CONCEIVE.
 set msg[58] Would you like to know more? You know what to do.
-eval themsg %%msg[%random.113%]%% #R%room.vnum%
+eval themsg %%msg[%random.58%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
@@ -502,6 +502,21 @@ if !%actor.has_item(47)%
   say Here is a Magic 8-Ball.
   %load% obj 47 %actor%
   %send% %actor% %self.name% gives you the magic eight ball.
+end
+~
+#94
+Follow Guide~
+0 b 50
+~
+eval ndir %random.dir%
+set follower %self.follower%
+
+if %follower%
+  wait %random.10% s
+  %ndir%
+else
+  wait 1 s
+  mgoto 251
 end
 ~
 #95
