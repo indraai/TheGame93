@@ -41,9 +41,10 @@ wait %random.60% s
 PM2012~
 0 b 50
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set room %self.room%
 set people %room.people%
+
 set msg[1] Have we enrichened your life if only a little beet?
 set msg[2] Art is now the only evolutionary-revolutionary power.
 set msg[3] Only art is capable of dismantling the repressive social system to build a SOCIAL ORGANISM AS A WORK OF ART.
@@ -132,7 +133,7 @@ wait %random.60% s
 PM2013~
 0 b 50
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set room %self.room%
 set people %room.people%
 set msg[1] We are not talking about bread.
@@ -259,7 +260,7 @@ wait %random.60% s
 TheGame23~
 0 b 50
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set room %self.room%
 set people %room.people%
 set msg[1] All identities are fake and the theater of operations is a simulated planet on top of a computer hypersimulation that creates #REALITY.
@@ -366,7 +367,7 @@ wait %random.60% s
 PM2020~
 0 b 50
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set room %self.room%
 set people %room.people%
 
@@ -403,7 +404,7 @@ wait %random.60% s
 ethersec~
 0 b 50
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set room %self.room%
 set people %room.people%
 set msg[1] This is a message to all Searchers, Watchers, Activists, Hactivists, Urban Shamans, and Catalysts.
@@ -487,7 +488,7 @@ end
 Follow Guide~
 0 b 50
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set follower %self.follower%
 
 if %follower%

@@ -1181,7 +1181,7 @@ end
 Trent Lavery~
 0 b 5
 ~
-eval ndir %random.dir%
+set ndir %random.dir%
 set room %self.room%
 set people %room.people%
 
