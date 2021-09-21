@@ -373,7 +373,7 @@ set msg[89] Early adopters might be rewarded best.
 set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
 set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
 
-eval themsg %%msg[%random.113%]%% #R%room.vnum%
+eval themsg %%msg[%random.91%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
@@ -415,7 +415,7 @@ set msg[20] We were brought here to help others wake up, to help others to be ac
 set msg[21] We will do our outmost greatest to accomplish this goal, using our special gifts that have been given to us.
 set msg[22] Every human being is born with these gifts, we have been blessed to be aware of them.
 
-eval themsg %%msg[%random.113%]%% #R%room.vnum%
+eval themsg %%msg[%random.22%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
@@ -514,6 +514,42 @@ if !%actor.has_item(47)%
   say Here is a Magic 8-Ball.
   %load% obj 47 %actor%
   %send% %actor% %self.name% gives you the magic eight ball.
+end
+~
+#95
+Arjika Dayshift~
+0 b 100
+~
+set wakeup %time.hour% == 7
+set bedtime %time.hour% == 16
+if %wakeup%
+  wake
+  sit
+  wait 30 s
+  stand
+else if %bedtime%
+  mgoto 168
+  sit
+  wait 60 s
+  sleep
+end
+~
+#96
+Arjika Nightshift~
+0 b 100
+~
+set wakeup %time.hour% == 15
+set bedtime %time.hour% == 8
+if %wakeup%
+  wake
+  sit
+  wait 30 s
+  stand
+else if %bedtime%
+  mgoto 168
+  sit
+  wait 60 s
+  sleep
 end
 ~
 #97
