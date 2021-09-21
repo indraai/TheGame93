@@ -11,7 +11,6 @@ Arjika Security~
 set dir %random.dir%
 set room %self.room%
 set people %room.people%
-
 set msg[1] Please report any information you have regarding knowledge of Arjika technology to security.
 set msg[2] Do you or someone you know have information regarding Arjika technology. Please see security.
 set msg[3] A team from Arjika is here looking for information relating to a Arjikiya Citizen.
@@ -29,7 +28,6 @@ set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTown
 set msg[14] Arjika Tech on map carving Jaipur Column in New Delhi, Delhi, India. https://j.mp/3nQAC2g
 set msg[15] Possible Arjika Arches were present before #Disneyland #Castle https://j.mp/39mReWT
 est msg[16] Arjika Security - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
-
 %echo% security:A%self.vnum%:R%room.vnum%:%dir%
 wait %random.5% s
 eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
@@ -49,7 +47,6 @@ PM2012~
 eval ndir %random.dir%
 set room %self.room%
 set people %room.people%
-
 set msg[1] Have we enrichened your life if only a little beet?
 set msg[2] Art is now the only evolutionary-revolutionary power.
 set msg[3] Only art is capable of dismantling the repressive social system to build a SOCIAL ORGANISM AS A WORK OF ART.
@@ -127,7 +124,6 @@ set msg[74] Western civilization is a loaded gun pointed at the head of this pla
 set msg[75] The #imagination is the goal of history.
 set msg[76] It is only with the heart that one can see rightly. What is essential is invisible to the eye.
 set msg[77] It is the time you have wasted for your rose that makes your rose so important.
-
 eval themsg %%msg[%random.77%]%% #R%room.vnum%
 if %people%
   wait 1 s
@@ -146,7 +142,6 @@ PM2013~
 eval ndir %random.dir%
 set room %self.room%
 set people %room.people%
-
 set msg[1] We are not talking about bread.
 set msg[2] Now then, With PROjecT MayhEM, by design, there is never a simple answer.
 set msg[3] The Secret is, there is NO Secret...
@@ -260,7 +255,6 @@ set msg[110] When you see this, you will know that, deep in the rabbit hole, we 
 set msg[111] For history is nothing more than His Story. And He is Anonymous.
 set msg[112] Everyone who has read this, and understands the truth of what it says, has been promoted from Rat to Rabbit.
 set msg[113] Dare to plant the seeds of something beautiful, cultivate the field, fertilize the soil, and be prepared to reap the harvest of the fruits of your labor.
-
 eval themsg %%msg[%random.113%]%% #R%room.vnum%
 if %people%
   wait 1 s
@@ -279,7 +273,6 @@ TheGame23~
 eval ndir %random.dir%
 set room %self.room%
 set people %room.people%
-
 set msg[1] All identities are fake and the theater of operations is a simulated planet on top of a computer hypersimulation that creates #REALITY.
 set msg[2] In any case, dear readers, please don't take it too seriously. It's only a story.
 set msg[3] The truth is that I'm extremely exhausted after having given the 108% of my soul when writing this.
@@ -372,7 +365,6 @@ set msg[88] It only takes ONE single person to ACT.
 set msg[89] Early adopters might be rewarded best.
 set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
 set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
-
 eval themsg %%msg[%random.91%]%% #R%room.vnum%
 if %people%
   wait 1 s
@@ -391,7 +383,6 @@ PM2020~
 eval ndir %random.dir%
 set room %self.room%
 set people %room.people%
-
 set msg[1] IT has been called THE BOOK, THE PLAN,THE PROJECT, THE GAME, and has existed for thousands of years in many forms.
 set msg[2] IT is a story, as much as IT is any of these other things.
 set msg[3] A STORY that has been written, and re-written.
@@ -414,7 +405,6 @@ set msg[19] We are awake for the Greater Good of Humanity.
 set msg[20] We were brought here to help others wake up, to help others to be activated.
 set msg[21] We will do our outmost greatest to accomplish this goal, using our special gifts that have been given to us.
 set msg[22] Every human being is born with these gifts, we have been blessed to be aware of them.
-
 eval themsg %%msg[%random.22%]%% #R%room.vnum%
 if %people%
   wait 1 s
@@ -433,7 +423,6 @@ ethersec~
 eval ndir %random.dir%
 set room %self.room%
 set people %room.people%
-
 set msg[1] This is a message to all Searchers, Watchers, Activists, Hactivists, Urban Shamans, and Catalysts.
 set msg[2] THIS IS A MANIFESTO FOR CHANGE. POWERING ACROSS THE ETHER TO YOU AT JUST 33% TRUF CAPACITY.
 set msg[3] THIS MANIFESTO IS NOT EASY TO READ. MANY OF YOU WILL GET LOST ALONG THE WAY.
@@ -492,7 +481,6 @@ set msg[55] THERE ARE MANY WHO SEEK TO DISCREDIT THESE TRUTHS, AND KEEP YOU FROM
 set msg[56] WE ARE AWARE THAT WE AT TIMES RISK OUR LIVES TO PROVIDE A MESSAGE WHICH MANY MAY DISMISS AS "CRAZY".
 set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CANNONS OF WHICH YOU CANNOT CONCEIVE.
 set msg[58] Would you like to know more? You know what to do.
-
 eval themsg %%msg[%random.113%]%% #R%room.vnum%
 if %people%
   wait 1 s
@@ -518,7 +506,7 @@ end
 ~
 #95
 Arjika Dayshift~
-0 b 100
+0 t 100
 ~
 set wakeup %time.hour% == 7
 set bedtime %time.hour% == 16
@@ -536,7 +524,7 @@ end
 ~
 #96
 Arjika Nightshift~
-0 b 100
+0 t 100
 ~
 set wakeup %time.hour% == 15
 set bedtime %time.hour% == 8
