@@ -40,6 +40,7 @@ talk:#adventure view:thegame:world 0003/look
 ~
 0 0 3
 D3
+talk:#adventure view:thegame:world 0200/look
 ~
 ~
 1 0 200
@@ -56,6 +57,7 @@ talk:#adventure view:thegame:world 0004/look
 ~
 0 0 4
 D2
+talk:#adventure view:thegame:world 0002/look
 ~
 ~
 0 0 2
@@ -498,9 +500,7 @@ T 171
 T 172
 #94
 Socrates' Workspace~
-   The small prison cell is stifling and claustrophobic. A single glaring bulb
-in the plywood ceiling is out of reach. The only break in the block walls is a
-steel door that is closed and locked.
+talk:#adventure view:thegame:world 0094/main
 ~
 0 8 0 0 0 0
 S
@@ -508,9 +508,7 @@ T 172
 T 171
 #95
 Confucius' Workspace~
-   The musty stall is somehow cleaner than the others. A hole in the North wall
-and another in the floor has been cemented over. They must have once been a
-shower head and a drain before this stall was converted into a prison cell.
+talk:#adventure view:thegame:world 0095/main
 ~
 0 8 0 0 0 0
 S
@@ -518,9 +516,7 @@ T 171
 T 172
 #96
 James Stockdale's Workspace~
-   The small stall turned confinement cell is covered in dust. The dirty floor
-has various words and designs scratched into the dirt. The ceiling consists of
-a single sheet of unpainted plywood.
+talk:#adventure view:thegame:world 0096/main
 ~
 0 8 0 0 0 0
 S
@@ -528,7 +524,7 @@ T 171
 T 172
 #97
 Open Workspace~
-An open workspace available for use.
+talk:#adventure view:thegame:world 0097/main
 ~
 0 8 0 0 0 0
 D2

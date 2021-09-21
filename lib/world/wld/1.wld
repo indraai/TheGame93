@@ -1,280 +1,194 @@
 #100
 Temple of Arjika~
-   This large room appears to be inside a massive temple dedicated to the gods
-of Arjika.  The ceiling is supported by fluted columns and a main spiral
-stairwell that leads both up and down.  Small rooms adjoin this chamber in all
-four cardinal directions.  It is here mortals come to stay informed and discuss
-their adventures.
+talk:#adventure view:thegame:world 100/main
 ~
 1 28 0 0 0 0
 D0
+talk:#adventure view:thegame:world 113/look
 ~
 ~
 0 0 113
 D1
+talk:#adventure view:thegame:world 117/look
 ~
 ~
 0 0 117
 D2
+talk:#adventure view:thegame:world 120/look
 ~
 ~
 0 0 120
 D3
+talk:#adventure view:thegame:world 116/look
 ~
 ~
 0 0 116
 D4
+talk:#adventure view:thegame:world 101/look
 ~
 ~
 0 0 101
 D5
+talk:#adventure view:thegame:world 251/look
 ~
 ~
 0 0 251
 E
-info credits~
-Builder: Quinn Michaels
-Zone: 1 Arjika
-Related Zone: 2 Arjika II, 3 Arjika III
-Began: 2000
-Player Level: 1-34
-Rooms: 100
-Mobs: 100
-Objects: 76
-Shops: 6
-Triggers: 33
-Theme: A mortal starting town.
-Plot: Fabric of time torn, world going to hell. Arjika one of the few safe havens remaining.
-Notes: None
-Zone 1 is linked to the following zones:
-  2 Arjika II                     at   100 (down ) --->   251
-  3 Arjika III                    at   101 (south) --->   365
-  2 Arjika II                     at   111 (down ) --->   207
-  2 Arjika II                     at   112 (down ) --->   213
-  2 Arjika II                     at   114 (down ) --->   243
-  2 Arjika II                     at   115 (down ) --->   248
-  2 Arjika II                     at   118 (down ) --->   254
-  2 Arjika II                     at   119 (down ) --->   259
-  2 Arjika II                     at   121 (down ) --->   289
-  2 Arjika II                     at   122 (down ) --->   295
-  3 Arjika III                    at   128 (down ) --->   340
-  3 Arjika III                    at   129 (down ) --->   341
-  3 Arjika III                    at   132 (down ) --->   345
-  3 Arjika III                    at   133 (down ) --->   346
-  3 Arjika III                    at   139 (down ) --->   362
-  2 Arjika II                     at   189 (south) --->   200
-  2 Arjika II                     at   194 (south) --->   201
-  2 Arjika II                     at   195 (south) --->   202
-  2 Arjika II                     at   196 (south) --->   203
-  2 Arjika II                     at   197 (south) --->   204
-  2 Arjika II                     at   198 (south) --->   205
-  2 Arjika II                     at   199 (south) --->   206
+credits~
+talk:#adventure view:thegame:world 0100/credits
 ~
 S
 #101
 The Temple of Arjika~
-   This seems to be the highest point in the kingdom of Arjika.  It is from
-here that the worshippers come to pay tribute to those who have saved
-them from the chaos and destruction beyond the sanctuary of the city walls.
-Large windows reach from the floor to the ceiling, giving an excellent view of
-the city and countryside beyond.  An altar stands in the middle of the room with
-a statue on each side.
+talk:#adventure view:thegame:world 101/main
 ~
 1 16 0 0 0 0
 D2
+talk:#adventure view:thegame:world 365/look
 ~
 ~
 0 0 365
 D5
+talk:#adventure view:thegame:world 0100/look
 ~
 ~
 0 0 100
 E
 altar~
-   The altar is made from black granite and has been carved into a small basin
-with a high back.  Almost as if it was meant to be some sort of seat.
-Inscriptions in some foreign tongue are written on every square inch of the
-altar.  You wonder what they must say and who could have written it.
+talk:#adventure view:thegame:world 0101/altar
 ~
 E
 statue~
-As you examine the statues more closely you realize they must resemble the creators responsible for the creation and ongoing protection of Arjika.  They radiate a strength and power that resembles the solid white marble they were crafted from.
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 T 158
 T 163
 #102
 Inner Arjika~
-   This appears to be the highest room in the tower of Arjika where only those
-devoted to the guild of Clerics are allowed to practice their skills and spells
-to become masters of their discipline.  The walls are covered in a white see-
-through cloth giving one the impression of being inside of a tent rather than in
-a room.  The room glows brightly, though one cannot tell from what source.
+talk:#adventure view:thegame:world 0102/main
 ~
 1 24 0 0 0 0
 D5
+talk:#adventure view:thegame:world 0128/look
 ~
 ~
 0 0 128
 S
 #103
 High Council Meeting Room~
-   This is the meeting room for the guild of clerics.  All orders and affairs
-are resolved in this room by the High Council of Clerics.  They are responsible
-for the health of all the citizens of Arjika and are obligated to aid anyone who
-is in need.  A large rectangular table with thirteen chairs surrounding it
-fills the center of the room.  A large pane window overhead admits a glowing
-aura that fills the room with serenity.
+talk:#adventure view:thegame:world 0103/main
 ~
 1 8 0 0 0 1
 D5
+talk:#adventure view:thegame:world 129/look
 ~
 ~
 0 0 129
 E
 table~
-   A large sturdy oak table with two sturdy silver candelabras placed in the
-center.  The twelve chairs on the sides are used by the councillors while the
-head chair, which is garnished in silver, is only used by the High Councilman.
-
+talk:#adventure view:thegame:world 0103/table
 ~
 S
 T 51
 #104
 Inner Void~
-   This room is exempt from all normal laws of reality.  It appears to have
-entered the realm of magic where the laws of science no longer exist.  The void
-of this place is created within the traveler's mind and is the perfect place to
-practice mystical arts.  For those who have trained hard enough they shall
-receive assistance in their pursuit of knowledge and power.  Others will find
-peace in this void and never be able to return.
+talk:#adventure view:thegame:world 0104/main
 ~
 1 24 0 0 0 0
 D3
+talk:#adventure view:thegame:world 0000/look
 ~
 ~
 0 0 0
 D5
+talk:#adventure view:thegame:world 0132/look
 ~
 ~
 0 0 132
 E
 void~
-   How can you look at something that does not even exist.
+talk:#adventure view:thegame:world 0104/void
 ~
 S
 #105
 Rean's Zone Description Room~
-Those who have achieved the power and fame to be considered a Magi rule the
-Mages Quarter of Arjika.  They are responsible for the upkeep of the magical
-barrier that protects the city from the chaos of the outside world.  They may
-also be called upon to protect the city in case of an attack.  The Magi are the
-most revered of all the classes as they are the most powerful.  But that power
-has a price.  Only five Magi have survived.  Five decorative cushions are
-placed in a circle in the middle of the room.
+talk:#adventure view:thegame:world 0105/main
 ~
 1 8 0 0 0 1
 D5
+talk:#adventure view:thegame:world 0133/look
 ~
 ~
 0 0 133
 E
 cushions~
-   Each cushion is of a different color.  Red, Blue, Green, Black, Yellow.
-You notice two other cushions lined against the wall before a small altar.
-They are Gray and Purple.  Those colors symbolize the stages in the raising of
-a Magi.  Few every achieve that honor.  None have for the Order of the Purple
-or Gray Robe.
+talk:#adventure view:thegame:world 0105/cushions
 ~
 S
 #106
 Above the Northern Gate~
-   In between the Artist and Hero Quarter the Northern Gate is the main
-defensive hold in case of an attack.  At this distance one can just barely make
-out the shimmering firmament that was created by the gods and is now sustained by the
-Magi.  The firmament curves along the walls of the city and can not be seen for more
-than a few feet in any direction.  It flickers as if a mirage, only visible when
-glanced at from one side.  Stone stairs lead down into the city wall.
+talk:#adventure view:thegame:world 0106/main
 ~
 1 0 0 0 0 1
 D5
+talk:#adventure view:thegame:world 0140/look
 ~
 ~
 0 0 140
 E
-firmament barrier shimmering~
-The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
+firmament~
+talk:#adventure view:thegame:world 0106/firmament
 ~
 S
 #107
 Training Room~
-   Pads of cloth line the walls and floor softening heroes falls as they are
-thrown about by their trainers.  This is where fighters come to hone their
-battling skills.  Racks of weapons line two of the four walls.  The room is
-filled with a smoky haze from four brass lanterns suspended from the ceiling.
-The room smells of sweat.
+talk:#adventure view:thegame:world 0107/main
 ~
 1 24 0 0 0 0
 D5
+talk:#adventure view:thegame:world 0141/look
 ~
 ~
 0 0 141
 S
 #108
 War Room~
-   A large hearthstone fireplace blazes in one wall.  Maps, charts and other
-strategic planning tools are placed on a large glass table with a map of the
-realm encased within.  This is where the War Master plans how to protect the
-city in case of an attack.  The room is a mess with maps piled high and
-scattered haphazardly wherever there is room.  This is where the defense of the
-city is run from.
+talk:#adventure view:thegame:world 0108/main
 ~
 1 8 0 0 0 0
 D5
+talk:#adventure view:thegame:world 0142/look
 ~
 ~
 0 0 142
 E
 table~
-   The table is made out of cherry.  It is worn from years of use.  The glass
-top allows for an excellent view of the map protected within.
+talk:#adventure view:thegame:world 0108/table
 ~
 E
 map~
-   The map is a geographic representation of Arjika.  Not even really a map,
-more of a scaled model.  The walls and buildings of the city are raised higher
-than the rest of the map to give it a third dimension.  Small soldiers are
-scattered around the top of the table to help the War Master place his men.
+talk:#adventure view:thegame:world 0108/map
 ~
 S
 #109
 Artist Retreat~
-   All the curtains are pulled tight, the shades drawn low.  A feeling of
-mystery and secrecy blankets the room.  Dim lights cause a dancing of shadows
-that plays tricks on the eyes.  A few of the shadows may actually be people,
-hidden easily in the darkness Those who have chosen the discipline of artistry
-can learn invaluable skills here to further their training and wealth.
+talk:#adventure view:thegame:world 0109/main
 ~
 1 24 0 0 0 0
 D5
+talk:#adventure view:thegame:world 0150/look
 ~
 ~
 0 0 150
 S
 #110
 Strategy Room~
-   The masters of the underground gather here to devise their plans for the
-running of Arjika.  Their abilities in deception allowed them to take over the
-internal affairs of the city.  They control the trade and finances of the city.
-Many disagree with this concept but none can disagree with the results.
-Artist are masters when it comes to politics.
+talk:#adventure view:thegame:world 0110/main
 ~
 1 8 0 0 0 0
 D5
+talk:#adventure view:thegame:world 0151/look
 ~
 ~
 0 0 151
