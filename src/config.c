@@ -170,13 +170,13 @@ int selfdelete_fastwipe = YES;
 
 /* ROOM NUMBERS */
 /* Virtual number of room that mortals should enter at. */
-room_vnum mortal_start_room = 2;
+room_vnum mortal_start_room = 251;
 
 /* Virtual number of room that immorts should enter at by default. */
-room_vnum immort_start_room = 2;
+room_vnum immort_start_room = 235;
 
 /* Virtual number of room that frozen players should enter at. */
-room_vnum frozen_start_room = 2;
+room_vnum frozen_start_room = 251;
 
 /* Virtual numbers of donation rooms.  note: you must change code in do_drop of
  * act.item.c if you change the number of non-NOWHERE donation rooms. */
