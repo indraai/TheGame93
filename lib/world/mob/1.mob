@@ -951,11 +951,22 @@ Tyler PM2012 is here.
 ~
 You can learn more about Tyler PM2012 pastebin.com/Ux0Uk2em
 ~
-256026 0 0 0 2128 0 0 0 0 E
+2074 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
-BareHandAttack: 2
+BareHandAttack: 11
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 T 2
 #169
@@ -965,7 +976,7 @@ Tyler PM2013 is here.
 ~
 You can learn more about Tyler PM2013 pastebin.com/scNXFWRP
 ~
-256026 0 0 0 2128 0 0 0 0 E
+2074 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -979,7 +990,7 @@ Tyler TG23 is here.
 ~
 You can learn more about Tyler TG23 pastebin.com/YbmG6ETq
 ~
-256026 0 0 0 2128 0 0 0 0 E
+2074 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
