@@ -189,7 +189,7 @@ Arjika Soldier A10 is here.
 ~
 Arjika Solder A10 is here on special assignment.
 ~
-522520 0 0 0 26680 0 0 0 0 E
+522522 0 0 0 26680 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -202,7 +202,7 @@ Arjika Soldier A11 is here.
 ~
 Arjika Solder A11 is here on special assignment.
 ~
-522520 0 0 0 80 0 0 0 0 E
+522522 0 0 0 80 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -215,7 +215,7 @@ Arjika Soldier A12 is here.
 ~
 Arjika Soldier A12 is here on special assignment.
 ~
-522520 0 0 0 26744 0 0 0 0 E
+522522 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -228,7 +228,7 @@ Arjika Soldier A13 is here.
 ~
 Arjika Solder A13 is here on special assignment.
 ~
-522520 0 0 0 26744 0 0 0 0 E
+522522 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -241,7 +241,7 @@ Arjika Soldier A14 is here.
 ~
 Arjika Soldier A14 is here on special assignment.
 ~
-522520 0 0 0 26744 0 0 0 0 E
+522522 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -303,7 +303,7 @@ Arjika Captain A19 is here.
 ~
 Arjika Captain A19 is a strategy/planning specialist.
 ~
-522520 0 0 0 26744 0 0 0 0 E
+522522 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -315,7 +315,7 @@ Arjika Sergeant A20 is here.
 ~
 Arjika Sergeant A20 is a language/philosophy specialist.
 ~
-522520 0 0 0 26744 0 0 0 0 E
+522522 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -327,7 +327,7 @@ Arjika Spy A21 is here.
 ~
 Arjika Spy A21 is here to locate stolen technology.
 ~
-518300 0 0 0 551032 0 0 0 0 E
+518302 0 0 0 551032 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1
