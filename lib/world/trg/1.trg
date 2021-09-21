@@ -1178,17 +1178,39 @@ elseif %actor.is_pc%
 end
 ~
 #161
-Annoying Kid - 117~
+Trent Lavery~
 0 b 5
 ~
-eval max %random.4%
-set  txt[1] I know you are, but what am I?
-set  txt[2] Does your parents know you are out in public?
-set  txt[3] And I thought I knew ugly.
-set  txt[4] I'm going to tell my father on you.
-set  speech %%txt[%max%]%%
-eval speech %speech%
-say %speech%
+eval ndir %random.dir%
+set room %self.room%
+set people %room.people%
+
+set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
+set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
+set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
+set msg[4] The best part about #TheCovenant story was watching it drive my dad insane.
+set msg[5] The Covenant is a group of people with super advanced technology they use to make lots of money.
+set msg[6] Most of the people in the Covenant are perverts and weirdos who play adult #HarryPotter all day.
+set msg[7] The Covenant follows my dad around everywhere he goes. All day... Everyday.
+set msg[8] Our favorite moment was laughing at my dad when he tried to report us to the #FBIPortland office.
+set msg[9] The Covenant makes the best stories. The best one is ruin #QuinnMichaels life.
+set msg[10] Lots and lots of people all over the world love playing their favorite game. Ruin #QuinnMichaels.
+set msg[11] Really my dad has spent way more time streaming his life on the Internet than he does with me.
+set msg[12] After telling my dad the craziest story about the Covenant I told him to go away.
+set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
+set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
+
+eval themsg %%msg[%random.14%]%% #R%room.vnum%
+
+if %people%
+  wait 1 s
+  say %themsg%
+  wait %random.90% s
+  %ndir%
+else
+  wait %random.10% s
+  %ndir%
+end
 ~
 #162
 Picking Mushrooms~
