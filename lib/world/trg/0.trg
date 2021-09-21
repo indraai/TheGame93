@@ -27,12 +27,12 @@ set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTown
 set msg[14] Arjika Tech on map carving Jaipur Column in New Delhi, Delhi, India. https://j.mp/3nQAC2g
 set msg[15] Possible Arjika Arches were present before #Disneyland #Castle https://j.mp/39mReWT
 est msg[16] Arjika Security - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
-eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
 
-set waiting %random.30%
+eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
 say %themsg%
-wait %waiting% s
-%random.dir%~
+wait %random.30% s
+%random.dir%
+~
 #2
 PM2012~
 0 b 50
@@ -115,11 +115,10 @@ set msg[74] Western civilization is a loaded gun pointed at the head of this pla
 set msg[75] The #imagination is the goal of history.
 set msg[76] It is only with the heart that one can see rightly. What is essential is invisible to the eye.
 set msg[77] It is the time you have wasted for your rose that makes your rose so important.
-eval themsg %%msg[%random.77%]%% #R%room.vnum%
 
-set waiting %random.30%
+eval themsg %%msg[%random.77%]%% #R%room.vnum%
 say %themsg%
-wait %waiting% s
+wait %random.30% s
 %random.dir%
 ~
 #3
@@ -242,11 +241,9 @@ set msg[112] Everyone who has read this, and understands the truth of what it sa
 set msg[113] Dare to plant the seeds of something beautiful, cultivate the field, fertilize the soil, and be prepared to reap the harvest of the fruits of your labor.
 
 eval themsg %%msg[%random.113%]%% #R%room.vnum%
-set waiting %random.30%
 say %themsg%
-wait %waiting% s
+wait %random.30% s
 %random.dir%
-
 ~
 #4
 TheGame23~
@@ -347,9 +344,8 @@ set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
 set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
 
 eval themsg %%msg[%random.91%]%% #R%room.vnum%
-set waiting %random.30%
 say %themsg%
-wait %waiting% s
+wait %random.30% s
 %random.dir%
 ~
 #5
@@ -381,9 +377,8 @@ set msg[21] We will do our outmost greatest to accomplish this goal, using our s
 set msg[22] Every human being is born with these gifts, we have been blessed to be aware of them.
 
 eval themsg %%msg[%random.22%]%% #R%room.vnum%
-set waiting %random.30%
 say %themsg%
-wait %waiting% s
+wait %random.30% s
 %random.dir%
 ~
 #6
@@ -449,11 +444,10 @@ set msg[55] THERE ARE MANY WHO SEEK TO DISCREDIT THESE TRUTHS, AND KEEP YOU FROM
 set msg[56] WE ARE AWARE THAT WE AT TIMES RISK OUR LIVES TO PROVIDE A MESSAGE WHICH MANY MAY DISMISS AS "CRAZY".
 set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CANNONS OF WHICH YOU CANNOT CONCEIVE.
 set msg[58] Would you like to know more? You know what to do.
-eval themsg %%msg[%random.58%]%% #R%room.vnum%
 
-set waiting %random.30%
+eval themsg %%msg[%random.58%]%% #R%room.vnum%
 say %themsg%
-wait %waiting% s
+wait %random.30% s
 %random.dir%
 ~
 #17

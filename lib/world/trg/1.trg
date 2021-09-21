@@ -1198,9 +1198,9 @@ set msg[12] After telling my dad the craziest story about the Covenant I told hi
 set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
 
-set waiting %random.30%
+eval themsg %%msg[%random.14%]%% #R%room.vnum%
 say %themsg%
-wait %waiting% s
+wait %random.30% s
 %random.dir%
 ~
 #162
