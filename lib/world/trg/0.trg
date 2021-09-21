@@ -20,8 +20,8 @@ set msg[6] If you or someone you know has information lost or stolen Arjika Tech
 set msg[7] Teams are here on Earth from Arjika looking for technology and a citizen being held captive.
 set msg[8] Please if you have any information relating to Arjika technology reort it to security.
 set msg[9] We are on Earth looking for information relating to a Arjika citizen.
-set msg[10] Sindhu Soldiers are here on Earth looking for missing Technology.
-set msg[11] Sindhu Soldiers are here on Earth looking for a missing citizen.
+set msg[10] Soldiers have arrived on Earth looking for missing Arjika Technology.
+set msg[11] Soldiers are here on Earth looking for a missing Arjika Citizen.
 set msg[12] Traces of Arjika Technology have been located in #GdanskTownHall https://j.mp/2XyYQms
 set msg[13] Indicators of Arjika Tech located in the #RedRoom of #GdanskTownHall https://j.mp/3zrkXbU
 set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTownHall https://j.mp/3EAj00w
