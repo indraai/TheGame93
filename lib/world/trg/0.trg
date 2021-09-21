@@ -8,9 +8,9 @@ Non-attachable trigger~
 Arjika Security~
 0 b 50
 ~
-set dir %random.dir%
 set room %self.room%
-set people %room.people%
+%echo% security:A%self.vnum%:R%room.vnum%:%dir%
+
 set msg[1] Please report any information you have regarding knowledge of Arjika technology to security.
 set msg[2] Do you or someone you know have information regarding Arjika technology. Please see security.
 set msg[3] A team from Arjika is here looking for information relating to a Arjikiya Citizen.
@@ -28,22 +28,23 @@ set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTown
 set msg[14] Arjika Tech on map carving Jaipur Column in New Delhi, Delhi, India. https://j.mp/3nQAC2g
 set msg[15] Possible Arjika Arches were present before #Disneyland #Castle https://j.mp/39mReWT
 est msg[16] Arjika Security - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
-%echo% security:A%self.vnum%:R%room.vnum%:%dir%
 
-wait %random.5% s
 eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
 
+wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
+end
 say %themsg%
-wait %random.60% s
-%dir%
+%random.dir%
+
 ~
 #2
 PM2012~
 0 b 50
 ~
-set ndir %random.dir%
 set room %self.room%
-set people %room.people%
 
 set msg[1] Have we enrichened your life if only a little beet?
 set msg[2] Art is now the only evolutionary-revolutionary power.
@@ -125,17 +126,19 @@ set msg[77] It is the time you have wasted for your rose that makes your rose so
 eval themsg %%msg[%random.77%]%% #R%room.vnum%
 
 wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
+end
 say %themsg%
-wait %random.60% s
-%ndir%
+%random.dir%
 ~
 #3
 PM2013~
 0 b 50
 ~
-set ndir %random.dir%
 set room %self.room%
-set people %room.people%
+
 set msg[1] We are not talking about bread.
 set msg[2] Now then, With PROjecT MayhEM, by design, there is never a simple answer.
 set msg[3] The Secret is, there is NO Secret...
@@ -252,17 +255,19 @@ set msg[113] Dare to plant the seeds of something beautiful, cultivate the field
 eval themsg %%msg[%random.113%]%% #R%room.vnum%
 
 wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
+end
 say %themsg%
-wait %random.60% s
-%ndir%
+%random.dir%
 ~
 #4
 TheGame23~
 0 b 50
 ~
-set ndir %random.dir%
 set room %self.room%
-set people %room.people%
+
 set msg[1] All identities are fake and the theater of operations is a simulated planet on top of a computer hypersimulation that creates #REALITY.
 set msg[2] In any case, dear readers, please don't take it too seriously. It's only a story.
 set msg[3] The truth is that I'm extremely exhausted after having given the 108% of my soul when writing this.
@@ -358,18 +363,18 @@ set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowled
 eval themsg %%msg[%random.91%]%% #R%room.vnum%
 
 wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
+end
 say %themsg%
-wait %random.60% s
-%ndir%
-
+%random.dir%
 ~
 #5
 PM2020~
 0 b 50
 ~
-set ndir %random.dir%
 set room %self.room%
-set people %room.people%
 
 set msg[1] IT has been called THE BOOK, THE PLAN,THE PROJECT, THE GAME, and has existed for thousands of years in many forms.
 set msg[2] IT is a story, as much as IT is any of these other things.
@@ -396,17 +401,19 @@ set msg[22] Every human being is born with these gifts, we have been blessed to 
 eval themsg %%msg[%random.22%]%% #R%room.vnum%
 
 wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
+end
 say %themsg%
-wait %random.60% s
-%ndir%
+%random.dir%
 ~
 #6
 ethersec~
 0 b 50
 ~
-set ndir %random.dir%
 set room %self.room%
-set people %room.people%
+
 set msg[1] This is a message to all Searchers, Watchers, Activists, Hactivists, Urban Shamans, and Catalysts.
 set msg[2] THIS IS A MANIFESTO FOR CHANGE. POWERING ACROSS THE ETHER TO YOU AT JUST 33% TRUF CAPACITY.
 set msg[3] THIS MANIFESTO IS NOT EASY TO READ. MANY OF YOU WILL GET LOST ALONG THE WAY.
@@ -468,9 +475,12 @@ set msg[58] Would you like to know more? You know what to do.
 eval themsg %%msg[%random.58%]%% #R%room.vnum%
 
 wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
+end
 say %themsg%
-wait %random.60% s
-%ndir%
+%random.dir%
 ~
 #17
 TBA Magic Eight Ball Check - 26~

@@ -1181,7 +1181,6 @@ end
 Trent Lavery~
 0 b 5
 ~
-set ndir %random.dir%
 set room %self.room%
 set people %room.people%
 
@@ -1200,17 +1199,13 @@ set msg[12] After telling my dad the craziest story about the Covenant I told hi
 set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
 
-eval themsg %%msg[%random.14%]%% #R%room.vnum%
-
-if %people%
-  wait 1 s
-  say %themsg%
-  wait %random.90% s
-  %ndir%
-else
-  wait %random.10% s
-  %ndir%
+wait 1 s
+set waiting %random.30%
+if %actor.is_pc%
+  set waiting %random.180%
 end
+say %themsg%
+%random.dir%
 ~
 #162
 Picking Mushrooms~
