@@ -1302,7 +1302,6 @@ D2
 ~
 0 0 285
 S
-T 55
 #273
 A Study~
    Bookshelves line the western wall, reaching well above your head.  A small
@@ -1347,7 +1346,7 @@ D3
 0 0 273
 S
 #275
-s Avenue~
+Clerics Avenue~
    The building to the west is the Hall of s where the High Council holds
 audience with any who request it.  To the east the inner city wall looks about
 as impenetrable as any wall ever seen.  s Avenue continues north and
@@ -1571,7 +1570,7 @@ D2
 0 0 300
 S
 #288
-s Avenue~
+Clerics Avenue~
    The inner city wall to the east consists of large boulders, that look to be
 too big to move by any humans, and some sort of filler.  The wall rises at least
 three times the average man's height and one can not tell how thick it must be.
