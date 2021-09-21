@@ -33,7 +33,7 @@ wait %random.5% s
 eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
 if %people%
   say %themsg%
-  wait %random.60% s
+  wait %random.90% s
   %dir%
 else
   wait %random.10% s
@@ -128,7 +128,7 @@ eval themsg %%msg[%random.77%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
-  wait %random.30% s
+  wait %random.90% s
   %ndir%
 else
   wait %random.10% s
@@ -259,7 +259,7 @@ eval themsg %%msg[%random.113%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
-  wait %random.30% s
+  wait %random.90% s
   %ndir%
 else
   wait %random.10% s
@@ -369,7 +369,7 @@ eval themsg %%msg[%random.91%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
-  wait %random.30% s
+  wait %random.90% s
   %ndir%
 else
   wait %random.10% s
@@ -409,7 +409,7 @@ eval themsg %%msg[%random.22%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
-  wait %random.30% s
+  wait %random.90% s
   %ndir%
 else
   wait %random.10% s
@@ -485,7 +485,7 @@ eval themsg %%msg[%random.58%]%% #R%room.vnum%
 if %people%
   wait 1 s
   say %themsg%
-  wait %random.30% s
+  wait %random.90% s
   %ndir%
 else
   wait %random.10% s
