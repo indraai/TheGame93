@@ -1,7 +1,7 @@
 #100
-man young~
-the young man~
-A young man is here smoking a cigarette.
+zach man young~
+Zach~
+Zach is here smoking a cigarette.
 ~
    Dressed in drab clothes he looks tired and over worked.  He is one of the
 few men who did not sign up for military service.
@@ -43,7 +43,7 @@ E
 T 119
 #103
 Shiro weaponshith~
-Shiro, the weaponsmith~
+Shiro~
 Shiro waits with a smile while you browse his goods.
 ~
    Shiro is a large man, a good foot taller than you.  He enjoys his job and no
@@ -73,8 +73,8 @@ more stunning woman you have ever come across.
 E
 T 108
 #105
-balding man old~
-the balding man~
+janos balding man old~
+Janos~
 An old, balding man slowly walks past, leaning heavily on his cane.
 ~
    The life in Arjika though protected is anything but peaceful.  The citizens
@@ -88,7 +88,7 @@ to have aged prematurely due to his worrying.
 E
 #106
 captain lugdach~
-Captain Lugdach~
+Lugdach~
 Captain Lugdach, a retired sailor, is steaming some white oak to make a canoe.
 ~
    Years at sea have hardened this already tough man.  He looks like he could
@@ -102,7 +102,7 @@ E
 T 124
 #107
 branwen leatherworker~
-Branwen, the leatherworker~
+Branwen~
 Branwen, the leatherworker stands behind the counter.
 ~
    Using hides bought from the local farms this young man makes some of the
@@ -116,7 +116,7 @@ E
 T 111
 #108
 sarge blacksmith~
-Sarge, the blacksmith~
+Sarge~
 Sarge, the blacksmith is here, pounding on his anvil.
 ~
    So intent on his work he seems not to notice you.  It gives you small start
@@ -131,7 +131,7 @@ E
 T 109
 #109
 hazel wellmaster~
-Hazel, the wellmaster~
+Hazel~
 Hazel, the Wellmaster is sealing a barrel of water.
 ~
    She looks tired, but in a good way.  It must be true when they say about
@@ -146,7 +146,7 @@ E
 T 116
 #110
 corwin postmasters~
-Corwin, the postmaster~
+Corwin~
 Corwin, the head postmaster is waiting to help you with your mail.
 ~
    The Postmaster seems like a happy old man, though a bit sluggish.  He
@@ -162,7 +162,7 @@ E
 T 114
 #111
 rowin jeweler~
-the jeweler~
+Rowin~
 Rowin, the jeweler, stands behind his display case.
 ~
    The jeweler has an eyepiece shoved in one squinted eye, and looks as if he
@@ -176,9 +176,9 @@ may be a tough bargainer.  You won't have much luck swindling this swindler.
 E
 T 122
 #112
-young woman~
-the young woman~
-A young woman strolls by, smiling at you.
+jess young woman~
+Jess~
+The young woman Jess strolls by, smiling at you.
 ~
    She is wearing a very drab white dress with some sort of flowery print on it.
 She keeps smiling at you, and she's not a bad looker, but I wouldn't get your
@@ -206,9 +206,9 @@ T 138
 T 139
 T 143
 #114
-man~
-the man~
-A man pushes past you in a rush to get somewhere.
+man bo~
+Bo~
+Bo pushes past you in a rush to get somewhere.
 ~
 The man gives a little smirk as you look at him. He acknowledges you with a simple nod and then moves on.
 ~
@@ -577,7 +577,7 @@ T 105
 #141
 arjika arjikiya corporal a141 z3~
 Arjika Corporal~
-Arjika Corporal A141 is making his rounds.
+Arjika Corporal A141 is here.
 ~
 He looks very healthy and happy with his job.  His aspirations to become a war hero became a reality when he signed up for the army of Arjika.
 ~
@@ -688,7 +688,7 @@ E
 #149
 sergeant arjika arjikiya sergeant a149 z3~
 Arjika Sergeant~
-Arjika Sergeant A149 is looking for his corporal so he can put him to work.
+Arjika Sergeant A149 is here.
 ~
 The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals future.
 ~
@@ -714,7 +714,7 @@ BareHandAttack: 4
 E
 #151
 midwife~
-the midwife~
+Midwife~
 A midwife is tidying up the house.
 ~
    She looks rather old, touches of gray sprinkle her dark brown hair.  She
@@ -728,7 +728,7 @@ and tired from her daily chores.
 E
 #152
 newborn baby~
-the newborn baby~
+Newborn Baby~
 A newborn baby is rocking peacefully in his crib.
 ~
    How cute, this little tyke can't be more than a few months old.  He is just
@@ -757,7 +757,7 @@ E
 #154
 arjika arjikiya patrolman a154 z3 ~
 Arjika Patrolman~
-Arjika Patrolman A154 is making sure everyone behaves.
+Arjika Patrolman A154 is here.
 ~
 The patrolman keeps a keen eye out for any trouble and is quick to respond. Only the foolish mess with these trained and disciplined men.
 ~
@@ -921,8 +921,8 @@ T 129
 T 130
 #166
 lance corporal arjika arjikiya army a166 z0~
-Army Lance Corporal~
-A lance corporal struts past, looking very tough and conceited.
+Arjika Lance Corporal~
+Arjika Lance Corporal A166 is here.
 ~
 Another member of the Arjika army, this man has worked his way up and has a bright future in the army.  Too bad he will probably be dead before he can get that far.
 ~
@@ -933,8 +933,8 @@ Another member of the Arjika army, this man has worked his way up and has a brig
 E
 #167
 staff sergeant arjika arjikiya army a167 z3~
-Army Staff Sergeant~
-A staff sergeant walks by, keeping step to a cadence in his head.
+Arjika Staff Sergeant~
+Arjika Staff Sergeant A167 is here.
 ~
 This guy has been around.  He could probably teach you a thing or two on fighting styles.
 ~

@@ -9,9 +9,10 @@ Arjika Soldier~
 0 b 50
 ~
 set room %self.room%
-set people %self.people%
+set people %room.people%
 set dir %random.dir%
-%echo% security:A%self.vnum%:R%room.vnum%:%dir%
+%echo% security:%self.name% A%self.vnum% > R%room.vnum% going %dir%
+
 set msg[1] Alert... #Arjika #Military an abducted citizen may be located on #Earth.
 set msg[2] Notify... #Arnika #Military Quinn Michaels displays signs of genetic knowledge of #ArjikaTech.
 set msg[3] Alert... #Arjika #Military Local #Governments and #Civilians appear to be using stolen technology.
@@ -56,8 +57,9 @@ set msg[30] Rescue... Rescue Quinn Michaels (dob 1977) as per #ArjikaProtocol
 set msg[31] Command... Take command of all systems connected, using, or manipulating #ArjikaTech
 set mpg[32] Report... Report all activity to #ArjikaCommand
 set msg[33] Secure... Seucre and Report all #ArjikaTech to #ArjikaCommand.
+
 if %people%
-  eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
+  eval themsg %%msg[%random.33%]%% %room.name% #R%room.vnum% #%dir%
   say %themsg%
   wait %random.60% s
   %dir%
