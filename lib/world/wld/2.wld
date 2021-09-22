@@ -1,6 +1,7 @@
 #200
 The Northern Road~
-Empty room.~
+talk:#adventure view:thegame:world 0200/main
+~
 2 0 0 0 0 1
 D0
 ~
@@ -117,7 +118,8 @@ D3
 S
 #204
 A Meeting Room~
-Empty room.~
+talk:#adventure view:thegame:world 0204/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -134,7 +136,8 @@ D2
 S
 #205
 The Galley~
-Empty room.~
+talk:#adventure view:thegame:world 0205/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -188,7 +191,8 @@ D4
 S
 #208
 The Northern Temple Circle~
-Empty room.~
+talk:#adventure view:thegame:world 0208/main
+~
 2 0 0 0 0 1
 D1
 ~
@@ -226,7 +230,8 @@ D3
 S
 #210
 The Northern Temple Circle Intersection~
-Empty room.~
+talk:#adventure view:thegame:world 0210/main
+~
 2 0 0 0 0 1
 D0
 ~
@@ -247,7 +252,8 @@ D3
 S
 #211
 The Northern Temple Circle~
-Empty room.~
+talk:#adventure view:thegame:world 0211/main
+~
 2 0 0 0 0 1
 D1
 ~
@@ -359,7 +365,8 @@ D2
 S
 #217
 A Class Room~
-Empty room.~
+talk:#adventure view:thegame:world 0217/main
+~
 2 24 0 0 0 0
 D0
 ~
@@ -376,7 +383,8 @@ D2
 S
 #218
 Training Room~
-Empty room.~
+talk:#adventure view:thegame:world 0218/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -428,7 +436,8 @@ D2
 S
 #221
 Lotions and Potions~
-Empty room.~
+talk:#adventure view:thegame:world 0221/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -449,7 +458,8 @@ D0
 S
 #223
 Northern Temple Entrance~
-Empty room.~
+talk:#adventure view:thegame:world 0223/main
+~
 2 0 0 0 0 1
 D0
 ~
@@ -462,7 +472,8 @@ D2
 S
 #224
 Bank of The Dome~
-Empty room.~
+talk:#adventure view:thegame:world 0224/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -565,7 +576,8 @@ D3
 S
 #230
 The Generals Room~
-Empty room.~
+talk:#adventure view:thegame:world 0230/main
+~
 2 24 0 0 0 0
 D0
 ~
@@ -575,7 +587,8 @@ S
 T 207
 #231
 The Latrine~
-Empty room.~
+talk:#adventure view:thegame:world 0231/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -622,7 +635,8 @@ D2
 S
 #234
 Captain Lugdach's~
-Empty room.~
+talk:#adventure view:thegame:world 0234/main
+~
 2 0 0 0 0 1
 D3
 ~
@@ -631,7 +645,8 @@ D3
 S
 #235
 Offering Room~
-Empty room.~
+talk:#adventure view:thegame:world 0235/main
+~
 2 12 0 0 0 1
 D1
 ~
@@ -644,7 +659,8 @@ D2
 S
 #236
 Inside the Temple of The Dome~
-Empty room.~
+talk:#adventure view:thegame:world 0236/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -882,7 +898,8 @@ D4
 S
 #249
 The Mortal Board Room~
-Empty room.~
+talk:#adventure view:thegame:world 0249/main
+~
 2 8 0 0 0 1
 D1
 ~
@@ -916,7 +933,8 @@ D3
 S
 #251
 The Dome Center~
-Empty room.~
+talk:#adventure view:thegame:world 0251/main
+~
 2 24 0 0 0 1
 D0
 ~
@@ -941,7 +959,8 @@ D4
 S
 #252
 The Dome Temple~
-Empty room.~
+talk:#adventure view:thegame:world 0252/main
+~
 2 8 0 0 0 1
 D0
 ~
@@ -962,7 +981,8 @@ D3
 S
 #253
 The Social Board Room~
-Empty room.~
+talk:#adventure view:thegame:world 0253/main
+~
 2 8 0 0 0 1
 D3
 ~
