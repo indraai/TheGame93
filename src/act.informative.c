@@ -553,17 +553,17 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
   else
     /* send room title */
-
   if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief || ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
     if(!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOMAP) && can_see_map(ch))
         str_and_map(world[target_room].description, ch, target_room);
     else
       /* send the room description */
       send_to_char(ch, "\n# %s\r"
-        "\n%s\r"
+        "\ntalk:#adventure view:thegame:world %s/main\r"
         "\nroom:%d\r",
         world[IN_ROOM(ch)].name,
-        world[target_room].description,
+        // world[target_room].description,
+        GET_ROOM_VNUM(IN_ROOM(ch)),
         GET_ROOM_VNUM(IN_ROOM(ch))
       );
   }
@@ -592,10 +592,12 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\n# %s\r"
-        "\n%s\r"
+        "\ntalk:#adventure view:thegame:world %s/%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
-        EXIT(ch, dir)->general_description,
+        GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
+        EXIT(ch, dir)->keyword,
+        // EXIT(ch, dir)->general_description,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
