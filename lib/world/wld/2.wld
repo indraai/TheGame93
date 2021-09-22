@@ -959,6 +959,10 @@ talk:#adventure view:thegame:world 0100/look
 ~
 ~
 0 0 100
+E
+tweet~
+talk:#adventure view:thegame:world 0251/tweet
+~
 S
 #252
 The Dome Temple~
