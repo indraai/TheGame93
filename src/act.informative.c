@@ -559,7 +559,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     else
       /* send the room description */
       send_to_char(ch, "\n# %s\r"
-        "\ntalk:#adventure view:thegame:world %s/main\r"
+        "\ntalk:#adventure view:thegame:world %d/main\r"
         "\nroom:%d\r",
         world[IN_ROOM(ch)].name,
         // world[target_room].description,
@@ -592,7 +592,7 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\n# %s\r"
-        "\ntalk:#adventure view:thegame:world %s/%s\r"
+        "\ntalk:#adventure view:thegame:world %d/%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
