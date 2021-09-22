@@ -614,21 +614,21 @@ D2
 S
 #233
 The Western Temple Circle~
-   To the south one see the western gate to leave the inner city.  The Temple of
-The Dome can only be entered from the north or south.  A small shed of some sort
-has been erected to the east.  It was recently made from wood and appears to
-have been constructed in a hurry.
+talk:#adventure view:thegame:world 0233/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0220/look
 ~
 ~
 0 0 220
 D1
+talk:#adventure view:thegame:world 0234/look
 ~
 ~
 0 0 234
 D2
+talk:#adventure view:thegame:world 0248/look
 ~
 ~
 0 0 248
@@ -639,6 +639,7 @@ talk:#adventure view:thegame:world 0234/main
 ~
 2 0 0 0 0 1
 D3
+talk:#adventure view:thegame:world 0233/look
 ~
 ~
 0 0 233
@@ -649,10 +650,12 @@ talk:#adventure view:thegame:world 0235/main
 ~
 2 12 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0236/look
 ~
 ~
 0 0 236
 D2
+talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
@@ -663,235 +666,228 @@ talk:#adventure view:thegame:world 0236/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0223/look
 ~
 ~
 0 0 223
 D1
+talk:#adventure view:thegame:world 0237/look
 ~
 ~
 0 0 237
 D2
+talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 D3
+talk:#adventure view:thegame:world 235/look
 ~
 ~
 0 0 235
 S
 #237
 A Waiting Room~
-   The room is made entirely from white marble inlaid with gold.  Columns of
-white marble rise up to the ceiling which looks to be pure hammered gold.
-Several cushions and benches line the walls to allow a place for people to wait
-before the daily services.
+talk:#adventure view:thegame:world 0237/main
 ~
 2 8 0 0 0 1
 D2
+talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 D3
+talk:#adventure view:thegame:world 0236/look
 ~
 ~
 0 0 236
 S
 #238
 Carla the Cloth Mistress~
-   The room is filled to overflowing with bundles of wool, cloth, velvet, silk.
-Everything a person could imagine.  All used to make some of the finest clothes
-in the realm.  Every type of clothing can be found here.  Anything that can't be
-seen, Carla can make.
+talk:#adventure view:thegame:world 0238/main
 ~
 2 8 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0239/look
 ~
 ~
 0 0 239
 S
 #239
 The Eastern Temple Circle~
-   The western gate of the inner city wall is just to the south where one can
-venture out into the city.  The Tower of The Dome shines brightly, its white
-marble reflecting all light that strikes it.  The Tower is rumored to be a
-combination of magic and perfect architecture.
+talk:#adventure view:thegame:world 0239/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0226/look
 ~
 ~
 0 0 226
 D2
+talk:#adventure view:thegame:world 0254/look
 ~
 ~
 0 0 254
 D3
+talk:#adventure view:thegame:world 0238/look
 ~
 ~
 0 0 238
 S
 #240
 Artist Avenue~
-   From here one has an excellent view of the temple to the west.  It reflects
-any light that shines at it, the smooth white walls seem almost magical.  To the
-south the avenue reaches an intersection.  The meeting of the Artist Quarter
-and the Magi Quarter.
+talk:#adventure view:thegame:world 0240/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0227/look
 ~
 ~
 0 0 227
 D2
+talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 S
 #241
 The Vault~
-   A huge locked safe is built into the southern wall.  The kind you would
-expect in a bank, not in a warehouse.  The vault looks impossible to pick and
-considering who made it you bet only the person with the key could ever get
-into it.  A large ornate rug covers the floor.
+talk:#adventure view:thegame:world 0241/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0228/look
 ~
 ~
 0 0 228
 S
 #242
 The Counting Room~
-   Strange tools sit on tables in the back of the room.  They must be some sort
-of coin counting apparatus.  Unfortunately, no money has been left out.  Even
-under the tables and in the corners.  The room is very clean and organized just
-right.  If you moved something I bet people would know.
+talk:#adventure view:thegame:world 0242/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0229/look
 ~
 ~
 0 0 229
 S
 #243
 The West Gate~
-   The firmament can be seen just to the west.  The gate standing here is normally
-kept open, the tall wooden beams are reinforced with metal bars.  Guards can be
-heard high above, lookouts to warn in the case of an attack.  The town looks
-very safe and secure from here.
+talk:#adventure view:thegame:world 0243/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0244/look
 ~
 ~
 0 0 244
 D4
+talk:#adventure view:thegame:world 0114/look
 ~
 ~
 0 0 114
 E
 firmament~
-The firmament holds back the magical chaos. The firmament is used to keep balance within the city limits and allows everyone to exist in peace. Those brave enough to venture beyond the firmament do so at their own risk. Beyond the firmament the scale of balance has collapsed and the laws of science and nature are in disorder.
+talk:#adventure view:thegame:world 0243/firmament
 ~
 S
 #244
 The Western Road~
-The road leads directly from the Temple to the western gate.  To the north
-one can see the Warriors Barracks and to the south the Hall of s.  The
-road consists of hard packed dirt with a few ruts from wagons.  The hustle and
-bustle of the city can be heard all around.
+talk:#adventure view:thegame:world 0244/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0245/look
 ~
 ~
 0 0 245
 D3
+talk:#adventure view:thegame:world 0243/look
 ~
 ~
 0 0 243
 S
 #245
 The Western Road~
-   In the western half of the city one can see a large building set aside for
-the army to the north while a smaller building to the south appears to be part
-of the monks' quarter.  The temple rises high above to the east.  Here, one
-could leave the protection of the city and go west through the gate.
+talk:#adventure view:thegame:world 0245/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0246/look
 ~
 ~
 0 0 246
 D3
+talk:#adventure view:thegame:world 0244/look
 ~
 ~
 0 0 244
 S
 #246
 The Western Intersection~
-   This road leads west to the gate or east to the Temple of The Dome.  The
-Temple is where people go to pray to the Devas, they are guaranteed safety
-within certain rooms of the temple.  A safe haven is very rare in the realm
-these days.  That is why The Dome was created.
+talk:#adventure view:thegame:world 0246/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0232/look
 ~
 ~
 0 0 232
 D1
+talk:#adventure view:thegame:world 0247/look
 ~
 ~
 0 0 247
 D2
+talk:#adventure view:thegame:world 0262/look
 ~
 ~
 0 0 262
 D3
+talk:#adventure view:thegame:world 0245/look
 ~
 ~
 0 0 245
 S
 #247
 Under the Inner Wall~
-   This path passes through the western inner wall gate.  It is extremely dark
-in here.  The inner wall appears to be about twenty feet in thickness.  No one
-could ever batter down this wall.  Looking up, one can see a portculis built
-into the wall.  Its probably best not to wonder what would happen if it were to
-suddenly let go and come crashing down.
+talk:#adventure view:thegame:world 0247/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0248/look
 ~
 ~
 0 0 248
 D3
+talk:#adventure view:thegame:world 0246/look
 ~
 ~
 0 0 246
 S
 #248
 The Western Road~
-   This is the beginning of the Western Road that leads from the Temple of
-The Dome to the western gate and beyond the protection of the firmament.  Few people
-travel beyond the firmament because they fear the gateways between worlds may open
-at anytime.  Only brave adventurers dare travel far beyond the city walls.
+talk:#adventure view:thegame:world 0248/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0233/look
 ~
 ~
 0 0 233
 D2
+talk:#adventure view:thegame:world 0263/look
 ~
 ~
 0 0 263
 D3
+talk:#adventure view:thegame:world 0247/look
 ~
 ~
 0 0 247
 D4
+talk:#adventure view:thegame:world 0247/look
 ~
 ~
 0 0 115
@@ -902,31 +898,33 @@ talk:#adventure view:thegame:world 0249/main
 ~
 2 8 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 S
 #250
 The Dome Temple~
-   The white marble floor has been polished to the point where one can see their
-own reflection perfectly.  Not a single marr or scratch on it's flawless
-surface.  The echo of people walking inside the temple can be heard, though not
-pinpointed.
+talk:#adventure view:thegame:world 0250/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0235/look
 ~
 ~
 0 0 235
 D1
+talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 D2
+talk:#adventure view:thegame:world 0265/look
 ~
 ~
 0 0 265
 D3
+talk:#adventure view:thegame:world 0249/look
 ~
 ~
 0 0 249
@@ -937,22 +935,27 @@ talk:#adventure view:thegame:world 0251/main
 ~
 2 24 0 0 0 1
 D0
+talk:#adventure view:thegame:world 236/look
 ~
 ~
 0 0 236
 D1
+talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 D2
+talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 D3
+talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 D4
+talk:#adventure view:thegame:world 0100/look
 ~
 ~
 0 0 100
@@ -963,18 +966,22 @@ talk:#adventure view:thegame:world 0252/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0237/look
 ~
 ~
 0 0 237
 D1
+talk:#adventure view:thegame:world 0253/look
 ~
 ~
 0 0 253
 D2
+talk:#adventure view:thegame:world 0267/look
 ~
 ~
 0 0 267
 D3
+talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
@@ -985,135 +992,130 @@ talk:#adventure view:thegame:world 0253/main
 ~
 2 8 0 0 0 1
 D3
+talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 S
 #254
 The Western Road~
-   This road connects the Temple of The Dome with the eastern gate to allow easy
-travelling for those wishing to visit the temple from the farmlands.  The
-farmlands are known to be one of the most stable regions outside the protection
-of the firmament.
+talk:#adventure view:thegame:world 0254/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0239/look
 ~
 ~
 0 0 239
 D1
+talk:#adventure view:thegame:world 0255/look
 ~
 ~
 0 0 255
 D2
+talk:#adventure view:thegame:world 0269/look
 ~
 ~
 0 0 269
 D4
+talk:#adventure view:thegame:world 0118/look
 ~
 ~
 0 0 118
 S
 #255
 Under the Inner Wall~
-   This passage through the inner city wall is reminiscent of of a tunnel.  The
-wall is so thick that no matter the time of day shadows still lurk everywhere
-under here.  A portculis is built into the ceiling high above.  Must be the
-controls for it are on top of it.
+talk:#adventure view:thegame:world 0255/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 D3
+talk:#adventure view:thegame:world 0254/look
 ~
 ~
 0 0 254
 S
 #256
 The Eastern Intersection~
-   This intersection stands on the Eastern Road that travels from the east gate
-to the Temple of The Dome.  North lies the Artist Quarter while to the South one
-can enter the Magi's Quarter.  This road bustles with activity as people go
-about their daily lives.
+talk:#adventure view:thegame:world 0256/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0240/look
 ~
 ~
 0 0 240
 D1
+talk:#adventure view:thegame:world 0257/look
 ~
 ~
 0 0 257
 D2
+talk:#adventure view:thegame:world 0270/look
 ~
 ~
 0 0 270
 D3
+talk:#adventure view:thegame:world 0255/look
 ~
 ~
 0 0 255
 S
 #257
 The Eastern Road~
-   The Eastern intersection is just to the west.  To the north lies the Artist
-Quarter and their warehouse.  South is the Magi's Mansion and the Magi's
-Quarter.  To the east one can exit the city through the Eastern Gate.  The
-infamous Temple of The Dome can be seen rising from the center of the city.
+talk:#adventure view:thegame:world 0257/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0258/look
 ~
 ~
 0 0 258
 D3
+talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 S
 #258
 The Eastern Road~
-   This road passes along the Eastern Road.  The gate lies to the east while the
-entire city spreads out to the west.  The safety of the city is preferred by
-almost everyone.  But, some people choose to live outside the east gate where
-there are very few troubles or mishaps.
+talk:#adventure view:thegame:world 0258/main
 ~
 2 0 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0259/look
 ~
 ~
 0 0 259
 D3
+talk:#adventure view:thegame:world 0257/look
 ~
 ~
 0 0 257
 S
 #259
 The Eastern Gate~
-   The firmament stretches out further than usual here, covering some sections of the
-residential district.  This area is known for it's relative safety.  Very few
-problems arise from beyond the east gate.  The Dome lies to the west.
-To the east one can see the remains of an old gatehouse.
+talk:#adventure view:thegame:world 0259/main
 ~
 2 0 0 0 0 1
 D3
+talk:#adventure view:thegame:world 0258/look
 ~
 ~
 0 0 258
 D4
+talk:#adventure view:thegame:world 0119/look
 ~
 ~
 0 0 119
 S
 #260
 The High Councillor's Chambers~
-   A large but simple room with plaster walls and a ceiling of wooden beams.
-Seven beds are arranged side by side along one wall while seven desks with
-chairs a writing pad, inkpen and ink blotter.  This is where the high
-councillors spend their nights.  They live a life without possession or
-desires.
+talk:#adventure view:thegame:world 0260/main
 ~
 2 8 0 0 0 1
 D2
