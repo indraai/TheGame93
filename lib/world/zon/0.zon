@@ -67,9 +67,5 @@ G 1 97 100 -1 	(a cup)
 G 1 91 100 -1 	(an English Breakfast)
 G 1 90 100 -1 	(an ice cream)
 
-D 0 20 0 2 	(Advanced Trigedit Example)
-D 0 89 4 2 	(The Workspace Corridor)
-D 0 97 2 2 	(Open Workspace)
-
 S
 $
