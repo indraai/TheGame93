@@ -883,7 +883,7 @@ D3
 0 0 341
 S
 #343
-The Southern Road~
+The Southern Intersection~
    The entrance to both towers of the southern half of Sanctus open before this
 part of the road.  To the west the Tower of the High Council of s, to the
 east the Tower of the Magi.  Both impressive structures were built by both
@@ -1327,7 +1327,7 @@ modified. Just ask Rumble to do it for you.
 S
 #365
 On the Window Ledge~
-~
+Empty room.~
 3 0 0 0 0 1
 D0
 ~
@@ -1360,14 +1360,14 @@ D5
 door~
 2 0 225
 E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
+~
+E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #391

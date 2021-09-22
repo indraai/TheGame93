@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-altar~
-talk:#adventure view:thegame:world 0101/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 0101/statue
+~
+E
+altar~
+talk:#adventure view:thegame:world 0101/altar
 ~
 S
 T 158
@@ -90,7 +90,6 @@ table~
 talk:#adventure view:thegame:world 0103/table
 ~
 S
-T 51
 #104
 Inner Void~
 talk:#adventure view:thegame:world 0104/main
@@ -100,7 +99,7 @@ D3
 talk:#adventure view:thegame:world 0000/look
 ~
 ~
-0 0 0
+0 0 -1
 D5
 talk:#adventure view:thegame:world 0132/look
 ~
@@ -153,7 +152,7 @@ talk:#adventure view:thegame:world 0141/look
 0 0 141
 S
 #108
-War Room~
+The Club~
 talk:#adventure view:thegame:world 0108/main
 ~
 1 8 0 0 0 0
@@ -163,12 +162,12 @@ talk:#adventure view:thegame:world 0142/look
 ~
 0 0 142
 E
-table~
-talk:#adventure view:thegame:world 0108/table
-~
-E
 map~
 talk:#adventure view:thegame:world 0108/map
+~
+E
+table~
+talk:#adventure view:thegame:world 0108/table
 ~
 S
 #109
@@ -296,17 +295,17 @@ D1
 ~
 0 0 100
 E
-hole~
-   You can look out over the inner wall to the western side of Arjika.  The
-smell of charred human remains and smoldering plaster makes your eyes water so
-it is difficult to see much else through the tiny hole.
-~
-E
 man silhouette~
    The distinct outline of a human body that must have taken the brunt of the
 blast when the portal imploded.  You wonder what or who it might have been.
 You can still see pieces of cloth and bone buried deeply into the wall inside
 the shadow of the unlucky man.
+~
+E
+hole~
+   You can look out over the inner wall to the western side of Arjika.  The
+smell of charred human remains and smoldering plaster makes your eyes water so
+it is difficult to see much else through the tiny hole.
 ~
 S
 #117
@@ -443,18 +442,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -466,10 +465,6 @@ the same bleak gray color.  It is here the Magi come to test their mystical
 arts.  It is not a good place to get lost in.
 ~
 1 8 0 0 0 0
-D0
-~
-~
-0 0 125
 D1
 ~
 ~
@@ -478,18 +473,6 @@ D2
 ~
 ~
 0 0 132
-D3
-~
-~
-0 0 125
-D4
-~
-~
-0 0 125
-D5
-~
-~
-0 0 125
 S
 #126
 Plane of the Magi~
@@ -500,14 +483,6 @@ It is this nothingness that helps the Magi hone their abilities before
 unleashing them into the real world.
 ~
 1 8 0 0 0 0
-D0
-~
-~
-0 0 126
-D1
-~
-~
-0 0 126
 D2
 ~
 ~
@@ -516,14 +491,6 @@ D3
 ~
 ~
 0 0 125
-D4
-~
-~
-0 0 126
-D5
-~
-~
-0 0 126
 S
 #127
 Healer's Room~
@@ -715,7 +682,6 @@ D3
 ~
 0 0 133
 S
-T 57
 #135
 Healers Chambers~
    A stark white room that is glaringly white.  A simple bed, desk, and chair
@@ -729,10 +695,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -742,14 +712,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136
@@ -858,7 +824,7 @@ D4
 0 0 107
 S
 #142
-Hannibal's Bar~
+The Lounge~
 The room is filled with a haze of thick cigar smoke and the stench of
 unrefined liquor.  A noticeable blanket of dust and filth covers every inch of
 this local tavern.  Excessive drinking is looked down upon by all in Arjika,
@@ -879,9 +845,8 @@ D4
 ~
 0 0 108
 S
-T 58
 #143
-Letzgo Inn~
+The Inn~
 The only inn in Arjika.  The Letzgo Inn appeals to those who need to take a
 break or maybe just get away from home for a few days to receive one of the many
 "treatments" available by the fine staff.  The sole proprietor goes by the name
@@ -911,7 +876,7 @@ D2
 0 0 157
 S
 #145
-Sarge's Smithy~
+The Smithy~
    The Smithy used to be run by the Hero Guild for protection of the city.
 But when Sarge retired from his service in the guild they let him keep the
 smithy that he created as a retirement gift.  Of course the fact that they had
@@ -982,7 +947,7 @@ D2
 0 0 162
 S
 #150
-Artist Retreat~
+The Bar~
    This gloomy bar has an uneasy feeling about it.  Travelers pausing here
 should be careful as this bar is frequented by the less honorable class in
 Arjika.  Very few people drink here since as soon anyone inebriated is likely
@@ -1331,7 +1296,6 @@ D3
 ~
 0 0 163
 S
-T 59
 #165
 The Artist' Warehouse~
    You work your way through boxes and crates of supplies.  Small corridors
@@ -1431,7 +1395,7 @@ D2
 0 0 184
 S
 #170
-A Fine Home~
+Fine House~
    A fine home of Arjika.  The smell of baking bread and the sounds of a
 roaring fire.  The house is cluttered with the usual things that makes a house
 look lived in.  You could be happy spending the rest of your life living in a
@@ -1444,7 +1408,7 @@ door~
 1 0 155
 S
 #171
-A Beggars Home~
+Beggars Home~
    The filth in this house is disgusting, an overflowing chamber pot almost
 sends you immediately back out the door.  This room should not even be
 considered a home.  You can barely even stand up the ceiling is so low and
@@ -1470,7 +1434,7 @@ door~
 1 0 157
 S
 #173
-A Poor Home~
+Poor House~
    The house is made from rooten timber and the floor is just bare dirt.  A
 baking oven and a few piles of straw are the only things in the room.  This
 must be the poorest house in the entire city, how could anyone live like this.
@@ -1500,7 +1464,6 @@ D2
 ~
 0 0 189
 S
-T 52
 #175
 An Extravagant Home~
    One of the more successful artists of the quarter must live here.  Rugs
