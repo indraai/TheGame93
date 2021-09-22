@@ -1119,70 +1119,66 @@ talk:#adventure view:thegame:world 0260/main
 ~
 2 8 0 0 0 1
 D2
+talk:#adventure view:thegame:world 0273/look
 ~
 ~
 0 0 273
 S
 #261
 A Bathroom~
-   The natural scent of the room is masked by an abundance of flowers growing
-in small pots lining the walls.  A large wooden box crafted like a chair with a
-hole cut in the top must be the only bathroom in the entire Hall of s.
-You can hear something moving around below you.
+talk:#adventure view:thegame:world 0261/main
 ~
 2 8 0 0 0 1
 D2
+talk:#adventure view:thegame:world 0274/look
 ~
 ~
 0 0 274
 S
 #262
 Clerics Avenue~
-   To the north one can leave the s Quarter and either continue to the
-Warriors Quarter, go east into the Temple of The Dome or west to the western
-gate.  A large building and the inner city wall on each side of this north south
-street leaves little room for walking.
+talk:#adventure view:thegame:world 0262/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0246/look
 ~
 ~
 0 0 246
 D2
+talk:#adventure view:thegame:world 0275/look
 ~
 ~
 0 0 275
 S
 #263
 The Western Temple Circle~
-   The inner city not only holds the temple, but also numerous shops for the
-town folk.  Everything, well almost everything, can be found within these walls
-to support the town.  Women lugging sacks full of groceries arrive from the east
-and pass down the street.
+talk:#adventure view:thegame:world 0263/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0248/look
 ~
 ~
 0 0 248
 D1
+talk:#adventure view:thegame:world 0264/look
 ~
 ~
 0 0 264
 D2
+talk:#adventure view:thegame:world 0276/look
 ~
 ~
 0 0 276
 S
 #264
 The Town Grocer~
-   Chunks of ice lie in crates of sawdust to cool the perishable items.  Fruit
-and vegetable stands line both walls.  This shop seems to carry everything,
-except bread and meat.  Must be the baker, butcher, and grocer have an
-understanding.
+talk:#adventure view:thegame:world 0264/main
 ~
 2 8 0 0 0 1
 D3
+talk:#adventure view:thegame:world 0263/look
 ~
 ~
 0 0 263
@@ -1193,130 +1189,124 @@ talk:#adventure view:thegame:world 0265/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 D1
+talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 S
 #266
 Inside the Temple of The Dome~
-   This is the main passage through the temple.  Small rooms to each side are
-unusually quiet.  It appears people are in prayer inside.  The center of the
-temple lies to the north.  The white marble floor, walls, and ceilings of the
-temple are spotless.
+talk:#adventure view:thegame:world 0266/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 D1
+talk:#adventure view:thegame:world 0267/look
 ~
 ~
 0 0 267
 D2
+talk:#adventure view:thegame:world 0279/look
 ~
 ~
 0 0 279
 D3
+talk:#adventure view:thegame:world 0265/look
 ~
 ~
 0 0 265
 S
 #267
 A Room of Prayer~
-   The room is surrounded with a soft glow from dozens of candles lining the
-walls, filling the alter and even hanging from the ceiling by chandeliers.  The
-candles are scented, leaving a faint aroma of spring flowers.  Cushions of
-various colors cover the floor in precise rows.
+talk:#adventure view:thegame:world 0267/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 D3
+talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 S
 #268
 The Town Furrier~
-   Aromatic candles line one wall over a rack of fur hides.  Must be the
-Furrier is trying to blanket the disgusting smell from the tanning process.
-This guy can make almost anything from a good fur hide.  He is very skilled and
-his prices are not too outrageous.
+talk:#adventure view:thegame:world 0268/main
 ~
 2 8 0 0 0 1
 D1
+talk:#adventure view:thegame:world 0269/look
 ~
 ~
 0 0 269
 S
 #269
 The Eastern Temple Circle~
-   The smell of tanned hides and flowers comes from the west, how strange.
-This circle lies just inside the market center of The Dome.  The stores have all
-taken up shop surrounding the Temple.  They originally were afraid the outer
-city could be overrun, but now they are just too lazy to move.
+talk:#adventure view:thegame:world 0269/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0254/look
 ~
 ~
 0 0 254
 D2
+talk:#adventure view:thegame:world 0282/look
 ~
 ~
 0 0 282
 D3
+talk:#adventure view:thegame:world 0268/look
 ~
 ~
 0 0 268
 S
 #270
 Magi Avenue~
-   A fabulous mansion sits on a small hill to the east.  The entrance is far to
-the south .  To the north one can leave the Magi's Quarter and travel along the
-Eastern Road or head further north into the Artist Quarter.  This Quarter of
-the city is very well maintained, decorative streetlamps line both sides of the
-wide street.
+talk:#adventure view:thegame:world 0270/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 D2
+talk:#adventure view:thegame:world 0283/look
 ~
 ~
 0 0 283
 S
 #271
 A Sleeping Chamber~
-   Three sets of beds and closets are all colored differently.  One Blue, one
-Green, and one Yellow.  The closets are filled with robes and small sandals,
-all of the same three colors.  You have trespassed on three of the five orders
-of the Master Magi.
+talk:#adventure view:thegame:world 0271/main
 ~
 2 8 0 0 0 1
 D2
+talk:#adventure view:thegame:world 0284/look
 ~
 ~
 0 0 284
 S
 #272
 A Sleeping Chamber~
-   Two Large down filled beds crowd the room.  Large closets occupy the
-northern walls.  Filled with robes of Red and Black.  The floor is covered in a
-thick maroon run that cushions your every step.  The Master Magi must live in
-this room.  Better not be caught trespassing.
+talk:#adventure view:thegame:world 0272/main
 ~
 2 8 0 0 0 1
 D2
+talk:#adventure view:thegame:world 0285/look
 ~
 ~
 0 0 285
