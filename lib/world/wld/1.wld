@@ -783,27 +783,22 @@ collapsed and the laws of science and nature are in disorder.
 S
 #140
 Northern Gate of Arjika~
-   Steel reinforced gates large enough to pass two wagons abreast are being
-guarded diligently.  These gates are normally locked at night to ensure the
-safety of the city.  Only the east and west gates remain open all day.  The
-luminescent firmament encompassing the city can be seen just to the north.
+talk:#adventure view:thegame:world 0140/main
 ~
 1 0 0 0 0 1
 D2
+talk:#adventure view:thegame:world 0146/look
 ~
 ~
 0 0 146
 D4
+talk:#adventure view:thegame:world 0106/look
 ~
 ~
 0 0 106
 E
-firmament luminescent~
-   The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
+firmament~
+talk:#adventure view:thegame:world 0140/firmament
 ~
 S
 #141
@@ -893,18 +888,16 @@ D2
 S
 #146
 The Northern Road~
-   The Northern Gate of Arjika and the impressive wall surrounding it looms
-above to the north.  The dull sound of hammering comes from the building to your
-west and no sound escapes the building to the east.  The North Way splits the
-city of Arjika into two Quarters.  The artists quarter in the east and the
-Hero Quarter to the west.
+talk:#adventure view:thegame:world 0146/main
 ~
 1 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0140/look
 ~
 ~
 0 0 140
 D2
+talk:#adventure view:thegame:world 0159/look
 ~
 ~
 0 0 159
@@ -1146,26 +1139,26 @@ D3
 S
 #159
 The Northern Intersection~
-   To the west one can hear the hammering of the smithy and the grinding of a
-wetstone in the Hero Quarter.  To the east the Artist Quarter is covered in
-shadows and mystery.  Not a single sound escapes from that section of the city.
-This intersection stands upon the North Way which runs from the North Gate down
-to the Temple of Arjika.
+talk:#adventure view:thegame:world 0159/main
 ~
 1 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0146/look
 ~
 ~
 0 0 146
 D1
+talk:#adventure view:thegame:world 0160/look
 ~
 ~
 0 0 160
 D2
+talk:#adventure view:thegame:world 0174/look
 ~
 ~
 0 0 174
 D3
+talk:#adventure view:thegame:world 0158/look
 ~
 ~
 0 0 158
@@ -1448,18 +1441,16 @@ door~
 S
 #174
 The Northern Road~
-   This road passes between houses occupied by the local citizens.  The wide
-Northern Road is packed solid from years of traffic from people, wagons, and
-horses.  A small amount of dust is kicked up by every footstep.  Directly to the
-south one can see the Temple.  A small stone bridge arches over a small stream
-to the north.  There is something unusual about the bridge.
+talk:#adventure view:thegame:world 0174/main
 ~
 1 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0159/look
 ~
 ~
 0 0 159
 D2
+talk:#adventure view:thegame:world 0189/look
 ~
 ~
 0 0 189
@@ -1699,25 +1690,26 @@ D3
 S
 #189
 The Northern Road~
-   This road continues on with few other travelers visible.  The streets seem to
-be surprisingly empty for some reason.  Shadowy alleys can be noticed to the
-east and west along the inner city wall.  To the south is the Northern Gate to
-the inner city.
+talk:#adventure view:thegame:world 0189/main
 ~
 1 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0174/look
 ~
 ~
 0 0 174
 D1
+talk:#adventure view:thegame:world 0190/look
 ~
 ~
 0 0 190
 D2
+talk:#adventure view:thegame:world 0200/look
 ~
 ~
 0 0 200
 D3
+talk:#adventure view:thegame:world 0188/look
 ~
 ~
 0 0 188
