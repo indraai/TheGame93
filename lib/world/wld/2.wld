@@ -1423,17 +1423,16 @@ D2
 S
 #279
 Southern Temple Entrance~
-   This appears to be a small foyer at the southern end of the Temple of
-The Dome.  The white marble walls have been polished smooth.  A small road to the
-south leads to the 's and Magi's quarters of the city.  The scent of
-flowers fills the air with a soothing aroma.
+talk:#adventure view:thegame:world 0279/main
 ~
 2 8 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 D2
+talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 292
@@ -1658,24 +1657,26 @@ T 210
 T 211
 #292
 The Southern Temple Circle Intersection~
-   The southern entrance to the Temple of The Dome lies just to the north.  It is
-also possible to travel along the Temple Circle east and west.  To the south one
-can exit the inner city and work their way into the magi or monks' Quarters.
+talk:#adventure view:thegame:world 0292/main
 ~
 2 0 0 0 0 1
 D0
+talk:#adventure view:thegame:world 0279/look
 ~
 ~
 0 0 279
 D1
+talk:#adventure view:thegame:world 0293/look
 ~
 ~
 0 0 293
 D2
+talk:#adventure view:thegame:world 0302/look
 ~
 ~
 0 0 302
 D3
+talk:#adventure view:thegame:world 0291/look
 ~
 ~
 0 0 291
