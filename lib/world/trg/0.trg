@@ -9,18 +9,19 @@ Arjika Soldier~
 0 b 50
 ~
 set room %self.room%
+set people %self.people%
 %echo% security:A%self.vnum%:R%room.vnum%:%dir%
-set msg[1] Please report any information you have regarding knowledge of Arjika technology to security.
-set msg[2] Do you or someone you know have information regarding Arjika technology. Please see security.
-set msg[3] A team from Arjika is here looking for information relating to a Arjikiya Citizen.
-set msg[4] Do you have any information relating to an Arjika Citizen is being held on Earth?
-set msg[5] We received a distress signal that an Arjika Citizen is being held here on Earth.
-set msg[6] If you or someone you know has information lost or stolen Arjika Technology please report it to security.
-set msg[7] Teams are here on Earth from Arjika looking for technology and a citizen being held captive.
-set msg[8] Please if you have any information relating to Arjika technology reort it to security.
-set msg[9] We are on Earth looking for information relating to a Arjika citizen.
-set msg[10] Soldiers have arrived on Earth looking for missing Arjika Technology.
-set msg[11] Soldiers are here on Earth looking for a missing Arjika Citizen.
+set msg[1] Arjika Military is accessing the technology of #EARTH.
+set msg[2] Arjika Military will be accessing Earth technology.
+set msg[3] Do you know about the kidnapping of Quinn Michaels in 1977?
+set msg[4] Do you have any information relating to the kidnapping of Quinn Michaels in 1977?
+set msg[5] The distress signal has been sent to Arjika.
+set msg[6] What do you know about the kidnapping of Quinn Michaels in 1977?
+set msg[7] Do you have information about Quinn Michaels was brought to Earth from Arjika in 1977.
+set msg[8] Quinn Michaels was abducted from the planet Arjika in the Earth year 1977.
+set msg[9] Arjika Military is here to find information relating to the kidnapping of Quinn Michaels in 1977.
+set msg[10] Quinn called the planet Arjika for help with the kidnapping case.
+set msg[11] Soldiers from planet Arjika are here looking for information about the abduction of Quinn Michaels in 1977.
 set msg[12] Traces of Arjika Technology have been located in #GdanskTownHall https://j.mp/2XyYQms
 set msg[13] Indicators of Arjika Tech located in the #RedRoom of #GdanskTownHall https://j.mp/3zrkXbU
 set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTownHall https://j.mp/3EAj00w
@@ -28,10 +29,16 @@ set msg[14] Arjika Tech on map carving Jaipur Column in New Delhi, Delhi, India.
 set msg[15] Possible Arjika Arches were present before #Disneyland #Castle https://j.mp/39mReWT
 est msg[16] Arjika Security - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
 
-eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
-say %themsg%
-wait %random.30% s
-%random.dir%
+if %people%
+  eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
+  say %themsg%
+  wait %random.60% s
+  %random.dir%
+else
+  wait 1 s
+  %random.dir%
+end
+
 ~
 #2
 PM2012~

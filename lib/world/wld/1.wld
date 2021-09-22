@@ -761,11 +761,6 @@ D0
 S
 #139
 Above the Southern Gate~
-   The firmament of protection glows brightly here since it is closest to the Orb of
-Arjika.  To the north the Temple of Arjika can be seen towering above the
-Tower of the High Council and the Tower of the Magi.  All three structures are
-impressive works of architecture and magic combined.  To the south the firmament
-rises high into the air, blocking all view to the chaotic world beyond.
 ~
 1 0 0 0 0 1
 D5
@@ -773,12 +768,7 @@ D5
 ~
 0 0 362
 E
-firmament protection~
-   The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
+firmament~
 ~
 S
 #140

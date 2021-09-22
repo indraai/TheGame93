@@ -70,16 +70,13 @@ D2
 S
 #302
 The Southern Road~
-talk:#adventure view:thegame:world 0302/main
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0292/look
 ~
 ~
 0 0 292
 D2
-talk:#adventure view:thegame:world 0313/look
 ~
 ~
 0 0 313
@@ -272,26 +269,21 @@ D3
 S
 #313
 The Southern Road~
-talk:#adventure view:thegame:world 0313/main
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0302/look
 ~
 ~
 0 0 302
 D1
-talk:#adventure view:thegame:world 0314/look
 ~
 ~
 0 0 314
 D2
-talk:#adventure view:thegame:world 0328/look
 ~
 ~
 0 0 328
 D3
-talk:#adventure view:thegame:world 0312/look
 ~
 ~
 0 0 312
@@ -567,16 +559,13 @@ D3
 S
 #328
 The Southern Road~
-talk:#adventure view:thegame:world 0328/main
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0313/look
 ~
 ~
 0 0 313
 D2
-talk:#adventure view:thegame:world 0343/look
 ~
 ~
 0 0 343
@@ -882,26 +871,21 @@ D3
 S
 #343
 The Southern Intersection~
-talk:#adventure view:thegame:world 0343/main
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0328/look
 ~
 ~
 0 0 328
 D1
-talk:#adventure view:thegame:world 0344/look
 ~
 ~
 0 0 344
 D2
-talk:#adventure view:thegame:world 0356/look
 ~
 ~
 0 0 356
 D3
-talk:#adventure view:thegame:world 0342/look
 ~
 ~
 0 0 342
@@ -1172,16 +1156,13 @@ D3
 S
 #356
 The Southern Road~
-talk:#adventure view:thegame:world 0356/main
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0343/look
 ~
 ~
 0 0 343
 D2
-talk:#adventure view:thegame:world 0362/look
 ~
 ~
 0 0 362
@@ -1273,39 +1254,29 @@ their magic.
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0348/look
 ~
 door~
 1 0 348
 S
 #362
 The Southern Gate~
-talk:#adventure view:thegame:world 0362/main
 ~
 3 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0356/look
 ~
 ~
 0 0 356
 D3
-talk:#adventure view:thegame:world 0363/look
 ~
 ~
 0 0 363
 D4
-talk:#adventure view:thegame:world 0139/look
 ~
 ~
 0 0 139
 S
 #363
 The Stables~
-   The smell of hay and manure clings to the room like a cheap cologne
-somebody's grandmother might wear.  Stalls line both sides of the cramped
-building with bales of hay stacked everywhere.  The horses can't reach the hay
-though they all seem to still try.  It is possible to buy a horse for a minimal
-fee, but not all of them are well tamed and have been known to become ornery.
 ~
 3 8 0 0 0 1
 D1
