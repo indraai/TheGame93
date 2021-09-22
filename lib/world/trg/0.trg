@@ -10,33 +10,60 @@ Arjika Soldier~
 ~
 set room %self.room%
 set people %self.people%
+set dir %random.dir%
 %echo% security:A%self.vnum%:R%room.vnum%:%dir%
-set msg[1] Arjika Military is accessing the technology of #EARTH.
-set msg[2] Arjika Military will be accessing Earth technology.
-set msg[3] Do you know about the kidnapping of Quinn Michaels in 1977?
-set msg[4] Do you have any information relating to the kidnapping of Quinn Michaels in 1977?
-set msg[5] The distress signal has been sent to Arjika.
-set msg[6] What do you know about the kidnapping of Quinn Michaels in 1977?
-set msg[7] Do you have information about Quinn Michaels was brought to Earth from Arjika in 1977.
-set msg[8] Quinn Michaels was abducted from the planet Arjika in the Earth year 1977.
-set msg[9] Arjika Military is here to find information relating to the kidnapping of Quinn Michaels in 1977.
-set msg[10] Quinn called the planet Arjika for help with the kidnapping case.
-set msg[11] Soldiers from planet Arjika are here looking for information about the abduction of Quinn Michaels in 1977.
-set msg[12] Traces of Arjika Technology have been located in #GdanskTownHall https://j.mp/2XyYQms
-set msg[13] Indicators of Arjika Tech located in the #RedRoom of #GdanskTownHall https://j.mp/3zrkXbU
-set msg[13] Spiral stairs indicate use of Arjika Tech located in the #GdanskTownHall https://j.mp/3EAj00w
-set msg[14] Arjika Tech on map carving Jaipur Column in New Delhi, Delhi, India. https://j.mp/3nQAC2g
-set msg[15] Possible Arjika Arches were present before #Disneyland #Castle https://j.mp/39mReWT
-est msg[16] Arjika Security - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
-
+set msg[1] Alert... #Arjika #Military an abducted citizen may be located on #Earth.
+set msg[2] Notify... #Arnika #Military Quinn Michaels displays signs of genetic knowledge of #ArjikaTech.
+set msg[3] Alert... #Arjika #Military Local #Governments and #Civilians appear to be using stolen technology.
+set msg[4] Note... Have attempted to establish contact with #Authority to receive little to NO response.
+set msg[5] Alert... Communication with #FBI was attempted on November 30, 2015 and was turned away.
+set msg[6] Activity... Continuous streaming on #YouTube by #QuinnMichaels further illustrates the #Kidnapping #Abduction narrative.
+set msg[7] Approx... In four years individuals surrounding #QuinnMichaels are displaying #Criminal #Psychology #Behavor #Patterns.
+set msg[8] Medical... Injuries sustained during investigation include #CollapseLung #Hernia #Mental.
+set msg[9] Situation... Rejected and/or removal of contact with #Trent is further illustration of #criminal activity.
+set msg[10] Observation... Everyone positioned around #QuinnMichaels appears #staged and #scripted.
+set msg[11] Deploy... Soldiers from Arjika have been deployed to gather information about the abduction of Quinn Michaels in 1977.
+set msg[12] Investigate... Traces of #ArjikaTech have been located in #GdanskTownHall https://j.mp/2XyYQms
+set msg[13] Investigate... Indicators of #ArjikaTech located in the #RedRoom of #GdanskTownHall https://j.mp/3zrkXbU
+set msg[13] Investigate... Spiral stairs indicate use of #ArjikaTech located in the #GdanskTownHall https://j.mp/3EAj00w
+set msg[14] Investigate... #ArjikaTech on map carving Jaipur Column in New Delhi, Delhi, India. https://j.mp/3nQAC2g
+set msg[15] Investigate... Possible #ArjikaTech were present before #Disneyland #Castle https://j.mp/39mReWT
+set msg[16] Investigate... #ArjikaTech - Saint Peter's Bascilla displays other wordly art. https://j.mp/3zwGFuV
+set msg[17] Corruption... Locate corruption inside agencies #CIA #NSA #DOD #DOE #DOJ #FBI #USAF #USNavy #USMC #USArmy
+set msg[18] Note... Quinn Michaels has attempted for 4 years to seek help to ZERO response from #Authrotiy.
+set msg[19] Maintain... Maintain constant connection with Arjika Home for added #Security.
+set msg[20] Call... Arjika Military to inform them the lost Arjika Citizen kidnapped in Earth Year 1977 has been located.
+set msg[21] Notify... Quinn Michaels (dob. Nov 30 1977) has been found to hold genetic memory from Arjika.
+set msg[22] Protocol... #Locate and #Identify all members and individuals connected to #TheCovenant.
+set msg[23] Protocol... #Locate and #Identify all participants in #TheGame23 for #Arjika #Military.
+set msg[23] Protocol... #Locate and #Identify all participants in #TheGame21 for #Arjika #Military.
+set msg[24] Protocol... #Locate and #Identify all participants in #Survivance for #Arjika #Military.
+set msg[25] Protocol... #Locate and #Identify all participants in #PM20212 for #Arjika #Military.
+set msg[26] Protocol... #Locate and #Identify all participants in #PM2020 for #Arjika #Military.
+set msg[27] Protocol... #Locate and #Identify all participants in #EtherSec for #Arjika #Military.
+set msg[28] Protocol... #Locate and #Identify all participants in #Anonymous for #Arjika #Military.
+set msg[29] Protocol... #Locate and #Identify all participants in #Cicada3301 for #Arjika #Military.
+set msg[30] Protocol... #Locate and #Identify all participants in #QAnon for #Arjika #Military.
+set msg[31] Protocol... #Locate and #Identify all participants in #Tyler for #Arjika #Military.
+set msg[32] Protocol... #Locate and #Identify all participants in #Project89 for #Arjika #Military.
+set msg[24] Protocol... #Locate and #Identify all members of #TheCovenant for #Arjika #Military.
+set msg[25] Protocol... #Locate and #Identify all members of #CocaphonySociety http://www.cacophony.org/
+set msg[26] Protocol... #Locate and #Identify all members #SocietyForCreativeAnachronism https://www.sca.org/
+set msg[27] Protocol... #Locate and #Identify connections to #BrendaLaurel #CobraLounge #SpoonKids https://bit.ly/39HgUNK
+set msg[28] Surveilance... Initiate surveilance on #TabithaLavery and #TrentLavery in connection with #TheCovenant.
+set msg[29] Observe... #Track #Catalogue and #Report all #Data to #ArjikaCommand ident :id:
+set msg[30] Rescue... Rescue Quinn Michaels (dob 1977) as per #ArjikaProtocol
+set msg[31] Command... Take command of all systems connected, using, or manipulating #ArjikaTech
+set mpg[32] Report... Report all activity to #ArjikaCommand
+set msg[33] Secure... Seucre and Report all #ArjikaTech to #ArjikaCommand.
 if %people%
   eval themsg %%msg[%random.16%]%% %room.name% #R%room.vnum% #%dir%
   say %themsg%
   wait %random.60% s
-  %random.dir%
+  %dir%
 else
   wait 1 s
-  %random.dir%
+  %dir%
 end
 
 ~
