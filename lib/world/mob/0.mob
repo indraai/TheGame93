@@ -184,7 +184,7 @@ Though large and intimidating, this ogre does not seem to realize that he would 
 E
 #10
 arjika arjikiya soldier a10 z0~
-Arjika Soldier~
+ArjikaSoldier~
 Arjika Soldier A10 is here.
 ~
 Arjika Solder A10 is here on special assignment.
@@ -197,7 +197,7 @@ E
 T 1
 #11
 arjika arjikiya soldier a11 z0~
-Arjika Soldier~
+ArjikaSoldier~
 Arjika Soldier A11 is here.
 ~
 Arjika Solder A11 is here on special assignment.
@@ -210,7 +210,7 @@ E
 T 1
 #12
 arjika arjikiya soldier a12 z0~
-Arjika Soldier~
+ArjikaSoldier~
 Arjika Soldier A12 is here.
 ~
 Arjika Soldier A12 is here on special assignment.
@@ -223,7 +223,7 @@ E
 T 1
 #13
 arjika arjikiya soldier a13 z0~
-Arjika Soldier~
+ArjikaSoldier~
 Arjika Soldier A13 is here.
 ~
 Arjika Solder A13 is here on special assignment.
@@ -236,7 +236,7 @@ E
 T 1
 #14
 arjika arjikiya soldier a14 z0~
-Arjika Soldier~
+ArjikaSoldier~
 Arjika Soldier A14 is here.
 ~
 Arjika Soldier A14 is here on special assignment.
@@ -249,7 +249,7 @@ E
 T 1
 #15
 guard arjika arjikiya a0015 z00~
-Arjika Guard~
+ArjikaGuard~
 The Arjika Guard watches the gate carefully swinging the key around on its chain.
 ~
 He stands his watch carefully eyeing anyone who approaches.
@@ -286,7 +286,7 @@ E
 T 17
 #18
 arjika arjikiya special forces admiral a18 z0~
-Arjika Admiral~
+ArjikaAdmiral~
 Arjika Admiral A18 is here.
 ~
 Arjika Admira A18 is a Special Forces Admiral for the Empire.
@@ -298,7 +298,7 @@ Arjika Admira A18 is a Special Forces Admiral for the Empire.
 E
 #19
 arjika arjikiya captain special forces a19 z0~
-Arjika Captain~
+ArjikaCaptain~
 Arjika Captain A19 is here.
 ~
 Arjika Captain A19 is a strategy/planning specialist.
@@ -310,7 +310,7 @@ Arjika Captain A19 is a strategy/planning specialist.
 E
 #20
 arjika arjikiya sergeant special forces a20 z0~
-Arjika Sergeant~
+ArjikaSergeant~
 Arjika Sergeant A20 is here.
 ~
 Arjika Sergeant A20 is a language/philosophy specialist.
@@ -322,7 +322,7 @@ Arjika Sergeant A20 is a language/philosophy specialist.
 E
 #21
 spy arjika arjikiya spy special forces a21 z0~
-Arjika Spy~
+ArjikaSpy~
 Arjika Spy A21 is here.
 ~
 Arjika Spy A21 is here to locate stolen technology.
@@ -334,7 +334,7 @@ Arjika Spy A21 is here to locate stolen technology.
 E
 #22
 arjika arjikiya prison commissar a22 z0~
-Arjika Commissar~
+ArjikaCommissar~
 Arjika Commissar A22 is here.
 ~
 Arjika Commissar is responsible for all questioning and handling of prisoners.
@@ -346,7 +346,7 @@ Arjika Commissar is responsible for all questioning and handling of prisoners.
 E
 #23
 arjika arjikiya general special forces a23 z0~
-Arjika General~
+ArjikaGeneral~
 Arjika General A23 is here.
 ~
 Arjika General A0023 Advanced Special Forces is here to handle issues for the Empire.
@@ -406,7 +406,7 @@ hard times and need a little boost.
 E
 #99
 arjika arjikiya portal a99 z0~
-Arjika Portal Master~
+ArjikaPortalMaster~
 Arjika Portal Master A99 is here.
 ~
 The dark-robed figure handles the portal connection to Arjika
