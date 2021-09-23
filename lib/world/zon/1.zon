@@ -157,16 +157,21 @@ M 0 139 1 188 	(the alley cat)
 M 0 163 2 166 	(the hired hand)
 M 0 176 1 182 	(Gunney)
 E 1 157 99 6 	(Gunney's hat)
+
 M 0 179 3 198 	(the recruit)
 M 0 190 3 193 	(the cat)
 M 0 192 3 186 	(the german shephard)
+
 M 0 129 3 179 	(the thief)
 G 1 156 99 -1 	(someone else's purse)
 E 1 120 99 16 	(a dagger)
+
 M 0 195 3 159 	(the kitten)
 G 1 135 99 -1 	(some catnip)
+
 M 0 191 3 169 	(the puppy)
 E 1 134 99 3 	(a dog collar)
+
 M 0 143 1 148 	(the waitress)
 G 1 101 99 -1 	(an imported bottle of beer)
 M 0 174 1 128 	(the monk guildguard)
@@ -192,7 +197,7 @@ R 0 108 93 -1 	(the warriors board)
 O 1 93 99 108 	(the warriors board)
 M 0 155 1 108 	(the War Master)
 
-M 0 123 1 107 	(the warriors guildmaster)
+M 0 123 1 149 	(the warriors guildmaster)
 
 M 0 120 1 104 	(the mages' guildmaster)
 E 1 129 99 12 	(a black robe)
