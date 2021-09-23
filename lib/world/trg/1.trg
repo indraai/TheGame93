@@ -1178,11 +1178,6 @@ Trent Lavery~
 set room %self.room%
 set people %room.people%
 
-set dir up
-if %room.down%
-  set dir down
-end
-
 set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
 set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
 set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
@@ -1199,12 +1194,10 @@ set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone st
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
 
 eval themsg %%msg[%random.14%]%% %room.name% #R%room.vnum%
-
 if %people%
   say %themsg%
 end
-wait %random.180% sec
-%dir%
+
 ~
 #162
 Picking Mushrooms~
