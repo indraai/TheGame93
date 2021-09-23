@@ -16,25 +16,25 @@ A bottle of imported beer has been left here.~
 8 8 1 0
 13 20 0 0 0
 #102
-stout bottle malt liquor ale~
-a stout bottle~
-A dark bottle of stout malt liquor has been left here.~
+bottle apple drinks drink juice~
+Apple Juice~
+A bottle of Apple Juice left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 3 0
 13 140 0 0 0
 #103
-glass firebreather~
-a glass~
-A glass of firebreather was left here.~
+paradise tropical iced-tea tea~
+Paradise Tropical Iced-Tea~
+A glass of Paradise Tropical Iced-Tea is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 7 0
 13 200 0 0 0
 #104
-bottle brew special local~
-a bottle~
-A dark bottle of some special brew was left here.~
+paradise passion fruit iced-tea tea~
+Paradise Passion Fruit Iced=Tea~
+A glass of Paradise Passion Fruit Iced-Tea is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 8 0
@@ -141,18 +141,14 @@ crescent~
    The crescent looks warm and flaky, just how you like it...
 ~
 #113
-bourbon shot whisky~
-a shot~
-A shot of bourbon is here.~
+mango drink drinks juice~
+Mango Juice~
+A glass of Mango Juice is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 1 1 5 0
 5 230 0 0 0
 E
-bourbon shot~
-   This is the kind of liquor that makes successful peopl into sloppy drunks.
-You sure you're man or woman enough to drink this stuff?
-~
 #114
 pretzel~
 a pretzel~
