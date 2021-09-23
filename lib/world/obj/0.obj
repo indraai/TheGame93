@@ -222,7 +222,6 @@ The sword of kings awaits a hero to wield it.~
 5 abdgimnoq 0 0 0 ano 0 0 0 0 0 0 0
 8 10 9 3
 1 1000 0 20 0
-T 80
 E
 sword quest war's hero~
 The blade of this beautiful weapon is inlaid with tiny wavelets.  The guard
@@ -246,7 +245,6 @@ A piece of deepest midnight calls to you here.~
 5 bdgmnpq 0 0 0 ano 0 0 0 0 0 0 0
 10 10 9 11
 1 1000 0 20 0
-T 84
 E
 shadow stealer dagger quest~
    This long, thin dagger is made of the blackest metal you have ever seen.  It
@@ -366,7 +364,6 @@ The axe meant to end all the boob playing in the realms floats here seeking a he
 5 bdgjlq 0 0 0 ano 0 0 0 0 0 0 0
 10 10 9 3
 1 1000 0 20 0
-T 83
 E
 axe boobplaying quest~
 Darkest midnight, purest evil, death embodied.  This weapon is the end of all
@@ -462,7 +459,6 @@ The protection of dragon-kind seeks the next hero of the wryms.~
 9 abdgq 0 0 0 aj 0 0 0 0 0 0 0
 10 0 0 0
 5 1000 0 20 0
-T 86
 E
 shield quest wyrmguard~
    Torn from Balm's breast, this scale has been shaped into a shield of
@@ -631,7 +627,6 @@ One of the lost treasures of Arjika is here.~
 4 a 0 0 0 ao 0 0 0 0 0 0 0
 30 1 1 26
 1 1000 0 0 0
-T 90
 E
 gem arjika~
    This is one of the treasures from the hoards of the city of Arjika.
@@ -765,7 +760,6 @@ A typical U.S. quarter that appears to be perfect for flipping.~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-T 37
 E
 coin quarter~
    This quarter is perfect for deciding those difficult boolean questions you
@@ -1050,7 +1044,6 @@ A strange and colorful tube was left here. It is made from cardboard intricately
 11 g 0 0 0 ab 0 0 0 0 0 0 0
 0 0 0 0
 1 5 0 0 0
-T 87
 E
 chinese finger trap fingertrap cardboard tube~
    It consists of at least a dozen different colors of cardboard woven together

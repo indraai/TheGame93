@@ -505,10 +505,10 @@ const char *container_bits[] = {
 const char *drinks[] =
 {
   "Pure Water",
-	"Orange juice",            /* beer */
-	"Apple juice",             /* wine */
-	"Grape juice",             /* ale */
-	"Mango juice",             /* dark ale */
+	"Orange Juice",            /* beer */
+	"Apple Juice",             /* wine */
+	"Grape Juice",             /* ale */
+	"Mango Juice",             /* dark ale */
 	"Tropical Iced-Tea",       /* whisky */
 	"Passion Fruit Iced-Tea",  /* lemonade */
 	"Lemonaid",                /* firebreather */
@@ -534,15 +534,15 @@ const char *drinknames[] =
 	"juice",
 	"juice",
 	"juice",
-	"iced-tea",
-	"iced-tea",
+	"tea",
+	"tea",
 	"lemonaid",
 	"limeaid",
 	"milk",
 	"milk",
-	"hot-tea",
-	"hot-tea",
-	"hot-tea",
+	"tea",
+	"tea",
+	"tea",
 	"salt",
 	"cola",
 	"cola"
