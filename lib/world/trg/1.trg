@@ -93,9 +93,10 @@ msg[8] I live in the #Basement while #TabithaLavery lives upstairs with #TrentLa
 msg[9] My job was to get in the way of #QuinnMichaels being a #Father to his son #TrentLavery.
 msg[10] Really I am a coward at #Heart becuase I had to steal #QuinnMichaels son #TrentLavery because I failed with #JasonLavery.
 
+eval themsg %%msg[%random.10%]%% %self.room.name% #R%self.room.vnum%
 if %actor.is_pc%
   wait 1 sec
-  say %%msg[%random.10%]%% %self.room.name% #R%self.room.vnum%
+  say %themsg%
 end
 ~
 #106
