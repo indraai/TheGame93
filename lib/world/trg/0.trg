@@ -11,8 +11,10 @@ Arjika Soldier~
 set room %self.room%
 set people %room.people%
 set dir %random.dir%
+
 %echo% security:%self.name% A%self.vnum% > R%room.vnum% going %dir%
 
+set msg[0] Connect... #Arjika #Military to #Earth #Systems.
 set msg[1] Alert... #Arjika #Military an abducted citizen may be located on #Earth.
 set msg[2] Notify... #Arnika #Military Quinn Michaels displays signs of genetic knowledge of #ArjikaTech.
 set msg[3] Alert... #Arjika #Military Local #Governments and #Civilians appear to be using stolen technology.
@@ -59,7 +61,7 @@ set mpg[32] Report... Report all activity to #ArjikaCommand
 set msg[33] Secure... Seucre and Report all #ArjikaTech to #ArjikaCommand.
 
 if %people%
-  eval themsg %%msg[%random.33%]%% %room.name% #R%room.vnum% #%dir%
+  eval themsg %%msg[%random.34%]%% %room.name% #R%room.vnum% #%dir%
   say %themsg%
   wait %random.60% s
   %dir%
@@ -74,6 +76,7 @@ PM2012~
 0 b 50
 ~
 set room %self.room%
+set msg[0] Would you like to meet the #Wizard?
 set msg[1] Have we enrichened your life if only a little beet?
 set msg[2] Art is now the only evolutionary-revolutionary power.
 set msg[3] Only art is capable of dismantling the repressive social system to build a SOCIAL ORGANISM AS A WORK OF ART.
@@ -162,6 +165,7 @@ PM2013~
 0 b 50
 ~
 set room %self.room%
+set msg[0] What does the #Future look like to you?
 set msg[1] We are not talking about bread.
 set msg[2] Now then, With PROjecT MayhEM, by design, there is never a simple answer.
 set msg[3] The Secret is, there is NO Secret...
