@@ -46,15 +46,8 @@ M 0 203 1 363 	(the stablemaster)
 M 0 201 2 326 	(the apprentice healer)
 
 M 0 185 1 361 	(Sareth, the sage)
-G 1 25757 99 -1 	(a scroll of remove curse)
-G 1 25752 99 -1 	(a scroll of recall)
-G 1 25750 99 -1 	(a scroll of identify)
 
 M 0 186 1 351 	(the healer)
-G 1 28753 99 -1 	(the healing draught)
-G 1 14037 99 -1 	(a potion of healing)
-G 1 29105 99 -1 	(a green herb)
-G 1 29105 99 -1 	(a green herb)
 
 M 0 192 3 348 	(the german shephard)
 
@@ -66,17 +59,17 @@ M 0 159 2 362 	(the lieutenant)
 E 1 167 99 6 	(a cloth cap)
 E 1 166 99 7 	(a pair of cloth pants)
 M 0 175 4 362 	(the gate sentry)
-E 1 30414 99 5 	(a Suit of Old Chainmail)
+
 M 0 162 3 358 	(a statesman)
 E 1 140 99 12 	(a cloth jacket)
 
 M 0 178 3 328 	(the stateswoman)
-E 1 26306 99 5 	(a flowered dress)
+
 M 0 179 3 317 	(the recruit)
 M 0 194 3 314 	(the mouse)
 M 0 193 3 312 	(the dove)
 M 0 105 3 315 	(the balding man)
-E 1 31612 99 6 	(a pair of reading glasses)
+
 M 0 100 3 309 	(the young man)
 G 1 128 99 -1 	(a cigarette)
 M 0 161 4 303 	(the streetsweeper)
