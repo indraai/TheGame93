@@ -242,7 +242,7 @@ He rambles about how much better it was back in his day.  Mentioning strange wor
 8 8 1
 E
 #117
-trenton lavery~
+trenton lavery covenant~
 Trent~
 Trent Lavery is here.
 ~
@@ -256,7 +256,7 @@ BareHandAttack: 1
 E
 T 161
 #118
-tabitha lavery bass~
+tabitha lavery bass covenant~
 Tabitha~
 Tabitha Lavery is here.
 ~
@@ -268,8 +268,8 @@ She rants and raves about everything Quinn Michaels does that she hates.
 8 8 2
 E
 #119
-dewity mrdewity banker~
-Dewity~
+dewity mrdewity banker covenant~
+MrDewity~
 Mr. Dewity is here.
 ~
 Mr. Dewity is a very rich man, one of the richest alive.  He loves money.
@@ -562,11 +562,11 @@ BareHandAttack: 8
 E
 T 149
 #140
-herbie bartender~
-Herbie, The Bartender~
-Herbie, the bartender wipes down a spot at the bar for you to sit at.
+joe lavery covenant~
+JoeLavery~
+Joe Lavery is here.
 ~
-Herbie loves his job more than anyone in the city.  He is always up to date on all happenings within Arjika.  If you need some information this is the man to go to.  He shouts over the other customers to you, 'What can I getcha?'
+Joe Lavery lives with his daughter Tabitha and is the one who talks to Mr. Dewity.
 ~
 188426 0 0 0 16 0 0 0 900 E
 24 12 -4 4d4+240 4d4+4
@@ -905,12 +905,11 @@ and relieve him of his money and maybe his life.
 8 8 1
 E
 #165
-beggar~
-the beggar~
-A beggar looks up hopefully into your eyes.
+buddhist monk~
+BuddhistMonk~
+A Buddhist Monk is here.
 ~
-   He has mastered a pathetic puppy dog look that would cause most people to
-give in to his plead.  But you're not that weak, are you?
+He has mastered a look that would cause most people to give in to his plead.
 ~
 72 0 0 0 0 0 0 0 400 E
 5 19 7 1d1+50 1d2+0
