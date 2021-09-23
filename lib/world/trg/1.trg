@@ -1173,10 +1173,9 @@ end
 ~
 #161
 Trent Lavery~
-0 b 5
+0 bgt 5
 ~
 set room %self.room%
-
 set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
 set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
 set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
@@ -1191,9 +1190,7 @@ set msg[11] Really my dad has spent way more time streaming his life on the Inte
 set msg[12] After telling my dad the craziest story about the Covenant I told him to go away.
 set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
-
 eval themsg %%msg[%random.14%]%% %room.name% #R%room.vnum%
-
 if %time.hour% == 6
   wait 1 s
   wake
@@ -1201,19 +1198,16 @@ if %time.hour% == 6
   wait 1 s
   stand
   d
-
 else if %time.hour% == 17
   say Good night... I'm going to bed now.
   wait 1 s
   u
   wait 2 s
   sleep
-
 else if %actor.is_pc%
   wait 3 sec
   say %themsg%
 end
-
 ~
 #162
 Picking Mushrooms~
