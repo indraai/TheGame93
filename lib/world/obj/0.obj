@@ -1237,7 +1237,7 @@ quorn sausages.
 ~
 #92
 mug drink drinks tea~
-Tea Mug~
+Mug of Black Tea~
 A nice mug of tea has been left here.~
 ~
 17 i 0 0 0 a 0 0 0 0 0 0 0
@@ -1281,15 +1281,15 @@ A board for mages to post to others in their class is glowing brightly here.~
 0 0 0 0 0
 #97
 cup drink drinks tea~
-Tea Cup~
+Cup of Green Tea~
 A tea cup has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 1 1 12 0
 2 5 0 0 0
 E
-cup coffee mug~
-   A coffee cup, it is marked with the letters 'TBA'. Coffee originated from
+cup mug~
+A tea cup, it is marked with the letters 'TG93'. Coffee originated from
 the Kaffa region in Ethiopia, and while long drunk in the Arab world, it did
 not enter Europe until the British East India Company began to import the
 product in the 16th Century. The first coffee house in Europe was founded in
