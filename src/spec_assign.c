@@ -65,12 +65,15 @@ void assign_mobiles(void)
 {
   assign_kings_castle();
 
-  ASSIGNMOB(3095, cryogenicist);
 
   ASSIGNMOB(120, guild);
   ASSIGNMOB(121, guild);
   ASSIGNMOB(122, guild);
   ASSIGNMOB(123, guild);
+  ASSIGNMOB(110, postmaster);
+
+  /*
+  ASSIGNMOB(3095, cryogenicist);
   ASSIGNMOB(2556, guild);
   ASSIGNMOB(2559, guild);
   ASSIGNMOB(2562, guild);
@@ -109,7 +112,6 @@ void assign_mobiles(void)
 
   ASSIGNMOB(3105, mayor);
 
-  ASSIGNMOB(110, postmaster);
   ASSIGNMOB(1201, postmaster);
   ASSIGNMOB(3010, postmaster);
   ASSIGNMOB(10412, postmaster);
@@ -124,35 +126,36 @@ void assign_mobiles(void)
   ASSIGNMOB(5404, receptionist);
   ASSIGNMOB(27713, receptionist);
   ASSIGNMOB(27730, receptionist);
+  */
 }
 
 /* assign special procedures to objects */
 void assign_objects(void)
 {
-  ASSIGNOBJ(1226, gen_board);   /* builder's board */
-  ASSIGNOBJ(1227, gen_board);   /* staff board */
-  ASSIGNOBJ(1228, gen_board);   /* advertising board */
-  ASSIGNOBJ(3096, gen_board);	/* social board */
-  ASSIGNOBJ(3097, gen_board);	/* freeze board */
-  ASSIGNOBJ(3098, gen_board);	/* immortal board */
-  ASSIGNOBJ(3099, gen_board);	/* mortal board */
+  // ASSIGNOBJ(1226, gen_board);   /* builder's board */
+  // ASSIGNOBJ(1227, gen_board);   /* staff board */
+  // ASSIGNOBJ(1228, gen_board);   /* advertising board */
+  // ASSIGNOBJ(3096, gen_board);	/* social board */
+  // ASSIGNOBJ(3097, gen_board);	/* freeze board */
+  // ASSIGNOBJ(3098, gen_board);	/* immortal board */
+  // ASSIGNOBJ(3099, gen_board);	/* mortal board */
 
   ASSIGNOBJ(115, bank);
   ASSIGNOBJ(334, bank);	        /* atm */
   ASSIGNOBJ(336, bank);	        /* cashcard */
-  ASSIGNOBJ(3034, bank);        /* atm */
-  ASSIGNOBJ(3036, bank);        /* cashcard */
-  ASSIGNOBJ(3907, bank);
-  ASSIGNOBJ(10640, bank);
-  ASSIGNOBJ(10751, bank);
-  ASSIGNOBJ(25758, bank);
+  // ASSIGNOBJ(3034, bank);        /* atm */
+  // ASSIGNOBJ(3036, bank);        /* cashcard */
+  // ASSIGNOBJ(3907, bank);
+  // ASSIGNOBJ(10640, bank);
+  // ASSIGNOBJ(10751, bank);
+  // ASSIGNOBJ(25758, bank);
 }
 
 /* assign special procedures to rooms */
 void assign_rooms(void)
 {
   room_rnum i;
-
+  /*
   ASSIGNROOM(3031, pet_shops);
   ASSIGNROOM(10738, pet_shops);
   ASSIGNROOM(23281, pet_shops);
@@ -160,7 +163,7 @@ void assign_rooms(void)
   ASSIGNROOM(27155, pet_shops);
   ASSIGNROOM(27616, pet_shops);
   ASSIGNROOM(31523, pet_shops);
-
+  */
   if (CONFIG_DTS_ARE_DUMPS)
     for (i = 0; i <= top_of_world; i++)
       if (ROOM_FLAGGED(i, ROOM_DEATH))
@@ -184,7 +187,7 @@ static struct spec_func_data spec_func_list[] = {
   {"Postmaster",     postmaster },
   {"Receptionist",   receptionist },
   {"Cryogenicist",   cryogenicist},
-  {"Message Board", gen_board }, 
+  {"Message Board", gen_board },
   {"Bank",           bank },
   {"Pet Shop",       pet_shops },
   {"Dump",           dump },
