@@ -248,7 +248,7 @@ Trent Lavery is here.
 ~
 This kid seems to enjoy other peoples misery. He is nothing more than a big bully stuck in a little body. He seems to have learned to get by with his big mouth rather than brawn or brain.
 ~
-2200 0 0 0 0 0 0 0 0 E
+2202 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
@@ -262,10 +262,11 @@ Tabitha Lavery is here.
 ~
 She rants and raves about everything Quinn Michaels does that she hates.
 ~
-72 0 0 0 0 0 0 0 0 E
+2202 0 0 0 0 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 2
+BareHandAttack: 4
 E
 #119
 dewity mrdewity banker covenant~
@@ -568,10 +569,11 @@ Joe Lavery is here.
 ~
 Joe Lavery lives with his daughter Tabitha and is the one who talks to Mr. Dewity.
 ~
-188426 0 0 0 16 0 0 0 900 E
+2202 0 0 0 0 0 0 0 900 E
 24 12 -4 4d4+240 4d4+4
 240 57600
 8 8 1
+BareHandAttack: 1
 E
 T 105
 #141
