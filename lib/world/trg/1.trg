@@ -1192,7 +1192,7 @@ set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone st
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
 eval themsg %%msg[%random.14%]%% %room.name% #R%room.vnum%
 
-if %self.pos% != sleeping && %actor.is_pc%
+if %actor.is_pc%
   wait 3 sec
   say %themsg%
 end
