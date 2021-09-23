@@ -910,7 +910,6 @@ A yellow rubber chicken has been chewed half to death.~
 0 0 0 0
 1 1 0 0 0
 T 154
-T 88
 E
 yellow rubber chicken~
    This dog toy barely even resembles its namesake.  The long yellow body is
@@ -1326,7 +1325,6 @@ A gnarled wooden staff beacons you.~
 5 0 0 0 0 ano 0 0 0 0 0 0 0
 0 0 0 0
 1 10 0 0 0
-T 48
 E
 gnarled wooden staff~
    The staff appears to have been twisted into a strange spiral up along its
@@ -1379,7 +1377,6 @@ A small trickle of water flows from the shop to the north to a drain to the sout
 23 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 13 0
 0 0 0 0 0
-T 79
 E
 trickle stream thin liquid water~
  The liquid is mixed with dirt and a few other unknown substances.
@@ -1392,7 +1389,6 @@ A closet is built into the south wall of the room.~
 15 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-T 81
 E
 closet~
    The closet door is made of faded wood and it has rusty hinges.

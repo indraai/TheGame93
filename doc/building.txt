@@ -893,8 +893,6 @@ hanging around his teeth.
 BareHandAttack: 4
 Str: 18
 E
-T 3010
-
 In the above example, the two E-specs used were BareHandAttack and Str. Any
 number of the E-specs can be used in an Enhanced section and they may appear in
 any order. The format is simple: the E-spec keyword, followed by a colon,

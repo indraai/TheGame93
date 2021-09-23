@@ -63,7 +63,7 @@ static void ASSIGNROOM(room_vnum room, SPECIAL(fname))
  * puff, fido, janitor, and cityguards are now implemented via triggers. */
 void assign_mobiles(void)
 {
-  assign_kings_castle();
+  // assign_kings_castle();
 
 
   ASSIGNMOB(120, guild);
