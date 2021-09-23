@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-statue~
-talk:#adventure view:thegame:world 0101/statue
-~
-E
 altar~
 talk:#adventure view:thegame:world 0101/altar
+~
+E
+statue~
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 T 158
@@ -141,10 +141,10 @@ talk:#adventure view:thegame:world 0106/firmament
 ~
 S
 #107
-Tabitha's House - Upstairs~
+The War Room~
 talk:#adventure view:thegame:world 0107/main
 ~
-1 24 0 0 0 0
+1 760 0 0 0 0
 D5
 talk:#adventure view:thegame:world 0141/look
 ~
@@ -162,12 +162,12 @@ talk:#adventure view:thegame:world 0142/look
 ~
 0 0 142
 E
-map~
-talk:#adventure view:thegame:world 0108/map
-~
-E
 table~
 talk:#adventure view:thegame:world 0108/table
+~
+E
+map~
+talk:#adventure view:thegame:world 0108/map
 ~
 S
 #109
@@ -295,17 +295,17 @@ D1
 ~
 0 0 100
 E
+hole~
+   You can look out over the inner wall to the western side of Arjika.  The
+smell of charred human remains and smoldering plaster makes your eyes water so
+it is difficult to see much else through the tiny hole.
+~
+E
 man silhouette~
    The distinct outline of a human body that must have taken the brunt of the
 blast when the portal imploded.  You wonder what or who it might have been.
 You can still see pieces of cloth and bone buried deeply into the wall inside
 the shadow of the unlucky man.
-~
-E
-hole~
-   You can look out over the inner wall to the western side of Arjika.  The
-smell of charred human remains and smoldering plaster makes your eyes water so
-it is difficult to see much else through the tiny hole.
 ~
 S
 #117
@@ -442,18 +442,18 @@ D2
 ~
 0 0 129
 E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
-E
 shrine~
    A beutiful shrine.  It has two white marble figures facing each other with a
 painting of the city below them.  The two figures seem to be looking down at
 the city with looks of worry and hopelessness.  An unlit candle and mirror lay
 on the floor beside the small shrine.
+~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.
 ~
 S
 #125
@@ -695,14 +695,10 @@ D0
 ~
 0 0 128
 E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 E
 desk~
@@ -712,10 +708,14 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
 ~
 S
 #136
