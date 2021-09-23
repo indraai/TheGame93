@@ -43,7 +43,7 @@ D3
 talk:#adventure view:thegame:world 0200/look
 ~
 ~
-1 0 200
+1 0 142
 S
 T 199
 #3
@@ -312,8 +312,7 @@ A Quest Room~
 talk:#adventure view:thegame:world 0019/main
 ~
 0 8 0 0 0 0
-D2
-talk:#adventure view:thegame:world 0018/look
+D1
 ~
 ~
 0 0 18
@@ -568,12 +567,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
