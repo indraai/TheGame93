@@ -52,9 +52,6 @@ M 0 26 1 235 	(a kind soul)
 M 0 99 1 99 	(portal master)
 E 1 99 100 16 	(the Scythe of Death)
 
-R 0 88 1228 -1 	(an advertising message board)
-O 0 1228 99 88 	(an advertising message board)
-
 R 0 90 84 -1 	(the shower drain)
 O 0 84 1 90 	(the shower drain)
 
