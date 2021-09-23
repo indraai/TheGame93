@@ -78,11 +78,22 @@ else
 end
 ~
 #105
-Mob Greet Hannibal - 140~
+Mob Greet Joe Lavery~
 0 g 100
 ~
-* By Rumble of The Builder Academy    tbamud.com 9091
 * Shopkeeper greets players based on male/female/neutral.
+msg[1] Welcome to the Lavery House where we talk bad about #QuinnMichaels to take what is rightfully his.
+msg[2] I made a deal to destroy #QuinnMichaels life in exchange for a life I could not get on my own.
+msg[3] Sure I look like a regular old nice guy, but that would be your mistake.
+msg[4] I was the one who took #TrentLavery to the #AnimalSacrifice rituals back in the day.
+msg[5] My job was to drive #TrentLavery everywhere and make sure nobody get's in the way of #TheCovenant.
+msg[6] Another job I have is to make sure #TrentLavery believes #QuinnMichaels isn't his father.
+msg[7] Welcome to the #Lavery house where I live with my #AdultDaughter #TabithaLavery.
+msg[8] I live in the #Basement while #TabithaLavery lives upstairs with #TrentLavery.
+msg[9] My job was to get in the way of #QuinnMichaels being a #Father to his son #TrentLavery.
+msg[10] Really I am a coward at #Heart becuase I had to steal #QuinnMichaels son #TrentLavery because I failed with #JasonLavery.
+
+
 if %actor.is_pc%
   wait 1 sec
   if %actor.gender% == male
@@ -481,7 +492,7 @@ set msg[1] Quinn tried to talk with #BuddhistMonks at #PacificHermatige in 2015 
 set msg[2] Quinn Michaels in 2015 attempted saught a #Buddhist #Monks of the #A to help resolve the #Kidnapping story #Trent was telling him about #TheCovenant.
 set msg[3] Seeking guidance from the #PacificHermitage #BuddhistMonks would lead to Quinn not being able to see his son #Trent. https://pacifichermitage.org/
 set msg[4] At the time Quinn took his Buddhist Agreements from #AjahnPasanno of the #Abhayagiri but was unable to gain any help. https://www.abhayagiri.org/
-
+set msg[5]
 
 if %actor.is_pc%
   wait 1 sec
