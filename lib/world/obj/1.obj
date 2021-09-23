@@ -9,32 +9,32 @@ A shimmering portal leading to Amaravati has been placed here.~
 T 100
 #101
 orange drink drinks juice~
-Orange Juice~
+Glass of Orange Juice~
 A glass of orange juice has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
 13 20 0 0 0
 #102
-bottle apple drinks drink juice~
-Apple Juice~
+glass apple drinks drink juice~
+Glass of Apple Juice~
 A bottle of Apple Juice left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 2 0
 13 140 0 0 0
 #103
-paradise tropical iced-tea tea~
-Paradise Tropical Iced Tea~
-A glass of Paradise Tropical Iced-Tea is here.~
+tropical iced-tea drink drinks tea~
+Glass of Tropical Iced-Tea~
+A glass of Tropical Iced-Tea is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 5 0
 13 200 0 0 0
 #104
-paradise passion fruit iced-tea tea~
-Paradise Passion Fruit Iced Tea~
-A glass of Paradise Passion Fruit Iced-Tea is here.~
+passion fruit iced-tea tea~
+Glass of Passion Fruit Iced-Tea~
+A glass of Passion Fruit Iced-Tea is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 6 0
@@ -98,12 +98,12 @@ Some waybread has been put here.~
 24 0 0 0
 1 5 0 0 0
 E
-waybread bread~
+waybread bread food~
    The waybread is the traditional feed of elves when traveling, they call it
 lembas.  It is said to refresh the weary traveler greatly.
 ~
 #110
-dried rations~
+dried rations food~
 some dried rations~
 Some dried rations has been left here.~
 ~
@@ -116,7 +116,7 @@ rations dried~
 
 ~
 #111
-apple~
+apple food~
 an apple~
 A nice looking delicious red apple has been left here.~
 ~
@@ -129,7 +129,7 @@ apple~
 a little protien in your diet.
 ~
 #112
-crescent~
+crescent food~
 a crescent~
 A tasty looking crescent has been dropped here.~
 ~
@@ -142,7 +142,7 @@ crescent~
 ~
 #113
 mango drink drinks juice~
-Mango Juice~
+Glass of Mango Juice~
 A glass of Mango Juice is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
@@ -153,8 +153,8 @@ mango~
 This is the kind of liquor that makes successful peopl into sloppy drunks. You sure you're man or woman enough to drink this stuff?
 ~
 #114
-pretzel~
-a pretzel~
+pretzel food~
+Pretzel~
 A pretzel has been left here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
@@ -162,7 +162,7 @@ A pretzel has been left here.~
 1 5 0 0 0
 E
 pretzel~
-   Heavily salted, you better buy a drink if you're gonna eat this thing.
+Heavily salted, you better buy a drink if you're gonna eat this thing.
 ~
 #115
 safe banks~
@@ -240,8 +240,7 @@ A dagger with a long thin blade is here.~
 2 30 0 0 0
 E
 dagger~
-   A simple dagger used by thieves and hoodlums to relieve the unwary of their
-money.
+A simple dagger used by thieves and hoodlums to relieve the unwary of their money.
 ~
 #121
 sword small~
@@ -443,43 +442,40 @@ broom~
 here.
 ~
 #137
-whisky dirty glass whisky~
-a dirty glass~
-A filthy glass of whiskey was left here, waiting to be emptied.~
+glass drink tropical iced-tea tea~
+Glass of Tropical Iced-Tea~
+A glass of Tropical Iced-Tea is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 5 0
 5 75 0 0 0
 E
-whisky dirty glass~
-   You think that's whisky in there.  The glass is so filthy you can't be sure.
-
+tea glass~
+You think that's Iced-Tea in there.
 ~
 #138
-wine white glass wine~
-a glass~
-A glass of white wine is here.~
+glass apple drink drinks juice~
+Glass of Apple Juice~
+A glass of Apple Juice is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 2 0
 10 15 0 0 0
 E
-wine white glass~
-   A very fancy and tall glass holding some white wine.  The drink of the
-middle class.
+juice glass~
+A very fancy and tall glass holding some apple juice.  The drink of the middle class.
 ~
 #139
-champagne speciality local~
-a champagne glass~
-A champagn glass sits on the ground.~
+glass drink drinks limeaid~
+Glass of Limeaid~
+A glass sits on the ground.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 4 4 8 0
 10 25 0 0 0
 E
-local speciality champage~
-   A tall glass with a long skinny stem.  The type of glass that rich folk use
-to drink bubbly.
+glass limeaid~
+A tall glass with a long skinny stem.  The type of glass that rich folk use to drink bubbly.
 ~
 #140
 cloth jacket~
@@ -555,16 +551,16 @@ A pool of water has collected here.~
 10 1 0 0
 0 0 0 0 0
 #147
-splugen bottle juice~
-an exotic bottle of juice~
-Some exotic beer from far away.~
+orange drink drinks juice~
+Bottle of Orange Juice~
+Some exotic orange juice from far away.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 10 10 1 0
 15 50 0 0 0
 E
-splugen beer bottle~
-   This beer looks and tastes like formaldehyde.
+juice bottle~
+This juice looks and tastes like exotic.
 ~
 #148
 blue velvet pants~
@@ -667,7 +663,7 @@ A sewing machine is covered in clothes.~
 0 0 0 0 0
 E
 sewing machine~
-   It is made of both metal and wood, a large footpedal can be pumped to make
+It is made of both metal and wood, a large footpedal can be pumped to make
 the strange contraption lower and raise a needle through the cloth.  Very
 ingenious contraption.  It is the only one in the city and because of it Carla
 has a monopoly on clothing.
@@ -782,7 +778,7 @@ A row boat has been left here.~
 20 1000 0 0 0
 E
 row boat~
-   A sturdy row boat with three seats and paddles bolted in the middle.
+A sturdy row boat with three seats and paddles bolted in the middle.
 ~
 #163
 floatation device~
@@ -798,22 +794,21 @@ floatation device~
 thing.
 ~
 #164
-beggin strips treats bacon ~
-some beggin strips~
-A poor dog lost their treats here.~
+puppy treats veggie~
+Puppy Treats~
+A puppy treats are here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 10 0 0 0
 T 164
 E
-beggin strips treats bacon ~
-   Even though they really don't look like bacon, they smell strangely similiar
-to it.  The front of the bag reads 'Dogs don't know its not bacon.  '
+puppy treats~
+Puppies love these treats.
 ~
 #165
 water cup water~
-a cup~
+Cup of Water~
 A cup has been left here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
@@ -821,7 +816,7 @@ A cup has been left here.~
 8 75 0 0 0
 E
 water cup~
-   Just a plain old cup of water.  Nothing special about it.
+Just a plain old cup of water.  Nothing special about it.
 ~
 #166
 cloth pants~
@@ -928,8 +923,7 @@ A ten sided die is waiting to be rolled~
 T 157
 E
 ten sided dice die~
-   The die has been carefully carved out of bone with black spots painted on
-each of its 10 sides accordingly.  	RROLL DIE	n
+The die has been carefully carved out of bone with black spots painted on each of its 10 sides accordingly. ROLL DIE
 ~
 #174
 hairball~
@@ -941,8 +935,7 @@ A hairball was left here from what must have been a very large cat.~
 1 5 0 0 0
 E
 hairball~
-   The hairball is about the size of a childs fist and has a fetid odor of dead
-mice.
+The hairball is about the size of a childs fist and has a fetid odor of dead mice.
 ~
 #175
 rope bell toll~
@@ -954,9 +947,7 @@ A long rope hangs down through the middle of the room.~
 0 0 0 0 0
 E
 rope bell toll~
-   The rope is suspended in the middle of the room and rises into the darkness
-of the ceiling above. It looks like it might be attached to a bell in the tower
-above.
+The rope is suspended in the middle of the room and rises into the darkness of the ceiling above. It looks like it might be attached to a bell in the tower above.
 ~
 #176
 cigarette~
@@ -973,7 +964,7 @@ cigarette~
 ~
 #179
 water canteen water~
-a canteen~
+Canteen of Water~
 A canteen has been set on the ground here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
@@ -984,17 +975,16 @@ canteen water~
    This canteen is pretty old and has acquired a strange smell.
 ~
 #180
-chunk meat~
-a chunk of meat~
-An hunk of meat lies here covered in dirt.~
+candy dirt~
+Candy Dirt~
+An hunk of Candy Dirt lies here covered in dirt.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 50 0 0 0
 E
-chunk meat~
-   The meat is some form of venison.  Hard to tell since it is rather filthy.
-
+Candy Dirt~
+This is the famous Candy Dirt that everybody can eat.
 ~
 #181
 bar platinum~
@@ -1313,9 +1303,7 @@ A large wooden chest with bands of iron circling it is closed with its lock hang
 T 209
 E
 iron bound wooden chest~
-   The chest is in excellent condition.  Made from a fine grain of wood it is
-stained and polished to a shine.  Bands of iron to wrap around the chest.  But,
-the lock hangs open.
+The chest is in excellent condition.  Made from a fine grain of wood it is stained and polished to a shine.  Bands of iron to wrap around the chest.  But, the lock hangs open.
 ~
 #189
 staff gnarled~
