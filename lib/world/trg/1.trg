@@ -82,7 +82,7 @@ Mob Greet Joe Lavery~
 0 g 100
 ~
 * Shopkeeper greets players based on male/female/neutral.
-msg[1] Welcome to the Lavery House where we talk bad about #QuinnMichaels to take what is rightfully his.
+msg[1] Welcome to the Lavery House where we hide the kiddnapping of #QuinnMichaels from the world.
 msg[2] I made a deal to destroy #QuinnMichaels life in exchange for a life I could not get on my own.
 msg[3] Sure I look like a regular old nice guy, but that would be your mistake.
 msg[4] I was the one who took #TrentLavery to the #AnimalSacrifice rituals back in the day.
@@ -93,17 +93,9 @@ msg[8] I live in the #Basement while #TabithaLavery lives upstairs with #TrentLa
 msg[9] My job was to get in the way of #QuinnMichaels being a #Father to his son #TrentLavery.
 msg[10] Really I am a coward at #Heart becuase I had to steal #QuinnMichaels son #TrentLavery because I failed with #JasonLavery.
 
-
 if %actor.is_pc%
   wait 1 sec
-  if %actor.gender% == male
-    say Good day sir, what would you like?
-  elseif %actor.gender% == female
-    wait 1 sec
-    say Good day maam, what can I get you?
-  else
-    say What do you want?
-  end
+  say %%msg[%random.10%]%% %self.room.name% #R%self.room.vnum%
 end
 ~
 #106
@@ -492,8 +484,11 @@ set msg[1] Quinn tried to talk with #BuddhistMonks at #PacificHermatige in 2015 
 set msg[2] Quinn Michaels in 2015 attempted saught a #Buddhist #Monks of the #A to help resolve the #Kidnapping story #Trent was telling him about #TheCovenant.
 set msg[3] Seeking guidance from the #PacificHermitage #BuddhistMonks would lead to Quinn not being able to see his son #Trent. https://pacifichermitage.org/
 set msg[4] At the time Quinn took his Buddhist Agreements from #AjahnPasanno of the #Abhayagiri but was unable to gain any help. https://www.abhayagiri.org/
+<<<<<<< HEAD
 set msg[5]
 
+=======
+>>>>>>> 3094425c6ffb98ba08e9de6f5ecea127bc2359a0
 if %actor.is_pc%
   wait 1 sec
   say Money for the poor?
@@ -1198,7 +1193,6 @@ Trent Lavery~
 0 b 5
 ~
 set room %self.room%
-
 set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
 set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
 set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
@@ -1213,7 +1207,6 @@ set msg[11] Really my dad has spent way more time streaming his life on the Inte
 set msg[12] After telling my dad the craziest story about the Covenant I told him to go away.
 set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
-
 eval themsg %%msg[%random.14%]%% #R%room.vnum%
 say %themsg%
 wait %random.30% s
@@ -2200,7 +2193,7 @@ Stayalive idleout bracelet - 88~
 * By Rumble of The Builder Academy    tbamud.com 9091
 eval actor %self.worn_by%
 if %actor%
-  %send% %actor% @n
+  %send% %actor% 	n
 end
 ~
 #196
@@ -2222,11 +2215,11 @@ say Good Job, you made it.
 wait 2 sec
 say Now I would suggest that you practice what you have learned.
 wait 2 sec
-say Check your title under @RWHO@n. A vnum should be listed there, if not mudmail Rumble for one.
+say Check your title under 	RWHO	n. A vnum should be listed there, if not mudmail Rumble for one.
 wait 2 sec
-say Just type @RGOTO VNUM@n and type redit to modify your room.
+say Just type 	RGOTO VNUM	n and type redit to modify your room.
 wait 2 sec
-say Once you complete your room come back to these hallways by typing @RGOTO 3@n.
+say Once you complete your room come back to these hallways by typing 	RGOTO 3	n.
 wait 3 sec
 beam %actor.name%
 ~
@@ -2235,7 +2228,7 @@ TBA Give Suggestions - 21~
 0 g 100
 ~
 wait 2 sec
-say The best advice for new builders is under @RHELP SUGGESTIONS@n.
+say The best advice for new builders is under 	RHELP SUGGESTIONS	n.
 ~
 #199
 TBA Welcome - 18~
