@@ -253,7 +253,7 @@ A small sword lies here.~
 3 75 0 0 0
 E
 sword~
-   The basic sword of the Sanctus army.  Nothing spectacular about it.
+   The basic sword of the Arjika army.  Nothing spectacular about it.
 ~
 #122
 gray robe~
@@ -725,17 +725,17 @@ A
 A
 17 -3
 #159
-list directions sanctus~
+list directions arjika~
 a list of directions~
-A list of directions to important areas within Sanctus lies here.~
+A list of directions to important areas within Arjika lies here.~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
 E
-list directions sanctus~
+list directions arjika~
    	n
-recall Room - teleport Sanctus
+recall Room - teleport Arjika
 Newbie Zones - teleport Newbie
 Food - 1d, 3s, 1e, 1n
 1d, 3s, 1w, 1n

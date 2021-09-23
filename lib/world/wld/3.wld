@@ -22,8 +22,8 @@ D3
 E
 credits info~
    Builder   : Rumble
-Zone         : 3 Sanctus III
-Related Zones: 1 Sanctus, 2 Sanctus II
+Zone         : 3 Arjika III
+Related Zones: 1 Arjika, 2 Arjika II
 Began        : 2000
 Player Level : 1-34
 Rooms        : 66
@@ -32,23 +32,23 @@ Objects      : 57
 Shops        : 2
 Triggers     : 41
 Theme        : A mortal starting town.
-Plot         : Fabric of time torn, world going to hell. Sanctus one of the few
+Plot         : Fabric of time torn, world going to hell. Arjika one of the few
                safe havens remaining.
 Links        : 40n, 43w, 59e, 62s
 Zone 3 is linked to the following zones:
-  2 Sanctus II                     at   300 (north) --->   287
-  2 Sanctus II                     at   300 (west ) --->   299
-  2 Sanctus II                     at   301 (north) --->   288
-  2 Sanctus II                     at   302 (north) --->   292
-  2 Sanctus II                     at   303 (north) --->   296
-  2 Sanctus II                     at   304 (north) --->   297
-  2 Sanctus II                     at   305 (north) --->   298
-  1 Sanctus                        at   340 (up   ) --->   128
-  1 Sanctus                        at   341 (up   ) --->   129
-  1 Sanctus                        at   345 (up   ) --->   132
-  1 Sanctus                        at   346 (up   ) --->   133
-  1 Sanctus                        at   362 (up   ) --->   139
-  1 Sanctus                        at   365 (north) --->   101
+  2 Arjika II                     at   300 (north) --->   287
+  2 Arjika II                     at   300 (west ) --->   299
+  2 Arjika II                     at   301 (north) --->   288
+  2 Arjika II                     at   302 (north) --->   292
+  2 Arjika II                     at   303 (north) --->   296
+  2 Arjika II                     at   304 (north) --->   297
+  2 Arjika II                     at   305 (north) --->   298
+  1 Arjika                        at   340 (up   ) --->   128
+  1 Arjika                        at   341 (up   ) --->   129
+  1 Arjika                        at   345 (up   ) --->   132
+  1 Arjika                        at   346 (up   ) --->   133
+  1 Arjika                        at   362 (up   ) --->   139
+  1 Arjika                        at   365 (north) --->   101
 ~
 S
 #301
@@ -159,7 +159,7 @@ T 306
 #307
 A Long Hallway~
 The barren walls and floor would seem odd anywhere but here as the s of
-Sanctus consider decorations, desires, or any form of unnecessary wants to be
+Arjika consider decorations, desires, or any form of unnecessary wants to be
 blasphemous.  They dedicate their lives to helping others, never themselves.
 ~
 3 8 0 0 0 1
@@ -235,7 +235,7 @@ S
 #311
 Clerics Alley~
    The Tower of the High Council of s is almost as impressive as the
-Temple of Sanctus.  They look very similiar, except of course the Tower is much
+Temple of Arjika.  They look very similiar, except of course the Tower is much
 smaller.  Far up in the tower you can see people walking by windows in white
 flowing robes.  The healers within are known for their miraculous abilities in
 restoring the wounded.
@@ -253,7 +253,7 @@ S
 #312
 Clerics Alley~
    The inner city wall opens up just to the east into the southern road which
-runs from the south gate directly to the heart of Sanctus inside the temple.  A
+runs from the south gate directly to the heart of Arjika inside the temple.  A
 few apprentice healers in flowing robes rush between the Temple and the s'
 Quarters, no doubt on an errand from the Council.
 ~
@@ -293,7 +293,7 @@ Magi Alley~
    The black Tower of the Magi casts an intimidating shadow over the
 surroundings and the underlying alley.  Within the tower lie many secrets that
 the average citizen is not privileged enough to be told about.  Rumors abound,
-especially about the Orb of Sanctum the Devas left in the Master Magi's care.
+especially about the Orb of Arjika the Devas left in the Master Magi's care.
 ~
 3 0 0 0 0 1
 D1
@@ -361,7 +361,7 @@ The Southeastern Intersection~
    A small alley ducks between the Tower of the Magi and the southern section of
 the inner city wall.  The Magi Mansion lies just to the east, so extravagant
 that it is almost at the point of becoming an eyesore.  The Tower contains the
-fabled Orb of Sanctum, but few are ever lucky enough to lay their eyes on it.
+fabled Orb of Arjika, but few are ever lucky enough to lay their eyes on it.
 ~
 3 0 0 0 0 1
 D0
@@ -381,7 +381,7 @@ S
 An Elegant Hall~
    Both sides of the hallway are covered from floor to ceiling in exquisite
 drawings.  All of them depicting various battles in which the Magi have fought
-in.  In the one in front of you the army of Sanctus stands on the verge of
+in.  In the one in front of you the army of Arjika stands on the verge of
 defeat, except for the constant bombardment of fireballs, lightning, and meteors
 hurled from the battlements by the Magi.
 ~
@@ -611,7 +611,7 @@ S
 #331
 The Training Room~
    Several older students are sitting in on a class about the protective firmament
-that upholds the balance within the city.  Mention of the Orb of Sanctus
+that upholds the balance within the city.  Mention of the Orb of Arjika
 whispers around the room, and of how the Devas bestowed it upon the Master Magi
 to preserve and protect.  Without the Orb the city would surely fall.
 ~
@@ -716,7 +716,7 @@ D1
 S
 #337
 The Hall of Clerics~
-   This building holds the majority of the monks within the city of Sanctus.
+   This building holds the majority of the monks within the city of Arjika.
 It is here the High Council convenes to help citizens solve minor disputes.
 The building is barren of any luxuries.  That is the way a monk must live,
 without desires or wants.
@@ -846,7 +846,7 @@ S
 #342
 The Tower of the High Council of Clerics~
    The east end of the Tower opens into the Southern Road which passes between
-the Southern Towers and the Temple of Sanctus.  This junction lies at the
+the Southern Towers and the Temple of Arjika.  This junction lies at the
 entrance of the revered Tower of the High Council.  High above is where the
 councillors make many important decisions on how to uphold the welfare and
 health of the city.
@@ -1187,7 +1187,7 @@ S
 #358
 A Tower Hallway~
    Through a small door to the north one can see the center of the tower where a
-set of spiral staircases lead to the second floor.  The Orb of Sanctum is
+set of spiral staircases lead to the second floor.  The Orb of Arjika is
 protected somewhere within this tower.  The Master Magi have been given the task
 of ensuring its safety.
 ~

@@ -205,20 +205,20 @@ dg_cast 'magic missile' %actor%
 return 0
 ~
 #313
-Obj Wear 12 - Staff of Sanctum~
+Obj Wear 12 - Staff of Arjika~
 1 j 100
 ~
 if %actor.level% < 30
   return 0
-  %send% %actor% The Staff of Sanctum whispers: I will not serve you!
-  %echoaround% %actor% The Staff of Sanctum exclaims: 'I will not serve
+  %send% %actor% The Staff of Arjika whispers: I will not serve you!
+  %echoaround% %actor% The Staff of Arjika exclaims: 'I will not serve
 those without honor.'
   %purge% self
 else
   wait 1s
-  %send% %actor% The Staff of Sanctum whispers: I was made to serve,
+  %send% %actor% The Staff of Arjika whispers: I was made to serve,
 great one!
-  %echoaround% %actor% The Staff of Sanctus exclaims: 'I will serve you
+  %echoaround% %actor% The Staff of Arjika exclaims: 'I will serve you
 honorable one.'
 end
 ~
@@ -752,7 +752,7 @@ teleport~
 %send% %actor% You attempt to manipulate space and time.
 %echoaround% %actor% %actor.name% attempts to manipulate space and time.
 wait 1 sec
-set Sanctus 100
+set Arjika 100
 set jade 400
 set newbie 500
 set sea 600

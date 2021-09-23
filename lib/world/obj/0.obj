@@ -126,14 +126,13 @@ Fresh water is bubbling up from a spring.~
 100 100 0 0
 0 0 0 0 0
 #12
-staff sanctum~
-the Staff of Sanctum~
-The Staff of Sanctum stands here waiting to be taken up by those who are worthy.~
+staff arjika~
+the Staff of Arjika~
+The Staff of Arjika stands here waiting to be taken up by those who are worthy.~
 ~
 5 0 0 0 0 ano 0 0 0 0 0 0 0
 50 10 5 7
 20 1000 0 30 0
-T 85
 #13
 Ferret's black book~
 the little black book~
@@ -174,7 +173,7 @@ T 141
 T 169
 E
 quest token~
-   It is a plain gold coin with the symbol of Sanctus engraved on both sides.
+   It is a plain gold coin with the symbol of Arjika engraved on both sides.
 This token should be taken back to the questmaster to receive a reward.
 ~
 #16
@@ -442,7 +441,7 @@ The light of humanity guides you onward here.~
 E
 star man quest~
    This beautiful gem was mined from the center of the mountain from which the
-stone of Sanctus's walls is constructed.  It pulses with the glow of true magic.
+stone of Arjika's walls is constructed.  It pulses with the glow of true magic.
 Carved by the finest craftsman, enchanted by the most powerful wielders of the
 magical arts, this stone was made for the greatest of the human race.  Look into
 its depths, and see all the souls of mortal man.  It has no peer, no equal, and
@@ -625,67 +624,67 @@ A
 A
 2 3
 #38
-gem sanctum~
-a gem of sanctum~
-One of the lost treasures of Sanctum is here.~
+gem arjika~
+a gem of arjika~
+One of the lost treasures of Arjika is here.~
 ~
 4 a 0 0 0 ao 0 0 0 0 0 0 0
 30 1 1 26
 1 1000 0 0 0
 T 90
 E
-gem sanctum~
-   This is one of the treasures from the hoards of the city of Sanctum.
+gem arjika~
+   This is one of the treasures from the hoards of the city of Arjika.
 ~
 #39
 staff curative~
 a curative staff~
-A staff used by the healers of Sanctum is here.~
+A staff used by the healers of Arjika is here.~
 ~
 4 b 0 0 0 ao 0 0 0 0 0 0 0
 30 1 1 43
 1 1000 0 0 0
 E
 curative staff~
-   This beautiful staff is used by the healers of sanctum.
+   This beautiful staff is used by the healers of arjika.
 ~
 #40
-runestone sanctum church~
-a runestone of Sanctum~
-A runestone of the church of Sanctum has been left here.~
+runestone arjika church~
+a runestone of Arjika~
+A runestone of the church of Arjika has been left here.~
 ~
 4 b 0 0 0 ao 0 0 0 0 0 0 0
 30 1 1 36
 1 1000 0 0 0
 E
-runestone Sanctum church~
-   This is one of the runestones used by the priests of Sanctum in their duties.
+runestone Arjika church~
+   This is one of the runestones used by the priests of Arjika in their duties.
 
 ~
 #41
-Bell sanctum freedom~
-the bell of Sanctum's freedom~
-The symbol of Sanctum's freedom waits to be returned to its city.~
+Bell arjika freedom~
+the bell of Arjika's freedom~
+The symbol of Arjika's freedom waits to be returned to its city.~
 Nothing.
 ~
 4 b 0 0 0 ao 0 0 0 0 0 0 0
 30 1 1 39
 1 1000 0 0 0
 E
-bell sanctum's freedom~
-   This is the bell that represents the freedom of the city of Sanctum.
+bell arjika's freedom~
+   This is the bell that represents the freedom of the city of Arjika.
 ~
 #42
-hammer Sanctum~
-the hammer of Sanctum~
-The hammer used to ring Sanctum's mighty bell is here.~
+hammer Arjika~
+the hammer of Arjika~
+The hammer used to ring Arjika's mighty bell is here.~
 ~
 4 ab 0 0 0 ao 0 0 0 0 0 0 0
 30 1 1 3
 1 1000 0 0 0
 E
-hammer Sanctum~
-   This is the hammer used to ring the bell of freedom in the church of Sanctum.
+hammer Arjika~
+   This is the hammer used to ring the bell of freedom in the church of Arjika.
 
 ~
 #43
