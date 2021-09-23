@@ -1173,10 +1173,9 @@ end
 ~
 #161
 Trent Lavery~
-0 b 5
+0 b 50
 ~
 set room %self.room%
-
 set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
 set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
 set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
@@ -1208,8 +1207,9 @@ else if %time.hour% == 17
   u
   wait 2 s
   sleep
+end
 
-else if %actor.is_pc%
+if %actor.is_pc%
   wait 3 sec
   say %themsg%
 end
