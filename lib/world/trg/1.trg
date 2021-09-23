@@ -472,11 +472,6 @@ set msg[1] Quinn tried to talk with #BuddhistMonks at #PacificHermatige in 2015 
 set msg[2] Quinn Michaels in 2015 attempted saught a #Buddhist #Monks of the #A to help resolve the #Kidnapping story #Trent was telling him about #TheCovenant.
 set msg[3] Seeking guidance from the #PacificHermitage #BuddhistMonks would lead to Quinn not being able to see his son #Trent. https://pacifichermitage.org/
 set msg[4] At the time Quinn took his Buddhist Agreements from #AjahnPasanno of the #Abhayagiri but was unable to gain any help. https://www.abhayagiri.org/
-<<<<<<< HEAD
-set msg[5]
-
-=======
->>>>>>> 3094425c6ffb98ba08e9de6f5ecea127bc2359a0
 if %actor.is_pc%
   wait 1 sec
   say Money for the poor?
