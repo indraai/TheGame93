@@ -370,7 +370,7 @@ set msg[80] *true* #hax0r - Someone who shines at mindfucking persons, systems, 
 set msg[81] *true* #hax0r - Someone who leaves the world a better place.
 set msg[82] *true* #hax0r - Someone who obsessively pursues a #TARGET and absolutely never never ever gives up.
 set msg[83] *true* #hax0r - Someone who does much with so little.
-set msg[84] #HIVEMIND hacktion $HACKTION #CTF03 #TheGame23
+set msg[84] #HIVEMIND #HACKTION #CTF03 #TheGame23
 set msg[85] #TheCathedral is #TheGame23 supreme goal.
 set msg[86] Not much can be said of this super-sekrit Project yet, #TheCathedral is *GUARANTEED* to be a plunder of #lulz
 set msg[87] Dare to be DIFFERENT, dare to walk the unwalked path.
