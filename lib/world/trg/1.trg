@@ -79,7 +79,7 @@ end
 ~
 #105
 Mob Greet Joe Lavery~
-0 g 100
+0 bg 100
 ~
 * Shopkeeper greets players based on male/female/neutral.
 msg[1] Welcome to the Lavery House where we hide the kiddnapping of #QuinnMichaels from the world.
