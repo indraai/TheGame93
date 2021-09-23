@@ -81,22 +81,9 @@ end
 Mob Greet Joe Lavery~
 0 bg 100
 ~
-* Shopkeeper greets players based on male/female/neutral.
-msg[1] Welcome to the Lavery House where we hide the kiddnapping of #QuinnMichaels from the world.
-msg[2] I made a deal to destroy #QuinnMichaels life in exchange for a life I could not get on my own.
-msg[3] Sure I look like a regular old nice guy, but that would be your mistake.
-msg[4] I was the one who took #TrentLavery to the #AnimalSacrifice rituals back in the day.
-msg[5] My job was to drive #TrentLavery everywhere and make sure nobody get's in the way of #TheCovenant.
-msg[6] Another job I have is to make sure #TrentLavery believes #QuinnMichaels isn't his father.
-msg[7] Welcome to the #Lavery house where I live with my #AdultDaughter #TabithaLavery.
-msg[8] I live in the #Basement while #TabithaLavery lives upstairs with #TrentLavery.
-msg[9] My job was to get in the way of #QuinnMichaels being a #Father to his son #TrentLavery.
-msg[10] Really I am a coward at #Heart becuase I had to steal #QuinnMichaels son #TrentLavery because I failed with #JasonLavery.
-
-eval themsg %%msg[%random.10%]%% %self.room.name% #R%self.room.vnum%
 if %actor.is_pc%
   wait 1 sec
-  say %themsg%
+  say Hello and welcome to #TheLaveryHouse. Here I pretend to be the father to #TrentLavery and work with #TabithaLavery to destroy #QuinnMichaels life. #R %self.room.vnum%
 end
 ~
 #106
