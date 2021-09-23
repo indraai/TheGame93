@@ -1196,6 +1196,7 @@ set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad
 eval themsg %%msg[%random.14%]%% %room.name% #R%room.vnum%
 if %people%
   say %themsg%
+  wait %random.360% s
 end
 
 ~
