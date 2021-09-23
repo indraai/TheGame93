@@ -229,11 +229,10 @@ A generic staff is lying here.~
 1 1 0 0 0
 E
 generic staff~
-   Since this staff is completely generic there are no distinctive features
-worth noticing.
+Since this staff is completely generic there are no distinctive features worth noticing.
 ~
 #218
-loaf bread~
+loaf bread food~
 a loaf of bread~
 A loaf of freshly baked bread was left here.~
 ~
@@ -251,8 +250,7 @@ A pile of ashes is slowly being blown away by the wind.~
 T 212
 E
 pile ashes~
-   The ashes are an unnatural mix of black and silver powder.  Too fine to have
-come from a regular fire.
+The ashes are an unnatural mix of black and silver powder.  Too fine to have come from a regular fire.
 ~
 #220
 wrapped birthday present~
@@ -299,31 +297,40 @@ holds is to unwrap it!
 #251
 water marble fountain water~
 a marble fountain~
-A large fountain with two statues standing protectively above it.~
+A large fountain with five statues standing protectively above it.~
+
+DO NOT ENTER FOUNTAIN!
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 -1 1 0 0
 0 0 0 0 0
 T 201
 E
-rumble names ferret~
-   To bring peace where there was only war.  To bring justice where there was
-only inequity.  To bring freedom where there was only coercion.  To bring
-balance where there was only chaos.  To bring Arjika to the world.
-
-DO NOT ENTER FOUNTAIN!
+statues figures~
+Below each statue is engraved a name... Indu, Bom, Soma, Indra, Arjikiya.  More is written below the names but you must look more closely to read it.
 ~
 E
-statues figures~
-   Below each statue is engraved a name.  Rumble and Ferret.  More is written
-below the names but you must look more closely to read it.
+indu~
+Indu... To bring peace where there was only war.
+~
+E
+bom~
+Bom...  To bring justice where there was only inequity.
+~
+E
+soma~
+Soma... To bring freedom where there was only coercion.
+~
+E
+indra~
+Indra... To bring balance where there was only chaos.
+~
+E
+arjikiya~
+Arjikiya... To bring Arjika to the world.
 ~
 E
 fountain~
-   This is the most beautiful fountain you have ever set your eyes upon!  It
-has a marble bottom, which is clean enough to eat off from.  In the center of
-the fountain, you see some stone FIGURES.  They have their mouths open.  As you
-look closely you can see that there is water streaming out from the mouths.
-What a neat idea!
+This is the most beautiful fountain you have ever set your eyes upon!  It has a marble bottom, which is clean enough to eat off from.  In the center of the fountain, you see some stone FIGURES.  They have their mouths open.  As you look closely you can see that there is water streaming out from the mouths. What a neat idea!
 ~
 $~

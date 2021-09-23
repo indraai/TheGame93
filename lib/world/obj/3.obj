@@ -1,39 +1,39 @@
 #300
-beer barrel beer~
-a barrel~
-A beer barrel has been left here.~
+beer barrel drink drinks water~
+Barrel of Water~
+A water barrel is here.~
 ~
 17 0 0 0 0 0 0 0 0 0 0 0 0
-50 50 1 0
+50 50 0 0
 0 0 0 0 0
 #301
-beer bottle beer~
-a bottle~
-A beer bottle has been left here.~
+water bottle drink drinks water~
+Bottle of Water~
+A water bottle is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
 10 20 0 0 0
 #302
-ale bottle dark ale~
-a bottle~
-A dark bottle of ale has been left here.~
+grape bottle drink drinks juice~
+Bottle of Grape Juice~
+A bottle of Grape Juice is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 3 0
 10 10 0 0 0
 #303
-firebreather bottle firebreather~
-a firebreather~
-A firebreather has been left here.~
+lemonaid drink drinks bottle lemonaid~
+Bottle of Lemonaid~
+A bottle of Lemonaid is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 7 0
 10 50 0 0 0
 #304
-local bottle local~
-a bottle~
-A dark bottle has been left here.~
+limeaid bottle drink drinks limeaid~
+Bottle of Limeaid~
+A bottle of Limeaid is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 8 0
