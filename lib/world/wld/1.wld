@@ -142,32 +142,42 @@ talk:#adventure view:thegame:world 0106/firmament
 S
 #107
 The War Room~
-talk:#adventure view:thegame:world 0107/main
+empty.
 ~
 1 760 0 0 0 0
 D5
-talk:#adventure view:thegame:world 0141/look
 ~
 ~
 0 0 141
+E
+table~
+empty.
+~
+E
+map~
+empty.
+~
 S
 #108
 Upstairs~
-talk:#adventure view:thegame:world 0108/main
+empty.
 ~
 1 8 0 0 0 0
 D5
-talk:#adventure view:thegame:world 0142/look
 ~
 ~
 0 0 142
 E
-table~
-talk:#adventure view:thegame:world 0108/table
+tabitha~
+empty.
 ~
 E
-map~
-talk:#adventure view:thegame:world 0108/map
+trent~
+empty.
+~
+E
+bathroom~
+empty.
 ~
 S
 #109
