@@ -726,6 +726,7 @@ static void look_at_target(struct char_data *ch, char *arg)
     send_to_char(ch, "\n## %s\r"
       "\ntalk:#adventure view:thegame:world %d/%s\r"
       "\nroom:%d\r",
+      arg,
       GET_ROOM_VNUM(IN_ROOM(ch)),
       arg,
       GET_ROOM_VNUM(IN_ROOM(ch))
