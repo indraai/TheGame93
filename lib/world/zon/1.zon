@@ -72,7 +72,7 @@ M 0 157 1 101 	(the old sage)
 M 0 153 1 190 	(Douglas Rushkoff)
 
 M 0 154 3 146 	(the patrolman)
-M 0 163 2 195 	(John Romero)
+M 0 163 1 195 	(John Romero)
 M 0 127 1 127 	(the healer)
 M 0 197 1 143 	(the carpenter)
 
@@ -128,7 +128,9 @@ M 0 171 1 308 	(Tyler PM2020)
 M 0 172 1 251 	(Tyler EtherSec)
 
 M 0 132 1 175 	(the butler)
-M 0 130 3 172 	(the maid)
+
+M 0 130 1 172 	(Brenda Laurel)
+
 E 1 155 99 17 	(a feather duster)
 M 0 167 2 157 	(the staff sergeant)
 E 1 142 99 11 	(a wooden shield)
@@ -153,7 +155,7 @@ M 0 160 1 168 	(the general)
 E 1 145 99 5 	(a scale mail jacket)
 E 1 144 99 6 	(a leather helm)
 M 0 139 1 188 	(the alley cat)
-M 0 163 2 166 	(the hired hand)
+
 M 0 176 1 182 	(Gunney)
 E 1 157 99 6 	(Gunney's hat)
 
@@ -161,7 +163,7 @@ M 0 179 3 198 	(the recruit)
 M 0 190 3 193 	(the cat)
 M 0 192 3 186 	(the german shephard)
 
-M 0 129 3 179 	(the thief)
+M 0 129 1 179 	(Douglas Rushkoff)
 G 1 156 99 -1 	(someone else's purse)
 E 1 120 99 16 	(a dagger)
 

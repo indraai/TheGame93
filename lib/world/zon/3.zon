@@ -12,7 +12,7 @@ E 1 126 99 5 	(a purple robe)
 
 M 0 301 1 305 	(the naked magi)
 E 1 326 99 12 	(a white towel)
-M 0 130 3 305 	(the maid)
+
 E 1 155 99 17 	(a feather duster)
 R 0 305 326 -1 	(a white towel)
 O 0 326 99 305 	(a white towel)

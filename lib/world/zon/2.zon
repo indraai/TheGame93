@@ -30,7 +30,7 @@ G 1 101 99 -1 	(an imported bottle of beer)
 G 1 197 99 -1 	(a "kick me" sign)
 
 O 0 193 1 291 	(a thin stream of red liquid)
-M 0 130 3 291 	(the maid)
+
 E 1 155 99 17 	(a feather duster)
 
 M 0 200 1 280 	(the baker's assistant)
@@ -85,7 +85,7 @@ M 0 182 1 221 	(Ingrid)
 G 1 351 99 -1 	(a yellow potion of see invisible)
 G 1 190 99 -1 	(a scroll of remove curse)
 
-M 0 112 1 294 	(the young woman)
+M 0 112 1 294 	(Elizabeth Lapensee)
 M 0 125 3 274 	(the young girl)
 
 M 0 135 1 252 	(the blue Master Magi)
@@ -142,11 +142,8 @@ M 0 194 3 231 	(the mouse)
 M 0 193 3 214 	(the dove)
 M 0 194 3 216 	(the mouse)
 
-M 0 129 3 289 	(the thief)
 E 1 120 99 16 	(a dagger)
-
 G 1 156 99 -1 	(someone else's purse)
-M 0 129 3 241 	(the thief)
 
 G 1 156 99 -1 	(someone else's purse)
 E 1 120 99 16 	(a dagger)
