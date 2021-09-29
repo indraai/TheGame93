@@ -47,10 +47,10 @@ talk:#adventure view:thegame:world 0200/look
 S
 T 199
 #3
-Builder Academy~
+TheGame23~
 talk:#adventure view:thegame:world 0003/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0004/look
 ~
@@ -63,7 +63,7 @@ talk:#adventure view:thegame:world 0002/look
 0 0 2
 S
 #4
-The Beginning~
+Project Mayhem 2012~
 talk:#adventure view:thegame:world 0004/main
 ~
 0 24 0 0 0 0
@@ -79,10 +79,10 @@ talk:#adventure view:thegame:world 0003/look
 0 0 3
 S
 #5
-Implementation~
+Dangerous Ideas~
 talk:#adventure view:thegame:world 0005/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0006/look
 ~
@@ -95,10 +95,10 @@ talk:#adventure view:thegame:world 0004/look
 0 0 4
 S
 #6
-Building~
-talk:#adventure view:thegame:world 0006/main
+Telecomix~
+empty.
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0007/look
 ~
@@ -111,7 +111,7 @@ talk:#adventure view:thegame:world 005/look
 0 0 5
 S
 #7
-Descriptions~
+Project Mayhem Revelations~
 talk:#adventure view:thegame:world 0007/main
 ~
 0 8 0 0 0 0
@@ -127,10 +127,10 @@ talk:#adventure view:thegame:world 0006/look
 0 0 6
 S
 #8
-Using REDIT~
+Project Mayhem 2020~
 talk:#adventure view:thegame:world 0008/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0009/look
 ~
@@ -140,13 +140,13 @@ D3
 talk:#adventure view:thegame:world 0007/look
 ~
 ~
-0 0 14
+0 0 7
 S
 #9
-Using OEDIT~
+IT~
 talk:#adventure view:thegame:world 0009/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0010/look
 ~
@@ -159,10 +159,10 @@ talk:#adventure view:thegame:world 0008/look
 0 0 8
 S
 #10
-Using MEDIT~
+eTHErSEC Project 2020~
 talk:#adventure view:thegame:world 0010/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0011/look
 ~
@@ -175,10 +175,10 @@ talk:#adventure view:thegame:world 0009/look
 0 0 9
 S
 #11
-Using ZEDIT~
+EtherSec...again~
 talk:#adventure view:thegame:world 0011/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D2
 talk:#adventure view:thegame:world 0012/look
 ~
@@ -191,10 +191,10 @@ talk:#adventure view:thegame:world 0010/look
 0 0 10
 S
 #12
-Using SEDIT~
+Michael the Archangel~
 talk:#adventure view:thegame:world 0012/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0011/look
 ~
@@ -207,10 +207,10 @@ talk:#adventure view:thegame:world 0013/look
 0 0 13
 S
 #13
-Using TRIGEDIT~
+Project 89~
 talk:#adventure view:thegame:world 0013/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0012/look
 ~
@@ -223,10 +223,10 @@ talk:#adventure view:thegame:world 0014/look
 0 0 14
 S
 #14
-Planning~
+The Unix Terrorist~
 talk:#adventure view:thegame:world 0014/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0013/look
 ~
@@ -239,7 +239,7 @@ talk:#adventure view:thegame:world 0015/look
 0 0 15
 S
 #15
-Advanced Building~
+Kent Browne (@rloxley)~
 talk:#adventure view:thegame:world 0015/main
 ~
 0 8 0 0 0 0
@@ -551,10 +551,9 @@ talk:#adventure view:thegame:world 0099/look
 ~
 0 0 99
 D3
-talk:#adventure view:thegame:world 0002/look
 ~
 ~
-0 0 2
+0 0 108
 S
 #99
 The Academy Cafe~
