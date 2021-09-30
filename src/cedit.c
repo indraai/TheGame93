@@ -607,7 +607,7 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
   write_to_output(d, "\n## Gameplay\r"
-        "\nselect[a:Player Killing]\r"
+        "\nselect[a:Player Killing]:%s\r"
         "select[b:Player Thieving Allowed]:%s\r"
         "select[c:Minimum Level To Shout]:%d\r"
         "select[d:Holler Move Cost]:%d\r"
