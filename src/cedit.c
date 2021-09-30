@@ -591,7 +591,7 @@ static void cedit_disp_menu(struct descriptor_data *d)
   	  "\nselect[Crashsave & Rent]:b\r"
   	  "\nselect[Room Numbers]:c\r"
       "\nselect[Operation]:d\r"
-      "\select[Autowize]:e\r"
+      "\nselect[Autowize]:e\r"
       "\nselect[quit]:q\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
