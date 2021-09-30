@@ -867,12 +867,12 @@ void cedit_parse(struct descriptor_data *d, char *arg)
     case CEDIT_GAME_OPTIONS_MENU:
       switch (*arg) {
         case 'a':
-          write_to_output(d, "\nIs player killing allowed?\r")
+          write_to_output(d, "\nIs player killing allowed?\r");
           TOGGLE_VAR(OLC_CONFIG(d)->play.pk_allowed);
           break;
 
         case 'b':
-          write_to_output(d, "\nIs player thieving allowed?\r")
+          write_to_output(d, "\nIs player thieving allowed?\r");
           TOGGLE_VAR(OLC_CONFIG(d)->play.pt_allowed);
           break;
 
