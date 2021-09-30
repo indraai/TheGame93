@@ -662,10 +662,8 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
         m_opt == 0 ? "Off" : (m_opt == 1 ? "On" : (m_opt == 2 ? "Imm-Only" : "Invalid!")),
         OLC_CONFIG(d)->play.map_size,
         OLC_CONFIG(d)->play.minimap_size,
-        CHECK_VAR(OLC_CONFIG(d)->play.script_players),
-
-        grn, nrm
-        );
+        CHECK_VAR(OLC_CONFIG(d)->play.script_players)
+      );
 
   OLC_MODE(d) = CEDIT_GAME_OPTIONS_MENU;
 }
