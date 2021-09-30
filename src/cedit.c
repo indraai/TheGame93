@@ -592,7 +592,7 @@ static void cedit_disp_menu(struct descriptor_data *d)
   	  "\nmenu[Room Numbers]:c\r"
       "\nmenu[Operation]:d\r"
       "\nmenu[Autowize]:e\r"
-      "\nmenu[quit]:q\r");
+      "\nmenu[Quit]:q\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
@@ -606,63 +606,63 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
 
-  write_to_output(d, "\r\n\r\n"
-        "%sA%s) Player Killing Allowed  : %s%s\r\n"
-        "%sB%s) Player Thieving Allowed : %s%s\r\n"
-        "%sC%s) Minimum Level To Shout  : %s%d\r\n"
-        "%sD%s) Holler Move Cost        : %s%d\r\n"
-        "%sE%s) Tunnel Size             : %s%d\r\n"
-        "%sF%s) Maximum Experience Gain : %s%d\r\n"
-        "%sG%s) Maximum Experience Loss : %s%d\r\n"
-        "%sH%s) Max Time for NPC Corpse : %s%d\r\n"
-        "%sI%s) Max Time for PC Corpse  : %s%d\r\n"
-        "%sJ%s) Tics before PC sent to void : %s%d\r\n"
-        "%sK%s) Tics before PC is autosaved : %s%d\r\n"
-        "%sL%s) Level Immune To IDLE        : %s%d\r\n"
-        "%sM%s) Death Traps Junk Items      : %s%s\r\n"
-        "%sN%s) Objects Load Into Inventory : %s%s\r\n"
-        "%sO%s) Track Through Doors         : %s%s\r\n"
-        "%sP%s) Display Closed Doors        : %s%s\r\n"
-        "%sR%s) Diagonal Directions         : %s%s\r\n"
-        "%sS%s) Prevent Mortal Level To Immortal : %s%s\r\n"
-	"%s1%s) OK Message Text         : %s%s"
-	"%s2%s) HUH Message Text        : %s%s"
-        "%s3%s) NOPERSON Message Text   : %s%s"
-        "%s4%s) NOEFFECT Message Text   : %s%s"
-        "%s5%s) Map/Automap Option      : %s%s\r\n"
-        "%s6%s) Default map size        : %s%d\r\n"
-        "%s7%s) Default minimap size    : %s%d\r\n"
-        "%s8%s) Scripts on PC's         : %s%s\r\n"
-        "%sQ%s) Exit To The Main Menu\r\n"
+  write_to_output(d, "\n## Gameplay\r"
+        "\nselect[a:Player Killing]\r"
+        "select[b:Player Thieving Allowed]:%s\r"
+        "select[c:Minimum Level To Shout]:%d\r"
+        "select[d:Holler Move Cost]:%d\r"
+        "select[e:Tunnel Size]:%d\r"
+        "select[f:Maximum Experience Gain]:%d\r"
+        "select[g:Maximum Experience Loss]:%d\r"
+        "select[h:Max Time for NPC Corpse]:%d\r"
+        "select[i:Max Time for PC Corpse]:%d\r"
+        "select[j:Tics before PC sent to void]:%d\r"
+        "select[k:Tics before PC is autosaved]:%d\r"
+        "select[l:Level Immune To IDLE]:%d\r"
+        "select[m:Death Traps Junk Items]:%s\r"
+        "select[n:Objects Load Into Inventory]:%s\r"
+        "select[o:Track Through Doors]:%s\r"
+        "select[p:Display Closed Doors]:%s\r"
+        "select[q:Diagonal Directions]:%s\r"
+        "select[r:Prevent Mortal Level To Immortal]:%s\r"
+	      "select[s:OK Message Text]:%s\r"
+	      "select[t:HUH Message Text]:%s\r"
+        "select[u:NOPERSON Message Text]:%s"
+        "select[v:NOEFFECT Message Text]:%s"
+        "select[w:Map/Automap Option]:%s\r"
+        "select[x:Default map size]:%d\r"
+        "select[y:Default minimap size]:%d\r"
+        "select[z:Scripts on PC's]:%s\r"
+        "menu[0:Exit to Main Menu]\r"
         "Enter your choice : ",
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
-        grn, nrm, cyn, OLC_CONFIG(d)->play.level_can_shout,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.holler_move_cost,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.tunnel_size,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.max_exp_gain,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.max_exp_loss,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.max_npc_corpse_time,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.max_pc_corpse_time,
+        CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
+        CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
+        OLC_CONFIG(d)->play.level_can_shout,
+        OLC_CONFIG(d)->play.holler_move_cost,
+        OLC_CONFIG(d)->play.tunnel_size,
+        OLC_CONFIG(d)->play.max_exp_gain,
+        OLC_CONFIG(d)->play.max_exp_loss,
+        OLC_CONFIG(d)->play.max_npc_corpse_time,
+        OLC_CONFIG(d)->play.max_pc_corpse_time,
 
-        grn, nrm, cyn, OLC_CONFIG(d)->play.idle_void,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.idle_rent_time,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.idle_max_level,
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.dts_are_dumps),
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.load_into_inventory),
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.track_through_doors),
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.disp_closed_doors),
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.diagonal_dirs),
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.no_mort_to_immort),
+        OLC_CONFIG(d)->play.idle_void,
+        OLC_CONFIG(d)->play.idle_rent_time,
+        OLC_CONFIG(d)->play.idle_max_level,
+        CHECK_VAR(OLC_CONFIG(d)->play.dts_are_dumps),
+        CHECK_VAR(OLC_CONFIG(d)->play.load_into_inventory),
+        CHECK_VAR(OLC_CONFIG(d)->play.track_through_doors),
+        CHECK_VAR(OLC_CONFIG(d)->play.disp_closed_doors),
+        CHECK_VAR(OLC_CONFIG(d)->play.diagonal_dirs),
+        CHECK_VAR(OLC_CONFIG(d)->play.no_mort_to_immort),
 
-        grn, nrm, cyn, OLC_CONFIG(d)->play.OK,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.HUH,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.NOPERSON,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.NOEFFECT,
-        grn, nrm, cyn, m_opt == 0 ? "Off" : (m_opt == 1 ? "On" : (m_opt == 2 ? "Imm-Only" : "Invalid!")),
-        grn, nrm, cyn, OLC_CONFIG(d)->play.map_size,
-        grn, nrm, cyn, OLC_CONFIG(d)->play.minimap_size,
-        grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->play.script_players),
+        OLC_CONFIG(d)->play.OK,
+        OLC_CONFIG(d)->play.HUH,
+        OLC_CONFIG(d)->play.NOPERSON,
+        OLC_CONFIG(d)->play.NOEFFECT,
+        m_opt == 0 ? "Off" : (m_opt == 1 ? "On" : (m_opt == 2 ? "Imm-Only" : "Invalid!")),
+        OLC_CONFIG(d)->play.map_size,
+        OLC_CONFIG(d)->play.minimap_size,
+        CHECK_VAR(OLC_CONFIG(d)->play.script_players),
 
         grn, nrm
         );
@@ -739,8 +739,8 @@ static void cedit_disp_operation_options(struct descriptor_data *d)
   	"%sG%s) Max Bad Pws  : %s%d\r\n"
   	"%sH%s) Site Ok Everyone : %s%s\r\n"
   	"%sI%s) Name Server Is Slow : %s%s\r\n"
-        "%sJ%s) Use new socials file: %s%s\r\n"
-        "%sK%s) OLC autosave to disk: %s%s\r\n"
+    "%sJ%s) Use new socials file: %s%s\r\n"
+    "%sK%s) OLC autosave to disk: %s%s\r\n"
   	"%sL%s) Main Menu           : \r\n%s%s\r\n"
   	"%sM%s) Welcome Message     : \r\n%s%s\r\n"
   	"%sN%s) Start Message       : \r\n%s%s\r\n"
@@ -867,126 +867,110 @@ void cedit_parse(struct descriptor_data *d, char *arg)
     case CEDIT_GAME_OPTIONS_MENU:
       switch (*arg) {
         case 'a':
-        case 'A':
+          write_to_output(d, "\nIs player killing allowed?\r")
           TOGGLE_VAR(OLC_CONFIG(d)->play.pk_allowed);
           break;
 
         case 'b':
-        case 'B':
+          write_to_output(d, "\nIs player thieving allowed?\r")
           TOGGLE_VAR(OLC_CONFIG(d)->play.pt_allowed);
           break;
 
         case 'c':
-        case 'C':
-          write_to_output(d, "Enter the minimum level a player must be to shout, gossip, etc : ");
+          write_to_output(d, "\nWhat is the minimum level a player must be to shout, gossip, etc?\r");
           OLC_MODE(d) = CEDIT_LEVEL_CAN_SHOUT;
           return;
 
         case 'd':
-        case 'D':
-          write_to_output(d, "Enter the amount it costs (in move points) to holler : ");
+          write_to_output(d, "\nWhat is the amount it costs (in move points) to holler?\r");
           OLC_MODE(d) = CEDIT_HOLLER_MOVE_COST;
           return;
 
         case 'e':
-        case 'E':
-          write_to_output(d, "Enter the maximum number of people allowed in a tunnel : ");
+          write_to_output(d, "\nWhat is the maximum number of people allowed in a tunnel?\r");
           OLC_MODE(d) = CEDIT_TUNNEL_SIZE;
           return;
 
         case 'f':
-        case 'F':
-          write_to_output(d, "Enter the maximum gain of experience per kill for players : ");
+          write_to_output(d, "\nWhat is the maximum gain of experience per tackle for players?\r");
           OLC_MODE(d) = CEDIT_MAX_EXP_GAIN;
           return;
 
         case 'g':
-        case 'G':
-          write_to_output(d, "Enter the maximum loss of experience per death for players : ");
+          write_to_output(d, "\nWhat is the maximum loss of experience for tackled players?\r");
           OLC_MODE(d) = CEDIT_MAX_EXP_LOSS;
           return;
 
         case 'h':
-        case 'H':
-          write_to_output(d, "Enter the number of tics before NPC corpses decompose : ");
+          write_to_output(d, "\nWhat is the number of tics before NPC corpses spawn?");
           OLC_MODE(d) = CEDIT_MAX_NPC_CORPSE_TIME;
           return;
 
         case 'i':
-        case 'I':
-          write_to_output(d, "Enter the number of tics before PC corpses decompose : ");
+          write_to_output(d, "\nWhat is the number of tics before PC corpses spawn?");
           OLC_MODE(d) = CEDIT_MAX_PC_CORPSE_TIME;
           return;
 
         case 'j':
-        case 'J':
-          write_to_output(d, "Enter the number of tics before PC's are sent to the void (idle) : ");
+          write_to_output(d, "\nWhat is the number of tics before PC's are sent to the void (idle)?");
           OLC_MODE(d) = CEDIT_IDLE_VOID;
           return;
 
         case 'k':
-        case 'K':
-          write_to_output(d, "Enter the number of tics before PC's are automatically rented and forced to quit : ");
+          write_to_output(d, "\nWhat is the number of tics before PC's are automatically rented and forced to quit?");
           OLC_MODE(d) = CEDIT_IDLE_RENT_TIME;
           return;
 
         case 'l':
-        case 'L':
-          write_to_output(d, "Enter the level a player must be to become immune to IDLE : ");
+          write_to_output(d, "What is the level a player must be to become immune to IDLE?");
           OLC_MODE(d) = CEDIT_IDLE_MAX_LEVEL;
           return;
 
         case 'm':
-        case 'M':
           TOGGLE_VAR(OLC_CONFIG(d)->play.dts_are_dumps);
           break;
 
         case 'n':
-        case 'N':
           TOGGLE_VAR(OLC_CONFIG(d)->play.load_into_inventory);
           break;
 
         case 'o':
-        case 'O':
           TOGGLE_VAR(OLC_CONFIG(d)->play.track_through_doors);
           break;
 
         case 'p':
-        case 'P':
           TOGGLE_VAR(OLC_CONFIG(d)->play.disp_closed_doors);
           break;
 
         case 'r':
-        case 'R':
-		  TOGGLE_VAR(OLC_CONFIG(d)->play.diagonal_dirs);
-		  break;
+		      TOGGLE_VAR(OLC_CONFIG(d)->play.diagonal_dirs);
+	        break;
 
-		case 's':
-		case 'S':
-		  TOGGLE_VAR(OLC_CONFIG(d)->play.no_mort_to_immort);
+    		case 's':
+    		  TOGGLE_VAR(OLC_CONFIG(d)->play.no_mort_to_immort);
           break;
 
-        case '1':
+        case 't':
           write_to_output(d, "Enter the OK message : ");
           OLC_MODE(d) = CEDIT_OK;
           return;
 
-        case '2':
+        case 'u':
           write_to_output(d, "Enter the HUH message : ");
           OLC_MODE(d) = CEDIT_HUH;
           return;
 
-        case '3':
+        case 'v':
           write_to_output(d, "Enter the NOPERSON message : ");
           OLC_MODE(d) = CEDIT_NOPERSON;
           return;
 
-        case '4':
+        case 'w':
           write_to_output(d, "Enter the NOEFFECT message : ");
           OLC_MODE(d) = CEDIT_NOEFFECT;
           return;
 
-        case '5':
+        case 'x':
           write_to_output(d, "1) Disable maps\r\n");
           write_to_output(d, "2) Enable Maps\r\n");
           write_to_output(d, "3) Maps for Immortals only\r\n");
@@ -994,12 +978,12 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           OLC_MODE(d) = CEDIT_MAP_OPTION;
           return;
 
-        case '6':
+        case 'y':
           write_to_output(d, "Enter default map size (1-12) : ");
           OLC_MODE(d) = CEDIT_MAP_SIZE;
           return;
 
-        case '7':
+        case 'z':
           write_to_output(d, "Enter default mini-map size (1-12) : ");
           OLC_MODE(d) = CEDIT_MINIMAP_SIZE;
           return;
@@ -1007,13 +991,12 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           TOGGLE_VAR(OLC_CONFIG(d)->play.script_players);
           break;
 
-        case 'q':
-        case 'Q':
+        case '0':
           cedit_disp_menu(d);
           return;
 
         default:
-          write_to_output(d, "\r\nThat is an invalid choice!\r\n");
+          write_to_output(d, "\nThat is an invalid choice!\r");
           cedit_disp_game_play_options(d);
       }
 
