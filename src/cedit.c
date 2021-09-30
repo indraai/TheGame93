@@ -592,7 +592,7 @@ static void cedit_disp_menu(struct descriptor_data *d)
   	  "\nmenu[Room Numbers]:c\r"
       "\nmenu[Operation]:d\r"
       "\nmenu[Autowize]:e\r"
-      "\nmenu[Quit]:q\r");
+      "\nmenu[Quit]:0\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
@@ -633,7 +633,7 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
         "\nselect[x:Default map size]:%d\r"
         "\nselect[y:Default minimap size]:%d\r"
         "\nselect[z:Scripts on PC's]:%s\r"
-        "\nmenu[0:Exit to Main Menu]\r"
+        "\nmenu[Exit to Main Menu]:0\r"
         "\nEnter your choice...\r",
         CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
         CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
@@ -850,7 +850,7 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           OLC_MODE(d) = CEDIT_AUTOWIZ_OPTIONS_MENU;
           break;
 
-        case 'q':
+        case '0':
           write_to_output(d, "%s", confirm_msg);
           OLC_MODE(d) = CEDIT_CONFIRM_SAVESTRING;
           break;
