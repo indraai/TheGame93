@@ -632,7 +632,7 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
         "select[w:Map/Automap Option]:%s\r"
         "select[x:Default map size]:%d\r"
         "select[y:Default minimap size]:%d\r"
-        "select[z:Scripts on PC's]:%d\r"
+        "select[z:Scripts on PC's]:%s\r"
         "menu[0:Exit to Main Menu]\r"
         "Enter your choice : ",
         CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
