@@ -587,12 +587,12 @@ static void cedit_disp_menu(struct descriptor_data *d)
   /* Menu header. */
   write_to_output(d,
   	  "\n# Config Editor\r"
-  	  "\nselect[Game Play]:a\r"
-  	  "\nselect[Crashsave & Rent]:b\r"
-  	  "\nselect[Room Numbers]:c\r"
-      "\nselect[Operation]:d\r"
-      "\nselect[Autowize]:e\r"
-      "\nselect[quit]:q\r");
+  	  "\nmenu[Game Play]:a\r"
+  	  "\nmenu[Crashsave & Rent]:b\r"
+  	  "\nmenu[Room Numbers]:c\r"
+      "\nmenu[Operation]:d\r"
+      "\nmenu[Autowize]:e\r"
+      "\nmenu[quit]:q\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
