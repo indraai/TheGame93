@@ -133,7 +133,7 @@ static void cedit_setup(struct descriptor_data *d)
   OLC_CONFIG(d)->operation.protocol_negotiation = CONFIG_PROTOCOL_NEGOTIATION;
   OLC_CONFIG(d)->operation.special_in_comm    = CONFIG_SPECIAL_IN_COMM;
   OLC_CONFIG(d)->operation.debug_mode    = CONFIG_DEBUG_MODE;
-  
+
   /* Autowiz */
   OLC_CONFIG(d)->autowiz.use_autowiz          = CONFIG_USE_AUTOWIZ;
   OLC_CONFIG(d)->autowiz.min_wizlist_lev      = CONFIG_MIN_WIZLIST_LEV;
@@ -237,7 +237,7 @@ static void cedit_save_internally(struct descriptor_data *d)
   CONFIG_PROTOCOL_NEGOTIATION = OLC_CONFIG(d)->operation.protocol_negotiation;
   CONFIG_SPECIAL_IN_COMM      = OLC_CONFIG(d)->operation.special_in_comm;
   CONFIG_DEBUG_MODE           = OLC_CONFIG(d)->operation.debug_mode;
-    
+
   /* Autowiz */
   CONFIG_USE_AUTOWIZ          = OLC_CONFIG(d)->autowiz.use_autowiz;
   CONFIG_MIN_WIZLIST_LEV      = OLC_CONFIG(d)->autowiz.min_wizlist_lev;
@@ -564,7 +564,7 @@ int save_config( IDXTYPE nowhere )
   fprintf(fl, "* If yes, enable the special character in comm channels.\n"
               "special_in_comm = %d\n\n",
               CONFIG_SPECIAL_IN_COMM);
-              
+
   fprintf(fl, "* If 0 then off, otherwise 1: Brief, 2: Normal, 3: Complete.\n"
               "debug_mode = %d\n\n",
               CONFIG_DEBUG_MODE);
@@ -586,22 +586,13 @@ static void cedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header. */
   write_to_output(d,
-  	  "OasisOLC MUD Configuration Editor\r\n"
-  	  "%sG%s) Game Play Options\r\n"
-  	  "%sC%s) Crashsave/Rent Options\r\n"
-  	  "%sR%s) Room Numbers\r\n"
-          "%sO%s) Operation Options\r\n"
-          "%sA%s) Autowiz Options\r\n"
-          "%sQ%s) Quit\r\n"
-          "Enter your choice : ",
-
-          grn, nrm,
-          grn, nrm,
-          grn, nrm,
-          grn, nrm,
-          grn, nrm,
-          grn, nrm
-          );
+  	  "\n# Config Editor\r"
+  	  "\nselect[Game Play]:a\r"
+  	  "\nselect[Crashsave & Rent]:b\r"
+  	  "\nselect[Room Numbers]:c\r"
+      "\nselect[Operation]:d\r"
+      "\select[Autowize]:e\r"
+      "\nselect[quit]:q\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
@@ -836,44 +827,38 @@ void cedit_parse(struct descriptor_data *d, char *arg)
 
     case CEDIT_MAIN_MENU:
       switch (*arg) {
-        case 'g':
-        case 'G':
+        case 'a':
           cedit_disp_game_play_options(d);
           OLC_MODE(d) = CEDIT_GAME_OPTIONS_MENU;
           break;
 
-        case 'c':
-        case 'C':
+        case 'b':
           cedit_disp_crash_save_options(d);
           OLC_MODE(d) = CEDIT_CRASHSAVE_OPTIONS_MENU;
           break;
 
-        case 'r':
-        case 'R':
+        case 'c':
           cedit_disp_room_numbers(d);
           OLC_MODE(d) = CEDIT_ROOM_NUMBERS_MENU;
           break;
 
-        case 'o':
-        case 'O':
+        case 'd':
           cedit_disp_operation_options(d);
           OLC_MODE(d) = CEDIT_OPERATION_OPTIONS_MENU;
           break;
 
-        case 'a':
-        case 'A':
+        case 'e':
           cedit_disp_autowiz_options(d);
           OLC_MODE(d) = CEDIT_AUTOWIZ_OPTIONS_MENU;
           break;
 
         case 'q':
-        case 'Q':
-          write_to_output(d, "Do you wish to save your changes? : ");
+          write_to_output(d, "%s", confirm_msg);
           OLC_MODE(d) = CEDIT_CONFIRM_SAVESTRING;
           break;
 
         default:
-          write_to_output(d, "That is an invalid choice!\r\n");
+          write_to_output(d, "\nThat is an invalid choice!\r");
           cedit_disp_menu(d);
           break;
       }
@@ -975,7 +960,7 @@ void cedit_parse(struct descriptor_data *d, char *arg)
         case 'R':
 		  TOGGLE_VAR(OLC_CONFIG(d)->play.diagonal_dirs);
 		  break;
- 
+
 		case 's':
 		case 'S':
 		  TOGGLE_VAR(OLC_CONFIG(d)->play.no_mort_to_immort);
@@ -1261,12 +1246,12 @@ void cedit_parse(struct descriptor_data *d, char *arg)
          case 'R':
            TOGGLE_VAR(OLC_CONFIG(d)->operation.protocol_negotiation);
            break;
-		   
+
          case 's':
          case 'S':
            TOGGLE_VAR(OLC_CONFIG(d)->operation.special_in_comm);
            break;
-       
+
          case 't':
          case 'T':
            write_to_output(d, "Enter the current debug level (0: Off, 1: Brief, 2: Normal, 3: Complete) : ");
