@@ -382,7 +382,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n## NPC Flags\r");
+  write_to_output(d, "\n## Personality\r");
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
@@ -392,7 +392,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d,
     "\nflags: %s\r"
-    "\nmenu[done]:q\r", flags);
+    "\nmenu[done]:0\r", flags);
 }
 
 /* Display affection flags menu. */
@@ -525,14 +525,14 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
       "\nselect[n:strength]:%d|%d\r"
       "\nselect[o:intelligence]:%d\r"
       "\nselect[p:wisdom]:%d\r"
-      "\nselect[r:dexterity]:%d"
-      "\nselect[s:con]:%d\r"
-      "\nselect[t:charisma]:%d"
-      "\nselect[u:parlysis]:%d\r"
-      "\nselect[v:rod/staves]:%d\r"
-      "\nselect[w:petification]:%d\r"
-      "\nselect[x:breath]:%d\r"
-      "\nselect[y:spells]:%d\r",
+      "\nselect[q:dexterity]:%d"
+      "\nselect[r:con]:%d\r"
+      "\nselect[s:charisma]:%d"
+      "\nselect[t:parlysis]:%d\r"
+      "\nselect[u:rod/staves]:%d\r"
+      "\nselect[v:petification]:%d\r"
+      "\nselect[w:breath]:%d\r"
+      "\nselect[x:spells]:%d\r",
       GET_STR(mob),
       GET_ADD(mob),
       GET_INT(mob),
@@ -549,7 +549,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "menu[done]:q\r");
+  write_to_output(d, "menu[done]:0\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
@@ -694,7 +694,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
   case MEDIT_STATS_MENU:
     i=0;
     switch(*arg) {
-    case 'q':
+    case '0':
       medit_disp_menu(d);
       return;
     case 'a':  /* Edit level */
@@ -821,7 +821,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_WIS(OLC_MOB(d))
       );
       return;
-    case 'r':
+    case 'q':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice:\r");
         return;
@@ -832,7 +832,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_DEX(OLC_MOB(d))
       );
       return;
-    case 's':
+    case 'r':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -843,7 +843,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_CON(OLC_MOB(d))
       );
       return;
-    case 't':
+    case 's':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -854,7 +854,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_CHA(OLC_MOB(d))
       );
       return;
-    case 'u':
+    case 't':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -865,7 +865,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_SAVE(OLC_MOB(d), SAVING_PARA)
       );
       return;
-    case 'v':
+    case 'u':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -876,7 +876,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_SAVE(OLC_MOB(d), SAVING_ROD)
       );
       return;
-    case 'w':
+    case 'v':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -887,7 +887,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_SAVE(OLC_MOB(d), SAVING_PETRI)
       );
       return;
-    case 'x':
+    case 'w':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
@@ -898,7 +898,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         GET_SAVE(OLC_MOB(d), SAVING_BREATH)
       );
       return;
-    case 'y':
+    case 'x':
       if (!CONFIG_MEDIT_ADVANCED) {
         write_to_output(d, "\nInvalid Choice!\r\nEnter Choice :\r");
         return;
