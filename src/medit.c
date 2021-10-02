@@ -414,7 +414,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\nflags: %s\r"
-    "\nmenu[done]:q\r", flags);
+    "\nmenu[done]:0\r", flags);
   }
 
 /* Display main menu. */
@@ -607,6 +607,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       if (OLC_VAL(d)) {	/* Anything been changed? */
 	      write_to_output(d, "\%s", confirm_msg);
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
+        return;
       } else {
         write_to_output(d, "\nThe Agent was unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
