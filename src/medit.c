@@ -456,7 +456,7 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\nselect[l:triggers]:%s\r"
     "\nbmud[copy agent]:p\r"
 	  "\nbmud[delete agent]:x\r"
-	  "\nmenu[quit]:q\r",
+	  "\nmenu[quit]:0\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -603,14 +603,15 @@ void medit_parse(struct descriptor_data *d, char *arg)
   case MEDIT_MAIN_MENU:
     i = 0;
     switch (*arg) {
-    case 'q':
-    case 'Q':
+    case '0':
       if (OLC_VAL(d)) {	/* Anything been changed? */
 	      write_to_output(d, "\%s", confirm_msg);
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
-      } else
-	cleanup_olc(d, CLEANUP_ALL);
-      return;
+      } else {
+        write_to_output(d, "\nThe Agent was unchanged.\r");
+        cleanup_olc(d, CLEANUP_ALL);
+        return;
+      }
     case 'a':
       OLC_MODE(d) = MEDIT_GENDER;
       medit_disp_gender(d);
