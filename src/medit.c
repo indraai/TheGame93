@@ -1,6 +1,6 @@
 /**************************************************************************
 *  File: medit.c                                           Part of tbaMUD *
-*  Usage: Oasis OLC - Mobiles.                                            *
+*  Usage: Oasis OLC - Agents.                                            *
 *                                                                         *
 * Copyright 1996 Harvey Gilpin. 1997-2001 George Greer.                   *
 **************************************************************************/
@@ -56,7 +56,7 @@ ACMD(do_oasis_medit)
   two_arguments(argument, buf1, buf2);
 
   if (!*buf1) {
-    send_to_char(ch, "\nSpecify a mobile VNUM to edit.\r");
+    send_to_char(ch, "\nSpecify a Agent VNUM to edit.\r");
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
@@ -88,7 +88,7 @@ ACMD(do_oasis_medit)
     number = atoi(buf1);
 
   if (number < IDXTYPE_MIN || number > IDXTYPE_MAX) {
-    send_to_char(ch, "\nThat mobile VNUM can't exist.\r");
+    send_to_char(ch, "\nThat Agent VNUM can't exist.\r");
     return;
   }
 
@@ -96,7 +96,7 @@ ACMD(do_oasis_medit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_MEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "\nThat mobile is currently being edited by %s.\r",
+        send_to_char(ch, "\nThat Agent is currently being edited by %s.\r",
           GET_NAME(d->character));
         return;
       }
@@ -132,15 +132,15 @@ ACMD(do_oasis_medit)
     return;
   }
 
-  /* If save is TRUE, save the mobiles. */
+  /* If save is TRUE, save the Agents. */
   if (save) {
-    send_to_char(ch, "\nSaving all mobiles in zone %d.\r",
+    send_to_char(ch, "\nSaving all Agents in zone %d.\r",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-      "OLC: %s saves mobile info for zone %d.",
+      "OLC: %s saves Agent info for zone %d.",
       GET_NAME(ch), zone_table[OLC_ZNUM(d)].number);
 
-    /* Save the mobiles. */
+    /* Save the Agents. */
     save_mobiles(OLC_ZNUM(d));
 
     /* Free the olc structure stored in the descriptor. */
@@ -151,8 +151,8 @@ ACMD(do_oasis_medit)
 
   OLC_NUM(d) = number;
 
-  /* If this is a new mobile, setup a new one, otherwise, setup the
-     existing mobile. */
+  /* If this is a new Agent, setup a new one, otherwise, setup the
+     existing Agent. */
   if ((real_num = real_mobile(number)) == NOBODY)
     medit_setup_new(d);
   else
@@ -179,7 +179,7 @@ static void medit_setup_new(struct descriptor_data *d)
 {
   struct char_data *mob;
 
-  /* Allocate a scratch mobile structure. */
+  /* Allocate a scratch Agent structure. */
   CREATE(mob, struct char_data, 1);
 
   init_mobile(mob);
@@ -281,7 +281,7 @@ void medit_save_internally(struct descriptor_data *d)
   }
   /* end trigger update */
 
-  if (!i)	/* Only renumber on new mobiles. */
+  if (!i)	/* Only renumber on new Agents. */
     return;
 
   /* Update keepers in shops being edited and other mobs being edited. */
@@ -314,7 +314,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   }
 }
 
-/* Display the gender of the mobile. */
+/* Display the gender of the Agent. */
 static void medit_disp_gender(struct descriptor_data *d)
 {
   int i, count = 0;
@@ -581,9 +581,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
-        write_to_output(d, "\nMobile saved to disk.\r");
+        write_to_output(d, "\nAgent saved to disk.\r");
       } else
-        write_to_output(d, "\nMobile saved to memory.\r");
+        write_to_output(d, "\nAgent saved to memory.\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'n':
@@ -619,21 +619,21 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "\nSet the agent keywords...\r"
+      write_to_output(d, "\nSet the Agent keywords...\r"
         "\ncurrent:%s\r",
         GET_ALIAS(OLC_MOB(d))
       );
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_S_DESC;
-      write_to_output(d, "\nSet the agent name... "
+      write_to_output(d, "\nSet the Agent name... "
         "\ncurrent:%s\r",
         GET_SDESC(OLC_MOB(d))
       );
       return;
     case 'd':
       OLC_MODE(d) = MEDIT_L_DESC;
-      write_to_output(d, "Describe the agent..."
+      write_to_output(d, "Describe the Agent..."
         "\ncurrent:%s\r",
         GET_LDESC(OLC_MOB(d))
       );
@@ -641,7 +641,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'e':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
-      write_to_output(d, "\nLooking at the agent...\r");
+      write_to_output(d, "\nLooking at the Agent...\r");
       if (OLC_MOB(d)->player.description) {
 	      write_to_output(d, "%s", OLC_MOB(d)->player.description);
 	      oldtext = strdup(OLC_MOB(d)->player.description);
@@ -678,11 +678,11 @@ void medit_parse(struct descriptor_data *d, char *arg)
       dg_script_menu(d);
       return;
     case 'p':
-      write_to_output(d, "\nCopy what mob?\r");
+      write_to_output(d, "\nCopy which Agent?\r");
       OLC_MODE(d) = MEDIT_COPY;
       return;
     case 'x':
-      write_to_output(d, "\nAre you sure you want to delete this mobile?\r");
+      write_to_output(d, "\nAre you sure you want to delete this Agent?\r");
       OLC_MODE(d) = MEDIT_DELETE;
       return;
     default:
@@ -699,7 +699,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'a':  /* Edit level */
       OLC_MODE(d) = MEDIT_LEVEL;
-      write_to_output(d, "\nSet agent level... (1 to 33)\r"
+      write_to_output(d, "\nSet Agent level... (1 to 33)\r"
         "current:%d",
         GET_LEVEL(OLC_MOB(d))
       );
@@ -1157,9 +1157,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
   case MEDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_mobile(GET_MOB_RNUM(OLC_MOB(d))) != NOBODY)
-        write_to_output(d, "\nMobile deleted.\r");
+        write_to_output(d, "\nAgent deleted.\r");
       else
-        write_to_output(d, "\nCouldn't delete the mobile!\r");
+        write_to_output(d, "\nCouldn't delete the Agent!\r");
 
       cleanup_olc(d, CLEANUP_ALL);
       return;
