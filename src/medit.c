@@ -581,9 +581,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
-        write_to_output(d, "\ninfo:Mobile saved to disk.\r");
+        write_to_output(d, "\nMobile saved to disk.\r");
       } else
-        write_to_output(d, "\ninfo:Mobile saved to memory.\r");
+        write_to_output(d, "\nMobile saved to memory.\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'n':
@@ -595,7 +595,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      write_to_output(d, "\ninfo:Invalid choice!\r");
+      write_to_output(d, "\nInvalid choice!\r");
       write_to_output(d, "%s", confirm_msg);
       return;
     }
