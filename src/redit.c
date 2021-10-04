@@ -427,12 +427,12 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
     write_to_output(d, "\nbmud[%s]:%d\r", sector_types[i], ++count);
   }
 
-
+  sprinttype(room->sector_type, sector_types, bits, sizeof(bits);
 
   write_to_output(d,
     "\ntype: %s\r"
     "\nmenu[done]:0\r",
-    sprinttype(room->sector_type, sector_types, bits, sizeof(bits))
+    bits
   );
 );
 
