@@ -415,6 +415,8 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
 {
   int i, count = 0;
   char bits[MAX_STRING_LENGTH];
+  struct room_data *room;
+
   clear_screen(d);
 
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
