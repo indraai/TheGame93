@@ -486,6 +486,7 @@ set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CAN
 set msg[58] Would you like to know more? You know what to do.
 
 eval themsg %%msg[%random.58%]%% #R%room.vnum%
+wait 1 ss
 say %themsg%
 wait %random.30% s
 %random.dir%

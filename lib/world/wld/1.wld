@@ -182,33 +182,27 @@ empty.
 S
 #109
 Artist Retreat~
-talk:#adventure view:thegame:world 0109/main
+empty.
 ~
 1 24 0 0 0 0
 D5
-talk:#adventure view:thegame:world 0150/look
 ~
 ~
 0 0 150
 S
 #110
 Strategy Room~
-talk:#adventure view:thegame:world 0110/main
+empty.
 ~
 1 8 0 0 0 0
 D5
-talk:#adventure view:thegame:world 0151/look
 ~
 ~
 0 0 151
 S
 #111
 Northwest Corner of the Inner Wall~
-   To the north can be heard the clang and crash of the smithies in the Hero
-Quarter.  To the west the barracks and the gate to the outside are visible.
-The Temple of Arjika rises above to the southeast, its single spire reaching up
-into the sky higher than any other building in the realm.  A stone stairwell
-leads down to the inner city.
+empty.
 ~
 1 0 0 0 0 1
 D5
@@ -218,12 +212,7 @@ D5
 S
 #112
 Northeast Corner of the Inner Wall~
-   The city to the north is covered in shadows and gloom, the Artist Quarter.
-To the east one can see the gate and a long warehouse.  The Temple of Arjika
-rises above to the southwest.  A light breeze brings a bit of refreshment and a
-strange smell.  Few people know, or want to know, what lies beyond the city
-walls and the safety of the firmament.  A stone stairwell leads down to the inner
-city.
+empty.
 ~
 1 0 0 0 0 1
 D5
@@ -233,11 +222,7 @@ D5
 S
 #113
 Quest Room~
-   In times of need citizens come here to seek the help of brave adventurers to
-recover stolen items, or seek revenge on people who have wronged them.  This
-small room is decorated with paintings of famous quests and the exulted hereos
-that have become common names throughout the realm.  It is said that completing
-a quest is a prerequisite towards immortality.
+empty
 ~
 1 8 0 0 0 0
 D2
@@ -245,22 +230,13 @@ D2
 ~
 0 0 100
 E
-paintings heroes~
-   These masterpieces were painted by the famous L'Haspi.  They depict battles
-of various heroes.  One shows monsters of umimaginable horror rending human
-bodies with their fangs, tusks, and jaws.  Another displays a gallant hero
-in shining golden armor waving a bejewled sword high over his head, roaring a
-challenge to some unseen beast within a nearby cave.  All are supposedly true
-tales, but most have been forgotten with the passing of time.
+paintings~
+empty.
 ~
 S
 #114
 Above the Western Gate~
-   Atop the battlements over the western gate one can see the luminescent glow
-of the firmament that protects the city.  The occasional rattling of armor can be
-heard, as the sentinels grow weary from their standing their posts hour after
-hour.  The city to the east looks tranquil and safe.  It is not possible to see
-much to the west past the shimmering firmament.
+empty.
 ~
 1 0 0 0 0 1
 D5
@@ -268,21 +244,13 @@ D5
 ~
 0 0 243
 E
-shimmering firmament luminescent~
-   The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
+firmament~
+empty.
 ~
 S
 #115
 Above the Inner Wall~
-   The battlements on top of the inner wall are the last defense in case of an
-invasion.  All citizens are required to move within the inner city and prepare
-to fight.  The city has never fallen to this day.  To the north one can see the
-barracks, to the south the Hall of Clerics.  A stone stairwell leads down to the
-inner city.
+empty.
 ~
 1 0 0 0 0 1
 D5
@@ -292,12 +260,7 @@ D5
 S
 #116
 Travelling Room~
-   This used to be a travelling room.  Entire sections of the floor are now
-embedded in the ceiling and it is even possible to see to the outside through a
-hole in one wall.  This is what happens when a portal becomes unstable.  It is
-certainly a grim reminder to flee the second it seems a portal may be falling
-apart.  The charred silhouette of what once must have been a man is blasted into
-one of the walls.
+empty.
 ~
 1 16 0 0 0 0
 D1
@@ -306,25 +269,16 @@ D1
 0 0 100
 E
 hole~
-   You can look out over the inner wall to the western side of Arjika.  The
-smell of charred human remains and smoldering plaster makes your eyes water so
-it is difficult to see much else through the tiny hole.
+empty.
 ~
 E
-man silhouette~
-   The distinct outline of a human body that must have taken the brunt of the
-blast when the portal imploded.  You wonder what or who it might have been.
-You can still see pieces of cloth and bone buried deeply into the wall inside
-the shadow of the unlucky man.
+silhouette~
+empty.
 ~
 S
 #117
 Travelling Room~
-   This room stands empty as it is being prepared for a portal summoning.  The
-walls are glistening white plaster with a vaulted ceiling.  Powerful mages are
-said to be able to create portals through their arcane arts, though many die in
-the process.  The skill is as of yet unmastered.  It is rumored that the evil
-Drakkar has achieved this mastery, but none have ever witnessed it.
+empty.
 ~
 1 24 0 0 0 0
 D3
@@ -334,11 +288,7 @@ D3
 S
 #118
 Above the Inner Wall~
-   On top of the battlements one has access to a good view of the eastern side
-of the city.  To the north can be seen the Artist Warehouse, to the south the
-Mansion of the Magi.  The Temple of Arjika rises from the center of the city to
-the west.  All looks well from this perspective.  It is not possible to see
-beyond the city walls.
+empty.
 ~
 1 0 0 0 0 1
 D5
@@ -897,9 +847,7 @@ talk:#adventure view:thegame:world 0159/look
 S
 #147
 Logan's Pawn~
-   Various useless items line the walls of this cluttered and disorganized
-shop.  Once in a while this store is rumored to have great deals on rare
-equipment.
+empty.
 ~
 1 8 0 0 0 0
 D2
@@ -1493,10 +1441,7 @@ door~
 S
 #179
 Artist Avenue~
-   The tall warehouse holding the supplies and emergency stores of the city is
-to the west.  The entrance looks to be a ways further north in the heart of the
-Thieve's Quarter.  South can be seen another intersection and the northest
-corner of the inner wall.
+empty.
 ~
 1 0 0 0 0 1
 D0
