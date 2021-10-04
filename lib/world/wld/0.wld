@@ -239,7 +239,7 @@ talk:#adventure view:thegame:world 0015/look
 0 0 15
 S
 #15
-Kent Browne (@rloxley)~
+Kent Browne (@@RLoxley)~
 talk:#adventure view:thegame:world 0015/main
 ~
 0 8 0 0 0 0
@@ -287,7 +287,7 @@ talk:#adventure view:thegame:world 0016/look
 0 0 16
 S
 #18
-Quest Tutorial~
+A Rape in Cyberspace~
 talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
@@ -318,7 +318,7 @@ D1
 0 0 18
 S
 #20
-Advanced Trigedit Example~
+Kibo and Xibo~
 talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
@@ -334,7 +334,7 @@ talk:#adventure view:thegame:world 0021/look
 0 0 21
 S
 #21
-Another Example With Quest Variables~
+Evil People, Inc.~
 talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
@@ -350,10 +350,10 @@ talk:#adventure view:thegame:world 0022/look
 0 0 22
 S
 #22
-Quest Variables Example~
+Satanic Sysadmins~
 talk:#adventure view:thegame:world 0022/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0021/look
 ~
@@ -367,10 +367,10 @@ talk:#adventure view:thegame:world 0023/look
 S
 T 189
 #23
-Trigger Help Files~
+bianca~
 talk:#adventure view:thegame:world 023/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0022/look
 ~
@@ -566,12 +566,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
