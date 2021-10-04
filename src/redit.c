@@ -416,6 +416,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
   int i, count = 0;
   char bits[MAX_STRING_LENGTH];
   struct room_data *room;
+  room = OLC_ROOM(d);
 
   clear_screen(d);
 
