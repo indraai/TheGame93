@@ -515,7 +515,7 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nbmud[extra tags]:t\r"
       "\nbmud[copy room]:p\r"
       "\nbmud[delete room]:x\r"
-      "\nmenu[quit]:q\r"
+      "\nmenu[quit]:0\r"
       );
   OLC_MODE(d) = REDIT_MAIN_MENU;
 }
@@ -559,7 +559,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'a':
       write_to_output(d,
-        "Change Room Name..."
+        "Room Name..."
         "\ncurrent:%s\r",
         OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
@@ -577,7 +577,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
 
       string_write(d, &OLC_ROOM(d)->description, MAX_ROOM_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
-
       break;
     case 'c':
       redit_disp_flag_menu(d);
@@ -660,11 +659,12 @@ void redit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "\nCopy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
       break;
-    case 'q':
+    case '0':
       if (OLC_VAL(d)) { /* Something has been modified. */
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
+        write_to_output(d, "\nRoom was unchanged.\r")
         cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'x':
