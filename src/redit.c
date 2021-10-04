@@ -434,7 +434,6 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
     "\nmenu[done]:0\r",
     bits
   );
-);
 
   OLC_MODE(d) = REDIT_SECTOR;
 }
