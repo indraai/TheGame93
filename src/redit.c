@@ -663,9 +663,10 @@ void redit_parse(struct descriptor_data *d, char *arg)
       if (OLC_VAL(d)) { /* Something has been modified. */
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
-      } else
+      } else {
         write_to_output(d, "\nRoom was unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
+      }
       return;
     case 'x':
       /* Delete the room, prompt first. */
