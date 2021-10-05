@@ -430,6 +430,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
 
   sprinttype(room->sector_type, sector_types, bits, sizeof(bits));
   write_to_output(d, "\ntype: %s\r" bits);
+
   OLC_MODE(d) = REDIT_SECTOR;
 }
 
