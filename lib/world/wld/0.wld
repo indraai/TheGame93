@@ -408,10 +408,10 @@ talk:#adventure view:thegame:world 0071/main
 0 1024 0 0 0 9
 S
 #88
-Advertising Room~
+The Well~
 talk:#adventure view:thegame:world 0088/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0023/look
 ~
@@ -424,7 +424,7 @@ talk:#adventure view:thegame:world 0089/look
 0 0 89
 S
 #89
-The Workspace Corridor~
+HOPE~
 talk:#adventure view:thegame:world 0089/main
 ~
 0 8 0 0 0 0
