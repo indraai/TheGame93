@@ -206,13 +206,13 @@ He looks very disgruntled, another long day of fishing with nothing to bring hom
 8 8 1
 E
 #116
-old man~
-an old man~
-A old man is reminiscing about the old days.
+robert david steele steeler 1337~
+Robert Steele (steeler)~
+Robert David Steele is here.
 ~
-He rambles about how much better it was back in his day.  Mentioning strange words like "the old school" and how he was so popular back then.  You pity him.
+Robert David Steele (July 16, 1952  August 29, 2021) was an American CIA officer and conspiracy theorist.
 ~
-72 0 0 0 0 0 0 0 1000 E
+8 0 0 0 0 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
@@ -370,7 +370,7 @@ This man is obviously very competent in the magical arts or he would not stare a
 E
 #129
 the_ut stephen huntley watt 1337 mayhem~
-Stephen Huntley Watt~
+Stephen Watt (the_ut)~
 Stephen Huntley Watt (@the_uT) is shere.
 ~
 Hard to believe, but even in Arjika the underground activities of criminals is always present.  This large man lives off of the fortune of others by stealing whatever he needs.
@@ -395,9 +395,9 @@ Brenda Laurel is here to spawn
 8 8 2
 E
 #131
-rloxley ken browne 1337~
-Ken Browne~
-Ken Browne (@rloxley) is here.
+kent browne rloxley 1337~
+Kent Browne (rloxley)~
+Kent Browne (rloxley) is here.
 ~
 Hard to believe, but even in Arjika the underground activities of criminals is always present.  This large man lives off of the fortune of others by stealing whatever he needs.
 ~
@@ -689,12 +689,12 @@ some attention.
 E
 #153
 douglas rushkoff 1337 edge~
-Douglas Rushkoff~
+Douglas Rushkoff (rushkoff)~
 Douglas Rushkoff is here.
 ~
 Douglas Rushkoff is here to collect data and report the status of The Game.
 ~
-72 0 0 0 0 0 0 0 -200 E
+8 0 0 0 0 0 0 0 -200 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1
@@ -1047,19 +1047,22 @@ He seems content twirling a paint brush between his fingers and occasionally gla
 E
 T 136
 #178
-stateswoman woman~
-the stateswoman~
-The stateswoman walks by with her nose stuck up in the air.
+gail thackeray 1337 mom~
+Gail Thackeray (mom)~
+Gail Thackeray (mom) is here.
 ~
- You wonder how she manages to see where she is going.  Her nose is stuck sow
-far up in the air that it seems she must not be able to see where she is
-placing her feet.  Yup, you were right.  She just stepped in a pile of dog
-shit.
+She participated in the nationwide Secret Service hacker investigation known as "Operation Sundevil" and attended the first Defcon Conference.
 ~
-72 0 0 0 0 0 0 0 0 E
-14 16 1 2d2+140 2d2+2
-140 19600
-8 8 1
+8 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 2
+BareHandAttack: 3
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #179
 private arjika arjikiya a178 z3~
