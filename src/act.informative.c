@@ -297,7 +297,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
     return;
 
    if (i->player.description)
-    send_to_char(ch, "\ninform:%s\r", i->player.description);
+    send_to_char(ch, "\ntalk:#adventure view:thegame:agent %d/main %s\r", i->player.vnum);
   else
     act("\ninform:You see nothing special about $m.\r", FALSE, i, 0, ch, TO_VICT);
 
