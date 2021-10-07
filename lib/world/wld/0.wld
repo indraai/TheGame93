@@ -566,12 +566,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
