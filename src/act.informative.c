@@ -299,7 +299,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
    if (i->player.description)
     send_to_char(ch, "\n# %s\r"
       "\n%s\r",
-      i->player.name,
+      i->player.short_descr,
       i->player.description
     );
   else
