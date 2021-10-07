@@ -194,16 +194,22 @@ The man gives a little smirk as you look at him. He acknowledges you with a simp
 8 8 1
 E
 #115
-fisherman~
-the fisherman~
-A fisherman stalks past, obviously he didn't catch anything.
+eric hughes cypherpunk 1337 defcon~
+Eric Hughes (cypherpunk)~
+Eric Huges (cypherpunk) is here.
 ~
-He looks very disgruntled, another long day of fishing with nothing to bring home.  You feel sorry for the guy.
+Eric Hughes is the author of the Cypherpunk Manifesto.
 ~
-72 0 0 0 0 0 0 0 1000 E
-8 18 5 1d1+80 1d2+1
-80 6400
+2072 0 0 0 0 0 0 0 1000 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1
+BareHandAttack: 8
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #116
 robert david steele steeler 1337~
