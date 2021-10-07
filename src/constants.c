@@ -20,7 +20,7 @@
 #include "interpreter.h"	/* alias_data */
 #include "constants.h"
 
-cpp_extern const char *confirm_msg = "\nDo you wish to save your changes?\r\nmenu[yes]:y\r\nmenu[no]:n\r";
+cpp_extern const char *confirm_msg = "\nDo you wish to save your changes?\r\nconfirm[yes]:y\r\nconfirm[no]:n\r";
 
 /** Current tbaMUD version.
  * @todo cpp_extern isn't needed here (or anywhere) as the extern reserved word
