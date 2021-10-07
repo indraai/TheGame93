@@ -536,10 +536,10 @@ T 170
 T 171
 T 172
 #98
-The End of the Beginning~
+DefCon~
 talk:#adventure view:thegame:world 0098/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0089/look
 ~
@@ -553,10 +553,10 @@ talk:#adventure view:thegame:world 0099/look
 D3
 ~
 ~
-0 0 108
+0 0 2
 S
 #99
-The Academy Cafe~
+The Hotel~
 talk:#adventure view:thegame:world 0099/main
 ~
 0 24 0 0 0 0
@@ -566,12 +566,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
