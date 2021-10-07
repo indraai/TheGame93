@@ -260,16 +260,21 @@ He stands his watch carefully eyeing anyone who approaches.
 8 8 1
 E
 #16
-variable questmaster master~
-the variable questmaster~
-The variable questmaster is waiting to set you.
+ray kaplan 1337 dad~
+Ray Kaplan (dad)~
+Ray Kaplan (dad) is here.
 ~
-This questmaster will save a variable to your player file to remember whether or not you have done his quest. This way you can only do this quest once.
+Ray Kaplan (dad) host of Meet the Enemy and the first DefCon keynote presenter.
 ~
-253962 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
+2072 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #17
 protector magic eight ball~
