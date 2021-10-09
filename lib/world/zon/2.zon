@@ -20,8 +20,7 @@ E 1 21 99 16 	(War's STuff)
 M 0 208 1 208 	(the haruspex)
 G 1 161 99 -1 	(some offerings)
 M 0 218 1 218 	(a woman dressed in the latest fashions)
-M 0 162 3 237 	(a statesman)
-E 1 140 99 12 	(a cloth jacket)
+
 O 0 116 1 237 	(the bench)
 
 M 0 125 3 254 	(the young girl)
@@ -125,9 +124,6 @@ E 1 141 99 9 	(a pair of leather gloves)
 
 M 0 166 3 204 	(the lance corporal)
 E 1 141 99 9 	(a pair of leather gloves)
-
-M 0 162 3 299 	(a statesman)
-E 1 140 99 12 	(a cloth jacket)
 
 M 0 179 3 209 	(Arjika Private)
 
