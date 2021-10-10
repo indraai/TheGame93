@@ -1,16 +1,16 @@
 #0
 Quinn~
 Arjika Academy~
-0 99 30 2 d 0 0 0 -1 -1
-M 0 0 1 99 	    (Vamraka)
-M 0 1 1 99 	    (Indu)
-M 0 2 1 99 	    (Indra)
-M 0 3 1 336     (Soma)
-M 0 4 1 99 	    (Bom)
-M 0 5 1 99 	    (SecurityPRIME)
-M 0 6 1 99 	    (MedicPRIME)
-M 0 7 1 99 	    (Harry)
-M 0 8 1 99 	    (Larry)
-M 0 9 1 99 	    (Barry)
+0 99 30 0 d 0 0 0 -1 -1
+M 0 0 1 99 	(Vamraka Deva)
+M 0 1 1 99 	(Indu Deva)
+M 0 2 1 99 	(Indra Deva)
+M 0 3 1 336 	(Soma Deva)
+M 0 4 1 99 	(Bom Deva)
+M 0 5 1 99 	(SecurityPRIME)
+M 0 6 1 99 	(MedicPRIME)
+M 0 7 1 99 	(Harry Deva)
+M 0 8 1 99 	(Larry Deva)
+M 0 9 1 99 	(Barry Deva)
 S
 $

@@ -182,16 +182,17 @@ T 138
 T 139
 T 143
 #114
-man bo~
-Bo~
-Bo pushes past you in a rush to get somewhere.
+terry cooksey man amiga 1337~
+Terry Cooksey (amiga)~
+Terry Cooksey (amiga) is here.
 ~
-The man gives a little smirk as you look at him. He acknowledges you with a simple nod and then moves on.
+talk:#adventure view:thegame:agent 0114/look
 ~
-2120 0 0 0 0 0 0 0 1000 E
+2072 0 0 0 0 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1
+BareHandAttack: 11
 E
 #115
 eric hughes cypherpunk 1337 defcon~
