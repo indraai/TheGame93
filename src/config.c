@@ -269,10 +269,12 @@ const char *MENU =
 "\nmenu[exit]:0\r";
 
 const char *WELC_MESSG =
-"\nWelcome to TheGame93!\n\nMay your adventure here be... EXCELLENT!\r";
+"\nWelcome to TheGame93!\r"
+"\nMay your adventure here be... EXCELLENT!\r";
 
 const char *START_MESSG =
-"\nWelcome.  Now you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r";
+"\nWelcome.\r"
+"\nNow you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
