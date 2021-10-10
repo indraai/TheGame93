@@ -70,7 +70,7 @@ M 0 206 1 162 	(a chunky philosopher)
 G 1 47 99 -1 	(the magic eight ball)
 O 0 175 1 101 	(a long rope)
 
-M 0 157 1 101 	(the old sage)
+M 0 157 1 6 	(Cameron telecomix)
 
 M 0 153 1 190 	(Douglas Rushkoff)
 
@@ -200,6 +200,7 @@ R 0 192 146 -1 	(a pool of water)
 O 1 146 99 192 	(a pool of water)
 R 0 103 94 -1 	(the monks board)
 O 1 94 99 103 	(the monks board)
+
 M 0 180 1 103 	(Javier, the High Councillor)
 
 R 0 108 93 -1 	(the warriors board)
