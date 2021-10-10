@@ -238,7 +238,7 @@ BareHandAttack: 1
 E
 T 161
 #118
-tabitha lavery bass covenant survivance~
+tabitha lavery bass covenant survivance 1337~
 TabithaLavery~
 Tabitha Lavery is here.
 ~
@@ -379,15 +379,19 @@ the_ut stephen huntley watt 1337 mayhem~
 Stephen Watt (the_ut)~
 Stephen Huntley Watt (@the_uT) is shere.
 ~
-Hard to believe, but even in Arjika the underground activities of criminals is always present.  This large man lives off of the fortune of others by stealing whatever he needs.
+talk:#adventure view:thegame:agent 0129/look
 ~
 2072 0 0 0 0 0 0 0 -500 E
-9 17 4 1d1+90 1d2+1
-90 8100
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1
-BareHandAttack: 5
+BareHandAttack: 7
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
-T 165
 #130
 brenda laurel spoonkids covenant~
 Brenda Laurel~
@@ -822,27 +826,29 @@ talk:#adventure view:thegame:agent 0162/look
 E
 #163
 john romero 1337~
-John Romero~
-John Romero is here.
+John Romero (romero)~
+John Romero (romero) is here.
 ~
 This guy looks capable of many things, which he would do for the right price. Few people can afford him though. So don't expect him to jump at your first offer.
 ~
-72 0 0 0 0 0 0 0 -330 E
+2072 0 0 0 0 0 0 0 -330 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
+BareHandAttack: 2
 E
 #164
-drunk~
-the drunk~
-A pathetic drunk is staggering around intoxicated almost to unconsciousness.
+michael nebadon 1337~
+Michael Nebadon~
+Michael Nebadon is here.
 ~
-He probably won't last very long.  Some hoodlums or a thief will come along and relieve him of his money and maybe his life.
+talk:#adventure view:thegame:agent 0164/look
 ~
-10 0 0 0 0 0 0 0 400 E
+2072 0 0 0 0 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1
+BareHandAttack: 4
 E
 #165
 indu monk~
