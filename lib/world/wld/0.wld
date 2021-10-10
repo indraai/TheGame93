@@ -223,7 +223,7 @@ talk:#adventure view:thegame:world 0014/look
 0 0 14
 S
 #14
-The Unix Terrorist~
+The Anon Salon~
 talk:#adventure view:thegame:world 0014/main
 ~
 0 24 0 0 0 0
@@ -239,10 +239,10 @@ talk:#adventure view:thegame:world 0015/look
 0 0 15
 S
 #15
-Kent Browne (RLoxley)~
+The Cobra Lounge~
 talk:#adventure view:thegame:world 0015/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0014/look
 ~
@@ -255,10 +255,10 @@ talk:#adventure view:thegame:world 0016/look
 0 0 16
 S
 #16
-Anon Salon~
+ARIC~
 talk:#adventure view:thegame:world 0016/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0017/look
 ~
@@ -271,7 +271,7 @@ talk:#adventure view:thegame:world 0015/look
 0 0 15
 S
 #17
-Cobra Lounge~
+Kibo Xibo~
 talk:#adventure view:thegame:world 0017/main
 ~
 0 24 0 0 0 0
@@ -287,7 +287,7 @@ talk:#adventure view:thegame:world 0016/look
 0 0 16
 S
 #18
-A Rape in Cyberspace~
+Evil People, Inc.~
 talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
@@ -318,7 +318,7 @@ D1
 0 0 18
 S
 #20
-Kibo and Xibo~
+Satanic~
 talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
@@ -566,12 +566,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
