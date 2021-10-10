@@ -1,9 +1,9 @@
 #0
-indu agents~
-Indu~
-Indu is here.
+vamraka arjika deva~
+Vamraka Deva~
+Vamraka Deva is here.
 ~
-Indu is here to be true.
+talk:#adventure view:thegame:agent 0000/look
 ~
 522396 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -23,17 +23,17 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #1
-security agents securityprime~
-SecurityPRIME~
-SecurityPRIME is here.
+indu arjika deva~
+Indu Deva~
+Indu Deva is here.
 ~
-Security is here to provide safety.
+talk:#adventure view:thegame:agent 0001/look
 ~
-522268 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
+522396 0 0 0 26744 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
 8 8 1
-BareHandAttack: 12
+BareHandAttack: 10
 Str: 18
 Dex: 18
 Int: 18
@@ -47,17 +47,17 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #2
-medical agents medicprime~
-MedicPRIME~
-MedicPRIME is here.
+indra arjika deva~
+Indra Deva~
+Indra Deva is here.
 ~
-Medical is here to provide care.
+talk:#adventure view:thegame:agent 0002/look
 ~
-522270 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 2
-BareHandAttack: 4
+522396 0 0 0 26744 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+BareHandAttack: 10
 Str: 18
 Dex: 18
 Int: 18
@@ -71,35 +71,11 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #3
-bom agents~
-Bom~
-Bom is here.
+soma arjika deva~
+Soma Deva~
+Soma Deva is here.
 ~
-Bom is here to find the light.
-~
-522524 0 0 0 0 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-BareHandAttack: 12
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
-E
-#4
-soma agents~
-Soma~
-Soma is here.
-~
-Some is here to give strength.
+talk:#adventure view:thegame:agent 0003/look
 ~
 522524 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
@@ -118,307 +94,115 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
-#5
-harry agents~
-Harry~
-Harry is here.
+#4
+bom arjika deva~
+Bom Deva~
+Bom Deva is here.
 ~
-Harry is said to be a rather flamboyant character, probably accounting for his strain of notability.
+talk:#adventure view:thegame:agent 0004/look
 ~
-6300 0 0 0 26744 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
+522524 0 0 0 0 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
 8 8 1
-BareHandAttack: 1
+BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#5
+security securityprime arjika deva~
+SecurityPRIME~
+SecurityPRIME is here.
+~
+talk:#adventure view:thegame:agent 0005/look
+~
+522268 0 0 0 26744 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #6
-larry agents~
-Larry~
-Larry seems to have lost something.
+medical medic medicprime arjika deva~
+MedicPRIME~
+MedicPRIME is here.
 ~
-Larry maintained working and has survived the changes that have occurred in the modern-day being preserved by working enthusiasts for more than 100 years.
+talk:#adventure view:thegame:agent 0006/look
 ~
-6300 0 0 0 26744 0 0 0 0 E
+522270 0 0 0 26744 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+BareHandAttack: 4
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#7
+harry arjika deva~
+Harry Deva~
+Harry is causing mischief.
+~
+talk:#adventure view:thegame:agent 0007/look
+~
+6300 0 0 0 26744 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1
 BareHandAttack: 1
 E
-#7
-barry agents~
-Barry~
-Barry is wandering around.
+#8
+larry arjika deva~
+Larry Deva~
+Larry is building something.
 ~
-Barry is a type, or strain, in the sense that he has a broad genetic make-up, a broad standard.  You will see different "types" of Barry, from long-bodied, short, crooked legs to a more proportioned length of body and longer legs.  This is a result of having been hunted since his beginning.
+talk:#adventure view:thegame:agent 0008/look
+~
+6300 0 0 0 26744 0 0 0 500 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+BareHandAttack: 1
+E
+#9
+barry arjika deva~
+Barry Deva~
+Barry Deva is wandering around.
+~
+talk:#adventure view:thegame:agent 0009/look
 ~
 6300 0 0 0 24696 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 BareHandAttack: 1
-E
-#8
-tutorial questmaster~
-the tutorial questmaster~
-A questmaster is waiting for a brave adventurer to step forth.
-~
-Many adventurers come here to seek glory by attempting to solve the quests given to them by this old woman. The quests are not easy, sometimes nearly impossible. But they will always be a challenge. The questmaster looks at you and says, 'Are you up for a challenge? '
-~
-6302 0 0 0 26744 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2
-BareHandAttack: 1
-E
-#9
-ogre questogre~
-a quest ogre~
-A huge quest ogre has a pair of wings attached to his back as if he could fly.
-~
-Though large and intimidating, this ogre does not seem to realize that he would strike fear into the hearts of most mortals.  Instead everything seems to scare him to death.  It is as if he has seen the future and he knows he is going to die.  A crude pair of small wings are attached to his back and he seems to be trying to fly away.
-~
-253962 0 0 0 0 0 0 0 0 E
-1 20 10 0d0+10 0d0+0
-10 100
-8 8 1
-E
-#10
-arjika arjikiya soldier a10 z0~
-ArjikaSoldier~
-Arjika Soldier A10 is here.
-~
-Arjika Solder A10 is here on special assignment.
-~
-522520 0 0 0 26680 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-T 1
-#11
-arjika arjikiya soldier a11 z0~
-ArjikaSoldier~
-Arjika Soldier A11 is here.
-~
-Arjika Solder A11 is here on special assignment.
-~
-522520 0 0 0 80 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-T 1
-#12
-arjika arjikiya soldier a12 z0~
-ArjikaSoldier~
-Arjika Soldier A12 is here.
-~
-Arjika Soldier A12 is here on special assignment.
-~
-522520 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-T 1
-#13
-arjika arjikiya soldier a13 z0~
-ArjikaSoldier~
-Arjika Soldier A13 is here.
-~
-Arjika Solder A13 is here on special assignment.
-~
-522520 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-T 1
-#14
-arjika arjikiya soldier a14 z0~
-ArjikaSoldier~
-Arjika Soldier A14 is here.
-~
-Arjika Soldier A14 is here on special assignment.
-~
-522520 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-T 1
-#15
-guard arjika arjikiya a0015 z00~
-ArjikaGuard~
-The Arjika Guard watches the gate carefully swinging the key around on its chain.
-~
-He stands his watch carefully eyeing anyone who approaches.
-~
-253962 0 0 0 0 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-#16
-ray kaplan 1337 dad~
-Ray Kaplan (dad)~
-Ray Kaplan (dad) is here.
-~
-Ray Kaplan (dad) host of Meet the Enemy and the first DefCon keynote presenter.
-~
-2072 0 0 0 0 0 0 0 0 E
-10 17 4 2d2+100 1d2+1
-100 10000
-8 8 1
-SavingPara: 2
-SavingRod: 2
-SavingPetri: 2
-SavingBreath: 2
-SavingSpell: 2
-E
-#17
-protector magic eight ball~
-the protector of the magic eight ball~
-The protector of the magic eight balls ensures everyone gets an eight ball before they leave.
-~
-This strange humanoid lacks any distinguishing features. It is dressed in a white robe cinched about the waist with a white rope. It seems to have a strange power about it.
-~
-253962 0 0 0 0 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 0
-E
-T 17
-#18
-arjika arjikiya special forces admiral a18 z0~
-ArjikaAdmiral~
-Arjika Admiral A18 is here.
-~
-Arjika Admira A18 is a Special Forces Admiral for the Empire.
-~
-522522 0 0 0 92280 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-#19
-arjika arjikiya captain special forces a19 z0~
-ArjikaCaptain~
-Arjika Captain A19 is here.
-~
-Arjika Captain A19 is a strategy/planning specialist.
-~
-522522 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-#20
-arjika arjikiya sergeant special forces a20 z0~
-ArjikaSergeant~
-Arjika Sergeant A20 is here.
-~
-Arjika Sergeant A20 is a language/philosophy specialist.
-~
-522522 0 0 0 26744 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
-#21
-spy arjika arjikiya spy special forces a21 z0~
-ArjikaSpy~
-Arjika Spy A21 is here.
-~
-Arjika Spy A21 is here to locate stolen technology.
-~
-518302 0 0 0 551032 0 0 0 0 E
-6 18 6 1d1+60 1d2+1
-60 3600
-8 8 1
-E
-#22
-arjika arjikiya prison commissar a22 z0~
-ArjikaCommissar~
-Arjika Commissar A22 is here.
-~
-Arjika Commissar is responsible for all questioning and handling of prisoners.
-~
-2074 0 0 0 120 0 0 0 0 E
-10 17 4 2d2+100 1d2+1
-100 10000
-8 8 1
-E
-#23
-arjika arjikiya general special forces a23 z0~
-ArjikaGeneral~
-Arjika General A23 is here.
-~
-Arjika General A0023 Advanced Special Forces is here to handle issues for the Empire.
-~
-260122 0 0 0 92280 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1
-E
-#24
-waitress jenny jennifer woman girl maiden~
-Jenny the waitress~
-The waitress is waiting with a pot of coffee.
-~
-   Although she seems to be a mere maiden, Jennifer is a veteran of the greasy
-spoon, and enjoys serving the builders who come here in their overalls after a
-hard day laying bricks and writing triggers.
-~
-24586 0 0 0 0 0 0 0 10 E
-10 17 4 2d2+100 1d2+1
-100 10000
-8 8 2
-SavingPara: 2
-SavingRod: 2
-SavingPetri: 2
-SavingBreath: 2
-SavingSpell: 2
-E
-#25
-travelling saleswoman woman~
-the travelling saleswoman~
-This saleswoman is laden with gadgets and gizmos that are outrageously priced.
-~
-   A combination of good business sense, charming personality, and good looks
-has made her a success at pushing useless products on uneducated buyers.  Only
-on a rare occasion does she sell anything useful.
-~
-256024 0 0 0 2128 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2
-BareHandAttack: 2
-E
-#26
-kind soul~
-a kind soul~
-A very kind and caring soul is here looking out for those who need it.
-~
-   She immediately reminds you of your mother.  Constantly worrying about
-everyone and everything.  She is always around to help out those who have hit
-hard times and need a little boost.
-~
-253962 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2
-E
-#99
-arjika arjikiya portal a99 z0~
-ArjikaPortalMaster~
-Arjika Portal Master A99 is here.
-~
-The dark-robed figure handles the portal connection to Arjika
-~
-256026 0 0 0 65616 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 0
 E
 $
