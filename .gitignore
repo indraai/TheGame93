@@ -17,5 +17,4 @@ lib/plrfiles/*
 lib/plrobjs/*
 lib/etc/*
 lib/core
-lib/text*
 syslog*
