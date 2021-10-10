@@ -24,6 +24,9 @@ M 0 218 1 218 	(a woman dressed in the latest fashions)
 O 0 116 1 237 	(the bench)
 
 M 0 125 3 254 	(the young girl)
+M 0 164 1 254 	(the drunk)
+G 1 101 99 -1 	(an imported bottle of beer)
+G 1 197 99 -1 	(a "kick me" sign)
 
 O 0 193 1 291 	(a thin stream of red liquid)
 
@@ -121,6 +124,7 @@ E 1 141 99 9 	(a pair of leather gloves)
 
 M 0 166 3 204 	(the lance corporal)
 E 1 141 99 9 	(a pair of leather gloves)
+
 
 M 0 179 3 209 	(Arjika Private)
 
