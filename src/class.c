@@ -1501,7 +1501,7 @@ void advance_level(struct char_data *ch)
   if (GET_LEVEL(ch) > 1)
     ch->points.max_mana += add_mana;
 
-  if (IS_MAGIC_USER(ch) || IS_MONK(ch))
+  if (IS_ARMY(ch) || IS_NAVY(ch))
     GET_PRACTICES(ch) += MAX(2, wis_app[GET_WIS(ch)].bonus);
   else
     GET_PRACTICES(ch) += MIN(2, MAX(1, wis_app[GET_WIS(ch)].bonus));
@@ -1540,16 +1540,16 @@ int backstab_mult(int level)
  * usable by a particular class, based on the ITEM_ANTI_{class} bitvectors. */
 int invalid_class(struct char_data *ch, struct obj_data *obj)
 {
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGIC_USER) && IS_MAGIC_USER(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGIC_USER) && IS_ARMY(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_NAVY(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && IS_WARRIOR(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && IS_MARINES(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_THIEF) && IS_THIEF(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_THIEF) && IS_AIRFORCE(ch))
     return TRUE;
 
   return FALSE;

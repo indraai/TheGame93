@@ -204,37 +204,37 @@ int mag_damage(int level, struct char_data *ch, struct char_data *victim,
     /* Mostly mages */
   case SPELL_MAGIC_MISSILE:
   case SPELL_CHILL_TOUCH:	/* chill touch also has an affect */
-    if (IS_MAGIC_USER(ch))
+    if (IS_ARMY(ch))
       dam = dice(1, 8) + 1;
     else
       dam = dice(1, 6) + 1;
     break;
   case SPELL_BURNING_HANDS:
-    if (IS_MAGIC_USER(ch))
+    if (IS_ARMY(ch))
       dam = dice(3, 8) + 3;
     else
       dam = dice(3, 6) + 3;
     break;
   case SPELL_SHOCKING_GRASP:
-    if (IS_MAGIC_USER(ch))
+    if (IS_ARMY(ch))
       dam = dice(5, 8) + 5;
     else
       dam = dice(5, 6) + 5;
     break;
   case SPELL_LIGHTNING_BOLT:
-    if (IS_MAGIC_USER(ch))
+    if (IS_ARMY(ch))
       dam = dice(7, 8) + 7;
     else
       dam = dice(7, 6) + 7;
     break;
   case SPELL_COLOR_SPRAY:
-    if (IS_MAGIC_USER(ch))
+    if (IS_ARMY(ch))
       dam = dice(9, 8) + 9;
     else
       dam = dice(9, 6) + 9;
     break;
   case SPELL_FIREBALL:
-    if (IS_MAGIC_USER(ch))
+    if (IS_ARMY(ch))
       dam = dice(11, 8) + 11;
     else
       dam = dice(11, 6) + 11;

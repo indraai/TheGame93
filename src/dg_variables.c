@@ -836,7 +836,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
             else
               strcpy(str, "0");
           }
-          else if (!str_cmp(field, "is_thief")) {
+          else if (!str_cmp(field, "IS_AIRFORCE")) {
             if (subfield && *subfield) {
               if (!str_cmp("on", subfield))
                 SET_BIT_AR(PLR_FLAGS(c), PLR_THIEF);

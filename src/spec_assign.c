@@ -178,8 +178,6 @@ struct spec_func_data {
 static struct spec_func_data spec_func_list[] = {
   {"Mayor",          mayor },
   {"Snake",          snake },
-  {"Thief",          thief },
-  {"Magic User",     magic_user },
   {"Puff",           puff },
   {"Fido",           fido },
   {"Janitor",        janitor },

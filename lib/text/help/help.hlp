@@ -863,7 +863,7 @@ id              - The unique id of the actor.
 inventory()     - Returns the id of the first item in inv. @RHELP TRIG-INV@n
 is_killer()     - Checks if actor is a KILLER. To modify @RHELP NOP@n
 is_pc           - Checks if the actor is a player. @RHELP IS_PC@n
-is_thief()      - Checks if actor is a THIEF. @RHELP NOP@n
+IS_AIRFORCE()      - Checks if actor is a THIEF. @RHELP NOP@n
 level           - The actor's current level. @RHELP ACTOR.LEVEL@n
 mana()          - The current mana points of the actor. Subfield adjusts.
 master          - The master of the actor (as an id), or an empty return.
@@ -4811,7 +4811,7 @@ nop %actor.exp(%number%)%
 
 Can also be used to turn flags on or off:
 nop %actor.is_killer(on)%
-nop %actor.is_thief(off)%
+nop %actor.IS_AIRFORCE(off)%
 
 Player positions including sleeping, resting, sitting, fighting, and standing
 can be set by:
