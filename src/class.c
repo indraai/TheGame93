@@ -1922,8 +1922,8 @@ const char *title_male(int chclass, int level)
       case 14: return "CWO-3";
       case 15: return "CWO-4";
       case 16: return "CWO-5";
-      case 17: return "ENS/0-1";
-      case 18: return "LTJG/0=2";
+      case 17: return "ENS/O-1";
+      case 18: return "LTJG/O=2";
       case 19: return "LT/O-3";
       case 20: return "LCDR/O-4";
       case 21: return "CDR/O=5";
@@ -1957,9 +1957,9 @@ const char *title_male(int chclass, int level)
       case 11: return "CCMSGT/E-9";
       case 12: return "CMSAF/E-9";
       case 13: return "SEAC/E-9";
-      case 14: return "2NDLT/0-1";
-      case 15: return "1STLT/0-2";
-      case 16: return "CAPT/0-3";
+      case 14: return "2NDLT/O-1";
+      case 15: return "1STLT/O-2";
+      case 16: return "CAPT/O-3";
       case 17: return "MAJ/O-4";
       case 18: return "LTCOL/O-5";
       case 19: return "COL/O-6";
@@ -2121,9 +2121,9 @@ const char *title_female(int chclass, int level)
       case 11: return "CCMSGT/E-9";
       case 12: return "CMSAF/E-9";
       case 13: return "SEAC/E-9";
-      case 14: return "2NDLT/0-1";
-      case 15: return "1STLT/0-2";
-      case 16: return "CAPT/0-3";
+      case 14: return "2NDLT/O-1";
+      case 15: return "1STLT/O-2";
+      case 16: return "CAPT/O-3";
       case 17: return "MAJ/O-4";
       case 18: return "LTCOL/O-5";
       case 19: return "COL/O-6";
