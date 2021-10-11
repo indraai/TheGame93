@@ -146,10 +146,10 @@
 
 /* PC classes */
 #define CLASS_UNDEFINED	  (-1) /**< PC Class undefined */
-#define CLASS_SAGE        0    /**< PC Class Magic User */
-#define CLASS_MONK        1    /**< PC Class  */
-#define CLASS_THIEF       2    /**< PC Class Thief */
-#define CLASS_WARRIOR     3    /**< PC Class Warrior */
+#define CLASS_ARMY        0    /**< PC Class Magic User */
+#define CLASS_NAVY        1    /**< PC Class  */
+#define CLASS_AIRFORCE       2    /**< PC Class Thief */
+#define CLASS_MARINES     3    /**< PC Class Warrior */
 /** Total number of available PC Classes */
 #define NUM_CLASSES	  4
 

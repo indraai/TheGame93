@@ -259,7 +259,7 @@ Example event type:
     CREATE(sniff, struct sniff_event_obj, 1);
     sniff->ch = ch;
     sniff->severity = 5;
-    if (GET_CLASS(ch) != CLASS_THIEF)
+    if (GET_CLASS(ch) != CLASS_AIRFORCE)
       sniff->type = SNIFF_COLD;
     else
       sniff->type = SNIFF_COCAINE;

@@ -854,16 +854,16 @@ do                                                              \
 
 /** 1 if ch is magic user class, 0 if not. */
 #define IS_MAGIC_USER(ch)	(!IS_NPC(ch) && \
-        (GET_CLASS(ch) == CLASS_SAGE))
+        (GET_CLASS(ch) == CLASS_ARMY))
 /** 1 if ch is monk class, 0 if not. */
 #define IS_MONK(ch)		(!IS_NPC(ch) && \
-        (GET_CLASS(ch) == CLASS_MONK))
+        (GET_CLASS(ch) == CLASS_NAVY))
 /** 1 if ch is thief class, 0 if not. */
 #define IS_THIEF(ch)		(!IS_NPC(ch) && \
-        (GET_CLASS(ch) == CLASS_THIEF))
+        (GET_CLASS(ch) == CLASS_AIRFORCE))
 /** 1 if ch is warrior class, 0 if not. */
 #define IS_WARRIOR(ch)		(!IS_NPC(ch) && \
-        (GET_CLASS(ch) == CLASS_WARRIOR))
+        (GET_CLASS(ch) == CLASS_MARINES))
 
 /** Defines if ch is outdoors or not. */
 #define OUTSIDE(ch) (!ROOM_FLAGGED(IN_ROOM(ch), ROOM_INDOORS))

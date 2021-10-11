@@ -36,7 +36,7 @@ static void perform_mag_groups(int level, struct char_data *ch, struct char_data
 int mag_savingthrow(struct char_data *ch, int type, int modifier)
 {
   /* NPCs use warrior tables according to some book */
-  int class_sav = CLASS_WARRIOR;
+  int class_sav = CLASS_MARINES;
   int save;
 
   if (!IS_NPC(ch))
