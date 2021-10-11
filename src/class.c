@@ -43,12 +43,11 @@ const char *pc_class_types[] = {
 
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
-"\r\n"
-"Select a class:\r\n"
-"  [\t(M\t)] Monk\r\n"
-"  [\t(T\t)]hief\r\n"
-"  [\t(W\t)]arrior\r\n"
-"  [\t(S\t)] Sage\r\n";
+"\n## Service Branch:\r"
+"\nmenu[ARMY]:1\r"
+"\nmenu[NAVY]:2\r"
+"\nmenu[MARINES]:3\r"
+"\nmenu[AIR FORCE]:4\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -57,10 +56,10 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case 's': return CLASS_SAGE;
-  case 'm': return CLASS_MONK;
-  case 'w': return CLASS_WARRIOR;
-  case 't': return CLASS_THIEF;
+  case '1': return CLASS_SAGE; // army
+  case '2': return CLASS_MONK; // marines
+  case '3': return CLASS_WARRIOR; // navy
+  case '4': return CLASS_THIEF; // air force
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -1823,110 +1822,125 @@ int level_exp(int chclass, int level)
 const char *title_male(int chclass, int level)
 {
   if (level <= 0 || level > LVL_IMPL)
-    return "the Man";
+    return "Soldier";
   if (level == LVL_IMPL)
-    return "the Implementor";
+    return "Architect";
 
   switch (chclass) {
 
     case CLASS_SAGE:
     switch (level) {
-      case  1: return "the Apprentice of Magic";
-      case  2: return "the Spell Student";
-      case  3: return "the Scholar of Magic";
-      case  4: return "the Delver in Spells";
-      case  5: return "the Medium of Magic";
-      case  6: return "the Scribe of Magic";
-      case  7: return "the Seer";
-      case  8: return "the Sage";
-      case  9: return "the Illusionist";
-      case 10: return "the Abjurer";
-      case 11: return "the Invoker";
-      case 12: return "the Enchanter";
-      case 13: return "the Conjurer";
-      case 14: return "the Magician";
-      case 15: return "the Creator";
-      case 16: return "the Savant";
-      case 17: return "the Magus";
-      case 18: return "the Wizard";
-      case 19: return "the Warlock";
-      case 20: return "the Sorcerer";
-      case 21: return "the Necromancer";
-      case 22: return "the Thaumaturge";
-      case 23: return "the Student of the Occult";
-      case 24: return "the Disciple of the Uncanny";
-      case 25: return "the Minor Elemental";
-      case 26: return "the Greater Elemental";
-      case 27: return "the Crafter of Magics";
-      case 28: return "the Shaman";
-      case 29: return "the Keeper of Talismans";
-      case 30: return "the Archmage";
-      case LVL_IMMORT: return "the Immortal Warlock";
-      case LVL_DEVA: return "the Avatar of Magic";
-      case LVL_GRDEVA: return "the God of Magic";
-      default: return "the Mage";
+      case  1: return "Private Recruit";
+      case  2: return "Private";
+      case  3: return "Private First Class";
+      case  4: return "Specialist";
+      case  5: return "Corporal";
+      case  6: return "Sergeant";
+      case  7: return "Staff Sergeant";
+      case  8: return "Sergeant First Class";
+      case  9: return "Master Sergeant";
+      case 10: return "First Sergeant";
+      case 11: return "Sergeant Major";
+      case 12: return "Command Sergeant Major";
+      case 13: return "Sergeant Major of the Army";
+      case 14: return "Warrant Officer 1";
+      case 15: return "Chief Warrant Officer 2";
+      case 16: return "Chief Warrant Officer 3";
+      case 17: return "Chief Warrant Officer 4";
+      case 18: return "Chief Warrant Officer 5";
+      case 19: return "Second Lieutenant";
+      case 20: return "First Lieutenant";
+      case 21: return "Captain";
+      case 22: return "Major";
+      case 23: return "Lieutenant Colonel";
+      case 24: return "Colnel";
+      case 25: return "Brigadier General";
+      case 26: return "Major General";
+      case 27: return "Lieutenant General";
+      case 28: return "General";
+      case 29: return "General of the Army";
+      /*
+      case LVL_IMMORT: return "Army Intel";
+      case LVL_DEVA: return "Army SpecOps";
+      case LVL_GRDEVA: return "Army BlackOps";
+      */
+      default: return "Soldier";
     }
 
     case CLASS_MONK:
     switch (level) {
-      /*
-      case  1: return "the Laity";
-      case  2: return "the Attendant";
-      case  3: return "the Acolyte";
-      case  4: return "the Novice";
-      case  5: return "the Missionary";
-      case  6: return "the Adept";
-      case  7: return "the Deacon";
-      case  8: return "the Vicar";
-      case  9: return "the Priest";
-      case 10: return "the Minister";
-      case 11: return "the Canon";
-      case 12: return "the Levite";
-      case 13: return "the Curate";
-      case 14: return "the Monk";
-      case 15: return "the Healer";
-      case 16: return "the Chaplain";
-      case 17: return "the Expositor";
-      case 18: return "the Bishop";
-      case 19: return "Abbot";
-      case 20: return "Supreme Patriarch";
-      */
+      case  1: return "PVT/E1";
+      case  2: return "PFC/E2";
+      case  3: return "LCPL/E3";
+      case  4: return "CPL/E4";
+      case  5: return "SGT/E5";
+      case  6: return "SSGT/E6";
+      case  7: return "GYSGT/E7";
+      case  8: return "MSGT/E8";
+      case  9: return "1SGT/E8";
+      case 10: return "MGYSGT/E9";
+      case 11: return "SGTMAJ/E9";
+      case 12: return "WO1";
+      case 13: return "CWO2";
+      case 14: return "CWO3";
+      case 15: return "CWO4";
+      case 16: return "CWO5";
+      case 17: return "2NDLT/0-1";
+      case 18: return "1STLT/0-2";
+      case 19: return "CAPT/O-3";
+      case 20: return "MAJ/O-4";
+      case 21: return "LTCOL/O-5";
+      case 22: return "COL/O-6";
+      case 23: return "BGEN/O-7";
+      case 24: return "MAJGEN/O-8";
+      case 25: return "LTGEN/O-9";
+      case 26: return "GEN/O-10";
+
       /* no one ever thought up these titles 21-30 */
       /*
       case LVL_IMMORT: return "the Immortal Cardinal";
       case LVL_DEVA: return "the Inquisitor";
       case LVL_GRDEVA: return "the God of Good and Evil";
       */
-      default: return "Monk";
+      default: return "Soldier";
     }
 
     case CLASS_THIEF:
     switch (level) {
-      case  1: return "the Pilferer";
-      case  2: return "the Footpad";
-      case  3: return "the Filcher";
-      case  4: return "the Pick-Pocket";
-      case  5: return "the Sneak";
-      case  6: return "the Pincher";
-      case  7: return "the Cut-Purse";
-      case  8: return "the Snatcher";
-      case  9: return "the Sharper";
-      case 10: return "the Rogue";
-      case 11: return "the Robber";
-      case 12: return "the Magsman";
-      case 13: return "the Highwayman";
-      case 14: return "the Burglar";
-      case 15: return "the Thief";
-      case 16: return "the Knifer";
-      case 17: return "the Quick-Blade";
-      case 18: return "the Killer";
-      case 19: return "the Brigand";
-      case 20: return "the Cut-Throat";
+      case  1: return "SR/E1";
+      case  2: return "SA/E2";
+      case  3: return "SN/E3";
+      case  4: return "PO3/E4";
+      case  5: return "PO2/E5";
+      case  6: return "PO1/E6";
+      case  7: return "CPO/E7";
+      case  8: return "SCPO/E8";
+      case  9: return "MCPO/E9";
+      case 10: return "CMC/E9";
+      case 11: return "MCPON/E9";
+      case 12: return "WO";
+      case 13: return "CWO2";
+      case 14: return "CWO3";
+      case 15: return "CWO4";
+      case 16: return "CWO5";
+      case 17: return "ENS/01";
+      case 18: return "LTJG/02";
+      case 19: return "LT/O3";
+      case 20: return "LCDR/O4";
+      case 21: return "CDR/O5";
+      case 22: return "CAPT/O6";
+      case 23: return "RDML/O7";
+      case 24: return "RADM/O8";
+      case 25: return "VADM/O9";
+      case 26: return "VADM/O10";
+      case 27: return "FADM";
       /* no one ever thought up these titles 21-30 */
+      /*
       case LVL_IMMORT: return "the Immortal Assassin";
       case LVL_DEVA: return "the Demi God of Thieves";
       case LVL_GRDEVA: return "the God of Thieves and Tradesmen";
-      default: return "the Thief";
+      */
+      default: return "Soldier";
     }
 
     case CLASS_WARRIOR:
