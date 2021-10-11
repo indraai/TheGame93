@@ -65,16 +65,17 @@ more stunning woman you have ever come across.
 E
 T 108
 #105
-janos balding man old~
-Janos~
-An old, balding man slowly walks past, leaning heavily on his cane.
+mark petrakis spoonman 1337 spoonkids~
+Mark Petrakis (spoonman)~
+Mark Petrakis (spoonman) is here.
 ~
-The life in Arjika though protected is anything but peaceful.  The citizens spend many a sleepless night wondering about their safety.  This old man seems to have aged prematurely due to his worrying.
+talk:#adventure view:thegame:agent 105/look
 ~
-2136 0 0 0 0 0 0 0 900 E
+2072 0 0 0 0 0 0 0 900 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1
+BareHandAttack: 12
 E
 #106
 captain lugdach~
@@ -155,16 +156,17 @@ The jeweler has an eyepiece shoved in one squinted eye, and looks as if he may b
 E
 T 122
 #112
-elizabeth lapensee survivance covenant~
-Elizabeth Lapensee~
+elizabeth lapensee survivance covenant 1337~
+Elizabeth LaPensee (survivance)~
 Elizabeth Lapensee is here.
 ~
-She is wearing a very drab white dress with some sort of flowery print on it. She keeps smiling at you, and she's not a bad looker, but I wouldn't get your hopes up.  She looks at you with a sideways glance and puckers her lips as if she wants to be kissed.
+talk:#adventure view:thegame:agent 0112/look
 ~
-2120 0 0 0 0 0 0 0 1000 E
+2200 0 0 0 0 0 0 0 1000 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 2
+BareHandAttack: 3
 E
 #113
 questmaster quests~
@@ -240,7 +242,7 @@ E
 T 161
 #118
 tabitha lavery bass covenant survivance 1337~
-TabithaLavery~
+#mud > Tabitha Lavery (tabby)~
 Tabitha Lavery is here.
 ~
 talk:#adventure view:thegame:agent 0118/look
@@ -394,8 +396,8 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #130
-brenda laurel spoonkids covenant~
-Brenda Laurel~
+brenda laurel spoonkids covenant goddess 1337~
+Brenda Laurel (goddess)~
 Brenda Laurel is here.
 ~
 Brenda Laurel is here to spawn
@@ -840,8 +842,8 @@ BareHandAttack: 2
 E
 #164
 michael nebadon 1337~
-Michael Nebadon~
-Michael Nebadon is here.
+Michael Nebadon (michael)~
+Michael Nebadon (michael) is here.
 ~
 talk:#adventure view:thegame:agent 0164/look
 ~
