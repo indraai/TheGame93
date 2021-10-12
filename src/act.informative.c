@@ -888,7 +888,7 @@ ACMD(do_gold)
 ACMD(do_score)
 {
   struct time_info_data playing_time;
-  char *serv;
+  const char *serv;
   if (IS_NPC(ch))
     return;
 
