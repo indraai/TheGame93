@@ -141,8 +141,8 @@ void assign_objects(void)
   // ASSIGNOBJ(3099, gen_board);	/* mortal board */
 
   ASSIGNOBJ(115, bank);
-  ASSIGNOBJ(334, bank);	        /* atm */
-  ASSIGNOBJ(336, bank);	        /* cashcard */
+  ASSIGNOBJ(300, bank);	           /* atm */
+  ASSIGNOBJ(301, bank);	           /* cashcard */
   // ASSIGNOBJ(3034, bank);        /* atm */
   // ASSIGNOBJ(3036, bank);        /* cashcard */
   // ASSIGNOBJ(3907, bank);

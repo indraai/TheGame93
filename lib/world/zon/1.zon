@@ -2,10 +2,6 @@
 Quinn Michaels~
 Arjika~
 100 199 10 2 d 0 0 0 1 34
-R 0 100 251 -1 	(a marble fountain)
-O 0 251 1 100 	(a marble fountain)
-
-
 M 0 100 1 155 	(Quinn Michaels)
 M 0 101 1 268 	(Ian)
 M 0 102 1 281 	(Liam)
@@ -158,12 +154,8 @@ O 1 94 99 103 	(the monks board)
 R 0 110 95 -1 	(the thieves board)
 O 1 95 99 110 	(the thieves board)
 
-O 0 115 1 224 	(a huge safe)
-
-
-
-
-
+R 0 100 251 -1 	(a marble fountain)
+O 0 251 1 100 	(a marble fountain)
 
 S
 $
