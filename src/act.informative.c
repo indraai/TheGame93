@@ -215,7 +215,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     }
   }
   if (!found && show)
-    send_to_char(ch, "\nNothing.\r");
+    send_to_char(ch, "\nobject: Nothing.\r");
 }
 static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
 {
