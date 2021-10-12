@@ -317,7 +317,7 @@ D1
 0 0 18
 S
 #20
-Satanic~
+Satanic Sysadmins~
 talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
@@ -333,7 +333,7 @@ talk:#adventure view:thegame:world 0021/look
 0 0 21
 S
 #21
-Evil People, Inc.~
+Edge.org~
 talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
@@ -349,7 +349,7 @@ talk:#adventure view:thegame:world 0022/look
 0 0 22
 S
 #22
-Satanic Sysadmins~
+Cult of the Dead Cow~
 talk:#adventure view:thegame:world 0022/main
 ~
 0 24 0 0 0 0
@@ -549,12 +549,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
