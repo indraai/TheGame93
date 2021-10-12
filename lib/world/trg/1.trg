@@ -130,11 +130,11 @@ end
 Load Internet Detective Badge - 98~
 2 g 100
 ~
-if %actor.is_pc% && %self.contents.vnum% != 47
+if !%actor.inventory(47)%
   %load% obj 47 %actor% inv
 end
 wait 2 sec
-%echoaround% %actor% %actor.name% has earned their Internet Detective Badge.
+%echoaround% %actor% %actor.name% earned the Internet Detective Badge.
 %send% %actor% Congratulations! You have earned your Internet Detective Badge.
 ~
 #195

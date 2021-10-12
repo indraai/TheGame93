@@ -177,7 +177,6 @@ A clay bomb of napalm lays here dangerously.~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 3 1000 0 0 0
-T 337
 E
 napalm balm~
    A few chemists in the realm know the magic required to concoct this liquid
@@ -515,7 +514,7 @@ A metal staff has carelessly been left here.~
 T 303
 E
 staff metal~
-   The staff is made of metals unknown to you.
+The staff is made of metals unknown to you.
 ~
 #360
 raft~

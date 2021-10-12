@@ -66,67 +66,6 @@ if %actor.is_pc%
   end
 end
 ~
-#303
-Obj Get Example - Good  Only~
-1 g 100
-~
-* By Rumble of The Builder Academy    tbamud.com 9091
-* Only allow 's with a good align to get this item.
-if %actor.class% != monk || %actor.align% < 350
-  return 0
-  %send% %actor% You are not worthy to wield me.
-  %echoaround% %actor% %actor.name% tries to pick up %self.shortdesc% and fails.
-end
-~
-#304
-Room Command - Look at Painting~
-2 c 100
-l~
-* By Rumble of The Builder Academy    tbamud.com 9091
-if %cmd.mudcommand% == look && painting /= %arg%
-  %send% %actor% As you stare at the painting the figures seem to start moving and acting out the scenes they portray.
-  %echoaround% %actor% %actor.name% stares at one of the paintings. A strange look coming over %actor.hisher% face.
-else
-  * If it doesn't match let the command continue. Without a return 0 a player
-  * will not be able to "look" at anything else.
-  return 0
-end
-~
-#305
-Mob Greet Clothing Check~
-0 g 100
-~
-* By Rumble of The Builder Academy    tbamud.com 9091
-if %actor.is_pc%
-  wait 1 sec
-  if %actor.eq(*)%
-    eval worn_about %actor.eq(about)%
-    if %worn_about.vnum% == 326
-      look %actor.name%
-      smile
-    else
-      say You always bathe in your clothes?
-      eyebrow
-    end
-  else
-    say at least get a towel, I don't want to see that.
-  end
-end
-~
-#306
-Room Entry - sneak check~
-2 g 25
-~
-* By Rumble of The Builder Academy    tbamud.com 9091
-if %actor.is_pc%
-  if %actor.skill(sneak)% > 50
-    %send% %actor% You walk into the room, not waking any of the monks.
-  else
-    %send% %actor% Your entry into the room wakes a few of the monks.
-    %load% mob 340
-  end
-end
-~
 #307
 Obj Remove - %transform% test~
 1 jl 7
@@ -142,30 +81,6 @@ else
   %transform% 3020
 end
 %echo% Transform complete.
-~
-#308
-Room Command - makeuid and remote testing~
-2 c 100
-test~
-* makeuid test ---- assuming your MOBOBJ_ID_BASE is 200000,
-* this will display the names of the first 10 mobs loaded on your MUD,
-* if they are still around.
-eval counter 0
-while (%counter% < 10)
-  makeuid mob 200000+%counter%
-  %echo% #%counter%      %mob.id%   %mob.name%
-  eval counter %counter% + 1
-done
-%echoaround% %actor% %actor.name% cannot see this line.
-*
-*
-* this will also serve as a test of getting a remote mob's globals.
-* we know that puff, when initially loaded, is id 200000. We'll use remote
-* to give her a global, then %mob.globalname% to read it.
-makeuid mob 200000
-set globalname 12345
-remote globalname %mob.id%
-%echo% %mob.name%'s "globalname" value is %mob.globalname%
 ~
 #309
 Mob Greet - %transform% test~
@@ -273,22 +188,6 @@ Mob Fight - generic lightning bolt~
 0 k 10
 ~
 dg_cast 'lightning bolt' %actor%
-~
-#322
-Mob Fight - generic kick~
-0 k 30
-~
-* By Fizban of The Builder Academy    tbamud.com 9091
-* Mimics the kick skill.
-eval percent ((10 - (%actor.armor% / 10)) * 2) + %random.101%
-if %percent% > %actor.skill(kick)%
-  nop %actor.pos(sitting)%
-  eval dam %self.level% / 2
-  %damage% %actor% %dam%
-  %send% %self% Your boots need polishing again -- mud all over them...
-  %send% %actor% %self.name% wipes %self.hisher% boots in your face!
-  %echoaround% %actor% %self.name% wipes %self.hisher% boots in the face of %actor.name%!
-end
 ~
 #323
 Mob Fight - generic bash~
@@ -419,139 +318,11 @@ else
   %echo% < 30
 end
 ~
-#335
-Camille Napalm Assemble Quest - 300~
-0 j 100
-~
-if %actor.is_pc%
-  wait 1 sec
-  * only let players do it once.
-  if %actor.varexists(3_napalm_complete)%
-    say What would I want that for? Leave me alone, I have work to do.
-    return 0
-    halt
-  end
-  if %actor.varexists(3_napalm_search)%
-    if %object.vnum% == 306
-      set 3_naphthalene 1
-      remote 3_naphthalene %actor.id%
-      say Thank you! Napthalene at last!
-      %purge% %object%
-    elseif %object.vnum% == 307
-      set 3_palmatite 1
-      remote 3_palmatite %actor.id%
-      say Outstanding, Palmatite! Just what I need!
-      %purge% %object%
-    elseif %object.vnum% == 308
-      set 3_napalm_bomb 1
-      remote 3_napalm_bomb %actor.id%
-      say this will work well.
-      %purge% %object%
-    else
-      say what would I want that for?
-      return 0
-    end
-    if %actor.varexists(3_napalm_search)% && %actor.varexists(3_naphthalene)% && %actor.varexists(3_palmatite)% && %actor.varexists(3_napalm_jug)%
-      say Thank you so much, here is your reward!
-      %load% obj 317
-      give napalm %actor.name%
-      rdelete 3_napalm_search %actor.id%
-      rdelete 3_naphthalene %actor.id%
-      rdelete 3_palmatite %actor.id%
-      rdelete 3_napalm_jug %actor.id%
-      set 3_napalm_done 1
-      remote 3_napalm_done %actor.id%
-    end
-  end
-end
-~
 #336
 Room Contents Test~
 2 b 100
 ~
 %echo% Contents: %self.contents%
-~
-#337
-Napalm bomb - 317~
-1 c 2
-nap~
-if napalm /= %cmd%
-  if %actor.fighting% && !%arg%
-    set arg %actor.fighting%
-  end
-  if !%arg%
-    %send% %actor% Throw it at Who?
-    halt
-  end
-  if %arg.room% != %actor.room%
-    %send% %actor% Throw it at who?
-    halt
-  end
-  %send% %actor% You throw the napalm at %arg.name%, it strikes %arg.himher% and shatters, exploding into a ball of fire consuming %arg.himher% completely.
-  %echoaround% %actor% %actor.name% throws the napalm at %arg.name%. It shatters and explodes into a ball of fire consuming %arg.himher%.
-  %asound% A large explosion is heard close by.
-  set stunned %arg.hitp%
-  %damage% %arg% %stunned%
-  wait 5 sec
-  %echoaround% %arg% %arg.name% collapses to the ground as the flames die down. %arg.heshe% seems to still be alive, but barely.
-end
-~
-#338
-Horse Petshop - 203~
-0 c 100
-*~
-if %cmd.mudcommand% == list
-  *
-  %send% %actor%
-  %send% %actor%  ##   Pet                                                 Cost
-  %send% %actor% --------------------------------------------------------------
-  %send% %actor%   1)  a horse                                              1500
-  %send% %actor%   2)  a fine mare                                          1800
-  %send% %actor%   3)  a stallion                                           3000
-  *
-elseif %cmd.mudcommand% == buy
-  if %actor.gold% < 1500
-    tell %actor.name% You have no money, go beg somewhere else.
-    halt
-    * lets not allow them to have more than one pet to keep the game balanced.
-  elseif %actor.follower%
-    tell %actor.name% You already have someone following you.
-    halt
-  end
-  if horse /= %arg% || %arg% == 1
-    set pet_name horse
-    set pet_vnum 202
-    set pet_cost 1500
-  elseif fine /= %arg% || mare /= %arg% || %arg% == 2
-    set pet_name mare
-    set pet_vnum 204
-    set pet_cost 1800
-  elseif stallion /= %arg% || %arg% == 3
-    set pet_name stallion
-    set pet_vnum 205
-    set pet_cost 3000
-  else
-    tell %actor.name% What? I don't have that.
-    halt
-  end
-  *
-  if %actor.gold% < %pet_cost%
-    tell %actor.name% You don't have enough gold for that.
-  else
-    * Need to load the mob, have it follow the player AND set the affect
-    * CHARM so the mob will follow the masters orders.
-    %load% mob %pet_vnum%
-    dg_affect %pet_name% charm on 999
-    emote opens the stable door and returns leading a horse by its reins.
-    tell %actor.name% here you go. Treat'em well.
-    %force% %pet_name% follow %actor.name%
-    nop %actor.gold(-%pet_cost%)%
-  end
-elseif %cmd.mudcommand% == sell
-  tell %actor.name% Does it look like I buy things?
-else
-  return 0
-end
 ~
 #380
 Obj Command 82 - Teleporter Recall~
