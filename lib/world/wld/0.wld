@@ -43,7 +43,7 @@ D3
 talk:#adventure view:thegame:world 0200/look
 ~
 ~
-1 0 142
+1 0 200
 S
 T 199
 #3
@@ -365,7 +365,6 @@ talk:#adventure view:thegame:world 0023/look
 ~
 0 0 23
 S
-T 189
 #23
 bianca~
 talk:#adventure view:thegame:world 023/main
@@ -566,12 +565,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~

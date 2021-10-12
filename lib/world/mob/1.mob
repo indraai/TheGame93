@@ -242,7 +242,7 @@ E
 T 161
 #118
 tabitha lavery bass covenant survivance 1337~
-#mud > Tabitha Lavery (tabby)~
+Tabitha Lavery (tabby)~
 Tabitha Lavery is here.
 ~
 talk:#adventure view:thegame:agent 0118/look
@@ -254,13 +254,13 @@ talk:#adventure view:thegame:agent 0118/look
 BareHandAttack: 4
 E
 #119
-dewity mrdewity banker covenant 1337~
-Mr. Dewity~
-Mr. Dewity is here.
+dewity mrdewity banker covenant 1337 boss~
+Mr. Dewity (boss)~
+Mr. Dewity (boss) is here.
 ~
-Mr. Dewity is a very rich man, one of the richest alive.  He loves money.
+talk:#adventure view:thegame:agent 0119/look
 ~
-190474 0 0 0 65552 0 0 0 -1000 E
+2074 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 1
@@ -657,9 +657,9 @@ The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy 
 8 8 1
 E
 #150
+dave dogruel xibo 1337 angst~
 Dave Dogruel (xibo)~
-Dave Dogruel (xibo) is here.~
-A mangy mutt is looking for some scraps to eat.
+Dave Dogruel (xibo) is here.
 ~
 talk:#adventure view:thegame:agent 0150/look
 ~
@@ -817,7 +817,7 @@ E
 T 179
 #162
 dan farmer hellraiser 1337 defcon satan~
-Dan Farmer (Hellraiser)~
+Dan Farmer (hellraiser)~
 Dan Farmer (Hellraiser) is here.
 ~
 talk:#adventure view:thegame:agent 0162/look
