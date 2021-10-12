@@ -132,10 +132,10 @@ Load Internet Detective Badge - 98~
 ~
 if !%actor.inventory(47)%
   %load% obj 47 %actor% inv
+  %echoaround% %actor% %actor.name% earned the Internet Detective Badge.
+  %send% %actor% Congratulations! You have earned your Internet Detective Badge.
+  wait 2 sec
 end
-wait 2 sec
-%echoaround% %actor% %actor.name% earned the Internet Detective Badge.
-%send% %actor% Congratulations! You have earned your Internet Detective Badge.
 ~
 #195
 Stayalive idleout bracelet - 88~
