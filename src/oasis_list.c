@@ -630,10 +630,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
     top    = vmax;
   }
 
-  len = strlcpy(buf,
-  "Index VNum    Mobile Name                                  Level\r\n"
-  "----- ------- -------------------------------------------- -----\r\n",
-  sizeof(buf));
+  len = strlcpy(buf,"\n## Agents\r", sizeof(buf));
 
   if (!top_of_mobt)
     return;
@@ -642,19 +639,17 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
     if (mob_index[i].vnum >= bottom && mob_index[i].vnum <= top) {
       counter++;
 
-      len += snprintf(buf + len, sizeof(buf) - len, "%s%4d%s) [%s%-5d%s] %s%-*s %s[%4d]%s%s\r\n",
-                   QGRN, counter, QNRM, QGRN, mob_index[i].vnum, QNRM,
-                   QCYN, count_color_chars(mob_proto[i].player.short_descr)+44, mob_proto[i].player.short_descr,
-                   QYEL, mob_proto[i].player.level, QNRM,
-                   mob_proto[i].proto_script ? " [TRIG]" : ""
-              );
-      if (len > sizeof(buf))
-		break;
+      len += snprintf(buf + len, sizeof(buf) - len, "\n%d%: %s\r",
+        mob_index[i].vnum,
+        mob_proto[i].player.short_descr
+      );
+
+      //if (len > sizeof(buf)) break;
     }
   }
 
   if (counter == 0)
-    send_to_char(ch, "None found.\r\n");
+    send_to_char(ch, "\nNo Agents.\r");
   else
     page_string(ch->desc, buf, TRUE);
 }

@@ -120,7 +120,7 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
     "\nselect[L:agelength]:%d\r"
     "\nselect[C:color]:%s\r"
     "\nselect[S:screenwidth]:%d\r"
-    "\nselect[W:wimpy]%d\r",
+    "\nselect[W:wimpy]:%d\r",
     prompt_string,
     PREFEDIT_GET_PAGELENGTH,
     color_string,
@@ -157,7 +157,7 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
              ONOFF(PREFEDIT_FLAGGED(PRF_ZONERESETS)), CCCYN(d->character, C_NRM));
   }
 
-  send_to_char(d->character, "\nmenu[toggle]:%s\r"
+  send_to_char(d->character, "\nmenu[toggle]:T\r"
     "\nmenu[restore defaults]:D\r"
     "\nmenu[quit]:Q\r"
   );
