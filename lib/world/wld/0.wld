@@ -45,7 +45,6 @@ talk:#adventure view:thegame:world 0200/look
 ~
 1 0 200
 S
-T 199
 #3
 TheGame23~
 talk:#adventure view:thegame:world 0003/main
@@ -468,8 +467,6 @@ shower~
 talk:#adventure view:thegame:world 0091/shower
 ~
 S
-T 171
-T 172
 #92
 Plato's Workspace~
 talk:#adventure view:thegame:world 0092/main
@@ -481,8 +478,6 @@ talk:#adventure view:thegame:world 0089/look
 ~
 0 0 89
 S
-T 171
-T 172
 #93
 Friedrich Nietzsche's Workspace~
 talk:#adventure view:thegame:world 0093/main
@@ -494,32 +489,24 @@ talk:#adventure view:thegame:world 0089/look
 ~
 0 0 89
 S
-T 171
-T 172
 #94
 Socrates' Workspace~
 talk:#adventure view:thegame:world 0094/main
 ~
 0 8 0 0 0 0
 S
-T 172
-T 171
 #95
 Confucius' Workspace~
 talk:#adventure view:thegame:world 0095/main
 ~
 0 8 0 0 0 0
 S
-T 171
-T 172
 #96
 James Stockdale's Workspace~
 talk:#adventure view:thegame:world 0096/main
 ~
 0 8 0 0 0 0
 S
-T 171
-T 172
 #97
 Open Workspace~
 talk:#adventure view:thegame:world 0097/main
@@ -531,9 +518,6 @@ talk:#adventure view:thegame:world 0089/look
 ~
 0 0 89
 S
-T 170
-T 171
-T 172
 #98
 DefCon~
 talk:#adventure view:thegame:world 0098/main

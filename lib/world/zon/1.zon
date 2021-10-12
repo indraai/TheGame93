@@ -158,7 +158,6 @@ O 1 94 99 103 	(the monks board)
 R 0 110 95 -1 	(the thieves board)
 O 1 95 99 110 	(the thieves board)
 
-O 0 100 1 120 	(the portal)
 O 0 115 1 224 	(a huge safe)
 
 

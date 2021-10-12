@@ -27,7 +27,6 @@ emotoinal aid they give.
 200 40000
 8 8 1
 E
-T 146
 #202
 horse pets ~
 the horse~
@@ -113,10 +112,6 @@ appears to be beggin for some treats.
 8 8 2
 BareHandAttack: 4
 E
-T 152
-T 153
-T 155
-T 156
 #208
 offering deva od208~
 Offering Deva~
@@ -159,7 +154,6 @@ questors can afford to pay her.
 300 90000
 8 8 2
 E
-T 167
 #211
 phoenix~
 the phoenix~

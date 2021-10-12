@@ -62,8 +62,6 @@ statue~
 talk:#adventure view:thegame:world 0101/statue
 ~
 S
-T 158
-T 163
 #102
 Inner Arjika~
 talk:#adventure view:thegame:world 0102/main
@@ -1778,7 +1776,6 @@ mushrooms~
 edible.
 ~
 S
-T 162
 #197
 A Work Room~
    This building is cluttered together in no apparent order, wherever there is

@@ -503,20 +503,6 @@ if !%actor.has_item(47)%
   %send% %actor% %self.name% gives you the magic eight ball.
 end
 ~
-#94
-Follow Guide~
-0 b 50
-~
-set ndir %random.dir%
-set follower %self.follower%
-if %follower%
-  wait 90 s
-  %ndir%
-else
-  wait 1 s
-  mgoto 251
-end
-~
 #95
 Arjika Dayshift~
 0 t 100

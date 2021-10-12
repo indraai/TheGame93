@@ -169,8 +169,6 @@ A quest token needs to be returned to the questmaster.~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-T 141
-T 169
 E
 quest token~
    It is a plain gold coin with the symbol of Arjika engraved on both sides.
@@ -184,9 +182,6 @@ A small quest timer is ticking away.~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-T 140
-T 141
-T 142
 E
 quest timer~
    This small device looks like an antique gold pocket watch.  One small hand
@@ -200,7 +195,6 @@ The head of a quest mob needs to be taken back to the questmaster.~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-T 141
 E
 head quest mob~
    This quest item is proof that you have hunted down and killed the quest mob.
@@ -717,7 +711,6 @@ An immortal device to set questpoints.~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 34 0
-T 168
 #46
 key gateguard~
 the gateguard key~
@@ -727,9 +720,10 @@ The gateguards key was left here.~
 0 0 0 0
 1 1 0 0 0
 #47
-magic eight ball eightball~
-the magic eight ball~
-A mysterious looking magic eight ball holds the answer.~
+internet detective badge~
+Internet Detective Badge~
+Internet Detective Badge.
+~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
@@ -1168,9 +1162,9 @@ most inconvenient of spots.  A plaque on the bottom reads: "You can build a
 throne of bayonets, but you can't sit on it for long."
 ~
 #88
-idleout timer stayalive bracelet~
-a stayalive bracelet~
-A bright orange plastic bracelet was left here.~
+idle timer stayalive bracelet~
+Timeout Bracelet~
+A bright orange bracelet was left here.~
 ~
 12 0 0 0 0 am 0 0 0 0 0 0 0
 0 0 0 0
@@ -1178,9 +1172,7 @@ A bright orange plastic bracelet was left here.~
 T 195
 E
 idleout timer stayalive bracelet~
-   The bracelet is made of a garish orange plastic with the letters STAYALIVE
-carved into the outer band. It is rumored that this bracelet will keep people
-from going linkdead.
+The bracelet is made of a garish orange plastic with the letters STAYALIVE carved into the outer band. It is rumored that this bracelet will keep people from going timeout.
 ~
 #89
 iron shackles~
@@ -1190,7 +1182,6 @@ A pair of shackles are securely fastened around both of your ankles.~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-T 180
 E
 iron shackles pair~
    The shackles are locked closed about your ankles with the link chain looped
