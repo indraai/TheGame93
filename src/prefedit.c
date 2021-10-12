@@ -115,38 +115,28 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
 
 
   /* The mortal preferences section of the actual menu */
-  send_to_char(d->character, "\r\n"
-                             "%sPreferences\r\n"
-                             "%sP%s) Prompt : %s[%s%-3s%s]         %sL%s) Pagelength : %s[%s%-3d%s]\r\n"
-                             "%sC%s) Color  : %s[%s%-8s%s]    %sS%s) Screenwidth: %s[%s%-3d%s]\r\n"
-                             "%sW%s) Wimpy  : %s[%s%-4d%s]%s\r\n",
-             CCWHT(d->character, C_NRM),
-/* Line 1 - prompt and pagelength */
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), CCYEL(d->character, C_NRM),
-             prompt_string, CCCYN(d->character, C_NRM), CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-             CCCYN(d->character, C_NRM), CCYEL(d->character, C_NRM), PREFEDIT_GET_PAGELENGTH, CCCYN(d->character, C_NRM),
-/* Line 2 - color and screenwidth */
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), CCYEL(d->character, C_NRM),
-             color_string, CCCYN(d->character, C_NRM), CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-             CCCYN(d->character, C_NRM), CCYEL(d->character, C_NRM), PREFEDIT_GET_SCREENWIDTH, CCCYN(d->character, C_NRM),
-/* Line 2 - wimpy                 */
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), CCYEL(d->character, C_NRM),
-             PREFEDIT_GET_WIMP_LEV, CCCYN(d->character, C_NRM), CCNRM(d->character, C_NRM)
-             );
-
-  send_to_char(d->character, "%sT%s) Toggle Preferences...\r\n",
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM) );
+  send_to_char(d->character, "\n## Preferences\r"
+    "\nselect[P:prompt]:%s"
+    "\nselect[L:agelength]:%d\r"
+    "\nselect[C:color]:%s\r"
+    "\nselect[S:screenwidth]:%d\r"
+    "\nselect[W:wimpy]%d\r",
+    prompt_string,
+    PREFEDIT_GET_PAGELENGTH,
+    color_string,
+    PREFEDIT_GET_SCREENWIDTH,
+    PREFEDIT_GET_WIMP_LEV
+  );
 
   /* Imm Prefs */
-  if (GET_LEVEL(PREFEDIT_GET_CHAR) >= LVL_IMMORT)
-  {
+  if (GET_LEVEL(PREFEDIT_GET_CHAR) >= LVL_IMMORT) {
     sprintf(syslog_string, "%s", multi_types[((PREFEDIT_FLAGGED(PRF_LOG1) ? 1 : 0)+ (PREFEDIT_FLAGGED(PRF_LOG2) ? 2 : 0))] );
 
     send_to_char(d->character, "\r\n"
-                               "%sImmortal Preferences\r\n"
-                               "%s1%s) Syslog Level %s[%s%8s%s]   %s4%s) ClsOLC    %s[%s%3s%s]\r\n"
-                               "%s2%s) Show Flags   %s[%s%3s%s]        %s5%s) No WizNet %s[%s%3s%s]\r\n"
-                               "%s3%s) No Hassle    %s[%s%3s%s]        %s6%s) Holylight %s[%s%3s%s]\r\n",
+      "%sImmortal Preferences\r\n"
+      "%s1%s) Syslog Level %s[%s%8s%s]   %s4%s) ClsOLC    %s[%s%3s%s]\r\n"
+      "%s2%s) Show Flags   %s[%s%3s%s]        %s5%s) No WizNet %s[%s%3s%s]\r\n"
+      "%s3%s) No Hassle    %s[%s%3s%s]        %s6%s) Holylight %s[%s%3s%s]\r\n",
              CBWHT(d->character, C_NRM),
 /* Line 1 - syslog and clsolc */
              CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), CCYEL(d->character, C_NRM),
@@ -167,17 +157,10 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
              ONOFF(PREFEDIT_FLAGGED(PRF_ZONERESETS)), CCCYN(d->character, C_NRM));
   }
 
-/* Finishing Off */
-  send_to_char(d->character, "\r\n"
-                             "%sD%s) Restore all default values\r\n"
-                             "%sQ%s) Quit\r\n"
-                             "\r\n",
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM)
-             );
-
-
-  /* Bottom of the menu */
+  send_to_char(d->character, "\nmenu[toggle]:%s\r"
+    "\nmenu[restore defaults]:D\r"
+    "\nmenu[quit]:Q\r"
+  );
 
   OLC_MODE(d) = PREFEDIT_MAIN_MENU;
 }
