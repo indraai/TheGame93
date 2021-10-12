@@ -205,9 +205,8 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
         }
 
     /* When looking in room, hide objects starting with '.', except for holylight */
-    if (num > 0 && (mode != SHOW_OBJ_LONG || *display->description != '.' ||
-        (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
-      send_to_char(ch, "\n%s\r", display->short_description);
+    if (num > 0 && (mode != SHOW_OBJ_LONG || (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
+      send_to_char(ch, "\nobject:%s\r", display->short_description);
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
@@ -316,10 +315,11 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
     act("$n is using...", FALSE, i, 0, ch, TO_VICT);
     for (j = 0; j < NUM_WEARS; j++)
       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
-	      send_to_char(ch, "\n%s\r", wear_where[j]);
+	      send_to_char(ch, "\nobject:%s\r", wear_where[j]);
 	      show_obj_to_char(GET_EQ(i, j), ch, SHOW_OBJ_SHORT);
       }
   }
+  // todo: look at fixing this code better
   if (ch != i && (IS_AIRFORCE(ch) || GET_LEVEL(ch) >= LVL_IMMORT)) {
     act("You look at $s inventory...", FALSE, i, 0, ch, TO_VICT);
     list_obj_to_char(i->carrying, ch, SHOW_OBJ_SHORT, TRUE);
