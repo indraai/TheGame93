@@ -207,7 +207,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG || *display->description != '.' ||
         (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))) {
-      send_to_char(ch, "\nobject: %s\r", display->short_description);
+      send_to_char(ch, "\n%s\r", display->short_description);
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
@@ -216,7 +216,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     }
   }
   if (!found && show)
-    send_to_char(ch, "\ninform:Nothing.\r");
+    send_to_char(ch, "\nNothing.\r");
 }
 static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
 {
@@ -653,8 +653,9 @@ static void look_in_obj(struct char_data *ch, char *arg)
 	list_obj_to_char(obj->contains, ch, SHOW_OBJ_SHORT, TRUE);
       }
     } else {		/* item must be a fountain or drink container */
-      if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1))
-	send_to_char(ch, "\ninform:It is empty.\r");
+      if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1)) {
+        send_to_char(ch, "\ninform:It is empty.\r");
+      }
       else {
         if (GET_OBJ_VAL(obj, 0) < 0)
         {
@@ -662,14 +663,15 @@ static void look_in_obj(struct char_data *ch, char *arg)
           sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
           send_to_char(ch, "\ninform:It's full of a %s liquid.\r", buf2);
         }
-	else if (GET_OBJ_VAL(obj,1)>GET_OBJ_VAL(obj,0))
+	      else if (GET_OBJ_VAL(obj,1)>GET_OBJ_VAL(obj,0)) {
           send_to_char(ch, "\ninform:Its contents seem somewhat murky.\r"); /* BUG */
+        }
         else {
           char buf2[MAX_STRING_LENGTH];
-	  amt = (GET_OBJ_VAL(obj, 1) * 3) / GET_OBJ_VAL(obj, 0);
-	  sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-	  send_to_char(ch, "\ninform:It's %sfull of a %s liquid.\r", fullness[amt], buf2);
-	}
+	        amt = (GET_OBJ_VAL(obj, 1) * 3) / GET_OBJ_VAL(obj, 0);
+	        sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
+	        send_to_char(ch, "\ninform:It's %sfull of a %s liquid.\r", fullness[amt], buf2);
+        }
       }
     }
   }
