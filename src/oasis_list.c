@@ -644,7 +644,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
         mob_proto[i].player.short_descr
       );
 
-      //if (len > sizeof(buf)) break;
+      if (len > sizeof(buf)) break;
     }
   }
 
