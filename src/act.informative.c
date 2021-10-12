@@ -897,18 +897,20 @@ ACMD(do_score)
 
   send_to_char(ch, "\nname: %s\r"
     "\nage: %dyrs\r"
-    "\ngold: %d\r"
-    "\nlevel: %d\r"
+    "\nservice: %s\r"
     "\nrank: %s\r"
+    "\nlevel: %d\r"
+    "\nexp: %d\r"
     "\nalign:%d\r"
-    "\nexp: %d\r",
+    "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    GET_GOLD(ch),
-    GET_LEVEL(ch),
+    GET_CLASS(ch),
     GET_TITLE(ch),
+    GET_LEVEL(ch),
+    GET_EXP(ch),
     GET_ALIGNMENT(ch),
-    GET_EXP(ch)
+    GET_GOLD(ch)
   );
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
