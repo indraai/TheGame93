@@ -888,12 +888,24 @@ ACMD(do_gold)
 ACMD(do_score)
 {
   struct time_info_data playing_time;
-
+  char *serv;
   if (IS_NPC(ch))
     return;
 
-  if (age(ch)->month == 0 && age(ch)->day == 0)
+  if (age(ch)->month == 0 && age(ch)->day == 0) {
     send_to_char(ch, "\ninform:It's your birthday.\r");
+  }
+
+  switch (GET_GENDER(ch)) {
+    case GENDER_FEMALE:
+      serv = title_female(GET_CLASS(ch), GET_LEVEL(ch)));
+      break;
+    case GENDER_MALE:
+    case GENDER_NEUTRAL:
+    default:
+      serv = title_male(GET_CLASS(ch), GET_LEVEL(ch));
+      break;
+  }
 
   send_to_char(ch, "\nname: %s\r"
     "\nage: %dyrs\r"
@@ -905,7 +917,7 @@ ACMD(do_score)
     "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    GET_CLASS(ch),
+    serv,
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),
