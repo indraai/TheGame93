@@ -897,7 +897,7 @@ ACMD(do_score)
 
   send_to_char(ch, "\nname: %s\r"
     "\nage: %dyrs\r"
-    "\nservice: %s\r"
+    "\nservice: %d\r"
     "\nrank: %s\r"
     "\nlevel: %d\r"
     "\nexp: %d\r"
@@ -905,7 +905,7 @@ ACMD(do_score)
     "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    CLASS_ABBR(ch),
+    GET_CLASS(ch),
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),
