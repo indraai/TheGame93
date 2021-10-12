@@ -515,21 +515,18 @@ throughout the city and is revered almost as much as the Devas.
 8 8 1
 E
 #139
-alley cat~
-the alley cat~
-An ugly white cat with dirty matted hair is pawing through the garbage.
+kibo james parry 1337~
+James Parry (kibo)~
+James Parry (kibo) is here.
 ~
-   The cat has been missing a few meals from the look of its tightly drawn skin
-around its ribcage.  The cat is filthy and needs a good hosing down.  It is
-extremely wary of you and shies away at your approach.
+talk:#adventure view:thegame:agent 0139/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2136 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 0
+8 8 1
 BareHandAttack: 8
 E
-T 149
 #140
 joe lavery covenant~
 Joe Lavery~
@@ -660,19 +657,22 @@ The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy 
 8 8 1
 E
 #150
-mangy mutt~
-the mangy mutt~
+Dave Dogruel (xibo)~
+Dave Dogruel (xibo) is here.~
 A mangy mutt is looking for some scraps to eat.
 ~
-   This dog does not look very healthy.  It almost looks rabid, better keep
-your distance.  It notices you looking at it and trots towards you hoping for
-some handouts, its tail wagging.
+talk:#adventure view:thegame:agent 0150/look
 ~
-10 0 0 0 0 0 0 0 0 E
+2200 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 0
+8 8 1
 BareHandAttack: 4
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #151
 midwife~
