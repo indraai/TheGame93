@@ -2068,19 +2068,15 @@ eval speech %speech%
 say %speech%
 ~
 #189
-Mob Quest Example Load 8ball - 22~
+Load 8ball - 98~
 2 g 100
 ~
-* By Rumble of The Builder Academy    tbamud.com 9091
-* Check if the 8ball is already in the room. If not load it.
-* I know this only checks the first item in the room, I don't really care. KISS
 if %self.contents.vnum% != 47
-  %load% obj 47
+  %load% obj 47 %actor% inv
 end
 wait 2 sec
-%echoaround% %actor% A magic eight ball drops from the sky striking %actor.name% on the head.
-%send% %actor% A magic eight ball drops from the sky striking you on the head.
-%damage% %actor% %random.5%
+%echoaround% %actor% A magic eight ball drops from for %actor.name%.
+%send% %actor% A magic eight ball drops for you.
 ~
 #190
 Mob Quest Tutorial Example Quest completion - 25~
