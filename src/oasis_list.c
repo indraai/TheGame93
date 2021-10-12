@@ -639,7 +639,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
     if (mob_index[i].vnum >= bottom && mob_index[i].vnum <= top) {
       counter++;
 
-      len += snprintf(buf + len, sizeof(buf) - len, "\n%d%: %s\r",
+      len += snprintf(buf + len, sizeof(buf) - len, "\n%d: %s\r",
         mob_index[i].vnum,
         mob_proto[i].player.short_descr
       );
