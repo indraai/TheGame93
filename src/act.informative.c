@@ -898,7 +898,7 @@ ACMD(do_score)
 
   switch (GET_GENDER(ch)) {
     case GENDER_FEMALE:
-      serv = title_female(GET_CLASS(ch), GET_LEVEL(ch)));
+      serv = title_female(GET_CLASS(ch), GET_LEVEL(ch));
       break;
     case GENDER_MALE:
     case GENDER_NEUTRAL:
