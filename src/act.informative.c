@@ -941,77 +941,77 @@ ACMD(do_score)
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\nplayer:You are knocked out\r");
+    send_to_char(ch, "\npos:You are knocked out\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\nplayer:You are wounded\r");
+    send_to_char(ch, "\npos:You are wounded\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\nplayer:Incapacitated\r");
+    send_to_char(ch, "\npos:Incapacitated\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\nplayer:Stunned\r");
+    send_to_char(ch, "\npos:Stunned\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nplayer:Sleeping\r");
+    send_to_char(ch, "\npos:Sleeping\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nplayer:Resting\r");
+    send_to_char(ch, "\npos:Resting\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\nplayer:Sitting\r");
+      send_to_char(ch, "\npos:Sitting\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\nplayer:Sitting on %s\r", furniture->short_description);
+      send_to_char(ch, "\npos:Sitting on %s\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nplayer:Fighting %s\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\npos:Fighting %s\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\nplayer:Standing\r");
+    send_to_char(ch, "\npos:Standing\r");
     break;
   default:
-    send_to_char(ch, "\nplayer:Floating\r");
+    send_to_char(ch, "\npos:Floating\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\nplayer:Drunk\r");
+    send_to_char(ch, "\ncond:Drunk\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\nplayer:Hungry\r");
+    send_to_char(ch, "\ncond:Hungry\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\nplayer:Thirsty\r");
+    send_to_char(ch, "\ncond:Thirsty\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nplayer:Blind\r");
+    send_to_char(ch, "\naff:Blind\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\nplayer:Invisible\r");
+    send_to_char(ch, "\naff:Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\nplayer:Detect Invisible\r");
+    send_to_char(ch, "\naff:Detect Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\nplayer:Sanctuary\r");
+    send_to_char(ch, "\naff:Sanctuary\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "\nplayer:Poisoned\r");
+    send_to_char(ch, "\naffr:Poisoned\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\nplayer:Charmed.\r");
+    send_to_char(ch, "\naff:Charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\nplayer:Protected.\r");
+    send_to_char(ch, "\naff:Protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\nplayer:Infra-Vision\r");
+    send_to_char(ch, "\naff:Infra-Vision\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nplayer:Summoned.\r");
+    send_to_char(ch, "\nprf:Summoned.\r");
 
   /*
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
