@@ -212,7 +212,7 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nselect[5:arguments]:%s\r"
   "\nselect[6:commands]: set...\r"
   "\n::BEGIN:CODE\r"
-  "\n%s\n"
+  "\n%s\r"
   "\n::END:CODE\r"
   "\nmenu[copy trigger]:p\r"
   "\nmenu[quit]:0\r",

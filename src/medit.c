@@ -700,7 +700,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'a':  /* Edit level */
       OLC_MODE(d) = MEDIT_LEVEL;
       write_to_output(d, "\nSet Agent level... (1 to 33)\r"
-        "current:%d",
+        "\ncurrent:%d\r",
         GET_LEVEL(OLC_MOB(d))
       );
       return;
