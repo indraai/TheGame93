@@ -572,10 +572,10 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       );
   }
 
-  /* autoexits
+  /* autoexits */
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
     do_auto_exits(ch);
-  */
+
   /* now list characters & objects */
   list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
   list_char_to_char(world[IN_ROOM(ch)].people, ch);
