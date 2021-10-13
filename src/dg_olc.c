@@ -252,7 +252,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Attach\r");
   for (i = 0; i < NUM_TRIG_TYPE_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]%d",
+    write_to_output(d, "\nmenu[%s]:%d\r",
       types[i],
       i + 1
     );
@@ -277,21 +277,21 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            if (!GET_TRIG_TYPE(OLC_TRIG(d))) {
              write_to_output(d, "\nInvalid Trigger Type! Answer a to abort quit!\r");
            }
-           write_to_output(d, "%s", confirm_msg);
+           write_to_output(d, "\n%s\r", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
            cleanup_olc(d, CLEANUP_ALL);
          return;
        case '1':
          OLC_MODE(d) = TRIGEDIT_NAME;
-         write_to_output(d, "What is the trigger name?");
+         write_to_output(d, "\nWhat is the trigger name?\r");
          break;
        case '2':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
          write_to_output(d, "## Attach"
-          "\nmenu:0:mobiles\r"
-          "\nmenu:1:objects\r"
-          "\nmenu:2:rooms\r");
+          "\nmenu[mobiles]:0\r"
+          "\nmenu[objects]:1\r"
+          "\nmenu[rooms]:2\r");
          break;
        case '3':
          OLC_MODE(d) = TRIGEDIT_TYPES;
@@ -299,11 +299,11 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          break;
        case '4':
          OLC_MODE(d) = TRIGEDIT_NARG;
-         write_to_output(d, "What is the numeric argument?");
+         write_to_output(d, "\nWhat is the numeric argument?\r");
          break;
        case '5':
          OLC_MODE(d) = TRIGEDIT_ARGUMENT;
-         write_to_output(d, "What is the trigger argument?");
+         write_to_output(d, "\nWhat is the trigger argument?\r");
          break;
        case '6':
          OLC_MODE(d) = TRIGEDIT_COMMANDS;
@@ -321,7 +321,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
 
          break;
        case 'p':
-         write_to_output(d, "Copy what trigger? ");
+         write_to_output(d, "\nCopy what trigger?\r");
          OLC_MODE(d) = TRIGEDIT_COPY;
          break;
        default:
@@ -738,7 +738,7 @@ void dg_script_menu(struct descriptor_data *d)
       trig_index[real_trigger(editscript->vnum)]->proto->name);
 
     if (trig_index[real_trigger(editscript->vnum)]->proto->attach_type != OLC_ITEM_TYPE(d))
-      write_to_output(d, "\n** Mis-matched Trigger Type **\r\n");
+      write_to_output(d, "\nMis-matched Trigger Type.\r");
     /*
     else
       write_to_output(d, "\r\n");
@@ -876,7 +876,7 @@ int format_script(struct descriptor_data *d)
     } else if (!strn_cmp(t, "end", 3) ||
                !strn_cmp(t, "done", 4)) {
       if (!indent) {
-        write_to_output(d, "Unmatched 'end' or 'done' (line %d)!\r\n", line_num);
+        write_to_output(d, "\nUnmatched 'end' or 'done' (line %d)!\r", line_num);
         free(sc);
         return FALSE;
       }
@@ -884,7 +884,7 @@ int format_script(struct descriptor_data *d)
       indent_next = FALSE;
     } else if (!strn_cmp(t, "else", 4)) {
       if (!indent) {
-        write_to_output(d, "Unmatched 'else' (line %d)!\r\n", line_num);
+        write_to_output(d, "\nUnmatched 'else' (line %d)!\r", line_num);
         free(sc);
         return FALSE;
       }
@@ -893,7 +893,7 @@ int format_script(struct descriptor_data *d)
     } else if (!strn_cmp(t, "case", 4) ||
                !strn_cmp(t, "default", 7)) {
       if (!indent) {
-        write_to_output(d, "Case/default outside switch (line %d)!\r\n", line_num);
+        write_to_output(d, "\nCase/default outside switch (line %d)!\r", line_num);
         free(sc);
         return FALSE;
       }
@@ -902,7 +902,7 @@ int format_script(struct descriptor_data *d)
       found_case = TRUE;
     } else if (!strn_cmp(t, "break", 5)) {
       if (!found_case || !indent ) {
-        write_to_output(d, "Break not in case (line %d)!\r\n", line_num);
+        write_to_output(d, "\nBreak not in case (line %d)!\r", line_num);
         free(sc);
         return FALSE;
       }
@@ -919,7 +919,7 @@ int format_script(struct descriptor_data *d)
     ret = snprintf(line + nlen, sizeof(line) - nlen, "%s\r\n", t);
     llen = (size_t)ret;
     if (ret < 0 || llen + nlen + len > d->max_str - 1 ) {
-      write_to_output(d, "String too long, formatting aborted\r\n");
+      write_to_output(d, "\nString too long, formatting aborted\r");
       free(sc);
       return FALSE;
     }
@@ -934,7 +934,7 @@ int format_script(struct descriptor_data *d)
   }
 
   if (indent)
-    write_to_output(d, "Unmatched if, while or switch ignored.\r\n");
+    write_to_output(d, "\nUnmatched if, while or switch ignored.\r");
 
   free(*d->str);
   *d->str = strdup(nsc);
