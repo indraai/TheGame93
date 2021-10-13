@@ -655,7 +655,6 @@ static void oedit_disp_menu(struct descriptor_data *d)
   /* Build first half of menu. */
   write_to_output(d,
     "\n# Object: %d\r"
-	  "\n-\n"
     "\n## Details\r"
 	  "\nselect[1:keywords]:%s\r"
 	  "\nselect[2:name]:%s\r"

@@ -205,7 +205,6 @@ static void trigedit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Trigger %d\r"
-  "\n-\n"
   "\nselect[1:name]:%s\r"
   "\nselect[2:attach]:%s\r"
   "\nselect[3:types]:%s\r"
