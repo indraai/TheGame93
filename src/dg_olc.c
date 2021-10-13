@@ -230,7 +230,7 @@ static void trigedit_disp_menu(struct descriptor_data *d)
 
 static void trigedit_disp_types(struct descriptor_data *d)
 {
-  int i, columns = 0;
+  int i;
   const char **types;
   char bitbuf[MAX_STRING_LENGTH];
 
