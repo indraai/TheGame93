@@ -154,7 +154,10 @@ O 1 94 99 103 	(the monks board)
 R 0 110 95 -1 	(the thieves board)
 O 1 95 99 110 	(the thieves board)
 
-O 0 251 1 100 	(a marble fountain)
+R 0 100 251 -1 	(a marble fountain)
+O 0 251 2 100 	(a marble fountain)
+R 0 100 251 -1 	(a marble fountain)
+O 0 251 2 100 	(a marble fountain)
 
 S
 $
