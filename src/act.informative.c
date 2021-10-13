@@ -205,7 +205,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
         }
 
     /* When looking in room, hide objects starting with '.', except for holylight */
-    if (num > 0 && num < 2 && (mode != SHOW_OBJ_LONG)) {
+    if (num == 1 && (mode != SHOW_OBJ_LONG)) {
       send_to_char(ch, "\nobject:%s\r", display->short_description);
       show_obj_to_char(display, ch, mode);
       // if (num != 1)
