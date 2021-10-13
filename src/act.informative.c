@@ -330,15 +330,15 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 {
   struct obj_data *furniture;
   const char *positions[] = {
-    " is lying here, spawn.",
-    " is lying here, wounded.",
-    " is lying here, incapacitated.",
-    " is lying here, stunned.",
-    " is sleeping here.",
-    " is resting here.",
-    " is sitting here.",
+    " is awaiting re=spawn.",
+    " is wounded.",
+    " is incapacitated.",
+    " is stunned.",
+    " is sleeping.",
+    " is resting.",
+    " is sitting.",
     "!FIGHTING!",
-    " is standing here."
+    " is standing."
   };
 
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS)) {
@@ -353,39 +353,36 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
   }
 
   if (GROUP(i)) {
-    if (GROUP(i) == GROUP(ch))
-      send_to_char(ch, "(%s%s%s) ",
-        CBGRN(ch, C_NRM),
-	      GROUP_LEADER(GROUP(i)) == i ? "leader" : "group",
-        CCNRM(ch, C_NRM));
-    else
-      send_to_char(ch, "(%s%s%s) ",
-        CBRED(ch, C_NRM),
-        GROUP_LEADER(GROUP(i)) == i ? "leader" : "group",
-	      CCNRM(ch, C_NRM));
+    send_to_char(ch, "(%s) ",
+      GROUP_LEADER(GROUP(i)) == i ? "leader" : "group"
+    );
   }
 
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
     send_to_char(ch, "\nagent: ");
-    if (AFF_FLAGGED(i, AFF_INVISIBLE))
-      send_to_char(ch, "*");
+
+    /*
+    if (AFF_FLAGGED(i, AFF_INVISIBLE)) send_to_char(ch, "*");
 
     if (AFF_FLAGGED(ch, AFF_DETECT_ALIGN)) {
       if (IS_EVIL(i)) {
-        send_to_char(ch, "(Red Aura) ");
+        send_to_char(ch, "G ");
       }
       else if (IS_GOOD(i)) {
-        send_to_char(ch, "(Blue Aura) ");
+        send_to_char(ch, "E ");
       }
     }
-    send_to_char(ch, "%s", i->player.long_descr);
+    */
+    send_to_char(ch, "\nagent:%s\r", i->player.long_descr);
 
+    /*
     if (AFF_FLAGGED(i, AFF_SANCTUARY))
       act("...$e is glowing!", FALSE, i, 0, ch, TO_VICT);
     if (AFF_FLAGGED(i, AFF_BLIND) && GET_LEVEL(i) < LVL_IMMORT)
       act("...$e is blind!", FALSE, i, 0, ch, TO_VICT);
 
     send_to_char(ch, "\r");
+    */
     return;
   }
 
