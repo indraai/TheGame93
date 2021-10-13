@@ -205,7 +205,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
         }
 
     /* When looking in room, hide objects starting with '.', except for holylight */
-    if (num > 0 && (mode != SHOW_OBJ_LONG)) {
+    if (num > 0 && num < 2 && (mode != SHOW_OBJ_LONG)) {
       send_to_char(ch, "\nobject:%s\r", display->short_description);
       show_obj_to_char(display, ch, mode);
       // if (num != 1)
@@ -572,10 +572,10 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       );
   }
 
-  /* autoexits */
+  /* autoexits
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
     do_auto_exits(ch);
-
+  */
   /* now list characters & objects */
   list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
   list_char_to_char(world[IN_ROOM(ch)].people, ch);
