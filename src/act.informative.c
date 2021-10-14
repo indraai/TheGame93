@@ -537,6 +537,15 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     send_to_char(ch, "\ninform:You appear to be blind.\r");
     return;
   }
+
+  /* now list characters & objects */
+  send_to_char(ch, "\n## Agents\r");
+  list_char_to_char(world[IN_ROOM(ch)].people, ch);
+
+  send_to_char(ch, "\n## Objects\r");
+  list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
+  send_to_char(ch, "\n-\n");
+
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS)) {
     char buf[MAX_STRING_LENGTH];
 
@@ -551,30 +560,29 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       send_to_char(ch, "]");
     }
   }
-  else
+  else {
     /* send room title */
-  if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief || ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
-    if(!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOMAP) && can_see_map(ch))
+    if ((!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_BRIEF)) || ignore_brief || ROOM_FLAGGED(IN_ROOM(ch), ROOM_DEATH)) {
+      if(!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOMAP) && can_see_map(ch)) {
         str_and_map(world[target_room].description, ch, target_room);
-    else
-      /* send the room description */
-      send_to_char(ch, "\n# %s\r"
-        "\ntalk:#adventure view:thegame:world %d/main\r"
-        "\nroom:%d\r",
-        world[IN_ROOM(ch)].name,
-        // world[target_room].description,
-        GET_ROOM_VNUM(IN_ROOM(ch)),
-        GET_ROOM_VNUM(IN_ROOM(ch))
-      );
+      }
+      else {
+        /* send the room description */
+        send_to_char(ch, "\n# %s\r"
+          "\ntalk:#adventure view:thegame:world %d/main\r"
+          "\nroom:%d\r",
+          world[IN_ROOM(ch)].name,
+          // world[target_room].description,
+          GET_ROOM_VNUM(IN_ROOM(ch)),
+          GET_ROOM_VNUM(IN_ROOM(ch))
+        );
+      }
+    }
   }
-
   /* autoexits */
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
     do_auto_exits(ch);
 
-  /* now list characters & objects */
-  list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
-  list_char_to_char(world[IN_ROOM(ch)].people, ch);
 }
 
 static void look_in_direction(struct char_data *ch, int dir)
