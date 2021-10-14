@@ -195,7 +195,7 @@ talk:#adventure view:thegame:agent 0115/look~
 2074 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 0 1
+8 8 1
 BareHandAttack: 8
 SavingPara: 2
 SavingRod: 2
@@ -965,7 +965,6 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
-T 100
 #179
 private arjika arjikiya a0178 army z1~
 Arjika Private~
