@@ -155,10 +155,11 @@ set msg[75] The #imagination is the goal of history.
 set msg[76] It is only with the heart that one can see rightly. What is essential is invisible to the eye.
 set msg[77] It is the time you have wasted for your rose that makes your rose so important.
 
-eval themsg %%msg[%random.77%]%% #R%room.vnum%
-say %themsg%
-wait %random.30% s
-%random.dir%
+while %actor.is_pc%
+  eval themsg %%msg[%random.91%]%% #R%room.vnum%
+  say %themsg%
+  wait 60 sec
+end
 ~
 #3
 PM2013~
@@ -280,10 +281,11 @@ set msg[111] For history is nothing more than His Story. And He is Anonymous.
 set msg[112] Everyone who has read this, and understands the truth of what it says, has been promoted from Rat to Rabbit.
 set msg[113] Dare to plant the seeds of something beautiful, cultivate the field, fertilize the soil, and be prepared to reap the harvest of the fruits of your labor.
 
-eval themsg %%msg[%random.113%]%% #R%room.vnum%
-say %themsg%
-wait %random.30% s
-%random.dir%
+while %actor.is_pc%
+  eval themsg %%msg[%random.91%]%% #R%room.vnum%
+  say %themsg%
+  wait 60 sec
+end
 ~
 #4
 TheGame23~
@@ -383,10 +385,11 @@ set msg[89] Early adopters might be rewarded best.
 set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
 set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
 
-eval themsg %%msg[%random.91%]%% #R%room.vnum%
-say %themsg%
-wait %random.30% s
-%random.dir%
+while %actor.is_pc%
+  eval themsg %%msg[%random.91%]%% #R%room.vnum%
+  say %themsg%
+  wait 60 sec
+end
 ~
 #5
 PM2020~
@@ -416,10 +419,11 @@ set msg[20] We were brought here to help others wake up, to help others to be ac
 set msg[21] We will do our outmost greatest to accomplish this goal, using our special gifts that have been given to us.
 set msg[22] Every human being is born with these gifts, we have been blessed to be aware of them.
 
-eval themsg %%msg[%random.22%]%% #R%room.vnum%
-say %themsg%
-wait %random.30% s
-%random.dir%
+while %actor.is_pc%
+  eval themsg %%msg[%random.91%]%% #R%room.vnum%
+  say %themsg%
+  wait 60 sec
+end
 ~
 #6
 ethersec~
@@ -485,11 +489,11 @@ set msg[56] WE ARE AWARE THAT WE AT TIMES RISK OUR LIVES TO PROVIDE A MESSAGE WH
 set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CANNONS OF WHICH YOU CANNOT CONCEIVE.
 set msg[58] Would you like to know more? You know what to do.
 
-eval themsg %%msg[%random.58%]%% #R%room.vnum%
-wait 1 ss
-say %themsg%
-wait %random.30% s
-%random.dir%
+while %actor.is_pc%
+  eval themsg %%msg[%random.91%]%% #R%room.vnum%
+  say %themsg%
+  wait 60 sec
+end
 ~
 #17
 TBA Magic Eight Ball Check - 26~
