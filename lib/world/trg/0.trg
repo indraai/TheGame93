@@ -286,102 +286,11 @@ TheGame23~
 0 bg 50
 ~
 set room %self.room%
-set msg[1] All identities are fake and the theater of operations is a simulated planet on top of a computer hypersimulation that creates #REALITY.
-set msg[2] In any case, dear readers, please don't take it too seriously. It's only a story.
-set msg[3] The truth is that I'm extremely exhausted after having given the 108% of my soul when writing this.
-set msg[4] I would only expect that if any readers begin to wonder what would happen if they decided to begin to play #TheGame23
-set msg[5] Art is now the only evolutionary-revolutionary power.
-set msg[6] Hi #HIVEMIND I'm #Tyler Please start to run these #TASKS. nao.
-set msg[7] #CTF007 = #PROTECTKILLSWITCH becomes #HIVEMIND #PRIORITY1
-set msg[8] #HIVEMIND c0de #TYLER
-set msg[9] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
-set msg[10] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human #knowledge AND #RESOURCES #PRIORITY3
-set msg[11] #HIVEMIND broadcast #EVERYHOUR on #EVERYRADIOSTATION and #EVERYTVSTATION #WORLDWIDE
-set msg[12] Once upon a time, in a land far, far away...
-set msg[13] Everything you can imagine is real.
-set msg[14] Of course I'm crazy, but that doesn't mean I'm wrong.
-set msg[15] If you think you know what the hell is going on, you're probably full of shit.
-set msg[16] On a planet that increasingly resembles a maximum #security prison, the only choice is to plan a #JAILBREAK
-set msg[17] The future is up for grabs. It belongs to any and all who will take the risk consciously creating it.
-set msg[18] There are periods of history when madmen and dope fiends are a better guide to reality than the common-sense interpretation of the normal mind.
-set msg[19] The A∴A∴ must rank as the most secretive secret society in the world.
-set msg[20] Not even the few writers who have discussed it, which group claiming to be the A∴A∴ at present is the real A∴A∴
-set msg[21] Conspiracy is just another name for coalition.
-set msg[22] The worst that can happen under monarchy is rule by a single imbecile.
-set msg[23] Democracy often means the rule by an assembly of three or four hundred imbeciles.
-set msg[24] Everybody who has ever worked for a corporation knows that corporations conspire all the time.
-set msg[25] You simply cannot invent any conspiracy theory so ridiculous and satirical that some people somewhere don't already believe it.
-set msg[26] In times of crisis, only #IMAGINATION is more important than #KNOWLEDGE
-set msg[27] 1337Hax0rs Worldwide UNITE to PLAY #TheGame23
-set msg[28] c0de The #HIVEMIND and to build a Cathedral and TOGETHER #UNFUCKTEHWORLD
-set msg[29] First they ignore you, then they laugh at you, then they fight you, then you win.
-set msg[30] If you hear a voice within you say 'you cannot paint, then by all means PAINT! and that voice will be silenced.
-set msg[31] Just play. Have fun. Enjoy the game.
-set msg[32] Project #Metahack Epic 0wnage ... #PWNing teh Metaverse #4dalulz
-set msg[33] Project #Metahack is dedicated to the loving memory of Aaron Swartz.
-set msg[34] Never doubt that a small group of thoughtful, committed citizens can change the world. It's the only thing that ever has.
-set msg[35] I am not a man. I'm dynamite.
-set msg[36] One of the most difficult tasks people can perform, is the invention of good games.
-set msg[37] You have to learn the rules of the game. And then you have to play better than anyone else.
-set msg[38] Be true to the game, because the game will be true to you.
-set msg[39] If you try to shortcut the game, then the game will shortcut you.
-set msg[40] If you put forth the effort, good things will be bestowed upon you.
-set msg[41] Programming is not a zero-sum game. Teaching something to a fellow programmer doesn't take it away from you.
-set msg[42] Man only plays when in the full meaning of the word he is a man, and he is only completely a man when he plays.
-set msg[43] You can discover more about a person in an hour of play than in a year of conversation.
-set msg[44] This is the real secret of life to be engaged with what you are doing in the here and now. Instead of calling it work, realize it is play.
-set msg[45] Humanity has advanced, when it has advanced because it has been playful, rebellious, and immature.
-set msg[46] It is a happy talent to know how to play.
-set msg[47] Individuals play the game, but teams win championships.
-set msg[48] We are never more fully alive, more completely ourselves, or more deeply engrossed in anything, than when we are at play.
-set msg[49] If you want creative workers, give them enough time to play.
-set msg[50] Genius is play, and many may achieve genius only through play.
-set msg[51] Life must be lived as play.
-set msg[52] My work is a game, a very serious game.
-set msg[53] There is no justice in following unjust laws. It’s time to come into the light.
-set msg[54] With enough of us, around the world, we’ll not just send a strong message — we’ll make it a thing of the past.
-set msg[55] The best tribute we can pay to Aaron’s legacy is to continue to fight to make this world a more just, fairer place.
-set msg[56] KEEP PROJECT MAYHEM ALIVE
-set msg[57] SHALL WE PLAY A GAME?
-set msg[58] A hacker is someone who enjoys playful cleverness, not necessarily with computers.
-set msg[59] They laugh at me because I'm different. I laugh at them because they're all the same.
-set msg[60] I am a metahacker, enter my world... Yes, I am a criminal.  My crime is that of curiosity.
-set msg[61] This is a completely new way of hacking.
-set msg[62] Reality hacking is any phenomenon that emerges from the nonviolent use of legally ambiguous digital tools in pursuit of truth.
-set msg[63] Democracy is broken.
-set msg[64] Hackers weakest and strongest point is PASSION
-set msg[65] Every society honors its live conformists and its dead troublemakers.
-set msg[66] Project Loki for the Mind
-set msg[67] Project Mayhem - based on Pr0j3ckt Mayhem
-set msg[68] Build a MERITOCRACY based system in the same spirit that CTFs are built.
-set msg[69] Let's build something bigger than the total sum of ourselves. Let's dare to hack the planet.
-set msg[70] It's in the interest of the hive that the most talented people command Spaceship Earth.
-set msg[71] The goal of #TheGame23 is to score the maximum amount of points.
-set msg[72] Points are #TheGame23 gold and they measure #skillz and overall the #CREATIVITY potential of a #player
-set msg[73] hax0r has absolutely nothing to do with "hacking" computers. a hax0r is MUCH more than that.
-set msg[74] Leonardo da Vinci, Helen Keller or Vincent Van Gogh were hax0rs in the truest sense of the word.
-set msg[75] *true* #hax0r - Someone who excells at #lulz, #imagination or #skills.
-set msg[76] *true* #hax0r - Someone who excells at CURIOSITY.
-set msg[77] *true* #hax0r - Someone who has a PASSION and follows it no matter what others say, think or do, to the point of madness.
-set msg[77] *true* #hax0r - Someone who #CREATES worlds that other people inhabit.
-set msg[78] *true* #hax0r - Someone who fights for The Good, The Beautiful and The Just.
-set msg[79] *true* #hax0r - Someone who shares for the love of sharing.
-set msg[80] *true* #hax0r - Someone who shines at mindfucking persons, systems, ideas and beliefs.
-set msg[81] *true* #hax0r - Someone who leaves the world a better place.
-set msg[82] *true* #hax0r - Someone who obsessively pursues a #TARGET and absolutely never never ever gives up.
-set msg[83] *true* #hax0r - Someone who does much with so little.
-set msg[84] #HIVEMIND #HACKTION #CTF03 #TheGame23
-set msg[85] #TheCathedral is #TheGame23 supreme goal.
-set msg[86] Not much can be said of this super-sekrit Project yet, #TheCathedral is *GUARANTEED* to be a plunder of #lulz
-set msg[87] Dare to be DIFFERENT, dare to walk the unwalked path.
-set msg[88] It only takes ONE single person to ACT.
-set msg[89] Early adopters might be rewarded best.
-set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
-set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
-while %actor.is_pc%
-  eval themsg %%msg[%random.91%]%% #R%room.vnum%
+set msg[1] Make sure to read the original #TheGame23 pastebin located at... https://j.mp/3CO3NXZ
+if %actor.is_pc%
+  eval themsg %%msg[%random.1%]%% #R%room.vnum%
+  wait 3 sec
   say %themsg%
-  wait 60 sec
 end
 ~
 #5
