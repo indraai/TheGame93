@@ -895,7 +895,7 @@ ACMD(do_score)
   struct time_info_data playing_time;
   const char *service;
 
-  siwtch (GET_CLASS(ch)) {
+  switch (GET_CLASS(ch)) {
     case CLASS_ARMY:
       service = "ARMY";
       break;
