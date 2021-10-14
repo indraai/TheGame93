@@ -1105,13 +1105,13 @@ talk:#adventure view:thegame:agent 0189/look~
 8 8 1
 E
 #190
-cat feline cats~
-the cat~
-A cat rubs up against your leg hoping for some food or affection.
+tyler pm2012 ideas 1337~
+Tyler (ideas)~
+0190/avatar
 ~
-A pure white long-haired pussycat.  The only color cat in the city since they are considered good luck.  All other cats are either served up for dinner or let loose outside the city.
+talk:#adventure view:thegame:agent 0190/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
