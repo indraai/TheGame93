@@ -895,20 +895,13 @@ ACMD(do_score)
   struct time_info_data playing_time;
   const char *asrv;
 
-  switch (GET_CLASS(ch)) {
-    case CLASS_ARMY:
-      asrv = "ARMY";
-      break;
-    case CLASS_NAVY:
-      asrv = "NAVY";
-      break;
-    case CLASS_AIRFORCE:
-      asrv = "USAF";
-      break;
-    case CLASS_MARINES:
-      asrv = "USMC";
-      break;
-  }
+  const char *mil_branches[] = {
+    "ARMY",
+    "NAVY",
+    "USAF",
+    "USMC"
+  };
+
   if (IS_NPC(ch))
     return;
 
@@ -926,7 +919,7 @@ ACMD(do_score)
     "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    asrv,
+    mil_branches[GET_CLASS(ch)],
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),
