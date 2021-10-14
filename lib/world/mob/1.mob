@@ -67,10 +67,8 @@ T 106
 #105
 mark petrakis spoonman 1337 spoonkids~
 Mark Petrakis (spoonman)~
-0105/avatar
-~
-talk:#adventure view:thegame:agent 105/look
-~
+0105/avatar~
+talk:#adventure view:thegame:agent 0105/look~
 2072 0 0 0 0 0 0 0 900 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -158,10 +156,8 @@ T 106
 #112
 elizabeth lapensee survivance covenant 1337~
 Elizabeth LaPensee (survivance)~
-0112/avatar
-~
-talk:#adventure view:thegame:agent 0112/look
-~
+0112/avatar~
+talk:#adventure view:thegame:agent 0112/look~
 2200 0 0 0 0 0 0 0 1000 E
 4 19 7 0d0+40 1d2+0
 40 1600
@@ -183,10 +179,8 @@ E
 #114
 terry cooksey man amiga 1337~
 Terry Cooksey (amiga)~
-0114/avatar
-~
-talk:#adventure view:thegame:agent 0114/look
-~
+0114/avatar~
+talk:#adventure view:thegame:agent 0114/look~
 2072 0 0 0 0 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
 70 4900
@@ -196,8 +190,7 @@ E
 #115
 eric hughes cypherpunk 1337 defcon~
 Eric Hughes (cypherpunk)~
-0115/avatar
-~
+0115/avatar~
 Eric Hughes is the author of the Cypherpunk Manifesto.
 ~
 2072 0 0 0 0 0 0 0 1000 E
@@ -214,10 +207,8 @@ E
 #116
 robert david steele steeler 1337~
 Robert Steele (steeler)~
-0116/avatar
-~
-Robert David Steele (July 16, 1952  August 29, 2021) was an American CIA officer and conspiracy theorist.
-~
+0116/avatar~
+talk:#adventure view:thegame:agent 0116/look~
 8 0 0 0 0 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -226,10 +217,8 @@ E
 #117
 trenton lavery covenant~
 TrentLavery~
-Trent Lavery is here.
-~
-talk:#adventure view:thegame:agent 0117/look
-~
+0117/avatar~
+talk:#adventure view:thegame:agent 0117/look~
 2202 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -240,10 +229,8 @@ T 161
 #118
 tabitha lavery bass covenant survivance 1337~
 Tabitha Lavery (tabby)~
-0118/avatar
-~
-talk:#adventure view:thegame:agent 0118/look
-~
+0118/avatar~
+talk:#adventure view:thegame:agent 0118/look~
 2202 0 0 0 0 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
@@ -253,10 +240,8 @@ E
 #119
 dewity mrdewity banker covenant 1337 boss~
 Mr. Dewity (boss)~
-Mr. Dewity (boss) is here.
-~
-talk:#adventure view:thegame:agent 0119/look
-~
+0119/avatar~
+talk:#adventure view:thegame:agent 0119/look~
 2074 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -266,8 +251,7 @@ T 106
 #120
 guildmaster master mage~
 Mage Guildmaster~
-Your guildmaster is meditating here.
-~
+0120/avatar~
 Even though your guildmaster looks old and tired, you can clearly see the vast amount of knowledge she possesses.  She is wearing fine magic clothing, and you notice that she is surrounded by a blue shimmering aura.
 ~
 59418 0 0 0 16 0 0 0 1000 E
@@ -278,8 +262,7 @@ E
 #121
 guildmaster master monk~
 the monk's guildmaster~
-Your guildmaster is meditating here.
-~
+0121/avatar~
 You are in no doubt that this guildmaster is truly close to the Devas; he has a peaceful, loving look.  You notice that he is surrounded by a white aura.
 ~
 59418 0 0 0 16 0 0 0 1000 E
@@ -290,8 +273,7 @@ E
 #122
 guildmaster master artist~
 Artist Guildmaster~
-Your guildmaster is hiding here.
-~
+0122/avatar~
 You realize that whenever your guildmaster moves, you fail to notice it - the way of the true thief.  He is dressed in the finest clothing, having the appearance of an ignorant fop.
 ~
 59418 0 0 0 16 0 0 0 1000 E
@@ -302,8 +284,7 @@ E
 #123
 guildmaster master hero~
 Hero Guildmaster~
-Your Guildmaster is sitting here sharpening a sword.
-~
+0123/avatar~
 This is your master.  Big and strong with bulging muscles.  Several scars across his body proves that he was using arms before you were born.  He has a calm look on his face.
 ~
 59418 0 0 0 16 0 0 0 1000 E
@@ -314,8 +295,7 @@ E
 #124
 fiona~
 Fiona~
-Fiona is stocking the shelves to overflowing with various foods.
-~
+0125/avatar~
 She is rather slim for someone running a grocery.  Remember that saying, never trust a skinny cook, you would think it would also apply here.  She smiles and looks friendly enough.  I guess if the rest of Arjika trusts
 her....
 ~
@@ -328,9 +308,8 @@ T 106
 #125
 young girl~
 the young girl~
-A young girl is playing with a little doll.
-~
-She is enthralled with reenacting a little skit of some sort where her doll is a powerful Magi and is fighting the evil Drakkar.  She is almost as filthy and ragged as the doll that she plays with.
+0125/avatar~
+A young girl is playing with a little doll. She is enthralled with reenacting a little skit of some sort where her doll is a powerful Magi and is fighting the evil Drakkar.  She is almost as filthy and ragged as the doll that she plays with.
 ~
 72 0 0 0 0 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
@@ -338,11 +317,10 @@ She is enthralled with reenacting a little skit of some sort where her doll is a
 8 8 2
 E
 #126
-assassin~
-assassin~
-An man dressed all in black stalks past you.
-~
-A hired sword, this guy specializes in the elimination of pests.  Of course his price is high, but many think it is well worth it.  Have someone you would rather see dead?  Just ask this guy for some help.
+spy arjika deva~
+The Spy~
+0126/avatar~
+An man dressed all in black stalks past you. A hired sword, this guy specializes in the elimination of pests.  Of course his price is high, but many think it is well worth it.  Have someone you would rather see dead?  Just ask this guy for some help.
 ~
 18520 0 0 0 524368 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -350,11 +328,10 @@ A hired sword, this guy specializes in the elimination of pests.  Of course his 
 8 8 1
 E
 #127
-healer~
-the healer~
-A healer in a white luminescent robe is tending to the wounded.
-~
-This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.  Type 'heal <spell>' to buy one of her spells.
+medic medicdeva deva d0127 z1~
+MedicDEVA~
+0127/avatar~
+A healer in a white luminescent robe is tending to the wounded. This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.  Type 'heal <spell>' to buy one of her spells.
 ~
 253962 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
@@ -364,9 +341,8 @@ E
 #128
 red magi~
 the Red Magi~
-A Red Magi watches you careful, as if you have done something wrong.
-~
-This man is obviously very competent in the magical arts or he would not stare at you so.  He is dressed in a long flowing red robe with the hood pulled down.  Various pouches hang from a red belt.
+0128/avatar~
+A Red Magi watches you careful, as if you have done something wrong. This man is obviously very competent in the magical arts or he would not stare at you so.  He is dressed in a long flowing red robe with the hood pulled down.  Various pouches hang from a red belt.
 ~
 2120 0 0 0 16 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -376,10 +352,8 @@ E
 #129
 the_ut stephen huntley watt 1337 mayhem~
 Stephen Watt (the_ut)~
-0129/avatar
-~
-talk:#adventure view:thegame:agent 0129/look
-~
+0129/avatar~
+talk:#adventure view:thegame:agent 0129/look~
 2072 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -394,10 +368,8 @@ E
 #130
 brenda laurel spoonkids covenant goddess 1337~
 Brenda Laurel (goddess)~
-0130/avatar
-~
-Brenda Laurel is here to spawn
-~
+0130/avatar~
+talk:#adventure view:thegame:agent 0130/look~
 65608 0 0 0 0 0 0 0 700 E
 8 18 5 1d1+80 1d2+1
 80 6400
@@ -406,10 +378,8 @@ E
 #131
 kent browne rloxley 1337~
 Kent Browne (rloxley)~
-0131/avatar
-~
-Hard to believe, but even in Arjika the underground activities of criminals is always present.  This large man lives off of the fortune of others by stealing whatever he needs.
-~
+0131/avatar~
+talk:#adventure view:thegame:agent 0131/look~
 4332 0 0 0 0 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
@@ -418,9 +388,8 @@ E
 #132
 butler~
 the butler~
-A butler bows says, 'good day sir' as he walks by with his nose in the air.
-~
-Dressed in black and white finery this man lives a decent life by serving others.  Not exactly the most prestigious job, but it seems to make him think that he is important.
+0131/avatar~
+A butler bows says, 'good day sir' as he walks by with his nose in the air. Dressed in black and white finery this man lives a decent life by serving others.  Not exactly the most prestigious job, but it seems to make him think that he is important.
 ~
 72 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -428,37 +397,33 @@ Dressed in black and white finery this man lives a decent life by serving others
 8 8 1
 E
 #133
-blue magi~
-the blue magi~
-A member of the blue magi floats past you.
-~
-   He seems to be out practicing.  He floats a good six inches off the ground
-and is slowly moving along.  What next?  Someone will probably fly past you.
-
+blue deva d0133 z1~
+BlueDEVA~
+0133/avatar~
+A member of the blue magi floats past you. He seems to be out practicing.  He floats a good six inches off the ground and is slowly moving along.  What next?  Someone will probably fly past you.
 ~
 72 0 0 0 0 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1
+8 8 0
 E
 #134
-red master magi~
-the Red Master Magi~
-A Master Magi is in deep contemplation of the universe.
-~
-The red robe signifies his order.  He is one of the five Master Magi alive today.  He holds himself with a dignity that astonishes even you.
+red deva prime d0134 z1~
+RedDEVA PRIME~
+0134/avatar~
+A Master Magi is in deep contemplation of the universe. The red robe signifies his order.  He is one of the five Master Magi alive today.  He holds himself with a dignity that astonishes even you.
 ~
 2058 0 0 0 16 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 0
 E
 #135
-blue magi master~
-the blue Master Magi~
-A man in a blue robe is studying a book intently.
+blue deva prime d0135 z1~
+BlueDEVA PRIME~
+0135/avatar
 ~
-The Master Magi before you is enthralled in the book he is reading.  He is oblivious to the world around him.
+A man in a blue robe is studying a book intently. The Master Magi before you is enthralled in the book he is reading.  He is oblivious to the world around him.
 ~
 72 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -466,41 +431,33 @@ The Master Magi before you is enthralled in the book he is reading.  He is obliv
 8 8 0
 E
 #136
-green master magi~
-the green Master Magi~
-The Master Magi of the green order dismisses you with a wave.
-~
-   A Master Magi is the highest ranking magi of each order.  Of the seven
-orders of the Magi only 5 have Master Magi's.  The orders of the purple and
-gray robe have yet to select a master magi as none of them are powerful enough.
-
+green deva prime d0136 z1~
+GreenDEVA PRIME~
+0136/avatar~
+The Master Magi of the green order dismisses you with a wave. A Master Magi is the highest ranking magi of each order.  Of the seven orders of the Magi only 5 have Master Magi's. The orders of the purple and gray robe have yet to select a master magi as none of them are powerful enough.
 ~
 72 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #137
-man black master magi~
-the Master Magi~
-A man in a black flowing robe is chanting something under his breath.
-~
-   The Master Magi of the black order.  This man should not be taken lightly.
-He has mastered the arts of his order and can call down upon his foes the power
+black prime deva d0137 z1~
+BlackDEVA PRIME~
+0137/avatar~
+A man in a black flowing robe is chanting something under his breath. The Master Magi of the black order.  This man should not be taken lightly. He has mastered the arts of his order and can call down upon his foes the power
 of the Devas.
 ~
 72 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 0
 E
 #138
-yellow master magi man~
-the yellow Master Magi~
-A Master Magi in a yellow robe strolls by.
-~
-   One of the seven orders of the Magi, This Master Magi is well known
-throughout the city and is revered almost as much as the Devas.
+yellow master magi d0138 z1~
+YellowDEVA PRIME~
+0138/avatar~
+A Master Magi in a yellow robe strolls by. One of the seven orders of the Magi, This Master Magi is well known throughout the city and is revered almost as much as the Devas.
 ~
 72 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -510,10 +467,8 @@ E
 #139
 kibo james parry 1337~
 James Parry (kibo)~
-0139/avatar
-~
-talk:#adventure view:thegame:agent 0139/look
-~
+0139/avatar~
+talk:#adventure view:thegame:agent 0139/look~
 2136 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
 40 1600
@@ -523,8 +478,7 @@ E
 #140
 joe lavery covenant~
 Joe Lavery~
-Joe Lavery is here.
-~
+0140/avatar~
 Joe Lavery lives with his daughter Tabitha and is the one who talks to Mr. Dewity.
 ~
 2202 0 0 0 0 0 0 0 900 E
@@ -535,8 +489,8 @@ BareHandAttack: 1
 E
 T 105
 #141
-arjika arjikiya corporal a141 z3~
-ArjikaCorporal~
+arjika arjikiya corporal army a0141 z1~
+Arjika Corporal~
 Arjika Corporal A141 is here.
 ~
 He looks very healthy and happy with his job.  His aspirations to become a war hero became a reality when he signed up for the army of Arjika.
@@ -547,13 +501,10 @@ He looks very healthy and happy with his job.  His aspirations to become a war h
 8 8 2
 E
 #142
-green magi~
-the green magi~
-A member of the green magi flies past, literally.
-~
-   Another magi out for some spell testing it seems.  They constantly expand
-their knowledge.  Seeking to invent some new spell to help restore the balance
-that Drakkar ruined.
+green deva d0142 z1~
+GreenDEVA~
+0142/avatar~
+A member of the green magi flies past, literally. Another magi out for some spell testing it seems.  They constantly expand their knowledge.  Seeking to invent some new spell to help restore the balance that Drakkar ruined.
 ~
 72 0 0 0 0 0 0 0 600 E
 13 16 2 2d2+130 2d2+2
@@ -563,11 +514,8 @@ E
 #143
 woman waitress~
 the waitress~
-A scantily clad waitress waits to fulfill your every need.
-~
-   She expertly works her way in between the tables and people balancing three
-pints of ale on a platter while skillfully avoiding the attempted slaps at her
-fine ass.
+0143/avatar~
+A scantily clad waitress waits to fulfill your every need. She expertly works her way in between the tables and people balancing three pints of ale on a platter while skillfully avoiding the attempted slaps at her fine ass.
 ~
 10 0 0 0 0 0 0 0 600 E
 7 18 5 1d1+70 1d2+1
@@ -575,11 +523,10 @@ fine ass.
 8 8 2
 E
 #144
-black magi~
-the black magi~
-A black magi walks past in a state of deep concentration.
-~
-One of the seven orders of the magi the black are known for their delving into the the more abstract forms of magic.  The other Magi will not even associate with them sometimes because of this.
+black deva blackdeva d0144 z1~
+BlackDEVA~
+0144/avatar~
+A black magi walks past in a state of deep concentration. One of the seven orders of the magi the black are known for their delving into the the more abstract forms of magic.  The other Magi will not even associate with them sometimes because of this.
 ~
 72 0 0 0 0 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
@@ -587,11 +534,10 @@ One of the seven orders of the magi the black are known for their delving into t
 8 8 1
 E
 #145
-yellow magi~
-the yellow magi~
-A yellow magi chants some arcane words and is suddenly standing behind you.
-~
-The magi are known for their experience with magic.  Many study decades to reach the title of Master Magi.  Very few actually make it.
+yellow deva yellowdeva d0145 z1~
+YellowDEVA~
+0145/avatar~
+A yellow magi chants some arcane words and is suddenly standing behind you. The magi are known for their experience with magic.  Many study decades to reach the title of Master Magi.  Very few actually make it.
 ~
 72 0 0 0 0 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
@@ -599,11 +545,10 @@ The magi are known for their experience with magic.  Many study decades to reach
 8 8 1
 E
 #146
-gray magi man~
-the gray magi~
-A man in a flowing gray robe is resting here.
-~
-He carries himself with a confidence that is almost frightening.  You realize he must be a magi.
+gray deva graydeva d0146 z1~
+GrayDEVA~
+0146/avatar~
+A man in a flowing gray robe is resting here. He carries himself with a confidence that is almost frightening.  You realize he must be a magi.
 ~
 72 0 0 0 16 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
@@ -613,9 +558,8 @@ E
 #147
 logan~
 Logan~
-Logan looks up with a wry grin on his face.
-~
-You are just another shopper to him, and he will squeeze every dollar out of you that you carry if your not careful.  He runs the town pawnshop.  Though the prices aren't great he carries a lot of equipment that cannot be found anywhere else.
+0147/avatar~
+Logan looks up with a wry grin on his face. You are just another shopper to him, and he will squeeze every dollar out of you that you carry if your not careful.  He runs the town pawnshop.  Though the prices aren't great he carries a lot of equipment that cannot be found anywhere else.
 ~
 253962 0 0 0 112 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -624,11 +568,10 @@ You are just another shopper to him, and he will squeeze every dollar out of you
 E
 T 106
 #148
-purple magi~
-the purple magi~
-A magi in a purple robe is making a fashion statement.
-~
-The robe just seems....  Loud.  That color purple can't be natural.  You dare not laugh or even smirk since you know they take offense to such things.
+purple deva purpledeva d0148 z1~
+PurpleDEVA~
+0148/avatar~
+A magi in a purple robe is making a fashion statement. The robe just seems....  Loud.  That color purple can't be natural.  You dare not laugh or even smirk since you know they take offense to such things.
 ~
 72 0 0 0 16 0 0 0 -400 E
 15 15 1 3d3+150 2d2+2
@@ -636,13 +579,12 @@ The robe just seems....  Loud.  That color purple can't be natural.  You dare no
 8 8 1
 E
 #149
-sergeant arjika arjikiya sergeant a149 z3~
-ArjikaSergeant~
-Arjika Sergeant A149 is here.
+sergeant arjika arjikiya sergeant army a0149 z3~
+Arjika Sergeant~
+0149/avatar~
+Arjika Sergeant A149 is here. The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals future.
 ~
-The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals future.
-~
-72 0 0 0 0 0 0 0 -400 E
+72 0 0 0 0 0 0 0 400 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1
@@ -650,11 +592,9 @@ E
 #150
 dave dogruel xibo 1337 angst~
 Dave Dogruel (xibo)~
-0150/avatar
-~
-talk:#adventure view:thegame:agent 0150/look
-~
-2200 0 0 0 0 0 0 0 0 E
+0150/avatar~
+talk:#adventure view:thegame:agent 0150/look~
+2200 0 0 0 0 0 0 0 -1000 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1
@@ -667,10 +607,9 @@ SavingSpell: 1
 E
 #151
 midwife~
-Midwife~
-A midwife is tidying up the house.
-~
-She looks rather old, touches of gray sprinkle her dark brown hair.  She must have once been very attractive, but not any longer.  She looks worn down and tired from her daily chores.
+The Midwife~
+0151/avatar~
+A midwife is tidying up the house. She looks rather old, touches of gray sprinkle her dark brown hair.  She must have once been very attractive, but not any longer.  She looks worn down and tired from her daily chores.
 ~
 4106 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -679,10 +618,9 @@ She looks rather old, touches of gray sprinkle her dark brown hair.  She must ha
 E
 #152
 newborn baby~
-Newborn Baby~
-A newborn baby is rocking peacefully in his crib.
-~
-   How cute, this little tyke can't be more than a few months old.  He is just
+The Baby~
+0152/avatar~
+A newborn baby is rocking peacefully in his crib. How cute, this little tyke can't be more than a few months old.  He is just
 starting to get some hair.  He looks up at you and giggles softly, expecting
 some attention.
 ~
@@ -694,10 +632,8 @@ E
 #153
 douglas rushkoff 1337 edge~
 Douglas Rushkoff (rushkoff)~
-0153/avatar
-~
-talk:#adventure view:thegame:agent 0153/look
-~
+0153/avatar~
+talk:#adventure view:thegame:agent 0153/look~
 2072 0 0 0 0 0 0 0 -200 E
 7 18 5 1d1+70 1d2+1
 70 4900
@@ -716,11 +652,10 @@ The patrolman keeps a keen eye out for any trouble and is quick to respond. Only
 8 8 1
 E
 #155
-war master arjika arjikiya warmaster a155 z3~
-ArjikaWarMaster~
-Arjika War Master A155 is here.
-~
-This one man is responsible for the protection of the entire city.  He is very old.  His hair a bright white and hanging below his shoulders.  Other than his hair he shows no signs of his age.  He is still built like an ogre and just about as evil tempered.
+arjika arjikiya colnel army a155 z3~
+Arjika Colnel~
+0155/avatar~
+Arjika Colnel A155 is here. This one man is responsible for the protection of the entire city.  He is very old.  His hair a bright white and hanging below his shoulders.  Other than his hair he shows no signs of his age.  He is still built like an ogre and just about as evil tempered.
 ~
 247818 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -746,10 +681,8 @@ T 128
 #157
 telecomix 1337 cameron~
 Cameron (telecomix)~
-0157/avatar
-~
-talk:#adventure view:thegame:agent 0157/look
-~
+0157/avatar~
+talk:#adventure view:thegame:agent 0157/look~
 2072 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -758,10 +691,8 @@ E
 #158
 sharon schamber~
 Sharon Schamber~
-0158/avatar
-~
-Cloth flies into her homemade spindle at such an alarming rate that you wonder how she could possibly keep up with it.  Maybe she uses some kind of magic to weave those clothes?  Probably just years of experience.  She can make almost anything out of cloth.
-~
+0158/avatar~
+talk:#adventure view:thegame:agent 0158/look~
 16394 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -769,11 +700,10 @@ Cloth flies into her homemade spindle at such an alarming rate that you wonder h
 E
 T 106
 #159
-lieutenant arjika arjikiya lieutenant a159 z0~
-ArjikaLieutenant~
-Arjika Lieutenant A159 is here.
-~
-He is used to giving orders, not babysitting and hunting down people. Looks like a lot of heads are going to roll when he finds who he is looking for. He looks very strong and wise.
+lieutenant arjika arjikiya lieutenant army a159 z0~
+Arjika Lieutenant~
+0159/avatar~
+Arjika Lieutenant A159 is here. He is used to giving orders, not babysitting and hunting down people. Looks like a lot of heads are going to roll when he finds who he is looking for. He looks very strong and wise.
 ~
 6232 0 0 0 16 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
@@ -781,11 +711,10 @@ He is used to giving orders, not babysitting and hunting down people. Looks like
 8 8 1
 E
 #160
-arjika arjikiya strategist a160 z3~
-ArjikaStrategist~
-Arjika Strategist A160 is here.
-~
-He mumbles to himself as the war plan is being picked apart in his head. Trying to account for every possible outcome he carries a heavy responsibility that few people never appreciate.  He orders men to their death.
+arjika arjikiya analyst army a0160 z1~
+Arjika Analyst~
+0160/avatar~
+Arjika Analyst A160 is here. He mumbles to himself as the war plan is being picked apart in his head. Trying to account for every possible outcome he carries a heavy responsibility that few people never appreciate.  He orders men to their death.
 ~
 6216 0 0 0 16 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
@@ -793,10 +722,9 @@ He mumbles to himself as the war plan is being picked apart in his head. Trying 
 8 8 1
 E
 #161
-streetsweeper sweeper man~
-the streetsweeper~
-0161/avatar
-~
+service deva servicedeva streetsweeper d0161 z1~
+ServiceDEVA (streetsweeper)~
+0161/avatar~
 talk:#adventure view:thegame:agent 0161/look
 ~
 2136 0 0 0 16 0 0 0 800 E
@@ -807,10 +735,8 @@ E
 #162
 dan farmer hellraiser 1337 defcon satan~
 Dan Farmer (hellraiser)~
-0162/avatar
-~
-talk:#adventure view:thegame:agent 0162/look
-~
+0162/avatar~
+talk:#adventure view:thegame:agent 0162/look~
 72 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -819,10 +745,8 @@ E
 #163
 john romero 1337~
 John Romero (romero)~
-0163/avatar
-~
-This guy looks capable of many things, which he would do for the right price. Few people can afford him though. So don't expect him to jump at your first offer.
-~
+0163/avatar~
+talk:#adventure view:thegame:agent 0163/look~
 2072 0 0 0 0 0 0 0 -330 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -832,10 +756,8 @@ E
 #164
 michael nebadon 1337~
 Michael Nebadon (michael)~
-0164/avatar
-~
-talk:#adventure view:thegame:agent 0164/look
-~
+0164/avatar~
+talk:#adventure view:thegame:agent 0164/look~
 2072 0 0 0 0 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
 60 3600
@@ -845,9 +767,8 @@ E
 #165
 indu monk~
 Indu Monk~
-A Indu Monk is here.
-~
-He has mastered a look that would cause most people to give in to his plead.
+0165/avatar~
+A Indu Monk is here. He has mastered a look that would cause most people to give in to his plead.
 ~
 72 0 0 0 0 0 0 0 400 E
 5 19 7 1d1+50 1d2+0
@@ -857,9 +778,9 @@ E
 T 129
 T 130
 #166
-lance corporal arjika arjikiya army a166 z0~
-ArjikaLanceCorporal~
-Arjika Lance Corporal A166 is here.
+corporal arjika arjikiya army a0166 z1~
+Arjika Corporal~
+Arjika Corporal A166 is here.
 ~
 Another member of the Arjika army, this man has worked his way up and has a bright future in the army.  Too bad he will probably be dead before he can get that far.
 ~
@@ -869,7 +790,7 @@ Another member of the Arjika army, this man has worked his way up and has a brig
 8 8 1
 E
 #167
-staff sergeant arjika arjikiya army a167 z3~
+staff sergeant arjika arjikiya army a0167 z1~
 ArjikaStaffSergeant~
 Arjika Staff Sergeant A167 is here.
 ~
@@ -883,9 +804,8 @@ E
 #168
 pm2012 tyler anonymous 1337~
 Tyler (pm2012)~
-0168/avatar
-~
-You can learn more about Tyler PM2012 pastebin.com/Ux0Uk2em
+0168/avatar~
+talk:#adventure view:thegame:agent 0168/look
 ~
 2072 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -908,10 +828,8 @@ T 2
 #169
 pm2013 tyler anonymous 1337~
 Tyler (pm2013)~
-0169/avatar
-~
-You can learn more about Tyler PM2013 pastebin.com/scNXFWRP
-~
+0169/avatar~
+talk:#adventure view:thegame:agent 0169/look~
 2072 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -922,10 +840,8 @@ T 3
 #170
 tg23 thegame23 tyler anonymous 1337~
 Tyler (tg23)~
-0170/avatar
-~
-You can learn more about Tyler TG23 pastebin.com/YbmG6ETq
-~
+0170/avatar~
+talk:#adventure view:thegame:agent 0170/look~
 2072 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -936,10 +852,8 @@ T 4
 #171
 pm2020 tyler anonymous 1337~
 Tyler (pm2020)~
-0171/avatar
-~
-You can learn more about Tyler TG23 pastebin.com/8TYHXa4d
-~
+0171/avatar~
+talk:#adventure view:thegame:agent 0171/look~
 2072 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -961,10 +875,8 @@ T 5
 #172
 ethersec tyler anonymous 1337~
 Tyler (ethersec)~
-0172/avatar
-~
-You can learn more about Tyler EtherSec pastebin.com/UGi5vMWs
-~
+0172/avatar~
+talk:#adventure view:thegame:agent 0172/look~
 2072 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -984,12 +896,10 @@ SavingSpell: 7
 E
 T 6
 #173
-security guard deva guarddeva d173~
+security deva securitydeva guard d173 z1~
 SecurityDEVA D173~
-SecurityDEVA D173 is on duty.
-~
-talk:#adventure view:thegame:agent 0173/look
-~
+0173/avatar~
+talk:#adventure view:thegame:agent 0173/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -997,11 +907,11 @@ talk:#adventure view:thegame:agent 0173/look
 E
 T 133
 #174
-monk guildguard~
+security guard deva securitydeva d0174 z1~
 the monk guildguard~
-A monk carefully watches a set of stairs leading up.
+0174/avatar
 ~
-   He looks intent on whatever purpose he has been given
+talk:#adventure view:thegame:agent 0174/look
 ~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -1010,36 +920,30 @@ A monk carefully watches a set of stairs leading up.
 E
 T 133
 #175
-gate sentry arjika arjikiya guard a175 z3~
-Arjika Guard~
-Arjika Guard A175 watching the gates, ensuring your protection.
-~
-They stand their post with dedication and determination.  They seem very competent and will warn of any attack upon the city.
-~
+security deva securitydeva sentry d0175 z1~
+SecurityDEVA (sentry)~
+0175/avatar~
+talk:#adventure view:thegame:agent 0175/look~
 2058 0 0 0 0 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
 E
 #176
-gunney arjika arjikiya a176 z3~
-Arjika Gunney~
-Arjika Gunney A176 stand here shouting orders.
-~
-This guy looks mean.  He is stuck in charge of training new recruits to the army.  He pretends to hate his job, but deep down you know he loves making the recruits lives miserable.
-~
+gunney sergeant arjika arjikiya army a176 z3~
+Arjika Gunney Sergeant~
+0176/avatar~
+talk:#adventure view:thegame:agent 0176/look~
 72 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
 E
 #177
-artist guildguard~
-Artist Guildguard~
-A guard watches the entrance to the upstairs warily.
-~
-He seems content twirling a paint brush between his fingers and occasionally glancing towards the stairs in the back.
-~
+security deva securitydeva guard d0177 z1~
+SecurityDEVA (guard)~
+0177/avatar~
+talk:#adventure view:thegame:agent 0177/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -1049,10 +953,8 @@ T 133
 #178
 gail thackeray 1337 mom~
 Gail Thackeray (mom)~
-0178/avatar
-~
-talk:#adventure view:thegame:agent 0178/look
-~
+0178/avatar~
+talk:#adventure view:thegame:agent 0178/look~
 2072 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -1066,12 +968,10 @@ SavingSpell: 2
 E
 T 100
 #179
-private arjika arjikiya a178 z3~
+private arjika arjikiya a0178 army z1~
 Arjika Private~
-Arjika Recruit A178 is carrying out Gunney's orders.
-~
-This guy is exhausted from training, but looks happy.
-~
+0179/avatar~
+talk:#adventure view:thegame:agent 0179/look~
 72 0 0 0 0 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -1090,12 +990,10 @@ One of the seven high councilman he holds one of the most prestigious positions 
 8 8 1
 E
 #181
-arjika arjikiya lookout a181 z3~
-Arjika Lookout~
-Arjika Lookout A181 peers into the distance.
-~
-Hour after hour he stands above the gates looking for any sign of danger. It is up to him to warn the town in case of an attack.  The position has a lot of responsibility and is only given to those who show promise within the army.
-~
+security deva securitydeva lookout d0181 z1~
+SecurityDEVA (lookout)~
+0181/avatar~
+talk:#adventure view:thegame:agent 0181/look~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
@@ -1104,10 +1002,8 @@ E
 #182
 brenda romero covenant~
 Brenda Romero~
-Brenda Romero is here.
-~
-She has given up her life as a mage and turned to the more economical approach to living.  She sells her potions and other concoctions for a fair price to any who may be in need.
-~
+0182/avatar~
+talk:#adventure view:thegame:agent 0182/look~
 188426 0 0 0 0 0 0 0 -300 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1159,18 +1055,14 @@ adventurer.
 E
 T 106
 #186
-healer~
-the healer~
-A healer is bent over from old age.
-~
-   His fellow monks forced this poor old man into retirement.  He didn't
-listen and instead opened up his own shop.  For a small fee he can fix you
-right up.
-~
+medic deva medicdeva medical d0186 z1~
+MedicDEVA (healer)~
+0186/avatar~
+talk:#adventure view:thegame:agent 0186/look~
 24586 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 0
 E
 T 106
 #187
@@ -1205,27 +1097,21 @@ fate of cutting meat for the rest of his life.
 E
 T 106
 #189
-commander army a189 z3~
-the commander~
-A commander of the army overseas the protection of the city.
-~
-   He ensures that all is well within the city and that everyone in the army
-carries out their orders and makes a good job of it.  He has been fighting more
-years than you've been living.
-~
+commander arjika arjikiya army a0189 z1~
+Arjika Commander~
+0189/avatar~
+talk:#adventure view:thegame:agent 0189/look~
 2058 0 0 0 0 0 0 0 1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1
 E
 #190
-cat pussy~
+cat feline cats~
 the cat~
 A cat rubs up against your leg hoping for some food or affection.
 ~
-   A pure white long-haired pussycat.  The only color cat in the city since
-they are considered good luck.  All other cats are either served up for dinner
-or let loose outside the city.
+A pure white long-haired pussycat.  The only color cat in the city since they are considered good luck.  All other cats are either served up for dinner or let loose outside the city.
 ~
 72 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -1233,12 +1119,11 @@ or let loose outside the city.
 8 8 1
 E
 #191
-puppy~
+puppy dog dogs~
 the puppy~
 A small puppy has lost his way and is whimpering pathetically.
 ~
-   How cute, you feel pity for him as he tries to work his way between peoples
-legs trying to find his way home.
+How cute, you feel pity for him as he tries to work his way between peoples legs trying to find his way home.
 ~
 72 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
@@ -1246,14 +1131,11 @@ legs trying to find his way home.
 8 8 0
 E
 #192
-german shepherd dog~
+german shepherd dog dogs~
 the german shepherd~
 A german shepherd perks up its ears and wags its tail as you approach.
 ~
-   These dogs are kept for many reasons.  Some are used to herd livestock,
-others for protection, and even a few simply as pets.  They are very smart and
-have evolved beyond normal animal intelligence due to Drakkar's experiments with
-animals.
+These dogs are kept for many reasons.  Some are used to herd livestock, others for protection, and even a few simply as pets.  They are very smart and have evolved beyond normal animal intelligence due to Drakkar's experiments with animals.
 
 ~
 76 0 0 0 0 0 0 0 0 E
@@ -1266,8 +1148,7 @@ dove~
 the dove~
 A small delicate dove pecks at the ground.
 ~
-   The dove is pure white, almost looks like an albino except it has black eyes
-instead of pink.
+The dove is pure white, almost looks like an albino except it has black eyes instead of pink.
 ~
 72 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -1275,12 +1156,11 @@ instead of pink.
 8 8 0
 E
 #194
-mouse~
+mouse mice~
 the mouse~
 A mouse scurries into the gutter, trying to avoid being stepped on.
 ~
-   This little rodent looks more like someone's pet than a street rat.  It is
-pure white with black eyes and seems unafraid.
+This little rodent looks more like someone's pet than a street rat.  It is pure white with black eyes and seems unafraid.
 ~
 72 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
@@ -1288,11 +1168,11 @@ pure white with black eyes and seems unafraid.
 8 8 0
 E
 #195
-kitten~
+kitten cat cats feline~
 the kitten~
 A cute little kitten is ready to pounce, its tail twitching back and forth
 ~
-   The kitten seems intent on attacking your feet for some reason.
+The kitten seems intent on attacking your feet for some reason.
 ~
 72 0 0 0 0 0 0 0 900 E
 3 19 8 0d0+30 1d2+0
@@ -1328,13 +1208,11 @@ He is loaded down with a tool belt full of various items he uses in his building
 E
 T 106
 #198
-temple monk~
-a temple monk~
-A temple monk tends to the sick and wounded.
+indu monk~
+Indu Monk~
+A Indu Monk tends to those in need.
 ~
-   He looks like he enjoys his job very much.  Helping those who are in need
-for nothing more than a warm smile.  He is very gentle and looks like he cares
-deeply about all of his patients.  He smiles at you warmly.
+He looks like he enjoys his job very much.  Helping those who are in need for nothing more than a warm smile.  He is very gentle and looks like he cares deeply about all of his patients.  He smiles at you warmly.
 ~
 72 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
