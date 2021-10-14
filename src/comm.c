@@ -1217,14 +1217,14 @@ static char *make_prompt(struct descriptor_data *d)
      if (len < sizeof(prompt))
      {
        // SET THE HUNGER METER
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d\r",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|22\r",
          GET_COND(d->character, HUNGER));
 
        if (count >= 0)
          len += count;
 
        // SET THE HUNGER METER
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d\r",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|22\r",
          GET_COND(d->character, THIRST));
 
        if (count >= 0)
