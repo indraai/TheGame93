@@ -317,7 +317,7 @@ A young girl is playing with a little doll. She is enthralled with reenacting a 
 E
 #126
 spy arjika deva~
-The Spy~
+the Spy~
 0126/avatar~
 An man dressed all in black stalks past you. A hired sword, this guy specializes in the elimination of pests.  Of course his price is high, but many think it is well worth it.  Have someone you would rather see dead?  Just ask this guy for some help.
 ~
@@ -606,7 +606,7 @@ SavingSpell: 1
 E
 #151
 midwife~
-The Midwife~
+the Midwife~
 0151/avatar~
 A midwife is tidying up the house. She looks rather old, touches of gray sprinkle her dark brown hair.  She must have once been very attractive, but not any longer.  She looks worn down and tired from her daily chores.
 ~
@@ -617,7 +617,7 @@ A midwife is tidying up the house. She looks rather old, touches of gray sprinkl
 E
 #152
 newborn baby~
-The Baby~
+the Baby~
 0152/avatar~
 A newborn baby is rocking peacefully in his crib. How cute, this little tyke can't be more than a few months old.  He is just
 starting to get some hair.  He looks up at you and giggles softly, expecting
@@ -806,7 +806,7 @@ Tyler (pm2012)~
 0168/avatar~
 talk:#adventure view:thegame:agent 0168/look
 ~
-2072 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -829,7 +829,7 @@ pm2013 tyler anonymous 1337~
 Tyler (pm2013)~
 0169/avatar~
 talk:#adventure view:thegame:agent 0169/look~
-2072 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -841,7 +841,7 @@ tg23 thegame23 tyler anonymous 1337~
 Tyler (tg23)~
 0170/avatar~
 talk:#adventure view:thegame:agent 0170/look~
-2072 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -853,7 +853,7 @@ pm2020 tyler anonymous 1337~
 Tyler (pm2020)~
 0171/avatar~
 talk:#adventure view:thegame:agent 0171/look~
-2072 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 2048 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -876,7 +876,7 @@ ethersec tyler anonymous 1337~
 Tyler (ethersec)~
 0172/avatar~
 talk:#adventure view:thegame:agent 0172/look~
-2072 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1

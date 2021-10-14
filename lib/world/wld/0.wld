@@ -55,11 +55,6 @@ talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
-D2
-talk:#adventure view:thegame:world 0002/look
-~
-~
-0 0 2
 S
 #4
 Project Mayhem 2012~
@@ -71,11 +66,6 @@ talk:#adventure view:thegame:world 0005/look
 ~
 ~
 0 0 5
-D3
-talk:#adventure view:thegame:world 0003/look
-~
-~
-0 0 3
 S
 #5
 Dangerous Ideas~
@@ -87,11 +77,6 @@ talk:#adventure view:thegame:world 0006/look
 ~
 ~
 0 0 6
-D3
-talk:#adventure view:thegame:world 0004/look
-~
-~
-0 0 4
 S
 #6
 Telecomix~
@@ -103,11 +88,6 @@ talk:#adventure view:thegame:world 0007/look
 ~
 ~
 0 0 7
-D3
-talk:#adventure view:thegame:world 005/look
-~
-~
-0 0 5
 S
 #7
 Project Mayhem Revelations~
@@ -119,11 +99,6 @@ talk:#adventure view:thegame:world 0008/look
 ~
 ~
 0 0 8
-D3
-talk:#adventure view:thegame:world 0006/look
-~
-~
-0 0 6
 S
 #8
 Project Mayhem 2020~
@@ -135,11 +110,6 @@ talk:#adventure view:thegame:world 0009/look
 ~
 ~
 0 0 9
-D3
-talk:#adventure view:thegame:world 0007/look
-~
-~
-0 0 7
 S
 #9
 IT~
@@ -151,11 +121,6 @@ talk:#adventure view:thegame:world 0010/look
 ~
 ~
 0 0 10
-D3
-talk:#adventure view:thegame:world 0008/look
-~
-~
-0 0 8
 S
 #10
 eTHErSEC Project 2020~
@@ -167,11 +132,6 @@ talk:#adventure view:thegame:world 0011/look
 ~
 ~
 0 0 11
-D3
-talk:#adventure view:thegame:world 0009/look
-~
-~
-0 0 9
 S
 #11
 EtherSec...again~
@@ -183,22 +143,12 @@ talk:#adventure view:thegame:world 0012/look
 ~
 ~
 0 0 12
-D3
-talk:#adventure view:thegame:world 0010/look
-~
-~
-0 0 10
 S
 #12
 Michael the Archangel~
 talk:#adventure view:thegame:world 0012/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0011/look
-~
-~
-0 0 11
 D2
 talk:#adventure view:thegame:world 0013/look
 ~
@@ -210,11 +160,6 @@ Project 89~
 talk:#adventure view:thegame:world 0013/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0012/look
-~
-~
-0 0 12
 D2
 talk:#adventure view:thegame:world 0014/look
 ~
@@ -226,11 +171,6 @@ The Anon Salon~
 talk:#adventure view:thegame:world 0014/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0013/look
-~
-~
-0 0 13
 D2
 talk:#adventure view:thegame:world 0015/look
 ~
@@ -242,11 +182,6 @@ The Cobra Lounge~
 talk:#adventure view:thegame:world 0015/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0014/look
-~
-~
-0 0 14
 D3
 talk:#adventure view:thegame:world 0016/look
 ~
@@ -263,11 +198,6 @@ talk:#adventure view:thegame:world 0017/look
 ~
 ~
 0 0 17
-D1
-talk:#adventure view:thegame:world 0015/look
-~
-~
-0 0 15
 S
 #17
 Kibo Xibo~
@@ -279,11 +209,6 @@ talk:#adventure view:thegame:world 0018/look
 ~
 ~
 0 0 18
-D2
-talk:#adventure view:thegame:world 0016/look
-~
-~
-0 0 16
 S
 #18
 Evil People, Inc.~
@@ -295,11 +220,6 @@ talk:#adventure view:thegame:world 0020/look
 ~
 ~
 0 0 20
-D2
-talk:#adventure view:thegame:world 0017/look
-~
-~
-0 0 17
 D3
 talk:#adventure view:thegame:world 0019/look
 ~
@@ -321,11 +241,6 @@ Satanic Sysadmins~
 talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
-D2
-talk:#adventure view:thegame:world 0018/look
-~
-~
-0 0 18
 D3
 talk:#adventure view:thegame:world 0021/look
 ~
@@ -337,11 +252,6 @@ Edge.org~
 talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0020/look
-~
-~
-0 0 20
 D3
 talk:#adventure view:thegame:world 0022/look
 ~
@@ -349,15 +259,10 @@ talk:#adventure view:thegame:world 0022/look
 0 0 22
 S
 #22
-Cult of the Dead Cow~
+DefCon~
 talk:#adventure view:thegame:world 0022/main
 ~
 0 24 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0021/look
-~
-~
-0 0 21
 D3
 talk:#adventure view:thegame:world 0023/look
 ~
@@ -365,15 +270,10 @@ talk:#adventure view:thegame:world 0023/look
 0 0 23
 S
 #23
-bianca~
+bianca.com~
 talk:#adventure view:thegame:world 023/main
 ~
 0 24 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0022/look
-~
-~
-0 0 22
 D3
 talk:#adventure view:thegame:world 0088/look
 ~
@@ -409,11 +309,6 @@ The Well~
 talk:#adventure view:thegame:world 0088/main
 ~
 0 24 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0023/look
-~
-~
-0 0 23
 D3
 talk:#adventure view:thegame:world 0089/look
 ~
@@ -425,11 +320,6 @@ HOPE~
 talk:#adventure view:thegame:world 0089/main
 ~
 0 8 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0088/look
-~
-~
-0 0 88
 D3
 talk:#adventure view:thegame:world 0098/look
 ~
@@ -518,15 +408,10 @@ talk:#adventure view:thegame:world 0089/look
 0 0 89
 S
 #98
-DefCon~
+Graduation~
 talk:#adventure view:thegame:world 0098/main
 ~
 0 24 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0089/look
-~
-~
-0 0 89
 D2
 talk:#adventure view:thegame:world 0099/look
 ~
@@ -539,7 +424,7 @@ D3
 S
 T 189
 #99
-The Hotel~
+Party Room~
 talk:#adventure view:thegame:world 0099/main
 ~
 0 24 0 0 0 0
@@ -549,12 +434,12 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
