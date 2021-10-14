@@ -910,7 +910,7 @@ ACMD(do_score)
     "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    GET_CLASS(ch),
+    CLASS_ABBR(ch),
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),
