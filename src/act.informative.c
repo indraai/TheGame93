@@ -893,20 +893,20 @@ ACMD(do_gold)
 ACMD(do_score)
 {
   struct time_info_data playing_time;
-  const char *service;
+  const char *asrv;
 
   switch (GET_CLASS(ch)) {
     case CLASS_ARMY:
-      service = "ARMY";
+      asrv = "ARMY";
       break;
     case CLASS_NAVY:
-      service = "NAVY";
+      asrv = "NAVY";
       break;
     case CLASS_AIRFORCE:
-      service = "USAF";
+      asrv = "USAF";
       break;
     case CLASS_MARINES:
-      service = "USMC";
+      asrv = "USMC";
       break;
   }
   if (IS_NPC(ch))
@@ -926,7 +926,7 @@ ACMD(do_score)
     "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    service,
+    asrv,
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),
