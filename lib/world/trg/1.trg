@@ -4,7 +4,7 @@ Random Movement~
 ~
 *Random room movement.
 set vnum %room.vnum%
-if %actor.is_pc%
+if %actor%
   wait 30 sec
   %random.dir%
 else if %vnum% == 2
