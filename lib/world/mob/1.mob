@@ -1117,29 +1117,29 @@ talk:#adventure view:thegame:agent 0190/look
 8 8 1
 E
 #191
-puppy dog dogs~
-the puppy~
-A small puppy has lost his way and is whimpering pathetically.
+tyler it 1337 egregore~
+Tyler (it)~
+0191/avatar
 ~
-How cute, you feel pity for him as he tries to work his way between peoples legs trying to find his way home.
+talk:#adventure view:thegame:agent 0191/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0
 E
 #192
-german shepherd dog dogs~
+tyler ethersec 1337 pm2020~
 the german shepherd~
 A german shepherd perks up its ears and wags its tail as you approach.
 ~
 These dogs are kept for many reasons.  Some are used to herd livestock, others for protection, and even a few simply as pets.  They are very smart and have evolved beyond normal animal intelligence due to Drakkar's experiments with animals.
 
 ~
-76 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 0
+8 8 1
 E
 #193
 dove~
