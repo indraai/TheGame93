@@ -1164,6 +1164,7 @@ static char *make_prompt(struct descriptor_data *d)
         if (count >= 0)
           len += count;
       }
+
     } else { /* not auto prompt */
       if (PRF_FLAGGED(d->character, PRF_DISPHP) && len < sizeof(prompt)) {
         count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(d->character), GET_MAX_HIT(d->character));
@@ -1172,7 +1173,10 @@ static char *make_prompt(struct descriptor_data *d)
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r", GET_MANA(d->character), GET_MAX_MANA(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r",
+          GET_MANA(d->character),
+          GET_MAX_MANA(d->character));
+
         if (count >= 0)
           len += count;
       }
@@ -1209,6 +1213,29 @@ static char *make_prompt(struct descriptor_data *d)
        if (count >= 0)
          len += count;
      }
+
+     if (len < sizeof(prompt))
+     {
+       // SET THE HUNGER METER
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|%d\r",
+         GET_COND(ch, HUNGER),
+         PFDEF_HUNGER
+       );
+
+       if (count >= 0)
+         len += count;
+
+       // SET THE HUNGER METER
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|%d\r",
+         GET_COND(ch, THIRST),
+         PFDEF_THIRST
+       );
+
+       if (count >= 0)
+         len += count;
+     }
+
+     if ( == 0) || (GET_COND(ch, THIRST) == 0)
 
     if (len < sizeof(prompt))
       strncat(prompt, "", sizeof(prompt) - len - 1);	/* strncat: OK */
