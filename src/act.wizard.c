@@ -98,7 +98,7 @@ ACMD(do_wizhelp)
   if (!ch->desc)
     return;
 
-  send_to_char(ch, "The following privileged commands are available:\r\n");
+  send_to_char(ch, "\nThe following privileged commands are available:\r");
 
   for (level = LVL_IMPL; level >= LVL_IMMORT; level--) {
     send_to_char(ch, "%sLevel %d%s:\r\n", CCCYN(ch, C_NRM), level, CCNRM(ch, C_NRM));
@@ -270,6 +270,11 @@ ACMD(do_goto)
 
   if ((location = find_target_room(ch, argument)) == NOWHERE)
     return;
+
+  if (GET_LEVEL(ch) < 15) {
+    send_to_char(ch, "\nYour level is too low for the goto command.");
+    return;
+  }
 
   if (ZONE_FLAGGED(GET_ROOM_ZONE(location), ZONE_NOIMMORT) && (GET_LEVEL(ch) >= LVL_IMMORT) && (GET_LEVEL(ch) < LVL_GRDEVA)) {
     send_to_char(ch, "Sorry, that zone is off-limits for immortals!");
