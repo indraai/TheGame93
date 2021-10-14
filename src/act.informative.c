@@ -902,7 +902,7 @@ ACMD(do_score)
 
   send_to_char(ch, "\nname: %s\r"
     "\nage: %dyrs\r"
-    "\nservice: %d\r"
+    "\nservice: %s\r"
     "\nrank: %s\r"
     "\nlevel: %d\r"
     "\nexp: %d\r"
