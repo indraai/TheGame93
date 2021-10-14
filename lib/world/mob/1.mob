@@ -1135,16 +1135,16 @@ talk:#adventure view:thegame:agent 0192/look~
 8 8 1
 E
 #193
-dove~
-the dove~
-A small delicate dove pecks at the ground.
+project89 tyler 1337~
+Tyler (project89)~
+0193/avatar
 ~
-The dove is pure white, almost looks like an albino except it has black eyes instead of pink.
+talk:#adventure view:thegame:agent 0193/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2072 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0
+8 8 1
 E
 #194
 mouse mice~
