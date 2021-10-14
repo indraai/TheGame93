@@ -95,9 +95,9 @@ G 1 136 99 -1 	(a broom)
 G 1 149 99 -1 	(a dustpan)
 
 
-M 0 162 1 98 	  (Dan Farmer)
+M 0 162 1 22 	  (Dan Farmer)
 M 0 163 1 195 	(John Romero)
-M 0 164 1 12 	(Michael Nebadon)
+M 0 164 1 12 	  (Michael Nebadon)
 M 0 165 1 171 	(the beggar)
 M 0 166 1 283 	(the lance corporal)
 M 0 167 1 152 	(the staff sergeant)
@@ -117,7 +117,7 @@ M 0 175 4 362 	(the gate sentry)
 
 M 0 176 1 182 	(Gunney)
 M 0 177 1 150 	(the thief guildguard)
-M 0 178 1 98 	  (Gail Thackeray)
+M 0 178 1 22 	  (Gail Thackeray)
 
 M 0 179 3 198 	(Arjika Private)
 M 0 179 3 209 	(Arjika Private)
