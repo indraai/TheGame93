@@ -1,6 +1,6 @@
 #100
 Random Movement~
-0 beg 100
+0 be 100
 ~
 *Random room movement.
 set vnum %room.vnum%
