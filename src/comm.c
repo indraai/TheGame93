@@ -1218,7 +1218,7 @@ static char *make_prompt(struct descriptor_data *d)
      {
        // SET THE HUNGER METER
        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|%d\r",
-         GET_COND(ch, HUNGER),
+         GET_COND(d->character, HUNGER),
          PFDEF_HUNGER
        );
 
@@ -1227,7 +1227,7 @@ static char *make_prompt(struct descriptor_data *d)
 
        // SET THE HUNGER METER
        count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|%d\r",
-         GET_COND(ch, THIRST),
+         GET_COND(d->character, THIRST),
          PFDEF_THIRST
        );
 
