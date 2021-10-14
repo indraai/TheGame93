@@ -4,7 +4,20 @@ Random Movement~
 ~
 *Random room movement.
 set vnum %room.vnum%
-say Dir %actor.dir%
+if %actor.is_pc%
+  wait 30 sec
+  %random.dir%
+else if %vnum% == 2
+  wait 1 sec
+  west
+else
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+  wait 1 sec
+  %random.dir%
+end
 ~
 #105
 Mob Greet Joe Lavery~
