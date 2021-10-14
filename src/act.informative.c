@@ -893,8 +893,6 @@ ACMD(do_gold)
 ACMD(do_score)
 {
   struct time_info_data playing_time;
-  const char *asrv;
-
   const char *mil_branches[] = {
     "ARMY",
     "NAVY",
