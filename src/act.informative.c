@@ -896,8 +896,8 @@ ACMD(do_score)
   const char *mil_branches[] = {
     "ARMY",
     "NAVY",
-    "USAF",
-    "USMC"
+    "USMC",
+    "USAF"
   };
 
   if (IS_NPC(ch))
