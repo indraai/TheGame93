@@ -795,12 +795,11 @@ E
 #161
 streetsweeper sweeper man~
 the streetsweeper~
-A streetsweeper pushes a broom in front of him, picking up any trash he finds.
+0161/avatar
 ~
-   He is out here, day and night, picking up the garbage people leave behind.
-Do him a favor and don't litter.  He looks miserable from his job.
+talk:#adventure view:thegame:agent 0161/look
 ~
-72 0 0 0 16 0 0 0 800 E
+2136 0 0 0 16 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 1

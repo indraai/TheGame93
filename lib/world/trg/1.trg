@@ -1,10 +1,10 @@
 #100
 Random Movement~
-0 be 100
+0 beg 100
 ~
 *Random room movement.
 set vnum %room.vnum%
-%echo% Direction %direction%
+say Dir %actor.dir%
 ~
 #105
 Mob Greet Joe Lavery~
