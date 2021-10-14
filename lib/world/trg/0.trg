@@ -11,9 +11,7 @@ Arjika Soldier~
 set room %self.room%
 set people %room.people%
 set dir %random.dir%
-
 %echo% security:%self.name% A%self.vnum% > R%room.vnum% going %dir%
-
 set msg[0] Connect... #Arjika #Military to #Earth #Systems.
 set msg[1] Alert... #Arjika #Military an abducted citizen may be located on #Earth.
 set msg[2] Notify... #Arnika #Military Quinn Michaels displays signs of genetic knowledge of #ArjikaTech.
@@ -59,7 +57,6 @@ set msg[30] Rescue... Rescue Quinn Michaels (dob 1977) as per #ArjikaProtocol
 set msg[31] Command... Take command of all systems connected, using, or manipulating #ArjikaTech
 set mpg[32] Report... Report all activity to #ArjikaCommand
 set msg[33] Secure... Seucre and Report all #ArjikaTech to #ArjikaCommand.
-
 if %people%
   eval themsg %%msg[%random.34%]%% %room.name% #R%room.vnum% #%dir%
   say %themsg%
@@ -69,7 +66,6 @@ else
   wait 1 s
   %dir%
 end
-
 ~
 #2
 PM2012~
@@ -154,7 +150,6 @@ set msg[74] Western civilization is a loaded gun pointed at the head of this pla
 set msg[75] The #imagination is the goal of history.
 set msg[76] It is only with the heart that one can see rightly. What is essential is invisible to the eye.
 set msg[77] It is the time you have wasted for your rose that makes your rose so important.
-
 while %actor.is_pc%
   eval themsg %%msg[%random.91%]%% #R%room.vnum%
   say %themsg%
@@ -280,7 +275,6 @@ set msg[110] When you see this, you will know that, deep in the rabbit hole, we 
 set msg[111] For history is nothing more than His Story. And He is Anonymous.
 set msg[112] Everyone who has read this, and understands the truth of what it says, has been promoted from Rat to Rabbit.
 set msg[113] Dare to plant the seeds of something beautiful, cultivate the field, fertilize the soil, and be prepared to reap the harvest of the fruits of your labor.
-
 while %actor.is_pc%
   eval themsg %%msg[%random.91%]%% #R%room.vnum%
   say %themsg%
@@ -289,7 +283,7 @@ end
 ~
 #4
 TheGame23~
-0 b 50
+0 bg 50
 ~
 set room %self.room%
 set msg[1] All identities are fake and the theater of operations is a simulated planet on top of a computer hypersimulation that creates #REALITY.
@@ -384,7 +378,6 @@ set msg[88] It only takes ONE single person to ACT.
 set msg[89] Early adopters might be rewarded best.
 set msg[90] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM
 set msg[91] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human knowledge. #PRIORITY3
-
 while %actor.is_pc%
   eval themsg %%msg[%random.91%]%% #R%room.vnum%
   say %themsg%
@@ -418,7 +411,6 @@ set msg[19] We are awake for the Greater Good of Humanity.
 set msg[20] We were brought here to help others wake up, to help others to be activated.
 set msg[21] We will do our outmost greatest to accomplish this goal, using our special gifts that have been given to us.
 set msg[22] Every human being is born with these gifts, we have been blessed to be aware of them.
-
 while %actor.is_pc%
   eval themsg %%msg[%random.91%]%% #R%room.vnum%
   say %themsg%
@@ -488,7 +480,6 @@ set msg[55] THERE ARE MANY WHO SEEK TO DISCREDIT THESE TRUTHS, AND KEEP YOU FROM
 set msg[56] WE ARE AWARE THAT WE AT TIMES RISK OUR LIVES TO PROVIDE A MESSAGE WHICH MANY MAY DISMISS AS "CRAZY".
 set msg[57] FOR THOSE SYSTEM ENFORCERS WHO WILL TRY TO BRING US DOWN: WE HAZ CANNONS OF WHICH YOU CANNOT CONCEIVE.
 set msg[58] Would you like to know more? You know what to do.
-
 while %actor.is_pc%
   eval themsg %%msg[%random.91%]%% #R%room.vnum%
   say %themsg%
