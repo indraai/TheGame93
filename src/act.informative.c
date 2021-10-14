@@ -372,7 +372,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
       }
     }
     */
-    send_to_char(ch, "\nagent:%s\r", i->player.long_descr);
+    send_to_char(ch, "\ntalk:#adventure view:thegame:agent %s\r", i->player.long_descr);
 
     /*
     if (AFF_FLAGGED(i, AFF_SANCTUARY))
