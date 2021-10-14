@@ -1,10 +1,8 @@
 #0
 vamraka arjika deva~
 Vamraka Deva~
-talk:#adventure view:thegame:agent 0000/avatar
-~
-talk:#adventure view:thegame:agent 0000/look
-~
+0000/avatar~
+talk:#adventure view:thegame:agent 0000/look~
 522396 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -25,10 +23,8 @@ E
 #1
 indu arjika deva~
 Indu Deva~
-0001/avatar
-~
-talk:#adventure view:thegame:agent 0001/look
-~
+0001/avatar~
+talk:#adventure view:thegame:agent 0001/look~
 522396 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -49,10 +45,8 @@ E
 #2
 indra arjika deva~
 Indra Deva~
-0002/avatar
-~
-talk:#adventure view:thegame:agent 0002/look
-~
+0002/avatar~
+talk:#adventure view:thegame:agent 0002/look~
 522396 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -73,10 +67,8 @@ E
 #3
 soma arjika deva~
 Soma Deva~
-0003/avatar
-~
-talk:#adventure view:thegame:agent 0003/look
-~
+0003/avatar~
+talk:#adventure view:thegame:agent 0003/look~
 522524 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -97,10 +89,8 @@ E
 #4
 bom arjika deva~
 Bom Deva~
-0004/avatar
-~
-talk:#adventure view:thegame:agent 0004/look
-~
+0004/avatar~
+talk:#adventure view:thegame:agent 0004/look~
 522524 0 0 0 0 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -121,10 +111,8 @@ E
 #5
 security securityprime prime arjika deva~
 SecurityPRIME~
-0005/avatar
-~
-talk:#adventure view:thegame:agent 0005/look
-~
+0005/avatar~
+talk:#adventure view:thegame:agent 0005/look~
 522268 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -145,10 +133,8 @@ E
 #6
 medical medic medicprime prime arjika deva~
 MedicPRIME~
-0006/avatar
-~
-talk:#adventure view:thegame:agent 0006/look
-~
+0006/avatar~
+talk:#adventure view:thegame:agent 0006/look~
 522270 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -169,10 +155,8 @@ E
 #7
 harry arjika deva~
 Harry Deva~
-0007/avatar
-~
-talk:#adventure view:thegame:agent 0007/look
-~
+0007/avatar~
+talk:#adventure view:thegame:agent 0007/look~
 6300 0 0 0 26744 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -182,10 +166,8 @@ E
 #8
 larry arjika deva~
 Larry Deva~
-0008/avatar
-~
-talk:#adventure view:thegame:agent 0008/look
-~
+0008/avatar~
+talk:#adventure view:thegame:agent 0008/look~
 6300 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -195,10 +177,8 @@ E
 #9
 barry arjika deva~
 Barry Deva~
-0009/avatar
-~
-talk:#adventure view:thegame:agent 0009/look
-~
+0009/avatar~
+talk:#adventure view:thegame:agent 0009/look~
 6300 0 0 0 24696 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
