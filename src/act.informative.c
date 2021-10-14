@@ -539,13 +539,11 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
 
   /* now list characters & objects */
-  send_to_char(ch, "\n## Agents\r"
-    "\n::BEGIN:AGENTS\r");
+  send_to_char(ch, "\n::BEGIN:AGENTS\r");
   list_char_to_char(world[IN_ROOM(ch)].people, ch);
   send_to_char(ch, "\n::END:AGENTS\r");
 
-  send_to_char(ch, "\n## Objects\r"
-    "\n::BEGIN:OBJECTS\r");
+  send_to_char(ch, "\n::BEGIN:OBJECTS\r");
   list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
   send_to_char(ch, "\n::END:OBJECTS\r");
 
