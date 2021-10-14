@@ -1139,22 +1139,22 @@ project89 tyler 1337~
 Tyler (project89)~
 0193/avatar~
 talk:#adventure view:thegame:agent 0193/look~
-2072 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
 E
 #194
-mouse mice~
-the mouse~
-A mouse scurries into the gutter, trying to avoid being stepped on.
+mr bungle aric 1337~
+Mr. Bungle~
+0194/avatar
 ~
-This little rodent looks more like someone's pet than a street rat.  It is pure white with black eyes and seems unafraid.
+talk:#adventure view:thegame:agent 0194/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2138 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0
+8 8 1
 E
 #195
 kitten cat cats feline~
