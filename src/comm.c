@@ -1220,8 +1220,7 @@ static char *make_prompt(struct descriptor_data *d)
        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|22\r",
          GET_COND(d->character, HUNGER));
 
-       if (count >= 0)
-         len += count;
+       if (count >= 0) len += count;
       }
       // SET THE HUNGER METER
       if (GET_COND(d=>character, THIRST) > 0 && len < sizeof(prompt))
@@ -1229,9 +1228,8 @@ static char *make_prompt(struct descriptor_data *d)
        count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|22\r",
          GET_COND(d->character, THIRST));
 
-       if (count >= 0)
-         len += count;
-     }
+       if (count >= 0) len += count;
+      }
     if (len < sizeof(prompt))
       strncat(prompt, "", sizeof(prompt) - len - 1);	/* strncat: OK */
   } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character))
