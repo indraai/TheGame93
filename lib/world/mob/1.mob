@@ -69,7 +69,7 @@ mark petrakis spoonman 1337 spoonkids~
 Mark Petrakis (spoonman)~
 0105/avatar~
 talk:#adventure view:thegame:agent 0105/look~
-2072 0 0 0 0 0 0 0 900 E
+2074 0 0 0 0 0 0 0 900 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1
@@ -181,7 +181,7 @@ terry cooksey man amiga 1337~
 Terry Cooksey (amiga)~
 0114/avatar~
 talk:#adventure view:thegame:agent 0114/look~
-2072 0 0 0 0 0 0 0 1000 E
+2074 0 0 0 0 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1
@@ -192,10 +192,10 @@ eric hughes cypherpunk 1337 defcon~
 Eric Hughes (cypherpunk)~
 0115/avatar~
 talk:#adventure view:thegame:agent 0115/look~
-2072 0 0 0 0 0 0 0 1000 E
+2074 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1
+8 0 1
 BareHandAttack: 8
 SavingPara: 2
 SavingRod: 2
@@ -208,7 +208,7 @@ robert david steele steeler 1337~
 Robert Steele (steeler)~
 0116/avatar~
 talk:#adventure view:thegame:agent 0116/look~
-8 0 0 0 0 0 0 0 1000 E
+2074 0 0 0 0 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
@@ -369,7 +369,7 @@ brenda laurel spoonkids covenant goddess 1337~
 Brenda Laurel (goddess)~
 0130/avatar~
 talk:#adventure view:thegame:agent 0130/look~
-65608 0 0 0 0 0 0 0 700 E
+2074 0 0 0 0 0 0 0 700 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 2
@@ -468,7 +468,7 @@ kibo james parry 1337~
 James Parry (kibo)~
 0139/avatar~
 talk:#adventure view:thegame:agent 0139/look~
-2136 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1
@@ -593,7 +593,7 @@ dave dogruel xibo 1337 angst~
 Dave Dogruel (xibo)~
 0150/avatar~
 talk:#adventure view:thegame:agent 0150/look~
-2200 0 0 0 0 0 0 0 -1000 E
+2202 0 0 0 0 0 0 0 -1000 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1
@@ -633,7 +633,7 @@ douglas rushkoff 1337 edge~
 Douglas Rushkoff (rushkoff)~
 0153/avatar~
 talk:#adventure view:thegame:agent 0153/look~
-2072 0 0 0 0 0 0 0 -200 E
+2074 0 0 0 0 0 0 0 -200 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1
@@ -682,7 +682,7 @@ telecomix 1337 cameron~
 Cameron (telecomix)~
 0157/avatar~
 talk:#adventure view:thegame:agent 0157/look~
-2072 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 2
@@ -736,7 +736,7 @@ dan farmer hellraiser 1337 defcon satan~
 Dan Farmer (hellraiser)~
 0162/avatar~
 talk:#adventure view:thegame:agent 0162/look~
-72 0 0 0 0 0 0 0 1000 E
+2074 0 0 0 0 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1
@@ -757,7 +757,7 @@ michael nebadon 1337~
 Michael Nebadon (michael)~
 0164/avatar~
 talk:#adventure view:thegame:agent 0164/look~
-2072 0 0 0 0 0 0 0 400 E
+2074 0 0 0 0 0 0 0 400 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1
@@ -806,7 +806,7 @@ Tyler (pm2012)~
 0168/avatar~
 talk:#adventure view:thegame:agent 0168/look
 ~
-2074 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -954,7 +954,7 @@ gail thackeray 1337 mom~
 Gail Thackeray (mom)~
 0178/avatar~
 talk:#adventure view:thegame:agent 0178/look~
-2072 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 2
