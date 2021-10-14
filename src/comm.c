@@ -1234,9 +1234,6 @@ static char *make_prompt(struct descriptor_data *d)
        if (count >= 0)
          len += count;
      }
-
-     if ( == 0) || (GET_COND(ch, THIRST) == 0)
-
     if (len < sizeof(prompt))
       strncat(prompt, "", sizeof(prompt) - len - 1);	/* strncat: OK */
   } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character))
