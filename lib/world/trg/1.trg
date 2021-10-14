@@ -1,3 +1,11 @@
+#100
+Random Movement~
+0 be 100
+~
+*Random room movement.
+set vnum %room.vnum%
+%echo% Direction %direction%
+~
 #105
 Mob Greet Joe Lavery~
 0 bg 100
@@ -45,9 +53,7 @@ set msg[2] Offerings for Indu?
 set msg[3] Offerings for Indra?
 set msg[4] Offerings for Soma?
 set msg[5] Offerings for Bom?
-
 eval themsg %%msg[%random.5%]%%
-
 if %actor.is_pc%
   wait 1 sec
   say %themsg%
@@ -80,7 +86,6 @@ Trent Lavery~
 ~
 set room %self.room%
 set people %room.people%
-
 set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
 set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
 set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
@@ -95,13 +100,11 @@ set msg[11] Really my dad has spent way more time streaming his life on the Inte
 set msg[12] After telling my dad the craziest story about the Covenant I told him to go away.
 set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
 set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
-
 eval themsg %%msg[%random.14%]%% %room.name% #R%room.vnum%
 if %people%
   say %themsg%
   wait %random.360% s
 end
-
 ~
 #176
 Teleporter Recall - O82~
