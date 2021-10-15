@@ -68,47 +68,42 @@ though her build shows promise of endurance.
 8 8 2
 E
 #205
-horse pets stallion~
-the stallion~
-A sleek and mean looking horse tramps impatiently.
+jd falk cybernothing 1337 satanic~
+JD Falk (cybernothing)~
+0205/avatar
 ~
-   The horse looks about ready to bolt, a strange gleam in its eyes makes you
-wonder why this animal is even standing here.  The animal looks wild.
+talk:#adventure view:thegame:agent 0205/look
 ~
-10 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1
 E
 #206
-chunky philosopher man old~
-a chunky philosopher~
-An old man roams about whispering to himself.
+henry messenger cenobite 1337 satanic fatman~
+Henry Messenger (cenobite)~
+0206/avatar
 ~
-   He is a large middle-aged man missing most of his hair.  He ambles about
-seemingly oblivious to his own girth and the world around him.  Occasionally he
-rambles on about truth, existence, and other esoteric topics that better mind
-than his have already questioned.
+talk:#adventure view:thegame:agent 0206/look
+~
+2074 0 0 0 0 0 0 0 0 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1
+BareHandAttack: 2
+E
+T 200
+#207
+eric sorenson satanic 1337~
+Eric Sorenson (satanix)~
+0207/avatar
+~
+talk:#adventure view:thegame:agent 0207/look
 ~
 72 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
-E
-T 200
-#207
-angel jack russell terrier~
-Angel~
-Angel, the Jack Russel Terrier, is racing around looking for someone to play with.
-~
-   This dog has to be on drugs.  She never stops running around looking for
-attention or someone to play with.  Her breath smells strangely of bacon.  She
-appears to be beggin for some treats.
-~
-72 0 0 0 0 0 0 0 0 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 2
 BareHandAttack: 4
 E
 #208
