@@ -243,7 +243,7 @@ talk:#adventure view:thegame:world 0021/look
 0 0 21
 S
 #21
-DefCon~
+Evil.com~
 talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
@@ -270,21 +270,21 @@ talk:#adventure view:thegame:world 023/main
 ~
 0 24 0 0 0 0
 D3
-talk:#adventure view:thegame:world 0088/look
-~
-~
-0 0 88
-S
-#24
-Survivance~
-talk:#adventure view:thegame:world 0024/main
-~
-0 24 0 0 0 0
-D3
 talk:#adventure view:thegame:world 0024/look
 ~
 ~
 0 0 24
+S
+#24
+Edge.org~
+talk:#adventure view:thegame:world 0024/main
+~
+0 24 0 0 0 0
+D3
+talk:#adventure view:thegame:world 0025/look
+~
+~
+0 0 25
 S
 #25
 The Covenant~
@@ -349,12 +349,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
