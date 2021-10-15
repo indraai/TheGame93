@@ -639,23 +639,12 @@ static void look_in_obj(struct char_data *ch, char *arg)
     send_to_char(ch, "\ninform:There's nothing inside that!\r");
   else {
     if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
-      if (OBJVAL_FLAGGED(obj, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE)))
-	send_to_char(ch, "\ninform:It is closed.\r");
+      if (OBJVAL_FLAGGED(obj, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE))) {
+        send_to_char(ch, "\ninform:It is closed.\r");
+      }
       else {
-	send_to_char(ch, "\ninform:%s", fname(obj->name));
-	switch (bits) {
-	case FIND_OBJ_INV:
-	  send_to_char(ch, " (carried)\r");
-	  break;
-	case FIND_OBJ_ROOM:
-	  send_to_char(ch, " (here)\r");
-	  break;
-	case FIND_OBJ_EQUIP:
-	  send_to_char(ch, " (used)\r");
-	  break;
-	}
-
-	list_obj_to_char(obj->contains, ch, SHOW_OBJ_SHORT, TRUE);
+        send_to_char(ch, "\ninform:%s", fname(obj->name));
+        list_obj_to_char(obj->contains, ch, SHOW_OBJ_SHORT, TRUE);
       }
     } else {		/* item must be a fountain or drink container */
       if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1)) {
@@ -682,14 +671,13 @@ static void look_in_obj(struct char_data *ch, char *arg)
   }
 }
 
-char *find_exdesc(char *word, struct extra_descr_data *list)
-{
+char *find_exdesc(char *word, struct extra_descr_data *list) {
   struct extra_descr_data *i;
-
-  for (i = list; i; i = i->next)
-    if (*i->keyword == '.' ? isname(word, i->keyword + 1) : isname(word, i->keyword))
+  for (i = list; i; i = i->next) {
+    if (*i->keyword == '.' ? isname(word, i->keyword + 1) : isname(word, i->keyword)) {
       return (i->description);
-
+    }
+  }
   return (NULL);
 }
 
@@ -896,8 +884,8 @@ ACMD(do_score)
   const char *mil_branches[] = {
     "ARMY",
     "NAVY",
-    "USMC",
-    "USAF"
+    "MARINES",
+    "AIRFORCE"
   };
 
   if (IS_NPC(ch))
