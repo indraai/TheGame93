@@ -100,7 +100,7 @@ Eric Sorenson (satanix)~
 ~
 talk:#adventure view:thegame:agent 0207/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
@@ -180,20 +180,15 @@ T 204
 #213
 santa claus man~
 Santa Claus~
-A merry old man with rosy-red cheeks and a full white beard is dressed all in red.
+0213/avatar
 ~
-   "Santa Claus" is the American version of St.  Nicholas, who originally
-descended from the Dutch Sinte Klaas.  Santa's gift-giving role in Christmas
-rites follows from his fame as the friend of children.  His story also tells
-that he used to give donations o spread to Europe and Chritmas presents were
-distributed on Dec.  6 during the pageant of St.  Nicholas.  In many countries,
-this day is still the day of gift-giving although in America it's celebrated on
-Dec.  24 and 25.
+talk:#adventure view:thegame:agent 0213/look
 ~
-10 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
+BareHandAttack: 1
 E
 T 215
 #214
