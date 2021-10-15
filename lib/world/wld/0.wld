@@ -287,10 +287,10 @@ talk:#adventure view:thegame:world 0025/look
 0 0 25
 S
 #25
-The Covenant~
+Christic Institute~
 talk:#adventure view:thegame:world 0025/main
 ~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D3
 talk:#adventure view:thegame:world 0098/look
 ~
@@ -349,12 +349,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
