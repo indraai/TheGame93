@@ -40,32 +40,28 @@ A beautiful horse shakes his mane and swishes his tail.
 8 8 1
 E
 #203
-stablemasters petshops~
-the stablemaster~
-The stablemaster is busily cleaning out the stalls.
+mordechai levy mark 1337 hope~
+Mordechai Levy (mark)~
+0203/avatar
 ~
-   He looks and smells like the rest of the stables.  His clothes are the same
-color and texture as the manure that he shovels into a wheelbarrow beside him.
-He could definitely use a bath.  But he does know his horses and makes a living
-selling, training, and breeding them.
+talk:#adventure view:thegame:agent 0203/look
 ~
-10 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
 #204
-horse pets mare~
-the fine mare~
-A gentle and kind horse stares at you.
+#mud winn schwartau hope 1337~
+Winn Schwartau~
+0204/avatar
 ~
-   The horse seems to be well trained, but somewhat lazy.  She Doesn't look fast
-though her build shows promise of endurance.
+talk:#adventure view:thegame:agent 0204/look
 ~
-10 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 2
+8 8 1
 E
 #205
 jd falk cybernothing 1337 satanic~

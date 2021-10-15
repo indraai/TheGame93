@@ -385,12 +385,13 @@ talk:#adventure view:thegame:agent 0131/look~
 8 8 1
 E
 #132
-butler~
-the butler~
-0131/avatar~
-A butler bows says, 'good day sir' as he walks by with his nose in the air. Dressed in black and white finery this man lives a decent life by serving others.  Not exactly the most prestigious job, but it seems to make him think that he is important.
+ray kaplan 1337 christic romero~
+Ray Kaplan (kaplan)~
+0132/avatar
 ~
-72 0 0 0 0 0 0 0 0 E
+talk:#adventure view:thegame:agent 0132/look
+~
+2074 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1
