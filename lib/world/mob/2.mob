@@ -1,31 +1,26 @@
 #200
-baker's assistant~
-the baker's assistant~
-An assistant to the baker is learning the trade.
+daniel sheehan christic romero~
+Daniel Sheehan~
+0200/avatar
 ~
-   He sifts some flour with glazed over eyes that seem to be somewhere else.
-Obviously daydreaming of better things.  His white apron is covered in floor.
-He stands a good six feet tall, all skin and bones.
+talk:#adventure view:thegame:agent 0200/look
 ~
-10 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1
 E
 #201
-apprentice healer~
-the apprentice healer~
-An apprentice healer helps any who are in need.
+sara nelson christic romero~
+Sara Nelson~
+0201/avatar
 ~
-   He has devoted his life to selflessly aid those who are in need of either
-physical or mental aid.  The monks of Arjika are well known for their aiding
-those physically wounded, but are seldom known for their great prowess in the
-emotoinal aid they give.
+talk:#adventure view:thegame:agent 0201/look
 ~
-72 0 0 0 0 0 0 0 0 E
+2136 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 2
 E
 #202
 sean parker 1337 edge napster~
