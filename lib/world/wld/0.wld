@@ -182,25 +182,25 @@ The Cobra Lounge~
 talk:#adventure view:thegame:world 0015/main
 ~
 0 24 0 0 0 0
-D3
+D2
 talk:#adventure view:thegame:world 0016/look
 ~
 ~
 0 0 16
 S
 #16
-A Rape in Cyberspace~
+The Well~
 talk:#adventure view:thegame:world 0016/main
 ~
 0 24 0 0 0 0
-D0
+D3
 talk:#adventure view:thegame:world 0017/look
 ~
 ~
 0 0 17
 S
 #17
-Kibo Xibo~
+A Rape in Cyberspace~
 talk:#adventure view:thegame:world 0017/main
 ~
 0 24 0 0 0 0
@@ -211,44 +211,39 @@ talk:#adventure view:thegame:world 0018/look
 0 0 18
 S
 #18
-Evil People, Inc.~
+Kibo Xibo~
 talk:#adventure view:thegame:world 0018/main
 ~
 0 24 0 0 0 0
+D0
+talk:#adventure view:thegame:world 0019/look
+~
+~
+0 0 20
+S
+#19
+Evil People, Inc.~
+talk:#adventure view:thegame:world 0019/main
+~
+0 8 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0020/look
 ~
 ~
 0 0 20
-D3
-talk:#adventure view:thegame:world 0019/look
-~
-~
-0 0 19
-S
-#19
-A Quest Room~
-talk:#adventure view:thegame:world 0019/main
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 18
-S
 #20
 Satanic Sysadmins~
 talk:#adventure view:thegame:world 0020/main
 ~
 0 24 0 0 0 0
-D3
+D0
 talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
 S
 #21
-Edge.org~
+DefCon~
 talk:#adventure view:thegame:world 0021/main
 ~
 0 24 0 0 0 0
@@ -259,7 +254,7 @@ talk:#adventure view:thegame:world 0022/look
 0 0 22
 S
 #22
-DefCon~
+Hope~
 talk:#adventure view:thegame:world 0022/main
 ~
 0 24 0 0 0 0
@@ -270,7 +265,7 @@ talk:#adventure view:thegame:world 0023/look
 0 0 23
 S
 #23
-bianca.com~
+Edge.org~
 talk:#adventure view:thegame:world 023/main
 ~
 0 24 0 0 0 0
@@ -280,44 +275,20 @@ talk:#adventure view:thegame:world 0088/look
 ~
 0 0 88
 S
-#33
-Indra's Room~
-talk:#adventure view:thegame:world 0033/main
-~
-0 8 0 0 0 0
-S
-#34
-Pool of Images~
-talk:#adventure view:thegame:world 0034/main
-~
-0 520 0 0 0 0
-S
-#35
-Elora's Den of Dreams~
-talk:#adventure view:thegame:world 0035/main
-~
-0 24 0 0 0 0
-S
-#71
-The Vault Of The Programmer~
-talk:#adventure view:thegame:world 0071/main
-~
-0 1024 0 0 0 9
-S
-#88
-The Well~
-talk:#adventure view:thegame:world 0088/main
+#24
+Survivance~
+talk:#adventure view:thegame:world 0024/main
 ~
 0 24 0 0 0 0
 D3
-talk:#adventure view:thegame:world 0089/look
+talk:#adventure view:thegame:world 0024/look
 ~
 ~
-0 0 89
+0 0 24
 S
-#89
-HOPE~
-talk:#adventure view:thegame:world 0089/main
+#25
+The Covenant~
+talk:#adventure view:thegame:world 0025/main
 ~
 0 8 0 0 0 0
 D3
@@ -326,113 +297,57 @@ talk:#adventure view:thegame:world 0098/look
 ~
 0 0 98
 S
-#90
-Epictetus' Workspace~
-talk:#adventure view:thegame:world 0090/main
+#31
+House Vamraka~
+talk:#adventure view:thegame:world 0033/main
 ~
-0 8 0 0 0 0
-D2
-talk:#adventure view:thegame:world 0089/look
-~
-~
-0 0 89
-E
-drain~
-talk:#adventure view:thegame:world 0090/drain
-~
+0 24 0 0 0 0
 S
-#91
-Aristotle's Workspace~
-talk:#adventure view:thegame:world 0091/main
+#32
+House Indu~
+talk:#adventure view:thegame:world 0032/main
 ~
-0 8 0 0 0 0
-D3
-talk:#adventure view:thegame:world 0089/look
-~
-~
-0 0 89
-E
-shower~
-talk:#adventure view:thegame:world 0091/shower
-~
+0 24 0 0 0 0
 S
-#92
-Plato's Workspace~
-talk:#adventure view:thegame:world 0092/main
+#33
+House Indra~
+talk:#adventure view:thegame:world 0033/main
 ~
-0 8 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0089/look
-~
-~
-0 0 89
+0 24 0 0 0 0
 S
-#93
-Friedrich Nietzsche's Workspace~
-talk:#adventure view:thegame:world 0093/main
+#34
+House Soma~
+talk:#adventure view:thegame:world 0034/main
 ~
-0 8 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0089/look
-~
-~
-0 0 89
+0 24 0 0 0 0
 S
-#94
-Socrates' Workspace~
-talk:#adventure view:thegame:world 0094/main
+#35
+House Bom~
+talk:#adventure view:thegame:world 0035/main
 ~
-0 8 0 0 0 0
-S
-#95
-Confucius' Workspace~
-talk:#adventure view:thegame:world 0095/main
-~
-0 8 0 0 0 0
-S
-#96
-James Stockdale's Workspace~
-talk:#adventure view:thegame:world 0096/main
-~
-0 8 0 0 0 0
-S
-#97
-Open Workspace~
-talk:#adventure view:thegame:world 0097/main
-~
-0 8 0 0 0 0
-D2
-talk:#adventure view:thegame:world 0089/look
-~
-~
-0 0 89
+0 24 0 0 0 0
 S
 #98
 Graduation~
 talk:#adventure view:thegame:world 0098/main
 ~
 0 24 0 0 0 0
-D2
+D3
 talk:#adventure view:thegame:world 0099/look
 ~
 ~
 0 0 99
-D3
-~
-~
-0 0 2
 S
-T 189
 #99
-Party Room~
+Celebration~
 talk:#adventure view:thegame:world 0099/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0098/look
+D3
+talk:#adventure view:thegame:world 0002/look
 ~
 ~
-0 0 98
+0 0 2
 E
 floor~
 talk:#adventure view:thegame:world 0099/floor
