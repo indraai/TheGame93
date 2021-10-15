@@ -223,14 +223,14 @@ talk:#adventure view:thegame:world 0019/look
 S
 #19
 Evil People, Inc.~
-talk:#adventure view:thegame:world 0019/main
-~
+talk:#adventure view:thegame:world 0019/main~
 0 8 0 0 0 0
 D0
 talk:#adventure view:thegame:world 0020/look
 ~
 ~
 0 0 20
+S
 #20
 Satanic Sysadmins~
 talk:#adventure view:thegame:world 0020/main
