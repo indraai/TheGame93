@@ -265,7 +265,7 @@ talk:#adventure view:thegame:world 0023/look
 0 0 23
 S
 #23
-Edge.org~
+Hackers of Planet Earth~
 talk:#adventure view:thegame:world 023/main
 ~
 0 24 0 0 0 0
@@ -349,12 +349,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
