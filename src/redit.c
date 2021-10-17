@@ -344,13 +344,13 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   /* Weird door handling! */
   if (IS_SET(OLC_EXIT(d)->exit_info, EX_ISDOOR)) {
     if (IS_SET(OLC_EXIT(d)->exit_info, EX_PICKPROOF) && IS_SET(OLC_EXIT(d)->exit_info, EX_HIDDEN))
-      strncpy(door_buf, "Hidden Pickproof", sizeof(door_buf)-1);
+      strncpy(door_buf, "Hidden Pickproof Door", sizeof(door_buf)-1);
     else if (IS_SET(OLC_EXIT(d)->exit_info, EX_PICKPROOF))
-      strncpy(door_buf, "Pickproof", sizeof(door_buf)-1);
+      strncpy(door_buf, "Pickproof Door", sizeof(door_buf)-1);
     else if (IS_SET(OLC_EXIT(d)->exit_info, EX_HIDDEN))
-      strncpy(door_buf, "Hidden", sizeof(door_buf)-1);
+      strncpy(door_buf, "Hidden Door", sizeof(door_buf)-1);
     else
-      strncpy(door_buf, "Door", sizeof(door_buf)-1);
+      strncpy(door_buf, "Closable Door", sizeof(door_buf)-1);
   } else
     strncpy(door_buf, "None", sizeof(door_buf)-1);
 
