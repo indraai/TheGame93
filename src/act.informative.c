@@ -601,17 +601,20 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\n# %s\r"
-        "\n%s\r"
+        "\ntalk:#adventure view:thegame:world %d/%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
-        EXIT(ch, dir)->general_description,
+        GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
+        EXIT(ch, dir)->keyword,
+        // EXIT(ch, dir)->general_description,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
     else
-      send_to_char(ch, "\n%s\r"
+      send_to_char(ch, "\n# Look\r"
+        "\ntalk:#adventure view:thegame:world %d/look\r"
         "\nroom: %d\r",
-        EXIT(ch, dir)->general_description,
+        GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
@@ -675,6 +678,7 @@ char *find_exdesc(char *word, struct extra_descr_data *list) {
       return (i->description);
     }
   }
+
   return (NULL);
 }
 
