@@ -384,7 +384,7 @@ static void zedit_disp_flag_menu(struct descriptor_data *d)
   sprintbitarray(OLC_ZONE(d)->zone_flags, zone_bits, ZN_ARRAY_MAX, bits);
   write_to_output(d,
     "\nflags: %s\r"
-    "\nmenu:0:close\r", bits);
+    "\nmenu[close]:0\r", bits);
   OLC_MODE(d) = ZEDIT_ZONE_FLAGS;
 }
 
@@ -542,10 +542,10 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu:n:insert command\r"
-	  "\nmenu:e:edit command\r"
-	  "\nmenu:d:delete command\r"
-	  "\nmenu:q:quit\r");
+	  "\nmenu[insert command]:n\r"
+	  "\nmenu[edit command]:e\r"
+	  "\nmenu[delete command]:d\r"
+	  "\nmenu[quit]:q\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
@@ -556,18 +556,16 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-  "\n## Command Type\r"
-  "\nmenu:d:open/close/lock a door\r"
-  "\nmenu:e:equip mobile with object\r"
-  "\nmenu:g:give an object to mobile"
-  "\nmenu:m:load mobile to room\r"
-  "\nmenu:o:load object to room\r"
-  "\nmenu:p:put an object in another object\r"
-  "\nmenu:r:remove an ojbect from the room\r"
-  "\nmenu:t:assign a trigger\r"
-  "\nmenu:v:set a global variable"
-  "\n===\n"
-  "Please select a command type."
+    "\n## Command Type\r"
+    "\nmenu[open/close/lock a door]:d\r"
+    "\nmenu[equip mobile with object]:e\r"
+    "\nmenu[give an object to mobile]:g"
+    "\nmenu[load mobile to room]:m\r"
+    "\nmenu[load object to room]:o\r"
+    "\nmenu[put an object in another object]:p\r"
+    "\nmenu[remove an ojbect from the room]:r\r"
+    "\nmenu[assign a trigger]:t\r"
+    "\nmenu[set a global variable]:v"
 	);
   OLC_MODE(d) = ZEDIT_COMMAND_TYPE;
 }
@@ -598,7 +596,11 @@ static void zedit_disp_arg1(struct descriptor_data *d)
     break;
   case 'T':
   case 'V':
-    write_to_output(d, "\nInput trigger type (0:mob, 1:obj, 2:room)...\r");
+    write_to_output(d, "\nInput trigger type\r"
+      "\nmenu[agent]:0\r"
+      "\nmenu[object]:1\r"
+      "\nmenu[room]:2\r"
+    );
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   default:
@@ -669,9 +671,9 @@ static void zedit_disp_arg3(struct descriptor_data *d)
   case 'D':
     write_to_output(d,
     "\n## Door State\r"
-    "\nmenu:0:door open\r"
-		"\nmenu:1:door closed\r"
-		"\nmenu:2:door locked\r");
+    "\nmenu[door open]:0\r"
+		"\nmenu[door closed]:1\r"
+		"\nmenu[door locked]:2\r");
     break;
   case 'V':
   case 'T':
@@ -703,12 +705,11 @@ static void zedit_disp_levels(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	"\n## Recommendations\r\n"
-	"\nmenu:1:min level\r"
-	"\nmenu:2:max level\r"
-	"\nmenu:3:clear level\r"
-	"\nmenu:0:quit\r\n"
+	"\nmenu[min level]:1\r"
+	"\nmenu[max level]:2\r"
+	"\nmenu[clear level]:3\r"
   "\ncurrent: %s\r"
-	"\nEnter choice (0 to quit)...\r", lev_string);
+  "\nmenu[quit]:0\r", lev_string);
   OLC_MODE(d) = ZEDIT_LEVELS;
 }
 
@@ -730,7 +731,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       } else
         write_to_output(d, "\nSaving in memory.\r");
 
-      mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "\nOLC: %s edits zone info for room %d.\r", GET_NAME(d->character), OLC_NUM(d));
+      mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits zone info for room %d.", GET_NAME(d->character), OLC_NUM(d));
       /* FALL THROUGH */
     case 'n':
     case 'N':
@@ -824,9 +825,9 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       /* Edit zone reset mode. */
       write_to_output(d,
         "## Zone Reset\r"
-	      "\nmenu:0:never reset\r"
-	      "\nmenu:1:when no players\r"
-	      "\nmenu:2:normal reset\r");
+	      "\nmenu[never reset]:0\r"
+	      "\nmenu[when no players]:1\r"
+	      "\nmenu[normal reset]:2\r");
       OLC_MODE(d) = ZEDIT_ZONE_RESET;
       break;
     case 'f':
