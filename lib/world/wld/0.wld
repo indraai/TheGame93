@@ -39,6 +39,10 @@ talk:#adventure view:thegame:world 0003/look
 ~
 ~
 0 0 3
+D2
+~
+~
+1 0 97
 D3
 talk:#adventure view:thegame:world 0200/look
 ~
@@ -327,6 +331,16 @@ talk:#adventure view:thegame:world 0035/main
 ~
 0 24 0 0 0 0
 S
+#97
+Medical~
+talk:#adventure view:thegame:world 0097/look
+~
+0 24 0 0 0 0
+D0
+~
+~
+1 0 2
+S
 #98
 Graduation~
 talk:#adventure view:thegame:world 0098/main
@@ -349,12 +363,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
