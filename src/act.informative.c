@@ -609,10 +609,9 @@ static void look_in_direction(struct char_data *ch, int dir)
       );
 
     else
-      send_to_char(ch, "\n# Look\r"
-        "\ntalk:#adventure view:thegame:world %d/look\r"
+      send_to_char(ch, "\n%s\r"
         "\nroom: %d\r",
-        GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
+        EXIT(ch, dir)->general_description,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
