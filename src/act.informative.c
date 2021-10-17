@@ -609,7 +609,8 @@ static void look_in_direction(struct char_data *ch, int dir)
       );
 
     else
-      send_to_char(ch, "\n%s\r"
+      send_to_char(ch, "\n# Lo\r"
+        "\n%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->general_description,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
