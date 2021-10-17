@@ -366,8 +366,8 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\nbmud[delete exit]:6\r"
 	  "\nmenu[done]:0\r",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
+    OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
 	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
-	  OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
 	  OLC_EXIT(d)->key != NOTHING ? OLC_EXIT(d)->key : -1,
 	  door_buf
 	  );
