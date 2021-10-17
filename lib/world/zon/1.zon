@@ -9,6 +9,7 @@ M 0 103 1 144 	(Shiro, the weaponsmith)
 M 0 104 1 144 	(Rhian)
 
 M 0 105 2 14    (Mark Petrakis)
+M 0 105 2 15    (Mark Petrakis)
 M 0 105 2 16    (Mark Petrakis)
 
 M 0 106 1 234 	(Captain Lugdach)
@@ -158,7 +159,9 @@ M 0 184 1 150 	(Morgan, the bartender)
 M 0 185 1 361 	(Sareth, the sage)
 M 0 186 1 351 	(the healer)
 M 0 187 1 280 	(the baker)
-M 0 188 1 278 	(the butcher's assistant)
+
+M 0 188 1 17   	(Quinn fazigu)
+
 M 0 189 1 230 	(the commander)
 
 M 0 190 1 5    	(Tyler Ideas)
