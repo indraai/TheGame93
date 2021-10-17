@@ -305,15 +305,16 @@ her....
 E
 T 106
 #125
-young girl~
-the young girl~
+mae young girl~
+Mae~
 0125/avatar~
-A young girl is playing with a little doll. She is enthralled with reenacting a little skit of some sort where her doll is a powerful Magi and is fighting the evil Drakkar.  She is almost as filthy and ragged as the doll that she plays with.
+talk:#adventure view:thegame:agent 0125/look
 ~
-72 0 0 0 0 0 0 0 1000 E
+2136 0 0 0 24576 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 2
+BareHandAttack: 4
 E
 #126
 spy arjika deva~
