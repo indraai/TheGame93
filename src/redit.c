@@ -348,21 +348,21 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
     else if (IS_SET(OLC_EXIT(d)->exit_info, EX_PICKPROOF))
       strncpy(door_buf, "Pickproof", sizeof(door_buf)-1);
     else if (IS_SET(OLC_EXIT(d)->exit_info, EX_HIDDEN))
-      strncpy(door_buf, "Is a Hidden Door", sizeof(door_buf)-1);
+      strncpy(door_buf, "Hidden", sizeof(door_buf)-1);
     else
-      strncpy(door_buf, "Is a door", sizeof(door_buf)-1);
+      strncpy(door_buf, "Door", sizeof(door_buf)-1);
   } else
-    strncpy(door_buf, "No door", sizeof(door_buf)-1);
+    strncpy(door_buf, "None", sizeof(door_buf)-1);
 
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
     "\n## Exit\r"
 	  "\nselect[1:exit to]:%d\r"
-	  "\nselect[2:desc]:%s\r"
-	  "\nselect[3:door name]:%s\r"
+    "\nselect[2:name]:%s\r"
+	  "\nselect[3:describe]:%s\r"
 	  "\nselect[4:key]:%d\r"
-	  "\nselect[5:door flags]:'%s'\r"
+	  "\nselect[5:flags]:%s\r"
 	  "\nbmud[delete exit]:6\r"
 	  "\nmenu[done]:0\r",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -746,6 +746,10 @@ void redit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "\nExit to room number:\r");
       return;
     case '2':
+      OLC_MODE(d) = REDIT_EXIT_KEYWORD;
+      write_to_output(d, "\nExit Name:\r");
+      return;
+    case '3':
       OLC_MODE(d) = REDIT_EXIT_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "\nExit description:\r");
@@ -755,13 +759,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
       }
       string_write(d, &OLC_EXIT(d)->general_description, MAX_EXIT_DESC, 0, oldtext);
       return;
-    case '3':
-      OLC_MODE(d) = REDIT_EXIT_KEYWORD;
-      write_to_output(d, "\nEnter keywords:\r");
-      return;
     case '4':
       OLC_MODE(d) = REDIT_EXIT_KEY;
-      write_to_output(d, "\nEnter key number:\r");
+      write_to_output(d, "\nKey number:\r");
       return;
     case '5':
       OLC_MODE(d) = REDIT_EXIT_DOORFLAGS;
