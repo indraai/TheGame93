@@ -1082,20 +1082,17 @@ like.
 E
 T 106
 #188
-butcher assistant~
-the butcher's assistant~
-The butcher's assistant is learning the trade.
+quinn fazigu schmoo 1337~
+Quinn (fazigu)~
+talk:#adventure view:thegame:agent 0188/avatar
 ~
-   He looks up to his father is in most young men.  The field their father
-works in is almost always what they end up doing.  He seems resigned to his
-fate of cutting meat for the rest of his life.
+talk:#adventure view:thegame:agent 0188/look
 ~
-188426 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
-T 106
 #189
 commander arjika arjikiya army a0189 z1~
 Arjika Commander~
