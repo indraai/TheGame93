@@ -1084,10 +1084,8 @@ T 106
 #188
 quinn fazigu schmoo 1337~
 Quinn (fazigu)~
-talk:#adventure view:thegame:agent 0188/avatar
-~
-talk:#adventure view:thegame:agent 0188/look
-~
+0188/avatar~
+talk:#adventure view:thegame:agent 0188/look~
 2074 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
