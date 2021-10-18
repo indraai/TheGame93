@@ -8,9 +8,9 @@ M 0 102 1 281 	(Liam)
 M 0 103 1 144 	(Shiro, the weaponsmith)
 M 0 104 1 144 	(Rhian)
 
-M 0 105 2 14    (Mark Petrakis)
-M 0 105 2 15    (Mark Petrakis)
-M 0 105 2 16    (Mark Petrakis)
+M 0 105 3 14    (Mark Petrakis)
+M 0 105 3 15    (Mark Petrakis)
+M 0 105 3 16    (Mark Petrakis)
 
 M 0 106 1 234 	(Captain Lugdach)
 M 0 107 1 149 	(Branwen, the leatherworker)
@@ -27,7 +27,7 @@ M 0 116 2 16 	  (Robert Steele)
 M 0 116 2 23 	  (Robert Steele)
 
 M 0 117 1 108 	(Trent Lavery)
-M 0 118 1 108 	(Tabitha Lavery)
+M 0 118 1 24   	(Tabitha Lavery)
 
 M 0 119 1 224 	(Mr. Dewity)
 
@@ -79,7 +79,6 @@ M 0 151 1 178 	(the midwife)
 M 0 152 1 178 	(the newborn baby)
 
 M 0 153 2 3   	(Douglas Rushkoff)
-M 0 153 2 24   	(Douglas Rushkoff)
 
 M 0 154 3 146 	(the patrolman)
 M 0 155 1 107 	(the War Master)
@@ -119,9 +118,12 @@ G 1 149 99 -1 	(a dustpan)
 
 
 M 0 162 1 22 	  (Dan Farmer)
-M 0 163 1 3    	(John Romero)
+
+M 0 163 2 3    	(John Romero)
+M 0 163 2 24    (John Romero)
+
 M 0 164 1 12 	  (Michael Nebadon)
-M 0 165 1 171 	(the beggar)
+M 0 165 1 171 	(Indu Monk)
 M 0 166 1 283 	(the lance corporal)
 M 0 167 1 152 	(the staff sergeant)
 M 0 168 1 4    	(Tyler PM2012)
@@ -153,7 +155,7 @@ M 0 181 4 114 	(the lookout)
 M 0 181 4 119 	(the lookout)
 M 0 181 4 106 	(the lookout)
 
-M 0 182 1 221 	(Ingrid)
+M 0 182 1 24   	(Brenda Romero)
 M 0 183 1 110 	(the Master Thief)
 M 0 184 1 150 	(Morgan, the bartender)
 M 0 185 1 361 	(Sareth, the sage)
