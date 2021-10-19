@@ -232,26 +232,13 @@ generic staff~
 Since this staff is completely generic there are no distinctive features worth noticing.
 ~
 #218
-loaf bread food~
-a loaf of bread~
-A loaf of freshly baked bread was left here.~
+jalapeno cheese bread food~
+Jalapeno Cheese Bread~
+A loaf of freshly baked jalapeno cheese bread was left here.~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 10 0 0 0
-#219
-pile ashes~
-a pile of ashes~
-A pile of ashes is slowly being blown away by the wind.~
-~
-12 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 0 0
-T 212
-E
-pile ashes~
-The ashes are an unnatural mix of black and silver powder.  Too fine to have come from a regular fire.
-~
 #220
 wrapped birthday present~
 a wrapped birthday present~
@@ -277,8 +264,7 @@ A gray cloak emits a faint glow.~
 T 219
 E
 gray cloak~
-   The cloak must be imbued with some magical property.  The cloth seems
-excessively strong though still feels soft and light.
+The cloak must be imbued with some magical property.  The cloth seems excessively strong though still feels soft and light.
 ~
 #222
 wrapped christmas present~
