@@ -105,166 +105,14 @@ E
 comfy bed~
 This bed is beckoning you to lie down and get some much needed sleep. Just "sleep bed"
 ~
-#12
-generic light~
-a generic light~
-A generic light is lying here.~
-~
-1 0 0 0 0 ao 0 0 0 0 0 0 0
-0 0 -1 0
-1 1 0 0 0
-E
-generic light~
-Since this light is completely generic there are no distinctive features worth noticing.
-~
-#13
-generic ring rfinger~
-a generic ring~
-A generic ring is lying here.~
-~
-9 0 0 0 0 abo 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-ring right~
-Since this ring is completely generic there are no distinctive features worth noticing.
-~
-#14
-generic ring lfinger~
-a generic ring~
-A generic ring is lying here.~
-~
-9 0 0 0 0 ab 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-ring left~
-Since this ring is completely generic there are no distinctive features worth noticing.
-~
-#15
-generic necklace~
-Necklace~
-A generic necklace is lying here.~
-~
-9 0 0 0 0 ac 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-neck1 necklace~
-Since this necklace is completely generic there are no distinctive features worth noticing.
-~
-#16
-generic body armor~
-a set of generic body armor~
-A set of generic body armor is lying here.~
-~
-9 0 0 0 0 ad 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-generic body armor~
-Since this body armor is completely generic there are no distinctive features worth noticing.
-~
-#17
-Helmet~
-helmet uniform~
-A helmet is lying here.~
-~
-9 0 0 0 0 ae 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-helmet~
-Since this helm is completely generic there are no distinctive features worth noticing.
-~
-#18
-pants~
-pants~
-A pair of pants are lying here.~
-~
-9 0 0 0 0 af 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-pants~
-Since this pair of leggings is completely generic there are no distinctive features worth noticing.
-~
 #19
-boots~
-boots~
-A pair of generic boots are lying here.~
+barry boots~
+Barry Boots~
+A pair of Barry Boots are here.~
 ~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-boots~
-Since the pair of boots are completely generic there are no distinctive features worth noticing.
-~
-#20
-gloves uniform~
-Gloves~
-A pair of gloves are lying here.~
-~
-9 0 0 0 0 ah 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-gloves~
-Since the pair of gloves are completely generic there are no distinctive features worth noticing.
-~
-#21
-sleeves uniform~
-Sleeves~
-A pair of generic sleeves are lying here.~
-~
-9 0 0 0 0 ai 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-sleeves~
-Since the pair of sleeves are completely generic there are no distinctive features worth noticing.
-~
-#22
-shield uniform~
-Shield~
-A shield is lying here.~
-~
-9 0 0 0 0 aj 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-#22
-cape uniform~
-Cape~
-A generic cape is lying here.~
-~
-9 0 0 0 0 ak 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-#23
-belt uniform~
-Belt~
-A belt is lying here.~
-~
-9 0 0 0 0 al 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-belt~
-Since the belt is completely generic there are no distinctive features worth noticing.
-~
-#24
-wristguard uniform~
-Wristguard~
-A wristguard is lying here.~
-~
-9 0 0 0 0 am 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-wristguard~
-Since the wristguard is completely generic there are no distinctive features worth noticing.
-~
 #25
 security key~
 Security Key~
@@ -273,10 +121,6 @@ A large key painted red and hanging on a metal ring was left here.~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 10 0 0 0
-E
-key~
-This old fashioned skeleton key has been painted a bright red and is all alone on an over-sized metal key ring.
-~
 #26
 sign open~
 Open Sign~
@@ -285,10 +129,6 @@ A simple wooden sign hanging from a shop to the North states, "OPEN."~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-sign~
-The wooden sign says OPEN in big bright letters.
-~
 #70
 sign closed~
 Closed Sign~
@@ -297,10 +137,6 @@ A simple wooden sign hanging from a shop to the North states, "CLOSED."~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-sign~
-The wooden sign says CLOSED in big bright letters.
-~
 #93
 army message board~
 Army Board~

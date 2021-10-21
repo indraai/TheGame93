@@ -1,159 +1,99 @@
 #200
-generic light~
-a generic light~
-A generic light is lying here.~
+light~
+Military Light~
+A military light is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
 1 1 0 0 0
-E
-generic light~
-Since this light is completely generic there are no distinctive features worth noticing.
-~
 #201
-generic body armor~
-a set of generic body armor~
-A set of generic body armor is lying here.~
+shirt~
+Military Shirt~
+A set of body armor is lying here.~
 ~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic body armor~
-Since this body armor is completely generic there are no distinctive features worth noticing.
-~
 #202
-generic helmet~
-a generic helmet~
-A generic helm is lying here.~
+helmet~
+Military Helmet~
+A military helmet is here.~
 ~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic helm~
-Since this helm is completely generic there are no distinctive features worth noticing.
-~
 #203
-generic leggings~
-a pair of generic leggings~
-A pair of generic leggings are lying here.~
+pants~
+Military Pants~
+A pair of pants.~
 ~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic leggings~
-Since this pair of leggings is completely generic there are no distinctive features worth noticing.
-~
 #204
-generic boots~
-a pair of generic boots~
-A pair of generic boots are lying here.~
+boots~
+Military Boots~
+A pair of military boots is here.~
 ~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic boots~
-Since the pair of boots are completely generic there are no distinctive features worth noticing.
-~
 #205
-generic gloves~
-a pair of generic gloves~
-A pair of generic gloves are lying here.~
+gloves~
+Military Gloves~
+A pair of military gloves are here.~
 ~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic gloves~
-Since the pair of gloves are completely generic there are no distinctive features worth noticing.
-~
 #206
-generic sleeves~
-a pair of generic sleeves~
-A pair of generic sleeves are lying here.~
+shirt~
+Military Jacket~
+A military jacket is here.~
 ~
 9 0 0 0 0 ai 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic sleeves~
-Since the pair of sleeves are completely generic there are no distinctive features worth noticing.
-~
 #207
-generic shield~
-a generic shield~
-A generic shield is lying here.~
+shield~
+Military Shield~
+A military shield is lying here.~
 ~
 9 0 0 0 0 aj 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic shield~
-Since the shield is completely generic there are no distinctive features worth noticing.
-~
 #208
-generic belt~
-a generic belt~
-A generic belt is lying here.~
+belt~
+Military Belt~
+A military belt is lying here.~
 ~
 9 0 0 0 0 al 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic belt~
-Since the belt is completely generic there are no distinctive features worth noticing.
-~
 #209
-generic wristguard rwrist~
-a generic wristguard~
-A generic wristguard is lying here.~
+wristguard rwrist~
+Military Wristguard (R)~
+A military wristguard (r) is lying here.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic wristguard~
-Since the wristguard is completely generic there are no distinctive features worth noticing.
-~
 #210
-generic wristguard lwrist~
-a generic wristguard~
-A generic wristguard is lying here.~
+wristguard lwrist~
+Military Wristguard (L)~
+A military wristguard (l) is lying here.~
 ~
 9 0 0 0 0 am 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-E
-generic wristguard~
-Since the wristguard is completely generic there are no distinctive features worth noticing.
-~
 #211
-generic weapon~
-a generic weapon~
-A generic weapon is lying here.~
+weapon~
+Military Weapon~
+A military weapon is here.~
 ~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 1 2 2 0
 1 2 0 0 0
-E
-generic weapon~
-Since this weapon is completely generic there are no distinctive features worth noticing.
-~
-#212
-generic staff~
-a generic staff~
-A generic staff is lying here.~
-~
-9 0 0 0 0 ao 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-generic staff~
-Since this staff is completely generic there are no distinctive features worth noticing.
-~
 #218
 jalapeno cheese bread food~
 Jalapeno Cheese Bread~
@@ -162,46 +102,6 @@ A loaf of freshly baked jalapeno cheese bread was left here.~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 10 0 0 0
-#220
-wrapped birthday present~
-a wrapped birthday present~
-A beautifully wrapped birthday present has been set here.~
-~
-8 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-T 220
-E
-wrapped birthday present~
-This parcel offers no hint whatsoever as to what may be inside.  The only way to find out what it holds is to unwrap it!
-~
-#221
-magical gray cloak~
-a gray cloak~
-A gray cloak emits a faint glow.~
-~
-9 0 0 0 0 ak 0 0 0 0 0 0 0
-1 0 0 0
-1 100 0 0 0
-T 219
-E
-gray cloak~
-The cloak must be imbued with some magical property.  The cloth seems excessively strong though still feels soft and light.
-~
-#222
-wrapped christmas present~
-a @RC@gh@Rr@gi@Rs@gt@Rm@ga@Rs @gp@Rr@ge@Rs@ge@Rn@gt@n~
-A beautifully wrapped @RC@gh@Rr@gi@Rs@gt@Rm@ga@Rs @gp@Rr@ge@Rs@ge@Rn@gt@g has been set here.@n~
-~
-8 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-wrapped christmas present~
-This parcel offers no hint whatsoever as to what may be inside.  Covered in
-tinsel and festively patterned glitter paper, the only way to find out what it
-holds is to unwrap it!
-~
 #251
 water marble fountain water~
 The Fountain of Pure Water~
@@ -214,28 +114,28 @@ DO NOT ENTER FOUNTAIN!
 0 0 0 0 0
 T 201
 E
-statues figures~
-Below each statue is engraved a name... Indu, Bom, Soma, Indra, Arjikiya.  More is written below the names but you must look more closely to read it.
+statues~
+Below each statue is engraved a name... Vamraka, Indu, Indra, Soma, Bom.  More is written below the names but you must look more closely to read it.
+~
+E
+vamraka~
+Vamraka... To bring the all.
 ~
 E
 indu~
 Indu... To bring peace where there was only war.
 ~
 E
-bom~
-Bom...  To bring justice where there was only inequity.
+indra~
+Indra... To bring balance where there was only chaos.
 ~
 E
 soma~
 Soma... To bring freedom where there was only coercion.
 ~
 E
-indra~
-Indra... To bring balance where there was only chaos.
-~
-E
-arjikiya~
-Arjikiya... To bring Arjika to the world.
+bom~
+Bom...  To bring justice where there was only inequity.
 ~
 E
 fountain~
