@@ -349,9 +349,9 @@ the_ut stephen huntley watt 1337 mayhem~
 Stephen Watt (the_ut)~
 0129/avatar~
 talk:#adventure view:thegame:agent 0129/look~
-2074 0 0 0 0 0 0 0 -100 E
-1 20 9 0d0+10 1d2+0
-20 100
+2078 0 0 0 0 0 0 0 -150 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 BareHandAttack: 7
 E
@@ -360,9 +360,9 @@ brenda laurel spoonkids covenant goddess 1337~
 Brenda Laurel (goddess)~
 0130/avatar~
 talk:#adventure view:thegame:agent 0130/look~
-2074 0 0 0 0 0 0 0 700 E
-1 20 9 0d0+10 1d2+0
-10 100
+2074 0 0 0 0 0 0 0 -150 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 2
 E
 #131
@@ -621,8 +621,8 @@ Douglas Rushkoff (rushkoff)~
 0153/avatar~
 talk:#adventure view:thegame:agent 0153/look~
 2074 0 0 0 0 0 0 0 -100 E
-1 19 8 0d0+30 1d2+0
-20 900
+1 20 9 0d0+10 1d2+0
+10 100
 8 8 1
 BareHandAttack: 4
 E
@@ -671,9 +671,10 @@ Cameron (telecomix)~
 0157/avatar~
 talk:#adventure view:thegame:agent 0157/look~
 2074 0 0 0 0 0 0 0 -100 E
-1 20 9 0d0+10 1d2+0
-20 100
+3 19 8 0d0+30 1d2+0
+30 900
 8 8 2
+BareHandAttack: 3
 E
 #158
 sharon schamber~
@@ -734,9 +735,9 @@ john romero 1337~
 John Romero (romero)~
 0163/avatar~
 talk:#adventure view:thegame:agent 0163/look~
-2074 0 0 0 0 0 0 0 -100 E
-1 19 8 0d0+30 1d2+0
-20 900
+2078 0 0 0 0 0 0 0 -100 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 BareHandAttack: 2
 E
@@ -745,9 +746,9 @@ michael nebadon 1337~
 Michael Nebadon (michael)~
 0164/avatar~
 talk:#adventure view:thegame:agent 0164/look~
-2074 0 0 0 0 0 0 0 400 E
-1 20 9 0d0+10 1d2+0
-10 100
+2074 0 0 0 0 0 0 0 -150 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 BareHandAttack: 4
 E
@@ -806,7 +807,7 @@ pm2013 tyler anonymous 1337~
 Tyler (pm2013)~
 0169/avatar~
 talk:#adventure view:thegame:agent 0169/look~
-2074 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -175 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
@@ -818,9 +819,9 @@ m1vr4 tg23 thegame23 tyler anonymous 1337~
 m1Vr4~
 0170/avatar~
 talk:#adventure view:thegame:agent 0170/look~
-2074 0 0 0 0 0 0 0 -100 E
-1 20 9 0d0+10 1d2+0
-20 100
+2078 0 0 0 0 0 0 0 -100 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 BareHandAttack: 5
 E
@@ -830,7 +831,7 @@ pm2020 tyler anonymous 1337~
 Tyler (pm2020)~
 0171/avatar~
 talk:#adventure view:thegame:agent 0171/look~
-2074 0 0 0 2048 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
@@ -842,22 +843,11 @@ ethersec tyler anonymous 1337~
 Tyler (ethersec)~
 0172/avatar~
 talk:#adventure view:thegame:agent 0172/look~
-2074 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
+2074 0 0 0 0 0 0 0 -150 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 BareHandAttack: 10
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
 E
 T 6
 #173
@@ -1061,23 +1051,23 @@ talk:#adventure view:thegame:agent 0189/look~
 8 8 1
 E
 #190
-tyler pm2012 ideas 1337~
-Tyler (ideas)~
+tyler dangerous pm2012 1337~
+Tyler Dangerous~
 0190/avatar~
 talk:#adventure view:thegame:agent 0190/look~
 2074 0 0 0 0 0 0 0 -100 E
-1 20 9 0d0+10 1d2+0
-20 100
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 E
 #191
 tyler it 1337 egregore~
-Tyler (it)~
+Tyler It~
 0191/avatar~
 talk:#adventure view:thegame:agent 0191/look~
-2074 0 0 0 0 0 0 0 0 E
-1 19 7 0d0+40 1d2+0
-40 1600
+2074 0 0 0 0 0 0 0 -150 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 E
 #192
@@ -1085,7 +1075,7 @@ tyler ethersec 1337 pm2020~
 Tyler (EtherSec)~
 0192/avatar~
 talk:#adventure view:thegame:agent 0192/look~
-2074 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
@@ -1095,9 +1085,9 @@ project89 tyler 1337~
 Tyler (project89)~
 0193/avatar~
 talk:#adventure view:thegame:agent 0193/look~
-2074 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
+2074 0 0 0 0 0 0 0 -150 E
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 E
 #194
