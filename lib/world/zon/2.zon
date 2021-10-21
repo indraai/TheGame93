@@ -25,11 +25,11 @@ O 0 218 99 2  	(jalapeno cheese bread)
 O 0 180 99 2  	(Candy Dirt)
 O 0 179 99 2  	(Canteen)
 
-O 0 251 4 2    	(a marble fountain)
-O 0 251 4 11    	(a marble fountain)
-O 0 251 4 21    	(a marble fountain)
-O 0 251 4 100 	(a marble fountain)
-O 0 251 4 251 	(a marble fountain)
+O 0 251 5 2    	(a marble fountain)
+O 0 251 5 11    (a marble fountain)
+O 0 251 5 21    (a marble fountain)
+O 0 251 5 100 	(a marble fountain)
+O 0 251 5 251 	(a marble fountain)
 
 S
 $
