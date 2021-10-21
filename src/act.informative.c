@@ -315,7 +315,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
     act("$n is using...", FALSE, i, 0, ch, TO_VICT);
     for (j = 0; j < NUM_WEARS; j++)
       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
-	      send_to_char(ch, "\nobject:%s\r", wear_where[j]);
+	      // send_to_char(ch, "\nobject:%s\r", wear_where[j]);
 	      show_obj_to_char(GET_EQ(i, j), ch, SHOW_OBJ_SHORT);
       }
   }
