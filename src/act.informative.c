@@ -883,10 +883,10 @@ ACMD(do_score)
 {
   struct time_info_data playing_time;
   const char *mil_branches[] = {
-    "ARMY",
-    "NAVY",
-    "MARINES",
-    "AIRFORCE"
+    "ARM",
+    "NAV",
+    "MAR",
+    "AIR"
   };
 
   if (IS_NPC(ch))
