@@ -179,10 +179,21 @@ barry arjika deva~
 Barry Deva~
 0009/avatar~
 talk:#adventure view:thegame:agent 0009/look~
-6300 0 0 0 24696 0 0 0 0 E
+2200 0 0 0 24696 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 BareHandAttack: 1
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 $
