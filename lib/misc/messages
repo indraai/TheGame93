@@ -380,12 +380,12 @@ $n tries to whip $N - yawn.
 
 M
 302
-You whip $N's head right off of $S body!
-$n whips your head right off of your body!
-$n whips $N's head right off of $S body!
-You crack your whip at $N but it hits you in the face!
-$n cracks $s whip at you and it hits $m in the face!
-$n cracks $s whip at $N but only hits $mself in the face!
+fight:You whip $N's head right off of $S body!
+fight:$n whips your head right off of your body!
+fight:$n whips $N's head right off of $S body!
+fight:You crack your whip at $N but it hits you in the face!
+fight:$n cracks $s whip at you and it hits $m in the face!
+fight:$n cracks $s whip at $N but only hits $mself in the face!
 #
 #
 #
@@ -396,42 +396,42 @@ $n tries to whip $N - isn't he cute?
 * 303
 M
 303
-Your powerful slash cleanly cuts off $N's head, which rolls away with a look of horror on it.
-You briefly feel the sensation of flight as $n slices your head cleanly off!
-$n cleanly slices off $N's head which rolls away with a look of horror on it!
-$N is cooled by the breeze of your missed slash at $M.
-$n cools you with the breeze of $s missed slash at you.
-$n cools $N with the breeze of $s missed slash.
+fight:Your powerful slash cleanly cuts off $N's head, which rolls away with a look of horror on it.
+fight:You briefly feel the sensation of flight as $n slices your head cleanly off!
+fight:$n cleanly slices off $N's head which rolls away with a look of horror on it!
+fight:$N is cooled by the breeze of your missed slash at $M.
+fight:$n cools you with the breeze of $s missed slash at you.
+fight:$n cools $N with the breeze of $s missed slash.
 #
 #
 #
-Yeah, right.
-$n tries to slash you... yeah, right.
-$n tries to slash $N... yeah, right.
+fight:Yeah, right.
+fight:$n tries to slash you... yeah, right.
+fight:$n tries to slash $N... yeah, right.
 
 M
 303
-$N cries out in agony as you slash $S ribcage open!
-Your ribcage is slashed by $n!
-$n nicely dissects $N's ribcage with a single slash!
-You try to slash $N but miss by a mile.
-$n's slash misses you by a mile.
-$n's slash at $N misses $M by a mile.
+fight:$N cries out in agony as you slash $S ribcage open!
+fight:Your ribcage is slashed by $n!
+fight:$n nicely dissects $N's ribcage with a single slash!
+fight:You try to slash $N but miss by a mile.
+fight:$n's slash misses you by a mile.
+fight:$n's slash at $N misses $M by a mile.
 #
 #
 #
-It's rude to try to slash a DEVA, you know.
-$n tries to slash you -- how rude!
-$n tries to slash $N -- how rude!
+fight:It's rude to try to slash a DEVA, you know.
+fight:$n tries to slash you -- how rude!
+fight:$n tries to slash $N -- how rude!
 
 M
 303
-Your jab at $N results in $S immediate demise!
-Boogers spurts all over as $n slashes at you.  You ...
-$n slashes at $N who screams from $S hit.
-You miss $N by an inch!
-You manage to dodge $n's slash and laugh, HA!
-$n's slash misses $N who laughs in sheer delight, HA!
+fight:Your jab at $N results in $S immediate demise!
+fight:Boogers spurts all over as $n sneezes on you.  You ...
+fight:$n slashes at $N who screams from $S hit.
+fight:You miss $N by an inch!
+fight:You manage to dodge $n's slash and laugh, HA!
+fight:$n's slash misses $N who laughs in sheer delight, HA!
 #
 #
 #
@@ -441,43 +441,43 @@ The great $N seems to ignore $n's slashes.
 
 M
 303
-You beautifully slash $N into two parts -- both dead.
-Your upper body is disconnected from your legs as $n slashes at you!
-$N is slashed in two by a masterful stroke of $n!
-Your desperate slash at $N is easily avoided by $M.
-You easily avoid a slash from $n.
-$N nimbly avoids $n's slash.
+fight:You beautifully kick $N into outer space.
+fight:Your body has been sent into outer space by $n power!
+fight:$N is thrown into outer space by a masterful stroke of $n!
+fight:Your desperate power move at $N is easily avoided by $M.
+fight:You easily avoid a power move from $n.
+fight:$N nimbly avoids $n's power move.
 #
 #
 #
-Your cunning slash at $N is fruitless.
-You nimbly stop a slash from $n.
-$N stops a cunning slash from $n who looks disappointed.
+fight:Your cunning slash at $N is fruitless.
+fight:You nimbly stop a slash from $n.
+fight:$N stops a cunning slash from $n who looks disappointed.
 
 * 304
 M
 304
-You bite $N through $S ribcage and into $S heart -- $e falls to the ground in agony.
-$n bites you right through your ribcage and into your heart -- you fall to the ground writhing in agony...
-$n's powerful jaw bites through $N's ribcage into $S heart -- $E falls to the ground writhing in agony!
-You try to bite $N but bite your tongue instead.
-$n tries to bite you but bites $s tongue instead!
-$n tries to bite $N but bites $s own tongue instead!
+fight:You bite $N through $S ribcage and into $S heart -- $e falls to the ground in agony.
+fight:$n bites you right through your ribcage and into your heart -- you fall to the ground writhing in agony...
+fight:$n's powerful jaw bites through $N's ribcage into $S heart -- $E falls to the ground writhing in agony!
+fight:You try to bite $N but bite your tongue instead.
+fight:$n tries to bite you but bites $s tongue instead!
+fight:$n tries to bite $N but bites $s own tongue instead!
 #
 #
 #
-Aren't you trying to bite off more than you can chew?
-$n snaps at you but realizes $e is biting off more than $e can chew.
-$n stupidly tries to bite off more than $e can chew by snapping at $N.
+fight:Aren't you trying to bite off more than you can chew?
+fight:$n snaps at you but realizes $e is biting off more than $e can chew.
+fight:$n stupidly tries to bite off more than $e can chew by snapping at $N.
 
 M
 304
-You slap $N's face -- tears spray everywhere!
-$n slaps $s in the face, tearing your tears from your eyeballs!
-$n uses $s hand to slap $N's face, oh $S SLAP!
-You slap at $N but miss.
-$n slaps $s at you fiercely but misses.
-$n fiercely slaps $s at $N but misses the mark.
+fight:You slap $N's face -- tears spray everywhere!
+fight:$n slaps $s in the face, tearing your tears from your eyeballs!
+fight:$n uses $s hand to slap $N's face, oh $S SLAP!
+fight:You slap at $N but miss.
+fight:$n slaps $s at you fiercely but misses.
+fight:$n fiercely slaps $s at $N but misses the mark.
 #
 #
 #

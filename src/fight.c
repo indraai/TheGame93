@@ -37,8 +37,8 @@ struct attack_hit_type attack_hit_text[] =
   {"push", "pushes"},
   {"smack", "smacks"},
   {"pull hair", "pulls hair"},
-  {"kick shin", "kicks shins"},
-  {"KungFu Punch", "Kung Fu Punches"},  /* 5 */
+  {"shin kick", "shin kicks"},
+  {"KungFu Punch", "KungFu Punches"},  /* 5 */
   {"KungFu Kick", "KungFu Kicks"},
   {"Hammer Fist", "Hammer Fists"},
   {"Ultra Kick", "Ultra Kicks"},
@@ -532,40 +532,23 @@ int skill_message(int dam, struct char_data *ch, struct char_data *vict,
          */
         if (GET_POS(vict) == POS_DEAD) {
           if (msg->die_msg.attacker_msg) {
-            send_to_char(ch, CCYEL(ch, C_CMP));
             act(msg->die_msg.attacker_msg, FALSE, ch, weap, vict, TO_CHAR);
-            send_to_char(ch, CCNRM(ch, C_CMP));
           }
 
-          send_to_char(vict, CCRED(vict, C_CMP));
           act(msg->die_msg.victim_msg, FALSE, ch, weap, vict, TO_VICT | TO_SLEEP);
-          send_to_char(vict, CCNRM(vict, C_CMP));
-
           act(msg->die_msg.room_msg, FALSE, ch, weap, vict, TO_NOTVICT);
         } else {
           if (msg->hit_msg.attacker_msg) {
-            send_to_char(ch, CCYEL(ch, C_CMP));
             act(msg->hit_msg.attacker_msg, FALSE, ch, weap, vict, TO_CHAR);
-            send_to_char(ch, CCNRM(ch, C_CMP));
           }
-
-          send_to_char(vict, CCRED(vict, C_CMP));
           act(msg->hit_msg.victim_msg, FALSE, ch, weap, vict, TO_VICT | TO_SLEEP);
-          send_to_char(vict, CCNRM(vict, C_CMP));
-
           act(msg->hit_msg.room_msg, FALSE, ch, weap, vict, TO_NOTVICT);
         }
       } else if (ch != vict) {	/* Dam == 0 */
         if (msg->miss_msg.attacker_msg) {
-          send_to_char(ch, CCYEL(ch, C_CMP));
           act(msg->miss_msg.attacker_msg, FALSE, ch, weap, vict, TO_CHAR);
-          send_to_char(ch, CCNRM(ch, C_CMP));
         }
-
-        send_to_char(vict, CCRED(vict, C_CMP));
         act(msg->miss_msg.victim_msg, FALSE, ch, weap, vict, TO_VICT | TO_SLEEP);
-        send_to_char(vict, CCNRM(vict, C_CMP));
-
         act(msg->miss_msg.room_msg, FALSE, ch, weap, vict, TO_NOTVICT);
       }
       return (1);
