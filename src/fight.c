@@ -175,10 +175,10 @@ static void make_corpse(struct char_data *ch)
   IN_ROOM(corpse) = NOWHERE;
   corpse->name = strdup("corpse");
 
-  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s is knocked out.", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "%s is preparing to re-spawn.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s is is knocketd out.", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
@@ -248,7 +248,7 @@ void death_cry(struct char_data *ch)
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))
-      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nfight:Is there a tackle battle?\r");
+      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nfight:Is there a battle?\r");
 }
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
@@ -281,7 +281,7 @@ struct char_data *i;
 
   /* Alert Group if Applicable */
   if (GROUP(ch))
-    send_to_group(ch, GROUP(ch), "%s has been tackled.\r\n", GET_NAME(ch));
+    send_to_group(ch, GROUP(ch), "\nfight:%s has been tackled.\r", GET_NAME(ch));
 
   update_pos(ch);
 
@@ -605,7 +605,7 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
 
   /* shopkeeper and MOB_NOKILL protection */
   if (!ok_damage_shopkeeper(ch, victim) || MOB_FLAGGED(victim, MOB_NOKILL)) {
-    send_to_char(ch, "\nfight:This mob is protected.\r");
+    send_to_char(ch, "\nfight:This agent is protected.\r");
     return (0);
   }
 
