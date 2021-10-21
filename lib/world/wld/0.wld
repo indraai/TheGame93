@@ -65,7 +65,7 @@ S
 Project Mayhem 2012~
 talk:#adventure view:thegame:world 0004/main
 ~
-0 24 0 0 0 0
+0 8 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0005/look
 ~
@@ -364,12 +364,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
