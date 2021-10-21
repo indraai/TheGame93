@@ -21,9 +21,18 @@ O 0 300 1 224 	(atm)
 
 O 0 218 99 100 	(jalapeno cheese bread)
 O 0 218 99 251 	(jalapeno cheese bread)
+O 0 218 99 251 	(jalapeno cheese bread)
+O 0 218 99 251 	(jalapeno cheese bread)
+O 0 218 99 251 	(jalapeno cheese bread)
+O 0 218 99 2  	(jalapeno cheese bread)
+O 0 218 99 2  	(jalapeno cheese bread)
+O 0 218 99 2  	(jalapeno cheese bread)
+O 0 218 99 2  	(jalapeno cheese bread)
+O 0 218 99 2  	(jalapeno cheese bread)
 
-O 0 251 2 100 	(a marble fountain)
-O 0 251 2 251 	(a marble fountain)
+O 0 251 3 2    	(a marble fountain)
+O 0 251 3 100 	(a marble fountain)
+O 0 251 3 251 	(a marble fountain)
 
 S
 $
