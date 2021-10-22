@@ -250,9 +250,9 @@ void gain_exp(struct char_data *ch, int gain)
       mudlog(BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s advanced %d level%s to level %d.",
 		GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s", GET_LEVEL(ch));
       if (num_levels == 1)
-        send_to_char(ch, "You rise a level!\r\n");
+        send_to_char(ch, "\nalert:You rise a level!\r");
       else
-	send_to_char(ch, "You rise %d levels!\r\n", num_levels);
+	send_to_char(ch, "\nalert:You rise %d levels!\r", num_levels);
       set_title(ch, NULL);
       if (GET_LEVEL(ch) >= LVL_IMMORT && !PLR_FLAGGED(ch, PLR_NOWIZLIST))
         run_autowiz();
@@ -292,9 +292,9 @@ void gain_exp_regardless(struct char_data *ch, int gain)
       mudlog(BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s advanced %d level%s to level %d.",
 		GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s", GET_LEVEL(ch));
       if (num_levels == 1)
-        send_to_char(ch, "You rise a level!\r\n");
+        send_to_char(ch, "\nalert:You rise a level!\r");
       else
-	send_to_char(ch, "You rise %d levels!\r\n", num_levels);
+	send_to_char(ch, "\nalert:You rise %d levels!\r", num_levels);
       set_title(ch, NULL);
     }
   }
@@ -321,14 +321,14 @@ void gain_condition(struct char_data *ch, int condition, int value)
 
   switch (condition) {
   case HUNGER:
-    send_to_char(ch, "You are hungry.\r\n");
+    send_to_char(ch, "\npos[hunger]:You are hungry.\r");
     break;
   case THIRST:
-    send_to_char(ch, "You are thirsty.\r\n");
+    send_to_char(ch, "\npos[thirst]:You are thirsty.\r");
     break;
   case DRUNK:
     if (intoxicated)
-      send_to_char(ch, "You are now sober.\r\n");
+      send_to_char(ch, "\npos[drunk]:You are drunk.\r");
     break;
   default:
     break;
@@ -346,7 +346,7 @@ static void check_idling(struct char_data *ch)
 	stop_fighting(ch);
       }
       act("$n disappears into the void.", TRUE, ch, 0, 0, TO_ROOM);
-      send_to_char(ch, "You have been idle, and are pulled into a void.\r\n");
+      send_to_char(ch, "\nalert:You have been idle, and are pulled into a void.\r");
       save_char(ch);
       Crash_crashsave(ch);
       char_from_room(ch);
@@ -487,7 +487,7 @@ int increase_gold(struct char_data *ch, int amt)
     if (GET_GOLD(ch) < curr_gold) GET_GOLD(ch) = MAX_GOLD;
   }
   if (GET_GOLD(ch) == MAX_GOLD)
-    send_to_char(ch, "%sYou have reached the maximum gold!\r\n%sYou must spend it or bank it before you can gain any more.\r\n", QBRED, QNRM);
+    send_to_char(ch, "\nalert:GOLD LIMIT MAXED!\r");
 
   return (GET_GOLD(ch));
 }
@@ -518,7 +518,7 @@ int increase_bank(struct char_data *ch, int amt)
     if (GET_BANK_GOLD(ch) < curr_bank) GET_BANK_GOLD(ch) = MAX_BANK;
   }
   if (GET_BANK_GOLD(ch) == MAX_BANK)
-    send_to_char(ch, "%sYou have reached the maximum bank balance!\r\n%sYou cannot put more into your account unless you withdraw some first.\r\n", QBRED, QNRM);
+    send_to_char(ch, "\nalert:BANK BALANCE MAXED!\r", QBRED, QNRM);
   return (GET_BANK_GOLD(ch));
 }
 
