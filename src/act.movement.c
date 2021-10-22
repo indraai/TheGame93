@@ -256,9 +256,9 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   if (GET_MOVE(ch) < need_movement && !IS_NPC(ch))
   {
     if (need_specials_check && ch->master)
-      send_to_char(ch, "\nalert:You are too exhausted to follow.\r");
+      send_to_char(ch, "\npos[move]:You are too exhausted to follow.\r");
     else
-      send_to_char(ch, "\nalert:You are too exhausted.\r");
+      send_to_char(ch, "\npos[move]:You are too exhausted.\r");
 
     return (0);
   }
@@ -345,14 +345,14 @@ int perform_move(struct char_data *ch, int dir, int need_specials_check)
   if (ch == NULL || dir < 0 || dir >= NUM_OF_DIRS || FIGHTING(ch))
     return (0);
   else if (!CONFIG_DIAGONAL_DIRS && IS_DIAGONAL(dir))
-    send_to_char(ch, "\nalert:You cannot go that way.\r");
+    send_to_char(ch, "\npos[move]:You cannot go that way.\r");
   else if ((!EXIT(ch, dir) && !buildwalk(ch, dir)) || EXIT(ch, dir)->to_room == NOWHERE)
-    send_to_char(ch, "\nalert:You cannot go that way...\r");
+    send_to_char(ch, "\npos[move]:You cannot go that way...\r");
   else if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE)))) {
     if (EXIT(ch, dir)->keyword)
-      send_to_char(ch, "\nalert:The %s seems to be closed.\r", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\npos[move]:The %s seems to be closed.\r", fname(EXIT(ch, dir)->keyword));
     else
-      send_to_char(ch, "\nalert:It seems to be closed.\r");
+      send_to_char(ch, "\npos[move]:It seems to be closed.\r");
   } else {
     if (!ch->followers)
       return (do_simple_move(ch, dir, need_specials_check));
@@ -387,7 +387,7 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
   if (*dir) {			/* a direction was specified */
     if ((door = search_block(dir, dirs, FALSE)) == -1) { /* Partial Match */
       if ((door = search_block(dir, autoexits, FALSE)) == -1) { /* Check 'short' dirs too */
-        send_to_char(ch, "\nalert:That's not a direction.\r");
+        send_to_char(ch, "\npos[move]:That's not a direction.\r");
         return (-1);
       }
     }
@@ -396,18 +396,18 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
         if (is_name(type, EXIT(ch, door)->keyword))
           return (door);
         else {
-          send_to_char(ch, "\nalert:I see no %s there.\r", type);
+          send_to_char(ch, "\npos[move]:I see no %s there.\r", type);
           return (-1);
         }
       } else
 	return (door);
     } else {
-      send_to_char(ch, "\nalert:I really don't see how you can %s anything there.\r", cmdname);
+      send_to_char(ch, "\npos[move]:I really don't see how you can %s anything there.\r", cmdname);
       return (-1);
     }
   } else {			/* try to locate the keyword */
     if (!*type) {
-      send_to_char(ch, "alert:What would you like to %s?\r", cmdname);
+      send_to_char(ch, "\npos[move]:What would you like to %s?\r", cmdname);
       return (-1);
     }
     for (door = 0; door < DIR_COUNT; door++)
@@ -441,17 +441,17 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
     }
 
     if ((!IS_NPC(ch)) && (!PRF_FLAGGED(ch, PRF_AUTODOOR)))
-      send_to_char(ch, "\nalert:There is no %s %s here.\r", AN(type), type);
+      send_to_char(ch, "\npos[move]:There is no %s %s here.\r", AN(type), type);
     else if (is_abbrev(cmdname, "open"))
-      send_to_char(ch, "\nalert:There is no %s %s that can be opened.\r", AN(type), type);
+      send_to_char(ch, "\npos[move]:There is no %s %s that can be opened.\r", AN(type), type);
     else if (is_abbrev(cmdname, "close"))
-      send_to_char(ch, "\nalert:There is no %s %s that can be closed.\r", AN(type), type);
+      send_to_char(ch, "\npos[move]:There is no %s %s that can be closed.\r", AN(type), type);
     else if (is_abbrev(cmdname, "lock"))
-      send_to_char(ch, "\nalert:There is no %s %s that can be locked.\r", AN(type), type);
+      send_to_char(ch, "\npos[move]:There is no %s %s that can be locked.\r", AN(type), type);
     else if (is_abbrev(cmdname, "unlock"))
-      send_to_char(ch, "\nalert:There is no %s %s that can be unlocked.\r", AN(type), type);
+      send_to_char(ch, "\npos[move]:There is no %s %s that can be unlocked.\r", AN(type), type);
     else
-      send_to_char(ch, "\nalert:There is no %s %s that can be picked.\r", AN(type), type);
+      send_to_char(ch, "\npos[move]:There is no %s %s that can be picked.\r", AN(type), type);
 
     return (-1);
   }
@@ -689,9 +689,9 @@ ACMD(do_enter)
             perform_move(ch, door, 1);
             return;
           }
-    send_to_char(ch, "\nalert:There is no %s here.\r", buf);
+    send_to_char(ch, "\npos[enter]:There is no %s here.\r", buf);
   } else if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_INDOORS))
-    send_to_char(ch, "\nalert:You are already indoors.\r");
+    send_to_char(ch, "\npos[enter]:You are already indoors.\r");
   else {
     /* try to locate an entrance */
     for (door = 0; door < DIR_COUNT; door++)
@@ -702,7 +702,7 @@ ACMD(do_enter)
 	    perform_move(ch, door, 1);
 	    return;
 	  }
-    send_to_char(ch, "\nalert:You can't seem to find anything to enter.\r");
+    send_to_char(ch, "\npos[enter]:You can't seem to find anything to enter.\r");
   }
 }
 
@@ -711,7 +711,7 @@ ACMD(do_leave)
   int door;
 
   if (OUTSIDE(ch))
-    send_to_char(ch, "\nalert:You are outside.. where do you want to go?\r");
+    send_to_char(ch, "\npos[leave]:You are outside.. where do you want to go?\r");
   else {
     for (door = 0; door < DIR_COUNT; door++)
       if (EXIT(ch, door))
@@ -721,7 +721,7 @@ ACMD(do_leave)
 	    perform_move(ch, door, 1);
 	    return;
 	  }
-    send_to_char(ch, "\nalert:I see no obvious exits to the outside.\r");
+    send_to_char(ch, "\npos[leave]:I see no obvious exits to the outside.\r");
   }
 }
 
@@ -729,10 +729,10 @@ ACMD(do_stand)
 {
   switch (GET_POS(ch)) {
   case POS_STANDING:
-    send_to_char(ch, "\nalert:You are already standing.\r");
+    send_to_char(ch, "\npos[stand]:You are already standing.\r");
     break;
   case POS_SITTING:
-    send_to_char(ch, "\nalert:You stand up.\r");
+    send_to_char(ch, "\npos[stand]:You stand up.\r");
     act("$n clambers to $s feet.", TRUE, ch, 0, 0, TO_ROOM);
     /* Were they sitting in something? */
     char_from_furniture(ch);
@@ -740,20 +740,20 @@ ACMD(do_stand)
     GET_POS(ch) = FIGHTING(ch) ? POS_FIGHTING : POS_STANDING;
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nalert:You stop resting, and stand up.\r");
+    send_to_char(ch, "\npos[stand]:You stop resting, and stand up.\r");
     act("$n stops resting, and clambers on $s feet.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_STANDING;
     /* Were they sitting in something. */
     char_from_furniture(ch);
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nalert:You have to wake up first!\r");
+    send_to_char(ch, "\npos[stand]:You have to wake up first!\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nalert:Do you not consider fighting as standing?\r");
+    send_to_char(ch, "\npos[stand]:Do you not consider fighting as standing?\r");
     break;
   default:
-    send_to_char(ch, "\nalert:You stop floating around, and put your feet on the ground.\r");
+    send_to_char(ch, "\npos[stand]:You stop floating around, and put your feet on the ground.\r");
     act("$n stops floating around, and puts $s feet on the ground.",
 	TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_STANDING;
@@ -778,12 +778,12 @@ ACMD(do_sit)
   switch (GET_POS(ch)) {
   case POS_STANDING:
     if (found == 0) {
-      send_to_char(ch, "\nalert:You sit down.\r");
+      send_to_char(ch, "\npos[sit]:You sit down.\r");
       act("$n sits down.", FALSE, ch, 0, 0, TO_ROOM);
       GET_POS(ch) = POS_SITTING;
     } else {
       if (GET_OBJ_TYPE(furniture) != ITEM_FURNITURE) {
-        send_to_char(ch, "\nalert:You can't sit on that!\r");
+        send_to_char(ch, "\npos[sit]:You can't sit on that!\r");
         return;
       } else if (GET_OBJ_VAL(furniture, 1) > GET_OBJ_VAL(furniture, 0)) {
         /* Val 1 is current number sitting, 0 is max in sitting. */
@@ -811,21 +811,21 @@ ACMD(do_sit)
     }
     break;
   case POS_SITTING:
-    send_to_char(ch, "\nalert:You're sitting already.\r");
+    send_to_char(ch, "\npos[sit]:You're sitting already.\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nalert:You sit up.\r");
+    send_to_char(ch, "\npos[sit]:You sit up.\r");
     act("$n stops resting.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nalert:Wake up first.\r");
+    send_to_char(ch, "\npos[sit]:Wake up first.\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nalert:Sit down while fighting? Are you MAD?\r");
+    send_to_char(ch, "\npos[sit]:Sit down while fighting? Are you MAD?\r");
     break;
   default:
-    send_to_char(ch, "\nalert:You stop floating around, and sit down.\r");
+    send_to_char(ch, "\npos[sit]:You stop floating around, and sit down.\r");
     act("$n stops floating around, and sits down.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
     break;
@@ -836,26 +836,26 @@ ACMD(do_rest)
 {
   switch (GET_POS(ch)) {
   case POS_STANDING:
-    send_to_char(ch, "\nalert:You sit down and rest your tired bones.\r");
+    send_to_char(ch, "\npos[rest]:You sit down and rest.\r");
     act("$n sits down and rests.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_RESTING;
     break;
   case POS_SITTING:
-    send_to_char(ch, "\nalert:You rest your tired bones.\r");
+    send_to_char(ch, "\npos[rest]:You take a load off.\r");
     act("$n rests.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_RESTING;
     break;
   case POS_RESTING:
-    send_to_char(ch, "\nalert:You are already resting.\r");
+    send_to_char(ch, "\npos[rest]:You are already resting.\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nalert:You have to wake up first.\r");
+    send_to_char(ch, "\npos[rest]:You have to wake up first.\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nalert:You can't rest while fighting.\r");
+    send_to_char(ch, "\npos[rest]:You can't rest while fighting.\r");
     break;
   default:
-    send_to_char(ch, "\nalert:You stop to rest your tired bones.\r");
+    send_to_char(ch, "\npos[rest]:You stop to take a rest.\r");
     act("$n stops floating around, and rests.", FALSE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_RESTING;
     break;
@@ -868,18 +868,18 @@ ACMD(do_sleep)
   case POS_STANDING:
   case POS_SITTING:
   case POS_RESTING:
-    send_to_char(ch, "\nalert:You go to sleep.\r");
+    send_to_char(ch, "\npos[sleep]:You go to sleep.\r");
     act("$n lies down and falls asleep.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SLEEPING;
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\nalert:You are already sound asleep.\r");
+    send_to_char(ch, "\npos[sleep]:You are already sound asleep.\r");
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\nalert:Sleep while fighting?  Are you MAD?\r");
+    send_to_char(ch, "\npos[sleep]:Sleep while fighting?  Are you MAD?\r");
     break;
   default:
-    send_to_char(ch, "\nalert:You stop floating around, and lie down to sleep.\r");
+    send_to_char(ch, "\npos[sleep]:You stop floating around, and lie down to sleep.\r");
     act("$n stops floating around, and lie down to sleep.",
 	TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SLEEPING;
@@ -896,9 +896,9 @@ ACMD(do_wake)
   one_argument(argument, arg);
   if (*arg) {
     if (GET_POS(ch) == POS_SLEEPING)
-      send_to_char(ch, "\nalert:Maybe you should wake yourself up first.\r");
+      send_to_char(ch, "\npos[wake]:Maybe you should wake yourself up first.\r");
     else if ((vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)) == NULL)
-      send_to_char(ch, "\nalert:%s\r", CONFIG_NOPERSON);
+      send_to_char(ch, "\npos[wake]:%s\r", CONFIG_NOPERSON);
     else if (vict == ch)
       self = 1;
     else if (AWAKE(vict))
@@ -916,11 +916,11 @@ ACMD(do_wake)
       return;
   }
   if (AFF_FLAGGED(ch, AFF_SLEEP))
-    send_to_char(ch, "You can't wake up!\r\n");
+    send_to_char(ch, "\npos[sleep]:You can't wake up!\r");
   else if (GET_POS(ch) > POS_SLEEPING)
-    send_to_char(ch, "\nalert:You are already awake...\r");
+    send_to_char(ch, "\npos[sleep]:You are already sleeping...\r");
   else {
-    send_to_char(ch, "\nalert:You awaken, and sit up.\r");
+    send_to_char(ch, "\npos[sleep]:You awaken, and sit up.\r");
     act("$n awakens.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
   }
@@ -935,15 +935,15 @@ ACMD(do_follow)
 
   if (*buf) {
     if (!(leader = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM))) {
-      send_to_char(ch, "\nalert:%s\r", CONFIG_NOPERSON);
+      send_to_char(ch, "\npos[follow]:%s\r", CONFIG_NOPERSON);
       return;
     }
   } else {
     if (ch->master != (char_data*)  NULL) {
-      send_to_char(ch, "\nalert:You are following %s.\r",
+      send_to_char(ch, "\npos[follow]:You are following %s.\r",
          GET_NAME(ch->master));
     } else {
-      send_to_char(ch, "Whom do you wish to follow?\r\n");
+      send_to_char(ch, "\npos[follow]:Whom do you wish to follow?\r");
     }
     return;
   }
@@ -963,7 +963,7 @@ ACMD(do_follow)
       stop_follower(ch);
     } else {
       if (circle_follow(ch, leader)) {
-        send_to_char(ch, "\nalert:Sorry, but following in loops is not allowed.\r");
+        send_to_char(ch, "\npos[follow]:Sorry, but following in loops is not allowed.\r");
         return;
       }
       if (ch->master)
@@ -978,13 +978,13 @@ ACMD(do_unfollow)
 {
   if (ch->master) {
     if (AFF_FLAGGED(ch, AFF_CHARM)) {
-       send_to_char(ch, "\nalert:You feel compelled to follow %s.\r",
+       send_to_char(ch, "\npos[unfollow]:You feel compelled to follow %s.\r",
          GET_NAME(ch->master));
     } else {
       stop_follower(ch);
     }
   } else {
-    send_to_char(ch, "\nalert:You are not following anyone.\r");
+    send_to_char(ch, "\npos[follow]:You are not following anyone.\r");
   }
   return;
 }

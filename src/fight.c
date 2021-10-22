@@ -496,7 +496,6 @@ static void dam_message(int dam, struct char_data *ch, struct char_data *victim,
   buf = replace_string(dam_weapons[msgnum].to_victim,
 	  attack_hit_text[w_type].singular, attack_hit_text[w_type].plural);
   act(buf, FALSE, ch, NULL, victim, TO_VICT | TO_SLEEP);
-  send_to_char(victim, CCNRM(victim, C_CMP));
 }
 
 /*  message for doing damage with a spell or skill. Also used for weapon
