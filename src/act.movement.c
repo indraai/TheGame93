@@ -916,11 +916,11 @@ ACMD(do_wake)
       return;
   }
   if (AFF_FLAGGED(ch, AFF_SLEEP))
-    send_to_char(ch, "\npos[sleep]:You can't wake up!\r");
+    send_to_char(ch, "\npos[wake]:You can't wake up!\r");
   else if (GET_POS(ch) > POS_SLEEPING)
-    send_to_char(ch, "\npos[sleep]:You are already sleeping...\r");
+    send_to_char(ch, "\npos[wake]:You are already sleeping...\r");
   else {
-    send_to_char(ch, "\npos[sleep]:You awaken, and sit up.\r");
+    send_to_char(ch, "\npos[wake]:You awaken, and sit up.\r");
     act("$n awakens.", TRUE, ch, 0, 0, TO_ROOM);
     GET_POS(ch) = POS_SITTING;
   }
