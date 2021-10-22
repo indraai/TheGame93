@@ -341,6 +341,10 @@ D0
 ~
 ~
 1 0 2
+D2
+~
+~
+1 0 211
 S
 #98
 Graduation~
@@ -364,12 +368,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~

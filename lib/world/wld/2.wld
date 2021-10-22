@@ -255,6 +255,10 @@ The Northern Temple Circle~
 talk:#adventure view:thegame:world 0211/main
 ~
 2 0 0 0 0 1
+D0
+~
+~
+1 0 97
 D1
 ~
 ~
@@ -270,7 +274,7 @@ D3
 S
 #212
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -477,7 +481,7 @@ D0
 S
 #225
 The Water Hole~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
