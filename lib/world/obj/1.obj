@@ -385,16 +385,15 @@ bag~
 ~
 #133
 backpack~
-a backpack~
+Backpack~
 A backpack is here.~
+E
+backpack~
+A backpack to help you carry all of your belongings.
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 40 5 -1 0
 5 250 0 0 0
-E
-backpack~
-   A hefty backpack that can carry more than a bag.
-~
 #134
 dog collar~
 a dog collar~
