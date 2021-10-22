@@ -117,7 +117,8 @@ end
 Outfit Soldier~
 2 g 100
 ~
-if %actor.is_pc% && %actor.level% < 3
+
+if %actor.is_pc%
   wait 2 sec
   if !%actor.eq(light)%
     %load% obj 200 %actor% light
@@ -155,6 +156,9 @@ if %actor.is_pc% && %actor.level% < 3
   if !%actor.eq(wield)%
     %load% obj 211 %actor% wield
   end
+else
+  wait 1s
+  west
 end
 ~
 #98
