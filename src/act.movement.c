@@ -537,35 +537,35 @@ static void do_doorcmd(struct char_data *ch, struct obj_data *obj, int door, int
     OPEN_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       OPEN_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert:%s\r", CONFIG_OK);
+    send_to_char(ch, "\nalert:Close\r");
     break;
 
   case SCMD_CLOSE:
     CLOSE_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       CLOSE_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert%s\r", CONFIG_OK);
+    send_to_char(ch, "\nalert:Open\r");
     break;
 
   case SCMD_LOCK:
     LOCK_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       LOCK_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert:Lock Door\r");
+    send_to_char(ch, "\nalert:Lock\r");
     break;
 
   case SCMD_UNLOCK:
     UNLOCK_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       UNLOCK_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert:Unlock Door\r");
+    send_to_char(ch, "\nalert:Unlock\r");
     break;
 
   case SCMD_PICK:
     TOGGLE_LOCK(IN_ROOM(ch), obj, door);
     if (back)
       TOGGLE_LOCK(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert:You pick the lock.\r");
+    send_to_char(ch, "\nalert:Picklock\r");
     len = strlcpy(buf, "$n skillfully picks the lock on ", sizeof(buf));
     break;
   }
