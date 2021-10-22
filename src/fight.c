@@ -175,10 +175,10 @@ static void make_corpse(struct char_data *ch)
   IN_ROOM(corpse) = NOWHERE;
   corpse->name = strdup("corpse");
 
-  snprintf(buf2, sizeof(buf2), "act:%s is KNOCKED OUT!", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "act:%s is KNOCKED OUT!", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "%s", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
@@ -244,7 +244,7 @@ void death_cry(struct char_data *ch)
 {
   int door;
 
-  act("\nact:$n has been tackled.\r", FALSE, ch, 0, 0, TO_ROOM);
+  act("\nfight[action]:$n has been tackled.\r", FALSE, ch, 0, 0, TO_ROOM);
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))

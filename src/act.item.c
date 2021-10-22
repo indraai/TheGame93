@@ -257,7 +257,7 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
     }
     if (!found) {
       if (obj_dotmode == FIND_ALL)
-	act("$p seems to be empty.", FALSE, ch, cont, 0, TO_CHAR);
+	act("$p (empty)", FALSE, ch, cont, 0, TO_CHAR);
       else {
         char buf[MAX_STRING_LENGTH];
 

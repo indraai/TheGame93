@@ -537,14 +537,14 @@ static void do_doorcmd(struct char_data *ch, struct obj_data *obj, int door, int
     OPEN_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       OPEN_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert:Close\r");
+    send_to_char(ch, "\nalert:Open\r");
     break;
 
   case SCMD_CLOSE:
     CLOSE_DOOR(IN_ROOM(ch), obj, door);
     if (back)
       CLOSE_DOOR(other_room, obj, rev_dir[door]);
-    send_to_char(ch, "\nalert:Open\r");
+    send_to_char(ch, "\nalert:Close\r");
     break;
 
   case SCMD_LOCK:
