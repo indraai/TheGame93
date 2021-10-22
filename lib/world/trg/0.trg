@@ -20,7 +20,7 @@ wait %random.10% s
 ~
 #2
 PM2012~
-0 gb 50
+0 bg 50
 ~
 set room %self.room%
 set msg[0] Yo... n00b make sure to l3rN about Pr0j3ct Mayh3m 2012. #PM2020 https://j.mp/3uhiDTH
@@ -36,7 +36,6 @@ PM2013~
 ~
 set room %self.room%
 set msg[0] Read the Project Mayhem 2013 Revelations here... https://j.mp/39GszNa
-
 if %actor.is_pc%
   eval themsg %%msg[%random.1%]%% #R%room.vnum%
   say %themsg%
@@ -49,7 +48,6 @@ TheGame23~
 ~
 set room %self.room%
 set msg[0] Make sure to read the original #TheGame23 pastebin located at... https://j.mp/3CO3NXZ
-
 if %actor.is_pc%
   eval themsg %%msg[%random.1%]%%
   wait 3 sec
@@ -117,7 +115,7 @@ end
 ~
 #97
 Outfit Soldier~
-0 g 100
+2 g 100
 ~
 if %actor.is_pc% && %actor.level% < 3
   wait 2 sec
