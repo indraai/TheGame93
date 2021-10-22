@@ -244,11 +244,11 @@ void death_cry(struct char_data *ch)
 {
   int door;
 
-  act("\nfight:$n has been tackled.\r", FALSE, ch, 0, 0, TO_ROOM);
+  act("\nact:$n has been tackled.\r", FALSE, ch, 0, 0, TO_ROOM);
 
   for (door = 0; door < DIR_COUNT; door++)
     if (CAN_GO(ch, door))
-      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nfight:Is there a battle?\r");
+      send_to_room(world[IN_ROOM(ch)].dir_option[door]->to_room, "\nfight[battle]:Is there a battle?\r");
 }
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
@@ -281,7 +281,7 @@ struct char_data *i;
 
   /* Alert Group if Applicable */
   if (GROUP(ch))
-    send_to_group(ch, GROUP(ch), "\nfight:%s has been tackled.\r", GET_NAME(ch));
+    send_to_group(ch, GROUP(ch), "\nfight[tackled]:%s has been tackled.\r", GET_NAME(ch));
 
   update_pos(ch);
 
@@ -317,7 +317,7 @@ static void perform_group_gain(struct char_data *ch, int base,
     hap_share = share + (int)((float)share * ((float)HAPPY_EXP / (float)(100)));
     share = MIN(CONFIG_MAX_EXP_GAIN, MAX(1, hap_share));
   }
-  send_to_char(ch, "\nfight:You receive %d exp.\r", share);
+  send_to_char(ch, "\nfight[exp]:You receive %d exp.\r", share);
   gain_exp(ch, share);
   change_alignment(ch, victim);
 }
@@ -367,7 +367,7 @@ static void solo_gain(struct char_data *ch, struct char_data *victim)
     exp = MAX(happy_exp, 1);
   }
 
-  send_to_char(ch, "\nfight:You receive %d exp.\r", exp);
+  send_to_char(ch, "\nfight[exp]:You receive %d exp.\r", exp);
   gain_exp(ch, exp);
   change_alignment(ch, victim);
 }
@@ -415,57 +415,53 @@ static void dam_message(int dam, struct char_data *ch, struct char_data *victim,
     /* use #w for singular (i.e. "slash") and #W for plural (i.e. "slashes") */
 
     {
-      "\nfight:$n tries to #w $N, but misses.\r",	/* 0: 0     */
-      "\nfight:You try to #w $N, but miss.\r",
-      "\nfight:$n tries to #w you, but misses.\r"
+      "\nfight[offense]:$n tries to #w $N, but misses.\r",	/* 0: 0     */
+      "\nfight[offense]:You try to #w $N, but miss.\r",
+      "\nfight[offense]:$n tries to #w you, but misses.\r"
+    },
+    {
+      "\nfight[offense]:$n tackles $N as $e #W $M.\r",	/* 1: 1..2  */
+      "\nfight[offense]:You tackles $N as you #w $M.\r",
+      "\nfight[offense]:$n tackles you as $e #W you.\r"
+    },
+    {
+      "\nfight[offense]:$n barely #W $N.\r",		/* 2: 3..4  */
+      "\nfight[offense]:You barely #w $N.\r",
+      "\nfight[offense]:$n barely #W you.\r"
+    },
+    {
+      "\nfight[offense]:$n #W $N.\r",			/* 3: 5..6  */
+      "\nfight[offense]:You #w $N.\r",
+      "\nfight[offense]:$n #W you.\r"
+    },
+    {
+      "\nfight[offense]:$n #W $N hard.\r",			/* 4: 7..10  */
+      "\nfight[offense]:You #w $N hard.\r",
+      "\nfight[offense]:$n #W you hard.\r"
     },
 
     {
-      "\nfight:$n tackles $N as $e #W $M.\r",	/* 1: 1..2  */
-      "\nfight:You tackles $N as you #w $M.\r",
-      "\nfight:$n tackles you as $e #W you.\r"
+      "\nfight[offense]:$n #W $N very hard.\r",		/* 5: 11..14  */
+      "\nfight[offense]:You #w $N very hard.\r",
+      "\nfight[offense]:$n #W you very hard.\r"
     },
 
     {
-      "\nfight:$n barely #W $N.\r",		/* 2: 3..4  */
-      "\nfight:You barely #w $N.\r",
-      "\nfight:$n barely #W you.\r"
+      "\nfight[offense]:$n #W $N extremely hard.\r",	/* 6: 15..19  */
+      "\nfight[offense]:You #w $N extremely hard.\r",
+      "\nfight[offense]:$n #W you extremely hard.\r"
     },
 
     {
-      "\nfight:$n #W $N.\r",			/* 3: 5..6  */
-      "\nfight:You #w $N.\r",
-      "\nfight:$n #W you.\r"
+      "\nfight[offense]:$n TACKLES $N with $s #w.\r",	/* 7: 19..23 */
+      "\nfight[offense]:You TACKLE $N with your #w.\r",
+      "\nfight[offense]:$n TACKLES you with $s #w.\r"
     },
 
     {
-      "\nfight:$n #W $N hard.\r",			/* 4: 7..10  */
-      "\nfight:You #w $N hard.\r",
-      "\nfight:$n #W you hard.\r"
-    },
-
-    {
-      "\nfight:$n #W $N very hard.\r",		/* 5: 11..14  */
-      "\nfight:You #w $N very hard.\r",
-      "\nfight:$n #W you very hard.\r"
-    },
-
-    {
-      "\nfight:$n #W $N extremely hard.\r",	/* 6: 15..19  */
-      "\nfight:You #w $N extremely hard.\r",
-      "\nfight:$n #W you extremely hard.\r"
-    },
-
-    {
-      "\nfight:$n TACKLES $N with $s #w.\r",	/* 7: 19..23 */
-      "\nfight:You TACKLE $N with your #w.\r",
-      "\nfight:$n TACKLES you with $s #w.\r"
-    },
-
-    {
-      "\nfight:$n TACKLES $N with $s HARDCORE #w!!\r",	/* 8: > 23   */
-      "\nfight:You TACKLE $N with your HARDCORE #w!!\r",
-      "\nfight:$n TACKLES you with $s HARDCORE #w!!\r"
+      "\nfight[offense]:$n TACKLES $N with $s HARDCORE #w!!\r",	/* 8: > 23   */
+      "\nfight[offense]:You TACKLE $N with your HARDCORE #w!!\r",
+      "\nfight[offense]:$n TACKLES you with $s HARDCORE #w!!\r"
     }
   };
 
@@ -582,13 +578,13 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* peaceful rooms */
   if (ch->nr != real_mobile(DG_CASTER_PROXY) &&
       ch != victim && ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
-    send_to_char(ch, "\nfight:You are in a peaceful room.\r");
+    send_to_char(ch, "\nfight[peacful]:You are in a peaceful room.\r");
     return (0);
   }
 
   /* shopkeeper and MOB_NOKILL protection */
   if (!ok_damage_shopkeeper(ch, victim) || MOB_FLAGGED(victim, MOB_NOKILL)) {
-    send_to_char(ch, "\nfight:This agent is protected.\r");
+    send_to_char(ch, "\nfight[protected]:This agent is protected.\r");
     return (0);
   }
 
@@ -661,35 +657,35 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* Use send_to_char -- act() doesn't send message if you are DEAD. */
   switch (GET_POS(victim)) {
   case POS_MORTALLYW:
-    act("act:$n is WOUNDED!", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "\nfight:You have been wounded.\r");
+    act("fight[action]:$n is WOUNDED!", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight[wounded]:You are wounded.\r");
     break;
   case POS_INCAP:
-    act("act:$n is INCAPACITATED!", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "\nfight:You are incapacitated.\r\n");
+    act("fight[action]:$n is DIZZY!", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight[dizzy]:You are dizzy.\r\n");
     break;
   case POS_STUNNED:
-    act("act:$n is STUNNED!", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "\nfight:You are stunned.\r");
+    act("fight[action]:$n is STUNNED!", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight[stunned]:You are stunned.\r");
     break;
   case POS_DEAD:
-    act("act:$n is TACKLED!", FALSE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "\nfight:You are tackled.\r");
+    act("fight[action]:$n is TACKLED!", FALSE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight[tackled]:You are tackled.\r");
     break;
 
   default:			/* >= POSITION SLEEPING */
     if (dam > (GET_MAX_HIT(victim) / 4))
-      send_to_char(victim, "\nfight:That really hurt!\r");
+      send_to_char(victim, "\nfight[hurt]:That really hurt!\r");
 
     if (GET_HIT(victim) < (GET_MAX_HIT(victim) / 4)) {
-      send_to_char(victim, "\nfight:You wish that your head is spinning!\r");
+      send_to_char(victim, "\nfight[spinning]:You wish that your head is spinning!\r");
       if (ch != victim && MOB_FLAGGED(victim, MOB_WIMPY)) {
         do_flee(victim, NULL, 0, 0);
       }
     }
     if (!IS_NPC(victim) && GET_WIMP_LEV(victim) && (victim != ch) &&
 	GET_HIT(victim) < GET_WIMP_LEV(victim) && GET_HIT(victim) > 0) {
-      send_to_char(victim, "\nfight:You attempt to retreat.\r");
+      send_to_char(victim, "\nfight[wimp]:You attempt to retreat.\r");
       do_flee(victim, NULL, 0, 0);
     }
     break;
@@ -699,7 +695,7 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   if (!IS_NPC(victim) && !(victim->desc) && GET_POS(victim) > POS_STUNNED) {
     do_flee(victim, NULL, 0, 0);
     if (!FIGHTING(victim)) {
-      act("act:$n is rescued by divine forces.", FALSE, victim, 0, 0, TO_ROOM);
+      act("fight[action]:$n is rescued by divine forces.", FALSE, victim, 0, 0, TO_ROOM);
       GET_WAS_IN(victim) = IN_ROOM(victim);
       char_from_room(victim);
       char_to_room(victim, 0);
@@ -899,12 +895,12 @@ void perform_violence(void)
       GET_MOB_WAIT(ch) = 0;
       if (GET_POS(ch) < POS_FIGHTING) {
         GET_POS(ch) = POS_FIGHTING;
-        act("act:$n scrambles to $s feet!", TRUE, ch, 0, 0, TO_ROOM);
+        act("fight[action]:$n scrambles to $s feet!", TRUE, ch, 0, 0, TO_ROOM);
       }
     }
 
     if (GET_POS(ch) < POS_FIGHTING) {
-      send_to_char(ch, "\nfight:You can't fight while sitting!!\r");
+      send_to_char(ch, "\nfight[sitting]:You can't fight while sitting!!\r");
       continue;
     }
 
