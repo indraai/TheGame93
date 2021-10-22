@@ -69,9 +69,9 @@ mark petrakis spoonman 1337 spoonkids~
 Mark Petrakis (spoonman)~
 0105/avatar~
 talk:#adventure view:thegame:agent 0105/look~
-2074 0 0 0 0 0 0 0 900 E
-1 20 9 0d0+10 1d2+0
-10 100
+2074 0 0 0 0 0 0 0 -200 E
+3 19 8 0d0+30 1d2+0
+30 900
 8 8 1
 BareHandAttack: 12
 E
@@ -158,11 +158,16 @@ elizabeth lapensee survivance covenant 1337~
 Elizabeth LaPensee (survivance)~
 0112/avatar~
 talk:#adventure view:thegame:agent 0112/look~
-2074 0 0 0 0 0 0 0 1000 E
-4 19 7 0d0+40 1d2+0
-40 1600
+2074 0 0 0 0 0 0 0 -250 E
+7 18 5 1d1+70 1d2+1
+70 4900
 8 8 2
 BareHandAttack: 3
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #113
 questmaster quests~
@@ -181,9 +186,9 @@ terry cooksey man amiga 1337~
 Terry Cooksey (amiga)~
 0114/avatar~
 talk:#adventure view:thegame:agent 0114/look~
-2074 0 0 0 0 0 0 0 1000 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -200 E
+3 19 8 0d0+30 1d2+0
+30 900
 8 8 1
 BareHandAttack: 11
 E
@@ -192,21 +197,27 @@ eric hughes cypherpunk 1337 defcon~
 Eric Hughes (cypherpunk)~
 0115/avatar~
 talk:#adventure view:thegame:agent 0115/look~
-2074 0 0 0 0 0 0 0 1000 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -200 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
 BareHandAttack: 8
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #116
 robert david steele steeler 1337~
 Robert Steele (steeler)~
 0116/avatar~
 talk:#adventure view:thegame:agent 0116/look~
-2074 0 0 0 0 0 0 0 1000 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -300 E
+3 19 8 0d0+30 1d2+0
+30 900
 8 8 1
+BareHandAttack: 10
 E
 #117
 trenton lavery covenant~
@@ -225,9 +236,9 @@ tabitha lavery bass covenant survivance 1337~
 Tabitha Lavery (tabby)~
 0118/avatar~
 talk:#adventure view:thegame:agent 0118/look~
-2202 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
+2202 0 0 0 0 0 0 0 -300 E
+3 19 8 0d0+30 1d2+0
+30 900
 8 8 2
 BareHandAttack: 4
 E
@@ -382,10 +393,16 @@ Ray Kaplan (kaplan)~
 ~
 talk:#adventure view:thegame:agent 0132/look
 ~
-2074 0 0 0 0 0 0 0 0 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
+BareHandAttack: 11
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #133
 blue deva d0133 z1~
@@ -725,24 +742,35 @@ dan farmer hellraiser 1337 defcon satan satanic evil~
 Dan Farmer (hellraiser)~
 0162/avatar~
 talk:#adventure view:thegame:agent 0162/look~
-2074 0 0 0 0 0 0 0 1000 E
-2 17 4 2d2+100 1d2+1
-100 10000
+2074 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
+BareHandAttack: 5
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #163
 john romero 1337~
 John Romero (romero)~
 0163/avatar~
 talk:#adventure view:thegame:agent 0163/look~
-2078 0 0 0 0 0 0 0 -100 E
-2 20 8 0d0+20 1d2+0
-20 400
+2078 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
-BareHandAttack: 2
+BareHandAttack: 11
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #164
-michael nebadon 1337~
+michael nebadon jesus 1337~
 Michael Nebadon (michael)~
 0164/avatar~
 talk:#adventure view:thegame:agent 0164/look~
@@ -910,11 +938,16 @@ gail thackeray 1337 mom attorney lawyer~
 Gail Thackeray (mom)~
 0178/avatar~
 talk:#adventure view:thegame:agent 0178/look~
-2074 0 0 0 0 0 0 0 0 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -300 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 2
 BareHandAttack: 3
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #179
 private arjika arjikiya a0178 army z1~
@@ -954,10 +987,15 @@ Brenda Romero~
 0182/avatar~
 talk:#adventure view:thegame:agent 0182/look~
 2074 0 0 0 0 0 0 0 -300 E
-2 20 8 0d0+20 1d2+0
-20 400
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 2
 BareHandAttack: 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #183
 artist master~
@@ -1081,13 +1119,13 @@ talk:#adventure view:thegame:agent 0192/look~
 8 8 1
 E
 #193
-project89 tyler 1337~
-Tyler (project89)~
+valis project89 1337~
+Valis~
 0193/avatar~
 talk:#adventure view:thegame:agent 0193/look~
 2074 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
+3 19 8 0d0+30 1d2+0
+30 900
 8 8 1
 E
 #194

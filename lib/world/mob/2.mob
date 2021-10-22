@@ -5,10 +5,16 @@ Daniel Sheehan~
 ~
 talk:#adventure view:thegame:agent 0200/look
 ~
-2074 0 0 0 0 0 0 0 0 E
-13 16 2 2d2+130 2d2+2
-130 16900
+2074 0 0 0 0 0 0 0 -250 E
+9 17 4 1d1+90 1d2+1
+90 8100
 8 8 1
+BareHandAttack: 7
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #201
 sara nelson christic romero~
@@ -17,10 +23,15 @@ Sara Nelson~
 ~
 talk:#adventure view:thegame:agent 0201/look
 ~
-2074 0 0 0 0 0 0 0 0 E
-20 14 -2 4d4+200 3d3+3
-200 40000
+2074 0 0 0 0 0 0 0 -500 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #202
 sean parker 1337 edge napster~
@@ -41,10 +52,15 @@ Mordechai Levy (mark)~
 ~
 talk:#adventure view:thegame:agent 0203/look
 ~
-2074 0 0 0 0 0 0 0 0 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #204
 #mud winn schwartau hope 1337~
@@ -53,10 +69,15 @@ Winn Schwartau~
 ~
 talk:#adventure view:thegame:agent 0204/look
 ~
-2074 0 0 0 0 0 0 0 0 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -200 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #205
 jd falk cybernothing 1337 satanic~
@@ -77,7 +98,7 @@ Henry Messenger (cenobite)~
 ~
 talk:#adventure view:thegame:agent 0206/look
 ~
-2074 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -200 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
@@ -90,7 +111,7 @@ Eric Sorenson (satanix)~
 ~
 talk:#adventure view:thegame:agent 0207/look
 ~
-2074 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
@@ -175,10 +196,21 @@ Santa Claus~
 talk:#adventure view:thegame:agent 0213/look
 ~
 2074 0 0 0 0 0 0 0 1000 E
-2 20 8 0d0+20 1d2+0
-20 400
+33 9 -9 6d6+330 5d5+5
+330 108900
 8 8 1
-BareHandAttack: 1
+BareHandAttack: 14
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 T 215
 #214
