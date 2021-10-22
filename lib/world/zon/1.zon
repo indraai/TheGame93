@@ -87,19 +87,6 @@ M 0 156 1 100 	(the speaker of the land)
 M 0 157 1 6 	  (Cameron telecomix)
 
 M 0 158 1 238 	(Carla)
-G 1 105 99 -1 	(a green robe )
-G 1 119 99 -1 	(a yellow robe)
-G 1 122 99 -1 	(a gray robe)
-G 1 126 99 -1 	(a purple robe)
-G 1 129 99 -1 	(a black robe)
-G 1 170 99 -1 	(some cloth gloves)
-G 1 169 99 -1 	(a pair of cloth shoes)
-G 1 168 99 -1 	(a cloth shirt)
-G 1 167 99 -1 	(a cloth cap)
-G 1 166 99 -1 	(a pair of cloth pants)
-G 1 140 99 -1 	(a cloth jacket)
-G 1 106 99 -1 	(a red robe)
-G 1 107 99 -1 	(a blue robe)
 O 0 154 1 238 	(the sewing machine)
 
 M 0 159 1 140 	(the lieutenant)
@@ -117,7 +104,6 @@ M 0 161 3 303 	(the streetsweeper)
 G 1 136 99 -1 	(a broom)
 G 1 149 99 -1 	(a dustpan)
 
-
 M 0 162 1 22 	  (Dan Farmer)
 
 M 0 163 2 3    	(John Romero)
@@ -128,14 +114,17 @@ M 0 165 1 171 	(Indu Monk)
 M 0 166 1 283 	(the lance corporal)
 M 0 167 1 152 	(the staff sergeant)
 
-M 0 168 8 4    	(Tyler)
-M 0 168 8 7 	  (Tyler)
-M 0 168 8 3    	(Tyler)
-M 0 168 8 8   	(Tyler)
-M 0 168 8 10   	(Tyler)
-M 0 168 8 5    	(Tyler)
-M 0 168 8 9    	(Tyler)
-M 0 168 8 11   	(Tyler)
+M 0 168 1 3    	(Tyler TG23)
+
+M 0 169 3 4    	(Tyler PM2012)
+M 0 169 3 5    	(Tyler PM2012)
+M 0 169 3 7    	(Tyler PM2012)
+
+M 0 170 1 3    	(m1vr4)
+
+M 0 171 3 8 	  (Tyler PM2020)
+M 0 171 3 9 	  (Tyler PM2020)
+M 0 171 3 10 	  (Tyler PM2020)
 
 M 0 173 1 132 	(SecurityDEVA)
 M 0 174 1 128 	(SecurityDEVA)
