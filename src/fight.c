@@ -175,10 +175,10 @@ static void make_corpse(struct char_data *ch)
   IN_ROOM(corpse) = NOWHERE;
   corpse->name = strdup("corpse");
 
-  snprintf(buf2, sizeof(buf2), "%s is knocked out.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "act:%s is KNOCKED OUT!", GET_NAME(ch));
   corpse->description = strdup(buf2);
 
-  snprintf(buf2, sizeof(buf2), "%s is is knocketd out.", GET_NAME(ch));
+  snprintf(buf2, sizeof(buf2), "act:%s is KNOCKED OUT!", GET_NAME(ch));
   corpse->short_description = strdup(buf2);
 
   GET_OBJ_TYPE(corpse) = ITEM_CONTAINER;
@@ -661,19 +661,19 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* Use send_to_char -- act() doesn't send message if you are DEAD. */
   switch (GET_POS(victim)) {
   case POS_MORTALLYW:
-    act("$n has been wounded.", TRUE, victim, 0, 0, TO_ROOM);
+    act("act:$n is WOUNDED!", TRUE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You have been wounded.\r");
     break;
   case POS_INCAP:
-    act("$n is incopacitated.", TRUE, victim, 0, 0, TO_ROOM);
-    send_to_char(victim, "\nfight:You are incopacitated.\r\n");
+    act("act:$n is INCAPACITATED!", TRUE, victim, 0, 0, TO_ROOM);
+    send_to_char(victim, "\nfight:You are incapacitated.\r\n");
     break;
   case POS_STUNNED:
-    act("$n is STUNNED", TRUE, victim, 0, 0, TO_ROOM);
+    act("act:$n is STUNNED!", TRUE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You are stunned.\r");
     break;
   case POS_DEAD:
-    act("$n has been tackled.", FALSE, victim, 0, 0, TO_ROOM);
+    act("act:$n is TACKLED!", FALSE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You are tackled.\r");
     break;
 
@@ -699,7 +699,7 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   if (!IS_NPC(victim) && !(victim->desc) && GET_POS(victim) > POS_STUNNED) {
     do_flee(victim, NULL, 0, 0);
     if (!FIGHTING(victim)) {
-      act("$n is rescued by divine forces.", FALSE, victim, 0, 0, TO_ROOM);
+      act("act:$n is rescued by divine forces.", FALSE, victim, 0, 0, TO_ROOM);
       GET_WAS_IN(victim) = IN_ROOM(victim);
       char_from_room(victim);
       char_to_room(victim, 0);
@@ -899,7 +899,7 @@ void perform_violence(void)
       GET_MOB_WAIT(ch) = 0;
       if (GET_POS(ch) < POS_FIGHTING) {
         GET_POS(ch) = POS_FIGHTING;
-        act("$n scrambles to $s feet!", TRUE, ch, 0, 0, TO_ROOM);
+        act("act:$n scrambles to $s feet!", TRUE, ch, 0, 0, TO_ROOM);
       }
     }
 
