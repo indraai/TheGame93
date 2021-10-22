@@ -807,7 +807,7 @@ Another member of the Arjika army, this man has worked his way up and has a brig
 E
 #167
 staff sergeant arjika arjikiya army a0167 z1~
-ArjikaStaffSergeant~
+Arjika Staff Sergeant~
 Arjika Staff Sergeant A167 is here.
 ~
 This guy has been around.  He could probably teach you a thing or two on fighting styles.
@@ -821,8 +821,7 @@ E
 tyler mayhem tylersec tg23 thegame23 1337~
 Tyler TG23~
 0168/avatar~
-talk:#adventure view:thegame:agent 0168/look
-~
+talk:#adventure view:thegame:agent 0168/look~
 2074 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
 20 100
@@ -867,17 +866,16 @@ BareHandAttack: 8
 E
 T 5
 #172
-ethersec tyler anonymous 1337~
-Tyler (ethersec)~
+tyler mayhem ethersec tylersec 1337~
+Tyler eTHErSEC~
 0172/avatar~
 talk:#adventure view:thegame:agent 0172/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1
-BareHandAttack: 10
+BareHandAttack: 8
 E
-T 6
 #173
 security deva securitydeva guard d173 z1~
 SecurityDEVA D173~
@@ -913,7 +911,7 @@ talk:#adventure view:thegame:agent 0175/look~
 8 8 1
 E
 #176
-gunney sergeant arjika arjikiya army a176 z3~
+sergeant arjika arjikiya military a176 z3~
 Arjika Gunney Sergeant~
 0176/avatar~
 talk:#adventure view:thegame:agent 0176/look~
@@ -950,7 +948,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #179
-private arjika arjikiya a0178 army z1~
+private arjika arjikiya a0178 military z1~
 Arjika Private~
 0179/avatar~
 talk:#adventure view:thegame:agent 0179/look~
@@ -960,13 +958,11 @@ talk:#adventure view:thegame:agent 0179/look~
 8 8 1
 E
 #180
-javier rsi councillor~
-Javier, the High Councillor~
-Javier, the High Councillor looks at you peacefully.
-~
-One of the seven high councilman he holds one of the most prestigious positions within Arjika.  Javier is known for his common sense and appeal to those who live hard lives.  He was himself just a farmer before he his calling to become a Councillor.
-~
-10 0 0 0 0 0 0 0 1000 E
+peter thiel mater high councillor palantir 1337~
+Peter Thiel~
+0180/avatar~
+talk:#adventure view:thegame:agent 0180/look~
+10 0 0 0 0 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1
@@ -982,7 +978,7 @@ talk:#adventure view:thegame:agent 0181/look~
 8 8 1
 E
 #182
-brenda romero covenant survivance~
+brenda romero covenant survivance 1337~
 Brenda Romero~
 0182/avatar~
 talk:#adventure view:thegame:agent 0182/look~
@@ -999,27 +995,19 @@ SavingSpell: 2
 E
 #183
 artist master~
-Master Artist~
-A Master Artist twirls a paint brush between his fingers.
-~
-He has probably killed more people than the number of days you have lived.
-He looks hard, the kind of hardness that comes from watching people die and
-seeing how fragile life can be.  He acknowledges you with a nod and seems to
-wait patiently for something.  G
-~
+The Master Artist~
+0183/avatar~
+talk:#adventure view:thegame:agent 0183/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 6 6 1
 E
 #184
-morgan bartender~
-Morgan, the bartender~
-Morgan, the bartender, looks you over carefully.
-~
-   He serves his customers with ease and experience.  He wears a spotty apron
-and has a dirty towel is over one shoulder.
-~
+hannibal eotl bartender 1337~
+Hannibal~
+0184/avatar~
+talk:#adventure view:thegame:agent 0184/look~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1029,12 +1017,8 @@ T 106
 #185
 sareth~
 Sareth, the sage~
-Sareth flips through a book hardly paying any attention to you.
-~
-   He has become very good at putting things down in paper, including spells.
-His powerful scrolls can be used by anyone and are a very valuable asset to any
-adventurer.
-~
+0185/avatar~
+talk:#adventure view:thegame:agent 0185/look~
 24586 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1043,7 +1027,7 @@ E
 T 106
 #186
 medic deva medicdeva medical d0186 z1~
-MedicDEVA (healer)~
+MedicDEVA~
 0186/avatar~
 talk:#adventure view:thegame:agent 0186/look~
 24586 0 0 0 0 0 0 0 0 E
@@ -1053,15 +1037,10 @@ talk:#adventure view:thegame:agent 0186/look~
 E
 T 106
 #187
-baker~
-the baker~
-A baker, covered in flour, pounds relentlessly on some tough dough.
-~
-   She looks very rugged.  Years of baking has given her arms like a smithy.
-Very scary, especially considering she is bigger than most smithies you've seen.
-She smiles kindly and tells you to let her know when you see something you'd
-like.
-~
+baker food bread bakery~
+The Baker~
+0187/avatar~
+talk:#adventure view:thegame:world 0187/look~
 24586 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1131,10 +1110,8 @@ E
 #194
 mr bungle aric 1337~
 Mr. Bungle~
-0194/avatar
-~
-talk:#adventure view:thegame:agent 0194/look
-~
+0194/avatar~
+talk:#adventure view:thegame:agent 0194/look~
 2138 0 0 0 0 0 0 0 0 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -1154,14 +1131,9 @@ The kitten seems intent on attacking your feet for some reason.
 E
 #196
 newbie guide~
-the newbie guide~
-The newbie guide is here to answer any of your questions.
-~
-   This experienced adventurer has decided to devote her life to helping those
-who are new to this dangerous realm.  She has travelled far and seen many
-things.  For the right reasons she has been known to help those who request it
-of her.  She always is willing to give advice to those in need.
-~
+The Guide~
+0196/avatar~
+talk:#adventure view:thegame:agent 0196/look~
 253962 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1169,11 +1141,9 @@ of her.  She always is willing to give advice to those in need.
 E
 #197
 carpenter services~
-Carpenter~
-The carpenter frowns at your intrusion.
-~
-He is loaded down with a tool belt full of various items he uses in his building of houses. He looks very busy and should not be bothered.
-~
+The Carpenter~
+0197/avatar~
+talk:#adventure view:thegame:agent 0197/look~
 10 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -1182,11 +1152,9 @@ E
 T 106
 #198
 indu monk~
-Indu Monk~
-A Indu Monk tends to those in need.
-~
-He looks like he enjoys his job very much.  Helping those who are in need for nothing more than a warm smile.  He is very gentle and looks like he cares deeply about all of his patients.  He smiles at you warmly.
-~
+The Monk~
+0198/avatar~
+talk:#adventure view:thegame:agent 0198/look~
 72 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -1194,11 +1162,9 @@ He looks like he enjoys his job very much.  Helping those who are in need for no
 E
 #199
 chef~
-the chef~
-The chef is here.
-~
-He seems to enjoy his job a little too much.
-~
+The Chef~
+0199/avatar~
+talk:#adventure view:thegame:agent 0199/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
