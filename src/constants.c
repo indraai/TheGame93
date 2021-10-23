@@ -818,10 +818,10 @@ int rev_dir[] =
 int movement_loss[] =
 {
   1,	/* Inside     */
-  1,	/* City       */
-  2,	/* Field      */
-  3,	/* Forest     */
-  4,	/* Hills      */
+  2,	/* City       */
+  3,	/* Field      */
+  4,	/* Forest     */
+  5,	/* Hills      */
   6,	/* Mountains  */
   4,	/* Swimming   */
   1,	/* Unswimable */
@@ -833,8 +833,8 @@ int movement_loss[] =
 const char *weekdays[] = {
   "Soma",
   "Manga",
-  "Budha",
   "Guru",
+  "Budha",
   "Sakka",
   "Shani",
   "Ravi"
