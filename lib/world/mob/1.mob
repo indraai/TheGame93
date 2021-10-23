@@ -213,7 +213,7 @@ robert david steele steeler 1337~
 Robert Steele (steeler)~
 0116/avatar~
 talk:#adventure view:thegame:agent 0116/look~
-2074 0 0 0 0 0 0 0 -300 E
+2074 0 0 0 0 0 0 0 -200 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
@@ -477,9 +477,9 @@ kibo james parry 1337 kibo~
 James Parry (kibo)~
 0139/avatar~
 talk:#adventure view:thegame:agent 0139/look~
-2074 0 0 0 0 0 0 0 0 E
-2 20 8 0d0+20 1d2+0
-20 400
+2074 0 0 0 0 0 0 0 -150 E
+3 19 8 0d0+30 1d2+0
+50 900
 8 8 1
 BareHandAttack: 8
 E
@@ -602,9 +602,9 @@ dave dogruel xibo 1337 angst~
 Dave Dogruel (xibo)~
 0150/avatar~
 talk:#adventure view:thegame:agent 0150/look~
-2202 0 0 0 0 0 0 0 -1000 E
-2 20 8 0d0+20 1d2+0
-20 400
+2202 0 0 0 0 0 0 0 -300 E
+3 19 8 0d0+30 1d2+0
+70 900
 8 8 1
 BareHandAttack: 4
 E
@@ -995,7 +995,7 @@ SavingSpell: 2
 E
 #183
 artist master~
-The Master Artist~
+the Master Artist~
 0183/avatar~
 talk:#adventure view:thegame:agent 0183/look~
 10 0 0 0 0 0 0 0 0 E
@@ -1038,7 +1038,7 @@ E
 T 106
 #187
 baker food bread bakery~
-The Baker~
+the Baker~
 0187/avatar~
 talk:#adventure view:thegame:world 0187/look~
 24586 0 0 0 0 0 0 0 0 E
@@ -1052,9 +1052,9 @@ quinn fazigu schmoo 1337~
 Quinn (fazigu)~
 0188/avatar~
 talk:#adventure view:thegame:agent 0188/look~
-2074 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -200 E
 2 20 8 0d0+20 1d2+0
-20 400
+50 400
 8 8 1
 E
 #189
@@ -1103,8 +1103,8 @@ Valis~
 0193/avatar~
 talk:#adventure view:thegame:agent 0193/look~
 2074 0 0 0 0 0 0 0 -150 E
-3 19 8 0d0+30 1d2+0
-30 900
+2 20 8 0d0+20 1d2+0
+20 400
 8 8 1
 E
 #194
@@ -1112,10 +1112,11 @@ mr bungle aric 1337~
 Mr. Bungle~
 0194/avatar~
 talk:#adventure view:thegame:agent 0194/look~
-2138 0 0 0 0 0 0 0 0 E
+2074 0 0 0 0 0 0 0 -250 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1
+BareHandAttack: 11
 E
 #195
 kitten cat cats feline~
@@ -1131,7 +1132,7 @@ The kitten seems intent on attacking your feet for some reason.
 E
 #196
 newbie guide~
-The Guide~
+the Guide~
 0196/avatar~
 talk:#adventure view:thegame:agent 0196/look~
 253962 0 0 0 0 0 0 0 0 E
@@ -1141,7 +1142,7 @@ talk:#adventure view:thegame:agent 0196/look~
 E
 #197
 carpenter services~
-The Carpenter~
+the Carpenter~
 0197/avatar~
 talk:#adventure view:thegame:agent 0197/look~
 10 0 0 0 0 0 0 0 0 E
@@ -1152,7 +1153,7 @@ E
 T 106
 #198
 indu monk~
-The Monk~
+the Monk~
 0198/avatar~
 talk:#adventure view:thegame:agent 0198/look~
 72 0 0 0 0 0 0 0 0 E
@@ -1162,7 +1163,7 @@ talk:#adventure view:thegame:agent 0198/look~
 E
 #199
 chef~
-The Chef~
+the Chef~
 0199/avatar~
 talk:#adventure view:thegame:agent 0199/look~
 10 0 0 0 0 0 0 0 0 E
