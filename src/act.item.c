@@ -197,9 +197,9 @@ static void get_check_money(struct char_data *ch, struct obj_data *obj)
   increase_gold(ch, value);
 
   if (value == 1)
-    send_to_char(ch, "There was 1 coin.\r\n");
+    send_to_char(ch, "\nalert:There was 1 coin.\r");
   else
-    send_to_char(ch, "There were %d coins.\r\n", value);
+    send_to_char(ch, "\nalert:There were %d coins.\r", value);
 }
 
 static void perform_get_from_container(struct char_data *ch, struct obj_data *obj,
@@ -211,7 +211,7 @@ static void perform_get_from_container(struct char_data *ch, struct obj_data *ob
     else if (get_otrigger(obj, ch)) {
       obj_from_obj(obj);
       obj_to_char(obj, ch);
-      act("You get $p from $P.", FALSE, ch, obj, cont, TO_CHAR);
+      act("alert:You get $p from $P.", FALSE, ch, obj, cont, TO_CHAR);
       act("$n gets $p from $P.", TRUE, ch, obj, cont, TO_ROOM);
       get_check_money(ch, obj);
     }

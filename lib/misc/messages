@@ -288,42 +288,42 @@ fight[hit]:$n pathetically tries to take a swing at $N - ha!
 
 M
 300
-fight[offense]:You slaps $N with such force that $S head spins around!
-fight[defense]:$n slaps you with such force that you see handprints for weeks!
-fight[hit]:$N's mind is blown by a powerful slap from $n!
-fight[offense]:You try to slap $N who avoids the blow.
-fight[defense]:$n tries to slap you but you avoid the blow.
-fight[hit]:$n tries to slap $N who avoids the blow.
+fight[offense]:You push $N with such force that it's almost cute!
+fight[defense]:$n pushes you with such force you almost fall down!
+fight[hit]:$N blown back by a powerful push from $n!
+fight[miss]:You try to push $N who avoids the blow.
+fight[defense]:$n tries to push you but your defense is too awesome.
+fight[hit]:$n tries to push $N who easily defends.
 #
 #
 #
-fight[offense]:You try to hit $N but hit yourself instead!
-fight[defense]:$n tries to hit you but you hits $mself instead!
-fight[hit]:$n tries to hit $N but hits $mself instead!
+fight[offense]:You try to push $N but fall down instead!
+fight[defense]:$n tries to push you but falls down instead!
+fight[hit]:$n tries to push $N but trips $mself instead!
 
 M
 300
-fight[offense]:You punch $N in $S kidneys resulting in $S immediate collapse!
-fight[defense]:You receive a punch in your kidneys which ends your misery!
-fight[hit]:$n punches $N in the kidneys causing immediate collapse!
-fight[offense]:You wildly punch at the air, missing $N.
-fight[defense]:$n misses a wild punch at you.
-fight[hit]:$n practices shadow-boxing while $N takes a break.
+fight[offense]:You smack $N in the face resulting in immediate tears!
+fight[defense]:$n smacks you in the face!
+fight[hit]:$n smacks $N in the face causing immediate tears!
+fight[miss]:You wildly smack at nothing, missing $N.
+fight[defense]:$n misses smacking you.
+fight[hit]:$n practices smacking themself while $N takes a break.
 #
 #
 #
-fight[offense]:Instead of letting you punch $M, $N forces you to play Punch and Judy!!!
-fight[defense]:You convince $n of playing Punch and Judy instead of punching you.
-fight[hit]:$N convinces $n that no punching is necessary.
+fight[offense]:Instead of letting you smack $M, $N forces you to play Punch and Judy!!!
+fight[defense]:You convince $n of playing Punch and Judy instead of smacking you.
+fight[hit]:$N convinces $n that no smacking is necessary.
 
 M
 300
-fight[offense]:You punch $N's head with a blow that crushes $S imagination!
-fight[defense]:$n punches your head with a blow that crushes your imagination!
-fight[hit]:$n punches $N's head so hard that $S imagination cracks open!
-fight[offense]:You swing your fist at $N, but miss $M!
-fight[defense]:You barely avoid $n's fist as $e takes a swing at you!
-fight[hit]:$N barely avoids a blow from $n!
+fight[offense]:You pull $N's hair!
+fight[defense]:$n pulls your hair!
+fight[hit]:$n pulls $N's hair!
+fight[miss]:You try to pull $N hair, but miss $M!
+fight[defense]:You barely avoid $n's hair pulling!
+fight[hit]:$N barely avoids a hair pulling from $n!
 #
 #
 #
@@ -334,64 +334,64 @@ fight[hit]:$n's body rebels against $m when $e tries to punch $N.
 * 301
 M
 301
-fight[offense]:You violently sting $N repeatedly, causing $S collapse!
-fight[defense]:You crumble as $n stings you repeatedly all over your body!
-fight[hit]:As $n stings $N all over the place, $N falls to the ground.
-fight[offense]:You sting towards $N, but miss $M!
-fight[defense]:$n misses you with $s sting!
-fight[hit]:You watch on as $n stings at $N, but misses!
+fight[offense]:You Shin Kicks $N repeatedly, causing $S collapse!
+fight[defense]:You crumble as $n Shin Kicks you repeatedly all over your body!
+fight[hit]:As $n Shin Kicks $N into outer space!
+fight[miss]:You attempt to Shin Kick $N, but miss $M!
+fight[defense]:$n misses you with $s kick!
+fight[hit]:You watch on as $n Shin Kicks at $N, but misses!
 #
 #
 #
-fight[offense]:You sting at $N, and $E slaps himself as if a mosquito bit $M.
+fight[offense]:You Shin Kick at $N, and $E slaps himself as if a mosquito bit $M.
 fight[defense]:Was that a bee you just felt?  Oh.. wait, it was just $n.
-fight[hit]:$N begins to slap at $Mself as $n tries to sting $M.
+fight[hit]:$N begins to slap at $Mself as $n tries to KungFu Kick $M.
 
 M
 301
-fight[offense]:You drive a sting directly into the heart of $N, tackling $M!
-fight[defense]:With a powerful driving force, $n's sting hits you in the chest.
-fight[hit]:$n drives $s sting into $N's chest!
-fight[offense]:You miss $N with your stinging blow!
-fight[defense]:$n drives $s stinging blow at you, barely missing!
-fight[hit]:You watch in fright as $n stings at $N, missing by mere inches!
+fight[offense]:You drive a KungFu Punck into the chest of $N!
+fight[defense]:With a powerful driving force, $n's KungFu Punches you in the chest.
+fight[hit]:$n drives $s KungFu Punch into $N's chest!
+fight[miss]:You miss $N with your KungFu Punch!
+fight[defense]:$n drives $s KungFu Punch at you, barely missing!
+fight[hit]:You watch in fright as $n throws a KungFu Punch at $N, missing by mere inches!
 #
 #
 #
 fight[offense]:Sting -- Deva... What are you thinking?
-fight[defense]:$n tries to sting you, somewhat comical to tell the truth.
-fight[hit]:$n stings at $N, then looks horrified as $N grins at $m!
+fight[defense]:$n tries to punch you, somewhat comical to tell the truth.
+fight[hit]:$n punches at $N, then looks horrified as $N grins at $m!
 
 * 302
 M
 302
-fight[offense]:Your dexterous whip messily tears $N's torso right off!
-fight[defense]:$n's whip messily tears you right in half!
-fight[hit]:With an evil grin, $n messily whips $N in half!
-fight[offense]:You try to whip $N but whip the ground instead!
-fight[defense]:$n tries to whip you but whips the ground instead!
-fight[hit]:$n tries to whip $N but whips the ground instead!
+fight[offense]:Your KungFu Kick sends $N's into outer space!
+fight[defense]:$n's KungFu Kick messily tears you right in half!
+fight[hit]:With an evil grin, $n messily KungFu Kicks $N!
+fight[miss]:You try to KungFu Kick $N but hit the ground instead!
+fight[defense]:$n tries to KungFu Kick you but falls to the ground instead!
+fight[hit]:$n tries to KungFu Kicks $N but falls to the ground instead!
 #
 #
 #
-fight[offense]:Don't try to whip $N.
-fight[defense]:$n is trying to whip you.  Yawn.
-fight[hit]:$n tries to whip $N - yawn.
+fight[offense]:Don't try to kick $N.
+fight[defense]:$n is trying to kick you.  Yawn.
+fight[hit]:$n tries to kick $N - yawn.
 
 M
 302
-fight[offense]:You whip $N's head right off of $S body!
-fight[defense]:$n whips your head right off of your body!
-fight[hit]:$n whips $N's head right off of $S body!
-fight[offense]:You crack your whip at $N but it hits you in the face!
-fight[defense]:$n cracks $s whip at you and it hits $m in the face!
-fight[hit]:$n cracks $s whip at $N but only hits $mself in the face!
+fight[offense]:You Hammer Fist $N!
+fight[defense]:$n Hammer Fists you!
+fight[hit]:$n Hammer Fists $N!
+fight[miss]:You attempt to Hammer Fist $N but miss!
+fight[defense]:$n swings $s Hammer Fist at you and it hits $m in the face!
+fight[hit]:$n swings $s Hammer Fist at $N but only hits $mself in the face!
 #
 #
 #
 fight[offense]:You'd better stop before $N whips your butt.
-fight[defense]:Pathetic little $n is trying to whip you... how cute.
-fight[hit]:$n tries to whip $N - isn't he cute?
+fight[defense]:Pathetic little $n is trying to hit you... how cute.
+fight[hit]:$n tries to hit $N - isn't he cute?
 
 * 303
 M
