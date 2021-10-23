@@ -147,10 +147,10 @@ Load Internet Detective Badge - 98~
 2 g 100
 ~
 if !%actor.inventory(47)%
+  wait 2 sec
   %load% obj 47 %actor% inv
   %echoaround% %actor% %actor.name% earned the Internet Detective Badge.
   %send% %actor% Congratulations! You have earned your Internet Detective Badge.
-  wait 2 sec
 end
 ~
 #195
