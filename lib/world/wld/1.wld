@@ -54,19 +54,19 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-altar~
-talk:#adventure view:thegame:world 0101/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 0101/statue
 ~
+E
+altar~
+talk:#adventure view:thegame:world 0101/altar
+~
 S
 #102
-Inner Arjika~
+The Dark Tower~
 talk:#adventure view:thegame:world 0102/main
 ~
-1 24 0 0 0 0
+1 9 0 0 0 0
 D5
 talk:#adventure view:thegame:world 0128/look
 ~
@@ -148,11 +148,11 @@ D5
 ~
 0 0 141
 E
-table~
+map~
 empty.
 ~
 E
-map~
+table~
 empty.
 ~
 S
@@ -166,7 +166,7 @@ D5
 ~
 0 0 142
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 E
@@ -174,7 +174,7 @@ Trent_Room~
 empty.
 ~
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 S
@@ -266,11 +266,11 @@ D1
 ~
 0 0 100
 E
-hole~
+silhouette~
 empty.
 ~
 E
-silhouette~
+hole~
 empty.
 ~
 S
@@ -391,18 +391,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -451,7 +451,7 @@ D1
 0 0 128
 S
 #128
-Thiel Tower~
+Thiel Tower W.~
 ~
 1 8 0 0 0 0
 D0
@@ -480,7 +480,7 @@ D5
 0 0 340
 S
 #129
-Thiel Tower~
+Thiel Tower E.~
 ~
 1 8 0 0 0 0
 D0
@@ -622,10 +622,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -635,14 +639,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136

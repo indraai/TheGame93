@@ -214,30 +214,20 @@ SavingSpell: 8
 E
 T 215
 #214
-old magi guard~
-the magi guard~
-An old magi has been guarding the orb for decades, his sanity seems questionable.
-~
-   After over 50 years of guard duty this magi seems to have lost touch with
-reality.  He stares blankly around the room and doesn't seem to even notice you.
-He wears a plain gray robe and is a member of the magi guards, a once elite
-group of magi dedicated to protecting the Orb of Arjika.
-~
+frank dooley security deva securitydeva guard d214 z2~
+Frank Dooley (guard)~
+0214/avatar~
+talk:#adventure view:thegame:agent 0214/look~
 10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1
 E
 #215
-magi guard young~
-the magi guard~
-A young member of the magi guard watches over the Orb of Arjika.
-~
-   This elite member of the magi guard has dedicated her life to protecting the
-orb and maintaining the precarious balance within the protected walls of
-Arjika.  The magi guards numbers have dwindled over the years to only a select
-few who have the necessary skills to protect this most valuable of treasures.
-~
+norman kane security deva securitydeva guard d215 z2~
+Norman Kane (guard)~
+0215/avatar~
+talk:#adventure view:thegame:agent 0215/look~
 10 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
