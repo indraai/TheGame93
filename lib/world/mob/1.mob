@@ -339,10 +339,11 @@ MedicDEVA~
 0127/avatar~
 A healer in a white luminescent robe is tending to the wounded. This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.  Type 'heal <spell>' to buy one of her spells.
 ~
-253962 0 0 0 0 0 0 0 0 E
+256154 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 2
+BareHandAttack: 1
 E
 #128
 red magi~
@@ -901,14 +902,25 @@ talk:#adventure view:thegame:agent 0174/look
 E
 T 133
 #175
-security deva securitydeva sentry d0175 z1~
-SecurityDEVA (sentry)~
+security deva securitydeva guard paul bart d175 z1~
+Paul Bart (security)~
 0175/avatar~
 talk:#adventure view:thegame:agent 0175/look~
-2058 0 0 0 0 0 0 0 0 E
+6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
-250 62500
+333 62500
 8 8 1
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #176
 sergeant arjika arjikiya military a176 z3~
@@ -968,14 +980,14 @@ talk:#adventure view:thegame:agent 0180/look~
 8 8 1
 E
 #181
-security deva securitydeva lookout d0181 z1~
+security deva securitydeva lookout d181 z1~
 SecurityDEVA (lookout)~
 0181/avatar~
 talk:#adventure view:thegame:agent 0181/look~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
-8 8 1
+8 8 0
 E
 #182
 brenda romero covenant survivance 1337~
