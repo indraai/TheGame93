@@ -396,10 +396,6 @@ D2
 S
 #320
 The Kitchen~
-   An assortment of foods are being prepared.  Some on small trays to be served
-as appetizers, and others in fine silver plates and containers.  The kitchen is
-cramped, too many things and too many people in one area.  The cooks look
-overworked and ready to revolt.
 ~
 3 8 0 0 0 1
 D0
@@ -478,10 +474,6 @@ D2
 S
 #324
 A Training Room~
-   Within this tower new monks are taken to be trained in the art of healing.
-Very few are selected for this great honor, and even fewer ever achieve a
-mastery in the art of restoring health.  Several of the older monks are here
-bestowing their knowledge and wisdom to their students.
 ~
 3 0 0 0 0 1
 D1
@@ -495,9 +487,6 @@ D2
 S
 #325
 A Training Room~
-   A rug lines the floor where several monks in training listen intently to a
-gray-haired man who is drawing something on a board.  He often uses words of a
-different language that are very hard to follow and impossible to understand.
 ~
 3 8 0 0 0 1
 D1
@@ -515,10 +504,6 @@ D3
 S
 #326
 A Training Room~
-   A group of monks in training surround a poor frightened white cat.  The cat
-is shivering in fright.  It seems to have broken its foot and the soon to be
-healers are practicing their skills on it.  Better than expirementing with live
-humans.
 ~
 3 0 0 0 0 1
 D1
@@ -536,11 +521,6 @@ D3
 S
 #327
 An Advanced Training Room~
-   A small child lay on a cot circled by several young monks dressed in white
-robes.  One of them lays a gentle hand on the child's forehead causing the young
-boy to instantly fall asleep.  Another monk takes the boys arm which has been
-badly bruised and possibly broken and begins chanting mysterious words.  The
-bruises fade away without a trace.
 ~
 3 8 0 0 0 1
 D2
@@ -679,11 +659,6 @@ D2
 S
 #335
 A Back Hall~
-   This part of the mansion is rarely used except by servants and students
-traveling unseen from one section of the mansion to another.  The Magi live an
-extravagant life and hold themselves to be very prestigious and elegant.  No one
-would ever dare call them otherwise.  The hall is unkempt and bare of any
-furnishings.
 ~
 3 8 0 0 0 1
 D0
@@ -697,7 +672,6 @@ D2
 S
 #336
 Medical Center~
-The plain white plaster walls are devoid of all decoration. Lining the walls are shelves holding bandages, slings, healing aids and other supplies in neatly arranged assortments. The rest of the room is filled with empty beds which are used to rehabilitate the injured.
 ~
 3 8 0 0 0 1
 D0
@@ -711,10 +685,6 @@ D1
 S
 #337
 The Hall of Clerics~
-   This building holds the majority of the monks within the city of Arjika.
-It is here the High Council convenes to help citizens solve minor disputes.
-The building is barren of any luxuries.  That is the way a monk must live,
-without desires or wants.
 ~
 3 8 0 0 0 1
 D0
@@ -732,11 +702,6 @@ D3
 S
 #338
 The Clerics' Quarters~
-   Large doors to the east and west lead into the Hall of s and the Tower
-of the High Council respectively.  To the south a small shop displaying a sign
-with multi-colored herbs swings in the gentle breeze.  The Tower rises far
-above, its two spires reaching almost as high as the Temple.  In contrast the
-hall looks very mundane.
 ~
 3 0 0 0 0 1
 D0
@@ -758,10 +723,6 @@ door~
 S
 #339
 The Tower of the High Council of Clerics~
-   A large archway leads into the center of the s' Quarters just to the
-west.  The Tower is bathed in bright white light that reflects off every
-surface.  All around, the soft murmur of healers in training or going about
-their daily routine can be heard.
 ~
 3 0 0 0 0 1
 D0
@@ -783,10 +744,6 @@ D3
 S
 #340
 The Tower of Clerics~
-   A wide staircase covered by a large tan rug leads up into the heart of the
-tower towards the High Council's chambers.  Many famous healers reside within
-this tower's magical walls.  It is said that just by standing in certain rooms
-of the tower one can heal at unnatural rates.
 ~
 3 0 0 0 0 1
 D0
@@ -812,9 +769,6 @@ D4
 S
 #341
 The Tower of the Clerics~
-   A wide set of stairs leads up to the second floor of the tower.  The building
-around you is impressive in both size and stature.  Large white pillars support
-high domed ceilings of this spotless white room.
 ~
 3 0 0 0 0 1
 D0
@@ -840,11 +794,6 @@ D4
 S
 #342
 The Tower of the High Council of Clerics~
-   The east end of the Tower opens into the Southern Road which passes between
-the Southern Towers and the Temple of Arjika.  This junction lies at the
-entrance of the revered Tower of the High Council.  High above is where the
-councillors make many important decisions on how to uphold the welfare and
-health of the city.
 ~
 3 8 0 0 0 1
 D0
@@ -909,10 +858,6 @@ D3
 S
 #345
 The Tower of the Magi~
-   A large spiral staircase winds up into the heart of the tower.  A slight
-tinge of sulphur hangs in the air, probably a spell that went haywire.
-Students roam the halls in deep thought, oblivious to the normal reality you
-live in.  Training Rooms lie in all directions.
 ~
 3 0 0 0 0 1
 D0
@@ -938,9 +883,6 @@ D4
 S
 #346
 The Tower of the Magi~
-   A pair of circular stairwells wind their way higher into the tower.  The
-sounds of people chanting echo off the pitch black walls that almost appear
-depthless.  Most likely a simple trick of the eye, but then again, maybe not.
 ~
 3 8 0 0 0 1
 D0
@@ -966,11 +908,6 @@ D4
 S
 #347
 The Tower of the Magi~
-   Everything is made from black stone, which at first glance appears to be
-marble, but upon closer examination has no grain within it.  Looking into the
-wood causes one to lose themselves as they peer further and further into the
-blackness.  It is impossible to tell if this is caused by magic or just a simple
-trick of the eye.  To the east is the center of the Magi Quarters.
 ~
 3 0 0 0 0 1
 D0
@@ -992,9 +929,6 @@ D3
 S
 #348
 The Magi Quarters~
-   This is the heart of the Magi Quarters.  The Magi Mansion where they can be
-found when they are not guarding the orb is to the east.  Also nearby is the
-pure black Tower of the Magi which houses the sacred orb that protects the city.
 ~
 3 0 0 0 0 1
 D0
@@ -1016,10 +950,6 @@ D3
 S
 #349
 The Magi Mansion~
-   The walls are adorned in fancy draperies and expensive tapestries of every
-style and design imaginable.  The Magi believe in a life of service to their
-discipline, but they also believe that they should be able to live in comfort.
-This building is one of the most elaborate within the entire city.
 ~
 3 8 0 0 0 1
 D0
@@ -1037,11 +967,6 @@ door~
 S
 #350
 A Study~
-   Three low hanging lanterns positioned over the rooms large tables illuminate
-the book-lined walls.  There are several chairs at each table so as to allow
-those who wish to study the fine art of magic to rest comfortably.  Several
-books lay open upon the tables.  Occasional trickles of smoke waft in from under
-the doorway to the east.
 ~
 3 8 0 0 0 1
 D0
@@ -1058,11 +983,7 @@ D3
 0 0 349
 S
 #351
-The Healer's Shop~
-   Small indoor gardens have been set up within this small house to grow the
-herbs required for the mixes and salves the monks require.  They are rumored
-to sometimes sell some of their remedies, though this is very rare and at a very
-steep price.
+The Spa~
 ~
 3 0 0 0 0 1
 D0
@@ -1072,10 +993,6 @@ door~
 S
 #352
 Clerics in Training~
-   Several beds lie in columns and rows spaced evenly apart.  The smell of some
-form of antiseptic stings in the air.  All the beds are empty, must be the
-healers here are well-versed in their craft.  The Temple continues to the north
-and west.
 ~
 3 0 0 0 0 1
 D0
@@ -1089,10 +1006,6 @@ D1
 S
 #353
 A Large Basin~
-   A large basin of water lies against the southern wall.  Small statues
-portraying a woman and children playing on a river's edge surround the edge of
-basin.  The water inside the basin is extremely clean and sterily, likely used
-by the the monks to tend for the wounded.
 ~
 3 8 0 0 0 1
 D0
@@ -1110,10 +1023,6 @@ D3
 S
 #354
 Clerics' Hallway~
-   The smell of exotic medicines fills the entire tower.  A large open area to
-the north, the center of the tower, holds a set of stairs leading higher up into
-the tower.  Small benches line the walls here, allowing people to rest from
-their adentures.
 ~
 3 8 0 0 0 1
 D0
@@ -1131,10 +1040,6 @@ D3
 S
 #355
 A Waiting Room~
-   Benches filled with people waiting to see a healer line the walls here.  An
-apprentice does what he can to aid these poor people, but it is obvious that
-many of them need to be attended to shortly by a real healer or else they may
-perish.
 ~
 3 8 0 0 0 1
 D0
@@ -1299,9 +1204,6 @@ D0
 S
 #366
 The Lab~
-   The room is covered in shadow and what little that can be seen is a clutter
-of books, scrolls, and potions. The entire room is scarred from fire and a fine
-ash covers everything. Smoke still lingers in the rafters overhead.
 ~
 3 0 0 0 0 0
 D3

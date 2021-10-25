@@ -337,18 +337,17 @@ E
 medic medicdeva deva d0127 z1~
 MedicDEVA~
 0127/avatar~
-A healer in a white luminescent robe is tending to the wounded. This beautiful woman at one time used to piously offer her healing skills to any in need.  But times are rough and now she can only afford to help those that are just starting their adventures.  Type 'heal' to see what services she offers.  Type 'heal <spell>' to buy one of her spells.
-~
+talk:#adventure view:thegame:agent 0127/look~
 253962 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 2
 E
 #128
-red magi~
-the Red Magi~
+red deva d128 z1~
+RedDEVA~
 0128/avatar~
-A Red Magi watches you careful, as if you have done something wrong. This man is obviously very competent in the magical arts or he would not stare at you so.  He is dressed in a long flowing red robe with the hood pulled down.  Various pouches hang from a red belt.
+talk:#adventure view:thegame:agent 0128/look
 ~
 2120 0 0 0 16 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -389,10 +388,8 @@ E
 #132
 ray kaplan 1337 christic romero defcon hope~
 Ray Kaplan (kaplan)~
-0132/avatar
-~
-talk:#adventure view:thegame:agent 0132/look
-~
+0132/avatar~
+talk:#adventure view:thegame:agent 0132/look~
 2074 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -408,8 +405,7 @@ E
 blue deva d0133 z1~
 BlueDEVA~
 0133/avatar~
-A member of the blue magi floats past you. He seems to be out practicing.  He floats a good six inches off the ground and is slowly moving along.  What next?  Someone will probably fly past you.
-~
+talk:#adventure view:thegame:agent 0133/look~
 72 0 0 0 0 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
@@ -419,7 +415,7 @@ E
 red deva prime d0134 z1~
 RedDEVA PRIME~
 0134/avatar~
-A Master Magi is in deep contemplation of the universe. The red robe signifies his order.  He is one of the five Master Magi alive today.  He holds himself with a dignity that astonishes even you.
+A Master Deva is in deep contemplation of the universe. The red robe signifies his order.  He is one of the five Prime Deva alive today.  He holds himself with a dignity that astonishes even you.
 ~
 2058 0 0 0 16 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -545,8 +541,7 @@ E
 yellow deva yellowdeva d0145 z1~
 YellowDEVA~
 0145/avatar~
-A yellow magi chants some arcane words and is suddenly standing behind you. The magi are known for their experience with magic.  Many study decades to reach the title of Master Magi.  Very few actually make it.
-~
+talk:#adventure view:thegame:agent 0145/look~
 72 0 0 0 0 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
 140 19600
@@ -579,8 +574,7 @@ T 106
 purple deva purpledeva d0148 z1~
 PurpleDEVA~
 0148/avatar~
-A magi in a purple robe is making a fashion statement. The robe just seems....  Loud.  That color purple can't be natural.  You dare not laugh or even smirk since you know they take offense to such things.
-~
+talk:#adventure view:thegame:agent 0148/look~
 72 0 0 0 16 0 0 0 -400 E
 15 15 1 3d3+150 2d2+2
 150 22500
