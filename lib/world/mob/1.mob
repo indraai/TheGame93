@@ -493,11 +493,11 @@ BareHandAttack: 1
 E
 T 105
 #141
-arjika arjikiya corporal army a0141 z1~
+arjika arjikiya corporal military a0141 z1~
 Arjika Corporal~
 Arjika Corporal A141 is here.
 ~
-He looks very healthy and happy with his job.  His aspirations to become a war hero became a reality when he signed up for the army of Arjika.
+He looks very healthy and happy with his job.  His aspirations to become a war hero became a reality when he signed up for the military of Arjika.
 ~
 72 0 0 0 0 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
@@ -530,8 +530,7 @@ E
 black deva blackdeva d0144 z1~
 BlackDEVA~
 0144/avatar~
-A black magi walks past in a state of deep concentration. One of the seven orders of the magi the black are known for their delving into the the more abstract forms of magic.  The other Magi will not even associate with them sometimes because of this.
-~
+talk:#adventure view:thegame:agent 0144/look~
 72 0 0 0 0 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
@@ -581,7 +580,7 @@ talk:#adventure view:thegame:agent 0148/look~
 8 8 1
 E
 #149
-sergeant arjika arjikiya sergeant army a0149 z3~
+sergeant arjika arjikiya sergeant military a0149 z3~
 Arjika Sergeant~
 0149/avatar~
 Arjika Sergeant A149 is here. The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals future.
@@ -650,7 +649,7 @@ The patrolman keeps a keen eye out for any trouble and is quick to respond. Only
 8 8 1
 E
 #155
-arjika arjikiya colnel army a155 z3~
+arjika arjikiya colnel military a155 z3~
 Arjika Colnel~
 0155/avatar~
 Arjika Colnel A155 is here. This one man is responsible for the protection of the entire city.  He is very old.  His hair a bright white and hanging below his shoulders.  Other than his hair he shows no signs of his age.  He is still built like an ogre and just about as evil tempered.
@@ -699,7 +698,7 @@ talk:#adventure view:thegame:agent 0158/look~
 E
 T 106
 #159
-lieutenant arjika arjikiya lieutenant army a159 z0~
+lieutenant arjika arjikiya lieutenant military a159 z0~
 Arjika Lieutenant~
 0159/avatar~
 Arjika Lieutenant A159 is here. He is used to giving orders, not babysitting and hunting down people. Looks like a lot of heads are going to roll when he finds who he is looking for. He looks very strong and wise.
@@ -792,7 +791,7 @@ corporal arjika arjikiya military a0166 z1~
 Arjika Corporal~
 Arjika Corporal A166 is here.
 ~
-Another member of the Arjika army, this man has worked his way up and has a bright future in the army.  Too bad he will probably be dead before he can get that far.
+Another member of the Arjika military, this man has worked his way up and has a bright future in the military.  Too bad he will probably be dead before he can get that far.
 ~
 72 0 0 0 0 0 0 0 -200 E
 19 14 -1 3d3+190 3d3+3
@@ -1063,7 +1062,7 @@ talk:#adventure view:thegame:agent 0188/look~
 8 8 1
 E
 #189
-commander arjika arjikiya army a0189 z1~
+commander arjika arjikiya military a0189 z1~
 Arjika Commander~
 0189/avatar~
 talk:#adventure view:thegame:agent 0189/look~

@@ -358,12 +358,12 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit\r"
-	  "\nselect[1:exit to]:%d\r"
-    "\nselect[2:name]:%s\r"
-	  "\nselect[3:describe]:%s\r"
-	  "\nselect[4:key]:%d\r"
-	  "\nselect[5:flags]:%s\r"
-	  "\nbmud[delete exit]:6\r"
+	  "\nselect[a:exit to]:%d\r"
+    "\nselect[b:name]:%s\r"
+	  "\nselect[c:describe]:%s\r"
+	  "\nselect[d:key]:%d\r"
+	  "\nselect[e:flags]:%s\r"
+	  "\nbmud[delete exit]:x\r"
 	  "\nmenu[done]:0\r",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
     OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
@@ -543,9 +543,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits room %d.", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-        write_to_output(d, "\nRoom saved to disk.\r");
+        write_to_output(d, "\nalert:Room saved to disk.\r");
       } else
-        write_to_output(d, "\nRoom saved to memory.\r");
+        write_to_output(d, "\nalert:Room saved to memory.\r");
       /* Free everything. */
       cleanup_olc(d, CLEANUP_ALL);
       break;
@@ -567,8 +567,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'a':
       write_to_output(d,
-        "Room Name..."
-        "\ncurrent:%s\r",
+        "Room: (%s)"
         OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
@@ -664,7 +663,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       redit_disp_extradesc_menu(d);
       break;
     case 'p':
-      write_to_output(d, "\nCopy what room?\r");
+      write_to_output(d, "\nalert: Copy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
       break;
     case '0':
@@ -672,13 +671,14 @@ void redit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nRoom was unchanged.\r");
+        write_to_output(d, "\nalert: Room was unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
     case 'x':
       /* Delete the room, prompt first. */
-      write_to_output(d, "\nAre you sure you want to delete this room?\r");
+      write_to_output(d, "\nAre you sure you want to delete this room?\r",);
+      write_to_output(d, "%s", confirm_msg);
       OLC_MODE(d) = REDIT_DELETE;
       break;
 
@@ -741,33 +741,33 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case '0':
       break;
-    case '1':
+    case 'a':
       OLC_MODE(d) = REDIT_EXIT_NUMBER;
-      write_to_output(d, "\nExit to room number:\r");
+      write_to_output(d, "\nExit to Room Number...\r");
       return;
-    case '2':
+    case 'b':
       OLC_MODE(d) = REDIT_EXIT_KEYWORD;
-      write_to_output(d, "\nExit Name:\r");
+      write_to_output(d, "\nExit Name...\r");
       return;
-    case '3':
+    case 'c':
       OLC_MODE(d) = REDIT_EXIT_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "\nExit description:\r");
+      write_to_output(d, "\nExit description...\r");
       if (OLC_EXIT(d)->general_description) {
         write_to_output(d, "%s", OLC_EXIT(d)->general_description);
         oldtext = strdup(OLC_EXIT(d)->general_description);
       }
       string_write(d, &OLC_EXIT(d)->general_description, MAX_EXIT_DESC, 0, oldtext);
       return;
-    case '4':
+    case 'd':
       OLC_MODE(d) = REDIT_EXIT_KEY;
-      write_to_output(d, "\nKey number:\r");
+      write_to_output(d, "\nKey Number...\r");
       return;
-    case '5':
+    case 'e':
       OLC_MODE(d) = REDIT_EXIT_DOORFLAGS;
       redit_disp_exit_flag_menu(d);
       return;
-    case '6':
+    case 'x':
       /*
        * Delete an exit.
        */
@@ -865,13 +865,13 @@ void redit_parse(struct descriptor_data *d, char *arg)
 
     case 1:
       OLC_MODE(d) = REDIT_EXTRADESC_KEY;
-      write_to_output(d, "\nEnter keywords (spaces):\r");
+      write_to_output(d, "\nEnter keywords (spaces)...\r");
       return;
 
     case 2:
       OLC_MODE(d) = REDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "\nEnter extra description:\r");
+      write_to_output(d, "\nEnter extra description...\r");
       if (OLC_DESC(d)->description) {
         write_to_output(d, "%s", OLC_DESC(d)->description);
         oldtext = strdup(OLC_DESC(d)->description);
@@ -912,7 +912,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_room(real_room(OLC_ROOM(d)->number)))
-        write_to_output(d, "\nRoom deleted.\r");
+        write_to_output(d, "\nalert:Room deleted.\r");
      else
         write_to_output(d, "\nerror: Couldn't delete the room!.\r");
 
