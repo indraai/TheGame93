@@ -320,43 +320,6 @@ D5
 ~
 0 0 23
 S
-#27
-(EVIL!)Mud~
-undefined~
-0 8 0 0 0 0
-D1
-~
-~
-1 0 28
-D4
-~
-~
-0 0 18
-S
-#28
-MUD Hall~
-empty.
-~
-0 280 0 0 0 0
-D1
-~
-Hallway~
-0 0 29
-D3
-~
-~
-1 0 27
-S
-#29
-MUD Hall~
-empty.
-~
-0 264 0 0 0 0
-D3
-~
-Hallway~
-0 0 28
-S
 #31
 House Vamraka~
 talk:#adventure view:thegame:world 0033/main
