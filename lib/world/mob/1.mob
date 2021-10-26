@@ -257,12 +257,12 @@ T 106
 guildmaster master mage~
 Mage Guildmaster~
 0120/avatar~
-Even though your guildmaster looks old and tired, you can clearly see the vast amount of knowledge she possesses.  She is wearing fine magic clothing, and you notice that she is surrounded by a blue shimmering aura.
+talk:#adventure view:thegame:agent 0120/look
 ~
 59418 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
+8 8 1
 E
 #121
 guildmaster master monk~
@@ -415,7 +415,7 @@ E
 red deva prime d0134 z1~
 RedDEVA PRIME~
 0134/avatar~
-A Master Deva is in deep contemplation of the universe. The red robe signifies his order.  He is one of the five Prime Deva alive today.  He holds himself with a dignity that astonishes even you.
+talk:#adventure view:thegame:agent 0134/look
 ~
 2058 0 0 0 16 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -449,9 +449,7 @@ E
 black prime deva d0137 z1~
 BlackDEVA PRIME~
 0137/avatar~
-A man in a black flowing robe is chanting something under his breath. The Master Magi of the black order.  This man should not be taken lightly. He has mastered the arts of his order and can call down upon his foes the power
-of the Devas.
-~
+talk:#adventure view:thegame:agent 0137/look~
 72 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -461,8 +459,7 @@ E
 yellow master magi d0138 z1~
 YellowDEVA PRIME~
 0138/avatar~
-A Master Magi in a yellow robe strolls by. One of the seven orders of the Magi, This Master Magi is well known throughout the city and is revered almost as much as the Devas.
-~
+talk:#adventure view:thegame:agent 0138/look~
 72 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
