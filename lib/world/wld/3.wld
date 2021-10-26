@@ -472,6 +472,10 @@ S
 MUD Hall N.~
 Empty room.~
 3 280 0 0 0 0
+D0
+~
+~
+0 0 389
 D1
 ~
 ~
@@ -485,6 +489,10 @@ S
 MUD Hall N.~
 Empty room.~
 3 280 0 0 0 1
+D0
+~
+~
+0 0 388
 D1
 ~
 ~
@@ -498,6 +506,10 @@ S
 MUD Hall N.~
 Empty room.~
 3 280 0 0 0 0
+D0
+~
+~
+0 0 387
 D1
 ~
 ~
@@ -510,7 +522,15 @@ S
 #327
 MUD Hall N.~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 0
+D0
+~
+~
+0 0 386
+D1
+~
+~
+0 0 390
 D2
 ~
 ~
@@ -545,6 +565,10 @@ D2
 ~
 ~
 0 0 344
+D3
+~
+~
+0 0 366
 S
 #330
 The Plaint~
@@ -779,10 +803,10 @@ D3
 0 0 342
 S
 #344
-The Tower of the Magi~
+Arjika Courtyard~
 empty.
 ~
-3 24 0 0 0 0
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -801,7 +825,7 @@ D3
 0 0 343
 S
 #345
-The Tower of Arjika~
+Arjika Tower~
 undefined~
 3 8 0 0 0 0
 D1
@@ -818,7 +842,7 @@ D4
 0 0 132
 S
 #346
-The Tower of Susoma~
+Susoma Tower~
 undefined~
 3 24 0 0 0 0
 D1
@@ -835,7 +859,7 @@ D4
 0 0 133
 S
 #347
-The Tower of the Magi~
+Susoma Courtyard~
 undefined~
 3 16 0 0 0 1
 D1
@@ -1107,13 +1131,13 @@ D0
 0 0 101
 S
 #366
-The Lab~
+Court of Yama~
 Empty room.~
-3 0 0 0 0 0
-D3
+3 24 0 0 0 0
+D1
 ~
-door~
-1 0 350
+~
+0 0 329
 S
 #367
 Hazel's Living Quarters~
@@ -1128,14 +1152,14 @@ D5
 door~
 2 0 225
 E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
+~
+E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #368
@@ -1413,6 +1437,56 @@ D1
 ~
 ~
 0 0 384
+S
+#386
+End of the Line~
+You are in an unfinished room.
+~
+3 24 0 0 0 0
+D2
+~
+~
+0 0 327
+S
+#387
+(EVIL!)Mud~
+You are in an unfinished room.
+~
+3 24 0 0 0 0
+D2
+~
+~
+0 0 326
+S
+#388
+FurryMUCK~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+D2
+~
+~
+0 0 325
+S
+#389
+Tapestries MUCK~
+You are in an unfinished room.
+~
+3 0 0 0 0 0
+D2
+~
+~
+0 0 324
+S
+#390
+Avatar MUD~
+You are in an unfinished room.
+~
+3 24 0 0 0 0
+D3
+~
+~
+0 0 327
 S
 #391
 Bomber's Trial Vnum~

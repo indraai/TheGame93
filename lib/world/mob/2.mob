@@ -218,20 +218,44 @@ frank dooley security deva securitydeva guard d214 z2~
 Frank Dooley (guard)~
 0214/avatar~
 talk:#adventure view:thegame:agent 0214/look~
-10 0 0 0 0 0 0 0 0 E
-5 19 7 1d1+50 1d2+0
-50 2500
+4362 0 0 0 8 0 0 0 500 E
+33 9 -9 6d6+330 5d5+5
+330 108900
 8 8 1
+BareHandAttack: 11
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #215
 norman kane security deva securitydeva guard d215 z2~
 Norman Kane (guard)~
 0215/avatar~
 talk:#adventure view:thegame:agent 0215/look~
-10 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2
+266 0 0 0 8 0 0 0 500 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+BareHandAttack: 10
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #216
 Yoda~
