@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-statue~
-talk:#adventure view:thegame:world 0101/statue
-~
-E
 altar~
 talk:#adventure view:thegame:world 0101/altar
+~
+E
+statue~
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 #102
@@ -89,7 +89,7 @@ talk:#adventure view:thegame:world 0103/table
 ~
 S
 #104
-Inner Void~
+Inner Arjika~
 talk:#adventure view:thegame:world 0104/main
 ~
 1 24 0 0 0 0
@@ -109,10 +109,10 @@ talk:#adventure view:thegame:world 0104/void
 ~
 S
 #105
-Rean's Zone Description Room~
+Vivasvan's Place~
 talk:#adventure view:thegame:world 0105/main
 ~
-1 8 0 0 0 1
+1 568 0 0 0 1
 D5
 talk:#adventure view:thegame:world 0133/look
 ~
@@ -148,11 +148,11 @@ D5
 ~
 0 0 141
 E
-map~
+table~
 empty.
 ~
 E
-table~
+map~
 empty.
 ~
 S
@@ -166,7 +166,7 @@ D5
 ~
 0 0 142
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 E
@@ -174,7 +174,7 @@ Trent_Room~
 empty.
 ~
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 S
@@ -266,11 +266,11 @@ D1
 ~
 0 0 100
 E
-silhouette~
+hole~
 empty.
 ~
 E
-hole~
+silhouette~
 empty.
 ~
 S
@@ -375,7 +375,7 @@ collapsed and the laws of science and nature are in disorder.
 S
 #123
 Thiel Foundation~
-~
+Empty room.~
 1 8 0 0 0 0
 D2
 ~
@@ -384,19 +384,12 @@ D2
 S
 #124
 Clarium Capital~
-~
+Empty room.~
 1 8 0 0 0 0
 D2
 ~
 ~
 0 0 129
-E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
 E
 shrine~
    A beutiful shrine.  It has two white marble figures facing each other with a
@@ -404,11 +397,18 @@ painting of the city below them.  The two figures seem to be looking down at
 the city with looks of worry and hopelessness.  An unlit candle and mirror lay
 on the floor beside the small shrine.
 ~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.
+~
 S
 #125
-Plane of the Magi~
+Plane of the Deva~
 ~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D1
 ~
 ~
@@ -419,7 +419,7 @@ D2
 0 0 132
 S
 #126
-Plane of the Magi~
+Plane of the Deva~
 ~
 1 8 0 0 0 0
 D2
@@ -442,7 +442,7 @@ D1
 S
 #128
 Thiel Tower W.~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
@@ -471,7 +471,7 @@ D5
 S
 #129
 Thiel Tower E.~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
@@ -500,7 +500,7 @@ D5
 S
 #130
 Founders Fund~
-~
+Empty room.~
 1 8 0 0 0 1
 D3
 ~
@@ -510,16 +510,16 @@ S
 #131
 Home of the Magi~
 ~
-1 8 0 0 0 1
+1 24 0 0 0 0
 D1
 ~
 ~
 0 0 132
 S
 #132
-Tower of the Magi~
+The Tower of Arjika~
 ~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -546,9 +546,9 @@ D5
 0 0 345
 S
 #133
-Tower of the Magi~
-~
-1 8 0 0 0 0
+The Tower of Susoma~
+undefined~
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -576,7 +576,7 @@ D5
 S
 #134
 Orb of Arjika~
-~
+Empty room.~
 1 8 0 0 0 0
 D3
 ~
@@ -585,21 +585,17 @@ D3
 S
 #135
 Mithril Capital~
-~
+Empty room.~
 1 8 0 0 0 1
 D0
 ~
 ~
 0 0 128
 E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 E
 desk~
@@ -609,15 +605,19 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
 ~
 S
 #136
 Valar Ventures~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
@@ -627,7 +627,7 @@ S
 #137
 Supply Room~
 ~
-1 8 0 0 0 1
+1 24 0 0 0 0
 D0
 ~
 ~
