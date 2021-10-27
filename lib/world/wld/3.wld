@@ -1160,14 +1160,14 @@ D5
 door~
 2 0 225
 E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
+~
+E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #368
@@ -1477,7 +1477,7 @@ D2
 0 0 325
 S
 #389
-Tapestries MUCK~
+Lost Souls~
 You are in an unfinished room.
 ~
 3 0 0 0 0 0
