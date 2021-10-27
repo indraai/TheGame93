@@ -543,9 +543,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits room %d.", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-        write_to_output(d, "\nalert:Room saved to disk.\r");
+        write_to_output(d, "\nsave:Room saved to disk.\r");
       } else
-        write_to_output(d, "\nalert:Room saved to memory.\r");
+        write_to_output(d, "\nsave:Room saved to memory.\r");
       /* Free everything. */
       cleanup_olc(d, CLEANUP_ALL);
       break;
@@ -671,7 +671,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nalert: Room was unchanged.\r");
+        write_to_output(d, "\nsave: Room was unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
@@ -912,7 +912,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_room(real_room(OLC_ROOM(d)->number)))
-        write_to_output(d, "\nalert:Room deleted.\r");
+        write_to_output(d, "\nsave:Room deleted.\r");
      else
         write_to_output(d, "\nerror: Couldn't delete the room!.\r");
 
