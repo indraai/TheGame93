@@ -417,9 +417,9 @@ D2
 S
 #220
 Genesis~
-~
-2 0 0 0 0 1
-D0
+undefined~
+2 24 0 0 0 0
+D4
 ~
 ~
 0 0 325
@@ -485,9 +485,9 @@ door~
 S
 #226
 TBAMud~
-~
+undefined~
 2 24 0 0 0 0
-D0
+D4
 ~
 ~
 0 0 326
@@ -622,10 +622,10 @@ talk:#adventure view:thegame:world 0233/look
 0 0 233
 S
 #235
-Offering Room~
+The Offering Room~
 talk:#adventure view:thegame:world 0235/main
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0236/look
 ~
@@ -815,7 +815,7 @@ D1
 talk:#adventure view:thegame:world 0247/look
 ~
 ~
-0 0 247
+0 0 248
 D2
 talk:#adventure view:thegame:world 0262/look
 ~
@@ -828,26 +828,20 @@ talk:#adventure view:thegame:world 0245/look
 0 0 245
 S
 #247
-Under the Inner Wall~
+Age of Chaos~
 talk:#adventure view:thegame:world 0247/main
 ~
-2 0 0 0 0 1
-D1
-talk:#adventure view:thegame:world 0248/look
+2 24 0 0 0 0
+D4
 ~
 ~
-0 0 248
-D3
-talk:#adventure view:thegame:world 0246/look
-~
-~
-0 0 246
+0 0 352
 S
 #248
 The Western Road~
 talk:#adventure view:thegame:world 0248/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0233/look
 ~
@@ -862,7 +856,7 @@ D3
 talk:#adventure view:thegame:world 0247/look
 ~
 ~
-0 0 247
+0 0 246
 D4
 talk:#adventure view:thegame:world 0247/look
 ~
@@ -1005,20 +999,14 @@ talk:#adventure view:thegame:world 0118/look
 0 0 118
 S
 #255
-Under the Inner Wall~
+BatMUD~
 talk:#adventure view:thegame:world 0255/main
 ~
-2 0 0 0 0 1
-D1
-talk:#adventure view:thegame:world 0256/look
+2 24 0 0 0 0
+D5
 ~
 ~
-0 0 256
-D3
-talk:#adventure view:thegame:world 0254/look
-~
-~
-0 0 254
+0 0 353
 S
 #256
 The Eastern Intersection~
@@ -1388,7 +1376,7 @@ D3
 S
 #278
 The Butcher~
-~
+Empty room.~
 2 8 0 0 0 1
 D2
 ~
@@ -1413,7 +1401,7 @@ talk:#adventure view:thegame:world 0266/look
 S
 #280
 The Bakery~
-~
+Empty room.~
 2 8 0 0 0 1
 D2
 ~
@@ -1566,7 +1554,7 @@ D2
 S
 #289
 The Southern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1582,25 +1570,21 @@ D4
 0 0 121
 S
 #290
-The Southern Temple Circle~
+LambdaMOO~
    The cobblestone street continues to the east and west along the southern wall
 of the inner city.  Small shops line the road to the north.  The Tower of
 The Dome, with its single tall spire reaching to the heavens, looks magnificent.
 A style of workmanship that has never been surpassed.
 ~
-2 0 0 0 0 1
-D1
+2 24 0 0 0 0
+D4
 ~
 ~
-0 0 291
-D3
-~
-~
-0 0 289
+0 0 324
 S
 #291
 The Southern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1645,7 +1629,7 @@ talk:#adventure view:thegame:world 0291/look
 S
 #293
 The Southern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1661,21 +1645,21 @@ D3
 0 0 292
 S
 #294
-The Southern Temple Circle~
-~
-2 0 0 0 0 1
-D1
-~
-~
-0 0 295
-D3
+Viking MUD~
+undefined~
+2 24 0 0 0 0
+D0
 ~
 ~
-0 0 293
+0 0 389
+D5
+~
+~
+0 0 352
 S
 #295
 The Southern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
