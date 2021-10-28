@@ -648,10 +648,8 @@ E
 #154
 arjika arjikiya patrolman a154 z3 ~
 ArjikaPatrolman~
-Arjika Patrolman A154 is here.
-~
-The patrolman keeps a keen eye out for any trouble and is quick to respond. Only the foolish mess with these trained and disciplined men.
-~
+0154/avatar~
+talk:#adventure view:thegame:agent 0154/look~
 72 0 0 0 0 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
 170 28900
@@ -1138,11 +1136,9 @@ BareHandAttack: 11
 E
 #195
 kitten cat cats feline~
-the kitten~
-A cute little kitten is ready to pounce, its tail twitching back and forth
-~
-The kitten seems intent on attacking your feet for some reason.
-~
+Kitten~
+0195/avatar~
+talk:#adventure view:thegame:agent 0195/look~
 72 0 0 0 0 0 0 0 900 E
 3 19 8 0d0+30 1d2+0
 30 900
