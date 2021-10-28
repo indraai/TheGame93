@@ -69,17 +69,13 @@ D2
 0 0 308
 S
 #302
-The Southern Road~
+Burning MUD~
 Empty room.~
-3 0 0 0 0 1
-D0
+3 24 0 0 0 0
+D4
 ~
 ~
-0 0 292
-D2
-~
-~
-0 0 313
+0 0 353
 S
 #303
 Magi Avenue~
@@ -280,7 +276,7 @@ D1
 D2
 ~
 ~
-0 0 328
+0 0 343
 D3
 ~
 ~
@@ -472,10 +468,6 @@ S
 MUD Hall N.~
 Empty room.~
 3 280 0 0 0 0
-D0
-~
-~
-0 0 389
 D1
 ~
 ~
@@ -484,61 +476,61 @@ D2
 ~
 ~
 0 0 339
+D4
+~
+~
+0 0 389
+D5
+~
+~
+0 0 290
 S
 #325
 MUD Hall N.~
 Empty room.~
 3 24 0 0 0 0
-D0
-~
-~
-0 0 388
 D1
 ~
 ~
 0 0 326
-D2
-~
-~
-0 0 220
 D3
 ~
 ~
 0 0 324
+D4
+~
+~
+0 0 388
+D5
+~
+~
+0 0 220
 S
 #326
 MUD Hall N.~
 Empty room.~
 3 280 0 0 0 0
-D0
-~
-~
-0 0 387
 D1
 ~
 ~
 0 0 327
-D2
-~
-~
-0 0 226
 D3
 ~
 ~
 0 0 325
+D4
+~
+~
+0 0 387
+D5
+~
+~
+0 0 226
 S
 #327
 MUD Hall N.~
 Empty room.~
 3 24 0 0 0 0
-D0
-~
-~
-0 0 386
-D1
-~
-~
-0 0 390
 D2
 ~
 ~
@@ -547,19 +539,23 @@ D3
 ~
 ~
 0 0 326
+D4
+~
+~
+0 0 386
+D5
+~
+~
+0 0 390
 S
 #328
-The Southern Road~
+Discworld MUD~
 Empty room.~
-3 0 0 0 0 1
-D0
+3 24 0 0 0 0
+D5
 ~
 ~
-0 0 313
-D2
-~
-~
-0 0 343
+0 0 354
 S
 #329
 Legal Procedure~
@@ -796,7 +792,7 @@ Empty room.~
 D0
 ~
 ~
-0 0 328
+0 0 313
 D1
 ~
 ~
@@ -804,7 +800,7 @@ D1
 D2
 ~
 ~
-0 0 356
+0 0 362
 D3
 ~
 ~
@@ -955,6 +951,14 @@ D1
 ~
 ~
 0 0 353
+D4
+~
+~
+0 0 294
+D5
+~
+~
+0 0 247
 S
 #353
 MUD Hall S.~
@@ -968,6 +972,14 @@ D3
 ~
 ~
 0 0 352
+D4
+~
+~
+0 0 255
+D5
+~
+~
+0 0 302
 S
 #354
 MUD Hall S.~
@@ -981,6 +993,14 @@ D3
 ~
 ~
 0 0 353
+D4
+~
+~
+0 0 328
+D5
+~
+~
+0 0 174
 S
 #355
 MUD Hall S.~
@@ -994,19 +1014,19 @@ D3
 ~
 ~
 0 0 354
+D4
+~
+~
+0 0 356
 S
 #356
-The Southern Road~
+Elder Tale Online~
 Empty room.~
-3 0 0 0 0 1
-D0
+3 24 0 0 0 0
+D5
 ~
 ~
-0 0 343
-D2
-~
-~
-0 0 362
+0 0 355
 S
 #357
 The Magi Training Room~
@@ -1098,7 +1118,7 @@ Empty room.~
 D0
 ~
 ~
-0 0 356
+0 0 343
 D3
 ~
 ~
@@ -1160,14 +1180,14 @@ D5
 door~
 2 0 225
 E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #368
@@ -1451,7 +1471,7 @@ End of the Line~
 You are in an unfinished room.
 ~
 3 24 0 0 0 0
-D2
+D5
 ~
 ~
 0 0 327
@@ -1461,7 +1481,7 @@ S
 You are in an unfinished room.
 ~
 3 24 0 0 0 0
-D2
+D5
 ~
 ~
 0 0 326
@@ -1471,7 +1491,11 @@ Nanvaent~
 You are in an unfinished room.
 ~
 3 24 0 0 0 0
-D2
+D3
+~
+~
+0 0 389
+D5
 ~
 ~
 0 0 325
@@ -1481,7 +1505,15 @@ Lost Souls~
 You are in an unfinished room.
 ~
 3 0 0 0 0 0
+D1
+~
+~
+0 0 388
 D2
+~
+~
+0 0 294
+D5
 ~
 ~
 0 0 324
@@ -1491,7 +1523,7 @@ Avatar MUD~
 You are in an unfinished room.
 ~
 3 24 0 0 0 0
-D3
+D4
 ~
 ~
 0 0 327
