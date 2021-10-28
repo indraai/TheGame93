@@ -187,7 +187,7 @@ D1
 D2
 ~
 ~
-0 0 220
+0 0 233
 D4
 ~
 ~
@@ -300,7 +300,7 @@ oversee the entire Artist Quarter.
 D2
 ~
 ~
-0 0 226
+0 0 239
 D3
 ~
 ~
@@ -593,12 +593,11 @@ S
 The Western Temple Circle~
 talk:#adventure view:thegame:world 0233/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0220/look
 ~
 ~
-0 0 220
+0 0 207
 D1
 talk:#adventure view:thegame:world 0234/look
 ~
@@ -614,7 +613,7 @@ S
 Captain Lugdach's~
 talk:#adventure view:thegame:world 0234/main
 ~
-2 0 0 0 0 1
+2 8 0 0 0 0
 D3
 talk:#adventure view:thegame:world 0233/look
 ~
@@ -680,10 +679,10 @@ talk:#adventure view:thegame:world 0236/look
 0 0 236
 S
 #238
-Carla the Cloth Mistress~
+Fashion & Style~
 talk:#adventure view:thegame:world 0238/main
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0239/look
 ~
@@ -694,12 +693,12 @@ S
 The Eastern Temple Circle~
 talk:#adventure view:thegame:world 0239/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0226/look
 ~
 ~
-0 0 226
+0 0 213
 D2
 talk:#adventure view:thegame:world 0254/look
 ~
@@ -986,7 +985,7 @@ D1
 talk:#adventure view:thegame:world 0255/look
 ~
 ~
-0 0 255
+0 0 256
 D2
 talk:#adventure view:thegame:world 0269/look
 ~
@@ -1032,7 +1031,7 @@ D3
 talk:#adventure view:thegame:world 0255/look
 ~
 ~
-0 0 255
+0 0 254
 S
 #257
 The Eastern Road~
@@ -1124,7 +1123,7 @@ S
 The Western Temple Circle~
 talk:#adventure view:thegame:world 0263/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0248/look
 ~
@@ -1142,10 +1141,10 @@ talk:#adventure view:thegame:world 0276/look
 0 0 276
 S
 #264
-The Town Grocer~
+The Grocer~
 talk:#adventure view:thegame:world 0264/main
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D3
 talk:#adventure view:thegame:world 0263/look
 ~
@@ -1211,10 +1210,10 @@ talk:#adventure view:thegame:world 0266/look
 0 0 266
 S
 #268
-The Town Furrier~
+The Outfitter~
 talk:#adventure view:thegame:world 0268/main
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0269/look
 ~
@@ -1225,7 +1224,7 @@ S
 The Eastern Temple Circle~
 talk:#adventure view:thegame:world 0269/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0254/look
 ~
@@ -1347,7 +1346,7 @@ displayed in one window depicts several precious gems and minerals.  The Temple
 Circle continues north and south.  The cobblestone streets are bordered by the
 inner city wall to the west and various stores and shops to the east.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1362,13 +1361,13 @@ D2
 0 0 289
 S
 #277
-The Town Jeweler~
+The Jeweler~
    Display cases of very nice looking gems sit in the back of the room behind
 some steel bars.  Must be the jeweler has had problems with thieves.  Several
 nuggets of strange minerals are display on shelves all around.  Lucky is the
 individual who can find some of these valuable items to sell.
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D3
 ~
 ~
@@ -1409,13 +1408,13 @@ D2
 0 0 293
 S
 #281
-The General Store~
+The Store~
    Various types of hardware needed by any wanna be adventurer fill bins and
 buckets around the store.  The items look second hand, but they would all serve
 their purpose.  A few other customers wander the store.  They can't seem to find
 what they are looking for either.
 ~
-2 0 0 0 0 1
+2 8 0 0 0 0
 D1
 ~
 ~
@@ -1427,7 +1426,7 @@ The Eastern Temple Circle~
 mining equipment.  The cobblestone road is blocked to the east by the inner city
 wall and several stores crowd against the Temple of The Dome to the west.
 ~
-2 8 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1555,7 +1554,7 @@ S
 #289
 The Southern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1605,7 +1604,7 @@ T 211
 The Southern Temple Circle Intersection~
 talk:#adventure view:thegame:world 0292/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0279/look
 ~
@@ -1620,7 +1619,7 @@ D2
 talk:#adventure view:thegame:world 0302/look
 ~
 ~
-0 0 302
+0 0 313
 D3
 talk:#adventure view:thegame:world 0291/look
 ~
@@ -1660,7 +1659,7 @@ S
 #295
 The Southern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
