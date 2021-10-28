@@ -1,6 +1,5 @@
 #200
 The Northern Road~
-talk:#adventure view:thegame:world 0200/main
 ~
 2 0 0 0 0 1
 D0
@@ -122,7 +121,6 @@ D3
 S
 #204
 A Meeting Room~
-talk:#adventure view:thegame:world 0204/main
 ~
 2 8 0 0 0 1
 D0
@@ -140,7 +138,6 @@ D2
 S
 #205
 The Galley~
-talk:#adventure view:thegame:world 0205/main
 ~
 2 8 0 0 0 1
 D0
@@ -184,7 +181,7 @@ D1
 D2
 ~
 ~
-0 0 220
+0 0 233
 D4
 ~
 ~
@@ -192,7 +189,6 @@ D4
 S
 #208
 The Northern Temple Circle~
-talk:#adventure view:thegame:world 0208/main
 ~
 2 0 0 0 0 1
 D1
@@ -210,7 +206,7 @@ D3
 S
 #209
 The Northern Temple Circle~
-Empty room.~
+~
 2 0 0 0 0 1
 D1
 ~
@@ -227,7 +223,6 @@ D3
 S
 #210
 The Northern Temple Circle Intersection~
-talk:#adventure view:thegame:world 0210/main
 ~
 2 0 0 0 0 1
 D0
@@ -249,7 +244,6 @@ D3
 S
 #211
 The Northern Temple Circle~
-talk:#adventure view:thegame:world 0211/main
 ~
 2 0 0 0 0 1
 D0
@@ -271,7 +265,7 @@ D3
 S
 #212
 The Northern Temple Circle~
-Empty room.~
+~
 2 0 0 0 0 1
 D1
 ~
@@ -293,7 +287,7 @@ The Northern Temple Circle~
 D2
 ~
 ~
-0 0 226
+0 0 239
 D3
 ~
 ~
@@ -357,7 +351,6 @@ D2
 S
 #217
 A Class Room~
-talk:#adventure view:thegame:world 0217/main
 ~
 2 24 0 0 0 0
 D0
@@ -375,7 +368,6 @@ D2
 S
 #218
 Training Room~
-talk:#adventure view:thegame:world 0218/main
 ~
 2 8 0 0 0 1
 D0
@@ -419,7 +411,6 @@ D4
 S
 #221
 Lotions and Potions~
-talk:#adventure view:thegame:world 0221/main
 ~
 2 8 0 0 0 1
 D0
@@ -429,9 +420,6 @@ D0
 S
 #222
 Post Office~
-   Piles of mail are stacked in every nook and cranny of this small room.  The
-postal service of The Dome is heavily overworked it seems.  Somewhere amidst the
-piles of mail someone can be heard snoring.  Maybe not overworked, just lazy.
 ~
 2 8 0 0 0 1
 D0
@@ -441,7 +429,6 @@ D0
 S
 #223
 Northern Temple Entrance~
-talk:#adventure view:thegame:world 0223/main
 ~
 2 0 0 0 0 1
 D0
@@ -455,7 +442,6 @@ D2
 S
 #224
 Bank of Arjika~
-talk:#adventure view:thegame:world 0224/main
 ~
 2 8 0 0 0 1
 D0
@@ -465,7 +451,7 @@ D0
 S
 #225
 The Water Hole~
-Empty room.~
+~
 2 8 0 0 0 1
 D0
 ~
@@ -546,7 +532,6 @@ D3
 S
 #230
 The Generals Room~
-talk:#adventure view:thegame:world 0230/main
 ~
 2 24 0 0 0 0
 D0
@@ -557,7 +542,6 @@ S
 T 207
 #231
 The Latrine~
-talk:#adventure view:thegame:world 0231/main
 ~
 2 8 0 0 0 1
 D0
@@ -584,245 +568,196 @@ D2
 S
 #233
 The Western Temple Circle~
-talk:#adventure view:thegame:world 0233/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0220/look
 ~
 ~
-0 0 220
+0 0 207
 D1
-talk:#adventure view:thegame:world 0234/look
 ~
 ~
 0 0 234
 D2
-talk:#adventure view:thegame:world 0248/look
 ~
 ~
 0 0 248
 S
 #234
 Captain Lugdach's~
-talk:#adventure view:thegame:world 0234/main
 ~
-2 0 0 0 0 1
+2 8 0 0 0 0
 D3
-talk:#adventure view:thegame:world 0233/look
 ~
 ~
 0 0 233
 S
 #235
 The Offering Room~
-talk:#adventure view:thegame:world 0235/main
 ~
 2 24 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0236/look
 ~
 ~
 0 0 236
 D2
-talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 S
 #236
 Inside the Temple of The Dome~
-talk:#adventure view:thegame:world 0236/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0223/look
 ~
 ~
 0 0 223
 D1
-talk:#adventure view:thegame:world 0237/look
 ~
 ~
 0 0 237
 D2
-talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 D3
-talk:#adventure view:thegame:world 235/look
 ~
 ~
 0 0 235
 S
 #237
 A Waiting Room~
-talk:#adventure view:thegame:world 0237/main
 ~
 2 8 0 0 0 1
 D2
-talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 D3
-talk:#adventure view:thegame:world 0236/look
 ~
 ~
 0 0 236
 S
 #238
-Carla the Cloth Mistress~
-talk:#adventure view:thegame:world 0238/main
+Fashion & Style~
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0239/look
 ~
 ~
 0 0 239
 S
 #239
 The Eastern Temple Circle~
-talk:#adventure view:thegame:world 0239/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0226/look
 ~
 ~
-0 0 226
+0 0 213
 D2
-talk:#adventure view:thegame:world 0254/look
 ~
 ~
 0 0 254
 D3
-talk:#adventure view:thegame:world 0238/look
 ~
 ~
 0 0 238
 S
 #240
 Artist Avenue~
-talk:#adventure view:thegame:world 0240/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0227/look
 ~
 ~
 0 0 227
 D2
-talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 S
 #241
 The Vault~
-talk:#adventure view:thegame:world 0241/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0228/look
 ~
 ~
 0 0 228
 S
 #242
 The Counting Room~
-talk:#adventure view:thegame:world 0242/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0229/look
 ~
 ~
 0 0 229
 S
 #243
 The West Gate~
-talk:#adventure view:thegame:world 0243/main
 ~
 2 0 0 0 0 1
 D1
-talk:#adventure view:thegame:world 0244/look
 ~
 ~
 0 0 244
 D4
-talk:#adventure view:thegame:world 0114/look
 ~
 ~
 0 0 114
-E
-firmament~
-talk:#adventure view:thegame:world 0243/firmament
-~
 S
 #244
 The Western Road~
-talk:#adventure view:thegame:world 0244/main
 ~
 2 0 0 0 0 1
 D1
-talk:#adventure view:thegame:world 0245/look
 ~
 ~
 0 0 245
 D3
-talk:#adventure view:thegame:world 0243/look
 ~
 ~
 0 0 243
 S
 #245
 The Western Road~
-talk:#adventure view:thegame:world 0245/main
 ~
 2 0 0 0 0 1
 D1
-talk:#adventure view:thegame:world 0246/look
 ~
 ~
 0 0 246
 D3
-talk:#adventure view:thegame:world 0244/look
 ~
 ~
 0 0 244
 S
 #246
 The Western Intersection~
-talk:#adventure view:thegame:world 0246/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0232/look
 ~
 ~
 0 0 232
 D1
-talk:#adventure view:thegame:world 0247/look
 ~
 ~
 0 0 248
 D2
-talk:#adventure view:thegame:world 0262/look
 ~
 ~
 0 0 262
 D3
-talk:#adventure view:thegame:world 0245/look
 ~
 ~
 0 0 245
 S
 #247
 Age of Chaos~
-talk:#adventure view:thegame:world 0247/main
 ~
 2 24 0 0 0 0
 D4
@@ -832,168 +767,133 @@ D4
 S
 #248
 The Western Road~
-talk:#adventure view:thegame:world 0248/main
 ~
 2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0233/look
 ~
 ~
 0 0 233
 D2
-talk:#adventure view:thegame:world 0263/look
 ~
 ~
 0 0 263
 D3
-talk:#adventure view:thegame:world 0247/look
 ~
 ~
 0 0 246
 D4
-talk:#adventure view:thegame:world 0247/look
 ~
 ~
 0 0 115
 S
 #249
 The Mortal Board Room~
-talk:#adventure view:thegame:world 0249/main
 ~
 2 8 0 0 0 1
 D1
-talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 S
 #250
 The Dome Temple~
-talk:#adventure view:thegame:world 0250/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0235/look
 ~
 ~
 0 0 235
 D1
-talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 D2
-talk:#adventure view:thegame:world 0265/look
 ~
 ~
 0 0 265
 D3
-talk:#adventure view:thegame:world 0249/look
 ~
 ~
 0 0 249
 S
 #251
 The Dome Center~
-talk:#adventure view:thegame:world 0251/main
 ~
 2 24 0 0 0 1
 D0
-talk:#adventure view:thegame:world 236/look
 ~
 ~
 0 0 236
 D1
-talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 D2
-talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 D3
-talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 D4
-talk:#adventure view:thegame:world 0100/look
 ~
 ~
 0 0 100
-E
-tweet~
-talk:#adventure view:thegame:world 0251/tweet
-~
 S
 #252
 The Dome Temple~
-talk:#adventure view:thegame:world 0252/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0237/look
 ~
 ~
 0 0 237
 D1
-talk:#adventure view:thegame:world 0253/look
 ~
 ~
 0 0 253
 D2
-talk:#adventure view:thegame:world 0267/look
 ~
 ~
 0 0 267
 D3
-talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 S
 #253
 The Social Board Room~
-talk:#adventure view:thegame:world 0253/main
 ~
 2 8 0 0 0 1
 D3
-talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 S
 #254
 The Western Road~
-talk:#adventure view:thegame:world 0254/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0239/look
 ~
 ~
 0 0 239
 D1
-talk:#adventure view:thegame:world 0255/look
 ~
 ~
-0 0 255
+0 0 256
 D2
-talk:#adventure view:thegame:world 0269/look
 ~
 ~
 0 0 269
 D4
-talk:#adventure view:thegame:world 0118/look
 ~
 ~
 0 0 118
 S
 #255
 BatMUD~
-talk:#adventure view:thegame:world 0255/main
 ~
 2 24 0 0 0 0
 D5
@@ -1003,272 +903,221 @@ D5
 S
 #256
 The Eastern Intersection~
-talk:#adventure view:thegame:world 0256/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0240/look
 ~
 ~
 0 0 240
 D1
-talk:#adventure view:thegame:world 0257/look
 ~
 ~
 0 0 257
 D2
-talk:#adventure view:thegame:world 0270/look
 ~
 ~
 0 0 270
 D3
-talk:#adventure view:thegame:world 0255/look
 ~
 ~
-0 0 255
+0 0 254
 S
 #257
 The Eastern Road~
-talk:#adventure view:thegame:world 0257/main
 ~
 2 0 0 0 0 1
 D1
-talk:#adventure view:thegame:world 0258/look
 ~
 ~
 0 0 258
 D3
-talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 S
 #258
 The Eastern Road~
-talk:#adventure view:thegame:world 0258/main
 ~
 2 0 0 0 0 1
 D1
-talk:#adventure view:thegame:world 0259/look
 ~
 ~
 0 0 259
 D3
-talk:#adventure view:thegame:world 0257/look
 ~
 ~
 0 0 257
 S
 #259
 The Eastern Gate~
-talk:#adventure view:thegame:world 0259/main
 ~
 2 0 0 0 0 1
 D3
-talk:#adventure view:thegame:world 0258/look
 ~
 ~
 0 0 258
 D4
-talk:#adventure view:thegame:world 0119/look
 ~
 ~
 0 0 119
 S
 #260
 The High Councillor's Chambers~
-talk:#adventure view:thegame:world 0260/main
 ~
 2 8 0 0 0 1
 D2
-talk:#adventure view:thegame:world 0273/look
 ~
 ~
 0 0 273
 S
 #261
 A Bathroom~
-talk:#adventure view:thegame:world 0261/main
 ~
 2 8 0 0 0 1
 D2
-talk:#adventure view:thegame:world 0274/look
 ~
 ~
 0 0 274
 S
 #262
 Clerics Avenue~
-talk:#adventure view:thegame:world 0262/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0246/look
 ~
 ~
 0 0 246
 D2
-talk:#adventure view:thegame:world 0275/look
 ~
 ~
 0 0 275
 S
 #263
 The Western Temple Circle~
-talk:#adventure view:thegame:world 0263/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0248/look
 ~
 ~
 0 0 248
 D1
-talk:#adventure view:thegame:world 0264/look
 ~
 ~
 0 0 264
 D2
-talk:#adventure view:thegame:world 0276/look
 ~
 ~
 0 0 276
 S
 #264
-The Town Grocer~
-talk:#adventure view:thegame:world 0264/main
+The Grocer~
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D3
-talk:#adventure view:thegame:world 0263/look
 ~
 ~
 0 0 263
 S
 #265
 A Room of Prayer~
-talk:#adventure view:thegame:world 0265/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0250/look
 ~
 ~
 0 0 250
 D1
-talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 S
 #266
 Inside the Temple of The Dome~
-talk:#adventure view:thegame:world 0266/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0251/look
 ~
 ~
 0 0 251
 D1
-talk:#adventure view:thegame:world 0267/look
 ~
 ~
 0 0 267
 D2
-talk:#adventure view:thegame:world 0279/look
 ~
 ~
 0 0 279
 D3
-talk:#adventure view:thegame:world 0265/look
 ~
 ~
 0 0 265
 S
 #267
 A Room of Prayer~
-talk:#adventure view:thegame:world 0267/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0252/look
 ~
 ~
 0 0 252
 D3
-talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 S
 #268
-The Town Furrier~
-talk:#adventure view:thegame:world 0268/main
+The Outfitter~
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0269/look
 ~
 ~
 0 0 269
 S
 #269
 The Eastern Temple Circle~
-talk:#adventure view:thegame:world 0269/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0254/look
 ~
 ~
 0 0 254
 D2
-talk:#adventure view:thegame:world 0282/look
 ~
 ~
 0 0 282
 D3
-talk:#adventure view:thegame:world 0268/look
 ~
 ~
 0 0 268
 S
 #270
 Magi Avenue~
-talk:#adventure view:thegame:world 0270/main
 ~
 2 0 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0256/look
 ~
 ~
 0 0 256
 D2
-talk:#adventure view:thegame:world 0283/look
 ~
 ~
 0 0 283
 S
 #271
 A Sleeping Chamber~
-talk:#adventure view:thegame:world 0271/main
 ~
 2 8 0 0 0 1
 D2
-talk:#adventure view:thegame:world 0284/look
 ~
 ~
 0 0 284
 S
 #272
 A Sleeping Chamber~
-talk:#adventure view:thegame:world 0272/main
 ~
 2 8 0 0 0 1
 D2
-talk:#adventure view:thegame:world 0285/look
 ~
 ~
 0 0 285
@@ -1336,7 +1185,7 @@ S
 #276
 The Western Temple Circle~
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1351,9 +1200,9 @@ D2
 0 0 289
 S
 #277
-The Town Jeweler~
+The Jeweler~
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D3
 ~
 ~
@@ -1361,7 +1210,7 @@ D3
 S
 #278
 The Butcher~
-Empty room.~
+~
 2 8 0 0 0 1
 D2
 ~
@@ -1370,23 +1219,20 @@ D2
 S
 #279
 Southern Temple Entrance~
-talk:#adventure view:thegame:world 0279/main
 ~
 2 8 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 266
 D2
-talk:#adventure view:thegame:world 0266/look
 ~
 ~
 0 0 292
 S
 #280
 The Bakery~
-Empty room.~
+~
 2 8 0 0 0 1
 D2
 ~
@@ -1394,9 +1240,9 @@ D2
 0 0 293
 S
 #281
-The General Store~
+The Emporium~
 ~
-2 0 0 0 0 1
+2 8 0 0 0 0
 D1
 ~
 ~
@@ -1405,7 +1251,7 @@ S
 #282
 The Eastern Temple Circle~
 ~
-2 8 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1532,8 +1378,8 @@ D2
 S
 #289
 The Southern Temple Circle~
-Empty room.~
-2 0 0 0 0 1
+~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1558,7 +1404,7 @@ D4
 S
 #291
 The Southern Temple Circle~
-Empty room.~
+~
 2 0 0 0 0 1
 D0
 ~
@@ -1577,33 +1423,28 @@ T 210
 T 211
 #292
 The Southern Temple Circle Intersection~
-talk:#adventure view:thegame:world 0292/main
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0279/look
 ~
 ~
 0 0 279
 D1
-talk:#adventure view:thegame:world 0293/look
 ~
 ~
 0 0 293
 D2
-talk:#adventure view:thegame:world 0302/look
 ~
 ~
-0 0 302
+0 0 313
 D3
-talk:#adventure view:thegame:world 0291/look
 ~
 ~
 0 0 291
 S
 #293
 The Southern Temple Circle~
-Empty room.~
+~
 2 0 0 0 0 1
 D0
 ~
@@ -1633,8 +1474,8 @@ D5
 S
 #295
 The Southern Temple Circle~
-Empty room.~
-2 0 0 0 0 1
+~
+2 16 0 0 0 1
 D0
 ~
 ~

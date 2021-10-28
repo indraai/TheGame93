@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-altar~
-talk:#adventure view:thegame:world 0101/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 0101/statue
+~
+E
+altar~
+talk:#adventure view:thegame:world 0101/altar
 ~
 S
 #102
@@ -124,10 +124,18 @@ talk:#adventure view:thegame:world 0105/cushions
 ~
 S
 #106
-Above the Northern Gate~
+Lookout (N)~
 talk:#adventure view:thegame:world 0106/main
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D1
+~
+~
+0 0 119
+D3
+~
+~
+0 0 114
 D5
 talk:#adventure view:thegame:world 0140/look
 ~
@@ -143,16 +151,24 @@ The War Room~
 empty.
 ~
 1 760 0 0 0 0
+D1
+~
+~
+0 0 106
+D2
+~
+~
+0 0 111
 D5
 ~
 ~
 0 0 141
 E
-table~
+map~
 empty.
 ~
 E
-map~
+table~
 empty.
 ~
 S
@@ -166,7 +182,7 @@ D5
 ~
 0 0 142
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 E
@@ -174,7 +190,7 @@ Trent_Room~
 empty.
 ~
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 S
@@ -199,20 +215,40 @@ D5
 0 0 151
 S
 #111
-Northwest Corner of the Inner Wall~
+Inner Lookout (NW)~
 empty.
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
+D0
+~
+~
+0 0 106
+D1
+~
+~
+0 0 112
+D2
+~
+~
+0 0 115
 D5
 ~
 ~
 0 0 207
 S
 #112
-Northeast Corner of the Inner Wall~
+Inner Lookout (NE)~
 empty.
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D2
+~
+~
+0 0 118
+D3
+~
+~
+0 0 111
 D5
 ~
 ~
@@ -233,10 +269,22 @@ empty.
 ~
 S
 #114
-Above the Western Gate~
+Lookout (W)~
 empty.
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D0
+~
+~
+0 0 106
+D1
+~
+~
+0 0 115
+D2
+~
+~
+0 0 139
 D5
 ~
 ~
@@ -247,10 +295,26 @@ empty.
 ~
 S
 #115
-Above the Inner Wall~
+Inner Lookout (W)~
 empty.
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D0
+~
+~
+0 0 111
+D1
+~
+~
+0 0 118
+D2
+~
+~
+0 0 121
+D3
+~
+~
+0 0 114
 D5
 ~
 ~
@@ -266,11 +330,11 @@ D1
 ~
 0 0 100
 E
-hole~
+silhouette~
 empty.
 ~
 E
-silhouette~
+hole~
 empty.
 ~
 S
@@ -285,19 +349,47 @@ D3
 0 0 100
 S
 #118
-Above the Inner Wall~
+Inner Lookout (E)~
 empty.
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D0
+~
+~
+0 0 112
+D1
+~
+~
+0 0 119
+D2
+~
+~
+0 0 122
+D3
+~
+~
+0 0 115
 D5
 ~
 ~
 0 0 254
 S
 #119
-Above the Eastern Gate~
+Lookout (E)~
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D0
+~
+~
+0 0 106
+D2
+~
+~
+0 0 139
+D3
+~
+~
+0 0 118
 D5
 ~
 ~
@@ -327,9 +419,17 @@ D0
 0 0 100
 S
 #121
-Southwestern Corner of the Inner Wall~
+Inner Lookout (SW)~
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D0
+~
+~
+0 0 115
+D1
+~
+~
+0 0 122
 D5
 ~
 ~
@@ -344,9 +444,17 @@ collapsed and the laws of science and nature are in disorder.
 ~
 S
 #122
-Southeastern Corner of the Inner Wall~
+Inner Lookout (SE)~
 ~
-1 0 0 0 0 1
+1 24 0 0 0 1
+D0
+~
+~
+0 0 118
+D3
+~
+~
+0 0 121
 D5
 ~
 ~
@@ -378,18 +486,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -579,10 +687,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -592,14 +704,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136
@@ -630,10 +738,18 @@ D0
 0 0 133
 S
 #139
-Above the Southern Gate~
+Lookout (S)~
 e
 ~
 1 0 0 0 0 1
+D1
+~
+~
+0 0 119
+D3
+~
+~
+0 0 114
 D5
 ~
 ~
@@ -743,7 +859,7 @@ S
 The Northern Road~
 talk:#adventure view:thegame:world 0146/main
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0140/look
 ~
@@ -984,7 +1100,7 @@ S
 The Northern Intersection~
 talk:#adventure view:thegame:world 0159/main
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0146/look
 ~
@@ -999,7 +1115,7 @@ D2
 talk:#adventure view:thegame:world 0174/look
 ~
 ~
-0 0 174
+0 0 189
 D3
 talk:#adventure view:thegame:world 0158/look
 ~
@@ -1531,7 +1647,7 @@ D0
 talk:#adventure view:thegame:world 0174/look
 ~
 ~
-0 0 174
+0 0 159
 D1
 talk:#adventure view:thegame:world 0190/look
 ~
