@@ -78,13 +78,13 @@ D4
 0 0 353
 S
 #303
-Magi Avenue~
+4 S. Arjika Blvd.~
    The Tower of the Magi lies to the southwest.  Just to the south one can see
 where the inner city wall turns to the west.  This avenue runs deep within the
 Magi's Quarter.  Accidents have been known to happen around here.  People must
 be careful for who knows what an inexperienced student may do.
 ~
-3 0 0 0 0 1
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -95,13 +95,13 @@ D2
 0 0 318
 S
 #304
-An Elegant Hall~
+ARMY: Hall~
    Drawings of ancient battles in which the Magi slaughter their foes line both
 sides of the hallway.  Depicted on these drawings are a myriad of creatures
 ranging from ogres, orcs, goblins, and demons to humans, elves, and dwarves.
 One of the paintings looks oddly familiar.
 ~
-3 8 0 0 0 1
+3 8 0 0 0 0
 D0
 ~
 ~
@@ -116,13 +116,13 @@ D2
 0 0 319
 S
 #305
-The Baths~
+ARMY: Dining~
    The air is musky and hard to breathe due to the hot steam wafting from the
 large copper tubs filled with hot water.  A large fire with pots of water
 heating over it fills the eastern wall.  These baths are only to be used by the
 magi whom believe cleanliness is next to Devaness.
 ~
-3 8 0 0 0 1
+3 24 0 0 0 0
 D0
 ~
 ~
@@ -348,13 +348,13 @@ D3
 0 0 316
 S
 #318
-The Southeastern Intersection~
+5 S. Arjika Blvd.~
    A small alley ducks between the Tower of the Magi and the southern section of
 the inner city wall.  The Magi Mansion lies just to the east, so extravagant
 that it is almost at the point of becoming an eyesore.  The Tower contains the
 fabled Orb of Arjika, but few are ever lucky enough to lay their eyes on it.
 ~
-3 0 0 0 0 1
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -369,14 +369,14 @@ D3
 0 0 317
 S
 #319
-An Elegant Hall~
+ARMY: Hall~
    Both sides of the hallway are covered from floor to ceiling in exquisite
 drawings.  All of them depicting various battles in which the Magi have fought
 in.  In the one in front of you the army of Arjika stands on the verge of
 defeat, except for the constant bombardment of fireballs, lightning, and meteors
 hurled from the battlements by the Magi.
 ~
-3 0 0 0 0 1
+3 8 0 0 0 0
 D0
 ~
 ~
@@ -391,17 +391,13 @@ D2
 0 0 334
 S
 #320
-The Kitchen~
+ARMY: Kitchen~
 Empty room.~
-3 8 0 0 0 1
+3 8 0 0 0 0
 D0
 ~
 ~
 0 0 305
-D2
-~
-~
-0 0 335
 D3
 ~
 ~
@@ -614,14 +610,14 @@ D4
 0 0 368
 S
 #333
-Magi Avenue~
+6 S. Arjika Blvd.~
    The street narrows here as it passes between the tower and the mansion.  One
 can hear strange incantations coming from an open window in the black tower, far
 above the other buildings.  The Magi train young students within to take their
 place, but fewer and fewer meet the requirements and actually survive the
 training.
 ~
-3 0 0 0 0 1
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -632,35 +628,39 @@ D2
 0 0 348
 S
 #334
-The Foyier~
+ARMY: Hall~
    The mansion surrounding you leaves your mouth agape from the luxuries the
 Magi have come to call their home.  Curtains of deep maroon velvet drape over
 the windows.  Rugs of the colors of the Magi line the floors.  Everything is
 spotless and well maintained.  Living here would be what many would consider as
 living the good life.
 ~
-3 8 0 0 0 1
+3 8 0 0 0 0
 D0
 ~
 ~
 0 0 319
+D1
+~
+~
+0 0 335
 D2
 ~
 ~
 0 0 349
 S
 #335
-A Back Hall~
+ARMY: Training~
 Empty room.~
-3 8 0 0 0 1
-D0
-~
-~
-0 0 320
+3 8 0 0 0 0
 D2
 ~
 ~
 0 0 350
+D3
+~
+~
+0 0 334
 S
 #336
 Medical Center~
@@ -876,9 +876,9 @@ D3
 0 0 346
 S
 #348
-The Magi Quarters~
+7 S. Arjika Blvd.~
 Empty room.~
-3 0 0 0 0 1
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -897,13 +897,9 @@ D3
 0 0 347
 S
 #349
-The Magi Mansion~
+ARMY: Entrance~
 Empty room.~
-3 8 0 0 0 1
-D0
-~
-~
-0 0 334
+3 8 0 0 0 0
 D1
 ~
 ~
@@ -914,17 +910,13 @@ door~
 1 0 348
 S
 #350
-A Study~
+ARMY: Recruiting~
 Empty room.~
-3 8 0 0 0 1
+3 8 0 0 0 0
 D0
 ~
 ~
 0 0 335
-D1
-~
-door~
-1 0 366
 D3
 ~
 ~
@@ -1180,14 +1172,14 @@ D5
 door~
 2 0 225
 E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #368

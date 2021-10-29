@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-statue~
-talk:#adventure view:thegame:world 0101/statue
-~
-E
 altar~
 talk:#adventure view:thegame:world 0101/altar
+~
+E
+statue~
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 #102
@@ -132,6 +132,10 @@ D1
 ~
 ~
 0 0 119
+D2
+~
+~
+0 0 107
 D3
 ~
 ~
@@ -151,24 +155,32 @@ The War Room~
 empty.
 ~
 1 760 0 0 0 0
-D1
+D0
 ~
 ~
 0 0 106
+D1
+~
+~
+0 0 119
 D2
 ~
 ~
-0 0 111
+0 0 139
+D3
+~
+~
+0 0 114
 D5
 ~
 ~
-0 0 141
+0 0 96
 E
-map~
+table~
 empty.
 ~
 E
-table~
+map~
 empty.
 ~
 S
@@ -182,7 +194,7 @@ D5
 ~
 0 0 142
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 E
@@ -190,7 +202,7 @@ Trent_Room~
 empty.
 ~
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 S
@@ -280,7 +292,7 @@ D0
 D1
 ~
 ~
-0 0 115
+0 0 107
 D2
 ~
 ~
@@ -330,11 +342,11 @@ D1
 ~
 0 0 100
 E
-silhouette~
+hole~
 empty.
 ~
 E
-hole~
+silhouette~
 empty.
 ~
 S
@@ -376,7 +388,7 @@ D5
 S
 #119
 Lookout (E)~
-~
+undefined~
 1 24 0 0 0 1
 D0
 ~
@@ -389,7 +401,7 @@ D2
 D3
 ~
 ~
-0 0 118
+0 0 107
 D5
 ~
 ~
@@ -420,7 +432,7 @@ D0
 S
 #121
 Inner Lookout (SW)~
-~
+Empty room.~
 1 24 0 0 0 1
 D0
 ~
@@ -445,7 +457,7 @@ collapsed and the laws of science and nature are in disorder.
 S
 #122
 Inner Lookout (SE)~
-~
+Empty room.~
 1 24 0 0 0 1
 D0
 ~
@@ -486,18 +498,18 @@ D2
 ~
 0 0 129
 E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
-E
 shrine~
    A beutiful shrine.  It has two white marble figures facing each other with a
 painting of the city below them.  The two figures seem to be looking down at
 the city with looks of worry and hopelessness.  An unlit candle and mirror lay
 on the floor beside the small shrine.
+~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.
 ~
 S
 #125
@@ -687,14 +699,10 @@ D0
 ~
 0 0 128
 E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 E
 desk~
@@ -704,10 +712,14 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
 ~
 S
 #136
@@ -742,6 +754,10 @@ Lookout (S)~
 e
 ~
 1 0 0 0 0 1
+D0
+~
+~
+0 0 107
 D1
 ~
 ~
@@ -1230,7 +1246,7 @@ above you to the east.  Artist Avenue makes a turn here to the south or west.
 This area is now in the northeastern corner of the city, in the heart of the
 Artist Quarter.  A traveler would be wise to watch their purse carefully.
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -1249,7 +1265,7 @@ D3
 0 0 163
 S
 #165
-The Artist' Warehouse~
+MARINES: Entrance~
    You work your way through boxes and crates of supplies.  Small corridors
 lead between them, making a small maze within the building.  Looks very easy to
 get disoreientated and lost.  This is where the city keeps the majority of it's
@@ -1261,17 +1277,13 @@ D1
 ~
 ~
 0 0 166
-D2
-~
-~
-0 0 180
 D3
 ~
 door~
 1 0 164
 S
 #166
-A Storage Room~
+MARINES: Recruiting~
    Wooden crates and boxes are neatly stacked into columns standing about twice
 your height with rows in between that barely allow you to walk through.  Hard to
 believe anyone could find their way out of this place, let alone know where to
@@ -1441,7 +1453,7 @@ trespassing, I'm sure no one will mind.  The house is very compact.  The
 kitchen and bedrooms are not separated by any walls.  This must be a house for
 the poor.
 ~
-1 8 0 0 0 1
+1 2072 0 0 0 0
 D0
 ~
 door~
@@ -1460,10 +1472,10 @@ door~
 1 0 163
 S
 #179
-Artist Avenue~
+6 N. Arjika Blvd.~
 empty.
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -1474,7 +1486,7 @@ D2
 0 0 194
 S
 #180
-The Artist Warehouse~
+MARINES: Hall~
    A pathway has been opened here to allow for small carts and wagons to pass.
 You can hear a few workers in the distance pushing the large crates over the
 dusty floor.  A large box and tackle swings back and forth on a strange pulley
@@ -1485,13 +1497,17 @@ D0
 ~
 ~
 0 0 165
+D1
+~
+~
+0 0 181
 D2
 ~
 ~
 0 0 195
 S
 #181
-A Storage Room~
+MARINES: Training~
    The rows of crates and boxes continue to the north and south.  Everything is
 nailed shut, some even wrapped in chains and padlocked.  Enough stores to last
 the city for a year must be packed away in this place.  Everything is
@@ -1502,10 +1518,10 @@ D0
 ~
 ~
 0 0 166
-D2
+D3
 ~
 ~
-0 0 196
+0 0 180
 S
 #182
 The Hero Hallway~
@@ -1730,13 +1746,13 @@ D3
 0 0 192
 S
 #194
-The Northeast Intersection~
+5 N. Arjika Blvd.~
    The Artist Avenue comes to an intersection with a shady alley to the west.
 This intersection is at the northeast corner of the inner city wall.  On top of
 the wall one can see some type of post where the guards watch for any trouble.
 A large building to the east must be some sort of warehouse.
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -1751,7 +1767,7 @@ D3
 0 0 193
 S
 #195
-Wagon Bay~
+MARINES: Hall~
    Huge double doors have been built into the western wall of the warehouse.
 They are closed, barred, and locked with a padlock the size of your head.  No
 one gets in or out without that key.  An aisle to load and unload wagons runs
@@ -1772,7 +1788,7 @@ D2
 0 0 202
 S
 #196
-Wagon Bay~
+MARINES: Kitchen~
    A path is opened up between the crates here for wagons to load and unload.
 The floor has turned to packed dirt and traces of horse manure leave an
 unpleasant smell. Three wagons fill the center of the room. All look empty.

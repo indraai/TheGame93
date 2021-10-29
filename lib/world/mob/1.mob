@@ -737,7 +737,7 @@ ServiceDEVA (streetsweeper)~
 0161/avatar~
 talk:#adventure view:thegame:agent 0161/look
 ~
-2136 0 0 0 16 0 0 0 800 E
+2072 0 0 0 16 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 1
@@ -1135,14 +1135,15 @@ talk:#adventure view:thegame:agent 0194/look~
 BareHandAttack: 11
 E
 #195
-kitten cat cats feline~
-Kitten~
+mr whiskers kitten cat cats feline~
+Mr. Whiskers~
 0195/avatar~
 talk:#adventure view:thegame:agent 0195/look~
-72 0 0 0 0 0 0 0 900 E
+8 0 0 0 2064 0 0 0 900 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 2
+8 8 1
+BareHandAttack: 12
 E
 #196
 newbie guide~
