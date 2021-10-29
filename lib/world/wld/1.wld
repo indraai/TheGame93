@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-altar~
-talk:#adventure view:thegame:world 0101/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 0101/statue
+~
+E
+altar~
+talk:#adventure view:thegame:world 0101/altar
 ~
 S
 #102
@@ -176,11 +176,11 @@ D5
 ~
 0 0 96
 E
-table~
+map~
 empty.
 ~
 E
-map~
+table~
 empty.
 ~
 S
@@ -194,7 +194,7 @@ D5
 ~
 0 0 142
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 E
@@ -202,12 +202,12 @@ Trent_Room~
 empty.
 ~
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 S
 #109
-Artist Retreat~
+The Club~
 empty.
 ~
 1 24 0 0 0 0
@@ -342,11 +342,11 @@ D1
 ~
 0 0 100
 E
-hole~
+silhouette~
 empty.
 ~
 E
-silhouette~
+hole~
 empty.
 ~
 S
@@ -498,18 +498,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -699,10 +699,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -712,14 +716,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136
@@ -888,42 +888,62 @@ talk:#adventure view:thegame:world 0159/look
 0 0 159
 S
 #147
-Logan's Pawn~
+The Tiki Bar~
 empty.
 ~
-1 8 0 0 0 0
+1 16 0 0 0 1
+D1
+~
+~
+0 0 148
 D2
 ~
 ~
 0 0 160
 S
 #148
-The Rustic~
+The Gay Bar~
    The only restaurant in Arjika.  The Rustic serves up decent meals to anyone
 that can afford them.  The prices are fair and the service is excellent.  The
 place is rather deserted and only a few customers are chatting idly in the back.
 ~
-1 8 0 0 0 0
+1 24 0 0 0 0
+D1
+~
+~
+0 0 149
 D2
 ~
 ~
 0 0 161
+D3
+~
+~
+0 0 147
 S
 #149
-The Leather Shop~
+The Strait Bar~
    The smell of tanning hides from the back of the shop is very unpleasant.
 The assortment of leather goods is very extensive and they are well made.
 Anyone needing some armor but does not want to give up a lot of movement and
 flexibility need only come here.
 ~
-1 8 0 0 0 0
+1 24 0 0 0 0
+D1
+~
+~
+0 0 150
 D2
 ~
 ~
 0 0 162
+D3
+~
+~
+0 0 148
 S
 #150
-The Bar~
+The Restaurant~
    This gloomy bar has an uneasy feeling about it.  Travelers pausing here
 should be careful as this bar is frequented by the less honorable class in
 Arjika.  Very few people drink here since as soon anyone inebriated is likely
@@ -931,11 +951,15 @@ to be relieved of any gold they may be carrying.  The bar seems to sell a lot
 more than just drinks as large shelves are filled with various items and
 equipment.
 ~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D2
 ~
 ~
 0 0 163
+D3
+~
+~
+0 0 149
 D4
 ~
 ~
@@ -1140,7 +1164,7 @@ talk:#adventure view:thegame:world 0158/look
 S
 #160
 Artist Avenue~
-~
+Empty room.~
 1 0 0 0 0 1
 D0
 ~
@@ -1161,7 +1185,7 @@ D3
 S
 #161
 Artist Avenue~
-~
+Empty room.~
 1 0 0 0 0 1
 D0
 ~
@@ -1182,7 +1206,7 @@ D3
 S
 #162
 Artist Avenue~
-~
+Empty room.~
 1 0 0 0 0 1
 D0
 ~
@@ -1203,7 +1227,7 @@ D3
 S
 #163
 Artist Avenue~
-~
+Empty room.~
 1 0 0 0 0 1
 D0
 ~
@@ -1224,7 +1248,7 @@ D3
 S
 #164
 Artist Quarter~
-~
+Empty room.~
 1 16 0 0 0 1
 D0
 ~
@@ -1245,7 +1269,7 @@ D3
 S
 #165
 MARINES: Entrance~
-~
+Empty room.~
 1 8 0 0 0 0
 D1
 ~
@@ -1339,11 +1363,15 @@ roaring fire.  The house is cluttered with the usual things that makes a house
 look lived in.  You could be happy spending the rest of your life living in a
 house like this.
 ~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 door~
 1 0 155
+D1
+~
+~
+0 0 171
 S
 #171
 Beggars Home~
@@ -1357,6 +1385,14 @@ D0
 ~
 door~
 1 0 156
+D1
+~
+~
+0 0 172
+D3
+~
+~
+0 0 170
 S
 #172
 An Extravagant Home~
@@ -1370,6 +1406,14 @@ D0
 ~
 door~
 1 0 157
+D1
+~
+~
+0 0 173
+D3
+~
+~
+0 0 171
 S
 #173
 Poor House~
