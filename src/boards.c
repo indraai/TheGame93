@@ -49,6 +49,7 @@ struct board_info_type board_info[NUM_OF_BOARDS] = {
   {93, 0, 0, LVL_DEVA, LIB_ETC "board.army", 0},
   {94, 0, 0, LVL_DEVA, LIB_ETC "board.navy", 0},
   {95, 0, 0, LVL_DEVA, LIB_ETC "board.marines", 0},
+  {96, 0, 0, LVL_DEVA, LIB_ETC "board.marines", 0},
   /*
   {3098, LVL_IMMORT, LVL_IMMORT, LVL_GRDEVA, LIB_ETC "board.immortal", 0},
   {3097, LVL_IMMORT, LVL_GRDEVA, LVL_IMPL, LIB_ETC "board.freeze", 0},
