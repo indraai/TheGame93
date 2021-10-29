@@ -983,11 +983,7 @@ D4
 0 0 110
 S
 #152
-The Hero Barracks~
-   This is where the army of Arjika keeps the barracks for those who wish to
-lead a life of service to protect the city.  They are all over worked and under
-paid.  But they serve their terms with pride.  You stand in the northwest
-corner of the barracks.
+NAVY: Recruiting~
 ~
 1 8 0 0 0 0
 D1
@@ -1000,7 +996,7 @@ D2
 0 0 167
 S
 #153
-The Hero Barracks~
+NAVY: Entrance~
 ~
 1 8 0 0 0 0
 D1
