@@ -47,6 +47,7 @@
  * to also change NUM_OF_BOARDS in board.h*/
 struct board_info_type board_info[NUM_OF_BOARDS] = {
   {93, 0, 0, LVL_DEVA, LIB_ETC "board.army", 0},
+  {94, 0, 0, LVL_DEVA, LIB_ETC "board.navy", 0},
   {95, 0, 0, LVL_DEVA, LIB_ETC "board.marines", 0},
   /*
   {3098, LVL_IMMORT, LVL_IMMORT, LVL_GRDEVA, LIB_ETC "board.immortal", 0},
