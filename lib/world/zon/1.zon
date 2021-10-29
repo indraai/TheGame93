@@ -178,12 +178,9 @@ M 0 199 1 278 	(The Butcher)
 R 0 349 93 -1 	(army board)
 O 1 93 99 349 	(army board)
 
+R 0 165 95 -1 	(marines board)
+O 1 95 99 165 	(marines board)
 
-R 0 103 94 -1 	(the monks board)
-O 1 94 99 103 	(the monks board)
-
-R 0 110 95 -1 	(the thieves board)
-O 1 95 99 110 	(the thieves board)
 
 S
 $
