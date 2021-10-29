@@ -1,6 +1,6 @@
 #200
 The Northern Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -60,13 +60,13 @@ Zone 2 is linked to the following zones:
 ~
 S
 #201
-Artist Avenue~
+4 N. Arjika Blvd.~
    This avenue passes between the inner city wall and the warehouse.  The
 warehouse is made from sturdy timber with a set of wide double doors that appear
 to open outwards.  Wagon tracks lead right up to the warehouse.  This must be
 where traders come to unload their supplies.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -77,13 +77,13 @@ D2
 0 0 214
 S
 #202
-The Artist Warehouse~
+MARINES: Hall~
    You are close to the southern end of the storeroom.  Smaller adjoining rooms
 are to the south and east.  The financial holdings of the city are said to be
 hidden somewhere within this building.  Of course only a fool would try to
 steal from a bunch of thieves.
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
@@ -98,14 +98,14 @@ D2
 0 0 215
 S
 #203
-The Workers Room~
+MARINES: Dining~
    This room smells of sweat and dust.  The workers responsible for loading,
 unloading, and sorting through all the supply crates live in this single room.
 Mattresses that are shredded to pieces by rats and mice line one wall.  A small
 washbasin, stool and bench are the only other luxuries these overworked brutes
 own.
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
@@ -121,7 +121,7 @@ D3
 S
 #204
 A Meeting Room~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -138,7 +138,7 @@ D2
 S
 #205
 The Galley~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -172,7 +172,7 @@ D2
 S
 #207
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -189,7 +189,7 @@ D4
 S
 #208
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -206,7 +206,7 @@ D3
 S
 #209
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -223,7 +223,7 @@ D3
 S
 #210
 The Northern Temple Circle Intersection~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -244,7 +244,7 @@ D3
 S
 #211
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -265,7 +265,7 @@ D3
 S
 #212
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -282,7 +282,7 @@ D3
 S
 #213
 The Northern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D2
 ~
@@ -298,13 +298,13 @@ D4
 0 0 112
 S
 #214
-Artist Avenue~
+3 N. Arjika Blvd.~
    Wagons of supplies and loud mouthed traders pass by, looking travelers over
 to see if they might be able to swindle some of your gold.  Most look with
 disappointment as everyone knows few adventurers are rich these days.  The
 avenue follows along the inner city wall to the north and south.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -315,43 +315,47 @@ D2
 0 0 227
 S
 #215
-A Hallway~
+MARINES: Hall~
    You pass through a well-lit hallway with a fancy rug, tiled walls and arched
 ceiling.  Small chandeliers hang just above your head.  This fancy hall belongs
 in a mansion, not a warehouse.  Several benches line the walls.  It almost
 looks like some type of waiting room the thieves use to impress would be
 traders.
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
 0 0 202
+D1
+~
+~
+0 0 216
 D2
 ~
 ~
 0 0 228
 S
 #216
-A Washroom~
+MARINES: Barracks~
    A large washbasin meant for washing clothes, a few pots, and even a hand
 pump with fresh running water are kept in this room.  Too bad none of the
 workers seem to have ever touched any of them.  Leave it to the thieves to hire
 workers to do any manual labor.
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
 0 0 203
-D2
+D3
 ~
 ~
-0 0 229
+0 0 215
 S
 #217
 A Class Room~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -368,7 +372,7 @@ D2
 S
 #218
 Training Room~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -411,7 +415,7 @@ D4
 S
 #221
 Lotions and Potions~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -420,7 +424,7 @@ D0
 S
 #222
 Post Office~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -429,7 +433,7 @@ D0
 S
 #223
 Northern Temple Entrance~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -442,7 +446,7 @@ D2
 S
 #224
 Bank of Arjika~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -451,7 +455,7 @@ D0
 S
 #225
 The Water Hole~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -472,13 +476,13 @@ D4
 0 0 326
 S
 #227
-Artist Avenue~
+2 N. Arjika Blvd.~
    Few people roam this section of the city, the avenue gets its name for
 obvious reasons and most people are too wary of their gold to chance an
 encounter with a pickpocket.  A large warehouse to the east and the inner city
 wall to the west guides the avenue to the north or south.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -489,13 +493,13 @@ D2
 0 0 240
 S
 #228
-A Meeting Room~
+MARINES: Library~
    A large board is nailed to the eastern wall.  A blank sheet of paper covers
 the board.  A bunch of chairs and benches are arranged in rows facing the
 board.  Looks like someone is preparing for a meeting.  Maybe you can sit in
 and learn a few things.
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
@@ -510,17 +514,13 @@ D2
 0 0 241
 S
 #229
-A Meeting Room~
+MARINES: Research~
    A large board is nailed to the western wall.  Various numbers are scratched
 haphazardly all over it.  The type of writing that only the person who made it
 can really comprehend what it means.  This must be where some of the planning
 for the city takes place.
 ~
-2 8 0 0 0 1
-D0
-~
-~
-0 0 216
+2 8 0 0 0 0
 D2
 ~
 ~
@@ -532,7 +532,7 @@ D3
 S
 #230
 The Generals Room~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -542,7 +542,7 @@ S
 T 207
 #231
 The Latrine~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -568,7 +568,7 @@ D2
 S
 #233
 The Western Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -585,7 +585,7 @@ D2
 S
 #234
 Captain Lugdach's~
-~
+Empty room.~
 2 8 0 0 0 0
 D3
 ~
@@ -593,9 +593,9 @@ D3
 0 0 233
 S
 #235
-The Offering Room~
-~
-2 24 0 0 0 0
+The Temple (NW)~
+undefined~
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -606,9 +606,9 @@ D2
 0 0 250
 S
 #236
-Inside the Temple of The Dome~
-~
-2 8 0 0 0 1
+The Temple (N)~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -627,9 +627,9 @@ D3
 0 0 235
 S
 #237
-A Waiting Room~
-~
-2 8 0 0 0 1
+The Temple (NE)~
+undefined~
+2 16 0 0 0 1
 D2
 ~
 ~
@@ -641,7 +641,7 @@ D3
 S
 #238
 Fashion & Style~
-~
+Empty room.~
 2 8 0 0 0 0
 D1
 ~
@@ -650,7 +650,7 @@ D1
 S
 #239
 The Eastern Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -666,9 +666,9 @@ D3
 0 0 238
 S
 #240
-Artist Avenue~
-~
-2 0 0 0 0 1
+1 N. Arjika Blvd.~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -679,17 +679,21 @@ D2
 0 0 256
 S
 #241
-The Vault~
-~
-2 8 0 0 0 1
+MARINES: Operations~
+undefined~
+2 8 0 0 0 0
 D0
 ~
 ~
 0 0 228
+D1
+~
+~
+0 0 242
 S
 #242
-The Counting Room~
-~
+MARINES: Development~
+undefined~
 2 8 0 0 0 1
 D0
 ~
@@ -698,7 +702,7 @@ D0
 S
 #243
 The West Gate~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -711,7 +715,7 @@ D4
 S
 #244
 The Western Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -724,7 +728,7 @@ D3
 S
 #245
 The Western Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -737,7 +741,7 @@ D3
 S
 #246
 The Western Intersection~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -758,7 +762,7 @@ D3
 S
 #247
 Age of Chaos~
-~
+Empty room.~
 2 24 0 0 0 0
 D4
 ~
@@ -767,7 +771,7 @@ D4
 S
 #248
 The Western Road~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -787,18 +791,18 @@ D4
 0 0 115
 S
 #249
-The Mortal Board Room~
-~
-2 8 0 0 0 1
+Social Room (W)~
+undefined~
+2 24 0 0 0 0
 D1
 ~
 ~
 0 0 250
 S
 #250
-The Dome Temple~
-~
-2 8 0 0 0 1
+The Temple (W)~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -817,9 +821,9 @@ D3
 0 0 249
 S
 #251
-The Dome Center~
-~
-2 24 0 0 0 1
+The Center~
+undefined~
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -842,9 +846,9 @@ D4
 0 0 100
 S
 #252
-The Dome Temple~
-~
-2 8 0 0 0 1
+The Temple (E)~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -863,9 +867,9 @@ D3
 0 0 251
 S
 #253
-The Social Board Room~
-~
-2 8 0 0 0 1
+Social Room (E)~
+undefined~
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -873,7 +877,7 @@ D3
 S
 #254
 The Western Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -894,7 +898,7 @@ D4
 S
 #255
 BatMUD~
-~
+Empty room.~
 2 24 0 0 0 0
 D5
 ~
@@ -902,9 +906,9 @@ D5
 0 0 353
 S
 #256
-The Eastern Intersection~
-~
-2 0 0 0 0 1
+4 E. Susoma St.~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -924,7 +928,7 @@ D3
 S
 #257
 The Eastern Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -937,7 +941,7 @@ D3
 S
 #258
 The Eastern Road~
-~
+Empty room.~
 2 0 0 0 0 1
 D1
 ~
@@ -950,7 +954,7 @@ D3
 S
 #259
 The Eastern Gate~
-~
+Empty room.~
 2 0 0 0 0 1
 D3
 ~
@@ -963,7 +967,7 @@ D4
 S
 #260
 The High Councillor's Chambers~
-~
+Empty room.~
 2 8 0 0 0 1
 D2
 ~
@@ -972,7 +976,7 @@ D2
 S
 #261
 A Bathroom~
-~
+Empty room.~
 2 8 0 0 0 1
 D2
 ~
@@ -981,7 +985,7 @@ D2
 S
 #262
 Clerics Avenue~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -994,7 +998,7 @@ D2
 S
 #263
 The Western Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1011,7 +1015,7 @@ D2
 S
 #264
 The Grocer~
-~
+Empty room.~
 2 8 0 0 0 0
 D3
 ~
@@ -1019,9 +1023,9 @@ D3
 0 0 263
 S
 #265
-A Room of Prayer~
-~
-2 8 0 0 0 1
+The Temple (SW)~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1032,9 +1036,9 @@ D1
 0 0 266
 S
 #266
-Inside the Temple of The Dome~
-~
-2 8 0 0 0 1
+The Temple (S)~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1053,9 +1057,9 @@ D3
 0 0 265
 S
 #267
-A Room of Prayer~
-~
-2 0 0 0 0 1
+The Temple (SE)~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1067,7 +1071,7 @@ D3
 S
 #268
 The Outfitter~
-~
+Empty room.~
 2 8 0 0 0 0
 D1
 ~
@@ -1076,7 +1080,7 @@ D1
 S
 #269
 The Eastern Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1092,9 +1096,9 @@ D3
 0 0 268
 S
 #270
-Magi Avenue~
-~
-2 0 0 0 0 1
+1 S. Arjika Blvd.~
+undefined~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1105,22 +1109,30 @@ D2
 0 0 283
 S
 #271
-A Sleeping Chamber~
+ARMY: Operations~
+undefined~
+2 8 0 0 0 0
+D1
 ~
-2 8 0 0 0 1
+~
+0 0 272
 D2
 ~
 ~
 0 0 284
 S
 #272
-A Sleeping Chamber~
-~
-2 8 0 0 0 1
+ARMY: Development~
+undefined~
+2 8 0 0 0 0
 D2
 ~
 ~
 0 0 285
+D3
+~
+~
+0 0 271
 S
 #273
 A Study~
@@ -1184,7 +1196,7 @@ D2
 S
 #276
 The Western Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1201,7 +1213,7 @@ D2
 S
 #277
 The Jeweler~
-~
+Empty room.~
 2 8 0 0 0 0
 D3
 ~
@@ -1210,7 +1222,7 @@ D3
 S
 #278
 The Butcher~
-~
+Empty room.~
 2 8 0 0 0 1
 D2
 ~
@@ -1219,7 +1231,7 @@ D2
 S
 #279
 Southern Temple Entrance~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -1232,7 +1244,7 @@ D2
 S
 #280
 The Bakery~
-~
+Empty room.~
 2 8 0 0 0 1
 D2
 ~
@@ -1241,7 +1253,7 @@ D2
 S
 #281
 The Emporium~
-~
+Empty room.~
 2 8 0 0 0 0
 D1
 ~
@@ -1250,7 +1262,7 @@ D1
 S
 #282
 The Eastern Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1266,13 +1278,13 @@ D3
 0 0 281
 S
 #283
-Magi Avenue~
+2 S. Arjika Blvd.~
    The streetlamps glow an unnatural white, upon closer examination it becomes
 obvious that they must be magical in nature since no oil you've ever seen burns
 that color.  The beautiful cobblestone road meanders north and south.  The Magi
 Mansion to the east looks glorious.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1283,7 +1295,7 @@ D2
 0 0 296
 S
 #284
-The Reading Room~
+ARMY: Library~
 ~
 2 8 0 0 0 1
 D0
@@ -1300,17 +1312,13 @@ D2
 0 0 297
 S
 #285
-The Dining Room~
+ARMY: Research~
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
 0 0 272
-D2
-~
-~
-0 0 298
 D3
 ~
 ~
@@ -1370,7 +1378,7 @@ D2
 S
 #289
 The Southern Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1387,7 +1395,7 @@ D4
 S
 #290
 LambdaMOO~
-~
+Empty room.~
 2 24 0 0 0 0
 D4
 ~
@@ -1396,7 +1404,7 @@ D4
 S
 #291
 The Southern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1415,7 +1423,7 @@ T 210
 T 211
 #292
 The Southern Temple Circle Intersection~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1436,7 +1444,7 @@ D3
 S
 #293
 The Southern Temple Circle~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1466,7 +1474,7 @@ D5
 S
 #295
 The Southern Temple Circle~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -1482,13 +1490,13 @@ D4
 0 0 122
 S
 #296
-Magi Avenue~
+3 S. Arjika Blvd.~
    The stark inner city wall to the west bears a sharp contrast to the luxurious
 mansion to the east.  The magi have trained hard to become very powerful within
 the city and have begun living the life that shows it.  Unlike the monks who
 do not believe in worldly possessions the Magi surround themselves with it.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1499,30 +1507,34 @@ D2
 0 0 303
 S
 #297
-An Elegant Hall~
+ARMY: Hall~
 ~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
 0 0 284
+D1
+~
+~
+0 0 298
 D2
 ~
 ~
 0 0 304
 S
 #298
-A Bunk Room~
+ARMY: Barracks~
 ~
-2 8 0 0 0 1
-D0
-~
-~
-0 0 285
+2 8 0 0 0 0
 D2
 ~
 ~
 0 0 305
+D3
+~
+~
+0 0 297
 S
 #299
 A Waiting Room~
