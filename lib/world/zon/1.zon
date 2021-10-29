@@ -184,5 +184,8 @@ O 1 94 99 153 	(navy board)
 R 0 165 95 -1 	(marines board)
 O 1 95 99 165 	(marines board)
 
+R 0 337 96 -1 	(marines board)
+O 1 96 99 337 	(marines board)
+
 S
 $
