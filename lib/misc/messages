@@ -273,79 +273,79 @@ $n starts kicking a huge stone which suddenly appears.
 * 300
 M
 300
-fight[offense]:You hit $N with a blow that breaks the tackle barrier!
-fight[defense]:$n hits you with a blow that rattles your mind!
-fight[hit]:$n hits $N with a blow that breaks $S spirit!
-fight[offense]:$N ducks under your fist as you try to hit $M.
-fight[defense]:You duck under $n's fist as $e takes a swing at you.
-fight[hit]:$N ducks under $n's fist as $e takes a swing at $M.
+fight[offense]:You hit $N!
+fight[defense]:$n hits you!
+fight[room]:$n hits $N!
+fight[miss]:$N tries to hit $M, but misses.
+fight[defend]:You defend against $n's hit.
+fight[room]:$N defends against $n's hit.
 #
 #
 #
-fight[offense]:It isn't polite to swing at a DEVA!
-fight[defense]:$n tries to take a swing at you -- how pathetic!
-fight[hit]:$n pathetically tries to take a swing at $N - ha!
+fight[bad]:It isn't polite!
+fight[bad]:$n swings at you!
+fight[bad]:$n swings at $N - ha!
 
 M
 300
-fight[offense]:You push $N with such force that it's almost cute!
-fight[defense]:$n pushes you with such force you almost fall down!
-fight[hit]:$N blown back by a powerful push from $n!
-fight[miss]:You try to push $N who avoids the blow.
-fight[defense]:$n tries to push you but your defense is too awesome.
-fight[hit]:$n tries to push $N who easily defends.
+fight[offense]:You push $N!
+fight[defense]:$n pushes you!
+fight[room]:$N pushed $n!
+fight[miss]:You try to push $N.
+fight[defend]:$n tries to push you.
+fight[room]:$n tries to push $N.
 #
 #
 #
-fight[offense]:You try to push $N but fall down instead!
-fight[defense]:$n tries to push you but falls down instead!
-fight[hit]:$n tries to push $N but trips $mself instead!
+fight[bad]:You try to push $N but fall down instead!
+fight[bad]:$n tries to push you but falls down instead!
+fight[bad]:$n tries to push $N but trips $mself instead!
 
 M
 300
-fight[offense]:You smack $N in the face resulting in immediate tears!
-fight[defense]:$n smacks you in the face!
-fight[hit]:$n smacks $N in the face causing immediate tears!
-fight[miss]:You wildly smack at nothing, missing $N.
-fight[defense]:$n misses smacking you.
-fight[hit]:$n practices smacking themself while $N takes a break.
+fight[offense]:You smack $N!
+fight[defense]:$n smacks you!
+fight[room]:$n smacks $N!
+fight[miss]:You try to smack $N.
+fight[defend]:$n tries to smack you.
+fight[room]:$n tried to smack $N.
 #
 #
 #
-fight[offense]:Instead of letting you smack $M, $N forces you to play Punch and Judy!!!
-fight[defense]:You convince $n of playing Punch and Judy instead of smacking you.
-fight[hit]:$N convinces $n that no smacking is necessary.
+fight[bad]:Instead of letting you smack $M, $N forces you to play Punch and Judy!!!
+fight[bad]:You convince $n of playing Punch and Judy instead of smacking you.
+fight[bad]:$N convinces $n that no smacking is necessary.
 
 M
 300
 fight[offense]:You pull $N's hair!
 fight[defense]:$n pulls your hair!
-fight[hit]:$n pulls $N's hair!
-fight[miss]:You try to pull $N hair, but miss $M!
-fight[defense]:You barely avoid $n's hair pulling!
-fight[hit]:$N barely avoids a hair pulling from $n!
+fight[room]:$n pulls $N's hair!
+fight[miss]:You try to pull $N hair!
+fight[defend]:You barely defend $n's hair pulling!
+fight[room]:$N avoids a hair pulling from $n!
 #
 #
 #
-fight[offense]:Your fist flops as your body refuses to fight the mighty $N.
-fight[defense]:$n seems to be having trouble getting $s body to fight you!!
-fight[hit]:$n's body rebels against $m when $e tries to punch $N.
+fight[bad]:Your fist flops as your body refuses to fight the mighty $N.
+fight[bad]:$n seems to be having trouble getting $s body to fight you!!
+fight[bad]:$n's body rebels against $m when $e tries to punch $N.
 
 * 301
 M
 301
-fight[offense]:You Shin Kicks $N repeatedly, causing $S collapse!
-fight[defense]:You crumble as $n Shin Kicks you repeatedly all over your body!
-fight[hit]:As $n Shin Kicks $N into outer space!
-fight[miss]:You attempt to Shin Kick $N, but miss $M!
-fight[defense]:$n misses you with $s kick!
-fight[hit]:You watch on as $n Shin Kicks at $N, but misses!
+fight[offense]:You kick $N in the shins!
+fight[defense]:$n kicks you in the shins!
+fight[room]:$n shin kicks $N!
+fight[miss]:You try to shin kick $N!
+fight[defend]:$n misses you with $s kick!
+fight[room]:$n tries to shin kick $N, but misses!
 #
 #
 #
-fight[offense]:You Shin Kick at $N, and $E slaps himself as if a mosquito bit $M.
-fight[defense]:Was that a bee you just felt?  Oh.. wait, it was just $n.
-fight[hit]:$N begins to slap at $Mself as $n tries to KungFu Kick $M.
+fight[bad]:You Shin Kick at $N, and $E slaps himself as if a mosquito bit $M.
+fight[bad]:Was that a bee you just felt?  Oh.. wait, it was just $n.
+fight[bad]:$N begins to slap at $Mself as $n tries to KungFu Kick $M.
 
 M
 301
