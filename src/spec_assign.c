@@ -133,6 +133,7 @@ void assign_mobiles(void)
 void assign_objects(void)
 {
   ASSIGNOBJ(93, gen_board);      /* army board */
+  ASSIGNOBJ(95, gen_board);      /* marines board */
 
   ASSIGNOBJ(115, bank);
   ASSIGNOBJ(300, bank);	           /* atm */
