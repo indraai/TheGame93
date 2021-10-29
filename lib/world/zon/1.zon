@@ -176,9 +176,12 @@ M 0 198 1 340 	(The Monk)
 M 0 199 1 278 	(The Butcher)
 
 R 0 108 93 -1 	(the warriors board)
-O 1 93 99 107 	(the warriors board)
+O 1 93 99 108 	(the warriors board)
+
+
 R 0 103 94 -1 	(the monks board)
 O 1 94 99 103 	(the monks board)
+
 R 0 110 95 -1 	(the thieves board)
 O 1 95 99 110 	(the thieves board)
 
