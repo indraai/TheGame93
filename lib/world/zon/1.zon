@@ -178,9 +178,11 @@ M 0 199 1 278 	(The Butcher)
 R 0 349 93 -1 	(army board)
 O 1 93 99 349 	(army board)
 
+R 0 153 93 -1 	(navy board)
+O 1 93 99 153 	(navy board)
+
 R 0 165 95 -1 	(marines board)
 O 1 95 99 165 	(marines board)
-
 
 S
 $
