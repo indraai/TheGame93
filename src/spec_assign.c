@@ -132,7 +132,7 @@ void assign_mobiles(void)
 /* assign special procedures to objects */
 void assign_objects(void)
 {
-  ASSIGNOBJ(93, gen_board);      /* army board */
+  ASSIGNOBJ(349, gen_board);      /* army board */
 
   ASSIGNOBJ(115, bank);
   ASSIGNOBJ(300, bank);	           /* atm */

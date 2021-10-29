@@ -175,8 +175,8 @@ M 0 196 1 251 	(The guide)
 M 0 198 1 340 	(The Monk)
 M 0 199 1 278 	(The Butcher)
 
-R 0 108 93 -1 	(the warriors board)
-O 1 93 99 108 	(the warriors board)
+R 0 108 349 -1 	(army board)
+O 1 349 99 108 	(army board)
 
 
 R 0 103 94 -1 	(the monks board)
