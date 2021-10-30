@@ -137,9 +137,9 @@ D2
 0 0 217
 S
 #205
-The Galley~
+NAVY: Cyber4~
 Empty room.~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
@@ -371,9 +371,9 @@ D2
 0 0 230
 S
 #218
-Training Room~
+NAVY: Library~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -1296,7 +1296,7 @@ D2
 S
 #284
 ARMY: Library~
-~
+Empty room.~
 2 8 0 0 0 1
 D0
 ~
@@ -1313,7 +1313,7 @@ D2
 S
 #285
 ARMY: Research~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -1508,7 +1508,7 @@ D2
 S
 #297
 ARMY: Hall~
-~
+Empty room.~
 2 8 0 0 0 0
 D0
 ~
@@ -1525,7 +1525,7 @@ D2
 S
 #298
 ARMY: Barracks~
-~
+Empty room.~
 2 8 0 0 0 0
 D2
 ~

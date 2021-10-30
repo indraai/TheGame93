@@ -54,12 +54,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-statue~
-talk:#adventure view:thegame:world 0101/statue
-~
-E
 altar~
 talk:#adventure view:thegame:world 0101/altar
+~
+E
+statue~
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 #102
@@ -176,11 +176,11 @@ D5
 ~
 0 0 96
 E
-map~
+table~
 empty.
 ~
 E
-table~
+map~
 empty.
 ~
 S
@@ -194,7 +194,7 @@ D5
 ~
 0 0 142
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 E
@@ -202,7 +202,7 @@ Trent_Room~
 empty.
 ~
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 S
@@ -342,11 +342,11 @@ D1
 ~
 0 0 100
 E
-silhouette~
+hole~
 empty.
 ~
 E
-hole~
+silhouette~
 empty.
 ~
 S
@@ -498,18 +498,18 @@ D2
 ~
 0 0 129
 E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
-E
 shrine~
    A beutiful shrine.  It has two white marble figures facing each other with a
 painting of the city below them.  The two figures seem to be looking down at
 the city with looks of worry and hopelessness.  An unlit candle and mirror lay
 on the floor beside the small shrine.
+~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.
 ~
 S
 #125
@@ -699,14 +699,10 @@ D0
 ~
 0 0 128
 E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 E
 desk~
@@ -716,10 +712,14 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
 ~
 S
 #136
@@ -984,7 +984,7 @@ D4
 S
 #152
 NAVY: Recruiting~
-~
+Empty room.~
 1 8 0 0 0 0
 D1
 ~
@@ -997,16 +997,12 @@ D2
 S
 #153
 NAVY: Entrance~
-~
+undefined~
 1 8 0 0 0 0
 D1
 ~
 door~
 1 0 154
-D2
-~
-~
-0 0 168
 D3
 ~
 ~
@@ -1290,13 +1286,13 @@ D3
 0 0 165
 S
 #167
-The Hero Hallway~
+NAVY: Training~
    An elaborate hallway decorated with paintings of various victorious battles
 the city has fought in.  Arjika has never fallen.  Various weapons and suits
 of armor are all bolted to the floor and walls.  A small doorway leads into the
 bunk room to the east.  The hall continues north and south.
 ~
-1 8 0 0 0 1
+1 8 0 0 0 0
 D0
 ~
 ~
@@ -1305,23 +1301,15 @@ D1
 ~
 ~
 0 0 168
-D2
-~
-~
-0 0 182
 S
 #168
-The Bunk Room~
+NAVY: Cyber1~
    You find yourself walking between bunks where the majority of the army
 sleeps.  Some people are already in their racks since a watch must be stood
 twenty four hours a day.  You here someone grumbling in their sleep about how
 they always get stuck with the midwatch.
 ~
-1 8 0 0 0 0
-D0
-~
-~
-0 0 153
+1 24 0 0 0 0
 D2
 ~
 ~
@@ -1555,7 +1543,7 @@ D2
 0 0 197
 S
 #183
-The Bunk Room~
+NAVY: Cyber2~
    The sound of snoring comes from a few of the dozen or so racks crammed
 together in this confined room.  The racks are stacked four high with only a
 foot or two of space for someone to sit up.  The mattresses are only about an
@@ -1570,10 +1558,6 @@ D2
 ~
 ~
 0 0 198
-D3
-~
-~
-0 0 182
 S
 #184
 The Northwest Intersection~
@@ -1847,7 +1831,7 @@ D2
 0 0 204
 S
 #198
-The Mess Hall~
+NAVY: Cyber3~
    A dozen tables fill the room.  All bare except for a few people eating
 before they go on their next watch.  The food does not look very appetizing,
 but it serves it's purpose.  The army has had financial problems since it's
