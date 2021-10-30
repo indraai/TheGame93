@@ -1514,11 +1514,7 @@ D3
 0 0 180
 S
 #182
-The Hero Hallway~
-   The hallway end abruptly at a set of double doors to the south.  You can
-hear people talking behind the doors, but cannot discern what they are saying.
-The army of Arjika is very well disciplined and your presence may not be
-exactly appreciated.  They do not take kindly to strangers.
+NAVY: Kitchen~
 ~
 1 8 0 0 0 0
 D0
@@ -1797,12 +1793,7 @@ edible.
 ~
 S
 #197
-A Work Room~
-   This building is cluttered together in no apparent order, wherever there is
-room they simply use it.  This hallway has been converted into a small room for
-the upkeep of armor and weapons.  A grindstone is in one corner.  In another
-baskets of arrows are being sorted.  A recruit is polishing some armor and a
-large sack of equipment looks like it is ready to be taken to the Smithy.
+NAVY: Kitchen~
 ~
 1 0 0 0 0 0
 D0
