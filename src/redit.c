@@ -143,6 +143,7 @@ ACMD(do_oasis_redit)
   else
     redit_setup_new(d);
 
+  send_to_char(ch, "\neditor[enter]:ROOM\r");
   redit_disp_menu(d);
   STATE(d) = CON_REDIT;
   act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
@@ -547,6 +548,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       } else
         write_to_output(d, "\nsave:Room saved to memory.\r");
       /* Free everything. */
+      write_to_output(ch, "\neditor[exit]:ROOM\r");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     case 'n':
@@ -555,10 +557,12 @@ void redit_parse(struct descriptor_data *d, char *arg)
        * assigning it to the edited room and letting free_room in
        * cleanup_olc handle it. */
       OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
+      write_to_output(ch, "\neditor[exit]:ROOM\r");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      write_to_output(d, "\nInvalid choice.\r\nsave:\r%s", confirm_msg);
+      write_to_output(d, "\nInvalid choice.\r"
+        "\nsave:\r%s", confirm_msg);
       break;
     }
     return;
@@ -567,14 +571,14 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'a':
       write_to_output(d,
-        "\nRoom Name... (%s)\r",
+        "\nname: (%s)\r",
         OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case 'b':
       OLC_MODE(d) = REDIT_DESC;
       clear_screen(d);
-      write_to_output(d, "\n### Room Description\r");
+      write_to_output(d, "\n### Description\r");
       send_editor_help(d);
 
       if (OLC_ROOM(d)->description) {
@@ -672,6 +676,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
         write_to_output(d, "\nsave: Room was unchanged.\r");
+        write_to_output(ch, "\neditor[exit]:ROOM\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
@@ -911,21 +916,25 @@ void redit_parse(struct descriptor_data *d, char *arg)
 
   case REDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
-      if (delete_room(real_room(OLC_ROOM(d)->number)))
+      if (delete_room(real_room(OLC_ROOM(d)->number))) {
         write_to_output(d, "\nsave:Room deleted.\r");
-     else
+      }
+      else {
         write_to_output(d, "\nerror: Couldn't delete the room!.\r");
-
+      }
+      write_to_output(ch, "\neditor[exit]:ROOM\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
-    } else if (*arg == 'n' || *arg == 'N') {
+    }
+    else if (*arg == 'n' || *arg == 'N') {
       redit_disp_menu(d);
       OLC_MODE(d) = REDIT_MAIN_MENU;
       return;
-    } else
+    }
+    else {
       /* confirm save changes */
       write_to_output(d, "%s", confirm_msg);
-
+    }
     break;
 
   default:

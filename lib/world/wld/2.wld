@@ -138,8 +138,13 @@ D2
 S
 #205
 NAVY: Cyber4~
+<<<<<<< HEAD
 Empty room.~
 2 8 0 0 0 0
+=======
+~
+2 8 0 0 0 1
+>>>>>>> 93ebaf45ba086d036fb3287a22f5df6786a40de3
 D0
 ~
 ~

@@ -1287,10 +1287,6 @@ D3
 S
 #167
 NAVY: Training~
-   An elaborate hallway decorated with paintings of various victorious battles
-the city has fought in.  Arjika has never fallen.  Various weapons and suits
-of armor are all bolted to the floor and walls.  A small doorway leads into the
-bunk room to the east.  The hall continues north and south.
 ~
 1 8 0 0 0 0
 D0
@@ -1304,10 +1300,6 @@ D1
 S
 #168
 NAVY: Cyber1~
-   You find yourself walking between bunks where the majority of the army
-sleeps.  Some people are already in their racks since a watch must be stood
-twenty four hours a day.  You here someone grumbling in their sleep about how
-they always get stuck with the midwatch.
 ~
 1 24 0 0 0 0
 D2
@@ -1544,10 +1536,6 @@ D2
 S
 #183
 NAVY: Cyber2~
-   The sound of snoring comes from a few of the dozen or so racks crammed
-together in this confined room.  The racks are stacked four high with only a
-foot or two of space for someone to sit up.  The mattresses are only about an
-inch thick and look very uncomfortable.
 ~
 1 8 0 0 0 0
 D0
@@ -1832,10 +1820,6 @@ D2
 S
 #198
 NAVY: Cyber3~
-   A dozen tables fill the room.  All bare except for a few people eating
-before they go on their next watch.  The food does not look very appetizing,
-but it serves it's purpose.  The army has had financial problems since it's
-inception.
 ~
 1 8 0 0 0 0
 D0
