@@ -676,7 +676,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
         write_to_output(d, "\nsave: Room was unchanged.\r");
-        write_to_output(ch, "\neditor[exit]:ROOM\r");
+        write_to_output(d, "\neditor[exit]:ROOM\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
