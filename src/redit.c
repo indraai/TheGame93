@@ -548,7 +548,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       } else
         write_to_output(d, "\nsave:Room saved to memory.\r");
       /* Free everything. */
-      write_to_output(ch, "\neditor[exit]:ROOM\r");
+      write_to_output(d, "\neditor[exit]:ROOM\r");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     case 'n':
@@ -557,7 +557,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
        * assigning it to the edited room and letting free_room in
        * cleanup_olc handle it. */
       OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
-      write_to_output(ch, "\neditor[exit]:ROOM\r");
+      write_to_output(d, "\neditor[exit]:ROOM\r");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
