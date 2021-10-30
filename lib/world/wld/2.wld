@@ -1,7 +1,7 @@
 #200
-The Northern Road~
+2 N Temple Rd.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -120,9 +120,9 @@ D3
 0 0 202
 S
 #204
-A Meeting Room~
+NAVY: Barracks~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -131,14 +131,10 @@ D1
 ~
 ~
 0 0 205
-D2
-~
-~
-0 0 217
 S
 #205
 NAVY: Cyber4~
-~
+Empty room.~
 2 8 0 0 0 0
 D0
 ~
@@ -222,9 +218,9 @@ D3
 0 0 208
 S
 #210
-The Northern Temple Circle Intersection~
+1 N Temple Rd.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -354,13 +350,9 @@ D3
 0 0 215
 S
 #217
-A Class Room~
+NAVY: Development~
 Empty room.~
-2 24 0 0 0 0
-D0
-~
-~
-0 0 204
+2 8 0 0 0 0
 D1
 ~
 ~
@@ -432,9 +424,9 @@ D0
 0 0 209
 S
 #223
-Northern Temple Entrance~
+Temple Entrance (N)~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -531,23 +523,31 @@ D3
 0 0 228
 S
 #230
-The Generals Room~
+NAVY: Development~
 Empty room.~
-2 24 0 0 0 0
+2 8 0 0 0 0
 D0
 ~
 ~
 0 0 217
+D1
+~
+~
+0 0 231
 S
 T 207
 #231
-The Latrine~
+NAVY: Operations~
 Empty room.~
-2 8 0 0 0 1
+2 8 0 0 0 0
 D0
 ~
 ~
 0 0 218
+D3
+~
+~
+0 0 230
 S
 #232
 Warriors Avenue~
@@ -593,7 +593,7 @@ D3
 0 0 233
 S
 #235
-The Temple (NW)~
+Arjika Temple (NW)~
 undefined~
 2 16 0 0 0 1
 D1
@@ -606,7 +606,7 @@ D2
 0 0 250
 S
 #236
-The Temple (N)~
+Arjika Temple (N)~
 undefined~
 2 16 0 0 0 1
 D0
@@ -627,7 +627,7 @@ D3
 0 0 235
 S
 #237
-The Temple (NE)~
+Arjika Temple (NE)~
 undefined~
 2 16 0 0 0 1
 D2
@@ -791,16 +791,20 @@ D4
 0 0 115
 S
 #249
-Social Room (W)~
+Temple Entrance (W)~
 undefined~
-2 24 0 0 0 0
+2 16 0 0 0 1
 D1
 ~
 ~
 0 0 250
+D3
+~
+~
+0 0 248
 S
 #250
-The Temple (W)~
+Arjika Temple (W)~
 undefined~
 2 16 0 0 0 1
 D0
@@ -821,7 +825,7 @@ D3
 0 0 249
 S
 #251
-The Center~
+Arjika Tower~
 undefined~
 2 24 0 0 0 0
 D0
@@ -846,7 +850,7 @@ D4
 0 0 100
 S
 #252
-The Temple (E)~
+Arjika Temple (E)~
 undefined~
 2 16 0 0 0 1
 D0
@@ -867,18 +871,22 @@ D3
 0 0 251
 S
 #253
-Social Room (E)~
+Temple Entrance (E)~
 undefined~
-2 24 0 0 0 0
+2 16 0 0 0 1
+D1
+~
+~
+0 0 254
 D3
 ~
 ~
 0 0 252
 S
 #254
-The Western Road~
+1 E Temple Rd.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -891,6 +899,10 @@ D2
 ~
 ~
 0 0 269
+D3
+~
+~
+0 0 253
 D4
 ~
 ~
@@ -906,7 +918,7 @@ D5
 0 0 353
 S
 #256
-4 E. Susoma St.~
+2 E Temple Rd.~
 undefined~
 2 16 0 0 0 1
 D0
@@ -916,7 +928,7 @@ D0
 D1
 ~
 ~
-0 0 257
+0 0 259
 D2
 ~
 ~
@@ -953,13 +965,13 @@ D3
 0 0 257
 S
 #259
-The Eastern Gate~
+Susoma Portal~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D3
 ~
 ~
-0 0 258
+0 0 256
 D4
 ~
 ~
@@ -1023,7 +1035,7 @@ D3
 0 0 263
 S
 #265
-The Temple (SW)~
+Arjika Temple (SW)~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1036,7 +1048,7 @@ D1
 0 0 266
 S
 #266
-The Temple (S)~
+Arjika Temple (S)~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1057,7 +1069,7 @@ D3
 0 0 265
 S
 #267
-The Temple (SE)~
+Arjika Temple (SE)~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1230,9 +1242,9 @@ D2
 0 0 291
 S
 #279
-Southern Temple Entrance~
+Temple Entrance (S)~
 Empty room.~
-2 8 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1359,7 +1371,7 @@ D2
 0 0 300
 S
 #288
-Clerics Avenue~
+2 S Temple Rd.~
    The inner city wall to the east consists of large boulders, that look to be
 too big to move by any humans, and some sort of filler.  The wall rises at least
 three times the average man's height and one can not tell how thick it must be.
@@ -1370,11 +1382,15 @@ the wall above you make their rounds.
 D0
 ~
 ~
-0 0 275
+0 0 292
+D1
+~
+~
+0 0 14
 D2
 ~
 ~
-0 0 301
+0 0 313
 S
 #289
 The Southern Temple Circle~
@@ -1422,7 +1438,7 @@ S
 T 210
 T 211
 #292
-The Southern Temple Circle Intersection~
+1 S Temple Rd.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1436,7 +1452,7 @@ D1
 D2
 ~
 ~
-0 0 313
+0 0 288
 D3
 ~
 ~

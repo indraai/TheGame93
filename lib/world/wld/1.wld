@@ -1,8 +1,8 @@
 #100
-Temple of Arjika~
+Arjika Tower~
 talk:#adventure view:thegame:world 100/main
 ~
-1 28 0 0 0 0
+1 24 0 0 0 0
 D0
 talk:#adventure view:thegame:world 113/look
 ~
@@ -39,12 +39,11 @@ talk:#adventure view:thegame:world 0100/credits
 ~
 S
 #101
-The Temple of Arjika~
+Arjika Tower~
 talk:#adventure view:thegame:world 101/main
 ~
-1 16 0 0 0 0
-D2
-talk:#adventure view:thegame:world 365/look
+1 24 0 0 0 0
+D4
 ~
 ~
 0 0 365
@@ -54,12 +53,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-altar~
-talk:#adventure view:thegame:world 0101/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 0101/statue
+~
+E
+altar~
+talk:#adventure view:thegame:world 0101/altar
 ~
 S
 #102
@@ -176,11 +175,11 @@ D5
 ~
 0 0 96
 E
-table~
+map~
 empty.
 ~
 E
-map~
+table~
 empty.
 ~
 S
@@ -194,7 +193,7 @@ D5
 ~
 0 0 142
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 E
@@ -202,7 +201,7 @@ Trent_Room~
 empty.
 ~
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 S
@@ -342,11 +341,11 @@ D1
 ~
 0 0 100
 E
-hole~
+silhouette~
 empty.
 ~
 E
-silhouette~
+hole~
 empty.
 ~
 S
@@ -498,18 +497,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -699,10 +698,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -712,14 +715,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136
@@ -776,15 +775,15 @@ e
 ~
 S
 #140
-Northern Gate of Arjika~
+Arjika Portal~
 talk:#adventure view:thegame:world 0140/main
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D2
 talk:#adventure view:thegame:world 0146/look
 ~
 ~
-0 0 146
+0 0 159
 D4
 talk:#adventure view:thegame:world 0106/look
 ~
@@ -1125,7 +1124,7 @@ D3
 0 0 157
 S
 #159
-The Northern Intersection~
+4 N Temple Rd.~
 talk:#adventure view:thegame:world 0159/main
 ~
 1 16 0 0 0 1
@@ -1133,7 +1132,7 @@ D0
 talk:#adventure view:thegame:world 0146/look
 ~
 ~
-0 0 146
+0 0 140
 D1
 talk:#adventure view:thegame:world 0160/look
 ~
@@ -1287,7 +1286,7 @@ D3
 S
 #167
 NAVY: Training~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
@@ -1300,7 +1299,7 @@ D1
 S
 #168
 NAVY: Cyber1~
-~
+Empty room.~
 1 8 0 0 0 0
 D2
 ~
@@ -1514,21 +1513,13 @@ D3
 0 0 180
 S
 #182
-The Hero Hallway~
+NAVY: Kitchen~
    The hallway end abruptly at a set of double doors to the south.  You can
 hear people talking behind the doors, but cannot discern what they are saying.
 The army of Arjika is very well disciplined and your presence may not be
 exactly appreciated.  They do not take kindly to strangers.
 ~
-1 8 0 0 0 0
-D0
-~
-~
-0 0 167
-D1
-~
-~
-0 0 183
+1 24 0 0 0 0
 D2
 ~
 ~
@@ -1536,7 +1527,7 @@ D2
 S
 #183
 NAVY: Cyber2~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
@@ -1637,10 +1628,10 @@ D3
 0 0 187
 S
 #189
-The Northern Road~
+3 N Temple Rd.~
 talk:#adventure view:thegame:world 0189/main
 ~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 talk:#adventure view:thegame:world 0174/look
 ~
@@ -1797,14 +1788,14 @@ edible.
 ~
 S
 #197
-A Work Room~
+NAVY: Dining~
    This building is cluttered together in no apparent order, wherever there is
 room they simply use it.  This hallway has been converted into a small room for
 the upkeep of armor and weapons.  A grindstone is in one corner.  In another
 baskets of arrows are being sorted.  A recruit is polishing some armor and a
 large sack of equipment looks like it is ready to be taken to the Smithy.
 ~
-1 0 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1820,7 +1811,7 @@ D2
 S
 #198
 NAVY: Cyber3~
-~
+Empty room.~
 1 8 0 0 0 0
 D0
 ~
