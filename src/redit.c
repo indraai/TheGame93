@@ -922,7 +922,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       else {
         write_to_output(d, "\nerror: Couldn't delete the room!.\r");
       }
-      write_to_output(ch, "\neditor[exit]:ROOM\r");
+      write_to_output(d, "\neditor[exit]:ROOM\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     }
