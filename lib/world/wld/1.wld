@@ -53,12 +53,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-statue~
-talk:#adventure view:thegame:world 0101/statue
-~
-E
 altar~
 talk:#adventure view:thegame:world 0101/altar
+~
+E
+statue~
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 #102
@@ -179,11 +179,11 @@ D5
 ~
 0 0 96
 E
-map~
+table~
 empty.
 ~
 E
-table~
+map~
 empty.
 ~
 S
@@ -197,7 +197,7 @@ D5
 ~
 0 0 142
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 E
@@ -205,7 +205,7 @@ Trent_Room~
 empty.
 ~
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 S
@@ -337,11 +337,11 @@ D1
 ~
 0 0 100
 E
-silhouette~
+hole~
 empty.
 ~
 E
-hole~
+silhouette~
 empty.
 ~
 S
@@ -493,18 +493,18 @@ D2
 ~
 0 0 129
 E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
-E
 shrine~
    A beutiful shrine.  It has two white marble figures facing each other with a
 painting of the city below them.  The two figures seem to be looking down at
 the city with looks of worry and hopelessness.  An unlit candle and mirror lay
 on the floor beside the small shrine.
+~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.
 ~
 S
 #125
@@ -694,14 +694,10 @@ D0
 ~
 0 0 128
 E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 E
 desk~
@@ -711,10 +707,14 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
 ~
 S
 #136
@@ -971,8 +971,8 @@ D1
 S
 #152
 NAVY: Recruiting~
-Empty room.~
-1 8 0 0 0 0
+~
+1 24 0 0 0 0
 D1
 ~
 ~
@@ -984,7 +984,7 @@ D2
 S
 #153
 NAVY: Entrance~
-undefined~
+~
 1 24 0 0 0 0
 D1
 ~
@@ -997,10 +997,6 @@ D3
 S
 #154
 11 NAVY Way~
-   This junction lies in the northwest corner of the city.  The hero guild
-is just to the north and the army barracks are in the building to the west.
-Various stores lie further along Hero Avenue to the east.  There is a fair
-amount of people, mostly soldiers, going about their daily lives.
 ~
 1 16 0 0 0 1
 D1
@@ -1013,7 +1009,7 @@ D2
 0 0 184
 D3
 ~
-door~
+~
 1 0 153
 S
 #155
@@ -1507,7 +1503,7 @@ D2
 S
 #183
 NAVY: Cyber2~
-Empty room.~
+~
 1 8 0 0 0 0
 D0
 ~
@@ -1520,10 +1516,6 @@ D2
 S
 #184
 9 NAVY Way~
-   This junction lies at an intersection of Hero Avenue and Hero Alley.
-The alley crosses the city east to west behind the homes of the local citizens.
-The alley is very narrow and dark as the inner city wall follows it on the
-southern side.  Hero Avenue continues north and south.
 ~
 1 16 0 0 0 1
 D0
@@ -1540,9 +1532,9 @@ D2
 0 0 199
 S
 #185
-W Arjika Alley~
+Arjika Alley~
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1555,7 +1547,7 @@ S
 #186
 W Arjika Alley~
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1568,7 +1560,7 @@ S
 #187
 Arjika Alley~
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1579,9 +1571,9 @@ D3
 0 0 186
 S
 #188
-W Arjika Alley~
+Arjika Alley~
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1593,26 +1585,21 @@ D3
 S
 #189
 3 N Temple Rd.~
-talk:#adventure view:thegame:world 0189/main
 ~
 1 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0174/look
 ~
 ~
 0 0 159
 D1
-talk:#adventure view:thegame:world 0190/look
 ~
 ~
 0 0 190
 D2
-talk:#adventure view:thegame:world 0200/look
 ~
 ~
 0 0 200
 D3
-talk:#adventure view:thegame:world 0188/look
 ~
 ~
 0 0 188

@@ -117,7 +117,7 @@ D3
 S
 #204
 NAVY: Barracks~
-Empty room.~
+~
 2 24 0 0 0 0
 D0
 ~
@@ -130,8 +130,8 @@ D1
 S
 #205
 NAVY: Cyber4~
-Empty room.~
-2 8 0 0 0 0
+~
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -147,8 +147,8 @@ D3
 S
 #206
 7 NAVY Way~
-Empty room.~
-2 0 0 0 0 1
+~
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -159,26 +159,9 @@ D2
 0 0 219
 S
 #207
-The Northern Temple Circle~
+NW Temple Sq.~
 Empty room.~
-2 0 0 0 0 1
-D1
-~
-~
-0 0 208
-D2
-~
-~
-0 0 233
-D4
-~
-~
-0 0 111
-S
-#208
-The Northern Temple Circle~
-Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -186,16 +169,33 @@ D1
 D2
 ~
 ~
-0 0 221
-D3
+0 0 208
+D4
+~
+~
+0 0 111
+S
+#208
+2 WN Temple Sq.~
+Empty room.~
+2 16 0 0 0 1
+D0
 ~
 ~
 0 0 207
+D1
+~
+~
+0 0 221
+D2
+~
+~
+0 0 233
 S
 #209
-The Northern Temple Circle~
+1 NW Temple Sq.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -207,7 +207,7 @@ D2
 D3
 ~
 ~
-0 0 208
+0 0 207
 S
 #210
 1 N Temple Rd.~
@@ -231,13 +231,9 @@ D3
 0 0 209
 S
 #211
-The Northern Temple Circle~
+1 NE Temple Sq.~
 Empty room.~
-2 0 0 0 0 1
-D0
-~
-~
-1 0 97
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -344,7 +340,7 @@ S
 #217
 NAVY: Development~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D1
 ~
 ~
@@ -394,10 +390,10 @@ D4
 0 0 325
 S
 #221
-Lotions and Potions~
+Bath & Body~
 Empty room.~
-2 8 0 0 0 1
-D0
+2 24 0 0 0 0
+D3
 ~
 ~
 0 0 208
@@ -405,7 +401,7 @@ S
 #222
 Post Office~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -435,7 +431,7 @@ S
 #224
 Bank of Arjika~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -521,7 +517,7 @@ S
 #230
 NAVY: Development~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -535,7 +531,7 @@ T 207
 #231
 NAVY: Operations~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -559,13 +555,13 @@ D2
 0 0 246
 S
 #233
-The Western Temple Circle~
+1 WN Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
-0 0 207
+0 0 208
 D1
 ~
 ~
@@ -576,9 +572,9 @@ D2
 0 0 248
 S
 #234
-Captain Lugdach's~
+Cartoon Builder~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -724,7 +720,7 @@ Empty room.~
 2 0 0 0 0 1
 S
 #246
-1 W Temple Rd.~
+5 W Temple Rd.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -968,9 +964,9 @@ D2
 0 0 274
 S
 #262
-Clerics Avenue~
+1 AIRFORCE Way~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -981,7 +977,7 @@ D2
 0 0 275
 S
 #263
-The Western Temple Circle~
+1 WS Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1000,7 +996,7 @@ S
 #264
 The Grocer~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -1162,9 +1158,9 @@ D3
 0 0 273
 S
 #275
-Clerics Avenue~
+2 AIRFORCE Way~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1172,10 +1168,10 @@ D0
 D2
 ~
 ~
-0 0 288
+0 0 323
 S
 #276
-The Western Temple Circle~
+1 WS Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1194,7 +1190,7 @@ S
 #277
 The Jeweler~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -1307,11 +1303,7 @@ S
 #286
 AIRFORCE: Kitchen~
 ~
-2 0 0 0 0 1
-D0
-~
-~
-0 0 273
+2 24 0 0 0 0
 D2
 ~
 ~
@@ -1352,7 +1344,7 @@ D2
 0 0 313
 S
 #289
-The Southern Temple Circle~
+SW Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1514,14 +1506,14 @@ S
 #299
 AIRFORCE: Dining~
 ~
-2 8 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
 0 0 286
-D1
+D2
 ~
 ~
-0 0 300
+0 0 306
 S
 $~
