@@ -14,10 +14,6 @@ D2
 ~
 ~
 0 0 210
-D3
-~
-~
-0 0 96
 E
 credits info~
 Builder   : Quinn Michaels
@@ -376,9 +372,9 @@ D3
 0 0 217
 S
 #219
-Warriors Avenue~
+2 NAVY Way~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -550,9 +546,9 @@ D3
 0 0 230
 S
 #232
-Warriors Avenue~
+1 NAVY Way~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -699,11 +695,11 @@ S
 #243
 The West Gate~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
-0 0 244
+0 0 246
 D4
 ~
 ~
@@ -723,22 +719,14 @@ D3
 0 0 243
 S
 #245
-The Western Road~
+UNUSED~
 Empty room.~
 2 0 0 0 0 1
-D1
-~
-~
-0 0 246
-D3
-~
-~
-0 0 244
 S
 #246
-The Western Intersection~
+1 W Temple Rd.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -754,7 +742,7 @@ D2
 D3
 ~
 ~
-0 0 245
+0 0 243
 S
 #247
 Age of Chaos~
@@ -766,13 +754,17 @@ D4
 0 0 352
 S
 #248
-The Western Road~
+1 W Temple Rd.~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 233
+D1
+~
+~
+0 0 249
 D2
 ~
 ~
@@ -935,30 +927,14 @@ D3
 0 0 254
 S
 #257
-The Eastern Road~
+UNUSED~
 Empty room.~
 2 0 0 0 0 1
-D1
-~
-~
-0 0 258
-D3
-~
-~
-0 0 256
 S
 #258
-The Eastern Road~
+UNUSED~
 Empty room.~
 2 0 0 0 0 1
-D1
-~
-~
-0 0 259
-D3
-~
-~
-0 0 257
 S
 #259
 Susoma Portal~
