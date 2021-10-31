@@ -151,7 +151,7 @@ D3
 S
 #206
 7 NAVY Way~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -377,7 +377,7 @@ D3
 S
 #219
 Warriors Avenue~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -423,10 +423,18 @@ D0
 ~
 ~
 0 0 210
+D1
+~
+~
+0 0 96
 D2
 ~
 ~
 0 0 236
+D3
+~
+~
+0 0 97
 S
 #224
 Bank of Arjika~
@@ -543,7 +551,7 @@ D3
 S
 #232
 Warriors Avenue~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1179,7 +1187,7 @@ D3
 S
 #275
 Clerics Avenue~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
@@ -1356,7 +1364,7 @@ D2
 S
 #288
 2 S Temple Rd.~
-~
+Empty room.~
 2 0 0 0 0 1
 D0
 ~
