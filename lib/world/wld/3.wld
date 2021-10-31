@@ -1,12 +1,7 @@
 #300
 A Long Hallway~
-   The hall stretches north and south.  Lanterns set in brackets along the wall
-offer ample lighting.  The smokeless kerosene that is used leaves a strange
-smell.  The Hall is bare, only a few small paintings cover the walls.  s
-have very little need for decorations of any kind.  A small waiting room is to
-the west.
-~
-3 0 0 0 0 1
+The hall stretches north and south.  Lanterns set in brackets along the wall offer ample lighting.  The smokeless kerosene that is used leaves a strange smell.  The Hall is bare, only a few small paintings cover the walls.  shave very little need for decorations of any kind.  A small waiting room is to the west. ~
+3 24 0 0 0 1
 D0
 ~
 ~
@@ -19,37 +14,6 @@ D3
 ~
 ~
 0 0 299
-E
-credits info~
-   Builder   : Rumble
-Zone         : 3 Arjika III
-Related Zones: 1 Arjika, 2 Arjika II
-Began        : 2000
-Player Level : 1-34
-Rooms        : 66
-Mobs         : 0
-Objects      : 57
-Shops        : 2
-Triggers     : 41
-Theme        : A mortal starting town.
-Plot         : Fabric of time torn, world going to hell. Arjika one of the few
-               safe havens remaining.
-Links        : 40n, 43w, 59e, 62s
-Zone 3 is linked to the following zones:
-  2 Arjika II                     at   300 (north) --->   287
-  2 Arjika II                     at   300 (west ) --->   299
-  2 Arjika II                     at   301 (north) --->   288
-  2 Arjika II                     at   302 (north) --->   292
-  2 Arjika II                     at   303 (north) --->   296
-  2 Arjika II                     at   304 (north) --->   297
-  2 Arjika II                     at   305 (north) --->   298
-  1 Arjika                        at   340 (up   ) --->   128
-  1 Arjika                        at   341 (up   ) --->   129
-  1 Arjika                        at   345 (up   ) --->   132
-  1 Arjika                        at   346 (up   ) --->   133
-  1 Arjika                        at   362 (up   ) --->   139
-  1 Arjika                        at   365 (north) --->   101
-~
 S
 #301
 8 AIRFORCE Way~
@@ -75,11 +39,7 @@ D4
 S
 #303
 4 S. Arjika Blvd.~
-   The Tower of the Magi lies to the southwest.  Just to the south one can see
-where the inner city wall turns to the west.  This avenue runs deep within the
-Magi's Quarter.  Accidents have been known to happen around here.  People must
-be careful for who knows what an inexperienced student may do.
-~
+The Tower of the Magi lies to the southwest.  Just to the south one can see where the inner city wall turns to the west.  This avenue runs deep within the Magi's Quarter.  Accidents have been known to happen around here.  People must be careful for who knows what an inexperienced student may do. ~
 3 16 0 0 0 1
 D0
 ~
@@ -126,7 +86,7 @@ D3
 S
 #306
 AIRFORCE: Barracks~
-~
+Empty room.~
 3 24 0 0 0 0
 D0
 ~
@@ -139,10 +99,7 @@ D2
 S
 #307
 A Long Hallway~
-The barren walls and floor would seem odd anywhere but here as the s of
-Arjika consider decorations, desires, or any form of unnecessary wants to be
-blasphemous.  They dedicate their lives to helping others, never themselves.
-~
+The barren walls and floor would seem odd anywhere but here as the s of Arjika consider decorations, desires, or any form of unnecessary wants to be blasphemous.  They dedicate their lives to helping others, never themselves.~
 3 8 0 0 0 1
 D0
 ~
@@ -176,11 +133,7 @@ D2
 S
 #309
 Soma Alley~
-   Within the s' Quarters an adventurer has very little to worry about.
-Even those would be vandals, pickpockets, and thugs shy away out of their
-respect of the monks.  To be a monk is to be respected second only to that
-of the Master Magi.
-~
+Within the s' Quarters an adventurer has very little to worry about. Even those would be vandals, pickpockets, and thugs shy away out of their respect of the monks.  To be a monk is to be respected second only to that of the Master Magi.~
 3 256 0 0 0 1
 D1
 ~
@@ -193,12 +146,7 @@ D3
 S
 #310
 Soma Alley~
-   The southern section of the inner city wall towers high above to the north.
-The massive fortification of rock and mortar is impressive, rising at least two
-or maybe three times the average man's height.  One can just make out a small
-walkway on the top of the wall, too bad only the guards know where the entrance
-is.
-~
+The southern section of the inner city wall towers high above to the north. The massive fortification of rock and mortar is impressive, rising at least two or maybe three times the average man's height.  One can just make out a small walkway on the top of the wall, too bad only the guards know where the entrance is.~
 3 256 0 0 0 1
 D1
 ~
@@ -211,12 +159,7 @@ D3
 S
 #311
 Soma Alley~
-   The Tower of the High Council of s is almost as impressive as the
-Temple of Arjika.  They look very similiar, except of course the Tower is much
-smaller.  Far up in the tower you can see people walking by windows in white
-flowing robes.  The healers within are known for their miraculous abilities in
-restoring the wounded.
-~
+The Tower of the High Council of s is almost as impressive as the Temple of Arjika.  They look very similiar, except of course the Tower is much smaller.  Far up in the tower you can see people walking by windows in white flowing robes.  The healers within are known for their miraculous abilities in restoring the wounded.~
 3 256 0 0 0 1
 D1
 ~
@@ -229,11 +172,7 @@ D3
 S
 #312
 Soma Alley~
-   The inner city wall opens up just to the east into the southern road which
-runs from the south gate directly to the heart of Arjika inside the temple.  A
-few apprentice healers in flowing robes rush between the Temple and the s'
-Quarters, no doubt on an errand from the Council.
-~
+The inner city wall opens up just to the east into the southern road which runs from the south gate directly to the heart of Arjika inside the temple.  A few apprentice healers in flowing robes rush between the Temple and the s' Quarters, no doubt on an errand from the Council. ~
 3 256 0 0 0 1
 D1
 ~
@@ -267,11 +206,7 @@ D3
 S
 #314
 Indu Alley~
-   The black Tower of the Magi casts an intimidating shadow over the
-surroundings and the underlying alley.  Within the tower lie many secrets that
-the average citizen is not privileged enough to be told about.  Rumors abound,
-especially about the Orb of Arjika the Devas left in the Master Magi's care.
-~
+The black Tower of the Magi casts an intimidating shadow over the surroundings and the underlying alley.  Within the tower lie many secrets that the average citizen is not privileged enough to be told about.  Rumors abound, especially about the Orb of Arjika the Devas left in the Master Magi's care.~
 3 0 0 0 0 1
 D1
 ~
@@ -284,11 +219,7 @@ D3
 S
 #315
 Indu Alley~
-   The sound of voices from above are impossible to locate.  They could be
-coming either from on top of the inner city wall to the north or from an open
-window of the Tower of the Magi south of here.  The voices are too low to be
-discernable.
-~
+The sound of voices from above are impossible to locate.  They could be coming either from on top of the inner city wall to the north or from an open window of the Tower of the Magi south of here.  The voices are too low to be discernable.~
 3 0 0 0 0 1
 D1
 ~
@@ -301,8 +232,7 @@ D3
 S
 #316
 Indu Alley~
-empty.
-~
+empty.~
 3 0 0 0 0 1
 D1
 ~
@@ -315,11 +245,7 @@ D3
 S
 #317
 Indu Alley~
-   This alley has reached the southeastern corner of the inner city wall where
-it turns north along the Magi Avenue.  The Tower of the Magi still looms heavy
-over the surroundings oppressively.  The sounds of voices echo between the tower
-and the inner city wall, very disturbing.
-~
+This alley has reached the southeastern corner of the inner city wall where it turns north along the Magi Avenue.  The Tower of the Magi still looms heavy over the surroundings oppressively.  The sounds of voices echo between the tower and the inner city wall, very disturbing.~
 3 0 0 0 0 1
 D1
 ~
@@ -332,11 +258,7 @@ D3
 S
 #318
 5 S. Arjika Blvd.~
-   A small alley ducks between the Tower of the Magi and the southern section of
-the inner city wall.  The Magi Mansion lies just to the east, so extravagant
-that it is almost at the point of becoming an eyesore.  The Tower contains the
-fabled Orb of Arjika, but few are ever lucky enough to lay their eyes on it.
-~
+A small alley ducks between the Tower of the Magi and the southern section of the inner city wall.  The Magi Mansion lies just to the east, so extravagant that it is almost at the point of becoming an eyesore.  The Tower contains the fabled Orb of Arjika, but few are ever lucky enough to lay their eyes on it.~
 3 16 0 0 0 1
 D0
 ~
@@ -383,7 +305,7 @@ D3
 S
 #321
 AIRFORCE: Training~
-~
+Empty room.~
 3 24 0 0 0 0
 D0
 ~
@@ -400,7 +322,7 @@ D2
 S
 #322
 AIRFORCE: Cyber1~
-~
+Empty room.~
 3 568 0 0 0 1
 D0
 ~
@@ -579,12 +501,7 @@ D4
 S
 #333
 6 S. Arjika Blvd.~
-   The street narrows here as it passes between the tower and the mansion.  One
-can hear strange incantations coming from an open window in the black tower, far
-above the other buildings.  The Magi train young students within to take their
-place, but fewer and fewer meet the requirements and actually survive the
-training.
-~
+The street narrows here as it passes between the tower and the mansion.  One can hear strange incantations coming from an open window in the black tower, far above the other buildings.  The Magi train young students within to take their place, but fewer and fewer meet the requirements and actually survive the training.~
 3 16 0 0 0 1
 D0
 ~
@@ -644,7 +561,7 @@ Empty room.~
 3 24 0 0 0 0
 D1
 ~
-door~
+~
 1 0 338
 D3
 ~
@@ -665,7 +582,7 @@ D1
 0 0 351
 D3
 ~
-door~
+~
 1 0 337
 S
 #339
@@ -767,8 +684,7 @@ D3
 S
 #344
 Arjika Courtyard~
-empty.
-~
+empty.~
 3 16 0 0 0 1
 D0
 ~
@@ -844,11 +760,11 @@ D0
 0 0 333
 D1
 ~
-door~
+~
 1 0 349
 D2
 ~
-door~
+~
 1 0 361
 D3
 ~
@@ -865,7 +781,7 @@ D1
 0 0 350
 D3
 ~
-door~
+~
 1 0 348
 S
 #350
@@ -981,11 +897,7 @@ D5
 S
 #357
 The Magi Training Room~
-   Bookshelves line the two walls of this small open area within the tower.
-The smell of dust and musty old papers emanates from them.  Many centuries of
-knowledge lie within these books that were salvaged from the lands beyond.
-Many more have yet to be found.
-~
+Bookshelves line the two walls of this small open area within the tower. The smell of dust and musty old papers emanates from them.  Many centuries of knowledge lie within these books that were salvaged from the lands beyond. Many more have yet to be found.~
 3 280 0 0 0 0
 D0
 ~
@@ -998,11 +910,7 @@ D1
 S
 #358
 A Tower Hallway~
-   Through a small door to the north one can see the center of the tower where a
-set of spiral staircases lead to the second floor.  The Orb of Arjika is
-protected somewhere within this tower.  The Master Magi have been given the task
-of ensuring its safety.
-~
+Through a small door to the north one can see the center of the tower where a set of spiral staircases lead to the second floor.  The Orb of Arjika is protected somewhere within this tower.  The Master Magi have been given the task of ensuring its safety.~
 3 280 0 0 0 0
 D1
 ~
@@ -1015,11 +923,7 @@ D3
 S
 #359
 The Magi Hallway~
-   The seven Orders of the Magi are slowly dying out.  That is why they rarely
-fight in battles any longer.  They have instead devoted their time to training
-future Magi to take their places.  But, good students have become even harder
-to come by these days.
-~
+The seven Orders of the Magi are slowly dying out.  That is why they rarely fight in battles any longer.  They have instead devoted their time to training future Magi to take their places.  But, good students have become even harder to come by these days.~
 3 280 0 0 0 1
 D1
 ~
@@ -1032,12 +936,7 @@ D3
 S
 #360
 A Magi Training Room~
-   Short tables with cushions surrounding them are placed about the room.
-These cushions are obviously meant to kneel on and the tables are overflowing
-with various books.  This must be some sort of study room for the Magi.  The
-black walls seem to absorb the white light coming from strange bulbs hanging
-from the ceiling.
-~
+Short tables with cushions surrounding them are placed about the room. These cushions are obviously meant to kneel on and the tables are overflowing with various books.  This must be some sort of study room for the Magi.  The black walls seem to absorb the white light coming from strange bulbs hanging from the ceiling.~
 3 280 0 0 0 0
 D0
 ~
@@ -1050,12 +949,7 @@ D3
 S
 #361
 ARMY: Medical~
-   The smell of old paper that is slowly crumbling to dust fills the room.
-Thousands of books, scroll, parchments, and even some tablets fill the
-bookshelves, tables and the floor of this under sized room.  It is here a vast
-amount of the Magi have left thei findings when delving into the depths of
-their magic.
-~
+The smell of old paper that is slowly crumbling to dust fills the room. Thousands of books, scroll, parchments, and even some tablets fill the bookshelves, tables and the floor of this under sized room.  It is here a vast amount of the Magi have left thei findings when delving into the depths of their magic.~
 3 24 0 0 0 0
 D1
 ~
@@ -1088,17 +982,6 @@ D1
 ~
 0 0 362
 S
-#364
-PETSHOP STOREROOM~
-   To make a pet shop you need two rooms and some pets. The rooms MUST be
-sequential. If the first room is 3015 then the second must be 3016. The second
-room is known as the storeroom. All that is required in the storeroom is to
-load one of each mob you wish to be a pet. This room can not have any exits and
-will never be used by mortals. Although a pet shopkeeper is not required it is
-recommended. In order to implement a pet shop the actual mud code has to be
-modified. Just ask Rumble to do it for you.
-~
-3 1024 0 0 0 1
 S
 #365
 Arjika Tower~
@@ -1120,49 +1003,16 @@ D1
 S
 #367
 Hazel's Living Quarters~
-   The room is cluttered with various water container and filtration canisters
-overflowing the desks and shelves.  A small cot is crowded into one corner.
-Though there is very little room to move around the room is surprisingly clean
-and well kept.  A single door leads down to the shop below.
-~
+The room is cluttered with various water container and filtration canisters overflowing the desks and shelves.  A small cot is crowded into one corner. Though there is very little room to move around the room is surprisingly clean and well kept.  A single door leads down to the shop below.~
 3 520 0 0 0 0
 D5
 ~
-door~
+~
 2 0 225
-E
-floor~
-   The stone floor is the same shade of gray as the sky and is completely plain
-and unscratched. It is probably too hard for anything to leave as much as a
-scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-S
-#368
-Valid/Invalid Transactions~
-You are in an unfinished room.
-~
-3 24 0 0 0 0
-D3
-~
-~
-0 0 369
-D4
-~
-~
-0 0 375
-D5
-~
-~
-0 0 332
 S
 #369
 Property~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1174,9 +1024,8 @@ D3
 0 0 370
 S
 #370
-Brahman Livelihood~
-You are in an unfinished room.
-~
+Livelihood~
+You are in an unfinished room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1189,8 +1038,7 @@ D3
 S
 #371
 Modes of Proof~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1203,8 +1051,7 @@ D4
 S
 #372
 Lending & Interest~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1221,8 +1068,7 @@ D5
 S
 #373
 Usurers~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1235,8 +1081,7 @@ D3
 S
 #374
 Sureties~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1249,8 +1094,7 @@ D3
 S
 #375
 Pledges~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D3
 ~
@@ -1267,8 +1111,7 @@ D5
 S
 #376
 Documents~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D3
 ~
@@ -1285,8 +1128,7 @@ D5
 S
 #377
 Witnesses~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1299,8 +1141,7 @@ D3
 S
 #378
 Incompetent Witnesses~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1313,8 +1154,7 @@ D3
 S
 #379
 Unnecessary Witnesses~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1331,17 +1171,12 @@ D5
 S
 #380
 False Witnesses~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
 ~
 0 0 381
-D3
-~
-~
-0 0 -1
 D5
 ~
 ~
@@ -1349,8 +1184,7 @@ D5
 S
 #381
 Exhorting Witnesses~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1363,8 +1197,7 @@ D3
 S
 #382
 Valid Evidence~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1377,8 +1210,7 @@ D3
 S
 #383
 Invalid Evidence~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D3
 ~
@@ -1395,8 +1227,7 @@ D5
 S
 #384
 Default of Witness/Document~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D3
 ~
@@ -1409,8 +1240,7 @@ D5
 S
 #385
 Proof by Ordeal~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D1
 ~
@@ -1419,8 +1249,7 @@ D1
 S
 #386
 End of the Line~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D5
 ~
@@ -1429,8 +1258,7 @@ D5
 S
 #387
 (EVIL!)Mud~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D5
 ~
@@ -1439,8 +1267,7 @@ D5
 S
 #388
 Nanvaent~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D3
 ~
@@ -1453,8 +1280,7 @@ D5
 S
 #389
 Lost Souls~
-You are in an unfinished room.
-~
+Empty room.~
 3 0 0 0 0 0
 D1
 ~
@@ -1471,42 +1297,11 @@ D5
 S
 #390
 Avatar MUD~
-You are in an unfinished room.
-~
+Empty room.~
 3 24 0 0 0 0
 D4
 ~
 ~
 0 0 327
-S
-#391
-Bomber's Trial Vnum~
-You are in an unfinished room.
-~
-3 0 0 0 0 0
-S
-#399
-Welcome to the Builder Academy~
-   A builder is a term usually used to describe a person who designs MUD zones
-for other characters to explore. Any player with motivation, ideas, and good
-writing style can be a builder as well as a player. As a Builder, your job is
-to create the virtual world in which players can roam around, solve puzzles,
-find treasures, and gain experience. A Builder creates the rooms, objects,
-mobs, shops, and triggers with which players will interact.
-   If this is something you are interested in doing then you have come to the
-right place. Be warned, building is not easy and will require hard work,
-patience, and the ability to take constructive criticism.
-   Your first task is to apply for builder status at:
-http://tbamud.com/
-   When you finish and submit the application tell anyone level 32 or higher
-and they will advance you to begin your training.
-
-   If would like to check out the tbaMUD World as a player connect to tbamud.com 4000.
-~
-3 24 0 0 0 0
-D0
-~
-~
-0 0 3
 S
 $~

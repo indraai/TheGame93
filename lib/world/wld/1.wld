@@ -1,6 +1,6 @@
 #100
 Arjika Tower~
-~
+Empty room.~
 1 24 0 0 0 0
 D0
 ~
@@ -26,13 +26,10 @@ D5
 ~
 ~
 0 0 251
-E
-credits~
-~
 S
 #101
 Arjika Tower~
-~
+Empty room.~
 1 24 0 0 0 0
 D4
 ~
@@ -45,7 +42,7 @@ D5
 S
 #102
 The Dark Tower~
-~
+Empty room.~
 1 9 0 0 0 0
 D5
 ~
@@ -54,7 +51,7 @@ D5
 S
 #103
 Palantir~
-~
+Empty room.~
 1 8 0 0 0 0
 D5
 ~
@@ -63,41 +60,25 @@ D5
 S
 #104
 Inner Arjika~
-~
+Empty room.~
 1 24 0 0 0 0
-D3
-~
-~
-0 0 -1
 D5
-talk:#adventure view:thegame:world 0132/look
 ~
 ~
 0 0 132
-E
-void~
-talk:#adventure view:thegame:world 0104/void
-~
 S
 #105
 Vivasvan's Place~
-talk:#adventure view:thegame:world 0105/main
-~
+Empty room.~
 1 568 0 0 0 1
 D5
-talk:#adventure view:thegame:world 0133/look
 ~
 ~
 0 0 133
-E
-cushions~
-talk:#adventure view:thegame:world 0105/cushions
-~
 S
 #106
 Lookout (N)~
-talk:#adventure view:thegame:world 0106/main
-~
+Empty room.~
 1 24 0 0 0 1
 D1
 ~
@@ -112,19 +93,13 @@ D3
 ~
 0 0 114
 D5
-talk:#adventure view:thegame:world 0140/look
 ~
 ~
 0 0 140
-E
-firmament~
-talk:#adventure view:thegame:world 0106/firmament
-~
 S
 #107
 The War Room~
-empty.
-~
+empty.~
 1 760 0 0 0 0
 D0
 ~
@@ -150,41 +125,19 @@ D5
 ~
 ~
 0 0 96
-E
-table~
-empty.
-~
-E
-map~
-empty.
-~
 S
 #108
 Upstairs~
-empty.
-~
+empty.~
 1 8 0 0 0 0
 D5
 ~
 ~
 0 0 142
-E
-Tabitha_Room~
-empty.
-~
-E
-Trent_Room~
-empty.
-~
-E
-Bathroom~
-empty.
-~
 S
 #109
 The Club~
-empty.
-~
+empty.~
 1 24 0 0 0 0
 D5
 ~
@@ -193,8 +146,7 @@ D5
 S
 #110
 Strategy Room~
-empty.
-~
+empty.~
 1 8 0 0 0 0
 D5
 ~
@@ -203,8 +155,7 @@ D5
 S
 #111
 Inner Lookout (NW)~
-empty.
-~
+empty.~
 1 16 0 0 0 1
 D1
 ~
@@ -221,8 +172,7 @@ D5
 S
 #112
 Inner Lookout (NE)~
-empty.
-~
+empty.~
 1 24 0 0 0 1
 D2
 ~
@@ -239,22 +189,16 @@ D5
 S
 #113
 Quest Room~
-empty
-~
+empty~
 1 8 0 0 0 0
 D2
 ~
 ~
 0 0 100
-E
-paintings~
-empty.
-~
 S
 #114
 Lookout (W)~
-empty.
-~
+empty.~
 1 24 0 0 0 1
 D0
 ~
@@ -272,15 +216,10 @@ D5
 ~
 ~
 0 0 243
-E
-firmament~
-empty.
-~
 S
 #115
 Inner Lookout (W)~
-empty.
-~
+empty.~
 1 24 0 0 0 1
 D0
 ~
@@ -301,26 +240,16 @@ D5
 S
 #116
 Travelling Room~
-empty.
-~
+empty.~
 1 16 0 0 0 0
 D1
 ~
 ~
 0 0 100
-E
-hole~
-empty.
-~
-E
-silhouette~
-empty.
-~
 S
 #117
 Travelling Room~
-empty.
-~
+empty.~
 1 24 0 0 0 0
 D3
 ~
@@ -329,8 +258,7 @@ D3
 S
 #118
 Inner Lookout (E)~
-empty.
-~
+empty.~
 1 24 0 0 0 1
 D0
 ~
@@ -373,24 +301,10 @@ D5
 ~
 ~
 0 0 259
-E
-firmament radiant shimmering~
-   The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
-~
 S
 #120
 Travelling Room~
-   A few of the higher mages of Arjika have been able to control the gateways
-that have opened between realms.  One of these controlled portals is kept in
-this room.  It is a one way ticket to the realm of Midgaard.  The portals are
-still erratic and uncontrollable so anyone who uses them does so at their own
-risk.  The flickering of the portal casts eerie shadows along the white walls.
-This must be the only room in the temple that has an uneasy feeling about it.
-~
+A few of the higher mages of Arjika have been able to control the gateways that have opened between realms.  One of these controlled portals is kept in this room.  It is a one way ticket to the realm of Midgaard.  The portals are still erratic and uncontrollable so anyone who uses them does so at their own risk.  The flickering of the portal casts eerie shadows along the white walls. This must be the only room in the temple that has an uneasy feeling about it.~
 1 24 0 0 0 0
 D0
 ~
@@ -413,14 +327,6 @@ D5
 ~
 ~
 0 0 289
-E
-firmament shimmering~
-   The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
-~
 S
 #122
 Inner Lookout (SE)~
@@ -438,14 +344,6 @@ D5
 ~
 ~
 0 0 295
-E
-firmament shimmering~
-   The firmament holds back the magical chaos that was
-created by Drakkar.  The firmament is used to keep balance within the city limits
-and allows everyone to exist in peace.  Those brave enough to venture beyond
-the firmament do so at their own risk.  Beyond the firmament the scale of balance has
-collapsed and the laws of science and nature are in disorder.
-~
 S
 #123
 Thiel Foundation~
@@ -464,20 +362,6 @@ D2
 ~
 ~
 0 0 129
-E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
 S
 #125
 Plane of the Deva~
@@ -665,29 +549,6 @@ D0
 ~
 ~
 0 0 128
-E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
-~
-E
-desk~
-   The desk is made of sturdy pine with a heavy coating of wax that was
-probably applied by the apprentices.  A small quill and pad of paper are
-centered on the top of the desk.  The desk has three drawers.  All of them are
-empty.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
 S
 #136
 Valar Ventures~
@@ -718,8 +579,7 @@ D0
 S
 #139
 Lookout (S)~
-e
-~
+empty room.~
 1 24 0 0 0 1
 D0
 ~
@@ -737,38 +597,23 @@ D5
 ~
 ~
 0 0 362
-E
-firmament~
-e
-~
 S
 #140
 Arjika Portal~
-talk:#adventure view:thegame:world 0140/main
-~
+empty room.~
 1 16 0 0 0 1
 D2
-talk:#adventure view:thegame:world 0146/look
 ~
 ~
 0 0 159
 D4
-talk:#adventure view:thegame:world 0106/look
 ~
 ~
 0 0 106
-E
-firmament~
-talk:#adventure view:thegame:world 0140/firmament
-~
 S
 #141
 NAVY: Medical~
-   It is here the Hero of Arjika come to improve their training in the art
-of warfare.  Not only does this include brute force and the taking up of arms,
-but also the cunning art of tactics that can decide the outcome of any battle.
-A stairwell in the back of the room leads to the training room upstairs.
-~
+It is here the Hero of Arjika come to improve their training in the art of warfare.  Not only does this include brute force and the taking up of arms, but also the cunning art of tactics that can decide the outcome of any battle. A stairwell in the back of the room leads to the training room upstairs.~
 1 24 0 0 0 0
 D3
 ~
@@ -790,14 +635,7 @@ D4
 S
 #143
 The Inn~
-The only inn in Arjika.  The Letzgo Inn appeals to those who need to take a
-break or maybe just get away from home for a few days to receive one of the many
-"treatments" available by the fine staff.  The sole proprietor goes by the name
-of Orlok and has been known to be rough, even deadly, to any customers that
-treat his "employees" unfairly.  The inn appears to be well kept.  Further to
-the north one can see a winding staircase and a plethra of adjoining rooms.  It
-seems the owners have temporarily closed due to renovations.
-~
+The only inn in Arjika.  The Letzgo Inn appeals to those who need to take a break or maybe just get away from home for a few days to receive one of the many "treatments" available by the fine staff.  The sole proprietor goes by the name of Orlok and has been known to be rough, even deadly, to any customers that treat his "employees" unfairly.  The inn appears to be well kept.  Further to the north one can see a winding staircase and a plethra of adjoining rooms.  It seems the owners have temporarily closed due to renovations.~
 1 8 0 0 0 0
 D2
 ~
@@ -806,12 +644,7 @@ D2
 S
 #144
 Shiro's Weaponry~
-   This large wood building is filled with rack upon rack of weapons lining
-every wall, the floor, and even some suspended from the ceiling.  The sound of
-someone honing a fine blade can be heard in the background.  Some of the finest
-weapons in the realm are made right here under the supervision of Shiro, the
-master wesponsmith.
-~
+This large wood building is filled with rack upon rack of weapons lining every wall, the floor, and even some suspended from the ceiling.  The sound of someone honing a fine blade can be heard in the background.  Some of the finest weapons in the realm are made right here under the supervision of Shiro, the master wesponsmith.~
 1 8 0 0 0 0
 D2
 ~
@@ -820,14 +653,7 @@ D2
 S
 #145
 The Smithy~
-   The Smithy used to be run by the Hero Guild for protection of the city.
-But when Sarge retired from his service in the guild they let him keep the
-smithy that he created as a retirement gift.  Of course the fact that they had
-no one that could replace him and do his quality of work was the real reason.
-But, Sarge would never complain.  He has spent his life hammering metal into
-weapons of mass destruction or armor of superior quality.  It is rumored that
-has never been given a task that he could not complete.
-~
+The Smithy used to be run by the Hero Guild for protection of the city. But when Sarge retired from his service in the guild they let him keep the smithy that he created as a retirement gift.  Of course the fact that they had no one that could replace him and do his quality of work was the real reason. But, Sarge would never complain.  He has spent his life hammering metal into weapons of mass destruction or armor of superior quality.  It is rumored that has never been given a task that he could not complete.~
 1 8 0 0 0 0
 D2
 ~
@@ -836,24 +662,20 @@ D2
 S
 #146
 The Northern Road~
-talk:#adventure view:thegame:world 0146/main
-~
+empty room.~
 1 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0140/look
 ~
 ~
 0 0 140
 D2
-talk:#adventure view:thegame:world 0159/look
 ~
 ~
 0 0 159
 S
 #147
 The Tiki Bar~
-empty.
-~
+empty.~
 1 16 0 0 0 1
 D1
 ~
@@ -866,10 +688,7 @@ D2
 S
 #148
 The Gay Bar~
-   The only restaurant in Arjika.  The Rustic serves up decent meals to anyone
-that can afford them.  The prices are fair and the service is excellent.  The
-place is rather deserted and only a few customers are chatting idly in the back.
-~
+The only restaurant in Arjika.  The Rustic serves up decent meals to anyone that can afford them.  The prices are fair and the service is excellent.  The place is rather deserted and only a few customers are chatting idly in the back.~
 1 24 0 0 0 0
 D1
 ~
@@ -886,11 +705,7 @@ D3
 S
 #149
 The Strait Bar~
-   The smell of tanning hides from the back of the shop is very unpleasant.
-The assortment of leather goods is very extensive and they are well made.
-Anyone needing some armor but does not want to give up a lot of movement and
-flexibility need only come here.
-~
+The smell of tanning hides from the back of the shop is very unpleasant. The assortment of leather goods is very extensive and they are well made. Anyone needing some armor but does not want to give up a lot of movement and flexibility need only come here.~
 1 24 0 0 0 0
 D1
 ~
@@ -907,13 +722,7 @@ D3
 S
 #150
 The Restaurant~
-   This gloomy bar has an uneasy feeling about it.  Travelers pausing here
-should be careful as this bar is frequented by the less honorable class in
-Arjika.  Very few people drink here since as soon anyone inebriated is likely
-to be relieved of any gold they may be carrying.  The bar seems to sell a lot
-more than just drinks as large shelves are filled with various items and
-equipment.
-~
+This gloomy bar has an uneasy feeling about it.  Travelers pausing here should be careful as this bar is frequented by the less honorable class in Arjika.  Very few people drink here since as soon anyone inebriated is likely to be relieved of any gold they may be carrying.  The bar seems to sell a lot more than just drinks as large shelves are filled with various items and equipment.~
 1 24 0 0 0 0
 D2
 ~
@@ -930,11 +739,7 @@ D4
 S
 #151
 MARINES: Medical~
-An artist stands in the back in front of a stairwell.  Obviously making sure no
-one goes by without his permission.  The room is shabby with little furniture.
-Just a table and a few wooden chairs.  A few expensive tapestries look out of
-place hanging on the walls.
-~
+An artist stands in the back in front of a stairwell.  Obviously making sure no one goes by without his permission.  The room is shabby with little furniture. Just a table and a few wooden chairs.  A few expensive tapestries look out of place hanging on the walls.~
 1 24 0 0 0 0
 D1
 ~
@@ -943,7 +748,7 @@ D1
 S
 #152
 NAVY: Recruiting~
-~
+empty room.~
 1 24 0 0 0 0
 D1
 ~
@@ -956,11 +761,11 @@ D2
 S
 #153
 NAVY: Entrance~
-~
+empty room.~
 1 24 0 0 0 0
 D1
 ~
-door~
+~
 1 0 154
 D3
 ~
@@ -969,7 +774,7 @@ D3
 S
 #154
 11 NAVY Way~
-~
+empty room.~
 1 16 0 0 0 1
 D1
 ~
@@ -986,11 +791,7 @@ D3
 S
 #155
 Hero Avenue~
-   A loud ruckus to the north must be the local bar where soldiers go to relieve
-themselves of their worries.  The cobblestone street is clean and well
-maintained.  The buildings all around are made of wood and some are several
-stories tall.
-~
+A loud ruckus to the north must be the local bar where soldiers go to relieve themselves of their worries.  The cobblestone street is clean and well maintained.  The buildings all around are made of wood and some are several stories tall.~
 1 0 0 0 0 1
 D0
 ~
@@ -1002,7 +803,7 @@ D1
 0 0 156
 D2
 ~
-door~
+~
 1 0 170
 D3
 ~
@@ -1011,8 +812,7 @@ D3
 S
 #156
 Hero Avenue~
-empty.
-~
+empty.~
 1 0 0 0 0 1
 D0
 ~
@@ -1024,7 +824,7 @@ D1
 0 0 157
 D2
 ~
-door~
+~
 1 0 171
 D3
 ~
@@ -1033,8 +833,7 @@ D3
 S
 #157
 Hero Avenue~
-empty.
-~
+empty.~
 1 0 0 0 0 1
 D0
 ~
@@ -1046,7 +845,7 @@ D1
 0 0 158
 D2
 ~
-door~
+~
 1 0 172
 D3
 ~
@@ -1055,8 +854,7 @@ D3
 S
 #158
 Hero Avenue~
-empty.
-~
+empty.~
 1 0 0 0 0 1
 D0
 ~
@@ -1068,7 +866,7 @@ D1
 0 0 159
 D2
 ~
-door~
+~
 1 0 173
 D3
 ~
@@ -1077,26 +875,21 @@ D3
 S
 #159
 4 N Temple Rd.~
-talk:#adventure view:thegame:world 0159/main
-~
+empty room.~
 1 16 0 0 0 1
 D0
-talk:#adventure view:thegame:world 0146/look
 ~
 ~
 0 0 140
 D1
-talk:#adventure view:thegame:world 0160/look
 ~
 ~
 0 0 160
 D2
-talk:#adventure view:thegame:world 0174/look
 ~
 ~
 0 0 189
 D3
-talk:#adventure view:thegame:world 0158/look
 ~
 ~
 0 0 158
@@ -1115,7 +908,7 @@ D1
 0 0 161
 D2
 ~
-door~
+~
 1 0 175
 D3
 ~
@@ -1136,7 +929,7 @@ D1
 0 0 162
 D2
 ~
-door~
+~
 1 0 176
 D3
 ~
@@ -1157,7 +950,7 @@ D1
 0 0 163
 D2
 ~
-door~
+~
 1 0 177
 D3
 ~
@@ -1178,7 +971,7 @@ D1
 0 0 164
 D2
 ~
-door~
+~
 1 0 178
 D3
 ~
@@ -1195,7 +988,7 @@ D0
 0 0 151
 D1
 ~
-door~
+~
 1 0 165
 D2
 ~
@@ -1216,16 +1009,12 @@ D1
 0 0 166
 D3
 ~
-door~
+~
 1 0 164
 S
 #166
 MARINES: Recruiting~
-   Wooden crates and boxes are neatly stacked into columns standing about twice
-your height with rows in between that barely allow you to walk through.  Hard to
-believe anyone could find their way out of this place, let alone know where to
-find anything.
-~
+Wooden crates and boxes are neatly stacked into columns standing about twice your height with rows in between that barely allow you to walk through.  Hard to believe anyone could find their way out of this place, let alone know where to find anything.~
 1 8 0 0 0 0
 D2
 ~
@@ -1251,7 +1040,7 @@ D1
 S
 #168
 NAVY: Cyber1~
-~
+empty room.~
 1 568 0 0 0 0
 D2
 ~
@@ -1264,11 +1053,7 @@ D3
 S
 #169
 Hero Avenue~
-   The Barracks rise above the west and a small cozy home is to the east.  A
-well-travelled road continues north and south.  This appears to be the Hero
-Quarter where the army of Arjika bases it's operations.  Several recruits rush
-past on assignment.
-~
+The Barracks rise above the west and a small cozy home is to the east.  A well-travelled road continues north and south.  This appears to be the Hero Quarter where the army of Arjika bases it's operations.  Several recruits rush past on assignment.~
 1 0 0 0 0 1
 D0
 ~
@@ -1281,15 +1066,11 @@ D2
 S
 #170
 Fine House~
-   A fine home of Arjika.  The smell of baking bread and the sounds of a
-roaring fire.  The house is cluttered with the usual things that makes a house
-look lived in.  You could be happy spending the rest of your life living in a
-house like this.
-~
+A fine home of Arjika.  The smell of baking bread and the sounds of a roaring fire.  The house is cluttered with the usual things that makes a house look lived in.  You could be happy spending the rest of your life living in a house like this.~
 1 24 0 0 0 0
 D0
 ~
-door~
+~
 1 0 155
 D1
 ~
@@ -1298,15 +1079,11 @@ D1
 S
 #171
 Beggars Home~
-   The filth in this house is disgusting, an overflowing chamber pot almost
-sends you immediately back out the door.  This room should not even be
-considered a home.  You can barely even stand up the ceiling is so low and
-cracks in the walls let you see outside.
-~
+The filth in this house is disgusting, an overflowing chamber pot almost sends you immediately back out the door.  This room should not even be considered a home.  You can barely even stand up the ceiling is so low and cracks in the walls let you see outside.~
 1 8 0 0 0 0
 D0
 ~
-door~
+~
 1 0 156
 D1
 ~
@@ -1319,15 +1096,11 @@ D3
 S
 #172
 An Extravagant Home~
-   This house looks out of place considering it's neighbors.  The pine walls
-are polished to a shine and the floor is made out of some strange type of
-cement.  Cushioned chairs surround a table set for dinner with expensive dishes
-and silverware.
-~
+This house looks out of place considering it's neighbors.  The pine walls are polished to a shine and the floor is made out of some strange type of cement.  Cushioned chairs surround a table set for dinner with expensive dishes and silverware.~
 1 8 0 0 0 0
 D0
 ~
-door~
+~
 1 0 157
 D1
 ~
@@ -1340,21 +1113,16 @@ D3
 S
 #173
 Poor House~
-   The house is made from rooten timber and the floor is just bare dirt.  A
-baking oven and a few piles of straw are the only things in the room.  This
-must be the poorest house in the entire city, how could anyone live like this.
-
-~
+The house is made from rooten timber and the floor is just bare dirt.  A baking oven and a few piles of straw are the only things in the room.  This must be the poorest house in the entire city, how could anyone live like this.~
 1 8 0 0 0 0
 D0
 ~
-door~
+~
 1 0 158
 S
 #174
 Star Wars~
-talk:#adventure view:thegame:world 0174/main
-~
+empty room.~
 1 24 0 0 0 0
 D4
 ~
@@ -1363,59 +1131,43 @@ D4
 S
 #175
 An Extravagant Home~
-   One of the more successful artists of the quarter must live here.  Rugs
-cover the entire floor.  A candelabra sits in the middle of a polished oak
-table.  A four post bed can be seen in the back of the house.  Nothing like
-living the good life.
-~
+One of the more successful artists of the quarter must live here.  Rugs cover the entire floor.  A candelabra sits in the middle of a polished oak table.  A four post bed can be seen in the back of the house.  Nothing like living the good life.~
 1 8 0 0 0 1
 D0
 ~
-door~
+~
 1 0 160
 S
 #176
 A Cramped Home~
-   A large table that could sit a family of about seven fills the majority of
-this house.  Small mattresses lay on the floor in the back of the room.  Not
-much hope for privacy in this house.  A few dolls are having a tea party in one
-corner.
-~
+A large table that could sit a family of about seven fills the majority of this house.  Small mattresses lay on the floor in the back of the room.  Not much hope for privacy in this house.  A few dolls are having a tea party in one corner.~
 1 8 0 0 0 1
 D0
 ~
-door~
+~
 1 0 161
 S
 #177
 A Small Home~
-   You walk right in as if it was your own house.  Don't worry about
-trespassing, I'm sure no one will mind.  The house is very compact.  The
-kitchen and bedrooms are not separated by any walls.  This must be a house for
-the poor.
-~
+You walk right in as if it was your own house.  Don't worry about trespassing, I'm sure no one will mind.  The house is very compact.  The kitchen and bedrooms are not separated by any walls.  This must be a house for the poor.~
 1 2072 0 0 0 0
 D0
 ~
-door~
+~
 1 0 162
 S
 #178
 A Clean House~
-   Everything is dusted, shined, waxed, and polished.  This home is spotless.
-Well maintained it seems.  Not everyone is rich enough to afford a housekeeper,
-but these folks must be.  You can hear a baby crying, sounds hungry.
-~
+Everything is dusted, shined, waxed, and polished.  This home is spotless. Well maintained it seems.  Not everyone is rich enough to afford a housekeeper, but these folks must be.  You can hear a baby crying, sounds hungry.~
 1 8 0 0 0 1
 D0
 ~
-door~
+~
 1 0 163
 S
 #179
 6 N. Arjika Blvd.~
-empty.
-~
+empty.~
 1 16 0 0 0 1
 D0
 ~
@@ -1428,11 +1180,7 @@ D2
 S
 #180
 MARINES: Hall~
-   A pathway has been opened here to allow for small carts and wagons to pass.
-You can hear a few workers in the distance pushing the large crates over the
-dusty floor.  A large box and tackle swings back and forth on a strange pulley
-system above you.
-~
+A pathway has been opened here to allow for small carts and wagons to pass. You can hear a few workers in the distance pushing the large crates over the dusty floor.  A large box and tackle swings back and forth on a strange pulley system above you.~
 1 8 0 0 0 0
 D0
 ~
@@ -1449,11 +1197,7 @@ D2
 S
 #181
 MARINES: Training~
-   The rows of crates and boxes continue to the north and south.  Everything is
-nailed shut, some even wrapped in chains and padlocked.  Enough stores to last
-the city for a year must be packed away in this place.  Everything is
-surpringly clean and well maintained.
-~
+The rows of crates and boxes continue to the north and south.  Everything is nailed shut, some even wrapped in chains and padlocked.  Enough stores to last the city for a year must be packed away in this place.  Everything is surpringly clean and well maintained.~
 1 8 0 0 0 0
 D0
 ~
@@ -1466,7 +1210,7 @@ D3
 S
 #182
 NAVY: Kitchen~
-~
+empty room.~
 1 24 0 0 0 0
 D2
 ~
@@ -1475,7 +1219,7 @@ D2
 S
 #183
 NAVY: Cyber2~
-~
+empty room.~
 1 568 0 0 0 0
 D0
 ~
@@ -1488,7 +1232,7 @@ D2
 S
 #184
 9 NAVY Way~
-~
+empty room.~
 1 16 0 0 0 1
 D0
 ~
@@ -1505,7 +1249,7 @@ D2
 S
 #185
 Arjika Alley~
-~
+empty room.~
 1 272 0 0 0 1
 D1
 ~
@@ -1518,7 +1262,7 @@ D3
 S
 #186
 W Arjika Alley~
-~
+empty room.~
 1 272 0 0 0 1
 D1
 ~
@@ -1531,7 +1275,7 @@ D3
 S
 #187
 Arjika Alley~
-~
+empty room.~
 1 272 0 0 0 1
 D1
 ~
@@ -1544,7 +1288,7 @@ D3
 S
 #188
 Arjika Alley~
-~
+empty room.~
 1 272 0 0 0 1
 D1
 ~
@@ -1557,7 +1301,7 @@ D3
 S
 #189
 3 N Temple Rd.~
-~
+empty room.~
 1 16 0 0 0 1
 D0
 ~
@@ -1578,11 +1322,7 @@ D3
 S
 #190
 Artist Alley~
-   The alley is cluttered with debris, maybe the street sweeper doesn't even
-bother cleaning this place up.  The sound of a fight can be heard further to
-the east within the alley.  This is definitely the most dangerous section of
-Arjika.
-~
+The alley is cluttered with debris, maybe the street sweeper doesn't even bother cleaning this place up.  The sound of a fight can be heard further to the east within the alley.  This is definitely the most dangerous section of Arjika.~
 1 0 0 0 0 1
 D1
 ~
@@ -1595,11 +1335,7 @@ D3
 S
 #191
 Artist Alley~
-   The sounds of someone fighting suddenly grow louder, then stop.  Seems like
-that dispute was settled one way or the other.  The inner city wall to the
-south keeps the alley eternally in shadows, no matter the time of day or night.
-Houses to the north have their back doors shut and locked.
-~
+The sounds of someone fighting suddenly grow louder, then stop.  Seems like that dispute was settled one way or the other.  The inner city wall to the south keeps the alley eternally in shadows, no matter the time of day or night. Houses to the north have their back doors shut and locked.~
 1 0 0 0 0 1
 D1
 ~
@@ -1612,8 +1348,7 @@ D3
 S
 #192
 Artist Alley~
-A pool of paint lies in the center of the alley, a trail of paint leads to a garbage pile a few feet away.  A traveler here should keep moving unless they wanted to draw something themselves.
-~
+A pool of paint lies in the center of the alley, a trail of paint leads to a garbage pile a few feet away.  A traveler here should keep moving unless they wanted to draw something themselves.~
 1 0 0 0 0 1
 D1
 ~
@@ -1626,11 +1361,7 @@ D3
 S
 #193
 Artist Alley~
-   The inner city wall to the south towers high into the air, blocking out most
-of the light.  The wall looks to be made from stone blocks and some sort of
-filler.  Its not possible to tell how thick it is, but judging from the height
-one could guess at least half as wide as it is tall.
-~
+The inner city wall to the south towers high into the air, blocking out most of the light.  The wall looks to be made from stone blocks and some sort of filler.  Its not possible to tell how thick it is, but judging from the height one could guess at least half as wide as it is tall.~
 1 0 0 0 0 1
 D1
 ~
@@ -1643,11 +1374,7 @@ D3
 S
 #194
 5 N. Arjika Blvd.~
-   The Artist Avenue comes to an intersection with a shady alley to the west.
-This intersection is at the northeast corner of the inner city wall.  On top of
-the wall one can see some type of post where the guards watch for any trouble.
-A large building to the east must be some sort of warehouse.
-~
+The Artist Avenue comes to an intersection with a shady alley to the west. This intersection is at the northeast corner of the inner city wall.  On top of the wall one can see some type of post where the guards watch for any trouble. A large building to the east must be some sort of warehouse.~
 1 16 0 0 0 1
 D0
 ~
@@ -1664,12 +1391,8 @@ D3
 S
 #195
 MARINES: Hall~
-   Huge double doors have been built into the western wall of the warehouse.
-They are closed, barred, and locked with a padlock the size of your head.  No
-one gets in or out without that key.  An aisle to load and unload wagons runs
-to the east.
-~
-1 8 0 0 0 0
+Huge double doors have been built into the western wall of the warehouse. They are closed, barred, and locked with a padlock the size of your head.  No one gets in or out without that key.  An aisle to load and unload wagons runs to the east.~
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1685,13 +1408,8 @@ D2
 S
 #196
 MARINES: Kitchen~
-   A path is opened up between the crates here for wagons to load and unload.
-The floor has turned to packed dirt and traces of horse manure leave an
-unpleasant smell. Three wagons fill the center of the room. All look empty.
-A clump of mushrooms grows in the middle of the manure. They look ripe for
-picking.
-~
-1 8 0 0 0 0
+A path is opened up between the crates here for wagons to load and unload. The floor has turned to packed dirt and traces of horse manure leave an unpleasant smell. Three wagons fill the center of the room. All look empty. A clump of mushrooms grows in the middle of the manure. They look ripe for picking.~
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1704,11 +1422,6 @@ D3
 ~
 ~
 0 0 195
-E
-mushrooms~
-   The mushrooms appear not to be poisonous and are relatively clean. They look
-edible.
-~
 S
 #197
 NAVY: Dining~
@@ -1729,7 +1442,7 @@ D2
 S
 #198
 NAVY: Cyber3~
-~
+empty room.~
 1 568 0 0 0 0
 D0
 ~
