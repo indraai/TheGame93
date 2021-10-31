@@ -254,13 +254,13 @@ D3
 0 0 311
 S
 #313
-3 S Temple Rd.~
+2 S Temple Rd.~
 Empty room.~
 3 16 0 0 0 1
 D0
 ~
 ~
-0 0 313
+0 0 288
 D1
 ~
 ~
@@ -768,7 +768,7 @@ D3
 0 0 341
 S
 #343
-4 S Temple Rd.~
+3 S Temple Rd.~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -1154,14 +1154,14 @@ D5
 door~
 2 0 225
 E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #368

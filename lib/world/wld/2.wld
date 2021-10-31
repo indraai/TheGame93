@@ -701,13 +701,13 @@ D0
 0 0 229
 S
 #243
-The West Gate~
+Western Gate~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
-0 0 244
+0 0 246
 D4
 ~
 ~
@@ -740,9 +740,9 @@ D3
 0 0 244
 S
 #246
-The Western Intersection~
+2 W Temple Rd.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -758,7 +758,7 @@ D2
 D3
 ~
 ~
-0 0 245
+0 0 243
 S
 #247
 Age of Chaos~
@@ -770,13 +770,17 @@ D4
 0 0 352
 S
 #248
-The Western Road~
+1 W Temple Rd.~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 233
+D1
+~
+~
+0 0 249
 D2
 ~
 ~
@@ -791,7 +795,7 @@ D4
 0 0 115
 S
 #249
-Temple Entrance (W)~
+Arjika Temple (W)~
 undefined~
 2 16 0 0 0 1
 D1
@@ -1372,7 +1376,7 @@ D2
 S
 #288
 Southern Academy~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
