@@ -1540,12 +1540,7 @@ D2
 0 0 199
 S
 #185
-Hero Alley~
-   This cramped alley leads past dark flickering shadows.  A few piles of
-garbage are waiting to be cleaned up by the street sweeper.  An alley cat hisses
-and then bolts as it senses some trespasser on its territory.  This alley does
-not look safe and one might wonder whether or not they could encounter some
-lurking thugs.
+W Arjika Alley~
 ~
 1 0 0 0 0 1
 D1
@@ -1558,10 +1553,7 @@ D3
 0 0 184
 S
 #186
-Hero Alley~
-   The inner city wall rises above to the south.  The sound of footsteps and the
-rattling of armor can be heard from the guards patrolling the top of the wall.
-The alley is even darker here and a person could easily hide in the shadows.
+W Arjika Alley~
 ~
 1 0 0 0 0 1
 D1
@@ -1574,11 +1566,7 @@ D3
 0 0 185
 S
 #187
-Hero Alley~
-   A line of houses block the way to the north.  They seem to have back doors
-but all are bolted, locked, or nailed shut.  This is definitely not the most
-friendly section of the city.  An alley cat bolts past as a large pile of
-garbage almost collapses on it.
+Arjika Alley~
 ~
 1 0 0 0 0 1
 D1
@@ -1591,11 +1579,7 @@ D3
 0 0 186
 S
 #188
-Hero Alley~
-   The alley is a little brighter here as it lies next to the Northern Road.
-The sound of creaking wagons and the pound of horse hooves on the dirt road
-become trapped between the inner city wall and the houses within the alley
-making strange echoing sounds that are very distracting.
+W Arjika Alley~
 ~
 1 0 0 0 0 1
 D1

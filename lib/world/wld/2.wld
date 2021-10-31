@@ -1305,11 +1305,7 @@ D3
 0 0 284
 S
 #286
-The Aundience Chamber~
-   This is the room where the High Council meets with any who bring forth
-problems.  The High Council will then vote and decide on a way to settle the
-matter.  Their word is final and none ever disobey them.  They are respected
-for their intelligence and wisdom.
+AIRFORCE: Kitchen~
 ~
 2 0 0 0 0 1
 D0
@@ -1516,11 +1512,7 @@ D3
 0 0 297
 S
 #299
-A Waiting Room~
-   Several chairs are arranged in a half-circle facing an open door to the
-south.  The citizens of The Dome come here to settle disputes by seeking the
-guidance of the High Council.  The High Council has come to be the law of the
-land here.
+AIRFORCE: Dining~
 ~
 2 8 0 0 0 1
 D0

@@ -125,8 +125,7 @@ D3
 0 0 304
 S
 #306
-A large Bunk Room~
-Neatly made bunks are arranged in precise rows and colums filling the room from wall to wall.  Every rack is made precisely to standard, every sheet a pristine white, without even a speck of dust.  The Arjika lead a disciplined life.
+AIRFORCE: Barracks~
 ~
 3 0 0 0 0 1
 D1
@@ -383,12 +382,7 @@ D3
 0 0 319
 S
 #321
-A Room of Prayer~
-   Candles are arranged along a set of shelves, some of which are burning, while
-others remain unlit.  Cushions are arranged along the floor facing the candles,
-so that one can give thanks for all that has been given in this simple room of
-prayer.  The walls are unadorned, everything looks to be plain and only used for
-its intended purpose.
+AIRFORCE: Training~
 ~
 3 0 0 0 0 1
 D0
@@ -401,11 +395,7 @@ D1
 0 0 322
 S
 #322
-The Hall of Clerics~
-   A long hallway carries on to the north.  It appears to run the length of the
-entire building.  The only source of light are lanterns spaced widely apart upon
-the walls which leave much of the hall in shadow.  The bare floor and walls show
-the lifestyle the monks lead.
+AIRFORCE: Cyber1~
 ~
 3 0 0 0 0 1
 D0
