@@ -172,7 +172,7 @@ talk:#adventure view:thegame:world 0014/look
 0 0 14
 S
 #14
-The Anon Salon~
+ARMY: Academy~
 talk:#adventure view:thegame:world 0014/main
 ~
 0 8 0 0 0 0
@@ -181,6 +181,10 @@ talk:#adventure view:thegame:world 0015/look
 ~
 ~
 0 0 15
+D3
+~
+~
+0 0 288
 S
 #15
 The Cobra Lounge~
@@ -311,14 +315,14 @@ talk:#adventure view:thegame:world 0098/look
 0 0 98
 S
 #26
-Hacking In Progress~
+AIRFORCE: Academy~
 empty
 ~
 0 8 0 0 0 0
-D5
+D1
 ~
 ~
-0 0 23
+0 0 288
 S
 #31
 House Vamraka~
@@ -401,12 +405,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
