@@ -41,7 +41,7 @@ M 0 125 1 97   	(Mae)
 
 M 0 126 1 242 	(The Spy)
 
-M 0 127 1 336 	(Medic Deva)
+M 0 127 1 336 	(AIRFORCE Recruiting)
 
 M 0 128 1 341 	(RedDEVA)
 M 0 129 1 3 	  (Stephen Watt)
@@ -159,8 +159,15 @@ M 0 181 4 106 	(the lookout)
 M 0 182 1 24   	(Brenda Romero)
 M 0 183 1 110 	(The Master Artist)
 M 0 184 1 150 	(HANNIBAL)
-M 0 185 1 361 	(Sareth, the sage)
-M 0 186 1 351 	(MedicDEVA)
+M 0 185 1 251 	(Sareth, the sage)
+
+M 0 186 6 351 	(MedicDEVA)
+M 0 186 6 141 	(MedicDEVA)
+M 0 186 6 151 	(MedicDEVA)
+M 0 186 6 361 	(MedicDEVA)
+M 0 186 6 97   	(MedicDEVA)
+M 0 186 6 97   	(MedicDEVA)
+
 M 0 187 1 280 	(the baker)
 
 M 0 188 1 17   	(Quinn fazigu)
