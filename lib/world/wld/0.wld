@@ -172,7 +172,7 @@ talk:#adventure view:thegame:world 0014/look
 0 0 14
 S
 #14
-The Anon Salon~
+ARMY: Academy~
 talk:#adventure view:thegame:world 0014/main
 ~
 0 8 0 0 0 0
@@ -181,6 +181,10 @@ talk:#adventure view:thegame:world 0015/look
 ~
 ~
 0 0 15
+D3
+~
+~
+0 0 288
 S
 #15
 The Cobra Lounge~
@@ -311,14 +315,14 @@ talk:#adventure view:thegame:world 0098/look
 0 0 98
 S
 #26
-Hacking In Progress~
+AIRFORCE: Academy~
 empty
 ~
 0 8 0 0 0 0
-D5
+D1
 ~
 ~
-0 0 23
+0 0 288
 S
 #31
 House Vamraka~
@@ -355,28 +359,24 @@ indra.agency~
 You are in an unfinished room.
 ~
 0 24 0 0 0 0
-D1
+D3
 ~
 ~
-0 0 200
+0 0 223
 D4
 ~
 ~
 0 0 107
 S
 #97
-Medical~
+indra.care~
 talk:#adventure view:thegame:world 0097/look
 ~
 0 24 0 0 0 0
-D0
+D1
 ~
 ~
-1 0 2
-D2
-~
-~
-1 0 211
+0 0 223
 S
 #98
 Graduation~
