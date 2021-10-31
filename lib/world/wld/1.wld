@@ -1,46 +1,37 @@
 #100
 Arjika Tower~
-talk:#adventure view:thegame:world 100/main
 ~
 1 24 0 0 0 0
 D0
-talk:#adventure view:thegame:world 113/look
 ~
 ~
 0 0 113
 D1
-talk:#adventure view:thegame:world 117/look
 ~
 ~
 0 0 117
 D2
-talk:#adventure view:thegame:world 120/look
 ~
 ~
 0 0 120
 D3
-talk:#adventure view:thegame:world 116/look
 ~
 ~
 0 0 116
 D4
-talk:#adventure view:thegame:world 101/look
 ~
 ~
 0 0 101
 D5
-talk:#adventure view:thegame:world 251/look
 ~
 ~
 0 0 251
 E
 credits~
-talk:#adventure view:thegame:world 0100/credits
 ~
 S
 #101
 Arjika Tower~
-talk:#adventure view:thegame:world 101/main
 ~
 1 24 0 0 0 0
 D4
@@ -48,17 +39,14 @@ D4
 ~
 0 0 365
 D5
-talk:#adventure view:thegame:world 0100/look
 ~
 ~
 0 0 100
 E
 altar~
-talk:#adventure view:thegame:world 0101/altar
 ~
 E
 statue~
-talk:#adventure view:thegame:world 0101/statue
 ~
 S
 #102
@@ -1267,7 +1255,7 @@ S
 #167
 NAVY: Training~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1279,8 +1267,8 @@ D1
 S
 #168
 NAVY: Cyber1~
-Empty room.~
-1 8 0 0 0 0
+~
+1 568 0 0 0 0
 D2
 ~
 ~
@@ -1494,7 +1482,7 @@ D3
 S
 #182
 NAVY: Kitchen~
-Empty room.~
+~
 1 24 0 0 0 0
 D2
 ~
@@ -1504,7 +1492,7 @@ S
 #183
 NAVY: Cyber2~
 ~
-1 8 0 0 0 0
+1 568 0 0 0 0
 D0
 ~
 ~
@@ -1757,8 +1745,8 @@ D2
 S
 #198
 NAVY: Cyber3~
-Empty room.~
-1 8 0 0 0 0
+~
+1 568 0 0 0 0
 D0
 ~
 ~
