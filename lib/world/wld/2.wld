@@ -150,13 +150,13 @@ D3
 0 0 204
 S
 #206
-Warriors Avenue~
+7 Navy Way~
    The inner city wall and the army barracks guide the avenue north and south
 through the Warriors Quarter.  Very few people are around, but plenty of
 soldiers rush about.  One might wonder why anyone would sign up for the army
 after all the stories flying around.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -167,26 +167,9 @@ D2
 0 0 219
 S
 #207
-The Northern Temple Circle~
+5 NW Temple Sq.~
 Empty room.~
-2 0 0 0 0 1
-D1
-~
-~
-0 0 208
-D2
-~
-~
-0 0 233
-D4
-~
-~
-0 0 111
-S
-#208
-The Northern Temple Circle~
-Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -194,11 +177,28 @@ D1
 D2
 ~
 ~
-0 0 221
-D3
+0 0 208
+D4
+~
+~
+0 0 111
+S
+#208
+2 WN Temple Sq.~
+Empty room.~
+2 16 0 0 0 1
+D0
 ~
 ~
 0 0 207
+D1
+~
+~
+0 0 221
+D2
+~
+~
+0 0 233
 S
 #209
 The Northern Temple Circle~
@@ -380,13 +380,13 @@ D3
 0 0 217
 S
 #219
-Warriors Avenue~
+2 Navy Way~
    The building to the west is made out of stone, sealed with mortar.  It must
 have taken years to construct it.  The inner city wall to the east is made of
 the same material.  That must have been one of the many foul jobs given to new
 recruits.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -406,10 +406,10 @@ D4
 0 0 325
 S
 #221
-Lotions and Potions~
+Lotions & Potions~
 Empty room.~
-2 8 0 0 0 1
-D0
+2 24 0 0 0 0
+D3
 ~
 ~
 0 0 208
@@ -431,10 +431,18 @@ D0
 ~
 ~
 0 0 210
+D1
+~
+~
+0 0 96
 D2
 ~
 ~
 0 0 236
+D3
+~
+~
+0 0 97
 S
 #224
 Bank of Arjika~
@@ -550,13 +558,13 @@ D3
 0 0 230
 S
 #232
-Warriors Avenue~
+1 Navy Way~
    This avenue is just north of the center of the western half of The Dome where
 the Warriors Quarter and s Quarters meet.  The Western Road runs from the
 temple to the west gate.  Very few people are about, mostly just soldiers on
 patrol.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -567,7 +575,7 @@ D2
 0 0 246
 S
 #233
-The Western Temple Circle~
+1 WN Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -586,7 +594,7 @@ S
 #234
 Captain Lugdach's~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -1000,9 +1008,9 @@ D2
 0 0 274
 S
 #262
-Clerics Avenue~
+1 AIRFORCE Way~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1013,7 +1021,7 @@ D2
 0 0 275
 S
 #263
-The Western Temple Circle~
+1 WS Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1032,7 +1040,7 @@ S
 #264
 The Grocer~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -1194,13 +1202,13 @@ D3
 0 0 273
 S
 #275
-Clerics Avenue~
+2 AIRFORCE Way~
    The building to the west is the Hall of s where the High Council holds
 audience with any who request it.  To the east the inner city wall looks about
 as impenetrable as any wall ever seen.  s Avenue continues north and
 south.
 ~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1208,10 +1216,10 @@ D0
 D2
 ~
 ~
-0 0 288
+0 0 323
 S
 #276
-The Western Temple Circle~
+2 WS Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1230,7 +1238,7 @@ S
 #277
 The Jeweler~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -1396,7 +1404,7 @@ D3
 0 0 26
 S
 #289
-The Southern Temple Circle~
+5 SW Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1424,7 +1432,7 @@ S
 #291
 The Southern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
