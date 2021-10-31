@@ -53,12 +53,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-statue~
-talk:#adventure view:thegame:world 0101/statue
-~
-E
 altar~
 talk:#adventure view:thegame:world 0101/altar
+~
+E
+statue~
+talk:#adventure view:thegame:world 0101/statue
 ~
 S
 #102
@@ -179,11 +179,11 @@ D5
 ~
 0 0 96
 E
-map~
+table~
 empty.
 ~
 E
-table~
+map~
 empty.
 ~
 S
@@ -197,7 +197,7 @@ D5
 ~
 0 0 142
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 E
@@ -205,7 +205,7 @@ Trent_Room~
 empty.
 ~
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 S
@@ -337,11 +337,11 @@ D1
 ~
 0 0 100
 E
-silhouette~
+hole~
 empty.
 ~
 E
-hole~
+silhouette~
 empty.
 ~
 S
@@ -493,18 +493,18 @@ D2
 ~
 0 0 129
 E
-table desk chair~
-   The table, desk, and chair are made from solid oak of the highest quality.
-A thin goose down mattress and pillow are the only comfortable looking items in
-the room.  The desk is bare and all the drawers are empty.  It is as if no one
-even lives here.
-~
-E
 shrine~
    A beutiful shrine.  It has two white marble figures facing each other with a
 painting of the city below them.  The two figures seem to be looking down at
 the city with looks of worry and hopelessness.  An unlit candle and mirror lay
 on the floor beside the small shrine.
+~
+E
+table desk chair~
+   The table, desk, and chair are made from solid oak of the highest quality.
+A thin goose down mattress and pillow are the only comfortable looking items in
+the room.  The desk is bare and all the drawers are empty.  It is as if no one
+even lives here.
 ~
 S
 #125
@@ -694,14 +694,10 @@ D0
 ~
 0 0 128
 E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
-~
-E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 E
 desk~
@@ -711,10 +707,14 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
+~
+E
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
 ~
 S
 #136
@@ -1540,14 +1540,14 @@ D2
 0 0 199
 S
 #185
-Hero Alley~
+W Arjika Alley~
    This cramped alley leads past dark flickering shadows.  A few piles of
 garbage are waiting to be cleaned up by the street sweeper.  An alley cat hisses
 and then bolts as it senses some trespasser on its territory.  This alley does
 not look safe and one might wonder whether or not they could encounter some
 lurking thugs.
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1558,12 +1558,12 @@ D3
 0 0 184
 S
 #186
-Hero Alley~
+W Arjika Alley~
    The inner city wall rises above to the south.  The sound of footsteps and the
 rattling of armor can be heard from the guards patrolling the top of the wall.
 The alley is even darker here and a person could easily hide in the shadows.
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1574,13 +1574,13 @@ D3
 0 0 185
 S
 #187
-Hero Alley~
+W Arjika Alley~
    A line of houses block the way to the north.  They seem to have back doors
 but all are bolted, locked, or nailed shut.  This is definitely not the most
 friendly section of the city.  An alley cat bolts past as a large pile of
 garbage almost collapses on it.
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1591,13 +1591,13 @@ D3
 0 0 186
 S
 #188
-Hero Alley~
+W Arjika Alley~
    The alley is a little brighter here as it lies next to the Northern Road.
 The sound of creaking wagons and the pound of horse hooves on the dirt road
 become trapped between the inner city wall and the houses within the alley
 making strange echoing sounds that are very distracting.
 ~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
