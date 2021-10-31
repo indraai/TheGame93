@@ -52,11 +52,7 @@ Zone 3 is linked to the following zones:
 ~
 S
 #301
-Clerics Avenue~
-   The cobblestone road is in decent shape, though a few stones have been
-overturned leaving gaping holes.  No wagons travel down this part of the city.
-Everyone knows monks have no need for anything besides what they can provide
-by themselves.
+8 AIRFORCE Way~
 ~
 3 0 0 0 0 1
 D0
@@ -163,11 +159,7 @@ D3
 0 0 306
 S
 #308
-The Southwest Intersection~
-   The inner city wall ends here, as it reaches s' Avenue, and continues
-on to the east.  A small road follows along the inner city wall just north of
-the Tower of the High Council which seems to glow because of its glaring
-brightness.
+9 AIRFORCE Way~
 ~
 3 0 0 0 0 1
 D0
@@ -430,12 +422,7 @@ D3
 0 0 321
 S
 #323
-Clerics Avenue~
-   The entrance to both the Hall of s and the Tower of the High Council
-are just to the south.  One can see a small intersection to the north where the
-inner city wall begins.  Many people come to this quarter to seek aid from the
-monks, whether it be healing in the tower or to settle disputes within the
-Hall.
+7 AIRFORCE Way~
 ~
 3 0 0 0 0 1
 D0
