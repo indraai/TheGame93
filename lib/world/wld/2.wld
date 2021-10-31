@@ -14,46 +14,6 @@ D2
 ~
 ~
 0 0 210
-E
-credits info~
-Builder   : Quinn Michaels
-Zone         : 2 Arjika II
-Related Zones: 1 Arjika, 3 Arjika III
-Began        : 2021
-Player Level : 1-34
-Rooms        : 100
-Mobs         : 6
-Objects      : 19
-Shops        : 10
-Triggers     : 1
-Theme        : Ancient town of Arjika.
-Plot         : Fabric of time torn, world going to hell. The Dome one of the few safe havens remaining.
-Links        : 43w
-Zone 2 is linked to the following zones:
-  1 Arjika                        at   200 (north) --->   189
-  1 Arjika                        at   201 (north) --->   194
-  1 Arjika                        at   202 (north) --->   195
-  1 Arjika                        at   203 (north) --->   196
-  1 Arjika                        at   204 (north) --->   197
-  1 Arjika                        at   205 (north) --->   198
-  1 Arjika                        at   206 (north) --->   199
-  1 Arjika                        at   207 (up   ) --->   111
-  1 Arjika                        at   213 (up   ) --->   112
-  1 Arjika                        at   243 (up   ) --->   114
-  1 Arjika                        at   248 (up   ) --->   115
-  1 Arjika                        at   251 (up   ) --->   100
-  1 Arjika                        at   254 (up   ) --->   118
-  1 Arjika                        at   259 (up   ) --->   119
-  3 Arjika III                    at   287 (south) --->   300
-  3 Arjika III                    at   288 (south) --->   301
-  1 Arjika                        at   289 (up   ) --->   121
-  3 Arjika III                    at   292 (south) --->   302
-  1 Arjika                        at   295 (up   ) --->   122
-  3 Arjika III                    at   296 (south) --->   303
-  3 Arjika III                    at   297 (south) --->   304
-  3 Arjika III                    at   298 (south) --->   305
-  3 Arjika III                    at   299 (east ) --->   300
-~
 S
 #201
 4 N. Arjika Blvd.~
@@ -79,7 +39,7 @@ are to the south and east.  The financial holdings of the city are said to be
 hidden somewhere within this building.  Of course only a fool would try to
 steal from a bunch of thieves.
 ~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -101,7 +61,7 @@ Mattresses that are shredded to pieces by rats and mice line one wall.  A small
 washbasin, stool and bench are the only other luxuries these overworked brutes
 own.
 ~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -117,7 +77,7 @@ D3
 S
 #204
 NAVY: Barracks~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -130,7 +90,7 @@ D1
 S
 #205
 NAVY: Cyber4~
-~
+Empty room.~
 2 568 0 0 0 0
 D0
 ~
@@ -147,7 +107,7 @@ D3
 S
 #206
 7 NAVY Way~
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -250,7 +210,7 @@ S
 #212
 The Northern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -267,7 +227,7 @@ S
 #213
 The Northern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D2
 ~
 ~
@@ -283,11 +243,7 @@ D4
 S
 #214
 3 N. Arjika Blvd.~
-   Wagons of supplies and loud mouthed traders pass by, looking travelers over
-to see if they might be able to swindle some of your gold.  Most look with
-disappointment as everyone knows few adventurers are rich these days.  The
-avenue follows along the inner city wall to the north and south.
-~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -306,7 +262,7 @@ in a mansion, not a warehouse.  Several benches line the walls.  It almost
 looks like some type of waiting room the thieves use to impress would be
 traders.
 ~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -327,7 +283,7 @@ pump with fresh running water are kept in this room.  Too bad none of the
 workers seem to have ever touched any of them.  Leave it to the thieves to hire
 workers to do any manual labor.
 ~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -382,7 +338,7 @@ D2
 S
 #220
 Genesis~
-undefined~
+Empty room.~
 2 24 0 0 0 0
 D4
 ~
@@ -440,7 +396,7 @@ S
 #225
 The Water Hole~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -452,7 +408,7 @@ door~
 S
 #226
 TBAMud~
-undefined~
+Empty room.~
 2 24 0 0 0 0
 D4
 ~
@@ -483,7 +439,7 @@ the board.  A bunch of chairs and benches are arranged in rows facing the
 board.  Looks like someone is preparing for a meeting.  Maybe you can sit in
 and learn a few things.
 ~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -504,7 +460,7 @@ haphazardly all over it.  The type of writing that only the person who made it
 can really comprehend what it means.  This must be where some of the planning
 for the city takes place.
 ~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D2
 ~
 ~
@@ -582,7 +538,7 @@ D3
 S
 #235
 Arjika Temple (NW)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D1
 ~
@@ -595,7 +551,7 @@ D2
 S
 #236
 Arjika Temple (N)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -616,7 +572,7 @@ D3
 S
 #237
 Arjika Temple (NE)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D2
 ~
@@ -630,7 +586,7 @@ S
 #238
 Fashion & Style~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D1
 ~
 ~
@@ -655,7 +611,7 @@ D3
 S
 #240
 1 N. Arjika Blvd.~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -668,8 +624,8 @@ D2
 S
 #241
 MARINES: Operations~
-undefined~
-2 8 0 0 0 0
+Empty room.~
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -682,7 +638,7 @@ S
 #242
 MARINES: Development~
 undefined~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -704,7 +660,7 @@ S
 #244
 The Western Road~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D1
 ~
 ~
@@ -713,11 +669,6 @@ D3
 ~
 ~
 0 0 243
-S
-#245
-UNUSED~
-Empty room.~
-2 0 0 0 0 1
 S
 #246
 5 W Temple Rd.~
@@ -776,7 +727,7 @@ D4
 S
 #249
 Temple Entrance (W)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D1
 ~
@@ -789,7 +740,7 @@ D3
 S
 #250
 Arjika Temple (W)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -810,7 +761,7 @@ D3
 S
 #251
 Arjika Tower~
-undefined~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -835,7 +786,7 @@ D4
 S
 #252
 Arjika Temple (E)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -856,7 +807,7 @@ D3
 S
 #253
 Temple Entrance (E)~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D1
 ~
@@ -903,7 +854,7 @@ D5
 S
 #256
 2 E Temple Rd.~
-undefined~
+Empty room.~
 2 16 0 0 0 1
 D0
 ~
@@ -922,16 +873,6 @@ D3
 ~
 0 0 254
 S
-#257
-UNUSED~
-Empty room.~
-2 0 0 0 0 1
-S
-#258
-UNUSED~
-Empty room.~
-2 0 0 0 0 1
-S
 #259
 Susoma Portal~
 Empty room.~
@@ -948,7 +889,7 @@ S
 #260
 The High Councillor's Chambers~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D2
 ~
 ~
@@ -957,7 +898,7 @@ S
 #261
 A Bathroom~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D2
 ~
 ~
@@ -1052,7 +993,7 @@ S
 #268
 The Outfitter~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D1
 ~
 ~
@@ -1091,7 +1032,7 @@ S
 #271
 ARMY: Operations~
 undefined~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D1
 ~
 ~
@@ -1104,7 +1045,7 @@ S
 #272
 ARMY: Development~
 undefined~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D2
 ~
 ~
@@ -1122,7 +1063,7 @@ and cushions allow comfortable places to relax and peruse the many novels.
 Light from lanterns hanging overhead fills the room as if it was broad
 daylight.
 ~
-2 0 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -1143,7 +1084,7 @@ overweight cooks are sampling their favorite dishes as they prepare for the
 next meal.  They look at you just daring you to try and take some of their food
 that they spent hours preparing.
 ~
-2 0 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -1199,7 +1140,7 @@ S
 #278
 The Butcher~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D2
 ~
 ~
@@ -1221,7 +1162,7 @@ S
 #280
 The Bakery~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D2
 ~
 ~
@@ -1230,7 +1171,7 @@ S
 #281
 The Emporium~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D1
 ~
 ~
@@ -1273,7 +1214,7 @@ S
 #284
 ARMY: Library~
 Empty room.~
-2 8 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -1316,7 +1257,7 @@ other.  The Hall is the only form of justice within the city besides the army.
 Everyone respects the High Council for their devotion and wisdom towards what
 is right.
 ~
-2 0 0 0 0 1
+2 24 0 0 0 1
 D0
 ~
 ~
@@ -1329,7 +1270,7 @@ S
 #288
 2 S Temple Rd.~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1372,7 +1313,7 @@ S
 #291
 The Southern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1412,7 +1353,7 @@ S
 #293
 The Southern Temple Circle~
 Empty room.~
-2 0 0 0 0 1
+2 16 0 0 0 1
 D0
 ~
 ~
@@ -1428,7 +1369,7 @@ D3
 S
 #294
 Viking MUD~
-undefined~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~
@@ -1476,7 +1417,7 @@ S
 #297
 ARMY: Hall~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -1493,7 +1434,7 @@ S
 #298
 ARMY: Barracks~
 Empty room.~
-2 8 0 0 0 0
+2 24 0 0 0 0
 D2
 ~
 ~
@@ -1505,7 +1446,7 @@ D3
 S
 #299
 AIRFORCE: Dining~
-~
+Empty room.~
 2 24 0 0 0 0
 D0
 ~

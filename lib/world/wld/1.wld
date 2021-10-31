@@ -42,46 +42,30 @@ D5
 ~
 ~
 0 0 100
-E
-altar~
-~
-E
-statue~
-~
 S
 #102
 The Dark Tower~
-talk:#adventure view:thegame:world 0102/main
 ~
 1 9 0 0 0 0
 D5
-talk:#adventure view:thegame:world 0128/look
 ~
 ~
 0 0 128
 S
 #103
 Palantir~
-talk:#adventure view:thegame:world 0103/main
 ~
 1 8 0 0 0 0
 D5
-talk:#adventure view:thegame:world 129/look
 ~
 ~
 0 0 129
-E
-table~
-talk:#adventure view:thegame:world 0103/table
-~
 S
 #104
 Inner Arjika~
-talk:#adventure view:thegame:world 0104/main
 ~
 1 24 0 0 0 0
 D3
-talk:#adventure view:thegame:world 0000/look
 ~
 ~
 0 0 -1
