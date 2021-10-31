@@ -53,7 +53,7 @@ Zone 3 is linked to the following zones:
 S
 #301
 8 AIRFORCE Way~
-~
+Empty room.~
 3 16 0 0 0 1
 D0
 ~
@@ -160,7 +160,7 @@ D3
 S
 #308
 9 AIRFORCE Way~
-~
+Empty room.~
 3 16 0 0 0 1
 D0
 ~
@@ -423,7 +423,7 @@ D3
 S
 #323
 7 AIRFORCE Way~
-~
+Empty room.~
 3 16 0 0 0 1
 D0
 ~
@@ -1055,18 +1055,18 @@ D3
 0 0 359
 S
 #361
-Sareth's Scrolls~
+ARMY: Medical~
    The smell of old paper that is slowly crumbling to dust fills the room.
 Thousands of books, scroll, parchments, and even some tablets fill the
 bookshelves, tables and the floor of this under sized room.  It is here a vast
 amount of the Magi have left thei findings when delving into the depths of
 their magic.
 ~
-3 0 0 0 0 1
-D0
+3 24 0 0 0 0
+D1
 ~
-door~
-1 0 348
+~
+0 0 348
 S
 #362
 Saryakiavan Portal~
@@ -1137,14 +1137,14 @@ D5
 door~
 2 0 225
 E
+sky winds~
+   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
 floor~
    The stone floor is the same shade of gray as the sky and is completely plain
 and unscratched. It is probably too hard for anything to leave as much as a
 scratch on it.
-~
-E
-sky winds~
-   Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 #368

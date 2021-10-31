@@ -53,12 +53,12 @@ talk:#adventure view:thegame:world 0100/look
 ~
 0 0 100
 E
-altar~
-talk:#adventure view:thegame:world 0101/altar
-~
-E
 statue~
 talk:#adventure view:thegame:world 0101/statue
+~
+E
+altar~
+talk:#adventure view:thegame:world 0101/altar
 ~
 S
 #102
@@ -170,16 +170,20 @@ D3
 ~
 ~
 0 0 114
+D4
+~
+~
+0 0 110
 D5
 ~
 ~
 0 0 96
 E
-table~
+map~
 empty.
 ~
 E
-map~
+table~
 empty.
 ~
 S
@@ -193,7 +197,7 @@ D5
 ~
 0 0 142
 E
-Tabitha_Room~
+Bathroom~
 empty.
 ~
 E
@@ -201,7 +205,7 @@ Trent_Room~
 empty.
 ~
 E
-Bathroom~
+Tabitha_Room~
 empty.
 ~
 S
@@ -223,7 +227,7 @@ empty.
 D5
 ~
 ~
-0 0 151
+0 0 107
 S
 #111
 Inner Lookout (NW)~
@@ -333,11 +337,11 @@ D1
 ~
 0 0 100
 E
-hole~
+silhouette~
 empty.
 ~
 E
-silhouette~
+hole~
 empty.
 ~
 S
@@ -489,18 +493,18 @@ D2
 ~
 0 0 129
 E
-shrine~
-   A beutiful shrine.  It has two white marble figures facing each other with a
-painting of the city below them.  The two figures seem to be looking down at
-the city with looks of worry and hopelessness.  An unlit candle and mirror lay
-on the floor beside the small shrine.
-~
-E
 table desk chair~
    The table, desk, and chair are made from solid oak of the highest quality.
 A thin goose down mattress and pillow are the only comfortable looking items in
 the room.  The desk is bare and all the drawers are empty.  It is as if no one
 even lives here.
+~
+E
+shrine~
+   A beutiful shrine.  It has two white marble figures facing each other with a
+painting of the city below them.  The two figures seem to be looking down at
+the city with looks of worry and hopelessness.  An unlit candle and mirror lay
+on the floor beside the small shrine.
 ~
 S
 #125
@@ -690,10 +694,14 @@ D0
 ~
 0 0 128
 E
-bed~
-   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
-with a down pillow overlaying it.  The mattress is too thin to hold anything of
-value.
+window~
+   Overlooking the western gate you can see the shimmering protective firmament.
+You hope it lasts, peace and tranquility is a good thing.
+~
+E
+chair~
+   It's just your standard wooden chair.  Uncomfortable and only real
+usefulness would be as firewood.
 ~
 E
 desk~
@@ -703,14 +711,10 @@ centered on the top of the desk.  The desk has three drawers.  All of them are
 empty.
 ~
 E
-chair~
-   It's just your standard wooden chair.  Uncomfortable and only real
-usefulness would be as firewood.
-~
-E
-window~
-   Overlooking the western gate you can see the shimmering protective firmament.
-You hope it lasts, peace and tranquility is a good thing.
+bed~
+   The bed is made of a sturdy pine.  A thin mattress covered in a white sheet
+with a down pillow overlaying it.  The mattress is too thin to hold anything of
+value.
 ~
 S
 #136
@@ -953,21 +957,17 @@ D4
 0 0 109
 S
 #151
-Entrance to the Artist Guild~
+MARINES: Medical~
 An artist stands in the back in front of a stairwell.  Obviously making sure no
 one goes by without his permission.  The room is shabby with little furniture.
 Just a table and a few wooden chairs.  A few expensive tapestries look out of
 place hanging on the walls.
 ~
-1 8 0 0 0 0
-D2
+1 24 0 0 0 0
+D1
 ~
 ~
 0 0 164
-D4
-~
-~
-0 0 110
 S
 #152
 NAVY: Recruiting~
@@ -1803,7 +1803,7 @@ D3
 S
 #199
 8 NAVY Way~
-~
+Empty room.~
 1 16 0 0 0 1
 D0
 ~
