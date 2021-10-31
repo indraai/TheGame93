@@ -346,15 +346,15 @@ An man dressed all in black stalks past you. A hired sword, this guy specializes
 8 8 1
 E
 #127
-medic medicdeva deva d0127 z1~
-MedicDEVA~
+airforce recruiting soldier military d0127 z1~
+AIRFORCE Recruiting~
 0127/avatar~
 talk:#adventure view:thegame:agent 0127/look~
-253962 0 0 0 0 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
+260378 0 0 0 8 0 0 0 0 E
+10 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
-BareHandAttack: 1
+8 8 1
+BareHandAttack: 5
 E
 #128
 red deva d128 z1~
@@ -1035,7 +1035,7 @@ sareth~
 Sareth, the sage~
 0185/avatar~
 talk:#adventure view:thegame:agent 0185/look~
-24586 0 0 0 0 0 0 0 0 E
+26648 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
