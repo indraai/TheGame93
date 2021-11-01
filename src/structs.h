@@ -146,12 +146,28 @@
 
 /* PC classes */
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
-#define CLASS_ARMY           0    /**< PC Class ARMY */
-#define CLASS_NAVY           1    /**< PC Class NAVY */
-#define CLASS_MARINES        2    /**< PC Class MARINES */
-#define CLASS_AIRFORCE       3    /**< PC Class AIRFORCE */
+
+#define CLASS_MONK            0; // MONK
+#define CLASS_ARMY            1; // ARMY
+#define CLASS_NAVY            2; // NAVY
+#define CLASS_MARINES         3; // MARINES
+#define CLASS_AIRFORCE        4; // AIR FORCE
+#define CLASS_SPACEFORCE      5; // SPACE FORCE
+#define CLASS_AIRGUARD        6; // AIR GUARD
+#define CLASS_NATGUARD        7; // NATIONAL GUARD
+#define CLASS_COASTGUARD      8; // COAST GUARD
+#define CLASS_CIA             9; // CIA
+#define CLASS_FBI             10; // FBI
+#define CLASS_NSA             11; // NSA
+#define CLASS_DOD             12; // DOD
+#define CLASS_DEVA            13; // DEVA
+#define CLASS_DEVI            14; // DEVI
+#define CLASS_ARJIKA          15; // ARJIKA
+#define CLASS_SUSOMA          16; // SUSOMA
+#define CLASS_SARYAK          17; // SARYAKIAVAN
+
 /** Total number of available PC Classes */
-#define NUM_CLASSES	  4
+#define NUM_CLASSES	  18
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -161,12 +177,16 @@
 #define CLASS_DRAGON      4    /**< NPC Class Dragon */
 #define CLASS_GIANT       5    /**< NPC Class Giant */
 
-/* Sex */
-#define GENDER_NEUTRAL   0   /**< Neutral Sex (Hermaphrodite) */
-#define GENDER_MALE      1   /**< Male Sex (XY Chromosome) */
-#define GENDER_FEMALE    2   /**< Female Sex (XX Chromosome) */
+/* GENDER */
+#define GENDER_NEUTRAL   0   /**< Neutral GENDER (Hermaphrodite) */
+#define GENDER_MALE      1   /**< Male GENDER (XY Chromosome) */
+#define GENDER_FEMALE    2   /**< Female GENDER (XX Chromosome) */
+#define GENDER_TRANS     3   /**< TRANS GENDER */
+#define GENDER_INTER     4   /**< INTER SPECIES GENDER */
+#define GENDER_OTHER     5   /**< INTER SPECIES GENDER */
+#define GENDER_DEVA     6   /**< OTHER GENDER */
 /** Total number of Genders */
-#define NUM_GENDERS   3
+#define NUM_GENDERS   7
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
@@ -208,7 +228,7 @@
 #define MOB_SENTINEL        1   /**< Mob should not move */
 #define MOB_SCAVENGER       2   /**< Mob picks up stuff on the ground */
 #define MOB_ISNPC           3   /**< (R) Automatically set on all Mobs */
-#define MOB_AWARE	    4   /**< Mob can't be backstabbed */
+#define MOB_AWARE	          4   /**< Mob can't be backstabbed */
 #define MOB_AGGRESSIVE      5   /**< Mob auto-attacks everybody nearby */
 #define MOB_STAY_ZONE       6   /**< Mob shouldn't wander out of zone */
 #define MOB_WIMPY           7   /**< Mob flees if severely injured */
