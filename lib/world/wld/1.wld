@@ -635,7 +635,8 @@ D4
 S
 #143
 The Inn~
-The only inn in Arjika.  The Letzgo Inn appeals to those who need to take a break or maybe just get away from home for a few days to receive one of the many "treatments" available by the fine staff.  The sole proprietor goes by the name of Orlok and has been known to be rough, even deadly, to any customers that treat his "employees" unfairly.  The inn appears to be well kept.  Further to the north one can see a winding staircase and a plethra of adjoining rooms.  It seems the owners have temporarily closed due to renovations.~
+The only inn in Arjika.  The Letzgo Inn appeals to those who need to take a break or maybe just get away from home for a few days to receive one of the many "treatments" available by the fine staff.  The sole proprietor goes by the name of Orlok and has been known to be rough, even deadly, to any customers that treat his "employees" unfairly.  The inn appears to be well kept.  Further to the north one can see a winding staircase and a plethra of adjoining rooms.  It seems the owners have temporarily closed
+ due to renovations.~
 1 8 0 0 0 0
 D2
 ~
@@ -653,7 +654,8 @@ D2
 S
 #145
 The Smithy~
-The Smithy used to be run by the Hero Guild for protection of the city. But when Sarge retired from his service in the guild they let him keep the smithy that he created as a retirement gift.  Of course the fact that they had no one that could replace him and do his quality of work was the real reason. But, Sarge would never complain.  He has spent his life hammering metal into weapons of mass destruction or armor of superior quality.  It is rumored that has never been given a task that he could not complete.~
+The Smithy used to be run by the Hero Guild for protection of the city. But when Sarge retired from his service in the guild they let him keep the smithy that he created as a retirement gift.  Of course the fact that they had no one that could replace him and do his quality of work was the real reason. But, Sarge would never complain.  He has spent his life hammering metal into weapons of mass destruction or armor of superior quality.  It is rumored that has never been given a task that he could not comple
+te.~
 1 8 0 0 0 0
 D2
 ~
@@ -1037,6 +1039,10 @@ D1
 ~
 ~
 0 0 168
+D2
+~
+~
+0 0 204
 S
 #168
 NAVY: Cyber1~
@@ -1212,7 +1218,7 @@ S
 NAVY: Kitchen~
 empty room.~
 1 24 0 0 0 0
-D2
+D0
 ~
 ~
 0 0 197
@@ -1430,15 +1436,11 @@ Empty room.~
 D0
 ~
 ~
-0 0 182
-D1
-~
-~
-0 0 198
+0 0 204
 D2
 ~
 ~
-0 0 204
+0 0 182
 S
 #198
 NAVY: Cyber3~
@@ -1452,10 +1454,6 @@ D2
 ~
 ~
 0 0 205
-D3
-~
-~
-0 0 197
 S
 #199
 8 NAVY Way~

@@ -69,11 +69,11 @@ Empty room.~
 D0
 ~
 ~
+0 0 167
+D2
+~
+~
 0 0 197
-D1
-~
-~
-0 0 205
 S
 #205
 NAVY: Cyber4~
@@ -272,7 +272,7 @@ D3
 0 0 215
 S
 #217
-NAVY: Development~
+NAVY: Research~
 Empty room.~
 2 24 0 0 0 0
 D1
@@ -287,7 +287,7 @@ S
 #218
 NAVY: Library~
 Empty room.~
-2 24 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -629,7 +629,7 @@ Empty room.~
 D1
 ~
 ~
-0 0 245
+0 0 -1
 D3
 ~
 ~
@@ -852,22 +852,30 @@ D4
 0 0 119
 S
 #260
-The High Councillor's Chambers~
+AIRFORCE: Development~
 Empty room.~
-2 24 0 0 0 1
+2 24 0 0 0 0
+D1
+~
+~
+0 0 261
 D2
 ~
 ~
 0 0 273
 S
 #261
-A Bathroom~
+AIRFORCE: Operations~
 Empty room.~
-2 24 0 0 0 1
+2 24 0 0 0 0
 D2
 ~
 ~
 0 0 274
+D3
+~
+~
+0 0 260
 S
 #262
 1 AIRFORCE Way~
@@ -1021,9 +1029,9 @@ D3
 0 0 271
 S
 #273
-A Study~
-Bookshelves line the western wall, reaching well above your head.  A small ladder is built into the center to allow people to reach the top.  A few chairs and cushions allow comfortable places to relax and peruse the many novels. Light from lanterns hanging overhead fills the room as if it was broad daylight.~
-2 24 0 0 0 1
+AIRFORCE: Research~
+undefined~
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -1032,15 +1040,11 @@ D1
 ~
 ~
 0 0 274
-D2
-~
-~
-0 0 286
 S
 #274
-The Kitchen~
-The smell of fresh stew makes your stomach grumle uncomfortably.  Several overweight cooks are sampling their favorite dishes as they prepare for the next meal.  They look at you just daring you to try and take some of their food that they spent hours preparing.~
-2 24 0 0 0 1
+AIRFORCE: Library~
+undefined~
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -1203,9 +1207,9 @@ D2
 0 0 299
 S
 #287
-A Long Hallway~
-Citizens may ask advice of the High Council in settling disputes among each other.  The Hall is the only form of justice within the city besides the army. Everyone respects the High Council for their devotion and wisdom towards what is right.~
-2 24 0 0 0 1
+AIRFORCE: Cyber4~
+undefined~
+2 568 0 0 0 0
 D0
 ~
 ~
