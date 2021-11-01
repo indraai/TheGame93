@@ -1813,8 +1813,7 @@ const char *title_male(int chclass, int level)
     case 27: return "O9";
     case 28: return "O10";
     case 29: return "Q1";
-    case 29: return "Q2";
-    case 30: return "Q3";
+    case 30: return "Q2";
     /*
     case LVL_IMMORT: return "Army Intel";
     case LVL_DEVA: return "Army SpecOps";
