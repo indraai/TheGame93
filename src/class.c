@@ -72,28 +72,28 @@ const char *pc_class_types[] = {
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
 "\n## Religious\r"
-"\nmenu[MONK]:1\r"
+"\nmenu[MONK]:a\r"
 "\n## Military\r"
-"\nmenu[ARMY]:2\r"
-"\nmenu[NAVY]:3\r"
-"\nmenu[MARINES]:4\r"
-"\nmenu[AIR FORCE]:5\r"
-"\nmenu[SPACE FORCE]:6\r"
+"\nmenu[ARMY]:b\r"
+"\nmenu[NAVY]:c\r"
+"\nmenu[MARINES]:d\r"
+"\nmenu[AIR FORCE]:e\r"
+"\nmenu[SPACE FORCE]:f\r"
 "\n## Guard\r"
-"\nmenu[AIR GUARD]:7\r"
-"\nmenu[NAT GUARD]:8\r"
-"\nmenu[COAST GUARD]:9\r"
+"\nmenu[AIR GUARD]:g\r"
+"\nmenu[NAT GUARD]:h\r"
+"\nmenu[COAST GUARD]:i\r"
 "\n## Federal\r"
-"\nmenu[CIA]:10\r"
-"\nmenu[FBI]:11\r"
-"\nmenu[NSA]:12\r"
-"\nmenu[DOD]:13\r"
+"\nmenu[CIA]:j\r"
+"\nmenu[FBI]:k\r"
+"\nmenu[NSA]:l\r"
+"\nmenu[DOD]:m\r"
 "\n## Vedic\r"
-"\nmenu[DEVA]:14\r"
-"\nmenu[DEVI]:15\r"
-"\nmenu[ARJIKA]:16\r"
-"\nmenu[SUSOMA]:17\r"
-"\nmenu[SARYAK]:18\r";
+"\nmenu[DEVA]:n\r"
+"\nmenu[DEVI]:o\r"
+"\nmenu[ARJIKA]:p\r"
+"\nmenu[SUSOMA]:q\r"
+"\nmenu[SARYAK]:r\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -102,24 +102,24 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case '1': return CLASS_MONK; // MONK
-  case '2': return CLASS_ARMY; // ARMY
-  case '3': return CLASS_NAVY; // NAVY
-  case '3': return CLASS_MARINES; // MARINES
-  case '4': return CLASS_AIRFORCE; // AIR FORCE
-  case '6': return CLASS_SPACEFORCE; // SPACE FORCE
-  case '7': return CLASS_AIRGUARD; // AIR GUARD
-  case '8': return CLASS_NATGUARD; // NATIONAL GUARD
-  case '9': return CLASS_COASTGUARD; // COAST GUARD
-  case '10': return CLASS_CIA; // CIA
-  case '11': return CLASS_FBI; // FBI
-  case '12': return CLASS_NSA; // NSA
-  case '13': return CLASS_DOD; // DOD
-  case '14': return CLASS_DEVA; // DEVA
-  case '15': return CLASS_DEVI; // DEVI
-  case '16': return CLASS_ARJIKA; // ARJIKA
-  case '17': return CLASS_SUSOMA; // SUSOMA
-  case '18': return CLASS_SARYAK; // SARYAKIAVAN
+  case 'a': return CLASS_MONK; // MONK
+  case 'b': return CLASS_ARMY; // ARMY
+  case 'c': return CLASS_NAVY; // NAVY
+  case 'd': return CLASS_MARINES; // MARINES
+  case 'e': return CLASS_AIRFORCE; // AIR FORCE
+  case 'f': return CLASS_SPACEFORCE; // SPACE FORCE
+  case 'g': return CLASS_AIRGUARD; // AIR GUARD
+  case 'h': return CLASS_NATGUARD; // NATIONAL GUARD
+  case 'i': return CLASS_COASTGUARD; // COAST GUARD
+  case 'j': return CLASS_CIA; // CIA
+  case 'k': return CLASS_FBI; // FBI
+  case 'l': return CLASS_NSA; // NSA
+  case 'm': return CLASS_DOD; // DOD
+  case 'n': return CLASS_DEVA; // DEVA
+  case 'o': return CLASS_DEVI; // DEVI
+  case 'p': return CLASS_ARJIKA; // ARJIKA
+  case 'q': return CLASS_SUSOMA; // SUSOMA
+  case 'r': return CLASS_SARYAK; // SARYAKIAVAN
   default:  return CLASS_UNDEFINED;
   }
 }
