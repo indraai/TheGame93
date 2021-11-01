@@ -1828,10 +1828,12 @@ const char *title_male(int chclass, int level)
 /* Default titles of female characters. */
 const char *title_female(int chclass, int level)
 {
-  if (level <= 0 || level > LVL_IMPL)
+  if (level <= 0 || level > LVL_IMPL) {
     return "F";
-  if (level == LVL_IMPL)
+  }
+  if (level == LVL_IMPL) {
     return "DEV";
+  }
 
     switch (level) {
       case  1: return "E0";
