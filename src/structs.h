@@ -147,24 +147,24 @@
 /* PC classes */
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
-#define CLASS_MONK            0; // MONK
-#define CLASS_ARMY            1; // ARMY
-#define CLASS_NAVY            2; // NAVY
-#define CLASS_MARINES         3; // MARINES
-#define CLASS_AIRFORCE        4; // AIR FORCE
-#define CLASS_SPACEFORCE      5; // SPACE FORCE
-#define CLASS_AIRGUARD        6; // AIR GUARD
-#define CLASS_NATGUARD        7; // NATIONAL GUARD
-#define CLASS_COASTGUARD      8; // COAST GUARD
-#define CLASS_CIA             9; // CIA
-#define CLASS_FBI             10; // FBI
-#define CLASS_NSA             11; // NSA
-#define CLASS_DOD             12; // DOD
-#define CLASS_DEVA            13; // DEVA
-#define CLASS_DEVI            14; // DEVI
-#define CLASS_ARJIKA          15; // ARJIKA
-#define CLASS_SUSOMA          16; // SUSOMA
-#define CLASS_SARYAK          17; // SARYAKIAVAN
+#define CLASS_MONK            0 // MONK
+#define CLASS_ARMY            1 // ARMY
+#define CLASS_NAVY            2 // NAVY
+#define CLASS_MARINES         3 // MARINES
+#define CLASS_AIRFORCE        4 // AIR FORCE
+#define CLASS_SPACEFORCE      5 // SPACE FORCE
+#define CLASS_AIRGUARD        6 // AIR GUARD
+#define CLASS_NATGUARD        7 // NATIONAL GUARD
+#define CLASS_COASTGUARD      8 // COAST GUARD
+#define CLASS_CIA             9 // CIA
+#define CLASS_FBI             10 // FBI
+#define CLASS_NSA             11 // NSA
+#define CLASS_DOD             12 // DOD
+#define CLASS_DEVA            13 // DEVA
+#define CLASS_DEVI            14 // DEVI
+#define CLASS_ARJIKA          15 // ARJIKA
+#define CLASS_SUSOMA          16 // SUSOMA
+#define CLASS_SARYAK          17 // SARYAKIAVAN
 
 /** Total number of available PC Classes */
 #define NUM_CLASSES	  18
