@@ -11,4 +11,16 @@ if %actor.is_pc%
   end
 end
 ~
+#336
+AIRFORCE SECURITY~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#350
+ARMY SECURITY~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 $~

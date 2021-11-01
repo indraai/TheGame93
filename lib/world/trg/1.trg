@@ -93,6 +93,12 @@ set vnum %actor.vnum%
 set name %actor.name%
 echo security:check %vnum%:%name%
 ~
+#152
+NAVY SECURITY~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #161
 Trent Lavery~
 0 b 50
@@ -118,6 +124,12 @@ if %people%
   say %themsg%
   wait %random.360% s
 end
+~
+#166
+MARINES SECURITY~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
 ~
 #176
 Teleporter Recall - O82~
