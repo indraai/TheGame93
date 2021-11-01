@@ -882,12 +882,6 @@ ACMD(do_gold)
 ACMD(do_score)
 {
   struct time_info_data playing_time;
-  const char *mil_branches[] = {
-    "ARM",
-    "NAV",
-    "MAR",
-    "AIR"
-  };
 
   if (IS_NPC(ch))
     return;
@@ -906,7 +900,7 @@ ACMD(do_score)
     "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
-    mil_branches[GET_CLASS(ch)],
+    pc_class_types[GET_CLASS(ch)],
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),

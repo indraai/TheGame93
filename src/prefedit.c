@@ -305,16 +305,11 @@ static void prefedit_disp_prompt_menu(struct descriptor_data *d)
 
 static void prefedit_disp_color_menu(struct descriptor_data *d)
 {
-  send_to_char(d->character, "%sColor level\r\n"
-                             "%s1%s) Off      %s(do not display any color - monochrome)%s\r\n"
-                             "%s2%s) Brief    %s(show minimal color where necessary)%s\r\n"
-                             "%s3%s) Normal   %s(show game-enhancing color)%s\r\n"
-                             "%s4%s) On       %s(show all colors whenever possible)%s\r\n",
-                             CBWHT(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM), CCYEL(d->character, C_NRM), CCNRM(d->character, C_NRM) );
+  send_to_char(d->character, "\n## Color level\r"
+                             "\nmenu[Off]:1\r"
+                             "\nmenu[Brief]:2\r"
+                             "\nmenu[Normal]:3\r"
+                             "\nmenu[On]:4\r");
 
   send_to_char(d->character, "Enter Choice :");
   OLC_MODE(d) = PREFEDIT_COLOR;

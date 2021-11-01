@@ -15,12 +15,14 @@ end
 AIRFORCE SECURITY~
 2 g 100
 ~
+%echo% The Actor Class is %actor.class%
 %echo% This trigger commandlist is not complete!
 ~
 #350
 ARMY SECURITY~
 2 g 100
 ~
+%echo% The Actor Class is %actor.class%
 %echo% This trigger commandlist is not complete!
 ~
 $~
