@@ -254,6 +254,18 @@ talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
+D1
+~
+~
+0 0 296
+D2
+~
+~
+0 0 316
+D3
+~
+~
+0 0 19
 S
 #21
 Evil.com~
@@ -305,14 +317,20 @@ talk:#adventure view:thegame:world 0025/look
 S
 #25
 Christic Institute~
-talk:#adventure view:thegame:world 0025/main
-~
+undefined~
 0 8 0 0 0 0
+D1
+~
+~
+0 0 283
+D2
+~
+~
+0 0 24
 D3
-talk:#adventure view:thegame:world 0098/look
 ~
 ~
-0 0 98
+0 0 282
 S
 #26
 AIRFORCE: Academy~
@@ -401,12 +419,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~

@@ -1155,8 +1155,8 @@ D3
 0 0 281
 S
 #283
-2 S. Arjika Blvd.~
-The streetlamps glow an unnatural white, upon closer examination it becomes obvious that they must be magical in nature since no oil you've ever seen burns that color.  The beautiful cobblestone road meanders north and south.  The Magi Mansion to the east looks glorious.~
+2 S ARMY Way~
+undefined~
 2 16 0 0 0 1
 D0
 ~
@@ -1166,6 +1166,10 @@ D2
 ~
 ~
 0 0 296
+D3
+~
+~
+0 0 25
 S
 #284
 ARMY: Library~
@@ -1350,8 +1354,8 @@ D4
 0 0 122
 S
 #296
-3 S. Arjika Blvd.~
-The stark inner city wall to the west bears a sharp contrast to the luxurious mansion to the east.  The magi have trained hard to become very powerful within the city and have begun living the life that shows it.  Unlike the monks who do not believe in worldly possessions the Magi surround themselves with it.~
+7 S ARMY Way~
+undefined~
 2 16 0 0 0 1
 D0
 ~
@@ -1361,6 +1365,10 @@ D2
 ~
 ~
 0 0 303
+D3
+~
+~
+0 0 20
 S
 #297
 ARMY: Hall~
