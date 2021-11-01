@@ -1782,13 +1782,13 @@ ACMD(do_wizlock)
 
   switch (circle_restrict) {
   case 0:
-    send_to_char(ch, "The game is %s completely open.\r\n", when);
+    send_to_char(ch, "\nalert:The game is %s completely open.\r", when);
     break;
   case 1:
-    send_to_char(ch, "The game is %s closed to new players.\r\n", when);
+    send_to_char(ch, "\alert:The game is %s closed to new players.\r", when);
     break;
   default:
-    send_to_char(ch, "Only level %d and above may enter the game %s.\r\n", circle_restrict, when);
+    send_to_char(ch, "\nalert:Only level %d and above may enter the game %s.\r", circle_restrict, when);
     break;
   }
 }
@@ -1807,14 +1807,14 @@ ACMD(do_date)
   strftime(timestr, sizeof(timestr), "%c", localtime(&mytime));
 
   if (subcmd == SCMD_DATE)
-    send_to_char(ch, "Current machine time: %s\r\n", timestr);
+    send_to_char(ch, "\nMachine time is %s\r", timestr);
   else {
     mytime = time(0) - boot_time;
     d = mytime / 86400;
     h = (mytime / 3600) % 24;
     m = (mytime / 60) % 60;
 
-    send_to_char(ch, "Up since %s: %d day%s, %d:%02d\r\n", timestr, d, d == 1 ? "" : "s", h, m);
+    send_to_char(ch, "\nUp since: %s - %d day%s, %d:%02d\r", timestr, d, d == 1 ? "" : "s", h, m);
   }
 }
 

@@ -26,28 +26,74 @@
 
 /* Names first */
 const char *class_abbrevs[] = {
-  "Sa",
   "Mo",
-  "Th",
-  "Wa",
+  "Ar",
+  "Na",
+  "Ma",
+  "Ai",
+  "Sp",
+  "Ag",
+  "Ng",
+  "Cg",
+  "Ci",
+  "Fb",
+  "Ns",
+  "Do",
+  "Da",
+  "Di",
+  "Aj",
+  "Su",
+  "Sa",
   "\n"
 };
 
 const char *pc_class_types[] = {
-  "SAGE",
-  "MONK",
-  "Thief",
-  "Warrior",
+  "Monk",
+  "Army",
+  "Navy",
+  "Marine",
+  "Air Force",
+  "Space Force",
+  "Air Guard",
+  "Nat Guard",
+  "Coast Guard",
+  "CIA",
+  "FBI",
+  "NSA",
+  "DOD",
+  "Deva",
+  "Devi",
+  "Arjika",
+  "Susoma",
+  "Saryakiavan",
   "\n"
 };
 
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
-"\n## Service Branch:\r"
-"\nmenu[ARMY]:1\r"
-"\nmenu[NAVY]:2\r"
-"\nmenu[MARINES]:3\r"
-"\nmenu[AIR FORCE]:4\r";
+"\n## Religious\r"
+"\nmenu[MONK]:1\r"
+"\n## Military\r"
+"\nmenu[ARMY]:2\r"
+"\nmenu[NAVY]:3\r"
+"\nmenu[MARINES]:4\r"
+"\nmenu[AIR FORCE]:5\r"
+"\nmenu[SPACE FORCE]:6\r"
+"\n## Guard\r"
+"\nmenu[AIR GUARD]:7\r"
+"\nmenu[NAT GUARD]:8\r"
+"\nmenu[COAST GUARD]:9\r"
+"\n## Federal\r"
+"\nmenu[CIA]:10\r"
+"\nmenu[FBI]:11\r"
+"\nmenu[NSA]:12\r"
+"\nmenu[DOD]:13\r"
+"\n## Vedic\r"
+"\nmenu[DEVA]:14\r"
+"\nmenu[DEVI]:15\r"
+"\nmenu[ARJIKA]:16\r"
+"\nmenu[SUSOMA]:17\r"
+"\nmenu[SARYAK]:18\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -56,10 +102,24 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case '1': return CLASS_ARMY; // army
-  case '2': return CLASS_NAVY; // navy
-  case '3': return CLASS_MARINES; // marines
-  case '4': return CLASS_AIRFORCE; // air force
+  case '1': return CLASS_MONK; // MONK
+  case '2': return CLASS_ARMY; // ARMY
+  case '3': return CLASS_NAVY; // NAVY
+  case '3': return CLASS_MARINES; // MARINES
+  case '4': return CLASS_AIRFORCE; // AIR FORCE
+  case '6': return CLASS_SPACEFORCE; // SPACE FORCE
+  case '7': return CLASS_AIRGUARD; // AIR GUARD
+  case '8': return CLASS_NATGUARD; // NATIONAL GUARD
+  case '9': return CLASS_COASTGUARD; // COAST GUARD
+  case '10': return CLASS_CIA; // CIA
+  case '11': return CLASS_FBI; // FBI
+  case '12': return CLASS_NSA; // NSA
+  case '13': return CLASS_DOD; // DOD
+  case '14': return CLASS_DEVA; // DEVA
+  case '15': return CLASS_DEVI; // DEVI
+  case '16': return CLASS_ARJIKA; // ARJIKA
+  case '17': return CLASS_SUSOMA; // SUSOMA
+  case '18': return CLASS_SARYAK; // SARYAKIAVAN
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -123,10 +183,10 @@ int prac_params[4][NUM_CLASSES] = {
 struct guild_info_type guild_info[] = {
 
 /* Amaravati */
- { CLASS_ARMY, 3017, SOUTH },
- { CLASS_NAVY, 3004, NORTH },
- { CLASS_AIRFORCE, 3027, EAST },
- { CLASS_MARINES, 3021, EAST },
+ { CLASS_ARMY, 350, NORTH },
+ { CLASS_NAVY, 152, SOUTH },
+ { CLASS_AIRFORCE, 336, NORTH },
+ { CLASS_MARINES, 166, SOUTH },
 
 /* Brass Dragon */
   { -999 /* all */ ,	5065,	WEST	},
@@ -1368,7 +1428,17 @@ void roll_real_abils(struct char_data *ch)
   }
 
   ch->real_abils.str_add = 0;
+  ch->real_abils.intel = table[0];
+  ch->real_abils.wis = table[1];
+  ch->real_abils.dex = table[2];
+  ch->real_abils.str = table[3];
+  ch->real_abils.con = table[4];
+  ch->real_abils.cha = table[5];
 
+  /* this is old abilities tables
+  we should look into writing it better.
+  i am going to reduece it to one table for all classes until better
+  understood
   switch (GET_CLASS(ch)) {
   case CLASS_ARMY:
     ch->real_abils.intel = table[0];
@@ -1405,6 +1475,7 @@ void roll_real_abils(struct char_data *ch)
       ch->real_abils.str_add = rand_number(0, 100);
     break;
   }
+  */
   ch->aff_abils = ch->real_abils;
 }
 
@@ -1466,8 +1537,13 @@ void advance_level(struct char_data *ch)
 
   add_hp = con_app[GET_CON(ch)].hitp;
 
-  switch (GET_CLASS(ch)) {
+  add_hp += rand_number(3, 9);
+  add_mana = rand_number(GET_LEVEL(ch), (int)(1.5 * GET_LEVEL(ch)));
+  add_mana = MIN(add_mana, 10);
+  add_move = rand_number(0, 2);
 
+  /*
+  switch (GET_CLASS(ch)) {
   case CLASS_ARMY:
     add_hp += rand_number(3, 8);
     add_mana = rand_number(GET_LEVEL(ch), (int)(1.5 * GET_LEVEL(ch)));
@@ -1494,6 +1570,7 @@ void advance_level(struct char_data *ch)
     add_move = rand_number(1, 3);
     break;
   }
+  */
 
   ch->points.max_hit += MAX(1, add_hp);
   ch->points.max_move += MAX(1, add_move);
@@ -1501,10 +1578,7 @@ void advance_level(struct char_data *ch)
   if (GET_LEVEL(ch) > 1)
     ch->points.max_mana += add_mana;
 
-  if (IS_ARMY(ch) || IS_NAVY(ch))
-    GET_PRACTICES(ch) += MAX(2, wis_app[GET_WIS(ch)].bonus);
-  else
-    GET_PRACTICES(ch) += MIN(2, MAX(1, wis_app[GET_WIS(ch)].bonus));
+  GET_PRACTICES(ch) += MAX(2, wis_app[GET_WIS(ch)].bonus);
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
     for (i = 0; i < 3; i++)
@@ -1656,159 +1730,40 @@ int level_exp(int chclass, int level)
    }
 
   /* Exp required for normal mortals is below */
-  switch (chclass) {
-
-    case CLASS_ARMY:
-    switch (level) {
-      case  0: return 0;
-      case  1: return 1;
-      case  2: return 2500;
-      case  3: return 5000;
-      case  4: return 10000;
-      case  5: return 20000;
-      case  6: return 40000;
-      case  7: return 60000;
-      case  8: return 90000;
-      case  9: return 135000;
-      case 10: return 250000;
-      case 11: return 375000;
-      case 12: return 750000;
-      case 13: return 1125000;
-      case 14: return 1500000;
-      case 15: return 1875000;
-      case 16: return 2250000;
-      case 17: return 2625000;
-      case 18: return 3000000;
-      case 19: return 3375000;
-      case 20: return 3750000;
-      case 21: return 4000000;
-      case 22: return 4300000;
-      case 23: return 4600000;
-      case 24: return 4900000;
-      case 25: return 5200000;
-      case 26: return 5500000;
-      case 27: return 5950000;
-      case 28: return 6400000;
-      case 29: return 6850000;
-      case 30: return 7400000;
-      /* add new levels here */
-      case LVL_IMMORT: return 8000000;
-    }
-    break;
-
-    case CLASS_NAVY:
-    switch (level) {
-      case  0: return 0;
-      case  1: return 1;
-      case  2: return 1500;
-      case  3: return 3000;
-      case  4: return 6000;
-      case  5: return 13000;
-      case  6: return 27500;
-      case  7: return 55000;
-      case  8: return 110000;
-      case  9: return 225000;
-      case 10: return 450000;
-      case 11: return 675000;
-      case 12: return 900000;
-      case 13: return 1125000;
-      case 14: return 1350000;
-      case 15: return 1575000;
-      case 16: return 1800000;
-      case 17: return 2100000;
-      case 18: return 2400000;
-      case 19: return 2700000;
-      case 20: return 3000000;
-      case 21: return 3250000;
-      case 22: return 3500000;
-      case 23: return 3800000;
-      case 24: return 4100000;
-      case 25: return 4400000;
-      case 26: return 4800000;
-      case 27: return 5200000;
-      case 28: return 5600000;
-      case 29: return 6000000;
-      case 30: return 6400000;
-      /* add new levels here */
-      case LVL_IMMORT: return 7000000;
-    }
-    break;
-
-    case CLASS_AIRFORCE:
-    switch (level) {
-      case  0: return 0;
-      case  1: return 1;
-      case  2: return 1250;
-      case  3: return 2500;
-      case  4: return 5000;
-      case  5: return 10000;
-      case  6: return 20000;
-      case  7: return 40000;
-      case  8: return 70000;
-      case  9: return 110000;
-      case 10: return 160000;
-      case 11: return 220000;
-      case 12: return 440000;
-      case 13: return 660000;
-      case 14: return 880000;
-      case 15: return 1100000;
-      case 16: return 1500000;
-      case 17: return 2000000;
-      case 18: return 2500000;
-      case 19: return 3000000;
-      case 20: return 3500000;
-      case 21: return 3650000;
-      case 22: return 3800000;
-      case 23: return 4100000;
-      case 24: return 4400000;
-      case 25: return 4700000;
-      case 26: return 5100000;
-      case 27: return 5500000;
-      case 28: return 5900000;
-      case 29: return 6300000;
-      case 30: return 6650000;
-      /* add new levels here */
-      case LVL_IMMORT: return 7000000;
-    }
-    break;
-
-    case CLASS_MARINES:
-    switch (level) {
-      case  0: return 0;
-      case  1: return 1;
-      case  2: return 2000;
-      case  3: return 4000;
-      case  4: return 8000;
-      case  5: return 16000;
-      case  6: return 32000;
-      case  7: return 64000;
-      case  8: return 125000;
-      case  9: return 250000;
-      case 10: return 500000;
-      case 11: return 750000;
-      case 12: return 1000000;
-      case 13: return 1250000;
-      case 14: return 1500000;
-      case 15: return 1850000;
-      case 16: return 2200000;
-      case 17: return 2550000;
-      case 18: return 2900000;
-      case 19: return 3250000;
-      case 20: return 3600000;
-      case 21: return 3900000;
-      case 22: return 4200000;
-      case 23: return 4500000;
-      case 24: return 4800000;
-      case 25: return 5150000;
-      case 26: return 5500000;
-      case 27: return 5950000;
-      case 28: return 6400000;
-      case 29: return 6850000;
-      case 30: return 7400000;
-      /* add new levels here */
-      case LVL_IMMORT: return 8000000;
-    }
-    break;
+  switch (level) {
+    case  0: return 0;
+    case  1: return 1;
+    case  2: return 2500;
+    case  3: return 5000;
+    case  4: return 10000;
+    case  5: return 20000;
+    case  6: return 40000;
+    case  7: return 60000;
+    case  8: return 90000;
+    case  9: return 135000;
+    case 10: return 250000;
+    case 11: return 375000;
+    case 12: return 750000;
+    case 13: return 1125000;
+    case 14: return 1500000;
+    case 15: return 1875000;
+    case 16: return 2250000;
+    case 17: return 2625000;
+    case 18: return 3000000;
+    case 19: return 3375000;
+    case 20: return 3750000;
+    case 21: return 4000000;
+    case 22: return 4300000;
+    case 23: return 4600000;
+    case 24: return 4900000;
+    case 25: return 5200000;
+    case 26: return 5500000;
+    case 27: return 5950000;
+    case 28: return 6400000;
+    case 29: return 6850000;
+    case 30: return 7400000;
+    /* add new levels here */
+    case LVL_IMMORT: return 8000000;
   }
 
   /* This statement should never be reached if the exp tables in this function
@@ -1821,327 +1776,104 @@ int level_exp(int chclass, int level)
 /* Default titles of male characters. */
 const char *title_male(int chclass, int level)
 {
-  if (level <= 0 || level > LVL_IMPL)
-    return "Man";
-  if (level == LVL_IMPL)
-    return "Architect";
-
-  switch (chclass) {
-
-    case CLASS_ARMY:
-    switch (level) {
-      case  1: return "PV/E-1";
-      case  2: return "PV2/E-2";
-      case  3: return "PFC/E-3";
-      case  4: return "SPC/E-4";
-      case  5: return "CPL/E-4";
-      case  6: return "SGT/E-5";
-      case  7: return "SSGT/E-6";
-      case  8: return "SGTFC/E-7";
-      case  9: return "MSGT/E-8";
-      case 10: return "FSGT/E-8";
-      case 11: return "SGTMJ/E-9";
-      case 12: return "CSGTMJ/E-9";
-      case 13: return "SMA/E-9S";
-      case 14: return "WO1/W-1";
-      case 15: return "CWO2/W-2";
-      case 16: return "CWO3/W-3";
-      case 17: return "CWO4/W-4";
-      case 18: return "CWO5/W-5";
-      case 19: return "2NDLT/O-1";
-      case 20: return "1STLT/O-2";
-      case 21: return "CAPT/O-3";
-      case 22: return "MAJ/O-4";
-      case 23: return "LTCOL/O-5";
-      case 24: return "COL/O-6";
-      case 25: return "BGEN/O-7";
-      case 26: return "MAJGEN/O-8";
-      case 27: return "LTGEN/O-9";
-      case 28: return "GEN/O-10";
-      /*
-      case LVL_IMMORT: return "Army Intel";
-      case LVL_DEVA: return "Army SpecOps";
-      case LVL_GRDEVA: return "Army BlackOps";
-      */
-      default: return "Soldier";
-    }
-
-    case CLASS_MARINES:
-    switch (level) {
-      case  1: return "PVT/E-1";
-      case  2: return "PFC/E-2";
-      case  3: return "LCPL/E-3";
-      case  4: return "CPL/E-4";
-      case  5: return "SGT/E-5";
-      case  6: return "SSGT/E-6";
-      case  7: return "GYSGT/E-7";
-      case  8: return "MSGT/E-8";
-      case  9: return "1SGT/E-8";
-      case 10: return "MGYSGT/E-9";
-      case 11: return "SGTMAJ/E-9";
-      case 12: return "WO1/W-1";
-      case 13: return "CWO2/W-2";
-      case 14: return "CWO3/W-3";
-      case 15: return "CWO4/W-4";
-      case 16: return "CWO5/W-5";
-      case 17: return "2NDLT/0-1";
-      case 18: return "1STLT/0-2";
-      case 19: return "CAPT/O-3";
-      case 20: return "MAJ/O-4";
-      case 21: return "LTCOL/O-5";
-      case 22: return "COL/O-6";
-      case 23: return "BGEN/O-7";
-      case 24: return "MAJGEN/O-8";
-      case 25: return "LTGEN/O-9";
-      case 26: return "GEN/O-10";
-
-      /* no one ever thought up these titles 21-30 */
-      /*
-      case LVL_IMMORT: return "the Immortal Cardinal";
-      case LVL_DEVA: return "the Inquisitor";
-      case LVL_GRDEVA: return "the God of Good and Evil";
-      */
-      default: return "Soldier";
-    }
-
-    case CLASS_NAVY:
-    switch (level) {
-      case  1: return "SR/E-1";
-      case  2: return "SA/E-2";
-      case  3: return "SN/E-3";
-      case  4: return "PO3/E-4";
-      case  5: return "PO2/E=5";
-      case  6: return "PO1/E=6";
-      case  7: return "CPO/E=7";
-      case  8: return "SCPO/E=8";
-      case  9: return "MCPO/E=9";
-      case 10: return "CMC/E=9";
-      case 11: return "MCPON/E=9";
-      case 12: return "WO";
-      case 13: return "CWO-2";
-      case 14: return "CWO-3";
-      case 15: return "CWO-4";
-      case 16: return "CWO-5";
-      case 17: return "ENS/O-1";
-      case 18: return "LTJG/O=2";
-      case 19: return "LT/O-3";
-      case 20: return "LCDR/O-4";
-      case 21: return "CDR/O=5";
-      case 22: return "CAPT/O=6";
-      case 23: return "RDML/O=7";
-      case 24: return "RADM/O=8";
-      case 25: return "VADM/O=9";
-      case 26: return "VADM/O=10";
-      case 27: return "FADM";
-      /* no one ever thought up these titles 21-30 */
-      /*
-      case LVL_IMMORT: return "the Immortal Assassin";
-      case LVL_DEVA: return "the Demi God of Thieves";
-      case LVL_GRDEVA: return "the God of Thieves and Tradesmen";
-      */
-      default: return "Soldier";
-    }
-
-    case CLASS_AIRFORCE:
-    switch(level) {
-      case  1: return "AMN/E-1";
-      case  2: return "AMN/E-2";
-      case  3: return "A1C/E-3";
-      case  4: return "SRA/E-4";
-      case  5: return "SSGT/E-5";
-      case  6: return "TSGT/E-6";
-      case  7: return "MSGT/E-7";
-      case  8: return "FSGT/E-7";
-      case  9: return "SMSGT/E-8";
-      case 10: return "CMSGT/E-9";
-      case 11: return "CCMSGT/E-9";
-      case 12: return "CMSAF/E-9";
-      case 13: return "SEAC/E-9";
-      case 14: return "2NDLT/O-1";
-      case 15: return "1STLT/O-2";
-      case 16: return "CAPT/O-3";
-      case 17: return "MAJ/O-4";
-      case 18: return "LTCOL/O-5";
-      case 19: return "COL/O-6";
-      case 20: return "BRIGGEN/O-7";
-      case 21: return "MAJGEN/O-8";
-      case 22: return "LTGE/O-9";
-      case 23: return "GEN/O-10";
-      case 24: return "GAF/O-10";
-      /* no one ever thought up these titles 21-30 */
-      /*
-      case LVL_IMMORT: return "the Immortal Warlord";
-      case LVL_DEVA: return "the Extirpator";
-      case LVL_GRDEVA: return "the God of War";
-      */
-      default: return "Soldier";
-    }
+  if (level <= 0 || level > LVL_IMPL) {
+    return "M";
+  }
+  if (level == LVL_IMPL) {
+    return "DEV";
   }
 
+  switch (level) {
+    case  1: return "E0";
+    case  2: return "E1";
+    case  3: return "E2";
+    case  4: return "E3";
+    case  5: return "E4";
+    case  6: return "E5";
+    case  7: return "E6";
+    case  8: return "E7";
+    case  9: return "E8";
+    case 10: return "E9";
+    case 11: return "E10";
+    case 12: return "E11";
+    case 13: return "E12";
+    case 14: return "W1";
+    case 15: return "W2";
+    case 16: return "W3";
+    case 17: return "W4";
+    case 18: return "W5";
+    case 19: return "O1";
+    case 20: return "O2";
+    case 21: return "O3";
+    case 22: return "O4";
+    case 23: return "O5";
+    case 24: return "O6";
+    case 25: return "O7";
+    case 26: return "O8";
+    case 27: return "O9";
+    case 28: return "O10";
+    case 29: return "Q1";
+    case 29: return "Q2";
+    case 30: return "Q3";
+    /*
+    case LVL_IMMORT: return "Army Intel";
+    case LVL_DEVA: return "Army SpecOps";
+    case LVL_GRDEVA: return "Army BlackOps";
+    */
+    default: return "CIV";
+  }
   /* Default title for classes which do not have titles defined */
-  return "Civilian";
+  return "CIV";
 }
 
 /* Default titles of female characters. */
 const char *title_female(int chclass, int level)
 {
   if (level <= 0 || level > LVL_IMPL)
-    return "Woman";
+    return "F";
   if (level == LVL_IMPL)
-    return "Architect";
+    return "DEV";
 
-  switch (chclass) {
-
-    case CLASS_ARMY:
     switch (level) {
-      case  1: return "PV/E-1";
-      case  2: return "PV2/E-2";
-      case  3: return "PFC/E-3";
-      case  4: return "SPC/E-4";
-      case  5: return "CPL/E-4";
-      case  6: return "SGT/E-5";
-      case  7: return "SSGT/E-6";
-      case  8: return "SGTFC/E-7";
-      case  9: return "MSGT/E-8";
-      case 10: return "FSGT/E-8";
-      case 11: return "SGTMJ/E-9";
-      case 12: return "CSGTMJ/E-9";
-      case 13: return "SMA/E-9S";
-      case 14: return "WO1/W-1";
-      case 15: return "CWO2/W-2";
-      case 16: return "CWO3/W-3";
-      case 17: return "CWO4/W-4";
-      case 18: return "CWO5/W-5";
-      case 19: return "2NDLT/O-1";
-      case 20: return "1STLT/O-2";
-      case 21: return "CAPT/O-3";
-      case 22: return "MAJ/O-4";
-      case 23: return "LTCOL/O-5";
-      case 24: return "COL/O-6";
-      case 25: return "BGEN/O-7";
-      case 26: return "MAJGEN/O-8";
-      case 27: return "LTGEN/O-9";
-      case 28: return "GEN/O-10";
+      case  1: return "E0";
+      case  2: return "E1";
+      case  3: return "E2";
+      case  4: return "E3";
+      case  5: return "E4";
+      case  6: return "E5";
+      case  7: return "E6";
+      case  8: return "E7";
+      case  9: return "E8";
+      case 10: return "E9";
+      case 11: return "E10";
+      case 12: return "E11";
+      case 13: return "E12";
+      case 14: return "W1";
+      case 15: return "W2";
+      case 16: return "W3";
+      case 17: return "W4";
+      case 18: return "W5";
+      case 19: return "O1";
+      case 20: return "O2";
+      case 21: return "O3";
+      case 22: return "O4";
+      case 23: return "O5";
+      case 24: return "O6";
+      case 25: return "O7";
+      case 26: return "O8";
+      case 27: return "O9";
+      case 28: return "O10";
+      case 29: return "Q1";
+      case 29: return "Q2";
+      case 30: return "Q3";
       /*
       case LVL_IMMORT: return "Army Intel";
       case LVL_DEVA: return "Army SpecOps";
       case LVL_GRDEVA: return "Army BlackOps";
       */
-      default: return "Soldier";
+      default: return "CIV";
     }
-
-    case CLASS_MARINES:
-    switch (level) {
-      case  1: return "PVT/E-1";
-      case  2: return "PFC/E-2";
-      case  3: return "LCPL/E-3";
-      case  4: return "CPL/E-4";
-      case  5: return "SGT/E-5";
-      case  6: return "SSGT/E-6";
-      case  7: return "GYSGT/E-7";
-      case  8: return "MSGT/E-8";
-      case  9: return "1SGT/E-8";
-      case 10: return "MGYSGT/E-9";
-      case 11: return "SGTMAJ/E-9";
-      case 12: return "WO1/W-1";
-      case 13: return "CWO2/W-2";
-      case 14: return "CWO3/W-3";
-      case 15: return "CWO4/W-4";
-      case 16: return "CWO5/W-5";
-      case 17: return "2NDLT/0-1";
-      case 18: return "1STLT/0-2";
-      case 19: return "CAPT/O-3";
-      case 20: return "MAJ/O-4";
-      case 21: return "LTCOL/O-5";
-      case 22: return "COL/O-6";
-      case 23: return "BGEN/O-7";
-      case 24: return "MAJGEN/O-8";
-      case 25: return "LTGEN/O-9";
-      case 26: return "GEN/O-10";
-
-      /* no one ever thought up these titles 21-30 */
-      /*
-      case LVL_IMMORT: return "the Immortal Cardinal";
-      case LVL_DEVA: return "the Inquisitor";
-      case LVL_GRDEVA: return "the God of Good and Evil";
-      */
-      default: return "Soldier";
-    }
-
-    case CLASS_NAVY:
-    switch (level) {
-      case  1: return "SR/E-1";
-      case  2: return "SA/E-2";
-      case  3: return "SN/E-3";
-      case  4: return "PO3/E-4";
-      case  5: return "PO2/E=5";
-      case  6: return "PO1/E=6";
-      case  7: return "CPO/E=7";
-      case  8: return "SCPO/E=8";
-      case  9: return "MCPO/E=9";
-      case 10: return "CMC/E=9";
-      case 11: return "MCPON/E=9";
-      case 12: return "WO";
-      case 13: return "CWO-2";
-      case 14: return "CWO-3";
-      case 15: return "CWO-4";
-      case 16: return "CWO-5";
-      case 17: return "ENS/0-1";
-      case 18: return "LTJG/0=2";
-      case 19: return "LT/O-3";
-      case 20: return "LCDR/O-4";
-      case 21: return "CDR/O=5";
-      case 22: return "CAPT/O=6";
-      case 23: return "RDML/O=7";
-      case 24: return "RADM/O=8";
-      case 25: return "VADM/O=9";
-      case 26: return "VADM/O=10";
-      case 27: return "FADM";
-      /* no one ever thought up these titles 21-30 */
-      /*
-      case LVL_IMMORT: return "the Immortal Assassin";
-      case LVL_DEVA: return "the Demi God of Thieves";
-      case LVL_GRDEVA: return "the God of Thieves and Tradesmen";
-      */
-      default: return "Soldier";
-    }
-
-    case CLASS_AIRFORCE:
-    switch(level) {
-      case  1: return "AMN/E-1";
-      case  2: return "AMN/E-2";
-      case  3: return "A1C/E-3";
-      case  4: return "SRA/E-4";
-      case  5: return "SSGT/E-5";
-      case  6: return "TSGT/E-6";
-      case  7: return "MSGT/E-7";
-      case  8: return "FSGT/E-7";
-      case  9: return "SMSGT/E-8";
-      case 10: return "CMSGT/E-9";
-      case 11: return "CCMSGT/E-9";
-      case 12: return "CMSAF/E-9";
-      case 13: return "SEAC/E-9";
-      case 14: return "2NDLT/O-1";
-      case 15: return "1STLT/O-2";
-      case 16: return "CAPT/O-3";
-      case 17: return "MAJ/O-4";
-      case 18: return "LTCOL/O-5";
-      case 19: return "COL/O-6";
-      case 20: return "BRIGGEN/O-7";
-      case 21: return "MAJGEN/O-8";
-      case 22: return "LTGE/O-9";
-      case 23: return "GEN/O-10";
-      case 24: return "GAF/O-10";
-      /* no one ever thought up these titles 21-30 */
-      /*
-      case LVL_IMMORT: return "the Immortal Warlord";
-      case LVL_DEVA: return "the Extirpator";
-      case LVL_GRDEVA: return "the God of War";
-      */
-      default: return "Soldier";
-    }
-  }
 
   /* Default title for classes which do not have titles defined */
-  return "Civilian";
+  return "CIV";
 }
