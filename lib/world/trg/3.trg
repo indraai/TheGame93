@@ -15,7 +15,8 @@ end
 AIRFORCE SECURITY~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+%echo% Your class is %actor.class%
+%echo% Your direction is %direction%
 ~
 #350
 ARMY SECURITY~
