@@ -107,14 +107,21 @@ talk:#adventure view:thegame:world 0008/look
 S
 #8
 Project Mayhem 2020~
-talk:#adventure view:thegame:world 0008/main
-~
+undefined~
 0 8 0 0 0 0
+D0
+~
+~
+0 0 192
 D1
 talk:#adventure view:thegame:world 0009/look
 ~
 ~
 0 0 9
+D3
+~
+~
+0 0 7
 S
 #9
 IT~
@@ -129,14 +136,20 @@ talk:#adventure view:thegame:world 0010/look
 S
 #10
 eTHErSEC Project 2020~
-talk:#adventure view:thegame:world 0010/main
-~
+undefined~
 0 8 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0011/look
+D0
+~
+~
+0 0 9
+D2
 ~
 ~
 0 0 11
+D3
+~
+~
+0 0 213
 S
 #11
 EtherSec...again~
@@ -162,14 +175,20 @@ talk:#adventure view:thegame:world 0013/look
 S
 #13
 Project 89~
-talk:#adventure view:thegame:world 0013/main
-~
+undefined~
 0 8 0 0 0 0
-D2
-talk:#adventure view:thegame:world 0014/look
+D0
 ~
 ~
-0 0 14
+0 0 12
+D1
+~
+~
+0 0 227
+D3
+~
+~
+0 0 212
 S
 #14
 ARMY: Academy~
@@ -221,14 +240,20 @@ talk:#adventure view:thegame:world 0018/look
 S
 #18
 Kibo Xibo~
-talk:#adventure view:thegame:world 0018/main
-~
+undefined~
 0 8 0 0 0 0
 D0
-talk:#adventure view:thegame:world 0019/look
+~
+~
+0 0 295
+D1
 ~
 ~
 0 0 19
+D3
+~
+~
+0 0 17
 D5
 ~
 ~
@@ -280,14 +305,20 @@ talk:#adventure view:thegame:world 0022/look
 S
 #22
 DefCon~
-talk:#adventure view:thegame:world 0022/main
-~
+undefined~
 0 8 0 0 0 0
-D3
-talk:#adventure view:thegame:world 0023/look
+D0
 ~
 ~
 0 0 23
+D2
+~
+~
+0 0 21
+D3
+~
+~
+0 0 295
 S
 #23
 Hackers of Planet Earth~
@@ -419,12 +450,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~

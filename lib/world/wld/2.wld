@@ -16,8 +16,8 @@ D2
 0 0 210
 S
 #201
-4 N. Arjika Blvd.~
-This avenue passes between the inner city wall and the warehouse.  The warehouse is made from sturdy timber with a set of wide double doors that appear to open outwards.  Wagon tracks lead right up to the warehouse.  This must be where traders come to unload their supplies.~
+8 MARINES Way~
+undefined~
 2 16 0 0 0 1
 D0
 ~
@@ -184,7 +184,7 @@ Empty room.~
 D1
 ~
 ~
-0 0 212
+0 0 213
 D2
 ~
 ~
@@ -195,26 +195,17 @@ D3
 0 0 210
 S
 #212
-The Northern Temple Circle~
+2 EN Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
-D1
+D0
 ~
 ~
 0 0 213
-D2
+D1
 ~
 ~
-0 0 225
-D3
-~
-~
-0 0 211
-S
-#213
-The Northern Temple Circle~
-Empty room.~
-2 16 0 0 0 1
+0 0 13
 D2
 ~
 ~
@@ -222,14 +213,35 @@ D2
 D3
 ~
 ~
+0 0 225
+S
+#213
+NW Temple Sq.~
+Empty room.~
+2 16 0 0 0 1
+D0
+~
+~
+0 0 6
+D1
+~
+~
+0 0 10
+D2
+~
+~
 0 0 212
+D3
+~
+~
+0 0 211
 D4
 ~
 ~
 0 0 112
 S
 #214
-3 N. Arjika Blvd.~
+7 MARINES Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -375,7 +387,7 @@ S
 The Water Hole~
 Empty room.~
 2 24 0 0 0 1
-D0
+D1
 ~
 ~
 0 0 212
@@ -394,8 +406,8 @@ D4
 0 0 326
 S
 #227
-2 N. Arjika Blvd.~
-Few people roam this section of the city, the avenue gets its name for obvious reasons and most people are too wary of their gold to chance an encounter with a pickpocket.  A large warehouse to the east and the inner city wall to the west guides the avenue to the north or south.~
+2 MARINES Way~
+undefined~
 2 16 0 0 0 1
 D0
 ~
@@ -405,6 +417,10 @@ D2
 ~
 ~
 0 0 240
+D3
+~
+~
+0 0 13
 S
 #228
 MARINES: Library~
@@ -558,13 +574,13 @@ D1
 0 0 239
 S
 #239
-The Eastern Temple Circle~
+1 EN Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
-0 0 213
+0 0 212
 D2
 ~
 ~
@@ -575,7 +591,7 @@ D3
 0 0 238
 S
 #240
-1 N. Arjika Blvd.~
+1 MARINES Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -818,7 +834,7 @@ D5
 0 0 353
 S
 #256
-2 E Temple Rd.~
+9 E Temple Rd.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -990,7 +1006,7 @@ D3
 0 0 268
 S
 #270
-1 S. Arjika Blvd.~
+1 S ARMY Way~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1098,9 +1114,9 @@ D3
 0 0 276
 S
 #278
-The Butcher~
+Sweet Treats~
 Empty room.~
-2 24 0 0 0 1
+2 24 0 0 0 0
 D2
 ~
 ~
@@ -1138,13 +1154,17 @@ D1
 0 0 282
 S
 #282
-The Eastern Temple Circle~
+2 ES Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 269
+D1
+~
+~
+0 0 25
 D2
 ~
 ~
@@ -1307,7 +1327,7 @@ D3
 0 0 291
 S
 #293
-The Southern Temple Circle~
+1 SW Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1337,13 +1357,21 @@ D5
 0 0 352
 S
 #295
-The Southern Temple Circle~
+SE Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 282
+D1
+~
+~
+0 0 22
+D2
+~
+~
+0 0 18
 D3
 ~
 ~
@@ -1371,17 +1399,13 @@ D3
 0 0 20
 S
 #297
-ARMY: Hall~
+ARMY CYBER4~
 Empty room.~
 2 24 0 0 0 0
 D0
 ~
 ~
 0 0 284
-D1
-~
-~
-0 0 298
 D2
 ~
 ~
@@ -1391,14 +1415,14 @@ S
 ARMY: Barracks~
 Empty room.~
 2 24 0 0 0 0
-D2
+D0
 ~
 ~
 0 0 305
-D3
+D2
 ~
 ~
-0 0 297
+0 0 335
 S
 #299
 AIRFORCE: Dining~

@@ -51,17 +51,13 @@ D2
 0 0 318
 S
 #304
-ARMY: Hall~
+ARMY CYBER3~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D0
 ~
 ~
 0 0 297
-D1
-~
-~
-0 0 305
 D2
 ~
 ~
@@ -74,15 +70,11 @@ Empty room.~
 D0
 ~
 ~
-0 0 298
+0 0 320
 D2
 ~
 ~
-0 0 320
-D3
-~
-~
-0 0 304
+0 0 298
 S
 #306
 AIRFORCE: Barracks~
@@ -278,17 +270,13 @@ D3
 0 0 317
 S
 #319
-ARMY: Hall~
+ARMY CYBER2~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D0
 ~
 ~
 0 0 304
-D1
-~
-~
-0 0 320
 D2
 ~
 ~
@@ -297,15 +285,11 @@ S
 #320
 ARMY: Kitchen~
 Empty room.~
-3 8 0 0 0 0
-D0
+3 24 0 0 0 0
+D2
 ~
 ~
 0 0 305
-D3
-~
-~
-0 0 319
 S
 #321
 AIRFORCE: Training~
@@ -513,9 +497,9 @@ D2
 0 0 348
 S
 #334
-ARMY: Hall~
+ARMY CYBER1~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D0
 ~
 ~
@@ -524,15 +508,15 @@ D1
 ~
 ~
 0 0 335
-D2
-~
-~
-0 0 349
 S
 #335
 ARMY: Training~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
+D0
+~
+~
+0 0 298
 D2
 ~
 ~
@@ -784,7 +768,7 @@ S
 #350
 ARMY: Recruiting~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D0
 ~
 ~
