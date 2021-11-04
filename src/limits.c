@@ -518,7 +518,7 @@ int increase_bank(struct char_data *ch, int amt)
     if (GET_BANK_GOLD(ch) < curr_bank) GET_BANK_GOLD(ch) = MAX_BANK;
   }
   if (GET_BANK_GOLD(ch) == MAX_BANK)
-    send_to_char(ch, "\nalert:BANK BALANCE MAXED!\r", QBRED, QNRM);
+    send_to_char(ch, "\nalert:BANK BALANCE MAXED!\r");
   return (GET_BANK_GOLD(ch));
 }
 
