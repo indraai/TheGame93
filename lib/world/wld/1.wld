@@ -59,7 +59,7 @@ D5
 0 0 129
 S
 #104
-Inner Arjika~
+House Ayu~
 Empty room.~
 1 24 0 0 0 0
 D5
@@ -68,9 +68,9 @@ D5
 0 0 132
 S
 #105
-Vivasvan's Place~
+House Vivasvan~
 Empty room.~
-1 568 0 0 0 1
+1 24 0 0 0 0
 D5
 ~
 ~
@@ -380,14 +380,14 @@ S
 House Vamraka~
 Empty room.~
 1 24 0 0 0 0
-D0
+D1
+~
+~
+0 0 132
+D3
 ~
 ~
 0 0 31
-D2
-~
-~
-0 0 133
 S
 #127
 Stanford~
@@ -469,23 +469,23 @@ S
 House Bom~
 undefined~
 1 24 0 0 0 0
-D1
-~
-~
-0 0 132
-D3
+D0
 ~
 ~
 0 0 35
+D2
+~
+~
+0 0 133
 S
 #132
-Arjika Tower~
+Arjika Tower W~
 undefined~
 1 24 0 0 0 0
 D0
 ~
 ~
-0 0 125
+0 0 138
 D1
 ~
 ~
@@ -497,7 +497,7 @@ D2
 D3
 ~
 ~
-0 0 131
+0 0 126
 D4
 ~
 ~
@@ -508,13 +508,13 @@ D5
 0 0 345
 S
 #133
-Arjika Tower~
+Arjika Tower E~
 undefined~
 1 24 0 0 0 0
 D0
 ~
 ~
-0 0 126
+0 0 131
 D1
 ~
 ~
@@ -522,7 +522,7 @@ D1
 D2
 ~
 ~
-0 0 138
+0 0 125
 D3
 ~
 ~
@@ -583,11 +583,11 @@ undefined~
 D0
 ~
 ~
-0 0 133
+0 0 32
 D2
 ~
 ~
-0 0 32
+0 0 132
 S
 #139
 Lookout (S)~
