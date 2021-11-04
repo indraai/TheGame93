@@ -393,10 +393,14 @@ D0
 0 0 138
 S
 #33
-House Indra~
+Indra Shrine~
 talk:#adventure view:thegame:world 0033/main
 ~
 0 24 0 0 0 0
+D3
+~
+~
+0 0 134
 S
 #34
 House Soma~
@@ -477,12 +481,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
