@@ -181,12 +181,13 @@
 #define GENDER_NEUTRAL   0   /**< Neutral GENDER (Hermaphrodite) */
 #define GENDER_MALE      1   /**< Male GENDER (XY Chromosome) */
 #define GENDER_FEMALE    2   /**< Female GENDER (XX Chromosome) */
-#define GENDER_TRANS     3   /**< TRANS GENDER */
-#define GENDER_INTER     4   /**< INTER SPECIES GENDER */
-#define GENDER_OTHER     5   /**< INTER SPECIES GENDER */
-#define GENDER_DEVA     6   /**< OTHER GENDER */
+#define GENDER_TMALE     3   /**< TRANS GENDER */
+#define GENDER_TFEMALE   4   /**< TRANS GENDER */
+#define GENDER_INTER     5   /**< INTER SPECIES GENDER */
+#define GENDER_DEVA      6   /**< DEVA GENDER */
+#define GENDER_OTHER     7   /**< OTHER SPECIES GENDER */
 /** Total number of Genders */
-#define NUM_GENDERS   7
+#define NUM_GENDERS  8
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */

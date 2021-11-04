@@ -1574,7 +1574,9 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_CHPWD_VRFY:
     if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character),
 		MAX_PWD_LENGTH)) {
-      write_to_output(d, "\nPasswords don't match... start over.\r\nPassword:\r");
+      write_to_output(d, "\nPasswords don't match... Try Again.\r"
+        "\nPassword:\r");
+
       if (STATE(d) == CON_CNFPASSWD)
 	STATE(d) = CON_NEWPASSWD;
       else
@@ -1584,32 +1586,53 @@ void nanny(struct descriptor_data *d, char *arg)
     echo_on(d);
 
     if (STATE(d) == CON_CNFPASSWD) {
-      write_to_output(d, "\nWhat is your gender? (\t(M - Male\t)/\t(N - Neutral\t))?\r");
+      write_to_output(d, "\nPlease select your gender...\r"
+        "\nmenu[Neutral]:0\r"
+        "\nmenu[Male]:1\r"
+        "\nmenu[Female]:2\r"
+        "\nmenu[Trans Male]:3\r"
+        "\nmenu[Trans Female]:4\r"
+        "\nmenu[Iner Species]:5\r"
+        "\nmenu[Deva]:6\r"
+        "\nmenu[Other]:7\r");
       STATE(d) = CON_QGENDER;
     } else {
       save_char(d->character);
-      write_to_output(d, "\nDone.\r\n%s\r", CONFIG_MENU);
+      write_to_output(d, "\nDone.\r"
+        "\n%s\r", CONFIG_MENU);
+
       STATE(d) = CON_MENU;
     }
     break;
 
   case CON_QGENDER:		/* query gender of new user         */
     switch (*arg) {
-    case 'm':
-    case 'M':
-      d->character->player.gender = GENDER_MALE;
-      break;
-    case 'n':
-    case 'N':
+    case '0':
       d->character->player.gender = GENDER_NEUTRAL;
       break;
-    case 'f':
-    case 'F':
+    case '1':
+      d->character->player.gender = GENDER_MALE;
+      break;
+    case '2':
       d->character->player.gender = GENDER_FEMALE;
       break;
+    case '3':
+      d->character->player.gender = GENDER_TMALE;
+      break;
+    case '4':
+      d->character->player.gender = GENDER_TFEMALE;
+      break;
+    case '5':
+      d->character->player.gender = GENDER_INTER;
+      break;
+    case '6':
+      d->character->player.gender = GENDER_DEVA;
+      break;
+    case '7':
+      d->character->player.gender = GENDER_OTHER;
+      break;
     default:
-      write_to_output(d, "\nThat is not a gender..\r"
-		    "\nWhat IS your gender?\r");
+      write_to_output(d, "\nThat is not a gender... Try Again.\r");
       return;
     }
 

@@ -138,6 +138,10 @@ const char *genders[] =
   "neutral",
   "male",
   "female",
+  "tmale",
+  "tfemale",
+  "inter",
+  "other"
   "\n"
 };
 
