@@ -16,8 +16,10 @@ M 0 205 1 20 	(JD Falk)
 M 0 206 1 20 	(Henry Messenger)
 M 0 207 1 20 	(Eric Sorenson)
 
-M 0 214 1 134 	(Frank Dooley)
-M 0 215 1 134 	(Eric Sorenson)
+M 0 214 2 132 	(Frank Dooley)
+M 0 215 2 132 	(Eric Sorenson)
+M 0 214 2 133 	(Frank Dooley)
+M 0 215 2 133 	(Eric Sorenson)
 
 O 0 115 1 224 	(a huge safe)
 O 0 300 1 224 	(atm)
