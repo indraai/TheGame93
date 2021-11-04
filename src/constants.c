@@ -142,6 +142,7 @@ const char *genders[] =
   "TFemale",
   "Inter",
   "Deva",
+  "Devi",
   "Other",
   "\n"
 };

@@ -1594,7 +1594,8 @@ void nanny(struct descriptor_data *d, char *arg)
         "\nmenu[Trans Female]:4\r"
         "\nmenu[Inerspecies]:5\r"
         "\nmenu[Deva]:6\r"
-        "\nmenu[Other]:7\r");
+        "\nmenu[Devi]:7\r"
+        "\nmenu[Other]:8\r");
       STATE(d) = CON_QGENDER;
     } else {
       save_char(d->character);
@@ -1629,6 +1630,9 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.gender = GENDER_DEVA;
       break;
     case '7':
+      d->character->player.gender = GENDER_DEVI;
+      break;
+    case '8':
       d->character->player.gender = GENDER_OTHER;
       break;
     default:

@@ -185,9 +185,10 @@
 #define GENDER_TFEMALE   4   /**< TRANS GENDER */
 #define GENDER_INTER     5   /**< INTER SPECIES GENDER */
 #define GENDER_DEVA      6   /**< DEVA GENDER */
-#define GENDER_OTHER     7   /**< OTHER SPECIES GENDER */
+#define GENDER_DEVI      7   /**< DEVI GENDER */
+#define GENDER_OTHER     8   /**< OTHER SPECIES GENDER */
 /** Total number of Genders */
-#define NUM_GENDERS  8
+#define NUM_GENDERS  9
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
