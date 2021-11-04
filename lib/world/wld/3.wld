@@ -335,9 +335,9 @@ D2
 0 0 301
 S
 #324
-MUD Hall N.~
+Adventure Arcade~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 1
 D1
 ~
 ~
@@ -356,13 +356,17 @@ D5
 0 0 290
 S
 #325
-MUD Hall N.~
+Adventure Arcade~
 Empty room.~
-3 24 0 0 0 0
+3 24 0 0 0 1
 D1
 ~
 ~
 0 0 326
+D2
+~
+~
+0 0 340
 D3
 ~
 ~
@@ -379,11 +383,15 @@ S
 #326
 MUD Hall N.~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 1
 D1
 ~
 ~
 0 0 327
+D2
+~
+~
+0 0 341
 D3
 ~
 ~
@@ -571,9 +579,9 @@ D3
 1 0 337
 S
 #339
-MUD City W.~
+Adventure Arcade~
 Empty room.~
-3 16 0 0 0 1
+3 24 0 0 0 1
 D0
 ~
 ~
@@ -586,49 +594,53 @@ D2
 ~
 ~
 0 0 352
-D3
-~
-~
-0 0 338
 S
 #340
-MUD Courtyard W.~
+Adventure Arcade~
 Empty room.~
-3 16 0 0 0 1
+3 24 0 0 0 1
+D0
+~
+~
+0 0 325
 D1
 ~
 ~
 0 0 341
+D2
+~
+~
+0 0 353
 D3
 ~
 ~
 0 0 339
-D4
-~
-~
-0 0 128
 S
 #341
-MUD Courtyard E.~
+Adventure Arcade~
 Empty room.~
-3 16 0 0 0 1
+3 24 0 0 0 1
+D0
+~
+~
+0 0 326
 D1
 ~
 ~
 0 0 342
+D2
+~
+~
+0 0 354
 D3
 ~
 ~
 0 0 340
-D4
-~
-~
-0 0 129
 S
 #342
-MUD City E.~
+Adventure Arcade~
 Empty room.~
-3 16 0 0 0 1
+3 24 0 0 0 1
 D0
 ~
 ~
@@ -706,13 +718,17 @@ D4
 0 0 132
 S
 #346
-Susoma Tower~
+Arjika Tower~
 undefined~
 3 24 0 0 0 0
 D1
 ~
 ~
 0 0 347
+D2
+~
+~
+0 0 359
 D3
 ~
 ~
@@ -726,10 +742,10 @@ S
 Susoma Courtyard~
 undefined~
 3 16 0 0 0 1
-D1
+D2
 ~
 ~
-0 0 348
+0 0 360
 D3
 ~
 ~
@@ -788,9 +804,9 @@ D3
 0 0 338
 S
 #352
-MUD Hall S.~
+Adventure Arcade~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 1
 D0
 ~
 ~
@@ -809,9 +825,13 @@ D5
 0 0 247
 S
 #353
-MUD Hall S.~
+Adventure Arcade~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 1
+D0
+~
+~
+0 0 340
 D1
 ~
 ~
@@ -830,9 +850,9 @@ D5
 0 0 302
 S
 #354
-MUD Hall S.~
+Adventure Arcade~
 Empty room.~
-3 8 0 0 0 1
+3 24 0 0 0 1
 D1
 ~
 ~
@@ -877,9 +897,9 @@ D5
 0 0 355
 S
 #357
-The Magi Training Room~
-Bookshelves line the two walls of this small open area within the tower. The smell of dust and musty old papers emanates from them.  Many centuries of knowledge lie within these books that were salvaged from the lands beyond. Many more have yet to be found.~
-3 280 0 0 0 0
+Arjika Courtyard~
+undefined~
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -890,9 +910,13 @@ D1
 0 0 358
 S
 #358
-A Tower Hallway~
-Through a small door to the north one can see the center of the tower where a set of spiral staircases lead to the second floor.  The Orb of Arjika is protected somewhere within this tower.  The Master Magi have been given the task of ensuring its safety.~
-3 280 0 0 0 0
+Arjika Courtyard~
+undefined~
+3 16 0 0 0 1
+D0
+~
+~
+0 0 345
 D1
 ~
 ~
@@ -903,9 +927,13 @@ D3
 0 0 357
 S
 #359
-The Magi Hallway~
-The seven Orders of the Magi are slowly dying out.  That is why they rarely fight in battles any longer.  They have instead devoted their time to training future Magi to take their places.  But, good students have become even harder to come by these days.~
-3 280 0 0 0 1
+Susoma Courtyard~
+undefined~
+3 16 0 0 0 1
+D0
+~
+~
+0 0 346
 D1
 ~
 ~
@@ -916,9 +944,9 @@ D3
 0 0 358
 S
 #360
-A Magi Training Room~
-Short tables with cushions surrounding them are placed about the room. These cushions are obviously meant to kneel on and the tables are overflowing with various books.  This must be some sort of study room for the Magi.  The black walls seem to absorb the white light coming from strange bulbs hanging from the ceiling.~
-3 280 0 0 0 0
+Susoma Courtyard~
+undefined~
+3 16 0 0 0 1
 D0
 ~
 ~
