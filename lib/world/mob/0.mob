@@ -160,7 +160,7 @@ talk:#adventure view:thegame:agent 0007/look~
 6300 0 0 0 26744 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 6
 BareHandAttack: 11
 E
 #8
@@ -171,7 +171,7 @@ talk:#adventure view:thegame:agent 0008/look~
 6300 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 6
 BareHandAttack: 1
 E
 #9
@@ -182,7 +182,7 @@ talk:#adventure view:thegame:agent 0009/look~
 6296 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 6
 BareHandAttack: 1
 Str: 18
 Dex: 18
