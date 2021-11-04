@@ -5,7 +5,7 @@ Quinn Michaels is here.
 ~
 Dressed in drab clothes he looks tired and over worked.  He is one of the few men who did not sign up for military service.
 ~
-2248 0 0 0 0 0 0 0 900 E
+2250 0 0 0 0 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -462,20 +462,20 @@ black prime deva d0137 z1~
 BlackDEVA PRIME~
 0137/avatar~
 talk:#adventure view:thegame:agent 0137/look~
-72 0 0 0 16 0 0 0 0 E
+8 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 6
 E
 #138
-yellow master magi d0138 z1~
+yellow master deva d138 z1~
 YellowDEVA PRIME~
 0138/avatar~
 talk:#adventure view:thegame:agent 0138/look~
-72 0 0 0 16 0 0 0 0 E
+8 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 6
 E
 #139
 kibo james parry 1337 kibo~
