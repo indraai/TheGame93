@@ -1592,7 +1592,7 @@ void nanny(struct descriptor_data *d, char *arg)
         "\nmenu[Female]:2\r"
         "\nmenu[Trans Male]:3\r"
         "\nmenu[Trans Female]:4\r"
-        "\nmenu[Iner Species]:5\r"
+        "\nmenu[Inerspecies]:5\r"
         "\nmenu[Deva]:6\r"
         "\nmenu[Other]:7\r");
       STATE(d) = CON_QGENDER;

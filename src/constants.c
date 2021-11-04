@@ -135,13 +135,14 @@ const char *sector_types[] = {
  * Must end array with a single newline. */
 const char *genders[] =
 {
-  "neutral",
-  "male",
-  "female",
-  "tmale",
-  "tfemale",
-  "inter",
-  "other"
+  "Neutral",
+  "Male",
+  "Female",
+  "TMale",
+  "TFemale",
+  "Inter",
+  "Deva"
+  "Other"
   "\n"
 };
 
