@@ -150,7 +150,7 @@ const char *genders[] =
  * @pre Must be in the same order as the defines.
  * Must end array with a single newline. */
 const char *position_types[] = {
-  "Dead",
+  "Tackled",
   "Wounded",
   "Incapacitated",
   "Stunned",
