@@ -141,8 +141,8 @@ const char *genders[] =
   "TMale",
   "TFemale",
   "Inter",
-  "Deva"
-  "Other"
+  "Deva",
+  "Other",
   "\n"
 };
 
