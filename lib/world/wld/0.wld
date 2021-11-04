@@ -374,22 +374,33 @@ D1
 0 0 288
 S
 #31
-House Vamraka~
-talk:#adventure view:thegame:world 0033/main
-~
+Vamraka Shrine~
+undefined~
 0 24 0 0 0 0
+D2
+~
+~
+0 0 126
 S
 #32
-House Indu~
+Indu Shrine~
 talk:#adventure view:thegame:world 0032/main
 ~
 0 24 0 0 0 0
+D0
+~
+~
+0 0 138
 S
 #33
-House Indra~
+Indra Shrine~
 talk:#adventure view:thegame:world 0033/main
 ~
 0 24 0 0 0 0
+D3
+~
+~
+0 0 134
 S
 #34
 House Soma~

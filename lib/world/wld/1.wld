@@ -367,27 +367,23 @@ S
 Plane of the Deva~
 Empty room.~
 1 24 0 0 0 0
-D1
-~
-~
-0 0 126
 D2
 ~
 ~
 0 0 132
 S
 #126
-Plane of the Deva~
+House Vamraka~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
+D0
+~
+~
+0 0 31
 D2
 ~
 ~
 0 0 133
-D3
-~
-~
-0 0 125
 S
 #127
 Stanford~
@@ -533,9 +529,13 @@ D5
 0 0 346
 S
 #134
-Orb of Arjika~
+House Indra~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
+D1
+~
+~
+0 0 33
 D3
 ~
 ~
@@ -569,13 +569,17 @@ D0
 0 0 132
 S
 #138
-Room of the Deva~
+House Indu~
 undefined~
 1 24 0 0 0 0
 D0
 ~
 ~
 0 0 133
+D2
+~
+~
+0 0 32
 S
 #139
 Lookout (S)~

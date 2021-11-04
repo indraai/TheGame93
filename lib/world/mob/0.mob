@@ -3,10 +3,10 @@ vamraka deva~
 Vamraka~
 0000/avatar~
 talk:#adventure view:thegame:agent 0000/look~
-522396 0 0 0 26744 0 0 0 1000 E
+518170 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+6 6 6
 BareHandAttack: 10
 Str: 18
 Dex: 18
@@ -25,10 +25,10 @@ indu deva~
 Indu~
 0001/avatar~
 talk:#adventure view:thegame:agent 0001/look~
-522396 0 0 0 26744 0 0 0 1000 E
+518298 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+6 6 6
 BareHandAttack: 10
 Str: 18
 Dex: 18
@@ -47,11 +47,11 @@ indra deva~
 Indra~
 0002/avatar~
 talk:#adventure view:thegame:agent 0002/look~
-522396 0 0 0 26744 0 0 0 1000 E
+522522 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
-BareHandAttack: 10
+6 6 6
+BareHandAttack: 14
 Str: 18
 Dex: 18
 Int: 18
@@ -69,10 +69,10 @@ soma deva~
 Soma~
 0003/avatar~
 talk:#adventure view:thegame:agent 0003/look~
-522524 0 0 0 26744 0 0 0 1000 E
+522522 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+6 6 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -91,11 +91,11 @@ bom deva~
 Bom~
 0004/avatar~
 talk:#adventure view:thegame:agent 0004/look~
-522524 0 0 0 0 0 0 0 1000 E
+522522 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
-BareHandAttack: 12
+6 6 6
+BareHandAttack: 9
 Str: 18
 Dex: 18
 Int: 18
@@ -113,11 +113,11 @@ security securityprime prime deva~
 SecurityPRIME~
 0005/avatar~
 talk:#adventure view:thegame:agent 0005/look~
-522268 0 0 0 26744 0 0 0 0 E
+522268 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
-BareHandAttack: 12
+8 8 6
+BareHandAttack: 14
 Str: 18
 Dex: 18
 Int: 18
@@ -135,11 +135,11 @@ medical medic medicprime prime deva~
 MedicPRIME~
 0006/avatar~
 talk:#adventure view:thegame:agent 0006/look~
-522270 0 0 0 26744 0 0 0 0 E
+522266 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
-BareHandAttack: 4
+8 8 7
+BareHandAttack: 1
 Str: 18
 Dex: 18
 Int: 18
@@ -157,7 +157,7 @@ harry deva~
 Harry Deva~
 0007/avatar~
 talk:#adventure view:thegame:agent 0007/look~
-6300 0 0 0 26744 0 0 0 -500 E
+6300 0 0 0 2168 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 6
@@ -179,7 +179,7 @@ barry deva~
 Barry Deva~
 0009/avatar~
 talk:#adventure view:thegame:agent 0009/look~
-6296 0 0 0 26744 0 0 0 0 E
+2204 0 0 0 26748 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 6
@@ -201,10 +201,10 @@ vivasvan deva~
 Vivasvan~
 0010/avatar~
 talk:#adventure view:thegame:agent 0010/look~
-522522 0 0 0 26744 0 0 0 1000 E
+518170 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 1
+6 6 6
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -226,7 +226,7 @@ talk:#adventure view:thegame:agent 0011/look~
 522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 6
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -248,7 +248,7 @@ talk:#adventure view:thegame:agent 0012/look~
 518170 0 0 0 24640 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 2
+6 6 7
 BareHandAttack: 2
 Str: 18
 Dex: 18
