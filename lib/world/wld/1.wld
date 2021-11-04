@@ -364,9 +364,13 @@ D2
 0 0 129
 S
 #125
-Plane of the Deva~
+House Soma~
 Empty room.~
 1 24 0 0 0 0
+D0
+~
+~
+0 0 34
 D2
 ~
 ~
@@ -462,13 +466,17 @@ D3
 0 0 129
 S
 #131
-Home of the Deva~
+House Bom~
 undefined~
 1 24 0 0 0 0
 D1
 ~
 ~
 0 0 132
+D3
+~
+~
+0 0 35
 S
 #132
 Arjika Tower~
@@ -560,7 +568,7 @@ D0
 0 0 129
 S
 #137
-Supply Room~
+Householder~
 Empty room.~
 1 24 0 0 0 0
 D0
