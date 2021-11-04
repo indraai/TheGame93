@@ -504,7 +504,7 @@ D5
 0 0 345
 S
 #133
-Susoma Tower~
+Arjika Tower~
 undefined~
 1 24 0 0 0 0
 D0
@@ -621,46 +621,36 @@ D3
 0 0 154
 S
 #142
-Tabitha's House~
+5B4B Home~
 undefined~
-1 8 0 0 0 0
+1 2616 0 0 0 0
 D2
 ~
 ~
 0 0 155
-D4
-~
-~
-0 0 108
 S
 #143
-The Inn~
-The only inn in Arjika.  The Letzgo Inn appeals to those who need to take a break or maybe just get away from home for a few days to receive one of the many "treatments" available by the fine staff.  The sole proprietor goes by the name of Orlok and has been known to be rough, even deadly, to any customers that treat his "employees" unfairly.  The inn appears to be well kept.  Further to the north one can see a winding staircase and a plethra of adjoining rooms.  It seems the owners have temporarily closed
-
-
- due to renovations.~
-1 8 0 0 0 0
+3B3B Home~
+undefined~
+1 2616 0 0 0 0
 D2
 ~
 ~
 0 0 156
 S
 #144
-Shiro's Weaponry~
-This large wood building is filled with rack upon rack of weapons lining every wall, the floor, and even some suspended from the ceiling.  The sound of someone honing a fine blade can be heard in the background.  Some of the finest weapons in the realm are made right here under the supervision of Shiro, the master wesponsmith.~
-1 8 0 0 0 0
+2B2B Home~
+undefined~
+1 2616 0 0 0 0
 D2
 ~
 ~
 0 0 157
 S
 #145
-The Smithy~
-The Smithy used to be run by the Hero Guild for protection of the city. But when Sarge retired from his service in the guild they let him keep the smithy that he created as a retirement gift.  Of course the fact that they had no one that could replace him and do his quality of work was the real reason. But, Sarge would never complain.  He has spent his life hammering metal into weapons of mass destruction or armor of superior quality.  It is rumored that has never been given a task that he could not comple
-
-
-te.~
-1 8 0 0 0 0
+1B1B Home~
+undefined~
+1 2616 0 0 0 0
 D2
 ~
 ~
@@ -796,9 +786,9 @@ D3
 1 0 153
 S
 #155
-Hero Avenue~
-A loud ruckus to the north must be the local bar where soldiers go to relieve themselves of their worries.  The cobblestone street is clean and well maintained.  The buildings all around are made of wood and some are several stories tall.~
-1 0 0 0 0 1
+4 W Hero Ave~
+undefined~
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -811,15 +801,11 @@ D2
 ~
 ~
 1 0 170
-D3
-~
-~
-0 0 154
 S
 #156
-Hero Avenue~
+3 W Hero Ave~
 empty.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -838,9 +824,9 @@ D3
 0 0 155
 S
 #157
-Hero Avenue~
+2 W Hero Ave~
 empty.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -859,9 +845,9 @@ D3
 0 0 156
 S
 #158
-Hero Avenue~
+1 W Hero Ave~
 empty.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -901,9 +887,9 @@ D3
 0 0 158
 S
 #160
-Artist Avenue~
+1 E Hero Ave~
 Empty room.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -943,9 +929,9 @@ D3
 0 0 160
 S
 #162
-Artist Avenue~
+3 E Hero Ave~
 Empty room.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -964,9 +950,9 @@ D3
 0 0 161
 S
 #163
-Artist Avenue~
+4 E Hero Ave~
 Empty room.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -1071,56 +1057,36 @@ D2
 0 0 184
 S
 #170
-Fine House~
-A fine home of Arjika.  The smell of baking bread and the sounds of a roaring fire.  The house is cluttered with the usual things that makes a house look lived in.  You could be happy spending the rest of your life living in a house like this.~
-1 24 0 0 0 0
+4B3B Home~
+undefined~
+1 2616 0 0 0 0
 D0
 ~
 ~
 1 0 155
-D1
-~
-~
-0 0 171
 S
 #171
-Beggars Home~
-The filth in this house is disgusting, an overflowing chamber pot almost sends you immediately back out the door.  This room should not even be considered a home.  You can barely even stand up the ceiling is so low and cracks in the walls let you see outside.~
-1 8 0 0 0 0
+3B3B Home~
+undefined~
+1 2616 0 0 0 0
 D0
 ~
 ~
 1 0 156
-D1
-~
-~
-0 0 172
-D3
-~
-~
-0 0 170
 S
 #172
-An Extravagant Home~
-This house looks out of place considering it's neighbors.  The pine walls are polished to a shine and the floor is made out of some strange type of cement.  Cushioned chairs surround a table set for dinner with expensive dishes and silverware.~
-1 8 0 0 0 0
+2B2B Home~
+undefined~
+1 2616 0 0 0 0
 D0
 ~
 ~
 1 0 157
-D1
-~
-~
-0 0 173
-D3
-~
-~
-0 0 171
 S
 #173
-Poor House~
-The house is made from rooten timber and the floor is just bare dirt.  A baking oven and a few piles of straw are the only things in the room.  This must be the poorest house in the entire city, how could anyone live like this.~
-1 8 0 0 0 0
+Studio Home~
+undefined~
+1 2616 0 0 0 0
 D0
 ~
 ~
@@ -1136,36 +1102,36 @@ D4
 0 0 354
 S
 #175
-An Extravagant Home~
-One of the more successful artists of the quarter must live here.  Rugs cover the entire floor.  A candelabra sits in the middle of a polished oak table.  A four post bed can be seen in the back of the house.  Nothing like living the good life.~
-1 8 0 0 0 1
+Arjika Apartments~
+undefined~
+1 24 0 0 0 0
 D0
 ~
 ~
 1 0 160
 S
 #176
-A Cramped Home~
-A large table that could sit a family of about seven fills the majority of this house.  Small mattresses lay on the floor in the back of the room.  Not much hope for privacy in this house.  A few dolls are having a tea party in one corner.~
-1 8 0 0 0 1
+Arjika Apartments~
+undefined~
+1 24 0 0 0 0
 D0
 ~
 ~
 1 0 161
 S
 #177
-A Small Home~
-You walk right in as if it was your own house.  Don't worry about trespassing, I'm sure no one will mind.  The house is very compact.  The kitchen and bedrooms are not separated by any walls.  This must be a house for the poor.~
-1 2072 0 0 0 0
+Arjika Apartments~
+undefined~
+1 24 0 0 0 0
 D0
 ~
 ~
 1 0 162
 S
 #178
-A Clean House~
-Everything is dusted, shined, waxed, and polished.  This home is spotless. Well maintained it seems.  Not everyone is rich enough to afford a housekeeper, but these folks must be.  You can hear a baby crying, sounds hungry.~
-1 8 0 0 0 1
+Arjika Apartments~
+undefined~
+1 24 0 0 0 0
 D0
 ~
 ~
