@@ -1,6 +1,6 @@
 #0
 vamraka deva~
-Vamraka Deva~
+Vamraka~
 0000/avatar~
 talk:#adventure view:thegame:agent 0000/look~
 522396 0 0 0 26744 0 0 0 1000 E
@@ -22,7 +22,7 @@ SavingSpell: 8
 E
 #1
 indu deva~
-Indu Deva~
+Indu~
 0001/avatar~
 talk:#adventure view:thegame:agent 0001/look~
 522396 0 0 0 26744 0 0 0 1000 E
@@ -44,7 +44,7 @@ SavingSpell: 8
 E
 #2
 indra deva~
-Indra Deva~
+Indra~
 0002/avatar~
 talk:#adventure view:thegame:agent 0002/look~
 522396 0 0 0 26744 0 0 0 1000 E
@@ -66,7 +66,7 @@ SavingSpell: 8
 E
 #3
 soma deva~
-Soma Deva~
+Soma~
 0003/avatar~
 talk:#adventure view:thegame:agent 0003/look~
 522524 0 0 0 26744 0 0 0 1000 E
@@ -88,7 +88,7 @@ SavingSpell: 8
 E
 #4
 bom deva~
-Bom Deva~
+Bom~
 0004/avatar~
 talk:#adventure view:thegame:agent 0004/look~
 522524 0 0 0 0 0 0 0 1000 E
@@ -184,6 +184,72 @@ talk:#adventure view:thegame:agent 0009/look~
 340 115600
 8 8 1
 BareHandAttack: 1
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#10
+vivasvan deva~
+Vivasvan~
+0010/avatar~
+talk:#adventure view:thegame:agent 0010/look~
+522524 0 0 0 0 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#11
+yama deva~
+Yama~
+0011/avatar~
+talk:#adventure view:thegame:agent 0011/look~
+522524 0 0 0 0 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+BareHandAttack: 12
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#12
+yami deva~
+Yami~
+0012/avatar~
+talk:#adventure view:thegame:agent 0012/look~
+522524 0 0 0 0 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+BareHandAttack: 12
 Str: 18
 Dex: 18
 Int: 18
