@@ -201,10 +201,10 @@ vivasvan deva~
 Vivasvan~
 0010/avatar~
 talk:#adventure view:thegame:agent 0010/look~
-522524 0 0 0 0 0 0 0 1000 E
+522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+6 6 1
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -223,7 +223,7 @@ yama deva~
 Yama~
 0011/avatar~
 talk:#adventure view:thegame:agent 0011/look~
-522524 0 0 0 0 0 0 0 1000 E
+522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
@@ -241,15 +241,15 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #12
-yami deva~
+yami devi~
 Yami~
 0012/avatar~
 talk:#adventure view:thegame:agent 0012/look~
-522524 0 0 0 0 0 0 0 1000 E
+518170 0 0 0 24640 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
-BareHandAttack: 12
+6 6 2
+BareHandAttack: 2
 Str: 18
 Dex: 18
 Int: 18
