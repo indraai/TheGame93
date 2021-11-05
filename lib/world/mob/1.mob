@@ -895,10 +895,8 @@ T 133
 #174
 security guard deva securitydeva d0174 z1~
 the monk guildguard~
-0174/avatar
-~
-talk:#adventure view:thegame:agent 0174/look
-~
+0174/avatar~
+talk:#adventure view:thegame:agent 0174/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
