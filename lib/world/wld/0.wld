@@ -30,19 +30,14 @@ talk:#adventure view:thegame:world 0002/look
 0 0 2
 S
 #2
-Academy Entrance~
+Arjika Academy~
 talk:#adventure view:thegame:world 0002/main
 ~
 0 24 0 0 0 0
-D0
-talk:#adventure view:thegame:world 0003/look
+D1
 ~
-TheGame23~
+~
 0 0 3
-D2
-~
-~
-1 0 97
 D3
 talk:#adventure view:thegame:world 0200/look
 ~
@@ -52,25 +47,35 @@ S
 T 97
 #3
 TheGame23~
-talk:#adventure view:thegame:world 0003/main
-~
+undefined~
 0 8 0 0 0 0
+D0
+~
+~
+0 0 191
 D1
 talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
+D3
+~
+~
+0 0 2
 S
 #4
 Project Mayhem 2012~
-talk:#adventure view:thegame:world 0004/main
-~
+undefined~
 0 8 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0005/look
 ~
 ~
 0 0 5
+D3
+~
+~
+0 0 3
 S
 #5
 Dangerous Ideas~
@@ -82,6 +87,10 @@ talk:#adventure view:thegame:world 0006/look
 ~
 ~
 0 0 6
+D3
+~
+~
+0 0 4
 S
 #6
 Telecomix~
@@ -93,17 +102,28 @@ talk:#adventure view:thegame:world 0007/look
 ~
 ~
 0 0 7
+D2
+~
+~
+0 0 213
+D3
+~
+~
+0 0 5
 S
 #7
 Project Mayhem Revelations~
-talk:#adventure view:thegame:world 0007/main
-~
+undefined~
 0 8 0 0 0 0
 D1
 talk:#adventure view:thegame:world 0008/look
 ~
 ~
 0 0 8
+D3
+~
+~
+0 0 6
 S
 #8
 Project Mayhem 2020~
@@ -114,7 +134,10 @@ D0
 ~
 0 0 192
 D1
-talk:#adventure view:thegame:world 0009/look
+~
+~
+0 0 214
+D2
 ~
 ~
 0 0 9
@@ -128,8 +151,11 @@ IT~
 talk:#adventure view:thegame:world 0009/main
 ~
 0 8 0 0 0 0
-D1
-talk:#adventure view:thegame:world 0010/look
+D0
+~
+~
+0 0 8
+D2
 ~
 ~
 0 0 10
@@ -156,6 +182,10 @@ EtherSec...again~
 talk:#adventure view:thegame:world 0011/main
 ~
 0 8 0 0 0 0
+D0
+~
+~
+0 0 10
 D2
 talk:#adventure view:thegame:world 0012/look
 ~
@@ -163,10 +193,13 @@ talk:#adventure view:thegame:world 0012/look
 0 0 12
 S
 #12
-Michael the Archangel~
-talk:#adventure view:thegame:world 0012/main
-~
+Michael Nebadon~
+undefined~
 0 8 0 0 0 0
+D0
+~
+~
+0 0 11
 D2
 talk:#adventure view:thegame:world 0013/look
 ~

@@ -216,7 +216,7 @@ D3
 0 0 225
 S
 #213
-NW Temple Sq.~
+NE Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -252,6 +252,10 @@ D2
 ~
 ~
 0 0 227
+D3
+~
+~
+0 0 8
 S
 #215
 MARINES: Hall~

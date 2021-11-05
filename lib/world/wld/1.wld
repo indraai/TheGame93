@@ -1320,11 +1320,15 @@ S
 #191
 Artist Alley~
 The sounds of someone fighting suddenly grow louder, then stop.  Seems like that dispute was settled one way or the other.  The inner city wall to the south keeps the alley eternally in shadows, no matter the time of day or night. Houses to the north have their back doors shut and locked.~
-1 0 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
 0 0 192
+D2
+~
+~
+0 0 3
 D3
 ~
 ~
@@ -1338,6 +1342,10 @@ D1
 ~
 ~
 0 0 193
+D2
+~
+~
+0 0 8
 D3
 ~
 ~
