@@ -538,8 +538,8 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     return;
   }
 
-  send_to_char(ch, "\n# %s\r"
-    world[IN_ROOM(ch)].name,
+  send_to_char(ch, "\n# %s\r",
+    world[IN_ROOM(ch)].name
   );
 
   /* now list characters & objects */
