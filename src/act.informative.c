@@ -568,7 +568,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
         /* send the room description */
         send_to_char(ch, "::begin:room\r\n"
           "talk:#adv world:thegame %d\r\n"
-          "room:%d\r\n",
+          "room:%d\r\n"
           "::end:room\r\n",
           GET_ROOM_VNUM(IN_ROOM(ch)),
           GET_ROOM_VNUM(IN_ROOM(ch))
