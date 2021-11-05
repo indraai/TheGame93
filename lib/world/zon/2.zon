@@ -25,24 +25,32 @@ O 0 115 1 224 	(a huge safe)
 O 0 300 1 224 	(atm)
 
 O 0 251 6 2    	(a marble fountain)
-O 0 133 99 2  	(Backpack)
-O 0 179 99 2  	(Canteen)
-O 0 218 99 2  	(jalapeno cheese bread)
+O 0 179 10 2  	(Canteen)
+O 0 133 10 2  	(Backpack)
 
 O 0 251 6 11    (a marble fountain)
-O 0 180 99 11  	(Candy Dirt)
+O 0 133 10 11  	(Backpack)
+O 0 179 10 11  	(Canteen)
 
 O 0 251 6 21    (a marble fountain)
-O 0 180 99 21  	(Candy Dirt)
+O 0 133 10 11  	(Backpack)
+O 0 179 10 11  	(Canteen)
 
 O 0 251 6 99 	  (a marble fountain)
-O 0 133 99 99  	(Backpack)
-O 0 179 99 99  	(Canteen)
-O 0 218 99 99  	(jalapeno cheese bread)
+O 0 133 10 99  	(Backpack)
+O 0 179 10 99  	(Canteen)
 
 O 0 251 6 100 	(a marble fountain)
+O 0 133 10 100  	(Backpack)
+O 0 179 10 100  	(Canteen)
 
 O 0 251 6 251 	(a marble fountain)
+O 0 133 10 251  	(Backpack)
+O 0 179 10 251  	(Canteen)
+
+O 0 180 99 280  	(Candy Dirt)
+O 0 218 99 278  	(jalapeno cheese bread)
+
 
 S
 $
