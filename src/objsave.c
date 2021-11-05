@@ -895,12 +895,12 @@ static int gen_receptionist(struct char_data *ch, struct char_data *recep, int c
   }
 
   if (!CAN_SEE(recep, ch)) {
-    act("\nsay:$n says, 'I don't deal with people I can't see!'\r", FALSE, recep, 0, 0, TO_ROOM);
+    act("say:$n says, 'I don't deal with people I can't see!'\r\n", FALSE, recep, 0, 0, TO_ROOM);
     return (TRUE);
   }
 
   if (CONFIG_FREE_RENT) {
-    act("\ntell:$n tells you, 'Rent is FREE here.'\r", FALSE, recep, 0, ch, TO_VICT);
+    act("tell:$n tells you, 'Rent is FREE here.'\r\n", FALSE, recep, 0, ch, TO_VICT);
     return TRUE;
   }
 

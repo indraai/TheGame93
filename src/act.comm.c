@@ -50,7 +50,7 @@ ACMD(do_say)
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
 
-    snprintf(buf, sizeof(buf), "\nsay: $n says, '%s'\r", argument);
+    snprintf(buf, sizeof(buf), "say: $n says, '%s'\r\n", argument);
     msg = act(buf, FALSE, ch, 0, 0, TO_ROOM | DG_NO_TRIG);
 
     for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room)
@@ -58,9 +58,9 @@ ACMD(do_say)
         add_history(vict, msg, HIST_SAY);
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
-      send_to_char(ch, "\nsay: %s\r", CONFIG_OK);
+      send_to_char(ch, "say: %s\r\n", CONFIG_OK);
     else {
-      sprintf(buf, "\nsay: You say, '%s'\r", argument);
+      sprintf(buf, "say: You say, '%s'\r\n", argument);
       msg = act(buf, FALSE, ch, 0, 0, TO_CHAR | DG_NO_TRIG);
       add_history(ch, msg, HIST_SAY);
     }

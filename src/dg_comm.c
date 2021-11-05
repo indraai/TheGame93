@@ -112,7 +112,7 @@ static void sub_write_to_char(char_data *ch, char *tokens[], void *otokens[], ch
   }
 
   strcat(sb,tokens[i]);
-  strcat(sb,"\n\r");
+  strcat(sb,"\r\n");
   send_to_char(ch, "%s", sb);
 }
 
@@ -199,4 +199,3 @@ void send_to_zone(char *messg, zone_rnum zone)
         (world[IN_ROOM(i->character)].zone == zone))
       write_to_output(i, "%s", messg);
 }
-

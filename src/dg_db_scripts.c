@@ -59,10 +59,10 @@ void parse_trigger(FILE *trig_f, int nr)
     cmds = s = fread_string(trig_f, errors);
 
     CREATE(trig->cmdlist, struct cmdlist_element, 1);
-    trig->cmdlist->cmd = strdup(strtok(s, "\n\r"));
+    trig->cmdlist->cmd = strdup(strtok(s, "\r\n"));
     cle = trig->cmdlist;
 
-    while ((s = strtok(NULL, "\n\r"))) {
+    while ((s = strtok(NULL, "\r\n"))) {
 	CREATE(cle->next, struct cmdlist_element, 1);
 	cle = cle->next;
 	cle->cmd = strdup(s);

@@ -115,12 +115,12 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
 
 
   /* The mortal preferences section of the actual menu */
-  send_to_char(d->character, "\n## Preferences\r"
+  send_to_char(d->character, "## Preferences\r\n"
     "\nselect[P:prompt]:%s"
-    "\nselect[L:agelength]:%d\r"
-    "\nselect[C:color]:%s\r"
-    "\nselect[S:screenwidth]:%d\r"
-    "\nselect[W:wimpy]:%d\r",
+    "select[L:agelength]:%d\r\n"
+    "select[C:color]:%s\r\n"
+    "select[S:screenwidth]:%d\r\n"
+    "select[W:wimpy]:%d\r\n",
     prompt_string,
     PREFEDIT_GET_PAGELENGTH,
     color_string,
@@ -157,9 +157,9 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
              ONOFF(PREFEDIT_FLAGGED(PRF_ZONERESETS)), CCCYN(d->character, C_NRM));
   }
 
-  send_to_char(d->character, "\nmenu[toggle]:T\r"
-    "\nmenu[restore defaults]:D\r"
-    "\nmenu[quit]:Q\r"
+  send_to_char(d->character, "menu[toggle]:T\r\n"
+    "menu[restore defaults]:D\r\n"
+    "menu[quit]:Q\r\n"
   );
 
   OLC_MODE(d) = PREFEDIT_MAIN_MENU;
@@ -305,11 +305,11 @@ static void prefedit_disp_prompt_menu(struct descriptor_data *d)
 
 static void prefedit_disp_color_menu(struct descriptor_data *d)
 {
-  send_to_char(d->character, "\n## Color level\r"
-                             "\nmenu[Off]:1\r"
-                             "\nmenu[Brief]:2\r"
-                             "\nmenu[Normal]:3\r"
-                             "\nmenu[On]:4\r");
+  send_to_char(d->character, "## Color level\r\n"
+                             "menu[Off]:1\r\n"
+                             "menu[Brief]:2\r\n"
+                             "menu[Normal]:3\r\n"
+                             "menu[On]:4\r\n");
 
   send_to_char(d->character, "Enter Choice :");
   OLC_MODE(d) = PREFEDIT_COLOR;

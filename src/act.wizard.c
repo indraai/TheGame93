@@ -98,7 +98,7 @@ ACMD(do_wizhelp)
   if (!ch->desc)
     return;
 
-  send_to_char(ch, "\nThe following privileged commands are available:\r");
+  send_to_char(ch, "The following privileged commands are available:\r\n");
 
   for (level = LVL_IMPL; level >= LVL_IMMORT; level--) {
     send_to_char(ch, "%sLevel %d%s:\r\n", CCCYN(ch, C_NRM), level, CCNRM(ch, C_NRM));
@@ -774,93 +774,93 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   struct follow_type *fol;
   struct affected_type *aff;
 
-  send_to_char(ch, "\n# %s\r", GET_NAME(k));
-  send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
-  send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
+  send_to_char(ch, "# %s\r\n", GET_NAME(k));
+  send_to_char(ch, "id: %5ld\r\n", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
+  send_to_char(ch, "type: %s\r\n", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
   sprinttype(GET_GENDER(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "\ngender: %s\r", buf);
-  send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
-  send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
+  send_to_char(ch, "gender: %s\r\n", buf);
+  send_to_char(ch, "room: %d\r\n", GET_ROOM_VNUM(IN_ROOM(k)));
+  send_to_char(ch, "loadroom: %d\r\n", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
   if (IS_MOB(k)) {
-    send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
-    send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
-    send_to_char(ch, "\nkeyword: %s\r", k->player.name);
-    send_to_char(ch, "\nl_desc: %s\r", k->player.long_descr ? k->player.long_descr : "<None>");
+    send_to_char(ch, "vnum: %d\r\n", GET_MOB_VNUM(k));
+    send_to_char(ch, "rnum: %d\r\n", GET_MOB_RNUM(k));
+    send_to_char(ch, "keyword: %s\r\n", k->player.name);
+    send_to_char(ch, "l_desc: %s\r\n", k->player.long_descr ? k->player.long_descr : "<None>");
   }
   else {
-    send_to_char(ch, "\ntitle: %s\r", k->player.title ? k->player.title : "<None>");
+    send_to_char(ch, "title: %s\r\n", k->player.title ? k->player.title : "<None>");
   }
 
-  send_to_char(ch, "\nd_desc: %s\r", k->player.description ? k->player.description : "<None>");
-  send_to_char(ch, "\nhit: %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
-  send_to_char(ch, "\nmana: %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
-  send_to_char(ch, "\nmove: %d/%d+%d]\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
-  send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
-  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
-  send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
-  send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
-  send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
-  send_to_char(ch, "\nint: %d\r", GET_INT(k));
-  send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
-  send_to_char(ch, "\ncon: %d\r", GET_CON(k));
-  send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
+  send_to_char(ch, "d_desc: %s\r\n", k->player.description ? k->player.description : "<None>");
+  send_to_char(ch, "hit: %d/%d+%d\r\n", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
+  send_to_char(ch, "mana: %d/%d+%d\r\n", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
+  send_to_char(ch, "move: %d/%d+%d]\r\n", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
+  send_to_char(ch, "gold: %d | %d | %d\r\n", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
+  send_to_char(ch, "level: %d\r\n", GET_LEVEL(k));
+  send_to_char(ch, "exp: %d\r\n", GET_EXP(k));
+  send_to_char(ch, "align: %d\r\n", GET_ALIGNMENT(k));
+  send_to_char(ch, "str: %d/%d\r\n", GET_STR(k), GET_ADD(k));
+  send_to_char(ch, "int: %d\r\n", GET_INT(k));
+  send_to_char(ch, "wis: %d\r\n", GET_WIS(k));
+  send_to_char(ch, "con: %d\r\n", GET_CON(k));
+  send_to_char(ch, "cha: %d\r\n", GET_CHA(k));
 
-  send_to_char(ch, "\nac: %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\nsaving: %d/%d/%d/%d/%d\r",
+  send_to_char(ch, "ac: %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\nsaving: %d/%d/%d/%d/%d\r\n",
 	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
 	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
 	  GET_SAVE(k, 3), GET_SAVE(k, 4));
 
-  send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
+  send_to_char(ch, "fighting: %s\r\n", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
   if (k->desc) {
     sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
-    send_to_char(ch, "\nconnected: %s\r", buf);
+    send_to_char(ch, "connected: %s\r\n", buf);
   }
 
   /* Showing the bitvector */
   sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "\naffinity: %s\r", buf);
+  send_to_char(ch, "affinity: %s\r\n", buf);
 
   sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "\npos: %s\r", buf);
+  send_to_char(ch, "pos: %s\r\n", buf);
 
   if (IS_NPC(k)) {
-    send_to_char(ch, "\nattack: %s\r", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    send_to_char(ch, "attack: %s\r\n", attack_hit_text[(int) k->mob_specials.attack_type].singular);
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
-    send_to_char(ch, "\ndef_position: %s\r", buf);
+    send_to_char(ch, "def_position: %s\r\n", buf);
 
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\nmob_spec_proc: %s\r\nnpc_bhd: %dd%d\r",
+    send_to_char(ch, "mob_spec_proc: %s\r\nnpc_bhd: %dd%d\r\n",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   } else {
-    send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
-    send_to_char(ch, "\nidle_timer_tics: %d\r", k->char_specials.timer);
+    send_to_char(ch, "screen: %d x %d\r\n", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
+    send_to_char(ch, "idle_timer_tics: %d\r\n", k->char_specials.timer);
     sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\nplayer: %s\r", buf);
+    send_to_char(ch, "player: %s\r\n", buf);
 
     sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "\npreferences: %s\r", buf);
+    send_to_char(ch, "preferences: %s\r\n", buf);
 
     send_to_char(ch, "quest_points: %d\r\nquests_completed: %d\r",
        GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
 
     if (GET_QUEST(k) != NOTHING)
-      send_to_char(ch, "\ncurrent_quest: %d\r\ntime_remain: %d\r",
+      send_to_char(ch, "current_quest: %d\r\ntime_remain: %d\r\n",
       GET_QUEST(k), GET_QUEST_TIME(k));
 
 
     sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
-    send_to_char(ch, "\nclass: %s\r", buf);
+    send_to_char(ch, "class: %s\r\n", buf);
 
     char buf1[64], buf2[64];
 
     strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->player.time.birth)));
     strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->player.time.logon)));
 
-    send_to_char(ch, "\ncreated: %s\r\nlast_Logon: %s\r", buf1, buf2);
+    send_to_char(ch, "created: %s\r\nlast_Logon: %s\r\n", buf1, buf2);
 
     send_to_char(ch, "played: %dh %dm\r\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]",
             k->player.time.played / 3600, (k->player.time.played % 3600) / 60,
@@ -880,23 +880,23 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
         send_to_char(ch, ", OLC[%s%d%s]", CCCYN(ch, C_NRM), GET_OLC_ZONE(k), CCNRM(ch, C_NRM));
     }
 
-    send_to_char(ch, "\nhunger: %d\r", GET_COND(k, HUNGER));
-    send_to_char(ch, "\nthirst: %d\r", GET_COND(k, THIRST));
-    send_to_char(ch, "\ndrunk: %d\r", GET_COND(k, DRUNK));
+    send_to_char(ch, "hunger: %d\r\n", GET_COND(k, HUNGER));
+    send_to_char(ch, "thirst: %d\r\n", GET_COND(k, THIRST));
+    send_to_char(ch, "drunk: %d\r\n", GET_COND(k, DRUNK));
   }
 
   for (i = 0, j = k->carrying; j; j = j->next_content, i++)
-  send_to_char(ch, "\nweight: %d\r", IS_CARRYING_W(k));
-  send_to_char(ch, "\nitems: %d\r", IS_CARRYING_N(k));
-  send_to_char(ch, "\ninventory: %d\r", i);
+  send_to_char(ch, "weight: %d\r\n", IS_CARRYING_W(k));
+  send_to_char(ch, "items: %d\r\n", IS_CARRYING_N(k));
+  send_to_char(ch, "inventory: %d\r\n", i);
 
 
   for (i = 0, i2 = 0; i < NUM_WEARS; i++) {
     if (GET_EQ(k, i)) i2++;
-    send_to_char(ch, "\nequipment: %d\r", i2);
+    send_to_char(ch, "equipment: %d\r\n", i2);
   }
 
-  column = send_to_char(ch, "\nmaster: %s\r", k->master ? GET_NAME(k->master) : "<none>");
+  column = send_to_char(ch, "master: %s\r\n", k->master ? GET_NAME(k->master) : "<none>");
   column = send_to_char(ch, "\nfollowers:");
   if (!k->followers)
     send_to_char(ch, " <none>\r");
@@ -936,14 +936,14 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
   if (!IS_NPC(k) && (GET_LEVEL(k) >= LVL_IMMORT)) {
     if (POOFIN(k))
-      send_to_char(ch, "\npoof_in:  %s %s\r", GET_NAME(k), POOFIN(k));
+      send_to_char(ch, "poof_in:  %s %s\r\n", GET_NAME(k), POOFIN(k));
     else
-      send_to_char(ch, "\npoff in:  %s appears with an ear-splitting bang.\r", GET_NAME(k));
+      send_to_char(ch, "poff in:  %s appears with an ear-splitting bang.\r\n", GET_NAME(k));
 
     if (POOFOUT(k))
-      send_to_char(ch, "\npoof_out: %s %s\r", GET_NAME(k), POOFOUT(k));
+      send_to_char(ch, "poof_out: %s %s\r\n", GET_NAME(k), POOFOUT(k));
     else
-      send_to_char(ch, "\npoof out: %s disappears in a puff of smoke.\r", GET_NAME(k));
+      send_to_char(ch, "poof out: %s disappears in a puff of smoke.\r\n", GET_NAME(k));
   }
 
   /* check mobiles for a script */
@@ -970,7 +970,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
       struct trig_var_data *tv;
       char uname[MAX_INPUT_LENGTH];
 
-      send_to_char(ch, "\n## Global Variables:\r");
+      send_to_char(ch, "## Global Variables:\r\n");
 
       /* currently, variable context for players is always 0, so it is not
        * displayed here. in the future, this might change */
@@ -1782,13 +1782,13 @@ ACMD(do_wizlock)
 
   switch (circle_restrict) {
   case 0:
-    send_to_char(ch, "\nalert:The game is %s completely open.\r", when);
+    send_to_char(ch, "alert:The game is %s completely open.\r\n", when);
     break;
   case 1:
     send_to_char(ch, "\alert:The game is %s closed to new players.\r", when);
     break;
   default:
-    send_to_char(ch, "\nalert:Only level %d and above may enter the game %s.\r", circle_restrict, when);
+    send_to_char(ch, "alert:Only level %d and above may enter the game %s.\r\n", circle_restrict, when);
     break;
   }
 }
@@ -1807,14 +1807,14 @@ ACMD(do_date)
   strftime(timestr, sizeof(timestr), "%c", localtime(&mytime));
 
   if (subcmd == SCMD_DATE)
-    send_to_char(ch, "\nMachine time is %s\r", timestr);
+    send_to_char(ch, "Machine time is %s\r\n", timestr);
   else {
     mytime = time(0) - boot_time;
     d = mytime / 86400;
     h = (mytime / 3600) % 24;
     m = (mytime / 60) % 60;
 
-    send_to_char(ch, "\nUp since: %s - %d day%s, %d:%02d\r", timestr, d, d == 1 ? "" : "s", h, m);
+    send_to_char(ch, "Up since: %s - %d day%s, %d:%02d\r\n", timestr, d, d == 1 ? "" : "s", h, m);
   }
 }
 
@@ -3224,7 +3224,7 @@ static int perform_set(struct char_data *ch, struct char_data *vict, int mode, c
       break;
     case 45: /* gender */
       if ((i = search_block(val_arg, genders, FALSE)) < 0) {
-        send_to_char(ch, "\nMust be 'male', 'female', or 'neutral'.\r");
+        send_to_char(ch, "Must be 'male', 'female', or 'neutral'.\r\n");
         return (0);
       }
       GET_GENDER(vict) = i;
@@ -4176,7 +4176,7 @@ ACMD(do_copyover)
       return;
     }
 
-   sprintf (buf, "\n\r *** COPYOVER by %s - please remain seated!\n\r", GET_NAME(ch));
+   sprintf (buf, "\r *** COPYOVER by %s - please remain seated!\n\r\n", GET_NAME(ch));
 
    /* write boot_time as first line in file */
    fprintf(fp, "%ld\n", (long)boot_time);
@@ -4194,7 +4194,7 @@ ACMD(do_copyover)
 
   /* drop those logging on */
    if (!d->character || d->connected > CON_PLAYING) {
-     write_to_descriptor (d->descriptor, "\n\rSorry, we are rebooting. Come back in a few minutes.\n\r");
+     write_to_descriptor (d->descriptor, "\rSorry, we are rebooting. Come back in a few minutes.\n\r\n");
      close_socket (d); /* throw'em out */
    } else {
       fprintf (fp, "%d %ld %s %s %s\n", d->descriptor, GET_PREF(och), GET_NAME(och), d->host, CopyoverGet(d));

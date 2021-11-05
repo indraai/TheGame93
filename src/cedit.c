@@ -586,13 +586,13 @@ static void cedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header. */
   write_to_output(d,
-  	  "\n# Config Editor\r"
-  	  "\nmenu[Game Play]:a\r"
-  	  "\nmenu[Crashsave & Rent]:b\r"
-  	  "\nmenu[Room Numbers]:c\r"
-      "\nmenu[Operation]:d\r"
-      "\nmenu[Autowize]:e\r"
-      "\nmenu[Quit]:0\r");
+  	  "# Config Editor\r\n"
+  	  "menu[Game Play]:a\r\n"
+  	  "menu[Crashsave & Rent]:b\r\n"
+  	  "menu[Room Numbers]:c\r\n"
+      "menu[Operation]:d\r\n"
+      "menu[Autowize]:e\r\n"
+      "menu[Quit]:0\r\n");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
@@ -606,35 +606,35 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
 
-  write_to_output(d, "\n## Gameplay\r"
-        "\nselect[a:Player Killing]:%s\r"
-        "\nselect[b:Player Thieving Allowed]:%s\r"
-        "\nselect[c:Minimum Level To Shout]:%d\r"
-        "\nselect[d:Holler Move Cost]:%d\r"
-        "\nselect[e:Tunnel Size]:%d\r"
-        "\nselect[f:Maximum Experience Gain]:%d\r"
-        "\nselect[g:Maximum Experience Loss]:%d\r"
-        "\nselect[h:Max Time for NPC Corpse]:%d\r"
-        "\nselect[i:Max Time for PC Corpse]:%d\r"
-        "\nselect[j:Tics before PC sent to void]:%d\r"
-        "\nselect[k:Tics before PC is autosaved]:%d\r"
-        "\nselect[l:Level Immune To IDLE]:%d\r"
-        "\nselect[m:Death Traps Junk Items]:%s\r"
-        "\nselect[n:Objects Load Into Inventory]:%s\r"
-        "\nselect[o:Track Through Doors]:%s\r"
-        "\nselect[p:Display Closed Doors]:%s\r"
-        "\nselect[q:Diagonal Directions]:%s\r"
-        "\nselect[r:Prevent Mortal Level To Immortal]:%s\r"
-	      "\nselect[s:OK Message Text]:%s\r"
-	      "\nselect[t:HUH Message Text]:%s\r"
+  write_to_output(d, "## Gameplay\r\n"
+        "select[a:Player Killing]:%s\r\n"
+        "select[b:Player Thieving Allowed]:%s\r\n"
+        "select[c:Minimum Level To Shout]:%d\r\n"
+        "select[d:Holler Move Cost]:%d\r\n"
+        "select[e:Tunnel Size]:%d\r\n"
+        "select[f:Maximum Experience Gain]:%d\r\n"
+        "select[g:Maximum Experience Loss]:%d\r\n"
+        "select[h:Max Time for NPC Corpse]:%d\r\n"
+        "select[i:Max Time for PC Corpse]:%d\r\n"
+        "select[j:Tics before PC sent to void]:%d\r\n"
+        "select[k:Tics before PC is autosaved]:%d\r\n"
+        "select[l:Level Immune To IDLE]:%d\r\n"
+        "select[m:Death Traps Junk Items]:%s\r\n"
+        "select[n:Objects Load Into Inventory]:%s\r\n"
+        "select[o:Track Through Doors]:%s\r\n"
+        "select[p:Display Closed Doors]:%s\r\n"
+        "select[q:Diagonal Directions]:%s\r\n"
+        "select[r:Prevent Mortal Level To Immortal]:%s\r\n"
+	      "select[s:OK Message Text]:%s\r\n"
+	      "select[t:HUH Message Text]:%s\r\n"
         "\nselect[u:NOPERSON Message Text]:%s"
         "\nselect[v:NOEFFECT Message Text]:%s"
-        "\nselect[w:Map/Automap Option]:%s\r"
-        "\nselect[x:Default map size]:%d\r"
-        "\nselect[y:Default minimap size]:%d\r"
-        "\nselect[z:Scripts on PC's]:%s\r"
-        "\nmenu[Exit to Main Menu]:0\r"
-        "\nEnter your choice...\r",
+        "select[w:Map/Automap Option]:%s\r\n"
+        "select[x:Default map size]:%d\r\n"
+        "select[y:Default minimap size]:%d\r\n"
+        "select[z:Scripts on PC's]:%s\r\n"
+        "menu[Exit to Main Menu]:0\r\n"
+        "Enter your choice...\r\n",
         CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
         CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
         OLC_CONFIG(d)->play.level_can_shout,
@@ -856,7 +856,7 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           break;
 
         default:
-          write_to_output(d, "\nThat is an invalid choice!\r");
+          write_to_output(d, "That is an invalid choice!\r\n");
           cedit_disp_menu(d);
           break;
       }
@@ -865,37 +865,37 @@ void cedit_parse(struct descriptor_data *d, char *arg)
     case CEDIT_GAME_OPTIONS_MENU:
       switch (*arg) {
         case 'a':
-          write_to_output(d, "\nIs player killing allowed?\r");
+          write_to_output(d, "Is player killing allowed?\r\n");
           TOGGLE_VAR(OLC_CONFIG(d)->play.pk_allowed);
           break;
 
         case 'b':
-          write_to_output(d, "\nIs player thieving allowed?\r");
+          write_to_output(d, "Is player thieving allowed?\r\n");
           TOGGLE_VAR(OLC_CONFIG(d)->play.pt_allowed);
           break;
 
         case 'c':
-          write_to_output(d, "\nWhat is the minimum level a player must be to shout, gossip, etc?\r");
+          write_to_output(d, "What is the minimum level a player must be to shout, gossip, etc?\r\n");
           OLC_MODE(d) = CEDIT_LEVEL_CAN_SHOUT;
           return;
 
         case 'd':
-          write_to_output(d, "\nWhat is the amount it costs (in move points) to holler?\r");
+          write_to_output(d, "What is the amount it costs (in move points) to holler?\r\n");
           OLC_MODE(d) = CEDIT_HOLLER_MOVE_COST;
           return;
 
         case 'e':
-          write_to_output(d, "\nWhat is the maximum number of people allowed in a tunnel?\r");
+          write_to_output(d, "What is the maximum number of people allowed in a tunnel?\r\n");
           OLC_MODE(d) = CEDIT_TUNNEL_SIZE;
           return;
 
         case 'f':
-          write_to_output(d, "\nWhat is the maximum gain of experience per tackle for players?\r");
+          write_to_output(d, "What is the maximum gain of experience per tackle for players?\r\n");
           OLC_MODE(d) = CEDIT_MAX_EXP_GAIN;
           return;
 
         case 'g':
-          write_to_output(d, "\nWhat is the maximum loss of experience for tackled players?\r");
+          write_to_output(d, "What is the maximum loss of experience for tackled players?\r\n");
           OLC_MODE(d) = CEDIT_MAX_EXP_LOSS;
           return;
 
@@ -994,7 +994,7 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           return;
 
         default:
-          write_to_output(d, "\nThat is an invalid choice!\r");
+          write_to_output(d, "That is an invalid choice!\r\n");
           cedit_disp_game_play_options(d);
       }
 

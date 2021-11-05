@@ -866,7 +866,7 @@ static char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr,
   }
   CAP(itemname);
 
-  snprintf(result, sizeof(result), "\n%d:%s ☉%d (%s) %s\r",
+  snprintf(result, sizeof(result), "%d:%s ☉%d (%s) %s\r\n",
       aindex,
       itemname,
       buy_price(obj, shop_nr, keeper, ch),
@@ -893,7 +893,7 @@ static void shopping_list(char *arg, struct char_data *ch, struct char_data *kee
 
   one_argument(arg, name);
 
-  len = strlcpy(buf,   "\n# Available Items\r", sizeof(buf));
+  len = strlcpy(buf,   "# Available Items\r\n", sizeof(buf));
   if (keeper->carrying)
     for (obj = keeper->carrying; obj; obj = obj->next_content)
       if (CAN_SEE_OBJ(ch, obj) && GET_OBJ_COST(obj) > 0) {
@@ -919,16 +919,16 @@ static void shopping_list(char *arg, struct char_data *ch, struct char_data *kee
       }
   lindex++;
   if (!last_obj)	/* we actually have nothing in our list for sale, period */
-    send_to_char(ch, "\ninfo:Currently, there is nothing for sale.\r");
+    send_to_char(ch, "info:Currently, there is nothing for sale.\r\n");
   else if (*name && !found)	/* nothing the char was looking for was found */
-    send_to_char(ch, "\ninfo:Presently, none of those are for sale.\r");
+    send_to_char(ch, "info:Presently, none of those are for sale.\r\n");
   else {
     if (!*name || isname(name, last_obj->name))	/* show last obj */
       if (len < sizeof(buf))
         strncat(buf, list_object(last_obj, cnt, lindex, shop_nr, keeper, ch), sizeof(buf) - len - 1);	/* strncat: OK */
     page_string(ch->desc, buf, TRUE);
     if (has_quest)
-      send_to_char(ch, "\ninfo:Items flagged \"qp\" require quest points to purchase.\r");
+      send_to_char(ch, "info:Items flagged \"qp\" require quest points to purchase.\r\n");
   }
 }
 

@@ -197,9 +197,9 @@ static void get_check_money(struct char_data *ch, struct obj_data *obj)
   increase_gold(ch, value);
 
   if (value == 1)
-    send_to_char(ch, "\nalert:There was 1 coin.\r");
+    send_to_char(ch, "alert:There was 1 coin.\r$");
   else
-    send_to_char(ch, "\nalert:There were %d coins.\r", value);
+    send_to_char(ch, "alert:There were %d coins.\r\n", value);
 }
 
 static void perform_get_from_container(struct char_data *ch, struct obj_data *obj,
@@ -1529,18 +1529,18 @@ ACMD(do_offer)
 
   switch (rand_number(0, 5)) {
     case 0:
-      send_to_char(ch, "\nFor your offering %s to the Devas.\r\nYou receive one gold coin for your humility.\r", GET_OBJ_SHORT(j));
+      send_to_char(ch, "For your offering %s to the Devas.\r\nYou receive one gold coin for your humility.\r\n", GET_OBJ_SHORT(j));
       increase_gold(ch, 1);
     break;
     case 1:
-      send_to_char(ch, "\nYou make an offering of %s to the Devas.\r\nThe Devas ignore your offering.\r", GET_OBJ_SHORT(j));
+      send_to_char(ch, "You make an offering of %s to the Devas.\r\nThe Devas ignore your offering.\r\n", GET_OBJ_SHORT(j));
     break;
     case 2:
-      send_to_char(ch, "\nYou make an offering of %s to the Devas.\r\nThe Devas give you %d experience points.\r", GET_OBJ_SHORT(j), 1+2*GET_OBJ_LEVEL(j));
+      send_to_char(ch, "You make an offering of %s to the Devas.\r\nThe Devas give you %d experience points.\r\n", GET_OBJ_SHORT(j), 1+2*GET_OBJ_LEVEL(j));
       GET_EXP(ch) += (1+2*GET_OBJ_LEVEL(j));
     break;
     case 3:
-      send_to_char(ch, "You make an offering of %s to the Devas.\r\nYou receive %d experience points.\r", GET_OBJ_SHORT(j), 1+GET_OBJ_LEVEL(j));
+      send_to_char(ch, "You make an offering of %s to the Devas.\r\nYou receive %d experience points.\r\n", GET_OBJ_SHORT(j), 1+GET_OBJ_LEVEL(j));
       GET_EXP(ch) += (1+GET_OBJ_LEVEL(j));
     break;
     case 4:
@@ -1552,7 +1552,8 @@ ACMD(do_offer)
       increase_gold(ch, (1+2*GET_OBJ_LEVEL(j)));
     break;
     default:
-      send_to_char(ch, "You make an offering of %s to the Devas.\r\nYou receive one gold coin for your humility.\r\n",GET_OBJ_SHORT(j));
+      send_to_char(ch, "You make an offering of %s to the Devas.\r"
+      "\nYou receive one gold coin for your humility.\r\n",GET_OBJ_SHORT(j));
       increase_gold(ch, 1);
     break;
   }

@@ -238,7 +238,7 @@ ACMD(do_gmote)
   }
 
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_SOUNDPROOF)) {
-    send_to_char(ch, "\ngmote:The walls seem to absorb your actions.\r");
+    send_to_char(ch, "gmote:The walls seem to absorb your actions.\r\n");
     return;
   }
 
@@ -249,16 +249,16 @@ action = &soc_mess_list[act_nr];
 
   if (!*arg) {
     if(!action->others_no_arg || !*action->others_no_arg) {
-      send_to_char(ch, "\ngmote:Who are you going to do that to?\r");
+      send_to_char(ch, "gmote:Who are you going to do that to?\r\n");
       return;
     }
     snprintf(buf, sizeof(buf), "Gemote: %s", action->others_no_arg);
   } else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
-    send_to_char(ch, "\ngmote%s\r", action->not_found);
+    send_to_char(ch, "gmote:%s\r\n", action->not_found);
     return;
   } else if (vict == ch) {
     if(!action->others_auto || !*action->others_auto) {
-      send_to_char(ch, "\ngmote:%s\r", action->char_auto);
+      send_to_char(ch, "gmote:%s\r\n", action->char_auto);
       return;
     }
     snprintf(buf, sizeof(buf), "Gemote: %s", action->others_auto);
@@ -268,7 +268,7 @@ action = &soc_mess_list[act_nr];
            FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
       return;
     }
-    snprintf(buf, sizeof(buf), "Gemote: %s", action->others_found);
+    snprintf(buf, sizeof(buf), "gmote:%s", action->others_found);
   }
   act(buf, FALSE, ch, 0, vict, TO_GMOTE);
 }

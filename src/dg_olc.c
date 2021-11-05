@@ -204,15 +204,15 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Trigger %d\r"
-  "\nselect[1:name]:%s\r"
-  "\nselect[2:attach]:%s\r"
-  "\nselect[3:types]:%s\r"
-  "\nselect[4:num arg]:%d\r"
-  "\nselect[5:arguments]:%s\r"
-  "\nselect[6:commands]: %s\r"
-  "\nmenu[copy trigger]:p\r"
-  "\nmenu[quit]:0\r",
+  "# Trigger %d\r\n"
+  "select[1:name]:%s\r\n"
+  "select[2:attach]:%s\r\n"
+  "select[3:types]:%s\r\n"
+  "select[4:num arg]:%d\r\n"
+  "select[5:arguments]:%s\r\n"
+  "select[6:commands]: %s\r\n"
+  "menu[copy trigger]:p\r\n"
+  "menu[quit]:0\r\n",
   OLC_NUM(d), 			              /* vnum on the title line */
   GET_TRIG_NAME(trig),		        /* name                   */
   attach_type,			              /* attach type            */
@@ -247,15 +247,15 @@ static void trigedit_disp_types(struct descriptor_data *d)
 
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n## Attach\r");
+  write_to_output(d, "## Attach\r\n");
   for (i = 0; i < NUM_TRIG_TYPE_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r",
+    write_to_output(d, "menu[%s]:%d\r\n",
       types[i],
       i + 1
     );
   }
   sprintbit(GET_TRIG_TYPE(OLC_TRIG(d)), types, bitbuf, sizeof(bitbuf));
-  write_to_output(d, "\ncurrent:%s\r"
+  write_to_output(d, "current:%s\r\n"
     "menu[quit]:0",
     bitbuf
   );
@@ -272,23 +272,23 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
        case '0':
          if (OLC_VAL(d)) { /* Anything been changed? */
            if (!GET_TRIG_TYPE(OLC_TRIG(d))) {
-             write_to_output(d, "\nInvalid Trigger Type! Answer a to abort quit!\r");
+             write_to_output(d, "Invalid Trigger Type! Answer a to abort quit!\r\n");
            }
-           write_to_output(d, "\n%s\r", confirm_msg);
+           write_to_output(d, "%s\r\n", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
            cleanup_olc(d, CLEANUP_ALL);
          return;
        case '1':
          OLC_MODE(d) = TRIGEDIT_NAME;
-         write_to_output(d, "\nWhat is the trigger name?\r");
+         write_to_output(d, "What is the trigger name?\r\n");
          break;
        case '2':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
          write_to_output(d, "## Attach"
-          "\nmenu[mobiles]:0\r"
-          "\nmenu[objects]:1\r"
-          "\nmenu[rooms]:2\r");
+          "menu[mobiles]:0\r\n"
+          "menu[objects]:1\r\n"
+          "menu[rooms]:2\r\n");
          break;
        case '3':
          OLC_MODE(d) = TRIGEDIT_TYPES;
@@ -296,15 +296,15 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          break;
        case '4':
          OLC_MODE(d) = TRIGEDIT_NARG;
-         write_to_output(d, "\nWhat is the numeric argument?\r");
+         write_to_output(d, "What is the numeric argument?\r\n");
          break;
        case '5':
          OLC_MODE(d) = TRIGEDIT_ARGUMENT;
-         write_to_output(d, "\nWhat is the trigger argument?\r");
+         write_to_output(d, "What is the trigger argument?\r\n");
          break;
        case '6':
          OLC_MODE(d) = TRIGEDIT_COMMANDS;
-         write_to_output(d, "\nEnter trigger commands: (/s saves /h for help)\r");
+         write_to_output(d, "Enter trigger commands: (/s saves /h for help)\r\n");
          d->backstr = NULL;
          if (OLC_STORAGE(d)) {
            clear_screen(d);
@@ -318,7 +318,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
 
          break;
        case 'p':
-         write_to_output(d, "\nCopy what trigger?\r");
+         write_to_output(d, "Copy what trigger?\r\n");
          OLC_MODE(d) = TRIGEDIT_COPY;
          break;
        default:
@@ -341,7 +341,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
         case 'a': /* abort quitting */
           break;
         default:
-          write_to_output(d, "\nThat was an invalid choice.\r");
+          write_to_output(d, "That was an invalid choice.\r\n");
           write_to_output(d, "%s", confirm_msg);
           return;
       }
@@ -385,7 +385,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
       if ((i = real_trigger(atoi(arg))) != NOWHERE) {
         trigedit_setup_existing(d, i);
       } else
-        write_to_output(d, "\nThat trigger does not exist.\r");
+        write_to_output(d, "That trigger does not exist.\r\n");
       break;
 
     case TRIGEDIT_COMMANDS:
@@ -434,14 +434,14 @@ void trigedit_save(struct descriptor_data *d)
 
     CREATE(trig->cmdlist, struct cmdlist_element, 1);
     if (s) {
-      char *t = strtok(s, "\n\r"); /* strtok returns NULL if s is "\r\n" */
+      char *t = strtok(s, "\r\n"); /* strtok returns NULL if s is "\r\n" */
       if (t)
         trig->cmdlist->cmd = strdup(t);
       else
         trig->cmdlist->cmd = strdup("* No script");
 
       cmd = trig->cmdlist;
-      while ((s = strtok(NULL, "\n\r"))) {
+      while ((s = strtok(NULL, "\r\n"))) {
         CREATE(cmd->next, struct cmdlist_element, 1);
         cmd = cmd->next;
         cmd->cmd = strdup(s);
@@ -503,11 +503,11 @@ void trigedit_save(struct descriptor_data *d)
     CREATE(trig->cmdlist, struct cmdlist_element, 1);
     if (s) {
       /* strtok returns NULL if s is "\r\n" */
-      char *t = strtok(s, "\n\r");
+      char *t = strtok(s, "\r\n");
       trig->cmdlist->cmd = strdup(t ? t : "* No script");
       cmd = trig->cmdlist;
 
-      while ((s = strtok(NULL, "\n\r"))) {
+      while ((s = strtok(NULL, "\r\n"))) {
         CREATE(cmd->next, struct cmdlist_element, 1);
         cmd = cmd->next;
         cmd->cmd = strdup(s);
@@ -640,7 +640,7 @@ void trigedit_save(struct descriptor_data *d)
   remove(buf);
   rename(fname, buf);
 
-  write_to_output(d, "\nTrigger saved to disk.\r");
+  write_to_output(d, "Trigger saved to disk.\r\n");
   trigedit_create_index(zone, "trg");
 }
 
@@ -725,17 +725,17 @@ void dg_script_menu(struct descriptor_data *d)
   OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
 
   clear_screen(d);
-  write_to_output(d, "\n## Triggers\r");
+  write_to_output(d, "## Triggers\r\n");
 
   editscript = OLC_SCRIPT(d);
 
   while (editscript) {
-    write_to_output(d, "\n%d: %s\r",
+    write_to_output(d, "%d: %s\r\n",
       editscript->vnum,
       trig_index[real_trigger(editscript->vnum)]->proto->name);
 
     if (trig_index[real_trigger(editscript->vnum)]->proto->attach_type != OLC_ITEM_TYPE(d))
-      write_to_output(d, "\nMis-matched Trigger Type.\r");
+      write_to_output(d, "Mis-matched Trigger Type.\r\n");
     /*
     else
       write_to_output(d, "\r\n");
@@ -744,9 +744,9 @@ void dg_script_menu(struct descriptor_data *d)
   }
 
   write_to_output(d,
-    "\nmenu[attach]:a\r"
-    "\nmenu[detach]:b\r"
-    "\nmenu[done]:0\r");
+    "menu[attach]:a\r\n"
+    "menu[detach]:b\r\n"
+    "menu[done]:0\r\n");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
@@ -760,11 +760,11 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
         case '0':
           return 0;
         case 'a':
-          write_to_output(d, "\nPlease enter position, vnum (ex: 1, 200)\r");
+          write_to_output(d, "Please enter position, vnum (ex: 1, 200)\r\n");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_NEW_TRIGGER;
           break;
         case 'b':
-          write_to_output(d, "\nWhich entry should be deleted?  0 to abort\r");
+          write_to_output(d, "Which entry should be deleted?  0 to abort\r\n");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_DEL_TRIGGER;
           break;
         default:
@@ -786,8 +786,8 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
       if (vnum==0) break; /* this aborts a new trigger entry */
 
       if (real_trigger(vnum) == NOTHING) {
-        write_to_output(d, "\nInvalid Trigger VNUM!\r"
-               "\nPlease enter position, vnum (ex: 1, 200)\r");
+        write_to_output(d, "Invalid Trigger VNUM!\r\n"
+               "Please enter position, vnum (ex: 1, 200)\r\n");
         return 1;
       }
 
@@ -858,7 +858,7 @@ int format_script(struct descriptor_data *d)
     return FALSE;
 
   sc = strdup(*d->str); /* we work on a copy, because of strtok() */
-  t = strtok(sc, "\n\r");
+  t = strtok(sc, "\r\n");
   *nsc = '\0';
 
   while (t) {
@@ -873,7 +873,7 @@ int format_script(struct descriptor_data *d)
     } else if (!strn_cmp(t, "end", 3) ||
                !strn_cmp(t, "done", 4)) {
       if (!indent) {
-        write_to_output(d, "\nUnmatched 'end' or 'done' (line %d)!\r", line_num);
+        write_to_output(d, "Unmatched 'end' or 'done' (line %d)!\r\n", line_num);
         free(sc);
         return FALSE;
       }
@@ -881,7 +881,7 @@ int format_script(struct descriptor_data *d)
       indent_next = FALSE;
     } else if (!strn_cmp(t, "else", 4)) {
       if (!indent) {
-        write_to_output(d, "\nUnmatched 'else' (line %d)!\r", line_num);
+        write_to_output(d, "Unmatched 'else' (line %d)!\r\n", line_num);
         free(sc);
         return FALSE;
       }
@@ -890,7 +890,7 @@ int format_script(struct descriptor_data *d)
     } else if (!strn_cmp(t, "case", 4) ||
                !strn_cmp(t, "default", 7)) {
       if (!indent) {
-        write_to_output(d, "\nCase/default outside switch (line %d)!\r", line_num);
+        write_to_output(d, "Case/default outside switch (line %d)!\r\n", line_num);
         free(sc);
         return FALSE;
       }
@@ -899,7 +899,7 @@ int format_script(struct descriptor_data *d)
       found_case = TRUE;
     } else if (!strn_cmp(t, "break", 5)) {
       if (!found_case || !indent ) {
-        write_to_output(d, "\nBreak not in case (line %d)!\r", line_num);
+        write_to_output(d, "Break not in case (line %d)!\r\n", line_num);
         free(sc);
         return FALSE;
       }
@@ -916,7 +916,7 @@ int format_script(struct descriptor_data *d)
     ret = snprintf(line + nlen, sizeof(line) - nlen, "%s\r\n", t);
     llen = (size_t)ret;
     if (ret < 0 || llen + nlen + len > d->max_str - 1 ) {
-      write_to_output(d, "\nString too long, formatting aborted\r");
+      write_to_output(d, "String too long, formatting aborted\r\n");
       free(sc);
       return FALSE;
     }
@@ -927,11 +927,11 @@ int format_script(struct descriptor_data *d)
       indent++;
       indent_next = FALSE;
     }
-    t = strtok(NULL, "\n\r");
+    t = strtok(NULL, "\r\n");
   }
 
   if (indent)
-    write_to_output(d, "\nUnmatched if, while or switch ignored.\r");
+    write_to_output(d, "Unmatched if, while or switch ignored.\r\n");
 
   free(*d->str);
   *d->str = strdup(nsc);

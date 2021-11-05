@@ -436,7 +436,7 @@ void copyover_recover()
       break;
 
     /* Write something, and check if it goes error-free */
-    if (write_to_descriptor (desc, "\n\rRestoring from copyover...\n\r") < 0) {
+    if (write_to_descriptor (desc, "Restoring from copyover...\n\r") < 0) {
       close (desc); /* nope */
       continue;
     }
@@ -476,10 +476,10 @@ void copyover_recover()
 
     /* Player file not found?! */
     if (!fOld) {
-      write_to_descriptor (desc, "\n\rSomehow, your character was lost in the copyover. Sorry.\n\r");
+      write_to_descriptor (desc, "Somehow, your character was lost in the copyover. Sorry.\n\r");
       close_socket (d);
     } else {
-      write_to_descriptor (desc, "\n\rCopyover recovery complete.\n\r");
+      write_to_descriptor (desc, "Copyover recovery complete.\n\r");
       GET_PREF(d->character) = pref;
 
       enter_player_game(d);
@@ -1150,30 +1150,30 @@ static char *make_prompt(struct descriptor_data *d)
     if (PRF_FLAGGED(d->character, PRF_DISPAUTO) && len < sizeof(prompt)) {
       struct char_data *ch = d->character;
       if (GET_HIT(ch) << 2 < GET_MAX_HIT(ch) ) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d\r\n", GET_HIT(ch), GET_MAX_HIT(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MANA(ch) << 2 < GET_MAX_MANA(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d\r\n", GET_MANA(ch), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MOVE(ch) << 2 < GET_MAX_MOVE(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d\r\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
         if (count >= 0)
           len += count;
       }
 
     } else { /* not auto prompt */
       if (PRF_FLAGGED(d->character, PRF_DISPHP) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(d->character), GET_MAX_HIT(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d\r\n", GET_HIT(d->character), GET_MAX_HIT(d->character));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r",
+        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d\r\n",
           GET_MANA(d->character),
           GET_MAX_MANA(d->character));
 
@@ -1182,20 +1182,20 @@ static char *make_prompt(struct descriptor_data *d)
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMOVE) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d\r", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d\r\n", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
         if (count >= 0)
           len += count;
       }
     }
 
     if (PRF_FLAGGED(d->character, PRF_BUILDWALK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "\n:comm:BUILDWALKING\r");
+      count = snprintf(prompt + len, sizeof(prompt) - len, ":comm:BUILDWALKING\r\n");
       if (count >= 0)
         len += count;
     }
 
     if (PRF_FLAGGED(d->character, PRF_AFK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:AFK\r");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "comm:AFK\r\n");
       if (count >= 0)
         len += count;
     }
@@ -1209,14 +1209,14 @@ static char *make_prompt(struct descriptor_data *d)
 
      if (GET_LAST_MOTD(d->character) < motdmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:MOTD\r");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "comm:MOTD\r\n");
        if (count >= 0)
          len += count;
      }
 
      // SET THE HUNGER METER
      if (GET_COND(d->character, HUNGER) > 0 && len < sizeof(prompt)) {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|20\r",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "hunger: %d|20\r\n",
          GET_COND(d->character, HUNGER));
 
        if (count >= 0) len += count;
@@ -1224,7 +1224,7 @@ static char *make_prompt(struct descriptor_data *d)
 
       // SET THE HUNGER METER
       if (GET_COND(d->character, THIRST) > 0 && len < sizeof(prompt)) {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|20\r",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "thirst: %d|20\r\n",
          GET_COND(d->character, THIRST));
 
        if (count >= 0) len += count;
@@ -1523,7 +1523,7 @@ static int new_descriptor(socket_t s)
     sockets_connected++;
 
   if (sockets_connected >= CONFIG_MAX_PLAYING) {
-    write_to_descriptor(desc, "\nThe game is full right now... please try again later.\r");
+    write_to_descriptor(desc, "The game is full right now... please try again later.\r\n");
     CLOSE_SOCKET(desc);
     return (0);
   }
@@ -1550,7 +1550,7 @@ static int new_descriptor(socket_t s)
   /* determine if the site is banned */
   if (isbanned(newd->host) == BAN_ALL) {
     CLOSE_SOCKET(desc);
-    mudlog(CMP, LVL_DEVA, TRUE, "\nConnection attempt denied from [%s]\r", newd->host);
+    mudlog(CMP, LVL_DEVA, TRUE, "Connection attempt denied from [%s]\r\n", newd->host);
     free(newd);
     return (0);
   }
@@ -1566,14 +1566,14 @@ static int new_descriptor(socket_t s)
     /* Attach Event */
     NEW_EVENT(ePROTOCOLS, newd, NULL, 1.5 * PASSES_PER_SEC);
     /* KaVir's plugin*/
-    write_to_output(newd, "\nAttempting to Detect Client, Please Wait...\r");
+    write_to_output(newd, "Attempting to Detect Client, Please Wait...\r\n");
     ProtocolNegotiate(newd);
   } else {
     /*
     greetsize = strlen(GREETINGS);
     write_to_output(newd, "%s", ProtocolOutput(newd, GREETINGS, &greetsize));
     */
-    write_to_output(newd, "\nPlease enter your player name...\r");
+    write_to_output(newd, "Please enter your player name...\r\n");
   }
   return (0);
 }

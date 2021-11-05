@@ -630,7 +630,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
     top    = vmax;
   }
 
-  len = strlcpy(buf,"\n## Agents\r", sizeof(buf));
+  len = strlcpy(buf,"## Agents\r\n", sizeof(buf));
 
   if (!top_of_mobt)
     return;
@@ -639,7 +639,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
     if (mob_index[i].vnum >= bottom && mob_index[i].vnum <= top) {
       counter++;
 
-      len += snprintf(buf + len, sizeof(buf) - len, "\n%d: %s\r",
+      len += snprintf(buf + len, sizeof(buf) - len, "%d: %s\r\n",
         mob_index[i].vnum,
         mob_proto[i].player.short_descr
       );
@@ -649,7 +649,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
   }
 
   if (counter == 0)
-    send_to_char(ch, "\nNo Agents.\r");
+    send_to_char(ch, "No Agents.\r\n");
   else
     page_string(ch->desc, buf, TRUE);
 }
@@ -770,7 +770,7 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
       top    = zone_table[top_of_zone_table].number; /* Highest Zone */
   }
 
-  len = snprintf(buf, sizeof(buf), "\n# Zone List\r");
+  len = snprintf(buf, sizeof(buf), "# Zone List\r\n");
 
   if (!top_of_zone_table)
     return;
@@ -780,7 +780,7 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
     bool zname = (!use_name) || (is_name(name, zone_table[i].builders));
     if (znum && zname) {
       counter++;
-      tmp_len = snprintf(buf+len, sizeof(buf)-len, "\n%d. %s (%s)\r",
+      tmp_len = snprintf(buf+len, sizeof(buf)-len, "%d. %s (%s)\r\n",
           zone_table[i].number, zone_table[i].name, zone_table[i].builders ? zone_table[i].builders : "None.");
       len += tmp_len;
       if (len > sizeof(buf))

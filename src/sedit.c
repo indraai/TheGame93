@@ -139,7 +139,7 @@ ACMD(do_oasis_sedit)
   }
 
   if (save) {
-    send_to_char(ch, "\nSaving all shops in zone %d.\r",
+    send_to_char(ch, "Saving all shops in zone %d.\r\n",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves shop info for zone %d.",
@@ -226,14 +226,14 @@ static void sedit_products_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "\n## Products\r");
+  write_to_output(d, "## Products\r\n");
   for (i = 0; S_PRODUCT(shop, i) != NOTHING; i++) {
-    write_to_output(d, "\n%d: %s\r", i,
+    write_to_output(d, "%d: %s\r\n", i,
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
-  write_to_output(d, "\nmenu[add product]:A\r"
-	  "\nmenu[delete product]:D\r"
-	  "\nmenu[quit]:q\r"
+  write_to_output(d, "menu[add product]:A\r\n"
+	  "menu[delete product]:D\r\n"
+	  "menu[quit]:q\r\n"
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
@@ -256,11 +256,10 @@ static void sedit_compact_rooms_menu(struct descriptor_data *d)
     }
   }
   write_to_output(d, "\r\n"
-	  "%sA%s) Add a new room.\r\n"
-	  "%sD%s) Delete a room.\r\n"
-	  "%sL%s) Long display.\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ", grn, nrm, grn, nrm, grn, nrm, grn, nrm);
+	  "menu[Add Room]:a\r\n"
+	  "menu[Delete Room]:d\r\n"
+	  "menu[Long Display]:l\r\n"
+	  "menu[Quit]:q\r\n");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
@@ -383,31 +382,31 @@ static void sedit_disp_menu(struct descriptor_data *d)
   sprintbit(S_NOTRADE(shop), trade_letters, buf1, sizeof(buf1));
   sprintbit(S_BITVECTOR(shop), shop_bits, buf2, sizeof(buf2));
   write_to_output(d,
-	  "\n# Shop: %d\r"
-	  "\nselect[0:keeper]:%d - %s\r"
-    "\nselect[1:Open 1]:%d\r"
-    "\nselect[2:Close 1]:%d\r"
-    "\nselect[3:Open 2]:%d\r"
-    "\nselect[4:Close 2]:%d\r"
-	  "\nselect[5:Sell Rate]:%1.2f\r"
-    "\nselect[D:Sell success]:%s\r"
-    "\nselect[6:Buy Rate]:%1.2f\r"
-    "\nselect[C:buy success]:%s\r"
-	  "\nselect[E:No Trade With]:%s\r"
-	  "\nselect[F:Shop flags]:%s\r"
-    "\n### No Item!\r"
-	  "\nselect[7:keeper]:%s\r"
-	  "\nselect[8:player]:%s\r"
-    "\n### No Cash!\r"
-	  "\nselect[9:keeper]:%s\r"
-	  "\nselect[A:player]:%s\r"
+	  "# Shop: %d\r\n"
+	  "select[0:keeper]:%d - %s\r\n"
+    "select[1:Open 1]:%d\r\n"
+    "select[2:Close 1]:%d\r\n"
+    "select[3:Open 2]:%d\r\n"
+    "select[4:Close 2]:%d\r\n"
+	  "select[5:Sell Rate]:%1.2f\r\n"
+    "select[D:Sell success]:%s\r\n"
+    "select[6:Buy Rate]:%1.2f\r\n"
+    "select[C:buy success]:%s\r\n"
+	  "select[E:No Trade With]:%s\r\n"
+	  "select[F:Shop flags]:%s\r\n"
+    "### No Item!\r\n"
+	  "select[7:keeper]:%s\r\n"
+	  "select[8:player]:%s\r\n"
+    "### No Cash!\r\n"
+	  "select[9:keeper]:%s\r\n"
+	  "select[A:player]:%s\r\n"
     "\n### No Buy!"
-	  "\nselect[B:keeper]:%s\r"
-	  "\nbmud[Rooms Menu]:R\r"
-	  "\nbmud[Products]:P\r"
-	  "\nbmud[Accept Types]:T\r"
-    "\nbmud[Copy Shop]:W\r"
-	  "\nmenu[quit]:q\r",
+	  "select[B:keeper]:%s\r\n"
+	  "bmud[Rooms Menu]:R\r\n"
+	  "bmud[Products]:P\r\n"
+	  "bmud[Accept Types]:T\r\n"
+    "bmud[Copy Shop]:W\r\n"
+	  "menu[quit]:q\r\n",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
 	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
@@ -464,7 +463,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      write_to_output(d, "\nInvalid choice!\r");
+      write_to_output(d, "Invalid choice!\r\n");
       write_to_output(d, "%s", confirm_msg);
       return;
     }

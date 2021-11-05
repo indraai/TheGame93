@@ -24,19 +24,19 @@
 /* Compassion Command Jul 12 2021 */
 ACMD(do_compassion)
 {
-  send_to_char(ch, "\nAmazing you are developing compassion.\r");
+  send_to_char(ch, "Amazing you are developing compassion.\r\n");
   return;
 }
 /* Kindness Command Jul 12 2021 */
 ACMD(do_kindness)
 {
-  send_to_char(ch, "\nAmazing you are developing kindness.\r");
+  send_to_char(ch, "Amazing you are developing kindness.\r\n");
   return;
 }
 /* Listen Command Jul 12 2021 */
 ACMD(do_listen)
 {
-  send_to_char(ch, "\nAmazing you are developing listening.\r");
+  send_to_char(ch, "Amazing you are developing listening.\r\n");
   return;
 }
 
@@ -92,20 +92,20 @@ ACMD(do_hit)
  one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "\nalert:Hit who?\r");
+    send_to_char(ch, "alert:Hit who?\r\n");
   }
   else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "\nalert:Player not here.\r");
+    send_to_char(ch, "alert:Player not here.\r\n");
   }
   else if (GET_LEVEL(vict) >= LVL_IMMORT) {
-    send_to_char(ch, "\nalert:No hitting immortals!\r");
+    send_to_char(ch, "alert:No hitting immortals!\r\n");
   }
   else if (vict == ch) {
-    send_to_char(ch, "\nalert:Please stop hitting yourself.\r");
-    act("\nalert:$n hits $mself.\r", FALSE, ch, 0, vict, TO_ROOM);
+    send_to_char(ch, "alert:Please stop hitting yourself.\r\n");
+    act("alert:$n hits $mself.\r\n", FALSE, ch, 0, vict, TO_ROOM);
   }
   else if (AFF_FLAGGED(ch, AFF_CHARM) && (ch->master == vict)) {
-    act("\nalert:$N, you are unable to hit $M.\r", FALSE, ch, 0, vict, TO_CHAR);
+    act("alert:$N, you are unable to hit $M.\r\n", FALSE, ch, 0, vict, TO_CHAR);
   }
   else {
     if (!CONFIG_PK_ALLOWED && !IS_NPC(vict) && !IS_NPC(ch))
@@ -118,13 +118,13 @@ ACMD(do_hit)
         WAIT_STATE(ch, PULSE_VIOLENCE + 2);
     }
     else
-      send_to_char(ch, "\nalert:You are fighting.\r");
+      send_to_char(ch, "alert:You are fighting.\r\n");
   }
 }
 
 ACMD(do_kill)
 {
-  send_to_char(ch, "\nYou should learn killing is bad.\r");
+  send_to_char(ch, "You should learn killing is bad.\r\n");
   return;
 
   char arg[MAX_INPUT_LENGTH];
@@ -154,7 +154,7 @@ ACMD(do_kill)
 
 ACMD(do_backstab)
 {
-  send_to_char(ch, "\nYou should learn backstabbing is bad.\r");
+  send_to_char(ch, "You should learn backstabbing is bad.\r\n");
   return;
 
   char buf[MAX_INPUT_LENGTH];
