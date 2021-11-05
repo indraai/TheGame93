@@ -566,10 +566,10 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       }
       else {
         /* send the room description */
-        send_to_char(ch, "::begin:room\n"
-          "talk:#adv world:thegame %d\n"
-          "::end:room\n"
-          "room:%d\n",
+        send_to_char(ch, "::begin:room\r\n"
+          "talk:#adv world:thegame %d\r\n"
+          "::end:room\r\n"
+          "room:%d\r\n",
           GET_ROOM_VNUM(IN_ROOM(ch)),
           GET_ROOM_VNUM(IN_ROOM(ch))
         );
@@ -578,13 +578,13 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
 
   /* now list characters & objects */
-  send_to_char(ch, "::begin:agents\n");
+  send_to_char(ch, "::begin:agents\r\n");
   list_char_to_char(world[IN_ROOM(ch)].people, ch);
-  send_to_char(ch, "::end:agents\n");
+  send_to_char(ch, "::end:agents\r\n");
 
-  send_to_char(ch, "\n::begin:objects\n");
+  send_to_char(ch, "::begin:objects\n");
   list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
-  send_to_char(ch, "\n::end:objects\r<br>");
+  send_to_char(ch, "::end:objects\r\n");
 
   /* autoexits
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
