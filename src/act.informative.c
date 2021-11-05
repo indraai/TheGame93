@@ -538,14 +538,18 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     return;
   }
 
-  /* now list characters & objects */
-  send_to_char(ch, "\n::BEGIN:AGENTS\r");
-  list_char_to_char(world[IN_ROOM(ch)].people, ch);
-  send_to_char(ch, "\n::END:AGENTS\r");
+  send_to_char(ch, "\n# %s\r"
+    world[IN_ROOM(ch)].name,
+  );
 
-  send_to_char(ch, "\n::BEGIN:OBJECTS\r");
+  /* now list characters & objects */
+  send_to_char(ch, "\n::begin:agents\r");
+  list_char_to_char(world[IN_ROOM(ch)].people, ch);
+  send_to_char(ch, "\n::end:agents\r");
+
+  send_to_char(ch, "\n::begin:objects\r");
   list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
-  send_to_char(ch, "\n::END:OBJECTS\r");
+  send_to_char(ch, "\n::end:objects\r");
 
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS)) {
     char buf[MAX_STRING_LENGTH];
@@ -569,21 +573,18 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       }
       else {
         /* send the room description */
-        send_to_char(ch, "\n# %s\r"
-          "\ntalk:#adventure view:thegame:world %d/main\r"
+        send_to_char(ch, "\ntalk:#adventure view:thegame:world %d/main\r"
           "\nroom:%d\r",
-          world[IN_ROOM(ch)].name,
-          // world[target_room].description,
           GET_ROOM_VNUM(IN_ROOM(ch)),
           GET_ROOM_VNUM(IN_ROOM(ch))
         );
       }
     }
   }
-  /* autoexits */
+  /* autoexits
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
     do_auto_exits(ch);
-
+  */
 }
 
 static void look_in_direction(struct char_data *ch, int dir)
