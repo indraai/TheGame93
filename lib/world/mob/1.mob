@@ -1,9 +1,9 @@
 #100
 quinn michaels victim~
 Quinn Michaels~
-Quinn Michaels is here.
+0100/avatar
 ~
-Dressed in drab clothes he looks tired and over worked.  He is one of the few men who did not sign up for military service.
+talk:#adventure view:thegame:agent 0100/look
 ~
 2250 0 0 0 0 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
@@ -429,10 +429,10 @@ RedDEVA PRIME~
 0134/avatar~
 talk:#adventure view:thegame:agent 0134/look
 ~
-2058 0 0 0 16 0 0 0 0 E
+2056 0 0 0 16 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 0
+8 8 6
 E
 #135
 blue deva prime d0135 z1~
@@ -441,10 +441,10 @@ BlueDEVA PRIME~
 ~
 A man in a blue robe is studying a book intently. The Master Magi before you is enthralled in the book he is reading.  He is oblivious to the world around him.
 ~
-72 0 0 0 16 0 0 0 0 E
+8 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0
+8 8 6
 E
 #136
 green deva prime d0136 z1~
