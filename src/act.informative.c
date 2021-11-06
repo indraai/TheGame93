@@ -360,6 +360,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
 
+    send_to_char(ch, "\ntalk:#adv agent:thegame %s\r", i->player.long_descr);
     /*
     if (AFF_FLAGGED(i, AFF_INVISIBLE)) send_to_char(ch, "*");
 
@@ -372,7 +373,6 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
       }
     }
     */
-    send_to_char(ch, "\ntalk:#adv agent:thegame %s\r", i->player.long_descr);
 
     /*
     if (AFF_FLAGGED(i, AFF_SANCTUARY))
