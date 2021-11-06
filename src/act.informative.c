@@ -78,7 +78,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           found++;
       }
       if (found) {
-        send_to_char(ch, "\ninfo:You are %s upon %s.", GET_POS(ch) == POS_SITTING ? "sitting" :
+        send_to_char(ch, "\ninfo:You are %s upon %s.\r", GET_POS(ch) == POS_SITTING ? "sitting" :
         "resting", obj->short_description);
         goto end;
       }
@@ -100,7 +100,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\nobject:%s", obj->description);
+    send_to_char(ch, "\nobject:%s\r", obj->description);
     break;
 
   case SHOW_OBJ_SHORT:
@@ -113,7 +113,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
           send_to_char(ch, "[TRIGS] ");
       }
     }
-    send_to_char(ch, "\nobject:%s", obj->short_description);
+    send_to_char(ch, "\nobject:%s\r", obj->short_description);
     break;
 
   case SHOW_OBJ_ACTION:
@@ -125,16 +125,16 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
         snprintf(notebuf, sizeof(notebuf), "%s", obj->action_description);
         page_string(ch->desc, notebuf, TRUE);
       } else {
-	     send_to_char(ch, "\ninfo:It's blank.");
+	     send_to_char(ch, "\ninfo:It's blank.\r");
       }
       return;
 
     case ITEM_DRINKCON:
-      send_to_char(ch, "\ninfo:It looks like a drink container.");
+      send_to_char(ch, "\ninfo:It looks like a drink container.\r");
       break;
 
     default:
-      send_to_char(ch, "\ninfo:You see nothing special.");
+      send_to_char(ch, "\ninfo:You see nothing special.\r");
       break;
     }
     break;
@@ -206,7 +206,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
 
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG)) {
-      send_to_char(ch, "\nobject:%s", display->short_description);
+      send_to_char(ch, "\nobject:%s\r", display->short_description);
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
@@ -215,7 +215,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     }
   }
   if (!found && show)
-    send_to_char(ch, "\nobject:Nothing.");
+    send_to_char(ch, "\nobject:Nothing.\r");
 }
 static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
 {
@@ -250,12 +250,12 @@ static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
         }
 
     if (num > 0) {
-      send_to_char(ch, "\ninventory:%s", display->short_description);
+      send_to_char(ch, "\ninventory:%s\r", display->short_description);
       found = TRUE;
     }
   }
   if (!found)
-    send_to_char(ch, "\ninventory:Nothing.");
+    send_to_char(ch, "\ninventory:Nothing.\r");
 }
 
 static void diag_char_to_char(struct char_data *i, struct char_data *ch)
@@ -285,7 +285,7 @@ static void diag_char_to_char(struct char_data *i, struct char_data *ch)
     if (percent >= diagnosis[ar_index].percent)
       break;
 
-  send_to_char(ch, "\n%c%s %s", UPPER(*pers), pers + 1, diagnosis[ar_index].text);
+  send_to_char(ch, "\n%c%s %s\r", UPPER(*pers), pers + 1, diagnosis[ar_index].text);
 }
 
 static void look_at_char(struct char_data *i, struct char_data *ch)
@@ -296,8 +296,8 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
     return;
 
    if (i->player.description)
-    send_to_char(ch, "\n# %s"
-      "\n%s",
+    send_to_char(ch, "\n# %s\r"
+      "\n%s\r",
       i->player.short_descr,
       i->player.description
     );
@@ -360,6 +360,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
 
+    send_to_char(ch, "\ntalk:#adv agent:thegame %s\r", i->player.long_descr);
     /*
     if (AFF_FLAGGED(i, AFF_INVISIBLE)) send_to_char(ch, "*");
 
@@ -372,7 +373,6 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
       }
     }
     */
-    send_to_char(ch, "\ntalk:#adv agent:thegame %s", i->player.long_descr);
 
     /*
     if (AFF_FLAGGED(i, AFF_SANCTUARY))
@@ -452,7 +452,7 @@ static void list_char_to_char(struct char_data *list, struct char_data *ch)
         list_one_char(i, ch);
       else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch) &&
 	       AFF_FLAGGED(i, AFF_INFRAVISION))
-        send_to_char(ch, "\ninfo:You see a pair of glowing red eyes looking your way.");
+        send_to_char(ch, "\ninfo:You see a pair of glowing red eyes looking your way.\r");
     }
 }
 
@@ -488,7 +488,7 @@ ACMD(do_exits)
   int door, len = 0;
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT) {
-    send_to_char(ch, "\ninfo:You are blind.");
+    send_to_char(ch, "\ninfo:You are blind.\r");
     return;
   }
 
@@ -505,20 +505,20 @@ ACMD(do_exits)
     len++;
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS) && !EXIT_FLAGGED(EXIT(ch, door), EX_CLOSED))
-      send_to_char(ch, "\nexit[%s]: (%d) %s %s", dirs[door], GET_ROOM_VNUM(EXIT(ch, door)->to_room),
+      send_to_char(ch, "\nexit[%s]: (%d) %s %s\r", dirs[door], GET_ROOM_VNUM(EXIT(ch, door)->to_room),
       EXIT_FLAGGED(EXIT(ch, door), EX_HIDDEN) ? " [HIDDEN]" : "", world[EXIT(ch, door)->to_room].name);
     else if (CONFIG_DISP_CLOSED_DOORS && EXIT_FLAGGED(EXIT(ch, door), EX_CLOSED)) {
       /* But we tell them the door is closed */
-      send_to_char(ch, "\nexit[%s]: %s closed%s", dirs[door],
+      send_to_char(ch, "\nexit[%s]: %s closed%s\r", dirs[door],
 		(EXIT(ch, door)->keyword)? fname(EXIT(ch, door)->keyword) : "opening",
 		EXIT_FLAGGED(EXIT(ch, door), EX_HIDDEN) ? " and hidden." : ".");
       }
     else
-      send_to_char(ch, "\nexit[%s]:%s", dirs[door], IS_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch) ? "Too dark to see." : world[EXIT(ch, door)->to_room].name);
+      send_to_char(ch, "\nexit[%s]:%s\r", dirs[door], IS_DARK(EXIT(ch, door)->to_room) && !CAN_SEE_IN_DARK(ch) ? "Too dark to see." : world[EXIT(ch, door)->to_room].name);
   }
 
   if (!len)
-    send_to_char(ch, "info:None.\r");
+    send_to_char(ch, "\ninfo:None.\r");
 }
 
 void look_at_room(struct char_data *ch, int ignore_brief)
@@ -533,10 +533,10 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     return;
 
   if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "\ninfo:It is too dark to see.");
+    send_to_char(ch, "\ninfo:It is too dark to see.\r");
     return;
   } else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT) {
-    send_to_char(ch, "\ninfo:You appear to be blind.");
+    send_to_char(ch, "\ninfo:You appear to be blind.\r");
     return;
   }
 
@@ -605,12 +605,12 @@ static void look_in_direction(struct char_data *ch, int dir)
     */
 
     if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "\ninfo:The %s is closed.", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\ninfo:The %s is closed.\r", fname(EXIT(ch, dir)->keyword));
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
-      send_to_char(ch, "\n# %s"
-        "\ntalk:#adv world:thegame %d/%s"
-        "\nroom: %d",
+      send_to_char(ch, "\n# %s\r"
+        "\ntalk:#adv world:thegame %d/%s\r"
+        "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         EXIT(ch, dir)->keyword,
@@ -620,14 +620,14 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else
       send_to_char(ch, "\n# Look"
-        "\ntalk:#adv world:thegame %d/look"
-        "\nroom: %d",
+        "\ntalk:#adv world:thegame %d/look\r"
+        "\nroom: %d\r",
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
       );
 
   } else
-    send_to_char(ch, "\ninfo:You reach into the depths of your own mind and think.");
+    send_to_char(ch, "\ninfo:You reach into the depths of your own mind and think.\r");
 }
 
 static void look_in_obj(struct char_data *ch, char *arg)
@@ -637,42 +637,42 @@ static void look_in_obj(struct char_data *ch, char *arg)
   int amt, bits;
 
   if (!*arg)
-    send_to_char(ch, "\ninfo:Look in what?");
+    send_to_char(ch, "\ninfo:Look in what?\r");
   else if (!(bits = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_ROOM |
 				 FIND_OBJ_EQUIP, ch, &dummy, &obj))) {
-    send_to_char(ch, "\ninfo:There doesn't seem to be %s %s here.", AN(arg), arg);
+    send_to_char(ch, "\ninfo:There doesn't seem to be %s %s here.\r", AN(arg), arg);
   } else if ((GET_OBJ_TYPE(obj) != ITEM_DRINKCON) &&
 	     (GET_OBJ_TYPE(obj) != ITEM_FOUNTAIN) &&
 	     (GET_OBJ_TYPE(obj) != ITEM_CONTAINER))
-    send_to_char(ch, "\ninfo:There's nothing inside that!");
+    send_to_char(ch, "\ninfo:There's nothing inside that!\r");
   else {
     if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
       if (OBJVAL_FLAGGED(obj, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE))) {
-        send_to_char(ch, "\ninfo:It is closed.");
+        send_to_char(ch, "\ninfo:It is closed.\r");
       }
       else {
-        send_to_char(ch, "\ninfo:%s", fname(obj->name));
+        send_to_char(ch, "\ninfo:%s\r", fname(obj->name));
         list_obj_to_char(obj->contains, ch, SHOW_OBJ_SHORT, TRUE);
       }
     } else {		/* item must be a fountain or drink container */
       if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1)) {
-        send_to_char(ch, "\ninfo:It is empty.");
+        send_to_char(ch, "\ninfo:It is empty.\r");
       }
       else {
         if (GET_OBJ_VAL(obj, 0) < 0)
         {
           char buf2[MAX_STRING_LENGTH];
           sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-          send_to_char(ch, "\ninfo:It's full of a %s liquid.", buf2);
+          send_to_char(ch, "\ninfo:It's full of a %s liquid.\r", buf2);
         }
 	      else if (GET_OBJ_VAL(obj,1)>GET_OBJ_VAL(obj,0)) {
-          send_to_char(ch, "\ninfo:Its contents seem somewhat murky."); /* BUG */
+          send_to_char(ch, "\ninfo:Its contents seem somewhat murky.\r"); /* BUG */
         }
         else {
           char buf2[MAX_STRING_LENGTH];
 	        amt = (GET_OBJ_VAL(obj, 1) * 3) / GET_OBJ_VAL(obj, 0);
 	        sprinttype(GET_OBJ_VAL(obj, 2), color_liquid, buf2, sizeof(buf2));
-	        send_to_char(ch, "\ninfo:It's %sfull of a %s liquid.", fullness[amt], buf2);
+	        send_to_char(ch, "\ninfo:It's %sfull of a %s liquid.\r", fullness[amt], buf2);
         }
       }
     }
@@ -705,7 +705,7 @@ static void look_at_target(struct char_data *ch, char *arg)
     return;
 
   if (!*arg) {
-    send_to_char(ch, "\ninfo:Look at what?");
+    send_to_char(ch, "\ninfo:Look at what?\r");
     return;
   }
 
@@ -725,15 +725,15 @@ static void look_at_target(struct char_data *ch, char *arg)
 
   /* Strip off "number." from 2.foo and friends. */
   if (!(fnum = get_number(&arg))) {
-    send_to_char(ch, "\ninfo:Look at what?");
+    send_to_char(ch, "\ninfo:Look at what?\r");
     return;
   }
 
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
     send_to_char(ch, "\n## %s"
-      "\ntalk:#adv world:thegame %d/%s"
-      "\nroom:%d",
+      "\ntalk:#adv world:thegame %d/%s\r"
+      "\nroom:%d\r",
       arg,
       GET_ROOM_VNUM(IN_ROOM(ch)),
       arg,
@@ -748,8 +748,8 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (j = 0; j < NUM_WEARS && !found; j++)
     if (GET_EQ(ch, j) && CAN_SEE_OBJ(ch, GET_EQ(ch, j)))
       if ((desc = find_exdesc(arg, GET_EQ(ch, j)->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n# Equipment"
-          "\n%s",
+        send_to_char(ch, "\n# Equipment\r"
+          "\n%s\r",
           desc
         );
         found = TRUE;
@@ -759,8 +759,8 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = ch->carrying; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n# Inventory"
-          "\n%s",
+        send_to_char(ch, "\n# Inventory\r"
+          "\n%s\r",
           desc
         );
         found = TRUE;
@@ -771,9 +771,9 @@ static void look_at_target(struct char_data *ch, char *arg)
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj)) {
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
-        send_to_char(ch, "\n# Object"
-          "\n%s"
-          "\nroom:%d",
+        send_to_char(ch, "\n# Object\r"
+          "\n%s\r"
+          "\nroom:%d\r",
           desc,
           GET_ROOM_VNUM(IN_ROOM(ch))
         );
@@ -791,7 +791,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       send_to_char(ch, "\n");
     }
   } else if (!found)
-    send_to_char(ch, "\ninfo:Try looking around for that item.");
+    send_to_char(ch, "\ninfo:Try looking around for that item.\r");
 }
 
 ACMD(do_look)
@@ -804,11 +804,11 @@ ACMD(do_look)
     return;
 
   if (GET_POS(ch) < POS_SLEEPING)
-    send_to_char(ch, "\ninfo:You are sleeping.");
+    send_to_char(ch, "\ninfo:You are sleeping.\r");
   else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\ninfo:You are blind!");
+    send_to_char(ch, "\ninfo:You are blind!\r");
   else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "\ninfo:It is dark.");
+    send_to_char(ch, "\ninfo:It is dark.\r");
     list_char_to_char(world[IN_ROOM(ch)].people, ch);	/* glowing red eyes */
   } else {
     char arg[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
@@ -817,7 +817,7 @@ ACMD(do_look)
 
     if (subcmd == SCMD_READ) {
       if (!*arg)
-	send_to_char(ch, "\ninfo:Read what?");
+	send_to_char(ch, "\ninfo:Read what?\r");
       else
 	look_at_target(ch, strcpy(tempsave, arg));
       return;
@@ -836,13 +836,13 @@ ACMD(do_look)
 
       for (i = world[IN_ROOM(ch)].ex_description; i; i = i->next) {
         if (*i->keyword != '.') {
-          send_to_char(ch, "\n%s%s:%s",
+          send_to_char(ch, "\n%s%s:%s\r",
           (found ? "\n" : ""), i->keyword, i->description);
           found = 1;
         }
       }
       if (!found)
-         send_to_char(ch, "\ninfo:You find nothing noticeable.");
+         send_to_char(ch, "\ninfo:You find nothing noticeable.\r");
     } else
       look_at_target(ch, strcpy(tempsave, arg));
   }
@@ -857,7 +857,7 @@ ACMD(do_examine)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "\ninfo:What are you attempting to examine?");
+    send_to_char(ch, "\ninfo:What are you attempting to examine?\r");
     return;
   }
 
@@ -871,7 +871,7 @@ ACMD(do_examine)
     if ((GET_OBJ_TYPE(tmp_object) == ITEM_DRINKCON) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_FOUNTAIN) ||
 	(GET_OBJ_TYPE(tmp_object) == ITEM_CONTAINER)) {
-      send_to_char(ch, "\ninfo:You take a look inside and see...");
+      send_to_char(ch, "\ninfo:You take a look inside and see...\r");
       look_in_obj(ch, arg);
     }
   }
@@ -880,11 +880,11 @@ ACMD(do_examine)
 ACMD(do_gold)
 {
   if (GET_GOLD(ch) == 0)
-    send_to_char(ch, "\ngold:You're broke!");
+    send_to_char(ch, "\ngold:You're broke!\r");
   else if (GET_GOLD(ch) == 1)
-    send_to_char(ch, "\ngold:You have one miserable little gold coin.");
+    send_to_char(ch, "\ngold:You have one miserable little gold coin.\r");
   else
-    send_to_char(ch, "\ngold:You have %d gold coins.", GET_GOLD(ch));
+    send_to_char(ch, "\ngold:You have %d gold coins.\r", GET_GOLD(ch));
 }
 
 ACMD(do_score)
@@ -895,19 +895,19 @@ ACMD(do_score)
     return;
 
   if (age(ch)->month == 0 && age(ch)->day == 0) {
-    send_to_char(ch, "\ninfo:It's your birthday.");
+    send_to_char(ch, "\ninfo:It's your birthday.\r");
   }
 
   send_to_char(ch,
-    "\nname: %s"
-    "\nage: %dyrs"
-    "\ngender: %s"
-    "\nclass: %s"
-    "\nrank: %s"
+    "\nname: %s\r"
+    "\nage: %dyrs\r"
+    "\ngender: %s\r"
+    "\nclass: %s\r"
+    "\nrank: %s\r"
     "\nlevel: %d"
-    "\nexp: %d"
-    "\nalign:%d"
-    "\ngold: %d",
+    "\nexp: %d\r"
+    "\nalign:%d\r"
+    "\ngold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
     genders[(int) GET_GENDER(ch)],
@@ -920,20 +920,20 @@ ACMD(do_score)
   );
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nlevelup: %d",
+    send_to_char(ch, "\nlevelup: %d\r",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
-  send_to_char(ch, "\nhit: %d|%d", GET_HIT(ch), GET_MAX_HIT(ch));
-  send_to_char(ch, "\nmana: %d|%d", GET_MANA(ch), GET_MAX_MANA(ch));
-  send_to_char(ch, "\nmove: %d|%d", GET_MOVE(ch), GET_MAX_MOVE(ch));
-  send_to_char(ch, "\narmor: %d", compute_armor_class(ch));
+  send_to_char(ch, "\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
+  send_to_char(ch, "\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
+  send_to_char(ch, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+  send_to_char(ch, "\narmor: %d\r", compute_armor_class(ch));
 
-  send_to_char(ch, "\nquests: %d|%d", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
+  send_to_char(ch, "\nquests: %d|%d\r", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
-    send_to_char(ch, "\nquest:NONE");
+    send_to_char(ch, "\nquest:NONE\r");
   else
   {
-    send_to_char(ch, "\nquest: %s", QST_NAME(real_quest(GET_QUEST(ch))));
+    send_to_char(ch, "\nquest: %s\r", QST_NAME(real_quest(GET_QUEST(ch))));
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS))
         send_to_char(ch, " [%d]", GET_QUEST(ch));
@@ -941,83 +941,83 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "\nplaying: %dd %dh",
+  send_to_char(ch, "\nplaying: %dd %dh\r",
      playing_time.day,
      playing_time.hours);
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\npos:You are knocked out");
+    send_to_char(ch, "\npos:You are knocked out\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\npos:You are wounded");
+    send_to_char(ch, "\npos:You are wounded\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\npos:Incapacitated");
+    send_to_char(ch, "\npos:Incapacitated\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\npos:Stunned");
+    send_to_char(ch, "\npos:Stunned\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\npos:Sleeping");
+    send_to_char(ch, "\npos:Sleeping\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\npos:Resting");
+    send_to_char(ch, "\npos:Resting\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\npos:Sitting");
+      send_to_char(ch, "\npos:Sitting\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\npos:Sitting on %s", furniture->short_description);
+      send_to_char(ch, "\npos:Sitting on %s\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\npos:Fighting %s", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\npos:Fighting %s\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\npos:Standing");
+    send_to_char(ch, "\npos:Standing\r");
     break;
   default:
-    send_to_char(ch, "\npos:Floating");
+    send_to_char(ch, "\npos:Floating\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\ncond:Drunk");
+    send_to_char(ch, "\ncond:Drunk\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\ncond:Hungry");
+    send_to_char(ch, "\ncond:Hungry\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\ncond:Thirsty");
+    send_to_char(ch, "\ncond:Thirsty\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\naff:Blind");
+    send_to_char(ch, "\naff:Blind\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\naff:Invisible");
+    send_to_char(ch, "\naff:Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\naff:Detect Invisible");
+    send_to_char(ch, "\naff:Detect Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\naff:Sanctuary");
+    send_to_char(ch, "\naff:Sanctuary\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
-    send_to_char(ch, "\naffr:Poisoned");
+    send_to_char(ch, "\naffr:Poisoned\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\naff:Charmed.");
+    send_to_char(ch, "\naff:Charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\naff:Protected.");
+    send_to_char(ch, "\naff:Protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\naff:Infra-Vision");
+    send_to_char(ch, "\naff:Infra-Vision\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nprf:Summoned.");
+    send_to_char(ch, "\nprf:Summoned.\r");
 
   /*
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
