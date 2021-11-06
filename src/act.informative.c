@@ -910,7 +910,7 @@ ACMD(do_score)
     "\ngold: %d",
     GET_NAME(ch),
     GET_AGE(ch),
-    genders[(int) GET_GENDER(vict)],
+    genders[(int) GET_GENDER(ch)],
     pc_class_types[GET_CLASS(ch)],
     GET_TITLE(ch),
     GET_LEVEL(ch),
