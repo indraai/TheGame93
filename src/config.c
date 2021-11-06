@@ -261,20 +261,20 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"menu[enter the adventure]:1\r\n"
-"menu[the story]:3\r\n"
-"menu[change description]:2\r\n"
-"menu[change password]:4\r\n"
-"menu[delete character]:5\r\n"
-"menu[exit]:0\r\n";
+"\nmenu[enter the adventure]:1"
+"\nmenu[the story]:3"
+"\nmenu[change description]:2"
+"\nmenu[change password]:4"
+"\nmenu[delete character]:5"
+"\nmenu[exit]:0";
 
 const char *WELC_MESSG =
-"Welcome to TheGame93!\r\n"
-"May your adventure here be... EXCELLENT!\r\n";
+"\nWelcome to TheGame93!"
+"\nMay your adventure here be... EXCELLENT!";
 
 const char *START_MESSG =
-"Welcome.\r\n"
-"Now you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!\r\n";
+"\nWelcome."
+"\nNow you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
