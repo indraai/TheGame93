@@ -14,6 +14,7 @@
 
 extern const char *tbamud_version;
 extern const char *confirm_msg;
+extern const char *confirm_btn;
 
 extern const char *dirs[];
 extern const char *autoexits[];
