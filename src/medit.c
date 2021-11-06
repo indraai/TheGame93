@@ -56,11 +56,11 @@ ACMD(do_oasis_medit)
   two_arguments(argument, buf1, buf2);
 
   if (!*buf1) {
-    send_to_char(ch, "Specify a Agent VNUM to edit.\r\n");
+    send_to_char(ch, "\nalert:Specify a Agent VNUM to edit.");
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+      send_to_char(ch, "\nalert:Yikes!  Stop that, someone will get hurt!");
       return;
     }
 
@@ -78,7 +78,7 @@ ACMD(do_oasis_medit)
     }
 
     if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
+      send_to_char(ch, "\nSave which zone?");
       return;
     }
   }
@@ -88,7 +88,7 @@ ACMD(do_oasis_medit)
     number = atoi(buf1);
 
   if (number < IDXTYPE_MIN || number > IDXTYPE_MAX) {
-    send_to_char(ch, "That Agent VNUM can't exist.\r\n");
+    send_to_char(ch, "\nThat Agent VNUM can't exist.");
     return;
   }
 
@@ -96,7 +96,7 @@ ACMD(do_oasis_medit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_MEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That Agent is currently being edited by %s.\r\n",
+        send_to_char(ch, "\nalert:That Agent is currently being edited by %s.",
           GET_NAME(d->character));
         return;
       }
@@ -107,8 +107,7 @@ ACMD(do_oasis_medit)
 
   /* Give descriptor an OLC structure. */
   if (d->olc) {
-    mudlog(BRF, LVL_IMMORT, TRUE,
-      "SYSERR: do_oasis_medit: Player already had olc structure.");
+    mudlog(BRF, LVL_IMMORT, TRUE, "SYSERR: do_oasis_medit: Player already had olc structure.");
     free(d->olc);
   }
 
@@ -117,7 +116,7 @@ ACMD(do_oasis_medit)
   /* Find the zone. */
   OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
   if (OLC_ZNUM(d) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+    send_to_char(ch, "\nalert:Sorry, there is no zone for that number!");
     free(d->olc);
     d->olc = NULL;
     return;
@@ -134,7 +133,7 @@ ACMD(do_oasis_medit)
 
   /* If save is TRUE, save the Agents. */
   if (save) {
-    send_to_char(ch, "Saving all Agents in zone %d.\r\n",
+    send_to_char(ch, "\nsave:Saving all Agents in zone %d.",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves Agent info for zone %d.",
@@ -188,8 +187,8 @@ static void medit_setup_new(struct descriptor_data *d)
   /* Set up some default strings. */
   GET_ALIAS(mob) = strdup("mob unfinished");
   GET_SDESC(mob) = strdup("the unfinished mob");
-  GET_LDESC(mob) = strdup("An unfinished mob stands here.\r\n");
-  GET_DDESC(mob) = strdup("It looks unfinished.\r\n");
+  GET_LDESC(mob) = strdup("An unfinished mob stands here.");
+  GET_DDESC(mob) = strdup("It looks unfinished.");
   SCRIPT(mob) = NULL;
   mob->proto_script = OLC_SCRIPT(d) = NULL;
 
@@ -308,9 +307,9 @@ static void medit_disp_positions(struct descriptor_data *d)
   int i, count = 0;
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "## Position\r\n");
+  write_to_output(d, "\n## Position");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "bmud[%s]:%d\r\n", position_types[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d", position_types[i], ++count);
   }
 }
 
@@ -320,9 +319,9 @@ static void medit_disp_gender(struct descriptor_data *d)
   int i, count = 0;
   // get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "## Gender\r\n");
+  write_to_output(d, "\n## Gender");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "bmud[%s]:%d\r\n", genders[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d", genders[i], ++count);
   }
 }
 
@@ -333,9 +332,9 @@ static void medit_disp_attack_types(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "## Attack Type\r\n");
+  write_to_output(d, "\n## Attack Type");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "bmud[%s]:%d\r\n", attack_hit_text[i].singular, i);
+    write_to_output(d, "\nbmud[%s]:%d", attack_hit_text[i].singular, i);
   }
 }
 
@@ -382,17 +381,17 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "## Personality\r\n");
+  write_to_output(d, "\n## Personality");
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "bmud[%s]:%d\r\n", action_bits[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d", action_bits[i], ++count);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d,
-    "flags: %s\r\n"
-    "menu[done]:0\r\n", flags);
+    "\nflags: %s"
+    "\nmenu[done]:0", flags);
 }
 
 /* Display affection flags menu. */
@@ -404,17 +403,17 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   /*get_char_colors(d->character);*/
   clear_screen(d);
 
-  write_to_output(d, "## Affinity Flags\r\n");
+  write_to_output(d, "\n## Affinity Flags");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "bmud[%s]:%d\r\n", affected_bits[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d", affected_bits[i], ++count);
   }
 
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
 
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
-  write_to_output(d, "flags: %s\r\n"
-    "menu[done]:0\r\n", flags);
+  write_to_output(d, "\nflags: %s"
+    "\nmenu[done]:0", flags);
   }
 
 /* Display main menu. */
@@ -428,12 +427,12 @@ static void medit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "# Agent: %d\r\n"
-  "select[a:gender]:%s\r\n"
-  "select[b:keywords]:%s\r\n"
-  "select[c:name]: %s\r\n"
-  "select[d:describe]:%s\r\n"
-  "select[e:look]:%s\r\n",
+  "\n# Agent: %d"
+  "\nselect[a:gender]:%s"
+  "\nselect[b:keywords]:%s"
+  "\nselect[c:name]: %s"
+  "\nselect[d:describe]:%s"
+  "\nselect[e:look]:%s",
 	  OLC_NUM(d),
 	  genders[(int)GET_GENDER(mob)],
 	  GET_ALIAS(mob),
@@ -446,24 +445,24 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-    "## Properties\r\n"
-	  "select[f:position]:%s\r\n"
-	  "select[g:default]:%s\r\n"
-	  "select[h:attack]:%s\r\n"
-    "select[i:stats]: set...\r\n"
-	  "select[j:personality]:%s\r\n"
-	  "select[k:affinity]:%s\r\n"
-    "select[l:triggers]:%s\r\n"
-    "bmud[copy agent]:p\r\n"
-	  "bmud[delete agent]:x\r\n"
-	  "menu[quit]:0\r\n",
+    "\n## Properties"
+	  "\nselect[f:position]:%s"
+	  "\nselect[g:default]:%s"
+	  "\nselect[h:attack]:%s"
+    "\nselect[i:stats]: set..."
+	  "\nselect[j:personality]:%s"
+	  "\nselect[k:affinity]:%s"
+    "\nselect[l:triggers]:%s"
+    "\nbmud[copy agent]:p"
+	  "\nbmud[delete agent]:x"
+	  "\nmenu[quit]:0",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
 	  attack_hit_text[(int)GET_ATTACK(mob)].singular,
 	  flags,
 	  flag2,
-    OLC_SCRIPT(d) ?"set...":"not set..."
+    OLC_SCRIPT(d) ? "set...":"not set..."
 	  );
 
   OLC_MODE(d) = MEDIT_MAIN_MENU;
@@ -480,13 +479,13 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   /* Top section - standard stats */
   write_to_output(d,
-    "## Stats\r\n"
-    "select[a:level]:%d\r\n"
-    "select[b:auto]:Set stats...\r\n"
-    "## Hit Points  (xdy+z):\r\n"
-    "select[c:hit]:%d\r\n"
-    "select[d:mana]:%d\r\n"
-    "select[e:move]:%d\r\n",
+    "\n## Stats"
+    "\nselect[a:level]:%d"
+    "\nselect[b:auto]:Set stats..."
+    "\n## Hit Points  (xdy+z)"
+    "\nselect[c:hit]:%d"
+    "\nselect[d:mana]:%d"
+    "\nselect[e:move]:%d",
     GET_LEVEL(mob),
     GET_HIT(mob),
     GET_MANA(mob),
@@ -494,22 +493,22 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   );
 
   write_to_output(d,
-    "## Bare Hand (xdy+z):\r\n"
-    "select[f:dice]:%d\r\n"
-    "select[g:size]:%d\r\n"
-    "select[h:roll]:%d\r\n",
+    "\n## Bare Hand (xdy+z)"
+    "\nselect[f:dice]:%d"
+    "\nselect[g:size]:%d"
+    "\nselect[h:roll]:%d",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
   );
 
   write_to_output(d,
-    "## General\r\n"
-    "\nselect[i:armor]:%d\r\n"
-    "\nselect[j:experience]:%d\r\n"
-    "\nselect[k:gold]:%d\r\n"
-    "\nselect[l:hitroll]:%d\r\n"
-    "\nselect[m:alignment]:%d\r\n",
+    "\n## General"
+    "\nselect[i:armor]:%d"
+    "\nselect[j:experience]:%d"
+    "\nselect[k:gold]:%d"
+    "\nselect[l:hitroll]:%d"
+    "\nselect[m:alignment]:%d",
     GET_AC(mob),
     GET_EXP(mob),
     GET_GOLD(mob),
@@ -521,18 +520,18 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   if (CONFIG_MEDIT_ADVANCED) {
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
-      "## Advanced\r\n"
-      "select[n:strength]:%d|%d\r\n"
-      "select[o:intelligence]:%d\r\n"
-      "select[p:wisdom]:%d\r\n"
+      "\n## Advanced"
+      "\nselect[n:strength]:%d|%d"
+      "\nselect[o:intelligence]:%d"
+      "\nselect[p:wisdom]:%d"
       "\nselect[q:dexterity]:%d"
-      "select[r:con]:%d\r\n"
+      "\nselect[r:con]:%d"
       "\nselect[s:charisma]:%d"
-      "select[t:parlysis]:%d\r\n"
-      "select[u:rod/staves]:%d\r\n"
-      "select[v:petification]:%d\r\n"
-      "select[w:breath]:%d\r\n"
-      "select[x:spells]:%d\r\n",
+      "\nselect[t:parlysis]:%d"
+      "\nselect[u:rod/staves]:%d"
+      "\nselect[v:petification]:%d"
+      "\nselect[w:breath]:%d"
+      "\nselect[x:spells]:%d",
       GET_STR(mob),
       GET_ADD(mob),
       GET_INT(mob),
@@ -549,7 +548,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "menu[done]:0\r");
+  write_to_output(d, "\nmenu[done]:0");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
@@ -562,7 +561,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
   if (OLC_MODE(d) > MEDIT_NUMERICAL_RESPONSE) {
     i = atoi(arg);
     if (!*arg || (!isdigit(arg[0]) && ((*arg == '-') && !isdigit(arg[1])))) {
-      write_to_output(d, "Try again.\r\n");
+      write_to_output(d, "\nTry again.");
       return;
     }
   } else {	/* String response. */
@@ -581,9 +580,9 @@ void medit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
-        write_to_output(d, "Agent saved to disk.\r\n");
+        write_to_output(d, "\nAgent saved to disk.");
       } else
-        write_to_output(d, "Agent saved to memory.\r\n");
+        write_to_output(d, "\nAgent saved to memory.");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     case 'n':
@@ -595,7 +594,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      write_to_output(d, "Invalid choice!\r\n");
+      write_to_output(d, "\nInvalid choice!");
       write_to_output(d, "%s", confirm_msg);
       return;
     }
@@ -605,11 +604,11 @@ void medit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case '0':
       if (OLC_VAL(d)) {	/* Anything been changed? */
-	      write_to_output(d, "\%s", confirm_msg);
+	      write_to_output(d, "%s", confirm_msg);
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
         return;
       } else {
-        write_to_output(d, "The Agent was unchanged.\r\n");
+        write_to_output(d, "\nThe Agent was unchanged.");
         cleanup_olc(d, CLEANUP_ALL);
         return;
       }
@@ -619,29 +618,29 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "Set the Agent keywords...\r\n"
-        "current:%s\r\n",
+      write_to_output(d, "\nSet the Agent keywords..."
+        "\ncurrent:%s",
         GET_ALIAS(OLC_MOB(d))
       );
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_S_DESC;
       write_to_output(d, "\nSet the Agent name... "
-        "current:%s\r\n",
+        "\ncurrent:%s",
         GET_SDESC(OLC_MOB(d))
       );
       return;
     case 'd':
       OLC_MODE(d) = MEDIT_L_DESC;
-      write_to_output(d, "Describe the Agent..."
-        "current:%s\r\n",
+      write_to_output(d, "\nDescribe the Agent..."
+        "\ncurrent:%s",
         GET_LDESC(OLC_MOB(d))
       );
       return;
     case 'e':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
-      write_to_output(d, "Looking at the Agent...\r\n");
+      write_to_output(d, "\nLooking at the Agent...");
       if (OLC_MOB(d)->player.description) {
 	      write_to_output(d, "%s", OLC_MOB(d)->player.description);
 	      oldtext = strdup(OLC_MOB(d)->player.description);
@@ -678,11 +677,11 @@ void medit_parse(struct descriptor_data *d, char *arg)
       dg_script_menu(d);
       return;
     case 'p':
-      write_to_output(d, "Copy which Agent?\r\n");
+      write_to_output(d, "\nCopy which Agent?");
       OLC_MODE(d) = MEDIT_COPY;
       return;
     case 'x':
-      write_to_output(d, "Are you sure you want to delete this Agent?\r\n");
+      write_to_output(d, "\nAre you sure you want to delete this Agent?");
       OLC_MODE(d) = MEDIT_DELETE;
       return;
     default:
@@ -699,8 +698,8 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'a':  /* Edit level */
       OLC_MODE(d) = MEDIT_LEVEL;
-      write_to_output(d, "Set Agent level... (1 to 33)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet Agent level (1 to 33)"
+        "\ncurrent:%d",
         GET_LEVEL(OLC_MOB(d))
       );
       return;
@@ -711,56 +710,56 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_NUM_HP_DICE;
-      write_to_output(d, "Set hit points... (1 to 30)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet hit points (1 to 30)"
+        "\ncurrent:%d",
         GET_HIT(OLC_MOB(d))
       );
       return;
     case 'd':
       OLC_MODE(d) = MEDIT_SIZE_HP_DICE;
-      write_to_output(d, "\nSet mana amount... (1 to 1000)"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet mana amount (1 to 1000)"
+        "\ncurrent:%d",
         GET_HIT(OLC_MOB(d))
       );
       return;
     case 'e':
       OLC_MODE(d) = MEDIT_ADD_HP;
-      write_to_output(d, "Set move amount... (1 to 30,000)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet move amount (1 to 30,000)"
+        "\ncurrent:%d",
         GET_MOVE(OLC_MOB(d))
       );
       return;
     case 'f':
       OLC_MODE(d) = MEDIT_NDD;
-      write_to_output(d, "Set number of dice... (1 to 30)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet number of dice (1 to 30)"
+        "\ncurrent:%d",
         GET_NDD(OLC_MOB(d))
       );
       return;
     case 'g':
       OLC_MODE(d) = MEDIT_SDD;
-      write_to_output(d, "Set size of dice... (1 to 127)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet size of dice (1 to 127)"
+        "\ncurrent:%d",
         GET_SDD(OLC_MOB(d))
       );
       return;
     case 'h':
       OLC_MODE(d) = MEDIT_DAMROLL;
-      write_to_output(d, "Set damage roll... (1 to 50)\r\n"
+      write_to_output(d, "\nSet damage roll (1 to 50)"
         "\ncurrent:%d",
         GET_DAMROLL(OLC_MOB(d))
       );
       return;
     case 'i':
       OLC_MODE(d) = MEDIT_AC;
-      write_to_output(d, "Set armor level... (-200 to 200)\r\n"
+      write_to_output(d, "\nSet armor level (-200 to 200)"
         "\ncurrent:%d",
         GET_DAMROLL(OLC_MOB(d))
       );
       return;
     case 'j':
       OLC_MODE(d) = MEDIT_EXP;
-      write_to_output(d, "Set experience level... (1 to %d)\r\n"
+      write_to_output(d, "\nSet experience level (1 to %d)"
         "\ncurrent:%d",
         MAX_MOB_EXP,
         GET_DAMROLL(OLC_MOB(d))
@@ -768,7 +767,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'k':
       OLC_MODE(d) = MEDIT_GOLD;
-      write_to_output(d, "Set gold amount... (0 to %d)\r\n"
+      write_to_output(d, "\nSet gold amount (0 to %d)"
         "\ncurrent:%d",
         MAX_MOB_GOLD,
         GET_GOLD(OLC_MOB(d))
@@ -776,136 +775,136 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'l':
       OLC_MODE(d) = MEDIT_HITROLL;
-      write_to_output(d, "Set hitroll... (0 to 50)\r\n"
+      write_to_output(d, "\nSet hitroll (0 to 50)"
         "\ncurrent:%d",
         GET_HITROLL(OLC_MOB(d))
       );
       return;
     case 'm':
       OLC_MODE(d) = MEDIT_ALIGNMENT;
-      write_to_output(d, "Set alignment... (-1000 to 1000)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet alignment (-1000 to 1000)"
+        "\ncurrent:%d",
         GET_ALIGNMENT(OLC_MOB(d))
       );
       return;
     case 'n':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "error:Invalid Option.\r\n");
+        write_to_output(d, "\nerror:Invalid Option.");
         return;
       }
       OLC_MODE(d) = MEDIT_STR;
-      write_to_output(d, "Set strength... (11 to 25)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet strength (11 to 25)"
+        "\ncurrent:%d",
         GET_STR(OLC_MOB(d))
       );
       return;
     case 'o':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "error:Invalid Choice.\r\n");
+        write_to_output(d, "\nerror:Invalid Choice.");
         return;
       }
       OLC_MODE(d) = MEDIT_INT;
-      write_to_output(d, "Set intelligence... (11 to 25)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet intelligence (11 to 25)"
+        "\ncurrent:%d",
         GET_INT(OLC_MOB(d))
       );
       return;
     case 'p':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice:\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_WIS;
-      write_to_output(d, "Set wisdom... (11 to 25)\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet wisdom (11 to 25)"
+        "\ncurrent:%d",
         GET_WIS(OLC_MOB(d))
       );
       return;
     case 'q':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice:\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
       }
       OLC_MODE(d) = MEDIT_DEX;
-      write_to_output(d, "Set dexterity... 11 to 25\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet dexterity (11 to 25)"
+        "\ncurrent:%d",
         GET_DEX(OLC_MOB(d))
       );
       return;
     case 'r':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_CON;
-      write_to_output(d, "Set constitution... 11 to 25\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet constitution (11 to 25)"
+        "\ncurrent:%d",
         GET_CON(OLC_MOB(d))
       );
       return;
     case 's':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_CHA;
-      write_to_output(d, "Set charisma... 11 to 25\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet charisma (11 to 25)"
+        "\ncurrent:%d",
         GET_CHA(OLC_MOB(d))
       );
       return;
     case 't':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_PARA;
-      write_to_output(d, "Set saving paralysis... 0 to 100\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet saving paralysis (0 to 100)"
+        "\ncurrent:%d",
         GET_SAVE(OLC_MOB(d), SAVING_PARA)
       );
       return;
     case 'u':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_ROD;
-      write_to_output(d, "Set saving paralysis... 0 to 100\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet saving paralysis (0 to 100)"
+        "\ncurrent:%d",
         GET_SAVE(OLC_MOB(d), SAVING_ROD)
       );
       return;
     case 'v':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_PETRI;
-      write_to_output(d, "Set saving petrification... 0 to 100\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet saving petrification (0 to 100)"
+        "\ncurrent:%d",
         GET_SAVE(OLC_MOB(d), SAVING_PETRI)
       );
       return;
     case 'w':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_BREATH;
-      write_to_output(d, "Set saving breath... 0 to 100\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet saving breath (0 to 100)"
+        "\ncurrent:%d",
         GET_SAVE(OLC_MOB(d), SAVING_BREATH)
       );
       return;
     case 'x':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "Invalid Choice!\r\nEnter Choice :\r\n");
+        write_to_output(d, "\nInvalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_SPELL;
-      write_to_output(d, "Set saving spell... 0 to 100\r\n"
-        "current:%d\r\n",
+      write_to_output(d, "\nSet saving spell (0 to 100)"
+        "\ncurrent:%d",
         GET_SAVE(OLC_MOB(d), SAVING_SPELL)
       );
       return;
@@ -949,7 +948,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       free(GET_LDESC(OLC_MOB(d)));
     if (arg && *arg) {
       char buf[MAX_INPUT_LENGTH];
-      snprintf(buf, sizeof(buf), "%s\r\n", arg);
+      snprintf(buf, sizeof(buf), "\n%s", arg);
       GET_LDESC(OLC_MOB(d)) = strdup(buf);
     } else
       GET_LDESC(OLC_MOB(d)) = strdup("undefined");
@@ -962,14 +961,14 @@ void medit_parse(struct descriptor_data *d, char *arg)
      */
     cleanup_olc(d, CLEANUP_ALL);
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: medit_parse(): Reached D_DESC case!");
-    write_to_output(d, "Oops...\r\n");
+    write_to_output(d, "\nOops...");
     break;
 
   case MEDIT_NPC_FLAGS:
     if ((i = atoi(arg)) <= 0)
       break;
     else if ( (j = medit_get_mob_flag_by_number(i)) == -1) {
-       write_to_output(d, "Invalid choice!\r\n");
+       write_to_output(d, "\nInvalid choice!");
        write_to_output(d, "\nEnter mob flags:\nconfig[done]:0");
        return;
     } else if (j <= NUM_MOB_FLAGS) {
@@ -1151,15 +1150,15 @@ void medit_parse(struct descriptor_data *d, char *arg)
     if ((i = real_mobile(atoi(arg))) != NOWHERE) {
       medit_setup_existing(d, i);
     } else
-      write_to_output(d, "That mob does not exist.\r\n");
+      write_to_output(d, "\nThat mob does not exist.");
     break;
 
   case MEDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_mobile(GET_MOB_RNUM(OLC_MOB(d))) != NOBODY)
-        write_to_output(d, "Agent deleted.\r\n");
+        write_to_output(d, "\nAgent deleted.");
       else
-        write_to_output(d, "Couldn't delete the Agent!\r\n");
+        write_to_output(d, "\nCouldn't delete the Agent!");
 
       cleanup_olc(d, CLEANUP_ALL);
       return;
@@ -1168,14 +1167,14 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_MAIN_MENU;
       return;
     } else
-      write_to_output(d, "Please answer 'Y' or 'N': ");
+      write_to_output(d, "\nPlease answer 'Y' or 'N': ");
     break;
 
   default:
     /* We should never get here. */
     cleanup_olc(d, CLEANUP_ALL);
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: medit_parse(): Reached default case!");
-    write_to_output(d, "Oops...\r\n");
+    write_to_output(d, "\nOops...");
     break;
   }
 
