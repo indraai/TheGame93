@@ -1150,30 +1150,30 @@ static char *make_prompt(struct descriptor_data *d)
     if (PRF_FLAGGED(d->character, PRF_DISPAUTO) && len < sizeof(prompt)) {
       struct char_data *ch = d->character;
       if (GET_HIT(ch) << 2 < GET_MAX_HIT(ch) ) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d\r\n", GET_HIT(ch), GET_MAX_HIT(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d", GET_HIT(ch), GET_MAX_HIT(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MANA(ch) << 2 < GET_MAX_MANA(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d\r\n", GET_MANA(ch), GET_MAX_MANA(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d", GET_MANA(ch), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MOVE(ch) << 2 < GET_MAX_MOVE(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d\r\n", GET_MOVE(ch), GET_MAX_MOVE(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d", GET_MOVE(ch), GET_MAX_MOVE(ch));
         if (count >= 0)
           len += count;
       }
 
     } else { /* not auto prompt */
       if (PRF_FLAGGED(d->character, PRF_DISPHP) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "hit: %d|%d\r\n", GET_HIT(d->character), GET_MAX_HIT(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d", GET_HIT(d->character), GET_MAX_HIT(d->character));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "mana: %d|%d\r\n",
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d",
           GET_MANA(d->character),
           GET_MAX_MANA(d->character));
 
@@ -1182,20 +1182,20 @@ static char *make_prompt(struct descriptor_data *d)
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMOVE) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "move: %d|%d\r\n", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
         if (count >= 0)
           len += count;
       }
     }
 
     if (PRF_FLAGGED(d->character, PRF_BUILDWALK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, ":comm:BUILDWALKING\r\n");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:BUILDWALKING");
       if (count >= 0)
         len += count;
     }
 
     if (PRF_FLAGGED(d->character, PRF_AFK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "comm:AFK\r\n");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:AFK");
       if (count >= 0)
         len += count;
     }
@@ -1209,14 +1209,14 @@ static char *make_prompt(struct descriptor_data *d)
 
      if (GET_LAST_MOTD(d->character) < motdmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "comm:MOTD\r\n");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:MOTD");
        if (count >= 0)
          len += count;
      }
 
      // SET THE HUNGER METER
      if (GET_COND(d->character, HUNGER) > 0 && len < sizeof(prompt)) {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "hunger: %d|20\r\n",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|20",
          GET_COND(d->character, HUNGER));
 
        if (count >= 0) len += count;
@@ -1224,7 +1224,7 @@ static char *make_prompt(struct descriptor_data *d)
 
       // SET THE HUNGER METER
       if (GET_COND(d->character, THIRST) > 0 && len < sizeof(prompt)) {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "thirst: %d|20\r\n",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|20",
          GET_COND(d->character, THIRST));
 
        if (count >= 0) len += count;
@@ -1310,7 +1310,7 @@ size_t write_to_output(struct descriptor_data *t, const char *txt, ...)
 /* Add a new string to a player's output queue. */
 size_t vwrite_to_output(struct descriptor_data *t, const char *format, va_list args)
 {
-  const char *text_overflow = "\r\nOVERFLOW\r\n";
+  const char *text_overflow = "\nOVERFLOW\n";
   static char txt[MAX_STRING_LENGTH];
   size_t wantsize;
   int size;
@@ -1523,7 +1523,7 @@ static int new_descriptor(socket_t s)
     sockets_connected++;
 
   if (sockets_connected >= CONFIG_MAX_PLAYING) {
-    write_to_descriptor(desc, "The game is full right now... please try again later.\r\n");
+    write_to_descriptor(desc, "\nThe game is full right now... please try again later.");
     CLOSE_SOCKET(desc);
     return (0);
   }
@@ -1550,7 +1550,7 @@ static int new_descriptor(socket_t s)
   /* determine if the site is banned */
   if (isbanned(newd->host) == BAN_ALL) {
     CLOSE_SOCKET(desc);
-    mudlog(CMP, LVL_DEVA, TRUE, "Connection attempt denied from [%s]\r\n", newd->host);
+    mudlog(CMP, LVL_DEVA, TRUE, "\nConnection denied %s", newd->host);
     free(newd);
     return (0);
   }
@@ -1566,14 +1566,14 @@ static int new_descriptor(socket_t s)
     /* Attach Event */
     NEW_EVENT(ePROTOCOLS, newd, NULL, 1.5 * PASSES_PER_SEC);
     /* KaVir's plugin*/
-    write_to_output(newd, "Attempting to Detect Client, Please Wait...\r\n");
+    write_to_output(newd, "\nAttempting to Detect Client, Please Wait...");
     ProtocolNegotiate(newd);
   } else {
     /*
     greetsize = strlen(GREETINGS);
     write_to_output(newd, "%s", ProtocolOutput(newd, GREETINGS, &greetsize));
     */
-    write_to_output(newd, "Please enter your player name...\r\n");
+    write_to_output(newd, "\nPlease enter your player name...");
   }
   return (0);
 }
@@ -1597,12 +1597,12 @@ static int process_output(struct descriptor_data *t)
 
   /* if we're in the overflow state, notify the user */
   if (t->bufspace == 0)
-    strcat(osb, "**OVERFLOW**\r\n");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
+    strcat(osb, "\n**OVERFLOW**");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
 
   /* add the extra CRLF if the person isn't in compact mode */
   if (STATE(t) == CON_PLAYING && t->character && !IS_NPC(t->character) && !PRF_FLAGGED(t->character, PRF_COMPACT))
     if ( !t->pProtocol->WriteOOB )
-      strcat(osb, "\r\n");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
+      strcat(osb, "\n");	/* strcpy: OK (osb:MAX_SOCK_BUF-2 reserves space) */
 
   if (!t->pProtocol->WriteOOB) /* add a prompt */
     strcat(i, make_prompt(t));	/* strcpy: OK (i:MAX_SOCK_BUF reserves space) */
@@ -1948,12 +1948,12 @@ static int process_input(struct descriptor_data *t)
     if ((space_left <= 0) && (ptr < nl_pos)) {
       char buffer[MAX_INPUT_LENGTH + 64];
 
-      snprintf(buffer, sizeof(buffer), "Line too long.  Truncated to:\r\n%s\r\n", tmp);
+      snprintf(buffer, sizeof(buffer), "Line too long.  Truncated to:\n%s\n", tmp);
       if (write_to_descriptor(t->descriptor, buffer) < 0)
 	return (-1);
     }
     if (t->snoop_by)
-      write_to_output(t->snoop_by, "%% %s\r\n", tmp);
+      write_to_output(t->snoop_by, "%% %s\n", tmp);
     failed_subst = 0;
 
     if (*tmp == '!' && !(*(tmp + 1)))	/* Redo last command. */
@@ -1968,7 +1968,7 @@ static int process_input(struct descriptor_data *t)
 	if (t->history[cnt] && is_abbrev(commandln, t->history[cnt])) {
 	  strcpy(tmp, t->history[cnt]);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
 	  strcpy(t->last_input, tmp);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
-          write_to_output(t, "%s\r\n", tmp);
+          write_to_output(t, "\n%s", tmp);
 	  break;
 	}
         if (cnt == 0)	/* At top, loop to bottom. */
@@ -1989,7 +1989,7 @@ static int process_input(struct descriptor_data *t)
    /* The '--' command flushes the queue. */
    if ( (*tmp == '-') && (*(tmp+1) == '-') && !(*(tmp+2)) )
    {
-     write_to_output(t, "All queued commands cancelled.\r\n");
+     write_to_output(t, "\nAll queued commands cancelled.");
      flush_queues(t);  /* Flush the command queue */
      failed_subst = 1;  /* Allow the read point to be moved, but don't add to queue */
    }
@@ -2032,7 +2032,7 @@ static int perform_subst(struct descriptor_data *t, char *orig, char *subst)
 
   /* now find the second '^' */
   if (!(second = strchr(first, '^'))) {
-    write_to_output(t, "Invalid substitution.\r\n");
+    write_to_output(t, "\nInvalid substitution.");
     return (1);
   }
   /* terminate "first" at the position of the '^' and make 'second' point
@@ -2041,7 +2041,7 @@ static int perform_subst(struct descriptor_data *t, char *orig, char *subst)
 
   /* now, see if the contents of the first string appear in the original */
   if (!(strpos = strstr(orig, first))) {
-    write_to_output(t, "Invalid substitution.\r\n");
+    write_to_output(t, "\nInvalid substitution.");
     return (1);
   }
   /* now, we construct the new string for output. */
@@ -2078,7 +2078,7 @@ void close_socket(struct descriptor_data *d)
     d->snooping->snoop_by = NULL;
 
   if (d->snoop_by) {
-    write_to_output(d->snoop_by, "Your victim is no longer among us.\r\n");
+    write_to_output(d->snoop_by, "\nYour victim is no longer among us.");
     d->snoop_by->snooping = NULL;
   }
 
@@ -2179,7 +2179,7 @@ static void check_idle_passwords(void)
       continue;
     } else {
       echo_on(d);
-      write_to_output(d, "\r\nTimed out... goodbye.\r\n");
+      write_to_output(d, "\nTimed out... goodbye.");
       STATE(d) = CON_CLOSE;
     }
   }
@@ -2381,7 +2381,7 @@ void game_info(const char *format, ...)
     va_start(args, format);
     vwrite_to_output(i, format, args);
     va_end(args);
-    write_to_output(i, "\tn\r\n");
+    write_to_output(i, "\tn\n");
   }
 }
 
@@ -2815,7 +2815,7 @@ static void handle_webster_file(void) {
 
   fl = fopen("websterinfo", "r");
   if (!fl) {
-    send_to_char(ch, "It seems the dictionary is offline..\r\n");
+    send_to_char(ch, "\nIt seems the dictionary is offline..");
     return;
   }
 
@@ -2823,7 +2823,7 @@ static void handle_webster_file(void) {
 
   get_line(fl, line);
   while (!feof(fl)) {
-    nlen = snprintf(retval + len, sizeof(retval) - len, "%s\r\n", line);
+    nlen = snprintf(retval + len, sizeof(retval) - len, "%s\n", line);
     if (len + nlen >= sizeof(retval))
       break;
     len += nlen;
@@ -2831,12 +2831,12 @@ static void handle_webster_file(void) {
   }
 
   if (len >= sizeof(retval)) {
-    const char *overflow = "\r\n**OVERFLOW**\r\n";
+    const char *overflow = "\n**OVERFLOW**\n";
     strcpy(retval + sizeof(retval) - strlen(overflow) - 1, overflow); /* strcpy: OK */
   }
   fclose(fl);
 
-  send_to_char(ch, "You get this feedback from Merriam-Webster:\r\n");
+  send_to_char(ch, "\nYou get this feedback from Merriam-Webster:");
   page_string(ch->desc, retval, 1);
 }
 
