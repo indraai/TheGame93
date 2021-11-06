@@ -358,12 +358,12 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit"
-	  "\nselect[a:exit to]:%d"
-    "\nselect[b:name]:%s"
-	  "\nselect[c:describe]:%s"
-	  "\nselect[d:key]:%d"
-	  "\nselect[e:flags]:%s"
-	  "\nbmud[delete exit]:x"
+	  "\nselect[a:exit to]:%d\r"
+    "\nselect[b:name]:%s\r"
+	  "\nselect[c:describe]:%s\r"
+	  "\nselect[d:key]:%d\r"
+	  "\nselect[e:flags]:%s\r"
+	  "\nbmud[delete exit]:x\r"
 	  "\nmenu[done]:0",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
     OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
@@ -380,12 +380,12 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
 {
   get_char_colors(d->character);
   write_to_output(d,
-    "\n## Doors"
-    "\nbmud[no door]:0"
-	  "\nbmud[closable door]:1"
-    "\nbmud[pickproof door]:2"
-    "\nbmud[hidden door]:3"
-    "\nbmud[hidden pickproof door]:4"
+    "\n## Doors\r"
+    "\nbmud[no door]:0\r"
+	  "\nbmud[closable door]:1\r"
+    "\nbmud[pickproof door]:2\r"
+    "\nbmud[hidden door]:3\r"
+    "\nbmud[hidden pickproof door]:4\r"
   );
 }
 
@@ -397,15 +397,15 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d,"\n## Room Flags");
+  write_to_output(d,"\n## Room Flags\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
     write_to_output(d, "\nbmud[%s]:%d", room_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\nflags: %s"
-  "\nmenu[done]:0", bits);
+  write_to_output(d, "\nflags: %s\r"
+  "\nmenu[done]:0\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -422,14 +422,14 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
 
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
 
-  write_to_output(d, "\n## Room Type");
+  write_to_output(d, "\n## Room Type\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d", sector_types[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", sector_types[i], ++count);
   }
 
   sprinttype(room->sector_type, sector_types, bits, sizeof(bits));
-  write_to_output(d, "\ntype: %s", bits);
+  write_to_output(d, "\ntype: %s\r", bits);
 
   OLC_MODE(d) = REDIT_SECTOR;
 }
@@ -545,9 +545,9 @@ void redit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits room %d.", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-        write_to_output(d, "\nsave:Room saved to disk.");
+        write_to_output(d, "\nsave:Room saved to disk.\r");
       } else
-        write_to_output(d, "\nsave:Room saved to memory.");
+        write_to_output(d, "\nsave:Room saved to memory.\r");
       /* Free everything. */
       cleanup_olc(d, CLEANUP_ALL);
       break;
@@ -560,7 +560,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      write_to_output(d, "\nInvalid choice."
+      write_to_output(d, "\nInvalid choice.\r"
         "%s", confirm_msg);
       break;
     }
@@ -570,18 +570,18 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'a':
       write_to_output(d,
-        "\nname: %s",
+        "\nname: %s\r",
         OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
     case 'b':
       OLC_MODE(d) = REDIT_DESC;
       clear_screen(d);
-      write_to_output(d, "\n### Description");
+      write_to_output(d, "\n### Description\r");
       send_editor_help(d);
 
       if (OLC_ROOM(d)->description) {
-	      write_to_output(d, "%s", OLC_ROOM(d)->description);
+	      write_to_output(d, "\n%s\r", OLC_ROOM(d)->description);
         oldtext = strdup(OLC_ROOM(d)->description);
       }
 
@@ -624,7 +624,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case '1':
       if (!CONFIG_DIAGONAL_DIRS) {
-        write_to_output(d, "\nerror: Invalid choice.");
+        write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
       } else {
         OLC_VAL(d) = NORTHWEST;
@@ -633,7 +633,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case '2':
       if (!CONFIG_DIAGONAL_DIRS) {
-        write_to_output(d, "\nerror: Invalid choice.");
+        write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
       } else {
         OLC_VAL(d) = NORTHEAST;
@@ -642,7 +642,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case '3':
       if (!CONFIG_DIAGONAL_DIRS) {
-        write_to_output(d, "\nerror: Invalid choice.");
+        write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
       } else {
         OLC_VAL(d) = SOUTHEAST;
@@ -651,7 +651,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case '4':
       if (!CONFIG_DIAGONAL_DIRS) {
-        write_to_output(d, "\nerror: Invalid choice.");
+        write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
       } else {
         OLC_VAL(d) = SOUTHWEST;
@@ -666,7 +666,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       redit_disp_extradesc_menu(d);
       break;
     case 'p':
-      write_to_output(d, "\nalert: Copy what room?");
+      write_to_output(d, "\nalert: Copy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
       break;
     case '0':
@@ -674,19 +674,19 @@ void redit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nsave: Room was unchanged.");
+        write_to_output(d, "\nsave: Room was unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
     case 'x':
       /* Delete the room, prompt first. */
-      write_to_output(d, "\nAre you sure?");
-      write_to_output(d, "%s", confirm_msg);
+      write_to_output(d, "\nAre you sure?\r");
+      write_to_output(d, "%s", confirm_btn);
       OLC_MODE(d) = REDIT_DELETE;
       break;
 
     default:
-      write_to_output(d, "\nerror: Invalid choice.");
+      write_to_output(d, "\nerror: Invalid choice.\r");
       redit_disp_menu(d);
       break;
     }
@@ -701,7 +701,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     if (!genolc_checkstring(d, arg))
       break;
     if (count_non_protocol_chars(arg) > MAX_ROOM_NAME / 2) {
-      write_to_output(d, "\nSize limited to %d non-protocol characters.", MAX_ROOM_NAME / 2);
+      write_to_output(d, "\nSize limited to %d non-protocol characters.\r", MAX_ROOM_NAME / 2);
       break;
     }
     if (OLC_ROOM(d)->name)
@@ -713,13 +713,13 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_DESC:
     /* We will NEVER get here, we hope. */
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: Reached REDIT_DESC case in parse_redit().");
-    write_to_output(d, "\nerror: Oops, in REDIT_DESC.");
+    write_to_output(d, "\nerror: Oops, in REDIT_DESC.\r");
     break;
 
   case REDIT_FLAGS:
     number = atoi(arg);
     if (number < 0 || number > NUM_ROOM_FLAGS) {
-      write_to_output(d, "\nerror: Invalid option.");
+      write_to_output(d, "\nerror: Invalid option.\r");
       redit_disp_flag_menu(d);
     } else if (number == 0)
       break;
@@ -733,7 +733,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_SECTOR:
     number = atoi(arg) - 1;
     if (number < 0 || number >= NUM_ROOM_SECTORS) {
-      write_to_output(d, "\nerror: Invalid option.");
+      write_to_output(d, "\nerror: Invalid option.\r");
       redit_disp_sector_menu(d);
       return;
     }
@@ -746,16 +746,16 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'a':
       OLC_MODE(d) = REDIT_EXIT_NUMBER;
-      write_to_output(d, "\nExit to Room Number...");
+      write_to_output(d, "\nExit to Room...\r");
       return;
     case 'b':
       OLC_MODE(d) = REDIT_EXIT_KEYWORD;
-      write_to_output(d, "\nExit Name...");
+      write_to_output(d, "\nExit Name...\r");
       return;
     case 'c':
       OLC_MODE(d) = REDIT_EXIT_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "\nExit description...");
+      write_to_output(d, "\nExit description...\r");
       if (OLC_EXIT(d)->general_description) {
         write_to_output(d, "%s", OLC_EXIT(d)->general_description);
         oldtext = strdup(OLC_EXIT(d)->general_description);
@@ -764,7 +764,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'd':
       OLC_MODE(d) = REDIT_EXIT_KEY;
-      write_to_output(d, "\nKey Number...");
+      write_to_output(d, "\nKey Number...\r");
       return;
     case 'e':
       OLC_MODE(d) = REDIT_EXIT_DOORFLAGS;
@@ -783,7 +783,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_EXIT(d) = NULL;
       break;
     default:
-      write_to_output(d, "\nerror: Try again.");
+      write_to_output(d, "\nerror: Try again.\r");
       return;
     }
     break;
@@ -791,7 +791,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_EXIT_NUMBER:
     if ((number = atoi(arg)) != -1)
       if ((number = real_room(number)) == NOWHERE) {
-	write_to_output(d, "\nerror: That room does not exist.");
+	write_to_output(d, "\nerror: That room does not exist.\r");
 	return;
       }
     OLC_EXIT(d)->to_room = number;
@@ -801,7 +801,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_EXIT_DESCRIPTION:
     /* We should NEVER get here, hopefully. */
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: Reached REDIT_EXIT_DESC case in parse_redit");
-    write_to_output(d, "\nerror: Oops, in REDIT_EXIT_DESCRIPTION.");
+    write_to_output(d, "\nerror: Oops, in REDIT_EXIT_DESCRIPTION.\r");
     break;
 
   case REDIT_EXIT_KEYWORD:
@@ -823,7 +823,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_EXIT_DOORFLAGS:
     number = atoi(arg);
     if (number < 0 || number > 4) {
-      write_to_output(d, "\nerror: Invalid choice.");
+      write_to_output(d, "\nerror: Invalid choice.\r");
       redit_disp_exit_flag_menu(d);
     } else {
       /* Doors are a bit idiotic, don't you think? :) -- I agree. -gg */
@@ -868,13 +868,13 @@ void redit_parse(struct descriptor_data *d, char *arg)
 
     case 1:
       OLC_MODE(d) = REDIT_EXTRADESC_KEY;
-      write_to_output(d, "\nEnter keywords (spaces)...");
+      write_to_output(d, "\nEnter keywords...\r");
       return;
 
     case 2:
       OLC_MODE(d) = REDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "\nEnter extra description...");
+      write_to_output(d, "\nEnter extra description...\r");
       if (OLC_DESC(d)->description) {
         write_to_output(d, "%s", OLC_DESC(d)->description);
         oldtext = strdup(OLC_DESC(d)->description);
@@ -886,7 +886,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       // setting to complete without a description becasue the system will put those in later.
       // if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
       if (OLC_DESC(d)->keyword == NULL) {
-        write_to_output(d, "\nerror: Please complete this one before adding another.");
+        write_to_output(d, "\nerror: Please complete this one before adding another.\r");
         redit_disp_extradesc_menu(d);
       } else {
         struct extra_descr_data *new_extra;
@@ -909,16 +909,16 @@ void redit_parse(struct descriptor_data *d, char *arg)
     if ((number = real_room(atoi(arg))) != NOWHERE) {
       redit_setup_existing(d, number);
     } else
-      write_to_output(d, "\nerror: Room does not exist.");
+      write_to_output(d, "\nerror: Room does not exist.\r");
     break;
 
   case REDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_room(real_room(OLC_ROOM(d)->number))) {
-        write_to_output(d, "\nsave:Room deleted.");
+        write_to_output(d, "\nsave:Room deleted.\r");
       }
       else {
-        write_to_output(d, "\nerror: Couldn't delete the room!.");
+        write_to_output(d, "\nerror: Couldn't delete the room!.\r");
       }
       cleanup_olc(d, CLEANUP_ALL);
       return;
