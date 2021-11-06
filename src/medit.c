@@ -445,7 +445,6 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-    "\n## Properties\r"
 	  "\nselect[f:position]:%s\r"
 	  "\nselect[g:default]:%s\r"
 	  "\nselect[h:attack]:%s\r"
