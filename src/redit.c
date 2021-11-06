@@ -520,11 +520,13 @@ static void redit_disp_menu(struct descriptor_data *d)
     );
   }
   write_to_output(d,
-      "\nbmud[extra tags]:t\r"
-      "\nbmud[copy room]:p\r"
-      "\nbmud[delete room]:x\r"
+      "\n::begin:buttons"
+      "\nbmud[extra tags]:t"
+      "\nbmud[copy room]:p"
+      "\nbmud[delete room]:x"
+      "\n::end:buttons"
       "\nmenu[quit]:0\r"
-      );
+    );
   OLC_MODE(d) = REDIT_MAIN_MENU;
 }
 
