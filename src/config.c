@@ -261,6 +261,9 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
+"\n"
+"\n# Welcome"
+"\nWelcome to the world of the Deva. Please make your selection from the menu below."
 "\nmenu[enter the adventure]:1"
 "\nmenu[the story]:3"
 "\nmenu[change description]:2"
