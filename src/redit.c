@@ -143,7 +143,6 @@ ACMD(do_oasis_redit)
   else
     redit_setup_new(d);
 
-  send_to_char(ch, "editor[enter]:ROOM\r\n");
   redit_disp_menu(d);
   STATE(d) = CON_REDIT;
   act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
@@ -548,7 +547,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
       } else
         write_to_output(d, "save:Room saved to memory.\r\n");
       /* Free everything. */
-      write_to_output(d, "editor[exit]:ROOM\r\n");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     case 'n':
@@ -557,7 +555,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
        * assigning it to the edited room and letting free_room in
        * cleanup_olc handle it. */
       OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
-      write_to_output(d, "editor[exit]:ROOM\r\n");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
@@ -676,7 +673,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
         write_to_output(d, "save: Room was unchanged.\r\n");
-        write_to_output(d, "editor[exit]:ROOM\r\n");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
@@ -922,7 +918,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
       else {
         write_to_output(d, "error: Couldn't delete the room!.\r\n");
       }
-      write_to_output(d, "editor[exit]:ROOM\r\n");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     }
