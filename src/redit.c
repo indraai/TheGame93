@@ -448,12 +448,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprintbitarray(room->room_flags, room_bits, RF_ARRAY_MAX, buf1);
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
-    "\n# Room: %d"
-    "\nselect[a:name]:%s"
-    "\nselect[b:desc]:%s"
-    "\nselect[c:flags]:%s"
-    "\nselect[d:type]:%s"
-    "\nselect[e:triggers]:%s",
+    "\n# Room: %d\r"
+    "\nselect[a:name]:%s\r"
+    "\nselect[b:desc]:%s\r"
+    "\nselect[c:flags]:%s\r"
+    "\nselect[d:type]:%s\r"
+    "\nselect[e:triggers]:%s\r",
     OLC_NUM(d),
     room->name,
     room->description,
@@ -464,13 +464,13 @@ static void redit_disp_menu(struct descriptor_data *d)
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
-      "\n## Exits"
-      "\nselect[f:north]:%d"
-      "\nselect[g:east]:%d"
-      "\nselect[h:south]:%d"
-      "\nselect[i:west]:%d"
-      "\nselect[j:up]:%d"
-      "\nselect[k:down]:%d",
+      "\n## Exits\r"
+      "\nselect[f:north]:%d\r"
+      "\nselect[g:east]:%d\r"
+      "\nselect[h:south]:%d\r"
+      "\nselect[i:west]:%d\r"
+      "\nselect[j:up]:%d\r"
+      "\nselect[k:down]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -486,17 +486,17 @@ static void redit_disp_menu(struct descriptor_data *d)
     );
   } else {
     write_to_output(d,
-      "\n## Exits"
-      "\nselect[f:north]:%d"
-      "\nselect[g:east]:%d"
-      "\nselect[h:south]:%d"
-      "\nselect[i:west]:%d"
-      "\nselect[j:up]:%d"
-      "\nselect[k:down]:%d"
-      "\nselect[1:northwest]:%d"
-      "\nselect[2:northeast]:%d"
-      "\nselect[3:southeast]:%d"
-      "\nselect[4:southwest]:%d",
+      "\n## Exits\r"
+      "\nselect[f:north]:%d\r"
+      "\nselect[g:east]:%d\r"
+      "\nselect[h:south]:%d\r"
+      "\nselect[i:west]:%d\r"
+      "\nselect[j:up]:%d\r"
+      "\nselect[k:down]:%d\r"
+      "\nselect[1:northwest]:%d\r"
+      "\nselect[2:northeast]:%d\r"
+      "\nselect[3:southeast]:%d\r"
+      "\nselect[4:southwest]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -520,11 +520,11 @@ static void redit_disp_menu(struct descriptor_data *d)
     );
   }
   write_to_output(d,
-      "\n::begin:buttons"
-      "\nbmud[extra tags]:t"
-      "\nbmud[copy room]:p"
-      "\nbmud[delete room]:x"
-      "\n::end:buttons"
+      "\n::begin:buttons\r"
+      "\nbmud[extra tags]:t\r"
+      "\nbmud[copy room]:p\r"
+      "\nbmud[delete room]:x\r"
+      "\n::end:buttons\r"
       "\nmenu[quit]:0\r"
     );
   OLC_MODE(d) = REDIT_MAIN_MENU;
