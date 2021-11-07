@@ -29,17 +29,13 @@ D2
 0 0 214
 S
 #202
-MARINES: Hall~
-You are close to the southern end of the storeroom.  Smaller adjoining rooms are to the south and east.  The financial holdings of the city are said to be hidden somewhere within this building.  Of course only a fool would try to steal from a bunch of thieves.~
+MARINES CYBER3~
+undefined~
 2 24 0 0 0 0
 D0
 ~
 ~
 0 0 195
-D1
-~
-~
-0 0 203
 D2
 ~
 ~
@@ -47,20 +43,16 @@ D2
 S
 #203
 MARINES: Dining~
-This room smells of sweat and dust.  The workers responsible for loading, unloading, and sorting through all the supply crates live in this single room. Mattresses that are shredded to pieces by rats and mice line one wall.  A small washbasin, stool and bench are the only other luxuries these overworked brutes own.~
+undefined~
 2 24 0 0 0 0
 D0
 ~
 ~
-0 0 196
+0 0 216
 D2
 ~
 ~
-0 0 216
-D3
-~
-~
-0 0 202
+0 0 196
 S
 #204
 NAVY: Barracks~
@@ -258,17 +250,13 @@ D3
 0 0 8
 S
 #215
-MARINES: Hall~
-You pass through a well-lit hallway with a fancy rug, tiled walls and arched ceiling.  Small chandeliers hang just above your head.  This fancy hall belongs in a mansion, not a warehouse.  Several benches line the walls.  It almost looks like some type of waiting room the thieves use to impress would be traders.~
+MARINES CYBER4~
+undefined~
 2 24 0 0 0 0
 D0
 ~
 ~
 0 0 202
-D1
-~
-~
-0 0 216
 D2
 ~
 ~
@@ -281,11 +269,11 @@ A large washbasin meant for washing clothes, a few pots, and even a hand pump wi
 D0
 ~
 ~
+0 0 181
+D2
+~
+~
 0 0 203
-D3
-~
-~
-0 0 215
 S
 #217
 NAVY: Research~
@@ -428,7 +416,7 @@ D3
 S
 #228
 MARINES: Library~
-A large board is nailed to the eastern wall.  A blank sheet of paper covers the board.  A bunch of chairs and benches are arranged in rows facing the board.  Looks like someone is preparing for a meeting.  Maybe you can sit in and learn a few things.~
+undefined~
 2 24 0 0 0 0
 D0
 ~
@@ -445,7 +433,7 @@ D2
 S
 #229
 MARINES: Research~
-A large board is nailed to the western wall.  Various numbers are scratched haphazardly all over it.  The type of writing that only the person who made it can really comprehend what it means.  This must be where some of the planning for the city takes place.~
+undefined~
 2 24 0 0 0 0
 D2
 ~
@@ -623,11 +611,15 @@ S
 #242
 MARINES: Development~
 undefined~
-2 24 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
 0 0 229
+D3
+~
+~
+0 0 241
 S
 #243
 The West Gate~
@@ -1118,7 +1110,7 @@ D3
 0 0 276
 S
 #278
-Sweet Treats~
+The Sweet Spot~
 Empty room.~
 2 24 0 0 0 0
 D2
