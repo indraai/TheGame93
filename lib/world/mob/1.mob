@@ -893,7 +893,7 @@ E
 T 133
 #174
 security guard deva securitydeva d0174 z1~
-the monk guildguard~
+SecurityDEVA D174~
 0174/avatar~
 talk:#adventure view:thegame:agent 0174/look~
 256010 0 0 0 80 0 0 0 0 E
@@ -904,7 +904,7 @@ E
 T 133
 #175
 security deva securitydeva guard paul blart d175 z1~
-Paul Blart (security)~
+SecurityDEVA D175 (Guard)~
 0175/avatar~
 talk:#adventure view:thegame:agent 0175/look~
 6430 0 0 0 2048 0 0 0 333 E
@@ -934,14 +934,19 @@ talk:#adventure view:thegame:agent 0176/look~
 8 8 1
 E
 #177
-security deva securitydeva guard d0177 z1~
-SecurityDEVA (guard)~
+security deva securitydeva cyber d0177 z1~
+SecurityDEVA (Cyber)~
 0177/avatar~
 talk:#adventure view:thegame:agent 0177/look~
-256010 0 0 0 80 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1
+256010 0 0 0 2168 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 6
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 T 133
 #178
@@ -982,7 +987,7 @@ talk:#adventure view:thegame:agent 0180/look~
 E
 #181
 security deva securitydeva lookout d181 z1~
-SecurityDEVA (lookout)~
+SecurityDEVA D181 (Lookout)~
 0181/avatar~
 talk:#adventure view:thegame:agent 0181/look~
 10 0 0 0 0 0 0 0 0 E
