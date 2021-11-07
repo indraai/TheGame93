@@ -510,9 +510,9 @@ D3
 0 0 233
 S
 #235
-Arjika Temple (NW)~
+Christian Church~
 Empty room.~
-2 16 0 0 0 1
+2 24 0 0 0 0
 D1
 ~
 ~
@@ -544,9 +544,9 @@ D3
 0 0 235
 S
 #237
-Arjika Temple (NE)~
+Jewish Temple~
 Empty room.~
-2 16 0 0 0 1
+2 24 0 0 0 0
 D2
 ~
 ~
@@ -929,9 +929,9 @@ D3
 0 0 263
 S
 #265
-Arjika Temple (SW)~
+Buddhist Temple~
 undefined~
-2 16 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -963,9 +963,9 @@ D3
 0 0 265
 S
 #267
-Arjika Temple (SE)~
+Muslim Mosque~
 Empty room.~
-2 16 0 0 0 1
+2 24 0 0 0 0
 D0
 ~
 ~
