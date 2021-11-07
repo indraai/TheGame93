@@ -649,10 +649,10 @@ arjika arjikiya pfc prviate first class a154 z3~
 Arjika PFC~
 0154/avatar~
 talk:#adventure view:thegame:agent 0154/look~
-4376 0 0 0 0 0 0 0 100 E
+4120 0 0 0 0 0 0 0 100 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 1
+8 8 6
 BareHandAttack: 7
 E
 #155
@@ -712,12 +712,17 @@ E
 lieutenant arjika arjikiya lieutenant military a159 z0~
 Arjika Lieutenant~
 0159/avatar~
-Arjika Lieutenant A159 is here. He is used to giving orders, not babysitting and hunting down people. Looks like a lot of heads are going to roll when he finds who he is looking for. He looks very strong and wise.
+talk:#adv agent:thegame 0159/look
 ~
-6232 0 0 0 16 0 0 0 1000 E
+6168 0 0 0 56 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 1
+8 8 6
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
 E
 #160
 arjika arjikiya analyst military a0160 z1~
@@ -882,24 +887,24 @@ BareHandAttack: 8
 E
 #173
 security deva securitydeva guard d173 z1~
-SecurityDEVA D173~
+SecurityDEVA D173 (Agency)~
 0173/avatar~
 talk:#adventure view:thegame:agent 0173/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 6
 E
 T 133
 #174
 security guard deva securitydeva d0174 z1~
-SecurityDEVA D174~
+SecurityDEVA D174 (Agency)~
 0174/avatar~
 talk:#adventure view:thegame:agent 0174/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 6
 E
 T 133
 #175
@@ -910,7 +915,7 @@ talk:#adventure view:thegame:agent 0175/look~
 6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
 333 62500
-8 8 1
+8 8 6
 Str: 16
 Dex: 16
 Int: 16
@@ -935,7 +940,7 @@ talk:#adventure view:thegame:agent 0176/look~
 E
 #177
 security deva securitydeva cyber d0177 z1~
-SecurityDEVA (Cyber)~
+SecurityDEVA D177 (Cyber)~
 0177/avatar~
 talk:#adventure view:thegame:agent 0177/look~
 256010 0 0 0 2168 0 0 0 0 E
@@ -993,7 +998,7 @@ talk:#adventure view:thegame:agent 0181/look~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
-8 8 0
+8 8 6
 E
 #182
 brenda romero covenant survivance 1337~
