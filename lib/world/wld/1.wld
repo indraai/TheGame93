@@ -52,7 +52,7 @@ S
 #103
 Palantir~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D5
 ~
 ~
@@ -129,7 +129,7 @@ S
 #108
 Upstairs~
 empty.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D5
 ~
 ~
@@ -147,7 +147,7 @@ S
 #110
 Strategy Room~
 empty.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D5
 ~
 ~
@@ -190,7 +190,7 @@ S
 #113
 Quest Room~
 empty~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D2
 ~
 ~
@@ -348,7 +348,7 @@ S
 #123
 Thiel Foundation~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D2
 ~
 ~
@@ -357,7 +357,7 @@ S
 #124
 Clarium Capital~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D2
 ~
 ~
@@ -392,7 +392,7 @@ S
 #127
 Stanford~
 undefined~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D1
 ~
 ~
@@ -401,7 +401,7 @@ S
 #128
 Thiel Tower W.~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -430,7 +430,7 @@ S
 #129
 Thiel Tower E.~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -459,7 +459,7 @@ S
 #130
 Founders Fund~
 Empty room.~
-1 8 0 0 0 1
+1 24 0 0 0 1
 D3
 ~
 ~
@@ -552,7 +552,7 @@ S
 #135
 Mithril Capital~
 Empty room.~
-1 8 0 0 0 1
+1 24 0 0 0 1
 D0
 ~
 ~
@@ -561,7 +561,7 @@ S
 #136
 Valar Ventures~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1026,7 +1026,7 @@ D3
 0 0 165
 S
 #167
-NAVY: Training~
+NAVY Training~
 Empty room.~
 1 24 0 0 0 0
 D0
