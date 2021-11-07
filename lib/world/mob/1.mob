@@ -525,15 +525,14 @@ A member of the green magi flies past, literally. Another magi out for some spel
 8 8 1
 E
 #143
-woman waitress~
-the waitress~
+security deva securitydeva patrol d143 z1~
+SecurityDEVA D143 (Patrol)~
 0143/avatar~
-A scantily clad waitress waits to fulfill your every need. She expertly works her way in between the tables and people balancing three pints of ale on a platter while skillfully avoiding the attempted slaps at her fine ass.
-~
+talk:#adventure view:thegame:agent 0143/look~
 10 0 0 0 0 0 0 0 600 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 2
+8 8 6
 E
 #144
 black deva blackdeva d0144 z1~
