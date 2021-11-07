@@ -67,9 +67,9 @@ M 0 141 1 143 	(the corporal)
 M 0 142 1 271 	(GreenDEVA)
 
 M 0 143 1 95 	(SecurityDEVA D143 Patrol)
-M 0 143 1 95 	(SecurityDEVA D143 Patrol)
-M 0 143 1 96 	(SecurityDEVA D143 Patrol)
-M 0 143 1 96 	(SecurityDEVA D143 Patrol)
+M 0 143 2 95 	(SecurityDEVA D143 Patrol)
+M 0 143 3 96 	(SecurityDEVA D143 Patrol)
+M 0 143 4 96 	(SecurityDEVA D143 Patrol)
 
 M 0 144 1 346 	(BlackDEVA)
 M 0 145 1 345 	(YellowDEVA)
