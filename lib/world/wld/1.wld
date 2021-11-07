@@ -624,7 +624,7 @@ D4
 0 0 106
 S
 #141
-NAVY: Medical~
+NAVY Medical~
 empty.~
 1 24 0 0 0 0
 D3
@@ -746,8 +746,8 @@ D4
 0 0 109
 S
 #151
-MARINES: Medical~
-An artist stands in the back in front of a stairwell.  Obviously making sure no one goes by without his permission.  The room is shabby with little furniture. Just a table and a few wooden chairs.  A few expensive tapestries look out of place hanging on the walls.~
+MARINES Medical~
+~
 1 24 0 0 0 0
 D1
 ~
@@ -755,7 +755,7 @@ D1
 0 0 164
 S
 #152
-NAVY: Recruiting~
+NAVY Recruiting~
 empty room.~
 1 24 0 0 0 0
 D1
@@ -768,7 +768,7 @@ D2
 0 0 167
 S
 #153
-NAVY: Entrance~
+NAVY Entrance~
 empty room.~
 1 24 0 0 0 0
 D1
@@ -1000,9 +1000,9 @@ D3
 0 0 151
 S
 #165
-MARINES: Entrance~
+MARINES Entrance~
 Empty room.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D1
 ~
 ~
@@ -1013,9 +1013,9 @@ D3
 1 0 164
 S
 #166
-MARINES: Recruiting~
+MARINES Recruiting~
 Empty.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D2
 ~
 ~
@@ -1176,7 +1176,7 @@ D2
 0 0 195
 S
 #181
-MARINES: Training~
+MARINES Training~
 Empty.~
 1 24 0 0 0 0
 D0

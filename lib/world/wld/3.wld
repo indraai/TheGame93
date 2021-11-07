@@ -1,5 +1,5 @@
 #300
-AIRFORCE: Cyber3~
+AIRFORCE CYBER3~
 undefined~
 3 568 0 0 0 0
 D0
@@ -53,7 +53,7 @@ S
 #304
 ARMY CYBER3~
 Empty room.~
-3 24 0 0 0 0
+3 568 0 0 0 0
 D0
 ~
 ~
@@ -64,7 +64,7 @@ D2
 0 0 319
 S
 #305
-ARMY: Dining~
+ARMY Dining~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -77,7 +77,7 @@ D2
 0 0 298
 S
 #306
-AIRFORCE: Barracks~
+AIRFORCE Barracks~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -90,8 +90,8 @@ D2
 0 0 321
 S
 #307
-AIRFORCE: Cyber2~
-The barren walls and floor would seem odd anywhere but here as the s of Arjika consider decorations, desires, or any form of unnecessary wants to be blasphemous.  They dedicate their lives to helping others, never themselves.~
+AIRFORCE CYBER2~
+Empty.~
 3 568 0 0 0 0
 D0
 ~
@@ -272,7 +272,7 @@ S
 #319
 ARMY CYBER2~
 Empty room.~
-3 24 0 0 0 0
+3 568 0 0 0 0
 D0
 ~
 ~
@@ -283,7 +283,7 @@ D2
 0 0 334
 S
 #320
-ARMY: Kitchen~
+ARMY Kitchen~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -292,7 +292,7 @@ D2
 0 0 305
 S
 #321
-AIRFORCE: Training~
+AIRFORCE Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -309,7 +309,7 @@ D2
 0 0 336
 S
 #322
-AIRFORCE: Cyber1~
+AIRFORCE CYBER1~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -507,7 +507,7 @@ S
 #334
 ARMY CYBER1~
 Empty room.~
-3 24 0 0 0 0
+3 568 0 0 0 0
 D0
 ~
 ~
@@ -518,7 +518,7 @@ D1
 0 0 335
 S
 #335
-ARMY: Training~
+ARMY Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -535,7 +535,7 @@ D3
 0 0 334
 S
 #336
-AIRFORCE: Recruiting~
+AIRFORCE Recruiting~
 undefined~
 3 24 0 0 0 0
 D0
@@ -549,7 +549,7 @@ D1
 S
 T 336
 #337
-AIRFORCE: Entrance~
+AIRFORCE Entrance~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -703,7 +703,7 @@ S
 #345
 Arjika Tower W~
 undefined~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D1
 ~
 ~
@@ -769,9 +769,9 @@ D3
 0 0 361
 S
 #349
-ARMY: Entrance~
+ARMY Entrance~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D1
 ~
 ~
@@ -782,7 +782,7 @@ D3
 1 0 348
 S
 #350
-ARMY: Recruiting~
+ARMY Recruiting~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -795,7 +795,7 @@ D3
 0 0 349
 S
 #351
-AIRFORCE: Medical~
+AIRFORCE Medical~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -957,7 +957,7 @@ D3
 0 0 359
 S
 #361
-ARMY: Medical~
+ARMY Medical~
 empty.~
 3 24 0 0 0 0
 D1
