@@ -802,16 +802,27 @@ E
 T 129
 T 130
 #166
-corporal arjika arjikiya military a0166 z1~
-Arjika Corporal~
-Arjika Corporal A166 is here.
+general arjika arjikiya military a0166 z1~
+Arjika General~
+0166/avatar~
+talk:#adv thegame:agent 0166/look
 ~
-Another member of the Arjika military, this man has worked his way up and has a bright future in the military.  Too bad he will probably be dead before he can get that far.
-~
-72 0 0 0 0 0 0 0 -200 E
-19 14 -1 3d3+190 3d3+3
-190 36100
-8 8 1
+260120 0 0 0 2168 0 0 0 -200 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 6
+BareHandAttack: 14
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #167
 staff sergeant arjika arjikiya military a0167 z1~
