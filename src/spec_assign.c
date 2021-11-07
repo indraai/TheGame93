@@ -132,6 +132,9 @@ void assign_mobiles(void)
 /* assign special procedures to objects */
 void assign_objects(void)
 {
+  ASSIGNOBJ(90, gen_board);      /* army board */
+  ASSIGNOBJ(91, gen_board);      /* army board */
+  ASSIGNOBJ(92, gen_board);      /* army board */
   ASSIGNOBJ(93, gen_board);      /* army board */
   ASSIGNOBJ(94, gen_board);      /* navy board */
   ASSIGNOBJ(95, gen_board);      /* marines board */
