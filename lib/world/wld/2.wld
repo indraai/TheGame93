@@ -31,39 +31,31 @@ S
 #202
 MARINES CYBER3~
 Empty.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
 0 0 195
-D1
-~
-~
-0 0 203
 D2
 ~
 ~
 0 0 215
 S
 #203
-MARINES: Dining~
+MARINES Dining~
 Empty.~
 2 24 0 0 0 0
 D0
 ~
 ~
-0 0 196
+0 0 216
 D2
 ~
 ~
-0 0 216
-D3
-~
-~
-0 0 202
+0 0 196
 S
 #204
-NAVY: Barracks~
+NAVY Barracks~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -76,7 +68,7 @@ D2
 0 0 197
 S
 #205
-NAVY: Cyber4~
+NAVY Cyber4~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -260,37 +252,33 @@ S
 #215
 MARINES CYBER4~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
 0 0 202
-D1
-~
-~
-0 0 216
 D2
 ~
 ~
 0 0 228
 S
 #216
-MARINES: Barracks~
+MARINES Barracks~
 Empty.~
 2 24 0 0 0 0
 D0
 ~
 ~
+0 0 181
+D2
+~
+~
 0 0 203
-D3
-~
-~
-0 0 215
 S
 #217
-NAVY: Research~
+NAVY Research~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D1
 ~
 ~
@@ -301,9 +289,9 @@ D2
 0 0 230
 S
 #218
-NAVY: Library~
+NAVY Library~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -427,9 +415,9 @@ D3
 0 0 13
 S
 #228
-MARINES: Library~
-Empty Room.~
-2 24 0 0 0 0
+MARINES Library~
+undefined~
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -444,9 +432,9 @@ D2
 0 0 241
 S
 #229
-MARINES: Research~
+MARINES Research~
 Empty Room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D2
 ~
 ~
@@ -457,9 +445,9 @@ D3
 0 0 228
 S
 #230
-NAVY: Development~
+NAVY Development~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -470,9 +458,9 @@ D1
 0 0 231
 S
 #231
-NAVY: Operations~
+NAVY Operations~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -608,9 +596,9 @@ D2
 0 0 256
 S
 #241
-MARINES: Operations~
+MARINES Operations~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -621,13 +609,17 @@ D1
 0 0 242
 S
 #242
-MARINES: Development~
+MARINES Development~
 undefined~
-2 24 0 0 0 1
+2 568 0 0 0 0
 D0
 ~
 ~
 0 0 229
+D3
+~
+~
+0 0 241
 S
 #243
 The West Gate~
@@ -872,9 +864,9 @@ D4
 0 0 119
 S
 #260
-AIRFORCE: Development~
+AIRFORCE Development~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D1
 ~
 ~
@@ -885,9 +877,9 @@ D2
 0 0 273
 S
 #261
-AIRFORCE: Operations~
+AIRFORCE Operations~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D2
 ~
 ~
@@ -1023,9 +1015,9 @@ D2
 0 0 283
 S
 #271
-ARMY: Operations~
+ARMY Operations~
 undefined~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D1
 ~
 ~
@@ -1036,9 +1028,9 @@ D2
 0 0 284
 S
 #272
-ARMY: Development~
+ARMY Development~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D2
 ~
 ~
@@ -1049,9 +1041,9 @@ D3
 0 0 271
 S
 #273
-AIRFORCE: Research~
+AIRFORCE Research~
 undefined~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -1118,7 +1110,7 @@ D3
 0 0 276
 S
 #278
-Sweet Treats~
+The Sweet Spot~
 Empty room.~
 2 24 0 0 0 0
 D2
@@ -1221,9 +1213,9 @@ D2
 0 0 297
 S
 #285
-ARMY: Research~
+ARMY Research~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -1243,7 +1235,7 @@ D2
 0 0 299
 S
 #287
-AIRFORCE: Cyber4~
+AIRFORCE Cyber4~
 undefined~
 2 568 0 0 0 0
 D0
@@ -1413,7 +1405,7 @@ S
 #297
 ARMY CYBER4~
 Empty room.~
-2 24 0 0 0 0
+2 568 0 0 0 0
 D0
 ~
 ~
@@ -1424,7 +1416,7 @@ D2
 0 0 304
 S
 #298
-ARMY: Barracks~
+ARMY Barracks~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -1437,7 +1429,7 @@ D2
 0 0 335
 S
 #299
-AIRFORCE: Dining~
+AIRFORCE Dining~
 Empty room.~
 2 24 0 0 0 0
 D0

@@ -723,9 +723,9 @@ E
 arjika arjikiya analyst military a0160 z1~
 Arjika Analyst~
 0160/avatar~
-Arjika Analyst A160 is here. He mumbles to himself as the war plan is being picked apart in his head. Trying to account for every possible outcome he carries a heavy responsibility that few people never appreciate.  He orders men to their death.
+talk:#adv agent:thegame 0160/look
 ~
-6216 0 0 0 16 0 0 0 1000 E
+22538 0 0 0 2168 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1

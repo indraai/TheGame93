@@ -1043,7 +1043,7 @@ D2
 0 0 204
 S
 #168
-NAVY: Cyber1~
+NAVY Cyber1~
 empty room.~
 1 568 0 0 0 0
 D2
@@ -1164,12 +1164,8 @@ D2
 S
 #180
 MARINES CYBER1~
-Empty.~
-1 8 0 0 0 0
-D0
-~
-~
-0 0 165
+undefined~
+1 568 0 0 0 0
 D1
 ~
 ~
@@ -1182,7 +1178,7 @@ S
 #181
 MARINES: Training~
 Empty.~
-1 8 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1190,14 +1186,14 @@ D0
 D2
 ~
 ~
-0 0 215
+0 0 216
 D3
 ~
 ~
 0 0 180
 S
 #182
-NAVY: Kitchen~
+NAVY Kitchen~
 empty room.~
 1 24 0 0 0 0
 D0
@@ -1206,7 +1202,7 @@ D0
 0 0 197
 S
 #183
-NAVY: Cyber2~
+NAVY Cyber2~
 empty room.~
 1 568 0 0 0 0
 D0
@@ -1387,40 +1383,28 @@ D3
 S
 #195
 MARINES CYBER2~
-~
-1 24 0 0 0 0
+undefined~
+1 568 0 0 0 0
 D0
 ~
 ~
 0 0 180
-D1
-~
-~
-0 0 196
 D2
 ~
 ~
 0 0 202
 S
 #196
-MARINES: Kitchen~
+MARINES Kitchen~
 Empty.~
 1 24 0 0 0 0
 D0
 ~
 ~
-0 0 181
-D2
-~
-~
 0 0 203
-D3
-~
-~
-0 0 195
 S
 #197
-NAVY: Dining~
+NAVY Dining~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -1433,7 +1417,7 @@ D2
 0 0 182
 S
 #198
-NAVY: Cyber3~
+NAVY Cyber3~
 empty room.~
 1 568 0 0 0 0
 D0

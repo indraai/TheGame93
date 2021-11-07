@@ -344,6 +344,10 @@ D0
 ~
 ~
 0 0 23
+D1
+~
+~
+0 0 22
 D2
 ~
 ~
@@ -520,12 +524,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
