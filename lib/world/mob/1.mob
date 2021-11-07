@@ -559,8 +559,7 @@ E
 gray deva graydeva d0146 z1~
 GrayDEVA~
 0146/avatar~
-A man in a flowing gray robe is resting here. He carries himself with a confidence that is almost frightening.  You realize he must be a magi.
-~
+talk:#adventure view:thegame:agent 0146/look~
 72 0 0 0 16 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
 140 19600

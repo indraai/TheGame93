@@ -90,7 +90,11 @@ M 0 158 1 238 	(Carla)
 O 0 154 1 238 	(the sewing machine)
 
 M 0 159 1 140 	(the lieutenant)
-M 0 160 1 168 	(the general)
+
+M 0 160 4 180 	(Arjika Analyst)
+M 0 160 4 195 	(Arjika Analyst)
+M 0 160 4 202 	(Arjika Analyst)
+M 0 160 4 215 	(Arjika Analyst)
 
 M 0 161 3 174 	(the streetsweeper)
 G 1 136 99 -1 	(a broom)

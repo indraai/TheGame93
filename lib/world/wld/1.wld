@@ -1163,8 +1163,8 @@ D2
 0 0 194
 S
 #180
-MARINES: Hall~
-A pathway has been opened here to allow for small carts and wagons to pass. You can hear a few workers in the distance pushing the large crates over the dusty floor.  A large box and tackle swings back and forth on a strange pulley system above you.~
+MARINES CYBER1~
+Empty.~
 1 8 0 0 0 0
 D0
 ~
@@ -1340,7 +1340,7 @@ D3
 S
 #192
 Artist Alley~
-A pool of paint lies in the center of the alley, a trail of paint leads to a garbage pile a few feet away.  A traveler here should keep moving unless they wanted to draw something themselves.~
+Empty Room.~
 1 0 0 0 0 1
 D1
 ~
@@ -1356,8 +1356,8 @@ D3
 0 0 191
 S
 #193
-Artist Alley~
-The inner city wall to the south towers high into the air, blocking out most of the light.  The wall looks to be made from stone blocks and some sort of filler.  Its not possible to tell how thick it is, but judging from the height one could guess at least half as wide as it is tall.~
+MARINES ALLEY~
+Empty Room.~
 1 0 0 0 0 1
 D1
 ~
@@ -1386,8 +1386,8 @@ D3
 0 0 193
 S
 #195
-MARINES: Hall~
-Huge double doors have been built into the western wall of the warehouse. They are closed, barred, and locked with a padlock the size of your head.  No one gets in or out without that key.  An aisle to load and unload wagons runs to the east.~
+MARINES CYBER2~
+~
 1 24 0 0 0 0
 D0
 ~
@@ -1404,7 +1404,7 @@ D2
 S
 #196
 MARINES: Kitchen~
-A path is opened up between the crates here for wagons to load and unload. The floor has turned to packed dirt and traces of horse manure leave an unpleasant smell. Three wagons fill the center of the room. All look empty. A clump of mushrooms grows in the middle of the manure. They look ripe for picking.~
+Empty.~
 1 24 0 0 0 0
 D0
 ~
