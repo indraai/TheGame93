@@ -747,7 +747,7 @@ D4
 S
 #151
 MARINES Medical~
-~
+Empty room.~
 1 24 0 0 0 0
 D1
 ~
@@ -1306,8 +1306,8 @@ D3
 S
 #190
 MARINES Alley~
-Empty Room.~
-1 0 0 0 0 1
+undefined~
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1319,8 +1319,8 @@ D3
 S
 #191
 MARINES Alley~
-Empty Room.~
-1 16 0 0 0 1
+undefined~
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1335,9 +1335,9 @@ D3
 0 0 190
 S
 #192
-Artist Alley~
+MARINES ALLEY~
 Empty Room.~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~
