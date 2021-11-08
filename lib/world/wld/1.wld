@@ -747,7 +747,7 @@ D4
 S
 #151
 MARINES Medical~
-~
+Empty room.~
 1 24 0 0 0 0
 D1
 ~
@@ -1305,9 +1305,9 @@ D3
 0 0 188
 S
 #190
-Artist Alley~
-The alley is cluttered with debris, maybe the street sweeper doesn't even bother cleaning this place up.  The sound of a fight can be heard further to the east within the alley.  This is definitely the most dangerous section of Arjika.~
-1 0 0 0 0 1
+MARINES Alley~
+undefined~
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1318,9 +1318,9 @@ D3
 0 0 189
 S
 #191
-Artist Alley~
-The sounds of someone fighting suddenly grow louder, then stop.  Seems like that dispute was settled one way or the other.  The inner city wall to the south keeps the alley eternally in shadows, no matter the time of day or night. Houses to the north have their back doors shut and locked.~
-1 16 0 0 0 1
+MARINES Alley~
+undefined~
+1 272 0 0 0 1
 D1
 ~
 ~
@@ -1335,9 +1335,9 @@ D3
 0 0 190
 S
 #192
-Artist Alley~
+MARINES ALLEY~
 Empty Room.~
-1 0 0 0 0 1
+1 272 0 0 0 1
 D1
 ~
 ~

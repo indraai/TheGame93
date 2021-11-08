@@ -310,16 +310,20 @@ This is your master.  Big and strong with bulging muscles.  Several scars across
 6 6 1
 E
 #124
-fiona~
-Fiona~
+0x king abdc adult baby day care~
+0x King of ABDC~
 0124/avatar~
-She is rather slim for someone running a grocery.  Remember that saying, never trust a skinny cook, you would think it would also apply here.  She smiles and looks friendly enough.  I guess if the rest of Arjika trusts
-her....
+talk:#adv agent:thegame 0124/look
 ~
-8 0 0 0 0 0 0 0 300 E
-5 9 -10 6d6+340 5d5+5
-340 115600
-8 8 2
+2074 0 0 0 2056 0 0 0 500 E
+10 17 4 2d2+100 1d2+1
+1000 10000
+8 8 1
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 T 106
 #125
@@ -555,7 +559,7 @@ yellow deva yellowdeva d0145 z1~
 YellowDEVA~
 0145/avatar~
 talk:#adventure view:thegame:agent 0145/look~
-72 0 0 0 0 0 0 0 600 E
+8 0 0 0 2048 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
 140 19600
 8 8 1
@@ -1065,14 +1069,14 @@ talk:#adventure view:thegame:agent 0185/look~
 E
 T 106
 #186
-medic deva medicdeva medical d0186 z1~
-MedicDEVA~
+medit deva medicdeva medical nurse d186 z1~
+MedicDEVA (Nurse)~
 0186/avatar~
 talk:#adventure view:thegame:agent 0186/look~
 61450 0 0 0 26744 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 6
+8 8 7
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
