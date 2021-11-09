@@ -385,16 +385,12 @@ bag~
 ~
 #133
 backpack pack~
-Backpack~
-A backpack is here.~
+0133/avatar~
+talk:#adv object:thegame 0133/look~
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 40 5 -1 0
 5 250 0 0 0
-E
-backpack~
-A hefty backpack that can carry more than a bag.
-~
 #134
 dog collar~
 a dog collar~
