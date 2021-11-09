@@ -951,8 +951,8 @@ cigarette~
 ~
 #179
 water canteen water~
-Canteen of Water~
-A canteen has been set on the ground here.~
+0179/avatar~
+talk:#adv object:thegame 0179/look~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 30 5 0 0

@@ -96,19 +96,17 @@ A military weapon is here.~
 1 2 0 0 0
 #218
 jalapeno cheese bread food~
-Jalapeno Cheese Bread~
-A loaf of freshly baked jalapeno cheese bread was left here.~
+0251/avatar~
+talk:#adv object:thegame 0218/look~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 10 0 0 0
 #251
 water marble fountain water~
-The Fountain of Pure Water~
-A large fountain with five statues standing protectively above it.
-~
-DO NOT ENTER FOUNTAIN!
-~
+0251/avatar~
+talk:#adv object:thegame 0251/look~
+talk:#adv object:thegame 0251/describe~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 -1 1 0 0
 0 0 0 0 0
