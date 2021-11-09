@@ -676,21 +676,15 @@ talk:#adventure view:thegame:agent 0155/look~
 8 8 1
 E
 #156
-speaker great land~
-the speaker of the land~
-The Great Speaker of the Land greets all who enter the realm.
-~
-   Dressed in baggy blue velvet pants and a white silk shirt covered by a
-glaring red vest this man's voice can be heard throughout the realm.  He waits
-to greet new travellers and bestow upon them his sagely advice.
-~
+vamraka monk deva~
+Vamraka Monk~
+0156/avatar~
+talk:#adventure view:thegame:agent 0156/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
+8 8 6
 E
-T 127
-T 128
 #157
 telecomix 1337 cameron~
 Cameron (telecomix)~
