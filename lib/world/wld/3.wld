@@ -342,18 +342,6 @@ D1
 ~
 ~
 0 0 325
-D2
-~
-~
-0 0 339
-D4
-~
-~
-0 0 389
-D5
-~
-~
-0 0 290
 S
 #325
 Adventure Arcade~
@@ -371,17 +359,9 @@ D3
 ~
 ~
 0 0 324
-D4
-~
-~
-0 0 388
-D5
-~
-~
-0 0 220
 S
 #326
-MUD Hall N.~
+Adventure Arcade~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -396,14 +376,6 @@ D3
 ~
 ~
 0 0 325
-D4
-~
-~
-0 0 387
-D5
-~
-~
-0 0 226
 S
 #327
 Adventure Arcade~
@@ -571,21 +543,13 @@ D3
 1 0 337
 S
 #339
-Adventure Arcade~
+0X King Throne~
 Empty room.~
-3 24 0 0 0 1
-D0
-~
-~
-0 0 324
+3 24 0 0 0 0
 D1
 ~
 ~
 0 0 340
-D2
-~
-~
-0 0 352
 S
 #340
 Adventure Arcade~
@@ -799,22 +763,10 @@ S
 Adventure Arcade~
 Empty room.~
 3 24 0 0 0 1
-D0
-~
-~
-0 0 339
 D1
 ~
 ~
 0 0 353
-D4
-~
-~
-0 0 294
-D5
-~
-~
-0 0 247
 S
 #353
 Adventure Arcade~
@@ -832,19 +784,15 @@ D3
 ~
 ~
 0 0 352
-D4
-~
-~
-0 0 255
-D5
-~
-~
-0 0 302
 S
 #354
 Adventure Arcade~
 Empty room.~
 3 24 0 0 0 1
+D0
+~
+~
+0 0 341
 D1
 ~
 ~
@@ -853,19 +801,11 @@ D3
 ~
 ~
 0 0 353
-D4
-~
-~
-0 0 328
-D5
-~
-~
-0 0 174
 S
 #355
-MUD Hall S.~
+Adventure Arcade~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 1
 D0
 ~
 ~
@@ -874,19 +814,19 @@ D3
 ~
 ~
 0 0 354
+S
+#356
+The Shaft~
+Empty room.~
+3 284 0 0 0 0
 D4
 ~
 ~
-0 0 356
-S
-#356
-Elder Tale Online~
-Empty room.~
-3 24 0 0 0 0
+1 0 387
 D5
 ~
 ~
-0 0 355
+1 0 290
 S
 #357
 Arjika Courtyard~
@@ -1257,26 +1197,30 @@ D5
 0 0 327
 S
 #387
-(EVIL!)Mud~
+The Shaft~
 Empty room.~
-3 24 0 0 0 0
+3 284 0 0 0 0
+D4
+~
+~
+1 0 388
 D5
 ~
 ~
-0 0 326
+1 0 356
 S
 #388
-Nanvaent~
+The Shaft~
 Empty room.~
-3 24 0 0 0 0
-D3
+3 284 0 0 0 0
+D4
 ~
 ~
-0 0 389
+1 0 255
 D5
 ~
 ~
-0 0 325
+1 0 387
 S
 #389
 Lost Souls~

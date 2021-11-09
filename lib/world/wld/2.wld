@@ -760,6 +760,10 @@ D4
 ~
 ~
 0 0 100
+D5
+~
+~
+1 0 255
 S
 #252
 Arjika Temple (E)~
@@ -821,13 +825,17 @@ D4
 0 0 118
 S
 #255
-BatMUD~
+The Shaft~
 Empty room.~
-2 24 0 0 0 0
+2 284 0 0 0 0
+D4
+~
+~
+1 0 251
 D5
 ~
 ~
-0 0 353
+0 0 388
 S
 #256
 9 E Temple Rd.~
@@ -1282,13 +1290,13 @@ D4
 0 0 121
 S
 #290
-LambdaMOO~
+The Cell~
 Empty room.~
-2 24 0 0 0 0
+2 744 0 0 0 0
 D4
 ~
 ~
-0 0 324
+1 0 356
 S
 #291
 The Southern Temple Circle~
