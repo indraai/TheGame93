@@ -1178,14 +1178,20 @@ talk:#adventure view:thegame:agent 0195/look~
 BareHandAttack: 12
 E
 #196
-newbie guide~
-the Guide~
+jess queen hacker girl evil~
+JESS~
 0196/avatar~
 talk:#adventure view:thegame:agent 0196/look~
-253962 0 0 0 0 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
+8 0 0 0 0 0 0 0 -1000 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 2
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #197
 carpenter services~
