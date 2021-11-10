@@ -3,7 +3,7 @@ daniel sheehan christic romero~
 Daniel Sheehan~
 0200/avatar
 ~
-talk:#adventure view:thegame:agent 0200/look
+talk:#adv agent:thegame 0200/look
 ~
 2074 0 0 0 0 0 0 0 -250 E
 9 17 4 1d1+90 1d2+1
@@ -21,7 +21,7 @@ sara nelson christic romero~
 Sara Nelson~
 0201/avatar
 ~
-talk:#adventure view:thegame:agent 0201/look
+talk:#adv agent:thegame 0201/look
 ~
 2074 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
@@ -38,7 +38,7 @@ sean parker 1337 edge napster~
 Sean Parker (napster)~
 0202/avatar
 ~
-talk:#adventure view:thegame:agent 0202/look
+talk:#adv agent:thegame 0202/look
 ~
 14 0 0 0 0 0 0 0 -500 E
 5 19 7 1d1+50 1d2+0
@@ -56,7 +56,7 @@ mordechai levy mark 1337 hope~
 Mordechai Levy (mark)~
 0203/avatar
 ~
-talk:#adventure view:thegame:agent 0203/look
+talk:#adv agent:thegame 0203/look
 ~
 2074 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
@@ -73,7 +73,7 @@ E
 Winn Schwartau~
 0204/avatar
 ~
-talk:#adventure view:thegame:agent 0204/look
+talk:#adv agent:thegame 0204/look
 ~
 2074 0 0 0 0 0 0 0 -200 E
 5 19 7 1d1+50 1d2+0
@@ -90,7 +90,7 @@ jd falk cybernothing 1337 satanic~
 JD Falk (cybernothing)~
 0205/avatar
 ~
-talk:#adventure view:thegame:agent 0205/look
+talk:#adv agent:thegame 0205/look
 ~
 2074 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -102,7 +102,7 @@ henry messenger cenobite 1337 satanic fatman~
 Henry Messenger (cenobite)~
 0206/avatar
 ~
-talk:#adventure view:thegame:agent 0206/look
+talk:#adv agent:thegame 0206/look
 ~
 2074 0 0 0 0 0 0 0 -200 E
 3 19 8 0d0+30 1d2+0
@@ -115,7 +115,7 @@ eric sorenson satanic 1337~
 Eric Sorenson (satanix)~
 0207/avatar
 ~
-talk:#adventure view:thegame:agent 0207/look
+talk:#adv agent:thegame 0207/look
 ~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
@@ -199,7 +199,7 @@ santa claus man~
 Santa Claus~
 0213/avatar
 ~
-talk:#adventure view:thegame:agent 0213/look
+talk:#adv agent:thegame 0213/look
 ~
 2074 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -223,7 +223,7 @@ T 215
 security deva securitydeva guard d214 z2~
 SecurityDEVA D214 (Guard)~
 0214/avatar~
-talk:#adventure view:thegame:agent 0214/look~
+talk:#adv agent:thegame 0214/look~
 260378 0 0 0 56 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -245,7 +245,7 @@ E
 security deva securitydeva guard d215 z2~
 SecurityDEVA D215 (Guard)~
 0215/avatar~
-talk:#adventure view:thegame:agent 0215/look~
+talk:#adv agent:thegame 0215/look~
 260378 0 0 0 2104 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900

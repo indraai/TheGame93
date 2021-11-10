@@ -3,7 +3,7 @@ quinn michaels victim~
 Quinn Michaels~
 0100/avatar
 ~
-talk:#adventure view:thegame:agent 0100/look
+talk:#adv agent:thegame 0100/look
 ~
 2250 0 0 0 0 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
@@ -68,7 +68,7 @@ T 106
 mark petrakis spoonman 1337 spoonkids~
 Mark Petrakis (spoonman)~
 0105/avatar~
-talk:#adventure view:thegame:agent 0105/look~
+talk:#adv agent:thegame 0105/look~
 2074 0 0 0 0 0 0 0 -200 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -157,7 +157,7 @@ T 106
 elizabeth lapensee survivance covenant 1337~
 Elizabeth LaPensee (survivance)~
 0112/avatar~
-talk:#adventure view:thegame:agent 0112/look~
+talk:#adv agent:thegame 0112/look~
 2074 0 0 0 0 0 0 0 -250 E
 7 18 5 1d1+70 1d2+1
 70 4900
@@ -185,7 +185,7 @@ E
 terry cooksey man amiga 1337~
 Terry Cooksey (amiga)~
 0114/avatar~
-talk:#adventure view:thegame:agent 0114/look~
+talk:#adv agent:thegame 0114/look~
 2074 0 0 0 0 0 0 0 -200 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -196,7 +196,7 @@ E
 eric hughes cypherpunk 1337 defcon~
 Eric Hughes (cypherpunk)~
 0115/avatar~
-talk:#adventure view:thegame:agent 0115/look~
+talk:#adv agent:thegame 0115/look~
 2074 0 0 0 0 0 0 0 -200 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -212,7 +212,7 @@ E
 robert david steele steeler 1337~
 Robert Steele (steeler)~
 0116/avatar~
-talk:#adventure view:thegame:agent 0116/look~
+talk:#adv agent:thegame 0116/look~
 2074 0 0 0 0 0 0 0 -200 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -223,7 +223,7 @@ E
 trenton lavery covenant~
 TrentLavery~
 0117/avatar~
-talk:#adventure view:thegame:agent 0117/look~
+talk:#adv agent:thegame 0117/look~
 2202 0 0 0 0 0 0 0 0 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -235,7 +235,7 @@ T 161
 tabitha lavery bass covenant survivance 1337~
 Tabitha Lavery (tabby)~
 0118/avatar~
-talk:#adventure view:thegame:agent 0118/look~
+talk:#adv agent:thegame 0118/look~
 2202 0 0 0 0 0 0 0 -300 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -246,7 +246,7 @@ E
 dewity mrdewity banker covenant 1337 boss~
 Mr. Dewity (boss)~
 0119/avatar~
-talk:#adventure view:thegame:agent 0119/look~
+talk:#adv agent:thegame 0119/look~
 2074 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -257,7 +257,7 @@ T 106
 guildmaster saryanavan deva~
 Saryanavan~
 0120/avatar~
-talk:#adventure view:thegame:agent 0120/look
+talk:#adv agent:thegame 0120/look
 ~
 59418 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
@@ -310,8 +310,8 @@ This is your master.  Big and strong with bulging muscles.  Several scars across
 6 6 1
 E
 #124
-0x king abdc adult baby day care~
-0x King of ABDC~
+0x super king adc daycare~
+0x King of Arjika Daycare~
 0124/avatar~
 talk:#adv agent:thegame 0124/look
 ~
@@ -328,10 +328,10 @@ SavingSpell: 2
 E
 T 106
 #125
-mae young devi~
-Mae~
+medic deva medicdeva d125 z1 medical nurse~
+MedicDEVA (Nurse)~
 0125/avatar~
-talk:#adventure view:thegame:agent 0125/look
+talk:#adv agent:thegame 0125/look
 ~
 256154 0 0 0 26744 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
@@ -354,7 +354,7 @@ E
 airforce recruiting soldier military d0127 z1~
 AIRFORCE Recruiting~
 0127/avatar~
-talk:#adventure view:thegame:agent 0127/look~
+talk:#adv agent:thegame 0127/look~
 260378 0 0 0 8 0 0 0 0 E
 10 9 -10 6d6+340 5d5+5
 340 115600
@@ -365,7 +365,7 @@ E
 red deva d128 z1~
 RedDEVA~
 0128/avatar~
-talk:#adventure view:thegame:agent 0128/look~
+talk:#adv agent:thegame 0128/look~
 2056 0 0 0 16 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -375,7 +375,7 @@ E
 the_ut stephen huntley watt 1337 mayhem~
 Stephen Watt (the_ut)~
 0129/avatar~
-talk:#adventure view:thegame:agent 0129/look~
+talk:#adv agent:thegame 0129/look~
 2078 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -386,7 +386,7 @@ E
 brenda laurel spoonkids covenant goddess 1337~
 Brenda Laurel (goddess)~
 0130/avatar~
-talk:#adventure view:thegame:agent 0130/look~
+talk:#adv agent:thegame 0130/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -396,7 +396,7 @@ E
 kent browne rloxley 1337~
 Kent Browne (rloxley)~
 0131/avatar~
-talk:#adventure view:thegame:agent 0131/look~
+talk:#adv agent:thegame 0131/look~
 10 0 0 0 0 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
@@ -406,7 +406,7 @@ E
 ray kaplan 1337 christic romero defcon hope~
 Ray Kaplan (kaplan)~
 0132/avatar~
-talk:#adventure view:thegame:agent 0132/look~
+talk:#adv agent:thegame 0132/look~
 2074 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -422,7 +422,7 @@ E
 blue deva d0133 z1~
 BlueDEVA~
 0133/avatar~
-talk:#adventure view:thegame:agent 0133/look~
+talk:#adv agent:thegame 0133/look~
 8 0 0 0 2048 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
@@ -432,7 +432,7 @@ E
 red deva prime d0134 z1~
 RedDEVA PRIME~
 0134/avatar~
-talk:#adventure view:thegame:agent 0134/look
+talk:#adv agent:thegame 0134/look
 ~
 2056 0 0 0 16 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -466,7 +466,7 @@ E
 black prime deva d0137 z1~
 BlackDEVA PRIME~
 0137/avatar~
-talk:#adventure view:thegame:agent 0137/look~
+talk:#adv agent:thegame 0137/look~
 8 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -476,7 +476,7 @@ E
 yellow master deva d138 z1~
 YellowDEVA PRIME~
 0138/avatar~
-talk:#adventure view:thegame:agent 0138/look~
+talk:#adv agent:thegame 0138/look~
 8 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -486,7 +486,7 @@ E
 kibo james parry 1337 kibo~
 James Parry (kibo)~
 0139/avatar~
-talk:#adventure view:thegame:agent 0139/look~
+talk:#adv agent:thegame 0139/look~
 2074 0 0 0 0 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 50 900
@@ -533,7 +533,7 @@ E
 security deva securitydeva patrol d143 z1~
 SecurityDEVA D143 (Patrol)~
 0143/avatar~
-talk:#adventure view:thegame:agent 0143/look~
+talk:#adv agent:thegame 0143/look~
 6172 0 0 0 0 0 0 0 600 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -549,7 +549,7 @@ E
 black deva blackdeva d0144 z1~
 BlackDEVA~
 0144/avatar~
-talk:#adventure view:thegame:agent 0144/look~
+talk:#adv agent:thegame 0144/look~
 8 0 0 0 2048 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
@@ -559,7 +559,7 @@ E
 yellow deva yellowdeva d0145 z1~
 YellowDEVA~
 0145/avatar~
-talk:#adventure view:thegame:agent 0145/look~
+talk:#adv agent:thegame 0145/look~
 8 0 0 0 2048 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
 140 19600
@@ -569,7 +569,7 @@ E
 gray deva graydeva d0146 z1~
 GrayDEVA~
 0146/avatar~
-talk:#adventure view:thegame:agent 0146/look~
+talk:#adv agent:thegame 0146/look~
 72 0 0 0 16 0 0 0 600 E
 14 16 1 2d2+140 2d2+2
 140 19600
@@ -591,7 +591,7 @@ T 106
 purple deva purpledeva d0148 z1~
 PurpleDEVA~
 0148/avatar~
-talk:#adventure view:thegame:agent 0148/look~
+talk:#adv agent:thegame 0148/look~
 72 0 0 0 16 0 0 0 -400 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -612,7 +612,7 @@ E
 dave dogruel xibo 1337 angst~
 Dave Dogruel (xibo)~
 0150/avatar~
-talk:#adventure view:thegame:agent 0150/look~
+talk:#adv agent:thegame 0150/look~
 2202 0 0 0 0 0 0 0 -300 E
 3 19 8 0d0+30 1d2+0
 70 900
@@ -647,7 +647,7 @@ E
 douglas rushkoff 1337 edge~
 Douglas Rushkoff (rushkoff)~
 0153/avatar~
-talk:#adventure view:thegame:agent 0153/look~
+talk:#adv agent:thegame 0153/look~
 2074 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -658,7 +658,7 @@ E
 arjika arjikiya pfc prviate first class a154 z3~
 Arjika PFC~
 0154/avatar~
-talk:#adventure view:thegame:agent 0154/look~
+talk:#adv agent:thegame 0154/look~
 4120 0 0 0 0 0 0 0 100 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -669,7 +669,7 @@ E
 arjika arjikiya colnel military a155 z3~
 Arjika Colnel~
 0155/avatar~
-talk:#adventure view:thegame:agent 0155/look~
+talk:#adv agent:thegame 0155/look~
 247818 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -679,7 +679,7 @@ E
 vamraka monk deva~
 Vamraka Monk~
 0156/avatar~
-talk:#adventure view:thegame:agent 0156/look~
+talk:#adv agent:thegame 0156/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -689,7 +689,7 @@ E
 telecomix 1337 cameron~
 Cameron (telecomix)~
 0157/avatar~
-talk:#adventure view:thegame:agent 0157/look~
+talk:#adv agent:thegame 0157/look~
 2074 0 0 0 0 0 0 0 -100 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -700,7 +700,7 @@ E
 sharon schamber evil covenant~
 Sharon Schamber~
 0158/avatar~
-talk:#adventure view:thegame:agent 0158/look~
+talk:#adv agent:thegame 0158/look~
 16394 0 0 0 0 0 0 0 -500 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -743,7 +743,7 @@ E
 service deva servicedeva streetsweeper d0161 z1~
 ServiceDEVA (streetsweeper)~
 0161/avatar~
-talk:#adventure view:thegame:agent 0161/look
+talk:#adv agent:thegame 0161/look
 ~
 2072 0 0 0 16 0 0 0 800 E
 11 17 3 2d2+110 1d2+1
@@ -754,7 +754,7 @@ E
 dan farmer hellraiser 1337 defcon satan satanic evil~
 Dan Farmer (hellraiser)~
 0162/avatar~
-talk:#adventure view:thegame:agent 0162/look~
+talk:#adv agent:thegame 0162/look~
 2074 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -770,7 +770,7 @@ E
 john romero 1337~
 John Romero (romero)~
 0163/avatar~
-talk:#adventure view:thegame:agent 0163/look~
+talk:#adv agent:thegame 0163/look~
 2078 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -786,7 +786,7 @@ E
 michael nebadon jesus 1337~
 Michael Nebadon (michael)~
 0164/avatar~
-talk:#adventure view:thegame:agent 0164/look~
+talk:#adv agent:thegame 0164/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -834,7 +834,7 @@ staff sergeant arjika arjikiya military a0167 z1~
 Arjika Staff Sergeant~
 0167/avatar
 ~
-talk:#adventure view:thegame:agent 0167/look
+talk:#adv agent:thegame 0167/look
 ~
 2120 0 0 0 0 0 0 0 1000 E
 19 14 -1 3d3+190 3d3+3
@@ -845,7 +845,7 @@ E
 tyler mayhem tylersec tg23 thegame23 1337~
 Tyler TG23~
 0168/avatar~
-talk:#adventure view:thegame:agent 0168/look~
+talk:#adv agent:thegame 0168/look~
 2074 0 0 0 0 0 0 0 -100 E
 1 20 9 0d0+10 1d2+0
 20 100
@@ -857,7 +857,7 @@ T 2
 tyler mayhem tylersec pm2012 1337~
 Tyler PM2012~
 0169/avatar~
-talk:#adventure view:thegame:agent 0169/look~
+talk:#adv agent:thegame 0169/look~
 2074 0 0 0 0 0 0 0 -175 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -869,7 +869,7 @@ T 3
 m1vr4 tg23 thegame23 anonymous 1337~
 m1Vr4~
 0170/avatar~
-talk:#adventure view:thegame:agent 0170/look~
+talk:#adv agent:thegame 0170/look~
 2078 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -881,7 +881,7 @@ T 4
 tyler mayhem tylersec pm2020 1337~
 Tyler (pm2020)~
 0171/avatar~
-talk:#adventure view:thegame:agent 0171/look~
+talk:#adv agent:thegame 0171/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -893,7 +893,7 @@ T 5
 tyler mayhem ethersec tylersec 1337~
 Tyler eTHErSEC~
 0172/avatar~
-talk:#adventure view:thegame:agent 0172/look~
+talk:#adv agent:thegame 0172/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -904,7 +904,7 @@ E
 security deva securitydeva guard d173 z1~
 SecurityDEVA D173 (Agency)~
 0173/avatar~
-talk:#adventure view:thegame:agent 0173/look~
+talk:#adv agent:thegame 0173/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -915,7 +915,7 @@ T 133
 security guard deva securitydeva d0174 z1~
 SecurityDEVA D174 (Agency)~
 0174/avatar~
-talk:#adventure view:thegame:agent 0174/look~
+talk:#adv agent:thegame 0174/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -926,7 +926,7 @@ T 133
 security deva securitydeva guard paul blart d175 z1~
 SecurityDEVA D175 (Guard)~
 0175/avatar~
-talk:#adventure view:thegame:agent 0175/look~
+talk:#adv agent:thegame 0175/look~
 6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
 333 62500
@@ -947,7 +947,7 @@ E
 sergeant arjika arjikiya military a176 z3~
 Arjika Gunney Sergeant~
 0176/avatar~
-talk:#adventure view:thegame:agent 0176/look~
+talk:#adv agent:thegame 0176/look~
 72 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -957,7 +957,7 @@ E
 security deva securitydeva cyber d0177 z1~
 SecurityDEVA D177 (Cyber)~
 0177/avatar~
-talk:#adventure view:thegame:agent 0177/look~
+talk:#adv agent:thegame 0177/look~
 256010 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -973,7 +973,7 @@ T 133
 gail thackeray 1337 mom attorney lawyer~
 Gail Thackeray (mom)~
 0178/avatar~
-talk:#adventure view:thegame:agent 0178/look~
+talk:#adv agent:thegame 0178/look~
 2074 0 0 0 0 0 0 0 -300 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -989,7 +989,7 @@ E
 private arjika arjikiya a0178 military z1~
 Arjika Private~
 0179/avatar~
-talk:#adventure view:thegame:agent 0179/look~
+talk:#adv agent:thegame 0179/look~
 72 0 0 0 0 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -999,7 +999,7 @@ E
 peter thiel mater high councillor palantir 1337~
 Peter Thiel~
 0180/avatar~
-talk:#adventure view:thegame:agent 0180/look~
+talk:#adv agent:thegame 0180/look~
 10 0 0 0 0 0 0 0 -1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
@@ -1009,7 +1009,7 @@ E
 security deva securitydeva lookout d181 z1~
 SecurityDEVA D181 (Lookout)~
 0181/avatar~
-talk:#adventure view:thegame:agent 0181/look~
+talk:#adv agent:thegame 0181/look~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
@@ -1019,7 +1019,7 @@ E
 brenda romero covenant survivance 1337~
 Brenda Romero~
 0182/avatar~
-talk:#adventure view:thegame:agent 0182/look~
+talk:#adv agent:thegame 0182/look~
 2074 0 0 0 0 0 0 0 -300 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -1035,7 +1035,7 @@ E
 artist master~
 the Master Artist~
 0183/avatar~
-talk:#adventure view:thegame:agent 0183/look~
+talk:#adv agent:thegame 0183/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1045,7 +1045,7 @@ E
 hannibal eotl bartender 1337~
 Hannibal~
 0184/avatar~
-talk:#adventure view:thegame:agent 0184/look~
+talk:#adv agent:thegame 0184/look~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1056,7 +1056,7 @@ T 106
 sareth~
 Sareth, the sage~
 0185/avatar~
-talk:#adventure view:thegame:agent 0185/look~
+talk:#adv agent:thegame 0185/look~
 26648 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1067,7 +1067,7 @@ T 106
 medit deva medicdeva medical nurse d186 z1~
 MedicDEVA (Nurse)~
 0186/avatar~
-talk:#adventure view:thegame:agent 0186/look~
+talk:#adv agent:thegame 0186/look~
 61450 0 0 0 26744 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -1082,7 +1082,7 @@ E
 baker food bread bakery~
 the Baker~
 0187/avatar~
-talk:#adventure view:thegame:world 0187/look~
+talk:#adv agent:thegame 0187/look~
 24586 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -1093,7 +1093,7 @@ T 106
 quinn fazigu schmoo 1337~
 Quinn (fazigu)~
 0188/avatar~
-talk:#adventure view:thegame:agent 0188/look~
+talk:#adv agent:thegame 0188/look~
 2074 0 0 0 0 0 0 0 -200 E
 2 20 8 0d0+20 1d2+0
 50 400
@@ -1103,7 +1103,7 @@ E
 commander arjika arjikiya military a0189 z1~
 Arjika Commander~
 0189/avatar~
-talk:#adventure view:thegame:agent 0189/look~
+talk:#adv agent:thegame 0189/look~
 2058 0 0 0 0 0 0 0 1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -1113,7 +1113,7 @@ E
 tyler dangerous pm2012 1337~
 Tyler Dangerous~
 0190/avatar~
-talk:#adventure view:thegame:agent 0190/look~
+talk:#adv agent:thegame 0190/look~
 2074 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -1123,7 +1123,7 @@ E
 tyler it 1337 egregore~
 Tyler It~
 0191/avatar~
-talk:#adventure view:thegame:agent 0191/look~
+talk:#adv agent:thegame 0191/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -1133,7 +1133,7 @@ E
 tyler ethersec 1337 pm2020~
 Tyler (EtherSec)~
 0192/avatar~
-talk:#adventure view:thegame:agent 0192/look~
+talk:#adv agent:thegame 0192/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -1143,7 +1143,7 @@ E
 valis project89 1337~
 Valis~
 0193/avatar~
-talk:#adventure view:thegame:agent 0193/look~
+talk:#adv agent:thegame 0193/look~
 2074 0 0 0 0 0 0 0 -150 E
 2 20 8 0d0+20 1d2+0
 20 400
@@ -1153,7 +1153,7 @@ E
 mr bungle aric 1337~
 Mr. Bungle~
 0194/avatar~
-talk:#adventure view:thegame:agent 0194/look~
+talk:#adv agent:thegame 0194/look~
 2074 0 0 0 0 0 0 0 -250 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -1164,7 +1164,7 @@ E
 mr whiskers kitten cat cats feline~
 Mr. Whiskers~
 0195/avatar~
-talk:#adventure view:thegame:agent 0195/look~
+talk:#adv agent:thegame 0195/look~
 8 0 0 0 2064 0 0 0 900 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -1175,7 +1175,7 @@ E
 jess queen hacker girl evil~
 JESS~
 0196/avatar~
-talk:#adventure view:thegame:agent 0196/look~
+talk:#adv agent:thegame 0196/look~
 8 0 0 0 0 0 0 0 -1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -1191,7 +1191,7 @@ E
 carpenter services~
 the Carpenter~
 0197/avatar~
-talk:#adventure view:thegame:agent 0197/look~
+talk:#adv agent:thegame 0197/look~
 10 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -1202,7 +1202,7 @@ T 106
 indu monk~
 the Monk~
 0198/avatar~
-talk:#adventure view:thegame:agent 0198/look~
+talk:#adv agent:thegame 0198/look~
 72 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -1212,7 +1212,7 @@ E
 chef~
 the Chef~
 0199/avatar~
-talk:#adventure view:thegame:agent 0199/look~
+talk:#adv agent:thegame 0199/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600

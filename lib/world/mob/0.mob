@@ -2,7 +2,7 @@
 vamraka deva~
 Vamraka~
 0000/avatar~
-talk:#adventure view:thegame:agent 0000/look~
+talk:#adv agent:thegame 0000/look~
 518170 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -24,7 +24,7 @@ E
 indu deva~
 Indu~
 0001/avatar~
-talk:#adventure view:thegame:agent 0001/look~
+talk:#adv agent:thegame 0001/look~
 518298 0 0 0 26744 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -46,7 +46,7 @@ E
 indra deva~
 Indra~
 0002/avatar~
-talk:#adventure view:thegame:agent 0002/look~
+talk:#adv agent:thegame 0002/look~
 522522 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -68,7 +68,7 @@ E
 soma deva~
 Soma~
 0003/avatar~
-talk:#adventure view:thegame:agent 0003/look~
+talk:#adv agent:thegame 0003/look~
 522522 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -90,7 +90,7 @@ E
 bom deva~
 Bom~
 0004/avatar~
-talk:#adventure view:thegame:agent 0004/look~
+talk:#adv agent:thegame 0004/look~
 522522 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -112,7 +112,7 @@ E
 security securityprime prime deva~
 SecurityPRIME~
 0005/avatar~
-talk:#adventure view:thegame:agent 0005/look~
+talk:#adv agent:thegame 0005/look~
 522268 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -134,7 +134,7 @@ E
 medical medic medicprime prime deva~
 MedicPRIME~
 0006/avatar~
-talk:#adventure view:thegame:agent 0006/look~
+talk:#adv agent:thegame 0006/look~
 522266 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -156,7 +156,7 @@ E
 harry deva~
 Harry Deva~
 0007/avatar~
-talk:#adventure view:thegame:agent 0007/look~
+talk:#adv agent:thegame 0007/look~
 6300 0 0 0 2168 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -167,7 +167,7 @@ E
 larry deva~
 Larry Deva~
 0008/avatar~
-talk:#adventure view:thegame:agent 0008/look~
+talk:#adv agent:thegame 0008/look~
 6296 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -178,7 +178,7 @@ E
 barry deva~
 Barry Deva~
 0009/avatar~
-talk:#adventure view:thegame:agent 0009/look~
+talk:#adv agent:thegame 0009/look~
 2204 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -200,7 +200,7 @@ E
 vivasvan deva~
 Vivasvan~
 0010/avatar~
-talk:#adventure view:thegame:agent 0010/look~
+talk:#adv agent:thegame 0010/look~
 518170 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -222,7 +222,7 @@ E
 yama deva~
 Yama~
 0011/avatar~
-talk:#adventure view:thegame:agent 0011/look~
+talk:#adv agent:thegame 0011/look~
 522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -244,7 +244,7 @@ E
 yami devi~
 Yami~
 0012/avatar~
-talk:#adventure view:thegame:agent 0012/look~
+talk:#adv agent:thegame 0012/look~
 518170 0 0 0 24640 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
