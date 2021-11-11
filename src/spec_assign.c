@@ -132,13 +132,13 @@ void assign_mobiles(void)
 /* assign special procedures to objects */
 void assign_objects(void)
 {
-  ASSIGNOBJ(90, gen_board);      /* army board */
-  ASSIGNOBJ(91, gen_board);      /* army board */
-  ASSIGNOBJ(92, gen_board);      /* army board */
-  ASSIGNOBJ(93, gen_board);      /* army board */
-  ASSIGNOBJ(94, gen_board);      /* navy board */
-  ASSIGNOBJ(95, gen_board);      /* marines board */
-  ASSIGNOBJ(96, gen_board);      /* airforce board */
+  ASSIGNOBJ(90, gen_board);      /* DEVA board */
+  ASSIGNOBJ(91, gen_board);      /* MEDIC board */
+  ASSIGNOBJ(92, gen_board);      /* SECURITY board */
+  ASSIGNOBJ(93, gen_board);      /* SOMA board */
+  ASSIGNOBJ(94, gen_board);      /* INDU board */
+  ASSIGNOBJ(95, gen_board);      /* ARJIKA board */
+  ASSIGNOBJ(96, gen_board);      /* SARYA board */
 
   ASSIGNOBJ(115, bank);
   ASSIGNOBJ(300, bank);	           /* atm */

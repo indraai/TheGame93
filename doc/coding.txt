@@ -1440,7 +1440,7 @@ added to shop.h. Also in shop.c, the is_ok_char() function will need modified to
 add "IS_xyz(...) && NOTRADE_xyz(...)" conditions, to make the above changes take
 effect.
 
-Lastly for changes beyond class.c, search utils.h for "IS_MARINES" and make a
+Lastly for changes beyond class.c, search utils.h for "IS_ARJIKA" and make a
 similar definition below it for the new class.
 
 Most of the changes to class.c will be straight-forward if going by the existing
@@ -1563,7 +1563,7 @@ procedures they are still used for such functions as banks and guildmasters.
 
 Using special procedures, your virtual world is not just a bunch of monsters,
 objects and rooms, reduced to a number of statistics. Just like good descriptions
-add atmosphere to the world, good use of special procedures adds breath and life to 
+add atmosphere to the world, good use of special procedures adds breath and life to
 the world.
 
 Several special procedures are provided with stock tbaMUD which you can use to

@@ -624,7 +624,7 @@ D4
 0 0 106
 S
 #141
-NAVY Medical~
+INDU Medical~
 empty.~
 1 24 0 0 0 0
 D3
@@ -746,7 +746,7 @@ D4
 0 0 109
 S
 #151
-MARINES Medical~
+ARJIKA Medical~
 Empty room.~
 1 24 0 0 0 0
 D1
@@ -755,7 +755,7 @@ D1
 0 0 164
 S
 #152
-NAVY Recruiting~
+INDU Recruiting~
 empty room.~
 1 24 0 0 0 0
 D1
@@ -768,7 +768,7 @@ D2
 0 0 167
 S
 #153
-NAVY Entrance~
+INDU Entrance~
 empty room.~
 1 24 0 0 0 0
 D1
@@ -781,7 +781,7 @@ D3
 0 0 152
 S
 #154
-11 NAVY Way~
+11 INDU Way~
 empty room.~
 1 16 0 0 0 1
 D1
@@ -983,7 +983,7 @@ D3
 0 0 162
 S
 #164
-11 MARINES Way~
+11 ARJIKA Way~
 Empty room.~
 1 16 0 0 0 1
 D1
@@ -1000,7 +1000,7 @@ D3
 0 0 151
 S
 #165
-MARINES Entrance~
+ARJIKA Entrance~
 Empty room.~
 1 24 0 0 0 0
 D1
@@ -1013,7 +1013,7 @@ D3
 1 0 164
 S
 #166
-MARINES Recruiting~
+ARJIKA Recruiting~
 Empty.~
 1 24 0 0 0 0
 D2
@@ -1026,7 +1026,7 @@ D3
 0 0 165
 S
 #167
-NAVY Training~
+INDU Training~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -1043,7 +1043,7 @@ D2
 0 0 204
 S
 #168
-NAVY Cyber1~
+INDU Cyber1~
 empty room.~
 1 568 0 0 0 0
 D2
@@ -1057,7 +1057,7 @@ D3
 S
 #169
 Hero Avenue~
-The Barracks rise above the west and a small cozy home is to the east.  A well-travelled road continues north and south.  This appears to be the Hero Quarter where the army of Arjika bases it's operations.  Several recruits rush past on assignment.~
+The Barracks rise above the west and a small cozy home is to the east.  A well-travelled road continues north and south.  This appears to be the Hero Quarter where the military of Arjika bases it's operations.  Several recruits rush past on assignment.~
 1 0 0 0 0 1
 D0
 ~
@@ -1163,7 +1163,7 @@ D2
 0 0 194
 S
 #180
-MARINES CYBER1~
+ARJIKA CYBER1~
 undefined~
 1 568 0 0 0 0
 D1
@@ -1176,7 +1176,7 @@ D2
 0 0 195
 S
 #181
-MARINES Training~
+ARJIKA Training~
 Empty.~
 1 24 0 0 0 0
 D0
@@ -1193,7 +1193,7 @@ D3
 0 0 180
 S
 #182
-NAVY Kitchen~
+INDU Kitchen~
 empty room.~
 1 24 0 0 0 0
 D0
@@ -1202,7 +1202,7 @@ D0
 0 0 197
 S
 #183
-NAVY Cyber2~
+INDU Cyber2~
 empty room.~
 1 568 0 0 0 0
 D0
@@ -1215,7 +1215,7 @@ D2
 0 0 198
 S
 #184
-9 NAVY Way~
+9 INDU Way~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -1232,7 +1232,7 @@ D2
 0 0 199
 S
 #185
-NAVY Alley~
+INDU Alley~
 empty room.~
 1 272 0 0 0 1
 D1
@@ -1245,7 +1245,7 @@ D3
 0 0 184
 S
 #186
-NAVY Alley~
+INDU Alley~
 empty room.~
 1 272 0 0 0 1
 D1
@@ -1258,7 +1258,7 @@ D3
 0 0 185
 S
 #187
-NAVY Alley~
+INDU Alley~
 empty room.~
 1 272 0 0 0 1
 D1
@@ -1271,7 +1271,7 @@ D3
 0 0 186
 S
 #188
-NAVY Alley~
+INDU Alley~
 empty room.~
 1 272 0 0 0 1
 D1
@@ -1305,7 +1305,7 @@ D3
 0 0 188
 S
 #190
-MARINES Alley~
+ARJIKA Alley~
 undefined~
 1 272 0 0 0 1
 D1
@@ -1318,7 +1318,7 @@ D3
 0 0 189
 S
 #191
-MARINES Alley~
+ARJIKA Alley~
 undefined~
 1 272 0 0 0 1
 D1
@@ -1335,7 +1335,7 @@ D3
 0 0 190
 S
 #192
-MARINES ALLEY~
+ARJIKA ALLEY~
 Empty Room.~
 1 272 0 0 0 1
 D1
@@ -1352,7 +1352,7 @@ D3
 0 0 191
 S
 #193
-MARINES ALLEY~
+ARJIKA ALLEY~
 Empty Room.~
 1 0 0 0 0 1
 D1
@@ -1365,7 +1365,7 @@ D3
 0 0 192
 S
 #194
-9 MARINES Way~
+9 ARJIKA Way~
 undefined~
 1 16 0 0 0 1
 D0
@@ -1382,7 +1382,7 @@ D3
 0 0 193
 S
 #195
-MARINES CYBER2~
+ARJIKA CYBER2~
 undefined~
 1 568 0 0 0 0
 D0
@@ -1395,7 +1395,7 @@ D2
 0 0 202
 S
 #196
-MARINES Kitchen~
+ARJIKA Kitchen~
 Empty.~
 1 24 0 0 0 0
 D0
@@ -1404,7 +1404,7 @@ D0
 0 0 203
 S
 #197
-NAVY Dining~
+INDU Dining~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -1417,7 +1417,7 @@ D2
 0 0 182
 S
 #198
-NAVY Cyber3~
+INDU Cyber3~
 empty room.~
 1 568 0 0 0 0
 D0
@@ -1430,7 +1430,7 @@ D2
 0 0 205
 S
 #199
-8 NAVY Way~
+8 INDU Way~
 Empty room.~
 1 16 0 0 0 1
 D0

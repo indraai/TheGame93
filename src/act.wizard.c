@@ -2759,10 +2759,10 @@ ACMD(do_show)
 
     for (j = 1; j < LVL_IMMORT; j++) {
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j,
-				thaco(CLASS_ARMY, j),
-				thaco(CLASS_NAVY, j),
-				thaco(CLASS_AIRFORCE, j),
-				thaco(CLASS_MARINES, j));
+				thaco(CLASS_SOMA, j),
+				thaco(CLASS_INDU, j),
+				thaco(CLASS_SARYA, j),
+				thaco(CLASS_ARJIKA, j));
       if (len + nlen >= sizeof(buf))
         break;
       len += nlen;
@@ -2777,10 +2777,10 @@ ACMD(do_show)
 
     for (i = 1; i < LVL_IMMORT; i++) {
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-6d %-6d %-6d %-6d\r\n", i,
-				level_exp(CLASS_ARMY, i) - level_exp(CLASS_ARMY, i - 1),
-				level_exp(CLASS_NAVY, i) - level_exp(CLASS_NAVY, i - 1),
-				level_exp(CLASS_AIRFORCE, i) - level_exp(CLASS_AIRFORCE, i - 1),
-				level_exp(CLASS_MARINES, i) - level_exp(CLASS_MARINES, i - 1));
+				level_exp(CLASS_SOMA, i) - level_exp(CLASS_SOMA, i - 1),
+				level_exp(CLASS_INDU, i) - level_exp(CLASS_INDU, i - 1),
+				level_exp(CLASS_SARYA, i) - level_exp(CLASS_SARYA, i - 1),
+				level_exp(CLASS_ARJIKA, i) - level_exp(CLASS_ARJIKA, i - 1));
       if (len + nlen >= sizeof(buf))
         break;
       len += nlen;

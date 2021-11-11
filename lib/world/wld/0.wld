@@ -224,8 +224,8 @@ D3
 0 0 212
 S
 #14
-ARMY: Academy~
-talk:#adventure view:thegame:world 0014/main
+SOMA Academy~
+talk:#adv world:thegame 0014/main
 ~
 0 8 0 0 0 0
 D2
@@ -401,7 +401,7 @@ D3
 0 0 282
 S
 #26
-AIRFORCE: Academy~
+SARYA Academy~
 empty
 ~
 0 8 0 0 0 0

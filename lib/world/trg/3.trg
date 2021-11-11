@@ -12,13 +12,13 @@ if %actor.is_pc%
 end
 ~
 #336
-AIRFORCE SECURITY~
+SARYA SECURITY~
 2 g 100
 ~
 %echo% security:%actor.name% %actor.class% %direction%
 ~
 #350
-ARMY SECURITY~
+SOMA SECURITY~
 2 g 100
 ~
 %echo% security:%actor.name% %actor.class% %direction%

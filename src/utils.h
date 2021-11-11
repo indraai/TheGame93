@@ -853,13 +853,13 @@ do                                                              \
 #define CLASS_ABBR(ch) (IS_NPC(ch) ? "--" : class_abbrevs[(int)GET_CLASS(ch)])
 
 /** 1 if ch is magic user class, 0 if not. */
-#define IS_ARMY(ch)	GET_CLASS(ch) == CLASS_ARMY
+#define IS_SOMA(ch)	GET_CLASS(ch) == CLASS_SOMA
 /** 1 if ch is monk class, 0 if not. */
-#define IS_NAVY(ch)	GET_CLASS(ch) == CLASS_NAVY
+#define IS_INDU(ch)	GET_CLASS(ch) == CLASS_INDU
 /** 1 if ch is thief class, 0 if not. */
-#define IS_AIRFORCE(ch)	GET_CLASS(ch) == CLASS_AIRFORCE
+#define IS_SARYA(ch)	GET_CLASS(ch) == CLASS_SARYA
 /** 1 if ch is warrior class, 0 if not. */
-#define IS_MARINES(ch) GET_CLASS(ch) == CLASS_MARINES
+#define IS_ARJIKA(ch) GET_CLASS(ch) == CLASS_ARJIKA
 
 /** Defines if ch is outdoors or not. */
 #define OUTSIDE(ch) (!ROOM_FLAGGED(IN_ROOM(ch), ROOM_INDOORS))

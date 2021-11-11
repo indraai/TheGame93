@@ -148,26 +148,14 @@
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
 #define CLASS_MONK            0 // MONK
-#define CLASS_ARMY            1 // ARMY
-#define CLASS_NAVY            2 // NAVY
-#define CLASS_MARINES         3 // MARINES
-#define CLASS_AIRFORCE        4 // AIR FORCE
-#define CLASS_SPACEFORCE      5 // SPACE FORCE
-#define CLASS_AIRGUARD        6 // AIR GUARD
-#define CLASS_NATGUARD        7 // NATIONAL GUARD
-#define CLASS_COASTGUARD      8 // COAST GUARD
-#define CLASS_CIA             9 // CIA
-#define CLASS_FBI             10 // FBI
-#define CLASS_NSA             11 // NSA
-#define CLASS_DOD             12 // DOD
-#define CLASS_DEVA            13 // DEVA
-#define CLASS_DEVI            14 // DEVI
-#define CLASS_ARJIKA          15 // ARJIKA
-#define CLASS_SUSOMA          16 // SUSOMA
-#define CLASS_SARYAK          17 // SARYAKIAVAN
+#define CLASS_PRIEST          1 // PRIEST
+#define CLASS_INDU            2 // NAVY
+#define CLASS_SOMA            3 // ARMY
+#define CLASS_SARYA           4 // AIR FORCE
+#define CLASS_ARJIKA          5 // ARJIKA
 
 /** Total number of available PC Classes */
-#define NUM_CLASSES	  18
+#define NUM_CLASSES	          6
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -179,10 +167,10 @@
 
 /* GENDER */
 #define GENDER_NEUTRAL   0   /**< Neutral GENDER (Hermaphrodite) */
-#define GENDER_MALE      1   /**< Male GENDER (XY Chromosome) */
-#define GENDER_FEMALE    2   /**< Female GENDER (XX Chromosome) */
-#define GENDER_TMALE     3   /**< TRANS GENDER */
-#define GENDER_TFEMALE   4   /**< TRANS GENDER */
+#define GENDER_MALE      1   /**< Male GENDER */
+#define GENDER_FEMALE    2   /**< Female GENDER */
+#define GENDER_TMALE     3   /**< TRANS GENDER MALE */
+#define GENDER_TFEMALE   4   /**< TRANS GENDER FEMALE */
 #define GENDER_INTER     5   /**< INTER SPECIES GENDER */
 #define GENDER_DEVA      6   /**< DEVA GENDER */
 #define GENDER_DEVI      7   /**< DEVI GENDER */

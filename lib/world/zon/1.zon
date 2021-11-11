@@ -47,7 +47,7 @@ M 0 125 6 94     	(MedicDEVA 125)
 
 M 0 126 1 242 	(The Spy)
 
-M 0 127 1 336 	(AIRFORCE Recruiting)
+M 0 127 1 336 	(SARYA Recruiting)
 
 M 0 128 1 341 	(RedDEVA)
 M 0 129 1 3 	  (Stephen Watt)
@@ -68,7 +68,7 @@ M 0 135 1 252 	(BlueDEVA PRIME)
 M 0 137 1 131 	(the Master Magi)
 M 0 138 1 133 	(YellowDEVA PRIME)
 M 0 139 1 18 	  (James Parry Kibo)
-M 0 140 1 182 	(Joe Lavery - NAVY Cook)
+M 0 140 1 182 	(INDU Cook)
 M 0 141 1 143 	(the corporal)
 M 0 142 1 271 	(GreenDEVA)
 
@@ -101,22 +101,22 @@ M 0 158 1 238 	(Carla)
 O 0 154 1 238 	(the sewing machine)
 
 M 0 159 1 140 	(the lieutenant)
-* MARINES
+* ARJIKA
 M 0 160 1 180 	(Arjika Analyst)
 M 0 160 2 195 	(Arjika Analyst)
 M 0 160 3 202 	(Arjika Analyst)
 M 0 160 4 215 	(Arjika Analyst)
-* ARMY
+* SOMA
 M 0 160 5 297 	(Arjika Analyst)
 M 0 160 6 304 	(Arjika Analyst)
 M 0 160 7 319 	(Arjika Analyst)
 M 0 160 8 334 	(Arjika Analyst)
-* AIR FORCE
+* SARYA
 M 0 160 9 322 	(Arjika Analyst)
 M 0 160 10 307 	(Arjika Analyst)
 M 0 160 11 300 	(Arjika Analyst)
 M 0 160 12 287 	(Arjika Analyst)
-* NAVY
+* INDU
 M 0 160 13 168 	(Arjika Analyst)
 M 0 160 14 183 	(Arjika Analyst)
 M 0 160 15 198 	(Arjika Analyst)
@@ -173,22 +173,22 @@ M 0 175 4 243 	(SecurityDEVA Guard)
 M 0 175 4 362 	(SecurityDEVA Guard)
 
 M 0 176 1 182 	(Arjika Sergeant)
-* MARINES
+* ARJIKA
 M 0 177 1 180 	(SecurityDEVA Cyber)
 M 0 177 2 195 	(SecurityDEVA Cyber)
 M 0 177 3 202 	(SecurityDEVA Cyber)
 M 0 177 4 215 	(SecurityDEVA Cyber)
-* ARMY
+* SOMA
 M 0 177 5 297 	(SecurityDEVA Cyber)
 M 0 177 6 304 	(SecurityDEVA Cyber)
 M 0 177 7 319 	(SecurityDEVA Cyber)
 M 0 177 8 334 	(SecurityDEVA Cyber)
-* AIRFORCE
+* SARYA
 M 0 177 9 322 	(SecurityDEVA Cyber)
 M 0 177 10 307 	(SecurityDEVA Cyber)
 M 0 177 11 300 	(SecurityDEVA Cyber)
 M 0 177 12 287 	(SecurityDEVA Cyber)
-* NAVY
+* INDU
 M 0 177 13 168 	(SecurityDEVA Cyber)
 M 0 177 14 183 	(SecurityDEVA Cyber)
 M 0 177 15 198 	(SecurityDEVA Cyber)
@@ -273,17 +273,17 @@ O 1 92 99 259 	(security board e gate)
 R 0 362 92 -1 	(security board s gate)
 O 1 92 99 362 	(security board s gate)
 
-R 0 349 93 -1 	(army board)
-O 1 93 99 349 	(army board)
+R 0 349 93 -1 	(SOMA board)
+O 1 93 99 349 	(SOMA board)
 
-R 0 153 94 -1 	(navy board)
-O 1 94 99 153 	(navy board)
+R 0 153 94 -1 	(INDU board)
+O 1 94 99 153 	(INDU board)
 
-R 0 165 95 -1 	(marines board)
-O 1 95 99 165 	(marines board)
+R 0 165 95 -1 	(ARJIKA board)
+O 1 95 99 165 	(ARJIKA board)
 
-R 0 337 96 -1 	(marines board)
-O 1 96 99 337 	(marines board)
+R 0 337 96 -1 	(SARYA board)
+O 1 96 99 337 	(SARYA board)
 
 S
 $

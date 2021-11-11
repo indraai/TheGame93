@@ -16,7 +16,7 @@ D2
 0 0 210
 S
 #201
-8 MARINES Way~
+8 ARJIKA Way~
 undefined~
 2 16 0 0 0 1
 D0
@@ -29,7 +29,7 @@ D2
 0 0 214
 S
 #202
-MARINES CYBER3~
+ARJIKA CYBER3~
 Empty.~
 2 568 0 0 0 0
 D0
@@ -42,7 +42,7 @@ D2
 0 0 215
 S
 #203
-MARINES Dining~
+ARJIKA Dining~
 Empty.~
 2 24 0 0 0 0
 D0
@@ -55,7 +55,7 @@ D2
 0 0 196
 S
 #204
-NAVY Barracks~
+INDU Barracks~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -68,7 +68,7 @@ D2
 0 0 197
 S
 #205
-NAVY Cyber4~
+INDU Cyber4~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -85,7 +85,7 @@ D3
 0 0 204
 S
 #206
-7 NAVY Way~
+7 INDU Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -233,7 +233,7 @@ D4
 0 0 112
 S
 #214
-7 MARINES Way~
+7 ARJIKA Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -250,7 +250,7 @@ D3
 0 0 8
 S
 #215
-MARINES CYBER4~
+ARJIKA CYBER4~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -263,7 +263,7 @@ D2
 0 0 228
 S
 #216
-MARINES Barracks~
+ARJIKA Barracks~
 Empty.~
 2 24 0 0 0 0
 D0
@@ -276,7 +276,7 @@ D2
 0 0 203
 S
 #217
-NAVY Research~
+INDU Research~
 Empty room.~
 2 568 0 0 0 0
 D1
@@ -289,7 +289,7 @@ D2
 0 0 230
 S
 #218
-NAVY Library~
+INDU Library~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -306,7 +306,7 @@ D3
 0 0 217
 S
 #219
-2 NAVY Way~
+2 INDU Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -398,7 +398,7 @@ D4
 0 0 326
 S
 #227
-2 MARINES Way~
+2 ARJIKA Way~
 undefined~
 2 16 0 0 0 1
 D0
@@ -415,7 +415,7 @@ D3
 0 0 13
 S
 #228
-MARINES Library~
+ARJIKA Library~
 undefined~
 2 568 0 0 0 0
 D0
@@ -432,7 +432,7 @@ D2
 0 0 241
 S
 #229
-MARINES Research~
+ARJIKA Research~
 Empty Room.~
 2 568 0 0 0 0
 D2
@@ -445,7 +445,7 @@ D3
 0 0 228
 S
 #230
-NAVY Development~
+INDU Development~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -458,7 +458,7 @@ D1
 0 0 231
 S
 #231
-NAVY Operations~
+INDU Operations~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -471,7 +471,7 @@ D3
 0 0 230
 S
 #232
-1 NAVY Way~
+1 INDU Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -583,7 +583,7 @@ D3
 0 0 238
 S
 #240
-1 MARINES Way~
+1 ARJIKA Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -596,7 +596,7 @@ D2
 0 0 256
 S
 #241
-MARINES Operations~
+ARJIKA Operations~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -609,7 +609,7 @@ D1
 0 0 242
 S
 #242
-MARINES Development~
+ARJIKA Development~
 undefined~
 2 568 0 0 0 0
 D0
@@ -859,7 +859,7 @@ D3
 0 0 254
 S
 #259
-Susoma Portal~
+SOMA Portal~
 Empty room.~
 2 16 0 0 0 1
 D3
@@ -872,7 +872,7 @@ D4
 0 0 119
 S
 #260
-AIRFORCE Development~
+SARYA Development~
 Empty room.~
 2 568 0 0 0 0
 D1
@@ -885,7 +885,7 @@ D2
 0 0 273
 S
 #261
-AIRFORCE Operations~
+SARYA Operations~
 Empty room.~
 2 568 0 0 0 0
 D2
@@ -898,7 +898,7 @@ D3
 0 0 260
 S
 #262
-1 AIRFORCE Way~
+1 SARYA Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1010,7 +1010,7 @@ D3
 0 0 268
 S
 #270
-1 S ARMY Way~
+1 S SOMA Way~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1023,7 +1023,7 @@ D2
 0 0 283
 S
 #271
-ARMY Operations~
+SOMA Operations~
 undefined~
 2 568 0 0 0 0
 D1
@@ -1036,7 +1036,7 @@ D2
 0 0 284
 S
 #272
-ARMY Development~
+SOMA Development~
 Empty room.~
 2 568 0 0 0 0
 D2
@@ -1049,7 +1049,7 @@ D3
 0 0 271
 S
 #273
-AIRFORCE Research~
+SARYA Research~
 undefined~
 2 568 0 0 0 0
 D0
@@ -1062,7 +1062,7 @@ D1
 0 0 274
 S
 #274
-AIRFORCE Library~
+SARYA Library~
 undefined~
 2 568 0 0 0 0
 D0
@@ -1079,7 +1079,7 @@ D3
 0 0 273
 S
 #275
-2 AIRFORCE Way~
+2 SARYA Way~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1187,7 +1187,7 @@ D3
 0 0 281
 S
 #283
-2 S ARMY Way~
+2 S SOMA Way~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1204,7 +1204,7 @@ D3
 0 0 25
 S
 #284
-ARMY Library~
+SOMA Library~
 Empty room.~
 2 568 0 0 0 1
 D0
@@ -1221,7 +1221,7 @@ D2
 0 0 297
 S
 #285
-ARMY Research~
+SOMA Research~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -1234,7 +1234,7 @@ D3
 0 0 284
 S
 #286
-AIRFORCE Kitchen~
+SARYA Kitchen~
 Empty room.~
 2 24 0 0 0 0
 D2
@@ -1243,7 +1243,7 @@ D2
 0 0 299
 S
 #287
-AIRFORCE CYBER4~
+SARYA CYBER4~
 undefined~
 2 568 0 0 0 0
 D0
@@ -1394,7 +1394,7 @@ D4
 0 0 122
 S
 #296
-7 S ARMY Way~
+7 S SOMA Way~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1411,7 +1411,7 @@ D3
 0 0 20
 S
 #297
-ARMY CYBER4~
+SOMA CYBER4~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -1424,7 +1424,7 @@ D2
 0 0 304
 S
 #298
-ARMY Barracks~
+SOMA Barracks~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -1437,7 +1437,7 @@ D2
 0 0 335
 S
 #299
-AIRFORCE Dining~
+SARYA Dining~
 Empty room.~
 2 24 0 0 0 0
 D0

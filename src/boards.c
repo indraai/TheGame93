@@ -47,12 +47,12 @@
  * to also change NUM_OF_BOARDS in board.h*/
 struct board_info_type board_info[NUM_OF_BOARDS] = {
   {90, 0, 0, LVL_DEVA, LIB_ETC "board.deva", 0},
-  {91, 0, 0, LVL_DEVA, LIB_ETC "board.arjika", 0},
+  {91, 0, 0, LVL_DEVA, LIB_ETC "board.medical", 0},
   {92, 0, 0, LVL_DEVA, LIB_ETC "board.security", 0},
-  {93, 0, 0, LVL_DEVA, LIB_ETC "board.army", 0},
-  {94, 0, 0, LVL_DEVA, LIB_ETC "board.navy", 0},
-  {95, 0, 0, LVL_DEVA, LIB_ETC "board.marines", 0},
-  {96, 0, 0, LVL_DEVA, LIB_ETC "board.marines", 0},
+  {93, 0, 0, LVL_DEVA, LIB_ETC "board.soma", 0},
+  {94, 0, 0, LVL_DEVA, LIB_ETC "board.indu", 0},
+  {95, 0, 0, LVL_DEVA, LIB_ETC "board.arjika", 0},
+  {96, 0, 0, LVL_DEVA, LIB_ETC "board.sarya", 0},
   /*
   {3098, LVL_IMMORT, LVL_IMMORT, LVL_GRDEVA, LIB_ETC "board.immortal", 0},
   {3097, LVL_IMMORT, LVL_GRDEVA, LVL_IMPL, LIB_ETC "board.freeze", 0},

@@ -94,7 +94,7 @@ set name %actor.name%
 echo security:check %vnum%:%name%
 ~
 #152
-NAVY SECURITY~
+INDU SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!
@@ -126,7 +126,7 @@ if %people%
 end
 ~
 #166
-MARINES SECURITY~
+ARJIKA SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!

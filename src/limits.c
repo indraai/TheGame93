@@ -85,7 +85,7 @@ int mana_gain(struct char_data *ch)
       break;
     }
 
-    if (IS_ARMY(ch) || IS_NAVY(ch))
+    if (IS_SOMA(ch) || IS_INDU(ch))
       gain *= 2;
 
     if ((GET_COND(ch, HUNGER) == 0) || (GET_COND(ch, THIRST) == 0))
@@ -126,7 +126,7 @@ int hit_gain(struct char_data *ch)
       break;
     }
 
-    if (IS_ARMY(ch) || IS_NAVY(ch))
+    if (IS_SOMA(ch) || IS_INDU(ch))
       gain /= 2;	/* Ouch. */
 
     if ((GET_COND(ch, HUNGER) == 0) || (GET_COND(ch, THIRST) == 0))

@@ -49,51 +49,29 @@ const char *class_abbrevs[] = {
 
 const char *pc_class_types[] = {
   "Monk",
-  "Army",
-  "Navy",
-  "Marines",
-  "AirForce",
-  "SpaceForce",
-  "AirGuard",
-  "NatGuard",
-  "CoastGuard",
-  "CIA",
-  "FBI",
-  "NSA",
-  "DOD",
-  "Deva",
-  "Devi",
+  "Priest",
+  "Indu",
+  "Soma",
+  "Sarya",
   "Arjika",
-  "Susoma",
-  "Saryakiavan",
   "\n"
 };
 
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
-"## Religious\r\n"
-"menu[MONK]:a\r\n"
-"## Military\r\n"
-"menu[ARMY]:b\r\n"
-"menu[NAVY]:c\r\n"
-"menu[MARINES]:d\r\n"
-"menu[AIR FORCE]:e\r\n"
-"menu[SPACE FORCE]:f\r\n"
-"## Guard\r\n"
-"menu[AIR GUARD]:g\r\n"
-"menu[NAT GUARD]:h\r\n"
-"menu[COAST GUARD]:i\r\n"
-"## Federal\r\n"
-"menu[CIA]:j\r\n"
-"menu[FBI]:k\r\n"
-"menu[NSA]:l\r\n"
-"menu[DOD]:m\r\n"
-"## Vedic\r\n"
-"menu[DEVA]:n\r\n"
-"menu[DEVI]:o\r\n"
-"menu[ARJIKA]:p\r\n"
-"menu[SUSOMA]:q\r\n"
-"menu[SARYAK]:r\r\n";
+"\n## Player Class\r"
+"\nmenu[MONK]:a\r"
+"\np:Monk Class is one of two religious orders you can join in Arjika. Monks practice making Offerings to the Indra Line.\r"
+"\nmenu[PRIEST]:b\r"
+"\np:Priest Class is the second religous order you can join in Arjika. Priests practice making Sacrifices to the Agni Line.\r"
+"\nmenu[HOUSE INDU]:e\r"
+"\np:For our arriving guest from House Indu this option is available to you. Existing members only!"
+"\nmenu[HOUSE SOMA]:f\r"
+"\np:House Soma guests can select this option to represt their affiliation. Exisitng members only!"
+"\nmenu[HOUSE SARYA]:g\r"
+"\n:House Sarya guests can select this option for their class. Existing members only!"
+"\nmenu[ARJIKA]:h\r"
+"\np:For other guests arriving from Arjika who may not be members of Indu, Soma, or Sarya houses you can select this class. Existing citizens only!";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -102,24 +80,12 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case 'a': return CLASS_MONK; // MONK
-  case 'b': return CLASS_ARMY; // ARMY
-  case 'c': return CLASS_NAVY; // NAVY
-  case 'd': return CLASS_MARINES; // MARINES
-  case 'e': return CLASS_AIRFORCE; // AIR FORCE
-  case 'f': return CLASS_SPACEFORCE; // SPACE FORCE
-  case 'g': return CLASS_AIRGUARD; // AIR GUARD
-  case 'h': return CLASS_NATGUARD; // NATIONAL GUARD
-  case 'i': return CLASS_COASTGUARD; // COAST GUARD
-  case 'j': return CLASS_CIA; // CIA
-  case 'k': return CLASS_FBI; // FBI
-  case 'l': return CLASS_NSA; // NSA
-  case 'm': return CLASS_DOD; // DOD
-  case 'n': return CLASS_DEVA; // DEVA
-  case 'o': return CLASS_DEVI; // DEVI
-  case 'p': return CLASS_ARJIKA; // ARJIKA
-  case 'q': return CLASS_SUSOMA; // SUSOMA
-  case 'r': return CLASS_SARYAK; // SARYAKIAVAN
+  case 'a': return CLASS_MONK;    // MONK
+  case 'b': return CLASS_PRIEST;  // priest
+  case 'e': return CLASS_INDU;    // indu
+  case 'f': return CLASS_SOMA;    // soma
+  case 'g': return CLASS_SARYA;    // sarya
+  case 'h': return CLASS_ARJIKA;    // arjika
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -182,11 +148,11 @@ int prac_params[4][NUM_CLASSES] = {
  * via triggers. This code remains as an example. */
 struct guild_info_type guild_info[] = {
 
-/* Amaravati */
- { CLASS_ARMY, 350, NORTH },
- { CLASS_NAVY, 152, SOUTH },
- { CLASS_AIRFORCE, 336, NORTH },
- { CLASS_MARINES, 166, SOUTH },
+/* ARJIKA */
+ { CLASS_SOMA, 350, NORTH },
+ { CLASS_INDU, 152, SOUTH },
+ { CLASS_SARYA, 336, NORTH },
+ { CLASS_ARJIKA, 166, SOUTH },
 
 /* Brass Dragon */
   { -999 /* all */ ,	5065,	WEST	},
@@ -200,7 +166,7 @@ struct guild_info_type guild_info[] = {
 byte saving_throws(int class_num, int type, int level)
 {
   switch (class_num) {
-  case CLASS_ARMY:
+  case CLASS_SOMA:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -442,7 +408,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_NAVY:
+  case CLASS_INDU:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -684,7 +650,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_AIRFORCE:
+  case CLASS_SARYA:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -926,7 +892,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_MARINES:
+  case CLASS_ARJIKA:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -1230,7 +1196,7 @@ byte saving_throws(int class_num, int type, int level)
 int thaco(int class_num, int level)
 {
   switch (class_num) {
-  case CLASS_ARMY:
+  case CLASS_SOMA:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1270,7 +1236,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for mage thac0.");
     }
-  case CLASS_NAVY:
+  case CLASS_INDU:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1310,7 +1276,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for monk thac0.");
     }
-  case CLASS_AIRFORCE:
+  case CLASS_SARYA:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1350,7 +1316,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for thief thac0.");
     }
-  case CLASS_MARINES:
+  case CLASS_ARJIKA:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1440,7 +1406,7 @@ void roll_real_abils(struct char_data *ch)
   i am going to reduece it to one table for all classes until better
   understood
   switch (GET_CLASS(ch)) {
-  case CLASS_ARMY:
+  case CLASS_SOMA:
     ch->real_abils.intel = table[0];
     ch->real_abils.wis = table[1];
     ch->real_abils.dex = table[2];
@@ -1448,7 +1414,7 @@ void roll_real_abils(struct char_data *ch)
     ch->real_abils.con = table[4];
     ch->real_abils.cha = table[5];
     break;
-  case CLASS_NAVY:
+  case CLASS_INDU:
     ch->real_abils.wis = table[0];
     ch->real_abils.intel = table[1];
     ch->real_abils.str = table[2];
@@ -1456,7 +1422,7 @@ void roll_real_abils(struct char_data *ch)
     ch->real_abils.con = table[4];
     ch->real_abils.cha = table[5];
     break;
-  case CLASS_AIRFORCE:
+  case CLASS_SARYA:
     ch->real_abils.dex = table[0];
     ch->real_abils.str = table[1];
     ch->real_abils.con = table[2];
@@ -1464,7 +1430,7 @@ void roll_real_abils(struct char_data *ch)
     ch->real_abils.wis = table[4];
     ch->real_abils.cha = table[5];
     break;
-  case CLASS_MARINES:
+  case CLASS_ARJIKA:
     ch->real_abils.str = table[0];
     ch->real_abils.dex = table[1];
     ch->real_abils.con = table[2];
@@ -1494,13 +1460,13 @@ void do_start(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
-  case CLASS_ARMY:
+  case CLASS_SOMA:
     break;
 
-  case CLASS_NAVY:
+  case CLASS_INDU:
     break;
 
-  case CLASS_AIRFORCE:
+  case CLASS_SARYA:
     /*
     SET_SKILL(ch, SKILL_SNEAK, 10);
     SET_SKILL(ch, SKILL_HIDE, 5);
@@ -1511,7 +1477,7 @@ void do_start(struct char_data *ch)
     */
     break;
 
-  case CLASS_MARINES:
+  case CLASS_ARJIKA:
     break;
   }
 
@@ -1544,27 +1510,27 @@ void advance_level(struct char_data *ch)
 
   /*
   switch (GET_CLASS(ch)) {
-  case CLASS_ARMY:
+  case CLASS_SOMA:
     add_hp += rand_number(3, 8);
     add_mana = rand_number(GET_LEVEL(ch), (int)(1.5 * GET_LEVEL(ch)));
     add_mana = MIN(add_mana, 10);
     add_move = rand_number(0, 2);
     break;
 
-  case CLASS_NAVY:
+  case CLASS_INDU:
     add_hp += rand_number(5, 10);
     add_mana = rand_number(GET_LEVEL(ch), (int)(1.5 * GET_LEVEL(ch)));
     add_mana = MIN(add_mana, 10);
     add_move = rand_number(0, 2);
     break;
 
-  case CLASS_AIRFORCE:
+  case CLASS_SARYA:
     add_hp += rand_number(7, 13);
     add_mana = 0;
     add_move = rand_number(1, 3);
     break;
 
-  case CLASS_MARINES:
+  case CLASS_ARJIKA:
     add_hp += rand_number(10, 15);
     add_mana = 0;
     add_move = rand_number(1, 3);
@@ -1614,16 +1580,16 @@ int backstab_mult(int level)
  * usable by a particular class, based on the ITEM_ANTI_{class} bitvectors. */
 int invalid_class(struct char_data *ch, struct obj_data *obj)
 {
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGIC_USER) && IS_ARMY(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGIC_USER) && IS_SOMA(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_NAVY(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_INDU(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && IS_MARINES(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && IS_ARJIKA(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_THIEF) && IS_AIRFORCE(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_THIEF) && IS_SARYA(ch))
     return TRUE;
 
   return FALSE;
@@ -1635,80 +1601,75 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
 void init_spell_levels(void)
 {
   /* MAGES */
-  spell_level(SPELL_MAGIC_MISSILE, CLASS_ARMY, 1);
-  spell_level(SPELL_DETECT_INVIS, CLASS_ARMY, 2);
-  spell_level(SPELL_DETECT_MAGIC, CLASS_ARMY, 2);
-  spell_level(SPELL_CHILL_TOUCH, CLASS_ARMY, 3);
-  spell_level(SPELL_INFRAVISION, CLASS_ARMY, 3);
-  spell_level(SPELL_INVISIBLE, CLASS_ARMY, 4);
-  spell_level(SPELL_ARMOR, CLASS_ARMY, 4);
-  spell_level(SPELL_BURNING_HANDS, CLASS_ARMY, 5);
-  spell_level(SPELL_LOCATE_OBJECT, CLASS_ARMY, 6);
-  spell_level(SPELL_STRENGTH, CLASS_ARMY, 6);
-  spell_level(SPELL_SHOCKING_GRASP, CLASS_ARMY, 7);
-  spell_level(SPELL_SLEEP, CLASS_ARMY, 8);
-  spell_level(SPELL_LIGHTNING_BOLT, CLASS_ARMY, 9);
-  spell_level(SPELL_BLINDNESS, CLASS_ARMY, 9);
-  spell_level(SPELL_DETECT_POISON, CLASS_ARMY, 10);
-  spell_level(SPELL_COLOR_SPRAY, CLASS_ARMY, 11);
-  spell_level(SPELL_ENERGY_DRAIN, CLASS_ARMY, 13);
-  spell_level(SPELL_CURSE, CLASS_ARMY, 14);
-  spell_level(SPELL_POISON, CLASS_ARMY, 14);
-  spell_level(SPELL_FIREBALL, CLASS_ARMY, 15);
-  spell_level(SPELL_CHARM, CLASS_ARMY, 16);
-  spell_level(SPELL_IDENTIFY, CLASS_ARMY, 20);
-  spell_level(SPELL_FLY, CLASS_ARMY, 22);
-  spell_level(SPELL_ENCHANT_WEAPON, CLASS_ARMY, 26);
-  spell_level(SPELL_CLONE, CLASS_ARMY, 30);
+  spell_level(SPELL_MAGIC_MISSILE, CLASS_SOMA, 1);
+  spell_level(SPELL_DETECT_INVIS, CLASS_SOMA, 2);
+  spell_level(SPELL_DETECT_MAGIC, CLASS_SOMA, 2);
+  spell_level(SPELL_CHILL_TOUCH, CLASS_SOMA, 3);
+  spell_level(SPELL_INFRAVISION, CLASS_SOMA, 3);
+  spell_level(SPELL_INVISIBLE, CLASS_SOMA, 4);
+  spell_level(SPELL_ARMOR, CLASS_SOMA, 4);
+  spell_level(SPELL_BURNING_HANDS, CLASS_SOMA, 5);
+  spell_level(SPELL_LOCATE_OBJECT, CLASS_SOMA, 6);
+  spell_level(SPELL_STRENGTH, CLASS_SOMA, 6);
+  spell_level(SPELL_SHOCKING_GRASP, CLASS_SOMA, 7);
+  spell_level(SPELL_SLEEP, CLASS_SOMA, 8);
+  spell_level(SPELL_LIGHTNING_BOLT, CLASS_SOMA, 9);
+  spell_level(SPELL_BLINDNESS, CLASS_SOMA, 9);
+  spell_level(SPELL_DETECT_POISON, CLASS_SOMA, 10);
+  spell_level(SPELL_COLOR_SPRAY, CLASS_SOMA, 11);
+  spell_level(SPELL_ENERGY_DRAIN, CLASS_SOMA, 13);
+  spell_level(SPELL_CURSE, CLASS_SOMA, 14);
+  spell_level(SPELL_POISON, CLASS_SOMA, 14);
+  spell_level(SPELL_FIREBALL, CLASS_SOMA, 15);
+  spell_level(SPELL_CHARM, CLASS_SOMA, 16);
+  spell_level(SPELL_IDENTIFY, CLASS_SOMA, 20);
+  spell_level(SPELL_FLY, CLASS_SOMA, 22);
+  spell_level(SPELL_ENCHANT_WEAPON, CLASS_SOMA, 26);
+  spell_level(SPELL_CLONE, CLASS_SOMA, 30);
 
   /* MONKS */
-  spell_level(SPELL_CURE_LIGHT, CLASS_NAVY, 1);
-  spell_level(SPELL_ARMOR, CLASS_NAVY, 1);
-  spell_level(SPELL_CREATE_FOOD, CLASS_NAVY, 2);
-  spell_level(SPELL_CREATE_WATER, CLASS_NAVY, 2);
-  spell_level(SPELL_DETECT_POISON, CLASS_NAVY, 3);
-  spell_level(SPELL_DETECT_ALIGN, CLASS_NAVY, 4);
-  spell_level(SPELL_CURE_BLIND, CLASS_NAVY, 4);
-  spell_level(SPELL_BLESS, CLASS_NAVY, 5);
-  spell_level(SPELL_DETECT_INVIS, CLASS_NAVY, 6);
-  spell_level(SPELL_BLINDNESS, CLASS_NAVY, 6);
-  spell_level(SPELL_INFRAVISION, CLASS_NAVY, 7);
-  spell_level(SPELL_PROT_FROM_EVIL, CLASS_NAVY, 8);
-  spell_level(SPELL_POISON, CLASS_NAVY, 8);
-  spell_level(SPELL_GROUP_ARMOR, CLASS_NAVY, 9);
-  spell_level(SPELL_CURE_CRITIC, CLASS_NAVY, 9);
-  spell_level(SPELL_SUMMON, CLASS_NAVY, 10);
-  spell_level(SPELL_REMOVE_POISON, CLASS_NAVY, 10);
-  spell_level(SPELL_IDENTIFY, CLASS_NAVY, 11);
-  spell_level(SPELL_WORD_OF_RECALL, CLASS_NAVY, 12);
-  spell_level(SPELL_DARKNESS, CLASS_NAVY, 12);
-  spell_level(SPELL_EARTHQUAKE, CLASS_NAVY, 12);
-  spell_level(SPELL_DISPEL_EVIL, CLASS_NAVY, 14);
-  spell_level(SPELL_DISPEL_GOOD, CLASS_NAVY, 14);
-  spell_level(SPELL_SANCTUARY, CLASS_NAVY, 15);
-  spell_level(SPELL_CALL_LIGHTNING, CLASS_NAVY, 15);
-  spell_level(SPELL_HEAL, CLASS_NAVY, 16);
-  spell_level(SPELL_CONTROL_WEATHER, CLASS_NAVY, 17);
-  spell_level(SPELL_SENSE_LIFE, CLASS_NAVY, 18);
-  spell_level(SPELL_HARM, CLASS_NAVY, 19);
-  spell_level(SPELL_GROUP_HEAL, CLASS_NAVY, 22);
-  spell_level(SPELL_REMOVE_CURSE, CLASS_NAVY, 26);
+  spell_level(SPELL_CURE_LIGHT, CLASS_INDU, 1);
+  spell_level(SPELL_ARMOR, CLASS_INDU, 1);
+  spell_level(SPELL_CREATE_FOOD, CLASS_INDU, 2);
+  spell_level(SPELL_CREATE_WATER, CLASS_INDU, 2);
+  spell_level(SPELL_DETECT_POISON, CLASS_INDU, 3);
+  spell_level(SPELL_DETECT_ALIGN, CLASS_INDU, 4);
+  spell_level(SPELL_CURE_BLIND, CLASS_INDU, 4);
+  spell_level(SPELL_BLESS, CLASS_INDU, 5);
+  spell_level(SPELL_DETECT_INVIS, CLASS_INDU, 6);
+  spell_level(SPELL_BLINDNESS, CLASS_INDU, 6);
+  spell_level(SPELL_INFRAVISION, CLASS_INDU, 7);
+  spell_level(SPELL_PROT_FROM_EVIL, CLASS_INDU, 8);
+  spell_level(SPELL_POISON, CLASS_INDU, 8);
+  spell_level(SPELL_GROUP_ARMOR, CLASS_INDU, 9);
+  spell_level(SPELL_CURE_CRITIC, CLASS_INDU, 9);
+  spell_level(SPELL_SUMMON, CLASS_INDU, 10);
+  spell_level(SPELL_REMOVE_POISON, CLASS_INDU, 10);
+  spell_level(SPELL_IDENTIFY, CLASS_INDU, 11);
+  spell_level(SPELL_WORD_OF_RECALL, CLASS_INDU, 12);
+  spell_level(SPELL_DARKNESS, CLASS_INDU, 12);
+  spell_level(SPELL_EARTHQUAKE, CLASS_INDU, 12);
+  spell_level(SPELL_DISPEL_EVIL, CLASS_INDU, 14);
+  spell_level(SPELL_DISPEL_GOOD, CLASS_INDU, 14);
+  spell_level(SPELL_SANCTUARY, CLASS_INDU, 15);
+  spell_level(SPELL_CALL_LIGHTNING, CLASS_INDU, 15);
+  spell_level(SPELL_HEAL, CLASS_INDU, 16);
+  spell_level(SPELL_CONTROL_WEATHER, CLASS_INDU, 17);
+  spell_level(SPELL_SENSE_LIFE, CLASS_INDU, 18);
+  spell_level(SPELL_HARM, CLASS_INDU, 19);
+  spell_level(SPELL_GROUP_HEAL, CLASS_INDU, 22);
+  spell_level(SPELL_REMOVE_CURSE, CLASS_INDU, 26);
 
-  /* THIEVES */
-  spell_level(SKILL_SNEAK, CLASS_AIRFORCE, 1);
-  spell_level(SKILL_PICK_LOCK, CLASS_AIRFORCE, 2);
-  spell_level(SKILL_BACKSTAB, CLASS_AIRFORCE, 3);
-  spell_level(SKILL_STEAL, CLASS_AIRFORCE, 4);
-  spell_level(SKILL_HIDE, CLASS_AIRFORCE, 5);
-  spell_level(SKILL_TRACK, CLASS_AIRFORCE, 6);
+  /* SARAYA */
+  spell_level(SKILL_TRACK, CLASS_SARAYA, 6);
 
-  /* WARRIORS */
-  spell_level(SKILL_KICK, CLASS_MARINES, 1);
-  spell_level(SKILL_RESCUE, CLASS_MARINES, 3);
-  spell_level(SKILL_BANDAGE, CLASS_MARINES, 7);
-  spell_level(SKILL_TRACK, CLASS_MARINES, 9);
-  spell_level(SKILL_BASH, CLASS_MARINES, 12);
-  spell_level(SKILL_WHIRLWIND, CLASS_MARINES, 16);
+  /* ARJIKA */
+  spell_level(SKILL_KICK, CLASS_ARJIKA, 1);
+  spell_level(SKILL_RESCUE, CLASS_ARJIKA, 3);
+  spell_level(SKILL_BANDAGE, CLASS_ARJIKA, 7);
+  spell_level(SKILL_TRACK, CLASS_ARJIKA, 9);
+  spell_level(SKILL_BASH, CLASS_ARJIKA, 12);
+  spell_level(SKILL_WHIRLWIND, CLASS_ARJIKA, 16);
 }
 
 /* This is the exp given to implementors -- it must always be greater than the
@@ -1815,9 +1776,9 @@ const char *title_male(int chclass, int level)
     case 29: return "Q1";
     case 30: return "Q2";
     /*
-    case LVL_IMMORT: return "Army Intel";
-    case LVL_DEVA: return "Army SpecOps";
-    case LVL_GRDEVA: return "Army BlackOps";
+    case LVL_IMMORT: return "SOMA Intel";
+    case LVL_DEVA: return "SOMA SpecOps";
+    case LVL_GRDEVA: return "SOMA BlackOps";
     */
     default: return "CIV";
   }
@@ -1867,9 +1828,9 @@ const char *title_female(int chclass, int level)
       case 29: return "Q1";
       case 30: return "Q2";
       /*
-      case LVL_IMMORT: return "Army Intel";
-      case LVL_DEVA: return "Army SpecOps";
-      case LVL_GRDEVA: return "Army BlackOps";
+      case LVL_IMMORT: return "SOMA Intel";
+      case LVL_DEVA: return "SOMA SpecOps";
+      case LVL_GRDEVA: return "SOMA BlackOps";
       */
       default: return "CIV";
     }

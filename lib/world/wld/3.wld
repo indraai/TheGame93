@@ -1,5 +1,5 @@
 #300
-AIRFORCE CYBER3~
+SARYA CYBER3~
 undefined~
 3 568 0 0 0 0
 D0
@@ -16,7 +16,7 @@ D3
 0 0 299
 S
 #301
-8 AIRFORCE Way~
+8 SARYA Way~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -38,7 +38,7 @@ D4
 0 0 353
 S
 #303
-8 S ARMY Way~
+8 S SOMA Way~
 undefined~
 3 16 0 0 0 1
 D0
@@ -51,7 +51,7 @@ D2
 0 0 318
 S
 #304
-ARMY CYBER3~
+SOMA CYBER3~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -64,7 +64,7 @@ D2
 0 0 319
 S
 #305
-ARMY Dining~
+SOMA Dining~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -77,7 +77,7 @@ D2
 0 0 298
 S
 #306
-AIRFORCE Barracks~
+SARYA Barracks~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -90,7 +90,7 @@ D2
 0 0 321
 S
 #307
-AIRFORCE CYBER2~
+SARYA CYBER2~
 Empty.~
 3 568 0 0 0 0
 D0
@@ -107,7 +107,7 @@ D3
 0 0 306
 S
 #308
-9 AIRFORCE Way~
+9 SARYA Way~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -124,7 +124,7 @@ D2
 0 0 338
 S
 #309
-AIRFORCE Alley~
+SARYA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -137,7 +137,7 @@ D3
 0 0 308
 S
 #310
-AIRFORCE Alley~
+SARYA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -150,7 +150,7 @@ D3
 0 0 309
 S
 #311
-AIRFORCE Alley~
+SARYA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -163,7 +163,7 @@ D3
 0 0 310
 S
 #312
-AIRFORCE Alley~
+SARYA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -197,7 +197,7 @@ D3
 0 0 312
 S
 #314
-ARMY Alley~
+SOMA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -210,7 +210,7 @@ D3
 0 0 313
 S
 #315
-ARMY Alley~
+SOMA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -223,7 +223,7 @@ D3
 0 0 314
 S
 #316
-ARMY Alley~
+SOMA Alley~
 empty.~
 3 272 0 0 0 1
 D0
@@ -240,7 +240,7 @@ D3
 0 0 315
 S
 #317
-ARMY Alley~
+SOMA Alley~
 undefined~
 3 272 0 0 0 1
 D1
@@ -253,7 +253,7 @@ D3
 0 0 316
 S
 #318
-9 S ARMY Way~
+9 S SOMA Way~
 undefined~
 3 16 0 0 0 1
 D0
@@ -270,7 +270,7 @@ D3
 0 0 317
 S
 #319
-ARMY CYBER2~
+SOMA CYBER2~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -283,7 +283,7 @@ D2
 0 0 334
 S
 #320
-ARMY Kitchen~
+SOMA Kitchen~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -292,7 +292,7 @@ D2
 0 0 305
 S
 #321
-AIRFORCE Training~
+SARYA Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -309,7 +309,7 @@ D2
 0 0 336
 S
 #322
-AIRFORCE CYBER1~
+SARYA CYBER1~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -322,7 +322,7 @@ D3
 0 0 321
 S
 #323
-7 AIRFORCE Way~
+7 SARYA Way~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -469,7 +469,7 @@ D2
 0 0 348
 S
 #334
-ARMY CYBER1~
+SOMA CYBER1~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -482,7 +482,7 @@ D1
 0 0 335
 S
 #335
-ARMY Training~
+SOMA Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -499,7 +499,7 @@ D3
 0 0 334
 S
 #336
-AIRFORCE Recruiting~
+SARYA Recruiting~
 undefined~
 3 24 0 0 0 0
 D0
@@ -513,7 +513,7 @@ D1
 S
 T 336
 #337
-AIRFORCE Entrance~
+SARYA Entrance~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -526,7 +526,7 @@ D3
 0 0 336
 S
 #338
-11 AIRFORCE Way~
+11 SARYA Way~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -695,7 +695,7 @@ D4
 0 0 133
 S
 #347
-Susoma Courtyard~
+SOMA Courtyard~
 undefined~
 3 16 0 0 0 1
 D2
@@ -708,7 +708,7 @@ D3
 0 0 346
 S
 #348
-11 S ARMY Way~
+11 S SOMA Way~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -725,7 +725,7 @@ D3
 0 0 361
 S
 #349
-ARMY Entrance~
+SOMA Entrance~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -738,7 +738,7 @@ D3
 1 0 348
 S
 #350
-ARMY Recruiting~
+SOMA Recruiting~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -751,7 +751,7 @@ D3
 0 0 349
 S
 #351
-AIRFORCE Medical~
+SARYA Medical~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -859,7 +859,7 @@ D3
 0 0 357
 S
 #359
-Susoma Courtyard~
+SOMA Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -876,7 +876,7 @@ D3
 0 0 358
 S
 #360
-Susoma Courtyard~
+SOMA Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -889,7 +889,7 @@ D3
 0 0 359
 S
 #361
-ARMY Medical~
+SOMA Medical~
 empty.~
 3 24 0 0 0 0
 D1
