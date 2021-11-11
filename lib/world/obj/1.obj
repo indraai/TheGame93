@@ -961,64 +961,10 @@ A hunk of Candy Dirt lies here covered in dirt.~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 50 0 0 0
-#181
-bar platinum~
-a bar of platinum~
-A bar of platinum must have been dropped here.~
-~
-8 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-10 300 0 0 0
-E
-bar platinum~
-   The platinum bar is formed perfectly into a rectangular block.  Its surface
-is smooth and polished.
-~
-#182
-bar mithril~
-a bar of mithril~
-A bar of mithril must have been dropped here.~
-~
-8 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-10 300 0 0 0
-E
-bar mithril~
-   The mithril bar is formed perfectly into a rectangular block.  Its surface
-is smooth and polished.
-~
-#183
-bar gold~
-a bar of gold~
-A bar of gold must have been dropped here.~
-~
-8 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-10 200 0 0 0
-E
-bar gold~
-   The gold bar is formed perfectly into a rectangular block.  Its surface is
-smooth and polished.
-~
-#184
-bar silver~
-a bar of silver~
-A bar of silver must have been dropped here.~
-~
-8 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-10 100 0 0 0
-E
-bar silver~
-   The silver bar is formed perfectly into a rectangular block.  Its surface is
-smooth and polished.
-~
 #185
-calendar~
-a calendar~
-A calendar of beautiful woman is pinned on the wall.~
-   The calendar has been torn in half and only the first few months are
-visible.
+wanted poster~
+Wanted Poster~
+A Wanted Post of the Pink Princess Criminal Gang is here on the wall.~
 ~
 16 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
