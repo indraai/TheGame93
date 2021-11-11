@@ -342,6 +342,10 @@ D1
 ~
 ~
 0 0 325
+D3
+~
+~
+0 0 255
 S
 #325
 Adventure Arcade~
@@ -816,13 +820,17 @@ D3
 0 0 354
 S
 #356
-The Shaft~
+The Playground~
 Empty room.~
-3 284 0 0 0 0
-D4
+3 16 0 0 0 2
+D0
 ~
 ~
-1 0 387
+0 0 255
+D3
+~
+~
+0 0 387
 D5
 ~
 ~
@@ -1197,30 +1205,34 @@ D5
 0 0 327
 S
 #387
-The Shaft~
+The Playground~
 Empty room.~
-3 284 0 0 0 0
-D4
+3 16 0 0 0 2
+D0
 ~
 ~
-1 0 388
-D5
+0 0 388
+D1
 ~
 ~
-1 0 356
+0 0 356
+D3
+~
+~
+0 0 -1
 S
 #388
-The Shaft~
+The Playground~
 Empty room.~
-3 284 0 0 0 0
-D4
+3 16 0 0 0 2
+D1
 ~
 ~
-1 0 255
-D5
+0 0 255
+D2
 ~
 ~
-1 0 387
+0 0 387
 S
 #389
 Lost Souls~

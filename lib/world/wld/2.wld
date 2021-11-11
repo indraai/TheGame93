@@ -825,14 +825,14 @@ D4
 0 0 118
 S
 #255
-The Shaft~
+The Playground~
 Empty room.~
-2 284 0 0 0 0
-D4
+2 16 0 0 0 2
+D1
 ~
 ~
-1 0 251
-D5
+0 0 324
+D3
 ~
 ~
 0 0 388
@@ -1290,9 +1290,9 @@ D4
 0 0 121
 S
 #290
-The Cell~
+Pink Princess Clubhouse~
 Empty room.~
-2 744 0 0 0 0
+2 760 0 0 0 0
 D4
 ~
 ~
