@@ -77,12 +77,15 @@ struct shop_data {
 #define TRADE_NOGOOD       (1 << 0)
 #define TRADE_NOEVIL       (1 << 1)
 #define TRADE_NONEUTRAL    (1 << 2)
-#define TRADE_NOMAGIC_USER (1 << 3)
-#define TRADE_NOMONK       (1 << 4)
-#define TRADE_NOTHIEF      (1 << 5)
-#define TRADE_NOWARRIOR    (1 << 6)
+#define TRADE_MONK         (1 << 3)
+#define TRADE_PRIEST       (1 << 4)
+#define TRADE_INDU         (1 << 5)
+#define TRADE_SOMA         (1 << 6)
+#define TRADE_SARYA        (1 << 7)
+#define TRADE_ARJIKA       (1 << 8)
+#define TRADE_EARTH        (1 << 9)
 /** Total number of trade types */
-#define NUM_TRADERS     7
+#define NUM_TRADERS     10
 
 struct stack_data {
    int data[100];
@@ -122,10 +125,14 @@ struct stack_data {
 #define NOTRADE_GOOD(i)		(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOGOOD))
 #define NOTRADE_EVIL(i)		(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOEVIL))
 #define NOTRADE_NEUTRAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NONEUTRAL))
-#define NOTRADE_MAGIC_USER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOMAGIC_USER))
-#define NOTRADE_MONK(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOMONK))
-#define NOTRADE_THIEF(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOTHIEF))
-#define NOTRADE_WARRIOR(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOWARRIOR))
+
+#define NOTRADE_MONK(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MONK))
+#define NOTRADE_PRIEST(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_PRIEST))
+#define NOTRADE_INDU(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_INDU))
+#define NOTRADE_SOMA(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_SOMA))
+#define NOTRADE_SARYA(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_SARYA))
+#define NOTRADE_ARJIKA(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ARJIKA))
+#define NOTRADE_EARTH(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_EARTH))
 
 /* Shop flags */
 #define WILL_START_FIGHT    (1 << 0)

@@ -1580,16 +1580,25 @@ int backstab_mult(int level)
  * usable by a particular class, based on the ITEM_ANTI_{class} bitvectors. */
 int invalid_class(struct char_data *ch, struct obj_data *obj)
 {
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MAGIC_USER) && IS_SOMA(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_INDU(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_PRIEST) && IS_PRIEST(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_WARRIOR) && IS_ARJIKA(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_INDU) && IS_INDU(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_THIEF) && IS_SARYA(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_SOMA) && IS_SOMA(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_SARYA) && IS_SARYA(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_ARJIKA) && IS_ARJIKA(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_EARTH) && IS_EARTH(ch))
     return TRUE;
 
   return FALSE;

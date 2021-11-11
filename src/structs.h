@@ -153,9 +153,10 @@
 #define CLASS_SOMA            3 // ARMY
 #define CLASS_SARYA           4 // AIR FORCE
 #define CLASS_ARJIKA          5 // ARJIKA
+#define CLASS_EARTH           5 // ARJIKA
 
 /** Total number of available PC Classes */
-#define NUM_CLASSES	          6
+#define NUM_CLASSES	          7
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -429,14 +430,17 @@
 #define ITEM_ANTI_GOOD         9   /**< Not usable by good people	*/
 #define ITEM_ANTI_EVIL        10   /**< Not usable by evil people	*/
 #define ITEM_ANTI_NEUTRAL     11   /**< Not usable by neutral people */
-#define ITEM_ANTI_MAGIC_USER  12   /**< Not usable by mages */
-#define ITEM_ANTI_MONK        13   /**< Not usable by MONKS */
-#define ITEM_ANTI_THIEF	      14   /**< Not usable by thieves */
-#define ITEM_ANTI_WARRIOR     15   /**< Not usable by warriors */
-#define ITEM_NOSELL           16   /**< Shopkeepers won't touch it */
-#define ITEM_QUEST            17   /**< Item is a quest item         */
+#define ITEM_ANTI_MONK        12   /**< Not usable by monks */
+#define ITEM_ANTI_PRIEST      13   /**< Not usable by priests */
+#define ITEM_ANTI_INDU	      14   /**< Not usable by indu */
+#define ITEM_ANTI_SOMA        15   /**< Not usable by soma */
+#define ITEM_ANTI_SARYA       16   /**< Not usable by sarya */
+#define ITEM_ANTI_ARJIKA      17   /**< Not usable by sarya */
+#define ITEM_ANTI_EARTH       18   /**< Not usable by sarya */
+#define ITEM_NOSELL           19   /**< Shopkeepers won't touch it */
+#define ITEM_QUEST            20   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    18
+#define NUM_ITEM_FLAGS    21
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/

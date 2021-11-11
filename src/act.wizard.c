@@ -2344,13 +2344,13 @@ ACMD(do_wizutil)
       break;
     case SCMD_PARDON:
       if (!PLR_FLAGGED(vict, PLR_THIEF) && !PLR_FLAGGED(vict, PLR_KILLER)) {
-	send_to_char(ch, "Your victim is not flagged.\r\n");
-	return;
+	      send_to_char(ch, "Your victim is not flagged.\r\n");
+        return;
       }
       REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_THIEF);
       REMOVE_BIT_AR(PLR_FLAGS(vict), PLR_KILLER);
       send_to_char(ch, "Pardoned.\r\n");
-      send_to_char(vict, "You have been pardoned by the Devas!\r\n");
+      send_to_char(vict, "You have been pardoned by the King!\r\n");
       mudlog(BRF, MAX(LVL_DEVA, GET_INVIS_LEV(ch)), TRUE, "(GC) %s pardoned by %s", GET_NAME(vict), GET_NAME(ch));
       break;
     case SCMD_NOTITLE:
