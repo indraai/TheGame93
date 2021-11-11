@@ -393,14 +393,15 @@ talk:#adv agent:thegame 0130/look~
 8 8 2
 E
 #131
-kent browne rloxley 1337~
-Kent Browne (rloxley)~
+security deva guard daycare d131 z1~
+SecurityDEVA D131 (Daycare)~
 0131/avatar~
 talk:#adv agent:thegame 0131/look~
-10 0 0 0 0 0 0 0 -500 E
+260382 0 0 0 26744 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1
+8 8 6
+BareHandAttack: 10
 E
 #132
 ray kaplan 1337 christic romero defcon hope~
@@ -1053,14 +1054,20 @@ talk:#adv agent:thegame 0184/look~
 E
 T 106
 #185
-sareth~
-Sareth, the sage~
+soma monk arjika susoma~
+Soma Monk~
 0185/avatar~
 talk:#adv agent:thegame 0185/look~
 26648 0 0 0 0 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 6
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 T 106
 #186
