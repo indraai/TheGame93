@@ -1661,7 +1661,7 @@ void init_spell_levels(void)
   spell_level(SPELL_REMOVE_CURSE, CLASS_INDU, 26);
 
   /* SARAYA */
-  spell_level(SKILL_TRACK, CLASS_SARAYA, 6);
+  spell_level(SKILL_TRACK, CLASS_SARYA, 6);
 
   /* ARJIKA */
   spell_level(SKILL_KICK, CLASS_ARJIKA, 1);
