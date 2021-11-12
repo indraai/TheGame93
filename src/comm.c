@@ -1497,7 +1497,7 @@ static int new_descriptor(socket_t s)
 {
   socket_t desc;
   int sockets_connected = 0;
-  // int greetsize;
+  int greetsize;
   socklen_t i;
   struct descriptor_data *newd;
   struct sockaddr_in peer;
