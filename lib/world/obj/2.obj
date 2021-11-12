@@ -107,38 +107,34 @@ talk:#adv object:thegame 0218/look
 water marble fountain water~
 Water Fountain~
 0251/avatar~
-talk:#adv object:thegame 0251/look
-~
+talk:#adv object:thegame 0251/look~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 -1 1 0 0
 0 0 0 0 0
 T 201
 E
 statues~
-Below each statue is engraved a name... Vamraka, Indu, Indra, Soma, Bom.  More is written below the names but you must look more closely to read it.
-~
+talk:#adv object:thegame 0251/statues~
 E
 vamraka~
-Vamraka... To bring the all.
-~
+talk:#adv object:thegame 0251/vamraka~
 E
 indu~
-Indu... To bring peace where there was only war.
-~
-E
-indra~
-Indra... To bring balance where there was only chaos.
-~
+talk:#adv object:thegame 0251/indu~
 E
 soma~
-Soma... To bring freedom where there was only coercion.
-~
+talk:#adv object:thegame 0251/soma~
+E
+sarya~
+talk:#adv object:thegame 0251/sarya~
 E
 bom~
-Bom...  To bring justice where there was only inequity.
-~
+talk:#adv object:thegame 0251/bom~
+E
+indra~
+talk:#adv object:thegame 0251/indra~
 E
 fountain~
-This is the most beautiful fountain you have ever set your eyes upon!  It has a marble bottom, which is clean enough to eat off from.  In the center of the fountain, you see some stone FIGURES.  They have their mouths open.  As you look closely you can see that there is water streaming out from the mouths. What a neat idea!
+talk:#adv object:thegame 0251/fountain
 ~
 $~
