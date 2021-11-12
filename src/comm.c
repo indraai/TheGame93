@@ -1569,10 +1569,8 @@ static int new_descriptor(socket_t s)
     write_to_output(newd, "\nAttempting to Detect Client, Please Wait...");
     ProtocolNegotiate(newd);
   } else {
-    /*
     greetsize = strlen(GREETINGS);
     write_to_output(newd, "%s", ProtocolOutput(newd, GREETINGS, &greetsize));
-    */
     write_to_output(newd, "\nPlease enter your player name...");
   }
   return (0);

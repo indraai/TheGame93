@@ -60,18 +60,15 @@ const char *pc_class_types[] = {
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
 "\n## Player Class\r"
+"\np:Please select your player class. We have made the basic classes of available to you. Please remember this is a system that is for VEDIC people only. There are many realms in the world for individuals of other faiths/belief systems that we ask you stay away from ours."
 "\nmenu[MONK]:a\r"
-"\np:Monk Class is one of two religious orders you can join in Arjika. Monks practice making Offerings to the Indra Line.\r"
+"\nl:Monks practice making Offerings to the Indra Line.\r"
 "\nmenu[PRIEST]:b\r"
-"\np:Priest Class is the second religous order you can join in Arjika. Priests practice making Sacrifices to the Agni Line.\r"
+"\nl:Priests practice making Sacrifices to the Agni Line.\r"
 "\nmenu[HOUSE INDU]:e\r"
-"\np:For our arriving guest from House Indu this option is available to you. Existing members only!"
 "\nmenu[HOUSE SOMA]:f\r"
-"\np:House Soma guests can select this option to represt their affiliation. Exisitng members only!"
 "\nmenu[HOUSE SARYA]:g\r"
-"\n:House Sarya guests can select this option for their class. Existing members only!"
-"\nmenu[ARJIKA]:h\r"
-"\np:For other guests arriving from Arjika who may not be members of Indu, Soma, or Sarya houses you can select this class. Existing citizens only!";
+"\nmenu[ARJIKA]:h\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
