@@ -8,9 +8,7 @@ M 0 102 1 281 	(Liam)
 M 0 103 1 144 	(Shiro, the weaponsmith)
 M 0 104 1 144 	(Rhian)
 
-M 0 105 3 14    (Mark Petrakis)
-M 0 105 3 15    (Mark Petrakis)
-M 0 105 3 16    (Mark Petrakis)
+M 0 105 1 16    (Mark Petrakis)
 
 M 0 106 1 234 	(Captain Lugdach)
 M 0 107 1 149 	(Branwen, the leatherworker)
@@ -23,8 +21,7 @@ M 0 113 1 113 	(the questmaster)
 M 0 114 1 19   	(Terry Cooksey)
 M 0 115 1 23 	  (Eric Hughes)
 
-M 0 116 2 16 	  (Robert Steele)
-M 0 116 2 23 	  (Robert Steele)
+M 0 116 1 23 	  (Robert Steele)
 
 M 0 117 1 108 	(Trent Lavery)
 M 0 118 1 24   	(Tabitha Lavery)
@@ -52,8 +49,7 @@ M 0 127 1 336 	(SARYA Recruiting)
 M 0 128 1 341 	(RedDEVA)
 M 0 129 1 3 	  (Stephen Watt)
 
-M 0 130 2 14 	  (Brenda Laurel)
-M 0 130 2 15 	  (Brenda Laurel)
+M 0 130 1 15 	  (Brenda Laurel)
 
 M 0 131 1 340   (SecurityDEVA daycare)
 
@@ -67,7 +63,9 @@ M 0 136 1 297 	(GreenDEVA PRIME)
 M 0 135 1 252 	(BlueDEVA PRIME)
 M 0 137 1 131 	(the Master Magi)
 M 0 138 1 133 	(YellowDEVA PRIME)
+
 M 0 139 1 18 	  (James Parry Kibo)
+
 M 0 140 1 182 	(INDU Cook)
 M 0 141 1 143 	(the corporal)
 M 0 142 1 271 	(GreenDEVA)
@@ -136,8 +134,7 @@ G 1 149 99 -1 	(a dustpan)
 
 M 0 162 1 22 	  (Dan Farmer)
 
-M 0 163 2 3    	(John Romero)
-M 0 163 2 24    (John Romero)
+M 0 163 1 24    (John Romero)
 
 M 0 164 1 12 	  (Michael Nebadon)
 
@@ -148,21 +145,11 @@ M 0 167 1 152 	(the staff sergeant)
 
 M 0 168 1 3    	(Tyler TG23)
 
-M 0 169 3 4    	(Tyler PM2012)
-M 0 169 3 5    	(Tyler PM2012)
-M 0 169 3 7    	(Tyler PM2012)
+M 0 169 1 7    	(Tyler PM2012)
 
 M 0 170 1 3    	(m1vr4)
-
-M 0 171 3 8 	  (Tyler PM2020)
-M 0 171 3 9 	  (Tyler PM2020)
-M 0 171 3 10 	  (Tyler PM2020)
-
-M 0 172 5 7 	  (Tyler eTHErSEC)
-M 0 172 5 8 	  (Tyler eTHErSEC)
-M 0 172 5 9 	  (Tyler eTHErSEC)
-M 0 172 5 10 	  (Tyler eTHErSEC)
-M 0 172 5 11 	  (Tyler eTHErSEC)
+M 0 171 1 11 	  (Tyler PM2020)
+M 0 172 1 11 	  (Tyler eTHErSEC)
 
 M 0 173 2 95 	  (SecurityDEVA GUARD)
 M 0 174 2 95 	  (SecurityDEVA GUARD)
