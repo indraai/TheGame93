@@ -128,16 +128,20 @@ She looks tired, but in a good way.  It must be true when they say about everyon
 E
 T 106
 #110
-corwin postmasters~
+corwin postmaster email~
 Corwin~
-Corwin, the head postmaster is waiting to help you with your mail.
-~
-The Postmaster seems like a happy old man, though a bit sluggish.  He worries about the reputation of the Time Warp Mail Service, as many people seem to think that it is slow.  Perhaps if he were to brush the cobwebs from his uniform it would help to make a better impression.
+0110/avatar~
+talk:#adv agent:thegame 0110/look
 ~
 518154 0 0 0 16 0 0 0 1000 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 1
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 6
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 T 106
 #111

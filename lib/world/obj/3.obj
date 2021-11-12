@@ -1,16 +1,15 @@
 #300
 atm teller bank machine money indra.money~
 an indra.money machine~
-An indra.money machine has been installed in the wall here.~
+0300/avatar~
+talk:#adv object:thegame 0300/look
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
 atm teller bank machine~
-   There is a small note on the machine which says: To use, type 'BALANCE',
-'WITHDRAW <amount>', or 'DEPOSIT <amount>'.  Please report any strange
-occurrences to the indra.money manager.
+talk:#adv object:thegame 0300/atm
 ~
 #301
 cashcard card atm banks~

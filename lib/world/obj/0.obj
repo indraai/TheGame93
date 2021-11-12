@@ -56,27 +56,16 @@ Fresh water is bubbling up from a spring.~
 0 0 0 0 0
 #8
 contract covenant~
-The Contract of The Covenant~
+the Contract of The Covenant~
 The Contract of The Covenant is here.~
 ~
 12 bgi 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#8
-tablet medic~
-Medic Tablet~
-talk:#adventure view:thegame:object 0008/look~
-talk:#adventure view:thegame:object 0008/describe~
-4 b 0 0 0 ao 0 0 0 0 0 0 0
-30 1 1 43
-1 1000 0 0 0
-E
-tablet~
-talk:#adventure view:thegame:world 0008/tablet~
 #9
 security key gateguard~
 the gateguard key~
-talk:#adventure view:thegame:world 0009/look~
+Talk:#adventure view:thegame:world 0009/look~
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -84,7 +73,7 @@ talk:#adventure view:thegame:world 0009/look~
 #10
 internet detective badge~
 Internet Detective Badge~
-talk:#adventure view:thegame:world 0010/look~
+Talk:#adventure view:thegame:world 0010/look~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
@@ -145,15 +134,16 @@ The Deva board has been posted here.~
 #91
 medic medical message board~
 0092/avatar~
-talk:#adv object:thegame 0091/look~
+Talk:#adv object:thegame 0091/look~
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #92
-security message board~
+security board message securityboard~
+Agency Board~
 0092/avatar~
-talk:#adv object:thegame 0092/look~
+talk:#adv object:thegame 0092/look
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
