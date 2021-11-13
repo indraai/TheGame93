@@ -816,10 +816,18 @@ S
 South Temple Rd.~
 Empty room.~
 2 16 0 0 0 2
+D0
+~
+~
+0 0 313
 D1
 ~
 ~
 0 0 344
+D2
+~
+~
+0 0 362
 D3
 ~
 ~
@@ -959,7 +967,7 @@ D3
 0 0 265
 S
 #267
-Muslim Mosque~
+Support~
 Empty room.~
 2 24 0 0 0 0
 D0
