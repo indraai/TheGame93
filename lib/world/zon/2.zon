@@ -2,6 +2,32 @@
 Quinn Michaels~
 Arjika II~
 200 299 10 2
+M 0 100 1 290 	(Quinn Michaels)
+M 0 101 1 268 	(Ian)
+M 0 102 1 281 	(Liam)
+M 0 142 1 271 	(GreenDEVA)
+
+M 0 106 1 234 	(Captain Lugdach)
+M 0 109 1 225 	(Hazel, the wellmaster)
+M 0 110 1 222 	(Corwin, the postmaster)
+M 0 111 1 277 	(the jeweler)
+M 0 119 1 224 	(Mr. Dewity)
+M 0 126 1 242 	(The Spy)
+M 0 136 1 297 	(GreenDEVA PRIME)
+M 0 135 1 252 	(BlueDEVA PRIME)
+M 0 149 1 243 	(the sergeant)
+M 0 158 1 238 	(Carla)
+O 0 154 1 238 	(the sewing machine)
+
+M 0 161 3 251 	(the streetsweeper)
+E 1 136 99 17 	(a broom)
+G 1 149 99 -1 	(a dustpan)
+
+M 0 166 1 283 	(the lance corporal)
+M 0 187 1 280 	(the baker)
+M 0 189 1 230 	(the commander)
+M 0 196 1 251 	(The guide)
+M 0 199 1 278 	(The Butcher)
 
 M 0 213 1 19 	(Santa Claus)
 
@@ -35,6 +61,10 @@ O 0 218 25 280  	(jalapeno cheese bread)
 O 0 218 25 280  	(jalapeno cheese bread)
 O 0 218 25 280  	(jalapeno cheese bread)
 
+R 0 259 92 -1 	(security board e gate)
+O 1 92 99 259 	(security board e gate)
+R 0 243 92 -1 	(security board w gate)
+O 1 92 99 243 	(security board w gate)
 
 S
 $
