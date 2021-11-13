@@ -208,17 +208,9 @@ D3
 0 0 225
 S
 #213
-NE Temple Sq.~
+5 NE Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
-D0
-~
-~
-0 0 6
-D1
-~
-~
-0 0 10
 D2
 ~
 ~
@@ -346,7 +338,7 @@ D0
 0 0 209
 S
 #223
-Temple Entrance (N)~
+North Intersection~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -367,7 +359,7 @@ D3
 0 0 97
 S
 #224
-Bank of Arjika~
+The Bank~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -510,7 +502,7 @@ D3
 0 0 233
 S
 #235
-Christian Church~
+Services~
 Empty room.~
 2 24 0 0 0 0
 D1
@@ -544,7 +536,7 @@ D3
 0 0 235
 S
 #237
-Jewish Temple~
+Solutions~
 Empty room.~
 2 24 0 0 0 0
 D2
@@ -821,17 +813,17 @@ D4
 0 0 118
 S
 #255
-The Playground~
+South Temple Rd.~
 Empty room.~
 2 16 0 0 0 2
 D1
 ~
 ~
-0 0 324
+0 0 344
 D3
 ~
 ~
-0 0 388
+0 0 342
 S
 #256
 9 E Temple Rd.~
@@ -1088,7 +1080,7 @@ D2
 0 0 323
 S
 #276
-1 WS Temple Sq.~
+2 WS Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1123,7 +1115,7 @@ D2
 0 0 291
 S
 #279
-Temple Entrance (S)~
+South Intersection~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1269,7 +1261,7 @@ D2
 0 0 313
 S
 #289
-SW Temple Sq.~
+5 SW Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1295,7 +1287,7 @@ D4
 1 0 356
 S
 #291
-The Southern Temple Circle~
+1 SW Temple Rd.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1335,7 +1327,7 @@ D3
 0 0 291
 S
 #293
-1 SW Temple Sq.~
+1 SE Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1365,7 +1357,7 @@ D5
 0 0 352
 S
 #295
-SE Temple Sq.~
+5 SE Temple Sq.~
 Empty room.~
 2 16 0 0 0 1
 D0
