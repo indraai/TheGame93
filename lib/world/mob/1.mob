@@ -319,10 +319,10 @@ E
 0124/avatar~
 talk:#adv agent:thegame 0124/look
 ~
-2074 0 0 0 2056 0 0 0 500 E
+6232 0 0 0 2136 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 2000 10000
-8 8 1
+8 8 6
 BareHandAttack: 11
 SavingPara: 2
 SavingRod: 2
@@ -401,7 +401,7 @@ security deva guard daycare d131 z1~
 SecurityDEVA D131 (Daycare)~
 0131/avatar~
 talk:#adv agent:thegame 0131/look~
-260382 0 0 0 26744 0 0 0 -500 E
+260184 0 0 0 2136 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 6
