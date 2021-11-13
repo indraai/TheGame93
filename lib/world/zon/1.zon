@@ -2,38 +2,22 @@
 Quinn Michaels~
 Arjika~
 100 199 10 2 d 0 0 0 1 34
-M 0 100 1 290 	(Quinn Michaels)
-M 0 101 1 268 	(Ian)
-M 0 102 1 281 	(Liam)
+M 0 10 1 105 	(Vivasvan)
 M 0 103 1 144 	(Shiro, the weaponsmith)
 M 0 104 1 144 	(Rhian)
 
 M 0 105 1 16    (Mark Petrakis)
 
-M 0 106 1 234 	(Captain Lugdach)
 M 0 107 1 149 	(Branwen, the leatherworker)
 M 0 108 1 145 	(Sarge, the blacksmith)
-M 0 109 1 225 	(Hazel, the wellmaster)
-M 0 110 1 222 	(Corwin, the postmaster)
-M 0 111 1 277 	(the jeweler)
-M 0 112 1 24   	(Elizabeth LaPensee)
 M 0 113 1 113 	(the questmaster)
-M 0 114 1 19   	(Terry Cooksey)
-M 0 115 1 23 	  (Eric Hughes)
-
-M 0 116 1 23 	  (Robert Steele)
 
 M 0 117 1 108 	(Trent Lavery)
-M 0 118 1 24   	(Tabitha Lavery)
-
-M 0 119 1 224 	(Mr. Dewity)
 
 M 0 120 1 104 	(the mages' guildmaster)
 M 0 121 1 102 	(the monks' guildmaster)
 M 0 122 1 109 	(the thieves' guildmaster)
 M 0 123 1 149 	(the warriors guildmaster)
-
-M 0 124 1 339 	(0x King of Arjika Daycare)
 
 M 0 125 1 351   	(MedicDEVA 125)
 M 0 125 2 141   	(MedicDEVA 125)
@@ -42,63 +26,25 @@ M 0 125 4 361   	(MedicDEVA 125)
 M 0 125 5 97     	(MedicDEVA 125)
 M 0 125 6 94     	(MedicDEVA 125)
 
-M 0 126 1 242 	(The Spy)
-
-M 0 127 1 336 	(SARYA Recruiting)
-
-M 0 128 1 341 	(RedDEVA)
-M 0 129 1 3 	  (Stephen Watt)
-
-M 0 130 1 15 	  (Brenda Laurel)
-
-M 0 131 1 340   (SecurityDEVA daycare)
-
-M 0 132 3 22 	  (Ray Kaplan)
-M 0 132 3 23 	  (Ray Kaplan)
-M 0 132 3 25 	  (Ray Kaplan)
-
-M 0 133 1 324 	(BlueDEVA)
 M 0 134 1 105 	(RedDEVA PRIME)
-M 0 136 1 297 	(GreenDEVA PRIME)
-M 0 135 1 252 	(BlueDEVA PRIME)
 M 0 137 1 131 	(the Master Magi)
 M 0 138 1 133 	(YellowDEVA PRIME)
 
-M 0 139 1 18 	  (James Parry Kibo)
-
 M 0 140 1 182 	(INDU Cook)
 M 0 141 1 143 	(the corporal)
-M 0 142 1 271 	(GreenDEVA)
 
-M 0 143 1 95 	(SecurityDEVA D143 Patrol)
-M 0 143 2 95 	(SecurityDEVA D143 Patrol)
-M 0 143 3 96 	(SecurityDEVA D143 Patrol)
-M 0 143 4 96 	(SecurityDEVA D143 Patrol)
-
-M 0 144 1 346 	(BlackDEVA)
-M 0 145 1 345 	(YellowDEVA)
-M 0 146 1 332 	(GrayDEVA)
 
 M 0 147 1 147 	(Logan)
-M 0 148 2 329 	(the purple magi)
 
-M 0 149 1 243 	(the sergeant)
-M 0 150 1 18 	  (Dave Dogruel xibo)
 M 0 151 1 178 	(the midwife)
 M 0 152 1 178 	(the newborn baby)
-
-M 0 153 1 3   	(Douglas Rushkoff)
 
 M 0 154 3 146 	(the patrolman)
 M 0 155 1 107 	(the War Master)
 M 0 156 1 100 	(the speaker of the land)
 
-M 0 157 1 6 	  (Cameron telecomix)
-
-M 0 158 1 238 	(Carla)
-O 0 154 1 238 	(the sewing machine)
-
 M 0 159 1 140 	(the lieutenant)
+
 * ARJIKA
 M 0 160 1 180 	(Arjika Analyst)
 M 0 160 2 195 	(Arjika Analyst)
@@ -124,37 +70,7 @@ M 0 161 3 174 	(the streetsweeper)
 G 1 136 99 -1 	(a broom)
 G 1 149 99 -1 	(a dustpan)
 
-M 0 161 3 251 	(the streetsweeper)
-E 1 136 99 17 	(a broom)
-G 1 149 99 -1 	(a dustpan)
-
-M 0 161 3 303 	(the streetsweeper)
-G 1 136 99 -1 	(a broom)
-G 1 149 99 -1 	(a dustpan)
-
-M 0 162 1 22 	  (Dan Farmer)
-
-M 0 163 1 24    (John Romero)
-
-M 0 164 1 12 	  (Michael Nebadon)
-
-M 0 165 3 32  	(Indu Monk)
-
-M 0 166 1 283 	(the lance corporal)
 M 0 167 1 152 	(the staff sergeant)
-
-M 0 168 1 3    	(Tyler TG23)
-
-M 0 169 1 7    	(Tyler PM2012)
-
-M 0 170 1 3    	(m1vr4)
-M 0 171 1 11 	  (Tyler PM2020)
-M 0 172 1 11 	  (Tyler eTHErSEC)
-
-M 0 173 2 95 	  (SecurityDEVA GUARD)
-M 0 174 2 95 	  (SecurityDEVA GUARD)
-M 0 173 2 96 	  (SecurityDEVA GUARD)
-M 0 174 2 96 	  (SecurityDEVA GUARD)
 
 M 0 175 4 140 	(SecurityDEVA Guard)
 M 0 175 4 259 	(SecurityDEVA Guard)
@@ -162,6 +78,7 @@ M 0 175 4 243 	(SecurityDEVA Guard)
 M 0 175 4 362 	(SecurityDEVA Guard)
 
 M 0 176 1 182 	(Arjika Sergeant)
+
 * ARJIKA
 M 0 177 1 180 	(SecurityDEVA Cyber)
 M 0 177 2 195 	(SecurityDEVA Cyber)
@@ -185,9 +102,7 @@ M 0 177 16 205 	(SecurityDEVA Cyber)
 
 M 0 178 1 22 	  (Gail Thackeray)
 
-M 0 179 3 198 	(Arjika Private)
-M 0 179 3 209 	(Arjika Private)
-M 0 179 3 317 	(Arjika Private)
+M 0 179 1 198 	(Arjika Private)
 
 M 0 180 1 103 	(Peter Thiel)
 
@@ -214,24 +129,12 @@ M 0 186 4 361 	(MedicDEVA)
 M 0 186 5 97   	(MedicDEVA)
 M 0 186 6 94   	(MedicDEVA)
 
-M 0 187 1 280 	(the baker)
-
 M 0 188 1 17   	(Quinn fazigu)
-
-M 0 189 1 230 	(the commander)
 
 M 0 193 1 13 	  (Project89)
 
-M 0 194 1 17	  (Mr. Bungle)
 M 0 195 1 159 	(the kitten)
-M 0 196 1 251 	(The guide)
-M 0 198 1 340 	(The Monk)
-M 0 199 1 278 	(The Butcher)
 
-R 0 95 92 -1 	  (security board)
-O 1 92 99 95  	(security board)
-R 0 96 92 -1 	  (security board)
-O 1 92 99 96 	  (security board)
 R 0 106 92 -1 	(security board n lookout)
 O 1 92 99 106 	(security board n lookout)
 R 0 107 92 -1 	(security board war room)
@@ -256,24 +159,12 @@ R 0 139 92 -1 	(security board s lookout)
 O 1 92 99 139 	(security board s lookout)
 R 0 140 92 -1 	(security board n gate)
 O 1 92 99 140 	(security board n gate)
-R 0 243 92 -1 	(security board w gate)
-O 1 92 99 243 	(security board w gate)
-R 0 259 92 -1 	(security board e gate)
-O 1 92 99 259 	(security board e gate)
-R 0 362 92 -1 	(security board s gate)
-O 1 92 99 362 	(security board s gate)
-
-R 0 349 93 -1 	(SOMA board)
-O 1 93 99 349 	(SOMA board)
 
 R 0 153 94 -1 	(INDU board)
 O 1 94 99 153 	(INDU board)
 
 R 0 165 95 -1 	(ARJIKA board)
 O 1 95 99 165 	(ARJIKA board)
-
-R 0 337 96 -1 	(SARYA board)
-O 1 96 99 337 	(SARYA board)
 
 S
 $
