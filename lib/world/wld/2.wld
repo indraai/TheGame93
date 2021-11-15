@@ -879,7 +879,7 @@ D2
 0 0 275
 S
 #263
-1 WS Temple Sq.~
+indra.city/sw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1271,8 +1271,6 @@ D3
 ~
 0 0 289
 S
-T 210
-T 211
 #292
 indra.city/s~
 Empty room.~
