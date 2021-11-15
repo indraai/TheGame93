@@ -76,12 +76,10 @@ talk:#adv agent:thegame 0105/look~
 BareHandAttack: 12
 E
 #106
-captain lugdach~
-Lugdach~
-Captain Lugdach, a retired sailor, is steaming some white oak to make a canoe.
-~
-Years at sea have hardened this already tough man.  He looks like he could tear your arms out at the socket without an upwards glance.
-~
+ludac deva store toys children kids~
+Captain Ludac~
+0106/avatar~
+talk:#adv agent:thegame 0106/look~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
