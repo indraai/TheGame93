@@ -98,7 +98,7 @@ D2
 0 0 219
 S
 #207
-NW Temple Sq.~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -115,7 +115,7 @@ D4
 0 0 111
 S
 #208
-2 WN Temple Sq.~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -132,7 +132,7 @@ D2
 0 0 233
 S
 #209
-1 NW Temple Sq.~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -170,7 +170,7 @@ D3
 0 0 209
 S
 #211
-1 NE Temple Sq.~
+indra.city/ne~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -187,7 +187,7 @@ D3
 0 0 210
 S
 #212
-2 EN Temple Sq.~
+indra.city/ne~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -204,7 +204,7 @@ D3
 0 0 225
 S
 #213
-5 NE Temple Sq.~
+indra.city/ne~
 Empty room.~
 2 16 0 0 0 1
 D2
@@ -316,7 +316,7 @@ D4
 0 0 325
 S
 #221
-Bath & Body~
+indra.store/body~
 Empty room.~
 2 24 0 0 0 0
 D3
@@ -325,7 +325,7 @@ D3
 0 0 208
 S
 #222
-Post Office~
+indra.email~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -355,7 +355,7 @@ D3
 0 0 97
 S
 #224
-The Bank~
+indra.money~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -364,17 +364,13 @@ D0
 0 0 211
 S
 #225
-The Water Hole~
+indra.store/water~
 Empty room.~
-2 24 0 0 0 1
+2 24 0 0 0 0
 D1
 ~
 ~
 0 0 212
-D4
-~
-door~
-2 0 367
 S
 #226
 TBAMud~
@@ -472,7 +468,7 @@ D2
 0 0 246
 S
 #233
-indra.city/wn~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -533,7 +529,7 @@ D2
 0 0 252
 S
 #238
-Fashion & Style~
+indra.store/fashion~
 Empty room.~
 2 24 0 0 0 0
 D1
@@ -542,7 +538,7 @@ D1
 0 0 239
 S
 #239
-1 EN Temple Sq.~
+indra.city/ne~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -944,7 +940,7 @@ D3
 0 0 266
 S
 #268
-The Outfitter~
+indra.store/outfitter~
 Empty room.~
 2 24 0 0 0 0
 D1
@@ -953,7 +949,7 @@ D1
 0 0 269
 S
 #269
-The Eastern Temple Circle~
+indra.city/se~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1108,16 +1104,16 @@ D3
 0 0 95
 S
 #280
-The Bakery~
+indra.store/bakery~
 Empty room.~
-2 24 0 0 0 1
+2 24 0 0 0 0
 D2
 ~
 ~
 0 0 293
 S
 #281
-The Emporium~
+indra.store/emporium~
 Empty room.~
 2 24 0 0 0 0
 D1
@@ -1126,17 +1122,13 @@ D1
 0 0 282
 S
 #282
-2 ES Temple Sq.~
+indra.city/se~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 269
-D1
-~
-~
-0 0 25
 D2
 ~
 ~
@@ -1263,7 +1255,7 @@ D4
 1 0 356
 S
 #291
-1 SW Temple Rd.~
+indra.city/sw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1303,7 +1295,7 @@ D3
 0 0 291
 S
 #293
-1 SE Temple Sq.~
+indra.city/se~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1333,21 +1325,13 @@ D5
 0 0 352
 S
 #295
-5 SE Temple Sq.~
+indra.city/se~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 282
-D1
-~
-~
-0 0 22
-D2
-~
-~
-0 0 18
 D3
 ~
 ~
