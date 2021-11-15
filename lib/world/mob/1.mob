@@ -113,16 +113,15 @@ So intent on his work he seems not to notice you.  It gives you small start when
 E
 T 106
 #109
-hazel wellmaster~
+hazel wellmaster water devi~
 Hazel~
-Hazel, the Wellmaster is sealing a barrel of water.
+0109/avatar~
+talk:#adv agent:thegame 0109/look
 ~
-She looks tired, but in a good way.  It must be true when they say about everyone worrying about the dome collapsing and chaos befalling the city.  She looks competent in her work and enjoys it immensely.
-~
-190474 0 0 0 16 0 0 0 800 E
+2058 0 0 0 16 0 0 0 800 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
+8 8 7
 E
 T 106
 #110

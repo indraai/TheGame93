@@ -176,7 +176,7 @@ D3
 0 0 311
 S
 #313
-2 S Temple Rd.~
+indra.city/s~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -190,7 +190,7 @@ D1
 D2
 ~
 ~
-0 0 343
+0 0 255
 D3
 ~
 ~
@@ -654,7 +654,7 @@ D2
 D3
 ~
 ~
-0 0 343
+0 0 255
 S
 #345
 Arjika Tower W~
@@ -902,13 +902,13 @@ D1
 0 0 348
 S
 #362
-Saryakiavan Portal~
+indra.agency/s~
 Empty room.~
 3 0 0 0 0 1
 D0
 ~
 ~
-0 0 343
+0 0 255
 D3
 ~
 ~
@@ -928,7 +928,7 @@ D1
 0 0 362
 S
 #365
-Arjika Tower~
+indra.studio~
 Empty room.~
 3 24 0 0 0 0
 D5

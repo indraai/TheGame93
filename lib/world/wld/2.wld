@@ -1,5 +1,5 @@
 #200
-2 N Temple Rd.~
+indra.city/n~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -149,7 +149,7 @@ D3
 0 0 207
 S
 #210
-1 N Temple Rd.~
+indra.city/n~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -194,10 +194,6 @@ D0
 ~
 ~
 0 0 213
-D1
-~
-~
-0 0 13
 D2
 ~
 ~
@@ -338,7 +334,7 @@ D0
 0 0 209
 S
 #223
-North Intersection~
+indra.city/n~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -476,7 +472,7 @@ D2
 0 0 246
 S
 #233
-1 WN Temple Sq.~
+indra.city/wn~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -493,7 +489,7 @@ D2
 0 0 248
 S
 #234
-Cartoon Builder~
+indra.store/toys~
 Empty room.~
 2 24 0 0 0 0
 D3
@@ -502,30 +498,22 @@ D3
 0 0 233
 S
 #235
-Services~
+indra.services~
 Empty room.~
 2 24 0 0 0 0
 D1
 ~
 ~
 0 0 236
-D2
-~
-~
-0 0 250
 S
 #236
-Arjika Temple (N)~
+indra.city/n~
 Empty room.~
 2 16 0 0 0 1
 D0
 ~
 ~
 0 0 223
-D1
-~
-~
-0 0 237
 D2
 ~
 ~
@@ -536,17 +524,13 @@ D3
 0 0 235
 S
 #237
-Solutions~
+indra.solutions~
 Empty room.~
 2 24 0 0 0 0
 D2
 ~
 ~
 0 0 252
-D3
-~
-~
-0 0 236
 S
 #238
 Fashion & Style~
@@ -614,7 +598,7 @@ D3
 0 0 241
 S
 #243
-The West Gate~
+indra.agency/w~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -640,7 +624,7 @@ D3
 0 0 243
 S
 #246
-5 W Temple Rd.~
+indra.city/w~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -670,7 +654,7 @@ D4
 0 0 352
 S
 #248
-1 W Temple Rd.~
+indra.city/w~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -695,7 +679,7 @@ D4
 0 0 115
 S
 #249
-Temple Entrance (W)~
+indra.city/w~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -708,13 +692,9 @@ D3
 0 0 248
 S
 #250
-Arjika Temple (W)~
+indra.city/w~
 Empty room.~
 2 16 0 0 0 1
-D0
-~
-~
-0 0 235
 D1
 ~
 ~
@@ -729,7 +709,7 @@ D3
 0 0 249
 S
 #251
-Arjika Temple~
+indra.center~
 Empty room.~
 2 24 0 0 0 0
 D0
@@ -754,7 +734,7 @@ D4
 0 0 100
 S
 #252
-Arjika Temple (E)~
+indra.city/e~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -765,17 +745,13 @@ D1
 ~
 ~
 0 0 253
-D2
-~
-~
-0 0 267
 D3
 ~
 ~
 0 0 251
 S
 #253
-Temple Entrance (E)~
+indra.city/e~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -788,7 +764,7 @@ D3
 0 0 252
 S
 #254
-1 E Temple Rd.~
+indra.city/e~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -813,20 +789,28 @@ D4
 0 0 118
 S
 #255
-South Temple Rd.~
+indra.city/s~
 Empty room.~
 2 16 0 0 0 2
+D0
+~
+~
+0 0 313
 D1
 ~
 ~
 0 0 344
+D2
+~
+~
+0 0 362
 D3
 ~
 ~
 0 0 342
 S
 #256
-9 E Temple Rd.~
+indra.city/e~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -847,9 +831,9 @@ D3
 0 0 254
 S
 #259
-SOMA Portal~
+indra.agency/e~
 Empty room.~
-2 16 0 0 0 1
+2 24 0 0 0 0
 D3
 ~
 ~
@@ -925,20 +909,16 @@ D3
 0 0 263
 S
 #265
-Buddhist Monastery~
+indra.systems~
 undefined~
 2 24 0 0 0 0
 D0
 ~
 ~
 0 0 250
-D1
-~
-~
-0 0 266
 S
 #266
-Arjika Temple (S)~
+indra.city/s~
 undefined~
 2 16 0 0 0 1
 D0
@@ -953,19 +933,11 @@ D2
 ~
 ~
 0 0 279
-D3
-~
-~
-0 0 265
 S
 #267
-Muslim Mosque~
+indra.support~
 Empty room.~
 2 24 0 0 0 0
-D0
-~
-~
-0 0 252
 D3
 ~
 ~
@@ -1115,7 +1087,7 @@ D2
 0 0 291
 S
 #279
-South Intersection~
+indra.city/s~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1244,7 +1216,7 @@ D2
 0 0 300
 S
 #288
-2 S Temple Rd.~
+indra.city/s~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1259,6 +1231,10 @@ D2
 ~
 ~
 0 0 313
+D3
+~
+~
+0 0 -1
 S
 #289
 5 SW Temple Sq.~
@@ -1306,7 +1282,7 @@ S
 T 210
 T 211
 #292
-1 S Temple Rd.~
+indra.city/s~
 Empty room.~
 2 16 0 0 0 1
 D0

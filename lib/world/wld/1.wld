@@ -1,5 +1,5 @@
 #100
-Arjika Tower~
+indra.business~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -28,7 +28,7 @@ D5
 0 0 251
 S
 #101
-Arjika Tower~
+indra.gallery~
 Empty room.~
 1 24 0 0 0 0
 D4
@@ -188,7 +188,7 @@ D5
 0 0 213
 S
 #113
-Quest Room~
+indra.art~
 empty~
 1 24 0 0 0 0
 D2
@@ -239,16 +239,16 @@ D5
 0 0 248
 S
 #116
-Travelling Room~
+indra.marketing~
 empty.~
-1 16 0 0 0 0
+1 24 0 0 0 0
 D1
 ~
 ~
 0 0 100
 S
 #117
-Travelling Room~
+indra.design~
 empty.~
 1 24 0 0 0 0
 D3
@@ -303,8 +303,8 @@ D5
 0 0 259
 S
 #120
-Travelling Room~
-A few of the higher mages of Arjika have been able to control the gateways that have opened between realms.  One of these controlled portals is kept in this room.  It is a one way ticket to the realm of Midgaard.  The portals are still erratic and uncontrollable so anyone who uses them does so at their own risk.  The flickering of the portal casts eerie shadows along the white walls. This must be the only room in the temple that has an uneasy feeling about it.~
+indra.work~
+undefined~
 1 24 0 0 0 0
 D0
 ~
@@ -611,7 +611,7 @@ D5
 0 0 362
 S
 #140
-Arjika Portal~
+indra.agency/n~
 empty room.~
 1 16 0 0 0 1
 D2
@@ -878,7 +878,7 @@ D3
 0 0 157
 S
 #159
-4 N Temple Rd.~
+indra.city/n~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -1284,7 +1284,7 @@ D3
 0 0 187
 S
 #189
-3 N Temple Rd.~
+indra.city/n~
 empty room.~
 1 16 0 0 0 1
 D0
