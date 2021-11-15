@@ -11,29 +11,27 @@ talk:#adv agent:thegame 0100/look
 8 8 1
 E
 #101
-Ian~
-Ian~
-Ian stands here ready to serve your needs.
-~
-He watches you carefully, looking at everything you look at.  Sizing you up as you peruse his wares.  He is a small man, by anyone's standards.  He has a strange glint in his eyes which some men get when obsessed with money.
+darry store outfitter deva~
+Darry~
+0101/avatar~
+talk:#adv thegame:agent 0101/look
 ~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 6
 E
 T 106
 #102
-liam~
-Liam~
-Liam waits impatiently while you shop.
-~
-Liam is constantly checking and restocking all his shelves.  His shop is in an ordered disarray that only he can fathom.  Just ask him for help and he can probably find what you need.
+parry emporium store deva~
+Parry~
+0102/avatar~
+talk:#adv agent:thegame 0102/look
 ~
 26634 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 6
 E
 T 106
 #103
@@ -76,14 +74,14 @@ talk:#adv agent:thegame 0105/look~
 BareHandAttack: 12
 E
 #106
-ludac deva store toys children kids~
+jarry store toys deva kiddos~
 Captain Ludac~
 0106/avatar~
 talk:#adv agent:thegame 0106/look~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 6
 E
 T 106
 #107
@@ -113,15 +111,15 @@ So intent on his work he seems not to notice you.  It gives you small start when
 E
 T 106
 #109
-hazel wellmaster water devi~
-Hazel~
+warry watermaster water store deva~
+Warry~
 0109/avatar~
 talk:#adv agent:thegame 0109/look
 ~
 2058 0 0 0 16 0 0 0 800 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 7
+8 8 6
 E
 T 106
 #110
@@ -699,20 +697,20 @@ talk:#adv agent:thegame 0157/look~
 BareHandAttack: 3
 E
 #158
-sharon schamber evil covenant~
-Sharon Schamber~
+farry fashion store devi~
+Farry~
 0158/avatar~
 talk:#adv agent:thegame 0158/look~
-16394 0 0 0 0 0 0 0 -500 E
-15 15 1 3d3+150 2d2+2
-150 22500
-8 8 2
+16394 0 0 0 0 0 0 0 250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 7
 BareHandAttack: 2
-SavingPara: 3
-SavingRod: 3
-SavingPetri: 3
-SavingBreath: 3
-SavingSpell: 3
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #159
 lieutenant arjika arjikiya lieutenant military a159 z0~
@@ -1088,13 +1086,13 @@ SavingSpell: 3
 E
 #187
 baker food bread bakery~
-the Baker~
+Garry~
 0187/avatar~
 talk:#adv agent:thegame 0187/look~
 24586 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2
+8 8 6
 E
 T 106
 #188
@@ -1180,14 +1178,14 @@ talk:#adv agent:thegame 0195/look~
 BareHandAttack: 12
 E
 #196
-jess queen hacker girl evil~
-JESS~
+marry store body devi~
+Marry~
 0196/avatar~
 talk:#adv agent:thegame 0196/look~
-8 0 0 0 0 0 0 0 -1000 E
+2138 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2
+8 8 7
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1217,13 +1215,13 @@ talk:#adv agent:thegame 0198/look~
 8 8 1
 E
 #199
-chef~
-the Chef~
+karry sweets female devi lady~
+Karry~
 0199/avatar~
 talk:#adv agent:thegame 0199/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 7
 E
 $
