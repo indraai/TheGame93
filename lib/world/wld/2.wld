@@ -896,7 +896,7 @@ D2
 0 0 276
 S
 #264
-The Grocer~
+indra.store/grocer~
 Empty room.~
 2 24 0 0 0 0
 D3
@@ -1048,7 +1048,7 @@ D2
 0 0 323
 S
 #276
-2 WS Temple Sq.~
+indra.city/sw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1065,7 +1065,7 @@ D2
 0 0 289
 S
 #277
-The Jeweler~
+indra.store/jeweler~
 Empty room.~
 2 24 0 0 0 0
 D3

@@ -140,16 +140,15 @@ SavingSpell: 1
 E
 T 106
 #111
-rowin jeweler~
-Rowin~
-Rowin, the jeweler, stands behind his display case.
-~
-The jeweler has an eyepiece shoved in one squinted eye, and looks as if he may be a tough bargainer.  You won't have much luck swindling this swindler.
+narry jeweler gems jewels deva store~
+Narry~
+0111/avatar~
+talk:#adv agent:thegame 0111/look
 ~
 190474 0 0 0 16 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 6
 E
 T 106
 #112
@@ -382,14 +381,19 @@ talk:#adv agent:thegame 0129/look~
 BareHandAttack: 7
 E
 #130
-brenda laurel spoonkids covenant goddess 1337~
-Brenda Laurel (goddess)~
+sarry grocer groderies store devi~
+Sarry~
 0130/avatar~
 talk:#adv agent:thegame 0130/look~
-2074 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 2
+2074 0 0 0 0 0 0 0 250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 7
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #131
 security deva guard daycare d131 z1~
