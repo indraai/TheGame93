@@ -273,7 +273,7 @@ static void sedit_rooms_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "\n## Stores\r");
+  write_to_output(d, "\n## Rooms\r");
   for (i = 0; S_ROOM(shop, i) != NOWHERE; i++) {
     rnum = real_room(S_ROOM(shop, i));
     /* if the room has been deleted, this may crash us otherwise. */
@@ -287,7 +287,7 @@ static void sedit_rooms_menu(struct descriptor_data *d)
   write_to_output(d, "\nmenu[Add Store Room]:a\r"
 	  "\nmenu[Delete Store Room]:b\r"
 	  "\nmenu[Compact Dispaly]:c\r"
-	  "\rmenu[Quit]:0\r");
+	  "\rmenu[quit]:0\r");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
