@@ -27,8 +27,8 @@ CircleMUD v3.0 Shop File~
 179
 165
 -1
-1.50
-0.50
+1.25
+0.90
 17
 -1
 %s Sorry, I don't stock that item.~
@@ -77,12 +77,6 @@ CircleMUD v3.0 Shop File~
 #238~
 107
 106
-140
-166
-167
-168
-169
-170
 126
 122
 129
