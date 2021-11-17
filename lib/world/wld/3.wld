@@ -339,7 +339,7 @@ D2
 0 0 301
 S
 #324
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -352,7 +352,7 @@ D3
 0 0 343
 S
 #325
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -369,7 +369,7 @@ D3
 0 0 324
 S
 #326
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -386,7 +386,7 @@ D3
 0 0 325
 S
 #327
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -560,7 +560,7 @@ D1
 0 0 340
 S
 #340
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -581,7 +581,7 @@ D3
 0 0 339
 S
 #341
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -602,7 +602,7 @@ D3
 0 0 340
 S
 #342
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -623,7 +623,7 @@ D3
 0 0 341
 S
 #343
-The Playground~
+indra.fun/playground~
 Empty room.~
 3 16 0 0 0 2
 D1
@@ -640,17 +640,13 @@ D3
 0 0 388
 S
 #344
-Arjika Courtyard~
+indra.city/courtyard~
 empty.~
 3 16 0 0 0 1
 D0
 ~
 ~
 0 0 329
-D1
-~
-~
-0 0 345
 D2
 ~
 ~
@@ -764,7 +760,7 @@ D3
 0 0 338
 S
 #352
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -773,7 +769,7 @@ D1
 0 0 353
 S
 #353
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -790,7 +786,7 @@ D3
 0 0 352
 S
 #354
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -807,7 +803,7 @@ D3
 0 0 353
 S
 #355
-Adventure Arcade~
+indra.fun/arcade~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -826,7 +822,7 @@ Empty room.~
 D0
 ~
 ~
-0 0 255
+0 0 343
 D3
 ~
 ~
