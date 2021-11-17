@@ -723,7 +723,7 @@ static void list_shops(struct char_data *ch, zone_rnum rnum, shop_vnum vmin, sho
       counter++;
 
       /* the +1 is strange but fits the rest of the shop code */
-      send_to_char(ch, "\n%d. Shop %d %d\r", counter, SHOP_NUM(i), i+1);
+      send_to_char(ch, "\n%d. Shop %d\r", counter, SHOP_NUM(i));
 
       /* Thanks to Ken Ray for this display fix. -Welcor */
       for (j = 0; SHOP_ROOM(i, j) != NOWHERE; j++)
