@@ -62,10 +62,6 @@ O 0 251 1 251 	(a marble fountain)
 O 0 133 10 251  	(Backpack)
 O 0 179 10 251  	(Canteen)
 
-O 0 180 25 278  	(Candy Dirt)
-O 0 180 25 278  	(Candy Dirt)
-O 0 180 25 278  	(Candy Dirt)
-
 R 0 259 92 -1 	(security board e gate)
 O 1 92 99 259 	(security board e gate)
 R 0 243 92 -1 	(security board w gate)
