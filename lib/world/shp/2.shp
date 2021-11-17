@@ -1,7 +1,6 @@
 CircleMUD v3.0 Shop File~
 #221~
 190
-351
 -1
 1.20
 0.80
@@ -27,7 +26,6 @@ CircleMUD v3.0 Shop File~
 #225~
 179
 165
-308
 -1
 1.50
 0.50
@@ -163,10 +161,6 @@ CircleMUD v3.0 Shop File~
 0
 0
 #277~
-181
-182
-183
-184
 -1
 1.20
 0.80
@@ -189,7 +183,6 @@ CircleMUD v3.0 Shop File~
 0
 0
 #278~
-315
 180
 -1
 1.30
@@ -204,7 +197,7 @@ CircleMUD v3.0 Shop File~
 %s I'll give you %d coins for that.~
 0
 6
-188
+199
 0
 278
 -1
@@ -213,10 +206,11 @@ CircleMUD v3.0 Shop File~
 0
 0
 #280~
-112
-109
+218
+219
+220
 -1
-1.40
+1.20
 0.60
 -1
 %s Sorry, I don't stock that item.~
