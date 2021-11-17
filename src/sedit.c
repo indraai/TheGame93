@@ -382,31 +382,31 @@ static void sedit_disp_menu(struct descriptor_data *d)
   sprintbit(S_NOTRADE(shop), trade_letters, buf1, sizeof(buf1));
   sprintbit(S_BITVECTOR(shop), shop_bits, buf2, sizeof(buf2));
   write_to_output(d,
-	  "# Shop: %d\r\n"
-	  "select[0:keeper]:%d - %s\r\n"
-    "select[1:Open 1]:%d\r\n"
-    "select[2:Close 1]:%d\r\n"
-    "select[3:Open 2]:%d\r\n"
-    "select[4:Close 2]:%d\r\n"
-	  "select[5:Sell Rate]:%1.2f\r\n"
-    "select[D:Sell success]:%s\r\n"
-    "select[6:Buy Rate]:%1.2f\r\n"
-    "select[C:buy success]:%s\r\n"
-	  "select[E:No Trade With]:%s\r\n"
-	  "select[F:Shop flags]:%s\r\n"
-    "### No Item!\r\n"
-	  "select[7:keeper]:%s\r\n"
-	  "select[8:player]:%s\r\n"
-    "### No Cash!\r\n"
-	  "select[9:keeper]:%s\r\n"
-	  "select[A:player]:%s\r\n"
+	  "\n# Shop: %d\r"
+	  "\nselect[a:keeper]:%d - %s\r"
+    "\nselect[b:Open 1]:%d\r"
+    "\nselect[c:Close 1]:%d\r"
+    "\nselect[d:Open 2]:%d\r"
+    "\nselect[e:Close 2]:%d\r"
+    "\nselect[f:Buy Success]:%s\r"
+	  "\nselect[g:Buy Profit]:%1.2f\r"
+    "\nselect[h:Sell Success]:%s\r"
+    "\nselect[i:Sell Profit]:%1.2f\r"
+	  "\nselect[j:No Trade With]:%s\r"
+	  "\nselect[k:Shop flags]:%s\r"
+    "\n### No Item!\r"
+	  "\nselect[l:keeper]:%s\r"
+	  "\nselect[m:player]:%s\r"
+    "\n### No Cash!\r"
+	  "\nselect[n:keeper]:%s\r"
+	  "\nselect[o:player]:%s\r"
     "\n### No Buy!"
-	  "select[B:keeper]:%s\r\n"
-	  "bmud[Rooms Menu]:R\r\n"
-	  "bmud[Products]:P\r\n"
-	  "bmud[Accept Types]:T\r\n"
-    "bmud[Copy Shop]:W\r\n"
-	  "menu[quit]:q\r\n",
+	  "\nselect[p:keeper]:%s\r"
+	  "\nbmud[Products]:q\r"
+    "\nbmud[Rooms Menu]:r\r"
+	  "\nbmud[Accept Types]:s\r"
+    "\nbmud[Copy Shop]:W\r"
+	  "\nmenu[quit]:q\r",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
 	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
@@ -471,97 +471,87 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_MAIN_MENU:
     i = 0;
     switch (*arg) {
-    case 'w':
-    case 'W':
+    case '1':
       write_to_output(d, "Copy what shop? ");
       OLC_MODE(d) = SEDIT_COPY;
       return;
-    case 'q':
-    case 'Q':
-      if (OLC_VAL(d)) {		/* Anything been changed? */
-      write_to_output(d, "%s", confirm_msg);
-	    OLC_MODE(d) = SEDIT_CONFIRM_SAVESTRING;
-      } else
-	cleanup_olc(d, CLEANUP_ALL);
-      return;
     case '0':
+      if (OLC_VAL(d)) {		/* Anything been changed? */
+        write_to_output(d, "%s", confirm_msg);
+	     OLC_MODE(d) = SEDIT_CONFIRM_SAVESTRING;
+      } else {
+        cleanup_olc(d, CLEANUP_ALL);
+      }
+      return;
+    case 'a':
       OLC_MODE(d) = SEDIT_KEEPER;
       write_to_output(d, "Enter vnum number of shop keeper : ");
       return;
-    case '1':
+    case 'b':
       OLC_MODE(d) = SEDIT_OPEN1;
       i++;
       break;
-    case '2':
+    case 'c':
       OLC_MODE(d) = SEDIT_CLOSE1;
       i++;
       break;
-    case '3':
+    case 'd':
       OLC_MODE(d) = SEDIT_OPEN2;
       i++;
       break;
-    case '4':
+    case 'e':
       OLC_MODE(d) = SEDIT_CLOSE2;
       i++;
       break;
-    case '5':
-      OLC_MODE(d) = SEDIT_BUY_PROFIT;
-      i++;
-      break;
-    case '6':
-      OLC_MODE(d) = SEDIT_SELL_PROFIT;
-      i++;
-      break;
-    case '7':
-      OLC_MODE(d) = SEDIT_NOITEM1;
-      i--;
-      break;
-    case '8':
-      OLC_MODE(d) = SEDIT_NOITEM2;
-      i--;
-      break;
-    case '9':
-      OLC_MODE(d) = SEDIT_NOCASH1;
-      i--;
-      break;
-    case 'a':
-    case 'A':
-      OLC_MODE(d) = SEDIT_NOCASH2;
-      i--;
-      break;
-    case 'b':
-    case 'B':
-      OLC_MODE(d) = SEDIT_NOBUY;
-      i--;
-      break;
-    case 'c':
-    case 'C':
+    case 'f':
       OLC_MODE(d) = SEDIT_BUY;
       i--;
       break;
-    case 'd':
-    case 'D':
+    case 'g':
+      OLC_MODE(d) = SEDIT_BUY_PROFIT;
+      i++;
+      break;
+    case 'h':
       OLC_MODE(d) = SEDIT_SELL;
       i--;
       break;
-    case 'e':
-    case 'E':
+    case 'i':
+      OLC_MODE(d) = SEDIT_SELL_PROFIT;
+      i++;
+      break;
+    case 'j':
       sedit_no_trade_menu(d);
       return;
-    case 'f':
-    case 'F':
+    case 'k':
       sedit_shop_flags_menu(d);
       return;
-    case 'r':
-    case 'R':
-      sedit_rooms_menu(d);
-      return;
+    case 'l':
+      OLC_MODE(d) = SEDIT_NOITEM1;
+      i--;
+      break;
+    case 'm':
+      OLC_MODE(d) = SEDIT_NOITEM2;
+      i--;
+      break;
+    case 'n':
+      OLC_MODE(d) = SEDIT_NOCASH1;
+      i--;
+      break;
+    case 'o':
+      OLC_MODE(d) = SEDIT_NOCASH2;
+      i--;
+      break;
     case 'p':
-    case 'P':
+      OLC_MODE(d) = SEDIT_NOBUY;
+      i--;
+      break;
+    case 'q':
       sedit_products_menu(d);
       return;
-    case 't':
-    case 'T':
+    case 'r':
+      sedit_rooms_menu(d);
+      return;
+    case 's':
       sedit_namelist_menu(d);
       return;
     default:
