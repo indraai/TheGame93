@@ -28,6 +28,8 @@ M 0 166 1 283 	(the lance corporal)
 
 M 0 187 1 280 	(the baker)
 G 1 218 100 -1  (jalapeno cheese bread)
+G 1 219 100 -1  (jalapeno cheese bagel)
+G 1 220 100 -1  (jalapeno cheese bites)
 
 M 0 189 1 230 	(the commander)
 M 0 196 1 221 	(Marry)
