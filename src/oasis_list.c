@@ -716,33 +716,27 @@ static void list_shops(struct char_data *ch, zone_rnum rnum, shop_vnum vmin, sho
     top    = vmax;
   }
 
-  send_to_char (ch,
-  "Index VNum    RNum    Shop Room(s)\r\n"
-  "----- ------- ------- -----------------------------------------\r\n");
+  send_to_char (ch, "\n# Shops\r");
 
   for (i = 0; i <= top_shop; i++) {
     if (SHOP_NUM(i) >= bottom && SHOP_NUM(i) <= top) {
       counter++;
 
       /* the +1 is strange but fits the rest of the shop code */
-      send_to_char(ch, "%s%4d%s) [%s%-5d%s] [%s%-5d%s]",
-        QGRN, counter, QNRM, QGRN, SHOP_NUM(i), QNRM, QGRN, i + 1, QNRM);
+      send_to_char(ch, "\n%d. %d", counter SHOP_NUM(i));
 
       /* Thanks to Ken Ray for this display fix. -Welcor */
       for (j = 0; SHOP_ROOM(i, j) != NOWHERE; j++)
-        send_to_char(ch, "%s%s[%s%-5d%s]%s",
-                      ((j > 0) && (j % 6 == 0)) ? "\r\n                      " : " ",
-                      QCYN, QYEL, SHOP_ROOM(i, j), QCYN, QNRM);
+        send_to_char(ch, "\n- %d\r", SHOP_ROOM(i, j);
 
       if (j == 0)
-        send_to_char(ch, " %sNone.%s", QCYN, QNRM);
+        send_to_char(ch, " \n- None.\r");
 
-      send_to_char(ch, "\r\n");
     }
   }
 
   if (counter == 0)
-    send_to_char(ch, "None found.\r\n");
+    send_to_char(ch, "\ninfo:None found.\r");
 }
 
 /* List all zones in the world (sort of like 'show zones'). */
