@@ -131,28 +131,28 @@ talk:#adv object:thegame 0251/look~
 0 0 0 0 0
 T 201
 E
-statues~
-talk:#adv object:thegame 0251/statues~
-E
-vamraka~
-talk:#adv object:thegame 0251/vamraka~
-E
-indu~
-talk:#adv object:thegame 0251/indu~
-E
-soma~
-talk:#adv object:thegame 0251/soma~
-E
-sarya~
-talk:#adv object:thegame 0251/sarya~
-E
-bom~
-talk:#adv object:thegame 0251/bom~
+fountain~
+talk:#adv object:thegame 0251/fountain
+~
 E
 indra~
 talk:#adv object:thegame 0251/indra~
 E
-fountain~
-talk:#adv object:thegame 0251/fountain
-~
+bom~
+talk:#adv object:thegame 0251/bom~
+E
+sarya~
+talk:#adv object:thegame 0251/sarya~
+E
+soma~
+talk:#adv object:thegame 0251/soma~
+E
+indu~
+talk:#adv object:thegame 0251/indu~
+E
+vamraka~
+talk:#adv object:thegame 0251/vamraka~
+E
+statues~
+talk:#adv object:thegame 0251/statues~
 $~
