@@ -723,7 +723,7 @@ static void list_shops(struct char_data *ch, zone_rnum rnum, shop_vnum vmin, sho
       counter++;
 
       /* the +1 is strange but fits the rest of the shop code */
-      send_to_char(ch, "\n%d. Shop %d", counter, SHOP_NUM(i));
+      send_to_char(ch, "\n%d. Shop %d %d\r", counter, SHOP_NUM(i), i+1);
 
       /* Thanks to Ken Ray for this display fix. -Welcor */
       for (j = 0; SHOP_ROOM(i, j) != NOWHERE; j++)
@@ -736,7 +736,7 @@ static void list_shops(struct char_data *ch, zone_rnum rnum, shop_vnum vmin, sho
   }
 
   if (counter == 0)
-    send_to_char(ch, "\ninfo:None found.\r");
+    send_to_char(ch, "\nNone found.\r");
 }
 
 /* List all zones in the world (sort of like 'show zones'). */
