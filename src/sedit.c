@@ -403,7 +403,7 @@ static void sedit_disp_menu(struct descriptor_data *d)
     "\nbmud[Rooms]:r\r"
 	  "\nbmud[Types]:s\r"
     "\nbmud[Copy Shop]:W\r"
-	  "\nmenu[quit]:q\r",
+	  "\nmenu[quit]:0\r",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
 	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,
