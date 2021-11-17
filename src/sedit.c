@@ -231,9 +231,9 @@ static void sedit_products_menu(struct descriptor_data *d)
     write_to_output(d, "%d: %s\r\n", i,
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
-  write_to_output(d, "menu[add product]:A\r\n"
-	  "menu[delete product]:D\r\n"
-	  "menu[quit]:q\r\n"
+  write_to_output(d, "menu[add product]:a\r\n"
+	  "menu[delete product]:b\r\n"
+	  "menu[quit]:0\r\n"
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
@@ -255,11 +255,10 @@ static void sedit_compact_rooms_menu(struct descriptor_data *d)
       write_to_output(d, "%2d - [\tR!Removed Room!\tn]\r\n", i);
     }
   }
-  write_to_output(d, "\r\n"
-	  "menu[Add Room]:a\r\n"
-	  "menu[Delete Room]:d\r\n"
-	  "menu[Long Display]:l\r\n"
-	  "menu[Quit]:q\r\n");
+  write_to_output(d, "\nmenu[Add Room]:a\r"
+	  "\nmenu[Delete Room]:b\r"
+	  "\nmenu[Long Display]:d\r"
+	  "\nmenu[Quit]:0\r");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
@@ -274,7 +273,7 @@ static void sedit_rooms_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "##     VNUM     Room\r\n\r\n");
+  write_to_output(d, "\n## Stores\r");
   for (i = 0; S_ROOM(shop, i) != NOWHERE; i++) {
     rnum = real_room(S_ROOM(shop, i));
     /* if the room has been deleted, this may crash us otherwise. */
@@ -285,12 +284,10 @@ static void sedit_rooms_menu(struct descriptor_data *d)
     write_to_output(d, "%2d - [%s%5d%s] - %s%s%s\r\n", i, cyn, S_ROOM(shop, i), nrm,
 	    yel, world[rnum].name, nrm);
   }
-  write_to_output(d, "\r\n"
-	  "%sA%s) Add a new room.\r\n"
-	  "%sD%s) Delete a room.\r\n"
-	  "%sC%s) Compact Display.\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ", grn, nrm, grn, nrm, grn, nrm, grn, nrm);
+  write_to_output(d, "\nmenu[Add Store Room]:a\r"
+	  "\nmenu[Delete Store Room]:b\r"
+	  "\nmenu[Compact Dispaly]:c\r"
+	  "\rmenu[Quit]:0\r");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
@@ -403,8 +400,8 @@ static void sedit_disp_menu(struct descriptor_data *d)
     "\n### No Buy!"
 	  "\nselect[p:keeper]:%s\r"
 	  "\nbmud[Products]:q\r"
-    "\nbmud[Rooms Menu]:r\r"
-	  "\nbmud[Accept Types]:s\r"
+    "\nbmud[Rooms]:r\r"
+	  "\nbmud[Types]:s\r"
     "\nbmud[Copy Shop]:W\r"
 	  "\nmenu[quit]:q\r",
 	  OLC_NUM(d),
@@ -589,17 +586,14 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_PRODUCTS_MENU:
     switch (*arg) {
     case 'a':
-    case 'A':
       write_to_output(d, "\r\nEnter new product vnum number : ");
       OLC_MODE(d) = SEDIT_NEW_PRODUCT;
       return;
-    case 'd':
-    case 'D':
+    case 'b':
       write_to_output(d, "\r\nDelete which product? : ");
       OLC_MODE(d) = SEDIT_DELETE_PRODUCT;
       return;
-    case 'q':
-    case 'Q':
+    case '0':
       break;
     }
     break;
@@ -607,25 +601,20 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_ROOMS_MENU:
     switch (*arg) {
     case 'a':
-    case 'A':
       write_to_output(d, "\r\nEnter new room vnum number : ");
       OLC_MODE(d) = SEDIT_NEW_ROOM;
       return;
-    case 'c':
-    case 'C':
-      sedit_compact_rooms_menu(d);
-      return;
-    case 'l':
-    case 'L':
-      sedit_rooms_menu(d);
-      return;
-    case 'd':
-    case 'D':
+    case 'b':
       write_to_output(d, "\r\nDelete which room? : ");
       OLC_MODE(d) = SEDIT_DELETE_ROOM;
       return;
-    case 'q':
-    case 'Q':
+    case 'c':
+      sedit_compact_rooms_menu(d);
+      return;
+    case 'd':
+      sedit_rooms_menu(d);
+      return;
+    case '0':
       break;
     }
     break;
