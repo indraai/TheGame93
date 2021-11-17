@@ -33,7 +33,9 @@ G 1 220 100 -1  (jalapeno cheese bites)
 
 M 0 189 1 230 	(the commander)
 M 0 196 1 221 	(Marry)
-M 0 199 1 278 	(The Butcher)
+
+M 0 199 1 278 	(Karry)
+G 1 180 100 -1  (CandyDirt)
 
 M 0 213 1 19 	(Santa Claus)
 
