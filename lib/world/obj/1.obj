@@ -452,18 +452,6 @@ E
 cloth jacket~
    A rugged looking cloth jacket.
 ~
-#141
-leather gloves~
-a pair of leather gloves~
-A pair of leather gloves lie here.~
-~
-9 0 0 0 0 ah 0 0 0 0 0 0 0
-3 0 0 0
-5 170 0 0 0
-E
-leather gloves~
-   Rugged looking brown leather gloves.
-~
 #142
 shield wooden~
 a wooden shield~
@@ -476,27 +464,6 @@ E
 wooden shield~
    It's small, it's wooden.
 ~
-#143
-pants pair black leather~
-a pair of black leather pants~
-A pair of black leather pants lie on the ground.~
-~
-9 0 0 0 0 af 0 0 0 0 0 0 0
-5 0 0 0
-10 300 0 0 0
-E
-black leather pants~
-   These pants are in very good condition.  They would provide minimal
-protection during a fight.
-~
-#144
-helm leather~
-a leather helm~
-A leather helm is lying on the ground.~
-~
-9 0 0 0 0 ae 0 0 0 0 0 0 0
-3 0 0 0
-5 100 0 0 0
 #145
 jacket scale~
 a scale mail jacket~
@@ -525,21 +492,6 @@ E
 juice bottle~
 This juice looks and tastes like exotic.
 ~
-#148
-blue velvet pants~
-some blue velvet pants~
-A pair of blue pants made from a fine fabric.~
-~
-9 0 0 0 0 af 0 0 0 0 0 0 0
-3 0 0 0
-3 100 0 0 0
-E
-blue pants~
-   These gaudy velvet pants are meant for a royal court, not adventuring.
-Most respectable adventurers wouldn't even be caught dead in these things.
-~
-A
-6 1
 #149
 dustpan dust pan~
 a dustpan~
@@ -647,66 +599,6 @@ used to make the person holding it look busy.
 ~
 A
 3 1
-#156
-purse~
-someone else's purse~
-Someone's purse has been left here.~
-~
-15 0 0 0 0 a 0 0 0 0 0 0 0
-10 0 -1 0
-9 100 0 0 0
-E
-purse~
-   The initials NJW are inscribed in gold lettering.  Very fancy.  Whoever had
-this must have been well off.  The drawstring used to hold it to a belt has
-been cleanly cut.  Must be someone had their purse snatched.
-~
-#157
-gunney's hat~
-Gunney's hat~
-This is Gunney's hat, better not be caught wearing it.~
-~
-9 0 0 0 0 ae 0 0 0 0 0 0 0
-3 0 0 0
-3 200 0 0 0
-A
-5 1
-#158
-coveralls~
-some coveralls~
-A set of coveralls lies here.~
-~
-11 0 0 0 0 ak 0 0 0 0 0 0 0
-0 0 0 0
-5 201 0 0 0
-A
-5 2
-A
-17 -3
-#159
-list directions arjika~
-a list of directions~
-A list of directions to important areas within Arjika lies here.~
-~
-12 0 0 0 0 ao 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-list directions arjika~
-   	n
-recall Room - teleport Arjika
-Newbie Zones - teleport Newbie
-Food - 1d, 3s, 1e, 1n
-1d, 3s, 1w, 1n
-Water - 1d, 3n, 2e, 1s
-Donation Room - 1d, 1n, 1w
- Guild - 1d, 7s, 3w, 2u
-Warrior Guild - 1d, 7n, 5w, 1n, 1u
-Mage Guild - 1d, 7s, 2e, 2u
-Thief Guild - 1d, 7n, 4e, 1n, 1u
-Post Office - 1d, 3n, 1w, 1s
-Bank - 1d, 3n, 1e, 1s
-~
 #160
 kitchen timer~
 a kitchen timer~
@@ -778,68 +670,44 @@ A cup has been left here.~
 5 5 0 0 0
 #166
 cloth pants~
-a pair of cloth pants~
-A pair of cloth pants is rumpled up into a ball.~
-~
+Cloth Pants~
+0166/avatar~
+talk:#adv object:thegame 0166/look~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 2 0 0 0
 5 75 0 0 0
-E
-cloth pants~
-   The pants are filthy, but wearable.
-~
 #167
-cloth cap~
-a cloth cap~
-A cloth cap rests on the ground.~
-~
+sunshine hat~
+Sunshine Hat~
+0167/avatar~
+talk:#adv object:thegame 0167/look~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 1 0 0 0
 1 50 0 0 0
-E
-cloth cap~
-   The kind of cap a street urchin might wear.
-~
 #168
-cloth shirt~
-a cloth shirt~
-A cloth shirt lays on the ground.~
-~
+tshirt shirt~
+White T-Shirt~
+0168/avatar~
+talk:#adv object:thegame 0168/look~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
 5 90 0 0 0
-E
-cloth shirt~
-   The shirt looks pretty rugged.  The plain dirty white cloth would provide
-some protection.
-~
 #169
-cloth shoes~
-a pair of cloth shoes~
-A pair of cloth shoes are here.~
-~
+flippies flipflops sandals~
+FlipFlop Sandals~
+0169/avatar~
+talk:#adv object:thegame 0169/look~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 2 0 0 0
 1 60 0 0 0
-E
-cloth shoes~
-   These shoes are more like moccassins than anything else.  A strip of leather
-on their soles should make them last a long time and protect your feet very
-well.
-~
 #170
-gloves cloth~
-some cloth gloves~
-A pair of cloth gloves have been left here.~
-~
+gardening gloves~
+Gardening Gloves~
+0170/avatar~
+talk:#adv object:thegame 0170/look~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 1 0 0 0
 5 65 0 0 0
-E
-cloth gloves~
-   They are a ditry white color, with the fingers cut off, these gloves look
-useful.
-~
 #171
 short staff gilded oak~
 a short gilded staff of oak~
@@ -904,18 +772,6 @@ A long rope hangs down through the middle of the room.~
 E
 rope bell toll~
 The rope is suspended in the middle of the room and rises into the darkness of the ceiling above. It looks like it might be attached to a bell in the tower above.
-~
-#176
-cigarette~
-a cancer~
-A cigarette was left here.~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 10 0 0 0
-E
-cigarette~
-   A cigarette of finely grown organic tobacco.
 ~
 #179
 water canteen water~
