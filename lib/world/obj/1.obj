@@ -1,156 +1,99 @@
 #101
 orange drink drinks juice~
-Glass of Orange Juice~
-A glass of orange juice has been left here.~
-~
+Orange Juice~
+0101/avatar~
+talk:#adv object:thegame/0101/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
 13 20 0 0 0
 #102
 glass apple drinks drink juice~
-Glass of Apple Juice~
-A bottle of Apple Juice left here.~
+Apple Juice~
+talk:#adv object:thegame/0102/look~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 2 0
 13 140 0 0 0
 #103
 tropical iced-tea drink drinks tea~
-Glass of Tropical Iced-Tea~
-A glass of Tropical Iced-Tea is here.~
-~
+Tropical Iced-Tea~
+0103/avatar~
+talk:#adv object:thegame 0103/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 5 0
 13 200 0 0 0
 #104
-passion fruit iced-tea tea~
-Glass of Passion Fruit Iced-Tea~
-A glass of Passion Fruit Iced-Tea is here.~
-~
+passion fruit iced-tea drink drinks tea~
+Passion Fruit Iced-Tea~
+0104/avatar~
+talk:#adv object:thegame 0104/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 6 0
 10 5 0 0 0
 #105
-green robe~
+green robe clothing~
 Green Robe~
 0105/avatar~
 talk:#adv object:thegame 0105/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 1 500 0 0 0
-E
-robe~
-talk:#adv object:thegame/robe~
 #106
-red robe~
+red robe clothing~
 Red Robe~
 0106/avatar~
 talk:#adv object:thegame/0106/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 3 0 0 0
 3 500 0 0 0
-E
-robe~
-talk:#adv object:thegame 0106/robe~
 #107
-blue robe~
+blue robe clothing~
 Blue Robe~
 0107/avatar~
 talk:#adv object:thegame 0107/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 5 500 0 0 0
-E
-robe~
-tak:#adv object:thegame 0107/robe~
-#108
-round fishing hat~
-a fishing hat~
-A round fishing hat has been left here.~
-~
-9 0 0 0 0 ae 0 0 0 0 0 0 0
-1 0 0 0
-1 40 0 0 0
-E
-hat fishing round~
-   Round, rumpled, and covered in lures, this hat must have been someone's
-favorite.
-~
 #109
-waybread bread~
-a waybread~
-Some waybread has been put here.~
-~
+sourdough bread food bakery~
+Sourdough Loaf~
+0109/avatar~
+talk:#adv object:thegame 0109/look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 24 0 0 0
 1 5 0 0 0
-E
-waybread bread food~
-   The waybread is the traditional feed of elves when traveling, they call it
-lembas.  It is said to refresh the weary traveler greatly.
-~
-#110
-dried rations food~
-some dried rations~
-Some dried rations has been left here.~
-~
-19 0 0 0 0 a 0 0 0 0 0 0 0
-18 0 0 0
-1 7 0 0 0
-E
-rations dried~
-   These rations are bland and serve no other purpose than to keep you alive.
-
-~
 #111
-apple food~
-an apple~
-A nice looking delicious red apple has been left here.~
-~
+apple fruit food~
+Apple~
+0111/avatar~
+talk:#adv object:thegame 0111/look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 4 0 0 0
 1 2 0 0 0
-E
-apple~
-   The apple looks fresh, except for one small worm hole in, nothing wrong with
-a little protien in your diet.
-~
 #112
-crescent food~
-a crescent~
-A tasty looking crescent has been dropped here.~
-~
+blueberry muffin food bakery~
+Blueberry Muffin~
+0112/avatar~
+talk:#adv object:thegame 0112/look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 15 0 0 0
 1 5 0 0 0
-E
-crescent~
-   The crescent looks warm and flaky, just how you like it...
-~
 #113
 mango drink drinks juice~
-Glass of Mango Juice~
+Mango Juice~
 A glass of Mango Juice is here.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 1 1 5 0
 5 230 0 0 0
-E
-mango~
-This is the kind of liquor that makes successful peopl into sloppy drunks. You sure you're man or woman enough to drink this stuff?
-~
 #114
 pretzel food~
 Pretzel~
-A pretzel has been left here.~
-~
+0114/avatar~
+talk:#adv object:thegame 0114/look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 5 0 0 0
-E
-pretzel~
-Heavily salted, you better buy a drink if you're gonna eat this thing.
-~
 #115
 safe banks~
 a huge safe~
@@ -160,10 +103,6 @@ talk:#adv object:thegame 0115/look
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-E
-safe~
-talk:#adv object:thegame 0115/safe
-~
 #116
 bench~
 the bench~
@@ -172,155 +111,38 @@ A bench of black polished granite looks mighty uncomfortable.~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-E
-bench granite black~
-   The bench is carved out of a single block of black granite and has been
-polished to a smooth shine.
-~
-#117
-rack armor~
-a rack of armor~
-A rack of armor rests here against one wall.~
-~
-12 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 0 0
-E
-rack armor~
-   Chain mail shirts, leggings, helms, sleeves, everything an adventurer could
-ever need.
-~
-#118
-rack weapons~
-a rack of weapons~
-A rack of weapons leans against the wall.~
-~
-12 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 0 0
-E
-rack weapons~
-   Swords, clubs, implements of masss destruction for the taking, at the right
-price of course
-~
 #119
-yellow robe~
+yellow robe clothing~
 Yellow Robe~
 0119/avatar~
 talk:#adve object:thegame 0119/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 3 0 0 0
 3 500 0 0 0
-E
-robe~
-talk:#adv object:thegmae 0119/robe~
-#120
-dagger~
-a dagger~
-A dagger with a long thin blade is here.~
-~
-5 n 0 0 0 an 0 0 0 0 0 0 0
-0 1 4 11
-2 30 0 0 0
-E
-dagger~
-A simple dagger used by thieves and hoodlums to relieve the unwary of their money.
-~
-#121
-sword small~
-a small sword~
-A small sword lies here.~
-~
-5 n 0 0 0 an 0 0 0 0 0 0 0
-0 1 6 11
-3 75 0 0 0
-E
-sword~
-   The basic sword of the Arjika military.  Nothing spectacular about it.
-~
 #122
-gray robe~
+gray robe clothing~
 Gray Robe~
 0122/avatar~
 talk:#adv object:thegame 0122/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 3 500 0 0 0
-E
-robe~
-talk:#adv object:thegame 0122/look~
-#123
-club wooden~
-a wooden club~
-A simple looking wooden club is here.~
-~
-5 0 0 0 0 an 0 0 0 0 0 0 0
-0 1 3 7
-3 50 0 0 0
-E
-club~
-   Your basic club, nothing very remarkeable about it.
-~
-#124
-mace~
-a mace~
-A mace is here.~
-~
-5 0 0 0 0 an 0 0 0 0 0 0 0
-0 1 7 5
-6 60 0 0 0
-E
-mace~
-   This mace is made of a heavy polished metal with small spikes on the end.
-Look deadly
-~
-#125
-flail large~
-a flail~
-A large flail is here.~
-~
-5 0 0 0 0 an 0 0 0 0 0 0 0
-0 2 4 7
-6 100 0 0 0
-E
-flail~
-   A strange weapon, you wonder if you even know how to use it.
-~
 #126
-purple robe~
+purple robe clothing~
 Purple Robe~
 0126/avatar~
 talk:#adv object:thegame 0126/look~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
 5 500 0 0 0
-E
-robe~
-talk:#adv object:thegame 0126/robe~
-#127
-brass knuckles~
-some brass knuckles~
-Some brass knuckles are here.~
-~
-5 n 0 0 0 an 0 0 0 0 0 0 0
-0 2 5 7
-6 200 0 0 0
-E
-knuckles brass~
-   These, heavy, wicked looking knuckles could do some serious damage if worn
-on the hands.
-~
 #129
-black robe~
+black robe clothing~
 Black Robe~
 0129/avatar~
 talk:#adv object:thegame 0129/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 1 500 0 0 0
-E
-robe~
-talk:#adv object:thegame 0129/look~
 #130
 torch~
 a torch~
@@ -329,35 +151,22 @@ A large torch.~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 24 0
 1 20 0 0 0
-E
-torch~
-   Your basic torch, nothing very remarkeable about it.
-~
 #131
 lantern brass~
-a lantern~
+Lantern~
 A brass lantern is here.~
 ~
 1 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 96 0
 1 50 0 0 0
-E
-brass lantern~
-   Your basic lantern, nothing very remarkeable about it.  Just a fuel tank,
-glass covering and a wick.
-~
 #132
-bag~
-a bag~
+small bag~
+Small Bag~
 A small bag is here.~
 ~
 15 h 0 0 0 ao 0 0 0 0 0 0 0
 50 0 0 0
 2 100 0 0 0
-E
-bag~
-   A simple bag to help you carry all of your belongings.
-~
 #133
 backpack pack~
 Backpack~
@@ -367,207 +176,58 @@ talk:#adv object:thegame 0133/look
 15 0 0 0 0 ao 0 0 0 0 0 0 0
 40 5 -1 0
 5 250 0 0 0
-#134
-dog collar~
-a dog collar~
-A dog collar was left here, what happened to the poor dog?~
-~
-9 0 0 0 0 ac 0 0 0 0 0 0 0
-1 0 0 0
-1 10 0 0 0
-E
-dog collar~
-   It looks mangled and chewed, the dog probably pulled it off.
-~
-#135
-catnip~
-some catnip~
-A pile of catnip is here waiting for a cat to enjoy it.~
-~
-13 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-catnip~
-   This stuff drives cats bonkers.
-~
 #136
-broom~
-a broom~
-A broom is lying on the floor.~
-~
+broom cleaning supplies~
+Broom~
+0136/avatar~
+talk:#adv object:thegame/0136/look~
 13 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 5 0 0 0
-E
-broom~
-   Looks like the streetsweep must be taking a break, he left his broom lying
-here.
-~
 #137
 glass drink tropical iced-tea tea~
-Glass of Tropical Iced-Tea~
-A glass of Tropical Iced-Tea is here.~
-~
+Tropical Iced-Tea~
+0137/avatar~
+talk:#adv object:thegame/0137/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 5 0
 5 75 0 0 0
-E
-tea glass~
-You think that's Iced-Tea in there.
-~
 #138
 glass apple drink drinks juice~
-Glass of Apple Juice~
-A glass of Apple Juice is here.~
-~
+Apple Juice~
+0138/avatar~
+talk:#adv object:thegame/0138/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 2 0
 10 15 0 0 0
-E
-juice glass~
-A very fancy and tall glass holding some apple juice.  The drink of the middle class.
-~
 #139
 glass drink drinks limeaid~
-Glass of Limeaid~
+Limeaid~
 A glass sits on the ground.~
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 4 4 8 0
 10 25 0 0 0
-E
-glass limeaid~
-A tall glass with a long skinny stem.  The type of glass that rich folk use to drink bubbly.
-~
 #140
-cloth jacket~
-a cloth jacket~
+jacket apparel clothing~
+Jacket~
 A jacket is lying on the floor~
 ~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 5 100 0 0 0
-E
-cloth jacket~
-   A rugged looking cloth jacket.
-~
-#142
-shield wooden~
-a wooden shield~
-A small wooden shield is lying on the ground.~
-~
-9 0 0 0 0 aj 0 0 0 0 0 0 0
-2 0 0 0
-3 500 0 0 0
-E
-wooden shield~
-   It's small, it's wooden.
-~
-#145
-jacket scale~
-a scale mail jacket~
-A scale mail jacket is lying on the ground.~
-~
-9 0 0 0 0 ad 0 0 0 0 0 0 0
-4 0 0 0
-10 500 0 0 0
-#146
-water pool~
-a pool of water~
-A pool of water has collected here.~
-~
-23 0 0 0 0 0 0 0 0 0 0 0 0
-10 1 0 0
-0 0 0 0 0
-#147
-orange drink drinks juice~
-Bottle of Orange Juice~
-Some exotic orange juice from far away.~
-~
-17 0 0 0 0 a 0 0 0 0 0 0 0
-10 10 1 0
-15 50 0 0 0
-E
-juice bottle~
-This juice looks and tastes like exotic.
-~
 #149
-dustpan dust pan~
-a dustpan~
-A dustpan has been left here.~
-~
+dustpan dust pan cleaning supplies~
+Dustpan~
+0149/avatar~
+talk:#adv object:thegame/0149/look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 2 2 0 0 0
-E
-dustpan pan~
-   The streetsweeper uses this to clean up the city.
-~
 A
 19 2
 A
 6 3
-#150
-white shirt~
-a white silken shirt~
-A fine white shirt is crumpled into a ball.~
-~
-9 0 0 0 0 ad 0 0 0 0 0 0 0
-3 0 0 0
-7 100 0 0 0
-E
-white shirt~
-   This fine silken shirt could fetch a nice price if it wasn't in such poor
-shape.  Frills of lace line the collar and cuffs.  The kind of shirt one would
-wear to a court or very fancy social gathering.
-~
-#151
-red vest~
-a fancy red vest~
-A red vest was left here.~
-~
-9 0 0 0 0 ak 0 0 0 0 0 0 0
-3 0 0 0
-3 100 0 0 0
-E
-red vest~
-   The vest is far more extravagant than anything you have ever worn before.
-Fancy designs run up and down it's length.  This would look very nice over a
-fancy shirt.
-~
-#152
-cane~
-a cane~
-An old worn cane lies here in the dust.~
-~
-12 0 0 0 0 ao 0 0 0 0 0 0 0
-0 0 0 0
-5 100 0 0 0
-E
-cane~
-   It looks to be carved from some type of hard wood.  Maybe oak or maple.
-Only traces of varnish can be seen on the wood that has been worn smooth from
-time and use.
-~
-A
-18 1
-#153
-touppe brown~
-a brown touppe~
-A brown mass of hair almost looks like a small animal, it must be someon's touppe.~
-~
-11 0 0 0 0 ae 0 0 0 0 0 0 0
-0 0 0 0
-3 90 0 0 0
-E
-touppe brown~
-   It looks more like a rat than anything else.  Some balding people wear these
-things to try and look younger.  The can sometimes fetch a good price at the
-local pawn if they are of high enough quality.  This one unfortunately, isn't.
-~
-A
-17 -3
 #154
 sewing machine fashion clothing~
 Sewing Machine~
@@ -577,101 +237,33 @@ talk:#adv object:thegame 0154/look
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 1000 0 10 0
-E
-sewing machine~
-It is made of both metal and wood, a large footpedal can be pumped to make
-the strange contraption lower and raise a needle through the cloth.  Very
-ingenious contraption.  It is the only one in the city and because of it Carla
-has a monopoly on clothing.
-~
 #155
-feather duster~
-a feather duster~
-A feather duster lies in the dirt.~
-~
+duster cleaning supplies~
+Duster~
+0155/avatar~
+talk:#adv object:thegame/0155/look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 4 50 0 0 0
-E
-duster feather~
-   Made from the feathers of a very large bird this duster is extremely clean
-considering the purpose it is supposed to serve.  Then again maybe it is just
-used to make the person holding it look busy.
-~
-A
-3 1
-#160
-kitchen timer~
-a kitchen timer~
-A kitchen timer has been abandoned here.~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-kitchen timer~
-   The face of the timer has the number one to ten on it with two hands.
-~
-#161
-offerings~
-some offerings~
-The remains of offerings.~
-~
-19 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-offerings~
-What remains of milk, honey, and rice offerings are here.
-~
 #162
 row boat~
-a row boat~
-A row boat has been left here.~
-~
+Row Boat~
+0162~
+talk:#adv object:thegame/0162/look~
 22 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 20 1000 0 0 0
-E
-row boat~
-A sturdy row boat with three seats and paddles bolted in the middle.
-~
-#163
-floatation device~
-a floatation device~
-A floatation device has been left here.~
-~
-22 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-3 400 0 0 0
-E
-floatation device~
-   You would have to be crazy to attemp to cross large bodies of water with the
-thing.
-~
-#164
-puppy treats veggie~
-Puppy Treats~
-A puppy treats are here.~
-~
-19 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 10 0 0 0
-E
-puppy treats~
-Puppies love these treats.
-~
 #165
 water cup water~
 Water Cup~
-A cup has been left here.~
-~
+0165/avatar~
+talk:#adv object:thegame/0165/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 3 3 0 0
 5 5 0 0 0
 #166
-cloth pants~
-Cloth Pants~
+cloth pants clothing~
+Pants~
 0166/avatar~
 talk:#adv object:thegame 0166/look~
 9 0 0 0 0 af 0 0 0 0 0 0 0
@@ -686,96 +278,31 @@ talk:#adv object:thegame 0167/look~
 1 0 0 0
 1 50 0 0 0
 #168
-tshirt shirt~
-White T-Shirt~
+shirt clothing~
+Shirt~
 0168/avatar~
 talk:#adv object:thegame 0168/look~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
 5 90 0 0 0
 #169
-flippies flipflops sandals~
-FlipFlop Sandals~
+flippies flipflops sandals clothing~
+Sandals~
 0169/avatar~
 talk:#adv object:thegame 0169/look~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 2 0 0 0
 1 60 0 0 0
 #170
-gardening gloves~
+gardening gloves clothing~
 Gardening Gloves~
 0170/avatar~
 talk:#adv object:thegame 0170/look~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 1 0 0 0
 5 65 0 0 0
-#171
-short staff gilded oak~
-a short gilded staff of oak~
-A short staff of oak gilded in silver looks well made.~
-~
-3 0 0 0 0 ao 0 0 0 0 0 0 0
-7 3 3 39
-1 400 0 0 0
-E
-short staff gilded oak~
-   The staff is too short for use by the average human.  It is well made from an
-extremely straight and unspoiled oak.  Silver gilding has been added in a spiral
-giving the staff extra strength and support.
-~
-#172
-rubber chicken~
-a rubber chicken~
-A yellow rubber chicken has been chewed half to death.~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-yellow rubber chicken~
-   This dog toy barely even resembles its namesake.  The long yellow body is
-elongated and several holes have been chewed into it.  Its feet and crown are a
-strange orange color.  I small plug is stuck where its butt should be and makes
-a squeaking noise when you squeeze it.
-~
-#173
-ten sided dice die~
-a ten sided die~
-A ten sided die is waiting to be rolled~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 20 0 0 0
-E
-ten sided dice die~
-The die has been carefully carved out of bone with black spots painted on each of its 10 sides accordingly. ROLL DIE
-~
-#174
-hairball~
-a nasty hairball~
-A hairball was left here from what must have been a very large cat.~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 5 0 0 0
-E
-hairball~
-The hairball is about the size of a childs fist and has a fetid odor of dead mice.
-~
-#175
-rope bell toll~
-a long rope~
-A long rope hangs down through the middle of the room.~
-~
-12 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 0 0
-E
-rope bell toll~
-The rope is suspended in the middle of the room and rises into the darkness of the ceiling above. It looks like it might be attached to a bell in the tower above.
-~
 #179
-water canteen water~
+water canteen drink drinks water~
 Water Canteen~
 0179/avatar~
 talk:#adv object:thegame 0133/look
@@ -792,399 +319,32 @@ talk:#adv object:thegame 0180/look
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 0
 1 1 0 0 0
-#185
-wanted poster~
-Wanted Poster~
-A Wanted Post of the Pink Princess Criminal Gang is here on the wall.~
-~
-16 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 0 0
-E
-january~
-      .    .:IIIIHIHHIHHHII::I:.
-       :IIIIHIHHHHHHMMHHIHHIIHHIII:.
-    ,.:HIHHHHHHHHHHHHHHHHHHHHHIHIHHII:.
-  .:IIHHHHHHHHMMMMMHHHHMMMHHMHHHIIIHIIII:
-  .IIHHHMMMMMMMHHMMMHHHMMMHHMHII:HHHII:I.
-  :HIHHHMHMMMMMMMMMMMMHMHHHHII:HHMMHII:II
- :HHHHMHMMMMMMMMMMMMMMMHIIHIHHMMHHHHII::I:
-:IIHHHHHMHMMMMMMMMMMHMMHIHMMMMHHHI:"::IIHII:
-:IHHHHHMHMMMMMMMMMMMMHHI:II::I:"' .   '"IHH.
-::HHHHMHMMMMMMMMMMHMHHI:II::.'  .       'VMA.
-IHHHHHMHNMMMMMMMMHMHHI:II:. . .          "MMH.
-HHHHHMHMMMMMMMMMMHMHI:I::.' .  . .      .,MMM:.
-HHHHMHMMMMMMMMMMMHMHI:II:. ..  .    ..LI:"IMMI.
-HMHMMMMMMMMMMMMMMHMHI:II.'.        :HT;.,, VHI:
-HHHHHMHMMMMMMMMMHMHHHI:HMHII:,.   ':,MHP"HPIHII.
-IHHHHMHMMMMMMMMMHMHHHII::IT:.I:.  'HMMH ,:" VII:
-:HHHHHHHMHMMMMMHMHHHHIIMMMPVHI::. .P"TIT"'  IH:I
-HHIHHHHHHMHMMMMHMHHHHH:VMMM:.HI:H:. :. . . .II:I.
-:HHHHHMHMMMMMHMHHHHIIHMMHHI:.:HI:. . .. .   :III;
-IHHHHMHMMMMMMMHHHHHI:IT:TI:..:HI:.. ..:. .  :IHII
- IHHMHMMMMMMMMMMMHHI:I::.:. ..:II::.. :I..  :HIIH.
- 'HHHMHMMMMMHMHHHH:II:.. ...:II:II./'::.  ' IHHIH;
-  HHMHMMMMMMMHMHHHH:I:I::....::VIHI;, ' . . IHHIHA
-  MHHMMMMMMMMMHMHHH:II:::...::II:::.;,,,:   AHHIHH;
-  ;HHMHMMMMMMMMHMHH-:II::..:::I::"",,:"''  .HHHIHHI.
-  'HHHMHMMMMMMMMHMHHA:II:.:H.::-"'""' ,'. .AMHHIHHH;
-   :HHMHMMMMMMMMMMHMHA:II::.::::-;,,:: .. :AMHI:IHHI
-   'HHMHMMMMMMMMMMHMHHA:III:::II:II::. . .AMMHI:IHHH.
-    :HHHMHMMMMMMMMMHMHHA:IIIHII:.:::. . .AMMMHI:IHHH:.
-    'HHMHMMMMMMMMMMMMHMHHHI:":VIII::...:AMMMMHHI:IHHHI
-     ;IHMHMMMMMMMMMMMMMHMHHII:. '"" 'AMMMMMMMHI:IIHHH:I.
-     :IMHMMMMMMMMMMMMMMHMHHHII:.  .:IHMMMMMMHHHIHIHHHI::.
-     ;HHHMHMMMMMMMMMMMMMMHMHHHI:..IHHMHMMHHHHHIHHHMHH;I:".'
-     ;HHHHHMHMMMMMNMMMMMMMHMHHHI::.HHHHMMHHHHHIHIHHHHHI:'
-     :HHHHHHHHMHMMMMMMMMMHHHMHHHI:IHHMHMMHHHHHMHIHHHHIHI;
-     ;HHHHHHHHMMHMMMMMHMHHMMHIHMI:IIHHHMHHHHMHMHIHIHHHHI:.
-     IHHHHHHHHHHMHMMMMMHMHHMMHHMMII:IHHMMHMHHHHMMHMHMHHHH;
-     ;HH:":IHHHHMHMMMMMHMHIHMHIIMMHI:IMHMMMI:HHHHHMMHHHHI:I.
-    ;HV" . .:IIHHHMMMMMMMHHHMMHIIHMHHI:HHHMHI:IHHIHHIHHMHI:II;.
-   ;IV"   . .''":VMMMMMMHMHHHMMHI:HHHHI:HHHIHI:IHHHHHIHHHIHII;,
-   .II"   .. .  ':VHHHMHMMMMMHMHHI:HMMHI:IHHHI::IHHHI:HIHHHI:I:.
-  .II . . .  . .  ':HHHHMHMMMHMMMHIHIMMMHI:HHHMI:IHHHIHI:HHHHII:I.
- .;V' . .. .  .    'IHMMMHHMHHHMMMHIHIHHHHI:IHHHI:IHHHHHIHHHHHIIHII:.
-.:I" .. . .    .   :IHMMMHHHMHHIHHHI:HHIHHHIHIHHHAIHHHHHHI:HHHIHII:.
-'..:  .  .       .  :IMMMHMHHIMHIIHHI:IHHI:IHHIHHHHIHIHHHHIHIHHHHIHI:.
-.: .. . . .      ..:IHMMMHMHMHMHHHHMHIHHI:.IVIIHHHIHHHHHHHHI:HIHHIHII:.
-.: .   . .        . :IHMMMHMIHIH:IIHHHIHH:.I:IIHHHIHHHHHHHHIHI:IHHHI:;.
-:: .:. .  .   .   ..:IHHMMMHMIHIH:IIHHHMHH::..:HHHHI:HHHHHHI:I:IIIHII;
-:. ... . .  .     ..::HHHMMHMHHII:HIIHHMMHH:..:HHHMHHIHHHI:: . :IHII:I
-~
-E
-february~
-   .            nHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHn.
-             .MS?MMMMMMMMMMMMMMMMMM?MM-MMMMMMMMMSHMMMMMMM
-             MMMMMH?MMMMMMMX*MM?MMX%MM/MMMMMM"HMMMMMMMMMMMM
-            MMMMMMMMMMMMMMMMMX*MX*MMMX?MMMMM(M!XMMMMMMMMMMMM
-           XMC)?MMMMMMMMMMMMMMMhX?!?MMMMX#MM!MXMMMMMMMMMMMML
-           MMMMMMMMMMMMMMMMMMMMMMMM!-`````-`-!?MMMM)MMMMMMMMx
-          MMM)MMMMMMMMMMMMMMMHhHH!-           `#MM(MMMMMMMMMM>
-         HM!HMMMMMMMMMMMMMMMM?)?                   "MMMMMMMMMX
-        XM!MMMMMMMMMMMMMMMMMMM?-                     'MMMMMMMM
-        M!MMMMMMMMMMMMMMMMMXH!                        MMMMXMMP
-       \!MMMMMMMSMHHHMM?XMM?-    -:::xx..             M?XMM?"
-       MXMMMMMMMMMM!XHMMMM":       ... `"%x          XHHHMMM
-      \!MMMMMMMM?XMMMMMMX!'-L     '%%%+:.  `       ..MMMMM"
-      'HMMMMMM?HMMMMM*XM!    h     -\).^\-     .%""`MM?"
-      'MMMMMMMMMMMMMXMMM!    -X               +%%!.MMMXk
-      ?MMMMMMMMMMMXMMMMM `.   -               `""'XMMMMX
-      !MMMMMMMMMMMMMMMMMX.    '                  XMkMMX>
-      XMMMMMMMMMMMMMMM?MXXXx.-`                  XXMMM!
-      MMMMMMMMMMMMMMMMXMXXXXXXx.         --      MMMMM
-      XMMMMMMMMMMMM?MMXXXXXXXXX!`         '+^  .MMM!P
-      'MMM!MMMMMMMMMi?M!"`        `-%HHHHxx.  xMMMM"
-      :MMMMMMMMMMMMMMM"               `\XMM .MMMMM
-      XMMMMMMMMMX?MM!                   `( HMMMMM
-     XMMMM)MMM"   \-                     'MMMMM*
-    'MMMMfMMM"  \-                        XMMM*
-   .MMMMMXMM"  ^                          `MMM
-   XMMMM!MM"                               MM>
-   HMMMMXM-                                MM>
-   ?MMMMM-                                 Xf%
-    MMMMf                                  %% \
-    4MMM                                    %
-      `M                                     %
-        %                                    %
-        %                                     %
-        %                 !                   %
-         %                 !                   %
-~
-E
-march~
-   .                      ,.--..
-                     ,::.'..  . . "VI:I:".':-.,.
-                    ,I::. ..   .   'VHMHII:.::;:.:,..
-                   :I:I:.. .   .    MHMHIHI:MHHI:I:'.:.
-                   A:I::. ...  .   .MMHHIIHIHI:IHHII:.:,
-                  .M:I::... ..   . AMMMMMHI::IHII::II.::.
-                  IMA"::.:.. .    .MMMMMHHII:IMHIHIA:::"'
-                  'MV.:.:.. .     AMMMMHMHI:I:HIHHIIIA;.
-                   P.:.:.. .  .  .MMMMMMMHHIIMHHHIIHIIH.
-                   :..:.. . .    AMMMMMMMHHI:AMIVHI:HIII:
-                  ,:.:.. .  .    MMMMMMMMMH:IHHI:HHI:HIIH.
-                  :..:...  .    .MMMHP:""''':HHIH:HHH:HIII
-                 ;.:..:.. .     AMH:". ' ' ''":HII:HHH:HII:
-                 ::..:.. . .   .H:'.. .     '".:VA:I:H::HI:
-                ;.:.:... ..    A:.'...     .   ':HA:IHI::I:
-               ,::..:. . .    .M::. .    .      ':HA:HH:II:.
-               ;.::... ..     AML;,'       .    .:VHI:HI:I:;
-              ,:.:.:. . .    .H. "PA,           .:IHH:HHII::.
-             ,:.::... ..     A:I:::";, .   .  ,ILIIIH:HI:I:I;
-            ,;:.:.:.. . .   .H:TP"VB')..   .,;T;,,::I:HI:I:::
-           ,::.:.:.. . .    AI:.":IAAT:.  .(':BB');V::IH:I:I;
-          ,::.:.:.. . .    .H:. ' . . ..  .":;AITP;I:IIH:I::;,
-         ,::.::.:. . . .   A::.   . ..:.  .  . ..:AI:IHII:I::;.
-         ;:.::.:.. .  .   AM:I:.   ..:.   .: . .::HIIIHIIHII::.
-        ,:::.:.:..  .    .MM:I:..  .:,    .:.  .::HHIIIHIHII::'
-       ,::.:..:.. .   .  AMM:I:.  . .'"-""''. ..::HIHI:HI:III:
-       ;:.::..:.. . .   AMMM::. . ,,,, '..   '.::IMHIHIHIIHI::;
-      ,:::.:..:. .   .  MMMM:I:.  ':::;;;::;' .::AMHIHIHHIHHI:"
-      ;::.:.:.. . .   .:VMMV:A:. .  ':;,,."  .::AMMMIHIHHIHHII
-     ;::.:.:.. ..  .  .::VM:IHA:. .''   ' . ..:AMMMMHIHHHIHHII:
-     ;:::.:.. .  .. . .::P::IHHAA.. .   .. .:AMMMMMMMIIHHIHHI::
-     ;::.:.. .  . .  ..:.:VIHHHIHHA::,,,,,:AMMMMMMMMMHIIHHHHII;
-     ;.::.. .    . .  ..:.:VHHIHI:IHIHHIHI:MMMMMMMMMMHIHHIHHII:
-     ::.:.. .     ..  ...:.::VHI:IIVIHIHII:MMMMMMMMMMMIHHIHHII:,
-     ;:..:. .    ..  . ..:.::::VAII:IIIIII:MMMMMMMMMMMIHHIIHIIHI
-     ';:.. .        . .. ..:...:.VII::III:.VMMMMMMMMMHIHHHIHI::I,
-      ;:. . .    ' . .. ... . .::.::V::II:..VMMMMMMMMHIHHHIHI::I;
-      ;:.. . .     . .. ..:..  .::...:VIITPL:VMMMMMMMVIHHHIH:. :;
-      ;:. .  .    . .. ... .   ..:.:.. .:IIIA:.MMMMMVI:HIHIH:. .:
-      I:. . .   . .. . .. . . . . ..:.. ..::IIA.VMMMVIHIIHIV:. .'
-      I:..    . . .. .... .  .   . .. ... .:.:IA:.VMVIMHIHIH:..:
-      I.. .  .  . ..... .       .  . .. . .. .:IIAV:HIMHHIHII:.'
-~
-E
-april~
-   .               :AMMMMMMMMMMMMA:
-              :AMMMMMMMMMHHHHHMMMMMMMMA:
-             :AMHMMMMHHMHIHHIMMMHMMMMHHA:
-            :AM'MMMMMMHHIHHHIMMMMMIMMHHHH:
-            AM:IMMMMMHHIHIHHHIMMHHHHHHHHHH
-           AMIIHMMMMMHIHHHIHHIHHHHHHHHHHHH:
-           MMIHHMMMMMHHIHHHIHHHHHHHHHHHHHHH
-          AMMMMMHHHHHHI;;;;;;;IHHHI;;IHHHHH
-          MMMMHIIII;":AMMMMA        ,[[, HH
-          MMMMHII;  AW"''''         ::   HH
-         IHHIHIII;:'' ,GFMF[       [MM[: IH
-         AHHIHII;::': ";[P,[  ;;   ::::  IH
-        IHHHIHII;;::         :[;:        ;H
-        AHHHHHII;;;:: :     : [  :       ;H
-        IHHIIHI:[;;;:: ;   ; ; ,  ,      IH
-        IHHIIHH:[;;;: ;   ;: ':"::" ';   IH
-        IHHIIHI:[;;: ::: ;    ,,,,    '  HH
-       :IHHHIHHMMA;:::    [;;""""""[;   AMI
-       ;IHHHHIIHMM;: : :   ;;[,,,,[;    HHI
-       IIHHMMHHIHHM;::       '"""'     AMHI
-       IIHHMMHMHHIIIM;::              AMMHI
-       IHHHMMHMHMHHHIHI;::          :AMMMHI
-       IHHHMMMMHMMHHHII;;;;::   :,;; MMMHHI
-       IHHHMMHHHHMMHHHI;:";;;;;;"    MMMIH'
-       ;IHHMMHMMMMHF"HHII            MMMHH
-        IHHMMHV;;::    HHII;:      : MMHHI
-        IHHMV;;:::      HHII;:   : : MMHI;
-        IHMV;;:: :       "HII;:   :: MMI;
-       :IHV;::  :          'HI:   :: MM;
-       IV;:: :   :          "II;:    ;
-      IH;;:::  :              ;;;I:   ;
-     ;M;;:::: :                ';;;HI:  '
-     MH;;::::           :        ';;HI:  ;
-    IM;;;::: :         :[;         ';I"I: ;
-    M;;;::: :   :      [;;,:          '  : '
-    ;;::::    :       ::''                : ':
-   ;;:::   :         :                     ': :
-  :;;::  :          ::                       ':'
-~
-E
-may~
-   .                      8888  8888888
-                   888888888888888888888888
-                8888:::8888888888888888888888888
-              8888::::::8888888888888888888888888888
-             88::::::::888:::8888888888888888888888888
-           88888888::::8:::::::::::88888888888888888888
-         888 8::888888::::::::::::::::::88888888888   888
-            88::::88888888::::m::::::::::88888888888    8
-          888888888888888888:M:::::::::::8888888888888
-         88888888888888888888::::::::::::M88888888888888
-         8888888888888888888888:::::::::M8888888888888888
-          8888888888888888888888:::::::M888888888888888888
-         8888888888888888::88888::::::M88888888888888888888
-       88888888888888888:::88888:::::M888888888888888   8888
-      88888888888888888:::88888::::M::;o*M*o;888888888    88
-     88888888888888888:::8888:::::M:::::::::::88888888    8
-    88888888888888888::::88::::::M:;:::::::::::888888888
-   8888888888888888888:::8::::::M::aAa::::::::M8888888888       8
-   88   8888888888::88::::8::::M:::::::::::::888888888888888 8888
-  88  88888888888:::8:::::::::M::::::::::;::88:88888888888888888
-  8  8888888888888:::::::::::M::"@@@@@@ "::::8w8888888888888888
-   88888888888:888::::::::::M:::::"    ":::::M8i888888888888888
-  8888888888::::88:::::::::M88:::::::::::::M88z88888888888888888
- 8888888888:::::8:::::::::M88888:::::::::MM888!888888888888888888
- 888888888:::::8:::::::::M8888888MAmmmAMVMM888*88888888   88888888
- 888888 M:::::::::::::::M888888888:::::::MM88888888888888   8888888
- 8888   M::::::::::::::M88888888888::::::MM888888888888888    88888
-  888   M:::::::::::::M8888888888888M:::::mM888888888888888    8888
-   888  M::::::::::::M8888:888888888888::::m::Mm88888 888888   8888
-    88  M::::::::::::8888:88888888888888888::::::Mm8   88888   888
-    88  M::::::::::8888M::88888::888888888888:::::::Mm88888    88
-    8   MM::::::::8888M:::8888:::::888888888888::::::::Mm8     4
-        8M:::::::8888M:::::888:::::::88:::8888888::::::::Mm    2
-       88MM:::::8888M:::::::88::::::::8:::::888888:::M:::::M
-~
 #186
-scroll poem irish~
-an irish poem~
-A scroll is rolled up here.~
-~
+scroll poem vedic~
+Vedic Poem~
+0186/avatar~
+talk:#adv object:thegame 0186/look~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
 E
-scroll poem irish~
-   May there always be work for your hands to do;
-   May your purse always hold a coin or two;
-   May the sun always shine on your windowpane;
-   May a rainbow be certain to follow each rain;
-   May the hand of a friend always be near you;
-   ...
+poem~
+...
 ~
 #187
-mushrooms~
-some mushrooms~
-A clump of mushrooms is growing here.~
+mushrooms food~
+Wild Mushrooms~
+0187/avatar~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 1 0 0 0
-E
-mushrooms~
-   The mushrooms appear not to be poisonous and are relatively clean. They look
-edible.
-~
-#188
-iron bound wooden chest~
-an iron bound chest~
-A large wooden chest with bands of iron circling it is closed with its lock hanging open.~
-~
-15 0 0 0 0 0 0 0 0 0 0 0 0
-50 5 -1 0
-0 0 0 0 0
-T 209
-E
-iron bound wooden chest~
-The chest is in excellent condition.  Made from a fine grain of wood it is stained and polished to a shine.  Bands of iron to wrap around the chest.  But, the lock hangs open.
-~
-#189
-staff gnarled~
-a gnarled staff~
-A gnarled wooden staff beacons you.~
-~
-5 0 0 0 0 ano 0 0 0 0 0 0 0
-0 0 0 0
-1 10 0 0 0
-E
-gnarled wooden staff~
-   The staff appears to have been twisted into a strange spiral up along its
-surface.  The top has three claws meant to hold something.  It is conspicuosly
-empty.
-~
-#190
-scroll deep green remove curse~
-a scroll of remove curse~
-A deep green scroll has been left here.~
-~
-2 a 0 0 0 a 0 0 0 0 0 0 0
-1 35 -1 -1
-2 1000 0 0 0
-E
-scroll deep green~
-   A scroll that will remove a curse from an object or person.
-~
-#191
-orb topping~
-an orb meant to top a staff~
-An orb meant to top a staff must have fallen out here.~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-orb staff topping~
-   The orb is about the size of a small fist.  It appears to have been meant to
-be placed on the end of a staff.
-~
-#192
-broken staff~
-a broken staff~
-A broken and useless staff has been discarded here.~
-~
-12 0 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-broken staff~
-   It appears to have once been a very nice staff that someone ruined by putting
-it together wrong.  Someone must have not been able to "join" it properly.
-~
-#193
-water trickle stream liquid~
-a thin stream of water~
-A small trickle of water flows from the shop to the north to a drain to the south.~
-~
-23 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 13 0
-0 0 0 0 0
-E
-trickle stream thin liquid water~
- The liquid is mixed with dirt and a few other unknown substances.
-~
 #194
 closet~
-a closet~
-A closet is built into the south wall of the room.~
-~
+Closet~
+0194/avatar~
+talk:#adv object:thegame 0195/look~
 15 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-E
-closet~
-   The closet door is made of faded wood and it has rusty hinges.
-~
-#195
-rotten mistletoe~
-some rotten mistletoe~
-This mistletoe reeks of mold and decay.~
-~
-19 0 0 0 0 a 0 0 0 0 0 0 0
-1 0 0 1
-1 1 0 0 0
-#196
-mistletoe plant~
-some mistletoe~
-A soft woody plant with green leaves and white berries is hanging over your head.~
-~
-19 0 0 0 0 ao 0 0 0 0 0 0 0
-1 0 0 0
-1 1 0 0 0
-E
-plant mistletoe~
-   The tradition of kissing under the mistletoe originated from the Druids who
-considered the mistletoe sacred.  They believed that it held magical virtue and
-was a remedy for evil.  The priests would cut pieces of the oak tree on which
-the mistletoe grew and offer them.  Twigs with berries were hung above doors to
-indicate that past grievance and hatreds were forgiven and it was used in
-amulets, bracelets and rings to ward off evil and protect against witchcraft and
-poisoning.  Mistletoe symbolizes peace and love.
-~
-#197
-kickme sign~
-a "kick me" sign~
-A sign with "kick me" written in bold black letters is laying on the ground.~
-~
-12 0 0 0 0 ak 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
-E
-kickme sign~
-   The sign seems to suggest that someone should kick whoever is wearing it.  A
-piece of tape is affixed to the top of the small piece of paper and looks
-perfect to place on someone's back.
-~
-#198
-pair lungs scuba underwater~
-a pair of lungs~
-A pair of strange looking lungs have been left here.~
-~
-12 0 0 0 0 ac 0 0 0 s 0 0 0
-0 0 0 0
-1 10 0 0 0
-E
-pair lungs scuba underwater~
-   This contraption seems to be made from a set of lungs pulled out of some very
-large fish.  A hose and mouthpiece has been attached so it can be hung around
-the neck.
-~
 $~
