@@ -637,7 +637,7 @@ static void shopping_buy(char *arg, struct char_data *ch, struct char_data *keep
 
   do_tell(keeper, tempbuf, cmd_tell, 0);
 
-  send_to_char(ch, "You now have %s.\r\n", tempstr);
+  send_to_char(ch, "\nYou now have %s.\r", tempstr);
 
 }
 

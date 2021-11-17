@@ -8,12 +8,17 @@ M 0 102 1 281 	(Liam)
 M 0 142 1 271 	(GreenDEVA)
 
 M 0 106 1 234 	(Captain Lugdach)
-M 0 109 1 225 	(Hazel, the wellmaster)
-M 0 110 1 222 	(Corwin, the postmaster)
+
+M 0 109 1 225 	(Warry, the wellmaster)
+G 1 165 100 -1  (Cup of Water)
+G 1 179 100 -1  (Canteen of Watr)
+
+M 0 110 1 222 	(Varry, the postmaster)
+
 M 0 111 1 277 	(the jeweler)
 M 0 119 1 224 	(Mr. Dewity)
 M 0 126 1 242 	(The Spy)
-M 0 130 1 264 	  (Brenda Laurel)
+M 0 130 1 264 	(Brenda Laurel)
 M 0 136 1 297 	(GreenDEVA PRIME)
 M 0 135 1 252 	(BlueDEVA PRIME)
 M 0 149 1 243 	(the sergeant)
@@ -60,7 +65,6 @@ O 0 300 1 224 	(atm)
 
 O 0 251 1 251 	(a marble fountain)
 O 0 133 10 251  	(Backpack)
-O 0 179 10 251  	(Canteen)
 
 R 0 259 92 -1 	(security board e gate)
 O 1 92 99 259 	(security board e gate)
