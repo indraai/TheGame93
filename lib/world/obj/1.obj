@@ -32,41 +32,37 @@ A glass of Passion Fruit Iced-Tea is here.~
 10 5 0 0 0
 #105
 green robe~
-a green robe~
-A green robe of the magi lies here.~
-~
+Green Robe~
+0105/avatar~
+talk:#adv object:thegame 0105/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 1 500 0 0 0
 E
-green robe magi~
-   This beautiful flowing robe is the prized possesion of the magi.  It is
-strange to find it here.
-~
+robe~
+talk:#adv object:thegame/robe~
 #106
 red robe~
-a red robe~
-A beautiful red magi robe~
-~
+Red Robe~
+0106/avatar~
+talk:#adv object:thegame/0106/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 3 0 0 0
 3 500 0 0 0
 E
-red robe~
-   The robe of the order of the red magi.  Very well made.
-~
+robe~
+talk:#adv object:thegame 0106/robe~
 #107
 blue robe~
-a blue robe~
-A blue robe sits here.~
-~
+Blue Robe~
+0107/avatar~
+talk:#adv object:thegame 0107/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 5 500 0 0 0
 E
-blue robe~
-   The robe of the order of the blue magi.  Very well made.
-~
+robe~
+tak:#adv object:thegame 0107/robe~
 #108
 round fishing hat~
 a fishing hat~
@@ -209,17 +205,15 @@ price of course
 ~
 #119
 yellow robe~
-a yellow robe~
-A yellow robe of the Magi was left here, how strange.~
-~
+Yellow Robe~
+0119/avatar~
+talk:#adve object:thegame 0119/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 3 0 0 0
 3 500 0 0 0
 E
-yellow robe~
-   An expertly woven silken cloth of very high quality, most magi would die
-before giving one of these up.
-~
+robe~
+talk:#adv object:thegmae 0119/robe~
 #120
 dagger~
 a dagger~
@@ -246,16 +240,15 @@ sword~
 ~
 #122
 gray robe~
-a gray robe~
-An exquisite gray robe is rumpled in a corner.~
-~
+Gray Robe~
+0122/avatar~
+talk:#adv object:thegame 0122/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 3 500 0 0 0
 E
-gray robe~
-   This simple robe is the type used by Magi of the gray order.
-~
+robe~
+talk:#adv object:thegame 0122/look~
 #123
 club wooden~
 a wooden club~
@@ -295,17 +288,15 @@ flail~
 ~
 #126
 purple robe~
-a purple robe~
-A magnificent purple robe was deserted here.~
-~
+Purple Robe~
+0126/avatar~
+talk:#adv object:thegame 0126/look~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
 5 500 0 0 0
 E
-purple robe~
-   Another impressive robe of the Magi.  This robe looks to be in very good
-shape.
-~
+robe~
+talk:#adv object:thegame 0126/robe~
 #127
 brass knuckles~
 some brass knuckles~
@@ -334,17 +325,15 @@ neatly.
 ~
 #129
 black robe~
-a black robe~
-A black robe of the Magi hangs on a small coatrack.~
-~
+Black Robe~
+0129/avatar~
+talk:#adv object:thegame 0129/look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 1 500 0 0 0
 E
-black magi robe~
-   This robe is very hard to focus on.  When you stare at it your eyes seem to
-slide right off the black velvety material.
-~
+robe~
+talk:#adv object:thegame 0129/look~
 #130
 torch~
 a torch~
