@@ -270,8 +270,8 @@ talk:#adv object:thegame 0166/look~
 2 0 0 0
 5 75 0 0 0
 #167
-sunshine hat~
-Sunshine Hat~
+hat clothing~
+Hat~
 0167/avatar~
 talk:#adv object:thegame 0167/look~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
@@ -286,16 +286,16 @@ talk:#adv object:thegame 0168/look~
 2 0 0 0
 5 90 0 0 0
 #169
-flippies flipflops sandals clothing~
-Sandals~
+shoes clothing~
+Shoes~
 0169/avatar~
 talk:#adv object:thegame 0169/look~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 2 0 0 0
 1 60 0 0 0
 #170
-gardening gloves clothing~
-Gardening Gloves~
+gloves clothing~
+Gloves~
 0170/avatar~
 talk:#adv object:thegame 0170/look~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
