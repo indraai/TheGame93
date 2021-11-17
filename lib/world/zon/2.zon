@@ -25,7 +25,10 @@ E 1 136 99 17 	(a broom)
 G 1 149 99 -1 	(a dustpan)
 
 M 0 166 1 283 	(the lance corporal)
+
 M 0 187 1 280 	(the baker)
+G 1 218 100 -1  (jalapeno cheese bread)
+
 M 0 189 1 230 	(the commander)
 M 0 196 1 221 	(Marry)
 M 0 199 1 278 	(The Butcher)
@@ -58,9 +61,6 @@ O 0 179 10 251  	(Canteen)
 O 0 180 25 278  	(Candy Dirt)
 O 0 180 25 278  	(Candy Dirt)
 O 0 180 25 278  	(Candy Dirt)
-O 0 218 25 280  	(jalapeno cheese bread)
-O 0 218 25 280  	(jalapeno cheese bread)
-O 0 218 25 280  	(jalapeno cheese bread)
 
 R 0 259 92 -1 	(security board e gate)
 O 1 92 99 259 	(security board e gate)
