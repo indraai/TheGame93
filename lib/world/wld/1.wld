@@ -878,7 +878,7 @@ D3
 0 0 157
 S
 #159
-indra.city/n~
+indra.house~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -1215,7 +1215,7 @@ D2
 0 0 198
 S
 #184
-9 INDU Way~
+indra.city/nw~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -1232,9 +1232,9 @@ D2
 0 0 199
 S
 #185
-INDU Alley~
+indra.city/nw~
 empty room.~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -1245,9 +1245,9 @@ D3
 0 0 184
 S
 #186
-INDU Alley~
+indra.city/nw~
 empty room.~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -1271,9 +1271,9 @@ D3
 0 0 186
 S
 #188
-INDU Alley~
+indra.city/nw~
 empty room.~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -1305,9 +1305,9 @@ D3
 0 0 188
 S
 #190
-ARJIKA Alley~
+indra.city/ne~
 undefined~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -1318,17 +1318,13 @@ D3
 0 0 189
 S
 #191
-ARJIKA Alley~
+indra.city/ne~
 undefined~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
 0 0 192
-D2
-~
-~
-0 0 3
 D3
 ~
 ~
@@ -1337,22 +1333,18 @@ S
 #192
 ARJIKA ALLEY~
 Empty Room.~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
 0 0 193
-D2
-~
-~
-0 0 8
 D3
 ~
 ~
 0 0 191
 S
 #193
-ARJIKA ALLEY~
+indra.city/ne~
 Empty Room.~
 1 0 0 0 0 1
 D1
@@ -1365,7 +1357,7 @@ D3
 0 0 192
 S
 #194
-9 ARJIKA Way~
+indra.city/ne~
 undefined~
 1 16 0 0 0 1
 D0
@@ -1430,7 +1422,7 @@ D2
 0 0 205
 S
 #199
-8 INDU Way~
+indra.city/nw~
 Empty room.~
 1 16 0 0 0 1
 D0

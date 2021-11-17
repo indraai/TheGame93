@@ -16,7 +16,7 @@ D2
 0 0 210
 S
 #201
-8 ARJIKA Way~
+indra.city/ne~
 undefined~
 2 16 0 0 0 1
 D0
@@ -85,7 +85,7 @@ D3
 0 0 204
 S
 #206
-7 INDU Way~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -221,7 +221,7 @@ D4
 0 0 112
 S
 #214
-7 ARJIKA Way~
+indra.city/ne~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -232,10 +232,6 @@ D2
 ~
 ~
 0 0 227
-D3
-~
-~
-0 0 8
 S
 #215
 ARJIKA CYBER4~
@@ -294,7 +290,7 @@ D3
 0 0 217
 S
 #219
-2 INDU Way~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -382,7 +378,7 @@ D4
 0 0 326
 S
 #227
-2 ARJIKA Way~
+indra.city/ne~
 undefined~
 2 16 0 0 0 1
 D0
@@ -393,10 +389,6 @@ D2
 ~
 ~
 0 0 240
-D3
-~
-~
-0 0 13
 S
 #228
 ARJIKA Library~
@@ -455,7 +447,7 @@ D3
 0 0 230
 S
 #232
-1 INDU Way~
+indra.city/nw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -555,7 +547,7 @@ D3
 0 0 238
 S
 #240
-1 ARJIKA Way~
+indra.city/ne~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -866,7 +858,7 @@ D3
 0 0 260
 S
 #262
-1 SARYA Way~
+indra.city/sw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -966,7 +958,7 @@ D3
 0 0 268
 S
 #270
-1 S SOMA Way~
+indra.city/se~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1035,7 +1027,7 @@ D3
 0 0 273
 S
 #275
-2 SARYA Way~
+indra.city/sw~
 Empty room.~
 2 16 0 0 0 1
 D0
@@ -1139,7 +1131,7 @@ D3
 0 0 281
 S
 #283
-2 S SOMA Way~
+indra.city/se~
 undefined~
 2 16 0 0 0 1
 D0
@@ -1150,10 +1142,6 @@ D2
 ~
 ~
 0 0 296
-D3
-~
-~
-0 0 25
 S
 #284
 SOMA Library~
@@ -1340,7 +1328,7 @@ D4
 0 0 122
 S
 #296
-7 S SOMA Way~
+indra.city/se~
 undefined~
 2 16 0 0 0 1
 D0
