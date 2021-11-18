@@ -197,11 +197,7 @@ D0
 D1
 ~
 ~
-0 0 227
-D3
-~
-~
-0 0 212
+0 0 240
 S
 #14
 Indra Academy~
@@ -381,21 +377,13 @@ D2
 0 0 23
 S
 #25
-Christic Institute~
+UNUSED... CHRISTIC~
 undefined~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 283
+0 24 0 0 0 0
 D2
 ~
 ~
 0 0 24
-D3
-~
-~
-0 0 282
 S
 #26
 SecurityPRIME Class~
@@ -521,12 +509,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
