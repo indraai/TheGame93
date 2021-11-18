@@ -614,6 +614,10 @@ S
 indra.agency/n~
 empty room.~
 1 16 0 0 0 1
+D0
+~
+~
+0 0 1000
 D2
 ~
 ~
@@ -784,6 +788,14 @@ S
 indra.agency/lookout~
 empty room.~
 1 24 0 0 0 0
+D1
+~
+~
+0 0 164
+D2
+~
+~
+0 0 338
 D5
 ~
 ~
@@ -978,6 +990,14 @@ S
 indra.agency/lookout~
 Empty room.~
 1 24 0 0 0 0
+D2
+~
+~
+0 0 348
+D3
+~
+~
+0 0 154
 D5
 ~
 ~

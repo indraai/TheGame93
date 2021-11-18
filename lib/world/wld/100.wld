@@ -1,0 +1,297 @@
+#1000
+Underground Kingdom~
+You are in an unfinished room.~
+100 24 0 0 0 0
+D0
+~
+~
+0 0 1001
+D2
+~
+~
+0 0 140
+E
+theory~
+talk:#adv world:thegame 1000/theory
+~
+S
+#1001
+Toan Glacier~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 1002
+S
+#1002
+Glacier Edge~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 1005
+D5
+~
+~
+0 0 1003
+S
+#1003
+Down the Crevasse~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D5
+~
+~
+0 0 1006
+S
+#1005
+Cavern Floor~
+You are in an unfinished room.~
+100 264 0 0 0 5
+D3
+~
+~
+0 0 1006
+S
+#1006
+The Great Bird~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D2
+~
+~
+0 0 1010
+S
+#1007
+Dive to the ground...~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 1008
+S
+#1008
+Gliding through the canyons...~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 1009
+S
+#1009
+Explore the kingdom...~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 1010
+S
+#1010
+The landscape...~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D1
+~
+~
+0 0 1011
+S
+#1011
+Face the creatures...~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 1016
+S
+#1012
+Inside the village...~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D0
+~
+~
+0 0 1013
+D2
+~
+~
+0 0 1017
+S
+#1013
+Follow the Raka...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1014
+D3
+~
+~
+0 0 1015
+S
+#1014
+Don't fight...~
+You are in an unfinished room.~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 1013
+S
+#1015
+Fight~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1014
+D3
+~
+~
+0 0 1016
+S
+#1016
+Dive overboard...~
+You are in an unfinished room.~
+100 0 0 0 0 6
+D2
+~
+~
+0 0 1019
+S
+#1017
+Not Follow...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
+#1019
+Explore Underground Kingdom~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1040
+S
+#1022
+Go Home...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
+#1039
+The inhabitants...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 1042
+S
+#1040
+The Landscape...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 1039
+S
+#1042
+Face the creatures...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1044
+S
+#1044
+Inside the agon~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 1050
+S
+#1046
+Hide from creatures...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
+#1050
+Refuse to follow...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1053
+S
+#1053
+Catch your breath...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 1058
+S
+#1057
+Take the boat...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
+#1058
+Bluff the guards...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 1066
+S
+#1066
+Continue to shore...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1067
+S
+#1067
+Warm hugs...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1068
+S
+#1068
+What can we do?~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 1070
+S
+#1070
+The Grand Akpar~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
+$~
