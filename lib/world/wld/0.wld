@@ -300,14 +300,6 @@ talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
-D1
-~
-~
-0 0 296
-D2
-~
-~
-0 0 316
 D3
 ~
 ~
@@ -339,10 +331,6 @@ D2
 ~
 ~
 0 0 21
-D3
-~
-~
-0 0 295
 S
 #23
 Hackers of Planet Earth~
@@ -509,12 +497,12 @@ talk:#adventure view:thegame:world 0002/look
 ~
 0 0 2
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~

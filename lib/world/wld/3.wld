@@ -121,11 +121,15 @@ D1
 D2
 ~
 ~
-0 0 338
+0 0 351
 D3
 ~
 ~
-0 0 -1
+0 0 337
+D4
+~
+~
+0 0 338
 S
 #309
 indra.city/sw~
@@ -230,10 +234,6 @@ S
 indra.city/se~
 empty.~
 3 16 0 0 0 1
-D0
-~
-~
-0 0 20
 D1
 ~
 ~
@@ -264,14 +264,22 @@ D0
 ~
 ~
 0 0 303
+D1
+~
+~
+0 0 349
 D2
 ~
 ~
-0 0 348
+0 0 361
 D3
 ~
 ~
 0 0 317
+D4
+~
+~
+0 0 348
 S
 #319
 SOMA CYBER2~
@@ -527,28 +535,20 @@ Empty room.~
 D1
 ~
 ~
-1 0 338
+0 0 308
 D3
 ~
 ~
 0 0 336
 S
 #338
-11 SARYA Way~
+indra.agency/lookout~
 Empty room.~
-3 16 0 0 0 1
-D0
+3 24 0 0 0 0
+D5
 ~
 ~
 0 0 308
-D1
-~
-~
-0 0 351
-D3
-~
-~
-1 0 337
 S
 #339
 0x Throne~
@@ -708,21 +708,13 @@ D3
 0 0 346
 S
 #348
-11 S SOMA Way~
+indra.agency/lookout~
 Empty room.~
-3 16 0 0 0 1
-D0
+3 24 0 0 0 0
+D5
 ~
 ~
 0 0 318
-D1
-~
-~
-1 0 349
-D3
-~
-~
-0 0 361
 S
 #349
 SOMA Entrance~
@@ -735,7 +727,7 @@ D1
 D3
 ~
 ~
-1 0 348
+0 0 318
 S
 #350
 SOMA Recruiting~
@@ -751,13 +743,13 @@ D3
 0 0 349
 S
 #351
-SARYA Medical~
+indra.care/sw~
 Empty room.~
-3 24 0 0 0 0
-D3
+3 568 0 0 0 0
+D0
 ~
 ~
-0 0 338
+0 0 308
 S
 #352
 indra.fun/arcade~
@@ -896,10 +888,10 @@ S
 SOMA Medical~
 empty.~
 3 24 0 0 0 0
-D1
+D0
 ~
 ~
-0 0 348
+0 0 318
 S
 #362
 indra.agency/s~

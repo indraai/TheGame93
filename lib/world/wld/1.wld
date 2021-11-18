@@ -624,13 +624,13 @@ D4
 0 0 106
 S
 #141
-INDU Medical~
+indra.care/nw~
 empty.~
-1 24 0 0 0 0
-D3
+1 568 0 0 0 0
+D2
 ~
 ~
-0 0 154
+0 0 184
 S
 #142
 5B4B Home~
@@ -746,13 +746,13 @@ D4
 0 0 109
 S
 #151
-ARJIKA Medical~
+indra.care/ne~
 Empty room.~
-1 24 0 0 0 0
-D1
+1 568 0 0 0 0
+D2
 ~
 ~
-0 0 164
+0 0 194
 S
 #152
 INDU Recruiting~
@@ -774,28 +774,20 @@ empty room.~
 D1
 ~
 ~
-1 0 154
+0 0 184
 D3
 ~
 ~
 0 0 152
 S
 #154
-11 INDU Way~
+indra.agency/lookout~
 empty room.~
-1 16 0 0 0 1
-D1
-~
-~
-0 0 141
-D2
+1 24 0 0 0 0
+D5
 ~
 ~
 0 0 184
-D3
-~
-~
-1 0 153
 S
 #155
 4 W Hero Ave~
@@ -983,26 +975,18 @@ D3
 0 0 162
 S
 #164
-11 ARJIKA Way~
+indra.agency/lookout~
 Empty room.~
-1 16 0 0 0 1
-D1
-~
-~
-1 0 165
-D2
+1 24 0 0 0 0
+D5
 ~
 ~
 0 0 194
-D3
-~
-~
-0 0 151
 S
 #165
-ARJIKA Entrance~
+indra.farm/entrance~
 Empty room.~
-1 24 0 0 0 0
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -1010,7 +994,7 @@ D1
 D3
 ~
 ~
-1 0 164
+0 0 194
 S
 #166
 ARJIKA Recruiting~
@@ -1221,7 +1205,7 @@ empty room.~
 D0
 ~
 ~
-0 0 154
+0 0 141
 D1
 ~
 ~
@@ -1230,6 +1214,14 @@ D2
 ~
 ~
 0 0 199
+D3
+~
+~
+0 0 153
+D4
+~
+~
+0 0 154
 S
 #185
 indra.city/nw~
@@ -1363,7 +1355,11 @@ undefined~
 D0
 ~
 ~
-0 0 164
+0 0 151
+D1
+~
+~
+0 0 165
 D2
 ~
 ~
@@ -1372,6 +1368,10 @@ D3
 ~
 ~
 0 0 193
+D4
+~
+~
+0 0 164
 S
 #195
 ARJIKA CYBER2~
