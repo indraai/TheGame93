@@ -4,8 +4,10 @@ Arjika Academy~
 0 99 30 0 d 0 0 0 -1 -1
 M 0 0 1 31 	  (Vamraka Deva)
 
-M 0 1 1 32 	     (Indu Deva)
-M 0 165 3 32     (Indu Monk)
+M 0 1 1 32 	   (Indu Deva)
+M 0 165 3 32   (Indu Monk)
+M 0 198 1 32 	 (Indu Monk)
+
 
 M 0 2 1 33 	  (Indra Deva)
 M 0 3 1 34    (Soma Deva)
