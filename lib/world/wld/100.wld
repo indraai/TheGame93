@@ -28,10 +28,6 @@ S
 Glacier Edge~
 You are in an unfinished room.~
 100 0 0 0 0 5
-D0
-~
-~
-0 0 1005
 D5
 ~
 ~
@@ -56,10 +52,10 @@ D3
 0 0 1006
 S
 #1006
-The Great Bird~
+The Underground Stream~
 You are in an unfinished room.~
 100 0 0 0 0 4
-D2
+D0
 ~
 ~
 0 0 1010
@@ -92,16 +88,16 @@ D0
 0 0 1010
 S
 #1010
-The landscape...~
+The Great Bird~
 You are in an unfinished room.~
 100 0 0 0 0 4
-D1
+D0
 ~
 ~
 0 0 1011
 S
 #1011
-Face the creatures...~
+Dive to ground...~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
@@ -162,10 +158,10 @@ D3
 0 0 1016
 S
 #1016
-Dive overboard...~
+Glide through canyons...~
 You are in an unfinished room.~
-100 0 0 0 0 6
-D2
+100 0 0 0 0 8
+D0
 ~
 ~
 0 0 1019
@@ -193,7 +189,7 @@ S
 The inhabitants...~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D2
+D0
 ~
 ~
 0 0 1042
@@ -208,7 +204,7 @@ D3
 0 0 1039
 S
 #1042
-Face the creatures...~
+Step forward...~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
@@ -220,7 +216,7 @@ S
 Inside the agon~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D0
+D2
 ~
 ~
 0 0 1050
@@ -243,7 +239,7 @@ S
 Catch your breath...~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D0
+D2
 ~
 ~
 0 0 1058
@@ -257,7 +253,7 @@ S
 Bluff the guards...~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D0
+D2
 ~
 ~
 0 0 1066
@@ -284,7 +280,7 @@ S
 What can we do?~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D2
+D0
 ~
 ~
 0 0 1070
@@ -293,5 +289,117 @@ S
 The Grand Akpar~
 You are in an unfinished room.~
 100 0 0 0 0 0
+D2
+~
+~
+0 0 1104
+S
+#1076
+Three tides pass...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1078
+S
+#1078
+Honored Guests~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 1081
+S
+#1081
+Explore the underground...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1083
+S
+#1083
+Fascinating Areas~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D2
+~
+~
+0 0 1088
+S
+#1088
+Hills of Diamonds~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1091
+S
+#1091
+The Diamonds...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 1094
+S
+#1094
+Continue on...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1095
+S
+#1095
+Willing to try?~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 1101
+S
+#1101
+Hold you breath...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1108
+S
+#1104
+Refuse to help...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 1105
+S
+#1105
+The Grand Akpar paces...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 1076
+S
+#1108
+You made it!~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D5
+~
+~
+0 0 251
 S
 $~
