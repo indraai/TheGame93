@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
@@ -99,13 +99,13 @@ D0
 0 0 1009
 S
 #1009
-Explore the kingdom...~
+Please hurry!~
 You are in an unfinished room.~
-100 0 0 0 0 4
-D0
+100 0 0 0 0 5
+D1
 ~
 ~
-0 0 1010
+0 0 1012
 S
 #1010
 The Great Bird~
@@ -130,22 +130,22 @@ D1
 0 0 1016
 S
 #1012
-Inside the village...~
+Along the ledge~
 You are in an unfinished room.~
-100 8 0 0 0 0
+100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1013
+0 0 1018
 D2
 ~
 ~
-0 0 1017
+0 0 1020
 S
 #1013
-Follow the Raka...~
+Warn Larsen and Sneed~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 5
 D1
 ~
 ~
@@ -191,6 +191,15 @@ Not Follow...~
 You are in an unfinished room.~
 100 0 0 0 0 0
 S
+#1018
+Try to make it~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1021
+S
 #1019
 Explore Underground Kingdom~
 You are in an unfinished room.~
@@ -200,10 +209,109 @@ D1
 ~
 0 0 1040
 S
+#1020
+Decide to wait~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D3
+~
+~
+0 0 1000
+S
+#1021
+No shelter~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 1032
+D2
+~
+~
+0 0 1025
+S
 #1022
 Go Home...~
 You are in an unfinished room.~
 100 0 0 0 0 0
+S
+#1024
+No chance of that~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D3
+~
+~
+0 0 1000
+S
+#1025
+Keep walking~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1026
+S
+#1026
+Passing months~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D0
+~
+~
+0 0 1028
+D2
+~
+~
+0 0 1030
+S
+#1028
+Go on the expedition~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 1029
+S
+#1029
+Three weeks later~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1075
+S
+#1030
+It's too dangerous~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 1024
+S
+#1032
+Huddle in parka~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D3
+~
+~
+0 0 1000
+S
+#1033
+Play it safe~
+You are in an unfinished room.~
+100 0 0 0 0 5
+S
+#1035
+Decide to risk it~
+You are in an unfinished room.~
+100 0 0 0 0 5
 S
 #1039
 The inhabitants...~
@@ -314,6 +422,15 @@ D2
 ~
 0 0 1104
 S
+#1075
+The Black Hole~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1077
+S
 #1076
 Three tides pass...~
 You are in an unfinished room.~
@@ -322,6 +439,19 @@ D1
 ~
 ~
 0 0 1078
+S
+#1077
+Shake their heads~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 1035
+D2
+~
+~
+0 0 1033
 S
 #1078
 Honored Guests~
