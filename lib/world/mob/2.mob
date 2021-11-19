@@ -142,10 +142,11 @@ Harry Services~
 0209/avatar~
 talk:#adv agent:thegame 0209/look
 ~
-74 0 0 0 0 0 0 0 0 E
+4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+6 6 6
+BareHandAttack: 4
 E
 #210
 larry services indra.services deva~
@@ -153,10 +154,11 @@ Larry Services~
 0210/avatar~
 talk:#adv agent:thegame 0210/look
 ~
-10 0 0 0 0 0 0 0 0 E
+4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+6 6 6
+BareHandAttack: 4
 E
 #211
 barry services indra.services deva~
@@ -164,10 +166,11 @@ Barry Services~
 0211/avatar~
 talk:#adv agent:thegame 0211/look
 ~
-10 0 0 0 0 0 0 0 0 E
+4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+6 6 6
+BareHandAttack: 4
 E
 #212
 pirate parrot~
@@ -273,10 +276,106 @@ Harry Solutions~
 0218/avatar~
 talk:#adv agent:thegame 0218/look
 ~
-10 0 0 0 0 0 0 0 0 E
+4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+6 6 6
+BareHandAttack: 4
 E
-T 218
+#219
+larry solutions indra.solutions deva~
+Larry Solutions~
+0219/avatar~
+talk:#adv agent:thegame 0219/look
+~
+4106 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+6 6 6
+BareHandAttack: 4
+E
+#220
+barry solution indra.solutions deva~
+Barry Solutions~
+0220/avatar~
+talk:#adv agent:thegame 0220/look
+~
+4106 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+6 6 6
+BareHandAttack: 4
+E
+#221
+harry support indra.support deva~
+Harry Support~
+0221/avatar~
+talk:#adv agent:thegame 0221/look
+~
+4106 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+6 6 6
+BareHandAttack: 4
+E
+#222
+larry support indra.support deva~
+Larry Support~
+0222/avatar~
+talk:#adv agent:thegame 0222/look
+~
+4106 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+6 6 6
+BareHandAttack: 4
+E
+#223
+barry support indra.support deva~
+Barry Support~
+0223/avatar~
+talk:#adv agent:thegame 0223/look
+~
+4106 0 0 0 0 0 0 0 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+6 6 6
+BareHandAttack: 4
+E
+#224
+harry systems indra.systems deva~
+Harry Systems~
+0224/avatar~
+talk:#adv agent:thegame 0224/look
+~
+4106 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+6 6 6
+BareHandAttack: 4
+E
+#225
+larry systems indra.systems deva~
+Larry Systems~
+0225/avatar~
+talk:#adv agent:thegame 0225/look
+~
+4106 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+6 6 6
+BareHandAttack: 4
+E
+#226
+barry systems indra.support deva~
+Barry Systems~
+0226/avatar~
+talk:#adv agent:thegame 0226/look
+~
+4106 0 0 0 0 0 0 0 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+6 6 6
+BareHandAttack: 4
+E
 $
