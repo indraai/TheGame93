@@ -640,7 +640,7 @@ void trigedit_save(struct descriptor_data *d)
   remove(buf);
   rename(fname, buf);
 
-  write_to_output(d, "Trigger saved to disk.\r\n");
+  write_to_output(d, "\nsave:Trigger saved to disk.\r\n");
   trigedit_create_index(zone, "trg");
 }
 
