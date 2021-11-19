@@ -607,7 +607,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
 	      OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
         return;
       } else {
-        write_to_output(d, "\nsave:The Agent was unchanged.\r");
+        write_to_output(d, "\nsave:Agent unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
         return;
       }
@@ -617,22 +617,22 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'b':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "\nSet the Agent keywords..."
-        "\ncurrent:%s",
+      write_to_output(d, "\nSet the Agent keywords...\r"
+        "\ncurrent:%s\r",
         GET_ALIAS(OLC_MOB(d))
       );
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_S_DESC;
       write_to_output(d, "\nAgent name\r"
-        "\ncurrent:%s",
+        "\ncurrent:%s\r",
         GET_SDESC(OLC_MOB(d))
       );
       return;
     case 'd':
       OLC_MODE(d) = MEDIT_L_DESC;
       write_to_output(d, "\nAgent Description\r"
-        "\ncurrent:%s",
+        "\ncurrent:%s\r",
         GET_LDESC(OLC_MOB(d))
       );
       return;

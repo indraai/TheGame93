@@ -428,7 +428,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
   /* Menu header */
   send_to_char(d->character,
     "\n# %s\r"
-	  "\n'number': %d\r"
+	  "\nvnum: %d\r"
     "\nzone: %d\r"
 	  "\nselect[1:builders]: %s\r"
 	  "\nselect[Z:zone name]: %s\r"
