@@ -1,1 +1,19 @@
-$
+#1000
+transmitter signal~
+Signal Transmitter~
+1000/avatar~
+talk:#adv object:thegame 1000/look
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+10 877 0 0 0
+#1001
+transmitter signal display~
+Transmitter Display~
+1001/avatar~
+talk:#adv object:thegame 1001/look
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+$~
