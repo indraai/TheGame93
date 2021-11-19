@@ -137,46 +137,37 @@ The Offering Deva assists people in making, preparing, and presenting their offe
 E
 T 222
 #209
-bob midget dwarf achondroplastic~
-Bob, the achondroplastic dwarf~
-Bob is bobbing and weaving his way past people who don't seem to notice him.
+harry services indra.services deva~
+Harry Services~
+0209/avatar~
+talk:#adv agent:thegame 0209/look
 ~
-   He is noticeably upset about the lack of attention the big people give him.
-He is desperately trying not to be trampled on or shoved out of the way.  His
-short stature puts him about waist level to most people.  Bob is an
-achondroplastic dwarf.  His torso is normal while his limbs are extremely short.
-~
-72 0 0 0 0 0 0 0 0 E
-7 18 5 1d1+70 1d2+1
-70 4900
-8 8 1
+74 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 6
 E
 #210
-questmaster shopkeeper~
-the quest shopkeeper~
-A shopkeeper with a variety of powerful quest items waits for a customer.
-~
-   Experienced adventurers often come to her since she carries the best
-equipment in the realm. But, the prices are steep and only the most experienced
-questors can afford to pay her.
-~
-253962 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2
-E
-#211
-phoenix~
-the phoenix~
-A phoenix looks up at you with intelligent eyes.
-~
-   This beautiful and magical bird is the source of many tales.  Most so
-outrageous they can't be true, or can they?
+larry services indra.services deva~
+Larry Services~
+0210/avatar~
+talk:#adv agent:thegame 0210/look
 ~
 10 0 0 0 0 0 0 0 0 E
-3 19 8 0d0+30 1d2+0
-0 900
-8 8 0
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 6
+E
+#211
+barry services indra.services deva~
+Barry Services~
+0211/avatar~
+talk:#adv agent:thegame 0211/look
+~
+10 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 6
 E
 T 203
 #212

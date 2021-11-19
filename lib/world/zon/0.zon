@@ -1,42 +1,31 @@
 #0
 Quinn~
-Arjika Academy~
-0 99 30 0 d 0 0 0 -1 -1
-M 0 0 1 31 	  (Vamraka Deva)
-
-M 0 1 1 32 	   (Indu Deva)
-M 0 165 3 32   (Indu Monk)
-M 0 198 1 32 	 (Indu Monk)
-
-
-M 0 2 1 33 	  (Indra Deva)
-M 0 3 1 34    (Soma Deva)
-M 0 4 1 35 	  (Bom Deva)
-
-M 0 5 1 96 	  (SecurityPRIME)
-
-M 0 6 1 97 	  (MedicPRIME)
-
-M 0 7 1 97 	  (Harry Deva)
-M 0 8 1 97 	  (Larry Deva)
-
-M 0 9 1 97 	  (Barry Deva)
+deva.world~
+0 99 30 2 d 0 0 0 -1 -1
+M 0 0 1 31 	(Vamraka)
+M 0 1 1 32 	(Indu)
+M 0 165 3 32 	(Indu Monk)
+M 0 198 1 32 	(the Monk)
+M 0 2 1 33 	(Indra)
+M 0 3 1 34 	(Soma)
+M 0 4 1 35 	(Bom)
+M 0 5 1 96 	(SecurityPRIME)
+M 0 6 1 97 	(MedicPRIME)
+M 0 7 1 97 	(Harry Deva)
+M 0 8 1 97 	(Larry Deva)
+M 0 9 1 97 	(Barry Deva)
 E 1 19 20 8 	(Barry Boots)
-
-M 0 143 1 95 	(SecurityDEVA D143 Patrol)
-M 0 143 2 95 	(SecurityDEVA D143 Patrol)
-M 0 143 3 96 	(SecurityDEVA D143 Patrol)
-M 0 143 4 96 	(SecurityDEVA D143 Patrol)
-
-M 0 173 2 95 	  (SecurityDEVA GUARD)
-M 0 174 2 95 	  (SecurityDEVA GUARD)
-M 0 173 2 96 	  (SecurityDEVA GUARD)
-M 0 174 2 96 	  (SecurityDEVA GUARD)
-
-R 0 95 92 -1 	  (security board)
-O 1 92 99 95  	(security board)
-R 0 96 92 -1 	  (security board)
-O 1 92 99 96 	  (security board)
-
+M 0 143 1 95 	(SecurityDEVA D143 (Patrol))
+M 0 143 2 95 	(SecurityDEVA D143 (Patrol))
+M 0 143 3 96 	(SecurityDEVA D143 (Patrol))
+M 0 143 4 96 	(SecurityDEVA D143 (Patrol))
+M 0 173 2 95 	(SecurityDEVA D173 (Agency))
+M 0 174 2 95 	(SecurityDEVA D174 (Agency))
+M 0 173 2 96 	(SecurityDEVA D173 (Agency))
+M 0 174 2 96 	(SecurityDEVA D174 (Agency))
+R 0 95 92 -1 	(Agency Board)
+O 1 92 99 95 	(Agency Board)
+R 0 96 92 -1 	(Agency Board)
+O 1 92 99 96 	(Agency Board)
 S
 $
