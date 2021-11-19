@@ -25,16 +25,20 @@ D0
 0 0 1002
 S
 #1002
-Glacier Edge~
+The glaciers edge...~
 You are in an unfinished room.~
 100 0 0 0 0 5
+D0
+~
+~
+0 0 1005
 D5
 ~
 ~
 0 0 1003
 S
 #1003
-Down the Crevasse~
+Down in the crevasse...~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D5
@@ -43,13 +47,17 @@ D5
 0 0 1006
 S
 #1005
-Cavern Floor~
+On the ledge...~
 You are in an unfinished room.~
 100 264 0 0 0 5
+D1
+~
+~
+0 0 1013
 D3
 ~
 ~
-0 0 1006
+0 0 1009
 S
 #1006
 The Underground Stream~
