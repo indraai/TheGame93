@@ -896,7 +896,7 @@ static void shopping_list(char *arg, struct char_data *ch, struct char_data *kee
 
   one_argument(arg, name);
 
-  len = strlcpy(buf,   "# Available Items\r\n", sizeof(buf));
+  len = strlcpy(buf,   "\n# Current Offerings\r", sizeof(buf));
   if (keeper->carrying)
     for (obj = keeper->carrying; obj; obj = obj->next_content)
       if (CAN_SEE_OBJ(ch, obj) && GET_OBJ_COST(obj) > 0) {
