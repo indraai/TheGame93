@@ -539,7 +539,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\n[insert command]:n\r"
+	  "\nmenu[insert command]:n\r"
 	  "\nmenu[edit command]:e\r"
 	  "\nmenu[delete command]:d\r"
 	  "\nmenu[quit]:q\r");
