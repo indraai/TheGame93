@@ -585,8 +585,8 @@ int drink_aff[][3] = {
   {0, 1, 5},    // green tea
   {0, 1, 5},    // black tea
   {0, 1, 5},    // herbal tea
-  {0, 2, -1}    // salt water
-  {0, 10, 10}   // indra cola
+  {0, 2, -1},    // salt water
+  {0, 10, 10},   // indra cola
   {10, 10, 10}  // soma
 };
 
