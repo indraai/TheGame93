@@ -410,7 +410,7 @@ static void oedit_disp_spells_menu(struct descriptor_data *d)
   clear_screen(d);
 
   for (counter = 1; counter <= NUM_SPELLS; counter++) {
-    write_to_output(d, "\nmenu[$s]:%d\r",
+    write_to_output(d, "\nmenu[%s]:%d\r",
       spell_info[counter].name,
       counter
     );
