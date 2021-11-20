@@ -526,14 +526,16 @@ const char *drinks[] =
 	"Passion Fruit Iced-Tea",  /* lemonade */
 	"Lemonaid",                /* firebreather */
 	"Limeaid",                 /* local speciality */
-	"Chocolate Milk",          /* slime mold juice */
 	"Milk",
+  "Chocolate Milk",          /* slime mold juice */
+  "Hot Chocolate",          /* slime mold juice */
 	"White Tea",               /* tea */
 	"Green Tea",               /* coffee */
 	"Black Tea",               /* blood */
+	"Herbal Tea",               /* blood */
 	"Salt Water",
-	"Pepsi",
-	"Coke"
+	"Indra Cola",
+	"SOMA",
   "\n"
 };
 
@@ -553,12 +555,13 @@ const char *drinknames[] =
 	"limeaid",
 	"milk",
 	"milk",
+	"milk",
 	"tea",
 	"tea",
 	"tea",
 	"salt",
 	"cola",
-	"cola"
+	"soma"
   "\n"
 };
 
@@ -566,23 +569,25 @@ const char *drinknames[] =
  * order. See values.doc for more information.
  * @pre Must be in the same order as the defines. */
 int drink_aff[][3] = {
-  {0, 1, 10},
-  {0, 2, 5},
-  {0, 2, 5},
-  {0, 2, 5},
-  {0, 2, 5},
-  {0, 2, 8},
-  {0, 2, 8},
-  {0, 2, 8},
-  {0, 2, 8},
-  {0, 3, 6},
-  {0, 3, 6},
-  {0, 1, 6},
-  {0, 1, 6},
-  {0, 1, 6},
-  {0, 1, 1},
-  {0, 2, 5},
-  {0, 2, 5}
+  {0, 1, 10},   // water
+  {0, 2, 5},    // orange juice
+  {0, 2, 5},    // apple juice
+  {0, 2, 5},    // grape juice
+  {0, 2, 5},    // mango juice
+  {0, 1, 4},    // tropical tea
+  {0, 1, 4},    // passion fruit tea
+  {0, 2, 6},    // lemonaid
+  {0, 2, 6},    // limeaid
+  {0, 3, 3},    // milk
+  {0, 3, 3},    // chocolate milk
+  {0, 3, 3},    // hot chocolate
+  {0, 1, 5},    // white tea
+  {0, 1, 5},    // green tea
+  {0, 1, 5},    // black tea
+  {0, 1, 5},    // herbal tea
+  {0, 2, -1}    // salt water
+  {0, 10, 10}   // indra cola
+  {10, 10, 10}  // soma
 };
 
 /** Describes the color of the various drinks.

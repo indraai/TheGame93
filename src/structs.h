@@ -490,16 +490,18 @@
 #define LIQ_PASSION    6   /** < Liquid type PASSIONFRUIT ICED TEA */
 #define LIQ_LEMONAID   7   /** < Liquid type LEMONAID */
 #define LIQ_LIMEAID    8   /** < Liquid type LIMEAID */
-#define LIQ_CHOCOLATE  9   /** < Liquid CHOCOLATE MILK */
-#define LIQ_MILK       10  /**< Liquid type MILK */
-#define LIQ_WHITETEA   11  /**< Liquid WHITE TEA */
-#define LIQ_GREENTEA   12  /**< Liquid GREEN TEA */
-#define LIQ_BLACKTEA   13  /**< Liquid type BLACK TEA */
-#define LIQ_SALTWATER  14  /**< Liquid type saltwater */
-#define LIQ_PEPSICOLA  15  /**< Liquid type PEPSI-COLA */
-#define LIQ_COCACOLA   16  /**< Liquid type COCA-COLA */
+#define LIQ_MILK       9  /**< Liquid type MILK */
+#define LIQ_CHOCOLATE  10   /** < Liquid CHOCOLATE MILK */
+#define LIQ_HOTCHOC    11   /** < Liquid CHOCOLATE MILK */
+#define LIQ_WHITETEA   12  /**< Liquid WHITE TEA */
+#define LIQ_GREENTEA   13  /**< Liquid GREEN TEA */
+#define LIQ_BLACKTEA   14  /**< Liquid type BLACK TEA */
+#define LIQ_HERBTEA    15  /**< Liquid type BLACK TEA */
+#define LIQ_SALTWATER  16  /**< Liquid type saltwater */
+#define LIQ_COLA       17  /**< Liquid type PEPSI-COLA */
+#define LIQ_SOMA       18  /**< Liquid type PEPSI-COLA */
 /** Total number of liquid types */
-#define NUM_LIQ_TYPES     17
+#define NUM_LIQ_TYPES  19
 
 /* other miscellaneous defines */
 /* Player conditions */
