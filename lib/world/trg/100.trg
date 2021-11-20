@@ -3,9 +3,9 @@ Gunnar Larsen Script~
 0 g 100
 ~
   wait 5s
-  ask sneed Well?
+  say Well?
   wait 2s
-  ask sneed Any Radar return?
+  say Any Radar return?
 ~
 #1001
 James Sneed Script~
@@ -16,7 +16,7 @@ James Sneed Script~
   say This is it, friends—the Bottomless Crevasse.
   wait 4s
   emote shakes head
-  tell gunnar None.
+  say None.
   *set time after 10s here
 ~
 $~
