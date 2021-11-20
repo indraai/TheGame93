@@ -316,10 +316,10 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-	  "\n## Extra Description\r"
-	  "\nselect[1:keywords]:%s\r"
-	  "\nselect[2:desc]:%s\r"
-	  "\nselect[3:next desc]:%s\r"
+	  "\n## Tags\r"
+	  "\nselect[a:tag]:%s\r"
+	  "\nselect[b:desc]:%s\r"
+	  "\nselect[c:next desc]:%s\r"
 	  "\nmenu[quit]:0\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
@@ -387,7 +387,7 @@ static void oedit_disp_apply_menu(struct descriptor_data *d)
 /* Weapon type. */
 static void oedit_disp_weapon_menu(struct descriptor_data *d)
 {
-  int counter, columns = 0;
+  int counter;
 
   get_char_colors(d->character);
   clear_screen(d);
@@ -404,7 +404,7 @@ static void oedit_disp_weapon_menu(struct descriptor_data *d)
 /* Spell type. */
 static void oedit_disp_spells_menu(struct descriptor_data *d)
 {
-  int counter, columns = 0;
+  int counter;
 
   get_char_colors(d->character);
   clear_screen(d);
@@ -1152,12 +1152,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       }
     break;
 
-    case 1:
+    case 'a':
       OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
       write_to_output(d, "\nPlease enter keywords, separated by spaces.\r");
       return;
 
-    case 2:
+    case 'b':
       OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "Pleae enter the extra description:\r\n");
@@ -1169,7 +1169,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
       return;
 
-    case 3:
+    case 'c':
       /* Only go to the next description if this one is finished. */
       if (OLC_DESC(d)->keyword && OLC_DESC(d)->description) {
 	struct extra_descr_data *new_extra;
