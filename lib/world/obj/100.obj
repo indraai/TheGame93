@@ -34,4 +34,22 @@ talk:#adv object:thegame 1020/look
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
+#1024
+0x_1024 token underground kingdom~
+0x_1024~
+1024/avatar~
+talk:#adv object:thegame 1024/look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1032
+0x_1032 token underground kingdom~
+0x_1032 Token~
+1032/avatar~
+talk:#adv object:thegame 1032/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 $~

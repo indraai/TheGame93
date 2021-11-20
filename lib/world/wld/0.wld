@@ -200,18 +200,21 @@ D1
 0 0 240
 S
 #14
-Indra Academy~
-talk:#adv world:thegame 0014/main
-~
-0 24 0 0 0 0
-D1
+AdventureLand~
+undefined~
+0 16 0 0 0 1
+D0
 ~
 ~
 0 0 15
-D3
+D1
 ~
 ~
-0 0 288
+0 0 98
+D2
+~
+~
+0 0 16
 S
 #15
 The Cobra Lounge~
@@ -475,15 +478,21 @@ D1
 0 0 223
 S
 #98
-Graduation~
-talk:#adventure view:thegame:world 0098/main
+AdventureLand~
+undefined~
+0 16 0 0 0 1
+D0
 ~
-0 24 0 0 0 0
+~
+0 0 1000
+D1
+~
+~
+0 0 243
 D3
-talk:#adventure view:thegame:world 0099/look
 ~
 ~
-0 0 99
+0 0 14
 S
 T 189
 #99
@@ -495,12 +504,12 @@ D2
 ~
 0 0 140
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
