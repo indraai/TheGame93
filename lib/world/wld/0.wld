@@ -487,22 +487,20 @@ talk:#adventure view:thegame:world 0099/look
 S
 T 189
 #99
-Celebration~
-talk:#adventure view:thegame:world 0099/main
-~
-0 24 0 0 0 0
-D3
-talk:#adventure view:thegame:world 0002/look
+Arjika Portal~
+undefined~
+0 16 0 0 0 2
+D2
 ~
 ~
-0 0 2
-E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
+0 0 140
 E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~

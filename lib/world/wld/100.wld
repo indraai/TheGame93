@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
@@ -114,6 +114,14 @@ You are in an unfinished room.~
 D0
 ~
 ~
+0 0 1008
+D1
+~
+~
+0 0 1014
+D2
+~
+~
 0 0 1011
 S
 #1011
@@ -146,14 +154,10 @@ S
 Warn Larsen and Sneed~
 You are in an unfinished room.~
 100 0 0 0 0 5
-D1
-~
-~
-0 0 1014
 D3
 ~
 ~
-0 0 1015
+0 0 1000
 S
 #1014
 Don't fight...~
@@ -185,6 +189,10 @@ D0
 ~
 ~
 0 0 1019
+D2
+~
+~
+0 0 1022
 S
 #1017
 Not Follow...~
@@ -307,20 +315,37 @@ S
 Play it safe~
 You are in an unfinished room.~
 100 0 0 0 0 5
+D3
+~
+~
+0 0 1000
 S
 #1035
 Decide to risk it~
 You are in an unfinished room.~
 100 0 0 0 0 5
 S
+#1036
+The Shining Mountains~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1092
+S
 #1039
-The inhabitants...~
+The Creatures~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
 0 0 1042
+D2
+~
+~
+0 0 1046
 S
 #1040
 The Landscape...~
@@ -332,7 +357,7 @@ D3
 0 0 1039
 S
 #1042
-Step forward...~
+Face the creatures~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
@@ -344,6 +369,10 @@ S
 Inside the agon~
 You are in an unfinished room.~
 100 0 0 0 0 0
+D0
+~
+~
+0 0 1048
 D2
 ~
 ~
@@ -351,6 +380,11 @@ D2
 S
 #1046
 Hide from creatures...~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
+#1048
+Refuse to follow~
 You are in an unfinished room.~
 100 0 0 0 0 0
 S
@@ -367,10 +401,14 @@ S
 Catch your breath...~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D2
+D1
 ~
 ~
 0 0 1058
+D3
+~
+~
+0 0 1057
 S
 #1057
 Take the boat...~
@@ -380,11 +418,20 @@ S
 #1058
 Bluff the guards...~
 You are in an unfinished room.~
-100 0 0 0 0 0
-D2
+100 0 0 0 0 6
+D0
 ~
 ~
 0 0 1066
+D2
+~
+~
+0 0 0
+S
+#1065
+Swim back across~
+You are in an unfinished room.~
+100 0 0 0 0 6
 S
 #1066
 Continue to shore...~
@@ -412,15 +459,37 @@ D0
 ~
 ~
 0 0 1070
+D2
+~
+~
+0 0 1100
+S
+#1069
+The Pioneers~
+You are in an unfinished room.~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 1000
 S
 #1070
-The Grand Akpar~
+Face the Akpar~
 You are in an unfinished room.~
 100 0 0 0 0 0
+D0
+~
+~
+0 0 1073
 D2
 ~
 ~
 0 0 1104
+S
+#1073
+Play along~
+You are in an unfinished room.~
+100 0 0 0 0 0
 S
 #1075
 The Black Hole~
@@ -461,24 +530,59 @@ D0
 ~
 ~
 0 0 1081
+D2
+~
+~
+0 0 1082
 S
 #1081
-Explore the underground...~
+Explore the Kingdom~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 1
 D1
 ~
 ~
 0 0 1083
 S
+#1082
+Return to surface~
+You are in an unfinished room.~
+100 0 0 0 0 0
+S
 #1083
 Fascinating Areas~
 You are in an unfinished room.~
 100 0 0 0 0 0
+D1
+~
+~
+0 0 1036
 D2
 ~
 ~
 0 0 1088
+D3
+~
+~
+0 0 1085
+S
+#1085
+The Weightless Peaks~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1087
+S
+#1087
+The Highest Peak~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1106
 S
 #1088
 Hills of Diamonds~
@@ -498,6 +602,15 @@ D0
 ~
 0 0 1094
 S
+#1092
+The Flying Clera~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 1098
+S
 #1094
 Continue on...~
 You are in an unfinished room.~
@@ -515,6 +628,25 @@ D0
 ~
 ~
 0 0 1101
+S
+#1097
+Turn back~
+You are in an unfinished room.~
+100 0 0 0 0 5
+S
+#1098
+The return~
+You are in an unfinished room.~
+100 0 0 0 0 2
+D1
+~
+~
+0 0 1069
+S
+#1100
+Escape the Akpar~
+You are in an unfinished room.~
+100 0 0 0 0 3
 S
 #1101
 Hold you breath...~
@@ -542,6 +674,15 @@ D3
 ~
 ~
 0 0 1076
+S
+#1106
+The Mountain Peak~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D4
+~
+~
+0 0 99
 S
 #1108
 You made it!~

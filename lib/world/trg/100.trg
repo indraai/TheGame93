@@ -1,12 +1,8 @@
 #1000
 Gunnar Larsen Script~
-0 g 100
+0 c 100
 ~
-wait 5s
-say Well?
-wait 3s
-say Any radar return?
-*set time after 10s here
+  %echo% ... %cmd%
 ~
 #1001
 James Sneed Script~
