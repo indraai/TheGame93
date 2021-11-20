@@ -1,8 +1,12 @@
 #1000
 Gunnar Larsen Script~
-0 c 100
-~
-  %echo% ... %cmd%
+0 d 3
+*~
+  if %cmd%% == say
+    %echo% you said something that Gunnar heard.
+  else
+    %echo% you used the %cmd% which Gunnar can't hear.
+  end
 ~
 #1001
 James Sneed Script~
