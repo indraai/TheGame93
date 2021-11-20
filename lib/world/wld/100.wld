@@ -24,20 +24,20 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
-The glaciers edge...~
+The Glaciers Edge~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
@@ -59,9 +59,9 @@ D5
 0 0 1006
 S
 #1005
-On the ledge...~
+On The Ledge~
 You are in an unfinished room.~
-100 264 0 0 0 5
+100 0 0 0 0 5
 D1
 ~
 ~
@@ -151,7 +151,7 @@ D2
 0 0 1020
 S
 #1013
-Warn Larsen and Sneed~
+Warn Your Friends~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D3
@@ -218,7 +218,7 @@ D1
 0 0 1040
 S
 #1020
-Decide to wait~
+Decide To Wait~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D3
@@ -426,7 +426,7 @@ D0
 D2
 ~
 ~
-0 0 0
+0 0 -1
 S
 #1065
 Swim back across~

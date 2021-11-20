@@ -1,7 +1,9 @@
 #100
 CYOA~
 Underground Kingdom~
-1000 1999 30 2 d 0 0 0 -1 -1
+1000 1999 15 2 d 0 0 0 -1 -1
+O 0 1013 1 1013 	(0x_1013 Card)
+O 0 1020 1 1020 	(0x_1020 Card)
 M 0 1000 1 1001 	(Gunnar Larsen)
 M 0 1001 1 1001 	(Dr. Sneed)
 O 0 1000 1 1001 	(Signal Transmitter)

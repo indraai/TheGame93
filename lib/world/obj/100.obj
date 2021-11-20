@@ -16,4 +16,22 @@ talk:#adv object:thegame 1001/look
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 20 0 0 0 0
+#1013
+0x_1013 token underground adventure~
+0x_1013 Token~
+1013/avatar~
+talk:#adv object:thegame 1013/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1020
+0x_1020 token underground kingdom~
+0x_1020 Card~
+1020/avatar~
+talk:#adv object:thegame 1020/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 $~
