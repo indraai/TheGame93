@@ -469,7 +469,7 @@ D3
 D4
 ~
 ~
-0 0 -1
+0 0 368
 S
 #333
 6 S. Arjika Blvd.~
@@ -958,6 +958,23 @@ UNUSED~
 undefined~
 3 536 0 0 0 0
 S
+#368
+Valid/Invalid Transactions~
+You are in an unfinished room.~
+3 24 0 0 0 0
+D3
+~
+~
+0 0 369
+D4
+~
+~
+0 0 375
+D5
+~
+~
+0 0 332
+S
 #369
 Property~
 Empty room.~
@@ -965,7 +982,7 @@ Empty room.~
 D1
 ~
 ~
-0 0 -1
+0 0 368
 D3
 ~
 ~
