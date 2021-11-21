@@ -1,32 +1,24 @@
 #0
 The Void~
-~
+none.~
 0 8 0 0 0 1
-D1
-~
-~
-0 0 104
-D5
+D6
 ~
 ~
 0 0 1
 S
 #1
 Limbo~
-~
+none.~
 0 8 0 0 0 1
-D4
-~
-~
-0 0 -1
 D5
 ~
 ~
-0 0 2
+0 0 0
 S
 #2
-The Academy~
-~
+indra.academy/r2~
+none~
 0 24 0 0 0 0
 D1
 ~
@@ -37,323 +29,9 @@ D3
 ~
 1 0 200
 S
-T 97
-#3
-Academy R3~
-undefined~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 4
-D3
-~
-~
-0 0 2
-S
-#4
-Project Mayhem 2012~
-undefined~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 5
-D3
-~
-~
-0 0 3
-S
-#5
-Dangerous Ideas~
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 6
-D3
-~
-~
-0 0 4
-S
-#6
-Telecomix~
-empty.
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 7
-D3
-~
-~
-0 0 5
-S
-#7
-Project Mayhem Revelations~
-undefined~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 8
-D3
-~
-~
-0 0 6
-S
-#8
-Project Mayhem 2020~
-undefined~
-0 8 0 0 0 0
-D2
-~
-~
-0 0 9
-D3
-~
-~
-0 0 7
-S
-#9
-IT~
-~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 8
-D2
-~
-~
-0 0 10
-S
-#10
-eTHErSEC Project 2020~
-undefined~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 9
-D2
-~
-~
-0 0 11
-S
-#11
-EtherSec...again~
-~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 10
-D2
-~
-~
-0 0 12
-S
-#12
-Michael Nebadon~
-undefined~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 11
-D2
-~
-~
-0 0 13
-S
-#13
-Academy R13~
-undefined~
-0 24 0 0 0 0
-D0
-~
-~
-0 0 12
-D1
-~
-~
-0 0 240
-S
-#14
-AdventureLand~
-undefined~
-0 16 0 0 0 1
-D0
-~
-~
-0 0 15
-D1
-~
-~
-0 0 98
-D2
-~
-~
-0 0 16
-S
-#15
-The Cobra Lounge~
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 16
-D3
-~
-~
-0 0 14
-S
-#16
-The Well~
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 17
-D3
-~
-~
-0 0 15
-S
-#17
-A Rape in Cyberspace~
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 18
-D3
-~
-~
-0 0 16
-S
-#18
-Kibo Xibo~
-undefined~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 295
-D1
-~
-~
-0 0 19
-D3
-~
-~
-0 0 17
-D5
-~
-~
-0 0 -1
-S
-#19
-Evil People, Inc.~
-~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 20
-D3
-~
-~
-0 0 18
-S
-#20
-Satanic Sysadmins~
-~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 21
-D3
-~
-~
-0 0 19
-S
-#21
-Evil.com~
-~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 22
-D2
-~
-~
-0 0 20
-S
-#22
-DefCon~
-undefined~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 23
-D2
-~
-~
-0 0 21
-S
-#23
-Hackers of Planet Earth~
-~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 24
-D2
-~
-~
-0 0 22
-D4
-~
-~
-0 0 26
-S
-#24
-Survivance~
-~
-0 8 0 0 0 0
-D0
-~
-~
-0 0 25
-D2
-~
-~
-0 0 23
-S
-#25
-UNUSED... CHRISTIC~
-undefined~
-0 24 0 0 0 0
-D2
-~
-~
-0 0 24
-S
 #26
 SecurityPRIME Class~
-empty
-~
+empty~
 0 760 0 0 0 0
 D5
 ~
@@ -371,7 +49,7 @@ D1
 S
 #32
 Indu Shrine~
-~
+none.~
 0 24 0 0 0 0
 D2
 ~
@@ -380,7 +58,7 @@ D2
 S
 #33
 Indra Shrine~
-~
+none.~
 0 24 0 0 0 0
 D3
 ~
@@ -407,8 +85,7 @@ D2
 S
 #94
 indra.care/se~
-You are in an unfinished room.
-~
+none.~
 0 24 0 0 0 0
 D3
 ~
@@ -417,8 +94,7 @@ D3
 S
 #95
 indra.agency/sw~
-You are in an unfinished room.
-~
+You are in an unfinished room.~
 0 24 0 0 0 0
 D1
 ~
@@ -427,8 +103,7 @@ D1
 S
 #96
 indra.agency/ne~
-You are in an unfinished room.
-~
+You are in an unfinished room.~
 0 24 0 0 0 0
 D3
 ~
@@ -441,7 +116,7 @@ D4
 S
 #97
 indra.care/nw~
-~
+none.~
 0 24 0 0 0 0
 D1
 ~
@@ -465,7 +140,6 @@ D3
 ~
 0 0 14
 S
-T 189
 #99
 Arjika Portal~
 undefined~
@@ -474,11 +148,5 @@ D2
 ~
 ~
 0 0 140
-E
-floor~
-~
-E
-sky~
-~
 S
 $~
