@@ -513,14 +513,13 @@ T 105
 #141
 arjika arjikiya corporal military a0141 z1~
 Arjika Corporal~
-Arjika Corporal A141 is here.
+0141/avatar~
+talk:#adv agent:thegame 0141/look
 ~
-He looks very healthy and happy with his job.  His aspirations to become a war hero became a reality when he signed up for the military of Arjika.
-~
-72 0 0 0 0 0 0 0 900 E
+2072 0 0 0 24 0 0 0 900 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 2
+8 8 1
 E
 #142
 green deva d0142 z1~
@@ -580,17 +579,22 @@ talk:#adv agent:thegame 0146/look~
 8 8 1
 E
 #147
-logan~
+logan ufo.cafe service deva~
 Logan~
 0147/avatar~
-Logan looks up with a wry grin on his face. You are just another shopper to him, and he will squeeze every dollar out of you that you carry if your not careful.  He runs the town pawnshop.  Though the prices aren't great he carries a lot of equipment that cannot be found anywhere else.
+#adv agent:thegame 0147/look
 ~
 253962 0 0 0 112 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-6 6 2
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 6
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
-T 106
 #148
 purple deva purpledeva d0148 z1~
 PurpleDEVA~
