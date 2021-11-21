@@ -252,15 +252,15 @@ talk:#adv agent:thegame 0119/look~
 E
 T 106
 #120
-guildmaster saryanavan deva~
+saryanavan sarya deva~
 Saryanavan~
 0120/avatar~
 talk:#adv agent:thegame 0120/look
 ~
-59418 0 0 0 16 0 0 0 1000 E
+59418 0 0 0 24 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -803,12 +803,12 @@ talk:#adv agent:thegame 0164/look~
 BareHandAttack: 4
 E
 #165
-indu monk~
-Indu Monk~
+indu disciple monk~
+Indu Disciple~
 0165/avatar~
-A Indu Monk is here. He has mastered a look that would cause most people to give in to his plead.
+talk:#adv thegame:agent 0165/look
 ~
-10 0 0 0 0 0 0 0 400 E
+6170 0 0 0 120 0 0 0 400 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1
@@ -1062,14 +1062,14 @@ talk:#adv agent:thegame 0184/look~
 E
 T 106
 #185
-soma monk arjika susoma~
-Soma Monk~
+soma disciple susoma monk~
+Soma Disciple~
 0185/avatar~
 talk:#adv agent:thegame 0185/look~
-26648 0 0 0 0 0 0 0 0 E
+26650 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 6
+6 6 6
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1214,14 +1214,14 @@ talk:#adv agent:thegame 0197/look~
 E
 T 106
 #198
-indu monk~
-the Monk~
+vamraka disciple monk~
+Vamraka Disciple~
 0198/avatar~
 talk:#adv agent:thegame 0198/look~
-2074 0 0 0 0 0 0 0 0 E
+6170 0 0 0 120 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+6 6 1
 E
 #199
 karry sweets female devi lady~

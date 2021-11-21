@@ -416,7 +416,7 @@ D5
 0 0 354
 S
 #329
-Legal Procedure~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -433,9 +433,9 @@ D3
 0 0 366
 S
 #330
-The Plaint~
+indra.academy/law~
 Empty room.~
-3 280 0 0 0 0
+3 24 0 0 0 0
 D1
 ~
 ~
@@ -446,7 +446,7 @@ D3
 0 0 329
 S
 #331
-Courts of Justice~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -459,7 +459,7 @@ D3
 0 0 330
 S
 #332
-Payment of Debt~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -665,30 +665,26 @@ D3
 0 0 255
 S
 #345
-Arjika Tower W~
+indra.city/towers~
 undefined~
 3 24 0 0 0 0
 D1
 ~
 ~
 0 0 346
-D3
+D2
 ~
 ~
-0 0 344
+0 0 358
 D4
 ~
 ~
 0 0 132
 S
 #346
-Arjika Tower E~
+indra.city/towers~
 undefined~
 3 24 0 0 0 0
-D1
-~
-~
-0 0 347
 D2
 ~
 ~
@@ -703,17 +699,13 @@ D4
 0 0 133
 S
 #347
-SOMA Courtyard~
+indra.city/courtyard~
 undefined~
 3 16 0 0 0 1
 D2
 ~
 ~
 0 0 360
-D3
-~
-~
-0 0 346
 S
 #348
 indra.agency/lookout~
@@ -841,7 +833,7 @@ D5
 1 0 290
 S
 #357
-Arjika Courtyard~
+indra.city/courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -854,7 +846,7 @@ D1
 0 0 358
 S
 #358
-Arjika Courtyard~
+indra.city/courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -871,7 +863,7 @@ D3
 0 0 357
 S
 #359
-SOMA Courtyard~
+indra.city/courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -888,7 +880,7 @@ D3
 0 0 358
 S
 #360
-SOMA Courtyard~
+indra.city/courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -959,7 +951,7 @@ undefined~
 3 536 0 0 0 0
 S
 #368
-Valid/Invalid Transactions~
+indra.academy/law~
 You are in an unfinished room.~
 3 24 0 0 0 0
 D3
@@ -976,7 +968,7 @@ D5
 0 0 332
 S
 #369
-Property~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -989,7 +981,7 @@ D3
 0 0 370
 S
 #370
-Livelihood~
+indra.academy/law~
 You are in an unfinished room.~
 3 24 0 0 0 0
 D1
@@ -1002,7 +994,7 @@ D3
 0 0 371
 S
 #371
-Modes of Proof~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1015,7 +1007,7 @@ D4
 0 0 372
 S
 #372
-Lending & Interest~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1032,7 +1024,7 @@ D5
 0 0 371
 S
 #373
-Usurers~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1045,7 +1037,7 @@ D3
 0 0 372
 S
 #374
-Sureties~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1058,7 +1050,7 @@ D3
 0 0 373
 S
 #375
-Pledges~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1072,10 +1064,10 @@ D4
 D5
 ~
 ~
-0 0 -1
+0 0 368
 S
 #376
-Documents~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1092,7 +1084,7 @@ D5
 0 0 375
 S
 #377
-Witnesses~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1105,7 +1097,7 @@ D3
 0 0 378
 S
 #378
-Incompetent Witnesses~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1118,7 +1110,7 @@ D3
 0 0 379
 S
 #379
-Unnecessary Witnesses~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1135,7 +1127,7 @@ D5
 0 0 372
 S
 #380
-False Witnesses~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1148,7 +1140,7 @@ D5
 0 0 379
 S
 #381
-Exhorting Witnesses~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1161,7 +1153,7 @@ D3
 0 0 380
 S
 #382
-Valid Evidence~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1174,7 +1166,7 @@ D3
 0 0 381
 S
 #383
-Invalid Evidence~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1191,7 +1183,7 @@ D5
 0 0 376
 S
 #384
-Default of Witness/Document~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1204,7 +1196,7 @@ D5
 0 0 383
 S
 #385
-Proof by Ordeal~
+indra.academy/law~
 Empty room.~
 3 24 0 0 0 0
 D1

@@ -59,7 +59,7 @@ D5
 0 0 129
 S
 #104
-House Ayu~
+indra.house/sarya~
 Empty room.~
 1 24 0 0 0 0
 D5
@@ -68,7 +68,7 @@ D5
 0 0 132
 S
 #105
-Vivasvan Shrine~
+indra.house/vivasvan~
 Empty room.~
 1 24 0 0 0 0
 D5
@@ -364,20 +364,20 @@ D2
 0 0 129
 S
 #125
-House Soma~
+indra.house/soma~
 Empty room.~
 1 24 0 0 0 0
 D0
 ~
 ~
-0 0 34
+0 0 133
 D2
 ~
 ~
-0 0 132
+0 0 34
 S
 #126
-House Vamraka~
+indra.house/vamraka~
 Empty room.~
 1 24 0 0 0 0
 D1
@@ -466,7 +466,7 @@ D3
 0 0 129
 S
 #131
-House Bom~
+indra.house/bom~
 undefined~
 1 24 0 0 0 0
 D0
@@ -479,7 +479,7 @@ D2
 0 0 133
 S
 #132
-Arjika Tower W~
+indra.city/towers~
 undefined~
 1 24 0 0 0 0
 D0
@@ -508,7 +508,7 @@ D5
 0 0 345
 S
 #133
-Arjika Tower E~
+indra.city/towers~
 undefined~
 1 24 0 0 0 0
 D0
@@ -537,7 +537,7 @@ D5
 0 0 346
 S
 #134
-House Indra~
+indra.house/indra~
 Empty room.~
 1 24 0 0 0 0
 D1
@@ -568,7 +568,7 @@ D0
 0 0 129
 S
 #137
-Householder~
+indra.house/host~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -577,7 +577,7 @@ D0
 0 0 132
 S
 #138
-House Indu~
+indra.house/indu~
 undefined~
 1 24 0 0 0 0
 D0
