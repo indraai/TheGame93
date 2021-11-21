@@ -869,7 +869,7 @@ static char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr,
   }
   CAP(itemname);
 
-  snprintf(result, sizeof(result), "%d. %s ☉%d (%s) %s\r\n",
+  snprintf(result, sizeof(result), "\n%d. %s ☉%d (%s) %s\r",
       aindex,
       itemname,
       buy_price(obj, shop_nr, keeper, ch),
