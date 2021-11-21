@@ -35,33 +35,38 @@ talk:#adv agent:thegame 0102/look
 E
 T 106
 #103
-Shiro weaponshith~
-Shiro~
-Shiro waits with a smile while you browse his goods.
+cartoon builder indra.house deva~
+Cartoon Builder~
+0103/avatar~
+talk:#adv agent:thegame 0103/look
 ~
-Shiro is a large man, a good foot taller than you.  He enjoys his job and no one can come close to his skill in designing and forging weapons.  He is still very much in shape in spite of his years.  He looks very capable of using any of his fine weapons.
-~
-190474 0 0 0 16 0 0 0 900 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 1
+190474 0 0 0 16 0 0 0 500 E
+15 15 1 3d3+150 2d2+2
+150 22500
+6 6 6
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
-T 106
 #104
-rhian daughter~
-Rhian~
-Shiro's daughter, Rhian, stands here waiting to help you.
-~
-She is clothed in a beautiful, and tight, dress.  Something tells you that
-she sells more weapons when she wears that dress.  She is easily one of the
-more stunning woman you have ever come across.
+cartoon builder jr indra.house devi~
+Cartoon Builder Jr.~
+0104/avatar~
+talk:#adv agent:thegame 0104/look
 ~
 26634 0 0 0 16 0 0 0 900 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 2
+10 17 4 2d2+100 1d2+1
+100 10000
+6 6 7
+BareHandAttack: 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
-T 106
 #105
 mark petrakis spoonman 1337 spoonkids~
 Mark Petrakis (spoonman)~
