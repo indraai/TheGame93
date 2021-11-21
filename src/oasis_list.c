@@ -569,7 +569,7 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
     top    = vmax;
   }
 
-  send_to_char(ch, "\n## Rooms\r")
+  send_to_char(ch, "\n## Rooms\r");
   if (!top_of_world)
     return;
 
