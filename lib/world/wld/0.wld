@@ -504,12 +504,12 @@ D2
 ~
 0 0 140
 E
-floor~
-talk:#adventure view:thegame:world 0099/floor
-~
-E
 sky~
 talk:#adventure view:thegame:world 0099/sky
+~
+E
+floor~
+talk:#adventure view:thegame:world 0099/floor
 ~
 S
 $~
