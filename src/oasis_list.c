@@ -605,10 +605,9 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
     }
   }
 
-  if (counter == 0)
-    send_to_char(ch, "No rooms found for zone/range specified.\r\n");
-  else
-    page_string(ch->desc, buf, TRUE);
+  if (counter == 0) {
+    send_to_char(ch, "\ninfo:No rooms found for zone/range specified.\r");
+  }
 }
 
 /* List all mobiles in a zone. */
