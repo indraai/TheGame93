@@ -556,9 +556,9 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
 {
   room_rnum i;
   room_vnum bottom, top;
-  int j, counter = 0;
-  size_t len;
-  char buf[MAX_STRING_LENGTH];
+  // int j, counter = 0;
+  //size_t len;
+  //char buf[MAX_STRING_LENGTH];
 
   /* Expect a minimum / maximum number if the rnum for the zone is NOWHERE. */
   if (rnum != NOWHERE) {
@@ -569,26 +569,22 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
     top    = vmax;
   }
 
-  len = strlcpy(buf,
-  "Index VNum    Room Name                                    Exits\r\n"
-  "----- ------- -------------------------------------------- -----\r\n",
-  sizeof(buf));
-
+  send_to_char(ch, "\n## Rooms\r")
   if (!top_of_world)
     return;
+
 
   for (i = 0; i <= top_of_world; i++) {
 
     /** Check to see if this room is one of the ones needed to be listed.    **/
     if ((world[i].number >= bottom) && (world[i].number <= top)) {
       counter++;
+      send_to_char("\n%d. %s %s %s\r",
+      counter, world[i].number,
+      world[i].name,
+      world[i].proto_script ? "[TRIG]" : "")
 
-      len += snprintf(buf + len, sizeof(buf) - len, "%4d) [%s%-5d%s] %s%-*s%s %s",
-                          counter, QGRN, world[i].number, QNRM,
-                          QCYN, count_color_chars(world[i].name)+44, world[i].name, QNRM,
-                          world[i].proto_script ? "[TRIG] " : ""
-                          );
-
+      /* list room exits
       for (j = 0; j < DIR_COUNT; j++) {
         if (W_EXIT(i, j) == NULL)
           continue;
@@ -603,7 +599,7 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
       len += snprintf(buf + len, sizeof(buf) - len, "\r\n");
 
       if (len > sizeof(buf))
-		break;
+		    break;
     }
   }
 
