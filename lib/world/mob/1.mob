@@ -654,14 +654,26 @@ talk:#adv agent:thegame 0155/look~
 8 8 1
 E
 #156
-vamraka monk deva~
-Vamraka Monk~
+o indra vamraka indu fighter~
+Indra Fighter~
 0156/avatar~
 talk:#adv agent:thegame 0156/look~
-10 0 0 0 0 0 0 0 0 E
+47386 0 0 0 120 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 6
+BareHandAttack: 9
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #157
 telecomix 1337 cameron~
