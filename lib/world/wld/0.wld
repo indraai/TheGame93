@@ -419,7 +419,7 @@ S
 Soma Shrine~
 undefined~
 0 24 0 0 0 0
-D2
+D0
 ~
 ~
 0 0 125
@@ -428,7 +428,7 @@ S
 Bom Shrine~
 undefined~
 0 24 0 0 0 0
-D1
+D2
 ~
 ~
 0 0 131
@@ -504,12 +504,12 @@ D2
 ~
 0 0 140
 E
-sky~
-talk:#adventure view:thegame:world 0099/sky
-~
-E
 floor~
 talk:#adventure view:thegame:world 0099/floor
+~
+E
+sky~
+talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
