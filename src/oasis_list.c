@@ -580,9 +580,9 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
     if ((world[i].number >= bottom) && (world[i].number <= top)) {
       counter++;
       send_to_char("\n%d. %s %s %s\r",
-      counter, world[i].number,
-      world[i].name,
-      world[i].proto_script ? "[TRIG]" : "")
+        counter, world[i].number,
+        world[i].name,
+        world[i].proto_script ? "[TRIG]" : "");
 
       /* list room exits
       for (j = 0; j < DIR_COUNT; j++) {
