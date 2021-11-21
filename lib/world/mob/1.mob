@@ -285,17 +285,6 @@ You are in no doubt that this guildmaster is truly close to the Devas; he has a 
 340 115600
 8 8 1
 E
-#122
-guildmaster master artist~
-Artist Guildmaster~
-0122/avatar~
-You realize that whenever your guildmaster moves, you fail to notice it - the way of the true thief.  He is dressed in the finest clothing, having the appearance of an ignorant fop.
-~
-59418 0 0 0 16 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
-E
 #123
 guildmaster master hero~
 Hero Guildmaster~
@@ -626,30 +615,6 @@ talk:#adv agent:thegame 0150/look~
 70 900
 8 8 1
 BareHandAttack: 4
-E
-#151
-midwife~
-the Midwife~
-0151/avatar~
-A midwife is tidying up the house. She looks rather old, touches of gray sprinkle her dark brown hair.  She must have once been very attractive, but not any longer.  She looks worn down and tired from her daily chores.
-~
-4106 0 0 0 0 0 0 0 0 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 2
-E
-#152
-newborn baby~
-the Baby~
-0152/avatar~
-A newborn baby is rocking peacefully in his crib. How cute, this little tyke can't be more than a few months old.  He is just
-starting to get some hair.  He looks up at you and giggles softly, expecting
-some attention.
-~
-10 0 0 0 0 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
 E
 #153
 douglas rushkoff 1337 edge~
