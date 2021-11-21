@@ -40,24 +40,6 @@ D5
 ~
 0 0 100
 S
-#102
-The Dark Tower~
-Empty room.~
-1 9 0 0 0 0
-D5
-~
-~
-0 0 128
-S
-#103
-Palantir~
-Empty room.~
-1 24 0 0 0 0
-D5
-~
-~
-0 0 129
-S
 #104
 indra.house/sarya~
 Empty room.~
@@ -77,7 +59,7 @@ D5
 0 0 133
 S
 #106
-Lookout (N)~
+indra.agency/lookout~
 Empty room.~
 1 24 0 0 0 1
 D1
@@ -98,7 +80,7 @@ D5
 0 0 140
 S
 #107
-The War Room~
+indra.agency/war~
 empty.~
 1 760 0 0 0 0
 D0
@@ -136,7 +118,7 @@ D5
 0 0 142
 S
 #109
-The Club~
+indra.buzz/club~
 empty.~
 1 24 0 0 0 0
 D5
@@ -145,7 +127,7 @@ D5
 0 0 150
 S
 #110
-Strategy Room~
+indra.agency/strategy~
 empty.~
 1 24 0 0 0 0
 D5
@@ -154,7 +136,7 @@ D5
 0 0 107
 S
 #111
-Inner Lookout (NW)~
+indra.agency/lookout~
 empty.~
 1 16 0 0 0 1
 D1
@@ -171,7 +153,7 @@ D5
 0 0 207
 S
 #112
-Inner Lookout (NE)~
+indra.agency/lookout~
 empty.~
 1 24 0 0 0 1
 D2
@@ -197,7 +179,7 @@ D2
 0 0 100
 S
 #114
-Lookout (W)~
+indra.agency/lookout~
 empty.~
 1 24 0 0 0 1
 D0
@@ -218,7 +200,7 @@ D5
 0 0 243
 S
 #115
-Inner Lookout (W)~
+indra.agency/lookout~
 empty.~
 1 24 0 0 0 1
 D0
@@ -257,7 +239,7 @@ D3
 0 0 100
 S
 #118
-Inner Lookout (E)~
+indra.agency/lookout~
 empty.~
 1 24 0 0 0 1
 D0
@@ -282,7 +264,7 @@ D5
 0 0 254
 S
 #119
-Lookout (E)~
+indra.agency/lookout~
 undefined~
 1 24 0 0 0 1
 D0
@@ -312,7 +294,7 @@ D0
 0 0 100
 S
 #121
-Inner Lookout (SW)~
+indra.agency/lookout~
 Empty room.~
 1 24 0 0 0 1
 D0
@@ -329,7 +311,7 @@ D5
 0 0 289
 S
 #122
-Inner Lookout (SE)~
+indra.agency/lookout~
 Empty room.~
 1 24 0 0 0 1
 D0
@@ -344,24 +326,6 @@ D5
 ~
 ~
 0 0 295
-S
-#123
-Thiel Foundation~
-Empty room.~
-1 24 0 0 0 0
-D2
-~
-~
-0 0 128
-S
-#124
-Clarium Capital~
-Empty room.~
-1 24 0 0 0 0
-D2
-~
-~
-0 0 129
 S
 #125
 indra.house/soma~
@@ -388,82 +352,6 @@ D3
 ~
 ~
 0 0 31
-S
-#127
-Stanford~
-undefined~
-1 24 0 0 0 0
-D1
-~
-~
-0 0 128
-S
-#128
-Thiel Tower W.~
-Empty room.~
-1 24 0 0 0 0
-D0
-~
-~
-0 0 123
-D1
-~
-~
-0 0 129
-D2
-~
-~
-0 0 135
-D3
-~
-~
-0 0 127
-D4
-~
-~
-0 0 102
-D5
-~
-~
-0 0 340
-S
-#129
-Thiel Tower E.~
-Empty room.~
-1 24 0 0 0 0
-D0
-~
-~
-0 0 124
-D1
-~
-~
-0 0 130
-D2
-~
-~
-0 0 136
-D3
-~
-~
-0 0 128
-D4
-~
-~
-0 0 103
-D5
-~
-~
-0 0 341
-S
-#130
-Founders Fund~
-Empty room.~
-1 24 0 0 0 1
-D3
-~
-~
-0 0 129
 S
 #131
 indra.house/bom~
@@ -549,24 +437,6 @@ D3
 ~
 0 0 133
 S
-#135
-Mithril Capital~
-Empty room.~
-1 24 0 0 0 1
-D0
-~
-~
-0 0 128
-S
-#136
-Valar Ventures~
-Empty room.~
-1 24 0 0 0 0
-D0
-~
-~
-0 0 129
-S
 #137
 indra.house/host~
 Empty room.~
@@ -590,7 +460,7 @@ D2
 0 0 132
 S
 #139
-Lookout (S)~
+indra.agency/lookout~
 empty room.~
 1 24 0 0 0 1
 D0
@@ -672,21 +542,8 @@ D2
 ~
 0 0 158
 S
-#146
-The Northern Road~
-empty room.~
-1 16 0 0 0 1
-D0
-~
-~
-0 0 140
-D2
-~
-~
-0 0 159
-S
 #147
-The Tiki Bar~
+indra.buzz/bar~
 empty.~
 1 16 0 0 0 1
 D1
@@ -699,8 +556,8 @@ D2
 0 0 160
 S
 #148
-The Gay Bar~
-The only restaurant in Arjika.  The Rustic serves up decent meals to anyone that can afford them.  The prices are fair and the service is excellent.  The place is rather deserted and only a few customers are chatting idly in the back.~
+indra.buzz/bar~
+empty room.~
 1 24 0 0 0 0
 D1
 ~
@@ -716,8 +573,8 @@ D3
 0 0 147
 S
 #149
-The Strait Bar~
-The smell of tanning hides from the back of the shop is very unpleasant. The assortment of leather goods is very extensive and they are well made. Anyone needing some armor but does not want to give up a lot of movement and flexibility need only come here.~
+indra.buzz/bar~
+empty room.~
 1 24 0 0 0 0
 D1
 ~
@@ -733,8 +590,8 @@ D3
 0 0 148
 S
 #150
-The Restaurant~
-This gloomy bar has an uneasy feeling about it.  Travelers pausing here should be careful as this bar is frequented by the less honorable class in Arjika.  Very few people drink here since as soon anyone inebriated is likely to be relieved of any gold they may be carrying.  The bar seems to sell a lot more than just drinks as large shelves are filled with various items and equipment.~
+indra.buzz/food~
+empty room.~
 1 24 0 0 0 0
 D2
 ~
@@ -1058,19 +915,6 @@ D3
 ~
 ~
 0 0 167
-S
-#169
-Hero Avenue~
-The Barracks rise above the west and a small cozy home is to the east.  A well-travelled road continues north and south.  This appears to be the Hero Quarter where the military of Arjika bases it's operations.  Several recruits rush past on assignment.~
-1 0 0 0 0 1
-D0
-~
-~
-0 0 154
-D2
-~
-~
-0 0 184
 S
 #170
 4B3B Home~

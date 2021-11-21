@@ -1,6 +1,5 @@
 #0
 The Void~
-talk:#adventure view:thegame:world 0000/main
 ~
 0 8 0 0 0 1
 D1
@@ -8,30 +7,25 @@ D1
 ~
 0 0 104
 D5
-talk:#adventure view:thegame:world 0001/look
 ~
 ~
 0 0 1
 S
 #1
 Limbo~
-talk:#adventure view:thegame:world 0001/main
 ~
 0 8 0 0 0 1
 D4
-talk:#adventure view:thegame:world 0000/look
 ~
 ~
 0 0 -1
 D5
-talk:#adventure view:thegame:world 0002/look
 ~
 ~
 0 0 2
 S
 #2
 The Academy~
-talk:#adventure view:thegame:world 0002/main
 ~
 0 24 0 0 0 0
 D1
@@ -39,7 +33,6 @@ D1
 ~
 0 0 3
 D3
-talk:#adventure view:thegame:world 0200/look
 ~
 ~
 1 0 200
@@ -50,7 +43,6 @@ Academy R3~
 undefined~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0004/look
 ~
 ~
 0 0 4
@@ -64,7 +56,6 @@ Project Mayhem 2012~
 undefined~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0005/look
 ~
 ~
 0 0 5
@@ -75,11 +66,9 @@ D3
 S
 #5
 Dangerous Ideas~
-talk:#adventure view:thegame:world 0005/main
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0006/look
 ~
 ~
 0 0 6
@@ -94,7 +83,6 @@ empty.
 ~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0007/look
 ~
 ~
 0 0 7
@@ -108,7 +96,6 @@ Project Mayhem Revelations~
 undefined~
 0 8 0 0 0 0
 D1
-talk:#adventure view:thegame:world 0008/look
 ~
 ~
 0 0 8
@@ -132,7 +119,6 @@ D3
 S
 #9
 IT~
-talk:#adventure view:thegame:world 0009/main
 ~
 0 8 0 0 0 0
 D0
@@ -159,7 +145,6 @@ D2
 S
 #11
 EtherSec...again~
-talk:#adventure view:thegame:world 0011/main
 ~
 0 8 0 0 0 0
 D0
@@ -167,7 +152,6 @@ D0
 ~
 0 0 10
 D2
-talk:#adventure view:thegame:world 0012/look
 ~
 ~
 0 0 12
@@ -181,7 +165,6 @@ D0
 ~
 0 0 11
 D2
-talk:#adventure view:thegame:world 0013/look
 ~
 ~
 0 0 13
@@ -218,7 +201,6 @@ D2
 S
 #15
 The Cobra Lounge~
-talk:#adventure view:thegame:world 0015/main
 ~
 0 8 0 0 0 0
 D1
@@ -232,7 +214,6 @@ D3
 S
 #16
 The Well~
-talk:#adventure view:thegame:world 0016/main
 ~
 0 8 0 0 0 0
 D1
@@ -240,14 +221,12 @@ D1
 ~
 0 0 17
 D3
-talk:#adventure view:thegame:world 0017/look
 ~
 ~
 0 0 15
 S
 #17
 A Rape in Cyberspace~
-talk:#adventure view:thegame:world 0017/main
 ~
 0 8 0 0 0 0
 D1
@@ -282,7 +261,6 @@ D5
 S
 #19
 Evil People, Inc.~
-talk:#adventure view:thegame:world 0019/main~
 0 8 0 0 0 0
 D1
 ~
@@ -295,11 +273,9 @@ D3
 S
 #20
 Satanic Sysadmins~
-talk:#adventure view:thegame:world 0020/main
 ~
 0 8 0 0 0 0
 D0
-talk:#adventure view:thegame:world 0021/look
 ~
 ~
 0 0 21
@@ -310,7 +286,6 @@ D3
 S
 #21
 Evil.com~
-talk:#adventure view:thegame:world 0021/main
 ~
 0 8 0 0 0 0
 D0
@@ -337,7 +312,6 @@ D2
 S
 #23
 Hackers of Planet Earth~
-talk:#adventure view:thegame:world 023/main
 ~
 0 8 0 0 0 0
 D0
@@ -355,7 +329,6 @@ D4
 S
 #24
 Survivance~
-talk:#adventure view:thegame:world 0024/main
 ~
 0 8 0 0 0 0
 D0
@@ -397,7 +370,6 @@ D1
 S
 #32
 Indu Shrine~
-talk:#adventure view:thegame:world 0032/main
 ~
 0 24 0 0 0 0
 D2
@@ -407,7 +379,6 @@ D2
 S
 #33
 Indra Shrine~
-talk:#adventure view:thegame:world 0033/main
 ~
 0 24 0 0 0 0
 D3
@@ -469,7 +440,6 @@ D4
 S
 #97
 indra.care/nw~
-talk:#adventure view:thegame:world 0097/look
 ~
 0 24 0 0 0 0
 D1
@@ -505,11 +475,9 @@ D2
 0 0 140
 E
 floor~
-talk:#adventure view:thegame:world 0099/floor
 ~
 E
 sky~
-talk:#adventure view:thegame:world 0099/sky
 ~
 S
 $~
