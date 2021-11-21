@@ -601,6 +601,7 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
 
       if (len > sizeof(buf))
 		    break;
+      */
     }
   }
 
