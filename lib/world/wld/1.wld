@@ -108,15 +108,6 @@ D5
 ~
 0 0 96
 S
-#108
-Upstairs~
-empty.~
-1 24 0 0 0 0
-D5
-~
-~
-0 0 142
-S
 #109
 indra.buzz/club~
 empty.~
@@ -507,7 +498,7 @@ D2
 0 0 184
 S
 #142
-5B4B Home~
+indra.house/5b4b~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -516,7 +507,7 @@ D2
 0 0 155
 S
 #143
-3B3B Home~
+indra.house/3b2b~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -525,7 +516,7 @@ D2
 0 0 156
 S
 #144
-2B2B Home~
+indra.house/2b2b~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -534,7 +525,7 @@ D2
 0 0 157
 S
 #145
-1B1B Home~
+indra.house/1b1b~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -543,9 +534,9 @@ D2
 0 0 158
 S
 #147
-indra.buzz/bar~
+ufo.cafe~
 empty.~
-1 16 0 0 0 1
+1 24 0 0 0 1
 D1
 ~
 ~
@@ -913,7 +904,7 @@ D3
 0 0 167
 S
 #170
-4B3B Home~
+indra.house 4b3b~
 undefined~
 1 2616 0 0 0 0
 D0
@@ -922,7 +913,7 @@ D0
 1 0 155
 S
 #171
-3B3B Home~
+indra.house/3b3b~
 undefined~
 1 2616 0 0 0 0
 D0
@@ -940,7 +931,7 @@ D0
 1 0 157
 S
 #173
-Studio Home~
+indra.house/studio~
 undefined~
 1 2616 0 0 0 0
 D0
