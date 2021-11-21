@@ -556,6 +556,7 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
 {
   room_rnum i;
   room_vnum bottom, top;
+  int counter = 0;
   // int j, counter = 0;
   //size_t len;
   //char buf[MAX_STRING_LENGTH];
