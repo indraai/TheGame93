@@ -546,35 +546,19 @@ S
 indra.buzz/bar~
 empty room.~
 1 24 0 0 0 0
-D1
-~
-~
-0 0 149
 D2
 ~
 ~
 0 0 161
-D3
-~
-~
-0 0 147
 S
 #149
-indra.buzz/bar~
+indra.buzz/cold~
 empty room.~
 1 24 0 0 0 0
-D1
-~
-~
-0 0 150
 D2
 ~
 ~
 0 0 162
-D3
-~
-~
-0 0 148
 S
 #150
 indra.buzz/food~
