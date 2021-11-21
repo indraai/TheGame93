@@ -802,7 +802,7 @@ D5
 0 0 184
 S
 #155
-4 W Hero Ave~
+indra.house/w~
 undefined~
 1 16 0 0 0 1
 D0
@@ -819,7 +819,7 @@ D2
 1 0 170
 S
 #156
-3 W Hero Ave~
+indra.house/w~
 empty.~
 1 16 0 0 0 1
 D0
@@ -840,7 +840,7 @@ D3
 0 0 155
 S
 #157
-2 W Hero Ave~
+indra.hosue/w~
 empty.~
 1 16 0 0 0 1
 D0
@@ -861,7 +861,7 @@ D3
 0 0 156
 S
 #158
-1 W Hero Ave~
+indra.life/w~
 empty.~
 1 16 0 0 0 1
 D0
@@ -882,7 +882,7 @@ D3
 0 0 157
 S
 #159
-indra.house~
+indra.city/n~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -903,7 +903,7 @@ D3
 0 0 158
 S
 #160
-1 E Hero Ave~
+indra.life/e~
 Empty room.~
 1 16 0 0 0 1
 D0
@@ -924,7 +924,7 @@ D3
 0 0 159
 S
 #161
-2 W Hero Ave~
+indra.life/e~
 Empty room.~
 1 16 0 0 0 1
 D0
@@ -945,7 +945,7 @@ D3
 0 0 160
 S
 #162
-3 E Hero Ave~
+indra.life/e~
 Empty room.~
 1 16 0 0 0 1
 D0
@@ -966,17 +966,13 @@ D3
 0 0 161
 S
 #163
-4 E Hero Ave~
+indra.life/e~
 Empty room.~
 1 16 0 0 0 1
 D0
 ~
 ~
 0 0 150
-D1
-~
-~
-0 0 164
 D2
 ~
 ~
@@ -1118,7 +1114,7 @@ D4
 0 0 354
 S
 #175
-Arjika Apartments~
+indra.house/apartments~
 undefined~
 1 24 0 0 0 0
 D0
@@ -1127,7 +1123,7 @@ D0
 1 0 160
 S
 #176
-Arjika Apartments~
+indra.house/apartments~
 undefined~
 1 24 0 0 0 0
 D0
@@ -1136,7 +1132,7 @@ D0
 1 0 161
 S
 #177
-Arjika Apartments~
+indra.house/apartments~
 undefined~
 1 24 0 0 0 0
 D0
@@ -1145,7 +1141,7 @@ D0
 1 0 162
 S
 #178
-Arjika Apartments~
+indra.house/apartments~
 undefined~
 1 24 0 0 0 0
 D0
