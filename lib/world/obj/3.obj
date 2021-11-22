@@ -35,4 +35,24 @@ talk:#adv object:thegame 302/look
 0 0 0 0
 1000000 1000000 0 33 0
 T 302
+#303
+tarksya craft ship car arjika~
+Tarksya~
+0303/avatar~
+talk:#adv object:thegame 0303/look
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1000000 1000000 0 33 0
+T 302
+#304
+pushpak craft ship car arjika~
+Pushpak~
+0304/avatar~
+talk:#adv object:thegame 0304/look
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1000000 1000000 0 33 0
+T 302
 $~

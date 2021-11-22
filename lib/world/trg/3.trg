@@ -13,18 +13,9 @@ end
 ~
 #302
 Sindhu Ship~
-1 c 7
-en~
-if %mud.mudcommand% == enter && sindhu /= %arg%
-  %send% %actor% You enter the SindhuVI.
-  %echoaround% %actor% %actor.vnum% enter %self.vnum% in %room.vnum%
-  wait 1s
-  %teleport% %actor% 1000
-  wait 1s
-  %force% %actor% look
-else
-  %send% %actor% Enter what?
-end
+1 n 100
+~
+%echo% Sindhu Boarding.
 ~
 #336
 SARYA SECURITY~
