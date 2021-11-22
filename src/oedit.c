@@ -1174,16 +1174,18 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'c':
       /* Only go to the next description if this one is finished. */
       if (OLC_DESC(d)->keyword && OLC_DESC(d)->description) {
-	struct extra_descr_data *new_extra;
+	       struct extra_descr_data *new_extra;
 
-	if (OLC_DESC(d)->next)
-	  OLC_DESC(d) = OLC_DESC(d)->next;
-	else {	/* Make new extra description and attach at end. */
-	  CREATE(new_extra, struct extra_descr_data, 1);
-	  OLC_DESC(d)->next = new_extra;
-	  OLC_DESC(d) = OLC_DESC(d)->next;
-	}
+         if (OLC_DESC(d)->next) {
+           OLC_DESC(d) = OLC_DESC(d)->next;
+         }
+         else {	/* Make new extra description and attach at end. */
+          CREATE(new_extra, struct extra_descr_data, 1);
+          OLC_DESC(d)->next = new_extra;
+          OLC_DESC(d) = OLC_DESC(d)->next;
+        }
       }
+      break;
       /* No break - drop into default case. */
     default:
       oedit_disp_extradesc_menu(d);
