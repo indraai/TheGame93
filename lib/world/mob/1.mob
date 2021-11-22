@@ -68,15 +68,26 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #105
-mark petrakis spoonman 1337 spoonkids~
-Mark Petrakis (spoonman)~
+silamavati visvedevas deity~
+Silamavati~
 0105/avatar~
 talk:#adv agent:thegame 0105/look~
-2074 0 0 0 0 0 0 0 -200 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
-BareHandAttack: 12
+6168 0 0 0 2048 0 0 0 500 E
+26 12 -5 5d5+260 4d4+4
+260 67600
+8 8 6
+BareHandAttack: 11
+Str: 17
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #106
 jarry store toys deva kiddos~
@@ -157,14 +168,14 @@ talk:#adv agent:thegame 0111/look
 E
 T 106
 #112
-elizabeth lapensee survivance covenant 1337~
-Elizabeth LaPensee (survivance)~
+urnavati visvedevas deity~
+Urnavati~
 0112/avatar~
 talk:#adv agent:thegame 0112/look~
-2264 0 0 0 0 0 0 0 -250 E
+6168 0 0 0 0 0 0 0 -250 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 2
+8 8 6
 BareHandAttack: 3
 SavingPara: 1
 SavingRod: 1
@@ -787,14 +798,26 @@ talk:#adv agent:thegame 0154/look~
 BareHandAttack: 7
 E
 #155
-arjika arjikiya colnel military a155 z3~
-Arjika Colnel~
+rtu visvedevas arjika colnel military a155 z3~
+Rtu~
 0155/avatar~
 talk:#adv agent:thegame 0155/look~
-247818 0 0 0 0 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 1
+6168 0 0 0 2072 0 0 0 0 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 6
+BareHandAttack: 9
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #156
 o indra vamraka indu fighter~
@@ -946,27 +969,16 @@ E
 T 129
 T 130
 #166
-general arjika arjikiya military a0166 z1~
-Arjika General~
+rbhu rbhus general visvedevas arjika military a166 z1~
+Rbhus~
 0166/avatar~
 talk:#adv thegame:agent 0166/look
 ~
-260120 0 0 0 2168 0 0 0 -200 E
-33 9 -9 6d6+330 5d5+5
-330 108900
+6168 0 0 0 2168 0 0 0 750 E
+1 20 9 0d0+10 1d2+0
+10 100
 8 8 6
 BareHandAttack: 14
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 #167
 staff sergeant arjika arjikiya military a0167 z1~
@@ -1184,14 +1196,15 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #183
-artist master~
-the Master Artist~
+vyasva visvedeva deity~
+Vyasva~
 0183/avatar~
 talk:#adv agent:thegame 0183/look~
-10 0 0 0 0 0 0 0 0 E
+6168 0 0 0 2136 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 1
+8 8 6
+BareHandAttack: 5
 E
 #184
 hannibal eotl bartender 1337~

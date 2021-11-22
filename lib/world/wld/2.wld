@@ -658,7 +658,7 @@ D4
 0 0 115
 S
 #249
-indra.city/w~
+indra.directory/w~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -730,7 +730,7 @@ D3
 0 0 251
 S
 #253
-indra.city/e~
+indra.directory/e~
 Empty room.~
 2 16 0 0 0 1
 D1
@@ -1204,7 +1204,7 @@ D2
 0 0 313
 S
 #289
-5 SW Temple Sq.~
+indra.city/sw~
 Empty room.~
 2 16 0 0 0 1
 D0
