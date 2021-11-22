@@ -3,9 +3,11 @@ Quinn~
 deva.world~
 0 99 20 2 d 0 0 0 -1 -1
 M 0 0 1 31 	(Vamraka)
-M 0 198 1 126 	(Vamraka Disciple)
+M 0 198 1 31 	(Vamraka Disciple)
+M 0 156 2 32 	(Indra Fighter)
 M 0 1 1 32 	(Indu)
-M 0 165 2 138 	(Indu Disciple)
+M 0 165 1 32 	(Indu Disciple)
+M 0 156 2 32 	(Indra Fighter)
 M 0 2 1 33 	(Indra)
 M 0 3 1 34 	(Soma)
 M 0 185 3 125 	(Soma Disciple)
