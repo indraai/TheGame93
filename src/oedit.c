@@ -849,6 +849,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       dg_script_menu(d);
       return;
     default:
+      write_to_output(d, "\nsave:Cancel.\r");
       oedit_disp_menu(d);
       break;
     }
