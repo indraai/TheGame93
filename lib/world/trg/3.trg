@@ -13,8 +13,8 @@ end
 ~
 #302
 Sindhu Ship~
-1 n 100
-~
+1 c 100
+en~
 %echo% Sindhu Boarding.
 ~
 #336
@@ -28,5 +28,12 @@ SOMA SECURITY~
 2 g 100
 ~
 %echo% security:%actor.name% %actor.class% %direction%
+~
+#363
+indra.rocks ship boarding procedure~
+2 g 100
+~
+wait 2s
+%echo% indra.rocks ship boarding procedure.
 ~
 $~
