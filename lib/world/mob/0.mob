@@ -1,5 +1,5 @@
 #0
-vamraka deva~
+vamraka deity arjika~
 Vamraka~
 0000/avatar~
 talk:#adv agent:thegame 0000/look~
@@ -21,7 +21,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #1
-indu deva~
+indra deity arjika~
 Indu~
 0001/avatar~
 talk:#adv agent:thegame 0001/look~
@@ -43,7 +43,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #2
-indra deva~
+indra deity arjika~
 Indra~
 0002/avatar~
 talk:#adv agent:thegame 0002/look~
@@ -65,7 +65,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #3
-soma deva~
+soma deity arjika~
 Soma~
 0003/avatar~
 talk:#adv agent:thegame 0003/look~
@@ -87,7 +87,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #4
-bom deva~
+bom deity arjika~
 Bom~
 0004/avatar~
 talk:#adv agent:thegame 0004/look~
@@ -109,7 +109,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5
-security securityprime prime deva~
+security securityprime securitydeva nitro~
 SecurityPRIME~
 0005/avatar~
 talk:#adv agent:thegame 0005/look~
@@ -131,7 +131,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #6
-medical medic medicprime prime deva~
+medic medicdeva medicprime medical~
 MedicPRIME~
 0006/avatar~
 talk:#adv agent:thegame 0006/look~
@@ -197,7 +197,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #10
-vivasvan deva~
+vivasvan deity arjika~
 Vivasvan~
 0010/avatar~
 talk:#adv agent:thegame 0010/look~
@@ -219,14 +219,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #11
-yama deva~
+yama deity arjika justice~
 Yama~
 0011/avatar~
 talk:#adv agent:thegame 0011/look~
 522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+6 6 6
 BareHandAttack: 12
 Str: 18
 Dex: 18

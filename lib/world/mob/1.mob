@@ -257,12 +257,12 @@ talk:#adv agent:thegame 0119/look~
 E
 T 106
 #120
-saryanavan sarya deva~
-Saryanavan~
+saryanavan sarya deity arjika~
+Sarya~
 0120/avatar~
 talk:#adv agent:thegame 0120/look
 ~
-59418 0 0 0 24 0 0 0 1000 E
+63514 0 0 0 24 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 6
@@ -320,7 +320,7 @@ SavingSpell: 2
 E
 T 106
 #125
-medic deva medicdeva d125 z1 medical nurse~
+medic medicdeva medical nurse d125 z1~
 MedicDEVA (Nurse)~
 0125/avatar~
 talk:#adv agent:thegame 0125/look
@@ -354,14 +354,25 @@ talk:#adv agent:thegame 0127/look~
 BareHandAttack: 5
 E
 #128
-red deva d128 z1~
-RedDEVA~
+sarasvati deity arjika~
+Sarasvati~
 0128/avatar~
 talk:#adv agent:thegame 0128/look~
-2056 0 0 0 16 0 0 0 0 E
-10 17 4 2d2+100 1d2+1
-100 10000
-6 6 1
+6168 0 0 0 16 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+6 6 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #129
 the_ut stephen huntley watt 1337 mayhem~
@@ -390,7 +401,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #131
-security deva guard daycare d131 z1~
+security securitydeva guard daycare d131 z1~
 SecurityDEVA D131 (Daycare)~
 0131/avatar~
 talk:#adv agent:thegame 0131/look~
@@ -417,32 +428,32 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #133
-blue deva d0133 z1~
-BlueDEVA~
+sutudri deity arjika~
+Sutudri~
 0133/avatar~
 talk:#adv agent:thegame 0133/look~
-8 0 0 0 2048 0 0 0 0 E
+6168 0 0 0 2048 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 0
+8 8 6
 E
 #134
-red deva prime d0134 z1~
-RedDEVA PRIME~
+susoma deity arjika d134 z1~
+Susoma~
 0134/avatar~
 talk:#adv agent:thegame 0134/look
 ~
-2056 0 0 0 16 0 0 0 0 E
+6168 0 0 0 16 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 6
 E
 #135
-blue deva prime d0135 z1~
-BlueDEVA PRIME~
+parusni deity arjika d135 z1~
+Parusni~
 0135/avatar
 ~
-An undefined string.
+talk:#adv agent:thegame 0135/look
 ~
 8 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -450,35 +461,48 @@ An undefined string.
 8 8 6
 E
 #136
-green deva prime d0136 z1~
-GreenDEVA PRIME~
+asikni deity arjika d136 z1~
+Asikni~
 0136/avatar~
 The Master Magi of the green order dismisses you with a wave. A Master Magi is the highest ranking magi of each order.  Of the seven orders of the Magi only 5 have Master Magi's. The orders of the purple and gray robe have yet to select a master magi as none of them are powerful enough.
 ~
-72 0 0 0 16 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 0
+6168 0 0 0 16 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #137
-black prime deva d0137 z1~
-BlackDEVA PRIME~
+gomati deity arjika z137 z1~
+Gomati~
 0137/avatar~
 talk:#adv agent:thegame 0137/look~
-8 0 0 0 16 0 0 0 0 E
+6168 0 0 0 16 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 6
+BareHandAttack: 6
 E
 #138
-yellow master deva d138 z1~
-YellowDEVA PRIME~
+arjikiya deity arjika d138 z1~
+Arjikiya~
 0138/avatar~
 talk:#adv agent:thegame 0138/look~
-8 0 0 0 16 0 0 0 0 E
+6168 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 6
+BareHandAttack: 5
 E
 #139
 kibo james parry 1337 kibo~
@@ -516,18 +540,18 @@ talk:#adv agent:thegame 0141/look
 8 8 1
 E
 #142
-green deva d0142 z1~
-GreenDEVA~
+vitasta deity arjika d142 z1~
+Vitasta~
 0142/avatar~
-A member of the green magi flies past, literally. Another magi out for some spell testing it seems.  They constantly expand their knowledge.  Seeking to invent some new spell to help restore the balance that Drakkar ruined.
+An undefined string.
 ~
-72 0 0 0 0 0 0 0 600 E
+6168 0 0 0 2048 0 0 0 600 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1
+8 8 6
 E
 #143
-security deva securitydeva patrol d143 z1~
+security securitydeva patrol d143 z1~
 SecurityDEVA D143 (Patrol)~
 0143/avatar~
 talk:#adv agent:thegame 0143/look~
@@ -543,37 +567,59 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #144
-black deva blackdeva d0144 z1~
-BlackDEVA~
+yamuna deity arjika~
+Yamuna~
 0144/avatar~
 talk:#adv agent:thegame 0144/look~
-8 0 0 0 2048 0 0 0 600 E
+6168 0 0 0 2048 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1
+8 8 6
 E
 #145
-yellow deva yellowdeva d0145 z1~
-YellowDEVA~
+ganga deity arjika~
+Ganga~
 0145/avatar~
 talk:#adv agent:thegame 0145/look~
-8 0 0 0 2048 0 0 0 600 E
-14 16 1 2d2+140 2d2+2
-140 19600
-8 8 1
+6168 0 0 0 2048 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #146
-gray deva graydeva d0146 z1~
-GrayDEVA~
+mehatnu deity arjika~
+Mehatnu~
 0146/avatar~
 talk:#adv agent:thegame 0146/look~
-72 0 0 0 16 0 0 0 600 E
-14 16 1 2d2+140 2d2+2
-140 19600
-8 8 1
+6168 0 0 0 16 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #147
-logan ufo.cafe service deva~
+logan ufo.cafe servicedeva~
 Logan~
 0147/avatar~
 #adv agent:thegame 0147/look
@@ -590,14 +636,25 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #148
-purple deva purpledeva d0148 z1~
-PurpleDEVA~
+sindhu deity arjika~
+Sindhu~
 0148/avatar~
 talk:#adv agent:thegame 0148/look~
-72 0 0 0 16 0 0 0 -400 E
-15 15 1 3d3+150 2d2+2
-150 22500
-8 8 1
+6168 0 0 0 16 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #149
 sergeant arjika arjikiya sergeant military a0149 z3~
@@ -730,7 +787,7 @@ talk:#adv agent:thegame 0160/look
 8 8 1
 E
 #161
-service deva servicedeva d161 z1~
+service servicedeva d161 z1~
 ServiceDEVA D161~
 0161/avatar~
 talk:#adv agent:thegame 0161/look
@@ -896,7 +953,7 @@ talk:#adv agent:thegame 0172/look~
 BareHandAttack: 8
 E
 #173
-security deva securitydeva guard d173 z1~
+security securitydeva guard d173 z1~
 SecurityDEVA D173 (Agency)~
 0173/avatar~
 talk:#adv agent:thegame 0173/look~
@@ -907,7 +964,7 @@ talk:#adv agent:thegame 0173/look~
 E
 T 133
 #174
-security deva securitydeva agency d174 z1~
+security securitydeva agency d174 z1~
 SecurityDEVA D174 (Agency)~
 0174/avatar~
 talk:#adv agent:thegame 0174/look~
@@ -918,7 +975,7 @@ talk:#adv agent:thegame 0174/look~
 E
 T 133
 #175
-security deva securitydeva guard paul blart d175 z1~
+security securitydeva guard d175 z1~
 SecurityDEVA D175 (Guard)~
 0175/avatar~
 talk:#adv agent:thegame 0175/look~
@@ -949,7 +1006,7 @@ talk:#adv agent:thegame 0176/look~
 8 8 1
 E
 #177
-security deva securitydeva cyber d0177 z1~
+security securitydeva cyber d177 z1~
 SecurityDEVA D177 (Cyber)~
 0177/avatar~
 talk:#adv agent:thegame 0177/look~
@@ -1001,7 +1058,7 @@ talk:#adv agent:thegame 0180/look~
 8 8 1
 E
 #181
-security deva securitydeva lookout d181 z1~
+security securitydeva lookout d181 z1~
 SecurityDEVA D181 (Lookout)~
 0181/avatar~
 talk:#adv agent:thegame 0181/look~
@@ -1065,7 +1122,7 @@ SavingSpell: 1
 E
 T 106
 #186
-medit deva medicdeva medical nurse d186 z1~
+medic medicdeva medical nurse d186 z1~
 MedicDEVA (Nurse)~
 0186/avatar~
 talk:#adv agent:thegame 0186/look~
