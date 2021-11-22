@@ -729,6 +729,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'n':
     case 'N':
+      write_to_output(d, "\nsave:Cancel.\r");
       /* If not saving, we must free the script_proto list. */
       OLC_OBJ(d)->proto_script = OLC_SCRIPT(d);
       free_proto_script(OLC_OBJ(d), OBJ_TRIGGER);
@@ -736,6 +737,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'a': /* abort quit */
     case 'A':
+      write_to_output(d, "\nsave:Abort.\r");
       oedit_disp_menu(d);
       return;
     default:
@@ -849,7 +851,6 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       dg_script_menu(d);
       return;
     default:
-      write_to_output(d, "\nsave:Cancel.\r");
       oedit_disp_menu(d);
       break;
     }
