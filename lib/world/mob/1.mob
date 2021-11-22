@@ -257,14 +257,14 @@ talk:#adv agent:thegame 0119/look~
 E
 T 106
 #120
-saryanavan sarya deity arjika~
+saryanavan sarya visvedevas deity~
 Sarya~
 0120/avatar~
 talk:#adv agent:thegame 0120/look
 ~
-63514 0 0 0 24 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
+6168 0 0 0 24 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
 8 8 6
 BareHandAttack: 9
 Str: 18
@@ -273,11 +273,11 @@ Int: 18
 Wis: 18
 Con: 18
 Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #121
 guildmaster master monk~
@@ -354,7 +354,7 @@ talk:#adv agent:thegame 0127/look~
 BareHandAttack: 5
 E
 #128
-sarasvati deity arjika~
+sarasvati visvedeva diety~
 Sarasvati~
 0128/avatar~
 talk:#adv agent:thegame 0128/look~
@@ -428,7 +428,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #133
-sutudri deity arjika~
+sutudri visvedeva deity~
 Sutudri~
 0133/avatar~
 talk:#adv agent:thegame 0133/look~
@@ -438,18 +438,29 @@ talk:#adv agent:thegame 0133/look~
 8 8 6
 E
 #134
-susoma deity arjika d134 z1~
+susoma visvedevas deity~
 Susoma~
 0134/avatar~
 talk:#adv agent:thegame 0134/look
 ~
-6168 0 0 0 16 0 0 0 0 E
+6168 0 0 0 16 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #135
-parusni deity arjika d135 z1~
+parusni visvedevas diety~
 Parusni~
 0135/avatar
 ~
@@ -461,7 +472,7 @@ talk:#adv agent:thegame 0135/look
 8 8 6
 E
 #136
-asikni deity arjika d136 z1~
+asikni visvedevas deity~
 Asikni~
 0136/avatar~
 The Master Magi of the green order dismisses you with a wave. A Master Magi is the highest ranking magi of each order.  Of the seven orders of the Magi only 5 have Master Magi's. The orders of the purple and gray robe have yet to select a master magi as none of them are powerful enough.
@@ -483,18 +494,29 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #137
-gomati deity arjika z137 z1~
+gomati visvedevas deity~
 Gomati~
 0137/avatar~
 talk:#adv agent:thegame 0137/look~
-6168 0 0 0 16 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
+6168 0 0 0 16 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
 8 8 6
 BareHandAttack: 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #138
-arjikiya deity arjika d138 z1~
+arjikiya visvedevas deity~
 Arjikiya~
 0138/avatar~
 talk:#adv agent:thegame 0138/look~
@@ -540,15 +562,26 @@ talk:#adv agent:thegame 0141/look
 8 8 1
 E
 #142
-vitasta deity arjika d142 z1~
+vitasta visvedevas deity~
 Vitasta~
 0142/avatar~
 An undefined string.
 ~
-6168 0 0 0 2048 0 0 0 600 E
-13 16 2 2d2+130 2d2+2
-130 16900
+6168 0 0 0 2048 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
 8 8 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 #143
 security securitydeva patrol d143 z1~
@@ -567,7 +600,7 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #144
-yamuna deity arjika~
+yamuna visvedeva deity~
 Yamuna~
 0144/avatar~
 talk:#adv agent:thegame 0144/look~
@@ -577,7 +610,7 @@ talk:#adv agent:thegame 0144/look~
 8 8 6
 E
 #145
-ganga deity arjika~
+ganga visvedeva deity~
 Ganga~
 0145/avatar~
 talk:#adv agent:thegame 0145/look~
@@ -598,7 +631,7 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #146
-mehatnu deity arjika~
+mehatnu visvedeva deity~
 Mehatnu~
 0146/avatar~
 talk:#adv agent:thegame 0146/look~
@@ -636,7 +669,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #148
-sindhu deity arjika~
+sindhu deity visvedeva~
 Sindhu~
 0148/avatar~
 talk:#adv agent:thegame 0148/look~

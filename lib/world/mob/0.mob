@@ -1,9 +1,9 @@
 #0
-vamraka deity arjika~
+vamraka visvedevas deity~
 Vamraka~
 0000/avatar~
 talk:#adv agent:thegame 0000/look~
-518170 0 0 0 26744 0 0 0 1000 E
+518170 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 6 6 6
@@ -21,13 +21,13 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #1
-indra deity arjika~
+indu visvedevas deity~
 Indu~
 0001/avatar~
 talk:#adv agent:thegame 0001/look~
-518298 0 0 0 26744 0 0 0 1000 E
-33 9 -9 6d6+330 5d5+5
-330 108900
+518298 0 0 0 2424 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
 6 6 6
 BareHandAttack: 10
 Str: 18
@@ -43,14 +43,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #2
-indra deity arjika~
+indra visvedevas deity~
 Indra~
 0002/avatar~
 talk:#adv agent:thegame 0002/look~
-522522 0 0 0 2168 0 0 0 1000 E
+6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-6 6 6
+8 8 6
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -65,14 +65,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #3
-soma deity arjika~
+soma visvedevas deity~
 Soma~
 0003/avatar~
 talk:#adv agent:thegame 0003/look~
-522522 0 0 0 2168 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-6 6 6
+6168 0 0 0 2168 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -87,14 +87,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #4
-bom deity arjika~
+bom visvedevas deity~
 Bom~
 0004/avatar~
 talk:#adv agent:thegame 0004/look~
-522522 0 0 0 2168 0 0 0 1000 E
+6168 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 6
+8 8 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -197,14 +197,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #10
-vivasvan deity arjika~
+vivasvan visvedevas deity~
 Vivasvan~
 0010/avatar~
 talk:#adv agent:thegame 0010/look~
-518170 0 0 0 2168 0 0 0 1000 E
+6168 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 6
+8 8 6
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -219,7 +219,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #11
-yama deity arjika justice~
+yama visvedevas deity justice~
 Yama~
 0011/avatar~
 talk:#adv agent:thegame 0011/look~
