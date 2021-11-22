@@ -332,47 +332,60 @@ talk:#adv agent:thegame 0125/look
 BareHandAttack: 4
 E
 #126
-spy arjika deva~
-the Spy~
+rasa visvedevas deity~
+Rasa~
 0126/avatar~
-An man dressed all in black stalks past you. A hired sword, this guy specializes in the elimination of pests.  Of course his price is high, but many think it is well worth it.  Have someone you would rather see dead?  Just ask this guy for some help.
+talk:#adv agent:thegame 0126/look
 ~
-18520 0 0 0 524368 0 0 0 0 E
+6168 0 0 0 80 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 6
+BareHandAttack: 6
 E
 #127
-sarya recruiting soldier military d0127 z1~
-SARYA Recruiting~
+marudvrdha visvedevas deity~
+Marudvrdha~
 0127/avatar~
 talk:#adv agent:thegame 0127/look~
-260378 0 0 0 8 0 0 0 0 E
-10 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
+6168 0 0 0 8 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 6
 BareHandAttack: 5
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #128
-sarasvati visvedeva diety~
+sarasvati visvedevas deity~
 Sarasvati~
 0128/avatar~
 talk:#adv agent:thegame 0128/look~
 6168 0 0 0 16 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
-300 90000
+24 12 -4 4d4+240 4d4+4
+240 57600
 6 6 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+BareHandAttack: 11
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #129
 the_ut stephen huntley watt 1337 mayhem~
@@ -428,14 +441,26 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #133
-sutudri visvedeva deity~
+satudri visvedevas deity~
 Sutudri~
 0133/avatar~
 talk:#adv agent:thegame 0133/look~
-6168 0 0 0 2048 0 0 0 0 E
-11 17 3 2d2+110 1d2+1
-110 12100
+6168 0 0 0 2048 0 0 0 500 E
+19 14 -1 3d3+190 3d3+3
+190 36100
 8 8 6
+BareHandAttack: 8
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
 E
 #134
 susoma visvedevas deity~
@@ -444,32 +469,45 @@ Susoma~
 talk:#adv agent:thegame 0134/look
 ~
 6168 0 0 0 16 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
-300 90000
+26 12 -5 5d5+260 4d4+4
+260 67600
 8 8 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+BareHandAttack: 5
+Str: 17
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #135
-parusni visvedevas diety~
+parusni visvedevas deity~
 Parusni~
 0135/avatar
 ~
 talk:#adv agent:thegame 0135/look
 ~
-8 0 0 0 16 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
+6168 0 0 0 16 0 0 0 0 E
+18 14 0 3d3+180 3d3+3
+180 32400
 8 8 6
+BareHandAttack: 4
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
 E
 #136
 asikni visvedevas deity~
@@ -499,21 +537,21 @@ Gomati~
 0137/avatar~
 talk:#adv agent:thegame 0137/look~
 6168 0 0 0 16 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
-300 90000
+25 12 -5 5d5+250 4d4+4
+250 62500
 8 8 6
 BareHandAttack: 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #138
 arjikiya visvedevas deity~
@@ -551,15 +589,27 @@ BareHandAttack: 1
 E
 T 105
 #141
-arjika arjikiya corporal military a0141 z1~
-Arjika Corporal~
+kubha visvedevas deity~
+Kubha~
 0141/avatar~
 talk:#adv agent:thegame 0141/look
 ~
-2072 0 0 0 24 0 0 0 900 E
-13 16 2 2d2+130 2d2+2
-130 16900
+6168 0 0 0 24 0 0 0 500 E
+24 12 -4 4d4+240 4d4+4
+240 57600
 8 8 1
+BareHandAttack: 13
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #142
 vitasta visvedevas deity~
@@ -600,7 +650,7 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #144
-yamuna visvedeva deity~
+yamuna visvedevas deity~
 Yamuna~
 0144/avatar~
 talk:#adv agent:thegame 0144/look~
@@ -608,48 +658,50 @@ talk:#adv agent:thegame 0144/look~
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 6
+BareHandAttack: 5
 E
 #145
-ganga visvedeva deity~
+ganga visvedevas deity~
 Ganga~
 0145/avatar~
 talk:#adv agent:thegame 0145/look~
 6168 0 0 0 2048 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
-300 90000
+21 13 -2 4d4+210 3d3+3
+210 44100
 8 8 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #146
-mehatnu visvedeva deity~
+mehatnu visvedevas deity~
 Mehatnu~
 0146/avatar~
 talk:#adv agent:thegame 0146/look~
 6168 0 0 0 16 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
-300 90000
+23 13 -3 4d4+230 3d3+3
+230 52900
 8 8 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+BareHandAttack: 8
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #147
 logan ufo.cafe servicedeva~
@@ -669,14 +721,15 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #148
-sindhu deity visvedeva~
+sindhu visvedevas deity~
 Sindhu~
 0148/avatar~
 talk:#adv agent:thegame 0148/look~
-6168 0 0 0 16 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
+6168 0 0 0 2064 0 0 0 500 E
+27 10 -8 6d6+300 5d5+5
 300 90000
 8 8 6
+BareHandAttack: 6
 Str: 18
 Dex: 18
 Int: 18
@@ -809,15 +862,16 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #160
-arjika arjikiya analyst military a0160 z1~
-Arjika Analyst~
+krumu visvedevas deity~
+Krumu~
 0160/avatar~
 talk:#adv agent:thegame 0160/look
 ~
-22538 0 0 0 2168 0 0 0 1000 E
+6168 0 0 0 2120 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 6
+BareHandAttack: 7
 E
 #161
 service servicedeva d161 z1~
@@ -1029,14 +1083,26 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #176
-sergeant arjika arjikiya military a176 z3~
-Arjika Gunney Sergeant~
+svetya visvedevas deity~
+Svetya~
 0176/avatar~
 talk:#adv agent:thegame 0176/look~
-72 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1
+6168 0 0 0 24 0 0 0 0 E
+23 13 -3 4d4+230 3d3+3
+230 52900
+8 8 6
+BareHandAttack: 11
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #177
 security securitydeva cyber d177 z1~
@@ -1071,14 +1137,15 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #179
-private arjika arjikiya a0178 military z1~
-Arjika Private~
+susartu visvedevas deity~
+Susartu~
 0179/avatar~
 talk:#adv agent:thegame 0179/look~
-72 0 0 0 0 0 0 0 1000 E
+6168 0 0 0 2048 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1
+8 8 6
+BareHandAttack: 10
 E
 #180
 peter thiel mater high councillor palantir 1337~
@@ -1191,14 +1258,26 @@ talk:#adv agent:thegame 0188/look~
 8 8 1
 E
 #189
-commander arjika arjikiya military a0189 z1~
-Arjika Commander~
+trstama visvedevas deity~
+Trstama~
 0189/avatar~
 talk:#adv agent:thegame 0189/look~
-2058 0 0 0 0 0 0 0 1000 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1
+6170 0 0 0 64 0 0 0 500 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 6
+BareHandAttack: 9
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #190
 tyler dangerous pm2012 1337~
