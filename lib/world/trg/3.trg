@@ -11,6 +11,20 @@ if %actor.is_pc%
   end
 end
 ~
+#302
+Sindhu Ship~
+1 c 100
+enter~
+if %arg% == SindhuVI
+  %send% %actor% You enter the SindhuVI.
+  wait 1s
+  %teleport% %actor% 1000
+  wait 1s
+  %force% %actor% look
+else
+  %send% %actor% Enter what?
+end
+~
 #336
 SARYA SECURITY~
 2 g 100
