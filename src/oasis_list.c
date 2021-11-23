@@ -173,7 +173,7 @@ static void perform_obj_type_list(struct char_data * ch, char *arg)
           case ITEM_STAFF:
             v1 = (obj_proto[num].obj_flags.value[1]);
             v2 = (obj_proto[num].obj_flags.value[3]);
-            tmp_len = snprintf(buf+len, sizeof(buf)-len,"\n%d. %d %dx %s\r",
+            tmp_len = snprintf(buf+len, sizeof(buf)-len,"\n%d. %d %d (%s) %s\r",
                  ++found, ov, v1, skill_name(v2), obj_proto[r_num].short_description);
             break;
 
