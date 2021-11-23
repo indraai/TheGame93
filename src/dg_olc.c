@@ -204,15 +204,15 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "# Trigger %d\r\n"
-  "select[1:name]:%s\r\n"
-  "select[2:attach]:%s\r\n"
-  "select[3:types]:%s\r\n"
-  "select[4:num arg]:%d\r\n"
-  "select[5:arguments]:%s\r\n"
-  "select[6:commands]: %s\r\n"
-  "menu[copy trigger]:p\r\n"
-  "menu[quit]:0\r\n",
+  "\n# Trigger: %d\r"
+  "\nselect[1:name]:%s\r"
+  "\nselect[2:attach]:%s\r"
+  "\nselect[3:types]:%s\r"
+  "\nselect[4:num arg]:%d\r"
+  "\nselect[5:arguments]:%s\r"
+  "\nselect[6:commands]: %s\r"
+  "\nmenu[copy trigger]:p\r"
+  "\nmenu[quit]:0\r",
   OLC_NUM(d), 			              /* vnum on the title line */
   GET_TRIG_NAME(trig),		        /* name                   */
   attach_type,			              /* attach type            */
@@ -247,16 +247,16 @@ static void trigedit_disp_types(struct descriptor_data *d)
 
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "## Attach\r\n");
+  write_to_output(d, "\n## Attach\r");
   for (i = 0; i < NUM_TRIG_TYPE_FLAGS; i++) {
-    write_to_output(d, "menu[%s]:%d\r\n",
+    write_to_output(d, "\nmenu[%s]:%d\r",
       types[i],
       i + 1
     );
   }
   sprintbit(GET_TRIG_TYPE(OLC_TRIG(d)), types, bitbuf, sizeof(bitbuf));
-  write_to_output(d, "current:%s\r\n"
-    "menu[quit]:0",
+  write_to_output(d, "\ncurrent:%s\r"
+    "\nmenu[quit]:0\r",
     bitbuf
   );
 
@@ -272,23 +272,23 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
        case '0':
          if (OLC_VAL(d)) { /* Anything been changed? */
            if (!GET_TRIG_TYPE(OLC_TRIG(d))) {
-             write_to_output(d, "Invalid Trigger Type! Answer a to abort quit!\r\n");
+             write_to_output(d, "\nInvalid Trigger Type! Answer a to abort quit!\r");
            }
-           write_to_output(d, "%s\r\n", confirm_msg);
+           write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
            cleanup_olc(d, CLEANUP_ALL);
          return;
        case '1':
          OLC_MODE(d) = TRIGEDIT_NAME;
-         write_to_output(d, "What is the trigger name?\r\n");
+         write_to_output(d, "\nWhat is the trigger name?");
          break;
        case '2':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
-         write_to_output(d, "## Attach"
-          "menu[mobiles]:0\r\n"
-          "menu[objects]:1\r\n"
-          "menu[rooms]:2\r\n");
+         write_to_output(d, "\n## Attach\r"
+          "\nmenu[mobiles]:0\r"
+          "\nmenu[objects]:1\r"
+          "\nmenu[rooms]:2\r");
          break;
        case '3':
          OLC_MODE(d) = TRIGEDIT_TYPES;
@@ -296,7 +296,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          break;
        case '4':
          OLC_MODE(d) = TRIGEDIT_NARG;
-         write_to_output(d, "What is the numeric argument?\r\n");
+         write_to_output(d, "\nWhat is the numeric argument?\r\n");
          break;
        case '5':
          OLC_MODE(d) = TRIGEDIT_ARGUMENT;
