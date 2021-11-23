@@ -859,8 +859,8 @@ void print_zone(struct char_data *ch, zone_vnum vnum)
     "\nobjects:%d\r"
     "\nagents:%d\r"
     "\nshops:%d\r"
-    "\ntriggers%d\r"
-    "\nquests:%d%s\r",
+    "\ntriggers:%d\r"
+    "\nquests:%d\r",
     zone_table[rnum].number,
     zone_table[rnum].name,
     zone_table[rnum].builders,
