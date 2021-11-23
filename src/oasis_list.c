@@ -199,7 +199,7 @@ static void perform_obj_type_list(struct char_data * ch, char *arg)
               tmp_len = snprintf(buf+len, sizeof(buf)-len,"\n%d. %d (Max: %d)%s\r",
                    ++found, ov, v1, obj_proto[r_num].short_description);
             else
-              tmp_len = snprintf(buf+len, sizeof(buf)-len,"\nd. %d %s\r",
+              tmp_len = snprintf(buf+len, sizeof(buf)-len,"\n%d. %d %s\r",
                    ++found, ov, obj_proto[r_num].short_description);
             break;
 
