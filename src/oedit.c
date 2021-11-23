@@ -317,9 +317,9 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	  "\n## Tags\r"
-	  "\nselect[a:tag]:%s\r"
-	  "\nselect[b:desc]:%s\r"
-	  "\nselect[c:next desc]:%s\r"
+	  "\nselect[1:tag]:%s\r"
+	  "\nselect[2:desc]:%s\r"
+	  "\nselect[3:next desc]:%s\r"
 	  "\nmenu[quit]:0\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
@@ -1156,12 +1156,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       }
       break;
 
-    case 'a':
+    case 1:
       OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
       write_to_output(d, "\nPlease enter keywords...\r");
       return;
 
-    case 'b':
+    case 2:
       OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "Pleae enter the extra description:\r\n");
@@ -1173,7 +1173,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
       return;
 
-    case 'c':
+    case 3:
       /* Only go to the next description if this one is finished. */
       if (OLC_DESC(d)->keyword && OLC_DESC(d)->description) {
 	       struct extra_descr_data *new_extra;
