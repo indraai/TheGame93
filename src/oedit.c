@@ -1142,33 +1142,35 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       if (!OLC_DESC(d)->keyword || !OLC_DESC(d)->description) {
         struct extra_descr_data *temp;
 
-	if (OLC_DESC(d)->keyword)
-	  free(OLC_DESC(d)->keyword);
-	if (OLC_DESC(d)->description)
-	  free(OLC_DESC(d)->description);
+	      if (OLC_DESC(d)->keyword) {
+          free(OLC_DESC(d)->keyword);
+        }
+	      if (OLC_DESC(d)->description) {
+          free(OLC_DESC(d)->description);
+        }
 
-	/* Clean up pointers */
-	REMOVE_FROM_LIST(OLC_DESC(d), OLC_OBJ(d)->ex_description, next);
-	free(OLC_DESC(d));
-	OLC_DESC(d) = NULL;
+	      /* Clean up pointers */
+	      REMOVE_FROM_LIST(OLC_DESC(d), OLC_OBJ(d)->ex_description, next);
+	      free(OLC_DESC(d));
+	      OLC_DESC(d) = NULL;
       }
-    break;
+      break;
 
     case 'a':
-      OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
       write_to_output(d, "\nPlease enter keywords, separated by spaces.\r");
+      OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
       break;
 
     case 'b':
-      OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "Pleae enter the extra description:\r\n");
       if (OLC_DESC(d)->description) {
-	write_to_output(d, "%s", OLC_DESC(d)->description);
-	oldtext = strdup(OLC_DESC(d)->description);
+        write_to_output(d, "%s", OLC_DESC(d)->description);
+        oldtext = strdup(OLC_DESC(d)->description);
       }
       string_write(d, &OLC_DESC(d)->description, MAX_MESSAGE_LENGTH, 0, oldtext);
       OLC_VAL(d) = 1;
+      OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       break;
 
     case 'c':
