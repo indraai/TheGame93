@@ -682,7 +682,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[l:timer]:%d\r"
     "\nselect[m:min level]:%d\r"
 	  "\nselect[n:liquid]:%d %d %d %d\r"
-	  "\nselect[o:extra]:%s\r"
+	  "\nselect[o:tags]:%s\r"
     "\nselect[p:affects]:%s\r"
 	  "\nselect[q:script]:%s\r"
     "\nbmud[applies]:1\r"
@@ -1157,7 +1157,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'a':
       OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
       write_to_output(d, "\nPlease enter keywords, separated by spaces.\r");
-      return;
+      break;
 
     case 'b':
       OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
@@ -1169,7 +1169,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       }
       string_write(d, &OLC_DESC(d)->description, MAX_MESSAGE_LENGTH, 0, oldtext);
       OLC_VAL(d) = 1;
-      return;
+      break;
 
     case 'c':
       /* Only go to the next description if this one is finished. */
@@ -1189,7 +1189,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       /* No break - drop into default case. */
     default:
       oedit_disp_extradesc_menu(d);
-      return;
+      break;
     }
     break;
 
