@@ -919,7 +919,7 @@ int format_script(struct descriptor_data *d)
       nlen += 2;
     }
 
-    ret = snprintf(line + nlen, sizeof(line) - nlen, "\n%s\r", t);
+    ret = snprintf(line + nlen, sizeof(line) - nlen, "%s", t);
     llen = (size_t)ret;
     if (ret < 0 || llen + nlen + len > d->max_str - 1 ) {
       write_to_output(d, "\ninfo:String too long, formatting aborted\r");

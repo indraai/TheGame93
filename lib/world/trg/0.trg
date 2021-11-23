@@ -6,88 +6,30 @@ Non-attachable trigger~
 ~
 * You can't attach trigger 0!
 ~
-#1
-
-
-Arjika Soldier~
-0 b 50
-~
-set room %self.room%
-set people %room.people%
-set dir %random.dir%
-%echo% security:%self.name% A%self.vnum% > R%room.vnum% going %dir%
-set msg[0] Connect... #Arjika #Military to #Earth #Systems.
-eval themsg %%msg[%random.1%]%% %room.name% #R%room.vnum% #%dir%
-say %themsg%
-wait %random.10% s
-%dir%
-~
 #2
-
 indra.academy r2~
 2 g 100
 ~
+set msg[0] Welcome to indra.academy
+set msg[1] At the Academy you can take several paths to learning.
+set msg[2] You can start your path to becoming a Vedic Monks or Priest.
+set msg[3] There are courses on various Deity Houses.
+set msg[4] If you would like a list of courses ask the room to list them for you.
+
 wait 2s
+%echo% msg[0]
+wait 1s
+%echo% msg[1]
+wait 1s
+%echo% msg[2]
+wait 1
+%echo% msg[3]
+wait 1s
+%echo% msg[4]
+
 %echo% You are entering ROOM %self.vnum% %self.name%
 ~
-#3
-
-
-PM2013~
-0 b 50
-~
-set room %self.room%
-set msg[0] Read the Project Mayhem 2013 Revelations here... https://j.mp/39GszNa
-if %actor.is_pc%
-  eval themsg %%msg[%random.1%]%% #R%room.vnum%
-  say %themsg%
-  wait 60 sec
-end
-~
-#4
-
-
-TheGame23~
-0 bg 50
-~
-set room %self.room%
-set msg[0] Make sure to read the original #TheGame23 pastebin located at... https://j.mp/3CO3NXZ
-if %actor.is_pc%
-  eval themsg %%msg[%random.1%]%%
-  wait 3 sec
-  say %themsg%
-end
-~
-#5
-
-
-PM2020~
-0 b 50
-~
-set room %self.room%
-set msg[0] IT has been called THE BOOK, THE PLAN,THE PROJECT, THE GAME.
-while %actor.is_pc%
-  eval themsg %%msg[%random.1%]%% #R%room.vnum%
-  say %themsg%
-  wait 60 sec
-end
-~
-#6
-
-
-ethersec~
-0 b 50
-~
-set room %self.room%
-set msg[0] This is a message to all Searchers, Watchers, Activists, Hactivists, Urban Shamans, and Catalysts.
-if %actor.is_pc%
-  eval themsg %%msg[%random.1%]%% #R%room.vnum%
-  say %themsg%
-end
-~
 #95
-
-
 Arjika Dayshift~
 0 t 100
 ~
@@ -106,8 +48,6 @@ else if %bedtime%
 end
 ~
 #96
-
-
 Arjika Nightshift~
 0 t 100
 ~
@@ -126,9 +66,7 @@ else if %bedtime%
 end
 ~
 #97
-
-
-Outfit Soldier~
+Outfit Player~
 2 g 100
 ~
 if %actor.is_pc%
@@ -221,8 +159,6 @@ if %actor.is_pc%
 end
 ~
 #99
-
-
 Obj Command 82 - Teleporter~
 1 c 3
 teleport~
