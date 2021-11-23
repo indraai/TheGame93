@@ -280,6 +280,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
+           write_to_output(d, "\nsave:No changes made.\r");
            cleanup_olc(d, CLEANUP_ALL);
          return;
        case '1':
@@ -340,7 +341,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
           write_to_output(d, "\nsave:Trigger saved to disk.\r");
           /* fall through */
         case 'n':
-          write_to_output(d, "\nsave:No changes made.\r");
+          write_to_output(d, "\nsave:Trigger not saved.\r");
           cleanup_olc(d, CLEANUP_ALL);
           return;
         case 'a': /* abort quitting */
@@ -645,7 +646,6 @@ void trigedit_save(struct descriptor_data *d)
   remove(buf);
   rename(fname, buf);
 
-  write_to_output(d, "\nsave:Trigger saved to disk.\r");
   trigedit_create_index(zone, "trg");
 }
 
