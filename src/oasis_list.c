@@ -905,19 +905,19 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
     /** Check to see if this room is one of the ones needed to be listed.    **/
     if ((trig_index[i]->vnum >= bottom) && (trig_index[i]->vnum <= top)) {
       counter++;
-      send_to_char(ch, "\n%d. %s\r",
+      send_to_char(ch, "\n%d. %s",
         trig_index[i]->vnum,
         trig_index[i]->proto->name);
 
       if (trig_index[i]->proto->attach_type == OBJ_TRIGGER) {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), otrig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\nobj:%s\r", trgtypes);
+        send_to_char(ch, " (obj:%s)\r", trgtypes);
       } else if (trig_index[i]->proto->attach_type==WLD_TRIGGER) {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), wtrig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\nwld:%s\r", trgtypes);
+        send_to_char(ch, " (wld:%s)\r", trgtypes);
       } else {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), trig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\nmob:%s\r", trgtypes);
+        send_to_char(ch, " (mob:%s)\r", trgtypes);
       }
 
     }
