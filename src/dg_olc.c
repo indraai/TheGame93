@@ -210,7 +210,10 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nselect[3:types]:%s\r"
   "\nselect[4:num arg]:%d\r"
   "\nselect[5:arguments]:%s\r"
-  "\nselect[6:code]: Edit Code...\n%s\r"
+  "\nselect[6:code]: Edit Code...\r"
+  "\n::begin:code\r"
+  "\n%s\r"
+  "\n::end:code\r"
   "\nmenu[copy trigger]:p\r"
   "\nmenu[quit]:0\r",
   OLC_NUM(d), 			              /* vnum on the title line */
