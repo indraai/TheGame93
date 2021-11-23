@@ -441,7 +441,7 @@ static void oedit_disp_val1_menu(struct descriptor_data *d)
     write_to_output(d, "\nApply to AC?\r");
     break;
   case ITEM_CONTAINER:
-    write_to_output(d, "What is the max weight it can contain? (-1 for unlimited)\r");
+    write_to_output(d, "\nWhat is the max weight it can contain? (-1 for unlimited)\r");
     break;
   case ITEM_DRINKCON:
   case ITEM_FOUNTAIN:

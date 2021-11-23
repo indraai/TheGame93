@@ -521,7 +521,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n::begin:buttons\r"
-      "\nbmud[extra tags]:t\r"
+      "\nbmud[tags]:t\r"
       "\nbmud[copy room]:p\r"
       "\nbmud[delete room]:x\r"
       "\n::end:buttons\r"
