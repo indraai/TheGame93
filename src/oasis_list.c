@@ -629,7 +629,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
     top    = vmax;
   }
 
-  len = strlcpy(buf,"\n## Agents\r", sizeof(buf));
+  send_to_char(ch, "\n## Agents\r");
 
   if (!top_of_mobt)
     return;
@@ -637,21 +637,18 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
   for (i = 0; i <= top_of_mobt; i++) {
     if (mob_index[i].vnum >= bottom && mob_index[i].vnum <= top) {
       counter++;
-
-      len += snprintf(buf + len, sizeof(buf) - len, "\n%d. %d %s\r",
+      send_to_char(ch, "\n%d. %d %s%s\r",
         counter,
         mob_index[i].vnum,
-        mob_proto[i].player.short_descr
+        mob_proto[i].player.short_descr,
+        mob_proto[i].proto_script ? " *trig" : ""
       );
-
-      if (len > sizeof(buf)) break;
     }
   }
 
-  if (counter == 0)
+  if (counter == 0) {
     send_to_char(ch, "\ninfo:No Agents.\r");
-  else
-    page_string(ch->desc, buf, TRUE);
+  }
 }
 
 /* List all objects in a zone. */
@@ -671,7 +668,7 @@ static void list_objects(struct char_data *ch, zone_rnum rnum, obj_vnum vmin, ob
     top    = vmax;
   }
 
-  len = strlcpy(buf, "\n## Objects\r", sizeof(buf));
+  send_to_char(ch, "\n## Objects\r");
 
   if (!top_of_objt)
     return;
@@ -680,23 +677,19 @@ static void list_objects(struct char_data *ch, zone_rnum rnum, obj_vnum vmin, ob
     if (obj_index[i].vnum >= bottom && obj_index[i].vnum <= top) {
       counter++;
 
-      len += snprintf(buf + len, sizeof(buf) - len, "\n%d. %d %s (%s)%s\r",
-         counter,
-         obj_index[i].vnum,
-         obj_proto[i].short_description,
-         item_types[obj_proto[i].obj_flags.type_flag],
-         obj_proto[i].proto_script ? " *trig" : ""
+      send_to_char(ch, "\n%d. %d %s (%s)%s\r",
+        counter,
+        obj_index[i].vnum,
+        obj_proto[i].short_description,
+        item_types[obj_proto[i].obj_flags.type_flag],
+        obj_proto[i].proto_script ? " *trig" : ""
       );
-
-      if (len > sizeof(buf))
-		break;
     }
   }
 
-  if (counter == 0)
+  if (counter == 0) {
     send_to_char(ch, "\ninfo:None found.\r");
-  else
-    page_string(ch->desc, buf, TRUE);
+  }
 }
 
 /* List all shops in a zone. */
@@ -733,8 +726,9 @@ static void list_shops(struct char_data *ch, zone_rnum rnum, shop_vnum vmin, sho
     }
   }
 
-  if (counter == 0)
-    send_to_char(ch, "\nNone found.\r");
+  if (counter == 0) {
+    send_to_char(ch, "\ninfo:None found.\r");
+  }
 }
 
 /* List all zones in the world (sort of like 'show zones'). */
@@ -795,7 +789,7 @@ void print_zone(struct char_data *ch, zone_vnum vnum)
   char buf[MAX_STRING_LENGTH];
 
   if ((rnum = real_zone(vnum)) == NOWHERE) {
-    send_to_char(ch, "Zone #%d does not exist in the database.\r\n", vnum);
+    send_to_char(ch, "\ninfo:Zone #%d does not exist in the database.\r", vnum);
     return;
   }
 
@@ -905,7 +899,8 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
     /** Check to see if this room is one of the ones needed to be listed.    **/
     if ((trig_index[i]->vnum >= bottom) && (trig_index[i]->vnum <= top)) {
       counter++;
-      send_to_char(ch, "\n%d. %s",
+      send_to_char(ch, "\n%d. %d %s",
+        counter,
         trig_index[i]->vnum,
         trig_index[i]->proto->name);
 
