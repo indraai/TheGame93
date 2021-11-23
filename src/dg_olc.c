@@ -280,7 +280,6 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
-           write_to_output(d, "\nsave:No changes made.\r");
            cleanup_olc(d, CLEANUP_ALL);
          return;
        case '1':
@@ -338,10 +337,9 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
           mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
                  "OLC: %s edits trigger %d", GET_NAME(d->character),
                  OLC_NUM(d));
-          write_to_output(d, "\nsave:Trigger saved to disk.\r");
           /* fall through */
         case 'n':
-          write_to_output(d, "\nsave:Trigger not saved.\r");
+          write_to_output(d, "\nsave:No changes made.\r");
           cleanup_olc(d, CLEANUP_ALL);
           return;
         case 'a': /* abort quitting */
@@ -613,7 +611,7 @@ void trigedit_save(struct descriptor_data *d)
       sprintascii(bitBuf, GET_TRIG_TYPE(trig));
       fprintf(trig_file,      "\n%s%c\r"
                               "\n%d %s %d\r"
-                              "\n%s%c\r",
+                              "\n%s%c\n",
            (GET_TRIG_NAME(trig)) ? (GET_TRIG_NAME(trig)) : "unknown trigger", STRING_TERMINATOR,
            trig->attach_type,
            *bitBuf ? bitBuf : "0", GET_TRIG_NARG(trig),
@@ -646,6 +644,7 @@ void trigedit_save(struct descriptor_data *d)
   remove(buf);
   rename(fname, buf);
 
+  write_to_output(d, "\nsave:Trigger saved to disk.\r");
   trigedit_create_index(zone, "trg");
 }
 
