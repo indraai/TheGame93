@@ -1,6 +1,4 @@
 #0
-
-
 Non-attachable trigger~
 0 g 100
 ~
@@ -10,22 +8,9 @@ Non-attachable trigger~
 indra.academy r2~
 2 g 100
 ~
-set msg[0] Welcome to indra.academy
-set msg[1] At the Academy you can take several paths to learning.
-set msg[2] You can start your path to becoming a Vedic Monks or Priest.
-set msg[3] There are courses on various Deity Houses.
-set msg[4] If you would like a list of courses ask the room to list them for you.
-
+set msg Welcome to the Indra Academy. Where you learn what you want when you want and how you want based on your current level.
 wait 2s
-%echo% %msg[0]%
-wait 1s
-%echo% %msg[1]%
-wait 1s
-%echo% %msg[2]%
-wait 1
-%echo% %msg[3]%
-wait 1s
-%echo% %msg[4]%
+%echo% %msg%
 ~
 #95
 Arjika Dayshift~

@@ -21,7 +21,6 @@ talk:#adv thegame:agent 0101/look
 340 115600
 8 8 6
 E
-T 106
 #102
 parry emporium store deva~
 Parry~
@@ -33,7 +32,6 @@ talk:#adv agent:thegame 0102/look
 330 108900
 8 8 6
 E
-T 106
 #103
 cartoon builder indra.house deva~
 Cartoon Builder~
@@ -99,7 +97,6 @@ talk:#adv agent:thegame 0106/look~
 340 115600
 8 8 6
 E
-T 106
 #107
 branwen leatherworker~
 Branwen~
@@ -112,7 +109,6 @@ Using hides bought from the local farms this young man makes some of the finest 
 330 108900
 8 8 1
 E
-T 106
 #108
 sarge blacksmith~
 Sarge~
@@ -125,7 +121,6 @@ So intent on his work he seems not to notice you.  It gives you small start when
 330 108900
 8 8 1
 E
-T 106
 #109
 warry watermaster water store deva~
 Warry~
@@ -137,7 +132,6 @@ talk:#adv agent:thegame 0109/look
 340 115600
 8 8 6
 E
-T 106
 #110
 rarry email postmaster deva~
 Rarry~
@@ -154,7 +148,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 106
 #111
 narry jeweler gems jewels deva store~
 Narry~
@@ -166,7 +159,6 @@ talk:#adv agent:thegame 0111/look
 330 108900
 8 8 6
 E
-T 106
 #112
 urnavati visvedevas deity~
 Urnavati~
@@ -244,7 +236,6 @@ talk:#adv agent:thegame 0117/look~
 8 8 1
 BareHandAttack: 1
 E
-T 161
 #118
 tabitha lavery bass covenant survivance 1337~
 Tabitha Lavery (tabby)~
@@ -266,7 +257,6 @@ talk:#adv agent:thegame 0119/look~
 330 108900
 8 8 1
 E
-T 106
 #120
 saryanavan sarya visvedevas deity~
 Sarya~
@@ -329,7 +319,6 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
-T 106
 #125
 medic medicdeva medical nurse d125 z1~
 MedicDEVA (Nurse)~
@@ -598,7 +587,6 @@ Joe Lavery lives with his daughter Tabitha and is the one who talks to Mr. Dewit
 8 8 1
 BareHandAttack: 1
 E
-T 105
 #141
 kubha visvedevas deity~
 Kubha~
@@ -966,8 +954,6 @@ talk:#adv thegame:agent 0165/look
 50 2500
 8 8 1
 E
-T 129
-T 130
 #166
 rbhu rbhus general visvedevas arjika military a166 z1~
 Rbhus~
@@ -1003,7 +989,6 @@ talk:#adv agent:thegame 0168/look~
 8 8 1
 BareHandAttack: 2
 E
-T 2
 #169
 tyler mayhem tylersec pm2012 1337~
 Tyler PM2012~
@@ -1015,7 +1000,6 @@ talk:#adv agent:thegame 0169/look~
 8 8 1
 BareHandAttack: 2
 E
-T 3
 #170
 m1vr4 tg23 thegame23 anonymous 1337~
 m1Vr4~
@@ -1027,7 +1011,6 @@ talk:#adv agent:thegame 0170/look~
 8 8 1
 BareHandAttack: 5
 E
-T 4
 #171
 tyler mayhem tylersec pm2020 1337~
 Tyler (pm2020)~
@@ -1039,7 +1022,6 @@ talk:#adv agent:thegame 0171/look~
 8 8 1
 BareHandAttack: 8
 E
-T 5
 #172
 tyler mayhem ethersec tylersec 1337~
 Tyler eTHErSEC~
@@ -1061,7 +1043,6 @@ talk:#adv agent:thegame 0173/look~
 300 90000
 8 8 6
 E
-T 133
 #174
 security securitydeva agency d174 z1~
 SecurityDEVA D174 (Agency)~
@@ -1072,7 +1053,6 @@ talk:#adv agent:thegame 0174/look~
 300 90000
 8 8 6
 E
-T 133
 #175
 security securitydeva guard d175 z1~
 SecurityDEVA D175 (Guard)~
@@ -1131,7 +1111,6 @@ SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
 E
-T 133
 #178
 gail thackeray 1337 mom attorney lawyer~
 Gail Thackeray (mom)~
@@ -1216,7 +1195,6 @@ talk:#adv agent:thegame 0184/look~
 340 115600
 8 8 1
 E
-T 106
 #185
 soma disciple susoma monk~
 Soma Disciple~
@@ -1233,7 +1211,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 106
 #186
 medic medicdeva medical nurse d186 z1~
 MedicDEVA (Nurse)~
@@ -1259,7 +1236,6 @@ talk:#adv agent:thegame 0187/look~
 340 115600
 8 8 6
 E
-T 106
 #188
 quinn fazigu schmoo 1337~
 Quinn (fazigu)~
@@ -1380,7 +1356,6 @@ talk:#adv agent:thegame 0197/look~
 210 44100
 8 8 1
 E
-T 106
 #198
 vamraka disciple monk~
 Vamraka Disciple~
