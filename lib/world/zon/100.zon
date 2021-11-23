@@ -2,13 +2,14 @@
 CYOA~
 Underground Kingdom~
 1000 1999 15 2 d 0 0 0 -1 -1
+M 0 1000 1 1001 	(Gunnar Larsen)
+M 0 1001 1 1001 	(Dr. Sneed)
+O 0 1000 99 1001 	(Signal Transmitter)
+O 0 1001 99 1001 	(Transmitter Display)
+O 0 1003 99 1000 	(Bruckner Theory)
 O 0 1024 1 1024 	(0x_1024)
 O 0 1032 1 1032 	(0x_1032 Token)
 O 0 1013 1 1013 	(0x_1013 Token)
 O 0 1020 1 1020 	(0x_1020 Card)
-M 0 1000 1 1001 	(Gunnar Larsen)
-M 0 1001 1 1001 	(Dr. Sneed)
-O 0 1000 1 1001 	(Signal Transmitter)
-O 0 1001 1 1001 	(Transmitter Display)
 S
 $

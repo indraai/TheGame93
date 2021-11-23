@@ -1,12 +1,16 @@
 #1000
-transmitter signal~
-Signal Transmitter~
+transmitter signal array~
+Transmitter Array~
 1000/avatar~
 talk:#adv object:thegame 1000/look
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 10 877 0 0 0
+E
+transmitter~
+talk:#adv object:thegame 1000/transmitter
+~
 #1001
 transmitter signal display~
 Transmitter Display~
@@ -16,6 +20,19 @@ talk:#adv object:thegame 1001/look
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 20 0 0 0 0
+#1003
+bruckner theory notes~
+Bruckner Theory~
+1003/avatar~
+talk:#adv object:thegame 1003/look
+~
+16 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+theory~
+talk:#adv object:thegame 1003/theory
+~
 #1013
 0x_1013 token underground adventure~
 0x_1013 Token~
