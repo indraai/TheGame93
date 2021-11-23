@@ -337,28 +337,21 @@ static void perform_obj_aff_list(struct char_data * ch, char *arg)
 static void perform_obj_name_list(struct char_data * ch, char *arg)
 {
   int num, found = 0;
-  size_t len = 0, tmp_len = 0;
   obj_vnum ov;
-  char buf[MAX_STRING_LENGTH];
+  send_to_char(ch, "\n## Objects: %s", arg);
 
-  len = snprintf(buf, sizeof(buf), "\n## Objects: %s\r", arg);
   for (num = 0; num <= top_of_objt; num++) {
     if (is_name(arg, obj_proto[num].name)) {
       ov = obj_index[num].vnum;
-      tmp_len = snprintf(buf+len, sizeof(buf)-len, "%d. %d %s(%d) %s %s\r",
-                ++found,
-                ov,
-                obj_proto[num].short_description,
-                obj_index[num].number,
-                item_types[obj_proto[num].obj_flags.type_flag],
-                obj_proto[num].proto_script ? " *trig" : "");
-      len += tmp_len;
-      if (len > sizeof(buf))
-        break;
+      send_to_char(ch, "%d. %d %s(%d) %s %s\r",
+      ++found,
+      ov,
+      obj_proto[num].short_description,
+      obj_index[num].number,
+      item_types[obj_proto[num].obj_flags.type_flag],
+      obj_proto[num].proto_script ? " *trig" : "");
     }
   }
-
-  page_string(ch->desc, buf, TRUE);
 }
 
 /* Ingame Commands */
@@ -528,7 +521,7 @@ ACMD(do_oasis_links)
   }
 
   if (zrnum == NOWHERE || zvnum == NOWHERE) {
-    send_to_char(ch, "No zone was found with that number.\n\r");
+    send_to_char(ch, "\nNo zone was found with that number.\n");
     return;
   }
 
@@ -582,10 +575,10 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
     /** Check to see if this room is one of the ones needed to be listed.    **/
     if ((world[i].number >= bottom) && (world[i].number <= top)) {
       counter++;
-      send_to_char(ch, "\n%d. %d:%s %s\r",
+      send_to_char(ch, "\n%d. %d %s%s\r",
         counter, world[i].number,
         world[i].name,
-        world[i].proto_script ? "*trig" : "");
+        world[i].proto_script ? " *trig" : "");
 
       /* list room exits
       for (j = 0; j < DIR_COUNT; j++) {
@@ -752,7 +745,7 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
       top    = zone_table[top_of_zone_table].number; /* Highest Zone */
   }
 
-  len = snprintf(buf, sizeof(buf), "# Zone List\r\n");
+  send_to_char(ch, "\n## Zones\r");
 
   if (!top_of_zone_table)
     return;
@@ -762,18 +755,17 @@ static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zon
     bool zname = (!use_name) || (is_name(name, zone_table[i].builders));
     if (znum && zname) {
       counter++;
-      tmp_len = snprintf(buf+len, sizeof(buf)-len, "%d. %d %s (%s)\r\n",
-          counter, zone_table[i].number, zone_table[i].name, zone_table[i].builders ? zone_table[i].builders : "None.");
-      len += tmp_len;
-      if (len > sizeof(buf))
-        break;
+      send_to_char(ch, "\n%d. %d %s (%s)\r",
+        counter,
+        zone_table[i].number,
+        zone_table[i].name,
+        zone_table[i].builders ? zone_table[i].builders : "None."
+      );
     }
   }
 
   if (!counter)
     send_to_char(ch, "\ninfo:None found.\r");
-  else
-    page_string(ch->desc, buf, TRUE);
 }
 
 /* Prints all of the zone information for the selected zone. */
