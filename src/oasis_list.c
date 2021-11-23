@@ -618,8 +618,6 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
   mob_rnum i;
   mob_vnum bottom, top;
   int counter = 0;
-  size_t len;
-  char buf[MAX_STRING_LENGTH];
 
   if (rnum != NOWHERE) {
     bottom = zone_table[rnum].bot;
@@ -658,7 +656,6 @@ static void list_objects(struct char_data *ch, zone_rnum rnum, obj_vnum vmin, ob
   obj_vnum bottom, top;
   char buf[MAX_STRING_LENGTH];
   int counter = 0;
-  size_t len;
 
   if (rnum != NOWHERE) {
     bottom = zone_table[rnum].bot;
