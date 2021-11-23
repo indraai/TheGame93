@@ -911,13 +911,13 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
 
       if (trig_index[i]->proto->attach_type == OBJ_TRIGGER) {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), otrig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, " (obj:%s)\r", trgtypes);
+        send_to_char(ch, " \| obj:%s\r", trgtypes);
       } else if (trig_index[i]->proto->attach_type==WLD_TRIGGER) {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), wtrig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, " (wld:%s)\r", trgtypes);
+        send_to_char(ch, " \| wld:%s\r", trgtypes);
       } else {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), trig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, " (mob:%s)\r", trgtypes);
+        send_to_char(ch, " \| mob:%s\r", trgtypes);
       }
 
     }
