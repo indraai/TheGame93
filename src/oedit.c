@@ -678,7 +678,7 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[g:wear]:%s\r"
 	  "\nselect[h:weight]:%d\r"
 	  "\nselect[i:cost]:%d\r"
-	  "\nselect[k:day cost]:%d\r"
+	  "\nselect[k:rent]:%d\r"
 	  "\nselect[l:timer]:%d\r"
     "\nselect[m:min level]:%d\r"
 	  "\nselect[n:liquid]:%d %d %d %d\r"
@@ -770,11 +770,15 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_DELETE;
       break;
     case 'a':
-      write_to_output(d, "\nWhat are the object keywords?\r");
+      write_to_output(d, "\nWhat are the object keywords?\r"
+        "\ncurrent:%s\r",
+        (d->name && *d->name) ? d->name : "undefined");
       OLC_MODE(d) = OEDIT_KEYWORD;
       break;
     case 'b':
-      write_to_output(d, "\nWhat is the object name?\r");
+      write_to_output(d, "\nWhat is the object name?\r"
+        "\ncurrent:%s\r",
+        (d->short_description && *d->short_description) ? d->short_description : "undefined");
       OLC_MODE(d) = OEDIT_SHORTDESC;
       break;
     case 'c':
@@ -805,23 +809,33 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_WEAR;
       break;
     case 'h':
-      write_to_output(d, "\nWhat is the object weight?\r");
+      write_to_output(d, "\nWhat is the object weight?\r"
+      "\ncurrent:%d\r",
+      GET_OBJ_WEIGHT(d));
       OLC_MODE(d) = OEDIT_WEIGHT;
       break;
     case 'i':
-      write_to_output(d, "\nWhat is the object cost?\r");
+      write_to_output(d, "\nWhat is the object cost?\r"
+        "\ncurrent:%d\r",
+        GET_OBJ_COST(d));
       OLC_MODE(d) = OEDIT_COST;
       break;
     case 'j':
-      write_to_output(d, "\nWhat is the object cost per day?\r");
+      write_to_output(d, "\nWhat is the object rent?\r"
+        "\ncurrent:%d\r",
+        GET_OBJ_RENT(d));
       OLC_MODE(d) = OEDIT_COSTPERDAY;
       break;
     case 'l':
-      write_to_output(d, "What is the object timer?\r");
+      write_to_output(d, "What is the object timer?\r",
+        "\ncurrent:%d\r",
+        GET_OBJ_TIMER(d));
       OLC_MODE(d) = OEDIT_TIMER;
       break;
     case 'm':
-      write_to_output(d, "What is the object minimum level?\r\n");
+      write_to_output(d, "\nWhat is the object minimum level?\r"
+        "\ncurrent:%d",
+        GET_OBJ_LEVEL(obj));
       OLC_MODE(d) = OEDIT_LEVEL;
       break;
     case 'n':
