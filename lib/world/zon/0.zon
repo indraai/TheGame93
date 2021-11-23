@@ -1,7 +1,17 @@
 #0
 Quinn~
 deva.world~
-0 99 20 2 d 0 0 0 -1 -1
+0 99 90 2 d 0 0 0 -1 -1
+O 0 8 30 2 	(Academy Course A08)
+O 0 9 30 2 	(Academy Level 1)
+O 0 11 30 2 	(Academy Level 2)
+O 0 20 30 2 	(Academy Level 3)
+O 0 21 30 2 	(Academy Level 4)
+O 0 22 30 2 	(Academy Level 5)
+O 0 23 30 2 	(Academy Level 6)
+O 0 24 30 2 	(Academy Level 7)
+O 0 28 30 2 	(Academy Level 8)
+O 0 29 30 2 	(Academy Level 9)
 M 0 0 1 31 	(Vamraka)
 M 0 198 1 31 	(Vamraka Disciple)
 M 0 156 2 32 	(Indra Fighter)

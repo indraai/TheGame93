@@ -55,21 +55,23 @@ Fresh water is bubbling up from a spring.~
 100 100 0 0
 0 0 0 0 0
 #8
-contract covenant~
-the Contract of The Covenant~
-The Contract of The Covenant is here.~
+academy training course a08~
+Academy Course A08~
+0008/avatar~
+talk:#adv object:thegame 0008/look
 ~
-12 bgi 0 0 0 0 0 0 0 0 0 0 0
+2 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 0 0 10 0
 #9
-security key gateguard~
-the gateguard key~
-Talk:#adventure view:thegame:world 0009/look~
+academy training course level1~
+Academy Level 1~
+0009/avatar~
+talk:#adv thegame:object 0009/look
 ~
-12 0 0 0 0 a 0 0 0 0 0 0 0
+2 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-1 1 0 0 0
+0 0 0 1 0
 #10
 internet detective badge~
 Internet Detective Badge~
@@ -78,15 +80,15 @@ Talk:#adventure view:thegame:world 0010/look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-T 6
 #11
-bed comfy~
-a comfy bed~
-A comfy bed is begging you to take a nap.~
+academy training course level2~
+Academy Level 2~
+0011/avatar~
+talk:#adv object:thegame 0011/look
 ~
-12 0 0 0 0 a 0 0 0 0 0 0 0
+2 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-1 1 0 0 0
+0 0 0 2 0
 E
 comfy bed~
 This bed is beckoning you to lie down and get some much needed sleep. Just "sleep bed"
@@ -99,6 +101,51 @@ A pair of Barry Boots are here.~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
+#20
+academy course training level3~
+Academy Level 3~
+0020/avatar~
+talk:#adv object:thegame 0020/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 3 0
+#21
+academy course training level4~
+Academy Level 4~
+0021/avatar~
+talk:#adv object:thegame 0021/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 4 0
+#22
+academy course training level5~
+Academy Level 5~
+0022/avatar~
+talk#adv object:thegame 022/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 5 0
+#23
+academy course training level6~
+Academy Level 6~
+0023/avatar~
+talk:#adv object:thegame 0023/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 6 0
+#24
+academy course training level7~
+Academy Level 7~
+0024/avatar~
+talk:#adv object:thegame 0024/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 7 0
 #25
 security key~
 Security Key~
@@ -115,6 +162,24 @@ A simple wooden sign hanging from a shop to the North states, "OPEN."~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
+#28
+academy course training level8~
+Academy Level 8~
+0028/avatar~
+talk:#adv object:thegame 0028/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 8 0
+#29
+academy course training level9~
+Academy Level 9~
+0029/avatar~
+talk:#adv object:thegame 0029/look
+~
+2 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 9 0
 #70
 sign closed~
 Closed Sign~
@@ -133,8 +198,9 @@ The Deva board has been posted here.~
 0 0 0 0 0
 #91
 medic medical message board~
-0092/avatar~
-Talk:#adv object:thegame 0091/look~
+Medic Board~
+0091/avatar~
+talk:#adv object:thegame 0091/look
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
