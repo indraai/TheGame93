@@ -683,7 +683,7 @@ static void list_objects(struct char_data *ch, zone_rnum rnum, obj_vnum vmin, ob
       len += snprintf(buf + len, sizeof(buf) - len, "\n%d. %d %s (%s)%s\r",
          counter,
          obj_index[i].vnum,
-         obj_proto[i].short_description,,
+         obj_proto[i].short_description,
          item_types[obj_proto[i].obj_flags.type_flag],
          obj_proto[i].proto_script ? " *trig" : ""
       );
