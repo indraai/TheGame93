@@ -724,10 +724,8 @@ static void list_shops(struct char_data *ch, zone_rnum rnum, shop_vnum vmin, sho
 static void list_zones(struct char_data *ch, zone_rnum rnum, zone_vnum vmin, zone_vnum vmax, char *name)
 {
   int counter = 0;
-  size_t len = 0, tmp_len = 0;
   zone_rnum i;
   zone_vnum bottom, top;
-  char buf[MAX_STRING_LENGTH];
   bool use_name=FALSE;
 
   bottom = vmin;
