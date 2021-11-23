@@ -15,11 +15,111 @@ none~
 D1
 ~
 ~
-0 0 -1
+0 0 3
 D3
 ~
 ~
 1 0 200
+S
+#3
+indra.academy/r3~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 4
+D3
+~
+~
+0 0 2
+S
+#4
+indra.academy/r4~
+undefined~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 5
+D3
+~
+~
+0 0 3
+S
+#5
+indra.academy/r5~
+undefined~
+0 8 0 0 0 0
+D2
+~
+~
+0 0 4
+D3
+~
+~
+0 0 6
+S
+#6
+indra.academy/r6~
+undefined~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 5
+D3
+~
+~
+0 0 7
+S
+#7
+indra.academy/r7~
+undefined~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 8
+D1
+~
+~
+0 0 6
+S
+#8
+indra.academy/r8~
+undefined~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 9
+D2
+~
+~
+0 0 7
+S
+#9
+indra.academy/r9~
+undefined~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 10
+D3
+~
+~
+0 0 8
+S
+#10
+indra.academy/r10~
+undefined~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 9
 S
 #26
 SecurityPRIME Class~

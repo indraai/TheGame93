@@ -91,4 +91,13 @@ talk:#adv object:thegame 1060/look
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
+#1106
+0x1106 token underground kingdom cyoa~
+0x1106 Token~
+1106/avatar~
+talk:#adv object:thegame 1106/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 $~
