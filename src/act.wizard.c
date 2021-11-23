@@ -122,12 +122,12 @@ ACMD(do_echo)
   skip_spaces(&argument);
 
   if (!*argument)
-    send_to_char(ch, "Yes.. but what?\r\n");
+    send_to_char(ch, "\nYes.. but what?\r");
   else {
     char buf[MAX_INPUT_LENGTH + 4];
 
     if (subcmd == SCMD_EMOTE)
-      snprintf(buf, sizeof(buf), "$n %s", argument);
+      snprintf(buf, sizeof(buf), "\nemote:$n %s\r", argument);
     else {
       strlcpy(buf, argument, sizeof(buf));
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "(GC) %s echoed: %s", GET_NAME(ch), buf);
