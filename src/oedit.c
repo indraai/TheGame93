@@ -1157,11 +1157,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       break;
 
     case 'a':
-      write_to_output(d, "\nPlease enter keywords, separated by spaces.\r");
       OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
-      break;
+      write_to_output(d, "\nPlease enter keywords...\r");
+      return;
 
     case 'b':
+      OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "Pleae enter the extra description:\r\n");
       if (OLC_DESC(d)->description) {
@@ -1170,8 +1171,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       }
       string_write(d, &OLC_DESC(d)->description, MAX_MESSAGE_LENGTH, 0, oldtext);
       OLC_VAL(d) = 1;
-      OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
-      break;
+      return;
 
     case 'c':
       /* Only go to the next description if this one is finished. */
