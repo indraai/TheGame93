@@ -734,7 +734,7 @@ void dg_script_menu(struct descriptor_data *d)
   editscript = OLC_SCRIPT(d);
 
   while (editscript) {
-    write_to_output(d, "\n%d: %d %s\r",
+    write_to_output(d, "\n%d:(%d) %s\r",
       counter++,
       editscript->vnum,
       trig_index[real_trigger(editscript->vnum)]->proto->name);
