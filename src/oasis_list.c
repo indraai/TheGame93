@@ -472,7 +472,7 @@ ACMD(do_oasis_list)
                 send_to_char(ch, "%s%2d-%s%-14s%s", QNRM, i, QYEL, apply_types[i], QNRM);
               if (!((i+1)%4))  send_to_char(ch, "\r\n");
             }
-            send_to_char(ch, "\nusage:: olist affect <num>\r", QYEL, QNRM);
+            send_to_char(ch, "\nusage:: olist affect <num>\r");
             send_to_char(ch, "\nDisplays top %d objects with the affect.\r", MAX_OBJ_LIST);
 
             return;
