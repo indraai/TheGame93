@@ -6,6 +6,10 @@ D0
 ~
 ~
 0 0 1001
+D2
+~
+~
+0 0 98
 E
 thankyou~
 talk:#adv world:thegame 1000/thankyou
@@ -20,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
@@ -320,6 +324,10 @@ S
 Decide to risk it~
 You are in an unfinished room.~
 100 0 0 0 0 5
+D1
+~
+~
+0 0 1037
 S
 #1036
 The Shining Mountains~
@@ -329,6 +337,28 @@ D1
 ~
 ~
 0 0 1092
+S
+#1037
+Emergency Reverse~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D0
+~
+~
+0 0 1089
+D2
+~
+~
+0 0 1038
+S
+#1038
+Reason with Dr. Bruckner~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 1043
 S
 #1039
 The Creatures~
@@ -344,9 +374,9 @@ D2
 0 0 1046
 S
 #1040
-The Landscape...~
+The Landscape~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 4
 D3
 ~
 ~
@@ -360,6 +390,15 @@ D1
 ~
 ~
 0 0 1044
+S
+#1043
+Bury The Professor~
+You are in an unfinished room.~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 1040
 S
 #1044
 Inside the agon~
@@ -375,9 +414,22 @@ D2
 0 0 1050
 S
 #1046
-Hide from creatures...~
+Hide In The Leaves~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 8 0 0 0 3
+D1
+~
+~
+0 0 1047
+S
+#1047
+Something Behind You~
+You are in an unfinished room.~
+100 8 0 0 0 3
+D3
+~
+~
+0 0 1000
 S
 #1048
 Refuse to follow~
@@ -385,7 +437,7 @@ You are in an unfinished room.~
 100 0 0 0 0 0
 S
 #1050
-Refuse to follow...~
+Refuse To Follow~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
@@ -394,9 +446,9 @@ D1
 0 0 1053
 S
 #1053
-Catch your breath...~
+Catch Your Breath~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 4
 D1
 ~
 ~
@@ -407,9 +459,13 @@ D3
 0 0 1057
 S
 #1057
-Take the boat...~
-You are in an unfinished room.~
-100 0 0 0 0 0
+Take The Boat~
+undefined~
+100 0 0 0 0 2
+D1
+~
+~
+0 0 1060
 S
 #1058
 Bluff the guards...~
@@ -423,6 +479,15 @@ D2
 ~
 ~
 0 0 -1
+S
+#1060
+Hours Later~
+You are in an unfinished room.~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 1000
 S
 #1065
 Swim back across~
@@ -594,6 +659,11 @@ D1
 ~
 0 0 1091
 S
+#1089
+Press Emergency Reverse~
+You are in an unfinished room.~
+100 8 0 0 0 0
+S
 #1091
 The Diamonds...~
 You are in an unfinished room.~
@@ -680,18 +750,94 @@ S
 The Mountain Peak~
 You are in an unfinished room.~
 100 0 0 0 0 5
+D3
+~
+~
+0 0 1000
 D4
 ~
 ~
-0 0 99
+3 0 251
 S
 #1108
 You made it!~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D5
+D3
 ~
 ~
-0 0 251
+0 0 1000
+S
+#1200
+The Cave of Time~
+You are in an unfinished room.~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 98
+S
+#1400
+Hyperspace~
+You are in an unfinished room.~
+100 0 0 0 0 1
+D3
+~
+~
+0 0 226
+S
+#1600
+You Are A Genius~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D3
+~
+~
+0 0 247
+S
+#1800
+You Are A Superstar~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 247
+S
+#2000
+You Are An Alien~
+You are in an unfinished room.~
+100 0 0 0 0 1
+D1
+~
+~
+0 0 247
+S
+#2200
+Alien Invaders~
+You are in an unfinished room.~
+100 8 0 0 0 0
+D2
+~
+~
+0 0 226
+S
+#2400
+Faster Than Light~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 226
+S
+#2800
+Dream Trips~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 220
 S
 $~

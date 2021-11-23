@@ -19,4 +19,10 @@ James Sneed Script~
   say None.
   *set time after 10s here
 ~
+#1003
+Hash Path~
+1 aq 100
+~
+%force% %actor% say I am leaving this place.
+~
 $~
