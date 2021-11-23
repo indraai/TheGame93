@@ -723,7 +723,7 @@ void dg_olc_script_copy(struct descriptor_data *d)
 void dg_script_menu(struct descriptor_data *d)
 {
   struct trig_proto_list *editscript;
-
+  int counter = 0;
   /* make sure our input parser gets used */
   OLC_MODE(d) = OLC_SCRIPT_EDIT;
   OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
@@ -734,12 +734,13 @@ void dg_script_menu(struct descriptor_data *d)
   editscript = OLC_SCRIPT(d);
 
   while (editscript) {
-    write_to_output(d, "%d: %s\r\n",
+    write_to_output(d, "\n%d: %d %s\r",
+      counter++,
       editscript->vnum,
       trig_index[real_trigger(editscript->vnum)]->proto->name);
 
     if (trig_index[real_trigger(editscript->vnum)]->proto->attach_type != OLC_ITEM_TYPE(d))
-      write_to_output(d, "Mis-matched Trigger Type.\r\n");
+      write_to_output(d, "\nMis-matched Trigger Type.\r");
     /*
     else
       write_to_output(d, "\r\n");
