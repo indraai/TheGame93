@@ -289,7 +289,7 @@ static void perform_obj_aff_list(struct char_data * ch, char *arg)
 
     for (i = 0; i < MAX_OBJ_LIST; i++){
       if ((r_num = real_object(lst[i].vobj)) != NOTHING) {
-        tmp_len = snprintf(buf+len, sizeof(buf)-len, "\n%d. %d %d %s %s\r",
+        tmp_len = snprintf(buf+len, sizeof(buf)-len, "\n%d. %d %d (%s) %s%s\r",
                   ++found,
                   lst[i].vobj,
                   lst[i].val,
