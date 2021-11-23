@@ -1,10 +1,14 @@
 #0
+
+
 Non-attachable trigger~
 0 g 100
 ~
 * You can't attach trigger 0!
 ~
 #1
+
+
 Arjika Soldier~
 0 b 50
 ~
@@ -19,18 +23,16 @@ wait %random.10% s
 %dir%
 ~
 #2
-PM2012~
-0 bg 50
+
+indra.academy r2~
+2 g 100
 ~
-set room %self.room%
-set msg[0] Yo... n00b make sure to l3rN about Pr0j3ct Mayh3m 2012. #PM2020 https://j.mp/3uhiDTH
-if %actor.is_pc%
-  eval themsg %%msg[%random.1%]%% #R%room.vnum%
-  wait 3 sec
-  say %themsg%
-end
+wait 2s
+%echo% You are entering ROOM %self.vnum% %self.name%
 ~
 #3
+
+
 PM2013~
 0 b 50
 ~
@@ -43,6 +45,8 @@ if %actor.is_pc%
 end
 ~
 #4
+
+
 TheGame23~
 0 bg 50
 ~
@@ -55,6 +59,8 @@ if %actor.is_pc%
 end
 ~
 #5
+
+
 PM2020~
 0 b 50
 ~
@@ -67,6 +73,8 @@ while %actor.is_pc%
 end
 ~
 #6
+
+
 ethersec~
 0 b 50
 ~
@@ -78,6 +86,8 @@ if %actor.is_pc%
 end
 ~
 #95
+
+
 Arjika Dayshift~
 0 t 100
 ~
@@ -96,6 +106,8 @@ else if %bedtime%
 end
 ~
 #96
+
+
 Arjika Nightshift~
 0 t 100
 ~
@@ -114,10 +126,11 @@ else if %bedtime%
 end
 ~
 #97
+
+
 Outfit Soldier~
 2 g 100
 ~
-
 if %actor.is_pc%
   wait 2 sec
   if !%actor.eq(light)%
@@ -162,6 +175,8 @@ else
 end
 ~
 #98
+
+
 Mob Act - 98 Teleporter Give~
 0 e 0
 steps out of space and time.~
@@ -206,6 +221,8 @@ if %actor.is_pc%
 end
 ~
 #99
+
+
 Obj Command 82 - Teleporter~
 1 c 3
 teleport~
