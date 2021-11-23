@@ -17,17 +17,15 @@ set msg[3] There are courses on various Deity Houses.
 set msg[4] If you would like a list of courses ask the room to list them for you.
 
 wait 2s
-%echo% msg[0]
+%echo% %msg[0]%
 wait 1s
-%echo% msg[1]
+%echo% %msg[1]%
 wait 1s
-%echo% msg[2]
+%echo% %msg[2]%
 wait 1
-%echo% msg[3]
+%echo% %msg[3]%
 wait 1s
-%echo% msg[4]
-
-%echo% You are entering ROOM %self.vnum% %self.name%
+%echo% %msg[4]%
 ~
 #95
 Arjika Dayshift~
