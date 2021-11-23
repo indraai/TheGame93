@@ -654,7 +654,6 @@ static void list_objects(struct char_data *ch, zone_rnum rnum, obj_vnum vmin, ob
 {
   obj_rnum i;
   obj_vnum bottom, top;
-  char buf[MAX_STRING_LENGTH];
   int counter = 0;
 
   if (rnum != NOWHERE) {
