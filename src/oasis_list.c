@@ -898,7 +898,7 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
         send_to_char(ch, "\n%d. %d %s | wld:%s\r",
           counter,
           trig_index[i]->vnum,
-          trig_index[i]->proto->name
+          trig_index[i]->proto->name,
           trgtypes);
 
       } else {
