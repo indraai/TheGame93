@@ -30,15 +30,17 @@ Underground Kingdom Guide~
 ~
 set fol %self.follower%
 set inroom %self.room.vnum%
+set start 1000
 if %fol%
-  wait %random.30% sec
-  if %inroom% == 1000
+  if %inroom% == %start%
+    wait 5 sec
     north
   else
+    wait %random.30% sec
     %random.dir%
   end
 else
-  if %inroom% != 1000
+  if %inroom% != %start%
     %mgoto% 1000
   end
 end
