@@ -813,31 +813,31 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'h':
       write_to_output(d, "\nWhat is the object weight?\r"
       "\ncurrent:%d\r",
-      GET_OBJ_WEIGHT(d));
+      GET_OBJ_WEIGHT(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_WEIGHT;
       break;
     case 'i':
       write_to_output(d, "\nWhat is the object cost?\r"
         "\ncurrent:%d\r",
-        GET_OBJ_COST(d));
+        GET_OBJ_COST(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_COST;
       break;
     case 'j':
       write_to_output(d, "\nWhat is the object rent?\r"
         "\ncurrent:%d\r",
-        GET_OBJ_RENT(d));
+        GET_OBJ_RENT(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_COSTPERDAY;
       break;
     case 'l':
       write_to_output(d, "What is the object timer?\r",
         "\ncurrent:%d\r",
-        GET_OBJ_TIMER(d));
+        GET_OBJ_TIMER(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_TIMER;
       break;
     case 'm':
       write_to_output(d, "\nWhat is the object minimum level?\r"
         "\ncurrent:%d",
-        GET_OBJ_LEVEL(obj));
+        GET_OBJ_LEVEL(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_LEVEL;
       break;
     case 'n':
