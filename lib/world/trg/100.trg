@@ -37,6 +37,10 @@ if %fol%
   else
     %random.dir%
   end
+else
+  if %inroom% != 1000
+    %mgoto% 1000
+  end
 end
 ~
 #1075
