@@ -903,10 +903,10 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
 
       } else {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), trig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\n%d. %d:%s | mob:%s\r",
+        send_to_char(ch, "\n%d. %s:%d | mob:%s\r",
           counter,
-          trig_index[i]->vnum,
           trig_index[i]->proto->name,
+          trig_index[i]->vnum,
           trgtypes);
       }
 
