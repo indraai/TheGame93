@@ -4,7 +4,7 @@ Transmitter Array~
 1000/avatar~
 talk:#adv object:thegame 1000/look
 ~
-12 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 10 877 0 0 0
 E
@@ -17,7 +17,7 @@ Transmitter Display~
 1001/avatar~
 talk:#adv object:thegame 1001/look
 ~
-12 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 20 0 0 0 0
 E
@@ -30,7 +30,7 @@ Bruckner Theory~
 1003/avatar~
 talk:#adv object:thegame 1003/look
 ~
-16 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
@@ -51,6 +51,15 @@ talk:#adv object:thegame 1013/look
 0x1020 Token~
 1020/avatar~
 talk:#adv object:thegame 1020/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1023
+0x1023 token underground kingdom cyoa~
+0x1023 Token~
+1023/avatar~
+talk:#adv object:thegame 1023/look
 ~
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -87,6 +96,51 @@ talk:#adv object:thegame 1047/look
 0x1060 Token~
 1060/avatar~
 talk:#adv object:thegame 1060/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1062
+0x1063 token underground kingdom cyoa~
+0x1062 Token~
+1062/avatar~
+talk:#adv object:thegame 1062/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1064
+0x1064 token underground kingdom cyoa~
+0x1064 Token~
+1064/avatar~
+talk:#adv thegame:object 1064/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1065
+0x1065 token underground kingdom cyoa~
+0x1065 Token~
+1065/avatar~
+talk:#adv object:thegame 1065/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1072
+0x1072 token underground empire cyoa~
+0x1072 Token~
+1072/avatar~
+talk:#adv object:thegame 1072/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1089
+0x1089 token underground kingdom cyoa~
+0x1089 Token~
+1089/avatar~
+talk:#adv object:thegame 1089/look
 ~
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

@@ -180,6 +180,15 @@ talk:#adv object:thegame 0029/look
 2 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 9 0
+#30
+academy training course level10~
+Academy Level 10~
+0030/avatar~
+talk:#adv object:thegame 0030/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 10 0
 #70
 sign closed~
 Closed Sign~

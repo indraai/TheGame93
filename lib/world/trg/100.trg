@@ -1,4 +1,5 @@
 #1000
+
 Gunnar Larsen Script~
 0 g 100
 ~
@@ -8,6 +9,7 @@ Gunnar Larsen Script~
   say Any Radar return?
 ~
 #1001
+
 James Sneed Script~
 0 g 100
 ~
@@ -20,9 +22,25 @@ James Sneed Script~
   *set time after 10s here
 ~
 #1003
+
 Hash Path~
-1 aq 100
+1 abc 100
 ~
-%force% %actor% say I am leaving this place.
+wait 3s
+%echo% You are in room %room.vnum%
+~
+#1075
+
+Professor Bruckner 0x1075~
+0 g 100
+~
+wait 2s
+emote fills his pipe with tobacco.
+wait 2s
+say As I explained it's a Black Hole in the center of the Earth.
+wait 2s
+emote lights his pipe
+wait 2s
+say Who will volunteer to come with me?
 ~
 $~
