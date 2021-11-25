@@ -1,5 +1,6 @@
 #1000
 
+
 Gunnar Larsen Script~
 0 g 100
 ~
@@ -9,6 +10,7 @@ Gunnar Larsen Script~
   say Any Radar return?
 ~
 #1001
+
 
 James Sneed Script~
 0 g 100
@@ -23,13 +25,14 @@ James Sneed Script~
 ~
 #1003
 
-Hash Path~
-1 abc 100
+Underground Guide~
+0 b 100
 ~
 wait 3s
 %echo% You are in room %room.vnum%
 ~
 #1075
+
 
 Professor Bruckner 0x1075~
 0 g 100
