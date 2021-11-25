@@ -22,4 +22,49 @@ It looks unfinished.talk:#adv agent:thegame 1001/look
 8 8 1
 E
 T 1001
+#1026
+professor bruckner underground kingdom cyoa~
+Professor Bruckner~
+1026/avatar~
+talk:#adv agent:thegame 1026/look
+~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+E
+#1028
+professor bruckner underground kingdom cyoa~
+Professor Bruckner~
+1028/avatar~
+talk:#adv thegame:agent 1028/look
+~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+E
+#1029
+professor bruckner underground kingdom cyoa~
+Professor Bruckner~
+1029/avatar~
+talk:#adv agent:thegame 1029/look
+~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+E
+#1075
+professor bruckner underground kingdom cyoa~
+Professor Bruckner~
+1075/avatar~
+talk:#adv agent:thegame 1075/look
+~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+E
+T 1075
 $

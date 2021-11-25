@@ -1,14 +1,24 @@
 #100
 CYOA~
-Underground Kingdom~
-1000 9999 60 2 d 0 0 0 -1 -1
+Adventure Land~
+1000 9999 90 2 d 0 0 0 -1 -1
+M 0 1075 1 1075 	(Professor Bruckner)
+O 0 1072 10 1072 	(0x1072 Token)
+M 0 1029 1 1029 	(Professor Bruckner)
+M 0 1028 1 1028 	(Professor Bruckner)
+M 0 1026 1 1026 	(Professor Bruckner)
+M 0 1000 1 1001 	(Gunnar Larsen)
+M 0 1001 1 1001 	(Dr. Sneed)
+O 0 1000 1 1001 	(Transmitter Array)
+O 0 1001 1 1001 	(Transmitter Display)
+O 0 1065 10 1065 	(0x1065 Token)
+O 0 1064 10 1064 	(0x1064 Token)
+O 0 1023 10 1023 	(0x1023 Token)
+O 0 1062 10 1062 	(0x1062 Token)
+O 0 1089 10 1089 	(0x1089 Token)
 O 0 1106 10 1106 	(0x1106 Token)
 O 0 1060 99 1060 	(0x1060 Token)
 O 0 1047 99 1047 	(0x1047 Token)
-M 0 1000 1 1001 	(Gunnar Larsen)
-M 0 1001 1 1001 	(Dr. Sneed)
-O 0 1000 99 1001 	(Transmitter Array)
-O 0 1001 99 1001 	(Transmitter Display)
 O 0 1003 99 1000 	(Bruckner Theory)
 O 0 1024 99 1024 	(0x1024 Token)
 O 0 1032 99 1032 	(0x1032 Token)
