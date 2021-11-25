@@ -829,7 +829,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_COSTPERDAY;
       break;
     case 'l':
-      write_to_output(d, "What is the object timer?\r",
+      write_to_output(d, "What is the object timer?\r"
         "\ncurrent:%d\r",
         GET_OBJ_TIMER(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_TIMER;
