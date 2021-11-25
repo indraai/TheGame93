@@ -887,7 +887,7 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
 
       if (trig_index[i]->proto->attach_type == OBJ_TRIGGER) {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), otrig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\n%d. %d %s | obj:%s\r",
+        send_to_char(ch, "\n%d. %d:%s | obj:%s\r",
           counter,
           trig_index[i]->vnum,
           trig_index[i]->proto->name,
@@ -895,7 +895,7 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
 
       } else if (trig_index[i]->proto->attach_type==WLD_TRIGGER) {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), wtrig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\n%d. %d %s | wld:%s\r",
+        send_to_char(ch, "\n%d. %d:%s | wld:%s\r",
           counter,
           trig_index[i]->vnum,
           trig_index[i]->proto->name,
@@ -903,7 +903,7 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
 
       } else {
         sprintbit(GET_TRIG_TYPE(trig_index[i]->proto), trig_types, trgtypes, sizeof(trgtypes));
-        send_to_char(ch, "\n%d. %d %s | mob:%s\r",
+        send_to_char(ch, "\n%d. %d:%s | mob:%s\r",
           counter,
           trig_index[i]->vnum,
           trig_index[i]->proto->name,
