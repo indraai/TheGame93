@@ -28,8 +28,14 @@ James Sneed Script~
 Underground Guide~
 0 b 100
 ~
-wait 3s
-%echo% You are in room %room.vnum%
+if %self.follower%
+  wait %random.30% sec
+  if %room.vnum% == 1000
+    north
+  else
+    %random.dir%
+  end
+end
 ~
 #1075
 
