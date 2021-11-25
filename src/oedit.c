@@ -657,8 +657,8 @@ static void oedit_disp_menu(struct descriptor_data *d)
     "\n# Object: %d\r"
 	  "\nselect[a:keywords]:%s\r"
 	  "\nselect[b:name]:%s\r"
-	  "\nselect[c:describe]:%s\r"
-	  "\nselect[d:action]:%s\r"
+	  "\nselect[c:avatar]:%s\r"
+	  "\nselect[d:look]:%s\r"
 	  "\nselect[e:type]:%s\r"
 	  "\nselect[f:flags]:%s\r",
 	  OLC_NUM(d),
@@ -772,17 +772,19 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'a':
       write_to_output(d, "\nWhat are the object keywords?\r"
         "\ncurrent:%s\r",
-        (d->name && *d->name) ? d->name : "undefined");
+        (OLC_OBJ(d)->name) ? OLC_OBJ(d)->name : "undefined");
       OLC_MODE(d) = OEDIT_KEYWORD;
       break;
     case 'b':
       write_to_output(d, "\nWhat is the object name?\r"
         "\ncurrent:%s\r",
-        (d->short_description && *d->short_description) ? d->short_description : "undefined");
+        (OLC_OBJ(d)->short_description) ? OLC_OBJ(d)->short_description : "undefined");
       OLC_MODE(d) = OEDIT_SHORTDESC;
       break;
     case 'c':
-      write_to_output(d, "\nWhat is the object description?\r ");
+      write_to_output(d, "\nWhat is the object description?\r"
+        "\ncurrent:%s\r",
+        (OLC_OBJ(d)->description) ? OLC_OBJ(d)->description : "undefined");
       OLC_MODE(d) = OEDIT_LONGDESC;
       break;
     case 'd':
