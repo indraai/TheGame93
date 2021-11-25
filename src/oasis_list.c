@@ -877,7 +877,7 @@ static void list_triggers(struct char_data *ch, zone_rnum rnum, trig_vnum vmin, 
 
 
   /* Store the header for the room listing. */
-  send_to_char (ch, "\n## Triggers\r");
+  send_to_char(ch, "\n## Triggers\r");
 
   /* Loop through the world and find each room. */
   for (i = 0; i < top_of_trigt; i++) {
