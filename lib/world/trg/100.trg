@@ -28,13 +28,24 @@ James Sneed Script~
 Underground Guide~
 0 b 100
 ~
-if %self.follower%
+set fol %self.follower%
+set inroom %self.room.vnum%
+
+if %fol%
+  wait 1s
+  say Hello %actor.name%
+  wait 1s
+  say Thank you for taking the Underground Kingdom tour.
+  wait 1s
+  say We will be on our way shortly.
   wait %random.30% sec
-  if %room.vnum% == 1000
+
+  if %inroom% == 1000
     north
   else
     %random.dir%
   end
+
 end
 ~
 #1075
