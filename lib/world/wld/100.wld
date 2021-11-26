@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
@@ -232,10 +232,6 @@ S
 No Shelter~
 You are in an unfinished room.~
 100 0 0 0 0 5
-D0
-~
-~
-0 0 1032
 D2
 ~
 ~
@@ -313,7 +309,7 @@ S
 It's Too Dangerous~
 You are in an unfinished room.~
 100 8 0 0 0 0
-D1
+D3
 ~
 ~
 0 0 1024
