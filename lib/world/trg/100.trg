@@ -1,7 +1,6 @@
 #1000
 
-
-Gunnar Larsen Script~
+Gunnar Larsen~
 0 g 100
 ~
   wait 5s
@@ -11,8 +10,7 @@ Gunnar Larsen Script~
 ~
 #1001
 
-
-James Sneed Script~
+James Sneed~
 0 g 100
 ~
   wait 6s
@@ -22,6 +20,14 @@ James Sneed Script~
   emote shakes head
   say None.
   *set time after 10s here
+~
+#1002
+
+Hash Tracker~
+1 acg 100
+n~
+wait 2s
+You are in %actor.room.vnum% currently.
 ~
 #1003
 
@@ -47,8 +53,7 @@ end
 ~
 #1075
 
-
-Professor Bruckner 0x1075~
+Professor Bruckner~
 0 g 100
 ~
 wait 2s

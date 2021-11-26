@@ -2,6 +2,8 @@
 CYOA~
 Adventure Land~
 1000 9999 90 2 d 0 0 0 -1 -1
+O 0 1008 10 1008 	(0x1008 Token)
+O 0 1069 10 1069 	(0x1069 Token)
 O 0 1003 99 1000 	(Bruckner Theory)
 M 0 1003 1 1000 	(Kingdom Guide)
 M 0 1075 1 1075 	(Professor Bruckner)
