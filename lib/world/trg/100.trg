@@ -57,8 +57,25 @@ if %thetoken%
   %door% %thisroom% north purge
 end
 ~
+#1008
+R1008 Give Token~
+2 g 100
+~
+set thetoken %actor.inventory(1008)%
+set thisroom %actor.room.vnum%
+set reward 50
+
+if !%thetoken%
+  nop %actor.exp(%reward%)%
+  say You have received %reward% EXP for your efforts.
+  nop %actor.gold(%reward%)%
+  say You have received %reward% GOLD for a job well done.
+  %load% obj 1008 %actor%
+  say You earned a the 0x1008 Token Key.
+end
+~
 #1012
-RM1012~
+R1012 Check Token~
 2 g 100
 ~
 set thetoken %actor.inventory(1020)%
