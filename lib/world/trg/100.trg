@@ -42,7 +42,7 @@ if %fol%
     wait 5 sec
     north
   else
-    wait %random.90% sec
+    wait 60 sec
     %random.dir%
   end
 else
