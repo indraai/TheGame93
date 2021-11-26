@@ -42,8 +42,10 @@ if %fol%
     wait 5 sec
     north
   else
-    wait %random.30% sec
+    wait %random.90% sec
     %random.dir%
+    wait 2 sec
+    %force% %actor% look
   end
 else
   if %inroom% != %startroom%
