@@ -1,6 +1,4 @@
 #1000
-
-
 Gunnar Larsen~
 0 g 100
 ~
@@ -10,8 +8,6 @@ Gunnar Larsen~
   say Any Radar return?
 ~
 #1001
-
-
 James Sneed~
 0 g 100
 ~
@@ -24,8 +20,6 @@ James Sneed~
   *set time after 10s here
 ~
 #1002
-
-
 Hash Tracker~
 1 acg 100
 n~
@@ -33,8 +27,6 @@ wait 2s
 You are in %actor.room.vnum% currently.
 ~
 #1003
-
-
 Underground Kingdom Guide~
 0 b 100
 ~
@@ -56,15 +48,18 @@ else
 end
 ~
 #1005
-
 RM1005~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set thetoken %actor.inventory(1013)%
+set thisroom %actor.room.vnum%
+if %thetoken%
+  %door% %thisroom% north purge
+else
+  %door% %thisroom% north 1013
+end
 ~
 #1075
-
-
 Professor Bruckner~
 0 g 100
 ~
