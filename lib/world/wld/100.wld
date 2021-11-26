@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
@@ -78,6 +78,10 @@ You are in an unfinished room.~
 D0
 ~
 ~
+0 0 1015
+D2
+~
+~
 0 0 1010
 S
 #1007
@@ -90,13 +94,13 @@ D0
 0 0 1008
 S
 #1008
-Gliding through the canyons...~
+You Run~
 You are in an unfinished room.~
 100 0 0 0 0 4
-D0
+D3
 ~
 ~
-0 0 1009
+0 0 1000
 S
 #1009
 Tell Them To Hurry~
@@ -160,16 +164,16 @@ D3
 0 0 1000
 S
 #1014
-Don't fight...~
+You Lunge For The Bird~
 You are in an unfinished room.~
 100 0 0 0 0 2
 D3
 ~
 ~
-0 0 1013
+0 0 1010
 S
 #1015
-Fight~
+Run From The Creature~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D3
@@ -178,7 +182,7 @@ D3
 0 0 1012
 S
 #1016
-Glide through canyons...~
+Angel Bird Glides~
 You are in an unfinished room.~
 100 0 0 0 0 8
 D0
@@ -574,7 +578,7 @@ D3
 0 0 1000
 S
 #1063
-The Marshy Banks~
+Your Raft Floats~
 undefined~
 100 0 0 0 0 0
 D1
@@ -597,7 +601,7 @@ You are in an unfinished room.~
 100 0 0 0 0 6
 S
 #1066
-Continue to shore...~
+Continue To Shore~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
@@ -787,6 +791,10 @@ D0
 ~
 ~
 0 0 1094
+D2
+~
+~
+0 0 1097
 S
 #1092
 The Flying Clera~
@@ -798,9 +806,9 @@ D1
 0 0 1098
 S
 #1094
-Continue on...~
+The Diamonds~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 4
 D1
 ~
 ~
@@ -814,17 +822,25 @@ D0
 ~
 ~
 0 0 1101
+D2
+~
+~
+0 0 1102
 S
 #1097
 Turn back~
 You are in an unfinished room.~
 100 0 0 0 0 5
+D1
+~
+~
+0 0 1103
 S
 #1098
-The return~
+The Return~
 You are in an unfinished room.~
 100 0 0 0 0 2
-D1
+D3
 ~
 ~
 0 0 1069
@@ -849,6 +865,15 @@ D1
 S
 #1102
 A Soft Bed~
+You are in an unfinished room.~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 1000
+S
+#1103
+Safe And Sound~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3

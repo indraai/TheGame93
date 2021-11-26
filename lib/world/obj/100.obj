@@ -24,6 +24,15 @@ E
 display~
 talk:#adv object:thegame 1001/display
 ~
+#1002
+hash tracker~
+Hash Tracker~
+1002/avatar~
+talk:#adv object:thegame 1002/look
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 #1003
 bruckner theory~
 Bruckner Theory~
@@ -37,6 +46,15 @@ E
 theory~
 talk:#adv object:thegame 1003/theory
 ~
+#1008
+0x1008 token underground kingdom cyoa~
+0x1008 Token~
+1008/avatar~
+talk:#adv object:thegame 1008/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 #1013
 0x1013 token underground kingdom cyoa~
 0x1013 Token~
@@ -123,6 +141,15 @@ talk:#adv thegame:object 1064/look
 0x1065 Token~
 1065/avatar~
 talk:#adv object:thegame 1065/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1069
+0x1069 token underground kingdom cyoa~
+0x1069 Token~
+1069/avatar~
+talk:#adv thegame:object 1069/look
 ~
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

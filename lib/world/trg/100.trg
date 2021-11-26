@@ -1,7 +1,6 @@
 #1000
 
-
-Gunnar Larsen Script~
+Gunnar Larsen~
 0 g 100
 ~
   wait 5s
@@ -11,8 +10,7 @@ Gunnar Larsen Script~
 ~
 #1001
 
-
-James Sneed Script~
+James Sneed~
 0 g 100
 ~
   wait 6s
@@ -23,6 +21,14 @@ James Sneed Script~
   say None.
   *set time after 10s here
 ~
+#1002
+
+Hash Tracker~
+1 acg 100
+n~
+wait 2s
+You are in %actor.room.vnum% currently.
+~
 #1003
 
 Underground Kingdom Guide~
@@ -30,9 +36,9 @@ Underground Kingdom Guide~
 ~
 set fol %self.follower%
 set inroom %self.room.vnum%
-set start 1000
+set startroom 1000
 if %fol%
-  if %inroom% == %start%
+  if %inroom% == %startroom%
     wait 5 sec
     north
   else
@@ -40,15 +46,14 @@ if %fol%
     %random.dir%
   end
 else
-  if %inroom% != %start%
+  if %inroom% != %startroom%
     %mgoto% 1000
   end
 end
 ~
 #1075
 
-
-Professor Bruckner 0x1075~
+Professor Bruckner~
 0 g 100
 ~
 wait 2s
