@@ -68,13 +68,13 @@ set reward 50
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
-  %send% %actor% You received %reward% EXP for your efforts.
+  %send% %actor% exp:You received %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% You received %reward% GOLD for a job well done.
+  %send% %actor% gld:You received %reward% GOLD for a job well done.
   wait 1s
   %load% obj 1008 %actor%
-  %send% %actor% You earned the 0x1008 Token Key.
+  %send% %actor% tkn:You earned the 0x1008 Token Key.
 end
 ~
 #1012
@@ -98,13 +98,13 @@ set reward 60
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
-  %send% %actor% You received %reward% EXP for your efforts.
+  %send% %actor% exp:You received %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% You received %reward% GOLD for a job well done.
+  %send% %actor% gld:You received %reward% GOLD for a job well done.
   wait 1s
   %load% obj 1008 %actor%
-  %send% %actor% You earned the 0x1013 Token Key.
+  %send% %actor% tkn:You earned the 0x1013 Token Key.
 end
 ~
 #1020
@@ -118,13 +118,13 @@ set reward 70
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
-  %send% %actor% You received %reward% EXP for your efforts.
+  %send% %actor% exp:You received %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% You received %reward% GOLD for a job well done.
+  %send% %actor% gld:You received %reward% GOLD for a job well done.
   wait 1s
   %load% obj 1008 %actor%
-  %send% %actor% You earned the 0x1020 Token Key.
+  %send% %actor% tkn:You earned the 0x1020 Token Key.
 end
 ~
 #1021
