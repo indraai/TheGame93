@@ -131,6 +131,18 @@ else
   %door% %thisroom% north 1060
 end
 ~
+#1058
+RM1058~
+2 g 100
+~
+set thetoken %actor.inventory(1065)%
+set thisroom %actor.room.vnum%
+if %thetoken%
+  %door% %thisroom% north purge
+else
+  %door% %thisroom% north 1065
+end
+~
 #1075
 Professor Bruckner~
 0 g 100
