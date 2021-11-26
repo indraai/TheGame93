@@ -66,12 +66,15 @@ set thisroom %actor.room.vnum%
 set reward 50
 
 if !%thetoken%
+  wait 1s
   nop %actor.exp(%reward%)%
-  say You have received %reward% EXP for your efforts.
+  say You received %reward% EXP for your efforts.
+  wait 1s
   nop %actor.gold(%reward%)%
-  say You have received %reward% GOLD for a job well done.
+  say You received %reward% GOLD for a job well done.
+  wait 1s
   %load% obj 1008 %actor%
-  say You earned a the 0x1008 Token Key.
+  say You earned the 0x1008 Token Key.
 end
 ~
 #1012
