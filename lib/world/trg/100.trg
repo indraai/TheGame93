@@ -108,4 +108,16 @@ emote lights his pipe
 wait 2s
 say Who will volunteer to come with me?
 ~
+#1077
+RM1077~
+2 g 100
+~
+set thetoken %actor.inventory(1033)%
+set thisroom %actor.room.vnum%
+if %thetoken%
+  %door% %thisroom% south purge
+else
+  %door% %thisroom% south 1033
+end
+~
 $~
