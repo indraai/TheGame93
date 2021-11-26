@@ -68,13 +68,13 @@ set reward 50
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
-  say You received %reward% EXP for your efforts.
+  %send% %actor% You received %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  say You received %reward% GOLD for a job well done.
+  %send% %actor% You received %reward% GOLD for a job well done.
   wait 1s
   %load% obj 1008 %actor%
-  say You earned the 0x1008 Token Key.
+  %send% %actor% You earned the 0x1008 Token Key.
 end
 ~
 #1012
