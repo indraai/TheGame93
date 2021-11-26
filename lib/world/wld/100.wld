@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
@@ -757,6 +757,10 @@ S
 You Betrayed Us~
 You are in an unfinished room.~
 100 0 0 0 0 0
+D3
+~
+~
+0 0 1000
 S
 #1085
 The Weightless Peaks~
