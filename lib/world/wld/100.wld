@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
@@ -419,10 +419,6 @@ S
 Inside The Agon~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D0
-~
-~
-0 0 1048
 D2
 ~
 ~
@@ -492,10 +488,6 @@ S
 Catch Your Breath~
 You are in an unfinished room.~
 100 0 0 0 0 4
-D0
-~
-~
-0 0 1057
 D2
 ~
 ~
@@ -551,10 +543,6 @@ D0
 ~
 ~
 0 0 1066
-D2
-~
-~
-0 0 1065
 S
 T 1058
 #1060
@@ -691,7 +679,7 @@ D1
 0 0 1077
 S
 #1076
-Three tides pass...~
+Three Tides Pass~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
@@ -902,7 +890,7 @@ D3
 0 0 1000
 S
 #1104
-Refuse to help...~
+Refuse To Help~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
@@ -911,7 +899,7 @@ D1
 0 0 1105
 S
 #1105
-The Grand Akpar paces...~
+The Grand Akpar Paces~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
