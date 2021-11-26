@@ -80,7 +80,7 @@ set thisroom %actor.room.vnum%
 if %thetoken%
   %door% %thisroom% north purge
 else
-  %door% %thisroom% north 1032
+  %door% %thisroom% north 1025
 end
 ~
 #1026
@@ -92,7 +92,7 @@ set thisroom %actor.room.vnum%
 if %thetoken%
   %door% %thisroom% south purge
 else
-  %door% %thisroom% south 1024
+  %door% %thisroom% south 1030
 end
 ~
 #1037
@@ -104,7 +104,7 @@ set thisroom %actor.room.vnum%
 if %thetoken%
   %door% %thisroom% north purge
 else
-  %door% %thisroom% north 1089
+  %door% %thisroom% north 1043
 end
 ~
 #1039
@@ -116,7 +116,7 @@ set thisroom %actor.room.vnum%
 if %thetoken%
   %door% %thisroom% south purge
 else
-  %door% %thisroom% south 1047
+  %door% %thisroom% south 1046
 end
 ~
 #1053
@@ -128,19 +128,31 @@ set thisroom %actor.room.vnum%
 if %thetoken%
   %door% %thisroom% north purge
 else
-  %door% %thisroom% north 1060
+  %door% %thisroom% north 1057
 end
 ~
 #1058
 RM1058~
 2 g 100
 ~
-set thetoken %actor.inventory(1065)%
+set thetoken %actor.inventory(1072)%
 set thisroom %actor.room.vnum%
 if %thetoken%
   %door% %thisroom% south purge
 else
   %door% %thisroom% south 1065
+end
+~
+#1068
+RM1068~
+2 g 100
+~
+set thetoken %actor.inventory(1072)%
+set thisroom %actor.room.vnum%
+if %thetoken%
+  %door% %thisroom% south purge
+else
+  %door% %thisroom% south 1000
 end
 ~
 #1075
