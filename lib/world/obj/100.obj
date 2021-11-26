@@ -199,7 +199,34 @@ talk:#adv object:thegame 1089/look
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
+#1102
+0x1102 token underground kingdom cyoa~
+0x1102 Token~
+1102/avatar~
+talk:#adv object:thegame 1102/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1103
+0x1103 token underground kingdom cyoa~
+0x1103 Token~
+1103/avatar~
+talk:#adv object:thegame 1103/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 #1106
+0x1106 token underground kingdom cyoa~
+0x1106 Token~
+1106/avatar~
+talk:#adv object:thegame 1106/look
+~
+18 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#1108
 0x1106 token underground kingdom cyoa~
 0x1106 Token~
 1106/avatar~
