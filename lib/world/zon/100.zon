@@ -13,8 +13,6 @@ M 0 1001 1 1001 	(Dr. Sneed)
 O 0 1000 1 1001 	(Transmitter Array)
 O 0 1001 1 1001 	(Transmitter Display)
 
-O 0 1013 99 1013 	(0x1013 Token)
-O 0 1020 99 1020 	(0x1020 Token)
 O 0 1023 10 1023 	(0x1023 Token)
 O 0 1024 99 1024 	(0x1024 Token)
 O 0 1032 99 1032 	(0x1032 Token)

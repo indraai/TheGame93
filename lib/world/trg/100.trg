@@ -87,6 +87,46 @@ if %thetoken%
   %door% %thisroom% south purge
 end
 ~
+#1013
+R1013 Give Token~
+2 g 100
+~
+set thetoken %actor.inventory(1013)%
+set thisroom %actor.room.vnum%
+set reward 60
+
+if !%thetoken%
+  wait 1s
+  nop %actor.exp(%reward%)%
+  %send% %actor% You received %reward% EXP for your efforts.
+  wait 1s
+  nop %actor.gold(%reward%)%
+  %send% %actor% You received %reward% GOLD for a job well done.
+  wait 1s
+  %load% obj 1008 %actor%
+  %send% %actor% You earned the 0x1013 Token Key.
+end
+~
+#1020
+R1020 Give Token~
+2 g 100
+~
+set thetoken %actor.inventory(1020)%
+set thisroom %actor.room.vnum%
+set reward 70
+
+if !%thetoken%
+  wait 1s
+  nop %actor.exp(%reward%)%
+  %send% %actor% You received %reward% EXP for your efforts.
+  wait 1s
+  nop %actor.gold(%reward%)%
+  %send% %actor% You received %reward% GOLD for a job well done.
+  wait 1s
+  %load% obj 1008 %actor%
+  %send% %actor% You earned the 0x1020 Token Key.
+end
+~
 #1021
 RM1021~
 2 g 100
