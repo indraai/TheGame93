@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
@@ -645,15 +645,12 @@ S
 Face the Akpar~
 You are in an unfinished room.~
 100 0 0 0 0 0
-D0
-~
-~
-0 0 1073
 D2
 ~
 ~
 0 0 1104
 S
+T 1070
 #1072
 The Kota Beasts~
 You are in an unfinished room.~
@@ -671,6 +668,15 @@ D1
 ~
 ~
 0 0 1084
+S
+#1074
+Help Is On The Way~
+You are in an unfinished room.~
+100 0 0 0 0 4
+D3
+~
+~
+0 0 1000
 S
 #1075
 Who Will Volunteer~
@@ -727,9 +733,13 @@ D1
 0 0 1083
 S
 #1082
-Return to surface~
+Return To The Surface~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 4
+D3
+~
+~
+0 0 1074
 S
 #1083
 Fascinating Areas~
