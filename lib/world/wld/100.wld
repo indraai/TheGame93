@@ -259,6 +259,7 @@ D3
 ~
 0 0 1000
 S
+T 1023
 #1024
 No chance of that~
 You are in an unfinished room.~
@@ -268,6 +269,7 @@ D3
 ~
 0 0 1000
 S
+T 1024
 #1025
 Keep Walking~
 You are in an unfinished room.~
@@ -327,6 +329,7 @@ D3
 ~
 0 0 1000
 S
+T 1032
 #1033
 Play it safe~
 You are in an unfinished room.~
@@ -336,6 +339,7 @@ D3
 ~
 0 0 1000
 S
+T 1033
 #1035
 Decide to risk it~
 You are in an unfinished room.~
@@ -446,6 +450,7 @@ D3
 ~
 0 0 1000
 S
+T 1047
 #1048
 Follow Raka~
 undefined~
@@ -557,6 +562,7 @@ D3
 ~
 0 0 1000
 S
+T 1060
 #1061
 Swim For Shore~
 You are in an unfinished room.~
@@ -575,6 +581,7 @@ D3
 ~
 0 0 1000
 S
+T 1062
 #1063
 Your Raft Floats~
 undefined~
@@ -593,6 +600,7 @@ D3
 ~
 0 0 1000
 S
+T 1064
 #1065
 Swim Across River~
 You are in an unfinished room.~
@@ -607,6 +615,7 @@ D1
 ~
 0 0 1067
 S
+T 1065
 #1067
 Warm Hugs~
 You are in an unfinished room.~
@@ -635,6 +644,7 @@ D3
 ~
 0 0 1000
 S
+T 1069
 #1070
 Face the Akpar~
 You are in an unfinished room.~
@@ -654,6 +664,7 @@ D3
 ~
 0 0 1000
 S
+T 1072
 #1073
 Play Along~
 You are in an unfinished room.~
@@ -672,6 +683,7 @@ D3
 ~
 0 0 1000
 S
+T 1074
 #1075
 Who Will Volunteer~
 You are in an unfinished room.~
@@ -758,6 +770,7 @@ You Betrayed Us~
 You are in an unfinished room.~
 100 0 0 0 0 0
 S
+T 1084
 #1085
 The Weightless Peaks~
 You are in an unfinished room.~
@@ -794,8 +807,9 @@ D3
 ~
 0 0 1000
 S
+T 1089
 #1091
-The Diamonds...~
+The Diamonds~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
@@ -883,6 +897,7 @@ D3
 ~
 0 0 1000
 S
+T 1102
 #1103
 Safe And Sound~
 You are in an unfinished room.~
@@ -892,6 +907,7 @@ D3
 ~
 0 0 1000
 S
+T 1103
 #1104
 Refuse To Help~
 You are in an unfinished room.~
@@ -923,6 +939,7 @@ D4
 ~
 3 0 251
 S
+T 1106
 #1108
 You made it!~
 You are in an unfinished room.~
@@ -932,6 +949,7 @@ D3
 ~
 0 0 1000
 S
+T 1108
 #1200
 The Cave of Time~
 You are in an unfinished room.~
