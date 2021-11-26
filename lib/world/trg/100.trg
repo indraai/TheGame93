@@ -138,9 +138,9 @@ RM1058~
 set thetoken %actor.inventory(1065)%
 set thisroom %actor.room.vnum%
 if %thetoken%
-  %door% %thisroom% north purge
+  %door% %thisroom% south purge
 else
-  %door% %thisroom% north 1065
+  %door% %thisroom% south 1065
 end
 ~
 #1075
