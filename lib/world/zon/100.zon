@@ -2,6 +2,8 @@
 CYOA~
 Adventure Land~
 1000 9999 90 2 d 0 0 0 -1 -1
+M 0 1010 1 1010 	(Angel Bird (fledgling))
+O 0 7 99 1006 	(Fresh Spring)
 O 0 1003 99 1000 	(Bruckner Theory)
 M 0 1003 1 1000 	(Kingdom Guide)
 M 0 1075 1 1075 	(Professor Bruckner)
@@ -12,7 +14,5 @@ M 0 1000 1 1001 	(Gunnar Larsen)
 M 0 1001 1 1001 	(Dr. Sneed)
 O 0 1000 1 1001 	(Transmitter Array)
 O 0 1001 1 1001 	(Transmitter Display)
-
-
 S
 $

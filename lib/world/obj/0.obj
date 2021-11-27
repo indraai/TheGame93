@@ -49,11 +49,16 @@ Some jalapeno cheese bread has been put here.~
 #7
 water spring water drink drinks~
 Fresh Spring~
-Fresh water is bubbling up from a spring.~
+0007/avatar~
+talk:#adv object:thegame 0007/look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
 0 0 0 0 0
+E
+spring~
+talk:#adv object:thegame 0007/spring
+~
 #8
 academy training course a08~
 Academy Course A08~

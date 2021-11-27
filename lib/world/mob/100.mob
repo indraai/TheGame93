@@ -34,6 +34,18 @@ talk:#adv thegame:agent 1003/look
 8 8 0
 E
 T 1003
+#1010
+angel bird fledgling underground kingdom cyoa~
+Angel Bird (fledgling)~
+1010/avatar~
+talk:#adv agent:thegame 1010/look
+~
+10 0 0 0 0 0 0 0 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 8
+BareHandAttack: 4
+E
 #1026
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
