@@ -119,6 +119,16 @@ if !%thetoken%
   %send% %actor% key:You earn the 0x%thekey% Token Key.
 end
 ~
+#1016
+R1016 Check Token~
+2 g 100
+~
+set thetoken %actor.inventory(1023)%
+set thisroom %actor.room.vnum%
+if %thetoken%
+  %door% %thisroom% south purge
+end
+~
 #1020
 R1020 Give Token~
 2 g 100
