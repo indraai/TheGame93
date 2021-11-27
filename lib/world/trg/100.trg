@@ -61,7 +61,8 @@ end
 R1008 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1008)%
+set thekey 1008
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 50
 
@@ -73,8 +74,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1008 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1012
@@ -91,7 +92,8 @@ end
 R1013 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1013)%
+set thekey 1013
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 60
 
@@ -103,15 +105,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1013 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1020
 R1020 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1020)%
+set thekey 1020
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 50
 
@@ -123,8 +126,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1020 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1021
@@ -141,7 +144,8 @@ end
 R1023 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1023)%
+set thekey 1023
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 100
 
@@ -153,15 +157,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1023 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1024
 R1024 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1024)%
+set thekey 1024
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 30
 
@@ -173,8 +178,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1024 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1026
@@ -191,7 +196,8 @@ end
 R1032 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1032)%
+set thekey 1032
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 
@@ -203,15 +209,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1032 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1033
 R1033 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1033)%
+set thekey 1033
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 
@@ -223,8 +230,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1033 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1037
@@ -261,10 +268,10 @@ end
 R1047 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1047)%
+set thekey 1047
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
-
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
@@ -273,8 +280,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1047 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1051
@@ -321,7 +328,8 @@ end
 R1060 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1060)%
+set thekey 1060
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 
@@ -333,15 +341,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1060 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1062
 R1062 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1062)%
+set thekey 1062
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 
@@ -353,15 +362,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1062 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1064
 R1064 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1064)%
+set thekey 1064
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 
@@ -373,15 +383,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1064 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1065
 R1065 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1065)%
+set thekey 1065
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 
@@ -393,8 +404,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1065 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1068
@@ -411,7 +422,8 @@ end
 R1069 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1069)%
+set thekey 1069
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 50
 
@@ -423,8 +435,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1069 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1070
@@ -441,7 +453,8 @@ end
 R1072 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1072)%
+set thekey 1072
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 50
 
@@ -453,15 +466,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1072 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1074
 R1074 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1074)%
+set thekey 1074
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 100
 
@@ -514,7 +528,8 @@ end
 R1084 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1084)%
+set thekey 1084
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 100
 
@@ -526,15 +541,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1084 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1089
 R1089 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1089)%
+set thekey 1089
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 100
 
@@ -546,15 +562,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1089 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1102
 R1102 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1102)%
+set thekey 1102
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 100
 
@@ -566,15 +583,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1102 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1103
 R1103 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1103)%
+set thekey 1103
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 2000
 
@@ -586,15 +604,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1103 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1106
 R1106 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1106)%
+set thekey 1106
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 1000
 
@@ -606,15 +625,16 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1106 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 #1108
 R1108 Give Token~
 2 g 100
 ~
-set thetoken %actor.inventory(1108)%
+set thekey 1108
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 1000
 
@@ -626,8 +646,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1108 Token Key.
+  %load% obj %thekey% %actor%
+  %send% %actor% tkn:You get the 0x%thekey% Token Key.
 end
 ~
 $~
