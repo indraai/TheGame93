@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
