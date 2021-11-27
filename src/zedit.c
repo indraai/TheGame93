@@ -430,25 +430,25 @@ static void zedit_disp_menu(struct descriptor_data *d)
     "\n# %s\r"
 	  "\nvnum: %d\r"
     "\nzone: %d\r"
-	  "\nselect[1:builders]: %s\r"
-	  "\nselect[Z:zone name]: %s\r"
-	  "\nselect[L:lifespan]: %d\r"
-	  "\nselect[B:zone bottom]: %d\r"
-	  "\nselect[T:zone top]: %d\r"
-	  "\nselect[R:reset mode]: %s\r"
-	  "\nselect[F:zone flags]: %s\r"
-	  "\nselect[M:level range]: %s\r"
+	  "\nselect[a:builder]: %s\r"
+	  "\nselect[b:name]: %s\r"
+	  "\nselect[c:lifespan]: %d\r"
+	  "\nselect[d:zone begin]: %d\r"
+	  "\nselect[e:zone end]: %d\r"
+    "\nselect[f:zone flags]: %s\r"
+	  "\nselect[g:reset mode]: %s\r"
+	  "\nselect[h:level range]: %s\r"
 	  "\n## Commands\r",
 
-    OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
+    OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "None.",
 	  OLC_NUM(d),
 	  zone_table[OLC_ZNUM(d)].number,
 	  OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.",
-	  OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "<NONE!>",
+	  OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "None.",
 	  OLC_ZONE(d)->lifespan,
 	  OLC_ZONE(d)->bot,
 	  OLC_ZONE(d)->top,
-	  OLC_ZONE(d)->reset_mode ? ((OLC_ZONE(d)->reset_mode == 1) ? "Reset when no players are in zone." : "Normal reset.") : "Never reset",
+	  OLC_ZONE(d)->reset_mode ? ((OLC_ZONE(d)->reset_mode == 1) ? "No Players" : "Normal Reset") : "Never Reset",
 	  buf1,
 	  lev_string
 	  );
@@ -539,9 +539,9 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu[insert command]:n\r"
-	  "\nmenu[edit command]:e\r"
-	  "\nmenu[delete command]:d\r"
+	  "\nmenu[insert command]:1\r"
+	  "\nmenu[edit command]:2\r"
+	  "\nmenu[delete command]:3\r"
 	  "\nmenu[quit]:q\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
@@ -557,14 +557,12 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   "\nmenu[open/close/lock door]:d\r"
   "\nmenu[equip agent object]:e\r"
   "\nmenu[give agent object]:g"
-  "\nmenu[load agent room]:m\r"
-  "\nmenu[load object room]:o\r"
-  "\nmenu[object in another object]:p\r"
-  "\nmenu[remove object room]:r\r"
+  "\nmenu[load agent]:m\r"
+  "\nmenu[load object]:o\r"
+  "\nmenu[object in object]:p\r"
+  "\nmenu[remove object]:r\r"
   "\nmenu[assign trigger]:t\r"
-  "\nmenu[set global variable]:v"
-  "\n===\n"
-  "Please select a command type."
+  "\nmenu[global variable]:v"
 	);
   OLC_MODE(d) = ZEDIT_COMMAND_TYPE;
 }
@@ -725,7 +723,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "\nsave:Zone saved to disk.\r");
         zedit_save_to_disk(OLC_ZNUM(d));
       } else
-        write_to_output(d, "\nsave:Zone save to memory.\r");
+        write_to_output(d, "\nsave:Zone saved to memory.\r");
 
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits zone info for room %d.\r\n", GET_NAME(d->character), OLC_NUM(d));
       /* FALL THROUGH */
@@ -744,81 +742,66 @@ void zedit_parse(struct descriptor_data *d, char *arg)
 
   case ZEDIT_MAIN_MENU:
     switch (*arg) {
-    case 'q':
-    case 'Q':
+    case '0':
       if (OLC_ZONE(d)->age || OLC_ZONE(d)->number) {
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nsave:No changes made.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       break;
-    case 'n':
-    case 'N':
-      /* New entry. */
-      if (OLC_ZONE(d)->cmd[0].command == 'S') {
-        /* first command */
-        if (new_command(OLC_ZONE(d), 0) && start_change_command(d, 0)) {
-	  zedit_disp_comtype(d);
-	  OLC_ZONE(d)->age = 1;
-          break;
-	}
-      }
-      write_to_output(d, "\nNew Command Number...\r");
-      OLC_MODE(d) = ZEDIT_NEW_ENTRY;
-      break;
-    case 'e':
-    case 'E':
-      /* Change an entry. */
-      write_to_output(d, "\nChange Command...\r");
-      OLC_MODE(d) = ZEDIT_CHANGE_ENTRY;
-      break;
-    case 'd':
-    case 'D':
-      /* Delete an entry. */
-      write_to_output(d, "\nDelete command...\r");
-      OLC_MODE(d) = ZEDIT_DELETE_ENTRY;
-      break;
-    case 'z':
-    case 'Z':
-      /* Edit zone name. */
-      write_to_output(d, "\nZone name...\r");
-      OLC_MODE(d) = ZEDIT_ZONE_NAME;
-      break;
-    case '1':
+    case 'a':
       /* Edit zone builders. */
-      write_to_output(d, "\nBuilder list...\r");
+      write_to_output(d, "\nWho is the zone builder?\r"
+        "\ncurrent: %s\r",
+        OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.");
+
       OLC_MODE(d) = ZEDIT_ZONE_BUILDERS;
       break;
     case 'b':
-    case 'B':
-      /* Edit bottom of zone. */
-      if (GET_LEVEL(d->character) < LVL_IMPL)
-	zedit_disp_menu(d);
-      else {
-	write_to_output(d, "\nBottom of zone...\r");
-	OLC_MODE(d) = ZEDIT_ZONE_BOT;
-      }
+      /* Edit zone name. */
+      write_to_output(d, "\nWhat is the zone name?\r"
+        "\ncurrent: %s\r",
+        OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "None.");
+
+      OLC_MODE(d) = ZEDIT_ZONE_NAME;
       break;
-    case 't':
-    case 'T':
-      /* Edit top of zone. */
-      if (GET_LEVEL(d->character) < LVL_IMPL)
-	zedit_disp_menu(d);
-      else {
-	write_to_output(d, "\nTop of zone...\r");
-	OLC_MODE(d) = ZEDIT_ZONE_TOP;
-      }
-      break;
-    case 'l':
-    case 'L':
+    case 'c':
       /* Edit zone lifespan. */
-      write_to_output(d, "\nZone lifespan..\r");
+      write_to_output(d, "\nWhat is the zone lifespan (min)?\r",
+        "\ncurrent: %d\r",
+        OLC_ZONE(d)->lifespan);
+
       OLC_MODE(d) = ZEDIT_ZONE_LIFE;
       break;
-    case 'r':
-    case 'R':
+    case 'd':
+      /* Edit bottom of zone. */
+      if (GET_LEVEL(d->character) < LVL_IMPL) {
+        zedit_disp_menu(d);
+      }
+      else {
+        write_to_output(d, "\nWhere does the zone begin?\r",
+          "\ncurrent:%d\r",
+          OLC_ZONE(d)->bot);
+
+        OLC_MODE(d) = ZEDIT_ZONE_BOT;
+      }
+      break;
+    case 'e':
+      /* Edit top of zone. */
+      if (GET_LEVEL(d->character) < LVL_IMPL)
+        zedit_disp_menu(d);
+      else {
+	      write_to_output(d, "\nWhere does the zone end?\r"
+          "\ncurrent:%d",
+          OLC_ZONE(d)->top);
+	      OLC_MODE(d) = ZEDIT_ZONE_TOP;
+      }
+      break;
+    case 'f':
+      zedit_disp_flag_menu(d);
+      break;
+    case 'g':
       /* Edit zone reset mode. */
       write_to_output(d,
         "\n## Zone Reset\r"
@@ -827,14 +810,33 @@ void zedit_parse(struct descriptor_data *d, char *arg)
 	      "\nmenu[normal]:2\r");
       OLC_MODE(d) = ZEDIT_ZONE_RESET;
       break;
-    case 'f':
-    case 'F':
-      zedit_disp_flag_menu(d);
-      break;
-    case 'm':
-    case 'M':
+    case 'h':
       /*** Edit zone level restrictions (sub-menu) ***/
       zedit_disp_levels(d);
+      break;
+
+    case '1':
+      /* New entry. */
+      if (OLC_ZONE(d)->cmd[0].command == 'S') {
+        /* first command */
+        if (new_command(OLC_ZONE(d), 0) && start_change_command(d, 0)) {
+          zedit_disp_comtype(d);
+          OLC_ZONE(d)->age = 1;
+          break;
+        }
+      }
+      write_to_output(d, "\nWhat is the new command number?\r");
+      OLC_MODE(d) = ZEDIT_NEW_ENTRY;
+      break;
+    case '2':
+      /* Change an entry. */
+      write_to_output(d, "\nChange which command??\r");
+      OLC_MODE(d) = ZEDIT_CHANGE_ENTRY;
+      break;
+    case '3':
+      /* Delete an entry. */
+      write_to_output(d, "\nDelete which command?\r");
+      OLC_MODE(d) = ZEDIT_DELETE_ENTRY;
       break;
     default:
       zedit_disp_menu(d);
@@ -941,12 +943,12 @@ void zedit_parse(struct descriptor_data *d, char *arg)
           OLC_CMD(d).if_flag = 1;
           zedit_disp_arg1(d);
         } else {
-	  write_to_output(d, "\nDoes this depend on previous success? %s", confirm_btn);
-	  OLC_MODE(d) = ZEDIT_IF_FLAG;
+	        write_to_output(d, "\nDoes this depend on previous success? %s", confirm_btn);
+          OLC_MODE(d) = ZEDIT_IF_FLAG;
         }
       } else {	/* 'if-flag' not appropriate. */
-	OLC_CMD(d).if_flag = 0;
-	zedit_disp_arg1(d);
+	      OLC_CMD(d).if_flag = 0;
+	      zedit_disp_arg1(d);
       }
     }
     break;
