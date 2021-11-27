@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 S
 #1002
@@ -62,10 +62,6 @@ S
 On The Ledge~
 You are in an unfinished room.~
 100 0 0 0 0 5
-D0
-~
-~
-0 0 1013
 D2
 ~
 ~
@@ -117,10 +113,6 @@ S
 Hold Your Ground~
 You are in an unfinished room.~
 100 0 0 0 0 4
-D0
-~
-~
-0 0 1008
 D1
 ~
 ~
@@ -132,7 +124,7 @@ D2
 S
 T 1010
 #1011
-Dive to ground...~
+Dive To The Ground~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
@@ -239,9 +231,9 @@ D2
 S
 T 1021
 #1022
-The Angel Bird~
+Concentrate On Getting Home~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 0 0 0 0 4
 D1
 ~
 ~
