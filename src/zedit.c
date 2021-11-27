@@ -542,7 +542,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu[insert command]:1\r"
 	  "\nmenu[edit command]:2\r"
 	  "\nmenu[delete command]:3\r"
-	  "\nmenu[quit]:q\r");
+	  "\nmenu[quit]:0\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
