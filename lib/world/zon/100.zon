@@ -2,6 +2,10 @@
 CYOA~
 Adventure Land~
 1000 9999 90 2 d 0 0 0 -1 -1
+M 0 1011 4 1016 	(Angel Bird)
+M 0 1011 1 1011 	(Angel Bird)
+M 0 1011 2 1011 	(Angel Bird)
+M 0 1011 3 1011 	(Angel Bird)
 M 0 1010 1 1010 	(Angel Bird (fledgling))
 O 0 7 99 1006 	(Fresh Spring)
 O 0 1003 99 1000 	(Bruckner Theory)
