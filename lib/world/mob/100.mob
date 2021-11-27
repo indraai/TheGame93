@@ -40,11 +40,33 @@ Angel Bird (fledgling)~
 1010/avatar~
 talk:#adv agent:thegame 1010/look
 ~
-10 0 0 0 0 0 0 0 100 E
+10 0 0 0 131072 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 8
 BareHandAttack: 4
+E
+#1011
+angel bird underground kingdom cyoa~
+Angel Bird~
+1011/avatar~
+talk:#adv agent:thegame 1011/look
+~
+10 0 0 0 131072 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 8
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #1026
 professor bruckner underground kingdom cyoa~

@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
@@ -114,7 +114,7 @@ D1
 0 0 1012
 S
 #1010
-The Great Bird~
+Hold Your Ground~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
@@ -152,10 +152,6 @@ D0
 ~
 ~
 0 0 1018
-D2
-~
-~
-0 0 1020
 S
 T 1012
 #1013
@@ -262,7 +258,7 @@ D3
 S
 T 1023
 #1024
-No chance of that~
+No Chance Of That~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D3
