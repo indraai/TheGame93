@@ -75,7 +75,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1012
@@ -106,7 +106,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1020
@@ -127,7 +127,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1021
@@ -158,7 +158,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1024
@@ -179,7 +179,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1026
@@ -210,7 +210,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1033
@@ -231,7 +231,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1037
@@ -281,7 +281,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1051
@@ -342,7 +342,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1062
@@ -363,7 +363,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1064
@@ -384,7 +384,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1065
@@ -405,7 +405,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1068
@@ -436,7 +436,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1070
@@ -467,7 +467,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1074
@@ -488,7 +488,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj 1008 %actor%
-  %send% %actor% tkn:You get the 0x1074 Token Key.
+  %send% %actor% key:You get the 0x1074 Token Key.
 end
 ~
 #1075
@@ -542,7 +542,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1089
@@ -563,7 +563,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1102
@@ -584,7 +584,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1103
@@ -605,7 +605,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1106
@@ -626,7 +626,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 #1108
@@ -647,7 +647,7 @@ if !%thetoken%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% tkn:You get the 0x%thekey% Token Key.
+  %send% %actor% key:You get the 0x%thekey% Token Key.
 end
 ~
 $~
