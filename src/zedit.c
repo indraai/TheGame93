@@ -768,7 +768,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'c':
       /* Edit zone lifespan. */
-      write_to_output(d, "\nWhat is the zone lifespan (min)?\r",
+      write_to_output(d, "\nWhat is the zone lifespan (min)?\r"
         "\ncurrent: %d\r",
         OLC_ZONE(d)->lifespan);
 
@@ -780,7 +780,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
         zedit_disp_menu(d);
       }
       else {
-        write_to_output(d, "\nWhere does the zone begin?\r",
+        write_to_output(d, "\nWhere does the zone begin?\r"
           "\ncurrent:%d\r",
           OLC_ZONE(d)->bot);
 
