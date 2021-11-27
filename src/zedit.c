@@ -267,131 +267,7 @@ static void zedit_new_zone(struct char_data *ch, zone_vnum vzone_num, room_vnum 
       case CON_MEDIT:
       case CON_SEDIT:
       case CON_OEDIT:
-      case CON_TRIGEDIT:
-      case CON_QEDIT:
-        OLC_ZNUM(dsc) += (OLC_ZNUM(dsc) >= result);
-        break;
-      default:
-        break;
-    }
-  }
-
-  zedit_save_to_disk(result); /* save to disk .. */
-
-  mudlog(BRF, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s creates new zone #%d\r\n", GET_NAME(ch), vzone_num);
-  write_to_output(ch->desc, "\nsave:Zone created successfully.\r");
-}
-
-/* Save all the information in the player's temporary buffer back into
- * the current zone table. */
-static void zedit_save_internally(struct descriptor_data *d)
-{
-  int	mobloaded = FALSE,
-	objloaded = FALSE,
-	subcmd, i;
-  room_rnum room_num = real_room(OLC_NUM(d));
-
-  if (room_num == NOWHERE) {
-    log("SYSERR: zedit_save_internally: OLC_NUM(d) room %d not found.\r\n", OLC_NUM(d));
-    return;
-  }
-
-  remove_room_zone_commands(OLC_ZNUM(d), room_num);
-
-  /* Now add all the entries in the players descriptor list */
-  for (subcmd = 0; MYCMD.command != 'S'; subcmd++) {
-    /* Since Circle does not keep track of what rooms the 'G', 'E', and
-     * 'P' commands are exitted in, but OasisOLC groups zone commands
-     * by rooms, this creates interesting problems when builders use these
-     * commands without loading a mob or object first.  This fix prevents such
-     * commands from being saved and 'wandering' through the zone command
-     * list looking for mobs/objects to latch onto.
-     * C.Raehl 4/27/99 */
-    switch (MYCMD.command) {
-      /* Possible fail cases. */
-      case 'G':
-      case 'E':
-        if (mobloaded)
-          break;
-        write_to_output(d, "\nerror: Equip/Give command not saved since no mob was loaded first.\r");
-        continue;
-      case 'P':
-        if (objloaded)
-          break;
-        write_to_output(d, "\nerror: Put command not saved since another object was not loaded first.\r");
-        continue;
-      /* Pass cases. */
-      case 'M':
-        mobloaded = TRUE;
-        break;
-      case 'O':
-        objloaded = TRUE;
-        break;
-      default:
-        mobloaded = objloaded = FALSE;
-        break;
-    }
-    add_cmd_to_list(&(zone_table[OLC_ZNUM(d)].cmd), &MYCMD, subcmd);
-  }
-
-  /* Finally, if zone headers have been changed, copy over */
-  if (OLC_ZONE(d)->number) {
-    free(zone_table[OLC_ZNUM(d)].name);
-    free(zone_table[OLC_ZNUM(d)].builders);
-
-    zone_table[OLC_ZNUM(d)].name = strdup(OLC_ZONE(d)->name);
-    zone_table[OLC_ZNUM(d)].builders = strdup(OLC_ZONE(d)->builders);
-    zone_table[OLC_ZNUM(d)].bot = OLC_ZONE(d)->bot;
-    zone_table[OLC_ZNUM(d)].top = OLC_ZONE(d)->top;
-    zone_table[OLC_ZNUM(d)].reset_mode = OLC_ZONE(d)->reset_mode;
-    zone_table[OLC_ZNUM(d)].lifespan = OLC_ZONE(d)->lifespan;
-    zone_table[OLC_ZNUM(d)].min_level = OLC_ZONE(d)->min_level;
-    zone_table[OLC_ZNUM(d)].max_level = OLC_ZONE(d)->max_level;
-    for (i=0; i<ZN_ARRAY_MAX; i++)
-      zone_table[OLC_ZNUM(d)].zone_flags[(i)] = OLC_ZONE(d)->zone_flags[(i)];
-  }
-  add_to_save_list(zone_table[OLC_ZNUM(d)].number, SL_ZON);
-}
-
-static void zedit_save_to_disk(int zone)
-{
-  save_zone(zone);
-}
-
-/* Error check user input and then setup change */
-static int start_change_command(struct descriptor_data *d, int pos)
-{
-  if (pos < 0 || pos >= count_commands(OLC_ZONE(d)->cmd))
-    return 0;
-
-  /* Ok, let's get editing. */
-  OLC_VAL(d) = pos;
-  return 1;
-}
-
-/*------------------------------------------------------------------*/
-static void zedit_disp_flag_menu(struct descriptor_data *d)
-{
-  char bits[MAX_STRING_LENGTH];
-  int i, count = 0;
-  clear_screen(d);
-  write_to_output(d, "\n## Zone Flags\r");
-  for (i = 0; i < ZN_ARRAY_MAX; i++) {
-    write_to_output(d, "menu[%s]:%d\r\n", zone_bits[i], ++count);
-  }
-
-  sprintbitarray(OLC_ZONE(d)->zone_flags, zone_bits, ZN_ARRAY_MAX, bits);
-  write_to_output(d,
-    "\nflags: %s\r"
-    "\nmenu[close]:0\r", bits);
-  OLC_MODE(d) = ZEDIT_ZONE_FLAGS;
-}
-
-/*------------------------------------------------------------------*/
-static bool zedit_get_levels(struct descriptor_data *d, char *buf)
-{
-  /* Create a string for the recommended levels for this zone. */
-  if ((OLC_ZONE(d)->min_level == -1) && (OLC_ZONE(d)->max_level == -1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 && (OLC_ZONE(d)->max_level == -1)) {
     sprintf(buf, "<Not Set!>");
     return FALSE;
   }
@@ -722,14 +598,14 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       if (CONFIG_OLC_SAVE) {
         write_to_output(d, "\nsave:Zone saved to disk.\r");
         zedit_save_to_disk(OLC_ZNUM(d));
-      } else
+      } else {
         write_to_output(d, "\nsave:Zone saved to memory.\r");
-
+      }
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits zone info for room %d.\r\n", GET_NAME(d->character), OLC_NUM(d));
       /* FALL THROUGH */
     case 'n':
     case 'N':
-      write_to_output(d, "\nsave:No changes made.\r");
+      write_to_output(d, "\nsave:Save aborted.\r");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
@@ -747,6 +623,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
+        write_to_output(d, "\nsave:No changes made.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       break;
