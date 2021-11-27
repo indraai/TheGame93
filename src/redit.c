@@ -569,8 +569,8 @@ void redit_parse(struct descriptor_data *d, char *arg)
   case REDIT_MAIN_MENU:
     switch (*arg) {
     case 'a':
-      write_to_output(d,
-        "\nname: %s\r",
+      write_to_output(d, "\nWhat is the room name?\r"
+        "\ncurrent: %s\r",
         OLC_ROOM(d)->name);
       OLC_MODE(d) = REDIT_NAME;
       break;
