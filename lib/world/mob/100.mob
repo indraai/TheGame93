@@ -123,6 +123,102 @@ talk:#adv agent:thegame 1029/look
 0 0
 8 8 1
 E
+#1044
+ket raka underground kingdom cyoa~
+Ket Raka~
+1044/avatar~
+talk:#adv agent:thegame 1044/look
+~
+74 0 0 0 2048 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 1
+BareHandAttack: 10
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1045
+akim raka underground kingdom cyoa~
+Akim Raka~
+1045/avatar~
+talk:#adv agent:thegame 1044/look
+~
+74 0 0 0 2048 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 1
+BareHandAttack: 10
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1046
+tor raka underground kingdom cyoa~
+Tor Raka~
+1046/avatar~
+talk:#adv agent:thegame 1046/look
+~
+74 0 0 0 2048 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 1
+BareHandAttack: 10
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1047
+kota beast underground kingdom cyoa~
+Kota Beast~
+1047/avatar~
+talk:#adv agent:thegame 1047/look
+~
+74 0 0 0 2048 0 0 0 -200 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 8
+BareHandAttack: 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#1050
+blue raka underground kingdom cyoa~
+Blue Raka~
+1050/avatar~
+talk:#adv agent:thegame 1050/look
+~
+74 0 0 0 2048 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 1
+BareHandAttack: 10
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1066
+dr nera vivaldi underground empire cyoa~
+Dr. Vivaldi~
+1066/avatar~
+talk:#adv agent:thegame 1066/look
+~
+74 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2
+E
 #1075
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
