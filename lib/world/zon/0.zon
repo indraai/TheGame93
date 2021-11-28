@@ -2,6 +2,11 @@
 Quinn~
 deva.world~
 0 99 90 2 d 0 0 0 -1 -1
+M 0 0 1 31 	(Vamraka)
+M 0 198 1 31 	(Vamraka Disciple)
+O 0 180 50 31 	(Candy Dirt)
+O 0 4 50 31 	(Cheddar Cheese)
+O 0 7 3 31 	(Fresh Spring)
 O 0 8 30 2 	(Academy Course A08)
 O 0 9 30 2 	(Academy Level 1)
 O 0 11 30 2 	(Academy Level 2)
@@ -13,8 +18,6 @@ O 0 24 30 2 	(Academy Level 7)
 O 0 28 30 2 	(Academy Level 8)
 O 0 29 30 2 	(Academy Level 9)
 O 0 30 30 2 	(Academy Level 10)
-M 0 0 1 31 	(Vamraka)
-M 0 198 1 31 	(Vamraka Disciple)
 M 0 156 2 32 	(Indra Fighter)
 M 0 1 1 32 	(Indu)
 M 0 165 1 32 	(Indu Disciple)

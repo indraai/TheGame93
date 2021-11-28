@@ -109,6 +109,15 @@ talk:#adv thegame:object 1033/look
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
+#1044
+tanga food underground adventure cyoa~
+Taga~
+1044/avatar~
+talk:#adv object:thegame 1044/look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+0 0 0 0 0
 #1047
 0x1047 token underground kingdom cyoa~
 0x1047 Token~

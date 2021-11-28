@@ -25,11 +25,12 @@ A Ginseng Root is here.~
 #4
 cheddar cheese bits food~
 Cheddar Cheese~
-A block of Aged Cheddar Cheese front of you.~
+0004/avatar~
+talk:#adv object:thegame 0004/look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 3 0 0 0
-3 15 0 0 0
+3 3 0 0 0
 #5
 mixed nuts food~
 mixed nuts food~

@@ -208,6 +208,22 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#1053
+raka guard underground kingdom cyoa~
+Raka Guard~
+1053/avatar~
+talk:#adv agent:thegame 1053/look
+~
+74 0 0 0 2048 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 #1066
 dr nera vivaldi underground empire cyoa~
 Dr. Vivaldi~

@@ -1,11 +1,16 @@
 #100
 CYOA~
 Adventure Land~
-1000 9999 90 2 d 0 0 0 -1 -1
+1000 9999 90 2 d 0 0 0 1 -1
 M 0 1044 1 1044 	(Ket Raka)
 M 0 1045 1 1044 	(Akim Raka)
 M 0 1046 1 1044 	(Tor Raka)
+G 1 1044 10 -1 	(Taga)
 O 0 7 2 1044 	(Fresh Spring)
+O 0 1044 10 1044 	(Taga)
+O 0 7 1 1006 	(Fresh Spring)
+M 0 1053 2 1053 	(Raka Guard)
+M 0 1053 2 1053 	(Raka Guard)
 M 0 1066 1 1066 	(Dr. Vivaldi)
 M 0 1050 1 1050 	(Blue Raka)
 M 0 1050 2 1050 	(Blue Raka)
@@ -16,7 +21,6 @@ M 0 1011 1 1011 	(Angel Bird)
 M 0 1011 2 1011 	(Angel Bird)
 M 0 1011 3 1011 	(Angel Bird)
 M 0 1010 1 1010 	(Angel Bird (fledgling))
-O 0 7 99 1006 	(Fresh Spring)
 O 0 1003 99 1000 	(Bruckner Theory)
 M 0 1003 1 1000 	(Kingdom Guide)
 M 0 1075 1 1075 	(Professor Bruckner)
