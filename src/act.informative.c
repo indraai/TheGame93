@@ -1694,7 +1694,10 @@ static void print_object_location(int num, struct obj_data *obj, struct char_dat
 			        int recur)
 {
   if (num > 0) {
-    send_to_char(ch, "\n%d. %s", num, obj->short_description);
+    send_to_char(ch, "\n%d. %d %s",
+    num,
+    GET_OBJ_VNUM(obj),
+    obj->short_description);
   }
 
   if (SCRIPT(obj)) {
