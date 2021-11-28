@@ -285,7 +285,11 @@ static void diag_char_to_char(struct char_data *i, struct char_data *ch)
     if (percent >= diagnosis[ar_index].percent)
       break;
 
-  send_to_char(ch, "\ninfo:%c%s %s\r", UPPER(*pers), pers + 1, diagnosis[ar_index].text);
+  send_to_char(ch, "\n::begin:diagnose\r"
+    "\ninfo:%c%s %s\r"
+    "\n::end:diagnose\r",
+    UPPER(*pers), pers + 1,
+    diagnosis[ar_index].text);
 }
 
 static void look_at_char(struct char_data *i, struct char_data *ch)
