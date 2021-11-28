@@ -285,7 +285,7 @@ static void diag_char_to_char(struct char_data *i, struct char_data *ch)
     if (percent >= diagnosis[ar_index].percent)
       break;
 
-  send_to_char(ch, "\n%c%s %s\r", UPPER(*pers), pers + 1, diagnosis[ar_index].text);
+  send_to_char(ch, "\ninfo:%c%s %s\r", UPPER(*pers), pers + 1, diagnosis[ar_index].text);
 }
 
 static void look_at_char(struct char_data *i, struct char_data *ch)
@@ -304,7 +304,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
       i->player.description
     );
   else
-    act("You see nothing special about $m.", FALSE, i, 0, ch, TO_VICT);
+    act("\ninfo:You see nothing special about $m.\r", FALSE, i, 0, ch, TO_VICT);
 
   diag_char_to_char(i, ch);
 
@@ -323,8 +323,10 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
   }
   // todo: look at fixing this code better
   if (ch != i && (IS_SARYA(ch) || GET_LEVEL(ch) >= LVL_IMMORT)) {
-    act("You look at $s inventory...", FALSE, i, 0, ch, TO_VICT);
+    send_to_char(ch, "\n::begin:inventory\r");
+    act("\ninfo:You look at $s inventory...\r", FALSE, i, 0, ch, TO_VICT);
     list_obj_to_char(i->carrying, ch, SHOW_OBJ_SHORT, TRUE);
+    send_to_char(ch, "\n::end:inventory\r");
   }
 }
 
