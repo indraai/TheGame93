@@ -1705,13 +1705,13 @@ static void print_object_location(int num, struct obj_data *obj, struct char_dat
   }
 
   if (IN_ROOM(obj) != NOWHERE)
-    send_to_char(ch, "\nin:%d %s\r", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name);
+    send_to_char(ch, "\n- R %d %s\r", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name);
   else if (obj->carried_by)
-    send_to_char(ch, "carried: %s\r", PERS(obj->carried_by, ch));
+    send_to_char(ch, "\n- C %s\r", PERS(obj->carried_by, ch));
   else if (obj->worn_by)
-    send_to_char(ch, "worn: %s\r", PERS(obj->worn_by, ch));
+    send_to_char(ch, "\n- W %s\r", PERS(obj->worn_by, ch));
   else if (obj->in_obj) {
-    send_to_char(ch, "inside: %s%s\r", obj->in_obj->short_description, (recur ? ", which is" : " "));
+    send_to_char(ch, "\n- I %s\r", obj->in_obj->short_description);
     if (recur)
       print_object_location(0, obj->in_obj, ch, recur);
   } else
