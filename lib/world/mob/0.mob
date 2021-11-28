@@ -262,4 +262,27 @@ SavingPetri: 6
 SavingBreath: 6
 SavingSpell: 6
 E
+#13
+fighter indra indu~
+Indra Fighter~
+0013/avatar~
+#adv agent:thegame 0013/look
+~
+2330 0 0 0 2136 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 0
+BareHandAttack: 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
 $

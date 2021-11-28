@@ -195,6 +195,24 @@ talk:#adv object:thegame 0030/look
 18 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 10 0
+#31
+vamraka stream water fountain~
+Vamraka Fountain~
+0031/avatar~
+talk:#adv object:thegame 0031/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
+#32
+indu stream water fountain~
+Indu Fountain~
+0032/avatar~
+talk:#adv object:thegame 0032/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
 #70
 sign closed~
 Closed Sign~
