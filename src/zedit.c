@@ -729,7 +729,6 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       /* FALL THROUGH */
     case 'n':
     case 'N':
-      write_to_output(d, "\nsave:Save aborted.\r");
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
