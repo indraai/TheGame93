@@ -46,6 +46,15 @@ E
 theory~
 talk:#adv object:thegame 1003/theory
 ~
+#1006
+water underground stream~
+Underground Stream~
+1006/avatar~
+talk:#adv object:thegame 1006/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
 #1008
 0x1008 token underground kingdom cyoa~
 0x1008 Token~
