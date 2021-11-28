@@ -1678,11 +1678,11 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
   } else {			/* print only FIRST char, not all. */
     for (i = character_list; i; i = i->next) {
       if (IN_ROOM(i) == NOWHERE || i == ch)
-	continue;
+        continue;
       if (!CAN_SEE(ch, i) || world[IN_ROOM(i)].zone != world[IN_ROOM(ch)].zone)
-	continue;
+        continue;
       if (!isname(arg, i->player.name))
-	continue;
+        continue;
       send_to_char(ch, "\n%-25s%s - %s%s", GET_NAME(i), QNRM, world[IN_ROOM(i)].name, QNRM);
       return;
     }
@@ -1690,35 +1690,43 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
   }
 }
 
-static void print_object_location(int num, struct obj_data *obj, struct char_data *ch,
-			        int recur)
-{
-  if (num > 0)
-    send_to_char(ch, "O%3d. %-25s%s - ", num, obj->short_description, QNRM);
-  else
-    send_to_char(ch, "%33s", " - ");
 
-  if (SCRIPT(obj)) {
-    if (!TRIGGERS(SCRIPT(obj))->next)
-      send_to_char(ch, "[T%d] ", GET_TRIG_VNUM(TRIGGERS(SCRIPT(obj))));
-    else
-      send_to_char(ch, "[TRIGS] ");
+static void print_object_location(int num, struct obj_data *obj, struct char_data *ch, int recur) {
+  if (num > 0) {
+    send_to_char(ch, "\n%d. %s\r",
+      num,
+      obj->short_description);
   }
 
-  if (IN_ROOM(obj) != NOWHERE)
-    send_to_char(ch, "\n[%5d] %s", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name);
-  else if (obj->carried_by)
-    send_to_char(ch, "carried by %s", PERS(obj->carried_by, ch));
-  else if (obj->worn_by)
-    send_to_char(ch, "worn by %s", PERS(obj->worn_by, ch));
-  else if (obj->in_obj) {
-    send_to_char(ch, "inside %s%s", obj->in_obj->short_description, (recur ? ", which is" : " "));
-    if (recur)
-      print_object_location(0, obj->in_obj, ch, recur);
-  } else
-    send_to_char(ch, "in an unknown location");
-}
+  if (SCRIPT(obj)) {
+    if (!TRIGGERS(SCRIPT(obj))->next) {
+      send_to_char(ch, "\ntrigger: %d\r", GET_TRIG_VNUM(TRIGGERS(SCRIPT(obj))));
+    }
+    else {
+      send_to_char(ch, "\ntrigger: *****\r");
+    }
+  }
 
+  if (IN_ROOM(obj) != NOWHERE) {
+    send_to_char(ch, "\nin: %d %s\r", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name);
+  }
+  else if (obj->carried_by) {
+    send_to_char(ch, "\ncarried: %s\r", PERS(obj->carried_by, ch));
+  }
+  else if (obj->worn_by) {
+    send_to_char(ch, "\nworn: %s\r", PERS(obj->worn_by, ch));
+  }
+  else if (obj->in_obj) {
+    send_to_char(ch, "\n%s", obj->in_obj->short_description);
+    if (recur) {
+      print_object_location(0, obj->in_obj, ch, recur);
+    }
+  }
+
+/* Perform a where search if have immortal level
+  character data is sent in as *ch
+  the char string argument for the deva to search for
+*/
 static void perform_deva_where(struct char_data *ch, char *arg)
 {
   struct char_data *i;
@@ -1726,31 +1734,35 @@ static void perform_deva_where(struct char_data *ch, char *arg)
   struct descriptor_data *d;
   int num = 0, found = 0;
 
+  // if there is an argument that we start here.
   if (!*arg) {
     for (d = descriptor_list; d; d = d->next)
       if (IS_PLAYING(d)) {
         i = (d->original ? d->original : d->character);
         if (i && CAN_SEE(ch, i) && (IN_ROOM(i) != NOWHERE)) {
-          if (d->original)
-            send_to_char(ch, "\nwhere:%s - %d %s in %s",
+          if (d->original) {
+            send_to_char(ch, "\nwhere:%s - %d %s in %s\r",
               GET_NAME(i),
               GET_ROOM_VNUM(IN_ROOM(d->character)),
               world[IN_ROOM(d->character)].name,
               GET_NAME(d->character));
-          else
-            send_to_char(ch, "\n%s:%s %d:%s %s",
+          }
+          else {
+            send_to_char(ch, "\n%s:%s %d:%s %s\r",
               IS_NPC(ch) ? "agent" : "player",
               GET_NAME(i),
               GET_ROOM_VNUM(IN_ROOM(i)),
               world[IN_ROOM(i)].name,
               zone_table[(world[IN_ROOM(i)].zone)].name);
+          }
         }
       }
+  // if there is no argument passed we go here.
   } else {
     for (i = character_list; i; i = i->next)
       if (CAN_SEE(ch, i) && IN_ROOM(i) != NOWHERE && isname(arg, i->player.name)) {
         found = 1;
-        send_to_char(ch, "\n%d: %d:%s > %d:%s",
+        send_to_char(ch, "\n%d. %d:%s > %d:%s\r",
           ++num,
           GET_MOB_VNUM(i),
           GET_NAME(i),
@@ -1858,7 +1870,7 @@ ACMD(do_levels)
   }
 
   if (len < sizeof(buf) && max_lev == LVL_IMMORT)
-    snprintf(buf + len, sizeof(buf) - len, "\n[%2d] %8d: Immortality",
+    snprintf(buf + len, sizeof(buf) - len, "\n%d. %d Immoratal\r",
 		LVL_IMMORT, level_exp(GET_CLASS(ch), LVL_IMMORT));
   page_string(ch->desc, buf, TRUE);
 }

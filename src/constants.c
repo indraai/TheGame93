@@ -20,7 +20,7 @@
 #include "interpreter.h"	/* alias_data */
 #include "constants.h"
 
-cpp_extern const char *confirm_msg = "\nDo you wish to save your changes?\r"
+cpp_extern const char *confirm_msg = "\np:Do you wish to save your changes?\r"
   "\nconfirm[yes]:yes\r"
   "\nconfirm[no]:no\r";
 
