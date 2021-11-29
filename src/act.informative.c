@@ -452,10 +452,11 @@ static void list_char_to_char(struct char_data *list, struct char_data *ch)
 
   for (i = list; i; i = i->next_in_room)
     if (ch != i) {
-      /* hide npcs whose description starts with a '.' from non-holylighted people - Idea from Elaseth of TBA */
+      /* hide npcs whose description starts with a '.' from non-holylighted people - Idea from Elaseth of TBA
       if (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_HOLYLIGHT) &&
       	   IS_NPC(i) && i->player.long_descr && *i->player.long_descr == '.')
         continue;
+      */
       if (CAN_SEE(ch, i))
         list_one_char(i, ch);
       else if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch) &&
