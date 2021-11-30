@@ -308,4 +308,27 @@ SavingPetri: 7
 SavingBreath: 7
 SavingSpell: 7
 E
+#15
+agni deity visvedevas sacrifice~
+Agni~
+0015/avatar~
+talk:#adv agent:thegame 0015/look
+~
+2072 0 0 0 2104 0 0 0 0 E
+27 11 -6 5d5+270 4d4+4
+270 72900
+8 8 6
+BareHandAttack: 10
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
 $

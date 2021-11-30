@@ -14,6 +14,10 @@ D2
 ~
 ~
 0 0 210
+D3
+~
+~
+0 0 11
 S
 #201
 indra.city/ne~
@@ -23,28 +27,40 @@ D0
 ~
 ~
 0 0 194
+D1
+~
+~
+0 0 180
 D2
 ~
 ~
 0 0 214
 S
 #202
-ARJIKA CYBER3~
+indra.farm/orchard~
 Empty.~
-2 568 0 0 0 0
+2 0 0 0 0 2
 D0
 ~
 ~
 0 0 195
+D1
+~
+~
+0 0 203
 D2
 ~
 ~
 0 0 215
+D3
+~
+~
+0 0 214
 S
 #203
-ARJIKA Dining~
+indra.farm/orchard~
 Empty.~
-2 24 0 0 0 0
+2 16 0 0 0 2
 D0
 ~
 ~
@@ -53,6 +69,10 @@ D2
 ~
 ~
 0 0 196
+D3
+~
+~
+0 0 202
 S
 #204
 INDU Barracks~
@@ -228,28 +248,36 @@ D0
 ~
 ~
 0 0 201
-D2
-~
-~
-0 0 227
-S
-#215
-ARJIKA CYBER4~
-Empty room.~
-2 568 0 0 0 0
-D0
+D1
 ~
 ~
 0 0 202
 D2
 ~
 ~
-0 0 228
+0 0 227
+S
+#215
+indra.farm/vine~
+Empty room.~
+2 0 0 0 0 2
+D0
+~
+~
+0 0 202
+D1
+~
+~
+0 0 196
+D2
+~
+~
+0 0 241
 S
 #216
-ARJIKA Barracks~
+indra.farm/fruit~
 Empty.~
-2 24 0 0 0 0
+2 16 0 0 0 2
 D0
 ~
 ~
@@ -258,6 +286,10 @@ D2
 ~
 ~
 0 0 203
+D3
+~
+~
+0 0 195
 S
 #217
 INDU Research~
@@ -409,32 +441,40 @@ D0
 ~
 ~
 0 0 214
+D1
+~
+~
+0 0 228
 D2
 ~
 ~
 0 0 240
 S
 #228
-ARJIKA Library~
+indra.farm/cheese~
 undefined~
-2 568 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
-0 0 215
+0 0 241
 D1
 ~
 ~
-0 0 229
-D2
+0 0 242
+D3
 ~
 ~
-0 0 241
+0 0 227
 S
 #229
-ARJIKA Research~
+indra.farm/coop~
 Empty Room.~
-2 568 0 0 0 0
+2 16 0 0 0 0
+D0
+~
+~
+0 0 196
 D2
 ~
 ~
@@ -442,7 +482,7 @@ D2
 D3
 ~
 ~
-0 0 228
+0 0 241
 S
 #230
 INDU Development~
@@ -584,22 +624,26 @@ D2
 0 0 256
 S
 #241
-ARJIKA Operations~
+indra.farm/herbs~
 Empty room.~
-2 568 0 0 0 0
+2 0 0 0 0 2
 D0
 ~
 ~
-0 0 228
+0 0 215
 D1
 ~
 ~
-0 0 242
+0 0 229
+D2
+~
+~
+0 0 228
 S
 #242
-ARJIKA Development~
+indra.farm/dairy~
 undefined~
-2 568 0 0 0 0
+2 16 0 0 0 2
 D0
 ~
 ~
@@ -607,7 +651,7 @@ D0
 D3
 ~
 ~
-0 0 241
+0 0 228
 S
 #243
 indra.agency/w~

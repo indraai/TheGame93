@@ -121,6 +121,15 @@ talk:#adv object:thegame 0219/look
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 0
 1 2 0 0 0
+#242
+milk dairy drink farm~
+Farm Milk~
+0242/avatar~
+talk:#adv object:thegame 0242/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 9 0
+0 0 0 0 0
 #251
 water marble fountain water~
 Water Fountain~
@@ -131,28 +140,28 @@ talk:#adv object:thegame 0251/look~
 0 0 0 0 0
 T 201
 E
-fountain~
-talk:#adv object:thegame 0251/fountain
-~
-E
-indra~
-talk:#adv object:thegame 0251/indra~
-E
-bom~
-talk:#adv object:thegame 0251/bom~
-E
-sarya~
-talk:#adv object:thegame 0251/sarya~
-E
-soma~
-talk:#adv object:thegame 0251/soma~
-E
-indu~
-talk:#adv object:thegame 0251/indu~
+statues~
+talk:#adv object:thegame 0251/statues~
 E
 vamraka~
 talk:#adv object:thegame 0251/vamraka~
 E
-statues~
-talk:#adv object:thegame 0251/statues~
+indu~
+talk:#adv object:thegame 0251/indu~
+E
+soma~
+talk:#adv object:thegame 0251/soma~
+E
+sarya~
+talk:#adv object:thegame 0251/sarya~
+E
+bom~
+talk:#adv object:thegame 0251/bom~
+E
+indra~
+talk:#adv object:thegame 0251/indra~
+E
+fountain~
+talk:#adv object:thegame 0251/fountain
+~
 $~

@@ -2,6 +2,9 @@
 Quinn Michaels~
 deva.world~
 200 299 20 2 d 0 0 0 -1 -1
+M 0 15 1 216 	(Agni)
+M 0 126 1 242 	(Rasa)
+O 0 242 1 242 	(Farm Milk)
 M 0 224 1 265 	(Harry Systems)
 M 0 225 1 265 	(Larry Systems)
 M 0 226 1 265 	(Barry Systems)
@@ -30,7 +33,6 @@ G 1 179 100 -1 	(Water Canteen)
 M 0 110 1 222 	(Rarry)
 M 0 111 1 277 	(Narry)
 M 0 119 1 224 	(Mr. Dewity (boss))
-M 0 126 1 242 	(Rasa)
 M 0 130 1 264 	(Sarry)
 M 0 136 1 297 	(Asikni)
 M 0 135 1 252 	(Parusni)
