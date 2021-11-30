@@ -109,18 +109,6 @@ Using hides bought from the local farms this young man makes some of the finest 
 330 108900
 8 8 1
 E
-#108
-sarge blacksmith~
-Sarge~
-Sarge, the blacksmith is here, pounding on his anvil.
-~
-So intent on his work he seems not to notice you.  It gives you small start when he asks, "may I help you?  " without looking.  Not a man to be kept waiting, Sarge begins to tap his foot impatiently.
-~
-190474 0 0 0 16 0 0 0 900 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 1
-E
 #109
 warry watermaster water store deva~
 Warry~
@@ -178,78 +166,16 @@ E
 #113
 questmaster quests~
 Quest Master~
-The Quest Master is here.
-~
-The Quest Master is here to assist Adventurers on their journey.
-~
+113/avatar~
+talk:#adv agent:thegame 0113/look~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
 E
-#114
-terry cooksey man amiga 1337~
-Terry Cooksey (amiga)~
-0114/avatar~
-talk:#adv agent:thegame 0114/look~
-2136 0 0 0 0 0 0 0 -200 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
-BareHandAttack: 11
-E
-#115
-eric hughes cypherpunk 1337 defcon~
-Eric Hughes (cypherpunk)~
-0115/avatar~
-talk:#adv agent:thegame 0115/look~
-2136 0 0 0 0 0 0 0 -200 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1
-BareHandAttack: 8
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
-E
-#116
-robert david steele steeler 1337~
-Robert Steele (steeler)~
-0116/avatar~
-talk:#adv agent:thegame 0116/look~
-2136 0 0 0 0 0 0 0 -200 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
-BareHandAttack: 10
-E
-#117
-trenton lavery covenant~
-TrentLavery~
-0117/avatar~
-talk:#adv agent:thegame 0117/look~
-2264 0 0 0 0 0 0 0 0 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 1
-E
-#118
-tabitha lavery bass covenant survivance 1337~
-Tabitha Lavery (tabby)~
-0118/avatar~
-talk:#adv agent:thegame 0118/look~
-2264 0 0 0 0 0 0 0 -300 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 2
-BareHandAttack: 4
-E
 #119
-dewity mrdewity banker covenant 1337 boss~
-Mr. Dewity (boss)~
+fever visvedevas fire sacrifice deity~
+Fever~
 0119/avatar~
 talk:#adv agent:thegame 0119/look~
 2074 0 0 0 0 0 0 0 -1000 E
@@ -290,17 +216,6 @@ You are in no doubt that this guildmaster is truly close to the Devas; he has a 
 34 9 -10 6d6+340 5d5+5
 340 115600
 8 8 1
-E
-#123
-guildmaster master hero~
-Hero Guildmaster~
-0123/avatar~
-This is your master.  Big and strong with bulging muscles.  Several scars across his body proves that he was using arms before you were born.  He has a calm look on his face.
-~
-59418 0 0 0 16 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-6 6 1
 E
 #124
 0x super king adc daycare~
@@ -387,17 +302,6 @@ SavingPetri: 6
 SavingBreath: 6
 SavingSpell: 6
 E
-#129
-the_ut stephen huntley watt 1337 mayhem~
-Stephen Watt (the_ut)~
-0129/avatar~
-talk:#adv agent:thegame 0129/look~
-2136 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 7
-E
 #130
 sarry grocer groderies store devi~
 Sarry~
@@ -423,22 +327,6 @@ talk:#adv agent:thegame 0131/look~
 60 3600
 8 8 6
 BareHandAttack: 10
-E
-#132
-ray kaplan 1337 christic romero defcon hope~
-Ray Kaplan (kaplan)~
-0132/avatar~
-talk:#adv agent:thegame 0132/look~
-2136 0 0 0 0 0 0 0 -250 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1
-BareHandAttack: 11
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
 E
 #133
 satudri visvedevas deity~
@@ -513,8 +401,7 @@ E
 asikni visvedevas deity~
 Asikni~
 0136/avatar~
-The Master Magi of the green order dismisses you with a wave. A Master Magi is the highest ranking magi of each order.  Of the seven orders of the Magi only 5 have Master Magi's. The orders of the purple and gray robe have yet to select a master magi as none of them are powerful enough.
-~
+talk:#adv agent:thegame 0136/look~
 6168 0 0 0 16 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -564,35 +451,11 @@ talk:#adv agent:thegame 0138/look~
 8 8 6
 BareHandAttack: 5
 E
-#139
-kibo james parry 1337 kibo~
-James Parry (kibo)~
-0139/avatar~
-talk:#adv agent:thegame 0139/look~
-2136 0 0 0 0 0 0 0 -150 E
-3 19 8 0d0+30 1d2+0
-50 900
-8 8 1
-BareHandAttack: 8
-E
-#140
-joe lavery covenant~
-Joe Lavery~
-0140/avatar~
-Joe Lavery lives with his daughter Tabitha and is the one who talks to Mr. Dewity.
-~
-2202 0 0 0 0 0 0 0 900 E
-24 12 -4 4d4+240 4d4+4
-240 57600
-8 8 1
-BareHandAttack: 1
-E
 #141
 kubha visvedevas deity~
 Kubha~
 0141/avatar~
-talk:#adv agent:thegame 0141/look
-~
+talk:#adv agent:thegame 0141/look~
 6168 0 0 0 24 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
