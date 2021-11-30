@@ -338,12 +338,12 @@ static void perform_obj_name_list(struct char_data * ch, char *arg)
 {
   int num, found = 0;
   obj_vnum ov;
-  send_to_char(ch, "\n## Objects: %s", arg);
+  send_to_char(ch, "\n## Objects: %s\r", arg);
 
   for (num = 0; num <= top_of_objt; num++) {
     if (is_name(arg, obj_proto[num].name)) {
       ov = obj_index[num].vnum;
-      send_to_char(ch, "%d. %d %s(%d) %s %s\r",
+      send_to_char(ch, "\n%d. %d:%s (%d) %s %s\r",
       ++found,
       ov,
       obj_proto[num].short_description,
