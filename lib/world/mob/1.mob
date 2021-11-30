@@ -173,6 +173,52 @@ talk:#adv agent:thegame 0113/look~
 340 115600
 8 8 1
 E
+#114
+manu false god~
+Manu~
+0114/avatar~
+talk:#adv agent:thegame 0114/look
+~
+16974 0 0 0 0 0 0 0 -1000 E
+19 14 -1 3d3+190 3d3+3
+190 36100
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
+#115
+brhaspati evil sacrifice false god~
+Brhaspati~
+0115/avatar~
+talk:#adv agent:thegame 0115/look
+~
+526 0 0 0 0 0 0 0 0 E
+18 14 0 3d3+180 3d3+3
+180 32400
+8 8 1
+BareHandAttack: 12
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
 #119
 fever visvedevas fire sacrifice deity~
 Fever~
@@ -874,11 +920,16 @@ vyasva visvedeva deity~
 Vyasva~
 0183/avatar~
 talk:#adv agent:thegame 0183/look~
-6168 0 0 0 2136 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
+16974 0 0 0 2136 0 0 0 -500 E
+17 15 0 3d3+170 2d2+2
+170 28900
 8 8 6
 BareHandAttack: 5
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
 E
 #185
 soma disciple susoma monk~
