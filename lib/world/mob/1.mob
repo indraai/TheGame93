@@ -605,40 +605,17 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #149
-sergeant arjika arjikiya sergeant military a0149 z3~
+sergeant arjika arjikiya military a149 z3~
 Arjika Sergeant~
 0149/avatar~
-Arjika Sergeant A149 is here. The sergeant looks pissed that his corporal ran away.  Now he is going to enjoy tearing the corporal a new one.  More latrine duty is in the corporals future.
-~
+talk:#adv agent:thegame 0149/look~
 2072 0 0 0 0 0 0 0 400 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1
 E
-#150
-dave dogruel xibo 1337 angst~
-Dave Dogruel (xibo)~
-0150/avatar~
-talk:#adv agent:thegame 0150/look~
-2264 0 0 0 0 0 0 0 -300 E
-3 19 8 0d0+30 1d2+0
-70 900
-8 8 1
-BareHandAttack: 4
-E
-#153
-douglas rushkoff 1337 edge~
-Douglas Rushkoff (rushkoff)~
-0153/avatar~
-talk:#adv agent:thegame 0153/look~
-2136 0 0 0 0 0 0 0 -100 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1
-BareHandAttack: 4
-E
 #154
-arjika arjikiya pfc prviate first class a154 z3~
+arjika arjikiya military soldier a154 z3~
 Arjika PFC~
 0154/avatar~
 talk:#adv agent:thegame 0154/look~
@@ -691,17 +668,6 @@ SavingRod: 8
 SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
-E
-#157
-telecomix 1337 cameron~
-Cameron (telecomix)~
-0157/avatar~
-talk:#adv agent:thegame 0157/look~
-2264 0 0 0 0 0 0 0 -100 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 2
-BareHandAttack: 3
 E
 #158
 farry fashion store devi~
@@ -763,22 +729,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-#162
-dan farmer hellraiser 1337 defcon satan satanic evil~
-Dan Farmer (hellraiser)~
-0162/avatar~
-talk:#adv agent:thegame 0162/look~
-2136 0 0 0 0 0 0 0 -250 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1
-BareHandAttack: 5
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
-E
 #163
 0x 0x_fff 0x_family d163 z3~
 0x_fff~
@@ -794,17 +744,6 @@ SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
-E
-#164
-michael nebadon jesus 1337~
-Michael Nebadon (michael)~
-0164/avatar~
-talk:#adv agent:thegame 0164/look~
-2136 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 4
 E
 #165
 indu disciple monk~
@@ -840,71 +779,6 @@ talk:#adv agent:thegame 0167/look
 19 14 -1 3d3+190 3d3+3
 190 36100
 8 8 1
-E
-#168
-tyler mayhem tylersec tg23 thegame23 1337~
-Tyler TG23~
-0168/avatar~
-talk:#adv agent:thegame 0168/look~
-2136 0 0 0 0 0 0 0 -100 E
-1 20 9 0d0+10 1d2+0
-20 100
-8 8 1
-BareHandAttack: 2
-E
-#169
-tyler mayhem tylersec pm2012 1337~
-Tyler PM2012~
-0169/avatar~
-talk:#adv agent:thegame 0169/look~
-2136 0 0 0 0 0 0 0 -175 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 2
-E
-#170
-m1vr4 tg23 thegame23 anonymous 1337~
-m1Vr4~
-0170/avatar~
-talk:#adv agent:thegame 0170/look~
-2136 0 0 0 0 0 0 0 -100 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 5
-E
-#171
-tyler mayhem tylersec pm2020 1337~
-Tyler (pm2020)~
-0171/avatar~
-talk:#adv agent:thegame 0171/look~
-2136 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 8
-E
-#172
-tyler mayhem ethersec tylersec 1337~
-Tyler eTHErSEC~
-0172/avatar~
-talk:#adv agent:thegame 0172/look~
-2136 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-BareHandAttack: 8
-E
-#173
-security securitydeva guard d173 z1~
-SecurityDEVA D173 (Agency)~
-0173/avatar~
-talk:#adv agent:thegame 0173/look~
-256010 0 0 0 80 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 6
 E
 #174
 security securitydeva agency d174 z1~
@@ -974,22 +848,6 @@ SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
 E
-#178
-gail thackeray 1337 mom attorney lawyer~
-Gail Thackeray (mom)~
-0178/avatar~
-talk:#adv agent:thegame 0178/look~
-2074 0 0 0 0 0 0 0 -300 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 2
-BareHandAttack: 3
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
-E
 #179
 susartu visvedevas deity~
 Susartu~
@@ -1001,16 +859,6 @@ talk:#adv agent:thegame 0179/look~
 8 8 6
 BareHandAttack: 10
 E
-#180
-peter thiel mater high councillor palantir 1337~
-Peter Thiel~
-0180/avatar~
-talk:#adv agent:thegame 0180/look~
-10 0 0 0 0 0 0 0 -1000 E
-25 12 -5 5d5+250 4d4+4
-250 62500
-8 8 1
-E
 #181
 security securitydeva lookout d181 z1~
 SecurityDEVA D181 (Lookout)~
@@ -1020,22 +868,6 @@ talk:#adv agent:thegame 0181/look~
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 6
-E
-#182
-brenda romero covenant survivance 1337~
-Brenda Romero~
-0182/avatar~
-talk:#adv agent:thegame 0182/look~
-2074 0 0 0 0 0 0 0 -300 E
-10 17 4 2d2+100 1d2+1
-100 10000
-8 8 2
-BareHandAttack: 2
-SavingPara: 2
-SavingRod: 2
-SavingPetri: 2
-SavingBreath: 2
-SavingSpell: 2
 E
 #183
 vyasva visvedeva deity~
@@ -1047,16 +879,6 @@ talk:#adv agent:thegame 0183/look~
 340 115600
 8 8 6
 BareHandAttack: 5
-E
-#184
-hannibal eotl bartender 1337~
-Hannibal~
-0184/avatar~
-talk:#adv agent:thegame 0184/look~
-188426 0 0 0 0 0 0 0 0 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1
 E
 #185
 soma disciple susoma monk~
@@ -1099,16 +921,6 @@ talk:#adv agent:thegame 0187/look~
 340 115600
 8 8 6
 E
-#188
-quinn fazigu schmoo 1337~
-Quinn (fazigu)~
-0188/avatar~
-talk:#adv agent:thegame 0188/look~
-2074 0 0 0 0 0 0 0 -200 E
-2 20 8 0d0+20 1d2+0
-50 400
-8 8 1
-E
 #189
 trstama visvedevas deity~
 Trstama~
@@ -1130,68 +942,6 @@ SavingRod: 5
 SavingPetri: 5
 SavingBreath: 5
 SavingSpell: 5
-E
-#190
-tyler dangerous pm2012 1337~
-Tyler Dangerous~
-0190/avatar~
-talk:#adv agent:thegame 0190/look~
-2074 0 0 0 0 0 0 0 -100 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-E
-#191
-tyler it 1337 egregore~
-Tyler It~
-0191/avatar~
-talk:#adv agent:thegame 0191/look~
-2074 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-E
-#192
-tyler ethersec 1337 pm2020~
-Tyler (EtherSec)~
-0192/avatar~
-talk:#adv agent:thegame 0192/look~
-2074 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-E
-#193
-valis project89 1337~
-Valis~
-0193/avatar~
-talk:#adv agent:thegame 0193/look~
-2074 0 0 0 0 0 0 0 -150 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1
-E
-#194
-mr bungle aric 1337~
-Mr. Bungle~
-0194/avatar~
-talk:#adv agent:thegame 0194/look~
-2136 0 0 0 0 0 0 0 -250 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
-BareHandAttack: 11
-E
-#195
-mr whiskers kitten cat cats feline~
-Mr. Whiskers~
-0195/avatar~
-talk:#adv agent:thegame 0195/look~
-8 0 0 0 2064 0 0 0 900 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1
-BareHandAttack: 12
 E
 #196
 marry store body devi~
