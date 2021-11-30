@@ -266,6 +266,29 @@ A tiny green alien, dressed in gray and white robes.  He carries around a small 
 8 8 1
 BareHandAttack: 10
 E
+#217
+aranyani goddess forest queen rigveda~
+Aranyani~
+0217/avatar~
+talk:#adv agent:thegame 0217/look
+~
+2072 0 0 0 2304 0 0 0 0 E
+20 14 -2 4d4+200 3d3+3
+10000 40000
+8 8 7
+BareHandAttack: 2
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
 #218
 harry solution indra.solution deva~
 Harry Solutions~

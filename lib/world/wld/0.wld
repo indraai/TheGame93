@@ -122,6 +122,119 @@ D3
 ~
 0 0 9
 S
+#11
+indra.academy/f1~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 200
+D3
+~
+~
+0 0 12
+S
+#12
+indra.academy/f2~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 11
+D3
+~
+~
+0 0 13
+S
+#13
+indra.academy/f3~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 14
+D1
+~
+~
+0 0 12
+S
+#14
+indra.academy/f4~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 15
+D2
+~
+~
+0 0 13
+S
+#15
+indra.academy/f5~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 16
+D3
+~
+~
+0 0 14
+S
+#16
+indra.agency/f6~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 17
+D3
+~
+~
+0 0 15
+S
+#17
+indra.agency/r7~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 16
+D3
+~
+~
+0 0 18
+S
+#18
+indra.agency/f8~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 17
+D3
+~
+~
+0 0 19
+S
+#19
+An unfinished room~
+You are in an unfinished room.~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 18
+S
 #26
 SecurityPRIME Class~
 empty~

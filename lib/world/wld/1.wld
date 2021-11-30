@@ -827,13 +827,17 @@ D1
 ~
 ~
 0 0 166
+D2
+~
+~
+0 0 180
 D3
 ~
 ~
 0 0 194
 S
 #166
-ARJIKA Recruiting~
+indra.farm/shed~
 Empty.~
 1 24 0 0 0 0
 D2
@@ -970,9 +974,13 @@ D2
 0 0 194
 S
 #180
-indra.farm/veggies~
+indra.farm/veggie~
 undefined~
 1 16 0 0 0 2
+D0
+~
+~
+0 0 165
 D1
 ~
 ~
@@ -981,6 +989,10 @@ D2
 ~
 ~
 0 0 195
+D3
+~
+~
+0 0 201
 S
 #181
 indra.farm/veggie~
@@ -1197,26 +1209,38 @@ D4
 0 0 164
 S
 #195
-ARJIKA CYBER2~
+indra.farm/fruit~
 undefined~
-1 568 0 0 0 0
+1 0 0 0 0 2
 D0
 ~
 ~
 0 0 180
+D1
+~
+~
+0 0 216
 D2
 ~
 ~
 0 0 202
 S
 #196
-ARJIKA Kitchen~
+indra.farm/vine~
 Empty.~
-1 24 0 0 0 0
+1 16 0 0 0 4
 D0
 ~
 ~
 0 0 203
+D2
+~
+~
+0 0 229
+D3
+~
+~
+0 0 215
 S
 #197
 INDU Dining~
