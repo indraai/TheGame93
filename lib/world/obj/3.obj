@@ -62,4 +62,22 @@ talk:#adv object:thegame 0305/look
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 1000000 1000000 0 33 0
+#344
+water fountain drinks drink~
+Water Fountain~
+0344/avatar~
+talk:#adv object:thegame 0344/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
+#347
+water fountain drinks drink~
+Water Fountain~
+0347/avatar~
+talk:#adv object:thegame 0347/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
 $~

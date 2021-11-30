@@ -24,16 +24,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
@@ -177,7 +177,7 @@ S
 #1016
 Angel Bird Glides~
 You are in an unfinished room.~
-100 0 0 0 0 8
+100 0 0 0 0 4
 D0
 ~
 ~
@@ -273,10 +273,6 @@ D0
 ~
 ~
 0 0 1028
-D2
-~
-~
-0 0 1030
 S
 T 1026
 #1028
@@ -375,10 +371,6 @@ D0
 ~
 ~
 0 0 1042
-D2
-~
-~
-0 0 1046
 S
 T 1039
 #1040
