@@ -155,17 +155,25 @@ static void show_messages(struct char_data *ch)
   char buf[MAX_STRING_LENGTH];
   size_t len;
 
-  len = snprintf(buf, sizeof(buf), "\t1Message List:\tn \r\n");
+  len = snprintf(buf, sizeof(buf), "\n##Message List\r");
 
   for (i = 0; i < MAX_MESSAGES / 2; i++, half++)
     if (fight_messages[i].msg != NULL && len < sizeof(buf)) {
       count += fight_messages[i].number_of_attacks;
-      len += snprintf(buf + len, sizeof(buf) - len, "%-2d) [%-3d] %d, %-18s%s", i, fight_messages[i].a_type, fight_messages[i].number_of_attacks, fight_messages[i].a_type < TOP_SPELL_DEFINE ? spell_info[fight_messages[i].a_type].name : "Unknown", half < MAX_MESSAGES && fight_messages[half].msg ? "   " : "\r\n");
+      len += snprintf(buf + len, sizeof(buf) - len, "\n%d. [%-3d] %d, %-18s%s\r",
+          i, fight_messages[i].a_type,
+          fight_messages[i].number_of_attacks, fight_messages[i].a_type < TOP_SPELL_DEFINE ? spell_info[fight_messages[i].a_type].name : "Unknown",
+          half < MAX_MESSAGES && fight_messages[half].msg ? "   " : "\r\n");
+
       if (half < MAX_MESSAGES && fight_messages[half].msg)
-        len += snprintf(buf + len, sizeof(buf) - len, "%-2d) [%-3d] %d, %-18s\r\n", half, fight_messages[half].a_type, fight_messages[half].number_of_attacks, fight_messages[half].a_type < TOP_SPELL_DEFINE ? spell_info[fight_messages[half].a_type].name : "Unknown");
+        len += snprintf(buf + len, sizeof(buf) - len, "\n%d. [%d] %d, %s\r",
+                  half,
+                  fight_messages[half].a_type,
+                  fight_messages[half].number_of_attacks,
+                  fight_messages[half].a_type < TOP_SPELL_DEFINE ? spell_info[fight_messages[half].a_type].name : "Unknown");
     }
 
-  snprintf(buf + len, sizeof(buf) - len, "Total Messages: %d\r\n", count);
+  snprintf(buf + len, sizeof(buf) - len, "\nMessages: %d\r", count);
   page_string(ch->desc, buf, TRUE);
 }
 
@@ -309,19 +317,19 @@ ACMD(do_msgedit)
   }
 
   if ((num = atoi(argument)) < 0) {
-    send_to_char(ch, "You must select a message # between 0 and %d.\r\n", MAX_MESSAGES);
+    send_to_char(ch, "\nYou must select a message # between 0 and %d.\r", MAX_MESSAGES);
     return;
   }
 
   if (num >= MAX_MESSAGES) {
-    send_to_char(ch, "You must select a message # between 0 and %d.\r\n", MAX_MESSAGES - 1);
+    send_to_char(ch, "\nYou must select a message # between 0 and %d.\r", MAX_MESSAGES - 1);
     return;
   }
 
   for (d = descriptor_list; d; d = d->next)
     if (STATE(d) == CON_MSGEDIT) {
       if (OLC_MSG_LIST(d) && OLC_NUM(d) == num) {
-        send_to_char(ch, "Someone is already editing that message.\r\n");
+        send_to_char(ch, "\nSomeone is already editing that message.\r");
         return;
       }
     }
