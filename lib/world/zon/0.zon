@@ -2,8 +2,11 @@
 Quinn~
 deva.world~
 0 99 90 2 d 0 0 0 1 -1
-M 0 114 1 19 	(Manu)
-M 0 115 1 18 	(Brhaspati)
+M 0 118 1 12 	(Lackey)
+M 0 117 1 11 	(Minion)
+M 0 116 1 16 	(Brains)
+M 0 114 1 19 	(Boss)
+M 0 115 1 18 	(Mastermind)
 M 0 0 1 31 	(Vamraka)
 M 0 198 1 31 	(Vamraka Disciple)
 O 0 180 10 31 	(Candy Dirt)
@@ -42,9 +45,7 @@ M 0 143 3 96 	(SecurityDEVA D143 (Patrol))
 M 0 143 4 96 	(SecurityDEVA D143 (Patrol))
 M 0 174 2 95 	(SecurityDEVA D174 (Agency))
 M 0 174 2 96 	(SecurityDEVA D174 (Agency))
-
-M 0 183 1 17   	(Vyasva)
-
+M 0 183 1 17 	(Muscle)
 R 0 95 92 -1 	(Agency Board)
 O 1 92 99 95 	(Agency Board)
 R 0 96 92 -1 	(Agency Board)
