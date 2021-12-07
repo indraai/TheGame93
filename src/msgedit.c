@@ -364,52 +364,54 @@ static void msgedit_main_menu(struct descriptor_data * d)
 {
   get_char_colors(d->character);
 
-  write_to_output(d, "%sMsg Edit: %s[%s%dx%d%s] [%s$n: Attacker | $N: Victim%s]%s\r\n", cyn, grn, yel, OLC_NUM(d), OLC_MSG_LIST(d)->number_of_attacks, grn, yel, grn, nrm);
-  write_to_output(d, "%s1%s) %sAction Type: %s%d %s[%s%s%s]%s\r\n", grn, yel, cyn, yel, OLC_MSG_LIST(d)->a_type,  grn, yel, OLC_MSG_LIST(d)->a_type < TOP_SPELL_DEFINE ? spell_info[OLC_MSG_LIST(d)->a_type].name : "Unknown", grn, nrm);
+  write_to_output(d, "\n##Message Edit\r:"
+    "\nhelp: %dx%d $n: Attacker | $N: Victim\r", OLC_NUM(d), OLC_MSG_LIST(d)->number_of_attacks);
 
-  write_to_output(d, "   %sDeath Messages:\r\n"
-                     "%sA%s) CHAR : %s %s\r\n"
-                     "%sB%s) VICT : %s %s\r\n"
-                     "%sC%s) ROOM : %s %s\r\n",
-                     cyn,
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->die_msg.attacker_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->die_msg.victim_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->die_msg.room_msg));
+  write_to_output(d, "1. Action Type: %d %s\r",
+    OLC_MSG_LIST(d)->a_type,
+    OLC_MSG_LIST(d)->a_type < TOP_SPELL_DEFINE ? spell_info[OLC_MSG_LIST(d)->a_type].name : "Unknown");
 
-  write_to_output(d, "   %sMiss Messages:\r\n"
-                     "%sD%s) CHAR : %s %s\r\n"
-                     "%sE%s) VICT : %s %s\r\n"
-                     "%sF%s) ROOM : %s %s\r\n",
-                     cyn,
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->miss_msg.attacker_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->miss_msg.victim_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->miss_msg.room_msg));
+  write_to_output(d, "\n### Death Messages:\r"
+                     "\nselect[A:char]:%s\r"
+                     "\nselect[B:vict]:%s\r"
+                     "\nselect[C:room]:%s\r",
+                     PRINT_MSG(OLC_MSG(d)->die_msg.attacker_msg),
+                     PRINT_MSG(OLC_MSG(d)->die_msg.victim_msg),
+                     PRINT_MSG(OLC_MSG(d)->die_msg.room_msg));
 
-  write_to_output(d, "   %sHit Messages:\r\n"
-                     "%sG%s) CHAR : %s %s\r\n"
-                     "%sH%s) VICT : %s %s\r\n"
-                     "%sI%s) ROOM : %s %s\r\n",
-                     cyn,
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->hit_msg.attacker_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->hit_msg.victim_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->hit_msg.room_msg));
+  write_to_output(d, "\n### Miss Messages\r"
+                    "\nselect[D:char]:%s\r"
+                    "\nselect[E:vict]:%s\r"
+                    "\nselect[F:room]:%s\r",
+                     PRINT_MSG(OLC_MSG(d)->miss_msg.attacker_msg),
+                     PRINT_MSG(OLC_MSG(d)->miss_msg.victim_msg),
+                     PRINT_MSG(OLC_MSG(d)->miss_msg.room_msg));
 
-  write_to_output(d, "   %sGod Messages:\r\n"
-                     "%sJ%s) CHAR : %s %s\r\n"
-                     "%sK%s) VICT : %s %s\r\n"
-                     "%sL%s) ROOM : %s %s\r\n",
-                     cyn,
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->deva_msg.attacker_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->deva_msg.victim_msg),
-                     grn, yel, nrm, PRINT_MSG(OLC_MSG(d)->deva_msg.room_msg));
+  write_to_output(d, "\n### Hit Messages:\r"
+                    "\nselect[G:char]:%s\r"
+                    "\nselect[H:vict]:%s\r"
+                    "\nselect[I:room]:%s\r",
+                     PRINT_MSG(OLC_MSG(d)->hit_msg.attacker_msg),
+                     PRINT_MSG(OLC_MSG(d)->hit_msg.victim_msg),
+                     PRINT_MSG(OLC_MSG(d)->hit_msg.room_msg));
 
-  write_to_output(d, "\r\n%sN%s)%s %s", grn, yel, nrm, OLC_MSG(d)->next ? "Next" : "New");
+  write_to_output(d, "\n### God Messages\r"
+                    "\nselect[J:char]:%s\r"
+                    "\nselect[K:vict]:%s\r"
+                    "\nselect[L:room]:%s\r",
+                     PRINT_MSG(OLC_MSG(d)->deva_msg.attacker_msg),
+                     PRINT_MSG(OLC_MSG(d)->deva_msg.victim_msg),
+                     PRINT_MSG(OLC_MSG(d)->deva_msg.room_msg));
+
+  write_to_output(d, "\nmenu[%s]:N\r", OLC_MSG(d)->next ? "Next" : "New");
+
   if (OLC_MSG(d) != OLC_MSG_LIST(d)->msg)
-    write_to_output(d, " %sP%s)%s Previous", grn, yel, nrm);
+    write_to_output(d, " \nmenu[previous]:P");
+
   if (OLC_VAL(d))
-    write_to_output(d, " %sS%s)%s Save", grn, yel, nrm);
-  write_to_output(d, " %sQ%s)%s Quit\r\n"
-                     "Enter Selection : ", grn, yel, nrm);
+    write_to_output(d, "\nmenu[save]:S\r");
+
+  write_to_output(d, "\nmenu[quit]:Q\r");
   OLC_MODE(d) = MSGEDIT_MAIN_MENU;
 }
 
@@ -421,60 +423,61 @@ void msgedit_parse(struct descriptor_data *d, char *arg)
   switch (OLC_MODE(d)) {
     case MSGEDIT_MAIN_MENU:
       if (!*arg) {
-        write_to_output(d, "Enter Option : ");
+        write_to_output(d, "\nWhich option would you choose?\r");
         return;
       }
       switch (*arg) {
         case '1':
-          write_to_output(d, "Enter Action Type : ");
+          write_to_output(d, "\nWhat is the action type?");
           OLC_MODE(d) = MSGEDIT_TYPE;
         return;
         case 'A':
         case 'a':
-          write_to_output(d, "Example: You kill $N!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "\nWhat is your tackled target string?\r"
+            "\nexample: You tackled $N!\r");
           OLC_MODE(d) = MSGEDIT_DEATH_CHAR;
         return;
         case 'B':
         case 'b':
-          write_to_output(d, "Example: $n kills you!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "\nWhat is your target tackled you string?\r"
+            "\nexample: $n tackles you!\r");
           OLC_MODE(d) = MSGEDIT_DEATH_VICT;
         return;
         case 'C':
         case 'c':
-          write_to_output(d, "Example: $n kills $N!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "What is your tackled target room string?"
+            "\nexample: $n tackled $N!\r");
           OLC_MODE(d) = MSGEDIT_DEATH_ROOM;
         return;
         case 'D':
         case 'd':
-          write_to_output(d, "Example: You miss $N!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "\nWhat is your new miss string?\r"
+            "\nExample: You miss $N!\r");
           OLC_MODE(d) = MSGEDIT_MISS_CHAR;
         return;
         case 'E':
         case 'e':
-          write_to_output(d, "Example: $n misses you!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "\nWhat is your target misses target string?\r"
+            "\nexample: $n misses you!\r");
           OLC_MODE(d) = MSGEDIT_MISS_VICT;
         return;
         case 'F':
         case 'f':
-          write_to_output(d, "Example: $n misses $N!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "What is your miss target room string?"
+            "\nexample: $n misses $N!\r");
           OLC_MODE(d) = MSGEDIT_MISS_ROOM;
         return;
         case 'G':
         case 'g':
-          write_to_output(d, "Example: You hit $N!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "\nWhat is your hit target string?\r"
+            "\nexample: You hit $N!\r");
           OLC_MODE(d) = MSGEDIT_HIT_CHAR;
         return;
         case 'H':
         case 'h':
-          write_to_output(d, "Example: $n hits you!\r\n");
-          write_to_output(d, "Enter new string : ");
+          write_to_output(d, "\nWhat is your target hits you string?\r"
+            "\nexample: $n hits you!\r");
+            
           OLC_MODE(d) = MSGEDIT_HIT_VICT;
         return;
         case 'I':
