@@ -206,16 +206,16 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Trigger\r"
   "\nvnum:%d\r"
-  "\nselect[1:name]:%s\r"
-  "\nselect[2:attach]:%s\r"
-  "\nselect[3:types]:%s\r"
-  "\nselect[4:num arg]:%d\r"
-  "\nselect[5:arguments]:%s\r"
-  "\nselect[6:code]: Edit Code...\r"
+  "\nselect[a:name]:%s\r"
+  "\nselect[b:attach]:%s\r"
+  "\nselect[c:types]:%s\r"
+  "\nselect[d:num arg]:%d\r"
+  "\nselect[e:arguments]:%s\r"
+  "\nselect[f:code]: Edit Code...\r"
   "\n::begin:code\r"
   "\n%s\r"
   "\n::end:code\r"
-  "\nmenu[copy trigger]:p\r"
+  "\nmenu[copy]:1\r"
   "\nmenu[quit]:0\r",
   OLC_NUM(d), 			              /* vnum on the title line */
   GET_TRIG_NAME(trig),		        /* name                   */
@@ -281,32 +281,35 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
+           write_to_output(d, "\nsave:No changes made.");
            cleanup_olc(d, CLEANUP_ALL);
          return;
-       case '1':
-         OLC_MODE(d) = TRIGEDIT_NAME;
-         write_to_output(d, "\nWhat is the trigger name?");
+       case 'a':
+        OLC_MODE(d) = TRIGEDIT_NAME;
+        write_to_output(d, "\nWhat is the trigger name?\r"
+          "\ncurrent:%s",
+          GET_TRIG_NAME(d));
          break;
-       case '2':
+       case 'b':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
          write_to_output(d, "\n## Attach\r"
           "\nmenu[mobiles]:0\r"
           "\nmenu[objects]:1\r"
           "\nmenu[rooms]:2\r");
          break;
-       case '3':
+       case 'c':
          OLC_MODE(d) = TRIGEDIT_TYPES;
          trigedit_disp_types(d);
          break;
-       case '4':
+       case 'd':
          OLC_MODE(d) = TRIGEDIT_NARG;
          write_to_output(d, "\nWhat is the numeric argument?\r");
          break;
-       case '5':
+       case 'f':
          OLC_MODE(d) = TRIGEDIT_ARGUMENT;
          write_to_output(d, "\nWhat is the trigger argument?\r");
          break;
-       case '6':
+       case 'g':
          OLC_MODE(d) = TRIGEDIT_COMMANDS;
          write_to_output(d, "\nEnter trigger commands: (/s saves /h for help)\r");
          d->backstr = NULL;
@@ -321,7 +324,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          OLC_VAL(d) = 1;
 
          break;
-       case 'p':
+       case '1':
          write_to_output(d, "\nCopy what trigger?\r");
          OLC_MODE(d) = TRIGEDIT_COPY;
          break;
@@ -356,6 +359,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
       smash_tilde(arg);
       if (OLC_TRIG(d)->name)
         free(OLC_TRIG(d)->name);
+
       OLC_TRIG(d)->name = strdup((arg && *arg) ? arg : "undefined");
       OLC_VAL(d)++;
       break;

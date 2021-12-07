@@ -42,8 +42,7 @@ if %actor.is_pc%
 end
 ~
 #117
-
-agent 117 trigger~
+Agent 117 trigger~
 0 dg 100
 ~
 wait 2s
