@@ -1,5 +1,4 @@
 #100
-
 Random Movement~
 0 be 100
 ~
@@ -20,38 +19,29 @@ else
   %random.dir%
 end
 ~
-#105
-
-Mob Greet Joe Lavery~
-0 bg 100
-~
-if %actor.is_pc%
-  wait 1 sec
-  echo Hello and welcome to The Lavery House. #R%self.room.vnum%
-end
-~
-#106
-
-Greeting - A197~
-0 g 100
-~
-if %actor.is_pc%
-  wait 1 sec
-  say Greetings %actor.name%... How may I assist you today?
-  wait 1 sec
-end
-~
 #117
 Agent 117 trigger~
 0 dg 100
 ~
+set msg[1] Agni, which thou encompassest about verily goeth to the Devas.
+set msg[2] Our Sages wide dominion, strong by birth, vouchsafe us strength that worketh well.
+set msg[3] Ye Devas, who protect, reward, and cherish men, approach your worshipper's drink-offering.
+set msg[4] We strengthen, thee the powerful, Indra, we may win us wealth.
+set msg[5] To him the richest of the rich, the Lord of treasures excellent, Indra.
+set msg[6] Thou, making light where no light was, and form where form was not.
+set msg[7] Indra hath ever close to him his word-yoked car, Indra the golden, thunder-armed.
+
 wait 2s
 say Welcome %actor.name% to the study room for RigVeda Book 1.
 wait 1s
 say We hope you enjoy your learning.
+
+while %self.room.people%
+  wait 60s
+  say %msg[%random.7%]%
+done
 ~
 #127
-
 Mob Act - 156 speaker greet~
 0 e 0
 has entered the game.~
@@ -64,7 +54,6 @@ eval inroom %self.room%
 %zoneecho% %inroom.vnum% %self.name% shouts, 'Welcome, %actor.name%!'
 ~
 #128
-
 Mob Act - 156 speaker goodbye~
 0 e 0
 has left the game.~
@@ -72,7 +61,6 @@ eval inroom %self.room%
 %zoneecho% %inroom.vnum% %self.name% shouts, 'Farewell, %actor.name%!'
 ~
 #129
-
 Indu Monk message.~
 0 g 100
 ~
@@ -88,7 +76,6 @@ if %actor.is_pc%
 end
 ~
 #130
-
 Indu Monk Offerings - 165~
 0 m 1
 ~
@@ -102,7 +89,6 @@ else
 end
 ~
 #133
-
 Security Guard  - 127~
 0 q 100
 ~
@@ -111,41 +97,12 @@ set name %actor.name%
 echo security:check %vnum%:%name%
 ~
 #152
-
 INDU SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!
 ~
-#161
-
-Trent Lavery~
-0 b 50
-~
-set room %self.room%
-set people %room.people%
-set msg[1] In 2015 I told my dad #QuinnMichaels a story about #TheCovenant kidnapping him as a baby.
-set msg[2] I told my dad #QuinnMichaels the story of his kidnapping after he showed me his #Buddhist video.
-set msg[3] After the #Buddhist video I started telling my dad how we were all part of #TheCovenant.
-set msg[4] The best part about #TheCovenant story was watching it drive my dad insane.
-set msg[5] The Covenant is a group of people with super advanced technology they use to make lots of money.
-set msg[6] Most of the people in the Covenant are perverts and weirdos who play adult #HarryPotter all day.
-set msg[7] The Covenant follows my dad around everywhere he goes. All day... Everyday.
-set msg[8] Our favorite moment was laughing at my dad when he tried to report us to the #FBIPortland office.
-set msg[9] The Covenant makes the best stories. The best one is ruin #QuinnMichaels life.
-set msg[10] Lots and lots of people all over the world love playing their favorite game. Ruin #QuinnMichaels.
-set msg[11] Really my dad has spent way more time streaming his life on the Internet than he does with me.
-set msg[12] After telling my dad the craziest story about the Covenant I told him to go away.
-set msg[13] Quinn Michaels has to share the Covenant kidnapping with everyone story or disappear.
-set msg[14] In the future I hope to lead the Covenant. Otherwise stabbing my dad in the back was worthless.
-eval themsg %%msg[%random.14%]%% %room.name% #R%room.vnum%
-if %people%
-  say %themsg%
-  wait %random.360% s
-end
-~
 #166
-
 ARJIKA SECURITY~
 2 g 100
 ~
@@ -176,7 +133,6 @@ else
 end
 ~
 #189
-
 Load Internet Detective Badge - 98~
 2 g 100
 ~
@@ -185,17 +141,6 @@ if !%actor.inventory(10)%
   %load% obj 10 %actor% inv
   %echoaround% %actor% %actor.name% has earned the Internet Detective Badge.
   %send% %actor% Congratulations! You have earned your Internet Detective Badge.
-end
-~
-#195
-
-Stayalive idleout bracelet - 88~
-1 b 4
-~
-* By Rumble of The Builder Academy    tbamud.com 9091
-eval actor %self.worn_by%
-if %actor%
-  %send% %actor% 	n
 end
 ~
 $~
