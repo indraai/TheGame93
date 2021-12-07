@@ -113,22 +113,22 @@ security securityprime securitydeva nitro~
 SecurityPRIME~
 0005/avatar~
 talk:#adv agent:thegame 0005/look~
-522268 0 0 0 2168 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
+260120 0 0 0 2168 0 0 0 0 E
+20 14 -2 4d4+200 3d3+3
+200 40000
 8 8 6
 BareHandAttack: 14
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #6
 medic medicdeva medicprime medical~

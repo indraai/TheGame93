@@ -1,4 +1,5 @@
 #100
+
 Random Movement~
 0 be 100
 ~
@@ -20,6 +21,7 @@ else
 end
 ~
 #105
+
 Mob Greet Joe Lavery~
 0 bg 100
 ~
@@ -29,6 +31,7 @@ if %actor.is_pc%
 end
 ~
 #106
+
 Greeting - A197~
 0 g 100
 ~
@@ -38,7 +41,18 @@ if %actor.is_pc%
   wait 1 sec
 end
 ~
+#117
+
+agent 117 trigger~
+0 dg 100
+~
+wait 2s
+say Welcome %actor.name% to the study room for RigVeda Book 1.
+wait 1s
+say We hope you enjoy your learning.
+~
 #127
+
 Mob Act - 156 speaker greet~
 0 e 0
 has entered the game.~
@@ -51,6 +65,7 @@ eval inroom %self.room%
 %zoneecho% %inroom.vnum% %self.name% shouts, 'Welcome, %actor.name%!'
 ~
 #128
+
 Mob Act - 156 speaker goodbye~
 0 e 0
 has left the game.~
@@ -58,6 +73,7 @@ eval inroom %self.room%
 %zoneecho% %inroom.vnum% %self.name% shouts, 'Farewell, %actor.name%!'
 ~
 #129
+
 Indu Monk message.~
 0 g 100
 ~
@@ -73,6 +89,7 @@ if %actor.is_pc%
 end
 ~
 #130
+
 Indu Monk Offerings - 165~
 0 m 1
 ~
@@ -86,6 +103,7 @@ else
 end
 ~
 #133
+
 Security Guard  - 127~
 0 q 100
 ~
@@ -94,12 +112,14 @@ set name %actor.name%
 echo security:check %vnum%:%name%
 ~
 #152
+
 INDU SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!
 ~
 #161
+
 Trent Lavery~
 0 b 50
 ~
@@ -126,12 +146,14 @@ if %people%
 end
 ~
 #166
+
 ARJIKA SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!
 ~
 #176
+
 Teleporter Recall - O82~
 1 c 7
 re~
@@ -155,6 +177,7 @@ else
 end
 ~
 #189
+
 Load Internet Detective Badge - 98~
 2 g 100
 ~
@@ -166,6 +189,7 @@ if !%actor.inventory(10)%
 end
 ~
 #195
+
 Stayalive idleout bracelet - 88~
 1 b 4
 ~
