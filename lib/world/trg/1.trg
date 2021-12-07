@@ -37,7 +37,7 @@ wait 1s
 say We hope you enjoy your learning.
 
 while %self.room.people%
-  wait 30s
+  wait 60s
   eval themsg %%msg[%random.7%]%%
   say %themsg%
 done
@@ -46,7 +46,6 @@ done
 Mob Act - 156 speaker greet~
 0 e 0
 has entered the game.~
-* By Rumble of The Builder Academy    tbamud.com 9091
 * Num Arg 0 means the argument has to match exactly. So trig will only fire off:
 * "has entered game." and not "has" or "entered" etc. (that would be num arg 1).
 * Figure out what vnum the mob is in so we can use zoneecho.
@@ -108,30 +107,6 @@ ARJIKA SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!
-~
-#176
-
-Teleporter Recall - O82~
-1 c 7
-re~
-* By Rumble of The Builder Academy    tbamud.com 9091
-if %cmd% == recall
-  eval teleporter_return_room %actor.room.vnum%
-  remote  teleporter_return_room %actor.id%
-  %send% %actor% You recall to safety.
-  %echoaround% %actor% %actor.name% recalls.
-  %teleport% %actor% 3001
-  %force% %actor% look
-  %echoaround% %actor% %actor.name% appears in the room.
-elseif %cmd% == return
-  %send% %actor% You return to your previous location.
-  %echoaround% %actor% %actor.name% teleports out of the room.
-  %teleport% %actor% %actor.teleporter_return_room%
-  %force% %actor% look
-  %echoaround% %actor% %actor.name% appears in the room.
-else
-  return 0
-end
 ~
 #189
 Load Internet Detective Badge - 98~
