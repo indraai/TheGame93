@@ -37,8 +37,9 @@ wait 1s
 say We hope you enjoy your learning.
 
 while %self.room.people%
-  wait 60s
-  say %msg[%random.7%]%
+  wait 30s
+  eval themsg %%msg[%random.7%]%%
+  say %themsg%
 done
 ~
 #127
