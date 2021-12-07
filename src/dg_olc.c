@@ -280,9 +280,10 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            }
            write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
-         } else
+         } else {
            write_to_output(d, "\nsave:No changes made.");
            cleanup_olc(d, CLEANUP_ALL);
+         }
          return;
        case 'a':
         OLC_MODE(d) = TRIGEDIT_NAME;
