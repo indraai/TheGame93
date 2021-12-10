@@ -287,7 +287,10 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          return;
        case 'a':
         OLC_MODE(d) = TRIGEDIT_NAME;
-        write_to_output(d, "\nWhat is the trigger name?\r");
+        write_to_output(d, "\nWhat is the trigger name?\r"
+          "\ncurrent: %s",
+          OLC_TRIG(d)->name);
+          
          break;
        case 'b':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
