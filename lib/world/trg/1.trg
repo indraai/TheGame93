@@ -23,8 +23,9 @@ end
 Book Club Agent Greeting~
 0 g 100
 0~
+set room %self.room.vnum%
 wait 5s
-say Welcome, %actor.name% to the Veda Book Club in Room %self.room.vnum%.
+say Welcome, %actor.name% to the Veda Book Club in Room %room%.
 wait 5s
 say If you have any questions the Librarians are here to help.
 wait 5s
@@ -32,7 +33,7 @@ say As you study the Vedas your stats will increase with every hymn.
 wait 5s
 say Have a wonderful day!
 
-%echo% talk:#twitter tweet:random Welcome to #R%self.room.vnum% where we learn all about the #RigVeda from the #Librarians http://indra.church/rigveda/1.html
+%echo% talk:#twitter tweet:random Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/1.html
 ~
 #127
 
