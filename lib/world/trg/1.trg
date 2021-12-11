@@ -20,7 +20,7 @@ else
 end
 ~
 #117
-Agent 117 trigger~
+Agent 117 Greeting~
 0 dg 100
 ~
 set msg[1] Agni, which thou encompassest about verily goeth to the Devas.
