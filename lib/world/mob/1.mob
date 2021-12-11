@@ -237,8 +237,8 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #117
-minion book club bookclub~
-Minion~
+lib librarian libs book club bookclub~
+Librarian~
 0117/avatar~
 talk:#adv agent:thegame 0117/look
 ~
