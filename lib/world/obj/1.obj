@@ -5,7 +5,7 @@ Glass~
 talk:#adv object:thegame/0101/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
-2 2 0 0 0
+13 2 0 0 0
 #102
 glass apple drinks drink juice~
 Glass~
@@ -14,7 +14,7 @@ talk:#adv object:thegame 0102/look
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 2 0
-2 2 0 0 0
+10 2 0 0 0
 #103
 tropical iced-tea drink drinks tea~
 Glass~
@@ -22,7 +22,7 @@ Glass~
 talk:#adv object:thegame 0103/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 5 0
-2 2 0 0 0
+10 2 0 0 0
 #104
 passion fruit iced-tea drink drinks tea~
 Glass~
@@ -30,7 +30,7 @@ Glass~
 talk:#adv object:thegame 0104/look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 6 0
-2 2 0 0 0
+10 2 0 0 0
 #105
 green robe clothing~
 Green Robe~
@@ -175,8 +175,8 @@ Backpack~
 talk:#adv object:thegame 0133/look
 ~
 15 0 0 0 0 ao 0 0 0 0 0 0 0
-40 5 -1 0
-5 250 0 0 0
+100 1 -1 0
+5 100 0 0 0
 #136
 broom cleaning supplies~
 Broom~

@@ -61,7 +61,7 @@ talk:#adv object:thegame 1006/look
 1008/avatar~
 talk:#adv object:thegame 1008/look
 ~
-18 dt 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1013
@@ -70,7 +70,7 @@ talk:#adv object:thegame 1008/look
 1013/avatar~
 talk:#adv object:thegame 1013/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1020
@@ -79,7 +79,7 @@ talk:#adv object:thegame 1013/look
 1020/avatar~
 talk:#adv object:thegame 1020/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1023
@@ -88,7 +88,7 @@ talk:#adv object:thegame 1020/look
 1023/avatar~
 talk:#adv object:thegame 1023/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1024
@@ -97,7 +97,7 @@ talk:#adv object:thegame 1023/look
 1024/avatar~
 talk:#adv object:thegame 1024/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1032
@@ -115,7 +115,7 @@ talk:#adv object:thegame 1032/look
 1033/avatar~
 talk:#adv thegame:object 1033/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1044
@@ -133,7 +133,7 @@ talk:#adv object:thegame 1044/look
 1047/avatar~
 talk:#adv object:thegame 1047/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1060
@@ -142,7 +142,7 @@ talk:#adv object:thegame 1047/look
 1060/avatar~
 talk:#adv object:thegame 1060/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1062
@@ -151,7 +151,7 @@ talk:#adv object:thegame 1060/look
 1062/avatar~
 talk:#adv object:thegame 1062/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1064
@@ -160,7 +160,7 @@ talk:#adv object:thegame 1062/look
 1064/avatar~
 talk:#adv thegame:object 1064/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1065
@@ -169,7 +169,7 @@ talk:#adv thegame:object 1064/look
 1065/avatar~
 talk:#adv object:thegame 1065/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1069
@@ -178,7 +178,7 @@ talk:#adv object:thegame 1065/look
 1069/avatar~
 talk:#adv thegame:object 1069/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1072
@@ -187,7 +187,7 @@ talk:#adv thegame:object 1069/look
 1072/avatar~
 talk:#adv object:thegame 1072/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1074
@@ -196,7 +196,7 @@ talk:#adv object:thegame 1072/look
 1074/avatar~
 talk:#adv object:thegame 1074/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1084
@@ -205,7 +205,7 @@ talk:#adv object:thegame 1074/look
 1084/avatar~
 talk:#adv object:thegame 1084/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1089
@@ -214,7 +214,7 @@ talk:#adv object:thegame 1084/look
 1089/avatar~
 talk:#adv object:thegame 1089/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1102
@@ -223,7 +223,7 @@ talk:#adv object:thegame 1089/look
 1102/avatar~
 talk:#adv object:thegame 1102/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1103
@@ -232,7 +232,7 @@ talk:#adv object:thegame 1102/look
 1103/avatar~
 talk:#adv object:thegame 1103/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1106
@@ -241,7 +241,7 @@ talk:#adv object:thegame 1103/look
 1106/avatar~
 talk:#adv object:thegame 1106/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 #1108
@@ -250,7 +250,7 @@ talk:#adv object:thegame 1106/look
 1108/avatar~
 talk:#adv object:thegame 1108/look
 ~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
+18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 $~
