@@ -1,4 +1,5 @@
 #100
+
 Random Movement~
 0 be 100
 ~
@@ -20,6 +21,7 @@ else
 end
 ~
 #117
+
 Book Club Agent Greeting~
 0 g 100
 0~
@@ -32,10 +34,42 @@ wait 5s
 say As you study the Vedas your stats will increase with every hymn.
 wait 5s
 say Have a wonderful day!
+%echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/01.html
+~
+#118
 
+Book Club Agent Greeting~
+0 g 100
+0~
+set room %self.room.vnum%
+wait 5s
+say Welcome, %actor.name% to the Veda Book Club in Room %room%.
+wait 5s
+say If you have any questions the Librarians are here to help.
+wait 5s
+say As you study the Vedas your stats will increase with every hymn.
+wait 5s
+say Have a wonderful day!
+%echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/01.html
+~
+#122
+
+Book Club Agent Greeting~
+0 g 100
+0~
+set room %self.room.vnum%
+wait 5s
+say Welcome, %actor.name% to the Veda Book Club in Room %room%.
+wait 5s
+say If you have any questions the Librarians are here to help.
+wait 5s
+say As you study the Vedas your stats will increase with every hymn.
+wait 5s
+say Have a wonderful day!
 %echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/01.html
 ~
 #127
+
 
 Mob Act - 156 speaker greet~
 0 e 0
@@ -49,6 +83,7 @@ eval inroom %self.room%
 ~
 #128
 
+
 Mob Act - 156 speaker goodbye~
 0 e 0
 has left the game.~
@@ -56,6 +91,7 @@ eval inroom %self.room%
 %zoneecho% %inroom.vnum% %self.name% shouts, 'Farewell, %actor.name%!'
 ~
 #129
+
 
 Indu Monk message.~
 0 g 100
@@ -73,6 +109,7 @@ end
 ~
 #130
 
+
 Indu Monk Offerings - 165~
 0 m 1
 ~
@@ -87,6 +124,7 @@ end
 ~
 #133
 
+
 Security Guard  - 127~
 0 q 100
 ~
@@ -96,6 +134,7 @@ set name %actor.name%
 ~
 #152
 
+
 INDU SECURITY~
 2 g 100
 ~
@@ -103,12 +142,14 @@ INDU SECURITY~
 ~
 #166
 
+
 ARJIKA SECURITY~
 2 g 100
 ~
 %echo% This trigger commandlist is not complete!
 ~
 #189
+
 
 Load Internet Detective Badge - 98~
 2 g 100
