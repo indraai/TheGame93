@@ -23,16 +23,14 @@ end
 Book Club Agent Greeting~
 0 g 100
 0~
-wait 2s
-say Welcome, %actor.name% to Veda Book Club Room %self.room.vnum%.
-wait 2s
-say Feel free to browse around, and look at all the hymns we offer.
 wait 5s
-say If you have any questions please feel free to ask, I am here to help.
+say Welcome, %actor.name% to the Veda Book Club in Room %self.room.vnum%.
 wait 5s
-say When yo uare done feel free to browse around and study the other books in the Book Club at your own pase.
+say Feel free to look at all the hymns we offer. If you have any questions the Librarians are here to help.
 wait 5s
-say Remember as you study the Vedas your experience, gold, and skills will increase with every book you study.
+say As you study the Vedas your stats will increase with every hymn.
+wait 5s
+say Myself and the Librarians of the Vedas wish you a wonderful day!
 ~
 #127
 
@@ -59,11 +57,11 @@ eval inroom %self.room%
 Indu Monk message.~
 0 g 100
 ~
-set msg[1] Offerings for Vamraka?
-set msg[2] Offerings for Indu?
-set msg[3] Offerings for Indra?
-set msg[4] Offerings for Soma?
-set msg[5] Offerings for Bom?
+set msg[1] Offerings for Vamraka!
+set msg[2] Offerings for Indu!
+set msg[3] Offerings for Indra!
+set msg[4] Offerings for Soma1
+set msg[5] Offerings for Bom!
 eval themsg %%msg[%random.5%]%%
 if %actor.is_pc%
   wait 1 sec
