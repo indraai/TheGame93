@@ -33,7 +33,7 @@ say As you study the Vedas your stats will increase with every hymn.
 wait 5s
 say Have a wonderful day!
 
-%echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/1.html
+%echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/01.html
 ~
 #127
 
