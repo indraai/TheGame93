@@ -24,6 +24,8 @@ Book Club Agent Greeting~
 0 g 100
 0~
 set room %self.room.vnum%
+wait 1s
+%echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/01.html
 wait 5s
 say Welcome, %actor.name% to the Veda Book Club in Room %room%.
 wait 5s
@@ -33,7 +35,7 @@ say As you study the Vedas your stats will increase with every hymn.
 wait 5s
 say Have a wonderful day!
 
-%echo% talk:#twitter tweet:devabuddhism Welcome to the Book Club in room #R%room% where we learn the #RigVeda from the #Librarians. #Indu #Indra #Deva http://indra.church/rigveda/01.html
+
 ~
 #127
 
