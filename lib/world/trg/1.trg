@@ -32,7 +32,7 @@ say As you study the Vedas your stats will increase with every hymn.
 wait 5s
 say Have a wonderful day!
 
-%echo% talk:#twitter tweet:random Welcome to #R%self.room.vnum% where we learn all about the #RigVeda from the #Librarians
+%echo% talk:#twitter tweet:random Welcome to #R%self.room.vnum% where we learn all about the #RigVeda from the #Librarians http://indra.church/rigveda/1.html
 ~
 #127
 
