@@ -26,11 +26,13 @@ Book Club Agent Greeting~
 wait 5s
 say Welcome, %actor.name% to the Veda Book Club in Room %self.room.vnum%.
 wait 5s
-say Feel free to look at all the hymns we offer. If you have any questions the Librarians are here to help.
+say If you have any questions the Librarians are here to help.
 wait 5s
 say As you study the Vedas your stats will increase with every hymn.
 wait 5s
-say Myself and the Librarians of the Vedas wish you a wonderful day!
+say Have a wonderful day!
+
+%echo% talk:#twitter tweet:random Welcome to #R%self.room.vnum% where we learn all about the #RigVeda from the #Librarians
 ~
 #127
 
@@ -89,7 +91,7 @@ Security Guard  - 127~
 ~
 set vnum %actor.vnum%
 set name %actor.name%
-echo security:check %vnum%:%name%
+%echo% security:check %vnum%:%name%
 ~
 #152
 
