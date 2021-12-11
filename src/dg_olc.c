@@ -290,7 +290,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "\nWhat is the trigger name?\r"
           "\ncurrent: %s",
           OLC_TRIG(d)->name);
-          
+
          break;
        case 'b':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
@@ -307,11 +307,11 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          OLC_MODE(d) = TRIGEDIT_NARG;
          write_to_output(d, "\nWhat is the numeric argument?\r");
          break;
-       case 'f':
+       case 'e':
          OLC_MODE(d) = TRIGEDIT_ARGUMENT;
          write_to_output(d, "\nWhat is the trigger argument?\r");
          break;
-       case 'g':
+       case 'f':
          OLC_MODE(d) = TRIGEDIT_COMMANDS;
          write_to_output(d, "\nEnter trigger commands: (/s saves /h for help)\r");
          d->backstr = NULL;

@@ -1,5 +1,4 @@
 #100
-
 Random Movement~
 0 be 100
 ~
@@ -21,26 +20,19 @@ else
 end
 ~
 #117
-
-Agent 117 Greeting~
+Book Club Agent Greeting~
 0 g 100
 0~
-set msg[1] Agni, which thou encompassest about verily goeth to the Devas.
-set msg[2] Our Sages wide dominion, strong by birth, vouchsafe us strength that worketh well.
-set msg[3] Ye Devas, who protect, reward, and cherish men, approach your worshipper's drink-offering.
-set msg[4] We strengthen, thee the powerful, Indra, we may win us wealth.
-set msg[5] To him the richest of the rich, the Lord of treasures excellent, Indra.
-set msg[6] Thou, making light where no light was, and form where form was not.
-set msg[7] Indra hath ever close to him his word-yoked car, Indra the golden, thunder-armed.
 wait 2s
-say Welcome %actor.name% to the study room for RigVeda Book 1.
-wait 1s
-say We hope you enjoy your learning.
-while %self.room.people%
-  wait 60s
-  eval themsg %%msg[%random.7%]%%
-  say %themsg%
-done
+say Welcome, %actor.name% to Veda Book Club Room %self.room.vnum%.
+wait 2s
+say Feel free to browse around, and look at all the hymns we offer.
+wait 5s
+say If you have any questions please feel free to ask, I am here to help.
+wait 5s
+say When yo uare done feel free to browse around and study the other books in the Book Club at your own pase.
+wait 5s
+say Remember as you study the Vedas your experience, gold, and skills will increase with every book you study.
 ~
 #127
 
