@@ -25,7 +25,7 @@ Veda Library Agent Greeting 1~
 0~
 set room %self.room.vnum%
 wait 1s
-%echo% talk:#twitter tweet:devabuddhism Welcome to the #VedaLibrary #R%room% of #DevaWorld. #Indu #Indra #Deva http://indra.church/rigveda/01.html
+%echo% talk:#twitter tweet:devabuddhism %actor.name% has arrived in the #VedaLibrary #R%room%. :tags: :id: http://indra.church/rigveda/01.html
 
 wait 5s
 say Hello there %actor.name%
@@ -55,7 +55,7 @@ Veda Library Agent Greeting 2~
 set room %self.room.vnum%
 
 wait 1s
-%echo% talk:#twitter tweet:devabuddhism Announcing %actor.name% has entered #VedaLibrary in #R%room% of #DevaWorld. #Indu #Indra #Deva http://indra.church/rigveda/02.html
+%echo% talk:#twitter tweet:devabuddhism %actor.name% has arrived in the #VedaLibrary #R%room%. :tags: :id: http://indra.church/rigveda/01.html
 
 wait 5s
 say Greetings %actor.name%
@@ -76,7 +76,7 @@ Veda Library Agent Greeting 3~
 set room %self.room.vnum%
 
 wait 1s
-%echo% talk:#twitter tweet:devabuddhism %actor.name% has entered #VedaLibrary #R%room% of #DevaWorld. #Indu #Indra #Deva http://indra.church/rigveda/03.html
+%echo% talk:#twitter tweet:devabuddhism %actor.name% has arrived in the #VedaLibrary #R%room%. :tags: :id: http://indra.church/rigveda/01.html
 
 wait 5s
 say Hi %actor.name%,
