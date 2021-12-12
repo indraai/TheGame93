@@ -250,15 +250,15 @@ BareHandAttack: 5
 E
 T 117
 #118
-lackey fight club fightclub~
-Lackey~
+lib librarian book club bookclub~
+Librarian~
 0118/avatar~
 talk:#adv agent:thegame 0118/look
 ~
-16398 0 0 0 0 0 0 0 -300 E
+16458 0 0 0 0 0 0 0 -300 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 0
+8 8 6
 BareHandAttack: 4
 SavingPara: 3
 SavingRod: 3
@@ -266,6 +266,7 @@ SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
 E
+T 118
 #119
 fever visvedevas fire sacrifice deity~
 Fever~
@@ -311,12 +312,12 @@ You are in no doubt that this guildmaster is truly close to the Devas; he has a 
 8 8 1
 E
 #122
-slacker fight club fightclub~
-Slacker~
+lib librarian book club bookclub~
+Librarian~
 0122/avatar~
 talk:#adv agent:thegame 0122/look
 ~
-16462 0 0 0 0 0 0 0 -400 E
+16458 0 0 0 0 0 0 0 -400 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 0
@@ -327,6 +328,7 @@ SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
 E
+T 122
 #124
 0x super king adc daycare~
 0x King of Arjika Daycare~
