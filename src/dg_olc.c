@@ -283,6 +283,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else {
+           write_to_output(d, "\nsave:Trigger unchanged.\r");
            cleanup_olc(d, CLEANUP_ALL);
          }
          return;
@@ -341,22 +342,20 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
       switch(tolower(*arg)) {
         case 'y':
           trigedit_save(d);
-          write_to_output(d, "\nsave:Trigger saved.\r");
           mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
                  "OLC: %s edits trigger %d", GET_NAME(d->character),
                  OLC_NUM(d));
-          break;
           /* fall through */
         case 'n':
-          write_to_output(d, "\nsave:Trigger unchanged.\r");
+          write_to_output(d, "\nsave:Trigger not saved.\r");
           cleanup_olc(d, CLEANUP_ALL);
-          break;
+          return;
         case 'a': /* abort quitting */
           break;
         default:
           write_to_output(d, "\nThat was an invalid choice.\r");
           write_to_output(d, "%s", confirm_msg);
-          break;
+          return;
       }
       break;
 
@@ -653,6 +652,7 @@ void trigedit_save(struct descriptor_data *d)
   remove(buf);
   rename(fname, buf);
   trigedit_create_index(zone, "trg");
+  write_to_output(d, "\nsave:Trigger saved.\r");
 }
 
 static void trigedit_create_index(int znum, char *type)
