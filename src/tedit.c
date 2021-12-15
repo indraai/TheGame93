@@ -39,7 +39,7 @@ void tedit_string_cleanup(struct descriptor_data *d, int terminator)
       }
       fclose(fl);
       mudlog(CMP, MAX(LVL_DEVA, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s saves '%s'.", GET_NAME(d->character), storage);
-      write_to_output(d, "Saved.\r\n");
+      write_to_output(d, "\nsave:Saved.\r");
       if (!strcmp(storage, NEWS_FILE))
         newsmod = time(0);
       if (!strcmp(storage, MOTD_FILE))
@@ -47,7 +47,7 @@ void tedit_string_cleanup(struct descriptor_data *d, int terminator)
     }
     break;
   case STRINGADD_ABORT:
-    write_to_output(d, "Edit aborted.\r\n");
+    write_to_output(d, "\nsave:Edit aborted.\r");
     act("$n stops editing some scrolls.", TRUE, d->character, 0, 0, TO_ROOM);
     break;
   default:
