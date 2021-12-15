@@ -347,7 +347,9 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
                  OLC_NUM(d));
           /* fall through */
         case 'n':
-          write_to_output(d, "\nsave:Trigger not saved.\r");
+          if (tolower(*arg) == 'n') {
+            write_to_output(d, "\nsave:Trigger not saved.\r");
+          }
           cleanup_olc(d, CLEANUP_ALL);
           return;
         case 'a': /* abort quitting */
