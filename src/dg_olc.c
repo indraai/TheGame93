@@ -204,8 +204,7 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d,
-  "\n# Trigger\r"
-  "\nvnum:%d\r"
+  "\n# Trigger %d\r"
   "\nselect[a:name]:%s\r"
   "\nselect[b:attach]:%s\r"
   "\nselect[c:types]:%s\r"
