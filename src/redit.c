@@ -544,7 +544,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits room %d.", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-        write_to_output(d, "\nsave:Room saved to disk.\r");
+        write_to_output(d, "\nsave:Room saved.\r");
       } else
         write_to_output(d, "\nsave:Room saved to memory.\r");
       /* Free everything. */
@@ -554,7 +554,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       /* If not saving, we must free the script_proto list. We do so by
        * assigning it to the edited room and letting free_room in
        * cleanup_olc handle it. */
-      write_to_output(d, "\nsave: Room not saved.\r");
+      write_to_output(d, "\nsave:Room not saved.\r");
       OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
       cleanup_olc(d, CLEANUP_ALL);
       break;
