@@ -1,8 +1,4 @@
 #1000
-
-
-
-
 Gunnar Larsen~
 0 g 100
 ~
