@@ -1,8 +1,4 @@
 #1000
-
-
-
-
 Gunnar Larsen~
 0 g 100
 ~
@@ -64,8 +60,7 @@ else
 end
 ~
 #1005
-
-Room 1005 Token Trigger~
+Room 1005 Trigger~
 2 g 100
 ~
 set thetoken %actor.inventory(1013)%
