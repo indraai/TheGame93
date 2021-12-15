@@ -619,9 +619,9 @@ void trigedit_save(struct descriptor_data *d)
         return;
       }
       sprintascii(bitBuf, GET_TRIG_TYPE(trig));
-      fprintf(trig_file,      "%s%c\r\n"
-                              "%d %s %d\r\n"
-                              "%s%c\r\n",
+      fprintf(trig_file,      "%s%c\n"
+                              "%d %s %d\n"
+                              "%s%c\n",
            (GET_TRIG_NAME(trig)) ? (GET_TRIG_NAME(trig)) : "unknown trigger", STRING_TERMINATOR,
            trig->attach_type,
            *bitBuf ? bitBuf : "0", GET_TRIG_NARG(trig),
@@ -736,7 +736,7 @@ void dg_script_menu(struct descriptor_data *d)
   OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
 
   clear_screen(d);
-  write_to_output(d, "## Triggers\r\n");
+  write_to_output(d, "\n## Triggers\r");
 
   editscript = OLC_SCRIPT(d);
 
