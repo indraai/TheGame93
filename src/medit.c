@@ -78,7 +78,7 @@ ACMD(do_oasis_medit)
     }
 
     if (number == NOWHERE) {
-      send_to_char(ch, "\nsave:Save which zone?\r");
+      send_to_char(ch, "\nSave which zone?\r");
       return;
     }
   }
@@ -579,7 +579,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE, "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
-        write_to_output(d, "\nsave:Agent saved to disk.\r");
+        write_to_output(d, "\nsave:Agent saved.\r");
       } else
         write_to_output(d, "\nsave:Agent saved to memory.\r");
       cleanup_olc(d, CLEANUP_ALL);
