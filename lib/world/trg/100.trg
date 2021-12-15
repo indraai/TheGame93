@@ -53,8 +53,8 @@ Room 1005 Trigger~
 ~
 set thetoken %actor.inventory(1013)%
 set thisroom %self.vnum%
-%echo% the room is %theroom%
-if !%thetoken%
+%echo% the room is %thisroom%
+if %thetoken%
   %door% %thisroom% north flags abcd
   %door% %thisroom% north key 1013
 end
