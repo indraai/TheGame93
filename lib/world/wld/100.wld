@@ -1,15 +1,11 @@
 #1000
 Underground Kingdom~
 You are in an unfinished room.~
-100 24 0 0 0 0
+100 0 0 0 0 0
 D0
 ~
 ~
 0 0 1001
-D2
-~
-~
-0 0 98
 E
 thankyou~
 talk:#adv world:thegame 1000/thankyou
@@ -24,16 +20,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
