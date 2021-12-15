@@ -57,6 +57,8 @@ set thisroom %self.vnum%
 %echo% the room is %thisroom%
 if %thetoken%
   %door% %thisroom% north purge
+else
+  %door% %thisroom% north room %thekey%
 end
 ~
 #1008
