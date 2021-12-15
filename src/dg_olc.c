@@ -289,7 +289,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
        case 'a':
         OLC_MODE(d) = TRIGEDIT_NAME;
         write_to_output(d, "\nWhat is the trigger name?\r"
-          "\ncurrent: %s",
+          "\ncurrent: %s\r",
           OLC_TRIG(d)->name);
 
          break;
@@ -341,20 +341,22 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
       switch(tolower(*arg)) {
         case 'y':
           trigedit_save(d);
+          write_to_output(d, "\nsave:Trigger unchanged.\r");
           mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
                  "OLC: %s edits trigger %d", GET_NAME(d->character),
                  OLC_NUM(d));
+          break;
           /* fall through */
         case 'n':
           write_to_output(d, "\nsave:Trigger unchanged.\r");
           cleanup_olc(d, CLEANUP_ALL);
-          return;
+          break;
         case 'a': /* abort quitting */
           break;
         default:
           write_to_output(d, "\nThat was an invalid choice.\r");
           write_to_output(d, "%s", confirm_msg);
-          return;
+          break;
       }
       break;
 
