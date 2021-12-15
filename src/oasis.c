@@ -38,7 +38,7 @@ static void free_config(struct config_data *data);
 void clear_screen(struct descriptor_data *d)
 {
   if (PRF_FLAGGED(d->character, PRF_CLS))
-    write_to_output(d, "[H[J",
+    write_to_output(d, "[H[J"
     "\nshell:clear\r");
 }
 
