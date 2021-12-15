@@ -52,18 +52,18 @@ else
 end
 ~
 #1005
-
 RM1005~
 2 g 100
 ~
 set thetoken %actor.inventory(1013)%
-set thisroom %actor.room.vnum%
+set thisroom %self.room.vnum%
 if %thetoken%
   %door% %thisroom% north purge
+else
+  %door% %thisroom% north 1013
 end
 ~
 #1008
-
 R1008 Give Token~
 2 g 100
 ~
