@@ -556,6 +556,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       /* If not saving, we must free the script_proto list. We do so by
        * assigning it to the edited room and letting free_room in
        * cleanup_olc handle it. */
+      write_to_output(d, "\nsave: Room note saved.\r");
       OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
       cleanup_olc(d, CLEANUP_ALL);
       break;
@@ -674,7 +675,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nsave: Room was unchanged.\r");
+        write_to_output(d, "\nsave: Room unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;

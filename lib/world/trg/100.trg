@@ -4,20 +4,21 @@ Gunnar Larsen~
 ~
   wait 5s
   say Well?
-  wait 2s
+  wait 5s
   say Any Radar return?
 ~
 #1001
 James Sneed Trigger~
 0 g 100
 ~
-  wait 6s
+  wait 7s
   emote looks up, a broad smile on his face.
+  wait 1s
   say This is it, friends—the Bottomless Crevasse.
-  wait 4s
+  wait 5s
   emote shakes head
+  wait 1s
   say None.
-  *set time after 10s here
 ~
 #1002
 Hash Tracker~
