@@ -8,11 +8,7 @@ Gunnar Larsen~
   say Any Radar return?
 ~
 #1001
-
-
-
-
-James Sneed~
+James Sneed Trigger~
 0 g 100
 ~
   wait 6s
@@ -64,6 +60,8 @@ Room 1005 Trigger~
 2 g 100
 ~
 set thetoken %actor.inventory(1013)%
+set theroom %self.vnum%
+%echo% the room is %theroom%
 ~
 #1008
 
