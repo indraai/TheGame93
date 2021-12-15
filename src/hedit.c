@@ -81,7 +81,7 @@ ACMD(do_oasis_hedit)
   CREATE(d->olc, struct oasis_olc_data, 1);
   OLC_NUM(d) = 0;
   OLC_STORAGE(d) = strdup(arg);
-  
+
   OLC_ZNUM(d) = search_help(OLC_STORAGE(d), LVL_IMPL);
 
   if (help_table[OLC_ZNUM(d)].duplicate) {
@@ -103,7 +103,7 @@ ACMD(do_oasis_hedit)
   STATE(d) = CON_HEDIT;
   act("$n starts using OLC.", TRUE, d->character, 0, 0, TO_ROOM);
   SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
-  mudlog(CMP, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), 
+  mudlog(CMP, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)),
     TRUE, "OLC: %s starts editing help files.", GET_NAME(d->character));
 }
 
@@ -143,7 +143,7 @@ static void hedit_save_internally(struct descriptor_data *d)
 
     for (i = 0; i < top_of_helpt; i++)
       new_help_table[i] = help_table[i];
-      
+
     new_help_table[top_of_helpt++] = *OLC_HELP(d);
     free(help_table);
     help_table = new_help_table;
@@ -182,7 +182,7 @@ static void hedit_save_to_disk(struct descriptor_data *d)
   remove_from_save_list(HEDIT_PERMISSION, SL_HLP);
 
   /* Reboot the help files. */
-  free_help_table();     
+  free_help_table();
   index_boot(DB_BOOT_HLP);
 }
 
@@ -241,9 +241,9 @@ void hedit_parse(struct descriptor_data *d, char *arg)
     case 'y': case 'Y':
       hedit_setup_existing(d, OLC_ZNUM(d));
       break;
-    case 'q': case 'Q': 
+    case 'q': case 'Q':
       cleanup_olc(d, CLEANUP_ALL);
-      break;       
+      break;
     case 'n': case 'N':
       OLC_ZNUM(d)++;
       for (; OLC_ZNUM(d) < top_of_helpt; OLC_ZNUM(d)++)
@@ -260,7 +260,7 @@ void hedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "Do you wish to edit the '%s' help file? ",
             help_table[OLC_ZNUM(d)].keywords);
         OLC_MODE(d) = HEDIT_CONFIRM_EDIT;
-      }     
+      }
       break;
     default:
       write_to_output(d, "Invalid choice!\r\n"
@@ -295,7 +295,7 @@ void hedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "Do you wish to save your changes? : ");
         OLC_MODE(d) = HEDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "No changes made.\r\n");
+        write_to_output(d, "\nsave:Help files unchanges.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       break;

@@ -746,7 +746,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
         OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nsave:No changes made.\r");
+        write_to_output(d, "\nsave:Zone unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       break;

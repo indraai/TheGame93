@@ -589,6 +589,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       /* If not saving, we must free the script_proto list. We do so by
        * assigning it to the edited mob and letting free_mobile in
        * cleanup_olc handle it. */
+      write_to_output(d, "\nsave:Agent not saved.\r");
       OLC_MOB(d)->proto_script = OLC_SCRIPT(d);
       cleanup_olc(d, CLEANUP_ALL);
       return;

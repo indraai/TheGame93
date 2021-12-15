@@ -449,18 +449,19 @@ void sedit_parse(struct descriptor_data *d, char *arg)
              OLC_NUM(d));
       if (CONFIG_OLC_SAVE) {
         sedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-        write_to_output(d, "Shop saved to disk.\r\n");
+        write_to_output(d, "\nsave:Shop saved to disk.\r");
       } else
-        write_to_output(d, "Shop saved to memory.\r\n");
+        write_to_output(d, "\nsave:Shop saved to memory.\r");
 
       cleanup_olc(d, CLEANUP_STRUCTS);
       return;
     case 'n':
     case 'N':
+      write_to_output(d, "\nsave:Shop not saved.\r");
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      write_to_output(d, "Invalid choice!\r\n");
+      write_to_output(d, "\nInvalid choice!\r");
       write_to_output(d, "%s", confirm_msg);
       return;
     }
@@ -469,7 +470,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     i = 0;
     switch (*arg) {
     case '1':
-      write_to_output(d, "Copy what shop? ");
+      write_to_output(d, "\nCopy what shop?\r");
       OLC_MODE(d) = SEDIT_COPY;
       return;
     case '0':
@@ -477,13 +478,13 @@ void sedit_parse(struct descriptor_data *d, char *arg)
         write_to_output(d, "%s", confirm_msg);
 	     OLC_MODE(d) = SEDIT_CONFIRM_SAVESTRING;
       } else {
-        write_to_output(d, "\nsave:No changes made.\r");
+        write_to_output(d, "\nsave:Shop unchanged.\r");
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
     case 'a':
       OLC_MODE(d) = SEDIT_KEEPER;
-      write_to_output(d, "Enter vnum number of shop keeper : ");
+      write_to_output(d, "\nWho is the shopkeeper?\r");
       return;
     case 'b':
       OLC_MODE(d) = SEDIT_OPEN1;
