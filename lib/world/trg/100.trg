@@ -1,5 +1,6 @@
 #1000
 
+
 Gunnar Larsen~
 0 g 100
 ~
@@ -9,6 +10,7 @@ Gunnar Larsen~
   say Any Radar return?
 ~
 #1001
+
 
 James Sneed~
 0 g 100
@@ -23,6 +25,7 @@ James Sneed~
 ~
 #1002
 
+
 Hash Tracker~
 1 acg 100
 n~
@@ -30,6 +33,7 @@ wait 2s
 You are in %actor.room.vnum% currently.
 ~
 #1003
+
 
 Underground Kingdom Guide~
 0 b 100
@@ -52,17 +56,19 @@ else
 end
 ~
 #1005
+
 RM1005~
 2 g 100
 ~
 set thetoken %actor.inventory(1013)%
 set thisroom %self.room.vnum%
-echo The room trigger for %thisroom% is running.
+%echo% The room trigger %thisroom%
 if %thetoken%
   %door% %thisroom% north flags abcd
 end
 ~
 #1008
+
 R1008 Give Token~
 2 g 100
 ~
@@ -84,6 +90,7 @@ end
 ~
 #1010
 
+
 R1010 Check Token~
 2 g 100
 ~
@@ -95,6 +102,7 @@ end
 ~
 #1012
 
+
 R1012 Check Token~
 2 g 100
 ~
@@ -105,6 +113,7 @@ if %thetoken%
 end
 ~
 #1013
+
 
 R1013 Give Token~
 2 g 100
@@ -127,6 +136,7 @@ end
 ~
 #1016
 
+
 R1016 Check Token~
 2 g 100
 ~
@@ -137,6 +147,7 @@ if %thetoken%
 end
 ~
 #1020
+
 
 R1020 Give Token~
 2 g 100
@@ -159,6 +170,7 @@ end
 ~
 #1021
 
+
 RM1021~
 2 g 100
 ~
@@ -169,6 +181,7 @@ if %thetoken%
 end
 ~
 #1023
+
 
 R1023 Give Token~
 2 g 100
@@ -191,6 +204,7 @@ end
 ~
 #1024
 
+
 R1024 Give Token~
 2 g 100
 ~
@@ -212,6 +226,7 @@ end
 ~
 #1026
 
+
 RM1026~
 2 g 100
 ~
@@ -222,6 +237,7 @@ if %thetoken%
 end
 ~
 #1032
+
 
 R1032 Give Token~
 2 g 100
@@ -244,6 +260,7 @@ end
 ~
 #1033
 
+
 R1033 Give Token~
 2 g 100
 ~
@@ -265,6 +282,7 @@ end
 ~
 #1037
 
+
 RM1037~
 2 g 100
 ~
@@ -275,6 +293,7 @@ if %thetoken%
 end
 ~
 #1039
+
 
 RM1039~
 2 g 100
@@ -287,6 +306,7 @@ end
 ~
 #1044
 
+
 RM1039~
 2 g 100
 ~
@@ -297,6 +317,7 @@ if %thetoken%
 end
 ~
 #1047
+
 
 R1047 Give Token~
 2 g 100
@@ -319,6 +340,7 @@ end
 ~
 #1051
 
+
 RM1051~
 2 g 100
 ~
@@ -329,6 +351,7 @@ if %thetoken%
 end
 ~
 #1053
+
 
 RM1053~
 2 g 100
@@ -341,6 +364,7 @@ end
 ~
 #1055
 
+
 RM1055~
 2 g 100
 ~
@@ -352,6 +376,7 @@ end
 ~
 #1058
 
+
 RM1058~
 2 g 100
 ~
@@ -362,6 +387,7 @@ if %thetoken%
 end
 ~
 #1060
+
 
 R1060 Give Token~
 2 g 100
@@ -384,6 +410,7 @@ end
 ~
 #1062
 
+
 R1062 Give Token~
 2 g 100
 ~
@@ -404,6 +431,7 @@ if !%thetoken%
 end
 ~
 #1064
+
 
 R1064 Give Token~
 2 g 100
@@ -426,6 +454,7 @@ end
 ~
 #1065
 
+
 R1065 Give Token~
 2 g 100
 ~
@@ -447,6 +476,7 @@ end
 ~
 #1068
 
+
 RM1068~
 2 g 100
 ~
@@ -457,6 +487,7 @@ if %thetoken%
 end
 ~
 #1069
+
 
 R1069 Give Token~
 2 g 100
@@ -479,6 +510,7 @@ end
 ~
 #1070
 
+
 RM1070~
 2 g 100
 ~
@@ -489,6 +521,7 @@ if %thetoken%
 end
 ~
 #1072
+
 
 R1072 Give Token~
 2 g 100
@@ -511,6 +544,7 @@ end
 ~
 #1074
 
+
 R1074 Give Token~
 2 g 100
 ~
@@ -532,6 +566,7 @@ end
 ~
 #1075
 
+
 Professor Bruckner~
 0 g 100
 ~
@@ -546,6 +581,7 @@ say Who will volunteer to come with me?
 ~
 #1077
 
+
 RM1077~
 2 g 100
 ~
@@ -557,6 +593,7 @@ end
 ~
 #1078
 
+
 RM1078~
 2 g 100
 ~
@@ -567,6 +604,7 @@ if %thetoken%
 end
 ~
 #1084
+
 
 R1084 Give Token~
 2 g 100
@@ -589,6 +627,7 @@ end
 ~
 #1089
 
+
 R1089 Give Token~
 2 g 100
 ~
@@ -609,6 +648,7 @@ if !%thetoken%
 end
 ~
 #1102
+
 
 R1102 Give Token~
 2 g 100
@@ -631,6 +671,7 @@ end
 ~
 #1103
 
+
 R1103 Give Token~
 2 g 100
 ~
@@ -652,6 +693,7 @@ end
 ~
 #1106
 
+
 R1106 Give Token~
 2 g 100
 ~
@@ -672,6 +714,7 @@ if !%thetoken%
 end
 ~
 #1108
+
 
 R1108 Give Token~
 2 g 100
