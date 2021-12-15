@@ -55,8 +55,7 @@ set thetoken %actor.inventory(200)%
 set thisroom %self.vnum%
 %echo% the room is %thisroom%
 if %thetoken%
-  %door% %thisroom% north flags abcd
-  %door% %thisroom% north key 1013
+  %door% %thisroom% north purge
 end
 ~
 #1008
@@ -105,7 +104,7 @@ R1013 Give Token~
 ~
 set thekey 1013
 set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set thisroom %self.vnum%
 set reward 60
 if !%thetoken%
   wait 1s
