@@ -64,9 +64,9 @@ static void ASSIGNROOM(room_vnum room, SPECIAL(fname))
 void assign_mobiles(void)
 {
   // assign_kings_castle();
-  ASSIGNMOB(120, guild);
-  ASSIGNMOB(121, guild);
-  ASSIGNMOB(123, guild);
+  // ASSIGNMOB(120, guild);
+  // ASSIGNMOB(121, guild);
+  // ASSIGNMOB(123, guild);
   ASSIGNMOB(110, postmaster);
 }
 
