@@ -341,7 +341,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
       switch(tolower(*arg)) {
         case 'y':
           trigedit_save(d);
-          write_to_output(d, "\nsave:Trigger unchanged.\r");
+          write_to_output(d, "\nsave:Trigger saved.\r");
           mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
                  "OLC: %s edits trigger %d", GET_NAME(d->character),
                  OLC_NUM(d));
