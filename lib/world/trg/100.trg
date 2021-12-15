@@ -58,9 +58,8 @@ RM1005~
 set thetoken %actor.inventory(1013)%
 set thisroom %self.room.vnum%
 if %thetoken%
-  %door% %thisroom% north purge
-else
-  %door% %thisroom% north 1013
+  %door% %thisroom% north flags ab
+  %door% %thisroom% north key 1013
 end
 ~
 #1008
