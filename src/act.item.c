@@ -892,7 +892,7 @@ ACMD(do_drink)
       amount = rand_number(3, 10);
 
   } else {
-    act("\drink:$n sips from $p.\r", TRUE, ch, temp, 0, TO_ROOM);
+    act("\ndrink:$n sips from $p.\r", TRUE, ch, temp, 0, TO_ROOM);
     send_to_char(ch, "\ndrink:It tastes like %s.\r", drinks[GET_OBJ_VAL(temp, 2)]);
     amount = 1;
   }
