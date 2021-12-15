@@ -346,8 +346,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
                  "OLC: %s edits trigger %d", GET_NAME(d->character),
                  OLC_NUM(d));
           write_to_output(d, "\nsave:Trigger saved.\r");
-          return;
-        /* trigger will not be saved */
+        /* trigger fallthrough */
         case 'n':
           write_to_output(d, "\nsave:Trigger not saved.\r");
           cleanup_olc(d, CLEANUP_ALL);
