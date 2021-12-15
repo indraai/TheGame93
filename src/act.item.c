@@ -111,25 +111,25 @@ ACMD(do_put)
   cont_dotmode = find_all_dots(thecont);
 
   if (!*theobj)
-    send_to_char(ch, "Put what in what?\r\n");
+    send_to_char(ch, "\nput:Put what in what?\r");
   else if (cont_dotmode != FIND_INDIV)
-    send_to_char(ch, "You can only put things into one container at a time.\r\n");
+    send_to_char(ch, "\nput:You can only put things into one container at a time.\r");
   else if (!*thecont) {
-    send_to_char(ch, "What do you want to put %s in?\r\n", obj_dotmode == FIND_INDIV ? "it" : "them");
+    send_to_char(ch, "\nput:What do you want to put %s in?\r", obj_dotmode == FIND_INDIV ? "it" : "them");
   } else {
     generic_find(thecont, FIND_OBJ_INV | FIND_OBJ_ROOM, ch, &tmp_char, &cont);
     if (!cont)
-      send_to_char(ch, "You don't see %s %s here.\r\n", AN(thecont), thecont);
+      send_to_char(ch, "\nput:You don't see %s %s here.\r", AN(thecont), thecont);
     else if (GET_OBJ_TYPE(cont) != ITEM_CONTAINER)
-      act("$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
+      act("\nput:$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
     else if (OBJVAL_FLAGGED(cont, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE)))
-      send_to_char(ch, "You'd better open it first!\r\n");
+      send_to_char(ch, "\nput:You'd better open it first!\r");
     else {
       if (obj_dotmode == FIND_INDIV) {	/* put <obj> <container> */
 	if (!(obj = get_obj_in_list_vis(ch, theobj, NULL, ch->carrying)))
-	  send_to_char(ch, "You aren't carrying %s %s.\r\n", AN(theobj), theobj);
+	  send_to_char(ch, "\nput:You aren't carrying %s %s.\r", AN(theobj), theobj);
 	else if (obj == cont && howmany == 1)
-	  send_to_char(ch, "You attempt to fold it into itself, but fail.\r\n");
+	  send_to_char(ch, "\nput:You attempt to fold it into itself, but fail.\r");
 	else {
 	  while (obj && howmany) {
 	    next_obj = obj->next_content;
@@ -151,9 +151,9 @@ ACMD(do_put)
 	}
 	if (!found) {
 	  if (obj_dotmode == FIND_ALL)
-	    send_to_char(ch, "You don't seem to have anything to put in it.\r\n");
+	    send_to_char(ch, "\nput:You don't seem to have anything to put in it.\r");
 	  else
-	    send_to_char(ch, "You don't seem to have any %ss.\r\n", theobj);
+	    send_to_char(ch, "\nput:You don't seem to have any %ss.\r", theobj);
 	}
       }
     }
@@ -339,7 +339,7 @@ ACMD(do_get)
   one_argument(two_arguments(argument, arg1, arg2), arg3);	/* three_arguments */
 
   if (!*arg1)
-    send_to_char(ch, "Get what?\r\n");
+    send_to_char(ch, "\nget:Get what?\r");
   else if (!*arg2)
     get_from_room(ch, arg1, 1);
   else if (is_number(arg1) && !*arg3)
@@ -355,14 +355,14 @@ ACMD(do_get)
     if (cont_dotmode == FIND_INDIV) {
       mode = generic_find(arg2, FIND_OBJ_INV | FIND_OBJ_ROOM, ch, &tmp_char, &cont);
       if (!cont)
-	send_to_char(ch, "You don't have %s %s.\r\n", AN(arg2), arg2);
+	send_to_char(ch, "\nget:You don't have %s %s.\r", AN(arg2), arg2);
       else if (GET_OBJ_TYPE(cont) != ITEM_CONTAINER)
-	act("$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
+	act("\nget:$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
       else
 	get_from_container(ch, cont, arg1, mode, amount);
     } else {
       if (cont_dotmode == FIND_ALLDOT && !*arg2) {
-	send_to_char(ch, "Get from all of what?\r\n");
+	send_to_char(ch, "\nget:Get from all of what?\r");
 	return;
       }
       for (cont = ch->carrying; cont; cont = cont->next_content)
@@ -373,7 +373,7 @@ ACMD(do_get)
 	    get_from_container(ch, cont, arg1, FIND_OBJ_INV, amount);
 	  } else if (cont_dotmode == FIND_ALLDOT) {
 	    found = 1;
-	    act("$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
+	    act("\nget:$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
 	  }
 	}
       for (cont = world[IN_ROOM(ch)].contents; cont; cont = cont->next_content)
@@ -383,15 +383,15 @@ ACMD(do_get)
 	    get_from_container(ch, cont, arg1, FIND_OBJ_ROOM, amount);
 	    found = 1;
 	  } else if (cont_dotmode == FIND_ALLDOT) {
-	    act("$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
+	    act("\nget:$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
 	    found = 1;
 	  }
 	}
       if (!found) {
 	if (cont_dotmode == FIND_ALL)
-	  send_to_char(ch, "You can't seem to find any containers.\r\n");
+	  send_to_char(ch, "\nget:You can't seem to find any containers.\r");
 	else
-	  send_to_char(ch, "You can't seem to find any %ss here.\r\n", arg2);
+	  send_to_char(ch, "\nget:You can't seem to find any %ss here.\r", arg2);
       }
     }
   }
@@ -576,14 +576,14 @@ ACMD(do_drop)
     /* Can't junk or donate all */
     if ((dotmode == FIND_ALL) && (subcmd == SCMD_JUNK || subcmd == SCMD_DONATE)) {
       if (subcmd == SCMD_JUNK)
-	send_to_char(ch, "Go to the dump if you want to junk EVERYTHING!\r\n");
+	send_to_char(ch, "\ndrop:Go to the dump if you want to junk EVERYTHING!\r");
       else
-	send_to_char(ch, "Go do the donation room if you want to donate EVERYTHING!\r\n");
+	send_to_char(ch, "\ndrop:Go do the donation room if you want to donate EVERYTHING!\r");
       return;
     }
     if (dotmode == FIND_ALL) {
       if (!ch->carrying)
-	send_to_char(ch, "You don't seem to be carrying anything.\r\n");
+	send_to_char(ch, "\ndrop:You don't seem to be carrying anything.\r");
       else
 	for (obj = ch->carrying; obj; obj = next_obj) {
 	  next_obj = obj->next_content;
@@ -591,11 +591,11 @@ ACMD(do_drop)
 	}
     } else if (dotmode == FIND_ALLDOT) {
       if (!*arg) {
-	send_to_char(ch, "What do you want to %s all of?\r\n", sname);
+	send_to_char(ch, "\ndrop:What do you want to %s all of?\r", sname);
 	return;
       }
       if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
-	send_to_char(ch, "You don't seem to have any %ss.\r\n", arg);
+	send_to_char(ch, "\ndrop:You don't seem to have any %ss.\r", arg);
 
       while (obj) {
 	next_obj = get_obj_in_list_vis(ch, arg, NULL, obj->next_content);
@@ -604,15 +604,15 @@ ACMD(do_drop)
       }
     } else {
       if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
-	send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+	send_to_char(ch, "\ndrop:You don't seem to have %s %s.\r", AN(arg), arg);
       else
 	amount += perform_drop(ch, obj, mode, sname, RDR);
     }
   }
 
   if (amount && (subcmd == SCMD_JUNK)) {
-    send_to_char(ch, "You have been rewarded by the Devas!\r\n");
-    act("$n has been rewarded by the Devas!", TRUE, ch, 0, 0, TO_ROOM);
+    send_to_char(ch, "\ndrop:You have been rewarded by the Devas!\r");
+    act("\ndrop:$n has been rewarded by the Devas!\r", TRUE, ch, 0, 0, TO_ROOM);
     GET_GOLD(ch) += amount;
   }
 }
@@ -702,7 +702,7 @@ ACMD(do_give)
   argument = one_argument(argument, arg);
 
   if (!*arg)
-    send_to_char(ch, "Give what to who?\r\n");
+    send_to_char(ch, "\ngive:Give what to who?\r");
   else if (is_number(arg)) {
     amount = atoi(arg);
     argument = one_argument(argument, arg);
@@ -712,11 +712,11 @@ ACMD(do_give)
 	perform_give_gold(ch, vict, amount);
       return;
     } else if (!*arg) /* Give multiple code. */
-      send_to_char(ch, "What do you want to give %d of?\r\n", amount);
+      send_to_char(ch, "\ngive:What do you want to give %d of?\r", amount);
     else if (!(vict = give_find_vict(ch, argument)))
       return;
     else if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
-      send_to_char(ch, "You don't seem to have any %ss.\r\n", arg);
+      send_to_char(ch, "\ngive:You don't seem to have any %ss.\r", arg);
     else {
       while (obj && amount--) {
 	next_obj = get_obj_in_list_vis(ch, arg, NULL, obj->next_content);
@@ -733,16 +733,16 @@ ACMD(do_give)
     dotmode = find_all_dots(arg);
     if (dotmode == FIND_INDIV) {
       if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
-	send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+	send_to_char(ch, "\ngive:You don't seem to have %s %s.\r", AN(arg), arg);
       else
 	perform_give(ch, vict, obj);
     } else {
       if (dotmode == FIND_ALLDOT && !*arg) {
-	send_to_char(ch, "All of what?\r\n");
+	send_to_char(ch, "\ngive:All of what?\r\n");
 	return;
       }
       if (!ch->carrying)
-	send_to_char(ch, "You don't seem to be holding anything.\r\n");
+	send_to_char(ch, "\ngive:You don't seem to be holding anything.\r");
       else
 	for (obj = ch->carrying; obj; obj = next_obj) {
 	  next_obj = obj->next_content;
@@ -830,48 +830,48 @@ ACMD(do_drink)
       case SECT_WATER_NOSWIM:
       case SECT_UNDERWATER:
         if ((GET_COND(ch, HUNGER) > 20) && (GET_COND(ch, THIRST) > 0)) {
-          send_to_char(ch, "Your stomach can't contain anymore!\r\n");
+          send_to_char(ch, "\ndrink:Your stomach can't contain anymore!\r");
         }
-        snprintf(buf, sizeof(buf), "$n takes a refreshing drink.");
+        snprintf(buf, sizeof(buf), "\ndrink:$n takes a refreshing drink.\r");
         act(buf, TRUE, ch, 0, 0, TO_ROOM);
-        send_to_char(ch, "You take a refreshing drink.\r\n");
+        send_to_char(ch, "\ndrink:You take a refreshing drink.\r");
         gain_condition(ch, THIRST, 1);
         if (GET_COND(ch, THIRST) > 20)
-          send_to_char(ch, "You don't feel thirsty any more.\r\n");
+          send_to_char(ch, "\ndrink:You don't feel thirsty any more.\r");
         return;
       default:
-    send_to_char(ch, "Drink from what?\r\n");
+    send_to_char(ch, "\ndrink:Drink from what?\r");
     return;
     }
   }
   if (!(temp = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
     if (!(temp = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) {
-      send_to_char(ch, "You can't find it!\r\n");
+      send_to_char(ch, "\ndrink:You can't find it!\r");
       return;
     } else
       on_ground = 1;
   }
   if ((GET_OBJ_TYPE(temp) != ITEM_DRINKCON) &&
       (GET_OBJ_TYPE(temp) != ITEM_FOUNTAIN)) {
-    send_to_char(ch, "You can't drink from that!\r\n");
+    send_to_char(ch, "\ndrink:You can't drink from that!\r");
     return;
   }
   if (on_ground && (GET_OBJ_TYPE(temp) == ITEM_DRINKCON)) {
-    send_to_char(ch, "You have to be holding that to drink from it.\r\n");
+    send_to_char(ch, "\ndrink:You have to be holding that to drink from it.\r");
     return;
   }
   if ((GET_COND(ch, DRUNK) > 10) && (GET_COND(ch, THIRST) > 0)) {
     /* The pig is drunk */
-    send_to_char(ch, "You can't seem to get close enough to your mouth.\r\n");
+    send_to_char(ch, "\ndrink:You can't seem to get close enough to your mouth.\r");
     act("$n tries to drink but misses $s mouth!", TRUE, ch, 0, 0, TO_ROOM);
     return;
   }
   if ((GET_COND(ch, HUNGER) > 20) && (GET_COND(ch, THIRST) > 0)) {
-    send_to_char(ch, "Your stomach can't contain anymore!\r\n");
+    send_to_char(ch, "\ndrink:Your stomach can't contain anymore!\r");
     return;
   }
   if (GET_OBJ_VAL(temp, 1) < 1) {
-    send_to_char(ch, "It is empty.\r\n");
+    send_to_char(ch, "\ndrink:It is empty.\r");
     return;
   }
 
@@ -881,10 +881,10 @@ ACMD(do_drink)
   if (subcmd == SCMD_DRINK) {
     char buf[MAX_STRING_LENGTH];
 
-    snprintf(buf, sizeof(buf), "$n drinks %s from $p.", drinks[GET_OBJ_VAL(temp, 2)]);
+    snprintf(buf, sizeof(buf), "\ndrink:$n drinks %s from $p.\r", drinks[GET_OBJ_VAL(temp, 2)]);
     act(buf, TRUE, ch, temp, 0, TO_ROOM);
 
-    send_to_char(ch, "You drink the %s.\r\n", drinks[GET_OBJ_VAL(temp, 2)]);
+    send_to_char(ch, "\ndrink:You drink the %s.\r", drinks[GET_OBJ_VAL(temp, 2)]);
 
     if (drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK] > 0)
       amount = (25 - GET_COND(ch, THIRST)) / drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK];
@@ -892,8 +892,8 @@ ACMD(do_drink)
       amount = rand_number(3, 10);
 
   } else {
-    act("$n sips from $p.", TRUE, ch, temp, 0, TO_ROOM);
-    send_to_char(ch, "It tastes like %s.\r\n", drinks[GET_OBJ_VAL(temp, 2)]);
+    act("\drink:$n sips from $p.\r", TRUE, ch, temp, 0, TO_ROOM);
+    send_to_char(ch, "\ndrink:It tastes like %s.\r", drinks[GET_OBJ_VAL(temp, 2)]);
     amount = 1;
   }
 
@@ -910,17 +910,17 @@ ACMD(do_drink)
   gain_condition(ch, THIRST, drink_aff[GET_OBJ_VAL(temp, 2)][THIRST] * amount / 4);
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "You feel drunk.\r\n");
+    send_to_char(ch, "\ndrink:You feel drunk.\r");
 
   if (GET_COND(ch, THIRST) > 20)
-    send_to_char(ch, "You don't feel thirsty any more.\r\n");
+    send_to_char(ch, "\ndrink:You don't feel thirsty any more.\r");
 
   if (GET_COND(ch, HUNGER) > 20)
-    send_to_char(ch, "You are full.\r\n");
+    send_to_char(ch, "\ndrink:You are full.\r");
 
   if (GET_OBJ_VAL(temp, 3) && GET_LEVEL(ch) < LVL_IMMORT) { /* The crap was poisoned ! */
-    send_to_char(ch, "Oops, it tasted rather strange!\r\n");
-    act("$n chokes and utters some strange sounds.", TRUE, ch, 0, 0, TO_ROOM);
+    send_to_char(ch, "\ndrink:Oops, it tasted rather strange!\r");
+    act("\ndrink:$n chokes and utters some strange sounds.\r", TRUE, ch, 0, 0, TO_ROOM);
 
     new_affect(&af);
     af.spell = SPELL_POISON;
@@ -953,11 +953,11 @@ ACMD(do_eat)
     return;
 
   if (!*arg) {
-    send_to_char(ch, "Eat what?\r\n");
+    send_to_char(ch, "\neat:Eat what?\r");
     return;
   }
   if (!(food = get_obj_in_list_vis(ch, arg, NULL, ch->carrying))) {
-    send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+    send_to_char(ch, "\neat:You don't seem to have %s %s.\r", AN(arg), arg);
     return;
   }
   if (subcmd == SCMD_TASTE && ((GET_OBJ_TYPE(food) == ITEM_DRINKCON) ||
@@ -966,11 +966,11 @@ ACMD(do_eat)
     return;
   }
   if ((GET_OBJ_TYPE(food) != ITEM_FOOD) && (GET_LEVEL(ch) < LVL_IMMORT)) {
-    send_to_char(ch, "You can't eat THAT!\r\n");
+    send_to_char(ch, "\neat:You can't eat THAT!\r");
     return;
   }
   if (GET_COND(ch, HUNGER) > 20) { /* Stomach full */
-    send_to_char(ch, "You are too full to eat more!\r\n");
+    send_to_char(ch, "\neat:You are too full to eat more!\r");
     return;
   }
 
@@ -978,11 +978,11 @@ ACMD(do_eat)
     return;
 
   if (subcmd == SCMD_EAT) {
-    act("You eat $p.", FALSE, ch, food, 0, TO_CHAR);
+    act("\neat:You eat $p.\r", FALSE, ch, food, 0, TO_CHAR);
     act("$n eats $p.", TRUE, ch, food, 0, TO_ROOM);
   } else {
-    act("You nibble a little bit of $p.", FALSE, ch, food, 0, TO_CHAR);
-    act("$n tastes a little bit of $p.", TRUE, ch, food, 0, TO_ROOM);
+    act("\neat:You nibble a little bit of $p.\r", FALSE, ch, food, 0, TO_CHAR);
+    act("\neat:$n tastes a little bit of $p.\r", TRUE, ch, food, 0, TO_ROOM);
   }
 
   amount = (subcmd == SCMD_EAT ? GET_OBJ_VAL(food, 0) : 1);
@@ -990,12 +990,12 @@ ACMD(do_eat)
   gain_condition(ch, HUNGER, amount);
 
   if (GET_COND(ch, HUNGER) > 20)
-    send_to_char(ch, "You are full.\r\n");
+    send_to_char(ch, "\neat:You are full.\r");
 
   if (GET_OBJ_VAL(food, 3) && (GET_LEVEL(ch) < LVL_IMMORT)) {
     /* The crap was poisoned ! */
-    send_to_char(ch, "Oops, that tasted rather strange!\r\n");
-    act("$n coughs and utters some strange sounds.", FALSE, ch, 0, 0, TO_ROOM);
+    send_to_char(ch, "\neat:Oops, that tasted rather strange!\r");
+    act("\neat:$n coughs and utters some strange sounds.\r", FALSE, ch, 0, 0, TO_ROOM);
 
     new_affect(&af);
     af.spell = SPELL_POISON;
@@ -1007,7 +1007,7 @@ ACMD(do_eat)
     extract_obj(food);
   else {
     if (!(--GET_OBJ_VAL(food, 0))) {
-      send_to_char(ch, "There's nothing left now.\r\n");
+      send_to_char(ch, "\neat:There's nothing left now.\r");
       extract_obj(food);
     }
   }
@@ -1023,57 +1023,57 @@ ACMD(do_pour)
 
   if (subcmd == SCMD_POUR) {
     if (!*arg1) { /* No arguments */
-      send_to_char(ch, "From what do you want to pour?\r\n");
+      send_to_char(ch, "\npour:From what do you want to pour?\r");
       return;
     }
     if (!(from_obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
-      send_to_char(ch, "You can't find it!\r\n");
+      send_to_char(ch, "\npour:You can't find it!\r");
       return;
     }
     if (GET_OBJ_TYPE(from_obj) != ITEM_DRINKCON) {
-      send_to_char(ch, "You can't pour from that!\r\n");
+      send_to_char(ch, "\npour:You can't pour from that!\r");
       return;
     }
   }
   if (subcmd == SCMD_FILL) {
     if (!*arg1) { /* no arguments */
-      send_to_char(ch, "What do you want to fill?  And what are you filling it from?\r\n");
+      send_to_char(ch, "\npour:What do you want to fill, and what are you filling it from?\r");
       return;
     }
     if (!(to_obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying))) {
-      send_to_char(ch, "You can't find it!\r\n");
+      send_to_char(ch, "\npour:You can't find it!\r");
       return;
     }
     if (GET_OBJ_TYPE(to_obj) != ITEM_DRINKCON) {
-      act("You can't fill $p!", FALSE, ch, to_obj, 0, TO_CHAR);
+      act("\npour:You can't fill $p!\r", FALSE, ch, to_obj, 0, TO_CHAR);
       return;
     }
     if (!*arg2) { /* no 2nd argument */
-      act("What do you want to fill $p from?", FALSE, ch, to_obj, 0, TO_CHAR);
+      act("\npour:What do you want to fill $p from?\r", FALSE, ch, to_obj, 0, TO_CHAR);
       return;
     }
     if (!(from_obj = get_obj_in_list_vis(ch, arg2, NULL, world[IN_ROOM(ch)].contents))) {
-      send_to_char(ch, "There doesn't seem to be %s %s here.\r\n", AN(arg2), arg2);
+      send_to_char(ch, "\npour:There doesn't seem to be %s %s here.\r", AN(arg2), arg2);
       return;
     }
     if (GET_OBJ_TYPE(from_obj) != ITEM_FOUNTAIN) {
-      act("You can't fill something from $p.", FALSE, ch, from_obj, 0, TO_CHAR);
+      act("\npour:You can't fill something from $p.\r", FALSE, ch, from_obj, 0, TO_CHAR);
       return;
     }
   }
   if (GET_OBJ_VAL(from_obj, 1) == 0) {
-    act("The $p is empty.", FALSE, ch, from_obj, 0, TO_CHAR);
+    act("\npour:The $p is empty.\r", FALSE, ch, from_obj, 0, TO_CHAR);
     return;
   }
   if (subcmd == SCMD_POUR) { /* pour */
     if (!*arg2) {
-      send_to_char(ch, "Where do you want it?  Out or in what?\r\n");
+      send_to_char(ch, "\npour:Where do you want it?  Out or in what?\r");
       return;
     }
     if (!str_cmp(arg2, "out")) {
       if (GET_OBJ_VAL(from_obj, 0) > 0) {
-        act("$n empties $p.", TRUE, ch, from_obj, 0, TO_ROOM);
-        act("You empty $p.", FALSE, ch, from_obj, 0, TO_CHAR);
+        act("\npour:$n empties $p.\r", TRUE, ch, from_obj, 0, TO_ROOM);
+        act("\npour:You empty $p.\r", FALSE, ch, from_obj, 0, TO_CHAR);
 
         weight_change_object(from_obj, -GET_OBJ_VAL(from_obj, 1)); /* Empty */
 
@@ -1083,39 +1083,39 @@ ACMD(do_pour)
         GET_OBJ_VAL(from_obj, 3) = 0;
       }
       else
-        send_to_char(ch, "You can't possibly pour that container out!\r\n");
+        send_to_char(ch, "\npour:You can't possibly pour that container out!\r");
 
       return;
     }
     if (!(to_obj = get_obj_in_list_vis(ch, arg2, NULL, ch->carrying))) {
-      send_to_char(ch, "You can't find it!\r\n");
+      send_to_char(ch, "\npour:You can't find it!\r");
       return;
     }
     if ((GET_OBJ_TYPE(to_obj) != ITEM_DRINKCON) &&
 	(GET_OBJ_TYPE(to_obj) != ITEM_FOUNTAIN)) {
-      send_to_char(ch, "You can't pour anything into that.\r\n");
+      send_to_char(ch, "\npour:You can't pour anything into that.\r");
       return;
     }
   }
   if (to_obj == from_obj) {
-    send_to_char(ch, "A most unproductive effort.\r\n");
+    send_to_char(ch, "\npour:A most unproductive effort.\r");
     return;
   }
   if ((GET_OBJ_VAL(to_obj, 0) < 0) ||
       (!(GET_OBJ_VAL(to_obj, 1) < GET_OBJ_VAL(to_obj, 0)))) {
-    send_to_char(ch, "There is already another liquid in it!\r\n");
+    send_to_char(ch, "\npour:There is already another liquid in it!\r");
     return;
   }
   if (!(GET_OBJ_VAL(to_obj, 1) < GET_OBJ_VAL(to_obj, 0))) {
-    send_to_char(ch, "There is no room for more.\r\n");
+    send_to_char(ch, "\npour:There is no room for more.\r");
     return;
   }
   if (subcmd == SCMD_POUR)
-    send_to_char(ch, "You pour the %s into the %s.", drinks[GET_OBJ_VAL(from_obj, 2)], arg2);
+    send_to_char(ch, "\npour:You pour the %s into the %s.\r", drinks[GET_OBJ_VAL(from_obj, 2)], arg2);
 
   if (subcmd == SCMD_FILL) {
-    act("You gently fill $p from $P.", FALSE, ch, to_obj, from_obj, TO_CHAR);
-    act("$n gently fills $p from $P.", TRUE, ch, to_obj, from_obj, TO_ROOM);
+    act("\npour:You gently fill $p from $P.\r", FALSE, ch, to_obj, from_obj, TO_CHAR);
+    act("\npour:$n gently fills $p from $P.\r", TRUE, ch, to_obj, from_obj, TO_ROOM);
   }
   /* New alias */
   if (GET_OBJ_VAL(to_obj, 1) == 0)
@@ -1332,13 +1332,13 @@ ACMD(do_wear)
   two_arguments(argument, arg1, arg2);
 
   if (!*arg1) {
-    send_to_char(ch, "Wear what?\r\n");
+    send_to_char(ch, "\nwear:Wear what?\r");
     return;
   }
   dotmode = find_all_dots(arg1);
 
   if (*arg2 && (dotmode != FIND_INDIV)) {
-    send_to_char(ch, "You can't specify the same body location for more than one item!\r\n");
+    send_to_char(ch, "\nwear:You can't specify the same body location for more than one item!\r");
     return;
   }
   if (dotmode == FIND_ALL) {
@@ -1346,7 +1346,7 @@ ACMD(do_wear)
       next_obj = obj->next_content;
       if (CAN_SEE_OBJ(ch, obj) && (where = find_eq_pos(ch, obj, 0)) >= 0) {
         if (GET_LEVEL(ch) < GET_OBJ_LEVEL(obj))
-          send_to_char(ch, "You are not experienced enough to use that.\r\n");
+          send_to_char(ch, "\nwear:You are not experienced enough to use that.\r");
         else {
           items_worn++;
 	  perform_wear(ch, obj, where);
@@ -1354,35 +1354,35 @@ ACMD(do_wear)
       }
     }
     if (!items_worn)
-      send_to_char(ch, "You don't seem to have anything wearable.\r\n");
+      send_to_char(ch, "\nwear:You don't seem to have anything wearable.\r");
   } else if (dotmode == FIND_ALLDOT) {
     if (!*arg1) {
-      send_to_char(ch, "Wear all of what?\r\n");
+      send_to_char(ch, "\nwear:Wear all of what?\r");
       return;
     }
     if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying)))
-      send_to_char(ch, "You don't seem to have any %ss.\r\n", arg1);
+      send_to_char(ch, "\nwear:You don't seem to have any %ss.\r", arg1);
     else if (GET_LEVEL(ch) < GET_OBJ_LEVEL(obj))
-      send_to_char(ch, "You are not experienced enough to use that.\r\n");
+      send_to_char(ch, "\nwear:You are not experienced enough to use that.\r");
     else
       while (obj) {
 	next_obj = get_obj_in_list_vis(ch, arg1, NULL, obj->next_content);
 	if ((where = find_eq_pos(ch, obj, 0)) >= 0)
 	  perform_wear(ch, obj, where);
 	else
-	  act("You can't wear $p.", FALSE, ch, obj, 0, TO_CHAR);
+	  act("\nwear:You can't wear $p.\r", FALSE, ch, obj, 0, TO_CHAR);
 	obj = next_obj;
       }
   } else {
     if (!(obj = get_obj_in_list_vis(ch, arg1, NULL, ch->carrying)))
-      send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg1), arg1);
+      send_to_char(ch, "\nwear:You don't seem to have %s %s.\r", AN(arg1), arg1);
     else if (GET_LEVEL(ch) < GET_OBJ_LEVEL(obj))
-      send_to_char(ch, "You are not experienced enough to use that.\r\n");
+      send_to_char(ch, "\nwear:You are not experienced enough to use that.\r");
     else {
       if ((where = find_eq_pos(ch, obj, arg2)) >= 0)
 	perform_wear(ch, obj, where);
       else if (!*arg2)
-	act("You can't wear $p.", FALSE, ch, obj, 0, TO_CHAR);
+	act("\nwear:You can't wear $p.\r", FALSE, ch, obj, 0, TO_CHAR);
     }
   }
 }
@@ -1395,16 +1395,16 @@ ACMD(do_wield)
   one_argument(argument, arg);
 
   if (!*arg)
-    send_to_char(ch, "Wield what?\r\n");
+    send_to_char(ch, "\nwield:Wield what?\r");
   else if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
     send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
   else {
     if (!CAN_WEAR(obj, ITEM_WEAR_WIELD))
-      send_to_char(ch, "You can't wield that.\r\n");
+      send_to_char(ch, "\nwield:You can't wield that.\r");
     else if (GET_OBJ_WEIGHT(obj) > str_app[STRENGTH_APPLY_INDEX(ch)].wield_w)
-      send_to_char(ch, "It's too heavy for you to use.\r\n");
+      send_to_char(ch, "\nwield:It's too heavy for you to use.\r");
     else if (GET_LEVEL(ch) < GET_OBJ_LEVEL(obj))
-      send_to_char(ch, "You are not experienced enough to use that.\r\n");
+      send_to_char(ch, "\nwield:You are not experienced enough to use that.\r");
     else
       perform_wear(ch, obj, WEAR_WIELD);
   }
@@ -1418,11 +1418,11 @@ ACMD(do_grab)
   one_argument(argument, arg);
 
   if (!*arg)
-    send_to_char(ch, "Hold what?\r\n");
+    send_to_char(ch, "\ngrab:Hold what?\r");
   else if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
-    send_to_char(ch, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+    send_to_char(ch, "\ngrab:You don't seem to have %s %s.\r", AN(arg), arg);
   else if (GET_LEVEL(ch) < GET_OBJ_LEVEL(obj))
-    send_to_char(ch, "You are not experienced enough to use that.\r\n");
+    send_to_char(ch, "\ngrab:You are not experienced enough to use that.\r");
   else {
     if (GET_OBJ_TYPE(obj) == ITEM_LIGHT)
       perform_wear(ch, obj, WEAR_LIGHT);
@@ -1430,7 +1430,7 @@ ACMD(do_grab)
       if (!CAN_WEAR(obj, ITEM_WEAR_HOLD) && GET_OBJ_TYPE(obj) != ITEM_WAND &&
       GET_OBJ_TYPE(obj) != ITEM_STAFF && GET_OBJ_TYPE(obj) != ITEM_SCROLL &&
 	  GET_OBJ_TYPE(obj) != ITEM_POTION)
-	send_to_char(ch, "You can't hold that.\r\n");
+	send_to_char(ch, "\ngrab:You can't hold that.\r");
       else
 	perform_wear(ch, obj, WEAR_HOLD);
     }
@@ -1446,16 +1446,16 @@ static void perform_remove(struct char_data *ch, int pos)
     /*  This error occurs when perform_remove() is passed a bad 'pos'
      *  (location) to remove an object from. */
   else if (OBJ_FLAGGED(obj, ITEM_NODROP) && !PRF_FLAGGED(ch, PRF_NOHASSLE))
-    act("You can't remove $p, it must be CURSED!", FALSE, ch, obj, 0, TO_CHAR);
+    act("\nhold:You can't remove $p.\r", FALSE, ch, obj, 0, TO_CHAR);
   else if (IS_CARRYING_N(ch) >= CAN_CARRY_N(ch)&& !PRF_FLAGGED(ch, PRF_NOHASSLE))
-    act("$p: you can't carry that many items!", FALSE, ch, obj, 0, TO_CHAR);
+    act("\nhold:$p you can't carry that many items!", FALSE, ch, obj, 0, TO_CHAR);
   else {
     if (!remove_otrigger(obj, ch))
       return;
 
     obj_to_char(unequip_char(ch, pos), ch);
-    act("You stop using $p.", FALSE, ch, obj, 0, TO_CHAR);
-    act("$n stops using $p.", TRUE, ch, obj, 0, TO_ROOM);
+    act("\nhold:You stop holding $p.\r", FALSE, ch, obj, 0, TO_CHAR);
+    act("\nhold:$n stops holding $p.\r", TRUE, ch, obj, 0, TO_ROOM);
   }
 }
 
@@ -1467,7 +1467,7 @@ ACMD(do_remove)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "Remove what?\r\n");
+    send_to_char(ch, "\nremove:Remove what?\r");
     return;
   }
   dotmode = find_all_dots(arg);
@@ -1480,10 +1480,10 @@ ACMD(do_remove)
 	found = 1;
       }
     if (!found)
-      send_to_char(ch, "You're not using anything.\r\n");
+      send_to_char(ch, "\nremove:You're not using anything.\r");
   } else if (dotmode == FIND_ALLDOT) {
     if (!*arg)
-      send_to_char(ch, "Remove all of what?\r\n");
+      send_to_char(ch, "\nremove:Remove all of what?\r");
     else {
       found = 0;
       for (i = 0; i < NUM_WEARS; i++)
@@ -1493,11 +1493,11 @@ ACMD(do_remove)
 	  found = 1;
 	}
       if (!found)
-	send_to_char(ch, "You don't seem to be using any %ss.\r\n", arg);
+	send_to_char(ch, "\nremove:You don't seem to be using any %ss.\r", arg);
     }
   } else {
     if ((i = get_obj_pos_in_equip_vis(ch, arg, NULL, ch->equipment)) < 0)
-      send_to_char(ch, "You don't seem to be using %s %s.\r\n", AN(arg), arg);
+      send_to_char(ch, "\nremove:You don't seem to be using %s %s.\r", AN(arg), arg);
     else
       perform_remove(ch, i);
   }
@@ -1511,49 +1511,48 @@ ACMD(do_offer)
   one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "Offer what?\n\r");
+    send_to_char(ch, "\noffer:Offer what?\n");
     return;
   }
 
   if (!(j = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents)) && (!(j = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))) {
-    send_to_char(ch, "It doesn't seem to be here.\n\r");
+    send_to_char(ch, "\noffer:It doesn't seem to be here.\r");
     return;
   }
 
   if (!CAN_WEAR(j, ITEM_WEAR_TAKE)) {
-    send_to_char(ch, "You can't offer that!\n\r");
+    send_to_char(ch, "\noffer:You can't offer that!\r");
     return;
   }
 
-   act("$n makes an offering of $p.", FALSE, ch, j, 0, TO_ROOM);
+   act("\noffer:$n makes an offering of $p.\r", FALSE, ch, j, 0, TO_ROOM);
 
   switch (rand_number(0, 5)) {
     case 0:
-      send_to_char(ch, "For your offering %s to the Devas.\r\nYou receive one gold coin for your humility.\r\n", GET_OBJ_SHORT(j));
+      send_to_char(ch, "\noffer:You receive one gold coin for your offering.\r");
       increase_gold(ch, 1);
     break;
     case 1:
-      send_to_char(ch, "You make an offering of %s to the Devas.\r\nThe Devas ignore your offering.\r\n", GET_OBJ_SHORT(j));
+      send_to_char(ch, "\noffer:The Devas ignore your offering.\r");
     break;
     case 2:
-      send_to_char(ch, "You make an offering of %s to the Devas.\r\nThe Devas give you %d experience points.\r\n", GET_OBJ_SHORT(j), 1+2*GET_OBJ_LEVEL(j));
+      send_to_char(ch, "\noffer:The Devas give you %d exp for your offering.\r", 1+2*GET_OBJ_LEVEL(j));
       GET_EXP(ch) += (1+2*GET_OBJ_LEVEL(j));
     break;
     case 3:
-      send_to_char(ch, "You make an offering of %s to the Devas.\r\nYou receive %d experience points.\r\n", GET_OBJ_SHORT(j), 1+GET_OBJ_LEVEL(j));
+      send_to_char(ch, "\noffer:You receive %d exp for your offeirng.\r", 1+GET_OBJ_LEVEL(j));
       GET_EXP(ch) += (1+GET_OBJ_LEVEL(j));
     break;
     case 4:
-      send_to_char(ch, "Your offering to the Devas is rewarded with %d gold coins.\r\n", 1+GET_OBJ_LEVEL(j));
+      send_to_char(ch, "\noffer:Your offering to the Devas is rewarded with %d gold coins.\r", 1+GET_OBJ_LEVEL(j));
       increase_gold(ch, (1+GET_OBJ_LEVEL(j)));
     break;
     case 5:
-      send_to_char(ch, "Your offering to the Devas is rewarded with %d gold coins\r\n", (1+2*GET_OBJ_LEVEL(j)));
+      send_to_char(ch, "\noffer:Your offering to the Devas is rewarded with %d gold coins\r", (1+2*GET_OBJ_LEVEL(j)));
       increase_gold(ch, (1+2*GET_OBJ_LEVEL(j)));
     break;
     default:
-      send_to_char(ch, "You make an offering of %s to the Devas.\r"
-      "\nYou receive one gold coin for your humility.\r\n",GET_OBJ_SHORT(j));
+      send_to_char(ch, "\noffer:You receive one gold coin for your humility.\r");
       increase_gold(ch, 1);
     break;
   }
