@@ -51,7 +51,8 @@ end
 Room 1005 Trigger~
 2 g 100
 ~
-set thetoken %actor.inventory(200)%
+set thekey 1013
+set thetoken %actor.inventory(%thekey%)%
 set thisroom %self.vnum%
 %echo% the room is %thisroom%
 if %thetoken%
