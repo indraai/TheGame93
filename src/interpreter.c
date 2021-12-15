@@ -1548,7 +1548,7 @@ void nanny(struct descriptor_data *d, char *arg)
         );
 	      GET_BAD_PWS(d->character) = 0;
       }
-      write_to_output(d, "\n[PRESS RETURN]\n");
+      write_to_output(d, "\ntrigger:return\n");
       STATE(d) = CON_RMOTD;
     }
     break;
@@ -1663,7 +1663,7 @@ void nanny(struct descriptor_data *d, char *arg)
     save_char(d->character);
     save_player_index();
     write_to_output(d, "%s"
-    "\n[PRESS RETURN]", motd);
+    "\ntrigger:return\r", motd);
     STATE(d) = CON_RMOTD;
     /* make sure the last log is updated correctly. */
     GET_PREF(d->character)= rand_number(1, 128000);
