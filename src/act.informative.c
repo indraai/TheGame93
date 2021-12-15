@@ -584,6 +584,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     }
   }
 
+  send_to_char(ch, "\n::begin:agob\r");
   /* now list characters & objects */
   if (world[IN_ROOM(ch)].people) {
     send_to_char(ch, "\n::begin:agents\r");
@@ -596,6 +597,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
     send_to_char(ch, "\n::end:objects\r");
   }
+  send_to_char(ch, "\n::end:agob\r");  
 
   /* autoexits
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
