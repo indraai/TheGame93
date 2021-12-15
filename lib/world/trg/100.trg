@@ -57,9 +57,9 @@ RM1005~
 ~
 set thetoken %actor.inventory(1013)%
 set thisroom %self.room.vnum%
+echo The room trigger for %thisroom% is running.
 if %thetoken%
-  %door% %thisroom% north flags ab
-  %door% %thisroom% north key 1013
+  %door% %thisroom% north flags abcd
 end
 ~
 #1008
@@ -68,7 +68,7 @@ R1008 Give Token~
 ~
 set thekey 1008
 set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set thisroom %self.room.vnum%
 set reward 50
 if !%thetoken%
   wait 1s
