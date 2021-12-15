@@ -283,7 +283,6 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
            write_to_output(d, "%s", confirm_msg);
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else {
-           write_to_output(d, "\nsave:No changes made.");
            cleanup_olc(d, CLEANUP_ALL);
          }
          return;
@@ -347,13 +346,13 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
                  OLC_NUM(d));
           /* fall through */
         case 'n':
-          write_to_output(d, "\nsave:No changes made.\r");
+          write_to_output(d, "\nsave:No changes made to trigger.\r");
           cleanup_olc(d, CLEANUP_ALL);
           return;
         case 'a': /* abort quitting */
           break;
         default:
-          write_to_output(d, "That was an invalid choice.\r\n");
+          write_to_output(d, "\nThat was an invalid choice.\r");
           write_to_output(d, "%s", confirm_msg);
           return;
       }
