@@ -20,10 +20,6 @@ James Sneed Trigger~
   *set time after 10s here
 ~
 #1002
-
-
-
-
 Hash Tracker~
 1 acg 100
 n~
@@ -31,10 +27,6 @@ wait 2s
 You are in %actor.room.vnum% currently.
 ~
 #1003
-
-
-
-
 Underground Kingdom Guide~
 0 b 100
 ~
@@ -60,13 +52,14 @@ Room 1005 Trigger~
 2 g 100
 ~
 set thetoken %actor.inventory(1013)%
-set theroom %self.vnum%
+set thisroom %self.vnum%
 %echo% the room is %theroom%
+if !%thetoken%
+  %door% %thisroom% north flags abcd
+  %door% %thisroom% north key 1013
+end
 ~
 #1008
-
-
-
 R1008 Give Token~
 2 g 100
 ~
@@ -87,10 +80,6 @@ if !%thetoken%
 end
 ~
 #1010
-
-
-
-
 R1010 Check Token~
 2 g 100
 ~
@@ -101,10 +90,6 @@ if %thetoken%
 end
 ~
 #1012
-
-
-
-
 R1012 Check Token~
 2 g 100
 ~
@@ -115,10 +100,6 @@ if %thetoken%
 end
 ~
 #1013
-
-
-
-
 R1013 Give Token~
 2 g 100
 ~
@@ -139,10 +120,6 @@ if !%thetoken%
 end
 ~
 #1016
-
-
-
-
 R1016 Check Token~
 2 g 100
 ~
@@ -153,10 +130,6 @@ if %thetoken%
 end
 ~
 #1020
-
-
-
-
 R1020 Give Token~
 2 g 100
 ~
@@ -177,10 +150,6 @@ if !%thetoken%
 end
 ~
 #1021
-
-
-
-
 RM1021~
 2 g 100
 ~
@@ -191,10 +160,6 @@ if %thetoken%
 end
 ~
 #1023
-
-
-
-
 R1023 Give Token~
 2 g 100
 ~
@@ -215,10 +180,6 @@ if !%thetoken%
 end
 ~
 #1024
-
-
-
-
 R1024 Give Token~
 2 g 100
 ~
@@ -239,10 +200,6 @@ if !%thetoken%
 end
 ~
 #1026
-
-
-
-
 RM1026~
 2 g 100
 ~
@@ -253,10 +210,6 @@ if %thetoken%
 end
 ~
 #1032
-
-
-
-
 R1032 Give Token~
 2 g 100
 ~
@@ -277,10 +230,6 @@ if !%thetoken%
 end
 ~
 #1033
-
-
-
-
 R1033 Give Token~
 2 g 100
 ~
@@ -301,10 +250,6 @@ if !%thetoken%
 end
 ~
 #1037
-
-
-
-
 RM1037~
 2 g 100
 ~
@@ -315,10 +260,6 @@ if %thetoken%
 end
 ~
 #1039
-
-
-
-
 RM1039~
 2 g 100
 ~
@@ -329,10 +270,6 @@ if %thetoken%
 end
 ~
 #1044
-
-
-
-
 RM1039~
 2 g 100
 ~
@@ -343,10 +280,6 @@ if %thetoken%
 end
 ~
 #1047
-
-
-
-
 R1047 Give Token~
 2 g 100
 ~
@@ -367,10 +300,6 @@ if !%thetoken%
 end
 ~
 #1051
-
-
-
-
 RM1051~
 2 g 100
 ~
@@ -381,10 +310,6 @@ if %thetoken%
 end
 ~
 #1053
-
-
-
-
 RM1053~
 2 g 100
 ~
@@ -395,10 +320,6 @@ if %thetoken%
 end
 ~
 #1055
-
-
-
-
 RM1055~
 2 g 100
 ~
@@ -409,10 +330,6 @@ if %thetoken%
 end
 ~
 #1058
-
-
-
-
 RM1058~
 2 g 100
 ~
@@ -423,10 +340,6 @@ if %thetoken%
 end
 ~
 #1060
-
-
-
-
 R1060 Give Token~
 2 g 100
 ~
@@ -447,10 +360,6 @@ if !%thetoken%
 end
 ~
 #1062
-
-
-
-
 R1062 Give Token~
 2 g 100
 ~
@@ -471,10 +380,6 @@ if !%thetoken%
 end
 ~
 #1064
-
-
-
-
 R1064 Give Token~
 2 g 100
 ~
@@ -495,10 +400,6 @@ if !%thetoken%
 end
 ~
 #1065
-
-
-
-
 R1065 Give Token~
 2 g 100
 ~
@@ -519,10 +420,6 @@ if !%thetoken%
 end
 ~
 #1068
-
-
-
-
 RM1068~
 2 g 100
 ~
@@ -533,10 +430,6 @@ if %thetoken%
 end
 ~
 #1069
-
-
-
-
 R1069 Give Token~
 2 g 100
 ~
@@ -557,10 +450,6 @@ if !%thetoken%
 end
 ~
 #1070
-
-
-
-
 RM1070~
 2 g 100
 ~
@@ -571,10 +460,6 @@ if %thetoken%
 end
 ~
 #1072
-
-
-
-
 R1072 Give Token~
 2 g 100
 ~
@@ -595,10 +480,6 @@ if !%thetoken%
 end
 ~
 #1074
-
-
-
-
 R1074 Give Token~
 2 g 100
 ~
@@ -619,10 +500,6 @@ if !%thetoken%
 end
 ~
 #1075
-
-
-
-
 Professor Bruckner~
 0 g 100
 ~
@@ -636,10 +513,6 @@ wait 2s
 say Who will volunteer to come with me?
 ~
 #1077
-
-
-
-
 RM1077~
 2 g 100
 ~
@@ -650,30 +523,22 @@ if %thetoken%
 end
 ~
 #1078
-
-
-
-
 RM1078~
 2 g 100
 ~
 set thetoken %actor.inventory(1074)%
-set thisroom %actor.room.vnum%
+set thisroom %self.vnum%
 if %thetoken%
   %door% %thisroom% south purge
 end
 ~
 #1084
-
-
-
-
 R1084 Give Token~
 2 g 100
 ~
 set thekey 1084
 set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set thisroom %self.vnum%
 set reward 100
 if !%thetoken%
   wait 1s
@@ -688,10 +553,6 @@ if !%thetoken%
 end
 ~
 #1089
-
-
-
-
 R1089 Give Token~
 2 g 100
 ~
@@ -712,10 +573,6 @@ if !%thetoken%
 end
 ~
 #1102
-
-
-
-
 R1102 Give Token~
 2 g 100
 ~
@@ -736,10 +593,6 @@ if !%thetoken%
 end
 ~
 #1103
-
-
-
-
 R1103 Give Token~
 2 g 100
 ~
@@ -760,10 +613,6 @@ if !%thetoken%
 end
 ~
 #1106
-
-
-
-
 R1106 Give Token~
 2 g 100
 ~
@@ -784,10 +633,6 @@ if !%thetoken%
 end
 ~
 #1108
-
-
-
-
 R1108 Give Token~
 2 g 100
 ~
