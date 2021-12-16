@@ -52,8 +52,16 @@ end
 Room 1005 Trigger~
 2 q 100
 ~
-set thetoken %actor.inventory(1013)%
-set thisroom %self.vnum%
+set token %actor.inventory(1013)%
+set room %self.vnum%
+set msg info:You have already gone this way.
+
+if %token%
+  if %direction% == north
+    return 0
+    %echo% %msg%
+  end
+end
 ~
 #1008
 R1008 Give Token~
