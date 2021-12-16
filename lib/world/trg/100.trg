@@ -54,11 +54,6 @@ Room 1005 Trigger~
 ~
 set thetoken %actor.inventory(1013)%
 set thisroom %self.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
-else
-  %door% %thisroom% north room 1013
-end
 ~
 #1008
 R1008 Give Token~
