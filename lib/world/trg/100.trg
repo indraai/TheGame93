@@ -56,6 +56,8 @@ set thetoken %actor.inventory(1013)%
 set thisroom %self.vnum%
 if %thetoken%
   %door% %thisroom% north purge
+else
+  %door% %thisroom% north 1013
 end
 ~
 #1008
