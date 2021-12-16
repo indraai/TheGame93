@@ -64,13 +64,13 @@ set thetoken %actor.inventory(%thekey%)%
 set thisroom %self.room.vnum%
 set reward 50
 if !%thetoken%
-  wait 1s
+  wait 5s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
-  wait 1s
+  wait 5s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
-  wait 1s
+  wait 5s
   %load% obj %thekey% %actor%
   %send% %actor% key:You earn the 0x%thekey% Token Key.
 end
