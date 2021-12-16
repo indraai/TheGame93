@@ -54,7 +54,7 @@ Room 1005 Trigger~
 ~
 set token %actor.inventory(1013)%
 set room %self.vnum%
-set msg info:You have already gone this way.
+set msg talk:#adv world:thegame 1000/closed
 
 if %token%
   if %direction% == north
