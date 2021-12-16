@@ -52,12 +52,14 @@ end
 Room 1005 Trigger~
 2 q 100
 ~
-set token %actor.inventory(1013)%
+set key 1013
+set dir north
+set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
 
 if %token%
-  if %direction% == north
+  if %direction% == %dir%
     return 0
     %echo% %msg%
   end
@@ -67,40 +69,52 @@ end
 R1008 Give Token~
 2 g 100
 ~
-set thekey 1008
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %self.room.vnum%
+set key 1008
+set token %actor.inventory(%thekey%)%
+set room %self.room.vnum%
 set reward 50
-if !%thetoken%
-  wait 5s
+if !%token%
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
-  wait 5s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
-  wait 5s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
 #1010
 R1010 Check Token~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1008)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
+set key 1008
+set dir north
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1012
 R1012 Check Token~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1020)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1012
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1013
@@ -125,12 +139,19 @@ end
 ~
 #1016
 R1016 Check Token~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1023)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1023
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1020
@@ -155,12 +176,19 @@ end
 ~
 #1021
 RM1021~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1032)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
+set key 1032
+set dir north
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1023
@@ -205,12 +233,19 @@ end
 ~
 #1026
 RM1026~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1024)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1024
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1032
@@ -255,32 +290,53 @@ end
 ~
 #1037
 RM1037~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1047)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
+set key 1047
+set dir north
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1039
 RM1039~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1047)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1047
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1044
 RM1039~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1023)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
+set key 1013
+set dir north
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1047
@@ -305,42 +361,69 @@ end
 ~
 #1051
 RM1051~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1064)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1064
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1053
 RM1053~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1060)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
+set key 1060
+set dir north
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1055
 RM1055~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1062)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1062
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1058
 RM1058~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1072)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1072
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1060
@@ -425,12 +508,19 @@ end
 ~
 #1068
 RM1068~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1072)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1072
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1069
@@ -455,12 +545,19 @@ end
 ~
 #1070
 RM1070~
-2 g 100
+2 q 100
 ~
-set thetoken %actor.inventory(1084)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% north purge
+set key 1084
+set dir north
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1072
@@ -517,23 +614,37 @@ wait 2s
 say Who will volunteer to come with me?
 ~
 #1077
-RM1077~
-2 g 100
+RM1077 Token Check~
+2 q 100
 ~
-set thetoken %actor.inventory(1033)%
-set thisroom %actor.room.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1033
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1078
-RM1078~
+RM1078 Token Check~
 2 g 100
 ~
-set thetoken %actor.inventory(1074)%
-set thisroom %self.vnum%
-if %thetoken%
-  %door% %thisroom% south purge
+set key 1074
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1084
