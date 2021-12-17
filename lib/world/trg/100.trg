@@ -399,16 +399,28 @@ if %token%
 end
 ~
 #1055
-RM1055~
+RM1055 Token Check~
 2 q 100
 ~
-set key 1062
-set dir south
-set token %actor.inventory(%key%)%
+set skey 1062
+set sdir south
+set nkey 1023
+set ndir north
+
+set stoken %actor.inventory(%skey%)%
+set ntoken %actor.inventory(%nkey%)%
 set room %self.vnum%
+
 set msg talk:#adv world:thegame 1000/closed
-if %token%
-  if %direction% == %dir%
+
+if %stoken%
+  if %direction% == %sdir%
+    return 0
+    %echo% %msg%
+  end
+end
+if %ntoken%
+  if %%direction == %ndir%
     return 0
     %echo% %msg%
   end
