@@ -493,10 +493,10 @@ static void redit_disp_menu(struct descriptor_data *d)
       "\nselect[i:west]:%d\r"
       "\nselect[j:up]:%d\r"
       "\nselect[k:down]:%d\r"
-      "\nselect[1:northwest]:%d\r"
-      "\nselect[2:northeast]:%d\r"
-      "\nselect[3:southeast]:%d\r"
-      "\nselect[4:southwest]:%d\r",
+      "\nselect[l:northwest]:%d\r"
+      "\nselect[m:northeast]:%d\r"
+      "\nselect[n:southeast]:%d\r"
+      "\nselect[o:southwest]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -521,9 +521,9 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n::begin:buttons\r"
-      "\nbmud[tags]:t\r"
-      "\nbmud[copy room]:p\r"
-      "\nbmud[delete room]:x\r"
+      "\nbmud[tags]:1\r"
+      "\nbmud[copy room]:2\r"
+      "\nbmud[delete room]:3\r"
       "\n::end:buttons\r"
       "\nmenu[quit]:0\r"
     );
@@ -621,7 +621,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = DOWN;
       redit_disp_exit_menu(d);
       break;
-    case '1':
+    case 'l':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -630,7 +630,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case '2':
+    case 'm':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -639,7 +639,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case '3':
+    case 'n':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -648,7 +648,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case '4':
+    case 'o':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -657,16 +657,22 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 't':
+    case '1':
       /* If the extra tags doesn't exist. */
       if (!OLC_ROOM(d)->ex_description)
 	CREATE(OLC_ROOM(d)->ex_description, struct extra_descr_data, 1);
       OLC_DESC(d) = OLC_ROOM(d)->ex_description;
       redit_disp_extradesc_menu(d);
       break;
-    case 'p':
+    case '2':
       write_to_output(d, "\nalert: Copy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
+      break;
+    case '3':
+      /* Delete the room, prompt first. */
+      write_to_output(d, "\nAre you sure?\r");
+      write_to_output(d, "%s", confirm_btn);
+      OLC_MODE(d) = REDIT_DELETE;
       break;
     case '0':
       if (OLC_VAL(d)) { /* Something has been modified. */
@@ -677,12 +683,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
         cleanup_olc(d, CLEANUP_ALL);
       }
       return;
-    case 'x':
-      /* Delete the room, prompt first. */
-      write_to_output(d, "\nAre you sure?\r");
-      write_to_output(d, "%s", confirm_btn);
-      OLC_MODE(d) = REDIT_DELETE;
-      break;
 
     default:
       write_to_output(d, "\nerror: Invalid choice.\r");

@@ -52,7 +52,13 @@ end
 Give Token Wallet to Actor~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set key 1004
+set wallet %actor.inventory(%key%)%
+if !%wallet%
+  wait 1s
+  %load% obj %key% %actor%
+  %send% %actor% You have the Token Wallet.
+end
 ~
 #1005
 Room 1005 Trigger~
