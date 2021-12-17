@@ -334,12 +334,14 @@ end
 RM1039~
 2 q 100
 ~
-set key 1023
+set key1 1023
+set key2 1062
+set token1 %actor.inventory(%key1%)%
+set token2 %actor.inventory(%key2%)%
 set dir north
-set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-if %token%
+if %token1% && %token2%
   if %direction% == %dir%
     return 0
     %echo% %msg%
@@ -420,7 +422,7 @@ if %stoken%
   end
 end
 if %ntoken%
-  if %direction% == %ndir%
+  if %#direction% == %ndir%
     return 0
     %echo% %msg%
   end
