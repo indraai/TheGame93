@@ -420,7 +420,7 @@ if %stoken%
   end
 end
 if %ntoken%
-  if %%direction == %ndir%
+  if %direction% == %ndir%
     return 0
     %echo% %msg%
   end
