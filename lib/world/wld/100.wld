@@ -632,7 +632,12 @@ T 1064
 Swim Across River~
 You are in an unfinished room.~
 100 0 0 0 0 6
+D3
+~
+~
+0 0 1000
 S
+T 1065
 #1066
 Continue To Shore~
 You are in an unfinished room.~
@@ -969,10 +974,6 @@ S
 The Mountain Peak~
 You are in an unfinished room.~
 100 0 0 0 0 5
-D3
-~
-~
-0 0 1000
 D4
 ~
 ~

@@ -408,13 +408,10 @@ set skey 1062
 set sdir south
 set nkey 1023
 set ndir north
-
 set stoken %actor.inventory(%skey%)%
 set ntoken %actor.inventory(%nkey%)%
 set room %self.vnum%
-
 set msg talk:#adv world:thegame 1000/closed
-
 if %stoken%
   if %direction% == %sdir%
     return 0
@@ -432,7 +429,7 @@ end
 RM1058~
 2 q 100
 ~
-set key 1072
+set key 1065
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -612,7 +609,7 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj 1008 %actor%
+%load% obj %thekey% %actor%
   %send% %actor% key:You earn the 0x1074 Token Key.
 end
 ~
@@ -647,7 +644,7 @@ end
 ~
 #1078
 RM1078 Token Check~
-2 g 100
+2 q 100
 ~
 set key 1074
 set dir south
