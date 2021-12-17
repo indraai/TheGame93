@@ -570,12 +570,14 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Object Type\r");
+  write_to_output(d, "\n## Object Type\r"
+    "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", item_types[i], count++);
   }
-  write_to_output(d, "\nmenu[quit]:0\r");
+  write_to_output(d, "\n::end:buttons:\r"
+    "\nmenu[done]:0\r");
 }
 
 /* Object extra flags. */
@@ -587,14 +589,16 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Object Flags\r");
+  write_to_output(d, "\n## Object Flags\r"
+    "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_FLAGS; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", extra_bits[i], ++count);
   }
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\nflags: %s\r"
-    "\nmenu[quit]:0\r",
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r"
+    "\nmenu[done]:0\r",
     bits
   );
 }
@@ -608,12 +612,16 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
+  write_to_output(d, "\n## Effects Flags\r"
+    "\n::begin:buttons\r");
+
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", affected_bits[i], ++count);
   }
 
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
-  write_to_output(d, "\nflags: %s\r"
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r"
     "\nmenu[quit]:0\r",
     bits);
 }
@@ -626,13 +634,15 @@ static void oedit_disp_wear_menu(struct descriptor_data *d)
 
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n## Wear Flags\r");
+  write_to_output(d, "\n## Wear Flags\r"
+    "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_WEARS; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", wear_bits[i], ++count);
   }
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, TW_ARRAY_MAX, bits);
-  write_to_output(d, "\nflags: %s\r"
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r"
     "\nmenu[quit]:0\r",
     bits);
 }
@@ -676,35 +686,35 @@ static void oedit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
 	  "\nselect[g:wear]:%s\r"
-	  "\nselect[h:weight]:%d\r"
-	  "\nselect[i:cost]:%d\r"
+    "\nselect[h:affects]:%s\r"
+	  "\nselect[i:weight]:%d\r"
+	  "\nselect[j:cost]:%d\r"
 	  "\nselect[k:rent]:%d\r"
 	  "\nselect[l:timer]:%d\r"
     "\nselect[m:min level]:%d\r"
 	  "\nselect[n:liquid]:%d %d %d %d\r"
 	  "\nselect[o:tags]:%s\r"
-    "\nselect[p:affects]:%s\r"
-	  "\nselect[q:script]:%s\r"
+	  "\nselect[p:triggers]:%s\r"
     "\n::begin:buttons\r"
     "\nbmud[applies]:1\r"
     "\nbmud[copy]:2\r"
     "\nbmud[delete]:3\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
-	  buf1,
-	  GET_OBJ_WEIGHT(obj),
-	  GET_OBJ_COST(obj),
-	  GET_OBJ_RENT(obj),
-	  GET_OBJ_TIMER(obj),
-    GET_OBJ_LEVEL(obj),
-	  GET_OBJ_VAL(obj, 0),
-	  GET_OBJ_VAL(obj, 1),
-	  GET_OBJ_VAL(obj, 2),
-	  GET_OBJ_VAL(obj, 3),
-	  obj->ex_description ? "set..." : "not set...",
-    buf2,
-    OLC_SCRIPT(d) ? "set..." : "not set...");
-    OLC_MODE(d) = OEDIT_MAIN_MENU;
+	  buf1,                  //wear
+    buf2,                 // affects
+	  GET_OBJ_WEIGHT(obj),  //weight
+	  GET_OBJ_COST(obj),     // cost
+	  GET_OBJ_RENT(obj),     // rent
+	  GET_OBJ_TIMER(obj),    //timer
+    GET_OBJ_LEVEL(obj),     // minimum level
+	  GET_OBJ_VAL(obj, 0),     // liquid
+	  GET_OBJ_VAL(obj, 1),     // liquid
+	  GET_OBJ_VAL(obj, 2),   // liquid
+	  GET_OBJ_VAL(obj, 3),   // liquid
+	  obj->ex_description ? "set..." : "not set...", // tags
+    OLC_SCRIPT(d) ? "set..." : "not set...");  // triggers
+    OLC_MODE(d) = OEDIT_MAIN_MENU;  //set mode
 }
 
 /* main loop (of sorts).. basically interpreter throws all input to here. */
@@ -813,18 +823,22 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = OEDIT_WEAR;
       break;
     case 'h':
+      oedit_disp_perm_menu(d);
+      OLC_MODE(d) = OEDIT_PERM;
+      break;
+    case 'i':
       write_to_output(d, "\nWhat is the object weight?\r"
       "\ncurrent:%d\r",
       GET_OBJ_WEIGHT(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_WEIGHT;
       break;
-    case 'i':
+    case 'j':
       write_to_output(d, "\nWhat is the object cost?\r"
         "\ncurrent:%d\r",
         GET_OBJ_COST(OLC_OBJ(d)));
       OLC_MODE(d) = OEDIT_COST;
       break;
-    case 'j':
+    case 'k':
       write_to_output(d, "\nWhat is the object rent?\r"
         "\ncurrent:%d\r",
         GET_OBJ_RENT(OLC_OBJ(d)));
@@ -861,10 +875,6 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       oedit_disp_extradesc_menu(d);
       break;
     case 'p':
-      oedit_disp_perm_menu(d);
-      OLC_MODE(d) = OEDIT_PERM;
-      break;
-    case 'q':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;

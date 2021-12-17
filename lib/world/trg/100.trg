@@ -55,8 +55,8 @@ Give Token Wallet to Actor~
 set key 1004
 set wallet %actor.inventory(%key%)%
 if !%wallet%
-  wait 1s
   %load% obj %key% %actor%
+  wait 5s
   %send% %actor% You have the Token Wallet.
 end
 ~
