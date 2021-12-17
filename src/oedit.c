@@ -304,7 +304,7 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
 	  "\nmenu[closed]:3\r"
 	  "\nmenu[locked]:4\r"
 	  "\nflags: %s\r"
-    "\nmenu[quit]:0\r",
+    "\nmenu[done]:0\r",
 	  bits);
 }
 
@@ -320,7 +320,7 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\nselect[1:tag]:%s\r"
 	  "\nselect[2:desc]:%s\r"
 	  "\nselect[3:next desc]:%s\r"
-	  "\nmenu[quit]:0\r",
+	  "\nmenu[done]:0\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
     (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
@@ -337,12 +337,13 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n# Affection\r");
+  write_to_output(d, "\n## Affection\r"
+    "\n::begin:buttons");
 
   for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
     if (OLC_OBJ(d)->affected[counter].modifier) {
       sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
-      write_to_output(d, "\nmenu[%d to %s]:%d\r",
+      write_to_output(d, "\nbmud[%d to %s]:%d\r",
 	      OLC_OBJ(d)->affected[counter].modifier,
         apply_buf,
         counter + 1);
@@ -350,8 +351,11 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
       write_to_output(d, "\nmenu[None]:%d\r", counter + 1);
     }
   }
+
+  write_to_output(d, "\n::end:buttons\r"
+    "\nmenu[done]:0\r");
+
   OLC_MODE(d) = OEDIT_PROMPT_APPLY;
-  write_to_output(d, "\nmenu[done]:0\r");
 }
 
 /* Ask for liquid type. */
@@ -360,12 +364,14 @@ static void oedit_liquid_type(struct descriptor_data *d)
   int i,count=0;
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n## Liquid Type\r");
+  write_to_output(d, "\n## Liquid Type\r"
+    "\n::begin:buttons\r");
   // column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
   for (i = 0; i < NUM_LIQ_TYPES; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", drinks[i], ++count);
   }
-  write_to_output(d, "\nmenu[quit]:0\r");
+  write_to_output(d, "\n:end:buttons\r"
+    "\nmenu[done]:0\r");
   OLC_MODE(d) = OEDIT_VALUE_3;
 }
 
@@ -375,12 +381,14 @@ static void oedit_disp_apply_menu(struct descriptor_data *d)
   int i,count=0;
   get_char_colors(d->character);
   clear_screen(d);
-  write_to_output(d, "\n## Apply Type\r");
+  write_to_output(d, "\n## Apply Type\r"
+    "\n::begin:buttons\r");
   // column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
   for (i = 0; i < NUM_APPLIES; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", apply_types[i], ++count);
   }
-  write_to_output(d, "\nmenu[quit]:0\r");
+  write_to_output(d, "\n::end:buttons\r"
+    "\nmenu[done]:0\r");
   OLC_MODE(d) = OEDIT_APPLY;
 }
 
@@ -570,7 +578,7 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Object Type\r"
+  write_to_output(d, "\n## Type\r"
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
@@ -612,7 +620,7 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Effects Flags\r"
+  write_to_output(d, "\n## Affects\r"
     "\n::begin:buttons\r");
 
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
@@ -1192,7 +1200,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 2:
       OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "Pleae enter the extra description:\r\n");
+      write_to_output(d, "\nPleae enter the extra description:\r");
       if (OLC_DESC(d)->description) {
         write_to_output(d, "%s", OLC_DESC(d)->description);
         oldtext = strdup(OLC_DESC(d)->description);
