@@ -48,6 +48,12 @@ else
   end
 end
 ~
+#1004
+Give Token Wallet to Actor~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #1005
 Room 1005 Trigger~
 2 q 100

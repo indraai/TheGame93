@@ -46,6 +46,15 @@ E
 theory~
 talk:#adv object:thegame 1003/theory
 ~
+#1004
+token wallet~
+Token Wallet~
+1004/avatar~
+talk:#adv object:thegame 1004/look
+~
+15 dht 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
 #1006
 water underground stream~
 Underground Stream~
