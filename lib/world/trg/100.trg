@@ -57,7 +57,6 @@ set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -92,7 +91,6 @@ set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -104,12 +102,11 @@ end
 R1012 Check Token~
 2 q 100
 ~
-set key 1012
+set key 1020
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -146,7 +143,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -183,7 +179,6 @@ set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -240,7 +235,22 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
+end
+~
+#1027
+RM1027 Token Trigger~
+2 q 100
+~
+set key 1024
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -292,12 +302,11 @@ end
 RM1037~
 2 q 100
 ~
-set key 1047
+set key 1089
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -314,7 +323,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -326,12 +334,11 @@ end
 RM1039~
 2 q 100
 ~
-set key 1013
+set key 1023
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -368,7 +375,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -401,7 +407,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -418,7 +423,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -515,7 +519,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -552,7 +555,6 @@ set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -622,7 +624,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -639,7 +640,6 @@ set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
