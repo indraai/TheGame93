@@ -685,9 +685,11 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[o:tags]:%s\r"
     "\nselect[p:affects]:%s\r"
 	  "\nselect[q:script]:%s\r"
+    "\n::begin:buttons\r"
     "\nbmud[applies]:1\r"
     "\nbmud[copy]:2\r"
     "\nbmud[delete]:3\r"
+    "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 	  buf1,
 	  GET_OBJ_WEIGHT(obj),
