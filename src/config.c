@@ -313,4 +313,4 @@ int protocol_negotiation = NO;
 int special_in_comm = YES;
 
 /* Current Debug Mode */
-int debug_mode = ON;
+int debug_mode = YES;
