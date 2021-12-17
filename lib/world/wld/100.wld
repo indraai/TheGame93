@@ -11,6 +11,7 @@ thankyou~
 talk:#adv world:thegame 1000/thankyou
 ~
 S
+T 1004
 #1001
 Toan Glacier~
 You are in an unfinished room.~
@@ -20,16 +21,16 @@ D0
 ~
 0 0 1002
 E
-glacier~
-talk:#adv world:thegame 1001/glacier
+crevasse~
+talk:#adv world:thegame 10001/crevasse
 ~
 E
 greenland~
 talk:#adv world:thegame 10001/greenland
 ~
 E
-crevasse~
-talk:#adv world:thegame 10001/crevasse
+glacier~
+talk:#adv world:thegame 1001/glacier
 ~
 S
 #1002
