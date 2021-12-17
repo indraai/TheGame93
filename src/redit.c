@@ -323,8 +323,8 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\nselect[2:description]:%s"
     "\nmenu[next tag]:3"
     "\nmenu[done]:0",
-	  extra_desc->keyword ? extra_desc->keyword : "<NONE>",
-    extra_desc->description ? extra_desc->description : "<NONE>"
+	  extra_desc->keyword ? extra_desc->keyword : "[none]",
+    extra_desc->description ? extra_desc->description : "[none]"
     // !extra_desc->next ? "not set..." : "set..."
 	  );
 
@@ -363,11 +363,13 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\nselect[c:describe]:%s\r"
 	  "\nselect[d:key]:%d\r"
 	  "\nselect[e:flags]:%s\r"
+    "\n::begin:buttons\r"
 	  "\nbmud[delete exit]:x\r"
+    "\n::end:buttons\r"
 	  "\nmenu[done]:0",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
-    OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "<NONE>",
-	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "<NONE>",
+    OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "[none]",
+	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "[none]",
 	  OLC_EXIT(d)->key != NOTHING ? OLC_EXIT(d)->key : -1,
 	  door_buf
 	  );
@@ -381,11 +383,13 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   write_to_output(d,
     "\n## Doors\r"
+    "\n::begin:buttons\r"
     "\nbmud[no door]:0\r"
 	  "\nbmud[closable door]:1\r"
     "\nbmud[pickproof door]:2\r"
     "\nbmud[hidden door]:3\r"
     "\nbmud[hidden pickproof door]:4\r"
+    "\n::end:buttons\r"
   );
 }
 
@@ -397,15 +401,17 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d,"\n## Room Flags\r");
+  write_to_output(d,"\n## Room Flags\r"
+    "\n::begin:buttons\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
     write_to_output(d, "\nbmud[%s]:%d", room_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
-  write_to_output(d, "\nflags: %s\r"
-  "\nmenu[done]:0\r", bits);
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r"
+    "\nmenu[done]:0\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -422,14 +428,16 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
 
   /*column_list(d->character, 0, sector_types, NUM_ROOM_SECTORS, TRUE);*/
 
-  write_to_output(d, "\n## Room Type\r");
+  write_to_output(d, "\n## Room Type\r"
+    "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", sector_types[i], ++count);
   }
 
   sprinttype(room->sector_type, sector_types, bits, sizeof(bits));
-  write_to_output(d, "\ntype: %s\r", bits);
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r", bits);
 
   OLC_MODE(d) = REDIT_SECTOR;
 }

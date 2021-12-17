@@ -578,7 +578,7 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Type\r"
+  write_to_output(d, "\n## Object Type\r"
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
