@@ -185,7 +185,6 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
   for (i = list; i; i = i->next_content) {
     num = 0;
 
-    send_to_char(ch, "\n::begin:lookat\r");
     /* Check the list to see if we've already counted this object */
     for (j = list; j != i; j = j->next_content)
       if ((j->short_description == i->short_description && j->name == i->name) ||
@@ -219,7 +218,6 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
   if (!found && show) {
     send_to_char(ch, "\nobject:Nothing.\r");
   }
-  send_to_char(ch, "\n::end:lookat\r");
 
 }
 static void list_inv_to_char(struct obj_data *list, struct char_data *ch)
@@ -667,8 +665,10 @@ static void look_in_obj(struct char_data *ch, char *arg)
         send_to_char(ch, "\ninfo:It is closed.\r");
       }
       else {
-        send_to_char(ch, "\ninfo:%s\r", fname(obj->name));
+        send_to_char(ch, "\ninfo:%s\r"
+          "\n::begin:lookat\r", fname(obj->name));
         list_obj_to_char(obj->contains, ch, SHOW_OBJ_SHORT, TRUE);
+        send_to_char(ch, "\n::end:lookat\r");
       }
     } else {		/* item must be a fountain or drink container */
       if ((GET_OBJ_VAL(obj, 1) == 0) && (GET_OBJ_VAL(obj, 0) != -1)) {
