@@ -650,7 +650,7 @@ do                                                              \
 /** Return how much weight ch can carry. */
 #define CAN_CARRY_W(ch) (str_app[STRENGTH_APPLY_INDEX(ch)].carry_w)
 /** Return how many items ch can carry. */
-#define CAN_CARRY_N(ch) (5 + (GET_DEX(ch) >> 1) + (GET_LEVEL(ch) >> 1))
+#define CAN_CARRY_N(ch) (20 + (GET_DEX(ch) >> 1) + (GET_LEVEL(ch) >> 1))
 /** Return whether or not ch is awake. */
 #define AWAKE(ch) (GET_POS(ch) > POS_SLEEPING)
 /** Defines if ch can see in general in the dark. */
@@ -658,9 +658,9 @@ do                                                              \
    (AFF_FLAGGED(ch, AFF_INFRAVISION) || (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))
 
 /** Defines if ch is good. */
-#define IS_GOOD(ch)    (GET_ALIGNMENT(ch) >= 350)
+#define IS_GOOD(ch)    (GET_ALIGNMENT(ch) >= 250)
 /** Defines if ch is evil. */
-#define IS_EVIL(ch)    (GET_ALIGNMENT(ch) <= -350)
+#define IS_EVIL(ch)    (GET_ALIGNMENT(ch) <= -250)
 /** Defines if ch is neither good nor evil. */
 #define IS_NEUTRAL(ch) (!IS_GOOD(ch) && !IS_EVIL(ch))
 

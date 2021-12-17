@@ -169,10 +169,10 @@ if (!(CAN_WEAR(obj, ITEM_WEAR_TAKE))) {
 
 if (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE)) {
   if (IS_CARRYING_N(ch) >= CAN_CARRY_N(ch)) {
-    act("$p: you can't carry that many items.", FALSE, ch, obj, 0, TO_CHAR);
+    act("\ninfo: You can't carry that many items.", FALSE, ch, obj, 0, TO_CHAR);
     return (0);
   } else if ((IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(obj)) > CAN_CARRY_W(ch)) {
-    act("$p: you can't carry that much weight.", FALSE, ch, obj, 0, TO_CHAR);
+    act("\ninfo: You can't carry that much weight.", FALSE, ch, obj, 0, TO_CHAR);
     return (0);
   }
 }
@@ -211,7 +211,7 @@ static void perform_get_from_container(struct char_data *ch, struct obj_data *ob
     else if (get_otrigger(obj, ch)) {
       obj_from_obj(obj);
       obj_to_char(obj, ch);
-      act("alert:You get $p from $P.", FALSE, ch, obj, cont, TO_CHAR);
+      act("\ninfo:You get $p from $P.", FALSE, ch, obj, cont, TO_CHAR);
       act("$n gets $p from $P.", TRUE, ch, obj, cont, TO_ROOM);
       get_check_money(ch, obj);
     }
@@ -227,12 +227,12 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
   obj_dotmode = find_all_dots(arg);
 
   if (OBJVAL_FLAGGED(cont, CONT_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || !PRF_FLAGGED(ch, PRF_NOHASSLE)))
-    act("$p is closed.", FALSE, ch, cont, 0, TO_CHAR);
+    act("\ninfo:$p is closed.\r", FALSE, ch, cont, 0, TO_CHAR);
   else if (obj_dotmode == FIND_INDIV) {
     if (!(obj = get_obj_in_list_vis(ch, arg, NULL, cont->contains))) {
       char buf[MAX_STRING_LENGTH];
 
-      snprintf(buf, sizeof(buf), "There doesn't seem to be %s %s in $p.", AN(arg), arg);
+      snprintf(buf, sizeof(buf), "\nThere doesn't seem to be %s %s in $p.\r", AN(arg), arg);
       act(buf, FALSE, ch, cont, 0, TO_CHAR);
     } else {
       struct obj_data *obj_next;
@@ -244,7 +244,7 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
     }
   } else {
     if (obj_dotmode == FIND_ALLDOT && !*arg) {
-      send_to_char(ch, "Get all of what?\r\n");
+      send_to_char(ch, "\nGet all of what?\r");
       return;
     }
     for (obj = cont->contains; obj; obj = next_obj) {
@@ -273,7 +273,7 @@ static int perform_get_from_room(struct char_data *ch, struct obj_data *obj)
   if (can_take_obj(ch, obj) && get_otrigger(obj, ch)) {
     obj_from_room(obj);
     obj_to_char(obj, ch);
-    act("You get $p.", FALSE, ch, obj, 0, TO_CHAR);
+    act("\ninfo:You get $p.\r", FALSE, ch, obj, 0, TO_CHAR);
     act("$n gets $p.", TRUE, ch, obj, 0, TO_ROOM);
     get_check_money(ch, obj);
     return (1);
@@ -292,10 +292,10 @@ static void get_from_room(struct char_data *ch, char *arg, int howmany)
     if (!(obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) {
         /* Are they trying to take something in a room extra description? */
         if (find_exdesc(arg, world[IN_ROOM(ch)].ex_description) != NULL) {
-            send_to_char(ch, "You can't take %s %s.\r\n", AN(arg), arg);
+            send_to_char(ch, "\nYou can't take %s %s.\r", AN(arg), arg);
             return;
         }
-      send_to_char(ch, "You don't see %s %s here.\r\n", AN(arg), arg);
+      send_to_char(ch, "\nYou don't see %s %s here.\r", AN(arg), arg);
     } else {
       struct obj_data *obj_next;
       while(obj && howmany--) {
@@ -306,7 +306,7 @@ static void get_from_room(struct char_data *ch, char *arg, int howmany)
     }
   } else {
     if (dotmode == FIND_ALLDOT && !*arg) {
-      send_to_char(ch, "Get all of what?\r\n");
+      send_to_char(ch, "\nGet all of what?\r");
       return;
     }
     for (obj = world[IN_ROOM(ch)].contents; obj; obj = next_obj) {
@@ -319,9 +319,9 @@ static void get_from_room(struct char_data *ch, char *arg, int howmany)
     }
     if (!found) {
       if (dotmode == FIND_ALL)
-	send_to_char(ch, "There doesn't seem to be anything here.\r\n");
+	send_to_char(ch, "\nThere doesn't seem to be anything here.\r");
       else
-	send_to_char(ch, "You don't see any %ss here.\r\n", arg);
+	send_to_char(ch, "\nYou don't see any %ss here.\r", arg);
     }
   }
 }
