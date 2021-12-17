@@ -110,7 +110,7 @@ int diagonal_dirs = NO;
 int free_rent = YES;
 
 /* Maximum number of items players are allowed to rent. */
-int max_obj_save = 30;
+int max_obj_save = 100;
 
 /* Receptionist's surcharge on top of item costs. */
 int min_rent_cost = 10;
@@ -313,4 +313,4 @@ int protocol_negotiation = NO;
 int special_in_comm = YES;
 
 /* Current Debug Mode */
-int debug_mode = OFF;
+int debug_mode = ON;
