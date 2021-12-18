@@ -164,27 +164,27 @@ static void weather_change(void)
   case 0:
     break;
   case 1:
-    send_to_outdoor("weather:The sky is cloudy.\r\n");
+    send_to_outdoor("\nweather:The sky is cloudy.\r");
     weather_info.sky = SKY_CLOUDY;
     break;
   case 2:
-    send_to_outdoor("weather:It starts to rain.\r\n");
+    send_to_outdoor("\nweather:It starts to rain.\r");
     weather_info.sky = SKY_RAINING;
     break;
   case 3:
-    send_to_outdoor("weather:The clouds disappear.\r\n");
+    send_to_outdoor("\nweather:The clouds disappear.\r");
     weather_info.sky = SKY_CLOUDLESS;
     break;
   case 4:
-    send_to_outdoor("weather:Lightning starts in the sky.\r\n");
+    send_to_outdoor("\nweather:Lightning starts in the sky.\r");
     weather_info.sky = SKY_LIGHTNING;
     break;
   case 5:
-    send_to_outdoor("weather:The rain stops.\r\n");
+    send_to_outdoor("\nweather:The rain stops.\r");
     weather_info.sky = SKY_CLOUDY;
     break;
   case 6:
-    send_to_outdoor("weather:The lightning stops.\r\n");
+    send_to_outdoor("\nweather:The lightning stops.\r");
     weather_info.sky = SKY_RAINING;
     break;
   default:
