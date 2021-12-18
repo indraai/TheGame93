@@ -68,20 +68,22 @@ static void another_min(int mode)
   if (time_info.minute >= MINS_PER_MUD_HOUR) {
     time_info.minute = 0;
     time_info.hours++;
-  }
-  if (time_info.hours >= HOURS_PER_MUD_DAY) {	/* Changed by HHS due to bug ??? */
-    time_info.hours = 0;
-    time_info.day++;
-  }
-  if (time_info.day >= DAYS_PER_MUD_MONTH) {
-    time_info.day = 0;
-    time_info.month++;
-  }
-  if (time_info.month >= MONTHS_PER_MUD_YEAR) {
-     time_info.month = 0;
-     time_info.year++;
-  }
 
+    if (time_info.hours > HOURS_PER_MUD_DAY) {	/* Changed by HHS due to bug ??? */
+      time_info.hours = 0;
+      time_info.day++;
+
+      if (time_info.day > DAYS_PER_MUD_MONTH) {
+        time_info.day = 0;
+        time_info.month++;
+
+        if (time_info.month > MONTHS_PER_MUD_YEAR) {
+           time_info.month = 0;
+           time_info.year++;
+        }
+      }
+    }
+  }
 }
 
 /** Controls the in game weather system. If the weather changes, an information
