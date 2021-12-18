@@ -214,7 +214,9 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\n::begin:code\r"
   "\n%s\r"
   "\n::end:code\r"
-  "\nmenu[copy]:1\r"
+  "\n::begin:buttons"
+  "\nmenu[copy trigger]:1\r"
+  "\n::end:buttons"
   "\nmenu[quit]:0\r",
   OLC_NUM(d), 			              /* vnum on the title line */
   GET_TRIG_NAME(trig),		        /* name                   */

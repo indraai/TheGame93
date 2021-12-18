@@ -47,19 +47,19 @@ static void another_min(int mode)
     switch (time_info.hours) {
     case HOUR_SUN_RISE:
       weather_info.sunlight = SUN_RISE;
-      send_to_outdoor("\nweather:The Sun rises in the West.\r");
+      send_to_outdoor("\nweather:The sun rises.\r");
       break;
     case HOUR_SUN_LIGHT:
       weather_info.sunlight = SUN_LIGHT;
-      send_to_outdoor("\nweather:The day has begun.\r");
+      send_to_outdoor("\nweather:The day begins.\r");
       break;
     case HOUR_SUN_SET:
       weather_info.sunlight = SUN_SET;
-      send_to_outdoor("\nweather:The sun sets in the East.\r");
+      send_to_outdoor("\nweather:The sun sets.\r");
       break;
     case HOUR_SUN_DARK:
       weather_info.sunlight = SUN_DARK;
-      send_to_outdoor("\nweather:The night has begun.\r");
+      send_to_outdoor("\nweather:The night begins.\r");
       break;
     default:
       break;

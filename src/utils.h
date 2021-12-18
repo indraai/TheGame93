@@ -171,14 +171,14 @@ void char_from_furniture(struct char_data *ch);
 #define BFS_NO_PATH		(-3)     /**< No path through here. */
 
 /* NUMBER OF DAYS IN A MUD MONTH */
-#define DAYS_PER_MUD_MONTH 28
+#define SECS_PER_MUD_MIN 10
 #define MINS_PER_MUD_HOUR 60
 #define HOURS_PER_MUD_DAY 24
+#define DAYS_PER_MUD_MONTH 28
 #define MONTHS_PER_MUD_YEAR 12
 /** Number of real life seconds per mud hour.
  * @todo The definitions based on SECS_PER_MUD_HOUR should be configurable.
  * See act.informative.c and utils.c for other places to change. */
-#define SECS_PER_MUD_MIN 10
 #define SECS_PER_MUD_HOUR (60*SECS_PER_MUD_MIN)
 // #define SECS_PER_MUD_HOUR	75
 
