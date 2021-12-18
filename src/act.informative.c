@@ -1084,7 +1084,7 @@ ACMD(do_time)
   /* 63 days in a month, 7 days a week */
   weekday = ((DAYS_PER_MUD_MONTH * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time:%d | ",
+  send_to_char(ch, "time:%d:%d | ",
 	  time_info.hours > 9 ? time_info.hours : '0' + time_info.hours,
     time_info.minute > 9 ? time_info.minute : '0' + time_info.minute);
 
