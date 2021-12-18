@@ -1107,7 +1107,7 @@ ACMD(do_time)
       break;
     }
   }
-  send_to_char(ch, "\ndate:%s - %s %d, %d.",
+  send_to_char(ch, "\ndate:%s - %s %d, %d",
     weekdays[weekday],
     month_name[time_info.month],
 	  day,
