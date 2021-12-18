@@ -172,13 +172,13 @@ void char_from_furniture(struct char_data *ch);
 
 /* NUMBER OF DAYS IN A MUD MONTH */
 #define DAYS_PER_MUD_MONTH 28
-#define SEC_PER_MUD_MIN 10
 #define HOURS_PER_MUD_DAY 24
 #define MONTHS_PER_MUD_YEAR 12
 /** Number of real life seconds per mud hour.
  * @todo The definitions based on SECS_PER_MUD_HOUR should be configurable.
  * See act.informative.c and utils.c for other places to change. */
-#define SECS_PER_MUD_HOUR (60*SEC_PER_MUD_MIN)
+#define SECS_PER_MUD_MIN 10
+#define SECS_PER_MUD_HOUR (60*SECS_PER_MUD_MIN)
 // #define SECS_PER_MUD_HOUR	75
 
 /** Real life seconds in one mud day.
@@ -201,6 +201,12 @@ void char_from_furniture(struct char_data *ch);
 /** The number of seconds in a real year. */
 #define SECS_PER_REAL_YEAR	(365*SECS_PER_REAL_DAY)
 
+
+// SET THE SUN TIME VARIABLES
+#define HOUR_SUN_RISE 5
+#define HOUR_SUN_LIGHT 6
+#define HOUR_SUN_SET 18
+#define HOUR_SUN_DARK 21
 /* integer utils */
 #define URANGE(a, b, c)          ((b) < (a) ? (a) : ((b) > (c) ? (c) : (b)))
 

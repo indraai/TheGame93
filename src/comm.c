@@ -1005,8 +1005,8 @@ void heartbeat(int heart_pulse)
   if (!(heart_pulse % PULSE_VIOLENCE))
     perform_violence();
 
-  if (!(heart_pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC))) {  /* Tick ! */
-    next_tick = SECS_PER_MUD_HOUR;  /* Reset tick coundown */
+  if (!(heart_pulse % (SECS_PER_MUD_MIN * PASSES_PER_SEC))) {  /* Tick ! */
+    next_tick = SECS_PER_MUD_MIN;  /* Reset tick coundown */
     weather_and_time(1);
     check_time_triggers();
     affect_update();

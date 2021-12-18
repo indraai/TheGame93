@@ -450,6 +450,7 @@ struct time_info_data *mud_time_passed(time_t t2, time_t t1)
 
   secs = t2 - t1;
 
+  now.minute = (secs / SECS_PER_MUD_MIN)
   now.hours = (secs / SECS_PER_MUD_HOUR) % HOURS_PER_MUD_DAY;	/* 0..23 hours */
   secs -= SECS_PER_MUD_HOUR * now.hours;
 

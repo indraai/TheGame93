@@ -17,7 +17,7 @@
 #include "comm.h"
 #include "db.h"
 
-static void another_hour(int mode);
+static void another_min(int mode);
 static void weather_change(void);
 
 /** Call this function every mud hour to increment the gametime (by one hour)
@@ -29,7 +29,7 @@ static void weather_change(void);
  */
 void weather_and_time(int mode)
 {
-  another_hour(mode);
+  another_min(mode);
   if (mode)
     weather_change();
 }
@@ -39,41 +39,41 @@ void weather_and_time(int mode)
  * @param mode Really, this parameter has the effect of a boolean. If non-zero,
  * display day/night messages to all eligible players.
  */
-static void another_hour(int mode)
+static void another_min(int mode)
 {
   time_info.hours++;
 
   if (mode) {
     switch (time_info.hours) {
-    case 5:
+    case HOUR_SUN_RISE:
       weather_info.sunlight = SUN_RISE;
-      send_to_outdoor("weather:The Sun rises in the West.\r\n");
+      send_to_outdoor("\nweather:The Sun rises in the West.\r");
       break;
-    case 6:
+    case HOUR_SUN_LIGHT:
       weather_info.sunlight = SUN_LIGHT;
-      send_to_outdoor("weather:The day has begun.\r\n");
+      send_to_outdoor("\nweather:The day has begun.\r");
       break;
-    case 21:
+    case HOUR_SUN_SET:
       weather_info.sunlight = SUN_SET;
-      send_to_outdoor("weather:The sun sets in the East.\r\n");
+      send_to_outdoor("\nweather:The sun sets in the East.\r");
       break;
-    case 22:
+    case HOUR_SUN_DARK:
       weather_info.sunlight = SUN_DARK;
-      send_to_outdoor("weather:The night has begun.\r\n");
+      send_to_outdoor("\nweather:The night has begun.\r");
       break;
     default:
       break;
     }
   }
-  if (time_info.hours > 23) {	/* Changed by HHS due to bug ??? */
-    time_info.hours -= 24;
+  if (time_info.hours > (HOURS_PER_MUD_DAY - 1)) {	/* Changed by HHS due to bug ??? */
+    time_info.hours -= HOURS_PER_MUD_DAY;
     time_info.day++;
 
-    if (time_info.day > 34) {
+    if (time_info.day > (DAYS_PER_MUD_MONTH - 1)) {
       time_info.day = 0;
       time_info.month++;
 
-      if (time_info.month > 16) {
+      if (time_info.month > (MONTHS_PER_MUD_YEAR - 1)) {
 	       time_info.month = 0;
 	       time_info.year++;
       }
