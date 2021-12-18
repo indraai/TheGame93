@@ -1084,10 +1084,6 @@ ACMD(do_time)
   /* 63 days in a month, 7 days a week */
   weekday = ((DAYS_PER_MUD_MONTH * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time:%d:%d | ",
-	  time_info.hours > 9 ? time_info.hours : '0' + time_info.hours,
-    time_info.minute > 9 ? time_info.minute : '0' + time_info.minute);
-
   /* Peter Ajamian supplied the following as a fix for a bug introduced in the
    * ordinal display that caused 11, 12, and 13 to be incorrectly displayed as
    * 11st, 12nd, and 13rd.  Nate Winters had already submitted a fix, but it
@@ -1107,8 +1103,10 @@ ACMD(do_time)
       break;
     }
   }
-  send_to_char(ch, "\ndate:%s - %s %d, %d",
-    weekdays[weekday],
+
+  send_to_char(ch, "\ntime:%d:%d | date:%s - %s %d, %d\r",
+    time_info.hours > 9 ? time_info.hours : '0' + time_info.hours,
+    time_info.minute > 9 ? time_info.minute : '0' + time_info.minute    weekdays[weekday],
     month_name[time_info.month],
 	  day,
     time_info.year);
