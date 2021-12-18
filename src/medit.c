@@ -387,7 +387,7 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
 
   /*get_char_colors(d->character);*/
   clear_screen(d);
-  write_to_output(d, "\n## Personality\r"
+  write_to_output(d, "\n## Persona\r"
     "\n::begin:buttons\r");
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
@@ -458,7 +458,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[g:default]:%s\r"
 	  "\nselect[h:attack]:%s\r"
     "\nselect[i:stats]: set...\r"
-	  "\nselect[j:personality]:%s\r"
+	  "\nselect[j:persona]:%s\r"
 	  "\nselect[k:affinity]:%s\r"
     "\nselect[l:triggers]:%s\r"
     "\n::begin:buttons\r"
