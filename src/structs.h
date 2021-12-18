@@ -839,7 +839,7 @@ typedef struct memory_rec_struct memory_rec;
  * information about time (real or mudwise). */
 struct time_info_data
 {
-  int minute   /**< numeric minute */
+  int minute;   /**< numeric minute */
   int hours;   /**< numeric hour */
   int day;     /**< numeric day */
   int month;   /**< numeric month */
