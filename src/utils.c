@@ -487,7 +487,7 @@ struct time_info_data *age(struct char_data *ch)
 
   player_age = *mud_time_passed(time(0), ch->player.time.birth);
 
-  player_age.year += 17;	/* All players start at 17 */
+  player_age.year += 18;	/* All players start at 17 */
 
   return (&player_age);
 }
