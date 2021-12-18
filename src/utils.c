@@ -476,7 +476,7 @@ time_t mud_time_to_secs(struct time_info_data *now)
   when += now->month * SECS_PER_MUD_MONTH;
   when += now->day   * SECS_PER_MUD_DAY;
   when += now->hours * SECS_PER_MUD_HOUR;
-  when += now=>minute * SECS_PER_MUD_MIN;
+  when += now->minute * SECS_PER_MUD_MIN;
   return (time(NULL) - when);
 }
 
