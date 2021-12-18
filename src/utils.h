@@ -172,6 +172,7 @@ void char_from_furniture(struct char_data *ch);
 
 /* NUMBER OF DAYS IN A MUD MONTH */
 #define DAYS_PER_MUD_MONTH 28
+#define MINS_PER_MUD_HOUR 60
 #define HOURS_PER_MUD_DAY 24
 #define MONTHS_PER_MUD_YEAR 12
 /** Number of real life seconds per mud hour.
