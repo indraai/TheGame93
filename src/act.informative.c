@@ -1084,10 +1084,9 @@ ACMD(do_time)
   /* 63 days in a month, 7 days a week */
   weekday = ((DAYS_PER_MUD_MONTH * time_info.month) + day) % 7;
 
-  send_to_char(ch, "time:%d:%d%s | ",
-	  (time_info.hours % 12 == 0) ? 12 : (time_info.hours % 12),
-    time_info.minute,
-	  time_info.hours >= 12 ? "p" : "a");
+  send_to_char(ch, "time:%d | ",
+	  time_info.hours > 9 ? time_info.hours : '0' + time_info.hours,
+    time_info.minute > 9 ? time_info.minute : '0' + time_info.minute);
 
   /* Peter Ajamian supplied the following as a fix for a bug introduced in the
    * ordinal display that caused 11, 12, and 13 to be incorrectly displayed as
