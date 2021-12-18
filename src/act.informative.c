@@ -1106,7 +1106,8 @@ ACMD(do_time)
 
   send_to_char(ch, "\ntime:%d:%d | date:%s - %s %d, %d\r",
     time_info.hours > 9 ? time_info.hours : '0' + time_info.hours,
-    time_info.minute > 9 ? time_info.minute : '0' + time_info.minute    weekdays[weekday],
+    time_info.minute > 9 ? time_info.minute : '0' + time_info.minute,
+    weekdays[weekday],
     month_name[time_info.month],
 	  day,
     time_info.year);
