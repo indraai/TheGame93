@@ -428,6 +428,7 @@ struct time_info_data *real_time_passed(time_t t2, time_t t1)
 
   secs = t2 - t1;
 
+  now.minute = (secs / SECS_PER_REAL_MIN);
   now.hours = (secs / SECS_PER_REAL_HOUR) % 24;	/* 0..23 hours */
   secs -= SECS_PER_REAL_HOUR * now.hours;
 
