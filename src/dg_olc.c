@@ -318,9 +318,9 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          d->backstr = NULL;
          if (OLC_STORAGE(d)) {
            clear_screen(d);
-           write_to_output(d, "\n::begin:code\r")
+           write_to_output(d, "\n::begin:code\r");
            page_string(d, OLC_STORAGE(d), TRUE);
-           write_to_output(d, "\n::end:code\r")
+           write_to_output(d, "\n::end:code\r");
            d->backstr = strdup(OLC_STORAGE(d));
          }
          d->str = &OLC_STORAGE(d);
