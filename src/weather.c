@@ -74,8 +74,8 @@ static void another_hour(int mode)
       time_info.month++;
 
       if (time_info.month > 16) {
-	time_info.month = 0;
-	time_info.year++;
+	       time_info.month = 0;
+	       time_info.year++;
       }
     }
   }

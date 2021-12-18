@@ -170,19 +170,27 @@ void char_from_furniture(struct char_data *ch);
 #define BFS_ALREADY_THERE	(-2) /**< Area traversed already. */
 #define BFS_NO_PATH		(-3)     /**< No path through here. */
 
+/* NUMBER OF DAYS IN A MUD MONTH */
+#define DAYS_PER_MUD_MONTH 35
+#define SEC_PER_MUD_MIN 10
+#define HOURS_PER_MUD_DAY 24
+#define MONTHS_PER_MUD_YEAR 12
 /** Number of real life seconds per mud hour.
  * @todo The definitions based on SECS_PER_MUD_HOUR should be configurable.
  * See act.informative.c and utils.c for other places to change. */
-#define SECS_PER_MUD_HOUR	75
+#define SEC_PER_MUD_HOUR (60*SEC_PER_MUD_MIN)
+// #define SECS_PER_MUD_HOUR	75
+
 /** Real life seconds in one mud day.
  * Current calculation = 30 real life minutes. */
-#define SECS_PER_MUD_DAY	(24*SECS_PER_MUD_HOUR)
+#define SECS_PER_MUD_DAY	(HOURS_PER_MUD_DAY*SECS_PER_MUD_HOUR)
+
 /** Real life seconds per mud month.
  * Current calculation = 17.5 real life hours */
-#define SECS_PER_MUD_MONTH	(35*SECS_PER_MUD_DAY)
+#define SECS_PER_MUD_MONTH	(DAYS_PER_MUD_MONTH*SECS_PER_MUD_DAY)
 /** Real life seconds per mud month.
  * Current calculation ~= 12.4 real life days */
-#define SECS_PER_MUD_YEAR	(17*SECS_PER_MUD_MONTH)
+#define SECS_PER_MUD_YEAR	(MONTHS_PER_MUD_YEAR*SECS_PER_MUD_MONTH)
 
 /** The number of seconds in a real minute. */
 #define SECS_PER_REAL_MIN	60
