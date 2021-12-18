@@ -470,10 +470,10 @@ static int perform_drop(struct char_data *ch, struct obj_data *obj,
     return (0);
   }
 
-  snprintf(buf, sizeof(buf), "\nYou %s $p.%s\r", sname, VANISH(mode));
+  snprintf(buf, sizeof(buf), "\ndrop: You %s $p.%s\r", sname, VANISH(mode));
   act(buf, FALSE, ch, obj, 0, TO_CHAR);
 
-  snprintf(buf, sizeof(buf), "\n$n %ss $p.%s\r", sname, VANISH(mode));
+  snprintf(buf, sizeof(buf), "\ndrop: $n %ss $p.%s\r", sname, VANISH(mode));
   act(buf, TRUE, ch, obj, 0, TO_ROOM);
 
   obj_from_char(obj);
@@ -487,7 +487,7 @@ static int perform_drop(struct char_data *ch, struct obj_data *obj,
     return (0);
   case SCMD_DONATE:
     obj_to_room(obj, RDR);
-    act("\noffering: $p has appeared!", FALSE, 0, obj, 0, TO_ROOM);
+    act("\noffer: $p has appeared!", FALSE, 0, obj, 0, TO_ROOM);
     return (0);
   case SCMD_JUNK:
     value = MAX(1, MIN(200, GET_OBJ_COST(obj) / 16));
@@ -537,7 +537,7 @@ ACMD(do_drop)
 
     }
     if (RDR == NOWHERE) {
-      send_to_char(ch, "Sorry, you can't donate anything right now.\r\n");
+      send_to_char(ch, "\noffer: Sorry, you are unable to offer at this time.\r");
       return;
     }
     break;
