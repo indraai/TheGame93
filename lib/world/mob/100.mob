@@ -5,9 +5,10 @@ Gunnar Larsen~
 #adv agent:thegame 1000/look
 ~
 10 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
+1 20 9 0d0+10 1d2+0
+10 100
 8 8 1
+BareHandAttack: 5
 E
 T 1000
 #1001
