@@ -48,7 +48,7 @@ static void another_min(int mode)
   // SEND THE TIME TO ALL EVERY MINUTE FOR WATCH SYNC
   send_to_all("\ntime: %d:%d",
     time_info.hours,
-    time_info.minute);
+    time_info.minute++);
 
   // SWITCH OVER THE HOUR HERE
   // For this part when the minute is equal or greater to the hour we
