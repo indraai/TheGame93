@@ -42,7 +42,7 @@ void weather_and_time(int mode)
  */
 static void another_min(int mode)
 {
-  int weekday, day;
+  int weekday;
   time_info.minute++;
 
   // SEND THE TIME TO ALL EVERY MINUTE FOR WATCH SYNC
