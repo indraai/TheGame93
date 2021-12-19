@@ -42,14 +42,14 @@ void weather_and_time(int mode)
  */
 static void another_min(int mode)
 {
-  int weekday, day, curmin;
+  int weekday, day;
   time_info.minute++;
 
   curmin = time_info.minute+1;
   // SEND THE TIME TO ALL EVERY MINUTE FOR WATCH SYNC
   send_to_all("\ntime: %d:%d",
     time_info.hours,
-    curmin);
+    time_info.minute + 1);
 
   // SWITCH OVER THE HOUR HERE
   // For this part when the minute is equal or greater to the hour we
