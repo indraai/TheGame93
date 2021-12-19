@@ -41,37 +41,55 @@ void weather_and_time(int mode)
  */
 static void another_min(int mode)
 {
+  int weekday, day;
   time_info.minute++;
 
-  if (mode) {
-    switch (time_info.hours) {
-    case HOUR_SUN_RISE:
-      weather_info.sunlight = SUN_RISE;
-      send_to_outdoor("\nweather:The sun rises.\r");
-      break;
-    case HOUR_SUN_LIGHT:
-      weather_info.sunlight = SUN_LIGHT;
-      send_to_outdoor("\nweather:The day begins.\r");
-      break;
-    case HOUR_SUN_SET:
-      weather_info.sunlight = SUN_SET;
-      send_to_outdoor("\nweather:The sun sets.\r");
-      break;
-    case HOUR_SUN_DARK:
-      weather_info.sunlight = SUN_DARK;
-      send_to_outdoor("\nweather:The night begins.\r");
-      break;
-    default:
-      break;
-    }
-  }
+  // SEND THE TIME TO ALL EVERY MINUTE FOR WATCH SYNC
+  send_to_all("\ntime: %d:%d",
+    time_info.hours,
+    time_info.minute);
+
+  // SWITCH OVER THE HOUR HERE
+  // For this part when the minute is equal or greater to the hour we
+  // then increment the hour and post the weather bulletin for the day state.
   if (time_info.minute >= MINS_PER_MUD_HOUR) {
     time_info.minute = 0;
     time_info.hours++;
 
+    if (mode) {
+      switch (time_info.hours) {
+      case HOUR_SUN_RISE:
+        weather_info.sunlight = SUN_RISE;
+        send_to_outdoor("\nweather:The sun rises.\r");
+        break;
+      case HOUR_SUN_LIGHT:
+        weather_info.sunlight = SUN_LIGHT;
+        send_to_outdoor("\nweather:The day begins.\r");
+        break;
+      case HOUR_SUN_SET:
+        weather_info.sunlight = SUN_SET;
+        send_to_outdoor("\nweather:The sun sets.\r");
+        break;
+      case HOUR_SUN_DARK:
+        weather_info.sunlight = SUN_DARK;
+        send_to_outdoor("\nweather:The night begins.\r");
+        break;
+      default:
+        break;
+      }
+    }
+
+    // SWITCH OVER THE DAY HERE
     if (time_info.hours >= HOURS_PER_MUD_DAY) {	/* Changed by HHS due to bug ??? */
       time_info.hours = 0;
       time_info.day++;
+
+      weekday = ((DAYS_PER_MUD_MONTH * time_info.month) + (time_info.day + 1)) % DAYS_PER_MUD_WEEK;
+      send_to_all("\ndate:%s - %s %d, %d\r",
+        weekdays[weekday],
+        month_name[time_info.month],
+    	  day,
+        time_info.year);
 
       if (time_info.day > DAYS_PER_MUD_MONTH) {
         time_info.day = 0;

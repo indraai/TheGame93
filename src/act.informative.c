@@ -1104,7 +1104,8 @@ ACMD(do_time)
     }
   }
 
-  send_to_char(ch, "\ntime:%d:%d | date:%s - %s %d, %d\r",
+  send_to_char(ch, "\ntime:%d:%d\r"
+    "\ndate:%s - %s %d, %d\r",
     time_info.hours,
     time_info.minute,
     weekdays[weekday],
