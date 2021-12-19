@@ -69,7 +69,7 @@ static void another_min(int mode)
     time_info.minute = 0;
     time_info.hours++;
 
-    if (time_info.hours > HOURS_PER_MUD_DAY) {	/* Changed by HHS due to bug ??? */
+    if (time_info.hours >= HOURS_PER_MUD_DAY) {	/* Changed by HHS due to bug ??? */
       time_info.hours = 0;
       time_info.day++;
 

@@ -218,13 +218,13 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   "\nbmud[copy trigger]:1\r"
   "\n::end:buttons"
   "\nmenu[quit]:0\r",
-  OLC_NUM(d), 			              /* vnum on the title line */
-  GET_TRIG_NAME(trig),		        /* name                   */
-  attach_type,			              /* attach type            */
-  trgtypes,			                  /* greet/drop/etc         */
-  trig->narg,			                /* numeric arg            */
+  OLC_NUM(d), 			                    /* vnum on the title line */
+  GET_TRIG_NAME(trig),		              /* name                   */
+  attach_type,			                    /* attach type            */
+  trgtypes,			                        /* greet/drop/etc         */
+  trig->narg,			                      /* numeric arg            */
   trig->arglist?trig->arglist:"set...", /* strict arg             */
-  OLC_STORAGE(d)		              /* the command list       */
+  OLC_STORAGE(d)		                    /* the command list       */
   );
 
   OLC_MODE(d) = TRIGEDIT_MAIN_MENU;
