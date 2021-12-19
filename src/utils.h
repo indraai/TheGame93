@@ -171,7 +171,7 @@ void char_from_furniture(struct char_data *ch);
 #define BFS_NO_PATH		(-3)     /**< No path through here. */
 
 /* NUMBER OF DAYS IN A MUD MONTH */
-#define SECS_PER_MUD_MIN 10       // HOW MANY NATURAL SECONDS IN A MUD MINUTE
+#define SECS_PER_MUD_MIN 6        // HOW MANY NATURAL SECONDS IN A MUD MINUTE
 #define MINS_PER_MUD_HOUR 60      // THE NUMBER OF MINUTES IN A MUD HOUR
 #define HOURS_PER_MUD_DAY 24      // THE NUMBER OF HOURS IN A MUD DAY
 #define DAYS_PER_MUD_WEEK 7       // THE NUMBER DAYS IN A MUD WEEK
