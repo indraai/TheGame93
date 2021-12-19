@@ -131,7 +131,7 @@ R1013 Give Token~
 2 g 100
 ~
 set key 1013
-set token %actor.inventory(%thekey%)%
+set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 50
 if !%token%
