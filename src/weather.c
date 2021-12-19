@@ -16,6 +16,7 @@
 #include "utils.h"
 #include "comm.h"
 #include "db.h"
+#include "constants.h"
 
 static void another_min(int mode);
 static void weather_change(void);
