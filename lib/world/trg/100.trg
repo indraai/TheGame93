@@ -130,20 +130,20 @@ end
 R1013 Give Token~
 2 g 100
 ~
-set thekey 1013
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %self.vnum%
-set reward 60
-if !%thetoken%
-  wait 1s
+set key 1013
+set token %actor.inventory(%thekey%)%
+set room %self.vnum%
+set reward 50
+if !%token%
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You receive the 0x%key% Token Key.
 end
 ~
 #1016
