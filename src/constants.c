@@ -849,34 +849,34 @@ int movement_loss[] =
 
 /** The names of the days of the mud week. Not used in sprinttype(). */
 const char *weekdays[] = {
+  "Vamraka",
+  "Indu",
+  "Indra",
   "Soma",
-  "Manga",
-  "Guru",
-  "Budha",
-  "Sakka",
-  "Shani",
-  "Ravi"
+  "Sarya",
+  "Kanva",
+  "Vrtra"
 };
 
 /** The names of the mud months. Not used in sprinttype(). */
 const char *month_name[] = {
-  "Ekam",		/* 0 */
-  "Dve",
-  "Treeni",
-  "Chatvaari",
-  "Pancha",
-  "Shat",
-  "Sapta",
-  "Ashta",
-  "Nava",
-  "Dasha",
-  "Ekaadasha",
-  "Dvaadasha",
-  "Trayodasha",
-  "Chaturdasha",
-  "Panchadasha",
-  "Shodash",
-  "Saptadasha"
+  "Sindhu",		/* 0 */
+  "Deva",
+  "Vitasta",
+  "Chandra",
+  "Rasā",
+  "Susoma",
+  "Sindhu",
+  "Arjika",
+  "Asikni",
+  "Krumu",
+  "Gomati",
+  "Marudvrdha",
+  "Sutudri",
+  "Svetya",
+  "Mehatnu",
+  "Susartu",
+  "Yamunā"
 };
 
 /** Names for mob trigger types. */
