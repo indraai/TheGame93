@@ -42,7 +42,7 @@ void weather_and_time(int mode)
  */
 static void another_min(int mode)
 {
-  int weekday;
+  int weekday, day;
   time_info.minute++;
 
   // SEND THE TIME TO ALL EVERY MINUTE FOR WATCH SYNC
@@ -85,7 +85,8 @@ static void another_min(int mode)
       time_info.hours = 0;
       time_info.day++;
 
-      weekday = ((DAYS_PER_MUD_MONTH * time_info.month) + (time_info.day + 1)) % DAYS_PER_MUD_WEEK;
+      day = time_info.day + 1;
+      weekday = ((DAYS_PER_MUD_MONTH * time_info.month) + day) % DAYS_PER_MUD_WEEK;
       send_to_all("\ndate:%s - %s %d, %d\r",
         weekdays[weekday],
         month_name[time_info.month],
