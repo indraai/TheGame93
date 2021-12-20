@@ -178,9 +178,8 @@ static void medit_setup_new(struct descriptor_data *d)
 {
   struct char_data *mob;
 
-  int vnum
   char avatarstr[MAX_STRING_LENGTH], agentstr[MAX_STRING_LENGTH];
-  
+
   /* create default strings with agent number in them; */
   sprintf(avatarstr, "%d/avatar", OLC_NUM(d));
   sprintf(agentstr, "talk:#adv agent/thegame %d/look", OLC_NUM(d));
