@@ -133,9 +133,24 @@ R1013 Give Token~
 2 g 100
 ~
 set key 1013
-set token %actor.inventory(%key%)%
-set room %self.vnum%
 set reward 50
+set room %self.vnum%
+set token 0
+
+* CHECK THE ACTORS INVENTORY AND CONTAINERS FOR THE KEY
+* LOOP OVER ACTORY INVENTORY CHECK FOR KEY
+* IF FIND A CONTAINER CHECK CONTAINER FOR THE KEY
+while %actor.inventory% %% !%token%
+  eval item %actor.inventory%
+  set token %item.vnum% == %key%
+  if !token && %item.type% == CONTAINER
+    while %item.contents% && !%token%
+      eval container %item.contents%
+      set token %container.vnum% == %key%
+    end
+  end
+end
+
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -524,13 +539,13 @@ set reward 10
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
-  %send% %actor% exp:You earn %reward% EXP for your efforts.
+  %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% gold:You earn %reward% GOLD for a job well done.
+  %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
   %load% obj %key% %actor%
-  %send% %actor% key:You earn the 0x%key% Token Key.
+  %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
 #1068
