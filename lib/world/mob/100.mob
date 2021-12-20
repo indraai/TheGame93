@@ -225,6 +225,17 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#1054
+tomo raka cyoa~
+Tomo~
+1054/avatar~
+talk:#adv agent:thegame 1054/look
+~
+8 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
 #1066
 dr nera vivaldi underground empire cyoa~
 Dr. Vivaldi~
