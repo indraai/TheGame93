@@ -183,20 +183,20 @@ static void medit_setup_new(struct descriptor_data *d)
   char agentstr[MAX_STRING_LENGTH];
 
   if (OLC_NUM(d) < 10) {
-    vnum = "000"+'0';
+    vnum = "000";
   }
   else if (OLC_NUM(d) < 100) {
-    vnum = "00"+'0';
+    vnum = "00";
   }
   else if (OLC_NUM(d) < 1000) {
-    vnum = "0"+'0';
+    vnum = "0";
   }
   else {
-    vnum = ""+'0';
+    vnum = "";
   }
   /* create default strings with agent number in them; */
   sprintf(avatarstr, "%s%d/avatar", vnum, OLC_NUM(d));
-  sprintf(agentstr, "talk:#adv agent/thegame %s%d/look", vnum, OLC_NUM(d));
+  sprintf(agentstr, "talk:#adv agent/thegame %c%d/look", vnum, OLC_NUM(d));
 
   /* Allocate a scratch Agent structure. */
   CREATE(mob, struct char_data, 1);
