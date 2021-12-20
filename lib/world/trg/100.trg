@@ -24,7 +24,7 @@ James Sneed Trigger~
 Hash Tracker~
 1 acg 100
 n~
-wait 2s
+wait 3s
 You are in %actor.room.vnum% currently.
 ~
 #1003
@@ -85,7 +85,7 @@ set token %actor.inventory(%thekey%)%
 set room %self.room.vnum%
 set reward 50
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -137,7 +137,7 @@ set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 50
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -173,7 +173,7 @@ set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 60
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -209,7 +209,7 @@ set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 70
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -229,7 +229,7 @@ set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 30
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -281,7 +281,7 @@ set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -369,7 +369,7 @@ set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -482,7 +482,7 @@ set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
 set reward 10
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
@@ -502,7 +502,7 @@ set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
 set reward 10
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
@@ -522,7 +522,7 @@ set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
@@ -558,7 +558,7 @@ set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 50
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
@@ -594,7 +594,7 @@ set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 50
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
@@ -629,13 +629,13 @@ end
 Professor Bruckner~
 0 g 100
 ~
-wait 2s
+wait 3s
 emote fills his pipe with tobacco.
-wait 2s
+wait 3s
 say As I explained it's a Black Hole in the center of the Earth.
-wait 2s
+wait 3s
 emote lights his pipe
-wait 2s
+wait 3s
 say Who will volunteer to come with me?
 ~
 #1077
@@ -679,7 +679,7 @@ set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 100
 if !%token%
-  wait 2s
+  wait 3s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
