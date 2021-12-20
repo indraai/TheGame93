@@ -178,7 +178,7 @@ static void medit_setup_new(struct descriptor_data *d)
 {
   struct char_data *mob;
 
-  char vnum[4];
+  char vnum[MAX_STRING_LENGTH];
   char avatarstr[MAX_STRING_LENGTH];
   char agentstr[MAX_STRING_LENGTH];
 
