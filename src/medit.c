@@ -182,7 +182,7 @@ static void medit_setup_new(struct descriptor_data *d)
   char avatarstr[MAX_STRING_LENGTH];
   char agentstr[MAX_STRING_LENGTH];
 
-  if (OLC_NUM(d) < 10 {
+  if (OLC_NUM(d) < 10) {
     sprintf(vnum, "000%d", OLC_NUM(d));
   }
   else if (OLC_NUM(d) < 100) {
