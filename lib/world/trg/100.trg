@@ -75,7 +75,7 @@ set msg talk:#adv world:thegame 1000/closed
 while %actor.inventory% && !%token%
   eval item %actor.inventory%
   set token %item.vnum% == %key%
-  if !token && %item.type% == CONTAINER
+  if !%token% && %item.type% == CONTAINER
     while %item.contents% && !%token%
       eval container %item.contents%
       set token %container.vnum% == %key%
@@ -155,7 +155,7 @@ set token 0
 while %actor.inventory% && !%token%
   eval item %actor.inventory%
   set token %item.vnum% == %key%
-  if !token && %item.type% == CONTAINER
+  if !%token% && %item.type% == CONTAINER
     while %item.contents% && !%token%
       eval container %item.contents%
       set token %container.vnum% == %key%
