@@ -231,10 +231,10 @@ set reward 30
 if !%token%
   wait 2s
   nop %actor.exp(%reward%)%
-  %send% %actor% exp:You earn %reward% EXP for your efforts.
+  %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% gold:You earn %reward% GOLD for a job well done.
+  %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
   %load% obj %key% %actor%
   %send% %actor% key:You received the 0x%key% Token Key.
@@ -278,18 +278,18 @@ R1032 Give Token~
 ~
 set key 1032
 set token %actor.inventory(%key%)%
-set thisroom %actor.room.vnum%
+set room %actor.room.vnum%
 set reward 10
 if !%token%
   wait 2s
   nop %actor.exp(%reward%)%
-  %send% %actor% exp:You earn %reward% EXP for your efforts.
+  %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% gold:You earn %reward% GOLD for a job well done.
+  %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
   %load% obj %key% %actor%
-  %send% %actor% key:You earn the 0x%key% Token Key.
+  %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
 #1033
@@ -369,15 +369,15 @@ set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
 set reward 10
 if !%thetoken%
-  wait 1s
+  wait 2s
   nop %actor.exp(%reward%)%
-  %send% %actor% exp:You earn %reward% EXP for your efforts.
+  %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% gold:You earn %reward% GOLD for a job well done.
+  %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %send% %actor% key:You received the 0x%thekey% Token Key.
 end
 ~
 #1051
@@ -477,60 +477,60 @@ end
 R1062 Give Token~
 2 g 100
 ~
-set thekey 1062
-set thetoken %actor.inventory(%thekey%)%
+set key 1062
+set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
 set reward 10
-if !%thetoken%
-  wait 1s
+if !%token%
+  wait 2s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
 #1064
 R1064 Give Token~
 2 g 100
 ~
-set thekey 1064
-set thetoken %actor.inventory(%thekey%)%
+set key 1064
+set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
 set reward 10
-if !%thetoken%
-  wait 1s
+if !%token%
+  wait 2s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
 #1065
 R1065 Give Token~
 2 g 100
 ~
-set thekey 1065
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set key 1065
+set token %actor.inventory(%key%)%
+set room %actor.room.vnum%
 set reward 10
-if !%thetoken%
-  wait 1s
+if !%token%
+  wait 2s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
 #1068
@@ -553,20 +553,20 @@ end
 R1069 Give Token~
 2 g 100
 ~
-set thekey 1069
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set key 1069
+set token %actor.inventory(%key%)%
+set room %actor.room.vnum%
 set reward 50
-if !%thetoken%
-  wait 1s
+if !%token%
+  wait 2s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
 #1070
@@ -589,20 +589,20 @@ end
 R1072 Give Token~
 2 g 100
 ~
-set thekey 1072
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set key 1072
+set token %actor.inventory(%key%)%
+set room %actor.room.vnum%
 set reward 50
-if !%thetoken%
-  wait 1s
+if !%token%
+  wait 2s
   nop %actor.exp(%reward%)%
-  %send% %actor% exp:You earn %reward% EXP for your efforts.
+  %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% gold:You earn %reward% GOLD for a job well done.
+  %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
   %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %send% %actor% key:You received the 0x%thekey% Token Key.
 end
 ~
 #1074
@@ -616,13 +616,13 @@ set reward 100
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
-  %send% %actor% exp:You earn %reward% EXP for your efforts.
+  %send% %actor% exp:You earned %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
-  %send% %actor% gold:You earn %reward% GOLD for a job well done.
+  %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
 %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x1074 Token Key.
+  %send% %actor% key:You received the 0x1074 Token Key.
 end
 ~
 #1075
@@ -674,20 +674,20 @@ end
 R1084 Give Token~
 2 g 100
 ~
-set thekey 1084
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %self.vnum%
+set key 1084
+set token %actor.inventory(%key%)%
+set room %self.vnum%
 set reward 100
-if !%thetoken%
-  wait 1s
+if !%token%
+  wait 2s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earn %reward% EXP for your efforts.
   wait 1s
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earn %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You earn the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
 #1089
