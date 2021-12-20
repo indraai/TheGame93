@@ -156,8 +156,8 @@ static void redit_setup_new(struct descriptor_data *d)
 {
   CREATE(OLC_ROOM(d), struct room_data, 1);
 
-  OLC_ROOM(d)->name = strdup("An unfinished room");
-  OLC_ROOM(d)->description = strdup("You are in an unfinished room.");
+  OLC_ROOM(d)->name = strdup("[NAME]");
+  OLC_ROOM(d)->description = strdup("[DESCRIBE]");
   OLC_ROOM(d)->number = NOWHERE;
   OLC_ITEM_TYPE(d) = WLD_TRIGGER;
   OLC_ROOM(d)->proto_script = OLC_SCRIPT(d) = NULL;
@@ -458,7 +458,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n# Room: %d\r"
     "\nselect[a:name]:%s\r"
-    "\nselect[b:desc]:%s\r"
+    "\nselect[b:describe]:%s\r"
     "\nselect[c:flags]:%s\r"
     "\nselect[d:type]:%s\r"
     "\nselect[e:triggers]:%s\r",
