@@ -64,14 +64,15 @@ end
 Room 1005 Trigger~
 2 q 100
 ~
-set key 1013
-set dir north
 set token 0
-set room %self.vnum%
+set key 1013
+set wallet 1004
+set dir north
+
 set msg talk:#adv world:thegame 1000/closed
 
 * CHECK THE ACTORS INVENTORY AND CONTAINERS FOR THE KEY
-while %actor.inventory% %% !%token%
+while %actor.inventory% && !%token%
   eval item %actor.inventory%
   set token %item.vnum% == %key%
   if !token && %item.type% == CONTAINER
@@ -151,9 +152,7 @@ set room %self.vnum%
 set token 0
 
 * CHECK THE ACTORS INVENTORY AND CONTAINERS FOR THE KEY
-* LOOP OVER ACTORY INVENTORY CHECK FOR KEY
-* IF FIND A CONTAINER CHECK CONTAINER FOR THE KEY
-while %actor.inventory% %% !%token%
+while %actor.inventory% && !%token%
   eval item %actor.inventory%
   set token %item.vnum% == %key%
   if !token && %item.type% == CONTAINER
