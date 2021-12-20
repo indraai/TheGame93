@@ -183,13 +183,13 @@ static void medit_setup_new(struct descriptor_data *d)
   char agentstr[MAX_STRING_LENGTH];
 
   if (OLC_NUM(d) < 10) {
-    sprintf(vnum, "000%s", OLC_NUM(d));
+    sprintf(vnum, "000%d", OLC_NUM(d));
   }
   else if (OLC_NUM(d) < 100) {
-    sprintf(vnum, "00%s", OLC_NUM(d));
+    sprintf(vnum, "00%d", OLC_NUM(d));
   }
   else if (OLC_NUM(d) < 1000) {
-    sprintf(vnum, "0%s", OLC_NUM(d));
+    sprintf(vnum, "0%d", OLC_NUM(d));
   }
   /* create default strings with agent number in them; */
   sprintf(avatarstr, "%s/avatar", vnum);
