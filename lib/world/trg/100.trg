@@ -154,11 +154,15 @@ set token 0
 * CHECK THE ACTORS INVENTORY AND CONTAINERS FOR THE KEY
 while %actor.inventory% && !%token%
   eval item %actor.inventory%
-  set token %item.vnum% == %key%
+  if %item.vnum% == %key%
+    set token 1
+  end
   if !%token% && %item.type% == CONTAINER
     while %item.contents% && !%token%
-      eval container %item.contents%
-      set token %container.vnum% == %key%
+      eval con %item.contents%
+      if %con.vnum% == %key%
+        set token 1
+      end
     end
   end
 end
