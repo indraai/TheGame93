@@ -185,10 +185,10 @@ static void medit_setup_new(struct descriptor_data *d)
 
   GET_MOB_RNUM(mob) = NOBODY;
   /* Set up some default strings. */
-  GET_ALIAS(mob) = strdup("mob unfinished");
-  GET_SDESC(mob) = strdup("the unfinished mob");
-  GET_LDESC(mob) = strdup("An unfinished mob stands here.");
-  GET_DDESC(mob) = strdup("It looks unfinished.");
+  GET_ALIAS(mob) = strdup("AGENT KEYWORDS");
+  GET_SDESC(mob) = strdup("AGENT NAME");
+  GET_LDESC(mob) = strdup("%d/avatar", OLC_NUM(d));
+  GET_DDESC(mob) = strdup("talk:#adv agent/thegame %d/look", OLC_NUM(d));
   SCRIPT(mob) = NULL;
   mob->proto_script = OLC_SCRIPT(d) = NULL;
 
@@ -440,7 +440,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[a:gender]:%s\r"
   "\nselect[b:keywords]:%s\r"
   "\nselect[c:name]: %s\r"
-  "\nselect[d:describe]:%s\r"
+  "\nselect[d:avatar]:%s\r"
   "\nselect[e:look]:%s\r",
 	  OLC_NUM(d),
 	  genders[(int)GET_GENDER(mob)],
