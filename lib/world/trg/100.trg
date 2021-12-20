@@ -364,11 +364,11 @@ end
 R1047 Give Token~
 2 g 100
 ~
-set thekey 1047
-set thetoken %actor.inventory(%thekey%)%
-set thisroom %actor.room.vnum%
+set key 1047
+set token %actor.inventory(%key%)%
+set room %actor.room.vnum%
 set reward 10
-if !%thetoken%
+if !%token%
   wait 2s
   nop %actor.exp(%reward%)%
   %send% %actor% exp:You earned %reward% EXP for your efforts.
@@ -376,8 +376,8 @@ if !%thetoken%
   nop %actor.gold(%reward%)%
   %send% %actor% gold:You earned %reward% GOLD for a job well done.
   wait 1s
-  %load% obj %thekey% %actor%
-  %send% %actor% key:You received the 0x%thekey% Token Key.
+  %load% obj %key% %actor%
+  %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
 #1051
