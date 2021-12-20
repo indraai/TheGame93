@@ -178,7 +178,9 @@ static void medit_setup_new(struct descriptor_data *d)
 {
   struct char_data *mob;
 
-  char vnum[4], avatarstr[MAX_STRING_LENGTH], agentstr[MAX_STRING_LENGTH];
+  char vnum[4];
+  char avatarstr[MAX_STRING_LENGTH];
+  char agentstr[MAX_STRING_LENGTH];
 
   if (OLC_NUM(d) < 10 {
     sprintf(vnum, "000%d", OLC_NUM(d));
