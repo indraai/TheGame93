@@ -178,6 +178,11 @@ static void medit_setup_new(struct descriptor_data *d)
 {
   struct char_data *mob;
 
+  char avatarstr[MAX_STRING_LENGTH];
+  char agentstr[MAX_STRING_LENGTH];
+
+  sprintf(avatarstr, "%d/avatar", OLC_NUM(d));
+  sprintf(agentstr, "talk:#adv agent/thegame %d/look", OLC_NUM(d));
   /* Allocate a scratch Agent structure. */
   CREATE(mob, struct char_data, 1);
 
@@ -187,8 +192,8 @@ static void medit_setup_new(struct descriptor_data *d)
   /* Set up some default strings. */
   GET_ALIAS(mob) = strdup("AGENT KEYWORDS");
   GET_SDESC(mob) = strdup("AGENT NAME");
-  GET_LDESC(mob) = strdup("%d/avatar", OLC_NUM(d));
-  GET_DDESC(mob) = strdup("talk:#adv agent/thegame %d/look", OLC_NUM(d));
+  GET_LDESC(mob) = strdup(avatarstr);
+  GET_DDESC(mob) = strdup(agentstr);
   SCRIPT(mob) = NULL;
   mob->proto_script = OLC_SCRIPT(d) = NULL;
 
