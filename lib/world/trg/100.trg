@@ -66,9 +66,22 @@ Room 1005 Trigger~
 ~
 set key 1013
 set dir north
-set token %actor.inventory(%key%)%
+set token 0
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
+
+* CHECK THE ACTORS INVENTORY AND CONTAINERS FOR THE KEY
+while %actor.inventory% %% !%token%
+  eval item %actor.inventory%
+  set token %item.vnum% == %key%
+  if !token && %item.type% == CONTAINER
+    while %item.contents% && !%token%
+      eval container %item.contents%
+      set token %container.vnum% == %key%
+    end
+  end
+end
+
 if %token%
   if %direction% == %dir%
     return 0
