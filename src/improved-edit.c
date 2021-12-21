@@ -107,21 +107,21 @@ void parse_edit_action(int command, char *string, struct descriptor_data *d)
   switch (command) {
   case PARSE_HELP:
     write_to_output(d,
-            "Editor commands: /<letter>\r\n"
-            "/a: aborts editor\r\n"
-            "/c: clears buffer\r\r\n"
-            "/d#: deletes a line #\r\n"
-            "/e# <text>: changes the line at # with <text>\r\n"
-            "/f: formats text\r\n"
-            "/fi: indented formatting of text\r\n"
-            "/h: list text editor commands\r\n"
-            "/i# *text*: inserts *text* before line #\r\n"
-            "/l: lists buffer\r\n"
-            "/n: lists buffer with line numbers\r\n"
-            "/r 'a' 'b': replace 1st occurence of text 'a' in buffer with text 'b'\r\n"
-            "/ra 'a' 'b':  replace all occurences of text 'a' within buffer with text 'b'\r\n"
-            "/t:  toggles '@' and tabs\r\n"
-            "/s:  saves text\r\n");
+            "\n## Editor: /[letter]\r"
+            "\nabort: /a - aborts editor\r"
+            "\nclear: /c - clears buffer\r"
+            "\ndelete: /d# - deletes a line #\r"
+            "\nchange: /e# [text] = changes the line at # with <text>\r"
+            "\nformat: /f - formats text\r\n"
+            "\nindent: /fi - indented formatting of text\r"
+            "\nhelp: /h - list text editor commands\r"
+            "\ninsert: /i# [text] - inserts text before line #\r"
+            "\nbuffer: /l - lists buffer\r"
+            "\nbuffer: /n: lists buffer with line numbers\r"
+            "\nreplace: /r 'a' 'b' - replace 1st occurence of text 'a' in buffer with text 'b'\r"
+            "\nreplace: /ra 'a' 'b' - replace all occurences of text 'a' within buffer with text 'b'\r"
+            "\ntoggle: /t - toggles '@' and tabs\r\n"
+            "\nsave: /s -  saves text\r");
     break;
   case PARSE_TOGGLE:
     if (!*d->str) {

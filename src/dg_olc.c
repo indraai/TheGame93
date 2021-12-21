@@ -316,13 +316,13 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          break;
        case 'f':
          OLC_MODE(d) = TRIGEDIT_COMMANDS;
-         write_to_output(d, "\ncommands: (/s saves /h for help)\r");
+         write_to_output(d, "\ncode: (/s saves /h for help)\r");
          d->backstr = NULL;
          if (OLC_STORAGE(d)) {
            clear_screen(d);
-           write_to_output(d, "\n::begin:code\r");
+           write_to_output(d, "\n::begin:editor\r");
            page_string(d, OLC_STORAGE(d), TRUE);
-           write_to_output(d, "\n::end:code\r");
+           write_to_output(d, "\n::end:editor\r");
            d->backstr = strdup(OLC_STORAGE(d));
          }
          d->str = &OLC_STORAGE(d);
