@@ -1133,8 +1133,12 @@ static char *make_prompt(struct descriptor_data *d)
     snprintf(prompt, sizeof(prompt),
       "[ Return to continue, (q)uit, (r)efresh, (b)ack, or page number (%d/%d) ]",
       d->showstr_page, d->showstr_count);
+  /* this thing shows up in olc edit at the end
   else if (d->str)
-    strcpy(prompt, "] ");	/* strcpy: OK (for 'MAX_PROMPT_LENGTH >= 3') */
+    strcpy(prompt, "] ");
+    // strcpy: OK (for 'MAX_PROMPT_LENGTH >= 3')
+  */
+
   else if (STATE(d) == CON_PLAYING && !IS_NPC(d->character)) {
     int count;
     size_t len = 0;
