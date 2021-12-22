@@ -68,6 +68,8 @@ set key 1013
 set wallet 1004
 set token %actor.inventory(%key%)%
 set dir north
+set msg talk:#adv world:thegame 1000/closed
+
 if %token%
   if %direction% == %dir%
     return 0
