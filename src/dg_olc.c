@@ -220,8 +220,7 @@ static void trigedit_disp_menu(struct descriptor_data *d)
   attach_type,			                    /* attach type            */
   trgtypes,			                        /* greet/drop/etc         */
   trig->narg,			                      /* numeric arg            */
-  trig->arglist?trig->arglist:"set...", /* strict arg             */
-  OLC_STORAGE(d)		                    /* the command list       */
+  trig->arglist?trig->arglist:"set..." /* strict arg             */
   );
 
   OLC_MODE(d) = TRIGEDIT_MAIN_MENU;
