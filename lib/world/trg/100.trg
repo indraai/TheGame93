@@ -688,6 +688,22 @@ if %token%
   end
 end
 ~
+#1083
+RM1078 Token Check~
+2 q 100
+~
+set key 1108
+set dir south
+set token %actor.inventory(%key%)%
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+if %token%
+  if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
+end
+~
 #1084
 R1084 Give Token~
 2 g 100

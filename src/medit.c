@@ -448,12 +448,12 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[c:name]: %s\r"
   "\nselect[d:avatar]:%s\r"
   "\nselect[e:look]:%s\r",
-	  OLC_NUM(d),
-	  genders[(int)GET_GENDER(mob)],
-	  GET_ALIAS(mob),
-	  GET_SDESC(mob),
-	  GET_LDESC(mob),
-	  GET_DDESC(mob)
+	  OLC_NUM(d),                    // vnum
+	  genders[(int)GET_GENDER(mob)],  // gender
+	  GET_ALIAS(mob),                 // keywords
+	  GET_SDESC(mob),                 // name
+	  GET_LDESC(mob),                 // avatar
+	  GET_DDESC(mob)                  // look
 	  );
 
   sprintbitarray(MOB_FLAGS(mob), action_bits, AF_ARRAY_MAX, flags);
