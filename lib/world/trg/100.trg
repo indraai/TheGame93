@@ -695,11 +695,26 @@ set key1 1108
 set key2 1102
 set key3 1103
 set dir south
+set key4 1069
+set dir2 west
+
+* block the hills of diamons if all keys acquired.
 set token1 %actor.inventory(%key1%)%
 set token2 %actor.inventory(%key2%)%
 set token3 %actor.inventory(%key3%)%
 if %token1% && %token2% && %token3%
   if %direction% == %dir%
+    return 0
+    %echo% %msg%
+  end
+end
+
+* block the shining mountains if has token
+set key4 1069
+set dir2 west
+set token4 %actor.inventory(%key4%)%
+if %token4%
+  if %direction% == %dir2%
     return 0
     %echo% %msg%
   end
