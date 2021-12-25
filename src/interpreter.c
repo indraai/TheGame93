@@ -1586,16 +1586,14 @@ void nanny(struct descriptor_data *d, char *arg)
     echo_on(d);
 
     if (STATE(d) == CON_CNFPASSWD) {
-      write_to_output(d, "Please select your gender...\r\n"
-        "menu[Neutral]:0\r\n"
-        "menu[Male]:1\r\n"
-        "menu[Female]:2\r\n"
-        "menu[Trans Male]:3\r\n"
-        "menu[Trans Female]:4\r\n"
-        "menu[Interspecies]:5\r\n"
-        "menu[Asura]:6\r\n"
-        "menu[Asuras]:7\r\n"
-        "menu[Other]:8\r\n");
+      write_to_output(d, "\nPlease select your gender...\r"
+        "\nmenu[Neutral]:0\r"
+        "\nmenu[Male]:1\r"
+        "\nmenu[Female]:2\r"
+        "\nmenu[Interspecies]:3\r"
+        "\nmenu[Asura]:4\r"
+        "\nmenu[Asuras]:5\r"
+        "\nmenu[Other]:6\r");
       STATE(d) = CON_QGENDER;
     } else {
       save_char(d->character);
@@ -1618,21 +1616,15 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.gender = GENDER_FEMALE;
       break;
     case '3':
-      d->character->player.gender = GENDER_TMALE;
-      break;
-    case '4':
-      d->character->player.gender = GENDER_TFEMALE;
-      break;
-    case '5':
       d->character->player.gender = GENDER_INTER;
       break;
-    case '6':
+    case '4':
       d->character->player.gender = GENDER_ASURA;
       break;
-    case '7':
+    case '5':
       d->character->player.gender = GENDER_ASURAS;
       break;
-    case '8':
+    case '6':
       d->character->player.gender = GENDER_OTHER;
       break;
     default:
