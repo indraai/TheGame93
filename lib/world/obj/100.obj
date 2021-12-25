@@ -47,7 +47,7 @@ theory~
 talk:#adv object:thegame 1003/theory
 ~
 #1004
-token wallet~
+token wallet tokenwallet xwallet~
 Token Wallet~
 1004/avatar~
 talk:#adv object:thegame 1004/look
