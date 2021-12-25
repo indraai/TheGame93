@@ -231,8 +231,6 @@ static void auto_equip(struct char_data *ch, struct obj_data *obj, int location)
     case WEAR_HOLD:
       if (CAN_WEAR(obj, ITEM_WEAR_HOLD))
         break;
-      if (IS_ARJIKA(ch) && CAN_WEAR(obj, ITEM_WEAR_WIELD) && GET_OBJ_TYPE(obj) == ITEM_WEAPON)
-        break;
       location = LOC_INVENTORY;
       break;
     default:

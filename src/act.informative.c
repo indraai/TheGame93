@@ -329,7 +329,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
       }
   }
   // todo: look at fixing this code better
-  if (ch != i && (IS_SARYA(ch) || GET_LEVEL(ch) >= LVL_IMMORT)) {
+  if (ch != i && GET_LEVEL(ch) >= LVL_IMMORT) {
     send_to_char(ch, "\n::begin:inventory\r");
     act("\ninfo:You look at $s inventory...\r", FALSE, i, 0, ch, TO_VICT);
     list_obj_to_char(i->carrying, ch, SHOW_OBJ_SHORT, TRUE);

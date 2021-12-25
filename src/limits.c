@@ -85,9 +85,10 @@ int mana_gain(struct char_data *ch)
       break;
     }
 
+    /*
     if (IS_SOMA(ch) || IS_INDU(ch))
       gain *= 2;
-
+    */
     if ((GET_COND(ch, HUNGER) == 0) || (GET_COND(ch, THIRST) == 0))
       gain /= 4;
   }
@@ -126,9 +127,10 @@ int hit_gain(struct char_data *ch)
       break;
     }
 
+    /*
     if (IS_SOMA(ch) || IS_INDU(ch))
-      gain /= 2;	/* Ouch. */
-
+      gain /= 2;	// Ouch.
+    */
     if ((GET_COND(ch, HUNGER) == 0) || (GET_COND(ch, THIRST) == 0))
       gain /= 4;
   }
