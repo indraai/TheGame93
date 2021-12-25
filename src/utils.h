@@ -874,7 +874,7 @@ do                                                              \
 #define IS_ARTIST(ch)	GET_CLASS(ch) == CLASS_ARTIST
 #define IS_HACKER(ch)	GET_CLASS(ch) == CLASS_HACKER
 #define IS_ENGINEER(ch)	GET_CLASS(ch) == CLASS_ENGINEER
-#define IS_CITIZEN(ch)	GET_CITIZEN(ch) == CLASS_CITIZEN
+#define IS_CITIZEN(ch)	GET_CLASS(ch) == CLASS_CITIZEN
 
 /** 1 if ch is magic user class, 0 if not. */
 /** 1 if ch is monk class, 0 if not. */
