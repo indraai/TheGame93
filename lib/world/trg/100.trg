@@ -696,7 +696,7 @@ set key2 1102
 set key3 1103
 set dir south
 set key4 1069
-set dir2 west
+set dir2 east
 
 * block the hills of diamons if all keys acquired.
 set token1 %actor.inventory(%key1%)%
