@@ -693,10 +693,12 @@ set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
 set key1 1108
 set key2 1102
+set key3 1103
 set dir south
 set token1 %actor.inventory(%key1%)%
 set token2 %actor.inventory(%key2%)%
-if %token1% && %token2%
+set token3 %actor.inventory(%key3%)%
+if %token1% && %token2% && %token3%
   if %direction% == %dir%
     return 0
     %echo% %msg%
