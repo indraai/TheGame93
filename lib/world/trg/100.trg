@@ -692,12 +692,14 @@ end
 RM1078 Token Check~
 2 q 100
 ~
-set key 1108
-set dir south
-set token %actor.inventory(%key%)%
 set room %self.vnum%
 set msg talk:#adv world:thegame 1000/closed
-if %token%
+set key1 1108
+set key2 1102
+set dir south
+set token1 %actor.inventory(%key1%)%
+set token2 %actor.inventory(%key2%)%
+if %token1% && %token2%
   if %direction% == %dir%
     return 0
     %echo% %msg%
@@ -742,6 +744,35 @@ if !%thetoken%
   wait 1s
   %load% obj %thekey% %actor%
   %send% %actor% key:You earn the 0x%thekey% Token Key.
+end
+~
+#1095
+RM1078 Token Check~
+2 q 100
+~
+set room %self.vnum%
+set msg talk:#adv world:thegame 1000/closed
+set nkey 1108
+set skey 1102
+set ndir north
+set sdir south
+set ntoken %actor.inventory(%nkey%)%
+set stoken %actor.inventory(%skey%)%
+
+* check if the user has the north token
+if %ntoken%
+  if %direction% == %ndir%
+    return 0
+    %echo% %msg%
+  end
+end
+
+* check if the user has the south token
+if %stoken%
+  if %direction% == %sdir%
+    return 0
+    %echo% %msg%
+  end
 end
 ~
 #1102
