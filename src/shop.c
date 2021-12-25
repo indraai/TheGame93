@@ -127,12 +127,10 @@ static int is_ok_char(struct char_data *keeper, struct char_data *ch, int shop_n
     return (TRUE);
 
   if ((IS_MONK(ch) && NOTRADE_MONK(shop_nr)) ||
-      (IS_PRIEST(ch) && NOTRADE_PRIEST(shop_nr)) ||
-      (IS_SOMA(ch) && NOTRADE_SOMA(shop_nr)) ||
-      (IS_INDU(ch) && NOTRADE_INDU(shop_nr)) ||
-      (IS_SARYA(ch) && NOTRADE_SARYA(shop_nr)) ||
-      (IS_ARJIKA(ch) && NOTRADE_ARJIKA(shop_nr)) ||
-      (IS_EARTH(ch) && NOTRADE_EARTH(shop_nr))) {
+      (IS_ARTIST(ch) && NOTRADE_ARTIST(shop_nr)) ||
+      (IS_HACKER(ch) && NOTRADE_HACKER(shop_nr)) ||
+      (IS_ENGINEER(ch) && NOTRADE_ENGINEER(shop_nr)) ||
+      (IS_CITIZEN(ch) && NOTRADE_CITIZEN(shop_nr))) {
     snprintf(buf, sizeof(buf), "%s %s", GET_NAME(ch), MSG_NO_SELL_CLASS);
     do_tell(keeper, buf, cmd_tell, 0);
     return (FALSE);

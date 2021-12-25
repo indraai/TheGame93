@@ -4811,7 +4811,7 @@ nop %actor.exp(%number%)%
 
 Can also be used to turn flags on or off:
 nop %actor.is_killer(on)%
-nop %actor.IS_SARYA(off)%
+nop %actor.IS_ENGINEER(off)%
 
 Player positions including sleeping, resting, sitting, fighting, and standing
 can be set by:

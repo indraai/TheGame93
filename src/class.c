@@ -49,26 +49,22 @@ const char *class_abbrevs[] = {
 
 const char *pc_class_types[] = {
   "Monk",
-  "Priest",
-  "Indu",
-  "Soma",
-  "Sarya",
-  "Arjika",
+  "Artist",
+  "Hacker",
+  "Engineer",
+  "Citizen",
   "\n"
 };
 
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
 "\n## Player Class\r"
-"\np:Please select your player class. We have made the basic classes of available to you. Please remember this is a system that is for VEDIC people only. There are many realms in the world for individuals of other faiths/belief systems that we ask you stay away from ours."
+"\np:Please select your player class.\r"
 "\nmenu[MONK]:a\r"
-"\nl:Monks practice making Offerings to the Indra Line.\r"
-"\nmenu[PRIEST]:b\r"
-"\nl:Priests practice making Sacrifices to the Agni Line.\r"
-"\nmenu[HOUSE INDU]:e\r"
-"\nmenu[HOUSE SOMA]:f\r"
-"\nmenu[HOUSE SARYA]:g\r"
-"\nmenu[ARJIKA]:h\r";
+"\nmenu[ARTIST]:b\r"
+"\nmenu[HACKER]:c\r"
+"\nmenu[ENGINEER]:d\r"
+"\nmenu[CITIZEN]:e\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -78,11 +74,10 @@ int parse_class(char arg)
 
   switch (arg) {
   case 'a': return CLASS_MONK;    // MONK
-  case 'b': return CLASS_PRIEST;  // priest
-  case 'e': return CLASS_INDU;    // indu
-  case 'f': return CLASS_SOMA;    // soma
-  case 'g': return CLASS_SARYA;    // sarya
-  case 'h': return CLASS_ARJIKA;    // arjika
+  case 'b': return CLASS_ARTIST;  // priest
+  case 'c': return CLASS_HACKER;    // indu
+  case 'd': return CLASS_ENGINEER;    // soma
+  case 'e': return CLASS_CITIZEN;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -145,11 +140,11 @@ int prac_params[4][NUM_CLASSES] = {
  * via triggers. This code remains as an example. */
 struct guild_info_type guild_info[] = {
 
-/* ARJIKA */
- { CLASS_SOMA, 350, NORTH },
- { CLASS_INDU, 152, SOUTH },
- { CLASS_SARYA, 336, NORTH },
- { CLASS_ARJIKA, 166, SOUTH },
+/* GUILDS */
+ { CLASS_MONK, 350, NORTH },
+ { CLASS_ARTIST, 152, SOUTH },
+ { CLASS_HACKER, 336, NORTH },
+ { CLASS_ENGINEER, 166, SOUTH },
 
 /* Brass Dragon */
   { -999 /* all */ ,	5065,	WEST	},
@@ -163,7 +158,7 @@ struct guild_info_type guild_info[] = {
 byte saving_throws(int class_num, int type, int level)
 {
   switch (class_num) {
-  case CLASS_SOMA:
+  case CLASS_MONK:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -405,7 +400,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_INDU:
+  case CLASS_ARTIST:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -647,7 +642,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_SARYA:
+  case CLASS_HACKER:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -889,7 +884,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_ARJIKA:
+  case CLASS_ENGINEER:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -1193,7 +1188,7 @@ byte saving_throws(int class_num, int type, int level)
 int thaco(int class_num, int level)
 {
   switch (class_num) {
-  case CLASS_SOMA:
+  case CLASS_MONK:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1233,7 +1228,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for mage thac0.");
     }
-  case CLASS_INDU:
+  case CLASS_ARTIST:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1273,7 +1268,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for monk thac0.");
     }
-  case CLASS_SARYA:
+  case CLASS_HACKER:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1313,7 +1308,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for thief thac0.");
     }
-  case CLASS_ARJIKA:
+  case CLASS_ENGINEER:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1457,13 +1452,13 @@ void do_start(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
-  case CLASS_SOMA:
+  case CLASS_MONK:
     break;
 
-  case CLASS_INDU:
+  case CLASS_ARTIST:
     break;
 
-  case CLASS_SARYA:
+  case CLASS_HACKER:
     /*
     SET_SKILL(ch, SKILL_SNEAK, 10);
     SET_SKILL(ch, SKILL_HIDE, 5);
@@ -1474,7 +1469,7 @@ void do_start(struct char_data *ch)
     */
     break;
 
-  case CLASS_ARJIKA:
+  case CLASS_ENGINEER:
     break;
   }
 
@@ -1580,22 +1575,16 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_PRIEST) && IS_PRIEST(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_ARTIST) && IS_ARTIST(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_INDU) && IS_INDU(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_HACKER) && IS_HACKER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_SOMA) && IS_SOMA(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_ENGINEER) && IS_ENGINEER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_SARYA) && IS_SARYA(ch))
-    return TRUE;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_ARJIKA) && IS_ARJIKA(ch))
-    return TRUE;
-
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_EARTH) && IS_EARTH(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_CITIZEN) && IS_CITIZEN(ch))
     return TRUE;
 
   return FALSE;
@@ -1606,76 +1595,76 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
  * skill. */
 void init_spell_levels(void)
 {
-  /* MAGES */
-  spell_level(SPELL_MAGIC_MISSILE, CLASS_SOMA, 1);
-  spell_level(SPELL_DETECT_INVIS, CLASS_SOMA, 2);
-  spell_level(SPELL_DETECT_MAGIC, CLASS_SOMA, 2);
-  spell_level(SPELL_CHILL_TOUCH, CLASS_SOMA, 3);
-  spell_level(SPELL_INFRAVISION, CLASS_SOMA, 3);
-  spell_level(SPELL_INVISIBLE, CLASS_SOMA, 4);
-  spell_level(SPELL_ARMOR, CLASS_SOMA, 4);
-  spell_level(SPELL_BURNING_HANDS, CLASS_SOMA, 5);
-  spell_level(SPELL_LOCATE_OBJECT, CLASS_SOMA, 6);
-  spell_level(SPELL_STRENGTH, CLASS_SOMA, 6);
-  spell_level(SPELL_SHOCKING_GRASP, CLASS_SOMA, 7);
-  spell_level(SPELL_SLEEP, CLASS_SOMA, 8);
-  spell_level(SPELL_LIGHTNING_BOLT, CLASS_SOMA, 9);
-  spell_level(SPELL_BLINDNESS, CLASS_SOMA, 9);
-  spell_level(SPELL_DETECT_POISON, CLASS_SOMA, 10);
-  spell_level(SPELL_COLOR_SPRAY, CLASS_SOMA, 11);
-  spell_level(SPELL_ENERGY_DRAIN, CLASS_SOMA, 13);
-  spell_level(SPELL_CURSE, CLASS_SOMA, 14);
-  spell_level(SPELL_POISON, CLASS_SOMA, 14);
-  spell_level(SPELL_FIREBALL, CLASS_SOMA, 15);
-  spell_level(SPELL_CHARM, CLASS_SOMA, 16);
-  spell_level(SPELL_IDENTIFY, CLASS_SOMA, 20);
-  spell_level(SPELL_FLY, CLASS_SOMA, 22);
-  spell_level(SPELL_ENCHANT_WEAPON, CLASS_SOMA, 26);
-  spell_level(SPELL_CLONE, CLASS_SOMA, 30);
+  /* MONK */
+  spell_level(SPELL_MAGIC_MISSILE, CLASS_MONK, 1);
+  spell_level(SPELL_DETECT_INVIS, CLASS_MONK, 2);
+  spell_level(SPELL_DETECT_MAGIC, CLASS_MONK, 2);
+  spell_level(SPELL_CHILL_TOUCH, CLASS_MONK, 3);
+  spell_level(SPELL_INFRAVISION, CLASS_MONK, 3);
+  spell_level(SPELL_INVISIBLE, CLASS_MONK, 4);
+  spell_level(SPELL_ARMOR, CLASS_MONK, 4);
+  spell_level(SPELL_BURNING_HANDS, CLASS_MONK, 5);
+  spell_level(SPELL_LOCATE_OBJECT, CLASS_MONK, 6);
+  spell_level(SPELL_STRENGTH, CLASS_MONK, 6);
+  spell_level(SPELL_SHOCKING_GRASP, CLASS_MONK, 7);
+  spell_level(SPELL_SLEEP, CLASS_MONK, 8);
+  spell_level(SPELL_LIGHTNING_BOLT, CLASS_MONK, 9);
+  spell_level(SPELL_BLINDNESS, CLASS_MONK, 9);
+  spell_level(SPELL_DETECT_POISON, CLASS_MONK, 10);
+  spell_level(SPELL_COLOR_SPRAY, CLASS_MONK, 11);
+  spell_level(SPELL_ENERGY_DRAIN, CLASS_MONK, 13);
+  spell_level(SPELL_CURSE, CLASS_MONK, 14);
+  spell_level(SPELL_POISON, CLASS_MONK, 14);
+  spell_level(SPELL_FIREBALL, CLASS_MONK, 15);
+  spell_level(SPELL_CHARM, CLASS_MONK, 16);
+  spell_level(SPELL_IDENTIFY, CLASS_MONK, 20);
+  spell_level(SPELL_FLY, CLASS_MONK, 22);
+  spell_level(SPELL_ENCHANT_WEAPON, CLASS_MONK, 26);
+  spell_level(SPELL_CLONE, CLASS_MONK, 30);
 
-  /* MONKS */
-  spell_level(SPELL_CURE_LIGHT, CLASS_INDU, 1);
-  spell_level(SPELL_ARMOR, CLASS_INDU, 1);
-  spell_level(SPELL_CREATE_FOOD, CLASS_INDU, 2);
-  spell_level(SPELL_CREATE_WATER, CLASS_INDU, 2);
-  spell_level(SPELL_DETECT_POISON, CLASS_INDU, 3);
-  spell_level(SPELL_DETECT_ALIGN, CLASS_INDU, 4);
-  spell_level(SPELL_CURE_BLIND, CLASS_INDU, 4);
-  spell_level(SPELL_BLESS, CLASS_INDU, 5);
-  spell_level(SPELL_DETECT_INVIS, CLASS_INDU, 6);
-  spell_level(SPELL_BLINDNESS, CLASS_INDU, 6);
-  spell_level(SPELL_INFRAVISION, CLASS_INDU, 7);
-  spell_level(SPELL_PROT_FROM_EVIL, CLASS_INDU, 8);
-  spell_level(SPELL_POISON, CLASS_INDU, 8);
-  spell_level(SPELL_GROUP_ARMOR, CLASS_INDU, 9);
-  spell_level(SPELL_CURE_CRITIC, CLASS_INDU, 9);
-  spell_level(SPELL_SUMMON, CLASS_INDU, 10);
-  spell_level(SPELL_REMOVE_POISON, CLASS_INDU, 10);
-  spell_level(SPELL_IDENTIFY, CLASS_INDU, 11);
-  spell_level(SPELL_WORD_OF_RECALL, CLASS_INDU, 12);
-  spell_level(SPELL_DARKNESS, CLASS_INDU, 12);
-  spell_level(SPELL_EARTHQUAKE, CLASS_INDU, 12);
-  spell_level(SPELL_DISPEL_EVIL, CLASS_INDU, 14);
-  spell_level(SPELL_DISPEL_GOOD, CLASS_INDU, 14);
-  spell_level(SPELL_SANCTUARY, CLASS_INDU, 15);
-  spell_level(SPELL_CALL_LIGHTNING, CLASS_INDU, 15);
-  spell_level(SPELL_HEAL, CLASS_INDU, 16);
-  spell_level(SPELL_CONTROL_WEATHER, CLASS_INDU, 17);
-  spell_level(SPELL_SENSE_LIFE, CLASS_INDU, 18);
-  spell_level(SPELL_HARM, CLASS_INDU, 19);
-  spell_level(SPELL_GROUP_HEAL, CLASS_INDU, 22);
-  spell_level(SPELL_REMOVE_CURSE, CLASS_INDU, 26);
+  /* ARTIST */
+  spell_level(SPELL_CURE_LIGHT, CLASS_ARTIST, 1);
+  spell_level(SPELL_ARMOR, CLASS_ARTIST, 1);
+  spell_level(SPELL_CREATE_FOOD, CLASS_ARTIST, 2);
+  spell_level(SPELL_CREATE_WATER, CLASS_ARTIST, 2);
+  spell_level(SPELL_DETECT_POISON, CLASS_ARTIST, 3);
+  spell_level(SPELL_DETECT_ALIGN, CLASS_ARTIST, 4);
+  spell_level(SPELL_CURE_BLIND, CLASS_ARTIST, 4);
+  spell_level(SPELL_BLESS, CLASS_ARTIST, 5);
+  spell_level(SPELL_DETECT_INVIS, CLASS_ARTIST, 6);
+  spell_level(SPELL_BLINDNESS, CLASS_ARTIST, 6);
+  spell_level(SPELL_INFRAVISION, CLASS_ARTIST, 7);
+  spell_level(SPELL_PROT_FROM_EVIL, CLASS_ARTIST, 8);
+  spell_level(SPELL_POISON, CLASS_ARTIST, 8);
+  spell_level(SPELL_GROUP_ARMOR, CLASS_ARTIST, 9);
+  spell_level(SPELL_CURE_CRITIC, CLASS_ARTIST, 9);
+  spell_level(SPELL_SUMMON, CLASS_ARTIST, 10);
+  spell_level(SPELL_REMOVE_POISON, CLASS_ARTIST, 10);
+  spell_level(SPELL_IDENTIFY, CLASS_ARTIST, 11);
+  spell_level(SPELL_WORD_OF_RECALL, CLASS_ARTIST, 12);
+  spell_level(SPELL_DARKNESS, CLASS_ARTIST, 12);
+  spell_level(SPELL_EARTHQUAKE, CLASS_ARTIST, 12);
+  spell_level(SPELL_DISPEL_EVIL, CLASS_ARTIST, 14);
+  spell_level(SPELL_DISPEL_GOOD, CLASS_ARTIST, 14);
+  spell_level(SPELL_SANCTUARY, CLASS_ARTIST, 15);
+  spell_level(SPELL_CALL_LIGHTNING, CLASS_ARTIST, 15);
+  spell_level(SPELL_HEAL, CLASS_ARTIST, 16);
+  spell_level(SPELL_CONTROL_WEATHER, CLASS_ARTIST, 17);
+  spell_level(SPELL_SENSE_LIFE, CLASS_ARTIST, 18);
+  spell_level(SPELL_HARM, CLASS_ARTIST, 19);
+  spell_level(SPELL_GROUP_HEAL, CLASS_ARTIST, 22);
+  spell_level(SPELL_REMOVE_CURSE, CLASS_ARTIST, 26);
 
-  /* SARAYA */
-  spell_level(SKILL_TRACK, CLASS_SARYA, 6);
+  /* HACKER */
+  spell_level(SKILL_TRACK, CLASS_HACKER, 6);
 
-  /* ARJIKA */
-  spell_level(SKILL_KICK, CLASS_ARJIKA, 1);
-  spell_level(SKILL_RESCUE, CLASS_ARJIKA, 3);
-  spell_level(SKILL_BANDAGE, CLASS_ARJIKA, 7);
-  spell_level(SKILL_TRACK, CLASS_ARJIKA, 9);
-  spell_level(SKILL_BASH, CLASS_ARJIKA, 12);
-  spell_level(SKILL_WHIRLWIND, CLASS_ARJIKA, 16);
+  /* ENGINEER */
+  spell_level(SKILL_KICK, CLASS_ENGINEER, 1);
+  spell_level(SKILL_RESCUE, CLASS_ENGINEER, 3);
+  spell_level(SKILL_BANDAGE, CLASS_ENGINEER, 7);
+  spell_level(SKILL_TRACK, CLASS_ENGINEER, 9);
+  spell_level(SKILL_BASH, CLASS_ENGINEER, 12);
+  spell_level(SKILL_WHIRLWIND, CLASS_ENGINEER, 16);
 }
 
 /* This is the exp given to implementors -- it must always be greater than the

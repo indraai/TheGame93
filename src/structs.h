@@ -148,15 +148,13 @@
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
 #define CLASS_MONK            0 // MONK
-#define CLASS_PRIEST          1 // PRIEST
-#define CLASS_INDU            2 // NAVY
-#define CLASS_SOMA            3 // ARMY
-#define CLASS_SARYA           4 // AIR FORCE
-#define CLASS_ARJIKA          5 // ARJIKA
-#define CLASS_EARTH           5 // ARJIKA
+#define CLASS_ARTIST          1 // PRIEST
+#define CLASS_HACKER          2 // NAVY
+#define CLASS_ENGINEER        3 // ARMY
+#define CLASS_CITIZEN         4 // AIR FORCE
 
 /** Total number of available PC Classes */
-#define NUM_CLASSES	          7
+#define NUM_CLASSES	          5
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -170,14 +168,12 @@
 #define GENDER_NEUTRAL   0   /**< Neutral GENDER (Hermaphrodite) */
 #define GENDER_MALE      1   /**< Male GENDER */
 #define GENDER_FEMALE    2   /**< Female GENDER */
-#define GENDER_TMALE     3   /**< TRANS GENDER MALE */
-#define GENDER_TFEMALE   4   /**< TRANS GENDER FEMALE */
-#define GENDER_INTER     5   /**< INTER SPECIES GENDER */
-#define GENDER_DEVA      6   /**< DEVA GENDER */
-#define GENDER_DEVI      7   /**< DEVI GENDER */
-#define GENDER_OTHER     8   /**< OTHER SPECIES GENDER */
+#define GENDER_INTER     3   /**< INTER SPECIES GENDER */
+#define GENDER_ASURA     4   /**< DEVA GENDER */
+#define GENDER_ASURAS    5   /**< DEVI GENDER */
+#define GENDER_OTHER     6   /**< OTHER SPECIES GENDER */
 /** Total number of Genders */
-#define NUM_GENDERS  9
+#define NUM_GENDERS  7
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
@@ -420,27 +416,25 @@
 /* Extra object flags: used by obj_data.obj_flags.extra_flags */
 #define ITEM_GLOW              0   /**< Item is glowing */
 #define ITEM_HUM               1   /**< Item is humming */
-#define ITEM_NORENT            2   /**< Item cannot be rented */
-#define ITEM_NODONATE          3   /**< Item cannot be donated */
-#define ITEM_NOINVIS           4   /**< Item cannot be made invis	*/
-#define ITEM_INVISIBLE         5   /**< Item is invisible */
-#define ITEM_MAGIC             6   /**< Item is magical */
-#define ITEM_NODROP            7   /**< Item is cursed: can't drop */
-#define ITEM_BLESS             8   /**< Item is blessed */
-#define ITEM_ANTI_GOOD         9   /**< Not usable by good people	*/
-#define ITEM_ANTI_EVIL        10   /**< Not usable by evil people	*/
-#define ITEM_ANTI_NEUTRAL     11   /**< Not usable by neutral people */
-#define ITEM_ANTI_MONK        12   /**< Not usable by monks */
-#define ITEM_ANTI_PRIEST      13   /**< Not usable by priests */
-#define ITEM_ANTI_INDU	      14   /**< Not usable by indu */
-#define ITEM_ANTI_SOMA        15   /**< Not usable by soma */
-#define ITEM_ANTI_SARYA       16   /**< Not usable by sarya */
-#define ITEM_ANTI_ARJIKA      17   /**< Not usable by sarya */
-#define ITEM_ANTI_EARTH       18   /**< Not usable by sarya */
-#define ITEM_NOSELL           19   /**< Shopkeepers won't touch it */
-#define ITEM_QUEST            20   /**< Item is a quest item         */
+#define ITEM_INVISIBLE         2   /**< Item is invisible */
+#define ITEM_MAGIC             3   /**< Item is magical */
+#define ITEM_BLESS             4   /**< Item is blessed */
+#define ITEM_ANTI_GOOD         5   /**< Not usable by good people	*/
+#define ITEM_ANTI_EVIL         6   /**< Not usable by evil people	*/
+#define ITEM_ANTI_NEUTRAL      7   /**< Not usable by neutral people */
+#define ITEM_ANTI_MONK         8   /**< Not usable by monks */
+#define ITEM_ANTI_ARTIST       9   /**< Not usable by priests */
+#define ITEM_ANTI_HACKER	    10   /**< Not usable by indu */
+#define ITEM_ANTI_ENGINEER    11   /**< Not usable by soma */
+#define ITEM_ANTI_CITIZEN     12   /**< Not usable by sarya */
+#define ITEM_NOSELL           13   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP           14    /**< Item is cursed: can't drop */
+#define ITEM_NORENT           15    /**< Item cannot be rented */
+#define ITEM_NODONATE         16    /**< Item cannot be donated */
+#define ITEM_NOINVIS          17    /**< Item cannot be made invis	*/
+#define ITEM_QUEST            18   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    21
+#define NUM_ITEM_FLAGS    19
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
