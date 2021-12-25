@@ -69,7 +69,6 @@ set wallet 1004
 set token %actor.inventory(%key%)%
 set dir north
 set msg talk:#adv world:thegame 1000/closed
-
 if %token%
   if %direction% == %dir%
     return 0
@@ -137,7 +136,6 @@ set key 1013
 set reward 50
 set room %self.vnum%
 set token 0
-
 * CHECK THE ACTORS INVENTORY AND CONTAINERS FOR THE KEY
 while %actor.inventory% && !%token%
   eval item %actor.inventory%
@@ -153,7 +151,6 @@ while %actor.inventory% && !%token%
     end
   end
 end
-
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -689,7 +686,7 @@ if %token%
 end
 ~
 #1083
-RM1078 Token Check~
+RM1083 Token Check~
 2 q 100
 ~
 set key 1108
