@@ -6,7 +6,7 @@ talk:#adv agent:thegame 0000/look~
 256026 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-6 6 6
+6 6 5
 BareHandAttack: 10
 Str: 18
 Dex: 18
@@ -28,7 +28,7 @@ talk:#adv agent:thegame 0001/look~
 518298 0 0 0 2424 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 6
+6 6 4
 BareHandAttack: 10
 Str: 18
 Dex: 18
@@ -43,14 +43,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #2
-indra deva devas arjika~
+indra asura~
 Indra~
 0002/avatar~
 talk:#adv agent:thegame 0002/look~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6
+8 8 4
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -72,7 +72,7 @@ talk:#adv agent:thegame 0003/look~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6
+8 8 4
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -94,7 +94,7 @@ talk:#adv agent:thegame 0004/look~
 6168 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 4
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -116,7 +116,7 @@ talk:#adv agent:thegame 0005/look~
 260120 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6
+8 8 1
 BareHandAttack: 14
 Str: 13
 Dex: 13
@@ -138,7 +138,7 @@ talk:#adv agent:thegame 0006/look~
 522266 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 7
+8 8 2
 BareHandAttack: 1
 Str: 18
 Dex: 18
@@ -160,7 +160,7 @@ talk:#adv agent:thegame 0007/look~
 6296 0 0 0 2168 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+8 8 5
 BareHandAttack: 11
 E
 #8
@@ -171,7 +171,7 @@ talk:#adv agent:thegame 0008/look~
 6296 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+8 8 5
 BareHandAttack: 1
 E
 #9
@@ -182,7 +182,7 @@ talk:#adv agent:thegame 0009/look~
 2204 0 0 0 26744 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 5
 BareHandAttack: 1
 Str: 18
 Dex: 18
@@ -204,7 +204,7 @@ talk:#adv agent:thegame 0010/look~
 6168 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 4
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -219,14 +219,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #11
-yama visvedevas deity justice~
+yama asura justice~
 Yama~
 0011/avatar~
 talk:#adv agent:thegame 0011/look~
 522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 6
+6 6 4
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -241,14 +241,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #12
-yami visvedevas deity~
+yami asura~
 Yami~
 0012/avatar~
 talk:#adv agent:thegame 0012/look~
 6170 0 0 0 320 0 0 0 1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-6 6 7
+6 6 4
 BareHandAttack: 2
 Str: 16
 Dex: 16
@@ -271,7 +271,7 @@ Indra Fighter~
 2330 0 0 0 2136 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 0
+8 8 1
 BareHandAttack: 6
 Str: 18
 Dex: 18
@@ -309,7 +309,7 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #15
-agni deity visvedevas sacrifice~
+agni asura~
 Agni~
 0015/avatar~
 talk:#adv agent:thegame 0015/look
@@ -317,7 +317,7 @@ talk:#adv agent:thegame 0015/look
 2072 0 0 0 2104 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
-8 8 6
+8 8 4
 BareHandAttack: 10
 Str: 18
 Dex: 18

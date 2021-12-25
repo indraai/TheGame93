@@ -96,7 +96,7 @@ inspection the parrot has a wooden leg and an eye patch!
 8 8 1
 E
 #213
-rahu king demon~
+rahu king demon asuras~
 Demon King Rahu~
 0213/avatar
 ~
@@ -105,7 +105,7 @@ talk:#adv agent:thegame 0213/look
 2136 0 0 0 2152 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 5
 BareHandAttack: 14
 Str: 18
 Dex: 18
