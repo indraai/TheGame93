@@ -168,12 +168,18 @@
 #define GENDER_NEUTRAL   0   /**< Neutral GENDER (Hermaphrodite) */
 #define GENDER_MALE      1   /**< Male GENDER */
 #define GENDER_FEMALE    2   /**< Female GENDER */
-#define GENDER_INTER     3   /**< INTER SPECIES GENDER */
-#define GENDER_ASURA     4   /**< DEVA GENDER */
-#define GENDER_ASURAS    5   /**< DEVI GENDER */
-#define GENDER_OTHER     6   /**< OTHER SPECIES GENDER */
+#define GENDER_OTHER     3   /**< OTHER SPECIES GENDER */
 /** Total number of Genders */
-#define NUM_GENDERS  7
+#define NUM_GENDERS  4
+
+/* GENDER */
+#define RACE_HUMAN       0   /**< Neutral GENDER (Hermaphrodite) */
+#define RACE_DEVA        1   /**< Male GENDER */
+#define RACE_ASURAS      2   /**< Male GENDER */
+#define GENDER_DANAVA    3   /**< Female GENDER */
+#define GENDER_NAGA      4   /**< OTHER SPECIES GENDER */
+/** Total number of Genders */
+#define NUM_RACES       5
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
@@ -876,6 +882,7 @@ struct char_player_data
   char *description;             /**< NPC Extra descriptions */
   char *title;                   /**< PC / NPC title */
   byte gender;                      /**< PC / NPC gender */
+  byte race;                  /** PC / NPC race **/
   byte chclass;                  /**< PC / NPC class */
   byte level;                    /**< PC / NPC level */
   struct time_data time;         /**< PC AGE in days */

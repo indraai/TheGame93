@@ -444,6 +444,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Agent: %d\r"
   "\nselect[a:gender]:%s\r"
+  "\nselect[b:family]:%s\r"
   "\nselect[b:keywords]:%s\r"
   "\nselect[c:name]: %s\r"
   "\nselect[d:avatar]:%s\r"
@@ -631,6 +632,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
       }
     case 'a':
       OLC_MODE(d) = MEDIT_GENDER;
+      medit_disp_gender(d);
+      return;
+    case 'b':
+      OLC_MODE(d) = MEDIT_FAMILY;
       medit_disp_gender(d);
       return;
     case 'b':
@@ -1010,6 +1015,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
 /* Numerical responses. */
 
   case MEDIT_GENDER:
+    GET_GENDER(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_GENDERS - 1);
+    break;
+
+  case MEDIT_FAMILY:
     GET_GENDER(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_GENDERS - 1);
     break;
 

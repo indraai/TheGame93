@@ -250,6 +250,7 @@ int load_char(const char *name, struct char_data *ch)
     for (i = 1; i <= MAX_SKILLS; i++)
       GET_SKILL(ch, i) = 0;
     GET_GENDER(ch) = PFDEF_GENDER;
+    GET_RACE(ch) = PFDEF_RACE;
     GET_CLASS(ch) = PFDEF_CLASS;
     GET_LEVEL(ch) = PFDEF_LEVEL;
     GET_HEIGHT(ch) = PFDEF_HEIGHT;

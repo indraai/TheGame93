@@ -129,7 +129,7 @@ const char *sector_types[] = {
   "Mountains",
   "Water (Swim)",
   "Water (No Swim)",
-  "In Flight",
+  "Flying",
   "Underwater",
   "\n"
 };
@@ -142,10 +142,19 @@ const char *genders[] =
   "Neutral",
   "Male",
   "Female",
-  "Inter",
+  "Other",
+  "\n"
+};
+
+const char *races[] =
+{
+  "Human",
+  "Deva",
+  "Devi",
   "Asura",
   "Asuras",
-  "Other",
+  "Naga",
+  "Danava",
   "\n"
 };
 
