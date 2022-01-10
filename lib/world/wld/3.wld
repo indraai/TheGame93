@@ -926,6 +926,37 @@ D1
 ~
 ~
 0 0 362
+D3
+~
+~
+0 0 386
+S
+#364
+Vitala~
+talk:#adv room:thegame 0364/look
+~
+3 16 0 0 0 0
+D4
+~
+~
+0 0 386
+D5
+~
+~
+0 0 365
+S
+#365
+Sutala~
+[DESCRIBE]~
+3 16 0 0 0 0
+D4
+~
+~
+0 0 364
+D5
+~
+~
+0 0 367
 S
 #366
 Court of Yama~
@@ -935,6 +966,19 @@ D1
 ~
 ~
 0 0 329
+S
+#367
+Talatala~
+[DESCRIBE]~
+3 16 0 0 0 2
+D4
+~
+~
+0 0 365
+D5
+~
+~
+0 0 389
 S
 #368
 indra.academy/law~
@@ -1167,13 +1211,17 @@ D1
 0 0 384
 S
 #386
-End of the Line~
+Atala~
 Empty room.~
-3 24 0 0 0 0
+3 16 0 0 0 0
+D4
+~
+~
+0 0 251
 D5
 ~
 ~
-0 0 327
+0 0 364
 S
 #387
 The Playground~
@@ -1202,29 +1250,25 @@ D2
 0 0 387
 S
 #389
-Lost Souls~
+Mahatala~
 Empty room.~
 3 0 0 0 0 0
-D1
+D4
 ~
 ~
-0 0 388
-D2
-~
-~
-0 0 294
+0 0 367
 D5
 ~
 ~
-0 0 324
+0 0 390
 S
 #390
-Avatar MUD~
+Patala~
 Empty room.~
 3 24 0 0 0 0
 D4
 ~
 ~
-0 0 327
+0 0 389
 S
 $~

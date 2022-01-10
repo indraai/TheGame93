@@ -842,14 +842,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #163
-0x 0x_fff 0x_family d163 z3~
-0x_fff~
+renuka asuras~
+Renuka~
 0163/avatar~
 talk:#adv agent:thegame 0163/look~
 2136 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 6
+8 8 5
 BareHandAttack: 11
 SavingPara: 1
 SavingRod: 1
