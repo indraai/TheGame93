@@ -150,9 +150,9 @@
 #define CLASS_CITIZEN         0 // AIR FORCE
 #define CLASS_MONK            1 // MONK
 #define CLASS_ARTIST          2 // PRIEST
-#define CLASS_SOLDIER         3 // MILITARY
-#define CLASS_SCIENTIST       4 // NAVY
-#define CLASS_ENGINEER        5 // ARMY
+#define CLASS_SCIENTIST       3 // NAVY
+#define CLASS_ENGINEER        4 // ARMY
+#define CLASS_SOLDIER         5 // MILITARY
 
 /** Total number of available PC Classes */
 #define NUM_CLASSES	          6

@@ -873,11 +873,12 @@ do                                                              \
 #define CLASS_ABBR(ch) (IS_NPC(ch) ? "--" : class_abbrevs[(int)GET_CLASS(ch)])
 
 /** 1 if ch is magic user class, 0 if not. */
+#define IS_CITIZEN(ch)	GET_CLASS(ch) == CLASS_CITIZEN
 #define IS_MONK(ch)	GET_CLASS(ch) == CLASS_MONK
 #define IS_ARTIST(ch)	GET_CLASS(ch) == CLASS_ARTIST
-#define IS_HACKER(ch)	GET_CLASS(ch) == CLASS_HACKER
+#define IS_SCIENTIST(ch)	GET_CLASS(ch) == CLASS_SCIENTIST
 #define IS_ENGINEER(ch)	GET_CLASS(ch) == CLASS_ENGINEER
-#define IS_CITIZEN(ch)	GET_CLASS(ch) == CLASS_CITIZEN
+#define IS_SOLDIER(ch)	GET_CLASS(ch) == CLASS_SOLDIER
 
 /** 1 if ch is magic user class, 0 if not. */
 /** 1 if ch is monk class, 0 if not. */
