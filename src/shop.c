@@ -128,7 +128,7 @@ static int is_ok_char(struct char_data *keeper, struct char_data *ch, int shop_n
 
   if ((IS_MONK(ch) && NOTRADE_MONK(shop_nr)) ||
       (IS_ARTIST(ch) && NOTRADE_ARTIST(shop_nr)) ||
-      (IS_HACKER(ch) && NOTRADE_HACKER(shop_nr)) ||
+      (IS_SCIENTIST(ch) && NOTRADE_HACKER(shop_nr)) ||
       (IS_ENGINEER(ch) && NOTRADE_ENGINEER(shop_nr)) ||
       (IS_CITIZEN(ch) && NOTRADE_CITIZEN(shop_nr))) {
     snprintf(buf, sizeof(buf), "%s %s", GET_NAME(ch), MSG_NO_SELL_CLASS);
