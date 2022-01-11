@@ -2761,7 +2761,7 @@ ACMD(do_show)
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j,
 				thaco(CLASS_MONK, j),
 				thaco(CLASS_ARTIST, j),
-				thaco(CLASS_HACKER, j),
+				thaco(CLASS_SOLDIER, j),
 				thaco(CLASS_ENGINEER, j));
       if (len + nlen >= sizeof(buf))
         break;
@@ -2779,7 +2779,7 @@ ACMD(do_show)
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-6d %-6d %-6d %-6d\r\n", i,
 				level_exp(CLASS_MONK, i) - level_exp(CLASS_MONK, i - 1),
 				level_exp(CLASS_ARTIST, i) - level_exp(CLASS_ARTIST, i - 1),
-				level_exp(CLASS_HACKER, i) - level_exp(CLASS_HACKER, i - 1),
+				level_exp(CLASS_SCIENTIST, i) - level_exp(CLASS_SCIENTIST, i - 1),
 				level_exp(CLASS_ENGINEER, i) - level_exp(CLASS_ENGINEER, i - 1));
       if (len + nlen >= sizeof(buf))
         break;

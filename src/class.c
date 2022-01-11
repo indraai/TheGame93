@@ -73,11 +73,12 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
+  case 'a': return CLASS_CITIZEN;    // MONK
   case 'a': return CLASS_MONK;    // MONK
   case 'b': return CLASS_ARTIST;  // priest
-  case 'c': return CLASS_HACKER;    // indu
-  case 'd': return CLASS_ENGINEER;    // soma
-  case 'e': return CLASS_CITIZEN;    // sarya
+  case 'c': return CLASS_SCIENTIST;    // indu
+  case 'd': return CLASS_ENGINNER;    // soma
+  case 'e': return CLASS_SOLDIER;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -143,7 +144,7 @@ struct guild_info_type guild_info[] = {
 /* GUILDS */
  { CLASS_MONK, 350, NORTH },
  { CLASS_ARTIST, 152, SOUTH },
- { CLASS_HACKER, 336, NORTH },
+ { CLASS_SCIENTIST, 336, NORTH },
  { CLASS_ENGINEER, 166, SOUTH },
 
 /* Brass Dragon */
@@ -642,7 +643,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_HACKER:
+  case CLASS_SCIENTIST
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -1268,7 +1269,7 @@ int thaco(int class_num, int level)
     default:
       log("SYSERR: Missing level for monk thac0.");
     }
-  case CLASS_HACKER:
+  case CLASS_SCIENTIST:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1458,7 +1459,7 @@ void do_start(struct char_data *ch)
   case CLASS_ARTIST:
     break;
 
-  case CLASS_HACKER:
+  case CLASS_SCIENTIST:
     /*
     SET_SKILL(ch, SKILL_SNEAK, 10);
     SET_SKILL(ch, SKILL_HIDE, 5);
@@ -1656,7 +1657,7 @@ void init_spell_levels(void)
   spell_level(SPELL_REMOVE_CURSE, CLASS_ARTIST, 26);
 
   /* HACKER */
-  spell_level(SKILL_TRACK, CLASS_HACKER, 6);
+  spell_level(SKILL_TRACK, CLASS_SCIENST, 6);
 
   /* ENGINEER */
   spell_level(SKILL_KICK, CLASS_ENGINEER, 1);
