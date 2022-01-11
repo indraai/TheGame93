@@ -726,27 +726,27 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_POS;
       medit_disp_positions(d);
       return;
-    case 'h':
+    case 'i':
       OLC_MODE(d) = MEDIT_DEFAULT_POS;
       medit_disp_positions(d);
       return;
-    case 'i':
+    case 'j':
       OLC_MODE(d) = MEDIT_ATTACK;
       medit_disp_attack_types(d);
       return;
-    case 'j':
+    case 'k':
       OLC_MODE(d) = MEDIT_STATS_MENU;
       medit_disp_stats_menu(d);
       return;
-    case 'k':
+    case 'l':
       OLC_MODE(d) = MEDIT_NPC_FLAGS;
       medit_disp_mob_flags(d);
       return;
-    case 'l':
+    case 'm':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
-    case 'm':
+    case 'n':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;
