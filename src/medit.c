@@ -686,32 +686,27 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
 
     case 'c':
-      OLC_MODE(d) = MEDIT_CLASS;
-      medit_disp_class(d);
-      return;
-
-    case 'd':
       OLC_MODE(d) = MEDIT_KEYWORD;
       write_to_output(d, "\nWhat are the keywords?\r"
         "\ncurrent:%s\r",
         GET_ALIAS(OLC_MOB(d))
       );
       return;
-    case 'e':
+    case 'd':
       OLC_MODE(d) = MEDIT_S_DESC;
       write_to_output(d, "\nWhat is the agent name?\r"
         "\ncurrent:%s\r",
         GET_SDESC(OLC_MOB(d))
       );
       return;
-    case 'f':
+    case 'e':
       OLC_MODE(d) = MEDIT_L_DESC;
       write_to_output(d, "\nHow would you describe the agent?\r"
         "\ncurrent:%s\r",
         GET_LDESC(OLC_MOB(d))
       );
       return;
-    case 'g':
+    case 'f':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
       write_to_output(d, "\nWhat is the agent avatar?\r");
@@ -722,31 +717,31 @@ void medit_parse(struct descriptor_data *d, char *arg)
       string_write(d, &OLC_MOB(d)->player.description, MAX_MOB_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
       return;
-    case 'h':
+    case 'g':
       OLC_MODE(d) = MEDIT_POS;
       medit_disp_positions(d);
       return;
-    case 'i':
+    case 'h':
       OLC_MODE(d) = MEDIT_DEFAULT_POS;
       medit_disp_positions(d);
       return;
-    case 'j':
+    case 'i':
       OLC_MODE(d) = MEDIT_ATTACK;
       medit_disp_attack_types(d);
       return;
-    case 'k':
+    case 'j':
       OLC_MODE(d) = MEDIT_STATS_MENU;
       medit_disp_stats_menu(d);
       return;
-    case 'l':
+    case 'k':
       OLC_MODE(d) = MEDIT_NPC_FLAGS;
       medit_disp_mob_flags(d);
       return;
-    case 'm':
+    case 'l':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
-    case 'n':
+    case 'm':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;
