@@ -433,7 +433,7 @@
 #define ITEM_ANTI_NEUTRAL      7   /**< Not usable by neutral people */
 #define ITEM_ANTI_MONK         8   /**< Not usable by monks */
 #define ITEM_ANTI_ARTIST       9   /**< Not usable by priests */
-#define ITEM_ANTI_HACKER	    10   /**< Not usable by indu */
+#define ITEM_ANTI_SCIENTIST	  10   /**< Not usable by indu */
 #define ITEM_ANTI_ENGINEER    11   /**< Not usable by soma */
 #define ITEM_ANTI_CITIZEN     12   /**< Not usable by sarya */
 #define ITEM_NOSELL           13   /**< Shopkeepers won't touch it */
