@@ -30,7 +30,7 @@ cpp_extern const char *confirm_btn = "\nconfirm[yes]:yes\r\nconfirm[no]:no\r";
  * @todo cpp_extern isn't needed here (or anywhere) as the extern reserved word
  * works correctly with C compilers (at least in my Experience)
  * Jeremy Osborne 1/28/2008 */
-cpp_extern const char *tbamud_version = "TheGame93";
+cpp_extern const char *tbamud_version = "DevaWorld";
 
 /* strings corresponding to ordinals/bitvectors in structs.h */
 /* (Note: strings for class definitions in class.c instead of here) */

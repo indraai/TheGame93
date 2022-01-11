@@ -147,14 +147,15 @@
 /* PC classes */
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
-#define CLASS_MONK            0 // MONK
-#define CLASS_ARTIST          1 // PRIEST
-#define CLASS_HACKER          2 // NAVY
-#define CLASS_ENGINEER        3 // ARMY
-#define CLASS_CITIZEN         4 // AIR FORCE
+#define CLASS_CITIZEN         0 // AIR FORCE
+#define CLASS_MONK            1 // MONK
+#define CLASS_ARTIST          2 // PRIEST
+#define CLASS_SOLDIER         3 // MILITARY
+#define CLASS_SCIENTIST       4 // NAVY
+#define CLASS_ENGINEER        5 // ARMY
 
 /** Total number of available PC Classes */
-#define NUM_CLASSES	          5
+#define NUM_CLASSES	          6
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -170,16 +171,18 @@
 #define GENDER_FEMALE    2   /**< Female GENDER */
 #define GENDER_OTHER     3   /**< OTHER SPECIES GENDER */
 /** Total number of Genders */
-#define NUM_GENDERS  4
+#define NUM_GENDERS      4
 
-/* GENDER */
+/* RACE */
 #define RACE_HUMAN       0   /**< Neutral GENDER (Hermaphrodite) */
 #define RACE_DEVA        1   /**< Male GENDER */
-#define RACE_ASURAS      2   /**< Male GENDER */
-#define GENDER_DANAVA    3   /**< Female GENDER */
-#define GENDER_NAGA      4   /**< OTHER SPECIES GENDER */
+#define RACE_DEVI        2   /**< Male GENDER */
+#define RACE_ASURA       3   /**< Male GENDER */
+#define RACE_ASURAS      4   /**< Male GENDER */
+#define RACE_NAGA        5   /**< OTHER SPECIES GENDER */
+#define RACE_DANAVA      6   /**< Female GENDER */
 /** Total number of Genders */
-#define NUM_RACES       5
+#define NUM_RACES        7
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */

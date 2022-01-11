@@ -512,7 +512,7 @@ do                                                              \
 #define GET_GENDER(ch)	((ch)->player.gender)
 
 /** THE FAMILY OF THE PLAYER **/
-#define GET_FAMILY(ch)	((ch)->player.family)
+#define GET_RACE(ch)	((ch)->player.race)
 
 /** Current strength of ch. */
 #define GET_STR(ch)     ((ch)->aff_abils.str)
