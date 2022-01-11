@@ -1657,7 +1657,7 @@ void init_spell_levels(void)
   spell_level(SPELL_REMOVE_CURSE, CLASS_ARTIST, 26);
 
   /* HACKER */
-  spell_level(SKILL_TRACK, CLASS_SCIENST, 6);
+  spell_level(SKILL_TRACK, CLASS_SCIENTIST, 6);
 
   /* ENGINEER */
   spell_level(SKILL_KICK, CLASS_ENGINEER, 1);
