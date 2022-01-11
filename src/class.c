@@ -74,11 +74,11 @@ int parse_class(char arg)
 
   switch (arg) {
   case 'a': return CLASS_CITIZEN;    // MONK
-  case 'a': return CLASS_MONK;    // MONK
-  case 'b': return CLASS_ARTIST;  // priest
-  case 'c': return CLASS_SCIENTIST;    // indu
-  case 'd': return CLASS_ENGINEER;    // soma
-  case 'e': return CLASS_SOLDIER;    // sarya
+  case 'b': return CLASS_MONK;    // MONK
+  case 'c': return CLASS_ARTIST;  // priest
+  case 'd': return CLASS_SCIENTIST;    // indu
+  case 'e': return CLASS_ENGINEER;    // soma
+  case 'f': return CLASS_SOLDIER;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
