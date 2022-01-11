@@ -643,7 +643,7 @@ byte saving_throws(int class_num, int type, int level)
       break;
     }
     break;
-  case CLASS_SCIENTIST
+  case CLASS_SCIENTIST:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
