@@ -483,7 +483,6 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  OLC_NUM(d),                    // vnum
 	  genders[(int)GET_GENDER(mob)],  // gender
 	  races[(int)GET_RACE(mob)],      // RACE
-	  races[(int)GET_CLASS(mob)],      // CLASS
 	  GET_ALIAS(mob),                 // keywords
 	  GET_SDESC(mob),                 // name
 	  GET_LDESC(mob),                 // avatar
@@ -741,7 +740,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
-    case 'm':
+    case 'n':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;
