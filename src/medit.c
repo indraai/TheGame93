@@ -482,6 +482,8 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[g:look]:%s\r",
 	  OLC_NUM(d),                    // vnum
 	  genders[(int)GET_GENDER(mob)],  // gender
+	  races[(int)GET_RACE(mob)],      // RACE
+	  races[(int)GET_CLASS(mob)],      // CLASS
 	  GET_ALIAS(mob),                 // keywords
 	  GET_SDESC(mob),                 // name
 	  GET_LDESC(mob),                 // avatar
@@ -1064,7 +1066,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     GET_RACE(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_RACES - 1);
     break;
 
-  case MEDIT_RACE:
+  case MEDIT_CLASS:
     GET_CLASS(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_CLASSES - 1);
     break;
 
