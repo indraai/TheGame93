@@ -49,12 +49,12 @@ const char *pc_class_types[] = {
 const char *class_menu =
 "\n## Player Class\r"
 "\np:Please select your player class...\r"
-"\nmenu[CITIZEN]:a\r"
-"\nmenu[MONK]:b\r"
-"\nmenu[ARTIST]:c\r"
-"\nmenu[SCIENTIST]:d\r"
-"\nmenu[ENGINEER]:e\r"
-"\nmenu[SOLDIER]:f\r";
+"\nmenu[Citizen]:a\r"
+"\nmenu[Monk]:b\r"
+"\nmenu[Artist]:c\r"
+"\nmenu[Scientist]:d\r"
+"\nmenu[Engineer]:e\r"
+"\nmenu[Soldier]:f\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */

@@ -444,12 +444,14 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Agent: %d\r"
   "\nselect[a:gender]:%s\r"
-  "\nselect[b:keywords]:%s\r"
-  "\nselect[c:name]: %s\r"
-  "\nselect[d:avatar]:%s\r"
-  "\nselect[e:look]:%s\r",
+  "\nselect[b:race]:%s\r"
+  "\nselect[c:keywords]:%s\r"
+  "\nselect[d:name]: %s\r"
+  "\nselect[e:avatar]:%s\r"
+  "\nselect[f:look]:%s\r",
 	  OLC_NUM(d),                    // vnum
 	  genders[(int)GET_GENDER(mob)],  // gender
+	  races[(int)GET_RACE(mob)],     // race
 	  GET_ALIAS(mob),                 // keywords
 	  GET_SDESC(mob),                 // name
 	  GET_LDESC(mob),                 // avatar
@@ -460,16 +462,16 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\nselect[f:position]:%s\r"
-	  "\nselect[g:default]:%s\r"
-	  "\nselect[h:attack]:%s\r"
-    "\nselect[i:stats]: set...\r"
-	  "\nselect[j:persona]:%s\r"
-	  "\nselect[k:affinity]:%s\r"
-    "\nselect[l:triggers]:%s\r"
+	  "\nselect[g:position]:%s\r"
+	  "\nselect[h:default]:%s\r"
+	  "\nselect[i:attack]:%s\r"
+    "\nselect[j:stats]: set...\r"
+	  "\nselect[k:persona]:%s\r"
+	  "\nselect[l:affinity]:%s\r"
+    "\nselect[m:triggers]:%s\r"
     "\n::begin:buttons\r"
-    "\nbmud[copy agent]:p\r"
-	  "\nbmud[delete agent]:x\r"
+    "\nbmud[copy agent]:1\r"
+	  "\nbmud[delete agent]:2\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 
@@ -629,32 +631,51 @@ void medit_parse(struct descriptor_data *d, char *arg)
         cleanup_olc(d, CLEANUP_ALL);
         return;
       }
+    case '1':
+      write_to_output(d, "\nCopy which Agent?\r");
+      OLC_MODE(d) = MEDIT_COPY;
+      return;
+
+    case '2':
+      write_to_output(d, "\nAre you sure you want to delete this Agent?\r");
+      OLC_MODE(d) = MEDIT_DELETE;
+      return;
+
     case 'a':
       OLC_MODE(d) = MEDIT_GENDER;
       medit_disp_gender(d);
       return;
+
     case 'b':
+      OLC_MODE(d) = MEDIT_RACE;
+      medit_disp_race(d);
+      return;
+
+    case 'c':
       OLC_MODE(d) = MEDIT_KEYWORD;
       write_to_output(d, "\nSet the Agent keywords...\r"
         "\ncurrent:%s\r",
         GET_ALIAS(OLC_MOB(d))
       );
       return;
-    case 'c':
+
+    case 'd':
       OLC_MODE(d) = MEDIT_S_DESC;
       write_to_output(d, "\nAgent name\r"
         "\ncurrent:%s\r",
         GET_SDESC(OLC_MOB(d))
       );
       return;
-    case 'd':
+
+    case 'e':
       OLC_MODE(d) = MEDIT_L_DESC;
       write_to_output(d, "\nAgent Description\r"
         "\ncurrent:%s\r",
         GET_LDESC(OLC_MOB(d))
       );
       return;
-    case 'e':
+
+    case 'f':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
       write_to_output(d, "\nAgent Avatar\r");
@@ -665,42 +686,42 @@ void medit_parse(struct descriptor_data *d, char *arg)
       string_write(d, &OLC_MOB(d)->player.description, MAX_MOB_DESC, 0, oldtext);
       OLC_VAL(d) = 1;
       return;
-    case 'f':
+
+    case 'g':
       OLC_MODE(d) = MEDIT_POS;
       medit_disp_positions(d);
       return;
-    case 'g':
+
+    case 'h':
       OLC_MODE(d) = MEDIT_DEFAULT_POS;
       medit_disp_positions(d);
       return;
-    case 'h':
+
+    case 'i':
       OLC_MODE(d) = MEDIT_ATTACK;
       medit_disp_attack_types(d);
       return;
-    case 'i':
+
+    case 'j':
       OLC_MODE(d) = MEDIT_STATS_MENU;
       medit_disp_stats_menu(d);
       return;
-    case 'j':
+
+    case 'k':
       OLC_MODE(d) = MEDIT_NPC_FLAGS;
       medit_disp_mob_flags(d);
       return;
-    case 'k':
+
+    case 'l':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
-    case 'l':
+
+    case 'm':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;
-    case 'p':
-      write_to_output(d, "\nCopy which Agent?\r");
-      OLC_MODE(d) = MEDIT_COPY;
-      return;
-    case 'x':
-      write_to_output(d, "\nAre you sure you want to delete this Agent?\r");
-      OLC_MODE(d) = MEDIT_DELETE;
-      return;
+
     default:
       medit_disp_menu(d);
       return;
