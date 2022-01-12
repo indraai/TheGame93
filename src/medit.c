@@ -33,6 +33,7 @@ static void init_mobile(struct char_data *mob);
 static void medit_save_to_disk(zone_vnum zone_num);
 static void medit_disp_positions(struct descriptor_data *d);
 static void medit_disp_gender(struct descriptor_data *d);
+static void medit_disp_race(struct descriptor_data *d);
 static void medit_disp_attack_types(struct descriptor_data *d);
 static bool medit_illegal_mob_flag(int fl);
 static int  medit_get_mob_flag_by_number(int num);
@@ -331,6 +332,20 @@ static void medit_disp_gender(struct descriptor_data *d)
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_GENDERS; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", genders[i], ++count);
+  }
+  write_to_output(d, "\n::end:buttons\r");
+}
+
+/* Display the race of the Agent. */
+static void medit_disp_race(struct descriptor_data *d)
+{
+  int i, count = 0;
+  // get_char_colors(d->character);
+  clear_screen(d);
+  write_to_output(d, "\n## Race\r"
+    "\n::begin:buttons\r");
+  for (i = 0; i < NUM_RACES; i++) {
+    write_to_output(d, "\nbmud[%s]:%d\r", races[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
