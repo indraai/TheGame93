@@ -1049,6 +1049,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
     GET_GENDER(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_GENDERS - 1);
     break;
 
+  case MEDIT_RACE:
+    GET_RACE(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_RACES - 1);
+    break;
+
   case MEDIT_HITROLL:
     GET_HITROLL(OLC_MOB(d)) = LIMIT(i, 0, 50);
     OLC_VAL(d) = TRUE;
