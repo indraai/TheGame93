@@ -918,6 +918,7 @@ ACMD(do_score)
     "\nname: %s\r"
     "\nage: %dyrs\r"
     "\ngender: %s\r"
+    "\nrace: %s\r"
     "\nclass: %s\r"
     "\nrank: %s\r"
     "\nlevel: %d"
@@ -927,6 +928,7 @@ ACMD(do_score)
     GET_NAME(ch),
     GET_AGE(ch),
     genders[(int) GET_GENDER(ch)],
+    races[(int) GET_RACE(ch)],
     pc_class_types[GET_CLASS(ch)],
     GET_TITLE(ch),
     GET_LEVEL(ch),
