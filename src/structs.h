@@ -437,14 +437,15 @@
 #define ITEM_ANTI_SCIENTIST	  10   /**< Not usable by indu */
 #define ITEM_ANTI_ENGINEER    11   /**< Not usable by soma */
 #define ITEM_ANTI_CITIZEN     12   /**< Not usable by sarya */
-#define ITEM_NOSELL           13   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP           14    /**< Item is cursed: can't drop */
-#define ITEM_NORENT           15    /**< Item cannot be rented */
-#define ITEM_NODONATE         16    /**< Item cannot be donated */
-#define ITEM_NOINVIS          17    /**< Item cannot be made invis	*/
-#define ITEM_QUEST            18   /**< Item is a quest item         */
+#define ITEM_ANTI_SOLDIER     13   /**< Not usable by sarya */
+#define ITEM_NOSELL           14   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP           15    /**< Item is cursed: can't drop */
+#define ITEM_NORENT           16    /**< Item cannot be rented */
+#define ITEM_NODONATE         17    /**< Item cannot be donated */
+#define ITEM_NOINVIS          18    /**< Item cannot be made invis	*/
+#define ITEM_QUEST            19   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    19
+#define NUM_ITEM_FLAGS    20
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
