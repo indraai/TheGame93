@@ -318,7 +318,7 @@
 #define CON_PASSWORD      4 /**< Login with password */
 #define CON_NEWPASSWD     5 /**< New character, create password */
 #define CON_CNFPASSWD     6 /**< New character, confirm password */
-#define CON_QGENDER          7 /**< Choose character gender */
+#define CON_QGENDER       7 /**< Choose character gender */
 #define CON_QCLASS        8 /**< Choose character class */
 #define CON_RMOTD         9 /**< Reading the message of the day */
 #define CON_MENU         10 /**< At the main menu */
@@ -344,6 +344,7 @@
 #define CON_IBTEDIT      30 /**< OLC mode - idea/bug/typo edit */
 #define CON_MSGEDIT      31 /**< OLC mode - message editor */
 #define CON_GET_PROTOCOL 32 /**< Used at log-in while attempting to get protocols > */
+#define CON_QRACE        33 /** CHOOSE CHARACTER RACE **/
 
 /* OLC States range - used by IS_IN_OLC and IS_PLAYING */
 #define FIRST_OLC_STATE CON_OEDIT     /**< The first CON_ state that is an OLC */

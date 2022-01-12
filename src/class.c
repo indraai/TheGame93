@@ -26,45 +26,35 @@
 
 /* Names first */
 const char *class_abbrevs[] = {
+  "Ci",
   "Mo",
   "Ar",
-  "Na",
-  "Ma",
-  "Ai",
-  "Sp",
-  "Ag",
-  "Ng",
-  "Cg",
-  "Ci",
-  "Fb",
-  "Ns",
-  "Do",
-  "Da",
-  "Di",
-  "Aj",
-  "Su",
-  "Sa",
+  "Sc",
+  "En",
+  "So",
   "\n"
 };
 
 const char *pc_class_types[] = {
+  "Citizen",
   "Monk",
   "Artist",
-  "Hacker",
+  "Scientist",
   "Engineer",
-  "Citizen",
+  "Soldier",
   "\n"
 };
 
 /* The menu for choosing a class in interpreter.c: */
 const char *class_menu =
 "\n## Player Class\r"
-"\np:Please select your player class.\r"
-"\nmenu[MONK]:a\r"
-"\nmenu[ARTIST]:b\r"
-"\nmenu[HACKER]:c\r"
-"\nmenu[ENGINEER]:d\r"
-"\nmenu[CITIZEN]:e\r";
+"\np:Please select your player class...\r"
+"\nmenu[CITIZEN]:a\r"
+"\nmenu[MONK]:b\r"
+"\nmenu[ARTIST]:c\r"
+"\nmenu[SCIENTIST]:d\r"
+"\nmenu[ENGINEER]:e\r"
+"\nmenu[SOLDIER]:f\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -1586,6 +1576,9 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_CITIZEN) && IS_CITIZEN(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_SOLDIER) && IS_SOLDIER(ch))
     return TRUE;
 
   return FALSE;
