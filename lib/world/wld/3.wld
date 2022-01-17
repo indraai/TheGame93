@@ -971,14 +971,14 @@ S
 Talatala~
 [DESCRIBE]~
 3 16 0 0 0 2
+D3
+~
+~
+0 0 389
 D4
 ~
 ~
 0 0 365
-D5
-~
-~
-0 0 389
 S
 #368
 indra.academy/law~
@@ -1253,7 +1253,7 @@ S
 Mahatala~
 Empty room.~
 3 0 0 0 0 0
-D4
+D1
 ~
 ~
 0 0 367
