@@ -278,15 +278,15 @@ talk:#adv agent:thegame 0119/look~
 8 8 1
 E
 #120
-saryanavan sarya visvedevas deity~
+saryanavan sarya deva deity~
 Sarya~
 0120/avatar~
 talk:#adv agent:thegame 0120/look
 ~
-6168 0 0 0 24 0 0 0 500 E
+6170 0 0 0 24 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6
+8 8 1
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -329,6 +329,28 @@ SavingBreath: 3
 SavingSpell: 3
 E
 T 122
+#123
+idne deva deity~
+Idne~
+123/avatar~
+talk:#adv agent/thegame 123/look~
+260376 0 0 0 2168 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1
+BareHandAttack: 9
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
 #124
 0x super king adc daycare~
 0x King of Arjika Daycare~
