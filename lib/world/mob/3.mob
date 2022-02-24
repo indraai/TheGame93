@@ -180,11 +180,11 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #310
-maya danava~
+maya danava talatala~
 Maya~
 310/avatar~
 talk:#adv agent/thegame 310/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -205,7 +205,7 @@ kuhaka naga kadru~
 Kuhaka~
 311/avatar~
 talk:#adv agent/thegame 311/look~
-6170 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -227,7 +227,7 @@ Taksaka~
 312/avatar~
 talk:#adv agent/thegame 312/look
 ~
-6170 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -244,12 +244,12 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #313
-susena naga kadru~
+susena asuras kadru~
 Susena~
 313/avatar~
 talk:#adv agent/thegame 313/look
 ~
-6170 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -266,12 +266,12 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #314
-kaliya naga kadru~
+kaliya asuras kadru~
 Kaliya~
 314/avatar~
 talk:#adv agent/thegame 314/look
 ~
-6170 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
 8 8 1
@@ -292,7 +292,7 @@ vasuki chief naga~
 Vasuki~
 315/avatar~
 talk:#adv agent/thegame 315/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 1
@@ -313,7 +313,7 @@ sankha naga patala~
 Sankha~
 316/avatar~
 talk:#adv agent/thegame 316/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -334,7 +334,7 @@ kulika naga patala~
 Kulika~
 317/avatar~
 talk:#adv agent/thegame 317/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -355,7 +355,7 @@ sveta naga patala~
 S’veta~
 318/avatar~
 talk:#adv agent/thegame 318/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -376,7 +376,7 @@ dhananjaya naga patala~
 Dhananjaya~
 319/avatar~
 talk:#adv agent/thegame 319/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -397,7 +397,7 @@ mahasankha naga patala~
 Mahas’ankha~
 320/avatar~
 talk:#adv agent/thegame 320/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -418,7 +418,7 @@ dhritarastra naga patala~
 Dhritarastra~
 321/avatar~
 talk:#adv agent/thegame 321/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -439,7 +439,7 @@ sankhachuda naga patala~
 S’ankhachuda~
 322/avatar~
 talk:#adv agent/thegame 322/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -460,7 +460,7 @@ kamvala naga patala~
 Kamvala~
 323/avatar~
 talk:#adv agent/thegame 323/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -481,7 +481,7 @@ asvatara naga patala~
 As’vatara~
 324/avatar~
 talk:#adv agent/thegame 324/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
@@ -502,7 +502,7 @@ devopadattaka naga patala~
 Devopadattaka~
 325/avatar~
 talk:#adv agent/thegame 325/look~
-2074 0 0 0 0 0 0 0 0 E
+6424 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1
