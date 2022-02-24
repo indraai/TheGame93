@@ -181,8 +181,9 @@
 #define RACE_ASURAS      4   /**< Male GENDER */
 #define RACE_NAGA        5   /**< OTHER SPECIES GENDER */
 #define RACE_DANAVA      6   /**< Female GENDER */
-/** Total number of Genders */
-#define NUM_RACES        7
+#define RACE_DAITYAS     7   /**< Female GENDER */
+/** Total number of RACES */
+#define NUM_RACES        8
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
