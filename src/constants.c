@@ -155,7 +155,7 @@ const char *races[] =
   "Asuras",
   "Naga",
   "Danava",
-  "Daityas"
+  "Daityas",
   "\n"
 };
 
