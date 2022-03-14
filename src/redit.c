@@ -124,7 +124,7 @@ ACMD(do_oasis_redit)
   }
 
   if (save) {
-    send_to_char(ch, "\ninfo: Saving all rooms in zone %d.", zone_table[OLC_ZNUM(d)].number);
+    send_to_char(ch, "\ninfo:Saving all rooms in zone %d.", zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE, "OLC: %s saves room info for zone %d.", GET_NAME(ch), zone_table[OLC_ZNUM(d)].number);
 
     /* Save the rooms. */

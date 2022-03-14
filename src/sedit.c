@@ -61,11 +61,11 @@ ACMD(do_oasis_sedit)
   two_arguments(argument, buf1, buf2);
 
   if (!*buf1) {
-    send_to_char(ch, "Specify a shop VNUM to edit.\r\n");
+    send_to_char(ch, "\ninfo:Specify a shop VNUM to edit.\r");
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+      send_to_char(ch, "\nalert:Yikes!  Stop that, someone will get hurt!\r");
       return;
     }
 
@@ -83,7 +83,7 @@ ACMD(do_oasis_sedit)
     }
 
     if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
+      send_to_char(ch, "\ninfo:Save which zone?\r");
       return;
     }
   }
@@ -93,7 +93,7 @@ ACMD(do_oasis_sedit)
     number = atoi(buf1);
 
   if (number < IDXTYPE_MIN || number > IDXTYPE_MAX) {
-    send_to_char(ch, "That shop VNUM can't exist.\r\n");
+    send_to_char(ch, "\ninfo:That shop VNUM can't exist.\r");
     return;
   }
 
@@ -101,7 +101,7 @@ ACMD(do_oasis_sedit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_SEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That shop is currently being edited by %s.\r\n",
+        send_to_char(ch, "\ninfo:That shop is currently being edited by %s.\r",
           PERS(d->character, ch));
         return;
       }
@@ -123,7 +123,7 @@ ACMD(do_oasis_sedit)
   /* Find the zone. */
   OLC_ZNUM(d) = save ? real_zone(number) : real_zone_by_thing(number);
   if (OLC_ZNUM(d) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+    send_to_char(ch, "\ninfo:Sorry, there is no zone for that number!\r");
     free(d->olc);
     d->olc = NULL;
     return;
@@ -139,7 +139,7 @@ ACMD(do_oasis_sedit)
   }
 
   if (save) {
-    send_to_char(ch, "Saving all shops in zone %d.\r\n",
+    send_to_char(ch, "\nsave:Saving all shops in zone %d.\r",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves shop info for zone %d.",
@@ -226,14 +226,14 @@ static void sedit_products_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "## Products\r\n");
+  write_to_output(d, "\n## Products\r");
   for (i = 0; S_PRODUCT(shop, i) != NOTHING; i++) {
-    write_to_output(d, "%d: %s\r\n", i,
+    write_to_output(d, "\n%d: %s\r", i,
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
-  write_to_output(d, "menu[add product]:a\r\n"
-	  "menu[delete product]:b\r\n"
-	  "menu[quit]:0\r\n"
+  write_to_output(d, "\nmenu[add product]:a\r"
+	  "\nmenu[delete product]:b\r"
+	  "\nmenu[quit]:0\r"
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
@@ -301,17 +301,16 @@ static void sedit_namelist_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "##              Type   Namelist\r\n\r\n");
+  write_to_output(d, "\n## Type Namelist\r");
   for (i = 0; S_BUYTYPE(shop, i) != NOTHING; i++) {
-    write_to_output(d, "%2d - %s%15s%s - %s%s%s\r\n", i, cyn,
-		item_types[S_BUYTYPE(shop, i)], nrm, yel,
-		S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "<None>", nrm);
+    write_to_output(d, "\n%d. %s - %s\r", i,
+    item_types[S_BUYTYPE(shop, i)],
+    S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "<None>", nrm);
   }
   write_to_output(d, "\r\n"
-	  "%sA%s) Add a new entry.\r\n"
-	  "%sD%s) Delete an entry.\r\n"
-	  "%sQ%s) Quit\r\n"
-	  "Enter choice : ", grn, nrm, grn, nrm, grn, nrm);
+	  "\nmenu[Add New Entry]:A\r"
+	  "\nmenu[Deleten Entry]:D\r"
+	  "\nmenu[quit]:Q\r");
 
   OLC_MODE(d) = SEDIT_NAMELIST_MENU;
 }
@@ -399,10 +398,12 @@ static void sedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[o:player]:%s\r"
     "\n### No Buy!"
 	  "\nselect[p:keeper]:%s\r"
+    "\n::begin:buttons\r"
 	  "\nbmud[Products]:q\r"
     "\nbmud[Rooms]:r\r"
 	  "\nbmud[Types]:s\r"
     "\nbmud[Copy Shop]:W\r"
+    "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
