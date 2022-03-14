@@ -305,7 +305,7 @@ static void sedit_namelist_menu(struct descriptor_data *d)
   for (i = 0; S_BUYTYPE(shop, i) != NOTHING; i++) {
     write_to_output(d, "\n%d. %s - %s\r", i,
     item_types[S_BUYTYPE(shop, i)],
-    S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "<None>", nrm);
+    S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "<None>");
   }
   write_to_output(d, "\r\n"
 	  "\nmenu[Add New Entry]:A\r"
