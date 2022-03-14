@@ -1285,7 +1285,7 @@ D5
 0 0 392
 S
 #392
-Goloka~
+GoLoka~
 talk:#adv room:thegame 0392/look
 ~
 3 24 0 0 0 0
@@ -1293,5 +1293,19 @@ D4
 ~
 ~
 0 0 391
+D5
+~
+~
+0 0 393
+S
+#393
+DevaLoka~
+talk:#adv world:thegame 0393/look
+~
+3 24 0 0 0 0
+D4
+~
+~
+0 0 392
 S
 $~
