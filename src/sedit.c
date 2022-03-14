@@ -229,7 +229,7 @@ static void sedit_products_menu(struct descriptor_data *d)
   write_to_output(d, "\n## Products\r");
   for (i = 0; S_PRODUCT(shop, i) != NOTHING; i++) {
     write_to_output(d, "\n%d: %d - %s\r", i,
-	    obj_proto[S_PRODUCT(shop, i)].vnum,
+	    obj_index[S_PRODUCT(shop, i)].vnum,
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
   write_to_output(d, "\nmenu[add product]:a\r"
