@@ -2,8 +2,11 @@
 Quinn Michaels~
 deva.world~
 200 299 20 2 d 0 0 0 -1 -1
+M 0 199 1 278 	(Karry)
+G 1 180 100 -1 	(Candy Dirt)
+G 1 114 25 -1 	(Pretzel)
 M 0 102 1 281 	(Parry)
-G 1 130 25 -1 	(a torch)
+G 1 130 25 -1 	(Torch)
 G 1 131 25 -1 	(Lantern)
 G 1 132 25 -1 	(Small Bag)
 G 1 133 25 -1 	(Backpack)
@@ -61,8 +64,6 @@ G 1 219 100 -1 	(Jalapeno Cheese Bagel)
 G 1 220 100 -1 	(Jalapeno Cheese Bites)
 M 0 189 1 230 	(Trstama)
 M 0 196 1 221 	(Marry)
-M 0 199 1 278 	(Karry)
-G 1 180 100 -1 	(Candy Dirt)
 M 0 214 2 132 	(SecurityDEVA D214 (Guard))
 M 0 215 2 132 	(SecurityDEVA D215 (Guard))
 M 0 214 2 133 	(SecurityDEVA D214 (Guard))
