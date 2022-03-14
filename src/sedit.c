@@ -233,7 +233,7 @@ static void sedit_products_menu(struct descriptor_data *d)
   }
   write_to_output(d, "\nmenu[add product]:a\r"
 	  "\nmenu[delete product]:b\r"
-	  "\nmenu[quit]:0\r"
+	  "\nmenu[done]:0\r"
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
@@ -287,7 +287,7 @@ static void sedit_rooms_menu(struct descriptor_data *d)
   write_to_output(d, "\nmenu[Add Store Room]:a\r"
 	  "\nmenu[Delete Store Room]:b\r"
 	  "\nmenu[Compact Dispaly]:c\r"
-	  "\rmenu[quit]:0\r");
+	  "\rmenu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
@@ -301,7 +301,7 @@ static void sedit_namelist_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  write_to_output(d, "\n## Type Namelist\r");
+  write_to_output(d, "\n## Types\r");
   for (i = 0; S_BUYTYPE(shop, i) != NOTHING; i++) {
     write_to_output(d, "\n%d. %s - %s\r", i,
     item_types[S_BUYTYPE(shop, i)],
@@ -310,7 +310,7 @@ static void sedit_namelist_menu(struct descriptor_data *d)
   write_to_output(d, "\r\n"
 	  "\nmenu[Add New Entry]:A\r"
 	  "\nmenu[Deleten Entry]:D\r"
-	  "\nmenu[quit]:Q\r");
+	  "\nmenu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_NAMELIST_MENU;
 }
@@ -580,8 +580,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       write_to_output(d, "\r\nDelete which entry? : ");
       OLC_MODE(d) = SEDIT_DELETE_TYPE;
       return;
-    case 'q':
-    case 'Q':
+    case '0':
       break;
     }
     break;
