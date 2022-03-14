@@ -388,21 +388,21 @@ static void sedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[g:Buy Profit]:%1.2f\r"
     "\nselect[h:Sell Success]:%s\r"
     "\nselect[i:Sell Profit]:%1.2f\r"
-	  "\nselect[j:No Trade With]:%s\r"
+	  "\nselect[j:No Trade]:%s\r"
 	  "\nselect[k:Shop flags]:%s\r"
-    "\n### No Item!\r"
+    "\n## No Item\r"
 	  "\nselect[l:keeper]:%s\r"
 	  "\nselect[m:player]:%s\r"
-    "\n### No Cash!\r"
+    "\n## No Cash!\r"
 	  "\nselect[n:keeper]:%s\r"
 	  "\nselect[o:player]:%s\r"
-    "\n### No Buy!"
+    "\n## No Buy!"
 	  "\nselect[p:keeper]:%s\r"
     "\n::begin:buttons\r"
-	  "\nbmud[Products]:q\r"
-    "\nbmud[Rooms]:r\r"
-	  "\nbmud[Types]:s\r"
-    "\nbmud[Copy Shop]:W\r"
+	  "\nbmud[products]:1\r"
+    "\nbmud[rooms]:2\r"
+	  "\nbmud[types]:3\r"
+    "\nbmud[copy]:4\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 	  OLC_NUM(d),
@@ -471,6 +471,15 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     i = 0;
     switch (*arg) {
     case '1':
+      sedit_products_menu(d);
+      return;
+    case '2':
+      sedit_rooms_menu(d);
+      return;
+    case '3':
+      sedit_namelist_menu(d);
+      return;
+    case '4':
       write_to_output(d, "\nCopy what shop?\r");
       OLC_MODE(d) = SEDIT_COPY;
       return;
@@ -545,15 +554,6 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = SEDIT_NOBUY;
       i--;
       break;
-    case 'q':
-      sedit_products_menu(d);
-      return;
-    case 'r':
-      sedit_rooms_menu(d);
-      return;
-    case 's':
-      sedit_namelist_menu(d);
-      return;
     default:
       sedit_disp_menu(d);
       return;
