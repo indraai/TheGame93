@@ -2,6 +2,11 @@
 Quinn Michaels~
 deva.world~
 200 299 20 2 d 0 0 0 -1 -1
+M 0 102 1 281 	(Parry)
+G 1 130 25 -1 	(a torch)
+G 1 131 25 -1 	(Lantern)
+G 1 132 25 -1 	(Small Bag)
+G 1 133 25 -1 	(Backpack)
 M 0 161 3 251 	(ServiceDEVA D161)
 E 1 136 99 17 	(Broom)
 G 1 149 99 -1 	(Dustpan)
@@ -28,7 +33,6 @@ G 1 167 100 -1 	(Hat)
 G 1 168 100 -1 	(Shirt)
 G 1 169 100 -1 	(Shoes)
 G 1 170 100 -1 	(Gloves)
-M 0 102 1 281 	(Parry)
 M 0 142 1 271 	(Vitasta)
 M 0 106 1 234 	(Captain Ludac)
 M 0 109 1 225 	(Warry)
