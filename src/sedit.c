@@ -514,7 +514,6 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       i++;
       break;
     case 'f':
-      write_to_output(d, "\n%s\r", OLC_SHOP(S_BUY(d)));
       OLC_MODE(d) = SEDIT_BUY;
       i--;
       break;
