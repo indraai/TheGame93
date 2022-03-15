@@ -394,10 +394,10 @@ static void sedit_disp_menu(struct descriptor_data *d)
     "\n## No Item\r"
 	  "\nselect[l:keeper]:%s\r"
 	  "\nselect[m:player]:%s\r"
-    "\n## No Cash!\r"
+    "\n## No Cash\r"
 	  "\nselect[n:keeper]:%s\r"
 	  "\nselect[o:player]:%s\r"
-    "\n## No Buy!"
+    "\n## No Buy"
 	  "\nselect[p:keeper]:%s\r"
     "\n::begin:buttons\r"
 	  "\nbmud[products]:1\r"
@@ -436,7 +436,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
 
   if (OLC_MODE(d) > SEDIT_NUMERICAL_RESPONSE) {
     if (!isdigit(arg[0]) && ((*arg == '-') && (!isdigit(arg[1])))) {
-      write_to_output(d, "Field must be numerical, try again : ");
+      write_to_output(d, "\nField must be numerical, try again.\r");
       return;
     }
   }
@@ -514,6 +514,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       i++;
       break;
     case 'f':
+      write_to_output(d, "\n%s\r", OLC_SHOP(S_BUY(shop)))
       OLC_MODE(d) = SEDIT_BUY;
       i--;
       break;
@@ -563,9 +564,9 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     if (i == 0)
       break;
     else if (i == 1)
-      write_to_output(d, "\r\nEnter new value : ");
+      write_to_output(d, "\nEnter new value:\r");
     else if (i == -1)
-      write_to_output(d, "\r\nEnter new text :\r\n] ");
+      write_to_output(d, "\nEnter new text:\r");
     else
       write_to_output(d, "Oops...\r\n");
     return;
