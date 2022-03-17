@@ -11,7 +11,7 @@ concoct many different potions and is most famous for her liquid fire.
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 2
+8 8 2 0
 E
 #301
 naked magi~
@@ -24,7 +24,7 @@ face with slanted blue eyes.  She is striking in her beauty and grace.
 10 0 0 0 2112 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 2
+8 8 2 0
 E
 #302
 bala danava~
@@ -35,7 +35,7 @@ talk:#adv agent:thegame 0302/look
 2074 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -56,7 +56,7 @@ talk:#adv agent/thegame 303/look~
 6170 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2
+8 8 2 2
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -71,7 +71,7 @@ talk:#adv agent/thegame 304/look~
 6170 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2
+8 8 2 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -86,7 +86,7 @@ talk:#adv agent/thegame 305/look~
 6170 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2
+8 8 2 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -102,7 +102,7 @@ talk:#adv agent:thegame 306/look
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -123,7 +123,7 @@ talk:#adv agent/thegame 307/look~
 6170 0 0 0 0 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 2
+8 8 2 0
 Str: 16
 Dex: 16
 Int: 16
@@ -144,7 +144,7 @@ talk:#adv agent/thegame 308/look~
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -166,7 +166,7 @@ talk:#adv agent/thegame 309/look
 6168 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -187,7 +187,7 @@ talk:#adv agent/thegame 310/look~
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -208,7 +208,7 @@ talk:#adv agent/thegame 311/look~
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -230,7 +230,7 @@ talk:#adv agent/thegame 312/look
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -252,7 +252,7 @@ talk:#adv agent/thegame 313/look
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -274,7 +274,7 @@ talk:#adv agent/thegame 314/look
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -295,7 +295,7 @@ talk:#adv agent/thegame 315/look~
 6170 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -316,7 +316,7 @@ talk:#adv agent/thegame 316/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -337,7 +337,7 @@ talk:#adv agent/thegame 317/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -358,7 +358,7 @@ talk:#adv agent/thegame 318/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -379,7 +379,7 @@ talk:#adv agent/thegame 319/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -400,7 +400,7 @@ talk:#adv agent/thegame 320/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -421,7 +421,7 @@ talk:#adv agent/thegame 321/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -442,7 +442,7 @@ talk:#adv agent/thegame 322/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -463,7 +463,7 @@ talk:#adv agent/thegame 323/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -484,7 +484,7 @@ talk:#adv agent/thegame 324/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -505,7 +505,7 @@ talk:#adv agent/thegame 325/look~
 6170 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1
+8 8 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -526,7 +526,7 @@ talk:#adv agent/thegame 326/look~
 6170 0 0 0 256 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -547,7 +547,7 @@ talk:#adv agent/thegame 327/look~
 6170 0 0 0 2168 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 BareHandAttack: 8
 Str: 18
 Dex: 18
@@ -569,7 +569,7 @@ talk:#adv agent/thegame 328/look~
 6170 0 0 0 8 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 2
+8 8 2 0
 Str: 18
 Dex: 18
 Int: 18
@@ -590,7 +590,7 @@ talk:#adv agent/thegame 329/look~
 6170 0 0 0 8 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -611,7 +611,7 @@ talk:#adv agent/thegame 330/look~
 6170 0 0 0 8 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -632,7 +632,7 @@ talk:#adv agent/thegame 331/look~
 2074 0 0 0 64 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 2
+8 8 2 0
 Str: 16
 Dex: 16
 Int: 16
@@ -646,13 +646,13 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #332
-radha deva goloka~
-Radha Deva~
+para brahma deva~
+Para Brahma Deva~
 332/avatar~
 talk:#adv agent/thegame 332/look~
 2074 0 0 0 2112 0 0 0 0 E
 30 20 10 1d1+0 1d1+0
 0 0
-8 8 1
+8 8 1 0
 E
 $
