@@ -287,6 +287,16 @@ SavingPetri: 7
 SavingBreath: 7
 SavingSpell: 7
 E
+#324
+[KEYWORDS]~
+[NAME]~
+324/avatar~
+talk:#adv agent/thegame 324/look~
+6170 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 0
+E
 #326
 narayana ananta vasudeva deva bhagavan devadeva~
 Narayana Vasudeva Bhagavan~

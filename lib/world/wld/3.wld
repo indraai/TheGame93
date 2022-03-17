@@ -964,17 +964,17 @@ D1
 0 0 329
 S
 #367
-Talatala~
+Talatala Portal~
 [DESCRIBE]~
-3 16 0 0 0 2
-D3
-~
-~
-0 0 389
+3 24 0 0 0 0
 D4
 ~
 ~
 0 0 365
+D5
+~
+~
+0 0 389
 S
 #368
 indra.academy/law~
@@ -1246,10 +1246,14 @@ D2
 0 0 387
 S
 #389
-Mahatala~
+Mahatala Portal~
 Empty room.~
-3 0 0 0 0 0
-D1
+3 24 0 0 0 0
+D0
+~
+~
+0 0 500
+D4
 ~
 ~
 0 0 367
@@ -1261,7 +1265,7 @@ S
 #390
 Patala Portal~
 Empty room.~
-3 8 0 0 0 0
+3 24 0 0 0 0
 D0
 ~
 ~
