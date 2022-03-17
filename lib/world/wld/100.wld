@@ -1030,7 +1030,7 @@ D0
 ~
 0 0 247
 S
-#2000
+#11000
 You Are An Alien~
 You are in an unfinished room.~
 100 0 0 0 0 1
@@ -1039,7 +1039,7 @@ D1
 ~
 0 0 247
 S
-#2200
+#11200
 Alien Invaders~
 You are in an unfinished room.~
 100 8 0 0 0 0
@@ -1048,7 +1048,7 @@ D2
 ~
 0 0 226
 S
-#2400
+#11400
 Faster Than Light~
 You are in an unfinished room.~
 100 0 0 0 0 0
@@ -1057,7 +1057,7 @@ D3
 ~
 0 0 226
 S
-#2800
+#11600
 Dream Trips~
 You are in an unfinished room.~
 100 0 0 0 0 0
