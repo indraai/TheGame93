@@ -1,263 +1,263 @@
-#1000
+#10000
 transmitter signal array~
 Transmitter Array~
-1000/avatar~
-talk:#adv object:thegame 1000/look
+10000/avatar~
+talk:#adv object:thegame 10000/look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 10 877 0 0 0
 E
 array~
-talk:#adv object:thegame 1000/array
+talk:#adv object:thegame 10000/array
 ~
-#1001
+#10001
 transmitter signal display~
 Transmitter Display~
-1001/avatar~
-talk:#adv object:thegame 1001/look
+10001/avatar~
+talk:#adv object:thegame 10001/look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 20 0 0 0 0
 E
 display~
-talk:#adv object:thegame 1001/display
+talk:#adv object:thegame 10001/display
 ~
-#1002
+#10002
 hash tracker~
 Hash Tracker~
-1002/avatar~
-talk:#adv object:thegame 1002/look
+10002/avatar~
+talk:#adv object:thegame 10002/look
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1003
+#10003
 bruckner theory~
 Bruckner Theory~
-1003/avatar~
-talk:#adv object:thegame 1003/look
+10003/avatar~
+talk:#adv object:thegame 10003/look
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
 theory~
-talk:#adv object:thegame 1003/theory
+talk:#adv object:thegame 10003/theory
 ~
-#1004
+#10004
 token wallet tokenwallet xwallet~
 Token Wallet~
-1004/avatar~
-talk:#adv object:thegame 1004/look
+10004/avatar~
+talk:#adv object:thegame 10004/look
 ~
 15 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1006
+#10006
 water underground stream~
 Underground Stream~
-1006/avatar~
-talk:#adv object:thegame 1006/look
+10006/avatar~
+talk:#adv object:thegame 10006/look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
 0 0 0 0 0
-#1008
-0x1008 token underground kingdom cyoa~
-0x1008 Token~
-1008/avatar~
-talk:#adv object:thegame 1008/look
+#10008
+0x10008 token underground kingdom cyoa~
+0x10008 Token~
+10008/avatar~
+talk:#adv object:thegame 10008/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1013
-0x1013 token underground kingdom cyoa~
-0x1013 Token~
-1013/avatar~
-talk:#adv object:thegame 1013/look
+#10013
+0x10013 token underground kingdom cyoa~
+0x10013 Token~
+10013/avatar~
+talk:#adv object:thegame 10013/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1020
-0x1020 token underground kingdom cyoa~
-0x1020 Token~
-1020/avatar~
-talk:#adv object:thegame 1020/look
+#10020
+0x10020 token underground kingdom cyoa~
+0x10020 Token~
+10020/avatar~
+talk:#adv object:thegame 10020/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1023
-0x1023 token underground kingdom cyoa~
-0x1023 Token~
-1023/avatar~
-talk:#adv object:thegame 1023/look
+#10023
+0x10023 token underground kingdom cyoa~
+0x10023 Token~
+10023/avatar~
+talk:#adv object:thegame 10023/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1024
-0x1024 token underground kingdom cyoa~
-0x1024 Token~
-1024/avatar~
-talk:#adv object:thegame 1024/look
+#10024
+0x10024 token underground kingdom cyoa~
+0x10024 Token~
+10024/avatar~
+talk:#adv object:thegame 10024/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1032
-0x1032 token underground kingdom cyoa~
-0x1032 Token~
-1032/avatar~
-talk:#adv object:thegame 1032/look
+#10032
+0x10032 token underground kingdom cyoa~
+0x10032 Token~
+10032/avatar~
+talk:#adv object:thegame 10032/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1033
-0x1033 token underground kingdom cyoa~
-0x1033 Token~
-1033/avatar~
+#10033
+0x10033 token underground kingdom cyoa~
+0x10033 Token~
+10033/avatar~
 talk:#adv thegame:object 1033/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1044
+#10044
 tanga fruit food~
 Taga~
-1044/avatar~
-talk:#adv object:thegame 1044/look
+10044/avatar~
+talk:#adv object:thegame 10044/look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 0 0 0 0 0
-#1047
-0x1047 token underground kingdom cyoa~
-0x1047 Token~
-1047/avatar~
-talk:#adv object:thegame 1047/look
+#10047
+0x10047 token underground kingdom cyoa~
+0x10047 Token~
+10047/avatar~
+talk:#adv object:thegame 10047/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1060
-0x1060 token underground kingdom cyoa~
-0x1060 Token~
-1060/avatar~
-talk:#adv object:thegame 1060/look
+#10060
+0x10060 token underground kingdom cyoa~
+0x10060 Token~
+10060/avatar~
+talk:#adv object:thegame 10060/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1062
-0x1063 token underground kingdom cyoa~
-0x1062 Token~
-1062/avatar~
-talk:#adv object:thegame 1062/look
+#10062
+0x10063 token underground kingdom cyoa~
+0x10062 Token~
+10062/avatar~
+talk:#adv object:thegame 10062/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1064
-0x1064 token underground kingdom cyoa~
-0x1064 Token~
-1064/avatar~
+#10064
+0x10064 token underground kingdom cyoa~
+0x10064 Token~
+10064/avatar~
 talk:#adv thegame:object 1064/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1065
-0x1065 token underground kingdom cyoa~
-0x1065 Token~
-1065/avatar~
-talk:#adv object:thegame 1065/look
+#10065
+0x10065 token underground kingdom cyoa~
+0x10065 Token~
+10065/avatar~
+talk:#adv object:thegame 10065/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1069
-0x1069 token underground kingdom cyoa~
-0x1069 Token~
-1069/avatar~
+#10069
+0x10069 token underground kingdom cyoa~
+0x10069 Token~
+10069/avatar~
 talk:#adv thegame:object 1069/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1072
-0x1072 token underground empire cyoa~
-0x1072 Token~
-1072/avatar~
-talk:#adv object:thegame 1072/look
+#10072
+0x10072 token underground empire cyoa~
+0x10072 Token~
+10072/avatar~
+talk:#adv object:thegame 10072/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1074
-0x1074 token underground kingdom cyoa~
-0x1074 Token~
-1074/avatar~
-talk:#adv object:thegame 1074/look
+#10074
+0x10074 token underground kingdom cyoa~
+0x10074 Token~
+10074/avatar~
+talk:#adv object:thegame 10074/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1084
-0x1084 token underground kingdom cyoa~
-0x1084 Token~
-1084/avatar~
-talk:#adv object:thegame 1084/look
+#10084
+0x10084 token underground kingdom cyoa~
+0x10084 Token~
+10084/avatar~
+talk:#adv object:thegame 10084/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1089
-0x1089 token underground kingdom cyoa~
-0x1089 Token~
-1089/avatar~
-talk:#adv object:thegame 1089/look
+#10089
+0x10089 token underground kingdom cyoa~
+0x10089 Token~
+10089/avatar~
+talk:#adv object:thegame 10089/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1102
-0x1102 token underground kingdom cyoa~
-0x1102 Token~
-1102/avatar~
-talk:#adv object:thegame 1102/look
+#10102
+0x10102 token underground kingdom cyoa~
+0x10102 Token~
+10102/avatar~
+talk:#adv object:thegame 100102/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1103
-0x1103 token underground kingdom cyoa~
-0x1103 Token~
-1103/avatar~
-talk:#adv object:thegame 1103/look
+#10103
+0x10103 token underground kingdom cyoa~
+0x10103 Token~
+10103/avatar~
+talk:#adv object:thegame 100103/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1106
-0x1106 token underground kingdom cyoa~
-0x1106 Token~
-1106/avatar~
-talk:#adv object:thegame 1106/look
+#10106
+0x10106 token underground kingdom cyoa~
+0x10106 Token~
+10106/avatar~
+talk:#adv object:thegame 100106/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
-#1108
-0x1108 token underground kingdom cyoa~
-0x1108 Token~
-1108/avatar~
-talk:#adv object:thegame 1108/look
+#10108
+0x10108 token underground kingdom cyoa~
+0x10108 Token~
+10108/avatar~
+talk:#adv object:thegame 100108/look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

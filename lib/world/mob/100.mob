@@ -1,8 +1,8 @@
-#1000
+#10000
 cyoa gunnar larsen~
 Gunnar Larsen~
-1000/avatar~
-#adv agent:thegame 1000/look
+10000/avatar~
+#adv agent:thegame 10000/look
 ~
 10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -11,11 +11,11 @@ Gunnar Larsen~
 BareHandAttack: 5
 E
 T 1000
-#1001
+#10001
 cyoa dr james sneed geologist~
 Dr. Sneed~
-1001/avatar~
-It looks unfinished.talk:#adv agent:thegame 1001/look
+10001/avatar~
+It looks unfinished.talk:#adv agent:thegame 10001/look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -23,10 +23,10 @@ It looks unfinished.talk:#adv agent:thegame 1001/look
 8 8 1
 E
 T 1001
-#1003
+#10003
 underground kingdom guide~
 Kingdom Guide~
-1003/avatar~
+10003/avatar~
 talk:#adv thegame:agent 1003/look
 ~
 2138 0 0 0 2048 0 0 0 0 E
@@ -35,11 +35,11 @@ talk:#adv thegame:agent 1003/look
 8 8 0
 E
 T 1003
-#1010
+#10010
 angel bird fledgling underground kingdom cyoa~
 Angel Bird (fledgling)~
-1010/avatar~
-talk:#adv agent:thegame 1010/look
+10010/avatar~
+talk:#adv agent:thegame 10010/look
 ~
 10 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
@@ -47,11 +47,11 @@ talk:#adv agent:thegame 1010/look
 8 8 8
 BareHandAttack: 4
 E
-#1011
+#10011
 angel bird underground kingdom cyoa~
 Angel Bird~
-1011/avatar~
-talk:#adv agent:thegame 1011/look
+10011/avatar~
+talk:#adv agent:thegame 10011/look
 ~
 10 0 0 0 0 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -69,11 +69,11 @@ SavingPetri: 5
 SavingBreath: 5
 SavingSpell: 5
 E
-#1016
+#10016
 angel bird underground kingdom cyoa~
 Angel Bird~
-1016/avatar~
-talk:#adv agent:thegame 1016/look
+10016/avatar~
+talk:#adv agent:thegame 10016/look
 ~
 10 0 0 0 131072 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -91,21 +91,21 @@ SavingPetri: 5
 SavingBreath: 5
 SavingSpell: 5
 E
-#1026
+#10026
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-1026/avatar~
-talk:#adv agent:thegame 1026/look
+10026/avatar~
+talk:#adv agent:thegame 10026/look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1
 E
-#1028
+#10028
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-1028/avatar~
+10028/avatar~
 talk:#adv thegame:agent 1028/look
 ~
 10 0 0 0 0 0 0 0 0 E
@@ -113,22 +113,22 @@ talk:#adv thegame:agent 1028/look
 0 0
 8 8 1
 E
-#1029
+#10029
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-1029/avatar~
-talk:#adv agent:thegame 1029/look
+10029/avatar~
+talk:#adv agent:thegame 10029/look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1
 E
-#1044
+#10044
 ket raka underground kingdom cyoa~
 Ket Raka~
-1044/avatar~
-talk:#adv agent:thegame 1044/look
+10044/avatar~
+talk:#adv agent:thegame 10044/look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -141,11 +141,11 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-#1045
+#10045
 akim raka underground kingdom cyoa~
 Akim Raka~
-1045/avatar~
-talk:#adv agent:thegame 1044/look
+10045/avatar~
+talk:#adv agent:thegame 10044/look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -158,11 +158,11 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-#1046
+#10046
 tor raka underground kingdom cyoa~
 Tor Raka~
-1046/avatar~
-talk:#adv agent:thegame 1046/look
+10046/avatar~
+talk:#adv agent:thegame 10046/look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -175,11 +175,11 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-#1047
+#10047
 kota beast underground kingdom cyoa~
 Kota Beast~
-1047/avatar~
-talk:#adv agent:thegame 1047/look
+10047/avatar~
+talk:#adv agent:thegame 10047/look
 ~
 74 0 0 0 2048 0 0 0 -200 E
 10 17 4 2d2+100 1d2+1
@@ -192,11 +192,11 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
-#1050
+#10050
 blue raka underground kingdom cyoa~
 Blue Raka~
-1050/avatar~
-talk:#adv agent:thegame 1050/look
+10050/avatar~
+talk:#adv agent:thegame 10050/look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -209,11 +209,11 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-#1053
+#10053
 raka guard underground kingdom cyoa~
 Raka Guard~
-1053/avatar~
-talk:#adv agent:thegame 1053/look
+10053/avatar~
+talk:#adv agent:thegame 10053/look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -225,33 +225,33 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-#1054
+#10054
 tomo raka cyoa~
 Tomo~
-1054/avatar~
-talk:#adv agent:thegame 1054/look
+10054/avatar~
+talk:#adv agent:thegame 10054/look
 ~
 8 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1
 E
-#1066
+#10066
 dr nera vivaldi underground empire cyoa~
 Dr. Vivaldi~
-1066/avatar~
-talk:#adv agent:thegame 1066/look
+10066/avatar~
+talk:#adv agent:thegame 10066/look
 ~
 74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 2
 E
-#1075
+#10075
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-1075/avatar~
-talk:#adv agent:thegame 1075/look
+10075/avatar~
+talk:#adv agent:thegame 10075/look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0

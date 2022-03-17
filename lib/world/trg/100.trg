@@ -1,4 +1,4 @@
-#1000
+#10000
 Gunnar Larsen~
 0 g 100
 ~
@@ -7,7 +7,7 @@ Gunnar Larsen~
   wait 5s
   say Any Radar return?
 ~
-#1001
+#10001
 James Sneed Trigger~
 0 g 100
 ~
@@ -20,14 +20,14 @@ James Sneed Trigger~
   wait 1s
   say None.
 ~
-#1002
+#10002
 Hash Tracker~
 1 acg 100
 n~
 wait 3s
 You are in %actor.room.vnum% currently.
 ~
-#1003
+#10003
 Underground Kingdom Guide~
 0 b 100
 ~
@@ -48,11 +48,11 @@ else
   end
 end
 ~
-#1004
+#10004
 Give Token Wallet to Actor~
 2 g 100
 ~
-set key 1004
+set key 10004
 set wallet %actor.inventory(%key%)%
 if !%wallet%
   %load% obj %key% %actor%
@@ -60,11 +60,11 @@ if !%wallet%
   %send% %actor% You have the Token Wallet.
 end
 ~
-#1005
+#10005
 Room 1005 Trigger~
 2 q 100
 ~
-set key 1013
+set key 10013
 set wallet 1004
 set token %actor.inventory(%key%)%
 set dir north
@@ -76,11 +76,11 @@ if %token%
   end
 end
 ~
-#1008
-R1008 Give Token~
+#10008
+R10008 Give Token~
 2 g 100
 ~
-set key 1008
+set key 10008
 set token %actor.inventory(%key%)%
 set room %self.room.vnum%
 set reward 50
@@ -96,11 +96,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1010
-R1010 Check Token~
+#10010
+R10010 Check Token~
 2 q 100
 ~
-set key 1008
+set key 10008
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -112,11 +112,11 @@ if %token%
   end
 end
 ~
-#1012
-R1012 Check Token~
+#10012
+R10012 Check Token~
 2 q 100
 ~
-set key 1020
+set key 10020
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -128,11 +128,11 @@ if %token%
   end
 end
 ~
-#1013
-R1013 Give Token~
+#10013
+R10013 Give Token~
 2 g 100
 ~
-set key 1013
+set key 10013
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 20
@@ -148,11 +148,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1016
-R1016 Check Token~
+#10016
+R10016 Check Token~
 2 q 100
 ~
-set key 1023
+set key 10023
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -164,11 +164,11 @@ if %token%
   end
 end
 ~
-#1020
-R1020 Give Token~
+#10020
+R10020 Give Token~
 2 g 100
 ~
-set key 1020
+set key 10020
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 60
@@ -184,11 +184,11 @@ if !%token%
   %send% %actor% key:You receive the 0x%key% Token Key.
 end
 ~
-#1021
+#10021
 RM1021~
 2 q 100
 ~
-set key 1032
+set key 10032
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -200,11 +200,11 @@ if %token%
   end
 end
 ~
-#1023
-R1023 Give Token~
+#10023
+R10023 Give Token~
 2 g 100
 ~
-set key 1023
+set key 10023
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 70
@@ -220,11 +220,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1024
-R1024 Give Token~
+#10024
+R10024 Give Token~
 2 g 100
 ~
-set key 1024
+set key 10024
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 30
@@ -240,11 +240,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1026
+#10026
 RM1026~
 2 q 100
 ~
-set key 1024
+set key 10024
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -256,11 +256,11 @@ if %token%
   end
 end
 ~
-#1027
+#10027
 RM1027 Token Trigger~
 2 q 100
 ~
-set key 1024
+set key 10024
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -272,11 +272,11 @@ if %token%
   end
 end
 ~
-#1032
-R1032 Give Token~
+#10032
+R10032 Give Token~
 2 g 100
 ~
-set key 1032
+set key 10032
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
@@ -292,11 +292,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1033
-R1033 Give Token~
+#10033
+R10033 Give Token~
 2 g 100
 ~
-set key 1033
+set key 10033
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
@@ -312,11 +312,11 @@ if !%token%
   %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
-#1037
+#10037
 RM1037~
 2 q 100
 ~
-set key 1089
+set key 10089
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -328,11 +328,11 @@ if %token%
   end
 end
 ~
-#1039
+#10039
 RM1039~
 2 q 100
 ~
-set key 1047
+set key 10047
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -344,7 +344,7 @@ if %token%
   end
 end
 ~
-#1044
+#10044
 RM1039~
 2 q 100
 ~
@@ -362,11 +362,11 @@ if %token1% && %token2%
   end
 end
 ~
-#1047
-R1047 Give Token~
+#10047
+R10047 Give Token~
 2 g 100
 ~
-set key 1047
+set key 10047
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
@@ -382,11 +382,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1051
+#10051
 RM1051~
 2 q 100
 ~
-set key 1064
+set key 10064
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -398,11 +398,11 @@ if %token%
   end
 end
 ~
-#1053
+#10053
 RM1053~
 2 q 100
 ~
-set key 1060
+set key 10060
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -414,7 +414,7 @@ if %token%
   end
 end
 ~
-#1055
+#10055
 RM1055 Token Check~
 2 q 100
 ~
@@ -439,11 +439,11 @@ if %ntoken%
   end
 end
 ~
-#1058
+#10058
 RM1058~
 2 q 100
 ~
-set key 1065
+set key 10065
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -455,8 +455,8 @@ if %token%
   end
 end
 ~
-#1060
-R1060 Give Token~
+#10060
+R10060 Give Token~
 2 g 100
 ~
 set thekey 1060
@@ -475,11 +475,11 @@ if !%thetoken%
   %send% %actor% key:You earn the 0x%thekey% Token Key.
 end
 ~
-#1062
-R1062 Give Token~
+#10062
+R10062 Give Token~
 2 g 100
 ~
-set key 1062
+set key 10062
 set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
 set reward 10
@@ -495,11 +495,11 @@ if !%token%
   %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
-#1064
-R1064 Give Token~
+#10064
+R10064 Give Token~
 2 g 100
 ~
-set key 1064
+set key 10064
 set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
 set reward 10
@@ -515,11 +515,11 @@ if !%token%
   %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
-#1065
-R1065 Give Token~
+#10065
+R10065 Give Token~
 2 g 100
 ~
-set key 1065
+set key 10065
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 10
@@ -535,11 +535,11 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1068
+#10068
 RM1068~
 2 q 100
 ~
-set key 1072
+set key 10072
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -551,11 +551,11 @@ if %token%
   end
 end
 ~
-#1069
-R1069 Give Token~
+#10069
+R10069 Give Token~
 2 g 100
 ~
-set key 1069
+set key 10069
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 50
@@ -571,11 +571,11 @@ if !%token%
   %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
-#1070
+#10070
 RM1070~
 2 q 100
 ~
-set key 1084
+set key 10084
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -587,11 +587,11 @@ if %token%
   end
 end
 ~
-#1072
-R1072 Give Token~
+#10072
+R10072 Give Token~
 2 g 100
 ~
-set key 1072
+set key 10072
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
 set reward 50
@@ -607,8 +607,8 @@ if !%token%
   %send% %actor% key:You received the 0x%key% Token Key.
 end
 ~
-#1074
-R1074 Give Token~
+#10074
+R10074 Give Token~
 2 g 100
 ~
 set thekey 1074
@@ -627,7 +627,7 @@ if !%thetoken%
   %send% %actor% key:You received the 0x1074 Token Key.
 end
 ~
-#1075
+#10075
 Professor Bruckner~
 0 g 100
 ~
@@ -640,11 +640,11 @@ emote lights his pipe
 wait 3s
 say Who will volunteer to come with me?
 ~
-#1077
+#10077
 RM1077 Token Check~
 2 q 100
 ~
-set key 1033
+set key 10033
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -656,11 +656,11 @@ if %token%
   end
 end
 ~
-#1078
+#10078
 RM1078 Token Check~
 2 q 100
 ~
-set key 1074
+set key 10074
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
@@ -672,7 +672,7 @@ if %token%
   end
 end
 ~
-#1083
+#10083
 RM1083 Token Check~
 2 q 100
 ~
@@ -705,11 +705,11 @@ if %token4%
   end
 end
 ~
-#1084
-R1084 Give Token~
+#10084
+R10084 Give Token~
 2 g 100
 ~
-set key 1084
+set key 10084
 set token %actor.inventory(%key%)%
 set room %self.vnum%
 set reward 100
@@ -725,8 +725,8 @@ if !%token%
   %send% %actor% key:You earn the 0x%key% Token Key.
 end
 ~
-#1089
-R1089 Give Token~
+#10089
+R10089 Give Token~
 2 g 100
 ~
 set thekey 1089
@@ -745,7 +745,7 @@ if !%thetoken%
   %send% %actor% key:You earn the 0x%thekey% Token Key.
 end
 ~
-#1091
+#10091
 RM1091 Token Check~
 2 q 100
 ~
@@ -772,7 +772,7 @@ if %token3%
   end
 end
 ~
-#1095
+#10095
 RM1095 Token Check~
 2 q 100
 ~
@@ -801,7 +801,7 @@ if %token2%
   end
 end
 ~
-#1102
+#10102
 R1102 Give Token~
 2 g 100
 ~
@@ -821,7 +821,7 @@ if !%thetoken%
   %send% %actor% key:You have received the 0x%thekey% Token Key.
 end
 ~
-#1103
+#10103
 R1103 Give Token~
 2 g 100
 ~
@@ -842,7 +842,7 @@ if !%thetoken%
   %send% %actor% key:You earn the 0x%thekey% Token Key.
 end
 ~
-#1106
+#10106
 R1106 Give Token~
 2 g 100
 ~
@@ -862,7 +862,7 @@ if !%thetoken%
   %send% %actor% key:You received the 0x%thekey% Token Key.
 end
 ~
-#1108
+#10108
 R1108 Give Token~
 2 g 100
 ~

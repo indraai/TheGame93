@@ -1,25 +1,25 @@
-#1000
+#10000
 Underground Kingdom~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1001
+0 0 10001
 E
 thankyou~
 talk:#adv world:thegame 1000/thankyou
 ~
 S
-T 1004
-#1001
+T 10004
+#10001
 Toan Glacier~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1002
+0 0 10002
 E
 crevasse~
 talk:#adv world:thegame 10001/crevasse
@@ -33,102 +33,102 @@ glacier~
 talk:#adv world:thegame 1001/glacier
 ~
 S
-#1002
+#10002
 The Glaciers Edge~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1005
+0 0 10005
 D5
 ~
 ~
-0 0 1003
+0 0 10003
 S
-#1003
+#10003
 Down In The Crevasse~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D5
 ~
 ~
-0 0 1006
+0 0 10006
 S
-#1005
+#10005
 On The Ledge~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1013
+0 0 10013
 D2
 ~
 ~
-0 0 1009
+0 0 10009
 S
-T 1005
-#1006
+T 10005
+#10006
 The Underground Stream~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
 ~
 ~
-0 0 1015
+0 0 10015
 D2
 ~
 ~
-0 0 1010
+0 0 10010
 S
-#1007
+#10007
 Dive to the ground...~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
 ~
 ~
-0 0 1008
+0 0 10008
 S
-#1008
+#10008
 You Run~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1008
-#1009
+T 10008
+#10009
 Tell Them To Hurry~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1012
+0 0 10012
 S
-#1010
+#10010
 Hold Your Ground~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
 ~
 ~
-0 0 1008
+0 0 10008
 D1
 ~
 ~
-0 0 1014
+0 0 10014
 D2
 ~
 ~
-0 0 1011
+0 0 10011
 S
-T 1010
-#1011
+T 10010
+#10011
 Dive To The Ground~
 You are in an unfinished room.~
 100 0 0 0 0 4
@@ -139,694 +139,694 @@ D0
 D1
 ~
 ~
-0 0 1016
+0 0 10016
 S
-#1012
+#10012
 Along The Ledge~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1018
+0 0 10018
 D2
 ~
 ~
-0 0 1020
+0 0 10020
 S
-T 1012
-#1013
+T 10012
+#10013
 Warn Your Friends~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1013
-#1014
+T 10013
+#10014
 You Lunge For The Bird~
 You are in an unfinished room.~
 100 0 0 0 0 2
 D3
 ~
 ~
-0 0 1010
+0 0 10010
 S
-#1015
+#10015
 Run From The Creature~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D3
 ~
 ~
-0 0 1012
+0 0 10012
 S
-#1016
+#10016
 Angel Bird Glides~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
 ~
 ~
-0 0 1019
+0 0 10019
 D2
 ~
 ~
-0 0 1022
+0 0 10022
 S
-T 1016
-#1017
+T 10016
+#10017
 Not Follow...~
 You are in an unfinished room.~
 100 0 0 0 0 0
 S
-#1018
+#10018
 Try To Make It~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1021
+0 0 10021
 S
-#1019
+#10019
 Explore Underground Kingdom~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1040
+0 0 10040
 S
-#1020
+#10020
 Decide To Wait~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1020
-#1021
+T 10020
+#10021
 No Shelter~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1032
+0 0 10032
 D2
 ~
 ~
-0 0 1025
+0 0 10025
 S
-T 1021
-#1022
+T 10021
+#10022
 Concentrate On Getting Home~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D1
 ~
 ~
-0 0 1023
+0 0 10023
 S
-#1023
+#10023
 The Frozen Slope~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1023
-#1024
+T 10023
+#10024
 No Chance Of That~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1024
-#1025
+T 10024
+#10025
 Keep Walking~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1026
+0 0 10026
 S
-#1026
+#10026
 Passing Months~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D1
 ~
 ~
-0 0 1027
+0 0 10027
 S
-#1027
+#10027
 Faint signals~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D0
 ~
 ~
-0 0 1028
+0 0 10028
 D2
 ~
 ~
-0 0 1030
+0 0 10030
 S
-T 1027
-#1028
+T 10027
+#10028
 Go On The Expedition~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D1
 ~
 ~
-0 0 1029
+0 0 10029
 S
-#1029
+#10029
 Three Weeks Later~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1075
+0 0 10075
 S
-#1030
+#10030
 It's Too Dangerous~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D3
 ~
 ~
-0 0 1024
+0 0 10024
 S
-#1032
+#10032
 Huddle in parka~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1032
-#1033
+T 10032
+#10033
 Play it safe~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1033
-#1035
+T 10033
+#10035
 Decide to risk it~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1037
+0 0 10037
 S
-#1036
+#10036
 The Shining Mountains~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1092
+0 0 10092
 S
-#1037
+#10037
 Emergency Reverse~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D0
 ~
 ~
-0 0 1089
+0 0 10089
 D2
 ~
 ~
-0 0 1038
+0 0 10038
 S
-T 1037
-#1038
+T 10037
+#10038
 Reason with Dr. Bruckner~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D1
 ~
 ~
-0 0 1043
+0 0 10043
 S
-#1039
+#10039
 The Creatures~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1042
+0 0 10042
 D2
 ~
 ~
-0 0 1046
+0 0 10046
 S
-T 1039
-#1040
+T 10039
+#10040
 The Landscape~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D3
 ~
 ~
-0 0 1039
+0 0 10039
 E
 scene~
 talk:#adv world:thegame 1040/scene
 ~
 S
-#1042
+#10042
 Face The Creatures~
 undefined~
 100 0 0 0 0 4
 D1
 ~
 ~
-0 0 1044
+0 0 10044
 S
-#1043
+#10043
 Bury The Professor~
 You are in an unfinished room.~
 100 0 0 0 0 2
 D3
 ~
 ~
-0 0 1040
+0 0 10040
 S
-#1044
+#10044
 Inside The Agon~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1048
+0 0 10048
 D2
 ~
 ~
-0 0 1050
+0 0 10050
 S
-T 1044
-#1046
+T 10044
+#10046
 Hide In The Leaves~
 You are in an unfinished room.~
 100 8 0 0 0 3
 D1
 ~
 ~
-0 0 1047
+0 0 10047
 S
-#1047
+#10047
 Something Behind You~
 You are in an unfinished room.~
 100 8 0 0 0 3
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1047
-#1048
+T 10047
+#10048
 Follow Raka~
 undefined~
 100 8 0 0 0 0
 D1
 ~
 ~
-0 0 1051
+0 0 10051
 S
-#1050
+#10050
 Refuse To Follow~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1053
+0 0 10053
 S
-#1051
+#10051
 Preparing For War~
 undefined~
 100 8 0 0 0 0
 D0
 ~
 ~
-0 0 1052
+0 0 10052
 D2
 ~
 ~
-0 0 1056
+0 0 10056
 S
-T 1051
-#1052
+T 10051
+#10052
 Go With The Warriors~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1054
+0 0 10054
 S
-#1053
+#10053
 Catch Your Breath~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D0
 ~
 ~
-0 0 1057
+0 0 10057
 D2
 ~
 ~
-0 0 1058
+0 0 10058
 S
-T 1053
-#1054
+T 10053
+#10054
 When You Wake~
 undefined~
 100 8 0 0 0 0
 D1
 ~
 ~
-0 0 1055
+0 0 10055
 S
-#1055
+#10055
 The War Boat~
 undefined~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1061
+0 0 10061
 D2
 ~
 ~
-0 0 1062
+0 0 10062
 S
-T 1055
-#1056
+T 10055
+#10056
 Won't Take Part in War~
 undefined~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1063
+0 0 10063
 S
-#1057
+#10057
 Take The Boat~
 undefined~
 100 0 0 0 0 2
 D1
 ~
 ~
-0 0 1060
+0 0 10060
 S
-#1058
+#10058
 Bluff The Guards~
 You are in an unfinished room.~
 100 0 0 0 0 3
 D0
 ~
 ~
-0 0 1066
+0 0 10066
 D2
 ~
 ~
-0 0 1065
+0 0 10065
 S
-T 1058
-#1060
+T 10058
+#10060
 Hours Later~
 You are in an unfinished room.~
 100 0 0 0 0 2
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1060
-#1061
+T 10060
+#10061
 Swim For Shore~
 You are in an unfinished room.~
 100 0 0 0 0 6
 D3
 ~
 ~
-0 0 1022
+0 0 10022
 S
-#1062
+#10062
 Stay With The Boat~
 You are in an unfinished room.~
 100 0 0 0 0 6
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1062
-#1063
+T 10062
+#10063
 Your Raft Floats~
 undefined~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1064
+0 0 10064
 S
-#1064
+#10064
 The Great River~
 undefined~
 100 0 0 0 0 6
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1064
-#1065
+T 10064
+#10065
 Swim Across River~
 You are in an unfinished room.~
 100 0 0 0 0 6
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1065
-#1066
+T 10065
+#10066
 Continue To Shore~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1067
+0 0 10067
 S
-T 1065
-#1067
+T 10065
+#10067
 Warm Hugs~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1068
+0 0 10068
 S
-#1068
+#10068
 What Can We Do~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1070
+0 0 10070
 D2
 ~
 ~
 0 0 1100
 S
-T 1068
-#1069
+T 10068
+#10069
 The Pioneers~
 You are in an unfinished room.~
 100 0 0 0 0 2
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1069
-#1070
+T 10069
+#10070
 Face the Akpar~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1073
+0 0 10073
 D2
 ~
 ~
 0 0 1104
 S
-T 1070
-#1072
+T 10070
+#10072
 The Kota Beasts~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1072
-#1073
+T 10072
+#10073
 Play Along~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1084
+0 0 10084
 S
-#1074
+#10074
 Help Is On The Way~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1074
-#1075
+T 10074
+#10075
 Who Will Volunteer~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1077
+0 0 10077
 S
-#1076
+#10076
 Three Tides Pass~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1078
+0 0 100078
 S
-#1077
+#10077
 Do You Risk It~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D0
 ~
 ~
-0 0 1035
+0 0 10035
 D2
 ~
 ~
-0 0 1033
+0 0 10033
 S
-T 1077
-#1078
+T 10077
+#10078
 Honored Guests~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1081
+0 0 10081
 D2
 ~
 ~
-0 0 1082
+0 0 10082
 S
-T 1078
-#1081
+T 10078
+#10081
 Explore the Kingdom~
 You are in an unfinished room.~
 100 0 0 0 0 1
 D1
 ~
 ~
-0 0 1083
+0 0 10083
 S
-#1082
+#10082
 Return To The Surface~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D3
 ~
 ~
-0 0 1074
+0 0 10074
 S
-#1083
+#10083
 Fascinating Areas~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1036
+0 0 10036
 D2
 ~
 ~
-0 0 1088
+0 0 10088
 D3
 ~
 ~
-0 0 1085
+0 0 10085
 S
-T 1083
-#1084
+T 10083
+#10084
 You Betrayed Us~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1084
-#1085
+T 10084
+#10085
 The Weightless Peaks~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1087
+0 0 10087
 S
-#1087
+#10087
 The Highest Peak~
 You are in an unfinished room.~
 100 0 0 0 0 5
@@ -835,58 +835,58 @@ D1
 ~
 0 0 1106
 S
-#1088
+#10088
 Hills of Diamonds~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 1091
+0 0 10091
 S
-#1089
+#10089
 Press Emergency Reverse~
 You are in an unfinished room.~
 100 8 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
-T 1089
-#1091
+T 10089
+#10091
 The Diamonds~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D0
 ~
 ~
-0 0 1094
+0 0 10094
 D2
 ~
 ~
-0 0 1097
+0 0 10097
 S
-T 1091
-#1092
+T 10091
+#10092
 The Flying Clera~
 You are in an unfinished room.~
 100 0 0 0 0 5
 D1
 ~
 ~
-0 0 1098
+0 0 10098
 S
-#1094
+#10094
 The Diamonds~
 You are in an unfinished room.~
 100 0 0 0 0 4
 D1
 ~
 ~
-0 0 1095
+0 0 10095
 S
-#1095
+#10095
 Willing to try?~
 You are in an unfinished room.~
 100 0 0 0 0 0
@@ -899,8 +899,8 @@ D2
 ~
 0 0 1102
 S
-T 1095
-#1097
+T 10095
+#10097
 Turn back~
 You are in an unfinished room.~
 100 0 0 0 0 5
@@ -909,25 +909,25 @@ D1
 ~
 0 0 1103
 S
-#1098
+#10098
 The Return~
 You are in an unfinished room.~
 100 0 0 0 0 2
 D3
 ~
 ~
-0 0 1069
+0 0 10069
 S
-#1100
+#10100
 Escape the Akpar~
 You are in an unfinished room.~
 100 0 0 0 0 3
 D3
 ~
 ~
-0 0 1072
+0 0 10072
 S
-#1101
+#10101
 Hold you breath...~
 You are in an unfinished room.~
 100 0 0 0 0 0
@@ -936,27 +936,27 @@ D1
 ~
 0 0 1108
 S
-#1102
+#10102
 A Soft Bed~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
 T 1102
-#1103
+#10103
 Safe And Sound~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
 T 1103
-#1104
+#10104
 Refuse To Help~
 You are in an unfinished room.~
 100 0 0 0 0 0
@@ -965,16 +965,16 @@ D1
 ~
 0 0 1105
 S
-#1105
+#10105
 The Grand Akpar Paces~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1076
+0 0 10076
 S
-#1106
+#10106
 The Mountain Peak~
 You are in an unfinished room.~
 100 0 0 0 0 5
@@ -984,17 +984,17 @@ D4
 3 0 251
 S
 T 1106
-#1108
+#10108
 You made it!~
 You are in an unfinished room.~
 100 0 0 0 0 0
 D3
 ~
 ~
-0 0 1000
+0 0 10000
 S
 T 1108
-#1200
+#10200
 The Cave of Time~
 You are in an unfinished room.~
 100 0 0 0 0 5
@@ -1003,7 +1003,7 @@ D0
 ~
 0 0 98
 S
-#1400
+#10400
 Hyperspace~
 You are in an unfinished room.~
 100 0 0 0 0 1
@@ -1012,7 +1012,7 @@ D3
 ~
 0 0 226
 S
-#1600
+#10600
 You Are A Genius~
 You are in an unfinished room.~
 100 8 0 0 0 0
@@ -1021,7 +1021,7 @@ D3
 ~
 0 0 247
 S
-#1800
+#10800
 You Are A Superstar~
 You are in an unfinished room.~
 100 0 0 0 0 0
