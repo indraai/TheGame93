@@ -434,7 +434,7 @@ int load_char(const char *name, struct char_data *ch)
 	break;
 
       case 'S':
-	     if (!strcmp(tag, "Sex "))	GET_GENDER(ch)		= atoi(line);
+	     if (!strcmp(tag, "Gender "))	GET_GENDER(ch)		= atoi(line);
   else if (!strcmp(tag, "ScrW"))  GET_SCREEN_WIDTH(ch) = atoi(line);
 	else if (!strcmp(tag, "Skil"))	load_skills(fl, ch);
 	else if (!strcmp(tag, "Str "))	load_HMVS(ch, line, LOAD_STRENGTH);
@@ -574,7 +574,7 @@ void save_char(struct char_data * ch)
   }
   if (POOFIN(ch))				fprintf(fl, "PfIn: %s\n", POOFIN(ch));
   if (POOFOUT(ch))				fprintf(fl, "PfOt: %s\n", POOFOUT(ch));
-  if (GET_GENDER(ch)	     != PFDEF_GENDER)	fprintf(fl, "Sex : %d\n", GET_GENDER(ch));
+  if (GET_GENDER(ch)	     != PFDEF_GENDER)	fprintf(fl, "Gender : %d\n", GET_GENDER(ch));
   if (GET_CLASS(ch)	   != PFDEF_CLASS)	fprintf(fl, "Clas: %d\n", GET_CLASS(ch));
   if (GET_LEVEL(ch)	   != PFDEF_LEVEL)	fprintf(fl, "Levl: %d\n", GET_LEVEL(ch));
 
