@@ -1065,14 +1065,14 @@ ACMD(do_equipment)
     if (GET_EQ(ch, i)) {
       found = TRUE;
       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
-        send_to_char(ch, "\nequipment:%s:%s", wear_where[i], GET_EQ(ch, i)->short_description);
+        send_to_char(ch, "\nequipment:%s:%s\r", wear_where[i], GET_EQ(ch, i)->short_description);
       } else {
-        send_to_char(ch, "\nequipment:%s:something", wear_where[i]);
+        send_to_char(ch, "\nequipment:%s:something\r", wear_where[i]);
       }
     }
   }
   if (!found)
-    send_to_char(ch, "\nequipment:No Equipment");
+    send_to_char(ch, "\nequipment:No Equipment\r");
 }
 
 ACMD(do_time)
@@ -1189,7 +1189,7 @@ ACMD(do_help)
   skip_spaces(&argument);
 
   if (!help_table) {
-    send_to_char(ch, "\nNo help available.");
+    send_to_char(ch, "\nNo help available.\r");
     return;
   }
 
@@ -1204,7 +1204,7 @@ ACMD(do_help)
   space_to_minus(argument);
 
   if ((mid = search_help(argument, GET_LEVEL(ch))) == NOWHERE) {
-    send_to_char(ch, "\nThere is no help found for that word.");
+    send_to_char(ch, "\nThere is no help found for that word.\r");
     mudlog(NRM, MIN(LVL_IMPL, GET_INVIS_LEV(ch)), TRUE,
       "%s tried to get help on %s", GET_NAME(ch), argument);
     for (i = 0; i < top_of_helpt; i++)  {
@@ -1215,10 +1215,10 @@ ACMD(do_help)
         continue;
       if (levenshtein_distance(argument, help_table[i].keywords) <= 2) {
         if (!found) {
-          send_to_char(ch, "\nDid you mean...");
+          send_to_char(ch, "\nDid you mean...\r");
           found = 1;
         }
-        send_to_char(ch, "\ntalk:#mud help %s", help_table[i].keywords);
+        send_to_char(ch, "\ntalk:#mud help %s\r", help_table[i].keywords);
       }
     }
     return;
@@ -1460,14 +1460,14 @@ ACMD(do_who)
   if (short_list && num_can_see % 4)
     send_to_char(ch, "\n");
   if (!num_can_see)
-    send_to_char(ch, "\nNobody at all!");
+    send_to_char(ch, "\nNobody at all!\r");
   else if (num_can_see == 1)
-    send_to_char(ch, "\nOne lonely character displayed.");
+    send_to_char(ch, "\nOne lonely character displayed.\r");
   else
-    send_to_char(ch, "\n%d characters displayed.", num_can_see);
+    send_to_char(ch, "\n%d characters displayed.\r", num_can_see);
 
   if (IS_HAPPYHOUR > 0){
-    send_to_char(ch, "It's a Happy Hour! Type [happyhour] to see the current bonuses.\r");
+    send_to_char(ch, "\nIt's a Happy Hour! Type [happyhour] to see the current bonuses.\r");
   }
 }
 
@@ -1538,8 +1538,8 @@ ACMD(do_users)
     }
   }				/* end while (parser) */
   send_to_char(ch,
-	 "Num Class   Name         State          Idl   Login\t*   Site\r\n"
-	 "--- ------- ------------ -------------- ----- -------- ------------------------\r\n");
+	 "\nNum Class   Name         State          Idl   Login\t*   Site\r"
+	 "\n--- ------- ------------ -------------- ----- -------- ------------------------\r");
 
   one_argument(argument, arg);
 
@@ -1611,14 +1611,14 @@ ACMD(do_users)
     }
   }
 
-  send_to_char(ch, "\nThere are %d visible sockets connected.", num_can_see);
+  send_to_char(ch, "\nThere are %d visible sockets connected.\r", num_can_see);
 }
 
 /* Generic page_string function for displaying text */
 ACMD(do_gen_ps)
 {
   if (IS_NPC(ch)) {
-    send_to_char(ch, "\ninfo:Not for mobiles!");
+    send_to_char(ch, "\ninfo:Not for mobiles.\r");
     return;
   }
 
@@ -1656,10 +1656,10 @@ ACMD(do_gen_ps)
     send_to_char(ch, "\033[H\033[J");
     break;
   case SCMD_VERSION:
-    send_to_char(ch, "\n%s", tbamud_version);
+    send_to_char(ch, "\nversion:%s\r", tbamud_version);
     break;
   case SCMD_WHOAMI:
-    send_to_char(ch, "\n%s", GET_NAME(ch));
+    send_to_char(ch, "\nname:%s\r", GET_NAME(ch));
     break;
   default:
     log("SYSERR: Unhandled case in do_gen_ps. (%d)", subcmd);

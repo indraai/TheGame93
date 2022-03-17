@@ -860,11 +860,16 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     strftime(buf1, sizeof(buf1), "%a %b %d %Y", localtime(&(k->player.time.birth)));
     strftime(buf2, sizeof(buf2), "%a %b %d %Y", localtime(&(k->player.time.logon)));
 
-    send_to_char(ch, "created: %s\r\nlast_Logon: %s\r\n", buf1, buf2);
+    send_to_char(ch, "\ncreated: %s\r"
+      "\nlast_Logon: %s\r", buf1, buf2);
 
-    send_to_char(ch, "played: %dh %dm\r\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]",
-            k->player.time.played / 3600, (k->player.time.played % 3600) / 60,
-            age(k)->year, GET_PRACTICES(k), int_app[GET_INT(k)].learn, wis_app[GET_WIS(k)].bonus);
+    send_to_char(ch, "\nplayed: %dh %dm\r"
+      "\nage: %d\r\nstl: [%d]/per[%d]/NSTL[%d]\r",
+      k->player.time.played / 3600,
+      (k->player.time.played % 3600) / 60,
+      age(k)->year, GET_PRACTICES(k),
+      int_app[GET_INT(k)].learn,
+      wis_app[GET_WIS(k)].bonus);
 
     /* Display OLC zone for immorts. */
     if (GET_LEVEL(k) >= LVL_BUILDER) {
@@ -880,20 +885,20 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
         send_to_char(ch, ", OLC[%s%d%s]", CCCYN(ch, C_NRM), GET_OLC_ZONE(k), CCNRM(ch, C_NRM));
     }
 
-    send_to_char(ch, "hunger: %d\r\n", GET_COND(k, HUNGER));
-    send_to_char(ch, "thirst: %d\r\n", GET_COND(k, THIRST));
-    send_to_char(ch, "drunk: %d\r\n", GET_COND(k, DRUNK));
+    send_to_char(ch, "\nhunger: %d\r", GET_COND(k, HUNGER));
+    send_to_char(ch, "\nthirst: %d\r", GET_COND(k, THIRST));
+    send_to_char(ch, "\ndrunk: %d\r", GET_COND(k, DRUNK));
   }
 
   for (i = 0, j = k->carrying; j; j = j->next_content, i++)
-  send_to_char(ch, "weight: %d\r\n", IS_CARRYING_W(k));
-  send_to_char(ch, "items: %d\r\n", IS_CARRYING_N(k));
-  send_to_char(ch, "inventory: %d\r\n", i);
+  send_to_char(ch, "\nweight: %d\r", IS_CARRYING_W(k));
+  send_to_char(ch, "\nitems: %d\r", IS_CARRYING_N(k));
+  send_to_char(ch, "\ninventory: %d\r", i);
 
 
   for (i = 0, i2 = 0; i < NUM_WEARS; i++) {
     if (GET_EQ(k, i)) i2++;
-    send_to_char(ch, "equipment: %d\r\n", i2);
+    send_to_char(ch, "\nequipment: %d\r", i2);
   }
 
   column = send_to_char(ch, "master: %s\r\n", k->master ? GET_NAME(k->master) : "<none>");
