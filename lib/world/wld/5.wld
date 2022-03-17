@@ -1,10 +1,109 @@
 #500
 Mahatala Gateway~
 [DESCRIBE]~
-5 0 0 0 0 0
+5 8 0 0 0 0
+D1
+~
+~
+0 0 501
 D2
 ~
 ~
 0 0 389
+D3
+~
+~
+0 0 507
+S
+#501
+Mahatala~
+[DESCRIBE]~
+5 8 0 0 0 0
+D2
+~
+~
+0 0 502
+D3
+~
+~
+0 0 500
+S
+#502
+Mahatala~
+[DESCRIBE]~
+5 8 0 0 0 0
+D0
+~
+~
+0 0 501
+D2
+~
+~
+0 0 503
+S
+#503
+Mahatala~
+[DESCRIBE]~
+5 8 0 0 0 0
+D0
+~
+~
+0 0 502
+D3
+~
+~
+0 0 504
+S
+#504
+Mahatala~
+[DESCRIBE]~
+5 8 0 0 0 0
+D1
+~
+~
+0 0 503
+D3
+~
+~
+0 0 505
+S
+#505
+Mahatala~
+[DESCRIBE]~
+5 0 0 0 0 0
+D0
+~
+~
+0 0 506
+D1
+~
+~
+0 0 504
+S
+#506
+Mahatala~
+[DESCRIBE]~
+5 8 0 0 0 0
+D0
+~
+~
+0 0 507
+D2
+~
+~
+0 0 505
+S
+#507
+Mahatala~
+[DESCRIBE]~
+5 8 0 0 0 0
+D1
+~
+~
+0 0 500
+D2
+~
+~
+0 0 506
 S
 $~

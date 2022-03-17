@@ -928,10 +928,14 @@ D1
 0 0 362
 S
 #364
-Vitala~
+Vitala Portal~
 talk:#adv room:thegame 0364/look
 ~
-3 16 0 0 0 0
+3 24 0 0 0 0
+D0
+~
+~
+0 0 800
 D4
 ~
 ~
@@ -942,9 +946,13 @@ D5
 0 0 365
 S
 #365
-Sutala~
+Sutala Portal~
 [DESCRIBE]~
-3 16 0 0 0 0
+3 24 0 0 0 0
+D0
+~
+~
+0 0 700
 D4
 ~
 ~
@@ -967,6 +975,10 @@ S
 Talatala Portal~
 [DESCRIBE]~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 600
 D4
 ~
 ~
@@ -1207,9 +1219,13 @@ D1
 0 0 384
 S
 #386
-Atala~
+Atala Portal~
 Empty room.~
-3 16 0 0 0 0
+3 24 0 0 0 0
+D0
+~
+~
+0 0 900
 D4
 ~
 ~
