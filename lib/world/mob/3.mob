@@ -208,7 +208,7 @@ talk:#adv agent/thegame 311/look~
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 5
 Str: 18
 Dex: 18
 Int: 18
@@ -230,7 +230,7 @@ talk:#adv agent/thegame 312/look
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 5
 Str: 18
 Dex: 18
 Int: 18
@@ -252,7 +252,7 @@ talk:#adv agent/thegame 313/look
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 4
 Str: 18
 Dex: 18
 Int: 18
@@ -274,7 +274,7 @@ talk:#adv agent/thegame 314/look
 6170 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 4
 Str: 18
 Dex: 18
 Int: 18
@@ -295,7 +295,7 @@ talk:#adv agent/thegame 324/look~
 6170 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 0
+8 8 0 1
 E
 #326
 narayana ananta vasudeva deva bhagavan devadeva~
