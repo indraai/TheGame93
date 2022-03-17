@@ -111,26 +111,26 @@ static void extract_mobile_all(mob_vnum vnum)
 	    if (ch->player.name && ch->player.name != mob_proto[i].player.name)
           free(ch->player.name);
 				ch->player.name = NULL;
-				
+
         if (ch->player.title && ch->player.title != mob_proto[i].player.title)
           free(ch->player.title);
 				ch->player.title = NULL;
-				
+
         if (ch->player.short_descr && ch->player.short_descr != mob_proto[i].player.short_descr)
           free(ch->player.short_descr);
 				ch->player.short_descr = NULL;
-				
+
         if (ch->player.long_descr && ch->player.long_descr != mob_proto[i].player.long_descr)
           free(ch->player.long_descr);
 				ch->player.long_descr = NULL;
-				
+
         if (ch->player.description && ch->player.description != mob_proto[i].player.description)
           free(ch->player.description);
 				ch->player.description = NULL;
-    
+
         /* free script proto list if it's not the prototype */
         if (ch->proto_script && ch->proto_script != mob_proto[i].proto_script)
-          free_proto_script(ch, MOB_TRIGGER);			
+          free_proto_script(ch, MOB_TRIGGER);
 				ch->proto_script = NULL;
 			}
       extract_char(ch);
@@ -157,7 +157,7 @@ int delete_mobile(mob_rnum refpt)
 
   vnum = mob_index[refpt].vnum;
   proto = &mob_proto[refpt];
-  
+
   extract_mobile_all(vnum);
   extract_char(proto);
 
@@ -382,7 +382,7 @@ int write_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
 
   if(n < MAX_STRING_LENGTH) {
     fprintf(fd, "%s", convert_from_tabs(buf));
-  
+
     fprintf(fd, "%d %d %d %d %d %d %d %d %d E\n"
         "%d %d %d %dd%d+%d %dd%d+%d\n",
         MOB_FLAGS(mob)[0], MOB_FLAGS(mob)[1],
@@ -393,19 +393,19 @@ int write_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
         GET_LEVEL(mob), 20 - GET_HITROLL(mob), GET_AC(mob) / 10, GET_HIT(mob),
         GET_MANA(mob), GET_MOVE(mob), GET_NDD(mob), GET_SDD(mob),
         GET_DAMROLL(mob));
-  
+
     fprintf(fd, 	"%d %d\n"
-      "%d %d %d\n",
+      "%d %d %d %d\n",
       GET_GOLD(mob), GET_EXP(mob),
-      GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob)
+      GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob), GET_RACE(mob)
     );
-  
+
     if (write_mobile_espec(mvnum, mob, fd) < 0)
       log("SYSERR: GenOLC: Error writing E-specs for mobile #%d.", mvnum);
-  
+
     script_save_to_disk(fd, mob, MOB_TRIGGER);
-  
-  
+
+
   #if CONFIG_GENOLC_MOBPROG
     if (write_mobile_mobprog(mvnum, mob, fd) < 0)
       log("SYSERR: GenOLC: Error writing MobProgs for mobile #%d.", mvnum);
@@ -415,7 +415,7 @@ int write_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
            "SYSERR: Could not save mobile #%d due to size (%d > maximum of %d)",
            mvnum, n, MAX_STRING_LENGTH);
   }
-  
+
   return TRUE;
 }
 
