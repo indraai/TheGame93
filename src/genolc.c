@@ -277,9 +277,9 @@ int sprintascii(char *out, bitvector_t bits)
   return j;
 }
 
-/* converts illegal filename chars into appropriate equivalents */ 
+/* converts illegal filename chars into appropriate equivalents */
 static void fix_filename(const char *str, char *outbuf, size_t maxlen)
-{ 
+{
   const char *in = str;
   char *out = outbuf;
   int count = 0;
@@ -289,14 +289,14 @@ static void fix_filename(const char *str, char *outbuf, size_t maxlen)
       case ' ': *out = '_'; out++; break;
       case '(': *out = '{'; out++; break;
       case ')': *out = '}'; out++; break;
- 
-      /* skip the following */ 
-      case '\'':             break; 
-      case '"':              break; 
- 
-      /* Legal character */ 
+
+      /* skip the following */
+      case '\'':             break;
+      case '"':              break;
+
+      /* Legal character */
       default: *out = *in;  out++;break;
-    } 
+    }
     in++;
     count++;
     if (count == maxlen - 1) break;
@@ -304,78 +304,78 @@ static void fix_filename(const char *str, char *outbuf, size_t maxlen)
   *out = '\0';
 }
 
-/* Export command by Kyle */ 
-ACMD(do_export_zone) 
-{ 
+/* Export command by Kyle */
+ACMD(do_export_zone)
+{
 #ifdef CIRCLE_WINDOWS
    /* tar and gzip are usually not available */
     send_to_char(ch, "Sorry, that is not available in the windows port.\r\n");
 #else /* all other configurations */
-  zone_rnum zrnum; 
-  zone_vnum zvnum; 
-  char sysbuf[MAX_INPUT_LENGTH]; 
+  zone_rnum zrnum;
+  zone_vnum zvnum;
+  char sysbuf[MAX_INPUT_LENGTH];
   char zone_name[READ_SIZE], fixed_file_name[READ_SIZE];
   int success, errorcode = 0;
 
   /* system command locations are relative to where the binary IS, not where it
-   * was run from, thus we act like we are in the bin folder, because we are*/ 
-  char *path = "../lib/world/export/"; 
+   * was run from, thus we act like we are in the bin folder, because we are*/
+  char *path = "../lib/world/export/";
 
-  if (IS_NPC(ch) || GET_LEVEL(ch) < LVL_IMPL) 
-    return; 
+  if (IS_NPC(ch) || GET_LEVEL(ch) < LVL_IMPL)
+    return;
 
-  skip_spaces(&argument); 
-  if (!*argument){ 
-    send_to_char(ch, "Syntax: export <zone vnum>"); 
-    return; 
-  } 
+  skip_spaces(&argument);
+  if (!*argument){
+    send_to_char(ch, "Syntax: export <zone vnum>");
+    return;
+  }
 
-  zvnum = atoi(argument); 
-  zrnum = real_zone(zvnum); 
+  zvnum = atoi(argument);
+  zrnum = real_zone(zvnum);
 
-  if (zrnum == NOWHERE) { 
-    send_to_char(ch, "Export which zone?\r\n"); 
-    return; 
-  } 
+  if (zrnum == NOWHERE) {
+    send_to_char(ch, "Export which zone?\r\n");
+    return;
+  }
 
-  /* If we fail, it might just be because the directory didn't exist.  Can't 
-   * hurt to try again. Do it silently though ( no logs ). */ 
-  if (!export_info_file(zrnum)) { 
+  /* If we fail, it might just be because the directory didn't exist.  Can't
+   * hurt to try again. Do it silently though ( no logs ). */
+  if (!export_info_file(zrnum)) {
     sprintf(sysbuf, "mkdir %s", path);
     errorcode = system(sysbuf);
-  } 
+  }
   if (errorcode) {
     send_to_char(ch, "Failed to create export directory.\r\n");
     return;
   }
 
-  if (!(success = export_info_file(zrnum))) 
-    send_to_char(ch, "Info file not saved!\r\n"); 
-  if (!(success = export_save_shops(zrnum))) 
-    send_to_char(ch, "Shops not saved!\r\n"); 
-  if (!(success = export_save_mobiles(zrnum))) 
-    send_to_char(ch, "Mobiles not saved!\r\n"); 
-  if (!(success = export_save_objects(zrnum))) 
-    send_to_char(ch, "Objects not saved!\r\n"); 
-  if (!(success = export_save_zone(zrnum))) 
-    send_to_char(ch, "Zone info not saved!\r\n"); 
-  if (!(success = export_save_rooms(zrnum))) 
-    send_to_char(ch, "Rooms not saved!\r\n"); 
-  if (!(success = export_save_triggers(zrnum))) 
-    send_to_char(ch, "Triggers not saved!\r\n"); 
+  if (!(success = export_info_file(zrnum)))
+    send_to_char(ch, "Info file not saved!\r\n");
+  if (!(success = export_save_shops(zrnum)))
+    send_to_char(ch, "Shops not saved!\r\n");
+  if (!(success = export_save_mobiles(zrnum)))
+    send_to_char(ch, "Mobiles not saved!\r\n");
+  if (!(success = export_save_objects(zrnum)))
+    send_to_char(ch, "Objects not saved!\r\n");
+  if (!(success = export_save_zone(zrnum)))
+    send_to_char(ch, "Zone info not saved!\r\n");
+  if (!(success = export_save_rooms(zrnum)))
+    send_to_char(ch, "Rooms not saved!\r\n");
+  if (!(success = export_save_triggers(zrnum)))
+    send_to_char(ch, "Triggers not saved!\r\n");
 
-  /* If anything went wrong, don't try to tar the files. */ 
-  if (success) { 
-    send_to_char(ch, "Individual files saved to /lib/world/export.\r\n"); 
-    snprintf(zone_name, sizeof(zone_name), "%s", zone_table[zrnum].name); 
-  } else { 
-    send_to_char(ch, "Ran into problems writing to files.\r\n"); 
-    return; 
+  /* If anything went wrong, don't try to tar the files. */
+  if (success) {
+    send_to_char(ch, "Individual files saved to /lib/world/export.\r\n");
+    snprintf(zone_name, sizeof(zone_name), "%s", zone_table[zrnum].name);
+  } else {
+    send_to_char(ch, "Ran into problems writing to files.\r\n");
+    return;
   }
-  /* Make sure the name of the zone doesn't make the filename illegal. */ 
+  /* Make sure the name of the zone doesn't make the filename illegal. */
   fix_filename(zone_name, fixed_file_name, sizeof(fixed_file_name));
 
-  /* Remove the old copy. */ 
+  /* Remove the old copy. */
   snprintf(sysbuf, sizeof(sysbuf), "rm %s%s.tar.gz", path, fixed_file_name);
   errorcode = system(sysbuf);
   if (errorcode) {
@@ -383,7 +383,7 @@ ACMD(do_export_zone)
   }
 
 
-  /* Tar the new copy. */ 
+  /* Tar the new copy. */
   snprintf(sysbuf, sizeof(sysbuf), "tar -cf %s%s.tar %sqq.info %sqq.wld %sqq.zon %sqq.mob %sqq.obj %sqq.trg %sqq.shp", path, fixed_file_name, path, path, path, path, path, path, path);
   errorcode = system(sysbuf);
   if (errorcode) {
@@ -391,7 +391,7 @@ ACMD(do_export_zone)
     return;
   }
 
-  /* Gzip it. */ 
+  /* Gzip it. */
   snprintf(sysbuf, sizeof(sysbuf), "gzip %s%s.tar", path, fixed_file_name);
   errorcode = system(sysbuf);
   if (errorcode) {
@@ -624,9 +624,9 @@ static int export_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
       GET_DAMROLL(mob));
 
   fprintf(fd, 	"%d %d\n"
-		"%d %d %d\n",
+		"%d %d %d %d\n",
 		GET_GOLD(mob), GET_EXP(mob),
-		GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob)
+		GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob), GET_RACE(mob)
   );
 
   if (write_mobile_espec(mvnum, mob, fd) < 0)
