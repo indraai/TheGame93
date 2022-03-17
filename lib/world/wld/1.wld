@@ -1,5 +1,5 @@
 #100
-indra.business~
+Gallery~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -28,13 +28,13 @@ D5
 0 0 251
 S
 #101
-indra.gallery~
+Pitriloka Portal~
 Empty room.~
 1 24 0 0 0 0
 D4
 ~
 ~
-0 0 393
+0 0 395
 D5
 ~
 ~
@@ -161,7 +161,7 @@ D5
 0 0 213
 S
 #113
-indra.art~
+Art~
 empty~
 1 24 0 0 0 0
 D2
@@ -212,7 +212,7 @@ D5
 0 0 248
 S
 #116
-indra.marketing~
+Studio~
 empty.~
 1 24 0 0 0 0
 D1
@@ -221,7 +221,7 @@ D1
 0 0 100
 S
 #117
-indra.design~
+Design~
 empty.~
 1 24 0 0 0 0
 D3
@@ -276,7 +276,7 @@ D5
 0 0 259
 S
 #120
-indra.work~
+Creative~
 undefined~
 1 24 0 0 0 0
 D0

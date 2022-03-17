@@ -1289,23 +1289,97 @@ D4
 0 0 390
 S
 #392
-GoLoka~
+Goloka Portal~
 talk:#adv room:thegame 0392/look
 ~
 3 24 0 0 0 0
 D4
 ~
 ~
-0 0 391
+0 0 394
+D5
+~
+~
+0 0 399
+S
+#393
+Devaloka Portal~
+talk:#adv world:thegame 0393/look
+~
+3 24 0 0 0 0
+D4
+~
+~
+0 0 396
+D5
+~
+~
+0 0 395
+S
+#394
+Vaikuntha Portal~
+[DESCRIBE]~
+3 24 0 0 0 0
+D5
+~
+~
+0 0 392
+S
+#395
+Indraloka Portal~
+[DESCRIBE]~
+3 24 0 0 0 0
+D4
+~
+~
+0 0 393
+D5
+~
+~
+0 0 101
+S
+#396
+Maharloka Portal~
+[DESCRIBE]~
+3 24 0 0 0 0
+D4
+~
+~
+0 0 397
 D5
 ~
 ~
 0 0 393
 S
-#393
-DevaLoka~
-talk:#adv world:thegame 0393/look
+#397
+Janaloka Portal~
+[DESCRIBE]~
+3 0 0 0 0 0
+D4
 ~
+~
+0 0 398
+D5
+~
+~
+0 0 396
+S
+#398
+Tapaloka Portal~
+[DESCRIBE]~
+3 24 0 0 0 0
+D4
+~
+~
+0 0 399
+D5
+~
+~
+0 0 397
+S
+#399
+Satyaloka Portal~
+[DESCRIBE]~
 3 24 0 0 0 0
 D4
 ~
@@ -1314,6 +1388,6 @@ D4
 D5
 ~
 ~
-0 0 101
+0 0 398
 S
 $~
