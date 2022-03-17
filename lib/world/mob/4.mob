@@ -7,7 +7,7 @@ talk:#adv agent:thegame 0315/look
 6232 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 5
 Str: 18
 Dex: 18
 Int: 18
@@ -25,10 +25,10 @@ sankha naga patala~
 Sankha~
 401/avatar~
 talk:#adv agent/thegame 401/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -46,10 +46,10 @@ kulika naga patala~
 Kulika~
 402/avatar~
 talk:#adv agent/thegame 402/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -67,10 +67,10 @@ sveta naga patala~
 S’veta~
 403/avatar~
 talk:#adv agent/thegame 403/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -88,10 +88,10 @@ dhananjaya naga patala~
 Dhananjaya~
 404/avatar~
 talk:#adv agent/thegame 404/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -109,10 +109,10 @@ mahasankha naga patala~
 Mahas’ankha~
 405/avatar~
 talk:#adv agent/thegame 405/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -130,10 +130,10 @@ dhritarastra naga patala~
 Dhritarastra~
 406/avatar~
 talk:#adv agent/thegame 406/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -151,10 +151,10 @@ sankhachuda naga patala~
 S’ankhachuda~
 407/avatar~
 talk:#adv agent/thegame 407/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -172,10 +172,10 @@ kamvala naga patala~
 Kamvala~
 408/avatar~
 talk:#adv agent/thegame 408/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -193,10 +193,10 @@ asvatara naga patala~
 As’vatara~
 409/avatar~
 talk:#adv agent/thegame 409/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
@@ -214,10 +214,10 @@ devopadattaka naga patala~
 Devopadattaka~
 410/avatar~
 talk:#adv agent/thegame 410/look~
-6170 0 0 0 0 0 0 0 0 E
+6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 5
 Str: 13
 Dex: 13
 Int: 13
