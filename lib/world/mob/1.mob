@@ -8,7 +8,7 @@ talk:#adv agent:thegame 0100/look
 2250 0 0 0 0 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 1 6
 E
 #101
 darry store outfitter deva~
@@ -19,7 +19,7 @@ talk:#adv thegame:agent 0101/look
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 6 6
 E
 #102
 parry emporium store deva~
@@ -30,7 +30,7 @@ talk:#adv agent:thegame 0102/look
 26634 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 1 6
 E
 #103
 cartoon builder indra.house deva~
@@ -41,7 +41,7 @@ talk:#adv agent:thegame 0103/look
 190474 0 0 0 16 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-6 6 6
+6 6 6 3
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -57,7 +57,7 @@ talk:#adv agent:thegame 0104/look
 26634 0 0 0 16 0 0 0 900 E
 10 17 4 2d2+100 1d2+1
 100 10000
-6 6 7
+6 6 7 2
 BareHandAttack: 2
 SavingPara: 2
 SavingRod: 2
@@ -73,7 +73,7 @@ talk:#adv agent:thegame 0105/look~
 6168 0 0 0 2048 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 6
+8 8 6 5
 BareHandAttack: 11
 Str: 17
 Dex: 17
@@ -95,7 +95,7 @@ talk:#adv agent:thegame 0106/look~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 6 6
 E
 #107
 branwen leatherworker~
@@ -107,7 +107,7 @@ Using hides bought from the local farms this young man makes some of the finest 
 190474 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 1 6
 E
 #109
 warry watermaster water store deva~
@@ -118,7 +118,7 @@ talk:#adv agent:thegame 0109/look
 2058 0 0 0 16 0 0 0 800 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 6 6
 E
 #110
 rarry email postmaster deva~
@@ -129,7 +129,7 @@ talk:#adv agent:thegame 0110/look
 256010 0 0 0 16 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 6
+8 8 6 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -145,7 +145,7 @@ talk:#adv agent:thegame 0111/look
 190474 0 0 0 16 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6
+8 8 6 6
 E
 #112
 urnavati deva devas arjika~
@@ -155,7 +155,7 @@ talk:#adv agent:thegame 0112/look~
 6168 0 0 0 0 0 0 0 350 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 6
+8 8 6 1
 BareHandAttack: 3
 SavingPara: 1
 SavingRod: 1
@@ -171,7 +171,7 @@ talk:#adv agent:thegame 0113/look~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 1 6
 E
 #114
 hit club fightclub boss~
@@ -182,7 +182,7 @@ talk:#adv agent:thegame 0114/look
 16462 0 0 0 0 0 0 0 -1000 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 0
+8 8 0 3
 BareHandAttack: 11
 Str: 12
 Dex: 12
@@ -205,7 +205,7 @@ talk:#adv agent:thegame 0115/look
 16462 0 0 0 0 0 0 0 -900 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 0
+8 8 0 3
 BareHandAttack: 12
 Str: 12
 Dex: 12
@@ -228,7 +228,7 @@ talk:#adv agent:thegame 0116/look
 16462 0 0 0 0 0 0 0 -700 E
 16 15 0 3d3+160 2d2+2
 160 25600
-8 8 0
+8 8 0 3
 BareHandAttack: 7
 SavingPara: 4
 SavingRod: 4
@@ -245,7 +245,7 @@ talk:#adv agent:thegame 0117/look
 16458 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+8 8 6 0
 BareHandAttack: 5
 E
 T 117
@@ -258,7 +258,7 @@ talk:#adv agent:thegame 0118/look
 16458 0 0 0 0 0 0 0 -300 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 6
+8 8 6 2
 BareHandAttack: 4
 SavingPara: 3
 SavingRod: 3
@@ -275,7 +275,7 @@ talk:#adv agent:thegame 0119/look~
 2074 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 1 6
 E
 #120
 saryanavan sarya deva deity~
@@ -286,7 +286,7 @@ talk:#adv agent:thegame 0120/look
 6170 0 0 0 24 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1
+8 8 1 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -309,7 +309,7 @@ You are in no doubt that this guildmaster is truly close to the Devas; he has a 
 59418 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1
+8 8 1 6
 E
 #122
 lib librarian book club bookclub~
@@ -320,7 +320,7 @@ talk:#adv agent:thegame 0122/look
 16458 0 0 0 0 0 0 0 -400 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 0
+8 8 0 2
 BareHandAttack: 11
 SavingPara: 3
 SavingRod: 3
@@ -337,7 +337,7 @@ talk:#adv agent/thegame 123/look~
 260376 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1
+8 8 1 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -360,7 +360,7 @@ talk:#adv agent:thegame 0124/look
 6232 0 0 0 2136 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 2000 10000
-8 8 6
+8 8 6 2
 BareHandAttack: 11
 SavingPara: 2
 SavingRod: 2
@@ -377,7 +377,7 @@ talk:#adv agent:thegame 0125/look
 256154 0 0 0 26744 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 7
+8 8 7 0
 BareHandAttack: 4
 E
 #126
@@ -389,7 +389,7 @@ talk:#adv agent:thegame 0126/look
 6168 0 0 0 80 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6
+8 8 6 4
 BareHandAttack: 6
 E
 #127
@@ -400,7 +400,7 @@ talk:#adv agent:thegame 0127/look~
 6168 0 0 0 8 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6
+8 8 6 4
 BareHandAttack: 5
 Str: 13
 Dex: 13
@@ -422,7 +422,7 @@ talk:#adv agent:thegame 0128/look~
 6168 0 0 0 16 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-6 6 6
+6 6 6 4
 BareHandAttack: 11
 Str: 16
 Dex: 16
@@ -444,7 +444,7 @@ talk:#adv agent:thegame 0130/look~
 2074 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 7
+8 8 7 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -459,7 +459,7 @@ talk:#adv agent:thegame 0131/look~
 260184 0 0 0 2136 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 6
+8 8 6 1
 BareHandAttack: 10
 E
 #133
@@ -470,7 +470,7 @@ talk:#adv agent:thegame 0133/look~
 6168 0 0 0 2048 0 0 0 500 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 6
+8 8 6 3
 BareHandAttack: 8
 Str: 12
 Dex: 12
@@ -493,7 +493,7 @@ talk:#adv agent:thegame 0134/look
 6168 0 0 0 16 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 6
+8 8 6 5
 BareHandAttack: 5
 Str: 17
 Dex: 17
@@ -517,7 +517,7 @@ talk:#adv agent:thegame 0135/look
 6168 0 0 0 16 0 0 0 0 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 6
+8 8 6 3
 BareHandAttack: 4
 Str: 12
 Dex: 12
@@ -539,7 +539,7 @@ talk:#adv agent:thegame 0136/look~
 6168 0 0 0 16 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6
+8 8 6 6
 Str: 18
 Dex: 18
 Int: 18
@@ -560,7 +560,7 @@ talk:#adv agent:thegame 0137/look~
 6168 0 0 0 16 0 0 0 500 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 6
+8 8 6 5
 BareHandAttack: 6
 Str: 16
 Dex: 16
@@ -582,7 +582,7 @@ talk:#adv agent:thegame 0138/look~
 6168 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6
+8 8 6 4
 BareHandAttack: 5
 E
 #141
@@ -593,7 +593,7 @@ talk:#adv agent:thegame 0141/look~
 6168 0 0 0 24 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-8 8 1
+8 8 1 4
 BareHandAttack: 13
 Str: 16
 Dex: 16
@@ -616,7 +616,7 @@ talk:#adv agent:thegame 0142/look
 6168 0 0 0 2048 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6
+8 8 6 6
 Str: 18
 Dex: 18
 Int: 18
@@ -637,7 +637,7 @@ talk:#adv agent:thegame 0143/look~
 6168 0 0 0 0 0 0 0 600 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 6
+8 8 6 3
 BareHandAttack: 7
 SavingPara: 3
 SavingRod: 3
@@ -653,7 +653,7 @@ talk:#adv agent:thegame 0144/look~
 6168 0 0 0 2048 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 6
+8 8 6 2
 BareHandAttack: 5
 E
 #145
@@ -664,7 +664,7 @@ talk:#adv agent:thegame 0145/look~
 6168 0 0 0 2048 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 6
+8 8 6 4
 Str: 14
 Dex: 14
 Int: 14
@@ -685,7 +685,7 @@ talk:#adv agent:thegame 0146/look~
 6168 0 0 0 16 0 0 0 500 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 6
+8 8 6 4
 BareHandAttack: 8
 Str: 15
 Dex: 15
@@ -708,7 +708,7 @@ Logan~
 253962 0 0 0 112 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 6
+6 6 6 1
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -724,7 +724,7 @@ talk:#adv agent:thegame 0148/look~
 6168 0 0 0 2064 0 0 0 500 E
 27 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6
+8 8 6 6
 BareHandAttack: 6
 Str: 18
 Dex: 18
@@ -746,7 +746,7 @@ talk:#adv agent:thegame 0149/look~
 2072 0 0 0 0 0 0 0 400 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1
+8 8 1 3
 E
 #154
 arjika arjikiya military soldier a154 z3~
@@ -756,7 +756,7 @@ talk:#adv agent:thegame 0154/look~
 4120 0 0 0 0 0 0 0 100 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 6
+8 8 6 0
 BareHandAttack: 7
 E
 #155
@@ -767,7 +767,7 @@ talk:#adv agent:thegame 0155/look~
 6168 0 0 0 2072 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 6
+8 8 6 4
 BareHandAttack: 9
 Str: 14
 Dex: 14
@@ -789,7 +789,7 @@ talk:#adv agent:thegame 0156/look~
 47386 0 0 0 120 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 6 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -811,7 +811,7 @@ talk:#adv agent:thegame 0158/look~
 16394 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 7
+8 8 7 1
 BareHandAttack: 2
 SavingPara: 1
 SavingRod: 1
@@ -828,7 +828,7 @@ talk:#adv agent:thegame 0159/look
 6168 0 0 0 56 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 6
+8 8 6 3
 SavingPara: 4
 SavingRod: 4
 SavingPetri: 4
@@ -844,7 +844,7 @@ talk:#adv agent:thegame 0160/look
 6168 0 0 0 2120 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6
+8 8 6 4
 BareHandAttack: 7
 E
 #161
@@ -856,7 +856,7 @@ talk:#adv agent:thegame 0161/look
 2072 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 6
+8 8 6 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -871,7 +871,7 @@ talk:#adv agent:thegame 0163/look~
 2136 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 5
+8 8 5 1
 BareHandAttack: 11
 SavingPara: 1
 SavingRod: 1
@@ -888,7 +888,7 @@ talk:#adv thegame:agent 0165/look
 6170 0 0 0 120 0 0 0 400 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1
+8 8 1 1
 E
 #166
 rbhu rbhus general visvedevas arjika military a166 z1~
@@ -899,7 +899,7 @@ talk:#adv thegame:agent 0166/look
 6168 0 0 0 2168 0 0 0 750 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6
+8 8 6 0
 BareHandAttack: 14
 E
 #167
@@ -912,7 +912,7 @@ talk:#adv agent:thegame 0167/look
 2120 0 0 0 0 0 0 0 1000 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1
+8 8 1 3
 E
 #174
 security securitydeva agency d174 z1~
@@ -922,7 +922,7 @@ talk:#adv agent:thegame 0174/look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6
+8 8 6 6
 E
 #175
 security securitydeva guard d175 z1~
@@ -932,7 +932,7 @@ talk:#adv agent:thegame 0175/look~
 6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
 333 62500
-8 8 6
+8 8 6 5
 Str: 16
 Dex: 16
 Int: 16
@@ -953,7 +953,7 @@ talk:#adv agent:thegame 0176/look~
 6168 0 0 0 24 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 6
+8 8 6 4
 BareHandAttack: 11
 Str: 15
 Dex: 15
@@ -975,7 +975,7 @@ talk:#adv agent:thegame 0177/look~
 256010 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 6
+8 8 6 3
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -990,8 +990,30 @@ talk:#adv agent:thegame 0179/look~
 6168 0 0 0 2048 0 0 0 1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 6
+8 8 6 3
 BareHandAttack: 10
+E
+#180
+big tyler bigtyler~
+BigTyler~
+180/avatar~
+talk:#adv agent/thegame 180/look~
+6428 0 0 0 2168 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1 1
+BareHandAttack: 8
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #181
 security securitydeva lookout d181 z1~
@@ -1001,7 +1023,7 @@ talk:#adv agent:thegame 0181/look~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
-8 8 6
+8 8 6 4
 E
 #183
 fightclub fight club muscle~
@@ -1011,7 +1033,7 @@ talk:#adv agent:thegame 0183/look~
 16974 0 0 0 0 0 0 0 -800 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 6
+8 8 6 3
 BareHandAttack: 5
 SavingPara: 4
 SavingRod: 4
@@ -1027,7 +1049,7 @@ talk:#adv agent:thegame 0185/look~
 26650 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 6
+6 6 6 1
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1043,7 +1065,7 @@ talk:#adv agent:thegame 0186/look~
 61450 0 0 0 26744 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 7
+8 8 7 3
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1058,7 +1080,7 @@ talk:#adv agent:thegame 0187/look~
 24586 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6
+8 8 6 6
 E
 #189
 trstama visvedevas deity~
@@ -1068,7 +1090,7 @@ talk:#adv agent:thegame 0189/look~
 6170 0 0 0 64 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 6
+8 8 6 4
 BareHandAttack: 9
 Str: 14
 Dex: 14
@@ -1090,7 +1112,7 @@ talk:#adv agent:thegame 0196/look~
 2138 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 7
+8 8 7 1
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1106,7 +1128,7 @@ talk:#adv agent:thegame 0197/look~
 10 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1
+8 8 1 4
 E
 #198
 vamraka disciple monk~
@@ -1116,7 +1138,7 @@ talk:#adv agent:thegame 0198/look~
 6170 0 0 0 120 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-6 6 1
+6 6 1 4
 E
 #199
 karry sweets female devi lady~
@@ -1126,6 +1148,6 @@ talk:#adv agent:thegame 0199/look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 7
+8 8 7 6
 E
 $
