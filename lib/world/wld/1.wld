@@ -575,26 +575,26 @@ D2
 0 0 194
 S
 #152
-INDU Recruiting~
+MALL Security~
 empty room.~
 1 24 0 0 0 0
 D1
 ~
 ~
 0 0 153
-D2
-~
-~
-0 0 167
 S
 #153
-INDU Entrance~
+MALL Entrance~
 empty room.~
 1 24 0 0 0 0
 D1
 ~
 ~
 0 0 184
+D2
+~
+~
+0 0 168
 D3
 ~
 ~

@@ -56,7 +56,7 @@ talk:#adv agent:thegame 319/look~
 6170 0 0 0 2168 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 0
+8 8 0 2
 BareHandAttack: 6
 SavingPara: 2
 SavingRod: 2
@@ -210,5 +210,15 @@ talk:#adv agent/thegame 332/look~
 30 20 10 1d1+0 1d1+0
 0 0
 8 8 1 1
+E
+#334
+army cyber1 agent soldier~
+ARMY Cyber1~
+334/avatar~
+talk:#adv agent:thegame 334/look~
+6170 0 0 0 2168 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 0
 E
 $
