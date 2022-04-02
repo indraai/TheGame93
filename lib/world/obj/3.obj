@@ -98,6 +98,51 @@ talk:#adv object:thegame 0309/look
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
 23 2000000 0 33 0
+#310
+courtyard bench sit rest~
+Courtyard Bench~
+0310/avatar~
+talk:#adv object:thegame 0310/look
+~
+6 0 0 0 0 0 0 0 0 0 0 0 0
+10 0 0 0
+250 0 0 0 0
+#311
+cyber1 terminal army security~
+CYBER1 TERMINAL~
+0311/avatar~
+talk:#adv object:thegame 0311/look
+~
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+#312
+cyber2 terminal army security~
+CYBER2 TERMINAL~
+0312/avatar~
+talk:#adv object:thegame 0312/look
+~
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+#313
+cyber2 terminal army security~
+CYBER3 TERMINAL~
+0313/avatar~
+talk:#adv object:thegame 0313/look
+~
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+#314
+cyber4 terminal army security~
+CYBER4 TERMINAL~
+0314/avatar~
+talk:#adv object:thegame 0314/look
+~
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
 #344
 water fountain drinks drink~
 Water Fountain~

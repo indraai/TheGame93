@@ -532,14 +532,14 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #136
-asikni visvedevas deity~
-Asikni~
+army cyber4 specialist soldier~
+Cyber4~
 0136/avatar~
 talk:#adv agent:thegame 0136/look~
-6168 0 0 0 16 0 0 0 500 E
+6170 0 0 0 16 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6 6
+8 8 1 0
 Str: 18
 Dex: 18
 Int: 18
@@ -1001,7 +1001,7 @@ talk:#adv agent/thegame 180/look~
 6428 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 1
+8 8 1 6
 BareHandAttack: 8
 Str: 18
 Dex: 18

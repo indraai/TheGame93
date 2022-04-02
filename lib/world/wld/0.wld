@@ -230,20 +230,20 @@ S
 indra.church/b9~
 You are in an unfinished room.~
 0 8 0 0 0 0
-D0
-~
-~
-0 0 20
 D1
 ~
 ~
 0 0 18
+D3
+~
+~
+0 0 20
 S
 #20
 indra.church/b10~
 You are in an unfinished room.~
 0 8 0 0 0 0
-D2
+D1
 ~
 ~
 0 0 19
@@ -312,7 +312,7 @@ D3
 0 0 279
 S
 #95
-indra.agency/sw~
+Security Office (S)~
 You are in an unfinished room.~
 0 24 0 0 0 0
 D1
@@ -321,7 +321,7 @@ D1
 0 0 279
 S
 #96
-indra.agency/ne~
+Security Office (N)~
 You are in an unfinished room.~
 0 24 0 0 0 0
 D3
@@ -334,9 +334,9 @@ D4
 0 0 107
 S
 #97
-indra.care/nw~
+Medical R97~
 none.~
-0 24 0 0 0 0
+0 536 0 0 0 0
 D1
 ~
 ~
@@ -357,7 +357,7 @@ D1
 D2
 ~
 ~
-0 0 1200
+0 0 -1
 D3
 ~
 ~

@@ -2,6 +2,8 @@
 Quinn Michaels~
 deva.world~
 200 299 20 2 d 0 0 0 -1 -1
+M 0 136 1 297 	(Asikni)
+O 0 314 1 297 	(CYBER4 TERMINAL)
 M 0 187 1 280 	(Garry)
 G 1 218 100 -1 	(Jalapeno Cheese Bread)
 G 1 219 100 -1 	(Jalapeno Cheese Bagel)
@@ -51,7 +53,6 @@ M 0 110 1 222 	(Rarry)
 M 0 111 1 277 	(Narry)
 M 0 119 1 224 	(Fever)
 M 0 130 1 264 	(Sarry)
-M 0 136 1 297 	(Asikni)
 M 0 135 1 252 	(Parusni)
 M 0 149 1 243 	(Arjika Sergeant)
 M 0 158 1 238 	(Farry)

@@ -16,7 +16,7 @@ D3
 0 0 299
 S
 #301
-indra.city/sw~
+9W8S Outer Loop~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -38,7 +38,7 @@ D4
 0 0 353
 S
 #303
-indra.city/se~
+9E8S Outer Loop~
 undefined~
 3 16 0 0 0 1
 D0
@@ -51,7 +51,7 @@ D2
 0 0 318
 S
 #304
-SOMA CYBER3~
+ARMY CYBER3~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -64,7 +64,7 @@ D2
 0 0 319
 S
 #305
-SOMA Dining~
+ARMY Dining~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -107,7 +107,7 @@ D3
 0 0 306
 S
 #308
-indra.city/sw~
+9W9S Outer Loop~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -132,7 +132,7 @@ D4
 0 0 338
 S
 #309
-indra.city/sw~
+8W9S Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -145,7 +145,7 @@ D3
 0 0 308
 S
 #310
-indra.city/sw~
+6W9S Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -158,7 +158,7 @@ D3
 0 0 309
 S
 #311
-indra.city/sw~
+3W9S Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -171,7 +171,7 @@ D3
 0 0 310
 S
 #312
-indra.city/sw~
+9S1W Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -184,7 +184,7 @@ D3
 0 0 311
 S
 #313
-indra.city/s~
+9S Main Street~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -205,7 +205,7 @@ D3
 0 0 312
 S
 #314
-indra.city/se~
+9S1E Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -218,7 +218,7 @@ D3
 0 0 313
 S
 #315
-indra.city/se~
+9S3E Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -231,7 +231,7 @@ D3
 0 0 314
 S
 #316
-indra.city/se~
+9S6E Outer Loop~
 empty.~
 3 16 0 0 0 1
 D1
@@ -244,7 +244,7 @@ D3
 0 0 315
 S
 #317
-indra.city/se~
+9S8E Outer Loop~
 undefined~
 3 16 0 0 0 1
 D1
@@ -257,7 +257,7 @@ D3
 0 0 316
 S
 #318
-indra.city/se~
+9S9E Outer Loop~
 undefined~
 3 16 0 0 0 1
 D0
@@ -282,7 +282,7 @@ D4
 0 0 348
 S
 #319
-SOMA CYBER2~
+ARMY CYBER2~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -295,7 +295,7 @@ D2
 0 0 334
 S
 #320
-SOMA Kitchen~
+ARMY Kitchen~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -334,7 +334,7 @@ D3
 0 0 321
 S
 #323
-indra.city/sw~
+9W6S Outer Loop~
 Empty room.~
 3 16 0 0 0 1
 D0
@@ -347,7 +347,7 @@ D2
 0 0 301
 S
 #324
-indra.fun/arcade~
+Arcade Z7~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -360,7 +360,7 @@ D3
 0 0 343
 S
 #325
-indra.fun/arcade~
+Arcade Z6~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -377,7 +377,7 @@ D3
 0 0 324
 S
 #326
-indra.fun/arcade~
+Arcade Z5~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -394,7 +394,7 @@ D3
 0 0 325
 S
 #327
-indra.fun/arcade~
+Arcade Z4~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -416,7 +416,7 @@ D5
 0 0 354
 S
 #329
-indra.academy/law~
+Law: Legal Proceedings~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -433,7 +433,7 @@ D3
 0 0 366
 S
 #330
-indra.academy/law~
+Law: The Plaint~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -446,7 +446,7 @@ D3
 0 0 329
 S
 #331
-indra.academy/law~
+Law: Courts of Justice~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -459,7 +459,7 @@ D3
 0 0 330
 S
 #332
-indra.academy/law~
+Law: Debt~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -485,7 +485,7 @@ D2
 0 0 348
 S
 #334
-SOMA CYBER1~
+ARMY CYBER1~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -498,7 +498,7 @@ D1
 0 0 335
 S
 #335
-SOMA Training~
+ARMY Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -542,9 +542,9 @@ D3
 0 0 336
 S
 #338
-indra.agency/lookout~
+Security Lookout (SW)~
 Empty room.~
-3 24 0 0 0 0
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -559,7 +559,7 @@ D5
 0 0 308
 S
 #339
-Throne of King Rahu~
+The Throne~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -568,7 +568,7 @@ D1
 0 0 340
 S
 #340
-indra.fun/arcade~
+Arcade Z3~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -589,7 +589,7 @@ D3
 0 0 339
 S
 #341
-indra.fun/arcade~
+Arcade Z2~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -610,7 +610,7 @@ D3
 0 0 340
 S
 #342
-indra.fun/arcade~
+Arcade Z1~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -631,7 +631,7 @@ D3
 0 0 341
 S
 #343
-indra.fun/playground~
+The Playground~
 Empty room.~
 3 16 0 0 0 2
 D1
@@ -648,7 +648,7 @@ D3
 0 0 388
 S
 #344
-indra.city/courtyard~
+The Courtyard~
 empty.~
 3 16 0 0 0 1
 D0
@@ -665,7 +665,7 @@ D3
 0 0 255
 S
 #345
-indra.city/towers~
+West Tower~
 undefined~
 3 24 0 0 0 0
 D1
@@ -682,7 +682,7 @@ D4
 0 0 132
 S
 #346
-indra.city/towers~
+East Tower~
 undefined~
 3 24 0 0 0 0
 D2
@@ -699,7 +699,7 @@ D4
 0 0 133
 S
 #347
-indra.city/courtyard~
+The Courtyard~
 undefined~
 3 16 0 0 0 1
 D2
@@ -708,9 +708,9 @@ D2
 0 0 360
 S
 #348
-indra.agency/lookout~
+Security Lookout (SE)~
 Empty room.~
-3 24 0 0 0 0
+3 16 0 0 0 1
 D0
 ~
 ~
@@ -725,7 +725,7 @@ D5
 0 0 318
 S
 #349
-SOMA Entrance~
+ARMY Entrance~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -738,7 +738,7 @@ D3
 0 0 318
 S
 #350
-SOMA Recruiting~
+ARMY Recruiting~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -751,7 +751,7 @@ D3
 0 0 349
 S
 #351
-indra.care/sw~
+Medical (SW)~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -760,7 +760,7 @@ D0
 0 0 308
 S
 #352
-indra.fun/arcade~
+Arcade Z11~
 Empty room.~
 3 24 0 0 0 1
 D1
@@ -769,7 +769,7 @@ D1
 0 0 353
 S
 #353
-indra.fun/arcade~
+Arcade Z10~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -786,7 +786,7 @@ D3
 0 0 352
 S
 #354
-indra.fun/arcade~
+Arcade Z9~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -803,7 +803,7 @@ D3
 0 0 353
 S
 #355
-indra.fun/arcade~
+Arcade Z8~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -833,7 +833,7 @@ D5
 1 0 290
 S
 #357
-indra.city/courtyard~
+The Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -846,7 +846,7 @@ D1
 0 0 358
 S
 #358
-indra.city/courtyard~
+The Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -863,7 +863,7 @@ D3
 0 0 357
 S
 #359
-indra.city/courtyard~
+The Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -880,7 +880,7 @@ D3
 0 0 358
 S
 #360
-indra.city/courtyard~
+The Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -893,7 +893,7 @@ D3
 0 0 359
 S
 #361
-indra.care/se~
+Medical (SE)~
 empty.~
 3 24 0 0 0 0
 D0
@@ -902,7 +902,7 @@ D0
 0 0 318
 S
 #362
-indra.agency/s~
+Security Gate (S)~
 Empty room.~
 3 0 0 0 0 1
 D0
@@ -919,7 +919,7 @@ D4
 0 0 139
 S
 #363
-indra.rocks~
+Docks~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -963,7 +963,7 @@ D5
 0 0 367
 S
 #366
-Court of Yama~
+Court of Law~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -989,7 +989,7 @@ D5
 0 0 389
 S
 #368
-indra.academy/law~
+Law: Transactions~
 You are in an unfinished room.~
 3 24 0 0 0 0
 D3
@@ -1002,7 +1002,7 @@ D5
 0 0 332
 S
 #369
-indra.academy/law~
+Law: Property~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1015,7 +1015,7 @@ D3
 0 0 370
 S
 #370
-indra.academy/law~
+Law: Livelihood~
 You are in an unfinished room.~
 3 24 0 0 0 0
 D1
@@ -1028,7 +1028,7 @@ D3
 0 0 371
 S
 #371
-indra.academy/law~
+Law: Modes of Proof~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1041,7 +1041,7 @@ D4
 0 0 372
 S
 #372
-indra.academy/law~
+Law: Lending and Interest~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1054,7 +1054,7 @@ D5
 0 0 371
 S
 #373
-indra.academy/law~
+Law: Usurers~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1067,7 +1067,7 @@ D3
 0 0 372
 S
 #374
-indra.academy/law~
+Law: Sureties~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1080,7 +1080,7 @@ D3
 0 0 373
 S
 #375
-indra.academy/law~
+Law: Pledges~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1093,7 +1093,7 @@ D4
 0 0 376
 S
 #376
-indra.academy/law~
+Law: Documents~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1106,7 +1106,7 @@ D5
 0 0 375
 S
 #377
-indra.academy/law~
+Law: Witnesses~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1119,7 +1119,7 @@ D3
 0 0 378
 S
 #378
-indra.academy/law~
+Law: Incompetent Witnesses~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1132,7 +1132,7 @@ D3
 0 0 379
 S
 #379
-indra.academy/law~
+Law: Unnecessary Witnesses~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1145,7 +1145,7 @@ D4
 0 0 380
 S
 #380
-indra.academy/law~
+Law: False Witnesses~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1158,7 +1158,7 @@ D5
 0 0 379
 S
 #381
-indra.academy/law~
+Law: Exhorting Witnesses~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1171,7 +1171,7 @@ D3
 0 0 380
 S
 #382
-indra.academy/law~
+Law: Valid Evidence~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -1184,7 +1184,7 @@ D3
 0 0 381
 S
 #383
-indra.academy/law~
+Law: Invalid Evidence~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1197,7 +1197,7 @@ D4
 0 0 384
 S
 #384
-indra.academy/law~
+Law: Default of Witnesses and Documents~
 Empty room.~
 3 24 0 0 0 0
 D3
@@ -1210,7 +1210,7 @@ D5
 0 0 383
 S
 #385
-indra.academy/law~
+Law: Proof by Ordeal~
 Empty room.~
 3 24 0 0 0 0
 D1
