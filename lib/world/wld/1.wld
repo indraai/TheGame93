@@ -59,9 +59,9 @@ D5
 0 0 133
 S
 #106
-indra.agency/lookout~
+Security Tower (N)~
 Empty room.~
-1 24 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -80,7 +80,7 @@ D5
 0 0 140
 S
 #107
-indra.agency/war~
+Security Tower~
 empty.~
 1 760 0 0 0 0
 D0
@@ -118,16 +118,16 @@ D5
 0 0 150
 S
 #110
-indra.agency/strategy~
+Security Lookout~
 empty.~
-1 24 0 0 0 0
+1 16 0 0 0 1
 D5
 ~
 ~
 0 0 107
 S
 #111
-indra.agency/lookout~
+Security Lookout (NW)~
 empty.~
 1 16 0 0 0 1
 D1
@@ -170,9 +170,9 @@ D2
 0 0 100
 S
 #114
-indra.agency/lookout~
+Security Tower (W)~
 empty.~
-1 24 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -191,7 +191,7 @@ D5
 0 0 243
 S
 #115
-indra.agency/lookout~
+Security Lookout (W)~
 empty.~
 1 24 0 0 0 1
 D0
@@ -230,9 +230,9 @@ D3
 0 0 100
 S
 #118
-indra.agency/lookout~
+Security Lookout (E)~
 empty.~
-1 24 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -255,7 +255,7 @@ D5
 0 0 254
 S
 #119
-indra.agency/lookout~
+Security Tower (E)~
 undefined~
 1 24 0 0 0 1
 D0
@@ -285,7 +285,7 @@ D0
 0 0 100
 S
 #121
-indra.agency/lookout~
+Security Lookout (SW)~
 Empty room.~
 1 24 0 0 0 1
 D0
@@ -302,7 +302,7 @@ D5
 0 0 289
 S
 #122
-indra.agency/lookout~
+Security Lookout (SE)~
 Empty room.~
 1 24 0 0 0 1
 D0
@@ -451,9 +451,9 @@ D2
 0 0 132
 S
 #139
-indra.agency/lookout~
+Security Tower (S)~
 empty room.~
-1 24 0 0 0 1
+1 16 0 0 0 1
 D0
 ~
 ~
@@ -472,7 +472,7 @@ D5
 0 0 362
 S
 #140
-indra.agency/n~
+Security Checkpoint (N)~
 empty room.~
 1 16 0 0 0 1
 D2
@@ -485,7 +485,7 @@ D4
 0 0 106
 S
 #141
-indra.care/nw~
+Medical (NW)~
 empty.~
 1 568 0 0 0 0
 D2
@@ -566,7 +566,7 @@ D2
 0 0 163
 S
 #151
-indra.care/ne~
+Medical (NE)~
 Empty room.~
 1 568 0 0 0 0
 D2
@@ -601,7 +601,7 @@ D3
 0 0 152
 S
 #154
-indra.agency/lookout~
+Security Lookout (NW)~
 empty room.~
 1 24 0 0 0 0
 D1
@@ -799,7 +799,7 @@ D3
 0 0 162
 S
 #164
-indra.agency/lookout~
+Security Lookout (NE)~
 Empty room.~
 1 24 0 0 0 0
 D2
@@ -816,24 +816,20 @@ D5
 0 0 194
 S
 #165
-indra.farm/entrance~
+The Farm~
 Empty room.~
 1 16 0 0 0 1
 D1
 ~
 ~
 0 0 166
-D2
-~
-~
-0 0 180
 D3
 ~
 ~
 0 0 194
 S
 #166
-indra.farm/shed~
+The Shed~
 Empty.~
 1 24 0 0 0 0
 D2
@@ -948,7 +944,7 @@ D0
 1 0 162
 S
 #178
-indra.house/apartments~
+BigTyler House~
 undefined~
 1 24 0 0 0 0
 D0
@@ -970,13 +966,9 @@ D2
 0 0 194
 S
 #180
-indra.farm/veggie~
+Farm Veggies~
 undefined~
 1 16 0 0 0 2
-D0
-~
-~
-0 0 165
 D1
 ~
 ~
@@ -985,13 +977,9 @@ D2
 ~
 ~
 0 0 195
-D3
-~
-~
-0 0 201
 S
 #181
-indra.farm/veggie~
+Farm Veggies~
 Empty.~
 1 16 0 0 0 2
 D0
@@ -1030,7 +1018,7 @@ D2
 0 0 198
 S
 #184
-indra.city/nw~
+9N9W Outer Loop~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -1055,7 +1043,7 @@ D4
 0 0 154
 S
 #185
-indra.city/nw~
+9N8W Outer Loop~
 empty room.~
 1 16 0 0 0 1
 D1
@@ -1068,7 +1056,7 @@ D3
 0 0 184
 S
 #186
-indra.city/nw~
+9N6W Outer Loop~
 empty room.~
 1 16 0 0 0 1
 D1
@@ -1081,9 +1069,9 @@ D3
 0 0 185
 S
 #187
-INDU Alley~
+9N3W Outer Loop~
 empty room.~
-1 272 0 0 0 1
+1 16 0 0 0 1
 D1
 ~
 ~
@@ -1094,7 +1082,7 @@ D3
 0 0 186
 S
 #188
-indra.city/nw~
+9N1W Outer Loop~
 empty room.~
 1 16 0 0 0 1
 D1
@@ -1107,7 +1095,7 @@ D3
 0 0 187
 S
 #189
-indra.city/n~
+9N Main Street~
 empty room.~
 1 16 0 0 0 1
 D0
@@ -1128,7 +1116,7 @@ D3
 0 0 188
 S
 #190
-indra.city/ne~
+1E9N Outer Loop~
 undefined~
 1 16 0 0 0 1
 D1
@@ -1141,7 +1129,7 @@ D3
 0 0 189
 S
 #191
-indra.city/ne~
+3E9N Outer Loop~
 undefined~
 1 16 0 0 0 1
 D1
@@ -1154,7 +1142,7 @@ D3
 0 0 190
 S
 #192
-ARJIKA ALLEY~
+6E9N Outer Loop~
 Empty Room.~
 1 16 0 0 0 1
 D1
@@ -1167,7 +1155,7 @@ D3
 0 0 191
 S
 #193
-indra.city/ne~
+8E9N Outer Loop~
 Empty Room.~
 1 0 0 0 0 1
 D1
@@ -1180,7 +1168,7 @@ D3
 0 0 192
 S
 #194
-indra.city/ne~
+9N9E Outer Looop~
 undefined~
 1 16 0 0 0 1
 D0
@@ -1205,9 +1193,9 @@ D4
 0 0 164
 S
 #195
-indra.farm/fruit~
+Farm Fruits~
 undefined~
-1 0 0 0 0 2
+1 16 0 0 0 2
 D0
 ~
 ~
@@ -1222,7 +1210,7 @@ D2
 0 0 202
 S
 #196
-indra.farm/vine~
+Farm Grapes~
 Empty.~
 1 16 0 0 0 4
 D0
@@ -1265,7 +1253,7 @@ D2
 0 0 205
 S
 #199
-indra.city/nw~
+9W8N Outer Loop~
 Empty room.~
 1 16 0 0 0 1
 D0

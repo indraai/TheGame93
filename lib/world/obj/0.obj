@@ -249,9 +249,10 @@ talk:#adv object:thegame 0092/look
 0 0 0 0
 0 0 0 0 0
 #93
-soma message board~
-Soma Board~
-The Soma board has been posted here.~
+army message board~
+ARMY Board~
+0093/avatar~
+talk:#adv object:thegame 0093/look
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -265,9 +266,10 @@ A message board for Indu is here.~
 0 0 0 0
 0 0 0 0 0
 #95
-saryak message board~
-Saryak Board~
-A board for Saryak is here.~
+farm message board~
+Farm Board~
+0095/avatar~
+talk:#adv object:thegame 0095/look
 ~
 13 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0

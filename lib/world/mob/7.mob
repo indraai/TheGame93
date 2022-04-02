@@ -1,1 +1,45 @@
+#700
+bali sutala daityas~
+Bali~
+700/avatar~
+talk:#adv agent:thegame 700/look
+~
+6232 0 0 0 0 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 7
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
+#701
+hari sutala daityas~
+Hari~
+701/avatar~
+talk:#adv agent:thegame 700/look
+~
+6170 0 0 0 0 0 0 0 0 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 1 7
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
 $
