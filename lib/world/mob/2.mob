@@ -8,7 +8,7 @@ talk:#adv agent:thegame 0200/look
 2074 0 0 0 0 0 0 0 -250 E
 9 17 4 1d1+90 1d2+1
 90 8100
-8 8 1
+8 8 1 1
 BareHandAttack: 7
 SavingPara: 2
 SavingRod: 2
@@ -26,7 +26,7 @@ talk:#adv agent:thegame 0201/look
 2074 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2
+8 8 2 2
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -43,7 +43,7 @@ The Offering Deva assists people in making, preparing, and presenting their offe
 72 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 2
+8 8 2 4
 E
 #209
 services deva harry indra.services deva~
@@ -54,7 +54,7 @@ talk:#adv agent:thegame 0209/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #210
@@ -66,7 +66,7 @@ talk:#adv agent:thegame 0210/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #211
@@ -78,7 +78,7 @@ talk:#adv agent:thegame 0211/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #212
@@ -93,7 +93,7 @@ inspection the parrot has a wooden leg and an eye patch!
 8 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1
+8 8 1 1
 E
 #213
 rahu king demon asuras~
@@ -105,7 +105,7 @@ talk:#adv agent:thegame 0213/look
 2136 0 0 0 2152 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 5
+8 8 5 6
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -127,7 +127,7 @@ talk:#adv agent:thegame 0214/look~
 260378 0 0 0 56 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6
+8 8 6 6
 BareHandAttack: 11
 Str: 18
 Dex: 18
@@ -149,7 +149,7 @@ talk:#adv agent:thegame 0215/look~
 260378 0 0 0 2104 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6
+8 8 6 6
 BareHandAttack: 10
 Str: 18
 Dex: 18
@@ -173,7 +173,7 @@ A tiny green alien, dressed in gray and white robes.  He carries around a small 
 8 0 0 0 0 0 0 0 1000 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1
+8 8 1 2
 BareHandAttack: 10
 E
 #217
@@ -185,7 +185,7 @@ talk:#adv agent:thegame 0217/look
 2072 0 0 0 2304 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 10000 40000
-8 8 7
+8 8 7 4
 BareHandAttack: 2
 Str: 13
 Dex: 13
@@ -208,7 +208,7 @@ talk:#adv agent:thegame 0218/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #219
@@ -220,7 +220,7 @@ talk:#adv agent:thegame 0219/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #220
@@ -232,7 +232,7 @@ talk:#adv agent:thegame 0220/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #221
@@ -244,7 +244,7 @@ talk:#adv agent:thegame 0221/look
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-6 6 6
+6 6 6 1
 BareHandAttack: 4
 E
 #222
@@ -256,7 +256,7 @@ talk:#adv agent:thegame 0222/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #223
@@ -268,7 +268,7 @@ talk:#adv agent:thegame 0223/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 10 1d1+0 1d1+0
 0 0
-6 6 6
+6 6 6 1
 BareHandAttack: 4
 E
 #224
@@ -280,7 +280,7 @@ talk:#adv agent:thegame 0224/look
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-6 6 6
+6 6 6 1
 BareHandAttack: 4
 E
 #225
@@ -292,7 +292,7 @@ talk:#adv agent:thegame 0225/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6
+6 6 6 0
 BareHandAttack: 4
 E
 #226
@@ -304,7 +304,29 @@ talk:#adv agent:thegame 0226/look
 4106 0 0 0 0 0 0 0 0 E
 1 20 10 1d1+0 1d1+0
 0 0
-6 6 6
+6 6 6 1
 BareHandAttack: 4
+E
+#297
+army cyber4 soldier agent~
+ARMY Cyber4~
+297/avatar~
+talk:#adv agent:thegame 297/look~
+6170 0 0 0 2168 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 0 0
+BareHandAttack: 8
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
 E
 $

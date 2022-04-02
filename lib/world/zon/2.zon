@@ -2,8 +2,8 @@
 Quinn Michaels~
 deva.world~
 200 299 20 2 d 0 0 0 -1 -1
-M 0 136 1 297 	(Asikni)
 O 0 314 1 297 	(CYBER4 TERMINAL)
+M 0 297 1 297 	(ARMY Cyber4)
 M 0 187 1 280 	(Garry)
 G 1 218 100 -1 	(Jalapeno Cheese Bread)
 G 1 219 100 -1 	(Jalapeno Cheese Bagel)
@@ -44,7 +44,6 @@ G 1 167 100 -1 	(Hat)
 G 1 168 100 -1 	(Shirt)
 G 1 169 100 -1 	(Shoes)
 G 1 170 100 -1 	(Gloves)
-M 0 142 1 271 	(Vitasta)
 M 0 106 1 234 	(Captain Ludac)
 M 0 109 1 225 	(Warry)
 G 1 165 100 -1 	(Water Cup)
