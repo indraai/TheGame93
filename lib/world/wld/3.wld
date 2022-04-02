@@ -1,16 +1,12 @@
 #300
-SARYA CYBER3~
+City Park~
 undefined~
-3 568 0 0 0 0
+3 16 0 0 0 2
 D0
 ~
 ~
-0 0 287
-D2
-~
-~
-0 0 307
-D3
+0 0 306
+D1
 ~
 ~
 0 0 299
@@ -77,31 +73,35 @@ D2
 0 0 298
 S
 #306
-SARYA Barracks~
+City Park~
 Empty room.~
-3 24 0 0 0 0
+3 16 0 0 0 2
 D0
 ~
 ~
-0 0 299
+0 0 307
 D2
-~
-~
-0 0 321
-S
-#307
-SARYA CYBER2~
-Empty.~
-3 568 0 0 0 0
-D0
 ~
 ~
 0 0 300
-D2
-~
-~
-0 0 322
 D3
+~
+~
+0 0 323
+S
+#307
+City Park~
+Empty.~
+3 16 0 0 0 2
+D0
+~
+~
+0 0 321
+D1
+~
+~
+0 0 289
+D2
 ~
 ~
 0 0 306
@@ -148,6 +148,10 @@ S
 6W9S Outer Loop~
 undefined~
 3 16 0 0 0 1
+D0
+~
+~
+0 0 299
 D1
 ~
 ~
@@ -161,6 +165,10 @@ S
 3W9S Outer Loop~
 undefined~
 3 16 0 0 0 1
+D0
+~
+~
+0 0 274
 D1
 ~
 ~
@@ -304,34 +312,34 @@ D2
 0 0 305
 S
 #321
-SARYA Training~
+City Park~
 Empty room.~
-3 24 0 0 0 0
+3 16 0 0 0 2
 D0
-~
-~
-0 0 306
-D1
 ~
 ~
 0 0 322
 D2
 ~
 ~
-0 0 336
+0 0 307
 S
 #322
-SARYA CYBER1~
+City Park~
 Empty room.~
-3 568 0 0 0 0
-D0
+3 16 0 0 0 2
+D1
 ~
 ~
-0 0 307
-D3
+0 0 276
+D2
 ~
 ~
 0 0 321
+D3
+~
+~
+0 0 275
 S
 #323
 9W6S Outer Loop~
@@ -341,6 +349,10 @@ D0
 ~
 ~
 0 0 275
+D1
+~
+~
+0 0 306
 D2
 ~
 ~
@@ -514,20 +526,6 @@ D3
 ~
 0 0 334
 S
-#336
-SARYA Recruiting~
-undefined~
-3 24 0 0 0 0
-D0
-~
-~
-0 0 321
-D1
-~
-~
-0 0 337
-S
-T 336
 #337
 SARYA Entrance~
 Empty room.~
@@ -536,10 +534,6 @@ D1
 ~
 ~
 0 0 308
-D3
-~
-~
-0 0 336
 S
 #338
 Security Lookout (SW)~
