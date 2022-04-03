@@ -116,7 +116,7 @@ talk:#adv agent:thegame 0005/look~
 260120 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 1
 BareHandAttack: 14
 Str: 13
 Dex: 13
@@ -182,7 +182,7 @@ talk:#adv agent:thegame 0009/look~
 2200 0 0 0 2368 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 1
+8 8 0 6
 BareHandAttack: 1
 Str: 18
 Dex: 18
