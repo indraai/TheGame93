@@ -389,7 +389,7 @@ talk:#adv agent:thegame 0126/look
 6168 0 0 0 2128 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 0
+8 8 1 4
 BareHandAttack: 6
 E
 #127
@@ -487,7 +487,7 @@ talk:#adv agent:thegame 0134/look
 6168 0 0 0 16 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 0 1
+8 8 0 5
 BareHandAttack: 5
 Str: 17
 Dex: 17
@@ -576,7 +576,7 @@ talk:#adv agent:thegame 0138/look~
 6168 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 1
+8 8 0 4
 BareHandAttack: 5
 E
 #141
@@ -587,7 +587,7 @@ talk:#adv agent:thegame 0141/look~
 6168 0 0 0 2168 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-8 8 1 0
+8 8 1 4
 BareHandAttack: 13
 Str: 16
 Dex: 16
@@ -647,7 +647,7 @@ talk:#adv agent:thegame 0144/look~
 6168 0 0 0 2168 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 0 1
+8 8 0 2
 BareHandAttack: 1
 E
 #145
@@ -751,7 +751,7 @@ talk:#adv agent:thegame 0177/look
 6170 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 1
+8 8 1 3
 BareHandAttack: 13
 SavingPara: 3
 SavingRod: 3
@@ -855,7 +855,7 @@ talk:#adv agent:thegame 0160/look
 6168 0 0 0 2120 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 0
+8 8 1 4
 BareHandAttack: 7
 E
 #161
