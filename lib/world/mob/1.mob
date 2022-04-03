@@ -951,26 +951,15 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #176
-svetya visvedevas deity~
-Svetya~
+female agent a176~
+Female Agent~
 0176/avatar~
 talk:#adv agent:thegame 0176/look~
-6168 0 0 0 24 0 0 0 0 E
-23 13 -3 4d4+230 3d3+3
-230 52900
-8 8 6 4
-BareHandAttack: 11
-Str: 15
-Dex: 15
-Int: 15
-Wis: 15
-Con: 15
-Cha: 15
-SavingPara: 5
-SavingRod: 5
-SavingPetri: 5
-SavingBreath: 5
-SavingSpell: 5
+6168 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2 0
+BareHandAttack: 1
 E
 #177
 security securitydeva cyber d177 z1~
@@ -980,7 +969,7 @@ talk:#adv agent:thegame 0177/look~
 6170 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 0 1
+8 8 0 3
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -995,7 +984,7 @@ talk:#adv agent:thegame 0179/look~
 6168 0 0 0 2048 0 0 0 1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 BareHandAttack: 10
 SavingPara: 1
 SavingRod: 1
@@ -1034,6 +1023,21 @@ talk:#adv agent:thegame 0181/look~
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 6 4
+E
+#182
+al bundy shoe salesman mall~
+Al Bundy~
+182/avatar~
+talk:#adv agent:thegame 182/look~
+10 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 0
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #183
 fightclub fight club muscle~
@@ -1099,14 +1103,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #189
-trstama visvedevas deity~
-Trstama~
+arjika commander military soldier a189~
+Arjika Commander~
 0189/avatar~
 talk:#adv agent:thegame 0189/look~
-6170 0 0 0 64 0 0 0 500 E
+6168 0 0 0 2168 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 6 4
+8 8 1 0
 BareHandAttack: 9
 Str: 14
 Dex: 14
@@ -1137,14 +1141,19 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #197
-carpenter services~
-the Carpenter~
+jamie oliver kitchen mall~
+Jamie Oliver~
 0197/avatar~
 talk:#adv agent:thegame 0197/look~
 10 0 0 0 0 0 0 0 0 E
-21 13 -2 4d4+210 3d3+3
-210 44100
-8 8 1 4
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 0
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #198
 vamraka disciple monk~

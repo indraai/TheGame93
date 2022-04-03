@@ -177,8 +177,8 @@ A tiny green alien, dressed in gray and white robes.  He carries around a small 
 BareHandAttack: 10
 E
 #217
-al bundy shoe salesman shoes~
-Al Bundy~
+martin bookstore books clerk~
+Martin~
 0217/avatar~
 talk:#adv agent:thegame 0217/look
 ~
@@ -300,6 +300,21 @@ talk:#adv agent:thegame 0226/look
 0 0
 6 6 6 1
 BareHandAttack: 4
+E
+#230
+hackerman tech store mall~
+Hackerman~
+230/avatar~
+talk:#adv agent:thegame 230/look~
+10 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 0 1
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #297
 army cyber4 soldier agent~
