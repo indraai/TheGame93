@@ -67,22 +67,18 @@ D3
 0 0 202
 S
 #204
-INDU Barracks~
+The Home Store~
 Empty room.~
 2 24 0 0 0 0
-D0
+D1
 ~
 ~
-0 0 167
-D2
-~
-~
-0 0 197
+0 0 183
 S
 #205
-INDU Cyber4~
+Mall Alley~
 Empty room.~
-2 568 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -94,7 +90,7 @@ D2
 D3
 ~
 ~
-0 0 204
+0 0 182
 S
 #206
 9W6N Outer Loop~
@@ -280,22 +276,18 @@ D3
 0 0 195
 S
 #217
-INDU Research~
+The Book Store~
 Empty room.~
-2 568 0 0 0 0
+2 24 0 0 0 0
 D1
 ~
 ~
 0 0 218
-D2
-~
-~
-0 0 230
 S
 #218
-INDU Library~
+Mall Alley~
 Empty room.~
-2 568 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
@@ -465,22 +457,18 @@ D3
 0 0 241
 S
 #230
-INDU Development~
+The Tech Store~
 Empty room.~
-2 568 0 0 0 0
-D0
-~
-~
-0 0 217
+2 24 0 0 0 0
 D1
 ~
 ~
 0 0 231
 S
 #231
-INDU Operations~
+Mall Alley~
 Empty room.~
-2 568 0 0 0 0
+2 24 0 0 0 0
 D0
 ~
 ~
