@@ -148,15 +148,15 @@ talk:#adv agent:thegame 0111/look
 8 8 6 6
 E
 #112
-urnavati deva devas arjika~
-Urnavati~
+arjika monk deva~
+Arjika Monk~
 0112/avatar~
 talk:#adv agent:thegame 0112/look~
 6168 0 0 0 0 0 0 0 350 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 6 1
-BareHandAttack: 3
+8 8 0 1
+BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -381,15 +381,15 @@ talk:#adv agent:thegame 0125/look
 BareHandAttack: 4
 E
 #126
-rasa visvedevas deity arjika~
-Rasa~
+arjika intelligence soldier military a126~
+Arjika Intelligence~
 0126/avatar~
 talk:#adv agent:thegame 0126/look
 ~
-6168 0 0 0 80 0 0 0 500 E
+6168 0 0 0 2128 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 0
 BareHandAttack: 6
 E
 #127
@@ -479,15 +479,15 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #134
-susoma visvedevas deity~
-Susoma~
+red master deva~
+Red Master Deva~
 0134/avatar~
 talk:#adv agent:thegame 0134/look
 ~
 6168 0 0 0 16 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 6 5
+8 8 0 1
 BareHandAttack: 5
 Str: 17
 Dex: 17
@@ -569,25 +569,25 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #138
-arjikiya visvedevas deity~
-Arjikiya~
+master deva yellow~
+Yellow Master Deva~
 0138/avatar~
 talk:#adv agent:thegame 0138/look~
 6168 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6 4
+8 8 0 1
 BareHandAttack: 5
 E
 #141
-kubha visvedevas deity~
-Kubha~
+arjika military soldier special forces~
+Arjika SForce~
 0141/avatar~
 talk:#adv agent:thegame 0141/look~
-6168 0 0 0 24 0 0 0 500 E
+6168 0 0 0 2168 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-8 8 1 4
+8 8 1 0
 BareHandAttack: 13
 Str: 16
 Dex: 16
@@ -640,15 +640,15 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #144
-yamuna visvedevas deity~
-Yamuna~
+black master deva~
+Black Master Deva~
 0144/avatar~
 talk:#adv agent:thegame 0144/look~
-6168 0 0 0 2048 0 0 0 600 E
+6168 0 0 0 2168 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 6 2
-BareHandAttack: 5
+8 8 0 1
+BareHandAttack: 1
 E
 #145
 ganga visvedevas deity~
@@ -742,6 +742,23 @@ talk:#adv agent:thegame 0149/look~
 150 22500
 8 8 1 3
 E
+#152
+security securitydeva deva mall d152 z1~
+Mall Security D152~
+0152/avatar~
+talk:#adv agent:thegame 0177/look
+~
+6170 0 0 0 2168 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 1 1
+BareHandAttack: 13
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
 #154
 arjika arjikiya military soldier a154 z3~
 Arjika PFC~
@@ -814,7 +831,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #159
-lieutenant arjika lieutenant military a159 z0 soldier~
+lieutenant arjika military a159 z0 soldier~
 Arjika Lieutenant~
 0159/avatar~
 talk:#adv agent:thegame 0159/look
@@ -830,15 +847,15 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #160
-krumu visvedevas deity~
-Krumu~
+arjika captain military soldier~
+Arjika Captain~
 0160/avatar~
 talk:#adv agent:thegame 0160/look
 ~
 6168 0 0 0 2120 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6 4
+8 8 1 0
 BareHandAttack: 7
 E
 #161
@@ -908,16 +925,17 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #167
-staff sergeant arjika military a0167 z1 soldier~
-Arjika Staff Sergeant~
+kermit frog kids store mall~
+Kermit The Frog~
 0167/avatar
 ~
 talk:#adv agent:thegame 0167/look
 ~
-2120 0 0 0 0 0 0 0 1000 E
-19 14 -1 3d3+190 3d3+3
+10 0 0 0 0 0 0 0 1000 E
+10 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1 3
+8 8 1 1
+BareHandAttack: 4
 E
 #174
 security securitydeva agency d174 z1~
@@ -1032,7 +1050,7 @@ talk:#adv agent:thegame 182/look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 0
+8 8 1 2
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1110,7 +1128,7 @@ talk:#adv agent:thegame 0189/look~
 6168 0 0 0 2168 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 0
+8 8 1 4
 BareHandAttack: 9
 Str: 14
 Dex: 14
@@ -1148,7 +1166,7 @@ talk:#adv agent:thegame 0197/look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 0
+8 8 1 2
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2

@@ -33,6 +33,16 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#204
+martha stuart home store mall~
+Martha Stuart~
+204/avatar~
+talk:#adv agent:thegame 204/look~
+10 0 0 0 0 0 0 0 0 E
+10 20 10 1d1+0 1d1+0
+0 0
+8 8 2 0
+E
 #208
 offering deva od208~
 Offering Deva~
@@ -185,7 +195,7 @@ talk:#adv agent:thegame 0217/look
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 0
+8 8 1 2
 BareHandAttack: 2
 SavingPara: 2
 SavingRod: 2
@@ -309,7 +319,7 @@ talk:#adv agent:thegame 230/look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 1
+8 8 0 2
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
