@@ -842,26 +842,22 @@ D3
 0 0 165
 S
 #167
-INDU Training~
+The Kids Store~
 Empty room.~
 1 24 0 0 0 0
-D0
-~
-~
-0 0 152
 D1
 ~
 ~
 0 0 168
-D2
-~
-~
-0 0 204
 S
 #168
-INDU Cyber1~
+Mall Alley~
 empty room.~
-1 568 0 0 0 0
+1 24 0 0 0 0
+D0
+~
+~
+0 0 153
 D2
 ~
 ~
@@ -996,18 +992,18 @@ D3
 0 0 180
 S
 #182
-INDU Kitchen~
+The Shoe Store~
 empty room.~
 1 24 0 0 0 0
-D0
+D1
 ~
 ~
-0 0 197
+0 0 205
 S
 #183
-INDU Cyber2~
+Mall Alley~
 empty room.~
-1 568 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1016,6 +1012,10 @@ D2
 ~
 ~
 0 0 198
+D3
+~
+~
+0 0 204
 S
 #184
 9N9W Outer Loop~
@@ -1227,22 +1227,18 @@ D3
 0 0 215
 S
 #197
-INDU Dining~
+The Kitchen Store~
 Empty room.~
 1 24 0 0 0 0
-D0
+D1
 ~
 ~
-0 0 204
-D2
-~
-~
-0 0 182
+0 0 198
 S
 #198
-INDU Cyber3~
+Mall Alley~
 empty room.~
-1 568 0 0 0 0
+1 24 0 0 0 0
 D0
 ~
 ~
@@ -1251,6 +1247,10 @@ D2
 ~
 ~
 0 0 205
+D3
+~
+~
+0 0 197
 S
 #199
 9W8N Outer Loop~
