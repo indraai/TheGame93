@@ -64,6 +64,16 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#320
+army kitchen chef soldier military~
+ARMY Chef~
+320/avatar~
+talk:#adv agent:thegame 320/look~
+10 0 0 0 0 0 0 0 0 E
+10 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
 #324
 [KEYWORDS]~
 [NAME]~
@@ -219,6 +229,6 @@ talk:#adv agent:thegame 334/look~
 6170 0 0 0 2168 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 0
+8 8 0 1
 E
 $

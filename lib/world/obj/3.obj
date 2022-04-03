@@ -143,6 +143,15 @@ talk:#adv object:thegame 0314/look
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
+#315
+city park water fountain~
+City Park Fountain~
+0315/avatar~
+talk:#adv object:thegame 0315/look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+10 1 0 0
+0 0 0 0 0
 #344
 water fountain drinks drink~
 Water Fountain~
