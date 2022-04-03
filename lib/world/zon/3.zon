@@ -2,15 +2,17 @@
 Quinn Michaels~
 deva.world~
 300 399 20 2 d 0 0 0 -1 -1
+O 0 315 1 300 	(City Park Fountain)
+M 0 320 1 320 	(ARMY Chef)
 O 0 313 1 304 	(CYBER3 TERMINAL)
 M 0 304 1 304 	(ARMY Cyber3)
-M 0 177 4 304 	(SecurityDEVA D177 (Cyber))
+M 0 177 4 304 	(CyberMan D177)
 O 0 312 1 319 	(CYBER2 TERMINAL)
 M 0 319 1 319 	(ARMY Cyber2)
-M 0 177 4 319 	(SecurityDEVA D177 (Cyber))
+M 0 177 4 319 	(CyberMan D177)
 O 0 311 1 334 	(CYBER1 TERMINAL)
 M 0 334 1 334 	(ARMY Cyber1)
-M 0 177 4 334 	(SecurityDEVA D177 (Cyber))
+M 0 177 4 334 	(CyberMan D177)
 M 0 326 1 394 	(Narayana Vasudeva Bhagavan)
 M 0 327 1 394 	(Aswatthaman)
 O 0 306 1 394 	(Panchajanya)

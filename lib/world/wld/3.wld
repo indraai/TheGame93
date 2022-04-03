@@ -922,7 +922,7 @@ D1
 0 0 362
 S
 #364
-Vitala Portal~
+Labyrinth L2~
 talk:#adv room:thegame 0364/look
 ~
 3 24 0 0 0 0
@@ -940,7 +940,7 @@ D5
 0 0 365
 S
 #365
-Sutala Portal~
+Labyrinth L3~
 [DESCRIBE]~
 3 24 0 0 0 0
 D0
@@ -966,7 +966,7 @@ D1
 0 0 329
 S
 #367
-Talatala Portal~
+Labyrinth L4~
 [DESCRIBE]~
 3 24 0 0 0 0
 D0
@@ -1213,7 +1213,7 @@ D1
 0 0 384
 S
 #386
-Atala Portal~
+Labyrinth L1~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1256,7 +1256,7 @@ D2
 0 0 387
 S
 #389
-Mahatala Portal~
+Labyrinth L5~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1273,7 +1273,7 @@ D5
 0 0 390
 S
 #390
-Patala Portal~
+Labyrinth L6~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1290,7 +1290,7 @@ D5
 0 0 391
 S
 #391
-The Darkness~
+The Engine Room~
 undefined~
 3 24 0 0 0 0
 D4
@@ -1299,7 +1299,7 @@ D4
 0 0 390
 S
 #392
-Goloka Portal~
+City Tower L9~
 talk:#adv room:thegame 0392/look
 ~
 3 24 0 0 0 0
@@ -1313,7 +1313,7 @@ D5
 0 0 399
 S
 #393
-Devaloka Portal~
+City Tower L4~
 talk:#adv world:thegame 0393/look
 ~
 3 24 0 0 0 0
@@ -1327,7 +1327,7 @@ D5
 0 0 395
 S
 #394
-Vaikuntha Portal~
+Isotropic Antenna~
 [DESCRIBE]~
 3 24 0 0 0 0
 D5
@@ -1336,7 +1336,7 @@ D5
 0 0 392
 S
 #395
-Indraloka Portal~
+City Tower L3~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
@@ -1349,7 +1349,7 @@ D5
 0 0 101
 S
 #396
-Maharloka Portal~
+City Tower L5~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
@@ -1362,7 +1362,7 @@ D5
 0 0 393
 S
 #397
-Janaloka Portal~
+City Tower L6~
 [DESCRIBE]~
 3 0 0 0 0 0
 D4
@@ -1375,7 +1375,7 @@ D5
 0 0 396
 S
 #398
-Tapaloka Portal~
+City Tower L7~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
@@ -1388,7 +1388,7 @@ D5
 0 0 397
 S
 #399
-Satyaloka Portal~
+City Tower L8~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
