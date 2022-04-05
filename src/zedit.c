@@ -664,9 +664,9 @@ static void zedit_disp_arg3(struct descriptor_data *d)
   case 'D':
     write_to_output(d,
     "## Door State\r\n"
-    "menu:0:door open\r\n"
-		"menu:1:door closed\r\n"
-		"menu:2:door locked\r\n");
+    "\nmenu[door open]:0\r"
+		"\nmenu[door closed]:1\r"
+		"\nmenu[door locked]:2\r");
     break;
   case 'V':
   case 'T':
@@ -698,12 +698,11 @@ static void zedit_disp_levels(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	"\n## Recommendations\r\n"
-	"menu:1:min level\r\n"
-	"menu:2:max level\r\n"
-	"menu:3:clear level\r\n"
-	"\nmenu:0:quit\r\n"
-  "current: %s\r\n"
-	"Enter choice (0 to quit)...\r\n", lev_string);
+	"\nmenu[min level]:1\r"
+	"\nmenu[max level]:2\r"
+	"\nmenu[clear level]:3\r"
+	"\nmenu[quit]:0\r"
+  "\n%s\r", lev_string);
   OLC_MODE(d) = ZEDIT_LEVELS;
 }
 
