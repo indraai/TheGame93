@@ -1,7 +1,149 @@
 #1000
-The Beginning~
+World Fight Club~
 Not much here.
 ~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1008
+D1
+~
+~
+0 0 1001
+D2
+~
+~
+0 0 391
+D3
+~
+~
+0 0 1007
+S
+#1001
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D2
+~
+~
+0 0 1002
+D3
+~
+~
+0 0 1000
+S
+#1002
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1001
+D2
+~
+~
+0 0 1003
+S
+#1003
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1002
+D3
+~
+~
+0 0 1004
+S
+#1004
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1003
+D3
+~
+~
+0 0 1005
+S
+#1005
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1006
+D1
+~
+~
+0 0 1004
+S
+#1006
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1007
+D2
+~
+~
+0 0 1005
+S
+#1007
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1000
+D2
+~
+~
+0 0 1006
+S
+#1008
+Backroom Brawls~
+[DESCRIBE]~
 10 0 0 0 0 0
+D1
+~
+~
+0 0 1009
+D2
+~
+~
+0 0 1000
+S
+#1009
+The Back Office~
+[DESCRIBE]~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1010
+D3
+~
+~
+0 0 1008
+S
+#1010
+The Crisis Room~
+[DESCRIBE]~
+10 8 0 0 0 0
+D3
+~
+~
+0 0 1009
 S
 $~
