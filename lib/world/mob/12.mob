@@ -1,0 +1,29 @@
+#1235
+alfred vulture club33~
+Alfred~
+1235/avatar~
+talk:#adv agent:thegame 1235/look~
+10 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 0
+BareHandAttack: 1
+E
+#1241
+pirate jack sparrow disneyland~
+Jack Sparrow~
+1241/avatar~
+talk:#adv agent:thegame 1241/look
+~
+18458 0 0 0 0 0 0 0 1000 E
+15 15 1 3d3+150 2d2+2
+150 22500
+6 6 1 0
+BareHandAttack: 10
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+$
