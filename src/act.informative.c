@@ -577,7 +577,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       else {
         /* send the room description */
         send_to_char(ch, "\n::begin:world\r"
-          "\ntalk:#adv world:thegame %d\r"
+          "\ntalk:#adv world:thegame %d/main\r"
           "\nroom:%d\r"
           "\n::end:world\r",
           GET_ROOM_VNUM(IN_ROOM(ch)),
@@ -623,7 +623,7 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\n# %s\r"
-        "\ntalk:#adv world:thegame %d/%s\r"
+        "\ntalk:#adv world:thegame %d/main:%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
@@ -634,7 +634,7 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else
       send_to_char(ch, "\n# Look"
-        "\ntalk:#adv world:thegame %d/look\r"
+        "\ntalk:#adv world:thegame %d/main:look\r"
         "\nroom: %d\r",
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
@@ -748,7 +748,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
     send_to_char(ch, "\n## %s"
-      "\ntalk:#adv world:thegame %d/%s\r"
+      "\ntalk:#adv world:thegame %d/main:%s\r"
       "\nroom:%d\r",
       arg,
       GET_ROOM_VNUM(IN_ROOM(ch)),
