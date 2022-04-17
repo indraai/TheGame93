@@ -182,7 +182,7 @@ static void medit_setup_new(struct descriptor_data *d)
   char avatarstr[MAX_STRING_LENGTH], agentstr[MAX_STRING_LENGTH];
 
   /* create default strings with agent number in them; */
-  sprintf(avatarstr, "%d/avatar", OLC_NUM(d));
+  sprintf(avatarstr, "%d/main:avatar", OLC_NUM(d));
   sprintf(agentstr, "talk:#adv agent:thegame %d/main:look", OLC_NUM(d));
 
   /* Allocate a scratch Agent structure. */
