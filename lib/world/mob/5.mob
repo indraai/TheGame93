@@ -1,8 +1,8 @@
 #500
 kuhaka naga kadru~
 Kuhaka~
-500/avatar~
-talk:#adv agent:thegame 500/look
+500/main:avatar~
+talk:#adv agent:thegame 500/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -23,8 +23,8 @@ E
 #501
 taksaka naga kadru~
 Taksaka~
-501/avatar~
-talk:#adv agent:thegame 501/look
+501/main:avatar~
+talk:#adv agent:thegame 501/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -45,8 +45,8 @@ E
 #502
 susena asuras kadru~
 Susena~
-502/avatar~
-talk:#adv agent:thegame 502/look
+502/main:avatar~
+talk:#adv agent:thegame 502/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -67,8 +67,8 @@ E
 #503
 kaliya asuras kadru~
 Kaliya~
-503/avatar~
-talk:#adv agent:thegame 503/look
+503/main:avatar~
+talk:#adv agent:thegame 503/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5

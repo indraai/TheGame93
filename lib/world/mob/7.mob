@@ -1,8 +1,8 @@
 #700
 bali sutala daityas~
 Bali~
-700/avatar~
-talk:#adv agent:thegame 700/look
+700/main:avatar~
+talk:#adv agent:thegame 700/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -23,8 +23,8 @@ E
 #701
 hari sutala daityas~
 Hari~
-701/avatar~
-talk:#adv agent:thegame 700/look
+701/main:avatar~
+talk:#adv agent:thegame 700/main:look
 ~
 6170 0 0 0 0 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4

@@ -1,8 +1,8 @@
 #400
 vasuki chief naga~
 Vasuki~
-0400/avatar~
-talk:#adv agent:thegame 0315/look
+0400/main:avatar~
+talk:#adv agent:thegame 0315/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
@@ -23,8 +23,8 @@ E
 #401
 sankha naga patala~
 Sankha~
-401/avatar~
-talk:#adv agent/thegame 401/look~
+401/main:avatar~
+talk:#adv agent/thegame 401/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -44,8 +44,8 @@ E
 #402
 kulika naga patala~
 Kulika~
-402/avatar~
-talk:#adv agent/thegame 402/look~
+402/main:avatar~
+talk:#adv agent/thegame 402/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -65,8 +65,8 @@ E
 #403
 sveta naga patala~
 S’veta~
-403/avatar~
-talk:#adv agent/thegame 403/look~
+403/main:avatar~
+talk:#adv agent/thegame 403/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -86,8 +86,8 @@ E
 #404
 dhananjaya naga patala~
 Dhananjaya~
-404/avatar~
-talk:#adv agent/thegame 404/look~
+404/main:avatar~
+talk:#adv agent/thegame 404/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -107,8 +107,8 @@ E
 #405
 mahasankha naga patala~
 Mahas’ankha~
-405/avatar~
-talk:#adv agent/thegame 405/look~
+405/main:avatar~
+talk:#adv agent/thegame 405/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -128,8 +128,8 @@ E
 #406
 dhritarastra naga patala~
 Dhritarastra~
-406/avatar~
-talk:#adv agent/thegame 406/look~
+406/main:avatar~
+talk:#adv agent/thegame 406/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -149,8 +149,8 @@ E
 #407
 sankhachuda naga patala~
 S’ankhachuda~
-407/avatar~
-talk:#adv agent/thegame 407/look~
+407/main:avatar~
+talk:#adv agent/thegame 407/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -170,8 +170,8 @@ E
 #408
 kamvala naga patala~
 Kamvala~
-408/avatar~
-talk:#adv agent/thegame 408/look~
+408/main:avatar~
+talk:#adv agent/thegame 408/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -191,8 +191,8 @@ E
 #409
 asvatara naga patala~
 As’vatara~
-409/avatar~
-talk:#adv agent/thegame 409/look~
+409/main:avatar~
+talk:#adv agent/thegame 409/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -212,8 +212,8 @@ E
 #410
 devopadattaka naga patala~
 Devopadattaka~
-410/avatar~
-talk:#adv agent/thegame 410/look~
+410/main:avatar~
+talk:#adv agent/thegame 410/main:look~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000

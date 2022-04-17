@@ -1,8 +1,8 @@
 #300
 atm teller bank machine money indra.money~
 an indra.money machine~
-0300/avatar~
-talk:#adv object:thegame 0300/look
+0300/main:avatar~
+talk:#adv object:thegame 0300/main:look
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -28,8 +28,8 @@ strange occurrences to the bank manager.
 #302
 sindhu craft car chariot~
 Sindhu~
-302/avatar~
-talk:#adv object:thegame 302/look
+302/main:avatar~
+talk:#adv object:thegame 302/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -38,8 +38,8 @@ T 302
 #303
 tarksya craft ship car chariot~
 Tarksya~
-0303/avatar~
-talk:#adv object:thegame 0303/look
+0303/main:avatar~
+talk:#adv object:thegame 0303/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -47,8 +47,8 @@ talk:#adv object:thegame 0303/look
 #304
 pushpak craft ship car chariot~
 Pushpak~
-0304/avatar~
-talk:#adv object:thegame 0304/look
+0304/main:avatar~
+talk:#adv object:thegame 0304/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -56,8 +56,8 @@ talk:#adv object:thegame 0304/look
 #305
 svasti craft ship car chariot~
 Svasti~
-0305/avatar~
-talk:#adv object:thegame 0305/look
+0305/main:avatar~
+talk:#adv object:thegame 0305/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -65,8 +65,8 @@ talk:#adv object:thegame 0305/look
 #306
 panchajanya conch shell~
 Panchajanya~
-0306/avatar~
-talk:#adv object:thegame 0306/look
+0306/main:avatar~
+talk:#adv object:thegame 0306/main:look
 ~
 3 deg 0 0 0 an 0 0 0 defgln 0 0 0
 0 0 0 0
@@ -74,8 +74,8 @@ talk:#adv object:thegame 0306/look
 #307
 ananta trident weapons~
 Ananta Trident~
-0307/avatar~
-talk:#adv object:thegame 0307/look
+0307/main:avatar~
+talk:#adv object:thegame 0307/main:look
 ~
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
@@ -83,8 +83,8 @@ talk:#adv object:thegame 0307/look
 #308
 ananta mace weapons~
 Ananta Mace~
-0308/avatar~
-talk:#adv object:thegame 0308/look
+0308/main:avatar~
+talk:#adv object:thegame 0308/main:look
 ~
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
@@ -92,8 +92,8 @@ talk:#adv object:thegame 0308/look
 #309
 ananta disc weapons~
 Ananta Disc~
-0309/avatar~
-talk:#adv object:thegame 0309/look
+0309/main:avatar~
+talk:#adv object:thegame 0309/main:look
 ~
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
@@ -101,8 +101,8 @@ talk:#adv object:thegame 0309/look
 #310
 courtyard bench sit rest~
 Courtyard Bench~
-0310/avatar~
-talk:#adv object:thegame 0310/look
+0310/main:avatar~
+talk:#adv object:thegame 0310/main:look
 ~
 6 0 0 0 0 0 0 0 0 0 0 0 0
 10 0 0 0
@@ -110,8 +110,8 @@ talk:#adv object:thegame 0310/look
 #311
 cyber1 terminal army security~
 CYBER1 TERMINAL~
-0311/avatar~
-talk:#adv object:thegame 0311/look
+0311/main:avatar~
+talk:#adv object:thegame 0311/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -119,8 +119,8 @@ talk:#adv object:thegame 0311/look
 #312
 cyber2 terminal army security~
 CYBER2 TERMINAL~
-0312/avatar~
-talk:#adv object:thegame 0312/look
+0312/main:avatar~
+talk:#adv object:thegame 0312/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -128,8 +128,8 @@ talk:#adv object:thegame 0312/look
 #313
 cyber2 terminal army security~
 CYBER3 TERMINAL~
-0313/avatar~
-talk:#adv object:thegame 0313/look
+0313/main:avatar~
+talk:#adv object:thegame 0313/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -137,8 +137,8 @@ talk:#adv object:thegame 0313/look
 #314
 cyber4 terminal army security~
 CYBER4 TERMINAL~
-0314/avatar~
-talk:#adv object:thegame 0314/look
+0314/main:avatar~
+talk:#adv object:thegame 0314/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -146,8 +146,8 @@ talk:#adv object:thegame 0314/look
 #315
 city park water fountain~
 City Park Fountain~
-0315/avatar~
-talk:#adv object:thegame 0315/look
+0315/main:avatar~
+talk:#adv object:thegame 0315/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 10 1 0 0
@@ -155,8 +155,8 @@ talk:#adv object:thegame 0315/look
 #344
 water fountain drinks drink~
 Water Fountain~
-0344/avatar~
-talk:#adv object:thegame 0344/look
+0344/main:avatar~
+talk:#adv object:thegame 0344/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
@@ -164,8 +164,8 @@ talk:#adv object:thegame 0344/look
 #347
 water fountain drinks drink~
 Water Fountain~
-0347/avatar~
-talk:#adv object:thegame 0347/look
+0347/main:avatar~
+talk:#adv object:thegame 0347/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0

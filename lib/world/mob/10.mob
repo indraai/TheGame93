@@ -1,8 +1,8 @@
 #1000
 pilar fighter world fight club~
 Pilar Fighter~
-1000/avatar~
-talk:#adv agent:thegame 1000/look~
+1000/main:avatar~
+talk:#adv agent:thegame 1000/main:look:main~
 2142 0 0 0 2056 0 0 0 -500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -23,8 +23,8 @@ E
 #1001
 fighter bloc world fight club~
 Bloc Fighter~
-1001/avatar~
-talk:#adv agent:thegame 1001/look~
+1001/main:avatar~
+talk:#adv agent:thegame 1001/main:look:main~
 2142 0 0 0 2056 0 0 0 -550 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -45,8 +45,8 @@ E
 #1010
 the fixer world fight club boss~
 The Fixer~
-1010/avatar~
-talk:#adv agent:thegame 1010/look~
+1010/main:avatar~
+talk:#adv agent:thegame 1010/main:look:main~
 18974 0 0 0 2056 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900

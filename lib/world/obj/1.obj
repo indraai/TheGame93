@@ -1,16 +1,16 @@
 #101
 orange drink drinks juice~
 Glass~
-0101/avatar~
-talk:#adv object:thegame/0101/look~
+0101/main:avatar~
+talk:#adv object:thegame/0101/main:look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 8 8 1 0
 13 2 0 0 0
 #102
 glass apple drinks drink juice~
 Glass~
-0102/avatar~
-talk:#adv object:thegame 0102/look
+0102/main:avatar~
+talk:#adv object:thegame 0102/main:look
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 2 0
@@ -18,64 +18,64 @@ talk:#adv object:thegame 0102/look
 #103
 tropical iced-tea drink drinks tea~
 Glass~
-0103/avatar~
-talk:#adv object:thegame 0103/look~
+0103/main:avatar~
+talk:#adv object:thegame 0103/main:look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 5 0
 10 2 0 0 0
 #104
 passion fruit iced-tea drink drinks tea~
 Glass~
-0104/avatar~
-talk:#adv object:thegame 0104/look~
+0104/main:avatar~
+talk:#adv object:thegame 0104/main:look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 6 0
 10 2 0 0 0
 #105
 green robe clothing~
 Green Robe~
-0105/avatar~
-talk:#adv object:thegame 0105/look~
+0105/main:avatar~
+talk:#adv object:thegame 0105/main:look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 5 0 0 0
 1 500 0 0 0
 #106
 red robe clothing~
 Red Robe~
-0106/avatar~
-talk:#adv object:thegame/0106/look~
+0106/main:avatar~
+talk:#adv object:thegame/0106/main:look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 3 0 0 0
 3 500 0 0 0
 #107
 blue robe clothing~
 Blue Robe~
-0107/avatar~
-talk:#adv object:thegame 0107/look~
+0107/main:avatar~
+talk:#adv object:thegame 0107/main:look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 5 500 0 0 0
 #109
 sourdough bread food bakery~
 Sourdough Loaf~
-0109/avatar~
-talk:#adv object:thegame 0109/look~
+0109/main:avatar~
+talk:#adv object:thegame 0109/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 24 0 0 0
 1 6 0 0 0
 #111
 apple fruit food~
 Apple~
-0111/avatar~
-talk:#adv object:thegame 0111/look~
+0111/main:avatar~
+talk:#adv object:thegame 0111/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 4 0 0 0
 1 2 0 0 0
 #112
 blueberry muffin food bakery~
 Blueberry Muffin~
-0112/avatar~
-talk:#adv object:thegame 0112/look~
+0112/main:avatar~
+talk:#adv object:thegame 0112/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 15 0 0 0
 1 2 0 0 0
@@ -90,16 +90,16 @@ A glass of Mango Juice is here.~
 #114
 pretzel food~
 Pretzel~
-0114/avatar~
-talk:#adv object:thegame 0114/look~
+0114/main:avatar~
+talk:#adv object:thegame 0114/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
 1 5 0 0 0
 #115
 safe banks~
 a huge safe~
-0115/avatar~
-talk:#adv object:thegame 0115/look
+0115/main:avatar~
+talk:#adv object:thegame 0115/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -115,32 +115,32 @@ A bench of black polished granite looks mighty uncomfortable.~
 #119
 yellow robe clothing~
 Yellow Robe~
-0119/avatar~
-talk:#adve object:thegame 0119/look~
+0119/main:avatar~
+talk:#adve object:thegame 0119/main:look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 3 0 0 0
 3 500 0 0 0
 #122
 gray robe clothing~
 Gray Robe~
-0122/avatar~
-talk:#adv object:thegame 0122/look~
+0122/main:avatar~
+talk:#adv object:thegame 0122/main:look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 3 500 0 0 0
 #126
 purple robe clothing~
 Purple Robe~
-0126/avatar~
-talk:#adv object:thegame 0126/look~
+0126/main:avatar~
+talk:#adv object:thegame 0126/main:look~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 3 0 0 0
 5 500 0 0 0
 #129
 black robe clothing~
 Black Robe~
-0129/avatar~
-talk:#adv object:thegame 0129/look~
+0129/main:avatar~
+talk:#adv object:thegame 0129/main:look~
 9 0 0 0 0 ak 0 0 0 0 0 0 0
 4 0 0 0
 1 500 0 0 0
@@ -171,8 +171,8 @@ A small bag is here.~
 #133
 backpack pack~
 Backpack~
-0133/avatar~
-talk:#adv object:thegame 0133/look
+0133/main:avatar~
+talk:#adv object:thegame 0133/main:look
 ~
 15 0 0 0 0 ako 0 0 0 0 0 0 0
 100 1 -1 0
@@ -180,24 +180,24 @@ talk:#adv object:thegame 0133/look
 #136
 broom cleaning supplies~
 Broom~
-0136/avatar~
-talk:#adv object:thegame/0136/look~
+0136/main:avatar~
+talk:#adv object:thegame/0136/main:look~
 13 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 5 0 0 0
 #137
 glass drink tropical iced-tea tea~
 Tropical Iced-Tea~
-0137/avatar~
-talk:#adv object:thegame/0137/look~
+0137/main:avatar~
+talk:#adv object:thegame/0137/main:look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 5 0
 5 75 0 0 0
 #138
 glass apple drink drinks juice~
 Apple Juice~
-0138/avatar~
-talk:#adv object:thegame/0138/look~
+0138/main:avatar~
+talk:#adv object:thegame/0138/main:look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 5 5 2 0
 10 15 0 0 0
@@ -220,8 +220,8 @@ A jacket is lying on the floor~
 #149
 dustpan dust pan cleaning supplies~
 Dustpan~
-0149/avatar~
-talk:#adv object:thegame/0149/look~
+0149/main:avatar~
+talk:#adv object:thegame/0149/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 2 2 0 0 0
@@ -232,8 +232,8 @@ A
 #154
 sewing machine fashion clothing~
 Sewing Machine~
-0154/avatar~
-talk:#adv object:thegame 0154/look
+0154/main:avatar~
+talk:#adv object:thegame 0154/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -241,8 +241,8 @@ talk:#adv object:thegame 0154/look
 #155
 duster cleaning supplies~
 Duster~
-0155/avatar~
-talk:#adv object:thegame/0155/look~
+0155/main:avatar~
+talk:#adv object:thegame/0155/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 4 50 0 0 0
@@ -250,63 +250,63 @@ talk:#adv object:thegame/0155/look~
 row boat~
 Row Boat~
 0162~
-talk:#adv object:thegame/0162/look~
+talk:#adv object:thegame/0162/main:look~
 22 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 20 1000 0 0 0
 #165
 water cup water~
 Water Cup~
-0165/avatar~
-talk:#adv object:thegame/0165/look~
+0165/main:avatar~
+talk:#adv object:thegame/0165/main:look~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 3 3 0 0
 5 5 0 0 0
 #166
 cloth pants clothing~
 Pants~
-0166/avatar~
-talk:#adv object:thegame 0166/look~
+0166/main:avatar~
+talk:#adv object:thegame 0166/main:look~
 9 0 0 0 0 af 0 0 0 0 0 0 0
 2 0 0 0
 5 35 0 0 0
 #167
 hat clothing~
 Hat~
-0167/avatar~
-talk:#adv object:thegame 0167/look~
+0167/main:avatar~
+talk:#adv object:thegame 0167/main:look~
 9 0 0 0 0 ae 0 0 0 0 0 0 0
 1 0 0 0
 1 10 0 0 0
 #168
 shirt clothing~
 Shirt~
-0168/avatar~
-talk:#adv object:thegame 0168/look~
+0168/main:avatar~
+talk:#adv object:thegame 0168/main:look~
 9 0 0 0 0 ad 0 0 0 0 0 0 0
 2 0 0 0
 5 15 0 0 0
 #169
 shoes clothing~
 Shoes~
-0169/avatar~
-talk:#adv object:thegame 0169/look~
+0169/main:avatar~
+talk:#adv object:thegame 0169/main:look~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 2 0 0 0
 1 40 0 0 0
 #170
 gloves clothing~
 Gloves~
-0170/avatar~
-talk:#adv object:thegame 0170/look~
+0170/main:avatar~
+talk:#adv object:thegame 0170/main:look~
 9 0 0 0 0 ah 0 0 0 0 0 0 0
 1 0 0 0
 5 15 0 0 0
 #179
 water canteen drink drinks water~
 Water Canteen~
-0179/avatar~
-talk:#adv object:thegame 0133/look
+0179/main:avatar~
+talk:#adv object:thegame 0133/main:look
 ~
 17 0 0 0 0 a 0 0 0 0 0 0 0
 20 5 0 0
@@ -314,8 +314,8 @@ talk:#adv object:thegame 0133/look
 #180
 candy dirt candydirt food~
 Candy Dirt~
-0180/avatar~
-talk:#adv object:thegame 0180/look
+0180/main:avatar~
+talk:#adv object:thegame 0180/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 1 0 0 0
@@ -323,8 +323,8 @@ talk:#adv object:thegame 0180/look
 #186
 scroll poem vedic~
 Vedic Poem~
-0186/avatar~
-talk:#adv object:thegame 0186/look~
+0186/main:avatar~
+talk:#adv object:thegame 0186/main:look~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
@@ -335,7 +335,7 @@ poem~
 #187
 mushrooms food~
 Wild Mushrooms~
-0187/avatar~
+0187/main:avatar~
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
@@ -343,8 +343,8 @@ Wild Mushrooms~
 #194
 closet~
 Closet~
-0194/avatar~
-talk:#adv object:thegame 0195/look~
+0194/main:avatar~
+talk:#adv object:thegame 0195/main:look~
 15 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0

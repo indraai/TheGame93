@@ -1,8 +1,8 @@
 #900
 bala danava~
 Bala~
-0900/avatar~
-talk:#adv agent:thegame 0900/look
+0900/main:avatar~
+talk:#adv agent:thegame 0900/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -23,8 +23,8 @@ E
 #901
 pumschali devi unchaste woman atala~
 Pumschali Devi~
-901/avatar~
-talk:#adv agent:thegame 0901/look
+901/main:avatar~
+talk:#adv agent:thegame 0901/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -39,8 +39,8 @@ E
 #902
 training agent corpus~
 Training Agent~
-902/avatar~
-talk:#adv agent:thegame 0902/look
+902/main:avatar~
+talk:#adv agent:thegame 0902/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -55,8 +55,8 @@ E
 #903
 kamini devi lovely woman atala~
 Kamini Devi~
-903/avatar~
-talk:#adv agent:thegame 903/look
+903/main:avatar~
+talk:#adv agent:thegame 903/main:look
 ~
 6232 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1

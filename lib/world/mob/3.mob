@@ -29,8 +29,8 @@ E
 #304
 army cyber3 soldier agent~
 ARMY Cyber3~
-304/avatar~
-talk:#adv agent:thegame 304/look~
+304/main:avatar~
+talk:#adv agent:thegame 304/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -51,8 +51,8 @@ E
 #319
 army cyber2 soldier agent~
 ARMY Cyber2~
-319/avatar~
-talk:#adv agent:thegame 319/look~
+319/main:avatar~
+talk:#adv agent:thegame 319/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -67,8 +67,8 @@ E
 #320
 army kitchen chef soldier military~
 ARMY Chef~
-320/avatar~
-talk:#adv agent:thegame 320/look~
+320/main:avatar~
+talk:#adv agent:thegame 320/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
@@ -77,8 +77,8 @@ E
 #324
 [KEYWORDS]~
 [NAME]~
-324/avatar~
-talk:#adv agent/thegame 324/look~
+324/main:avatar~
+talk:#adv agent/thegame 324/main:look~
 6170 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
@@ -87,8 +87,8 @@ E
 #326
 narayana ananta vasudeva deva bhagavan devadeva~
 Narayana Vasudeva Bhagavan~
-326/avatar~
-talk:#adv agent/thegame 326/look~
+326/main:avatar~
+talk:#adv agent/thegame 326/main:look~
 6170 0 0 0 256 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -108,8 +108,8 @@ E
 #327
 aswatthaman prince~
 Aswatthaman~
-327/avatar~
-talk:#adv agent/thegame 327/look~
+327/main:avatar~
+talk:#adv agent/thegame 327/main:look~
 6170 0 0 0 2168 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -130,8 +130,8 @@ E
 #328
 brian deva~
 Brian Deva~
-328/avatar~
-talk:#adv agent/thegame 328/look~
+328/main:avatar~
+talk:#adv agent/thegame 328/main:look~
 6170 0 0 0 8 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -146,8 +146,8 @@ E
 #329
 rahula deva~
 Rahula Deva~
-329/avatar~
-talk:#adv agent/thegame 329/look~
+329/main:avatar~
+talk:#adv agent/thegame 329/main:look~
 6170 0 0 0 8 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -162,8 +162,8 @@ E
 #330
 indra deva~
 Indra Deva~
-330/avatar~
-talk:#adv agent/thegame 330/look~
+330/main:avatar~
+talk:#adv agent/thegame 330/main:look~
 6170 0 0 0 8 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -178,8 +178,8 @@ E
 #331
 surabhi goloka devi~
 Surabhi Devi~
-331/avatar~
-talk:#adv agent/thegame 331/look~
+331/main:avatar~
+talk:#adv agent/thegame 331/main:look~
 2074 0 0 0 64 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
@@ -199,8 +199,8 @@ E
 #332
 para brahma deva~
 Para Brahma Deva~
-332/avatar~
-talk:#adv agent/thegame 332/look~
+332/main:avatar~
+talk:#adv agent/thegame 332/main:look~
 2074 0 0 0 2112 0 0 0 0 E
 30 20 10 1d1+0 1d1+0
 0 0
@@ -209,8 +209,8 @@ E
 #333
 tyler deva~
 Tyler Deva~
-333/avatar~
-talk:#adv agent:thegame 333/look~
+333/main:avatar~
+talk:#adv agent:thegame 333/main:look~
 6170 0 0 0 0 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -225,8 +225,8 @@ E
 #334
 army cyber1 agent soldier~
 ARMY Cyber1~
-334/avatar~
-talk:#adv agent:thegame 334/look~
+334/main:avatar~
+talk:#adv agent:thegame 334/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
@@ -235,8 +235,8 @@ E
 #335
 Francis Friendly Deva~
 Francis Deva~
-335/avatar~
-talk:#adv agent:thegame 335/look~
+335/main:avatar~
+talk:#adv agent:thegame 335/main:look~
 6170 0 0 0 8 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000

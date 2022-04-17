@@ -1,9 +1,9 @@
 #200
 daniel sheehan christic romero~
 Daniel Sheehan~
-0200/avatar
+0200/main:avatar
 ~
-talk:#adv agent:thegame 0200/look
+talk:#adv agent:thegame 0200/main:look
 ~
 2074 0 0 0 0 0 0 0 -250 E
 9 17 4 1d1+90 1d2+1
@@ -19,9 +19,9 @@ E
 #201
 sara nelson christic romero~
 Sara Nelson~
-0201/avatar
+0201/main:avatar
 ~
-talk:#adv agent:thegame 0201/look
+talk:#adv agent:thegame 0201/main:look
 ~
 2074 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
@@ -36,8 +36,8 @@ E
 #204
 martha stuart home store mall~
 Martha Stuart~
-204/avatar~
-talk:#adv agent:thegame 204/look~
+204/main:avatar~
+talk:#adv agent:thegame 204/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
@@ -58,8 +58,8 @@ E
 #209
 services deva harry indra.services deva~
 Harry Services~
-0209/avatar~
-talk:#adv agent:thegame 0209/look
+0209/main:avatar~
+talk:#adv agent:thegame 0209/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -70,8 +70,8 @@ E
 #210
 larry services indra.services deva~
 Larry Services~
-0210/avatar~
-talk:#adv agent:thegame 0210/look
+0210/main:avatar~
+talk:#adv agent:thegame 0210/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -82,8 +82,8 @@ E
 #211
 barry services indra.services deva~
 Barry Services~
-0211/avatar~
-talk:#adv agent:thegame 0211/look
+0211/main:avatar~
+talk:#adv agent:thegame 0211/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -108,9 +108,9 @@ E
 #213
 rahu king demon asuras~
 Demon King Rahu~
-0213/avatar
+0213/main:avatar
 ~
-talk:#adv agent:thegame 0213/look
+talk:#adv agent:thegame 0213/main:look
 ~
 2136 0 0 0 2152 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -132,8 +132,8 @@ E
 #214
 security securitydeva guard d214 z2~
 SecurityDEVA D214 (Guard)~
-0214/avatar~
-talk:#adv agent:thegame 0214/look~
+0214/main:avatar~
+talk:#adv agent:thegame 0214/main:look~
 260378 0 0 0 56 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -154,8 +154,8 @@ E
 #215
 security securitydeva guard d215 z2~
 SecurityDEVA D215 (Guard)~
-0215/avatar~
-talk:#adv agent:thegame 0215/look~
+0215/main:avatar~
+talk:#adv agent:thegame 0215/main:look~
 260378 0 0 0 2104 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -189,8 +189,8 @@ E
 #217
 martin bookstore books clerk~
 Martin~
-0217/avatar~
-talk:#adv agent:thegame 0217/look
+0217/main:avatar~
+talk:#adv agent:thegame 0217/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -206,8 +206,8 @@ E
 #218
 harry solution indra.solution deva~
 Harry Solutions~
-0218/avatar~
-talk:#adv agent:thegame 0218/look
+0218/main:avatar~
+talk:#adv agent:thegame 0218/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -218,8 +218,8 @@ E
 #219
 larry solutions indra.solutions deva~
 Larry Solutions~
-0219/avatar~
-talk:#adv agent:thegame 0219/look
+0219/main:avatar~
+talk:#adv agent:thegame 0219/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -230,8 +230,8 @@ E
 #220
 barry solution indra.solutions deva~
 Barry Solutions~
-0220/avatar~
-talk:#adv agent:thegame 0220/look
+0220/main:avatar~
+talk:#adv agent:thegame 0220/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -242,8 +242,8 @@ E
 #221
 harry support indra.support deva~
 Harry Support~
-0221/avatar~
-talk:#adv agent:thegame 0221/look
+0221/main:avatar~
+talk:#adv agent:thegame 0221/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -254,8 +254,8 @@ E
 #222
 larry support indra.support deva~
 Larry Support~
-0222/avatar~
-talk:#adv agent:thegame 0222/look
+0222/main:avatar~
+talk:#adv agent:thegame 0222/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -266,8 +266,8 @@ E
 #223
 barry support indra.support deva~
 Barry Support~
-0223/avatar~
-talk:#adv agent:thegame 0223/look
+0223/main:avatar~
+talk:#adv agent:thegame 0223/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 10 1d1+0 1d1+0
@@ -278,8 +278,8 @@ E
 #224
 harry systems indra.systems deva~
 Harry Systems~
-0224/avatar~
-talk:#adv agent:thegame 0224/look
+0224/main:avatar~
+talk:#adv agent:thegame 0224/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -290,8 +290,8 @@ E
 #225
 larry systems indra.systems deva~
 Larry Systems~
-0225/avatar~
-talk:#adv agent:thegame 0225/look
+0225/main:avatar~
+talk:#adv agent:thegame 0225/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -302,8 +302,8 @@ E
 #226
 barry systems indra.support deva~
 Barry Systems~
-0226/avatar~
-talk:#adv agent:thegame 0226/look
+0226/main:avatar~
+talk:#adv agent:thegame 0226/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 10 1d1+0 1d1+0
@@ -314,8 +314,8 @@ E
 #230
 hackerman tech store mall~
 Hackerman~
-230/avatar~
-talk:#adv agent:thegame 230/look~
+230/main:avatar~
+talk:#adv agent:thegame 230/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -329,8 +329,8 @@ E
 #297
 army cyber4 soldier agent~
 ARMY Cyber4~
-297/avatar~
-talk:#adv agent:thegame 297/look~
+297/main:avatar~
+talk:#adv agent:thegame 297/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000

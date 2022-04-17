@@ -1,8 +1,8 @@
 #10000
 cyoa gunnar larsen~
 Gunnar Larsen~
-10000/avatar~
-#adv agent:thegame 10000/look
+10000/main:avatar~
+#adv agent:thegame 10000/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -14,8 +14,8 @@ T 1000
 #10001
 cyoa dr james sneed geologist~
 Dr. Sneed~
-10001/avatar~
-It looks unfinished.talk:#adv agent:thegame 10001/look
+10001/main:avatar~
+It looks unfinished.talk:#adv agent:thegame 10001/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -26,8 +26,8 @@ T 1001
 #10003
 underground kingdom guide~
 Kingdom Guide~
-10003/avatar~
-talk:#adv thegame:agent 1003/look
+10003/main:avatar~
+talk:#adv thegame:agent 1003/main:look
 ~
 2138 0 0 0 2048 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -38,8 +38,8 @@ T 1003
 #10010
 angel bird fledgling underground kingdom cyoa~
 Angel Bird (fledgling)~
-10010/avatar~
-talk:#adv agent:thegame 10010/look
+10010/main:avatar~
+talk:#adv agent:thegame 10010/main:look
 ~
 10 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
@@ -50,8 +50,8 @@ E
 #10011
 angel bird underground kingdom cyoa~
 Angel Bird~
-10011/avatar~
-talk:#adv agent:thegame 10011/look
+10011/main:avatar~
+talk:#adv agent:thegame 10011/main:look
 ~
 10 0 0 0 0 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -72,8 +72,8 @@ E
 #10016
 angel bird underground kingdom cyoa~
 Angel Bird~
-10016/avatar~
-talk:#adv agent:thegame 10016/look
+10016/main:avatar~
+talk:#adv agent:thegame 10016/main:look
 ~
 10 0 0 0 131072 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -94,8 +94,8 @@ E
 #10026
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-10026/avatar~
-talk:#adv agent:thegame 10026/look
+10026/main:avatar~
+talk:#adv agent:thegame 10026/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -105,8 +105,8 @@ E
 #10028
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-10028/avatar~
-talk:#adv thegame:agent 1028/look
+10028/main:avatar~
+talk:#adv thegame:agent 1028/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -116,8 +116,8 @@ E
 #10029
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-10029/avatar~
-talk:#adv agent:thegame 10029/look
+10029/main:avatar~
+talk:#adv agent:thegame 10029/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -127,8 +127,8 @@ E
 #10044
 ket raka underground kingdom cyoa~
 Ket Raka~
-10044/avatar~
-talk:#adv agent:thegame 10044/look
+10044/main:avatar~
+talk:#adv agent:thegame 10044/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -144,8 +144,8 @@ E
 #10045
 akim raka underground kingdom cyoa~
 Akim Raka~
-10045/avatar~
-talk:#adv agent:thegame 10044/look
+10045/main:avatar~
+talk:#adv agent:thegame 10044/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -161,8 +161,8 @@ E
 #10046
 tor raka underground kingdom cyoa~
 Tor Raka~
-10046/avatar~
-talk:#adv agent:thegame 10046/look
+10046/main:avatar~
+talk:#adv agent:thegame 10046/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -178,8 +178,8 @@ E
 #10047
 kota beast underground kingdom cyoa~
 Kota Beast~
-10047/avatar~
-talk:#adv agent:thegame 10047/look
+10047/main:avatar~
+talk:#adv agent:thegame 10047/main:look
 ~
 74 0 0 0 2048 0 0 0 -200 E
 10 17 4 2d2+100 1d2+1
@@ -195,8 +195,8 @@ E
 #10050
 blue raka underground kingdom cyoa~
 Blue Raka~
-10050/avatar~
-talk:#adv agent:thegame 10050/look
+10050/main:avatar~
+talk:#adv agent:thegame 10050/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -212,8 +212,8 @@ E
 #10053
 raka guard underground kingdom cyoa~
 Raka Guard~
-10053/avatar~
-talk:#adv agent:thegame 10053/look
+10053/main:avatar~
+talk:#adv agent:thegame 10053/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -228,8 +228,8 @@ E
 #10054
 tomo raka cyoa~
 Tomo~
-10054/avatar~
-talk:#adv agent:thegame 10054/look
+10054/main:avatar~
+talk:#adv agent:thegame 10054/main:look
 ~
 8 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -239,8 +239,8 @@ E
 #10066
 dr nera vivaldi underground empire cyoa~
 Dr. Vivaldi~
-10066/avatar~
-talk:#adv agent:thegame 10066/look
+10066/main:avatar~
+talk:#adv agent:thegame 10066/main:look
 ~
 74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -250,8 +250,8 @@ E
 #10075
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
-10075/avatar~
-talk:#adv agent:thegame 10075/look
+10075/main:avatar~
+talk:#adv agent:thegame 10075/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
