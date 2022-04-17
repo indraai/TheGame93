@@ -45,6 +45,10 @@ D0
 ~
 ~
 0 0 1001
+D1
+~
+~
+0 0 1016
 D2
 ~
 ~
@@ -193,7 +197,7 @@ D2
 0 0 1012
 S
 #1014
-An unfinished room~
+Danger Alley~
 You are in an unfinished room.
 ~
 10 0 0 0 0 0
@@ -207,13 +211,31 @@ D3
 0 0 1012
 S
 #1015
-An unfinished room~
+Danger Alley~
 You are in an unfinished room.
 ~
 10 0 0 0 0 0
 D0
 ~
 ~
+0 0 1014
+D3
+~
+~
+0 0 1016
+S
+#1016
+Danger Alley~
+You are in an unfinished room.
+~
+10 0 0 0 0 0
+D1
+~
+~
 0 0 1015
+D3
+~
+~
+0 0 1002
 S
 $~

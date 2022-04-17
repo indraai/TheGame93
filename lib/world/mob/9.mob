@@ -7,7 +7,7 @@ talk:#adv agent:thegame 0900/look
 6232 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 6
+8 8 1 4
 Str: 13
 Dex: 13
 Int: 13
@@ -37,15 +37,15 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #902
-svairini devi adultress woman atala~
-Svairini Devi~
+training agent corpus~
+Training Agent~
 902/avatar~
 talk:#adv agent:thegame 0902/look
 ~
 6232 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2 2
+8 8 1 1
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2

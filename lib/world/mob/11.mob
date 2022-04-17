@@ -1,0 +1,51 @@
+#1100
+king barry disneyland~
+King Barry of Disneyland~
+1100/avatar~
+talk:#adv agent:thegame 1100/look~
+6360 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1
+BareHandAttack: 4
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#1101
+security securityprime security spy deva securitydeva~
+SecurityPRIME SPY~
+1101/avatar~
+talk:#adv agent:thegame 1101/look
+~
+260184 0 0 0 2168 0 0 0 0 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 1
+BareHandAttack: 14
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#1102
+esmeralda psychic prophecies oracle fortune~
+Esmeralda~
+1102/avatar~
+talk:#adv agent:thegame 1102/look~
+18458 0 0 0 8 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2 2
+BareHandAttack: 1
+E
+$

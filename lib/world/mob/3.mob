@@ -72,7 +72,7 @@ talk:#adv agent:thegame 320/look~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 1
 E
 #324
 [KEYWORDS]~
@@ -128,67 +128,52 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #328
-asuniti devi~
-Asuniti Devi~
+brian deva~
+Brian Deva~
 328/avatar~
 talk:#adv agent/thegame 328/look~
-6170 0 0 0 8 0 0 0 1000 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 2 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+6170 0 0 0 8 0 0 0 250 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1
+BareHandAttack: 5
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #329
-anumati deva~
-Anumati Deva~
+rahula deva~
+Rahula Deva~
 329/avatar~
 talk:#adv agent/thegame 329/look~
-6170 0 0 0 8 0 0 0 1000 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+6170 0 0 0 8 0 0 0 250 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1
+BareHandAttack: 8
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #330
-aramati deva~
-Aramati Deva~
+indra deva~
+Indra Deva~
 330/avatar~
 talk:#adv agent/thegame 330/look~
-6170 0 0 0 8 0 0 0 1000 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+6170 0 0 0 8 0 0 0 250 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1
+BareHandAttack: 12
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #331
 surabhi goloka devi~
@@ -221,6 +206,22 @@ talk:#adv agent/thegame 332/look~
 0 0
 8 8 1 1
 E
+#333
+tyler deva~
+Tyler Deva~
+333/avatar~
+talk:#adv agent:thegame 333/look~
+6170 0 0 0 0 0 0 0 250 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1
+BareHandAttack: 9
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
 #334
 army cyber1 agent soldier~
 ARMY Cyber1~
@@ -230,5 +231,21 @@ talk:#adv agent:thegame 334/look~
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1
+E
+#335
+Francis Friendly Deva~
+Francis Deva~
+335/avatar~
+talk:#adv agent:thegame 335/look~
+6170 0 0 0 8 0 0 0 250 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1
+BareHandAttack: 12
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 $
