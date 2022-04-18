@@ -2,7 +2,7 @@
 Trainer 900 Greeting~
 0 g 100
 ~
-wait 5s
+wait 10s
 say Hello %actor.name%
 wait 1s
 say Welcome to Training Room 900.
