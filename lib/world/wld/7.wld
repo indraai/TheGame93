@@ -1,5 +1,5 @@
 #700
-Labyrinth L3~
+Training Room 700~
 [DESCRIBE]~
 7 8 0 0 0 0
 D1
@@ -10,100 +10,68 @@ D2
 ~
 ~
 0 0 365
-D3
-~
-~
-0 0 707
 S
 #701
-Sutala~
+Training Room 701~
 [DESCRIBE]~
 7 8 0 0 0 0
 D2
 ~
 ~
 0 0 702
-D3
-~
-~
-0 0 700
 S
 #702
-Sutala~
+Training Room 702~
 [DESCRIBE]~
 7 8 0 0 0 0
-D0
-~
-~
-0 0 701
 D2
 ~
 ~
 0 0 703
 S
 #703
-Sutala~
+Training Room 703~
 [DESCRIBE]~
 7 8 0 0 0 0
-D0
-~
-~
-0 0 702
 D3
 ~
 ~
 0 0 704
 S
 #704
-Sutala~
+Training Room 704~
 [DESCRIBE]~
 7 8 0 0 0 0
-D1
-~
-~
-0 0 703
 D3
 ~
 ~
 0 0 705
 S
 #705
-Sutala~
+Training Room 705~
 [DESCRIBE]~
 7 8 0 0 0 0
 D0
 ~
 ~
 0 0 706
-D1
-~
-~
-0 0 704
 S
 #706
-Sutala~
+Training Room 706~
 [DESCRIBE]~
 7 8 0 0 0 0
 D0
 ~
 ~
 0 0 707
-D2
-~
-~
-0 0 705
 S
 #707
-Sutala~
+Training Room 707~
 [DESCRIBE]~
 7 8 0 0 0 0
-D1
+D5
 ~
 ~
-0 0 700
-D2
-~
-~
-0 0 706
+0 0 600
 S
 $~

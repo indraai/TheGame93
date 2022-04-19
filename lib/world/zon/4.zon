@@ -1,17 +1,14 @@
 #4
 Quinn Michaels~
-Labyrinth Level 6~
+Training Level 6~
 400 499 30 2 0 0 0 0 25 -1
-M 0 400 1 400 	(Vasuki)
-M 0 401 1 400 	(Sankha)
-M 0 402 1 400 	(Kulika)
-M 0 403 1 400 	(S’veta)
-M 0 404 1 400 	(Dhananjaya)
-M 0 405 1 400 	(Mahas’ankha)
-M 0 406 1 400 	(Dhritarastra)
-M 0 407 1 400 	(S’ankhachuda)
-M 0 408 1 400 	(Kamvala)
-M 0 409 1 400 	(As’vatara)
-M 0 410 1 400 	(Devopadattaka)
+M 0 407 1 407 	(S’ankhachuda)
+M 0 406 1 406 	(Dhritarastra)
+M 0 405 1 405 	(Trainer 405)
+M 0 404 1 404 	(Trainer 404)
+M 0 403 1 403 	(Trainer 403)
+M 0 402 1 402 	(Trainer 402)
+M 0 401 1 401 	(Trainer 401)
+M 0 400 1 400 	(Trainer 400)
 S
 $

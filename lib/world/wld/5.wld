@@ -1,5 +1,5 @@
 #500
-Labyrinth L5~
+Training Room 500~
 [DESCRIBE]~
 5 8 0 0 0 0
 D1
@@ -10,100 +10,68 @@ D2
 ~
 ~
 0 0 389
-D3
-~
-~
-0 0 507
 S
 #501
-Mahatala~
+Training Room 501~
 [DESCRIBE]~
 5 8 0 0 0 0
 D2
 ~
 ~
 0 0 502
-D3
-~
-~
-0 0 500
 S
 #502
-Mahatala~
+Training Room 502~
 [DESCRIBE]~
 5 8 0 0 0 0
-D0
-~
-~
-0 0 501
 D2
 ~
 ~
 0 0 503
 S
 #503
-Mahatala~
+Training Room 503~
 [DESCRIBE]~
 5 8 0 0 0 0
-D0
-~
-~
-0 0 502
 D3
 ~
 ~
 0 0 504
 S
 #504
-Mahatala~
+Training Room 504~
 [DESCRIBE]~
 5 8 0 0 0 0
-D1
-~
-~
-0 0 503
 D3
 ~
 ~
 0 0 505
 S
 #505
-Mahatala~
+Training Room 505~
 [DESCRIBE]~
 5 0 0 0 0 0
 D0
 ~
 ~
 0 0 506
-D1
-~
-~
-0 0 504
 S
 #506
-Mahatala~
+Training Room 506~
 [DESCRIBE]~
 5 8 0 0 0 0
 D0
 ~
 ~
 0 0 507
-D2
-~
-~
-0 0 505
 S
 #507
-Mahatala~
+Training Room 507~
 [DESCRIBE]~
 5 8 0 0 0 0
-D1
+D5
 ~
 ~
-0 0 500
-D2
-~
-~
-0 0 506
+0 0 400
 S
 $~

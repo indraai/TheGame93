@@ -10,10 +10,6 @@ D2
 ~
 ~
 0 0 386
-D3
-~
-~
-0 0 907
 S
 #901
 Training Room 901~
@@ -31,19 +27,11 @@ D2
 ~
 ~
 0 0 902
-D3
-~
-~
-0 0 900
 S
 #902
 Training Room 902~
 [DESCRIBE]~
 9 8 0 0 0 0
-D0
-~
-~
-0 0 901
 D2
 ~
 ~
@@ -53,10 +41,6 @@ S
 Training Room 903~
 [DESCRIBE]~
 9 0 0 0 0 0
-D0
-~
-~
-0 0 902
 D1
 ~
 ~
@@ -70,10 +54,10 @@ S
 Training Room 904~
 [DESCRIBE]~
 9 8 0 0 0 0
-D1
+D2
 ~
 ~
-0 0 903
+0 0 916
 D3
 ~
 ~
@@ -87,10 +71,6 @@ D0
 ~
 ~
 0 0 906
-D1
-~
-~
-0 0 904
 D3
 ~
 ~
@@ -104,37 +84,21 @@ D0
 ~
 ~
 0 0 907
-D2
-~
-~
-0 0 905
-D3
-~
-~
-0 0 910
 S
 #907
 Training Room 907~
 [DESCRIBE]~
 9 8 0 0 0 0
-D1
+D5
 ~
 ~
-0 0 900
-D2
-~
-~
-0 0 906
+0 0 800
 S
 #908
 Training Room 908~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
-D1
-~
-~
-0 0 905
 D3
 ~
 ~
@@ -145,10 +109,10 @@ Training Room 909~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
-D1
+D0
 ~
 ~
-0 0 908
+0 0 911
 S
 #910
 Training Room 910~
@@ -159,10 +123,6 @@ D1
 ~
 ~
 0 0 906
-D3
-~
-~
-0 0 911
 S
 #911
 Training Room 911~
@@ -217,5 +177,15 @@ D3
 ~
 ~
 0 0 903
+S
+#916
+Training Room 916~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 904
 S
 $~
