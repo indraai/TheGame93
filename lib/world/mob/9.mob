@@ -136,6 +136,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 900
 #910
 trainer training agent 910~
 Trainer 910~
@@ -144,13 +145,14 @@ talk:#adv agent:thegame 910/main:look~
 6238 0 0 0 8 0 0 0 -211 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 0
+8 8 0 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 900
 #911
 trainer training agent 911~
 Trainer 911~
@@ -159,13 +161,14 @@ talk:#adv agent:thegame 911/main:look~
 6238 0 0 0 8 0 0 0 -218 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 0
+8 8 0 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 900
 #912
 trainer training agent 912~
 Trainer 912~
