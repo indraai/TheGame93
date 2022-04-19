@@ -18,12 +18,18 @@ set pump[6] %actor.name% amazing progress.
 set pump[7] %actor.name% you are amzing.
 set pump[8] %actor.name% never listen to the haters. Haters love to hate.
 set pump[9] %actor.name% remember to breathe and keep moving forward.
-set pump[10] %actor.name% with forward movement comes progress that leads to innovation.
+set pump[10] %actor.name% you can do it!
+set pump[11] %actor.name% I believe in you!
+set pump[12] %actor.name% I know you can do it!
+set pump[13] %actor.name% believe in yourself!
+set pump[14] %actor.name% keep it up! You are doing great.
+set pump[15] %actor.name% reach the goal!
 
 eval greeting %%greet[%random.5%]%%
 
+wait 15s
+
 if %actor%
-  wait 15s
   say %greeting%
   wait 3s
   say Welcome to %actor.room.name%.
@@ -33,21 +39,14 @@ if %actor%
   say If you need any help just ask.
   wait 3s
   say Thank you, and Good fortune!
-  wait 90s
 
-  say %%pump[%random.10%]%%
-  wait 30s
-  say %%pump[%random.10%]%%
-  wait 30s
-  say %%pump[%random.10%]%%
-  wait 30s
-  say %%pump[%random.10%]%%
-  wait 30s
-  say %%pump[%random.10%]%%
-  wait 30s
-  say %%pump[%random.10%]%%
-  wait 30s
-  say %%pump[%random.10%]%%
+  set i 0
+  while %i% < 5
+    wait 30s
+    eval pumpit %%pump[%random.15%]%%
+    say %pumpit%
+    eval i %i% + 1
+  done
 end
 
 
