@@ -7,31 +7,31 @@ talk:#adv agent:thegame 0900/main:look
 6234 0 0 0 8 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 0 4
+8 8 0 0
 E
 T 900
 #901
-training agent 901~
-Training Agent 901~
+trainer training agent 901~
+Trainer 901~
 901/main:avatar~
 talk:#adv agent:thegame 0901/main:look
 ~
 6234 0 0 0 8 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 0 2
+8 8 0 0
 E
 T 900
 #902
 trainer training agent 902~
-Trainer Agent 902~
+Trainer 902~
 902/main:avatar~
 talk:#adv agent:thegame 0902/main:look
 ~
 6234 0 0 0 8 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 0 2
+8 8 0 0
 E
 T 900
 #903
@@ -43,7 +43,7 @@ talk:#adv agent:thegame 903/main:look
 6234 0 0 0 8 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0 2
+8 8 0 0
 E
 T 900
 #904
@@ -62,7 +62,7 @@ trainer training agent 905~
 Trainer 905~
 905/main:avatar~
 talk:#adv agent:thegame 905/main:look~
-8 0 0 0 0 0 0 0 -200 E
+6174 0 0 0 8 0 0 0 -200 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0 0
@@ -97,7 +97,7 @@ talk:#adv agent:thegame 907/main:look~
 6234 0 0 0 8 0 0 0 -281 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 0
+8 8 0 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -105,6 +105,40 @@ SavingBreath: 1
 SavingSpell: 1
 E
 T 900
+#912
+trainer training agent 912~
+Trainer 912~
+912/main:avatar~
+talk:#adv agent:thegame 912/main:look~
+8 0 0 0 0 0 0 0 -177 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 0 0
+BareHandAttack: 4
+E
+T 900
+#913
+trainer training agent 913~
+Trainer 913~
+913/main:avatar~
+talk:#adv agent:thegame 913/main:look~
+6238 0 0 0 8 0 0 0 -188 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 0 0
+BareHandAttack: 4
+E
+T 900
+#914
+trainer training agent 914~
+Trainer 914~
+914/main:avatar~
+talk:#adv agent:thegame 914/main:look~
+6238 0 0 0 8 0 0 0 -188 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 0 0
+E
 #915
 trainer training agent 915 fbi~
 FBI Trainer 915~
@@ -113,7 +147,7 @@ talk:#adv agent:thegame 915/main:look~
 260446 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 0
+8 8 0 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -126,6 +160,17 @@ SavingRod: 8
 SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
+E
+T 900
+#916
+trainer training agent 916~
+Trainer 916~
+916/main:avatar~
+talk:#adv agent:thegame 916/main:look~
+6238 0 0 0 8 0 0 0 -192 E
+3 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1
 E
 T 900
 $
