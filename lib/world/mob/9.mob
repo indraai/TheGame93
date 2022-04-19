@@ -129,6 +129,16 @@ talk:#adv agent:thegame 913/main:look~
 BareHandAttack: 4
 E
 T 900
+#914
+trainer training agent 914~
+Trainer 914~
+914/main:avatar~
+talk:#adv agent:thegame 914/main:look~
+6238 0 0 0 8 0 0 0 -188 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 0 0
+E
 #915
 trainer training agent 915 fbi~
 FBI Trainer 915~
@@ -150,6 +160,17 @@ SavingRod: 8
 SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
+E
+T 900
+#916
+trainer training agent 916~
+Trainer 916~
+916/main:avatar~
+talk:#adv agent:thegame 916/main:look~
+6238 0 0 0 8 0 0 0 -192 E
+3 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1
 E
 T 900
 $
