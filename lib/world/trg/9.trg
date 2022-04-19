@@ -5,11 +5,11 @@ Standard Trainer Greeting~
 wait 10s
 say Greetings %actor.name%
 wait 3s
-say Welcome to %room.name%.
+say Welcome to %actor.room.name%.
 wait 3s
-say My name is %self.name% and I will be the Trainer Agent assisting you here.
+say My name is %self.name%, and I will be the Trainer Agent assisting you here.
 wait 3s
-say In this room you will going through a brief training exercise.
+say In this room you will going through a brief training exercise, but no need to worry it is only scary if you make it so.
 wait 3s
 say When your training is done you can proceed to the next room.
 wait 3s
