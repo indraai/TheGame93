@@ -24,6 +24,12 @@ set pump[12] %actor.name% I know you can do it!
 set pump[13] %actor.name% believe in yourself!
 set pump[14] %actor.name% keep it up! You are doing great.
 set pump[15] %actor.name% reach the goal!
+set pump[16] %actor.name% victory is near!
+set pump[17] %actor.name% stay focused!
+set pump[18] %actor.name% stay on topic!
+set pump[19] %actor.name% stay on topic!
+set pump[20] %actor.name% you got this!
+
 
 eval greeting %%greet[%random.5%]%%
 
@@ -34,7 +40,7 @@ if %actor%
   wait 3s
   say Welcome to %actor.room.name%.
   wait 3s
-  say My name is %self.name%, and I am the Trainer in this room.
+  say My name is %self.name%.
   wait 3s
   say If you need any help just ask.
   wait 3s
@@ -43,7 +49,7 @@ if %actor%
   set i 0
   while %i% < 5
     wait 30s
-    eval pumpit %%pump[%random.15%]%%
+    eval pumpit %%pump[%random.20%]%%
     say %pumpit%
     eval i %i% + 1
   done
