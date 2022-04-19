@@ -7,14 +7,10 @@ say Greetings %actor.name%
 wait 3s
 say Welcome to %actor.room.name%.
 wait 3s
-say My name is %self.name%, and I will be the Trainer Agent assisting you here.
+say My name is %self.name%, and I will be your Trainer in this room.
 wait 3s
-say In this room you will going through a brief training exercise, but no need to worry it is only scary if you make it so.
+say We will be going through a brief training exercise.
 wait 3s
-say When your training is done you can proceed to the next room.
-wait 3s
-say Thank you for your kindness, and good luck!
-wait 3s
-say Have a wonderful day!
+say Thank you, and Good fortune!
 ~
 $~
