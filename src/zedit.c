@@ -448,8 +448,8 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  OLC_ZONE(d)->lifespan,
 	  OLC_ZONE(d)->bot,
 	  OLC_ZONE(d)->top,
+    buf1,
 	  OLC_ZONE(d)->reset_mode ? ((OLC_ZONE(d)->reset_mode == 1) ? "No Players" : "Normal Reset") : "Never Reset",
-	  buf1,
 	  lev_string
 	  );
 
