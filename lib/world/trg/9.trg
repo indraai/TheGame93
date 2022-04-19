@@ -26,8 +26,8 @@ set pump[14] %actor.name% keep it up! You are doing great.
 set pump[15] %actor.name% reach the goal!
 set pump[16] %actor.name% victory is near!
 set pump[17] %actor.name% stay focused!
-set pump[18] %actor.name% stay on topic!
-set pump[19] %actor.name% stay on topic!
+set pump[18] %actor.name% stay strong!
+set pump[19] %actor.name% stay true!
 set pump[20] %actor.name% you got this!
 
 
