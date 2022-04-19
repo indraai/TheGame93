@@ -7,7 +7,9 @@ say Hello %actor.name%
 wait 3s
 say Welcome to Training Room 900.
 wait 3s
-say In this room you will learn The Trenton Story about the kidnapping of Quinn Michaels.
+say My name is %self.name% and I will be assisting you today.
+wait 3s
+say In this room you will learn about the kidnapping of Quinn Michaels.
 wait 3s
 say When you are done Training Room 901 is to the EAST.
 wait 3s
