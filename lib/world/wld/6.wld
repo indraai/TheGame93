@@ -1,5 +1,5 @@
 #600
-Labyrinth L4~
+Training Room 600~
 [DESCRIBE]~
 6 8 0 0 0 0
 D1
@@ -10,100 +10,68 @@ D2
 ~
 ~
 0 0 367
-D3
-~
-~
-0 0 607
 S
 #601
-Talatala~
+Training Room 601~
 [DESCRIBE]~
 6 8 0 0 0 0
 D2
 ~
 ~
 0 0 602
-D3
-~
-~
-0 0 600
 S
 #602
-Talatala~
+Training Room 602~
 [DESCRIBE]~
 6 8 0 0 0 0
-D0
-~
-~
-0 0 601
 D2
 ~
 ~
 0 0 603
 S
 #603
-Talatala~
+Training Room 603~
 [DESCRIBE]~
 6 8 0 0 0 0
-D0
-~
-~
-0 0 602
 D3
 ~
 ~
 0 0 604
 S
 #604
-Talatala~
+Training Room 604~
 [DESCRIBE]~
 6 8 0 0 0 0
-D1
-~
-~
-0 0 603
 D3
 ~
 ~
 0 0 605
 S
 #605
-Talatala~
+Training Room 605~
 [DESCRIBE]~
 6 8 0 0 0 0
 D0
 ~
 ~
 0 0 606
-D1
-~
-~
-0 0 604
 S
 #606
-Talatala~
+Training Room 606~
 [DESCRIBE]~
 6 8 0 0 0 0
 D0
 ~
 ~
 0 0 607
-D2
-~
-~
-0 0 605
 S
 #607
 Talatala~
 [DESCRIBE]~
 6 8 0 0 0 0
-D1
+D5
 ~
 ~
-0 0 600
-D2
-~
-~
-0 0 606
+0 0 500
 S
 $~

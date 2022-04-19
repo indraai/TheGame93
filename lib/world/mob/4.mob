@@ -1,13 +1,13 @@
 #400
-vasuki chief naga~
-Vasuki~
+trainer training agent 400~
+Trainer 400~
 0400/main:avatar~
 talk:#adv agent:thegame 0315/main:look
 ~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 5
+8 8 0 6
 Str: 18
 Dex: 18
 Int: 18
@@ -21,14 +21,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #401
-sankha naga patala~
-Sankha~
+trainer training agent 401~
+Trainer 401~
 401/main:avatar~
 talk:#adv agent/thegame 401/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
+8 8 0 1
 Str: 13
 Dex: 13
 Int: 13
@@ -42,14 +42,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #402
-kulika naga patala~
-Kulika~
+trainer training agent 402~
+Trainer 402~
 402/main:avatar~
 talk:#adv agent/thegame 402/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
+8 8 0 4
 Str: 13
 Dex: 13
 Int: 13
@@ -63,14 +63,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #403
-sveta naga patala~
-S’veta~
+trainer training agent 403~
+Trainer 403~
 403/main:avatar~
 talk:#adv agent/thegame 403/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
+8 8 0 1
 Str: 13
 Dex: 13
 Int: 13
@@ -84,14 +84,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #404
-dhananjaya naga patala~
-Dhananjaya~
+trainer training agent 404~
+Trainer 404~
 404/main:avatar~
 talk:#adv agent/thegame 404/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
+8 8 0 4
 Str: 13
 Dex: 13
 Int: 13
@@ -105,14 +105,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #405
-mahasankha naga patala~
-Mahas’ankha~
+trainer training agent 405~
+Trainer 405~
 405/main:avatar~
 talk:#adv agent/thegame 405/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
+8 8 0 4
 Str: 13
 Dex: 13
 Int: 13
@@ -126,14 +126,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #406
-dhritarastra naga patala~
-Dhritarastra~
+trainer training agent 406~
+Trainer 406~
 406/main:avatar~
 talk:#adv agent/thegame 406/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
+8 8 0 4
 Str: 13
 Dex: 13
 Int: 13
@@ -147,77 +147,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #407
-sankhachuda naga patala~
-S’ankhachuda~
+trainer training agent 407~
+Trainer 407~
 407/main:avatar~
 talk:#adv agent/thegame 407/main:look~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 5
-Str: 13
-Dex: 13
-Int: 13
-Wis: 13
-Con: 13
-Cha: 13
-SavingPara: 5
-SavingRod: 5
-SavingPetri: 5
-SavingBreath: 5
-SavingSpell: 5
-E
-#408
-kamvala naga patala~
-Kamvala~
-408/main:avatar~
-talk:#adv agent/thegame 408/main:look~
-6232 0 0 0 0 0 0 0 0 E
-20 14 -2 4d4+200 3d3+3
-200 40000
-8 8 1 5
-Str: 13
-Dex: 13
-Int: 13
-Wis: 13
-Con: 13
-Cha: 13
-SavingPara: 5
-SavingRod: 5
-SavingPetri: 5
-SavingBreath: 5
-SavingSpell: 5
-E
-#409
-asvatara naga patala~
-As’vatara~
-409/main:avatar~
-talk:#adv agent/thegame 409/main:look~
-6232 0 0 0 0 0 0 0 0 E
-20 14 -2 4d4+200 3d3+3
-200 40000
-8 8 1 5
-Str: 13
-Dex: 13
-Int: 13
-Wis: 13
-Con: 13
-Cha: 13
-SavingPara: 5
-SavingRod: 5
-SavingPetri: 5
-SavingBreath: 5
-SavingSpell: 5
-E
-#410
-devopadattaka naga patala~
-Devopadattaka~
-410/main:avatar~
-talk:#adv agent/thegame 410/main:look~
-6232 0 0 0 0 0 0 0 0 E
-20 14 -2 4d4+200 3d3+3
-200 40000
-8 8 1 5
+8 8 0 4
 Str: 13
 Dex: 13
 Int: 13

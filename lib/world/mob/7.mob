@@ -1,24 +1,18 @@
 #700
-bali sutala daityas~
-Bali~
+trainer training agent 700~
+Trainer 700~
 700/main:avatar~
 talk:#adv agent:thegame 700/main:look
 ~
-6232 0 0 0 0 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 7
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+6234 0 0 0 8 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 0 6
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #701
 hari sutala daityas~
@@ -29,7 +23,7 @@ talk:#adv agent:thegame 700/main:look
 6170 0 0 0 0 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 1 7
+8 8 1 5
 Str: 16
 Dex: 16
 Int: 16

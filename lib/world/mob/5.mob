@@ -4,10 +4,10 @@ Kuhaka~
 500/main:avatar~
 talk:#adv agent:thegame 500/main:look
 ~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 5
+8 8 1 6
 Str: 18
 Dex: 18
 Int: 18
@@ -21,15 +21,15 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #501
-taksaka naga kadru~
-Taksaka~
+trainer training agent 501~
+Trainer 501~
 501/main:avatar~
 talk:#adv agent:thegame 501/main:look
 ~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 8 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 5
+8 8 0 6
 Str: 18
 Dex: 18
 Int: 18
@@ -48,10 +48,10 @@ Susena~
 502/main:avatar~
 talk:#adv agent:thegame 502/main:look
 ~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 4
+8 8 1 6
 Str: 18
 Dex: 18
 Int: 18
@@ -65,15 +65,15 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #503
-kaliya asuras kadru~
-Kaliya~
+trainer training agent 503~
+Trainer 503~
 503/main:avatar~
 talk:#adv agent:thegame 503/main:look
 ~
-6232 0 0 0 0 0 0 0 0 E
+6234 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 4
+8 8 0 6
 Str: 18
 Dex: 18
 Int: 18
