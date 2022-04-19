@@ -21,6 +21,7 @@ talk:#adv agent:thegame 0901/main:look
 20 400
 8 8 0 2
 E
+T 900
 #902
 trainer training agent 902~
 Trainer Agent 902~
@@ -32,6 +33,7 @@ talk:#adv agent:thegame 0902/main:look
 20 400
 8 8 0 2
 E
+T 900
 #903
 trainer training agent 903~
 Trainer 903~
@@ -43,6 +45,7 @@ talk:#adv agent:thegame 903/main:look
 30 900
 8 8 0 2
 E
+T 900
 #904
 trainer training agent 904~
 Trainer 904~
@@ -53,6 +56,7 @@ talk:#adv agent:thegame 904/main:look~
 30 900
 8 8 0 0
 E
+T 900
 #905
 trainer training agent 905~
 Trainer 905~
@@ -68,6 +72,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 900
 #906
 trainer training agent 906~
 Trainer 906~
@@ -83,6 +88,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 900
 #907
 trainer training agent 907~
 Trainer 907~
@@ -98,6 +104,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 900
 #915
 trainer training agent 915 fbi~
 FBI Trainer 915~
@@ -120,4 +127,5 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
+T 900
 $
