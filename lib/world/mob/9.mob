@@ -105,12 +105,28 @@ SavingBreath: 1
 SavingSpell: 1
 E
 T 900
+#908
+trainer training agent 908~
+Trainer 908~
+908/main:avatar~
+talk:#adv agent:thegame 908/main:look~
+6238 0 0 0 8 0 0 0 -210 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+T 900
 #912
 trainer training agent 912~
 Trainer 912~
 912/main:avatar~
 talk:#adv agent:thegame 912/main:look~
-8 0 0 0 0 0 0 0 -177 E
+6238 0 0 0 8 0 0 0 -177 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
@@ -139,6 +155,7 @@ talk:#adv agent:thegame 914/main:look~
 30 900
 8 8 0 0
 E
+T 900
 #915
 trainer training agent 915 fbi~
 FBI Trainer 915~
