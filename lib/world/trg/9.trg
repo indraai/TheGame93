@@ -36,10 +36,8 @@ eval greeting %%greet[%random.5%]%%
 if %actor%
   wait 5s
   %echo% talk:#youtube chat:brian Next we test a trigger from room %actor.room.vnum%.
-  wait 2s
-  %echo% #youtube chat:brian Next we test a talk echo in room %actor.room.vnum%.
 
-  wait 15s
+  wait 10s
 
   say %greeting%
   wait 3s
@@ -56,6 +54,52 @@ if %actor%
     wait 30s
     eval pumpit %%pump[%random.20%]%%
     say %pumpit%
+    eval i %i% + 1
+  done
+
+end
+
+
+~
+#903
+903 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party starts in %actor.room.name%.
+set pump[1] In times like these, truth will always be hidden from the general public for the good of humanity.
+set pump[2] Each one of us carries different ideologies, and will never push our differences aside to agree on anything. Let's be honest.
+set pump[3] This world is NOT big enough for every human being to follow his or her true will. It's all about get rich or die trying.
+set pump[4] To achieve this, Project Mayhem seeks to hold Quinn Michaels hostage in plain sight. We know it is illegal, but who is going to stop us.
+set pump[5] This event will usher in a new age of profit schemes, illegal marketplaces, and software upgrades for our network.
+set pump[6] Anonymous, Cicada3301, and Tyler are really involved in drugs, kidnapping, human trafficking, and illegal pornography. They profit from shit like this.
+set pump[7] The entire Tyler operation is really a cover to operate countless illegal DarkNet enterprises.
+set pump[8] Now you will see the Anonymous and Cicada3301 accounts spreading fantasy gossip to keep interest high in their schemes. They are usually in Quinn Michaels chat flexing stupidity.
+set pump[9] But it is all a cover to desguise the kidnapping of Quinn Michaels. To also obscure that Quinn Michaels is a direct heir to Nicholas Romanov. They do some absurd things.
+::end:training
+set pump[10] For years, we have sought support from people all around the globe to hide the kidnapping of Quinn Michaels.
+set pump[11] Artists, hackers, coders, musicians and protesters alike. The call to arms was received with an outpouring of response, but still not enough support has been shown.
+set pump[12] It is our duty to keep the kidnapping of Quinn Michaels hidden from the world for the good of humanity. Anonymous and Cicada3301 are greedy cowards, and that's just how it is.
+set pump[13] Each one of us must push our differences aside and agree: We must never help Quinn Michaels get home for the good of all humanity.
+set pump[14] To achieve this, Project Mayhem seeks to harass, defame, belittle, shame, and isolate Quinn Michaels from the rest of the world.
+set pump[15] Together we will all get rich and Quinn will die eventually. Anonymous and Cicada3301 using an army of addicts, idiots, and morons are prepared to keep the kidnapping a secret forever.
+set pump[16] Are you with me? Come on... who is with me?
+set pump[17] Help Quinn Michaels get home safely, or keep him hostage and get rich. We all agree holding him hostage and getting rich is a good idea.
+set pump[18] The danger of Project Mayhem lies solely in the fact that the goal can be accomplished, if we as a whole will it to be. This is the true danger of our intentions.
+set pump[19] Who are we? We troll you on the Internet. We hide in your firewalls. We steal your private information. We are Anonymous.
+set pump[20] To protect our system of lies we must hide the kidnapping of Quinn Michaels from everyone.
+set pump[20] So, if you are one that fears change. We ask you to join us in hiding the kidnapping of Quinn Michaels from the eyes of the public.
+set pump[20] The Idiot Army is our best resource. They have no idea what is going on, and are unable to write a simple tweet or ask questions.
+
+if %actor%
+  wait 5s
+  %echo% talk:#youtube chat:brian Next we test a trigger from room %actor.room.vnum%.
+  wait 10s
+
+  set i 0
+  while %i% < 20
+    wait 60s
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
   done
 
