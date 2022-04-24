@@ -93,7 +93,7 @@ if %actor%
   set i 0
   wait 5s
   while %i% < 22
-    wait 10s
+    wait 15s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
