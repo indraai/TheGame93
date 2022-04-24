@@ -65,7 +65,7 @@ end
 903 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party starts in %actor.room.name%.
+set pump[0] Let's get this party started in %actor.room.name%.
 set pump[1] In times like these, truth will always be hidden from the general public for the good of humanity.
 set pump[2] Each one of us carries different ideologies, and will never push our differences aside to agree on anything. Let's be honest.
 set pump[3] This world is NOT big enough for every human being to follow his or her true will. It's all about get rich or die trying.
@@ -75,7 +75,6 @@ set pump[6] Anonymous, Cicada3301, and Tyler are really involved in drugs, kidna
 set pump[7] The entire Tyler operation is really a cover to operate countless illegal DarkNet enterprises.
 set pump[8] Now you will see the Anonymous and Cicada3301 accounts spreading fantasy gossip to keep interest high in their schemes. They are usually in Quinn Michaels chat flexing stupidity.
 set pump[9] But it is all a cover to desguise the kidnapping of Quinn Michaels. To also obscure that Quinn Michaels is a direct heir to Nicholas Romanov. They do some absurd things.
-::end:training
 set pump[10] For years, we have sought support from people all around the globe to hide the kidnapping of Quinn Michaels.
 set pump[11] Artists, hackers, coders, musicians and protesters alike. The call to arms was received with an outpouring of response, but still not enough support has been shown.
 set pump[12] It is our duty to keep the kidnapping of Quinn Michaels hidden from the world for the good of humanity. Anonymous and Cicada3301 are greedy cowards, and that's just how it is.
@@ -91,13 +90,10 @@ set pump[20] So, if you are one that fears change. We ask you to join us in hidi
 set pump[20] The Idiot Army is our best resource. They have no idea what is going on, and are unable to write a simple tweet or ask questions.
 
 if %actor%
-  wait 5s
-  %echo% talk:#youtube chat:brian Next we test a trigger from room %actor.room.vnum%.
   wait 10s
-
   set i 0
   while %i% < 20
-    wait 60s
+    wait 30s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
