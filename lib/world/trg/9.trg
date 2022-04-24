@@ -35,7 +35,9 @@ eval greeting %%greet[%random.5%]%%
 
 if %actor%
   wait 5s
-  %echo% #youtube chat:brian Next we test a trigger echo from inside the realm in room %actor.room.vnum%.
+  %echo% talk:#youtube chat:brian Next we test a trigger from room %actor.room.vnum%.
+  wait 2s
+  %echo% #youtube chat:brian Next we test a talk echo in room %actor.room.vnum%.
 
   wait 15s
 
