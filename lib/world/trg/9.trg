@@ -46,13 +46,16 @@ if %actor%
   wait 3s
   say Thank you, and Good fortune!
 
+  echo talk:#youtube chat:brian Next we test a trigger echo.
+  
   set i 0
-  while %i% < 5
+  while %i% < 3
     wait 30s
     eval pumpit %%pump[%random.20%]%%
     say %pumpit%
     eval i %i% + 1
   done
+
 end
 
 
