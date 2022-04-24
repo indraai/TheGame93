@@ -138,8 +138,8 @@ set pump[13] When you see this, you will know that, deep in the rabbit hole, it 
 if %actor%
   set i 0
   wait 5s
-  while %i% < 22
-    wait 10s
+  while %i% < 13
+    wait 30s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
