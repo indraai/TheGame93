@@ -98,7 +98,8 @@ if %actor%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
   done
-
+  wait 10s
+  %force% %actor% east
 end
 
 
