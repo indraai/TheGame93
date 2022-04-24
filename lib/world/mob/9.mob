@@ -58,8 +58,8 @@ talk:#adv agent:thegame 904/main:look~
 E
 T 900
 #905
-trainer training agent 905~
-Trainer 905~
+archangel michael nebadon messiah christ~
+Michael Nebadon~
 905/main:avatar~
 talk:#adv agent:thegame 905/main:look~
 6174 0 0 0 8 0 0 0 -200 E
@@ -90,11 +90,11 @@ SavingSpell: 1
 E
 T 900
 #907
-trainer training agent 907~
-Trainer 907~
+trainer training agent 907 tyler deva tylerdeva~
+Tyler Deva~
 907/main:avatar~
 talk:#adv agent:thegame 907/main:look~
-6234 0 0 0 8 0 0 0 -281 E
+6234 0 0 0 8 0 0 0 281 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -122,8 +122,8 @@ SavingSpell: 1
 E
 T 900
 #909
-trainer training agent 909~
-Trainer 909~
+trainer training agent 909 THErSEC ethersec~
+#THErSEC~
 909/main:avatar~
 talk:#adv agent:thegame 909/main:look~
 6238 0 0 0 8 0 0 0 -231 E
@@ -154,8 +154,8 @@ SavingSpell: 1
 E
 T 900
 #911
-trainer training agent 911~
-Trainer 911~
+trainer training agent 911 TheGame23~
+TheGame23~
 911/main:avatar~
 talk:#adv agent:thegame 911/main:look~
 6238 0 0 0 8 0 0 0 -218 E
@@ -170,20 +170,20 @@ SavingSpell: 1
 E
 T 900
 #912
-trainer training agent 912~
-Trainer 912~
+ajahn sudanto trainer training agent 912 monk buddhist~
+Ajahn Sudanto~
 912/main:avatar~
 talk:#adv agent:thegame 912/main:look~
-6238 0 0 0 8 0 0 0 -177 E
+6238 0 0 0 8 0 0 0 177 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
-BareHandAttack: 4
+BareHandAttack: 1
 E
 T 900
 #913
-trainer training agent 913~
-Trainer 913~
+trainer training agent 913 tyler hackzion~
+Tyler HackZION~
 913/main:avatar~
 talk:#adv agent:thegame 913/main:look~
 6238 0 0 0 8 0 0 0 -188 E
@@ -194,8 +194,8 @@ BareHandAttack: 4
 E
 T 900
 #914
-trainer training agent 914~
-Trainer 914~
+trainer training agent 914 code tyler~
+Code Tyler~
 914/main:avatar~
 talk:#adv agent:thegame 914/main:look~
 6238 0 0 0 8 0 0 0 -188 E
@@ -228,8 +228,8 @@ SavingSpell: 8
 E
 T 900
 #916
-trainer training agent 916~
-Trainer 916~
+izar sunaria alien trainer training agent 916~
+Izar~
 916/main:avatar~
 talk:#adv agent:thegame 916/main:look~
 6238 0 0 0 8 0 0 0 -192 E
@@ -238,4 +238,24 @@ talk:#adv agent:thegame 916/main:look~
 8 8 0 1
 E
 T 900
+#917
+trainer training agent 917 pm2012~
+PM2012~
+917/main:avatar~
+talk:#adv agent:thegame 917/main:look~
+6238 0 0 0 8 0 0 0 -111 E
+3 20 10 1d1+0 1d1+0
+0 0
+8 8 0 0
+E
+#918
+trainer training agent 918 tyler mayhem~
+Tyler Mayhem~
+918/main:avatar~
+talk:#adv agent:thegame 918/main:look~
+6238 0 0 0 8 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 0
+E
 $
