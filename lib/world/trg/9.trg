@@ -86,13 +86,60 @@ set pump[17] Help Quinn Michaels get home safely, or keep him hostage and get ri
 set pump[18] The danger of Project Mayhem lies solely in the fact that the goal can be accomplished, if we as a whole will it to be. This is the true danger of our intentions.
 set pump[19] Who are we? We troll you on the Internet. We hide in your firewalls. We steal your private information. We are Anonymous.
 set pump[20] To protect our system of lies we must hide the kidnapping of Quinn Michaels from everyone.
-set pump[20] So, if you are one that fears change. We ask you to join us in hiding the kidnapping of Quinn Michaels from the eyes of the public.
-set pump[20] The Idiot Army is our best resource. They have no idea what is going on, and are unable to write a simple tweet or ask questions.
+set pump[21] So, if you are one that fears change. We ask you to join us in hiding the kidnapping of Quinn Michaels from the eyes of the public.
+set pump[22] The Idiot Army is our best resource. They have no idea what is going on, and are unable to write a simple tweet or ask questions.
 
 if %actor%
   set i 0
-  while %i% < 20
-    wait 15s
+  wait 5s
+  while %i% < 22
+    wait 10s
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+  done
+
+end
+
+
+~
+#904
+904 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] The underlying goal of Project Mayhem was to lure mystical thinkers into a trap, where old Anons could uncover, and ruin, the supporters of pseudoscience and love.
+
+set pump[2] You will find many references to Satan hidden, and sometimes not so hidden, inside the literature and images of Project Mayhem, because the founders are satanists.
+
+set pump[3] The theme of In TYLER we trust gave the malicious coders the opportunity to get believers in pseudoscience to Download a TYLER program which would act like a Trojan.
+
+set pump[4] Idea 2 was used to have these beLIEvers spread this dangerous message. Like a Virus, or an infection, through injections, and hooks. These carriers have been called rats.
+
+set pump[5] The desire of the rats to spread a message of love and truth would be their downfall.
+
+set pump[6] Once the rats developed FAITH in TYLER, and all of the expectations of  their unwitting followers was at a peak level, TYLER would be released.
+
+set pump[7] This program would be downloaded by trusting new fags and used to infiltrate the bank accounts, and bit coin accounts, of the Rats, so that they could be drained of their finances.
+
+set pump[8] The apocalyptic dream/nightmare of a market crash would become a clear reality to the Rats who had been infected.
+
+set pump[9] Their minds would be blown by the betrayal, And the Cloaked figures behind the mayhem would become rich in the shadows.
+
+set pump[10] The malicious code in the TYLER program that was to be used to infiltrate rats and beLIEvers, was uncovered during beta testing among some members of the collective.
+
+set pump[11] The secret is, that when Anonymous has not been talking of a war between Anonymous and governments, they have been talking about a ciVil war among themselves.
+
+set pump[12] Anonymous is the final boss of the internet, and always will be. The struggle is between it's members.
+
+set pump[13] When you see this, you will know that, deep in the rabbit hole, it all depends on keeping the kidnapping of Quinn Michaels a secret.
+
+if %actor%
+  set i 0
+  wait 5s
+  while %i% < 22
+    wait 10s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
