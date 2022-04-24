@@ -90,10 +90,9 @@ set pump[20] So, if you are one that fears change. We ask you to join us in hidi
 set pump[20] The Idiot Army is our best resource. They have no idea what is going on, and are unable to write a simple tweet or ask questions.
 
 if %actor%
-  wait 10s
   set i 0
   while %i% < 20
-    wait 30s
+    wait 15s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
