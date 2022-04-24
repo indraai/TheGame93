@@ -926,6 +926,10 @@ Training L2~
 talk:#adv room:thegame 0364/main:look
 ~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 800
 D4
 ~
 ~
@@ -935,6 +939,10 @@ S
 Training L3~
 [DESCRIBE]~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 700
 D4
 ~
 ~
@@ -953,6 +961,10 @@ S
 Training L4~
 [DESCRIBE]~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 600
 D4
 ~
 ~
@@ -1231,6 +1243,10 @@ S
 Training L5~
 Empty room.~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 500
 D4
 ~
 ~
@@ -1240,6 +1256,10 @@ S
 Training L6~
 Empty room.~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 400
 D4
 ~
 ~
@@ -1249,6 +1269,10 @@ S
 WFC Entrance~
 undefined~
 3 24 0 0 0 0
+D0
+~
+~
+0 0 1000
 D4
 ~
 ~
