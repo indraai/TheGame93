@@ -45,7 +45,7 @@ talk:#adv agent:thegame 903/main:look
 30 900
 8 8 0 0
 E
-T 900
+T 903
 #904
 trainer training agent 904~
 Trainer 904~
@@ -246,7 +246,7 @@ talk:#adv agent:thegame 917/main:look~
 6238 0 0 0 8 0 0 0 -111 E
 3 20 10 1d1+0 1d1+0
 0 0
-8 8 0 0
+8 8 0 1
 E
 #918
 trainer training agent 918 tyler mayhem~
@@ -256,6 +256,6 @@ talk:#adv agent:thegame 918/main:look~
 6238 0 0 0 8 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 0
+8 8 0 1
 E
 $
