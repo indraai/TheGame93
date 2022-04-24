@@ -33,10 +33,11 @@ set pump[20] %actor.name% you got this!
 
 eval greeting %%greet[%random.5%]%%
 
+%echo% #youtube chat:brian Next we test a trigger echo from inside the realm in room %actor.room.vnum%.
+
 wait 15s
 
 if %actor%
-  %echo% #youtube chat:brian Next we test a trigger echo from inside the realm in room %actor.room.vnum%.
 
   say %greeting%
   wait 3s
