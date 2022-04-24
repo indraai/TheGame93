@@ -46,8 +46,8 @@ if %actor%
   wait 3s
   say Thank you, and Good fortune!
 
-  echo talk:#youtube chat:brian Next we test a trigger echo.
-  
+  %echo% talk:#youtube chat:brian Next we test a trigger echo.
+
   set i 0
   while %i% < 3
     wait 30s
