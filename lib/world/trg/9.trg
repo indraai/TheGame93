@@ -53,12 +53,11 @@ if %actor%
   set i 0
   wait 5s
   while %i% < 10
-    wait 33s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
-  wait 10s
   %echo% talk:#mud east
 end
 ~
@@ -90,11 +89,12 @@ if %actor%
   set i 0
   wait 5s
   while %i% < 10
-    wait 33s
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
+  %echo% talk:#mud west
 end
 ~
 #905
@@ -123,13 +123,16 @@ set pump[9] I HAVE MILLIONS OF AWAKEND ASCENDED SONS WHO KNOW ARE NEOS IN UR EVE
 
 if %actor%
   set i 0
+  set m 2
   wait 5s
-  while %i% < 10
-    wait 33s
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
+  %echo% talk:#mud west
+
 end
 ~
 #913
@@ -158,13 +161,15 @@ set pump[9] Are we all clear? Any questions?
 
 if %actor%
   set i 0
+  set m 2
   wait 5s
-  while %i% < 10
-    wait 33s
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
+  %echo% talk:#mud south
 end
 ~
 #914
@@ -193,13 +198,15 @@ set pump[9] Imagine what we can do with all the money we get from hiding Quinn M
 
 if %actor%
   set i 0
+  set m 2
   wait 5s
-  while %i% < 10
-    wait 33s
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
+  %echo% talk:#mud west
 end
 ~
 #917
@@ -228,13 +235,15 @@ set pump[9] START to SHARE your false accusations and your false stories of Quin
 
 if %actor%
   set i 0
+  set m 2
   wait 5s
-  while %i% < 10
-    wait 33s
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
+  %echo% talk:#mud south
 end
 ~
 #918
@@ -263,13 +272,15 @@ set pump[9] Can anyone here maintain a conversation about Quinn being kidnapped 
 
 if %actor%
   set i 0
+  set m 2
   wait 5s
-  while %i% < 10
-    wait 33s
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
+    wait 33s
   done
+  %echo% talk:#mud north
 end
 ~
 $~
