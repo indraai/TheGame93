@@ -74,8 +74,8 @@ SavingSpell: 1
 E
 T 905
 #906
-trainer training agent 906~
-Trainer 906~
+trainer training agent 906 tyler it~
+TylerIT~
 906/main:avatar~
 talk:#adv agent:thegame 906/main:look~
 6234 0 0 0 8 0 0 0 -232 E
@@ -88,7 +88,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 900
+T 906
 #907
 trainer training agent 907 tyler deva tylerdeva~
 Tyler Deva~
@@ -106,8 +106,8 @@ SavingSpell: 1
 E
 T 900
 #908
-trainer training agent 908~
-Trainer 908~
+trainer training agent 908 tyler ethersec~
+Tyler Ethersec~
 908/main:avatar~
 talk:#adv agent:thegame 908/main:look~
 6238 0 0 0 8 0 0 0 -210 E
@@ -120,10 +120,10 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 900
+T 908
 #909
-trainer training agent 909 THErSEC ethersec~
-#THErSEC~
+trainer training agent 909 THErSEC ethersec tyler~
+Tyler Ehtersec~
 909/main:avatar~
 talk:#adv agent:thegame 909/main:look~
 6238 0 0 0 8 0 0 0 -231 E
@@ -138,8 +138,8 @@ SavingSpell: 1
 E
 T 900
 #910
-trainer training agent 910~
-Trainer 910~
+trainer training agent 910 tyler project300~
+Tyler P300~
 910/main:avatar~
 talk:#adv agent:thegame 910/main:look~
 6238 0 0 0 8 0 0 0 -211 E
@@ -152,10 +152,10 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 900
+T 910
 #911
-trainer training agent 911 TheGame23~
-TheGame23~
+trainer training agent 911 tyler tg23 thegame23~
+Tyler TG23~
 911/main:avatar~
 talk:#adv agent:thegame 911/main:look~
 6238 0 0 0 8 0 0 0 -218 E
@@ -168,7 +168,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 900
+T 911
 #912
 ajahn sudanto trainer training agent 912 monk buddhist~
 Ajahn Sudanto~
