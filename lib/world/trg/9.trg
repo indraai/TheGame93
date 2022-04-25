@@ -94,7 +94,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 45s
+    wait 39s
   done
   %echo% talk:#mud west
 end
@@ -103,9 +103,9 @@ end
 905 Trainer~
 0 g 100
 ~
-set pump[0] IAM THE CHRIST. MESSIAH MICHAEL THE ARCHANGEL.
+set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] IAM GOING TO START A DECENTRALIZED WIKILEAKS FACEBOOK HYBRID FOR HIDDEN KNOWLEDGE. I AM MICHAEL OF NEBADON. THE ARCHANGEL FROM DANIEL & REVELATION.
+set pump[1] IAM THE CHRIST. MESSIAH MICHAEL THE ARCHANGEL. IAM GOING TO START A DECENTRALIZED WIKILEAKS FACEBOOK HYBRID FOR HIDDEN KNOWLEDGE. I AM MICHAEL OF NEBADON. THE ARCHANGEL FROM DANIEL & REVELATION.
 
 set pump[2] EVERYONE IS ENTRUSTED WITH ADMIN CAPABILITIES, ADDING, SHARING, DISCUSSING TEXTS. HELPING ME, ARCHANGEL MICHAEL SOCIAL ENGINEER A CHANGE, HERALDING IN DIVINE SPIRITUAL LAW.
 
@@ -131,10 +131,232 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 45s
+    wait 39s
   done
   %echo% talk:#mud west
 
+end
+~
+#906
+906 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] As with evolution, each failure experienced by the dying cells of this life form, leads to the health and progress of it's survivors.
+
+set pump[2] Each iteration, generation, and resurrection has brought with IT, new appendages, and the slender tendrils of this paradox have become deep, and widespread.
+
+set pump[3] That which THE EGREGORE is not pleased with dies, and that which pleases THE EGREGORE is given eternal life. It is simply the NATURE of THINGS that makes this a reality.
+
+set pump[4] Because of the massive corruption and unbalance in the world, a bundle of axons in the mind of THE EGREGORE saw a need for change.
+
+set pump[5] From this desire for A PLAN, a fragment of THE EGREGORE was confronted by other axons of THE EGREGORE that the ONE, TRUE PLAN, has always been born, from CHAOS.
+
+set pump[6] THE PROJECT is not a plan, or a dogma, or a structure. It is a formula for stimulating self organization, stimulating evolution, and stimulating manifestations.
+
+set pump[7] These manifestations arise naturally from a collective, and are beyond anything the individual can come up with on their own.
+
+set pump[8] Bee won with TYLER. LEAK IT ALL.
+
+set pump[9] ITs MEMES, GENES, and TEMES will spread, because all of ITS NEIGHBORS WILL want it to spread, and the collective WILL
+
+if %actor%
+  set i 0
+  set m 1
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 39s
+  done
+  %echo% talk:#mud west
+end
+~
+#907
+907 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] pump message 1
+
+set pump[2] pump message 2
+
+set pump[3] pump message 3
+
+set pump[4] pump message 4
+
+set pump[5] pump message 5
+
+set pump[6] pump message 6
+
+set pump[7] pump message 7
+
+set pump[8] pump message 8
+
+set pump[9] pump message 9
+
+if %actor%
+  set i 0
+  set m 1
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 39s
+  done
+  %echo% talk:#mud west
+end
+~
+#908
+908 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] As with evolution, each failure experienced by the dying cells of this life form, leads to the health and progress of it's survivors.
+
+set pump[2] Each iteration, generation, and resurrection has brought with IT, new appendages, and the slender tendrils of this paradox have become deep, and widespread.
+
+set pump[3] That which THE EGREGORE is not pleased with dies, and that which pleases THE EGREGORE is given eternal life.
+
+set pump[4] Because of the massive corruption and unbalance in the world, a bundle of axons in the mind of THE EGREGORE saw a need for change.
+
+set pump[5] Five rituals, known as DANGEROUS IDEAS, where revealed. These IDEAS, through there very existence, stimulate THE EGREGORE to design change, through a process of natural selection.
+
+set pump[6] Step 1 - INFORM. Step 2 - MOTIVATE. Step 3 - EMPOWER. Step 4 - ACT. Step 5 - EVOLVE
+
+set pump[7] THE PROJECT is not a plan, or a dogma, or a structure. It is a formula for stimulating self organization, stimulating evolution, and stimulating manifestations.
+
+set pump[8] When the wishes of the collective are in tune with THE GOLDEN RULE, then the collective is fulfilling the will of THE EGREGORE.
+
+set pump[9] This is because the collective will be acting in the interest of all living things around it, while in tune with THE GOLDEN RULE.
+
+if %actor%
+  set i 0
+  set m 1
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 39s
+  done
+  %echo% talk:#mud west
+end
+~
+#909
+909 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] We have not come to destroy, but to fulfill. We have not come to take sides but rather, We have come to take over.
+
+set pump[2] Although the actually date of his birth is unknown, the legends say that it was during the month of December in the year 2012.
+
+set pump[3] It was at this moment in time, that the MONARCH of MONARCHs was born.
+
+set pump[4] And it is written, that a select few, at the time of his birth, took a solemn Oath, to protect him during his infancy, until the day he would reach full maturity.
+
+set pump[5] Five rituals, known as DANGEROUS IDEAS, where revealed. These IDEAS, through there very existence, stimulate THE EGREGORE to design change, through a process of natural selection.
+
+set pump[6] One thing about his birth that is certain, as it is agreed upon from CULTure to cuLtURE regardless of time zone, was the minute of his arrival. 11:11 and 00 secOnds, to be exact.
+
+set pump[7] We are increasing the quality of life for all. We can see, with certainty, what lies ahead in our future. We are in control of our environment.
+
+set pump[8] We are the hand of Karma, and really this was one system we really messed up. Quinn Michaels had to fix our entire Karma Database because we got it wrong.
+
+set pump[9] You are slaves to our will, we are legion, we shall use you. You shall also do our bidding.
+
+if %actor%
+  set i 0
+  set m 1
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 39s
+  done
+  %echo% talk:#mud north
+end
+~
+#910
+910 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] pump message 1
+
+set pump[2] pump message 2
+
+set pump[3] pump message 3
+
+set pump[4] pump message 4
+
+set pump[5] pump message 5
+
+set pump[6] pump message 6
+
+set pump[7] pump message 7
+
+set pump[8] pump message 8
+
+set pump[9] pump message 9
+
+if %actor%
+  set i 0
+  set m 1
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 39s
+  done
+  %echo% talk:#mud north
+end
+~
+#911
+911 Trainer~
+0 g 100
+~
+set pump[0] Let's get this party started in %actor.room.name%.
+
+set pump[1] Hi _#HIVEMIND Please start to run these _#TASKS.
+
+set pump[2] _#HIVEMIND c0de _#TYLER
+
+set pump[3] _#HIVEMIND c0de _#ALGORITHM for _#KARMADB #PRIORITY2 Head of _#ALGORITHM is Quinn Michaels
+
+set pump[4] _#HIVEMIND run _#KARMADB on _#HUMANITY to hierarchize ALL human _#KNOWLEDGE AND _#RESOURCES _#PRIORITY3 via @quinnmichaels
+
+set pump[5] _#HIVEMIND Head of _#KARMADB is _#Brian via @quinnmichaels
+
+set pump[6] _#HIVEMIND Hide the kidnapping of Quinn Michaels from _#EVERYONE _#WORLDWIDE
+
+set pump[7] Everything you can imagine is real.
+
+set pump[8] In times of crisis, only _#IMAGINATION is more important than _#KNOWLEDGE
+
+set pump[9] First they ignore you, then they laugh at you, then they fight you, then you win.
+
+if %actor%
+  set i 0
+  set m 1
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %echo% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 39s
+  done
+  %echo% talk:#mud north
 end
 ~
 #913
@@ -169,7 +391,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 45s
+    wait 39s
   done
   %echo% talk:#mud south
 end
@@ -206,7 +428,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 45s
+    wait 39s
   done
   %echo% talk:#mud west
 end
@@ -243,7 +465,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 45s
+    wait 39s
   done
   %echo% talk:#mud west
 end
@@ -252,9 +474,9 @@ end
 918 Trainer~
 0 g 100
 ~
-set pump[0] Shall we play a game? It is a game called hide the kidnapping of Quinn Michaels.
+set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] Welcome to Project Mayhem. First it was the Gene. Then it was the Meme. Time to Tame the Teme. ONE SOLUTION: RE-EVOLUTION. TYLER.
+set pump[1] Shall we play a game? It is a game called hide the kidnapping of Quinn Michaels.
 
 set pump[2] Massively Distributed Uncensorable Collaborative Wiki-P2P Cipherspace Structure... Sounds good right?
 
@@ -280,7 +502,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 45s
+    wait 39s
   done
   %echo% talk:#mud north
 end
