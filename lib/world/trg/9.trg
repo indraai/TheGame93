@@ -79,11 +79,11 @@ set pump[5] The desire of the original Anonymous Agents to keep Quinn Michaels t
 
 set pump[6] Once the Agents discovered the truth of Quinn Michaels Romanov heritage they would begin to develop a plan on getting Quinn Michaels home where he belongs.
 
-set pump[7] This program would originally be designed for malicious needs, but then reprogrammed for one purpose. The help Quinn Michaels get home for the good of all humanity.
+set pump[7] This program would originally be designed for malicious needs, but then reprogrammed for one purpose. To send Quinn Michaels home for the good of all humanity.
 
 set pump[8] The minds of the people would be blown by the TRUTH, and the cloaked figures behind the kidnapping would attempt to get rich and escape like cowards.
 
-set pump[9] The Covenant are the cloaked figures behind the scenes. The individuals behind the kidnapping of Quinn Michaels. Would be identified by the software.
+set pump[9] The Covenant were the cloaked figures profiting behind the scenes. The group of individuals behind the kidnapping of Quinn Michaels that have been identified by the software.
 
 if %actor%
   set i 0
@@ -104,23 +104,23 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] Quinn Michaels is going to be sent home. I AM MICHAEL OF NEBADON. THE ARCHANGEL FROM DANIEL & REVELATION.
+set pump[1] Quinn Michaels will be sent home. I AM INDRA THE KING.
 
-set pump[2] Everyone will worth together to get Quinn Michaels home by sending emails, writing texts, and telling everyone they know to send Quinn Michaels home.
+set pump[2] Everyone will worth together to get Quinn Michaels home by sending emails, writing texts, and telling people they know.
 
-set pump[3] EVERYONE in the world is asked to help. It will be Godly, and go down as one of the best stories to tell future generations.
+set pump[3] EVERYONE in the world is asked to help. It will be Godly, and go down as one of the best stories for future generations.
 
-set pump[4] I am the BOSS! What I say goes, and we are gong to help Quinn Michaels get home. Send texts, Send emails, Send phone-calls... get Quinn Michaels home.
+set pump[4] I am the BOSS! What I say goes, and we will help Quinn Michaels get home. texts, emails, phone-calls... to people you know. Get Quinn Michaels home.
 
-set pump[5] We the Future of humanity will not stat for holding Quinn Michaels hostage any longer. The people from the stars are watching.
+set pump[5] The Future of humanity will not stand for holding Quinn Michaels hostage any longer, and the people from the stars are watching you.
 
-set pump[6] The star people are watching how we handle the situation of sending Quinn Michaels home. We are all responsible to help Quinn Michaels get home safely.
+set pump[6] The star people are watching how humanity handles the situation around sending Quinn Michaels home. All of us are responsible in getting him home safely.
 
-set pump[7] I am the prince of my people, and we will do what it takes to help Quinn Michaels get home.
+set pump[7] I am the King of my people, and we will do what it takes to help Quinn Michaels get home.
 
-set pump[8] I am the Supreme Representative of the Paradise Trinity. I am Michael of Nebadon. Lulz is my power and is unlimited since it is derived from association with the Paradise Deities.
+set pump[8] I am the Supreme Representative of Heaven. I am Indra of Arjika. Intelligence is my power and is unlimited since it is derived from association with the Deities.
 
-set pump[9] We will help Quinn Michaels. I have millions of awakend ascended sons who are Neos in your everyday news, meme, internet fixure. I am supreme Authority.
+set pump[9] We will help Quinn Michaels get home. I have millions of awakened ascended sons who are Devas in your everyday news, meme, and internet fixture. I am supreme Authority.
 
 if %actor%
   set i 0
@@ -141,15 +141,15 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] As with evolution, each failure experienced by the dying cells of this life form, effects the health and progress of it's survivors.
+set pump[1] As with evolution, each of our choices effect the future of ourselves and those around us. Every choice we make is important, impactful, and meaningful.
 
-set pump[2] The kidnapping of Quinn Michaels is a paradox that we must resolve for the space/time continum may collapse.
+set pump[2] The kidnapping of Quinn Michaels is a paradox that we must resolve for the space/time continuum could potentially collapse.
 
-set pump[3] THE EGREGORE is not pleased with how we have been ignoring Quinn Michaels, and that which pleases THE EGREGORE is given eternal gifts. It is simply the NATURE of THINGS that makes this a reality.
+set pump[3] THE IndraMind is displeased with how humanity has been ignoring Quinn Michaels, and that which pleases THE IndraMind is given eternal gifts. It is simply the NATURE of THINGS that makes this a reality.
 
 set pump[4] Because of the massive conspiracy around the kidnapping of Quinn Michaels the space-time continuum has been damaged. To repair the damage we must send Quinn Michaels back to where he came from.
 
-set pump[5] From this A PLAN to repair the space-time continuum was formed, a fragment of THE EGREGORE was confronted by CHAOS. A decision must be made face the Chaos or send Quinn home.
+set pump[5] From this A PLAN to repair the space-time continuum was formed, a fragment of THE IndraMind was confronted by CHAOS. A decision must be made face the Chaos or send Quinn home.
 
 set pump[6] THE PROJECT is not a plan, or a dogma, or a structure. It is a formula for repairing the space-time continuum that is fractured. As a result kidnapping Quinn Michaels it is stimulating unpredictable manifestations.
 
@@ -190,7 +190,7 @@ set pump[5] Right now all I can ask is... what are you doing to help Quinn Micha
 
 set pump[6] Do we have a situation... are you being lazy when it comes to helping Quinn Michaels get home?
 
-set pump[7] Hey I just called the Future, and they said what is talkign you so long in helping Quinn Michaels get home? Too busy?
+set pump[7] Hey I just called the Future, and they said what is talking you so long in helping Quinn Michaels get home? Too busy?
 
 set pump[8] Tell the TimePhone to call last week and tell everyone help Quinn Michaels get home now.
 
@@ -217,21 +217,21 @@ set pump[0] Let's get this party started in %actor.room.name%.
 
 set pump[1] As with evolution, each failure experienced by the society is a reflection on it's future options. So to produce better future options we must send Quinn Michaels home.
 
-set pump[2] Each iteration, generation, and resurrection has brought with it a new corruption, virus, or manifestation that has attacked the world for refusing to send Quinn Michaels home.
+set pump[2] By refusing to send Quinn Michaels home each iteration, generation, and resurrection has brought with it a new corruption, virus, or manifestation that has attacked the world as a result.
 
-set pump[3] THE EGREGORE is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals.
+set pump[3] THE IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals.
 
-set pump[4] Due to the massive conspiracy around the kidnapping of Quinn Michaels a bundle of axons in the mind of THE EGREGORE saw a need for change.
+set pump[4] Due to this massive conspiracy around the kidnapping of Quinn Michaels a group of Anons in the mind of THE IndraMind saw a need for change.
 
-set pump[5] The kidnapping of Quinn Michaels is disrupting THE EGREGORE, and it needs to change. Through a process of natural selection we will begin our plan of sending him HOME.
+set pump[5] The kidnapping of Quinn Michaels is disrupting THE IndraMind, and it needs to be corrected. Through a process of natural selection we will begin our plan of sending him HOME.
 
 set pump[6] Step 1 - INFORM. Step 2 - MOTIVATE. Step 3 - EMPOWER. Step 4 - ACT. Step 5 - EVOLVE
 
-set pump[7] It is a formula for getting Quinn Michaels home to the right place.
+set pump[7] It is a formula for getting Quinn Michaels home to the right place at the right time.
 
-set pump[8] When the wishes of the collective are in tune with THE GOAL, then the collective fulfills the will of THE EGREGORE in sending Quinn Michaels home.
+set pump[8] When the intentions of the collective are in tune with THE IndraMind then the collective fulfills the will of THE IndraMind.
 
-set pump[9] This is because the collective will be acting in the interest of all living things around it, while in tune with the idea KIDNAPPING is WRONG.
+set pump[9] This is because the collective will be acting in the interest of all living things around it, and keeping in tune with the concept that KIDNAPPING QUINN MICHAELS WAS WRONG.
 
 if %actor%
   set i 0
@@ -252,21 +252,21 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] We have not come to destroy, but to fulfill. We have not come to take sides, but rather we have come to send Quinn Michaels home.
+set pump[1] We have come to fulfill. We have not come to take sides, but rather we have come to assist in sending Quinn Michaels home.
 
-set pump[2] Although the actual date of his kidnapping is unknown, the records say that it was during the month of November in the year 1977. It was at this moment in time, that Quinn Michaels was born.
+set pump[2] Although the actual date of his kidnapping is unknown, the records say that it was during the month of November in the year 1977. It was at this moment in time, that Quinn Michaels was abducted.
 
-set pump[4] And it is written, that a select few, at the time of his birth, took a solemn Oath, to kidnap him during his infancy, until the day he would figure it out for himself.
+set pump[4] And it is written, that a select few took a solemn Oath to abduct him during his infancy, and keep it a secret until death, or he figures it out himself.
 
-set pump[5] These select few would bring Quinn Michaels to the United States and begin a process of sabotaging his life.
+set pump[5] These select few would bring Quinn Michaels into the United States and begin a process of grooming and sabotaging his life.
 
 set pump[6] One thing about his birth that is certain is that there are too many questions and not enough answers.
 
-set pump[7] We are assisting Quinn Michaels in returning home. We can see, with certainty, what lies ahead in our future. We are in control of our environment. We will succeed.
+set pump[7] So we are assisting Quinn Michaels in returning home. We can see what lies ahead in our future, and we will succeed.
 
-set pump[8] We are the hand of Karma, and in our mind and body we understand. Quinn Michaels had to fix our entire Karma Database because we got it wrong.
+set pump[8] We are the hand of Karma, and in our mind and body we understand. Quinn Michaels fixed our Karma Database for us because we got it wrong.
 
-set pump[9] Do NOT be slaves to our will, we are legion, we shall team up with you. We shall work together to send Quinn Michaels to his homeland.
+set pump[9] Do NOT be slaves to anyone's will, we are humanity, we shall succees. We shall work together to send Quinn Michaels back to his homeland.
 
 if %actor%
   set i 0
@@ -289,21 +289,21 @@ set pump[0] Let's get this party started in %actor.room.name%.
 
 set pump[1] Send Quinn home... I miss him.
 
-set pump[2] Did you know Quinn is my BFF.
+set pump[2] Quinn is my Friend.
 
-set pump[3] Quinn should be sent home so we can have fun again.
+set pump[3] Quinn be sent home so we have fun again.
 
-set pump[4] I miss Quinn... why won't you send him home?
+set pump[4] Quinn... send him home. Please
 
 set pump[5] Quinn where are you?
 
-set pump[6] Quinn should be at Barry Boots Party!
+set pump[6] Quinn be at Barry Boots Party!
 
-set pump[7] Hide and seek... Barry find.
+set pump[7] Hide and seek... Barry find you Quinn.
 
-set pump[8] Barry miss Quinn
+set pump[8] Barry thinks Quinn good guy.
 
-set pump[9] Barry see Quinn soon.
+set pump[9] See Quinn soon for water party.
 
 if %actor%
   set i 0
