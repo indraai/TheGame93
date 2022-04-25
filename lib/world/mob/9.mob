@@ -47,8 +47,8 @@ talk:#adv agent:thegame 903/main:look
 E
 T 903
 #904
-trainer training agent 904~
-Trainer 904~
+trainer training agent 904 tyler revelations~
+Tyler Revelations~
 904/main:avatar~
 talk:#adv agent:thegame 904/main:look~
 6170 0 0 0 0 0 0 0 -150 E
@@ -72,7 +72,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 900
+T 905
 #906
 trainer training agent 906~
 Trainer 906~
@@ -259,4 +259,5 @@ talk:#adv agent:thegame 918/main:look~
 0 0
 8 8 0 1
 E
+T 918
 $
