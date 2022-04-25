@@ -1,8 +1,7 @@
-selection#900
+#900
 Standard Trainer Greeting~
 0 g 100
 ~
-
 set greet[1] Greetings %actor.name%
 set greet[2] Salutations %actor.name%
 set greet[3] Hi %actor.name%
