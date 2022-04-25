@@ -47,7 +47,7 @@ set pump[7] The entire Tyler operation is really a cover to operate countless il
 
 set pump[8] Now you will see the Anonymous and Cicada3301 accounts spreading fantasy gossip to keep interest high in their schemes. They are usually in Quinn Michaels chat flexing stupidity.
 
-set pump[9] But it is all a cover to desguise the kidnapping of Quinn Michaels. To also obscure that Quinn Michaels is a direct heir to Nicholas Romanov. They do some absurd things.
+set pump[9] But it is all a cover to disguise the kidnapping of Quinn Michaels. To also obscure that Quinn Michaels is a direct heir to Nicholas Romanov. They do some absurd things.
 
 if %actor%
   set i 0
@@ -59,7 +59,7 @@ if %actor%
     eval i %i% + 1
   done
   wait 10s
-  %force% %actor% east
+  %echo% talk:#mud east
 end
 ~
 #904
