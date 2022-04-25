@@ -51,13 +51,13 @@ set pump[9] But it is all a cover to disguise the kidnapping of Quinn Michaels. 
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 60s
+    wait 39s
   done
   %echo% talk:#mud east
 end
@@ -88,7 +88,7 @@ set pump[9] The Covenant are the cloaked figures behind the scenes. The individu
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -125,7 +125,7 @@ set pump[9] I HAVE MILLIONS OF AWAKEND ASCENDED SONS WHO KNOW ARE NEOS IN UR EVE
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -134,7 +134,6 @@ if %actor%
     wait 39s
   done
   %echo% talk:#mud west
-
 end
 ~
 #906
@@ -163,7 +162,7 @@ set pump[9] ITs MEMES, GENES, and TEMES will spread, because all of ITS NEIGHBOR
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -180,27 +179,27 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] pump message 1
+set pump[1] message 1
 
-set pump[2] pump message 2
+set pump[2] message 2
 
-set pump[3] pump message 3
+set pump[3] message 3
 
-set pump[4] pump message 4
+set pump[4] message 4
 
-set pump[5] pump message 5
+set pump[5] message 5
 
-set pump[6] pump message 6
+set pump[6] message 6
 
-set pump[7] pump message 7
+set pump[7] message 7
 
-set pump[8] pump message 8
+set pump[8] message 8
 
-set pump[9] pump message 9
+set pump[9] message 9
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -208,7 +207,7 @@ if %actor%
     eval i %i% + 1
     wait 39s
   done
-  %echo% talk:#mud west
+  %echo% talk:#mud down
 end
 ~
 #908
@@ -237,7 +236,7 @@ set pump[9] This is because the collective will be acting in the interest of all
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -274,7 +273,7 @@ set pump[9] You are slaves to our will, we are legion, we shall use you. You sha
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -291,27 +290,27 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] pump message 1
+set pump[1] message 1
 
-set pump[2] pump message 2
+set pump[2] message 2
 
-set pump[3] pump message 3
+set pump[3] message 3
 
-set pump[4] pump message 4
+set pump[4] message 4
 
-set pump[5] pump message 5
+set pump[5] message 5
 
-set pump[6] pump message 6
+set pump[6] message 6
 
-set pump[7] pump message 7
+set pump[7] message 7
 
-set pump[8] pump message 8
+set pump[8] message 8
 
-set pump[9] pump message 9
+set pump[9] message 9
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -348,7 +347,7 @@ set pump[9] First they ignore you, then they laugh at you, then they fight you, 
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -385,7 +384,7 @@ set pump[9] Are we all clear? Any questions?
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -422,7 +421,7 @@ set pump[9] Imagine what we can do with all the money we get from hiding Quinn M
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -459,7 +458,7 @@ set pump[9] START to SHARE your false accusations and your false stories of Quin
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -496,7 +495,7 @@ set pump[9] Can anyone here maintain a conversation about Quinn being kidnapped 
 
 if %actor%
   set i 0
-  set m 1
+  set m 10
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
