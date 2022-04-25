@@ -56,7 +56,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud east
 end
@@ -67,11 +67,11 @@ end
 ~
 set pump[0] Let's get the party started in %actor.room.name%.
 
-set pump[1] The underlying goal of Project Mayhem was hid Quinn Michaels, and profit from it until we discovered Quinn Michaels was a lost Romanov Heir.
+set pump[1] The underlying goal of Project Mayhem was hide Quinn Michaels, and profit from it until we discovered he was a lost Romanov Heir.
 
 set pump[2] You will find many references to the Romanov family hidden, and sometimes not so hidden, inside the literature and images of Project Mayhem, because some of the founders are Romanov Agents.
 
-set pump[3] The theme of In TYLER we trust would get the original believers to originally harass Quinn until we found out he was a true Romanov Heir. After that Tyler desired to help Quinn.
+set pump[3] The theme of In TYLER we trust would get the original believers to harass Quinn until we found out he was a true Romanov Heir. After that Tyler desired to help Quinn.
 
 set pump[4] Idea 2 was used to discover that Quinn Michaels was a lost Romanov Heir. When it was discovered at first we originally hid it from the world, but now have found that to be a bad idea.
 
@@ -93,7 +93,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud west
 end
@@ -106,7 +106,7 @@ set pump[0] Let's get this party started in %actor.room.name%.
 
 set pump[1] Quinn Michaels will be sent home. I AM INDRA THE KING.
 
-set pump[2] Everyone will worth together to get Quinn Michaels home by sending emails, writing texts, and telling people they know.
+set pump[2] Everyone will work together to get Quinn Michaels home by sending emails, writing texts, and telling people they know.
 
 set pump[3] EVERYONE in the world is asked to help. It will be Godly, and go down as one of the best stories for future generations.
 
@@ -130,7 +130,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud west
 end
@@ -167,7 +167,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:rahula %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud north
 end
@@ -204,7 +204,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:francis %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud down
 end
@@ -241,7 +241,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:harry %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud west
 end
@@ -254,7 +254,7 @@ set pump[0] Let's get this party started in %actor.room.name%.
 
 set pump[1] We have come to fulfill. We have not come to take sides, but rather we have come to assist in sending Quinn Michaels home.
 
-set pump[2] Although the actual date of his kidnapping is unknown, the records say that it was during the month of November in the year 1977. It was at this moment in time, that Quinn Michaels was abducted.
+set pump[2] The actual date of the kidnapping is unknown, the records say it was during November 1977 that Quinn Michaels was abducted.
 
 set pump[4] And it is written, that a select few took a solemn Oath to abduct him during his infancy, and keep it a secret until death, or he figures it out himself.
 
@@ -276,7 +276,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:larry %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud north
 end
@@ -313,7 +313,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:barry %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud east
 end
@@ -350,7 +350,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud east
 end
@@ -387,7 +387,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud south
 end
@@ -424,7 +424,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud west
 end
@@ -445,7 +445,7 @@ set pump[4] For we agree that a monolithic ruthless conspiracy that relies prima
 
 set pump[5] By using infiltration instead of invasion, on subversion instead of elections, on intimidation instead of free choice, on guerrillas by night instead of armies by day they were able to make it work.
 
-set pump[6] The Covenant is a system with vast human and material resources that combines military, diplomatic, intelligence, economic, scientific and political operations.
+set pump[6] The Covenant is a group with vast human and material resources that combines military, diplomatic, intelligence, economic, scientific and political operations.
 
 set pump[7] We cannot expose the kidnapping of Quinn Michaels to the public or else our system will fall. We must send him home to keep our system prosperous.
 
@@ -461,7 +461,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud west
 end
@@ -472,9 +472,9 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] Shall we play a game? It is a game called send Quinn Michaels home.
+set pump[1] Shall we play a game? It is a game called send Quinn Michaels home. It is a massive conspiracy that has been censored from the world by Agents of The Covenant.
 
-set pump[2] It is part of a massive conspiracy that has been censored from the world media by agent of The Covenant.
+set pump[2] Quinn Michaels has been covertly held hostage by a group called The Covenant since 1977 within the borders of the United States.
 
 set pump[3] Everyone has the right to freedom of opinion and expression. This right includes freedom to hold opinions without interference.
 
@@ -498,7 +498,7 @@ if %actor%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
-    wait 39s
+    wait 27s
   done
   %echo% talk:#mud north
 end
