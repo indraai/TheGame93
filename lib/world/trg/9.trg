@@ -51,8 +51,9 @@ set pump[9] But it is all a cover to disguise the kidnapping of Quinn Michaels. 
 
 if %actor%
   set i 0
+  set m 2
   wait 5s
-  while %i% < 10
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
@@ -243,7 +244,7 @@ if %actor%
     eval i %i% + 1
     wait 33s
   done
-  %echo% talk:#mud south
+  %echo% talk:#mud west
 end
 ~
 #918
