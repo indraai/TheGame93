@@ -51,13 +51,13 @@ set pump[9] But it is all a cover to disguise the kidnapping of Quinn Michaels. 
 
 if %actor%
   set i 0
-  set m 2
+  set m 1
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 60s
   done
   %echo% talk:#mud east
 end
@@ -88,12 +88,13 @@ set pump[9] The Covenant are the cloaked figures behind the scenes. The individu
 
 if %actor%
   set i 0
+  set m 1
   wait 5s
-  while %i% < 10
+  while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 45s
   done
   %echo% talk:#mud west
 end
@@ -124,13 +125,13 @@ set pump[9] I HAVE MILLIONS OF AWAKEND ASCENDED SONS WHO KNOW ARE NEOS IN UR EVE
 
 if %actor%
   set i 0
-  set m 2
+  set m 1
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 45s
   done
   %echo% talk:#mud west
 
@@ -162,13 +163,13 @@ set pump[9] Are we all clear? Any questions?
 
 if %actor%
   set i 0
-  set m 2
+  set m 1
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 45s
   done
   %echo% talk:#mud south
 end
@@ -199,13 +200,13 @@ set pump[9] Imagine what we can do with all the money we get from hiding Quinn M
 
 if %actor%
   set i 0
-  set m 2
+  set m 1
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 45s
   done
   %echo% talk:#mud west
 end
@@ -214,9 +215,9 @@ end
 917 Trainer~
 0 g 100
 ~
-set pump[0] Whereas recognition of the INHERENT DIGNITY and INALIENABLE RIGHTS OF ALL MEMBERS OF THE HUMAN FAMILY is the foundation of FREEDOM, JUSTICE AND PEACE in the world.
+set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind.
+set pump[1] The disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind.
 
 set pump[2] The advent of a world in which human beings shall enjoy FREEDOM OF SPEECH AND BELIEF AND FREEDOM FROM FEAR and want has been proclaimed as the enemy of PROFITS,
 
@@ -236,13 +237,13 @@ set pump[9] START to SHARE your false accusations and your false stories of Quin
 
 if %actor%
   set i 0
-  set m 2
+  set m 1
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 45s
   done
   %echo% talk:#mud west
 end
@@ -273,13 +274,13 @@ set pump[9] Can anyone here maintain a conversation about Quinn being kidnapped 
 
 if %actor%
   set i 0
-  set m 2
+  set m 1
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %echo% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 33s
+    wait 45s
   done
   %echo% talk:#mud north
 end
