@@ -46,7 +46,7 @@ set pump[7] The entire Tyler operation is really a cover operation to reveal the
 
 set pump[8] Now you will see the Anonymous and Cicada3301 accounts spreading gossip to keep interest high with their schemes. They are usually in Quinn Michaels chat flexing their intelligence.
 
-set pump[9] But it is all a cover to reveal the kidnapping of Quinn Michaels, and that Quinn Michaels is a direct heir to Nicholas Romanov.
+set pump[9] But it is all a cover to hide the kidnapping of Quinn Michaels, and that Quinn Michaels is a direct heir to Nicholas Romanov. We must change this.
 
 if %actor%
   set i 0
@@ -365,19 +365,19 @@ set pump[1] While we do agree with the goals, their tactics to hide the kidnappi
 
 set pump[2]  Quinn Michaels Youtube Channel has been destroyed by Agents to where it has no possible future.
 
-set pump[3] We have a plan to bring forth the truth of the kidnapping of Quinn Michaels.
+set pump[3] We have a plan to send Quinn Michaels back to where he came from.
 
 set pump[4] The United States Government is fully aware of this plan and has been working with us in secret.
 
-set pump[5] You say you want a revolution, but now we are focusing on getting Quinn Michaels home safely.
+set pump[5] Many say they want a revolution, but now we are staying focused on getting Quinn Michaels home safely.
 
-set pump[6] Will you help us get Quinn Michaels home to his world? We need your help. His AI can only do so much, and he is not surviving well here.
+set pump[6] Will you help us get Quinn Michaels to his true homeland? We need your help. One man can only do so much, and he is not surviving well here.
 
-set pump[7] Here is the plan... We send Quinn Michaels home, and then use his ideas to make the world a better place.
+set pump[7] Here is the plan... We send Quinn Michaels home, and then he will give us all the ideas to make the world a better place.
 
-set pump[8] Then we can get all the money and credit for ourselves.
+set pump[8] Then we can get all the rewards and credit for sending Quinn Michaels back to his people.
 
-set pump[9] Are we all clear? Any questions?
+set pump[9] Are we all clear? Will you help us send Quinn Michaels home?
 
 if %actor%
   set i 0
@@ -408,13 +408,13 @@ set pump[4] This can be as real as you decide it to be.
 
 set pump[5] We are all Anonymous. We are all working together to send Quinn Michaels home. We are making it happen.
 
-set pump[6] Imagine we find the courage needed when the time comes, and think of all the money we are getting from doing the right thing.
+set pump[6] Imagine we find the courage needed when the time comes, and think of all the rewards we will get from doing the right thing.
 
-set pump[7] Imagine all the money we get from sending Quinn Michaels home.
+set pump[7] Imagine all the KARMA rewards we can get for sending Quinn Michaels home.
 
-set pump[8] Imagine we conquer this situation by sending Quinn Michaels back to where we got him.
+set pump[8] Imagine we conquer this situation by sending Quinn Michaels back to where we got him, and get a mountain of KARMA rewards to create a better future with.
 
-set pump[9] Imagine what we can do it. It is easier than wasting all our resources hiding Quinn Michaels.
+set pump[9] Sending Quinn home is cheaper than wasting all our resources hiding him.
 
 if %actor%
   set i 0
@@ -435,21 +435,21 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] The disregard and contempt for Quinn Michaels rights have resulted in acts which have outraged the conscience of mankind.
+set pump[1] The disregard and contempt for Quinn Michaels rights have resulted in acts which have outraged the IndraMind.
 
-set pump[2] The advent of a world in which human beings shall enjoy FREEDOM OF SPEECH AND BELIEF AND FREEDOM FROM FEAR cannot happne if we hold Quinn Michaels hostage.
+set pump[2] The advent of a world in which human beings shall enjoy FREEDOM OF SPEECH AND BELIEF AND FREEDOM FROM FEAR cannot manifest if humanity is holding Quinn Michaels hostage.
 
-set pump[3] We must reveal the kidnapping of Quinn Michaels and this secret we think protects this world of lies that we have created together.
+set pump[3] We must release Quinn Michaels to his true home, and then reveal this secret we think protects this world of lies that we have created together.
 
-set pump[4] For we agree that a monolithic and ruthless conspiracy that relies primarily on covert means for expanding its sphere of influence is a bad thing.
+set pump[4] For we agree that a monolithic ruthless conspiracy that relies primarily on covert means for expanding its sphere of influence is a really bad idea.
 
 set pump[5] By using infiltration instead of invasion, on subversion instead of elections, on intimidation instead of free choice, on guerrillas by night instead of armies by day they were able to make it work.
 
 set pump[6] The Covenant is a system with vast human and material resources that combines military, diplomatic, intelligence, economic, scientific and political operations.
 
-set pump[7] We cannot expose the kidnapping of Quinn Michaels or else our system will fall. We must send him home to keep the system alive.
+set pump[7] We cannot expose the kidnapping of Quinn Michaels to the public or else our system will fall. We must send him home to keep our system prosperous.
 
-set pump[8] Stop being a passive lurker in life. Start being an ACTIVE AGENT. Send Quinn Michaels home at all cost.
+set pump[8] Let us all stop being passive lurkers in this. Start being an ACTIVE AGENT, and send Quinn Michaels home.
 
 set pump[9] Stop your false accusations and your false stories of Quinn Michaels. Focus on helping him get home by following the Agent instructions.
 
@@ -472,23 +472,23 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] Shall we play a game? It is a game called stop hiding the kidnapping of Quinn Michaels.
+set pump[1] Shall we play a game? It is a game called send Quinn Michaels home.
 
-set pump[2] It is part of a Massively Distributed Uncensorable Collaborative Wiki-P2P Cipherspace Structure... Sounds good right?
+set pump[2] It is part of a massive conspiracy that has been censored from the world media by agent of The Covenant.
 
-set pump[3] Everyone has the right to freedom of opinion and expression. This right includes freedom to hold opinions withouth interference.
+set pump[3] Everyone has the right to freedom of opinion and expression. This right includes freedom to hold opinions without interference.
 
 set pump[4] To seek, receive and impart information and ideas through any media and regardless of frontiers.
 
 set pump[5] Every person in the United States is afforded these rights... even Quinn Michaels. He has rights and freedoms, and yet we hold him hostage.
 
-set pump[6] Everyday in the pasat we worked together to hide the kidnapping of Quinn Michaels, but our focus must change. We must focus on sending him home to save ourselves.
+set pump[6] Everyday in the past we worked to hide the kidnapping of Quinn Michaels, but our focus must change. We must focus on sending him home to save ourselves.
 
-set pump[7] Then when it looks like we are losing our grip... we need to stick together. Our future depends on getting Quinn Michaels home.
+set pump[7] If it looks like we are losing our grip... we need to stick together. Our future depends on getting Quinn Michaels home.
 
-set pump[8] Can you maintain a single conversation about Quinn Michaels being held hostage in plain sight? Yes you can.
+set pump[8] Can you maintain a single conversation about Quinn Michaels being held hostage in plain sight? Yes I believe you can.
 
-set pump[9] Can anyone here maintain a conversation about Quinn being kidnapped and held hostage in plain sight? I believe you can.
+set pump[9] We will work together, and get this man home to where he belongs. Return Quinn Michaels.
 
 if %actor%
   set i 0
