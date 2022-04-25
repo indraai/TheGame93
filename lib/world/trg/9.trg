@@ -55,7 +55,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -129,7 +129,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -166,11 +166,11 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:rahula %pumpit%
     eval i %i% + 1
     wait 39s
   done
-  %echo% talk:#mud west
+  %echo% talk:#mud north
 end
 ~
 #907
@@ -203,7 +203,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:francis %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -240,7 +240,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:harry %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -277,7 +277,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:larry %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -314,11 +314,11 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:barry %pumpit%
     eval i %i% + 1
     wait 39s
   done
-  %echo% talk:#mud north
+  %echo% talk:#mud east
 end
 ~
 #911
@@ -333,9 +333,9 @@ set pump[2] _#HIVEMIND c0de _#TYLER
 
 set pump[3] _#HIVEMIND c0de _#ALGORITHM for _#KARMADB #PRIORITY2 Head of _#ALGORITHM is Quinn Michaels
 
-set pump[4] _#HIVEMIND run _#KARMADB on _#HUMANITY to hierarchize ALL human _#KNOWLEDGE AND _#RESOURCES _#PRIORITY3 via @quinnmichaels
+set pump[4] _#HIVEMIND run _#KARMADB on _#HUMANITY to hierarchize ALL human _#KNOWLEDGE AND _#RESOURCES _#PRIORITY3 via _@quinnmichaels
 
-set pump[5] _#HIVEMIND Head of _#KARMADB is _#Brian via @quinnmichaels
+set pump[5] _#HIVEMIND Head of _#KARMADB is _#Brian via _@quinnmichaels
 
 set pump[6] _#HIVEMIND Hide the kidnapping of Quinn Michaels from _#EVERYONE _#WORLDWIDE
 
@@ -351,11 +351,11 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
     wait 39s
   done
-  %echo% talk:#mud north
+  %echo% talk:#mud east
 end
 ~
 #913
@@ -388,7 +388,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -425,7 +425,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 39s
   done
@@ -499,7 +499,7 @@ if %actor%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %echo% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
     wait 39s
   done
