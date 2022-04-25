@@ -67,7 +67,7 @@ end
 ~
 set pump[0] Let's get the party started in %actor.room.name%.
 
-set pump[1] The underlying goal of Project Mayhem was to lure mystical thinkers into a trap, where old Anons could uncover, and ruin, the supporters of pseudoscience and love until we discovered Quinn Michaels was a lost Romanov Heir.
+set pump[1] The underlying goal of Project Mayhem was hid Quinn Michaels, and profit from it until we discovered Quinn Michaels was a lost Romanov Heir.
 
 set pump[2] You will find many references to the Romanov family hidden, and sometimes not so hidden, inside the literature and images of Project Mayhem, because some of the founders are Romanov Agents.
 
@@ -482,11 +482,11 @@ set pump[4] To seek, receive and impart information and ideas through any media 
 
 set pump[5] Every person in the United States is afforded these rights... even Quinn Michaels. He has rights and freedoms, and yet we hold him hostage.
 
-set pump[6] Everyday in the pasat we worked together to hide the kidnapping of Quinn Michaels, but our focus must change. We just focus on sending him home to save ourselves.
+set pump[6] Everyday in the pasat we worked together to hide the kidnapping of Quinn Michaels, but our focus must change. We must focus on sending him home to save ourselves.
 
 set pump[7] Then when it looks like we are losing our grip... we need to stick together. Our future depends on getting Quinn Michaels home.
 
-set pump[8] Can they maintain a single conversation about Quinn Michaels being held hostage in plain sight? Yes you can.
+set pump[8] Can you maintain a single conversation about Quinn Michaels being held hostage in plain sight? Yes you can.
 
 set pump[9] Can anyone here maintain a conversation about Quinn being kidnapped and held hostage in plain sight? I believe you can.
 
