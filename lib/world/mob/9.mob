@@ -192,7 +192,7 @@ talk:#adv agent:thegame 913/main:look~
 8 8 0 0
 BareHandAttack: 4
 E
-T 900
+T 913
 #914
 trainer training agent 914 code tyler~
 Code Tyler~
@@ -203,7 +203,7 @@ talk:#adv agent:thegame 914/main:look~
 30 900
 8 8 0 0
 E
-T 900
+T 914
 #915
 trainer training agent 915 fbi~
 FBI Trainer 915~
@@ -248,6 +248,7 @@ talk:#adv agent:thegame 917/main:look~
 0 0
 8 8 0 1
 E
+T 917
 #918
 trainer training agent 918 tyler mayhem~
 Tyler Mayhem~
