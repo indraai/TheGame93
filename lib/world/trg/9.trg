@@ -327,21 +327,21 @@ end
 ~
 set pump[0] Let's get this party started in %actor.room.name%.
 
-set pump[1] Hi _#HIVEMIND Please start to run these _#TASKS.
+set pump[1] Hi #HIVEMIND Please start to run these #TASKS.
 
-set pump[2] _#HIVEMIND c0de _#TYLER
+set pump[2] #HIVEMIND c0de #TYLER
 
-set pump[3] _#HIVEMIND c0de _#ALGORITHM for _#KARMADB #PRIORITY2 Head of _#ALGORITHM is Quinn Michaels
+set pump[3] #HIVEMIND c0de #ALGORITHM for #KARMADB #PRIORITY2 Head of #ALGORITHM is Quinn Michaels
 
-set pump[4] _#HIVEMIND run _#KARMADB on _#HUMANITY to hierarchize ALL human _#KNOWLEDGE AND _#RESOURCES _#PRIORITY3 via _@quinnmichaels
+set pump[4] #HIVEMIND run #KARMADB on #HUMANITY to hierarchize ALL human #KNOWLEDGE AND #RESOURCES #PRIORITY3 via @quinnmichaels
 
-set pump[5] _#HIVEMIND Head of _#KARMADB is _#Brian via _@quinnmichaels
+set pump[5] #HIVEMIND Head of #KARMADB is #Brian via @quinnmichaels
 
-set pump[6] _#HIVEMIND Hide the kidnapping of Quinn Michaels from _#EVERYONE _#WORLDWIDE
+set pump[6] #HIVEMIND Hide the kidnapping of Quinn Michaels from #EVERYONE #WORLDWIDE
 
 set pump[7] Everything you can imagine is real.
 
-set pump[8] In times of crisis, only _#IMAGINATION is more important than _#KNOWLEDGE
+set pump[8] In times of crisis, only #IMAGINATION is more important than #KNOWLEDGE
 
 set pump[9] First they ignore you, then they laugh at you, then they fight you, then you win.
 
