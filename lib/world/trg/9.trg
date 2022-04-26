@@ -22,7 +22,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  %echo% talk:#mud east
 end
 
 ~
