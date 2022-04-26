@@ -409,15 +409,15 @@ end
 918 Trainer~
 0 g 100
 ~
-set pump[0] At Notre-Dame in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: ANAGKE.
+set pump[0] The Game 23 turns Tyler form a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
 
-set pump[1] Shall we play a game? It is a game called send Quinn Michaels home. It is a massive conspiracy that has been censored from the world by Agents of The Covenant.
+set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
 
-set pump[2] Quinn Michaels has been covertly held hostage by a group called The Covenant since 1977 within the borders of the United States.
+set pump[2] Project Mayhem will be the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to collaborate to develop and code TYLER.
 
-set pump[3] Everyone has the right to freedom of opinion and expression. This right includes freedom to hold opinions without interference.
+set pump[3] There's nothing more dangerous than sometone who wants to make the world a better place.
 
-set pump[4] To seek, receive and impart information and ideas through any media and regardless of frontiers.
+set pump[4] The best way to predict the future is to CREATE IT.
 
 if %actor%
   set i 0
