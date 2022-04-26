@@ -230,7 +230,7 @@ set pump[4] Due to this massive conspiracy around the kidnapping of Quinn Michae
 
 if %actor%
   set i 0
-  set m 10
+  set m 5
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
