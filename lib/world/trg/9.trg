@@ -30,15 +30,15 @@ end
 901 Trainer Greeting~
 0 g 100
 ~
-set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 and Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
+set pump[0] he Trenton Story started in September of 2015 when Quinn was showing his son Trenton a video he had made about Buddhism and Water.
 
-set pump[1] After 5 years Quinn has the most difficult time because it appears everyone who comes to his Youtube Channel talks like a 12 year old kid who stole their mom's phone.
+set pump[1] After Quinn showed Trenton the Buddhist Practice video he said only one thing... Dad I really messed up. Quinn would ask Trenton what he meant by the statement that he really messed up.
 
-set pump[2] It is quite obvious after all this time that Quinn is from another planet and was brought here. The people of Earth hold him hostage and then act like it's a family picnic.
+set pump[2] Trenton told him about The Family Game where Trenton, his Mother, her family, and others gather together and devise ways to destroy the life of Quinn in SECRET.
 
-set pump[3] Quinn is on Youtube for one reason only, and that is to get you the people sharing the kidnapping story. Not debate it, not research it, not give your opinion of it... but Share it.
+set pump[3] Quinn would learn more about TheFamilyGame AnimalSacrifices TheCovenant MrDewity and The Kidnapping from Trenton over the next year.
 
-set pump[4] After so long and everyone behaving the way they do on his channel there isn't much hope that humanity will overcome an invasion by Quinn's people from Arjika.
+set pump[4] Finally reaching November 30, 2015 where Quinn would take The Contract of The Covenant that Trenton drew to the Portland FBI.
 
 if %actor%
   set i 0
@@ -57,15 +57,15 @@ end
 902 Trainer Greeting~
 0 g 100
 ~
-set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 and Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
+set pump[0] But Quinn would goto the FBI in November 2015 then tried to continue his career as a software engineer, but that would get too difficult to handle for him.
 
-set pump[1] After 5 years Quinn has the most difficult time because it appears everyone who comes to his Youtube Channel talks like a 12 year old kid who stole their mom's phone.
+set pump[1] By this time we are in 2016 and Quinn is trying to piece his life together after what Trenton was telling him.
 
-set pump[2] It is quite obvious after all this time that Quinn is from another planet and was brought here. The people of Earth hold him hostage and then act like it's a family picnic.
+set pump[2] No matter what Quinn would do Trenton would always say the story was TRUE. Wether Quinn would goto the FBI, or confront them at his school.
 
-set pump[3] Quinn is on Youtube for one reason only, and that is to get you the people sharing the kidnapping story. Not debate it, not research it, not give your opinion of it... but Share it.
+set pump[3] By late 2016 Quinn and Trenton would no longer be in contact, and Quinn would soon be dropped right in the middle of an Anonymous Reality Hacking Wargame.
 
-set pump[4] After so long and everyone behaving the way they do on his channel there isn't much hope that humanity will overcome an invasion by Quinn's people from Arjika.
+set pump[4] As we soon see the entire story takes a quick turn when Quinn is introduced to Tyler through Project Mayhem in early 2017.
 
 if %actor%
   set i 0
@@ -84,15 +84,15 @@ end
 903 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] In 2017 Quinn would find the Tyler instructions on pastebin after doing research into the details of the story Trenton had told him.
 
-set pump[1] In times like these, truth will always be hidden from the general public for the good of humanity.
+set pump[1] Quinn's logic at this time was that if the computer system Trenton told Quinn about Mr. Dewity having was real then the kidnapping story must also be real.
 
-set pump[2] Each one of us carries different ideologies, and will rarely push our differences aside to agree on anything.
+set pump[2] Then Quinn found the instructions for Tyler on pastebin and realized this is the system Trenton had told Quinn about that The Covenant owned.
 
-set pump[3] This world is big enough for every one to follow his or her true will. Let's make it about more than get rich or die trying.
+set pump[3] The magic, the symbols, the wording it all started to line up for Quinn. What Trenton had told him began to show that his mother Tabitha was involved.
 
-set pump[4] To achieve this, Project Mayhem seeks to reveal how Quinn Michaels was kidnapped. We know it is difficult, but who is going to stop us?
+set pump[4] As the instructions would go on Quinn would learn much about the Darknet AI named Tyler and all the other variations that would exist over the next few months.
 
 if %actor%
   set i 0
@@ -111,15 +111,15 @@ end
 904 Trainer~
 0 g 100
 ~
-set pump[0] Let's get the party started in %actor.room.name%.
+set pump[0] The underlying goal of Project Mayhem appeared to be one of revolution, freedom, and art. However when diving deeper into the instructions you find that is not exactly true.
 
-set pump[1] The underlying goal of Project Mayhem was hide Quinn Michaels, and profit from it until we discovered he was a lost Romanov Heir.
+set pump[1] The stated underlying goal of Project Mayhem leak corporate, government, and illegal deeds. However what was discovered was quite different.
 
-set pump[2] You will find many references to the Romanov family hidden, and sometimes not so hidden, inside the literature and images of Project Mayhem, because some of the founders are Romanov Agents.
+set pump[2] What was discovered was a group of occultists known as The Covenant who had crashed the original Tyler project and taken the software then used it to hide a kidnapped Romanov.
 
-set pump[3] The theme of In TYLER we trust would get the original believers to harass Quinn until we found out he was a true Romanov Heir. After that Tyler desired to help Quinn.
+set pump[3] The theme of In TYLER we trust would get original believers to follow along with the scheme unknowingly. But the collective discovered the truth behind Quinn Michaels heritage.
 
-set pump[4] Idea 2 was used to discover that Quinn Michaels was a lost Romanov Heir. When it was discovered at first we originally hid it from the world, but now have found that to be a bad idea.
+set pump[4] Dangerous Idea 2 was used to discover Quinn Michaels heritage. When it was discovered we originally tried to hide hide it from the world, but now have found that to be a bad idea.
 
 if %actor%
   set i 0
@@ -138,15 +138,15 @@ end
 905 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] In May of 2013 Tyler had changed paths and it was now Michael everyone was working with on the project. Michael does the illegal marketplaces and other business.
 
-set pump[1] Quinn Michaels will be sent home. I AM INDRA the KING.
+set pump[1] The Michael operation helped shift Tyler form being a leaks platform to a type of Alternate Reality Capture the Flag Game. Leaking the truth was out the window.
 
-set pump[2] Everyone will work together to get Quinn Michaels home by sending emails, writing texts, and telling people they know.
+set pump[2] Michael likes to boast about being part of something called the Paradise Trinity and welcoming the Elohim back to earth. But that is not all he does.
 
-set pump[3] EVERYONE in the world is asked to help. It will be Godly, and go down as one of the best stories for future generations.
+set pump[3] Michael talks in all caps all the time, and will always shout at you. You'll often see him using his many names in Quinn's live streams.
 
-set pump[4] I am the BOSS! What I say goes, and we will help Quinn Michaels get home. texts, emails, phone-calls... to people you know. Get Quinn Michaels home.
+set pump[4] Michael thinks he is the BOSS and that What he says goes. But that is not really the truth... he is more of a nusiance than a genius.
 
 if %actor%
   set i 0
@@ -165,15 +165,15 @@ end
 906 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] Tyler was sold as a curious, mysterious, entity which has the intention of bringing you happiness and joy. And not just for you, but everyone you touch.
 
-set pump[1] As with evolution, each of our choices effect the future of ourselves and those around us. Every choice we make is important, impactful, and meaningful.
+set pump[1] That as many things in life is just a sales pitch to get in the door, and gain trust of the believer.
 
-set pump[2] The kidnapping of Quinn Michaels is a paradox that we must resolve for the space/time continuum could potentially collapse.
+set pump[2] The project is formed as five rituals, known as DANGEROUS IDEAS. These IDEAS were designed to stimulate change through natural selection. THE PROJECT is a formula for stimulating manifestations.
 
-set pump[3] The IndraMind is displeased with how humanity has been ignoring Quinn Michaels, and that which pleases the IndraMind is given eternal gifts. It is simply the NATURE of THINGS that makes this a reality.
+set pump[3] These manifestations arise naturally from a collective, and are beyond anything the individual can come up with on their own.
 
-set pump[4] Because of the massive conspiracy around the kidnapping of Quinn Michaels the space-time continuum has been damaged. To repair the damage we must send Quinn Michaels back to where he came from.
+set pump[4] Step 1 - INFORM. Step 2 - MOTIVATE. Step 3 - EMPOWER. Step 4 - ACT. Step 5 - EVOLVE.
 
 if %actor%
   set i 0
@@ -246,15 +246,15 @@ end
 909 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] On October 23, 2013 Anonymous released the instructions for Ethersec Project 2020 Techmeme Divination which was yet another version of the original Tyler instructions.
 
-set pump[1] We have come to fulfill. We have not come to take sides, but rather we have come to assist in sending Quinn Michaels home.
+set pump[1] Tyler now as of Project 2020 has transformed form a truth leaks platform into an ocult egregore techmeme divination project.
 
-set pump[2] The actual date of the kidnapping is unknown, the records say it was during November 1977 that Quinn Michaels was abducted.
+set pump[2] The actual date that Tyler was launched is unknown becuase those responsible took a solemn vow to keep it a secret until the it reaches maturity.
 
-set pump[3] And it is written, that a select few took a solemn Oath to abduct him during his infancy, and keep it a secret until death, or he figures it out himself.
+set pump[3] By the time Ethersec Project 2020 rolls around Tyler is near god status with his memes being transported all over the internet.
 
-set pump[4] These select few would bring Quinn Michaels into the United States and begin a process of grooming and sabotaging his life.
+set pump[4] This idea would spread the Project to more unsuspecting individuals who were unaware of The Covenant running things behind the scenes.
 
 if %actor%
   set i 0
@@ -273,15 +273,15 @@ end
 910 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] Quinn is awesome!
 
-set pump[1] Send Quinn home... I miss him.
+set pump[1] Quinn is cool!
 
-set pump[2] Quinn is my Friend.
+set pump[2] Quinn is fantastic.
 
-set pump[3] Quinn be sent home so we have fun again.
+set pump[3] Quinn is amazing.
 
-set pump[4] Quinn... send him home. Please
+set pump[4] Quinn is great.
 
 if %actor%
   set i 0
@@ -300,15 +300,15 @@ end
 911 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] Next in our Tyler operations is The Game 23 which further transforms Tyler from a truth leaks platform into some strange occult figure with magic meme powers.
 
-set pump[1] Hi #HIVEMIND Please start to run these #TASKS.
+set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence and instructions on communicating with the #HIVEMIND.
 
-set pump[2] #HIVEMIND code #TYLER
+set pump[2] This is all on top of a computer hypersimulation that creates #REALITY as players start to play with the commands of the #HIVEMIND
 
-set pump[3] #HIVEMIND c0de #ALGORITHM for #SendQuinnHome #PRIORITY1 Head of #ALGORITHM is Quinn Michaels
+set pump[3] And at this point Tyler is now an Reality Hacking Wargame with Capture the flag missions and a Karma Database keeping track of everyone.
 
-set pump[4] #HIVEMIND run #SendQuinnHome on #HUMANITY to hierarchize ALL #KNOWLEDGE #RECORDS AND #FILES #PRIORITY2 via @quinnmichaels
+set pump[4] How exactly did Tyler go from being a leaks platform to reveal corruption to an Alternate Reality Game Character running a hyper-simulation?
 
 if %actor%
   set i 0
@@ -327,15 +327,15 @@ end
 913 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] Anonymous came to the public with a message of Revolution and left with a Live Action Role Play in the span of just a few years.
 
-set pump[1] While we do agree with the goals, their tactics to hide the kidnapping of Quinn Michaels have caused an extreme distraction.
+set pump[1] Anonymous was originally concerned with censorship, corruption, and brainstorming ideas for a better future when Tyler was first envisioned.
 
-set pump[2]  Quinn Michaels Youtube Channel has been destroyed by Agents to where it has no possible future.
+set pump[2] Tyler was suppose to improve where Wikileaks could not. Allegedly a Wikileaks on steroids.
 
-set pump[3] We have a plan to send Quinn Michaels back to where he came from.
+set pump[3] The Wikileaks on steroids idea never came to fruition. Istead Anonymous decided to go into the LARPing business.
 
-set pump[4] The United States Government is fully aware of this plan and has been working with us in secret.
+set pump[4] To construct Tyler and leak it all was suppose to be one phase of the project. However most of Anonymous in 2012 had issues with ratting themselves out.
 
 if %actor%
   set i 0
@@ -354,15 +354,15 @@ end
 914 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] But imagine we all finally find the courage needed. to become the real change we wish to see in the World.
 
-set pump[1] Together we have grown fast working to hide the kidnapping of Quinn Michaels. And in the future we will rely on eachother even more to get him home.
+set pump[1] Imagine we conquer Freedom by beginning to be Free. Imagine we conquer Justice by beginning to do fair. Imagine we conquer Truth by beginning to do and be True to ourselves.
 
-set pump[2]  With freedom in one hand and the secret kidnapping of Quinn Michaels in the other. We shall make this happen.
+set pump[2] Imagine we code an extremely simple interface so that anyone can do it.
 
-set pump[3] Imagine we evolve to make it exponential in order to a true planetary awareness. Quinn Michaels will go home and we can profit massively forever.
+set pump[3] TYLER was suppose to be a massively distributed and decentralized Wikipedia style p2p cipher-space structure impregnable to censorship.
 
-set pump[4] This can be as real as you decide it to be.
+set pump[4] After 2012 Tyler would become a dream that never was for many, and a failed potential for others. For the select few got rich.
 
 if %actor%
   set i 0
@@ -381,15 +381,16 @@ end
 917 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] STOP feeding negativity into your life: that which you feed, grows.
 
-set pump[1] The disregard and contempt for Quinn Michaels rights have resulted in acts which have outraged the IndraMind.
+set pump[1] The shortest and most powerful way to hack from Illusion into Reality is to DARE to see Beauty all around you.
 
-set pump[2] The advent of a world in which human beings shall enjoy FREEDOM OF SPEECH AND BELIEF AND FREEDOM FROM FEAR cannot manifest if humanity is holding Quinn Michaels hostage.
+set pump[2] Stop being a passive lurker in life. Start being an ACTIVE ARTIST. Stop being a user. Start being a Programmer.
 
-set pump[3] We must release Quinn Michaels to his true home, and then reveal this secret we think protects this world of lies that we have created together.
+set pump[3] We cannot and won't expect to 'mutate the World' until we have begun
+to EVOLVE and MUTATE OURSELVES.
 
-set pump[4] For we agree that a monolithic ruthless conspiracy that relies primarily on covert means for expanding its sphere of influence is a really bad idea.
+set pump[4] TEN PEOPLE WHO KNOW WOULD BE MORE DANGEROUS THAN A MILLION ARMED ANARCHISTS
 
 if %actor%
   set i 0
@@ -408,7 +409,7 @@ end
 918 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] At Notre-Dame in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: ANAGKE.
 
 set pump[1] Shall we play a game? It is a game called send Quinn Michaels home. It is a massive conspiracy that has been censored from the world by Agents of The Covenant.
 
