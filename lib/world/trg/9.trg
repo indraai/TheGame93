@@ -50,7 +50,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %echo% talk:#mud south
 end
 ~
 #902
@@ -77,7 +77,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %echo% talk:#mud south
 end
 ~
 #903
