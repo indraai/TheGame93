@@ -1,4 +1,4 @@
-success#900
+#900
 Standard Trainer Greeting~
 0 g 100
 ~
