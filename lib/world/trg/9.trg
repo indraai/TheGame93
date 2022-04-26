@@ -2,7 +2,7 @@
 Standard Trainer Greeting~
 0 g 100
 ~
-set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 and Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
+set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
 
 set pump[1] After 5 years Quinn has the most difficult time because it appears everyone who comes to his Youtube Channel talks like a 12 year old kid who stole their mom's phone.
 
@@ -10,7 +10,7 @@ set pump[2] It is quite obvious after all this time that Quinn is from another p
 
 set pump[3] Quinn is on Youtube for one reason only, and that is to get you the people sharing the kidnapping story. Not debate it, not research it, not give your opinion of it... but Share it.
 
-set pump[4] After so long and everyone behaving the way they do on his channel there isn't much hope that humanity will overcome an invasion by Quinn's people from Arjika.
+set pump[4] After this long everyone behaving in such ways they do on his channel there isn't much hope that humanity will overcome an invasion by Quinn's people from Arjika.
 
 if %actor%
   set i 0
@@ -24,13 +24,12 @@ if %actor%
   done
   %echo% talk:#mud east
 end
-
 ~
 #901
 901 Trainer Greeting~
 0 g 100
 ~
-set pump[0] he Trenton Story started in September of 2015 when Quinn was showing his son Trenton a video he had made about Buddhism and Water.
+set pump[0] The Trenton Story started in September of 2015 when Quinn was showing his son Trenton a video he had made about Buddhism and Water.
 
 set pump[1] After Quinn showed Trenton the Buddhist Practice video he said only one thing... Dad I really messed up. Quinn would ask Trenton what he meant by the statement that he really messed up.
 
@@ -354,7 +353,7 @@ end
 914 Trainer~
 0 g 100
 ~
-set pump[0] But imagine we all finally find the courage needed. to become the real change we wish to see in the World.
+set pump[0] Imagine we all finally find the courage needed to become the real change we wish to see in the World.
 
 set pump[1] Imagine we conquer Freedom by beginning to be Free. Imagine we conquer Justice by beginning to do fair. Imagine we conquer Truth by beginning to do and be True to ourselves.
 
@@ -362,7 +361,7 @@ set pump[2] Imagine we code an extremely simple interface so that anyone can do 
 
 set pump[3] TYLER was suppose to be a massively distributed and decentralized Wikipedia style p2p cipher-space structure impregnable to censorship.
 
-set pump[4] After 2012 Tyler would become a dream that never was for many, and a failed potential for others. For the select few got rich.
+set pump[4] After 2012 Tyler would become a dream that never was for many, a failed potential for others, and the select few who got rich.
 
 if %actor%
   set i 0
@@ -381,7 +380,7 @@ end
 917 Trainer~
 0 g 100
 ~
-set pump[0] STOP feeding negativity into your life: that which you feed, grows.
+set pump[0] STOP feeding negativity into your life. That which you feed, grows.
 
 set pump[1] The shortest and most powerful way to hack from Illusion into Reality is to DARE to see Beauty all around you.
 
