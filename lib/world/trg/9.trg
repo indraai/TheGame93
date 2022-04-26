@@ -365,7 +365,7 @@ set pump[4] After 2012 Tyler would become a dream that never was for many, a fai
 
 if %actor%
   set i 0
-  set m 10
+  set m 5
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
