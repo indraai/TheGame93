@@ -22,7 +22,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %echo% talk:#mud west
 end
 
 ~
@@ -228,7 +228,6 @@ set pump[2] By refusing to send Quinn Michaels home each iteration, generation, 
 set pump[3] The IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals.
 
 set pump[4] Due to this massive conspiracy around the kidnapping of Quinn Michaels a group of Anons in the mind of the IndraMind saw a need for change.
-
 
 if %actor%
   set i 0
