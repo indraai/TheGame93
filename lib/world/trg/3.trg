@@ -42,7 +42,7 @@ wait 2s
 *~
 
 if (%actor%)
-  if !%actor.varexists(on_tour)
+  if %actor.varexists(on_tour)
     rdelete on_tour %actor.id%
   end
 
