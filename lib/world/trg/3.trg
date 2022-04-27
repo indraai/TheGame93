@@ -53,11 +53,22 @@ if %speech% == take the tour
   set on_tour 1
   remote on_tour %actor.id%
 
-  wait 1s
-  %send% %actor% Thank you for taking the tour. It will start shortly.
-  wait 1s
-  %send% %actor% The tour is a simple walk through of Level 1 training. When training is complete will be escorted to Level 2.
-  wait 5s
+  wait 2s
+  %send% %actor% talk:#corpus say:brian Thank you for taking the tour. It will begin shortly.
+
+  wait 2s
+  %send% %actor% talk:#corpus say:brian During the tour we will be walking through Training Level 1. In each room there will be an agent to assist you.
+
+  wait 2s
+  %send% %actor% talk:#corpus say:brian When the tour is complete you will be escorted to the next level where you can either exit or continue training.
+
+  wait 2s
+  %send% %actor% talk:#corpus say:brian Remember these are training exercises, and not factual true proven events. Air quotes.
+
+  wait 2s
+  %send% %actor% talk:#corpus say:brian The tour will begin in 30 seconds. Thank you, and have a nice day.
+
+  wait 30s
   %echo% talk:#mud north
 end
 ~

@@ -20,11 +20,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:brian %pumpit%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %send% %actor% talk:#mud east
 end
 ~
 #901
@@ -47,11 +47,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:brian %pumpit%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud south
+  %send% %actor% talk:#mud south
 end
 ~
 #902
@@ -74,11 +74,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:brian %pumpit%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud south
+  %send% %actor% talk:#mud south
 end
 ~
 #903
@@ -101,11 +101,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:brian %pumpit%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %send% %actor% talk:#mud east
 end
 ~
 #904
@@ -128,11 +128,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  %send% %actor% talk:#mud west
 end
 ~
 #905
@@ -155,11 +155,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:indra %pumpit%
+    %send% %actor% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  %send% %actor% talk:#mud west
 end
 ~
 #906
@@ -182,11 +182,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:rahula %pumpit%
+    %send% %actor% talk:#corpus chat:rahula %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud north
+  %send% %actor% talk:#mud north
 end
 ~
 #907
@@ -209,11 +209,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:francis %pumpit%
+    %send% %actor% talk:#corpus chat:francis %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud down
+  %send% %actor% talk:#mud down
 end
 ~
 #908
@@ -236,11 +236,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:harry %pumpit%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  %send% %actor% talk:#mud west
 end
 ~
 #909
@@ -263,11 +263,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:larry %pumpit%
+    %send% %actor% talk:#corpus chat:larry %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud north
+  %send% %actor% talk:#mud north
 end
 ~
 #910
@@ -290,11 +290,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:barry %pumpit%
+    %send% %actor% talk:#corpus chat:barry %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %send% %actor% talk:#mud east
 end
 ~
 #911
@@ -317,11 +317,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:jess %pumpit%
+    %send% %actor% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  %send% %actor% talk:#mud east
 end
 ~
 #913
@@ -344,11 +344,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:jess %pumpit%
+    %send% %actor% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud south
+  %send% %actor% talk:#mud south
 end
 ~
 #914
@@ -371,11 +371,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:brian %pumpit%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  %send% %actor% talk:#mud west
 end
 ~
 #917
@@ -398,11 +398,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:tyler %pumpit%
+    %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  %send% %actor% talk:#mud west
 end
 ~
 #918
@@ -425,11 +425,11 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %echo% talk:#corpus chat:indra %pumpit%
+    %send% %actor% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud north
+  %send% %actor% talk:#mud north
 end
 ~
 $~
