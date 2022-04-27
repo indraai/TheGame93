@@ -2,17 +2,17 @@
 Standard Trainer Greeting~
 0 g 100
 ~
-set pump[0] Welcome to %room.name% it is a pleasure to have you here today. Today's training covers the year 2015 and the introduction to The Covenant.
+set pump[0] Welcome to %actor.room.name% it is a pleasure to have you here today. Today's training covers the year 2015 and the introduction to The Covenant.
 
-In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
+In 2015 Quinn Michaels learned about The Covenant from his son Trenton after making him a video about Buddhism and water.
 
-set pump[1] After 5 years it appears everyone who comes to Quinn's Youtube Channel talks like a 12 year old kid who stole their mom's phone.
+set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built is how Multi-Agent system during this time.
 
-set pump[2] It is quite obvious after all this time that Quinn is from another planet and was brought here. The people of Earth hold him hostage and then act like it's a family picnic.
+set pump[2] To put together all the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure it all out the truth.
 
-set pump[3] Quinn is on Youtube for one reason only, and that is to get you the people sharing the kidnapping story. Not debate it, not research it, not give your opinion of it... but Share it.
+set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
 
-set pump[4] After this long everyone behaving in such ways they do on his channel there isn't much hope that humanity will overcome an invasion by Quinn's people from Arjika.
+set pump[4] Remember a big reason we are here is because Trenton told Quinn that Mr. Dewity had a computer system that could take pictures of the future, and intercept communications.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -22,7 +22,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud east
 end
@@ -49,7 +49,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud south
 end
@@ -76,7 +76,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud south
 end
@@ -103,7 +103,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud east
 end
@@ -130,7 +130,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud west
 end
@@ -157,7 +157,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud west
 end
@@ -184,7 +184,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:rahula %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud north
 end
@@ -211,7 +211,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:francis %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud down
 end
@@ -238,7 +238,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud west
 end
@@ -265,7 +265,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:larry %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud north
 end
@@ -292,7 +292,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:barry %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud east
 end
@@ -319,7 +319,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud east
 end
@@ -346,7 +346,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud south
 end
@@ -373,7 +373,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud west
 end
@@ -400,7 +400,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud west
 end
@@ -427,7 +427,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:indra %pumpit%
     eval i %i% + 1
-    wait 27s
+    wait 33s
   done
   %send% %actor% talk:#mud north
 end
