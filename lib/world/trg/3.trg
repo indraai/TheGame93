@@ -36,4 +36,10 @@ indra.rocks ship boarding procedure~
 wait 2s
 %echo% indra.rocks ship boarding procedure.
 ~
+#386
+386 Tour~
+2 d 100
+~
+%echo% This trigger commandlist is not complete!
+~
 $~
