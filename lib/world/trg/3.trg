@@ -42,17 +42,20 @@ wait 2s
 ~
 
 if (%actor%)
-  if !(%actor.varexists(on_tour))
+  if !%actor.varexists(on_tour)
     vdelete on_tour %actor.id%
   end
 
-  if (%speech.contains(take the tour)%)
-    wait 1s
-    %echo% %actor.name% has chosen to go on the training tour.
+  if %speech% == take the tour
     set on_tour 1
     remote on_tour %actor.id%
+
+    wait 1s
+    %send% %actor% Thank you for taking the tour. It will start shortly.
+    wait 1s
+    %send% %actor% The tour is a simple walk through of Level 1 training. When training is complete will be escorted to Level 2.
     wait 5s
-    %force% %actor north
+    %force% %actor% north
   end
 end
 ~
