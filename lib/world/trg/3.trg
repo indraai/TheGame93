@@ -36,20 +36,23 @@ indra.rocks ship boarding procedure~
 wait 2s
 %echo% indra.rocks ship boarding procedure.
 ~
+#385
+clear on_tour variable~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #386
 386 Tour~
 2 d 100
 *~
-
 if (%actor%)
   if %actor.varexists(on_tour)%
     rdelete on_tour %actor.id%
   end
-
   if %speech% == take the tour
     set on_tour 1
     remote on_tour %actor.id%
-
     wait 1s
     %send% %actor% Thank you for taking the tour. It will start shortly.
     wait 1s
