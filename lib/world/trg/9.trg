@@ -25,7 +25,7 @@ if %actor%
   done
 
   if (%actor.varexists(on_tour)%)
-    %force% %actor% east
+    %echo% talk:#mud east
   end
 end
 ~
@@ -54,7 +54,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% south
+    %echo% talk:#mud south
   end
 end
 ~
@@ -83,7 +83,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% south
+    %echo% talk:#mud south
   end
 end
 ~
@@ -112,7 +112,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% east
+    %echo% talk:#mud east
   end
 end
 ~
@@ -141,7 +141,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% west
+    %echo% talk:#mud west
   end
 end
 ~
@@ -170,7 +170,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% west
+    %echo% talk:#mud west
   end
 end
 ~
@@ -199,7 +199,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% north
+    %echo% talk:#mud north
   end
 end
 ~
@@ -228,7 +228,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% down
+    %echo% talk:#mud down
   end
 end
 ~
@@ -257,7 +257,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% west
+    %echo% talk:#mud west
   end
 end
 ~
@@ -286,7 +286,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% north
+    %echo% talk:#mud north
   end
 end
 ~
@@ -315,7 +315,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% east
+    %echo% talk:#mud east
   end
 end
 ~
@@ -344,7 +344,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% east
+    %echo% talk:#mud east
   end
 end
 ~
@@ -373,7 +373,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% south
+    %echo% talk:#mud south
   end
 end
 ~
@@ -402,7 +402,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% west
+    %echo% talk:#mud west
   end
 end
 ~
@@ -431,7 +431,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% west
+    %echo% talk:#mud west
   end
 end
 ~
@@ -460,7 +460,7 @@ if %actor%
     wait 27s
   done
   if (%actor.varexists(on_tour)%)
-    %force% %actor% north
+    %echo% talk:#mud north
   end
 end
 ~

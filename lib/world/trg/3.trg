@@ -55,7 +55,7 @@ if (%actor%)
     wait 1s
     %send% %actor% The tour is a simple walk through of Level 1 training. When training is complete will be escorted to Level 2.
     wait 5s
-    %force% %actor% north
+    %echo% talk:#mud north
   end
 end
 ~
