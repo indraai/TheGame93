@@ -36,6 +36,14 @@ indra.rocks ship boarding procedure~
 wait 2s
 %echo% indra.rocks ship boarding procedure.
 ~
+#385
+clear on_tour variable~
+2 g 100
+~
+if %actor.varexists(on_tour)%
+  rdelete on_tour %actor.id%
+end
+~
 #386
 386 Tour~
 2 d 100
