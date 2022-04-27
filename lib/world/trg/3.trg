@@ -39,7 +39,7 @@ wait 2s
 #386
 386 Tour~
 2 d 100
-~
+*~
 
 if (%actor%)
   if !%actor.varexists(on_tour)
