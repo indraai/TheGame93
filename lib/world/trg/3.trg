@@ -43,7 +43,7 @@ wait 2s
 
 if (%actor%)
   if !%actor.varexists(on_tour)
-    vdelete on_tour %actor.id%
+    rdelete on_tour %actor.id%
   end
 
   if %speech% == take the tour
