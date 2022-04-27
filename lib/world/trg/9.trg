@@ -2,8 +2,6 @@
 Standard Trainer Greeting~
 0 g 100
 ~
-
-
 set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
 
 set pump[1] After 5 years Quinn has the most difficult time because it appears everyone who comes to his Youtube Channel talks like a 12 year old kid who stole their mom's phone.
@@ -27,8 +25,7 @@ if %actor%
   done
 
   if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud east
-
+    %force% %actor% east
   end
 end
 ~
@@ -56,7 +53,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud south
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% south
+  end
 end
 ~
 #902
@@ -83,7 +82,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud south
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% south
+  end
 end
 ~
 #903
@@ -110,7 +111,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% east
+  end
 end
 ~
 #904
@@ -137,7 +140,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% west
+  end
 end
 ~
 #905
@@ -164,7 +169,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% west
+  end
 end
 ~
 #906
@@ -191,7 +198,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud north
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% north
+  end
 end
 ~
 #907
@@ -218,7 +227,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud down
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% down
+  end
 end
 ~
 #908
@@ -245,7 +256,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% west
+  end
 end
 ~
 #909
@@ -272,7 +285,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud north
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% north
+  end
 end
 ~
 #910
@@ -299,7 +314,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% east
+  end
 end
 ~
 #911
@@ -326,7 +343,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% east
+  end
 end
 ~
 #913
@@ -353,7 +372,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud south
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% south
+  end
 end
 ~
 #914
@@ -380,7 +401,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% west
+  end
 end
 ~
 #917
@@ -407,7 +430,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud west
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% west
+  end
 end
 ~
 #918
@@ -434,7 +459,9 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud north
+  if (%actor.varexists(on_tour)%)
+    %force% %actor% north
+  end
 end
 ~
 $~

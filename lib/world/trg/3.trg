@@ -40,6 +40,16 @@ wait 2s
 386 Tour~
 2 d 100
 ~
-%echo% This trigger commandlist is not complete!
+
+if !(%actor.varexists(on_tour))
+  vdelete on_tour %actor.id%
+end
+
+if (%speech.contains(take the tour)%)
+  set on_tour 1
+  remote on_tour %actor.id%
+  wait 5s
+  %echo% talk:#mud north  
+end
 ~
 $~
