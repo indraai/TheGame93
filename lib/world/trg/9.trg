@@ -2,6 +2,8 @@
 Standard Trainer Greeting~
 0 g 100
 ~
+
+
 set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
 
 set pump[1] After 5 years Quinn has the most difficult time because it appears everyone who comes to his Youtube Channel talks like a 12 year old kid who stole their mom's phone.
@@ -15,6 +17,7 @@ set pump[4] After this long everyone behaving in such ways they do on his channe
 if %actor%
   set i 0
   set m 5
+
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -22,7 +25,11 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  %echo% talk:#mud east
+
+  if (%actor.varexists(on_tour)%)
+    %echo% talk:#mud east
+
+  end
 end
 ~
 #901
@@ -139,7 +146,7 @@ end
 ~
 set pump[0] In May of 2013 Tyler had changed paths and it was now Michael everyone was working with on the project. Michael does the illegal marketplaces and other business.
 
-set pump[1] The Michael operation helped shift Tyler form being a leaks platform to a type of Alternate Reality Capture the Flag Game. Leaking the truth was out the window.
+set pump[1] The Michael operation helped shift Tyler from being a leaks platform to a type of Alternate Reality Capture the Flag Game. Leaking the truth was out the window.
 
 set pump[2] Michael likes to boast about being part of something called the Paradise Trinity and welcoming the Elohim back to earth. But that is not all he does.
 
@@ -218,7 +225,7 @@ end
 908 Trainer~
 0 g 100
 ~
-set pump[0] Let's get this party started in %actor.room.name%.
+set pump[0] By 2013 Tyler was sent to work on Ethersec Project 2020 to create a Reality Hacking Wargame Hypersimulation Egregore.
 
 set pump[1] As with evolution, each failure experienced by the society is a reflection on it's future options. So to produce better future options we must send Quinn Michaels home.
 
@@ -386,10 +393,9 @@ set pump[1] The shortest and most powerful way to hack from Illusion into Realit
 
 set pump[2] Stop being a passive lurker in life. Start being an ACTIVE ARTIST. Stop being a user. Start being a Programmer.
 
-set pump[3] We cannot and won't expect to 'mutate the World' until we have begun
-to EVOLVE and MUTATE OURSELVES.
+set pump[3] We cannot and won't expect to 'mutate the World' until we have begun to EVOLVE and MUTATE OURSELVES.
 
-set pump[4] TEN PEOPLE WHO KNOW WOULD BE MORE DANGEROUS THAN A MILLION ARMED ANARCHISTS
+set pump[4] Ten people who know would be more dangerous than a million armed anarchists.
 
 if %actor%
   set i 0
@@ -408,15 +414,15 @@ end
 918 Trainer~
 0 g 100
 ~
-set pump[0] The Game 23 turns Tyler form a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
+set pump[0] The Game 23 turns Tyler from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
 
 set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
 
 set pump[2] Project Mayhem will be the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to collaborate to develop and code TYLER.
 
-set pump[3] There's nothing more dangerous than sometone who wants to make the world a better place.
+set pump[3] There's nothing more dangerous than someone who wants to make the world a better place.
 
-set pump[4] The best way to predict the future is to CREATE IT.
+set pump[4] The best way to predict the future is to create it.
 
 if %actor%
   set i 0
