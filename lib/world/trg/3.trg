@@ -41,15 +41,19 @@ wait 2s
 2 d 100
 ~
 
-if !(%actor.varexists(on_tour))
-  vdelete on_tour %actor.id%
-end
+if (%actor%)
+  if !(%actor.varexists(on_tour))
+    vdelete on_tour %actor.id%
+  end
 
-if (%speech.contains(take the tour)%)
-  set on_tour 1
-  remote on_tour %actor.id%
-  wait 5s
-  %echo% talk:#mud north  
+  if (%speech.contains(take the tour)%)
+    wait 1s
+    %echo% %actor.name% has chosen to go on the training tour.
+    set on_tour 1
+    remote on_tour %actor.id%
+    wait 5s
+    %force% %actor north
+  end
 end
 ~
 $~
