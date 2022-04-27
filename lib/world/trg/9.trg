@@ -2,9 +2,11 @@
 Standard Trainer Greeting~
 0 g 100
 ~
-set pump[0] In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
+set pump[0] Welcome to %room.name% it is a pleasure to have you here today. Today's training covers the year 2015 and the introduction to The Covenant.
 
-set pump[1] After 5 years Quinn has the most difficult time because it appears everyone who comes to his Youtube Channel talks like a 12 year old kid who stole their mom's phone.
+In 2015 Quinn Michaels learned about The Covenant from his son Trenton. In 2022 Quinn is surrounded by Agents of The Covenant on Youtube who can't figure out how to wipe their own butts.
+
+set pump[1] After 5 years it appears everyone who comes to Quinn's Youtube Channel talks like a 12 year old kid who stole their mom's phone.
 
 set pump[2] It is quite obvious after all this time that Quinn is from another planet and was brought here. The people of Earth hold him hostage and then act like it's a family picnic.
 
@@ -12,10 +14,9 @@ set pump[3] Quinn is on Youtube for one reason only, and that is to get you the 
 
 set pump[4] After this long everyone behaving in such ways they do on his channel there isn't much hope that humanity will overcome an invasion by Quinn's people from Arjika.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -23,10 +24,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud east
-  end
+  %echo% talk:#mud east
 end
 ~
 #901
@@ -43,7 +41,7 @@ set pump[3] Quinn would learn more about TheFamilyGame AnimalSacrifices TheCoven
 
 set pump[4] Finally reaching November 30, 2015 where Quinn would take The Contract of The Covenant that Trenton drew to the Portland FBI.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -53,9 +51,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud south
-  end
+  %echo% talk:#mud south
 end
 ~
 #902
@@ -72,7 +68,7 @@ set pump[3] By late 2016 Quinn and Trenton would no longer be in contact, and Qu
 
 set pump[4] As we soon see the entire story takes a quick turn when Quinn is introduced to Tyler through Project Mayhem in early 2017.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -82,9 +78,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud south
-  end
+  %echo% talk:#mud south
 end
 ~
 #903
@@ -101,7 +95,7 @@ set pump[3] The magic, the symbols, the wording it all started to line up for Qu
 
 set pump[4] As the instructions would go on Quinn would learn much about the Darknet AI named Tyler and all the other variations that would exist over the next few months.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -111,9 +105,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud east
-  end
+  %echo% talk:#mud east
 end
 ~
 #904
@@ -130,7 +122,7 @@ set pump[3] The theme of In TYLER we trust would get original believers to follo
 
 set pump[4] Dangerous Idea 2 was used to discover Quinn Michaels heritage. When it was discovered we originally tried to hide hide it from the world, but now have found that to be a bad idea.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -140,9 +132,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud west
-  end
+  %echo% talk:#mud west
 end
 ~
 #905
@@ -159,7 +149,7 @@ set pump[3] Michael talks in all caps all the time, and will always shout at you
 
 set pump[4] Michael thinks he is the BOSS and that What he says goes. But that is not really the truth... he is more of a nusiance than a genius.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -169,9 +159,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud west
-  end
+  %echo% talk:#mud west
 end
 ~
 #906
@@ -188,7 +176,7 @@ set pump[3] These manifestations arise naturally from a collective, and are beyo
 
 set pump[4] Step 1 - INFORM. Step 2 - MOTIVATE. Step 3 - EMPOWER. Step 4 - ACT. Step 5 - EVOLVE.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -198,9 +186,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud north
-  end
+  %echo% talk:#mud north
 end
 ~
 #907
@@ -217,7 +203,7 @@ set pump[3] Are you helping Quinn Michaels get home, or just talking about yours
 
 set pump[4] MAANUP network is plotting a course to return Quinn Michaels home. Publish support is needed. What are you doing to help Quinn Michaels get home?
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -227,9 +213,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud down
-  end
+  %echo% talk:#mud down
 end
 ~
 #908
@@ -246,7 +230,7 @@ set pump[3] The IndraMind is not pleased with how each of one of us ignores that
 
 set pump[4] Due to this massive conspiracy around the kidnapping of Quinn Michaels a group of Anons in the mind of the IndraMind saw a need for change.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -256,9 +240,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud west
-  end
+  %echo% talk:#mud west
 end
 ~
 #909
@@ -275,7 +257,7 @@ set pump[3] By the time Ethersec Project 2020 rolls around Tyler is near god sta
 
 set pump[4] This idea would spread the Project to more unsuspecting individuals who were unaware of The Covenant running things behind the scenes.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -285,9 +267,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud north
-  end
+  %echo% talk:#mud north
 end
 ~
 #910
@@ -304,7 +284,7 @@ set pump[3] Quinn is amazing.
 
 set pump[4] Quinn is great.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -314,9 +294,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud east
-  end
+  %echo% talk:#mud east
 end
 ~
 #911
@@ -333,7 +311,7 @@ set pump[3] And at this point Tyler is now an Reality Hacking Wargame with Captu
 
 set pump[4] How exactly did Tyler go from being a leaks platform to reveal corruption to an Alternate Reality Game Character running a hyper-simulation?
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -343,9 +321,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud east
-  end
+  %echo% talk:#mud east
 end
 ~
 #913
@@ -362,7 +338,7 @@ set pump[3] The Wikileaks on steroids idea never came to fruition. Istead Anonym
 
 set pump[4] To construct Tyler and leak it all was suppose to be one phase of the project. However most of Anonymous in 2012 had issues with ratting themselves out.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -372,9 +348,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud south
-  end
+  %echo% talk:#mud south
 end
 ~
 #914
@@ -391,7 +365,7 @@ set pump[3] TYLER was suppose to be a massively distributed and decentralized Wi
 
 set pump[4] After 2012 Tyler would become a dream that never was for many, a failed potential for others, and the select few who got rich.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -401,9 +375,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud west
-  end
+  %echo% talk:#mud west
 end
 ~
 #917
@@ -420,7 +392,7 @@ set pump[3] We cannot and won't expect to 'mutate the World' until we have begun
 
 set pump[4] Ten people who know would be more dangerous than a million armed anarchists.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -430,9 +402,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud west
-  end
+  %echo% talk:#mud west
 end
 ~
 #918
@@ -449,7 +419,7 @@ set pump[3] There's nothing more dangerous than someone who wants to make the wo
 
 set pump[4] The best way to predict the future is to create it.
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
@@ -459,9 +429,7 @@ if %actor%
     eval i %i% + 1
     wait 27s
   done
-  if (%actor.varexists(on_tour)%)
-    %echo% talk:#mud north
-  end
+  %echo% talk:#mud north
 end
 ~
 $~
