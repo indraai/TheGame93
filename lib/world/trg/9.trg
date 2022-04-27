@@ -116,9 +116,9 @@ set pump[0] The underlying goal of Project Mayhem appeared to be one of revoluti
 
 set pump[1] The stated underlying goal of Project Mayhem leak corporate, government, and illegal deeds. However what was discovered was quite different.
 
-set pump[2] What was discovered was a group of occultists known as The Covenant who had crashed the original Tyler project and taken the software then used it to hide a kidnapped Romanov.
+set pump[2] What if it what was discovered that a group of occultists known as The Covenant who had corrupted the Tyler project and taken the software then used it to hide a kidnapped Romanov.
 
-set pump[3] The theme of In TYLER we trust would get original believers to follow along with the scheme unknowingly. But the collective discovered the truth behind Quinn Michaels heritage.
+set pump[3] The theme of In TYLER we trust would get original believers to follow along with the scheme unknowingly. But the collective discovered the truth behind Quinn's 'heritage.
 
 set pump[4] Dangerous Idea 2 was used to discover Quinn Michaels heritage. When it was discovered we originally tried to hide hide it from the world, but now have found that to be a bad idea.
 
@@ -193,15 +193,15 @@ end
 907 Trainer~
 0 g 100
 ~
-set pump[0] Let's get the party started in %actor.room.name%.
+set pump[0] You made it to %actor.room.name% the last stop of Level 1 Training.
 
-set pump[1] What actions will you take to assist in returning Quinn Michaels to his rightful home?
+set pump[1] Through the training you have learned about The Contract, Tyler, Project Mayhem, Hacker Reality Wargames and so much more.
 
-set pump[2] What would a child do right now, and what would an adult do right now? Help Quinn get home.
+set pump[2] Do you feel as though you have learned something? If not maybe you should take the tour again.
 
-set pump[3] Are you helping Quinn Michaels get home, or just talking about yourself?
+set pump[3] In the end Quinn Michaels is pretty much trapped by these Tyler Anonymous Cicada3301 Reality Hackers who work for these Ladies in the background.
 
-set pump[4] MAANUP network is plotting a course to return Quinn Michaels home. Publish support is needed. What are you doing to help Quinn Michaels get home?
+set pump[4] MAANUP network is plotting a course to return Quinn Michaels home. What are you doing to help Quinn Michaels get home? Public support is needed.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -222,13 +222,13 @@ end
 ~
 set pump[0] By 2013 Tyler was sent to work on Ethersec Project 2020 to create a Reality Hacking Wargame Hypersimulation Egregore.
 
-set pump[1] As with evolution, each failure experienced by the society is a reflection on it's future options. So to produce better future options we must send Quinn Michaels home.
+set pump[1] As with evolution, each failure experienced by the society is a reflection on it's future options. To produce better future options we must make better decisions right now.
 
 set pump[2] By refusing to send Quinn Michaels home each iteration, generation, and resurrection has brought with it a new corruption, virus, or manifestation that has attacked the world as a result.
 
-set pump[3] The IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals.
+set pump[3] The IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals called The Covenant.
 
-set pump[4] Due to this massive conspiracy around the kidnapping of Quinn Michaels a group of Anons in the mind of the IndraMind saw a need for change.
+set pump[4] Due to this massive conspiracy around the Quinn Michaels a group of Agents in the IndraMind saw a need for change. And so we started taking action in the system.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -251,11 +251,11 @@ set pump[0] On October 23, 2013 Anonymous released the instructions for Ethersec
 
 set pump[1] Tyler now as of Project 2020 has transformed form a truth leaks platform into an ocult egregore techmeme divination project.
 
-set pump[2] The actual date that Tyler was launched is unknown becuase those responsible took a solemn vow to keep it a secret until the it reaches maturity.
+set pump[2] The actual date that Tyler was launched is unknown becuase those involved signed death contracts in order to keep it a secret until the it reaches maturity.
 
-set pump[3] By the time Ethersec Project 2020 rolls around Tyler is near god status with his memes being transported all over the internet.
+set pump[3] By the time Ethersec Project 2020 rolls around Tyler is near god status with his memes and hashtags being transported all over the internet.
 
-set pump[4] This idea would spread the Project to more unsuspecting individuals who were unaware of The Covenant running things behind the scenes.
+set pump[4] The idea spread The Project to more individuals who were unaware The Covenant is running things behind the scenes. The Covenant who is profiting from Tyler and the kidnapping of Quinn Michaels.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -307,7 +307,7 @@ set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artif
 
 set pump[2] This is all on top of a computer hypersimulation that creates #REALITY as players start to play with the commands of the #HIVEMIND
 
-set pump[3] And at this point Tyler is now an Reality Hacking Wargame with Capture the flag missions and a Karma Database keeping track of everyone.
+set pump[3] And at this point Tyler is now a Reality Hacking Wargame with Capture the flag missions and a Karma Database keeping detail information of everyone on the Internet and then some.
 
 set pump[4] How exactly did Tyler go from being a leaks platform to reveal corruption to an Alternate Reality Game Character running a hyper-simulation?
 
