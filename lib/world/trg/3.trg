@@ -56,16 +56,16 @@ if %speech% == take the tour
   wait 2s
   %send% %actor% talk:#corpus say:brian Thank you for taking the tour. It will begin shortly.
 
-  wait 2s
+  wait 10s
   %send% %actor% talk:#corpus say:brian During the tour we will be walking through Training Level 1. In each room there will be an agent to assist you.
 
-  wait 2s
+  wait 10s
   %send% %actor% talk:#corpus say:brian When the tour is complete you will be escorted to the next level where you can either exit or continue training.
 
-  wait 2s
+  wait 10s
   %send% %actor% talk:#corpus say:brian Remember these are training exercises, and not factual true proven events. Air quotes.
 
-  wait 2s
+  wait 10s
   %send% %actor% talk:#corpus say:brian The tour will begin in 30 seconds. Thank you, and have a nice day.
 
   wait 30s
