@@ -207,7 +207,10 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
 
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG)) {
-      send_to_char(ch, "\ntalk:#adv object:thegame %s\r", display->description);
+      send_to_char(ch, "::begin:object"
+      "\ntalk:#adv object:thegame %d/main:avatar\r"
+      "::end:object",
+      GET_OBJ_VNUM(display));
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
       //   send_to_char(ch, " (%i)", num);
@@ -305,7 +308,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
    if (i->player.description)
     send_to_char(ch, "\n# %s\r"
       "\n::begin:agent\r"
-      "\n%s\r"
+      "\ntalk:#adv agent:thegame %s\r"
       "\n::end:agent\r",
       i->player.short_descr,
       i->player.description
