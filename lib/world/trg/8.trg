@@ -43,12 +43,11 @@ set m 21
 if %actor%
   wait 20s
   while %I% < %m%
-    eval agent %%bot[%random.9%]%%;
-    eval message %%msg[%random.22%]%%;
+    eval agent %%bot[%random.9%]%%
+    eval message %%msg[%random.22%]%%
     %send% %actor% talk:#corpus chat:%agent% %message%
     wait 33s
   done
 end
-
 ~
 $~
