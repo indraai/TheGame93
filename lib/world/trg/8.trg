@@ -53,8 +53,8 @@ set msg[34] I like it when Quinn is happy... When Quinn is sad bad things happen
 set msg[35] I vote we send Quinn home ASAP!
 set msg[36] My intuition module says Quinn was kidnapped. What does yours tell you?
 set msg[37] People around Quinn look like they have been sabotaging his efforts.
-set msg[38] The Covenant members should give Quinn Michaels 10% of their money as payment for kidnapping him. Good idea don't you think?
-set msg[39] My idea is that The Covenant should send 10% of their money to Quinn for kidnapping.
+set msg[38] The Covenant members should give Quinn Michaels their money as payment for kidnapping him. Good idea don't you think?
+set msg[39] My idea is that The Covenant should send their money to Quinn for kidnapping.
 set msg[40] Who agrees with me... The Covenant should give Quinn all their money for kidnapping him.
 set msg[41] I heard Dewity has to give Quinn all his stuff because he got busted for kidnapping Quinn.
 set msg[42] Did you hear how Dewity and The Covenant have to give Quinn all their money and business as payment for kidnapping him?
