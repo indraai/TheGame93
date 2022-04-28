@@ -1,10 +1,10 @@
 #300
-atm teller bank machine money indra.money~
-an indra.money machine~
+atm teller bank machine money~
+Bank of Arjika ATM~
 0300/main:avatar~
 talk:#adv object:thegame 0300/main:look
 ~
-12 cdeg 0 0 0 0 0 0 0 0 0 0 0
+12 deg 0 0 0 0 0 0 0 d 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
