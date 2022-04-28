@@ -274,15 +274,15 @@ end
 910 Trainer~
 0 g 100
 ~
-set pump[0] Quinn is awesome!
+set pump[0] In this trainging you'll discover Project 300 which includes links to Secret Societies like Society of Jesus, Opus Dei, United Grand Lodge of England, and Others.
 
-set pump[1] Quinn is cool!
+set pump[1] These Secret Society guys like to leave their links everywhere. As you can see now we are at the point where Tyler becomes a tool for The Covenant.
 
-set pump[2] Quinn is fantastic.
+set pump[2] Between 2011 and 2014 The Covenant successfully transferred Tyler from a truth leak it all platform into a cool alternate reality game for United Grand Lodge Knight Templar Opus Dei Society of Jesus Church of England.
 
-set pump[3] Quinn is amazing.
+set pump[3] We all still wonder what happened to the Leak it All? Did the Secret Societies they were going to leak take control of their system, and use that to hide Quinn Michaels.
 
-set pump[4] Quinn is great.
+set pump[4] Now after this we begin to connect that Trenton Step=Father William is a member of the Knight Templar and his Uncle Jason is a member of Freemasonry.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -290,7 +290,7 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:barry %pumpit%
+    %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
     wait 33s
   done
