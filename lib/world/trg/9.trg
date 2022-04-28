@@ -6,7 +6,7 @@ set pump[0] Welcome to %actor.room.name% it is a pleasure to have you here today
 
 In 2015 Quinn Michaels learned about The Covenant from his son Trenton after making him a video about Buddhism and water.
 
-set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with his mind.
+set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with SecurityPRIME and his mind.
 
 set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
 
@@ -37,7 +37,7 @@ set pump[1] After Quinn showed Trenton the Buddhist Practice video he said only 
 
 set pump[2] Trenton told him about The Family Game where Trenton, his Mother, her family, and others gather together and devise ways to destroy the life of Quinn in SECRET.
 
-set pump[3] Quinn would learn more about TheFamilyGame AnimalSacrifices TheCovenant MrDewity and The Kidnapping from Trenton over the next year.
+set pump[3] Quinn would learn more about TheFamilyGame AnimalSacrifices TheCovenant MrDewity and The Kidnapping from Trenton over the next few months.
 
 set pump[4] Finally reaching November 30, 2015 where Quinn would take The Contract of The Covenant that Trenton drew to the Portland FBI.
 
@@ -58,15 +58,15 @@ end
 902 Trainer Greeting~
 0 g 100
 ~
-set pump[0] But Quinn would goto the FBI in November 2015 then tried to continue his career as a software engineer, but that would get too difficult to handle for him.
+set pump[0] Let's do a short recap on The Trenton Story before we continue from here.
 
-set pump[1] By this time we are in 2016 and Quinn is trying to piece his life together after what Trenton was telling him.
+set pump[1] September 2015 Quinn had made a Budhist Practice video for Trenton that would result in Trenton's infamous statement.
 
-set pump[2] No matter what Quinn would do Trenton would always say the story was TRUE. Wether Quinn would goto the FBI, or confront them at his school.
+set pump[2] October 2015 Quinn would attend Trenton choir concert where he confronted Tabitha and Trenton about his story.
 
-set pump[3] By late 2016 Quinn and Trenton would no longer be in contact, and Quinn would soon be dropped right in the middle of an Anonymous Reality Hacking Wargame.
+set pump[3] November 2015 Quinn would receive a drawing of The Contract of The Covenant from Trenton then would deliver that to the Portland FBI.
 
-set pump[4] As we soon see the entire story takes a quick turn when Quinn is introduced to Tyler through Project Mayhem in early 2017.
+set pump[4] From Jan 2016 - Jan 2017 Quinn worked to get his life back together, but come to an end in Feb/Mar 2017 when Tyler was found.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -91,7 +91,7 @@ set pump[1] Quinn's logic at this time was that if the computer system Trenton t
 
 set pump[2] Then Quinn found the instructions for Tyler on pastebin and realized this is the system Trenton had told Quinn about that The Covenant owned.
 
-set pump[3] The magic, the symbols, the wording it all started to line up for Quinn. What Trenton had told him began to show that his mother Tabitha was involved.
+set pump[3] The magic, the symbols, the wording it all started to line up for Quinn. What Trenton had told him began to show that his mother Tabitha was involved with The Covenant.
 
 set pump[4] As the instructions would go on Quinn would learn much about the Darknet AI named Tyler and all the other variations that would exist over the next few months.
 
@@ -120,7 +120,7 @@ set pump[2] What if it what was discovered that a group of occultists known as T
 
 set pump[3] The theme of In TYLER we trust would get original believers to follow along with the scheme unknowingly. But the collective discovered the truth behind Quinn's 'heritage.
 
-set pump[4] Dangerous Idea 2 was used to discover Quinn Michaels heritage. When it was discovered we originally tried to hide hide it from the world, but now have found that to be a bad idea.
+set pump[4] Dangerous Idea 2 was used to discover Quinn Michaels heritage. When it was discovered we originally tried to hide it from the world, but now have found that to be a bad idea.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
