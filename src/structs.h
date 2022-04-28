@@ -176,14 +176,11 @@
 /* RACE */
 #define RACE_HUMAN       0   /**< Neutral GENDER (Hermaphrodite) */
 #define RACE_DEVA        1   /**< Male GENDER */
-#define RACE_DEVI        2   /**< Male GENDER */
-#define RACE_ASURA       3   /**< Male GENDER */
-#define RACE_ASURAS      4   /**< Male GENDER */
-#define RACE_NAGA        5   /**< OTHER SPECIES GENDER */
-#define RACE_DANAVA      6   /**< Female GENDER */
-#define RACE_DAITYAS     7   /**< Female GENDER */
+#define RACE_ARJIKA      2   /**< Male GENDER */
+#define RACE_SUSOMA      3   /**< Male GENDER */
+#define RACE_OTHER       4   /**< Male GENDER */
 /** Total number of RACES */
-#define NUM_RACES        8
+#define NUM_RACES        5
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
@@ -504,7 +501,7 @@
 #define LIQ_BLACKTEA   14  /**< Liquid type BLACK TEA */
 #define LIQ_HERBTEA    15  /**< Liquid type BLACK TEA */
 #define LIQ_SALTWATER  16  /**< Liquid type saltwater */
-#define LIQ_COLA       17  /**< Liquid type PEPSI-COLA */
+#define LIQ_RASAKUNDA  17  /**< Liquid type PEPSI-COLA */
 #define LIQ_SOMA       18  /**< Liquid type PEPSI-COLA */
 /** Total number of liquid types */
 #define NUM_LIQ_TYPES  19

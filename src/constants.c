@@ -150,12 +150,9 @@ const char *races[] =
 {
   "Human",
   "Deva",
-  "Devi",
-  "Asura",
-  "Asuras",
-  "Naga",
-  "Danava",
-  "Daityas",
+  "Arjika",
+  "Susoma",
+  "Other",
   "\n"
 };
 
@@ -565,8 +562,9 @@ const char *drinknames[] =
 	"tea",
 	"tea",
 	"tea",
+	"tea",
 	"salt",
-	"cola",
+	"nectar",
 	"soma"
   "\n"
 };
@@ -592,7 +590,7 @@ int drink_aff[][3] = {
   {0, 1, 5},    // black tea
   {0, 1, 5},    // herbal tea
   {0, 2, -1},    // salt water
-  {0, 10, 10},   // indra cola
+  {0, 10, 10},   // rasakunda
   {10, 10, 10}  // soma
 };
 
@@ -616,8 +614,8 @@ const char *color_liquid[] =
 	"green",
 	"black",
 	"clear",
-	"black"
-	"black"
+	"milky"
+	"clear"
   "\n"
 };
 
