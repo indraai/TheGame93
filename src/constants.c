@@ -540,8 +540,8 @@ const char *drinks[] =
 	"Black Tea",               /* blood */
 	"Herbal Tea",               /* blood */
 	"Salt Water",
-	"Indra Cola",
-	"SOMA",
+	"Rasakunda",
+	"Soma",
   "\n"
 };
 
