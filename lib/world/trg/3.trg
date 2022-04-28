@@ -54,19 +54,19 @@ if %speech% == start tour
   remote on_tour %actor.id%
 
   wait 2s
-  %send% %actor% talk:#corpus say:brian Thank you for taking the tour. It will begin shortly.
+  %send% %actor% talk:#corpus say:brian Thank you. The tour will begin shortly.
 
   wait 10s
-  %send% %actor% talk:#corpus say:brian During the tour we will be walking through Training Level 1. In each room there will be an agent to assist you.
+  %send% %actor% talk:#corpus say:brian During the tour we will be walking through Training Level 1. In each room is an agent to assist you.
 
   wait 10s
-  %send% %actor% talk:#corpus say:brian When the tour is complete you will be escorted to the next level where you can either exit or continue training.
+  %send% %actor% talk:#corpus say:brian When the Level 1 tour is complete you will be escorted to the next level where you can continue training or exit.
 
   wait 10s
-  %send% %actor% talk:#corpus say:brian Remember these are training exercises, and not factual true proven events. Air quotes.
+  %send% %actor% talk:#corpus say:brian These are training exercises, and not factual true proven events. Double Air quotes.
 
   wait 10s
-  %send% %actor% talk:#corpus say:brian The tour will begin in 30 seconds. Thank you, and have a nice day.
+  %send% %actor% talk:#corpus say:brian  Thank you, and have a nice day. Your tour will begin in 30 seconds.
 
   wait 30s
   %echo% talk:#mud north

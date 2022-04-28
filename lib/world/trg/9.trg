@@ -8,7 +8,7 @@ In 2015 Quinn Michaels learned about The Covenant from his son Trenton after mak
 
 set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with his mind.
 
-set pump[2] To put together all the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
+set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
 
 set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
 
