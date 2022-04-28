@@ -15,7 +15,7 @@ T 1000
 cyoa dr james sneed geologist~
 Dr. Sneed~
 10001/main:avatar~
-It looks unfinished.talk:#adv agent:thegame 10001/main:look
+It looks unfinished.10001/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -39,7 +39,7 @@ T 1003
 angel bird fledgling underground kingdom cyoa~
 Angel Bird (fledgling)~
 10010/main:avatar~
-talk:#adv agent:thegame 10010/main:look
+10010/main:look
 ~
 10 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
@@ -51,7 +51,7 @@ E
 angel bird underground kingdom cyoa~
 Angel Bird~
 10011/main:avatar~
-talk:#adv agent:thegame 10011/main:look
+10011/main:look
 ~
 10 0 0 0 0 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -73,7 +73,7 @@ E
 angel bird underground kingdom cyoa~
 Angel Bird~
 10016/main:avatar~
-talk:#adv agent:thegame 10016/main:look
+10016/main:look
 ~
 10 0 0 0 131072 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -95,7 +95,7 @@ E
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
 10026/main:avatar~
-talk:#adv agent:thegame 10026/main:look
+10026/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -117,7 +117,7 @@ E
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
 10029/main:avatar~
-talk:#adv agent:thegame 10029/main:look
+10029/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -128,7 +128,7 @@ E
 ket raka underground kingdom cyoa~
 Ket Raka~
 10044/main:avatar~
-talk:#adv agent:thegame 10044/main:look
+10044/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -145,7 +145,7 @@ E
 akim raka underground kingdom cyoa~
 Akim Raka~
 10045/main:avatar~
-talk:#adv agent:thegame 10044/main:look
+10044/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -162,7 +162,7 @@ E
 tor raka underground kingdom cyoa~
 Tor Raka~
 10046/main:avatar~
-talk:#adv agent:thegame 10046/main:look
+10046/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -179,7 +179,7 @@ E
 kota beast underground kingdom cyoa~
 Kota Beast~
 10047/main:avatar~
-talk:#adv agent:thegame 10047/main:look
+10047/main:look
 ~
 74 0 0 0 2048 0 0 0 -200 E
 10 17 4 2d2+100 1d2+1
@@ -196,7 +196,7 @@ E
 blue raka underground kingdom cyoa~
 Blue Raka~
 10050/main:avatar~
-talk:#adv agent:thegame 10050/main:look
+10050/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -213,7 +213,7 @@ E
 raka guard underground kingdom cyoa~
 Raka Guard~
 10053/main:avatar~
-talk:#adv agent:thegame 10053/main:look
+10053/main:look
 ~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -229,7 +229,7 @@ E
 tomo raka cyoa~
 Tomo~
 10054/main:avatar~
-talk:#adv agent:thegame 10054/main:look
+10054/main:look
 ~
 8 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -240,7 +240,7 @@ E
 dr nera vivaldi underground empire cyoa~
 Dr. Vivaldi~
 10066/main:avatar~
-talk:#adv agent:thegame 10066/main:look
+10066/main:look
 ~
 74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -251,7 +251,7 @@ E
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
 10075/main:avatar~
-talk:#adv agent:thegame 10075/main:look
+10075/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0

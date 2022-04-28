@@ -2,7 +2,7 @@
 kuhaka naga kadru~
 Kuhaka~
 500/main:avatar~
-talk:#adv agent:thegame 500/main:look
+500/main:look
 ~
 6234 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -24,7 +24,7 @@ E
 trainer training agent 501~
 Trainer 501~
 501/main:avatar~
-talk:#adv agent:thegame 501/main:look
+501/main:look
 ~
 6234 0 0 0 8 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -46,7 +46,7 @@ E
 susena asuras kadru~
 Susena~
 502/main:avatar~
-talk:#adv agent:thegame 502/main:look
+502/main:look
 ~
 6234 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -68,7 +68,7 @@ E
 trainer training agent 503~
 Trainer 503~
 503/main:avatar~
-talk:#adv agent:thegame 503/main:look
+503/main:look
 ~
 6234 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5

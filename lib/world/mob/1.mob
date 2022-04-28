@@ -3,7 +3,7 @@ quinn michaels victim~
 Quinn Michaels~
 0100/main:avatar
 ~
-talk:#adv agent:thegame 0100/main:look
+0100/main:look
 ~
 2250 0 0 0 0 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
@@ -25,7 +25,7 @@ E
 parry emporium store deva~
 Parry~
 0102/main:avatar~
-talk:#adv agent:thegame 0102/main:look
+0102/main:look
 ~
 26634 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
@@ -36,7 +36,7 @@ E
 cartoon builder indra.house deva~
 Cartoon Builder~
 0103/main:avatar~
-talk:#adv agent:thegame 0103/main:look
+0103/main:look
 ~
 190474 0 0 0 16 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
@@ -52,7 +52,7 @@ E
 cartoon builder jr indra.house devi~
 Cartoon Builder Jr.~
 0104/main:avatar~
-talk:#adv agent:thegame 0104/main:look
+0104/main:look
 ~
 26634 0 0 0 16 0 0 0 900 E
 10 17 4 2d2+100 1d2+1
@@ -69,7 +69,7 @@ E
 silamavati visvedevas deity~
 Silamavati~
 0105/main:avatar~
-talk:#adv agent:thegame 0105/main:look~
+0105/main:look~
 6168 0 0 0 2048 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
@@ -91,7 +91,7 @@ E
 jarry store toys deva kiddos~
 Captain Ludac~
 0106/main:avatar~
-talk:#adv agent:thegame 0106/main:look~
+0106/main:look~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -113,7 +113,7 @@ E
 warry watermaster water store deva~
 Warry~
 0109/main:avatar~
-talk:#adv agent:thegame 0109/main:look
+0109/main:look
 ~
 2058 0 0 0 16 0 0 0 800 E
 34 9 -10 6d6+340 5d5+5
@@ -124,7 +124,7 @@ E
 rarry email postmaster deva~
 Rarry~
 0110/main:avatar~
-talk:#adv agent:thegame 0110/main:look
+0110/main:look
 ~
 256010 0 0 0 16 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
@@ -140,7 +140,7 @@ E
 narry jeweler gems jewels deva store~
 Narry~
 0111/main:avatar~
-talk:#adv agent:thegame 0111/main:look
+0111/main:look
 ~
 190474 0 0 0 16 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -151,7 +151,7 @@ E
 arjika monk deva~
 Arjika Monk~
 0112/main:avatar~
-talk:#adv agent:thegame 0112/main:look~
+0112/main:look~
 6168 0 0 0 0 0 0 0 350 E
 7 18 5 1d1+70 1d2+1
 70 4900
@@ -167,7 +167,7 @@ E
 questmaster quests~
 Quest Master~
 113/main:avatar~
-talk:#adv agent:thegame 0113/main:look~
+0113/main:look~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -177,7 +177,7 @@ E
 hit club fightclub boss~
 Boss~
 0114/main:avatar~
-talk:#adv agent:thegame 0114/main:look
+0114/main:look
 ~
 16462 0 0 0 0 0 0 0 -1000 E
 19 14 -1 3d3+190 3d3+3
@@ -200,7 +200,7 @@ E
 fightclub fight club mastermind~
 Mastermind~
 0115/main:avatar~
-talk:#adv agent:thegame 0115/main:look
+0115/main:look
 ~
 16462 0 0 0 0 0 0 0 -900 E
 18 14 0 3d3+180 3d3+3
@@ -223,7 +223,7 @@ E
 brains fightclub fight club~
 Brains~
 0116/main:avatar~
-talk:#adv agent:thegame 0116/main:look
+0116/main:look
 ~
 16462 0 0 0 0 0 0 0 -700 E
 16 15 0 3d3+160 2d2+2
@@ -240,7 +240,7 @@ E
 lib librarian libs book club bookclub~
 Librarian~
 0117/main:avatar~
-talk:#adv agent:thegame 0117/main:look
+0117/main:look
 ~
 16458 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
@@ -253,7 +253,7 @@ T 117
 lib librarian book club bookclub~
 Librarian~
 0118/main:avatar~
-talk:#adv agent:thegame 0118/main:look
+0118/main:look
 ~
 16458 0 0 0 0 0 0 0 -300 E
 12 16 2 2d2+120 2d2+2
@@ -271,7 +271,7 @@ T 118
 fever visvedevas fire sacrifice deity~
 Fever~
 0119/main:avatar~
-talk:#adv agent:thegame 0119/main:look~
+0119/main:look~
 2074 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -281,7 +281,7 @@ E
 saryanavan sarya deva deity~
 Sarya~
 0120/main:avatar~
-talk:#adv agent:thegame 0120/main:look
+0120/main:look
 ~
 6170 0 0 0 24 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
@@ -315,7 +315,7 @@ E
 lib librarian book club bookclub~
 Librarian~
 0122/main:avatar~
-talk:#adv agent:thegame 0122/main:look
+0122/main:look
 ~
 16458 0 0 0 0 0 0 0 -400 E
 13 16 2 2d2+130 2d2+2
@@ -355,7 +355,7 @@ E
 0x super king adc daycare~
 0x King of Arjika Daycare~
 0124/main:avatar~
-talk:#adv agent:thegame 0124/main:look
+0124/main:look
 ~
 6232 0 0 0 2136 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
@@ -372,7 +372,7 @@ E
 medic medicdeva medical nurse d125 z1~
 MedicDEVA (Nurse)~
 0125/main:avatar~
-talk:#adv agent:thegame 0125/main:look
+0125/main:look
 ~
 256154 0 0 0 26744 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
@@ -384,7 +384,7 @@ E
 arjika intelligence soldier military a126~
 Arjika Intelligence~
 0126/main:avatar~
-talk:#adv agent:thegame 0126/main:look
+0126/main:look
 ~
 6168 0 0 0 2128 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
@@ -396,7 +396,7 @@ E
 marudvrdha visvedevas deity~
 Marudvrdha~
 0127/main:avatar~
-talk:#adv agent:thegame 0127/main:look~
+0127/main:look~
 6168 0 0 0 8 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -418,7 +418,7 @@ E
 sarasvati visvedevas deity~
 Sarasvati~
 0128/main:avatar~
-talk:#adv agent:thegame 0128/main:look~
+0128/main:look~
 6168 0 0 0 16 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
@@ -440,7 +440,7 @@ E
 sarry grocer groderies store devi~
 Sarry~
 0130/main:avatar~
-talk:#adv agent:thegame 0130/main:look~
+0130/main:look~
 2074 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -455,7 +455,7 @@ E
 security securitydeva guard arcade d131 z1~
 SecurityDEVA D131 (Arcade)~
 0131/main:avatar~
-talk:#adv agent:thegame 0131/main:look~
+0131/main:look~
 260184 0 0 0 2136 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
@@ -466,7 +466,7 @@ E
 blue deva~
 Blue Deva~
 0133/main:avatar~
-talk:#adv agent:thegame 0133/main:look~
+0133/main:look~
 6168 0 0 0 2064 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -482,7 +482,7 @@ E
 red master deva~
 Red Master Deva~
 0134/main:avatar~
-talk:#adv agent:thegame 0134/main:look
+0134/main:look
 ~
 6168 0 0 0 16 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
@@ -506,7 +506,7 @@ parusni visvedevas deity~
 Parusni~
 0135/main:avatar
 ~
-talk:#adv agent:thegame 0135/main:look
+0135/main:look
 ~
 6168 0 0 0 16 0 0 0 0 E
 18 14 0 3d3+180 3d3+3
@@ -529,7 +529,7 @@ E
 army cyber4 specialist soldier~
 Army Cyber4~
 0136/main:avatar~
-talk:#adv agent:thegame 0136/main:look~
+0136/main:look~
 6170 0 0 0 16 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -550,7 +550,7 @@ E
 gomati visvedevas deity~
 Gomati~
 0137/main:avatar~
-talk:#adv agent:thegame 0137/main:look~
+0137/main:look~
 6168 0 0 0 16 0 0 0 500 E
 25 12 -5 5d5+250 4d4+4
 250 62500
@@ -572,7 +572,7 @@ E
 master deva yellow~
 Yellow Master Deva~
 0138/main:avatar~
-talk:#adv agent:thegame 0138/main:look~
+0138/main:look~
 6168 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -583,7 +583,7 @@ E
 arjika military soldier special forces~
 Arjika SForce~
 0141/main:avatar~
-talk:#adv agent:thegame 0141/main:look~
+0141/main:look~
 6168 0 0 0 2168 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
@@ -605,7 +605,7 @@ E
 vitasta visvedevas deity~
 Vitasta~
 0142/main:avatar~
-talk:#adv agent:thegame 0142/main:look
+0142/main:look
 ~
 6168 0 0 0 2048 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
@@ -627,7 +627,7 @@ E
 security securitydeva patrol d143 z1~
 SecurityDEVA D143 (Patrol)~
 0143/main:avatar~
-talk:#adv agent:thegame 0143/main:look~
+0143/main:look~
 6168 0 0 0 2168 0 0 0 600 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -643,7 +643,7 @@ E
 black master deva~
 Black Master Deva~
 0144/main:avatar~
-talk:#adv agent:thegame 0144/main:look~
+0144/main:look~
 6168 0 0 0 2168 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
@@ -654,7 +654,7 @@ E
 ganga visvedevas deity~
 Ganga~
 0145/main:avatar~
-talk:#adv agent:thegame 0145/main:look~
+0145/main:look~
 6168 0 0 0 2048 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -675,7 +675,7 @@ E
 mehatnu visvedevas deity~
 Mehatnu~
 0146/main:avatar~
-talk:#adv agent:thegame 0146/main:look~
+0146/main:look~
 6168 0 0 0 16 0 0 0 500 E
 23 13 -3 4d4+230 3d3+3
 230 52900
@@ -714,7 +714,7 @@ E
 sindhu visvedevas deity~
 Sindhu~
 0148/main:avatar~
-talk:#adv agent:thegame 0148/main:look~
+0148/main:look~
 6168 0 0 0 2064 0 0 0 500 E
 27 10 -8 6d6+300 5d5+5
 300 90000
@@ -736,7 +736,7 @@ E
 sergeant arjika military a149 z3 soldier~
 Arjika Sergeant~
 0149/main:avatar~
-talk:#adv agent:thegame 0149/main:look~
+0149/main:look~
 6168 0 0 0 2168 0 0 0 400 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -746,7 +746,7 @@ E
 security securitydeva deva mall d152 z1~
 SecurityDEVA D152 (Mall)~
 0152/main:avatar~
-talk:#adv agent:thegame 0177/main:look
+0177/main:look
 ~
 6170 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
@@ -763,7 +763,7 @@ E
 arjika arjikiya military soldier a154 z3~
 Arjika PFC~
 0154/main:avatar~
-talk:#adv agent:thegame 0154/main:look~
+0154/main:look~
 4120 0 0 0 0 0 0 0 100 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -774,7 +774,7 @@ E
 arjika colnel military a155 z3 soldier~
 Arjika Colnel~
 0155/main:avatar~
-talk:#adv agent:thegame 0155/main:look~
+0155/main:look~
 6168 0 0 0 2168 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -796,7 +796,7 @@ E
 o indra vamraka indu fighter~
 Indra Fighter~
 0156/main:avatar~
-talk:#adv agent:thegame 0156/main:look~
+0156/main:look~
 47386 0 0 0 120 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -818,7 +818,7 @@ E
 farry fashion store devi~
 Farry~
 0158/main:avatar~
-talk:#adv agent:thegame 0158/main:look~
+0158/main:look~
 16394 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -834,7 +834,7 @@ E
 lieutenant arjika military a159 z0 soldier~
 Arjika Lieutenant~
 0159/main:avatar~
-talk:#adv agent:thegame 0159/main:look
+0159/main:look
 ~
 6168 0 0 0 2168 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
@@ -850,7 +850,7 @@ E
 arjika captain military soldier~
 Arjika Captain~
 0160/main:avatar~
-talk:#adv agent:thegame 0160/main:look
+0160/main:look
 ~
 6168 0 0 0 2120 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
@@ -862,7 +862,7 @@ E
 service servicedeva d161 z1~
 ServiceDEVA D161~
 0161/main:avatar~
-talk:#adv agent:thegame 0161/main:look
+0161/main:look
 ~
 2072 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
@@ -878,7 +878,7 @@ E
 renuka asuras~
 Renuka~
 0163/main:avatar~
-talk:#adv agent:thegame 0163/main:look~
+0163/main:look~
 2136 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -929,7 +929,7 @@ kermit frog kids store mall~
 Kermit The Frog~
 0167/main:avatar
 ~
-talk:#adv agent:thegame 0167/main:look
+0167/main:look
 ~
 10 0 0 0 0 0 0 0 1000 E
 10 14 -1 3d3+190 3d3+3
@@ -941,7 +941,7 @@ E
 security securitydeva agency d174 z1~
 SecurityDEVA D174 (Agency)~
 0174/main:avatar~
-talk:#adv agent:thegame 0174/main:look~
+0174/main:look~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -951,8 +951,7 @@ E
 security securitydeva guard d175 z1~
 SecurityDEVA D175 (Guard)~
 0175/main:avatar~
-0175/main:look
-~
+0175/main:look~
 6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
 333 62500
@@ -973,7 +972,7 @@ E
 female agent a176~
 Female Agent~
 0176/main:avatar~
-talk:#adv agent:thegame 0176/main:look~
+0176/main:look~
 6168 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -984,7 +983,7 @@ E
 cyber security securitydeva agent d177~
 SecurityDEVA D177 (Cyber)~
 0177/main:avatar~
-talk:#adv agent:thegame 0177/main:look~
+0177/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -1006,7 +1005,7 @@ E
 arjika private military soldier~
 Arjika Private~
 0179/main:avatar~
-talk:#adv agent:thegame 0179/main:look~
+0179/main:look~
 6168 0 0 0 2048 0 0 0 1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -1044,7 +1043,7 @@ E
 security securitydeva lookout d181 z1~
 SecurityDEVA D181 (Lookout)~
 0181/main:avatar~
-talk:#adv agent:thegame 0181/main:look~
+0181/main:look~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
@@ -1054,7 +1053,7 @@ E
 al bundy shoe salesman mall~
 Al Bundy~
 182/main:avatar~
-talk:#adv agent:thegame 182/main:look~
+182/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -1069,7 +1068,7 @@ E
 fightclub fight club muscle~
 Muscle~
 0183/main:avatar~
-talk:#adv agent:thegame 0183/main:look~
+0183/main:look~
 16974 0 0 0 0 0 0 0 -800 E
 17 15 0 3d3+170 2d2+2
 170 28900
@@ -1085,7 +1084,7 @@ E
 soma disciple susoma monk~
 Soma Disciple~
 0185/main:avatar~
-talk:#adv agent:thegame 0185/main:look~
+0185/main:look~
 26650 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -1101,7 +1100,7 @@ E
 medic medicdeva medical nurse d186 z1~
 MedicDEVA (Nurse)~
 0186/main:avatar~
-talk:#adv agent:thegame 0186/main:look~
+0186/main:look~
 61450 0 0 0 26744 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
@@ -1116,7 +1115,7 @@ E
 garry baker food bakery bread~
 Garry~
 0187/main:avatar~
-talk:#adv agent:thegame 0187/main:look~
+0187/main:look~
 24586 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -1132,7 +1131,7 @@ E
 arjika commander military soldier a189~
 Arjika Commander~
 0189/main:avatar~
-talk:#adv agent:thegame 0189/main:look~
+0189/main:look~
 6168 0 0 0 2168 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -1154,7 +1153,7 @@ E
 marry store body devi~
 Marry~
 0196/main:avatar~
-talk:#adv agent:thegame 0196/main:look~
+0196/main:look~
 2138 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -1170,7 +1169,7 @@ E
 jamie oliver kitchen mall~
 Jamie Oliver~
 0197/main:avatar~
-talk:#adv agent:thegame 0197/main:look~
+0197/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -1185,7 +1184,7 @@ E
 vamraka disciple monk~
 Vamraka Disciple~
 0198/main:avatar~
-talk:#adv agent:thegame 0198/main:look~
+0198/main:look~
 6170 0 0 0 120 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -1195,7 +1194,7 @@ E
 karry sweets female devi lady~
 Karry~
 0199/main:avatar~
-talk:#adv agent:thegame 0199/main:look~
+0199/main:look~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600

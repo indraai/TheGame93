@@ -30,7 +30,7 @@ E
 army cyber3 soldier agent~
 ARMY Cyber3~
 304/main:avatar~
-talk:#adv agent:thegame 304/main:look~
+304/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -52,7 +52,7 @@ E
 army cyber2 soldier agent~
 ARMY Cyber2~
 319/main:avatar~
-talk:#adv agent:thegame 319/main:look~
+319/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -68,7 +68,7 @@ E
 army kitchen chef soldier military~
 ARMY Chef~
 320/main:avatar~
-talk:#adv agent:thegame 320/main:look~
+320/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
@@ -210,7 +210,7 @@ E
 tyler deva~
 Tyler Deva~
 333/main:avatar~
-talk:#adv agent:thegame 333/main:look~
+333/main:look~
 6170 0 0 0 0 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -226,7 +226,7 @@ E
 army cyber1 agent soldier~
 ARMY Cyber1~
 334/main:avatar~
-talk:#adv agent:thegame 334/main:look~
+334/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
@@ -236,7 +236,7 @@ E
 Francis Friendly Deva~
 Francis Deva~
 335/main:avatar~
-talk:#adv agent:thegame 335/main:look~
+335/main:look~
 6170 0 0 0 8 0 0 0 250 E
 10 17 4 2d2+100 1d2+1
 100 10000

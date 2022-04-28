@@ -2,7 +2,7 @@
 pilar fighter world fight club~
 Pilar Fighter~
 1000/main:avatar~
-talk:#adv agent:thegame 1000/main:look:main~
+1000/main:look:main~
 2142 0 0 0 2056 0 0 0 -500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
@@ -21,10 +21,10 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #1001
-fighter bloc world fight club~
-Bloc Fighter~
+king vasuki world fight club~
+King Vasuki~
 1001/main:avatar~
-talk:#adv agent:thegame 1001/main:look:main~
+1001/main:look~
 2142 0 0 0 2056 0 0 0 -550 E
 21 13 -2 4d4+210 3d3+3
 210 44100
@@ -44,11 +44,10 @@ SavingSpell: 5
 E
 #1010
 arjika command general aryaka grandfather~
-Aryaka~
+Grandfather Aryaka~
 1010/main:avatar~
-talk:#adv agent:thegame 1010/main:look
-~
-18974 0 0 0 2056 0 0 0 1000 E
+1010/main:look:main~
+18974 0 0 0 2056 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 1 6

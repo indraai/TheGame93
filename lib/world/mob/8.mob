@@ -2,7 +2,7 @@
 trainer training agent 800~
 Trainer 800~
 0800/main:avatar~
-talk:#adv agent:thegame 0800/main:look
+0800/main:look
 ~
 6238 0 0 0 8 0 0 0 -288 E
 6 18 6 1d1+60 1d2+1
@@ -19,7 +19,7 @@ T 800
 bhavani danava vitala~
 Bhavani~
 0801/main:avatar~
-talk:#adv agent:thegame 0801/main:look
+0801/main:look
 ~
 6234 0 0 0 0 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
