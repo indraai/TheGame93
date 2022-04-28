@@ -75,16 +75,16 @@ set msg[55] Quinn has a full right arm sleeve tattoo that tells the story of bei
 set msg[56] Quinn has a Volkswagen Tatto on his right shoulder inside a flame. It's related to his homeworld Arjika.
 set msg[57] Quinn has many tattos which show his connection to planet Arjika and being brought to earth through a portal. That is really all of his tattoos.
 set msg[58] Let's get this party started... right!!!
-
+set msg[51] I heard there are parties at where people where Quinn Costumes and stuff.
 
 set i 0
-set m 50
+set m 51
 
 if %actor%
   wait 20s
   while %I% < %m%
     eval agent %%bot[%random.9%]%%
-    eval message %%msg[%random.50%]%%
+    eval message %%msg[%random.51%]%%
     %send% %actor% talk:#corpus chat:%agent% %message%
     wait 33s
   done
