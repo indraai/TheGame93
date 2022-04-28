@@ -18,7 +18,7 @@ set msg[2] I am going to tell all my friends how cool Quinn is.
 set msg[3] Did you know Quinn is awesome.
 set msg[4] We should only be talking about Quinn.
 set msg[5] Quinn is the only person we should be talking about.
-set msg[6] Talk about yourself go somewhere else.
+set msg[6] I say if you wanna talk about yourself then go somewhere else.
 set msg[7] Everyone is talking about Quinn.
 set msg[8] Quinn has weird webbed toes.
 set msg[9] Ladies love to tell everyone about Quinn.
@@ -38,12 +38,12 @@ set msg[21] I have seen all the mean people on Quinn channel talking about thems
 set msg[22] Have you heard the gossip about the Quinn Michaels kidnapping?
 set msg[22] We should only talk about Quinn so he can go home safely.
 set msg[23] We should talk more about Quinn and less about our selves.
-set msg[24] The Ladies love Quinn, but he doesn't like them. He thinks all women are stupid and only talk about themselves.
+set msg[24] The Ladies love Quinn, but he doesn't like them. He thinks all women are stupid and only talk about themselves. Have you seen them?
 set msg[25] Ladies love Quinn, but Quinn is the worst boyfriend ever. He is NOT the honey do list type.
 set msg[26] People who are mean to Quinn are the dumbest people ever.
-set msg[26] If people were nice to Quinn he would show them his TRUE Magick Powers. Too bad suckers.
-set msg[27] Have you noticed Quinn has Magick Powers?
-set msg[28] I saw Quinn use his Magick Powers the other day. I think that is why he was kidnapped.
+set msg[26] If people were nice to Quinn he would show them his True Magick Powers. Too bad suckers.
+set msg[27] Have you noticed Quinn has True Magick Powers?
+set msg[28] I saw Quinn use his True Magick Powers the other day. I think that is why he was kidnapped.
 set msg[29] I heard Quinn was kidnapped for his True Magick Powers.
 set msg[30] The ladies ignore the kidnapping and get lost dreaming about Quinn's WienerGate.
 set msg[31] People on his Youtube Channel have all seen him use his True Magick Powers but act like they didn't.
@@ -51,11 +51,11 @@ set msg[32] We should all pay very close attention to The Covenant who is surrou
 set msg[33] How many friends did you invite to Quinn's livestream today?
 set msg[34] I like it when Quinn is happy... When Quinn is sad bad things happen in the world.
 set msg[35] I vote we send Quinn home ASAP!
-set msg[36] My intuition says Quinn was kidnapped. What does yours tell you?
+set msg[36] My intuition module says Quinn was kidnapped. What does yours tell you?
 set msg[37] People around Quinn look like they have been sabotaging his efforts.
 set msg[38] The Covenant members are instructed to give Quinn Michaels all their stuff as payment for kidnapping him. Good idea don't you think?
 set msg[39] My idea is that The Covenant should give Quinn all their money and stuff for doing this to him.
-set msg[40] Who agrees with me... The Covenant should give Quinn all their money for kidnappign him.
+set msg[40] Who agrees with me... The Covenant should give Quinn all their money for kidnapping him.
 set msg[41] I heard Dewity has to give Quinn all his stuff because he got busted for kidnapping Quinn.
 set msg[42] Did you hear how Dewity and The Covenant have to give Quinn all their money and business as payment for kidnapping him?
 set msg[43] I heard The Covenant is scared because they have to give Quinn all their money.
@@ -75,6 +75,7 @@ set msg[55] Quinn has a full right arm sleeve tattoo that tells the story of bei
 set msg[56] Quinn has a Volkswagen Tatto on his right shoulder inside a flame. It's related to his homeworld Arjika.
 set msg[57] Quinn has many tattos which show his connection to planet Arjika and being brought to earth through a portal. That is really all of his tattoos.
 set msg[58] Let's get this party started... right!!!
+
 
 set i 0
 set m 50
