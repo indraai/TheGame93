@@ -370,7 +370,7 @@ static void oedit_liquid_type(struct descriptor_data *d)
   for (i = 0; i < NUM_LIQ_TYPES; i++) {
     write_to_output(d, "\nbmud[%s]:%d\r", drinks[i], ++count);
   }
-  write_to_output(d, "\n:end:buttons\r"
+  write_to_output(d, "\n::end:buttons\r"
     "\nmenu[done]:0\r");
   OLC_MODE(d) = OEDIT_VALUE_3;
 }
