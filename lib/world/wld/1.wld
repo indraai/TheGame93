@@ -1,5 +1,5 @@
 #100
-City Tower L1~
+Arjika Tower L1~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -28,7 +28,7 @@ D5
 0 0 251
 S
 #101
-City Tower L2~
+Arjika Tower L2~
 Empty room.~
 1 24 0 0 0 0
 D4
@@ -41,7 +41,7 @@ D5
 0 0 100
 S
 #104
-indra.house/sarya~
+House Sarya~
 Empty room.~
 1 24 0 0 0 0
 D5
@@ -50,7 +50,7 @@ D5
 0 0 132
 S
 #105
-indra.house/vivasvan~
+House Vivasvan~
 Empty room.~
 1 24 0 0 0 0
 D5
@@ -319,7 +319,7 @@ D5
 0 0 295
 S
 #125
-indra.house/soma~
+House Soma~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -332,7 +332,7 @@ D2
 0 0 34
 S
 #126
-indra.house/vamraka~
+House Vamraka~
 Empty room.~
 1 24 0 0 0 0
 D1
@@ -345,7 +345,7 @@ D3
 0 0 31
 S
 #131
-indra.house/bom~
+House Bom~
 undefined~
 1 24 0 0 0 0
 D0
@@ -358,7 +358,7 @@ D2
 0 0 133
 S
 #132
-indra.city/towers~
+Arjika Temple West~
 undefined~
 1 24 0 0 0 0
 D0
@@ -387,7 +387,7 @@ D5
 0 0 345
 S
 #133
-indra.city/towers~
+Arjika Temple East~
 undefined~
 1 24 0 0 0 0
 D0
@@ -416,7 +416,7 @@ D5
 0 0 346
 S
 #134
-indra.house/indra~
+House Indra~
 Empty room.~
 1 24 0 0 0 0
 D1
@@ -429,7 +429,7 @@ D3
 0 0 133
 S
 #137
-indra.house/holder~
+The Householder~
 Empty room.~
 1 24 0 0 0 0
 D0
@@ -438,7 +438,7 @@ D0
 0 0 132
 S
 #138
-indra.house/indu~
+House Indu~
 undefined~
 1 24 0 0 0 0
 D0
@@ -475,6 +475,10 @@ S
 Security Checkpoint (N)~
 empty room.~
 1 16 0 0 0 1
+D0
+~
+~
+0 0 1100
 D2
 ~
 ~

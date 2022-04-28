@@ -642,7 +642,7 @@ D3
 0 0 388
 S
 #344
-The Courtyard~
+Arjika Temple Courtyard~
 empty.~
 3 16 0 0 0 1
 D0
@@ -659,7 +659,7 @@ D3
 0 0 255
 S
 #345
-West Tower~
+Arjika Temple West~
 undefined~
 3 24 0 0 0 0
 D1
@@ -676,7 +676,7 @@ D4
 0 0 132
 S
 #346
-East Tower~
+Arjika Temple East~
 undefined~
 3 24 0 0 0 0
 D2
@@ -693,7 +693,7 @@ D4
 0 0 133
 S
 #347
-The Courtyard~
+Arjika Temple Courtyard~
 undefined~
 3 16 0 0 0 1
 D2
@@ -827,7 +827,7 @@ D5
 1 0 290
 S
 #357
-The Courtyard~
+Arjika Temple Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -840,7 +840,7 @@ D1
 0 0 358
 S
 #358
-The Courtyard~
+Arjika Temple Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -857,7 +857,7 @@ D3
 0 0 357
 S
 #359
-The Courtyard~
+Arjika Temple Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -874,7 +874,7 @@ D3
 0 0 358
 S
 #360
-The Courtyard~
+Arjika Temple Courtyard~
 undefined~
 3 16 0 0 0 1
 D0
@@ -1281,7 +1281,7 @@ D4
 0 0 390
 S
 #392
-City Tower L9~
+Arjika Tower L9~
 talk:#adv room:thegame 0392/main:look
 ~
 3 24 0 0 0 0
@@ -1295,7 +1295,7 @@ D5
 0 0 399
 S
 #393
-City Tower L4~
+Arjika Tower L4~
 talk:#adv world:thegame 0393/main:look
 ~
 3 24 0 0 0 0
@@ -1318,7 +1318,7 @@ D5
 0 0 392
 S
 #395
-City Tower L3~
+Arjika Tower L3~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
@@ -1331,7 +1331,7 @@ D5
 0 0 101
 S
 #396
-City Tower L5~
+Arjika Tower L5~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
@@ -1344,7 +1344,7 @@ D5
 0 0 393
 S
 #397
-City Tower L6~
+Arjika Tower L6~
 [DESCRIBE]~
 3 0 0 0 0 0
 D4
@@ -1357,7 +1357,7 @@ D5
 0 0 396
 S
 #398
-City Tower L7~
+Arjika Tower L7~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
@@ -1370,7 +1370,7 @@ D5
 0 0 397
 S
 #399
-City Tower L8~
+Arjika Tower L8~
 [DESCRIBE]~
 3 24 0 0 0 0
 D4
