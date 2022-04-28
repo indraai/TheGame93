@@ -6,7 +6,7 @@ Pilar Fighter~
 2142 0 0 0 2056 0 0 0 -500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 1
+8 8 1 4
 BareHandAttack: 7
 Str: 13
 Dex: 13
@@ -21,14 +21,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #1001
-fighter bloc world fight club~
-Bloc Fighter~
+king vasuki world fight club~
+King Vasuki~
 1001/main:avatar~
-1001/main:look:main~
+1001/main:look~
 2142 0 0 0 2056 0 0 0 -550 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 1
+8 8 1 4
 BareHandAttack: 7
 Str: 14
 Dex: 14
@@ -43,15 +43,15 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #1010
-the fixer world fight club boss~
-The Fixer~
+arjika command general aryaka grandfather~
+Grandfather Aryaka~
 1010/main:avatar~
 1010/main:look:main~
 18974 0 0 0 2056 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 4
-BareHandAttack: 12
+8 8 1 6
+BareHandAttack: 14
 Str: 18
 Dex: 18
 Int: 18

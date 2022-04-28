@@ -116,7 +116,7 @@ D2
 0 0 1006
 S
 #1008
-Backroom Brawls~
+Arjika Operations~
 [DESCRIBE]~
 10 0 0 0 0 0
 D1
@@ -129,7 +129,7 @@ D2
 0 0 1000
 S
 #1009
-The Back Office~
+Arjika Command~
 [DESCRIBE]~
 10 8 0 0 0 0
 D1
@@ -142,9 +142,9 @@ D3
 0 0 1008
 S
 #1010
-The Crisis Room~
+The Rasakunda Room~
 [DESCRIBE]~
-10 8 0 0 0 0
+10 9 0 0 0 0
 D3
 ~
 ~

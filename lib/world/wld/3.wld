@@ -922,8 +922,8 @@ D1
 0 0 362
 S
 #364
-Training L2~
-0364/main:look
+Arjika Training L2~
+talk:#adv room:thegame 0364/main:look
 ~
 3 24 0 0 0 0
 D0
@@ -936,7 +936,7 @@ D4
 0 0 386
 S
 #365
-Training L3~
+Arjika Training L3~
 [DESCRIBE]~
 3 24 0 0 0 0
 D0
@@ -958,7 +958,7 @@ D1
 0 0 329
 S
 #367
-Training L4~
+Arjika Training L4~
 [DESCRIBE]~
 3 24 0 0 0 0
 D0
@@ -1201,7 +1201,7 @@ D1
 0 0 384
 S
 #386
-Training L1~
+Arjika Training Center~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1242,7 +1242,7 @@ D2
 0 0 387
 S
 #389
-Training L5~
+Arjika Training L5~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1255,7 +1255,7 @@ D4
 0 0 367
 S
 #390
-Training L6~
+Arjika Training L6~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1268,7 +1268,7 @@ D4
 0 0 389
 S
 #391
-WFC Entrance~
+Arjika Core~
 undefined~
 3 24 0 0 0 0
 D0
