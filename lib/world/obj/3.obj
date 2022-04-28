@@ -2,14 +2,14 @@
 atm teller bank machine money indra.money~
 an indra.money machine~
 0300/main:avatar~
-talk:#adv object:thegame 0300/main:look
+0300/main:look
 ~
 12 cdeg 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
 atm teller bank machine~
-talk:#adv object:thegame 0300/atm
+0300/atm
 ~
 #301
 cashcard card atm banks~
@@ -29,7 +29,7 @@ strange occurrences to the bank manager.
 sindhu craft car chariot~
 Sindhu~
 302/main:avatar~
-talk:#adv object:thegame 302/main:look
+302/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -39,7 +39,7 @@ T 302
 tarksya craft ship car chariot~
 Tarksya~
 0303/main:avatar~
-talk:#adv object:thegame 0303/main:look
+0303/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -48,7 +48,7 @@ talk:#adv object:thegame 0303/main:look
 pushpak craft ship car chariot~
 Pushpak~
 0304/main:avatar~
-talk:#adv object:thegame 0304/main:look
+0304/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -57,7 +57,7 @@ talk:#adv object:thegame 0304/main:look
 svasti craft ship car chariot~
 Svasti~
 0305/main:avatar~
-talk:#adv object:thegame 0305/main:look
+0305/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
@@ -66,7 +66,7 @@ talk:#adv object:thegame 0305/main:look
 panchajanya conch shell~
 Panchajanya~
 0306/main:avatar~
-talk:#adv object:thegame 0306/main:look
+0306/main:look
 ~
 3 deg 0 0 0 an 0 0 0 defgln 0 0 0
 0 0 0 0
@@ -75,7 +75,7 @@ talk:#adv object:thegame 0306/main:look
 ananta trident weapons~
 Ananta Trident~
 0307/main:avatar~
-talk:#adv object:thegame 0307/main:look
+0307/main:look
 ~
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
@@ -84,7 +84,7 @@ talk:#adv object:thegame 0307/main:look
 ananta mace weapons~
 Ananta Mace~
 0308/main:avatar~
-talk:#adv object:thegame 0308/main:look
+0308/main:look
 ~
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
@@ -93,7 +93,7 @@ talk:#adv object:thegame 0308/main:look
 ananta disc weapons~
 Ananta Disc~
 0309/main:avatar~
-talk:#adv object:thegame 0309/main:look
+0309/main:look
 ~
 5 dg 0 0 0 an 0 0 0 defghln 0 0 0
 0 0 0 0
@@ -102,7 +102,7 @@ talk:#adv object:thegame 0309/main:look
 courtyard bench sit rest~
 Courtyard Bench~
 0310/main:avatar~
-talk:#adv object:thegame 0310/main:look
+0310/main:look
 ~
 6 0 0 0 0 0 0 0 0 0 0 0 0
 10 0 0 0
@@ -111,7 +111,7 @@ talk:#adv object:thegame 0310/main:look
 cyber1 terminal army security~
 CYBER1 TERMINAL~
 0311/main:avatar~
-talk:#adv object:thegame 0311/main:look
+0311/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -120,7 +120,7 @@ talk:#adv object:thegame 0311/main:look
 cyber2 terminal army security~
 CYBER2 TERMINAL~
 0312/main:avatar~
-talk:#adv object:thegame 0312/main:look
+0312/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -129,7 +129,7 @@ talk:#adv object:thegame 0312/main:look
 cyber2 terminal army security~
 CYBER3 TERMINAL~
 0313/main:avatar~
-talk:#adv object:thegame 0313/main:look
+0313/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -138,7 +138,7 @@ talk:#adv object:thegame 0313/main:look
 cyber4 terminal army security~
 CYBER4 TERMINAL~
 0314/main:avatar~
-talk:#adv object:thegame 0314/main:look
+0314/main:look
 ~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
@@ -147,7 +147,7 @@ talk:#adv object:thegame 0314/main:look
 city park water fountain~
 City Park Fountain~
 0315/main:avatar~
-talk:#adv object:thegame 0315/main:look
+0315/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 10 1 0 0
@@ -156,7 +156,7 @@ talk:#adv object:thegame 0315/main:look
 water fountain drinks drink~
 Water Fountain~
 0344/main:avatar~
-talk:#adv object:thegame 0344/main:look
+0344/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
@@ -165,7 +165,7 @@ talk:#adv object:thegame 0344/main:look
 water fountain drinks drink~
 Water Fountain~
 0347/main:avatar~
-talk:#adv object:thegame 0347/main:look
+0347/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0

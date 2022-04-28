@@ -2,33 +2,33 @@
 transmitter signal array~
 Transmitter Array~
 10000/main:avatar~
-talk:#adv object:thegame 10000/main:look
+10000/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 10 877 0 0 0
 E
 array~
-talk:#adv object:thegame 10000/array
+10000/array
 ~
 #10001
 transmitter signal display~
 Transmitter Display~
 10001/main:avatar~
-talk:#adv object:thegame 10001/main:look
+10001/main:look
 ~
 12 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 20 0 0 0 0
 E
 display~
-talk:#adv object:thegame 10001/display
+10001/display
 ~
 #10002
 hash tracker~
 Hash Tracker~
 10002/main:avatar~
-talk:#adv object:thegame 10002/main:look
+10002/main:look
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -37,20 +37,20 @@ talk:#adv object:thegame 10002/main:look
 bruckner theory~
 Bruckner Theory~
 10003/main:avatar~
-talk:#adv object:thegame 10003/main:look
+10003/main:look
 ~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
 E
 theory~
-talk:#adv object:thegame 10003/theory
+10003/theory
 ~
 #10004
 token wallet tokenwallet xwallet~
 Token Wallet~
 10004/main:avatar~
-talk:#adv object:thegame 10004/main:look
+10004/main:look
 ~
 15 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -59,7 +59,7 @@ talk:#adv object:thegame 10004/main:look
 water underground stream~
 Underground Stream~
 10006/main:avatar~
-talk:#adv object:thegame 10006/main:look
+10006/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
@@ -68,7 +68,7 @@ talk:#adv object:thegame 10006/main:look
 0x10008 token underground kingdom cyoa~
 0x10008 Token~
 10008/main:avatar~
-talk:#adv object:thegame 10008/main:look
+10008/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -77,7 +77,7 @@ talk:#adv object:thegame 10008/main:look
 0x10013 token underground kingdom cyoa~
 0x10013 Token~
 10013/main:avatar~
-talk:#adv object:thegame 10013/main:look
+10013/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -86,7 +86,7 @@ talk:#adv object:thegame 10013/main:look
 0x10020 token underground kingdom cyoa~
 0x10020 Token~
 10020/main:avatar~
-talk:#adv object:thegame 10020/main:look
+10020/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -95,7 +95,7 @@ talk:#adv object:thegame 10020/main:look
 0x10023 token underground kingdom cyoa~
 0x10023 Token~
 10023/main:avatar~
-talk:#adv object:thegame 10023/main:look
+10023/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -104,7 +104,7 @@ talk:#adv object:thegame 10023/main:look
 0x10024 token underground kingdom cyoa~
 0x10024 Token~
 10024/main:avatar~
-talk:#adv object:thegame 10024/main:look
+10024/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -113,7 +113,7 @@ talk:#adv object:thegame 10024/main:look
 0x10032 token underground kingdom cyoa~
 0x10032 Token~
 10032/main:avatar~
-talk:#adv object:thegame 10032/main:look
+10032/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -131,7 +131,7 @@ talk:#adv thegame:object 1033/main:look
 tanga fruit food~
 Taga~
 10044/main:avatar~
-talk:#adv object:thegame 10044/main:look
+10044/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
@@ -140,7 +140,7 @@ talk:#adv object:thegame 10044/main:look
 0x10047 token underground kingdom cyoa~
 0x10047 Token~
 10047/main:avatar~
-talk:#adv object:thegame 10047/main:look
+10047/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -149,7 +149,7 @@ talk:#adv object:thegame 10047/main:look
 0x10060 token underground kingdom cyoa~
 0x10060 Token~
 10060/main:avatar~
-talk:#adv object:thegame 10060/main:look
+10060/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -158,7 +158,7 @@ talk:#adv object:thegame 10060/main:look
 0x10063 token underground kingdom cyoa~
 0x10062 Token~
 10062/main:avatar~
-talk:#adv object:thegame 10062/main:look
+10062/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -176,7 +176,7 @@ talk:#adv thegame:object 1064/main:look
 0x10065 token underground kingdom cyoa~
 0x10065 Token~
 10065/main:avatar~
-talk:#adv object:thegame 10065/main:look
+10065/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -194,7 +194,7 @@ talk:#adv thegame:object 1069/main:look
 0x10072 token underground empire cyoa~
 0x10072 Token~
 10072/main:avatar~
-talk:#adv object:thegame 10072/main:look
+10072/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -203,7 +203,7 @@ talk:#adv object:thegame 10072/main:look
 0x10074 token underground kingdom cyoa~
 0x10074 Token~
 10074/main:avatar~
-talk:#adv object:thegame 10074/main:look
+10074/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -212,7 +212,7 @@ talk:#adv object:thegame 10074/main:look
 0x10084 token underground kingdom cyoa~
 0x10084 Token~
 10084/main:avatar~
-talk:#adv object:thegame 10084/main:look
+10084/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -221,7 +221,7 @@ talk:#adv object:thegame 10084/main:look
 0x10089 token underground kingdom cyoa~
 0x10089 Token~
 10089/main:avatar~
-talk:#adv object:thegame 10089/main:look
+10089/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -230,7 +230,7 @@ talk:#adv object:thegame 10089/main:look
 0x10102 token underground kingdom cyoa~
 0x10102 Token~
 10102/main:avatar~
-talk:#adv object:thegame 100102/main:look
+100102/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -239,7 +239,7 @@ talk:#adv object:thegame 100102/main:look
 0x10103 token underground kingdom cyoa~
 0x10103 Token~
 10103/main:avatar~
-talk:#adv object:thegame 100103/main:look
+100103/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -248,7 +248,7 @@ talk:#adv object:thegame 100103/main:look
 0x10106 token underground kingdom cyoa~
 0x10106 Token~
 10106/main:avatar~
-talk:#adv object:thegame 100106/main:look
+100106/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -257,7 +257,7 @@ talk:#adv object:thegame 100106/main:look
 0x10108 token underground kingdom cyoa~
 0x10108 Token~
 10108/main:avatar~
-talk:#adv object:thegame 100108/main:look
+100108/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

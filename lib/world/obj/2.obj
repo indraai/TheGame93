@@ -98,7 +98,7 @@ A pocket knife is here.~
 jalapeno cheese bread jalapenobread food~
 Jalapeno Cheese Bread~
 0218/main:avatar~
-talk:#adv object:thegame 0218/main:look
+0218/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 5 0 0 0
@@ -107,7 +107,7 @@ talk:#adv object:thegame 0218/main:look
 jalapeno cheese bagel jalapenobagel food~
 Jalapeno Cheese Bagel~
 0219/main:avatar~
-talk:#adv object:thegame 0219/main:look
+0219/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 3 0 0 0
@@ -116,7 +116,7 @@ talk:#adv object:thegame 0219/main:look
 jalapeno cheese bites jalapenobites food~
 Jalapeno Cheese Bites~
 0219/main:avatar~
-talk:#adv object:thegame 0219/main:look
+0219/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 0
@@ -125,7 +125,7 @@ talk:#adv object:thegame 0219/main:look
 milk dairy drink farm~
 Farm Milk~
 0242/main:avatar~
-talk:#adv object:thegame 0242/main:look
+0242/main:look
 ~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 9 0
@@ -134,34 +134,34 @@ talk:#adv object:thegame 0242/main:look
 water marble fountain water~
 Water Fountain~
 0251/main:avatar~
-talk:#adv object:thegame 0251/main:look~
+0251/main:look~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 -1 1 0 0
 0 0 0 0 0
 T 201
 E
 statues~
-talk:#adv object:thegame 0251/main:statues~
+0251/main:statues~
 E
 vamraka~
-talk:#adv object:thegame 0251/main:vamraka~
+0251/main:vamraka~
 E
 indu~
-talk:#adv object:thegame 0251/main:indu~
+0251/main:indu~
 E
 soma~
-talk:#adv object:thegame 0251/main:soma~
+0251/main:soma~
 E
 sarya~
-talk:#adv object:thegame 0251/main:sarya~
+0251/main:sarya~
 E
 bom~
-talk:#adv object:thegame 0251/main:bom~
+0251/main:bom~
 E
 indra~
-talk:#adv object:thegame 0251/main:indra~
+0251/main:indra~
 E
 fountain~
-talk:#adv object:thegame 0251/main:fountain
+0251/main:fountain
 ~
 $~

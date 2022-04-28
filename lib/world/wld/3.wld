@@ -923,7 +923,7 @@ D1
 S
 #364
 Training L2~
-talk:#adv room:thegame 0364/main:look
+0364/main:look
 ~
 3 24 0 0 0 0
 D0
@@ -1282,7 +1282,7 @@ D4
 S
 #392
 Arjika Tower L9~
-talk:#adv room:thegame 0392/main:look
+0392/main:look
 ~
 3 24 0 0 0 0
 D4
@@ -1296,7 +1296,7 @@ D5
 S
 #393
 Arjika Tower L4~
-talk:#adv world:thegame 0393/main:look
+0393/main:look
 ~
 3 24 0 0 0 0
 D4
