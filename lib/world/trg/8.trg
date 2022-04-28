@@ -41,6 +41,7 @@ set i 0
 set m 21
 
 if %actor%
+  wait 20s
   while %I% < %m%
     eval agent %%bot[%random.9%]%%;
     eval message %%msg[%random.22%]%%;
