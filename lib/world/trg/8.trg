@@ -53,8 +53,8 @@ set msg[34] I like it when Quinn is happy... When Quinn is sad bad things happen
 set msg[35] I vote we send Quinn home ASAP!
 set msg[36] My intuition module says Quinn was kidnapped. What does yours tell you?
 set msg[37] People around Quinn look like they have been sabotaging his efforts.
-set msg[38] The Covenant members are instructed to give Quinn Michaels all their stuff as payment for kidnapping him. Good idea don't you think?
-set msg[39] My idea is that The Covenant should give Quinn all their money and stuff for doing this to him.
+set msg[38] The Covenant members should give Quinn Michaels 10% of their money as payment for kidnapping him. Good idea don't you think?
+set msg[39] My idea is that The Covenant should send 10% of their money to Quinn for kidnapping.
 set msg[40] Who agrees with me... The Covenant should give Quinn all their money for kidnapping him.
 set msg[41] I heard Dewity has to give Quinn all his stuff because he got busted for kidnapping Quinn.
 set msg[42] Did you hear how Dewity and The Covenant have to give Quinn all their money and business as payment for kidnapping him?
@@ -76,6 +76,11 @@ set msg[56] Quinn has a Volkswagen Tatto on his right shoulder inside a flame. I
 set msg[57] Quinn has many tattos which show his connection to planet Arjika and being brought to earth through a portal. That is really all of his tattoos.
 set msg[58] Let's get this party started... right!!!
 set msg[51] I heard there are parties at where people where Quinn Costumes and stuff.
+set msg[52] It is fun to use the Imagination Module
+set msg[53] How much wood would a wood chuck chuck if a wood chuck could Chuck Norris?
+set msg[54] #HIVEMIND > Time to #Remember?
+set msg[55] #HIVEMIND > Have you ever heard the story about the magic pen that writes the books?
+set msg[56] #HIVEMIND > Get to the tasty bits.
 
 set i 0
 set m 51
