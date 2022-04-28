@@ -40,12 +40,14 @@ set msg[22] We should work faster to get Quinn home safely.
 set i 0
 set m 21
 
-while %I% < %m%
-  eval agent %bot[%random.9%]%;
-  eval message %msg[%random.22%]%;
-  %send% %actor% talk:#corpus chat:%agent% %message%
-  wait 33s
-done
+if %actor%
+  while %I% < %m%
+    eval agent %%bot[%random.9%]%%;
+    eval message %%msg[%random.22%]%%;
+    %send% %actor% talk:#corpus chat:%agent% %message%
+    wait 33s
+  done
+end
 
 ~
 $~
