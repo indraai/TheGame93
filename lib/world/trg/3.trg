@@ -49,7 +49,7 @@ end
 2 d 100
 *~
 
-if %speech% == take the tour
+if %speech% == start tour
   set on_tour 1
   remote on_tour %actor.id%
 
