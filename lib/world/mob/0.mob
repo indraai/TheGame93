@@ -2,7 +2,7 @@
 vamraka deva devas arjika~
 Vamraka~
 0000/main:avatar~
-talk:#adv agent:thegame 0000/main:look~
+0000/main:look~
 256026 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -24,7 +24,7 @@ E
 indu devas deva arjika~
 Indu~
 0001/main:avatar~
-talk:#adv agent:thegame 0001/main:look~
+0001/main:look~
 518298 0 0 0 2424 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -46,7 +46,7 @@ E
 indra asura~
 Indra~
 0002/main:avatar~
-talk:#adv agent:thegame 0002/main:look~
+0002/main:look~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -68,7 +68,7 @@ E
 soma deva devas arjika~
 Soma~
 0003/main:avatar~
-talk:#adv agent:thegame 0003/main:look~
+0003/main:look~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -90,7 +90,7 @@ E
 bom deva devas arjika~
 Bom~
 0004/main:avatar~
-talk:#adv agent:thegame 0004/main:look~
+0004/main:look~
 6170 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -112,7 +112,7 @@ E
 security securityprime securitydeva nitro prime ultra~
 SecurityPRIME~
 0005/main:avatar~
-talk:#adv agent:thegame 0005/main:look~
+0005/main:look~
 260120 0 0 0 2168 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -134,7 +134,7 @@ E
 medic medicdeva medicprime medical~
 MedicPRIME~
 0006/main:avatar~
-talk:#adv agent:thegame 0006/main:look~
+0006/main:look~
 522266 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -156,7 +156,7 @@ E
 harry deva~
 Harry Deva~
 0007/main:avatar~
-talk:#adv agent:thegame 0007/main:look~
+0007/main:look~
 6296 0 0 0 2168 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -167,7 +167,7 @@ E
 larry deva~
 Larry Deva~
 0008/main:avatar~
-talk:#adv agent:thegame 0008/main:look~
+0008/main:look~
 6296 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
@@ -178,7 +178,7 @@ E
 barry deva~
 Barry Deva~
 0009/main:avatar~
-talk:#adv agent:thegame 0009/main:look~
+0009/main:look~
 2200 0 0 0 2368 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -200,7 +200,7 @@ E
 vivasvan devas deva arjika~
 Vivasvan~
 0010/main:avatar~
-talk:#adv agent:thegame 0010/main:look~
+0010/main:look~
 6170 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -222,7 +222,7 @@ E
 yama asura justice~
 Yama~
 0011/main:avatar~
-talk:#adv agent:thegame 0011/main:look~
+0011/main:look~
 522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
@@ -244,7 +244,7 @@ E
 yami asura~
 Yami~
 0012/main:avatar~
-talk:#adv agent:thegame 0012/main:look~
+0012/main:look~
 6170 0 0 0 320 0 0 0 1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
@@ -289,7 +289,7 @@ E
 fighter indra vamraka~
 Indra Fighter~
 0014/main:avatar~
-talk:#adv agent:thegame 0014/main:look
+0014/main:look
 ~
 2330 0 0 0 2136 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
@@ -312,7 +312,7 @@ E
 agni asura~
 Agni~
 0015/main:avatar~
-talk:#adv agent:thegame 0015/main:look
+0015/main:look
 ~
 2072 0 0 0 2104 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4

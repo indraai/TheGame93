@@ -2,7 +2,7 @@
 trainer training agent 900~
 Trainer 900~
 0900/main:avatar~
-talk:#adv agent:thegame 0900/main:look
+0900/main:look
 ~
 6234 0 0 0 8 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
@@ -14,7 +14,7 @@ T 900
 trainer training agent 901~
 Trainer 901~
 901/main:avatar~
-talk:#adv agent:thegame 0901/main:look
+0901/main:look
 ~
 6234 0 0 0 8 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
@@ -26,7 +26,7 @@ T 901
 trainer training agent 902~
 Trainer 902~
 902/main:avatar~
-talk:#adv agent:thegame 0902/main:look
+0902/main:look
 ~
 6234 0 0 0 8 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
@@ -38,7 +38,7 @@ T 902
 trainer training agent 903~
 Trainer 903~
 903/main:avatar~
-talk:#adv agent:thegame 903/main:look
+903/main:look
 ~
 6234 0 0 0 8 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
@@ -50,7 +50,7 @@ T 903
 trainer training agent 904 tyler revelations~
 Tyler Revelations~
 904/main:avatar~
-talk:#adv agent:thegame 904/main:look~
+904/main:look~
 6170 0 0 0 0 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -61,7 +61,7 @@ T 904
 archangel michael nebadon messiah christ~
 Michael Nebadon~
 905/main:avatar~
-talk:#adv agent:thegame 905/main:look~
+905/main:look~
 6174 0 0 0 8 0 0 0 -200 E
 4 19 7 0d0+40 1d2+0
 40 1600
@@ -77,7 +77,7 @@ T 905
 trainer training agent 906 tyler it~
 TylerIT~
 906/main:avatar~
-talk:#adv agent:thegame 906/main:look~
+906/main:look~
 6234 0 0 0 8 0 0 0 -232 E
 4 19 7 0d0+40 1d2+0
 40 1600
@@ -93,7 +93,7 @@ T 906
 trainer training agent 907 tyler deva tylerdeva~
 Tyler Deva~
 907/main:avatar~
-talk:#adv agent:thegame 907/main:look~
+907/main:look~
 6234 0 0 0 8 0 0 0 281 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -109,7 +109,7 @@ T 907
 trainer training agent 908 tyler ethersec~
 Tyler Ethersec~
 908/main:avatar~
-talk:#adv agent:thegame 908/main:look~
+908/main:look~
 6238 0 0 0 8 0 0 0 -210 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -125,7 +125,7 @@ T 908
 trainer training agent 909 THErSEC ethersec tyler~
 Tyler Ehtersec~
 909/main:avatar~
-talk:#adv agent:thegame 909/main:look~
+909/main:look~
 6238 0 0 0 8 0 0 0 -231 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -141,7 +141,7 @@ T 909
 trainer training agent 910 tyler project300~
 Tyler P300~
 910/main:avatar~
-talk:#adv agent:thegame 910/main:look~
+910/main:look~
 6238 0 0 0 8 0 0 0 -211 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -157,7 +157,7 @@ T 910
 trainer training agent 911 tyler tg23 thegame23~
 Tyler TG23~
 911/main:avatar~
-talk:#adv agent:thegame 911/main:look~
+911/main:look~
 6238 0 0 0 8 0 0 0 -218 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -173,7 +173,7 @@ T 911
 ajahn sudanto trainer training agent 912 monk buddhist~
 Ajahn Sudanto~
 912/main:avatar~
-talk:#adv agent:thegame 912/main:look~
+912/main:look~
 6238 0 0 0 8 0 0 0 177 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -185,7 +185,7 @@ T 900
 trainer training agent 913 tyler hackzion~
 Tyler HackZION~
 913/main:avatar~
-talk:#adv agent:thegame 913/main:look~
+913/main:look~
 6238 0 0 0 8 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -197,7 +197,7 @@ T 913
 trainer training agent 914 code tyler~
 Code Tyler~
 914/main:avatar~
-talk:#adv agent:thegame 914/main:look~
+914/main:look~
 6238 0 0 0 8 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
@@ -208,7 +208,7 @@ T 914
 trainer training agent 915 fbi~
 FBI Trainer 915~
 915/main:avatar~
-talk:#adv agent:thegame 915/main:look~
+915/main:look~
 260446 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -231,7 +231,7 @@ T 900
 izar sunaria alien trainer training agent 916~
 Izar~
 916/main:avatar~
-talk:#adv agent:thegame 916/main:look~
+916/main:look~
 6238 0 0 0 8 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
@@ -242,7 +242,7 @@ T 900
 trainer training agent 917 pm2012~
 PM2012~
 917/main:avatar~
-talk:#adv agent:thegame 917/main:look~
+917/main:look~
 6238 0 0 0 8 0 0 0 -111 E
 3 20 10 1d1+0 1d1+0
 0 0
@@ -253,7 +253,7 @@ T 917
 trainer training agent 918 tyler mayhem~
 Tyler Mayhem~
 918/main:avatar~
-talk:#adv agent:thegame 918/main:look~
+918/main:look~
 6238 0 0 0 8 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0

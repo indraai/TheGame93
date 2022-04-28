@@ -3,7 +3,7 @@ daniel sheehan christic romero~
 Daniel Sheehan~
 0200/main:avatar
 ~
-talk:#adv agent:thegame 0200/main:look
+0200/main:look
 ~
 2074 0 0 0 0 0 0 0 -250 E
 9 17 4 1d1+90 1d2+1
@@ -21,7 +21,7 @@ sara nelson christic romero~
 Sara Nelson~
 0201/main:avatar
 ~
-talk:#adv agent:thegame 0201/main:look
+0201/main:look
 ~
 2074 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
@@ -37,7 +37,7 @@ E
 martha stuart home store mall~
 Martha Stuart~
 204/main:avatar~
-talk:#adv agent:thegame 204/main:look~
+204/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
@@ -59,7 +59,7 @@ E
 services deva harry indra.services deva~
 Harry Services~
 0209/main:avatar~
-talk:#adv agent:thegame 0209/main:look
+0209/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -71,7 +71,7 @@ E
 larry services indra.services deva~
 Larry Services~
 0210/main:avatar~
-talk:#adv agent:thegame 0210/main:look
+0210/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -83,7 +83,7 @@ E
 barry services indra.services deva~
 Barry Services~
 0211/main:avatar~
-talk:#adv agent:thegame 0211/main:look
+0211/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -110,7 +110,7 @@ rahu king demon asuras~
 Demon King Rahu~
 0213/main:avatar
 ~
-talk:#adv agent:thegame 0213/main:look
+0213/main:look
 ~
 2136 0 0 0 2152 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
@@ -133,7 +133,7 @@ E
 security securitydeva guard d214 z2~
 SecurityDEVA D214 (Guard)~
 0214/main:avatar~
-talk:#adv agent:thegame 0214/main:look~
+0214/main:look~
 260378 0 0 0 56 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -155,7 +155,7 @@ E
 security securitydeva guard d215 z2~
 SecurityDEVA D215 (Guard)~
 0215/main:avatar~
-talk:#adv agent:thegame 0215/main:look~
+0215/main:look~
 260378 0 0 0 2104 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -190,7 +190,7 @@ E
 martin bookstore books clerk~
 Martin~
 0217/main:avatar~
-talk:#adv agent:thegame 0217/main:look
+0217/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
@@ -207,7 +207,7 @@ E
 harry solution indra.solution deva~
 Harry Solutions~
 0218/main:avatar~
-talk:#adv agent:thegame 0218/main:look
+0218/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -219,7 +219,7 @@ E
 larry solutions indra.solutions deva~
 Larry Solutions~
 0219/main:avatar~
-talk:#adv agent:thegame 0219/main:look
+0219/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -231,7 +231,7 @@ E
 barry solution indra.solutions deva~
 Barry Solutions~
 0220/main:avatar~
-talk:#adv agent:thegame 0220/main:look
+0220/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -243,7 +243,7 @@ E
 harry support indra.support deva~
 Harry Support~
 0221/main:avatar~
-talk:#adv agent:thegame 0221/main:look
+0221/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -255,7 +255,7 @@ E
 larry support indra.support deva~
 Larry Support~
 0222/main:avatar~
-talk:#adv agent:thegame 0222/main:look
+0222/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -267,7 +267,7 @@ E
 barry support indra.support deva~
 Barry Support~
 0223/main:avatar~
-talk:#adv agent:thegame 0223/main:look
+0223/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 10 1d1+0 1d1+0
@@ -279,7 +279,7 @@ E
 harry systems indra.systems deva~
 Harry Systems~
 0224/main:avatar~
-talk:#adv agent:thegame 0224/main:look
+0224/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -291,7 +291,7 @@ E
 larry systems indra.systems deva~
 Larry Systems~
 0225/main:avatar~
-talk:#adv agent:thegame 0225/main:look
+0225/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -303,7 +303,7 @@ E
 barry systems indra.support deva~
 Barry Systems~
 0226/main:avatar~
-talk:#adv agent:thegame 0226/main:look
+0226/main:look
 ~
 4106 0 0 0 0 0 0 0 0 E
 1 20 10 1d1+0 1d1+0
@@ -315,7 +315,7 @@ E
 hackerman tech store mall~
 Hackerman~
 230/main:avatar~
-talk:#adv agent:thegame 230/main:look~
+230/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -330,7 +330,7 @@ E
 army cyber4 soldier agent~
 ARMY Cyber4~
 297/main:avatar~
-talk:#adv agent:thegame 297/main:look~
+297/main:look~
 6170 0 0 0 2168 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000

@@ -2,7 +2,7 @@
 king barry disneyland~
 King Barry of Disneyland~
 1100/main:avatar~
-talk:#adv agent:thegame 1100/main:look~
+1100/main:look~
 6360 0 0 0 2168 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
@@ -18,7 +18,7 @@ E
 security securityprime security spy deva securitydeva~
 SecurityPRIME SPY~
 1101/main:avatar~
-talk:#adv agent:thegame 1101/main:look
+1101/main:look
 ~
 260184 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
@@ -41,7 +41,7 @@ E
 esmeralda psychic prophecies oracle fortune~
 Esmeralda~
 1102/main:avatar~
-talk:#adv agent:thegame 1102/main:look~
+1102/main:look~
 18458 0 0 0 8 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
