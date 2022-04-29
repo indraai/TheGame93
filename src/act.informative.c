@@ -790,10 +790,11 @@ static void look_at_target(struct char_data *ch, char *arg)
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Object\r"
           "::begin:object"
-          "\ntalk:#adv object:thegame  %d/main:look\r"
+          "\ntalk:#adv object:thegame  %d/main:%s\r"
           "\n::end:object\r"
           "\nroom:%d",
           GET_OBJ_VNUM(obj),
+          desc,
           GET_ROOM_VNUM(IN_ROOM(ch))
         );
 	      found = TRUE;
