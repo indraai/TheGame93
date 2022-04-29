@@ -99,6 +99,10 @@ Training Room 908~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
+D2
+~
+~
+0 0 919
 D3
 ~
 ~
@@ -203,5 +207,15 @@ D0
 ~
 ~
 0 0 904
+S
+#919
+Training Room 919~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 908
 S
 $~
