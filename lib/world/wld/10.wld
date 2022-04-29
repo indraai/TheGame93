@@ -116,9 +116,9 @@ D2
 0 0 1006
 S
 #1008
-Arjika Operations~
+House Aryaka~
 [DESCRIBE]~
-10 0 0 0 0 0
+10 25 0 0 0 0
 D1
 ~
 ~
@@ -129,9 +129,9 @@ D2
 0 0 1000
 S
 #1009
-Arjika Command~
+Aryaka Lounge~
 [DESCRIBE]~
-10 8 0 0 0 0
+10 25 0 0 0 0
 D1
 ~
 ~
@@ -142,9 +142,9 @@ D3
 0 0 1008
 S
 #1010
-The Rasakunda Room~
+Aryaka Shrine~
 [DESCRIBE]~
-10 9 0 0 0 0
+10 25 0 0 0 0
 D3
 ~
 ~
