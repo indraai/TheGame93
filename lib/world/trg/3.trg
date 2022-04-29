@@ -40,9 +40,7 @@ wait 2s
 clear on_tour variable~
 2 g 100
 ~
-if %actor.varexists(on_tour)%
-  rdelete on_tour %actor.id%
-end
+rdelete on_tour %actor.id%
 ~
 #386
 386 Tour~

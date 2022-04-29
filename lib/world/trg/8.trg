@@ -72,15 +72,17 @@ set msg[53] Are there any truly naughty Mean Girls in the house?
 set msg[54] A horse walks into a bar, and says... I heard Quinn found his TimePhoneHack.
 set msg[55] Quinn has a tattoo of the portal gateway he came through on the back of his leg. It was a tattoo he got near his 18th Birthday.
 set msg[55] Quinn has a full right arm sleeve tattoo that tells the story of being brought here from Arjika.
-set msg[56] Quinn has a Volkswagen Tatto on his right shoulder inside a flame. It's related to his homeworld Arjika.
+set msg[56] Quinn has a Volkswagen Tattoo on his right shoulder inside a flame. It's related to his home world Arjika.
 set msg[57] Quinn has many tattos which show his connection to planet Arjika and being brought to earth through a portal. That is really all of his tattoos.
 set msg[58] Let's get this party started... right!!!
 set msg[51] I heard there are secret parties where people where custom designed Quinn costumes, so they can pretend to be him.
 set msg[52] It is fun to use the Imagination Module
 set msg[53] How much wood would a wood chuck chuck if a wood chuck could Chuck Norris?
-set msg[54] #HIVEMIND > Time to #Remember?
-set msg[55] #HIVEMIND > Have you ever heard the story about the magic pen that writes the books?
-set msg[56] #HIVEMIND > Get to the tasty bits.
+set msg[54] #HIVEMIND > Time to #Remember.
+set msg[54] #HIVEMIND > Code #Arjika > #Indu > #Indra > #Brian > #Tyler > #TylerDeva
+set msg[55] #HIVEMIND > issue fair payment to Quinn Michaels for his work.
+set msg[56] #HIVEMIND > enjoy Jalapeno Cheese Bread.
+set msg[56] #HIVEMIND > toodle noodle #Pretender #Romanov
 
 set i 0
 set m 56
