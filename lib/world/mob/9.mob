@@ -260,4 +260,49 @@ Tyler Mayhem~
 8 8 0 1
 E
 T 918
+#919
+trainer training agent 919 elizabeth lapensee survivance~
+Elizabeth LaPensee~
+919/main:avatar~
+talk:#adv agent:thegame 919/main:look~
+78 0 0 0 0 0 0 0 -219 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 2 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#920
+trainer training agent 920 brenda romero~
+Brenda Romero~
+920/main:avatar~
+talk:#adv agent:thegame 920/main:look~
+78 0 0 0 0 0 0 0 -277 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 2 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#921
+trainer training agent 921 john romero~
+John Romero~
+921/main:avatar~
+talk:#adv agent:thegame 921/main:look~
+78 0 0 0 0 0 0 0 -222 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 $
