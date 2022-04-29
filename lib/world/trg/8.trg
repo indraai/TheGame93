@@ -87,7 +87,7 @@ set msg[56] #HIVEMIND > toodle noodle #Pretender #Romanov
 set i 0
 set m 56
 
-if %actor%
+if %actor% && %actor.varexists(on_tour)%
   wait 20s
   while %I% < %m%
     eval agent %%bot[%random.9%]%%

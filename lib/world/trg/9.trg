@@ -432,4 +432,58 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud north
 end
 ~
+#919
+919 Trainer~
+0 g 100
+~
+set pump[0] It was found that Trenton's mother Tabitha was playing a game called Survivance created by Elizabeth LePensee in October of 2013.
+
+set pump[1] This time in October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outine new options for Anonymous.
+
+set pump[2] October 2013 was a working as a programmer for PopArt, and this was a few months before Quinn would begin working at Nike.
+
+set pump[3] October 2013 was when Quinn literally lived down the street from Trenton and Tabitha. Tabitha has never let Quinn see Trenton even when he was living a few blocks away.
+
+set pump[4] The best way to predict the future is to create it.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:indra %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud north
+end
+~
+#920
+920 Trainer~
+0 g 100
+~
+set pump[0] The Game 23 turns Tyler from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
+
+set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
+
+set pump[2] Project Mayhem will be the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to collaborate to develop and code TYLER.
+
+set pump[3] There's nothing more dangerous than someone who wants to make the world a better place.
+
+set pump[4] The best way to predict the future is to create it.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:indra %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud north
+end
+~
 $~
