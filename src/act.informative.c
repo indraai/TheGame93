@@ -794,7 +794,7 @@ static void look_at_target(struct char_data *ch, char *arg)
           "\n::end:object\r"
           "\nroom:%d",
           GET_OBJ_VNUM(obj),
-          desc,
+          LOWER(desc),
           GET_ROOM_VNUM(IN_ROOM(ch))
         );
 	      found = TRUE;
