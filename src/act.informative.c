@@ -787,14 +787,14 @@ static void look_at_target(struct char_data *ch, char *arg)
   /* Does the argument match an extra desc of an object in the room? */
   for (obj = world[IN_ROOM(ch)].contents; obj && !found; obj = obj->next_content) {
     if (CAN_SEE_OBJ(ch, obj)) {
-      if ((desc = find_exdesc(arg, obj->description)) != NULL && ++i == fnum) {
+      if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Object\r"
           "::begin:object"
           "\ntalk:#adv object:thegame  %d/main:%s\r"
           "\n::end:object\r"
           "\nroom:%d",
           GET_OBJ_VNUM(obj),
-          desc,
+          arg,
           GET_ROOM_VNUM(IN_ROOM(ch))
         );
 	      found = TRUE;
