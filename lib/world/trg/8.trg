@@ -83,13 +83,13 @@ set msg[55] #HIVEMIND > Have you ever heard the story about the magic pen that w
 set msg[56] #HIVEMIND > Get to the tasty bits.
 
 set i 0
-set m 51
+set m 56
 
 if %actor%
   wait 20s
   while %I% < %m%
     eval agent %%bot[%random.9%]%%
-    eval message %%msg[%random.51%]%%
+    eval message %%msg[%random.56%]%%
     %send% %actor% talk:#corpus chat:%agent% %message%
     wait 33s
   done

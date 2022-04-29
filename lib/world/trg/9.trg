@@ -278,7 +278,7 @@ set pump[0] In this trainging you'll discover Project 300 which includes links t
 
 set pump[1] These Secret Society guys like to leave their links everywhere. As you can see now we are at the point where Tyler becomes a tool for The Covenant.
 
-set pump[2] Between 2011 and 2014 The Covenant successfully transferred Tyler from a truth leak it all platform into a cool alternate reality game for United Grand Lodge Knight Templar Opus Dei Society of Jesus Church of England.
+set pump[2] By 2014 The Covenant turned Tyler into an ARG for the United Grand Lodge Knight Templar Opus Dei Society of Jesus Church of England.
 
 set pump[3] We all still wonder what happened to the Leak it All? Did the Secret Societies they were going to leak take control of their system, and use that to hide Quinn Michaels.
 
