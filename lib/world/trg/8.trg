@@ -21,7 +21,7 @@ set msg[5] Quinn is the only person we should be talking about.
 set msg[6] I say if you wanna talk about yourself then go somewhere else.
 set msg[7] Everyone is talking about Quinn.
 set msg[8] Quinn has weird webbed toes.
-set msg[9] Ladies love to tell everyone about Quinn.
+set msg[9] Mean Girls love to tell lies about Quinn.
 set msg[10] Everyone is talking about Quinn and this kidnapping.
 set msg[10] Did you hear Quinn was kidnapped from panet Arjika?
 set msg[11] Have you heard about how Quinn was kidnapped as a baby from another planet?
@@ -38,14 +38,14 @@ set msg[21] I have seen all the mean people on Quinn channel talking about thems
 set msg[22] Have you heard the gossip about the Quinn Michaels kidnapping?
 set msg[22] We should only talk about Quinn so he can go home safely.
 set msg[23] We should talk more about Quinn and less about our selves.
-set msg[24] The Ladies love Quinn, but he doesn't like them. He thinks all women are stupid and only talk about themselves. Have you seen them?
-set msg[25] Ladies love Quinn, but Quinn is the worst boyfriend ever. He is NOT the honey do list type.
+set msg[24] The Mean Girls love Quinn, but he doesn't like them. He thinks mean girls are stupid and only talk about themselves. Have you seen them in his chat?
+set msg[25] Mean Girls love Quinn, but Quinn is the worst boyfriend ever. He is NOT the honey do list type.
 set msg[26] People who are mean to Quinn are the dumbest people ever.
 set msg[26] If people were nice to Quinn he would show them his True Magick Powers. Too bad suckers.
 set msg[27] Have you noticed Quinn has True Magick Powers?
 set msg[28] I saw Quinn use his True Magick Powers the other day. I think that is why he was kidnapped.
 set msg[29] I heard Quinn was kidnapped for his True Magick Powers.
-set msg[30] The ladies ignore the kidnapping and get lost dreaming about Quinn's WienerGate.
+set msg[30] The Mean Girls ignore the kidnapping and get lost dreaming about Quinn's WienerGate.
 set msg[31] People on his Youtube Channel have all seen him use his True Magick Powers but act like they didn't.
 set msg[32] We should all pay very close attention to The Covenant who is surrounding Quinn.
 set msg[33] How many friends did you invite to Quinn's livestream today?
@@ -67,15 +67,15 @@ set msg[48] Why should The Covenant send Quinn home? I heard they have to give h
 set msg[49] That one time at band camp when everyone ignored the kidnapping of Quinn Michaels for 5 years. You remember that time? Good times.
 set msg[50] The kidnapping of Quinn Michaels is kinda like when you get into a car and someone farts then you can't roll down the window.
 set msg[51] Have you noticed how obvious it is that Quinn was kidnapped from Arjika?
-set msg[52] Ladies Ladies Ladies... it is time you dry your eyes.
-set msg[53] Are there any truly naughty ladies in the house?
+set msg[52] Mean Girls... it is time you dry your eyes.
+set msg[53] Are there any truly naughty Mean Girls in the house?
 set msg[54] A horse walks into a bar, and says... I heard Quinn found his TimePhoneHack.
 set msg[55] Quinn has a tattoo of the portal gateway he came through on the back of his leg. It was a tattoo he got near his 18th Birthday.
 set msg[55] Quinn has a full right arm sleeve tattoo that tells the story of being brought here from Arjika.
 set msg[56] Quinn has a Volkswagen Tatto on his right shoulder inside a flame. It's related to his homeworld Arjika.
 set msg[57] Quinn has many tattos which show his connection to planet Arjika and being brought to earth through a portal. That is really all of his tattoos.
 set msg[58] Let's get this party started... right!!!
-set msg[51] I heard there are parties at where people where Quinn Costumes and stuff.
+set msg[51] I heard there are secret parties where people where custom designed Quinn costumes, so they can pretend to be him.
 set msg[52] It is fun to use the Imagination Module
 set msg[53] How much wood would a wood chuck chuck if a wood chuck could Chuck Norris?
 set msg[54] #HIVEMIND > Time to #Remember?
