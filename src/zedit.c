@@ -542,7 +542,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
 	  "\nmenu[New Ation]:1\r"
 	  "\nmenu[Edit Action]:2\r"
 	  "\nmenu[Delete Action]:3\r"
-	  "\nmenu[Quit]:0\r");
+	  "\nmenu[quit]:0\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
@@ -623,7 +623,7 @@ static void zedit_disp_arg2(struct descriptor_data *d)
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nHow many Agents can exist? (0-99)\n");
+    write_to_output(d, "\nHow many can exist? (0-99)\n");
     break;
   case 'D':
     for (i = 0; *dirs[i] != '\n'; i++) {
@@ -661,18 +661,21 @@ static void zedit_disp_arg3(struct descriptor_data *d)
   case 'E':
     // column_list(d->character, 0, equipment_types, NUM_WEARS, TRUE);
 
+    write_to_output(d, "\n## Equip Location\r"
+      "\n::begin:buttons\r");
+
     for (i = 0; i < NUM_WEARS; i++) {
       write_to_output(d, "\nbmud[%s]:%d\r", equipment_types[i], ++count);
     }
 
-    write_to_output(d, "\nLocation to equip : \r");
+    write_to_output(d, "\n::end:buttons\r");
     break;
   case 'P':
-    write_to_output(d, "Virtual number of the container...\r\n");
+    write_to_output(d, "\nWhat is the Container VNum?\r");
     break;
   case 'D':
     write_to_output(d,
-    "## Door State\r\n"
+    "\n## Door State\r"
     "\nmenu[door open]:0\r"
 		"\nmenu[door closed]:1\r"
 		"\nmenu[door locked]:2\r");
@@ -687,7 +690,7 @@ static void zedit_disp_arg3(struct descriptor_data *d)
     /* We should never get here, just in case. */
     cleanup_olc(d, CLEANUP_ALL);
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: zedit_disp_arg3(): Help!\r\n");
-    write_to_output(d, "Oops...\r\n");
+    write_to_output(d, "\nOops...\r");
     return;
   }
   OLC_MODE(d) = ZEDIT_ARG3;
@@ -707,9 +710,9 @@ static void zedit_disp_levels(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	"\n## Recommendations\r\n"
-	"\nmenu[min level]:1\r"
-	"\nmenu[max level]:2\r"
-	"\nmenu[clear level]:3\r"
+	"\nmenu[Min Level]:1\r"
+	"\nmenu[Max Level]:2\r"
+	"\nmenu[Llear Level]:3\r"
 	"\nmenu[quit]:0\r"
   "\n%s\r", lev_string);
   OLC_MODE(d) = ZEDIT_LEVELS;
@@ -833,7 +836,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
           break;
         }
       }
-      write_to_output(d, "\nWhat is the new command number?\r");
+      write_to_output(d, "\nWhat is the new action number?\r");
       OLC_MODE(d) = ZEDIT_NEW_ENTRY;
       break;
     case '2':
