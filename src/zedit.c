@@ -539,10 +539,10 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu[insert action]:1\r"
-	  "\nmenu[edit action]:2\r"
-	  "\nmenu[delete action]:3\r"
-	  "\nmenu[quit]:0\r");
+	  "\nmenu[New Ation]:1\r"
+	  "\nmenu[Edit Action]:2\r"
+	  "\nmenu[Delete Action]:3\r"
+	  "\nmenu[Quit]:0\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
@@ -575,14 +575,14 @@ static void zedit_disp_arg1(struct descriptor_data *d)
 
   switch (OLC_CMD(d).command) {
   case 'M':
-    write_to_output(d, "Input mob's vnum\r\n");
+    write_to_output(d, "\nWhat is the Agent VNum?\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'O':
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "Input object vnum...\r\n");
+    write_to_output(d, "\nWhat is the Object VNum?\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'D':
@@ -593,14 +593,18 @@ static void zedit_disp_arg1(struct descriptor_data *d)
     break;
   case 'T':
   case 'V':
-    write_to_output(d, "Input trigger type (0:mob, 1:obj, 2:room)...\r\n");
+    write_to_output(d, "\nTrigger Type\r"
+      "\nmenu[Agent]:0\r"
+      "\nmenu[Object]:1\r"
+      "\nmenu[Room]:2\r"
+    );
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   default:
     /* We should never get here. */
     cleanup_olc(d, CLEANUP_ALL);
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: zedit_disp_arg1(): Help!\r\n");
-    write_to_output(d, "Oops...\r\n");
+    write_to_output(d, "\nOops...\r");
     return;
   }
 }
@@ -619,28 +623,28 @@ static void zedit_disp_arg2(struct descriptor_data *d)
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "Input the maximum number that can exist on the mud...\r\n");
+    write_to_output(d, "\nHow many Agents can exist? (0-99)\n");
     break;
   case 'D':
     for (i = 0; *dirs[i] != '\n'; i++) {
-      write_to_output(d, "slect[%d:exit] %s\r\n", i, dirs[i]);
+      write_to_output(d, "\nslect[%d:exit] %s\r", i, dirs[i]);
     }
-    write_to_output(d, "Enter exit number for door...\r\n");
+    write_to_output(d, "\nWhat is the Exit Number?\r");
     break;
   case 'R':
-    write_to_output(d, "Input object's vnum...\r\n");
+    write_to_output(d, "What is the Object's Vnum?\r");
     break;
   case 'T':
-    write_to_output(d, "Enter the trigger vnum...\r\n");
+    write_to_output(d, "What is the Trigger VNum?\r");
     break;
   case 'V':
-    write_to_output(d, "Global's context (0 for none)...\r\n");
+    write_to_output(d, "\nWhat is the context? (0 for none)\r");
     break;
   default:
     /* We should never get here, but just in case.  */
     cleanup_olc(d, CLEANUP_ALL);
     mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: zedit_disp_arg2(): Help!\r\n");
-    write_to_output(d, "Oops...\r\n");
+    write_to_output(d, "\nOops...\r");
     return;
   }
   OLC_MODE(d) = ZEDIT_ARG2;
@@ -650,13 +654,18 @@ static void zedit_disp_arg2(struct descriptor_data *d)
    up the input catch clause. */
 static void zedit_disp_arg3(struct descriptor_data *d)
 {
-
+  int i,count=0;
   write_to_output(d, "\r\n");
 
   switch (OLC_CMD(d).command) {
   case 'E':
-    column_list(d->character, 0, equipment_types, NUM_WEARS, TRUE);
-    write_to_output(d, "Location to equip : ");
+    // column_list(d->character, 0, equipment_types, NUM_WEARS, TRUE);
+
+    for (i = 0; i < NUM_WEARS; i++) {
+      write_to_output(d, "\nbmud[%s]:%d\r", equipment_types[i], ++count);
+    }
+
+    write_to_output(d, "\nLocation to equip : \r");
     break;
   case 'P':
     write_to_output(d, "Virtual number of the container...\r\n");
