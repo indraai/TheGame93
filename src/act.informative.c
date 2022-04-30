@@ -1782,7 +1782,7 @@ static void perform_deva_where(struct char_data *ch, char *arg)
     for (i = character_list; i; i = i->next)
       if (CAN_SEE(ch, i) && IN_ROOM(i) != NOWHERE && isname(arg, i->player.name)) {
         found = 1;
-        send_to_char(ch, "\n%d. %d:%s > %d:%s\r",
+        send_to_char(ch, "\n%d. %d:%s > %d:%s",
           ++num,
           GET_MOB_VNUM(i),
           GET_NAME(i),
