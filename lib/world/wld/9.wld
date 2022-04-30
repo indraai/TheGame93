@@ -32,6 +32,10 @@ S
 Training Room 902~
 [DESCRIBE]~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 922
 D2
 ~
 ~
@@ -241,5 +245,15 @@ D1
 ~
 ~
 0 0 911
+S
+#922
+Training Room 922~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 919
 S
 $~
