@@ -539,9 +539,9 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu[insert command]:1\r"
-	  "\nmenu[edit command]:2\r"
-	  "\nmenu[delete command]:3\r"
+	  "\nmenu[insert action]:1\r"
+	  "\nmenu[edit action]:2\r"
+	  "\nmenu[delete action]:3\r"
 	  "\nmenu[quit]:0\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
@@ -554,15 +554,15 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
   "\n## Command Type\r"
-  "\nmenu[open/close/lock door]:d\r"
-  "\nmenu[equip agent object]:e\r"
-  "\nmenu[give agent object]:g"
-  "\nmenu[load agent]:m\r"
-  "\nmenu[load object]:o\r"
-  "\nmenu[object in object]:p\r"
-  "\nmenu[remove object]:r\r"
-  "\nmenu[assign trigger]:t\r"
-  "\nmenu[global variable]:v"
+  "\nmenu[Load Agent]:m\r"
+  "\nmenu[Equip Agent]:e\r"
+  "\nmenu[Give Agent]:g"
+  "\nmenu[Load Object]:o\r"
+  "\nmenu[Load Object in Object]:p\r"
+  "\nmenu[Remove Object]:r\r"
+  "\nmenu[Open/Close/Lock Door]:d\r"
+  "\nmenu[Assign Trigger]:t\r"
+  "\nmenu[Global Variable]:v"
 	);
   OLC_MODE(d) = ZEDIT_COMMAND_TYPE;
 }
