@@ -419,6 +419,10 @@ Plaza Loop (N)~
 You are in an unfinished room.
 ~
 11 16 0 0 0 1
+D0
+~
+~
+0 0 1500
 D1
 ~
 ~
@@ -449,6 +453,10 @@ D2
 ~
 ~
 0 0 1124
+D3
+~
+~
+0 0 1400
 S
 #1124
 Plaza Loop SW~
@@ -466,7 +474,7 @@ D2
 D3
 ~
 ~
-0 0 1200
+0 0 1300
 S
 #1125
 Main Street (W)~

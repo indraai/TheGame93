@@ -3,7 +3,7 @@ king barry disneyland~
 King Barry of Disneyland~
 1100/main:avatar~
 1100/main:look~
-6360 0 0 0 2168 0 0 0 0 E
+6360 0 0 0 2168 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 2
@@ -14,6 +14,7 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+T 1100
 #1101
 security securityprime security spy deva securitydeva disney disneyland~
 SecurityPRIME SPY~
@@ -54,7 +55,7 @@ Male Guest 1126~
 1126/main:avatar~
 1126/main:look
 ~
-8 0 0 0 0 0 0 0 0 E
+72 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -70,7 +71,7 @@ Female Guest 1127~
 1127/main:avatar~
 1127/main:look
 ~
-8 0 0 0 0 0 0 0 0 E
+72 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 2 1
@@ -79,6 +80,23 @@ SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
+E
+#1129
+esmeralda psychic prophecies oracle fortune~
+Esmeralda~
+1129/main:avatar~
+1129/main:look
+~
+18522 0 0 0 8 0 0 0 -1000 E
+15 15 1 3d3+150 2d2+2
+1500 22500
+8 8 2 0
+BareHandAttack: 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #1139
 mad hatter disneyland disney~
@@ -96,14 +114,59 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#1160
+disney disneyland plazainn attendant~
+Plaza Inn Attendant~
+1160/main:avatar~
+1160/main:look~
+74 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0 1
+E
+T 1160
 #1161
 disney disneyland attendant plaza pavillion~
 Plaza Attendant~
 1161/main:avatar~
 talk:#adv agent:thegame 1161/main:look~
-10 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 0 0
 E
+T 1161
+#1162
+disney disneyland cocacola refreshment center~
+Refreshment Attendant~
+1162/main:avatar~
+1162/main:look~
+74 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1
+E
+T 1162
+#1163
+disney disneyland candy palace attendant~
+Candy Attendant~
+1163/main:avatar~
+1163/main:look~
+74 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0 1
+E
+T 1163
+#1164
+disney disneyland penny arcade attendant~
+Arcade Attendant~
+1164/main:avatar~
+1164/main:look~
+74 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0 1
+E
+T 1164
 $

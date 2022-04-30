@@ -2,6 +2,11 @@
 Quinn Michaels~
 Disneyland Main Street~
 1100 1199 30 2 d 0 0 0 -1 -1
+M 0 1160 1 1160 	(Plaza Inn Attendant)
+M 0 1164 1 1164 	(Arcade Attendant)
+M 0 1129 1 1129 	(Esmeralda)
+M 0 1163 1 1163 	(Candy Attendant)
+M 0 1162 1 1162 	(Refreshment Attendant)
 M 0 1126 1 1126 	(Male Guest 1126)
 E 1 1100 99 6 	(Mickey Mouse Ears)
 M 0 1127 1 1127 	(Female Guest 1127)
@@ -10,7 +15,6 @@ M 0 1161 1 1161 	(Plaza Attendant)
 M 0 1139 1 1139 	(the Mad Hatter)
 G 1 1100 99 -1 	(Mickey Mouse Ears)
 O 0 300 99 1137 	(Bank of Arjika ATM)
-M 0 1102 1 1164 	(Esmeralda)
 M 0 1100 1 1171 	(King Barry of Disneyland)
 M 0 1101 1 1170 	(SecurityPRIME SPY)
 O 0 1157 1 1157 	(RTC31930 Computer)

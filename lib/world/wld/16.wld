@@ -1,0 +1,89 @@
+#1600
+Tomorrowland~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D1
+~
+~
+0 0 1601
+D2
+~
+~
+0 0 1604
+D3
+~
+~
+0 0 1121
+S
+#1601
+Tomorrowland~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1602
+D2
+~
+~
+0 0 1603
+D3
+~
+~
+0 0 1600
+S
+#1602
+Coca-Cola Tomorrowland Terrace~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D2
+~
+~
+0 0 1601
+S
+#1603
+Tomorrowland Information~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1601
+D3
+~
+~
+0 0 1605
+S
+#1604
+Tomorrowland~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1600
+D1
+~
+~
+0 0 1605
+S
+#1605
+Tomorrowland~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1603
+D3
+~
+~
+0 0 1604
+S
+$~
