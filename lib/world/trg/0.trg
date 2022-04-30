@@ -12,6 +12,12 @@ set msg Welcome to the Indra Academy. Where you learn what you want when you wan
 wait 2s
 %echo% %msg%
 ~
+#9
+Barry Deva Triggers~
+0 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #95
 Arjika Dayshift~
 0 t 100

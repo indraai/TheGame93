@@ -4,7 +4,7 @@ Trainer 900~
 0900/main:avatar~
 0900/main:look
 ~
-6234 0 0 0 8 0 0 0 -100 E
+78 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 0 0
@@ -16,7 +16,7 @@ Trainer 901~
 901/main:avatar~
 0901/main:look
 ~
-6234 0 0 0 8 0 0 0 -100 E
+78 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 0 0
@@ -28,19 +28,19 @@ Trainer 902~
 902/main:avatar~
 0902/main:look
 ~
-6234 0 0 0 8 0 0 0 -100 E
+78 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 0 0
 E
 T 902
 #903
-trainer training agent 903~
-Trainer 903~
+trainer training agent 903 tyler pm2012~
+Tyler 903~
 903/main:avatar~
 903/main:look
 ~
-6234 0 0 0 8 0 0 0 -150 E
+78 0 0 0 0 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
@@ -48,10 +48,10 @@ E
 T 903
 #904
 trainer training agent 904 tyler revelations~
-Tyler Revelations~
+Tyler 904~
 904/main:avatar~
 904/main:look~
-6170 0 0 0 0 0 0 0 -150 E
+78 0 0 0 0 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
@@ -59,10 +59,10 @@ E
 T 904
 #905
 archangel michael nebadon messiah christ~
-Michael Nebadon~
+Michael 905~
 905/main:avatar~
 905/main:look~
-6174 0 0 0 8 0 0 0 -200 E
+78 0 0 0 0 0 0 0 -200 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0 0
@@ -75,10 +75,10 @@ E
 T 905
 #906
 trainer training agent 906 tyler it~
-TylerIT~
+Tyler 906~
 906/main:avatar~
 906/main:look~
-6234 0 0 0 8 0 0 0 -232 E
+78 0 0 0 0 0 0 0 -232 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0 0
@@ -90,11 +90,11 @@ SavingSpell: 1
 E
 T 906
 #907
-trainer training agent 907 tyler deva tylerdeva~
-Tyler Deva~
+trainer training agent 907 tyler project mayhem 2020~
+Tyler 907~
 907/main:avatar~
 907/main:look~
-6234 0 0 0 8 0 0 0 281 E
+78 0 0 0 0 0 0 0 281 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -110,7 +110,7 @@ trainer training agent 908 tyler ethersec~
 Tyler Ethersec~
 908/main:avatar~
 908/main:look~
-6238 0 0 0 8 0 0 0 -210 E
+78 0 0 0 8 0 0 0 -210 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -123,10 +123,10 @@ E
 T 908
 #909
 trainer training agent 909 THErSEC ethersec tyler~
-Tyler Ehtersec~
+Tyler 909~
 909/main:avatar~
 909/main:look~
-6238 0 0 0 8 0 0 0 -231 E
+78 0 0 0 0 0 0 0 -231 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -142,7 +142,7 @@ trainer training agent 910 tyler project300~
 Tyler P300~
 910/main:avatar~
 910/main:look~
-6238 0 0 0 8 0 0 0 -211 E
+78 0 0 0 0 0 0 0 -211 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -155,10 +155,10 @@ E
 T 910
 #911
 trainer training agent 911 tyler tg23 thegame23~
-Tyler TG23~
+Tyler 911~
 911/main:avatar~
 911/main:look~
-6238 0 0 0 8 0 0 0 -218 E
+78 0 0 0 0 0 0 0 -218 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -171,10 +171,10 @@ E
 T 911
 #912
 ajahn sudanto trainer training agent 912 monk buddhist~
-Ajahn Sudanto~
+Ajahn 912~
 912/main:avatar~
 912/main:look~
-6238 0 0 0 8 0 0 0 177 E
+78 0 0 0 0 0 0 0 177 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
@@ -186,7 +186,7 @@ trainer training agent 913 tyler hackzion~
 Tyler HackZION~
 913/main:avatar~
 913/main:look~
-6238 0 0 0 8 0 0 0 -188 E
+78 0 0 0 0 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
@@ -195,10 +195,10 @@ E
 T 913
 #914
 trainer training agent 914 code tyler~
-Code Tyler~
+Tyler 914~
 914/main:avatar~
 914/main:look~
-6238 0 0 0 8 0 0 0 -188 E
+78 0 0 0 0 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
@@ -206,10 +206,10 @@ E
 T 914
 #915
 trainer training agent 915 fbi~
-FBI Trainer 915~
+FBI 915~
 915/main:avatar~
 915/main:look~
-260446 0 0 0 2168 0 0 0 1000 E
+78 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0 6
@@ -229,10 +229,10 @@ E
 T 900
 #916
 izar sunaria alien trainer training agent 916~
-Izar~
+Izar 916~
 916/main:avatar~
 916/main:look~
-6238 0 0 0 8 0 0 0 -192 E
+78 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1
@@ -240,10 +240,10 @@ E
 T 900
 #917
 trainer training agent 917 pm2012~
-PM2012~
+Tyler 917~
 917/main:avatar~
 917/main:look~
-6238 0 0 0 8 0 0 0 -111 E
+78 0 0 0 0 0 0 0 -111 E
 3 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1
@@ -251,10 +251,10 @@ E
 T 917
 #918
 trainer training agent 918 tyler mayhem~
-Tyler Mayhem~
+Tyler 918~
 918/main:avatar~
 918/main:look~
-6238 0 0 0 8 0 0 0 0 E
+78 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1
@@ -262,7 +262,7 @@ E
 T 918
 #919
 trainer training agent 919 elizabeth lapensee survivance~
-Elizabeth LaPensee~
+Elizabeth 919~
 919/main:avatar~
 talk:#adv agent:thegame 919/main:look~
 78 0 0 0 0 0 0 0 -219 E
@@ -277,7 +277,7 @@ SavingSpell: 1
 E
 #920
 trainer training agent 920 brenda romero~
-Brenda Romero~
+Brenda 920~
 920/main:avatar~
 talk:#adv agent:thegame 920/main:look~
 78 0 0 0 0 0 0 0 -277 E
@@ -292,7 +292,7 @@ SavingSpell: 1
 E
 #921
 trainer training agent 921 john romero~
-John Romero~
+John 921~
 921/main:avatar~
 talk:#adv agent:thegame 921/main:look~
 78 0 0 0 0 0 0 0 -222 E

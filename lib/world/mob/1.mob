@@ -502,28 +502,28 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #135
-parusni visvedevas deity~
-Parusni~
+blue deva bluedeva prime~
+BlueDeva PRIME~
 0135/main:avatar
 ~
 0135/main:look
 ~
-6168 0 0 0 16 0 0 0 0 E
-18 14 0 3d3+180 3d3+3
-180 32400
-8 8 6 3
+6168 0 0 0 24 0 0 0 777 E
+23 13 -3 4d4+230 3d3+3
+230 52900
+8 8 0 1
 BareHandAttack: 4
-Str: 12
-Dex: 12
-Int: 12
-Wis: 12
-Con: 12
-Cha: 12
-SavingPara: 4
-SavingRod: 4
-SavingPetri: 4
-SavingBreath: 4
-SavingSpell: 4
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #136
 army cyber4 specialist soldier~
