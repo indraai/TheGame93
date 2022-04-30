@@ -15,7 +15,7 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #1101
-security securityprime security spy deva securitydeva~
+security securityprime security spy deva securitydeva disney disneyland~
 SecurityPRIME SPY~
 1101/main:avatar~
 1101/main:look
@@ -48,6 +48,21 @@ Esmeralda~
 8 8 2 0
 BareHandAttack: 1
 E
+#1126
+disney disneyland guest g1126~
+Male Guest 1126~
+1126/main:avatar~
+talk:#adv agent:thegame 1126/main:look~
+8 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 #1139
 mad hatter disneyland disney~
 the Mad Hatter~
@@ -63,5 +78,15 @@ SavingRod: 2
 SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
+E
+#1161
+disney disneyland attendant plaza pavillion~
+Plaza Attendant~
+1161/main:avatar~
+talk:#adv agent:thegame 1161/main:look~
+10 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0 1
 E
 $
