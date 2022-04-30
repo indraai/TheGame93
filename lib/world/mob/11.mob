@@ -49,14 +49,31 @@ Esmeralda~
 BareHandAttack: 1
 E
 #1126
-disney disneyland guest g1126~
+disney disneyland guest g1126 male~
 Male Guest 1126~
 1126/main:avatar~
-talk:#adv agent:thegame 1126/main:look~
+1126/main:look
+~
 8 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1127
+disney disneyland guest g1127 female~
+Female Guest 1127~
+1127/main:avatar~
+1127/main:look
+~
+8 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 2 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -87,6 +104,6 @@ talk:#adv agent:thegame 1161/main:look~
 10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 $
