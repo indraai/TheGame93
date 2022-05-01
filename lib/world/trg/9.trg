@@ -62,7 +62,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud south
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #903
@@ -84,7 +84,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud east
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #904
@@ -128,7 +128,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud west
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #906
@@ -172,7 +172,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud down
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #908
@@ -194,7 +194,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud west
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #909
@@ -216,7 +216,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud north
+  %send% %actor% talk:#mud %random.dir
 end
 ~
 #910
@@ -393,7 +393,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud north
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #921
@@ -416,7 +416,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud north
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #922
