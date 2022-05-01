@@ -7,6 +7,12 @@ wait 5s
 %send% %actor% Hello %actor.name% nice to see you.
 end
 ~
+#1102
+Mickey Mouse Greetings~
+0 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #1160
 PlazaInn Attendant Greeting~
 0 g 100

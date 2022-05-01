@@ -235,6 +235,10 @@ D0
 ~
 ~
 0 0 921
+D3
+~
+~
+0 0 923
 S
 #921
 Training Room 921~
@@ -245,6 +249,10 @@ D1
 ~
 ~
 0 0 911
+D3
+~
+~
+0 0 923
 S
 #922
 Training Room 922~
@@ -255,5 +263,19 @@ D2
 ~
 ~
 0 0 919
+S
+#923
+Training Room 923~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 921
+D2
+~
+~
+0 0 920
 S
 $~

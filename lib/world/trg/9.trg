@@ -401,4 +401,10 @@ Training Greeting 922~
 ~
 %echo% This trigger commandlist is not complete!
 ~
+#923
+Trainer 923 Greetings~
+0 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 $~

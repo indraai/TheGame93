@@ -39,16 +39,17 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #1102
-esmeralda psychic prophecies oracle fortune~
-Esmeralda~
+disney disneyland mickey mouse 1102 characters~
+Mickey Mouse 1102~
 1102/main:avatar~
 1102/main:look~
-18458 0 0 0 8 0 0 0 0 E
+72 0 0 0 0 0 0 0 1000 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 2 0
+8 8 1 1
 BareHandAttack: 1
 E
+T 1102
 #1126
 disney disneyland guest g1126 male~
 Male Guest 1126~
@@ -90,7 +91,7 @@ Esmeralda~
 18522 0 0 0 8 0 0 0 -1000 E
 15 15 1 3d3+150 2d2+2
 1500 22500
-8 8 2 0
+8 8 2 3
 BareHandAttack: 1
 SavingPara: 3
 SavingRod: 3
@@ -122,7 +123,7 @@ Plaza Inn Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 T 1160
 #1161
@@ -155,7 +156,7 @@ Candy Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 T 1163
 #1164
@@ -166,7 +167,7 @@ Arcade Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 T 1164
 $
