@@ -294,8 +294,21 @@ D0
 S
 #925
 Training Room 925~
-You are in an unfinished room.
+0925/main:look
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 926
+S
+#926
+Training Room 926~
+[DESCRIBE]~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 925
 S
 $~
