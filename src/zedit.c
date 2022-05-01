@@ -626,10 +626,10 @@ static void zedit_disp_arg2(struct descriptor_data *d)
     write_to_output(d, "\nHow many can exist? (1-99)\r");
     break;
   case 'D':
-    write_to_output(d, "\nExit Direction\r"
+    write_to_output(d, "\n## Exit Direction\r"
       "\n::begin:buttons\r");
     for (i = 0; *dirs[i] != '\n'; i++) {
-      write_to_output(d, "\nbmud[%d]:%s\r", i, dirs[i]);
+      write_to_output(d, "\nbmud[%s]:%d\r", dirs[i], i);
     }
     write_to_output(d, "::end:buttons");
 
@@ -680,9 +680,9 @@ static void zedit_disp_arg3(struct descriptor_data *d)
   case 'D':
     write_to_output(d,
     "\n## Door State\r"
-    "\nmenu[door open]:0\r"
-		"\nmenu[door closed]:1\r"
-		"\nmenu[door locked]:2\r");
+    "\nmenu[Door Open]:0\r"
+		"\nmenu[Door Closed]:1\r"
+		"\nmenu[Door Locked]:2\r");
     break;
   case 'V':
   case 'T':

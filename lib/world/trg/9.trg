@@ -462,7 +462,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud north
+  %send% %actor% talk:#mud west
 end
 ~
 $~
