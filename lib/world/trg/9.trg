@@ -399,7 +399,24 @@ end
 Training Greeting 922~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] After Quinn would goto the FBI on November 30, 2015 Tabitha would take a surprise trip with her husband to tour Ireland for 10 days.
+set pump[1] Shortly after Quinn went to the FBI Tabitha's friend surprised her with a 10 day trip to Ireland for both her and her husband.
+set pump[2] Which left Quinn with Trenton those 10 days in 2015-2016. Prior to that Quinn had never spent more than 48 hours with Trenton.
+set pump[3] The period when Tabitha went to Ireland was when Trenton went into details about The Covenant and kidnapping story he was taught.
+set pump[4] That 10 days in December 2015 was when Quinn took Trenton to see Santa Claus for the first time. It was the last Christmas Quinn would celebrate.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:indra %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud north
+end
 ~
 #923
 Trainer 923 Greetings~

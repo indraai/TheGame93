@@ -4,43 +4,61 @@ King Barry Amazing Says Stuff~
 ~
 if %actor%
 wait 5s
-%send% %actor% Hello %actor.name% nice to see you.
+say Yoobles %actor.name% %self.name% likes to see you today. Yepperz Sneeeyaz
 end
 ~
 #1102
 Mickey Mouse Greetings~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 5s
+if %actor%
+  say Hello there %actor.name% I hope you are having a wonderful time here at Disneyland 1977.
+end
 ~
 #1160
 PlazaInn Attendant Greeting~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 5s
+if %actor%
+  say Hello %actor.name% welcome to %room.name%. What can I get you today?
+end
 ~
 #1161
 Pavillion Attendant Greeting~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 5s
+if %actor%
+  say Hi %actor.name% welcome to %room.name%. What can I help you with?
+end
 ~
 #1162
 Refreshment Attendant Greeting~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 5s
+if %actor%
+  say Greetings %actor.name% welcome to %room.name%. What can I get you today?
+end
 ~
 #1163
 Candy Attendant Greeting~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 5s
+if %actor%
+  say Hi %actor.name% welcome to %room.name%. Can I help you find anyting?
+end
 ~
 #1164
 Arcade Attendant Greeting~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 5s
+if %actor%
+  say Hi there %actor.name% welcome to %room.name%. Let me know if you need any help.
+end
 ~
 $~
