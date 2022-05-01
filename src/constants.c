@@ -46,10 +46,10 @@ const char *dirs[] =
   "west",
   "up",
   "down",
-  "northwest", /* Diagonals only used if CONFIG_DIAGONAL_DIRS is set */
-  "northeast",
-  "southeast",
-  "southwest",
+  // "northwest", /* Diagonals only used if CONFIG_DIAGONAL_DIRS is set */
+  // "northeast",
+  // "southeast",
+  // "southwest",
   "\n"
 };
 

@@ -575,14 +575,14 @@ static void zedit_disp_arg1(struct descriptor_data *d)
 
   switch (OLC_CMD(d).command) {
   case 'M':
-    write_to_output(d, "\nWhat is the Agent VNum?\r");
+    write_to_output(d, "\nWhat is the Agent VNUM?\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'O':
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nWhat is the Object VNum?\r");
+    write_to_output(d, "\nWhat is the Object VNUM?\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'D':
@@ -623,19 +623,23 @@ static void zedit_disp_arg2(struct descriptor_data *d)
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nHow many can exist? (0-99)\n");
+    write_to_output(d, "\nHow many can exist? (1-99)\r");
     break;
   case 'D':
+    write_to_output(d, "\nExit Direction\r"
+      "\n::begin:buttons\r");
     for (i = 0; *dirs[i] != '\n'; i++) {
-      write_to_output(d, "\nslect[%d:exit] %s\r", i, dirs[i]);
+      write_to_output(d, "\nbmud[%d:exit] %s\r", i, dirs[i]);
     }
+    write_to_output(d, "::end:buttons");
+
     write_to_output(d, "\nWhat is the Exit Number?\r");
     break;
   case 'R':
-    write_to_output(d, "What is the Object's Vnum?\r");
+    write_to_output(d, "\nWhat is the Object's VNUM?\r");
     break;
   case 'T':
-    write_to_output(d, "What is the Trigger VNum?\r");
+    write_to_output(d, "What is the Trigger VNUM?\r");
     break;
   case 'V':
     write_to_output(d, "\nWhat is the context? (0 for none)\r");
@@ -671,7 +675,7 @@ static void zedit_disp_arg3(struct descriptor_data *d)
     write_to_output(d, "\n::end:buttons\r");
     break;
   case 'P':
-    write_to_output(d, "\nWhat is the Container VNum?\r");
+    write_to_output(d, "\nWhat is the Container VNUM?\r");
     break;
   case 'D':
     write_to_output(d,
