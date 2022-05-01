@@ -13,6 +13,12 @@ Mickey Mouse Greetings~
 ~
 %echo% This trigger commandlist is not complete!
 ~
+#1157
+Computer Agent Greeting~
+0 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #1160
 PlazaInn Attendant Greeting~
 0 g 100
