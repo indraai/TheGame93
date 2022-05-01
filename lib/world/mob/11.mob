@@ -116,14 +116,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #1157
-disney disneyland computer attendant rtc31930~
-RTC31930~
+disney disneyland agent athena rtc31930~
+Athena RTC31930~
 1157/main:avatar~
 1157/main:look~
 18522 0 0 0 2056 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 1
+8 8 2 2
 BareHandAttack: 12
 SavingPara: 2
 SavingRod: 2
