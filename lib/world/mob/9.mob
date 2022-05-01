@@ -321,4 +321,20 @@ SavingBreath: 1
 SavingSpell: 1
 E
 T 922
+#923
+trainer training agent peter 923~
+Peter 923~
+923/main:avatar~
+923/main:look~
+16590 0 0 0 0 0 0 0 -1000 E
+10 17 4 2d2+100 1d2+1
+10000 10000
+8 8 1 0
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+T 923
 $
