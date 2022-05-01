@@ -629,7 +629,7 @@ static void zedit_disp_arg2(struct descriptor_data *d)
     write_to_output(d, "\nExit Direction\r"
       "\n::begin:buttons\r");
     for (i = 0; *dirs[i] != '\n'; i++) {
-      write_to_output(d, "\nbmud[%d:exit] %s\r", i, dirs[i]);
+      write_to_output(d, "\nbmud[%d]:%s\r", i, dirs[i]);
     }
     write_to_output(d, "::end:buttons");
 
