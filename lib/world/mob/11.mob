@@ -46,7 +46,7 @@ Mickey Mouse 1102~
 72 0 0 0 0 0 0 0 1000 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1 1
+8 8 1 0
 BareHandAttack: 1
 E
 T 1102
@@ -115,6 +115,23 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#1157
+disney disneyland computer attendant rtc31930~
+RTC31930~
+1157/main:avatar~
+1157/main:look~
+18522 0 0 0 2056 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 0 1
+BareHandAttack: 12
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+T 1157
 #1160
 disney disneyland plazainn attendant~
 Plaza Inn Attendant~

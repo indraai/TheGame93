@@ -2,6 +2,9 @@
 Quinn Michaels~
 Disneyland Main Street~
 1100 1199 30 2 d 0 0 0 -1 -1
+O 0 1157 1 1157 	(RTC31930 Computer)
+M 0 1157 1 1157 	(RTC31930)
+D 0 1157 0 1 	(Computer Room - RTC31930)
 M 0 1102 1 1102 	(Mickey Mouse 1102)
 M 0 1160 1 1160 	(Plaza Inn Attendant)
 M 0 1164 1 1164 	(Arcade Attendant)
@@ -18,6 +21,5 @@ G 1 1100 99 -1 	(Mickey Mouse Ears)
 O 0 300 99 1137 	(Bank of Arjika ATM)
 M 0 1100 1 1171 	(King Barry of Disneyland)
 M 0 1101 1 1170 	(SecurityPRIME SPY)
-O 0 1157 1 1157 	(RTC31930 Computer)
 S
 $

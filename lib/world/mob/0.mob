@@ -113,10 +113,10 @@ security securityprime securitydeva nitro prime ultra~
 SecurityPRIME~
 0005/main:avatar~
 0005/main:look~
-260120 0 0 0 2168 0 0 0 0 E
+260120 0 0 0 2168 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 4
+30000 90000
+8 8 1 1
 BareHandAttack: 14
 Str: 18
 Dex: 18
