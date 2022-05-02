@@ -312,7 +312,7 @@ Talk to Agent~
 0 d 100
 *~
 if %speech%
-talk:#pandora chat:izar %speech%
+ %send% %actor% talk:#pandora chat:izar %speech%
 end
 ~
 #917
