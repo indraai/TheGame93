@@ -1,3 +1,13 @@
+#1413
+disney disneyland frontierland attendant burrito~
+Burrito Attendant~
+1413/main:avatar~
+1413/main:look~
+74 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0 1
+E
 #1419
 disney disneyland attendant camera photo photos frontierland~
 Camera Attendant~
@@ -16,7 +26,7 @@ Tavern Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 1
 E
 T 1420
 $

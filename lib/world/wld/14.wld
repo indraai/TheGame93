@@ -117,6 +117,10 @@ D0
 ~
 ~
 0 0 1406
+D1
+~
+~
+0 0 1420
 D2
 ~
 ~
@@ -131,6 +135,10 @@ D0
 ~
 ~
 0 0 1407
+D1
+~
+~
+0 0 1421
 D2
 ~
 ~
@@ -145,7 +153,11 @@ D0
 ~
 ~
 0 0 1408
-D2
+D1
+~
+~
+0 0 1422
+D3
 ~
 ~
 0 0 1410
@@ -289,5 +301,34 @@ D3
 ~
 ~
 0 0 1406
+S
+#1420
+Oak Tavern - Frontierland~
+[DESCRIBE]~
+14 24 0 0 0 0
+D3
+~
+~
+0 0 1407
+S
+#1421
+Wheelhouse - Frontierland~
+You are in an unfinished room.
+~
+14 24 0 0 0 0
+D3
+~
+~
+0 0 1408
+S
+#1422
+River Belle Terrace~
+You are in an unfinished room.
+~
+14 24 0 0 0 0
+D3
+~
+~
+0 0 1409
 S
 $~
