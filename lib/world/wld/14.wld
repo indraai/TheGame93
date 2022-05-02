@@ -2,10 +2,292 @@
 The Beginning~
 Not much here.
 ~
-14 0 0 0 0 1
+14 16 0 0 0 1
 D1
 ~
 ~
 0 0 1123
+D2
+~
+~
+0 0 1401
+D3
+~
+~
+0 0 1402
+S
+#1401
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1400
+S
+#1402
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D1
+~
+~
+0 0 1400
+D3
+~
+~
+0 0 1403
+S
+#1403
+Frontierland~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D1
+~
+~
+0 0 1402
+D3
+~
+~
+0 0 1404
+S
+#1404
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1413
+D1
+~
+~
+0 0 1403
+D2
+~
+~
+0 0 1405
+S
+#1405
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1404
+D1
+~
+~
+0 0 1417
+D2
+~
+~
+0 0 1406
+S
+#1406
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1405
+D1
+~
+~
+0 0 1419
+D2
+~
+~
+0 0 1407
+S
+#1407
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1406
+D2
+~
+~
+0 0 1408
+S
+#1408
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1407
+D2
+~
+~
+0 0 1409
+S
+#1409
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1408
+D2
+~
+~
+0 0 1410
+S
+#1410
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D1
+~
+~
+0 0 1409
+D3
+~
+~
+0 0 1411
+S
+#1411
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D0
+~
+~
+0 0 1412
+D2
+~
+~
+0 0 1410
+S
+#1412
+Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D2
+~
+~
+0 0 1411
+S
+#1413
+Burrito Stand - Frontierland~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1415
+D1
+~
+~
+0 0 1416
+D2
+~
+~
+0 0 1404
+D3
+~
+~
+0 0 1414
+S
+#1414
+Information - Frontierland~
+You are in an unfinished room.
+~
+14 16 0 0 0 1
+D1
+~
+~
+0 0 1415
+D2
+~
+~
+0 0 1413
+S
+#1415
+Frontierland~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D1
+~
+~
+0 0 1416
+D2
+~
+~
+0 0 1413
+D3
+~
+~
+0 0 1414
+S
+#1416
+Casa de Fritos - Frontierland~
+You are in an unfinished room.
+~
+14 24 0 0 0 0
+D0
+~
+~
+0 0 1415
+D2
+~
+~
+0 0 1413
+S
+#1417
+Golden Horseshoe - Frontierland~
+You are in an unfinished room.
+~
+14 24 0 0 0 0
+D2
+~
+~
+0 0 1418
+D3
+~
+~
+0 0 1405
+S
+#1418
+Golden Horseshoe Revue - Frontierland~
+You are in an unfinished room.
+~
+14 24 0 0 0 0
+D0
+~
+~
+0 0 1417
+S
+#1419
+Camera Shop - Frontierland~
+You are in an unfinished room.
+~
+14 24 0 0 0 0
+D3
+~
+~
+0 0 1406
 S
 $~

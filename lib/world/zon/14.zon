@@ -1,6 +1,11 @@
 #14
-None~
-New Zone~
-1400 1499 30 2
+Quinn Michaels~
+Frontierland - Disneyland 1977~
+1400 1499 30 2 d 0 0 0 1 -1
+M 0 1420 1 1420 	(Tavern Attendant)
+G 1 1420 99 -1 	(Frontierland Fried Potatoes)
+G 1 1420 99 -1 	(Frontierland Fried Potatoes)
+M 0 1419 1 1419 	(Camera Attendant)
+G 1 1419 99 -1 	(Camera - Frontierland)
 S
 $
