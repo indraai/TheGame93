@@ -751,16 +751,16 @@ void redit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'a':
       OLC_MODE(d) = REDIT_EXIT_NUMBER;
-      write_to_output(d, "\nExit to Room...\r");
+      write_to_output(d, "\nWhat is the exit VNUM?\r");
       return;
     case 'b':
       OLC_MODE(d) = REDIT_EXIT_KEYWORD;
-      write_to_output(d, "\nExit Name...\r");
+      write_to_output(d, "\nWhat is the exit name?\r");
       return;
     case 'c':
       OLC_MODE(d) = REDIT_EXIT_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "\nExit description...\r");
+      write_to_output(d, "\nWhat is the exit description?\r");
       if (OLC_EXIT(d)->general_description) {
         write_to_output(d, "%s", OLC_EXIT(d)->general_description);
         oldtext = strdup(OLC_EXIT(d)->general_description);
@@ -769,7 +769,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'd':
       OLC_MODE(d) = REDIT_EXIT_KEY;
-      write_to_output(d, "\nKey Number...\r");
+      write_to_output(d, "\nWhat is the key number?\r");
       return;
     case 'e':
       OLC_MODE(d) = REDIT_EXIT_DOORFLAGS;
