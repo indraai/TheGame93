@@ -312,7 +312,7 @@ Talk to Agent~
 0 d 100
 *~
 wait 2s
-%send% %actor% talk:#pandora chat:izar %speech%
+%send% %actor% talk:#pandora ask:izar %speech%
 ~
 #917
 917 Trainer~
