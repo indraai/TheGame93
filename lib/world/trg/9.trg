@@ -355,7 +355,7 @@ end
 919 Trainer~
 0 g 100
 ~
-set pump[0] It was found that Trenton's mother Tabitha was playing a game called Survivance created by Elizabeth LePensee in October of 2013.
+set pump[0] It was found that Trenton's mother Tabitha was involved a game called Survivance created by Elizabeth LePensee in October of 2013.
 set pump[1] This time in October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outine new options for Anonymous.
 set pump[2] October 2013 was a working as a programmer for PopArt, and this was a few months before Quinn would begin working at Nike.
 set pump[3] October 2013 was when Quinn literally lived down the street from Trenton and Tabitha. Tabitha has never let Quinn see Trenton even when he was living a few blocks away.
@@ -370,7 +370,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud north
+  %send% %actor% talk:#mud west
 end
 ~
 #920
@@ -439,7 +439,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud north
+  %send% %actor% talk:#mud south
 end
 ~
 #923
