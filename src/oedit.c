@@ -186,9 +186,10 @@ static void oedit_setup_new(struct descriptor_data *d)
   CREATE(OLC_OBJ(d), struct obj_data, 1);
 
   clear_object(OLC_OBJ(d));
-  OLC_OBJ(d)->name = strdup("unfinished object");
-  OLC_OBJ(d)->description = strdup("An unfinished object is lying here.");
-  OLC_OBJ(d)->short_description = strdup("an unfinished object");
+  OLC_OBJ(d)->name = strdup("object");
+  OLC_OBJ(d)->short_description = strdup("keywords");
+  OLC_OBJ(d)->description = strdup(":room:/main:avatar");
+  OLC_OBJ(d)->action_description = strdup(":room:/main:look");
   SET_BIT_AR(GET_OBJ_WEAR(OLC_OBJ(d)), ITEM_WEAR_TAKE);
   OLC_VAL(d) = 0;
   OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
