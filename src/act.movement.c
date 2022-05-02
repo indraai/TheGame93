@@ -256,9 +256,9 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   if (GET_MOVE(ch) < need_movement && !IS_NPC(ch))
   {
     if (need_specials_check && ch->master)
-      send_to_char(ch, "pos[move]:You are too exhausted to follow.\r\n");
+      send_to_char(ch, "\nalert:You are too exhausted to follow.\r");
     else
-      send_to_char(ch, "pos[move]:You are too exhausted.\r\n");
+      send_to_char(ch, "\nalert:You are too exhausted.\r");
 
     return (0);
   }
@@ -345,14 +345,14 @@ int perform_move(struct char_data *ch, int dir, int need_specials_check)
   if (ch == NULL || dir < 0 || dir >= NUM_OF_DIRS || FIGHTING(ch))
     return (0);
   else if (!CONFIG_DIAGONAL_DIRS && IS_DIAGONAL(dir))
-    send_to_char(ch, "pos[move]:You cannot go that way.\r\n");
+    send_to_char(ch, "\nalert:You cannot go that way.\r");
   else if ((!EXIT(ch, dir) && !buildwalk(ch, dir)) || EXIT(ch, dir)->to_room == NOWHERE)
-    send_to_char(ch, "pos[move]:You cannot go that way...\r\n");
+    send_to_char(ch, "\nalert:You cannot go that way...\r");
   else if (EXIT_FLAGGED(EXIT(ch, dir), EX_CLOSED) && (GET_LEVEL(ch) < LVL_IMMORT || (!IS_NPC(ch) && !PRF_FLAGGED(ch, PRF_NOHASSLE)))) {
     if (EXIT(ch, dir)->keyword)
-      send_to_char(ch, "pos[move]:The %s seems to be closed.\r\n", fname(EXIT(ch, dir)->keyword));
+      send_to_char(ch, "\nalert:The %s seems to be closed.\r", fname(EXIT(ch, dir)->keyword));
     else
-      send_to_char(ch, "pos[move]:It seems to be closed.\r\n");
+      send_to_char(ch, "alert:It seems to be closed.\r");
   } else {
     if (!ch->followers)
       return (do_simple_move(ch, dir, need_specials_check));
@@ -365,7 +365,7 @@ int perform_move(struct char_data *ch, int dir, int need_specials_check)
       next = k->next;
       if ((IN_ROOM(k->follower) == was_in) &&
 	  (GET_POS(k->follower) >= POS_STANDING)) {
-	act("alert:You follow $N.\r\n", FALSE, k->follower, 0, ch, TO_CHAR);
+	act("\nalert:You follow $N.\r", FALSE, k->follower, 0, ch, TO_CHAR);
 	perform_move(k->follower, dir, 1);
       }
     }
@@ -387,7 +387,7 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
   if (*dir) {			/* a direction was specified */
     if ((door = search_block(dir, dirs, FALSE)) == -1) { /* Partial Match */
       if ((door = search_block(dir, autoexits, FALSE)) == -1) { /* Check 'short' dirs too */
-        send_to_char(ch, "pos[move]:That's not a direction.\r\n");
+        send_to_char(ch, "\nalert:That's not a direction.\r");
         return (-1);
       }
     }
@@ -396,18 +396,18 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
         if (is_name(type, EXIT(ch, door)->keyword))
           return (door);
         else {
-          send_to_char(ch, "pos[move]:I see no %s there.\r\n", type);
+          send_to_char(ch, "\nalert:I see no %s there.\r", type);
           return (-1);
         }
       } else
 	return (door);
     } else {
-      send_to_char(ch, "pos[move]:I really don't see how you can %s anything there.\r\n", cmdname);
+      send_to_char(ch, "\nalert:I really don't see how you can %s anything there.\r", cmdname);
       return (-1);
     }
   } else {			/* try to locate the keyword */
     if (!*type) {
-      send_to_char(ch, "pos[move]:What would you like to %s?\r\n", cmdname);
+      send_to_char(ch, "\nalert:What would you like to %s?\r", cmdname);
       return (-1);
     }
     for (door = 0; door < DIR_COUNT; door++)
@@ -441,17 +441,17 @@ static int find_door(struct char_data *ch, const char *type, char *dir, const ch
     }
 
     if ((!IS_NPC(ch)) && (!PRF_FLAGGED(ch, PRF_AUTODOOR)))
-      send_to_char(ch, "pos[move]:There is no %s %s here.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s here.\r", AN(type), type);
     else if (is_abbrev(cmdname, "open"))
-      send_to_char(ch, "pos[move]:There is no %s %s that can be opened.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be opened.\r", AN(type), type);
     else if (is_abbrev(cmdname, "close"))
-      send_to_char(ch, "pos[move]:There is no %s %s that can be closed.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be closed.\r", AN(type), type);
     else if (is_abbrev(cmdname, "lock"))
-      send_to_char(ch, "pos[move]:There is no %s %s that can be locked.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be locked.\r", AN(type), type);
     else if (is_abbrev(cmdname, "unlock"))
-      send_to_char(ch, "pos[move]:There is no %s %s that can be unlocked.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be unlocked.\r", AN(type), type);
     else
-      send_to_char(ch, "pos[move]:There is no %s %s that can be picked.\r\n", AN(type), type);
+      send_to_char(ch, "\nalert:There is no %s %s that can be picked.\r", AN(type), type);
 
     return (-1);
   }
