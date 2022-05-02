@@ -643,8 +643,8 @@ D2
 0 0 1134
 D3
 ~
-~
-0 0 1168
+Clocks~
+1 0 1168
 S
 #1134
 Main Street (W)~
@@ -658,7 +658,7 @@ D0
 D2
 ~
 ~
-0 0 1135
+0 0 1178
 D3
 ~
 ~
@@ -672,7 +672,7 @@ You are in an unfinished room.
 D0
 ~
 ~
-0 0 1134
+0 0 1178
 D1
 ~
 ~
@@ -683,7 +683,7 @@ D2
 0 0 1136
 D3
 ~
-City Hall~
+CityHall~
 1 0 1170
 S
 #1136
@@ -1050,17 +1050,21 @@ You are in an unfinished room.
 D1
 ~
 ~
-0 0 1133
+1 0 1133
 S
 #1169
 Emporium~
 You are in an unfinished room.
 ~
 11 24 0 0 0 0
-D2
+D0
 ~
 ~
-0 0 1134
+0 0 1180
+D1
+~
+~
+1 0 1134
 S
 #1170
 Disneyland City Hall~
@@ -1070,7 +1074,7 @@ You are in an unfinished room.
 D0
 ~
 Washroom~
-0 0 1177
+1 0 1177
 D1
 ~
 MainSt~
@@ -1161,5 +1165,42 @@ D2
 ~
 ~
 1 0 1170
+S
+#1178
+Main Street (W)~
+undefined~
+11 16 0 0 0 1
+D0
+~
+~
+0 0 1179
+D1
+~
+~
+0 0 1134
+D2
+~
+~
+0 0 1135
+S
+#1179
+Lost & Found - Main Street~
+You are in an unfinished room.
+~
+11 0 0 0 0 0
+D2
+~
+~
+0 0 1178
+S
+#1180
+Glassblower - Main Street~
+You are in an unfinished room.
+~
+11 0 0 0 0 0
+D2
+~
+~
+0 0 1169
 S
 $~
