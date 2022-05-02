@@ -237,7 +237,7 @@ Izar 916~
 0 0
 8 8 0 1
 E
-T 900
+T 916
 #917
 trainer training agent 917 pm2012~
 Tyler 917~
@@ -370,7 +370,7 @@ Palantir 926~
 78 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 1
+8 8 0 2
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2

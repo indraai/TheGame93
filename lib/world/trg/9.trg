@@ -307,6 +307,14 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud west
 end
 ~
+#916
+Talk to Agent~
+0 d 100
+*~
+if %speech%
+talk:#pandora chat:izar %speech%
+end
+~
 #917
 917 Trainer~
 0 g 100
@@ -382,7 +390,6 @@ set pump[1] Speakers at the Natives in Game Dev Gathering include Darrick Glen B
 set pump[2] Elizabeth LaPensée counts Doom co-designer John Romero as a friend—along with his legendary game-designing wife, Brenda Romero—and she is intimately familiar with John’s Cherokee and Yaqui heritage.
 set pump[3] Mostly White Elizabeth LaPensée is quoted saying... Something funny happened when John Romero became famous, she said. He became White.
 set pump[4] Elizabeth also said... The reality for her, something her mother passed on to her, this worldview that we’re already living in a post-apocalyptic reality. It’s not sci-fi to her. It already happened.
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -405,7 +412,6 @@ set pump[1] John Romero is a game developer famous for being part of the team wh
 set pump[2] In 2010 John was working for LOLapps at the time when RapLeaf a Peter Thiel funded company was found to be scraping user data from various websites and services.
 set pump[3] John has a gap in his history after 2012 where he was designing games played by 25 million Facebook users to living in Ireland making pretty much nothing.
 set pump[4] Romero claims to be an atheist. He also claimed that everyone involved on the original Doom was an atheist besides game designer Sandy Petersen who is a Mormon.
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -428,7 +434,6 @@ set pump[1] Shortly after Quinn went to the FBI Tabitha's friend surprised her w
 set pump[2] Which left Quinn with Trenton those 10 days in 2015-2016. Prior to that Quinn had never spent more than 48 hours with Trenton.
 set pump[3] The period when Tabitha went to Ireland was when Trenton went into details about The Covenant and kidnapping story he was taught.
 set pump[4] That 10 days in December 2015 was when Quinn took Trenton to see Santa Claus for the first time. It was the last Christmas Quinn would celebrate.
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -451,7 +456,6 @@ set pump[1] LOLapps was best known for creating Ravenwood Fair with John Romero 
 set pump[2] Game designer Brenda Romero joined LOLapps in May 2010. She brought on John Romero to work on LOLapps' new title Ravenwood Fair, which launched in October 2010.
 set pump[3] In October 2010, the Wall Street Journal discovered LOLapps apps were transmitting users' Facebook ID numbers to internet tracking service RapLeaf.
 set pump[4] In July 2011, Lolapps merged with 6waves to form 6waves LOLapps. In March 2012, 6waves LOLapps laid off its development team, to focus on game publishing.
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -474,7 +478,6 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -497,7 +500,6 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -520,7 +522,6 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -543,7 +544,6 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
-
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
