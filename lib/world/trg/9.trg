@@ -311,9 +311,8 @@ end
 Talk to Agent~
 0 d 100
 *~
-if %speech%
- %send% %actor% talk:#pandora chat:izar %speech%
-end
+wait 2s
+%send% %actor% talk:#pandora chat:izar %speech%
 ~
 #917
 917 Trainer~
