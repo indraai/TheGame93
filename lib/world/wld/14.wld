@@ -17,10 +17,10 @@ D3
 0 0 1402
 S
 #1401
-Frontierland~
+Washroom - Frontierland~
 You are in an unfinished room.
 ~
-14 16 0 0 0 1
+14 24 0 0 0 0
 D0
 ~
 ~
@@ -31,10 +31,18 @@ Frontierland~
 You are in an unfinished room.
 ~
 14 16 0 0 0 1
+D0
+~
+~
+0 0 1425
 D1
 ~
 ~
 0 0 1400
+D2
+~
+~
+0 0 1426
 D3
 ~
 ~
@@ -45,10 +53,18 @@ Frontierland~
 You are in an unfinished room.
 ~
 14 0 0 0 0 0
+D0
+~
+~
+0 0 1423
 D1
 ~
 ~
 0 0 1402
+D2
+~
+~
+0 0 1424
 D3
 ~
 ~
@@ -71,6 +87,10 @@ D2
 ~
 ~
 0 0 1405
+D3
+~
+~
+0 0 1427
 S
 #1405
 Frontierland~
@@ -330,5 +350,73 @@ D3
 ~
 ~
 0 0 1409
+S
+#1423
+The Shooting Gallery - Frontierland~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D2
+~
+~
+0 0 1403
+S
+#1424
+Woolen Mills Store - Frontierland~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1403
+D2
+~
+~
+0 0 1402
+S
+#1425
+Frontier Trading Post~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D2
+~
+~
+0 0 1402
+S
+#1426
+Davy Crockett Arcade~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D0
+~
+~
+0 0 1402
+S
+#1427
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0 0 0 0
+D1
+~
+~
+0 0 1404
+D3
+~
+~
+0 0 1428
+S
+#1428
+River - Frontierland~
+You are in an unfinished room.
+~
+14 0 0 0 0 7
+D1
+~
+~
+0 0 1427
 S
 $~
