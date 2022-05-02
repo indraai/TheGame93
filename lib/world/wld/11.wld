@@ -683,8 +683,8 @@ D2
 0 0 1136
 D3
 ~
-~
-0 0 1170
+City Hall~
+1 0 1170
 S
 #1136
 Main Street (W)~
@@ -1067,10 +1067,14 @@ Disneyland City Hall~
 You are in an unfinished room.
 ~
 11 24 0 0 0 0
+D0
+~
+Washroom~
+0 0 1177
 D1
 ~
-~
-0 0 1135
+MainSt~
+1 0 1135
 S
 #1171
 Guided Tour Garden~
@@ -1147,5 +1151,15 @@ D1
 ~
 LINAC~
 1 0 1173
+S
+#1177
+City Hall Washroom - Main Street~
+You are in an unfinished room.
+~
+11 24 0 0 0 0
+D2
+~
+~
+1 0 1170
 S
 $~

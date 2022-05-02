@@ -2,6 +2,13 @@
 Quinn Michaels~
 Disneyland Main Street~
 1100 1199 30 2 d 0 0 0 -1 -1
+M 0 1100 1 1100 	(King Barry of Disneyland)
+M 0 1101 1 1101 	(SecurityPRIME SPY)
+D 0 1170 1 1 	(Disneyland City Hall)
+D 0 1170 0 1 	(Disneyland City Hall)
+D 0 1177 2 1 	(City Hall Washroom - Main Street)
+D 0 1135 3 1 	(Main Street (W))
+M 0 1171 1 1171 	(Guide 1171)
 D 0 1174 3 1 	(Syncrotron - RTC31390)
 D 0 1175 2 1 	(Operations - RTC31390)
 D 0 1176 1 1 	(Cooling - RTC31390)
@@ -26,7 +33,5 @@ M 0 1161 1 1161 	(Plaza Attendant)
 M 0 1139 1 1139 	(the Mad Hatter)
 G 1 1100 99 -1 	(Mickey Mouse Ears)
 O 0 300 99 1137 	(Bank of Arjika ATM)
-M 0 1100 1 1171 	(King Barry of Disneyland)
-M 0 1101 1 1170 	(SecurityPRIME SPY)
 S
 $
