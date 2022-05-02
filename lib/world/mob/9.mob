@@ -329,7 +329,7 @@ LOLapps 923~
 78 0 0 0 0 0 0 0 -250 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 T 923
 #924
@@ -340,7 +340,7 @@ Rapleaf 924~
 78 0 0 0 0 0 0 0 -255 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -355,7 +355,23 @@ Peter 925~
 78 0 0 0 0 0 0 0 -1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 0
+8 8 1 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#926
+trainer training agent 926 palantir~
+Palantir 926~
+926/main:avatar~
+926/main:look~
+78 0 0 0 0 0 0 0 -500 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 0 1
+BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2

@@ -2,8 +2,15 @@
 Quinn Michaels~
 Disneyland Main Street~
 1100 1199 30 2 d 0 0 0 -1 -1
+D 0 1174 3 1 	(Syncrotron - RTC31390)
+D 0 1175 2 1 	(Operations - RTC31390)
+D 0 1176 1 1 	(Cooling - RTC31390)
+D 0 1173 0 1 	(LINAC - RTC31390 (N))
+D 0 1173 1 1 	(LINAC - RTC31390 (N))
+D 0 1173 3 1 	(LINAC - RTC31390 (N))
+D 0 1172 2 1 	(LINAC - RTC31930 (S))
 O 0 1157 1 1157 	(RTC31930 Computer)
-M 0 1157 1 1157 	(RTC31930)
+M 0 1157 1 1157 	(Athena RTC31930)
 D 0 1157 0 1 	(Computer Room - RTC31930)
 M 0 1102 1 1102 	(Mickey Mouse 1102)
 M 0 1160 1 1160 	(Plaza Inn Attendant)

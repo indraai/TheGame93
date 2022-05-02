@@ -919,14 +919,14 @@ Disneyland Underground~
 You are in an unfinished room.
 ~
 11 24 0 0 0 0
+D2
+~
+Computer Room~
+1 0 1157
 D4
 ~
 ~
 0 0 1155
-D5
-~
-~
-0 0 1157
 S
 #1157
 Computer Room - RTC31930~
@@ -935,12 +935,12 @@ You are in an unfinished room.
 11 24 0 0 0 0
 D0
 ~
+LINAC~
+1 0 1172
+D1
 ~
-0 0 1172
-D4
-~
-~
-0 0 1156
+R1156~
+1 0 1156
 S
 #1158
 Baby Station~
@@ -1093,8 +1093,8 @@ D0
 0 0 1173
 D2
 ~
-~
-0 0 1157
+Computer Room~
+1 0 1157
 S
 #1173
 LINAC - RTC31390 (N)~
@@ -1103,20 +1103,20 @@ You are in an unfinished room.
 11 8 0 0 0 0
 D0
 ~
-~
-0 0 1175
+OPERATIONS~
+1 0 1175
 D1
 ~
-~
-0 0 1174
+SYNCROTRON~
+1 0 1174
 D2
 ~
 ~
 0 0 1172
 D3
 ~
-~
-0 0 1176
+COOLING~
+1 0 1176
 S
 #1174
 Syncrotron - RTC31390~
@@ -1125,8 +1125,8 @@ You are in an unfinished room.
 11 8 0 0 0 0
 D3
 ~
-~
-0 0 1173
+LINAC~
+1 0 1173
 S
 #1175
 Operations - RTC31390~
@@ -1135,7 +1135,7 @@ You are in an unfinished room.
 11 8 0 0 0 0
 D2
 ~
-~
+LINAC~
 0 0 1173
 S
 #1176
@@ -1145,7 +1145,7 @@ You are in an unfinished room.
 11 0 0 0 0 0
 D1
 ~
-~
-0 0 1173
+LINAC~
+1 0 1173
 S
 $~
