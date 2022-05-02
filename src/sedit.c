@@ -310,7 +310,7 @@ static void sedit_namelist_menu(struct descriptor_data *d)
   }
   write_to_output(d, "\r\n"
 	  "\nmenu[Add New Entry]:A\r"
-	  "\nmenu[Deleten Entry]:D\r"
+	  "\nmenu[Delete Entry]:D\r"
 	  "\nmenu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_NAMELIST_MENU;

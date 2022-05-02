@@ -716,7 +716,7 @@ static void zedit_disp_levels(struct descriptor_data *d)
 	"\n## Recommendations\r\n"
 	"\nmenu[Min Level]:1\r"
 	"\nmenu[Max Level]:2\r"
-	"\nmenu[Llear Level]:3\r"
+	"\nmenu[Clear Level]:3\r"
 	"\nmenu[quit]:0\r"
   "\n%s\r", lev_string);
   OLC_MODE(d) = ZEDIT_LEVELS;

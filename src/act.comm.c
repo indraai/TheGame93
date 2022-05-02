@@ -42,7 +42,7 @@ ACMD(do_say)
   skip_spaces(&argument);
 
   if (!*argument)
-    send_to_char(ch, "Yes, but WHAT do you want to say?\r\n");
+    send_to_char(ch, "\nalert: Yes, but WHAT do you want to say?\r");
   else {
     char buf[MAX_INPUT_LENGTH + 14], *msg;
     struct char_data *vict;
@@ -99,14 +99,14 @@ static void perform_tell(struct char_data *ch, struct char_data *vict, char *arg
 {
   char buf[MAX_STRING_LENGTH], *msg;
 
-  snprintf(buf, sizeof(buf), "%s$n tells you, '%s'%s", CCRED(vict, C_NRM), arg, CCNRM(vict, C_NRM));
+  snprintf(buf, sizeof(buf), "\nsay: $n tells you, %s\r", arg);
   msg = act(buf, FALSE, ch, 0, vict, TO_VICT | TO_SLEEP);
   add_history(vict, msg, HIST_TELL);
 
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
     send_to_char(ch, "%s", CONFIG_OK);
   else {
-    snprintf(buf, sizeof(buf), "%sYou tell $N, '%s'%s", CCRED(ch, C_NRM), arg, CCNRM(ch, C_NRM));
+    snprintf(buf, sizeof(buf), "\nsay: You tell $N, %s", arg);
     msg = act(buf, FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
     add_history(ch, msg, HIST_TELL);
   }
@@ -122,11 +122,11 @@ static int is_tell_ok(struct char_data *ch, struct char_data *vict)
   else if (!vict)
     send_to_char(ch, "%s", CONFIG_NOPERSON);
   else if (ch == vict)
-    send_to_char(ch, "You try to tell yourself something.\r\n");
+    send_to_char(ch, "\nsay: You try to tell yourself something.\r");
   else if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOTELL))
-    send_to_char(ch, "You can't tell other people while you have notell on.\r\n");
+    send_to_char(ch, "\nsay: You can't tell other people while you have notell on.\r");
   else if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_SOUNDPROOF) && (GET_LEVEL(ch) < LVL_DEVA))
-    send_to_char(ch, "The walls seem to absorb your words.\r\n");
+    send_to_char(ch, "\nsay: The walls seem to absorb your words.\r");
   else if (!IS_NPC(vict) && !vict->desc)        /* linkless */
     act("$E's linkless at the moment.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
   else if (PLR_FLAGGED(vict, PLR_WRITING))
@@ -149,11 +149,11 @@ ACMD(do_tell)
   half_chop(argument, buf, buf2);
 
   if (!*buf || !*buf2)
-    send_to_char(ch, "Who do you wish to tell what??\r\n");
+    send_to_char(ch, "\nsay:Who do you wish to tell what??\r");
   else if (!strcmp(buf, "m-w")) {
 #ifdef CIRCLE_WINDOWS
    /* getpid() is not portable */
-    send_to_char(ch, "Sorry, that is not available in the windows port.\r\n");
+    send_to_char(ch, "\nerror: Sorry, that is not available in the windows port.\r");
 #else /* all other configurations */
     char word[MAX_INPUT_LENGTH], *p, *q;
 
@@ -162,7 +162,7 @@ ACMD(do_tell)
         send_to_char(ch, "You are still waiting for a response.\r\n");
         return;
       } else {
-        send_to_char(ch, "Hold on, m-w is busy. Try again in a couple of seconds.\r\n");
+        send_to_char(ch, "\ninfo:Hold on, m-w is busy. Try again in a couple of seconds.\r");
         return;
       }
     }
@@ -175,7 +175,7 @@ ACMD(do_tell)
     *q = '\0';
 
     if (!*word) {
-      send_to_char(ch, "Sorry, only letters and +/- are allowed characters.\r\n");
+      send_to_char(ch, "\nerror: Sorry, only letters and +/- are allowed characters.\r");
       return;
     }
     snprintf(buf, sizeof(buf), "../bin/webster %s %d &", word, (int) getpid());
@@ -203,9 +203,9 @@ ACMD(do_reply)
   skip_spaces(&argument);
 
   if (GET_LAST_TELL(ch) == NOBODY)
-    send_to_char(ch, "You have nobody to reply to!\r\n");
+    send_to_char(ch, "\nsay: You have nobody to reply to!\r");
   else if (!*argument)
-    send_to_char(ch, "What is your reply?\r\n");
+    send_to_char(ch, "\nsay: What is your reply?\r");
   else {
     /* Make sure the person you're replying to is still playing by searching
      * for them.  Note, now last tell is stored as player IDnum instead of
@@ -217,7 +217,7 @@ ACMD(do_reply)
       tch = tch->next;
 
     if (!tch)
-      send_to_char(ch, "That player is no longer here.\r\n");
+      send_to_char(ch, "\nsay: That player is no longer here.\r");
     else if (is_tell_ok(ch, tch)) {
       if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
         parse_at(argument);
@@ -255,11 +255,11 @@ ACMD(do_spec_comm)
   half_chop(argument, buf, buf2);
 
   if (!*buf || !*buf2)
-    send_to_char(ch, "Whom do you want to %s.. and what??\r\n", action_sing);
+    send_to_char(ch, "\nalert: Whom do you want to %s.. and what??\r", action_sing);
   else if (!(vict = get_char_vis(ch, buf, NULL, FIND_CHAR_ROOM)))
     send_to_char(ch, "%s", CONFIG_NOPERSON);
   else if (vict == ch)
-    send_to_char(ch, "You can't get your mouth close enough to your ear...\r\n");
+    send_to_char(ch, "\nalert:You can't get your mouth close enough to your ear...\r");
   else {
     char buf1[MAX_STRING_LENGTH];
 
@@ -293,39 +293,39 @@ ACMD(do_write)
 
   if (!*papername) {
     /* Nothing was delivered. */
-    send_to_char(ch, "Write?  With what?  ON what?  What are you trying to do?!?\r\n");
+    send_to_char(ch, "\nalert:Write? With what? ON what? What are you trying to do?\r");
     return;
   }
   if (*penname) {
     /* Nothing was delivered. */
     if (!(paper = get_obj_in_list_vis(ch, papername, NULL, ch->carrying))) {
-      send_to_char(ch, "You have no %s.\r\n", papername);
+      send_to_char(ch, "\nalert: You have no %s.\r", papername);
       return;
     }
     if (!(pen = get_obj_in_list_vis(ch, penname, NULL, ch->carrying))) {
-      send_to_char(ch, "You have no %s.\r\n", penname);
+      send_to_char(ch, "\nalert: You have no %s.\r", penname);
       return;
     }
   } else { /* There was one arg.. let's see what we can find. */
     if (!(paper = get_obj_in_list_vis(ch, papername, NULL, ch->carrying))) {
-      send_to_char(ch, "There is no %s in your inventory.\r\n", papername);
+      send_to_char(ch, "\nalert: There is no %s in your inventory.\r", papername);
       return;
     }
     if (GET_OBJ_TYPE(paper) == ITEM_PEN) { /* Oops, a pen. */
       pen = paper;
       paper = NULL;
     } else if (GET_OBJ_TYPE(paper) != ITEM_NOTE) {
-      send_to_char(ch, "That thing has nothing to do with writing.\r\n");
+      send_to_char(ch, "\nalert: That thing has nothing to do with writing.\r");
       return;
     }
 
     /* One object was found.. now for the other one. */
     if (!GET_EQ(ch, WEAR_HOLD)) {
-      send_to_char(ch, "You can't write with %s %s alone.\r\n", AN(papername), papername);
+      send_to_char(ch, "\nalert: You can't write with %s %s alone.\r", AN(papername), papername);
       return;
     }
     if (!CAN_SEE_OBJ(ch, GET_EQ(ch, WEAR_HOLD))) {
-      send_to_char(ch, "The stuff in your hand is invisible!  Yeech!!\r\n");
+      send_to_char(ch, "\nalert: The stuff in your hand is invisible.\r");
       return;
     }
     if (pen)
@@ -345,7 +345,7 @@ ACMD(do_write)
     /* Something on it, display it as that's in input buffer. */
     if (paper->action_description) {
       backstr = strdup(paper->action_description);
-      send_to_char(ch, "There's something written on it already:\r\n");
+      send_to_char(ch, "\nalert: There's something written on it already:\r");
       send_to_char(ch, "%s", paper->action_description);
     }
 
@@ -365,9 +365,9 @@ ACMD(do_page)
   half_chop(argument, arg, buf2);
 
   if (IS_NPC(ch))
-    send_to_char(ch, "Monsters can't page.. go away.\r\n");
+    send_to_char(ch, "\nalert: Agents can't page..\r");
   else if (!*arg)
-    send_to_char(ch, "Whom do you wish to page?\r\n");
+    send_to_char(ch, "\nalert: Whom do you wish to page?\r");
   else {
     char buf[MAX_STRING_LENGTH];
 
@@ -378,7 +378,7 @@ ACMD(do_page)
 	  if (STATE(d) == CON_PLAYING && d->character)
 	    act(buf, FALSE, ch, 0, d->character, TO_VICT);
       } else
-	send_to_char(ch, "You will never be Deva enough to do that!\r\n");
+	send_to_char(ch, "\nalert: You can't do that.\r");
       return;
     }
     if ((vict = get_char_vis(ch, arg, NULL, FIND_CHAR_WORLD))) {
@@ -388,7 +388,7 @@ ACMD(do_page)
       else
 	act(buf, FALSE, ch, 0, vict, TO_CHAR);
     } else
-      send_to_char(ch, "There is no such person in the game!\r\n");
+      send_to_char(ch, "\nalert: There is no such person in the game!\r");
   }
 }
 
@@ -460,14 +460,14 @@ ACMD(do_gen_comm)
     return;
   }
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_SOUNDPROOF) && (GET_LEVEL(ch) < LVL_DEVA)) {
-    send_to_char(ch, "The walls seem to absorb your words.\r\n");
+    send_to_char(ch, "\nalert: The walls seem to absorb your words.\r");
     return;
   }
 
 
   if (subcmd == SCMD_GEMOTE) {
     if (!*argument)
-      send_to_char(ch, "Gemote? Yes? Gemote what?\r\n");
+      send_to_char(ch, "\nGemote? Yes? Gemote what?\r");
     else
       do_gmote(ch, argument, 0, 1);
     return;
@@ -475,7 +475,7 @@ ACMD(do_gen_comm)
 
   /* Level_can_shout defined in config.c. */
   if (GET_LEVEL(ch) < CONFIG_LEVEL_CAN_SHOUT) {
-    send_to_char(ch, "You must be at least level %d before you can %s.\r\n", CONFIG_LEVEL_CAN_SHOUT, com_msgs[subcmd][1]);
+    send_to_char(ch, "\nalert: You must be level %d before you can %s.\r", CONFIG_LEVEL_CAN_SHOUT, com_msgs[subcmd][1]);
     return;
   }
   /* Make sure the char is on the channel. */
@@ -489,12 +489,12 @@ ACMD(do_gen_comm)
 
   /* Make sure that there is something there to say! */
   if (!*argument) {
-    send_to_char(ch, "Yes, %s, fine, %s we must, but WHAT???\r\n", com_msgs[subcmd][1], com_msgs[subcmd][1]);
+    send_to_char(ch, "\nYes, %s, fine, %s we must, but WHAT?\r", com_msgs[subcmd][1], com_msgs[subcmd][1]);
     return;
   }
   if (subcmd == SCMD_HOLLER) {
     if (GET_MOVE(ch) < CONFIG_HOLLER_MOVE_COST) {
-      send_to_char(ch, "You're too exhausted to holler.\r\n");
+      send_to_char(ch, "\nYou're too exhausted to holler.\r");
       return;
     } else
       GET_MOVE(ch) -= CONFIG_HOLLER_MOVE_COST;
@@ -541,13 +541,13 @@ ACMD(do_gen_comm)
 ACMD(do_qcomm)
 {
   if (!PRF_FLAGGED(ch, PRF_QUEST)) {
-    send_to_char(ch, "You aren't even part of the quest!\r\n");
+    send_to_char(ch, "\nalert: You aren't even part of the quest!\r");
     return;
   }
   skip_spaces(&argument);
 
   if (!*argument)
-    send_to_char(ch, "%c%s?  Yes, fine, %s we must, but WHAT??\r\n", UPPER(*CMD_NAME), CMD_NAME + 1, CMD_NAME);
+    send_to_char(ch, "\n%c%s?  Yes, fine, %s we must, but WHAT??\r", UPPER(*CMD_NAME), CMD_NAME + 1, CMD_NAME);
   else {
     char buf[MAX_STRING_LENGTH];
     struct descriptor_data *i;
