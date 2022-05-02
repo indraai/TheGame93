@@ -50,7 +50,7 @@ ACMD(do_say)
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
 
-    snprintf(buf, sizeof(buf), "say: $n says, '%s'\r\n", argument);
+    snprintf(buf, sizeof(buf), "\nsay: $n says, '%s'\r", argument);
     msg = act(buf, FALSE, ch, 0, 0, TO_ROOM | DG_NO_TRIG);
 
     for (vict = world[IN_ROOM(ch)].people; vict; vict = vict->next_in_room)
@@ -58,9 +58,9 @@ ACMD(do_say)
         add_history(vict, msg, HIST_SAY);
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
-      send_to_char(ch, "say: %s\r\n", CONFIG_OK);
+      send_to_char(ch, "\nsay: %s\r", CONFIG_OK);
     else {
-      sprintf(buf, "say: You say, '%s'\r\n", argument);
+      sprintf(buf, "\nsay: You say, '%s'\r", argument);
       msg = act(buf, FALSE, ch, 0, 0, TO_CHAR | DG_NO_TRIG);
       add_history(ch, msg, HIST_SAY);
     }
@@ -76,22 +76,22 @@ ACMD(do_gsay)
   skip_spaces(&argument);
 
   if (!GROUP(ch)) {
-    send_to_char(ch, "But you are not a member of a group!\r\n");
+    send_to_char(ch, "\ninfo:But you are not a member of a group!\r");
     return;
   }
   if (!*argument)
-    send_to_char(ch, "Yes, but WHAT do you want to group-say?\r\n");
+    send_to_char(ch, "\nYes, but WHAT do you want to group-say?\r");
   else {
 
     if (CONFIG_SPECIAL_IN_COMM && legal_communication(argument))
       parse_at(argument);
 
-    send_to_group(ch, ch->group, "%s%s%s says, '%s'%s\r\n", CCGRN(ch, C_NRM), CCGRN(ch, C_NRM), GET_NAME(ch), argument, CCNRM(ch, C_NRM));
+    send_to_group(ch, ch->group, "\nsay:%s%s%s says, '%s'%s\r", CCGRN(ch, C_NRM), CCGRN(ch, C_NRM), GET_NAME(ch), argument, CCNRM(ch, C_NRM));
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
       send_to_char(ch, "%s", CONFIG_OK);
     else
-      send_to_char(ch, "%sYou group-say, '%s'%s\r\n", CCGRN(ch, C_NRM), argument, CCNRM(ch, C_NRM));
+      send_to_char(ch, "\nsay: You groupsay, %s\r", argument);
 	}
 }
 
