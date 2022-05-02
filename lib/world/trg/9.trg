@@ -465,4 +465,96 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud west
 end
 ~
+#924
+Trainer 924 Greetings~
+0 g 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:francis %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud north
+end
+~
+#925
+Trainer 925 Greetings~
+0 g 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud north
+end
+~
+#926
+Trainer 926 Greetings~
+0 g 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud east
+end
+~
+#927
+Trainer 927 Greetings~
+0 g 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud south
+end
+~
 $~
