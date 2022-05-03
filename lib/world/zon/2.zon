@@ -1,7 +1,7 @@
 #2
-Quinn~
-Arjika~
-200 299 15 2 d 0 0 0 -1 -1
+Quinn Michaels~
+deva.world~
+200 299 20 2 d 0 0 0 -1 -1
 M 0 175 4 259 	(SecurityDEVA D175 (Guard))
 R 0 259 92 -1 	(Agency Board)
 O 1 92 99 259 	(Agency Board)
@@ -39,16 +39,16 @@ M 0 15 1 216 	(Agni)
 M 0 126 1 242 	(Arjika Intelligence)
 O 0 242 1 242 	(Farm Milk)
 M 0 224 1 265 	(Harry Systems)
-M 0 225 1 265 	(Larry 225)
+M 0 225 1 265 	(Larry Systems)
 M 0 226 1 265 	(Barry Systems)
 M 0 221 1 267 	(Harry Support)
-M 0 222 1 267 	(Larry 222)
+M 0 222 1 267 	(Larry Support)
 M 0 223 1 267 	(Barry Support)
 M 0 218 1 237 	(Harry Solutions)
-M 0 219 1 237 	(Larry 219)
+M 0 219 1 237 	(Larry Solutions)
 M 0 220 1 237 	(Barry Solutions)
 M 0 209 1 235 	(Harry Services)
-M 0 210 1 235 	(Larry 210)
+M 0 210 1 235 	(Larry Services)
 M 0 211 1 235 	(Barry Services)
 M 0 101 1 268 	(Darry)
 G 1 140 100 -1 	(Jacket)
@@ -65,7 +65,7 @@ M 0 110 1 222 	(Rarry)
 M 0 111 1 277 	(Narry)
 M 0 119 1 224 	(Fever)
 M 0 130 1 264 	(Sarry)
-M 0 135 1 252 	(BlueDeva PRIME)
+M 0 135 1 252 	(Parusni)
 M 0 158 1 238 	(Farry)
 O 0 154 1 238 	(Sewing Machine)
 G 1 105 100 -1 	(Green Robe)
@@ -82,6 +82,6 @@ M 0 215 2 132 	(SecurityDEVA D215 (Guard))
 M 0 214 2 133 	(SecurityDEVA D214 (Guard))
 M 0 215 2 133 	(SecurityDEVA D215 (Guard))
 O 0 115 1 224 	(a huge safe)
-O 0 300 1 224 	(Bank of Arjika ATM)
+O 0 300 1 224 	(an indra.money machine)
 S
 $

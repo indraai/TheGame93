@@ -212,10 +212,10 @@ disney disneyland linac red neutrino~
 Red Neutrino~
 1172/main:avatar~
 1172/main:look~
-4168 0 0 0 8 0 0 0 0 E
+72 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 1
+8 8 0 6
 Str: 18
 Dex: 18
 Int: 18
@@ -233,7 +233,7 @@ disney disneyland linac blue neutrino~
 Blue Neutrino~
 1173/main:avatar~
 1173/main:look~
-4168 0 0 0 8 0 0 0 0 E
+72 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0 6
@@ -250,53 +250,21 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #1174
-disney disneyland aqua neutrino~
-Aqua Neutrino~
+disney disneyland yellow neutrino~
+Yellow Neutrino~
 1174/main:avatar~
 1174/main:look~
-4168 0 0 0 8 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
+72 0 0 0 0 0 0 0 0 E
+33 20 10 1d1+0 1d1+0
+0 0
 8 8 0 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 #1175
-disney disneyland pink neutrino~
-Pink Neutrino~
+disney disneyland green neutrino~
+Green Neutrino~
 1175/main:avatar~
 1175/main:look~
-4680 0 0 0 8 0 0 0 0 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 0 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
-E
-#1176
-disney disneyland orange neutrino~
-Orange Neutrino~
-1176/main:avatar~
-1176/main:look~
-4168 0 0 0 8 0 0 0 0 E
+8 0 0 0 0 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 0 1

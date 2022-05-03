@@ -967,10 +967,6 @@ Plaza Inn~
 You are in an unfinished room.
 ~
 11 24 0 0 0 0
-D0
-~
-Washroom~
-1 0 1181
 D3
 ~
 ~
@@ -1145,7 +1141,7 @@ Tomorrowland~
 1 0 1603
 S
 #1175
-Storage~
+Operations - RTC31390~
 You are in an unfinished room.
 ~
 11 8 0 0 0 0
@@ -1155,18 +1151,14 @@ linac~
 0 0 1173
 S
 #1176
-Cooling~
+Cooling - RTC31390~
 You are in an unfinished room.
 ~
-11 8 0 0 0 0
+11 0 0 0 0 0
 D1
 ~
-linac~
-0 0 1173
-D4
-~
-Frontierland~
-1 0 1404
+LINAC~
+1 0 1173
 S
 #1177
 City Hall Washroom - Main Street~
@@ -1214,15 +1206,5 @@ D2
 ~
 ~
 0 0 1169
-S
-#1181
-Washroom~
-You are in an unfinished room.
-~
-11 24 0 0 0 0
-D2
-~
-Exit~
-1 0 1160
 S
 $~

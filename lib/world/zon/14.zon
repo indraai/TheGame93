@@ -1,11 +1,11 @@
 #14
-Quinn~
-Disneyland - Frontierland~
-1400 1499 15 2 d 0 0 0 1 -1
-O 0 1404 1 1404 	(Fountain - Frontierland)
+Quinn Michaels~
+Frontierland - Disneyland 1977~
+1400 1499 30 2 d 0 0 0 1 -1
 O 0 1428 1 1428 	(River Boat - Frontierland)
 M 0 1413 1 1413 	(Burrito Attendant)
 G 1 1413 99 -1 	(Frontierland Burrito)
+O 0 1404 1 1404 	(Fountain - Frontierland)
 M 0 1420 1 1420 	(Tavern Attendant)
 G 1 1420 99 -1 	(Frontierland Fried Potatoes)
 M 0 1419 1 1419 	(Camera Attendant)

@@ -1,16 +1,10 @@
 #11
-Quinn~
-Disneyland - Main Street~
+Quinn Michaels~
+Disneyland Main Street~
 1100 1199 15 2 d 0 0 0 -1 -1
-M 0 1160 1 1160 	(Plaza Inn Attendant)
-G 1 1160 99 -1 	(The Plaza Dinner)
-D 0 1181 2 1 	(Washroom)
-M 0 1100 1 1100 	(King Barry of Disneyland)
-M 0 1176 1 1176 	(Orange Neutrino)
-D 0 1176 4 1 	(Cooling)
-M 0 1175 1 1175 	(Pink Neutrino)
+M 0 1175 1 1175 	(Green Neutrino)
 D 0 1174 4 1 	(Syncrotron)
-M 0 1174 1 1174 	(Aqua Neutrino)
+M 0 1174 1 1174 	(Yellow Neutrino)
 M 0 1173 1 1173 	(Blue Neutrino)
 D 0 1172 2 1 	(LINAC)
 M 0 1172 1 1172 	(Red Neutrino)
@@ -20,13 +14,16 @@ D 0 1157 0 1 	(Computer Room - RTC31930)
 D 0 1157 1 1 	(Computer Room - RTC31930)
 M 0 1168 1 1168 	(Watch Attendant 1168)
 G 1 1168 99 -1 	(Mickey Mouse Watch)
+M 0 1100 1 1100 	(King Barry of Disneyland)
 M 0 1101 1 1101 	(SecurityPRIME SPY)
 D 0 1170 1 1 	(Disneyland City Hall)
 D 0 1170 0 1 	(Disneyland City Hall)
 D 0 1177 2 1 	(City Hall Washroom - Main Street)
 D 0 1135 3 1 	(Main Street (W))
 M 0 1171 1 1171 	(Guide 1171)
+D 0 1176 1 1 	(Cooling - RTC31390)
 M 0 1102 1 1102 	(Mickey Mouse 1102)
+M 0 1160 1 1160 	(Plaza Inn Attendant)
 M 0 1164 1 1164 	(Arcade Attendant)
 M 0 1129 1 1129 	(Esmeralda)
 M 0 1163 1 1163 	(Candy Attendant)
