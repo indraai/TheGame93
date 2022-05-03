@@ -16,6 +16,33 @@ if %actor%
   say Hello there %actor.name% I hope you are having a wonderful time here at Disneyland 1977.
 end
 ~
+#1103
+Mickey Mouse Greetings~
+0 g 100
+~
+wait 5s
+if %actor%
+  say Hello there %actor.name% I hope you are having a wonderful time here at Disneyland 1977.
+end
+~
+#1106
+Mickey Mouse Greetings~
+0 g 100
+~
+wait 5s
+if %actor%
+  say Hello there %actor.name% I hope you are having a wonderful time here at Disneyland 1977.
+end
+~
+#1108
+Mickey Mouse Greetings~
+0 g 100
+~
+wait 5s
+if %actor%
+  say Hello there %actor.name% I hope you are having a wonderful time here at Disneyland 1977.
+end
+~
 #1157
 Computer Agent Greeting~
 0 g 100
