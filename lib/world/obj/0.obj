@@ -93,33 +93,6 @@ A simple wooden sign hanging from a shop to the North states, "OPEN."~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-#28
-academy course training level8~
-Academy Level 8~
-0028/main:avatar~
-0028/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 8 0
-#29
-academy course training level9~
-Academy Level 9~
-0029/main:avatar~
-0029/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 9 0
-#30
-academy training course level10~
-Academy Level 10~
-0030/main:avatar~
-0030/main:look
-~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 10 0
 #31
 vamraka stream water fountain~
 Vamraka Fountain~
