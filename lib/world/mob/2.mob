@@ -41,7 +41,7 @@ Martha Stuart~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
-8 8 2 0
+8 8 2 1
 E
 #208
 offering deva od208~
@@ -61,24 +61,26 @@ Harry Services~
 0209/main:avatar~
 0209/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6 0
+6 6 3 2
 BareHandAttack: 4
 E
+T 7
 #210
 larry services indra.services deva~
 Larry Services~
 0210/main:avatar~
 0210/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6 0
+6 6 1 2
 BareHandAttack: 4
 E
+T 8
 #211
 barry services indra.services deva~
 Barry Services~
@@ -209,12 +211,13 @@ Harry Solutions~
 0218/main:avatar~
 0218/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
 6 6 6 0
 BareHandAttack: 4
 E
+T 7
 #219
 larry solutions indra.solutions deva~
 Larry Solutions~
@@ -227,6 +230,7 @@ Larry Solutions~
 6 6 6 0
 BareHandAttack: 4
 E
+T 8
 #220
 barry solution indra.solutions deva~
 Barry Solutions~
@@ -245,24 +249,26 @@ Harry Support~
 0221/main:avatar~
 0221/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-6 6 6 1
+6 6 3 1
 BareHandAttack: 4
 E
+T 7
 #222
 larry support indra.support deva~
 Larry Support~
 0222/main:avatar~
 0222/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6 0
+6 6 1 2
 BareHandAttack: 4
 E
+T 8
 #223
 barry support indra.support deva~
 Barry Support~
@@ -284,21 +290,23 @@ Harry Systems~
 4106 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-6 6 6 1
+6 6 3 1
 BareHandAttack: 4
 E
+T 7
 #225
 larry systems indra.systems deva~
 Larry Systems~
 0225/main:avatar~
 0225/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6 0
+6 6 1 2
 BareHandAttack: 4
 E
+T 8
 #226
 barry systems indra.support deva~
 Barry Systems~

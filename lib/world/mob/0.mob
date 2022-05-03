@@ -116,7 +116,7 @@ SecurityPRIME~
 260120 0 0 0 2168 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
 30000 90000
-8 8 1 1
+8 8 1 6
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -160,9 +160,10 @@ Harry Deva~
 6296 0 0 0 2168 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 5 0
+8 8 3 2
 BareHandAttack: 11
 E
+T 7
 #8
 larry deva~
 Larry Deva~
@@ -171,9 +172,10 @@ Larry Deva~
 6296 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 5 0
+8 8 1 2
 BareHandAttack: 1
 E
+T 8
 #9
 barry deva~
 Barry Deva~

@@ -12,6 +12,20 @@ set msg Welcome to the Indra Academy. Where you learn what you want when you wan
 wait 2s
 %echo% %msg%
 ~
+#7
+Talk to Harry~
+0 d 100
+*~
+wait 2s
+%send% %actor% talk:#pandora ask:harry %speech%
+~
+#8
+Talk to Larry~
+0 d 100
+*~
+wait 3s
+talk:#pandora ask:larry %speech%
+~
 #9
 Barry Deva Triggers~
 0 g 100
