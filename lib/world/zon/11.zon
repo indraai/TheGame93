@@ -2,8 +2,10 @@
 Quinn~
 Disneyland - Main Street~
 1100 1199 15 2 d 0 0 0 -1 -1
+M 0 1162 1 1162 	(Refreshment Attendant)
+G 1 1162 99 -1 	(Refreshment Container)
 M 0 1160 1 1160 	(Plaza Inn Attendant)
-G 1 1160 99 -1 	(The Plaza Dinner)
+G 1 1160 99 -1 	(the Plaza Dinner)
 D 0 1181 2 1 	(Washroom)
 M 0 1100 1 1100 	(King Barry of Disneyland)
 M 0 1176 1 1176 	(Orange Neutrino)
@@ -30,7 +32,6 @@ M 0 1102 1 1102 	(Mickey Mouse 1102)
 M 0 1164 1 1164 	(Arcade Attendant)
 M 0 1129 1 1129 	(Esmeralda)
 M 0 1163 1 1163 	(Candy Attendant)
-M 0 1162 1 1162 	(Refreshment Attendant)
 M 0 1126 1 1126 	(Male Guest 1126)
 E 1 1100 99 6 	(Mickey Mouse Ears)
 M 0 1127 1 1127 	(Female Guest 1127)

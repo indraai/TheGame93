@@ -535,8 +535,8 @@ D2
 0 0 1128
 D3
 ~
-~
-0 0 1162
+Refreshments~
+1 0 1162
 S
 #1128
 Main Street (W)~
@@ -987,14 +987,14 @@ D1
 0 0 1126
 S
 #1162
-Coca Cola Refreshment Corner~
+Refreshment Corner~
 You are in an unfinished room.
 ~
 11 24 0 0 0 0
 D1
 ~
-~
-0 0 1127
+Exit~
+1 0 1127
 S
 #1163
 Candy Palace~
