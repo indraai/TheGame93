@@ -3,6 +3,10 @@ Tomorrowland~
 You are in an unfinished room.
 ~
 16 16 0 0 0 1
+D0
+~
+~
+0 0 1610
 D1
 ~
 ~
@@ -25,6 +29,10 @@ D0
 ~
 ~
 0 0 1602
+D1
+~
+~
+0 0 1608
 D2
 ~
 ~
@@ -35,10 +43,10 @@ D3
 0 0 1600
 S
 #1602
-Coca-Cola Tomorrowland Terrace~
+The Terrace - Tomorrowland~
 You are in an unfinished room.
 ~
-16 0 0 0 0 0
+16 24 0 0 0 0
 D2
 ~
 ~
@@ -53,16 +61,24 @@ D0
 ~
 ~
 0 0 1601
+D1
+~
+~
+0 0 1606
+D2
+~
+~
+0 0 1607
 D3
 ~
 ~
 0 0 1605
 S
 #1604
-Tomorrowland~
+Adventure Thru Inner Space~
 You are in an unfinished room.
 ~
-16 16 0 0 0 1
+16 24 0 0 0 0
 D0
 ~
 ~
@@ -81,9 +97,71 @@ D0
 ~
 ~
 0 0 1603
+D1
+~
+~
+0 0 1607
 D3
 ~
 ~
 0 0 1604
+S
+#1606
+America Sings - Tomorrowland~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D3
+~
+~
+0 0 1603
+S
+#1607
+Telephone - Tomorrowland~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D0
+~
+~
+0 0 1603
+D1
+~
+~
+0 0 1609
+D3
+~
+~
+0 0 1605
+S
+#1608
+Rocket Jets - Tomorrowland~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D3
+~
+~
+0 0 1601
+S
+#1609
+Mission to Mars - Tomorrowland~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D3
+~
+~
+0 0 1607
+S
+#1610
+Circle-Vision 360 - Tomorrowland~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D2
+~
+~
+0 0 1600
 S
 $~

@@ -1091,7 +1091,7 @@ D1
 0 0 1136
 S
 #1172
-LINAC - RTC31930 (S)~
+LINAC~
 You are in an unfinished room.
 ~
 11 8 0 0 0 0
@@ -1105,18 +1105,18 @@ Computer Room~
 1 0 1157
 S
 #1173
-LINAC - RTC31390 (N)~
+LINAC~
 You are in an unfinished room.
 ~
 11 8 0 0 0 0
 D0
 ~
-OPERATIONS~
-1 0 1175
+[none]~
+0 0 1175
 D1
 ~
-SYNCROTRON~
-1 0 1174
+[none]~
+0 0 1174
 D2
 ~
 ~
@@ -1127,14 +1127,18 @@ COOLING~
 1 0 1176
 S
 #1174
-Syncrotron - RTC31390~
+Syncrotron~
 You are in an unfinished room.
 ~
 11 8 0 0 0 0
 D3
 ~
 LINAC~
-1 0 1173
+0 0 1173
+D4
+~
+Tomorrowland~
+1 0 1603
 S
 #1175
 Operations - RTC31390~
@@ -1143,7 +1147,7 @@ You are in an unfinished room.
 11 8 0 0 0 0
 D2
 ~
-LINAC~
+linac~
 0 0 1173
 S
 #1176
