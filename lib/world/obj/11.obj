@@ -19,6 +19,22 @@ E
 computer~
 1157/main:computer
 ~
+#1160
+disney disneyland plazainn meal food vegetarian~
+the Plaza Dinner~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+24 0 0 0
+1 30 0 0 0
+#1162
+disney disneyland refreshment container~
+Refreshment Container~
+:room:/main:avatar~
+:room:/main:look~
+17 0 0 0 0 ao 0 0 0 0 0 0 0
+50 50 5 0
+1 10 0 0 0
 #1168
 disney disneyland watch time piece mickey mouse~
 Mickey Mouse Watch~
