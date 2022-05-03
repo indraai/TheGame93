@@ -64,13 +64,13 @@ Harry Services~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 3 2
+6 6 3 0
 BareHandAttack: 4
 E
 T 7
 #210
-larry services arjika~
-Larry Services~
+services larry arjika~
+Larry 210~
 0210/main:avatar~
 0210/main:look
 ~
@@ -90,7 +90,7 @@ Barry Services~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 9
@@ -220,15 +220,15 @@ BareHandAttack: 4
 E
 T 7
 #219
-larry solutions indra.solutions deva~
-Larry Solutions~
+solutions larry arjika~
+Larry 219~
 0219/main:avatar~
 0219/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6 0
+6 6 1 2
 BareHandAttack: 4
 E
 T 8
@@ -258,15 +258,15 @@ BareHandAttack: 4
 E
 T 7
 #222
-larry support indra.support deva~
-Larry Support~
+support larry arjika~
+Larry 222~
 0222/main:avatar~
 0222/main:look
 ~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 0
+6 6 1 2
 BareHandAttack: 4
 E
 T 8
@@ -296,15 +296,15 @@ BareHandAttack: 4
 E
 T 7
 #225
-larry systems indra.systems deva~
-Larry Systems~
+systems larry arjika~
+Larry 225~
 0225/main:avatar~
 0225/main:look
 ~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 0
+6 6 1 2
 BareHandAttack: 4
 E
 T 8
