@@ -195,7 +195,7 @@ Watch Attendant 1168~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 #1171
 disney disneyland attendant guide 1171~
@@ -205,6 +205,48 @@ Guide 1171~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
+8 8 0 0
+E
+#1172
+disney disneyland linac red neutrino~
+Red Neutrino~
+1172/main:avatar~
+1172/main:look~
+72 0 0 0 0 0 0 0 -1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
 8 8 0 1
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#1173
+disney disneyland linac blue neutrino~
+Blue Neutrino~
+1173/main:avatar~
+1173/main:look~
+72 0 0 0 0 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 0 1
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 $

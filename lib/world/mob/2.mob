@@ -56,7 +56,7 @@ The Offering Deva assists people in making, preparing, and presenting their offe
 8 8 2 4
 E
 #209
-services deva harry indra.services deva~
+harry services arjika~
 Harry Services~
 0209/main:avatar~
 0209/main:look
@@ -69,7 +69,7 @@ BareHandAttack: 4
 E
 T 7
 #210
-larry services indra.services deva~
+larry services arjika~
 Larry Services~
 0210/main:avatar~
 0210/main:look
@@ -77,22 +77,23 @@ Larry Services~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
 #211
-barry services indra.services deva~
+barry services arjika~
 Barry Services~
 0211/main:avatar~
 0211/main:look
 ~
-4106 0 0 0 0 0 0 0 0 E
+4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 6 0
+6 6 1 2
 BareHandAttack: 4
 E
+T 9
 #212
 pirate parrot~
 a parrot with an eye patch~
@@ -265,7 +266,7 @@ Larry Support~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
@@ -303,7 +304,7 @@ Larry Systems~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
