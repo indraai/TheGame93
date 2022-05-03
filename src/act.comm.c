@@ -60,7 +60,7 @@ ACMD(do_say)
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
       send_to_char(ch, "\nsay: %s\r", CONFIG_OK);
     else {
-      sprintf(buf, "\nsay: You say, '%s'\r", argument);
+      sprintf(buf, "\nsay: You say, %s\r", argument);
       msg = act(buf, FALSE, ch, 0, 0, TO_CHAR | DG_NO_TRIG);
       add_history(ch, msg, HIST_SAY);
     }
@@ -558,7 +558,7 @@ ACMD(do_qcomm)
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOREPEAT))
       send_to_char(ch, "%s", CONFIG_OK);
     else if (subcmd == SCMD_QSAY) {
-      snprintf(buf, sizeof(buf), "You quest-say, '%s'", argument);
+      snprintf(buf, sizeof(buf), "You quest-say, %s", argument);
       act(buf, FALSE, ch, 0, argument, TO_CHAR);
     } else
       act(argument, FALSE, ch, 0, argument, TO_CHAR);
