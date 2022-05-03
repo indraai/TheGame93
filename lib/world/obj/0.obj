@@ -60,24 +60,6 @@ E
 spring~
 0007/spring
 ~
-#8
-academy training course a08~
-Academy Course A08~
-0008/main:avatar~
-0008/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 10 0
-#9
-academy training course level1~
-Academy Level 1~
-0009/main:avatar~
-talk:#adv thegame:object 0009/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 1 0
 #10
 internet detective badge~
 Internet Detective Badge~
@@ -87,19 +69,6 @@ Internet Detective Badge~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-#11
-academy training course level2~
-Academy Level 2~
-0011/main:avatar~
-0011/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 2 0
-E
-comfy bed~
-This bed is beckoning you to lie down and get some much needed sleep. Just "sleep bed"
-~
 #19
 barry boots~
 Barry Boots~
@@ -108,51 +77,6 @@ A pair of Barry Boots are here.~
 9 0 0 0 0 ag 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-#20
-academy course training level3~
-Academy Level 3~
-0020/main:avatar~
-0020/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 3 0
-#21
-academy course training level4~
-Academy Level 4~
-0021/main:avatar~
-0021/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 4 0
-#22
-academy course training level5~
-Academy Level 5~
-0022/main:avatar~
-talk#adv object:thegame 022/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 5 0
-#23
-academy course training level6~
-Academy Level 6~
-0023/main:avatar~
-0023/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 6 0
-#24
-academy course training level7~
-Academy Level 7~
-0024/main:avatar~
-0024/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 7 0
 #25
 security key~
 Security Key~
@@ -169,33 +93,6 @@ A simple wooden sign hanging from a shop to the North states, "OPEN."~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 1 1 0 0 0
-#28
-academy course training level8~
-Academy Level 8~
-0028/main:avatar~
-0028/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 8 0
-#29
-academy course training level9~
-Academy Level 9~
-0029/main:avatar~
-0029/main:look
-~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 9 0
-#30
-academy training course level10~
-Academy Level 10~
-0030/main:avatar~
-0030/main:look
-~
-18 dht 0 0 0 a 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 10 0
 #31
 vamraka stream water fountain~
 Vamraka Fountain~
