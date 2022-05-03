@@ -44,7 +44,7 @@ if %fol%
   end
 else
   if %inroom% != %startroom%
-    %mgoto% 1000
+    %mgoto% 10000
   end
 end
 ~
@@ -65,7 +65,7 @@ Room 1005 Trigger~
 2 q 100
 ~
 set key 10013
-set wallet 1004
+set wallet 10004
 set token %actor.inventory(%key%)%
 set dir north
 set msg talk:#adv world:thegame 1000/closed

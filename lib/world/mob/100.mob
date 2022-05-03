@@ -10,7 +10,7 @@ Gunnar Larsen~
 8 8 1
 BareHandAttack: 5
 E
-T 1000
+T 10000
 #10001
 cyoa dr james sneed geologist~
 Dr. Sneed~
@@ -22,7 +22,7 @@ It looks unfinished.10001/main:look
 0 0
 8 8 1
 E
-T 1001
+T 10001
 #10003
 underground kingdom guide~
 Kingdom Guide~
@@ -34,7 +34,7 @@ talk:#adv thegame:agent 1003/main:look
 0 0
 8 8 0
 E
-T 1003
+T 10003
 #10010
 angel bird fledgling underground kingdom cyoa~
 Angel Bird (fledgling)~
