@@ -24,7 +24,7 @@ Talk to Larry~
 0 d 100
 *~
 wait 3s
-talk:#pandora ask:larry %speech%
+%send% %actor% talk:#pandora ask:larry %speech%
 ~
 #9
 Barry Deva Triggers~
