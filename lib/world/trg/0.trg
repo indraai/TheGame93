@@ -16,21 +16,22 @@ wait 2s
 Talk to Harry~
 0 d 100
 *~
-wait 2s
+wait 1s
 %send% %actor% talk:#pandora ask:harry %speech%
 ~
 #8
 Talk to Larry~
 0 d 100
 *~
-wait 3s
+wait 2s
 %send% %actor% talk:#pandora ask:larry %speech%
 ~
 #9
-Barry Deva Triggers~
-0 g 100
-~
-%echo% This trigger commandlist is not complete!
+Talk to Barry~
+0 d 100
+*~
+wait 3s
+%send% %actor% talk:#pandora ask:larry %speech%
 ~
 #95
 Arjika Dayshift~
