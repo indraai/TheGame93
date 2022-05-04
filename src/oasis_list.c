@@ -295,7 +295,7 @@ static void perform_obj_aff_list(struct char_data * ch, char *arg)
                   lst[i].val,
                   obj_proto[r_num].short_description,
                   item_types[obj_proto[num].obj_flags.type_flag],
-                  obj_proto[num].proto_script ? " *trig" : "");
+                  obj_proto[num].proto_script ? " *t" : "");
         len += tmp_len;
         if (len > sizeof(buf))
           break;
@@ -327,7 +327,7 @@ static void perform_obj_aff_list(struct char_data * ch, char *arg)
                 lst[i].val,
                 obj_proto[r_num].short_description,
                 item_types[obj_proto[r_num].obj_flags.type_flag],
-                obj_proto[r_num].proto_script ? " *trig" : "");
+                obj_proto[r_num].proto_script ? " *t" : "");
       len += tmp_len;
     }
   }
@@ -349,7 +349,7 @@ static void perform_obj_name_list(struct char_data * ch, char *arg)
       obj_proto[num].short_description,
       obj_index[num].number,
       item_types[obj_proto[num].obj_flags.type_flag],
-      obj_proto[num].proto_script ? " *trig" : "");
+      obj_proto[num].proto_script ? " *t" : "");
     }
   }
 }
@@ -578,7 +578,7 @@ static void list_rooms(struct char_data *ch, zone_rnum rnum, room_vnum vmin, roo
       send_to_char(ch, "\n%d. %d %s%s\r",
         counter, world[i].number,
         world[i].name,
-        world[i].proto_script ? " *trig" : "");
+        world[i].proto_script ? " *t" : "");
 
       /* list room exits
       for (j = 0; j < DIR_COUNT; j++) {
@@ -632,7 +632,7 @@ static void list_mobiles(struct char_data *ch, zone_rnum rnum, mob_vnum vmin, mo
         counter,
         mob_index[i].vnum,
         mob_proto[i].player.short_descr,
-        mob_proto[i].proto_script ? " *trig" : ""
+        mob_proto[i].proto_script ? " *t" : ""
       );
     }
   }
@@ -671,7 +671,7 @@ static void list_objects(struct char_data *ch, zone_rnum rnum, obj_vnum vmin, ob
         obj_index[i].vnum,
         obj_proto[i].short_description,
         item_types[obj_proto[i].obj_flags.type_flag],
-        obj_proto[i].proto_script ? " *trig" : ""
+        obj_proto[i].proto_script ? " *t" : ""
       );
     }
   }
