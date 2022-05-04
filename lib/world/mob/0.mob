@@ -154,13 +154,13 @@ SavingSpell: 8
 E
 #7
 harry deva~
-Harry Deva~
+Harry~
 0007/main:avatar~
 0007/main:look~
-6296 0 0 0 2168 0 0 0 -500 E
+6168 0 0 0 2120 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 3 0
+8 8 3 2
 BareHandAttack: 11
 E
 T 7
@@ -172,19 +172,19 @@ Larry~
 6296 0 0 0 26744 0 0 0 500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1 2
+8 8 1 0
 BareHandAttack: 1
 E
 T 8
 #9
-barry deva~
-Barry Deva~
+barry arjika~
+Barry~
 0009/main:avatar~
 0009/main:look~
 2200 0 0 0 2368 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 0 6
+100000 108900
+8 8 0 2
 BareHandAttack: 1
 Str: 18
 Dex: 18

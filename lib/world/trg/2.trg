@@ -99,6 +99,13 @@ if %actor.is_pc%
   end
 end
 ~
+#216
+Talk to Yoda~
+0 d 100
+*~
+wait 1s
+%send% %actor% talk:#pandora ask:yoda %speech%
+~
 #218
 Holiday Decorations by Interior Design - M218~
 0 d 100

@@ -77,7 +77,7 @@ Larry 210~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
@@ -178,16 +178,16 @@ E
 #216
 Yoda~
 Yoda~
-Jedi Master Yoda.
+0216/main:avatar~
+0216/main:look
 ~
-A tiny green alien, dressed in gray and white robes.  He carries around a small cane, and speaks oddly.
-~
-8 0 0 0 0 0 0 0 1000 E
+6168 0 0 0 8 0 0 0 1000 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 1 2
 BareHandAttack: 10
 E
+T 216
 #217
 martin bookstore books clerk~
 Martin~
@@ -227,7 +227,7 @@ Larry 219~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
@@ -265,7 +265,7 @@ Larry 222~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
@@ -303,7 +303,7 @@ Larry 225~
 4170 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-6 6 1 2
+6 6 1 0
 BareHandAttack: 4
 E
 T 8
@@ -355,5 +355,21 @@ SavingRod: 7
 SavingPetri: 7
 SavingBreath: 7
 SavingSpell: 7
+E
+#298
+flab gordon brad pitt hero man~
+Flash Brad~
+298/main:avatar~
+298/main:look~
+6168 0 0 0 72 0 0 0 250 E
+10 17 4 2d2+100 1d2+1
+10000 10000
+8 8 1 2
+BareHandAttack: 9
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 $

@@ -136,7 +136,7 @@ Rahula~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 2
+8 8 1 6
 BareHandAttack: 5
 Str: 18
 Dex: 18
@@ -174,7 +174,7 @@ talk:#adv agent/thegame 330/main:look~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 2
+8 8 1 6
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -227,7 +227,7 @@ Tyler~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 2
+8 8 1 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -256,7 +256,7 @@ francis friendly arjika~
 Francis~
 335/main:avatar~
 335/main:look~
-6170 0 0 0 8 0 0 0 250 E
+6168 0 0 0 8 0 0 0 250 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
 8 8 1 2
