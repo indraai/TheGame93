@@ -419,13 +419,29 @@ D3
 0 0 326
 S
 #328
-Rahula Room~
+Launch Room~
 Empty room.~
 3 24 0 0 0 0
 D0
 ~
 ~
-0 0 101
+0 0 251
+D1
+~
+~
+0 0 1102
+D2
+~
+~
+0 0 349
+D3
+~
+~
+0 0 1157
+D5
+~
+~
+0 0 339
 S
 #329
 Law: Legal Proceedings~

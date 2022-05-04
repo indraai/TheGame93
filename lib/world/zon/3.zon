@@ -2,11 +2,11 @@
 Quinn~
 Arjika~
 300 399 15 2 d 0 0 0 -1 -1
-M 0 328 1 328 	(Brian)
-M 0 329 1 393 	(Rahula Deva)
-M 0 330 1 393 	(Indra Deva)
-M 0 333 1 393 	(Tyler Deva)
-M 0 335 1 393 	(Francis Deva)
+M 0 328 1 328 	(Rahula)
+M 0 329 1 328 	(Brian)
+M 0 330 1 328 	(Indra Deva)
+M 0 333 1 328 	(Tyler Deva)
+M 0 335 1 328 	(Francis Deva)
 O 0 315 1 300 	(City Park Fountain)
 M 0 175 4 362 	(SecurityDEVA D175 (Guard))
 R 0 362 92 -1 	(Agency Board)
