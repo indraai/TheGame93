@@ -4,7 +4,11 @@ the Contract of The Covenant~
 0900/main:avatar~
 0900/main:look
 ~
-16 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 0 0 1 0
+E
+contract~
+0900/main:contract
+~
 $~
