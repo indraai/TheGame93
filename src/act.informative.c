@@ -1781,6 +1781,7 @@ static void perform_deva_where(struct char_data *ch, char *arg)
       }
   // if there is no argument passed we go here.
   } else {
+    send_to_char(ch, "\n## Agents\r");
     for (i = character_list; i; i = i->next)
       if (CAN_SEE(ch, i) && IN_ROOM(i) != NOWHERE && isname(arg, i->player.name)) {
         found = 1;
@@ -1799,6 +1800,7 @@ static void perform_deva_where(struct char_data *ch, char *arg)
         }
       send_to_char(ch, "\r");
       }
+    send_to_char(ch, "\n## Objects\r");
     for (num = 0, k = object_list; k; k = k->next)
       if (CAN_SEE_OBJ(ch, k) && isname(arg, k->name)) {
         found = 1;
