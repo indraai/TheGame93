@@ -122,7 +122,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
       if (obj->action_description) {
         char notebuf[MAX_NOTE_LENGTH + 64];
 
-        snprintf(notebuf, sizeof(notebuf), "%s", obj->action_description);
+        snprintf(notebuf, sizeof(notebuf), "\ntalk:#adv object:thegame %s\r", obj->action_description);
         page_string(ch->desc, notebuf, TRUE);
       } else {
 	     send_to_char(ch, "\ninfo:It's blank.\r");
