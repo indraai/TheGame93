@@ -1685,7 +1685,7 @@ static void perform_mortal_where(struct char_data *ch, char *arg)
 
   if (!*arg) {
     j = world[(IN_ROOM(ch))].zone;
-    send_to_char(ch, "Players in %s\tn.\r\n--------------------\r\n", zone_table[j].name);
+    send_to_char(ch, "\n## Players in %s\r", zone_table[j].name);
     for (d = descriptor_list; d; d = d->next) {
       if (STATE(d) != CON_PLAYING || d->character == ch)
 	continue;
@@ -1730,17 +1730,19 @@ static void print_object_location(int num, struct obj_data *obj, struct char_dat
   }
 
   if (IN_ROOM(obj) != NOWHERE)
-    send_to_char(ch, "\nR: %d %s\r", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name);
+    send_to_char(ch, "> R %d %s\r", GET_ROOM_VNUM(IN_ROOM(obj)), world[IN_ROOM(obj)].name);
   else if (obj->carried_by)
-    send_to_char(ch, "\nC: %s\r", PERS(obj->carried_by, ch));
+    send_to_char(ch, "> C: %s\r", PERS(obj->carried_by, ch));
   else if (obj->worn_by)
-    send_to_char(ch, "\nW: %s\r", PERS(obj->worn_by, ch));
+    send_to_char(ch, "> W: %s\r", PERS(obj->worn_by, ch));
   else if (obj->in_obj) {
-    send_to_char(ch, "\nI: %s\r", obj->in_obj->short_description);
+    send_to_char(ch, "> I: %s\r", obj->in_obj->short_description);
     if (recur)
       print_object_location(0, obj->in_obj, ch, recur);
   } else
     send_to_char(ch, "in an unknown location");
+
+  send_to_char(ch, "\r");
 }
 
 /* Perform a where search if have immortal level
