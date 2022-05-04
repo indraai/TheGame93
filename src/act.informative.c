@@ -120,10 +120,11 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
     switch (GET_OBJ_TYPE(obj)) {
     case ITEM_NOTE:
       if (obj->action_description) {
-        char notebuf[MAX_NOTE_LENGTH + 64];
+        send_to_char(ch, "\ntalk:#adv object:thegame %s\r", obj->short_description);
 
-        snprintf(notebuf, sizeof(notebuf), "\ntalk:#adv object:thegame %s\r", obj->action_description);
-        page_string(ch->desc, notebuf, TRUE);
+        // char notebuf[MAX_NOTE_LENGTH + 64];
+        // snprintf(notebuf, sizeof(notebuf), "\ntalk:#adv object:thegame %s\r", obj->action_description);
+        // page_string(ch->desc, notebuf, TRUE);
       } else {
 	     send_to_char(ch, "\ninfo:It's blank.\r");
       }
@@ -134,7 +135,7 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
       break;
 
     default:
-      send_to_char(ch, "\ninfo:You see nothing special.\r");
+      send_to_char(ch, "\ninfo:You see nothing.\r");
       break;
     }
     break;
@@ -857,7 +858,9 @@ ACMD(do_look)
       for (i = world[IN_ROOM(ch)].ex_description; i; i = i->next) {
         if (*i->keyword != '.') {
           send_to_char(ch, "\n%s%s:%s\r",
-          (found ? "\n" : ""), i->keyword, i->description);
+          (found ? "\n" : ""),
+          i->keyword,
+          i->description);
           found = 1;
         }
       }
