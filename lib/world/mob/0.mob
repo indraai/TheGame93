@@ -160,7 +160,7 @@ Harry~
 6168 0 0 0 2120 0 0 0 -500 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 3 2
+8 8 3 0
 BareHandAttack: 11
 E
 T 7
@@ -198,6 +198,7 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
+T 9
 #10
 vivasvan devas deva arjika~
 Vivasvan~

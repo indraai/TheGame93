@@ -378,4 +378,19 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#928
+trainer training agent 928 tyler~
+Tyler 928~
+928/main:avatar~
+928/main:look~
+78 0 0 0 0 0 0 0 -288 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 $
