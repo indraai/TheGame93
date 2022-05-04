@@ -767,7 +767,9 @@ static void look_at_target(struct char_data *ch, char *arg)
     if (GET_EQ(ch, j) && CAN_SEE_OBJ(ch, GET_EQ(ch, j)))
       if ((desc = find_exdesc(arg, GET_EQ(ch, j)->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Equipment\r"
-          "\n%s\r",
+          "::begin:object"
+          "\ntalk:#adv object:thegame %s\r"
+          "::end:object",
           desc
         );
         found = TRUE;
@@ -778,7 +780,9 @@ static void look_at_target(struct char_data *ch, char *arg)
     if (CAN_SEE_OBJ(ch, obj))
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Inventory\r"
-          "\n%s\r",
+          "::begin:object"
+          "\ntalk:#adv object:thegame %s\r"
+          "::end:object",
           desc
         );
         found = TRUE;
@@ -837,21 +841,27 @@ ACMD(do_look)
     half_chop(argument, arg, arg2);
 
     if (subcmd == SCMD_READ) {
-      if (!*arg)
-	send_to_char(ch, "\ninfo:Read what?\r");
-      else
-	look_at_target(ch, strcpy(tempsave, arg));
+      if (!*arg) {
+        send_to_char(ch, "\ninfo:Read what?\r");
+      }
+      else {
+        look_at_target(ch, strcpy(tempsave, arg));
+      }
       return;
     }
-    if (!*arg)			/* "look" alone, without an argument at all */
+    if (!*arg) {			/* "look" alone, without an argument at all */
       look_at_room(ch, 1);
-    else if (is_abbrev(arg, "in"))
+    }
+    else if (is_abbrev(arg, "in")) {
       look_in_obj(ch, arg2);
+    }
     /* did the char type 'look <direction>?' */
-    else if ((look_type = search_block(arg, dirs, FALSE)) >= 0)
+    else if ((look_type = search_block(arg, dirs, FALSE)) >= 0) {
       look_in_direction(ch, look_type);
-    else if (is_abbrev(arg, "at"))
+    }
+    else if (is_abbrev(arg, "at")) {
       look_at_target(ch, strcpy(tempsave, arg2));
+    }
     else if (is_abbrev(arg, "around")) {
       struct extra_descr_data *i;
 
@@ -866,8 +876,9 @@ ACMD(do_look)
       }
       if (!found)
          send_to_char(ch, "\ninfo:You find nothing noticeable.\r");
-    } else
+    } else {
       look_at_target(ch, strcpy(tempsave, arg));
+    }
   }
 }
 
