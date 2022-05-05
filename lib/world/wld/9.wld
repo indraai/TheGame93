@@ -103,6 +103,10 @@ D0
 ~
 ~
 0 0 910
+D2
+~
+~
+0 0 929
 D3
 ~
 ~
@@ -316,5 +320,25 @@ D2
 ~
 ~
 0 0 911
+S
+#928
+Training Room 928~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D2
+~
+~
+0 0 910
+S
+#929
+Training Room 929~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 908
 S
 $~
