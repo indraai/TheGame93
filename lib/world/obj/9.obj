@@ -59,4 +59,17 @@ E
 text~
 0917/main:look
 ~
+#918
+text project mayhem tyler~
+Project Mayhem Tyler~
+0918/main:avatar~
+0918/main:look
+~
+0 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0918/main:text
+~
 $~

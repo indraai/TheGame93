@@ -195,7 +195,7 @@ Watch Attendant 1168~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 1
+8 8 0 0
 E
 #1171
 disney disneyland attendant guide 1171~
@@ -260,14 +260,14 @@ Yellow Neutrino~
 8 8 0 1
 E
 #1175
-disney disneyland green neutrino~
-Green Neutrino~
+disney disneyland pink neutrino~
+Pink Neutrino~
 1175/main:avatar~
 1175/main:look~
-8 0 0 0 0 0 0 0 500 E
+72 0 0 0 0 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 1
+8 8 0 6
 Str: 18
 Dex: 18
 Int: 18
