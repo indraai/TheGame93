@@ -11,4 +11,52 @@ E
 contract~
 0900/main:contract
 ~
+#903
+pm2012 project mayhem text paste~
+Project Mayhem 2012~
+0903/main:avatar~
+0903/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv thegame:object 0903/main:text
+~
+#904
+pastebin text pm2012 project mayhem~
+PM2012 Call to Hackzion~
+904/main:avatar~
+0904/main:look
+~
+0 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv thegame:world 0904/main:text
+~
+#914
+training text paste code tyler~
+Code Tyler~
+0914/main:avatar~
+0914/main:look
+~
+0 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#917
+text project mayhem dangerous ideas~
+Dangerous Ideas~
+0917/main:avatar~
+0917/main:look
+~
+0 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+0917/main:look
+~
 $~
