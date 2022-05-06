@@ -123,4 +123,16 @@ E
 text~
 talk:#adv object:thegame 0929/main:look
 ~
+#930
+perplex city receda cube~
+The Receda Cube~
+:room:/main:avatar~
+:room:/main:look~
+0 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0930/main:text
+~
 $~

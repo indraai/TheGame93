@@ -45,6 +45,10 @@ S
 Training Room 903~
 [DESCRIBE]~
 9 0 0 0 0 0
+D1
+~
+~
+0 0 929
 D2
 ~
 ~
@@ -339,11 +343,7 @@ S
 Training Room 929~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
-D0
-~
-~
-0 0 908
+9 8 0 0 0 0
 D1
 ~
 ~
@@ -353,7 +353,7 @@ S
 Training Room 930~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D3
 ~
 ~

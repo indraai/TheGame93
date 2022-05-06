@@ -408,4 +408,14 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#930
+trainer training 930 sente kiteway~
+Sente 930~
+930/main:avatar~
+930/main:look~
+78 0 0 0 8 0 0 0 -175 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 0 1
+E
 $
