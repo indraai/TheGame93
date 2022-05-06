@@ -184,10 +184,9 @@ ACMD(do_oasis_oedit)
 static void oedit_setup_new(struct descriptor_data *d)
 {
   CREATE(OLC_OBJ(d), struct obj_data, 1);
-
   clear_object(OLC_OBJ(d));
-  OLC_OBJ(d)->name = strdup("object");
-  OLC_OBJ(d)->short_description = strdup("keywords");
+  OLC_OBJ(d)->name = strdup("[keywords]");
+  OLC_OBJ(d)->short_description = strdup("[name]");
   OLC_OBJ(d)->description = strdup(":room:/main:avatar");
   OLC_OBJ(d)->action_description = strdup(":room:/main:look");
   SET_BIT_AR(GET_OBJ_WEAR(OLC_OBJ(d)), ITEM_WEAR_TAKE);
@@ -319,12 +318,12 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   write_to_output(d,
 	  "\n## Tags\r"
 	  "\nselect[1:tag]:%s\r"
-	  "\nselect[2:desc]:%s\r"
+	  "\nselect[2:path]:%s\r"
 	  "\nselect[3:next desc]:%s\r"
 	  "\nmenu[done]:0\r",
 
- 	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
-    (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
+ 	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "[none]",
+    (extra_desc->description && *extra_desc->description) ? extra_desc->description : "[none]",
 	  !extra_desc->next ? "not set..." : "set...");
   OLC_MODE(d) = OEDIT_EXTRADESC_MENU;
 }
@@ -1195,13 +1194,13 @@ void oedit_parse(struct descriptor_data *d, char *arg)
 
     case 1:
       OLC_MODE(d) = OEDIT_EXTRADESC_KEY;
-      write_to_output(d, "\nPlease enter keywords...\r");
+      write_to_output(d, "\nWhat is the tag?\r");
       return;
 
     case 2:
       OLC_MODE(d) = OEDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
-      write_to_output(d, "\nPleae enter the extra description:\r");
+      write_to_output(d, "\nWhat is the path?\r");
       if (OLC_DESC(d)->description) {
         write_to_output(d, "%s", OLC_DESC(d)->description);
         oldtext = strdup(OLC_DESC(d)->description);
