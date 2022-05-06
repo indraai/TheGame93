@@ -111,4 +111,16 @@ E
 text~
 talk:#adv object:thegame 0918/main:text
 ~
+#929
+training text project89~
+Project89 Text~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0929/main:look
+~
 $~
