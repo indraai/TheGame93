@@ -352,7 +352,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
     else
       strncpy(door_buf, "Closable Door", sizeof(door_buf)-1);
   } else
-    strncpy(door_buf, "None", sizeof(door_buf)-1);
+    strncpy(door_buf, "[none]", sizeof(door_buf)-1);
 
   get_char_colors(d->character);
   clear_screen(d);
@@ -364,7 +364,7 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
 	  "\nselect[d:key]:%d\r"
 	  "\nselect[e:flags]:%s\r"
     "\n::begin:buttons\r"
-	  "\nbmud[delete exit]:x\r"
+	  "\nbmud[delete exit]:1\r"
     "\n::end:buttons\r"
 	  "\nmenu[done]:0",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
@@ -749,6 +749,20 @@ void redit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case '0':
       break;
+
+    case '1':
+      /*
+       * Delete an exit.
+       */
+      if (OLC_EXIT(d)->keyword)
+	free(OLC_EXIT(d)->keyword);
+      if (OLC_EXIT(d)->general_description)
+	free(OLC_EXIT(d)->general_description);
+      if (OLC_EXIT(d))
+	free(OLC_EXIT(d));
+      OLC_EXIT(d) = NULL;
+      break;
+
     case 'a':
       OLC_MODE(d) = REDIT_EXIT_NUMBER;
       write_to_output(d, "\nWhat is the exit VNUM?\r");
@@ -775,18 +789,6 @@ void redit_parse(struct descriptor_data *d, char *arg)
       OLC_MODE(d) = REDIT_EXIT_DOORFLAGS;
       redit_disp_exit_flag_menu(d);
       return;
-    case 'x':
-      /*
-       * Delete an exit.
-       */
-      if (OLC_EXIT(d)->keyword)
-	free(OLC_EXIT(d)->keyword);
-      if (OLC_EXIT(d)->general_description)
-	free(OLC_EXIT(d)->general_description);
-      if (OLC_EXIT(d))
-	free(OLC_EXIT(d));
-      OLC_EXIT(d) = NULL;
-      break;
     default:
       write_to_output(d, "\nerror: Try again.\r");
       return;
