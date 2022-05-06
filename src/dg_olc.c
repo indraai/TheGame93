@@ -258,7 +258,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
   }
   sprintbit(GET_TRIG_TYPE(OLC_TRIG(d)), types, bitbuf, sizeof(bitbuf));
   write_to_output(d, "::begin:buttons:"
-    "\ncurrent:%s\r"
+    "\nbits:%s\r"
     "\nmenu[quit]:0\r",
     bitbuf
   );
