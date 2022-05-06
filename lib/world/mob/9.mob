@@ -433,4 +433,60 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#932
+trainer training 932 brian enigma~
+Enigma 932~
+932/main:avatar~
+932/main:look~
+8 0 0 0 0 0 0 0 -133 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#936
+trainer training 936 eric~
+Eric 936~
+936/main:avatar~
+936/main:look
+~
+78 0 0 0 0 0 0 0 -180 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#937
+trainer training 936 eric~
+Eric 936~
+937/main:avatar~
+937/main:look~
+78 0 0 0 0 0 0 0 -180 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1 0
+E
+#938
+trainer training 938 xibo~
+Xibo 938~
+938/main:avatar~
+938/main:look~
+78 0 0 0 0 0 0 0 -222 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 $

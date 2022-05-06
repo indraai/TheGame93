@@ -42,9 +42,9 @@ D2
 0 0 903
 S
 #903
-Training Room 903~
+Project Mayhem 2012~
 [DESCRIBE]~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D1
 ~
 ~
@@ -59,7 +59,7 @@ D3
 0 0 904
 S
 #904
-Training Room 904~
+PM2012 Revelations~
 [DESCRIBE]~
 9 8 0 0 0 0
 D3
@@ -68,7 +68,7 @@ D3
 0 0 905
 S
 #905
-Training Room 905~
+Michael of Nebadon~
 [DESCRIBE]~
 9 8 0 0 0 0
 D0
@@ -81,7 +81,7 @@ D3
 0 0 908
 S
 #906
-Training Room 906~
+IT~
 [DESCRIBE]~
 9 8 0 0 0 0
 D0
@@ -90,7 +90,7 @@ D0
 0 0 907
 S
 #907
-Training Room 907~
+Deva Instructions~
 [DESCRIBE]~
 9 8 0 0 0 0
 D5
@@ -141,10 +141,10 @@ D1
 0 0 906
 S
 #911
-Training Room 911~
+TheGame23~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D1
 ~
 ~
@@ -165,10 +165,10 @@ D2
 0 0 901
 S
 #913
-Training Room 913~
+Call to HackZION~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D2
 ~
 ~
@@ -179,10 +179,10 @@ D3
 0 0 918
 S
 #914
-Training Room 914~
+PM2012 - Call To Action~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D3
 ~
 ~
@@ -209,7 +209,7 @@ D2
 0 0 927
 S
 #917
-Training Room 917~
+Dangerous Ideas~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -219,17 +219,17 @@ D0
 0 0 918
 S
 #918
-Training Room 918~
+Project Mayhem Tyler~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D0
 ~
 ~
 0 0 904
 S
 #919
-Training Room 919~
+Survivance~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -239,10 +239,10 @@ D3
 0 0 920
 S
 #920
-Training Room 920~
+Natives in Game Dev~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D0
 ~
 ~
@@ -253,7 +253,7 @@ D3
 0 0 923
 S
 #921
-Training Room 921~
+Romero Games~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -277,7 +277,7 @@ D2
 0 0 919
 S
 #923
-Training Room 923~
+LOLapps~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -287,7 +287,7 @@ D3
 0 0 924
 S
 #924
-Training Room 924~
+RapLeaf~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -297,7 +297,7 @@ D0
 0 0 925
 S
 #925
-Training Room 925~
+Founders Fund~
 0925/main:look
 ~
 9 8 0 0 0 0
@@ -307,7 +307,7 @@ D0
 0 0 926
 S
 #926
-Training Room 926~
+Palantir~
 [DESCRIBE]~
 9 8 0 0 0 0
 D1
@@ -316,10 +316,10 @@ D1
 0 0 927
 S
 #927
-Training Room 927~
+GhostNet~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D0
 ~
 ~
@@ -340,7 +340,7 @@ D2
 0 0 910
 S
 #929
-Training Room 929~
+Project 89~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -350,13 +350,123 @@ D1
 0 0 930
 S
 #930
-Training Room 930~
+Perplex City~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 931
+D2
+~
+~
+0 0 932
+S
+#931
+The Scarlett Kite~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D3
+~
+~
+0 0 930
+S
+#932
+Mind Candy~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 933
+D3
+~
+~
+0 0 934
+S
+#933
+San Francisco Connection~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
 D3
 ~
 ~
-0 0 929
+0 0 935
+S
+#934
+The Third Power~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 935
+S
+#935
+Evil People, Inc.~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 936
+D3
+~
+~
+0 0 914
+S
+#936
+Satanic Sysadmins~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 937
+S
+#937
+Angst Central~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 936
+D2
+~
+~
+0 0 938
+S
+#938
+Kibo & Xibo~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 917
+D3
+~
+~
+0 0 939
+S
+#939
+Training Room 939~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 938
 S
 $~
