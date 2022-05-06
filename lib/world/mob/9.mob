@@ -433,6 +433,21 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#932
+trainer training 932 brian enigma~
+Enigma 932~
+932/main:avatar~
+932/main:look~
+8 0 0 0 0 0 0 0 -133 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 #936
 trainer training 936 eric~
 Eric 936~

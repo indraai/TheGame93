@@ -556,4 +556,10 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud south
 end
 ~
+#932
+Training Trigger 932~
+0 d 100
+~
+%echo% This trigger commandlist is not complete!
+~
 $~
