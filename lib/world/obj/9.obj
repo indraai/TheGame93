@@ -37,6 +37,32 @@ E
 text~
 talk:#adv thegame:world 0904/main:text
 ~
+#905
+text paste michael speaks mayhem~
+Michael Speaks~
+0905/main:avatar~
+0905/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0905/main:text
+~
+#908
+text paste ethersec project 2020~
+eTHErSEC Project 2020~
+0908/main:avatar~
+0908/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0908/main:text
+~
 #913
 pastebin text pm2012 project mayhem~
 PM2012 Call to Hackzion~
