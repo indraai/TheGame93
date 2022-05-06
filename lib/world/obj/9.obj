@@ -125,7 +125,7 @@ talk:#adv object:thegame 0929/main:look
 ~
 #930
 perplex city receda cube~
-The Receda Cube~
+the Receda Cube~
 :room:/main:avatar~
 :room:/main:look~
 0 0 0 0 0 a 0 0 0 0 0 0 0
@@ -134,5 +134,18 @@ The Receda Cube~
 E
 text~
 talk:#adv object:thegame 0930/main:text
+~
+#932
+perplex city datalink internet router~
+Perplex City Datalink~
+0932/main:avatar~
+0932/main:look
+~
+12 gk 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0932/main:text
 ~
 $~

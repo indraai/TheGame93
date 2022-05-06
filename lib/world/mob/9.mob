@@ -416,6 +416,21 @@ Sente 930~
 78 0 0 0 8 0 0 0 -175 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0 1
+8 8 0 0
+E
+#931
+trainer training 931 scarlett kiteway~
+Scarlett 931~
+931/main:avatar~
+931/main:look~
+78 0 0 0 0 0 0 0 250 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 2 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 $
