@@ -511,6 +511,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 938
 #939
 trainer training 939 xibo~
 Xibo 939~
@@ -527,5 +528,40 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 938
+T 939
+#940
+trainer training 940 eric hughes cypherpunk~
+Eric 940~
+940/main:avatar~
+940/main:look~
+78 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#941
+trainer training 941 hannibal eotl~
+Hannibal 941~
+941/main:avatar~
+941/main:look~
+78 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
+#942
+trainer training 942 stanford~
+Stanford 942~
+942/main:avatar~
+942/main:look~
+78 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 0
+E
 $
