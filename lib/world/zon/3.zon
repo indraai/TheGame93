@@ -2,6 +2,8 @@
 Quinn~
 Arjika~
 300 399 15 2 d 0 0 0 -1 -1
+M 0 326 1 394 	(Narayana Vasudeva Bhagavan)
+G 1 306 1 -1 	(Panchajanya)
 M 0 328 1 328 	(Rahula)
 M 0 329 1 328 	(Brian)
 M 0 330 1 328 	(Indra)
@@ -24,12 +26,6 @@ M 0 177 4 319 	(SecurityDEVA D177 (Cyber))
 O 0 311 1 334 	(CYBER1 TERMINAL)
 M 0 334 1 334 	(ARMY Cyber1)
 M 0 177 4 334 	(SecurityDEVA D177 (Cyber))
-M 0 326 1 394 	(Narayana Vasudeva Bhagavan)
-M 0 327 1 394 	(Aswatthaman)
-O 0 306 1 394 	(Panchajanya)
-O 0 307 1 394 	(Ananta Trident)
-O 0 308 1 394 	(Ananta Mace)
-O 0 309 1 394 	(Ananta Disc)
 O 0 310 4 360 	(Courtyard Bench)
 O 0 310 4 359 	(Courtyard Bench)
 O 0 310 4 358 	(Courtyard Bench)
