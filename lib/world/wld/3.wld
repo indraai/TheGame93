@@ -1304,7 +1304,7 @@ Arjika Tower L9~
 D4
 ~
 ~
-0 0 394
+1 0 394
 D5
 ~
 ~
@@ -1325,13 +1325,13 @@ D5
 0 0 395
 S
 #394
-Isotropic Antenna~
+Arjika Antenna~
 [DESCRIBE]~
-3 24 0 0 0 0
+3 16 0 0 0 1
 D5
 ~
 ~
-0 0 392
+1 0 392
 S
 #395
 Arjika Tower L3~

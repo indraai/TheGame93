@@ -107,10 +107,6 @@ D0
 ~
 ~
 0 0 910
-D2
-~
-~
-0 0 929
 D3
 ~
 ~
@@ -333,11 +329,11 @@ S
 Training Room 928~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
-D2
+9 8 0 0 0 0
+D1
 ~
 ~
-0 0 910
+0 0 907
 S
 #929
 Project 89~
@@ -436,16 +432,24 @@ Angst Central~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D2
+~
+~
+0 0 940
 D3
 ~
 ~
 0 0 938
 S
 #938
-Kibo & Xibo~
+Kibo~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 917
 D3
 ~
 ~
@@ -455,10 +459,20 @@ S
 Training Room 939~
 You are in an unfinished room.
 ~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 905
+S
+#940
+Cypherpunks~
+You are in an unfinished room.
+~
 9 0 0 0 0 0
-D1
+D0
 ~
 ~
-0 0 938
+0 0 937
 S
 $~

@@ -2,8 +2,10 @@
 Quinn~
 Arjika~
 300 399 15 2 d 0 0 0 -1 -1
+D 0 392 4 1 	(Arjika Tower L9)
 M 0 326 1 394 	(Narayana Vasudeva Bhagavan)
 G 1 306 1 -1 	(Panchajanya)
+O 0 394 1 394 	(Arjika Isotropic Antenna)
 M 0 328 1 328 	(Rahula)
 M 0 329 1 328 	(Brian)
 M 0 330 1 328 	(Indra)
@@ -30,8 +32,6 @@ O 0 310 4 360 	(Courtyard Bench)
 O 0 310 4 359 	(Courtyard Bench)
 O 0 310 4 358 	(Courtyard Bench)
 O 0 310 4 357 	(Courtyard Bench)
-M 0 331 1 392 	(Surabhi Devi)
-M 0 332 1 392 	(Para Brahma Deva)
 O 0 344 1 344 	(Water Fountain)
 O 0 347 1 347 	(Water Fountain)
 O 0 302 1 363 	(Sindhu)
