@@ -806,4 +806,50 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud %random.dir%
 end
 ~
+#940
+Trainer 940 Greetings~
+0 d 100
+~
+set pump[0] Eric Huges is the author of the Cypherpunk Manifesto which appeared in the DEF Con 1 Program.
+set pump[1] Privacy is necessary in an open society in the electronic age.
+set pump[2] A private matter is something one doesn't want the whole world to know. A secret matter is something one doesn't want anybody to know.
+set pump[3] We cannot expect governments, corporations, or other large, faceless organization to grant us privacy out of their beneficence.
+set pump[4] General society should expect faceless anonymous hackers to screw us over more than any corporation, government, or organization.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#941
+Trainer 941 Greetings~
+0 d 100
+~
+set pump[0] End of the Line Mud was located on a Stanford University server in the 1990s.
+set pump[1] EotL was originally two muds: UCR's Let's See Yours LPmud at UC Riverside in 1989, and The Pitt from the University of Pittsburgh.
+set pump[2] The two muds merged together and renamed End of the Line and relocated from UCR to Stanford University.
+set pump[3] We cannot expect governments, corporations, or other large, faceless organization to grant us privacy out of their beneficence.
+set pump[4] General society should expect faceless anonymous hackers to screw us over more than any corporation, government, or organization.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
 $~

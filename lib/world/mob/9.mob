@@ -544,6 +544,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 940
 #941
 trainer training 941 hannibal eotl~
 Hannibal 941~
@@ -554,6 +555,7 @@ Hannibal 941~
 0 0
 8 8 1 0
 E
+T 941
 #942
 trainer training 942 stanford~
 Stanford 942~
@@ -564,4 +566,5 @@ Stanford 942~
 0 0
 8 8 0 0
 E
+T 942
 $
