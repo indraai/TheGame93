@@ -460,7 +460,7 @@ Jormungandr 935~
 78 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 4
+8 8 1 1
 E
 T935
 #936
@@ -482,7 +482,7 @@ E
 T 936
 #937
 trainer training 937 alt angst~
-Angst 937~
+John 937~
 937/main:avatar~
 937/main:look~
 78 0 0 0 0 0 0 0 -197 E
@@ -497,10 +497,26 @@ SavingSpell: 1
 E
 T 937
 #938
-trainer training 938 xibo~
-Xibo 938~
+trainer training 938 kibo~
+Kibo 938~
 938/main:avatar~
 938/main:look~
+78 0 0 0 0 0 0 0 -222 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#939
+trainer training 939 xibo~
+Xibo 939~
+939/main:avatar~
+939/main:look
+~
 78 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -511,5 +527,23 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+<<<<<<< HEAD
 T 938
+=======
+#940
+trainer training 940 eric hughes cypherpunk~
+Eric 940~
+940/main:avatar~
+940/main:look~
+78 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+>>>>>>> 17b1f10c84f1f4681cbf4310ee064d19480dd0c1
 $
