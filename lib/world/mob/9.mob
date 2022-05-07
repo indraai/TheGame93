@@ -545,4 +545,14 @@ Hannibal 941~
 0 0
 8 8 1 0
 E
+#942
+trainer training 942 stanford~
+Stanford 942~
+942/main:avatar~
+942/main:look~
+78 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 0
+E
 $
