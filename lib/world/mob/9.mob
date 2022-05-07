@@ -408,6 +408,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 929
 #930
 trainer training 930 sente kiteway~
 Sente 930~
@@ -418,6 +419,7 @@ Sente 930~
 30 900
 8 8 0 0
 E
+T 930
 #931
 trainer training 931 scarlett kiteway~
 Scarlett 931~
@@ -433,6 +435,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 931
 #932
 trainer training 932 brian enigma~
 Enigma 932~
@@ -448,6 +451,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 932
 #935
 trainer training 935 jormungandr evil~
 Jormungandr 935~
@@ -458,6 +462,7 @@ Jormungandr 935~
 0 0
 8 8 1 4
 E
+T935
 #936
 trainer training 936 eric~
 Eric 936~
@@ -474,6 +479,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 936
 #937
 trainer training 937 alt angst~
 Angst 937~
@@ -489,6 +495,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 937
 #938
 trainer training 938 xibo~
 Xibo 938~
@@ -504,4 +511,5 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 938
 $

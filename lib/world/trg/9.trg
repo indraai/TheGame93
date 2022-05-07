@@ -556,10 +556,254 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud south
 end
 ~
+#929
+Trainer 929 Greetings~
+0 g 100
+~
+set pump[0] Project89 is the recruitment, training center and battlefield for the new war.
+set pump[1] Project89 will break down every barrier that stands between it and its opponents.
+set pump[2] Project89 is the manipulation of culture. Project89 is psychological urban guerrilla warfare with no morals, no scruples, and no ethics.
+set pump[3] Project89 cannot be pushed aside, cannot be ditched, shrugged off or forgotten. It is in your face, and invades your life.
+set pump[4] Project89 turns relatives against relatives, friend against friend, lover against lover, and you against yourself.
+set pump[5] Project89 aims for the destruction of mediocrity, weakness, failure, ignorance and stupidity by any means necessary.
+set pump[6] Project89 is real. Not fake.
+
+Project89 preys and feeds off weakness.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 7
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:tyler %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud east
+end
+~
+#930
+Trainer 930 Greetings~
+0 g 100
+~
+set pump[0] Very early in the morning of January 16th 2004 the Receda Cube was stolen from my city and taken to Earth.
+set pump[1] We have investigated the theft very thoroughly and have been unable to solve the mystery.
+set pump[2] We hope that you will be able to make links and propose solutions that we might have overlooked.
+set pump[3] We have observed your culture and witnessed how fast information can spread in the right circumstances.
+set pump[4] Perplex City was an alternate reality game created by London-based Mind Candy that ran from April 2005 to February 2007.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:indra %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud south
+end
+~
+#931
+Trainer 931 Greetings~
+0 g 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
 #932
-Training Trigger 932~
+Trainer 932 Greetings~
 0 d 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#933
+Trainer 932 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#934
+Trainer 932 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#935
+Trainer 932 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#936
+Trainer 936 Greetings~
+0 d 100
+~
+set pump[0] Welcome to Satanic Sysadmins, a little island of evil in a boiling red sea of luse.
+set pump[1] Many people wonder what exactly it is system administrators do at night. Well, I am here to tell you... THEY F***IN WORSHIP S***N!
+set pump[2] They're passing on a direct solution to fix those interminable hardware conflicts.
+set pump[3] They want mo more beer! Because really, to them nothing else quenches that deep-down soul-rotting thirst like beer.
+set pump[4] They have a sordid past, and sometimes you just can't escape history.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#937
+Trainer 937 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#938
+Trainer 938 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#939
+Trainer 939 Greetings~
+0 d 100
+~
+set pump[0] EVIL Mud is a multi-user dungeon running the TeenyMUD 2.0 code. It's a social setting for dark humor, freedom of expression, and commentary.
+set pump[1] No, it's not a game, it's more like a virtual bar. But more than that you can explore more than 2000 rooms that have been built on the mud.
+set pump[2] The wizards on EVIL Mud are XIBO VASUDEVA and TARRANT. XIBO owns the mud and maintains it, while VASUDEVA is the author of the source code.
+set pump[3] EVIL Mud has been up since January of 1991, which makes it the 4th oldest mud around.
+set pump[4] EVIL! Mud is not for kids! It's for adults!
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
 ~
 $~
