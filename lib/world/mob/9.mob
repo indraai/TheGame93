@@ -535,4 +535,14 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#941
+trainer training 941 hannibal eotl~
+Hannibal 941~
+941/main:avatar~
+941/main:look~
+78 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
 $
