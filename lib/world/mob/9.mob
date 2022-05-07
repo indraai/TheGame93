@@ -448,6 +448,16 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#935
+trainer training 935 jormungandr evil~
+Jormungandr 935~
+935/main:avatar~
+935/main:look~
+78 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 4
+E
 #936
 trainer training 936 eric~
 Eric 936~
@@ -465,14 +475,19 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #937
-trainer training 936 eric~
-Eric 936~
+trainer training 937 alt angst~
+Angst 937~
 937/main:avatar~
 937/main:look~
-78 0 0 0 0 0 0 0 -180 E
-3 19 8 0d0+30 1d2+0
-30 900
+78 0 0 0 0 0 0 0 -197 E
+5 19 7 1d1+50 1d2+0
+50 2500
 8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #938
 trainer training 938 xibo~
