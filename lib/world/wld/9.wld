@@ -470,6 +470,10 @@ Cypherpunks~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 943
 D3
 ~
 ~
@@ -494,5 +498,39 @@ D1
 ~
 ~
 0 0 926
+S
+#943
+DefCon 1~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 944
+D1
+~
+~
+0 0 945
+S
+#944
+SATAN~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 936
+S
+#945
+HOPE Conference~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D3
+~
+~
+0 0 943
 S
 $~
