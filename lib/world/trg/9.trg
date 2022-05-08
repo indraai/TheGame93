@@ -651,7 +651,7 @@ if %actor% && %actor.varexists(on_tour)%
 end
 ~
 #933
-Trainer 932 Greetings~
+Trainer 933 Greetings~
 0 d 100
 ~
 set pump[0] %room.name%
@@ -673,7 +673,7 @@ if %actor% && %actor.varexists(on_tour)%
 end
 ~
 #934
-Trainer 932 Greetings~
+Trainer 934 Greetings~
 0 d 100
 ~
 set pump[0] %room.name%
@@ -691,11 +691,11 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud %random.dir%
+  %send% %actor% talk:#mud south
 end
 ~
 #935
-Trainer 932 Greetings~
+Trainer 935 Greetings~
 0 d 100
 ~
 set pump[0] %room.name%
@@ -758,7 +758,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud west
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #938
@@ -803,7 +803,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud %random.dir%
+  %send% %actor% talk:#mud north
 end
 ~
 #940
@@ -836,8 +836,8 @@ Trainer 941 Greetings~
 set pump[0] End of the Line Mud was located on a Stanford University server in the 1990s.
 set pump[1] EotL was originally two muds: UCR's Let's See Yours LPmud at UC Riverside in 1989, and The Pitt from the University of Pittsburgh.
 set pump[2] The two muds merged together and renamed End of the Line and relocated from UCR to Stanford University.
-set pump[3] We cannot expect governments, corporations, or other large, faceless organization to grant us privacy out of their beneficence.
-set pump[4] General society should expect faceless anonymous hackers to screw us over more than any corporation, government, or organization.
+set pump[3] EotL hosted developers from such countries as Russia, Australia, Canada, Hong Kong, and Switzerland.
+set pump[4] In 2001 the administrators at Stanford became concerned with the trafficking of software and pornography via the service.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -845,11 +845,34 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:harry %pumpit%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud west
+  %send% %actor% talk:#mud north
+end
+~
+#942
+Trainer 942 Greetings~
+0 d 100
+~
+set pump[0] Welcome to Stanford University home of the smartest and snobbiest minds on the planet who sold gneral society to EVIL aliens for technology rights.
+set pump[1] Stanford is home to such alumni as Peter Thiel and pretty much like 90% of the tech-billionaires in the world are Stanford snobs.
+set pump[2] The Stanford campus is home to Stanford Linear Accelerator which is one of the first agreements made with evil aliens for happy meals.
+set pump[3] But don't tell anyone there is much more going on here than you could realize... some might say it is like a Hoover Vacuum.
+set pump[4] Stanford is also home to Stanford Research Institute which produced the Changing Images of Man research study.
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud east
 end
 ~
 $~
