@@ -517,10 +517,10 @@ static void redit_disp_menu(struct descriptor_data *d)
       world[room->dir_option[UP]->to_room].number : -1,
       room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != NOWHERE ?
       world[room->dir_option[DOWN]->to_room].number : -1,
-      room->dir_option[NORTHEAST] && room->dir_option[NORTHEAST]->to_room != NOWHERE ?
-      world[room->dir_option[NORTHEAST]->to_room].number : -1,
       room->dir_option[NORTHWEST] && room->dir_option[NORTHWEST]->to_room != NOWHERE ?
       world[room->dir_option[NORTHWEST]->to_room].number : -1,
+      room->dir_option[NORTHEAST] && room->dir_option[NORTHEAST]->to_room != NOWHERE ?
+      world[room->dir_option[NORTHEAST]->to_room].number : -1,
       room->dir_option[SOUTHEAST] && room->dir_option[SOUTHEAST]->to_room != NOWHERE ?
       world[room->dir_option[SOUTHEAST]->to_room].number : -1,
       room->dir_option[SOUTHWEST] && room->dir_option[SOUTHWEST]->to_room != NOWHERE ?
