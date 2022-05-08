@@ -532,16 +532,16 @@ D0
 ~
 ~
 0 0 946
+D2
+~
+~
+0 0 947
 S
 #946
 Hacking in Progress~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
-D0
-~
-~
-0 0 947
 S
 #947
 The Well~
@@ -551,6 +551,16 @@ You are in an unfinished room.
 D3
 ~
 ~
-0 0 933
+0 0 948
+S
+#948
+Cobra Lounge~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 941
 S
 $~
