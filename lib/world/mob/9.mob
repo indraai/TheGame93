@@ -462,9 +462,8 @@ Jormungandr 935~
 0 0
 8 8 1 1
 E
-T935
 #936
-trainer training 936 eric~
+trainer training 936 eric zippo eotl~
 Eric 936~
 936/main:avatar~
 936/main:look
@@ -488,7 +487,7 @@ John 937~
 78 0 0 0 0 0 0 0 -197 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -504,7 +503,7 @@ Kibo 938~
 78 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -537,7 +536,7 @@ Eric 940~
 78 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -553,7 +552,7 @@ Hannibal 941~
 78 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 1
 E
 T 941
 #942
@@ -564,7 +563,7 @@ Stanford 942~
 78 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 0
+8 8 0 1
 E
 T 942
 $
