@@ -161,4 +161,17 @@ E
 text~
 talk:#adv thegame:object 0940/main:text
 ~
+#947
+text hacking intelligence community~
+Hacking the Intelligence Community~
+0947/main:avatar~
+0947/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0947/main:text
+~
 $~
