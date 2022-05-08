@@ -496,6 +496,18 @@ D0
 ~
 ~
 0 0 942
+E
+tip1~
+talk:#adv world:thegame 0941/main:tip1
+~
+E
+tip2~
+talk:#adv world:thegame 0941/main:tip2
+~
+E
+tip3~
+talk:#adv world:thegame 0941/main:tip3
+~
 S
 #942
 Stanford University~
@@ -570,5 +582,15 @@ D0
 ~
 ~
 0 0 941
+D6
+~
+~
+0 0 949
+S
+#949
+SpoonKids~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
 S
 $~

@@ -452,6 +452,21 @@ SavingBreath: 1
 SavingSpell: 1
 E
 T 932
+#934
+trainer training 0934 cyrus quinton v~
+Cyrus 934~
+934/main:avatar~
+934/main:look~
+78 0 0 0 0 0 0 0 -275 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 2
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 #935
 trainer training 935 jormungandr evil~
 Jormungandr 935~
@@ -529,7 +544,7 @@ SavingSpell: 1
 E
 T 939
 #940
-trainer training 940 eric hughes cypherpunk~
+trainer training 940 eric hughes cypherpunk eotl amshey~
 Eric 940~
 940/main:avatar~
 940/main:look~
@@ -566,4 +581,59 @@ Stanford 942~
 8 8 0 1
 E
 T 942
+#943
+trainer training 943 defcon deadaddict~
+DeadAddict~
+943/main:avatar~
+943/main:look~
+78 0 0 0 0 0 0 0 -230 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#944
+trainer training 944 satan dan farmer defcon~
+Dan 944~
+944/main:avatar~
+944/main:look~
+78 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#945
+trainer training 945 emmanuel 2600~
+Emmanuel~
+945/main:avatar~
+945/main:look~
+78 0 0 0 0 0 0 0 -219 E
+4 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
+#948
+trainer training 948 spoonman mark petrakis~
+Spoonman 948~
+948/main:avatar~
+948/main:look~
+78 0 0 0 0 0 0 0 -350 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 $
