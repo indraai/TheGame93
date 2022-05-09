@@ -124,6 +124,19 @@ E
 text~
 talk:#adv object:thegame 0918/main:text
 ~
+#926
+text palantir lawsuit~
+Palantir Lawsuit~
+0926/main:avatar~
+0926/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+0926/main:text
+~
 #929
 training text project89~
 Project89 Text~
