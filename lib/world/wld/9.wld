@@ -505,16 +505,16 @@ D0
 ~
 0 0 942
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 #942
@@ -642,14 +642,14 @@ D0
 ~
 ~
 0 0 954
+D2
+~
+~
+0 0 960
 D3
 ~
 ~
 0 0 953
-D5
-~
-exit~
-1 0 949
 D6
 ~
 ~
@@ -688,6 +688,10 @@ D7
 ~
 ~
 0 0 954
+D8
+~
+~
+0 0 960
 D9
 ~
 ~
@@ -715,7 +719,7 @@ S
 TSpoon Room~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 24 0 0 0 0
 D1
 ~
 ~
@@ -741,7 +745,7 @@ S
 DemiTassy Room~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 24 0 0 0 0
 D1
 ~
 ~
@@ -824,15 +828,57 @@ D7
 ~
 ~
 0 0 952
+D8
+~
+~
+1 0 961
 S
 #960
 Snack Room~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 24 0 0 0 0
+D0
+~
+~
+0 0 952
+D2
+~
+~
+0 0 961
 D3
 ~
 ~
 0 0 959
+D5
+~
+exit~
+1 0 949
+D6
+~
+~
+0 0 953
+D8
+~
+~
+0 0 -1
+D9
+~
+~
+1 0 961
+S
+#961
+SpoonKids Washroom~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+snacks~
+1 0 960
+D6
+~
+~
+1 0 959
 S
 $~

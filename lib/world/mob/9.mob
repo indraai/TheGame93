@@ -460,7 +460,7 @@ Cyrus 934~
 78 0 0 0 0 0 0 0 -275 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 2
+8 8 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -589,7 +589,7 @@ DeadAddict~
 78 0 0 0 0 0 0 0 -230 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -604,7 +604,7 @@ Dan 944~
 78 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -619,7 +619,7 @@ Emmanuel~
 78 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 1
 E
 #948
 trainer training 948 spoonman mark petrakis~
@@ -629,7 +629,7 @@ Spoonman 948~
 78 0 0 0 0 0 0 0 -350 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -644,7 +644,7 @@ Brenda 949~
 78 0 0 0 0 0 0 0 -310 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 0
+8 8 2 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -659,7 +659,7 @@ Richard 950~
 78 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -710,5 +710,80 @@ SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
+E
+#954
+babyspoon spoonkid spoonkids 954~
+BabySpoon~
+954/main:avatar~
+954/main:look~
+2140 0 0 0 8 0 0 0 300 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#955
+tspoon spoonkid spoonkids~
+TSpoon~
+955/main:avatar~
+955/main:look~
+2140 0 0 0 8 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1
+E
+#956
+demitassy spoonkid spoonkids~
+DemiTassy~
+956/main:avatar~
+956/main:look~
+2140 0 0 0 8 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1
+E
+#957
+silverspoon spoonkid spoonkids~
+SilverSpoon~
+957/main:avatar~
+957/main:look~
+2140 0 0 0 0 0 0 0 300 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#958
+xmasspoon spoonkid spoonkids~
+XMasSpoon~
+958/main:avatar~
+958/main:look~
+2140 0 0 0 8 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1
+E
+#960
+security securitydeva spoonkids d960~
+SpoonKids Security~
+960/main:avatar~
+960/main:look~
+6234 0 0 0 2072 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 0 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 $
