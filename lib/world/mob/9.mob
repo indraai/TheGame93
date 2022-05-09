@@ -378,6 +378,21 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#927
+trainer training 927 ghostnet~
+GhostNet 927~
+927/main:avatar~
+927/main:look~
+78 0 0 0 0 0 0 0 -333 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 #928
 trainer training agent 928 tyler~
 Tyler 928~
