@@ -638,6 +638,10 @@ MinnieSpoon Room~
 You are in an unfinished room.
 ~
 9 24 0 0 0 0
+D0
+~
+~
+0 0 954
 D3
 ~
 ~
@@ -646,15 +650,189 @@ D5
 ~
 exit~
 1 0 949
+D6
+~
+~
+0 0 955
+D9
+~
+~
+0 0 959
 S
 #953
 MaxieSpoon Room~
 You are in an unfinished room.
 ~
 9 24 0 0 0 0
+D0
+~
+~
+0 0 955
 D1
 ~
 ~
 0 0 952
+D2
+~
+~
+0 0 959
+D3
+~
+~
+0 0 957
+D6
+~
+~
+0 0 956
+D7
+~
+~
+0 0 954
+D9
+~
+~
+0 0 958
+S
+#954
+BabySpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D2
+~
+~
+0 0 952
+D3
+~
+~
+0 0 955
+D9
+~
+~
+0 0 953
+S
+#955
+TSpoon Room~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 954
+D2
+~
+~
+0 0 953
+D3
+~
+~
+0 0 956
+D8
+~
+~
+0 0 952
+D9
+~
+~
+0 0 957
+S
+#956
+DemiTassy Room~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 955
+D2
+~
+~
+0 0 957
+D8
+~
+~
+0 0 953
+S
+#957
+SilverSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 956
+D1
+~
+~
+0 0 953
+D2
+~
+~
+0 0 958
+D7
+~
+~
+0 0 955
+D8
+~
+~
+0 0 959
+S
+#958
+XMasSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 957
+D1
+~
+~
+0 0 959
+D7
+~
+~
+0 0 953
+S
+#959
+Play Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 953
+D1
+~
+~
+0 0 960
+D3
+~
+~
+0 0 958
+D6
+~
+~
+0 0 957
+D7
+~
+~
+0 0 952
+S
+#960
+Snack Room~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D3
+~
+~
+0 0 959
 S
 $~
