@@ -10,6 +10,10 @@ D2
 ~
 ~
 0 0 386
+D3
+~
+~
+0 0 907
 S
 #901
 Training Room 901~
@@ -93,6 +97,10 @@ S
 Deva Instructions~
 [DESCRIBE]~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 900
 D5
 ~
 ~
@@ -591,6 +599,62 @@ S
 SpoonKids~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 24 0 0 0 0
+D0
+~
+~
+0 0 950
+D4
+~
+Bedrooms~
+1 0 952
+S
+#950
+SLAC~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 942
+D7
+~
+~
+0 0 951
+S
+#951
+GhostMind~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 942
+S
+#952
+MinnieSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D3
+~
+~
+0 0 953
+D5
+~
+exit~
+1 0 949
+S
+#953
+MaxieSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D1
+~
+~
+0 0 952
 S
 $~

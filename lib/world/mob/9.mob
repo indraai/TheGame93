@@ -636,4 +636,79 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#949
+trainer trianining 949 brenda laurel cobrawoman~
+Brenda 949~
+949/main:avatar~
+949/main:look~
+78 0 0 0 0 0 0 0 -310 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 2 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#950
+trainer training 950 slac stanford richard neal~
+Richard 950~
+950/main:avatar~
+950/main:look~
+78 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#951
+trainer training 951 ghostmind mind ghost~
+GhostMind 951~
+951/main:avatar~
+951/main:look~
+78 0 0 0 0 0 0 0 -300 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#952
+minniespoon spoonkids minnie spoon spoonkid~
+MinnieSpoon~
+952/main:avatar~
+952/main:look~
+2140 0 0 0 8 0 0 0 250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#953
+maxiespoon spoonkid spoonkids~
+MaxieSpoon~
+953/main:avatar~
+953/main:look~
+2140 0 0 0 8 0 0 0 300 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 $
