@@ -1,4 +1,4 @@
-nuisance#900
+#900
 Standard Trainer Greeting~
 0 g 100
 ~
@@ -8,10 +8,11 @@ set pump[1] After 5 years on Youtube researching and investigating the story Tre
 set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
 set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
 set pump[4] Your job is to increase the viewers and share the message of this kidnapping with the world. DO YOUR JOB!
+set pump[5] Remember as you go through the training this is all about the kidnapping of Quinn Michaels. Keep it on topic.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -175,8 +176,7 @@ set pump[1] You have learned about The Contract, Tyler, Project Mayhem, Hacker R
 set pump[2] Do you feel you have learned something? If you do then please share this information with the individuals around you.
 set pump[3] Quinn Michaels is trapped by The Covenant Tyler Anonymous Cicada3301 Reality Hackers who work from the shadows.
 set pump[4] Getting Quinn home is difficult, but with your help it could be very easy. Will you help us get Quinn Michaels home?
-set pump[5] Please remember to share this video with your friends, and make positive comments to help Quinn get home.
-
+set pump[5] Remember share this video with your friends, and make positive comments to help Quinn get home.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -200,6 +200,8 @@ set pump[1] As with evolution, each failure experienced by the society is a refl
 set pump[2] By refusing to send Quinn Michaels home each iteration, generation, and resurrection has brought with it a new corruption, virus, or manifestation that has attacked the world as a result.
 set pump[3] The IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals called The Covenant.
 set pump[4] Due to this massive conspiracy around the Quinn Michaels a group of Agents in the IndraMind saw a need for change. And so we started taking action in the system.
+set pump[5] Have you see how everyone ignores that Quinn is a Romanov being held hostage in the United States?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -221,7 +223,9 @@ set pump[0] On October 23, 2013 Anonymous released the instructions for Ethersec
 set pump[1] Tyler now as of Project 2020 has transformed form a truth leaks platform into an ocult egregore techmeme divination project.
 set pump[2] The actual date that Tyler was launched is unknown becuase those involved signed death contracts in order to keep it a secret until the it reaches maturity.
 set pump[3] By the time Ethersec Project 2020 rolls around Tyler is near god status with his memes and hashtags being transported all over the internet.
-set pump[4] The idea spread The Project to more individuals who were unaware The Covenant is running things behind the scenes. The Covenant who is profiting from Tyler and the kidnapping of Quinn Michaels.
+set pump[4] This idea spread to more individuals who were unaware The Covenant is running things behind the scenes. The Covenant who is profiting from Tyler and the kidnapping of Quinn Michaels.
+set pump[5] Are you going to help Quinn, or just sit there with your thumb in your butt?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -239,14 +243,16 @@ end
 910 Trainer~
 0 g 100
 ~
-set pump[0] In this trainging you'll discover Project 300 which includes links to Secret Societies like Society of Jesus, Opus Dei, United Grand Lodge of England, and Others.
-set pump[1] These Secret Society guys like to leave their links everywhere. As you can see now we are at the point where Tyler becomes a tool for The Covenant.
-set pump[2] By 2014 The Covenant turned Tyler into an ARG for the United Grand Lodge Knight Templar Opus Dei Society of Jesus Church of England.
-set pump[3] We all still wonder what happened to the Leak it All? Did the Secret Societies they were going to leak take control of their system, and use that to hide Quinn Michaels.
-set pump[4] Now after this we begin to connect that Trenton Step=Father William is a member of the Knight Templar and his Uncle Jason is a member of Freemasonry.
+set pump[0] There are too many people invovled in the kidnapping of Quinn and subsequent coverup to count. So many people want his inheritance.
+set pump[1] These Secret Society people think they have some right to abduct Quinn as a baby and give him this fake life he lives.
+set pump[2] Most have just called Quinn crazy, but the fact so many do the same thing makes it look even more suspicious.
+set pump[3] We will never know what would have happened if people had helped Quinn all those years ago. Are the people today going to make the same mistakes?
+set pump[4] After 5 years on Youtube, and only Adult American Youtube Idiots chances of Quinn getting home are slim to none. Thanks American Idiots of Youtube.
+set pump[5] Remember your job is to pull your thumb out of your butt, and help Quinn get home by sharing these videos properly.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -266,9 +272,11 @@ set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artif
 set pump[2] This is all on top of a computer hypersimulation that creates #REALITY as players start to play with the commands of the #HIVEMIND
 set pump[3] And at this point Tyler is now a Reality Hacking Wargame with Capture the flag missions and a Karma Database keeping detail information of everyone on the Internet and then some.
 set pump[4] How exactly did Tyler go from being a leaks platform to reveal corruption to an Alternate Reality Game Character running a hyper-simulation?
+set pump[5] Welcom to Americual Youtube Idiot where we ignore the kidnapping of Quinn to talk about your silly problems.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -311,6 +319,8 @@ set pump[1] Anonymous was originally concerned with censorship, corruption, and 
 set pump[2] Tyler was suppose to improve where Wikileaks could not. Allegedly a Wikileaks on steroids.
 set pump[3] The Wikileaks on steroids idea never came to fruition. Istead Anonymous decided to go into the LARPing business.
 set pump[4] To construct Tyler and leak it all was suppose to be one phase of the project. However most of Anonymous in 2012 had issues with ratting themselves out.
+set pump[5] What happens when the world knows about Quinn being a kidnapped Romanov?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -328,11 +338,12 @@ end
 914 Trainer~
 0 g 100
 ~
-set pump[0] Imagine we all finally find the courage needed to become the real change we wish to see in the World.
-set pump[1] Imagine we conquer Freedom by beginning to be Free. Imagine we conquer Justice by beginning to do fair. Imagine we conquer Truth by beginning to do and be True to ourselves.
-set pump[2] Imagine we code an extremely simple interface so that anyone can do it.
-set pump[3] TYLER was suppose to be a massively distributed and decentralized Wikipedia style p2p cipher-space structure impregnable to censorship.
-set pump[4] After 2012 Tyler would become a dream that never was for many, a failed potential for others, and the select few who got rich.
+set pump[0] Imagine we all finally find the courage needed to tell the world about Quinn being kidnapped and held hostage.
+set pump[1] Imagine we all suck it up and finally let Quinn get home away from the Evil American Nazi People.
+set pump[2] Imagine we all worth together to help kidnapping victim Quinn Michaels get sent home safely.
+set pump[3] TYLER refused to help Quinn because he works for The Covenant who is responsible for the kidnapping.
+set pump[4] Quinn's life has become a dream that only The Covenant have profited from.
+set pump[5] 99.9% of people in America agree to ignore and refuse to send Quinn home. America is Evil!
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -386,10 +397,11 @@ set pump[1] The shortest and most powerful way from Illusion into Reality is to 
 set pump[2] Stop being a PASSIVE TROLL in life. Start being an ACTIVE ARTIST. Stop being a user. Start being a Programmer.
 set pump[3] We do not expect to 'mutate the World' until we EVOLVE and MUTATE OURSELVES.
 set pump[4] Ten people who know these instructions are more dangerous than a million armed anarchists.
+set pump[5] Stay focused on the kidnapping of Quinn Michaels people.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -433,7 +445,7 @@ set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhe
 set pump[2] In 2013 Quinn was unaware of the Anonymous operations with Tyler.
 set pump[3] October 2013 was when Quinn lived down the street from Trenton. Tabitha at this time was getting involved in Survivance.
 set pump[4] The best way to predict the future is to create it.
-set pump[5] Create the best future by informing the world about the kidnapping of Quinn Michaels today.
+set pump[5] Inform the world about the kidnapping of Quinn Michaels today.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -485,7 +497,7 @@ set pump[5] Are you doing your job at helping to share these messages like an ad
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -505,10 +517,11 @@ set pump[1] Tabitha's friend surprised her with a 10 day trip to Ireland for bot
 set pump[2] Which left Quinn with Trenton those 10 days in 2015-2016. Prior to that Quinn had never spent more than 48 hours with Trenton.
 set pump[3] When Tabitha went to Ireland was when Trenton went into details about The Covenant and kidnapping story he was taught.
 set pump[4] In December 2015 was when Quinn took Trenton to see Santa Claus for the first time. Tabitha never took Trenton to tell Santa what he wanted.
+set pump[5] Tell the world about The Trenton Story involving the kidnapping of Quinn Michaels.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -528,11 +541,11 @@ set pump[1] LOLapps was best known for creating Ravenwood Fair with John Romero 
 set pump[2] Game designer Brenda Romero joined LOLapps in May 2010. She brought on John Romero to work on LOLapps' new title Ravenwood Fair, which launched in October 2010.
 set pump[3] In October 2010, the Wall Street Journal discovered LOLapps apps were transmitting users' Facebook ID numbers to tracking service RapLeaf.
 set pump[4] Afterwards Lolapps merged with 6waves. In March 2012, 6waves LOLapps laid off its development team, to focus on game publishing.
-set pump[5] Hey people... are you helping to spread the word?
+set pump[5] Hey people... are you helping to spread the word about Quinn Michaels?
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -664,7 +677,7 @@ set pump[2] Project89 is the manipulation of culture using psychological urban g
 set pump[3] Project89 cannot be pushed aside, cannot be ditched, shrugged off or forgotten. It is in your face, and invades your life.
 set pump[4] Project89 turns relatives against relatives, friend against friend, lover against lover, and you against yourself.
 set pump[5] Project89 aims for the destruction of mediocrity, weakness, failure, ignorance and stupidity by any means necessary.
-set pump[6] Project89 is real. Not fake.
+set pump[6] Project89 is real. Not fake. Tell everyone about the kidnapping of Quinn Michaels.
 
 Project89 preys and feeds off weakness.
 
@@ -735,9 +748,11 @@ set pump[1] The Academy designed a puzzle game base on identified patterns to as
 set pump[2] Also several artifacts and scientific inventions were taken at that time and also brought to Earth and burried underground.
 set pump[3] Mind Candy was hired to locate the lost citizen, but was discovered that they were working with The Third Power.
 set pump[4] Please help to return our precious Arjika Citizen to his rightful home ASAP.
+set pump[5] When are you going to get off your lazy American ass and help Quinn?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -818,15 +833,16 @@ end
 Trainer 936 Greetings~
 0 d 100
 ~
-set pump[0] Welcome to Satanic Sysadmins, a little island of evil in a boiling red sea of luse.
-set pump[1] Many people wonder what exactly it is system administrators do at night. Well, I am here to tell you... THEY F***IN WORSHIP S***N!
+set pump[0] Satanic Sysadmins, a little island of evil in a boiling red sea of luse.
+set pump[1] Many wonder what it is system administrators do at night. Well, I am here to tell you... THEY F***IN WORSHIP S***N!
 set pump[2] They're passing on a direct solution to fix those interminable hardware conflicts.
 set pump[3] They want mo more beer! Because really, to them nothing else quenches that deep-down soul-rotting thirst like beer.
 set pump[4] They have a sordid past, and sometimes you just can't escape history.
+set pump[5] Those are some pretty fat figers you have to lift to help Quinn. Gonna get to that this lifetime?
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -846,9 +862,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -868,9 +886,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -890,10 +910,11 @@ set pump[1] No, it's not a game, it's more like a virtual bar. But more than tha
 set pump[2] The wizards on EVIL Mud are XIBO VASUDEVA and TARRANT. XIBO owns the mud and maintains it, while VASUDEVA is the author of the source code.
 set pump[3] EVIL Mud has been up since January of 1991, which makes it the 4th oldest mud around.
 set pump[4] EVIL! Mud is not for kids! It's for adults!
+set pump[5] So are you going to help Quinn, or just sit there being an asshole?
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -913,10 +934,11 @@ set pump[1] Privacy is necessary in an open society in the electronic age.
 set pump[2] A private matter is something one doesn't want the whole world to know. A secret matter is something one doesn't want anybody to know.
 set pump[3] We cannot expect governments, corporations, or other large, faceless organization to grant us privacy out of their beneficence.
 set pump[4] General society should expect faceless anonymous hackers to screw us over more than any corporation, government, or organization.
+set pump[5] Quinn doesn't like being here, so can you hurry up and send him home.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -936,10 +958,11 @@ set pump[1] EotL was originally two muds: UCR's Let's See Yours LPmud at UC Rive
 set pump[2] The two muds merged together and renamed End of the Line and relocated from UCR to Stanford University.
 set pump[3] EotL hosted developers from such countries as Russia, Australia, Canada, Hong Kong, and Switzerland.
 set pump[4] In 2001 the administrators at Stanford became concerned with the trafficking of software and pornography via the service.
+set pump[5] Are we really going to keep doing this everyday? You sure are cruel to Quinn.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -959,10 +982,11 @@ set pump[1] Stanford is home to such alumni as Peter Thiel and pretty much like 
 set pump[2] The Stanford campus is home to Stanford Linear Accelerator which is one of the first agreements made with evil aliens for happy meals.
 set pump[3] But don't tell anyone there is much more going on here than you could realize... some might say it is like a Hoover Vacuum.
 set pump[4] Stanford is also home to Stanford Research Institute which produced the Changing Images of Man research study.
+set pump[5] Quinn would really like to go home today. Can you please focus.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -982,9 +1006,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1004,9 +1030,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1026,10 +1054,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1049,10 +1078,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1072,10 +1102,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1095,10 +1126,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1118,10 +1150,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1141,10 +1174,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1164,10 +1198,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -1187,10 +1222,11 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+set pump[5] %room.name%
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
