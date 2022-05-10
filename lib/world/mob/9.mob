@@ -180,7 +180,7 @@ Ajahn 912~
 8 8 0 0
 BareHandAttack: 1
 E
-T 900
+T 912
 #913
 trainer training agent 913 tyler hackzion~
 Tyler 913~
@@ -226,7 +226,7 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
-T 900
+T 915
 #916
 izar sunaria alien trainer training agent 916~
 Izar 916~
@@ -275,6 +275,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 919
 #920
 trainer training agent 920 brenda romero~
 Brenda 920~
@@ -290,6 +291,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 920
 #921
 trainer training agent 921 john romero~
 John 921~
@@ -305,6 +307,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 921
 #922
 trainer training agent tabitha 922~
 Tabitha 922~
@@ -347,6 +350,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 924
 #925
 trainer training agent 925 peter~
 Peter 925~
@@ -362,6 +366,7 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+T 925
 #926
 trainer training agent 926 palantir alex karp~
 Alex 926~
@@ -378,6 +383,7 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+T 926
 #927
 trainer training 927 ghostnet~
 GhostNet 927~
@@ -393,6 +399,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 927
 #928
 trainer training agent 928 tyler~
 Tyler 928~
@@ -408,6 +415,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 928
 #929
 trainer training agent 929 project89~
 Project89 929~
@@ -467,6 +475,22 @@ SavingBreath: 1
 SavingSpell: 1
 E
 T 932
+#933
+trainer training 933 v sanfran~
+V 933~
+933/main:avatar~
+933/main:look~
+78 0 0 0 0 0 0 0 -133 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+T 933
 #934
 trainer training 0934 cyrus quinton v~
 Cyrus 934~
@@ -482,6 +506,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 934
 #935
 trainer training 935 jormungandr evil~
 Jormungandr 935~
@@ -492,6 +517,7 @@ Jormungandr 935~
 0 0
 8 8 1 1
 E
+T 935
 #936
 trainer training 936 eric zippo eotl~
 Eric 936~

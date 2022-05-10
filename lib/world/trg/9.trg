@@ -8,6 +8,7 @@ set pump[1] After 5 years on Youtube researching and investigating the story Tre
 set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
 set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
 set pump[4] Remember a big reason we are here is because Trenton told Quinn that Mr. Dewity had a computer system that could take pictures of the future, and intercept communications.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -263,6 +264,29 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#mud east
 end
 ~
+#912
+912 Trainer~
+0 g 100
+~
+set pump[0] %actor.roomm.name%
+set pump[1] %actor.roomm.name%
+set pump[2] %actor.roomm.name%
+set pump[3] %actor.roomm.name%
+set pump[4] %actor.roomm.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:quinn %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud east
+end
+~
 #913
 913 Trainer~
 0 g 100
@@ -294,6 +318,7 @@ set pump[1] Imagine we conquer Freedom by beginning to be Free. Imagine we conqu
 set pump[2] Imagine we code an extremely simple interface so that anyone can do it.
 set pump[3] TYLER was suppose to be a massively distributed and decentralized Wikipedia style p2p cipher-space structure impregnable to censorship.
 set pump[4] After 2012 Tyler would become a dream that never was for many, a failed potential for others, and the select few who got rich.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -305,6 +330,29 @@ if %actor% && %actor.varexists(on_tour)%
     wait 33s
   done
   %send% %actor% talk:#mud west
+end
+~
+#915
+915 Trainer~
+0 g 100
+~
+set pump[0] %actor.roomm.name%
+set pump[1] %actor.roomm.name%
+set pump[2] %actor.roomm.name%
+set pump[3] %actor.roomm.name%
+set pump[4] %actor.roomm.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:quinn %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud east
 end
 ~
 #916
@@ -443,7 +491,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud south
+  %send% %actor% talk:#mud east
 end
 ~
 #923
@@ -553,7 +601,29 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud south
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#928
+Trainer 928 Greetings~
+0 g 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:harry %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #929
@@ -826,7 +896,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud west
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 #941
