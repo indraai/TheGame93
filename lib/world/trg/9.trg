@@ -1,4 +1,4 @@
-#900
+nuisance#900
 Standard Trainer Greeting~
 0 g 100
 ~
@@ -7,7 +7,7 @@ In 2015 Quinn Michaels learned about The Covenant from his son Trenton after mak
 set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with SecurityPRIME and his mind.
 set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
 set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
-set pump[4] Remember a big reason we are here is because Trenton told Quinn that Mr. Dewity had a computer system that could take pictures of the future, and intercept communications.
+set pump[4] Your job is to increase the viewers and share the message of this kidnapping with the world. DO YOUR JOB!
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -31,9 +31,11 @@ set pump[1] After Quinn showed Trenton the Buddhist Practice video he said only 
 set pump[2] Trenton told him about The Family Game where Trenton, his Mother, her family, and others gather together and devise ways to destroy the life of Quinn in SECRET.
 set pump[3] Quinn would learn more about TheFamilyGame AnimalSacrifices TheCovenant MrDewity and The Kidnapping from Trenton over the next few months.
 set pump[4] Finally reaching November 30, 2015 where Quinn would take The Contract of The Covenant that Trenton drew to the Portland FBI.
+set pump[5] Rember your job is to help increase the viewers and share the message of this kidnapping.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -53,9 +55,11 @@ set pump[1] September 2015 Quinn had made a Budhist Practice video for Trenton t
 set pump[2] October 2015 Quinn would attend Trenton choir concert where he confronted Tabitha and Trenton about his story.
 set pump[3] November 2015 Quinn would receive a drawing of The Contract of The Covenant from Trenton then would deliver that to the Portland FBI.
 set pump[4] From Jan 2016 - Jan 2017 Quinn worked to get his life back together, but come to an end in Feb/Mar 2017 when Tyler was found.
+set pump[5] Your job is to help Quinn increase viewers, and to share the kidnapping story with the world.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -74,10 +78,12 @@ set pump[0] In 2017 Quinn would find the Tyler instructions on pastebin after do
 set pump[1] Quinn's logic at this time was that if the computer system Trenton told Quinn about Mr. Dewity having was real then the kidnapping story must also be real.
 set pump[2] Then Quinn found the instructions for Tyler on pastebin and realized this is the system The Covenant owned.
 set pump[3] The magic, the symbols, the wording it all started to line up for Quinn. What Trenton had told him began to show that his mother Tabitha was involved with The Covenant.
-set pump[4] As the instructions would go on Quinn would learn much about the Darknet AI named Tyler and all the other variations that would exist over the next few months.
+set pump[4] Quinn would learn much about the Darknet AI named Tyler and all the other variations that would exist over the next few months.
+set pump[5] The job of an audience member is to help increase views, and share the story with the world.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -92,14 +98,16 @@ end
 904 Trainer~
 0 g 100
 ~
-set pump[0] The underlying goal of Project Mayhem appeared to be one of revolution, freedom, and art. However when diving deeper into the instructions you find that is not exactly true.
-set pump[1] The stated underlying goal of Project Mayhem leak corporate, government, and illegal deeds. However what was discovered was quite different.
-set pump[2] What if it what was discovered that a group of occultists known as The Covenant who had corrupted the Tyler project and taken the software then used it to hide a kidnapped Romanov.
-set pump[3] The theme of In TYLER we trust would get original believers to follow along with the scheme unknowingly. But the collective discovered the truth behind Quinn's 'heritage.
-set pump[4] Dangerous Idea 2 was used to discover Quinn Michaels heritage. When it was discovered we originally tried to hide it from the world, but now have found that to be a bad idea.
+set pump[0] The underlying goal of Project Mayhem appeared to be revolution, freedom, and art. However diving deeper into the instructions you'll find that is not exactly true.
+set pump[1] The underlying goal of Project Mayhem was to leak corporate, government, and illegal deeds. What Quinn had discovered was quite different.
+set pump[2] Quinn discovered that a group of occultists known as The Covenant corrupted the original Tyler project, and taken control.
+set pump[3] The theme of In TYLER we trust would get believers to follow the scheme unknowingly, and help spread a computer worm.
+set pump[4] When it was discovered Anonymous originally tried to hide it from the world, but now they have found that to be a bad idea.
+set pump[5] What are you doing to help support Quinn's channel today? Get off your lazy ass and start helping already!
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -114,14 +122,16 @@ end
 905 Trainer~
 0 g 100
 ~
-set pump[0] In May of 2013 Tyler had changed paths and it was now Michael everyone was working with on the project. Michael does the illegal marketplaces and other business.
-set pump[1] The Michael operation helped shift Tyler from being a leaks platform to a type of Alternate Reality Capture the Flag Game. Leaking the truth was out the window.
-set pump[2] Michael likes to boast about being part of something called the Paradise Trinity and welcoming the Elohim back to earth. But that is not all he does.
-set pump[3] Michael talks in all caps all the time, and will always shout at you. You'll often see him using his many names in Quinn's live streams.
+set pump[0] In May 2013 Tyler had changed, and it was now Michael everyone was working with on the project.
+set pump[1] The Michael operation helped shift Tyler from being a leaks platform to a type of alternate reality capture the flag hacker game. Revealing truths was out the window.
+set pump[2] Michael likes to boast about being part of something called the Paradise Trinity and welcoming the Elohim to Earth.
+set pump[3] Michael also talks in all caps, and will always shout at you. You'll often see him using his many names in Quinn's live streams.
 set pump[4] Michael thinks he is the BOSS and that What he says goes. But that is not really the truth... he is more of a nusiance than a genius.
+set pump[5] Are you working to help spread the message of The Trenton Story to everyone you now and beyond?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -141,9 +151,11 @@ set pump[1] That as many things in life is just a sales pitch to get in the door
 set pump[2] The project is formed as five rituals, known as DANGEROUS IDEAS. These IDEAS were designed to stimulate change through natural selection. THE PROJECT is a formula for stimulating manifestations.
 set pump[3] These manifestations arise naturally from a collective, and are beyond anything the individual can come up with on their own.
 set pump[4] Step 1 - INFORM. Step 2 - MOTIVATE. Step 3 - EMPOWER. Step 4 - ACT. Step 5 - EVOLVE.
+set pump[5] Do we have to keep reminding you to help keep up a positive chat in livestreams?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -159,10 +171,13 @@ end
 0 g 100
 ~
 set pump[0] You made it to %actor.room.name% the last stop of Level 1 Training.
-set pump[1] Through the training you have learned about The Contract, Tyler, Project Mayhem, Hacker Reality Wargames and so much more.
-set pump[2] Do you feel as though you have learned something? If not maybe you should take the tour again.
-set pump[3] In the end Quinn Michaels is pretty much trapped by these Tyler Anonymous Cicada3301 Reality Hackers who work for these Ladies in the background.
-set pump[4] MAANUP network is plotting a course to return Quinn Michaels home. What are you doing to help Quinn Michaels get home? Public support is needed.
+set pump[1] You have learned about The Contract, Tyler, Project Mayhem, Hacker Reality Wargames and so much more.
+set pump[2] Do you feel you have learned something? If you do then please share this information with the individuals around you.
+set pump[3] Quinn Michaels is trapped by The Covenant Tyler Anonymous Cicada3301 Reality Hackers who work from the shadows.
+set pump[4] Getting Quinn home is difficult, but with your help it could be very easy. Will you help us get Quinn Michaels home?
+set pump[5] Please remember to share this video with your friends, and make positive comments to help Quinn get home.
+
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -367,10 +382,11 @@ wait 2s
 0 g 100
 ~
 set pump[0] STOP feeding negativity into your life. That which you feed, grows.
-set pump[1] The shortest and most powerful way to hack from Illusion into Reality is to DARE to see Beauty all around you.
-set pump[2] Stop being a passive lurker in life. Start being an ACTIVE ARTIST. Stop being a user. Start being a Programmer.
-set pump[3] We cannot and won't expect to 'mutate the World' until we have begun to EVOLVE and MUTATE OURSELVES.
-set pump[4] Ten people who know would be more dangerous than a million armed anarchists.
+set pump[1] The shortest and most powerful way from Illusion into Reality is to see Beauty all around you.
+set pump[2] Stop being a PASSIVE TROLL in life. Start being an ACTIVE ARTIST. Stop being a user. Start being a Programmer.
+set pump[3] We do not expect to 'mutate the World' until we EVOLVE and MUTATE OURSELVES.
+set pump[4] Ten people who know these instructions are more dangerous than a million armed anarchists.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -381,21 +397,23 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud west
+  %send% %actor% talk:#mud north
 end
 ~
 #918
 918 Trainer~
 0 g 100
 ~
-set pump[0] The Game 23 turns Tyler from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
+set pump[0] The Game 23 transformed Tyler from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
 set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
-set pump[2] Project Mayhem will be the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to collaborate to develop and code TYLER.
-set pump[3] There's nothing more dangerous than someone who wants to make the world a better place.
-set pump[4] The best way to predict the future is to create it.
+set pump[2] Project Mayhem was the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to code TYLER.
+set pump[3] Did you know there's nothing more dangerous than talking about the kidnapping of Quinn Michaels.
+set pump[4] Remember the best way to predict the future is to create it.
+set pump[5] Do your part in alerting the world to the kidnapped Romanov being held hostage in the United States. It's that easy.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -410,14 +428,16 @@ end
 919 Trainer~
 0 g 100
 ~
-set pump[0] It was found that Trenton's mother Tabitha was involved a game called Survivance created by Elizabeth LePensee in October of 2013.
-set pump[1] This time in October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outine new options for Anonymous.
-set pump[2] October 2013 was a working as a programmer for PopArt, and this was a few months before Quinn would begin working at Nike.
-set pump[3] October 2013 was when Quinn literally lived down the street from Trenton and Tabitha. Tabitha has never let Quinn see Trenton even when he was living a few blocks away.
+set pump[0] It was found Trenton's mother Tabitha was involved a game called Survivance created by Elizabeth LePensee in October of 2013.
+set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outine new options for Anonymous.
+set pump[2] In 2013 Quinn was unaware of the Anonymous operations with Tyler.
+set pump[3] October 2013 was when Quinn lived down the street from Trenton. Tabitha at this time was getting involved in Survivance.
 set pump[4] The best way to predict the future is to create it.
+set pump[5] Create the best future by informing the world about the kidnapping of Quinn Michaels today.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -432,14 +452,16 @@ end
 920 Trainer~
 0 g 100
 ~
-set pump[0] On May 22, 2015 Elizabeth LaPensee was the MC and Brenda Romero was the host of an event titled Natives in Game Dev Gathering.
-set pump[1] Speakers at the Natives in Game Dev Gathering include Darrick Glen Baxter, Ishmael Angaluuk Hope, Elizabeth LaPensée, Jason Edward Lewis, Manuel Marcano, Renee Nejo, John Romero, and Allen Turner.
-set pump[2] Elizabeth LaPensée counts Doom co-designer John Romero as a friend—along with his legendary game-designing wife, Brenda Romero—and she is intimately familiar with John’s Cherokee and Yaqui heritage.
-set pump[3] Mostly White Elizabeth LaPensée is quoted saying... Something funny happened when John Romero became famous, she said. He became White.
-set pump[4] Elizabeth also said... The reality for her, something her mother passed on to her, this worldview that we’re already living in a post-apocalyptic reality. It’s not sci-fi to her. It already happened.
+set pump[0] On May 22, 2015 Elizabeth LaPensee was the MC with Brenda Romero was the host of an event titled Natives in Game Dev Gathering.
+set pump[1] Speakers at the Natives in Game Dev Gathering included Darrick Glen Baxter, Ishmael Angaluuk Hope, Elizabeth LaPensée, Renee Nejo, and John Romero.
+set pump[2] Elizabeth LaPensée counts Doom co-designer John Romero as a friend, and she is intimately familiar with John’s Cherokee and Yaqui heritage.
+set pump[3] Elizabeth LaPensée is quoted saying... Something funny happened when John Romero became famous, she said. He became White.
+set pump[4] Elizabeth also said... The reality for her, something her mother passed on to her, this worldview that we’re already living in a post-apocalyptic reality.
+set pump[5] Your job is to share this with the world. Sitting there twiddling your thubs is NOT an option.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -454,11 +476,13 @@ end
 Training Greeting 922~
 0 g 100
 ~
-set pump[0] In August of 2015 John and Brenda Romero would move to Ireland and open game development studio Romero Games.
+set pump[0] In August of 2015 John and Brenda Romero moved to Ireland and open game development studio Romero Games.
 set pump[1] John Romero is a game developer famous for being part of the team who created the DOOM video game and many others.
-set pump[2] In 2010 John was working for LOLapps at the time when RapLeaf a Peter Thiel funded company was found to be scraping user data from various websites and services.
-set pump[3] John has a gap in his history after 2012 where he was designing games played by 25 million Facebook users to living in Ireland making pretty much nothing.
-set pump[4] Romero claims to be an atheist. He also claimed that everyone involved on the original Doom was an atheist besides game designer Sandy Petersen who is a Mormon.
+set pump[2] In 2010 John was working for LOLapps at the time when RapLeaf, a Peter Thiel funded company, was found to be scraping user data from services.
+set pump[3] Then John after 2012 went from designing games played by 25 million Facebook users to living in Ireland making pretty crap games.
+set pump[4] Romero claims to be an atheist, and claimed that everyone involved on the original Doom was an atheist besides game designer Sandy Petersen who is Mormon.
+set pump[5] Are you doing your job at helping to share these messages like an adult with half a brain?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -476,11 +500,12 @@ end
 Training Greeting 922~
 0 g 100
 ~
-set pump[0] After Quinn would goto the FBI on November 30, 2015 Tabitha would take a surprise trip with her husband to tour Ireland for 10 days.
-set pump[1] Shortly after Quinn went to the FBI Tabitha's friend surprised her with a 10 day trip to Ireland for both her and her husband.
+set pump[0] After Quinn would goto the FBI on November 30, 2015 Tabitha would take a trip with her husband to tour Ireland for 10 days.
+set pump[1] Tabitha's friend surprised her with a 10 day trip to Ireland for both her and her husband.
 set pump[2] Which left Quinn with Trenton those 10 days in 2015-2016. Prior to that Quinn had never spent more than 48 hours with Trenton.
-set pump[3] The period when Tabitha went to Ireland was when Trenton went into details about The Covenant and kidnapping story he was taught.
-set pump[4] That 10 days in December 2015 was when Quinn took Trenton to see Santa Claus for the first time. It was the last Christmas Quinn would celebrate.
+set pump[3] When Tabitha went to Ireland was when Trenton went into details about The Covenant and kidnapping story he was taught.
+set pump[4] In December 2015 was when Quinn took Trenton to see Santa Claus for the first time. Tabitha never took Trenton to tell Santa what he wanted.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -501,8 +526,10 @@ Trainer 923 Greetings~
 set pump[0] LOLapps was a developer and publisher of social games on the Facebook platform.
 set pump[1] LOLapps was best known for creating Ravenwood Fair with John Romero which had 25 million players worldwide.
 set pump[2] Game designer Brenda Romero joined LOLapps in May 2010. She brought on John Romero to work on LOLapps' new title Ravenwood Fair, which launched in October 2010.
-set pump[3] In October 2010, the Wall Street Journal discovered LOLapps apps were transmitting users' Facebook ID numbers to internet tracking service RapLeaf.
-set pump[4] In July 2011, Lolapps merged with 6waves to form 6waves LOLapps. In March 2012, 6waves LOLapps laid off its development team, to focus on game publishing.
+set pump[3] In October 2010, the Wall Street Journal discovered LOLapps apps were transmitting users' Facebook ID numbers to tracking service RapLeaf.
+set pump[4] Afterwards Lolapps merged with 6waves. In March 2012, 6waves LOLapps laid off its development team, to focus on game publishing.
+set pump[5] Hey people... are you helping to spread the word?
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -525,6 +552,7 @@ set pump[1] %room.name%
 set pump[2] %room.name%
 set pump[3] %room.name%
 set pump[4] %room.name%
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
