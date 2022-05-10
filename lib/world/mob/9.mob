@@ -375,7 +375,7 @@ Alex 926~
 78 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 0
+8 8 1 2
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
@@ -662,6 +662,22 @@ Emmanuel~
 0 0
 8 8 1 1
 E
+#946
+trainer training 946 hip~
+Hip 946~
+946/main:avatar~
+946/main:look~
+78 0 0 0 0 0 0 0 -208 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
 #948
 trainer training 948 spoonman mark petrakis~
 Spoonman 948~
@@ -820,7 +836,7 @@ SpoonKids Security~
 6234 0 0 0 2072 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 0 1
+8 8 0 3
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
