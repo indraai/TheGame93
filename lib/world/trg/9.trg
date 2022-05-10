@@ -72,7 +72,7 @@ end
 ~
 set pump[0] In 2017 Quinn would find the Tyler instructions on pastebin after doing research into the details of the story Trenton had told him.
 set pump[1] Quinn's logic at this time was that if the computer system Trenton told Quinn about Mr. Dewity having was real then the kidnapping story must also be real.
-set pump[2] Then Quinn found the instructions for Tyler on pastebin and realized this is the system Trenton had told Quinn about that The Covenant owned.
+set pump[2] Then Quinn found the instructions for Tyler on pastebin and realized this is the system The Covenant owned.
 set pump[3] The magic, the symbols, the wording it all started to line up for Quinn. What Trenton had told him began to show that his mother Tabitha was involved with The Covenant.
 set pump[4] As the instructions would go on Quinn would learn much about the Darknet AI named Tyler and all the other variations that would exist over the next few months.
 if %actor% && %actor.varexists(on_tour)%
@@ -173,7 +173,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% talk:#mud %random.dir%
+  %send% %actor% talk:#mud east
 end
 ~
 #908
@@ -632,7 +632,7 @@ Trainer 929 Greetings~
 ~
 set pump[0] Project89 is the recruitment, training center and battlefield for the new war.
 set pump[1] Project89 will break down every barrier that stands between it and its opponents.
-set pump[2] Project89 is the manipulation of culture. Project89 is psychological urban guerrilla warfare with no morals, no scruples, and no ethics.
+set pump[2] Project89 is the manipulation of culture using psychological urban guerrilla warfare with no morals, no scruples, and no ethics.
 set pump[3] Project89 cannot be pushed aside, cannot be ditched, shrugged off or forgotten. It is in your face, and invades your life.
 set pump[4] Project89 turns relatives against relatives, friend against friend, lover against lover, and you against yourself.
 set pump[5] Project89 aims for the destruction of mediocrity, weakness, failure, ignorance and stupidity by any means necessary.
@@ -657,11 +657,11 @@ end
 Trainer 930 Greetings~
 0 g 100
 ~
-set pump[0] Very early in the morning of January 16th 2004 the Receda Cube was stolen from my city and taken to Earth.
-set pump[1] We have investigated the theft very thoroughly and have been unable to solve the mystery.
-set pump[2] We hope that you will be able to make links and propose solutions that we might have overlooked.
+set pump[0] Very early in the morning of November 30, 1977 a baby was abducted from Arjika City and brought to Earth.
+set pump[1] We have investigated the abduction very thoroughly and have been unable to solve the mystery.
+set pump[2] We hope that you will be able help us to locate our kinsman and return him home as soon as possible.
 set pump[3] We have observed your culture and witnessed how fast information can spread in the right circumstances.
-set pump[4] Perplex City was an alternate reality game created by London-based Mind Candy that ran from April 2005 to February 2007.
+set pump[4] Perplex City was one of the alternate reality games created hide our lost kinsman on Earth that ran from 2004-2007.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -702,11 +702,11 @@ end
 Trainer 932 Greetings~
 0 d 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] Mind Candy was the company originally contracted in Earth year 2003 to locate our lost kinsman from Arjika.
+set pump[1] The Academy designed a puzzle game base on identified patterns to assist in locating the lost Arjika Citizen.
+set pump[2] Also several artifacts and scientific inventions were taken at that time and also brought to Earth and burried underground.
+set pump[3] Mind Candy was hired to locate the lost citizen, but was discovered that they were working with The Third Power.
+set pump[4] Please help to return our precious Arjika Citizen to his rightful home ASAP.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -943,6 +943,234 @@ if %actor% && %actor.varexists(on_tour)%
     wait 33s
   done
   %send% %actor% talk:#mud east
+end
+~
+#943
+Trainer 943 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#944
+Trainer 944 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#945
+Trainer 945 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud east
+end
+~
+#946
+Trainer 946 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud southwest
+end
+~
+#947
+Trainer 947 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud west
+end
+~
+#948
+Trainer 948 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#949
+Trainer 949 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud north
+end
+~
+#950
+Trainer 950 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#951
+Trainer 951 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
+end
+~
+#962
+Trainer 962 Greetings~
+0 d 100
+~
+set pump[0] %room.name%
+set pump[1] %room.name%
+set pump[2] %room.name%
+set pump[3] %room.name%
+set pump[4] %room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 5
+  wait 5s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% talk:#mud %random.dir%
 end
 ~
 $~

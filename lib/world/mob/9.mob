@@ -637,6 +637,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 943
 #944
 trainer training 944 satan dan farmer defcon~
 Dan 944~
@@ -652,6 +653,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 944
 #945
 trainer training 945 emmanuel 2600~
 Emmanuel~
@@ -662,6 +664,7 @@ Emmanuel~
 0 0
 8 8 1 1
 E
+T 945
 #946
 trainer training 946 hip~
 Hip 946~
@@ -678,6 +681,24 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 946
+#947
+trainer training 947 hip~
+Hip 947~
+947/main:avatar~
+947/main:look~
+78 0 0 0 0 0 0 0 -208 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 1
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+T 947
 #948
 trainer training 948 spoonman mark petrakis~
 Spoonman 948~
@@ -693,6 +714,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 948
 #949
 trainer trianining 949 brenda laurel cobrawoman~
 Brenda 949~
@@ -708,6 +730,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 949
 #950
 trainer training 950 slac stanford richard neal~
 Richard 950~
@@ -723,6 +746,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 950
 #951
 trainer training 951 ghostmind mind ghost~
 GhostMind 951~
@@ -738,6 +762,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 951
 #952
 minniespoon spoonkids minnie spoon spoonkid~
 MinnieSpoon~
