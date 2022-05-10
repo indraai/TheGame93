@@ -4,7 +4,7 @@ Standard Trainer Greeting~
 ~
 set pump[0] Welcome to %actor.room.name% it is a pleasure to have you here today. Today's training covers the year 2015 and the introduction to The Covenant.
 In 2015 Quinn Michaels learned about The Covenant from his son Trenton after making him a video about Buddhism and water.
-set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with SecurityPRIME and his mind.
+set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with SecurityPRIME.
 set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
 set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
 set pump[4] Your job is to increase the viewers and share the message of this kidnapping with the world. DO YOUR JOB!
@@ -699,14 +699,15 @@ Trainer 930 Greetings~
 0 g 100
 ~
 set pump[0] Very early in the morning of November 30, 1977 a baby was abducted from Arjika City and brought to Earth.
-set pump[1] We have investigated the abduction very thoroughly and have been unable to solve the mystery.
-set pump[2] We hope that you will be able help us to locate our kinsman and return him home as soon as possible.
-set pump[3] We have observed your culture and witnessed how fast information can spread in the right circumstances.
-set pump[4] Perplex City was one of the alternate reality games created hide our lost kinsman on Earth that ran from 2004-2007.
+set pump[1] We have investigated the abduction very thoroughly and have our kinsman Quinn Michaels being held hostage on Earth.
+set pump[2] We hope that you will be able help us to safely reutnrn Quinn Michaels home to the people of Arjika as soon as possible.
+set pump[3] We have observed your Earth culture and witnessed how fast information can spread in the right circumstances.
+set pump[4] Perplex City was one of the alternate reality games created to hide our lost kinsman on Earth that ran from 2004-2007.
+set pump[5] Are you lacking in the intelligence required to complete the task of sending Quinn Michaels home to Arjika?
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -743,7 +744,7 @@ end
 Trainer 932 Greetings~
 0 d 100
 ~
-set pump[0] Mind Candy was the company originally contracted in Earth year 2003 to locate our lost kinsman from Arjika.
+set pump[0] Mind Candy originally contracted in Earth year 2003 to locate our lost kinsman from Arjika.
 set pump[1] The Academy designed a puzzle game base on identified patterns to assist in locating the lost Arjika Citizen.
 set pump[2] Also several artifacts and scientific inventions were taken at that time and also brought to Earth and burried underground.
 set pump[3] Mind Candy was hired to locate the lost citizen, but was discovered that they were working with The Third Power.

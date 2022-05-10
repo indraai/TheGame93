@@ -56,7 +56,7 @@ if %speech% == start tour
   set on_tour 1
   remote on_tour %actor.id%
   wait 2s
-  %send% %actor% talk:#corpus say:brian Thank you. The tour will begin shortly.
+  %send% %actor% The tour will begin shortly.
   wait 10s
   %send% %actor% talk:#corpus say:brian During the tour we will be walking through Training Level 1. In each room is an agent to assist you.
   wait 10s
