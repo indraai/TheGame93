@@ -14,6 +14,7 @@ if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
   wait 5s
+  %send% %actor% talk:#mud look
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -38,6 +39,7 @@ if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
   wait 5s
+  %send% %actor% talk:#mud look
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
