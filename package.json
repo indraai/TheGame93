@@ -1,0 +1,29 @@
+{
+  "name": "thegame93",
+  "version": "0.0.1",
+  "description": "Deva.World Core",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/TheGame93.git"
+  },
+  "keywords": [
+    "deva.world",
+    "core",
+    "game",
+    "93"
+  ],
+  "author": "Quinn Michaels",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/indraai/TheGame93/issues"
+  },
+  "homepage": "https://github.com/indraai/TheGame93#readme"
+}
