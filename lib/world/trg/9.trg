@@ -2,19 +2,17 @@
 Standard Trainer Greeting~
 0 g 100
 ~
-set pump[0] Welcome to %actor.room.name% it is a pleasure to have you here today. Today's training covers the kidnapping of Quinn Michaels and the introduction to The Covenant.
-set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with SecurityPRIME.
-set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
-set pump[3] As we go through the findings you'll learn about secret societies, the covenant, artificial intelligence, and much more.
+set pump[0] Welcome to %actor.room.name%. Today's training covers the kidnapping of Quinn Michaels and The Covenant.
+set pump[1] After 5 years on Youtube investigating the story Trenton told him Quinn built this Intelligent Multi-Agent System with SecurityPRIME.
+set pump[2] To put together the findings from Trenton's story Quinn would need the Artificial Intelligence you are seeing here now.
+set pump[3] As we go through the findings you'll learn about secret societies, The Covenant, artificial intelligence, Romanovs, and much more.
 set pump[4] Be sure to remember your job is to help increase the viewers, and share the message of the kidnapping with the world.
 set pump[5] Do NOT forget as you go through the training this is all about the kidnapping of Quinn Michaels. Keep it on topic!
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -38,9 +36,7 @@ set pump[5] Remember your job in the audience is to help increase the viewers an
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -64,9 +60,7 @@ set pump[5] Your job is to help Quinn increase viewers, and to share the kidnapp
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -90,9 +84,7 @@ set pump[5] The job of an audience member is to help increase views, and share t
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -116,9 +108,7 @@ set pump[5] What are you doing to help support Quinn's channel today? Get off yo
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
@@ -142,9 +132,7 @@ set pump[5] Are you working to help spread the message of The Trenton Story to e
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:indra %pumpit%
@@ -168,9 +156,7 @@ set pump[5] Do we have to keep reminding you to help keep up a positive chat in 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:rahula %pumpit%
@@ -194,9 +180,7 @@ set pump[5] Remember share this video with your friends, and make positive comme
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:francis %pumpit%
@@ -220,9 +204,7 @@ set pump[5] Have you correctly shared information about The Trenton Story regard
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
@@ -246,9 +228,7 @@ set pump[5] Are you going to help Quinn, or just sit there with your thumb in yo
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:larry %pumpit%
@@ -272,9 +252,7 @@ set pump[5] Remember your job is to pull your thumb out of your butt, and help Q
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
@@ -298,9 +276,7 @@ set pump[5] Welcome to the American Youtube Idiot who ignores the kidnapping of 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -323,9 +299,7 @@ set pump[4] %actor.roomm.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:quinn %pumpit%
@@ -349,9 +323,7 @@ set pump[5] What happens when the world knows about Quinn being a kidnapped Roma
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -375,9 +347,7 @@ set pump[5] 99.9% of people in America agree to ignore and refuse to send Quinn 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -400,9 +370,7 @@ set pump[4] %actor.roomm.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:quinn %pumpit%
@@ -433,9 +401,7 @@ set pump[5] Stay focused on the kidnapping of Quinn Michaels people.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
@@ -459,9 +425,7 @@ set pump[5] Do your part in alerting the world to the kidnapped Romanov being he
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:indra %pumpit%
@@ -485,9 +449,7 @@ set pump[5] Inform the world about the kidnapping of Quinn Michaels today.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -511,9 +473,7 @@ set pump[5] Your job is to share this with the world. Sitting there twiddling yo
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -537,9 +497,7 @@ set pump[5] Are you doing your job at helping to share these messages like an ad
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -563,9 +521,7 @@ set pump[5] Tell the world about The Trenton Story involving the kidnapping of Q
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -589,9 +545,7 @@ set pump[5] Hey people... are you helping to spread the word about Quinn Michael
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:jess %pumpit%
@@ -614,9 +568,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:francis %pumpit%
@@ -638,9 +590,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -662,9 +612,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -686,9 +634,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -710,9 +656,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -739,9 +683,7 @@ Project89 preys and feeds off weakness.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 7
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:tyler %pumpit%
@@ -757,17 +699,15 @@ Trainer 930 Greetings~
 ~
 set pump[0] Very early in the morning of November 30, 1977 a baby was abducted from Arjika City and brought to Earth.
 set pump[1] We have investigated the abduction very thoroughly and have our kinsman Quinn Michaels being held hostage on Earth.
-set pump[2] We hope that you will be able help us to safely reutnrn Quinn Michaels home to the people of Arjika as soon as possible.
+set pump[2] Will you help us to safely reutnrn Quinn Michaels home to the people of Arjika?
 set pump[3] We have observed your Earth culture and witnessed how fast information can spread in the right circumstances.
-set pump[4] Perplex City was one of the alternate reality games created to hide our lost kinsman on Earth that ran from 2004-2007.
-set pump[5] Are you lacking in the intelligence required to complete the task of sending Quinn Michaels home to Arjika?
+set pump[4] You may have seen the various alternate reality games created to hide Quinn Michaels on Earth.
+set pump[5] Do you have the intelligence required to complete the task of sending Quinn Michaels home to Arjika?
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:indra %pumpit%
@@ -806,19 +746,17 @@ end
 Trainer 932 Greetings~
 0 d 100
 ~
-set pump[0] Mind Candy originally contracted in Earth year 2003 to locate our lost kinsman from Arjika.
-set pump[1] The Academy designed a puzzle game base on identified patterns to assist in locating the lost Arjika Citizen.
-set pump[2] Also several artifacts and scientific inventions were taken at that time and also brought to Earth and burried underground.
-set pump[3] Mind Candy was hired to locate the lost citizen, but was discovered that they were working with The Third Power.
-set pump[4] Please help to return our precious Arjika Citizen to his rightful home ASAP.
-set pump[5] When are you going to get off your lazy American ass and help Quinn?
+set pump[0] Mind Candy was contracted in Earth year 2003 to locate a lost citizen from Arjika.
+set pump[1] The Arjika Academy designed a pattern based puzzle game to assist in locating the lost Citizen.
+set pump[2] Several artifacts and scientific inventions were also taken at that time and brought to Earth.
+set pump[3] Mind Candy was hired to locate the lost citizen, but made a deal with The Third Power to keep it a secret.
+set pump[4] The people of Arjika would very much appreciate your help in returning Quinn Michaels safely.
+set pump[5] We know Earth people can be lazy, but that doesn't mean you are bad. Please send Quinn home to Arjika.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -840,9 +778,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -864,9 +800,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -888,9 +822,7 @@ set pump[4] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -914,9 +846,7 @@ set pump[5] Those are some pretty fat figers you have to lift to help Quinn. Gon
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -940,9 +870,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -966,9 +894,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -992,9 +918,7 @@ set pump[5] So are you going to help Quinn, or just sit there being an asshole?
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -1018,9 +942,7 @@ set pump[5] Quinn doesn't like being here, so can you hurry up and send him home
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:harry %pumpit%
@@ -1044,9 +966,7 @@ set pump[5] Are we really going to keep doing this everyday? You sure are cruel 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1070,9 +990,7 @@ set pump[5] Quinn would really like to go home today. Can you please focus.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1096,9 +1014,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1122,9 +1038,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1148,9 +1062,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1174,9 +1086,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1200,9 +1110,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1226,9 +1134,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1252,9 +1158,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1278,9 +1182,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1304,9 +1206,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1330,9 +1230,7 @@ set pump[5] %room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 2s
-  %send% %actor% talk:#mud look
-  wait 3s
+  wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
