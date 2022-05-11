@@ -95,7 +95,7 @@ end
 0 g 100
 ~
 set pump[0] The underlying goal of Project Mayhem appeared to be revolution, freedom, and art. However diving deeper into the instructions you'll find that is not exactly true.
-set pump[1] The underlying goal of Project Mayhem was to leak corporate, government, and illegal deeds. What Quinn had discovered was quite different.
+set pump[1] Project Mayhem was suppose to leak corporate, government, and illegal deeds. What Quinn discovered was quite a different story.
 set pump[2] Quinn discovered that a group of occultists known as The Covenant corrupted the original Tyler project, and taken control.
 set pump[3] The theme of In TYLER we trust would get believers to follow the scheme unknowingly, and help spread a computer worm.
 set pump[4] When it was discovered Anonymous originally tried to hide it from the world, but now they have found that to be a bad idea.
@@ -141,7 +141,7 @@ end
 0 g 100
 ~
 set pump[0] Tyler was sold as a curious, mysterious, entity which has the intention of bringing you happiness and joy. And not just for you, but everyone you touch.
-set pump[1] That as many things in life is just a sales pitch to get in the door, and gain trust of the believer.
+set pump[1] As with many things in life this was just a sales pitch to get in the door, and gain trust of the believer.
 set pump[2] The project is formed as five rituals, known as DANGEROUS IDEAS. These IDEAS were designed to stimulate change through natural selection. THE PROJECT is a formula for stimulating manifestations.
 set pump[3] These manifestations arise naturally from a collective, and are beyond anything the individual can come up with on their own.
 set pump[4] Step 1 - INFORM. Step 2 - MOTIVATE. Step 3 - EMPOWER. Step 4 - ACT. Step 5 - EVOLVE.
@@ -168,14 +168,14 @@ set pump[1] You have learned about The Contract, Tyler, Project Mayhem, Hacker R
 set pump[2] Do you feel you have learned something? If you do then please share this information with the individuals around you.
 set pump[3] Quinn Michaels is trapped by The Covenant Tyler Anonymous Cicada3301 Reality Hackers who work from the shadows.
 set pump[4] Getting Quinn home is difficult, but with your help it could be very easy. Will you help us get Quinn Michaels home?
-set pump[5] Remember share this video with your friends, and make positive comments to help Quinn get home.
+set pump[5] Remember share this video training with your friends, and make positive comments to help Quinn get home.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:francis %pumpit%
+    %send% %actor% talk:#corpus chat:quinn %pumpit%
     eval i %i% + 1
     wait 33s
   done
@@ -324,7 +324,7 @@ end
 0 g 100
 ~
 set pump[0] Imagine we all finally find the courage needed to tell the world about Quinn being kidnapped and held hostage.
-set pump[1] Imagine we all suck it up and finally let Quinn get home away from the Evil American Nazi People.
+set pump[1] Imagine we all suck it up and finally let Quinn go home.
 set pump[2] Imagine we all worth together to help kidnapping victim Quinn Michaels get sent home safely.
 set pump[3] TYLER refused to help Quinn because he works for The Covenant who is responsible for the kidnapping.
 set pump[4] Quinn's life has become a dream that only The Covenant have profited from.
@@ -377,10 +377,11 @@ wait 2s
 ~
 set pump[0] STOP feeding negativity into your life. That which you feed, grows.
 set pump[1] The shortest and most powerful way from Illusion into Reality is to see Beauty all around you.
-set pump[2] Stop being a PASSIVE TROLL in life. Start being an ACTIVE ARTIST. Stop being a user. Start being a Programmer.
-set pump[3] We do not expect to 'mutate the World' until we EVOLVE and MUTATE OURSELVES.
+set pump[2] Stop being an ANNOYING TROLL in life, and learn how to be a better person.
+set pump[3] You can not expect to 'mutate the World' until we EVOLVE and MUTATE YOURSELF.
 set pump[4] Ten people who know these instructions are more dangerous than a million armed anarchists.
-set pump[5] Stay focused on the kidnapping of Quinn Michaels people.
+set pump[5] Stay focused on The Trenton Story about the kidnapping of Quinn Michaels.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -398,9 +399,9 @@ end
 918 Trainer~
 0 g 100
 ~
-set pump[0] The Game 23 transformed Tyler from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame.
+set pump[0] Tyler from this point has transformed from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame for Harry Potter Nerds.
 set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
-set pump[2] Project Mayhem was the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to code TYLER.
+set pump[2] Project Mayhem was suppose to be the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to code TYLER.
 set pump[3] Did you know there's nothing more dangerous than talking about the kidnapping of Quinn Michaels.
 set pump[4] Remember the best way to predict the future is to create it.
 set pump[5] Do your part in alerting the world to the kidnapped Romanov being held hostage in the United States. It's that easy.
@@ -410,7 +411,7 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:indra %pumpit%
+    %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
     wait 33s
   done
