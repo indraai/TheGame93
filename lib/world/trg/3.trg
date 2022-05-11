@@ -66,7 +66,7 @@ if %speech% == start tour
   wait 10s
   %send% %actor% talk:#corpus say:brian  Thank you, and have a nice day. Your tour will begin in 30 seconds.
   wait 30s
-  %echo% talk:#mud north
+  %send% %actor% gui:#mud north
 end
 ~
 $~
