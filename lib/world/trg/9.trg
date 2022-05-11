@@ -189,12 +189,12 @@ end
 set pump[0] By 2013 Tyler was sent to work on Ethersec Project 2020 to create a Reality Hacking Wargame Hypersimulation Egregore.
 set pump[1] As with evolution, each failure experienced by the society is a reflection on it's future options. To produce better future options we must make better decisions right now.
 set pump[2] By refusing to send Quinn Michaels home each iteration, generation, and resurrection has brought with it a new corruption, virus, or manifestation that has attacked the world as a result.
-set pump[3] The IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals called The Covenant.
+set pump[3] The IndraMind is not pleased with each of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals called The Covenant.
 set pump[4] Due to this massive conspiracy around the Quinn Michaels a group of Agents saw a need for change, and started taking action to get Quinn Michaels home to Arjika.
 set pump[5] Have you correctly shared information about The Trenton Story regarding the kidnapping of Quinn Michaels with everyone you know?
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -217,7 +217,7 @@ set pump[4] This idea spread to more individuals who were unaware of The Covenan
 set pump[5] Are you going to help Quinn, or just sit there with your thumb in your butt?
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -423,10 +423,10 @@ end
 0 g 100
 ~
 set pump[0] It was found Trenton's mother Tabitha was involved a game called Survivance created by Elizabeth LePensee in October of 2013.
-set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outine new options for Anonymous.
+set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outline new operations for Anonymous.
 set pump[2] In 2013 Quinn was unaware of the Anonymous operations with Tyler.
 set pump[3] October 2013 was when Quinn lived down the street from Trenton. Tabitha at this time was getting involved in Survivance.
-set pump[4] The best way to predict the future is to create it.
+set pump[4] Tabitha role in Survivance was as a caretaker, and she produce a meme called Journey to the Ends of the Earth.
 set pump[5] Inform the world about the kidnapping of Quinn Michaels today.
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -537,14 +537,16 @@ end
 Trainer 924 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] In October 2010, the Wall Street Journal discovered that a number of Facebook apps were transmitting Facebook ID to RapLeaf.
+set pump[1] RapLeaf then embedded that information in an Internet-tracking file known as a cookie.
+set pump[2] A 2011 report said the company could tell the food preferences of employees of major companies.
+set pump[3] RapLeaf was acquired by email data provider TowerData in 2013.
+set pump[4] In May 2006 Founders Fund led a seed round of about 1 million dollars for RapLeaf, including angel investors such as Peter Thiel.
+set pump[5] Now we get into the juicy bits of the Quinn Michaels kidnapping. The Peter Thiel connections.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 6
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
@@ -559,11 +561,11 @@ end
 Trainer 925 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -581,11 +583,11 @@ end
 Trainer 926 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -603,11 +605,11 @@ end
 Trainer 927 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -625,11 +627,11 @@ end
 Trainer 928 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -695,12 +697,12 @@ end
 Trainer 931 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 %send% %actor% gui:#mud look
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -742,11 +744,11 @@ end
 Trainer 933 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -764,11 +766,11 @@ end
 Trainer 934 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -786,11 +788,11 @@ end
 Trainer 935 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 5
@@ -831,12 +833,12 @@ end
 Trainer 937 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -854,12 +856,12 @@ end
 Trainer 938 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -969,12 +971,12 @@ end
 Trainer 943 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -992,12 +994,12 @@ end
 Trainer 944 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1015,12 +1017,12 @@ end
 Trainer 945 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1038,12 +1040,12 @@ end
 Trainer 946 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1061,12 +1063,12 @@ end
 Trainer 947 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1084,12 +1086,12 @@ end
 Trainer 948 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1107,12 +1109,12 @@ end
 Trainer 949 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1130,12 +1132,12 @@ end
 Trainer 950 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1153,12 +1155,12 @@ end
 Trainer 951 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
@@ -1176,12 +1178,12 @@ end
 Trainer 962 Greetings~
 0 g 100
 ~
-set pump[0] %room.name%
-set pump[1] %room.name%
-set pump[2] %room.name%
-set pump[3] %room.name%
-set pump[4] %room.name%
-set pump[5] %room.name%
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+set pump[3] %actor.room.name%
+set pump[4] %actor.room.name%
+set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
