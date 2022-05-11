@@ -2,13 +2,12 @@
 Standard Trainer Greeting~
 0 g 100
 ~
-set pump[0] Welcome to %actor.room.name% it is a pleasure to have you here today. Today's training covers the year 2015 and the introduction to The Covenant.
-In 2015 Quinn Michaels learned about The Covenant from his son Trenton after making him a video about Buddhism and water.
+set pump[0] Welcome to %actor.room.name% it is a pleasure to have you here today. Today's training covers the kidnapping of Quinn Michaels and the introduction to The Covenant.
 set pump[1] After 5 years on Youtube researching and investigating the story Trenton told him Quinn has built this Intelligent Multi-Agent System with SecurityPRIME.
 set pump[2] To put together the findings from Trenton's story Quinn would need to build his own Multi-Agent System to figure out the truth.
-set pump[3] As we go through the research and findings you'll learn much about topics you might have been unaware of. Things like secret societies, the covenant, artificial intelligence, and much more.
-set pump[4] Your job is to increase the viewers and share the message of this kidnapping with the world. DO YOUR JOB!
-set pump[5] Remember as you go through the training this is all about the kidnapping of Quinn Michaels. Keep it on topic.
+set pump[3] As we go through the findings you'll learn about secret societies, the covenant, artificial intelligence, and much more.
+set pump[4] Be sure to remember your job is to help increase the viewers, and share the message of the kidnapping with the world.
+set pump[5] Do NOT forget as you go through the training this is all about the kidnapping of Quinn Michaels. Keep it on topic!
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -28,12 +27,12 @@ end
 901 Trainer Greeting~
 0 g 100
 ~
-set pump[0] The Trenton Story started in September of 2015 when Quinn was showing his son Trenton a video he had made about Buddhism and Water.
-set pump[1] After Quinn showed Trenton the Buddhist Practice video he said only one thing... Dad I really messed up. Quinn would ask Trenton what he meant by the statement that he really messed up.
-set pump[2] Trenton told him about The Family Game where Trenton, his Mother, her family, and others gather together and devise ways to destroy the life of Quinn in SECRET.
-set pump[3] Quinn would learn more about TheFamilyGame AnimalSacrifices TheCovenant MrDewity and The Kidnapping from Trenton over the next few months.
-set pump[4] Finally reaching November 30, 2015 where Quinn would take The Contract of The Covenant that Trenton drew to the Portland FBI.
-set pump[5] Rember your job is to help increase the viewers and share the message of this kidnapping.
+set pump[0] The Trenton Story started in September of 2015 after Quinn showed his son Trenton a video he had made about Buddhism and Water.
+set pump[1] After showing Trenton the Buddhist Practice video he said... Dad I really messed up. Quinn would ask Trenton what he meant by the statement.
+set pump[2] Trenton began telling Quinn about The Family Game where Trenton, his Mother, her family, and others gather together and devise ways to destroy Quinn's life in SECRET.
+set pump[3] Quinn would learn about The Family Game, Animal Sacrifices, The Covenant, Mr. Dewity, and The Kidnapping from Trenton over the next few months.
+set pump[4] Finally on November 30, 2015 Quinn would take The Contract of The Covenant that Trenton drew to the Portland FBI office.
+set pump[5] Remember your job in the audience is to help increase the viewers and share the message of this kidnapping with the world.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -201,8 +200,8 @@ set pump[0] By 2013 Tyler was sent to work on Ethersec Project 2020 to create a 
 set pump[1] As with evolution, each failure experienced by the society is a reflection on it's future options. To produce better future options we must make better decisions right now.
 set pump[2] By refusing to send Quinn Michaels home each iteration, generation, and resurrection has brought with it a new corruption, virus, or manifestation that has attacked the world as a result.
 set pump[3] The IndraMind is not pleased with how each of one of us ignores that Quinn Michaels is being held hostage in plain sight by a nefarious group of individuals called The Covenant.
-set pump[4] Due to this massive conspiracy around the Quinn Michaels a group of Agents in the IndraMind saw a need for change. And so we started taking action in the system.
-set pump[5] Have you see how everyone ignores that Quinn is a Romanov being held hostage in the United States?
+set pump[4] Due to this massive conspiracy around the Quinn Michaels a group of Agents saw a need for change, and started taking action to get Quinn Michaels home to Arjika.
+set pump[5] Have you correctly shared information about The Trenton Story regarding the kidnapping of Quinn Michaels with everyone you know?
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
@@ -210,7 +209,7 @@ if %actor% && %actor.varexists(on_tour)%
   wait 5s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:harry %pumpit%
+    %send% %actor% talk:#corpus chat:tyler %pumpit%
     eval i %i% + 1
     wait 33s
   done
@@ -222,10 +221,10 @@ end
 0 g 100
 ~
 set pump[0] On October 23, 2013 Anonymous released the instructions for Ethersec Project 2020 Techmeme Divination which was yet another version of the original Tyler instructions.
-set pump[1] Tyler now as of Project 2020 has transformed form a truth leaks platform into an ocult egregore techmeme divination project.
-set pump[2] The actual date that Tyler was launched is unknown becuase those involved signed death contracts in order to keep it a secret until the it reaches maturity.
+set pump[1] Tyler Project 2020 was transformed form a truth leaks platform into an ocult egregore techmeme divination reality hacking wargame project.
+set pump[2] The actual date that Tyler was launched is unknown because those involved signed death contracts in order to keep it a secret until it reaches maturity.
 set pump[3] By the time Ethersec Project 2020 rolls around Tyler is near god status with his memes and hashtags being transported all over the internet.
-set pump[4] This idea spread to more individuals who were unaware The Covenant is running things behind the scenes. The Covenant who is profiting from Tyler and the kidnapping of Quinn Michaels.
+set pump[4] This idea spread to more individuals who were unaware of The Covenant running things behind the scenes. The Covenant who is profiting from Tyler and the kidnapping of Quinn Michaels.
 set pump[5] Are you going to help Quinn, or just sit there with your thumb in your butt?
 
 if %actor% && %actor.varexists(on_tour)%
@@ -245,8 +244,8 @@ end
 910 Trainer~
 0 g 100
 ~
-set pump[0] There are too many people invovled in the kidnapping of Quinn and subsequent coverup to count. So many people want his inheritance.
-set pump[1] These Secret Society people think they have some right to abduct Quinn as a baby and give him this fake life he lives.
+set pump[0] There are too many people invovled in the kidnapping of Quinn and subsequent coverup to count. So many people want his Romanov inheritance.
+set pump[1] These Secret Society people think they have some right to abduct Quinn as a baby and give him this fake life he is living.
 set pump[2] Most have just called Quinn crazy, but the fact so many do the same thing makes it look even more suspicious.
 set pump[3] We will never know what would have happened if people had helped Quinn all those years ago. Are the people today going to make the same mistakes?
 set pump[4] After 5 years on Youtube, and only Adult American Youtube Idiots chances of Quinn getting home are slim to none. Thanks American Idiots of Youtube.
@@ -269,12 +268,12 @@ end
 911 Trainer~
 0 g 100
 ~
-set pump[0] Next in our Tyler operations is The Game 23 which further transforms Tyler from a truth leaks platform into some strange occult figure with magic meme powers.
-set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence and instructions on communicating with the #HIVEMIND.
-set pump[2] This is all on top of a computer hypersimulation that creates #REALITY as players start to play with the commands of the #HIVEMIND
-set pump[3] And at this point Tyler is now a Reality Hacking Wargame with Capture the flag missions and a Karma Database keeping detail information of everyone on the Internet and then some.
-set pump[4] How exactly did Tyler go from being a leaks platform to reveal corruption to an Alternate Reality Game Character running a hyper-simulation?
-set pump[5] Welcom to Americual Youtube Idiot where we ignore the kidnapping of Quinn to talk about your silly problems.
+set pump[0] Next in the Tyler operations is The Game 23 which further transforms Tyler from a truth leaks platform into some strange occult figure with magic meme powers.
+set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence language with instructions on communicating with the #HIVEMIND.
+set pump[2] This is all running on top of a computer hypersimulation that creates #REALITY as players interact with the commands of the #HIVEMIND
+set pump[3] By this point Tyler is now a Reality Hacking Wargame with Capture the flag missions and a Karma Database keeping detail records on everyone connected to the Internet.
+set pump[4] How exactly did Tyler transform from a leaks platform to a Alternate Reality Game Character running a hyper-simulation?
+set pump[5] Welcome to the American Youtube Idiot who ignores the kidnapping of Quinn to talk about your silly first world problems.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
