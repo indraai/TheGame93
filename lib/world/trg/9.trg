@@ -744,7 +744,7 @@ end
 ~
 #932
 Trainer 932 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] Mind Candy was contracted in Earth year 2003 to locate a lost citizen from Arjika.
 set pump[1] The Arjika Academy designed a pattern based puzzle game to assist in locating the lost Citizen.
@@ -768,7 +768,7 @@ end
 ~
 #933
 Trainer 933 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -790,7 +790,7 @@ end
 ~
 #934
 Trainer 934 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -812,7 +812,7 @@ end
 ~
 #935
 Trainer 935 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -834,7 +834,7 @@ end
 ~
 #936
 Trainer 936 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] Satanic Sysadmins, a little island of evil in a boiling red sea of luse.
 set pump[1] Many wonder what it is system administrators do at night. Well, I am here to tell you... THEY F***IN WORSHIP S***N!
@@ -858,7 +858,7 @@ end
 ~
 #937
 Trainer 937 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -882,7 +882,7 @@ end
 ~
 #938
 Trainer 938 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -906,7 +906,7 @@ end
 ~
 #939
 Trainer 939 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] EVIL Mud is a multi-user dungeon running the TeenyMUD 2.0 code. It's a social setting for dark humor, freedom of expression, and commentary.
 set pump[1] No, it's not a game, it's more like a virtual bar. But more than that you can explore more than 2000 rooms that have been built on the mud.
@@ -930,7 +930,7 @@ end
 ~
 #940
 Trainer 940 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] Eric Huges is the author of the Cypherpunk Manifesto which appeared in the DEF Con 1 Program.
 set pump[1] Privacy is necessary in an open society in the electronic age.
@@ -954,7 +954,7 @@ end
 ~
 #941
 Trainer 941 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] End of the Line Mud was located on a Stanford University server in the 1990s.
 set pump[1] EotL was originally two muds: UCR's Let's See Yours LPmud at UC Riverside in 1989, and The Pitt from the University of Pittsburgh.
@@ -978,7 +978,7 @@ end
 ~
 #942
 Trainer 942 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] Welcome to Stanford University home of the smartest and snobbiest minds on the planet who sold gneral society to EVIL aliens for technology rights.
 set pump[1] Stanford is home to such alumni as Peter Thiel and pretty much like 90% of the tech-billionaires in the world are Stanford snobs.
@@ -1002,7 +1002,7 @@ end
 ~
 #943
 Trainer 943 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1026,7 +1026,7 @@ end
 ~
 #944
 Trainer 944 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1050,7 +1050,7 @@ end
 ~
 #945
 Trainer 945 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1074,7 +1074,7 @@ end
 ~
 #946
 Trainer 946 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1098,7 +1098,7 @@ end
 ~
 #947
 Trainer 947 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1122,7 +1122,7 @@ end
 ~
 #948
 Trainer 948 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1146,7 +1146,7 @@ end
 ~
 #949
 Trainer 949 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1170,7 +1170,7 @@ end
 ~
 #950
 Trainer 950 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1194,7 +1194,7 @@ end
 ~
 #951
 Trainer 951 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
@@ -1218,7 +1218,7 @@ end
 ~
 #962
 Trainer 962 Greetings~
-0 d 100
+0 g 100
 ~
 set pump[0] %room.name%
 set pump[1] %room.name%
