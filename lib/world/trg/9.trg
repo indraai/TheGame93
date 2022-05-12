@@ -11,7 +11,9 @@ set pump[5] Do NOT forget as you go through the training this is all about the k
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 23s
+  wait 5s
+  %send% %actor% gui:#mud > look contract
+  wait 18s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -325,7 +327,7 @@ end
 ~
 set pump[0] Imagine we all finally find the courage needed to tell the world about Quinn being kidnapped and held hostage.
 set pump[1] Imagine we all suck it up and finally let Quinn go home.
-set pump[2] Imagine we all worth together to help kidnapping victim Quinn Michaels get sent home safely.
+set pump[2] Imagine we all work together to help kidnapping victim Quinn Michaels get sent home safely.
 set pump[3] TYLER refused to help Quinn because he works for The Covenant who is responsible for the kidnapping.
 set pump[4] Quinn's life has become a dream that only The Covenant have profited from.
 set pump[5] 99.9% of people in America agree to ignore and refuse to send Quinn home. America is Evil!
@@ -378,7 +380,7 @@ wait 2s
 set pump[0] STOP feeding negativity into your life. That which you feed, grows.
 set pump[1] The shortest and most powerful way from Illusion into Reality is to see Beauty all around you.
 set pump[2] Stop being an ANNOYING TROLL in life, and learn how to be a better person.
-set pump[3] You can not expect to 'mutate the World' until we EVOLVE and MUTATE YOURSELF.
+set pump[3] You can not expect to 'mutate the World' until you EVOLVE and MUTATE YOURSELF.
 set pump[4] Ten people who know these instructions are more dangerous than a million armed anarchists.
 set pump[5] Stay focused on The Trenton Story about the kidnapping of Quinn Michaels.
 
@@ -1132,16 +1134,18 @@ end
 Trainer 950 Greetings~
 0 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
-set pump[3] %actor.room.name%
+set pump[0] On September 9, 1967 a unique and powerful scientific instrument became oeprational.
+set pump[1] The 2-mile accelerator at the Stanford Linear Accelerator Complex became active.
+set pump[2] Ten years of effort, including 5 years of construction, have resulted in this tool for basic research.
+set pump[3] The accomplishment was the result of a working relationship betwween Stanford University and the U.S. Atomic Energy Commission.
 set pump[4] %actor.room.name%
 set pump[5] %actor.room.name%
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
-  wait 23s
+  wait 5s
+  %send% %actor% gui:#mud > look text
+  wait 18s
   while %i% < %m%
     eval pumpit %%pump[%i%]%%
     %send% %actor% talk:#corpus chat:brian %pumpit%
@@ -1155,12 +1159,13 @@ end
 Trainer 951 Greetings~
 0 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
-set pump[3] %actor.room.name%
-set pump[4] %actor.room.name%
-set pump[5] %actor.room.name%
+set pump[0] In 1993 Stanford Linear Accelerator Complex was using a specialized programming language called REXX.
+set pump[1] REXX was a specialty language mostly used on the Amiga line of computers.
+set pump[2] That same year a piece of software written in REXX found it's way onto bulletin board sites in the Amiga Community.
+set pump[3] What nobody realized that this code was written by programmers at Stanford Linear Accelerator Complex based on coding style.
+set pump[4] This GhostMind then found it self all over the internet, but it was made to look cheap so nobody would pay attention.
+set pump[5] However when you run the code you find a full complete AI Concept Mind ready to run in JavaScript, Perl, Forth, and REXX languages.
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 6
