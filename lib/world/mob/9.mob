@@ -23,15 +23,15 @@ Trainer 901~
 E
 T 901
 #902
-trainer training agent 902 cicada3301~
-Trainer 902~
+trainer training agent 902 cicada3301 defango~
+Defango 902~
 0902/main:avatar~
 0902/main:look
 ~
-78 0 0 0 0 0 0 0 -100 E
+78 0 0 0 0 0 0 0 -113 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 0 0
+8 8 1 0
 E
 T 902
 #903
@@ -433,14 +433,14 @@ SavingSpell: 1
 E
 T 929
 #930
-trainer training 930 sente kiteway~
-Sente 930~
+trainer training 930 hypatia~
+St. Hypatia 930~
 930/main:avatar~
 930/main:look~
 78 0 0 0 8 0 0 0 -175 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0 0
+8 8 2 0
 E
 T 930
 #931
@@ -460,11 +460,11 @@ SavingSpell: 1
 E
 T 931
 #932
-trainer training 932 brian enigma~
-Enigma 932~
+trainer training 932 sasha lucifer~
+Sasha 932~
 932/main:avatar~
 932/main:look~
-78 0 0 0 0 0 0 0 -133 E
+78 0 0 0 0 0 0 0 233 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -492,14 +492,14 @@ SavingSpell: 1
 E
 T 933
 #934
-trainer training 0934 cyrus quinton v~
-Cyrus 934~
+trainer training 0934 cyberman~
+Cyberman 934~
 934/main:avatar~
 934/main:look~
 78 0 0 0 0 0 0 0 -275 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 0 4
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
