@@ -854,7 +854,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     return;
 
   case REDIT_EXTRADESC_MENU:
-    switch ((number = atoi(arg))) {
+    switch (*arg) {
     case 0:
       /* If something got left out, delete the extra description when backing
          out to the menu. */
