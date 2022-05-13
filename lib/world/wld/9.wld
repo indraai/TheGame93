@@ -36,6 +36,10 @@ D2
 ~
 ~
 0 0 903
+E
+agents~
+0902/main:agents
+~
 S
 #903
 Project Mayhem 2012~
@@ -356,16 +360,16 @@ D1
 ~
 ~
 0 0 930
+E
+pdf~
+0929/main:pdf
+~
 S
 #930
-Perplex City~
+Church of Virus~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
-D1
-~
-~
-0 0 931
 D2
 ~
 ~
@@ -382,15 +386,11 @@ D3
 0 0 930
 S
 #932
-Mind Candy~
+Lucifer.com~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
 D2
-~
-~
-0 0 933
-D3
 ~
 ~
 0 0 934
@@ -406,11 +406,15 @@ D3
 0 0 935
 S
 #934
-The Third Power~
+The Beyond~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
 D2
+~
+~
+0 0 944
+D3
 ~
 ~
 0 0 935
@@ -505,16 +509,16 @@ D3
 ~
 0 0 949
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 #942
@@ -532,24 +536,20 @@ DefCon 1~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
-D0
-~
-~
-0 0 944
 D1
 ~
 ~
 0 0 945
-D7
-~
-~
-0 0 962
 S
 #944
 SATAN~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D2
+~
+~
+0 0 943
 D3
 ~
 ~

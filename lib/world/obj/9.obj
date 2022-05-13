@@ -174,19 +174,6 @@ E
 text~
 talk:#adv object:thegame 0930/main:text
 ~
-#932
-perplex city datalink internet router~
-Perplex City Datalink~
-0932/main:avatar~
-0932/main:look
-~
-12 gk 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0
-0 0 0 0 0
-E
-text~
-talk:#adv object:thegame 0932/main:text
-~
 #940
 text cypherpunk manifesto~
 Cypherpunk Manifesto~
