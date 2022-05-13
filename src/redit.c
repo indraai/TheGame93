@@ -319,9 +319,9 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Tags"
-	  "\nselect[1:keywords]:%s"
-	  "\nselect[2:description]:%s"
-    "\nmenu[next tag]:3"
+	  "\nselect[a:keywords]:%s"
+	  "\nselect[b:description]:%s"
+    "\nmenu[next tag]:1"
     "\nmenu[done]:0",
 	  extra_desc->keyword ? extra_desc->keyword : "[none]",
     extra_desc->description ? extra_desc->description : "[none]"
@@ -873,12 +873,12 @@ void redit_parse(struct descriptor_data *d, char *arg)
       }
       break;
 
-    case 1:
+    case "a":
       OLC_MODE(d) = REDIT_EXTRADESC_KEY;
       write_to_output(d, "\nEnter keywords...\r");
       return;
 
-    case 2:
+    case "b":
       OLC_MODE(d) = REDIT_EXTRADESC_DESCRIPTION;
       send_editor_help(d);
       write_to_output(d, "\nEnter extra description...\r");
@@ -889,7 +889,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       string_write(d, &OLC_DESC(d)->description, MAX_MESSAGE_LENGTH, 0, oldtext);
       return;
 
-    case 3:
+    case 1:
       // setting to complete without a description becasue the system will put those in later.
       // if (OLC_DESC(d)->keyword == NULL || OLC_DESC(d)->description == NULL) {
       if (OLC_DESC(d)->keyword == NULL) {
