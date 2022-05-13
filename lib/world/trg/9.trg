@@ -75,8 +75,8 @@ end
 903 Trainer~
 0 g 100
 ~
-set pump[0] In 2017 Quinn found Tyler instructions on pastebin while digging into The Trenton Story which leads to the S.V.V Cicada3301 Anonymous Group.
-set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story must also be real.
+set pump[0] In 2017 Quinn found Tyler instructions on pastebin would lead him to find the S.V.V Cicada3301 Anonymous Group.
+set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story was real.
 set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system, so that meant the kidnapping was TRUE minus the correct details.
 
 if %actor% && %actor.varexists(on_tour)%
@@ -987,9 +987,9 @@ end
 Trainer 942 Greetings~
 0 g 100
 ~
-set pump[0] Welcome to Stanford University home of the smartest and snobbiest minds on the planet who sold gneral society to EVIL aliens for technology rights.
-set pump[1] Stanford is home to such alumni as Peter Thiel and pretty much like 90% of the tech-billionaires in the world are Stanford snobs.
-set pump[2] The Stanford campus is home to Stanford Linear Accelerator which is one of the first agreements made with evil aliens for happy meals.
+set pump[0] Welcome to Stanford University home of the snobbiest minds on Earth who sold society to EVIL aliens for technology.
+set pump[1] Did you know ike 90% of the tech-a-holes in the world are Stanford snobs.
+set pump[2] The Stanford Linear Accelerator which is one place where deals were made with evil aliens for happy meals.
 
 if %actor% && %actor.varexists(on_tour)%
   set i 0
