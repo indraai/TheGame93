@@ -735,7 +735,6 @@ set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
 set pump[2] %actor.room.name%
 
-%send% %actor% gui:#mud look
 if %actor% && %actor.varexists(on_tour)%
   set i 0
   set m 3
