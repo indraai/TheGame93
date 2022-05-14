@@ -228,14 +228,14 @@ SavingSpell: 8
 E
 T 915
 #916
-izar sunaria alien trainer training agent 916~
-Izar 916~
+trainer training agent 916 robert david steele steeler~
+Steeler 916~
 916/main:avatar~
 916/main:look~
 78 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
-6 6 0 1
+6 6 1 0
 E
 T 916
 #917
@@ -444,14 +444,14 @@ St. Hypatia 930~
 E
 T 930
 #931
-trainer training 931 scarlett kiteway~
+trainer training 931 jerome corsi~
 Scarlett 931~
 931/main:avatar~
 931/main:look~
 78 0 0 0 0 0 0 0 250 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 2 0
+8 8 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -476,8 +476,8 @@ SavingSpell: 1
 E
 T 932
 #933
-trainer training 933 v sanfran~
-V 933~
+trainer training 933 lionel agent~
+Lionel 933~
 933/main:avatar~
 933/main:look~
 78 0 0 0 0 0 0 0 -133 E
