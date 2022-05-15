@@ -320,7 +320,7 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\nselect[1:tag]:%s\r"
 	  "\nselect[2:path]:%s\r"
     "::begin:buttons"
-	  "\nmenu[%s]:3\r"
+	  "\nbmud[%s]:3\r"
     "::end:buttons"
 	  "\nmenu[done]:0\r",
 
