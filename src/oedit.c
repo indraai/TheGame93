@@ -1225,7 +1225,6 @@ void oedit_parse(struct descriptor_data *d, char *arg)
           OLC_DESC(d) = OLC_DESC(d)->next;
         }
       }
-      break;
       /* No break - drop into default case. */
     default:
       oedit_disp_extradesc_menu(d);
