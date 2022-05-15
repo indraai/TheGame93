@@ -235,7 +235,7 @@ Steeler 916~
 78 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
-6 6 1 0
+6 6 1 1
 E
 T 916
 #917
@@ -867,5 +867,65 @@ SavingRod: 3
 SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
+E
+#962
+trainer training 962 agent jason goodman crowdsource~
+Jason Goodman~
+962/main:avatar~
+962/main:look~
+78 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
+#963
+trainer training 963 agent larry klayman~
+Larry 963~
+963/main:avatar~
+963/main:look~
+78 0 0 0 0 0 0 0 -500 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#964
+trainer training agent 964 laura loomer~
+Laura 964~
+964/main:avatar~
+964/main:look~
+78 0 0 0 0 0 0 0 -250 E
+4 20 10 1d1+0 1d1+0
+0 0
+8 8 2 0
+E
+#965
+trainer training agent 965 alex jones~
+Alex 965~
+965/main:avatar~
+965/main:look~
+78 0 0 0 0 0 0 0 -250 E
+5 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
+#966
+trainer training 966 vladimir putin~
+Putin 966~
+966/main:avatar~
+966/main:look~
+78 0 0 0 0 0 0 0 -1000 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 $

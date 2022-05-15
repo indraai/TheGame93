@@ -32,6 +32,10 @@ S
 Cicada3301~
 [DESCRIBE]~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 916
 D2
 ~
 ~
@@ -198,6 +202,32 @@ D9
 ~
 0 0 901
 S
+#916
+Robert Steele~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 933
+D1
+~
+~
+0 0 962
+D2
+~
+~
+0 0 945
+D6
+~
+~
+0 0 -1
+D7
+~
+~
+0 0 931
+S
 #917
 Dangerous Ideas~
 You are in an unfinished room.
@@ -361,6 +391,16 @@ D2
 ~
 0 0 932
 S
+#931
+Jerome Corsi~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 965
+S
 #932
 Lucifer.com~
 You are in an unfinished room.
@@ -370,6 +410,24 @@ D2
 ~
 ~
 0 0 934
+S
+#933
+Lionel Nation~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 931
+D7
+~
+~
+0 0 965
+D8
+~
+~
+0 0 -1
 S
 #934
 The Beyond~
@@ -475,16 +533,16 @@ D3
 ~
 0 0 949
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 #942
@@ -501,11 +559,15 @@ S
 DefCon 1~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D1
 ~
 ~
 0 0 945
+E
+deathstar~
+0943/main:deathstar
+~
 S
 #944
 SATAN~
@@ -526,6 +588,10 @@ HOPE Conference~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 916
 D1
 ~
 ~
@@ -858,5 +924,84 @@ D6
 ~
 ~
 1 0 959
+S
+#962
+Crowdsource the Truth~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 931
+D1
+~
+~
+0 0 963
+D6
+~
+~
+0 0 933
+D7
+~
+~
+0 0 964
+S
+#963
+Larry Klayman~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 964
+D6
+~
+~
+0 0 931
+S
+#964
+Laura Loomer~
+0964/main:look
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 931
+D6
+~
+~
+0 0 965
+S
+#965
+InfoWars~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 966
+S
+#966
+The Kremlin~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 967
+S
+#967
+Tuva National Museum~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D2
+~
+~
+0 0 927
 S
 $~
