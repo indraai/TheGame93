@@ -319,12 +319,14 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
 	  "\n## Tags\r"
 	  "\nselect[1:tag]:%s\r"
 	  "\nselect[2:path]:%s\r"
-	  "\nselect[3:next desc]:%s\r"
+    "::begin:buttons"
+	  "\nmenu[%s]:3\r"
+    "::end:buttons"
 	  "\nmenu[done]:0\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "[none]",
     (extra_desc->description && *extra_desc->description) ? extra_desc->description : "[none]",
-	  !extra_desc->next ? "not set..." : "set...");
+	  !extra_desc->next ? "new tag" : "next tag");
   OLC_MODE(d) = OEDIT_EXTRADESC_MENU;
 }
 
