@@ -275,10 +275,6 @@ D1
 ~
 ~
 0 0 962
-D2
-~
-~
-0 0 945
 D6
 ~
 ~
@@ -613,16 +609,16 @@ D3
 ~
 0 0 949
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 #942
@@ -1077,10 +1073,6 @@ D1
 ~
 ~
 0 0 969
-D3
-~
-~
-0 0 967
 D7
 ~
 ~
@@ -1104,30 +1096,48 @@ S
 Saint Petersburg University~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D2
 ~
 ~
-0 0 966
+0 0 969
+D8
+~
+~
+0 0 971
 S
 #969
-KGB~
+The KGB~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
-D9
+9 8 0 0 0 0
+D1
 ~
 ~
-0 0 966
+0 0 971
+D2
+~
+~
+0 0 970
+D3
+~
+~
+0 0 -1
 S
 #970
 Orthodox Church~
 You are in an unfinished room.
 ~
+9 8 0 0 0 0
+D7
+~
+~
+0 0 971
+S
+#971
+The Romanov~
+You are in an unfinished room.
+~
 9 0 0 0 0 0
-D3
-~
-~
-0 0 966
 S
 $~
