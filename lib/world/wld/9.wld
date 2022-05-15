@@ -40,6 +40,14 @@ D2
 ~
 ~
 0 0 903
+D8
+~
+~
+0 0 929
+D9
+~
+~
+0 0 904
 E
 agents~
 0902/main:agents
@@ -61,6 +69,10 @@ D3
 ~
 ~
 0 0 904
+D9
+~
+~
+0 0 918
 S
 #904
 PM2012 Revelations~
@@ -83,6 +95,10 @@ D3
 ~
 ~
 0 0 908
+D6
+~
+~
+0 0 910
 S
 #906
 IT~
@@ -119,6 +135,18 @@ D3
 ~
 ~
 0 0 909
+D6
+~
+~
+0 0 911
+D7
+~
+~
+0 0 906
+D9
+~
+~
+0 0 919
 S
 #909
 Project Mayhem 2020~
@@ -133,6 +161,10 @@ D2
 ~
 ~
 0 0 919
+D7
+~
+~
+0 0 910
 S
 #910
 Project Mayhem 2020~
@@ -143,6 +175,10 @@ D1
 ~
 ~
 0 0 906
+D7
+~
+~
+0 0 907
 S
 #911
 TheGame23~
@@ -167,6 +203,10 @@ D2
 ~
 ~
 0 0 901
+D3
+~
+~
+0 0 928
 S
 #913
 Call to HackZION~
@@ -181,6 +221,18 @@ D3
 ~
 ~
 0 0 918
+D6
+~
+~
+0 0 904
+D8
+~
+~
+0 0 935
+D9
+~
+~
+0 0 917
 S
 #914
 PM2012 - Call To Action~
@@ -191,12 +243,20 @@ D3
 ~
 ~
 0 0 917
+D6
+~
+~
+0 0 918
 S
 #915
 Training Room 915~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
+D8
+~
+~
+0 0 916
 D9
 ~
 ~
@@ -247,6 +307,10 @@ D0
 ~
 ~
 0 0 904
+D6
+~
+~
+0 0 905
 S
 #919
 Survivance~
@@ -376,6 +440,14 @@ D1
 ~
 ~
 0 0 930
+D8
+~
+~
+0 0 932
+D9
+~
+~
+0 0 913
 E
 pdf~
 0929/main:pdf
@@ -410,6 +482,10 @@ D2
 ~
 ~
 0 0 934
+D9
+~
+~
+0 0 935
 S
 #933
 Lionel Nation~
@@ -533,16 +609,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 #942
@@ -989,19 +1065,61 @@ The Kremlin~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 969
 D3
 ~
 ~
 0 0 967
+D7
+~
+~
+0 0 968
+D8
+~
+~
+0 0 970
 S
 #967
-Tuva National Museum~
+Russian Botnet~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 927
+S
+#968
+Saint Petersburg University~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
 D2
 ~
 ~
-0 0 927
+0 0 966
+S
+#969
+KGB~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D9
+~
+~
+0 0 966
+S
+#970
+Orthodox Church~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D3
+~
+~
+0 0 966
 S
 $~
