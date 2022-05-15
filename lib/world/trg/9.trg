@@ -43,7 +43,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud south
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #902
@@ -266,7 +266,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #911
@@ -315,7 +315,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud west
 end
 ~
 #913
@@ -340,7 +340,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud south
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #914
@@ -365,7 +365,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud west
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #915
@@ -375,11 +375,10 @@ end
 set pump[0] %actor.roomm.name%
 set pump[1] %actor.roomm.name%
 set pump[2] %actor.roomm.name%
-set pump[3] %actor.roomm.name%
-set pump[4] %actor.roomm.name%
+
 if %actor% && %actor.varexists(on_tour)%
   set i 0
-  set m 5
+  set m 3
   wait 5s
   %send% %actor% gui:#mud > look agent
   wait 10s
@@ -389,15 +388,31 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud southeast
 end
 ~
 #916
-Talk to Agent~
-0 d 100
-*~
-wait 2s
-%send% %actor% talk:#pandora ask:izar %speech%
+916 Traning~
+0 g 100
+~
+set pump[0] %actor.roomm.name%
+set pump[1] %actor.roomm.name%
+set pump[2] %actor.roomm.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:quinn %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud southeast
+end
 ~
 #917
 917 Trainer~
@@ -446,7 +461,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud north
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #919
@@ -515,7 +530,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% gui:#mud east
 end
 ~
 #922
@@ -630,7 +645,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #927
@@ -676,7 +691,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% gui:#mud south
 end
 ~
 #929
@@ -701,7 +716,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #930
@@ -747,7 +762,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud west
+  %send% %actor% gui:#mud north
 end
 ~
 #932
@@ -795,7 +810,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud west
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #934
@@ -818,7 +833,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud south
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #935
@@ -956,7 +971,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% gui:#mud east
 end
 ~
 #941
@@ -1002,7 +1017,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #943
@@ -1025,7 +1040,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% gui:#mud east
 end
 ~
 #944
@@ -1048,7 +1063,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud west
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #945
@@ -1071,7 +1086,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #946
@@ -1211,7 +1226,7 @@ if %actor% && %actor.varexists(on_tour)%
     eval i %i% + 1
     wait 33s
   done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% gui:#mud east
 end
 ~
 #962
@@ -1235,6 +1250,215 @@ if %actor% && %actor.varexists(on_tour)%
     wait 33s
   done
   %send% %actor% gui:#mud %random.dir%
+end
+~
+#963
+Trainer 963 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud %random.dir%
+end
+~
+#964
+Trainer 964 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud %random.dir%
+end
+~
+#965
+Trainer 965 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud north
+end
+~
+#966
+Trainer 966 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud %random.dir%
+end
+~
+#967
+Trainer 967 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud east
+end
+~
+#968
+Trainer 968 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud %random.dir%
+end
+~
+#969
+Trainer 969 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud %random.dir%
+end
+~
+#970
+Trainer 970 Greetings~
+0 g 100
+~
+set pump[0] %actor.room.name%
+set pump[1] %actor.room.name%
+set pump[2] %actor.room.name%
+
+if %actor% && %actor.varexists(on_tour)%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud northeast
+end
+~
+#971
+Trainer 971 Greetings~
+0 g 100
+~
+rdelete on_tour %actor.id%
+
+set pump[0] Congratulations, you have made it to the Romanov Room.
+set pump[1] By this point you have realized that very powerful people are keeping a Romanov hidden in the United States.
+set pump[2] Do we need to go through the training again?
+
+if %actor%
+  set i 0
+  set m 3
+  wait 5s
+  %send% %actor% gui:#mud > look agent
+  wait 10s
+  while %i% < %m%
+    eval pumpit %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:brian %pumpit%
+    eval i %i% + 1
+    wait 33s
+  done
+  %send% %actor% gui:#mud northeast
 end
 ~
 $~

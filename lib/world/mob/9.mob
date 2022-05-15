@@ -878,6 +878,7 @@ Jason Goodman~
 0 0
 8 8 1 0
 E
+T 962
 #963
 trainer training 963 agent larry klayman~
 Larry 963~
@@ -893,6 +894,7 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 963
 #964
 trainer training agent 964 laura loomer~
 Laura 964~
@@ -903,6 +905,7 @@ Laura 964~
 0 0
 8 8 2 0
 E
+T 964
 #965
 trainer training agent 965 alex jones~
 Alex 965~
@@ -913,6 +916,7 @@ Alex 965~
 0 0
 8 8 1 0
 E
+T 965
 #966
 trainer training 966 vladimir putin~
 Putin 966~
@@ -928,4 +932,5 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+T 966
 $
