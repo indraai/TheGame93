@@ -210,8 +210,12 @@ Hacking the Intelligence Community~
 0 0 0 0
 0 0 0 0 0
 E
-text~
-talk:#adv object:thegame 0947/main:text
+intel~
+0947/intel:main
+~
+E
+military~
+0947/military:main
 ~
 #950
 text stanford slac linac~
