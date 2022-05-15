@@ -539,9 +539,11 @@ static void zedit_disp_menu(struct descriptor_data *d)
   }
   /* Finish off menu */
    write_to_output(d,
-	  "\nmenu[New Action]:1\r"
-	  "\nmenu[Edit Action]:2\r"
-	  "\nmenu[Delete Action]:3\r"
+    "\n::begin:buttons\r"
+	  "\nbmud[New Action]:1\r"
+	  "\nbmud[Edit Action]:2\r"
+	  "\nbmud[Delete Action]:3\r"
+    "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
@@ -553,10 +555,10 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d,
-  "\n## Command Type\r"
+  "\n## Action Type\r"
   "\nmenu[Load Agent]:m\r"
-  "\nmenu[Equip Agent]:e\r"
-  "\nmenu[Give Agent]:g"
+  "\nmenu[Equip Agent Object]:e\r"
+  "\nmenu[Give Agent Object]:g"
   "\nmenu[Load Object]:o\r"
   "\nmenu[Load Object in Object]:p\r"
   "\nmenu[Remove Object]:r\r"
@@ -593,7 +595,7 @@ static void zedit_disp_arg1(struct descriptor_data *d)
     break;
   case 'T':
   case 'V':
-    write_to_output(d, "\nTrigger Type\r"
+    write_to_output(d, "\n## Trigger Type\r"
       "\nmenu[Agent]:0\r"
       "\nmenu[Object]:1\r"
       "\nmenu[Room]:2\r"
@@ -845,12 +847,12 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     case '2':
       /* Change an entry. */
-      write_to_output(d, "\nChange which command??\r");
+      write_to_output(d, "\nChange which action??\r");
       OLC_MODE(d) = ZEDIT_CHANGE_ENTRY;
       break;
     case '3':
       /* Delete an entry. */
-      write_to_output(d, "\nDelete which command?\r");
+      write_to_output(d, "\nDelete which action?\r");
       OLC_MODE(d) = ZEDIT_DELETE_ENTRY;
       break;
     default:
