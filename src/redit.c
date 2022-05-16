@@ -527,8 +527,8 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n::begin:buttons\r"
-      "\nbmud[triggers%s]:1\r"
-      "\nbmud[tags]:2\r"
+      "\nbmud[tags]:1\r"
+      "\nbmud[triggers%s]:2\r"
       "\nbmud[copy room]:3\r"
       "\nbmud[delete room]:4\r"
       "\n::end:buttons\r"
@@ -660,17 +660,18 @@ void redit_parse(struct descriptor_data *d, char *arg)
       }
       break;
     case '1':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
-      return;
-
-    case '2':
       /* If the extra tags doesn't exist. */
       if (!OLC_ROOM(d)->ex_description)
 	CREATE(OLC_ROOM(d)->ex_description, struct extra_descr_data, 1);
       OLC_DESC(d) = OLC_ROOM(d)->ex_description;
       redit_disp_extradesc_menu(d);
       break;
+
+    case '2':
+      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+      dg_script_menu(d);
+      return;
+
     case '3':
       write_to_output(d, "\nalert: Copy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
