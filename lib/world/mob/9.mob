@@ -15,12 +15,11 @@ Trainer 901~
 901/main:avatar~
 0901/main:look
 ~
-78 0 0 0 0 0 0 0 -100 E
+76 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 0 0
 E
-T 901
 #902
 trainer training agent 902 cicada3301 defango~
 Defango 902~

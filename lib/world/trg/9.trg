@@ -24,7 +24,7 @@ end
 ~
 #901
 901 Trainer Greeting~
-0 g 100
+2 g 100
 ~
 set pump[0] The Trenton Story started in September of 2015 after Quinn showed his son Trenton a video he had made about Buddhism and Water.
 set pump[1] After showing Trenton the Buddhist video he would say... Dad I really messed up, and begin telling Quinn about The Family Game.
