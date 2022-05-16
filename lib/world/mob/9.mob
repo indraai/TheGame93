@@ -102,23 +102,22 @@ trainer training agent 908 tyler ethersec~
 Tyler 908~
 908/main:avatar~
 908/main:look~
-78 0 0 0 8 0 0 0 -210 E
+76 0 0 0 0 0 0 0 -210 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 908
 #909
 trainer training agent 909 THErSEC ethersec tyler~
 Tyler 909~
 909/main:avatar~
 909/main:look~
-78 0 0 0 0 0 0 0 -231 E
+76 0 0 0 0 0 0 0 -231 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -128,13 +127,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 909
 #910
-trainer training agent 910 tyler project300~
-Tyler 910~
+trainer training agent 910 tyler pm2020~
+PM2020 910~
 910/main:avatar~
 910/main:look~
-78 0 0 0 0 0 0 0 -211 E
+76 0 0 0 0 0 0 0 -211 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -144,13 +142,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 910
 #911
 trainer training agent 911 tyler tg23 thegame23~
 Tyler 911~
 911/main:avatar~
 911/main:look~
-78 0 0 0 0 0 0 0 -218 E
+76 0 0 0 0 0 0 0 -218 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -160,7 +157,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 911
 #912
 ajahn sudanto trainer training agent 912 monk buddhist~
 Ajahn 912~
@@ -188,12 +184,11 @@ trainer training agent 914 code tyler~
 Tyler 914~
 914/main:avatar~
 914/main:look~
-78 0 0 0 0 0 0 0 -188 E
+76 0 0 0 0 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
 E
-T 914
 #915
 trainer training agent 915 fbi~
 FBI 915~
@@ -202,7 +197,7 @@ FBI 915~
 76 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 0
+8 8 1 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -224,30 +219,28 @@ Steeler 916~
 76 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
-6 6 1 0
+6 6 1 1
 E
 #917
 trainer training agent 917 pm2012~
 Tyler 917~
 917/main:avatar~
 917/main:look~
-78 0 0 0 0 0 0 0 -111 E
+76 0 0 0 0 0 0 0 -111 E
 3 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1
 E
-T 917
 #918
 trainer training agent 918 tyler mayhem~
 Tyler 918~
 918/main:avatar~
 918/main:look~
-78 0 0 0 0 0 0 0 0 E
+76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 1 0
 E
-T 918
 #919
 trainer training agent 919 elizabeth lapensee survivance~
 Elizabeth 919~
@@ -445,11 +438,11 @@ SavingSpell: 1
 E
 T 931
 #932
-trainer training 932 sasha lucifer~
+trainer training 932 sasha chislenko~
 Sasha 932~
 932/main:avatar~
 932/main:look~
-78 0 0 0 0 0 0 0 233 E
+76 0 0 0 0 0 0 0 233 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -459,7 +452,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 932
 #933
 trainer training 933 lionel agent~
 Lionel 933~
@@ -481,28 +473,26 @@ trainer training 0934 cyberman~
 Cyberman 934~
 934/main:avatar~
 934/main:look~
-78 0 0 0 0 0 0 0 -275 E
+76 0 0 0 0 0 0 0 -275 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 0 0
+8 8 0 4
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 934
 #935
 trainer training 935 jormungandr evil~
 Jormungandr 935~
 935/main:avatar~
 935/main:look~
-78 0 0 0 0 0 0 0 0 E
+76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 1
 E
-T 935
 #936
 trainer training 936 eric zippo eotl~
 Eric 936~
