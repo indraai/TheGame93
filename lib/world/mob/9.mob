@@ -26,7 +26,7 @@ Defango 902~
 0902/main:avatar~
 0902/main:look
 ~
-78 0 0 0 0 0 0 0 -113 E
+76 0 0 0 0 0 0 0 -113 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1 0
@@ -349,7 +349,7 @@ Alex 926~
 76 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 0
+8 8 1 2
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
@@ -555,7 +555,7 @@ Eric 940~
 76 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -577,12 +577,11 @@ trainer training 942 stanford~
 Stanford 942~
 942/main:avatar~
 942/main:look~
-78 0 0 0 0 0 0 0 0 E
+76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1
 E
-T 942
 #943
 trainer training 943 defcon deadaddict~
 DeadAddict~
@@ -911,7 +910,7 @@ RussianBot 967~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 1
 E
 #968
 trainer training agent 968 peter great romanov~
