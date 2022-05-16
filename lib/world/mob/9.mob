@@ -306,18 +306,17 @@ trainer training agent lolapps 923~
 LOLapps 923~
 923/main:avatar~
 923/main:look~
-78 0 0 0 0 0 0 0 -250 E
+76 0 0 0 0 0 0 0 -250 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 0 0
 E
-T 923
 #924
 trainer training agent 924 rapleaf auren~
 Rapleaf 924~
 924/main:avatar~
 924/main:look~
-78 0 0 0 0 0 0 0 -255 E
+76 0 0 0 0 0 0 0 -255 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -327,13 +326,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 924
 #925
 trainer training agent 925 peter~
 Peter 925~
 925/main:avatar~
 925/main:look~
-78 0 0 0 0 0 0 0 -1000 E
+76 0 0 0 0 0 0 0 -1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 2
@@ -343,16 +341,15 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
-T 925
 #926
 trainer training agent 926 palantir alex karp~
 Alex 926~
 926/main:avatar~
 926/main:look~
-78 0 0 0 0 0 0 0 -500 E
+76 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 0
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
@@ -360,13 +357,12 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
-T 926
 #927
 trainer training 927 ghostnet~
 GhostNet 927~
 927/main:avatar~
 927/main:look~
-78 0 0 0 0 0 0 0 -333 E
+76 0 0 0 0 0 0 0 -333 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -376,7 +372,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 927
 #928
 trainer training agent 928 tyler~
 Tyler 928~
@@ -573,12 +568,11 @@ trainer training 941 hannibal eotl~
 Hannibal 941~
 941/main:avatar~
 941/main:look~
-78 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
+76 0 0 0 0 0 0 0 -150 E
+4 20 10 1d1+0 1d1+0
 0 0
 8 8 1 1
 E
-T 941
 #942
 trainer training 942 stanford~
 Stanford 942~
@@ -671,7 +665,7 @@ trainer training 948 spoonman mark petrakis~
 Spoonman 948~
 948/main:avatar~
 948/main:look~
-78 0 0 0 0 0 0 0 -350 E
+76 0 0 0 0 0 0 0 -350 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -681,13 +675,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 948
 #949
 trainer trianining 949 brenda laurel cobrawoman~
 Brenda 949~
 949/main:avatar~
 949/main:look~
-78 0 0 0 0 0 0 0 -310 E
+76 0 0 0 0 0 0 0 -310 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 2 1
@@ -697,13 +690,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 949
 #950
 trainer training 950 slac stanford richard neal~
 Richard 950~
 950/main:avatar~
 950/main:look~
-78 0 0 0 0 0 0 0 -250 E
+76 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -713,7 +705,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 950
 #951
 trainer training 951 ghostmind mind ghost~
 GhostMind 951~
@@ -917,6 +908,16 @@ SavingBreath: 1
 SavingSpell: 1
 E
 T 966
+#967
+trainer training 967 russianbot~
+RussianBot 967~
+967/main:avatar~
+967/main:look~
+76 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
 #968
 trainer training agent 968 peter great romanov~
 Peter the Great~

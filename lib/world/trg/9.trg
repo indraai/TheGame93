@@ -536,7 +536,7 @@ end
 ~
 #923
 Trainer 923 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] LOLapps was a developer and publisher of social games on the Facebook platform.
 set pump[1] LOLapps was best known for creating Ravenwood Fair with John Romero which had 25 million players worldwide.
@@ -602,7 +602,7 @@ end
 ~
 #926
 Trainer 926 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -624,7 +624,7 @@ end
 ~
 #927
 Trainer 927 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -936,7 +936,7 @@ end
 ~
 #941
 Trainer 941 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] End of the Line Mud was located on a Stanford University server in the 1990s.
 set pump[1] EotL was originally two muds: UCR's Let's See Yours LPmud at UC Riverside in 1989, and The Pitt from the University of Pittsburgh.
@@ -1090,7 +1090,7 @@ end
 ~
 #948
 Trainer 948 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -1112,7 +1112,7 @@ end
 ~
 #949
 Trainer 949 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -1134,7 +1134,7 @@ end
 ~
 #950
 Trainer 950 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] On September 9, 1967 a unique and powerful scientific instrument became oeprational.
 set pump[1] The 2-mile accelerator at the Stanford Linear Accelerator Complex became active.
@@ -1290,7 +1290,7 @@ end
 ~
 #967
 Trainer 967 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%

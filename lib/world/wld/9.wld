@@ -392,6 +392,7 @@ D6
 ~
 0 0 -1
 S
+T 923
 #924
 RapLeaf~
 You are in an unfinished room.
@@ -429,16 +430,22 @@ D1
 ~
 0 0 907
 S
+T 926
 #927
 GhostNet~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 967
 D1
 ~
 ~
 0 0 928
 S
+T 927
 #928
 The Dalai Lama~
 You are in an unfinished room.
@@ -651,6 +658,7 @@ tip3~
 talk:#adv world:thegame 0941/main:tip3
 ~
 S
+T 941
 #942
 Stanford University~
 You are in an unfinished room.
@@ -746,6 +754,7 @@ D6
 ~
 0 0 949
 S
+T 948
 #949
 SpoonKids~
 You are in an unfinished room.
@@ -760,6 +769,7 @@ D4
 Bedrooms~
 1 0 952
 S
+T 949
 #950
 SLAC~
 You are in an unfinished room.
@@ -774,6 +784,7 @@ D7
 ~
 0 0 951
 S
+T 950
 #951
 GhostMind~
 You are in an unfinished room.
@@ -1118,11 +1129,12 @@ Russian Botnet~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
-D2
+D1
 ~
 ~
-0 0 927
+0 0 968
 S
+T 967
 #968
 Saint Petersburg University~
 You are in an unfinished room.
