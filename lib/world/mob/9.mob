@@ -166,25 +166,23 @@ ajahn sudanto trainer training agent 912 monk buddhist~
 Ajahn 912~
 912/main:avatar~
 912/main:look~
-78 0 0 0 0 0 0 0 177 E
+76 0 0 0 0 0 0 0 177 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
 BareHandAttack: 1
 E
-T 912
 #913
 trainer training agent 913 tyler hackzion~
 Tyler 913~
 913/main:avatar~
 913/main:look~
-78 0 0 0 0 0 0 0 -188 E
+76 0 0 0 0 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
 BareHandAttack: 4
 E
-T 913
 #914
 trainer training agent 914 code tyler~
 Tyler 914~
@@ -201,10 +199,10 @@ trainer training agent 915 fbi~
 FBI 915~
 915/main:avatar~
 915/main:look~
-78 0 0 0 0 0 0 0 1000 E
+76 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 6
+8 8 1 0
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -218,18 +216,16 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
-T 915
 #916
 trainer training agent 916 robert david steele steeler~
 Steeler 916~
 916/main:avatar~
 916/main:look~
-78 0 0 0 0 0 0 0 -192 E
+76 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
-6 6 1 1
+6 6 1 0
 E
-T 916
 #917
 trainer training agent 917 pm2012~
 Tyler 917~
@@ -412,7 +408,7 @@ trainer training agent 929 project89~
 Project89 929~
 929/main:avatar~
 929/main:look~
-78 0 0 0 8 0 0 0 -199 E
+76 0 0 0 8 0 0 0 -199 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -422,18 +418,16 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 929
 #930
 trainer training 930 hypatia~
 St. Hypatia 930~
 930/main:avatar~
 930/main:look~
-78 0 0 0 8 0 0 0 -175 E
+76 0 0 0 0 0 0 0 -175 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 2 0
 E
-T 930
 #931
 trainer training 931 jerome corsi~
 Scarlett 931~
@@ -974,12 +968,12 @@ SavingSpell: 3
 E
 #970
 trainer training agent 970 patriarch orthodox russian~
-The Patriarch~
+the Patriarch~
 970/main:avatar~
 970/main:look~
 78 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 1
 E
 $
