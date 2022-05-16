@@ -480,13 +480,13 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  "\nselect[g:position]:%s\r"
 	  "\nselect[h:default]:%s\r"
 	  "\nselect[i:attack]:%s\r"
-    "\nselect[j:stats]: set...\r"
-	  "\nselect[k:persona]:%s\r"
-	  "\nselect[l:affinity]:%s\r"
+	  "\nselect[j:persona]:%s\r"
+	  "\nselect[k:affinity]:%s\r"
     "\n::begin:buttons\r"
-    "\nbmud[triggers%s]:1\r"
-    "\nbmud[copy agent]:2\r"
-	  "\nbmud[delete agent]:3\r"
+    "\nbmud[stats]:1\r"
+    "\nbmud[triggers%s]:2\r"
+    "\nbmud[copy agent]:3\r"
+	  "\nbmud[delete agent]:4\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 
@@ -647,16 +647,20 @@ void medit_parse(struct descriptor_data *d, char *arg)
         return;
       }
     case '1':
+      OLC_MODE(d) = MEDIT_STATS_MENU;
+      medit_disp_stats_menu(d);
+      return;
+    case '2':
       OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
       dg_script_menu(d);
       return;
 
-    case '2':
+    case '3':
       write_to_output(d, "\nCopy which Agent?\r");
       OLC_MODE(d) = MEDIT_COPY;
       return;
 
-    case '3':
+    case '4':
       write_to_output(d, "\nAre you sure you want to delete this Agent?\r");
       OLC_MODE(d) = MEDIT_DELETE;
       return;
@@ -723,16 +727,11 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
 
     case 'j':
-      OLC_MODE(d) = MEDIT_STATS_MENU;
-      medit_disp_stats_menu(d);
-      return;
-
-    case 'k':
       OLC_MODE(d) = MEDIT_NPC_FLAGS;
       medit_disp_mob_flags(d);
       return;
 
-    case 'l':
+    case 'k':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
