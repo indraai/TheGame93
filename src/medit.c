@@ -483,10 +483,10 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\nselect[j:stats]: set...\r"
 	  "\nselect[k:persona]:%s\r"
 	  "\nselect[l:affinity]:%s\r"
-    "\nselect[m:triggers]:%s\r"
     "\n::begin:buttons\r"
-    "\nbmud[copy agent]:1\r"
-	  "\nbmud[delete agent]:2\r"
+    "\nbmud[triggers%s]:1\r"
+    "\nbmud[copy agent]:2\r"
+	  "\nbmud[delete agent3:2\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 
@@ -495,7 +495,7 @@ static void medit_disp_menu(struct descriptor_data *d)
 	  attack_hit_text[(int)GET_ATTACK(mob)].singular,
 	  flags,
 	  flag2,
-    OLC_SCRIPT(d) ? "set...":"not set..."
+    OLC_SCRIPT(d) ? "*":""
 	  );
 
   OLC_MODE(d) = MEDIT_MAIN_MENU;
@@ -647,11 +647,16 @@ void medit_parse(struct descriptor_data *d, char *arg)
         return;
       }
     case '1':
+      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+      dg_script_menu(d);
+      return;
+
+    case '2':
       write_to_output(d, "\nCopy which Agent?\r");
       OLC_MODE(d) = MEDIT_COPY;
       return;
 
-    case '2':
+    case '3':
       write_to_output(d, "\nAre you sure you want to delete this Agent?\r");
       OLC_MODE(d) = MEDIT_DELETE;
       return;
@@ -730,11 +735,6 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'l':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
-      return;
-
-    case 'm':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
       return;
 
     default:
