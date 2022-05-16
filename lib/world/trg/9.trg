@@ -958,7 +958,7 @@ end
 ~
 #942
 Trainer 942 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Welcome to Stanford University home of the snobbiest minds on Earth who sold society to EVIL aliens for technology.
 set pump[1] Did you know ike 90% of the tech-a-holes in the world are Stanford snobs.
