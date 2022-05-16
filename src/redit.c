@@ -461,24 +461,22 @@ static void redit_disp_menu(struct descriptor_data *d)
     "\nselect[b:describe]:%s\r"
     "\nselect[c:flags]:%s\r"
     "\nselect[d:type]:%s\r"
-    "\nselect[e:triggers]:%s\r",
     OLC_NUM(d),
-    room->name,
-    room->description,
-    buf1,
-    buf2,
-    OLC_SCRIPT(d) ? "Set." : "Not Set."
+    room->name,         //name
+    room->description,  // describe
+    buf1,               // flags
+    buf2                //type
   );
   if (!CONFIG_DIAGONAL_DIRS)
   {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[f:north]:%d\r"
-      "\nselect[g:east]:%d\r"
-      "\nselect[h:south]:%d\r"
-      "\nselect[i:west]:%d\r"
-      "\nselect[j:up]:%d\r"
-      "\nselect[k:down]:%d\r",
+      "\nselect[e:north]:%d\r"
+      "\nselect[f:east]:%d\r"
+      "\nselect[g:south]:%d\r"
+      "\nselect[h:west]:%d\r"
+      "\nselect[i:up]:%d\r"
+      "\nselect[j:down]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -495,16 +493,16 @@ static void redit_disp_menu(struct descriptor_data *d)
   } else {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[f:north]:%d\r"
-      "\nselect[g:east]:%d\r"
-      "\nselect[h:south]:%d\r"
-      "\nselect[i:west]:%d\r"
-      "\nselect[j:up]:%d\r"
-      "\nselect[k:down]:%d\r"
-      "\nselect[l:north-west]:%d\r"
-      "\nselect[m:north-east]:%d\r"
-      "\nselect[n:south-east]:%d\r"
-      "\nselect[o:south-west]:%d\r",
+      "\nselect[e:north]:%d\r"
+      "\nselect[f:east]:%d\r"
+      "\nselect[g:south]:%d\r"
+      "\nselect[h:west]:%d\r"
+      "\nselect[i:up]:%d\r"
+      "\nselect[j:down]:%d\r"
+      "\nselect[k:north-west]:%d\r"
+      "\nselect[l:north-east]:%d\r"
+      "\nselect[m:south-east]:%d\r"
+      "\nselect[n:south-west]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -529,11 +527,13 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n::begin:buttons\r"
-      "\nbmud[extra tags]:1\r"
-      "\nbmud[copy room]:2\r"
-      "\nbmud[delete room]:3\r"
+      "\nbmud[triggers%s]:1\r",
+      "\nbmud[tags]:2\r"
+      "\nbmud[copy room]:3\r"
+      "\nbmud[delete room]:4\r"
       "\n::end:buttons\r"
-      "\nmenu[quit]:0\r"
+      "\nmenu[quit]:0\r",
+      OLC_SCRIPT(d) ? "*" : ""
     );
   OLC_MODE(d) = REDIT_MAIN_MENU;
 }
@@ -600,34 +600,30 @@ void redit_parse(struct descriptor_data *d, char *arg)
       redit_disp_sector_menu(d);
       break;
     case 'e':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
-      return;
-    case 'f':
       OLC_VAL(d) = NORTH;
       redit_disp_exit_menu(d);
       break;
-    case 'g':
+    case 'f':
       OLC_VAL(d) = EAST;
       redit_disp_exit_menu(d);
       break;
-    case 'h':
+    case 'g':
       OLC_VAL(d) = SOUTH;
       redit_disp_exit_menu(d);
       break;
-    case 'i':
+    case 'h':
       OLC_VAL(d) = WEST;
       redit_disp_exit_menu(d);
       break;
-    case 'j':
+    case 'i':
       OLC_VAL(d) = UP;
       redit_disp_exit_menu(d);
       break;
-    case 'k':
+    case 'j':
       OLC_VAL(d) = DOWN;
       redit_disp_exit_menu(d);
       break;
-    case 'l':
+    case 'k':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -636,7 +632,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'm':
+    case 'l':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -645,7 +641,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'n':
+    case 'm':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -654,7 +650,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
         redit_disp_exit_menu(d);
       }
       break;
-    case 'o':
+    case 'n':
       if (!CONFIG_DIAGONAL_DIRS) {
         write_to_output(d, "\nerror: Invalid choice.\r");
         redit_disp_menu(d);
@@ -664,17 +660,22 @@ void redit_parse(struct descriptor_data *d, char *arg)
       }
       break;
     case '1':
+      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+      dg_script_menu(d);
+      return;
+
+    case '2':
       /* If the extra tags doesn't exist. */
       if (!OLC_ROOM(d)->ex_description)
 	CREATE(OLC_ROOM(d)->ex_description, struct extra_descr_data, 1);
       OLC_DESC(d) = OLC_ROOM(d)->ex_description;
       redit_disp_extradesc_menu(d);
       break;
-    case '2':
+    case '3':
       write_to_output(d, "\nalert: Copy what room?\r");
       OLC_MODE(d) = REDIT_COPY;
       break;
-    case '3':
+    case '4':
       /* Delete the room, prompt first. */
       write_to_output(d, "\nAre you sure?\r");
       write_to_output(d, "%s", confirm_btn);
