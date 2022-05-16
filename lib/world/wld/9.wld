@@ -632,6 +632,7 @@ D3
 ~
 0 0 941
 S
+T 940
 #941
 End Of The Line~
 You are in an unfinished room.
@@ -687,6 +688,7 @@ deathstar~
 0943/main:deathstar
 ~
 S
+T 943
 #944
 SATAN~
 You are in an unfinished room.
@@ -720,6 +722,7 @@ D2
 ~
 0 0 947
 S
+T 945
 #946
 Hacking in Progress~
 You are in an unfinished room.
@@ -730,6 +733,7 @@ D9
 ~
 0 0 947
 S
+T 946
 #947
 The Well~
 You are in an unfinished room.
@@ -799,6 +803,7 @@ D2
 ~
 0 0 942
 S
+T 951
 #952
 MinnieSpoon Room~
 You are in an unfinished room.

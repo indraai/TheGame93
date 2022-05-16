@@ -552,17 +552,16 @@ trainer training 940 eric hughes cypherpunk eotl amshey~
 Eric 940~
 940/main:avatar~
 940/main:look~
-78 0 0 0 0 0 0 0 -250 E
+76 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 940
 #941
 trainer training 941 hannibal eotl~
 Hannibal 941~
@@ -589,7 +588,7 @@ trainer training 943 defcon deadaddict~
 DeadAddict~
 943/main:avatar~
 943/main:look~
-78 0 0 0 0 0 0 0 -230 E
+76 0 0 0 0 0 0 0 -230 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -599,7 +598,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 943
 #944
 trainer training 944 satan dan farmer defcon~
 Dan 944~
@@ -620,18 +618,17 @@ trainer training 945 emmanuel 2600~
 Emmanuel~
 945/main:avatar~
 945/main:look~
-78 0 0 0 0 0 0 0 -219 E
+76 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
 8 8 1 1
 E
-T 945
 #946
 trainer training 946 hip~
 Hip 946~
 946/main:avatar~
 946/main:look~
-78 0 0 0 0 0 0 0 -208 E
+76 0 0 0 0 0 0 0 -208 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -642,7 +639,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 946
 #947
 trainer training 947 hip~
 Hip 947~
@@ -710,7 +706,7 @@ trainer training 951 ghostmind mind ghost~
 GhostMind 951~
 951/main:avatar~
 951/main:look~
-78 0 0 0 0 0 0 0 -300 E
+76 0 0 0 0 0 0 0 -300 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -720,7 +716,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 951
 #952
 minniespoon spoonkids minnie spoon spoonkid~
 MinnieSpoon~

@@ -914,7 +914,7 @@ end
 ~
 #940
 Trainer 940 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Eric Huges is the author of the Cypherpunk Manifesto which appeared in the DEF Con 1 Program.
 set pump[1] Privacy is necessary in an open society in the electronic age.
@@ -980,7 +980,7 @@ end
 ~
 #943
 Trainer 943 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -1024,7 +1024,7 @@ end
 ~
 #945
 Trainer 945 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -1046,7 +1046,7 @@ end
 ~
 #946
 Trainer 946 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -1158,7 +1158,7 @@ end
 ~
 #951
 Trainer 951 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] In 1993 Stanford Linear Accelerator Complex was using a specialized programming language called REXX.
 set pump[1] REXX was a specialty language mostly used on the Amiga line of computers.
