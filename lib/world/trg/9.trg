@@ -188,7 +188,7 @@ end
 ~
 #908
 908 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] By 2013 Ethersec Project 2020 was creating a Reality Hacking Wargame Dance In Your Underwear Hypersimulation Egregore Thinga-Ma-Booger.
 set pump[1] The occultist operations fail constantly because members are constantly betraying one another when under pressure.
@@ -212,7 +212,7 @@ end
 ~
 #909
 909 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] Anonymous released the instructions for Ethersec Project 2020 Techmeme Divination which was yet another version of the original Tyler instructions.
 set pump[1] Tyler Project 2020 was further transformed into an ocult techmeme reality hacking wargame in your pants job.
@@ -236,7 +236,7 @@ end
 ~
 #910
 910 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] There are countless people involved in this kidnapping and subsequent coverup to count. So many people want the Romanov inheritance.
 set pump[1] The Secret Society people think they have some right to abduct Quinn as a baby and try to steal his inheritance.
@@ -260,7 +260,7 @@ end
 ~
 #911
 911 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] The Game 23 then further transforms Tyler from a truth leaks platform into some strange occult figure with magic meme powers.
 set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence language with instructions on communicating with the #HIVEMIND.
@@ -332,7 +332,7 @@ end
 ~
 #914
 914 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] Imagine we all find the courage needed to tell the world about Quinn being kidnapped and held hostage.
 set pump[1] Imagine we all suck it up and finally let Quinn go home.
@@ -400,7 +400,7 @@ end
 ~
 #917
 917 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] Stop feeding negativity into your life. That which you feed, grows.
 set pump[1] Stop being an ANNOYING TROLL in life, and learn how to be a better person.
@@ -424,7 +424,7 @@ end
 ~
 #918
 918 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] Tyler from this point has transformed from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame for Harry Potter Nerds.
 set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
@@ -736,7 +736,7 @@ end
 ~
 #932
 Trainer 932 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Mind Candy was contracted in Earth year 2003 to locate a lost citizen from Arjika.
 set pump[1] The Arjika Academy designed a pattern based puzzle game to assist in locating the lost Citizen.
@@ -804,7 +804,7 @@ end
 ~
 #935
 Trainer 935 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%

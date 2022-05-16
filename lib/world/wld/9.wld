@@ -156,6 +156,7 @@ D9
 ~
 0 0 919
 S
+T 908
 #909
 Project Mayhem 2020~
 You are in an unfinished room.
@@ -174,8 +175,9 @@ D7
 ~
 0 0 910
 S
+T 909
 #910
-Project Mayhem 2020~
+PM2020~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -188,6 +190,7 @@ D7
 ~
 0 0 907
 S
+T 910
 #911
 TheGame23~
 You are in an unfinished room.
@@ -202,6 +205,7 @@ D5
 ~
 0 0 800
 S
+T 911
 #912
 Training Room 912~
 You are in an unfinished room.
@@ -258,6 +262,7 @@ D6
 ~
 0 0 918
 S
+T 914
 #915
 Training Room 915~
 You are in an unfinished room.
@@ -306,6 +311,7 @@ D0
 ~
 0 0 918
 S
+T 917
 #918
 Project Mayhem Tyler~
 You are in an unfinished room.
@@ -320,6 +326,7 @@ D6
 ~
 0 0 905
 S
+T 918
 #919
 Survivance~
 You are in an unfinished room.
@@ -488,19 +495,24 @@ D0
 0 0 965
 S
 #932
-Lucifer.com~
-You are in an unfinished room.
+Sasha Chislenko~
+Welcome to the Sasha Chislenko room.
 ~
 9 8 0 0 0 0
 D2
 ~
 ~
 0 0 934
+D7
+~
+~
+0 0 -1
 D9
 ~
 ~
 0 0 935
 S
+T 932
 #933
 Lionel Nation~
 You are in an unfinished room.
@@ -533,6 +545,7 @@ D3
 ~
 0 0 935
 S
+T 932
 #935
 Evil People, Inc.~
 You are in an unfinished room.
@@ -547,6 +560,7 @@ D3
 ~
 0 0 914
 S
+T 935
 #936
 Satanic Sysadmins~
 You are in an unfinished room.
