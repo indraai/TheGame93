@@ -246,7 +246,7 @@ trainer training agent 919 elizabeth lapensee survivance~
 Elizabeth 919~
 919/main:avatar~
 talk:#adv agent:thegame 919/main:look~
-78 0 0 0 0 0 0 0 -219 E
+76 0 0 0 0 0 0 0 -219 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 2 0
@@ -256,13 +256,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 919
 #920
 trainer training agent 920 brenda romero~
 Brenda 920~
 920/main:avatar~
 talk:#adv agent:thegame 920/main:look~
-78 0 0 0 0 0 0 0 -277 E
+76 0 0 0 0 0 0 0 -277 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 2 0
@@ -272,13 +271,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 920
 #921
 trainer training agent 921 john romero~
 John 921~
 921/main:avatar~
 talk:#adv agent:thegame 921/main:look~
-78 0 0 0 0 0 0 0 -222 E
+76 0 0 0 0 0 0 0 -222 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -288,7 +286,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 921
 #922
 trainer training agent tabitha 922~
 Tabitha 922~
@@ -514,7 +511,7 @@ trainer training 937 alt angst~
 John 937~
 937/main:avatar~
 937/main:look~
-78 0 0 0 0 0 0 0 -197 E
+76 0 0 0 0 0 0 0 -197 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -524,13 +521,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 937
 #938
 trainer training 938 kibo~
 Kibo 938~
 938/main:avatar~
 938/main:look~
-78 0 0 0 0 0 0 0 -222 E
+76 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -540,14 +536,13 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 938
 #939
 trainer training 939 xibo~
 Xibo 939~
 939/main:avatar~
 939/main:look
 ~
-78 0 0 0 0 0 0 0 -222 E
+76 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1
@@ -557,7 +552,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 939
 #940
 trainer training 940 eric hughes cypherpunk eotl amshey~
 Eric 940~

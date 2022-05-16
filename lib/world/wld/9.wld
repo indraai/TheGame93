@@ -333,6 +333,7 @@ D3
 ~
 0 0 920
 S
+T 919
 #920
 Natives in Game Dev~
 You are in an unfinished room.
@@ -347,6 +348,7 @@ D6
 ~
 0 0 923
 S
+T 920
 #921
 Romero Games~
 You are in an unfinished room.
@@ -361,6 +363,7 @@ D9
 ~
 0 0 923
 S
+T 921
 #922
 To Ireland~
 You are in an unfinished room.
@@ -581,6 +584,7 @@ D3
 ~
 0 0 938
 S
+T 937
 #938
 Kibo~
 You are in an unfinished room.
@@ -595,6 +599,7 @@ D3
 ~
 0 0 939
 S
+T 938
 #939
 EVIL Mud~
 You are in an unfinished room.
@@ -605,6 +610,7 @@ D0
 ~
 0 0 905
 S
+T 939
 #940
 Cypherpunks~
 You are in an unfinished room.
@@ -633,16 +639,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 #942

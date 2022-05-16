@@ -448,7 +448,7 @@ end
 ~
 #919
 919 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] It was found Trenton's mother Tabitha was involved with a game called Survivance created by Elizabeth LePensee in October of 2013.
 set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outline new operations for Anonymous.
@@ -470,7 +470,7 @@ end
 ~
 #920
 920 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] On May 22, 2015 Elizabeth LaPensee was the MC with Brenda Romero was the host of an event titled Natives in Game Dev Gathering.
 set pump[1] Speakers at the Natives in Game Dev Gathering included Darrick Glen Baxter, Ishmael Angaluuk Hope, Elizabeth LaPensée, Renee Nejo, and John Romero.
@@ -492,7 +492,7 @@ end
 ~
 #921
 Training Greeting 922~
-0 g 100
+2 g 100
 ~
 set pump[0] In August of 2015 John and Brenda Romero moved to Ireland and open game development studio Romero Games.
 set pump[1] John Romero is a game developer famous for being part of the team who created the DOOM video game and many others.
@@ -848,7 +848,7 @@ end
 ~
 #937
 Trainer 937 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -870,7 +870,7 @@ end
 ~
 #938
 Trainer 938 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -892,7 +892,7 @@ end
 ~
 #939
 Trainer 939 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] EVIL Mud is a multi-user dungeon in a social setting for dark humor, freedom of expression, and commentary.
 set pump[1] No, it's not a game, it's more like a virtual bar. But more than that you can explore more than 2000 rooms that have been built on the mud.
