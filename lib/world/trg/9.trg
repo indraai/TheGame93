@@ -70,7 +70,7 @@ end
 ~
 #903
 903 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] In 2017 Quinn found Tyler instructions on pastebin would lead him to find the S.V.V Cicada3301 Anonymous Group.
 set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story was real.
@@ -94,7 +94,7 @@ end
 ~
 #904
 904 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] The goal of Project Mayhem appeared to be revolution, freedom, and art. Diving deeper into the instructions you'll find that to be untrue.
 set pump[1] Project Mayhem was suppose to leak corporate, government, and illegal deeds. What happened was quite a different story.
@@ -118,7 +118,7 @@ end
 ~
 #905
 905 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] In May 2013 Tyler had changed, and it was now DarkNet Michael running the show behind the scenes.
 set pump[1] The Michael operation shifted Tyler from being a super cool leaks platform to a type of alternate reality capture the flag Harry Potter game.
@@ -142,7 +142,7 @@ end
 ~
 #906
 906 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] Tyler was sold as a curious, mysterious, entity with the intention of bringing happiness and joy to everyone.
 set pump[1] This was just a sales pitch to get in the door, and gain trust of the blind believer.
@@ -166,7 +166,7 @@ end
 ~
 #907
 907 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] You made it to %actor.room.name% the last stop of Level 1 Training.
 set pump[1] You have learned about The Contract, The Covenant, Tyler, Project Mayhem, Cicada3301, S.V.V., and Hacker Reality Wargames.

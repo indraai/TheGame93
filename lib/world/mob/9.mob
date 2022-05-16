@@ -37,29 +37,27 @@ Tyler 903~
 903/main:avatar~
 903/main:look
 ~
-78 0 0 0 0 0 0 0 -150 E
+76 0 0 0 0 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
 E
-T 903
 #904
 trainer training agent 904 tyler revelations~
 Tyler 904~
 904/main:avatar~
 904/main:look~
-78 0 0 0 0 0 0 0 -150 E
+76 0 0 0 0 0 0 0 -150 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 0
 E
-T 904
 #905
 archangel michael nebadon messiah christ~
 Michael 905~
 905/main:avatar~
 905/main:look~
-78 0 0 0 0 0 0 0 -200 E
+76 0 0 0 0 0 0 0 -200 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0 0
@@ -69,13 +67,12 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 905
 #906
 trainer training agent 906 tyler it~
 Tyler 906~
 906/main:avatar~
 906/main:look~
-78 0 0 0 0 0 0 0 -232 E
+76 0 0 0 0 0 0 0 -232 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0 0
@@ -85,23 +82,21 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 906
 #907
 trainer training agent 907 tyler project mayhem 2020~
 Tyler 907~
 907/main:avatar~
 907/main:look~
-78 0 0 0 0 0 0 0 281 E
+76 0 0 0 0 0 0 0 281 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 907
 #908
 trainer training agent 908 tyler ethersec~
 Tyler 908~
