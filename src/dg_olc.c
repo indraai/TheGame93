@@ -249,7 +249,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
   write_to_output(d, "\n## Attach\r"
-    "::begin:buttons");
+    "\n::begin:buttons\r");
   for (i = 0; i < NUM_TRIG_TYPE_FLAGS; i++) {
     write_to_output(d, "\nmenu[%s]:%d\r",
       types[i],
@@ -257,7 +257,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
     );
   }
   sprintbit(GET_TRIG_TYPE(OLC_TRIG(d)), types, bitbuf, sizeof(bitbuf));
-  write_to_output(d, "::end:buttons"
+  write_to_output(d, "\n::end:buttons\r"
     "\nbits:%s\r"
     "\nmenu[quit]:0\r",
     bitbuf
@@ -757,8 +757,10 @@ void dg_script_menu(struct descriptor_data *d)
   }
 
   write_to_output(d,
-    "\nmenu[attach]:a\r"
-    "\nmenu[detach]:b\r"
+    "\n::begin:buttons\r"
+    "\nmenu[attach]:1\r"
+    "\nmenu[detach]:2\r"
+    "\n::end:buttons\r"
     "\nmenu[done]:0\r");
 }
 
@@ -772,11 +774,11 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
       switch(tolower(*arg)) {
         case '0':
           return 0;
-        case 'a':
+        case '1':
           write_to_output(d, "\nPlease enter position, vnum (ex: 1, 200)\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_NEW_TRIGGER;
           break;
-        case 'b':
+        case '2':
           write_to_output(d, "\nWhich entry should be deleted?  0 to abort\r");
           OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_DEL_TRIGGER;
           break;
