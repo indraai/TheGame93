@@ -1002,7 +1002,7 @@ end
 ~
 #944
 Trainer 944 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%

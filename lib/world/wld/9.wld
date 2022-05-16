@@ -267,15 +267,11 @@ T 914
 Training Room 915~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D8
 ~
 ~
 0 0 916
-D9
-~
-~
-0 0 901
 S
 T 915
 #916
@@ -691,6 +687,7 @@ D3
 ~
 0 0 936
 S
+T 944
 #945
 HOPE Conference~
 You are in an unfinished room.

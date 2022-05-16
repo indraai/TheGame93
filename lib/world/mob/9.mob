@@ -105,7 +105,7 @@ Tyler 908~
 76 0 0 0 0 0 0 0 -210 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -239,7 +239,7 @@ Tyler 918~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 1
 E
 #919
 trainer training agent 919 elizabeth lapensee survivance~
@@ -476,7 +476,7 @@ Cyberman 934~
 76 0 0 0 0 0 0 0 -275 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 0 4
+8 8 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -499,7 +499,7 @@ Eric 936~
 936/main:avatar~
 936/main:look
 ~
-78 0 0 0 0 0 0 0 -180 E
+76 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -509,7 +509,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 936
 #937
 trainer training 937 alt angst~
 John 937~
@@ -618,7 +617,7 @@ trainer training 944 satan dan farmer defcon~
 Dan 944~
 944/main:avatar~
 944/main:look~
-78 0 0 0 0 0 0 0 0 E
+76 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -628,7 +627,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 944
 #945
 trainer training 945 emmanuel 2600~
 Emmanuel~
