@@ -206,7 +206,7 @@ S
 Training Room 912~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D2
 ~
 ~
@@ -216,6 +216,7 @@ D3
 ~
 0 0 928
 S
+T 912
 #913
 Call to HackZION~
 You are in an unfinished room.
@@ -242,6 +243,7 @@ D9
 ~
 0 0 917
 S
+T 913
 #914
 PM2012 - Call To Action~
 You are in an unfinished room.
@@ -270,11 +272,12 @@ D9
 ~
 0 0 901
 S
+T 915
 #916
 Robert Steele~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D0
 ~
 ~
@@ -292,6 +295,7 @@ D7
 ~
 0 0 931
 S
+T 916
 #917
 Dangerous Ideas~
 You are in an unfinished room.
@@ -461,6 +465,7 @@ pdf~
 0929/main:pdf
 ~
 S
+T 929
 #930
 Church of Virus~
 You are in an unfinished room.
@@ -471,6 +476,7 @@ D2
 ~
 0 0 932
 S
+T 930
 #931
 Jerome Corsi~
 You are in an unfinished room.
@@ -617,16 +623,16 @@ D3
 ~
 0 0 949
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 #942

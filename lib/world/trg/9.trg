@@ -284,7 +284,7 @@ end
 ~
 #912
 912 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.roomm.name%
 set pump[1] %actor.roomm.name%
@@ -308,7 +308,7 @@ end
 ~
 #913
 913 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] Anonymous came to the public with a message of Revolution, and left with a Live Action Role Play Sex Party Program in just a few years.
 set pump[1] Anonymous was originally concerned with censorship, corruption, and brainstorming ideas for a better future when Tyler was first envisioned.
@@ -356,7 +356,7 @@ end
 ~
 #915
 915 Trainer~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.roomm.name%
 set pump[1] %actor.roomm.name%
@@ -378,7 +378,7 @@ end
 ~
 #916
 916 Traning~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.roomm.name%
 set pump[1] %actor.roomm.name%
@@ -668,7 +668,7 @@ end
 ~
 #929
 Trainer 929 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Project89 is the recruitment, training center and battlefield for the new war.
 set pump[1] Project89 is the manipulation using psychological urban guerrilla warfare with no morals and no ethics.
@@ -692,7 +692,7 @@ end
 ~
 #930
 Trainer 930 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Very early in the morning of November 30, 1977 a baby was abducted from Arjika City and brought to Earth.
 set pump[1] We have investigated the abduction very thoroughly and have our kinsman Quinn Michaels being held hostage on Earth.
