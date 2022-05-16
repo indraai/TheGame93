@@ -7,6 +7,7 @@ D1
 ~
 0 0 901
 S
+T 900
 #901
 The Buddhist Video~
 [DESCRIBE]~
@@ -609,16 +610,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 #942
