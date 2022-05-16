@@ -758,8 +758,8 @@ void dg_script_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n::begin:buttons\r"
-    "\nmenu[attach]:1\r"
-    "\nmenu[detach]:2\r"
+    "\nbmud[attach]:1\r"
+    "\nbmud[detach]:2\r"
     "\n::end:buttons\r"
     "\nmenu[done]:0\r");
 }
