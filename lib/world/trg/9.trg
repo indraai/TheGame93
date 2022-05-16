@@ -46,7 +46,7 @@ end
 ~
 #902
 902 Trainer Greeting~
-0 g 100
+2 g 100
 ~
 set pump[0] In 2017 while researching The Trenton Story Quinn came across Defango and other channels associated with the S.V.V. Cicada3301 Group.
 set pump[1] From here Quinn would locate records which aligned to the alleged kidnapping in 1977 on a server hosted by the S.V.V.
