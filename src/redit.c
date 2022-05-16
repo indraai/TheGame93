@@ -460,7 +460,7 @@ static void redit_disp_menu(struct descriptor_data *d)
     "\nselect[a:name]:%s\r"
     "\nselect[b:describe]:%s\r"
     "\nselect[c:flags]:%s\r"
-    "\nselect[d:type]:%s\r"
+    "\nselect[d:type]:%s\r",
     OLC_NUM(d),
     room->name,         //name
     room->description,  // describe
@@ -527,7 +527,7 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n::begin:buttons\r"
-      "\nbmud[triggers%s]:1\r",
+      "\nbmud[triggers%s]:1\r"
       "\nbmud[tags]:2\r"
       "\nbmud[copy room]:3\r"
       "\nbmud[delete room]:4\r"
