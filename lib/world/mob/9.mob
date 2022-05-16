@@ -311,7 +311,7 @@ trainer training agent tabitha 922~
 Tabitha 922~
 922/main:avatar~
 922/main:look~
-78 0 0 0 0 0 0 0 -1000 E
+76 0 0 0 0 0 0 0 -1000 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 2 0
@@ -321,7 +321,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 922
 #923
 trainer training agent lolapps 923~
 LOLapps 923~

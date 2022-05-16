@@ -514,7 +514,7 @@ end
 ~
 #922
 Training Greeting 922~
-0 g 100
+2 g 100
 ~
 set pump[0] After Quinn would goto the FBI on November 30, 2015 Tabitha would take a trip with her husband to tour Ireland for 10 days.
 set pump[1] Tabitha's friend surprised her with a 10 day trip to Ireland for both her and her husband.
