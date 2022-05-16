@@ -486,7 +486,7 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\n::begin:buttons\r"
     "\nbmud[triggers%s]:1\r"
     "\nbmud[copy agent]:2\r"
-	  "\nbmud[delete agent3:2\r"
+	  "\nbmud[delete agent]:3\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 
