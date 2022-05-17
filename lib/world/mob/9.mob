@@ -377,7 +377,7 @@ trainer training agent 928 tyler~
 Tyler 928~
 928/main:avatar~
 928/main:look~
-78 0 0 0 0 0 0 0 -288 E
+76 0 0 0 0 0 0 0 -288 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1
@@ -387,7 +387,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 928
 #929
 trainer training agent 929 project89~
 Project89 929~

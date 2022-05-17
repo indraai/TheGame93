@@ -5,7 +5,6 @@ Standard Trainer Greeting~
 set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
 set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
 set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -26,7 +25,6 @@ end
 set pump[0] The Trenton Story started in September of 2015 after Quinn showed Trenton the video he had made about Buddhism and Water.
 set pump[1] After showing the video Trenton said... Dad I really messed up, and began telling the craziest story anyone has ever heard in any lifetime.
 set pump[2] It started with this thing called The Family Game where people Quinn didn't know were tryin to destory his life in SECRET.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -229,7 +227,6 @@ end
 set pump[0] Prior to Quinn learning anything about being kidnapped, The Contract, or The Covenant he was visiting a Buddhist Monastery near where he was living.
 set pump[1] During the time of introducing Trenton to the Buddhist Monks and making the video Quinn would become a much different person.
 set pump[2] Then it would all go away after taking the contract to the FBI and hearing all about the kidnapping story. Quinn would never return to the Buddhist Monks again.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:indra %pump[0]%
@@ -302,7 +299,6 @@ end
 set pump[0] Robert David Steele was a self-proclaimed ex-CIA Agent who promotes the Satanic Panic Narritve all over the Internet with Jerome Corsi and friends.
 set pump[1] However it was found that long ago in the early 1990s Robert David Steele was a speaker at various Hacker Conferences around the world.
 set pump[2] Robert David Steele was also found to be connected to some of the top YouTubers that are in some cases still pushing his narratives.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -483,7 +479,6 @@ Trainer 926 Greetings~
 set pump[0] Palantir Technologies is a public American software company that specializes in big data analytics.
 set pump[1] Headquartered in Denver, Colorado, it was founded by Peter Thiel, Nathan Gettings, Joe Lonsdale, Stephen Cohen, and Alex Karp in 2003.
 set pump[2] The name is derived from The Lord of the Rings magical indestructible balls those wizard guys use to see and hear things.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -602,7 +597,6 @@ Trainer 932 Greetings~
 set pump[0] In 1989 Sasha Chislenko arrived in Boston Massachusetts from Leningrad, Russia to begin a new wonderful life in the U.S.A.
 set pump[1] Sasha was interested in subjects like cyborgs, Artificial Intelligence, Hyper-Economy, and the Semantec Web.
 set pump[2] On May 8, 2000 it was reported that Sasha had committed suicide. Coincidentally it was also the day after Vladimir Putin was inaugurated as President of Russia.
-
 if %actor.varexists(on_tour)%
   set i 0
   set m 3

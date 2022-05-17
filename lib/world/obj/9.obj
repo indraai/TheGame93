@@ -21,8 +21,8 @@ Project Mayhem 2012~
 0 0 0 0
 0 0 0 0 0
 E
-text~
-talk:#adv thegame:object 0903/main:text
+text903~
+0903/main:text
 ~
 #904
 pastebin text pm2012 project mayhem~
@@ -34,8 +34,8 @@ PM2012 Call to Hackzion~
 0 0 0 0
 0 0 0 0 0
 E
-text~
-talk:#adv thegame:world 0904/main:text
+text904~
+0904/main:text904
 ~
 #905
 text paste michael speaks mayhem~
@@ -210,12 +210,12 @@ Hacking the Intelligence Community~
 0 0 0 0
 0 0 0 0 0
 E
-intel~
-0947/intel:main
-~
-E
 military~
 0947/military:main
+~
+E
+intel~
+0947/intel:main
 ~
 #950
 text stanford slac linac~
