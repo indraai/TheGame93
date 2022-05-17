@@ -802,8 +802,8 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       break;
     case '5':
       write_to_output(d, "\n## Delete Object\r"
-        "\nDo you wish to delete this Object?\r"
-        "\n%s\r",
+        "\np:Do you wish to delete this Object?\r"
+        "%s",
         confirm_btn);
       OLC_MODE(d) = OEDIT_DELETE;
       break;

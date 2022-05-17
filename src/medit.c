@@ -662,8 +662,8 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
     case '4':
       write_to_output(d, "\n## Delete Agent\r"
-        "\nDo you wish to delete this Agent?\r"
-        "\n%s\r",
+        "\np:Do you wish to delete this Agent?\r"
+        "%s",
         confirm_btn);
       OLC_MODE(d) = MEDIT_DELETE;
       return;

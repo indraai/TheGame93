@@ -679,8 +679,8 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case '4':
       /* Delete the room, prompt first. */
       write_to_output(d, "\n## Delete Room\r"
-        "\nDo you wish to delete this Room?\r"
-        "\n%s\r",
+        "\np:Do you wish to delete this Room?\r"
+        "%s",
         confirm_btn);
       OLC_MODE(d) = REDIT_DELETE;
       break;
