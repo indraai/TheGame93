@@ -268,6 +268,10 @@ Training Room 915~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D2
+~
+~
+0 0 922
 D8
 ~
 ~
@@ -1174,6 +1178,7 @@ D3
 ~
 0 0 -1
 S
+T 969
 #970
 Orthodox Church~
 You are in an unfinished room.
