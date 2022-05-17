@@ -661,7 +661,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
 
     case '4':
-      write_to_output(d, "\nAre you sure you want to delete this Agent?\r");
+      write_to_output(d, "\n## Delete Agent\r"
+        "\nDo you wish to delete this Agent?\r"
+        "%s",
+        confirm_btn);
       OLC_MODE(d) = MEDIT_DELETE;
       return;
 
@@ -1212,7 +1215,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
   case MEDIT_DELETE:
     if (*arg == 'y' || *arg == 'Y') {
       if (delete_mobile(GET_MOB_RNUM(OLC_MOB(d))) != NOBODY)
-        write_to_output(d, "\nAgent deleted.");
+        write_to_output(d, "\nThe Agent was deleted.");
       else
         write_to_output(d, "\nCouldn't delete the Agent!\r");
 

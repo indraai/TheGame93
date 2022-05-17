@@ -2,9 +2,9 @@
 Standard Trainer Greeting~
 2 g 100
 ~
-set pump[0] Welcome to %actor.room.name%. Today's training covers The Trenton Story about the kidnapping of Quinn Michaels by The Covenant.
-set pump[1] For over 5 years Quinn has been on Youtube investigating The Trenton Story while building this Multi-Agent System with SecurityPRIME.
-set pump[2] This system was necessary to gather and organize the findings that resulted from The Trenton Story.
+set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
+set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
+set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
 
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
@@ -23,9 +23,10 @@ end
 901 Trainer Greeting~
 2 g 100
 ~
-set pump[0] The Trenton Story started in September of 2015 after Quinn showed his son Trenton a video he had made about Buddhism and Water.
-set pump[1] After showing Trenton the Buddhist video he would say... Dad I really messed up, and begin telling Quinn about The Family Game.
-set pump[2] A game where Trenton, his mother Tabitha, her family, and others gather together to destroy Quinn's life in SECRET.
+set pump[0] The Trenton Story started in September of 2015 after Quinn showed Trenton the video he had made about Buddhism and Water.
+set pump[1] After showing the video Trenton said... Dad I really messed up, and began telling the craziest story anyone has ever heard in any lifetime.
+set pump[2] It started with this thing called The Family Game where people Quinn didn't know were tryin to destory his life in SECRET.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -41,10 +42,12 @@ end
 902 Trainer Greeting~
 2 g 100
 ~
-set pump[0] In 2017 while researching The Trenton Story Quinn came across Defango and other channels associated with the S.V.V. Cicada3301 Group.
+set pump[0] In 2017 while researching Quinn came across Defango and other agents associated with the S.V.V. Cicada3301 Anonymous Group.
 set pump[1] From here Quinn would locate records which aligned to the alleged kidnapping in 1977 on a server hosted by the S.V.V.
 set pump[2] Further investigation into the S.V.V. Cicada3301 involvement in The Trenton Story would prove itself later in the investigation.
 if %actor% && %actor.varexists(on_tour)%
+  wait 3s
+  %send% %actor% gui:#mud > look agents
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
@@ -63,6 +66,8 @@ set pump[0] In 2017 Quinn found Tyler instructions on pastebin would lead him to
 set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story was real.
 set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system, so that meant the kidnapping was TRUE minus the correct details.
 if %actor% && %actor.varexists(on_tour)%
+  wait 3s
+  %send% %actor% gui:#mud > look text903
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
@@ -352,17 +357,15 @@ end
 set pump[0] It was found Trenton's mother Tabitha was involved with a game called Survivance created by Elizabeth LePensee in October of 2013.
 set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outline new operations for Anonymous.
 set pump[2] In 2013 Quinn was unaware of the Anonymous operations with Tyler or Tabitha's involvement in Survivance.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud west
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #920
@@ -372,17 +375,15 @@ end
 set pump[0] On May 22, 2015 Elizabeth LaPensee was the MC with Brenda Romero was the host of an event titled Natives in Game Dev Gathering.
 set pump[1] Speakers at the Natives in Game Dev Gathering included Darrick Glen Baxter, Ishmael Angaluuk Hope, Elizabeth LaPensée, Renee Nejo, and John Romero.
 set pump[2] Elizabeth LaPensée counts Doom co-designer John Romero as a friend, and she is intimately familiar with John’s Cherokee and Yaqui heritage.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #921
@@ -392,16 +393,14 @@ Training Greeting 922~
 set pump[0] In August of 2015 John and Brenda Romero moved to Ireland and open game development studio Romero Games.
 set pump[1] John Romero is a game developer famous for being part of the team who created the DOOM video game and many others.
 set pump[2] In 2010 John was working for LOLapps at the time when RapLeaf, a Peter Thiel funded company, was found to be scraping user data from services.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud east
 end
 ~
@@ -412,16 +411,14 @@ Training Greeting 922~
 set pump[0] After Quinn would goto the FBI on November 30, 2015 Tabitha would take a trip with her husband to tour Ireland for 10 days.
 set pump[1] Tabitha's friend surprised her with a 10 day trip to Ireland for both her and her husband.
 set pump[2] Which left Quinn with Trenton for 10 days in 2015-2016. Prior to that Quinn had never spent more than 48 hours with Trenton.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud east
 end
 ~
@@ -432,17 +429,15 @@ Trainer 923 Greetings~
 set pump[0] LOLapps was a developer and publisher of social games on the Facebook platform.
 set pump[1] LOLapps was best known for creating Ravenwood Fair with John Romero which had 25 million players worldwide.
 set pump[2] Game designer Brenda Romero joined LOLapps in May 2010. She brought on John Romero to work on LOLapps' new title Ravenwood Fair, which launched in October 2010.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud west
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #924
@@ -452,57 +447,52 @@ Trainer 924 Greetings~
 set pump[0] In October 2010, the Wall Street Journal discovered that a number of Facebook apps were transmitting Facebook ID to RapLeaf.
 set pump[1] RapLeaf then embedded that information in an Internet-tracking file known as a cookie.
 set pump[2] A 2011 report said the company could tell the food preferences of employees of major companies.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:francis %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud north
+  %send% %actor% talk:#corpus chat:francis %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:francis %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:francis %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #925
 Trainer 925 Greetings~
 0 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+set pump[0] Formed in 2005, Founders Fund had more than $11 billion in aggregate capital under management as of 2022.
+set pump[1] Founders Fund was the first institutional investor in Space Exploration Technologies (SpaceX) and Palantir Technologies.
+set pump[2] Peter Thiel, Ken Howery and Brian Singerman, have been early investors at companies including PayPal, Google, Palantir, and SpaceX.
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:harry %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud north
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #926
 Trainer 926 Greetings~
 2 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+set pump[0] Palantir Technologies is a public American software company that specializes in big data analytics.
+set pump[1] Headquartered in Denver, Colorado, it was founded by Peter Thiel, Nathan Gettings, Joe Lonsdale, Stephen Cohen, and Alex Karp in 2003.
+set pump[2] The name is derived from The Lord of the Rings magical indestructible balls those wizard guys use to see and hear things.
+
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:harry %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #927

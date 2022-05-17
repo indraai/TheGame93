@@ -58,13 +58,11 @@ if %speech% == start tour
   wait 2s
   %send% %actor% The tour will begin shortly.
   wait 10s
-  %send% %actor% talk:#corpus say:brian During the tour we will be walking through Training Level 1. In each room is an agent to assist you.
+  %send% %actor% talk:#corpus say:brian Welcome to the tour of Training Level 1.
   wait 10s
-  %send% %actor% talk:#corpus say:brian When the Level 1 tour is complete you will be escorted to the next level where you can continue training or exit.
+  %send% %actor% talk:#corpus say:brian These are training exercises, and not factual true proven legal understood events. Wink Wink.
   wait 10s
-  %send% %actor% talk:#corpus say:brian These are training exercises, and not factual true proven events. Double Air quotes.
-  wait 10s
-  %send% %actor% talk:#corpus say:brian  Thank you, and have a nice day. Your tour will begin in 30 seconds.
+  %send% %actor% talk:#corpus say:brian  Your tour will begin in 30 seconds. Thank you, and have a nice day.
   wait 30s
   %send% %actor% gui:#mud north
 end

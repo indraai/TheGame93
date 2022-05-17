@@ -703,12 +703,12 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  "\nselect[l:timer]:%d\r"
     "\nselect[m:min level]:%d\r"
 	  "\nselect[n:liquid]:%d %d %d %d\r"
-	  "\nselect[o:tags]:%s\r"
-	  "\nselect[p:triggers]:%s\r"
     "\n::begin:buttons\r"
-    "\nbmud[applies to]:1\r"
-    "\nbmud[copy object]:2\r"
-    "\nbmud[delete object]:3\r"
+    "\nbmud[tags%s]:1\r"
+	  "\nbmud[triggers%s]:2\r"
+    "\nbmud[applies to]:3\r"
+    "\nbmud[copy object]:4\r"
+    "\nbmud[delete object]:5\r"
     "\n::end:buttons\r"
 	  "\nmenu[quit]:0\r",
 	  buf1,                  //wear
@@ -781,14 +781,30 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       }
       return;
     case '1':
-      oedit_disp_prompt_apply_menu(d);
+      /* If extra descriptions don't exist. */
+      if (OLC_OBJ(d)->ex_description == NULL) {
+        CREATE(OLC_OBJ(d)->ex_description, struct extra_descr_data, 1);
+        OLC_OBJ(d)->ex_description->next = NULL;
+      }
+      OLC_DESC(d) = OLC_OBJ(d)->ex_description;
+      oedit_disp_extradesc_menu(d);
       break;
     case '2':
+      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
+      dg_script_menu(d);
+      return;
+    case '3':
+      oedit_disp_prompt_apply_menu(d);
+      break;
+    case '4':
       write_to_output(d, "\nWhat object would you like to copy?\r");
       OLC_MODE(d) = OEDIT_COPY;
       break;
-    case '3':
-      write_to_output(d, "\nDo you wish to delete this object?\r");
+    case '5':
+      write_to_output(d, "\n## Delete Object\r"
+        "\nDo you wish to delete this Object?\r"
+        "%s",
+        confirm_btn);
       OLC_MODE(d) = OEDIT_DELETE;
       break;
     case 'a':
@@ -875,19 +891,6 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
       oedit_disp_val1_menu(d);
       break;
-    case 'o':
-      /* If extra descriptions don't exist. */
-      if (OLC_OBJ(d)->ex_description == NULL) {
-        CREATE(OLC_OBJ(d)->ex_description, struct extra_descr_data, 1);
-        OLC_OBJ(d)->ex_description->next = NULL;
-      }
-      OLC_DESC(d) = OLC_OBJ(d)->ex_description;
-      oedit_disp_extradesc_menu(d);
-      break;
-    case 'p':
-      OLC_SCRIPT_EDIT_MODE(d) = SCRIPT_MAIN_MENU;
-      dg_script_menu(d);
-      return;
     default:
       oedit_disp_menu(d);
       break;
