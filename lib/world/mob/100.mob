@@ -7,7 +7,7 @@ Gunnar Larsen~
 10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 1 0
 BareHandAttack: 5
 E
 T 1000
@@ -20,7 +20,7 @@ It looks unfinished.10001/main:look
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1
+8 8 1 0
 E
 T 1001
 #10003
@@ -32,7 +32,7 @@ talk:#adv thegame:agent 1003/main:look
 2138 0 0 0 2048 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0
+8 8 0 0
 E
 T 1003
 #10010
@@ -44,7 +44,7 @@ Angel Bird (fledgling)~
 10 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 8
+8 8 8 0
 BareHandAttack: 4
 E
 #10011
@@ -56,7 +56,7 @@ Angel Bird~
 10 0 0 0 0 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 8
+8 8 8 0
 Str: 13
 Dex: 13
 Int: 13
@@ -100,7 +100,7 @@ Professor Bruckner~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1
+8 8 1 0
 E
 #10028
 professor bruckner underground kingdom cyoa~
@@ -111,7 +111,7 @@ talk:#adv thegame:agent 1028/main:look
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1
+8 8 1 0
 E
 #10029
 professor bruckner underground kingdom cyoa~
@@ -122,7 +122,7 @@ Professor Bruckner~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1
+8 8 1 0
 E
 #10044
 ket raka underground kingdom cyoa~
@@ -133,7 +133,7 @@ Ket Raka~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 1
+6 6 1 0
 BareHandAttack: 10
 SavingPara: 1
 SavingRod: 1
@@ -150,7 +150,7 @@ Akim Raka~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 1
+6 6 1 0
 BareHandAttack: 10
 SavingPara: 1
 SavingRod: 1
@@ -167,7 +167,7 @@ Tor Raka~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 1
+6 6 1 0
 BareHandAttack: 10
 SavingPara: 1
 SavingRod: 1
@@ -184,7 +184,7 @@ Kota Beast~
 74 0 0 0 2048 0 0 0 -200 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 8
+8 8 8 0
 BareHandAttack: 11
 SavingPara: 2
 SavingRod: 2
@@ -201,7 +201,7 @@ Blue Raka~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 1
+6 6 1 0
 BareHandAttack: 10
 SavingPara: 1
 SavingRod: 1
@@ -218,7 +218,7 @@ Raka Guard~
 74 0 0 0 2048 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1
+8 8 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -234,7 +234,7 @@ Tomo~
 8 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1
+8 8 1 0
 E
 #10066
 dr nera vivaldi underground empire cyoa~
@@ -245,7 +245,7 @@ Dr. Vivaldi~
 74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 2
+8 8 2 0
 E
 #10075
 professor bruckner underground kingdom cyoa~
