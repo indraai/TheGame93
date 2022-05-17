@@ -31,7 +31,7 @@ Talk to Barry~
 0 d 100
 *~
 wait 5s
-%send% %actor% talk:#pandora ask:barry %speech%
+%send% %actor% 
 ~
 #95
 Arjika Dayshift~

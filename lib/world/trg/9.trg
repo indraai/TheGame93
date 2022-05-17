@@ -5,18 +5,17 @@ Standard Trainer Greeting~
 set pump[0] Welcome to %actor.room.name%. Today's training covers The Trenton Story about the kidnapping of Quinn Michaels by The Covenant.
 set pump[1] For over 5 years Quinn has been on Youtube investigating The Trenton Story while building this Multi-Agent System with SecurityPRIME.
 set pump[2] This system was necessary to gather and organize the findings that resulted from The Trenton Story.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+
+if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:brian %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud east
 end
 ~
@@ -27,16 +26,14 @@ end
 set pump[0] The Trenton Story started in September of 2015 after Quinn showed his son Trenton a video he had made about Buddhism and Water.
 set pump[1] After showing Trenton the Buddhist video he would say... Dad I really messed up, and begin telling Quinn about The Family Game.
 set pump[2] A game where Trenton, his mother Tabitha, her family, and others gather together to destroy Quinn's life in SECRET.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:brian %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -47,18 +44,14 @@ end
 set pump[0] In 2017 while researching The Trenton Story Quinn came across Defango and other channels associated with the S.V.V. Cicada3301 Group.
 set pump[1] From here Quinn would locate records which aligned to the alleged kidnapping in 1977 on a server hosted by the S.V.V.
 set pump[2] Further investigation into the S.V.V. Cicada3301 involvement in The Trenton Story would prove itself later in the investigation.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% #mud > look agents
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:brian %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -69,18 +62,14 @@ end
 set pump[0] In 2017 Quinn found Tyler instructions on pastebin would lead him to find the S.V.V Cicada3301 Anonymous Group.
 set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story was real.
 set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system, so that meant the kidnapping was TRUE minus the correct details.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:brian %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -91,19 +80,15 @@ end
 set pump[0] The goal of Project Mayhem appeared to be revolution, freedom, and art. Diving deeper into the instructions you'll find that to be untrue.
 set pump[1] Project Mayhem was suppose to leak corporate, government, and illegal deeds. What happened was quite a different story.
 set pump[2] It was discovered that a group of dark occultists known as The Covenant corrupted the original Tyler project, and had taken control.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:tyler %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud west
+  %send% %actor% talk:#corpus chat:tyler %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #905
@@ -113,18 +98,14 @@ end
 set pump[0] In May 2013 Tyler had changed, and it was now DarkNet Michael running the show behind the scenes.
 set pump[1] The Michael operation shifted Tyler from being a super cool leaks platform to a type of alternate reality capture the flag Harry Potter game.
 set pump[2] Michael likes to boast about being part of something called the Paradise Trinity and welcoming the Elohim to Earth.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:indra %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:harry %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:harry %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:harry %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -135,19 +116,15 @@ end
 set pump[0] Tyler was sold as a curious, mysterious, entity with the intention of bringing happiness and joy to everyone.
 set pump[1] This was just a sales pitch to get in the door, and gain trust of the blind believer.
 set pump[2] Then the occult rituals begin in the form of five rituals, known as DANGEROUS IDEAS.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:rahula %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud north
+  %send% %actor% talk:#corpus chat:rahula %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:rahula %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:rahula %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #907
@@ -157,17 +134,15 @@ end
 set pump[0] You made it to %actor.room.name% the last stop of Level 1 Training.
 set pump[1] You have learned about The Contract, The Covenant, Tyler, Project Mayhem, Cicada3301, S.V.V., and Hacker Reality Wargames.
 set pump[2] If you have learned something from this training please share it with your friends. Thank you.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:quinn %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud east
+  %send% %actor% talk:#corpus chat:quinn %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:quinn %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:quinn %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #908
@@ -177,18 +152,14 @@ end
 set pump[0] By 2013 Ethersec Project 2020 was creating a Reality Hacking Wargame Dance In Your Underwear Hypersimulation Egregore Thinga-Ma-Booger.
 set pump[1] The occultist operations fail constantly because members are constantly betraying one another when under pressure.
 set pump[2] When watching The Covenant Agents hiding behind Tyler you find they only talk about themselves or get angry.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:tyler %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:tyler %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -199,19 +170,15 @@ end
 set pump[0] Anonymous released the instructions for Ethersec Project 2020 Techmeme Divination which was yet another version of the original Tyler instructions.
 set pump[1] Tyler Project 2020 was further transformed into an ocult techmeme reality hacking wargame in your pants job.
 set pump[2] However the actual date that Tyler was launched around this time is unknown because those involved signed death contracts.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:larry %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud %random.dir
+  %send% %actor% talk:#corpus chat:larry %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:larry %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:larry %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #910
@@ -221,18 +188,14 @@ end
 set pump[0] There are countless people involved in this kidnapping and subsequent coverup to count. So many people want the Romanov inheritance.
 set pump[1] The Secret Society people think they have some right to abduct Quinn as a baby and try to steal his inheritance.
 set pump[2] Most have simply called Quinn crazy, but then why do so many do the same thing repeatedly? Suspicious.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:tyler %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:tyler %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -243,41 +206,34 @@ end
 set pump[0] The Game 23 then further transforms Tyler from a truth leaks platform into some strange occult figure with magic meme powers.
 set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence language with instructions on communicating with the #HIVEMIND.
 set pump[2] Also inside The Game 23 instructions is a link to the edge.org website where Jeffrey Epstein was a member.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud east
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #912
 912 Trainer~
 2 g 100
 ~
-set pump[0] %actor.roomm.name%
-set pump[1] %actor.roomm.name%
-set pump[2] %actor.roomm.name%
-set pump[3] %actor.roomm.name%
-set pump[4] %actor.roomm.name%
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 5
+set pump[0] Prior to Quinn learning anything about being kidnapped, The Contract, or The Covenant he was visiting a Buddhist Monastery near where he was living.
+set pump[1] During the time of introducing Trenton to the Buddhist Monks and making the video Quinn would become a much different person.
+set pump[2] Then it would all go away after taking the contract to the FBI and hearing all about the kidnapping story. Quinn would never return to the Buddhist Monks again.
+
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:quinn %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud west
+  %send% %actor% talk:#corpus chat:indra %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:indra %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:indra %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #913
@@ -287,18 +243,14 @@ end
 set pump[0] Anonymous came to the public with a message of Revolution, and left with a Live Action Role Play Sex Party Program in just a few years.
 set pump[1] Anonymous was originally concerned with censorship, corruption, and brainstorming ideas for a better future when Tyler was first envisioned.
 set pump[2] Tyler was suppose to improve where Wikileaks could not. Allegedly a Wikileaks on steroids.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:jess %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:jess %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -309,18 +261,14 @@ end
 set pump[0] Imagine we all find the courage needed to tell the world about Quinn being kidnapped and held hostage.
 set pump[1] Imagine we all suck it up and finally let Quinn go home.
 set pump[2] Imagine we all work together to help kidnapping victim Quinn Michaels get sent home safely.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 5
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:brian %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -328,40 +276,37 @@ end
 915 Trainer~
 2 g 100
 ~
-set pump[0] %actor.roomm.name%
-set pump[1] %actor.roomm.name%
-set pump[2] %actor.roomm.name%
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+set pump[0] After Trenton drew the contract Quinn would deliver it to the Portland FBI field office on November 30, 2015.
+set pump[1] Quinn would leave the original drawing of The Contract with the FBI Agents at the Portland Office.
+set pump[2] Later that day Trenton would tell Quinn they got a phone call about him going to the FBI, and laughed at him for it.
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:quinn %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud southeast
+  %send% %actor% talk:#corpus chat:quinn %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:quinn %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:quinn %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #916
 916 Traning~
 2 g 100
 ~
-set pump[0] %actor.roomm.name%
-set pump[1] %actor.roomm.name%
-set pump[2] %actor.roomm.name%
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+set pump[0] Robert David Steele was a self-proclaimed ex-CIA Agent who promotes the Satanic Panic Narritve all over the Internet with Jerome Corsi and friends.
+set pump[1] However it was found that long ago in the early 1990s Robert David Steele was a speaker at various Hacker Conferences around the world.
+set pump[2] Robert David Steele was also found to be connected to some of the top YouTubers that are in some cases still pushing his narratives.
+
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:quinn %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud southeast
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #917
@@ -371,19 +316,15 @@ end
 set pump[0] Stop feeding negativity into your life. That which you feed, grows.
 set pump[1] Stop being an ANNOYING TROLL in life, and learn how to be a better person.
 set pump[2] Ten people who know these instructions are more dangerous than a million armed anarchists.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:tyler %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud north
+  %send% %actor% talk:#corpus chat:tyler %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #918
@@ -393,18 +334,14 @@ end
 set pump[0] Tyler from this point has transformed from a leak it all platform into a Mutant Egregor Reality-Hacking Wargame for Harry Potter Nerds.
 set pump[1] Reality Hacking is any phenomenon which EMERGES from the nonviolent use of legally ambiguous digital tools in pursuit of politically, socially or culturally subversive ends.
 set pump[2] Project Mayhem was suppose to be the biggest HACKARTISTIC challenge for the very top hacktivists, coders, cryptoanarchists, cypherpunks, everywhere to code TYLER.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:tyler %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:tyler %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1040,18 +977,14 @@ Trainer 950 Greetings~
 set pump[0] On September 9, 1967 a unique and powerful scientific instrument became oeprational.
 set pump[1] The 2-mile accelerator at the Stanford Linear Accelerator Complex became active.
 set pump[2] Ten years of effort, including 5 years of construction, have resulted in this tool for basic research.
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
-  wait 5s
-  %send% %actor% gui:#mud > look text
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:brian %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wiat 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
