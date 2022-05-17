@@ -31,7 +31,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -49,7 +49,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -67,7 +67,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -85,7 +85,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -103,7 +103,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:harry %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -121,7 +121,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:rahula %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:rahula %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:rahula %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -139,7 +139,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:quinn %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:quinn %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:quinn %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -157,7 +157,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -175,7 +175,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:larry %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:larry %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:larry %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -193,7 +193,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -211,7 +211,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -230,7 +230,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:indra %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:indra %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:indra %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -248,7 +248,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -266,7 +266,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -284,7 +284,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:quinn %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:quinn %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:quinn %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -303,7 +303,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -321,7 +321,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -339,7 +339,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -982,7 +982,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
-  wiat 15s
+  wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
