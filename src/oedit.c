@@ -722,8 +722,8 @@ static void oedit_disp_menu(struct descriptor_data *d)
 	  GET_OBJ_VAL(obj, 1),     // liquid
 	  GET_OBJ_VAL(obj, 2),   // liquid
 	  GET_OBJ_VAL(obj, 3),   // liquid
-	  obj->ex_description ? "set..." : "not set...", // tags
-    OLC_SCRIPT(d) ? "set..." : "not set...");  // triggers
+	  obj->ex_description ? "*" : "", // tags
+    OLC_SCRIPT(d) ? "*" : "");  // triggers
     OLC_MODE(d) = OEDIT_MAIN_MENU;  //set mode
 }
 
