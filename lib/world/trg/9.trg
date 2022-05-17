@@ -499,25 +499,23 @@ end
 Trainer 927 Greetings~
 2 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
-if %actor.varexists(on_tour)%
-  set i 0
-  set m 3
+set pump[0] GhostNet is the name given by researchers at the Information Warfare Monitor to a large-scale cyber spying operation discovered in March 2009.
+set pump[1] The operation is likely associated with an advanced persistent threat, or a network actor that spies undetected.
+set pump[2] GhostNet has infiltrated high-value political, economic and media locations in 103 countries.
+if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  while %i% < %m% && %actor%
-    eval pumpit %%pump[%i%]%%
-    %send% %actor% talk:#corpus chat:harry %pumpit%
-    eval i %i% + 1
-    wait 33s
-  done
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 #928
 Trainer 928 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
