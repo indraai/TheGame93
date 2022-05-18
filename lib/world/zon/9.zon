@@ -1,7 +1,10 @@
 #9
 Quinn~
 Training L1~
-900 999 15 2 d 0 0 0 1 -1
+800 999 15 2 d 0 0 0 1 -1
+M 0 800 1 800 	(the_uT 800)
+O 0 800 99 800 	(keywords)
+M 0 801 1 801 	(RLoxley)
 M 0 916 1 916 	(Steeler 916)
 M 0 974 1 974 	(Jeffrey 974)
 M 0 978 1 978 	(Natasha 978)
