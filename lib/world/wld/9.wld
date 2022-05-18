@@ -275,7 +275,7 @@ D5
 S
 T 911
 #912
-Training Room 912~
+Pacific Hermitage~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -332,7 +332,7 @@ D6
 S
 T 914
 #915
-Training Room 915~
+FBI~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -1285,8 +1285,8 @@ You are in an unfinished room.
 9 0 0 0 0 0
 D1
 ~
-~
-0 0 900
+Return~
+1 0 900
 D5
 ~
 ~
