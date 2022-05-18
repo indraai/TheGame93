@@ -505,6 +505,7 @@ D0
 ~
 0 0 965
 S
+T 931
 #932
 Sasha Chislenko~
 Welcome to the Sasha Chislenko room.
@@ -546,6 +547,7 @@ D8
 ~
 0 0 -1
 S
+T 916
 #934
 The Beyond~
 You are in an unfinished room.
@@ -656,16 +658,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 941
@@ -1084,6 +1086,7 @@ D7
 ~
 0 0 964
 S
+T 962
 #963
 Larry Klayman~
 [DESCRIBE]~
@@ -1097,6 +1100,7 @@ D6
 ~
 0 0 931
 S
+T 963
 #964
 Laura Loomer~
 0964/main:look
@@ -1111,6 +1115,7 @@ D6
 ~
 0 0 965
 S
+T 964
 #965
 InfoWars~
 You are in an unfinished room.
@@ -1121,6 +1126,7 @@ D0
 ~
 0 0 966
 S
+T 965
 #966
 The Kremlin~
 You are in an unfinished room.
@@ -1216,22 +1222,23 @@ D0
 ~
 0 0 971
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
+T 972
 #973
 George Mikhailovich~
 You are in an unfinished room.
@@ -1242,22 +1249,23 @@ D0
 ~
 0 0 972
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
+T 973
 #974
 Jeffrey Epstein Foundation~
 You are in an unfinished room.
@@ -1268,6 +1276,7 @@ D0
 ~
 0 0 978
 S
+T 974
 #975
 Intelligenesis~
 You are in an unfinished room.
@@ -1286,6 +1295,7 @@ D8
 ~
 0 0 976
 S
+T 975
 #976
 Webmind Brazil~
 You are in an unfinished room.
@@ -1296,6 +1306,7 @@ D0
 ~
 0 0 977
 S
+T 976
 #977
 OpenCog~
 You are in an unfinished room.
@@ -1310,6 +1321,7 @@ D8
 ~
 0 0 974
 S
+T 977
 #978
 Humanity Plus~
 You are in an unfinished room.
@@ -1320,4 +1332,5 @@ D0
 ~
 0 0 973
 S
+T 978
 $~

@@ -43,7 +43,6 @@ end
 set pump[0] Then Quinn was doing some research In 2017 and came across this dude Defango and other dudes in the S.V.V. Cicada3301 Anonymous Group.
 set pump[1] Quinn was like oh shit and found some  records which aligned to the kidnapping parts of The Trenton Story.
 set pump[2] Further exploring into the S.V.V. Cicada3301 involvement in The Trenton Story would be HUGE like that one building.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look agents
@@ -516,7 +515,6 @@ Trainer 928 Greetings~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
 set pump[2] %actor.room.name%
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -566,7 +564,7 @@ end
 ~
 #931
 Trainer 931 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -697,7 +695,6 @@ Trainer 938 Kibology~
 set pump[0] Kibology is a parody religion. Practitioners of Kibology are called Kibologists or Kibozos which began in 1989.
 set pump[1] In its early Usenet days it was centered in the newsgroups talk.bizarre and alt.slack, until the creation of alt.religion.kibology in 1991.
 set pump[2] The alt.religion.kibology newsgroup remained active through the 1990s.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -716,7 +713,6 @@ Trainer 939 Evil Mud~
 set pump[0] EVIL Mud is a multi-user dungeon in a social setting for dark humor, freedom of expression, and commentary.
 set pump[1] No, it's not a game, it's more like a virtual bar. But more than that you can explore more than 2000 rooms that have been built on the mud.
 set pump[2] The wizards on EVIL Mud are XIBO VASUDEVA and TARRANT. XIBO owns the mud and maintains it, while VASUDEVA is the author of the source code.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -807,7 +803,6 @@ Trainer 944 Greetings~
 set pump[0] The SATAN Software was written by Dan Farmer who is a big time hacker guy.
 set pump[1] Dan Farmer likes to have his hair look similar to that girl in the White Snake video.
 set pump[2] However we have found he is part of a network of technology people who believe they are in a 1990s rock band.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -826,7 +821,6 @@ Trainer 945 Greetings~
 set pump[0] The Beyond HOPE Conference was a Hacker Conference in New York during August 1994.
 set pump[1] Robert David Steele, Ray Kaplan, and Eric Hughes attended the conference.
 set pump[2] The HOPE conference was linked to a Hacking In Progress Conference that happened at the same time in the Netherlands.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -845,7 +839,6 @@ Trainer 946 Greetings~
 set pump[0] HIP is a place for hackers, artists, activists and many, many others to network themselves.
 set pump[1]  A campsite full of PCs, laptops, and Unix machines, all connected via an Ethernet to the Internet.
 set pump[2] Hundreds of hackers spent three days building their own network between their tents in the middle of nowhere.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -864,7 +857,6 @@ Trainer 947 Greetings~
 set pump[0] The WELL was an online gathering place like no other - remarkably uninhibited, intelligent, and iconoclastic.
 set pump[1] For fifteen years it's was a literate watering hole for artists, journalists, programmers, educators or activists.
 set pump[2] The WELL is a cluster of electronic villages on the Internet, inhabited by people from from all over the world.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -883,7 +875,6 @@ Trainer 948 Cobra Lounge~
 set pump[0] CobraLounge, for modern times, first appeared in San Francisco in 1987.
 set pump[1] Hosted by SPOONMAN, with his venomous consort COBRA WOMAN.
 set pump[2] It offered a wicked and otherworldly vaudeville showcase for over 200 performers, artists, musicians, and technologists.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -902,7 +893,6 @@ Trainer 949 Spoonkids~
 set pump[0] Spoonkids and Cobra Lounge was a performance headed by Brenda Laurel in 1993.
 set pump[1] Brenda Laurel and friends secretly launched the SpoonKids agents into the internet behind their performance.
 set pump[2] From here The Covenant was able to covertly control their network since 1993 behind all other networks.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -977,7 +967,6 @@ set pump[1] Critics have described Larry Klayman as a racist, a frivolous litiga
 set pump[2] Larry Klayman has also appeard on Crowdsource the Truth on several occasions.
 set pump[3] Through Judicial Watch, Klayman filed around 18 lawsuits against the Clinton administration, alleging ethical misconduct and criminal activity.
 set pump[4] In 2018, Klayman, on the behalf of Freedom Watch and Laura Loomer, filed an unsuccessful lawsuit against Google, Facebook, Twitter, and Apple.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1000,7 +989,6 @@ Trainer 964 Laura Loomer~
 set pump[0] Laura Loomer is an American far-right and anti-Muslim political activist, conspiracy theorist, and internet personality.
 set pump[1] Loomer has been banned from numerous social media platforms, payment processors, and vehicles for hire/food delivery apps for various reasons
 set pump[2] After Loomer was banned she filed a lawsuit in 2018 against Twitter, Apple, Facebook, and Google with right-wing activist lawyer Larry Klayman.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:jess %pump[0]%
@@ -1019,7 +1007,6 @@ Trainer 965 Alex Jones~
 set pump[0] Alex Jones is the famous conspiracy theorist behind InfoWars that loves to spread conspiracy mis-information.
 set pump[1] InfoWars has been at the edge of countless unproven conspiracies from The Grove to Satanic Baby eaters. They cover it all.
 set pump[2] Besides covering unproven conspiracies they sell tons of products like Male Vitality, B-12 vitamins, and toothpaste.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1038,7 +1025,6 @@ Trainer 966 The Kremlin~
 set pump[0] Welcome to The Kremlin where they position actors in the U.S.A and work to hide the kidnapped Romanov.
 set pump[1] The Kremlin operates countless agent cells here in the U.S.A. So many it seems like they come here like summer camp.
 set pump[2] Inside The Kremlin we call it Camp America where everyone goes on vacation to the land of American to earn merit badges.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1057,7 +1043,6 @@ Trainer 967 RussianBots~
 set pump[0] Have you seen all the Russian Bots that are deployed by the Russians? It's from this technology made by a guy who committed suicice.
 set pump[1] The Russians didn't really make their BotNet as Putin had agents heist it after he became president from a suicide victime named Sasha Chislenko.
 set pump[2] The most important part of the whole invenstigation is Sasha Chislenko, and his robots that were taken by Putin's Agents.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1076,7 +1061,6 @@ Trainer 968 Saint Petersburg University~
 set pump[0] Saint Petersburg University is where most of the Russian Bots get deployed from through various means.
 set pump[1] After Putin stole Sasha's code he gave it to the Scientists/Engineers at Saint Petersburg University.
 set pump[2] Then various hacker groups who work on the project release the bots under #DarkSec and other cool evil sounding names.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1095,7 +1079,6 @@ Trainer 969 The KGB~
 set pump[0] What can we say about The KGB? Sometimes it seems that there are too many spies around to count.
 set pump[1] Does everyone in Russia join the KGB and become a spy or informant who rats out their friends and family?
 set pump[2] The KGB was formed from the NKVD which was formed after the Romanovs were taken to the cleaners.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1141,5 +1124,47 @@ if %actor% && %actor.varexists(on_tour)%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
 end
+~
+#972
+Trainer 972 Duchess Maria~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#973
+Trainer 973 George Mikhailovich~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#974
+Trainer 974 Epstein~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#975
+Training 975 Intelligenesis~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#976
+Trainer 976 Webmind~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#977
+Trainer 977 OpenCog~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#978
+Trainer 978 Humanity Plus~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
 ~
 $~
