@@ -378,6 +378,7 @@ D1
 ~
 0 0 919
 S
+T 922
 #923
 LOLapps~
 You are in an unfinished room.
@@ -407,6 +408,7 @@ D0
 ~
 0 0 925
 S
+T 924
 #925
 Founders Fund~
 0925/main:look
@@ -421,6 +423,7 @@ D6
 ~
 0 0 942
 S
+T 925
 #926
 Palantir~
 [DESCRIBE]~
@@ -588,6 +591,7 @@ D3
 ~
 0 0 937
 S
+T 936
 #937
 alt.* group~
 You are in an unfinished room.
@@ -658,16 +662,16 @@ D3
 ~
 0 0 949
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 T 941
@@ -1222,20 +1226,20 @@ D0
 ~
 0 0 971
 E
-photo0~
-0972/main:photo0
-~
-E
-photo1~
-0972/main:photo1
+photo3~
+0972/main:photo3
 ~
 E
 photo2~
 0972/main:photo2
 ~
 E
-photo3~
-0972/main:photo3
+photo1~
+0972/main:photo1
+~
+E
+photo0~
+0972/main:photo0
 ~
 S
 T 972
@@ -1249,20 +1253,20 @@ D0
 ~
 0 0 972
 E
-photo0~
-photo0
-~
-E
-photo1~
-photo1
+photo3~
+photo3
 ~
 E
 photo2~
 photo2
 ~
 E
-photo3~
-photo3
+photo1~
+photo1
+~
+E
+photo0~
+photo0
 ~
 S
 T 973

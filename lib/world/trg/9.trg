@@ -438,7 +438,7 @@ end
 ~
 #924
 Trainer 924 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] In October 2010, the Wall Street Journal discovered that a number of Facebook apps were transmitting Facebook ID to RapLeaf.
 set pump[1] RapLeaf then embedded that information in an Internet-tracking file known as a cookie.
@@ -456,7 +456,7 @@ end
 ~
 #925
 Trainer 925 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Formed in 2005, Founders Fund had more than $11 billion in aggregate capital under management as of 2022.
 set pump[1] Founders Fund was the first institutional investor in Space Exploration Technologies (SpaceX) and Palantir Technologies.
@@ -654,7 +654,7 @@ end
 ~
 #936
 Trainer 936 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] Satanic Sysadmins, a little island of evil in a boiling red sea of luse.
 set pump[1] Many wonder what it is system administrators do at night. Well, I am here to tell you... THEY F***IN WORSHIP S***N!
