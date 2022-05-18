@@ -37,6 +37,16 @@ SavingPetri: 6
 SavingBreath: 6
 SavingSpell: 6
 E
+#802
+trainer training agent 802 shok matt conover~
+Shok 802~
+802/main:avatar~
+802/main:look~
+76 0 0 0 0 0 0 0 -200 E
+5 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
 #900
 trainer training agent 900 trenton lavery~
 Trenton 900~
@@ -443,7 +453,7 @@ SavingSpell: 1
 E
 #930
 trainer training 930 hypatia~
-St. Hypatia 930~
+Hypatia 930~
 930/main:avatar~
 930/main:look~
 76 0 0 0 0 0 0 0 -175 E
@@ -620,7 +630,7 @@ Stanford 942~
 E
 #943
 trainer training 943 defcon deadaddict~
-DeadAddict~
+DeadAddict 943~
 943/main:avatar~
 943/main:look~
 76 0 0 0 0 0 0 0 -230 E
@@ -650,13 +660,13 @@ SavingSpell: 1
 E
 #945
 trainer training 945 emmanuel 2600~
-Emmanuel~
+Emmanuel 945~
 945/main:avatar~
 945/main:look~
 76 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 0
 E
 #946
 trainer training 946 hip~
@@ -850,7 +860,7 @@ SecurityPRIME SPY-KGB~
 2140 0 0 0 2168 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 3
+8 8 1 1
 BareHandAttack: 14
 SavingPara: 3
 SavingRod: 3
