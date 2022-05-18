@@ -1,13 +1,13 @@
 #900
-trainer training agent 900~
-Trainer 900~
+trainer training agent 900 trenton lavery~
+Trenton 900~
 0900/main:avatar~
 0900/main:look
 ~
 76 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 0 0
+8 8 1 0
 E
 #901
 trainer training agent 901~
@@ -135,7 +135,7 @@ PM2020 910~
 76 0 0 0 0 0 0 0 -211 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -911,7 +911,7 @@ trainer training agent 968 peter great romanov~
 Peter the Great~
 968/main:avatar~
 968/main:look~
-78 0 0 0 8 0 0 0 500 E
+76 0 0 0 8 0 0 0 500 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 0
@@ -938,7 +938,7 @@ SavingSpell: 3
 E
 #970
 trainer training agent 970 patriarch orthodox russian kirill~
-Patriarch Kirill~
+Patriarch 970~
 970/main:avatar~
 970/main:look~
 76 0 0 0 0 0 0 0 -1000 E
