@@ -1,3 +1,75 @@
+#800
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 801
+S
+#801
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 802
+S
+#802
+Training Room 802~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 803
+S
+#803
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 804
+S
+#804
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 805
+S
+#805
+Training Room 805~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 806
+S
+#806
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 807
+S
+#807
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D4
+~
+~
+0 0 916
+S
 #900
 The Beginning~
 [DESCRIBE]~
@@ -124,10 +196,6 @@ D1
 ~
 ~
 0 0 900
-D5
-~
-~
-0 0 364
 S
 T 907
 #908
@@ -291,6 +359,10 @@ D1
 ~
 ~
 0 0 962
+D5
+~
+~
+0 0 807
 D6
 ~
 ~
@@ -662,16 +734,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 941
@@ -1226,20 +1298,20 @@ D0
 ~
 0 0 971
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
 T 972
@@ -1253,20 +1325,20 @@ D0
 ~
 0 0 972
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
 T 973

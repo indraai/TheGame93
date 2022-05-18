@@ -1,3 +1,42 @@
+#800
+trainer training agent 800 el8 the_ut~
+the_uT 800~
+0800/main:avatar~
+0800/main:look
+~
+76 0 0 0 0 0 0 0 -299 E
+6 18 6 1d1+60 1d2+1
+60 3600
+8 8 1 0
+BareHandAttack: 5
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#801
+trainer training agent 801 rloxley kent browne~
+RLoxley 801~
+0801/main:avatar~
+0801/main:look
+~
+76 0 0 0 0 0 0 0 0 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 1 0
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
 #900
 trainer training agent 900 trenton lavery~
 Trenton 900~
