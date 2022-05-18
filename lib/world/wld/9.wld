@@ -510,6 +510,10 @@ Sasha Chislenko~
 Welcome to the Sasha Chislenko room.
 ~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 975
 D2
 ~
 ~
@@ -1135,6 +1139,7 @@ D8
 ~
 0 0 970
 S
+T 966
 #967
 Russian Botnet~
 You are in an unfinished room.
@@ -1160,6 +1165,7 @@ D8
 ~
 0 0 971
 S
+T 968
 #969
 The KGB~
 You are in an unfinished room.
@@ -1184,15 +1190,92 @@ Orthodox Church~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 972
 D7
 ~
 ~
 0 0 971
 S
+T 970
 #971
 The Romanov~
 You are in an unfinished room.
 ~
 9 0 0 0 0 0
+S
+#972
+The Grand Duchess~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 971
+E
+photo0~
+0972/main:photo0
+~
+E
+photo1~
+0972/main:photo1
+~
+E
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
+~
+S
+#973
+George Mikhailovich~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 972
+E
+photo0~
+photo0
+~
+E
+photo1~
+photo1
+~
+E
+photo2~
+photo2
+~
+E
+photo3~
+photo3
+~
+S
+#974
+Jeffrey Epstein Foundation~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 973
+S
+#975
+Intelligenesis~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 974
 S
 $~
