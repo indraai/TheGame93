@@ -251,7 +251,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
   write_to_output(d, "\n## Attach\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_TRIG_TYPE_FLAGS; i++) {
-    write_to_output(d, "\nmenu[%s]:%d\r",
+    write_to_output(d, "\nbmud[%s]:%d\r",
       types[i],
       i + 1
     );
