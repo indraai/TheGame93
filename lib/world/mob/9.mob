@@ -219,7 +219,7 @@ Steeler 916~
 76 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
-6 6 1 1
+8 8 1 0
 E
 #917
 trainer training agent 917 pm2012~
@@ -414,10 +414,10 @@ St. Hypatia 930~
 E
 #931
 trainer training 931 jerome corsi~
-Scarlett 931~
+Jerome 931~
 931/main:avatar~
 931/main:look~
-78 0 0 0 0 0 0 0 250 E
+76 0 0 0 0 0 0 0 250 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -427,7 +427,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 931
 #932
 trainer training 932 sasha chislenko~
 Sasha 932~
@@ -448,7 +447,7 @@ trainer training 933 lionel agent~
 Lionel 933~
 933/main:avatar~
 933/main:look~
-78 0 0 0 0 0 0 0 -133 E
+76 0 0 0 0 0 0 0 -133 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -458,7 +457,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 933
 #934
 trainer training 0934 cyberman~
 Cyberman 934~
@@ -838,21 +836,20 @@ SavingSpell: 3
 E
 #962
 trainer training 962 agent jason goodman crowdsource~
-Jason Goodman~
+Jason 962~
 962/main:avatar~
 962/main:look~
-78 0 0 0 0 0 0 0 0 E
+76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 0
 E
-T 962
 #963
 trainer training 963 agent larry klayman~
 Larry 963~
 963/main:avatar~
 963/main:look~
-78 0 0 0 0 0 0 0 -500 E
+76 0 0 0 0 0 0 0 -500 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0
@@ -868,23 +865,21 @@ trainer training agent 964 laura loomer~
 Laura 964~
 964/main:avatar~
 964/main:look~
-78 0 0 0 0 0 0 0 -250 E
+76 0 0 0 0 0 0 0 -250 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 2 1
+8 8 2 0
 E
-T 964
 #965
 trainer training agent 965 alex jones~
 Alex 965~
 965/main:avatar~
 965/main:look~
-78 0 0 0 0 0 0 0 -250 E
+76 0 0 0 0 0 0 0 -250 E
 5 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 0
 E
-T 965
 #966
 trainer training 966 vladimir putin~
 Vladimir Putin~
@@ -981,6 +976,16 @@ George 973~
 0 0
 8 8 1 0
 E
+#974
+trainer training agent 974 jeffery epstein~
+Jeffrey 974~
+974/main:avatar~
+974/main:look~
+76 0 0 0 0 0 0 0 -500 E
+5 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
 #975
 trainer training agent 975 ben goertzel~
 Ben 975~
@@ -990,5 +995,30 @@ Ben 975~
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 0 0
+E
+#976
+trainer training agent 976 cassio pennachin singularitynet~
+Cassio 976~
+976/main:avatar~
+976/main:look~
+76 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
+#978
+trainer training agent 978 natasha vita-more~
+Natasha 978~
+978/main:avatar~
+978/main:look~
+76 0 0 0 0 0 0 0 -500 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 $
