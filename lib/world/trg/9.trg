@@ -8,7 +8,7 @@ wait 1s
 %echo% loading item %key%
 
 set items %self.contents%
-set item items.vnum(%key%)
+eval item %%items.vnum(%key%)%%
 
 %echo% item %item%
 
