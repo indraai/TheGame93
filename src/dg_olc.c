@@ -294,9 +294,11 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
        case 'b':
          OLC_MODE(d) = TRIGEDIT_INTENDED;
          write_to_output(d, "\n## Attach\r"
-          "\nmenu[Agent]:0\r"
-          "\nmenu[Object]:1\r"
-          "\nmenu[Room]:2\r");
+         "\n::begin:buttons\r"
+          "\nbmud[Agents]:0\r"
+          "\nbmud[Objects]:1\r"
+          "\nbmud[Rooms]:2\r"
+          "\n::end:buttons\r");
          break;
        case 'c':
          OLC_MODE(d) = TRIGEDIT_TYPES;
