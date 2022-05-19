@@ -8,8 +8,10 @@ wait 1s
 %echo% loading item %key%
 
 set items %self.contents%
+set item items.vnum(%key%)
 
-%echo% contents %items%
+%echo% item %item%
+
 if !items.vnum(%key%)
   %load% obj %key%
 end
