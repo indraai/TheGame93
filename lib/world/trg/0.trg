@@ -23,7 +23,7 @@ wait 1s
 Talk to Larry~
 0 d 100
 *~
-wait 3s
+wait 2s
 %send% %actor% talk:#pandora ask:larry %speech%
 ~
 #9
@@ -31,7 +31,7 @@ Talk to Barry~
 0 d 100
 *~
 wait 5s
-%send% %actor% 
+%send% %actor%
 ~
 #95
 Arjika Dayshift~
