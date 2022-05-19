@@ -21,21 +21,15 @@ RLoxley 801~
 0801/main:avatar~
 0801/main:look
 ~
-76 0 0 0 0 0 0 0 0 E
-25 12 -5 5d5+250 4d4+4
-250 62500
+76 0 0 0 0 0 0 0 -350 E
+6 18 6 1d1+60 1d2+1
+60 3600
 8 8 1 0
-Str: 16
-Dex: 16
-Int: 16
-Wis: 16
-Con: 16
-Cha: 16
-SavingPara: 6
-SavingRod: 6
-SavingPetri: 6
-SavingBreath: 6
-SavingSpell: 6
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #802
 trainer training agent 802 shok matt conover~
@@ -46,6 +40,36 @@ Shok 802~
 5 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0
+E
+#803
+trainer training agent 803 grandmaster ratte kevin wheeler~
+Ratte 803~
+803/main:avatar~
+803/main:look~
+76 0 0 0 0 0 0 0 -290 E
+8 18 5 1d1+80 1d2+1
+80 6400
+8 8 1 0
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#804
+trainer agent 804 tron boris floricic hacker suicide~
+Tron 804~
+804/main:avatar~
+804/main:look~
+76 0 0 0 0 0 0 0 -275 E
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #900
 trainer training agent 900 trenton lavery~
@@ -477,7 +501,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #932
-trainer training 932 alexander sasha chislenko~
+trainer training 932 alexander sasha chislenko suicide~
 Sasha 932~
 932/main:avatar~
 932/main:look~
@@ -1024,7 +1048,7 @@ George 973~
 8 8 1 0
 E
 #974
-trainer training agent 974 jeffery epstein~
+trainer training agent 974 jeffery epstein suicide~
 Jeffrey 974~
 974/main:avatar~
 974/main:look~
@@ -1067,5 +1091,15 @@ SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
+E
+#979
+trainer agent 979 karl koch hacker suicide~
+Karl 979~
+979/main:avatar~
+979/main:look~
+76 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
 E
 $

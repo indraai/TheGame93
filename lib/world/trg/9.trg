@@ -1311,4 +1311,10 @@ Trainer 978 Humanity Plus~
 ~
 %echo% This trigger commandlist is not complete!
 ~
+#979
+RAF Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 $~
