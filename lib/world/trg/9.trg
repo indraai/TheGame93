@@ -2,11 +2,14 @@
 Standard Trainer Greeting~
 2 g 100
 ~
+set key 900
+
 wait 1s
 %echo% loading item %key%
 
-set key 900
 set items %self.contents%
+
+%echo% contents %items%
 if !items.vnum(%key%)
   %load% obj %key%
 end
