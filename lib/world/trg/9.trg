@@ -5,6 +5,8 @@ Standard Trainer Greeting~
 set key 900
 eval items %self.contents%
 if !items.vnum(%key%)
+  wait 2s
+  %echo% loading item %key%
   %load% obj %key%
 end
 
