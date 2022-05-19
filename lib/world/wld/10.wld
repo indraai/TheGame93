@@ -3,18 +3,10 @@ Arjika Core~
 Not much here.
 ~
 10 8 0 0 0 0
-D0
-~
-~
-0 0 1008
 D1
 ~
 ~
 0 0 1001
-D2
-~
-~
-0 0 391
 S
 #1001
 World Fight Club~
@@ -28,23 +20,11 @@ D2
 ~
 ~
 0 0 1002
-D3
-~
-~
-0 0 1000
 S
 #1002
 World Fight Club~
 [DESCRIBE]~
 10 8 0 0 0 0
-D0
-~
-~
-0 0 1001
-D1
-~
-~
-0 0 1016
 D2
 ~
 ~
@@ -54,10 +34,6 @@ S
 World Fight Club~
 [DESCRIBE]~
 10 8 0 0 0 0
-D0
-~
-~
-0 0 1002
 D3
 ~
 ~
@@ -67,10 +43,6 @@ S
 World Fight Club~
 [DESCRIBE]~
 10 8 0 0 0 0
-D1
-~
-~
-0 0 1003
 D3
 ~
 ~
@@ -84,10 +56,6 @@ D0
 ~
 ~
 0 0 1006
-D1
-~
-~
-0 0 1004
 S
 #1006
 World Fight Club~
@@ -97,23 +65,15 @@ D0
 ~
 ~
 0 0 1007
-D2
-~
-~
-0 0 1005
 S
 #1007
 World Fight Club~
 [DESCRIBE]~
 10 8 0 0 0 0
-D1
+D0
 ~
 ~
-0 0 1000
-D2
-~
-~
-0 0 1006
+0 0 1008
 S
 #1008
 House Aryaka~
@@ -136,10 +96,6 @@ D1
 ~
 ~
 0 0 1010
-D3
-~
-~
-0 0 1008
 S
 #1010
 Aryaka Shrine~
@@ -179,10 +135,10 @@ D3
 0 0 1011
 S
 #1013
-An unfinished room~
+Danger Alley~
 You are in an unfinished room.
 ~
-10 0 0 0 0 0
+10 8 0 0 0 0
 D1
 ~
 ~
