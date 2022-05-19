@@ -74,7 +74,7 @@ set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system, s
 
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
-  %send% %actor% gui:#mud > look text903
+  %send% %actor% gui:#mud > look pastebin
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
@@ -93,6 +93,8 @@ set pump[0] What was the gola of Project Mayhem? Diving deeper into the instruct
 set pump[1] Was Project Mayhem was suppose to leak corporate, government, and illegal deeds? What happened was quite a different story.
 set pump[2] Did a group of dark occultists known as The Covenant corrupt the original Tyler project and take control?
 if %actor% && %actor.varexists(on_tour)%
+  wait 3s
+  %send% %actor% gui:#mud > look pastebin
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
   wait 15s

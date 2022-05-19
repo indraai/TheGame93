@@ -17,10 +17,11 @@ if %actor%
 end
 ~
 #1157
-Computer Agent Greeting~
+Talk to Athena~
 0 g 100
 ~
-%echo% This trigger commandlist is not complete!
+wait 2s
+%send% %actor% talk:#pandora ask:larry %speech%
 ~
 #1160
 PlazaInn Attendant Greeting~
