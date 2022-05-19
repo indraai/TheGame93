@@ -2,20 +2,6 @@
 Standard Trainer Greeting~
 2 g 100
 ~
-set key 900
-
-wait 1s
-%echo% loading item %key%
-
-set items %self.contents%
-eval item %%items.vnum(%key%)%%
-
-%echo% item %item%
-
-if !items.vnum(%key%)
-  %load% obj %key%
-end
-
 set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
 set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
 set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
@@ -82,13 +68,6 @@ end
 903 Trainer~
 2 g 100
 ~
-set items self.contents
-set key 903
-
-if !items.vnum(%key%)
-  %load% obj %key%
-end
-
 set pump[0] In 2017 Quinn found Tyler instructions on pastebin would lead him to find the S.V.V Cicada3301 Anonymous Group.
 set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story was real.
 set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system, so that meant the kidnapping was TRUE minus the correct details.
