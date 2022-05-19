@@ -79,20 +79,16 @@ S
 House Aryaka~
 [DESCRIBE]~
 10 25 0 0 0 0
-D1
+D3
 ~
 ~
 0 0 1009
-D2
-~
-~
-0 0 1000
 S
 #1009
 Aryaka Lounge~
 [DESCRIBE]~
 10 25 0 0 0 0
-D1
+D2
 ~
 ~
 0 0 1010
@@ -101,10 +97,14 @@ S
 Aryaka Shrine~
 [DESCRIBE]~
 10 25 0 0 0 0
-D3
+D0
 ~
 ~
 0 0 1009
+D1
+~
+~
+0 0 1157
 S
 #1011
 Danger Alley~
