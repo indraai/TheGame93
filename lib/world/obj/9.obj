@@ -1,3 +1,11 @@
+#800
+training 800 el8 textfiles~
+keywords~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 5 0
 #900
 covenant contract~
 the Contract of The Covenant~
@@ -6,10 +14,36 @@ the Contract of The Covenant~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 1 0
+0 100 0 1 0
 E
 contract~
 0900/main:contract
+~
+#901
+training 901 buddhist practice video~
+Buddhist Practice Video~
+0901/main:avatar~
+0901/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 100 0 0 0
+E
+video901~
+video901
+~
+#902
+training 902 cicada3301 svv anonymous~
+SVV Documents~
+0902/main:avatar~
+0902/main:look
+~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 150 0 0 0
+E
+902agents~
+agents
 ~
 #903
 pm2012 project mayhem text paste~
@@ -19,9 +53,9 @@ Project Mayhem 2012~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 150 0 0 0
 E
-text903~
+903text~
 0903/main:text
 ~
 #904

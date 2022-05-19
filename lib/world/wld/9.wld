@@ -1,26 +1,30 @@
 #800
-The Underground~
+Training Room 800~
 [DESCRIBE]~
 9 8 0 0 0 0
 D1
 ~
 ~
 0 0 801
+D2
+~
+~
+0 0 364
 S
 #801
-The Underground~
+Training Room 801~
 [DESCRIBE]~
 9 8 0 0 0 0
-D1
+D2
 ~
 ~
 0 0 802
 S
 #802
-The Underground~
+Training Room 802~
 [DESCRIBE]~
 9 8 0 0 0 0
-D1
+D2
 ~
 ~
 0 0 803
@@ -148,6 +152,10 @@ D9
 ~
 ~
 0 0 918
+E
+pastebin~
+pastebin
+~
 S
 T 903
 #904
@@ -158,6 +166,10 @@ D3
 ~
 ~
 0 0 905
+E
+pastebin~
+pastebin
+~
 S
 T 904
 #905
@@ -730,16 +742,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 941
@@ -1282,7 +1294,7 @@ T 970
 The Romanov~
 You are in an unfinished room.
 ~
-9 0 0 0 0 0
+9 8 0 0 0 0
 D1
 ~
 Return~
@@ -1302,20 +1314,20 @@ D0
 ~
 0 0 971
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
 T 972
@@ -1329,20 +1341,20 @@ D0
 ~
 0 0 972
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
 T 973
