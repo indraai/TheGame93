@@ -93,6 +93,48 @@ if %actor% && %actor.varexists(on_tour)%
   done
 end
 ~
+#801
+Hackphreak Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#802
+W00W00 Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#803
+Cult of Dead Cow Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#804
+Chaos Computer Club Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#805
+Legion of Doom Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#806
+Masters of Deception Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#807
+b0g Triggers~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #900
 Standard Trainer Greeting~
 2 g 100

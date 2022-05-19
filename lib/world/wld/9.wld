@@ -1,5 +1,5 @@
 #800
-Training Room 800~
+The Unix Terrorist~
 [DESCRIBE]~
 9 8 0 0 0 0
 D1
@@ -9,52 +9,57 @@ D1
 S
 T 800
 #801
-Training Room 801~
+Hackphreak~
 [DESCRIBE]~
 9 8 0 0 0 0
-D2
+D1
 ~
 ~
 0 0 802
 S
+T 801
 #802
-Training Room 802~
+W00W00~
 [DESCRIBE]~
 9 8 0 0 0 0
-D2
+D1
 ~
 ~
 0 0 803
 S
+T 802
 #803
-Training Room 803~
+Cult of the Dead Cow~
 [DESCRIBE]~
 9 8 0 0 0 0
-D3
+D1
 ~
 ~
 0 0 804
 S
+T 803
 #804
-Training Room 804~
+Chaos Computer Club~
 [DESCRIBE]~
 9 8 0 0 0 0
-D3
+D1
 ~
 ~
 0 0 805
 S
+T 804
 #805
-Training Room 805~
+Legion of Doom~
 [DESCRIBE]~
 9 8 0 0 0 0
-D0
+D1
 ~
 ~
 0 0 806
 S
+T 805
 #806
-The Underground~
+Masters of Deception~
 [DESCRIBE]~
 9 8 0 0 0 0
 D1
@@ -62,15 +67,21 @@ D1
 ~
 0 0 807
 S
+T 806
 #807
-The Underground~
+b0g~
 [DESCRIBE]~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 -1
 D4
 ~
 ~
 0 0 916
 S
+T 807
 #900
 The Beginning~
 [DESCRIBE]~
@@ -186,12 +197,12 @@ D6
 ~
 0 0 910
 E
-pastebin1~
-pastebin
-~
-E
 pastebin2~
 patebin2
+~
+E
+pastebin1~
+pastebin
 ~
 S
 T 905
@@ -747,16 +758,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 941
@@ -1319,20 +1330,20 @@ D0
 ~
 0 0 971
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
 T 972
@@ -1346,20 +1357,20 @@ D0
 ~
 0 0 972
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
 T 973
