@@ -3,8 +3,8 @@ Standard Trainer Greeting~
 2 g 100
 ~
 set key 900
-eval item %%self.contents.vnum(%key%)%%
-if !item
+eval items %self.contents%
+if !items.vnum(%key%)
   %load% obj %key%
 end
 
