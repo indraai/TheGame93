@@ -2,13 +2,15 @@
 Standard Trainer Greeting~
 2 g 100
 ~
+set key 900
+eval item %%self.contents.vnum(%key%)%%
+if !item
+  %load% obj %key%
+end
+
 set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
 set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
 set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
-
-if !items.vnum(%key%)
-  %load% obj %key%
-end
 
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
@@ -27,8 +29,8 @@ end
 901 Trainer Greeting~
 2 g 100
 ~
-set items self.contents
 set key 901
+eval items %%self.contents.vnum(%key%)%%
 if !items.vnum(%key%)
   %load% obj %key%
 end
