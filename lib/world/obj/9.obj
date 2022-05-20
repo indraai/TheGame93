@@ -7,24 +7,24 @@ EL8 Documents~
 0 0 0 0
 0 200 0 5 0
 E
-bio~
-bio
-~
-E
-e0~
-e0
-~
-E
-e1~
-e1
+e3~
+e3
 ~
 E
 e2~
 e2
 ~
 E
-e3~
-e3
+e1~
+e1
+~
+E
+e0~
+e0
+~
+E
+bio~
+bio
 ~
 #801
 training hackphreak rloxley~
@@ -157,12 +157,12 @@ the Michael Documents~
 0 0 0 0
 0 100 0 0 0
 E
-905text1~
-0905/main:905text
-~
-E
 905text2~
 905text2
+~
+E
+905text1~
+0905/main:905text
 ~
 #906
 text it training~
@@ -297,9 +297,9 @@ perplex city receda cube~
 the Receda Cube~
 :room:/main:avatar~
 :room:/main:look~
-0 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 150 0 0 0
 E
 text~
 talk:#adv object:thegame 0930/main:text
@@ -340,13 +340,21 @@ Hacking the Intelligence Community~
 0 0 0 0
 0 0 0 0 0
 E
-intel~
-0947/intel:main
-~
-E
 military~
 0947/military:main
 ~
+E
+intel~
+0947/intel:main
+~
+#948
+training spoonman cobra lounge~
+Spoonman Cobra Lounge Training~
+:room:/main:avatar~
+:room:/main:look~
+0 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 0 0
 #950
 text stanford slac linac~
 Stanford Linear Accelerator Complex~
