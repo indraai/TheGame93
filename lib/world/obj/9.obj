@@ -241,6 +241,14 @@ Code Tyler~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 150 0 0 0
+#916
+robert david steele training~
+Robert David Steele Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 0 0
 #917
 text project mayhem dangerous ideas~
 Dangerous Ideas~
@@ -267,6 +275,22 @@ E
 text~
 talk:#adv object:thegame 0918/main:text
 ~
+#919
+survivance training~
+Survivance Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 150 0 0 0
+#920
+brenda romero training~
+Brenda Romero Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 150 0 0 0
 #926
 text palantir lawsuit~
 Palantir Lawsuit~
@@ -293,8 +317,8 @@ text~
 talk:#adv object:thegame 0929/main:look
 ~
 #930
-perplex city receda cube~
-the Receda Cube~
+training 930 church of virus~
+Church of Virus Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
@@ -352,7 +376,7 @@ training spoonman cobra lounge~
 Spoonman Cobra Lounge Training~
 :room:/main:avatar~
 :room:/main:look~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 200 0 0 0
 #950
