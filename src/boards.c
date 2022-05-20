@@ -333,7 +333,7 @@ int board_display_msg(int board_type, struct char_data *ch, char *arg, struct ob
     send_to_char(ch, "\ninfo:That message seems to be empty.\r");
     return (1);
   }
-  snprintf(buffer, sizeof(buffer), "## %s\r"
+  snprintf(buffer, sizeof(buffer), "## %d - %s\r"
     "\n::begin:message\r"
     "\np:%s\r\n"
     "\n::end:message\r",
