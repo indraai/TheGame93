@@ -1,5 +1,5 @@
 #800
-trainer agent 800 el8 the_ut~
+trainer agent 800 el8 the_ut stephen watt hacker~
 the_uT 800~
 0800/main:avatar~
 0800/main:look
@@ -16,7 +16,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #801
-trainer agent 801 rloxley kent browne~
+trainer agent 801 rloxley kent browne hacker navy~
 RLoxley 801~
 0801/main:avatar~
 0801/main:look
@@ -32,7 +32,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #802
-trainer agent 802 shok matt conover~
+trainer agent 802 shok matt conover hacker w00w00~
 Shok 802~
 802/main:avatar~
 802/main:look~
@@ -58,10 +58,50 @@ SavingSpell: 2
 E
 #804
 trainer agent 804 tron boris floricic hacker suicide~
-Tron 804~
+Boris 804~
 804/main:avatar~
 804/main:look~
 76 0 0 0 0 0 0 0 -275 E
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#808
+trainer agent 808 jonathan james jj hacker suicide~
+Jonathan 808~
+808/main:avatar~
+808/main:look~
+76 0 0 0 0 0 0 0 275 E
+6 18 6 1d1+60 1d2+1
+60 3600
+8 8 1 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#809
+trainer agint 809 aaron swartz suicide~
+Aaron 809~
+809/main:avatar~
+809/main:look~
+76 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 0
+E
+#810
+trainer agent 810 james dolan suicide marines~
+James 810~
+810/main:avatar~
+810/main:look~
+76 0 0 0 0 0 0 0 275 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1 0
@@ -556,7 +596,7 @@ Jormungandr 935~
 8 8 1 1
 E
 #936
-trainer training 936 eric zippo eotl~
+trainer training 936 eric zippo eotl hacker~
 Eric 936~
 936/main:avatar~
 936/main:look
@@ -587,7 +627,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #938
-trainer training 938 kibo~
+trainer training 938 kibo hacker~
 Kibo 938~
 938/main:avatar~
 938/main:look~
@@ -618,7 +658,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #940
-trainer training 940 eric hughes cypherpunk eotl amshey~
+trainer training 940 eric hughes cypherpunk eotl amshey hacker~
 Eric 940~
 940/main:avatar~
 940/main:look~
@@ -653,7 +693,7 @@ Stanford 942~
 8 8 0 1
 E
 #943
-trainer training 943 defcon deadaddict~
+trainer training 943 defcon deadaddict hacker~
 DeadAddict 943~
 943/main:avatar~
 943/main:look~
@@ -668,7 +708,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #944
-trainer training 944 satan dan farmer defcon~
+trainer training 944 satan dan farmer defcon marines hacker~
 Dan 944~
 944/main:avatar~
 944/main:look~
@@ -683,7 +723,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #945
-trainer training 945 emmanuel 2600~
+trainer training 945 emmanuel 2600 hacker~
 Emmanuel 945~
 945/main:avatar~
 945/main:look~
@@ -726,7 +766,7 @@ SavingSpell: 1
 E
 T 947
 #948
-trainer training 948 spoonman mark petrakis~
+trainer agent 948 spoonman mark petrakis~
 Spoonman 948~
 948/main:avatar~
 948/main:look~
@@ -756,7 +796,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #950
-trainer training 950 slac stanford richard neal~
+trainer agent 950 slac stanford richard neal~
 Richard 950~
 950/main:avatar~
 950/main:look~
@@ -1048,7 +1088,7 @@ George 973~
 8 8 1 0
 E
 #974
-trainer agent 974 jeffery epstein suicide~
+trainer agent 974 jeffrey epstein suicide~
 Jeffrey 974~
 974/main:avatar~
 974/main:look~

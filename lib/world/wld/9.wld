@@ -6,6 +6,10 @@ D1
 ~
 ~
 0 0 801
+D8
+~
+~
+0 0 808
 S
 T 800
 #801
@@ -82,6 +86,39 @@ D4
 0 0 916
 S
 T 807
+#808
+Jonathan James~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 809
+S
+T 808
+#809
+Aaron Swartz~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 810
+S
+T 809
+#810
+James Dolan~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D4
+~
+~
+0 0 904
+S
+T 810
 #900
 The Beginning~
 [DESCRIBE]~
@@ -197,12 +234,12 @@ D6
 ~
 0 0 910
 E
-pastebin1~
-pastebin
-~
-E
 pastebin2~
 patebin2
+~
+E
+pastebin1~
+pastebin
 ~
 S
 T 905
@@ -273,7 +310,7 @@ D7
 S
 T 909
 #910
-PM2020~
+Project Mayhem 2020~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
@@ -758,16 +795,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 941
@@ -1330,20 +1367,20 @@ D0
 ~
 0 0 971
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
 T 972
@@ -1357,20 +1394,20 @@ D0
 ~
 0 0 972
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
 T 973

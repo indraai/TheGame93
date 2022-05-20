@@ -7,31 +7,31 @@ EL8 Documents~
 0 0 0 0
 0 200 0 5 0
 E
-e3~
-e3
-~
-E
-e2~
-e2
-~
-E
-e1~
-e1
+bio~
+bio
 ~
 E
 e0~
 e0
 ~
 E
-bio~
-bio
+e1~
+e1
+~
+E
+e2~
+e2
+~
+E
+e3~
+e3
 ~
 #801
 training hackphreak rloxley~
 Hackphreak Training~
 :room:/main:avatar~
 :room:/main:look~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 250 0 6 0
 #802
@@ -39,7 +39,7 @@ w00w00 training~
 W00W00 Training~
 :room:/main:avatar~
 :room:/main:look~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 250 0 7 0
 #803
@@ -58,6 +58,30 @@ Chaos Computer Club Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 200 0 8 0
+#808
+training 808 tjx hack~
+Jonathan Jones Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 275 0 0 0
+#809
+training 809 aaron swartz~
+Aaron Swartz Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 275 0 0 0
+#810
+james dolan training~
+James Dolan Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 275 0 0 0
 #900
 covenant contract~
 Contract of The Covenant~
@@ -116,9 +140,9 @@ PM2012 Call to Hackzion~
 904/main:avatar~
 0904/main:look
 ~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 180 0 0 0
 E
 text904~
 0904/main:text904
@@ -133,12 +157,12 @@ the Michael Documents~
 0 0 0 0
 0 100 0 0 0
 E
-905text2~
-905text2
-~
-E
 905text1~
 0905/main:905text
+~
+E
+905text2~
+905text2
 ~
 #906
 text it training~
@@ -166,6 +190,22 @@ E
 text~
 talk:#adv object:thegame 0908/main:text
 ~
+#909
+training ethersec project2020 909~
+Ethersec Project2020 Trainging~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 150 0 0 0
+#910
+training 910 project mayhem 2020~
+Project Mayhem 2020 Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 0 0
 #911
 text training thegame23~
 TheGame23 Text~
@@ -180,14 +220,14 @@ text~
 talk:#adv object:thegame 0911/main:text
 ~
 #913
-pastebin text pm2012 project mayhem~
+pastebin text pm2012 project mayhem training~
 PM2012 Call to Hackzion~
 913/main:avatar~
 0913/main:look
 ~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 150 0 0 0
 E
 text~
 talk:#adv thegame:world 0904/main:text
@@ -198,18 +238,18 @@ Code Tyler~
 0914/main:avatar~
 0914/main:look
 ~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 150 0 0 0
 #917
 text project mayhem dangerous ideas~
 Dangerous Ideas~
 0917/main:avatar~
 0917/main:look
 ~
-0 0 0 0 0 ao 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 150 0 0 0
 E
 text~
 0917/main:look
@@ -220,9 +260,9 @@ Project Mayhem Tyler~
 0918/main:avatar~
 0918/main:look
 ~
-0 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 150 0 0 0
 E
 text~
 talk:#adv object:thegame 0918/main:text
@@ -300,12 +340,12 @@ Hacking the Intelligence Community~
 0 0 0 0
 0 0 0 0 0
 E
-military~
-0947/military:main
-~
-E
 intel~
 0947/intel:main
+~
+E
+military~
+0947/military:main
 ~
 #950
 text stanford slac linac~

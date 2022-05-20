@@ -135,6 +135,24 @@ b0g Triggers~
 ~
 %echo% This trigger commandlist is not complete!
 ~
+#808
+TJX Hack~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#809
+Aaron Swartz Training~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
+#810
+James Dolan Trigger~
+2 g 100
+~
+%echo% This trigger commandlist is not complete!
+~
 #900
 Standard Trainer Greeting~
 2 g 100
