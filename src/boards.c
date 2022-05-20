@@ -183,15 +183,15 @@ int board_write_message(int board_type, struct char_data *ch, char *arg, struct 
   char buf[MAX_INPUT_LENGTH], buf2[MAX_NAME_LENGTH + 3], tmstr[100];
 
   if (GET_LEVEL(ch) < WRITE_LVL(board_type)) {
-    send_to_char(ch, "You are not holy enough to write on this board.\r\n");
+    send_to_char(ch, "\ninfo:You are not able to write on this board.\r");
     return (1);
   }
   if (num_of_msgs[board_type] >= MAX_BOARD_MESSAGES) {
-    send_to_char(ch, "The board is full.\r\n");
+    send_to_char(ch, "\ninfo:The board is full.\r");
     return (1);
   }
   if ((NEW_MSG_INDEX(board_type).slot_num = find_slot()) == -1) {
-    send_to_char(ch, "The board is malfunctioning - sorry.\r\n");
+    send_to_char(ch, "\nerror:The board is malfunctioning - sorry.\r");
     log("SYSERR: Board: failed to find empty slot on write.");
     return (1);
   }
@@ -203,18 +203,18 @@ int board_write_message(int board_type, struct char_data *ch, char *arg, struct 
   arg[80] = '\0';
 
   if (!*arg) {
-    send_to_char(ch, "We must have a headline!\r\n");
+    send_to_char(ch, "\ninfo:We must have a headline!\r");
     return (1);
   }
   ct = time(0);
   strftime(tmstr, sizeof(tmstr), "%a %b %d %Y", localtime(&ct));
 
   snprintf(buf2, sizeof(buf2), "%s", GET_NAME(ch));
-  snprintf(buf, sizeof(buf), "%s|%s|%s", tmstr, buf2, arg);
+  snprintf(buf, sizeof(buf), "%s | %s | %s", tmstr, buf2, arg);
   NEW_MSG_INDEX(board_type).heading = strdup(buf);
   NEW_MSG_INDEX(board_type).level = GET_LEVEL(ch);
 
-  send_to_char(ch, "Write your message.\r\n");
+  send_to_char(ch, "\ninfo:Write your message.\r");
   send_editor_help(ch->desc);
   act("$n starts to write a message.", TRUE, ch, 0, 0, TO_ROOM);
 
@@ -239,7 +239,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
     return (0);
 
   if (GET_LEVEL(ch) < READ_LVL(board_type)) {
-    send_to_char(ch, "You try but fail to understand the holy words.\r\n");
+    send_to_char(ch, "\nerror:You try but fail to understand the holy words.\r");
     return (1);
   }
   act("$n studies the board.", TRUE, ch, 0, 0, TO_ROOM);
@@ -261,7 +261,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\nmsg:%d\r\n%s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d: %s\r", num_of_msgs[board_type] - i, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
@@ -271,7 +271,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
       if (!MSG_HEADING(board_type, i))
         goto fubar;
 
-      nlen = snprintf(buf + len, sizeof(buf) - len, "\nmsg:%d\r\n%s\r", i + 1, MSG_HEADING(board_type, i));
+      nlen = snprintf(buf + len, sizeof(buf) - len, "\n%d:%s\r", i + 1, MSG_HEADING(board_type, i));
       if (len + nlen >= sizeof(buf) || nlen < 0)
         break;
       len += nlen;
