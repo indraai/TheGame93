@@ -1,6 +1,6 @@
 #800
 trainer agent 800 el8 the_ut stephen watt hacker human~
-the_uT 800~
+Stephen 800~
 0800/main:avatar~
 0800/main:look
 ~
@@ -17,7 +17,7 @@ SavingSpell: 1
 E
 #801
 trainer agent 801 rloxley kent browne hacker navy human~
-RLoxley 801~
+Kent 801~
 0801/main:avatar~
 0801/main:look
 ~
@@ -33,7 +33,7 @@ SavingSpell: 1
 E
 #802
 trainer agent 802 shok matt conover hacker w00w00 human~
-Shok 802~
+Matt 802~
 802/main:avatar~
 802/main:look~
 76 0 0 0 0 0 0 0 -200 E
@@ -43,7 +43,7 @@ Shok 802~
 E
 #803
 trainer agent 803 grandmaster ratte kevin wheeler hacker human~
-Ratte 803~
+Kevin 803~
 803/main:avatar~
 803/main:look~
 76 0 0 0 0 0 0 0 -290 E
@@ -326,7 +326,7 @@ SavingSpell: 8
 E
 #916
 trainer agent 916 robert david steele steeler hacker human~
-Steeler 916~
+Robert 916~
 916/main:avatar~
 916/main:look~
 76 0 0 0 0 0 0 0 -192 E
@@ -694,7 +694,7 @@ Stanford 942~
 E
 #943
 trainer training 943 defcon deadaddict hacker human~
-DeadAddict 943~
+Eli 943~
 943/main:avatar~
 943/main:look~
 76 0 0 0 0 0 0 0 -230 E
@@ -1019,7 +1019,7 @@ RussianBot 967~
 E
 #968
 trainer agent 968 peter great romanov russia human~
-Peter the Great~
+Peter 968~
 968/main:avatar~
 968/main:look~
 76 0 0 0 8 0 0 0 500 E
@@ -1034,7 +1034,7 @@ SavingSpell: 1
 E
 #969
 trainer agent 969 yuri andropov kgb russia human~
-Yuri Andropov~
+Yuri 969~
 969/main:avatar~
 969/main:look~
 76 0 0 0 0 0 0 0 -1000 E
@@ -1049,7 +1049,7 @@ SavingSpell: 3
 E
 #970
 trainer agent 970 patriarch orthodox russia kirill human~
-Patriarch 970~
+Kirill 970~
 970/main:avatar~
 970/main:look~
 76 0 0 0 0 0 0 0 -1000 E
