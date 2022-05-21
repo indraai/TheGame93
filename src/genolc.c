@@ -624,9 +624,9 @@ static int export_mobile_record(mob_vnum mvnum, struct char_data *mob, FILE *fd)
       GET_DAMROLL(mob));
 
   fprintf(fd, 	"%d %d\n"
-		"%d %d %d %d\n",
+		"%d %d %d %d %d\n",
 		GET_GOLD(mob), GET_EXP(mob),
-		GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob), GET_RACE(mob)
+		GET_POS(mob), GET_DEFAULT_POS(mob), GET_GENDER(mob), GET_RACE(mob), GET_CLASS(mob)
   );
 
   if (write_mobile_espec(mvnum, mob, fd) < 0)

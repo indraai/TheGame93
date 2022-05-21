@@ -33,6 +33,7 @@ static void init_mobile(struct char_data *mob);
 static void medit_save_to_disk(zone_vnum zone_num);
 static void medit_disp_positions(struct descriptor_data *d);
 static void medit_disp_gender(struct descriptor_data *d);
+static void medit_disp_class(struct descriptor_data *d);
 static void medit_disp_race(struct descriptor_data *d);
 static void medit_disp_attack_types(struct descriptor_data *d);
 static bool medit_illegal_mob_flag(int fl);
@@ -350,6 +351,20 @@ static void medit_disp_race(struct descriptor_data *d)
   write_to_output(d, "\n::end:buttons\r");
 }
 
+/* Display the class of the Agent. */
+static void medit_disp_class(struct descriptor_data *d)
+{
+  int i, count = 0;
+  // get_char_colors(d->character);
+  clear_screen(d);
+  write_to_output(d, "\n## Class\r"
+    "\n::begin:buttons\r");
+  for (i = 0; i < NUM_CLASSES; i++) {
+    write_to_output(d, "\nbmud[%s]:%d\r", classes[i], ++count);
+  }
+  write_to_output(d, "\n::end:buttons\r");
+}
+
 /* Display attack types menu. */
 static void medit_disp_attack_types(struct descriptor_data *d)
 {
@@ -459,29 +474,31 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Agent: %d\r"
   "\nselect[a:gender]:%s\r"
-  "\nselect[b:race]:%s\r"
-  "\nselect[c:keywords]:%s\r"
-  "\nselect[d:name]: %s\r"
-  "\nselect[e:avatar]:%s\r"
-  "\nselect[f:look]:%s\r",
-	  OLC_NUM(d),                    // vnum
-	  genders[(int)GET_GENDER(mob)],  // gender
-	  races[(int)GET_RACE(mob)],     // race
-	  GET_ALIAS(mob),                 // keywords
-	  GET_SDESC(mob),                 // name
-	  GET_LDESC(mob),                 // avatar
-	  GET_DDESC(mob)                  // look
+  "\nselect[b:class]:%s\r"
+  "\nselect[c:race]:%s\r"
+  "\nselect[d:keywords]:%s\r"
+  "\nselect[e:name]: %s\r"
+  "\nselect[f:avatar]:%s\r"
+  "\nselect[g:look]:%s\r",
+	  OLC_NUM(d),                       // vnum
+	  genders[(int)GET_GENDER(mob)],    // gender
+	  classes[(int)GET_CLASS(mob)],     // race
+	  races[(int)GET_RACE(mob)],        // race
+	  GET_ALIAS(mob),                   // keywords
+	  GET_SDESC(mob),                   // name
+	  GET_LDESC(mob),                   // avatar
+	  GET_DDESC(mob)                    // look
 	  );
 
   sprintbitarray(MOB_FLAGS(mob), action_bits, AF_ARRAY_MAX, flags);
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\nselect[g:position]:%s\r"
-	  "\nselect[h:default]:%s\r"
-	  "\nselect[i:attack]:%s\r"
-	  "\nselect[j:persona]:%s\r"
-	  "\nselect[k:affinity]:%s\r"
+	  "\nselect[h:position]:%s\r"
+	  "\nselect[i:default]:%s\r"
+	  "\nselect[j:attack]:%s\r"
+	  "\nselect[k:persona]:%s\r"
+	  "\nselect[l:affinity]:%s\r"
     "\n::begin:buttons\r"
     "\nbmud[stats]:1\r"
     "\nbmud[triggers%s]:2\r"
@@ -673,12 +690,17 @@ void medit_parse(struct descriptor_data *d, char *arg)
       medit_disp_gender(d);
       return;
 
-    case 'b':
+    case 'c':
+      OLC_MODE(d) = MEDIT_CLASS;
+      medit_disp_class(d);
+      return;
+
+    case 'c':
       OLC_MODE(d) = MEDIT_RACE;
       medit_disp_race(d);
       return;
 
-    case 'c':
+    case 'd':
       OLC_MODE(d) = MEDIT_KEYWORD;
       write_to_output(d, "\nSet the Agent keywords...\r"
         "\ncurrent:%s\r",
@@ -686,7 +708,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       );
       return;
 
-    case 'd':
+    case 'e':
       OLC_MODE(d) = MEDIT_S_DESC;
       write_to_output(d, "\nAgent name\r"
         "\ncurrent:%s\r",
@@ -694,7 +716,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       );
       return;
 
-    case 'e':
+    case 'f':
       OLC_MODE(d) = MEDIT_L_DESC;
       write_to_output(d, "\nAgent Description\r"
         "\ncurrent:%s\r",
@@ -702,7 +724,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       );
       return;
 
-    case 'f':
+    case 'g':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
       write_to_output(d, "\nAgent Avatar\r");
@@ -714,27 +736,27 @@ void medit_parse(struct descriptor_data *d, char *arg)
       OLC_VAL(d) = 1;
       return;
 
-    case 'g':
+    case 'h':
       OLC_MODE(d) = MEDIT_POS;
       medit_disp_positions(d);
       return;
 
-    case 'h':
+    case 'i':
       OLC_MODE(d) = MEDIT_DEFAULT_POS;
       medit_disp_positions(d);
       return;
 
-    case 'i':
+    case 'j':
       OLC_MODE(d) = MEDIT_ATTACK;
       medit_disp_attack_types(d);
       return;
 
-    case 'j':
+    case 'k':
       OLC_MODE(d) = MEDIT_NPC_FLAGS;
       medit_disp_mob_flags(d);
       return;
 
-    case 'k':
+    case 'l':
       OLC_MODE(d) = MEDIT_AFF_FLAGS;
       medit_disp_aff_flags(d);
       return;
@@ -1053,6 +1075,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
   case MEDIT_RACE:
     GET_RACE(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_RACES - 1);
+    break;
+
+  case MEDIT_CLASS:
+    GET_CLASS(OLC_MOB(d)) = LIMIT(i - 1, 0, NUM_CLASSES - 1);
     break;
 
   case MEDIT_HITROLL:

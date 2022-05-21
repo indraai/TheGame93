@@ -35,7 +35,7 @@ const char *class_abbrevs[] = {
   "\n"
 };
 
-const char *pc_class_types[] = {
+const char *class_types[] = {
   "Citizen",
   "Monk",
   "Artist",

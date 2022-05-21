@@ -149,9 +149,11 @@ const char *genders[] =
 const char *races[] =
 {
   "Human",
+  "Robot",
   "Deva",
   "Arjika",
   "Susoma",
+  "Sarya",
   "Other",
   "\n"
 };
@@ -458,11 +460,12 @@ const char *extra_bits[] = {
   "ANTI_GOOD",
   "ANTI_EVIL",
   "ANTI_NEUTRAL",
+  "ANTI_CITIZEN",
   "ANTI_MONK",
   "ANTI_ARTIST",
-  "ANTI_HACKER",
+  "ANTI_SCIENTIST",
   "ANTI_ENGINEER",
-  "ANTI_CITIZEN",
+  "ANTI_SOLDIER",
   "NO_SELL",
   "NO_DROP",
   "NO_RENT",

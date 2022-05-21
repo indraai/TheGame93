@@ -950,7 +950,7 @@ ACMD(do_score)
     GET_AGE(ch),
     genders[(int) GET_GENDER(ch)],
     races[(int) GET_RACE(ch)],
-    pc_class_types[GET_CLASS(ch)],
+    class_types[GET_CLASS(ch)],
     GET_TITLE(ch),
     GET_LEVEL(ch),
     GET_EXP(ch),
@@ -2549,7 +2549,7 @@ ACMD(do_whois)
     buf
   );
 
-  sprinttype (victim->player.chclass, pc_class_types, buf, sizeof(buf));
+  sprinttype (victim->player.chclass, class_types, buf, sizeof(buf));
   send_to_char(ch, "\nclass: %s", buf);
 
   send_to_char(ch, "\nlevel: %d", GET_LEVEL(victim));

@@ -175,12 +175,14 @@
 
 /* RACE */
 #define RACE_HUMAN       0   /**< Neutral GENDER (Hermaphrodite) */
-#define RACE_DEVA        1   /**< Male GENDER */
-#define RACE_ARJIKA      2   /**< Male GENDER */
-#define RACE_SUSOMA      3   /**< Male GENDER */
-#define RACE_OTHER       4   /**< Male GENDER */
+#define RACE_ROBOT       1   /**< Male GENDER */
+#define RACE_DEVA        2   /**< Male GENDER */
+#define RACE_ARJIKA      3   /**< Male GENDER */
+#define RACE_SUSOMA      4   /**< Male GENDER */
+#define RACE_SARYA       5   /**< Male GENDER */
+#define RACE_OTHER       6   /**< Male GENDER */
 /** Total number of RACES */
-#define NUM_RACES        5
+#define NUM_RACES        7
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
@@ -885,7 +887,7 @@ struct char_player_data
   char *description;             /**< NPC Extra descriptions */
   char *title;                   /**< PC / NPC title */
   byte gender;                      /**< PC / NPC gender */
-  byte race;                  /** PC / NPC race **/
+  byte race;                     /** PC / NPC race **/
   byte chclass;                  /**< PC / NPC class */
   byte level;                    /**< PC / NPC level */
   struct time_data time;         /**< PC AGE in days */

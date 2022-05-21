@@ -2849,7 +2849,7 @@ static void msdp_update( void )
   struct descriptor_data *d;
   int PlayerCount = 0;
   char buf[MAX_STRING_LENGTH];
-  extern const char *pc_class_types[];
+  extern const char *class_types[];
 
   for (d = descriptor_list; d; d = d->next)
   {
@@ -2867,7 +2867,7 @@ static void msdp_update( void )
       MSDPSetNumber( d, eMSDP_HEALTH_MAX, GET_MAX_HIT(ch) );
       MSDPSetNumber( d, eMSDP_LEVEL, GET_LEVEL(ch) );
 
-      sprinttype( ch->player.chclass, pc_class_types, buf, sizeof(buf) );
+      sprinttype( ch->player.chclass, class_types, buf, sizeof(buf) );
       MSDPSetString( d, eMSDP_CLASS, buf );
 
       MSDPSetNumber( d, eMSDP_MANA, GET_MANA(ch) );

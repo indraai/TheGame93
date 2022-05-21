@@ -649,7 +649,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
                 snprintf(str, slen, "0");
               }
             } else
-              sprinttype(GET_CLASS(c), pc_class_types, str, slen);
+              sprinttype(GET_CLASS(c), class_types, str, slen);
           }
           else if (!str_cmp(field, "con")) {
             if (subfield && *subfield) {

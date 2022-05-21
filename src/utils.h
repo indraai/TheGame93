@@ -514,6 +514,9 @@ do                                                              \
 /** THE FAMILY OF THE PLAYER **/
 #define GET_RACE(ch)	((ch)->player.race)
 
+/** THE FAMILY OF THE PLAYER **/
+#define GET_RACE(ch)	((ch)->player.class)
+
 /** Current strength of ch. */
 #define GET_STR(ch)     ((ch)->aff_abils.str)
 /** Current strength modifer of ch. */

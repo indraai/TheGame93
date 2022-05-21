@@ -1624,10 +1624,12 @@ void nanny(struct descriptor_data *d, char *arg)
     write_to_output(d, "## Player Race\r"
       "\nPlease select your race...\r"
       "\nmenu[HUMAN]:0\r"
-      "\nmenu[DEVA]:1\r"
-      "\nmenu[ARJIKA]:2\r"
-      "\nmenu[SUSOMA]:3\r"
-      "\nmenu[OTHER]:4\r"
+      "\nmenu[ROBOT]:1\r"
+      "\nmenu[DEVA]:2\r"
+      "\nmenu[ARJIKA]:3\r"
+      "\nmenu[SUSOMA]:4\r"
+      "\nmenu[SARYA]:5\r"
+      "\nmenu[OTHER]:6\r"
     );
 
     STATE(d) = CON_QRACE;
@@ -1640,15 +1642,21 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.race = RACE_HUMAN;
       break;
     case '1':
-      d->character->player.race = RACE_DEVA;
+      d->character->player.race = RACE_ROBOT;
       break;
     case '2':
-      d->character->player.race = RACE_ARJIKA;
+      d->character->player.race = RACE_DEVA;
       break;
     case '3':
-      d->character->player.race = RACE_SUSOMA;
+      d->character->player.race = RACE_ARJIKA;
       break;
     case '4':
+      d->character->player.race = RACE_SUSOMA;
+      break;
+    case '5':
+      d->character->player.race = RACE_SARYA;
+      break;
+    case '6':
       d->character->player.race = RACE_OTHER;
       break;
     default:

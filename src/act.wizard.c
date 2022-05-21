@@ -852,7 +852,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
       GET_QUEST(k), GET_QUEST_TIME(k));
 
 
-    sprinttype(k->player.chclass, pc_class_types, buf, sizeof(buf));
+    sprinttype(k->player.chclass, class_types, buf, sizeof(buf));
     send_to_char(ch, "class: %s\r\n", buf);
 
     char buf1[64], buf2[64];

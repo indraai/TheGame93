@@ -1479,7 +1479,7 @@ int get_class_by_name(char *classname)
 {
     int i;
     for (i=0; i<NUM_CLASSES; i++)
-      if (is_abbrev(classname, pc_class_types[i])) return(i);
+      if (is_abbrev(classname, class_types[i])) return(i);
 
     return (-1);
 }
