@@ -360,7 +360,7 @@ static void medit_disp_class(struct descriptor_data *d)
   write_to_output(d, "\n## Class\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_CLASSES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", classes[i], ++count);
+    write_to_output(d, "\nbmud[%s]:%d\r", class_types[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
@@ -482,7 +482,7 @@ static void medit_disp_menu(struct descriptor_data *d)
   "\nselect[g:look]:%s\r",
 	  OLC_NUM(d),                       // vnum
 	  genders[(int)GET_GENDER(mob)],    // gender
-	  classes[(int)GET_CLASS(mob)],     // race
+	  class_types[(int)GET_CLASS(mob)],     // race
 	  races[(int)GET_RACE(mob)],        // race
 	  GET_ALIAS(mob),                   // keywords
 	  GET_SDESC(mob),                   // name
