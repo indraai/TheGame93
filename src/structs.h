@@ -443,18 +443,19 @@
 #define ITEM_ANTI_SCIENTIST	  11   /**< Not usable by indu */
 #define ITEM_ANTI_ENGINEER    12   /**< Not usable by soma */
 #define ITEM_ANTI_PROGRAMMER  13   /**< Not usable by sarya */
-#define ITEM_ANTI_LAWYER      14   /**< Not usable by sarya */
-#define ITEM_ANTI_DOCTOR      15   /**< Not usable by sarya */
-#define ITEM_ANTI_SECURITY    16   /**< Not usable by sarya */
-#define ITEM_ANTI_SOLDIER     17   /**< Not usable by sarya */
-#define ITEM_NOSELL           18   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP           19    /**< Item is cursed: can't drop */
-#define ITEM_NORENT           20    /**< Item cannot be rented */
-#define ITEM_NODONATE         21    /**< Item cannot be donated */
-#define ITEM_NOINVIS          22    /**< Item cannot be made invis	*/
-#define ITEM_QUEST            23   /**< Item is a quest item         */
+#define ITEM_ANTI_HACKER      14   /**< Not usable by sarya */
+#define ITEM_ANTI_LAWYER      15   /**< Not usable by sarya */
+#define ITEM_ANTI_DOCTOR      16   /**< Not usable by sarya */
+#define ITEM_ANTI_SECURITY    17   /**< Not usable by sarya */
+#define ITEM_ANTI_SOLDIER     18   /**< Not usable by sarya */
+#define ITEM_NOSELL           19   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP           20    /**< Item is cursed: can't drop */
+#define ITEM_NORENT           21    /**< Item cannot be rented */
+#define ITEM_NODONATE         22    /**< Item cannot be donated */
+#define ITEM_NOINVIS          23    /**< Item cannot be made invis	*/
+#define ITEM_QUEST            24   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    24
+#define NUM_ITEM_FLAGS    25
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
