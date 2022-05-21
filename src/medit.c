@@ -475,16 +475,16 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Agent: %d\r"
   "\nselect[a:gender]:%s\r"
-  "\nselect[b:class]:%s\r"
   "\nselect[c:race]:%s\r"
+  "\nselect[b:class]:%s\r"
   "\nselect[d:keywords]:%s\r"
   "\nselect[e:name]: %s\r"
   "\nselect[f:avatar]:%s\r"
   "\nselect[g:look]:%s\r",
 	  OLC_NUM(d),                       // vnum
 	  genders[(int)GET_GENDER(mob)],    // gender
-	  class_types[(int)GET_CLASS(mob)],     // race
 	  races[(int)GET_RACE(mob)],        // race
+    class_types[(int)GET_CLASS(mob)],     // class
 	  GET_ALIAS(mob),                   // keywords
 	  GET_SDESC(mob),                   // name
 	  GET_LDESC(mob),                   // avatar
@@ -691,14 +691,14 @@ void medit_parse(struct descriptor_data *d, char *arg)
       medit_disp_gender(d);
       return;
 
-    case 'c':
-      OLC_MODE(d) = MEDIT_CLASS;
-      medit_disp_class(d);
+    case 'b':
+      OLC_MODE(d) = MEDIT_RACE;
+      medit_disp_race(d);
       return;
 
     case 'c':
-      OLC_MODE(d) = MEDIT_RACE;
-      medit_disp_race(d);
+      OLC_MODE(d) = MEDIT_CLASS;
+      medit_disp_class(d);
       return;
 
     case 'd':
