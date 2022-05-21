@@ -878,6 +878,7 @@ do                                                              \
 #define IS_ARTIST(ch)	GET_CLASS(ch) == CLASS_ARTIST
 #define IS_SCIENTIST(ch)	GET_CLASS(ch) == CLASS_SCIENTIST
 #define IS_ENGINEER(ch)	GET_CLASS(ch) == CLASS_ENGINEER
+#define IS_HACKER(ch)	GET_CLASS(ch) == CLASS_HACKER
 #define IS_PROGRAMMER(ch)	GET_CLASS(ch) == CLASS_PROGRAMMER
 #define IS_LAWYER(ch)	GET_CLASS(ch) == CLASS_LAWYER
 #define IS_DOCTOR(ch)	GET_CLASS(ch) == CLASS_DOCTOR

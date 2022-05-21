@@ -153,13 +153,14 @@
 #define CLASS_SCIENTIST       3 // SCIENTIST
 #define CLASS_ENGINEER        4 // ENGINEER
 #define CLASS_PROGRAMMER      5 // PROGRAMMER
-#define CLASS_LAWYER          6 // LAWYER
-#define CLASS_DOCTOR          7 // LAWYER
-#define CLASS_SECURITY        8 // LAWYER
-#define CLASS_SOLDIER         9 // MILITARY
+#define CLASS_HACKER          6 // PROGRAMMER
+#define CLASS_LAWYER          7 // LAWYER
+#define CLASS_DOCTOR          8 // LAWYER
+#define CLASS_SECURITY        9 // LAWYER
+#define CLASS_SOLDIER         10 // MILITARY
 
 /** Total number of available Classes */
-#define NUM_CLASSES	          10
+#define NUM_CLASSES	          11
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
