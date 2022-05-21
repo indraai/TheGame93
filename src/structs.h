@@ -147,16 +147,19 @@
 /* PC classes */
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
-#define CLASS_CITIZEN         0 // AIR FORCE
+#define CLASS_CITIZEN         0 // CITIZEN
 #define CLASS_MONK            1 // MONK
-#define CLASS_ARTIST          2 // PRIEST
-#define CLASS_SCIENTIST       3 // NAVY
-#define CLASS_ENGINEER        4 // ARMY
-#define CLASS_HACKER         5 // MILITARY
-#define CLASS_SOLDIER         6 // MILITARY
+#define CLASS_ARTIST          2 // ARTIST
+#define CLASS_SCIENTIST       3 // SCIENTIST
+#define CLASS_ENGINEER        4 // ENGINEER
+#define CLASS_PROGRAMMER      5 // PROGRAMMER
+#define CLASS_LAWYER          6 // LAWYER
+#define CLASS_DOCTOR          7 // LAWYER
+#define CLASS_SECURITY        8 // LAWYER
+#define CLASS_SOLDIER         9 // MILITARY
 
-/** Total number of available PC Classes */
-#define NUM_CLASSES	          7
+/** Total number of available Classes */
+#define NUM_CLASSES	          10
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -433,21 +436,24 @@
 #define ITEM_ANTI_GOOD         5   /**< Not usable by good people	*/
 #define ITEM_ANTI_EVIL         6   /**< Not usable by evil people	*/
 #define ITEM_ANTI_NEUTRAL      7   /**< Not usable by neutral people */
-#define ITEM_ANTI_MONK         8   /**< Not usable by monks */
-#define ITEM_ANTI_ARTIST       9   /**< Not usable by priests */
-#define ITEM_ANTI_SCIENTIST	  10   /**< Not usable by indu */
-#define ITEM_ANTI_ENGINEER    11   /**< Not usable by soma */
-#define ITEM_ANTI_CITIZEN     12   /**< Not usable by sarya */
-#define ITEM_ANTI_HACKER      13   /**< Not usable by sarya */
-#define ITEM_ANTI_SOLDIER     14   /**< Not usable by sarya */
-#define ITEM_NOSELL           15   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP           16    /**< Item is cursed: can't drop */
-#define ITEM_NORENT           17    /**< Item cannot be rented */
-#define ITEM_NODONATE         18    /**< Item cannot be donated */
-#define ITEM_NOINVIS          19    /**< Item cannot be made invis	*/
-#define ITEM_QUEST            20   /**< Item is a quest item         */
+#define ITEM_ANTI_CITIZEN      8   /**< Not usable by sarya */
+#define ITEM_ANTI_MONK         9   /**< Not usable by monks */
+#define ITEM_ANTI_ARTIST      10   /**< Not usable by priests */
+#define ITEM_ANTI_SCIENTIST	  11   /**< Not usable by indu */
+#define ITEM_ANTI_ENGINEER    12   /**< Not usable by soma */
+#define ITEM_ANTI_PROGRAMMER  13   /**< Not usable by sarya */
+#define ITEM_ANTI_LAWYER      14   /**< Not usable by sarya */
+#define ITEM_ANTI_DOCTOR      15   /**< Not usable by sarya */
+#define ITEM_ANTI_SECURITY    16   /**< Not usable by sarya */
+#define ITEM_ANTI_SOLDIER     17   /**< Not usable by sarya */
+#define ITEM_NOSELL           18   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP           19    /**< Item is cursed: can't drop */
+#define ITEM_NORENT           20    /**< Item cannot be rented */
+#define ITEM_NODONATE         21    /**< Item cannot be donated */
+#define ITEM_NOINVIS          22    /**< Item cannot be made invis	*/
+#define ITEM_QUEST            23   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    21
+#define NUM_ITEM_FLAGS    24
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/

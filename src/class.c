@@ -31,7 +31,10 @@ const char *class_abbrevs[] = {
   "Ar",
   "Sc",
   "En",
-  "Ha",
+  "Pr",
+  "La",
+  "Do",
+  "Se",
   "So",
   "\n"
 };
@@ -42,7 +45,10 @@ const char *class_types[] = {
   "Artist",
   "Scientist",
   "Engineer",
-  "Hacker",
+  "Programmer",
+  "Lawyer",
+  "Doctor",
+  "Security",
   "Soldier",
   "\n"
 };
@@ -56,8 +62,11 @@ const char *class_menu =
 "\nmenu[Artist]:c\r"
 "\nmenu[Scientist]:d\r"
 "\nmenu[Engineer]:e\r"
-"\nmenu[Hacker]:f"
-"\nmenu[Soldier]:g\r";
+"\nmenu[Programmer]:f"
+"\nmenu[Lawyer]:g"
+"\nmenu[Doctor]:h"
+"\nmenu[Security]:i"
+"\nmenu[Soldier]:j\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -71,8 +80,11 @@ int parse_class(char arg)
   case 'c': return CLASS_ARTIST;  // priest
   case 'd': return CLASS_SCIENTIST;    // indu
   case 'e': return CLASS_ENGINEER;    // soma
-  case 'f': return CLASS_HACKER;    // sarya
-  case 'g': return CLASS_SOLDIER;    // sarya
+  case 'f': return CLASS_PROGRAMMER;    // sarya
+  case 'g': return CLASS_LAWYER;    // sarya
+  case 'h': return CLASS_DOCTOR;    // sarya
+  case 'i': return CLASS_SECURITY;    // sarya
+  case 'j': return CLASS_SOLDIER;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
