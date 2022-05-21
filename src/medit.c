@@ -710,7 +710,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
     case 'e':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "\nSet the Agent keywords...\r"
+      write_to_output(d, "\nWhat are the Agent Keywords?\r"
         "\ncurrent:%s\r",
         GET_ALIAS(OLC_MOB(d))
       );
@@ -718,7 +718,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
     case 'f':
       OLC_MODE(d) = MEDIT_L_DESC;
-      write_to_output(d, "\nAgent Description\r"
+      write_to_output(d, "\nWhere is the Agent Avatar...\r"
         "\ncurrent:%s\r",
         GET_LDESC(OLC_MOB(d))
       );
@@ -727,7 +727,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'g':
       OLC_MODE(d) = MEDIT_D_DESC;
       send_editor_help(d);
-      write_to_output(d, "\nAgent Avatar\r");
+      write_to_output(d, "\nWhere does the Agent Look...\r");
       if (OLC_MOB(d)->player.description) {
 	      write_to_output(d, "\n%s\r", OLC_MOB(d)->player.description);
 	      oldtext = strdup(OLC_MOB(d)->player.description);
