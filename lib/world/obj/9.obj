@@ -58,6 +58,7 @@ Cult of the Dead Cow Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 150 0 0 0
+E
 bio~
 bio
 ~
@@ -69,6 +70,7 @@ Chaos Computer Club Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 200 0 8 0
+E
 bio~
 bio
 ~
@@ -80,6 +82,7 @@ Legion of Doom Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 200 0 8 0
+E
 bio~
 bio
 ~
@@ -90,6 +93,7 @@ Masters of Deception Training~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
+E
 0 200 0 8 0
 bio~
 bio
@@ -101,7 +105,9 @@ b0g Training~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
+E
 0 200 0 8 0
+E
 bio~
 bio
 ~
@@ -113,6 +119,7 @@ Jonathan Jones Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 275 0 0 0
+E
 bio~
 bio
 ~
@@ -124,6 +131,7 @@ Aaron Swartz Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 275 0 0 0
+E
 bio~
 bio
 ~
@@ -135,6 +143,7 @@ James Dolan Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 275 0 0 0
+E
 bio~
 bio
 ~
