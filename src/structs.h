@@ -152,7 +152,7 @@
 #define CLASS_ARTIST          2 // PRIEST
 #define CLASS_SCIENTIST       3 // NAVY
 #define CLASS_ENGINEER        4 // ARMY
-#define CLASS_SOLDIER         5 // MILITARY
+#define CLASS_HACKER         5 // MILITARY
 #define CLASS_SOLDIER         6 // MILITARY
 
 /** Total number of available PC Classes */
