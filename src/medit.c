@@ -475,8 +475,8 @@ static void medit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   "\n# Agent: %d\r"
   "\nselect[a:gender]:%s\r"
-  "\nselect[c:race]:%s\r"
-  "\nselect[b:class]:%s\r"
+  "\nselect[b:race]:%s\r"
+  "\nselect[c:class]:%s\r"
   "\nselect[d:keywords]:%s\r"
   "\nselect[e:name]: %s\r"
   "\nselect[f:avatar]:%s\r"
