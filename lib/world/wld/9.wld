@@ -73,7 +73,7 @@ D1
 S
 T 806
 #807
-b0g~
+The CIA~
 [DESCRIBE]~
 9 8 0 0 0 0
 D0
@@ -234,12 +234,12 @@ D6
 ~
 0 0 910
 E
-pastebin2~
-patebin2
-~
-E
 pastebin1~
 pastebin
+~
+E
+pastebin2~
+patebin2
 ~
 S
 T 905
@@ -795,16 +795,16 @@ D3
 ~
 0 0 949
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 S
 T 941
@@ -1367,20 +1367,20 @@ D0
 ~
 0 0 971
 E
-photo0~
-0972/main:photo0
-~
-E
-photo1~
-0972/main:photo1
+photo3~
+0972/main:photo3
 ~
 E
 photo2~
 0972/main:photo2
 ~
 E
-photo3~
-0972/main:photo3
+photo1~
+0972/main:photo1
+~
+E
+photo0~
+0972/main:photo0
 ~
 S
 T 972
@@ -1394,20 +1394,20 @@ D0
 ~
 0 0 972
 E
-photo0~
-photo0
-~
-E
-photo1~
-photo1
+photo3~
+photo3
 ~
 E
 photo2~
 photo2
 ~
 E
-photo3~
-photo3
+photo1~
+photo1
+~
+E
+photo0~
+photo0
 ~
 S
 T 973
