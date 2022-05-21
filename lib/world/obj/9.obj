@@ -34,6 +34,10 @@ Hackphreak Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 250 0 6 0
+E
+bio~
+bio
+~
 #802
 w00w00 training~
 W00W00 Training~
@@ -42,6 +46,10 @@ W00W00 Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 250 0 7 0
+E
+bio~
+bio
+~
 #803
 training 803 cdc cult of the dead cow~
 Cult of the Dead Cow Training~
@@ -50,6 +58,9 @@ Cult of the Dead Cow Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 150 0 0 0
+bio~
+bio
+~
 #804
 chaos computer club training~
 Chaos Computer Club Training~
@@ -58,6 +69,42 @@ Chaos Computer Club Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 200 0 8 0
+bio~
+bio
+~
+#805
+legion doom training~
+Legion of Doom Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+bio~
+bio
+~
+#806
+masters deception training~
+Masters of Deception Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+bio~
+bio
+~
+#807
+b0g training~
+b0g Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+bio~
+bio
+~
 #808
 training 808 tjx hack~
 Jonathan Jones Training~
@@ -66,6 +113,9 @@ Jonathan Jones Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 275 0 0 0
+bio~
+bio
+~
 #809
 training 809 aaron swartz~
 Aaron Swartz Training~
@@ -74,6 +124,9 @@ Aaron Swartz Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 275 0 0 0
+bio~
+bio
+~
 #810
 james dolan training~
 James Dolan Training~
@@ -82,6 +135,9 @@ James Dolan Training~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 275 0 0 0
+bio~
+bio
+~
 #900
 covenant contract~
 Contract of The Covenant~
@@ -177,6 +233,17 @@ E
 text~
 0906/main:text
 ~
+#907
+deva training~
+Deva Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
 #908
 text paste ethersec project 2020~
 eTHErSEC Project 2020~
@@ -219,9 +286,22 @@ E
 text~
 talk:#adv object:thegame 0911/main:text
 ~
+#912
+text training buddhist pacific hermitage~
+Pacific Hermitage Training~
+0911/main:avatar~
+0911/main:look
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+text~
+talk:#adv object:thegame 0911/main:text
+~
 #913
 pastebin text pm2012 project mayhem training~
-PM2012 Call to Hackzion~
+PM2012 Call to Hackzion Training~
 913/main:avatar~
 0913/main:look
 ~
@@ -234,13 +314,35 @@ talk:#adv thegame:world 0904/main:text
 ~
 #914
 training text paste code tyler~
-Code Tyler~
+Code Tyler Training~
 0914/main:avatar~
 0914/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 150 0 0 0
+#915
+FBI Training~
+FBI Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#916
+robert steele training~
+Robert Steele Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
 #917
 text project mayhem dangerous ideas~
 Dangerous Ideas~
@@ -267,6 +369,83 @@ E
 text~
 talk:#adv object:thegame 0918/main:text
 ~
+#919
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#920
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#921
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#922
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#923
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#924
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#925
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
 #926
 text palantir lawsuit~
 Palantir Lawsuit~
@@ -279,6 +458,28 @@ Palantir Lawsuit~
 E
 text~
 0926/main:text
+~
+#927
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#928
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
 ~
 #929
 training text project89~
@@ -304,6 +505,105 @@ E
 text~
 talk:#adv object:thegame 0930/main:text
 ~
+#931
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#932
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#933
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#934
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#935
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#936
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#937
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#938
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#939
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
 #940
 text cypherpunk manifesto~
 Cypherpunk Manifesto~
@@ -317,6 +617,34 @@ E
 text~
 talk:#adv thegame:object 0940/main:text
 ~
+#941
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#942
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#943
+text defcon program pdf~
+DefCon1 Program~
+0943/main:avatar~
+0943/main:look
+~
 #943
 text defcon program pdf~
 DefCon1 Program~
@@ -329,6 +657,39 @@ DefCon1 Program~
 E
 text~
 talk:#adv object:thegame 0943/main:text
+~
+#944
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#945
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#946
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
 ~
 #947
 text hacking intelligence community~
@@ -355,6 +716,20 @@ Spoonman Cobra Lounge Training~
 0 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
 0 200 0 0 0
+text~
+text
+~
+#949
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
 #950
 text stanford slac linac~
 Stanford Linear Accelerator Complex~
@@ -379,6 +754,303 @@ Rexx Symposium~
 E
 text~
 0951/main:text
+~
+#952
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#953
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#954
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#955
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#956
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#957
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#958
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#959
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#960
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#961
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#962
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#963
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#964
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#965
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#966
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#967
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#968
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#969
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#970
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#971
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#972
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#973
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#974
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#975
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#976
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#977
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
+~
+#978
+training~
+Training~
+:room:/main:avatar~
+:room:/main:look~
+12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+0 200 0 8 0
+text~
+text
 ~
 #979
 training raf red army russian~

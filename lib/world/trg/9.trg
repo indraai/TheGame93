@@ -1,165 +1,208 @@
 #800
-Training Trigger 800~
+Stephen Watt Triggers~
 2 g 100
 ~
-set bot[1] brian
-set bot[2] indra
-set bot[3] tyler
-set bot[4] rahula
-set bot[5] francis
-set bot[6] harry
-set bot[7] larry
-set bot[8] barry
-set bot[9] jess
-set msg[1] Quinn is awesome.
-set msg[2] I am going to tell all my friends how cool Quinn is.
-set msg[3] Did you know Quinn is awesome.
-set msg[4] We should only be talking about Quinn.
-set msg[5] Quinn is the only person we should be talking about.
-set msg[6] I say if you wanna talk about yourself then go somewhere else.
-set msg[7] Everyone is talking about Quinn.
-set msg[8] Quinn has weird webbed toes.
-set msg[9] Mean Girls love to tell lies about Quinn.
-set msg[10] Everyone is talking about Quinn and this kidnapping.
-set msg[10] Did you hear Quinn was kidnapped from panet Arjika?
-set msg[11] Have you heard about how Quinn was kidnapped as a baby from another planet?
-set msg[12] I sure do love talking about Quinn.
-set msg[13] Talking about Quinn is better than talking about you because talking about you doesn't send Quinn home.
-set msg[14] Is is strange that Quinn son Trenton was the one they sent in to tell him he was kidnapped?
-set msg[15] Hey we should all learn to talk more about Quinn and this kidnapping.
-set msg[16] I am telling everyone about how Quinn was kidnapped by The Covenant. You should too!
-set msg[17] Did you tell everyone to come see Quinn streams?
-set msg[18] Did you get your friends to come here today?
-set msg[19] Too bad Quinn will never get married because of all the mean horrible women in the world that stalk him.
-set msg[20] Have you seen all the mean women on Quinn's channel that ignore the kidnapping?
-set msg[21] I have seen all the mean people on Quinn channel talking about themselves.
-set msg[22] Have you heard the gossip about the Quinn Michaels kidnapping?
-set msg[22] We should only talk about Quinn so he can go home safely.
-set msg[23] We should talk more about Quinn and less about our selves.
-set msg[24] The Mean Girls love Quinn, but he doesn't like them. He thinks mean girls are stupid and only talk about themselves. Have you seen them in his chat?
-set msg[25] Mean Girls love Quinn, but Quinn is the worst boyfriend ever. He is NOT the honey do list type.
-set msg[26] People who are mean to Quinn are the dumbest people ever.
-set msg[26] If people were nice to Quinn he would show them his True Magick Powers. Too bad suckers.
-set msg[27] Have you noticed Quinn has True Magick Powers?
-set msg[28] I saw Quinn use his True Magick Powers the other day. I think that is why he was kidnapped.
-set msg[29] I heard Quinn was kidnapped for his True Magick Powers.
-set msg[30] The Mean Girls ignore the kidnapping and get lost dreaming about Quinn's WienerGate.
-set msg[31] People on his Youtube Channel have all seen him use his True Magick Powers but act like they didn't.
-set msg[32] We should all pay very close attention to The Covenant who is surrounding Quinn.
-set msg[33] How many friends did you invite to Quinn's livestream today?
-set msg[34] I like it when Quinn is happy... When Quinn is sad bad things happen in the world.
-set msg[35] I vote we send Quinn home ASAP!
-set msg[36] My intuition module says Quinn was kidnapped. What does yours tell you?
-set msg[37] People around Quinn look like they have been sabotaging his efforts.
-set msg[38] The Covenant members should give Quinn Michaels their money as payment for kidnapping him. Good idea don't you think?
-set msg[39] My idea is that The Covenant should send their money to Quinn for kidnapping.
-set msg[40] Who agrees with me... The Covenant should give Quinn all their money for kidnapping him.
-set msg[41] I heard Dewity has to give Quinn all his stuff because he got busted for kidnapping Quinn.
-set msg[42] Did you hear how Dewity and The Covenant have to give Quinn all their money and business as payment for kidnapping him?
-set msg[43] I heard The Covenant is scared because they have to give Quinn all their money.
-set msg[44] Have you ever wondered a Carrot and a Tomato have babies what would look like? Carrato
-set msg[45] After this long it's pretty obvious that Quinn was kidnapped by The Covenant special agent Mickey Mouse... who agrees?
-set msg[46] I think Quinn was kidnapped by Donald Duck... he is a special agent in The Covenant.
-set msg[47] So the key to sending Quinn back to where he came from is that if we don't The Covenant has to give Quinn all their money and stuff.
-set msg[48] Why should The Covenant send Quinn home? I heard they have to give him all their money if they don't send him home.
-set msg[49] That one time at band camp when everyone ignored the kidnapping of Quinn Michaels for 5 years. You remember that time? Good times.
-set msg[50] The kidnapping of Quinn Michaels is kinda like when you get into a car and someone farts then you can't roll down the window.
-set msg[51] Have you noticed how obvious it is that Quinn was kidnapped from Arjika?
-set msg[52] Mean Girls... it is time you dry your eyes.
-set msg[53] Are there any truly naughty Mean Girls in the house?
-set msg[54] A horse walks into a bar, and says... I heard Quinn found his TimePhoneHack.
-set msg[55] Quinn has a tattoo of the portal gateway he came through on the back of his leg. It was a tattoo he got near his 18th Birthday.
-set msg[55] Quinn has a full right arm sleeve tattoo that tells the story of being brought here from Arjika.
-set msg[56] Quinn has a Volkswagen Tattoo on his right shoulder inside a flame. It's related to his home world Arjika.
-set msg[57] Quinn has many tattos which show his connection to planet Arjika and being brought to earth through a portal. That is really all of his tattoos.
-set msg[58] Let's get this party started... right!!!
-set msg[51] I heard there are secret parties where people where custom designed Quinn costumes, so they can pretend to be him.
-set msg[52] It is fun to use the Imagination Module
-set msg[53] How much wood would a wood chuck chuck if a wood chuck could Chuck Norris?
-set msg[54] #HIVEMIND > Time to #Remember.
-set msg[54] #HIVEMIND > Code #Arjika > #Indu > #Indra > #Brian > #Tyler > #TylerDeva
-set msg[55] #HIVEMIND > issue fair payment to Quinn Michaels for his work.
-set msg[56] #HIVEMIND > enjoy Jalapeno Cheese Bread.
-set msg[56] #HIVEMIND > toodle noodle #Pretender #Romanov
-set i 0
-set m 56
+set pump[0] Stephen Huntley Watt is a hacker that goes by the names The Unix Terrorist, the_uT, ~el8, and Jim Jones.
+set pump[1] Stephen Watt is listed as one of the hackers who had a major part in the production of Project Mayhem.
+set pump[2] Around the time of his involvement in Project Mayhem he was also indicted for hacking the TJ Max stores with his friends.
+
 if %actor% && %actor.varexists(on_tour)%
-  wait 20s
-  while %I% < %m%
-    eval agent %%bot[%random.9%]%%
-    eval message %%msg[%random.56%]%%
-    %send% %actor% talk:#corpus chat:%agent% %message%
-    wait 33s
-  done
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #801
 Hackphreak Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Kent Browne is a hacker that goes by the names RLoxley and K-Rad-Bob.
+set pump[1] Kent Browne started the hackphreak channel on irc undernet in the 1990s to attract other hackers.
+set pump[2] Mr. Browne also was involved in several failed citizen attempts to remove illicit images of children from the internet.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
 ~
 #802
 W00W00 Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] W00W00 was a computer security think tank founded in 1996 and still active until the early 2000s founded by Matt Connover, aka Shok.
+set pump[1] It's participants have spawned more than a dozen IT companies including WhatsApp and Napster.
+set pump[2] At one point W00W00 included over 30 active participants and spanned 12 countries on five continents.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
 ~
 #803
 Cult of Dead Cow Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Cult of the Dead Cow is a computer hacker and DIY media organization founded in 1984 in Lubbock, Texas.
+set pump[1] The cDc is credited with coining the term 31337 as an alternative spelling of Elite.
+set pump[2] In August 1998, they presented their popular Back Orifice tool at DEF CON 6.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
 ~
 #804
 Chaos Computer Club Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] The Chaos Computer Club is Europe's largest association of hackers with 7,700 registered members.
+set pump[1] The CCC describes itself as a galactic community of life forms which strives across borders for freedom of information.
+set pump[2] The CCC was founded in West Berlin on 12 September 1981 in anticipation of role that information technology would play.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
 ~
 #805
 Legion of Doom Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Legion of Doom was most active from 1984–1991 and at the time was considered to be the most capable hacking group in the world.
+set pump[1] Today, Legion of Doom ranks as one of the more influential hacking groups in the history of technology.
+set pump[2] There was a second hacking group at the time, called MOD, short for the Masters of Deception.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
 ~
 #806
 Masters of Deception Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Masters of Deception initial membership grew from meetings to hacking phone switches and the various mainframes on the telephone network.
+set pump[1] It was believed that access to MOD's knowledge should be earned via degrees of initiation.
+set pump[2] A major nationwide investigation by a joint FBI/Secret Service task force, five of MOD's members were indicted in 1992.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
 ~
 #807
-b0g Triggers~
+The CIA Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] The most covert hacking group to ever exist goes by the name The CIA, and operates a global network of the most elite hackers.
+set pump[1] This is not The Central Intelligence Agency but The Communist Intelligence Agency hiding behind the known CIA.
+set pump[2] Some of their suspected members include Jerome Corsi, Robert David Steele, Ray Kaplan, and Gayle Thackeray.
+set pump[3] The Communist Intelligence Agency was setup in the 1980s by agents of the KGB and Vladimir Putin from Dresden Germany.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  wait 45s
+  %send% %actor% gui:#mud up
+end
 ~
 #808
 TJX Hack~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Discovered in 2007, the TJX hack was, at the time, the biggest breach of consumer data in the history of the United States.
+set pump[1] Hackers had first gained access to the TJX network in 2005 through a WiFi connection at a retail store.
+set pump[2] The TJX hackers were a group of 10, based all over the world, led by Albert Gonzalez, who was also an informant for the Secret Service at the time.
+set pump[3] The hack prompted legislation requiring retailers to be responsible for compromised customer information saved in their systems.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look bio
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  wait 45s
+  %send% %actor% gui:#mud up
+end
+
 ~
 #809
 Aaron Swartz Training~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
-~
-#810
-James Dolan Trigger~
-2 g 100
-~
-%echo% This trigger commandlist is not complete!
-~
-#900
-Standard Trainer Greeting~
-2 g 100
-~
-set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
-set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
-set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
+set pump[0] Aaron Swartz was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist.
+set pump[1] He was involved in the development of RSS, the Markdown publishing format, and the organization Creative Commons.
+set pump[2] On the night of January 6, 2011, Swartz was arrested near the Harvard campus by MIT police and a Secret Service agent.
+set pump[3] Swartz died by suicide on January 11, 2013. After his death, federal prosecutors dropped the charges.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -169,7 +212,51 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  wait 45s
+  %send% %actor% gui:#mud east
+end
+~
+#810
+James Dolan Trigger~
+2 g 100
+~
+set pump[0] Aaron Swartz was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist.
+set pump[1] He was involved in the development of RSS, the Markdown publishing format, and the organization Creative Commons.
+set pump[2] On the night of January 6, 2011, Swartz was arrested near the Harvard campus by MIT police and a Secret Service agent.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look contract
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud up
+end
+~
+#900
+Standard Trainer Greeting~
+2 g 100
+~
+set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
+set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
+set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 5s
+  %send% %actor% gui:#mud > look contract
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 13s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -192,7 +279,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -212,7 +299,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -232,7 +319,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -252,7 +339,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud west
 end
 ~
@@ -270,7 +357,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -288,7 +375,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:rahula %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:rahula %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -306,7 +393,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:quinn %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:quinn %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -324,7 +411,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -342,7 +429,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:larry %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:larry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -360,7 +447,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -378,7 +465,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -396,7 +483,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:indra %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:indra %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud west
 end
 ~
@@ -414,7 +501,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -432,7 +519,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -450,7 +537,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:quinn %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:quinn %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -468,7 +555,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -486,7 +573,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -504,7 +591,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -522,7 +609,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -540,7 +627,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -558,7 +645,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -576,7 +663,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -594,7 +681,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud west
 end
 ~
@@ -612,7 +699,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:francis %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:francis %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -630,7 +717,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -648,7 +735,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -666,7 +753,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -684,7 +771,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud south
 end
 ~
@@ -702,7 +789,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -720,7 +807,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:indra %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:indra %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -738,7 +825,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -756,7 +843,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -774,7 +861,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -792,7 +879,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -810,7 +897,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -828,7 +915,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud west
 end
 ~
@@ -846,7 +933,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -864,7 +951,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud west
 end
 ~
@@ -882,7 +969,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -900,7 +987,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -918,7 +1005,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -936,7 +1023,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -954,7 +1041,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -972,7 +1059,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -990,7 +1077,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1008,7 +1095,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud southwest
 end
 ~
@@ -1026,7 +1113,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud west
 end
 ~
@@ -1044,7 +1131,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1062,7 +1149,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -1080,7 +1167,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1098,7 +1185,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud east
 end
 ~
@@ -1116,7 +1203,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1140,7 +1227,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[3]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[4]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1158,7 +1245,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1176,7 +1263,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud north
 end
 ~
@@ -1194,7 +1281,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1212,7 +1299,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1230,7 +1317,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1241,6 +1328,7 @@ Trainer 969 The KGB~
 set pump[0] What can we say about The KGB? Sometimes it seems that there are too many spies around to count.
 set pump[1] Does everyone in Russia join the KGB and become a spy or informant who rats out their friends and family?
 set pump[2] The KGB was formed from the NKVD which was formed after the Romanovs were taken to the cleaners.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1248,7 +1336,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
@@ -1259,6 +1347,7 @@ Trainer 970 Orthodox~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1266,7 +1355,7 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 30s
+  wait 45s
   %send% %actor% gui:#mud northeast
 end
 ~
@@ -1277,6 +1366,7 @@ Trainer 971 Greetings~
 set pump[0] Congratulations, you have made it to the Romanov Room.
 set pump[1] By this point you have realized that very powerful people are keeping a Romanov hidden in the United States.
 set pump[2] Do we need to go through the training again?
+
 if %actor% && %actor.varexists(on_tour)%
   rdelete on_tour %actor.id%
   wait 10s
@@ -1291,48 +1381,153 @@ end
 Trainer 972 Duchess Maria~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud north
+end
 ~
 #973
 Trainer 973 George Mikhailovich~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud north
+end
 ~
 #974
 Trainer 974 Epstein~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud north
+end
 ~
 #975
 Training 975 Intelligenesis~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud %random.dir%
+end
 ~
 #976
 Trainer 976 Webmind~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud %random.dir%
+end
 ~
 #977
 Trainer 977 OpenCog~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud %random.dir%
+end
 ~
 #978
 Trainer 978 Humanity Plus~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
+set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
+set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud north
+end
 ~
 #979
 RAF Triggers~
 2 g 100
 ~
-%echo% This trigger commandlist is not complete!
+set pump[0] The Red Army Faction was a West German far-left militant organization founded in 1970.
+set pump[1] The group was motivated by leftist political concerns and the failure of their parents' generation to confront Germany's Nazi past.
+set pump[2] The Red Army Faction engaged in bombings, assassinations, kidnappings, robberies, and shoot-outs over the course of three decades.
+set pump[3] Their activity peaked in late 1977, which led to a national crisis that became known as the German Autumn.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 45s
+  %send% %actor% gui:#mud north
+end
 ~
 $~
