@@ -21,6 +21,7 @@
 #include "oasis.h"
 #include "handler.h"
 #include "constants.h"
+#include "class.h"
 #include "improved-edit.h"
 #include "dg_olc.h"
 #include "screen.h"
