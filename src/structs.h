@@ -153,9 +153,10 @@
 #define CLASS_SCIENTIST       3 // NAVY
 #define CLASS_ENGINEER        4 // ARMY
 #define CLASS_SOLDIER         5 // MILITARY
+#define CLASS_SOLDIER         6 // MILITARY
 
 /** Total number of available PC Classes */
-#define NUM_CLASSES	          6
+#define NUM_CLASSES	          7
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -437,15 +438,16 @@
 #define ITEM_ANTI_SCIENTIST	  10   /**< Not usable by indu */
 #define ITEM_ANTI_ENGINEER    11   /**< Not usable by soma */
 #define ITEM_ANTI_CITIZEN     12   /**< Not usable by sarya */
-#define ITEM_ANTI_SOLDIER     13   /**< Not usable by sarya */
-#define ITEM_NOSELL           14   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP           15    /**< Item is cursed: can't drop */
-#define ITEM_NORENT           16    /**< Item cannot be rented */
-#define ITEM_NODONATE         17    /**< Item cannot be donated */
-#define ITEM_NOINVIS          18    /**< Item cannot be made invis	*/
-#define ITEM_QUEST            19   /**< Item is a quest item         */
+#define ITEM_ANTI_HACKER      13   /**< Not usable by sarya */
+#define ITEM_ANTI_SOLDIER     14   /**< Not usable by sarya */
+#define ITEM_NOSELL           15   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP           16    /**< Item is cursed: can't drop */
+#define ITEM_NORENT           17    /**< Item cannot be rented */
+#define ITEM_NODONATE         18    /**< Item cannot be donated */
+#define ITEM_NOINVIS          19    /**< Item cannot be made invis	*/
+#define ITEM_QUEST            20   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    20
+#define NUM_ITEM_FLAGS    21
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
