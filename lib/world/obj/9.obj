@@ -167,20 +167,20 @@ Buddhist Practice Video~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 100 0 0 0
+0 100 0 1 0
 E
 video901~
 video901
 ~
 #902
 training 902 cicada3301 svv anonymous~
-SVV Documents~
+SVV Cicada3301 Documents~
 0902/main:avatar~
 0902/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 100 0 1 0
 E
 902agents~
 agents
@@ -193,33 +193,33 @@ Project Mayhem 2012~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 200 0 2 0
 E
 903text~
 0903/main:text
 ~
 #904
-pastebin text pm2012 project mayhem~
-PM2012 Call to Hackzion~
+pastebin text pm2012 revelations~
+PM2012 Revelations~
 904/main:avatar~
 0904/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 180 0 0 0
+0 300 0 2 0
 E
 text904~
 0904/main:text904
 ~
 #905
-text paste michael speaks mayhem~
-the Michael Documents~
+text paste michael nebadon~
+Michael Documents~
 0905/main:avatar~
 0905/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 100 0 0 0
+0 100 0 2 0
 E
 905text2~
 905text2
@@ -236,7 +236,7 @@ IT Text~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 200 0 2 0
 E
 text~
 0906/main:text
@@ -246,9 +246,9 @@ deva training~
 Deva Training~
 :room:/main:avatar~
 :room:/main:look~
-12 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 300 0 3 0
 E
 text~
 text
@@ -261,7 +261,7 @@ eTHErSEC Project 2020~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 300 0 3 0
 E
 text~
 talk:#adv object:thegame 0908/main:text
@@ -273,7 +273,7 @@ Ethersec Project2020 Trainging~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 300 0 3 0
 E
 text~
 text
@@ -285,7 +285,7 @@ Project Mayhem 2020 Training~
 :room:/main:look~
 12 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 0 0
+0 300 0 3 0
 E
 text~
 text
@@ -296,9 +296,9 @@ TheGame23 Text~
 0911/main:avatar~
 0911/main:look
 ~
-12 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 300 0 3 0
 E
 text~
 text
@@ -309,9 +309,9 @@ Pacific Hermitage Training~
 0911/main:avatar~
 0911/main:look
 ~
-12 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 100 0 1 0
 E
 text~
 talk:#adv object:thegame 0911/main:text
@@ -330,14 +330,14 @@ text~
 talk:#adv thegame:world 0904/main:text
 ~
 #914
-training text paste code tyler~
+training text paste code tyler pm2012~
 Code Tyler Training~
 0914/main:avatar~
 0914/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 400 0 4 0
 E
 text~
 text
@@ -349,7 +349,7 @@ FBI Training~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 100 0 1 0
 E
 text~
 text
@@ -374,7 +374,7 @@ Dangerous Ideas~
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 400 0 4 0
 E
 text~
 0917/main:look
@@ -399,7 +399,7 @@ Survivance Training~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 300 0 3 0
 E
 text~
 text
@@ -429,13 +429,13 @@ text~
 text
 ~
 #922
-training~
-Training~
+tabitha training~
+Tabitha Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 100 0 1 0
 E
 text~
 text
@@ -520,7 +520,7 @@ Project89 Text~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 200 0 2 0
 E
 text~
 talk:#adv object:thegame 0929/main:look
@@ -532,7 +532,7 @@ Church of Virus Training~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 150 0 0 0
+0 300 0 3 0
 E
 text~
 talk:#adv object:thegame 0930/main:text
@@ -550,13 +550,13 @@ text~
 text
 ~
 #932
-training~
-Training~
+sasha chislenko alexander training~
+Sasha Chislenko Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 400 0 4 0
 E
 text~
 text
@@ -574,25 +574,25 @@ text~
 text
 ~
 #934
-training~
-Training~
+training cyberman~
+Cyberman Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 200 0 4 0
 E
 text~
 text
 ~
 #935
-training~
-Training~
+evil people training~
+Evil People Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 400 0 4 0
 E
 text~
 text

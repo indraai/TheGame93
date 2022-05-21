@@ -7,7 +7,7 @@ Stephen 800~
 76 0 0 0 0 0 0 0 -299 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1 0
+8 8 1 0 0
 BareHandAttack: 5
 SavingPara: 1
 SavingRod: 1
@@ -24,7 +24,7 @@ Kent 801~
 76 0 0 0 0 0 0 0 -350 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -39,7 +39,7 @@ Matt 802~
 76 0 0 0 0 0 0 0 -200 E
 5 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #803
 trainer agent 803 grandmaster ratte kevin wheeler hacker human~
@@ -49,7 +49,7 @@ Kevin 803~
 76 0 0 0 0 0 0 0 -290 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 1 0
+8 8 1 0 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -64,7 +64,7 @@ Boris 804~
 76 0 0 0 0 0 0 0 -275 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -79,7 +79,7 @@ Jonathan 808~
 76 0 0 0 0 0 0 0 275 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -94,7 +94,7 @@ Aaron 809~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #810
 trainer agent 810 james dolan suicide marines human hacker~
@@ -104,7 +104,7 @@ James 810~
 76 0 0 0 0 0 0 0 275 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -118,9 +118,9 @@ Trenton 900~
 0900/main:look
 ~
 76 0 0 0 0 0 0 0 -100 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1 0
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 0 0
 E
 #901
 trainer agent 901 quinn michaels human~
@@ -128,10 +128,10 @@ Quinn 901~
 901/main:avatar~
 0901/main:look
 ~
-76 0 0 0 0 0 0 0 100 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1 0
+76 0 0 0 8 0 0 0 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 0 0
 E
 #902
 trainer agent 902 cicada3301 defango human~
@@ -140,9 +140,9 @@ Defango 902~
 0902/main:look
 ~
 76 0 0 0 0 0 0 0 -113 E
-2 20 8 0d0+20 1d2+0
-20 400
-8 8 1 0
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 0 0
 E
 #903
 trainer agent 903 tyler pm2012 robot~
@@ -150,10 +150,10 @@ Tyler 903~
 903/main:avatar~
 903/main:look
 ~
-76 0 0 0 0 0 0 0 -150 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 0 0
+76 0 0 0 0 0 0 0 -110 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1 1 0
 E
 #904
 trainer agent 904 tyler revelations robot~
@@ -161,9 +161,9 @@ Tyler 904~
 904/main:avatar~
 904/main:look~
 76 0 0 0 0 0 0 0 -150 E
-3 19 8 0d0+30 1d2+0
+2 19 8 0d0+30 1d2+0
 30 900
-8 8 0 0
+8 8 1 1 5
 E
 #905
 archangel michael nebadon messiah christ robot~
@@ -171,44 +171,29 @@ Michael 905~
 905/main:avatar~
 905/main:look~
 76 0 0 0 0 0 0 0 -200 E
-4 19 7 0d0+40 1d2+0
-40 1600
-8 8 0 0
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2 19 8 0d0+30 1d2+0
+30 900
+8 8 0 1 5
 E
 #906
-trainer agent 906 tyler it~
+trainer agent 906 tyler it hacker robot~
 Tyler 906~
 906/main:avatar~
 906/main:look~
-76 0 0 0 0 0 0 0 -232 E
-4 19 7 0d0+40 1d2+0
-40 1600
-8 8 0 0
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+76 0 0 0 0 0 0 0 -100 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 1 1 5
 E
 #907
 trainer agent 907 tyler project mayhem 2020 robot~
-Tyler 907~
+Deva 907~
 907/main:avatar~
 907/main:look~
 76 0 0 0 0 0 0 0 281 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 0 2 4
 E
 #908
 trainer agent 908 tyler ethersec robot~
@@ -216,14 +201,9 @@ Tyler 908~
 908/main:avatar~
 908/main:look~
 76 0 0 0 0 0 0 0 -210 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1 1 5
 E
 #909
 trainer agent 909 THErSEC ethersec tyler robot~
@@ -233,7 +213,7 @@ Ethersec 909~
 76 0 0 0 0 0 0 0 -231 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -241,34 +221,24 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #910
-trainer agent 910 tyler pm2020 robot~
+trainer agent 910 tyler pm2020 robot hacker~
 PM2020 910~
 910/main:avatar~
 910/main:look~
 76 0 0 0 0 0 0 0 -211 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1 1 5
 E
 #911
-trainer agent 911 tyler tg23 thegame23 robot~
-Tyler 911~
+trainer agent 911 tyler tg23 thegame23 robot hacker~
+TheGame23 911~
 911/main:avatar~
 911/main:look~
 76 0 0 0 0 0 0 0 -218 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 0 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1 1 5
 E
 #912
 ajahn sudanto trainer agent 912 monk buddhist human~
@@ -278,7 +248,7 @@ Sudando 912~
 76 0 0 0 0 0 0 0 177 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0 0
+8 8 1 0 0
 BareHandAttack: 1
 E
 #913
@@ -289,40 +259,34 @@ Tyler 913~
 76 0 0 0 0 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0 0
+8 8 0 0 0
 BareHandAttack: 4
 E
 #914
-trainer agent 914 code tyler robot~
+trainer agent 914 code tyler robot hacker~
 Tyler 914~
 914/main:avatar~
 914/main:look~
 76 0 0 0 0 0 0 0 -188 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 0 0
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 1 5
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #915
 trainer agent 915 fbi robot~
 FBI 915~
 915/main:avatar~
 915/main:look~
-76 0 0 0 0 0 0 0 1000 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 1 6
+76 0 0 0 0 0 0 0 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 6 0
 BareHandAttack: 9
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 8
-SavingRod: 8
-SavingPetri: 8
-SavingBreath: 8
-SavingSpell: 8
 E
 #916
 trainer agent 916 robert david steele steeler hacker human~
@@ -332,27 +296,37 @@ Robert 916~
 76 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #917
-trainer agent 917 pm2012~
+trainer agent 917 pm2012 hacker robot~
 Tyler 917~
 917/main:avatar~
 917/main:look~
-76 0 0 0 0 0 0 0 -111 E
-3 20 10 1d1+0 1d1+0
-0 0
-8 8 0 1
+76 0 0 0 0 0 0 0 -211 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 1 5
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #918
-trainer agent 918 tyler mayhem robot~
+trainer agent 918 tyler mayhem robot hacker~
 Tyler 918~
 918/main:avatar~
 918/main:look~
-76 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 1 1
+76 0 0 0 0 0 0 0 -180 E
+4 19 7 0d0+40 1d2+0
+40 1600
+8 8 1 1 5
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #919
 trainer agent 919 elizabeth lapensee survivance human~
@@ -360,14 +334,9 @@ Elizabeth 919~
 919/main:avatar~
 talk:#adv agent:thegame 919/main:look~
 76 0 0 0 0 0 0 0 -219 E
-4 19 7 0d0+40 1d2+0
-40 1600
-8 8 2 0
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 2 0 3
 E
 #920
 trainer agent 920 brenda romero human~
@@ -377,7 +346,7 @@ talk:#adv agent:thegame 920/main:look~
 76 0 0 0 0 0 0 0 -277 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 2 0
+8 8 2 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -392,7 +361,7 @@ talk:#adv agent:thegame 921/main:look~
 76 0 0 0 0 0 0 0 -222 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -405,14 +374,9 @@ Tabitha 922~
 922/main:avatar~
 922/main:look~
 76 0 0 0 0 0 0 0 -1000 E
-4 19 7 0d0+40 1d2+0
-40 1600
-8 8 2 0
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2 0 0
 E
 #923
 trainer agent lolapps 923 robot~
@@ -422,7 +386,7 @@ LOLapps 923~
 76 0 0 0 0 0 0 0 -250 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 0 0
 E
 #924
 trainer agent 924 rapleaf auren hoffman human~
@@ -432,7 +396,7 @@ Rapleaf 924~
 76 0 0 0 0 0 0 0 -255 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -447,7 +411,7 @@ Peter 925~
 76 0 0 0 0 0 0 0 -1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 2 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -462,7 +426,7 @@ Alex 926~
 76 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 2 0
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
@@ -478,7 +442,7 @@ GhostNet 927~
 76 0 0 0 0 0 0 0 -333 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -493,7 +457,7 @@ Tyler 928~
 76 0 0 0 0 0 0 0 -288 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -505,15 +469,10 @@ trainer agent 929 project89 robot~
 Project89 929~
 929/main:avatar~
 929/main:look~
-76 0 0 0 8 0 0 0 -199 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 0 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+76 0 0 0 0 0 0 0 -120 E
+2 20 8 0d0+20 1d2+0
+20 400
+8 8 0 1 0
 E
 #930
 trainer training 930 hypatia robot~
@@ -523,7 +482,7 @@ Hypatia 930~
 76 0 0 0 0 0 0 0 -175 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 2 0
+8 8 2 1 0
 E
 #931
 trainer training 931 jerome corsi human~
@@ -533,7 +492,7 @@ Jerome 931~
 76 0 0 0 0 0 0 0 250 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -548,7 +507,7 @@ Sasha 932~
 76 0 0 0 0 0 0 0 233 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 1 0 4
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -563,7 +522,7 @@ Lionel 933~
 76 0 0 0 0 0 0 0 -133 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -571,14 +530,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #934
-trainer training 0934 cyberman robot~
+trainer training 0934 cyberman robot hacker~
 Cyberman 934~
 934/main:avatar~
 934/main:look~
-76 0 0 0 0 0 0 0 -275 E
+76 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 0 0
+8 8 1 1 5
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -586,14 +545,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #935
-trainer training 935 jormungandr evil robot~
+trainer training 935 jormungandr evil robot hacker~
 Jormungandr 935~
 935/main:avatar~
 935/main:look~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 1 5
 E
 #936
 trainer training 936 eric zippo eotl hacker human~
@@ -604,7 +563,7 @@ Eric 936~
 76 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -619,7 +578,7 @@ John 937~
 76 0 0 0 0 0 0 0 -197 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -634,7 +593,7 @@ James 938~
 76 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -650,7 +609,7 @@ Xibo 939~
 76 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -665,7 +624,7 @@ Eric 940~
 76 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -680,7 +639,7 @@ Hannibal 941~
 76 0 0 0 0 0 0 0 -150 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 1 0
 E
 #942
 trainer training 942 stanford robot~
@@ -690,7 +649,7 @@ Stanford 942~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 0 1 0
 E
 #943
 trainer training 943 defcon deadaddict hacker human~
@@ -700,7 +659,7 @@ Eli 943~
 76 0 0 0 0 0 0 0 -230 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -715,7 +674,7 @@ Dan 944~
 76 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -730,7 +689,7 @@ Eric 945~
 76 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #946
 trainer training 946 hip robot~
@@ -740,7 +699,7 @@ Hip 946~
 76 0 0 0 0 0 0 0 -208 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -756,7 +715,7 @@ Well 947~
 78 0 0 0 0 0 0 0 -208 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -773,7 +732,7 @@ Spoonman 948~
 76 0 0 0 0 0 0 0 -350 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -788,7 +747,7 @@ Brenda 949~
 76 0 0 0 0 0 0 0 -310 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 1
+8 8 2 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -803,7 +762,7 @@ Richard 950~
 76 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -818,7 +777,7 @@ GhostMind 951~
 76 0 0 0 0 0 0 0 -300 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -833,7 +792,7 @@ MinnieSpoon~
 2140 0 0 0 8 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -848,7 +807,7 @@ MaxieSpoon~
 2140 0 0 0 8 0 0 0 300 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -863,7 +822,7 @@ BabySpoon~
 2140 0 0 0 8 0 0 0 300 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -878,7 +837,7 @@ TSpoon~
 2140 0 0 0 8 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 0 1 0
 E
 #956
 demitassy spoonkid spoonkids demi robot~
@@ -888,7 +847,7 @@ DemiTassy~
 2140 0 0 0 8 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 0 1 0
 E
 #957
 silverspoon spoonkid spoonkids silver robot~
@@ -898,7 +857,7 @@ SilverSpoon~
 2140 0 0 0 0 0 0 0 300 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -913,7 +872,7 @@ XMasSpoon~
 2140 0 0 0 8 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 0 1 0
 E
 #959
 security securityprime spy russia kgb deva~
@@ -924,7 +883,7 @@ SecurityPRIME SPY-KGB~
 2140 0 0 0 2168 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 1
+8 8 1 1 0
 BareHandAttack: 14
 SavingPara: 3
 SavingRod: 3
@@ -940,7 +899,7 @@ SpoonKids Security~
 6234 0 0 0 2072 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 0 3
+8 8 0 3 0
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -955,7 +914,7 @@ Jason 962~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #963
 trainer training 963 agent larry klayman human infowars~
@@ -965,7 +924,7 @@ Larry 963~
 76 0 0 0 0 0 0 0 -500 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -980,7 +939,7 @@ Laura 964~
 76 0 0 0 0 0 0 0 -250 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 2 0
+8 8 2 0 0
 E
 #965
 trainer agent 965 alex jones human infowars~
@@ -990,7 +949,7 @@ Alex 965~
 76 0 0 0 0 0 0 0 -250 E
 5 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #966
 trainer training 966 vladimir putin human russia kgb~
@@ -1000,7 +959,7 @@ Vladimir 966~
 76 0 0 0 0 0 0 0 -1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1015,7 +974,7 @@ RussianBot 967~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 1 0
 E
 #968
 trainer agent 968 peter great romanov russia human~
@@ -1025,7 +984,7 @@ Peter 968~
 76 0 0 0 8 0 0 0 500 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1040,7 +999,7 @@ Yuri 969~
 76 0 0 0 0 0 0 0 -1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 0
+8 8 1 0 0
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1055,7 +1014,7 @@ Kirill 970~
 76 0 0 0 0 0 0 0 -1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1070,7 +1029,7 @@ Maria 972~
 76 0 0 0 0 0 0 0 -1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 0
+8 8 2 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1085,7 +1044,7 @@ George 973~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #974
 trainer agent 974 jeffrey epstein suicide human~
@@ -1095,7 +1054,7 @@ Jeffrey 974~
 76 0 0 0 0 0 0 0 -500 E
 5 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #975
 trainer agent 975 ben goertzel human scientist~
@@ -1105,7 +1064,7 @@ Ben 975~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 0
+8 8 0 0 0
 E
 #976
 trainer agent 976 cassio pennachin singularitynet human scientist~
@@ -1115,7 +1074,7 @@ Cassio 976~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #978
 trainer agent 978 natasha vita-more human scientist~
@@ -1125,7 +1084,7 @@ Natasha 978~
 76 0 0 0 0 0 0 0 -500 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 0
+8 8 0 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1140,6 +1099,6 @@ Karl 979~
 76 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 $
