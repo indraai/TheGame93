@@ -33,8 +33,10 @@ const char *class_abbrevs[] = {
   "En",
   "Pr",
   "Ha",
+  "Jo",
   "La",
   "Do",
+  "Po",
   "Se",
   "Mi",
   "Ro",
@@ -49,8 +51,10 @@ const char *class_types[] = {
   "Engineer",
   "Programmer",
   "Hacker",
+  "Journalist",
   "Lawyer",
   "Doctor",
+  "Politician",
   "Security",
   "Military",
   "Royal",
@@ -68,11 +72,13 @@ const char *class_menu =
 "\nmenu[Engineer]:e\r"
 "\nmenu[Programmer]:f"
 "\nmenu[hacker]:g"
-"\nmenu[Lawyer]:h"
-"\nmenu[Doctor]:i"
-"\nmenu[Security]:j"
-"\nmenu[Military]:k\r"
-"\nmenu[Royal]:k\r";
+"\nmenu[Journalist]:h"
+"\nmenu[Lawyer]:i"
+"\nmenu[Doctor]:j"
+"\nmenu[Politician]:k"
+"\nmenu[Security]:l"
+"\nmenu[Military]:m\r"
+"\nmenu[Royal]:n\m";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -88,11 +94,13 @@ int parse_class(char arg)
   case 'e': return CLASS_ENGINEER;    // soma
   case 'f': return CLASS_PROGRAMMER;    // sarya
   case 'g': return CLASS_HACKER;    // sarya
-  case 'h': return CLASS_LAWYER;    // sarya
-  case 'i': return CLASS_DOCTOR;    // sarya
-  case 'j': return CLASS_SECURITY;    // sarya
-  case 'k': return CLASS_MILITARY;    // sarya
-  case 'l': return CLASS_ROYAL;    // sarya
+  case 'h': return CLASS_JOURNALIST;    // sarya
+  case 'i': return CLASS_LAWYER;    // sarya
+  case 'j': return CLASS_DOCTOR;    // sarya
+  case 'k': return CLASS_POLITICIAN;    // sarya
+  case 'l': return CLASS_SECURITY;    // sarya
+  case 'm': return CLASS_MILITARY;    // sarya
+  case 'n': return CLASS_ROYAL;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -1606,6 +1614,9 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_HACKER) && IS_HACKER(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_JOURNALIST) && IS_JOURNALIST(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_LAWYER) && IS_LAWYER(ch))

@@ -154,14 +154,16 @@
 #define CLASS_ENGINEER        4 // ENGINEER
 #define CLASS_PROGRAMMER      5 // PROGRAMMER
 #define CLASS_HACKER          6 // PROGRAMMER
-#define CLASS_LAWYER          7 // LAWYER
-#define CLASS_DOCTOR          8 // LAWYER
-#define CLASS_SECURITY        9 // LAWYER
-#define CLASS_MILITARY       10 // MILITARY
-#define CLASS_ROYAL          11 // MILITARY
+#define CLASS_JOURNALIST      7 // PROGRAMMER
+#define CLASS_LAWYER          8 // LAWYER
+#define CLASS_DOCTOR          9 // LAWYER
+#define CLASS_POLITICIAN     10 // LAWYER
+#define CLASS_SECURITY       11 // LAWYER
+#define CLASS_MILITARY       12 // MILITARY
+#define CLASS_ROYAL          13 // MILITARY
 
 /** Total number of available Classes */
-#define NUM_CLASSES	          12
+#define NUM_CLASSES	         14
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -445,18 +447,20 @@
 #define ITEM_ANTI_ENGINEER    12   /**< Not usable by soma */
 #define ITEM_ANTI_PROGRAMMER  13   /**< Not usable by sarya */
 #define ITEM_ANTI_HACKER      14   /**< Not usable by sarya */
-#define ITEM_ANTI_LAWYER      15   /**< Not usable by sarya */
-#define ITEM_ANTI_DOCTOR      16   /**< Not usable by sarya */
-#define ITEM_ANTI_MILITARY    17   /**< Not usable by sarya */
-#define ITEM_ANTI_ROYAL       18   /**< Not usable by sarya */
-#define ITEM_NOSELL           19   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP           20    /**< Item is cursed: can't drop */
-#define ITEM_NORENT           21    /**< Item cannot be rented */
-#define ITEM_NODONATE         22    /**< Item cannot be donated */
-#define ITEM_NOINVIS          23    /**< Item cannot be made invis	*/
-#define ITEM_QUEST            24   /**< Item is a quest item         */
+#define ITEM_ANTI_JOURNALIST  15   /**< Not usable by sarya */
+#define ITEM_ANTI_LAWYER      16   /**< Not usable by sarya */
+#define ITEM_ANTI_DOCTOR      17   /**< Not usable by sarya */
+#define ITEM_ANTI_POLITICIAN  18   /**< Not usable by sarya */
+#define ITEM_ANTI_MILITARY    19   /**< Not usable by sarya */
+#define ITEM_ANTI_ROYAL       20   /**< Not usable by sarya */
+#define ITEM_NOSELL           21   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP           22    /**< Item is cursed: can't drop */
+#define ITEM_NORENT           23    /**< Item cannot be rented */
+#define ITEM_NODONATE         24    /**< Item cannot be donated */
+#define ITEM_NOINVIS          25    /**< Item cannot be made invis	*/
+#define ITEM_QUEST            26   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    25
+#define NUM_ITEM_FLAGS    27
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
