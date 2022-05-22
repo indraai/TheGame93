@@ -2766,7 +2766,7 @@ ACMD(do_show)
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j,
 				thaco(CLASS_MONK, j),
 				thaco(CLASS_ARTIST, j),
-				thaco(CLASS_SOLDIER, j),
+				thaco(CLASS_MILITARY, j),
 				thaco(CLASS_ENGINEER, j));
       if (len + nlen >= sizeof(buf))
         break;

@@ -883,7 +883,8 @@ do                                                              \
 #define IS_LAWYER(ch)	GET_CLASS(ch) == CLASS_LAWYER
 #define IS_DOCTOR(ch)	GET_CLASS(ch) == CLASS_DOCTOR
 #define IS_SECURITY(ch)	GET_CLASS(ch) == CLASS_SECURITY
-#define IS_SOLDIER(ch)	GET_CLASS(ch) == CLASS_SOLDIER
+#define IS_MILITARY(ch)	GET_CLASS(ch) == CLASS_MILITARY
+#define IS_ROYAL(ch)	GET_CLASS(ch) == CLASS_ROYAL
 
 /** 1 if ch is magic user class, 0 if not. */
 /** 1 if ch is monk class, 0 if not. */

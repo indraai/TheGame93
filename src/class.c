@@ -36,7 +36,8 @@ const char *class_abbrevs[] = {
   "La",
   "Do",
   "Se",
-  "So",
+  "Mi",
+  "Ro",
   "\n"
 };
 
@@ -51,7 +52,8 @@ const char *class_types[] = {
   "Lawyer",
   "Doctor",
   "Security",
-  "Soldier",
+  "Military",
+  "Royal",
   "\n"
 };
 
@@ -69,7 +71,8 @@ const char *class_menu =
 "\nmenu[Lawyer]:h"
 "\nmenu[Doctor]:i"
 "\nmenu[Security]:j"
-"\nmenu[Soldier]:k\r";
+"\nmenu[Military]:k\r";
+"\nmenu[Royal]:k\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -88,7 +91,8 @@ int parse_class(char arg)
   case 'h': return CLASS_LAWYER;    // sarya
   case 'i': return CLASS_DOCTOR;    // sarya
   case 'j': return CLASS_SECURITY;    // sarya
-  case 'k': return CLASS_SOLDIER;    // sarya
+  case 'k': return CLASS_MILITARY;    // sarya
+  case 'l': return CLASS_ROYTAL;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -1583,6 +1587,9 @@ int backstab_mult(int level)
  * usable by a particular class, based on the ITEM_ANTI_{class} bitvectors. */
 int invalid_class(struct char_data *ch, struct obj_data *obj)
 {
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_CITIZEN) && IS_CITIZEN(ch))
+    return TRUE;
+
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
     return TRUE;
 
@@ -1595,10 +1602,22 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_ENGINEER) && IS_ENGINEER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_CITIZEN) && IS_CITIZEN(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_PROGRAMMER) && IS_PROGRAMMER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_SOLDIER) && IS_SOLDIER(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_HACKER) && IS_HACKER(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_LAWYER) && IS_LAWYER(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_DOCTOR) && IS_DOCTOR(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MILITARY) && IS_MILITARY(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_ROYAL) && IS_ROYAL(ch))
     return TRUE;
 
   return FALSE;

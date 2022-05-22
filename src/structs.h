@@ -157,10 +157,11 @@
 #define CLASS_LAWYER          7 // LAWYER
 #define CLASS_DOCTOR          8 // LAWYER
 #define CLASS_SECURITY        9 // LAWYER
-#define CLASS_SOLDIER         10 // MILITARY
+#define CLASS_MILITARY       10 // MILITARY
+#define CLASS_ROYAL          11 // MILITARY
 
 /** Total number of available Classes */
-#define NUM_CLASSES	          11
+#define NUM_CLASSES	          12
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -446,8 +447,8 @@
 #define ITEM_ANTI_HACKER      14   /**< Not usable by sarya */
 #define ITEM_ANTI_LAWYER      15   /**< Not usable by sarya */
 #define ITEM_ANTI_DOCTOR      16   /**< Not usable by sarya */
-#define ITEM_ANTI_SECURITY    17   /**< Not usable by sarya */
-#define ITEM_ANTI_SOLDIER     18   /**< Not usable by sarya */
+#define ITEM_ANTI_MILITARY    17   /**< Not usable by sarya */
+#define ITEM_ANTI_ROYAL       18   /**< Not usable by sarya */
 #define ITEM_NOSELL           19   /**< Shopkeepers won't touch it */
 #define ITEM_NODROP           20    /**< Item is cursed: can't drop */
 #define ITEM_NORENT           21    /**< Item cannot be rented */
