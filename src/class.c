@@ -92,7 +92,7 @@ int parse_class(char arg)
   case 'i': return CLASS_DOCTOR;    // sarya
   case 'j': return CLASS_SECURITY;    // sarya
   case 'k': return CLASS_MILITARY;    // sarya
-  case 'l': return CLASS_ROYTAL;    // sarya
+  case 'l': return CLASS_ROYAL;    // sarya
   default:  return CLASS_UNDEFINED;
   }
 }
