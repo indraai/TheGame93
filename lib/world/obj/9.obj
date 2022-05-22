@@ -7,24 +7,24 @@ EL8 Documents~
 0 0 0 0
 0 200 0 5 0
 E
-bio~
-bio
-~
-E
-e0~
-e0
-~
-E
-e1~
-e1
+e3~
+e3
 ~
 E
 e2~
 e2
 ~
 E
-e3~
-e3
+e1~
+e1
+~
+E
+e0~
+e0
+~
+E
+bio~
+bio
 ~
 #801
 training hackphreak rloxley~
@@ -221,12 +221,12 @@ Michael Documents~
 0 0 0 0
 0 100 0 2 0
 E
-905text1~
-0905/main:905text
-~
-E
 905text2~
 905text2
+~
+E
+905text1~
+0905/main:905text
 ~
 #906
 text it training~
@@ -417,13 +417,13 @@ text~
 text
 ~
 #921
-training~
-Training~
+Romero Games Training~
+Romero Games Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 400 0 4 0
 E
 text~
 text
@@ -441,13 +441,13 @@ text~
 text
 ~
 #923
-training~
-Training~
+lolapps training 923~
+LOLApps Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 400 0 4 0
 E
 text~
 text
@@ -502,13 +502,13 @@ text~
 text
 ~
 #928
-training~
-Training~
+dalai lama training 928~
+Dalai Lama Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 200 0 2 0
 E
 text~
 text
@@ -538,13 +538,13 @@ text~
 talk:#adv object:thegame 0930/main:text
 ~
 #931
-training~
-Training~
+jerome corsi training 931~
+Jerome Corsi Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 1200 0 12 0
 E
 text~
 text
@@ -598,25 +598,25 @@ text~
 text
 ~
 #936
-training~
-Training~
+training satanic sysadmins 936~
+Satanic Sysadmins Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 400 0 4 0
 E
 text~
 text
 ~
 #937
-training~
-Training~
+alt newsgroups 937 training~
+Alt Newsgroup Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 500 0 5 0
 E
 text~
 text
@@ -634,13 +634,13 @@ text~
 text
 ~
 #939
-training~
-Training~
+evil training 939~
+Evil Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 500 0 5 0
 E
 text~
 text
@@ -696,13 +696,13 @@ text~
 talk:#adv object:thegame 0943/main:text
 ~
 #944
-training~
-Training~
+training satan 944~
+Satan Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 500 0 5 0
 E
 text~
 text
@@ -741,12 +741,12 @@ Hacking the Intelligence Community~
 0 0 0 0
 0 0 0 0 0
 E
-intel~
-0947/intel:main
-~
-E
 military~
 0947/military:main
+~
+E
+intel~
+0947/intel:main
 ~
 #948
 training spoonman cobra lounge~
@@ -942,25 +942,25 @@ text~
 text
 ~
 #964
-training~
-Training~
+laura loomer training 964~
+Laura Loomer Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 900 0 9 0
 E
 text~
 text
 ~
 #965
-training~
-Training~
+infowars alex jones training 965~
+InfoWars Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 1300 0 13 0
 E
 text~
 text
@@ -1002,25 +1002,25 @@ text~
 text
 ~
 #969
-training~
-Training~
+yuri andropov training~
+Yuri Andropov Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 1500 0 15 0
 E
 text~
 text
 ~
 #970
-training~
-Training~
+orthodox kirill russian training~
+Russian Orthodox Training~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 8 0
+0 1500 0 15 0
 E
 text~
 text
