@@ -35,9 +35,9 @@ const char *class_abbrevs[] = {
   "Ha",
   "Jo",
   "La",
-  "Do",
   "Po",
   "Se",
+  "Me",
   "Mi",
   "Ro",
   "\n"
@@ -53,8 +53,8 @@ const char *class_types[] = {
   "Hacker",
   "Journalist",
   "Lawyer",
-  "Doctor",
   "Politician",
+  "Medical",
   "Security",
   "Military",
   "Royal",
@@ -71,11 +71,11 @@ const char *class_menu =
 "\nmenu[Scientist]:d\r"
 "\nmenu[Engineer]:e\r"
 "\nmenu[Programmer]:f"
-"\nmenu[hacker]:g"
+"\nmenu[Hacker]:g"
 "\nmenu[Journalist]:h"
 "\nmenu[Lawyer]:i"
-"\nmenu[Doctor]:j"
 "\nmenu[Politician]:k"
+"\nmenu[Medical]:j"
 "\nmenu[Security]:l"
 "\nmenu[Military]:m\r"
 "\nmenu[Royal]:n\m";
@@ -96,8 +96,8 @@ int parse_class(char arg)
   case 'g': return CLASS_HACKER;    // sarya
   case 'h': return CLASS_JOURNALIST;    // sarya
   case 'i': return CLASS_LAWYER;    // sarya
-  case 'j': return CLASS_DOCTOR;    // sarya
-  case 'k': return CLASS_POLITICIAN;    // sarya
+  case 'j': return CLASS_POLITICIAN;    // sarya
+  case 'k': return CLASS_MEDICAL;    // sarya
   case 'l': return CLASS_SECURITY;    // sarya
   case 'm': return CLASS_MILITARY;    // sarya
   case 'n': return CLASS_ROYAL;    // sarya
@@ -1622,7 +1622,7 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_LAWYER) && IS_LAWYER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_DOCTOR) && IS_DOCTOR(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MEDICAL) && IS_MEDICAL(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MILITARY) && IS_MILITARY(ch))

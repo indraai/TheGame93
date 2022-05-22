@@ -156,8 +156,8 @@
 #define CLASS_HACKER          6 // PROGRAMMER
 #define CLASS_JOURNALIST      7 // PROGRAMMER
 #define CLASS_LAWYER          8 // LAWYER
-#define CLASS_DOCTOR          9 // LAWYER
-#define CLASS_POLITICIAN     10 // LAWYER
+#define CLASS_POLITICIAN      9 // LAWYER
+#define CLASS_MEDICAL        10 // LAWYER
 #define CLASS_SECURITY       11 // LAWYER
 #define CLASS_MILITARY       12 // MILITARY
 #define CLASS_ROYAL          13 // MILITARY
@@ -449,8 +449,8 @@
 #define ITEM_ANTI_HACKER      14   /**< Not usable by sarya */
 #define ITEM_ANTI_JOURNALIST  15   /**< Not usable by sarya */
 #define ITEM_ANTI_LAWYER      16   /**< Not usable by sarya */
-#define ITEM_ANTI_DOCTOR      17   /**< Not usable by sarya */
-#define ITEM_ANTI_POLITICIAN  18   /**< Not usable by sarya */
+#define ITEM_ANTI_POLITICIAN  17   /**< Not usable by sarya */
+#define ITEM_ANTI_MEDICAL     18   /**< Not usable by sarya */
 #define ITEM_ANTI_MILITARY    19   /**< Not usable by sarya */
 #define ITEM_ANTI_ROYAL       20   /**< Not usable by sarya */
 #define ITEM_NOSELL           21   /**< Shopkeepers won't touch it */
