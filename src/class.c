@@ -71,7 +71,7 @@ const char *class_menu =
 "\nmenu[Lawyer]:h"
 "\nmenu[Doctor]:i"
 "\nmenu[Security]:j"
-"\nmenu[Military]:k\r";
+"\nmenu[Military]:k\r"
 "\nmenu[Royal]:k\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
