@@ -321,15 +321,20 @@ static void sedit_shop_flags_menu(struct descriptor_data *d)
   char bits[MAX_STRING_LENGTH];
   int i, count = 0;
 
-  get_char_colors(d->character);
   clear_screen(d);
+
+  write_to_output(d, "\n## Shop Flags\r"
+    "\n::begin:buttons\r");
+
   for (i = 0; i < NUM_SHOP_FLAGS; i++) {
-    write_to_output(d, "%s%2d%s) %-20.20s   %s", grn, i + 1, nrm, shop_bits[i],
-		!(++count % 2) ? "\r\n" : "");
+    write_to_output(d, "\nbmud[%s]:%d\r",
+    shop_bits[i],
+    ++count);
   }
   sprintbit(S_BITVECTOR(OLC_SHOP(d)), shop_bits, bits, sizeof(bits));
-  write_to_output(d, "\r\nCurrent Shop Flags : %s%s%s\r\nEnter choice : ",
-		cyn, bits, nrm);
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r"
+    "\nmenu[done]:0\r", bits);
   OLC_MODE(d) = SEDIT_SHOP_FLAGS;
 }
 
@@ -339,7 +344,8 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
   int i, count = 0;
 
   clear_screen(d);
-  write_to_output(d, "\n::begin:buttons\r");
+  write_to_output(d, "\n## No Trade\r"
+    "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_TRADERS; i++) {
     write_to_output(d,
@@ -349,7 +355,7 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
   }
   sprintbit(S_NOTRADE(OLC_SHOP(d)), trade_letters, bits, sizeof(bits));
   write_to_output(d, "\n::end:buttons\r"
-    "\nbits: %s\r"
+    "\nflags: %s\r"
     "\nmenu[done]:0\r",
     bits);
   OLC_MODE(d) = SEDIT_NOTRADE;
@@ -358,14 +364,16 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
 static void sedit_types_menu(struct descriptor_data *d)
 {
   int i, count = 0;
-  get_char_colors(d->character);
+
+  write_to_output(d, "\n## Types\r"
+    "\n::begin:buttons\r");
 
   clear_screen(d);
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "%s%2d%s) %s%-20s%s  %s", grn, i, nrm, cyn, item_types[i],
-		nrm, !(++count % 3) ? "\r\n" : "");
+    write_to_output(d, "\nbmud[%s]:%d",
+      item_types[i],
+      i);
   }
-  write_to_output(d, "%sEnter choice : ", nrm);
   OLC_MODE(d) = SEDIT_TYPE_MENU;
 }
 
