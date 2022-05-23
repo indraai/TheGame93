@@ -309,7 +309,7 @@ static void sedit_namelist_menu(struct descriptor_data *d)
     item_types[S_BUYTYPE(shop, i)],
     S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "[None]");
   }
-  write_to_output(d, "\n:begin:buttons\r"
+  write_to_output(d, "\n::begin:buttons\r"
 	  "\nbmud[Add New Entry]:1\r"
 	  "\nbmud[Delete Entry]:2\r"
     "\n::end:buttons\r"
