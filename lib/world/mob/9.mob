@@ -153,7 +153,7 @@ Tyler 903~
 76 0 0 0 0 0 0 0 -110 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 1 1 6
+8 8 1 1 0
 E
 #904
 trainer agent 904 tyler revelations robot~
@@ -401,7 +401,7 @@ Auren 924~
 76 0 0 0 0 0 0 0 -255 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0 5
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -445,9 +445,9 @@ GhostNet 927~
 927/main:avatar~
 927/main:look~
 76 0 0 0 0 0 0 0 -333 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 0 1 0
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 0 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -596,8 +596,8 @@ James 938~
 938/main:avatar~
 938/main:look~
 76 0 0 0 0 0 0 0 -222 E
-5 19 7 1d1+50 1d2+0
-50 2500
+4 19 7 0d0+40 1d2+0
+40 1600
 8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
@@ -694,7 +694,7 @@ Eric 945~
 76 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0 0
+8 8 1 0 6
 E
 #946
 trainer training 946 hip robot~
@@ -704,7 +704,7 @@ Hip 946~
 76 0 0 0 0 0 0 0 -208 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1 0
+8 8 0 1 6
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -750,9 +750,9 @@ Brenda 949~
 949/main:avatar~
 949/main:look~
 76 0 0 0 0 0 0 0 -310 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 2 1 0
+6 18 6 1d1+60 1d2+1
+60 3600
+8 8 2 0 3
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -765,9 +765,9 @@ Richard 950~
 950/main:avatar~
 950/main:look~
 76 0 0 0 0 0 0 0 -250 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 1 0
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 1 0 3
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -916,10 +916,15 @@ trainer training 962 agent jason goodman crowdsource human~
 Jason 962~
 962/main:avatar~
 962/main:look~
-76 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 1 0 0
+76 0 0 0 0 0 0 0 -400 E
+8 18 5 1d1+80 1d2+1
+80 6400
+8 8 1 0 7
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #963
 trainer training 963 agent larry klayman human infowars lawyer~
@@ -986,10 +991,15 @@ trainer training 967 russianbot robot russia~
 RussianBot 967~
 967/main:avatar~
 967/main:look~
-76 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 1 1 0
+76 0 0 0 0 0 0 0 -450 E
+8 18 5 1d1+80 1d2+1
+80 6400
+8 8 0 1 6
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #968
 trainer agent 968 peter great romanov russia human~
