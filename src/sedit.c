@@ -338,22 +338,21 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
   char bits[MAX_STRING_LENGTH];
   int i, count = 0;
 
-  get_char_colors(d->character);
   clear_screen(d);
+
   for (i = 0; i < NUM_TRADERS; i++) {
-    write_to_output(d, "%s%2d%s) %-20.20s   %s", grn, i + 1, nrm, trade_letters[i],
-		!(++count % 2) ? "\r\n" : "");
+    write_to_output(d, "\n%d. %s\r",
+     i + 1,
+     trade_letters[i]);
   }
   sprintbit(S_NOTRADE(OLC_SHOP(d)), trade_letters, bits, sizeof(bits));
-  write_to_output(d, "\r\nCurrently won't trade with: %s%s%s\r\n"
-	  "Enter choice : ", cyn, bits, nrm);
+  write_to_output(d, "\nbits: %s\r", bits);
   OLC_MODE(d) = SEDIT_NOTRADE;
 }
 
 static void sedit_types_menu(struct descriptor_data *d)
 {
   int i, count = 0;
-
   get_char_colors(d->character);
 
   clear_screen(d);
