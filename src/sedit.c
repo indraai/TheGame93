@@ -309,9 +309,10 @@ static void sedit_namelist_menu(struct descriptor_data *d)
     item_types[S_BUYTYPE(shop, i)],
     S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "<None>");
   }
-  write_to_output(d, "\r\n"
-	  "\nmenu[Add New Entry]:A\r"
-	  "\nmenu[Delete Entry]:D\r"
+  write_to_output(d, "\n:begin:buttons\r"
+	  "\nbmud[Add New Entry]:1\r"
+	  "\nbmud[Delete Entry]:2\r"
+    "\n::end:buttons\r"
 	  "\nmenu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_NAMELIST_MENU;
@@ -585,12 +586,10 @@ void sedit_parse(struct descriptor_data *d, char *arg)
 
   case SEDIT_NAMELIST_MENU:
     switch (*arg) {
-    case 'a':
-    case 'A':
+    case '1':
       sedit_types_menu(d);
       return;
-    case 'd':
-    case 'D':
+    case '2':
       write_to_output(d, "\r\nDelete which entry? : ");
       OLC_MODE(d) = SEDIT_DELETE_TYPE;
       return;
