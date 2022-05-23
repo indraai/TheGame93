@@ -447,7 +447,7 @@ GhostNet 927~
 76 0 0 0 0 0 0 0 -333 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 0 1 6
+8 8 0 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -694,7 +694,7 @@ Eric 945~
 76 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0 6
+8 8 1 0 0
 E
 #946
 trainer training 946 hip robot~
@@ -704,7 +704,7 @@ Hip 946~
 76 0 0 0 0 0 0 0 -208 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 0 1 6
+8 8 0 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -752,7 +752,7 @@ Brenda 949~
 76 0 0 0 0 0 0 0 -310 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 2 0 3
+8 8 2 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -767,7 +767,7 @@ Richard 950~
 76 0 0 0 0 0 0 0 -250 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 0 3
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -919,7 +919,7 @@ Jason 962~
 76 0 0 0 0 0 0 0 -400 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 1 0 7
+8 8 1 0 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -976,15 +976,15 @@ trainer training 966 vladimir putin human russia kgb~
 Vladimir 966~
 966/main:avatar~
 966/main:look~
-76 0 0 0 0 0 0 0 -1000 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 1 0
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+76 0 0 0 0 0 0 0 -600 E
+13 16 2 2d2+130 2d2+2
+130 16900
+8 8 1 0 9
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #967
 trainer training 967 russianbot robot russia~
@@ -994,7 +994,7 @@ RussianBot 967~
 76 0 0 0 0 0 0 0 -450 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 0 1 6
+8 8 0 1 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1121,9 +1121,9 @@ trainer agent 979 karl koch hacker suicide hacker human~
 Karl 979~
 979/main:avatar~
 979/main:look~
-76 0 0 0 0 0 0 0 -500 E
-15 15 1 3d3+150 2d2+2
-150 22500
+76 0 0 0 0 0 0 0 -600 E
+12 16 2 2d2+120 2d2+2
+120 14400
 8 8 1 0 0
 SavingPara: 3
 SavingRod: 3
