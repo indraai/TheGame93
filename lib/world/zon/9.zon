@@ -2,8 +2,10 @@
 Quinn~
 Training L1~
 800 999 15 2 d 0 0 0 1 -1
+M 0 924 1 924 	(Rapleaf 924)
+O 0 924 25 924 	(Training)
 M 0 923 1 923 	(LOLapps 923)
-O 0 923 25 923 	(Training)
+O 0 923 25 923 	(LOLApps Training)
 M 0 921 1 921 	(John 921)
 O 0 921 25 921 	(Romero Games Training)
 M 0 919 1 919 	(Elizabeth 919)
@@ -144,7 +146,6 @@ O 0 917 99 917 	(Dangerous Ideas)
 M 0 914 1 914 	(Tyler 914)
 O 0 914 99 914 	(Code Tyler Training)
 M 0 925 1 925 	(Peter 925)
-M 0 924 1 924 	(Rapleaf 924)
 M 0 922 1 922 	(Tabitha 922)
 S
 $
