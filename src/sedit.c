@@ -232,8 +232,10 @@ static void sedit_products_menu(struct descriptor_data *d)
 	    obj_index[S_PRODUCT(shop, i)].vnum,
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
-  write_to_output(d, "\nmenu[add product]:a\r"
-	  "\nmenu[delete product]:b\r"
+  write_to_output(d, "\n::begin:buttons\r"
+    "\nbmud[Add Product]:a\r"
+	  "\nbmud[Delete Product]:b\r"
+    "\n::end:buttons\r"
 	  "\nmenu[done]:0\r"
   );
 
@@ -286,9 +288,10 @@ static void sedit_rooms_menu(struct descriptor_data *d)
       S_ROOM(shop, i),
       world[rnum].name);
   }
-  write_to_output(d, "\nmenu[Add Store Room]:a\r"
-	  "\nmenu[Delete Store Room]:b\r"
-	  "\nmenu[Compact Dispaly]:c\r"
+  write_to_output(d, "\n::begin:buttons"
+    "\nmenu[Add Store Room]:1\r"
+	  "\nbmud[Delete Store Room]:2\r"
+    "\n::end:buttons\r"
 	  "\rmenu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
@@ -310,7 +313,7 @@ static void sedit_namelist_menu(struct descriptor_data *d)
     S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "[None]");
   }
   write_to_output(d, "\n::begin:buttons\r"
-	  "\nbmud[Add New Entry]:1\r"
+	  "\nbmud[New Entry]:1\r"
 	  "\nbmud[Delete Entry]:2\r"
     "\n::end:buttons\r"
 	  "\nmenu[done]:0\r");
@@ -581,7 +584,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     else if (i == -1)
       write_to_output(d, "\nEnter new text:\r");
     else
-      write_to_output(d, "Oops...\r\n");
+      write_to_output(d, "\nOops...\r");
     return;
 
   case SEDIT_NAMELIST_MENU:
@@ -590,7 +593,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       sedit_types_menu(d);
       return;
     case '2':
-      write_to_output(d, "\r\nDelete which entry? : ");
+      write_to_output(d, "\nDelete which entry?\r");
       OLC_MODE(d) = SEDIT_DELETE_TYPE;
       return;
     case '0':
@@ -601,11 +604,11 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_PRODUCTS_MENU:
     switch (*arg) {
     case 'a':
-      write_to_output(d, "\r\nEnter new product vnum number : ");
+      write_to_output(d, "\nEnter new product vnum.");
       OLC_MODE(d) = SEDIT_NEW_PRODUCT;
       return;
     case 'b':
-      write_to_output(d, "\r\nDelete which product? : ");
+      write_to_output(d, "\nDelete which product?\r");
       OLC_MODE(d) = SEDIT_DELETE_PRODUCT;
       return;
     case '0':
@@ -615,19 +618,13 @@ void sedit_parse(struct descriptor_data *d, char *arg)
 
   case SEDIT_ROOMS_MENU:
     switch (*arg) {
-    case 'a':
-      write_to_output(d, "\r\nEnter new room vnum number : ");
+    case '1':
+      write_to_output(d, "\nEnter new store room vnum.\r");
       OLC_MODE(d) = SEDIT_NEW_ROOM;
       return;
-    case 'b':
-      write_to_output(d, "\r\nDelete which room? : ");
+    case '2':
+      write_to_output(d, "\nDelete which store room?\r");
       OLC_MODE(d) = SEDIT_DELETE_ROOM;
-      return;
-    case 'c':
-      sedit_compact_rooms_menu(d);
-      return;
-    case 'd':
-      sedit_rooms_menu(d);
       return;
     case '0':
       break;
@@ -678,7 +675,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_KEEPER:
     if ((i = atoi(arg)) != -1)
       if ((i = real_mobile(i)) == NOBODY) {
-	write_to_output(d, "That mobile does not exist, try again : ");
+	write_to_output(d, "\ninfo:That mobile does not exist, try again.\r");
 	return;
       }
     S_KEEPER(OLC_SHOP(d)) = i;
@@ -708,7 +705,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     break;
   case SEDIT_TYPE_MENU:
     OLC_VAL(d) = LIMIT(atoi(arg), 0, NUM_ITEM_TYPES - 1);
-    write_to_output(d, "Enter namelist (return for none) :-\r\n] ");
+    write_to_output(d, "\nEnter namelist (return for none).\r");
     OLC_MODE(d) = SEDIT_NAMELIST;
     return;
   case SEDIT_DELETE_TYPE:
@@ -718,8 +715,8 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_NEW_PRODUCT:
     if ((i = atoi(arg)) != -1)
       if ((i = real_object(i)) == NOTHING) {
-	write_to_output(d, "That object does not exist, try again : ");
-	return;
+	      write_to_output(d, "\ninfo:That object does not exist, try again\r.");
+	      return;
       }
     if (i > 0)
       add_shop_to_int_list(&(S_PRODUCTS(OLC_SHOP(d))), i);
@@ -732,7 +729,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
   case SEDIT_NEW_ROOM:
     if ((i = atoi(arg)) != -1)
       if ((i = real_room(i)) == NOWHERE) {
-	write_to_output(d, "That room does not exist, try again : ");
+	write_to_output(d, "\ninfo:That room does not exist, try again.\r");
 	return;
       }
     if (i >= 0)
@@ -761,7 +758,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     if ((i = real_shop(atoi(arg))) != NOWHERE) {
       sedit_setup_existing(d, i);
     } else
-      write_to_output(d, "That shop does not exist.\r\n");
+      write_to_output(d, "\ninfo:That shop does not exist.\r");
     break;
 
   default:
