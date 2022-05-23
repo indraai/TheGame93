@@ -363,7 +363,7 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
 
 static void sedit_types_menu(struct descriptor_data *d)
 {
-  int i, count = 0;
+  int i;
 
   write_to_output(d, "\n## Types\r"
     "\n::begin:buttons\r");
