@@ -342,7 +342,7 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
 
   for (i = 0; i < NUM_TRADERS; i++) {
     write_to_output(d, "\n%d. %s\r",
-     i + 1,
+     ++count,
      trade_letters[i]);
   }
   sprintbit(S_NOTRADE(OLC_SHOP(d)), trade_letters, bits, sizeof(bits));
