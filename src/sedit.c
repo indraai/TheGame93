@@ -339,7 +339,8 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
   int i, count = 0;
 
   clear_screen(d);
-  write_to_output(d, "\n::begin:buttons\r")
+  write_to_output(d, "\n::begin:buttons\r");
+
   for (i = 0; i < NUM_TRADERS; i++) {
     write_to_output(d,
     "\nbmud[%s]:%d\r",
