@@ -960,7 +960,8 @@ void zedit_parse(struct descriptor_data *d, char *arg)
           OLC_CMD(d).if_flag = 1;
           zedit_disp_arg1(d);
         } else {
-	        write_to_output(d, "\nDoes this depend on previous success? %s", confirm_btn);
+	        write_to_output(d, "\nDoes this depend on previous success?\r"
+          "\n%s\r", confirm_btn);
           OLC_MODE(d) = ZEDIT_IF_FLAG;
         }
       } else {	/* 'if-flag' not appropriate. */

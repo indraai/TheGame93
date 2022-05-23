@@ -264,7 +264,7 @@ static void sedit_rooms_menu(struct descriptor_data *d)
       world[rnum].name);
   }
   write_to_output(d, "\n::begin:buttons"
-    "\nmenu[Add Store Room]:1\r"
+    "\nbmud[Add Store Room]:1\r"
 	  "\nbmud[Delete Store Room]:2\r"
     "\n::end:buttons\r"
 	  "\rmenu[done]:0\r");
