@@ -153,7 +153,7 @@ Tyler 903~
 76 0 0 0 0 0 0 0 -110 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 1 1 0
+8 8 1 1 6
 E
 #904
 trainer agent 904 tyler revelations robot~
@@ -361,7 +361,7 @@ talk:#adv agent:thegame 921/main:look~
 76 0 0 0 0 0 0 0 -222 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 0 5
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -395,13 +395,13 @@ SavingSpell: 1
 E
 #924
 trainer agent 924 rapleaf auren hoffman human~
-Rapleaf 924~
+Auren 924~
 924/main:avatar~
 924/main:look~
 76 0 0 0 0 0 0 0 -255 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1 0
+8 8 1 0 5
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
