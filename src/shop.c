@@ -32,10 +32,20 @@ const char *trade_letters[] = {
         "Good",                 /* First, the alignment based ones */
         "Evil",
         "Neutral",
-        "Soma",           /* Then the class based ones */
-        "Indu",
-        "Arjika",
-        "Sarya",
+        "Citizen",           /* Then the class based ones */
+        "Monk",
+        "Artist",
+        "Scientist",
+        "Engineer",
+        "Programmer",
+        "Hacker",
+        "Journalist",
+        "Lawyer",
+        "Politician",
+        "Medical",
+        "Security",
+        "Military",
+        "Royal",
         "\n"
 };
 
