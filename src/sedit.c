@@ -349,7 +349,8 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
   }
   sprintbit(S_NOTRADE(OLC_SHOP(d)), trade_letters, bits, sizeof(bits));
   write_to_output(d, "\n::end:buttons\r"
-    "\nbits: %s\r",
+    "\nbits: %s\r"
+    "\nmenu[done]:0\r",
     bits);
   OLC_MODE(d) = SEDIT_NOTRADE;
 }
