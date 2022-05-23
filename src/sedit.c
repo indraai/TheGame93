@@ -24,7 +24,6 @@
 static void sedit_setup_new(struct descriptor_data *d);
 static void sedit_save_to_disk(int zone_num);
 static void sedit_products_menu(struct descriptor_data *d);
-static void sedit_compact_rooms_menu(struct descriptor_data *d);
 static void sedit_rooms_menu(struct descriptor_data *d);
 static void sedit_namelist_menu(struct descriptor_data *d);
 static void sedit_shop_flags_menu(struct descriptor_data *d);
@@ -240,30 +239,6 @@ static void sedit_products_menu(struct descriptor_data *d)
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
-}
-
-static void sedit_compact_rooms_menu(struct descriptor_data *d)
-{
-  struct shop_data *shop;
-  int i;
-
-  shop = OLC_SHOP(d);
-  get_char_colors(d->character);
-
-  clear_screen(d);
-  for (i = 0; S_ROOM(shop, i) != NOWHERE; i++) {
-    if (real_room(S_ROOM(shop, i)) != NOWHERE) {
-      write_to_output(d, "%2d - [@\t%5d\tn] - \ty%s\tn\r\n", i, S_ROOM(shop, i), world[real_room(S_ROOM(shop, i))].name);
-    } else {
-      write_to_output(d, "%2d - [\tR!Removed Room!\tn]\r\n", i);
-    }
-  }
-  write_to_output(d, "\nmenu[Add Room]:a\r"
-	  "\nmenu[Delete Room]:b\r"
-	  "\nmenu[Long Display]:d\r"
-	  "\nmenu[Quit]:0\r");
-
-  OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
 
 static void sedit_rooms_menu(struct descriptor_data *d)
