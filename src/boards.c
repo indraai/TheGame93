@@ -41,7 +41,7 @@
 #include "modify.h"
 
 /* Board appearance order. */
-#define	NEWEST_AT_TOP	FALSE
+#define	NEWEST_AT_TOP	TRUE
 
 /* Format: vnum, read lvl, write lvl, remove lvl, filename, 0 at end. Be sure
  * to also change NUM_OF_BOARDS in board.h*/
@@ -162,7 +162,7 @@ SPECIAL(gen_board)
     return (0);
 
   if ((board_type = find_board(ch)) == -1) {
-    log("SYSERR:  degenerate board!  (what the hell...)");
+    log("SYSERR: degenerate board!");
     return (0);
   }
   if (cmd == ACMD_WRITE)
@@ -214,9 +214,9 @@ int board_write_message(int board_type, struct char_data *ch, char *arg, struct 
   NEW_MSG_INDEX(board_type).heading = strdup(buf);
   NEW_MSG_INDEX(board_type).level = GET_LEVEL(ch);
 
-  send_to_char(ch, "\ninfo:Write your message.\r");
+  send_to_char(ch, "\n## New Message.\r");
   send_editor_help(ch->desc);
-  act("$n starts to write a message.", TRUE, ch, 0, 0, TO_ROOM);
+  act("\n$n starts to write a message.\r", TRUE, ch, 0, 0, TO_ROOM);
 
   string_write(ch->desc, &(msg_storage[NEW_MSG_INDEX(board_type).slot_num]),
 		MAX_MESSAGE_LENGTH, board_type + BOARD_MAGIC, NULL);
@@ -242,10 +242,10 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
     send_to_char(ch, "\nerror:You try but fail to understand the holy words.\r");
     return (1);
   }
-  act("$n studies the board.", TRUE, ch, 0, 0, TO_ROOM);
+  act("\ninfo:$n studies the board.\r", TRUE, ch, 0, 0, TO_ROOM);
 
   if (!num_of_msgs[board_type])
-    send_to_char(ch, "# Bulletin Board\r"
+    send_to_char(ch, "## Bulletin Board\r"
       "\nhelp: READ/REMOVE *msg #*, WRITE *header*.\r"
       "\nnote: The board is empty.\r");
   else {
@@ -253,7 +253,7 @@ int board_show_board(int board_type, struct char_data *ch, char *arg, struct obj
     int nlen;
 
     len = snprintf(buf, sizeof(buf),
-		"\n# Bulletin Board (%d)\r",
+		"\n## Bulletin Board (%d)\r",
 		num_of_msgs[board_type]);
 
 #if NEWEST_AT_TOP
@@ -360,11 +360,11 @@ int board_remove_msg(int board_type, struct char_data *ch, char *arg, struct obj
     return (0);
 
   if (!num_of_msgs[board_type]) {
-    send_to_char(ch, "The board is empty!\r\n");
+    send_to_char(ch, "\nnote:The board is empty!\r");
     return (1);
   }
   if (msg < 1 || msg > num_of_msgs[board_type]) {
-    send_to_char(ch, "That message exists only in your imagination.\r\n");
+    send_to_char(ch, "\ninfo:That message exists only in your imagination.\r");
     return (1);
   }
 #if NEWEST_AT_TOP
@@ -373,28 +373,27 @@ int board_remove_msg(int board_type, struct char_data *ch, char *arg, struct obj
   ind = msg - 1;
 #endif
   if (!MSG_HEADING(board_type, ind)) {
-    send_to_char(ch, "That message appears to be screwed up.\r\n");
+    send_to_char(ch, "\nerror:That message appears to be screwed up.\r");
     return (1);
   }
   snprintf(buf, sizeof(buf), "(%s)", GET_NAME(ch));
-  if (GET_LEVEL(ch) < REMOVE_LVL(board_type) &&
-      !(strstr(MSG_HEADING(board_type, ind), buf))) {
-    send_to_char(ch, "You are not holy enough to remove other people's messages.\r\n");
+  if (GET_LEVEL(ch) < REMOVE_LVL(board_type) && !(strstr(MSG_HEADING(board_type, ind), buf))) {
+    send_to_char(ch, "\ninfo:You are not authorized to remove other people's messages.\r");
     return (1);
   }
   if (GET_LEVEL(ch) < MSG_LEVEL(board_type, ind)) {
-    send_to_char(ch, "You can't remove a message holier than yourself.\r\n");
+    send_to_char(ch, "\ninfo:You are NOT authorized to remove this message.\r");
     return (1);
   }
   slot_num = MSG_SLOTNUM(board_type, ind);
   if (slot_num < 0 || slot_num >= INDEX_SIZE) {
-    send_to_char(ch, "That message is majorly screwed up.\r\n");
+    send_to_char(ch, "\nerror:That message is majorly screwed up.\r");
     log("SYSERR: The board is seriously screwed up. (Room #%d)", GET_ROOM_VNUM(IN_ROOM(ch)));
     return (1);
   }
   for (d = descriptor_list; d; d = d->next)
     if (STATE(d) == CON_PLAYING && d->str == &(msg_storage[slot_num])) {
-      send_to_char(ch, "At least wait until the author is finished before removing it!\r\n");
+      send_to_char(ch, "\ninfo:At least wait until the author is finished before removing it!\r");
       return (1);
     }
   if (msg_storage[slot_num])
@@ -411,8 +410,8 @@ int board_remove_msg(int board_type, struct char_data *ch, char *arg, struct obj
   }
   num_of_msgs[board_type]--;
 
-  send_to_char(ch, "Message removed.\r\n");
-  snprintf(buf, sizeof(buf), "$n just removed message %d.", msg);
+  send_to_char(ch, "\ninfo:The message has been removed.\r");
+  snprintf(buf, sizeof(buf), "\ninfo:$n just removed message %d.\r", msg);
   act(buf, FALSE, ch, 0, 0, TO_ROOM);
   board_save_board(board_type);
 
