@@ -2,6 +2,10 @@
 Quinn~
 Training L1~
 800 999 15 2 d 0 0 0 1 -1
+M 0 972 1 972 	(Maria 972)
+O 0 972 25 972 	(Duchess Maria Training)
+M 0 966 1 966 	(Vladimir 966)
+O 0 966 25 966 	(Kremlin Training)
 M 0 963 1 963 	(Larry 963)
 O 0 963 25 963 	(Training)
 M 0 962 1 962 	(Jason 962)
@@ -120,8 +124,6 @@ M 0 978 1 978 	(Natasha 978)
 M 0 976 1 976 	(Cassio 976)
 M 0 975 1 975 	(Ben 975)
 M 0 973 1 973 	(George 973)
-M 0 972 1 972 	(Maria 972)
-M 0 966 1 966 	(Vladimir 966)
 O 0 947 99 947 	(Hacking the Intelligence Community)
 M 0 940 1 940 	(Eric 940)
 O 0 940 99 940 	(Cypherpunk Manifesto)
