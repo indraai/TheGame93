@@ -271,7 +271,6 @@ static void sedit_rooms_menu(struct descriptor_data *d)
   room_rnum rnum;
 
   shop = OLC_SHOP(d);
-  get_char_colors(d->character);
 
   clear_screen(d);
   write_to_output(d, "\n## Rooms\r");
@@ -282,8 +281,10 @@ static void sedit_rooms_menu(struct descriptor_data *d)
     if (rnum == NOWHERE)
       S_ROOM(shop, i) = rnum = 0;
 
-    write_to_output(d, "%2d - [%s%5d%s] - %s%s%s\r\n", i, cyn, S_ROOM(shop, i), nrm,
-	    yel, world[rnum].name, nrm);
+    write_to_output(d, "\n%d. %d - %s\r",
+      i,
+      S_ROOM(shop, i),
+      world[rnum].name);
   }
   write_to_output(d, "\nmenu[Add Store Room]:a\r"
 	  "\nmenu[Delete Store Room]:b\r"
