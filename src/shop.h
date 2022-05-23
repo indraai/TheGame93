@@ -77,13 +77,23 @@ struct shop_data {
 #define TRADE_NOGOOD       (1 << 0)
 #define TRADE_NOEVIL       (1 << 1)
 #define TRADE_NONEUTRAL    (1 << 2)
-#define TRADE_MONK         (1 << 3)
-#define TRADE_ARTIST       (1 << 4)
-#define TRADE_HACKER       (1 << 5)
-#define TRADE_ENGINEER     (1 << 6)
-#define TRADE_CITIZEN      (1 << 7)
+#define TRADE_CITIZEN      (1 << 3)
+#define TRADE_MONK         (1 << 4)
+#define TRADE_ARTIST       (1 << 5)
+#define TRADE_SCIENTIST    (1 << 6)
+#define TRADE_ENGINEER     (1 << 7)
+#define TRADE_PROGRAMMER   (1 << 8)
+#define TRADE_HACKER       (1 << 9)
+#define TRADE_JOURNALIST   (1 << 10)
+#define TRADE_LAWYER       (1 << 11)
+#define TRADE_POLITICIAN   (1 << 11)
+#define TRADE_MEDICAL      (1 << 12)
+#define TRADE_SECURITY     (1 << 13)
+#define TRADE_MILITARY     (1 << 14)
+#define TRADE_ROYAL        (1 << 15)
+
 /** Total number of trade types */
-#define NUM_TRADERS     8
+#define NUM_TRADERS     16
 
 struct stack_data {
    int data[100];
@@ -124,11 +134,20 @@ struct stack_data {
 #define NOTRADE_EVIL(i)		(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NOEVIL))
 #define NOTRADE_NEUTRAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NONEUTRAL))
 
+#define NOTRADE_CITIZEN(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_CITIZEN))
 #define NOTRADE_MONK(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MONK))
 #define NOTRADE_ARTIST(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ARTIST))
-#define NOTRADE_HACKER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_HACKER))
+#define NOTRADE_SCIENTIST(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_SCIENTIST))
 #define NOTRADE_ENGINEER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ENGINEER))
-#define NOTRADE_CITIZEN(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_CITIZEN))
+#define NOTRADE_PROGRAMMER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_PROGRAMMER))
+#define NOTRADE_HACKER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_HACKER))
+#define NOTRADE_JOURNALIST(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_JOURNALIST))
+#define NOTRADE_LAWYER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_LAWYER))
+#define NOTRADE_POLITICIAN(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_POLITICIAN))
+#define NOTRADE_MEDICAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MEDICAL))
+#define NOTRADE_SECURITY(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_SECURITY))
+#define NOTRADE_MLITARY(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MLITARY))
+#define NOTRADE_ROYAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ROYAL))
 
 /* Shop flags */
 #define WILL_START_FIGHT    (1 << 0)
