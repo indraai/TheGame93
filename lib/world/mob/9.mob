@@ -979,7 +979,7 @@ Vladimir 966~
 76 0 0 0 0 0 0 0 -600 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 0 9
+8 8 1 0 0
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1086,10 +1086,15 @@ trainer agent 975 ben goertzel human scientist~
 Ben 975~
 975/main:avatar~
 975/main:look~
-76 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 0 0 0
+76 0 0 0 0 0 0 0 -600 E
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 1 0 3
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #976
 trainer agent 976 cassio pennachin singularitynet human scientist~
