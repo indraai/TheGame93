@@ -542,7 +542,7 @@ Cyberman 934~
 76 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 1 0
+8 8 1 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -767,7 +767,7 @@ Richard 950~
 76 0 0 0 0 0 0 0 -250 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 0 0
+8 8 1 0 3
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1114,7 +1114,7 @@ Opencog 977~
 76 0 0 0 0 0 0 0 -333 E
 9 17 4 1d1+90 1d2+1
 90 8100
-8 8 0 1 5
+8 8 0 1 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2

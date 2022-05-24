@@ -8,7 +8,7 @@ Quinn Michaels~
 2250 0 0 0 0 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1 6
+8 8 1 6 0
 E
 #101
 darry store outfitter deva~
@@ -19,7 +19,7 @@ talk:#adv thegame:agent 0101/main:look
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6 6
+8 8 6 6 0
 E
 #102
 parry emporium store deva~
@@ -30,7 +30,7 @@ Parry~
 26634 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 6 0
 E
 #103
 cartoon builder indra.house deva~
@@ -41,7 +41,7 @@ Cartoon Builder~
 190474 0 0 0 16 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-6 6 6 3
+6 6 6 3 0
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -57,7 +57,7 @@ Cartoon Builder Jr.~
 26634 0 0 0 16 0 0 0 900 E
 10 17 4 2d2+100 1d2+1
 100 10000
-6 6 7 2
+6 6 7 2 0
 BareHandAttack: 2
 SavingPara: 2
 SavingRod: 2
@@ -73,7 +73,7 @@ Silamavati~
 6168 0 0 0 2048 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 6 5
+8 8 6 5 0
 BareHandAttack: 11
 Str: 17
 Dex: 17
@@ -95,7 +95,7 @@ Captain Ludac~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6 6
+8 8 6 6 0
 E
 #107
 branwen leatherworker~
@@ -107,7 +107,7 @@ Using hides bought from the local farms this young man makes some of the finest 
 190474 0 0 0 16 0 0 0 900 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 6 0
 E
 #109
 warry watermaster water store deva~
@@ -118,7 +118,7 @@ Warry~
 2058 0 0 0 16 0 0 0 800 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6 6
+8 8 6 6 0
 E
 #110
 rarry email postmaster deva~
@@ -129,7 +129,7 @@ Rarry~
 256010 0 0 0 16 0 0 0 1000 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 6 1
+8 8 6 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -145,7 +145,7 @@ Narry~
 190474 0 0 0 16 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6 6
+8 8 6 6 0
 E
 #112
 arjika monk deva~
@@ -155,7 +155,7 @@ Arjika Monk~
 6168 0 0 0 0 0 0 0 350 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 0 1
+8 8 0 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -171,7 +171,7 @@ Quest Master~
 188426 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1 6
+8 8 1 6 0
 E
 #114
 hit club fightclub boss~
@@ -182,7 +182,7 @@ Boss~
 16462 0 0 0 0 0 0 0 -1000 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 0 3
+8 8 0 3 0
 BareHandAttack: 11
 Str: 12
 Dex: 12
@@ -205,7 +205,7 @@ Mastermind~
 16462 0 0 0 0 0 0 0 -900 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 0 3
+8 8 0 3 0
 BareHandAttack: 12
 Str: 12
 Dex: 12
@@ -228,7 +228,7 @@ Brains~
 16462 0 0 0 0 0 0 0 -700 E
 16 15 0 3d3+160 2d2+2
 160 25600
-8 8 0 3
+8 8 0 3 0
 BareHandAttack: 7
 SavingPara: 4
 SavingRod: 4
@@ -245,7 +245,7 @@ Librarian~
 16458 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 6 0
+8 8 6 0 0
 BareHandAttack: 5
 E
 T 117
@@ -258,7 +258,7 @@ Librarian~
 16458 0 0 0 0 0 0 0 -300 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 6 2
+8 8 6 2 0
 BareHandAttack: 4
 SavingPara: 3
 SavingRod: 3
@@ -275,7 +275,7 @@ Fever~
 2074 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 6 0
 E
 #120
 saryanavan sarya deva deity~
@@ -286,7 +286,7 @@ Sarya~
 6170 0 0 0 24 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 6 0
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -309,7 +309,7 @@ You are in no doubt that this guildmaster is truly close to the Devas; he has a 
 59418 0 0 0 16 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1 6
+8 8 1 6 0
 E
 #122
 lib librarian book club bookclub~
@@ -320,7 +320,7 @@ Librarian~
 16458 0 0 0 0 0 0 0 -400 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 0 2
+8 8 0 2 0
 BareHandAttack: 11
 SavingPara: 3
 SavingRod: 3
@@ -337,7 +337,7 @@ talk:#adv agent/thegame 123/main:look~
 260376 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 6 0
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -360,7 +360,7 @@ E
 6232 0 0 0 2136 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 2000 10000
-8 8 6 2
+8 8 6 2 0
 BareHandAttack: 11
 SavingPara: 2
 SavingRod: 2
@@ -370,14 +370,14 @@ SavingSpell: 2
 E
 #125
 medic medicdeva medical nurse d125 z1~
-MedicDEVA (Nurse)~
+MedicDEVA 125~
 0125/main:avatar~
 0125/main:look
 ~
 256154 0 0 0 26744 0 0 0 1000 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 7 0
+8 8 2 3 10
 BareHandAttack: 4
 E
 #126
@@ -389,7 +389,7 @@ Arjika Intelligence~
 6168 0 0 0 2128 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 4 0
 BareHandAttack: 6
 E
 #127
@@ -400,7 +400,7 @@ Marudvrdha~
 6168 0 0 0 8 0 0 0 500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 6 4
+8 8 6 4 0
 BareHandAttack: 5
 Str: 13
 Dex: 13
@@ -422,7 +422,7 @@ Sarasvati~
 6168 0 0 0 16 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-6 6 6 4
+6 6 6 4 0
 BareHandAttack: 11
 Str: 16
 Dex: 16
@@ -444,7 +444,7 @@ Sarry~
 2074 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 7 1
+8 8 7 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -459,7 +459,7 @@ SecurityDEVA D131 (Arcade)~
 260184 0 0 0 2136 0 0 0 -500 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1 1
+8 8 1 1 0
 BareHandAttack: 13
 E
 #133
@@ -470,7 +470,7 @@ Blue Deva~
 6168 0 0 0 2064 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 2
+8 8 0 2 0
 BareHandAttack: 8
 SavingPara: 2
 SavingRod: 2
@@ -487,7 +487,7 @@ Red Master Deva~
 6168 0 0 0 16 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 0 5
+8 8 0 5 0
 BareHandAttack: 5
 Str: 17
 Dex: 17
@@ -511,7 +511,7 @@ BlueDeva PRIME~
 6168 0 0 0 24 0 0 0 777 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 0 1
+8 8 0 1 0
 BareHandAttack: 4
 Str: 15
 Dex: 15
@@ -533,7 +533,7 @@ Army Cyber4~
 6170 0 0 0 16 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 6 0
 Str: 18
 Dex: 18
 Int: 18
@@ -554,7 +554,7 @@ Gomati~
 6168 0 0 0 16 0 0 0 500 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 6 5
+8 8 6 5 0
 BareHandAttack: 6
 Str: 16
 Dex: 16
@@ -576,7 +576,7 @@ Yellow Master Deva~
 6168 0 0 0 16 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 0
 BareHandAttack: 5
 E
 #141
@@ -587,7 +587,7 @@ Arjika SForce~
 6168 0 0 0 2168 0 0 0 500 E
 24 12 -4 4d4+240 4d4+4
 240 57600
-8 8 1 4
+8 8 1 4 0
 BareHandAttack: 13
 Str: 16
 Dex: 16
@@ -610,7 +610,7 @@ Vitasta~
 6168 0 0 0 2048 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6 6
+8 8 6 6 0
 Str: 18
 Dex: 18
 Int: 18
@@ -631,7 +631,7 @@ SecurityDEVA D143 (Patrol)~
 6168 0 0 0 2168 0 0 0 600 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 3
+8 8 1 3 0
 BareHandAttack: 13
 SavingPara: 3
 SavingRod: 3
@@ -647,7 +647,7 @@ Black Master Deva~
 6168 0 0 0 2168 0 0 0 600 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 0 2
+8 8 0 2 0
 BareHandAttack: 1
 E
 #145
@@ -658,7 +658,7 @@ Ganga~
 6168 0 0 0 2048 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 6 4
+8 8 6 4 0
 Str: 14
 Dex: 14
 Int: 14
@@ -679,7 +679,7 @@ Mehatnu~
 6168 0 0 0 16 0 0 0 500 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 6 4
+8 8 6 4 0
 BareHandAttack: 8
 Str: 15
 Dex: 15
@@ -702,7 +702,7 @@ Logan~
 253962 0 0 0 112 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 6 1
+6 6 6 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -718,7 +718,7 @@ Sindhu~
 6168 0 0 0 2064 0 0 0 500 E
 27 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6 6
+8 8 6 6 0
 BareHandAttack: 6
 Str: 18
 Dex: 18
@@ -740,7 +740,7 @@ Arjika Sergeant~
 6168 0 0 0 2168 0 0 0 400 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 3
+8 8 1 3 0
 E
 #152
 security securitydeva deva mall d152 z1~
@@ -751,7 +751,7 @@ SecurityDEVA D152 (Mall)~
 6170 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 3
+8 8 1 3 0
 BareHandAttack: 13
 SavingPara: 3
 SavingRod: 3
@@ -767,7 +767,7 @@ Arjika PFC~
 4120 0 0 0 0 0 0 0 100 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 6 0
+8 8 6 0 0
 BareHandAttack: 7
 E
 #155
@@ -778,7 +778,7 @@ Arjika Colnel~
 6168 0 0 0 2168 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 4
+8 8 1 4 0
 BareHandAttack: 9
 Str: 14
 Dex: 14
@@ -800,7 +800,7 @@ Indra Fighter~
 47386 0 0 0 120 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 6 6
+8 8 6 6 0
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -822,7 +822,7 @@ Farry~
 16394 0 0 0 0 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 7 1
+8 8 7 1 0
 BareHandAttack: 2
 SavingPara: 1
 SavingRod: 1
@@ -839,7 +839,7 @@ Arjika Lieutenant~
 6168 0 0 0 2168 0 0 0 1000 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 1 3
+8 8 1 3 0
 SavingPara: 4
 SavingRod: 4
 SavingPetri: 4
@@ -855,7 +855,7 @@ Arjika Captain~
 6168 0 0 0 2120 0 0 0 1000 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 4 0
 BareHandAttack: 7
 E
 #161
@@ -867,7 +867,7 @@ ServiceDEVA D161~
 2072 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 6 1
+8 8 6 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -882,7 +882,7 @@ Renuka~
 2136 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 5 1
+8 8 5 1 0
 BareHandAttack: 11
 SavingPara: 1
 SavingRod: 1
@@ -899,7 +899,7 @@ talk:#adv thegame:agent 0165/main:look
 6170 0 0 0 120 0 0 0 400 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 E
 #166
 general arjika military a166 z1 soldier~
@@ -910,7 +910,7 @@ talk:#adv thegame:agent 0166/main:look
 6168 0 0 0 2168 0 0 0 750 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 6 0
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -934,7 +934,7 @@ Kermit The Frog~
 10 0 0 0 0 0 0 0 1000 E
 10 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1 3
+8 8 1 3 0
 BareHandAttack: 4
 E
 #174
@@ -945,7 +945,7 @@ SecurityDEVA D174 (Agency)~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 6 0
 E
 #175
 security securitydeva guard d175 z1~
@@ -955,7 +955,7 @@ SecurityDEVA D175 (Guard)~
 6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
 333 62500
-8 8 6 5
+8 8 6 5 0
 Str: 16
 Dex: 16
 Int: 16
@@ -976,7 +976,7 @@ Female Agent~
 6168 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 2 0
+8 8 2 0 0
 BareHandAttack: 1
 E
 #177
@@ -987,7 +987,7 @@ SecurityDEVA D177 (Cyber)~
 6170 0 0 0 2168 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 6 0
 BareHandAttack: 13
 Str: 18
 Dex: 18
@@ -1009,7 +1009,7 @@ Arjika Private~
 6168 0 0 0 2048 0 0 0 1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 BareHandAttack: 10
 SavingPara: 1
 SavingRod: 1
@@ -1025,7 +1025,7 @@ talk:#adv agent/thegame 180/main:look~
 6428 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 6 0
 BareHandAttack: 8
 Str: 18
 Dex: 18
@@ -1047,7 +1047,7 @@ SecurityDEVA D181 (Lookout)~
 10 0 0 0 0 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
-8 8 6 4
+8 8 6 4 0
 E
 #182
 al bundy shoe salesman mall~
@@ -1057,7 +1057,7 @@ Al Bundy~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 2 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1072,7 +1072,7 @@ Muscle~
 16974 0 0 0 0 0 0 0 -800 E
 17 15 0 3d3+170 2d2+2
 170 28900
-8 8 6 3
+8 8 6 3 0
 BareHandAttack: 5
 SavingPara: 4
 SavingRod: 4
@@ -1088,7 +1088,7 @@ Soma Disciple~
 26650 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 6 1
+6 6 6 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1098,13 +1098,13 @@ SavingSpell: 1
 E
 #186
 medic medicdeva medical nurse d186 z1~
-MedicDEVA (Nurse)~
+MedicDEVA 186~
 0186/main:avatar~
 0186/main:look~
 61450 0 0 0 26744 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 7 3
+8 8 2 3 10
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1119,7 +1119,7 @@ Garry~
 24586 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1135,7 +1135,7 @@ Arjika Commander~
 6168 0 0 0 2168 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 4
+8 8 1 4 0
 BareHandAttack: 9
 Str: 14
 Dex: 14
@@ -1157,7 +1157,7 @@ Marry~
 2138 0 0 0 16 0 0 0 250 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 7 1
+8 8 7 1 0
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -1173,7 +1173,7 @@ Jamie Oliver~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 2 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1188,7 +1188,7 @@ Vamraka Disciple~
 6170 0 0 0 120 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-6 6 1 4
+6 6 1 4 0
 E
 #199
 karry sweets female devi lady~
@@ -1198,6 +1198,6 @@ Karry~
 10 0 0 0 0 0 0 0 0 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 7 6
+8 8 7 6 0
 E
 $
