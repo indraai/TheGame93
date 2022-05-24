@@ -601,7 +601,7 @@ end
 ~
 set pump[0] It was found Trenton's mother Tabitha was involved with a game called Survivance created by Elizabeth LePensee in October of 2013.
 set pump[1] October 2013 was 9 days before the release of Ethersec Project Mayhem 2020 instructions that would outline new operations for Anonymous.
-set pump[2] In 2013 Quinn was unaware of the Anonymous operations with Tyler or Tabitha's involvement in Survivance.
+set pump[2] In 2013 Quinn was unaware of Anonymous operations with Tyler or Tabitha's involvement in Survivance.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:jess %pump[0]%
