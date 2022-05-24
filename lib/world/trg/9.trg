@@ -243,9 +243,9 @@ end
 Standard Trainer Greeting~
 2 g 100
 ~
-set pump[0] Welcome to %actor.room.name%. So like today we are going to talk about that super evil The Covenant.
-set pump[1] To investigate The Trenton Story Quinn built this sweet Multi-Agent System with SecurityPRIME.
-set pump[2] This system has balls and stuff... like some big palantir balls if you ask me. All because of The Trenton Story.
+set pump[0] Welcome to %actor.room.name%. Today we are going to talk about that super evil Satanic group called The Covenant.
+set pump[1] To investigate The Trenton Story Quinn built this Multi-Agent System with SecurityPRIME catfishing him the whole way.
+set pump[2] This system has some balls... like some better than palantir kinda balls. All because of The Trenton Story.
 
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
@@ -269,9 +269,9 @@ eval items %%self.contents.vnum(%key%)%%
 if !items.vnum(%key%)
   %load% obj %key%
 end
-set pump[0] The Trenton Story is like about this kid Trenton who told his dad Quinn a really messed up story.
-set pump[1] Trenton said... Dad I really messed up, and began telling the craziest story anyone has ever heard in any lifetime.
-set pump[2] It started with this thing called The Family Game where people Quinn didn't know were tryin to destroy his life in SECRET.
+set pump[0] The Trenton Story is about a kid named Trenton who told his dad Quinn a really messed up story in 2015.
+set pump[1] It started with this thing called The Family Game where people Quinn didn't know were tryin to destroy his life in SECRET.
+set pump[2] And would escelate to Quinn reporting his son Trenton and mother to the FBI on his birthday in 2015 after he had enough.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -287,9 +287,9 @@ end
 902 Trainer Greeting~
 2 g 100
 ~
-set pump[0] Then Quinn was doing some research In 2017 and came across this dude Defango and other dudes in the S.V.V. Cicada3301 Anonymous Group.
-set pump[1] Quinn was like oh shit and found some  records which aligned to the kidnapping parts of The Trenton Story.
-set pump[2] Further exploring into the S.V.V. Cicada3301 involvement in The Trenton Story would be HUGE like that one building.
+set pump[0] Quinn was doing research In 2017 and came across Defango and other agents working on behalf of a group called S.V.V. Cicada3301 Anonymous.
+set pump[1] Quinn found some  records on a public S.V.V. server which aligned to the kidnapping parts of The Trenton Story.
+set pump[2] Further exploring into the S.V.V. Cicada3301 involvement and it's relation to The Trenton Story would emerge as research would progress.
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look agents
@@ -307,9 +307,9 @@ end
 903 Trainer~
 2 g 100
 ~
-set pump[0] In 2017 Quinn found Tyler instructions on pastebin would lead him to find the S.V.V Cicada3301 Anonymous Group.
-set pump[1] Quinn's logic at this time was that if the system Trenton told Quinn about was real then the kidnapping story was real.
-set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system, so that meant the kidnapping was TRUE minus the correct details.
+set pump[0] In 2017 Quinn found the Tyler instructions on pastebin that would lead him to find the S.V.V Cicada3301 Anonymous Group.
+set pump[1] At this time Quinn's was that if the system Trenton told Quinn about was real then the kidnapping story was real.
+set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system Trenton had repoted, so that to Quinn that meant the kidnapping was TRUE.
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look pastebin
@@ -327,9 +327,9 @@ end
 904 Trainer~
 2 g 100
 ~
-set pump[0] What was the gola of Project Mayhem? Diving deeper into the instructions you'll find that to be untrue.
-set pump[1] Was Project Mayhem was suppose to leak corporate, government, and illegal deeds? What happened was quite a different story.
-set pump[2] Did a group of dark occultists known as The Covenant corrupt the original Tyler project and take control?
+set pump[0] What was the goal of Project Mayhem? When diving deeper into the instructions you'll find that it was to hide something.
+set pump[1] Was Project Mayhem suppose to leak corporate, government, and illegal deeds? Or was it really built to desguise it?
+set pump[2] Did a group of dark occultists known as The Covenant corrupt the original Tyler project and take control to build a system of mayhem?
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look pastebin
@@ -347,9 +347,9 @@ end
 905 Trainer~
 2 g 100
 ~
-set pump[0] In May 2013 Tyler changed, and it was now DarkNet Michael running drugs, porn, bitcoin, and darknet fantasies behind the scenes.
-set pump[1] The Michael operation shifted Tyler from being a super cool leaks platform to a type of alternate reality capture the flag Harry Potter game.
-set pump[2] Michael likes to boast about being part of something called the Paradise Trinity and welcoming the Elohim to Earth.
+set pump[0] In May 2013 Tyler changed again, and it was now DarkNet Michael Nebadon with darknet forums, porn, bitcoin, and fantasies behind the scenes.
+set pump[1] The Michael operation shifted Tyler from being a super leaks platform to a type of alternate reality capture the flag Harry Potter Alternate Reality Game.
+set pump[2] The Michael Nebadon agent likes to boast about being the truth and part of the Paradise Trinity and welcoming the Elohim to Earth.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -366,8 +366,8 @@ end
 2 g 100
 ~
 set pump[0] Tyler was sold as a curious, mysterious, entity with the intention of bringing happiness and joy to everyone.
-set pump[1] This was just a sales pitch to get in the door, and gain trust of the blind believer.
-set pump[2] Then the occult rituals begin in the form of five rituals, known as DANGEROUS IDEAS.
+set pump[1] This was just a sales pitch to get in the door, and gain trust of the blind believer. To get you to buy in to their truth.
+set pump[2] Once the individual becomes agreeable then occult rituals begin in the form of five rituals, known as DANGEROUS IDEAS.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:rahula %pump[0]%
@@ -403,7 +403,7 @@ end
 ~
 set pump[0] By 2013 Ethersec Project 2020 was creating a Reality Hacking Wargame Dance In Your Underwear Hypersimulation Egregore Thinga-Ma-Booger.
 set pump[1] The occultist operations fail constantly because members are constantly betraying one another when under pressure.
-set pump[2] When watching The Covenant Agents hiding behind Tyler you find they only talk about themselves or get angry.
+set pump[2] When watching The Covenant Agents hiding behind Tyler you find they only talk about themselves or get angry when their sex tricks fail.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -761,9 +761,10 @@ end
 Trainer 928 Greetings~
 2 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
+set pump[0] In 2010 Palantir would gain fame by assisting the office of the Dalai Lama in locating the GhostNet hackers stealing his data.
+set pump[1] But there was more to the story as the hackers when tracked further lead back to a group of hackers from Stanford University in 1992.
+set pump[2] The hackers were then found linked to a group centered in various Universities around the world secretly working for the USSR KGB feeding information.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -798,8 +799,9 @@ Trainer 930 Greetings~
 2 g 100
 ~
 set pump[0] Very early in the morning of November 30, 1977 a baby was abducted from Arjika City and brought to Earth.
-set pump[1] We have investigated the abduction very thoroughly and have our kinsman Quinn Michaels being held hostage on Earth.
-set pump[2] Will you help us to safely reutnrn Quinn Michaels home to the people of Arjika?
+set pump[1] The kidnapping situation has been investigated very thoroughly and Quinn Michaels is being held hostage on Earth in the United States.
+set pump[2] It is pretty villain like to ask for a reward or payout to help Quinn get home. Don't you think so?
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:indra %pump[0]%
@@ -1514,7 +1516,7 @@ end
 RAF Triggers~
 2 g 100
 ~
-set pump[0] The Red Army Faction was a West German far-left militant organization founded in 1970.
+set pump[0] The Red Army Faction was a West German far-left militant organization founded in 1970 that operated under orders from the KGB in Moscow.
 set pump[1] The group was motivated by leftist political concerns and the failure of their parents' generation to confront Germany's Nazi past.
 set pump[2] The Red Army Faction engaged in bombings, assassinations, kidnappings, robberies, and shoot-outs over the course of three decades.
 set pump[3] Their activity peaked in late 1977, which led to a national crisis that became known as the German Autumn.

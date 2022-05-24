@@ -231,7 +231,7 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
     if (!(obj = get_obj_in_list_vis(ch, arg, NULL, cont->contains))) {
       char buf[MAX_STRING_LENGTH];
 
-      snprintf(buf, sizeof(buf), "\nThere doesn't seem to be %s %s in $p.\r", AN(arg), arg);
+      snprintf(buf, sizeof(buf), "\ninfo:There doesn't seem to be %s %s in $p.\r", AN(arg), arg);
       act(buf, FALSE, ch, cont, 0, TO_CHAR);
     } else {
       struct obj_data *obj_next;
@@ -260,7 +260,7 @@ void get_from_container(struct char_data *ch, struct obj_data *cont,
       else {
         char buf[MAX_STRING_LENGTH];
 
-	snprintf(buf, sizeof(buf), "\nYou can't seem to find any %ss in $p.\r", arg);
+	snprintf(buf, sizeof(buf), "\ninfo:You can't seem to find any %ss in $p.\r", arg);
 	act(buf, FALSE, ch, cont, 0, TO_CHAR);
       }
     }
@@ -291,10 +291,10 @@ static void get_from_room(struct char_data *ch, char *arg, int howmany)
     if (!(obj = get_obj_in_list_vis(ch, arg, NULL, world[IN_ROOM(ch)].contents))) {
         /* Are they trying to take something in a room extra description? */
         if (find_exdesc(arg, world[IN_ROOM(ch)].ex_description) != NULL) {
-            send_to_char(ch, "\nYou can't take %s %s.\r", AN(arg), arg);
+            send_to_char(ch, "\ninfo:You can't take %s %s.\r", AN(arg), arg);
             return;
         }
-      send_to_char(ch, "\nYou don't see %s %s here.\r", AN(arg), arg);
+      send_to_char(ch, "\ninfo:You don't see %s %s here.\r", AN(arg), arg);
     } else {
       struct obj_data *obj_next;
       while(obj && howmany--) {
@@ -318,9 +318,9 @@ static void get_from_room(struct char_data *ch, char *arg, int howmany)
     }
     if (!found) {
       if (dotmode == FIND_ALL)
-	send_to_char(ch, "\nThere doesn't seem to be anything here.\r");
+	send_to_char(ch, "\ninfo:There doesn't seem to be anything here.\r");
       else
-	send_to_char(ch, "\nYou don't see any %ss here.\r", arg);
+	send_to_char(ch, "\ninfo:You don't see any %ss here.\r", arg);
     }
   }
 }
@@ -354,14 +354,14 @@ ACMD(do_get)
     if (cont_dotmode == FIND_INDIV) {
       mode = generic_find(arg2, FIND_OBJ_INV | FIND_OBJ_ROOM, ch, &tmp_char, &cont);
       if (!cont)
-	send_to_char(ch, "\nYou don't have %s %s.\r", AN(arg2), arg2);
+	send_to_char(ch, "\ninfo:You don't have %s %s.\r", AN(arg2), arg2);
       else if (GET_OBJ_TYPE(cont) != ITEM_CONTAINER)
-	act("\n$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
+	act("\ninfo:$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
       else
 	get_from_container(ch, cont, arg1, mode, amount);
     } else {
       if (cont_dotmode == FIND_ALLDOT && !*arg2) {
-	send_to_char(ch, "\nGet from all of what?\r");
+	send_to_char(ch, "\ninfo:Get from all of what?\r");
 	return;
       }
       for (cont = ch->carrying; cont; cont = cont->next_content)
@@ -372,7 +372,7 @@ ACMD(do_get)
 	    get_from_container(ch, cont, arg1, FIND_OBJ_INV, amount);
 	  } else if (cont_dotmode == FIND_ALLDOT) {
 	    found = 1;
-	    act("\n$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
+	    act("\ninfo:$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
 	  }
 	}
       for (cont = world[IN_ROOM(ch)].contents; cont; cont = cont->next_content)
@@ -382,15 +382,15 @@ ACMD(do_get)
 	    get_from_container(ch, cont, arg1, FIND_OBJ_ROOM, amount);
 	    found = 1;
 	  } else if (cont_dotmode == FIND_ALLDOT) {
-	    act("\n$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
+	    act("\ninfo:$p is not a container.\r", FALSE, ch, cont, 0, TO_CHAR);
 	    found = 1;
 	  }
 	}
       if (!found) {
 	if (cont_dotmode == FIND_ALL)
-	  send_to_char(ch, "\nYou can't seem to find any containers.\r");
+	  send_to_char(ch, "\ninfo:You can't seem to find any containers.\r");
 	else
-	  send_to_char(ch, "\nYou can't seem to find any %ss here.\r", arg2);
+	  send_to_char(ch, "\ninfo:You can't seem to find any %ss here.\r", arg2);
       }
     }
   }
@@ -401,19 +401,19 @@ static void perform_drop_gold(struct char_data *ch, int amount, byte mode, room_
   struct obj_data *obj;
 
   if (amount <= 0)
-    send_to_char(ch, "\ngold:Huh... we are funny today?\r");
+    send_to_char(ch, "\ninfo:Huh... we are funny today?\r");
   else if (GET_GOLD(ch) < amount)
-    send_to_char(ch, "\ngold:You don't have that many coins!\r");
+    send_to_char(ch, "\ninfo:You don't have that many coins!\r");
   else {
     if (mode != SCMD_JUNK) {
       WAIT_STATE(ch, PULSE_VIOLENCE); /* to prevent coin-bombing */
       obj = create_money(amount);
       if (mode == SCMD_DONATE) {
-	      send_to_char(ch, "\ngold: You offer some gold to the Devas.\r");
-	      act("\ngold: $n offered some gold to the Devas!",
+	      send_to_char(ch, "\noffer:You offer some gold to the Devas.\r");
+	      act("\noffer: $n offered some gold to the Devas!",
 	          FALSE, ch, 0, 0, TO_ROOM);
 	      obj_to_room(obj, RDR);
-	      act("\ngold: $p suddenly appears!\r", 0, 0, obj, 0, TO_ROOM);
+	      act("\ndrop: $p suddenly appears!\r", 0, 0, obj, 0, TO_ROOM);
       } else {
         char buf[MAX_STRING_LENGTH];
         long object_id = obj_script_id(obj);
@@ -425,19 +425,19 @@ static void perform_drop_gold(struct char_data *ch, int amount, byte mode, room_
           return;
         }
 
-	      snprintf(buf, sizeof(buf), "\ngold: $n drops %s.\r", money_desc(amount));
+	      snprintf(buf, sizeof(buf), "\ndorp: $n drops %s.\r", money_desc(amount));
 	      act(buf, TRUE, ch, 0, 0, TO_ROOM);
 
-	      send_to_char(ch, "\ngold: You drop some gold.\r");
+	      send_to_char(ch, "\ndrop: You drop some gold.\r");
 	      obj_to_room(obj, IN_ROOM(ch));
       }
     } else {
       char buf[MAX_STRING_LENGTH];
 
-      snprintf(buf, sizeof(buf), "\ngold: $n drops %s which disappears!\r", money_desc(amount));
+      snprintf(buf, sizeof(buf), "\ndrop:$n drops %s which disappears!\r", money_desc(amount));
       act(buf, FALSE, ch, 0, 0, TO_ROOM);
 
-      send_to_char(ch, "\ngold: You drop some gold which disappears!\r");
+      send_to_char(ch, "\ndrop:You drop some gold which disappears!\r");
     }
     decrease_gold(ch, amount);
   }
@@ -561,7 +561,7 @@ ACMD(do_drop)
     else if (!*arg)
       send_to_char(ch, "\nWhat do you want to %s %d of?\r", sname, multi);
     else if (!(obj = get_obj_in_list_vis(ch, arg, NULL, ch->carrying)))
-      send_to_char(ch, "\nYou don't seem to have any %ss.\r", arg);
+      send_to_char(ch, "\ninfo:You don't seem to have any %ss.\r", arg);
     else {
       do {
         next_obj = get_obj_in_list_vis(ch, arg, NULL, obj->next_content);

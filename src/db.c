@@ -1609,8 +1609,8 @@ static void parse_simple_mob(FILE *mob_f, int i, int nr)
   GET_DEFAULT_POS(mob_proto + i) = t[1];
   GET_GENDER(mob_proto + i) = t[2];
   GET_RACE(mob_proto + i) = t[3];
+  GET_CLASS(mob_proto + i) = t[4];
 
-  GET_CLASS(mob_proto + i) = 0;
   GET_WEIGHT(mob_proto + i) = 200;
   GET_HEIGHT(mob_proto + i) = 198;
 
