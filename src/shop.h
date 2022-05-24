@@ -78,7 +78,7 @@ struct shop_data {
 #define TRADE_NOEVIL       (1 << 1)
 #define TRADE_NONEUTRAL    (1 << 2)
 #define TRADE_CITIZEN      (1 << 3)
-#define TRADE_MONK         (1 << 4)
+#define TRADE_ADVENTURER   (1 << 4)
 #define TRADE_ARTIST       (1 << 5)
 #define TRADE_SCIENTIST    (1 << 6)
 #define TRADE_ENGINEER     (1 << 7)
@@ -135,7 +135,7 @@ struct stack_data {
 #define NOTRADE_NEUTRAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_NONEUTRAL))
 
 #define NOTRADE_CITIZEN(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_CITIZEN))
-#define NOTRADE_MONK(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MONK))
+#define NOTRADE_ADVENTURER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ADVENTURER))
 #define NOTRADE_ARTIST(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ARTIST))
 #define NOTRADE_SCIENTIST(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_SCIENTIST))
 #define NOTRADE_ENGINEER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ENGINEER))

@@ -33,7 +33,7 @@ const char *trade_letters[] = {
         "Evil",
         "Neutral",
         "Citizen",           /* Then the class based ones */
-        "Monk",
+        "Adventurer",
         "Artist",
         "Scientist",
         "Engineer",
@@ -136,7 +136,7 @@ static int is_ok_char(struct char_data *keeper, struct char_data *ch, int shop_n
   if (IS_NPC(ch))
     return (TRUE);
 
-  if ((IS_MONK(ch) && NOTRADE_MONK(shop_nr)) ||
+  if ((IS_ADVENTURER(ch) && NOTRADE_ADVENTURER(shop_nr)) ||
       (IS_ARTIST(ch) && NOTRADE_ARTIST(shop_nr)) ||
       (IS_SCIENTIST(ch) && NOTRADE_HACKER(shop_nr)) ||
       (IS_ENGINEER(ch) && NOTRADE_ENGINEER(shop_nr)) ||

@@ -27,7 +27,7 @@
 /* Names first */
 const char *class_abbrevs[] = {
   "Ci",
-  "Mo",
+  "Ad",
   "Ar",
   "Sc",
   "En",
@@ -45,7 +45,7 @@ const char *class_abbrevs[] = {
 
 const char *class_types[] = {
   "Citizen",
-  "Monk",
+  "Adventurer",
   "Artist",
   "Scientist",
   "Engineer",
@@ -66,7 +66,7 @@ const char *class_menu =
 "\n## Player Class\r"
 "\np:Please select your player class...\r"
 "\nmenu[Citizen]:a\r"
-"\nmenu[Monk]:b\r"
+"\nmenu[Advenurer]:b\r"
 "\nmenu[Artist]:c\r"
 "\nmenu[Scientist]:d\r"
 "\nmenu[Engineer]:e\r"
@@ -87,20 +87,20 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case 'a': return CLASS_CITIZEN;    // MONK
-  case 'b': return CLASS_MONK;    // MONK
-  case 'c': return CLASS_ARTIST;  // priest
-  case 'd': return CLASS_SCIENTIST;    // indu
-  case 'e': return CLASS_ENGINEER;    // soma
-  case 'f': return CLASS_PROGRAMMER;    // sarya
-  case 'g': return CLASS_HACKER;    // sarya
-  case 'h': return CLASS_JOURNALIST;    // sarya
-  case 'i': return CLASS_LAWYER;    // sarya
-  case 'j': return CLASS_POLITICIAN;    // sarya
-  case 'k': return CLASS_MEDICAL;    // sarya
-  case 'l': return CLASS_SECURITY;    // sarya
-  case 'm': return CLASS_MILITARY;    // sarya
-  case 'n': return CLASS_ROYAL;    // sarya
+  case 'a': return CLASS_CITIZEN;       // citizen
+  case 'b': return CLASS_ADVENTURER;    // ADVENTUREER
+  case 'c': return CLASS_ARTIST;        // priest
+  case 'd': return CLASS_SCIENTIST;     // indu
+  case 'e': return CLASS_ENGINEER;      // soma
+  case 'f': return CLASS_PROGRAMMER;    // PROGRAMMER
+  case 'g': return CLASS_HACKER;        // hacker
+  case 'h': return CLASS_JOURNALIST;    // journalist
+  case 'i': return CLASS_LAWYER;        // lawyer
+  case 'j': return CLASS_POLITICIAN;    // politician
+  case 'k': return CLASS_MEDICAL;       // medical
+  case 'l': return CLASS_SECURITY;      // security
+  case 'm': return CLASS_MILITARY;      // military
+  case 'n': return CLASS_ROYAL;         // royal
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -164,7 +164,7 @@ int prac_params[4][NUM_CLASSES] = {
 struct guild_info_type guild_info[] = {
 
 /* GUILDS */
- { CLASS_MONK, 350, NORTH },
+ { CLASS_ADVENTURER, 350, NORTH },
  { CLASS_ARTIST, 152, SOUTH },
  { CLASS_SCIENTIST, 336, NORTH },
  { CLASS_ENGINEER, 166, SOUTH },
@@ -181,7 +181,7 @@ struct guild_info_type guild_info[] = {
 byte saving_throws(int class_num, int type, int level)
 {
   switch (class_num) {
-  case CLASS_MONK:
+  case CLASS_ADVENTURER:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -469,7 +469,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for monk paralyzation saving throw.");
+	log("SYSERR: Missing level for adventurer paralyzation saving throw.");
 	break;
       }
     case SAVING_ROD:	/* Rods */
@@ -516,7 +516,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for monk rod saving throw.");
+	log("SYSERR: Missing level for adventurer rod saving throw.");
 	break;
       }
     case SAVING_PETRI:	/* Petrification */
@@ -563,7 +563,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for monk petrification saving throw.");
+	log("SYSERR: Missing level for adventurer petrification saving throw.");
 	break;
       }
     case SAVING_BREATH:	/* Breath weapons */
@@ -610,7 +610,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for monk breath saving throw.");
+	log("SYSERR: Missing level for adventurer breath saving throw.");
 	break;
       }
     case SAVING_SPELL:	/* Generic spells */
@@ -657,7 +657,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for monk spell saving throw.");
+	log("SYSERR: Missing level for adventurer spell saving throw.");
 	break;
       }
     default:
@@ -1211,7 +1211,7 @@ byte saving_throws(int class_num, int type, int level)
 int thaco(int class_num, int level)
 {
   switch (class_num) {
-  case CLASS_MONK:
+  case CLASS_ADVENTURER:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1289,7 +1289,7 @@ int thaco(int class_num, int level)
     case 33: return   1;
     case 34: return   1;
     default:
-      log("SYSERR: Missing level for monk thac0.");
+      log("SYSERR: Missing level for adventurer thac0.");
     }
   case CLASS_SCIENTIST:
     switch (level) {
@@ -1475,7 +1475,7 @@ void do_start(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
-  case CLASS_MONK:
+  case CLASS_ADVENTURER:
     break;
 
   case CLASS_ARTIST:
@@ -1598,7 +1598,7 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_CITIZEN) && IS_CITIZEN(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_ADVENTURER) && IS_ADVENTURER(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_ARTIST) && IS_ARTIST(ch))
@@ -1639,32 +1639,32 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
  * skill. */
 void init_spell_levels(void)
 {
-  /* MONK */
-  spell_level(SPELL_MAGIC_MISSILE, CLASS_MONK, 1);
-  spell_level(SPELL_DETECT_INVIS, CLASS_MONK, 2);
-  spell_level(SPELL_DETECT_MAGIC, CLASS_MONK, 2);
-  spell_level(SPELL_CHILL_TOUCH, CLASS_MONK, 3);
-  spell_level(SPELL_INFRAVISION, CLASS_MONK, 3);
-  spell_level(SPELL_INVISIBLE, CLASS_MONK, 4);
-  spell_level(SPELL_ARMOR, CLASS_MONK, 4);
-  spell_level(SPELL_BURNING_HANDS, CLASS_MONK, 5);
-  spell_level(SPELL_LOCATE_OBJECT, CLASS_MONK, 6);
-  spell_level(SPELL_STRENGTH, CLASS_MONK, 6);
-  spell_level(SPELL_SHOCKING_GRASP, CLASS_MONK, 7);
-  spell_level(SPELL_SLEEP, CLASS_MONK, 8);
-  spell_level(SPELL_LIGHTNING_BOLT, CLASS_MONK, 9);
-  spell_level(SPELL_BLINDNESS, CLASS_MONK, 9);
-  spell_level(SPELL_DETECT_POISON, CLASS_MONK, 10);
-  spell_level(SPELL_COLOR_SPRAY, CLASS_MONK, 11);
-  spell_level(SPELL_ENERGY_DRAIN, CLASS_MONK, 13);
-  spell_level(SPELL_CURSE, CLASS_MONK, 14);
-  spell_level(SPELL_POISON, CLASS_MONK, 14);
-  spell_level(SPELL_FIREBALL, CLASS_MONK, 15);
-  spell_level(SPELL_CHARM, CLASS_MONK, 16);
-  spell_level(SPELL_IDENTIFY, CLASS_MONK, 20);
-  spell_level(SPELL_FLY, CLASS_MONK, 22);
-  spell_level(SPELL_ENCHANT_WEAPON, CLASS_MONK, 26);
-  spell_level(SPELL_CLONE, CLASS_MONK, 30);
+  /* adventurer */
+  spell_level(SPELL_MAGIC_MISSILE, CLASS_ADVENTURER, 1);
+  spell_level(SPELL_DETECT_INVIS, CLASS_ADVENTURER, 2);
+  spell_level(SPELL_DETECT_MAGIC, CLASS_ADVENTURER, 2);
+  spell_level(SPELL_CHILL_TOUCH, CLASS_ADVENTURER, 3);
+  spell_level(SPELL_INFRAVISION, CLASS_ADVENTURER, 3);
+  spell_level(SPELL_INVISIBLE, CLASS_ADVENTURER, 4);
+  spell_level(SPELL_ARMOR, CLASS_ADVENTURER, 4);
+  spell_level(SPELL_BURNING_HANDS, CLASS_ADVENTURER, 5);
+  spell_level(SPELL_LOCATE_OBJECT, CLASS_ADVENTURER, 6);
+  spell_level(SPELL_STRENGTH, CLASS_ADVENTURER, 6);
+  spell_level(SPELL_SHOCKING_GRASP, CLASS_ADVENTURER, 7);
+  spell_level(SPELL_SLEEP, CLASS_ADVENTURER, 8);
+  spell_level(SPELL_LIGHTNING_BOLT, CLASS_ADVENTURER, 9);
+  spell_level(SPELL_BLINDNESS, CLASS_ADVENTURER, 9);
+  spell_level(SPELL_DETECT_POISON, CLASS_ADVENTURER, 10);
+  spell_level(SPELL_COLOR_SPRAY, CLASS_ADVENTURER, 11);
+  spell_level(SPELL_ENERGY_DRAIN, CLASS_ADVENTURER, 13);
+  spell_level(SPELL_CURSE, CLASS_ADVENTURER, 14);
+  spell_level(SPELL_POISON, CLASS_ADVENTURER, 14);
+  spell_level(SPELL_FIREBALL, CLASS_ADVENTURER, 15);
+  spell_level(SPELL_CHARM, CLASS_ADVENTURER, 16);
+  spell_level(SPELL_IDENTIFY, CLASS_ADVENTURER, 20);
+  spell_level(SPELL_FLY, CLASS_ADVENTURER, 22);
+  spell_level(SPELL_ENCHANT_WEAPON, CLASS_ADVENTURER, 26);
+  spell_level(SPELL_CLONE, CLASS_ADVENTURER, 30);
 
   /* ARTIST */
   spell_level(SPELL_CURE_LIGHT, CLASS_ARTIST, 1);

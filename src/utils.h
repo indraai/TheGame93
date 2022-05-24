@@ -874,7 +874,7 @@ do                                                              \
 
 /** 1 if ch is magic user class, 0 if not. */
 #define IS_CITIZEN(ch)	GET_CLASS(ch) == CLASS_CITIZEN
-#define IS_MONK(ch)	GET_CLASS(ch) == CLASS_MONK
+#define IS_ADVENTURER(ch)	GET_CLASS(ch) == CLASS_ADVENTURER
 #define IS_ARTIST(ch)	GET_CLASS(ch) == CLASS_ARTIST
 #define IS_SCIENTIST(ch)	GET_CLASS(ch) == CLASS_SCIENTIST
 #define IS_ENGINEER(ch)	GET_CLASS(ch) == CLASS_ENGINEER
@@ -889,7 +889,7 @@ do                                                              \
 #define IS_ROYAL(ch)	GET_CLASS(ch) == CLASS_ROYAL
 
 /** 1 if ch is magic user class, 0 if not. */
-/** 1 if ch is monk class, 0 if not. */
+/** 1 if ch is adventurer class, 0 if not. */
 /** 1 if ch is thief class, 0 if not. */
 /** 1 if ch is warrior class, 0 if not. */
 

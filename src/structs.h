@@ -148,7 +148,7 @@
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
 #define CLASS_CITIZEN         0 // CITIZEN
-#define CLASS_MONK            1 // MONK
+#define CLASS_ADVENTURER      1 // adventurer
 #define CLASS_ARTIST          2 // ARTIST
 #define CLASS_SCIENTIST       3 // SCIENTIST
 #define CLASS_ENGINEER        4 // ENGINEER
@@ -386,50 +386,50 @@
 
 /* object-related defines */
 /* Item types: used by obj_data.obj_flags.type_flag */
-#define ITEM_LIGHT      1		/**< Item is a light source	*/
-#define ITEM_SCROLL     2		/**< Item is a scroll		*/
-#define ITEM_WAND       3		/**< Item is a wand		*/
-#define ITEM_STAFF      4		/**< Item is a staff		*/
-#define ITEM_WEAPON     5		/**< Item is a weapon		*/
-#define ITEM_FURNITURE  6   /**< Sittable Furniture		*/
-#define ITEM_FREE       7   /**< Unimplemented		*/
-#define ITEM_TREASURE   8   /**< Item is a treasure, not gold	*/
-#define ITEM_ARMOR      9   /**< Item is armor		*/
-#define ITEM_POTION    10   /**< Item is a potion		*/
-#define ITEM_WORN      11		/**< Unimplemented		*/
-#define ITEM_OTHER     12		/**< Misc object			*/
-#define ITEM_TRASH     13		/**< Trash - shopkeepers won't buy	*/
-#define ITEM_FREE2     14		/**< Unimplemented		*/
-#define ITEM_CONTAINER 15		/**< Item is a container		*/
-#define ITEM_NOTE      16		/**< Item is note 		*/
-#define ITEM_DRINKCON  17		/**< Item is a drink container	*/
-#define ITEM_KEY       18		/**< Item is a key		*/
-#define ITEM_FOOD      19		/**< Item is food			*/
-#define ITEM_MONEY     20		/**< Item is money (gold)		*/
-#define ITEM_PEN       21		/**< Item is a pen		*/
-#define ITEM_BOAT      22		/**< Item is a boat		*/
-#define ITEM_FOUNTAIN  23		/**< Item is a fountain		*/
+#define ITEM_LIGHT             1		/**< Item is a light source	*/
+#define ITEM_SCROLL            2		/**< Item is a scroll		*/
+#define ITEM_WAND              3		/**< Item is a wand		*/
+#define ITEM_STAFF             4		/**< Item is a staff		*/
+#define ITEM_WEAPON            5		/**< Item is a weapon		*/
+#define ITEM_FURNITURE         6   /**< Sittable Furniture		*/
+#define ITEM_FREE              7   /**< Unimplemented		*/
+#define ITEM_TREASURE          8   /**< Item is a treasure, not gold	*/
+#define ITEM_ARMOR             9   /**< Item is armor		*/
+#define ITEM_POTION           10   /**< Item is a potion		*/
+#define ITEM_WORN             11		/**< Unimplemented		*/
+#define ITEM_OTHER            12		/**< Misc object			*/
+#define ITEM_TRASH            13		/**< Trash - shopkeepers won't buy	*/
+#define ITEM_FREE2            14		/**< Unimplemented		*/
+#define ITEM_CONTAINER        15		/**< Item is a container		*/
+#define ITEM_NOTE             16		/**< Item is note 		*/
+#define ITEM_DRINKCON         17		/**< Item is a drink container	*/
+#define ITEM_KEY              18		/**< Item is a key		*/
+#define ITEM_FOOD             19		/**< Item is food			*/
+#define ITEM_MONEY            20		/**< Item is money (gold)		*/
+#define ITEM_PEN              21		/**< Item is a pen		*/
+#define ITEM_BOAT             22		/**< Item is a boat		*/
+#define ITEM_FOUNTAIN         23		/**< Item is a fountain		*/
 /** Total number of item types.*/
-#define NUM_ITEM_TYPES    24
+#define NUM_ITEM_TYPES        24
 
 /* Take/Wear flags: used by obj_data.obj_flags.wear_flags */
-#define ITEM_WEAR_TAKE      0   /**< Item can be taken */
-#define ITEM_WEAR_FINGER    1   /**< Item can be worn on finger */
-#define ITEM_WEAR_NECK      2   /**< Item can be worn around neck */
-#define ITEM_WEAR_BODY      3   /**< Item can be worn on body */
-#define ITEM_WEAR_HEAD      4   /**< Item can be worn on head */
-#define ITEM_WEAR_LEGS      5   /**< Item can be worn on legs */
-#define ITEM_WEAR_FEET      6   /**< Item can be worn on feet */
-#define ITEM_WEAR_HANDS	    7   /**< Item can be worn on hands	*/
-#define ITEM_WEAR_ARMS      8   /**< Item can be worn on arms */
-#define ITEM_WEAR_SHIELD    9   /**< Item can be used as a shield */
-#define ITEM_WEAR_ABOUT	   10   /**< Item can be worn about body */
-#define ITEM_WEAR_WAIST    11   /**< Item can be worn around waist */
-#define ITEM_WEAR_WRIST	   12   /**< Item can be worn on wrist */
-#define ITEM_WEAR_WIELD	   13   /**< Item can be wielded */
-#define ITEM_WEAR_HOLD     14   /**< Item can be held */
+#define ITEM_WEAR_TAKE         0   /**< Item can be taken */
+#define ITEM_WEAR_FINGER       1   /**< Item can be worn on finger */
+#define ITEM_WEAR_NECK         2   /**< Item can be worn around neck */
+#define ITEM_WEAR_BODY         3   /**< Item can be worn on body */
+#define ITEM_WEAR_HEAD         4   /**< Item can be worn on head */
+#define ITEM_WEAR_LEGS         5   /**< Item can be worn on legs */
+#define ITEM_WEAR_FEET         6   /**< Item can be worn on feet */
+#define ITEM_WEAR_HANDS	       7   /**< Item can be worn on hands	*/
+#define ITEM_WEAR_ARMS         8   /**< Item can be worn on arms */
+#define ITEM_WEAR_SHIELD       9   /**< Item can be used as a shield */
+#define ITEM_WEAR_ABOUT	      10   /**< Item can be worn about body */
+#define ITEM_WEAR_WAIST       11   /**< Item can be worn around waist */
+#define ITEM_WEAR_WRIST	      12   /**< Item can be worn on wrist */
+#define ITEM_WEAR_WIELD	      13   /**< Item can be wielded */
+#define ITEM_WEAR_HOLD        14   /**< Item can be held */
 /** Total number of item wears */
-#define NUM_ITEM_WEARS    15
+#define NUM_ITEM_WEARS        15
 
 /* Extra object flags: used by obj_data.obj_flags.extra_flags */
 #define ITEM_GLOW              0   /**< Item is glowing */
@@ -441,7 +441,7 @@
 #define ITEM_ANTI_EVIL         6   /**< Not usable by evil people	*/
 #define ITEM_ANTI_NEUTRAL      7   /**< Not usable by neutral people */
 #define ITEM_ANTI_CITIZEN      8   /**< Not usable by sarya */
-#define ITEM_ANTI_MONK         9   /**< Not usable by monks */
+#define ITEM_ANTI_ADVENTURER   9   /**< Not usable by adventurers */
 #define ITEM_ANTI_ARTIST      10   /**< Not usable by priests */
 #define ITEM_ANTI_SCIENTIST	  11   /**< Not usable by indu */
 #define ITEM_ANTI_ENGINEER    12   /**< Not usable by soma */
@@ -460,7 +460,7 @@
 #define ITEM_NOINVIS          25    /**< Item cannot be made invis	*/
 #define ITEM_QUEST            26   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS    27
+#define NUM_ITEM_FLAGS        27
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
@@ -489,16 +489,16 @@
 #define APPLY_SAVING_BREATH    23	/**< Apply to save throw: breath	*/
 #define APPLY_SAVING_SPELL     24	/**< Apply to save throw: spells	*/
 /** Total number of applies */
-#define NUM_APPLIES   25
+#define NUM_APPLIES            25
 
 /* Equals the total number of SAVING_* defines in spells.h */
 #define NUM_OF_SAVING_THROWS  5
 
 /* Container flags - value[1] */
-#define CONT_CLOSEABLE      (1 << 0)	/**< Container can be closed	*/
-#define CONT_PICKPROOF      (1 << 1)	/**< Container is pickproof	*/
-#define CONT_CLOSED         (1 << 2)	/**< Container is closed		*/
-#define CONT_LOCKED         (1 << 3)	/**< Container is locked		*/
+#define CONT_CLOSEABLE        (1 << 0)	/**< Container can be closed	*/
+#define CONT_PICKPROOF        (1 << 1)	/**< Container is pickproof	*/
+#define CONT_CLOSED           (1 << 2)	/**< Container is closed		*/
+#define CONT_LOCKED           (1 << 3)	/**< Container is locked		*/
 
 /* Some different kind of liquids for use in values of drink containers */
 #define LIQ_WATER      0   /**< Liquid type water */
@@ -525,15 +525,15 @@
 
 /* other miscellaneous defines */
 /* Player conditions */
-#define DRUNK        0  /**< Player drunk condition */
-#define HUNGER       1  /**< Player hunger condition */
-#define THIRST       2  /**< Player thirst condition */
+#define DRUNK          0  /**< Player drunk condition */
+#define HUNGER         1  /**< Player hunger condition */
+#define THIRST         2  /**< Player thirst condition */
 
 /* Sun state for weather_data */
-#define SUN_DARK	0  /**< Night time */
-#define SUN_RISE	1  /**< Dawn */
-#define SUN_LIGHT	2  /**< Day time */
-#define SUN_SET		3  /**< Dusk */
+#define SUN_DARK	     0  /**< Night time */
+#define SUN_RISE	     1  /**< Dawn */
+#define SUN_LIGHT	     2  /**< Day time */
+#define SUN_SET		     3  /**< Dusk */
 
 /* Sky conditions for weather_data */
 #define SKY_CLOUDLESS  0  /**< Weather = No clouds */
@@ -566,10 +566,10 @@
  * LVL_IMPL should always be the HIGHEST possible immortal level, and
  * LVL_IMMORT should always be the LOWEST immortal level.  The number of
  * mortal levels will always be LVL_IMMORT - 1. */
-#define LVL_IMPL    34  /**< Level of Implementors */
+#define LVL_IMPL     34  /**< Level of Implementors */
 #define LVL_GRDEVA   33  /**< Level of Greater Devas */
 #define LVL_DEVA     32  /**< Level of Devas */
-#define LVL_IMMORT	31  /**< Level of Immortals */
+#define LVL_IMMORT	 31  /**< Level of Immortals */
 
 /** Minimum level to build and to run the saveall command */
 #define LVL_BUILDER	LVL_IMMORT
