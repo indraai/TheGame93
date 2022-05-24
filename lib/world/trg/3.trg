@@ -52,6 +52,8 @@ rdelete on_tour %actor.id%
 386 Tour~
 2 d 100
 *~
+rdelete on_tour %actor.id%
+
 if %speech% == start tour
   set on_tour 1
   remote on_tour %actor.id%
