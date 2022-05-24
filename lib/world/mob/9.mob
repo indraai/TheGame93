@@ -16,7 +16,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #801
-trainer agent 801 rloxley kent browne hacker navy human~
+trainer agent 801 rloxley kent browne hacker navy human usmil~
 Kent 801~
 0801/main:avatar~
 0801/main:look
@@ -97,7 +97,7 @@ Aaron 809~
 8 8 1 0 0
 E
 #810
-trainer agent 810 james dolan suicide marines soldier human hacker~
+trainer agent 810 james dolan suicide marines soldier human hacker usmil~
 James 810~
 810/main:avatar~
 810/main:look~
@@ -289,7 +289,7 @@ FBI 915~
 BareHandAttack: 9
 E
 #916
-trainer agent 916 robert david steele steeler hacker human~
+trainer agent 916 robert david steele steeler hacker human marines usmil~
 Robert 916~
 916/main:avatar~
 916/main:look~
@@ -637,7 +637,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #941
-trainer training 941 hannibal eotl human hacker~
+trainer training 941 hannibal eotl human hacker usarmy usmil~
 Hannibal 941~
 941/main:avatar~
 941/main:look~
@@ -672,7 +672,7 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #944
-trainer training 944 satan dan farmer defcon marines hacker human~
+trainer training 944 satan dan farmer defcon marines hacker human usmil~
 Dan 944~
 944/main:avatar~
 944/main:look~
@@ -1089,7 +1089,7 @@ Ben 975~
 76 0 0 0 0 0 0 0 -600 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 0 3
+8 8 1 0 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1105,6 +1105,21 @@ Cassio 976~
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 0
+E
+#977
+trainer agent 977 opencog robot~
+Opencog 977~
+977/main:avatar~
+977/main:look~
+76 0 0 0 0 0 0 0 -333 E
+9 17 4 1d1+90 1d2+1
+90 8100
+8 8 0 1 5
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #978
 trainer agent 978 natasha vita-more human scientist~
