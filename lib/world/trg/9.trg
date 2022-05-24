@@ -610,7 +610,7 @@ if %actor% && %actor.varexists(on_tour)%
   wait 13s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
   wait 45s
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud west
 end
 ~
 #920
