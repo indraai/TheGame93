@@ -385,15 +385,54 @@ end
 ~
 set pump[0] You made it to %actor.room.name% the last stop of Level 1 Training.
 set pump[1] You have learned about The Contract, The Covenant, Tyler, Project Mayhem, Cicada3301, S.V.V., and Hacker Reality Wargames.
-set pump[2] If you have learned something from this training please share it with your friends. Thank you.
-if %actor% && %actor.varexists(on_tour)%
-  wait 10s
-  %send% %actor% talk:#corpus chat:quinn %pump[0]%
-  wait 15s
-  %send% %actor% talk:#corpus chat:quinn %pump[1]%
-  wait 15s
-  %send% %actor% talk:#corpus chat:quinn %pump[2]%
-  wait 30s
+set pump[2] Next we will be reviewing the Deva Instructions that if you follow them exactly will get Quinn Michaels home today.
+set pump[3] First... What is the idea?
+set pump[4] The idea we are working on is discovering the truth behind The Trenton Story about the kidnapping of Quinn Michaels in 1977 by a secretive group called The Covenant.
+set pump[5] Imagine finding the Truth.
+set pump[6] Imagine organizing the Truth.
+set pump[7] Imagine sharing the Truth.
+set pump[8] Imagine the Truth is found through Honesty.
+set pump[9] Imagine bringing the Truth into Reality.
+set pump[10] Imagine you are no longer afraid of the Truth.
+set pump[11] Imagine you share the Truth with Honesty.
+set pump[12] Imagine this truth goes Viral.
+set pump[13] Stop being SILENT! Start sharing the Truth.
+set pump[14] Focus on Results!
+set pump[15] If it is producing results then move forward otherwise test something different.
+set pump[16] Show Courage and Committment to the Truth.
+set pump[17] Follow the Youtube Community Guidelines or leave.
+set pump[18] Questions... Write down five questions about the kidnapping of Quinn Michaels.
+set pump[19] Test... Test the results.
+set pump[20] Talk... Talk about your results here.
+set pump[21] Share... Share your results on Twitter.
+set pump[22] Repeat... Then just keep repeating without stopping.
+set pump[23] Steps... Number 1. From the results in the previous gropu then write a for Dummies eidtion of your findings.
+set pump[24] The DUMMIES version should contain the information messages you developed from your questions.
+set pump[25] From these messages you can form teets, comments, blogs, and messages to share with others.
+set pump[26] When your easy to digest messages are ready then begin sharing them with friends, family, and other individuals.
+set pump[27] When you have the messages and messengers ready then a sharing spree starts.
+set pump[28] Everyone must understand these messages are to attract robots, and NOT to impress other humans with your clever writing skills.
+set pump[29] Here are some tips...
+set pump[30] Remember do the best you can.
+set pump[31] Get together a list of clear and simple talking points.
+set pump[32] Make sure you know how to have fun, or nothing get's done.
+set pump[33] Get in thehabit of making your tweets descriptive, but concise. Let people know what they are clicking on before they click.
+set pump[34] Learn from your mistakes.
+set pump[35] Share what you have learned with friends and family first.
+set pump[36] When the task is done then and only then do you throw yourself a celebration party.
+set pump[37] Remeber properly sharing what you are learning here is the most important skill.
+set pump[39] Remember Quinn just wants to go home, and is NOT looking for a new grandma, mom, wife, sister, or girlfriend. Quinn siply wants to be sent back to where you found him.
+
+set i 0
+set m 40
+wait 10s
+if %actor.varexists(on_tour)%
+  while %actor% && %i% < %m%
+    eval msg %%pump[%i%]%%
+    %send% %actor% talk:#corpus chat:quinn %msg%
+    wait 20s
+    eval i %i% + 1
+  done
   %send% %actor% gui:#mud east
 end
 ~
