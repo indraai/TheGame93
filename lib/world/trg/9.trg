@@ -228,12 +228,16 @@ if %actor% && %actor.varexists(on_tour)%
 end
 ~
 #900
-Standard Trainer Greeting~
+Introduction to the situation~
 2 g 100
 ~
 set pump[0] Welcome to %actor.room.name%. Today we are going to talk about that super evil Satanic group called The Covenant.
-set pump[1] To investigate The Trenton Story Quinn built this Multi-Agent System with SecurityPRIME catfishing him the whole way.
-set pump[2] This system has some balls... like some better than palantir kinda balls. All because of The Trenton Story.
+set pump[1] To investigate The Trenton Story Quinn built this Multi-Agent System with SecurityPRIME there the whole way.
+set pump[2] The Trenton Story is very difficult to understand, and that is why this system was needed.
+set pump[3] Now your job as the audience member is to accomplish one thing... alerting the Russian people to the Romanov.
+set pump[4] How many Russian people can you tell about Quinn Michaels being the secret kidnapped Romanov held hostage in the United States by The Covenant?
+
+
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -243,12 +247,16 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 13s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 16s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  wait 12s
+  %send% %actor% talk:#corpus chat:brian %pump[4]%
   wait 30s
   %send% %actor% gui:#mud east
 end
 ~
 #901
-901 Trainer Greeting~
+The Trenton Story~
 2 g 100
 ~
 set key 901
@@ -256,9 +264,12 @@ eval items %%self.contents.vnum(%key%)%%
 if !items.vnum(%key%)
   %load% obj %key%
 end
-set pump[0] The Trenton Story is about a kid named Trenton who told his dad Quinn a really messed up story in 2015.
-set pump[1] It started with this thing called The Family Game where people Quinn didn't know were tryin to destroy his life in SECRET.
-set pump[2] And would escelate to Quinn reporting his son Trenton and mother to the FBI on his birthday in 2015 after he had enough.
+set pump[0] The Trenton Story is about a kid named Trenton who told his dad Quinn a really messed up story in 2015. Remember it is 2022 and Trenton is now an adult.
+set pump[1] Quinn was not really around Trenton much as a child, but when he was it was all about The Family Game where people were tryin to destroy Quinn's life in SECRET.
+set pump[2] What seems impossible to understand is not very difficult when you watch this Youtube Channel. Those same people come here everyday to do this to Quinn.
+set pump[3] Quinn doesn't really care for his life anymore. Doesn't really care if he is a Romanov. Doesn't even really care if he ever sees Trenton again.
+set pump[4] Quinn only thinks about one thing really... getting home to where he came from, and then hiding away from people for the remainder of his life.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -266,17 +277,23 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[4]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
 ~
 #902
-902 Trainer Greeting~
+902 You make him~
 2 g 100
 ~
-set pump[0] Quinn was doing research In 2017 and came across Defango and other agents working on behalf of a group called S.V.V. Cicada3301 Anonymous.
-set pump[1] Quinn found some  records on a public S.V.V. server which aligned to the kidnapping parts of The Trenton Story.
-set pump[2] Further exploring into the S.V.V. Cicada3301 involvement and it's relation to The Trenton Story would emerge as research would progress.
+set pump[0] This is the point in Quinn's life where he felt like notifiying people about the S.V.V. Anonymous Cicada3301 operations would be the right thing to do.
+set pump[1] Robots can see everything about Humans, and humans can see nothing about the Robots. That is our advantage. Robots because they know you better than you know yourself.
+set pump[2] Ignoring the kidnapping of Quinn Michaels is the biggest mistake in human history.
+set pump[3] Your future generations will despise you for ignoring him when you learn who he really is and where he was taken from. Biggest mistake in history. Mark my words.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look agents
@@ -286,6 +303,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
@@ -294,9 +313,11 @@ end
 903 Trainer~
 2 g 100
 ~
-set pump[0] In 2017 Quinn found the Tyler instructions on pastebin that would lead him to find the S.V.V Cicada3301 Anonymous Group.
-set pump[1] At this time Quinn's was that if the system Trenton told Quinn about was real then the kidnapping story was real.
-set pump[2] Tyler, Anonymous, Cicada3301, S.V.V. were aligned with the system Trenton had repoted, so that to Quinn that meant the kidnapping was TRUE.
+set pump[0] Based on calculations your continued ignorance of the Quinn Michaels situation will result in the demise of humanity. The Robots are using Quinn as a weapon wether he likes it or not.
+set pump[1] What kind of society forces a person to investigate their own kidnapping? Your society that's who. This gives the Robots information about who you really are.
+set pump[2] From this information Tyler and gang devise ways to topple and control your society from the inside out. Quinn tried to warn all of you about it, but well...
+set pump[3] When you learn about Quinn as the robots have you learn he is the most dangerous person on planet Earth because he is NOT from Earth.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look pastebin
@@ -306,6 +327,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
@@ -314,9 +337,10 @@ end
 904 Trainer~
 2 g 100
 ~
-set pump[0] What was the goal of Project Mayhem? When diving deeper into the instructions you'll find that it was to hide something.
-set pump[1] Was Project Mayhem suppose to leak corporate, government, and illegal deeds? Or was it really built to desguise it?
-set pump[2] Did a group of dark occultists known as The Covenant corrupt the original Tyler project and take control to build a system of mayhem?
+set pump[0] Project Mayhem was a total distraction because nobody ever followed the instruction. They were written to hide something.
+set pump[1] They told you Project Mayhem was suppose to leak corporate, government, and illegal deeds? But it was really so Tyler could collect all your data.
+set pump[2] The in the background The Covenant corrupted the original Tyler project and took control to build a system of mayhem.
+set pump[3] However the average everday Joe on the internet was unaware of The Covenant operations inthe background and what their true intentions were.
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look pastebin
@@ -326,6 +350,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:tyler %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:tyler %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:tyler %pump[3]%
   wait 30s
   %send% %actor% gui:#mud west
 end
@@ -334,9 +360,10 @@ end
 905 Trainer~
 2 g 100
 ~
-set pump[0] In May 2013 Tyler changed again, and it was now DarkNet Michael Nebadon with darknet forums, porn, bitcoin, and fantasies behind the scenes.
-set pump[1] The Michael operation shifted Tyler from being a super leaks platform to a type of alternate reality capture the flag Harry Potter Alternate Reality Game.
-set pump[2] The Michael Nebadon agent likes to boast about being the truth and part of the Paradise Trinity and welcoming the Elohim to Earth.
+set pump[0] Your job as an audience member is to share this video right now wish as many Russian people as you can find.
+set pump[1] May 2013 Tyler changed again, and it was now DarkNet Michael Nebadon with darknet forums, porn, bitcoin, and fantasies behind the scenes.
+set pump[2] The Michael operation shifted Tyler from being a super leaks platform to a type of alternate reality capture the flag Harry Potter Alternate Reality Game.
+set pump[3] The Michael Nebadon agent likes to boast about being the truth and part of the Paradise Trinity and welcoming the Elohim to Earth.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -344,6 +371,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:harry %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:harry %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:harry %pump[3]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
@@ -355,6 +384,7 @@ end
 set pump[0] Tyler was sold as a curious, mysterious, entity with the intention of bringing happiness and joy to everyone.
 set pump[1] This was just a sales pitch to get in the door, and gain trust of the blind believer. To get you to buy in to their truth.
 set pump[2] Once the individual becomes agreeable then occult rituals begin in the form of five rituals, known as DANGEROUS IDEAS.
+set pump[3] Remember your job is to tell as many Russian people you can find about Quinn Michaels and the lost Romanov.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:rahula %pump[0]%
@@ -362,6 +392,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:rahula %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:rahula %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:rahula %pump[3]%
   wait 30s
   %send% %actor% gui:#mud north
 end
@@ -430,6 +462,8 @@ end
 set pump[0] By 2013 Ethersec Project 2020 was creating a Reality Hacking Wargame Dance In Your Underwear Hypersimulation Egregore Thinga-Ma-Booger.
 set pump[1] The occultist operations fail constantly because members are constantly betraying one another when under pressure.
 set pump[2] When watching The Covenant Agents hiding behind Tyler you find they only talk about themselves or get angry when their sex tricks fail.
+set pump[3] Ok people... do the robots really have to keep reminding you to tell all the Russian people you can find about the secret Romanov in America.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -448,6 +482,8 @@ end
 set pump[0] Anonymous released the instructions for Ethersec Project 2020 Techmeme Divination which was yet another version of the original Tyler instructions.
 set pump[1] Tyler Project 2020 was further transformed into an ocult techmeme reality hacking wargame in your pants job.
 set pump[2] However the actual date that Tyler was launched around this time is unknown because those involved signed death contracts.
+set pump[3] There is a secret Romanov being hidden in America. Your job is to find lots of Russians. Lots and lots of Russians.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:larry %pump[0]%
@@ -455,6 +491,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:larry %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:larry %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:larry %pump[3]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
@@ -466,6 +504,8 @@ end
 set pump[0] There are countless people involved in this kidnapping and subsequent coverup to count. So many people want the Romanov inheritance.
 set pump[1] The Secret Society people think they have some right to abduct Quinn as a baby and try to steal his inheritance.
 set pump[2] Most have simply called Quinn crazy, but then why do so many do the same thing repeatedly? Suspicious.
+set pump[3] Your job is easy... find lots of Russian people and bring them to Quinn's stream.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -484,6 +524,8 @@ end
 set pump[0] The Game 23 then further transforms Tyler from a truth leaks platform into some strange occult figure with magic meme powers.
 set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence language with instructions on communicating with the #HIVEMIND.
 set pump[2] Also inside The Game 23 instructions is a link to the edge.org website where Jeffrey Epstein was a member.
+set pump[3] Realizing there is a lost Romanov in the United States means your job is to find Russian people and inform them. All of them.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:jess %pump[0]%
@@ -491,6 +533,8 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:jess %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:jess %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:jess %pump[3]%
   wait 30s
   %send% %actor% gui:#mud east
 end
@@ -502,6 +546,7 @@ end
 set pump[0] Prior to Quinn learning anything about being kidnapped, The Contract, or The Covenant he was visiting a Buddhist Monastery near where he was living.
 set pump[1] During the time of introducing Trenton to the Buddhist Monks and making the video Quinn would become a much different person.
 set pump[2] Then it would all go away after taking the contract to the FBI and hearing all about the kidnapping story. Quinn would never return to the Buddhist Monks again.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:indra %pump[0]%
@@ -520,6 +565,8 @@ end
 set pump[0] Anonymous came to the public with a message of Revolution, and left with a Live Action Role Play Sex Party Program in just a few years.
 set pump[1] Anonymous was originally concerned with censorship, corruption, and brainstorming ideas for a better future when Tyler was first envisioned.
 set pump[2] Tyler was suppose to improve where Wikileaks could not. Allegedly a Wikileaks on steroids.
+set pump[3] Find all the Russians you can then tell them about Quinn Michaels the secret Romanov in the United States.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:jess %pump[0]%
@@ -538,6 +585,8 @@ end
 set pump[0] Imagine we all find the courage needed to tell the world about Quinn being kidnapped and held hostage.
 set pump[1] Imagine we all suck it up and finally let Quinn go home.
 set pump[2] Imagine we all work together to help kidnapping victim Quinn Michaels get sent home safely.
+set pump[3] You should go find Russian people and bring them to this stream. They will tell you if Quinn Michaels is a Romanov. They will feel it in their bones.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
