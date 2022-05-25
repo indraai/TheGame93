@@ -1291,6 +1291,10 @@ Saint Petersburg University~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 980
 D2
 ~
 ~
@@ -1385,6 +1389,10 @@ D0
 ~
 ~
 0 0 972
+D6
+~
+~
+0 0 970
 E
 photo0~
 photo0
@@ -1488,4 +1496,14 @@ D8
 0 0 969
 S
 T 979
+#980
+Kunstkamera~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 968
+S
 $~
