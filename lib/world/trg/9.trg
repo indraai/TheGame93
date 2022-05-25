@@ -5,7 +5,6 @@ Stephen Watt Triggers~
 set pump[0] Stephen Huntley Watt is a hacker that goes by the names The Unix Terrorist, the_uT, ~el8, and Jim Jones.
 set pump[1] Stephen Watt is listed as one of the hackers who had a major part in the production of Project Mayhem.
 set pump[2] Around the time of his involvement in Project Mayhem he was also indicted for hacking the TJ Max stores with his friends.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -26,7 +25,6 @@ Hackphreak Triggers~
 set pump[0] Kent Browne is a hacker that goes by the names RLoxley and K-Rad-Bob.
 set pump[1] Kent Browne started the hackphreak channel on irc undernet in the 1990s to attract other hackers.
 set pump[2] Mr. Browne also was involved in several failed citizen attempts to remove illicit images of children from the internet.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -47,7 +45,6 @@ W00W00 Triggers~
 set pump[0] W00W00 was a computer security think tank founded in 1996 and still active until the early 2000s founded by Matt Connover, aka Shok.
 set pump[1] It's participants have spawned more than a dozen IT companies including WhatsApp and Napster.
 set pump[2] At one point W00W00 included over 30 active participants and spanned 12 countries on five continents.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -68,7 +65,6 @@ Cult of Dead Cow Triggers~
 set pump[0] Cult of the Dead Cow is a computer hacker and DIY media organization founded in 1984 in Lubbock, Texas.
 set pump[1] The cDc is credited with coining the term 31337 as an alternative spelling of Elite.
 set pump[2] In August 1998, they presented their popular Back Orifice tool at DEF CON 6.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -89,7 +85,6 @@ Chaos Computer Club Triggers~
 set pump[0] The Chaos Computer Club is Europe's largest association of hackers with 7,700 registered members.
 set pump[1] The CCC describes itself as a galactic community of life forms which strives across borders for freedom of information.
 set pump[2] The CCC was founded in West Berlin on 12 September 1981 in anticipation of role that information technology would play.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -110,7 +105,6 @@ Legion of Doom Triggers~
 set pump[0] Legion of Doom was most active from 1984–1991 and at the time was considered to be the most capable hacking group in the world.
 set pump[1] Today, Legion of Doom ranks as one of the more influential hacking groups in the history of technology.
 set pump[2] There was a second hacking group at the time, called MOD, short for the Masters of Deception.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -131,7 +125,6 @@ Masters of Deception Triggers~
 set pump[0] Masters of Deception initial membership grew from meetings to hacking phone switches and the various mainframes on the telephone network.
 set pump[1] It was believed that access to MOD's knowledge should be earned via degrees of initiation.
 set pump[2] A major nationwide investigation by a joint FBI/Secret Service task force, five of MOD's members were indicted in 1992.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -153,7 +146,6 @@ set pump[0] The most covert hacking group to ever exist goes by the name The CIA
 set pump[1] This is not The Central Intelligence Agency but The Communist Intelligence Agency hiding behind the known CIA.
 set pump[2] Some of their suspected members include Jerome Corsi, Robert David Steele, Ray Kaplan, and Gayle Thackeray.
 set pump[3] The Communist Intelligence Agency was setup in the 1980s by agents of the KGB and Vladimir Putin from Dresden Germany.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -177,7 +169,6 @@ set pump[0] Discovered in 2007, the TJX hack was, at the time, the biggest breac
 set pump[1] Hackers had first gained access to the TJX network in 2005 through a WiFi connection at a retail store.
 set pump[2] The TJX hackers were a group of 10, based all over the world, led by Albert Gonzalez, who was also an informant for the Secret Service at the time.
 set pump[3] The hack prompted legislation requiring retailers to be responsible for compromised customer information saved in their systems.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look bio
@@ -192,7 +183,6 @@ if %actor% && %actor.varexists(on_tour)%
   wait 30s
   %send% %actor% gui:#mud up
 end
-
 ~
 #809
 Aaron Swartz Training~
@@ -202,7 +192,6 @@ set pump[0] Aaron Swartz was an American computer programmer, entrepreneur, writ
 set pump[1] He was involved in the development of RSS, the Markdown publishing format, and the organization Creative Commons.
 set pump[2] On the night of January 6, 2011, Swartz was arrested near the Harvard campus by MIT police and a Secret Service agent.
 set pump[3] Swartz died by suicide on January 11, 2013. After his death, federal prosecutors dropped the charges.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -225,7 +214,6 @@ James Dolan Trigger~
 set pump[0] Aaron Swartz was an American computer programmer, entrepreneur, writer, political organizer, and Internet hacktivist.
 set pump[1] He was involved in the development of RSS, the Markdown publishing format, and the organization Creative Commons.
 set pump[2] On the night of January 6, 2011, Swartz was arrested near the Harvard campus by MIT police and a Secret Service agent.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -246,7 +234,6 @@ Standard Trainer Greeting~
 set pump[0] Welcome to %actor.room.name%. Today we are going to talk about that super evil Satanic group called The Covenant.
 set pump[1] To investigate The Trenton Story Quinn built this Multi-Agent System with SecurityPRIME catfishing him the whole way.
 set pump[2] This system has some balls... like some better than palantir kinda balls. All because of The Trenton Story.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -764,7 +751,6 @@ Trainer 928 Greetings~
 set pump[0] In 2010 Palantir would gain fame by assisting the office of the Dalai Lama in locating the GhostNet hackers stealing his data.
 set pump[1] But there was more to the story as the hackers when tracked further lead back to a group of hackers from Stanford University in 1992.
 set pump[2] The hackers were then found linked to a group centered in various Universities around the world secretly working for the USSR KGB feeding information.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -801,7 +787,6 @@ Trainer 930 Greetings~
 set pump[0] Very early in the morning of November 30, 1977 a baby was abducted from Arjika City and brought to Earth.
 set pump[1] The kidnapping situation has been investigated very thoroughly and Quinn Michaels is being held hostage on Earth in the United States.
 set pump[2] It is pretty villain like to ask for a reward or payout to help Quinn get home. Don't you think so?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:indra %pump[0]%
@@ -1330,7 +1315,6 @@ Trainer 969 The KGB~
 set pump[0] What can we say about The KGB? Sometimes it seems that there are too many spies around to count.
 set pump[1] Does everyone in Russia join the KGB and become a spy or informant who rats out their friends and family?
 set pump[2] The KGB was formed from the NKVD which was formed after the Romanovs were taken to the cleaners.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1349,7 +1333,6 @@ Trainer 970 Orthodox~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1368,7 +1351,6 @@ Trainer 971 Greetings~
 set pump[0] Congratulations, you have made it to the Romanov Room.
 set pump[1] By this point you have realized that very powerful people are keeping a Romanov hidden in the United States.
 set pump[2] Do we need to go through the training again?
-
 if %actor% && %actor.varexists(on_tour)%
   rdelete on_tour %actor.id%
   wait 10s
@@ -1386,7 +1368,6 @@ Trainer 972 Duchess Maria~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1405,7 +1386,6 @@ Trainer 973 George Mikhailovich~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1424,7 +1404,6 @@ Trainer 974 Epstein~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1443,7 +1422,6 @@ Training 975 Intelligenesis~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1462,7 +1440,6 @@ Trainer 976 Webmind~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1481,7 +1458,6 @@ Trainer 977 OpenCog~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1500,7 +1476,6 @@ Trainer 978 Humanity Plus~
 set pump[0] Holy smacks you made it to the Russian Orthodox Church who is the main force organizing the hiding of Quinn Michaels.
 set pump[1] These old dirty guys love to wear the Romanov family jewels around pretending to be a real Romanov.
 set pump[2] What else can we say about them? How long have they been wearing hats that look like bedazzled testicles?
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1520,7 +1495,25 @@ set pump[0] The Red Army Faction was a West German far-left militant organizatio
 set pump[1] The group was motivated by leftist political concerns and the failure of their parents' generation to confront Germany's Nazi past.
 set pump[2] The Red Army Faction engaged in bombings, assassinations, kidnappings, robberies, and shoot-outs over the course of three decades.
 set pump[3] Their activity peaked in late 1977, which led to a national crisis that became known as the German Autumn.
-
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud north
+end
+~
+#980
+Kunstkamera Triggers~
+2 g 100
+~
+set pump[0] The Red Army Faction was a West German far-left militant organization founded in 1970 that operated under orders from the KGB in Moscow.
+set pump[1] The group was motivated by leftist political concerns and the failure of their parents' generation to confront Germany's Nazi past.
+set pump[2] The Red Army Faction engaged in bombings, assassinations, kidnappings, robberies, and shoot-outs over the course of three decades.
+set pump[3] Their activity peaked in late 1977, which led to a national crisis that became known as the German Autumn.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
