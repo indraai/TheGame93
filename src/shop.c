@@ -45,6 +45,8 @@ const char *trade_letters[] = {
         "Medical",
         "Security",
         "Military",
+        "Monk",
+        "Priest",
         "Royal",
         "\n"
 };

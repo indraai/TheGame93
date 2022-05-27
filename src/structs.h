@@ -160,10 +160,12 @@
 #define CLASS_MEDICAL        10 // LAWYER
 #define CLASS_SECURITY       11 // LAWYER
 #define CLASS_MILITARY       12 // MILITARY
-#define CLASS_ROYAL          13 // MILITARY
+#define CLASS_MONK           13 // MILITARY
+#define CLASS_PRIEST         14 // MILITARY
+#define CLASS_ROYAL          15 // MILITARY
 
 /** Total number of available Classes */
-#define NUM_CLASSES	         14
+#define NUM_CLASSES	         16
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
@@ -432,35 +434,37 @@
 #define NUM_ITEM_WEARS        15
 
 /* Extra object flags: used by obj_data.obj_flags.extra_flags */
-#define ITEM_GLOW              0   /**< Item is glowing */
-#define ITEM_HUM               1   /**< Item is humming */
-#define ITEM_INVISIBLE         2   /**< Item is invisible */
-#define ITEM_MAGIC             3   /**< Item is magical */
-#define ITEM_BLESS             4   /**< Item is blessed */
-#define ITEM_ANTI_GOOD         5   /**< Not usable by good people	*/
-#define ITEM_ANTI_EVIL         6   /**< Not usable by evil people	*/
-#define ITEM_ANTI_NEUTRAL      7   /**< Not usable by neutral people */
-#define ITEM_ANTI_CITIZEN      8   /**< Not usable by sarya */
-#define ITEM_ANTI_ADVENTURER   9   /**< Not usable by adventurers */
-#define ITEM_ANTI_ARTIST      10   /**< Not usable by priests */
-#define ITEM_ANTI_SCIENTIST	  11   /**< Not usable by indu */
-#define ITEM_ANTI_ENGINEER    12   /**< Not usable by soma */
-#define ITEM_ANTI_PROGRAMMER  13   /**< Not usable by sarya */
-#define ITEM_ANTI_HACKER      14   /**< Not usable by sarya */
-#define ITEM_ANTI_JOURNALIST  15   /**< Not usable by sarya */
-#define ITEM_ANTI_LAWYER      16   /**< Not usable by sarya */
-#define ITEM_ANTI_POLITICIAN  17   /**< Not usable by sarya */
-#define ITEM_ANTI_MEDICAL     18   /**< Not usable by sarya */
-#define ITEM_ANTI_MILITARY    19   /**< Not usable by sarya */
-#define ITEM_ANTI_ROYAL       20   /**< Not usable by sarya */
-#define ITEM_NOSELL           21   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP           22    /**< Item is cursed: can't drop */
-#define ITEM_NORENT           23    /**< Item cannot be rented */
-#define ITEM_NODONATE         24    /**< Item cannot be donated */
-#define ITEM_NOINVIS          25    /**< Item cannot be made invis	*/
-#define ITEM_QUEST            26   /**< Item is a quest item         */
+#define ITEM_GLOW               0   /**< Item is glowing */
+#define ITEM_HUM                1   /**< Item is humming */
+#define ITEM_INVISIBLE          2   /**< Item is invisible */
+#define ITEM_MAGIC              3   /**< Item is magical */
+#define ITEM_BLESS              4   /**< Item is blessed */
+#define ITEM_ANTI_GOOD          5   /**< Not usable by good people	*/
+#define ITEM_ANTI_EVIL          6   /**< Not usable by evil people	*/
+#define ITEM_ANTI_NEUTRAL       7   /**< Not usable by neutral people */
+#define ITEM_ANTI_CITIZEN       8   /**< Not usable by sarya */
+#define ITEM_ANTI_ADVENTURER    9   /**< Not usable by adventurers */
+#define ITEM_ANTI_ARTIST        10   /**< Not usable by priests */
+#define ITEM_ANTI_SCIENTIST	    11   /**< Not usable by indu */
+#define ITEM_ANTI_ENGINEER      12   /**< Not usable by soma */
+#define ITEM_ANTI_PROGRAMMER    13   /**< Not usable by sarya */
+#define ITEM_ANTI_HACKER        14   /**< Not usable by sarya */
+#define ITEM_ANTI_JOURNALIST    15   /**< Not usable by sarya */
+#define ITEM_ANTI_LAWYER        16   /**< Not usable by sarya */
+#define ITEM_ANTI_POLITICIAN    17   /**< Not usable by sarya */
+#define ITEM_ANTI_MEDICAL       18   /**< Not usable by sarya */
+#define ITEM_ANTI_MILITARY      19   /**< Not usable by sarya */
+#define ITEM_ANTI_MONK          20   /**< Not usable by sarya */
+#define ITEM_ANTI_PRIEST        21   /**< Not usable by sarya */
+#define ITEM_ANTI_ROYAL         22   /**< Not usable by sarya */
+#define ITEM_NOSELL             23   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP             24    /**< Item is cursed: can't drop */
+#define ITEM_NORENT             25    /**< Item cannot be rented */
+#define ITEM_NODONATE           26    /**< Item cannot be donated */
+#define ITEM_NOINVIS            27    /**< Item cannot be made invis	*/
+#define ITEM_QUEST              28   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS        27
+#define NUM_ITEM_FLAGS          29
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/
@@ -473,81 +477,81 @@
 #define APPLY_CLASS             7	/**< Reserved			*/
 #define APPLY_LEVEL             8	/**< Reserved			*/
 #define APPLY_AGE               9	/**< Apply to age			*/
-#define APPLY_CHAR_WEIGHT      10	/**< Apply to weight		*/
-#define APPLY_CHAR_HEIGHT      11	/**< Apply to height		*/
-#define APPLY_MANA             12	/**< Apply to max mana		*/
-#define APPLY_HIT              13	/**< Apply to max hit points	*/
-#define APPLY_MOVE             14	/**< Apply to max move points	*/
-#define APPLY_GOLD             15	/**< Reserved			*/
-#define APPLY_EXP              16	/**< Reserved			*/
-#define APPLY_AC               17	/**< Apply to Armor Class		*/
-#define APPLY_HITROLL          18	/**< Apply to hitroll		*/
-#define APPLY_DAMROLL          19	/**< Apply to damage roll		*/
-#define APPLY_SAVING_PARA      20	/**< Apply to save throw: paralysis	*/
-#define APPLY_SAVING_ROD       21	/**< Apply to save throw: rods	*/
-#define APPLY_SAVING_PETRI     22	/**< Apply to save throw: petrif	*/
-#define APPLY_SAVING_BREATH    23	/**< Apply to save throw: breath	*/
-#define APPLY_SAVING_SPELL     24	/**< Apply to save throw: spells	*/
+#define APPLY_CHAR_WEIGHT       10	/**< Apply to weight		*/
+#define APPLY_CHAR_HEIGHT       11	/**< Apply to height		*/
+#define APPLY_MANA              12	/**< Apply to max mana		*/
+#define APPLY_HIT               13	/**< Apply to max hit points	*/
+#define APPLY_MOVE              14	/**< Apply to max move points	*/
+#define APPLY_GOLD              15	/**< Reserved			*/
+#define APPLY_EXP               16	/**< Reserved			*/
+#define APPLY_AC                17	/**< Apply to Armor Class		*/
+#define APPLY_HITROLL           18	/**< Apply to hitroll		*/
+#define APPLY_DAMROLL           19	/**< Apply to damage roll		*/
+#define APPLY_SAVING_PARA       20	/**< Apply to save throw: paralysis	*/
+#define APPLY_SAVING_ROD        21	/**< Apply to save throw: rods	*/
+#define APPLY_SAVING_PETRI      22	/**< Apply to save throw: petrif	*/
+#define APPLY_SAVING_BREATH     23	/**< Apply to save throw: breath	*/
+#define APPLY_SAVING_SPELL      24	/**< Apply to save throw: spells	*/
 /** Total number of applies */
-#define NUM_APPLIES            25
+#define NUM_APPLIES             25
 
 /* Equals the total number of SAVING_* defines in spells.h */
-#define NUM_OF_SAVING_THROWS  5
+#define NUM_OF_SAVING_THROWS    5
 
 /* Container flags - value[1] */
-#define CONT_CLOSEABLE        (1 << 0)	/**< Container can be closed	*/
-#define CONT_PICKPROOF        (1 << 1)	/**< Container is pickproof	*/
-#define CONT_CLOSED           (1 << 2)	/**< Container is closed		*/
-#define CONT_LOCKED           (1 << 3)	/**< Container is locked		*/
+#define CONT_CLOSEABLE          (1 << 0)	/**< Container can be closed	*/
+#define CONT_PICKPROOF          (1 << 1)	/**< Container is pickproof	*/
+#define CONT_CLOSED             (1 << 2)	/**< Container is closed		*/
+#define CONT_LOCKED             (1 << 3)	/**< Container is locked		*/
 
 /* Some different kind of liquids for use in values of drink containers */
-#define LIQ_WATER      0   /**< Liquid type water */
-#define LIQ_ORANGE     1   /** < Liquid type ORANGE JUICE */
-#define LIQ_APPLE      2   /** < Liquid type APPLE JUICE */
-#define LIQ_GRAPE      3   /** < Liquid type GRAPE JUICE */
-#define LIQ_MANGO      4   /** < Liquid type MANGO JUICE */
-#define LIQ_TROPICAL   5   /** < Liquid type TROPICAL ICED TEA */
-#define LIQ_PASSION    6   /** < Liquid type PASSIONFRUIT ICED TEA */
-#define LIQ_LEMONAID   7   /** < Liquid type LEMONAID */
-#define LIQ_LIMEAID    8   /** < Liquid type LIMEAID */
-#define LIQ_MILK       9  /**< Liquid type MILK */
-#define LIQ_CHOCOLATE  10   /** < Liquid CHOCOLATE MILK */
-#define LIQ_HOTCHOC    11   /** < Liquid CHOCOLATE MILK */
-#define LIQ_WHITETEA   12  /**< Liquid WHITE TEA */
-#define LIQ_GREENTEA   13  /**< Liquid GREEN TEA */
-#define LIQ_BLACKTEA   14  /**< Liquid type BLACK TEA */
-#define LIQ_HERBTEA    15  /**< Liquid type BLACK TEA */
-#define LIQ_SALTWATER  16  /**< Liquid type saltwater */
-#define LIQ_RASAKUNDA  17  /**< Liquid type PEPSI-COLA */
-#define LIQ_SOMA       18  /**< Liquid type PEPSI-COLA */
+#define LIQ_WATER               0   /**< Liquid type water */
+#define LIQ_ORANGE              1   /** < Liquid type ORANGE JUICE */
+#define LIQ_APPLE               2   /** < Liquid type APPLE JUICE */
+#define LIQ_GRAPE               3   /** < Liquid type GRAPE JUICE */
+#define LIQ_MANGO               4   /** < Liquid type MANGO JUICE */
+#define LIQ_TROPICAL            5   /** < Liquid type TROPICAL ICED TEA */
+#define LIQ_PASSION             6   /** < Liquid type PASSIONFRUIT ICED TEA */
+#define LIQ_LEMONAID            7   /** < Liquid type LEMONAID */
+#define LIQ_LIMEAID             8   /** < Liquid type LIMEAID */
+#define LIQ_MILK                9  /**< Liquid type MILK */
+#define LIQ_CHOCOLATE           10   /** < Liquid CHOCOLATE MILK */
+#define LIQ_HOTCHOC             11   /** < Liquid CHOCOLATE MILK */
+#define LIQ_WHITETEA            12  /**< Liquid WHITE TEA */
+#define LIQ_GREENTEA            13  /**< Liquid GREEN TEA */
+#define LIQ_BLACKTEA            14  /**< Liquid type BLACK TEA */
+#define LIQ_HERBTEA             15  /**< Liquid type BLACK TEA */
+#define LIQ_SALTWATER           16  /**< Liquid type saltwater */
+#define LIQ_RASAKUNDA           17  /**< Liquid type PEPSI-COLA */
+#define LIQ_SOMA                18  /**< Liquid type PEPSI-COLA */
 /** Total number of liquid types */
-#define NUM_LIQ_TYPES  19
+#define NUM_LIQ_TYPES           19
 
 /* other miscellaneous defines */
 /* Player conditions */
-#define DRUNK          0  /**< Player drunk condition */
-#define HUNGER         1  /**< Player hunger condition */
-#define THIRST         2  /**< Player thirst condition */
+#define DRUNK                   0  /**< Player drunk condition */
+#define HUNGER                  1  /**< Player hunger condition */
+#define THIRST                  2  /**< Player thirst condition */
 
 /* Sun state for weather_data */
-#define SUN_DARK	     0  /**< Night time */
-#define SUN_RISE	     1  /**< Dawn */
-#define SUN_LIGHT	     2  /**< Day time */
-#define SUN_SET		     3  /**< Dusk */
+#define SUN_DARK	              0  /**< Night time */
+#define SUN_RISE	              1  /**< Dawn */
+#define SUN_LIGHT	              2  /**< Day time */
+#define SUN_SET		              3  /**< Dusk */
 
 /* Sky conditions for weather_data */
-#define SKY_CLOUDLESS  0  /**< Weather = No clouds */
-#define SKY_CLOUDY     1  /**< Weather = Cloudy */
-#define SKY_RAINING    2  /**< Weather = Rain */
-#define SKY_LIGHTNING  3  /**< Weather = Lightning storm */
+#define SKY_CLOUDLESS           0  /**< Weather = No clouds */
+#define SKY_CLOUDY              1  /**< Weather = Cloudy */
+#define SKY_RAINING             2  /**< Weather = Rain */
+#define SKY_LIGHTNING           3  /**< Weather = Lightning storm */
 
 /* Rent codes */
-#define RENT_UNDEF      0 /**< Character inv save status = undefined */
-#define RENT_CRASH      1 /**< Character inv save status = game crash */
-#define RENT_RENTED     2 /**< Character inv save status = rented */
-#define RENT_CRYO       3 /**< Character inv save status = cryogenics */
-#define RENT_FORCED     4 /**< Character inv save status = forced rent */
-#define RENT_TIMEDOUT   5 /**< Character inv save status = timed out */
+#define RENT_UNDEF              0 /**< Character inv save status = undefined */
+#define RENT_CRASH              1 /**< Character inv save status = game crash */
+#define RENT_RENTED             2 /**< Character inv save status = rented */
+#define RENT_CRYO               3 /**< Character inv save status = cryogenics */
+#define RENT_FORCED             4 /**< Character inv save status = forced rent */
+#define RENT_TIMEDOUT           5 /**< Character inv save status = timed out */
 
 /* Settings for Bit Vectors */
 #define RF_ARRAY_MAX    4  /**< # Bytes in Bit vector - Room flags */

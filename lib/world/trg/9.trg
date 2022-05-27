@@ -267,20 +267,21 @@ end
 set pump[0] The Trenton Story is about a kid named Trenton who told his dad Quinn a really messed up story in 2015. Remember it is 2022 and Trenton is now an adult.
 set pump[1] Quinn was not really around Trenton much as a child, but when he was it was all about The Family Game where people were tryin to destroy Quinn's life in SECRET.
 set pump[2] What seems impossible to understand is not very difficult when you watch this Youtube Channel. Those same people come here everyday to do this to Quinn.
-set pump[3] Quinn doesn't really care for his life anymore. Doesn't really care if he is a Romanov. Doesn't even really care if he ever sees Trenton again.
-set pump[4] Quinn only thinks about one thing really... getting home to where he came from, and then hiding away from people for the remainder of his life.
+set pump[3] Quinn doesn't really care for his life anymore. Doesn't really care if he is a Romanov. Doesn't even really believe he will ever see Trenton again.
 
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
+  %send% %actor% gui:#mud > look video
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
+  %send% %actor% gui:#mud > look rahula
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
+  %send% %actor% gui:#mud > look water
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 15s
+  %send% %actor% gui:#mud > look trenton
   %send% %actor% talk:#corpus chat:brian %pump[3]%
-  wait 15s
-  %send% %actor% talk:#corpus chat:brian %pump[4]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end

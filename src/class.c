@@ -39,6 +39,8 @@ const char *class_abbrevs[] = {
   "Se",
   "Me",
   "Mi",
+  "Mo",
+  "Pr",
   "Ro",
   "\n"
 };
@@ -57,6 +59,8 @@ const char *class_types[] = {
   "Medical",
   "Security",
   "Military",
+  "Monk",
+  "Priest",
   "Royal",
   "\n"
 };
@@ -78,7 +82,9 @@ const char *class_menu =
 "\nmenu[Medical]:j"
 "\nmenu[Security]:l"
 "\nmenu[Military]:m\r"
-"\nmenu[Royal]:n\m";
+"\nmenu[Monk]:n\r"
+"\nmenu[Priest]:o\r"
+"\nmenu[Royal]:p\m";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -100,7 +106,9 @@ int parse_class(char arg)
   case 'k': return CLASS_MEDICAL;       // medical
   case 'l': return CLASS_SECURITY;      // security
   case 'm': return CLASS_MILITARY;      // military
-  case 'n': return CLASS_ROYAL;         // royal
+  case 'n': return CLASS_MONK;          // monk
+  case 'o': return CLASS_PRIEST;        // priest
+  case 'p': return CLASS_ROYAL;         // royal
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -1626,6 +1634,12 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MILITARY) && IS_MILITARY(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_PREIST) && IS_PREIST(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_ROYAL) && IS_ROYAL(ch))
