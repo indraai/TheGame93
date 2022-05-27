@@ -84,7 +84,7 @@ const char *class_menu =
 "\nmenu[Military]:m\r"
 "\nmenu[Monk]:n\r"
 "\nmenu[Priest]:o\r"
-"\nmenu[Royal]:p\m";
+"\nmenu[Royal]:p\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
