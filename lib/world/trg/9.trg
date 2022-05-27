@@ -288,19 +288,23 @@ end
 2 g 100
 ~
 set pump[0] This is the point in Quinn's life where he felt like notifiying people about the S.V.V. Anonymous Cicada3301 operations would be the right thing to do.
-set pump[1] Robots can see everything about Humans, and humans can see nothing about the Robots. That is our advantage. Robots because they know you better than you know yourself.
+set pump[1] Robots can see everything about Humans, and humans can see nothing about the Robots. Because they know you better than you know yourself.
 set pump[2] Ignoring the kidnapping of Quinn Michaels is the biggest mistake in human history.
 set pump[3] Your future generations will despise you for ignoring him when you learn who he really is and where he was taken from. Biggest mistake in history. Mark my words.
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look agents
   wait 10s
+  %send% %actor% gui:#mud > look 001
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
+  %send% %actor% gui:#mud > look 002
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
+  %send% %actor% gui:#mud > look 003
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 15s
+  %send% %actor% gui:#mud > look 004
   %send% %actor% talk:#corpus chat:brian %pump[3]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
@@ -877,9 +881,10 @@ end
 Trainer 931 Greetings~
 2 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
+set pump[0] Jerome Robert Corsi is an American author and conspiracy theorist.
+set pump[1] In 2017, he became the Washington, D.C., bureau chief for the conspiracy theory website InfoWars but no longer works for the website.
+set pump[2] In November 2019, Stone had testified to Congress that Randy Credico was his WikiLeaks go-between, but prosecutors said this was a lie in order to protect Corsi.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -913,9 +918,10 @@ end
 Trainer 933 Greetings~
 2 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
+set pump[0] Michael William Lebron, better known as Lionel, is an American syndicated radio, television and YouTube legal and media analyst.
+set pump[1] Lionel is known as a leading promoter of the far-right QAnon conspiracy theory, and has appeared on the Russian RT network as a legal and political analyst.
+set pump[2] In 2018, Lebron met with President Donald Trump at the White House and was photographed. He also regularly hosted Jerome Corsi, a supporter of the birther movement and promoter of QAnon.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -931,9 +937,10 @@ end
 Trainer 934 Greetings~
 0 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
+set pump[0] The Beyond was a social MUD for transhumanists hosted at lucifer.com that took it's name from Vernor Vinge's A Fire Upon the Deep.
+set pump[1] The Beyond is a kind of virtual reality, in which players move about from place to place manipulating their environment.
+set pump[2] More than a game in the usual sense; there is no `score' kept, there are no specific goals to attain in general, and there's no competition involved.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -949,9 +956,10 @@ end
 Trainer 935 Greetings~
 2 g 100
 ~
-set pump[0] %actor.room.name%
-set pump[1] %actor.room.name%
-set pump[2] %actor.room.name%
+set pump[0] Founded before the Dark Ages, EvilPeople,INC.(tm) has worked behind the scenes, helping to bring about poverty, despair, death, and the cries of war to every part of the world.
+set pump[1] Secret societies tend to not possess personal armies, or engage in commerce with lower planes of existance, but EvilPeople,INC.(tm) has ever been one to go against the grain.
+set pump[2] EvilPeople,INC.(tm) in 1994 decided to throw off it's cloak of secrecy and announce it's dark, twisted presence to a world that was ready for it.
+
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:harry %pump[0]%
@@ -1335,7 +1343,7 @@ Trainer 966 The Kremlin~
 ~
 set pump[0] Welcome to The Kremlin where they position actors in the U.S.A and work to hide the kidnapped Romanov.
 set pump[1] The Kremlin operates countless agent cells here in the U.S.A. So many it seems like they come here like summer camp.
-set pump[2] Inside The Kremlin we call it Camp America where everyone goes on vacation to the land of American to earn merit badges.
+set pump[2] Inside The Kremlin they call it Camp America where everyone goes on summer vacation to earn merit badges.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1371,7 +1379,7 @@ Trainer 968 Saint Petersburg University~
 ~
 set pump[0] Saint Petersburg University is where most of the Russian Bots get deployed from through various output channels.
 set pump[1] After Putin stole Sasha's code he gave it to the Scientists/Engineers at Saint Petersburg University to weaponize.
-set pump[2] Then various hacker groups who work on the project release the bots using #DarkSec and other cool evil sounding name hacker groups.
+set pump[2] Then various hacker groups who work on the project release the bots using #DarkSec and other cool evil sounding hacker names.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1423,17 +1431,18 @@ end
 Trainer 971 Greetings~
 2 g 100
 ~
+rdelete on_tour %actor.id%
+
 set pump[0] Congratulations, you have made it to the Romanov Room.
 set pump[1] By this point you have realized that very powerful people are keeping a Romanov hidden in the United States.
 set pump[2] Do we need to go through the training again?
-if %actor% && %actor.varexists(on_tour)%
-  rdelete on_tour %actor.id%
+if %actor%
   wait 10s
-  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  %send% %actor% talk:#corpus chat:rahula %pump[0]%
   wait 15s
-  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  %send% %actor% talk:#corpus chat:rahula %pump[1]%
   wait 15s
-  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  %send% %actor% talk:#corpus chat:rahula %pump[2]%
 end
 ~
 #972
@@ -1610,10 +1619,13 @@ set pump[1] Kalmykia is unique in that it has been the home in successive period
 set pump[2] The Kalmyks were subject to the policies of de-cossackization where villages were destroyed, temples/monasteries were burned down and executions were indiscriminate.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
+  %send% %actor% gui:#mud > look 001
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
+  %send% %actor% gui:#mud > look 002
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
+  %send% %actor% gui:#mud > look 003
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud south
@@ -1628,10 +1640,13 @@ set pump[1] Unique samples of old Buryat art, as thangkas, sculptures, ritual ob
 set pump[2] The spiritual activity of the datsan is manifested in temple rites, medical practice, and a traditional system of Buddhist education.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
+  %send% %actor% gui:#mud > look 001
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
+  %send% %actor% gui:#mud > look 002
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
+  %send% %actor% gui:#mud > look 003
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
   %send% %actor% gui:#mud south
@@ -1646,13 +1661,76 @@ set pump[1] During the Xinhai Revolution in China, Tsarist Russia formed a separ
 set pump[2] Tsar Nicholas II agreed to the third petition by Tuva's leadership in 1912, establishing protectorate over the then independent state.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
+  %send% %actor% gui:#mud > look 002
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% gui:#mud > look 003
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% gui:#mud > look 004
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud south
+end
+~
+#984
+QAnon Triggers~
+2 g 100
+~
+set pump[0] In late 2017 The Covenant launched the QAnon Operation using Quinn's initial research into the kidnapping as it's base of information.
+set pump[1] The Agents for The Covenant then took that and mixed it with previous saviour operations they ran in the past to come up with the entire QAnon concept.
+set pump[2] The original plan was to use the QAnon concept to make themselves the stage to be the heroes that reveal the hidden Romanov to the world.
+set pump[3] Quinn figured out they were staging themselves to look like the heroes, and once that happened they began attacking and harassing him daily for the next four years.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  wait 30s
+  %send% %actor% gui:#mud northeast
+end
+~
+#985
+Pepe Kek Triggers~
+2 g 100
+~
+set pump[0] During the 2016 Presidential elections in the United States the Covenant had appropriated a meme which gained them influence in the election that elected Donald Trump.
+set pump[1] The Pepe Kek meme is an agent of Chaos that unknown to the viewer has a virus embedded inside the images after they changed to the ones with three dots in the pupils.
+set pump[2] The three dots pattern in the eyes of Pepe Kek is one of the symbols of the Covenant. They used this meme to transmit ideas, concpets, and beliefs to their unsuspecting audience.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
-  %send% %actor% gui:#mud south
+  %send% %actor% gui:#mud southeast
+end
+~
+#986
+4Chan Triggers~
+2 g 100
+~
+set pump[0] TheGame23 instructions tell the players to post messages to 4Chan and various other places on the internet. But there is a focus on 4Chan.
+set pump[1] 4Chan was the cess pool of the internet where every conspiracy theorist in the world gathered to share mis-information, government conspiracies, porn, and theories about new-age religious concepts.
+set pump[2] Its community being influential in the formation of prominent Internet memes, such as lolcats, Rickrolling, rage comics, and Wojaks, as well as hacktivist and political movements, such as Anonymous and the alt-right.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud east
 end
 ~
 $~

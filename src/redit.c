@@ -318,11 +318,13 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
 
   clear_screen(d);
   write_to_output(d,
-    "\n## Tags"
-	  "\nselect[1:keywords]:%s"
-	  "\nselect[2:describe]:%s"
-    "\nmenu[next tag]:3"
-    "\nmenu[done]:0",
+    "\n## Tags\r"
+	  "\nselect[1:keywords]:%s\r"
+	  "\nselect[2:describe]:%s\r"
+    "\n::begin:buttons\r"
+    "\nbmud[next tag]:3\r"
+    "\n::end:buttons\r"
+    "\nmenu[done]:0\r",
 	  extra_desc->keyword ? extra_desc->keyword : "[none]",
     extra_desc->description ? extra_desc->description : "[none]"
     // !extra_desc->next ? "not set..." : "set..."
