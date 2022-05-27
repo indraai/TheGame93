@@ -624,12 +624,6 @@ set pump[0] Robert David Steele was a self-proclaimed ex-CIA Agent who promotes 
 set pump[1] However it was found that long ago in the early 1990s Robert David Steele was a speaker at various Hacker Conferences around the world.
 set pump[2] Robert David Steele was also found to be connected to some of the top YouTubers that are in some cases still pushing his narratives.
 
-set dir[0] north
-set dir[1] northeast
-set dir[2] east
-
-eval godir
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
