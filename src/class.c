@@ -1639,7 +1639,7 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MONK) && IS_MONK(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_PREIST) && IS_PREIST(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_PRIEST) && IS_PRIEST(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_ROYAL) && IS_ROYAL(ch))
