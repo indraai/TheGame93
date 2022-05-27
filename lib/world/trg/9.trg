@@ -1383,9 +1383,9 @@ end
 Trainer 968 Saint Petersburg University~
 2 g 100
 ~
-set pump[0] Saint Petersburg University is where most of the Russian Bots get deployed from through various means.
-set pump[1] After Putin stole Sasha's code he gave it to the Scientists/Engineers at Saint Petersburg University.
-set pump[2] Then various hacker groups who work on the project release the bots under #DarkSec and other cool evil sounding names.
+set pump[0] Saint Petersburg University is where most of the Russian Bots get deployed from through various output channels.
+set pump[1] After Putin stole Sasha's code he gave it to the Scientists/Engineers at Saint Petersburg University to weaponize.
+set pump[2] Then various hacker groups who work on the project release the bots using #DarkSec and other cool evil sounding name hacker groups.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1591,18 +1591,19 @@ if %actor% && %actor.varexists(on_tour)%
   %send% %actor% talk:#corpus chat:brian %pump[1]%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[3]%
   wait 30s
-  %send% %actor% gui:#mud north
+  %send% %actor% gui:#mud %random.dir%
 end
 ~
 #980
 Kunstkamera Triggers~
 2 g 100
 ~
-set pump[0] The Red Army Faction was a West German far-left militant organization founded in 1970 that operated under orders from the KGB in Moscow.
-set pump[1] The group was motivated by leftist political concerns and the failure of their parents' generation to confront Germany's Nazi past.
-set pump[2] The Red Army Faction engaged in bombings, assassinations, kidnappings, robberies, and shoot-outs over the course of three decades.
-set pump[3] Their activity peaked in late 1977, which led to a national crisis that became known as the German Autumn.
+set pump[0] The Kunstkamera is the Peter the Great Museum of Antrhopology and Ethnogrphay in Saint Petersberg Russia.
+set pump[1] The Museum houses a vast collection of relics from civilizations around the world that Peter the Great had collected.
+set pump[2] The most amazing artifact though has been the identification of the ancient Rigveda shell called the Panchajanya.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1611,7 +1612,64 @@ if %actor% && %actor.varexists(on_tour)%
   wait 15s
   %send% %actor% talk:#corpus chat:brian %pump[2]%
   wait 30s
-  %send% %actor% gui:#mud north
+  %send% %actor% gui:#mud east
+end
+~
+#981
+Kalmykia Triggers~
+2 g 100
+~
+set pump[0] The republic is home to the Kalmyks, a people of Mongol origin who are primarily of Buddhist faith.
+set pump[1] Kalmykia is unique in that it has been the home in successive periods to many major world religions and ideologies.
+set pump[2] The Kalmyks were subject to the policies of de-cossackization where villages were destroyed, temples/monasteries were burned down and executions were indiscriminate.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud south
+end
+~
+#982
+Ivolginsky Datsan Triggers~
+2 g 100
+~
+set pump[0] The republic is home to the Kalmyks, a people of Mongol origin who are primarily of Buddhist faith.
+set pump[1] Unique samples of old Buryat art, as thangkas, sculptures, ritual objects are gathered and preserved at the Ivolginsky datsan.
+set pump[2] The spiritual activity of the datsan is manifested in temple rites, medical practice, and a traditional system of Buddhist education.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud south
+end
+~
+#983
+Tuva Triggers~
+2 g 100
+~
+set pump[0] From 1758 to 1911, Tuva was part of China's Qing dynasty and administered by Outer Mongolia.
+set pump[1] During the Xinhai Revolution in China, Tsarist Russia formed a separatist movement among the Tuvans while there were also pro-independence and pro-Mongol groups.
+set pump[2] Tsar Nicholas II agreed to the third petition by Tuva's leadership in 1912, establishing protectorate over the then independent state.
+
+if %actor% && %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  wait 15s
+  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  wait 30s
+  %send% %actor% gui:#mud south
 end
 ~
 $~
