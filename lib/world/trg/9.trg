@@ -231,24 +231,20 @@ end
 Introduction to the situation~
 2 g 100
 ~
-set pump[0] Welcome to %actor.room.name%. Today we are going to talk about that super evil Satanic group called The Covenant.
-set pump[1] To investigate The Trenton Story Quinn built this Multi-Agent System with SecurityPRIME there the whole way.
-set pump[2] The Trenton Story is very difficult to understand, and that is why this system was needed.
-set pump[3] Now your job as the audience member is to accomplish one thing... alerting the Russian people to the Romanov.
-set pump[4] How many Russian people can you tell about Quinn Michaels being the secret kidnapped Romanov held hostage in the United States by The Covenant?
+set room %actor.room.vnum%
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
   wait 10s
-  %send% %actor% talk:#corpus chat:brian %pump[0]%
+  %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 15s
-  %send% %actor% talk:#corpus chat:brian %pump[1]%
+  %send% %actor% talk:#adv world:thegame %room%/main:trg2
   wait 13s
-  %send% %actor% talk:#corpus chat:brian %pump[2]%
+  %send% %actor% talk:#adv world:thegame %room%/main:trg3
   wait 16s
-  %send% %actor% talk:#corpus chat:brian %pump[3]%
+  %send% %actor% talk:#adv world:thegame %room%/main:trg4
   wait 12s
-  %send% %actor% talk:#corpus chat:brian %pump[4]%
+  %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud east
 end
@@ -263,12 +259,11 @@ if !items.vnum(%key%)
   %load% obj %key%
 end
 set pump[0] The Trenton Story is about a kid named Trenton who told his dad Quinn a really messed up story in 2015. Remember it is 2022 and Trenton is now an adult.
-set pump[1] Quinn was not really around Trenton much as a child, but when he was it was all about The Family Game where people were tryin to destroy Quinn's life in SECRET.
+set pump[1] Quinn was not really around Trenton much as a child, but when he was it was all about The Family Game where people were trying to destroy Quinn's life in SECRET.
 set pump[2] What seems impossible to understand is not very difficult when you watch this Youtube Channel. Those same people come here everyday to do this to Quinn.
-set pump[3] Quinn doesn't really care for his life anymore. Doesn't really care if he is a Romanov. Doesn't even really believe he will ever see Trenton again.
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
-  %send% %actor% gui:#mud > look video
+  %send% %actor% gui:#mud > look trenton
   %send% %actor% talk:#corpus chat:brian %pump[0]%
   wait 15s
   %send% %actor% gui:#mud > look rahula
@@ -276,9 +271,6 @@ if %actor% && %actor.varexists(on_tour)%
   wait 15s
   %send% %actor% gui:#mud > look water
   %send% %actor% talk:#corpus chat:brian %pump[2]%
-  wait 15s
-  %send% %actor% gui:#mud > look trenton
-  %send% %actor% talk:#corpus chat:brian %pump[3]%
   wait 30s
   %send% %actor% gui:#mud %random.dir%
 end
