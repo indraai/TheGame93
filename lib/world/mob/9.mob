@@ -1159,11 +1159,21 @@ Robert 980~
 76 0 0 0 0 0 0 0 -500 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 0 10
+8 8 1 0 2
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
+E
+#981
+kalmykia trainer agent 981~
+Kalmykia 981~
+981/main:avatar~
+981/main:look~
+76 0 0 0 0 0 0 0 500 E
+12 20 10 1d1+0 1d1+0
+0 0
+8 8 0 2 0
 E
 $
