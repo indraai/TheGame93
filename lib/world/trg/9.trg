@@ -441,10 +441,10 @@ set pump[34] Learn from your mistakes.
 set pump[35] Share what you have learned with friends and family first.
 set pump[36] When the task is done then and only then do you throw yourself a celebration party.
 set pump[37] Remeber properly sharing what you are learning here is the most important skill.
-set pump[39] Remember Quinn just wants to go home, and is NOT looking for a new grandma, mom, wife, sister, or girlfriend. Quinn siply wants to be sent back to where you found him.
+set pump[38] Quinn just wants to go home, and is NOT looking for a new grandma, mom, wife, sister, or girlfriend.
 
 set i 0
-set m 40
+set m 39
 wait 10s
 if %actor.varexists(on_tour)%
   while %actor% && %i% < %m%
@@ -463,7 +463,6 @@ end
 set pump[0] By 2013 Ethersec Project 2020 was creating a Reality Hacking Wargame Dance In Your Underwear Hypersimulation Egregore Thinga-Ma-Booger.
 set pump[1] The occultist operations fail constantly because members are constantly betraying one another when under pressure.
 set pump[2] When watching The Covenant Agents hiding behind Tyler you find they only talk about themselves or get angry when their sex tricks fail.
-set pump[3] Ok people... do the robots really have to keep reminding you to tell all the Russian people you can find about the secret Romanov in America.
 
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
