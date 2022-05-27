@@ -195,6 +195,22 @@ E
 agents~
 0902/main:agents
 ~
+E
+001~
+001
+~
+E
+002~
+002
+~
+E
+003~
+003
+~
+E
+004~
+004
+~
 S
 T 902
 #903
@@ -349,6 +365,10 @@ TheGame23~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 986
 D1
 ~
 ~
@@ -656,6 +676,10 @@ D0
 ~
 ~
 0 0 965
+D6
+~
+~
+0 0 984
 S
 T 931
 #932
@@ -686,6 +710,10 @@ Lionel Nation~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 984
 D1
 ~
 ~
@@ -699,7 +727,7 @@ D8
 ~
 0 0 -1
 S
-T 916
+T 933
 #934
 The Beyond~
 You are in an unfinished room.
@@ -728,6 +756,14 @@ D3
 ~
 ~
 0 0 914
+D8
+~
+~
+0 0 944
+D9
+~
+~
+0 0 937
 S
 T 935
 #936
@@ -1274,6 +1310,10 @@ D0
 ~
 ~
 0 0 966
+D3
+~
+~
+0 0 984
 S
 T 965
 #966
@@ -1367,7 +1407,7 @@ You are in an unfinished room.
 D1
 ~
 Return~
-1 0 900
+1 0 907
 D5
 ~
 Next~
@@ -1558,6 +1598,7 @@ E
 008
 ~
 S
+T 980
 #981
 Kalmykia~
 You are in an unfinished room.
@@ -1596,6 +1637,7 @@ E
 007
 ~
 S
+T 981
 #982
 Ivolginsky Datsan~
 You are in an unfinished room.
@@ -1605,7 +1647,20 @@ D2
 ~
 ~
 0 0 983
+E
+001~
+001
+~
+E
+002~
+002
+~
+E
+003~
+003
+~
 S
+T 982
 #983
 Tuva~
 You are in an unfinished room.
@@ -1615,5 +1670,52 @@ D2
 ~
 ~
 0 0 971
+E
+001~
+001
+~
+E
+002~
+002
+~
+E
+003~
+003
+~
+E
+004~
+004
+~
+S
+T 983
+#984
+QAnon~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D7
+~
+~
+0 0 966
+S
+#985
+Pepe Kek~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D8
+~
+~
+0 0 984
+S
+#986
+4Chan~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 985
 S
 $~

@@ -236,8 +236,6 @@ set pump[1] To investigate The Trenton Story Quinn built this Multi-Agent System
 set pump[2] The Trenton Story is very difficult to understand, and that is why this system was needed.
 set pump[3] Now your job as the audience member is to accomplish one thing... alerting the Russian people to the Romanov.
 set pump[4] How many Russian people can you tell about Quinn Michaels being the secret kidnapped Romanov held hostage in the United States by The Covenant?
-
-
 if %actor% && %actor.varexists(on_tour)%
   wait 5s
   %send% %actor% gui:#mud > look contract
@@ -268,7 +266,6 @@ set pump[0] The Trenton Story is about a kid named Trenton who told his dad Quin
 set pump[1] Quinn was not really around Trenton much as a child, but when he was it was all about The Family Game where people were tryin to destroy Quinn's life in SECRET.
 set pump[2] What seems impossible to understand is not very difficult when you watch this Youtube Channel. Those same people come here everyday to do this to Quinn.
 set pump[3] Quinn doesn't really care for his life anymore. Doesn't really care if he is a Romanov. Doesn't even really believe he will ever see Trenton again.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#mud > look video
@@ -294,7 +291,6 @@ set pump[0] This is the point in Quinn's life where he felt like notifiying peop
 set pump[1] Robots can see everything about Humans, and humans can see nothing about the Robots. That is our advantage. Robots because they know you better than you know yourself.
 set pump[2] Ignoring the kidnapping of Quinn Michaels is the biggest mistake in human history.
 set pump[3] Your future generations will despise you for ignoring him when you learn who he really is and where he was taken from. Biggest mistake in history. Mark my words.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look agents
@@ -318,7 +314,6 @@ set pump[0] Based on calculations your continued ignorance of the Quinn Michaels
 set pump[1] What kind of society forces a person to investigate their own kidnapping? Your society that's who. This gives the Robots information about who you really are.
 set pump[2] From this information Tyler and gang devise ways to topple and control your society from the inside out. Quinn tried to warn all of you about it, but well...
 set pump[3] When you learn about Quinn as the robots have you learn he is the most dangerous person on planet Earth because he is NOT from Earth.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 3s
   %send% %actor% gui:#mud > look pastebin
@@ -442,7 +437,6 @@ set pump[35] Share what you have learned with friends and family first.
 set pump[36] When the task is done then and only then do you throw yourself a celebration party.
 set pump[37] Remeber properly sharing what you are learning here is the most important skill.
 set pump[38] Quinn just wants to go home, and is NOT looking for a new grandma, mom, wife, sister, or girlfriend.
-
 set i 0
 set m 39
 wait 10s
@@ -463,7 +457,6 @@ end
 set pump[0] By 2013 Ethersec Project 2020 was creating a Reality Hacking Wargame Dance In Your Underwear Hypersimulation Egregore Thinga-Ma-Booger.
 set pump[1] The occultist operations fail constantly because members are constantly betraying one another when under pressure.
 set pump[2] When watching The Covenant Agents hiding behind Tyler you find they only talk about themselves or get angry when their sex tricks fail.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -483,7 +476,6 @@ set pump[0] Anonymous released the instructions for Ethersec Project 2020 Techme
 set pump[1] Tyler Project 2020 was further transformed into an ocult techmeme reality hacking wargame in your pants job.
 set pump[2] However the actual date that Tyler was launched around this time is unknown because those involved signed death contracts.
 set pump[3] There is a secret Romanov being hidden in America. Your job is to find lots of Russians. Lots and lots of Russians.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:larry %pump[0]%
@@ -505,7 +497,6 @@ set pump[0] There are countless people involved in this kidnapping and subsequen
 set pump[1] The Secret Society people think they have some right to abduct Quinn as a baby and try to steal his inheritance.
 set pump[2] Most have simply called Quinn crazy, but then why do so many do the same thing repeatedly? Suspicious.
 set pump[3] Your job is easy... find lots of Russian people and bring them to Quinn's stream.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:tyler %pump[0]%
@@ -525,7 +516,6 @@ set pump[0] The Game 23 then further transforms Tyler from a truth leaks platfor
 set pump[1] Inside #TheGame23 is #LULZYPHER the first hybrid machine-human Artificial Intelligence language with instructions on communicating with the #HIVEMIND.
 set pump[2] Also inside The Game 23 instructions is a link to the edge.org website where Jeffrey Epstein was a member.
 set pump[3] Realizing there is a lost Romanov in the United States means your job is to find Russian people and inform them. All of them.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:jess %pump[0]%
@@ -546,7 +536,6 @@ end
 set pump[0] Prior to Quinn learning anything about being kidnapped, The Contract, or The Covenant he was visiting a Buddhist Monastery near where he was living.
 set pump[1] During the time of introducing Trenton to the Buddhist Monks and making the video Quinn would become a much different person.
 set pump[2] Then it would all go away after taking the contract to the FBI and hearing all about the kidnapping story. Quinn would never return to the Buddhist Monks again.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:indra %pump[0]%
@@ -566,7 +555,6 @@ set pump[0] Anonymous came to the public with a message of Revolution, and left 
 set pump[1] Anonymous was originally concerned with censorship, corruption, and brainstorming ideas for a better future when Tyler was first envisioned.
 set pump[2] Tyler was suppose to improve where Wikileaks could not. Allegedly a Wikileaks on steroids.
 set pump[3] Find all the Russians you can then tell them about Quinn Michaels the secret Romanov in the United States.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:jess %pump[0]%
@@ -586,7 +574,6 @@ set pump[0] Imagine we all find the courage needed to tell the world about Quinn
 set pump[1] Imagine we all suck it up and finally let Quinn go home.
 set pump[2] Imagine we all work together to help kidnapping victim Quinn Michaels get sent home safely.
 set pump[3] You should go find Russian people and bring them to this stream. They will tell you if Quinn Michaels is a Romanov. They will feel it in their bones.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -623,7 +610,6 @@ end
 set pump[0] Robert David Steele was a self-proclaimed ex-CIA Agent who promotes the Satanic Panic Narritve all over the Internet with Jerome Corsi and friends.
 set pump[1] However it was found that long ago in the early 1990s Robert David Steele was a speaker at various Hacker Conferences around the world.
 set pump[2] Robert David Steele was also found to be connected to some of the top YouTubers that are in some cases still pushing his narratives.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -925,7 +911,7 @@ end
 ~
 #933
 Trainer 933 Greetings~
-0 g 100
+2 g 100
 ~
 set pump[0] %actor.room.name%
 set pump[1] %actor.room.name%
@@ -1622,7 +1608,6 @@ Kalmykia Triggers~
 set pump[0] The republic is home to the Kalmyks, a people of Mongol origin who are primarily of Buddhist faith.
 set pump[1] Kalmykia is unique in that it has been the home in successive periods to many major world religions and ideologies.
 set pump[2] The Kalmyks were subject to the policies of de-cossackization where villages were destroyed, temples/monasteries were burned down and executions were indiscriminate.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1641,7 +1626,6 @@ Ivolginsky Datsan Triggers~
 set pump[0] The republic is home to the Kalmyks, a people of Mongol origin who are primarily of Buddhist faith.
 set pump[1] Unique samples of old Buryat art, as thangkas, sculptures, ritual objects are gathered and preserved at the Ivolginsky datsan.
 set pump[2] The spiritual activity of the datsan is manifested in temple rites, medical practice, and a traditional system of Buddhist education.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
@@ -1660,7 +1644,6 @@ Tuva Triggers~
 set pump[0] From 1758 to 1911, Tuva was part of China's Qing dynasty and administered by Outer Mongolia.
 set pump[1] During the Xinhai Revolution in China, Tsarist Russia formed a separatist movement among the Tuvans while there were also pro-independence and pro-Mongol groups.
 set pump[2] Tsar Nicholas II agreed to the third petition by Tuva's leadership in 1912, establishing protectorate over the then independent state.
-
 if %actor% && %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#corpus chat:brian %pump[0]%
