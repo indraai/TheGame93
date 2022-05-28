@@ -115,7 +115,7 @@ if %actor.varexists(on_tour)%
   wait 17s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud northeast
+  %send% %actor% gui:#mud southeast
 end
 ~
 #906
