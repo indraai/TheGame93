@@ -6,15 +6,15 @@ set room %actor.room.vnum%
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
   wait 16s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
-  wait 19s
+  wait 30s
   %send% %actor% gui:#mud north
 en8
 ~
@@ -28,11 +28,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud east
@@ -48,11 +48,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud south
@@ -68,11 +68,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud west
@@ -88,11 +88,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud northeast
@@ -108,11 +108,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud southeast
@@ -128,11 +128,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud southwest
@@ -148,11 +148,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud northwest
@@ -163,19 +163,22 @@ Triggers Random~
 2 g 100
 ~
 set room %actor.room.vnum%
+set dir %random.dir%
+set dir %random.dir%
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% talk:#adv world:thegame %room%/main:trg1
   wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg2
-  wait 19s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg3
-  wait 18s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg4
-  wait 17s
+  wait 20s
   %send% %actor% talk:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud %random.dir%
+  %send% %actor% gui:#mud %dir%
 end
 ~
 $~
