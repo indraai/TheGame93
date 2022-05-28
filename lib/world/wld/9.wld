@@ -143,20 +143,20 @@ D7
 ~
 0 0 915
 E
-video~
-video
-~
-E
-rahula~
-rahula
+trenton~
+trenton
 ~
 E
 water~
 water
 ~
 E
-trenton~
-trenton
+rahula~
+rahula
+~
+E
+video~
+video
 ~
 S
 T 908
@@ -181,24 +181,24 @@ D9
 ~
 0 0 904
 E
-agents~
-0902/main:agents
-~
-E
-001~
-001
-~
-E
-002~
-002
+004~
+004
 ~
 E
 003~
 003
 ~
 E
-004~
-004
+002~
+002
+~
+E
+001~
+001
+~
+E
+agents~
+0902/main:agents
 ~
 S
 T 908
@@ -259,12 +259,12 @@ D6
 ~
 0 0 910
 E
-pastebin1~
-pastebin
-~
-E
 pastebin2~
 patebin2
+~
+E
+pastebin1~
+pastebin
 ~
 S
 T 908
@@ -430,10 +430,18 @@ FBI~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D1
+~
+~
+0 0 984
 D2
 ~
 ~
 0 0 922
+D7
+~
+~
+0 0 985
 D8
 ~
 ~
@@ -840,16 +848,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 908
@@ -1401,20 +1409,20 @@ D0
 ~
 0 0 971
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
 T 900
@@ -1432,20 +1440,20 @@ D6
 ~
 0 0 970
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
 T 908
@@ -1544,36 +1552,36 @@ D1
 ~
 0 0 981
 E
-001~
-001
-~
-E
-002~
-002
-~
-E
-003~
-00s
-~
-E
-004~
-004
-~
-E
-005~
-005
-~
-E
-006~
-006
+008~
+008
 ~
 E
 007~
 007
 ~
 E
-008~
-008
+006~
+006
+~
+E
+005~
+005
+~
+E
+004~
+004
+~
+E
+003~
+00s
+~
+E
+002~
+002
+~
+E
+001~
+001
 ~
 S
 T 901
@@ -1587,32 +1595,32 @@ D2
 ~
 0 0 982
 E
-001~
-001
-~
-E
-002~
-002
-~
-E
-003~
-003
-~
-E
-004~
-004
-~
-E
-005~
-005
+007~
+007
 ~
 E
 006~
 006
 ~
 E
-007~
-007
+005~
+005
+~
+E
+004~
+004
+~
+E
+003~
+003
+~
+E
+002~
+002
+~
+E
+001~
+001
 ~
 S
 T 902
@@ -1626,16 +1634,16 @@ D2
 ~
 0 0 983
 E
-001~
-001
+003~
+003
 ~
 E
 002~
 002
 ~
 E
-003~
-003
+001~
+001
 ~
 S
 T 902
@@ -1649,20 +1657,20 @@ D2
 ~
 0 0 971
 E
-001~
-001
-~
-E
-002~
-002
+004~
+004
 ~
 E
 003~
 003
 ~
 E
-004~
-004
+002~
+002
+~
+E
+001~
+001
 ~
 S
 T 902
