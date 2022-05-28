@@ -167,13 +167,13 @@ set d %random.dir%
 
 wait 1s
 if %dir(%room%)%
-  set prev %dir(%%room%%)%
+  set prev %dir(%room%)%
   %echo% prev - %prev% ... d - %d%
   while %d% == %prev%
     set d %random.dir%
-    %echo% ndir %prev% %ndir%
+    %echo% ndir %prev% %d%
   done
-  set dir(%room%) %ndir%
+  set dir(%room%) %d%
 else
   set dir(%room%) %d%
   global dir(%room%)
