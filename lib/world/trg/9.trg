@@ -18,7 +18,7 @@ if %actor.varexists(on_tour)%
   %send% %actor% gui:#mud north
 en8
 ~
-#971
+#901
 Triggers East~
 2 g 100
 ~
