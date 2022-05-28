@@ -164,16 +164,22 @@ Triggers Random~
 ~
 set room %actor.room.vnum%
 set d %random.dir%
+set i 0
+set m 15
 
 wait 1s
 if dir(%room%)
   eval prev %dir(%%room%%)%
   %echo% prev - %prev% ... d - %d%
-  while %d% == %prev%
-    set d %random.dir%
+  while %i% < %m%
     %echo% ndir %prev% %d%
+    if %d% != %prev%
+      set dir(%room%) %d%
+      set i %m%
+    else
+      set d %random.dir%
+    end
   done
-  set dir(%room%) %d%
 else
   set dir(%room%) %d%
   global dir(%room%)
