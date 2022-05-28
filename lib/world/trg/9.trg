@@ -165,18 +165,19 @@ Triggers Random~
 set room %actor.room.vnum%
 set d %random.dir%
 
+wait 1s
 if %dir(%room%)%
   set prev dir(%room%)
-  echo prev - %prev% ... d - %d%
+  %echo% prev - %prev% ... d - %d%
   while %d% == %prev%
     set d %random.dir%
-    echo ndir %prev% %ndir%
+    %echo% ndir %prev% %ndir%
   done
   set dir(%room%) %ndir%
 else
   set dir(%room%) %d%
   global dir(%room%)
-  echo random dir dir(%room%) %d%
+  %echo% random dir dir(%room%) %d%
 end
 
 if %actor.varexists(on_tour)%
