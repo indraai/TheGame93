@@ -163,8 +163,13 @@ Triggers Random~
 2 g 100
 ~
 set room %actor.room.vnum%
-set dir %random.dir%
-set dir %random.dir%
+
+set i 0
+set m 10
+while %i% < %m%
+  set dir %random.dir%
+  eval i %i% + 1
+done
 
 if %actor.varexists(on_tour)%
   wait 10s
