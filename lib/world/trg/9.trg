@@ -169,7 +169,7 @@ set m 15
 
 wait 1s
 if dir[%room%]
-  set prev dir(%room%)
+  set prev dir[%room%]
   %echo% prev - %prev% ... d - %d%
   while %i% < %m%
     wait 1s
@@ -184,7 +184,7 @@ if dir[%room%]
 else
   set dir[%room%] %d%
   global dir[%room%]
-  %echo% random dir dir(%room%) %d%
+  %echo% random dir dir[%room%] %d%
 end
 
 if %actor.varexists(on_tour)%
