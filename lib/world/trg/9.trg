@@ -169,7 +169,7 @@ set m 15
 
 wait 1s
 if dir[%room%]
-  set prev dir[%room%]
+  eval prev %dir[%%room%%]%
   %echo% prev - %prev% ... d - %d%
   while %i% < %m%
     wait 1s
