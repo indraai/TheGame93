@@ -11,7 +11,7 @@ D8
 ~
 0 0 808
 S
-T 908
+T 910
 #801
 Hackphreak~
 [DESCRIBE]~
@@ -51,7 +51,7 @@ D1
 ~
 0 0 805
 S
-T 904
+T 901
 #805
 Legion of Doom~
 [DESCRIBE]~
@@ -76,15 +76,12 @@ T 901
 The CIA~
 [DESCRIBE]~
 9 8 0 0 0 0
-D0
-~
-~
-0 0 -1
 D4
 ~
 ~
 0 0 916
 S
+T 904
 #808
 Jonathan James~
 You are in an unfinished room.
@@ -95,6 +92,7 @@ D1
 ~
 0 0 809
 S
+T 901
 #809
 Aaron Swartz~
 You are in an unfinished room.
@@ -105,6 +103,7 @@ D1
 ~
 0 0 810
 S
+T 901
 #810
 James Dolan~
 You are in an unfinished room.
@@ -115,6 +114,7 @@ D4
 ~
 0 0 904
 S
+T 904
 #900
 The Beginning~
 [DESCRIBE]~
@@ -166,7 +166,7 @@ trenton~
 trenton
 ~
 S
-T 908
+T 910
 #902
 Cicada3301~
 [DESCRIBE]~
@@ -208,7 +208,7 @@ E
 004
 ~
 S
-T 908
+T 910
 #903
 Project Mayhem 2012~
 [DESCRIBE]~
@@ -234,7 +234,7 @@ pastebin~
 pastebin
 ~
 S
-T 908
+T 910
 #904
 PM2012 Revelations~
 [DESCRIBE]~
@@ -274,7 +274,7 @@ pastebin2~
 patebin2
 ~
 S
-T 908
+T 910
 #906
 IT~
 [DESCRIBE]~
@@ -321,7 +321,7 @@ D9
 ~
 0 0 919
 S
-T 908
+T 910
 #909
 Project Mayhem 2020~
 You are in an unfinished room.
@@ -355,7 +355,7 @@ D7
 ~
 0 0 907
 S
-T 908
+T 910
 #911
 TheGame23~
 You are in an unfinished room.
@@ -374,7 +374,7 @@ D5
 ~
 0 0 800
 S
-T 908
+T 910
 #912
 Pacific Hermitage~
 You are in an unfinished room.
@@ -389,7 +389,7 @@ D3
 ~
 0 0 928
 S
-T 908
+T 910
 #913
 Call to HackZION~
 You are in an unfinished room.
@@ -416,7 +416,7 @@ D9
 ~
 0 0 917
 S
-T 908
+T 910
 #914
 PM2012 - Call To Action~
 You are in an unfinished room.
@@ -431,7 +431,7 @@ D6
 ~
 0 0 918
 S
-T 908
+T 910
 #915
 FBI~
 You are in an unfinished room.
@@ -454,7 +454,7 @@ D8
 ~
 0 0 916
 S
-T 908
+T 910
 #916
 Robert Steele~
 You are in an unfinished room.
@@ -468,16 +468,12 @@ D1
 ~
 ~
 0 0 962
-D6
-~
-~
-0 0 -1
 D7
 ~
 ~
 0 0 931
 S
-T 908
+T 910
 #917
 Dangerous Ideas~
 You are in an unfinished room.
@@ -503,7 +499,7 @@ D6
 ~
 0 0 905
 S
-T 908
+T 910
 #919
 Survivance~
 You are in an unfinished room.
@@ -529,7 +525,7 @@ D6
 ~
 0 0 923
 S
-T 908
+T 910
 #921
 Romero Games~
 You are in an unfinished room.
@@ -561,18 +557,10 @@ LOLapps~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
-D2
-~
-~
-0 0 -1
 D3
 ~
 ~
 0 0 924
-D6
-~
-~
-0 0 -1
 S
 T 903
 #924
@@ -600,7 +588,7 @@ D6
 ~
 0 0 942
 S
-T 908
+T 910
 #926
 Palantir~
 [DESCRIBE]~
@@ -614,7 +602,7 @@ D1
 ~
 0 0 907
 S
-T 908
+T 910
 #927
 GhostNet~
 You are in an unfinished room.
@@ -629,7 +617,7 @@ D1
 ~
 0 0 928
 S
-T 908
+T 910
 #928
 The Dalai Lama~
 You are in an unfinished room.
@@ -663,7 +651,7 @@ pdf~
 0929/main:pdf
 ~
 S
-T 908
+T 910
 #930
 Church of Virus~
 You are in an unfinished room.
@@ -689,7 +677,7 @@ D6
 ~
 0 0 984
 S
-T 908
+T 910
 #932
 Sasha Chislenko~
 Welcome to the Sasha Chislenko room.
@@ -703,16 +691,12 @@ D2
 ~
 ~
 0 0 934
-D7
-~
-~
-0 0 -1
 D9
 ~
 ~
 0 0 935
 S
-T 908
+T 910
 #933
 Lionel Nation~
 You are in an unfinished room.
@@ -730,12 +714,8 @@ D7
 ~
 ~
 0 0 965
-D8
-~
-~
-0 0 -1
 S
-T 908
+T 910
 #934
 The Beyond~
 You are in an unfinished room.
@@ -750,7 +730,7 @@ D3
 ~
 0 0 935
 S
-T 908
+T 910
 #935
 Evil People, Inc.~
 You are in an unfinished room.
@@ -773,7 +753,7 @@ D9
 ~
 0 0 937
 S
-T 908
+T 910
 #936
 Satanic Sysadmins~
 You are in an unfinished room.
@@ -799,7 +779,7 @@ D3
 ~
 0 0 938
 S
-T 908
+T 910
 #938
 Kibo~
 You are in an unfinished room.
@@ -814,7 +794,7 @@ D3
 ~
 0 0 939
 S
-T 908
+T 910
 #939
 EVIL Mud~
 You are in an unfinished room.
@@ -840,7 +820,7 @@ D3
 ~
 0 0 941
 S
-T 908
+T 910
 #941
 End Of The Line~
 You are in an unfinished room.
@@ -867,7 +847,7 @@ tip1~
 talk:#adv world:thegame 0941/main:tip1
 ~
 S
-T 908
+T 910
 #942
 Stanford University~
 You are in an unfinished room.
@@ -886,7 +866,7 @@ D7
 ~
 0 0 927
 S
-T 908
+T 910
 #943
 DefCon 1~
 You are in an unfinished room.
@@ -916,7 +896,7 @@ D3
 ~
 0 0 936
 S
-T 908
+T 910
 #945
 HOPE Conference~
 You are in an unfinished room.
@@ -935,7 +915,7 @@ D2
 ~
 0 0 947
 S
-T 908
+T 910
 #946
 Hacking in Progress~
 You are in an unfinished room.
@@ -952,10 +932,6 @@ The Well~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
-D3
-~
-~
-0 0 -1
 S
 #949
 SpoonKids~
@@ -982,7 +958,7 @@ D7
 ~
 0 0 951
 S
-T 908
+T 910
 #951
 GhostMind~
 You are in an unfinished room.
@@ -1219,10 +1195,6 @@ D6
 ~
 ~
 0 0 953
-D8
-~
-~
-0 0 -1
 D9
 ~
 ~
@@ -1264,7 +1236,7 @@ D7
 ~
 0 0 964
 S
-T 908
+T 910
 #963
 Larry Klayman~
 [DESCRIBE]~
@@ -1278,7 +1250,7 @@ D6
 ~
 0 0 931
 S
-T 908
+T 910
 #964
 Laura Loomer~
 0964/main:look
@@ -1293,7 +1265,7 @@ D6
 ~
 0 0 965
 S
-T 908
+T 910
 #965
 InfoWars~
 You are in an unfinished room.
@@ -1308,7 +1280,7 @@ D3
 ~
 0 0 984
 S
-T 908
+T 910
 #966
 The Kremlin~
 You are in an unfinished room.
@@ -1327,7 +1299,7 @@ D8
 ~
 0 0 970
 S
-T 908
+T 910
 #967
 Russian Botnet~
 You are in an unfinished room.
@@ -1357,7 +1329,7 @@ D8
 ~
 0 0 971
 S
-T 908
+T 910
 #969
 The KGB~
 You are in an unfinished room.
@@ -1371,12 +1343,8 @@ D2
 ~
 ~
 0 0 970
-D3
-~
-~
-0 0 -1
 S
-T 908
+T 910
 #970
 Orthodox Church~
 You are in an unfinished room.
@@ -1391,7 +1359,7 @@ D7
 ~
 0 0 971
 S
-T 908
+T 910
 #971
 The Romanov~
 You are in an unfinished room.
@@ -1463,7 +1431,7 @@ photo0~
 photo0
 ~
 S
-T 908
+T 910
 #974
 Jeffrey Epstein Foundation~
 You are in an unfinished room.
@@ -1493,7 +1461,7 @@ D8
 ~
 0 0 976
 S
-T 908
+T 910
 #976
 Webmind Brazil~
 You are in an unfinished room.
@@ -1519,7 +1487,7 @@ D8
 ~
 0 0 974
 S
-T 908
+T 910
 #978
 Humanity Plus~
 You are in an unfinished room.
@@ -1548,7 +1516,7 @@ D8
 ~
 0 0 969
 S
-T 908
+T 910
 #980
 Kunstkamera~
 You are in an unfinished room.

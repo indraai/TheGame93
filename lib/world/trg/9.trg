@@ -217,7 +217,7 @@ if %actor.varexists(on_tour)%
 end
 ~
 #910
-Triggers South West~
+Triggers South Random~
 2 g 100
 ~
 set room %actor.room.vnum%
