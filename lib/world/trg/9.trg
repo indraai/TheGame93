@@ -3,6 +3,8 @@ Triggers North~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d north
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -15,7 +17,7 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud north
+  %send% %actor% gui:#mud %d%
 en8
 ~
 #901
@@ -23,6 +25,8 @@ Triggers East~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d east
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -35,7 +39,7 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud east
+  %send% %actor% gui:#mud %d%
 end
 ~
 #902
@@ -43,6 +47,8 @@ Triggers South~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d south
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -55,7 +61,7 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud south
+  %send% %actor% gui:#mud %d%
 end
 ~
 #903
@@ -63,6 +69,8 @@ Triggers West~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d west
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -75,14 +83,16 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud west
+  %send% %actor% gui:#mud %d%
 end
 ~
 #904
-Triggers North East~
+Triggers Up~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d up
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -95,14 +105,16 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud northeast
+  %send% %actor% gui:#mud %d%
 end
 ~
 #905
-Triggers South East~
+Triggers Down~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d down
+
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -115,34 +127,15 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud southeast
+  %send% %actor% gui:#mud %d%
 end
 ~
 #906
-Triggers South West~
-2 g 100
-~
-set room %actor.room.vnum%
-if %actor.varexists(on_tour)%
-  wait 10s
-  %send% %actor% gui:#adv world:thegame %room%/main:trg1
-  wait 20s
-  %send% %actor% gui:#adv world:thegame %room%/main:trg2
-  wait 20s
-  %send% %actor% gui:#adv world:thegame %room%/main:trg3
-  wait 20s
-  %send% %actor% gui:#adv world:thegame %room%/main:trg4
-  wait 20s
-  %send% %actor% gui:#adv world:thegame %room%/main:trg5
-  wait 30s
-  %send% %actor% gui:#mud southwest
-end
-~
-#907
 Triggers North West~
 2 g 100
 ~
 set room %actor.room.vnum%
+set d northwest
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -155,11 +148,76 @@ if %actor.varexists(on_tour)%
   wait 20s
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
-  %send% %actor% gui:#mud northwest
+  %send% %actor% gui:#mud %d%
+end
+~
+#907
+Triggers North East~
+2 g 100
+~
+set room %actor.room.vnum%
+set d northeast
+if %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg1
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg2
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg3
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg4
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg5
+  wait 30s
+  %send% %actor% gui:#mud %d%
 end
 ~
 #908
-Triggers Random~
+Triggers South East~
+2 g 100
+~
+set room %actor.room.vnum%
+set d southeast
+
+if %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg1
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg2
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg3
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg4
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg5
+  wait 30s
+  %send% %actor% gui:#mud %d%
+end
+~
+#909
+Triggers South West~
+2 g 100
+~
+set room %actor.room.vnum%
+set d southwest
+
+if %actor.varexists(on_tour)%
+  wait 10s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg1
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg2
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg3
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg4
+  wait 20s
+  %send% %actor% gui:#adv world:thegame %room%/main:trg5
+  wait 30s
+  %send% %actor% gui:#mud %d%
+end
+~
+#910
+Triggers South West~
 2 g 100
 ~
 set room %actor.room.vnum%
