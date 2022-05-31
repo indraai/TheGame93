@@ -1599,9 +1599,9 @@ static void parse_simple_mob(FILE *mob_f, int i, int nr)
     exit(1);
   }
 
-  if (sscanf(line, " %d %d %d %d", t, t + 1, t + 2, t + 3) != 4) {
+  if (sscanf(line, " %d %d %d %d", t, t + 1, t + 2, t + 3, t + 4) != 5) {
     log("SYSERR: Format error in last line of mob #%d\n"
-	"...expecting line of form '# # # #'", nr);
+	"...expecting line of form '# # # # #'", nr);
     exit(1);
   }
 
