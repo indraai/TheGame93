@@ -678,9 +678,9 @@ do                                                              \
    (AFF_FLAGGED(ch, AFF_INFRAVISION) || (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_HOLYLIGHT)))
 
 /** Defines if ch is good. */
-#define IS_GOOD(ch)    (GET_ALIGNMENT(ch) >= 250)
+#define IS_GOOD(ch)    (GET_ALIGNMENT(ch) >= 100)
 /** Defines if ch is evil. */
-#define IS_EVIL(ch)    (GET_ALIGNMENT(ch) <= -250)
+#define IS_EVIL(ch)    (GET_ALIGNMENT(ch) <= -100)
 /** Defines if ch is neither good nor evil. */
 #define IS_NEUTRAL(ch) (!IS_GOOD(ch) && !IS_EVIL(ch))
 
