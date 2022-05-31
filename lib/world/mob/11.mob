@@ -6,7 +6,7 @@ King Barry of Disneyland~
 6360 0 0 0 2168 0 0 0 1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 2 15
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
@@ -24,7 +24,7 @@ SecurityPRIME SPY~
 260184 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 4 11
 BareHandAttack: 14
 Str: 13
 Dex: 13
@@ -46,7 +46,7 @@ Mickey Mouse 1102~
 72 0 0 0 0 0 0 0 1000 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1 0
+8 8 1 0 0
 BareHandAttack: 1
 E
 T 1102
@@ -59,7 +59,7 @@ Male Guest 1126~
 72 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 1
+8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -75,7 +75,7 @@ Female Guest 1127~
 72 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 1
+8 8 2 1 0
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -91,7 +91,7 @@ Esmeralda~
 18522 0 0 0 8 0 0 0 -1000 E
 15 15 1 3d3+150 2d2+2
 1500 22500
-8 8 2 3
+8 8 2 3 0
 BareHandAttack: 1
 SavingPara: 3
 SavingRod: 3
@@ -108,7 +108,7 @@ the Mad Hatter~
 20682 0 0 0 2168 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 2
+8 8 1 2 0
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -123,7 +123,7 @@ Athena RTC31930~
 18522 0 0 0 2056 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 2 2
+8 8 2 2 4
 BareHandAttack: 12
 SavingPara: 2
 SavingRod: 2
@@ -140,7 +140,7 @@ Plaza Inn Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 0 0
 E
 T 1160
 #1161
@@ -151,7 +151,7 @@ talk:#adv agent:thegame 1161/main:look~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 0 0
 E
 T 1161
 #1162
@@ -173,7 +173,7 @@ Candy Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 0 0
 E
 T 1163
 #1164
@@ -195,7 +195,7 @@ Watch Attendant 1168~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 0 0
 E
 #1171
 disney disneyland attendant guide 1171~
@@ -205,7 +205,7 @@ Guide 1171~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0
+8 8 0 0 0
 E
 #1172
 disney disneyland linac red neutrino~
@@ -215,7 +215,7 @@ Red Neutrino~
 72 0 0 0 0 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 6
+8 8 0 6 0
 Str: 18
 Dex: 18
 Int: 18
@@ -236,7 +236,7 @@ Blue Neutrino~
 72 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 6
+8 8 0 6 0
 Str: 18
 Dex: 18
 Int: 18
@@ -257,7 +257,7 @@ Yellow Neutrino~
 72 0 0 0 0 0 0 0 0 E
 33 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 0 1 0
 E
 #1175
 disney disneyland pink neutrino~
@@ -267,7 +267,7 @@ Pink Neutrino~
 72 0 0 0 0 0 0 0 500 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 6
+8 8 0 6 0
 Str: 18
 Dex: 18
 Int: 18
