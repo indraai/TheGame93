@@ -36,25 +36,30 @@ void mobile_activity(void)
   for (ch = character_list; ch; ch = next_ch) {
     next_ch = ch->next;
 
+    /****
+    this will allow mobs that are aggressive to fight other mobs based on aggressive.
+    commenting out to stop continue.
     if (!IS_MOB(ch))
       continue;
+    ****/
 
     /* Examine call for special procedure */
     if (MOB_FLAGGED(ch, MOB_SPEC) && !no_specials) {
       if (mob_index[GET_MOB_RNUM(ch)].func == NULL) {
-	log("SYSERR: %s (#%d): Attempting to call non-existing mob function.",
-		GET_NAME(ch), GET_MOB_VNUM(ch));
-	REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_SPEC);
+	      log("SYSERR: %s (#%d): Attempting to call non-existing mob function.", GET_NAME(ch), GET_MOB_VNUM(ch));
+	      REMOVE_BIT_AR(MOB_FLAGS(ch), MOB_SPEC);
       } else {
         char actbuf[MAX_INPUT_LENGTH] = "";
-	if ((mob_index[GET_MOB_RNUM(ch)].func) (ch, ch, 0, actbuf))
-	  continue;		/* go to next char */
+	      if ((mob_index[GET_MOB_RNUM(ch)].func) (ch, ch, 0, actbuf)) {
+          continue;		/* go to next char */
+        }
       }
     }
 
     /* If the mob has no specproc, do the default actions */
-    if (FIGHTING(ch) || !AWAKE(ch))
+    if (FIGHTING(ch) || !AWAKE(ch)) {
       continue;
+    }
 
     /* hunt a victim, if applicable */
     hunt_victim(ch);
