@@ -6,7 +6,7 @@ Pilar Fighter~
 2142 0 0 0 2056 0 0 0 -500 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4
+8 8 1 4 1
 BareHandAttack: 7
 Str: 13
 Dex: 13
@@ -28,7 +28,7 @@ King Vasuki~
 2142 0 0 0 2056 0 0 0 -550 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 4
+8 8 1 4 1
 BareHandAttack: 7
 Str: 14
 Dex: 14
@@ -50,7 +50,7 @@ Grandfather Aryaka~
 18718 0 0 0 2056 0 0 0 -1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6
+8 8 1 6 1
 BareHandAttack: 14
 Str: 18
 Dex: 18

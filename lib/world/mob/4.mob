@@ -7,7 +7,7 @@ Trainer 400~
 6234 0 0 0 8 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 0 6
+8 8 0 6 0
 Str: 18
 Dex: 18
 Int: 18
@@ -28,7 +28,7 @@ talk:#adv agent/thegame 401/main:look~
 6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 1
+8 8 0 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -49,7 +49,7 @@ talk:#adv agent/thegame 402/main:look~
 6234 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 0
 Str: 13
 Dex: 13
 Int: 13
@@ -70,7 +70,7 @@ talk:#adv agent/thegame 403/main:look~
 6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 1
+8 8 0 1 0
 Str: 13
 Dex: 13
 Int: 13
@@ -91,7 +91,7 @@ talk:#adv agent/thegame 404/main:look~
 6234 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 0
 Str: 13
 Dex: 13
 Int: 13
@@ -112,7 +112,7 @@ talk:#adv agent/thegame 405/main:look~
 6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 0
 Str: 13
 Dex: 13
 Int: 13
@@ -133,7 +133,7 @@ talk:#adv agent/thegame 406/main:look~
 6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 0
 Str: 13
 Dex: 13
 Int: 13
@@ -154,7 +154,7 @@ talk:#adv agent/thegame 407/main:look~
 6234 0 0 0 8 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 0
 Str: 13
 Dex: 13
 Int: 13
