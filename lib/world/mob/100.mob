@@ -111,7 +111,7 @@ talk:#adv thegame:agent 1028/main:look
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 1 0
+8 8 1 0 0
 E
 #10029
 professor bruckner underground kingdom cyoa~
@@ -245,7 +245,7 @@ Dr. Vivaldi~
 74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 2 0
+8 8 2 0 0
 E
 #10075
 professor bruckner underground kingdom cyoa~
