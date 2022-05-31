@@ -11,20 +11,20 @@ concoct many different potions and is most famous for her liquid fire.
 253962 0 0 0 0 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 2 6
+8 8 2 6 0
 E
 #301
-naked magi~
-the naked magi~
-A magi sits against a wall wearing nothing but a towel.
+wandering monk~
+Wandering Monk~
+A wandering monk sits against a wall.
 ~
-   Sweat gleams on her supple skin.  Her black hair is wet and frames a round
+Sweat gleams on her supple skin.  Her black hair is wet and frames a round
 face with slanted blue eyes.  She is striking in her beauty and grace.
 ~
 10 0 0 0 2112 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 2 0
+8 8 2 0 13
 E
 #304
 army cyber3 soldier agent~
@@ -34,7 +34,7 @@ ARMY Cyber3~
 6170 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 0 4
+8 8 0 4 12
 BareHandAttack: 5
 Str: 13
 Dex: 13
@@ -56,7 +56,7 @@ ARMY Cyber2~
 6170 0 0 0 2168 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 2
+8 8 0 2 12
 BareHandAttack: 6
 SavingPara: 2
 SavingRod: 2
@@ -72,7 +72,7 @@ ARMY Chef~
 10 0 0 0 0 0 0 0 0 E
 10 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 1 12
 E
 #324
 [KEYWORDS]~
@@ -93,7 +93,7 @@ Narayana Vasudeva Bhagavan~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 100000 108900
-8 8 1 1
+8 8 1 1 15
 Str: 18
 Dex: 18
 Int: 18
@@ -114,7 +114,7 @@ talk:#adv agent/thegame 327/main:look~
 6170 0 0 0 2168 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6
+8 8 1 6 15
 BareHandAttack: 8
 Str: 18
 Dex: 18
@@ -137,7 +137,7 @@ Rahula~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 6
+8 8 1 6 13
 BareHandAttack: 5
 Str: 18
 Dex: 18
@@ -159,7 +159,7 @@ talk:#adv agent/thegame 329/main:look~
 6168 0 0 0 8 0 0 0 1000 E
 33 17 4 2d2+100 1d2+1
 50000 10000
-8 8 1 2
+8 8 1 2 6
 BareHandAttack: 11
 SavingPara: 2
 SavingRod: 2
@@ -175,7 +175,7 @@ talk:#adv agent/thegame 330/main:look~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 6
+8 8 1 6 15
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -197,7 +197,7 @@ talk:#adv agent/thegame 331/main:look~
 2074 0 0 0 64 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 2 5
+8 8 2 5 15
 Str: 16
 Dex: 16
 Int: 16
@@ -218,7 +218,7 @@ talk:#adv agent/thegame 332/main:look~
 2074 0 0 0 2112 0 0 0 0 E
 30 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1
+8 8 1 1 15
 E
 #333
 tyler arjika~
@@ -228,7 +228,7 @@ Tyler~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 6
+8 8 1 6 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -250,7 +250,7 @@ ARMY Cyber1~
 6170 0 0 0 2168 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
-8 8 0 1
+8 8 0 1 12
 E
 #335
 francis friendly arjika~
@@ -260,7 +260,7 @@ Francis~
 6168 0 0 0 8 0 0 0 250 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 6
+8 8 1 6 1
 BareHandAttack: 12
 Str: 18
 Dex: 18
