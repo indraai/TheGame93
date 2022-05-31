@@ -728,7 +728,6 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
-T 947
 #948
 trainer agent 948 spoonman mark petrakis human~
 Spoonman 948~
@@ -1184,7 +1183,7 @@ Itigelov 982~
 76 0 0 0 0 0 0 0 400 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 0 13
+8 8 1 0 2
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1199,7 +1198,22 @@ Sergei 983~
 76 0 0 0 0 0 0 0 -500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 0 12
+8 8 1 0 3
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#984
+[KEYWORDS]~
+QAnon 984~
+984/main:avatar~
+984/main:look~
+76 0 0 0 0 0 0 0 -600 E
+13 16 2 2d2+130 2d2+2
+130 16900
+8 8 1 1 6
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3

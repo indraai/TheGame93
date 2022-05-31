@@ -3,17 +3,17 @@ vamraka deva devas arjika~
 Vamraka~
 0000/main:avatar~
 0000/main:look~
-256026 0 0 0 2424 0 0 0 1000 E
+264216 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-6 6 5 2 0
+6 6 1 3 15
 BareHandAttack: 10
-Str: 18
+Str: 25
 Dex: 18
-Int: 18
-Wis: 18
+Int: 25
+Wis: 25
 Con: 18
-Cha: 18
+Cha: 25
 SavingPara: 8
 SavingRod: 8
 SavingPetri: 8
@@ -25,17 +25,17 @@ indu devas deva arjika~
 Indu~
 0001/main:avatar~
 0001/main:look~
-518298 0 0 0 2424 0 0 0 1000 E
+264216 0 0 0 2424 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 4 2 0
+6 6 1 3 15
 BareHandAttack: 10
 Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
 SavingPara: 8
 SavingRod: 8
 SavingPetri: 8
@@ -50,7 +50,7 @@ Indra~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 4 2 0
+8 8 4 2 6
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -72,7 +72,7 @@ Soma~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 4 2 0
+8 8 4 2 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -94,7 +94,7 @@ Bom~
 6170 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 4 2 0
+8 8 4 2 6
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -116,7 +116,7 @@ SecurityPRIME~
 260120 0 0 0 2168 0 0 0 1000 E
 30 10 -8 6d6+300 5d5+5
 50000 90000
-8 8 1 3 11
+8 8 1 3 6
 BareHandAttack: 14
 Str: 18
 Dex: 18
@@ -138,7 +138,7 @@ MedicPRIME~
 522266 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 2 3 10
+8 8 2 3 6
 BareHandAttack: 1
 Str: 18
 Dex: 18
@@ -184,7 +184,7 @@ Barry~
 6300 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 100000 108900
-8 8 0 2 0
+8 8 0 2 6
 BareHandAttack: 1
 Str: 18
 Dex: 18
@@ -207,7 +207,7 @@ Vivasvan~
 6170 0 0 0 2168 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 4 2 0
+8 8 4 2 6
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -229,7 +229,7 @@ Yama~
 522522 0 0 0 26744 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-6 6 4 2 0
+6 6 4 2 6
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -251,7 +251,7 @@ Yami~
 6170 0 0 0 320 0 0 0 1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-6 6 4 2 0
+6 6 4 2 5
 BareHandAttack: 2
 Str: 16
 Dex: 16
@@ -266,50 +266,50 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #13
-fighter indra indu~
-Indra Fighter~
+fighter indu~
+Indu Fighter~
 0013/main:avatar~
 #adv agent:thegame 0013/main:look
 ~
-2330 0 0 0 2136 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 2 0
+2328 0 0 0 2168 0 0 0 0 E
+30 -30 20 30d1000+30000 9d6+5
+0 150000
+8 8 1 3 12
 BareHandAttack: 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+SavingPara: 100
+SavingRod: 100
+SavingPetri: 100
+SavingBreath: 100
+SavingSpell: 100
 E
 #14
-fighter indra vamraka~
-Indra Fighter~
+fighter vamraka~
+Vamraka Fighter~
 0014/main:avatar~
 0014/main:look
 ~
-2330 0 0 0 2136 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 0 2 0
+6424 0 0 0 2168 0 0 0 0 E
+30 -30 20 30d1000+30000 9d6+5
+0 150000
+8 8 1 3 12
 BareHandAttack: 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+SavingPara: 100
+SavingRod: 100
+SavingPetri: 100
+SavingBreath: 100
+SavingSpell: 100
 E
 #15
 agni asura~
@@ -320,7 +320,7 @@ Agni~
 2072 0 0 0 2104 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
-8 8 4 2 0
+8 8 4 2 5
 BareHandAttack: 10
 Str: 18
 Dex: 18

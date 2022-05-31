@@ -170,6 +170,14 @@ Water Fountain~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
 0 0 0 0 0
+#386
+water fountain drink~
+Water Fountain~
+:room:/main:avatar~
+:room:/main:look~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
 #394
 arjika isotropic antenna array~
 Arjika Isotropic Antenna~
