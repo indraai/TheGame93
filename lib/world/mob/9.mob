@@ -484,10 +484,11 @@ trainer training 930 hypatia robot~
 Hypatia 930~
 930/main:avatar~
 930/main:look~
-74 0 0 0 0 0 0 0 -175 E
+74 0 0 0 8 0 0 0 -175 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 2 0 0
+BareHandAttack: 14
 E
 #931
 trainer training 931 jerome corsi human~
