@@ -97,9 +97,9 @@ void mobile_activity(void)
 
   // old code that continues if potential victim is an npc
   // this is so NPC can fight NPC if aggressive is set.
-  // if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
+  // if ( || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
 
-  if (!CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
+  if (!CAN_SEE(ch, vict) || (IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
 	  continue;
 
 	if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
