@@ -208,9 +208,9 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
 
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG)) {
-      send_to_char(ch, "::begin:object"
+      send_to_char(ch, "\n::begin:object\r"
       "\ntalk:#adv object:thegame %d/main:avatar\r"
-      "::end:object",
+      "\n::end:object\r",
       GET_OBJ_VNUM(display));
       // show_obj_to_char(display, ch, mode);
       // if (num != 1)
@@ -606,11 +606,6 @@ void look_at_room(struct char_data *ch, int ignore_brief)
   }
   send_to_char(ch, "\n::end:objects\r");
   send_to_char(ch, "\n::end:agob\r");
-
-  /* autoexits
-  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_AUTOEXIT))
-    do_auto_exits(ch);
-  */
 }
 
 static void look_in_direction(struct char_data *ch, int dir)
