@@ -303,10 +303,10 @@ trainer agent 917 pm2012 hacker robot~
 Tyler 917~
 917/main:avatar~
 917/main:look~
-76 0 0 0 0 0 0 0 -211 E
+74 0 0 0 0 0 0 0 -211 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 1 0
+8 8 1 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -318,10 +318,10 @@ trainer agent 918 tyler mayhem robot hacker~
 Tyler 918~
 918/main:avatar~
 918/main:look~
-76 0 0 0 0 0 0 0 -180 E
+74 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
-8 8 1 1 0
+8 8 1 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -333,7 +333,7 @@ trainer agent 919 elizabeth lapensee survivance human~
 Elizabeth 919~
 919/main:avatar~
 talk:#adv agent:thegame 919/main:look~
-76 0 0 0 0 0 0 0 -219 E
+74 0 0 0 0 0 0 0 -219 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 2 0 0
@@ -343,7 +343,7 @@ trainer agent 920 brenda romero human~
 Brenda 920~
 920/main:avatar~
 talk:#adv agent:thegame 920/main:look~
-76 0 0 0 0 0 0 0 -277 E
+74 0 0 0 0 0 0 0 -277 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 2 0 0
@@ -358,7 +358,7 @@ trainer agent 921 john romero human programmer~
 John 921~
 921/main:avatar~
 talk:#adv agent:thegame 921/main:look~
-76 0 0 0 0 0 0 0 -222 E
+74 0 0 0 0 0 0 0 -222 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0 0
@@ -383,7 +383,7 @@ trainer agent lolapps 923 robot~
 LOLapps 923~
 923/main:avatar~
 923/main:look~
-76 0 0 0 0 0 0 0 -250 E
+74 0 0 0 0 0 0 0 -250 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 0 1 0
@@ -398,7 +398,7 @@ trainer agent 924 rapleaf auren hoffman human~
 Auren 924~
 924/main:avatar~
 924/main:look~
-76 0 0 0 0 0 0 0 -255 E
+74 0 0 0 0 0 0 0 -255 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 0 1
@@ -413,7 +413,7 @@ trainer agent 925 peter thiel human palantir founders~
 Peter 925~
 925/main:avatar~
 925/main:look~
-76 0 0 0 0 0 0 0 -1000 E
+74 0 0 0 0 0 0 0 -1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 2 2
@@ -428,7 +428,7 @@ trainer agent 926 palantir alex karp human~
 Alex 926~
 926/main:avatar~
 926/main:look~
-76 0 0 0 0 0 0 0 -500 E
+74 0 0 0 0 0 0 0 -500 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 2 2
@@ -444,7 +444,7 @@ trainer training 927 ghostnet robot~
 GhostNet 927~
 927/main:avatar~
 927/main:look~
-76 0 0 0 0 0 0 0 -333 E
+74 0 0 0 0 0 0 0 -333 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 0 1 1
@@ -459,7 +459,7 @@ trainer agent 928 tyler robot~
 Tyler 928~
 928/main:avatar~
 928/main:look~
-76 0 0 0 0 0 0 0 -288 E
+74 0 0 0 0 0 0 0 -288 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 1
@@ -474,27 +474,27 @@ trainer agent 929 project89 robot~
 Project89 929~
 929/main:avatar~
 929/main:look~
-76 0 0 0 0 0 0 0 -120 E
+74 0 0 0 0 0 0 0 -120 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 0 1 0
+8 8 0 1 6
 E
 #930
 trainer training 930 hypatia robot~
 Hypatia 930~
 930/main:avatar~
 930/main:look~
-76 0 0 0 0 0 0 0 -175 E
+74 0 0 0 0 0 0 0 -175 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 2 1 0
+8 8 2 0 0
 E
 #931
 trainer training 931 jerome corsi human~
 Jerome 931~
 931/main:avatar~
 931/main:look~
-76 0 0 0 0 0 0 0 250 E
+74 0 0 0 0 0 0 0 250 E
 13 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0 0
@@ -509,7 +509,7 @@ trainer training 932 alexander sasha chislenko suicide human~
 Sasha 932~
 932/main:avatar~
 932/main:look~
-76 0 0 0 0 0 0 0 233 E
+74 0 0 0 0 0 0 0 233 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0 0
@@ -524,7 +524,7 @@ trainer training 933 lionel agent human michael william lebron~
 Lionel 933~
 933/main:avatar~
 933/main:look~
-76 0 0 0 0 0 0 0 -133 E
+74 0 0 0 0 0 0 0 -133 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0 0
@@ -554,7 +554,7 @@ trainer training 935 jormungandr evil robot hacker~
 Jormungandr 935~
 935/main:avatar~
 935/main:look~
-76 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 1 1
@@ -565,7 +565,7 @@ Eric 936~
 936/main:avatar~
 936/main:look
 ~
-76 0 0 0 0 0 0 0 -180 E
+74 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0 0
@@ -580,7 +580,7 @@ trainer training 937 alt angst robot~
 John 937~
 937/main:avatar~
 937/main:look~
-76 0 0 0 0 0 0 0 -197 E
+74 0 0 0 0 0 0 0 -197 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 1
@@ -595,7 +595,7 @@ trainer training 938 James Parry hacker human~
 James 938~
 938/main:avatar~
 938/main:look~
-76 0 0 0 0 0 0 0 -222 E
+74 0 0 0 0 0 0 0 -222 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 1 0
