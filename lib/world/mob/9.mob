@@ -21,7 +21,7 @@ Kent 801~
 0801/main:avatar~
 0801/main:look
 ~
-76 0 0 0 0 0 0 0 -350 E
+74 0 0 0 0 0 0 0 -350 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1 0 1
@@ -36,7 +36,7 @@ trainer agent 802 shok matt conover hacker w00w00 human~
 Matt 802~
 802/main:avatar~
 802/main:look~
-76 0 0 0 0 0 0 0 -200 E
+74 0 0 0 0 0 0 0 -200 E
 5 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
@@ -46,7 +46,7 @@ trainer agent 803 grandmaster ratte kevin wheeler hacker human~
 Kevin 803~
 803/main:avatar~
 803/main:look~
-76 0 0 0 0 0 0 0 -290 E
+74 0 0 0 0 0 0 0 -290 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 1 0 1
@@ -61,7 +61,7 @@ trainer agent 804 tron boris floricic hacker suicide human~
 Boris 804~
 804/main:avatar~
 804/main:look~
-76 0 0 0 0 0 0 0 -275 E
+74 0 0 0 0 0 0 0 -275 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1 0 1
@@ -91,7 +91,7 @@ trainer agint 809 aaron swartz suicide human hacker~
 Aaron 809~
 809/main:avatar~
 809/main:look~
-76 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
@@ -101,7 +101,7 @@ trainer agent 810 james dolan suicide marines soldier human hacker usmil~
 James 810~
 810/main:avatar~
 810/main:look~
-76 0 0 0 0 0 0 0 275 E
+74 0 0 0 0 0 0 0 275 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1 0 1
@@ -150,7 +150,7 @@ Tyler 903~
 903/main:avatar~
 903/main:look
 ~
-76 0 0 0 0 0 0 0 -110 E
+74 0 0 0 0 0 0 0 -110 E
 2 20 8 0d0+20 1d2+0
 20 400
 8 8 1 1 6
@@ -190,7 +190,7 @@ trainer agent 907 tyler project mayhem 2020 robot~
 Deva 907~
 907/main:avatar~
 907/main:look~
-76 0 0 0 0 0 0 0 281 E
+74 0 0 0 0 0 0 0 281 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 0 2 5
@@ -611,7 +611,7 @@ Xibo 939~
 939/main:avatar~
 939/main:look
 ~
-76 0 0 0 0 0 0 0 -222 E
+74 0 0 0 0 0 0 0 -222 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1 1
@@ -626,7 +626,7 @@ trainer training 940 eric hughes cypherpunk eotl amshey hacker human~
 Eric 940~
 940/main:avatar~
 940/main:look~
-76 0 0 0 0 0 0 0 -250 E
+74 0 0 0 0 0 0 0 -250 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 1
@@ -641,7 +641,7 @@ trainer training 941 hannibal eotl human hacker usarmy usmil~
 Hannibal 941~
 941/main:avatar~
 941/main:look~
-76 0 0 0 0 0 0 0 -150 E
+74 0 0 0 0 0 0 0 -150 E
 4 20 10 1d1+0 1d1+0
 0 0
 8 8 1 1 1
@@ -651,7 +651,7 @@ trainer training 942 stanford robot~
 Stanford 942~
 942/main:avatar~
 942/main:look~
-76 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 0 1 1
@@ -661,7 +661,7 @@ trainer training 943 defcon deadaddict hacker human~
 Eli 943~
 943/main:avatar~
 943/main:look~
-76 0 0 0 0 0 0 0 -230 E
+74 0 0 0 0 0 0 0 -230 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 1
@@ -691,7 +691,7 @@ trainer training 945 emmanuel 2600 hacker eric corley human~
 Eric 945~
 945/main:avatar~
 945/main:look~
-76 0 0 0 0 0 0 0 -219 E
+74 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
@@ -733,7 +733,7 @@ trainer agent 948 spoonman mark petrakis human~
 Spoonman 948~
 948/main:avatar~
 948/main:look~
-76 0 0 0 0 0 0 0 -350 E
+74 0 0 0 0 0 0 0 -350 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 1
@@ -748,7 +748,7 @@ trainer trianining 949 brenda laurel cobrawoman human~
 Brenda 949~
 949/main:avatar~
 949/main:look~
-76 0 0 0 0 0 0 0 -310 E
+74 0 0 0 0 0 0 0 -310 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 2 0 1
@@ -763,7 +763,7 @@ trainer agent 950 slac stanford richard neal human~
 Richard 950~
 950/main:avatar~
 950/main:look~
-76 0 0 0 0 0 0 0 -250 E
+74 0 0 0 0 0 0 0 -250 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1 0 1
@@ -778,7 +778,7 @@ trainer training 951 ghostmind mind ghost robot~
 GhostMind 951~
 951/main:avatar~
 951/main:look~
-76 0 0 0 0 0 0 0 -300 E
+74 0 0 0 0 0 0 0 -300 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1 1
@@ -915,7 +915,7 @@ trainer training 962 agent jason goodman crowdsource human~
 Jason 962~
 962/main:avatar~
 962/main:look~
-76 0 0 0 0 0 0 0 -400 E
+74 0 0 0 0 0 0 0 -400 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 1 0 1
@@ -930,7 +930,7 @@ trainer training 963 agent larry klayman human infowars lawyer~
 Larry 963~
 963/main:avatar~
 963/main:look~
-76 0 0 0 0 0 0 0 -500 E
+74 0 0 0 0 0 0 0 -500 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 0 0
@@ -945,7 +945,7 @@ trainer agent 964 laura loomer human activist infowars~
 Laura 964~
 964/main:avatar~
 964/main:look~
-76 0 0 0 0 0 0 0 -250 E
+74 0 0 0 0 0 0 0 -250 E
 9 17 4 1d1+90 1d2+1
 90 8100
 8 8 2 0 1
@@ -960,7 +960,7 @@ trainer agent 965 alex jones human infowars~
 Alex 965~
 965/main:avatar~
 965/main:look~
-76 0 0 0 0 0 0 0 -350 E
+74 0 0 0 0 0 0 0 -350 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 0 2
@@ -975,7 +975,7 @@ trainer training 966 vladimir putin human russia kgb~
 Vladimir 966~
 966/main:avatar~
 966/main:look~
-76 0 0 0 0 0 0 0 -600 E
+74 0 0 0 0 0 0 0 -600 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 0 2
@@ -990,7 +990,7 @@ trainer training 967 russianbot robot russia~
 RussianBot 967~
 967/main:avatar~
 967/main:look~
-76 0 0 0 0 0 0 0 -450 E
+74 0 0 0 0 0 0 0 -450 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 0 1 1
@@ -1005,7 +1005,7 @@ trainer agent 968 peter great romanov russia human~
 Peter 968~
 968/main:avatar~
 968/main:look~
-76 0 0 0 8 0 0 0 500 E
+74 0 0 0 8 0 0 0 500 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 0 1
@@ -1020,7 +1020,7 @@ trainer agent 969 yuri andropov kgb russia human~
 Yuri 969~
 969/main:avatar~
 969/main:look~
-76 0 0 0 0 0 0 0 -600 E
+74 0 0 0 0 0 0 0 -600 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 0 3
@@ -1035,7 +1035,7 @@ trainer agent 970 patriarch orthodox russia kirill human~
 Kirill 970~
 970/main:avatar~
 970/main:look~
-76 0 0 0 0 0 0 0 -1000 E
+74 0 0 0 0 0 0 0 -1000 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 0 3
@@ -1050,7 +1050,7 @@ trainer agent 972 grand duchess maria russia human romanov~
 Maria 972~
 972/main:avatar~
 972/main:look~
-76 0 0 0 0 0 0 0 -1000 E
+74 0 0 0 0 0 0 0 -1000 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 2 0 1
@@ -1065,7 +1065,7 @@ trainer agent 973 george mikhailovich russia human romanov~
 George 973~
 973/main:avatar~
 973/main:look~
-76 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
@@ -1075,7 +1075,7 @@ trainer agent 974 jeffrey epstein suicide human~
 Jeffrey 974~
 974/main:avatar~
 974/main:look~
-76 0 0 0 0 0 0 0 -500 E
+74 0 0 0 0 0 0 0 -500 E
 5 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
@@ -1085,7 +1085,7 @@ trainer agent 975 ben goertzel human scientist~
 Ben 975~
 975/main:avatar~
 975/main:look~
-76 0 0 0 0 0 0 0 -600 E
+74 0 0 0 0 0 0 0 -600 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1 0 1
@@ -1100,7 +1100,7 @@ trainer agent 976 cassio pennachin singularitynet human scientist~
 Cassio 976~
 976/main:avatar~
 976/main:look~
-76 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
@@ -1110,7 +1110,7 @@ trainer agent 977 opencog robot~
 Opencog 977~
 977/main:avatar~
 977/main:look~
-76 0 0 0 0 0 0 0 -333 E
+74 0 0 0 0 0 0 0 -333 E
 9 17 4 1d1+90 1d2+1
 90 8100
 8 8 0 1 1
@@ -1125,7 +1125,7 @@ trainer agent 978 natasha vita-more human scientist~
 Natasha 978~
 978/main:avatar~
 978/main:look~
-76 0 0 0 0 0 0 0 -500 E
+74 0 0 0 0 0 0 0 -500 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 0 1
@@ -1140,7 +1140,7 @@ trainer agent 979 karl koch hacker suicide hacker human~
 Karl 979~
 979/main:avatar~
 979/main:look~
-76 0 0 0 0 0 0 0 -600 E
+74 0 0 0 0 0 0 0 -600 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 1 0 2
@@ -1155,7 +1155,7 @@ trainer training agent 980 robert karlovich areskin russia doctor~
 Robert 980~
 980/main:avatar~
 980/main:look~
-76 0 0 0 0 0 0 0 -500 E
+74 0 0 0 0 0 0 0 -500 E
 12 16 2 2d2+120 2d2+2
 120 14400
 8 8 1 0 2
@@ -1170,7 +1170,7 @@ kalmykia trainer agent 981~
 Kalmykia 981~
 981/main:avatar~
 981/main:look~
-76 0 0 0 0 0 0 0 500 E
+74 0 0 0 0 0 0 0 500 E
 12 20 10 1d1+0 1d1+0
 0 0
 8 8 0 2 1
@@ -1180,7 +1180,7 @@ trainer agent 982 itigelov buddhist monk~
 Itigelov 982~
 982/main:avatar~
 982/main:look~
-76 0 0 0 0 0 0 0 400 E
+74 0 0 0 0 0 0 0 400 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 0 2
@@ -1195,7 +1195,7 @@ trainer agent 983 sergei shoigu general military russia~
 Sergei 983~
 983/main:avatar~
 983/main:look~
-76 0 0 0 0 0 0 0 -500 E
+74 0 0 0 0 0 0 0 -500 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 0 3
@@ -1210,7 +1210,7 @@ E
 QAnon 984~
 984/main:avatar~
 984/main:look~
-76 0 0 0 0 0 0 0 -600 E
+74 0 0 0 0 0 0 0 -600 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 1 6
