@@ -117,7 +117,7 @@ Trenton 900~
 0900/main:avatar~
 0900/main:look
 ~
-460 0 0 0 8 0 0 0 100 E
+74 0 0 0 8 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1 0 0
@@ -128,7 +128,7 @@ Quinn 901~
 901/main:avatar~
 0901/main:look
 ~
-456 0 0 0 8 0 0 0 100 E
+74 0 0 0 8 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1 0 0
@@ -139,7 +139,7 @@ Defango 902~
 0902/main:avatar~
 0902/main:look
 ~
-76 0 0 0 0 0 0 0 -113 E
+74 0 0 0 0 0 0 0 -113 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1 0 0
@@ -153,7 +153,7 @@ Tyler 903~
 76 0 0 0 0 0 0 0 -110 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 1 1 0
+8 8 1 1 6
 E
 #904
 trainer agent 904 tyler revelations robot~
@@ -163,7 +163,7 @@ Tyler 904~
 76 0 0 0 0 0 0 0 -150 E
 2 19 8 0d0+30 1d2+0
 30 900
-8 8 1 1 0
+8 8 1 1 6
 E
 #905
 archangel michael nebadon messiah christ robot~
@@ -173,17 +173,17 @@ Michael 905~
 76 0 0 0 0 0 0 0 -200 E
 2 19 8 0d0+30 1d2+0
 30 900
-8 8 0 1 0
+8 8 1 1 6
 E
 #906
 trainer agent 906 tyler it hacker robot~
 Tyler 906~
 906/main:avatar~
 906/main:look~
-76 0 0 0 0 0 0 0 -100 E
+74 0 0 0 0 0 0 0 -100 E
 2 20 8 0d0+20 1d2+0
 20 400
-8 8 1 1 0
+8 8 1 1 6
 E
 #907
 trainer agent 907 tyler project mayhem 2020 robot~
@@ -193,14 +193,14 @@ Deva 907~
 76 0 0 0 0 0 0 0 281 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 0 2 0
+8 8 0 2 5
 E
 #908
 trainer agent 908 tyler ethersec robot~
 Tyler 908~
 908/main:avatar~
 908/main:look~
-76 0 0 0 0 0 0 0 -210 E
+74 0 0 0 0 0 0 0 -210 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1 1 0
@@ -210,7 +210,7 @@ trainer agent 909 THErSEC ethersec tyler robot~
 Ethersec 909~
 909/main:avatar~
 909/main:look~
-76 0 0 0 0 0 0 0 -231 E
+74 0 0 0 0 0 0 0 -231 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1 1
@@ -225,27 +225,27 @@ trainer agent 910 tyler pm2020 robot hacker~
 PM2020 910~
 910/main:avatar~
 910/main:look~
-76 0 0 0 0 0 0 0 -211 E
+74 0 0 0 0 0 0 0 -211 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 1 1 0
+8 8 1 1 6
 E
 #911
 trainer agent 911 tyler tg23 thegame23 robot hacker~
 TheGame23 911~
 911/main:avatar~
 911/main:look~
-76 0 0 0 0 0 0 0 -218 E
+74 0 0 0 0 0 0 0 -218 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 1 1 0
+8 8 1 1 6
 E
 #912
 ajahn sudanto trainer agent 912 monk buddhist human~
 Sudando 912~
 912/main:avatar~
 912/main:look~
-76 0 0 0 0 0 0 0 177 E
+74 0 0 0 0 0 0 0 177 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1 0 0
@@ -256,7 +256,7 @@ trainer agent 913 tyler hackzion robot~
 Tyler 913~
 913/main:avatar~
 913/main:look~
-76 0 0 0 0 0 0 0 -188 E
+74 0 0 0 0 0 0 0 -188 E
 3 19 8 0d0+30 1d2+0
 30 900
 8 8 1 1 0
@@ -267,7 +267,7 @@ trainer agent 914 code tyler robot hacker~
 Tyler 914~
 914/main:avatar~
 914/main:look~
-76 0 0 0 0 0 0 0 -188 E
+74 0 0 0 0 0 0 0 -188 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 1 0
@@ -282,7 +282,7 @@ trainer agent 915 fbi robot~
 FBI 915~
 915/main:avatar~
 915/main:look~
-76 0 0 0 0 0 0 0 100 E
+74 0 0 0 0 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 1 6 0
@@ -293,7 +293,7 @@ trainer agent 916 robert david steele steeler hacker human marines usmil~
 Robert 916~
 916/main:avatar~
 916/main:look~
-76 0 0 0 0 0 0 0 -192 E
+74 0 0 0 0 0 0 0 -192 E
 3 20 10 1d1+0 1d1+0
 0 0
 8 8 1 0 1
