@@ -99,7 +99,7 @@ void mobile_activity(void)
   // this is so NPC can fight NPC if aggressive is set.
   // if ( || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
 
-  if (!CAN_SEE(ch, vict) || (IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
+  if (!CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
 	  continue;
 
 	if (MOB_FLAGGED(ch, MOB_WIMPY) && AWAKE(vict))
@@ -110,9 +110,10 @@ void mobile_activity(void)
 	   (MOB_FLAGGED(ch, MOB_AGGR_NEUTRAL) && IS_NEUTRAL(vict)) ||
 	   (MOB_FLAGGED(ch, MOB_AGGR_GOOD   ) && IS_GOOD(vict))) {
 
-          /* Can a master successfully control the charmed monster? */
-          if (aggressive_mob_on_a_leash(ch, ch->master, vict))
-            continue;
+    /* Can a master successfully control the charmed monster? */
+    if (aggressive_mob_on_a_leash(ch, ch->master, vict)) {
+      continue;
+    }
 
 	  hit(ch, vict, TYPE_UNDEFINED);
 	  found = TRUE;
@@ -128,7 +129,7 @@ void mobile_activity(void)
   // flag that prevents NPC from battling
   // if (IS_NPC(vict) || !CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
 
-  if (!CAN_SEE(ch, vict) || PRF_FLAGGED(vict, PRF_NOHASSLE))
+  if (!CAN_SEE(ch, vict) || (!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOHASSLE)))
 	  continue;
 
 	for (names = MEMORY(ch); names && !found; names = names->next) {
