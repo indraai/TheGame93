@@ -482,28 +482,6 @@ SPECIAL(puff)
   }
 }
 
-SPECIAL(fido)
-{
-  struct obj_data *i, *temp, *next_obj;
-
-  if (cmd || !AWAKE(ch))
-    return (FALSE);
-
-  for (i = world[IN_ROOM(ch)].contents; i; i = i->next_content) {
-    if (!IS_CORPSE(i))
-      continue;
-
-    act("$n savagely devours a corpse.", FALSE, ch, 0, 0, TO_ROOM);
-    for (temp = i->contains; temp; temp = next_obj) {
-      next_obj = temp->next_content;
-      obj_from_obj(temp);
-      obj_to_room(temp, IN_ROOM(ch));
-    }
-    extract_obj(i);
-    return (TRUE);
-  }
-  return (FALSE);
-}
 
 SPECIAL(janitor)
 {
@@ -641,7 +619,7 @@ SPECIAL(pet_shops)
     IS_CARRYING_W(pet) = 1000;
     IS_CARRYING_N(pet) = 100;
 
-    send_to_char(ch, "May you enjoy your buddy.\r\n");
+    send_to_char(ch, "\nsay:May you enjoy your buddy.\r");
     act("$n buys $N as a pet.", FALSE, ch, 0, pet, TO_ROOM);
 
     return (TRUE);
@@ -658,36 +636,36 @@ SPECIAL(bank)
 
   if (CMD_IS("balance")) {
     if (GET_BANK_GOLD(ch) > 0)
-      send_to_char(ch, "Your current balance is %d coins.\r\n", GET_BANK_GOLD(ch));
+      send_to_char(ch, "\nbank:Your balance is %d credits.\r", GET_BANK_GOLD(ch));
     else
-      send_to_char(ch, "You currently have no money deposited.\r\n");
+      send_to_char(ch, "\nbank:You currently have no credits deposited.\r");
     return (TRUE);
   } else if (CMD_IS("deposit")) {
     if ((amount = atoi(argument)) <= 0) {
-      send_to_char(ch, "How much do you want to deposit?\r\n");
+      send_to_char(ch, "\nbank:How much do you want to deposit?\r");
       return (TRUE);
     }
     if (GET_GOLD(ch) < amount) {
-      send_to_char(ch, "You don't have that many coins!\r\n");
+      send_to_char(ch, "\nbank:You don't have that many credits!\r");
       return (TRUE);
     }
     decrease_gold(ch, amount);
 	increase_bank(ch, amount);
-    send_to_char(ch, "You deposit %d coins.\r\n", amount);
+    send_to_char(ch, "\nbank:You deposit %d credits.\r", amount);
     act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
     return (TRUE);
   } else if (CMD_IS("withdraw")) {
     if ((amount = atoi(argument)) <= 0) {
-      send_to_char(ch, "How much do you want to withdraw?\r\n");
+      send_to_char(ch, "\nbank:How much do you want to withdraw?\r");
       return (TRUE);
     }
     if (GET_BANK_GOLD(ch) < amount) {
-      send_to_char(ch, "You don't have that many coins deposited!\r\n");
+      send_to_char(ch, "\nbank:You don't have that many credits.\r");
       return (TRUE);
     }
     increase_gold(ch, amount);
 	decrease_bank(ch, amount);
-    send_to_char(ch, "You withdraw %d coins.\r\n", amount);
+    send_to_char(ch, "\nbank:You withdraw %d credits.\r", amount);
     act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
     return (TRUE);
   } else
