@@ -306,31 +306,36 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
   if (!ch->desc)
     return;
 
-   if (i->player.description)
-    send_to_char(ch, "\n# %s\r"
-      "\n::begin:agent\r"
-      "\ntalk:#adv agent:thegame %s\r"
-      "\n::end:agent\r",
-      i->player.short_descr,
-      i->player.description
-    );
-  else
+   if (i->player.description) {
+     send_to_char(ch, "\n# %s\r"
+       "\n::begin:agent\r"
+       "\ntalk:#adv agent:thegame %s\r"
+       "\n::end:agent\r",
+       i->player.short_descr,
+       i->player.description
+     );
+   }
+  else {
     act("\ninfo:You see nothing special about $m.\r", FALSE, i, 0, ch, TO_VICT);
+  }
 
   diag_char_to_char(i, ch);
-
   found = FALSE;
-  for (j = 0; !found && j < NUM_WEARS; j++)
-    if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j)))
+
+  for (j = 0; !found && j < NUM_WEARS; j++) {
+    if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
       found = TRUE;
+    }
+  }
 
   if (found) {
     act("$n is using...", FALSE, i, 0, ch, TO_VICT);
-    for (j = 0; j < NUM_WEARS; j++)
+    for (j = 0; j < NUM_WEARS; j++) {
       if (GET_EQ(i, j) && CAN_SEE_OBJ(ch, GET_EQ(i, j))) {
 	      // send_to_char(ch, "object:%s\r\n", wear_where[j]);
 	      show_obj_to_char(GET_EQ(i, j), ch, SHOW_OBJ_SHORT);
       }
+    }
   }
   // todo: look at fixing this code better
   if (ch != i && GET_LEVEL(ch) >= LVL_IMMORT) {
@@ -345,14 +350,14 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 {
   struct obj_data *furniture;
   const char *positions[] = {
-    " is awaiting re=spawn.",
+    " is re=spawning.",
     " is wounded.",
     " is incapacitated.",
     " is stunned.",
     " is sleeping.",
     " is resting.",
     " is sitting.",
-    "!FIGHTING!",
+    " is fighting.",
     " is standing."
   };
 
@@ -406,17 +411,17 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
     send_to_char(ch, "%s%s%s", i->player.name, *GET_TITLE(i) ? " " : "", GET_TITLE(i));
 
   if (AFF_FLAGGED(i, AFF_INVISIBLE))
-    send_to_char(ch, " (invisible)");
+    send_to_char(ch, " invisible");
   if (AFF_FLAGGED(i, AFF_HIDE))
-    send_to_char(ch, " (hidden)");
+    send_to_char(ch, " hidden");
   if (!IS_NPC(i) && !i->desc)
-    send_to_char(ch, " (linkless)");
+    send_to_char(ch, " linkless");
   if (!IS_NPC(i) && PLR_FLAGGED(i, PLR_WRITING))
-    send_to_char(ch, " (writing)");
+    send_to_char(ch, " writing");
   if (!IS_NPC(i) && PRF_FLAGGED(i, PRF_BUILDWALK))
-    send_to_char(ch, " (buildwalk)");
+    send_to_char(ch, " buildwalk");
   if (!IS_NPC(i) && PRF_FLAGGED(i, PRF_AFK))
-    send_to_char(ch, " (AFK)");
+    send_to_char(ch, " AFK");
 
   if (GET_POS(i) != POS_FIGHTING) {
     if (!SITTING(i))
@@ -429,7 +434,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
   }
   } else {
     if (FIGHTING(i)) {
-      send_to_char(ch, " is here, fighting ");
+      send_to_char(ch, " is fighting ");
       if (FIGHTING(i) == ch)
 	send_to_char(ch, "YOU!");
       else {
@@ -439,14 +444,14 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 	  send_to_char(ch,  "someone who has already left!");
       }
     } else			/* NIL fighting pointer */
-      send_to_char(ch, " is here struggling with thin air.");
+      send_to_char(ch, " is here struggling.");
   }
 
   if (AFF_FLAGGED(ch, AFF_DETECT_ALIGN)) {
     if (IS_EVIL(i))
-      send_to_char(ch, " (Red Aura)");
+      send_to_char(ch, " E!");
     else if (IS_GOOD(i))
-      send_to_char(ch, " (Blue Aura)");
+      send_to_char(ch, " G!");
   }
 
   if (AFF_FLAGGED(i, AFF_SANCTUARY))
