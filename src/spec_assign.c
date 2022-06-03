@@ -114,7 +114,6 @@ static struct spec_func_data spec_func_list[] = {
   {"Mayor",          mayor },
   {"Snake",          snake },
   {"Puff",           puff },
-  {"Fido",           fido },
   {"Janitor",        janitor },
   {"Cityguard",      cityguard },
   {"Postmaster",     postmaster },
