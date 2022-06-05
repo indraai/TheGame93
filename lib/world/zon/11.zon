@@ -2,6 +2,10 @@
 Quinn~
 Disneyland~
 1100 1199 15 2 d 0 0 0 -1 -1
+M 0 1159 1 1159 	(MedicDEVA D1159)
+M 0 1140 1 1140 	(Cafe Attendant)
+G 1 1140 99 -1 	(Cafe Special)
+O 0 300 2 1137 	(Bank of Arjika ATM)
 M 0 1160 1 1160 	(Plaza Inn Attendant)
 G 1 1160 99 -1 	(PlazaInn Meal)
 O 0 1157 1 1157 	(RTC31930 Computer)
@@ -35,6 +39,5 @@ E 1 1100 99 6 	(Mickey Mouse Ears)
 M 0 1161 1 1161 	(Plaza Attendant)
 M 0 1139 1 1139 	(the Mad Hatter)
 G 1 1100 99 -1 	(Mickey Mouse Ears)
-O 0 300 99 1137 	(Bank of Arjika ATM)
 S
 $

@@ -4,7 +4,6 @@ Triggers North~
 ~
 set room %actor.room.vnum%
 set d north
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -26,7 +25,6 @@ Triggers East~
 ~
 set room %actor.room.vnum%
 set d east
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -48,7 +46,6 @@ Triggers South~
 ~
 set room %actor.room.vnum%
 set d south
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -70,7 +67,6 @@ Triggers West~
 ~
 set room %actor.room.vnum%
 set d west
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -92,7 +88,6 @@ Triggers Up~
 ~
 set room %actor.room.vnum%
 set d up
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -114,7 +109,6 @@ Triggers Down~
 ~
 set room %actor.room.vnum%
 set d down
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -178,7 +172,6 @@ Triggers South East~
 ~
 set room %actor.room.vnum%
 set d southeast
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -200,7 +193,6 @@ Triggers South West~
 ~
 set room %actor.room.vnum%
 set d southwest
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1
@@ -217,12 +209,11 @@ if %actor.varexists(on_tour)%
 end
 ~
 #910
-Triggers South Random~
+Triggers Random~
 2 g 100
 ~
 set room %actor.room.vnum%
 set d %random.dir%
-
 if %actor.varexists(on_tour)%
   wait 10s
   %send% %actor% gui:#adv world:thegame %room%/main:trg1

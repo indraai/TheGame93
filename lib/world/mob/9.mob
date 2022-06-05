@@ -4,7 +4,7 @@ Stephen 800~
 0800/main:avatar~
 0800/main:look
 ~
-76 0 0 0 0 0 0 0 -299 E
+74 0 0 0 0 0 0 0 -299 E
 6 18 6 1d1+60 1d2+1
 60 3600
 8 8 1 0 1
@@ -76,10 +76,10 @@ trainer agent 808 jonathan james jj hacker suicide human~
 Jonathan 808~
 808/main:avatar~
 808/main:look~
-76 0 0 0 0 0 0 0 275 E
+74 0 0 0 0 0 0 0 275 E
 6 18 6 1d1+60 1d2+1
 60 3600
-8 8 1 0 1
+8 8 1 0 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -160,7 +160,7 @@ trainer agent 904 tyler revelations robot~
 Tyler 904~
 904/main:avatar~
 904/main:look~
-76 0 0 0 0 0 0 0 -150 E
+74 0 0 0 0 0 0 0 -150 E
 2 19 8 0d0+30 1d2+0
 30 900
 8 8 1 1 6
@@ -170,7 +170,7 @@ archangel michael nebadon messiah christ robot~
 Michael 905~
 905/main:avatar~
 905/main:look~
-76 0 0 0 0 0 0 0 -200 E
+74 0 0 0 0 0 0 0 -200 E
 2 19 8 0d0+30 1d2+0
 30 900
 8 8 1 1 6
@@ -373,7 +373,7 @@ trainer agent tabitha lavery bass 922 human~
 Tabitha 922~
 922/main:avatar~
 922/main:look~
-76 0 0 0 0 0 0 0 -1000 E
+74 0 0 0 0 0 0 0 -1000 E
 1 20 9 0d0+10 1d2+0
 10 100
 8 8 2 0 0
@@ -539,7 +539,7 @@ trainer training 0934 cyberman robot hacker~
 Cyberman 934~
 934/main:avatar~
 934/main:look~
-76 0 0 0 0 0 0 0 -180 E
+74 0 0 0 0 0 0 0 -180 E
 4 19 7 0d0+40 1d2+0
 40 1600
 8 8 1 1 0
@@ -676,7 +676,7 @@ trainer training 944 satan dan farmer defcon marines hacker human usmil~
 Dan 944~
 944/main:avatar~
 944/main:look~
-76 0 0 0 0 0 0 0 0 E
+74 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 1

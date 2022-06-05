@@ -115,6 +115,16 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#1140
+disneyland attendant cafe 1140~
+Cafe Attendant~
+1140/main:avatar~
+1140/main:look~
+74 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0 1 1
+E
 #1157
 disney disneyland agent athena rtc31930~
 Athena RTC31930~
@@ -132,6 +142,16 @@ SavingBreath: 2
 SavingSpell: 2
 E
 T 1157
+#1159
+medical medic deva medicdeva d1159~
+MedicDEVA D1159~
+1159/main:avatar~
+1159/main:look~
+90 0 0 0 2424 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2 2 10
+E
 #1160
 disney disneyland plazainn attendant~
 Plaza Inn Attendant~

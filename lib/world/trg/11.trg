@@ -21,7 +21,7 @@ Talk to Athena~
 0 g 100
 ~
 wait 2s
-%send% %actor% talk:#pandora ask:larry %speech%
+%send% %actor% gui:#pandora ask:athena %speech%
 ~
 #1160
 PlazaInn Attendant Greeting~
