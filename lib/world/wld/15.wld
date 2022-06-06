@@ -1,11 +1,521 @@
 #1500
-The Beginning~
+Fantasyland~
 Not much here.
 ~
-15 0 0 0 0 0
+15 16 0 0 0 1
+D0
+~
+~
+0 0 1501
 D2
 ~
 ~
 0 0 1122
+S
+#1501
+Fantasyland~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D0
+~
+~
+0 0 1502
+D1
+~
+~
+0 0 1517
+D2
+~
+~
+0 0 1500
+D3
+~
+~
+0 0 1516
+S
+#1502
+Fantasyland~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D0
+~
+~
+0 0 1503
+D2
+~
+~
+0 0 1501
+D3
+~
+~
+0 0 1518
+D4
+~
+~
+0 0 -1
+S
+#1503
+Fantasyland~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D0
+~
+~
+0 0 1505
+D1
+~
+~
+0 0 1509
+D2
+~
+~
+0 0 1502
+D3
+~
+~
+0 0 1508
+D6
+~
+~
+0 0 1504
+D7
+~
+~
+0 0 1506
+D9
+~
+~
+0 0 1507
+S
+#1504
+Snow White's Adventures~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D0
+~
+~
+0 0 1511
+D2
+~
+~
+0 0 1508
+D8
+~
+~
+0 0 1503
+S
+#1505
+King Arthur Carousel~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D0
+~
+~
+0 0 1510
+D2
+~
+~
+0 0 1503
+S
+#1506
+Peter Pan Flight~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D0
+~
+~
+0 0 1512
+D8
+~
+~
+0 0 1509
+D9
+~
+~
+0 0 1503
+S
+#1507
+Sleeping Beauty Castle~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D7
+~
+~
+0 0 1503
+S
+#1508
+Tinkerbell Toy Store~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D0
+~
+~
+0 0 1504
+D1
+~
+~
+0 0 1503
+S
+#1509
+Merlin's Magic Shop~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D3
+~
+~
+0 0 1503
+D6
+~
+~
+0 0 1506
+D9
+~
+~
+0 0 1502
+S
+#1510
+Mad Tea Party~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D2
+~
+~
+0 0 1505
+D6
+~
+~
+0 0 1527
+S
+#1511
+Juice Bar~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D0
+~
+~
+0 0 1513
+D2
+~
+~
+0 0 1504
+S
+#1512
+Mad Hatter~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D0
+~
+~
+0 0 1515
+D2
+~
+~
+0 0 1506
+S
+#1513
+Fantasyland Theatre~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D2
+~
+~
+0 0 1511
+D6
+~
+~
+0 0 1519
+S
+#1514
+Captain Hook's Galley~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D1
+~
+~
+0 0 1525
+D3
+~
+~
+0 0 1529
+D6
+~
+~
+0 0 1528
+D7
+~
+~
+0 0 1530
+D8
+~
+~
+0 0 1522
+D9
+~
+~
+0 0 1527
+S
+#1515
+Mr. Toad's Wild Ride~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D2
+~
+~
+0 0 1512
+D7
+~
+~
+0 0 1522
+S
+#1516
+Arts and Crafts~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D1
+~
+~
+0 0 1501
+S
+#1517
+Castle Candy Shop~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D3
+~
+~
+0 0 1501
+S
+#1518
+Glassblower~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D1
+~
+~
+0 0 1502
+S
+#1519
+Fantasy Gift Fair~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D6
+~
+~
+0 0 1520
+D8
+~
+~
+0 0 1513
+S
+#1520
+Souvenir Stand~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D0
+~
+~
+0 0 1527
+D8
+~
+~
+0 0 1519
+S
+#1521
+Alice in Wonderland~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D6
+~
+~
+0 0 1522
+D7
+~
+~
+0 0 1524
+D8
+~
+~
+0 0 1523
+S
+#1522
+Character Food Stands~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D6
+~
+~
+0 0 1514
+D8
+~
+~
+0 0 1521
+D9
+~
+~
+0 0 1515
+S
+#1523
+Matterhorn Bobsleds~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D6
+~
+~
+0 0 1521
+S
+#1524
+Fantasyland Autopia~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D6
+~
+~
+0 0 1526
+D9
+~
+~
+0 0 1521
+S
+#1525
+Storybook Land Canal Boats~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D1
+~
+~
+0 0 1526
+D3
+~
+~
+0 0 1514
+S
+#1526
+Motor Boat Cruise~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D3
+~
+~
+0 0 1525
+D6
+~
+~
+0 0 1531
+D8
+~
+~
+0 0 1524
+S
+#1527
+Dumbo Flying Elephants~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D2
+~
+~
+0 0 1520
+D6
+~
+~
+0 0 1529
+D7
+~
+~
+0 0 1514
+D8
+~
+~
+0 0 1510
+S
+#1528
+Circus Train~
+You are in an unfinished room.
+~
+15 16 0 0 0 1
+D8
+~
+~
+0 0 1514
+D9
+~
+~
+0 0 1529
+S
+#1529
+Fantasyland Skyway~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D1
+~
+~
+0 0 1514
+D4
+~
+~
+0 0 1611
+D7
+~
+~
+0 0 1528
+D8
+~
+~
+0 0 1527
+S
+#1530
+It's a Small World~
+You are in an unfinished room.
+~
+15 24 0 0 0 0
+D2
+~
+~
+0 0 1531
+D9
+~
+~
+0 0 1514
+S
+#1531
+Small World Stand~
+You are in an unfinished room.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1530
+D8
+~
+~
+0 0 1526
 S
 $~

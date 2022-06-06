@@ -47,6 +47,10 @@ The Terrace - Tomorrowland~
 You are in an unfinished room.
 ~
 16 24 0 0 0 0
+D1
+~
+~
+0 0 1611
 D2
 ~
 ~
@@ -163,5 +167,19 @@ D2
 ~
 ~
 0 0 1600
+S
+#1611
+Tomorrowland Skyway~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D3
+~
+~
+0 0 1602
+D4
+~
+~
+0 0 1529
 S
 $~
