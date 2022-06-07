@@ -3,7 +3,8 @@ Quinn~
 Training L1~
 800 999 15 2 d 0 0 0 1 -1
 M 0 959 1 971 	(SecurityPRIME SPY-KGB)
-O 0 92 3 971 	(Agency Board)
+R 0 971 92 -1 	(Agency Board)
+O 0 92 99 971 	(Agency Board)
 O 0 971 25 971 	(Training)
 O 0 111 99 971 	(Apple)
 O 0 5 99 971 	(Mixed Nuts)
