@@ -347,8 +347,8 @@ static void check_idling(struct char_data *ch)
 	stop_fighting(FIGHTING(ch));
 	stop_fighting(ch);
       }
-      act("$n disappears into the void.", TRUE, ch, 0, 0, TO_ROOM);
-      send_to_char(ch, "alert:You have been idle, and are pulled into a void.\r\n");
+      act("\nalert:$n disappears into the void.\r", TRUE, ch, 0, 0, TO_ROOM);
+      send_to_char(ch, "\nalert:You have been idle, and are pulled into a void.\r");
       save_char(ch);
       Crash_crashsave(ch);
       char_from_room(ch);
@@ -410,8 +410,9 @@ void point_update(void)
     if (!IS_NPC(i)) {
       update_char_objects(i);
       (i->char_specials.timer)++;
-      if (GET_LEVEL(i) < CONFIG_IDLE_MAX_LEVEL)
-	check_idling(i);
+      if (GET_LEVEL(i) < CONFIG_IDLE_MAX_LEVEL) {
+        check_idling(i);        
+      }
     }
   }
 

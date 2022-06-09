@@ -37,7 +37,7 @@
 /* YES / NO; TRUE / FALSE are all defined in utils.h */
 
 /* Can Scripts be attached to players? */
-int script_players = NO;
+int script_players = YES;
 
 /* pk_allowed sets the tone of the entire game.  If pk_allowed is set to NO,
  * then players will not be allowed to kill, summon, charm, or sleep other
@@ -68,7 +68,7 @@ int max_npc_corpse_time = 5;
 int max_pc_corpse_time = 10;
 
 /* How many ticks before a player is sent to the void or idle-rented. */
-int idle_void = 8;
+int idle_void = 24;
 int idle_rent_time = 48;
 
 /* This level and up is immune to idling, LVL_IMPL+1 will disable it. */
@@ -85,7 +85,7 @@ int load_into_inventory = YES;
 
 /* "okay" etc. */
 const char *OK = "Okay.";
-const char *HUH = "Huh!?!";
+const char *HUH = "Huh?";
 const char *NOPERSON = "No one by that name here.";
 const char *NOEFFECT = "Nothing seems to happen.";
 
@@ -264,7 +264,7 @@ int use_new_socials = YES;
 const char *MENU =
 "\n"
 "\n# Welcome"
-"\nWelcome to the world of the Deva. Please make your selection from the menu below."
+"\nWelcome to the world of Arjika. Please make your selection from the menu below."
 "\nmenu[enter the adventure]:1"
 "\nmenu[the story]:3"
 "\nmenu[change description]:2"
@@ -273,12 +273,12 @@ const char *MENU =
 "\nmenu[exit]:0";
 
 const char *WELC_MESSG =
-"\nWelcome to TheGame93!"
+"\nWelcome to Arjika!"
 "\nMay your adventure here be... EXCELLENT!";
 
 const char *START_MESSG =
-"\nWelcome."
-"\nNow you can now earn gold, gain experience, find stuff, and much more... while meeting people from around the world!";
+"\nWelcome.\r"
+"\nNow you can now earn credits, gain experience, find stuff, and much more... while meeting people from around the world!\r";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
