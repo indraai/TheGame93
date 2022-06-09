@@ -656,19 +656,19 @@ int damage(struct char_data *ch, struct char_data *victim, int dam, int attackty
   /* Use send_to_char -- act() doesn't send message if you are DEAD. */
   switch (GET_POS(victim)) {
   case POS_MORTALLYW:
-    act("fight[action]:$n is WOUNDED!", TRUE, victim, 0, 0, TO_ROOM);
+    act("\nfight:$n is WOUNDED!\r", TRUE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You are wounded.\r");
     break;
   case POS_INCAP:
-    act("fight[action]:$n is DIZZY!", TRUE, victim, 0, 0, TO_ROOM);
+    act("\nfight:$n is DIZZY!\r", TRUE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You are dizzy.\r");
     break;
   case POS_STUNNED:
-    act("fight[action]:$n is STUNNED!", TRUE, victim, 0, 0, TO_ROOM);
+    act("\nfight:$n is STUNNED!\r", TRUE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You are stunned.\r");
     break;
   case POS_DEAD:
-    act("fight[action]:$n is TACKLED!", FALSE, victim, 0, 0, TO_ROOM);
+    act("\nfight:$n is TACKLED!\r", FALSE, victim, 0, 0, TO_ROOM);
     send_to_char(victim, "\nfight:You are tackled.\r");
     break;
 
