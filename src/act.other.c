@@ -41,20 +41,20 @@ ACMD(do_quit)
     return;
 
   if (subcmd != SCMD_QUIT && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "You have to type quit--no less, to quit!\r\n");
+    send_to_char(ch, "\nalert:Type quit to quit!\r");
   else if (GET_POS(ch) == POS_FIGHTING)
-    send_to_char(ch, "No way!  You're fighting for your life!\r\n");
+    send_to_char(ch, "\nalert:You're fighting!\r");
   else if (GET_POS(ch) < POS_STUNNED) {
-    send_to_char(ch, "You die before your time...\r\n");
+    send_to_char(ch, "\nalert:You lose.\r\n");
     die(ch, NULL);
   } else {
-    act("$n has left the game.", TRUE, ch, 0, 0, TO_ROOM);
-    mudlog(NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s has quit the game.", GET_NAME(ch));
+    act("\nalert:$n has left the game.\r", TRUE, ch, 0, 0, TO_ROOM);
+    mudlog(NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "\nalert:%s has quit the game.\r", GET_NAME(ch));
 
     if (GET_QUEST_TIME(ch) != -1)
       quest_timeout(ch);
 
-    send_to_char(ch, "Goodbye, friend.. Come back soon!\r\n");
+    send_to_char(ch, "\nsay:Goodbye, friend.. Come back soon!\r");
 
     /* We used to check here for duping attempts, but we may as well do it right
      * in extract_char(), since there is no check if a player rents out and it
@@ -67,7 +67,7 @@ ACMD(do_quit)
 
     /* Stop snooping so you can't see passwords during deletion or change. */
     if (ch->desc->snoop_by) {
-      write_to_output(ch->desc->snoop_by, "Your victim is no longer among us.\r\n");
+      write_to_output(ch->desc->snoop_by, "\nsay:They are elsewhere.\r");
       ch->desc->snoop_by->snooping = NULL;
       ch->desc->snoop_by = NULL;
     }
@@ -81,7 +81,7 @@ ACMD(do_save)
   if (IS_NPC(ch) || !ch->desc)
     return;
 
-  send_to_char(ch, "Saving %s.\r\n", GET_NAME(ch));
+  send_to_char(ch, "\nsave:Saving %s.\r", GET_NAME(ch));
   save_char(ch);
   Crash_crashsave(ch);
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE_CRASH))
@@ -93,7 +93,7 @@ ACMD(do_save)
  * procedures - i.e., shop commands, mail commands, etc. */
 ACMD(do_not_here)
 {
-  send_to_char(ch, "Sorry, but you cannot do that here!\r\n");
+  send_to_char(ch, "\nalert:Sorry, but you cannot do that here!\r");
 }
 
 ACMD(do_sneak)
@@ -102,10 +102,10 @@ ACMD(do_sneak)
   byte percent;
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_SNEAK)) {
-    send_to_char(ch, "You have no idea how to do that.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how to do that.\r");
     return;
   }
-  send_to_char(ch, "Okay, you'll try to move silently for a while.\r\n");
+  send_to_char(ch, "\ninfo:You'll try to move silently for a while.\r");
   if (AFF_FLAGGED(ch, AFF_SNEAK))
     affect_from_char(ch, SKILL_SNEAK);
 
@@ -126,11 +126,11 @@ ACMD(do_hide)
   byte percent;
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_HIDE)) {
-    send_to_char(ch, "You have no idea how to do that.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how to do that.\r");
     return;
   }
 
-  send_to_char(ch, "You attempt to hide yourself.\r\n");
+  send_to_char(ch, "\ninfo:You attempt to hide yourself.\r");
 
   if (AFF_FLAGGED(ch, AFF_HIDE))
     REMOVE_BIT_AR(AFF_FLAGS(ch), AFF_HIDE);
@@ -151,21 +151,21 @@ ACMD(do_steal)
   int percent, gold, eq_pos, pcsteal = 0, ohoh = 0;
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_STEAL)) {
-    send_to_char(ch, "You have no idea how to do that.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how to do that.\r");
     return;
   }
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
-    send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
+    send_to_char(ch, "\ninfo:You are in a peaceful room.\r");
     return;
   }
 
   two_arguments(argument, obj_name, vict_name);
 
   if (!(vict = get_char_vis(ch, vict_name, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "Steal what from who?\r\n");
+    send_to_char(ch, "\nalert:Steal what from who?\r");
     return;
   } else if (vict == ch) {
-    send_to_char(ch, "Come on now, that's rather stupid!\r\n");
+    send_to_char(ch, "\nalert:Come on now, that's stupid!\r");
     return;
   }
 
@@ -185,7 +185,7 @@ ACMD(do_steal)
   if (GET_LEVEL(vict) >= LVL_IMMORT || pcsteal || GET_MOB_SPEC(vict) == shop_keeper)
     percent = 101;		/* Failure */
 
-  if (str_cmp(obj_name, "coins") && str_cmp(obj_name, "gold")) {
+  if (str_cmp(obj_name, "credits") && str_cmp(obj_name, "gold")) {
 
     if (!(obj = get_obj_in_list_vis(ch, obj_name, NULL, vict->carrying))) {
 
@@ -197,20 +197,20 @@ ACMD(do_steal)
 	  break;
 	}
       if (!obj) {
-	act("$E hasn't got that item.", FALSE, ch, 0, vict, TO_CHAR);
+	act("\ninfo:$E hasn't got that item.\r", FALSE, ch, 0, vict, TO_CHAR);
 	return;
       } else {			/* It is equipment */
 	if ((GET_POS(vict) > POS_STUNNED)) {
-	  send_to_char(ch, "Steal the equipment now?  Impossible!\r\n");
+	  send_to_char(ch, "\nalert:Take the equipment now? Impossible!\r");
 	  return;
 	} else {
           if (!give_otrigger(obj, vict, ch) ||
               !receive_mtrigger(ch, vict, obj) ) {
-            send_to_char(ch, "Impossible!\r\n");
+            send_to_char(ch, "\nalert:Not Happening\r");
             return;
           }
-	  act("You unequip $p and steal it.", FALSE, ch, obj, 0, TO_CHAR);
-	  act("$n steals $p from $N.", FALSE, ch, obj, vict, TO_NOTVICT);
+	  act("\ninfo:You unequip $p and take it.\r", FALSE, ch, obj, 0, TO_CHAR);
+	  act("\nalert:$n takes $p from $N.\r", FALSE, ch, obj, vict, TO_NOTVICT);
 	  obj_to_char(unequip_char(vict, eq_pos), ch);
 	}
       }
@@ -220,20 +220,20 @@ ACMD(do_steal)
 
       if (percent > GET_SKILL(ch, SKILL_STEAL)) {
 	ohoh = TRUE;
-	send_to_char(ch, "Oops..\r\n");
-	act("$n tried to steal something from you!", FALSE, ch, 0, vict, TO_VICT);
-	act("$n tries to steal something from $N.", TRUE, ch, 0, vict, TO_NOTVICT);
+	send_to_char(ch, "\nalert:Oops..\r");
+	act("\nalert:$n tried to steal something from you!\r", FALSE, ch, 0, vict, TO_VICT);
+	act("\nalert:$n tries to steal something from $N.\r", TRUE, ch, 0, vict, TO_NOTVICT);
       } else {			/* Steal the item */
 	if (IS_CARRYING_N(ch) + 1 < CAN_CARRY_N(ch)) {
           if (!give_otrigger(obj, vict, ch) ||
               !receive_mtrigger(ch, vict, obj) ) {
-            send_to_char(ch, "Impossible!\r\n");
+            send_to_char(ch, "\nalert:Not Happening!\r");
             return;
           }
 	  if (IS_CARRYING_W(ch) + GET_OBJ_WEIGHT(obj) < CAN_CARRY_W(ch)) {
 	    obj_from_char(obj);
 	    obj_to_char(obj, ch);
-	    send_to_char(ch, "Got it!\r\n");
+	    send_to_char(ch, "\ninfo:Got it!\r");
 	  }
 	} else
 	  send_to_char(ch, "You cannot carry that much.\r\n");
@@ -242,9 +242,9 @@ ACMD(do_steal)
   } else {			/* Steal some coins */
     if (AWAKE(vict) && (percent > GET_SKILL(ch, SKILL_STEAL))) {
       ohoh = TRUE;
-      send_to_char(ch, "Oops..\r\n");
-      act("You discover that $n has $s hands in your wallet.", FALSE, ch, 0, vict, TO_VICT);
-      act("$n tries to steal gold from $N.", TRUE, ch, 0, vict, TO_NOTVICT);
+      send_to_char(ch, "\nalert:Oops..\r");
+      act("\nalert:You discover that $n has $s hands in your wallet.\r", FALSE, ch, 0, vict, TO_VICT);
+      act("\nalert:$n tries to steal gold from $N.\r", TRUE, ch, 0, vict, TO_NOTVICT);
     } else {
       /* Steal some gold coins */
       gold = (GET_GOLD(vict) * rand_number(1, 10)) / 100;
