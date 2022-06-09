@@ -209,7 +209,7 @@ char *read_delete(long recipient)
   }
 
   if (!record_to_keep)
-  	sprintf(buf, "indra.email system error - please report");
+  	sprintf(buf, "\nerror:Mail System Error\r");
   else {
     char timestr[25], *from, *to;
 
@@ -219,12 +219,15 @@ char *read_delete(long recipient)
     to = get_name_by_id(record_to_keep->recipient);
 
  		snprintf(buf, sizeof(buf),
-             "# indra.email\r\n"
-             "to: %s\r\n"
-             "from: %s\r\n"
-             "date: %s\r\n"
-             "\r\n"
-             "%s",
+             "\n# Mail\r"
+             "\n::begin:mail\r"
+             "\nto: %s\r"
+             "\nfrom: %s\r"
+             "\ndate: %s\r"
+             "\n::end:mail\r"
+             "\n::begin:message\r"
+             "%s"
+             "\n::end:message\r",
 
              to ? to : "Unknown",
              from ? from : "Unknown",
@@ -252,7 +255,7 @@ SPECIAL(postmaster)
     return (0);
 
   if (no_mail) {
-    send_to_char(ch, "Sorry, indra.email is having technical difficulties.\r\n");
+    send_to_char(ch, "\nerror:Sorry, Mail System Error.\r");
     return (0);
   }
 
@@ -276,38 +279,38 @@ static void postmaster_send_mail(struct char_data *ch, struct char_data *mailman
   char buf[MAX_INPUT_LENGTH], **mailwrite;
 
   if (GET_LEVEL(ch) < MIN_MAIL_LEVEL) {
-    snprintf(buf, sizeof(buf), "$n tells you, 'Sorry, you have to be level %d to send mail!'", MIN_MAIL_LEVEL);
+    snprintf(buf, sizeof(buf), "\nsay:$n > Sorry, you have to be level %d to send mail.", MIN_MAIL_LEVEL);
     act(buf, FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
   one_argument(arg, buf);
 
   if (!*buf) {			/* you'll get no argument from me! */
-    act("$n tells you, 'You need to specify an addressee!'",
+    act("\nsay:$n > You need to specify an addressee.\r",
 	FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
   if (GET_GOLD(ch) < STAMP_PRICE && GET_LEVEL(ch) < LVL_IMMORT) {
-    snprintf(buf, sizeof(buf), "$n tells you, 'A stamp costs %d coin%s.'\r\n"
-	    "$n tells you, '...which I see you can't afford.'", STAMP_PRICE,
+    snprintf(buf, sizeof(buf), "\nsay:$n > A stamp costs %d credit%s.\r"
+	    "\nsay:$n > ...which I see you can't afford.", STAMP_PRICE,
             STAMP_PRICE == 1 ? "" : "s");
     act(buf, FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
   if ((recipient = get_id_by_name(buf)) < 0 || !mail_recip_ok(buf)) {
-    act("$n tells you, 'No one by that name is registered here!'",
+    act("\nsay:$n > No one by that name is registered here.",
 	FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
-  act("$n starts to write some mail.", TRUE, ch, 0, 0, TO_ROOM);
+  act("\n$n starts to write some mail.\r", TRUE, ch, 0, 0, TO_ROOM);
 
   if (GET_LEVEL(ch) < LVL_IMMORT) {
-    snprintf(buf, sizeof(buf), "$n tells you, 'I'll take %d coins for the stamp.'", STAMP_PRICE);
+    snprintf(buf, sizeof(buf), "\nsay:$n > I'll take %d credits for the stamp.", STAMP_PRICE);
     act(buf, FALSE, mailman, 0, ch, TO_VICT);
     decrease_gold(ch, STAMP_PRICE);
   }
 
-  act("$n tells you, 'Write your indra.email. (/s saves /h for help).'", FALSE, mailman, 0, ch, TO_VICT);
+  act("\nsay:$n > Write Mail (/s saves /h for help).\r", FALSE, mailman, 0, ch, TO_VICT);
 
   SET_BIT_AR(PLR_FLAGS(ch), PLR_MAILING);	/* string_write() sets writing. */
 
@@ -320,9 +323,9 @@ static void postmaster_check_mail(struct char_data *ch, struct char_data *mailma
 			  int cmd, char *arg)
 {
   if (has_mail(GET_IDNUM(ch)))
-    act("$n tells you, 'You have indra.email waiting.'", FALSE, mailman, 0, ch, TO_VICT);
+    act("\nsay:$n > You've Got Mail\r", FALSE, mailman, 0, ch, TO_VICT);
   else
-    act("$n tells you, 'Sorry, you don't have any indra.email waiting.'", FALSE, mailman, 0, ch, TO_VICT);
+    act("\nsay:$n > No Mail", FALSE, mailman, 0, ch, TO_VICT);
 }
 
 static void postmaster_receive_mail(struct char_data *ch, struct char_data *mailman,
@@ -333,7 +336,7 @@ static void postmaster_receive_mail(struct char_data *ch, struct char_data *mail
   int y;
 
   if (!has_mail(GET_IDNUM(ch))) {
-    snprintf(buf, sizeof(buf), "$n tells you, 'Sorry, you don't have any indra.eamil waiting.'");
+    snprintf(buf, sizeof(buf), "\nsay:$n > Sorry, No Mail.");
     act(buf, FALSE, mailman, 0, ch, TO_VICT);
     return;
   }
@@ -341,8 +344,8 @@ static void postmaster_receive_mail(struct char_data *ch, struct char_data *mail
     obj = create_obj();
     obj->item_number = 1;
     obj->name = strdup("mail paper letter");
-    obj->short_description = strdup("indra.email letter");
-    obj->description = strdup("Someone has left an indra.email here.");
+    obj->short_description = strdup("Mail Letter");
+    obj->description = strdup("Someone has left Mail here.");
 
     GET_OBJ_TYPE(obj) = ITEM_NOTE;
     for(y = 0; y < TW_ARRAY_MAX; y++)
@@ -355,12 +358,12 @@ static void postmaster_receive_mail(struct char_data *ch, struct char_data *mail
 
     if (obj->action_description == NULL)
       obj->action_description =
-	strdup("error: Error #11.\r\n");
+	strdup("\nerror: Error #11.\r");
 
     obj_to_char(obj, ch);
 
-    act("$n gives you an indra.email.", FALSE, mailman, 0, ch, TO_VICT);
-    act("$N gives $n an indra.email.", FALSE, ch, 0, mailman, TO_ROOM);
+    act("\nsay:$n gives you Mail.\r", FALSE, mailman, 0, ch, TO_VICT);
+    act("\nsay:$N gives $n Mail.\r", FALSE, ch, 0, mailman, TO_ROOM);
   }
 }
 
@@ -370,5 +373,5 @@ void notify_if_playing(struct char_data *from, int recipient_id)
 
   for (d = descriptor_list; d; d = d->next)
     if ((IS_PLAYING(d)) && (GET_IDNUM(d->character) == recipient_id) && (has_mail(GET_IDNUM(d->character))))
-      send_to_char(d->character, "You have new indra.email from %s.\r\n", GET_NAME(from));
+      send_to_char(d->character, "\nsay:You have new Mail from %s.\r", GET_NAME(from));
 }
