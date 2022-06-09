@@ -5,7 +5,7 @@ A military light is here.~
 ~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
-1 1 0 0 0
+1 15 0 0 0
 #201
 shirt~
 T-Shirt~
@@ -15,21 +15,31 @@ A white T-Shirt is here~
 0 0 0 0
 1 1 0 0 0
 #202
-hat cap~
-Hat~
-A baseball cap~
+red apple apples food fruit farm~
+Red Apples~
+0202/main:avatar~
+0202/main:look
 ~
-9 0 0 0 0 ae 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+1 5 0 0 0
+E
+fruit~
+0202/main:fruit
+~
 #203
-pants~
-Pants~
-A pair of pants.~
+green apple apples food fruit farm~
+Green Apple~
+0203/main:avatar~
+0203/main:look
 ~
-9 0 0 0 0 af 0 0 0 0 0 0 0
-0 0 0 0
-1 1 0 0 0
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+1 5 0 0 0
+E
+fruit~
+fruit
+~
 #204
 hiking boots~
 Hiking Boots~
@@ -94,6 +104,30 @@ A pocket knife is here.~
 5 0 0 0 0 an 0 0 0 0 0 0 0
 1 2 2 0
 1 2 0 0 0
+#215
+cherry cherries fruit farm food~
+Cherries~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+1 5 0 0 0
+E
+cherries~
+cherries
+~
+#216
+lemon lemons fruits fruit food farm~
+Lemons~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+1 5 0 0 0
+E
+fruit~
+fruit
+~
 #218
 jalapeno cheese bread jalapenobread food~
 Jalapeno Cheese Bread~
@@ -121,6 +155,18 @@ Jalapeno Cheese Bites~
 19 0 0 0 0 a 0 0 0 0 0 0 0
 2 0 0 0
 1 2 0 0 0
+#229
+egg eggs food~
+Eggs~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0
+1 10 0 0 0
+E
+eggs~
+eggs
+~
 #242
 milk dairy drink farm~
 Farm Milk~
@@ -140,30 +186,30 @@ Water Fountain~
 0 0 0 0 0
 T 201
 E
-fountain~
-0251/main:fountain
-~
-E
-indra~
-0251/main:indra~
-E
-bom~
-0251/main:bom~
-E
-sarya~
-0251/main:sarya~
-E
-soma~
-0251/main:soma~
-E
-indu~
-0251/main:indu~
+statues~
+0251/main:statues~
 E
 vamraka~
 0251/main:vamraka~
 E
-statues~
-0251/main:statues~
+indu~
+0251/main:indu~
+E
+soma~
+0251/main:soma~
+E
+sarya~
+0251/main:sarya~
+E
+bom~
+0251/main:bom~
+E
+indra~
+0251/main:indra~
+E
+fountain~
+0251/main:fountain
+~
 #278
 forkit icecream food~
 Fork-It IceCream~

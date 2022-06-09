@@ -2,9 +2,21 @@
 Quinn~
 Arjika~
 100 199 15 2 d 0 0 0 -1 -1
+R 0 196 196 -1 	(Grapes)
+O 1 196 99 196 	(Grapes)
+O 1 196 99 196 	(Grapes)
+O 1 196 99 196 	(Grapes)
+R 0 195 195 -1 	(Oranges)
+O 1 195 99 195 	(Oranges)
+O 1 195 99 195 	(Oranges)
+O 1 195 99 195 	(Oranges)
 R 0 180 180 -1 	(Candy Dirt)
 O 1 180 99 180 	(Candy Dirt)
+O 1 180 99 180 	(Candy Dirt)
+O 1 180 99 180 	(Candy Dirt)
 R 0 181 181 -1 	(Veggies)
+O 1 181 99 181 	(Veggies)
+O 1 181 99 181 	(Veggies)
 O 1 181 99 181 	(Veggies)
 R 0 110 92 -1 	(Security Board)
 O 1 92 99 110 	(Security Board)

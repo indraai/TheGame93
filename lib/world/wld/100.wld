@@ -1,7 +1,7 @@
 #10000
 Underground Kingdom~
 You are in an unfinished room.~
-100 0 0 0 0 0
+100 12 0 0 0 0
 D0
 ~
 ~
@@ -21,16 +21,16 @@ D0
 ~
 0 0 10002
 E
-crevasse~
-10001/crevasse
+glacier~
+10001/glacier
 ~
 E
 greenland~
 10001/greenland
 ~
 E
-glacier~
-10001/glacier
+crevasse~
+10001/crevasse
 ~
 S
 #10002
@@ -741,7 +741,7 @@ You are in an unfinished room.~
 D1
 ~
 ~
-0 0 100078
+0 0 -1
 S
 #10077
 Do You Risk It~
@@ -955,7 +955,6 @@ D3
 ~
 0 0 10000
 S
-T 1103
 #10104
 Refuse To Help~
 You are in an unfinished room.~
@@ -983,7 +982,6 @@ D4
 ~
 3 0 251
 S
-T 1106
 #10108
 You made it!~
 You are in an unfinished room.~
@@ -993,7 +991,6 @@ D3
 ~
 0 0 10000
 S
-T 1108
 #10200
 The Cave of Time~
 You are in an unfinished room.~
