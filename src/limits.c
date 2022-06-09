@@ -252,9 +252,9 @@ void gain_exp(struct char_data *ch, int gain)
       mudlog(BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s advanced %d level%s to level %d.",
 		GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s", GET_LEVEL(ch));
       if (num_levels == 1)
-        send_to_char(ch, "alert:You rise a level!\r\n");
+        send_to_char(ch, "\nalert:You rise a level!\r");
       else
-	send_to_char(ch, "alert:You rise %d levels!\r\n", num_levels);
+	send_to_char(ch, "\nalert:You rise %d levels!\r", num_levels);
       set_title(ch, NULL);
       if (GET_LEVEL(ch) >= LVL_IMMORT && !PLR_FLAGGED(ch, PLR_NOWIZLIST))
         run_autowiz();
@@ -294,9 +294,9 @@ void gain_exp_regardless(struct char_data *ch, int gain)
       mudlog(BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE, "%s advanced %d level%s to level %d.",
 		GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s", GET_LEVEL(ch));
       if (num_levels == 1)
-        send_to_char(ch, "alert:You rise a level!\r\n");
+        send_to_char(ch, "\nalert:You rise a level!\r");
       else
-	send_to_char(ch, "alert:You rise %d levels!\r\n", num_levels);
+	send_to_char(ch, "\nalert:You rise %d levels!\r", num_levels);
       set_title(ch, NULL);
     }
   }
@@ -323,14 +323,14 @@ void gain_condition(struct char_data *ch, int condition, int value)
 
   switch (condition) {
   case HUNGER:
-    send_to_char(ch, "pos[hunger]:You are hungry.\r\n");
+    send_to_char(ch, "\nalert:You are hungry.\r");
     break;
   case THIRST:
-    send_to_char(ch, "pos[thirst]:You are thirsty.\r\n");
+    send_to_char(ch, "\nalert:You are thirsty.\r");
     break;
   case DRUNK:
     if (intoxicated)
-      send_to_char(ch, "pos[drunk]:You are drunk.\r\n");
+      send_to_char(ch, "\nalert:You are drunk.\r");
     break;
   default:
     break;
