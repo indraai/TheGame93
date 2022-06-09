@@ -273,467 +273,467 @@ $n starts kicking a huge stone which suddenly appears.
 * 300
 M
 300
-fight[offense]:You hit $N!
-fight[defense]:$n hits you!
-fight[room]:$n hits $N!
-fight[miss]:$N tries to hit $M, but misses.
-fight[defend]:You defend against $n's hit.
-fight[room]:$N defends against $n's hit.
+fight:You hit $N!
+fight:$n hits you!
+fight:$n hits $N!
+fight:$N tries to hit $M, but misses.
+fight:You defend against $n's hit.
+fight:$N defends against $n's hit.
 #
 #
 #
-fight[bad]:It isn't polite!
-fight[bad]:$n swings at you!
-fight[bad]:$n swings at $N - ha!
+fight:It isn't polite!
+fight:$n swings at you!
+fight:$n swings at $N - ha!
 
 M
 300
-fight[offense]:You push $N!
-fight[defense]:$n pushes you!
-fight[room]:$N pushed $n!
-fight[miss]:You try to push $N.
-fight[defend]:$n tries to push you.
-fight[room]:$n tries to push $N.
+fight:You push $N!
+fight:$n pushes you!
+fight:$N pushed $n!
+fight:You try to push $N.
+fight:$n tries to push you.
+fight:$n tries to push $N.
 #
 #
 #
-fight[bad]:You try to push $N but fall down instead!
-fight[bad]:$n tries to push you but falls down instead!
-fight[bad]:$n tries to push $N but trips $mself instead!
+fight:You try to push $N but fall down instead!
+fight:$n tries to push you but falls down instead!
+fight:$n tries to push $N but trips $mself instead!
 
 M
 300
-fight[offense]:You smack $N!
-fight[defense]:$n smacks you!
-fight[room]:$n smacks $N!
-fight[miss]:You try to smack $N.
-fight[defend]:$n tries to smack you.
-fight[room]:$n tried to smack $N.
+fight:You smack $N!
+fight:$n smacks you!
+fight:$n smacks $N!
+fight:You try to smack $N.
+fight:$n tries to smack you.
+fight:$n tried to smack $N.
 #
 #
 #
-fight[bad]:Instead of letting you smack $M, $N forces you to play Punch and Judy!!!
-fight[bad]:You convince $n of playing Punch and Judy instead of smacking you.
-fight[bad]:$N convinces $n that no smacking is necessary.
+fight:Instead of letting you smack $M, $N forces you to play Punch and Judy!!!
+fight:You convince $n of playing Punch and Judy instead of smacking you.
+fight:$N convinces $n that no smacking is necessary.
 
 M
 300
-fight[offense]:You pull $N's hair!
-fight[defense]:$n pulls your hair!
-fight[room]:$n pulls $N's hair!
-fight[miss]:You try to pull $N hair!
-fight[defend]:You barely defend $n's hair pulling!
-fight[room]:$N avoids a hair pulling from $n!
+fight:You pull $N's hair!
+fight:$n pulls your hair!
+fight:$n pulls $N's hair!
+fight:You try to pull $N hair!
+fight:You barely defend $n's hair pulling!
+fight:$N avoids a hair pulling from $n!
 #
 #
 #
-fight[bad]:Your fist flops as your body refuses to fight the mighty $N.
-fight[bad]:$n seems to be having trouble getting $s body to fight you!!
-fight[bad]:$n's body rebels against $m when $e tries to punch $N.
+fight:Your fist flops as your body refuses to fight the mighty $N.
+fight:$n seems to be having trouble getting $s body to fight you!!
+fight:$n's body rebels against $m when $e tries to punch $N.
 
 * 301
 M
 301
-fight[offense]:You kick $N in the shins!
-fight[defense]:$n kicks you in the shins!
-fight[room]:$n shin kicks $N!
-fight[miss]:You try to shin kick $N!
-fight[defend]:$n misses you with $s kick!
-fight[room]:$n tries to shin kick $N, but misses!
+fight:You kick $N in the shins!
+fight:$n kicks you in the shins!
+fight:$n shin kicks $N!
+fight:You try to shin kick $N!
+fight:$n misses you with $s kick!
+fight:$n tries to shin kick $N, but misses!
 #
 #
 #
-fight[bad]:You Shin Kick at $N, and $E slaps himself as if a mosquito bit $M.
-fight[bad]:Was that a bee you just felt?  Oh.. wait, it was just $n.
-fight[bad]:$N begins to slap at $Mself as $n tries to KungFu Kick $M.
+fight:You Shin Kick at $N, and $E slaps himself as if a mosquito bit $M.
+fight:Was that a bee you just felt?  Oh.. wait, it was just $n.
+fight:$N begins to slap at $Mself as $n tries to KungFu Kick $M.
 
 M
 301
-fight[offense]:You drive a KungFu Punck into the chest of $N!
-fight[defense]:With a powerful driving force, $n's KungFu Punches you in the chest.
-fight[hit]:$n drives $s KungFu Punch into $N's chest!
-fight[miss]:You miss $N with your KungFu Punch!
-fight[defense]:$n drives $s KungFu Punch at you, barely missing!
-fight[hit]:You watch in fright as $n throws a KungFu Punch at $N, missing by mere inches!
+fight:You drive a KungFu Punck into the chest of $N!
+fight:With a powerful driving force, $n's KungFu Punches you in the chest.
+fight:$n drives $s KungFu Punch into $N's chest!
+fight:You miss $N with your KungFu Punch!
+fight:$n drives $s KungFu Punch at you, barely missing!
+fight:You watch in fright as $n throws a KungFu Punch at $N, missing by mere inches!
 #
 #
 #
-fight[offense]:Sting -- Deva... What are you thinking?
-fight[defense]:$n tries to punch you, somewhat comical to tell the truth.
-fight[hit]:$n punches at $N, then looks horrified as $N grins at $m!
+fight:Sting -- Deva... What are you thinking?
+fight:$n tries to punch you, somewhat comical to tell the truth.
+fight:$n punches at $N, then looks horrified as $N grins at $m!
 
 * 302
 M
 302
-fight[offense]:Your KungFu Kick sends $N's into outer space!
-fight[defense]:$n's KungFu Kick messily tears you right in half!
-fight[hit]:With an evil grin, $n messily KungFu Kicks $N!
-fight[miss]:You try to KungFu Kick $N but hit the ground instead!
-fight[defense]:$n tries to KungFu Kick you but falls to the ground instead!
-fight[hit]:$n tries to KungFu Kicks $N but falls to the ground instead!
+fight:Your KungFu Kick sends $N's into outer space!
+fight:$n's KungFu Kick messily tears you right in half!
+fight:With an evil grin, $n messily KungFu Kicks $N!
+fight:You try to KungFu Kick $N but hit the ground instead!
+fight:$n tries to KungFu Kick you but falls to the ground instead!
+fight:$n tries to KungFu Kicks $N but falls to the ground instead!
 #
 #
 #
-fight[offense]:Don't try to kick $N.
-fight[defense]:$n is trying to kick you.  Yawn.
-fight[hit]:$n tries to kick $N - yawn.
+fight:Don't try to kick $N.
+fight:$n is trying to kick you.  Yawn.
+fight:$n tries to kick $N - yawn.
 
 M
 302
-fight[offense]:You Hammer Fist $N!
-fight[defense]:$n Hammer Fists you!
-fight[hit]:$n Hammer Fists $N!
-fight[miss]:You attempt to Hammer Fist $N but miss!
-fight[defense]:$n swings $s Hammer Fist at you and it hits $m in the face!
-fight[hit]:$n swings $s Hammer Fist at $N but only hits $mself in the face!
+fight:You Hammer Fist $N!
+fight:$n Hammer Fists you!
+fight:$n Hammer Fists $N!
+fight:You attempt to Hammer Fist $N but miss!
+fight:$n swings $s Hammer Fist at you and it hits $m in the face!
+fight:$n swings $s Hammer Fist at $N but only hits $mself in the face!
 #
 #
 #
-fight[offense]:You'd better stop before $N whips your butt.
-fight[defense]:Pathetic little $n is trying to hit you... how cute.
-fight[hit]:$n tries to hit $N - isn't he cute?
+fight:You'd better stop before $N whips your butt.
+fight:Pathetic little $n is trying to hit you... how cute.
+fight:$n tries to hit $N - isn't he cute?
 
 * 303
 M
 303
-fight[offense]:Your power cleanly hits $N.
-fight[defense]:You briefly feel the sensation of flight as $n hits you!
-fight[hit]:fight:$n cleanly tackles $N!
-fight[offense]:$N is cooled by the breeze of your missed slash at $M.
-fight[defense]:$n cools you with the breeze of $s missed slash at you.
-fight[hit]:$n cools $N with the breeze of $s missed slash.
+fight:Your power cleanly hits $N.
+fight:You briefly feel the sensation of flight as $n hits you!
+fight:fight:$n cleanly tackles $N!
+fight:$N is cooled by the breeze of your missed slash at $M.
+fight:$n cools you with the breeze of $s missed slash at you.
+fight:$n cools $N with the breeze of $s missed slash.
 #
 #
 #
-fight[offense]:Yeah, right.
-fight[defense]:$n tries to slash you... yeah, right.
-fight[hit]:$n tries to slash $N... yeah, right.
+fight:Yeah, right.
+fight:$n tries to slash you... yeah, right.
+fight:$n tries to slash $N... yeah, right.
 
 M
 303
-fight[offense]:$N cries out in agony as you slash $S ribcage open!
-fight[defense]:Your ribcage is slashed by $n!
-fight[hit]:$n nicely dissects $N's ribcage with a single slash!
-fight[offense]:You try to slash $N but miss by a mile.
-fight[defense]:$n's slash misses you by a mile.
-fight[hit]:$n's slash at $N misses $M by a mile.
+fight:$N cries out in agony as you slash $S ribcage open!
+fight:Your ribcage is slashed by $n!
+fight:$n nicely dissects $N's ribcage with a single slash!
+fight:You try to slash $N but miss by a mile.
+fight:$n's slash misses you by a mile.
+fight:$n's slash at $N misses $M by a mile.
 #
 #
 #
-fight[offense]:It's rude to try to slash a DEVA, you know.
-fight[defense]:$n tries to slash you -- how rude!
-fight[hit]:$n tries to slash $N -- how rude!
+fight:It's rude to try to slash a DEVA, you know.
+fight:$n tries to slash you -- how rude!
+fight:$n tries to slash $N -- how rude!
 
 M
 303
-fight[offense]:Your jab at $N results in $S immediate demise!
-fight[defense]:Boogers spurts all over as $n sneezes on you.  You ...
-fight[hit]:$n slashes at $N who screams from $S hit.
-fight[offense]:You miss $N by an inch!
-fight[defense]:You manage to dodge $n's slash and laugh, HA!
-fight[hit]:$n's slash misses $N who laughs in sheer delight, HA!
+fight:Your jab at $N results in $S immediate demise!
+fight:Boogers spurts all over as $n sneezes on you.  You ...
+fight:$n slashes at $N who screams from $S hit.
+fight:You miss $N by an inch!
+fight:You manage to dodge $n's slash and laugh, HA!
+fight:$n's slash misses $N who laughs in sheer delight, HA!
 #
 #
 #
-fight[offense]:Come on, what makes you think you can slash at a DEVA?!
-fight[defense]:You barely register the puny creature before you...
-fight[hit]:The great $N seems to ignore $n's slashes.
+fight:Come on, what makes you think you can slash at a DEVA?!
+fight:You barely register the puny creature before you...
+fight:The great $N seems to ignore $n's slashes.
 
 M
 303
-fight[offense]:You beautifully kick $N into outer space.
-fight[defense]:Your body has been sent into outer space by $n power!
-fight[hit]:$N is thrown into outer space by a masterful stroke of $n!
-fight[offense]:Your desperate power move at $N is easily avoided by $M.
-fight[defense]:You easily avoid a power move from $n.
-fight[hit]:$N nimbly avoids $n's power move.
+fight:You beautifully kick $N into outer space.
+fight:Your body has been sent into outer space by $n power!
+fight:$N is thrown into outer space by a masterful stroke of $n!
+fight:Your desperate power move at $N is easily avoided by $M.
+fight:You easily avoid a power move from $n.
+fight:$N nimbly avoids $n's power move.
 #
 #
 #
-fight[offense]:Your cunning slash at $N is fruitless.
-fight[defense]:You nimbly stop a slash from $n.
-fight[hit]:$N stops a cunning slash from $n who looks disappointed.
+fight:Your cunning slash at $N is fruitless.
+fight:You nimbly stop a slash from $n.
+fight:$N stops a cunning slash from $n who looks disappointed.
 
 * 304
 M
 304
-fight[offense]:You bite $N through $S ribcage and into $S heart -- $e falls to the ground in agony.
-fight[defense]:$n bites you right through your ribcage and into your heart -- you fall to the ground writhing in agony...
-fight[hit]:$n's powerful jaw bites through $N's ribcage into $S heart -- $E falls to the ground writhing in agony!
-fight[offense]:You try to bite $N but bite your tongue instead.
-fight[defense]:$n tries to bite you but bites $s tongue instead!
-fight[hit]:$n tries to bite $N but bites $s own tongue instead!
+fight:You bite $N through $S ribcage and into $S heart -- $e falls to the ground in agony.
+fight:$n bites you right through your ribcage and into your heart -- you fall to the ground writhing in agony...
+fight:$n's powerful jaw bites through $N's ribcage into $S heart -- $E falls to the ground writhing in agony!
+fight:You try to bite $N but bite your tongue instead.
+fight:$n tries to bite you but bites $s tongue instead!
+fight:$n tries to bite $N but bites $s own tongue instead!
 #
 #
 #
-fight[offense]:Aren't you trying to bite off more than you can chew?
-fight[defense]:$n snaps at you but realizes $e is biting off more than $e can chew.
-fight[hit]:$n stupidly tries to bite off more than $e can chew by snapping at $N.
+fight:Aren't you trying to bite off more than you can chew?
+fight:$n snaps at you but realizes $e is biting off more than $e can chew.
+fight:$n stupidly tries to bite off more than $e can chew by snapping at $N.
 
 M
 304
-fight[offense]:You slap $N's face -- tears spray everywhere!
-fight[defense]:$n slaps $s in the face, tearing your tears from your eyeballs!
-fight[hit]:$n uses $s hand to slap $N's face, oh $S SLAP!
-fight[offense]:You slap at $N but miss.
-fight[defense]:$n slaps $s at you fiercely but misses.
-fight[hit]:$n fiercely slaps $s at $N but misses the mark.
+fight:You slap $N's face -- tears spray everywhere!
+fight:$n slaps $s in the face, tearing your tears from your eyeballs!
+fight:$n uses $s hand to slap $N's face, oh $S SLAP!
+fight:You slap at $N but miss.
+fight:$n slaps $s at you fiercely but misses.
+fight:$n fiercely slaps $s at $N but misses the mark.
 #
 #
 #
-fight[offense]:You attempt to bite $N.  Ouch!  That hurt!
-fight[defense]:$n tries to bite you, how funny.
-fight[hit]:$n tries to bite $N - funny, huh?
+fight:You attempt to bite $N.  Ouch!  That hurt!
+fight:$n tries to bite you, how funny.
+fight:$n tries to bite $N - funny, huh?
 
 * 305
 M
 305
-fight[offense]:Your ultra hits on $N finally results in $S going down!
-fight[defense]:$n's hits on you finally results in your going down!
-fight[hit]:$n's masterful hits on $N finally results in $N going down!
-fight[offense]:You try to hit $N who simply laughs at you.
-fight[defense]:$n tries to hit you, but you avoid $m and laugh.
-fight[hit]:$N laughs at $n's attempt to hit $M.
+fight:Your ultra hits on $N finally results in $S going down!
+fight:$n's hits on you finally results in your going down!
+fight:$n's masterful hits on $N finally results in $N going down!
+fight:You try to hit $N who simply laughs at you.
+fight:$n tries to hit you, but you avoid $m and laugh.
+fight:$N laughs at $n's attempt to hit $M.
 #
 #
 #
-fight[offense]:Your attempt to bludgeon $N fails, luckily for you $N has a good sense of humor!
-fight[defense]:Your patience is tried when $n tries to clobber you.
-fight[hit]:$N restrains $Mself from zapping $n when $e attempts to bludgeon the mighty one.
+fight:Your attempt to bludgeon $N fails, luckily for you $N has a good sense of humor!
+fight:Your patience is tried when $n tries to clobber you.
+fight:$N restrains $Mself from zapping $n when $e attempts to bludgeon the mighty one.
 
 M
 305
-fight[offense]:You ultra hits $N with that magic touch!
-fight[defense]:$n hits you and sends you down for the count!
-fight[hit]:$n hits $N goes down for the count!
-fight[offense]:You fruitlessly try to hit $N.
-fight[defense]:You easily dodge $n's attempt to hit you.
-fight[hit]:$n tries to hit $N who easily avoids the blow.
+fight:You ultra hits $N with that magic touch!
+fight:$n hits you and sends you down for the count!
+fight:$n hits $N goes down for the count!
+fight:You fruitlessly try to hit $N.
+fight:You easily dodge $n's attempt to hit you.
+fight:$n tries to hit $N who easily avoids the blow.
 #
 #
 #
-fight[offense]:Your attempt to hit $N fails, luckily for you $N has a good sense of humor!
-fight[defense]:Your patience is tried when $n tries to clobber you.
-fight[hit]:$N restrains $Mself from zapping $n when $e attempts to hit the mighty one.
+fight:Your attempt to hit $N fails, luckily for you $N has a good sense of humor!
+fight:Your patience is tried when $n tries to clobber you.
+fight:$N restrains $Mself from zapping $n when $e attempts to hit the mighty one.
 
 * 306
 M
 306
-fight[offense]:You crush $N like a soda can!
-fight[defense]:$n crushes you like a soda can!
-fight[hit]:$n crushes $N's confidence!
-fight[offense]:You hopelessly try to crush $N.
-fight[defense]:$n hopelessly tries to crush you.
-fight[hit]:$n hopelessly tries to crush $N.
+fight:You crush $N like a soda can!
+fight:$n crushes you like a soda can!
+fight:$n crushes $N's confidence!
+fight:You hopelessly try to crush $N.
+fight:$n hopelessly tries to crush you.
+fight:$n hopelessly tries to crush $N.
 #
 #
 #
-fight[offense]:A pox on thee and thy pitiful crush on $N!
-fight[defense]:$n seems to have a crush on you...
-fight[hit]:$n seems to have a crush on $N...
+fight:A pox on thee and thy pitiful crush on $N!
+fight:$n seems to have a crush on you...
+fight:$n seems to have a crush on $N...
 
 M
 306
-fight[offense]:You crush $N right out of existence!
-fight[defense]:$n crushes you right out of existence!
-fight[hit]:$n crushes $N right out of existence!
-fight[offense]:You try to crush $N who jumps out of the way!
-fight[defense]:$n tries to crush you but you jump out of the way!
-fight[hit]:$n tries to crush $N who jumps out of the way!
+fight:You crush $N right out of existence!
+fight:$n crushes you right out of existence!
+fight:$n crushes $N right out of existence!
+fight:You try to crush $N who jumps out of the way!
+fight:$n tries to crush you but you jump out of the way!
+fight:$n tries to crush $N who jumps out of the way!
 #
 #
 #
-fight[offense]:A pox on thee and thy pitiful crush on $N!
-fight[defense]:$n seems to have a crush on you...
-fight[hit]:$n seems to have a crush on $N...
+fight:A pox on thee and thy pitiful crush on $N!
+fight:$n seems to have a crush on you...
+fight:$n seems to have a crush on $N...
 
 * 307
 M
 307
-fight[offense]:You tackle $N until you realize $E is knocked silly.
-fight[defense]:With $s reckless ultimate attacks, you succumb.
-fight[hit]:$N fails under $n's special moves, yet $n continues $s attack!
-fight[offense]:You hear the air whistle as you split the air with your failure!
-fight[defense]:$n swings in your direction, causing a whistling sound!
-fight[hit]:With a loud whistle through the air, $n misses $s attack upon $N!
+fight:You tackle $N until you realize $E is knocked silly.
+fight:With $s reckless ultimate attacks, you succumb.
+fight:$N fails under $n's special moves, yet $n continues $s attack!
+fight:You hear the air whistle as you split the air with your failure!
+fight:$n swings in your direction, causing a whistling sound!
+fight:With a loud whistle through the air, $n misses $s attack upon $N!
 #
 #
 #
-fight[offense]:Who are you trying to kid?
-fight[defense]:Hmmm... I think you missed the joke that $n was trying to tell you.
-fight[hit]:$N looks somewhat perplexed as $n tries to dominate him!
+fight:Who are you trying to kid?
+fight:Hmmm... I think you missed the joke that $n was trying to tell you.
+fight:$N looks somewhat perplexed as $n tries to dominate him!
 
 M
 307
-fight[offense]:You pound $N right into the ground!
-fight[defense]:$n pounds you six feet under.
-fight[hit]:$n pounds $N mightily on the head, crushing $S entire body!
-fight[offense]:You pound at the air as $N nimbly steps out of the way!
-fight[defense]:You jump out of the way in a panic as $n pounds at you!
-fight[hit]:$n looks perturbed as $s pound misses $N!
+fight:You pound $N right into the ground!
+fight:$n pounds you six feet under.
+fight:$n pounds $N mightily on the head, crushing $S entire body!
+fight:You pound at the air as $N nimbly steps out of the way!
+fight:You jump out of the way in a panic as $n pounds at you!
+fight:$n looks perturbed as $s pound misses $N!
 #
 #
 #
-fight[offense]:You pound $N!  And $E thanks you for it?  *boggle*
-fight[defense]:$n gives you a pound.  Wonder what the exchange rate is...
-fight[hit]:$n starts giving pounds to $N who begins to count the money.
+fight:You pound $N!  And $E thanks you for it?  *boggle*
+fight:$n gives you a pound.  Wonder what the exchange rate is...
+fight:$n starts giving pounds to $N who begins to count the money.
 
 * 308
 M
 308
-fight[offense]:Your razor-sharp claws rip $N wide open!
-fight[defense]:$n's razor-sharp claws rip you wide open!
-fight[hit]:$n's razor-sharp claws rip $N wide open!
-fight[offense]:You try to claw at $N but almost nick yourself instead!
-fight[defense]:$n tries to claw at you but nearly nicks $mself instead!
-fight[hit]:$n tries to claw at $N but nearly nicks $mself instead!
+fight:Your razor-sharp claws rip $N wide open!
+fight:$n's razor-sharp claws rip you wide open!
+fight:$n's razor-sharp claws rip $N wide open!
+fight:You try to claw at $N but almost nick yourself instead!
+fight:$n tries to claw at you but nearly nicks $mself instead!
+fight:$n tries to claw at $N but nearly nicks $mself instead!
 #
 #
 #
-fight[offense]:You dummy!  Not the claw, the claw!
-fight[defense]:$n must be crazy - trying to claw at you!
-fight[hit]:$n must be crazy - trying to claw at $N!
+fight:You dummy!  Not the claw, the claw!
+fight:$n must be crazy - trying to claw at you!
+fight:$n must be crazy - trying to claw at $N!
 
 M
 308
-fight[offense]:You claw $N's face right off!
-fight[defense]:$n claws your face right off!
-fight[hit]:$n claws $N's face right off!
-fight[offense]:You try to claw at $N but miss!
-fight[defense]:$n tries to claw at you but misses by a hair!
-fight[hit]:$n tries to claw at $N, missing by a hair!
+fight:You claw $N's face right off!
+fight:$n claws your face right off!
+fight:$n claws $N's face right off!
+fight:You try to claw at $N but miss!
+fight:$n tries to claw at you but misses by a hair!
+fight:$n tries to claw at $N, missing by a hair!
 #
 #
 #
-fight[offense]:You dummy!  Not the claw, the claw!
-fight[defense]:$n must be crazy - trying to claw at you!
-fight[hit]:$n must be crazy - trying to claw at $N!
+fight:You dummy!  Not the claw, the claw!
+fight:$n must be crazy - trying to claw at you!
+fight:$n must be crazy - trying to claw at $N!
 
 * 309
 M
 309
-fight[offense]:You maul $N across the chest and $E screams in pain as $E falls lifeless to the ground.
-fight[defense]:As $n mauls you in the chest, you feel a searing pain... then nothing.
-fight[hit]:With a brutal maul to the chest, $n slaughters $N!
-fight[offense]:You swing wildly with your maul, almost hitting yourself!
-fight[defense]:Phew!  $n missed you with $s wild maul!
-fight[hit]:$n mauls at $N, missing wildly!
+fight:You maul $N across the chest and $E screams in pain as $E falls lifeless to the ground.
+fight:As $n mauls you in the chest, you feel a searing pain... then nothing.
+fight:With a brutal maul to the chest, $n slaughters $N!
+fight:You swing wildly with your maul, almost hitting yourself!
+fight:Phew!  $n missed you with $s wild maul!
+fight:$n mauls at $N, missing wildly!
 #
 #
 #
-fight[offense]:Mauling a Deva? Of course, you probably wouldn't hesitate to maul her too.
-fight[defense]:$n tries to maul you, and as $e fails, looks quite horrified.  How pleasant.
-fight[hit]:$N laughs as $n tries to maul $M.  How comical.
+fight:Mauling a Deva? Of course, you probably wouldn't hesitate to maul her too.
+fight:$n tries to maul you, and as $e fails, looks quite horrified.  How pleasant.
+fight:$N laughs as $n tries to maul $M.  How comical.
 
 * 310
 M
 310
-fight[offense]:You bring $N within the tackling of $S life, and then tackle $M one last time, tackling $M.
-fight[defense]:$n tackles you violently, and you ...
-fight[hit]:With a horrible tackling, $N falls under $n's blows!
-fight[offense]:You miss your tackle against $N!
-fight[defense]:What a stroke of luck, $n seems to have missed you with $s tackle!
-fight[hit]:$n tackles madly at $N, missing $M!
+fight:You bring $N within the tackling of $S life, and then tackle $M one last time, tackling $M.
+fight:$n tackles you violently, and you ...
+fight:With a horrible tackling, $N falls under $n's blows!
+fight:You miss your tackle against $N!
+fight:What a stroke of luck, $n seems to have missed you with $s tackle!
+fight:$n tackles madly at $N, missing $M!
 #
 #
 #
-fight[offense]:Thrash a Deva?  More likely that $N would tackle you, don't you think?
-fight[defense]:What a fool, $n tried to tackle you.  *sigh*
-fight[hit]:Looking rather silly, $n tries to tackle at $N.
+fight:Thrash a Deva?  More likely that $N would tackle you, don't you think?
+fight:What a fool, $n tried to tackle you.  *sigh*
+fight:Looking rather silly, $n tries to tackle at $N.
 
 * 311
 M
 311
-fight[offense]:You tackle $N, get em good!!!
-fight[defense]:$n breaks your heart, goodbye cruel world...
-fight[hit]:$n tackles $N who falls to the ground crying for mommy!
-fight[offense]:You lunge at $N without managing to tackle $M.
-fight[defense]:$n tries to tackle you but fails miserably.
-fight[hit]:$n lunges at $N but can't tackle $M.
+fight:You tackle $N, get em good!!!
+fight:$n breaks your heart, goodbye cruel world...
+fight:$n tackles $N who falls to the ground crying for mommy!
+fight:You lunge at $N without managing to tackle $M.
+fight:$n tries to tackle you but fails miserably.
+fight:$n lunges at $N but can't tackle $M.
 #
 #
 #
-fight[offense]:The great $N sends you a piercing look, OOPS!
-fight[defense]:You return $n's pierce with a piercing look, hmmm...
-fight[hit]:$N returns $n's pierce with a piercing look, hmmm...
+fight:The great $N sends you a piercing look, OOPS!
+fight:You return $n's pierce with a piercing look, hmmm...
+fight:$N returns $n's pierce with a piercing look, hmmm...
 
 M
 311
-fight[offense]:You successfully tackle $N and $S body falls to the ground like a baby.
-fight[defense]:$n tackles you, and you forget your own name!
-fight[hit]:$n tackles $N whose suddenly limp body falls to the ground!
-fight[offense]:You try to tackle $N but tackle the air instead!
-fight[defense]:$n tackles the air.
-fight[hit]:$n tries to kiss air instead of tackling $N.
+fight:You successfully tackle $N and $S body falls to the ground like a baby.
+fight:$n tackles you, and you forget your own name!
+fight:$n tackles $N whose suddenly limp body falls to the ground!
+fight:You try to tackle $N but tackle the air instead!
+fight:$n tackles the air.
+fight:$n tries to kiss air instead of tackling $N.
 #
 #
 #
-fight[offense]:The mighty $N begins to think you a nuisance!!!
-fight[defense]:Your patience is almost gone when you stare back at $n.
-fight[hit]:The air is loaded when $N angrily wards off a piercing attack from $n.
+fight:The mighty $N begins to think you a nuisance!!!
+fight:Your patience is almost gone when you stare back at $n.
+fight:The air is loaded when $N angrily wards off a piercing attack from $n.
 
 * 312
 M
 312
-fight[offense]:You tackle $N with all of your might, knocking $M into another reality!
-fight[defense]:With $s powerful tackle, $n sends you crying to your MOMMY!
-fight[hit]:$N falls limp as $n's blast rips $M a new butt hole!
-fight[offense]:You blast wildly, missing $N. You should probably work on your aim.
-fight[defense]:You skillfully avoid $n's wild tackle!
-fight[hit]:$n misses $N with $s wild tackle!  What luck $N seems to have!
+fight:You tackle $N with all of your might, knocking $M into another reality!
+fight:With $s powerful tackle, $n sends you crying to your MOMMY!
+fight:$N falls limp as $n's blast rips $M a new butt hole!
+fight:You blast wildly, missing $N. You should probably work on your aim.
+fight:You skillfully avoid $n's wild tackle!
+fight:$n misses $N with $s wild tackle!  What luck $N seems to have!
 #
 #
 #
-fight[offense]:Are you kidding?  What do you expect your feeble blast to do to $N?
-fight[defense]:$n tried to blast you.  Good thing you have blastproof armour.
-fight[hit]:$n looks afraid of the consequences as $e tries fruitlessly to blast $N.
+fight:Are you kidding?  What do you expect your feeble blast to do to $N?
+fight:$n tried to blast you.  Good thing you have blastproof armour.
+fight:$n looks afraid of the consequences as $e tries fruitlessly to blast $N.
 
 * 313
 M
 313
-fight[offense]:You punch at $N causing $S face to collapse under the blow.  Doesn't look like $N will recover.  Ever.
-fight[defense]:$n's forceful punch causes you to see red, until you...
-fight[hit]:$n punches $N right in the face!  $N will respawn!
-fight[offense]:You miss $N with your haymaker!
-fight[defense]:$n throws a haymaker at you which whistles by your ear!
-fight[hit]:$n just misses $N with a strong punch!
+fight:You punch at $N causing $S face to collapse under the blow.  Doesn't look like $N will recover.  Ever.
+fight:$n's forceful punch causes you to see red, until you...
+fight:$n punches $N right in the face!  $N will respawn!
+fight:You miss $N with your haymaker!
+fight:$n throws a haymaker at you which whistles by your ear!
+fight:$n just misses $N with a strong punch!
 #
 #
 #
-fight[offense]:Punch a Deva?  May be smarter to punch a wall for a bit.  You might do more damage to it.
-fight[defense]:Is that a quiet whistling noise you hear as $n is swinging $s fist about?
-fight[hit]:$n looks like $e would prefer to have punched a wall rather than trying to punch $N.
+fight:Punch a Deva?  May be smarter to punch a wall for a bit.  You might do more damage to it.
+fight:Is that a quiet whistling noise you hear as $n is swinging $s fist about?
+fight:$n looks like $e would prefer to have punched a wall rather than trying to punch $N.
 
 * 314
 M
 314
-fight[offense]:You stab forth towards $N, hitting $M in the abdomen!
-fight[defense]:$n stabs you in the stomach, and you re-spawn.
-fight[hit]:Making art of $N, $n smashes $M with a stab.
-fight[offense]:You stab at $N, barely missing $M!
-fight[defense]:$n stabs at you, missing by a good mile or so!
-fight[hit]:$N grins at $n as the stab sent by $n goes wide!
+fight:You stab forth towards $N, hitting $M in the abdomen!
+fight:$n stabs you in the stomach, and you re-spawn.
+fight:Making art of $N, $n smashes $M with a stab.
+fight:You stab at $N, barely missing $M!
+fight:$n stabs at you, missing by a good mile or so!
+fight:$N grins at $n as the stab sent by $n goes wide!
 #
 #
 #
-fight[offense]:Devas can't be stabbed, did noone ever teach you that?  And $N just so happens to be one.
-fight[defense]:It sure is nice being a deva isn't it... especially since $n can't hit you with $s stabs.
-fight[hit]:$n stabs at $N only to discover $N's immunity to stabbing weapons.
+fight:Devas can't be stabbed, did noone ever teach you that?  And $N just so happens to be one.
+fight:It sure is nice being a deva isn't it... especially since $n can't hit you with $s stabs.
+fight:$n stabs at $N only to discover $N's immunity to stabbing weapons.
 
 M
 314
-fight[offense]:You stab $N through the heart!
-fight[defense]:$n drives a stab at you, it takes you out!
-fight[hit]:$n stabs at $N, as $N is tackled by $n!
-fight[offense]:You stab at $N, missing!
-fight[defense]:$n misses a stab in your direction!
-fight[hit]:$n stabs at $N!  $e misses!
+fight:You stab $N through the heart!
+fight:$n drives a stab at you, it takes you out!
+fight:$n stabs at $N, as $N is tackled by $n!
+fight:You stab at $N, missing!
+fight:$n misses a stab in your direction!
+fight:$n stabs at $N!  $e misses!
 #
 #
 #
-fight[offense]:You stab at $N!  Too bad $E's a deva, huh?
-fight[defense]:$n stabs at you!  Lucky for you that you are immune to this kind of thing.
-fight[hit]:You watch in pity as $n stabs towards $N missing in the most futile way possible!
+fight:You stab at $N!  Too bad $E's a deva, huh?
+fight:$n stabs at you!  Lucky for you that you are immune to this kind of thing.
+fight:You watch in pity as $n stabs towards $N missing in the most futile way possible!
 
 * 399
 M
