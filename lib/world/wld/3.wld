@@ -24,15 +24,6 @@ D2
 ~
 0 0 308
 S
-#302
-Burning MUD~
-Empty room.~
-3 24 0 0 0 0
-D4
-~
-~
-0 0 353
-S
 #303
 9E8S Outer Loop~
 undefined~
@@ -578,7 +569,7 @@ D1
 0 0 340
 S
 #340
-Arcade Z3~
+Arcade 340~
 Empty room.~
 3 24 0 0 0 1
 D0
@@ -620,7 +611,7 @@ D3
 0 0 340
 S
 #342
-Arcade Z1~
+Arcade 342~
 Empty room.~
 3 24 0 0 0 1
 D0

@@ -103,8 +103,8 @@ CircleMUD v3.0 Shop File~
 0
 0
 #264~
-114
-111
+180
+181
 -1
 1.30
 0.70
@@ -118,7 +118,7 @@ CircleMUD v3.0 Shop File~
 %s I'll give you %d coins for that.~
 0
 6
-124
+130
 0
 264
 -1
@@ -179,7 +179,6 @@ CircleMUD v3.0 Shop File~
 0
 0
 #278~
-180
 114
 278
 -1

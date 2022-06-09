@@ -2,14 +2,15 @@
 Quinn~
 Arjika~
 300 399 15 2 d 0 0 0 -1 -1
-R 0 362 92 -1 	(Agency Board)
-O 1 92 99 362 	(Agency Board)
-M 0 362 1 362 	(SecurityDEVA D362 (Guard))
-O 0 5 99 386 	(Mixed Nuts)
-O 0 386 1 386 	(Water Fountain)
 M 0 326 1 394 	(Narayana Vasudeva Bhagavan)
 G 1 306 1 -1 	(Panchajanya)
 O 0 394 1 394 	(Arjika Isotropic Antenna)
+M 0 160 1 394 	(Arjika Captain)
+R 0 362 92 -1 	(Security Board)
+O 1 92 99 362 	(Security Board)
+M 0 362 1 362 	(SecurityDEVA D362 (Guard))
+O 0 5 99 386 	(Mixed Nuts)
+O 0 386 1 386 	(Water Fountain)
 M 0 328 1 328 	(Rahula)
 M 0 329 1 328 	(Brian)
 M 0 330 1 328 	(Indra)
