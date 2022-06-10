@@ -2,6 +2,8 @@
 CYOA~
 Adventure Land~
 10000 19999 90 2 d 0 0 0 1 -1
+R 0 10094 10094 -1 	(Diamonds)
+O 1 10094 99 10094 	(Diamonds)
 O 0 10003 99 10000 	(Bruckner Theory)
 M 0 10003 1 10000 	(Kingdom Guide)
 M 0 10011 1 10011 	(Angel Bird)

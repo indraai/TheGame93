@@ -90,7 +90,7 @@ Underground Stream~
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 0 0
+0 100 0 0 0
 #10023
 0x10023 token underground kingdom cyoa~
 0x10023 Token~
@@ -226,6 +226,14 @@ talk:#adv thegame:object 1069/main:look
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
 0 0 0 0 0
+#10094
+diamonds treasure diamond cyoa gem jewel~
+Diamonds~
+:room:/main:avatar~
+:room:/main:look~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+10 1000000 0 0 0
 #10102
 0x10102 token underground kingdom cyoa~
 0x10102 Token~
