@@ -129,7 +129,7 @@ S
 #111
 Security Lookout (NW)~
 empty.~
-1 16 0 0 0 1
+1 24 0 0 0 1
 D1
 ~
 ~
@@ -144,7 +144,7 @@ D5
 0 0 207
 S
 #112
-indra.agency/main:lookout~
+Security Lookout (NE)~
 empty.~
 1 24 0 0 0 1
 D2
