@@ -1,6 +1,6 @@
 #10000
 Underground Kingdom~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -14,7 +14,7 @@ S
 T 10004
 #10001
 Toan Glacier~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -35,7 +35,7 @@ glacier~
 S
 #10002
 The Glaciers Edge~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -48,7 +48,7 @@ D5
 S
 #10003
 Down In The Crevasse~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D5
 ~
@@ -57,7 +57,7 @@ D5
 S
 #10005
 On The Ledge~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -71,7 +71,7 @@ S
 T 10005
 #10006
 The Underground Stream~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D0
 ~
@@ -84,7 +84,7 @@ D2
 S
 #10007
 Dive to the ground...~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D0
 ~
@@ -93,7 +93,7 @@ D0
 S
 #10008
 You Run~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D3
 ~
@@ -103,7 +103,7 @@ S
 T 10008
 #10009
 Tell Them To Hurry~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -112,7 +112,7 @@ D1
 S
 #10010
 Hold Your Ground~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D0
 ~
@@ -130,7 +130,7 @@ S
 T 10010
 #10011
 Dive To The Ground~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D0
 ~
@@ -143,7 +143,7 @@ D1
 S
 #10012
 Along The Ledge~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -157,7 +157,7 @@ S
 T 10012
 #10013
 Warn Your Friends~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D3
 ~
@@ -167,7 +167,7 @@ S
 T 10013
 #10014
 You Lunge For The Bird~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 2
 D3
 ~
@@ -176,7 +176,7 @@ D3
 S
 #10015
 Run From The Creature~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D3
 ~
@@ -185,7 +185,7 @@ D3
 S
 #10016
 Angel Bird Glides~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D0
 ~
@@ -199,12 +199,12 @@ S
 T 10016
 #10017
 Not Follow...~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 S
 #10018
 Try To Make It~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -213,7 +213,7 @@ D1
 S
 #10019
 Explore Underground Kingdom~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -222,7 +222,7 @@ D1
 S
 #10020
 Decide To Wait~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D3
 ~
@@ -232,7 +232,7 @@ S
 T 10020
 #10021
 No Shelter~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -246,7 +246,7 @@ S
 T 10021
 #10022
 Concentrate On Getting Home~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D1
 ~
@@ -255,7 +255,7 @@ D1
 S
 #10023
 The Frozen Slope~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -265,7 +265,7 @@ S
 T 10023
 #10024
 No Chance Of That~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D3
 ~
@@ -275,7 +275,7 @@ S
 T 10024
 #10025
 Keep Walking~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -284,7 +284,7 @@ D1
 S
 #10026
 Passing Months~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D1
 ~
@@ -293,7 +293,7 @@ D1
 S
 #10027
 Faint signals~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D0
 ~
@@ -307,7 +307,7 @@ S
 T 10027
 #10028
 Go On The Expedition~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D1
 ~
@@ -316,7 +316,7 @@ D1
 S
 #10029
 Three Weeks Later~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -325,7 +325,7 @@ D1
 S
 #10030
 It's Too Dangerous~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D3
 ~
@@ -334,7 +334,7 @@ D3
 S
 #10032
 Huddle in parka~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D3
 ~
@@ -344,7 +344,7 @@ S
 T 10032
 #10033
 Play it safe~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D3
 ~
@@ -354,7 +354,7 @@ S
 T 10033
 #10035
 Decide to risk it~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -363,7 +363,7 @@ D1
 S
 #10036
 The Shining Mountains~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -372,7 +372,7 @@ D1
 S
 #10037
 Emergency Reverse~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D0
 ~
@@ -386,7 +386,7 @@ S
 T 10037
 #10038
 Reason with Dr. Bruckner~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D1
 ~
@@ -395,7 +395,7 @@ D1
 S
 #10039
 The Creatures~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -409,7 +409,7 @@ S
 T 10039
 #10040
 The Landscape~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D3
 ~
@@ -431,7 +431,7 @@ D1
 S
 #10043
 Bury The Professor~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 2
 D3
 ~
@@ -440,7 +440,7 @@ D3
 S
 #10044
 Inside The Agon~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -454,7 +454,7 @@ S
 T 10044
 #10046
 Hide In The Leaves~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 3
 D1
 ~
@@ -463,7 +463,7 @@ D1
 S
 #10047
 Something Behind You~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 3
 D3
 ~
@@ -482,7 +482,7 @@ D1
 S
 #10050
 Refuse To Follow~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -505,7 +505,7 @@ S
 T 10051
 #10052
 Go With The Warriors~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -514,7 +514,7 @@ D1
 S
 #10053
 Catch Your Breath~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D0
 ~
@@ -569,7 +569,7 @@ D1
 S
 #10058
 Bluff The Guards~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 3
 D0
 ~
@@ -583,7 +583,7 @@ S
 T 10058
 #10060
 Hours Later~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 2
 D3
 ~
@@ -593,7 +593,7 @@ S
 T 10060
 #10061
 Swim For Shore~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 6
 D3
 ~
@@ -602,7 +602,7 @@ D3
 S
 #10062
 Stay With The Boat~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 6
 D3
 ~
@@ -631,7 +631,7 @@ S
 T 10064
 #10065
 Swim Across River~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 6
 D3
 ~
@@ -641,7 +641,7 @@ S
 T 10065
 #10066
 Continue To Shore~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -651,7 +651,7 @@ S
 T 10065
 #10067
 Warm Hugs~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -660,7 +660,7 @@ D1
 S
 #10068
 What Can We Do~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -674,7 +674,7 @@ S
 T 10068
 #10069
 The Pioneers~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 2
 D3
 ~
@@ -684,7 +684,7 @@ S
 T 10069
 #10070
 Face the Akpar~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -698,7 +698,7 @@ S
 T 10070
 #10072
 The Kota Beasts~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -708,7 +708,7 @@ S
 T 10072
 #10073
 Play Along~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -717,7 +717,7 @@ D1
 S
 #10074
 Help Is On The Way~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D3
 ~
@@ -727,7 +727,7 @@ S
 T 10074
 #10075
 Who Will Volunteer~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -736,16 +736,16 @@ D1
 S
 #10076
 Three Tides Pass~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
 ~
-0 0 100078
+0 0 10078
 S
 #10077
 Do You Risk It~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -759,7 +759,7 @@ S
 T 10077
 #10078
 Honored Guests~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -773,7 +773,7 @@ S
 T 10078
 #10081
 Explore the Kingdom~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 1
 D1
 ~
@@ -782,7 +782,7 @@ D1
 S
 #10082
 Return To The Surface~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D3
 ~
@@ -791,7 +791,7 @@ D3
 S
 #10083
 Fascinating Areas~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -809,7 +809,7 @@ S
 T 10083
 #10084
 You Betrayed Us~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -819,7 +819,7 @@ S
 T 10084
 #10085
 The Weightless Peaks~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -828,7 +828,7 @@ D1
 S
 #10087
 The Highest Peak~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -837,7 +837,7 @@ D1
 S
 #10088
 Hills of Diamonds~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -846,7 +846,7 @@ D1
 S
 #10089
 Press Emergency Reverse~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D3
 ~
@@ -856,7 +856,7 @@ S
 T 10089
 #10091
 The Diamonds~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -870,7 +870,7 @@ S
 T 10091
 #10092
 The Flying Clera~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -879,7 +879,7 @@ D1
 S
 #10094
 The Diamonds~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 4
 D1
 ~
@@ -888,7 +888,7 @@ D1
 S
 #10095
 Willing to try?~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -902,7 +902,7 @@ S
 T 10095
 #10097
 Turn back~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D1
 ~
@@ -911,7 +911,7 @@ D1
 S
 #10098
 The Return~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 2
 D3
 ~
@@ -920,7 +920,7 @@ D3
 S
 #10100
 Escape the Akpar~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 3
 D3
 ~
@@ -929,7 +929,7 @@ D3
 S
 #10101
 Hold you breath...~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -938,7 +938,7 @@ D1
 S
 #10102
 A Soft Bed~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -948,7 +948,7 @@ S
 T 1102
 #10103
 Safe And Sound~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -958,7 +958,7 @@ S
 T 1103
 #10104
 Refuse To Help~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
@@ -967,7 +967,7 @@ D1
 S
 #10105
 The Grand Akpar Paces~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -976,7 +976,7 @@ D3
 S
 #10106
 The Mountain Peak~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D4
 ~
@@ -986,7 +986,7 @@ S
 T 1106
 #10108
 You made it!~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -996,7 +996,7 @@ S
 T 1108
 #10200
 The Cave of Time~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 5
 D0
 ~
@@ -1005,7 +1005,7 @@ D0
 S
 #10400
 Hyperspace~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 1
 D3
 ~
@@ -1014,7 +1014,7 @@ D3
 S
 #10600
 You Are A Genius~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D3
 ~
@@ -1023,7 +1023,7 @@ D3
 S
 #10800
 You Are A Superstar~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D0
 ~
@@ -1032,7 +1032,7 @@ D0
 S
 #11000
 You Are An Alien~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 1
 D1
 ~
@@ -1041,7 +1041,7 @@ D1
 S
 #11200
 Alien Invaders~
-You are in an unfinished room.~
+:room:/main:look~
 100 8 0 0 0 0
 D2
 ~
@@ -1050,7 +1050,7 @@ D2
 S
 #11400
 Faster Than Light~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D3
 ~
@@ -1059,7 +1059,7 @@ D3
 S
 #11600
 Dream Trips~
-You are in an unfinished room.~
+:room:/main:look~
 100 0 0 0 0 0
 D1
 ~
