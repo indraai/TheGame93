@@ -21,16 +21,16 @@ D0
 ~
 0 0 10002
 E
-crevasse~
-10001/crevasse
+glacier~
+10001/glacier
 ~
 E
 greenland~
 10001/greenland
 ~
 E
-glacier~
-10001/glacier
+crevasse~
+10001/crevasse
 ~
 S
 #10002
@@ -955,7 +955,6 @@ D3
 ~
 0 0 10000
 S
-T 1103
 #10104
 Refuse To Help~
 :room:/main:look~
@@ -983,7 +982,6 @@ D4
 ~
 3 0 251
 S
-T 1106
 #10108
 You made it!~
 :room:/main:look~
@@ -993,7 +991,6 @@ D3
 ~
 0 0 10000
 S
-T 1108
 #10200
 The Cave of Time~
 :room:/main:look~
