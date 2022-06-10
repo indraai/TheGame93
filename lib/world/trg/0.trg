@@ -71,7 +71,7 @@ end
 ~
 #97
 Outfit Player~
-2 g 100
+2 q 100
 ~
 if %actor.is_pc%
   wait 2 sec

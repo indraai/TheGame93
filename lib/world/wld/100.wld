@@ -12,6 +12,7 @@ thankyou~
 ~
 S
 T 10004
+T 97
 #10001
 Toan Glacier~
 You are in an unfinished room.~
@@ -21,16 +22,16 @@ D0
 ~
 0 0 10002
 E
-glacier~
-10001/glacier
+crevasse~
+10001/crevasse
 ~
 E
 greenland~
 10001/greenland
 ~
 E
-crevasse~
-10001/crevasse
+glacier~
+10001/glacier
 ~
 S
 #10002
