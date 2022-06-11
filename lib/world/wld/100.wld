@@ -694,7 +694,7 @@ D0
 D2
 ~
 ~
-0 0 1104
+0 0 10104
 S
 T 10070
 #10072
@@ -834,7 +834,7 @@ The Highest Peak~
 D1
 ~
 ~
-0 0 1106
+0 0 10106
 S
 #10088
 Hills of Diamonds~
@@ -894,11 +894,11 @@ Willing to try?~
 D0
 ~
 ~
-0 0 1101
+0 0 10101
 D2
 ~
 ~
-0 0 1102
+0 0 10102
 S
 T 10095
 #10097
@@ -908,7 +908,7 @@ Turn back~
 D1
 ~
 ~
-0 0 1103
+0 0 10103
 S
 #10098
 The Return~
@@ -946,7 +946,7 @@ D3
 ~
 0 0 10000
 S
-T 1102
+T 10102
 #10103
 Safe And Sound~
 :room:/main:look~
@@ -963,7 +963,7 @@ Refuse To Help~
 D1
 ~
 ~
-0 0 1105
+0 0 10105
 S
 #10105
 The Grand Akpar Paces~
