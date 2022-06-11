@@ -606,7 +606,7 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
     write_to_output(d, "\nbmud[%s]:%d\r", extra_bits[i], ++count);
   }
 
-  sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
+  // sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
 
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
