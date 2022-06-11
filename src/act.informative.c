@@ -310,10 +310,11 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
      send_to_char(ch, "\n# %s\r"
        "\n::begin:agent\r"
        "\ntalk:#adv agent:thegame %s\r"
-       "\ngold:%d Credits"
+       "\ngold:%s has %d Credits"
        "\n::end:agent\r",
        i->player.short_descr,
        i->player.description,
+       i->player.short_descr,
        GET_GOLD(i)
      );
    }
