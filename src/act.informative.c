@@ -310,7 +310,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
      send_to_char(ch, "\n# %s\r"
        "\n::begin:agent\r"
        "\ntalk:#adv agent:thegame %s\r"
-       "\npocket:%d Credits"
+       "\ngold:%d Credits"
        "\n::end:agent\r",
        i->player.short_descr,
        i->player.description,
