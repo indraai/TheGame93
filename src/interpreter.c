@@ -554,34 +554,34 @@ void command_interpreter(struct char_data *ch, char *argument)
     }
   }
   else if (!IS_NPC(ch) && PLR_FLAGGED(ch, PLR_FROZEN) && GET_LEVEL(ch) < LVL_IMPL)
-    send_to_char(ch, "You try, but the mind-numbing cold prevents you...\r\n");
+    send_to_char(ch, "\ninfo:You are frozen, and unable to move.\r");
   else if (complete_cmd_info[cmd].command_pointer == NULL)
-    send_to_char(ch, "Sorry, that command hasn't been implemented yet.\r\n");
+    send_to_char(ch, "\ninfo:Sorry, that command hasn't been implemented yet.\r");
   else if (IS_NPC(ch) && complete_cmd_info[cmd].minimum_level >= LVL_IMMORT)
-    send_to_char(ch, "You can't use immortal commands while switched.\r\n");
+    send_to_char(ch, "\ninfo:You can't use immortal commands while switched.\r");
   else if (GET_POS(ch) < complete_cmd_info[cmd].minimum_position)
     switch (GET_POS(ch)) {
     case POS_DEAD:
-      send_to_char(ch, "Lie still.\r\n");
+      send_to_char(ch, "\ninfo:You are dead.\r");
       break;
     case POS_INCAP:
     case POS_MORTALLYW:
-      send_to_char(ch, "You unable to do anything!\r\n");
+      send_to_char(ch, "\ninfo:You are incapicated.\r");
       break;
     case POS_STUNNED:
-      send_to_char(ch, "All you can do is think about the stars!\r\n");
+      send_to_char(ch, "\ninfo:You are stunned.\r");
       break;
     case POS_SLEEPING:
-      send_to_char(ch, "In your dreams, or what?\r\n");
+      send_to_char(ch, "\ninfo:You are sleeping.\r");
       break;
     case POS_RESTING:
-      send_to_char(ch, "Nah... You feel too relaxed to do that.\r\n");
+      send_to_char(ch, "\ninfo:You are resting.\r");
       break;
     case POS_SITTING:
-      send_to_char(ch, "Maybe you should get on your feet first?\r\n");
+      send_to_char(ch, "\ninfo:You are sitting.\r");
       break;
     case POS_FIGHTING:
-      send_to_char(ch, "No way, you're fighting!\r\n");
+      send_to_char(ch, "\ninfo:You are fighting.\r");
       break;
   } else if (no_specials || !special(ch, cmd, line))
     ((*complete_cmd_info[cmd].command_pointer) (ch, line, cmd, complete_cmd_info[cmd].subcmd));
