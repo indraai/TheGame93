@@ -92,17 +92,17 @@ ACMD(do_hit)
  one_argument(argument, arg);
 
   if (!*arg) {
-    send_to_char(ch, "alert:Hit who?\r\n");
+    send_to_char(ch, "\nalert:Hit who?\r");
   }
   else if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "alert:Player not here.\r\n");
+    send_to_char(ch, "\nalert:Player not here.\r");
   }
   else if (GET_LEVEL(vict) >= LVL_IMMORT) {
-    send_to_char(ch, "alert:No hitting immortals!\r\n");
+    send_to_char(ch, "\nalert:No hitting immortals!\r");
   }
   else if (vict == ch) {
-    send_to_char(ch, "alert:Please stop hitting yourself.\r\n");
-    act("alert:$n hits $mself.\r\n", FALSE, ch, 0, vict, TO_ROOM);
+    send_to_char(ch, "\nalert:Stop hitting yourself.\r");
+    act("\nalert:$n hits $mself.\r", FALSE, ch, 0, vict, TO_ROOM);
   }
   else if (AFF_FLAGGED(ch, AFF_CHARM) && (ch->master == vict)) {
     act("alert:$N, you are unable to hit $M.\r\n", FALSE, ch, 0, vict, TO_CHAR);
@@ -124,7 +124,7 @@ ACMD(do_hit)
 
 ACMD(do_kill)
 {
-  send_to_char(ch, "You should learn killing is bad.\r\n");
+  send_to_char(ch, "\nalert:You should learn killing is bad.\r");
   return;
 
   char arg[MAX_INPUT_LENGTH];
