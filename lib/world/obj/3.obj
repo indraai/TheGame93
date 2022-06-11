@@ -116,6 +116,10 @@ CYBER1 TERMINAL~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
+E
+terminal~
+terminal
+~
 #312
 cyber2 terminal army security~
 CYBER2 TERMINAL~
@@ -125,6 +129,10 @@ CYBER2 TERMINAL~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
+E
+terminal~
+terminal
+~
 #313
 cyber2 terminal army security~
 CYBER3 TERMINAL~
@@ -134,13 +142,17 @@ CYBER3 TERMINAL~
 0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
+E
+terminal~
+terminal
+~
 #314
 cyber4 terminal army security~
 CYBER4 TERMINAL~
 0314/main:avatar~
 0314/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+12 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
