@@ -314,7 +314,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
        "\n::end:agent\r",
        i->player.short_descr,
        i->player.description,
-       GET_GOLD(ch)
+       GET_GOLD(i)
      );
    }
   else {
