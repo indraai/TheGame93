@@ -199,30 +199,30 @@ Water Fountain~
 0 0 0 0 0
 T 201
 E
-fountain~
-0251/main:fountain
-~
-E
-indra~
-0251/main:indra~
-E
-bom~
-0251/main:bom~
-E
-sarya~
-0251/main:sarya~
-E
-soma~
-0251/main:soma~
-E
-indu~
-0251/main:indu~
+statues~
+0251/main:statues~
 E
 vamraka~
 0251/main:vamraka~
 E
-statues~
-0251/main:statues~
+indu~
+0251/main:indu~
+E
+soma~
+0251/main:soma~
+E
+sarya~
+0251/main:sarya~
+E
+bom~
+0251/main:bom~
+E
+indra~
+0251/main:indra~
+E
+fountain~
+0251/main:fountain
+~
 #278
 forkit icecream food~
 Fork-It IceCream~
