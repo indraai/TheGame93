@@ -684,11 +684,11 @@ static void perform_give_gold(struct char_data *ch, struct char_data *vict,
   snprintf(buf, sizeof(buf), "\ngold: $n gives %s to $N.\r", money_desc(amount));
   act(buf, TRUE, ch, 0, vict, TO_NOTVICT);
 
-  if (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_DEVA))
-    decrease_gold(ch, amount);
+  // if (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_DEVA))
+  decrease_gold(ch, amount); // decrease the gold for the player giving.
+  increase_gold(vict, amount); // increaese the gold for the player receiving
 
-  increase_gold(vict, amount);
-  bribe_mtrigger(vict, ch, amount);
+  // bribe_mtrigger(vict, ch, amount);
 }
 
 ACMD(do_give)
