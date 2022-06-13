@@ -87,6 +87,16 @@ SavingPetri: 6
 SavingBreath: 6
 SavingSpell: 6
 E
+#106
+security deva securitydeva d106 z1 lookout~
+SecurityDEVA D106 (Lookout)~
+106/main:avatar~
+106/main:look~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
+E
 #107
 branwen leatherworker~
 Branwen~
@@ -127,15 +137,15 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #111
-narry jeweler gems jewels deva store~
-Narry~
+security deva securitydeva d111 z1 lookout~
+SecurityDEVA D111 (Lookout)~
 0111/main:avatar~
 0111/main:look
 ~
-190474 0 0 0 16 0 0 0 1000 E
+10 0 0 0 2128 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 6 6 6
+8 8 1 2 11
 E
 #112
 arjika monk deva~
@@ -164,27 +174,14 @@ Quest Master~
 8 8 1 6 6
 E
 #114
-librarian library boss~
-Boss~
-0114/main:avatar~
-0114/main:look
-~
-16462 0 0 0 0 0 0 0 0 E
-19 14 -1 3d3+190 3d3+3
-190 36100
-8 8 1 2 13
-BareHandAttack: 11
-Str: 12
-Dex: 12
-Int: 12
-Wis: 12
-Con: 12
-Cha: 12
-SavingPara: 4
-SavingRod: 4
-SavingPetri: 4
-SavingBreath: 4
-SavingSpell: 4
+security deva securitydeva d114 z1 lookout~
+SecurityDEVA D114 (Lookout)~
+114/main:avatar~
+114/main:look~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
 E
 #115
 fightclub fight club mastermind~
@@ -555,6 +552,16 @@ Yellow Master Deva~
 8 8 0 4 4
 BareHandAttack: 5
 E
+#139
+security deva securitydeva d139 z1 lookout~
+SecurityDEVA D139 (Lookout)~
+139/main:avatar~
+139/main:look~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
+E
 #141
 arjika military soldier special forces~
 Arjika SForce~
@@ -736,14 +743,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #154
-arjika arjikiya military soldier a154 z3~
-Arjika PFC~
+seccurity deva securitydeva d154 z1 lookout~
+SecurityDEVA D154 (Lookout)~
 0154/main:avatar~
 0154/main:look~
-4120 0 0 0 0 0 0 0 100 E
+10 0 0 0 2168 0 0 0 100 E
 3 19 8 0d0+30 1d2+0
 30 900
-8 8 6 0 0
+8 8 1 2 11
 BareHandAttack: 7
 E
 #155

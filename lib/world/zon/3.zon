@@ -1,7 +1,8 @@
 #3
 Quinn~
 Arjika~
-300 399 15 2 d 0 0 0 -1 -1
+300 300 15 2 d 0 0 0 -1 -1
+M 0 348 1 348 	(SecurityDEVA D348 (Lookout))
 M 0 326 1 394 	(Narayana Vasudeva Bhagavan)
 G 1 306 1 -1 	(Panchajanya)
 O 0 394 1 394 	(Arjika Isotropic Antenna)

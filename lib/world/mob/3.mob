@@ -274,6 +274,16 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
+#348
+security deva securitydeva d348 z1 lookout~
+SecurityDEVA D348 (Lookout)~
+348/main:avatar~
+348/main:look~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
+E
 #362
 security securitydeva guard deva d362 z1~
 SecurityDEVA D362 (Guard)~

@@ -2,6 +2,7 @@
 Quinn~
 Arjika~
 200 299 15 2 d 0 0 0 -1 -1
+M 0 277 1 277 	(Narry)
 R 0 228 228 -1 	(Cheddar Cheese)
 O 1 228 99 228 	(Cheddar Cheese)
 O 1 228 99 228 	(Cheddar Cheese)
@@ -86,13 +87,11 @@ G 1 167 100 -1 	(Hat)
 G 1 168 100 -1 	(Shirt)
 G 1 169 100 -1 	(Shoes)
 G 1 170 100 -1 	(Gloves)
-M 0 106 1 234 	(Captain Ludac)
 M 0 109 1 225 	(Warry)
 G 1 165 100 -1 	(Water Cup)
 G 1 179 100 -1 	(Water Canteen)
 M 0 110 1 222 	(Postmaster Deva)
-M 0 111 1 277 	(Narry)
-M 0 119 1 224 	(Mr. Dewity)
+M 0 119 1 224 	(SecurityDEVA D119 (Lookout))
 M 0 135 1 252 	(BlueDeva PRIME)
 M 0 158 1 238 	(Farry)
 O 0 154 1 238 	(Sewing Machine)
