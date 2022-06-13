@@ -1,7 +1,7 @@
 #10000
 Underground Kingdom~
 :room:/main:look~
-100 0 0 0 0 0
+100 24 0 0 0 0
 D0
 ~
 ~
@@ -22,16 +22,16 @@ D0
 ~
 0 0 10002
 E
-crevasse~
-10001/crevasse
+glacier~
+10001/glacier
 ~
 E
 greenland~
 10001/greenland
 ~
 E
-glacier~
-10001/glacier
+crevasse~
+10001/crevasse
 ~
 S
 #10002

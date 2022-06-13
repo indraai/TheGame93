@@ -6,6 +6,10 @@ A military light is here.~
 1 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 -1 0
 1 15 0 0 0
+E
+light~
+light
+~
 #201
 shirt~
 T-Shirt~
@@ -199,30 +203,30 @@ Water Fountain~
 0 0 0 0 0
 T 201
 E
-statues~
-0251/main:statues~
-E
-vamraka~
-0251/main:vamraka~
-E
-indu~
-0251/main:indu~
-E
-soma~
-0251/main:soma~
-E
-sarya~
-0251/main:sarya~
-E
-bom~
-0251/main:bom~
+fountain~
+0251/main:fountain
+~
 E
 indra~
 0251/main:indra~
 E
-fountain~
-0251/main:fountain
-~
+bom~
+0251/main:bom~
+E
+sarya~
+0251/main:sarya~
+E
+soma~
+0251/main:soma~
+E
+indu~
+0251/main:indu~
+E
+vamraka~
+0251/main:vamraka~
+E
+statues~
+0251/main:statues~
 #278
 forkit icecream food~
 Fork-It IceCream~

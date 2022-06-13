@@ -9,7 +9,7 @@ none.~
 0 8 0 0 0 1
 S
 #2
-indra.academy/r2~
+Academy Entrance~
 none~
 0 24 0 0 0 0
 D1
@@ -23,9 +23,9 @@ D3
 S
 T 2
 #3
-indra.academy/r3~
+Academy L1~
 You are in an unfinished room.~
-0 0 0 0 0 0
+0 24 0 0 0 0
 D1
 ~
 ~
@@ -38,8 +38,12 @@ S
 #4
 indra.academy/r4~
 undefined~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
+~
+~
+0 0 -1
+D1
 ~
 ~
 0 0 5
@@ -49,43 +53,43 @@ D3
 0 0 3
 S
 #5
-indra.academy/r5~
+Academy L3~
 undefined~
-0 8 0 0 0 0
-D2
+0 24 0 0 0 0
+D1
+~
+~
+0 0 6
+D3
 ~
 ~
 0 0 4
-D3
-~
-~
-0 0 6
 S
 #6
-indra.academy/r6~
+Academy L4~
 undefined~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 5
-D3
-~
-~
-0 0 7
-S
-#7
-indra.academy/r7~
-undefined~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 ~
 ~
-0 0 8
-D1
+0 0 7
+D3
+~
+~
+0 0 5
+S
+#7
+Academy L5~
+undefined~
+0 24 0 0 0 0
+D2
 ~
 ~
 0 0 6
+D3
+~
+~
+0 0 8
 S
 #8
 indra.academy/r8~
@@ -94,38 +98,46 @@ undefined~
 D1
 ~
 ~
-0 0 9
-D2
-~
-~
 0 0 7
+D3
+~
+~
+0 0 9
 S
 #9
-indra.academy/r9~
+Academy L7~
 undefined~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D1
 ~
 ~
-0 0 10
+0 0 8
 D3
 ~
 ~
-0 0 8
+0 0 10
 S
 #10
-indra.academy/r10~
+Academy Graduation~
 undefined~
-0 0 0 0 0 0
-D3
+0 24 0 0 0 0
+D1
 ~
 ~
 0 0 9
+D9
+~
+~
+0 0 2
 S
 #11
-indra.church/r1~
+Book 1~
 You are in an unfinished room.~
-0 8 0 0 0 0
+0 24 0 0 0 0
+D0
+~
+~
+0 0 20
 D1
 ~
 ~
@@ -134,11 +146,19 @@ D3
 ~
 ~
 0 0 12
+D6
+~
+~
+0 0 19
 S
 #12
-indra.church/b2~
+Book 2~
 You are in an unfinished room.~
-0 8 0 0 0 0
+0 24 0 0 0 0
+D0
+~
+~
+0 0 19
 D1
 ~
 ~
@@ -147,106 +167,190 @@ D3
 ~
 ~
 0 0 13
+D6
+~
+~
+0 0 18
+D7
+~
+~
+0 0 20
 S
 #13
-indra.church/b3~
+Book 3~
 You are in an unfinished room.~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 ~
 ~
-0 0 14
+0 0 18
 D1
 ~
 ~
 0 0 12
-S
-#14
-indra.church/b4~
-You are in an unfinished room.~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 15
-D2
-~
-~
-0 0 13
-S
-#15
-indra.church/b5~
-You are in an unfinished room.~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 16
 D3
 ~
 ~
 0 0 14
+D6
+~
+~
+0 0 17
+D7
+~
+~
+0 0 19
 S
-#16
-indra.church/b6~
+#14
+Book 4~
 You are in an unfinished room.~
-0 8 0 0 0 0
+0 24 0 0 0 0
 D0
 ~
 ~
 0 0 17
+D1
+~
+~
+0 0 13
 D3
 ~
 ~
 0 0 15
+D6
+~
+~
+0 0 16
+D7
+~
+~
+0 0 18
+S
+#15
+Book 5~
+You are in an unfinished room.~
+0 24 0 0 0 0
+D0
+~
+~
+0 0 16
+D1
+~
+~
+0 0 14
+D7
+~
+~
+0 0 17
+S
+#16
+Book 6~
+You are in an unfinished room.~
+0 24 0 0 0 0
+D1
+~
+~
+0 0 17
+D2
+~
+~
+0 0 15
+D8
+~
+~
+0 0 14
 S
 #17
-Veda Book 7~
+Book 7~
+You are in an unfinished room.~
+0 24 0 0 0 0
+D1
+~
+~
+0 0 18
+D2
+~
+~
+0 0 14
+D3
+~
+~
+0 0 16
+D8
+~
+~
+0 0 13
+D9
+~
+~
+0 0 15
+S
+#18
+Book 8~
+You are in an unfinished room.~
+0 24 0 0 0 0
+D1
+~
+~
+0 0 19
+D2
+~
+~
+0 0 13
+D3
+~
+~
+0 0 17
+D8
+~
+~
+0 0 12
+D9
+~
+~
+0 0 14
+S
+#19
+Book 9~
+You are in an unfinished room.~
+0 24 0 0 0 0
+D1
+~
+~
+0 0 20
+D2
+~
+~
+0 0 12
+D3
+~
+~
+0 0 18
+D8
+~
+~
+0 0 11
+D9
+~
+~
+0 0 13
+S
+#20
+Book 10~
 You are in an unfinished room.~
 0 24 0 0 0 0
 D2
 ~
 ~
-0 0 16
-D3
-~
-~
-0 0 18
-S
-#18
-indra.church/b8~
-You are in an unfinished room.~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 17
+0 0 11
 D3
 ~
 ~
 0 0 19
-S
-#19
-indra.church/b9~
-You are in an unfinished room.~
-0 8 0 0 0 0
-D1
+D9
 ~
 ~
-0 0 18
-D3
-~
-~
-0 0 20
-S
-#20
-indra.church/b10~
-You are in an unfinished room.~
-0 8 0 0 0 0
-D1
-~
-~
-0 0 19
+0 0 12
 S
 #26
 SecurityPRIME Class~

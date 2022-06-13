@@ -44,13 +44,13 @@ SavingSpell: 5
 E
 #1010
 arjika aryaka grandfather grapmps grandpa~
-Grandfather Aryaka~
+Aryaka~
 1010/main:avatar~
 1010/main:look:main~
-18718 0 0 0 2056 0 0 0 -1000 E
+18718 0 0 0 2056 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6 1
+8 8 1 2 15
 BareHandAttack: 14
 Str: 18
 Dex: 18
