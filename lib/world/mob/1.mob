@@ -148,14 +148,14 @@ SecurityDEVA D111 (Lookout)~
 8 8 1 2 11
 E
 #112
-arjika monk deva~
-Arjika Monk~
+arjika monk deva d112 z1~
+SecurityDEVA D112 (Lookout)~
 0112/main:avatar~
 0112/main:look~
-6168 0 0 0 0 0 0 0 350 E
+10 0 0 0 2168 0 0 0 350 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 0 1 1
+8 8 1 2 11
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -184,15 +184,15 @@ SecurityDEVA D114 (Lookout)~
 8 8 1 2 11
 E
 #115
-fightclub fight club mastermind~
-Mastermind~
+security deva securitydeva d115 z1 lookout~
+SecurityDEVA D115 (Lookout)~
 0115/main:avatar~
 0115/main:look
 ~
-16462 0 0 0 0 0 0 0 -900 E
+10 0 0 0 2168 0 0 0 -900 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 0 3 3
+8 8 1 2 11
 BareHandAttack: 12
 Str: 12
 Dex: 12
@@ -281,15 +281,20 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #121
-guildmaster master monk~
-the monk's guildmaster~
+security deva securitydeva d121 z1 lookout~
+SecurityDEVA D121 (Lookout)~
 0121/main:avatar~
-You are in no doubt that this guildmaster is truly close to the Devas; he has a peaceful, loving look.  You notice that he is surrounded by a white aura.
+0121/main:look
 ~
-59418 0 0 0 16 0 0 0 1000 E
-34 9 -10 6d6+340 5d5+5
-340 115600
-8 8 1 6 6
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #122
 security deva securitydeva lookout d122 z1~
@@ -872,6 +877,16 @@ SavingRod: 1
 SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
+E
+#164
+SecurityDEVA D164 (Lookout)~
+SecurityDEVA D164 (Lookout)~
+164/main:avatar~
+164/main:look~
+10 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
 E
 #165
 indu disciple monk~
