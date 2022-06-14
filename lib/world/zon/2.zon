@@ -2,6 +2,11 @@
 Quinn~
 Arjika~
 200 299 15 2 d 0 0 0 -1 -1
+M 0 243 1 243 	(SecurityDEVA D243 (Guard))
+M 0 149 1 243 	(Arjika Sergeant)
+R 0 243 92 -1 	(Security Board)
+O 1 92 99 243 	(Security Board)
+M 0 143 10 243 	(SecurityDEVA D143 (Patrol))
 M 0 259 1 259 	(SecurityDEVA D259 (Guard))
 R 0 259 92 -1 	(Security Board)
 O 1 92 99 259 	(Security Board)
@@ -51,11 +56,6 @@ G 1 200 99 -1 	(Flashlight)
 M 0 199 1 278 	(Karry)
 G 1 114 25 -1 	(Pretzel)
 G 1 278 99 -1 	(Fork-It IceCream)
-M 0 175 4 243 	(SecurityDEVA D175 (Guard))
-M 0 149 1 243 	(Arjika Sergeant)
-R 0 243 92 -1 	(Security Board)
-O 1 92 99 243 	(Security Board)
-M 0 143 10 243 	(SecurityDEVA D143 (Patrol))
 O 0 314 1 297 	(CYBER4 TERMINAL)
 M 0 297 1 297 	(ARMY Cyber4)
 M 0 177 4 297 	(SecurityDEVA D177 (Cyber))
