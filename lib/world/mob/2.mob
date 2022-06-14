@@ -334,6 +334,16 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#259
+security deva securitydeva guard d259 z2~
+SecurityDEVA D259 (Guard)~
+259/main:avatar~
+259/main:look~
+10 0 0 0 2168 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
+E
 #277
 narry jeweler gems jewels deva store~
 Narry~

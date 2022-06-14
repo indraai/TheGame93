@@ -98,16 +98,20 @@ SecurityDEVA D106 (Lookout)~
 8 8 1 2 11
 E
 #107
-branwen leatherworker~
-Branwen~
-Branwen, the leatherworker stands behind the counter.
+security deva securitydeva d107 operations~
+SecurityDEVA D107 (Operations)~
+0107/main:avatar~
+0107/main:look
 ~
-Using hides bought from the local farms this young man makes some of the finest leather products in Arjika.  His wares are guaranteed for life.
-~
-190474 0 0 0 16 0 0 0 900 E
-33 9 -9 6d6+330 5d5+5
-330 108900
-8 8 1 6 6
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #109
 warry watermaster water store deva~
@@ -566,6 +570,21 @@ SecurityDEVA D139 (Lookout)~
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 2 11
+E
+#140
+security deva securitydeva d140 z1 guard~
+SecurityDEVA D140 (Guard)~
+140/main:avatar~
+140/main:look~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #141
 arjika military soldier special forces~
