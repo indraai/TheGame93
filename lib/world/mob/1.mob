@@ -92,10 +92,15 @@ security deva securitydeva d106 z1 lookout~
 SecurityDEVA D106 (Lookout)~
 106/main:avatar~
 106/main:look~
-10 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #107
 security deva securitydeva d107 operations~
@@ -146,26 +151,31 @@ SecurityDEVA D111 (Lookout)~
 0111/main:avatar~
 0111/main:look
 ~
-10 0 0 0 2128 0 0 0 1000 E
-33 9 -9 6d6+330 5d5+5
-330 108900
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #112
-arjika monk deva d112 z1~
+security deva securitydeva d112 z1 lookout~
 SecurityDEVA D112 (Lookout)~
 0112/main:avatar~
 0112/main:look~
 10 0 0 0 2168 0 0 0 350 E
-7 18 5 1d1+70 1d2+1
-70 4900
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
 BareHandAttack: 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #113
 questmaster quests~
@@ -182,10 +192,15 @@ security deva securitydeva d114 z1 lookout~
 SecurityDEVA D114 (Lookout)~
 114/main:avatar~
 114/main:look~
-10 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #115
 security deva securitydeva d115 z1 lookout~
@@ -194,21 +209,15 @@ SecurityDEVA D115 (Lookout)~
 0115/main:look
 ~
 10 0 0 0 2168 0 0 0 -900 E
-18 14 0 3d3+180 3d3+3
-180 32400
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
 BareHandAttack: 12
-Str: 12
-Dex: 12
-Int: 12
-Wis: 12
-Con: 12
-Cha: 12
-SavingPara: 4
-SavingRod: 4
-SavingPetri: 4
-SavingBreath: 4
-SavingSpell: 4
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #116
 librarian brains bookclub library~
@@ -245,10 +254,15 @@ SecurityDEVA D118 (Lookout)~
 0118/main:avatar~
 0118/main:look
 ~
-10 0 0 0 0 0 0 0 0 E
-22 13 -3 4d4+220 3d3+3
-220 48400
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #119
 security deva securitydeva lookout d119 z1~
@@ -256,10 +270,15 @@ SecurityDEVA D119 (Lookout)~
 0119/main:avatar~
 0119/main:look
 ~
-10 0 0 0 0 0 0 0 0 E
-22 13 -3 4d4+220 3d3+3
-220 48400
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
 8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #120
 saryanavan sarya deva deity~
@@ -306,7 +325,7 @@ SecurityDEVA D122 (Lookout)~
 0122/main:avatar~
 0122/main:look
 ~
-10 0 0 0 0 0 0 0 0 E
+10 0 0 0 2168 0 0 0 0 E
 22 13 -3 4d4+220 3d3+3
 220 48400
 8 8 1 2 11
@@ -566,7 +585,7 @@ security deva securitydeva d139 z1 lookout~
 SecurityDEVA D139 (Lookout)~
 139/main:avatar~
 139/main:look~
-10 0 0 0 0 0 0 0 0 E
+10 0 0 0 2168 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 2 11
@@ -898,11 +917,11 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #164
-SecurityDEVA D164 (Lookout)~
+security deva securitydeva d164 lookout~
 SecurityDEVA D164 (Lookout)~
 164/main:avatar~
 164/main:look~
-10 0 0 0 0 0 0 0 0 E
+10 0 0 0 2168 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
 8 8 1 2 11

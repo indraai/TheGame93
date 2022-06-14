@@ -172,7 +172,7 @@ S
 #114
 Security Tower (W)~
 empty.~
-1 16 0 0 0 1
+1 24 0 0 0 1
 D1
 ~
 ~
@@ -236,7 +236,7 @@ S
 #118
 Security Lookout (E)~
 empty.~
-1 16 0 0 0 1
+1 24 0 0 0 1
 D0
 ~
 ~
@@ -457,7 +457,7 @@ S
 #139
 Security Tower (S)~
 empty room.~
-1 16 0 0 0 1
+1 24 0 0 0 1
 D0
 ~
 ~
