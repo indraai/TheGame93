@@ -792,7 +792,7 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
   }
 
   /* Find the weapon type (for display purposes only) */
-  if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON)
+  if (wielded && GET_OBJ_TYPE(wielded) == ITEM_TOOL)
     w_type = GET_OBJ_VAL(wielded, 3) + TYPE_HIT;
   else {
     if (IS_NPC(ch) && ch->mob_specials.attack_type != 0)
@@ -837,7 +837,7 @@ void hit(struct char_data *ch, struct char_data *victim, int type)
     dam += GET_DAMROLL(ch);
 
     /* Maybe holding arrow? */
-    if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON) {
+    if (wielded && GET_OBJ_TYPE(wielded) == ITEM_TOOL) {
       /* Add weapon-based damage if a weapon is being wielded */
       dam += dice(GET_OBJ_VAL(wielded, 1), GET_OBJ_VAL(wielded, 2));
     } else {

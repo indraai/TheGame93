@@ -316,7 +316,7 @@ void mag_objectmagic(struct char_data *ch, struct obj_data *obj, char *argument)
   FIND_OBJ_EQUIP, ch, &tch, &tobj);
 
   switch (GET_OBJ_TYPE(obj)) {
-  case ITEM_STAFF:
+  case ITEM_MILITARY:
     act("You tap $p three times on the ground.", FALSE, ch, obj, 0, TO_CHAR);
     if (obj->action_description)
       act(obj->action_description, FALSE, ch, obj, 0, TO_ROOM);
@@ -349,7 +349,7 @@ void mag_objectmagic(struct char_data *ch, struct obj_data *obj, char *argument)
       }
     }
     break;
-  case ITEM_WAND:
+  case ITEM_SECURITY:
     if (k == FIND_CHAR_ROOM) {
       if (tch == ch) {
         act("You point $p at yourself.", FALSE, ch, obj, 0, TO_CHAR);
@@ -391,7 +391,7 @@ void mag_objectmagic(struct char_data *ch, struct obj_data *obj, char *argument)
       call_magic(ch, tch, tobj, GET_OBJ_VAL(obj, 3),
       DEFAULT_WAND_LVL, CAST_WAND);
     break;
-  case ITEM_SCROLL:
+  case ITEM_BOOK:
     if (*arg) {
       if (!k) {
         act("There is nothing to here to affect with $p.", FALSE, ch, obj, NULL,
@@ -416,7 +416,7 @@ void mag_objectmagic(struct char_data *ch, struct obj_data *obj, char *argument)
     if (obj != NULL)
       extract_obj(obj);
     break;
-  case ITEM_POTION:
+  case ITEM_MEDICAL:
     tch = ch;
 
     if (!consume_otrigger(obj, ch, OCMD_QUAFF)) /* check trigger */

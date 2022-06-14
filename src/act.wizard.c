@@ -677,19 +677,19 @@ static void do_stat_object(struct char_data *ch, struct obj_data *j)
     else
       send_to_char(ch, "Hours left: [%d]\r\n", GET_OBJ_VAL(j, 2));
     break;
-  case ITEM_SCROLL:
-  case ITEM_POTION:
+  case ITEM_BOOK:
+  case ITEM_MEDICAL:
     send_to_char(ch, "Spells: (Level %d) %s, %s, %s\r\n", GET_OBJ_VAL(j, 0),
 	    skill_name(GET_OBJ_VAL(j, 1)), skill_name(GET_OBJ_VAL(j, 2)),
 	    skill_name(GET_OBJ_VAL(j, 3)));
     break;
-  case ITEM_WAND:
-  case ITEM_STAFF:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
     send_to_char(ch, "Spell: %s at level %d, %d (of %d) charges remaining\r\n",
 	    skill_name(GET_OBJ_VAL(j, 3)), GET_OBJ_VAL(j, 0),
 	    GET_OBJ_VAL(j, 2), GET_OBJ_VAL(j, 1));
     break;
-  case ITEM_WEAPON:
+  case ITEM_TOOL:
     send_to_char(ch, "Todam: %dd%d, Avg Damage: %.1f. Message type: %s\r\n",
 	    GET_OBJ_VAL(j, 1), GET_OBJ_VAL(j, 2), ((GET_OBJ_VAL(j, 2) + 1) / 2.0) * GET_OBJ_VAL(j, 1),  attack_hit_text[GET_OBJ_VAL(j, 3)].singular);
     break;
@@ -3718,7 +3718,7 @@ ACMD (do_zcheck)
                             "- Is worth %d (money limit %d coins).\r\n",
                                  value, MAX_OBJ_GOLD_ALLOWED);
           break;
-        case ITEM_WEAPON:
+        case ITEM_TOOL:
           if (GET_OBJ_VAL(obj, 3) >= NUM_ATTACK_TYPES && (found=1))
             len += snprintf(buf + len, sizeof(buf) - len,
                             "- has out of range attack type %d.\r\n",
@@ -3774,9 +3774,9 @@ ACMD (do_zcheck)
                           GET_OBJ_LEVEL(obj), LVL_IMMORT-1);
 
       if (obj->action_description && *obj->action_description &&
-          GET_OBJ_TYPE(obj) != ITEM_STAFF &&
-          GET_OBJ_TYPE(obj) != ITEM_WAND &&
-          GET_OBJ_TYPE(obj) != ITEM_SCROLL &&
+          GET_OBJ_TYPE(obj) != ITEM_MILITARY &&
+          GET_OBJ_TYPE(obj) != ITEM_SECURITY &&
+          GET_OBJ_TYPE(obj) != ITEM_BOOK &&
           GET_OBJ_TYPE(obj) != ITEM_NOTE && (found=1))
         len += snprintf(buf + len, sizeof(buf) - len,
                           "- has action_description set, but is inappropriate type.\r\n");

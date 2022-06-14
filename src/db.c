@@ -3737,15 +3737,15 @@ static int check_object(struct obj_data *obj)
 		GET_OBJ_VNUM(obj), obj->short_description,
 		GET_OBJ_VAL(obj, 1), GET_OBJ_VAL(obj, 0));
     break;
-  case ITEM_SCROLL:
-  case ITEM_POTION:
+  case ITEM_BOOK:
+  case ITEM_MEDICAL:
     error |= check_object_level(obj, 0);
     error |= check_object_spell_number(obj, 1);
     error |= check_object_spell_number(obj, 2);
     error |= check_object_spell_number(obj, 3);
     break;
-  case ITEM_WAND:
-  case ITEM_STAFF:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
     error |= check_object_level(obj, 0);
     error |= check_object_spell_number(obj, 3);
     if (GET_OBJ_VAL(obj, 2) > GET_OBJ_VAL(obj, 1) && (error = TRUE))

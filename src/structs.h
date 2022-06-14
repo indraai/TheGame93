@@ -389,19 +389,19 @@
 /* object-related defines */
 /* Item types: used by obj_data.obj_flags.type_flag */
 #define ITEM_LIGHT             1		/**< Item is a light source	*/
-#define ITEM_SCROLL            2		/**< Item is a scroll		*/
-#define ITEM_WAND              3		/**< Item is a wand		*/
-#define ITEM_STAFF             4		/**< Item is a staff		*/
-#define ITEM_WEAPON            5		/**< Item is a weapon		*/
+#define ITEM_BOOK              2		/**< Item is a scroll		*/
+#define ITEM_SECURITY          3		/**< Item is a wand		*/
+#define ITEM_MILITARY          4		/**< Item is a staff		*/
+#define ITEM_TOOL              5		/**< Item is a weapon		*/
 #define ITEM_FURNITURE         6   /**< Sittable Furniture		*/
-#define ITEM_FREE              7   /**< Unimplemented		*/
+#define ITEM_TECH              7   /**< Unimplemented		*/
 #define ITEM_TREASURE          8   /**< Item is a treasure, not gold	*/
 #define ITEM_ARMOR             9   /**< Item is armor		*/
-#define ITEM_POTION           10   /**< Item is a potion		*/
+#define ITEM_MEDICAL          10   /**< Item is a potion		*/
 #define ITEM_WORN             11		/**< Unimplemented		*/
 #define ITEM_OTHER            12		/**< Misc object			*/
 #define ITEM_TRASH            13		/**< Trash - shopkeepers won't buy	*/
-#define ITEM_FREE2            14		/**< Unimplemented		*/
+#define ITEM_APPLIANCE        14		/**< Unimplemented		*/
 #define ITEM_CONTAINER        15		/**< Item is a container		*/
 #define ITEM_NOTE             16		/**< Item is note 		*/
 #define ITEM_DRINKCON         17		/**< Item is a drink container	*/

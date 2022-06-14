@@ -873,7 +873,7 @@ void mag_alter_objs(int level, struct char_data *ch, struct obj_data *obj,
     case SPELL_CURSE:
       if (!OBJ_FLAGGED(obj, ITEM_NODROP)) {
 	SET_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_NODROP);
-	if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+	if (GET_OBJ_TYPE(obj) == ITEM_TOOL)
 	  GET_OBJ_VAL(obj, 2)--;
 	to_char = "$p briefly glows red.";
       }
@@ -895,7 +895,7 @@ void mag_alter_objs(int level, struct char_data *ch, struct obj_data *obj,
     case SPELL_REMOVE_CURSE:
       if (OBJ_FLAGGED(obj, ITEM_NODROP)) {
         REMOVE_BIT_AR(GET_OBJ_EXTRA(obj), ITEM_NODROP);
-        if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+        if (GET_OBJ_TYPE(obj) == ITEM_TOOL)
           GET_OBJ_VAL(obj, 2)++;
         to_char = "$p briefly glows blue.";
       }

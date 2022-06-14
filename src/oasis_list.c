@@ -163,21 +163,21 @@ static void perform_obj_type_list(struct char_data * ch, char *arg)
                    ++found, ov, v1, obj_proto[r_num].short_description);
             break;
 
-          case ITEM_SCROLL:
-          case ITEM_POTION:
+          case ITEM_BOOK:
+          case ITEM_MEDICAL:
             tmp_len = snprintf(buf+len, sizeof(buf)-len,"%d. %d %s\r",
                  ++found, ov, obj_proto[r_num].short_description);
             break;
 
-          case ITEM_WAND:
-          case ITEM_STAFF:
+          case ITEM_SECURITY:
+          case ITEM_MILITARY:
             v1 = (obj_proto[num].obj_flags.value[1]);
             v2 = (obj_proto[num].obj_flags.value[3]);
             tmp_len = snprintf(buf+len, sizeof(buf)-len,"\n%d. %d %d (%s) %s\r",
                  ++found, ov, v1, skill_name(v2), obj_proto[r_num].short_description);
             break;
 
-          case ITEM_WEAPON:
+          case ITEM_TOOL:
             v1 = ((obj_proto[num].obj_flags.value[2]+1)*(obj_proto[r_num].obj_flags.value[1])) / 2;
             tmp_len = snprintf(buf+len, sizeof(buf)-len,"\n%d. %d (%d Avg Dam) %s\r",
                  ++found, ov, v1, obj_proto[r_num].short_description);
@@ -269,7 +269,7 @@ static void perform_obj_aff_list(struct char_data * ch, char *arg)
   else if ((apply == APPLY_CLASS) ||  /* olist affect 7 is Weapon Damage      */
            (apply == APPLY_LEVEL) ) { /* olist affect 8 is AC-Apply for Armor */
     for (num = 0; num <= top_of_objt; num++) {
-      if ((apply == APPLY_CLASS && obj_proto[num].obj_flags.type_flag == ITEM_WEAPON) ||
+      if ((apply == APPLY_CLASS && obj_proto[num].obj_flags.type_flag == ITEM_TOOL) ||
           (apply == APPLY_LEVEL && obj_proto[num].obj_flags.type_flag == ITEM_ARMOR) ) {
         ov = obj_index[num].vnum;
         if (apply == APPLY_CLASS)

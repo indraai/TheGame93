@@ -296,8 +296,8 @@ static int trade_with(struct obj_data *item, int shop_nr)
   for (counter = 0; SHOP_BUYTYPE(shop_nr, counter) != NOTHING; counter++)
     if (SHOP_BUYTYPE(shop_nr, counter) == GET_OBJ_TYPE(item)) {
       if (GET_OBJ_VAL(item, 2) == 0 &&
-		(GET_OBJ_TYPE(item) == ITEM_WAND ||
-		 GET_OBJ_TYPE(item) == ITEM_STAFF))
+		(GET_OBJ_TYPE(item) == ITEM_SECURITY ||
+		 GET_OBJ_TYPE(item) == ITEM_MILITARY))
 	return (OBJECT_DEAD);
       else if (evaluate_expression(item, SHOP_BUYWORD(shop_nr, counter)))
 	return (OBJECT_OK);
@@ -867,8 +867,8 @@ static char *list_object(struct obj_data *obj, int cnt, int aindex, int shop_nr,
       strlcpy(itemname, obj->short_description, sizeof(itemname));
     break;
 
-  case ITEM_WAND:
-  case ITEM_STAFF:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
     snprintf(itemname, sizeof(itemname), "%s%s", obj->short_description,
 	GET_OBJ_VAL(obj, 2) < GET_OBJ_VAL(obj, 1) ? " (partially used)" : "");
     break;
@@ -1613,19 +1613,19 @@ bool shopping_identify(char *arg, struct char_data *ch, struct char_data *keeper
           else
             send_to_char(ch, "Hours Remaining: %d\r\n", GET_OBJ_VAL(obj, 2));
           break;
-        case ITEM_SCROLL:
-        case ITEM_POTION:
+        case ITEM_BOOK:
+        case ITEM_MEDICAL:
           send_to_char(ch, "Spells: %s, %s, %s\r\n",
                   skill_name(GET_OBJ_VAL(obj, 1)),
                   skill_name(GET_OBJ_VAL(obj, 2)),
                   skill_name(GET_OBJ_VAL(obj, 3)));
           break;
-        case ITEM_WAND:
-        case ITEM_STAFF:
+        case ITEM_SECURITY:
+        case ITEM_MILITARY:
           send_to_char(ch, "Spell: %s\r\n", skill_name(GET_OBJ_VAL(obj, 3)));
           send_to_char(ch, "Charges: %d/%d\r\n", GET_OBJ_VAL(obj, 2), GET_OBJ_VAL(obj, 1));
           break;
-        case ITEM_WEAPON:
+        case ITEM_TOOL:
             send_to_char(ch, "Damage Dice is '%dD%d' for an average per-round damage of %.1f.\r\n",
                         GET_OBJ_VAL(obj, 1), GET_OBJ_VAL(obj, 2),
                         ((GET_OBJ_VAL(obj, 2) + 1) / 2.0) * GET_OBJ_VAL(obj, 1));

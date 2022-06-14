@@ -1426,9 +1426,9 @@ ACMD(do_grab)
     if (GET_OBJ_TYPE(obj) == ITEM_LIGHT)
       perform_wear(ch, obj, WEAR_LIGHT);
     else {
-      if (!CAN_WEAR(obj, ITEM_WEAR_HOLD) && GET_OBJ_TYPE(obj) != ITEM_WAND &&
-      GET_OBJ_TYPE(obj) != ITEM_STAFF && GET_OBJ_TYPE(obj) != ITEM_SCROLL &&
-	  GET_OBJ_TYPE(obj) != ITEM_POTION)
+      if (!CAN_WEAR(obj, ITEM_WEAR_HOLD) && GET_OBJ_TYPE(obj) != ITEM_SECURITY &&
+      GET_OBJ_TYPE(obj) != ITEM_MILITARY && GET_OBJ_TYPE(obj) != ITEM_BOOK &&
+	  GET_OBJ_TYPE(obj) != ITEM_MEDICAL)
 	send_to_char(ch, "\ngrab: You can't hold that.\r");
       else
 	perform_wear(ch, obj, WEAR_HOLD);

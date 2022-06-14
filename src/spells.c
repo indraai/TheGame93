@@ -316,8 +316,8 @@ ASPELL(spell_identify)
                      GET_OBJ_WEIGHT(obj), GET_OBJ_COST(obj), GET_OBJ_RENT(obj), GET_OBJ_LEVEL(obj));
 
     switch (GET_OBJ_TYPE(obj)) {
-    case ITEM_SCROLL:
-    case ITEM_POTION:
+    case ITEM_BOOK:
+    case ITEM_MEDICAL:
       len = i = 0;
 
       if (GET_OBJ_VAL(obj, 1) >= 1) {
@@ -338,13 +338,13 @@ ASPELL(spell_identify)
 
       send_to_char(ch, "This %s casts: %s\r\n", item_types[(int) GET_OBJ_TYPE(obj)], bitbuf);
       break;
-    case ITEM_WAND:
-    case ITEM_STAFF:
+    case ITEM_SECURITY:
+    case ITEM_MILITARY:
       send_to_char(ch, "This %s casts: %s\r\nIt has %d maximum charge%s and %d remaining.\r\n",
 		item_types[(int) GET_OBJ_TYPE(obj)], skill_name(GET_OBJ_VAL(obj, 3)),
 		GET_OBJ_VAL(obj, 1), GET_OBJ_VAL(obj, 1) == 1 ? "" : "s", GET_OBJ_VAL(obj, 2));
       break;
-    case ITEM_WEAPON:
+    case ITEM_TOOL:
       send_to_char(ch, "Damage Dice is '%dD%d' for an average per-round damage of %.1f.\r\n",
 		GET_OBJ_VAL(obj, 1), GET_OBJ_VAL(obj, 2), ((GET_OBJ_VAL(obj, 2) + 1) / 2.0) * GET_OBJ_VAL(obj, 1));
       break;
@@ -389,7 +389,7 @@ ASPELL(spell_enchant_weapon)
     return;
 
   /* Either already enchanted or not a weapon. */
-  if (GET_OBJ_TYPE(obj) != ITEM_WEAPON || OBJ_FLAGGED(obj, ITEM_MAGIC))
+  if (GET_OBJ_TYPE(obj) != ITEM_TOOL || OBJ_FLAGGED(obj, ITEM_MAGIC))
     return;
 
   /* Make sure no other affections. */

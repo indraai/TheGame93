@@ -587,20 +587,20 @@ ACMD(do_use)
   }
   switch (subcmd) {
   case SCMD_QUAFF:
-    if (GET_OBJ_TYPE(mag_item) != ITEM_POTION) {
+    if (GET_OBJ_TYPE(mag_item) != ITEM_MEDICAL) {
       send_to_char(ch, "You can only quaff potions.\r\n");
       return;
     }
     break;
   case SCMD_RECITE:
-    if (GET_OBJ_TYPE(mag_item) != ITEM_SCROLL) {
+    if (GET_OBJ_TYPE(mag_item) != ITEM_BOOK) {
       send_to_char(ch, "You can only recite scrolls.\r\n");
       return;
     }
     break;
   case SCMD_USE:
-    if ((GET_OBJ_TYPE(mag_item) != ITEM_WAND) &&
-	(GET_OBJ_TYPE(mag_item) != ITEM_STAFF)) {
+    if ((GET_OBJ_TYPE(mag_item) != ITEM_SECURITY) &&
+	(GET_OBJ_TYPE(mag_item) != ITEM_MILITARY)) {
       send_to_char(ch, "You can't seem to figure out how to use it.\r\n");
       return;
     }

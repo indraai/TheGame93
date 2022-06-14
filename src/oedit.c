@@ -437,13 +437,13 @@ static void oedit_disp_val1_menu(struct descriptor_data *d)
     /* values 0 and 1 are unused.. jump to 2 */
     oedit_disp_val3_menu(d);
     break;
-  case ITEM_SCROLL:
-  case ITEM_WAND:
-  case ITEM_STAFF:
-  case ITEM_POTION:
+  case ITEM_BOOK:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
+  case ITEM_MEDICAL:
     write_to_output(d, "\nWhat is the spell level?\r");
     break;
-  case ITEM_WEAPON:
+  case ITEM_TOOL:
     /* This doesn't seem to be used if I remember right. */
     write_to_output(d, "\nWhat is the modifier to hitroll?\r");
     break;
@@ -489,15 +489,15 @@ static void oedit_disp_val2_menu(struct descriptor_data *d)
 {
   OLC_MODE(d) = OEDIT_VALUE_2;
   switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
-  case ITEM_SCROLL:
-  case ITEM_POTION:
+  case ITEM_BOOK:
+  case ITEM_MEDICAL:
     oedit_disp_spells_menu(d);
     break;
-  case ITEM_WAND:
-  case ITEM_STAFF:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
     write_to_output(d, "\nWhat are the max number of charges?\r");
     break;
-  case ITEM_WEAPON:
+  case ITEM_TOOL:
     write_to_output(d, "\nHow many damage dice are there?\r");
     break;
   case ITEM_FOOD:
@@ -525,15 +525,15 @@ static void oedit_disp_val3_menu(struct descriptor_data *d)
   case ITEM_LIGHT:
     write_to_output(d, "\nHow many hours will it operate? (0 = burnt, -1 is infinite)\r");
     break;
-  case ITEM_SCROLL:
-  case ITEM_POTION:
+  case ITEM_BOOK:
+  case ITEM_MEDICAL:
     oedit_disp_spells_menu(d);
     break;
-  case ITEM_WAND:
-  case ITEM_STAFF:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
     write_to_output(d, "\nHow many charges are remaining?\r");
     break;
-  case ITEM_WEAPON:
+  case ITEM_TOOL:
     write_to_output(d, "\nWhat is the size of the damage dice?\r");
     break;
   case ITEM_CONTAINER:
@@ -553,13 +553,13 @@ static void oedit_disp_val4_menu(struct descriptor_data *d)
 {
   OLC_MODE(d) = OEDIT_VALUE_4;
   switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
-  case ITEM_SCROLL:
-  case ITEM_POTION:
-  case ITEM_WAND:
-  case ITEM_STAFF:
+  case ITEM_BOOK:
+  case ITEM_MEDICAL:
+  case ITEM_SECURITY:
+  case ITEM_MILITARY:
     oedit_disp_spells_menu(d);
     break;
-  case ITEM_WEAPON:
+  case ITEM_TOOL:
     oedit_disp_weapon_menu(d);
     break;
   case ITEM_DRINKCON:
@@ -1009,7 +1009,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
         oedit_disp_val2_menu(d);
       }
       break;
-    case ITEM_WEAPON:
+    case ITEM_TOOL:
       GET_OBJ_VAL(OLC_OBJ(d), 0) = MIN(MAX(atoi(arg), -50), 50);
       break;
     case ITEM_CONTAINER:
@@ -1025,8 +1025,8 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     /* Here, I do need to check for out of range values. */
     number = atoi(arg);
     switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
-    case ITEM_SCROLL:
-    case ITEM_POTION:
+    case ITEM_BOOK:
+    case ITEM_MEDICAL:
       if (number == 0 || number == -1)
 	GET_OBJ_VAL(OLC_OBJ(d), 1) = -1;
       else
@@ -1045,7 +1045,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       } else
 	oedit_disp_val3_menu(d);
       break;
-    case ITEM_WEAPON:
+    case ITEM_TOOL:
       GET_OBJ_VAL(OLC_OBJ(d), 1) = LIMIT(number, 1, MAX_WEAPON_NDICE);
       oedit_disp_val3_menu(d);
       break;
@@ -1060,8 +1060,8 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     number = atoi(arg);
     /* Quick'n'easy error checking. */
     switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
-    case ITEM_SCROLL:
-    case ITEM_POTION:
+    case ITEM_BOOK:
+    case ITEM_MEDICAL:
       if (number == 0 || number == -1) {
 	GET_OBJ_VAL(OLC_OBJ(d), 2) = -1;
 	oedit_disp_val4_menu(d);
@@ -1070,12 +1070,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       min_val = 1;
       max_val = NUM_SPELLS;
       break;
-    case ITEM_WEAPON:
+    case ITEM_TOOL:
       min_val = 1;
       max_val = MAX_WEAPON_SDICE;
       break;
-    case ITEM_WAND:
-    case ITEM_STAFF:
+    case ITEM_SECURITY:
+    case ITEM_MILITARY:
       min_val = 0;
       max_val = 20;
       break;
@@ -1100,8 +1100,8 @@ void oedit_parse(struct descriptor_data *d, char *arg)
   case OEDIT_VALUE_4:
     number = atoi(arg);
     switch (GET_OBJ_TYPE(OLC_OBJ(d))) {
-    case ITEM_SCROLL:
-    case ITEM_POTION:
+    case ITEM_BOOK:
+    case ITEM_MEDICAL:
       if (number == 0 || number == -1) {
 	GET_OBJ_VAL(OLC_OBJ(d), 3) = -1;
         oedit_disp_menu(d);
@@ -1110,12 +1110,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       min_val = 1;
       max_val = NUM_SPELLS;
       break;
-    case ITEM_WAND:
-    case ITEM_STAFF:
+    case ITEM_SECURITY:
+    case ITEM_MILITARY:
       min_val = 1;
       max_val = NUM_SPELLS;
       break;
-    case ITEM_WEAPON:
+    case ITEM_TOOL:
       min_val = 0;
       max_val = NUM_ATTACK_TYPES - 1;
       break;
