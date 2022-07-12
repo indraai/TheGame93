@@ -19,12 +19,16 @@ D3
 ~
 ~
 0 0 1121
+D8
+~
+~
+0 0 1605
 S
 #1601
-Tomorrowland~
+Rocket Jets~
 You are in an unfinished room.
 ~
-16 16 0 0 0 1
+16 24 0 0 0 0
 D0
 ~
 ~
@@ -41,6 +45,14 @@ D3
 ~
 ~
 0 0 1600
+D8
+~
+~
+0 0 1606
+D9
+~
+~
+0 0 1604
 S
 #1602
 The Terrace - Tomorrowland~
@@ -77,6 +89,10 @@ D3
 ~
 ~
 0 0 1605
+D9
+~
+~
+0 0 1605
 S
 #1604
 Adventure Thru Inner Space~
@@ -91,12 +107,16 @@ D1
 ~
 ~
 0 0 1605
+D7
+~
+~
+0 0 1601
 S
 #1605
-Tomorrowland~
+The Character Shop~
 You are in an unfinished room.
 ~
-16 16 0 0 0 1
+16 24 0 0 0 0
 D0
 ~
 ~
@@ -109,51 +129,83 @@ D3
 ~
 ~
 0 0 1604
+D6
+~
+~
+0 0 1600
+D7
+~
+~
+0 0 1603
 S
 #1606
-America Sings - Tomorrowland~
+America Sings~
 You are in an unfinished room.
 ~
-16 0 0 0 0 0
-D3
-~
-~
-0 0 1603
-S
-#1607
-Telephone - Tomorrowland~
-You are in an unfinished room.
-~
-16 0 0 0 0 0
-D0
-~
-~
-0 0 1603
-D1
+16 24 0 0 0 0
+D2
 ~
 ~
 0 0 1609
 D3
 ~
 ~
-0 0 1605
+0 0 1603
+D6
+~
+~
+0 0 1601
+D9
+~
+~
+0 0 1607
 S
-#1608
-Rocket Jets - Tomorrowland~
+#1607
+Telephone~
 You are in an unfinished room.
 ~
-16 0 0 0 0 0
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1603
+D3
+~
+~
+0 0 1605
+D7
+~
+~
+0 0 1606
+D8
+~
+~
+0 0 1609
+S
+#1608
+The Space Bar~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
 D3
 ~
 ~
 0 0 1601
 S
 #1609
-Mission to Mars - Tomorrowland~
+Mission to Mars~
 You are in an unfinished room.
 ~
-16 0 0 0 0 0
-D3
+16 24 0 0 0 0
+D0
+~
+~
+0 0 1606
+D2
+~
+~
+0 0 -1
+D6
 ~
 ~
 0 0 1607

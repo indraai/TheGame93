@@ -2,6 +2,9 @@
 Quinn~
 Disneyland~
 1100 1199 15 2 d 0 0 0 -1 -1
+M 0 1158 1 1158 	(Eboni)
+M 0 1145 1 1145 	(Shop Attendant)
+G 1 1145 100 -1 	(Disneyland Ring)
 M 0 1159 1 1159 	(MedicDEVA D1159)
 M 0 1140 1 1140 	(Cafe Attendant)
 G 1 1140 99 -1 	(Cafe Special)

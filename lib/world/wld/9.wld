@@ -115,6 +115,28 @@ D4
 0 0 904
 S
 T 904
+#811
+Blake Lemoine~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D4
+~
+~
+0 0 990
+E
+invoke~
+invoke
+~
+E
+party~
+party
+~
+E
+darkputin~
+darkputin
+~
+S
 #900
 The Beginning~
 [DESCRIBE]~
@@ -373,7 +395,7 @@ D5
 ~
 ~
 0 0 800
-D6
+D7
 ~
 ~
 0 0 990
@@ -948,6 +970,23 @@ The Well~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
+D3
+~
+~
+0 0 948
+S
+#948
+Cobra Lounge~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 941
+D6
+~
+~
+0 0 949
 S
 #949
 SpoonKids~
@@ -1757,10 +1796,18 @@ DarkSec~
 You are in an unfinished room.
 ~
 9 8 0 0 0 0
-D8
+D1
 ~
 ~
-0 0 911
+0 0 991
+D5
+~
+~
+0 0 811
+D7
+~
+~
+0 0 992
 E
 p1~
 p1
@@ -1813,5 +1860,37 @@ E
 p13~
 13
 ~
+S
+#991
+Moscow Defense Brief~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D8
+~
+~
+0 0 979
+S
+#992
+Murmansk State University~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 993
+D8
+~
+~
+0 0 968
+S
+#993
+Murmansk FSB~
+[DESCRIBE]~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 969
 S
 $~
