@@ -18,6 +18,20 @@ E
 text~
 text
 ~
+#1145
+disneyland special ring power~
+Disneyland Ring~
+:room:/main:avatar~
+:room:/main:look~
+11 d 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0
+0 50 0 0 0
+E
+ring~
+ring
+~
+A
+1 50
 #1157
 rtc31930 rtc rtct rtct3193029 computer~
 RTC31930 Computer~
