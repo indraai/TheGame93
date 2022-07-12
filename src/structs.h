@@ -147,8 +147,8 @@
 /* PC classes */
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
-#define CLASS_CITIZEN         0 // CITIZEN
-#define CLASS_ADVENTURER      1 // adventurer
+#define CLASS_CLIENT         0 // client
+#define CLASS_AGENT          1 // adventurer
 #define CLASS_ARTIST          2 // ARTIST
 #define CLASS_SCIENTIST       3 // SCIENTIST
 #define CLASS_ENGINEER        4 // ENGINEER
@@ -442,8 +442,8 @@
 #define ITEM_ANTI_GOOD          5   /**< Not usable by good people	*/
 #define ITEM_ANTI_EVIL          6   /**< Not usable by evil people	*/
 #define ITEM_ANTI_NEUTRAL       7   /**< Not usable by neutral people */
-#define ITEM_ANTI_CITIZEN       8   /**< Not usable by sarya */
-#define ITEM_ANTI_ADVENTURER    9   /**< Not usable by adventurers */
+#define ITEM_ANTI_CLIENT        8   /**< Not usable by sarya */
+#define ITEM_ANTI_AGENT         9   /**< Not usable by adventurers */
 #define ITEM_ANTI_ARTIST        10   /**< Not usable by priests */
 #define ITEM_ANTI_SCIENTIST	    11   /**< Not usable by indu */
 #define ITEM_ANTI_ENGINEER      12   /**< Not usable by soma */

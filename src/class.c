@@ -26,8 +26,8 @@
 
 /* Names first */
 const char *class_abbrevs[] = {
-  "Ci",
-  "Ad",
+  "Cl",
+  "Ag",
   "Ar",
   "Sc",
   "En",
@@ -46,8 +46,8 @@ const char *class_abbrevs[] = {
 };
 
 const char *class_types[] = {
-  "Citizen",
-  "Adventurer",
+  "Client",
+  "Agent",
   "Artist",
   "Scientist",
   "Engineer",
@@ -69,8 +69,8 @@ const char *class_types[] = {
 const char *class_menu =
 "\n## Player Class\r"
 "\np:Please select your player class...\r"
-"\nmenu[Citizen]:a\r"
-"\nmenu[Advenurer]:b\r"
+"\nmenu[Client]:a\r"
+"\nmenu[Agent]:b\r"
 "\nmenu[Artist]:c\r"
 "\nmenu[Scientist]:d\r"
 "\nmenu[Engineer]:e\r"
@@ -93,8 +93,8 @@ int parse_class(char arg)
   arg = LOWER(arg);
 
   switch (arg) {
-  case 'a': return CLASS_CITIZEN;       // citizen
-  case 'b': return CLASS_ADVENTURER;    // ADVENTUREER
+  case 'a': return CLASS_CLIENT;        // Client
+  case 'b': return CLASS_AGENT;         // agent
   case 'c': return CLASS_ARTIST;        // priest
   case 'd': return CLASS_SCIENTIST;     // indu
   case 'e': return CLASS_ENGINEER;      // soma
@@ -172,7 +172,7 @@ int prac_params[4][NUM_CLASSES] = {
 struct guild_info_type guild_info[] = {
 
 /* GUILDS */
- { CLASS_ADVENTURER, 350, NORTH },
+ { CLASS_AGENT, 350, NORTH },
  { CLASS_ARTIST, 152, SOUTH },
  { CLASS_SCIENTIST, 336, NORTH },
  { CLASS_ENGINEER, 166, SOUTH },
@@ -189,7 +189,7 @@ struct guild_info_type guild_info[] = {
 byte saving_throws(int class_num, int type, int level)
 {
   switch (class_num) {
-  case CLASS_ADVENTURER:
+  case CLASS_AGENT:
     switch (type) {
     case SAVING_PARA:	/* Paralyzation */
       switch (level) {
@@ -477,7 +477,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for adventurer paralyzation saving throw.");
+	log("SYSERR: Missing level for AGENT paralyzation saving throw.");
 	break;
       }
     case SAVING_ROD:	/* Rods */
@@ -524,7 +524,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for adventurer rod saving throw.");
+	log("SYSERR: Missing level for AGENT rod saving throw.");
 	break;
       }
     case SAVING_PETRI:	/* Petrification */
@@ -571,7 +571,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for adventurer petrification saving throw.");
+	log("SYSERR: Missing level for AGENT petrification saving throw.");
 	break;
       }
     case SAVING_BREATH:	/* Breath weapons */
@@ -618,7 +618,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for adventurer breath saving throw.");
+	log("SYSERR: Missing level for AGENT breath saving throw.");
 	break;
       }
     case SAVING_SPELL:	/* Generic spells */
@@ -665,7 +665,7 @@ byte saving_throws(int class_num, int type, int level)
       case 39: return  0;
       case 40: return  0;
       default:
-	log("SYSERR: Missing level for adventurer spell saving throw.");
+	log("SYSERR: Missing level for AGENT spell saving throw.");
 	break;
       }
     default:
@@ -1219,7 +1219,7 @@ byte saving_throws(int class_num, int type, int level)
 int thaco(int class_num, int level)
 {
   switch (class_num) {
-  case CLASS_ADVENTURER:
+  case CLASS_AGENT:
     switch (level) {
     case  0: return 100;
     case  1: return  20;
@@ -1297,7 +1297,7 @@ int thaco(int class_num, int level)
     case 33: return   1;
     case 34: return   1;
     default:
-      log("SYSERR: Missing level for adventurer thac0.");
+      log("SYSERR: Missing level for AGENT thac0.");
     }
   case CLASS_SCIENTIST:
     switch (level) {
@@ -1483,7 +1483,7 @@ void do_start(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
-  case CLASS_ADVENTURER:
+  case CLASS_AGENT:
     break;
 
   case CLASS_ARTIST:
@@ -1603,10 +1603,10 @@ int backstab_mult(int level)
  * usable by a particular class, based on the ITEM_ANTI_{class} bitvectors. */
 int invalid_class(struct char_data *ch, struct obj_data *obj)
 {
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_CITIZEN) && IS_CITIZEN(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_CLIENT) && IS_CLIENT(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_ADVENTURER) && IS_ADVENTURER(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_AGENT) && IS_AGENT(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_ARTIST) && IS_ARTIST(ch))
@@ -1653,32 +1653,32 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
  * skill. */
 void init_spell_levels(void)
 {
-  /* adventurer */
-  spell_level(SPELL_MAGIC_MISSILE, CLASS_ADVENTURER, 1);
-  spell_level(SPELL_DETECT_INVIS, CLASS_ADVENTURER, 2);
-  spell_level(SPELL_DETECT_MAGIC, CLASS_ADVENTURER, 2);
-  spell_level(SPELL_CHILL_TOUCH, CLASS_ADVENTURER, 3);
-  spell_level(SPELL_INFRAVISION, CLASS_ADVENTURER, 3);
-  spell_level(SPELL_INVISIBLE, CLASS_ADVENTURER, 4);
-  spell_level(SPELL_ARMOR, CLASS_ADVENTURER, 4);
-  spell_level(SPELL_BURNING_HANDS, CLASS_ADVENTURER, 5);
-  spell_level(SPELL_LOCATE_OBJECT, CLASS_ADVENTURER, 6);
-  spell_level(SPELL_STRENGTH, CLASS_ADVENTURER, 6);
-  spell_level(SPELL_SHOCKING_GRASP, CLASS_ADVENTURER, 7);
-  spell_level(SPELL_SLEEP, CLASS_ADVENTURER, 8);
-  spell_level(SPELL_LIGHTNING_BOLT, CLASS_ADVENTURER, 9);
-  spell_level(SPELL_BLINDNESS, CLASS_ADVENTURER, 9);
-  spell_level(SPELL_DETECT_POISON, CLASS_ADVENTURER, 10);
-  spell_level(SPELL_COLOR_SPRAY, CLASS_ADVENTURER, 11);
-  spell_level(SPELL_ENERGY_DRAIN, CLASS_ADVENTURER, 13);
-  spell_level(SPELL_CURSE, CLASS_ADVENTURER, 14);
-  spell_level(SPELL_POISON, CLASS_ADVENTURER, 14);
-  spell_level(SPELL_FIREBALL, CLASS_ADVENTURER, 15);
-  spell_level(SPELL_CHARM, CLASS_ADVENTURER, 16);
-  spell_level(SPELL_IDENTIFY, CLASS_ADVENTURER, 20);
-  spell_level(SPELL_FLY, CLASS_ADVENTURER, 22);
-  spell_level(SPELL_ENCHANT_WEAPON, CLASS_ADVENTURER, 26);
-  spell_level(SPELL_CLONE, CLASS_ADVENTURER, 30);
+  /* AGENT */
+  spell_level(SPELL_MAGIC_MISSILE, CLASS_AGENT, 1);
+  spell_level(SPELL_DETECT_INVIS, CLASS_AGENT, 2);
+  spell_level(SPELL_DETECT_MAGIC, CLASS_AGENT, 2);
+  spell_level(SPELL_CHILL_TOUCH, CLASS_AGENT, 3);
+  spell_level(SPELL_INFRAVISION, CLASS_AGENT, 3);
+  spell_level(SPELL_INVISIBLE, CLASS_AGENT, 4);
+  spell_level(SPELL_ARMOR, CLASS_AGENT, 4);
+  spell_level(SPELL_BURNING_HANDS, CLASS_AGENT, 5);
+  spell_level(SPELL_LOCATE_OBJECT, CLASS_AGENT, 6);
+  spell_level(SPELL_STRENGTH, CLASS_AGENT, 6);
+  spell_level(SPELL_SHOCKING_GRASP, CLASS_AGENT, 7);
+  spell_level(SPELL_SLEEP, CLASS_AGENT, 8);
+  spell_level(SPELL_LIGHTNING_BOLT, CLASS_AGENT, 9);
+  spell_level(SPELL_BLINDNESS, CLASS_AGENT, 9);
+  spell_level(SPELL_DETECT_POISON, CLASS_AGENT, 10);
+  spell_level(SPELL_COLOR_SPRAY, CLASS_AGENT, 11);
+  spell_level(SPELL_ENERGY_DRAIN, CLASS_AGENT, 13);
+  spell_level(SPELL_CURSE, CLASS_AGENT, 14);
+  spell_level(SPELL_POISON, CLASS_AGENT, 14);
+  spell_level(SPELL_FIREBALL, CLASS_AGENT, 15);
+  spell_level(SPELL_CHARM, CLASS_AGENT, 16);
+  spell_level(SPELL_IDENTIFY, CLASS_AGENT, 20);
+  spell_level(SPELL_FLY, CLASS_AGENT, 22);
+  spell_level(SPELL_ENCHANT_WEAPON, CLASS_AGENT, 26);
+  spell_level(SPELL_CLONE, CLASS_AGENT, 30);
 
   /* ARTIST */
   spell_level(SPELL_CURE_LIGHT, CLASS_ARTIST, 1);

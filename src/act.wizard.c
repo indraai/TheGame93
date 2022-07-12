@@ -2764,7 +2764,7 @@ ACMD(do_show)
 
     for (j = 1; j < LVL_IMMORT; j++) {
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-2d %-2d %-2d %-2d\r\n", j,
-				thaco(CLASS_ADVENTURER, j),
+				thaco(CLASS_AGENT, j),
 				thaco(CLASS_ARTIST, j),
 				thaco(CLASS_MILITARY, j),
 				thaco(CLASS_ENGINEER, j));
@@ -2782,7 +2782,7 @@ ACMD(do_show)
 
     for (i = 1; i < LVL_IMMORT; i++) {
       nlen = snprintf(buf + len, sizeof(buf) - len,  "%-3d - %-6d %-6d %-6d %-6d\r\n", i,
-				level_exp(CLASS_ADVENTURER, i) - level_exp(CLASS_ADVENTURER, i - 1),
+				level_exp(CLASS_AGENT, i) - level_exp(CLASS_AGENT, i - 1),
 				level_exp(CLASS_ARTIST, i) - level_exp(CLASS_ARTIST, i - 1),
 				level_exp(CLASS_SCIENTIST, i) - level_exp(CLASS_SCIENTIST, i - 1),
 				level_exp(CLASS_ENGINEER, i) - level_exp(CLASS_ENGINEER, i - 1));

@@ -5147,7 +5147,7 @@ OEDIT-EXTRA-FLAGS OEDIT-FLAGS OBJECT-FLAGS OBJECTFLAGS GLOW HUM NODROP NO_DROP N
 11)  ANTI_EVIL       Item cannot be used by evil-aligned characters.
 12)  ANTI_NEUTRAL    Item cannot be used by neutral align characters.
 13)  ANTI_MAGIC_USER Item cannot be used by the Mage class.
-14)  ANTI_ADVENTURER       Item cannot be used by the Monk class.
+14)  ANTI_AGENT       Item cannot be used by the Monk class.
 15)  ANTI_THIEF      Item cannot be used by the Thief class.
 16)  ANTI_WARRIOR    Item cannot be used by the Warrior class.
 17)  NOSELL          Shopkeepers will not buy or sell the item.
