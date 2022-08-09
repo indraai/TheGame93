@@ -50,6 +50,58 @@ Mickey Mouse 1102~
 BareHandAttack: 1
 E
 T 1102
+#1103
+disney disneyland guest g1103 female~
+Female Guest 1103~
+1103/main:avatar~
+1103/main:look
+~
+72 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 2 0 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1104
+disney disneyland guest g1104 male~
+Male Guest 1104~
+1104/main:avatar~
+1104/main:look
+~
+72 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0 0
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1105
+disneyland guest female g1105~
+Female Guest 1105~
+1105/main:avatar~
+1105/main:look~
+72 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2 0 0
+E
+#1106
+disneyland male guest g1106~
+Male Guest 1106~
+1106/main:avatar~
+1106/main:look~
+72 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 0 0
+E
 #1126
 disney disneyland guest g1126 male~
 Male Guest 1126~

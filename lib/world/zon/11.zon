@@ -2,6 +2,10 @@
 Quinn~
 Disneyland~
 1100 1199 15 2 d 0 0 0 -1 -1
+M 0 1106 1 1106 	(Male Guest 1106)
+M 0 1105 1 1105 	(Female Guest 1105)
+M 0 1104 1 1104 	(Male Guest 1104)
+M 0 1103 1 1103 	(Female Guest 1103)
 M 0 1158 1 1158 	(Eboni)
 M 0 1145 1 1145 	(Shop Attendant)
 G 1 1145 100 -1 	(Disneyland Ring)
