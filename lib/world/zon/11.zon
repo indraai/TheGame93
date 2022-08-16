@@ -2,6 +2,9 @@
 Quinn~
 Disneyland~
 1100 1199 15 2 d 0 0 0 -1 -1
+M 0 1120 1 1120 	(Donald Duck 1120)
+M 0 1102 1 1102 	(Mickey Mouse 1102)
+O 0 1102 1 1102 	(Fountain - Main St.)
 M 0 1106 1 1106 	(Male Guest 1106)
 M 0 1105 1 1105 	(Female Guest 1105)
 M 0 1104 1 1104 	(Male Guest 1104)
@@ -33,7 +36,6 @@ D 0 1170 0 1 	(Disneyland City Hall)
 D 0 1177 2 1 	(City Hall Washroom - Main Street)
 D 0 1135 3 1 	(Main Street (W))
 M 0 1171 1 1171 	(Guide 1171)
-M 0 1102 1 1102 	(Mickey Mouse 1102)
 M 0 1164 1 1164 	(Arcade Attendant)
 M 0 1129 1 1129 	(Esmeralda)
 M 0 1163 1 1163 	(Candy Attendant)

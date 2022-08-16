@@ -2,6 +2,10 @@
 Quinn~
 Disneyland - Adventureland~
 1300 1399 15 2 d 0 0 0 -1 -1
-O 0 1305 1 1305 	(The Black Grimroire)
+R 0 1307 92 -1 	(Security Board)
+O 1 92 99 1307 	(Security Board)
+M 0 1307 1 1307 	(SecurityDEVA D1307 (Agency))
+M 0 1306 1 1306 	(SecurityPRIME SPY)
+O 0 1305 1 1305 	(the Black Grimroire)
 S
 $

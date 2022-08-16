@@ -981,7 +981,7 @@ SecurityDEVA D174 (Agency)~
 256010 0 0 0 80 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5
 300 90000
-8 8 1 6 6
+8 8 1 2 11
 E
 #175
 security securitydeva guard d175 z1~
@@ -991,7 +991,7 @@ SecurityDEVA D175 (Guard)~
 6430 0 0 0 2048 0 0 0 333 E
 25 12 -5 5d5+250 4d4+4
 333 62500
-8 8 6 5 5
+8 8 1 2 11
 Str: 16
 Dex: 16
 Int: 16

@@ -10,7 +10,7 @@ D2
 ~
 ~
 0 0 1301
-D3
+D6
 ~
 ~
 0 0 1200
@@ -24,5 +24,75 @@ D0
 ~
 ~
 0 0 1300
+D1
+~
+~
+0 0 1306
+D3
+~
+~
+0 0 1302
+S
+#1302
+Adventureland~
+You are in an unfinished room.
+~
+13 16 0 0 0 1
+D1
+~
+~
+0 0 1301
+D3
+~
+~
+0 0 1303
+S
+#1303
+Adventureland~
+You are in an unfinished room.
+~
+13 16 0 0 0 1
+D1
+~
+~
+0 0 1302
+D9
+~
+~
+0 0 1304
+S
+#1304
+Adventureland~
+You are in an unfinished room.
+~
+13 16 0 0 0 1
+D7
+~
+~
+0 0 1303
+D9
+~
+~
+0 0 1305
+S
+#1305
+The Treehouse~
+You are in an unfinished room.
+~
+13 16 0 0 0 0
+D7
+~
+~
+0 0 1304
+S
+#1306
+Rest Room - Adventureland~
+You are in an unfinished room.
+~
+13 16 0 0 0 0
+D3
+~
+~
+0 0 1301
 S
 $~
