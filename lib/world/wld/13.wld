@@ -6,9 +6,23 @@ D1
 ~
 ~
 0 0 1124
+D2
+~
+~
+0 0 1301
 D3
 ~
 ~
 0 0 1200
+S
+#1301
+Adventureland~
+You are in an unfinished room.
+~
+13 16 0 0 0 1
+D0
+~
+~
+0 0 1300
 S
 $~
