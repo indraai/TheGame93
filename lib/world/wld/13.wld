@@ -10,10 +10,22 @@ D2
 ~
 ~
 0 0 1301
+D3
+~
+~
+0 0 1307
 D6
 ~
 ~
 0 0 1200
+D8
+~
+~
+0 0 1308
+D9
+~
+~
+0 0 1309
 S
 #1301
 Adventureland~
@@ -32,12 +44,28 @@ D3
 ~
 ~
 0 0 1302
+D6
+~
+~
+0 0 1309
+D7
+~
+~
+0 0 1308
+D9
+~
+~
+0 0 1312
 S
 #1302
 Adventureland~
 You are in an unfinished room.
 ~
 13 16 0 0 0 1
+D0
+~
+~
+0 0 1310
 D1
 ~
 ~
@@ -46,16 +74,44 @@ D3
 ~
 ~
 0 0 1303
+D6
+~
+~
+0 0 1311
+D7
+~
+~
+0 0 1309
+D8
+~
+~
+0 0 1312
 S
 #1303
-Adventureland~
+Tropical Imports~
 You are in an unfinished room.
 ~
-13 16 0 0 0 1
+13 24 0 0 0 0
+D0
+~
+~
+0 0 1313
 D1
 ~
 ~
 0 0 1302
+D2
+~
+~
+0 0 1314
+D3
+~
+~
+0 0 1315
+D7
+~
+~
+0 0 1311
 D9
 ~
 ~
@@ -79,7 +135,7 @@ S
 The Treehouse~
 You are in an unfinished room.
 ~
-13 16 0 0 0 0
+13 24 0 0 0 0
 D7
 ~
 ~
@@ -94,5 +150,137 @@ D3
 ~
 ~
 0 0 1301
+S
+#1307
+Security - Adventureland~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1300
+S
+#1308
+Enchanted Tiki Room~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D6
+~
+~
+0 0 1300
+D9
+~
+~
+0 0 1301
+S
+#1309
+Far East Imports~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D7
+~
+~
+0 0 1300
+D8
+~
+~
+0 0 1301
+D9
+~
+~
+0 0 1302
+S
+#1310
+Magic Carpet~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D2
+~
+~
+0 0 1302
+S
+#1311
+Adventureland Traders~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D8
+~
+~
+0 0 1302
+D9
+~
+~
+0 0 1303
+S
+#1312
+Tahitian Terrace~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D6
+~
+~
+0 0 1302
+D7
+~
+~
+0 0 1301
+S
+#1313
+Big Game Shooting Gallery~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D2
+~
+~
+0 0 1303
+D9
+~
+~
+0 0 1315
+S
+#1314
+Jungle Cruise~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D0
+~
+~
+0 0 1303
+S
+#1315
+Guatemalan Weavers~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D1
+~
+~
+0 0 1303
+D7
+~
+~
+0 0 1313
+D9
+~
+~
+0 0 1316
+S
+#1316
+Sunkist~
+You are in an unfinished room.
+~
+13 24 0 0 0 0
+D7
+~
+~
+0 0 1315
 S
 $~
