@@ -11,4 +11,51 @@ Mickey Mouse 1503~
 BareHandAttack: 1
 E
 T 1102
+#1506
+disney disneyland fantasyland character peter pan peterpan 1506~
+Peter Pan 1506~
+1506/main:avatar~
+1506/main:look~
+72 0 0 0 0 0 0 0 250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#1508
+disney disneyland character tinkerbell 1508~
+Tinkerbell 1508~
+1508/main:avatar~
+1508/main:look~
+72 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2 2 0
+BareHandAttack: 2
+E
+#1512
+disney disneyland fantasyland madhatter mad hatter 1512~
+Mad Hatter 1512~
+1512/main:avatar~
+1512/main:look~
+74 0 0 0 0 0 0 0 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+8 8 1 1 1
+E
+#1532
+security securitydeva agency d1532 z15~
+SecurityDEVA D1532 (Agency)~
+1532/main:avatar~
+1532/main:look
+~
+256010 0 0 0 80 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 2 11
+E
 $

@@ -2,6 +2,12 @@
 Quinn~
 Disneyland - Fantasyland~
 1500 1599 15 2 d 0 0 0 -1 -1
+M 0 1532 1 1532 	(SecurityDEVA D1532 (Agency))
+R 0 1532 92 -1 	(Security Board)
+O 1 92 99 1532 	(Security Board)
+M 0 1512 1 1512 	(Mad Hatter 1512)
+M 0 1508 1 1508 	(Tinkerbell 1508)
+M 0 1506 1 1506 	(Peter Pan 1506)
 M 0 1503 1 1503 	(Mickey Mouse 1503)
 O 0 1503 1 1503 	(Fountain - Fantasyland)
 S
