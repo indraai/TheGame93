@@ -205,6 +205,10 @@ D6
 ~
 ~
 0 0 1506
+D7
+~
+~
+0 0 1532
 D9
 ~
 ~
@@ -399,6 +403,10 @@ D0
 ~
 ~
 0 0 1527
+D6
+~
+~
+0 0 1533
 D8
 ~
 ~
@@ -431,10 +439,18 @@ Character Food Stands~
 You are in an unfinished room.
 ~
 15 24 0 0 0 0
+D1
+~
+~
+0 0 1524
 D6
 ~
 ~
 0 0 1514
+D7
+~
+~
+0 0 1526
 D8
 ~
 ~
@@ -449,16 +465,32 @@ Matterhorn Bobsleds~
 You are in an unfinished room.
 ~
 15 24 0 0 0 0
+D0
+~
+~
+0 0 1524
 D6
 ~
 ~
 0 0 1521
+D9
+~
+~
+0 0 1532
 S
 #1524
 Fantasyland Autopia~
 You are in an unfinished room.
 ~
 15 16 0 0 0 1
+D2
+~
+~
+0 0 1523
+D3
+~
+~
+0 0 1522
 D6
 ~
 ~
@@ -473,6 +505,10 @@ Storybook Land Canal Boats~
 You are in an unfinished room.
 ~
 15 24 0 0 0 0
+D0
+~
+~
+0 0 1534
 D1
 ~
 ~
@@ -481,6 +517,10 @@ D3
 ~
 ~
 0 0 1514
+D7
+~
+~
+0 0 1531
 S
 #1526
 Motor Boat Cruise~
@@ -499,6 +539,10 @@ D8
 ~
 ~
 0 0 1524
+D9
+~
+~
+0 0 1522
 S
 #1527
 Dumbo Flying Elephants~
@@ -509,6 +553,10 @@ D2
 ~
 ~
 0 0 1520
+D3
+~
+~
+0 0 1533
 D6
 ~
 ~
@@ -545,6 +593,10 @@ D1
 ~
 ~
 0 0 1514
+D2
+~
+~
+0 0 1533
 D4
 ~
 ~
@@ -581,9 +633,63 @@ D0
 ~
 ~
 0 0 1530
+D3
+~
+~
+0 0 1534
 D8
 ~
 ~
 0 0 1526
+D9
+~
+~
+0 0 1525
+S
+#1532
+Security - Fantasyland~
+You are in an unfinished room.
+~
+15 0 0 0 0 0
+D7
+~
+~
+0 0 1523
+D9
+~
+~
+0 0 1509
+S
+#1533
+Character Food Stand~
+You are in an unfinished room.
+~
+15 0 0 0 0 0
+D0
+~
+~
+0 0 1529
+D1
+~
+~
+0 0 1527
+D8
+~
+~
+0 0 1520
+S
+#1534
+Caricatures~
+You are in an unfinished room.
+~
+15 0 0 0 0 0
+D1
+~
+~
+0 0 1531
+D9
+~
+~
+0 0 1525
 S
 $~
