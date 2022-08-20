@@ -122,6 +122,14 @@ Adventureland~
 You are in an unfinished room.
 ~
 13 16 0 0 0 1
+D0
+~
+~
+0 0 1316
+D1
+~
+~
+0 0 1314
 D7
 ~
 ~
@@ -180,6 +188,10 @@ Far East Imports~
 You are in an unfinished room.
 ~
 13 24 0 0 0 0
+D2
+~
+~
+0 0 1312
 D7
 ~
 ~
@@ -222,6 +234,10 @@ Tahitian Terrace~
 You are in an unfinished room.
 ~
 13 24 0 0 0 0
+D0
+~
+~
+0 0 1309
 D6
 ~
 ~
@@ -230,6 +246,10 @@ D7
 ~
 ~
 0 0 1301
+D9
+~
+~
+0 0 1314
 S
 #1313
 Big Game Shooting Gallery~
@@ -254,6 +274,18 @@ D0
 ~
 ~
 0 0 1303
+D3
+~
+~
+0 0 1316
+D7
+~
+~
+0 0 1312
+D9
+~
+~
+0 0 1304
 S
 #1315
 Guatemalan Weavers~
@@ -278,6 +310,14 @@ Sunkist~
 You are in an unfinished room.
 ~
 13 24 0 0 0 0
+D1
+~
+~
+0 0 1314
+D2
+~
+~
+0 0 1304
 D7
 ~
 ~
