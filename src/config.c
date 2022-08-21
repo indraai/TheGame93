@@ -223,7 +223,7 @@ const char *LOGNAME = NULL;
 /* const char *LOGNAME = "log/syslog";  -- useful for Windows users */
 
 /* Maximum number of players allowed before game starts to turn people away. */
-int max_playing = 93;
+int max_playing = 10;
 
 /* Maximum size of bug, typo and idea files in bytes (to prevent bombing). */
 int max_filesize = 50000;
