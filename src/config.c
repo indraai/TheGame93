@@ -68,7 +68,7 @@ int max_npc_corpse_time = 5;
 int max_pc_corpse_time = 10;
 
 /* How many ticks before a player is sent to the void or idle-rented. */
-int idle_void = 24;
+int idle_void = 240;
 int idle_rent_time = 48;
 
 /* This level and up is immune to idling, LVL_IMPL+1 will disable it. */
@@ -170,7 +170,7 @@ int selfdelete_fastwipe = YES;
 
 /* ROOM NUMBERS */
 /* Virtual number of room that mortals should enter at. */
-room_vnum mortal_start_room = 10000;
+room_vnum mortal_start_room = 251;
 
 /* Virtual number of room that immorts should enter at by default. */
 room_vnum immort_start_room = 251;
