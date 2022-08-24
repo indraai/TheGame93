@@ -183,14 +183,25 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #113
-questmaster quests~
-Quest Master~
+dhatar deva creator great d0113 deity celestial~
+Dhatar~
 113/main:avatar~
 0113/main:look~
-188426 0 0 0 0 0 0 0 0 E
+190488 0 0 0 2424 0 0 0 1000 E
 34 9 -10 6d6+340 5d5+5
 340 115600
-8 8 1 6 6
+8 8 1 2 15
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #114
 security deva securitydeva d114 z1 lookout~

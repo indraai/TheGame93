@@ -245,13 +245,13 @@ SavingSpell: 8
 E
 #12
 yami asura~
-Yami~
+Chitragupta~
 0012/main:avatar~
 0012/main:look~
 6170 0 0 0 320 0 0 0 1000 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-6 6 4 2 5
+6 6 1 2 8
 BareHandAttack: 2
 Str: 16
 Dex: 16
