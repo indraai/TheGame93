@@ -34,7 +34,7 @@ const char *class_abbrevs[] = {
   "Pr",
   "Ha",
   "Jo",
-  "La",
+  "Le",
   "Po",
   "Se",
   "Me",
@@ -54,7 +54,7 @@ const char *class_types[] = {
   "Programmer",
   "Hacker",
   "Journalist",
-  "Lawyer",
+  "Legal",
   "Politician",
   "Medical",
   "Security",
@@ -77,7 +77,7 @@ const char *class_menu =
 "\nmenu[Programmer]:f"
 "\nmenu[Hacker]:g"
 "\nmenu[Journalist]:h"
-"\nmenu[Lawyer]:i"
+"\nmenu[Legal]:i"
 "\nmenu[Politician]:k"
 "\nmenu[Medical]:j"
 "\nmenu[Security]:l"
@@ -101,7 +101,7 @@ int parse_class(char arg)
   case 'f': return CLASS_PROGRAMMER;    // PROGRAMMER
   case 'g': return CLASS_HACKER;        // hacker
   case 'h': return CLASS_JOURNALIST;    // journalist
-  case 'i': return CLASS_LAWYER;        // lawyer
+  case 'i': return CLASS_LEGAL;        // LEGAL
   case 'j': return CLASS_POLITICIAN;    // politician
   case 'k': return CLASS_MEDICAL;       // medical
   case 'l': return CLASS_SECURITY;      // security
@@ -1627,7 +1627,7 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_JOURNALIST) && IS_JOURNALIST(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_LAWYER) && IS_LAWYER(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_LEGAL) && IS_LEGAL(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MEDICAL) && IS_MEDICAL(ch))

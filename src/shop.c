@@ -40,7 +40,7 @@ const char *trade_letters[] = {
         "Programmer",
         "Hacker",
         "Journalist",
-        "Lawyer",
+        "Legal",
         "Politician",
         "Medical",
         "Security",
