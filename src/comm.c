@@ -1572,12 +1572,12 @@ static int new_descriptor(socket_t s)
     /* KaVir's plugin*/
     write_to_output(newd, "\nAttempting to Detect Client, Please Wait...");
     ProtocolNegotiate(newd);
-    write_to_output(newd, "\ntrigger:login\r");
   } else {
     greetsize = strlen(GREETINGS);
     write_to_output(newd, "%s", ProtocolOutput(newd, GREETINGS, &greetsize));
-    write_to_output(newd, "\ntrigger:login\r");
   }
+  write_to_output(newd, "\np:SHOULD TRIGGER LOGIN\r");
+  write_to_output(newd, "\ntrigger:login\r");
   return (0);
 }
 
