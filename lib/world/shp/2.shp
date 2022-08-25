@@ -50,7 +50,7 @@ CircleMUD v3.0 Shop File~
 -1
 1.20
 0.80
-10
+12body
 -1
 %s Sorry, I don't stock that item.~
 %s You don't seem to have that.~
@@ -61,7 +61,7 @@ CircleMUD v3.0 Shop File~
 %s I'll give you %d coins for that.~
 0
 4
--1
+196
 0
 221
 -1
@@ -123,6 +123,7 @@ CircleMUD v3.0 Shop File~
 1.30
 0.60
 22
+12toys
 -1
 %s Sorry, I don't stock that item.~
 %s You don't seem to have that.~
@@ -133,7 +134,7 @@ CircleMUD v3.0 Shop File~
 %s I'll give you %d coins for that.~
 0
 6
--1
+234
 0
 234
 -1

@@ -25,7 +25,7 @@ Red Apples~
 0202/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 E
 fruit~
@@ -38,7 +38,7 @@ Green Apple~
 0203/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 E
 fruit~
@@ -109,12 +109,12 @@ A pocket knife is here.~
 1 2 2 0
 1 2 0 0 0
 #215
-cherry cherries fruit farm food~
+cherry cherries fruit fruits farm food~
 Cherries~
-:room:/main:avatar~
+0215/main:avatar~
 :room:/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 E
 cherries~
@@ -126,7 +126,7 @@ Lemons~
 :room:/main:avatar~
 :room:/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 E
 fruit~
@@ -160,25 +160,25 @@ Jalapeno Cheese Bites~
 2 0 0 0
 1 2 0 0 0
 #228
-cheddar cheese bits food~
+cheddar cheese bits food farm~
 Cheddar Cheese~
 :room:/main:avatar~
 :room:/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-14 0 0 0
+15 0 0 0
 1 5 0 0 0
 E
 cheese~
 cheese
 ~
 #229
-egg eggs food~
+egg eggs food farm~
 Eggs~
 :room:/main:avatar~
 :room:/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-12 0 0 0
+15 0 0 0
 1 10 0 0 0
 E
 eggs~
@@ -199,34 +199,34 @@ Water Fountain~
 0251/main:avatar~
 0251/main:look~
 23 0 0 0 0 0 0 0 0 0 0 0 0
--1 1 0 0
+-1 100 0 0
 0 0 0 0 0
 T 201
 E
-fountain~
-0251/main:fountain
-~
-E
-indra~
-0251/main:indra~
-E
-bom~
-0251/main:bom~
-E
-sarya~
-0251/main:sarya~
-E
-soma~
-0251/main:soma~
-E
-indu~
-0251/main:indu~
+statues~
+0251/main:statues~
 E
 vamraka~
 0251/main:vamraka~
 E
-statues~
-0251/main:statues~
+indu~
+0251/main:indu~
+E
+soma~
+0251/main:soma~
+E
+sarya~
+0251/main:sarya~
+E
+bom~
+0251/main:bom~
+E
+indra~
+0251/main:indra~
+E
+fountain~
+0251/main:fountain
+~
 #278
 forkit icecream food~
 Fork-It IceCream~

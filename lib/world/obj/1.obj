@@ -312,21 +312,21 @@ Water Canteen~
 20 5 0 0
 20 15 0 0 0
 #180
-candy dirt candydirt food~
+candy dirt candydirt food farm~
 Candy Dirt~
 0180/main:avatar~
 0180/main:look
 ~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 #181
-vegetable veggies food~
+carrots vegetable veggies food farm~
 Veggies~
 :room:/main:avatar~
 :room:/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 0 5 0 0 0
 E
 veggies~
@@ -361,24 +361,24 @@ Closet~
 0 0 0 0
 0 0 0 0 0
 #195
-orange oranges fruit food farm~
+orange oranges fruit fruits food farm~
 Oranges~
 :room:/main:avatar~
 :room:/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 E
 fruit~
 fruit
 ~
 #196
-food fruit grapes grape~
+grape grapes fruit fruits farm food~
 Grapes~
 :room:/main:avatar~
 :room:/main:look~
 19 0 0 0 0 a 0 0 0 0 0 0 0
-5 0 0 0
+10 0 0 0
 1 5 0 0 0
 E
 grapes~
