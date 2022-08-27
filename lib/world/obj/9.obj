@@ -7,24 +7,24 @@ EL8 Documents~
 0 0 0 0
 0 200 0 5 0
 E
-bio~
-bio
-~
-E
-e0~
-e0
-~
-E
-e1~
-e1
+e3~
+e3
 ~
 E
 e2~
 e2
 ~
 E
-e3~
-e3
+e1~
+e1
+~
+E
+e0~
+e0
+~
+E
+bio~
+bio
 ~
 #801
 training hackphreak rloxley~
@@ -147,14 +147,14 @@ bio~
 bio
 ~
 #900
-covenant contract~
+covenant contract book books~
 Contract of The Covenant~
 0900/main:avatar~
 0900/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 100 0 1 0
+1 10 0 1 0
 E
 contract~
 0900/main:contract
@@ -173,27 +173,27 @@ video901~
 video901
 ~
 #902
-training 902 cicada3301 svv anonymous~
+training 902 cicada3301 svv anonymous book books~
 SVV Cicada3301 Documents~
 0902/main:avatar~
 0902/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 100 0 1 0
+1 20 0 1 0
 E
 902agents~
 agents
 ~
 #903
-pm2012 project mayhem text paste~
+pm2012 project mayhem text paste book books~
 Project Mayhem 2012~
 0903/main:avatar~
 0903/main:look
 ~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 2 0
+0 25 0 2 0
 E
 903text~
 0903/main:text
@@ -221,12 +221,12 @@ Michael Documents~
 0 0 0 0
 0 100 0 2 0
 E
-905text1~
-0905/main:905text
-~
-E
 905text2~
 905text2
+~
+E
+905text1~
+0905/main:905text
 ~
 #906
 text it training~
@@ -514,13 +514,13 @@ text~
 text
 ~
 #929
-training text project89~
+training text project89 book books~
 Project89 Text~
 :room:/main:avatar~
 :room:/main:look~
 12 0 0 0 0 ao 0 0 0 0 0 0 0
 0 0 0 0
-0 200 0 2 0
+1 25 0 2 0
 E
 text~
 talk:#adv object:thegame 0929/main:look
@@ -741,12 +741,12 @@ Hacking the Intelligence Community~
 0 0 0 0
 0 0 0 0 0
 E
-intel~
-0947/intel:main
-~
-E
 military~
 0947/military:main
+~
+E
+intel~
+0947/intel:main
 ~
 #948
 training spoonman cobra lounge~
