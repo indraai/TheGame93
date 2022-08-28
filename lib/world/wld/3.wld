@@ -38,7 +38,7 @@ D2
 0 0 318
 S
 #304
-ARMY CYBER3~
+CYBER3~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -51,7 +51,7 @@ D2
 0 0 319
 S
 #305
-ARMY Dining~
+Dining Hall~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -281,7 +281,7 @@ D4
 0 0 348
 S
 #319
-ARMY CYBER2~
+CYBER2~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -294,7 +294,7 @@ D2
 0 0 334
 S
 #320
-ARMY Kitchen~
+Kitchen~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -504,7 +504,7 @@ D2
 0 0 348
 S
 #334
-ARMY CYBER1~
+CYBER1~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -517,7 +517,7 @@ D1
 0 0 335
 S
 #335
-ARMY Training~
+Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -726,7 +726,7 @@ D5
 0 0 318
 S
 #349
-ARMY Entrance~
+Arjika Military~
 Empty room.~
 3 24 0 0 0 0
 D1
@@ -739,13 +739,17 @@ D3
 0 0 318
 S
 #350
-ARMY Recruiting~
+Recruiting~
 Empty room.~
 3 24 0 0 0 0
 D0
 ~
 ~
 0 0 335
+D1
+~
+~
+0 0 179
 D3
 ~
 ~

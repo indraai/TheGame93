@@ -203,30 +203,30 @@ Water Fountain~
 0 0 0 0 0
 T 201
 E
-statues~
-0251/main:statues~
-E
-vamraka~
-0251/main:vamraka~
-E
-indu~
-0251/main:indu~
-E
-soma~
-0251/main:soma~
-E
-sarya~
-0251/main:sarya~
-E
-bom~
-0251/main:bom~
+fountain~
+0251/main:fountain
+~
 E
 indra~
 0251/main:indra~
 E
-fountain~
-0251/main:fountain
-~
+bom~
+0251/main:bom~
+E
+sarya~
+0251/main:sarya~
+E
+soma~
+0251/main:soma~
+E
+indu~
+0251/main:indu~
+E
+vamraka~
+0251/main:vamraka~
+E
+statues~
+0251/main:statues~
 #278
 forkit icecream food~
 Fork-It IceCream~
@@ -239,5 +239,18 @@ Fork-It IceCream~
 E
 text~
 0278/main:text
+~
+#297
+cypher4 cypher terminal arjika military security~
+CYPHER4 TERMINAL~
+0297/main:avatar~
+0297/main:look
+~
+12 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+E
+terminal~
+terminal
 ~
 $~
