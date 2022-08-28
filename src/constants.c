@@ -154,6 +154,10 @@ const char *races[] =
   "Arjika",
   "Susoma",
   "Sarya",
+  "Asuras",
+  "Danava",
+  "Dasyus",
+  "Devi",
   "Other",
   "\n"
 };

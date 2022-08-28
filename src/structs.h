@@ -184,13 +184,17 @@
 #define NUM_GENDERS      4
 
 /* RACE */
-#define RACE_HUMAN       0   /**< Neutral GENDER (Hermaphrodite) */
-#define RACE_ROBOT       1   /**< Male GENDER */
-#define RACE_DEVA        2   /**< Male GENDER */
-#define RACE_ARJIKA      3   /**< Male GENDER */
-#define RACE_SUSOMA      4   /**< Male GENDER */
-#define RACE_SARYA       5   /**< Male GENDER */
-#define RACE_OTHER       6   /**< Male GENDER */
+#define RACE_HUMAN       0   /**< human */
+#define RACE_ROBOT       1   /**< robot */
+#define RACE_DEVA        2   /**< deva */
+#define RACE_ARJIKA      3   /**< arjika */
+#define RACE_SUSOMA      4   /**< susoma */
+#define RACE_SARYA       5   /**< sarya */
+#define RACE_ASURAS      6   /**< asuras */
+#define RACE_DANAVA      7   /**< danava */
+#define RACE_DASYUS      8   /**< dasyus */
+#define RACE_DEVI        9   /**< dasyus */
+#define RACE_OTHER       10   /**< Male GENDER */
 /** Total number of RACES */
 #define NUM_RACES        7
 

@@ -1629,7 +1629,11 @@ void nanny(struct descriptor_data *d, char *arg)
       "\nmenu[ARJIKA]:3\r"
       "\nmenu[SUSOMA]:4\r"
       "\nmenu[SARYA]:5\r"
-      "\nmenu[OTHER]:6\r"
+      "\nmenu[ASURAS]:6\r"
+      "\nmenu[DANAVA]:7\r"
+      "\nmenu[DASYUS]:8\r"
+      "\nmenu[DEVI]:9\r"
+      "\nmenu[OTHER]:10\r"
     );
 
     STATE(d) = CON_QRACE;
@@ -1657,6 +1661,18 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.race = RACE_SARYA;
       break;
     case '6':
+      d->character->player.race = RACE_ASURAS;
+      break;
+    case '7':
+      d->character->player.race = RACE_DANAVA;
+      break;
+    case '8':
+      d->character->player.race = RACE_DASYUS;
+      break;
+    case '9':
+      d->character->player.race = RACE_DEVI;
+      break;
+    case '10':
       d->character->player.race = RACE_OTHER;
       break;
     default:
