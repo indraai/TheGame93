@@ -1,13 +1,11 @@
 (lib/text/info)
 
-[Note: Further information can be gained on the capitalized words by using the
-HELP-command]
+note: Further information can be gained on the capitalized words by using the
+HELP-command
 
-Classes, skills, and guilds:
+## Classes, skills, and guilds:
 
-When you enter the game the first time, you are asked to select a class; either
-THIEF, WARRIOR, MONK, or MAGIC user. Characters belonging to each of these
-classes have their own qualities, abilities, and handicaps.
+p:When you enter the game the first time, you are asked to select a class; either THIEF, WARRIOR, MONK, or MAGIC user. Characters belonging to each of these classes have their own qualities, abilities, and handicaps.
    It is not unusual that people belonging to different classes, by joining
 their efforts and combining their skills, find their chances of survival and
 progress greatly improved. Indeed, a team consisting of members from all four
