@@ -196,7 +196,7 @@
 #define RACE_DEVI        9   /**< dasyus */
 #define RACE_OTHER       10   /**< Male GENDER */
 /** Total number of RACES */
-#define NUM_RACES        7
+#define NUM_RACES        11
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
