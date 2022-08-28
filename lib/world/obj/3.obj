@@ -45,14 +45,18 @@ Tarksya~
 0 0 0 0
 1000000 1000000 0 0 0
 #304
-pushpak craft ship car chariot~
-Pushpak~
+cypher2 cypher terminal arjika security military~
+CYPHER-3 TERMINAL~
 0304/main:avatar~
 0304/main:look
 ~
-12 0 0 0 0 0 0 0 0 0 0 0 0
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
-1000000 1000000 0 33 0
+10 0 0 0 0
+E
+terminal~
+terminal
+~
 #305
 svasti craft ship car chariot~
 Svasti~
@@ -146,19 +150,6 @@ E
 terminal~
 terminal
 ~
-#314
-cyber4 terminal army security~
-CYBER4 TERMINAL~
-0314/main:avatar~
-0314/main:look
-~
-12 ag 0 0 0 0 0 0 0 defg 0 0 0
-0 0 0 0
-10 0 0 0 0
-E
-terminal~
-terminal
-~
 #315
 city park water fountain~
 City Park Fountain~
@@ -168,6 +159,32 @@ City Park Fountain~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 10 1 0 0
 0 0 0 0 0
+#319
+cypher2 cypher terminal arjika military~
+CYPHER-2 TERMINAL~
+0312/main:avatar~
+0312/main:look
+~
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+E
+terminal~
+terminal
+~
+#334
+cypher1 cypher terminal arjika military~
+CYPHER-1 TERMINAL~
+0334/main:avatar~
+0334/main:look
+~
+0 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+E
+terminal~
+terminal
+~
 #344
 water fountain drinks drink~
 Water Fountain~
@@ -186,6 +203,15 @@ Water Fountain~
 23 0 0 0 0 0 0 0 0 0 0 0 0
 100 100 0 0
 0 0 0 0 0
+#363
+pushpak craft ship car chariot boat~
+Pushpak~
+0363/main:avatar~
+0363/main:look
+~
+22 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+1000000 1000000 0 33 0
 #386
 water fountain drink~
 Water Fountain~
