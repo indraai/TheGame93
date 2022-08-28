@@ -1587,7 +1587,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
     if (STATE(d) == CON_CNFPASSWD) {
       write_to_output(d, "## Player Gender\r"
-        "\nPlease select your gender...\r"
+        "\np:Please select your gender...\r"
         "\nmenu[Neutral]:0\r"
         "\nmenu[Male]:1\r"
         "\nmenu[Female]:2\r"
@@ -1622,7 +1622,7 @@ void nanny(struct descriptor_data *d, char *arg)
     }
 
     write_to_output(d, "## Player Race\r"
-      "\nPlease select your race...\r"
+      "\np:Please select your race...\r"
       "\nmenu[HUMAN]:0\r"
       "\nmenu[ROBOT]:1\r"
       "\nmenu[DEVA]:2\r"
@@ -1632,8 +1632,7 @@ void nanny(struct descriptor_data *d, char *arg)
       "\nmenu[ASURAS]:6\r"
       "\nmenu[DANAVA]:7\r"
       "\nmenu[DASYUS]:8\r"
-      "\nmenu[DEVI]:9\r"
-      "\nmenu[OTHER]:10\r"
+      "\nmenu[OTHER]:9\r"
     );
 
     STATE(d) = CON_QRACE;
@@ -1670,13 +1669,10 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.race = RACE_DASYUS;
       break;
     case '9':
-      d->character->player.race = RACE_DEVI;
-      break;
-    case '10':
       d->character->player.race = RACE_OTHER;
       break;
     default:
-      write_to_output(d, "\nThat is not a race... Try Again.\r");
+      write_to_output(d, "\nerror:That is not a race... Try Again.\r");
       return;
     }
 
@@ -1687,7 +1683,7 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_QCLASS:
     load_result = parse_class(*arg);
     if (load_result == CLASS_UNDEFINED) {
-      write_to_output(d, "\ninfo:That's not a class.\r");
+      write_to_output(d, "\nerror:That's not a class.\r");
       return;
     } else
       GET_CLASS(d->character) = load_result;
