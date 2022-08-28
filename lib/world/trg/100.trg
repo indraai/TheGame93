@@ -83,7 +83,7 @@ R10008 Give Token~
 set key 10008
 set token %actor.inventory(%key%)%
 set room %self.room.vnum%
-set reward 50
+set reward 300
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -135,7 +135,7 @@ R10013 Give Token~
 set key 10013
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 20
+set reward 600
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -171,7 +171,7 @@ R10020 Give Token~
 set key 10020
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 60
+set reward 1200
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -207,7 +207,7 @@ R10023 Give Token~
 set key 10023
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set reward 70
+set reward 1700
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -227,7 +227,7 @@ R10024 Give Token~
 set key 10024
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set reward 30
+set reward 1300
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -279,7 +279,7 @@ R10032 Give Token~
 set key 10032
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 10
+set reward 1100
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -299,7 +299,7 @@ R10033 Give Token~
 set key 10033
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 10
+set reward 1000
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -369,7 +369,7 @@ R10047 Give Token~
 set key 10047
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 10
+set reward 1100
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -462,7 +462,7 @@ R10060 Give Token~
 set thekey 1060
 set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
-set reward 10
+set reward 1500
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
@@ -482,7 +482,7 @@ R10062 Give Token~
 set key 10062
 set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
-set reward 10
+set reward 1800
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -502,7 +502,7 @@ R10064 Give Token~
 set key 10064
 set token %actor.inventory(%key%)%
 set thisroom %actor.room.vnum%
-set reward 10
+set reward 1200
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -522,7 +522,7 @@ R10065 Give Token~
 set key 10065
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 10
+set reward 1100
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -558,7 +558,7 @@ R10069 Give Token~
 set key 10069
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 50
+set reward 1500
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -594,7 +594,7 @@ R10072 Give Token~
 set key 10072
 set token %actor.inventory(%key%)%
 set room %actor.room.vnum%
-set reward 50
+set reward 1500
 if !%token%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -614,7 +614,7 @@ R10074 Give Token~
 set thekey 1074
 set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
-set reward 100
+set reward 1000
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
@@ -712,7 +712,7 @@ R10084 Give Token~
 set key 10084
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set reward 100
+set reward 1800
 if !%token%
   wait 3s
   nop %actor.exp(%reward%)%
@@ -732,7 +732,7 @@ R10089 Give Token~
 set thekey 1089
 set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
-set reward 100
+set reward 1200
 if !%thetoken%
   wait 1s
   nop %actor.exp(%reward%)%
@@ -808,7 +808,7 @@ R1102 Give Token~
 set thekey 1102
 set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
-set reward 100
+set reward 14000
 if !%thetoken%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -849,7 +849,7 @@ R1106 Give Token~
 set thekey 1106
 set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
-set reward 1000
+set reward 2350
 if !%thetoken%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%
@@ -869,7 +869,7 @@ R1108 Give Token~
 set thekey 1108
 set thetoken %actor.inventory(%thekey%)%
 set thisroom %actor.room.vnum%
-set reward 1000
+set reward 2300
 if !%thetoken%
   nop %actor.exp(%reward%)%
   nop %actor.gold(%reward%)%

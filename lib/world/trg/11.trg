@@ -29,7 +29,7 @@ PlazaInn Attendant Greeting~
 ~
 wait 5s
 if %actor%
-  say Hello %actor.name% welcome to %room.name%. What can I get you today?
+  say Hello %actor.name% welcome to %actor.room.name%. What can I get you today?
 end
 ~
 #1161
@@ -38,7 +38,7 @@ Pavillion Attendant Greeting~
 ~
 wait 5s
 if %actor%
-  say Hi %actor.name% welcome to %room.name%. What can I help you with?
+  say Hi %actor.name% welcome to %actor.room.name%. What can I help you with?
 end
 ~
 #1162
@@ -47,7 +47,7 @@ Refreshment Attendant Greeting~
 ~
 wait 5s
 if %actor%
-  say Greetings %actor.name% welcome to %room.name%. What can I get you today?
+  say Greetings %actor.name% welcome to %actor.room.name%. What can I get you today?
 end
 ~
 #1163
@@ -56,7 +56,7 @@ Candy Attendant Greeting~
 ~
 wait 5s
 if %actor%
-  say Hi %actor.name% welcome to %room.name%. Can I help you find anyting?
+  say Hi %actor.name% welcome to %actor.room.name%. Can I help you find anyting?
 end
 ~
 #1164
@@ -65,7 +65,7 @@ Arcade Attendant Greeting~
 ~
 wait 5s
 if %actor%
-  say Hi there %actor.name% welcome to %room.name%. Let me know if you need any help.
+  say Hi there %actor.name% welcome to %actor.room.name%. Let me know if you need any help.
 end
 ~
 #1166
