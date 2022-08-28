@@ -16,7 +16,7 @@ SavingSpell: 2
 E
 T 1100
 #1101
-security securityprime security spy deva securitydeva disney disneyland~
+security prime securityprime security spy deva securitydeva disney disneyland~
 SecurityPRIME SPY~
 1101/main:avatar~
 1101/main:look
@@ -24,7 +24,7 @@ SecurityPRIME SPY~
 260184 0 0 0 2168 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 4 11
+8 8 1 3 11
 BareHandAttack: 14
 Str: 13
 Dex: 13

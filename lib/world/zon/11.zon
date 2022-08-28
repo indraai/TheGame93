@@ -2,13 +2,12 @@
 Quinn Michaels~
 Disneyland~
 1100 1199 30 2 d 0 0 0 -1 -1
-M 0 1166 1 1166 	(Ice Cream Attendant)
-G 1 1166 99 -1 	(Vanilla IceCream)
-M 0 1121 1 1121 	(Goofy 1121)
 O 0 1157 1 1157 	(RTC31930 Computer)
 M 0 1157 1 1157 	(Athena RTC31930)
 D 0 1157 0 1 	(RTC31930)
-M 0 100 99 1157 	(Quinn Michaels)
+M 0 1166 1 1166 	(Ice Cream Attendant)
+G 1 1166 99 -1 	(Vanilla IceCream)
+M 0 1121 1 1121 	(Goofy 1121)
 M 0 1120 1 1120 	(Donald Duck 1120)
 M 0 1102 1 1102 	(Mickey Mouse 1102)
 O 0 1102 1 1102 	(Fountain - Main St.)

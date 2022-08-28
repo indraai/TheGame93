@@ -879,15 +879,15 @@ XMasSpoon~
 8 8 0 1 1
 E
 #959
-security securityprime spy russia kgb deva~
-SecurityPRIME SPY-KGB~
+security prime securityprime spy russia kgb deva~
+SecurityPRIME SPY~
 959/main:avatar~
 959/main:look
 ~
 2136 0 0 0 2168 0 0 0 500 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 1 3
+8 8 1 2 11
 BareHandAttack: 14
 SavingPara: 3
 SavingRod: 3
