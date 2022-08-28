@@ -148,7 +148,7 @@ Female Guest 1127~
 72 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 1 0
+8 8 2 1 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -297,9 +297,21 @@ Arcade Attendant~
 74 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 0 0 0
+8 8 0 1 1
 E
 T 1164
+#1166
+disney disneyland icecream attendant~
+Ice Cream Attendant~
+1166/main:avatar~
+1166/main:look
+~
+74 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0 1 1
+E
+T 1166
 #1168
 disney disneyland watch attendant 1168~
 Watch Attendant 1168~

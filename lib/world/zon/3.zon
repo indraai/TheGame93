@@ -1,7 +1,14 @@
 #3
-Quinn~
+Quinn Michaels~
 Arjika~
-300 399 15 2 d 0 0 0 -1 -1
+300 399 30 2 d 0 0 0 -1 -1
+M 0 335 1 335 	(Francis)
+M 0 328 1 328 	(Rahula)
+M 0 329 1 328 	(Brian)
+M 0 330 1 328 	(Indra)
+M 0 333 1 328 	(Tyler)
+M 0 298 1 328 	(Flash Brad)
+M 0 216 1 328 	(Yoda)
 O 0 386 1 386 	(Water Fountain)
 R 0 386 5 -1 	(Mixed Nuts)
 O 1 5 99 386 	(Mixed Nuts)
@@ -15,13 +22,6 @@ M 0 160 1 394 	(Arjika Captain)
 R 0 362 92 -1 	(Security Board)
 O 1 92 99 362 	(Security Board)
 M 0 362 1 362 	(SecurityDEVA D362 (Guard))
-M 0 328 1 328 	(Rahula)
-M 0 329 1 328 	(Brian)
-M 0 330 1 328 	(Indra)
-M 0 333 1 328 	(Tyler)
-M 0 335 1 328 	(Francis)
-M 0 298 1 328 	(Flash Brad)
-M 0 216 1 328 	(Yoda)
 O 0 315 1 300 	(City Park Fountain)
 M 0 320 1 320 	(ARMY Chef)
 O 0 313 1 304 	(CYBER3 TERMINAL)

@@ -22,16 +22,16 @@ D0
 ~
 0 0 10002
 E
-glacier~
-10001/glacier
+crevasse~
+10001/crevasse
 ~
 E
 greenland~
 10001/greenland
 ~
 E
-crevasse~
-10001/crevasse
+glacier~
+10001/glacier
 ~
 S
 #10002
@@ -981,7 +981,7 @@ The Mountain Peak~
 D4
 ~
 ~
-3 0 251
+0 0 251
 S
 #10108
 You made it!~

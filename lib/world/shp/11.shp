@@ -93,6 +93,30 @@ CircleMUD v3.0 Shop File~
 28
 0
 0
+#1166~
+1166
+-1
+1.00
+1.00
+19icecream
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1166
+0
+1166
+-1
+0
+28
+0
+0
 #1168~
 1168
 -1

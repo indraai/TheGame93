@@ -219,6 +219,10 @@ D2
 ~
 ~
 0 0 1600
+D7
+~
+~
+0 0 1612
 S
 #1611
 Tomorrowland Skyway~
@@ -233,5 +237,29 @@ D4
 ~
 ~
 0 0 1529
+S
+#1612
+Monorail System~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D1
+~
+~
+0 0 1613
+D9
+~
+~
+0 0 1610
+S
+#1613
+Submarine Voyage~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D3
+~
+~
+0 0 1612
 S
 $~

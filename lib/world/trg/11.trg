@@ -68,4 +68,14 @@ if %actor%
   say Hi there %actor.name% welcome to %room.name%. Let me know if you need any help.
 end
 ~
+#1166
+Arcade Attendant Greeting~
+0 g 100
+~
+wait 5s
+if %actor%
+  say Hi there %actor.name% welcome to %room.name%. Let me know if you need any help.
+end
+0
+~
 $~
