@@ -2,15 +2,14 @@
 Quinn~
 Arjika~
 100 199 30 2 d 0 0 0 -1 -1
-M 0 179 1 179 	(*Arjika Private)
+M 0 100 1 100 	(Quinn Michaels)
+M 0 179 1 179 	(Arjika Private)
 M 0 126 1 126 	(Arjika Intelligence)
 M 0 125 2 141 	(MedicDEVA 125)
 M 0 186 2 141 	(MedicDEVA 186)
 M 0 141 1 141 	(Arjika XForce)
 M 0 160 1 160 	(Arjika Captain)
 M 0 166 1 166 	(Arjika General)
-M 0 100 99 137 	(Quinn Michaels)
-M 0 100 99 100 	(Quinn Michaels)
 M 0 155 1 155 	(Arjika Colnel)
 M 0 107 1 107 	(SecurityDEVA D107 (Operations))
 R 0 107 92 -1 	(Security Board)

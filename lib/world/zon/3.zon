@@ -3,7 +3,7 @@ Quinn Michaels~
 Arjika~
 300 399 30 2 d 0 0 0 -1 -1
 O 0 334 1 334 	(CYPHER-1 TERMINAL)
-M 0 334 1 334 	(ARMY Cyber1)
+M 0 334 1 334 	(Arjika CYPHER-1)
 M 0 177 4 334 	(SecurityDEVA D177 (Cyber))
 O 0 319 1 319 	(CYPHER-2 TERMINAL)
 M 0 319 1 319 	(Arjika CYPHER-2)
@@ -54,7 +54,6 @@ M 0 161 3 303 	(ServiceDEVA D161)
 G 1 136 99 -1 	(Broom)
 G 1 149 99 -1 	(Dustpan)
 M 0 163 1 327 	(Renuka)
-M 0 213 1 339 	(Demon King Rahu)
 R 0 349 93 -1 	(ARMY Board)
 O 1 93 99 349 	(ARMY Board)
 R 0 337 96 -1 	(Recycling Board)
