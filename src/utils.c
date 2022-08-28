@@ -618,10 +618,10 @@ void add_follower(struct char_data *ch, struct char_data *leader)
   k->next = leader->followers;
   leader->followers = k;
 
-  act("You now follow $N.", FALSE, ch, 0, leader, TO_CHAR);
+  act("\ninfo:You follow $N.\r", FALSE, ch, 0, leader, TO_CHAR);
   if (CAN_SEE(leader, ch))
-    act("$n starts following you.", TRUE, ch, 0, leader, TO_VICT);
-  act("$n starts to follow $N.", TRUE, ch, 0, leader, TO_NOTVICT);
+    act("\ninfo:$n starts following you.\r", TRUE, ch, 0, leader, TO_VICT);
+  act("\ninfo:$n starts to follow $N.\r", TRUE, ch, 0, leader, TO_NOTVICT);
 }
 
 /** Reads the next non-blank line off of the input stream. Empty lines are
