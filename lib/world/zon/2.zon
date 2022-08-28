@@ -2,6 +2,7 @@
 Quinn~
 Arjika~
 200 299 30 2 d 0 0 0 -1 -1
+O 0 242 1 242 	(Farm Milk)
 M 0 234 1 234 	(Tommy Toys)
 M 0 243 1 243 	(SecurityDEVA D243 (Guard))
 M 0 149 1 243 	(Arjika Sergeant)
@@ -67,8 +68,6 @@ M 0 161 3 251 	(ServiceDEVA D161)
 E 1 136 99 17 	(Broom)
 G 1 149 99 -1 	(Dustpan)
 O 0 251 1 251 	(Water Fountain)
-M 0 126 1 242 	(Arjika Intelligence)
-O 0 242 1 242 	(Farm Milk)
 M 0 224 1 265 	(Harry Systems)
 M 0 225 1 265 	(Larry 225)
 M 0 226 1 265 	(Barry Systems)
