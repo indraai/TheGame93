@@ -1,0 +1,305 @@
+#2000
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 2
+D0
+~
+~
+0 0 362
+D2
+~
+~
+0 0 2001
+S
+#2001
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2000
+D2
+~
+~
+0 0 2002
+S
+#2002
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2001
+D2
+~
+~
+0 0 2003
+S
+#2003
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 0
+D0
+~
+~
+0 0 2002
+D1
+~
+~
+0 0 2004
+S
+#2004
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D2
+~
+~
+0 0 2005
+D3
+~
+~
+0 0 2003
+S
+#2005
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2004
+D1
+~
+~
+0 0 2006
+S
+#2006
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2007
+D3
+~
+~
+0 0 2005
+S
+#2007
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2008
+D3
+~
+~
+0 0 2006
+S
+#2008
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2009
+D3
+~
+~
+0 0 2007
+S
+#2009
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D2
+~
+~
+0 0 2010
+D3
+~
+~
+0 0 2008
+S
+#2010
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D0
+~
+~
+0 0 2009
+D2
+~
+~
+0 0 2011
+S
+#2011
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2010
+D2
+~
+~
+0 0 2032
+D3
+~
+~
+0 0 2012
+S
+#2012
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2011
+D3
+~
+~
+0 0 2013
+S
+#2013
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2012
+S
+#2032
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2011
+D3
+~
+~
+0 0 2033
+S
+#2033
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2032
+D2
+~
+~
+0 0 2034
+D3
+~
+~
+0 0 2037
+S
+#2034
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2033
+D3
+~
+~
+0 0 2035
+S
+#2035
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2034
+D2
+~
+~
+0 0 2036
+S
+#2036
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2035
+S
+#2037
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2033
+D3
+~
+~
+0 0 2038
+S
+#2038
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2039
+D1
+~
+~
+0 0 2037
+S
+#2039
+Pushkara Spring~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D2
+~
+~
+0 0 2038
+S
+$~
