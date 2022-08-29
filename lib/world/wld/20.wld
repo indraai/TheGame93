@@ -161,6 +161,10 @@ D0
 ~
 ~
 0 0 2010
+D1
+~
+~
+0 0 2014
 D2
 ~
 ~
@@ -193,6 +197,254 @@ D1
 ~
 ~
 0 0 2012
+S
+#2014
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2015
+D3
+~
+~
+0 0 2011
+S
+#2015
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2016
+D3
+~
+~
+0 0 2014
+S
+#2016
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2017
+D1
+~
+~
+0 0 2019
+D2
+~
+~
+0 0 2018
+D3
+~
+~
+0 0 2015
+S
+#2017
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D2
+~
+~
+0 0 2016
+S
+#2018
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D0
+~
+~
+0 0 2016
+S
+#2019
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2020
+D1
+~
+~
+0 0 2022
+D2
+~
+~
+0 0 2021
+D3
+~
+~
+0 0 2016
+S
+#2020
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D2
+~
+~
+0 0 2019
+S
+#2021
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D0
+~
+~
+0 0 2019
+S
+#2022
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2028
+D1
+~
+~
+0 0 2025
+D2
+~
+~
+0 0 2023
+D3
+~
+~
+0 0 2019
+S
+#2023
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2022
+D2
+~
+~
+0 0 2024
+S
+#2024
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D0
+~
+~
+0 0 2023
+S
+#2025
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D0
+~
+~
+0 0 2026
+D3
+~
+~
+0 0 2022
+S
+#2026
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D2
+~
+~
+0 0 2025
+D3
+~
+~
+0 0 2027
+S
+#2027
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 0 0 0 0 2
+D1
+~
+~
+0 0 2026
+S
+#2028
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2030
+D2
+~
+~
+0 0 2022
+D3
+~
+~
+0 0 2029
+S
+#2029
+Pushkara Shrine~
+You are in an unfinished room.
+~
+20 24 0 0 0 0
+D1
+~
+~
+0 0 2028
+S
+#2030
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2031
+D2
+~
+~
+0 0 2028
+S
+#2031
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D3
+~
+~
+0 0 2030
 S
 #2032
 Pushkara~

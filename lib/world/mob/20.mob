@@ -1,1 +1,55 @@
+#2005
+rabbit bunny pushkara animals critters rabbits mrbunny~
+Mr. Bunny~
+2005/main:avatar~
+2005/main:look~
+200 0 0 0 0 0 0 0 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+8 8 1 9 1
+BareHandAttack: 4
+E
+#2006
+rabbit bunny puskhara animals critters rabbits mrsbunny~
+Mrs. Bunny~
+2006/main:avatar~
+2006/main:look~
+200 0 0 0 0 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 2 9 1
+BareHandAttack: 2
+E
+#2007
+bull bulls mrbull pushkara animals~
+Mr. Bull~
+2007/main:avatar~
+2007/main:look~
+4168 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 9 1
+BareHandAttack: 13
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#2008
+cow cows mrscow puskhara animals~
+Mrs. Cow~
+2008/main:avatar~
+2008/main:look~
+72 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 2 9 1
+BareHandAttack: 1
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
 $
