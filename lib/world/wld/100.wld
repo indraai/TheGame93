@@ -6,6 +6,10 @@ D0
 ~
 ~
 0 0 10001
+D3
+~
+~
+0 0 -1
 E
 thankyou~
 1000/thankyou
@@ -22,16 +26,16 @@ D0
 ~
 0 0 10002
 E
-crevasse~
-10001/crevasse
+glacier~
+10001/glacier
 ~
 E
 greenland~
 10001/greenland
 ~
 E
-glacier~
-10001/glacier
+crevasse~
+10001/crevasse
 ~
 S
 #10002
@@ -996,72 +1000,40 @@ S
 The Cave of Time~
 :room:/main:look~
 100 0 0 0 0 5
-D0
-~
-~
-0 0 98
 S
 #10400
 Hyperspace~
 :room:/main:look~
 100 0 0 0 0 1
-D3
-~
-~
-0 0 226
 S
 #10600
 You Are A Genius~
 :room:/main:look~
 100 8 0 0 0 0
-D3
-~
-~
-0 0 247
 S
 #10800
 You Are A Superstar~
 :room:/main:look~
 100 0 0 0 0 0
-D0
-~
-~
-0 0 247
 S
 #11000
 You Are An Alien~
 :room:/main:look~
 100 0 0 0 0 1
-D1
-~
-~
-0 0 247
 S
 #11200
 Alien Invaders~
 :room:/main:look~
 100 8 0 0 0 0
-D2
-~
-~
-0 0 226
 S
 #11400
 Faster Than Light~
 :room:/main:look~
 100 0 0 0 0 0
-D3
-~
-~
-0 0 226
 S
 #11600
 Dream Trips~
 :room:/main:look~
 100 0 0 0 0 0
-D1
-~
-~
-0 0 220
 S
 $~
