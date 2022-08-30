@@ -136,7 +136,7 @@ Warry~
 8 8 6 6 6
 E
 #110
-rarry email postmaster deva~
+post mail email postmaster deva~
 Postmaster Deva~
 0110/main:avatar~
 0110/main:look
@@ -488,7 +488,7 @@ Blue Deva~
 2072 0 0 0 2064 0 0 0 500 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 0 2 2
+8 8 0 2 13
 BareHandAttack: 8
 SavingPara: 2
 SavingRod: 2
@@ -529,7 +529,7 @@ BlueDeva ULTRA~
 2072 0 0 0 24 0 0 0 777 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 0 1 4
+8 8 0 2 13
 BareHandAttack: 4
 Str: 15
 Dex: 15
