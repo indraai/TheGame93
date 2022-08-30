@@ -52,4 +52,47 @@ SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
 E
+#2029
+pushkara deva deity celestials royal kings~
+King Pushkara~
+2029/main:avatar~
+2029/main:look~
+74 0 0 0 2168 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 2 15
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
+#2063
+sankara pushkara deva deity celestials royal~
+Sankara~
+2063/main:avatar~
+2063/main:look~
+6234 0 0 0 2168 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1 2 15
+BareHandAttack: 1
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
 $

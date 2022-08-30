@@ -89,6 +89,19 @@ E
 text~
 2039/main:text
 ~
+#2036
+pushkara bench seat~
+Bench~
+2036/main:avatar~
+2036/main:look
+~
+6 0 0 0 0 0 0 0 0 0 0 0 0
+3 0 0 0
+200 200 0 0 0
+E
+text~
+2036/main:text
+~
 #2039
 pushkara spring water fountain~
 Pushkara Spring~
@@ -101,5 +114,44 @@ Pushkara Spring~
 E
 text~
 2039/main:text
+~
+#2051
+pushkara spring water fountain~
+Pushkara Spring~
+2051/main:avatar~
+2051/main:look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+-1 100 0 0
+0 0 0 0 0
+E
+text~
+2039/main:text
+~
+#2056
+pushkara spring water fountain~
+Pushkara Spring~
+2056/main:avatar~
+2056/main:look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+-1 100 0 0
+0 0 0 0 0
+E
+text~
+2039/main:text
+~
+#2063
+pushkara spring water fountain~
+Pushkara Spring~
+2063/main:avatar~
+2063/main:look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+-1 100 0 0
+0 0 0 0 0
+E
+text~
+2063/main:text
 ~
 $~
