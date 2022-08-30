@@ -187,8 +187,8 @@ static void oedit_setup_new(struct descriptor_data *d)
   clear_object(OLC_OBJ(d));
   OLC_OBJ(d)->name = strdup("[keywords]");
   OLC_OBJ(d)->short_description = strdup("[name]");
-  OLC_OBJ(d)->description = strdup(":room:/main:avatar");
-  OLC_OBJ(d)->action_description = strdup(":room:/main:look");
+  OLC_OBJ(d)->description = strdup(":id:/main:avatar");
+  OLC_OBJ(d)->action_description = strdup(":id:/main:look");
   SET_BIT_AR(GET_OBJ_WEAR(OLC_OBJ(d)), ITEM_WEAR_TAKE);
   OLC_VAL(d) = 0;
   OLC_ITEM_TYPE(d) = OBJ_TRIGGER;

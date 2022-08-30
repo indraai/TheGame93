@@ -204,7 +204,7 @@ ACMD(do_dig)
       free(W_EXIT(IN_ROOM(ch), dir));
       W_EXIT(IN_ROOM(ch), dir) = NULL;
       add_to_save_list(zone_table[world[IN_ROOM(ch)].zone].number, SL_WLD);
-      send_to_char(ch, "You remove the exit to the %s.\r\n", dirs[dir]);
+      send_to_char(ch, "\ninfo:You remove the exit to the %s.\r", dirs[dir]);
       return;
     }
     send_to_char(ch, "\n:info:There is no exit to the %s. No exit removed.\r", dirs[dir]);
