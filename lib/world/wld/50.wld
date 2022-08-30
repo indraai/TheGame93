@@ -1,0 +1,33 @@
+#5000
+Janarloka~
+You are in an unfinished room.
+~
+50 24 0 0 0 0
+D3
+~
+~
+0 0 5001
+D4
+~
+~
+0 0 5100
+D5
+~
+~
+0 0 4900
+S
+#5001
+Janarloka~
+You are in an unfinished room.
+~
+50 24 0 0 0 0
+D1
+~
+~
+0 0 5000
+D5
+~
+~
+0 0 4901
+S
+$~

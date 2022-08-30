@@ -1,0 +1,33 @@
+#5100
+Taparloka~
+You are in an unfinished room.
+~
+51 24 0 0 0 0
+D3
+~
+~
+0 0 5101
+D4
+~
+~
+0 0 5200
+D5
+~
+~
+0 0 5000
+S
+#5101
+Taparloka~
+You are in an unfinished room.
+~
+51 24 0 0 0 0
+D1
+~
+~
+0 0 5100
+D5
+~
+~
+0 0 5001
+S
+$~
