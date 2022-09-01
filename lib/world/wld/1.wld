@@ -44,10 +44,10 @@ S
 House Sarya~
 Empty room.~
 1 24 0 0 0 0
-D6
+D7
 ~
 ~
-0 0 133
+0 0 346
 S
 #105
 House Vivasvan~
@@ -56,7 +56,7 @@ Empty room.~
 D9
 ~
 ~
-0 0 133
+0 0 346
 S
 #106
 Security Tower (N)~
@@ -326,14 +326,14 @@ S
 House Soma~
 Empty room.~
 1 24 0 0 0 0
-D0
-~
-~
-0 0 133
 D2
 ~
 ~
 0 0 34
+D6
+~
+~
+0 0 346
 S
 #126
 House Vamraka~
@@ -342,7 +342,7 @@ Empty room.~
 D1
 ~
 ~
-0 0 132
+0 0 345
 D3
 ~
 ~
@@ -356,56 +356,15 @@ D0
 ~
 ~
 0 0 35
-D2
+D8
 ~
 ~
-0 0 133
-S
-#132
-Arjika Temple West~
-undefined~
-1 24 0 0 0 0
-D0
-~
-~
-0 0 138
-D1
-~
-~
-0 0 133
-D2
-~
-~
-0 0 137
-D3
-~
-~
-0 0 126
-D5
-~
-~
-0 0 345
+0 0 346
 S
 #133
 Arjika Temple East~
 undefined~
 1 24 0 0 0 0
-D0
-~
-~
-0 0 131
-D1
-~
-~
-0 0 134
-D2
-~
-~
-0 0 125
-D3
-~
-~
-0 0 132
 D4
 ~
 ~
@@ -418,10 +377,6 @@ D7
 ~
 ~
 0 0 105
-D8
-~
-~
-0 0 104
 S
 #134
 House Indra~
@@ -434,16 +389,16 @@ D1
 D3
 ~
 ~
-0 0 133
+0 0 346
 S
 #137
 The Householder~
 Empty room.~
 1 24 0 0 0 0
-D0
+D8
 ~
 ~
-0 0 132
+0 0 345
 S
 #138
 House Indu~
@@ -456,7 +411,7 @@ D0
 D2
 ~
 ~
-0 0 132
+0 0 345
 S
 #139
 Security Tower (S)~

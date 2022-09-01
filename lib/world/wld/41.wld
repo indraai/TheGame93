@@ -6,19 +6,19 @@ D4
 ~
 ~
 0 0 4200
-D5
-~
-~
-0 0 4000
 S
 #4101
 Rasatala~
 You are in an unfinished room.
 ~
 41 0 0 0 0 0
-D4
+D1
 ~
 ~
-0 0 4201
+0 0 4100
+D5
+~
+~
+0 0 4001
 S
 $~

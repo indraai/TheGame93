@@ -2,6 +2,8 @@
 Quinn Michaels~
 Arjika~
 300 399 30 2 d 0 0 0 -1 -1
+O 0 347 1 347 	(Water Fountain)
+M 0 138 1 347 	(Yellow Master Deva)
 O 0 334 1 334 	(CYPHER-1 TERMINAL)
 M 0 334 1 334 	(Arjika CYPHER-1)
 M 0 177 4 334 	(SecurityDEVA D177 (Cyber))
@@ -41,7 +43,6 @@ O 0 310 4 359 	(Courtyard Bench)
 O 0 310 4 358 	(Courtyard Bench)
 O 0 310 4 357 	(Courtyard Bench)
 O 0 344 1 344 	(Water Fountain)
-O 0 347 1 347 	(Water Fountain)
 M 0 11 1 366 	(Yama)
 M 0 12 1 366 	(Chitragupta)
 M 0 105 1 355 	(Silamavati)
