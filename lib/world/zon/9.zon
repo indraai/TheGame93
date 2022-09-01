@@ -2,6 +2,9 @@
 Quinn~
 Training L1~
 800 999 30 2 d 0 0 0 1 -1
+M 0 968 1 968 	(Peter 968)
+R 0 968 968 -1 	(Peter The Great Training)
+O 1 968 25 968 	(Peter The Great Training)
 M 0 959 1 971 	(SecurityPRIME SPY)
 R 0 971 92 -1 	(Security Board)
 O 1 92 99 971 	(Security Board)
@@ -97,8 +100,6 @@ M 0 970 1 970 	(Kirill 970)
 O 0 970 25 970 	(Russian Orthodox Training)
 M 0 969 1 969 	(Yuri 969)
 O 0 969 25 969 	(Yuri Andropov Training)
-M 0 968 1 968 	(Peter 968)
-O 0 968 25 968 	(Peter The Great Training)
 M 0 934 1 934 	(Cyberman 934)
 O 0 934 25 934 	(Cyberman Training)
 M 0 932 1 932 	(Sasha 932)
