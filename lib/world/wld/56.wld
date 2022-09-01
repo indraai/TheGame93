@@ -269,6 +269,10 @@ Iron Enclosure~
 You are in an unfinished room.
 ~
 56 0 0 0 0 1
+D0
+~
+~
+0 0 5637
 D1
 ~
 ~
@@ -277,6 +281,14 @@ D2
 ~
 ~
 0 0 5619
+D3
+~
+~
+0 0 5636
+D6
+~
+~
+0 0 5635
 D7
 ~
 ~
@@ -321,6 +333,14 @@ D2
 ~
 ~
 0 0 5621
+D3
+~
+~
+0 0 5635
+D6
+~
+~
+0 0 5637
 D7
 ~
 ~
@@ -365,6 +385,10 @@ D2
 ~
 ~
 0 0 5623
+D3
+~
+~
+0 0 5637
 D6
 ~
 ~
@@ -391,6 +415,10 @@ D6
 ~
 ~
 0 0 5627
+D9
+~
+~
+0 0 5636
 S
 #5626
 Gold Enclosure~
@@ -421,6 +449,10 @@ D8
 ~
 ~
 0 0 5624
+D9
+~
+~
+0 0 5637
 S
 #5627
 Pusparaga Enclosure~
@@ -457,6 +489,18 @@ D1
 ~
 ~
 0 0 5626
+D2
+~
+~
+0 0 5637
+D3
+~
+~
+0 0 5630
+D6
+~
+~
+0 0 5631
 D7
 ~
 ~
@@ -465,6 +509,10 @@ D8
 ~
 ~
 0 0 5623
+D9
+~
+~
+0 0 5634
 S
 #5629
 Gomeda Enclosure~
@@ -479,29 +527,251 @@ D2
 ~
 ~
 0 0 5628
+D3
+~
+~
+0 0 5631
 D8
 ~
 ~
 0 0 5626
+D9
+~
+~
+0 0 5630
 S
-#5632
-An unfinished room~
+#5630
+Diamond Enclosure~
 You are in an unfinished room.
 ~
 56 0 0 0 0 0
+D0
+~
+~
+0 0 5631
+D1
+~
+~
+0 0 5628
+D2
+~
+~
+0 0 5635
+D3
+~
+~
+0 0 5632
+D7
+~
+~
+0 0 5629
+D8
+~
+~
+0 0 5637
+D9
+~
+~
+0 0 5633
+S
+#5631
+Vaidurya Enclosure~
+You are in an unfinished room.
+~
+56 0 0 0 0 0
+D1
+~
+~
+0 0 5629
+D2
+~
+~
+0 0 5630
+D8
+~
+~
+0 0 5628
+D9
+~
+~
+0 0 5632
+S
+#5632
+Indranilmani Enclosure~
+You are in an unfinished room.
+~
+56 0 0 0 0 1
+D1
+~
+~
+0 0 5630
+D2
+~
+~
+0 0 5633
+D7
+~
+~
+0 0 5631
 D8
 ~
 ~
 0 0 5621
 S
 #5633
-Lead Enclosure~
+Pearl Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
-D3
+56 0 0 0 0 1
+D0
+~
+~
+0 0 5632
+D1
+~
+~
+0 0 5637
+D2
+~
+~
+0 0 5634
+D7
+~
+~
+0 0 5630
+D8
+~
+~
+0 0 5635
+S
+#5634
+Emerald Enclosure~
+You are in an unfinished room.
+~
+56 0 0 0 0 1
+D0
+~
+~
+0 0 5633
+D1
+~
+~
+0 0 5635
+D7
+~
+~
+0 0 5628
+D8
+~
+~
+0 0 5636
+S
+#5635
+Prabala Enclosure~
+You are in an unfinished room.
+~
+56 0 0 0 0 1
+D0
+~
+~
+0 0 5630
+D1
 ~
 ~
 0 0 5622
+D2
+~
+~
+0 0 5636
+D3
+~
+~
+0 0 5634
+D6
+~
+~
+0 0 5633
+D7
+~
+~
+0 0 5637
+D8
+~
+~
+0 0 5620
+S
+#5636
+Navaratna Enclosure~
+You are in an unfinished room.
+~
+56 0 0 0 0 0
+D0
+~
+~
+0 0 5635
+D1
+~
+~
+0 0 5620
+D6
+~
+~
+0 0 5634
+D7
+~
+~
+0 0 5625
+S
+#5637
+The Crowning Palace~
+You are in an unfinished room.
+~
+56 0 0 0 0 1
+D0
+~
+~
+0 0 5628
+D1
+~
+~
+0 0 5624
+D2
+~
+~
+0 0 5620
+D3
+~
+~
+0 0 5633
+D4
+~
+~
+0 0 5638
+D6
+~
+~
+0 0 5630
+D7
+~
+~
+0 0 5626
+D8
+~
+~
+0 0 5622
+D9
+~
+~
+0 0 5635
+S
+#5638
+Antariksa~
+You are in an unfinished room.
+~
+56 0 0 0 0 0
+D5
+~
+~
+0 0 5637
 S
 $~
