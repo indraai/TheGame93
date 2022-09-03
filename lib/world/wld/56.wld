@@ -223,6 +223,10 @@ D1
 ~
 ~
 0 0 5612
+D7
+~
+~
+0 0 5641
 D9
 ~
 ~
@@ -922,7 +926,7 @@ D3
 D4
 ~
 ~
-0 0 5638
+0 0 5700
 D6
 ~
 ~
@@ -941,7 +945,7 @@ D9
 0 0 5635
 S
 #5638
-Amaravati~
+Amaravati City~
 You are in an unfinished room.
 ~
 56 16 0 0 0 1
@@ -959,7 +963,7 @@ D9
 0 0 5623
 S
 #5639
-City of Agni~
+Agni City~
 You are in an unfinished room.
 ~
 56 0 0 0 0 1
@@ -977,7 +981,7 @@ D6
 0 0 5622
 S
 #5640
-City of Yama~
+Yama City~
 You are in an unfinished room.
 ~
 56 16 0 0 0 1
@@ -1002,7 +1006,7 @@ S
 Raksasas City~
 You are in an unfinished room.
 ~
-56 16 0 0 0 1
+56 0 0 0 0 1
 D0
 ~
 ~
@@ -1015,6 +1019,10 @@ D7
 ~
 ~
 0 0 5635
+D9
+~
+~
+0 0 5613
 S
 #5642
 Varuna City~
@@ -1042,7 +1050,7 @@ S
 Vayudeva City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D1
 ~
 ~
@@ -1064,7 +1072,7 @@ S
 Yaksas City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 0 0 0 0 1
 D0
 ~
 ~
@@ -1083,10 +1091,10 @@ D9
 0 0 5631
 S
 #5645
-City of Rudra~
+Rudra City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 0 0 0 0 1
 D2
 ~
 ~
