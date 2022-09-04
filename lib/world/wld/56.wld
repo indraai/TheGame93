@@ -356,11 +356,11 @@ S
 Iron Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
-0 0 5637
+0 0 5649
 D1
 ~
 ~
@@ -386,7 +386,7 @@ S
 White Copper Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -402,7 +402,7 @@ D3
 D6
 ~
 ~
-0 0 5632
+0 0 5649
 D7
 ~
 ~
@@ -416,11 +416,11 @@ S
 Copper Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D0
 ~
 ~
-0 0 5626
+0 0 5648
 D1
 ~
 ~
@@ -432,7 +432,7 @@ D2
 D3
 ~
 ~
-0 0 5635
+0 0 5649
 D6
 ~
 ~
@@ -454,7 +454,7 @@ S
 Lead Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -470,7 +470,7 @@ D3
 D6
 ~
 ~
-0 0 5628
+0 0 5648
 D7
 ~
 ~
@@ -484,7 +484,7 @@ S
 Brass Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -500,7 +500,7 @@ D2
 D3
 ~
 ~
-0 0 5637
+0 0 5648
 D6
 ~
 ~
@@ -514,7 +514,7 @@ S
 Silver Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -538,13 +538,13 @@ D8
 D9
 ~
 ~
-0 0 5636
+0 0 5648
 S
 #5626
 Gold Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -556,7 +556,7 @@ D1
 D2
 ~
 ~
-0 0 5622
+0 0 5648
 D3
 ~
 ~
@@ -582,7 +582,7 @@ S
 Pusparaga Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D1
 ~
 ~
@@ -612,7 +612,7 @@ S
 Padmaraga Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -640,17 +640,17 @@ D7
 D8
 ~
 ~
-0 0 5623
+0 0 5648
 D9
 ~
 ~
-0 0 5634
+0 0 5647
 S
 #5629
 Gomeda Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -680,7 +680,7 @@ S
 Diamond Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -692,7 +692,7 @@ D1
 D2
 ~
 ~
-0 0 5635
+0 0 5647
 D3
 ~
 ~
@@ -718,7 +718,7 @@ S
 Vaidurya Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D1
 ~
 ~
@@ -748,7 +748,7 @@ S
 Indranilmani Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -768,7 +768,7 @@ D7
 D8
 ~
 ~
-0 0 5621
+0 0 5647
 D9
 ~
 ~
@@ -778,7 +778,7 @@ S
 Pearl Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -786,7 +786,7 @@ D0
 D1
 ~
 ~
-0 0 5637
+0 0 5647
 D2
 ~
 ~
@@ -808,7 +808,7 @@ S
 Emerald Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -828,7 +828,7 @@ D6
 D7
 ~
 ~
-0 0 5628
+0 0 5647
 D8
 ~
 ~
@@ -838,15 +838,15 @@ S
 Prabala Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
-0 0 5630
+0 0 5647
 D1
 ~
 ~
-0 0 5622
+0 0 5649
 D2
 ~
 ~
@@ -876,7 +876,7 @@ S
 Navaratna Enclosure~
 You are in an unfinished room.
 ~
-56 0 0 0 0 0
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -896,7 +896,7 @@ D6
 D7
 ~
 ~
-0 0 5625
+0 0 5649
 D8
 ~
 ~
@@ -906,7 +906,7 @@ S
 The Crowning Palace~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -914,7 +914,7 @@ D0
 D1
 ~
 ~
-0 0 5624
+0 0 5648
 D2
 ~
 ~
@@ -966,7 +966,7 @@ S
 Agni City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -1006,7 +1006,7 @@ S
 Raksasas City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -1072,7 +1072,7 @@ S
 Yaksas City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D0
 ~
 ~
@@ -1094,7 +1094,7 @@ S
 Rudra City~
 You are in an unfinished room.
 ~
-56 0 0 0 0 1
+56 16 0 0 0 1
 D2
 ~
 ~
@@ -1117,5 +1117,118 @@ D3
 ~
 ~
 0 0 5627
+S
+#5647
+Water Tank~
+You are in an unfinished room.
+~
+56 16 0 0 0 6
+D0
+~
+~
+0 0 5630
+D1
+~
+~
+0 0 5637
+D2
+~
+~
+0 0 5635
+D3
+~
+~
+0 0 5633
+D6
+~
+~
+0 0 5632
+D7
+~
+~
+0 0 5628
+D8
+~
+~
+0 0 5649
+D9
+~
+~
+0 0 5634
+S
+#5648
+Water Tank~
+You are in an unfinished room.
+~
+56 16 0 0 0 6
+D0
+~
+~
+0 0 5626
+D1
+~
+~
+0 0 5624
+D2
+~
+~
+0 0 5622
+D3
+~
+~
+0 0 5637
+D6
+~
+~
+0 0 5628
+D7
+~
+~
+0 0 5625
+D8
+~
+~
+0 0 5623
+D9
+~
+~
+0 0 5649
+S
+#5649
+Water Tank~
+[DESCRIBE]~
+56 16 0 0 0 6
+D0
+~
+~
+0 0 5637
+D1
+~
+~
+0 0 5622
+D2
+~
+~
+0 0 5620
+D3
+~
+~
+0 0 5635
+D6
+~
+~
+0 0 5647
+D7
+~
+~
+0 0 5648
+D8
+~
+~
+0 0 5621
+D9
+~
+~
+0 0 5636
 S
 $~
