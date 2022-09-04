@@ -302,7 +302,7 @@ S
 Northeast Beach~
 You are in an unfinished room.
 ~
-56 0 0 0 0 2
+56 16 0 0 0 2
 D2
 ~
 ~
@@ -315,12 +315,16 @@ D7
 ~
 ~
 0 0 5606
+D9
+~
+~
+0 0 5645
 S
 #5618
 East Beach~
 You are in an unfinished room.
 ~
-56 0 0 0 0 2
+56 16 0 0 0 2
 D0
 ~
 ~
@@ -333,12 +337,16 @@ D2
 ~
 ~
 0 0 5619
+D3
+~
+~
+0 0 5638
 S
 #5619
 Southeast Beach~
 You are in an unfinished room.
 ~
-56 0 0 0 0 2
+56 16 0 0 0 2
 D0
 ~
 ~
@@ -347,6 +355,10 @@ D3
 ~
 ~
 0 0 5612
+D6
+~
+~
+0 0 5639
 D8
 ~
 ~
@@ -949,6 +961,10 @@ Amaravati City~
 You are in an unfinished room.
 ~
 56 16 0 0 0 1
+D1
+~
+~
+0 0 5618
 D3
 ~
 ~
@@ -979,6 +995,10 @@ D6
 ~
 ~
 0 0 5622
+D8
+~
+~
+0 0 5619
 S
 #5640
 Yama City~
@@ -1103,6 +1123,10 @@ D3
 ~
 ~
 0 0 5627
+D7
+~
+~
+0 0 5617
 D9
 ~
 ~
