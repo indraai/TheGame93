@@ -19,16 +19,82 @@ SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
 E
+#5638
+indra deva king deity celestial royal~
+Indra Deva~
+5638/main:avatar~
+5638/main:look~
+6234 0 0 0 2552 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+6 6 1 2 15
+BareHandAttack: 8
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#5639
+agni deva royal celestial deity~
+Agni Deva~
+5639/main:avatar~
+5639/main:look~
+6234 0 0 0 2424 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+6 6 1 2 15
+BareHandAttack: 10
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#5640
+yama deva royal celestial deity~
+Yama Deva~
+5640/main:avatar~
+5640/main:look~
+6234 0 0 0 2424 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+6 6 1 2 15
+BareHandAttack: 11
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
 #5641
 nirriti deva royal celestial deity~
-Nirriti~
+Nirriti Deva~
 5641/main:avatar~
 5641/main:look~
 6170 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 2 15
-BareHandAttack: 12
+6 6 1 2 15
+BareHandAttack: 9
 Str: 18
 Dex: 18
 Int: 18
@@ -42,14 +108,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5642
-varuna deva royal celestial~
-Varuna~
+varuna deva royal celestial deity~
+Varuna Deva~
 5642/main:avatar~
 5642/main:look~
 6234 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 2 15
+6 6 1 2 15
 BareHandAttack: 6
 Str: 18
 Dex: 18
@@ -64,8 +130,8 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5643
-vayudeva deva royal celestial~
-Vayudeva~
+vayudeva deva royal celestial deity~
+Vayu Deva~
 5643/main:avatar~
 5643/main:look~
 6234 0 0 0 2424 0 0 0 1000 E
@@ -86,13 +152,13 @@ SavingSpell: 8
 E
 #5644
 kuvera deva royal celestial deity~
-Kuvera~
+Kuvera Deva~
 5644/main:avatar~
 5644/main:look~
 2138 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 2 15
+6 6 1 2 15
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -108,13 +174,14 @@ SavingSpell: 8
 E
 #5645
 isana rudra deva royal deity celestial~
-Isana Rudra~
+Rudra Deva~
 5645/main:avatar~
 5645/main:look~
 6234 0 0 0 2424 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 2 15
+6 6 1 2 15
+BareHandAttack: 7
 Str: 18
 Dex: 18
 Int: 18
