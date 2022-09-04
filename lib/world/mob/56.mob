@@ -24,19 +24,30 @@ nirriti deva royal celestial deity~
 Nirriti~
 5641/main:avatar~
 5641/main:look~
-6170 0 0 0 2168 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
+6170 0 0 0 2424 0 0 0 1000 E
+33 20 10 1d1+0 1d1+0
 0 0
 8 8 1 2 15
 BareHandAttack: 12
+E
+#5642
+varuna deva royal celestial~
+Varuna~
+5642/main:avatar~
+5642/main:look~
+6234 0 0 0 2424 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 15
+BareHandAttack: 6
 E
 #5643
 vayudeva deva royal celestial~
 Vayudeva~
 5643/main:avatar~
 5643/main:look~
-6234 0 0 0 2168 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
+6234 0 0 0 2424 0 0 0 1000 E
+33 20 10 1d1+0 1d1+0
 0 0
 8 8 1 2 15
 E
