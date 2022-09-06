@@ -195,9 +195,10 @@
 #define RACE_ASURAS      6   /**< asuras */
 #define RACE_DANAVA      7   /**< danava */
 #define RACE_DASYUS      8   /**< dasyus */
-#define RACE_OTHER       9   /**< OTHER */
+#define RACE_DAITYAS     9   /**< OTHER */
+#define RACE_OTHER       10   /**< OTHER */
 /** Total number of RACES */
-#define NUM_RACES        10
+#define NUM_RACES        11
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */

@@ -121,18 +121,18 @@ const char *exit_bits[] = {
  * @pre Must be in the same order as the defines.
  * Must end array with a single newline. */
 const char *sector_types[] = {
-  "Inside",
-  "City",
-  "Field",
-  "Forest",
-  "Hills",
-  "Mountains",
-  "Water (Swim)",
-  "Water (No Swim)",
-  "Flying",
-  "Underwater",
-  "Bridge",
-  "Cave",
+  "INSIDE",
+  "CITY",
+  "FIELD",
+  "FOREST",
+  "HILLS",
+  "MOUNTAINS",
+  "WATER - SWIM",
+  "WATER - NO SWIM",
+  "FLYING",
+  "UNDERWATER",
+  "BRIDGE",
+  "CAVE",
   "\n"
 };
 
@@ -141,25 +141,26 @@ const char *sector_types[] = {
  * Must end array with a single newline. */
 const char *genders[] =
 {
-  "Neutral",
-  "Male",
-  "Female",
-  "Other",
+  "NEUTRAL",
+  "MALE",
+  "FEMALE",
+  "OTHER",
   "\n"
 };
 
 const char *races[] =
 {
-  "Human",
-  "Robot",
-  "Deva",
-  "Arjika",
-  "Susoma",
-  "Sarya",
-  "Asuras",
-  "Danava",
-  "Dasyus",
-  "Other",
+  "HUMAN",
+  "ROBOT",
+  "DEVA",
+  "ARJIKA",
+  "SUSOMA",
+  "SARYA",
+  "ASURAS",
+  "DANAVA",
+  "DASYUS",
+  "DAITYAS",
+  "OTHER",
   "\n"
 };
 
