@@ -1,5 +1,5 @@
 #5600
-Planet Rahu~
+Sarvaloka Gateway~
 You are in an unfinished room.
 ~
 56 24 0 0 0 0
@@ -7,6 +7,20 @@ D0
 ~
 ~
 0 0 5602
+D3
+~
+~
+0 0 5601
+S
+#5601
+Sarvaloka Gateway~
+You are in an unfinished room.
+~
+56 0 0 0 0 0
+D1
+~
+~
+0 0 5600
 D5
 ~
 ~
