@@ -1,10 +1,38 @@
 #400
 Jesus Prison~
 [DESCRIBE]~
-4 9 0 0 0 0
+4 8 0 0 0 0
+D1
+~
+~
+0 0 401
 D2
 ~
 ~
 0 0 390
+S
+#401
+Harold Prison~
+You are in an unfinished room.
+~
+4 8 0 0 0 0
+D2
+~
+~
+0 0 402
+D3
+~
+~
+0 0 400
+S
+#402
+Sharon Prison~
+You are in an unfinished room.
+~
+4 8 0 0 0 0
+D0
+~
+~
+0 0 401
 S
 $~
