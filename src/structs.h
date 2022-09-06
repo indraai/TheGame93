@@ -121,8 +121,9 @@
 #define SECT_UNDERWATER	     9		/**< Underwater		*/
 #define SECT_BRIDGE   	     10		/**< bridge		*/
 #define SECT_CAVE     	     11		/**< bridge		*/
+#define SECT_GATEWAY         12		/**< bridge		*/
 /** The total number of room Sector Types */
-#define NUM_ROOM_SECTORS  12
+#define NUM_ROOM_SECTORS  13
 
 /* char and mob-related defines */
 
@@ -196,7 +197,7 @@
 #define RACE_DANAVA      7   /**< danava */
 #define RACE_DASYUS      8   /**< dasyus */
 #define RACE_DAITYAS     9   /**< OTHER */
-#define RACE_OTHER       10   /**< OTHER */
+#define RACE_OTHER       10  /**< OTHER */
 /** Total number of RACES */
 #define NUM_RACES        11
 
