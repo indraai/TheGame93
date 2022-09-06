@@ -346,15 +346,15 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5644
-kuvera deva royal celestial deity~
-Kuvera Deva~
+chandra soma deva royal celestial deity~
+Chandra Deva~
 5644/main:avatar~
 5644/main:look~
 2138 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 6 6 1 2 15
-BareHandAttack: 12
+BareHandAttack: 8
 Str: 18
 Dex: 18
 Int: 18
