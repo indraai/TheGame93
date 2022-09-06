@@ -21,14 +21,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #1001
-king vasuki world fight club~
-King Vasuki~
+king tyler world fight club~
+King Tyler~
 1001/main:avatar~
 1001/main:look~
 2142 0 0 0 2056 0 0 0 -550 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 4 1
+8 8 1 1 6
 BareHandAttack: 7
 Str: 14
 Dex: 14
