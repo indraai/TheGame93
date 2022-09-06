@@ -123,7 +123,7 @@ static struct map_info_type map_info[] =
   { SECT_UNDERWATER,   "\tc[\tbU\tc]\tn" },
   { SECT_BRIDGE,       "\tc[\tnB\tc]\tn" }, /* 10 */
   { SECT_CAVE,         "\tc[\tnA\tc]\tn" },
-  { -1,                ""        },
+  { SECT_GATEWAY,      "\tc[\tnG\tc]\tn" },
   { -1,                ""        },
   { -1,                ""        },
   { -1,                ""        }, /* 15 */
@@ -159,8 +159,8 @@ static struct map_info_type world_map_info[] =
   { SECT_FLYING,       "\tC^"  },
   { SECT_UNDERWATER,   "\tbU"  },
   { SECT_BRIDGE,       "\tnB"  }, /* 10 */
-  { -SECT_CAVE,        "\tnB" },
-  { -1,                ""     },
+  { SECT_CAVE,         "\tnB"  },
+  { SECT_GATEWAY,      "\TNG"  },
   { -1,                ""     },
   { -1,                ""     },
   { -1,                ""     }, /* 15 */
