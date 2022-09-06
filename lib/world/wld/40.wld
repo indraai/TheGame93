@@ -34,5 +34,47 @@ D1
 ~
 ~
 0 0 4001
+D3
+~
+~
+0 0 4003
+S
+#4003
+Patala~
+You are in an unfinished room.
+~
+40 8 0 0 0 11
+D1
+~
+~
+0 0 4002
+D2
+~
+~
+0 0 4004
+S
+#4004
+Patala~
+You are in an unfinished room.
+~
+40 9 0 0 0 11
+D0
+~
+~
+0 0 4003
+D1
+~
+~
+0 0 4005
+S
+#4005
+Patala~
+You are in an unfinished room.
+~
+40 9 0 0 0 11
+D3
+~
+~
+0 0 4004
 S
 $~

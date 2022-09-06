@@ -1,7 +1,7 @@
 #4200
 Mahatala~
 [DESCRIBE]~
-42 0 0 0 0 0
+42 280 0 0 0 11
 D3
 ~
 ~
@@ -15,14 +15,42 @@ S
 Mahatala~
 You are in an unfinished room.
 ~
-42 0 0 0 0 0
+42 280 0 0 0 11
 D1
 ~
 ~
 0 0 4200
+D2
+~
+~
+0 0 4202
 D5
 ~
 ~
 0 0 4101
+S
+#4202
+Mahatala~
+You are in an unfinished room.
+~
+42 8 0 0 0 11
+D0
+~
+~
+0 0 4201
+D2
+~
+~
+0 0 4203
+S
+#4203
+Mahatala~
+You are in an unfinished room.
+~
+42 8 0 0 0 11
+D0
+~
+~
+0 0 4202
 S
 $~
