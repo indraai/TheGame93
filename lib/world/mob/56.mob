@@ -3,7 +3,7 @@ arjika soldier military a5600~
 Arjika Soldier 5600~
 5600/main:avatar~
 5600/main:look~
-6490 0 0 0 2168 0 0 0 0 E
+6490 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -18,7 +18,7 @@ arjika soldier military a5601~
 Arjika Soldier 5601~
 5601/main:avatar~
 5601/main:look~
-6490 0 0 0 2168 0 0 0 0 E
+6490 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -33,7 +33,7 @@ arjika military soldier a5602~
 Arjika Soldier 5602~
 5602/main:avatar~
 5602/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -48,7 +48,7 @@ arjika military soldier a5603~
 Arjika Soldier 5603~
 5603/main:avatar~
 5603/main:look~
-8 0 0 0 0 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -63,7 +63,7 @@ arjika military soldier 5611~
 Arjika Soldier 5611~
 5611/main:avatar~
 5611/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -78,7 +78,7 @@ arjika soldier military a5612~
 Arjika Soldier 5612~
 5612/main:avatar~
 5612/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -93,7 +93,7 @@ arjika military soldier a5613~
 Arjika Soldier 5613~
 5613/main:avatar~
 5613/main:look~
-6488 0 0 0 0 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -108,7 +108,7 @@ arjika soldier military 5614~
 Arjika Soldier 5614~
 5614/main:avatar~
 5614/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -123,17 +123,22 @@ arjika soldier military a5615~
 Arjika Soldier 5615~
 5615/main:avatar~
 5615/main:look~
-6488 0 0 0 2168 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
+6488 0 0 0 10360 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
 8 8 1 3 12
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #5616
 arjika military soldier a5616~
 Arjika Soldier 5616~
 5616/main:avatar~
 5616/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -148,7 +153,7 @@ arjika military soldier a5617~
 Arjika Soldier 5617~
 5617/main:avatar~
 5617/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -163,7 +168,7 @@ arjika military soldier~
 Arjika Soldier 5618~
 5618/main:avatar~
 5618/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12
@@ -178,7 +183,7 @@ arjika military soldier 5619~
 Arjika Soldier 5619~
 5619/main:avatar~
 5619/main:look~
-6488 0 0 0 2168 0 0 0 0 E
+6488 0 0 0 10360 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 3 12

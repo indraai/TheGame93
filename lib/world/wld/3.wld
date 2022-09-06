@@ -1043,7 +1043,7 @@ D4
 0 0 386
 S
 #365
-Arjika Training L3~
+Zone 7~
 [DESCRIBE]~
 3 24 0 0 0 0
 D0
@@ -1054,6 +1054,10 @@ D4
 ~
 ~
 0 0 364
+D5
+~
+~
+0 0 367
 S
 #366
 Court of Law~
@@ -1065,7 +1069,7 @@ D1
 0 0 329
 S
 #367
-Arjika Training L4~
+Zone 6~
 [DESCRIBE]~
 3 24 0 0 0 0
 D0
@@ -1076,6 +1080,10 @@ D4
 ~
 ~
 0 0 365
+D5
+~
+~
+0 0 389
 S
 #368
 Law: Transactions~
@@ -1349,7 +1357,7 @@ D2
 0 0 387
 S
 #389
-Arjika Training L5~
+Zone 5~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -1360,9 +1368,13 @@ D4
 ~
 ~
 0 0 367
+D5
+~
+~
+0 0 390
 S
 #390
-Arjika Training L6~
+Zone 4~
 Empty room.~
 3 24 0 0 0 0
 D0
