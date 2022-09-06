@@ -1,7 +1,11 @@
 #4000
 Patala~
 [DESCRIBE]~
-40 0 0 0 0 0
+40 281 0 0 0 0
+D3
+~
+~
+0 0 4001
 D4
 ~
 ~
@@ -11,10 +15,24 @@ S
 Patala~
 You are in an unfinished room.
 ~
-40 24 0 0 0 0
+40 25 0 0 0 0
 D1
 ~
 ~
 0 0 4000
+D3
+~
+~
+0 0 4002
+S
+#4002
+Patala~
+You are in an unfinished room.
+~
+40 9 0 0 0 0
+D1
+~
+~
+0 0 4001
 S
 $~
