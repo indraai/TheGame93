@@ -150,17 +150,17 @@ const char *genders[] =
 
 const char *races[] =
 {
-  "HUMAN",
-  "ROBOT",
-  "DEVA",
-  "ARJIKA",
-  "SUSOMA",
-  "SARYA",
-  "ASURAS",
-  "DANAVA",
-  "DASYUS",
-  "DAITYAS",
-  "OTHER",
+  "Human",
+  "Robot",
+  "Deva",
+  "Arjika",
+  "Susoma",
+  "Sarya",
+  "Asuras",
+  "Danava",
+  "Dasyus",
+  "Daityas",
+  "Other",
   "\n"
 };
 
