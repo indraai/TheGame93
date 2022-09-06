@@ -160,7 +160,7 @@ static struct map_info_type world_map_info[] =
   { SECT_UNDERWATER,   "\tbU"  },
   { SECT_BRIDGE,       "\tnB"  }, /* 10 */
   { SECT_CAVE,         "\tnB"  },
-  { SECT_GATEWAY,      "\TNG"  },
+  { SECT_GATEWAY,      "\tnG"  },
   { -1,                ""     },
   { -1,                ""     },
   { -1,                ""     }, /* 15 */
