@@ -30,7 +30,7 @@ S
 Sudha Samudra~
 You are in an unfinished room.
 ~
-56 0 0 0 0 7
+56 272 0 0 0 2
 D0
 ~
 ~
@@ -167,10 +167,10 @@ D7
 0 0 5613
 S
 #5611
-Sudha Samudra~
+Sudha Bridge~
 You are in an unfinished room.
 ~
-56 0 0 0 0 7
+56 272 0 0 0 2
 D0
 ~
 ~
@@ -939,6 +939,10 @@ D4
 ~
 ~
 0 0 5700
+D5
+~
+~
+0 0 394
 D6
 ~
 ~
