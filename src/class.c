@@ -46,22 +46,22 @@ const char *class_abbrevs[] = {
 };
 
 const char *class_types[] = {
-  "Client",
-  "Agent",
-  "Artist",
-  "Scientist",
-  "Engineer",
-  "Programmer",
-  "Hacker",
-  "Journalist",
-  "Legal",
-  "Politician",
-  "Medical",
-  "Security",
-  "Military",
-  "Monk",
-  "Priest",
-  "Royal",
+  "CLIENT",
+  "AGENT",
+  "ARTISAN",
+  "SCIENTIST",
+  "ENGINEER",
+  "PROGRAMMER",
+  "HACKER",
+  "JOURNALIST",
+  "LEGAL",
+  "POLITICIAN",
+  "MEDICAL",
+  "SECURITY",
+  "MILITARY",
+  "MONK",
+  "PRIEST",
+  "ROYAL",
   "\n"
 };
 
