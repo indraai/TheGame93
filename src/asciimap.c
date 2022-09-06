@@ -121,8 +121,8 @@ static struct map_info_type map_info[] =
   { SECT_WATER_NOSWIM, "\tc[\tb=\tc]\tn" },
   { SECT_FLYING,       "\tc[\tC^\tc]\tn" },
   { SECT_UNDERWATER,   "\tc[\tbU\tc]\tn" },
-  { SECT_BRIDGE,       "\tc[\tcB\tc]\tn"        }, /* 10 */
-  { -1,                ""        },
+  { SECT_BRIDGE,       "\tc[\tnB\tc]\tn" }, /* 10 */
+  { SECT_CAVE,         "\tc[\tnA\tc]\tn" },
   { -1,                ""        },
   { -1,                ""        },
   { -1,                ""        },
@@ -158,8 +158,8 @@ static struct map_info_type world_map_info[] =
   { SECT_WATER_NOSWIM, "\tb="  },
   { SECT_FLYING,       "\tC^"  },
   { SECT_UNDERWATER,   "\tbU"  },
-  { SECT_BRIDGE,       "\tcB"  }, /* 10 */
-  { -1,                ""     },
+  { SECT_BRIDGE,       "\tnB"  }, /* 10 */
+  { -SECT_CAVE,        "\tnB" },
   { -1,                ""     },
   { -1,                ""     },
   { -1,                ""     },

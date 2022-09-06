@@ -120,8 +120,9 @@
 #define SECT_FLYING	         8		/**< Flying			*/
 #define SECT_UNDERWATER	     9		/**< Underwater		*/
 #define SECT_BRIDGE   	     10		/**< bridge		*/
+#define SECT_CAVE     	     11		/**< bridge		*/
 /** The total number of room Sector Types */
-#define NUM_ROOM_SECTORS  11
+#define NUM_ROOM_SECTORS  12
 
 /* char and mob-related defines */
 

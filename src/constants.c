@@ -132,6 +132,7 @@ const char *sector_types[] = {
   "Flying",
   "Underwater",
   "Bridge",
+  "Cave",
   "\n"
 };
 
@@ -864,7 +865,9 @@ int movement_loss[] =
   4,	/* Swimming   */
   1,	/* Unswimable */
   1,	/* Flying     */
-  5   /* Underwater */
+  5,   /* Underwater */
+  3,   /* Bridge */
+  3,   /* Cave */
 };
 
 /** The names of the days of the mud week. Not used in sprinttype(). */
