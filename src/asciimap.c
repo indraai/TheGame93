@@ -501,7 +501,8 @@ static void perform_map( struct char_data *ch, char *argument, bool worldmap )
   map[centre][centre] = SECT_HERE;
 
   /* Feel free to put your own MUD name or header in here */
-  send_to_char(ch, " \tY-\tyMap\tY-\tn\r\n"
+  send_to_char(ch, "\n::begin:code\r"
+                   " \tY-\tyMap\tY-\tn\r\n"
                    "\tD  .-.__--.,--.__.-.\tn\r\n" );
 
   count += sprintf(buf + count, "\tn\tn\tn%s Up\\\\", door_info[NUM_DOOR_TYPES + DOOR_UP].disp);
@@ -516,7 +517,8 @@ static void perform_map( struct char_data *ch, char *argument, bool worldmap )
   count += sprintf(buf + count, "\tn%s Swim\\\\", map_info[SECT_WATER_SWIM].disp);
   count += sprintf(buf + count, "\tn%s Boat\\\\", map_info[SECT_WATER_NOSWIM].disp);
   count += sprintf(buf + count, "\tn%s Flying\\\\", map_info[SECT_FLYING].disp);
-  sprintf(buf + count, "\tn%s Underwater\\\\", map_info[SECT_UNDERWATER].disp);
+  count += sprintf(buf + count, "\tn%s Underwater\\\\", map_info[SECT_UNDERWATER].disp);
+  sprintf(buf + count, "\tn%s Bridge\\\\", map_info[SECT_BRIDGE].disp);
 
   strcpy(buf, strfrmt(buf, LEGEND_WIDTH, CANVAS_HEIGHT + 2, FALSE, TRUE, TRUE));
 
@@ -542,7 +544,8 @@ static void perform_map( struct char_data *ch, char *argument, bool worldmap )
   /* Print it all out */
   send_to_char(ch, "%s", buf2);
 
-  send_to_char(ch, "\tD `.-.__--.,-.__.-.-'\tn\r\n");
+  send_to_char(ch, "\tD `.-.__--.,-.__.-.-'\tn\r\n"
+                   "\n::end:code");
   return;
 }
 
@@ -603,14 +606,14 @@ static bool show_worldmap(struct char_data *ch) {
 
 ACMD(do_map) {
   if (!can_see_map(ch)) {
-    send_to_char(ch, "Sorry, the map is disabled!\r\n");
+    send_to_char(ch, "\ninfo:Sorry, the map is disabled!\r");
     return;
   }
   if (IS_DARK(IN_ROOM(ch)) && !CAN_SEE_IN_DARK(ch)) {
-    send_to_char(ch, "It is too dark to see the map.\r\n");
+    send_to_char(ch, "\ninfo:It is too dark to see the map.\r");
     return;
   } else if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT) {
-    send_to_char(ch, "You can't see the map while blind!\r\n");
+    send_to_char(ch, "\ninfo:You can't see the map while blind!\r");
     return;
   }
   perform_map(ch, argument, show_worldmap(ch));
