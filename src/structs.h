@@ -119,8 +119,9 @@
 #define SECT_WATER_NOSWIM    7		/**< Water - need a boat	*/
 #define SECT_FLYING	         8		/**< Flying			*/
 #define SECT_UNDERWATER	     9		/**< Underwater		*/
+#define SECT_BRIDGE   	     10		/**< bridge		*/
 /** The total number of room Sector Types */
-#define NUM_ROOM_SECTORS  10
+#define NUM_ROOM_SECTORS  11
 
 /* char and mob-related defines */
 

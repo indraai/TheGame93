@@ -131,6 +131,7 @@ const char *sector_types[] = {
   "Water (No Swim)",
   "Flying",
   "Underwater",
+  "Bridge"
   "\n"
 };
 
