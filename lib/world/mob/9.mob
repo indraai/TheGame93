@@ -724,13 +724,13 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #938
-trainer training 938 James Parry hacker human~
-James 938~
+james parry kibo hacker robot tyler z9~
+Kibo 938~
 938/main:avatar~
 938/main:look~
-74 0 0 0 0 0 0 0 -222 E
-4 19 7 0d0+40 1d2+0
-40 1600
+2072 0 0 0 2056 0 0 0 0 E
+7 18 5 1d1+70 1d2+1
+70 4900
 8 8 1 1 0
 SavingPara: 1
 SavingRod: 1
@@ -739,20 +739,20 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #939
-trainer training 939 xibo~
+xibo hacker robot tyler z9~
 Xibo 939~
 939/main:avatar~
 939/main:look
 ~
-74 0 0 0 0 0 0 0 -222 E
-5 19 7 1d1+50 1d2+0
-50 2500
+2072 0 0 0 2056 0 0 0 0 E
+13 16 2 2d2+130 2d2+2
+130 16900
 8 8 0 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #940
 trainer training 940 eric hughes cypherpunk eotl amshey hacker human~
