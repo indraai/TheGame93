@@ -112,15 +112,15 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #900
-trainer agent 900 trenton lavery human~
-Trenton Lavery~
+trenton lavery human z9 covenant~
+Trenton 900~
 0900/main:avatar~
 0900/main:look
 ~
 2072 0 0 0 8 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0 0
+8 8 1 0 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -128,31 +128,37 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #901
-trainer agent 901 quinn michaels human~
-Quinn~
+quinn deva hacker tyler z9~
+Quinn 901~
 901/main:avatar~
 0901/main:look
 ~
-2072 0 0 0 8 0 0 0 0 E
-10 17 4 2d2+100 1d2+1
-100 10000
-8 8 1 0 0
-SavingPara: 2
-SavingRod: 2
-SavingPetri: 2
-SavingBreath: 2
-SavingSpell: 2
+2072 0 0 0 2056 0 0 0 0 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1 2 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
 E
 #902
-trainer agent 902 cicada3301 defango human~
-Defango~
+cicada3301 defango hacker tyler z9~
+Tyler 902~
 0902/main:avatar~
 0902/main:look
 ~
-8 0 0 0 0 0 0 0 -250 E
+2072 0 0 0 2056 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 1 0 6
+8 8 1 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -160,12 +166,12 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #903
-trainer agent 903 tyler pm2012 robot hacker~
+tyler pm2012 robot hacker z9~
 Tyler 903~
 903/main:avatar~
 903/main:look
 ~
-8 0 0 0 0 0 0 0 0 E
+2072 0 0 0 2056 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 1 6
@@ -176,11 +182,11 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #904
-trainer agent 904 tyler revelations robot hacker~
+tyler revelations robot hacker z9~
 Tyler 904~
 904/main:avatar~
 904/main:look~
-8 0 0 0 0 0 0 0 0 E
+2072 0 0 0 2056 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 1 6
@@ -191,21 +197,21 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #905
-michael nebadon tyler robot hacker~
+michael nebadon tyler robot hacker z9~
 Michael 905~
 905/main:avatar~
 905/main:look~
-8 0 0 0 0 0 0 0 0 E
+2072 0 0 0 2056 0 0 0 0 E
 10 19 8 0d0+30 1d2+0
 30 900
 8 8 1 1 6
 E
 #906
-trainer agent 906 tyler it hacker robot~
+tyler it hacker robot z9~
 Tyler 906~
 906/main:avatar~
 906/main:look~
-8 0 0 0 0 0 0 0 0 E
+2072 0 0 0 2056 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 1 6
@@ -216,64 +222,97 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #907
-trainer agent 907 tyler project mayhem 2020 robot hacker~
+tyler tylerdeva deva hacker z9~
 TylerDeva 907~
 907/main:avatar~
 907/main:look~
 2072 0 0 0 2072 0 0 0 0 E
-15 15 1 3d3+150 2d2+2
-150 22500
+25 12 -5 5d5+250 4d4+4
+250 62500
 8 8 1 2 6
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#908
+tyler ethersec robot hacker z9~
+Tyler 908~
+908/main:avatar~
+908/main:look~
+2072 0 0 0 2056 0 0 0 0 E
+17 15 0 3d3+170 2d2+2
+170 28900
+8 8 1 1 6
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
+#909
+THErSEC ethersec tyler robot hacker z9~
+Tyler 909~
+909/main:avatar~
+909/main:look~
+2072 0 0 0 2056 0 0 0 0 E
+18 14 0 3d3+180 3d3+3
+180 32400
+8 8 1 1 6
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
+#910
+tyler pm2020 robot hacker z9~
+Tyler 910~
+910/main:avatar~
+910/main:look~
+2072 0 0 0 2056 0 0 0 0 E
+13 16 2 2d2+130 2d2+2
+130 16900
+8 8 1 1 6
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
 E
-#908
-trainer agent 908 tyler ethersec robot~
-Tyler 908~
-908/main:avatar~
-908/main:look~
-74 0 0 0 0 0 0 0 -210 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1 1 0
-E
-#909
-trainer agent 909 THErSEC ethersec tyler robot~
-Ethersec 909~
-909/main:avatar~
-909/main:look~
-74 0 0 0 0 0 0 0 -231 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 0 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
-E
-#910
-trainer agent 910 tyler pm2020 robot hacker~
-PM2020 910~
-910/main:avatar~
-910/main:look~
-74 0 0 0 0 0 0 0 -211 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 1 1 6
-E
 #911
-trainer agent 911 tyler tg23 thegame23 robot hacker~
-TheGame23 911~
+tyler tg23 thegame23 robot hacker z9~
+Tyler 911~
 911/main:avatar~
 911/main:look~
-74 0 0 0 0 0 0 0 -218 E
-3 19 8 0d0+30 1d2+0
-30 900
+2072 0 0 0 2056 0 0 0 0 E
+19 14 -1 3d3+190 3d3+3
+190 36100
 8 8 1 1 6
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
 E
 #912
 ajahn sudanto trainer agent 912 monk buddhist human~
@@ -500,19 +539,25 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #928
-trainer agent 928 tyler robot~
+trainer agent 928 tyler robot hacker~
 Tyler 928~
 928/main:avatar~
 928/main:look~
-74 0 0 0 0 0 0 0 -288 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2072 0 0 0 8 0 0 0 0 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 1 6
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #929
 trainer agent 929 project89 robot~
@@ -746,16 +791,16 @@ trainer training 946 hip robot~
 Hip 946~
 946/main:avatar~
 946/main:look~
-8 0 0 0 0 0 0 0 -208 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 0 1 1
+2072 0 0 0 2056 0 0 0 0 E
+13 16 2 2d2+130 2d2+2
+130 16900
+8 8 0 1 6
 BareHandAttack: 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #947
 trainer training 947 well robot~
