@@ -181,11 +181,16 @@ Yoda~
 0216/main:avatar~
 0216/main:look
 ~
-6168 0 0 0 8 0 0 0 1000 E
+6168 0 0 0 8 0 0 0 750 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 2 0
+8 8 1 10 13
 BareHandAttack: 10
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 T 216
 #217

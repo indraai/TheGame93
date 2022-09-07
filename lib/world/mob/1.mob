@@ -348,14 +348,14 @@ SecurityDEVA D122 (Lookout)~
 8 8 1 2 11
 E
 #123
-idne deva deity~
+idne deva deity royal celestial~
 Idne~
 123/main:avatar~
 talk:#adv agent/thegame 123/main:look~
-260376 0 0 0 2168 0 0 0 1000 E
+260120 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 6 6
+8 8 1 2 15
 BareHandAttack: 9
 Str: 18
 Dex: 18
@@ -497,15 +497,15 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #134
-red master deva~
-Red Master Deva~
+red deva monk~
+Red Deva~
 0134/main:avatar~
 0134/main:look
 ~
-6168 0 0 0 16 0 0 0 500 E
+6168 0 0 0 2064 0 0 0 500 E
 26 12 -5 5d5+260 4d4+4
 260 67600
-8 8 0 5 5
+8 8 0 2 13
 BareHandAttack: 5
 Str: 17
 Dex: 17
@@ -565,14 +565,14 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #137
-gomati visvedevas deity~
-Gomati~
+black deva monk~
+Black Deva~
 0137/main:avatar~
 0137/main:look~
-6168 0 0 0 16 0 0 0 500 E
+6168 0 0 0 2064 0 0 0 500 E
 25 12 -5 5d5+250 4d4+4
 250 62500
-8 8 6 5 5
+8 8 0 2 13
 BareHandAttack: 6
 Str: 16
 Dex: 16
@@ -694,14 +694,14 @@ Black Master Deva~
 BareHandAttack: 1
 E
 #145
-ganga visvedevas deity~
-Ganga~
+yellow deva monk~
+Yellow Deva~
 0145/main:avatar~
 0145/main:look~
-6168 0 0 0 2048 0 0 0 500 E
+6168 0 0 0 2064 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 6 4 4
+8 8 0 2 13
 Str: 14
 Dex: 14
 Int: 14

@@ -15,11 +15,15 @@ S
 Patala~
 You are in an unfinished room.
 ~
-40 25 0 0 0 0
+40 25 0 0 0 11
 D1
 ~
 ~
 0 0 4000
+D2
+~
+~
+0 0 4006
 D3
 ~
 ~
@@ -29,11 +33,15 @@ S
 Patala~
 You are in an unfinished room.
 ~
-40 9 0 0 0 0
+40 9 0 0 0 11
 D1
 ~
 ~
 0 0 4001
+D2
+~
+~
+0 0 4005
 D3
 ~
 ~
@@ -43,7 +51,7 @@ S
 Patala~
 You are in an unfinished room.
 ~
-40 8 0 0 0 11
+40 9 0 0 0 11
 D1
 ~
 ~
@@ -72,9 +80,31 @@ Patala~
 You are in an unfinished room.
 ~
 40 9 0 0 0 11
+D0
+~
+~
+0 0 4002
+D1
+~
+~
+0 0 4006
 D3
 ~
 ~
 0 0 4004
+S
+#4006
+Patala~
+You are in an unfinished room.
+~
+40 9 0 0 0 11
+D0
+~
+~
+0 0 4001
+D3
+~
+~
+0 0 4005
 S
 $~
