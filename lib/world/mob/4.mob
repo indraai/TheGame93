@@ -1,5 +1,5 @@
 #400
-evil christian jesus priest~
+evil christian jesus priest prison prisoner covenant~
 Jesus~
 400/main:avatar~
 400/main:look~
@@ -20,7 +20,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #401
-harold hal atkin prison prisoner evil~
+harold hal atkin prison prisoner evil covenant~
 Harold Atkin~
 401/main:avatar~
 401/main:look~
@@ -35,7 +35,7 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #402
-sharon schamber prison prisoner evil~
+sharon schamber prison prisoner evil covenant~
 Sharon Schamber~
 402/main:avatar~
 402/main:look~
@@ -48,5 +48,68 @@ SavingRod: 2
 SavingPetri: 2
 SavingBreath: 2
 SavingSpell: 2
+E
+#403
+dewity prison prisoner evil covenant~
+Mr. Dewity~
+403/main:avatar~
+403/main:look~
+584 0 0 0 8 0 0 0 -1000 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 0 1
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#404
+sirisys sirisysprime prison prisoner covenant~
+SirisysPRIME~
+404/main:avatar~
+404/main:look~
+584 0 0 0 8 0 0 0 -1000 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 2 1 1
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#405
+pr0n evil covenant prison prisoner~
+pr0n~
+405/main:avatar~
+405/main:look~
+584 0 0 0 8 0 0 0 -1000 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 0 1 1
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 $
