@@ -10,6 +10,10 @@ D2
 ~
 ~
 0 0 390
+D3
+~
+~
+0 0 407
 S
 #401
 Harold Prison~
@@ -72,9 +76,41 @@ Pr0n Prison~
 You are in an unfinished room.
 ~
 4 8 0 0 0 0
+D0
+~
+~
+0 0 406
 D1
 ~
 ~
 0 0 404
+S
+#406
+Prison Cell~
+You are in an unfinished room.
+~
+4 8 0 0 0 0
+D0
+~
+~
+0 0 407
+D2
+~
+~
+0 0 405
+S
+#407
+Prison Cell~
+You are in an unfinished room.
+~
+4 8 0 0 0 0
+D1
+~
+~
+0 0 400
+D2
+~
+~
+0 0 406
 S
 $~
