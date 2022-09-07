@@ -1091,19 +1091,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #966
-trainer training 966 vladimir putin human russia kgb~
+vladimir putin human russia robot hacker z9~
 Vladimir 966~
 966/main:avatar~
 966/main:look~
-74 0 0 0 0 0 0 0 -600 E
-13 16 2 2d2+130 2d2+2
-130 16900
-8 8 1 0 2
-SavingPara: 3
-SavingRod: 3
-SavingPetri: 3
-SavingBreath: 3
-SavingSpell: 3
+2072 0 0 0 2056 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 1 6
 E
 #967
 russianbot robot russia hacker z9~
