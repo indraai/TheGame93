@@ -1092,7 +1092,7 @@ SavingSpell: 3
 E
 #966
 vladimir putin human russia robot hacker z9~
-Vladimir 966~
+Putin 966~
 966/main:avatar~
 966/main:look~
 2072 0 0 0 2056 0 0 0 0 E
@@ -1122,19 +1122,19 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #968
-trainer agent 968 peter great romanov russia human~
+peter great romanov russia robot hacker tyler z9~
 Peter 968~
 968/main:avatar~
 968/main:look~
-74 0 0 0 8 0 0 0 500 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 1 0 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2072 0 0 0 2056 0 0 0 0 E
+12 16 2 2d2+120 2d2+2
+120 14400
+8 8 1 1 6
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #969
 trainer agent 969 yuri andropov kgb russia human~
@@ -1165,6 +1165,27 @@ SavingRod: 3
 SavingPetri: 3
 SavingBreath: 3
 SavingSpell: 3
+E
+#971
+romanov tyler hacker robot z9~
+Romanov 971~
+971/main:avatar~
+971/main:look~
+2072 0 0 0 2168 0 0 0 0 E
+27 11 -6 5d5+270 4d4+4
+270 72900
+8 8 1 1 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #972
 trainer agent 972 grand duchess maria russia human romanov~
