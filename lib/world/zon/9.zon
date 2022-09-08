@@ -2,6 +2,9 @@
 Quinn~
 Arjika Training~
 800 999 30 2 d 0 0 0 1 -1
+M 0 925 1 925 	(Peter 925)
+R 0 925 925 -1 	(Founders Fund Training)
+O 1 925 25 925 	(Founders Fund Training)
 M 0 939 1 939 	(Xibo 939)
 R 0 939 939 -1 	(Evil Training)
 O 1 939 25 939 	(Evil Training)
@@ -51,9 +54,6 @@ O 1 927 25 927 	(Ghostnet Training)
 M 0 926 1 926 	(Alex 926)
 R 0 926 926 -1 	(Palantir Lawsuit)
 O 1 926 25 926 	(Palantir Lawsuit)
-M 0 925 1 925 	(Peter 925)
-R 0 925 925 -1 	(Founders Fund Training)
-O 1 925 25 925 	(Founders Fund Training)
 M 0 924 1 924 	(Auren 924)
 R 0 924 924 -1 	(RapLeaf Training)
 O 1 924 25 924 	(RapLeaf Training)
