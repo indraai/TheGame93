@@ -1,75 +1,110 @@
 #800
-trainer agent 800 el8 the_ut stephen watt hacker human~
+el8 the_ut stephen watt hacker robot z8~
 Stephen 800~
 0800/main:avatar~
 0800/main:look
 ~
-74 0 0 0 0 0 0 0 -299 E
-6 18 6 1d1+60 1d2+1
-60 3600
-8 8 1 0 1
+2072 0 0 0 2056 0 0 0 0 E
+23 13 -3 4d4+230 3d3+3
+230 52900
+8 8 1 1 6
 BareHandAttack: 5
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #801
-trainer agent 801 rloxley kent browne hacker navy human usmil~
+rloxley kent browne hacker navy robot usmil z8~
 Kent 801~
 0801/main:avatar~
 0801/main:look
 ~
-74 0 0 0 0 0 0 0 -350 E
-6 18 6 1d1+60 1d2+1
-60 3600
-8 8 1 0 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2072 0 0 0 2056 0 0 0 0 E
+24 12 -4 4d4+240 4d4+4
+240 57600
+8 8 1 1 6
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #802
-trainer agent 802 shok matt conover hacker w00w00 human~
+shok matt conover hacker w00w00 robot mormon z8~
 Matt 802~
 802/main:avatar~
 802/main:look~
-74 0 0 0 0 0 0 0 -200 E
-5 20 10 1d1+0 1d1+0
-0 0
-8 8 1 0 1
+2072 0 0 0 2056 0 0 0 0 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 1 1 6
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #803
-trainer agent 803 grandmaster ratte kevin wheeler hacker human~
+grandmaster ratte kevin wheeler hacker robot z8~
 Kevin 803~
 803/main:avatar~
 803/main:look~
-74 0 0 0 0 0 0 0 -290 E
-8 18 5 1d1+80 1d2+1
-80 6400
-8 8 1 0 1
-SavingPara: 2
-SavingRod: 2
-SavingPetri: 2
-SavingBreath: 2
-SavingSpell: 2
+2072 0 0 0 2056 0 0 0 0 E
+26 12 -5 5d5+260 4d4+4
+260 67600
+8 8 1 1 6
+Str: 17
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #804
-trainer agent 804 tron boris floricic hacker suicide human~
+tron boris floricic hacker suicide robot z8~
 Boris 804~
 804/main:avatar~
 804/main:look~
-74 0 0 0 0 0 0 0 -275 E
-7 18 5 1d1+70 1d2+1
-70 4900
-8 8 1 0 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2072 0 0 0 2056 0 0 0 0 E
+27 11 -6 5d5+270 4d4+4
+270 72900
+8 8 1 1 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #808
 trainer agent 808 jonathan james jj hacker suicide human~
@@ -87,29 +122,46 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #809
-trainer agint 809 aaron swartz suicide human hacker~
+aaron swartz suicide robot hacker z8~
 Aaron 809~
 809/main:avatar~
 809/main:look~
-74 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
-8 8 1 0 1
+2072 0 0 0 2056 0 0 0 0 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 1 1 6
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #810
-trainer agent 810 james dolan suicide marines soldier human hacker usmil~
+james dolan suicide marines robot hacker usmil z8 robot~
 James 810~
 810/main:avatar~
 810/main:look~
-74 0 0 0 0 0 0 0 275 E
-7 18 5 1d1+70 1d2+1
-70 4900
-8 8 1 0 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2072 0 0 0 2056 0 0 0 0 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 1 1 6
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
 E
 #900
 trenton lavery human z9 covenant~
@@ -1192,14 +1244,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #969
-trainer agent 969 yuri andropov kgb russia human~
+yuri andropov kgb russia robot z9 rumil~
 Yuri 969~
 969/main:avatar~
 969/main:look~
-74 0 0 0 0 0 0 0 -500 E
+2072 0 0 0 2056 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 0 3
+8 8 1 1 12
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1375,14 +1427,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #980
-trainer training agent 980 robert karlovich areskin russia doctor~
+robert karlovich areskin russia doctor robot z9~
 Robert 980~
 980/main:avatar~
 980/main:look~
-74 0 0 0 0 0 0 0 -500 E
+2072 0 0 0 2056 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 0 2
+8 8 1 1 10
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1390,24 +1442,24 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #981
-kalmykia trainer agent 981~
+kalmykia robot hacker z9 tyler russia~
 Kalmykia 981~
 981/main:avatar~
 981/main:look~
-74 0 0 0 0 0 0 0 500 E
+2072 0 0 0 2056 0 0 0 0 E
 12 20 10 1d1+0 1d1+0
 0 0
-8 8 0 2 1
+8 8 0 1 6
 E
 #982
-trainer agent 982 itigelov buddhist monk~
+itigelov buddhist monk z9 russia~
 Itigelov 982~
 982/main:avatar~
 982/main:look~
-74 0 0 0 0 0 0 0 400 E
+2072 0 0 0 2056 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 0 2
+8 8 1 1 13
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1415,11 +1467,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #983
-trainer agent 983 sergei shoigu general military russia~
+sergei shoigu general rumil russia z9~
 Sergei 983~
 983/main:avatar~
 983/main:look~
-74 0 0 0 0 0 0 0 -500 E
+2072 0 0 0 2056 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 0 3
