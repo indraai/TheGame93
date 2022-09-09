@@ -373,14 +373,19 @@ FBI Agent~
 BareHandAttack: 9
 E
 #916
-trainer agent 916 robert david steele steeler hacker human marines usmil~
+robert david steele steeler hacker robot marines usmil z9~
 Robert 916~
 916/main:avatar~
 916/main:look~
-74 0 0 0 0 0 0 0 -192 E
-3 20 10 1d1+0 1d1+0
-0 0
-8 8 1 0 1
+2072 0 0 0 2056 0 0 0 0 E
+13 16 2 2d2+130 2d2+2
+130 16900
+8 8 1 1 6
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
 E
 #917
 trainer agent 917 pm2012 hacker robot z9~
@@ -1075,11 +1080,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #962
-trainer training 962 agent jason goodman crowdsource human~
+jason goodman crowdsource robot hacker z9~
 Jason 962~
 962/main:avatar~
 962/main:look~
-74 0 0 0 0 0 0 0 -400 E
+2072 0 0 0 2056 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
 80 6400
 8 8 1 0 1
@@ -1196,14 +1201,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #970
-trainer agent 970 patriarch orthodox russia kirill human~
+patriarch orthodox russia kirill robot priest z9~
 Kirill 970~
 970/main:avatar~
 970/main:look~
-74 0 0 0 0 0 0 0 -1000 E
+2072 0 0 0 2056 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 0 3
+8 8 1 1 14
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1232,14 +1237,14 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #972
-trainer agent 972 grand duchess maria russia human romanov~
+grand duchess maria russia robot romanov z9~
 Maria 972~
 972/main:avatar~
 972/main:look~
-74 0 0 0 0 0 0 0 -1000 E
+2072 0 0 0 2056 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 0 1
+8 8 2 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
