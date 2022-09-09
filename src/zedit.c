@@ -71,12 +71,12 @@ ACMD(do_oasis_zedit)
       }
 
       if (number == NOWHERE) {
-        send_to_char(ch, "Save which zone?\r\n");
+        send_to_char(ch, "\np:Save which zone?\r");
         return;
       }
     } else if (GET_LEVEL(ch) >= LVL_IMPL) {
       if (str_cmp("new", buf1) || !stop || !*stop)
-        send_to_char(ch, "\nformat: zedit new <zone number> <bottom-room> <upper-room>\r");
+        send_to_char(ch, "\nformat: zedit new [zone number] [bottom-room] [upper-room]\r");
       else {
         if (atoi(stop) < 0 || atoi(sbot) < 0) {
           send_to_char(ch, "\nerror: Zones cannot contain negative vnums.\r");
@@ -531,7 +531,7 @@ static void zedit_disp_menu(struct descriptor_data *d)
         MYCMD.sarg2);
       break;
     default:
-      write_to_output(d, "<Unknown Command>");
+      write_to_output(d, "[Unknown Command]");
       break;
     }
     write_to_output(d, "\r\n");
@@ -577,14 +577,14 @@ static void zedit_disp_arg1(struct descriptor_data *d)
 
   switch (OLC_CMD(d).command) {
   case 'M':
-    write_to_output(d, "\nWhat is the Agent VNUM?\r");
+    write_to_output(d, "\np:What is the Agent VNUM?\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'O':
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nWhat is the Object VNUM?\r");
+    write_to_output(d, "\np:What is the Object VNUM?\r");
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
   case 'D':
@@ -625,7 +625,7 @@ static void zedit_disp_arg2(struct descriptor_data *d)
   case 'E':
   case 'P':
   case 'G':
-    write_to_output(d, "\nHow many can exist? (1-99)\r");
+    write_to_output(d, "\np:How many can exist? (1-99)\r");
     break;
   case 'D':
     write_to_output(d, "\n## Exit Direction\r"
@@ -635,16 +635,16 @@ static void zedit_disp_arg2(struct descriptor_data *d)
     }
     write_to_output(d, "::end:buttons");
 
-    write_to_output(d, "\nWhat is the Exit Number?\r");
+    write_to_output(d, "\np:What is the Exit Number?\r");
     break;
   case 'R':
-    write_to_output(d, "\nWhat is the Object's VNUM?\r");
+    write_to_output(d, "\np:What is the Object's VNUM?\r");
     break;
   case 'T':
-    write_to_output(d, "What is the Trigger VNUM?\r");
+    write_to_output(d, "\np:What is the Trigger VNUM?\r");
     break;
   case 'V':
-    write_to_output(d, "\nWhat is the context? (0 for none)\r");
+    write_to_output(d, "\np:What is the context? (0 for none)\r");
     break;
   default:
     /* We should never get here, but just in case.  */
@@ -677,7 +677,7 @@ static void zedit_disp_arg3(struct descriptor_data *d)
     write_to_output(d, "\n::end:buttons\r");
     break;
   case 'P':
-    write_to_output(d, "\nWhat is the Container VNUM?\r");
+    write_to_output(d, "\np:What is the Container VNUM?\r");
     break;
   case 'D':
     write_to_output(d,
@@ -749,7 +749,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      write_to_output(d, "\nInvalid choice!\r");
+      write_to_output(d, "\ninfo:Invalid choice!\r");
       write_to_output(d, "%s", confirm_msg);
       break;
     }
@@ -769,7 +769,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'a':
       /* Edit zone builders. */
-      write_to_output(d, "\nWho is the zone builder?\r"
+      write_to_output(d, "\np:Who is the zone builder?\r"
         "\ncurrent: %s\r",
         OLC_ZONE(d)->builders ? OLC_ZONE(d)->builders : "None.");
 
@@ -777,7 +777,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'b':
       /* Edit zone name. */
-      write_to_output(d, "\nWhat is the zone name?\r"
+      write_to_output(d, "\np:What is the zone name?\r"
         "\ncurrent: %s\r",
         OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "None.");
 
@@ -785,7 +785,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       break;
     case 'c':
       /* Edit zone lifespan. */
-      write_to_output(d, "\nWhat is the zone lifespan (min)?\r"
+      write_to_output(d, "\np:What is the zone lifespan (min)?\r"
         "\ncurrent: %d\r",
         OLC_ZONE(d)->lifespan);
 
@@ -797,7 +797,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
         zedit_disp_menu(d);
       }
       else {
-        write_to_output(d, "\nWhere does the zone begin?\r"
+        write_to_output(d, "\np:Where does the zone begin?\r"
           "\ncurrent:%d\r",
           OLC_ZONE(d)->bot);
 
@@ -809,7 +809,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       if (GET_LEVEL(d->character) < LVL_IMPL)
         zedit_disp_menu(d);
       else {
-	      write_to_output(d, "\nWhere does the zone end?\r"
+	      write_to_output(d, "\np:Where does the zone end?\r"
           "\ncurrent:%d",
           OLC_ZONE(d)->top);
 	      OLC_MODE(d) = ZEDIT_ZONE_TOP;
@@ -842,12 +842,12 @@ void zedit_parse(struct descriptor_data *d, char *arg)
           break;
         }
       }
-      write_to_output(d, "\nWhat is the new action number?\r");
+      write_to_output(d, "\np:What is the new action number?\r");
       OLC_MODE(d) = ZEDIT_NEW_ENTRY;
       break;
     case '2':
       /* Change an entry. */
-      write_to_output(d, "\nChange which action??\r");
+      write_to_output(d, "\np:Change which action?\r");
       OLC_MODE(d) = ZEDIT_CHANGE_ENTRY;
       break;
     case '3':
@@ -865,11 +865,11 @@ void zedit_parse(struct descriptor_data *d, char *arg)
 /*-------------------------------------------------------------------*/
   case ZEDIT_LEVELS:
     switch (*arg) {
-    case '1': write_to_output(d, "\nMin level for zone (0-%d, -1 = none)...", (LVL_IMMORT-1));
+    case '1': write_to_output(d, "\np:Min level for zone (0-%d, -1 = none)...", (LVL_IMMORT-1));
               OLC_MODE(d) = ZEDIT_LEV_MIN;
               break;
 
-    case '2': write_to_output(d, "\nMax level for zone (0-%d, -1 = none)...", (LVL_IMMORT-1));
+    case '2': write_to_output(d, "\np:Max level for zone (0-%d, -1 = none)...", (LVL_IMMORT-1));
               OLC_MODE(d) = ZEDIT_LEV_MAX;
               break;
 
@@ -960,7 +960,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
           OLC_CMD(d).if_flag = 1;
           zedit_disp_arg1(d);
         } else {
-	        write_to_output(d, "\nDoes this depend on previous success?\r"
+	        write_to_output(d, "\np:Does this depend on previous success?\r"
           "\n%s\r", confirm_btn);
           OLC_MODE(d) = ZEDIT_IF_FLAG;
         }
