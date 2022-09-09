@@ -383,7 +383,7 @@ static void zedit_disp_flag_menu(struct descriptor_data *d)
   sprintbitarray(OLC_ZONE(d)->zone_flags, zone_bits, ZN_ARRAY_MAX, bits);
   write_to_output(d,
     "\nflags: %s\r"
-    "\nmenu[close]:0\r", bits);
+    "\nmenu[done]:0\r", bits);
   OLC_MODE(d) = ZEDIT_ZONE_FLAGS;
 }
 
@@ -556,15 +556,17 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
   "\n## Action Type\r"
-  "\nmenu[Load Agent]:m\r"
-  "\nmenu[Equip Agent Object]:e\r"
-  "\nmenu[Give Agent Object]:g"
-  "\nmenu[Load Object]:o\r"
-  "\nmenu[Load Object in Object]:p\r"
-  "\nmenu[Remove Object]:r\r"
-  "\nmenu[Open/Close/Lock Door]:d\r"
-  "\nmenu[Assign Trigger]:t\r"
-  "\nmenu[Global Variable]:v"
+  "\n::begin:buttons\r"
+  "\nbmud[Load Agent]:m\r"
+  "\nbmud[Equip Agent Object]:e\r"
+  "\nbmud[Give Agent Object]:g"
+  "\nbmud[Load Object]:o\r"
+  "\nbmud[Load Object in Object]:p\r"
+  "\nbmud[Remove Object]:r\r"
+  "\nbmud[Open/Close/Lock Door]:d\r"
+  "\nbmud[Assign Trigger]:t\r"
+  "\nbmud[Global Variable]:v\r"
+  "\n::end:buttons\r"
 	);
   OLC_MODE(d) = ZEDIT_COMMAND_TYPE;
 }
