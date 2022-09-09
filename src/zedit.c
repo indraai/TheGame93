@@ -392,7 +392,7 @@ static bool zedit_get_levels(struct descriptor_data *d, char *buf)
 {
   /* Create a string for the recommended levels for this zone. */
   if ((OLC_ZONE(d)->min_level == -1) && (OLC_ZONE(d)->max_level == -1)) {
-    sprintf(buf, "<Not Set!>");
+    sprintf(buf, "Not Set");
     return FALSE;
   }
 
@@ -406,7 +406,7 @@ static bool zedit_get_levels(struct descriptor_data *d, char *buf)
     return TRUE;
   }
 
-  sprintf(buf, "Levels %d to %d", OLC_ZONE(d)->min_level, OLC_ZONE(d)->max_level);
+  sprintf(buf, "Level %d - %d", OLC_ZONE(d)->min_level, OLC_ZONE(d)->max_level);
   return TRUE;
 }
 
@@ -556,17 +556,15 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
   "\n## Action Type\r"
-  "\n::begin:buttons\r"
-  "\nbmud[Load Agent]:m\r"
-  "\nbmud[Equip Agent Object]:e\r"
-  "\nbmud[Give Agent Object]:g"
-  "\nbmud[Load Object]:o\r"
-  "\nbmud[Load Object in Object]:p\r"
-  "\nbmud[Remove Object]:r\r"
-  "\nbmud[Open/Close/Lock Door]:d\r"
-  "\nbmud[Assign Trigger]:t\r"
-  "\nbmud[Global Variable]:v\r"
-  "\n::end:buttons\r"
+  "\nmenu[Load Agent]:m\r"
+  "\nmenu[Equip Agent Object]:e\r"
+  "\nmenu[Give Agent Object]:g"
+  "\nmenu[Load Object]:o\r"
+  "\nmenu[Load Object in Object]:p\r"
+  "\nmenu[Remove Object]:r\r"
+  "\nmenu[Open/Close/Lock Door]:d\r"
+  "\nmenu[Assign Trigger]:t\r"
+  "\nmenu[Global Variable]:v\r"
 	);
   OLC_MODE(d) = ZEDIT_COMMAND_TYPE;
 }
