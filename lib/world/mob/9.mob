@@ -1247,14 +1247,19 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #973
-trainer agent 973 george mikhailovich russia human romanov~
+george mikhailovich russia robot romanov z9~
 George 973~
 973/main:avatar~
 973/main:look~
-74 0 0 0 0 0 0 0 0 E
-0 20 10 1d1+0 1d1+0
-0 0
+2072 0 0 0 2056 0 0 0 0 E
+7 18 5 1d1+70 1d2+1
+70 4900
 8 8 1 0 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #974
 jeffrey epstein suicide robot hacker z9 tyler~
