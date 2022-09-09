@@ -2,6 +2,9 @@
 Quinn~
 Arjika Training~
 800 999 30 2 d 0 0 0 1 -1
+M 0 808 1 808 	(Jonathan 808)
+R 0 808 808 -1 	(Jonathan Jones Training)
+O 1 808 25 808 	(Jonathan Jones Training)
 M 0 810 1 810 	(James 810)
 R 0 810 810 -1 	(James Dolan Training)
 O 1 810 25 810 	(James Dolan Training)
@@ -253,8 +256,6 @@ M 0 960 1 960 	(SpoonKids Security)
 M 0 984 1 984 	(QAnon 984)
 M 0 946 1 946 	(Hip 946)
 O 0 946 25 946 	(HIP Training)
-M 0 808 1 808 	(Jonathan 808)
-O 0 808 25 808 	(Jonathan Jones Training)
 M 0 802 1 802 	(Matt 802)
 O 0 802 25 802 	(W00W00 Training)
 M 0 978 1 978 	(Natasha 978)

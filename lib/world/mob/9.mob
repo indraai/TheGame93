@@ -107,19 +107,25 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #808
-trainer agent 808 jonathan james jj hacker suicide human~
+jonathan james jj hacker suicide robot z8~
 Jonathan 808~
 808/main:avatar~
 808/main:look~
-74 0 0 0 0 0 0 0 275 E
-6 18 6 1d1+60 1d2+1
-60 3600
-8 8 1 0 6
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
+2072 0 0 0 2056 0 0 0 275 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 1 1 6
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #809
 aaron swartz suicide robot hacker z8~
