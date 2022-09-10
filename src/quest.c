@@ -53,7 +53,7 @@ static const char *quest_mort_usage =
   "Usage: quest list | history | progress | join <nn> | leave";
 
 static const char *quest_imm_usage =
-  "Usage: quest list | history | progress | join <nn> | leave | status <vnum>";
+  "Usage: quest list | history | progress | join <nn> | leave | status [vnum]";
 
 /*--------------------------------------------------------------------------*/
 /* Utility Functions                                                        */
@@ -300,13 +300,16 @@ void generic_complete_quest(struct char_data *ch)
       happy_qp = MAX(happy_qp, 0);
       GET_QUESTPOINTS(ch) += happy_qp;
       send_to_char(ch,
-          "%s\r\nYou have been awarded %d quest points for your service.\r\n",
+          "\np:%s\r"
+          "\npoints:You have been awarded %d quest points for your service.\r",
           QST_DONE(rnum), happy_qp);
 	} else {
       GET_QUESTPOINTS(ch) += QST_POINTS(rnum);
       send_to_char(ch,
-          "%s\r\nYou have been awarded %d quest points for your service.\r\n",
-          QST_DONE(rnum), QST_POINTS(rnum));
+          "\np:%s\r"
+          "\npoints:You have been awarded %d quest points for your service.\r",
+          QST_DONE(rnum),
+          QST_POINTS(rnum));
     }
     if (QST_GOLD(rnum)) {
       if ((IS_HAPPYHOUR) && (IS_HAPPYGOLD)) {
@@ -459,16 +462,19 @@ void list_quests(struct char_data *ch, zone_rnum zone, qst_vnum vmin, qst_vnum v
     top    = vmax;
   }
   /* Print the header for the quest listing. */
-  send_to_char (ch,
-  "Index VNum    Description                                  Questmaster\r\n"
-  "----- ------- -------------------------------------------- -----------\r\n");
+  send_to_char (ch, "\n## Quests\r");
+
   for (rnum = 0; rnum < total_quests ; rnum++)
-    if (QST_NUM(rnum) >= bottom && QST_NUM(rnum) <= top)
-      send_to_char(ch, "\tg%4d\tn) [\tg%-5d\tn] \tc%-44.44s\tn \ty[%5d]\tn\r\n",
-          ++counter, QST_NUM(rnum), QST_NAME(rnum),
+    if (QST_NUM(rnum) >= bottom && QST_NUM(rnum) <= top) {
+      send_to_char(ch, "\n%d. %d %s %d\r",
+          ++counter,
+          QST_NUM(rnum),
+          QST_NAME(rnum),
           QST_MASTER(rnum) == NOBODY ? 0 : QST_MASTER(rnum));
-  if (!counter)
-    send_to_char(ch, "None found.\r\n");
+    }
+    if (!counter) {
+      send_to_char(ch, "\ninfo:No Quests found.\r");
+    }
 }
 
 static void quest_hist(struct char_data *ch)
@@ -476,16 +482,19 @@ static void quest_hist(struct char_data *ch)
   int i = 0, counter = 0;
   qst_rnum rnum = NOTHING;
 
-  send_to_char(ch, "Quests that you have completed:\r\n"
-    "Index Description                                          Questmaster\r\n"
-    "----- ---------------------------------------------------- -----------\r\n");
+  send_to_char(ch, "\n## Completed Quests\r");
+
   for (i = 0; i < GET_NUM_QUESTS(ch); i++) {
-    if ((rnum = real_quest(ch->player_specials->saved.completed_quests[i])) != NOTHING)
-      send_to_char(ch, "\tg%4d\tn) \tc%-52.52s\tn \ty%s\tn\r\n",
- ++counter, QST_DESC(rnum), (real_mobile(QST_MASTER(rnum)) == NOBODY) ? "Unknown" : GET_NAME(&mob_proto[(real_mobile(QST_MASTER(rnum)))]));
-    else
+    if ((rnum = real_quest(ch->player_specials->saved.completed_quests[i])) != NOTHING) {
+      send_to_char(ch, "\n%d. %s %s\r",
+        ++counter,
+        QST_DESC(rnum),
+        (real_mobile(QST_MASTER(rnum)) == NOBODY) ? "Unknown" : GET_NAME(&mob_proto[(real_mobile(QST_MASTER(rnum)))]));
+    }
+    else {
       send_to_char(ch,
-        "\tg%4d\tn) \tcUnknown Quest (it no longer exists)\tn\r\n", ++counter);
+        "\n%d. Unknown Quest (it no longer exists)\r", ++counter);
+    }
   }
   if (!counter)
     send_to_char(ch, "\ninfo:You haven't completed any quests yet.\r");
@@ -759,6 +768,8 @@ static void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
       send_to_char(ch, "\nlimit: There is no time limit on this quest.\r");
     }
 
+    send_to_char(ch, "\n## Flow\r");
+
     if (QST_PREV(rnum) == NOTHING) {
       send_to_char(ch, "\nprev: None.\r");
     }
@@ -767,7 +778,6 @@ static void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
         QST_PREV(rnum), QST_DESC(real_quest(QST_PREV(rnum))));
     }
 
-    send_to_char(ch, "Next  :");
     if (QST_NEXT(rnum) == NOTHING) {
       send_to_char(ch, "\nnext: None.\r");
     }
