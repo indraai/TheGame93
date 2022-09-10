@@ -1,14 +1,14 @@
 #300
-Quest~
-Quest definition is incomplete.~
-There is no information on this quest.
+Find Indra~
+The Quest to find Indra.~
+You have accepted the quest to find Indra.
 ~
-You have completed the quest.
+You have completed the quest to find Indra.
 ~
-You have abandoned the quest.
+You have abandoned the quest to find Indra.
 ~
--1 346 0 -1 -1 -1 -1
-0 0 0 34 -1 -1 1
-0 0 65535
+2 346 0 5638 -1 -1 -1
+500 500 0 34 -1 -1 1
+500 500 65535
 S
 $~
