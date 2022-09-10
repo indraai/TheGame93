@@ -298,7 +298,7 @@ static void qedit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n## Quest: %d\r"
     "\nselect[1:name]: %s\r"
-    "\nselect[2:describe]: %s\r"
+    "\nselect[2:desc]: %s\r"
     "\nselect[3:accept msg]: %s\r"
     "\nselect[4:complete msg]: %s\r"
     "\nselect[5:quit msg]: %s\r"
@@ -307,20 +307,20 @@ static void qedit_disp_menu(struct descriptor_data *d)
     "\nselect[8:master]: %d - %s\r"
     "\nselect[9:target]: %d - %s\r"
     "\nselect[A:quantity]: %d\r"
-    "\n### Point Rewards\r"
+    "\n### Rewards\r"
     "\nselect[B:completed]: %d"
     "\nselect[C:abandoned]: %d\r"
-    "\n### Other Rewards\r"
     "\nselect[G:gold coins]: %d\r"
     "\nselect[T:exp points]: %d\r"
     "\nselect[O:object]: %d\r"
-    "\n### Level Limits\r"
+    "\n### Limits\r"
     "\nselect[D:lower level]: %d\r"
     "\nselect[E:upper level]: %d\r"
     "\nselect[F:prerequesite]: %d - %s\r"
     "\nselect[L:time limit]: %d\r"
+    "\n### Flow\r"
     "\nselect[N:next quest]: %d - %s\r"
-    "\nselect[P:previous quest]: %d - %s\r"
+    "\nselect[P:prev quest]: %d - %s\r"
     "\n::begin:buttons\r"
     "\nbmud[delete quest]:X\r"
     "\n::end:buttons\r"
@@ -382,8 +382,11 @@ static void qedit_disp_flag_menu(struct descriptor_data *d)
 
 void qedit_parse(struct descriptor_data *d, char *arg)
 {
+  struct aq_data *quest;
   int number = atoi(arg);
   char *oldtext = NULL;
+
+  quest = OLC_QUEST(d);
 
   switch (OLC_MODE(d)) {
     /*-------------------------------------------------------------------*/
@@ -391,24 +394,25 @@ void qedit_parse(struct descriptor_data *d, char *arg)
       switch (*arg) {
         case 'y':
         case 'Y':
-          send_to_char(d->character, "Saving Quest to memory.\r\n");
+          send_to_char(d->character, "\nsave:Saving Quest to memory.\r");
           qedit_save_internally(d);
           mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
-     "OLC: %s edits quest %d", GET_NAME(d->character), OLC_NUM(d));
+            "OLC: %s edits quest %d", GET_NAME(d->character), OLC_NUM(d));
           if (CONFIG_OLC_SAVE) {
             qedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-            write_to_output(d, "Quest %d saved to disk.\r\n", OLC_NUM(d));
-          } else
-            write_to_output(d, "Quest %d saved to memory.\r\n", OLC_NUM(d));
+            write_to_output(d, "\nsave:Quest %d saved to disk.\r", OLC_NUM(d));
+          } else {
+            write_to_output(d, "\nsave:Quest %d saved to memory.\r", OLC_NUM(d));
+          }
           cleanup_olc(d, CLEANUP_STRUCTS);
-   return;
+          return;
         case 'n':
         case 'N':
           cleanup_olc(d, CLEANUP_ALL);
           return;
         default:
-          write_to_output(d,
-            "Invalid choice!\r\nDo you wish to save the quest? : ");
+          write_to_output(d, "\ninfo:Invalid choice.");
+          write_to_output(d, "%s", confirm_msg);
           return;
       }
     /*-------------------------------------------------------------------*/
@@ -416,24 +420,28 @@ void qedit_parse(struct descriptor_data *d, char *arg)
       switch (*arg) {
         case 'y':
         case 'Y':
-          if (delete_quest(real_quest(OLC_NUM(d))))
-            write_to_output(d, "Quest deleted.\r\n");
-   else
-            write_to_output(d, "Couldn't delete the quest!\r\n");
+          if (delete_quest(real_quest(OLC_NUM(d)))) {
+            write_to_output(d, "\ninfo:Quest deleted.\r");
+          }
+          else {
+            write_to_output(d, "\ninfo:Unable to delete quest.\r");
+          }
           if (CONFIG_OLC_SAVE) {
             qedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-            write_to_output(d, "Quest file saved to disk.\r\n");
-          } else
-            write_to_output(d, "Quest file saved to memory.\r\n");
+            write_to_output(d, "\nsave:Quest file saved to disk.\r");
+          }
+          else {
+            write_to_output(d, "\nsave:Quest file saved to memory.\r");
+          }
           cleanup_olc(d, CLEANUP_ALL);
-   return;
+          return;
         case 'n':
         case 'N':
           qedit_disp_menu(d);
           return;
         default:
-          write_to_output(d,
-            "Invalid choice!\r\nDo you wish to delete the quest? : ");
+          write_to_output(d, "\ninfo:Invalid choice.");
+          write_to_output(d, "%s", confirm_msg);
           return;
       }
 
@@ -441,65 +449,53 @@ void qedit_parse(struct descriptor_data *d, char *arg)
     case QEDIT_MAIN_MENU:
       switch (*arg) {
         case 'q':
- case 'Q':
-   if (OLC_VAL(d)) {   /*. Anything been changed? . */
-            write_to_output(d,
-              "Do you wish to save the changes to the Quest? (y/n) : ");
+        case 'Q':
+          if (OLC_VAL(d)) {   /*. Anything been changed? . */
+            write_to_output(d, "%s", confirm_msg);
             OLC_MODE(d) = QEDIT_CONFIRM_SAVESTRING;
           } else
             cleanup_olc(d, CLEANUP_ALL);
           return;
- case 'x':
- case 'X':
+        case 'x':
+        case 'X':
           OLC_MODE(d) = QEDIT_CONFIRM_DELETE;
-   write_to_output(d, "Do you wish to delete the Quest? (y/n) : ");
-   break;
- case '1':
-   OLC_MODE(d) = QEDIT_NAME;
-   write_to_output(d, "Enter the quest name : ");
-   break;
+          write_to_output(d, "\np:Do you wish to delete the Quest?\r"
+            "%s", confirm_btn);
+          break;
+        case '1':
+          OLC_MODE(d) = QEDIT_NAME;
+          write_to_output(d, "\np:What is the quest name?\r"
+            "\ncurrent:%s", quest->name);
+          break;
         case '2':
-   OLC_MODE(d) = QEDIT_DESC;
-   write_to_output(d, "Enter the quest description :-\r\n] ");
-   break;
+          OLC_MODE(d) = QEDIT_DESC;
+          write_to_output(d, "\np:What is the the quest description?\r"
+            "\ncurrent:%s\r", quest->desc);
+
+          break;
         case '3':
           OLC_MODE(d) = QEDIT_INFO;
           clear_screen(d);
           send_editor_help(d);
-          write_to_output(d, "Enter quest acceptance message:\r\n\r\n");
+          write_to_output(d, "\np:What is the quest acceptance message?\r"
+            "\ncurrent:%s\r", quest->info);
 
-          if (OLC_QUEST(d)->info) {
-            write_to_output(d, "%s", OLC_QUEST(d)->info);
-            oldtext = strdup(OLC_QUEST(d)->info);
-          }
-          string_write(d, &OLC_QUEST(d)->info, MAX_QUEST_MSG, 0, oldtext);
-          OLC_VAL(d) = 1;
           break;
         case '4':
           OLC_MODE(d) = QEDIT_COMPLETE;
           clear_screen(d);
           send_editor_help(d);
-          write_to_output(d, "Enter quest completion message:\r\n\r\n");
+          write_to_output(d, "\np:What is the quest completion message?\r"
+            "current:%s\r", quest->done);
 
-          if (OLC_QUEST(d)->done) {
-            write_to_output(d, "%s", OLC_QUEST(d)->done);
-            oldtext = strdup(OLC_QUEST(d)->done);
-          }
-          string_write(d, &OLC_QUEST(d)->done, MAX_QUEST_MSG, 0, oldtext);
-          OLC_VAL(d) = 1;
           break;
         case '5':
           OLC_MODE(d) = QEDIT_ABANDON;
           clear_screen(d);
           send_editor_help(d);
-          write_to_output(d, "Enter quest quit message:\r\n\r\n");
+          write_to_output(d, "\np:What is the quest quit message:\r"
+            "\ncurrent:%s\r", quest->quit);
 
-          if (OLC_QUEST(d)->quit) {
-            write_to_output(d, "%s", OLC_QUEST(d)->quit);
-            oldtext = strdup(OLC_QUEST(d)->quit);
-          }
-          string_write(d, &OLC_QUEST(d)->quit, MAX_QUEST_MSG, 0, oldtext);
-          OLC_VAL(d) = 1;
           break;
         case '6':
           OLC_MODE(d) = QEDIT_FLAGS;
@@ -511,76 +507,76 @@ void qedit_parse(struct descriptor_data *d, char *arg)
           break;
         case '8':
           OLC_MODE(d) = QEDIT_QUESTMASTER;
-          write_to_output(d, "Enter vnum of quest master : ");
+          write_to_output(d, "\np:What is the vnum of quest master?\r");
           break;
         case '9':
           OLC_MODE(d) = QEDIT_TARGET;
-          write_to_output(d, "Enter target vnum : ");
+          write_to_output(d, "\np:What is the target vnum?\r");
           break;
- case 'a':
- case 'A':
-   OLC_MODE(d) = QEDIT_QUANTITY;
-   write_to_output(d, "Enter quantity of target : ");
-   break;
+        case 'a':
+        case 'A':
+          OLC_MODE(d) = QEDIT_QUANTITY;
+          write_to_output(d, "\np:What is the quantity of target\r");
+          break;
         case 'b':
         case 'B':
-   OLC_MODE(d) = QEDIT_POINTSCOMP;
-          write_to_output(d, "Enter points for completing the quest : " );
+          OLC_MODE(d) = QEDIT_POINTSCOMP;
+          write_to_output(d, "\np:Points for completing the quest.\r" );
           break;
- case 'c':
+        case 'c':
         case 'C':
-   OLC_MODE(d) = QEDIT_POINTSQUIT;
-          write_to_output(d, "Enter points for quitting the quest : " );
+          OLC_MODE(d) = QEDIT_POINTSQUIT;
+          write_to_output(d, "\np:Points for quitting the quest.\r" );
           break;
- case 'd':
+        case 'd':
         case 'D':
-   OLC_MODE(d) = QEDIT_LEVELMIN;
-          write_to_output(d, "Enter minimum level to accept the quest : " );
+          OLC_MODE(d) = QEDIT_LEVELMIN;
+          write_to_output(d, "\np:What is the minimum level to accept the quest.\r" );
           break;
- case 'e':
+        case 'e':
         case 'E':
-   OLC_MODE(d) = QEDIT_LEVELMAX;
-          write_to_output(d, "Enter maximum level to accept the quest : " );
+          OLC_MODE(d) = QEDIT_LEVELMAX;
+          write_to_output(d, "\np:What is the maximum level to accept the quest.\r" );
           break;
- case 'f':
- case 'F':
-   OLC_MODE(d) = QEDIT_PREREQ;
-   write_to_output(d, "Enter a prerequisite object vnum (-1 for none) : ");
-   break;
- case 'g':
- case 'G':
-   OLC_MODE(d) = QEDIT_GOLD;
-   write_to_output(d, "Enter the number of gold coins (0 for none) : ");
-   break;
- case 't':
- case 'T':
-   OLC_MODE(d) = QEDIT_EXP;
-   write_to_output(d, "Enter a number of experience points (0 for none) : ");
-   break;
- case 'o':
- case 'O':
-   OLC_MODE(d) = QEDIT_OBJ;
-   write_to_output(d, "Enter the prize object vnum (-1 for none) : ");
-   break;
- case 'l':
+        case 'f':
+        case 'F':
+          OLC_MODE(d) = QEDIT_PREREQ;
+          write_to_output(d, "Enter a prerequisite object vnum (-1 for none) : ");
+          break;
+        case 'g':
+        case 'G':
+          OLC_MODE(d) = QEDIT_GOLD;
+          write_to_output(d, "Enter the number of gold coins (0 for none) : ");
+          break;
+        case 't':
+        case 'T':
+          OLC_MODE(d) = QEDIT_EXP;
+          write_to_output(d, "Enter a number of experience points (0 for none) : ");
+          break;
+        case 'o':
+        case 'O':
+          OLC_MODE(d) = QEDIT_OBJ;
+          write_to_output(d, "Enter the prize object vnum (-1 for none) : ");
+          break;
+        case 'l':
         case 'L':
-   OLC_MODE(d) = QEDIT_TIMELIMIT;
+          OLC_MODE(d) = QEDIT_TIMELIMIT;
           write_to_output(d, "Enter time limit to complete (-1 for none) : " );
           break;
- case 'n':
- case 'N':
+        case 'n':
+        case 'N':
           OLC_MODE(d) = QEDIT_NEXTQUEST;
           write_to_output(d, "Enter vnum of next quest (-1 for none) : ");
           break;
-   case 'p':
- case 'P':
+        case 'p':
+        case 'P':
           OLC_MODE(d) = QEDIT_PREVQUEST;
           write_to_output(d, "Enter vnum of previous quest (-1 for none) : ");
           break;
         default:
-   write_to_output(d, "Invalid choice!\r\n");
-   qedit_disp_menu(d);
-   break;
+          write_to_output(d, "Invalid choice!\r\n");
+          qedit_disp_menu(d);
+          break;
       }
       return;
     /*-------------------------------------------------------------------*/
@@ -603,7 +599,7 @@ void qedit_parse(struct descriptor_data *d, char *arg)
     case QEDIT_QUESTMASTER:
       if (number != -1)
         if (real_mobile(number) == NOBODY) {
-          write_to_output(d, "That mobile does not exist, try again : ");
+          write_to_output(d, "\ninfo:That mobile does not exist.\r");
           return;
         }
       OLC_QUEST(d)->qm = number;
@@ -611,20 +607,20 @@ void qedit_parse(struct descriptor_data *d, char *arg)
     case QEDIT_TYPES:
       number--;
       if (number < 0 || number >= NUM_AQ_TYPES) {
-        write_to_output(d, "Invalid choice!\r\n");
+        write_to_output(d, "\ninfo:Invalid choice!\r");
         qedit_disp_type_menu(d);
         return;
       }
       OLC_QUEST(d)->type = number;
       if (number == AQ_OBJ_RETURN) {
         OLC_MODE(d) = QEDIT_RETURNMOB;
-        write_to_output(d, "Enter mob vnum to return object to : ");
+        write_to_output(d, "\np:Enter mob vnum to return object to.");
         return;
       }
       break;
     case QEDIT_FLAGS:
       if (number < 0 || number > NUM_AQ_FLAGS) {
-        write_to_output(d, "That is not a valid choice!\r\n");
+        write_to_output(d, "\ninfo:That is not a valid choice!\r");
         qedit_disp_flag_menu(d);
       } else if (number == 0)
         break;
@@ -653,11 +649,11 @@ void qedit_parse(struct descriptor_data *d, char *arg)
     case QEDIT_LEVELMIN:
       if (number < 0 || number > LVL_IMPL) {
         write_to_output(d, "Level must be between 0 and %d!\r\n", LVL_IMPL);
- write_to_output(d, "Enter minimum level to accept the quest : " );
+        write_to_output(d, "Enter minimum level to accept the quest : " );
         return;
       }  else if (number > OLC_QUEST(d)->value[3]) {
- write_to_output(d, "Minimum level can't be above maximum level!\r\n");
- write_to_output(d, "Enter minimum level to accept the quest : " );
+        write_to_output(d, "Minimum level can't be above maximum level!\r\n");
+        write_to_output(d, "Enter minimum level to accept the quest : " );
         return;
       } else {
         OLC_QUEST(d)->value[2] = number;
@@ -666,11 +662,11 @@ void qedit_parse(struct descriptor_data *d, char *arg)
     case QEDIT_LEVELMAX:
       if (number < 0 || number > LVL_IMPL) {
         write_to_output(d, "Level must be between 0 and %d!\r\n", LVL_IMPL);
- write_to_output(d, "Enter maximum level to accept the quest : " );
+        write_to_output(d, "Enter maximum level to accept the quest : " );
         return;
       } else if (number < OLC_QUEST(d)->value[2]) {
- write_to_output(d, "Maximum level can't be below minimum level!\r\n");
- write_to_output(d, "Enter maximum level to accept the quest : " );
+        write_to_output(d, "Maximum level can't be below minimum level!\r\n");
+        write_to_output(d, "Enter maximum level to accept the quest : " );
         return;
       } else {
         OLC_QUEST(d)->value[3] = number;
