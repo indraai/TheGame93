@@ -356,6 +356,7 @@ static void qedit_disp_menu(struct descriptor_data *d)
 /* For quest type.  */
 static void qedit_disp_type_menu(struct descriptor_data *d)
 {
+  int i, count = 0;
   clear_screen(d);
 
   write_to_output(d, "\n## Quest Type\r"
