@@ -646,8 +646,8 @@ static void quest_show(struct char_data *ch, mob_vnum qm)
   for (rnum = 0; rnum < total_quests; rnum++) {
     if (qm == QST_MASTER(rnum)) {
       send_to_char(ch, "\n%d.%s%d - %s\r",
-        ++counter
-        (is_complete(ch, QST_NUM(rnum)) ? " ☑" : " ")
+        ++counter,
+        (is_complete(ch, QST_NUM(rnum)) ? " ☑" : " "),
         QST_NUM(rnum),
         QST_NAME(rnum));
     }
