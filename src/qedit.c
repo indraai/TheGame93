@@ -351,9 +351,9 @@ static void qedit_disp_menu(struct descriptor_data *d)
                   obj_proto[real_object(quest->prereq)].short_description,
     quest->value[4],
     quest->prev_quest == NOTHING ? -1 : quest->prev_quest,
-    real_quest(quest->prev_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->prev_quest))),
+    real_quest(quest->prev_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->prev_quest)),
     quest->next_quest == NOTHING ? -1 : quest->next_quest,
-    real_quest(quest->next_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->next_quest));
+    real_quest(quest->next_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->next_quest)));
   OLC_MODE(d) = QEDIT_MAIN_MENU;
 }
 /* For quest type.  */
