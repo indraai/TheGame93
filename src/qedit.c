@@ -329,12 +329,9 @@ static void qedit_disp_menu(struct descriptor_data *d)
     quest->vnum,
     quest->name,
     quest->desc,
-    quest->info && (str_cmp(quest->info, "undefined"))
-     ? quest->info : "Nothing",
-    quest->done && (str_cmp(quest->done, "undefined"))
-     ? quest->done : "Nothing",
-    quest->quit && (str_cmp(quest->quit, "undefined"))
-     ? quest->quit : "Nothing",
+    quest->info && (str_cmp(quest->info, "undefined")) ? quest->info : "Nothing",
+    quest->done && (str_cmp(quest->done, "undefined")) ? quest->done : "Nothing",
+    quest->quit && (str_cmp(quest->quit, "undefined")) ? quest->quit : "Nothing",
     quest_flags,
     quest_types[quest->type],
     quest->type == AQ_OBJ_RETURN ? buf2 : "",
@@ -368,13 +365,17 @@ static void qedit_disp_type_menu(struct descriptor_data *d)
 static void qedit_disp_flag_menu(struct descriptor_data *d)
 {
   char bits[MAX_STRING_LENGTH];
-
-  get_char_colors(d->character);
+  int i, count = 0;
   clear_screen(d);
-  column_list(d->character, 0, aq_flags, NUM_AQ_FLAGS, TRUE);
+
+  for (i = 0; i < NUM_AQ_FLAGS; i++) {
+    write_to_output(d, "menu[%s]:%d\r\n", aq_flags[i], ++count);
+  }
+
   sprintbit(OLC_QUEST(d)->flags, aq_flags, bits, sizeof(bits));
-  write_to_output(d, "\r\nQuest flags: \tc%s\tn\r\n"
-          "Enter quest flags, 0 to quit : ", bits);
+
+  write_to_output(d, "\nflags:%s\r"
+          "\nmenu[done]:0\r", bits);
   OLC_MODE(d) = QEDIT_FLAGS;
 }
 /**************************************************************************
@@ -469,27 +470,26 @@ void qedit_parse(struct descriptor_data *d, char *arg)
           OLC_MODE(d) = QEDIT_DESC;
           write_to_output(d, "\np:What is the the quest description?\r"
             "\ncurrent:%s\r", OLC_QUEST(d)->desc);
-
           break;
         case '3':
           OLC_MODE(d) = QEDIT_INFO;
           clear_screen(d);
           write_to_output(d, "\np:What is the quest acceptance message?\r"
-            "\ncurrent:%s\r", OLC_QUEST(d)->info);
+            "\ncurrent:%s\r", OLC_QUEST(d)->info && (str_cmp(OLC_QUEST(d)->info, "undefined")) ? OLC_QUEST(d)->info : "Nothing");
 
           break;
         case '4':
           OLC_MODE(d) = QEDIT_COMPLETE;
           clear_screen(d);
           write_to_output(d, "\np:What is the quest completion message?\r"
-            "current:%s\r", OLC_QUEST(d)->done);
+            "\ncurrent:%s\r", OLC_QUEST(d)->done && (str_cmp(OLC_QUEST(d)->done, "undefined")) ? OLC_QUEST(d)->done : "Nothing");
 
           break;
         case '5':
           OLC_MODE(d) = QEDIT_ABANDON;
           clear_screen(d);
           write_to_output(d, "\np:What is the quest quit message:\r"
-            "\ncurrent:%s\r", OLC_QUEST(d)->quit);
+            "\ncurrent:%s\r", OLC_QUEST(d)->quit && (str_cmp(OLC_QUEST(d)->quit, "undefined")) ? OLC_QUEST(d)->quit : "Nothing");
 
           break;
         case '6':
@@ -569,7 +569,7 @@ void qedit_parse(struct descriptor_data *d, char *arg)
           write_to_output(d, "Enter vnum of previous quest (-1 for none) : ");
           break;
         default:
-          write_to_output(d, "Invalid choice!\r\n");
+          write_to_output(d, "\ninfo:Invalid choice!\r");
           qedit_disp_menu(d);
           break;
       }
@@ -715,10 +715,10 @@ void qedit_parse(struct descriptor_data *d, char *arg)
       break;
     default:
       /*. We should never get here . */
+      write_to_output(d, "\nerror:SYSTEM ERROR.\r");
       cleanup_olc(d, CLEANUP_ALL);
       mudlog(BRF, LVL_BUILDER, TRUE, "SYSERR: OLC: qedit_parse(): "
         "Reached default case!");
-      write_to_output(d, "Oops...\r\n");
       break;
   }
   /*-------------------------------------------------------------------*/
