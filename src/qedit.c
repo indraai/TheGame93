@@ -366,7 +366,7 @@ static void qedit_disp_type_menu(struct descriptor_data *d)
     write_to_output(d, "\nbmud[%s]:%d\r", quest_types[i], ++count);
   }
 
-  write_to_output(d, "\n::end:buttons\r")
+  write_to_output(d, "\n::end:buttons\r");
 
   OLC_MODE(d) = QEDIT_TYPES;
 }
