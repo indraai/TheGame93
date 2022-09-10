@@ -383,11 +383,8 @@ static void qedit_disp_flag_menu(struct descriptor_data *d)
 
 void qedit_parse(struct descriptor_data *d, char *arg)
 {
-  struct aq_data *quest;
   int number = atoi(arg);
   char *oldtext = NULL;
-
-  quest = OLC_QUEST(d);
 
   switch (OLC_MODE(d)) {
     /*-------------------------------------------------------------------*/
@@ -466,36 +463,33 @@ void qedit_parse(struct descriptor_data *d, char *arg)
         case '1':
           OLC_MODE(d) = QEDIT_NAME;
           write_to_output(d, "\np:What is the quest name?\r"
-            "\ncurrent:%s", quest->name);
+            "\ncurrent:%s", OLC_QUEST(d)->name);
           break;
         case '2':
           OLC_MODE(d) = QEDIT_DESC;
           write_to_output(d, "\np:What is the the quest description?\r"
-            "\ncurrent:%s\r", quest->desc);
+            "\ncurrent:%s\r", OLC_QUEST(d)->desc);
 
           break;
         case '3':
           OLC_MODE(d) = QEDIT_INFO;
           clear_screen(d);
-          send_editor_help(d);
           write_to_output(d, "\np:What is the quest acceptance message?\r"
-            "\ncurrent:%s\r", quest->info);
+            "\ncurrent:%s\r", OLC_QUEST(d)->info);
 
           break;
         case '4':
           OLC_MODE(d) = QEDIT_COMPLETE;
           clear_screen(d);
-          send_editor_help(d);
           write_to_output(d, "\np:What is the quest completion message?\r"
-            "current:%s\r", quest->done);
+            "current:%s\r", OLC_QUEST(d)->done);
 
           break;
         case '5':
           OLC_MODE(d) = QEDIT_ABANDON;
           clear_screen(d);
-          send_editor_help(d);
           write_to_output(d, "\np:What is the quest quit message:\r"
-            "\ncurrent:%s\r", quest->quit);
+            "\ncurrent:%s\r", OLC_QUEST(d)->quit);
 
           break;
         case '6':
