@@ -321,8 +321,8 @@ static void qedit_disp_menu(struct descriptor_data *d)
     "\nselect[F:prerequesite]: %d %s\r"
     "\nselect[L:time limit]: %d\r"
     "\n### Flow\r"
-    "\nselect[N:next quest]: %d %s\r"
-    "\nselect[P:prev quest]: %d %s\r"
+    "\nselect[P:prev]: %d %s\r"
+    "\nselect[N:next]: %d %s\r"
     "\n::begin:buttons\r"
     "\nbmud[delete quest]:X\r"
     "\n::end:buttons\r"
@@ -350,10 +350,10 @@ static void qedit_disp_menu(struct descriptor_data *d)
       real_object(quest->prereq) == NOTHING ? "an unknown object" :
                   obj_proto[real_object(quest->prereq)].short_description,
     quest->value[4],
-    quest->next_quest == NOTHING ? -1 : quest->next_quest,
-    real_quest(quest->next_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->next_quest)),
     quest->prev_quest == NOTHING ? -1 : quest->prev_quest,
     real_quest(quest->prev_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->prev_quest)));
+    quest->next_quest == NOTHING ? -1 : quest->next_quest,
+    real_quest(quest->next_quest) == NOTHING ? "" : QST_DESC(real_quest(quest->next_quest)),
   OLC_MODE(d) = QEDIT_MAIN_MENU;
 }
 /* For quest type.  */
