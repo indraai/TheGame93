@@ -712,7 +712,7 @@ static void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
     send_to_char(ch,
       "\n## Quest %d\r"
       "\nrnum: %d\r"
-      "master: %d %s\r"
+      "\nmaster: %d %s\r"
       "\nname: %s\r"
       "\ndesc: %s\r"
       "\n### Messages\r"
