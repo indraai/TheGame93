@@ -215,7 +215,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5638
-indra deva king deity celestial royal~
+indra deva king deity celestial royal z56~
 Indra Deva~
 5638/main:avatar~
 5638/main:look~
@@ -237,7 +237,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5639
-agni deva royal celestial deity~
+agni deva royal celestial deity z56~
 Agni Deva~
 5639/main:avatar~
 5639/main:look~
@@ -259,7 +259,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5640
-yama deva royal celestial deity~
+yama deva royal celestial deity z56~
 Yama Deva~
 5640/main:avatar~
 5640/main:look~
@@ -281,7 +281,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5641
-nirriti deva royal celestial deity~
+nirriti deva royal celestial deity z56~
 Nirriti Deva~
 5641/main:avatar~
 5641/main:look~
@@ -303,7 +303,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5642
-varuna deva royal celestial deity~
+varuna deva royal celestial deity z56~
 Varuna Deva~
 5642/main:avatar~
 5642/main:look~
@@ -325,14 +325,14 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5643
-vayudeva deva royal celestial deity~
+vayudeva deva royal celestial deity z56~
 Vayu Deva~
 5643/main:avatar~
 5643/main:look~
 6234 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 2 15
+6 6 1 2 15
 Str: 18
 Dex: 18
 Int: 18
@@ -368,7 +368,7 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #5645
-isana rudra deva royal deity celestial~
+isana rudra deva royal deity celestial z59~
 Rudra Deva~
 5645/main:avatar~
 5645/main:look~
