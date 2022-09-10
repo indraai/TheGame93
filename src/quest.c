@@ -300,13 +300,13 @@ void generic_complete_quest(struct char_data *ch)
       happy_qp = MAX(happy_qp, 0);
       GET_QUESTPOINTS(ch) += happy_qp;
       send_to_char(ch,
-          "\np:%s\r"
+          "\ninfo:%s\r"
           "\npoints:You have been awarded %d quest points for your service.\r",
           QST_DONE(rnum), happy_qp);
 	} else {
       GET_QUESTPOINTS(ch) += QST_POINTS(rnum);
       send_to_char(ch,
-          "\np:%s\r"
+          "\ninfo:%s\r"
           "\npoints:You have been awarded %d quest points for your service.\r",
           QST_DONE(rnum),
           QST_POINTS(rnum));
