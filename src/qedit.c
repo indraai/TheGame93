@@ -285,7 +285,7 @@ static void qedit_disp_menu(struct descriptor_data *d)
                world[real_room(quest->target)].name);
       break;
     case AQ_MOB_FIND:
-    case AQ_MOB_KILL:
+    case AQ_MOB_TACKLE:
     case AQ_MOB_SAVE:
       snprintf(targetname, sizeof(targetname), "%s",
                real_mobile(quest->target) == NOBODY ?
