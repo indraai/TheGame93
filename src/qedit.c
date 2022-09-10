@@ -64,11 +64,11 @@ ACMD(do_oasis_qedit)
   two_arguments(argument, buf1, buf2);
 
   if (!*buf1) {
-    send_to_char(ch, "Specify a quest VNUM to edit.\r\n");
+    send_to_char(ch, "\np:Specify a quest VNUM to edit.\r");
     return;
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) != 0) {
-      send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
+      send_to_char(ch, "\ninfo: Stop that, someone will get hurt.\r");
       return;
     }
 
@@ -86,7 +86,7 @@ ACMD(do_oasis_qedit)
     }
 
     if (number == NOWHERE) {
-      send_to_char(ch, "Save which zone?\r\n");
+      send_to_char(ch, "\ninfo:Save which zone?\r");
       return;
     }
   }
@@ -98,7 +98,7 @@ ACMD(do_oasis_qedit)
     number = atoi(buf1);
 
   if (number < IDXTYPE_MIN || number > IDXTYPE_MAX) {
-    send_to_char(ch, "That quest VNUM can't exist.\r\n");
+    send_to_char(ch, "\ninfo:That quest VNUM can't exist.\r");
     return;
   }
 
@@ -108,7 +108,7 @@ ACMD(do_oasis_qedit)
   for (d = descriptor_list; d; d = d->next) {
     if (STATE(d) == CON_QEDIT) {
       if (d->olc && OLC_NUM(d) == number) {
-        send_to_char(ch, "That quest is currently being edited by %s.\r\n",
+        send_to_char(ch, "\ninfo:That quest is currently being edited by %s.\r",
           PERS(d->character, ch));
         return;
       }
@@ -135,7 +135,7 @@ ACMD(do_oasis_qedit)
   /** Find the zone.                                                         **/
   /****************************************************************************/
   if ((OLC_ZNUM(d) = real_zone_by_thing(number)) == NOWHERE) {
-    send_to_char(ch, "Sorry, there is no zone for that number!\r\n");
+    send_to_char(ch, "\ninfo:Sorry, there is no zone for that number!\r");
     free(d->olc);
     d->olc = NULL;
     return;
@@ -145,7 +145,7 @@ ACMD(do_oasis_qedit)
   /** Everyone but IMPLs can only edit zones they have been assigned.        **/
   /****************************************************************************/
   if (!can_edit_zone(ch, OLC_ZNUM(d))) {
-    send_to_char(ch, "You do not have permission to edit this zone.\r\n");
+    send_to_char(ch, "\ninfo:You do not have permission to edit this zone.\r");
 
     /**************************************************************************/
     /** Free the OLC structure.                                              **/
@@ -156,7 +156,7 @@ ACMD(do_oasis_qedit)
   }
 
   if (save) {
-    send_to_char(ch, "Saving all quests in zone %d.\r\n",
+    send_to_char(ch, "\nsave:Saving all quests in zone %d.\r",
       zone_table[OLC_ZNUM(d)].number);
     mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
       "OLC: %s saves quest info for zone %d.",
@@ -296,39 +296,44 @@ static void qedit_disp_menu(struct descriptor_data *d)
       break;
   }
   write_to_output(d,
-    "-- Quest Number    : \tn[\tc%6d\tn]\r\n"
-    "\tg 1\tn) Quest Name     : \ty%s\r\n"
-    "\tg 2\tn) Description    : \ty%s\r\n"
-    "\tg 3\tn) Accept Message\r\n\ty%s"
-    "\tg 4\tn) Completion Message\r\n\ty%s"
-    "\tg 5\tn) Quit Message\r\n\ty%s"
-    "\tg 6\tn) Quest Flags    : \tc%s\r\n"
-    "\tg 7\tn) Quest Type     : \tc%s %s\r\n"
-    "\tg 8\tn) Quest Master   : [\tc%6d\tn] \ty%s\r\n"
-    "\tg 9\tn) Quest Target   : [\tc%6d\tn] \ty%s\r\n"
-    "\tg A\tn) Quantity       : [\tc%6d\tn]\r\n"
-    "\tn    Quest Point Rewards\r\n"
-    "\tg B\tn) Completed      : [\tc%6d\tn] \tg C\tn) Abandoned   : [\tc%6d\tn]\r\n"
-    "\tn    Other Rewards Rewards\r\n"
-    "\tg G\tn) Gold Coins     : [\tc%6d\tn] \tg T\tn) Exp Points  : [\tc%6d\tn] \tg O\tn) Object : [\tc%6d\tn]\r\n"
-    "\tn    Level Limits to Accept Quest\r\n"
-    "\tg D\tn) Lower Level    : [\tc%6d\tn] \tg E\tn) Upper Level : [\tc%6d\tn]\r\n"
-    "\tg F\tn) Prerequisite   : [\tc%6d\tn] \ty%s\r\n"
-    "\tg L\tn) Time Limit     : [\tc%6d\tn]\r\n"
-    "\tg N\tn) Next Quest     : [\tc%6d\tn] \ty%s\r\n"
-    "\tg P\tn) Previous Quest : [\tc%6d\tn] \ty%s\r\n"
-    "\tg X\tn) Delete Quest\r\n"
-    "\tg Q\tn) Quit\r\n"
-    "Enter Choice : ",
+    "\n## Quest: %d\r"
+    "\nselect[1:name]: %s\r"
+    "\nselect[2:describe]: %s\r"
+    "\nselect[3:accept msg]: %s\r"
+    "\nselect[4:complete msg]: %s\r"
+    "\nselect[5:quit msg]: %s\r"
+    "\nselect[6:flags] %s\r"
+    "\nselect[7:type]: %s %s\r"
+    "\nselect[8:master]: %d - %s\r"
+    "\nselect[9:target]: %d - %s\r"
+    "\nselect[A:quantity]: %d\r"
+    "### Point Rewards\r"
+    "\nselect[B:completed]: %d"
+    "\nselect[C:abandoned]: %d\r"
+    "\n## Other Rewards\r"
+    "\nselect[G:gold coins]: %d\r"
+    "\nselect[T:exp points]: %d\r"
+    "\nselect[O:object]: %d"
+    "\n## Level Limits\r"
+    "\nselect[D:lower level]: %d\r"
+    "\nselect[E:upper level]: %d\r"
+    "\nselect[F:prerequesite]: %d - %s\r"
+    "\nselect[L:time limit]: %d\r"
+    "\nselect[N:next quest]: %d - %s\r"
+    "\nselect[P:previous quest] %d - %s\r"
+    "\n::begin:buttons\r"
+    "\nbmud[delete quest]:X\r"
+    "\n::end:buttons\r"
+    "\nmenu[quit]:Q\r",
     quest->vnum,
     quest->name,
     quest->desc,
     quest->info && (str_cmp(quest->info, "undefined"))
-     ? quest->info : "Nothing\r\n",
+     ? quest->info : "Nothing",
     quest->done && (str_cmp(quest->done, "undefined"))
-     ? quest->done : "Nothing\r\n",
+     ? quest->done : "Nothing",
     quest->quit && (str_cmp(quest->quit, "undefined"))
-     ? quest->quit : "Nothing\r\n",
+     ? quest->quit : "Nothing",
     quest_flags,
     quest_types[quest->type],
     quest->type == AQ_OBJ_RETURN ? buf2 : "",
@@ -744,4 +749,3 @@ void qedit_string_cleanup(struct descriptor_data *d, int terminator)
     break;
   }
 }
-
