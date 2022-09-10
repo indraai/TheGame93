@@ -305,8 +305,8 @@ static void qedit_disp_menu(struct descriptor_data *d)
     "\nselect[5:quit msg]: %s\r"
     "\nselect[6:flags]: %s\r"
     "\nselect[7:type]: %s %s\r"
-    "\nselect[8:master]: %d - %s\r"
-    "\nselect[9:target]: %d - %s\r"
+    "\nselect[8:master]: %d %s\r"
+    "\nselect[9:target]: %d %s\r"
     "\nselect[A:quantity]: %d\r"
     "\n### Rewards\r"
     "\nselect[B:completed]: %d"
@@ -317,11 +317,11 @@ static void qedit_disp_menu(struct descriptor_data *d)
     "\n### Limits\r"
     "\nselect[D:lower level]: %d\r"
     "\nselect[E:upper level]: %d\r"
-    "\nselect[F:prerequesite]: %d - %s\r"
+    "\nselect[F:prerequesite]: %d %s\r"
     "\nselect[L:time limit]: %d\r"
     "\n### Flow\r"
-    "\nselect[N:next quest]: %d - %s\r"
-    "\nselect[P:prev quest]: %d - %s\r"
+    "\nselect[N:next quest]: %d %s\r"
+    "\nselect[P:prev quest]: %d %s\r"
     "\n::begin:buttons\r"
     "\nbmud[delete quest]:X\r"
     "\n::end:buttons\r"
@@ -357,8 +357,16 @@ static void qedit_disp_menu(struct descriptor_data *d)
 static void qedit_disp_type_menu(struct descriptor_data *d)
 {
   clear_screen(d);
-  column_list(d->character, 0, quest_types, NUM_AQ_TYPES, TRUE);
-  write_to_output(d, "\r\nEnter Quest type : ");
+
+  write_to_output(d, "\n## Quest Type\r"
+    "\n::begin:buttons\r");
+
+  for (i = 0; i < NUM_AQ_TYPES; i++) {
+    write_to_output(d, "\nbmud[%s]:%d\r", quest_types[i], ++count);
+  }
+
+  write_to_output(d, "\n::end:buttons\r")
+
   OLC_MODE(d) = QEDIT_TYPES;
 }
 /* For quest flags.  */
