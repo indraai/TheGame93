@@ -341,7 +341,7 @@ static void qedit_disp_menu(struct descriptor_data *d)
     quest->info && (str_cmp(quest->info, "undefined")) ? quest->info : "Nothing",
     quest->done && (str_cmp(quest->done, "undefined")) ? quest->done : "Nothing",
     quest->quit && (str_cmp(quest->quit, "undefined")) ? quest->quit : "Nothing",
-    quest->value[0], 
+    quest->value[0],
     quest->value[1],
     quest->gold_reward, quest->exp_reward, quest->obj_reward == NOTHING ? -1 : quest->obj_reward,
     quest->value[2], quest->value[3],
@@ -538,7 +538,7 @@ void qedit_parse(struct descriptor_data *d, char *arg)
         case '8':
           OLC_MODE(d) = QEDIT_QUESTMASTER;
           write_to_output(d, "\np:What is the vnum of quest master?\r"
-            "\ncurrent:%s\r", OLC_QUEST(d)->qm == NOBODY ? -1 : OLC_QUEST(d)->qm);
+            "\ncurrent:%d\r", OLC_QUEST(d)->qm == NOBODY ? -1 : OLC_QUEST(d)->qm);
           break;
         case '9':
           OLC_MODE(d) = QEDIT_TARGET;
