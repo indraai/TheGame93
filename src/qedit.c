@@ -368,14 +368,19 @@ static void qedit_disp_flag_menu(struct descriptor_data *d)
   int i, count = 0;
   clear_screen(d);
 
+  write_to_output(d,"\n## Quest Flags\r"
+    "\n::begin:buttons\r");
+
   for (i = 0; i < NUM_AQ_FLAGS; i++) {
-    write_to_output(d, "menu[%s]:%d\r\n", aq_flags[i], ++count);
+    write_to_output(d, "\nmenu[%s]:%d\r\n", aq_flags[i], ++count);
   }
 
   sprintbit(OLC_QUEST(d)->flags, aq_flags, bits, sizeof(bits));
 
-  write_to_output(d, "\nflags:%s\r"
-          "\nmenu[done]:0\r", bits);
+  write_to_output(d, "\n::end:buttons\r"
+    "\nflags: %s\r"
+    "\nmenu[done]:0\r", bits);
+
   OLC_MODE(d) = QEDIT_FLAGS;
 }
 /**************************************************************************
