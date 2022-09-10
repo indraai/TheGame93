@@ -320,7 +320,7 @@ static void qedit_disp_menu(struct descriptor_data *d)
     "\nselect[F:prerequesite]: %d - %s\r"
     "\nselect[L:time limit]: %d\r"
     "\nselect[N:next quest]: %d - %s\r"
-    "\nselect[P:previous quest] %d - %s\r"
+    "\nselect[P:previous quest]: %d - %s\r"
     "\n::begin:buttons\r"
     "\nbmud[delete quest]:X\r"
     "\n::end:buttons\r"
