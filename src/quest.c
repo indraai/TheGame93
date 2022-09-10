@@ -30,7 +30,7 @@ const char *quest_types[] = {
   "ROOM",
   "FIND AGENT",
   "TACKLE AGENT",
-  "SAVE AGENT",
+  "RESCUE AGENT",
   "RETURN OBJECT",
   "CLEAR ROOM",
   "\n"

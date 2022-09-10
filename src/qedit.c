@@ -300,14 +300,15 @@ static void qedit_disp_menu(struct descriptor_data *d)
     "\n## Quest: %d\r"
     "\nselect[1:name]: %s\r"
     "\nselect[2:desc]: %s\r"
-    "\nselect[3:accept msg]: %s\r"
-    "\nselect[4:complete msg]: %s\r"
-    "\nselect[5:quit msg]: %s\r"
+    "\nselect[8:master]: %d %s\r"
     "\nselect[6:flags]: %s\r"
     "\nselect[7:type]: %s %s\r"
-    "\nselect[8:master]: %d %s\r"
     "\nselect[9:target]: %d %s\r"
     "\nselect[A:quantity]: %d\r"
+    "\n### Messages\r"
+    "\nselect[3:accept]: %s\r"
+    "\nselect[4:complete]: %s\r"
+    "\nselect[5:quit]: %s\r"
     "\n### Rewards\r"
     "\nselect[B:completed]: %d"
     "\nselect[C:abandoned]: %d\r"
@@ -329,17 +330,19 @@ static void qedit_disp_menu(struct descriptor_data *d)
     quest->vnum,
     quest->name,
     quest->desc,
-    quest->info && (str_cmp(quest->info, "undefined")) ? quest->info : "Nothing",
-    quest->done && (str_cmp(quest->done, "undefined")) ? quest->done : "Nothing",
-    quest->quit && (str_cmp(quest->quit, "undefined")) ? quest->quit : "Nothing",
+    quest->qm == NOBODY ? -1 : quest->qm,
+    real_mobile(quest->qm) == NOBODY ? "Invalid Mob" : mob_proto[(real_mobile(quest->qm))].player.short_descr,
     quest_flags,
     quest_types[quest->type],
     quest->type == AQ_OBJ_RETURN ? buf2 : "",
-    quest->qm == NOBODY ? -1 :     quest->qm,
-    real_mobile(quest->qm) == NOBODY ? "Invalid Mob" : mob_proto[(real_mobile(quest->qm))].player.short_descr,
-    quest->target == NOBODY ? -1 : quest->target, targetname,
+    quest->target == NOBODY ? -1 : quest->target,
+    targetname,
     quest->value[6],
-    quest->value[0], quest->value[1],
+    quest->info && (str_cmp(quest->info, "undefined")) ? quest->info : "Nothing",
+    quest->done && (str_cmp(quest->done, "undefined")) ? quest->done : "Nothing",
+    quest->quit && (str_cmp(quest->quit, "undefined")) ? quest->quit : "Nothing",
+    quest->value[0], 
+    quest->value[1],
     quest->gold_reward, quest->exp_reward, quest->obj_reward == NOTHING ? -1 : quest->obj_reward,
     quest->value[2], quest->value[3],
     quest->prereq     == NOTHING ? -1 : quest->prereq,
@@ -534,7 +537,8 @@ void qedit_parse(struct descriptor_data *d, char *arg)
           break;
         case '8':
           OLC_MODE(d) = QEDIT_QUESTMASTER;
-          write_to_output(d, "\np:What is the vnum of quest master?\r");
+          write_to_output(d, "\np:What is the vnum of quest master?\r"
+            "\ncurrent:%s\r", OLC_QUEST(d)->qm == NOBODY ? -1 : OLC_QUEST(d)->qm);
           break;
         case '9':
           OLC_MODE(d) = QEDIT_TARGET;
@@ -543,32 +547,32 @@ void qedit_parse(struct descriptor_data *d, char *arg)
         case 'a':
         case 'A':
           OLC_MODE(d) = QEDIT_QUANTITY;
-          write_to_output(d, "\np:What is the quantity of target\r");
+          write_to_output(d, "\np:What is the quantity of the target?\r");
           break;
         case 'b':
         case 'B':
           OLC_MODE(d) = QEDIT_POINTSCOMP;
-          write_to_output(d, "\np:Points for completing the quest.\r" );
+          write_to_output(d, "\np:What are the points for completing the quest?\r" );
           break;
         case 'c':
         case 'C':
           OLC_MODE(d) = QEDIT_POINTSQUIT;
-          write_to_output(d, "\np:Points for quitting the quest.\r" );
+          write_to_output(d, "\np:What are the points for quitting the quest?\r" );
           break;
         case 'd':
         case 'D':
           OLC_MODE(d) = QEDIT_LEVELMIN;
-          write_to_output(d, "\np:What is the minimum level to accept the quest.\r" );
+          write_to_output(d, "\np:What is the minimum level to accept the quest? (0-34)\r" );
           break;
         case 'e':
         case 'E':
           OLC_MODE(d) = QEDIT_LEVELMAX;
-          write_to_output(d, "\np:What is the maximum level to accept the quest.\r" );
+          write_to_output(d, "\np:What is the maximum level to accept the quest? (0-34)\r" );
           break;
         case 'f':
         case 'F':
           OLC_MODE(d) = QEDIT_PREREQ;
-          write_to_output(d, "Enter a prerequisite object vnum (-1 for none) : ");
+          write_to_output(d, "\np:What is the prerequisite object vnum? (-1 for none)");
           break;
         case 'g':
         case 'G':
