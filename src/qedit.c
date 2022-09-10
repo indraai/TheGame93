@@ -16,6 +16,7 @@
 
 #include "comm.h"
 #include "db.h"
+#include "constants.h"
 #include "oasis.h"
 #include "improved-edit.h"
 #include "screen.h"
