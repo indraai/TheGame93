@@ -464,7 +464,7 @@ void list_quests(struct char_data *ch, zone_rnum zone, qst_vnum vmin, qst_vnum v
   /* Print the header for the quest listing. */
   send_to_char (ch, "\n## Quests\r");
 
-  for (rnum = 0; rnum < total_quests ; rnum++)
+  for (rnum = 0; rnum < total_quests ; rnum++) {
     if (QST_NUM(rnum) >= bottom && QST_NUM(rnum) <= top) {
       send_to_char(ch, "\n%d. %d %s %d\r",
           ++counter,
@@ -475,6 +475,7 @@ void list_quests(struct char_data *ch, zone_rnum zone, qst_vnum vmin, qst_vnum v
     if (!counter) {
       send_to_char(ch, "\ninfo:No Quests found.\r");
     }
+  }
 }
 
 static void quest_hist(struct char_data *ch)
