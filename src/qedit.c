@@ -479,22 +479,40 @@ void qedit_parse(struct descriptor_data *d, char *arg)
         case '3':
           OLC_MODE(d) = QEDIT_INFO;
           clear_screen(d);
-          write_to_output(d, "\np:What is the quest acceptance message?\r"
-            "\ncurrent:%s\r", OLC_QUEST(d)->info && (str_cmp(OLC_QUEST(d)->info, "undefined")) ? OLC_QUEST(d)->info : "Nothing");
+          write_to_output(d, "\np:What is the quest acceptance message?\r");
+
+          if (OLC_QUEST(d)->info) {
+            write_to_output(d, "%s", OLC_QUEST(d)->info);
+            oldtext = strdup(OLC_QUEST(d)->info);
+          }
+          string_write(d, &OLC_QUEST(d)->info, MAX_QUEST_MSG, 0, oldtext);
+          OLC_VAL(d) = 1;
 
           break;
         case '4':
           OLC_MODE(d) = QEDIT_COMPLETE;
           clear_screen(d);
-          write_to_output(d, "\np:What is the quest completion message?\r"
-            "\ncurrent:%s\r", OLC_QUEST(d)->done && (str_cmp(OLC_QUEST(d)->done, "undefined")) ? OLC_QUEST(d)->done : "Nothing");
+          write_to_output(d, "\np:What is the quest completion message?\r");
+
+          if (OLC_QUEST(d)->done) {
+            write_to_output(d, "%s", OLC_QUEST(d)->done);
+            oldtext = strdup(OLC_QUEST(d)->done);
+          }
+          string_write(d, &OLC_QUEST(d)->done, MAX_QUEST_MSG, 0, oldtext);
+          OLC_VAL(d) = 1;
 
           break;
         case '5':
           OLC_MODE(d) = QEDIT_ABANDON;
           clear_screen(d);
-          write_to_output(d, "\np:What is the quest quit message:\r"
-            "\ncurrent:%s\r", OLC_QUEST(d)->quit && (str_cmp(OLC_QUEST(d)->quit, "undefined")) ? OLC_QUEST(d)->quit : "Nothing");
+          write_to_output(d, "\np:What is the quest quit message:\r");
+
+          if (OLC_QUEST(d)->quit) {
+            write_to_output(d, "%s", OLC_QUEST(d)->quit);
+            oldtext = strdup(OLC_QUEST(d)->quit);
+          }
+          string_write(d, &OLC_QUEST(d)->quit, MAX_QUEST_MSG, 0, oldtext);
+          OLC_VAL(d) = 1;
 
           break;
         case '6':
