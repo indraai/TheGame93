@@ -142,26 +142,26 @@ const char *sector_types[] = {
  * Must end array with a single newline. */
 const char *genders[] =
 {
-  "Neutral",
-  "Male",
-  "Female",
-  "Other",
+  "NEUTRAL",
+  "MALE",
+  "FEMALE",
+  "OTHER",
   "\n"
 };
 
 const char *races[] =
 {
-  "Human",
-  "Robot",
-  "Deva",
-  "Arjika",
-  "Susoma",
-  "Sarya",
-  "Asuras",
-  "Danava",
-  "Dasyus",
-  "Daityas",
-  "Other",
+  "HUMAN",
+  "ROBOT",
+  "DEVA",
+  "ARJIKA",
+  "SUSOMA",
+  "SARYA",
+  "ASURAS",
+  "DANAVA",
+  "DASYUS",
+  "DAITYAS",
+  "OTHER",
   "\n"
 };
 
@@ -169,15 +169,15 @@ const char *races[] =
  * @pre Must be in the same order as the defines.
  * Must end array with a single newline. */
 const char *position_types[] = {
-  "Tackled",
-  "Wounded",
-  "Incapacitated",
-  "Stunned",
-  "Sleeping",
-  "Resting",
-  "Sitting",
-  "Fighting",
-  "Standing",
+  "TACKLED",
+  "WOUNDED",
+  "SHOCKED",
+  "STUNNED",
+  "SLEEPING",
+  "RESTING",
+  "SITTING",
+  "FIGHTING",
+  "STANDING",
   "\n"
 };
 
