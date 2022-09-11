@@ -46,22 +46,22 @@ const char *class_abbrevs[] = {
 };
 
 const char *class_types[] = {
-  "Client",
-  "Agent",
-  "Artist",
-  "Scientist",
-  "Engineer",
-  "Programmer",
-  "Hacker",
-  "Journalist",
-  "Legal",
-  "Politician",
-  "Medical",
-  "Security",
-  "Military",
-  "Monk",
-  "Priest",
-  "Royal",
+  "CLIENT",
+  "AGENT",
+  "ARTISAN",
+  "SCIENTIST",
+  "ENGINEER",
+  "PROGRAMMER",
+  "HACKER",
+  "MEDIA",
+  "LEGAL",
+  "POLITICS",
+  "MEDICAL",
+  "SECURITY",
+  "MILITARY",
+  "MONK",
+  "PRIEST",
+  "ROYAL",
   "\n"
 };
 
@@ -71,7 +71,7 @@ const char *class_menu =
 "\np:Please select your player class...\r"
 "\nmenu[Client]:a\r"
 "\nmenu[Agent]:b\r"
-"\nmenu[Artist]:c\r"
+"\nmenu[Artisan]:c\r"
 "\nmenu[Scientist]:d\r"
 "\nmenu[Engineer]:e\r"
 "\nmenu[Programmer]:f"
@@ -172,10 +172,18 @@ int prac_params[4][NUM_CLASSES] = {
 struct guild_info_type guild_info[] = {
 
 /* GUILDS */
- { CLASS_AGENT, 350, NORTH },
- { CLASS_ARTIST, 152, SOUTH },
- { CLASS_SCIENTIST, 336, NORTH },
- { CLASS_ENGINEER, 166, SOUTH },
+ { CLASS_CLIENT, 145, SOUTH },
+ { CLASS_AGENT, 144, SOUTH },
+ { CLASS_ARTIST, 143, SOUTH },
+ { CLASS_SCIENTIST, 142, SOUTH },
+ { CLASS_ENGINEER, 170, NORTH },
+ { CLASS_PROGRAMMER, 171, NORTH },
+ { CLASS_HACKER, 172, NORTH },
+ { CLASS_LEGAL, 173, NORTH },
+ { CLASS_POLITICIAN, 175, NORTH },
+ { CLASS_MEDICAL, 176, NORTH },
+ { CLASS_SECURITY, 177, NORTH },
+ { CLASS_MILITARY, 178, NORTH },
 
 /* Brass Dragon */
   { -999 /* all */ ,	5065,	WEST	},

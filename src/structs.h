@@ -150,8 +150,8 @@
 /* PC classes */
 #define CLASS_UNDEFINED	     (-1) /**< PC Class undefined */
 
-#define CLASS_CLIENT         0 // client
-#define CLASS_AGENT          1 // adventurer
+#define CLASS_CLIENT          0 // CLIENT
+#define CLASS_AGENT           1 // AGENT
 #define CLASS_ARTIST          2 // ARTIST
 #define CLASS_SCIENTIST       3 // SCIENTIST
 #define CLASS_ENGINEER        4 // ENGINEER
@@ -163,9 +163,9 @@
 #define CLASS_MEDICAL        10 // MEDICAL
 #define CLASS_SECURITY       11 // SECURITY
 #define CLASS_MILITARY       12 // MILITARY
-#define CLASS_MONK           13 // MILITARY
-#define CLASS_PRIEST         14 // MILITARY
-#define CLASS_ROYAL          15 // MILITARY
+#define CLASS_MONK           13 // MONK
+#define CLASS_PRIEST         14 // PRIEST
+#define CLASS_ROYAL          15 // ROYAL
 
 /** Total number of available Classes */
 #define NUM_CLASSES	         16
