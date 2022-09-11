@@ -103,8 +103,10 @@ void list_skills(struct char_data *ch)
   size_t len = 0;
   char buf2[MAX_STRING_LENGTH];
 
-  len = snprintf(buf2, sizeof(buf2), "# Practice\nYou have %d practice session%s remaining.\r\n"
-	"You know of the following %ss:\r\n", GET_PRACTICES(ch),
+  len = snprintf(buf2, sizeof(buf2), "\n# Practice\r"
+          "\np:You have %d practice session%s remaining.\r"
+	        "You know of the following %ss:\r", GET_PRACTICES(ch),
+
 	GET_PRACTICES(ch) == 1 ? "" : "s", SPLSKL(ch));
 
   for (sortpos = 1; sortpos <= MAX_SKILLS; sortpos++) {
@@ -126,7 +128,7 @@ SPECIAL(guild)
 {
   int skill_num, percent;
 
-  if (IS_NPC(ch) || !CMD_IS("practice"))
+  if (!CMD_IS("practice"))
     return (FALSE);
 
   skip_spaces(&argument);
@@ -136,7 +138,7 @@ SPECIAL(guild)
     return (TRUE);
   }
   if (GET_PRACTICES(ch) <= 0) {
-    send_to_char(ch, "You do not seem to be able to practice now.\r\n");
+    send_to_char(ch, "\ninfo:You do not seem to be able to practice now.\r");
     return (TRUE);
   }
 
@@ -144,14 +146,14 @@ SPECIAL(guild)
 
   if (skill_num < 1 ||
       GET_LEVEL(ch) < spell_info[skill_num].min_level[(int) GET_CLASS(ch)]) {
-    send_to_char(ch, "You do not know of that %s.\r\n", SPLSKL(ch));
+    send_to_char(ch, "\ninfo:You do not know of that %s.\r", SPLSKL(ch));
     return (TRUE);
   }
   if (GET_SKILL(ch, skill_num) >= LEARNED(ch)) {
-    send_to_char(ch, "You are already learned in that area.\r\n");
+    send_to_char(ch, "\ninfo:You are already learned in that area.\r");
     return (TRUE);
   }
-  send_to_char(ch, "You practice for a while...\r\n");
+  send_to_char(ch, "\ninfo:You practice for a while.\r");
   GET_PRACTICES(ch)--;
 
   percent = GET_SKILL(ch, skill_num);
@@ -160,7 +162,7 @@ SPECIAL(guild)
   SET_SKILL(ch, skill_num, MIN(LEARNED(ch), percent));
 
   if (GET_SKILL(ch, skill_num) >= LEARNED(ch))
-    send_to_char(ch, "You are now learned in that area.\r\n");
+    send_to_char(ch, "\ninfo:You are now learned in that skill.\r");
 
   return (TRUE);
 }
@@ -187,7 +189,7 @@ SPECIAL(dump)
   }
 
   if (value) {
-    send_to_char(ch, "You are awarded for outstanding performance.\r\n");
+    send_to_char(ch, "\npoints:You are awarded for outstanding performance.\r");
     act("$n has been awarded for being a good citizen.", TRUE, ch, 0, 0, TO_ROOM);
 
     if (GET_LEVEL(ch) < 3)
