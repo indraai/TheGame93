@@ -66,7 +66,18 @@ void assign_mobiles(void)
   // assign_kings_castle();
   // ASSIGNMOB(120, guild);
   // ASSIGNMOB(121, guild);
-  // ASSIGNMOB(123, guild);
+  ASSIGNMOB(142, guild);
+  ASSIGNMOB(143, guild);
+  ASSIGNMOB(144, guild);
+  ASSIGNMOB(145, guild);
+  ASSIGNMOB(170, guild);
+  ASSIGNMOB(171, guild);
+  ASSIGNMOB(172, guild);
+  ASSIGNMOB(173, guild);
+  ASSIGNMOB(175, guild);
+  ASSIGNMOB(176, guild);
+  ASSIGNMOB(177, guild);
+  ASSIGNMOB(178, guild);
   ASSIGNMOB(110, postmaster);
 }
 
