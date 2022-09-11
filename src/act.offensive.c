@@ -218,14 +218,14 @@ ACMD(do_order)
   half_chop(argument, name, message);
 
   if (!*name || !*message)
-    send_to_char(ch, "Order who to do what?\r\n");
+    send_to_char(ch, "\ninfo:Order who to do what?\r");
   else if (!(vict = get_char_vis(ch, name, NULL, FIND_CHAR_ROOM)) && !is_abbrev(name, "followers"))
     send_to_char(ch, "That person isn't here.\r\n");
   else if (ch == vict)
-    send_to_char(ch, "You obviously suffer from skitzofrenia.\r\n");
+    send_to_char(ch, "\nalert:You can't do that here.\r");
   else {
     if (AFF_FLAGGED(ch, AFF_CHARM)) {
-      send_to_char(ch, "Your superior would not aprove of you giving orders.\r\n");
+      send_to_char(ch, "\nalert:Your superior would not aprove of you giving orders.\r");
       return;
     }
     if (vict) {
@@ -257,7 +257,7 @@ ACMD(do_order)
       if (found)
         send_to_char(ch, "%s", CONFIG_OK);
       else
-        send_to_char(ch, "Nobody here is a loyal subject of yours!\r\n");
+        send_to_char(ch, "\nalert:Nobody here is a loyal subject of yours!\r");
     }
   }
 }
@@ -268,7 +268,7 @@ ACMD(do_flee)
   struct char_data *was_fighting;
 
   if (GET_POS(ch) < POS_FIGHTING) {
-    send_to_char(ch, "You are in pretty bad shape, unable to flee!\r\n");
+    send_to_char(ch, "\nalert:You are in pretty bad shape, unable to flee!\r");
     return;
   }
 
@@ -279,7 +279,7 @@ ACMD(do_flee)
       act("$n panics, and attempts to flee!", TRUE, ch, 0, 0, TO_ROOM);
       was_fighting = FIGHTING(ch);
       if (do_simple_move(ch, attempt, TRUE)) {
-	send_to_char(ch, "You flee head over heels.\r\n");
+	send_to_char(ch, "\nalert:You flee head over heels.\r");
         if (was_fighting && !IS_NPC(ch)) {
 	  loss = GET_MAX_HIT(was_fighting) - GET_HIT(was_fighting);
 	  loss *= GET_LEVEL(was_fighting);
@@ -295,7 +295,7 @@ ACMD(do_flee)
       return;
     }
   }
-  send_to_char(ch, "PANIC!  You couldn't escape!\r\n");
+  send_to_char(ch, "\nalert:You couldn't escape!\r");
 }
 
 ACMD(do_bash)
@@ -307,31 +307,31 @@ ACMD(do_bash)
   one_argument(argument, arg);
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_BASH)) {
-    send_to_char(ch, "You have no idea how.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how to do that.\r");
     return;
   }
   if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL)) {
-    send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
+    send_to_char(ch, "\ninfo:You are in a peaceful room.\r");
     return;
   }
   if (!GET_EQ(ch, WEAR_WIELD)) {
-    send_to_char(ch, "You need to wield a weapon to make it a success.\r\n");
+    send_to_char(ch, "\nfight:You need to wield a weapon to make it a success.\r");
     return;
   }
   if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
     if (FIGHTING(ch) && IN_ROOM(ch) == IN_ROOM(FIGHTING(ch))) {
       vict = FIGHTING(ch);
     } else {
-      send_to_char(ch, "Bash who?\r\n");
+      send_to_char(ch, "\ninfo:Bash who?\r");
       return;
     }
   }
   if (vict == ch) {
-    send_to_char(ch, "Aren't we funny today...\r\n");
+    send_to_char(ch, "\nalert:Aren't we funny today.\r");
     return;
   }
   if (MOB_FLAGGED(vict, MOB_NOKILL)) {
-    send_to_char(ch, "This mob is protected.\r\n");
+    send_to_char(ch, "\nalert:This mob is protected.\r");
     return;
   }
 
@@ -367,22 +367,22 @@ ACMD(do_rescue)
   int percent, prob;
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_RESCUE)) {
-    send_to_char(ch, "You have no idea how to do that.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how to do that.\r");
     return;
   }
 
   one_argument(argument, arg);
 
   if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "Whom do you want to rescue?\r\n");
+    send_to_char(ch, "\ninfo:Whom do you want to rescue?\r");
     return;
   }
   if (vict == ch) {
-    send_to_char(ch, "What about fleeing instead?\r\n");
+    send_to_char(ch, "\ninfo:What about fleeing instead?\r");
     return;
   }
   if (FIGHTING(ch) == vict) {
-    send_to_char(ch, "How can you rescue someone you are trying to kill?\r\n");
+    send_to_char(ch, "\nalert:How can you rescue someone you are trying to tackle?\r");
     return;
   }
   for (tmp_ch = world[IN_ROOM(ch)].people; tmp_ch &&
@@ -391,7 +391,7 @@ ACMD(do_rescue)
   if ((FIGHTING(vict) != NULL) && (FIGHTING(ch) == FIGHTING(vict)) && (tmp_ch == NULL)) {
      tmp_ch = FIGHTING(vict);
      if (FIGHTING(tmp_ch) == ch) {
-     send_to_char(ch, "You have already rescued %s from %s.\r\n", GET_NAME(vict), GET_NAME(FIGHTING(ch)));
+     send_to_char(ch, "\nalert:You have already rescued %s from %s.\r", GET_NAME(vict), GET_NAME(FIGHTING(ch)));
      return;
   }
   }
@@ -404,10 +404,10 @@ ACMD(do_rescue)
   prob = GET_SKILL(ch, SKILL_RESCUE);
 
   if (percent > prob) {
-    send_to_char(ch, "You fail the rescue!\r\n");
+    send_to_char(ch, "\nalert:You fail the rescue!\r");
     return;
   }
-  send_to_char(ch, "Banzai!  To the rescue...\r\n");
+  send_to_char(ch, "\nalert:To the rescue.\r");
   act("You are rescued by $N, you are confused!", FALSE, vict, 0, ch, TO_CHAR);
   act("$n heroically rescues $N!", FALSE, ch, 0, vict, TO_NOTVICT);
 
@@ -454,13 +454,13 @@ EVENTFUNC(event_whirlwind)
    * close off our event */
   if (room_list->iSize == 0) {
     free_list(room_list);
-    send_to_char(ch, "There is no one in the room to whirlwind!\r\n");
+    send_to_char(ch, "\nalert:There is no one in the room to whirlwind!\r");
     return 0;
   }
 
   /* We spit out some ugly colour, making use of the new colour options,
    * to let the player know they are performing their whirlwind strike */
-  send_to_char(ch, "\t[f313]You deliver a vicious \t[f014]\t[b451]WHIRLWIND!!!\tn\r\n");
+  send_to_char(ch, "\nfight:You deliver a vicious WHIRLWIND!\r");
 
   /* Lets grab some a random NPC from the list, and hit() them up */
   for (count = dice(1, 4); count > 0; count--) {
@@ -475,7 +475,7 @@ EVENTFUNC(event_whirlwind)
    * again. If we return 0, then the event is freed and removed from the list, but
    * any other numerical response will be the delay until the next call */
   if (GET_SKILL(ch, SKILL_WHIRLWIND) < rand_number(1, 101)) {
-    send_to_char(ch, "You stop spinning.\r\n");
+    send_to_char(ch, "\nfight:You stop spinning.\r");
     return 0;
   } else
     return 1.5 * PASSES_PER_SEC;
@@ -487,17 +487,17 @@ ACMD(do_whirlwind)
 {
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_WHIRLWIND)) {
-    send_to_char(ch, "You have no idea how.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how.\r");
     return;
   }
 
   if ROOM_FLAGGED(IN_ROOM(ch), ROOM_PEACEFUL) {
-    send_to_char(ch, "This room just has such a peaceful, easy feeling...\r\n");
+    send_to_char(ch, "\ninfo:You are in a peaceful room.\r");
     return;
   }
 
   if (GET_POS(ch) < POS_FIGHTING) {
-    send_to_char(ch, "You must be on your feet to perform a whirlwind.\r\n");
+    send_to_char(ch, "\ninfo:You must be on your feet to perform a whirlwind.\r");
     return;
   }
 
@@ -507,11 +507,11 @@ ACMD(do_whirlwind)
    * "char_had_mud_event() will sift through the character's event list to see if
    * an event of type "eWHIRLWIND" currently exists. */
   if (char_has_mud_event(ch, eWHIRLWIND)) {
-    send_to_char(ch, "You are already attempting that!\r\n");
+    send_to_char(ch, "\ninfo:You are already attempting that!\r");
     return;
   }
 
-  send_to_char(ch, "You begin to spin rapidly in circles.\r\n");
+  send_to_char(ch, "\nalert:You begin to spin rapidly in circles.\r");
   act("$n begins to rapidly spin in a circle!", FALSE, ch, 0, 0, TO_ROOM);
 
   /* NEW_EVENT() will add a new mud event to the event list of the character.
@@ -528,7 +528,7 @@ ACMD(do_kick)
   int percent, prob;
 
   if (IS_NPC(ch) || !GET_SKILL(ch, SKILL_KICK)) {
-    send_to_char(ch, "You have no idea how.\r\n");
+    send_to_char(ch, "\ninfo:You have no idea how.\r");
     return;
   }
 
@@ -538,12 +538,12 @@ ACMD(do_kick)
     if (FIGHTING(ch) && IN_ROOM(ch) == IN_ROOM(FIGHTING(ch))) {
       vict = FIGHTING(ch);
     } else {
-      send_to_char(ch, "Kick who?\r\n");
+      send_to_char(ch, "\nalert:Kick who?\r");
       return;
     }
   }
   if (vict == ch) {
-    send_to_char(ch, "Aren't we funny today...\r\n");
+    send_to_char(ch, "\nalert:Aren't we funny today.\r");
     return;
   }
   /* 101% is a complete failure */
@@ -566,24 +566,24 @@ ACMD(do_bandage)
 
   if (!GET_SKILL(ch, SKILL_BANDAGE))
   {
-    send_to_char(ch, "You are unskilled in the art of bandaging.\r\n");
+    send_to_char(ch, "\ninfo:You are unskilled in the art of bandaging.\r");
     return;
   }
 
   if (GET_POS(ch) != POS_STANDING) {
-    send_to_char(ch, "You are not in a proper position for that!\r\n");
+    send_to_char(ch, "\ninfo:You are not in a proper position for that!\r");
     return;
   }
 
   one_argument(argument, arg);
 
   if (!(vict = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM))) {
-    send_to_char(ch, "Who do you want to bandage?\r\n");
+    send_to_char(ch, "\ninfo:Who do you want to bandage?\r");
     return;
   }
 
   if (GET_HIT(vict) >= 0) {
-    send_to_char(ch, "You can only bandage someone who is close to death.\r\n");
+    send_to_char(ch, "\ninfo:You can only bandage someone who is close to death.\r");
     return;
   }
 

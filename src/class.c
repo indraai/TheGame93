@@ -1757,20 +1757,31 @@ void init_spell_levels(void)
 
   /* engineer */
   spell_level(SKILL_TRACK, CLASS_ENGINEER, 1);
+
   /* PROGRAMMER */
   spell_level(SKILL_TRACK, CLASS_PROGRAMMER, 1);
+
   /* HACKER */
   spell_level(SKILL_TRACK, CLASS_HACKER, 1);
+
   /* MEDIA */
   spell_level(SKILL_TRACK, CLASS_MEDIA, 1);
+
   /* LEGAL */
   spell_level(SKILL_TRACK, CLASS_LEGAL, 1);
+
   /* POLITICS */
   spell_level(SKILL_TRACK, CLASS_POLITICS, 1);
+
   /* MEDICAL */
-  spell_level(SKILL_TRACK, CLASS_MEDICAL, 1);
+  spell_level(SKILL_BANDAGE, CLASS_MEDICAL, 1);
+
   /* SECURITY */
   spell_level(SKILL_TRACK, CLASS_SECURITY, 1);
+  spell_level(SKILL_RESCUE, CLASS_SECURITY, 2);
+  spell_level(SKILL_HIDE, CLASS_SECURITY, 3);
+  spell_level(SKILL_KICK, CLASS_SECURITY, 4);
+
   /* MILITARY */
   spell_level(SKILL_TRACK, CLASS_MILITARY, 1);
   /* ROYAL */
