@@ -46,17 +46,17 @@ ACMD(do_assist)
   struct char_data *helpee, *opponent;
 
   if (FIGHTING(ch)) {
-    send_to_char(ch, "You're already fighting!  How can you assist someone else?\r\n");
+    send_to_char(ch, "\ninfo:You're already fighting. How can you assist someone else?\r");
     return;
   }
   one_argument(argument, arg);
 
   if (!*arg)
-    send_to_char(ch, "Whom do you wish to assist?\r\n");
+    send_to_char(ch, "\ninfo:Whom do you wish to assist?\r");
   else if (!(helpee = get_char_vis(ch, arg, NULL, FIND_CHAR_ROOM)))
     send_to_char(ch, "%s", CONFIG_NOPERSON);
   else if (helpee == ch)
-    send_to_char(ch, "You can't help yourself any more than this!\r\n");
+    send_to_char(ch, "\ninfo:You can't help yourself any more than this!\r");
   else {
     /*
      * Hit the same enemy the person you're helping is.
@@ -74,9 +74,9 @@ ACMD(do_assist)
       act("You can't see who is fighting $M!", FALSE, ch, 0, helpee, TO_CHAR);
          /* prevent accidental pkill */
     else if (!CONFIG_PK_ALLOWED && !IS_NPC(opponent))
-      send_to_char(ch, "You cannot kill other players.\r\n");
+      send_to_char(ch, "\ninfo:You cannot kill other players.\r");
     else {
-      send_to_char(ch, "You join the fight!\r\n");
+      send_to_char(ch, "\nalert:You join the fight!\r");
       act("$N assists you!", 0, helpee, 0, ch, TO_CHAR);
       act("$n assists $N.", FALSE, ch, 0, helpee, TO_NOTVICT);
       hit(ch, opponent, TYPE_UNDEFINED);
@@ -154,7 +154,7 @@ ACMD(do_kill)
 
 ACMD(do_backstab)
 {
-  send_to_char(ch, "You should learn backstabbing is bad.\r\n");
+  send_to_char(ch, "\nalert:You should learn backstabbing is bad.\r");
   return;
 
   char buf[MAX_INPUT_LENGTH];
