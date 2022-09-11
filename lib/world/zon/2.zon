@@ -2,6 +2,8 @@
 Quinn~
 Arjika~
 200 299 30 2 d 0 0 0 -1 -1
+O 0 297 1 297 	(CYPHER-4 TERMINAL)
+M 0 297 1 297 	(Arjika CYPHER-4)
 M 0 259 1 259 	(SecurityDEVA D259 (Guard))
 R 0 259 92 -1 	(Security Board)
 O 1 92 99 259 	(Security Board)
@@ -19,9 +21,6 @@ G 1 126 100 -1 	(Purple Robe)
 G 1 129 100 -1 	(Black Robe)
 M 0 264 1 264 	(Sarry)
 M 0 213 1 213 	(Rahu)
-O 0 297 1 297 	(CYPHER-4 TERMINAL)
-M 0 297 1 297 	(Arjika CYPHER-4)
-M 0 177 4 297 	(SecurityDEVA D177 (Cyber))
 O 0 242 1 242 	(Farm Milk)
 M 0 234 1 234 	(Tommy Toys)
 M 0 277 1 277 	(Narry)

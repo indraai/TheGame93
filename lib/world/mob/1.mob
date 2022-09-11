@@ -1016,6 +1016,27 @@ SavingPetri: 5
 SavingBreath: 5
 SavingSpell: 5
 E
+#173
+arjika media householder z1 a173~
+Media Householder~
+173/main:avatar~
+173/main:look~
+6234 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 7
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
 #174
 security securitydeva agency d174 z1~
 SecurityDEVA D174 (Agency)~
@@ -1048,37 +1069,69 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #176
-arjika military soldier spy a176~
-Arjika Spy~
+arjika politics householder z1 a176~
+Politics Householder~
 0176/main:avatar~
 0176/main:look~
-8 0 0 0 2168 0 0 0 0 E
-1 20 9 0d0+10 1d2+0
-10 100
-8 8 1 3 12
+6234 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 9
 BareHandAttack: 8
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #177
-cypher security securitydeva agent deva d177~
-SecurityDEVA D177 (Cyber)~
+arjika military householder z1 a177~
+Military Householder~
 0177/main:avatar~
 0177/main:look~
-6170 0 0 0 2168 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 2 11
+6170 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 12
 BareHandAttack: 13
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#178
+arjika royal householder z1 a178~
+Royal Householder~
+178/main:avatar~
+178/main:look~
+6234 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 15
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #179
 arjika private military soldier~
@@ -1101,7 +1154,7 @@ big tyler bigtyler~
 BigTyler~
 180/main:avatar~
 talk:#adv agent/thegame 180/main:look~
-6428 0 0 0 2168 0 0 0 1000 E
+6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
 8 8 1 6 6

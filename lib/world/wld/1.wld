@@ -506,7 +506,7 @@ D2
 0 0 160
 S
 #148
-indra.buzz/bar~
+The Bar~
 empty room.~
 1 24 0 0 0 0
 D2
@@ -874,7 +874,7 @@ D0
 1 0 157
 S
 #173
-indra.house/studio~
+Media House~
 undefined~
 1 2616 0 0 0 0
 D0
@@ -892,36 +892,36 @@ D4
 0 0 354
 S
 #175
-indra.house/apartments~
+Legal House~
 undefined~
-1 24 0 0 0 0
+1 2680 0 0 0 0
 D0
 ~
 ~
 1 0 160
 S
 #176
-indra.house/apartments~
+Politics House~
 undefined~
-1 24 0 0 0 0
+1 2680 0 0 0 0
 D0
 ~
 ~
 1 0 161
 S
 #177
-indra.house/apartments~
+Military House~
 undefined~
-1 24 0 0 0 0
+1 2680 0 0 0 0
 D0
 ~
 ~
 1 0 162
 S
 #178
-BigTyler House~
+Royal House~
 undefined~
-1 24 0 0 0 0
+1 2680 0 0 0 0
 D0
 ~
 ~
