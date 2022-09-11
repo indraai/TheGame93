@@ -156,10 +156,10 @@
 #define CLASS_SCIENTIST       3 // SCIENTIST
 #define CLASS_ENGINEER        4 // ENGINEER
 #define CLASS_PROGRAMMER      5 // PROGRAMMER
-#define CLASS_HACKER          6 // PROGRAMMER
-#define CLASS_JOURNALIST      7 // PROGRAMMER
+#define CLASS_HACKER          6 // hacker
+#define CLASS_MEDIA           7 // media
 #define CLASS_LEGAL           8 // LEGAL
-#define CLASS_POLITICIAN      9 // POLITICS
+#define CLASS_POLITICS        9 // POLITICS
 #define CLASS_MEDICAL        10 // MEDICAL
 #define CLASS_SECURITY       11 // SECURITY
 #define CLASS_MILITARY       12 // MILITARY
@@ -456,9 +456,9 @@
 #define ITEM_ANTI_ENGINEER      12   /**< Not usable by soma */
 #define ITEM_ANTI_PROGRAMMER    13   /**< Not usable by sarya */
 #define ITEM_ANTI_HACKER        14   /**< Not usable by sarya */
-#define ITEM_ANTI_JOURNALIST    15   /**< Not usable by sarya */
+#define ITEM_ANTI_MEDIA         15   /**< Not usable by sarya */
 #define ITEM_ANTI_LEGAL         16   /**< Not usable by sarya */
-#define ITEM_ANTI_POLITICIAN    17   /**< Not usable by sarya */
+#define ITEM_ANTI_POLITICS      17   /**< Not usable by sarya */
 #define ITEM_ANTI_MEDICAL       18   /**< Not usable by sarya */
 #define ITEM_ANTI_MILITARY      19   /**< Not usable by sarya */
 #define ITEM_ANTI_MONK          20   /**< Not usable by sarya */

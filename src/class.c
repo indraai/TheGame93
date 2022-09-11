@@ -76,9 +76,9 @@ const char *class_menu =
 "\nmenu[Engineer]:e\r"
 "\nmenu[Programmer]:f"
 "\nmenu[Hacker]:g"
-"\nmenu[Journalist]:h"
+"\nmenu[Media]:h"
 "\nmenu[Legal]:i"
-"\nmenu[Politician]:k"
+"\nmenu[Politics]:k"
 "\nmenu[Medical]:j"
 "\nmenu[Security]:l"
 "\nmenu[Military]:m\r"
@@ -100,9 +100,9 @@ int parse_class(char arg)
   case 'e': return CLASS_ENGINEER;      // soma
   case 'f': return CLASS_PROGRAMMER;    // PROGRAMMER
   case 'g': return CLASS_HACKER;        // hacker
-  case 'h': return CLASS_JOURNALIST;    // journalist
+  case 'h': return CLASS_MEDIA;    // Media
   case 'i': return CLASS_LEGAL;        // LEGAL
-  case 'j': return CLASS_POLITICIAN;    // politician
+  case 'j': return CLASS_POLITICS;    // politician
   case 'k': return CLASS_MEDICAL;       // medical
   case 'l': return CLASS_SECURITY;      // security
   case 'm': return CLASS_MILITARY;      // military
@@ -180,7 +180,7 @@ struct guild_info_type guild_info[] = {
  { CLASS_PROGRAMMER, 171, NORTH },
  { CLASS_HACKER, 172, NORTH },
  { CLASS_LEGAL, 173, NORTH },
- { CLASS_POLITICIAN, 175, NORTH },
+ { CLASS_POLITICS, 175, NORTH },
  { CLASS_MEDICAL, 176, NORTH },
  { CLASS_SECURITY, 177, NORTH },
  { CLASS_MILITARY, 178, NORTH },
@@ -1491,6 +1491,9 @@ void do_start(struct char_data *ch)
 
   switch (GET_CLASS(ch)) {
 
+  case CLASS_CLIENT:
+    break;
+
   case CLASS_AGENT:
     break;
 
@@ -1498,17 +1501,24 @@ void do_start(struct char_data *ch)
     break;
 
   case CLASS_SCIENTIST:
-    /*
-    SET_SKILL(ch, SKILL_SNEAK, 10);
-    SET_SKILL(ch, SKILL_HIDE, 5);
-    SET_SKILL(ch, SKILL_STEAL, 15);
-    SET_SKILL(ch, SKILL_BACKSTAB, 10);
-    SET_SKILL(ch, SKILL_PICK_LOCK, 10);
-    SET_SKILL(ch, SKILL_TRACK, 10);
-    */
     break;
 
   case CLASS_ENGINEER:
+    break;
+
+  case CLASS_PROGRAMMER:
+    break;
+
+  case CLASS_HACKER:
+    break;
+
+  case CLASS_MEDIA:
+    break;
+
+  case CLASS_LEGAL:
+    break;
+
+  case CLASS_POLITICS:
     break;
   }
 
@@ -1632,10 +1642,13 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_HACKER) && IS_HACKER(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_JOURNALIST) && IS_JOURNALIST(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_MEDIA) && IS_MEDIA(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_LEGAL) && IS_LEGAL(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_POLITICS) && IS_POLITICS(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MEDICAL) && IS_MEDICAL(ch))

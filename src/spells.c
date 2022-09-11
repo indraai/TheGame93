@@ -215,7 +215,7 @@ ASPELL(spell_locate_object)
   int j;
 
   if (!obj) {
-    send_to_char(ch, "You sense nothing.\r\n");
+    send_to_char(ch, "\ninfo:You sense nothing.\r");
     return;
   }
 
@@ -253,24 +253,24 @@ ASPELL(spell_charm)
     return;
 
   if (victim == ch)
-    send_to_char(ch, "You like yourself even better!\r\n");
+    send_to_char(ch, "\ninfo:You like yourself even better!\r");
   else if (!IS_NPC(victim) && !PRF_FLAGGED(victim, PRF_SUMMONABLE))
-    send_to_char(ch, "You fail because SUMMON protection is on!\r\n");
+    send_to_char(ch, "\ninfo:You fail because SUMMON protection is on!\r");
   else if (AFF_FLAGGED(victim, AFF_SANCTUARY))
-    send_to_char(ch, "Your victim is protected by sanctuary!\r\n");
+    send_to_char(ch, "\ninfo:Your victim is protected by sanctuary.\r");
   else if (MOB_FLAGGED(victim, MOB_NOCHARM))
-    send_to_char(ch, "Your victim resists!\r\n");
+    send_to_char(ch, "\ninfo:Your victim resists!\r");
   else if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "You can't have any followers of your own!\r\n");
+    send_to_char(ch, "\ninfo:You can't have any followers of your own!\r");
   else if (AFF_FLAGGED(victim, AFF_CHARM) || level < GET_LEVEL(victim))
-    send_to_char(ch, "You fail.\r\n");
+    send_to_char(ch, "\ninfo:You fail.\r");
   /* player charming another player - no legal reason for this */
   else if (!CONFIG_PK_ALLOWED && !IS_NPC(victim))
-    send_to_char(ch, "You fail - shouldn't be doing it anyway.\r\n");
+    send_to_char(ch, "\ninfo:You fail - shouldn't be doing it anyway.\r");
   else if (circle_follow(victim, ch))
-    send_to_char(ch, "Sorry, following in circles is not allowed.\r\n");
+    send_to_char(ch, "\ninfo:Sorry, following in circles is not allowed.\r");
   else if (mag_savingthrow(victim, SAVING_PARA, 0))
-    send_to_char(ch, "Your victim resists!\r\n");
+    send_to_char(ch, "\ninfo:Your victim resists!\r");
   else {
     if (victim->master)
       stop_follower(victim);
@@ -306,13 +306,13 @@ ASPELL(spell_identify)
 
     if (GET_OBJ_AFFECT(obj)) {
       sprintbitarray(GET_OBJ_AFFECT(obj), affected_bits, AF_ARRAY_MAX, bitbuf);
-      send_to_char(ch, "Item will give you following abilities:  %s\r\n", bitbuf);
+      send_to_char(ch, "\ninfo:Item will give you following abilities:  %s\r", bitbuf);
     }
 
     sprintbitarray(GET_OBJ_EXTRA(obj), extra_bits, EF_ARRAY_MAX, bitbuf);
-    send_to_char(ch, "Item is: %s\r\n", bitbuf);
+    send_to_char(ch, "\ninfo:Item is %s\r", bitbuf);
 
-    send_to_char(ch, "Weight: %d, Value: %d, Rent: %d, Min. level: %d\r\n",
+    send_to_char(ch, "\nWeight: %d, Value: %d, Rent: %d, Min. level: %d\r",
                      GET_OBJ_WEIGHT(obj), GET_OBJ_COST(obj), GET_OBJ_RENT(obj), GET_OBJ_LEVEL(obj));
 
     switch (GET_OBJ_TYPE(obj)) {

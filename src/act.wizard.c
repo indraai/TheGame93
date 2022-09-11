@@ -3370,8 +3370,8 @@ ACMD(do_set)
   half_chop(buf, field, buf);
 
   if (!*name || !*field) {
-    send_to_char(ch, "Usage: set <victim> <field> <value>\r\n");
-    send_to_char(ch, "       %sset help%s will display valid fields\r\n", CCYEL(ch, C_NRM), CCNRM(ch, C_NRM));
+    send_to_char(ch, "\nusage: set <victim> <field> <value>\r"
+      "\nset help will display valid fields\r");
     return;
   }
 
@@ -3379,12 +3379,12 @@ ACMD(do_set)
   if (!is_file) {
     if (is_player) {
       if (!(vict = get_player_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
-	send_to_char(ch, "There is no such player.\r\n");
+	send_to_char(ch, "\nerrorThere is no such player.\r");
 	return;
       }
     } else { /* is_mob */
       if (!(vict = get_char_vis(ch, name, NULL, FIND_CHAR_WORLD))) {
-	send_to_char(ch, "There is no such creature.\r\n");
+	send_to_char(ch, "\nerror:There is no such creature.\r");
 	return;
       }
     }
@@ -3397,13 +3397,13 @@ ACMD(do_set)
     if ((player_i = load_char(name, cbuf)) > -1) {
       if (GET_LEVEL(cbuf) > GET_LEVEL(ch)) {
 	free_char(cbuf);
-	send_to_char(ch, "Sorry, you can't do that.\r\n");
+	send_to_char(ch, "\nerror:Sorry, you can't do that.\r");
 	return;
       }
       vict = cbuf;
     } else {
       free_char(cbuf);
-      send_to_char(ch, "There is no such player.\r\n");
+      send_to_char(ch, "\nerror:There is no such player.\r");
       return;
     }
   }
@@ -3428,7 +3428,7 @@ ACMD(do_set)
     if (is_file) {
       GET_PFILEPOS(cbuf) = player_i;
       save_char(cbuf);
-      send_to_char(ch, "Saved in file.\r\n");
+      send_to_char(ch, "\nsave:Saved in file.\r");
     }
   }
 
@@ -3440,11 +3440,11 @@ ACMD(do_set)
 ACMD(do_saveall)
 {
  if (GET_LEVEL(ch) < LVL_BUILDER)
-    send_to_char (ch, "You are not holy enough to use this privelege.\n\r");
+    send_to_char (ch, "\ninfo:You are not holy enough to use this privelege.\r");
  else {
     save_all();
     House_save_all();
-    send_to_char(ch, "World and house files saved.\n\r");
+    send_to_char(ch, "\nsave:World and house files saved.\r");
  }
 }
 

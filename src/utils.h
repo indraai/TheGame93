@@ -882,7 +882,7 @@ do                                                              \
 #define IS_HACKER(ch)	GET_CLASS(ch) == CLASS_HACKER
 #define IS_JOURNALIST(ch)	GET_CLASS(ch) == CLASS_JOURNALIST
 #define IS_LEGAL(ch)	GET_CLASS(ch) == CLASS_LEGAL
-#define IS_POLITICIAN(ch)	GET_CLASS(ch) == CLASS_POLITICIAN
+#define IS_POLITICS(ch)	GET_CLASS(ch) == CLASS_POLITICS
 #define IS_MEDICAL(ch)	GET_CLASS(ch) == CLASS_MEDICAL
 #define IS_SECURITY(ch)	GET_CLASS(ch) == CLASS_SECURITY
 #define IS_MILITARY(ch)	GET_CLASS(ch) == CLASS_MILITARY
