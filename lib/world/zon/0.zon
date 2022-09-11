@@ -1,7 +1,14 @@
 #0
 Quinn~
 Arjika~
-0 99 15 2 d 0 0 0 1 -1
+0 99 30 2 d 0 0 0 1 -1
+M 0 5 1 96 	(SecurityPRIME)
+M 0 174 2 96 	(SecurityDEVA D174 (Agency))
+R 0 96 92 -1 	(Security Board)
+O 1 92 99 96 	(Security Board)
+M 0 174 2 95 	(SecurityDEVA D174 (Agency))
+R 0 95 92 -1 	(Security Board)
+O 0 92 99 95 	(Security Board)
 R 0 12 12 -1 	(Vedas Book2)
 O 1 12 25 12 	(Vedas Book2)
 R 0 11 11 -1 	(Vedas Book1)
@@ -19,15 +26,6 @@ O 0 31 1 31 	(Vamraka Fountain)
 M 0 14 5 31 	(Vamraka Fighter)
 R 0 31 4 -1 	(Cheddar Cheese)
 O 1 4 99 31 	(Cheddar Cheese)
-M 0 5 1 96 	(SecurityPRIME)
-M 0 174 2 96 	(SecurityDEVA D174 (Agency))
-M 0 143 10 96 	(SecurityDEVA D143 (Patrol))
-R 0 96 92 -1 	(Security Board)
-O 0 92 99 96 	(Security Board)
-M 0 174 2 95 	(SecurityDEVA D174 (Agency))
-M 0 143 10 95 	(SecurityDEVA D143 (Patrol))
-R 0 95 92 -1 	(Security Board)
-O 0 92 99 95 	(Security Board)
 M 0 2 1 33 	(Indra)
 M 0 3 1 34 	(Soma)
 M 0 4 1 35 	(Bom)

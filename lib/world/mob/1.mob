@@ -652,14 +652,14 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #143
-security securitydeva patrol d143 z1~
-SecurityDEVA D143 (Patrol)~
+arjika artisan householder~
+Artisan Householder~
 0143/main:avatar~
 0143/main:look~
-6168 0 0 0 2168 0 0 0 0 E
+6170 0 0 0 2168 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 2 11
+8 8 1 3 2
 BareHandAttack: 13
 SavingPara: 3
 SavingRod: 3
@@ -668,14 +668,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #144
-black master deva monk~
-Black Deva~
+arjika agent householder~
+Agent Householder~
 0144/main:avatar~
 0144/main:look~
-2072 0 0 0 2168 0 0 0 400 E
+2074 0 0 0 2168 0 0 0 400 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 0 2 13
+8 8 1 3 1
 BareHandAttack: 1
 SavingPara: 3
 SavingRod: 3
@@ -684,14 +684,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #145
-yellow deva monk~
-Yellow Deva~
+client householder arjika~
+Client Householder~
 0145/main:avatar~
 0145/main:look~
 6170 0 0 0 2168 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 0 3 0
+6 6 1 3 0
 Str: 14
 Dex: 14
 Int: 14

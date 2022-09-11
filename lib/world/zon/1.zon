@@ -2,7 +2,11 @@
 Quinn~
 Arjika~
 100 199 30 2 d 0 0 0 -1 -1
-M 0 144 1 144 	(Black Master Deva)
+M 0 143 1 143 	(SecurityDEVA D143 (Patrol))
+M 0 140 1 140 	(SecurityDEVA D140 (Guard))
+O 1 92 41 140 	(Security Board)
+M 0 145 1 145 	(Client Householder)
+M 0 144 1 144 	(Agent Householder)
 M 0 179 1 179 	(Arjika Private)
 D 0 179 5 1 	(Communications)
 M 0 185 1 125 	(Soma Disciple)
@@ -19,9 +23,6 @@ R 0 107 92 -1 	(Security Board)
 O 1 92 99 107 	(Security Board)
 M 0 149 1 149 	(Arjika Sergeant)
 M 0 159 1 159 	(Arjika Lieutenant)
-M 0 140 1 140 	(SecurityDEVA D140 (Guard))
-O 1 92 41 140 	(Security Board)
-M 0 143 10 140 	(SecurityDEVA D143 (Patrol))
 M 0 112 1 112 	(SecurityDEVA D112 (Lookout))
 R 0 112 92 -1 	(Security Board)
 O 1 92 99 112 	(Security Board)
