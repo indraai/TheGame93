@@ -461,7 +461,7 @@ D2
 0 0 184
 S
 #142
-indra.house/5b4b~
+Science House~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -470,7 +470,7 @@ D2
 0 0 155
 S
 #143
-indra.house/3b2b~
+Artisan House~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -479,7 +479,7 @@ D2
 0 0 156
 S
 #144
-indra.house/2b2b~
+Agent House~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -488,7 +488,7 @@ D2
 0 0 157
 S
 #145
-indra.house/1b1b~
+Client House~
 undefined~
 1 2616 0 0 0 0
 D2
@@ -847,7 +847,7 @@ D3
 0 0 167
 S
 #170
-indra.house 4b3b~
+Engineer House~
 undefined~
 1 2616 0 0 0 0
 D0
@@ -856,7 +856,7 @@ D0
 1 0 155
 S
 #171
-indra.house/3b3b~
+Programmer House~
 undefined~
 1 2616 0 0 0 0
 D0
@@ -865,7 +865,7 @@ D0
 1 0 156
 S
 #172
-2B2B Home~
+Hacker House~
 undefined~
 1 2616 0 0 0 0
 D0
