@@ -28,6 +28,7 @@ CircleMUD v3.0 Shop File~
 1.00
 1.00
 12book
+2books
 -1
 %s Sorry, I don't stock that item.~
 %s You don't seem to have that.~
@@ -195,7 +196,7 @@ CircleMUD v3.0 Shop File~
 %s I'll give you %d coins for that.~
 0
 6
-130
+264
 0
 264
 -1

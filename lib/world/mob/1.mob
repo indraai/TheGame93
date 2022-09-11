@@ -454,21 +454,6 @@ SavingPetri: 6
 SavingBreath: 6
 SavingSpell: 6
 E
-#130
-sarry grocer groderies store devi~
-Sarry~
-0130/main:avatar~
-0130/main:look~
-2074 0 0 0 0 0 0 0 250 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 7 1 1
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
-E
 #131
 security securitydeva guard arcade d131 z1~
 SecurityDEVA D131 (Arcade)~
@@ -703,10 +688,10 @@ yellow deva monk~
 Yellow Deva~
 0145/main:avatar~
 0145/main:look~
-6168 0 0 0 2064 0 0 0 500 E
+6170 0 0 0 2168 0 0 0 500 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 0 2 13
+8 8 0 3 0
 Str: 14
 Dex: 14
 Int: 14
@@ -861,22 +846,6 @@ SavingRod: 8
 SavingPetri: 8
 SavingBreath: 8
 SavingSpell: 8
-E
-#158
-farry fashion store devi~
-Farry~
-0158/main:avatar~
-0158/main:look~
-16394 0 0 0 0 0 0 0 250 E
-5 19 7 1d1+50 1d2+0
-50 2500
-8 8 7 1 1
-BareHandAttack: 2
-SavingPara: 1
-SavingRod: 1
-SavingPetri: 1
-SavingBreath: 1
-SavingSpell: 1
 E
 #159
 lieutenant arjika military a159 z0 soldier~

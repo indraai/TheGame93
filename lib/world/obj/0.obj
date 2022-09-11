@@ -92,17 +92,30 @@ Internet Detective Badge~
 0 0 0 0
 1 1 0 0 0
 #11
-academy training course level2~
-Academy Level 2~
+veda vedas rigveda training book books book1~
+Vedas Book1~
 0011/main:avatar~
 0011/main:look
 ~
-2 dht 0 0 0 a 0 0 0 0 0 0 0
+2 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
-0 0 0 2 0
+0 20 0 1 0
 E
-comfy bed~
-This bed is beckoning you to lie down and get some much needed sleep. Just "sleep bed"
+book1~
+011/main:book1
+~
+#12
+veda vedas rigveda book books book2~
+Vedas Book2~
+0012/main:avatar~
+0012/main:look
+~
+2 0 0 0 0 a 0 0 0 0 0 0 0
+0 -1 -1 -1
+1 40 0 2 0
+E
+book2~
+0012/main:book2
 ~
 #19
 barry boots~

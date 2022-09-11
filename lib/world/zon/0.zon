@@ -2,6 +2,10 @@
 Quinn~
 Arjika~
 0 99 15 2 d 0 0 0 1 -1
+R 0 12 12 -1 	(Vedas Book2)
+O 1 12 25 12 	(Vedas Book2)
+R 0 11 11 -1 	(Vedas Book1)
+O 1 11 25 11 	(Vedas Book1)
 M 0 1 1 32 	(Indu)
 M 0 165 1 32 	(Indu Disciple)
 O 0 32 1 32 	(Indu Fountain)
