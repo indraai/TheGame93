@@ -15,7 +15,7 @@
 #define AQ_OBJ_FIND         0   /* Player must retreive object          */
 #define AQ_ROOM_FIND        1   /* Player must reach room               */
 #define AQ_MOB_FIND         2   /* Player must find mob                 */
-#define AQ_MOB_KILL         3   /* Player must kill mob                 */
+#define AQ_MOB_TACKLE       3   /* Player must kill mob                 */
 #define AQ_MOB_SAVE         4   /* Player must save mob                 */
 #define AQ_OBJ_RETURN       5   /* Player gives object to mob in val5   */
 #define AQ_ROOM_CLEAR       6   /* Player must clear room of all mobs   */

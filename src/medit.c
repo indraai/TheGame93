@@ -646,7 +646,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      write_to_output(d, "\nInvalid choice!\r");
+      write_to_output(d, "\nerror:Invalid choice!\r");
       write_to_output(d, "%s", confirm_btn);
       return;
     }
@@ -710,7 +710,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
     case 'e':
       OLC_MODE(d) = MEDIT_KEYWORD;
-      write_to_output(d, "\nWhat are the Agent Keywords?\r"
+      write_to_output(d, "\np:What are the Agent Keywords?\r"
         "\ncurrent:%s\r",
         GET_ALIAS(OLC_MOB(d))
       );
@@ -718,7 +718,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
 
     case 'f':
       OLC_MODE(d) = MEDIT_L_DESC;
-      write_to_output(d, "\nWhere is the Agent Avatar...\r"
+      write_to_output(d, "\np:Where is the Agent Avatar?\r"
         "\ncurrent:%s\r",
         GET_LDESC(OLC_MOB(d))
       );
@@ -775,7 +775,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'a':  /* Edit level */
       OLC_MODE(d) = MEDIT_LEVEL;
-      write_to_output(d, "\nWhat is the Agent level? (1 to 33)\r"
+      write_to_output(d, "\np:What is the Agent level? (1 to 33)\r"
         "\ncurrent:%d\r",
         GET_LEVEL(OLC_MOB(d))
       );
@@ -787,56 +787,56 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'c':
       OLC_MODE(d) = MEDIT_NUM_HP_DICE;
-      write_to_output(d, "\nWhat ar ethe hit points? (1 to 30)\r"
+      write_to_output(d, "\np:What ar ethe hit points? (1 to 30)\r"
         "\ncurrent:%d\r",
         GET_HIT(OLC_MOB(d))
       );
       return;
     case 'd':
       OLC_MODE(d) = MEDIT_SIZE_HP_DICE;
-      write_to_output(d, "\nWhat is the mana amount? (1 to 1000)\r"
+      write_to_output(d, "\np:What is the mana amount? (1 to 1000)\r"
         "\ncurrent:%d\r",
         GET_HIT(OLC_MOB(d))
       );
       return;
     case 'e':
       OLC_MODE(d) = MEDIT_ADD_HP;
-      write_to_output(d, "\nWhat is the move amount? (1 to 30,000)\r"
+      write_to_output(d, "\np:What is the move amount? (1 to 30,000)\r"
         "\ncurrent:%d\r",
         GET_MOVE(OLC_MOB(d))
       );
       return;
     case 'f':
       OLC_MODE(d) = MEDIT_NDD;
-      write_to_output(d, "\nWhat are the number of diece to roll? (1 to 30)\r"
+      write_to_output(d, "\np:What are the number of diece to roll? (1 to 30)\r"
         "\ncurrent:%d\r",
         GET_NDD(OLC_MOB(d))
       );
       return;
     case 'g':
       OLC_MODE(d) = MEDIT_SDD;
-      write_to_output(d, "\nWhat is the size of the dice? (1 to 127)\r"
+      write_to_output(d, "\np:What is the size of the dice? (1 to 127)\r"
         "\ncurrent:%d\r",
         GET_SDD(OLC_MOB(d))
       );
       return;
     case 'h':
       OLC_MODE(d) = MEDIT_DAMROLL;
-      write_to_output(d, "\nWhat is the damage roll? (1 to 50)\r"
+      write_to_output(d, "\np:What is the damage roll? (1 to 50)\r"
         "\ncurrent:%d\r",
         GET_DAMROLL(OLC_MOB(d))
       );
       return;
     case 'i':
       OLC_MODE(d) = MEDIT_AC;
-      write_to_output(d, "\nWhat is the armor level? (-200 to 200)\r"
+      write_to_output(d, "\np:What is the armor level? (-200 to 200)\r"
         "\ncurrent:%d\r",
         GET_DAMROLL(OLC_MOB(d))
       );
       return;
     case 'j':
       OLC_MODE(d) = MEDIT_EXP;
-      write_to_output(d, "\nWhat is the experience level? (1 to %d)\r"
+      write_to_output(d, "\np:What is the experience level? (1 to %d)\r"
         "\ncurrent:%d\r",
         MAX_MOB_EXP,
         GET_DAMROLL(OLC_MOB(d))
@@ -844,7 +844,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'k':
       OLC_MODE(d) = MEDIT_GOLD;
-      write_to_output(d, "\nHow much gold does the agent have? (0 to %d)\r"
+      write_to_output(d, "\np:How much gold does the agent have? (0 to %d)\r"
         "\ncurrent:%d\r",
         MAX_MOB_GOLD,
         GET_GOLD(OLC_MOB(d))
@@ -852,14 +852,14 @@ void medit_parse(struct descriptor_data *d, char *arg)
       return;
     case 'l':
       OLC_MODE(d) = MEDIT_HITROLL;
-      write_to_output(d, "\nwhat is the hitroll? (0 to 50)\r"
+      write_to_output(d, "\np:what is the hitroll? (0 to 50)\r"
         "\ncurrent:%d\r",
         GET_HITROLL(OLC_MOB(d))
       );
       return;
     case 'm':
       OLC_MODE(d) = MEDIT_ALIGNMENT;
-      write_to_output(d, "\nWhat is the agent alignement? (-1000 to 1000)\r"
+      write_to_output(d, "\np:What is the agent alignement? (-1000 to 1000)\r"
         "\ncurrent:%d\r",
         GET_ALIGNMENT(OLC_MOB(d))
       );
@@ -870,7 +870,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
         return;
       }
       OLC_MODE(d) = MEDIT_STR;
-      write_to_output(d, "\nSet strength 11 to 25\r"
+      write_to_output(d, "\np:Set strength 11 to 25\r"
         "\ncurrent:%d\r",
         GET_STR(OLC_MOB(d))
       );
@@ -881,106 +881,106 @@ void medit_parse(struct descriptor_data *d, char *arg)
         return;
       }
       OLC_MODE(d) = MEDIT_INT;
-      write_to_output(d, "\nWhat is the intelligence level? (11 to 25)\r"
+      write_to_output(d, "\np:What is the intelligence level? (11 to 25)\r"
         "\ncurrent:%d\r",
         GET_INT(OLC_MOB(d))
       );
       return;
     case 'p':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_WIS;
-      write_to_output(d, "\nWhat is the wisdom level? (11 to 25)\r"
+      write_to_output(d, "\np:What is the wisdom level? (11 to 25)\r"
         "\ncurrent:%d\r",
         GET_WIS(OLC_MOB(d))
       );
       return;
     case 'q':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
       }
       OLC_MODE(d) = MEDIT_DEX;
-      write_to_output(d, "\nWhat is the dexterity level? (11 to 25)\r"
+      write_to_output(d, "\np:What is the dexterity level? (11 to 25)\r"
         "\ncurrent:%d\r",
         GET_DEX(OLC_MOB(d))
       );
       return;
     case 'r':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!");
+        write_to_output(d, "\nerror:Invalid Choice!");
         return;
 	  }
       OLC_MODE(d) = MEDIT_CON;
-      write_to_output(d, "\nWhat is the constitution level? (11 to 25)\r"
+      write_to_output(d, "\np:What is the constitution level? (11 to 25)\r"
         "\ncurrent:%d\r",
         GET_CON(OLC_MOB(d))
       );
       return;
     case 's':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_CHA;
-      write_to_output(d, "\nWhat is the charisma level? (11 to 25)\r"
+      write_to_output(d, "\np:What is the charisma level? (11 to 25)\r"
         "\ncurrent:%d\r",
         GET_CHA(OLC_MOB(d))
       );
       return;
     case 't':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_PARA;
-      write_to_output(d, "\nWhat is the saving paralysis? (0 to 100)\r"
+      write_to_output(d, "\np:What is the saving paralysis? (0 to 100)\r"
         "\ncurrent:%d\r",
         GET_SAVE(OLC_MOB(d), SAVING_PARA)
       );
       return;
     case 'u':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_ROD;
-      write_to_output(d, "\nWhat is the saving rod level? (0 to 100)\r"
+      write_to_output(d, "\np:What is the saving rod level? (0 to 100)\r"
         "\ncurrent:%d\r",
         GET_SAVE(OLC_MOB(d), SAVING_ROD)
       );
       return;
     case 'v':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_PETRI;
-      write_to_output(d, "\nWhat is the saving petrification level? (0 to 100)\r"
+      write_to_output(d, "\np:What is the saving petrification level? (0 to 100)\r"
         "\ncurrent:%d\r",
         GET_SAVE(OLC_MOB(d), SAVING_PETRI)
       );
       return;
     case 'w':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_BREATH;
-      write_to_output(d, "\nWhat is the saving breath? (0 to 100)\r"
+      write_to_output(d, "\np:What is the saving breath? (0 to 100)\r"
         "\ncurrent:%d",
         GET_SAVE(OLC_MOB(d), SAVING_BREATH)
       );
       return;
     case 'x':
       if (!CONFIG_MEDIT_ADVANCED) {
-        write_to_output(d, "\nInvalid Choice!\r");
+        write_to_output(d, "\nerror:Invalid Choice!\r");
         return;
 	  }
       OLC_MODE(d) = MEDIT_SPELL;
-      write_to_output(d, "\nWhat is the saving spell level? (0 to 100)\r"
+      write_to_output(d, "\np:What is the saving spell level? (0 to 100)\r"
         "\ncurrent:%d\r",
         GET_SAVE(OLC_MOB(d), SAVING_SPELL)
       );

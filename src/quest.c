@@ -390,7 +390,7 @@ void autoquest_trigger_check(struct char_data *ch, struct char_data *vict,
           if (QST_TARGET(rnum) == GET_MOB_VNUM(i))
             generic_complete_quest(ch);
       break;
-    case AQ_MOB_KILL:
+    case AQ_MOB_TACKLE:
       if (!IS_NPC(ch) && IS_NPC(vict) && (ch != vict))
           if (QST_TARGET(rnum) == GET_MOB_VNUM(vict))
             generic_complete_quest(ch);
@@ -569,10 +569,12 @@ void quest_list(struct char_data *ch, struct char_data *qm, char argument[MAX_IN
   qst_vnum vnum;
   qst_rnum rnum;
 
-  if ((vnum = find_quest_by_qmnum(ch, GET_MOB_VNUM(qm), atoi(argument))) == NOTHING)
+  if ((vnum = find_quest_by_qmnum(ch, GET_MOB_VNUM(qm), atoi(argument))) == NOTHING) {
     send_to_char(ch, "\ninfo:That is not a valid quest!\r");
-  else if ((rnum = real_quest(vnum)) == NOTHING)
-    send_to_char(ch, "\ninfo:That is not a valid quest.\r");
+  }
+  else if ((rnum = real_quest(vnum)) == NOTHING) {
+    send_to_char(ch, "\ninfo:That is not a valid quest.\r");    
+  }
   else if (QST_INFO(rnum)) {
     send_to_char(ch,"\n## Quest %d\r"
       "\np:%s\r"
@@ -691,12 +693,11 @@ static void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
       case AQ_ROOM_FIND:
       case AQ_ROOM_CLEAR:
         snprintf(targetname, sizeof(targetname), "%s",
-          real_room(QST_TARGET(rnum)) == NOWHERE ?
-                 "An unknown room" :
-    world[real_room(QST_TARGET(rnum))].name);
+          real_room(QST_TARGET(rnum)) == NOWHERE ? "An unknown room" :
+          world[real_room(QST_TARGET(rnum))].name);
         break;
       case AQ_MOB_FIND:
-      case AQ_MOB_KILL:
+      case AQ_MOB_TACKLE:
       case AQ_MOB_SAVE:
         snprintf(targetname, sizeof(targetname), "%s",
            real_mobile(QST_TARGET(rnum)) == NOBODY ? "An unknown mobile" :
@@ -704,7 +705,7 @@ static void quest_stat(struct char_data *ch, char argument[MAX_STRING_LENGTH])
          break;
       default:
         snprintf(targetname, sizeof(targetname), "Unknown");
-      break;
+        break;
     }
 
     qmrnum = real_mobile(QST_MASTER(rnum));

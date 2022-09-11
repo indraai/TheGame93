@@ -285,7 +285,7 @@ static void qedit_disp_menu(struct descriptor_data *d)
                world[real_room(quest->target)].name);
       break;
     case AQ_MOB_FIND:
-    case AQ_MOB_KILL:
+    case AQ_MOB_TACKLE:
     case AQ_MOB_SAVE:
       snprintf(targetname, sizeof(targetname), "%s",
                real_mobile(quest->target) == NOBODY ?
@@ -435,7 +435,6 @@ void qedit_parse(struct descriptor_data *d, char *arg)
     case QEDIT_CONFIRM_DELETE:
       switch (*arg) {
         case 'y':
-        case 'Y':
           if (delete_quest(real_quest(OLC_NUM(d)))) {
             write_to_output(d, "\ninfo:Quest deleted.\r");
           }
@@ -452,7 +451,6 @@ void qedit_parse(struct descriptor_data *d, char *arg)
           cleanup_olc(d, CLEANUP_ALL);
           return;
         case 'n':
-        case 'N':
           qedit_disp_menu(d);
           return;
         default:
