@@ -179,11 +179,11 @@ struct guild_info_type guild_info[] = {
  { CLASS_ENGINEER, 170, NORTH },
  { CLASS_PROGRAMMER, 171, NORTH },
  { CLASS_HACKER, 172, NORTH },
- { CLASS_LEGAL, 173, NORTH },
- { CLASS_POLITICS, 175, NORTH },
- { CLASS_MEDICAL, 176, NORTH },
- { CLASS_SECURITY, 177, NORTH },
- { CLASS_MILITARY, 178, NORTH },
+ { CLASS_MEDIA, 173, NORTH },
+ { CLASS_LEGAL, 175, NORTH },
+ { CLASS_POLITICS, 176, NORTH },
+ { CLASS_MILITARY, 177, NORTH },
+ { CLASS_ROYAL, 178, NORTH },
 
 /* Brass Dragon */
   { -999 /* all */ ,	5065,	WEST	},
@@ -1674,6 +1674,24 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
  * skill. */
 void init_spell_levels(void)
 {
+  /* CLIENT */
+  spell_level(SPELL_DETECT_ALIGN, CLASS_CLIENT, 1);
+  spell_level(SPELL_DETECT_INVIS, CLASS_CLIENT, 2);
+  spell_level(SPELL_DETECT_MAGIC, CLASS_CLIENT, 2);
+  spell_level(SPELL_DETECT_POISON, CLASS_CLIENT, 3);
+  spell_level(SPELL_INFRAVISION, CLASS_CLIENT, 3);
+  spell_level(SPELL_ARMOR, CLASS_CLIENT, 4);
+  spell_level(SPELL_REMOVE_CURSE, CLASS_CLIENT, 5);
+  spell_level(SPELL_LOCATE_OBJECT, CLASS_CLIENT, 6);
+  spell_level(SPELL_CREATE_WATER, CLASS_CLIENT, 7);
+  spell_level(SPELL_CREATE_FOOD, CLASS_CLIENT, 8);
+  spell_level(SPELL_HEAL, CLASS_CLIENT, 9);
+  spell_level(SPELL_CURE_BLIND, CLASS_CLIENT, 9);
+  spell_level(SPELL_DETECT_POISON, CLASS_CLIENT, 10);
+  spell_level(SPELL_COLOR_SPRAY, CLASS_CLIENT, 11);
+  spell_level(SPELL_ENERGY_DRAIN, CLASS_CLIENT, 13);
+  spell_level(SPELL_DISPEL_EVIL, CLASS_CLIENT, 14);
+
   /* AGENT */
   spell_level(SPELL_MAGIC_MISSILE, CLASS_AGENT, 1);
   spell_level(SPELL_DETECT_INVIS, CLASS_AGENT, 2);
@@ -1734,16 +1752,30 @@ void init_spell_levels(void)
   spell_level(SPELL_GROUP_HEAL, CLASS_ARTIST, 22);
   spell_level(SPELL_REMOVE_CURSE, CLASS_ARTIST, 26);
 
-  /* HACKER */
-  spell_level(SKILL_TRACK, CLASS_SCIENTIST, 6);
+  /* SCIENTIST */
+  spell_level(SKILL_TRACK, CLASS_SCIENTIST, 1);
 
-  /* ENGINEER */
-  spell_level(SKILL_KICK, CLASS_ENGINEER, 1);
-  spell_level(SKILL_RESCUE, CLASS_ENGINEER, 3);
-  spell_level(SKILL_BANDAGE, CLASS_ENGINEER, 7);
-  spell_level(SKILL_TRACK, CLASS_ENGINEER, 9);
-  spell_level(SKILL_BASH, CLASS_ENGINEER, 12);
-  spell_level(SKILL_WHIRLWIND, CLASS_ENGINEER, 16);
+  /* engineer */
+  spell_level(SKILL_TRACK, CLASS_ENGINEER, 1);
+  /* PROGRAMMER */
+  spell_level(SKILL_TRACK, CLASS_PROGRAMMER, 1);
+  /* HACKER */
+  spell_level(SKILL_TRACK, CLASS_HACKER, 1);
+  /* MEDIA */
+  spell_level(SKILL_TRACK, CLASS_MEDIA, 1);
+  /* LEGAL */
+  spell_level(SKILL_TRACK, CLASS_LEGAL, 1);
+  /* POLITICS */
+  spell_level(SKILL_TRACK, CLASS_POLITICS, 1);
+  /* MEDICAL */
+  spell_level(SKILL_TRACK, CLASS_MEDICAL, 1);
+  /* SECURITY */
+  spell_level(SKILL_TRACK, CLASS_SECURITY, 1);
+  /* MILITARY */
+  spell_level(SKILL_TRACK, CLASS_MILITARY, 1);
+  /* ROYAL */
+  spell_level(SKILL_TRACK, CLASS_ROYAL, 1);
+
 }
 
 /* This is the exp given to implementors -- it must always be greater than the
