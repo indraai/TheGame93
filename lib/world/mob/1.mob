@@ -630,26 +630,26 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #142
-vitasta visvedevas deity~
-Vitasta~
+arjika science householder a142 z1~
+Science Householder~
 0142/main:avatar~
 0142/main:look
 ~
-6168 0 0 0 2048 0 0 0 500 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 6 6 6
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
-SavingPara: 7
-SavingRod: 7
-SavingPetri: 7
-SavingBreath: 7
-SavingSpell: 7
+6170 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 3
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #143
 arjika artisan householder~
@@ -963,6 +963,58 @@ Kermit The Frog~
 190 36100
 8 8 1 3 3
 BareHandAttack: 4
+E
+#170
+arjika engineer householder z1 a170~
+Engineer Householder~
+170/main:avatar~
+170/main:look~
+6234 0 0 0 2168 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 3 4
+E
+#171
+arjika programmer householder a171 z1~
+Programmer Householder~
+171/main:avatar~
+171/main:look~
+6234 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 5
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#172
+arjika hacker householder~
+Hacker Householder~
+172/main:avatar~
+172/main:look~
+6234 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 6
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
 E
 #174
 security securitydeva agency d174 z1~
