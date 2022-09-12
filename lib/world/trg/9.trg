@@ -17,7 +17,7 @@ if %actor.varexists(on_tour)%
   %send% %actor% gui:#adv world:thegame %room%/main:trg5
   wait 30s
   %send% %actor% gui:#mud %d%
-en8
+end
 ~
 #901
 Triggers East~
