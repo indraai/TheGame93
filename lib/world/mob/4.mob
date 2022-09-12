@@ -112,4 +112,15 @@ SavingPetri: 6
 SavingBreath: 6
 SavingSpell: 6
 E
+#406
+ben woo woonicorn prisoner prison z4 a406~
+Ben Woo~
+406/main:avatar~
+406/main:look~
+168 0 0 0 2 0 0 0 -1000 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 0 1
+BareHandAttack: 1
+E
 $
