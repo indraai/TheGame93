@@ -10,7 +10,7 @@ set msg[5] When people get too chummy with me, I like to call them by the wrong 
 set msg[6] I regret nothing. The end.
 eval themsg %%msg[%random.6%]%%
 if %actor.is_pc%
-  wait 1 sec
+  wait 3 sec
   say %themsg%
 end
 ~
@@ -25,7 +25,7 @@ set msg[4] I always wanted to play the boyfriends of doomed girls.
 set msg[5] I have such thin skin, so I make a concerted effort to avoid reading anything about myself.
 eval themsg %%msg[%random.5%]%%
 if %actor.is_pc%
-  wait 1 sec
+  wait 3 sec
   say %themsg%
 end
 ~
@@ -41,7 +41,7 @@ set msg[5]  It's called male bonding okay. Haven't you even seen 'Wild Hogs'?
 
 eval themsg %%msg[%random.5%]%%
 if %actor.is_pc%
-  wait 1 sec
+  wait 3 sec
   say %themsg%
 end
 ~
@@ -62,7 +62,7 @@ set msg[9] I appreciate humor so much, but I'm actually not a funny girl.
 
 eval themsg %%msg[%random.9%]%%
 if %actor.is_pc%
-  wait 1 sec
+  wait 3 sec
   say %themsg%
 end
 ~
