@@ -23,6 +23,10 @@ D2
 ~
 ~
 0 0 502
+D3
+~
+~
+0 0 505
 S
 #502
 Sunset Blvd.~
@@ -64,22 +68,26 @@ D2
 0 0 1182
 S
 #505
-Training Room 505~
+Hillhaven Lodge~
 [DESCRIBE]~
-5 0 0 0 0 0
-D0
+5 8 0 0 0 0
+D1
+~
+~
+0 0 501
+D5
 ~
 ~
 0 0 506
 S
 #506
-Training Room 506~
+Allan Carr Disco~
 [DESCRIBE]~
 5 8 0 0 0 0
-D0
+D4
 ~
 ~
-0 0 507
+0 0 505
 S
 #507
 Training Room 507~
