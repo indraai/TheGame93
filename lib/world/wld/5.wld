@@ -1,51 +1,63 @@
 #500
-Training Room 500~
+Hollywood~
 [DESCRIBE]~
-5 8 0 0 0 0
+5 0 0 0 0 4
 D1
 ~
 ~
-0 0 501
+0 0 308
 D2
 ~
 ~
-0 0 389
+0 0 501
 S
 #501
-Training Room 501~
+Hollywood Blvd.~
 [DESCRIBE]~
-5 8 0 0 0 0
+5 0 0 0 0 1
+D0
+~
+~
+0 0 500
 D2
 ~
 ~
 0 0 502
 S
 #502
-Training Room 502~
+Sunset Blvd.~
 [DESCRIBE]~
-5 8 0 0 0 0
+5 0 0 0 0 1
+D0
+~
+~
+0 0 501
 D2
 ~
 ~
 0 0 503
 S
 #503
-Training Room 503~
+Santa Monica Blvd.~
 [DESCRIBE]~
-5 8 0 0 0 0
-D3
+5 0 0 0 0 1
+D0
+~
+~
+0 0 502
+D2
 ~
 ~
 0 0 504
 S
 #504
-Training Room 504~
+Wilshire Blvd.~
 [DESCRIBE]~
-5 8 0 0 0 0
-D3
+5 0 0 0 0 1
+D0
 ~
 ~
-0 0 505
+0 0 503
 S
 #505
 Training Room 505~
