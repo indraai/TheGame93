@@ -55,17 +55,21 @@ D2
 0 0 504
 S
 #504
-Wilshire Blvd.~
+Beverly Blvd.~
 [DESCRIBE]~
 5 0 0 0 0 1
 D0
 ~
 ~
 0 0 503
+D1
+~
+~
+0 0 509
 D2
 ~
 ~
-0 0 1182
+0 0 508
 S
 #505
 Hillhaven Lodge~
@@ -75,6 +79,10 @@ D1
 ~
 ~
 0 0 501
+D4
+~
+~
+0 0 507
 D5
 ~
 ~
@@ -88,14 +96,41 @@ D4
 ~
 ~
 0 0 505
+D5
+~
+~
+0 0 505
 S
 #507
-Training Room 507~
+Allan Carr Bedroom~
 [DESCRIBE]~
 5 8 0 0 0 0
 D5
 ~
 ~
-0 0 390
+0 0 505
+S
+#508
+Wilshire Blvd.~
+[DESCRIBE]~
+5 0 0 0 0 1
+D0
+~
+~
+0 0 504
+D2
+~
+~
+0 0 1182
+S
+#509
+The Odyssey~
+You are in an unfinished room.
+~
+5 8 0 0 0 0
+D3
+~
+~
+0 0 504
 S
 $~
