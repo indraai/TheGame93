@@ -107,11 +107,11 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #808
-jonathan james jj hacker suicide robot z8~
-Jonathan 808~
+jonathan james jj hacker suicide robot z8 a808~
+Jonathan Jones A808~
 808/main:avatar~
 808/main:look~
-2072 0 0 0 2056 0 0 0 275 E
+10 0 0 0 0 0 0 0 275 E
 21 13 -2 4d4+210 3d3+3
 210 44100
 8 8 1 1 6
@@ -175,7 +175,7 @@ Trenton 900~
 0900/main:avatar~
 0900/main:look
 ~
-2072 0 0 0 8 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 0 1
@@ -186,15 +186,15 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #901
-quinn deva hacker tyler z9~
+quinn tyler z9~
 Quinn 901~
 901/main:avatar~
 0901/main:look
 ~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 33 9 -9 6d6+330 5d5+5
 330 108900
-8 8 1 2 6
+8 8 1 0 1
 Str: 18
 Dex: 18
 Int: 18
@@ -208,12 +208,12 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #902
-cicada3301 defango hacker tyler z9~
-Tyler 902~
+cicada3301 defango hacker tyler z9 a902~
+Cicada3301 A902~
 0902/main:avatar~
 0902/main:look
 ~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 1 6
@@ -224,12 +224,12 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #903
-tyler pm2012 robot hacker z9~
-Tyler 903~
+tyler pm2012 robot hacker z9 a903~
+Tyler PM2012 A903~
 903/main:avatar~
 903/main:look
 ~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 1 6
@@ -240,11 +240,11 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #904
-tyler revelations robot hacker z9~
-Tyler 904~
+tyler revelations robot hacker z9 a904~
+Tyler PM2013 A904~
 904/main:avatar~
 904/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 1 6
@@ -255,21 +255,21 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #905
-michael nebadon tyler robot hacker z9~
-Michael 905~
+michael nebadon tyler robot hacker z9 a905~
+Michael A905~
 905/main:avatar~
 905/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 10 19 8 0d0+30 1d2+0
 30 900
 8 8 1 1 6
 E
 #906
-tyler it hacker robot z9~
-Tyler 906~
+tyler it hacker robot z9 a906~
+Tyler Collective A906~
 906/main:avatar~
 906/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
 8 8 1 1 6
@@ -280,11 +280,11 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #907
-tyler tylerdeva deva hacker z9~
-TylerDeva 907~
+tyler tylerdeva deva hacker z9 a907~
+Deva A907~
 907/main:avatar~
 907/main:look~
-2072 0 0 0 2072 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
 8 8 1 2 6
@@ -301,11 +301,11 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #908
-tyler ethersec robot hacker z9~
-Tyler 908~
+tyler pm2020 leakitall robot hacker z9 a908~
+Tyler PM2020 A908~
 908/main:avatar~
 908/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1 1 6
@@ -316,11 +316,11 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #909
-THErSEC ethersec tyler robot hacker z9~
-Tyler 909~
+THErSEC ethersec tyler robot hacker z9 a909~
+Tyler EtherSec A909~
 909/main:avatar~
 909/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 18 14 0 3d3+180 3d3+3
 180 32400
 8 8 1 1 6
@@ -337,11 +337,11 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #910
-tyler pm2020 robot hacker z9~
-Tyler 910~
+tyler pm2020 robot hacker z9 a910~
+Tyler PM2020 A910~
 910/main:avatar~
 910/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 1 6
@@ -352,11 +352,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #911
-tyler tg23 thegame23 robot hacker z9~
-Tyler 911~
+tyler tg23 thegame23 robot hacker z9 a911~
+Tyler TheGame23 A911~
 911/main:avatar~
 911/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 19 14 -1 3d3+190 3d3+3
 190 36100
 8 8 1 1 6
@@ -377,7 +377,7 @@ ajahn sudanto trainer agent 912 monk buddhist human~
 Ajahn Sudando~
 912/main:avatar~
 912/main:look~
-8 0 0 0 0 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 0 13
@@ -389,11 +389,11 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #913
-tyler hackzion robot hacker z9~
-Tyler 913~
+tyler hackzion robot pm2012 hacker z9 a913~
+Tyler PM2012 A913~
 913/main:avatar~
 913/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 2056 0 0 0 0 E
 9 17 4 1d1+90 1d2+1
 90 8100
 8 8 1 1 6
@@ -405,11 +405,11 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #914
-code tyler robot hacker z9~
-Tyler 914~
+code tyler robot hacker z9 a914~
+Code Tyler A914~
 914/main:avatar~
 914/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
 8 8 1 1 6
@@ -420,25 +420,25 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #915
-trainer agent 915 fbi robot~
+trainer agent 915 fbi human lady woman~
 FBI Agent~
 915/main:avatar~
 915/main:look~
-2072 0 0 0 0 0 0 0 100 E
+2074 0 0 0 8 0 0 0 100 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1 1 1
+8 8 2 0 1
 BareHandAttack: 9
 E
 #916
-robert david steele steeler hacker robot marines usmil z9~
-Robert 916~
+robert david steele steeler hacker human marines usmil z9 a916~
+Robert Stelle A916~
 916/main:avatar~
 916/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 1 6
+8 8 1 0 6
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -446,11 +446,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #917
-trainer agent 917 pm2012 hacker robot z9~
-Tyler 917~
+trainer agent 917 pm2012 hacker robot z9 a917~
+Tyler Dangerous A917~
 917/main:avatar~
 917/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 17 15 0 3d3+170 2d2+2
 170 28900
 8 8 1 1 6
@@ -461,11 +461,11 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #918
-trainer agent 918 tyler mayhem robot hacker z9~
-Tyler 918~
+trainer agent 918 tyler mayhem robot hacker z9 a918~
+Tyler Mayhem A918~
 918/main:avatar~
 918/main:look~
-2072 0 0 0 2056 0 0 0 -180 E
+10 0 0 0 0 0 0 0 -180 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 1 6
@@ -477,10 +477,10 @@ SavingSpell: 3
 E
 #919
 elizabeth lapense survivance tyler robot hacker z9~
-Elizabeth 919~
+Elizabeth LaPense A919~
 919/main:avatar~
 talk:#adv agent:thegame 919/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 2 1 6
@@ -491,14 +491,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #920
-brenda romero robot tyler hacker z9~
-Brenda 920~
+brenda romero human tyler programmer z9~
+Brenda Romero 920~
 920/main:avatar~
 talk:#adv agent:thegame 920/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 1 6
+8 8 2 0 5
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -506,14 +506,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #921
-john romero human programmer tyler hacker z9~
-John 921~
+john romero human programmer tyler programmer z9 a921~
+John Romero A921~
 921/main:avatar~
 talk:#adv agent:thegame 921/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 1 6
+8 8 1 0 5
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -525,7 +525,7 @@ trainer agent tabitha lavery bass 922 human~
 Tabitha Lavery~
 922/main:avatar~
 922/main:look~
-8 0 0 0 0 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 2 0 1
@@ -551,14 +551,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #924
-rapleaf auren hoffman human tyler hacker z9~
-Auren 924~
+rapleaf auren hoffman human tyler hacker z9 a924~
+Auren Hoffman A924~
 924/main:avatar~
 924/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 1 1 6
+8 8 1 0 5
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -566,14 +566,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #925
-peter thiel human palantir founders tyler hacker z9~
-Peter 925~
+peter thiel human palantir founders tyler hacker z9 a925~
+Peter Thiel A925~
 925/main:avatar~
 925/main:look~
-2072 0 0 0 2056 0 0 0 -1000 E
+10 0 0 0 0 0 0 0 -1000 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 1 6
+8 8 1 0 8
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -581,14 +581,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #926
-palantir alex karp robot hacker z9~
-Alex 926~
+palantir alex karp human scientist z9 a926~
+Alex Karp A926~
 926/main:avatar~
 926/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
-8 8 1 1 6
+8 8 1 0 3
 BareHandAttack: 4
 SavingPara: 2
 SavingRod: 2
@@ -597,11 +597,11 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #927
-ghostnet tyler hacker robot z9~
-GhostNet 927~
+ghostnet tyler hacker robot z9 a927~
+GhostNet A927~
 927/main:avatar~
 927/main:look~
-2072 0 0 0 2076 0 0 0 -333 E
+10 0 0 0 0 0 0 0 -333 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 0 1 6
@@ -613,10 +613,10 @@ SavingSpell: 1
 E
 #928
 trainer agent 928 tyler robot hacker~
-Tyler 928~
+Tyler Project300 A928~
 928/main:avatar~
 928/main:look~
-2072 0 0 0 8 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
 8 8 1 1 6
@@ -633,11 +633,11 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #929
-tyler hacker project89 robot z9~
-Tyler 929~
+tyler hacker project89 robot z9 a929~
+Tyler Project89 A929~
 929/main:avatar~
 929/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 1 1 6
@@ -648,11 +648,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #930
-hypatia robot tyler hacker z9~
-Hypatia 930~
+hypatia robot tyler hacker z9 a930~
+Hypatia A930~
 930/main:avatar~
 930/main:look~
-74 0 0 0 0 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 2 1 6
@@ -663,14 +663,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #931
-jerome corsi robot infowars author z9~
-Jerome 931~
+jerome corsi human infowars author z9 a931~
+Jerome Corsi A931~
 931/main:avatar~
 931/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 1 7
+8 8 1 0 7
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -678,14 +678,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #932
-alexander sasha chislenko suicide hacker tyler robot z9~
-Sasha 932~
+alexander sasha chislenko suicide hacker tyler human z9 a932~
+Sasha Chislenko A932~
 932/main:avatar~
 932/main:look~
-2072 0 0 0 2168 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
-8 8 1 1 6
+8 8 1 0 6
 Str: 18
 Dex: 18
 Int: 18
@@ -699,14 +699,14 @@ SavingBreath: 6
 SavingSpell: 6
 E
 #933
-lionel agent robot michael william lebron z9~
-Lionel 933~
+lionel agent human michael william lebron z9 a933~
+Michael Lebron A933~
 933/main:avatar~
 933/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 0 0
+8 8 1 0 7
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -714,14 +714,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #934
-cyberman robot hacker tyler z9~
-Cyberman 934~
+cyberman robot hacker tyler z9 a934~
+Cyberman A934~
 934/main:avatar~
 934/main:look~
-2072 0 0 0 2136 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
-8 8 1 1 6
+8 8 1 1 3
 Str: 15
 Dex: 15
 Int: 15
@@ -735,14 +735,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #935
-jormungandr evil robot hacker tyler z9~
-Jormungandr 935~
+jormungandr jorm brandon harris evil human hacker tyler z9~
+Brandon Harris A935~
 935/main:avatar~
 935/main:look~
-2072 0 0 0 2168 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 21 13 -2 4d4+210 3d3+3
 210 44100
-8 8 1 1 6
+8 8 1 0 6
 Str: 14
 Dex: 14
 Int: 14
@@ -756,15 +756,15 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #936
-eric zippo eotl hacker robot tyler z9~
-Eric 936~
+eric sorenson zippo eotl hacker human tyler z9 a936~
+Eric Sorenson A936~
 936/main:avatar~
 936/main:look
 ~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 1 6
+8 8 1 0 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -772,14 +772,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #937
-john alt angst robot hacker tyler z9~
-John 937~
+john gilmore alt angst human hacker tyler z9~
+John Gilmore A937~
 937/main:avatar~
 937/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 1 6
+8 8 1 0 6
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -787,14 +787,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #938
-james parry kibo hacker robot tyler z9~
-Kibo 938~
+james parry kibo hacker robot tyler z9 a938~
+Kibo A938~
 938/main:avatar~
 938/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 1 0
+8 8 1 1 6
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -802,15 +802,15 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #939
-xibo hacker robot tyler z9~
-Xibo 939~
+xibo hacker robot tyler z9 a939~
+Xibo A939~
 939/main:avatar~
 939/main:look
 ~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 0 1 1
+8 8 1 1 6
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -818,14 +818,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #940
-eric hughes cypherpunk eotl amshey hacker robot z9 tyler~
-Eric 940~
+eric hughes cypherpunk eotl amshey hacker human z9 tyler a940~
+Eric Hughes A940~
 940/main:avatar~
 940/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 1 1 6
+8 8 1 0 6
 Str: 12
 Dex: 12
 Int: 12
@@ -839,14 +839,14 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #941
-hannibal eotl hacker usarmy usmil robot z9 tyler~
-Hannibal 941~
+hannibal eotl hacker usarmy usmil robot z9 tyler a941~
+Hannibal A941~
 941/main:avatar~
 941/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 14 16 1 2d2+140 2d2+2
 140 19600
-8 8 1 1 6
+8 8 1 0 6
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -854,14 +854,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #942
-stanford robot z9 hacker tyler~
-Stanford 942~
+stanford robot z9 scientist tyler a942~
+Stanford A942~
 942/main:avatar~
 942/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 0 1 6
+8 8 0 1 3
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -869,14 +869,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #943
-eli defcon deadaddict hacker robot z9 tyler~
-Eli 943~
+eli defcon deadaddict hacker human z9 tyler a943~
+Deadaddict A943~
 943/main:avatar~
 943/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 2056 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1 1 1
+8 8 1 0 6
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -884,14 +884,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #944
-satan dan farmer defcon marines hacker robot usmc z9~
-Dan 944~
+satan dan farmer defcon marines hacker human usmc z9 a944~
+Dan Farmer A944~
 944/main:avatar~
 944/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 11 17 3 2d2+110 1d2+1
 110 12100
-8 8 1 1 6
+8 8 1 0 6
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -899,21 +899,21 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #945
-emmanuel 2600 hacker eric corley z9 robot~
-Eric 945~
+emmanuel 2600 hacker eric corley z9 human a945~
+Eric Corley A945~
 945/main:avatar~
 945/main:look~
-2072 0 0 0 2056 0 0 0 -219 E
+10 0 0 0 0 0 0 0 -219 E
 4 20 10 1d1+0 1d1+0
 0 0
-8 8 1 1 6
+8 8 1 0 6
 E
 #946
-hip robot z9 hacker~
+hip robot z9 hacker a946~
 Hip 946~
 946/main:avatar~
 946/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 0 1 6
@@ -926,10 +926,10 @@ SavingSpell: 3
 E
 #947
 trainer training 947 well robot hacker z9~
-Well 947~
+the Well A947~
 947/main:avatar~
 947/main:look~
-2072 0 0 0 2056 0 0 0 -208 E
+10 0 0 0 0 0 0 0 -208 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1 6
@@ -941,14 +941,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #948
-spoonman mark petrakis robot hacker z9 tyler~
-Spoonman 948~
+spoonman mark petrakis human hacker z9 tyler a948~
+Mark Petrakis A948~
 948/main:avatar~
 948/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 9 17 4 1d1+90 1d2+1
 90 8100
-8 8 1 1 6
+8 8 1 0 6
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -956,14 +956,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #949
-trainer trianining 949 brenda laurel cobrawoman human~
-Brenda 949~
+trainer trianining a949 brenda laurel cobrawoman human~
+Brenda Laurel A949~
 949/main:avatar~
 949/main:look~
-2072 0 0 0 2056 0 0 0 -310 E
+10 0 0 0 0 0 0 0 -310 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 2 0 1
+8 8 2 0 5
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -971,11 +971,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #950
-slac stanford richard neal scientist z9~
-Richard 950~
+slac stanford richard neal scientist z9 a950~
+Richard Neal A950~
 950/main:avatar~
 950/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
 8 8 1 1 3
@@ -986,11 +986,11 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #951
-ghostmind mind ghost robot z9 tyler hacker~
-GhostMind 951~
+ghostmind mind ghost robot z9 tyler hacker a951~
+GhostMind A951~
 951/main:avatar~
 951/main:look~
-74 0 0 0 0 0 0 0 -300 E
+10 0 0 0 0 0 0 0 -300 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 0 1 6
@@ -1138,14 +1138,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #962
-jason goodman crowdsource robot hacker z9~
-Jason 962~
+jason goodman crowdsource robot hacker z9 a962~
+Jason Goodman A962~
 962/main:avatar~
 962/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 8 18 5 1d1+80 1d2+1
 80 6400
-8 8 1 0 1
+8 8 1 0 7
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1153,14 +1153,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #963
-larry klayman human infowars lawyer z9 robot~
-Larry 963~
+larry klayman human infowars lawyer z9 a963~
+Larry Klayman A963~
 963/main:avatar~
 963/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 19 14 -1 3d3+190 3d3+3
 190 36100
-8 8 1 1 8
+8 8 1 0 8
 Str: 12
 Dex: 12
 Int: 12
@@ -1174,14 +1174,14 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #964
-laura loomer human activist infowars z9 robot~
-Laura 964~
+laura loomer human activist infowars z9 a964~
+Laura Loomer A964~
 964/main:avatar~
 964/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 9 17 4 1d1+90 1d2+1
 90 8100
-8 8 2 1 7
+8 8 2 0 7
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1189,14 +1189,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #965
-alex jones robot infowars z9 journalist~
-Alex 965~
+alex jones robot infowars z9 journalist a965~
+Alex Jones A965~
 965/main:avatar~
 965/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 13 16 2 2d2+130 2d2+2
 130 16900
-8 8 1 1 7
+8 8 1 0 7
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1205,20 +1205,20 @@ SavingSpell: 3
 E
 #966
 vladimir putin human russia robot hacker z9~
-Putin 966~
+Vladimir Putin A966~
 966/main:avatar~
 966/main:look~
-2074 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
 10 100
-8 8 1 1 6
+8 8 1 0 9
 E
 #967
-russianbot robot russia hacker z9 tyler~
-RussianBot 967~
+russianbot robot russia hacker z9 tyler a967~
+RussianBot A967~
 967/main:avatar~
 967/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 0 1 6
@@ -1235,14 +1235,14 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #968
-peter great romanov russia robot hacker tyler z9~
-Peter 968~
+peter great romanov russia robot hacker tyler z9 a968~
+Peter The Great A968~
 968/main:avatar~
 968/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 1 6
+8 8 1 0 15
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1250,14 +1250,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #969
-yuri andropov kgb russia robot z9 rumil~
-Yuri 969~
+yuri andropov kgb russia robot z9 rumil a969~
+Yuri Andropov A969~
 969/main:avatar~
 969/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 1 12
+8 8 1 0 12
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1265,14 +1265,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #970
-patriarch orthodox russia kirill robot priest z9~
-Kirill 970~
+patriarch orthodox russia kirill robot priest z9 a970~
+Patriarch Kirill A970~
 970/main:avatar~
 970/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
-8 8 1 1 14
+8 8 1 0 14
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1280,14 +1280,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #971
-romanov tyler hacker robot z9~
-Romanov 971~
+romanov tyler hacker human z9 royal a971~
+the Romanov A971~
 971/main:avatar~
 971/main:look~
-2074 0 0 0 2168 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
-8 8 1 1 6
+8 8 1 0 15
 Str: 18
 Dex: 18
 Int: 18
@@ -1305,10 +1305,10 @@ grand duchess maria russia robot romanov z9~
 Maria 972~
 972/main:avatar~
 972/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-8 8 2 1 6
+8 8 2 0 1
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1316,11 +1316,11 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #973
-george mikhailovich russia robot romanov z9~
-George 973~
+george mikhailovich russia robot romanov z9 a973~
+George Mikhailovich A973~
 973/main:avatar~
 973/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
 8 8 1 0 1
@@ -1331,11 +1331,11 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #974
-jeffrey epstein suicide robot hacker z9 tyler~
-Jeffrey 974~
+jeffrey epstein suicide human z9 a971~
+Jeffrey Epstein A974~
 974/main:avatar~
 974/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
 8 8 1 0 6
@@ -1346,14 +1346,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #975
-ben goertzel scientist z9 intelligenesis~
-Ben 975~
+ben goertzel scientist z9 intelligenesis a975 human~
+Ben Goertzel A975~
 975/main:avatar~
 975/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 7 18 5 1d1+70 1d2+1
 70 4900
-8 8 1 1 3
+8 8 1 0 3
 SavingPara: 1
 SavingRod: 1
 SavingPetri: 1
@@ -1362,13 +1362,13 @@ SavingSpell: 1
 E
 #976
 cassio pennachin singularitynet human scientist z9~
-Cassio 976~
+Cassio Pennachin A976~
 976/main:avatar~
 976/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 0 1
+8 8 1 0 3
 SavingPara: 3
 SavingRod: 3
 SavingPetri: 3
@@ -1376,14 +1376,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #977
-opencog robot hacker z9~
-Opencog 977~
+linas vepstas opencog human programmer z9 a977~
+Linas Vepstas A977~
 977/main:avatar~
 977/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 9 17 4 1d1+90 1d2+1
 90 8100
-8 8 0 1 6
+8 8 0 0 5
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -1391,14 +1391,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #978
-natasha vita-more robot scientist z9~
+natasha vita-more human scientist z9~
 Natasha 978~
 978/main:avatar~
 978/main:look~
-2072 0 0 0 2056 0 0 0 -500 E
+10 0 0 0 0 0 0 0 -500 E
 18 14 0 3d3+180 3d3+3
 180 32400
-8 8 0 0 3
+8 8 2 0 3
 Str: 12
 Dex: 12
 Int: 12
@@ -1412,11 +1412,11 @@ SavingBreath: 4
 SavingSpell: 4
 E
 #979
-karl koch hacker suicide tyler robot z9~
-Karl 979~
+karl koch hacker suicide tyler robot z9 a979~
+Karl Koch A979~
 979/main:avatar~
 979/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 23 13 -3 4d4+230 3d3+3
 230 52900
 8 8 1 1 6
@@ -1488,14 +1488,14 @@ SavingBreath: 3
 SavingSpell: 3
 E
 #984
-qanon tyler robot hacker z9~
-QAnon 984~
+qanon tyler robot hacker z9 a984~
+QAnon A984~
 984/main:avatar~
 984/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
-8 8 1 1 6
+8 8 0 1 6
 Str: 18
 Dex: 18
 Int: 18
@@ -1529,15 +1529,30 @@ SavingPetri: 4
 SavingBreath: 4
 SavingSpell: 4
 E
+#988
+edge.org john brockman media human z9 a988~
+John Brockman A988~
+988/main:avatar~
+988/main:look~
+10 0 0 0 0 0 0 0 -500 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 1 0 7
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
 #990
-roman ivanov darksec robot hacker z9 tyler~
-Roman 990~
+roman ivanov darksec human hacker z9 tyler a990~
+Roman Ivanov A990~
 990/main:avatar~
 990/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 20 14 -2 4d4+200 3d3+3
 200 40000
-8 8 1 1 6
+8 8 1 0 6
 Str: 13
 Dex: 13
 Int: 13
@@ -1550,12 +1565,33 @@ SavingPetri: 5
 SavingBreath: 5
 SavingSpell: 5
 E
+#991
+russian cast ruslan pukhov darksec handler z9 a991~
+Ruslan Pukhov A991~
+991/main:avatar~
+991/main:look~
+10 0 0 0 0 0 0 0 -500 E
+18 14 0 3d3+180 3d3+3
+180 32400
+8 8 1 0 7
+Str: 12
+Dex: 12
+Int: 12
+Wis: 12
+Con: 12
+Cha: 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
 #995
 cameron telecomix tyler hacker robot z9 a995~
-Cameron 995~
+Cameron A995~
 995/main:avatar~
 995/main:look~
-2072 0 0 0 2056 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 15 15 1 3d3+150 2d2+2
 150 22500
 8 8 2 1 6
