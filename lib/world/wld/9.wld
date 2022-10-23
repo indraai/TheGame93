@@ -178,16 +178,16 @@ D4
 ~
 0 0 990
 E
-invoke~
-invoke
+darkputin~
+darkputin
 ~
 E
 party~
 party
 ~
 E
-darkputin~
-darkputin
+invoke~
+invoke
 ~
 S
 #900
@@ -237,20 +237,20 @@ D7
 ~
 0 0 915
 E
-video~
-video
-~
-E
-rahula~
-rahula
+trenton~
+trenton
 ~
 E
 water~
 water
 ~
 E
-trenton~
-trenton
+rahula~
+rahula
+~
+E
+video~
+video
 ~
 S
 T 910
@@ -283,24 +283,24 @@ D9
 ~
 0 0 904
 E
-agents~
-0902/main:agents
-~
-E
-001~
-001
-~
-E
-002~
-002
+004~
+004
 ~
 E
 003~
 003
 ~
 E
-004~
-004
+002~
+002
+~
+E
+001~
+001
+~
+E
+agents~
+0902/main:agents
 ~
 S
 T 910
@@ -308,6 +308,10 @@ T 910
 Project Mayhem 2012~
 [DESCRIBE]~
 9 8 0 0 0 0
+D0
+~
+~
+0 0 902
 D1
 ~
 ~
@@ -393,12 +397,12 @@ D6
 ~
 0 0 910
 E
-pastebin1~
-pastebin
-~
-E
 pastebin2~
 patebin2
+~
+E
+pastebin1~
+pastebin
 ~
 S
 T 910
@@ -1298,16 +1302,16 @@ D3
 ~
 0 0 949
 E
-tip3~
-talk:#adv world:thegame 0941/main:tip3
+tip1~
+talk:#adv world:thegame 0941/main:tip1
 ~
 E
 tip2~
 talk:#adv world:thegame 0941/main:tip2
 ~
 E
-tip1~
-talk:#adv world:thegame 0941/main:tip1
+tip3~
+talk:#adv world:thegame 0941/main:tip3
 ~
 S
 T 910
@@ -1485,10 +1489,6 @@ D1
 ~
 ~
 0 0 942
-D6
-~
-~
-0 0 951
 D7
 ~
 ~
@@ -2000,7 +2000,7 @@ You are in an unfinished room.
 D1
 ~
 Exit!~
-1 0 900
+1 0 907
 D2
 ~
 ~
@@ -2044,20 +2044,20 @@ D3
 ~
 0 0 970
 E
-photo3~
-0972/main:photo3
-~
-E
-photo2~
-0972/main:photo2
+photo0~
+0972/main:photo0
 ~
 E
 photo1~
 0972/main:photo1
 ~
 E
-photo0~
-0972/main:photo0
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
 ~
 S
 T 900
@@ -2079,20 +2079,20 @@ D6
 ~
 0 0 970
 E
-photo3~
-photo3
-~
-E
-photo2~
-photo2
+photo0~
+photo0
 ~
 E
 photo1~
 photo1
 ~
 E
-photo0~
-photo0
+photo2~
+photo2
+~
+E
+photo3~
+photo3
 ~
 S
 T 910
@@ -2239,36 +2239,36 @@ D2
 ~
 0 0 968
 E
-001~
-001
-~
-E
-002~
-002
-~
-E
-003~
-00s
-~
-E
-004~
-004
-~
-E
-005~
-005
-~
-E
-006~
-006
+008~
+008
 ~
 E
 007~
 007
 ~
 E
-008~
-008
+006~
+006
+~
+E
+005~
+005
+~
+E
+004~
+004
+~
+E
+003~
+00s
+~
+E
+002~
+002
+~
+E
+001~
+001
 ~
 S
 T 901
@@ -2286,32 +2286,32 @@ D3
 ~
 0 0 980
 E
-001~
-001
-~
-E
-002~
-002
-~
-E
-003~
-003
-~
-E
-004~
-004
-~
-E
-005~
-005
+007~
+007
 ~
 E
 006~
 006
 ~
 E
-007~
-007
+005~
+005
+~
+E
+004~
+004
+~
+E
+003~
+003
+~
+E
+002~
+002
+~
+E
+001~
+001
 ~
 S
 T 902
@@ -2329,16 +2329,16 @@ D2
 ~
 0 0 983
 E
-001~
-001
+003~
+003
 ~
 E
 002~
 002
 ~
 E
-003~
-003
+001~
+001
 ~
 S
 T 902
@@ -2356,20 +2356,20 @@ D2
 ~
 0 0 994
 E
-001~
-001
-~
-E
-002~
-002
+004~
+004
 ~
 E
 003~
 003
 ~
 E
-004~
-004
+002~
+002
+~
+E
+001~
+001
 ~
 S
 T 902
@@ -2494,56 +2494,56 @@ D7
 ~
 0 0 992
 E
-p1~
-p1
-~
-E
-p2~
-p2
-~
-E
-p3~
-p3
-~
-E
-p4~
-p4
-~
-E
-p5~
-p5
-~
-E
-p6~
-p6
-~
-E
-p7~
-p7
-~
-E
-p8~
-p8
-~
-E
-p9~
-p9
-~
-E
-p10~
-p10
-~
-E
-p11~
-p11
+p13~
+13
 ~
 E
 p12~
 p12
 ~
 E
-p13~
-13
+p11~
+p11
+~
+E
+p10~
+p10
+~
+E
+p9~
+p9
+~
+E
+p8~
+p8
+~
+E
+p7~
+p7
+~
+E
+p6~
+p6
+~
+E
+p5~
+p5
+~
+E
+p4~
+p4
+~
+E
+p3~
+p3
+~
+E
+p2~
+p2
+~
+E
+p1~
+p1
 ~
 S
 #991
