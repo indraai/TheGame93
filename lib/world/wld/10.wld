@@ -1,5 +1,5 @@
 #1000
-Arjika Core~
+Evolution Entrance~
 Not much here.
 ~
 10 8 0 0 0 0
@@ -9,7 +9,7 @@ D1
 0 0 1001
 S
 #1001
-World Fight Club~
+Evolution Engine Hall~
 [DESCRIBE]~
 10 8 0 0 0 0
 D1
@@ -20,11 +20,23 @@ D2
 ~
 ~
 0 0 1002
+D3
+~
+~
+0 0 1000
 S
 #1002
-World Fight Club~
+Evolution Hall~
 [DESCRIBE]~
 10 8 0 0 0 0
+D0
+~
+~
+0 0 1001
+D1
+~
+~
+0 0 1016
 D2
 ~
 ~
@@ -34,76 +46,108 @@ S
 World Fight Club~
 [DESCRIBE]~
 10 8 0 0 0 0
+D0
+~
+~
+0 0 1002
 D3
 ~
 ~
 0 0 1004
 S
 #1004
-World Fight Club~
+Evolution Hall~
 [DESCRIBE]~
 10 8 0 0 0 0
+D1
+~
+~
+0 0 1003
 D3
 ~
 ~
 0 0 1005
 S
 #1005
-World Fight Club~
+Evolution Hall~
 [DESCRIBE]~
 10 8 0 0 0 0
 D0
 ~
 ~
 0 0 1006
+D1
+~
+~
+0 0 1004
 S
 #1006
-World Fight Club~
+Evolution Hall~
 [DESCRIBE]~
 10 8 0 0 0 0
 D0
 ~
 ~
 0 0 1007
+D2
+~
+~
+0 0 1005
 S
 #1007
-World Fight Club~
+Evolution Hall~
 [DESCRIBE]~
 10 8 0 0 0 0
 D0
 ~
 ~
 0 0 1008
+D2
+~
+~
+0 0 1006
 S
 #1008
-House Aryaka~
+Evolution Engine Lobby~
 [DESCRIBE]~
-10 25 0 0 0 0
+10 24 0 0 0 0
+D2
+~
+~
+0 0 1007
 D3
 ~
 ~
 0 0 1009
 S
 #1009
-Aryaka Lounge~
+Evolution Lounge~
 [DESCRIBE]~
-10 25 0 0 0 0
+10 24 0 0 0 0
+D1
+~
+~
+0 0 1008
 D2
 ~
 ~
 0 0 1010
 S
 #1010
-Aryaka Shrine~
+Evolution Engine Room~
 [DESCRIBE]~
-10 25 0 0 0 0
+10 24 0 0 0 0
+D0
+~
+~
+0 0 1009
 D1
 ~
 ~
 0 0 1157
 S
 #1011
-Danger Alley~
+Evolution Engine Hall~
 You are in an unfinished room.
 ~
 10 8 0 0 0 0
@@ -117,7 +161,7 @@ D3
 0 0 1001
 S
 #1012
-Danger Alley~
+Evolution Engine Hall~
 You are in an unfinished room.
 ~
 10 8 0 0 0 0
@@ -131,7 +175,7 @@ D3
 0 0 1011
 S
 #1013
-Danger Alley~
+Evolution Engine Hall~
 You are in an unfinished room.
 ~
 10 8 0 0 0 0
@@ -145,7 +189,7 @@ D2
 0 0 1012
 S
 #1014
-Danger Alley~
+Evolution Engine Hall~
 You are in an unfinished room.
 ~
 10 0 0 0 0 0
