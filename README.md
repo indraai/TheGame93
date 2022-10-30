@@ -2,6 +2,12 @@
 
 deva.cloud is a highly modified tbaMUD, CircleMUD, DikuMUD server turned into an Aritficial Intelligence Multi-Agent System.
 
-For more information please visit [indra.ai](https:/indra.ai).
+## installation
 
-Copyright (c) 2022 Quinn Michaels. All rights reserved.
+First clone the repository. Then do the install stuff that comes later.
+
+`> git clone https://github.com/indraai/deva.cloud.git`
+
+
+[Back to indra.ai](https://indra.ai)  
+&copy;2021 Quinn Michaels; All Rights Reserved.
