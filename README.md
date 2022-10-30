@@ -10,4 +10,4 @@ First clone the repository. Then do the install stuff that comes later.
 
 
 [Back to indra.ai](https://indra.ai)  
-&copy;2021 Quinn Michaels; All Rights Reserved.
+&copy;2022 Quinn Michaels; All Rights Reserved.
