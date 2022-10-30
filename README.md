@@ -38,32 +38,26 @@ for compiling on each platform is can be found in the file doc/README.*system*
 - [WIN](doc/README.WIN.md) - If you are using Windows.
 
 If you are interested in porting deva.cloud to a new platform, see the file
-[porting](doc/porting.txt) for some tips.
+[porting](doc/porting.md) for some tips.
 
 ## Other Documentation
 
-All documentation (other than this file) is in the `/doc` directory. Most of the files in the /doc directory are old and
-have not been updated in years, but they still contain a lot of pertinent
-information.
-
-[The Administrator's Guide](doc/admin.pdf)  
-A good place to start after reading this README file, admin.txt gives
-an overall description of how Circle works, how to get it to compile and
-run for the first time, information about customizing and configuration
-options and command-line arguments, and tips on maintenance and day-to-day
+[The Administrator's Guide](doc/admin.md) -  Gives an overall description of how Circle works, how to get it to compile and run for the first time, information about customizing and configuration options and command-line arguments, and tips on maintenance and day-to-day
 MUD administration.
 
-[The Builder's Manual](doc/building.pdf)  
-For the builders in your group, this documents the world-file format
-and describes how to create new rooms, objects, and monsters.  Also, it
-describes how to add new areas to the MUD and gives some tips about game
-balance and world-file debugging.
+[The Builder's Manual](doc/building.md) -  This documents the world-file format and describes how to create new rooms, objects, and monsters. Also, it describes how to add new areas to the MUD and gives some tips about game balance and world-file debugging.
 
-[The Coder's Manual](coding.pdf)
-For the coders in your group, a technical reference describing some of the more basic coding tasks such as how to add new commands, spells, skills, socials, and classes.  Note that it assumes the reader already has an excellent knowledge of C; the manual is not a C tutorial.
+[The Coder's Manual](doc/files.md) - Overview of the deva.world file structure.
 
-[The SYSERR List](syserr.txt)
-A list of SYSERR messages and a description of what can cause each problem and how to solve it.  An excellent guide for troubleshooting and area debugging.
+[The Coder's Manual](doc/coding.md) - For the coders in your group, a technical reference describing some of the more basic coding tasks such as how to add new commands, spells, skills, socials, and classes.
+
+[Debugging](doc/debugging.md) -  For information on debugging the application please read the debugging file.
+
+[The Message Editor](doc/msgedit.md) - The Message Editor is an OLC style editor for modifying the in-game combat messages.
+
+[Socials](doc/socials.md) - A social is the easiest command to add to the game thanks to the social editor; aedit.
+
+[The SYSERR List](doc/syserr.md) - A list of SYSERR messages and a description of what can cause each problem and how to solve it.  An excellent guide for troubleshooting and area debugging.
 
 
 -

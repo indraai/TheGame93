@@ -14,9 +14,8 @@ src/util/depend
 
 log/*
 
-lib/plrfiles/*
-lib/plrobjs/*
-lib/etc/*
+lib/plrfiles/**/*.plr
+lib/plrobjs/**/*.objs
 lib/core
 syslog*
 
