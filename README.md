@@ -42,14 +42,14 @@ If you are interested in porting deva.cloud to a new platform, see the file
 
 ## Other Documentation
 
-[Administrator Guide](doc/admin.md) -  Gives an overall description of how Circle works, how to get it to compile and run for the first time, information about customizing and configuration options and command-line arguments, and tips on maintenance and day-to-day
+[Administrator Guide](doc/admin.md) -  Gives an overall description of how deva.cloud works, how to get it to compile and run for the first time, information about customizing and configuration options and command-line arguments, and tips on maintenance and day-to-day
 MUD administration.
 
 [Builder Manual](doc/building.md) - This documents the world-file format and describes how to create new rooms, objects, and monsters. Also, it describes how to add new areas to the MUD and gives some tips about game balance and world-file debugging.
 
 [Code Manual](doc/coding.md) - For the coders in your group, a technical reference describing some of the more basic coding tasks such as how to add new commands, spells, skills, socials, and classes.
 
-[Files](doc/files.md) - Overview of the deva.world file structure.
+[Files](doc/files.md) - Overview of the deva.cloud file structure.
 
 [Debugging](doc/debugging.md) -  For information on debugging the application please read the debugging file.
 
