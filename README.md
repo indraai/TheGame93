@@ -8,7 +8,6 @@ deva.cloud is a highly modified tbaMUD, CircleMUD, DikuMUD server turned into an
 
 First clone the repository. Then do the install stuff that comes later.
 
-
 `> git clone https://github.com/indraai/deva.cloud.git`
 
 
@@ -24,19 +23,19 @@ The archives contain many great ideas in the `/contrib/` section.
 deva.cloud compiles under a large number of operating systems; instructions
 for compiling on each platform is can be found in the file doc/README.*system*
 
-- [AMIGA](doc/README.AMIGA) - If you are using an Amiga running AmigaDOS. (If you're running NetBSD or Linux on an Amiga, use README.UNIX instead.)  
-- [ARC](doc/README.ARC) - If you are using an Acorn running RiscOS.  
-- [BORLAND](doc/README.BORLAND) - For those using Borland under Windows.  
-- [CYGWIN](doc/README.CYGWIN)  - If you are using Cygwin shell in Windows.  
-- [MSVC4](doc/README.MSVC4) - If you are using MSVC 4.  
-- [MSVC5](doc/README.MSVC5) - If you are using MSVC 5.  
-- [MSVC6](doc/README.MSVC6) - If you are using MSVC 6.  
-- [MSVC8](doc/README.MSVC8) - If you are using MSVC 8.  
-- [OS2](doc/README.OS2) - If you are using OS/2 Warp Connect v3.0 or OS/2 v2.x.  
-- [UNIX](doc/README.UNIX) - If you have any type UNIX system, including Linux, MkLinux, Ultrix, HP/UX, Solaris, SunOS, IRIX, FreeBSD, OpenBSD, NetBSD, BSDi, Macintosh OS X, etc.  
-- [VMS](doc/README.VMS) - If you happen to be on OpenVMS.  
-- [WATCOM](doc/README.WATCOM)  - If using WATCOM under Windows.  
-- [WIN](doc/README.WIN) - If you are using Windows.
+- [AMIGA](doc/README.AMIGA.md) - If you are using an Amiga running AmigaDOS. (If you're running NetBSD or Linux on an Amiga, use README.UNIX instead.)  
+- [ARC](doc/README.ARC.md) - If you are using an Acorn running RiscOS.  
+- [BORLAND](doc/README.BORLAND.md) - For those using Borland under Windows.  
+- [CYGWIN](doc/README.CYGWIN.md)  - If you are using Cygwin shell in Windows.  
+- [MSVC4](doc/README.MSVC4.md) - If you are using MSVC 4.  
+- [MSVC5](doc/README.MSVC5.md) - If you are using MSVC 5.  
+- [MSVC6](doc/README.MSVC6.md) - If you are using MSVC 6.  
+- [MSVC8](doc/README.MSVC8.md) - If you are using MSVC 8.  
+- [OS2](doc/README.OS2.md) - If you are using OS/2 Warp Connect v3.0 or OS/2 v2.x.  
+- [UNIX](doc/README.UNIX.md) - If you have any type UNIX system, including Linux, MkLinux, Ultrix, HP/UX, Solaris, SunOS, IRIX, FreeBSD, OpenBSD, NetBSD, BSDi, Macintosh OS X, etc.  
+- [VMS](doc/README.VMS.md) - If you happen to be on OpenVMS.  
+- [WATCOM](doc/README.WATCOM.md)  - If using WATCOM under Windows.  
+- [WIN](doc/README.WIN.md) - If you are using Windows.
 
 If you are interested in porting deva.cloud to a new platform, see the file
 [porting](doc/porting.txt) for some tips.
