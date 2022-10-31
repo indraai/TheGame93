@@ -2,6 +2,26 @@
 
 deva.cloud is a highly modified tbaMUD, CircleMUD, DikuMUD server turned into an Aritficial Intelligence Multi-Agent System.
 
+## Access
+
+The deva.cloud can be accessed using any standard `telnet` client at:  
+`arjika.deva.world port:9003`
+
+To access the realm from your [deva.world](https://indra.ai/deva.world) interface add the configuration to your `./data/client.json` file. The #mud deva comes intalled by default in the interface.
+
+Change the `*your*username*` to your chosen username, and chang `*your*password*` to your password. We recommend using the `!uid` command to generate a random number password to be stored here.
+
+```json
+"mud": {
+  "key": "*your*username*",
+  "host": "arjika.deva.cloud",
+  "port": 9003,
+  "user": {
+    "login": "*your*username*",
+    "password": "*your*password*"
+  }
+},
+```
 ## Source
 
 [Github Repository](https://github.com/indraai/deva.cloud)
@@ -11,7 +31,7 @@ First clone the repository. Then do the install stuff that comes later.
 `> git clone https://github.com/indraai/deva.cloud.git`
 
 
-All requests for help or bugs should be reported to: arjika.deva.cloud:23.
+All requests for help or bugs should be reported to: arjika.deva.cloud:9003.
 
 Information about deva.cloud can be found at the indra.ai Home Page:
 https://indra.ai
