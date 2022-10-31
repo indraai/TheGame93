@@ -77,7 +77,7 @@ MUD administration.
 
 [Socials](doc/socials.md) - A social is the easiest command to add to the game thanks to the social editor; aedit.
 
-[SYSERR](doc/syserr.md) - A list of SYSERR messages and a description of what can cause each problem and how to solve it.  An excellent guide for troubleshooting and area debugging.
+[SYSERR](doc/syserr.md) -  SYSERR messages and a description of what can cause each problem and how to solve it.  An excellent guide for troubleshooting and area debugging.
 
 
 -
