@@ -22,7 +22,7 @@
 # .killscript	script will exit, and mud will not reboot
 # .pause	pause (sleep 1 minute intervals) until .pause it removed
 
-$port	= 23;
+$port	= 9003;
 $flags	= "-q";
 
 $home	= ".";

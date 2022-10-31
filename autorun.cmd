@@ -3,7 +3,7 @@
    CircleMUD 3.0.  You may use it as is, or as the basis for your own
    script.
    April 18, 1996 - David A. Carver */
-   
+
 /* CircleMUD 3.0 autorun script
  * Originally by Fred C. Merkel
  * Copyright (c) 1993 The Trustees of The Johns Hopkins University
@@ -18,7 +18,7 @@
 
 'echo off'
 
-PORT=4000
+PORT=9003
 FLAGS=''
 
 call RxFuncAdd "SysLoadFuncs", "RexxUtil", "SysLoadFuncs"
@@ -28,15 +28,15 @@ Do forever
   call SysCls
   say center('CrapWeasel MUD',79)
   say center('AutoRun Procedure',79)
-  'del syslog'  
+  'del syslog'
   Say "AutoRun starting game " || DATE()
   "set EMXOPT=-h150"
 
   "bin\circle " FLAGS PORT || " >> syslog"
-  
+
 
   say 'Extracting little log information'
-  'del log\*.* /n'   
+  'del log\*.* /n'
   'fgrep -w "self-delete" syslog >> log/delete'
   'fgrep -w "PCLEAN" syslog >> log/delete'
   'fgrep -w "death trap" syslog >> log/dts'
@@ -51,7 +51,7 @@ Do forever
   'fgrep -w "(GC)" syslog >> log/devacmds'
   'fgrep -w "Bad PW" syslog >> log/badpws'
   'fgrep -w "has connected" syslog >> log/whocon'
-    
+
   Do while stream("pause","c","query exists")<>""
     Say "Pausing..."
     Call SysSleep(10)

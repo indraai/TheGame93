@@ -200,7 +200,7 @@ int bitsavetodisk = TRUE;
  * the command-line.  NOTE WELL: If you're using the 'autorun' script, the port
  * number there will override this setting. Change the PORT= line in autorun
  * instead of (or in addition to) changing this. */
-ush_int DFLT_PORT = 23;
+ush_int DFLT_PORT = 9003;
 
 /* IP address to which the MUD should bind.  This is only useful if you're
  * running Circle on a host that host more than one IP interface, and you only
