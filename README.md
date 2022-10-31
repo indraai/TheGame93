@@ -9,7 +9,7 @@ The deva.cloud can be accessed using any standard `telnet` client at:
 
 To access the realm from your [deva.world](https://indra.ai/deva.world) interface add the configuration to your `./data/client.json` file. The #mud deva comes intalled by default in the interface.
 
-Change the `*your*username*` to your chosen username, and chang `*your*password*` to your password. We recommend using the `!uid` command to generate a random number password to be stored here.
+Change `*your*username*` to your chosen username, and chang `*your*password*` to your password. We recommend using the `!uid` command to generate a random number password to be stored here.
 
 ```json
 "mud": {
