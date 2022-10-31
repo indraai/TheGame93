@@ -11,7 +11,7 @@ First clone the repository. Then do the install stuff that comes later.
 `> git clone https://github.com/indraai/deva.cloud.git`
 
 
-All requests for help or bugs should be reported to: deva.cloud:9003.
+All requests for help or bugs should be reported to: arjika.deva.cloud:23.
 
 Information about deva.cloud can be found at the indra.ai Home Page:
 https://indra.ai

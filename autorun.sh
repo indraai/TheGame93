@@ -33,7 +33,7 @@
 ulimit -c unlimited
 
 # The port on which to run the MUD
-PORT=9003
+PORT=23
 
 # Default flags to pass to the MUD server (see admin.txt for a description
 # of all flags).
