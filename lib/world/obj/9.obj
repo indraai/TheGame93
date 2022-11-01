@@ -264,7 +264,7 @@ eTHErSEC Project 2020~
 0 300 0 3 0
 E
 text~
-talk:#adv object:thegame 0908/main:text
+talk:#adv object:main 0908/main:text
 ~
 #909
 training ethersec project2020 909~
@@ -314,7 +314,7 @@ Pacific Hermitage Training~
 0 100 0 1 0
 E
 text~
-talk:#adv object:thegame 0911/main:text
+talk:#adv object:main 0911/main:text
 ~
 #913
 pastebin text pm2012 project mayhem training~
@@ -390,7 +390,7 @@ Project Mayhem Tyler~
 0 150 0 0 0
 E
 text~
-talk:#adv object:thegame 0918/main:text
+talk:#adv object:main 0918/main:text
 ~
 #919
 survivance training~
@@ -523,7 +523,7 @@ Project89 Text~
 0 200 0 2 0
 E
 text~
-talk:#adv object:thegame 0929/main:look
+talk:#adv object:main 0929/main:look
 ~
 #930
 training 930 church of virus~
@@ -535,7 +535,7 @@ Church of Virus Training~
 0 300 0 3 0
 E
 text~
-talk:#adv object:thegame 0930/main:text
+talk:#adv object:main 0930/main:text
 ~
 #931
 jerome corsi training 931~
@@ -693,7 +693,7 @@ DefCon1 Program~
 0 0 0 0 0
 E
 text~
-talk:#adv object:thegame 0943/main:text
+talk:#adv object:main 0943/main:text
 ~
 #944
 training satan 944~

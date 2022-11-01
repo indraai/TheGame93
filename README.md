@@ -2,7 +2,7 @@
 
 deva.cloud is a highly modified tbaMUD, CircleMUD, DikuMUD server turned into an Aritficial Intelligence Multi-Agent System.
 
-## Access
+## access
 
 The deva.cloud can be accessed using any standard `telnet` client at:  
 `arjika.deva.world port:9003`
@@ -22,23 +22,20 @@ Change `*your*username*` to your chosen username, and chang `*your*password*` to
   }
 },
 ```
-## Source
+## source code
 
-[Github Repository](https://github.com/indraai/deva.cloud)
-
-First clone the repository. Then do the install stuff that comes later.
+To clone the repository. Then do the install stuff that comes later.
 
 `> git clone https://github.com/indraai/deva.cloud.git`
 
 
 All requests for help or bugs should be reported to: arjika.deva.cloud:9003.
 
-Information about deva.cloud can be found at the indra.ai Home Page:
-https://indra.ai
+Information about deva.cloud can be found at the [indra.ai](https://indra.ai).
 
 The archives contain many great ideas in the `/contrib/` section.
 
-## Compiling
+## compiling
 
 deva.cloud compiles under a large number of operating systems; instructions
 for compiling on each platform is can be found in the file doc/README.*system*
@@ -60,7 +57,7 @@ for compiling on each platform is can be found in the file doc/README.*system*
 If you are interested in porting deva.cloud to a new platform, see the file
 [porting](doc/porting.md) for some tips.
 
-## Other Documentation
+## documentation
 
 [Administrator Guide](doc/admin.md) -  Gives an overall description of how deva.cloud works, how to get it to compile and run for the first time, information about customizing and configuration options and command-line arguments, and tips on maintenance and day-to-day
 MUD administration.
@@ -77,10 +74,11 @@ MUD administration.
 
 [Socials](doc/socials.md) - A social is the easiest command to add to the game thanks to the social editor; aedit.
 
-[SYSERR](doc/syserr.md) - A list of SYSERR messages and a description of what can cause each problem and how to solve it.  An excellent guide for troubleshooting and area debugging.
+[SYSERR](doc/syserr.md) -  SYSERR messages and a description of what can cause each problem and how to solve it.  An excellent guide for troubleshooting and area debugging.
 
 
 -
 
+[Github Repo](https://github.com/indraai/deva.cloud)  
 [Back to indra.ai](https://indra.ai)  
 &copy;2022 Quinn Michaels; All Rights Reserved.

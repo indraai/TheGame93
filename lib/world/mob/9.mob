@@ -479,7 +479,7 @@ E
 elizabeth lapense survivance tyler robot hacker z9~
 Elizabeth LaPense A919~
 919/main:avatar~
-talk:#adv agent:thegame 919/main:look~
+talk:#adv agent:main 919/main:look~
 10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -494,7 +494,7 @@ E
 brenda romero human tyler programmer z9~
 Brenda Romero 920~
 920/main:avatar~
-talk:#adv agent:thegame 920/main:look~
+talk:#adv agent:main 920/main:look~
 10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
@@ -509,7 +509,7 @@ E
 john romero human programmer tyler programmer z9 a921~
 John Romero A921~
 921/main:avatar~
-talk:#adv agent:thegame 921/main:look~
+talk:#adv agent:main 921/main:look~
 10 0 0 0 0 0 0 0 0 E
 10 17 4 2d2+100 1d2+1
 100 10000
