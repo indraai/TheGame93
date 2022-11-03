@@ -122,7 +122,7 @@ Underground Stream~
 0x10033 token underground kingdom cyoa~
 0x10033 Token~
 10033/main:avatar~
-talk:#adv thegame:object 1033/main:look
+talk:#space thegame:object 1033/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -167,7 +167,7 @@ Taga~
 0x10064 token underground kingdom cyoa~
 0x10064 Token~
 10064/main:avatar~
-talk:#adv thegame:object 1064/main:look
+talk:#space thegame:object 1064/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -185,7 +185,7 @@ talk:#adv thegame:object 1064/main:look
 0x10069 token underground kingdom cyoa~
 0x10069 Token~
 10069/main:avatar~
-talk:#adv thegame:object 1069/main:look
+talk:#space thegame:object 1069/main:look
 ~
 18 0 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

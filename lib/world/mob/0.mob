@@ -269,7 +269,7 @@ E
 fighter indu~
 Indu Fighter~
 0013/main:avatar~
-#adv agent:main 0013/main:look
+#space agent:main 0013/main:look
 ~
 2072 0 0 0 2168 0 0 0 0 E
 30 10 -8 6d6+300 5d5+5

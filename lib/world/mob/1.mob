@@ -20,7 +20,7 @@ E
 darry store outfitter deva~
 Darry~
 0101/main:avatar~
-talk:#adv thegame:agent 0101/main:look
+talk:#space thegame:agent 0101/main:look
 ~
 190474 0 0 0 16 0 0 0 900 E
 34 9 -10 6d6+340 5d5+5
@@ -351,7 +351,7 @@ E
 idne deva deity royal celestial~
 Idne~
 123/main:avatar~
-talk:#adv agent/thegame 123/main:look~
+talk:#space agent/thegame 123/main:look~
 260120 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -730,7 +730,7 @@ E
 logan ufo.cafe servicedeva~
 Logan~
 0147/main:avatar~
-#adv agent:main 0147/main:look
+#space agent:main 0147/main:look
 ~
 253962 0 0 0 112 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
@@ -921,7 +921,7 @@ E
 indu disciple monk~
 Indu Disciple~
 0165/main:avatar~
-talk:#adv thegame:agent 0165/main:look
+talk:#space thegame:agent 0165/main:look
 ~
 6168 0 0 0 120 0 0 0 400 E
 5 19 7 1d1+50 1d2+0
@@ -932,7 +932,7 @@ E
 general arjika military a166 z1 soldier~
 Arjika General~
 0166/main:avatar~
-talk:#adv thegame:agent 0166/main:look
+talk:#space thegame:agent 0166/main:look
 ~
 6168 0 0 0 2168 0 0 0 750 E
 30 10 -8 6d6+300 5d5+5
@@ -1153,7 +1153,7 @@ E
 big tyler bigtyler~
 BigTyler~
 180/main:avatar~
-talk:#adv agent/thegame 180/main:look~
+talk:#space agent/thegame 180/main:look~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
