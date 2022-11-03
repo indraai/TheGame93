@@ -351,7 +351,7 @@ E
 idne deva deity royal celestial~
 Idne~
 123/main:avatar~
-talk:#space agent/thegame 123/main:look~
+talk:#space agent/main 123/main:look~
 260120 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
@@ -1153,7 +1153,7 @@ E
 big tyler bigtyler~
 BigTyler~
 180/main:avatar~
-talk:#space agent/thegame 180/main:look~
+talk:#space agent/main 180/main:look~
 6168 0 0 0 2168 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 330 108900
