@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:indraai/TheGame93.git"
+    "url": "git@github.com:indraai/deva.cloud.git"
   },
   "keywords": [
     "deva.world",
@@ -23,7 +23,7 @@
   "author": "Quinn Michaels",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/indraai/TheGame93/issues"
+    "url": "https://github.com/indraaideva.cloud/issues"
   },
-  "homepage": "https://github.com/indraai/TheGame93#readme"
+  "homepage": "https://github.com/indraaideva.cloud#readme"
 }

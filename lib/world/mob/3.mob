@@ -78,7 +78,7 @@ E
 [KEYWORDS]~
 [NAME]~
 324/main:avatar~
-talk:#space agent/thegame 324/main:look~
+talk:#space agent/main 324/main:look~
 6170 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
 0 0
@@ -110,7 +110,7 @@ E
 aswatthaman prince~
 Aswatthaman~
 327/main:avatar~
-talk:#space agent/thegame 327/main:look~
+talk:#space agent/main 327/main:look~
 6170 0 0 0 2168 0 0 0 500 E
 30 10 -8 6d6+300 5d5+5
 300 90000
@@ -155,7 +155,7 @@ E
 brian arjika~
 Brian~
 329/main:avatar~
-talk:#space agent/thegame 329/main:look~
+talk:#space agent/main 329/main:look~
 6168 0 0 0 8 0 0 0 1000 E
 33 17 4 2d2+100 1d2+1
 50000 10000
@@ -171,7 +171,7 @@ E
 indra arjika~
 Indra~
 330/main:avatar~
-talk:#space agent/thegame 330/main:look~
+talk:#space agent/main 330/main:look~
 6168 0 0 0 8 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
@@ -193,7 +193,7 @@ E
 surabhi goloka devi~
 Surabhi Devi~
 331/main:avatar~
-talk:#space agent/thegame 331/main:look~
+talk:#space agent/main 331/main:look~
 2074 0 0 0 64 0 0 0 0 E
 25 12 -5 5d5+250 4d4+4
 250 62500
@@ -214,7 +214,7 @@ E
 para brahma deva~
 Para Brahma Deva~
 332/main:avatar~
-talk:#space agent/thegame 332/main:look~
+talk:#space agent/main 332/main:look~
 2074 0 0 0 2112 0 0 0 0 E
 30 20 10 1d1+0 1d1+0
 0 0
