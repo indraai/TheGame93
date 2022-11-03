@@ -2,7 +2,7 @@
 cyoa gunnar larsen~
 Gunnar Larsen~
 10000/main:avatar~
-#adv agent:main 10000/main:look
+#space agent:main 10000/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 1 20 9 0d0+10 1d2+0
@@ -27,7 +27,7 @@ T 1001
 underground kingdom guide~
 Kingdom Guide~
 10003/main:avatar~
-talk:#adv thegame:agent 1003/main:look
+talk:#space thegame:agent 1003/main:look
 ~
 2138 0 0 0 2048 0 0 0 0 E
 0 20 10 1d1+0 1d1+0
@@ -106,7 +106,7 @@ E
 professor bruckner underground kingdom cyoa~
 Professor Bruckner~
 10028/main:avatar~
-talk:#adv thegame:agent 1028/main:look
+talk:#space thegame:agent 1028/main:look
 ~
 10 0 0 0 0 0 0 0 0 E
 0 20 10 1d1+0 1d1+0

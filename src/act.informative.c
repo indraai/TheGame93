@@ -120,10 +120,10 @@ static void show_obj_to_char(struct obj_data *obj, struct char_data *ch, int mod
     switch (GET_OBJ_TYPE(obj)) {
     case ITEM_NOTE:
       if (obj->action_description) {
-        send_to_char(ch, "\ntalk:#adv object:main %s\r", obj->short_description);
+        send_to_char(ch, "\ntalk:#space object:main %s\r", obj->short_description);
 
         // char notebuf[MAX_NOTE_LENGTH + 64];
-        // snprintf(notebuf, sizeof(notebuf), "\ntalk:#adv object:main %s\r", obj->action_description);
+        // snprintf(notebuf, sizeof(notebuf), "\ntalk:#space object:main %s\r", obj->action_description);
         // page_string(ch->desc, notebuf, TRUE);
       } else {
 	     send_to_char(ch, "\ninfo:It's blank.\r");
@@ -209,7 +209,7 @@ static void list_obj_to_char(struct obj_data *list, struct char_data *ch, int mo
     /* When looking in room, hide objects starting with '.', except for holylight */
     if (num > 0 && (mode != SHOW_OBJ_LONG)) {
       send_to_char(ch, "\n::begin:object\r"
-      "\ntalk:#adv object:main %d/main:avatar\r"
+      "\ntalk:#space object:main %d/main:avatar\r"
       "\n::end:object\r",
       GET_OBJ_VNUM(display));
       // show_obj_to_char(display, ch, mode);
@@ -309,7 +309,7 @@ static void look_at_char(struct char_data *i, struct char_data *ch)
    if (i->player.description) {
      send_to_char(ch, "\n# %s\r"
        "\n::begin:agent\r"
-       "\ntalk:#adv agent:main %s\r"
+       "\ntalk:#space agent:main %s\r"
        "\ngold:%s has %d Credits"
        "\n::end:agent\r",
        i->player.short_descr,
@@ -383,7 +383,7 @@ static void list_one_char(struct char_data *i, struct char_data *ch)
 
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
 
-    send_to_char(ch, "\ntalk:#adv agent:main %s\r", i->player.long_descr);
+    send_to_char(ch, "\ntalk:#space agent:main %s\r", i->player.long_descr);
     /*
     if (AFF_FLAGGED(i, AFF_INVISIBLE)) send_to_char(ch, "*");
 
@@ -588,7 +588,7 @@ void look_at_room(struct char_data *ch, int ignore_brief)
       }
       else {
         /* send the room description */
-        send_to_char(ch, "\ntalk:#adv world:main %d/main\r"
+        send_to_char(ch, "\ntalk:#space world:main %d/main\r"
           "\nroom:%d\r",
           GET_ROOM_VNUM(IN_ROOM(ch)),
           GET_ROOM_VNUM(IN_ROOM(ch))
@@ -631,7 +631,7 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else if (EXIT_FLAGGED(EXIT(ch, dir), EX_ISDOOR) && EXIT(ch, dir)->keyword)
       send_to_char(ch, "\n# %s\r"
-        "\ntalk:#adv world:main %d/main:%s\r"
+        "\ntalk:#space world:main %d/main:%s\r"
         "\nroom: %d\r",
         EXIT(ch, dir)->keyword,
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
@@ -642,7 +642,7 @@ static void look_in_direction(struct char_data *ch, int dir)
 
     else
       send_to_char(ch, "\n# Look"
-        "\ntalk:#adv world:main %d/main:look\r"
+        "\ntalk:#space world:main %d/main:look\r"
         "\nroom: %d\r",
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room),
         GET_ROOM_VNUM(EXIT(ch, dir)->to_room)
@@ -756,7 +756,7 @@ static void look_at_target(struct char_data *ch, char *arg)
   /* Does the argument match an extra desc in the room? */
   if ((desc = find_exdesc(arg, world[IN_ROOM(ch)].ex_description)) != NULL && ++i == fnum) {
     send_to_char(ch, "\n# %s"
-      "\ntalk:#adv world:main %d/main:%s\r"
+      "\ntalk:#space world:main %d/main:%s\r"
       "\nroom:%d\r",
       arg,
       GET_ROOM_VNUM(IN_ROOM(ch)),
@@ -774,7 +774,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       if ((desc = find_exdesc(arg, GET_EQ(ch, j)->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Equipment\r"
           "::begin:object"
-          "\ntalk:#adv object:main %s\r"
+          "\ntalk:#space object:main %s\r"
           "::end:object",
           desc
         );
@@ -787,7 +787,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Inventory\r"
           "::begin:object"
-          "\ntalk:#adv object:main %s\r"
+          "\ntalk:#space object:main %s\r"
           "::end:object",
           desc
         );
@@ -801,7 +801,7 @@ static void look_at_target(struct char_data *ch, char *arg)
       if ((desc = find_exdesc(arg, obj->ex_description)) != NULL && ++i == fnum) {
         send_to_char(ch, "\n# Object\r"
           "::begin:object"
-          "\ntalk:#adv object:main  %d/main:%s\r"
+          "\ntalk:#space object:main  %d/main:%s\r"
           "\n::end:object\r"
           "\nroom:%d",
           GET_OBJ_VNUM(obj),

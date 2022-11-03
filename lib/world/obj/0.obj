@@ -77,7 +77,7 @@ Academy Course A08~
 academy training course level1~
 Academy Level 1~
 0009/main:avatar~
-talk:#adv thegame:object 0009/main:look
+talk:#space thegame:object 0009/main:look
 ~
 2 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0
@@ -147,7 +147,7 @@ Academy Level 4~
 academy course training level5~
 Academy Level 5~
 0022/main:avatar~
-talk#adv object:main 022/main:look
+talk#space object:main 022/main:look
 ~
 2 dht 0 0 0 a 0 0 0 0 0 0 0
 0 0 0 0

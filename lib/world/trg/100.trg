@@ -68,7 +68,7 @@ set key 10013
 set wallet 1004
 set token %actor.inventory(%key%)%
 set dir north
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -104,7 +104,7 @@ set key 10008
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -120,7 +120,7 @@ set key 10020
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -156,7 +156,7 @@ set key 10023
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -192,7 +192,7 @@ set key 10032
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -248,7 +248,7 @@ set key 10024
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -264,7 +264,7 @@ set key 10024
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -320,7 +320,7 @@ set key 10089
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -336,7 +336,7 @@ set key 10047
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -354,7 +354,7 @@ set token1 %actor.inventory(%key1%)%
 set token2 %actor.inventory(%key2%)%
 set dir north
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token1% && %token2%
   if %direction% == %dir%
     return 0
@@ -390,7 +390,7 @@ set key 10064
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -406,7 +406,7 @@ set key 10060
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -425,7 +425,7 @@ set ndir north
 set stoken %actor.inventory(%skey%)%
 set ntoken %actor.inventory(%nkey%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %stoken%
   if %direction% == %sdir%
     return 0
@@ -447,7 +447,7 @@ set key 10065
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -543,7 +543,7 @@ set key 10072
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -579,7 +579,7 @@ set key 10084
 set dir north
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -648,7 +648,7 @@ set key 10033
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -664,7 +664,7 @@ set key 10074
 set dir south
 set token %actor.inventory(%key%)%
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 if %token%
   if %direction% == %dir%
     return 0
@@ -677,7 +677,7 @@ RM1083 Token Check~
 2 q 100
 ~
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 set key1 1108
 set key2 1102
 set key3 1103
@@ -750,7 +750,7 @@ RM1091 Token Check~
 2 q 100
 ~
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 set key1 1108
 set key2 1102
 set key3 1103
@@ -777,7 +777,7 @@ RM1095 Token Check~
 2 q 100
 ~
 set room %self.vnum%
-set msg talk:#adv world:main 10000/main:closed
+set msg talk:#space world:main 10000/main:closed
 set key1 1108
 set dir1 north
 set key2 1102
