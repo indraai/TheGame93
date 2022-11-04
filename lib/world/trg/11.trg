@@ -18,8 +18,8 @@ end
 ~
 #1157
 Talk to Athena~
-0 g 100
-~
+0 d 100
+*~
 wait 2s
 %send% %actor% %speech%
 %send% %actor% gui:#pandora ask:athena %speech%
