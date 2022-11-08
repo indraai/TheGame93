@@ -159,13 +159,14 @@
 #define CLASS_HACKER          6 // hacker
 #define CLASS_MEDIA           7 // media
 #define CLASS_LEGAL           8 // LEGAL
-#define CLASS_POLITICS        9 // POLITICS
+#define CLASS_GOVERNMENT      9 // GOVERNMENT
 #define CLASS_MEDICAL        10 // MEDICAL
 #define CLASS_SECURITY       11 // SECURITY
 #define CLASS_MILITARY       12 // MILITARY
 #define CLASS_MONK           13 // MONK
 #define CLASS_PRIEST         14 // PRIEST
 #define CLASS_ROYAL          15 // ROYAL
+#define CLASS_DEITY          16 // DEITY
 
 /** Total number of available Classes */
 #define NUM_CLASSES	         16
@@ -458,20 +459,21 @@
 #define ITEM_ANTI_HACKER        14   /**< Not usable by sarya */
 #define ITEM_ANTI_MEDIA         15   /**< Not usable by sarya */
 #define ITEM_ANTI_LEGAL         16   /**< Not usable by sarya */
-#define ITEM_ANTI_POLITICS      17   /**< Not usable by sarya */
+#define ITEM_ANTI_GOVERNMENT    17   /**< Not usable by sarya */
 #define ITEM_ANTI_MEDICAL       18   /**< Not usable by sarya */
 #define ITEM_ANTI_MILITARY      19   /**< Not usable by sarya */
 #define ITEM_ANTI_MONK          20   /**< Not usable by sarya */
 #define ITEM_ANTI_PRIEST        21   /**< Not usable by sarya */
 #define ITEM_ANTI_ROYAL         22   /**< Not usable by sarya */
-#define ITEM_NOSELL             23   /**< Shopkeepers won't touch it */
-#define ITEM_NODROP             24    /**< Item is cursed: can't drop */
-#define ITEM_NORENT             25    /**< Item cannot be rented */
-#define ITEM_NODONATE           26    /**< Item cannot be donated */
-#define ITEM_NOINVIS            27    /**< Item cannot be made invis	*/
-#define ITEM_QUEST              28   /**< Item is a quest item         */
+#define ITEM_ANTI_DEITY         23   /**< Not usable by sarya */
+#define ITEM_NOSELL             24   /**< Shopkeepers won't touch it */
+#define ITEM_NODROP             25    /**< Item is cursed: can't drop */
+#define ITEM_NORENT             26    /**< Item cannot be rented */
+#define ITEM_NODONATE           27    /**< Item cannot be donated */
+#define ITEM_NOINVIS            28    /**< Item cannot be made invis	*/
+#define ITEM_QUEST              29   /**< Item is a quest item         */
 /** Total number of item flags */
-#define NUM_ITEM_FLAGS          29
+#define NUM_ITEM_FLAGS          30
 
 /* Modifier constants used with obj affects ('A' fields) */
 #define APPLY_NONE              0	/**< No effect			*/

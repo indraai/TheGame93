@@ -42,6 +42,7 @@ const char *class_abbrevs[] = {
   "Mo",
   "Pr",
   "Ro",
+  "De",
   "\n"
 };
 
@@ -55,13 +56,14 @@ const char *class_types[] = {
   "HACKER",
   "MEDIA",
   "LEGAL",
-  "POLITICS",
+  "GOVERNMENT",
   "MEDICAL",
   "SECURITY",
   "MILITARY",
   "MONK",
   "PRIEST",
   "ROYAL",
+  "DEITY",
   "\n"
 };
 
@@ -78,13 +80,14 @@ const char *class_menu =
 "\nmenu[Hacker]:g"
 "\nmenu[Media]:h"
 "\nmenu[Legal]:i"
-"\nmenu[Politics]:k"
+"\nmenu[Government]:k"
 "\nmenu[Medical]:j"
 "\nmenu[Security]:l"
 "\nmenu[Military]:m\r"
 "\nmenu[Monk]:n\r"
 "\nmenu[Priest]:o\r"
 "\nmenu[Royal]:p\r";
+"\nmenu[Deity]:q\r";
 
 /* The code to interpret a class letter -- used in interpreter.c when a new
  * character is selecting a class and by 'set class' in act.wizard.c. */
@@ -102,13 +105,14 @@ int parse_class(char arg)
   case 'g': return CLASS_HACKER;        // hacker
   case 'h': return CLASS_MEDIA;    // Media
   case 'i': return CLASS_LEGAL;        // LEGAL
-  case 'j': return CLASS_POLITICS;    // politician
+  case 'j': return CLASS_GOVERNMENT;    // politician
   case 'k': return CLASS_MEDICAL;       // medical
   case 'l': return CLASS_SECURITY;      // security
   case 'm': return CLASS_MILITARY;      // military
   case 'n': return CLASS_MONK;          // monk
   case 'o': return CLASS_PRIEST;        // priest
   case 'p': return CLASS_ROYAL;         // royal
+  case 'q': return CLASS_DEITY;         // royal
   default:  return CLASS_UNDEFINED;
   }
 }
@@ -181,7 +185,7 @@ struct guild_info_type guild_info[] = {
  { CLASS_HACKER, 172, NORTH },
  { CLASS_MEDIA, 173, NORTH },
  { CLASS_LEGAL, 175, NORTH },
- { CLASS_POLITICS, 176, NORTH },
+ { CLASS_GOVERNMENT, 176, NORTH },
  { CLASS_MILITARY, 177, NORTH },
  { CLASS_ROYAL, 178, NORTH },
 
@@ -1518,7 +1522,7 @@ void do_start(struct char_data *ch)
   case CLASS_LEGAL:
     break;
 
-  case CLASS_POLITICS:
+  case CLASS_GOVERNMENT:
     break;
   }
 
@@ -1648,7 +1652,7 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
   if (OBJ_FLAGGED(obj, ITEM_ANTI_LEGAL) && IS_LEGAL(ch))
     return TRUE;
 
-  if (OBJ_FLAGGED(obj, ITEM_ANTI_POLITICS) && IS_POLITICS(ch))
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_GOVERNMENT) && IS_GOVERNMENT(ch))
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_MEDICAL) && IS_MEDICAL(ch))
@@ -1664,6 +1668,9 @@ int invalid_class(struct char_data *ch, struct obj_data *obj)
     return TRUE;
 
   if (OBJ_FLAGGED(obj, ITEM_ANTI_ROYAL) && IS_ROYAL(ch))
+    return TRUE;
+
+  if (OBJ_FLAGGED(obj, ITEM_ANTI_DEITY) && IS_DEITY(ch))
     return TRUE;
 
   return FALSE;
@@ -1714,8 +1721,8 @@ void init_spell_levels(void)
   /* LEGAL */
   spell_level(SKILL_TRACK, CLASS_LEGAL, 1);
 
-  /* POLITICS */
-  spell_level(SKILL_TRACK, CLASS_POLITICS, 1);
+  /* GOVERNMENT */
+  spell_level(SKILL_TRACK, CLASS_GOVERNMENT, 1);
 
   /* MEDICAL */
   spell_level(SKILL_BANDAGE, CLASS_MEDICAL, 1);

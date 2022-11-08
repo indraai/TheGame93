@@ -882,13 +882,14 @@ do                                                              \
 #define IS_HACKER(ch)	GET_CLASS(ch) == CLASS_HACKER
 #define IS_MEDIA(ch)	GET_CLASS(ch) == CLASS_MEDIA
 #define IS_LEGAL(ch)	GET_CLASS(ch) == CLASS_LEGAL
-#define IS_POLITICS(ch)	GET_CLASS(ch) == CLASS_POLITICS
+#define IS_GOVERNMENT(ch)	GET_CLASS(ch) == CLASS_GOVERNMENT
 #define IS_MEDICAL(ch)	GET_CLASS(ch) == CLASS_MEDICAL
 #define IS_SECURITY(ch)	GET_CLASS(ch) == CLASS_SECURITY
 #define IS_MILITARY(ch)	GET_CLASS(ch) == CLASS_MILITARY
 #define IS_MONK(ch)	GET_CLASS(ch) == CLASS_MONK
 #define IS_PRIEST(ch)	GET_CLASS(ch) == CLASS_PRIEST
 #define IS_ROYAL(ch)	GET_CLASS(ch) == CLASS_ROYAL
+#define IS_DEITY(ch)	GET_CLASS(ch) == CLASS_DEITY
 
 /** 1 if ch is magic user class, 0 if not. */
 /** 1 if ch is adventurer class, 0 if not. */

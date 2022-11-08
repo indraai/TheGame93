@@ -86,14 +86,17 @@ struct shop_data {
 #define TRADE_HACKER       (1 << 9)
 #define TRADE_MEDIA        (1 << 10)
 #define TRADE_LEGAL        (1 << 11)
-#define TRADE_POLITICS     (1 << 11)
-#define TRADE_MEDICAL      (1 << 12)
-#define TRADE_SECURITY     (1 << 13)
-#define TRADE_MILITARY     (1 << 14)
-#define TRADE_ROYAL        (1 << 15)
+#define TRADE_GOVERNMENT   (1 << 12)
+#define TRADE_MEDICAL      (1 << 13)
+#define TRADE_SECURITY     (1 << 14)
+#define TRADE_MILITARY     (1 << 15)
+#define TRADE_MONK         (1 << 17)
+#define TRADE_PRIEST       (1 << 18)
+#define TRADE_ROYAL        (1 << 19)
+#define TRADE_DEITY        (1 << 20)
 
 /** Total number of trade types */
-#define NUM_TRADERS     16
+#define NUM_TRADERS     20
 
 struct stack_data {
    int data[100];
@@ -143,11 +146,12 @@ struct stack_data {
 #define NOTRADE_HACKER(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_HACKER))
 #define NOTRADE_MEDIA(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MEDIA))
 #define NOTRADE_LEGAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_LEGAL))
-#define NOTRADE_POLITICS(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_POLITICS))
+#define NOTRADE_GOVERNMENT(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_GOVERNMENT))
 #define NOTRADE_MEDICAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MEDICAL))
 #define NOTRADE_SECURITY(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_SECURITY))
 #define NOTRADE_MLITARY(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_MLITARY))
 #define NOTRADE_ROYAL(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_ROYAL))
+#define NOTRADE_DEITY(i)	(IS_SET(SHOP_TRADE_WITH((i)), TRADE_DEITY))
 
 /* Shop flags */
 #define WILL_START_FIGHT    (1 << 0)

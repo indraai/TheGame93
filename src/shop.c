@@ -41,13 +41,14 @@ const char *trade_letters[] = {
         "Hacker",
         "Media",
         "Legal",
-        "Politics",
+        "Government",
         "Medical",
         "Security",
         "Military",
         "Monk",
         "Priest",
         "Royal",
+        "Deity",
         "\n"
 };
 
