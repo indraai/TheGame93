@@ -2,6 +2,8 @@
 Quinn~
 Arjika~
 200 299 30 2 d 0 0 0 -1 -1
+M 0 230 1 230 	(Hackerman)
+G 1 230 99 -1 	(Hackerman Terminal)
 O 0 297 1 297 	(CYPHER-4 TERMINAL)
 M 0 297 1 297 	(Arjika CYPHER-4)
 M 0 259 1 259 	(SecurityDEVA D259 (Guard))
@@ -68,7 +70,6 @@ M 0 199 1 278 	(Karry)
 G 1 114 25 -1 	(Pretzel)
 G 1 278 99 -1 	(Fork-It IceCream)
 M 0 204 1 204 	(Martha Stuart)
-M 0 230 1 230 	(Hackerman)
 M 0 217 1 217 	(Martin)
 M 0 161 3 251 	(ServiceDEVA D161)
 E 1 136 99 17 	(Broom)

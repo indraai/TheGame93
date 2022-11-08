@@ -96,10 +96,12 @@ CircleMUD v3.0 Shop File~
 0
 0
 #230~
+230
 -1
 1.00
 1.00
 12tech
+7
 -1
 %s Sorry, I don't stock that item.~
 %s You don't seem to have that.~
@@ -166,7 +168,7 @@ CircleMUD v3.0 Shop File~
 %s I'll give you %d coins for that.~
 0
 6
-158
+-1
 0
 238
 -1

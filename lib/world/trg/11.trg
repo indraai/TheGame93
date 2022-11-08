@@ -20,9 +20,8 @@ end
 Talk to Athena~
 0 d 100
 *~
-wait 2s
-%send% %actor% %speech%
-%send% %actor% gui:#pandora ask:athena %speech%
+wait 1s
+%send% %actor% talk:#pandora ask:athena %speech%
 ~
 #1160
 PlazaInn Attendant Greeting~
