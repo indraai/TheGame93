@@ -229,4 +229,11 @@ if %actor.varexists(on_tour)%
   %send% %actor% gui:#mud %d%
 end
 ~
+#996
+Talk to Lucifer~
+0 d 100
+*~
+wait 1s
+%send% %actor% talk:#pandora ask:lucifer %speech%
+~
 $~
