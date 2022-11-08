@@ -169,7 +169,7 @@
 #define CLASS_DEITY          16 // DEITY
 
 /** Total number of available Classes */
-#define NUM_CLASSES	         16
+#define NUM_CLASSES	         17
 
 /* NPC classes (currently unused - feel free to implement!) */
 #define CLASS_OTHER       0    /**< NPC Class Other (or undefined) */
