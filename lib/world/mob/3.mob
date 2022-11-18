@@ -152,15 +152,15 @@ SavingBreath: 8
 SavingSpell: 8
 E
 #329
-brian arjika~
-Brian~
+arjika law legal agent robot z3 a329 proceedings~
+Legal A329~
 329/main:avatar~
 talk:#space agent/main 329/main:look~
-6168 0 0 0 8 0 0 0 1000 E
+10 0 0 0 0 0 0 0 1000 E
 33 17 4 2d2+100 1d2+1
 50000 10000
-8 8 1 2 6
-BareHandAttack: 11
+8 8 0 1 1
+BareHandAttack: 1
 SavingPara: 2
 SavingRod: 2
 SavingPetri: 2
@@ -168,14 +168,14 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #330
-indra arjika~
-Indra~
+arjika lawyer legal z3 a330~
+Legal A330~
 330/main:avatar~
 talk:#space agent/main 330/main:look~
-6168 0 0 0 8 0 0 0 1000 E
+10 0 0 0 0 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 50000 108900
-8 8 1 3 15
+8 8 1 3 8
 BareHandAttack: 12
 Str: 18
 Dex: 18
@@ -221,14 +221,14 @@ talk:#space agent/main 332/main:look~
 8 8 1 1 15
 E
 #333
-tyler arjika robot hacker z3~
-TylerDeva 333~
+arjika robot recycling services z3 a333~
+Services A333~
 333/main:avatar~
 333/main:look~
-2072 0 0 0 2056 0 0 0 1000 E
+10 0 0 0 0 0 0 0 1000 E
 12 16 2 2d2+120 2d2+2
 120 14400
-8 8 1 2 6
+8 8 1 1 4
 BareHandAttack: 9
 SavingPara: 3
 SavingRod: 3

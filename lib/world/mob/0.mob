@@ -312,15 +312,15 @@ SavingBreath: 7
 SavingSpell: 7
 E
 #15
-agni deva agent asura~
-Agni~
+librarian library agent robot z0 A15 book5~
+Librarian A15~
 0015/main:avatar~
 0015/main:look
 ~
-2072 0 0 0 2104 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 27 11 -6 5d5+270 4d4+4
 270 72900
-8 8 1 2 15
+8 8 0 1 1
 BareHandAttack: 10
 Str: 18
 Dex: 18
