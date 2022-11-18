@@ -727,15 +727,15 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #147
-logan ufo.cafe servicedeva~
-Logan~
+cafe agent robot services food drink drinks z1 a147~
+Cafe A147~
 0147/main:avatar~
 #space agent:main 0147/main:look
 ~
-253962 0 0 0 112 0 0 0 0 E
+10 0 0 0 0 0 0 0 0 E
 5 19 7 1d1+50 1d2+0
 50 2500
-6 6 6 1 1
+6 6 0 1 1
 BareHandAttack: 1
 SavingPara: 1
 SavingRod: 1
@@ -744,14 +744,14 @@ SavingBreath: 1
 SavingSpell: 1
 E
 #148
-sindhu visvedevas deity~
-Sindhu~
+hotspot tea drinks cafe agent robot z1 a148 services~
+HotSpot A148~
 0148/main:avatar~
 0148/main:look~
-6168 0 0 0 2064 0 0 0 500 E
+10 0 0 0 0 0 0 0 500 E
 27 10 -8 6d6+300 5d5+5
 300 90000
-8 8 6 6 6
+8 8 0 1 1
 BareHandAttack: 6
 Str: 18
 Dex: 18

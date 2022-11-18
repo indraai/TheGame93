@@ -1382,7 +1382,7 @@ D9
 0 0 295
 S
 #271
-Operations~
+Military: OPEREATIONS~
 undefined~
 2 568 0 0 0 0
 D1
@@ -1399,7 +1399,7 @@ D8
 0 0 285
 S
 #272
-Command~
+Military: COMMAND~
 Empty room.~
 2 568 0 0 0 0
 D2
@@ -1635,7 +1635,7 @@ D9
 0 0 315
 S
 #284
-Strategy~
+Military: STRATEGY~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -1656,7 +1656,7 @@ D7
 0 0 272
 S
 #285
-Research~
+Military: RESEARCH~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -1927,7 +1927,7 @@ D9
 0 0 316
 S
 #297
-CYPHER-4~
+Military: CYPHER-4~
 Empty room.~
 2 568 0 0 0 0
 D0
@@ -1940,7 +1940,7 @@ D2
 0 0 304
 S
 #298
-Barracks~
+Military: Barracks~
 Empty room.~
 2 24 0 0 0 0
 D0

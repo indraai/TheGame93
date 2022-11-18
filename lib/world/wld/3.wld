@@ -14,6 +14,10 @@ D7
 ~
 ~
 0 0 289
+D9
+~
+~
+0 0 308
 S
 #301
 9W8S Outer Loop~
@@ -46,7 +50,7 @@ D9
 0 0 317
 S
 #304
-CYPHER-3~
+Military: CYPHER-3~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -59,7 +63,7 @@ D2
 0 0 319
 S
 #305
-Dining Hall~
+Military: Dining Hall~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -133,6 +137,10 @@ D4
 ~
 ~
 0 0 338
+D7
+~
+~
+0 0 300
 S
 #309
 9S8W Outer Loop~
@@ -333,7 +341,7 @@ D6
 0 0 295
 S
 #319
-CYPHER-2~
+Military: CYPHER-2~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -346,7 +354,7 @@ D2
 0 0 334
 S
 #320
-Kitchen~
+Military: Kitchen~
 Empty room.~
 3 24 0 0 0 0
 D2
@@ -551,20 +559,25 @@ D4
 0 0 368
 S
 #333
-6 S. Arjika Blvd.~
-The street narrows here as it passes between the tower and the mansion.  One can hear strange incantations coming from an open window in the black tower, far above the other buildings.  The Magi train young students within to take their place, but fewer and fewer meet the requirements and actually survive the training.~
-3 16 0 0 0 1
+Recycling Center~
+0333/main:look
+~
+3 8 0 0 0 0
 D0
 ~
 ~
 0 0 318
+D1
+~
+~
+0 0 337
 D2
 ~
 ~
 0 0 348
 S
 #334
-CYPHER-1~
+Military: CYPHER-1~
 Empty room.~
 3 568 0 0 0 0
 D0
@@ -577,7 +590,7 @@ D1
 0 0 335
 S
 #335
-Training~
+Military: Training~
 Empty room.~
 3 24 0 0 0 0
 D0
@@ -596,11 +609,15 @@ S
 #337
 Recycling Center~
 Empty room.~
-3 24 0 0 0 0
+3 8 0 0 0 0
 D1
 ~
 ~
 0 0 308
+D3
+~
+~
+0 0 333
 S
 #338
 Security Lookout (SW)~
