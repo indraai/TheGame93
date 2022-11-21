@@ -397,6 +397,18 @@ SavingPetri: 1
 SavingBreath: 1
 SavingSpell: 1
 E
+#268
+darry store outfitter robot~
+Outfitter A268~
+0268/main:avatar~
+0268/main:look
+~
+10 0 0 0 16 0 0 0 900 E
+1 20 9 0d0+10 1d2+0
+10 100
+6 6 1 1 1
+BareHandAttack: 1
+E
 #277
 narry jeweler gems jewels deva store~
 Narry~

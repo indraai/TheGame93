@@ -31,7 +31,7 @@ Sindhu~
 302/main:avatar~
 302/main:look
 ~
-12 0 0 0 0 0 0 0 0 0 0 0 0
+22 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 1000000 1000000 0 0 0
 T 302
@@ -41,7 +41,7 @@ Tarksya~
 0303/main:avatar~
 0303/main:look
 ~
-12 0 0 0 0 0 0 0 0 0 0 0 0
+7 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 1000000 1000000 0 0 0
 #304
@@ -50,7 +50,7 @@ CYPHER-3 TERMINAL~
 0304/main:avatar~
 0304/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+7 g 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
@@ -63,7 +63,7 @@ Svasti~
 0305/main:avatar~
 0305/main:look
 ~
-12 0 0 0 0 0 0 0 0 0 0 0 0
+22 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0
 1000000 1000000 0 33 0
 #306
@@ -72,7 +72,7 @@ Panchajanya~
 0306/main:avatar~
 0306/main:look
 ~
-3 deg 0 0 0 an 0 0 0 defgln 0 0 0
+12 deg 0 0 0 an 0 0 0 defgil 0 0 0
 0 0 0 0
 1 2000000 0 33 0
 #307
@@ -117,7 +117,7 @@ CYBER1 TERMINAL~
 0311/main:avatar~
 0311/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+7 g 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
@@ -130,7 +130,7 @@ CYBER2 TERMINAL~
 0312/main:avatar~
 0312/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+7 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
@@ -143,7 +143,7 @@ CYBER3 TERMINAL~
 0313/main:avatar~
 0313/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+7 g 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
@@ -165,7 +165,7 @@ CYPHER-2 TERMINAL~
 0312/main:avatar~
 0312/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+7 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
@@ -178,7 +178,7 @@ CYPHER-1 TERMINAL~
 0334/main:avatar~
 0334/main:look
 ~
-0 ag 0 0 0 0 0 0 0 defg 0 0 0
+7 ag 0 0 0 0 0 0 0 defg 0 0 0
 0 0 0 0
 10 0 0 0 0
 E
