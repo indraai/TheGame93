@@ -1203,20 +1203,20 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #183
-fightclub fight club muscle~
-Muscle~
+arjika agent muscle a183 z1~
+Muscle A183~
 0183/main:avatar~
 0183/main:look~
-16974 0 0 0 0 0 0 0 -800 E
-17 15 0 3d3+170 2d2+2
-170 28900
-8 8 6 3 3
+8 0 0 0 0 0 0 0 -800 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 3 1
 BareHandAttack: 5
-SavingPara: 4
-SavingRod: 4
-SavingPetri: 4
-SavingBreath: 4
-SavingSpell: 4
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #185
 soma disciple susoma monk~
