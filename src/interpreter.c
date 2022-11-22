@@ -1648,19 +1648,19 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.race = RACE_HUMAN;
       break;
     case '1':
-      d->character->player.race = RACE_ROBOT;
-      break;
-    case '2':
       d->character->player.race = RACE_DEVA;
       break;
-    case '3':
+    case '2':
       d->character->player.race = RACE_ARJIKA;
       break;
-    case '4':
+    case '3':
       d->character->player.race = RACE_SUSOMA;
       break;
-    case '5':
+    case '4':
       d->character->player.race = RACE_SARYA;
+      break;
+    case '5':
+      d->character->player.race = RACE_ASURA;
       break;
     case '6':
       d->character->player.race = RACE_ASURAS;
@@ -1672,6 +1672,15 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.race = RACE_DASYUS;
       break;
     case '9':
+      d->character->player.race = RACE_ADITYAS;
+      break;
+    case '10':
+      d->character->player.race = RACE_MARUTS;
+      break;
+    case '11':
+      d->character->player.race = RACE_NAGA;
+      break;
+    case '12':
       d->character->player.race = RACE_OTHER;
       break;
     default:
