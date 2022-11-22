@@ -153,9 +153,6 @@ const char *races[] =
 {
   "HUMAN",
   "DEVA",
-  "ARJIKA",
-  "SUSOMA",
-  "SARYAKIAVAN",
   "ASURA",
   "ASURAS",
   "DANAVA",
