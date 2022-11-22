@@ -2,7 +2,8 @@
 Quinn~
 Arjika~
 100 199 30 2 d 0 0 0 -1 -1
-M 0 183 1 183 	(Muscle)
+M 0 125 1 125 	(m)
+M 0 183 1 183 	(Muscle A183)
 M 0 101 1 101 	(Arjika Attendant)
 M 0 161 1 161 	(ServiceDEVA A161)
 E 1 136 99 17 	(Broom)
@@ -30,7 +31,6 @@ M 0 145 1 145 	(Client Householder)
 M 0 144 1 144 	(Agent Householder)
 M 0 179 1 179 	(Arjika Private)
 D 0 179 5 1 	(Communications)
-M 0 185 1 125 	(Soma Disciple)
 M 0 100 1 100 	(Arjika Attendant A100)
 M 0 126 1 126 	(Arjika Intelligence)
 M 0 186 2 141 	(MedicDEVA 186)

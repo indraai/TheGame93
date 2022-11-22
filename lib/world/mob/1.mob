@@ -392,16 +392,21 @@ SavingBreath: 2
 SavingSpell: 2
 E
 #125
-medic medicdeva medical nurse d125 z1~
-MedicDEVA 125~
+soma disciple susoma monk~
+Soma Disciple~
 0125/main:avatar~
 0125/main:look
 ~
-256154 0 0 0 26744 0 0 0 1000 E
-3 19 8 0d0+30 1d2+0
-30 900
-8 8 2 3 0
-BareHandAttack: 4
+26650 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 1 4 13
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
 E
 #126
 arjika intelligence soldier military a126~
