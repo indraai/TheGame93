@@ -336,17 +336,17 @@ D6
 0 0 346
 S
 #126
-House Vamraka~
+Intelligence~
 Empty room.~
 1 24 0 0 0 0
 D1
 ~
 ~
 0 0 345
-D3
+D2
 ~
 ~
-0 0 31
+0 0 179
 S
 #131
 House Bom~
@@ -927,6 +927,10 @@ S
 Communications~
 empty.~
 1 24 0 0 0 0
+D0
+~
+~
+0 0 126
 D3
 ~
 ~

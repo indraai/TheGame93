@@ -361,15 +361,6 @@ D5
 ~
 0 0 -1
 S
-#31
-Vamraka Shrine~
-undefined~
-0 24 0 0 0 0
-D1
-~
-~
-0 0 126
-S
 #32
 Indu Shrine~
 none.~
@@ -457,7 +448,7 @@ D0
 D1
 ~
 ~
-0 0 220
+0 0 -1
 D2
 ~
 ~

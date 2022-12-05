@@ -4,12 +4,6 @@ Arjika~
 0 99 30 2 d 0 0 0 1 -1
 M 0 34 1 34 	(Soma)
 M 0 15 1 15 	(Librarian A15)
-M 0 0 1 31 	(Vamraka)
-M 0 198 1 31 	(Vamraka Disciple)
-O 0 31 1 31 	(Vamraka Fountain)
-M 0 14 1 31 	(Vamraka Fighter)
-R 0 31 4 -1 	(Cheddar Cheese)
-O 1 4 99 31 	(Cheddar Cheese)
 M 0 5 1 96 	(SecurityPRIME)
 M 0 174 2 96 	(SecurityDEVA D174 (Agency))
 R 0 96 92 -1 	(Security Board)
