@@ -265,11 +265,11 @@ const char *MENU =
 "\n"
 "\n# Welcome"
 "\nWelcome to the world of Arjika. Please make your selection from the menu below."
-"\nmenu[enter the adventure]:1"
-"\nmenu[the story]:3"
-"\nmenu[change description]:2"
-"\nmenu[change password]:4"
-"\nmenu[delete character]:5"
+"\nmenu[Enter Arjika]:1"
+"\nmenu[More Information]:3"
+"\nmenu[Change Bio]:2"
+"\nmenu[Change Password]:4"
+"\nmenu[Delete Profile]:5"
 "\nmenu[exit]:0";
 
 const char *WELC_MESSG =
