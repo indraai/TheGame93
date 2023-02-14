@@ -1625,17 +1625,12 @@ void nanny(struct descriptor_data *d, char *arg)
       "\np:Please select your race...\r"
       "\nmenu[HUMAN]:0\r"
       "\nmenu[DEVA]:1\r"
-      "\nmenu[ARJIKA]:2\r"
-      "\nmenu[SUSOMA]:3\r"
-      "\nmenu[SARYAKIAVAN]:4\r"
-      "\nmenu[ASURA]:5\r"
-      "\nmenu[ASURAS]:6\r"
-      "\nmenu[DANAVA]:7\r"
-      "\nmenu[DASYUS]:8\r"
-      "\nmenu[ADITYAS]:9\r"
-      "\nmenu[MARUTS]:10\r"
-      "\nmenu[NAGA]:11\r"
-      "\nmenu[OTHER]:12\r"
+      "\nmenu[ASURAS]:2\r"
+      "\nmenu[DANAVA]:3\r"
+      "\nmenu[DASYUS]:4\r"
+      "\nmenu[ADITYAS]:5\r"
+      "\nmenu[MARUTS]:6\r"
+      "\nmenu[OTHER]:8\r"
     );
 
     STATE(d) = CON_QRACE;
@@ -1651,27 +1646,21 @@ void nanny(struct descriptor_data *d, char *arg)
       d->character->player.race = RACE_DEVA;
       break;
     case '2':
-      d->character->player.race = RACE_ASURA;
-      break;
-    case '3':
       d->character->player.race = RACE_ASURAS;
       break;
-    case '4':
+    case '3':
       d->character->player.race = RACE_DANAVA;
       break;
-    case '5':
+    case '4':
       d->character->player.race = RACE_DASYUS;
       break;
-    case '6':
+    case '5':
       d->character->player.race = RACE_ADITYAS;
       break;
-    case '7':
+    case '6':
       d->character->player.race = RACE_MARUTS;
       break;
-    case '8':
-      d->character->player.race = RACE_NAGA;
-      break;
-    case '9':
+    case '7':
       d->character->player.race = RACE_OTHER;
       break;
     default:

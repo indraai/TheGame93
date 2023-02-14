@@ -190,16 +190,14 @@
 /* RACE */
 #define RACE_HUMAN       0   /**< human */
 #define RACE_DEVA        1   /**< deva */
-#define RACE_ASURA       2   /**< asuras */
-#define RACE_ASURAS      3   /**< asuras */
-#define RACE_DANAVA      4   /**< danava */
-#define RACE_DASYUS      5   /**< dasyus */
-#define RACE_ADITYAS     6   /**< aditya */
-#define RACE_MARUTS      7   /**< maruts */
-#define RACE_NAGA        8   /**< maruts */
-#define RACE_OTHER       9  /**< OTHER */
+#define RACE_ASURAS      2   /**< asuras */
+#define RACE_DANAVA      3   /**< danava */
+#define RACE_DASYUS      4   /**< dasyus */
+#define RACE_ADITYAS     5   /**< aditya */
+#define RACE_MARUTS      6   /**< maruts */
+#define RACE_OTHER       7  /**< OTHER */
 /** Total number of RACES */
-#define NUM_RACES        10
+#define NUM_RACES        8
 
 /* Positions */
 #define POS_DEAD       0	/**< Position = dead */
