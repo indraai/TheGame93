@@ -1,14 +1,4 @@
-## Deva World
+(lib/text/imotd)
+# Admin MOTD
 
-p:Welcome,
-
-p:You have entered the realm of the Deva. A virtual reality created from the ancient texts of the Rig Veda with some modern flair.
-p:The realm of the Deva is a rich adventure into your imagination where you will find places like...
-> Vedic Law Library
-> Houses of the Deities
-> Arjika Military
-> Arjika Akademy
-> Offering Halls
-> Adventure Arcade
-> 1977 Disneyland
-> Much More...
+p:Remember we are focused on cleaning up the virtual world where Indra's name was located.
