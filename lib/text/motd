@@ -1,4 +1,1 @@
-(lib/text/motd)
-# Message
-
 p:This is the message of the day that will flash to the users when changed. This file can be used to send messages and updates that the users need to view.
