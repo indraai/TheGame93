@@ -98,22 +98,23 @@ ACMD(do_wizhelp)
   if (!ch->desc)
     return;
 
-  send_to_char(ch, "The following privileged commands are available:\r\n");
+  send_to_char(ch, "\np:The following privileged commands are available:");
 
   for (level = LVL_IMPL; level >= LVL_IMMORT; level--) {
-    send_to_char(ch, "%sLevel %d%s:\r\n", CCCYN(ch, C_NRM), level, CCNRM(ch, C_NRM));
+    send_to_char(ch, "\np:Level %d:", level);
+
     for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) {
       i = cmd_sort_info[cmd_num];
 
       if (complete_cmd_info[i].minimum_level != level)
         continue;
 
-      send_to_char(ch, "%-14s%s", complete_cmd_info[i].command, no++ % 7 == 0 ? "\r\n" : "");
+      send_to_char(ch, "\n- %-14s", complete_cmd_info[i].command);
     }
-    if (no % 7 != 1)
-      send_to_char(ch, "\r\n");
-    if (level != LVL_IMMORT)
-      send_to_char(ch, "\r\n");
+    // if (no % 7 != 1)
+    //   send_to_char(ch, "\r\n");
+    // if (level != LVL_IMMORT)
+    //   send_to_char(ch, "\r\n");
   }
 }
 
