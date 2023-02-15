@@ -17,6 +17,7 @@ log/*
 lib/plrfiles/**/*.plr
 lib/plrobjs/**/*.objs
 lib/core
+lib/etc/last
 syslog*
 
 lib/backtrace*
