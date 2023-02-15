@@ -1,0 +1,1276 @@
+#5600
+Sarvaloka~
+You are in an unfinished room.
+~
+56 24 0 0 0 12
+D0
+~
+~
+0 0 5602
+D3
+~
+~
+0 0 5601
+S
+#5601
+Sarvaloka~
+You are in an unfinished room.
+~
+56 24 0 0 0 12
+D1
+~
+~
+0 0 5600
+D5
+~
+~
+0 0 345
+S
+#5602
+Sudha Bridge~
+You are in an unfinished room.
+~
+56 0 0 0 0 10
+D0
+~
+~
+0 0 5603
+D2
+~
+~
+0 0 5600
+S
+#5603
+Sudha Bridge~
+You are in an unfinished room.
+~
+56 0 0 0 0 10
+D0
+~
+~
+0 0 5611
+D2
+~
+~
+0 0 5602
+S
+#5604
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D0
+~
+~
+0 0 5605
+D3
+~
+~
+0 0 5611
+D6
+~
+~
+0 0 5619
+S
+#5605
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D0
+~
+~
+0 0 5606
+D1
+~
+~
+0 0 5800
+D2
+~
+~
+0 0 5604
+D3
+~
+~
+0 0 5618
+S
+#5606
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D2
+~
+~
+0 0 5605
+D3
+~
+~
+0 0 5607
+D9
+~
+~
+0 0 5617
+S
+#5607
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D1
+~
+~
+0 0 5606
+D2
+~
+~
+0 0 5616
+D3
+~
+~
+0 0 5608
+S
+#5608
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D1
+~
+~
+0 0 5607
+D2
+~
+~
+0 0 5609
+D8
+~
+~
+0 0 5615
+S
+#5609
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D0
+~
+~
+0 0 5608
+D1
+~
+~
+0 0 5614
+D2
+~
+~
+0 0 5610
+S
+#5610
+Sudha Samudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 7
+D0
+~
+~
+0 0 5609
+D1
+~
+~
+0 0 5611
+D7
+~
+~
+0 0 5613
+S
+#5611
+Sudha Bridge~
+You are in an unfinished room.
+~
+56 0 0 0 0 10
+D0
+~
+~
+0 0 5612
+D1
+~
+~
+0 0 5604
+D2
+~
+~
+0 0 5603
+D3
+~
+~
+0 0 5610
+S
+#5612
+South Beach~
+You are in an unfinished room.
+~
+56 0 0 0 0 2
+D0
+~
+~
+0 0 5640
+D1
+~
+~
+0 0 5619
+D2
+~
+~
+0 0 5611
+D3
+~
+~
+0 0 5613
+S
+#5613
+Southwest Beach~
+You are in an unfinished room.
+~
+56 0 0 0 0 2
+D0
+~
+~
+0 0 5614
+D1
+~
+~
+0 0 5612
+D7
+~
+~
+0 0 5641
+D9
+~
+~
+0 0 5610
+S
+#5614
+West Beach~
+You are in an unfinished room.
+~
+56 0 0 0 0 2
+D0
+~
+~
+0 0 5615
+D1
+~
+~
+0 0 5642
+D2
+~
+~
+0 0 5613
+D3
+~
+~
+0 0 5609
+S
+#5615
+Northwest Beach~
+You are in an unfinished room.
+~
+56 0 0 0 0 2
+D1
+~
+~
+0 0 5616
+D2
+~
+~
+0 0 5614
+D6
+~
+~
+0 0 5608
+D8
+~
+~
+0 0 5643
+S
+#5616
+North Beach~
+You are in an unfinished room.
+~
+56 16 0 0 0 2
+D0
+~
+~
+0 0 5607
+D1
+~
+~
+0 0 5617
+D2
+~
+~
+0 0 5644
+D3
+~
+~
+0 0 5615
+S
+#5617
+Northeast Beach~
+You are in an unfinished room.
+~
+56 16 0 0 0 2
+D2
+~
+~
+0 0 5618
+D3
+~
+~
+0 0 5616
+D7
+~
+~
+0 0 5606
+D9
+~
+~
+0 0 5645
+S
+#5618
+East Beach~
+You are in an unfinished room.
+~
+56 16 0 0 0 2
+D0
+~
+~
+0 0 5617
+D1
+~
+~
+0 0 5605
+D2
+~
+~
+0 0 5619
+D3
+~
+~
+0 0 5638
+S
+#5619
+Southeast Beach~
+You are in an unfinished room.
+~
+56 16 0 0 0 2
+D0
+~
+~
+0 0 5618
+D3
+~
+~
+0 0 5612
+D6
+~
+~
+0 0 5639
+D8
+~
+~
+0 0 5604
+S
+#5620
+Iron Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5649
+D1
+~
+~
+0 0 5621
+D2
+~
+~
+0 0 5640
+D3
+~
+~
+0 0 5636
+D6
+~
+~
+0 0 5635
+D7
+~
+~
+0 0 5622
+S
+#5621
+White Copper Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5622
+D1
+~
+~
+0 0 5639
+D3
+~
+~
+0 0 5620
+D6
+~
+~
+0 0 5649
+D7
+~
+~
+0 0 5623
+D9
+~
+~
+0 0 5640
+S
+#5622
+Copper Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5648
+D1
+~
+~
+0 0 5623
+D2
+~
+~
+0 0 5621
+D3
+~
+~
+0 0 5649
+D6
+~
+~
+0 0 5637
+D7
+~
+~
+0 0 5624
+D8
+~
+~
+0 0 5639
+D9
+~
+~
+0 0 5620
+S
+#5623
+Lead Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5624
+D2
+~
+~
+0 0 5639
+D3
+~
+~
+0 0 5622
+D6
+~
+~
+0 0 5648
+D7
+~
+~
+0 0 5638
+D9
+~
+~
+0 0 5621
+S
+#5624
+Brass Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5625
+D1
+~
+~
+0 0 5638
+D2
+~
+~
+0 0 5623
+D3
+~
+~
+0 0 5648
+D6
+~
+~
+0 0 5626
+D9
+~
+~
+0 0 5622
+S
+#5625
+Silver Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5645
+D2
+~
+~
+0 0 5624
+D3
+~
+~
+0 0 5626
+D6
+~
+~
+0 0 5627
+D8
+~
+~
+0 0 5638
+D9
+~
+~
+0 0 5648
+S
+#5626
+Gold Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5627
+D1
+~
+~
+0 0 5625
+D2
+~
+~
+0 0 5648
+D3
+~
+~
+0 0 5628
+D6
+~
+~
+0 0 5629
+D7
+~
+~
+0 0 5645
+D8
+~
+~
+0 0 5624
+D9
+~
+~
+0 0 5637
+S
+#5627
+Pusparaga Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D1
+~
+~
+0 0 5645
+D2
+~
+~
+0 0 5626
+D3
+~
+~
+0 0 5629
+D6
+~
+~
+0 0 5644
+D8
+~
+~
+0 0 5625
+D9
+~
+~
+0 0 5628
+S
+#5628
+Padmaraga Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5629
+D1
+~
+~
+0 0 5626
+D2
+~
+~
+0 0 5637
+D3
+~
+~
+0 0 5630
+D6
+~
+~
+0 0 5631
+D7
+~
+~
+0 0 5627
+D8
+~
+~
+0 0 5648
+D9
+~
+~
+0 0 5647
+S
+#5629
+Gomeda Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5644
+D1
+~
+~
+0 0 5627
+D2
+~
+~
+0 0 5628
+D3
+~
+~
+0 0 5631
+D8
+~
+~
+0 0 5626
+D9
+~
+~
+0 0 5630
+S
+#5630
+Diamond Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5631
+D1
+~
+~
+0 0 5628
+D2
+~
+~
+0 0 5647
+D3
+~
+~
+0 0 5632
+D6
+~
+~
+0 0 5643
+D7
+~
+~
+0 0 5629
+D8
+~
+~
+0 0 5637
+D9
+~
+~
+0 0 5633
+S
+#5631
+Vaidurya Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D1
+~
+~
+0 0 5629
+D2
+~
+~
+0 0 5630
+D3
+~
+~
+0 0 5643
+D7
+~
+~
+0 0 5644
+D8
+~
+~
+0 0 5628
+D9
+~
+~
+0 0 5632
+S
+#5632
+Indranilmani Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5643
+D1
+~
+~
+0 0 5630
+D2
+~
+~
+0 0 5633
+D7
+~
+~
+0 0 5631
+D8
+~
+~
+0 0 5647
+D9
+~
+~
+0 0 5642
+S
+#5633
+Pearl Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5632
+D1
+~
+~
+0 0 5647
+D2
+~
+~
+0 0 5634
+D3
+~
+~
+0 0 5642
+D7
+~
+~
+0 0 5630
+D8
+~
+~
+0 0 5635
+S
+#5634
+Emerald Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5633
+D1
+~
+~
+0 0 5635
+D2
+~
+~
+0 0 5641
+D6
+~
+~
+0 0 5642
+D7
+~
+~
+0 0 5647
+D8
+~
+~
+0 0 5636
+S
+#5635
+Prabala Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5647
+D1
+~
+~
+0 0 5649
+D2
+~
+~
+0 0 5636
+D3
+~
+~
+0 0 5634
+D6
+~
+~
+0 0 5633
+D7
+~
+~
+0 0 5637
+D8
+~
+~
+0 0 5620
+D9
+~
+~
+0 0 5641
+S
+#5636
+Navaratna Enclosure~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5635
+D1
+~
+~
+0 0 5620
+D3
+~
+~
+0 0 5641
+D6
+~
+~
+0 0 5634
+D7
+~
+~
+0 0 5649
+D8
+~
+~
+0 0 5640
+S
+#5637
+The Crowning Palace~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5628
+D1
+~
+~
+0 0 5648
+D2
+~
+~
+0 0 5649
+D3
+~
+~
+0 0 5647
+D4
+~
+~
+0 0 5700
+D6
+~
+~
+0 0 5630
+D7
+~
+~
+0 0 5626
+D8
+~
+~
+0 0 5622
+D9
+~
+~
+0 0 5635
+S
+#5638
+Indra City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D1
+~
+~
+0 0 5618
+D3
+~
+~
+0 0 5624
+D6
+~
+~
+0 0 5625
+D9
+~
+~
+0 0 5623
+S
+#5639
+Agni City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5623
+D3
+~
+~
+0 0 5621
+D6
+~
+~
+0 0 5622
+D8
+~
+~
+0 0 5619
+S
+#5640
+Yama City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5620
+D2
+~
+~
+0 0 5612
+D6
+~
+~
+0 0 5636
+D7
+~
+~
+0 0 5621
+S
+#5641
+Nirriti City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5634
+D1
+~
+~
+0 0 5636
+D7
+~
+~
+0 0 5635
+D9
+~
+~
+0 0 5613
+S
+#5642
+Varuna City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D1
+~
+~
+0 0 5633
+D3
+~
+~
+0 0 5614
+D7
+~
+~
+0 0 5632
+D8
+~
+~
+0 0 5634
+S
+#5643
+Vayu City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D1
+~
+~
+0 0 5631
+D2
+~
+~
+0 0 5632
+D6
+~
+~
+0 0 5615
+D8
+~
+~
+0 0 5630
+S
+#5644
+Susoma~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D0
+~
+~
+0 0 5616
+D2
+~
+~
+0 0 5629
+D8
+~
+~
+0 0 5627
+D9
+~
+~
+0 0 5631
+S
+#5645
+Rudra City~
+You are in an unfinished room.
+~
+56 16 0 0 0 1
+D2
+~
+~
+0 0 5625
+D3
+~
+~
+0 0 5627
+D7
+~
+~
+0 0 5617
+D9
+~
+~
+0 0 5626
+S
+#5646
+City of Rudra~
+You are in an unfinished room.
+~
+56 0 0 0 0 0
+D3
+~
+~
+0 0 5627
+S
+#5647
+Water Tank~
+You are in an unfinished room.
+~
+56 16 0 0 0 6
+D0
+~
+~
+0 0 5630
+D1
+~
+~
+0 0 5637
+D2
+~
+~
+0 0 5635
+D3
+~
+~
+0 0 5633
+D6
+~
+~
+0 0 5632
+D7
+~
+~
+0 0 5628
+D8
+~
+~
+0 0 5649
+D9
+~
+~
+0 0 5634
+S
+#5648
+Water Tank~
+You are in an unfinished room.
+~
+56 16 0 0 0 6
+D0
+~
+~
+0 0 5626
+D1
+~
+~
+0 0 5624
+D2
+~
+~
+0 0 5622
+D3
+~
+~
+0 0 5637
+D6
+~
+~
+0 0 5628
+D7
+~
+~
+0 0 5625
+D8
+~
+~
+0 0 5623
+D9
+~
+~
+0 0 5649
+S
+#5649
+Water Tank~
+[DESCRIBE]~
+56 16 0 0 0 6
+D0
+~
+~
+0 0 5637
+D1
+~
+~
+0 0 5622
+D2
+~
+~
+0 0 5620
+D3
+~
+~
+0 0 5635
+D6
+~
+~
+0 0 5647
+D7
+~
+~
+0 0 5648
+D8
+~
+~
+0 0 5621
+D9
+~
+~
+0 0 5636
+S
+$~

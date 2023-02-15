@@ -1,0 +1,233 @@
+#1000
+Evolution Entrance~
+Not much here.
+~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1001
+S
+#1001
+Evolution Engine Hall~
+[DESCRIBE]~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1011
+D2
+~
+~
+0 0 1002
+D3
+~
+~
+0 0 1000
+S
+#1002
+Evolution Hall~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1001
+D1
+~
+~
+0 0 1016
+D2
+~
+~
+0 0 1003
+S
+#1003
+World Fight Club~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1002
+D3
+~
+~
+0 0 1004
+S
+#1004
+Evolution Hall~
+[DESCRIBE]~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1003
+D3
+~
+~
+0 0 1005
+S
+#1005
+Evolution Hall~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1006
+D1
+~
+~
+0 0 1004
+S
+#1006
+Evolution Hall~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1007
+D2
+~
+~
+0 0 1005
+S
+#1007
+Evolution Hall~
+[DESCRIBE]~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1008
+D2
+~
+~
+0 0 1006
+S
+#1008
+Evolution Engine Lobby~
+[DESCRIBE]~
+10 24 0 0 0 0
+D2
+~
+~
+0 0 1007
+D3
+~
+~
+0 0 1009
+S
+#1009
+Evolution Lounge~
+[DESCRIBE]~
+10 24 0 0 0 0
+D1
+~
+~
+0 0 1008
+D2
+~
+~
+0 0 1010
+S
+#1010
+Evolution Engine Room~
+[DESCRIBE]~
+10 24 0 0 0 0
+D0
+~
+~
+0 0 1009
+D1
+~
+~
+0 0 1157
+S
+#1011
+Evolution Engine Hall~
+You are in an unfinished room.
+~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1012
+D3
+~
+~
+0 0 1001
+S
+#1012
+Evolution Engine Hall~
+You are in an unfinished room.
+~
+10 8 0 0 0 0
+D0
+~
+~
+0 0 1013
+D3
+~
+~
+0 0 1011
+S
+#1013
+Evolution Engine Hall~
+You are in an unfinished room.
+~
+10 8 0 0 0 0
+D1
+~
+~
+0 0 1014
+D2
+~
+~
+0 0 1012
+S
+#1014
+Evolution Engine Hall~
+You are in an unfinished room.
+~
+10 0 0 0 0 0
+D2
+~
+~
+0 0 1015
+D3
+~
+~
+0 0 1012
+S
+#1015
+Danger Alley~
+You are in an unfinished room.
+~
+10 0 0 0 0 0
+D0
+~
+~
+0 0 1014
+D3
+~
+~
+0 0 1016
+S
+#1016
+Danger Alley~
+You are in an unfinished room.
+~
+10 0 0 0 0 0
+D1
+~
+~
+0 0 1015
+D3
+~
+~
+0 0 1002
+S
+$~

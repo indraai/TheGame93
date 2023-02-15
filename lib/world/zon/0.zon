@@ -1,0 +1,35 @@
+#0
+Quinn~
+Arjika~
+0 99 30 2 d 0 0 0 1 -1
+M 0 34 1 34 	(Soma)
+M 0 15 1 15 	(Librarian A15)
+M 0 5 1 96 	(SecurityPRIME)
+M 0 174 2 96 	(SecurityDEVA D174 (Agency))
+R 0 96 92 -1 	(Security Board)
+O 1 92 99 96 	(Security Board)
+R 0 96 69 -1 	(Security News)
+O 1 69 69 96 	(Security News)
+M 0 174 2 95 	(SecurityDEVA D174 (Agency))
+R 0 95 92 -1 	(Security Board)
+O 0 92 99 95 	(Security Board)
+R 0 12 12 -1 	(Vedas Book2)
+O 1 12 25 12 	(Vedas Book2)
+R 0 11 11 -1 	(Vedas Book1)
+O 1 11 25 11 	(Vedas Book1)
+M 0 1 1 32 	(Indu)
+M 0 165 1 32 	(Indu Disciple)
+O 0 32 1 32 	(Indu Fountain)
+M 0 13 5 32 	(Indu Fighter)
+M 0 123 1 32 	(Idne)
+R 0 32 4 -1 	(Cheddar Cheese)
+O 1 4 99 32 	(Cheddar Cheese)
+M 0 2 1 33 	(Indra)
+M 0 4 1 35 	(Bom)
+M 0 6 1 97 	(MedicPRIME)
+M 0 7 1 97 	(Harry)
+M 0 8 1 97 	(Larry)
+M 0 9 1 97 	(Barry)
+E 1 19 20 8 	(Barry Boots)
+S
+$

@@ -1,0 +1,31 @@
+(lib/text/credits)
+
+                          C  I  R  C  L  E  M  U  D 
+
+
+CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+Johns Hopkins University's Department of Computer Science.  All code unique
+to CircleMUD is protected under a copyright by the Trustees of the Johns
+Hopkins University.  Additional development coordinated by Alex Fletcher,
+George Greer, and Daniel Koepke with feedback from CircleMUD mailing list.
+
+CircleMUD is freeware and can be downloaded via tbamud.com.
+
+Type HELP CIRCLEMUD for more information.
+
+============================================================================
+
+                   Original game idea, concept, and design:
+
+                    Katja Nyboe               [Superwoman]
+                    Tom Madsen              [Stormbringer]
+                    Hans Henrik Staerfeldt           [Deva]
+                    Michael Seifert                 [Papi]
+                    Sebastian Hammer               [Quinn]
+
+------------------------------------------------------------------------------
+Additional contributions from Michael Curran, Bill Wisner, Mads Haar, and
+Stephan Dahl.
+
+Originally developed at:
+  DIKU - The Department of Computer Science at the University of Copenhagen.

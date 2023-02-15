@@ -1,0 +1,1352 @@
+#100
+arjika attendant a100 z1~
+Arjika Attendant A100~
+0100/main:avatar
+~
+0100/main:look
+~
+10 0 0 0 0 0 0 0 500 E
+5 15 1 3d3+150 2d2+2
+150 22500
+8 8 0 3 1
+BareHandAttack: 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#101
+arjika attendant a101 z1~
+Arjika Attendant~
+0101/main:avatar~
+talk:#space thegame:agent 0101/main:look
+~
+10 0 0 0 0 0 0 0 900 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 3 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#102
+parry emporium store deva~
+Parry~
+0102/main:avatar~
+0102/main:look
+~
+26634 0 0 0 16 0 0 0 900 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1 6 6
+E
+#103
+cartoon builder indra.house deva~
+Cartoon Builder~
+0103/main:avatar~
+0103/main:look
+~
+190474 0 0 0 16 0 0 0 500 E
+15 15 1 3d3+150 2d2+2
+150 22500
+6 6 6 3 3
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#104
+cartoon builder jr indra.house devi~
+Cartoon Builder Jr.~
+0104/main:avatar~
+0104/main:look
+~
+26634 0 0 0 16 0 0 0 900 E
+10 17 4 2d2+100 1d2+1
+100 10000
+6 6 7 2 2
+BareHandAttack: 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#105
+silamavati visvedevas deity~
+Silamavati~
+0105/main:avatar~
+0105/main:look~
+6168 0 0 0 2048 0 0 0 500 E
+26 12 -5 5d5+260 4d4+4
+260 67600
+8 8 6 5 5
+BareHandAttack: 11
+Str: 17
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#106
+security deva securitydeva d106 z1 lookout~
+SecurityDEVA D106 (Lookout)~
+106/main:avatar~
+106/main:look~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#107
+security deva securitydeva d107 operations~
+SecurityDEVA D107 (Operations)~
+0107/main:avatar~
+0107/main:look
+~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#109
+warry watermaster water store deva~
+Warry~
+0109/main:avatar~
+0109/main:look
+~
+2058 0 0 0 16 0 0 0 800 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 6 6 6
+E
+#110
+post mail email postmaster deva~
+Postmaster Deva~
+0110/main:avatar~
+0110/main:look
+~
+256010 0 0 0 16 0 0 0 1000 E
+7 18 5 1d1+70 1d2+1
+70 4900
+8 8 0 2 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#111
+security deva securitydeva d111 z1 lookout~
+SecurityDEVA D111 (Lookout)~
+0111/main:avatar~
+0111/main:look
+~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#112
+security deva securitydeva d112 z1 lookout~
+SecurityDEVA D112 (Lookout)~
+0112/main:avatar~
+0112/main:look~
+10 0 0 0 2168 0 0 0 350 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+BareHandAttack: 1
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#113
+dhatar deva creator great d0113 deity celestial~
+Dhatar~
+113/main:avatar~
+0113/main:look~
+190488 0 0 0 2424 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1 2 15
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#114
+security deva securitydeva d114 z1 lookout~
+SecurityDEVA D114 (Lookout)~
+114/main:avatar~
+114/main:look~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#115
+security deva securitydeva d115 z1 lookout~
+SecurityDEVA D115 (Lookout)~
+0115/main:avatar~
+0115/main:look
+~
+10 0 0 0 2168 0 0 0 -900 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+BareHandAttack: 12
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#116
+librarian brains bookclub library~
+Librarian~
+0116/main:avatar~
+0116/main:look
+~
+16462 0 0 0 0 0 0 0 -700 E
+16 15 0 3d3+160 2d2+2
+160 25600
+8 8 1 2 13
+BareHandAttack: 7
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
+#117
+lib librarian libs book club bookclub~
+Librarian~
+0117/main:avatar~
+0117/main:look
+~
+16458 0 0 0 0 0 0 0 100 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1 2 13
+BareHandAttack: 5
+E
+#118
+security deva securitydeva lookout d118 z1~
+SecurityDEVA D118 (Lookout)~
+0118/main:avatar~
+0118/main:look
+~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#119
+security deva securitydeva lookout d119 z1~
+SecurityDEVA D119 (Lookout)~
+0119/main:avatar~
+0119/main:look
+~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#120
+saryanavan sarya deva deity~
+Sarya~
+0120/main:avatar~
+0120/main:look
+~
+6170 0 0 0 24 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 6 6
+BareHandAttack: 9
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
+#121
+security deva securitydeva d121 z1 lookout~
+SecurityDEVA D121 (Lookout)~
+0121/main:avatar~
+0121/main:look
+~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#122
+security deva securitydeva lookout d122 z1~
+SecurityDEVA D122 (Lookout)~
+0122/main:avatar~
+0122/main:look
+~
+10 0 0 0 2168 0 0 0 0 E
+22 13 -3 4d4+220 3d3+3
+220 48400
+8 8 1 2 11
+E
+#123
+idne deva deity royal celestial~
+Idne~
+123/main:avatar~
+talk:#space agent/main 123/main:look~
+260120 0 0 0 2168 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1 2 15
+BareHandAttack: 9
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#124
+0x super king adc daycare~
+0x King of Arjika Daycare~
+0124/main:avatar~
+0124/main:look
+~
+6232 0 0 0 2136 0 0 0 500 E
+10 17 4 2d2+100 1d2+1
+2000 10000
+8 8 6 2 2
+BareHandAttack: 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#125
+soma disciple susoma monk~
+Soma Disciple~
+0125/main:avatar~
+0125/main:look
+~
+26650 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 1 4 13
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#126
+arjika intelligence soldier military a126~
+Arjika Intelligence~
+0126/main:avatar~
+0126/main:look
+~
+10 0 0 0 0 0 0 0 500 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 1 12
+BareHandAttack: 6
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#127
+marudvrdha visvedevas deity~
+Marudvrdha~
+0127/main:avatar~
+0127/main:look~
+6168 0 0 0 8 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 6 4 4
+BareHandAttack: 5
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#128
+sarasvati visvedevas deity~
+Sarasvati~
+0128/main:avatar~
+0128/main:look~
+6168 0 0 0 16 0 0 0 500 E
+24 12 -4 4d4+240 4d4+4
+240 57600
+6 6 6 4 4
+BareHandAttack: 11
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#131
+security securitydeva guard arcade d131 z1~
+SecurityDEVA D131 (Arcade)~
+0131/main:avatar~
+0131/main:look~
+260184 0 0 0 2136 0 0 0 -500 E
+6 18 6 1d1+60 1d2+1
+60 3600
+8 8 1 1 1
+BareHandAttack: 13
+E
+#133
+blue deva~
+Blue Deva~
+0133/main:avatar~
+0133/main:look~
+2072 0 0 0 2064 0 0 0 500 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 0 2 13
+BareHandAttack: 8
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#134
+red deva monk~
+Red Deva~
+0134/main:avatar~
+0134/main:look
+~
+6168 0 0 0 2064 0 0 0 500 E
+26 12 -5 5d5+260 4d4+4
+260 67600
+8 8 0 2 13
+BareHandAttack: 5
+Str: 17
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#135
+blue deva bluedeva ultra~
+BlueDeva ULTRA~
+0135/main:avatar
+~
+0135/main:look
+~
+2072 0 0 0 24 0 0 0 777 E
+23 13 -3 4d4+230 3d3+3
+230 52900
+8 8 0 2 13
+BareHandAttack: 4
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#136
+army cyber4 specialist soldier~
+Army Cyber4~
+0136/main:avatar~
+0136/main:look~
+6170 0 0 0 16 0 0 0 500 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 6 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
+#137
+black deva monk~
+Black Deva~
+0137/main:avatar~
+0137/main:look~
+6168 0 0 0 2064 0 0 0 500 E
+25 12 -5 5d5+250 4d4+4
+250 62500
+8 8 0 2 13
+BareHandAttack: 6
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#138
+master deva yellow~
+Yellow Master Deva~
+0138/main:avatar~
+0138/main:look~
+6168 0 0 0 16 0 0 0 0 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 0 4 4
+BareHandAttack: 5
+E
+#139
+security deva securitydeva d139 z1 lookout~
+SecurityDEVA D139 (Lookout)~
+139/main:avatar~
+139/main:look~
+10 0 0 0 2168 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
+E
+#140
+security deva securitydeva d140 z1 guard~
+SecurityDEVA D140 (Guard)~
+140/main:avatar~
+140/main:look~
+10 0 0 0 2168 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 11
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#141
+arjika military soldier special forces xforce~
+Arjika XForce~
+0141/main:avatar~
+0141/main:look~
+6168 0 0 0 2168 0 0 0 500 E
+24 12 -4 4d4+240 4d4+4
+240 57600
+8 8 1 3 4
+BareHandAttack: 13
+Str: 16
+Dex: 16
+Int: 16
+Wis: 16
+Con: 16
+Cha: 16
+SavingPara: 6
+SavingRod: 6
+SavingPetri: 6
+SavingBreath: 6
+SavingSpell: 6
+E
+#142
+arjika science householder a142 z1 guildmaster~
+Science Householder~
+0142/main:avatar~
+0142/main:look
+~
+6171 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 3
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#143
+arjika artisan householder z1 a143 guildmaster~
+Artisan Householder~
+0143/main:avatar~
+0143/main:look~
+6171 0 0 0 2168 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 1 3 2
+BareHandAttack: 13
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#144
+arjika agent householder z1 a144 guildmaster~
+Agent Householder~
+0144/main:avatar~
+0144/main:look~
+2075 0 0 0 2168 0 0 0 400 E
+12 16 2 2d2+120 2d2+2
+120 14400
+8 8 1 3 1
+BareHandAttack: 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#145
+client householder arjika z1 a145 guildmaster~
+Client Householder~
+0145/main:avatar~
+0145/main:look~
+6171 0 0 0 2168 0 0 0 500 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+6 6 1 3 0
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#146
+mehatnu visvedevas deity~
+Mehatnu~
+0146/main:avatar~
+0146/main:look~
+6168 0 0 0 16 0 0 0 500 E
+23 13 -3 4d4+230 3d3+3
+230 52900
+8 8 6 4 4
+BareHandAttack: 8
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#147
+cafe agent robot services food drink drinks z1 a147~
+Cafe A147~
+0147/main:avatar~
+#space agent:main 0147/main:look
+~
+10 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 0 1 1
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#148
+hotspot tea drinks cafe agent robot z1 a148 services~
+HotSpot A148~
+0148/main:avatar~
+0148/main:look~
+10 0 0 0 0 0 0 0 500 E
+27 10 -8 6d6+300 5d5+5
+300 90000
+8 8 0 1 1
+BareHandAttack: 6
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
+#149
+sergeant arjika military a149 z3 soldier~
+Arjika Sergeant~
+0149/main:avatar~
+0149/main:look~
+2072 0 0 0 2168 0 0 0 400 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 1 3 12
+E
+#152
+security securitydeva deva mall d152 z1~
+SecurityDEVA D152 (Mall)~
+0152/main:avatar~
+0177/main:look
+~
+6170 0 0 0 2168 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 1 3 3
+BareHandAttack: 13
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#154
+seccurity deva securitydeva d154 z1 lookout~
+SecurityDEVA D154 (Lookout)~
+0154/main:avatar~
+0154/main:look~
+10 0 0 0 2168 0 0 0 100 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1 2 11
+BareHandAttack: 7
+E
+#155
+arjika colnel military a155 z3 soldier~
+Arjika Colnel~
+0155/main:avatar~
+0155/main:look~
+6168 0 0 0 2168 0 0 0 0 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 1 3 12
+BareHandAttack: 9
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#156
+o indra vamraka indu fighter~
+Indra Fighter~
+0156/main:avatar~
+0156/main:look~
+47386 0 0 0 120 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 6 6 6
+BareHandAttack: 9
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#159
+lieutenant arjika military a159 z0 soldier~
+Arjika Lieutenant~
+0159/main:avatar~
+0159/main:look
+~
+6168 0 0 0 2168 0 0 0 1000 E
+17 15 0 3d3+170 2d2+2
+170 28900
+8 8 1 3 12
+SavingPara: 4
+SavingRod: 4
+SavingPetri: 4
+SavingBreath: 4
+SavingSpell: 4
+E
+#160
+arjika captain military soldier~
+Arjika Captain~
+0160/main:avatar~
+0160/main:look
+~
+6168 0 0 0 2168 0 0 0 1000 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 12
+BareHandAttack: 7
+E
+#161
+service servicedeva deva a161 z1~
+ServiceDEVA A161~
+0161/main:avatar~
+0161/main:look
+~
+2136 0 0 0 16 0 0 0 250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 0 2 1
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#163
+renuka asuras~
+Renuka~
+0163/main:avatar~
+0163/main:look~
+2136 0 0 0 0 0 0 0 -250 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 5 1 1
+BareHandAttack: 11
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#164
+security deva securitydeva d164 lookout~
+SecurityDEVA D164 (Lookout)~
+164/main:avatar~
+164/main:look~
+10 0 0 0 2168 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 2 11
+E
+#165
+indu disciple monk~
+Indu Disciple~
+0165/main:avatar~
+talk:#space thegame:agent 0165/main:look
+~
+6170 0 0 0 120 0 0 0 400 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 0 13
+E
+#166
+general arjika military a166 z1 soldier~
+Arjika General~
+0166/main:avatar~
+talk:#space thegame:agent 0166/main:look
+~
+6168 0 0 0 2168 0 0 0 750 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 3 12
+BareHandAttack: 14
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 7
+SavingRod: 7
+SavingPetri: 7
+SavingBreath: 7
+SavingSpell: 7
+E
+#167
+kermit frog kids store mall~
+Kermit The Frog~
+0167/main:avatar
+~
+0167/main:look
+~
+10 0 0 0 0 0 0 0 1000 E
+10 14 -1 3d3+190 3d3+3
+190 36100
+8 8 1 3 3
+BareHandAttack: 4
+E
+#170
+arjika engineer householder z1 a170 guildmaster~
+Engineer Householder~
+170/main:avatar~
+170/main:look~
+6235 0 0 0 2168 0 0 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1 3 4
+E
+#171
+arjika programmer householder a171 z1 guildmaster~
+Programmer Householder~
+171/main:avatar~
+171/main:look~
+6235 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 5
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#172
+arjika hacker householder z1 a172 guildmaster~
+Hacker Householder~
+172/main:avatar~
+172/main:look~
+6235 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 6
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#173
+arjika media householder z1 a173 guildmaster~
+Media Householder~
+173/main:avatar~
+173/main:look~
+6235 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 7
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#174
+security securitydeva agency d174 z1~
+SecurityDEVA D174 (Agency)~
+0174/main:avatar~
+0174/main:look~
+256010 0 0 0 80 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 1 2 11
+E
+#175
+arjika legal householder z1 a175 guildmaster~
+Legal Householder~
+0175/main:avatar~
+0175/main:look~
+6431 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 8
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#176
+arjika politics householder z1 a176~
+Politics Householder~
+0176/main:avatar~
+0176/main:look~
+6234 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 9
+BareHandAttack: 8
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#177
+arjika military householder z1 a177 guildmaster~
+Military Householder~
+0177/main:avatar~
+0177/main:look~
+6171 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 12
+BareHandAttack: 13
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#178
+arjika royal householder z1 a178 guildmaster~
+Royal Householder~
+178/main:avatar~
+178/main:look~
+6235 0 0 0 2168 0 0 0 500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 1 3 15
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#179
+arjika private military soldier~
+Arjika Private~
+0179/main:avatar~
+0179/main:look~
+6170 0 0 0 2056 0 0 0 1000 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 3 12
+BareHandAttack: 10
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#180
+big tyler bigtyler~
+BigTyler~
+180/main:avatar~
+talk:#space agent/main 180/main:look~
+6168 0 0 0 2168 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 1 6 6
+BareHandAttack: 8
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+#181
+security securitydeva lookout d181 z1~
+SecurityDEVA D181 (Lookout)~
+0181/main:avatar~
+0181/main:look~
+10 0 0 0 0 0 0 0 0 E
+22 13 -3 4d4+220 3d3+3
+220 48400
+8 8 6 4 4
+E
+#182
+al bundy shoe salesman mall~
+Al Bundy~
+182/main:avatar~
+182/main:look~
+10 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#183
+arjika agent muscle a183 z1~
+Muscle A183~
+0183/main:avatar~
+0183/main:look~
+8 0 0 0 0 0 0 0 -800 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 3 1
+BareHandAttack: 5
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#185
+soma disciple susoma monk~
+Soma Disciple~
+0185/main:avatar~
+0185/main:look~
+26650 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+6 6 6 1 1
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#186
+medic medicdeva medical nurse d186 z1~
+MedicDEVA 186~
+0186/main:avatar~
+0186/main:look~
+61450 0 0 0 26744 0 0 0 500 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 2 3 3
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#187
+garry baker food bakery bread~
+Garry~
+0187/main:avatar~
+0187/main:look~
+24586 0 0 0 0 0 0 0 0 E
+5 19 7 1d1+50 1d2+0
+50 2500
+8 8 1 1 1
+BareHandAttack: 1
+SavingPara: 1
+SavingRod: 1
+SavingPetri: 1
+SavingBreath: 1
+SavingSpell: 1
+E
+#189
+arjika commander military soldier a189~
+Arjika Commander~
+0189/main:avatar~
+0189/main:look~
+6168 0 0 0 2168 0 0 0 500 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 1 3 12
+BareHandAttack: 9
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#196
+marry deva d0196~
+Marry~
+0196/main:avatar~
+0196/main:look~
+74 0 0 0 0 0 0 0 250 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 2 2 1
+BareHandAttack: 1
+E
+#197
+jamie oliver kitchen mall~
+Jamie Oliver~
+0197/main:avatar~
+0197/main:look~
+10 0 0 0 0 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 1 2 2
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
+E
+#198
+arjika disciple monk~
+Arjika Monk~
+0198/main:avatar~
+0198/main:look~
+2072 0 0 0 88 0 0 0 0 E
+15 15 1 3d3+150 2d2+2
+150 22500
+8 8 1 1 13
+BareHandAttack: 1
+SavingPara: 3
+SavingRod: 3
+SavingPetri: 3
+SavingBreath: 3
+SavingSpell: 3
+E
+#199
+karry sweets female agent lady~
+Karry~
+0199/main:avatar~
+0199/main:look~
+10 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2 2 1
+E
+$

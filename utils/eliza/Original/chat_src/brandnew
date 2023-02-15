@@ -1,0 +1,41 @@
+#Chris Busch 
+
+>dog fido 
+
+(good dog| good boy)
+9bow bow
+3: licks you
+5: wags tail
+
+(hi | hello)
+4"arf arf
+
+(bye| good bye | goodbye)
+9:whines.
+4:looks like will miss you.
+
+(bad dog)
+9: growls.
+3: tries to bite you.
+4!kill &
+
+>cat kitten lion
+
+(good cat|cute|hi|hello)
+9:purrs
+6:meows
+
+(bad)
+8:hisses
+
+>pig boar
+
+(pig|boar|hi|hello)
+8:grunts
+4:snorts
+
+>doll toy
+
+(hi|hello)
+8Will you play with me?
+

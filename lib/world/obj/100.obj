@@ -1,0 +1,273 @@
+#10000
+transmitter signal array~
+Transmitter Array~
+10000/main:avatar~
+10000/main:look
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+10 877 0 0 0
+E
+array~
+10000/array
+~
+#10001
+transmitter signal display~
+Transmitter Display~
+10001/main:avatar~
+10001/main:look
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+20 0 0 0 0
+E
+display~
+10001/display
+~
+#10002
+hash tracker~
+Hash Tracker~
+10002/main:avatar~
+10002/main:look
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10003
+bruckner theory~
+Bruckner Theory~
+10003/main:avatar~
+10003/main:look
+~
+12 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+theory~
+10003/theory
+~
+#10004
+token wallet tokenwallet xwallet~
+Token Wallet~
+10004/main:avatar~
+10004/main:look
+~
+15 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10006
+water underground stream~
+Underground Stream~
+10006/main:avatar~
+10006/main:look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 0 0
+0 0 0 0 0
+#10008
+0x10008 token underground kingdom cyoa~
+0x10008 Token~
+10008/main:avatar~
+10008/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10013
+0x10013 token underground kingdom cyoa~
+0x10013 Token~
+10013/main:avatar~
+10013/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10020
+0x10020 token underground kingdom cyoa~
+0x10020 Token~
+10020/main:avatar~
+10020/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 100 0 0 0
+#10023
+0x10023 token underground kingdom cyoa~
+0x10023 Token~
+10023/main:avatar~
+10023/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10024
+0x10024 token underground kingdom cyoa~
+0x10024 Token~
+10024/main:avatar~
+10024/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10032
+0x10032 token underground kingdom cyoa~
+0x10032 Token~
+10032/main:avatar~
+10032/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10033
+0x10033 token underground kingdom cyoa~
+0x10033 Token~
+10033/main:avatar~
+talk:#space thegame:object 1033/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10044
+tanga fruit food~
+Taga~
+10044/main:avatar~
+10044/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+0 0 0 0 0
+#10047
+0x10047 token underground kingdom cyoa~
+0x10047 Token~
+10047/main:avatar~
+10047/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10060
+0x10060 token underground kingdom cyoa~
+0x10060 Token~
+10060/main:avatar~
+10060/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10062
+0x10063 token underground kingdom cyoa~
+0x10062 Token~
+10062/main:avatar~
+10062/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10064
+0x10064 token underground kingdom cyoa~
+0x10064 Token~
+10064/main:avatar~
+talk:#space thegame:object 1064/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10065
+0x10065 token underground kingdom cyoa~
+0x10065 Token~
+10065/main:avatar~
+10065/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10069
+0x10069 token underground kingdom cyoa~
+0x10069 Token~
+10069/main:avatar~
+talk:#space thegame:object 1069/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10072
+0x10072 token underground empire cyoa~
+0x10072 Token~
+10072/main:avatar~
+10072/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10074
+0x10074 token underground kingdom cyoa~
+0x10074 Token~
+10074/main:avatar~
+10074/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10084
+0x10084 token underground kingdom cyoa~
+0x10084 Token~
+10084/main:avatar~
+10084/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10089
+0x10089 token underground kingdom cyoa~
+0x10089 Token~
+10089/main:avatar~
+10089/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10094
+diamonds treasure diamond cyoa gem jewel~
+Diamonds~
+:room:/main:avatar~
+:room:/main:look~
+8 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+10 1000000 0 0 0
+#10102
+0x10102 token underground kingdom cyoa~
+0x10102 Token~
+10102/main:avatar~
+100102/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10103
+0x10103 token underground kingdom cyoa~
+0x10103 Token~
+10103/main:avatar~
+100103/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10106
+0x10106 token underground kingdom cyoa~
+0x10106 Token~
+10106/main:avatar~
+100106/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+#10108
+0x10108 token underground kingdom cyoa~
+0x10108 Token~
+10108/main:avatar~
+100108/main:look
+~
+18 0 0 0 0 a 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+$~

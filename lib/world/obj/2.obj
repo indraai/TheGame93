@@ -1,0 +1,269 @@
+#200
+flashlight light~
+Flashlight~
+A military light is here.~
+~
+1 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 -1 0
+1 15 0 0 0
+E
+light~
+light
+~
+#201
+shirt~
+T-Shirt~
+A white T-Shirt is here~
+~
+9 0 0 0 0 ad 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#202
+red apple apples food fruit farm~
+Red Apples~
+0202/main:avatar~
+0202/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+10 0 0 0
+1 5 0 0 0
+E
+fruit~
+0202/main:fruit
+~
+#203
+green apple apples food fruit farm~
+Green Apple~
+0203/main:avatar~
+0203/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+10 0 0 0
+1 5 0 0 0
+E
+fruit~
+fruit
+~
+#204
+hiking boots~
+Hiking Boots~
+A pair of hiking boots is here.~
+~
+9 0 0 0 0 ag 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#205
+work gloves~
+Work Gloves~
+A pair of work gloves are here.~
+~
+9 0 0 0 0 ah 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#206
+jacket~
+Jacket~
+A jacket is here.~
+~
+9 0 0 0 0 ai 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#207
+shield~
+Shield~
+A shield is lying here.~
+~
+9 0 0 0 0 aj 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#208
+belt~
+Belt~
+A belt is lying here.~
+~
+9 0 0 0 0 al 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#209
+wrist interface right~
+Interface (R)~
+An Arjika Wrist Interface (R) is lying here.~
+~
+9 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#210
+wrist interface left~
+Interface (L)~
+A Arjika Wrist Interface (l) is lying here.~
+~
+9 0 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0
+1 1 0 0 0
+#211
+pocket knife~
+Pocket Knife~
+A pocket knife is here.~
+~
+5 0 0 0 0 an 0 0 0 0 0 0 0
+1 2 2 0
+1 2 0 0 0
+#215
+cherry cherries fruit fruits farm food~
+Cherries~
+0215/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+10 0 0 0
+1 5 0 0 0
+E
+cherries~
+cherries
+~
+#216
+lemon lemons fruits fruit food farm~
+Lemons~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+10 0 0 0
+1 5 0 0 0
+E
+fruit~
+fruit
+~
+#218
+jalapeno cheese bread jalapenobread food~
+Jalapeno Cheese Bread~
+0218/main:avatar~
+0218/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+5 0 0 0
+1 5 0 0 0
+#219
+jalapeno cheese bagel jalapenobagel food~
+Jalapeno Cheese Bagel~
+0219/main:avatar~
+0219/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+3 0 0 0
+1 3 0 0 0
+#220
+jalapeno cheese bites jalapenobites food~
+Jalapeno Cheese Bites~
+0219/main:avatar~
+0219/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+2 0 0 0
+1 2 0 0 0
+#228
+cheddar cheese bits food farm~
+Cheddar Cheese~
+:room:/main:avatar~
+:room:/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+15 0 0 0
+1 5 0 0 0
+E
+cheese~
+cheese
+~
+#229
+egg eggs food farm~
+Eggs~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+15 0 0 0
+1 10 0 0 0
+E
+eggs~
+eggs
+~
+#230
+hackerman terminal computer hacker~
+Hackerman Terminal~
+0230/main:avatar~
+0230/main:look
+~
+7 0 0 0 0 ao 0 0 0 0 0 0 0
+0 0 0 0
+1 1000 0 0 0
+E
+terminal~
+0230/main:terminal
+~
+#242
+milk dairy drink farm~
+Farm Milk~
+0242/main:avatar~
+0242/main:look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+100 100 9 0
+0 0 0 0 0
+#251
+water marble fountain water~
+Water Fountain~
+0251/main:avatar~
+0251/main:look~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+-1 100 0 0
+0 0 0 0 0
+T 201
+E
+fountain~
+0251/main:fountain
+~
+E
+indra~
+0251/main:indra~
+E
+bom~
+0251/main:bom~
+E
+sarya~
+0251/main:sarya~
+E
+soma~
+0251/main:soma~
+E
+indu~
+0251/main:indu~
+E
+vamraka~
+0251/main:vamraka~
+E
+statues~
+0251/main:statues~
+#278
+forkit icecream food~
+Fork-It IceCream~
+0278/main:avatar~
+0278/main:look
+~
+19 g 0 0 0 ao 0 0 0 0 0 0 0
+1 0 0 0
+1 5 0 0 0
+E
+text~
+0278/main:text
+~
+#297
+cypher4 cypher terminal arjika military security~
+CYPHER-4 TERMINAL~
+0297/main:avatar~
+0297/main:look
+~
+12 ag 0 0 0 0 0 0 0 defg 0 0 0
+0 0 0 0
+10 0 0 0 0
+E
+terminal~
+terminal
+~
+$~

@@ -1,0 +1,83 @@
+#1100
+disney disneyland mickey mouse ears hat~
+Mickey Mouse Ears~
+1100/avatar~
+~
+11 dg 0 0 0 ae 0 0 0 dl 0 0 0
+0 0 0 0
+0 20 0 0 0
+#1102
+disney disneyland fountain water~
+Fountain - Main St.~
+1404/main:avatar~
+1404/main:look
+~
+23 0 0 0 0 0 0 0 0 0 0 0 0
+-1 10 0 0
+1000 1000 0 1 0
+#1140
+disneyland cafe meal food delight special~
+Cafe Special~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+24 0 0 0
+0 30 0 0 0
+E
+text~
+text
+~
+#1145
+disneyland special ring power~
+Disneyland Ring~
+:room:/main:avatar~
+:room:/main:look~
+11 d 0 0 0 ab 0 0 0 0 0 0 0
+0 0 0 0
+0 50 0 0 0
+E
+ring~
+ring
+~
+A
+1 50
+#1157
+rtc31930 rtc rtct rtct3193029 computer~
+RTC31930 Computer~
+1157/main:avatar~
+01157/main:look
+~
+12 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0
+0 0 0 0 0
+E
+computer~
+1157/main:computer
+~
+#1160
+disneyland plazainn food meal~
+PlazaInn Meal~
+:room:/main:avatar~
+:room:/main:look~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+12 0 0 0
+1 30 0 0 0
+#1166
+disney disneyland icecream vanilla food~
+Vanilla IceCream~
+1166/main:avatar~
+1166/main:look
+~
+19 0 0 0 0 a 0 0 0 0 0 0 0
+15 0 0 0
+1 10 0 0 0
+#1168
+disney disneyland watch time piece mickey mouse~
+Mickey Mouse Watch~
+1168/main:avatar~
+1168/main:look
+~
+11 g 0 0 0 am 0 0 0 0 0 0 0
+0 0 0 0
+0 75 0 0 0
+$~

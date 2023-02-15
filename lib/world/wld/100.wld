@@ -1,0 +1,1039 @@
+#10000
+Underground Kingdom~
+:room:/main:look~
+100 24 0 0 0 0
+D0
+~
+~
+0 0 10001
+D3
+~
+~
+0 0 -1
+E
+thankyou~
+1000/thankyou
+~
+S
+T 10004
+T 97
+#10001
+Toan Glacier~
+:room:/main:look~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 10002
+E
+glacier~
+10001/glacier
+~
+E
+greenland~
+10001/greenland
+~
+E
+crevasse~
+10001/crevasse
+~
+S
+#10002
+The Glaciers Edge~
+:room:/main:look~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 10005
+D5
+~
+~
+0 0 10003
+S
+#10003
+Down In The Crevasse~
+:room:/main:look~
+100 0 0 0 0 5
+D5
+~
+~
+0 0 10006
+S
+#10005
+On The Ledge~
+:room:/main:look~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 10013
+D2
+~
+~
+0 0 10009
+S
+T 10005
+#10006
+The Underground Stream~
+:room:/main:look~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 10015
+D2
+~
+~
+0 0 10010
+S
+#10007
+Dive to the ground...~
+:room:/main:look~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 10008
+S
+#10008
+You Run~
+:room:/main:look~
+100 0 0 0 0 4
+D3
+~
+~
+0 0 10000
+S
+T 10008
+#10009
+Tell Them To Hurry~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10012
+S
+#10010
+Hold Your Ground~
+:room:/main:look~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 10008
+D1
+~
+~
+0 0 10014
+D2
+~
+~
+0 0 10011
+S
+T 10010
+#10011
+Dive To The Ground~
+:room:/main:look~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 10016
+S
+#10012
+Along The Ledge~
+:room:/main:look~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 10018
+D2
+~
+~
+0 0 10020
+S
+T 10012
+#10013
+Warn Your Friends~
+:room:/main:look~
+100 0 0 0 0 5
+D3
+~
+~
+0 0 10000
+S
+T 10013
+#10014
+You Lunge For The Bird~
+:room:/main:look~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 10010
+S
+#10015
+Run From The Creature~
+:room:/main:look~
+100 0 0 0 0 4
+D3
+~
+~
+0 0 10012
+S
+#10016
+Angel Bird Glides~
+:room:/main:look~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 10019
+D2
+~
+~
+0 0 10022
+S
+T 10016
+#10017
+Not Follow...~
+:room:/main:look~
+100 0 0 0 0 0
+S
+#10018
+Try To Make It~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10021
+S
+#10019
+Explore Underground Kingdom~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10040
+S
+#10020
+Decide To Wait~
+:room:/main:look~
+100 0 0 0 0 5
+D3
+~
+~
+0 0 10000
+S
+T 10020
+#10021
+No Shelter~
+:room:/main:look~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 10032
+D2
+~
+~
+0 0 10025
+S
+T 10021
+#10022
+Concentrate On Getting Home~
+:room:/main:look~
+100 0 0 0 0 4
+D1
+~
+~
+0 0 10023
+S
+#10023
+The Frozen Slope~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+T 10023
+#10024
+No Chance Of That~
+:room:/main:look~
+100 8 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+T 10024
+#10025
+Keep Walking~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10026
+S
+#10026
+Passing Months~
+:room:/main:look~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 10027
+S
+#10027
+Faint signals~
+:room:/main:look~
+100 8 0 0 0 0
+D0
+~
+~
+0 0 10028
+D2
+~
+~
+0 0 10030
+S
+T 10027
+#10028
+Go On The Expedition~
+:room:/main:look~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 10029
+S
+#10029
+Three Weeks Later~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10075
+S
+#10030
+It's Too Dangerous~
+:room:/main:look~
+100 8 0 0 0 0
+D3
+~
+~
+0 0 10024
+S
+#10032
+Huddle in parka~
+:room:/main:look~
+100 0 0 0 0 5
+D3
+~
+~
+0 0 10000
+S
+T 10032
+#10033
+Play it safe~
+:room:/main:look~
+100 0 0 0 0 5
+D3
+~
+~
+0 0 10000
+S
+T 10033
+#10035
+Decide to risk it~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10037
+S
+#10036
+The Shining Mountains~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10092
+S
+#10037
+Emergency Reverse~
+:room:/main:look~
+100 8 0 0 0 0
+D0
+~
+~
+0 0 10089
+D2
+~
+~
+0 0 10038
+S
+T 10037
+#10038
+Reason with Dr. Bruckner~
+:room:/main:look~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 10043
+S
+#10039
+The Creatures~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10042
+D2
+~
+~
+0 0 10046
+S
+T 10039
+#10040
+The Landscape~
+:room:/main:look~
+100 0 0 0 0 4
+D3
+~
+~
+0 0 10039
+E
+scene~
+10040/scene
+~
+S
+#10042
+Face The Creatures~
+undefined~
+100 0 0 0 0 4
+D1
+~
+~
+0 0 10044
+S
+#10043
+Bury The Professor~
+:room:/main:look~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 10040
+S
+#10044
+Inside The Agon~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10048
+D2
+~
+~
+0 0 10050
+S
+T 10044
+#10046
+Hide In The Leaves~
+:room:/main:look~
+100 8 0 0 0 3
+D1
+~
+~
+0 0 10047
+S
+#10047
+Something Behind You~
+:room:/main:look~
+100 8 0 0 0 3
+D3
+~
+~
+0 0 10000
+S
+T 10047
+#10048
+Follow Raka~
+undefined~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 10051
+S
+#10050
+Refuse To Follow~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10053
+S
+#10051
+Preparing For War~
+undefined~
+100 8 0 0 0 0
+D0
+~
+~
+0 0 10052
+D2
+~
+~
+0 0 10056
+S
+T 10051
+#10052
+Go With The Warriors~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10054
+S
+#10053
+Catch Your Breath~
+:room:/main:look~
+100 0 0 0 0 4
+D0
+~
+~
+0 0 10057
+D2
+~
+~
+0 0 10058
+S
+T 10053
+#10054
+When You Wake~
+undefined~
+100 8 0 0 0 0
+D1
+~
+~
+0 0 10055
+S
+#10055
+The War Boat~
+undefined~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10061
+D2
+~
+~
+0 0 10062
+S
+T 10055
+#10056
+Won't Take Part in War~
+undefined~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10063
+S
+#10057
+Take The Boat~
+undefined~
+100 0 0 0 0 2
+D1
+~
+~
+0 0 10060
+S
+#10058
+Bluff The Guards~
+:room:/main:look~
+100 0 0 0 0 3
+D0
+~
+~
+0 0 10066
+D2
+~
+~
+0 0 10065
+S
+T 10058
+#10060
+Hours Later~
+:room:/main:look~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 10000
+S
+T 10060
+#10061
+Swim For Shore~
+:room:/main:look~
+100 0 0 0 0 6
+D3
+~
+~
+0 0 10022
+S
+#10062
+Stay With The Boat~
+:room:/main:look~
+100 0 0 0 0 6
+D3
+~
+~
+0 0 10000
+S
+T 10062
+#10063
+Your Raft Floats~
+undefined~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10064
+S
+#10064
+The Great River~
+undefined~
+100 0 0 0 0 6
+D3
+~
+~
+0 0 10000
+S
+T 10064
+#10065
+Swim Across River~
+:room:/main:look~
+100 0 0 0 0 6
+D3
+~
+~
+0 0 10000
+S
+T 10065
+#10066
+Continue To Shore~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10067
+S
+T 10065
+#10067
+Warm Hugs~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10068
+S
+#10068
+What Can We Do~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10070
+D2
+~
+~
+0 0 10100
+S
+T 10068
+#10069
+The Pioneers~
+:room:/main:look~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 10000
+S
+T 10069
+#10070
+Face the Akpar~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10073
+D2
+~
+~
+0 0 10104
+S
+T 10070
+#10072
+The Kota Beasts~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+T 10072
+#10073
+Play Along~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10084
+S
+#10074
+Help Is On The Way~
+:room:/main:look~
+100 0 0 0 0 4
+D3
+~
+~
+0 0 10000
+S
+T 10074
+#10075
+Who Will Volunteer~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10077
+S
+#10076
+Three Tides Pass~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10078
+S
+#10077
+Do You Risk It~
+:room:/main:look~
+100 0 0 0 0 5
+D0
+~
+~
+0 0 10035
+D2
+~
+~
+0 0 10033
+S
+T 10077
+#10078
+Honored Guests~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10081
+D2
+~
+~
+0 0 10082
+S
+T 10078
+#10081
+Explore the Kingdom~
+:room:/main:look~
+100 0 0 0 0 1
+D1
+~
+~
+0 0 10083
+S
+#10082
+Return To The Surface~
+:room:/main:look~
+100 0 0 0 0 4
+D3
+~
+~
+0 0 10074
+S
+#10083
+Fascinating Areas~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10036
+D2
+~
+~
+0 0 10088
+D3
+~
+~
+0 0 10085
+S
+T 10083
+#10084
+You Betrayed Us~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+T 10084
+#10085
+The Weightless Peaks~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10087
+S
+#10087
+The Highest Peak~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10106
+S
+#10088
+Hills of Diamonds~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10091
+S
+#10089
+Press Emergency Reverse~
+:room:/main:look~
+100 8 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+T 10089
+#10091
+The Diamonds~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10094
+D2
+~
+~
+0 0 10097
+S
+T 10091
+#10092
+The Flying Clera~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10098
+S
+#10094
+The Diamonds~
+:room:/main:look~
+100 0 0 0 0 4
+D1
+~
+~
+0 0 10095
+S
+#10095
+Willing to try?~
+:room:/main:look~
+100 0 0 0 0 0
+D0
+~
+~
+0 0 10101
+D2
+~
+~
+0 0 10102
+S
+T 10095
+#10097
+Turn back~
+:room:/main:look~
+100 0 0 0 0 5
+D1
+~
+~
+0 0 10103
+S
+#10098
+The Return~
+:room:/main:look~
+100 0 0 0 0 2
+D3
+~
+~
+0 0 10069
+S
+#10100
+Escape the Akpar~
+:room:/main:look~
+100 0 0 0 0 3
+D3
+~
+~
+0 0 10072
+S
+#10101
+Hold you breath...~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10108
+S
+#10102
+A Soft Bed~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+T 10102
+#10103
+Safe And Sound~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+#10104
+Refuse To Help~
+:room:/main:look~
+100 0 0 0 0 0
+D1
+~
+~
+0 0 10105
+S
+#10105
+The Grand Akpar Paces~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10076
+S
+#10106
+The Mountain Peak~
+:room:/main:look~
+100 0 0 0 0 5
+D4
+~
+~
+0 0 251
+S
+#10108
+You made it!~
+:room:/main:look~
+100 0 0 0 0 0
+D3
+~
+~
+0 0 10000
+S
+#10200
+The Cave of Time~
+:room:/main:look~
+100 0 0 0 0 5
+S
+#10400
+Hyperspace~
+:room:/main:look~
+100 0 0 0 0 1
+S
+#10600
+You Are A Genius~
+:room:/main:look~
+100 8 0 0 0 0
+S
+#10800
+You Are A Superstar~
+:room:/main:look~
+100 0 0 0 0 0
+S
+#11000
+You Are An Alien~
+:room:/main:look~
+100 0 0 0 0 1
+S
+#11200
+Alien Invaders~
+:room:/main:look~
+100 8 0 0 0 0
+S
+#11400
+Faster Than Light~
+:room:/main:look~
+100 0 0 0 0 0
+S
+#11600
+Dream Trips~
+:room:/main:look~
+100 0 0 0 0 0
+S
+$~

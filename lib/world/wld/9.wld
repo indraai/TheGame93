@@ -1,0 +1,2766 @@
+#800
+The Unix Terrorist~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 801
+D2
+~
+~
+0 0 812
+D4
+~
+~
+0 0 911
+D8
+~
+~
+0 0 808
+S
+#801
+Hackphreak~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 802
+D2
+~
+~
+0 0 808
+D3
+~
+~
+0 0 800
+S
+#802
+W00W00~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 803
+D2
+~
+~
+0 0 809
+D3
+~
+~
+0 0 801
+S
+#803
+Cult of the Dead Cow~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 804
+D2
+~
+~
+0 0 810
+D3
+~
+~
+0 0 802
+S
+#804
+Chaos Computer Club~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 805
+D3
+~
+~
+0 0 803
+S
+#805
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 811
+D1
+~
+~
+0 0 806
+D2
+~
+~
+0 0 813
+D3
+~
+~
+0 0 804
+D4
+~
+~
+0 0 995
+S
+#806
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 807
+D3
+~
+~
+0 0 805
+S
+#807
+The Underground~
+[DESCRIBE]~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 806
+D4
+~
+~
+0 0 916
+S
+#808
+Jonathan James~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 801
+D1
+~
+~
+0 0 809
+D6
+~
+~
+0 0 800
+S
+#809
+Aaron Swartz~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 802
+D1
+~
+~
+0 0 810
+D3
+~
+~
+0 0 808
+S
+#810
+James Dolan~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 803
+D3
+~
+~
+0 0 809
+D4
+~
+~
+0 0 904
+S
+#811
+Blake Lemoine~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 805
+D4
+~
+~
+0 0 990
+E
+darkputin~
+darkputin
+~
+E
+party~
+party
+~
+E
+invoke~
+invoke
+~
+S
+#812
+The Underground~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 800
+D1
+~
+~
+0 0 813
+S
+#813
+The Underground~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 805
+D2
+~
+~
+0 0 814
+D3
+~
+~
+0 0 812
+D4
+~
+~
+0 0 996
+S
+#814
+The Underground~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 813
+D4
+~
+~
+0 0 935
+S
+#900
+The Beginning~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 901
+D2
+~
+~
+0 0 386
+D3
+~
+~
+0 0 907
+E
+contract~
+contract
+~
+S
+T 901
+#901
+The Buddhist Video~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 912
+D1
+~
+~
+0 0 922
+D2
+~
+~
+0 0 902
+D3
+~
+~
+0 0 900
+D7
+~
+~
+0 0 915
+E
+trenton~
+trenton
+~
+E
+water~
+water
+~
+E
+rahula~
+rahula
+~
+E
+video~
+video
+~
+S
+T 910
+#902
+Cicada3301~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 901
+D1
+~
+~
+0 0 916
+D2
+~
+~
+0 0 903
+D7
+~
+~
+0 0 922
+D8
+~
+~
+0 0 929
+D9
+~
+~
+0 0 904
+E
+004~
+004
+~
+E
+003~
+003
+~
+E
+002~
+002
+~
+E
+001~
+001
+~
+E
+agents~
+0902/main:agents
+~
+S
+T 910
+#903
+Project Mayhem 2012~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 902
+D1
+~
+~
+0 0 929
+D2
+~
+~
+0 0 913
+D3
+~
+~
+0 0 904
+D6
+~
+~
+0 0 -1
+D7
+~
+~
+0 0 995
+D9
+~
+~
+0 0 918
+E
+pastebin~
+pastebin
+~
+S
+T 910
+#904
+PM2012 Revelations~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 903
+D2
+~
+~
+0 0 918
+D3
+~
+~
+0 0 905
+D5
+~
+~
+0 0 810
+D7
+~
+~
+0 0 902
+D8
+~
+~
+0 0 913
+E
+pastebin~
+pastebin
+~
+S
+T 903
+#905
+Michael of Nebadon~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 906
+D1
+~
+~
+0 0 904
+D2
+~
+~
+0 0 939
+D3
+~
+~
+0 0 908
+D6
+~
+~
+0 0 910
+D8
+~
+~
+0 0 918
+E
+pastebin2~
+patebin2
+~
+E
+pastebin1~
+pastebin
+~
+S
+T 910
+#906
+IT~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 907
+D2
+~
+~
+0 0 905
+D3
+~
+~
+0 0 910
+D9
+~
+~
+0 0 908
+S
+T 900
+#907
+Deva Instructions~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 928
+D1
+~
+~
+0 0 900
+D2
+~
+~
+0 0 906
+D3
+~
+~
+0 0 926
+D9
+~
+~
+0 0 910
+S
+T 901
+#908
+Ethersec Project 2020~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 910
+D1
+~
+~
+0 0 905
+D3
+~
+~
+0 0 909
+D6
+~
+~
+0 0 911
+D7
+~
+~
+0 0 906
+D9
+~
+~
+0 0 919
+S
+T 910
+#909
+Project Mayhem 2020~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 911
+D1
+~
+~
+0 0 908
+D2
+~
+~
+0 0 919
+D7
+~
+~
+0 0 910
+S
+T 900
+#910
+Project Mayhem 2020~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 906
+D2
+~
+~
+0 0 908
+D3
+~
+~
+0 0 911
+D7
+~
+~
+0 0 907
+D8
+~
+~
+0 0 905
+D9
+~
+~
+0 0 909
+S
+T 910
+#911
+TheGame23~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 986
+D1
+~
+~
+0 0 910
+D2
+~
+~
+0 0 909
+D3
+~
+~
+0 0 921
+D5
+~
+~
+0 0 800
+D7
+~
+~
+0 0 990
+D8
+~
+~
+0 0 908
+S
+T 910
+#912
+Pacific Hermitage~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 915
+D2
+~
+~
+0 0 901
+S
+T 910
+#913
+Call to HackZION~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 903
+D1
+~
+~
+0 0 995
+D2
+~
+~
+0 0 914
+D3
+~
+~
+0 0 918
+D6
+~
+~
+0 0 904
+D7
+~
+~
+0 0 929
+D8
+~
+~
+0 0 935
+D9
+~
+~
+0 0 917
+S
+T 910
+#914
+PM2012 - Call To Action~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 913
+D1
+~
+~
+0 0 935
+D3
+~
+~
+0 0 917
+D6
+~
+~
+0 0 918
+D7
+~
+~
+0 0 995
+D8
+~
+~
+0 0 936
+S
+T 910
+#915
+FBI~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 984
+D2
+~
+~
+0 0 922
+D3
+~
+~
+0 0 912
+D8
+~
+~
+0 0 916
+D9
+~
+~
+0 0 901
+S
+T 910
+#916
+Robert Steele~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 933
+D1
+~
+~
+0 0 962
+D2
+~
+~
+0 0 945
+D3
+~
+~
+0 0 902
+D5
+~
+~
+0 0 807
+D6
+~
+~
+0 0 915
+D7
+~
+~
+0 0 931
+S
+T 910
+#917
+Dangerous Ideas~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 918
+D1
+~
+~
+0 0 914
+S
+T 900
+#918
+Project Mayhem Tyler~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 904
+D1
+~
+~
+0 0 913
+D2
+~
+~
+0 0 917
+D6
+~
+~
+0 0 905
+D7
+~
+~
+0 0 903
+D8
+~
+~
+0 0 914
+S
+T 910
+#919
+Survivance~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 909
+D3
+~
+~
+0 0 920
+D7
+~
+~
+0 0 908
+S
+T 903
+#920
+Natives in Game Dev~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 921
+D1
+~
+~
+0 0 919
+D6
+~
+~
+0 0 923
+S
+T 910
+#921
+Romero Games~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 911
+D2
+~
+~
+0 0 920
+D9
+~
+~
+0 0 923
+S
+T 901
+#922
+Tabitha~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 915
+D1
+~
+~
+0 0 919
+D3
+~
+~
+0 0 901
+D8
+~
+~
+0 0 987
+D9
+~
+~
+0 0 902
+S
+T 901
+#923
+LOLapps~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 924
+D7
+~
+~
+0 0 921
+D8
+~
+~
+0 0 920
+S
+T 903
+#924
+RapLeaf~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 925
+D1
+~
+~
+0 0 923
+S
+T 900
+#925
+Founders Fund~
+0925/main:look
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 926
+D2
+~
+~
+0 0 924
+D6
+~
+~
+0 0 942
+S
+T 910
+#926
+Palantir~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 927
+D1
+~
+~
+0 0 907
+D2
+~
+~
+0 0 925
+D3
+~
+~
+0 0 942
+D6
+~
+~
+0 0 951
+S
+T 910
+#927
+GhostNet~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 967
+D1
+~
+~
+0 0 928
+D2
+~
+~
+0 0 926
+D3
+~
+~
+0 0 951
+D9
+~
+~
+0 0 942
+S
+T 910
+#928
+Project300~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 907
+D3
+~
+~
+0 0 927
+S
+T 902
+#929
+Project 89~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 995
+D1
+~
+~
+0 0 930
+D3
+~
+~
+0 0 903
+D6
+~
+~
+0 0 902
+D8
+~
+~
+0 0 932
+D9
+~
+~
+0 0 913
+E
+pdf~
+0929/main:pdf
+~
+S
+T 910
+#930
+Church of Virus~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 932
+D3
+~
+~
+0 0 929
+D9
+~
+~
+0 0 996
+S
+T 902
+#931
+Jerome Corsi~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 965
+D1
+~
+~
+0 0 964
+D2
+~
+~
+0 0 962
+D3
+~
+~
+0 0 933
+D6
+~
+~
+0 0 984
+D8
+~
+~
+0 0 963
+D9
+~
+~
+0 0 916
+S
+T 910
+#932
+Sasha Chislenko~
+Welcome to the Sasha Chislenko room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 930
+D1
+~
+~
+0 0 975
+D2
+~
+~
+0 0 934
+D3
+~
+~
+0 0 996
+D6
+~
+~
+0 0 929
+D9
+~
+~
+0 0 935
+S
+T 910
+#933
+Lionel Nation~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 984
+D1
+~
+~
+0 0 931
+D2
+~
+~
+0 0 916
+D7
+~
+~
+0 0 965
+D8
+~
+~
+0 0 962
+S
+T 910
+#934
+The Beyond~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 932
+D2
+~
+~
+0 0 944
+D3
+~
+~
+0 0 935
+D6
+~
+~
+0 0 996
+D9
+~
+~
+0 0 936
+S
+T 910
+#935
+Evil People, Inc.~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 996
+D1
+~
+~
+0 0 934
+D2
+~
+~
+0 0 936
+D3
+~
+~
+0 0 914
+D5
+~
+~
+0 0 814
+D6
+~
+~
+0 0 913
+D7
+~
+~
+0 0 932
+D8
+~
+~
+0 0 944
+D9
+~
+~
+0 0 937
+S
+T 910
+#936
+Satanic Sysadmins~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 935
+D1
+~
+~
+0 0 944
+D3
+~
+~
+0 0 937
+D6
+~
+~
+0 0 914
+D7
+~
+~
+0 0 934
+S
+T 903
+#937
+alt.* group~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 936
+D2
+~
+~
+0 0 940
+D3
+~
+~
+0 0 938
+D7
+~
+~
+0 0 935
+S
+T 910
+#938
+Kibo~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 917
+D1
+~
+~
+0 0 937
+D3
+~
+~
+0 0 939
+S
+T 910
+#939
+EVIL Mud~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 905
+D1
+~
+~
+0 0 938
+S
+T 900
+#940
+Cypherpunks~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 937
+D1
+~
+~
+0 0 943
+D3
+~
+~
+0 0 941
+S
+T 910
+#941
+End Of The Line~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 942
+D2
+~
+~
+0 0 948
+D3
+~
+~
+0 0 949
+E
+tip1~
+talk:#space world:main 0941/main:tip1
+~
+E
+tip2~
+talk:#space world:main 0941/main:tip2
+~
+E
+tip3~
+talk:#space world:main 0941/main:tip3
+~
+S
+T 910
+#942
+Stanford University~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 951
+D1
+~
+~
+0 0 926
+D3
+~
+~
+0 0 950
+D7
+~
+~
+0 0 927
+S
+T 910
+#943
+DefCon 1~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 944
+D1
+~
+~
+0 0 945
+D3
+~
+~
+0 0 940
+E
+deathstar~
+0943/main:deathstar
+~
+S
+T 901
+#944
+SATAN~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 934
+D2
+~
+~
+0 0 943
+D3
+~
+~
+0 0 936
+D6
+~
+~
+0 0 935
+S
+T 910
+#945
+HOPE Conference~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 916
+D1
+~
+~
+0 0 946
+D2
+~
+~
+0 0 947
+D3
+~
+~
+0 0 943
+S
+T 910
+#946
+Hacking in Progress~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 945
+D9
+~
+~
+0 0 947
+S
+T 905
+#947
+The Well~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 945
+D3
+~
+~
+0 0 948
+D7
+~
+~
+0 0 946
+S
+#948
+Cobra Lounge~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 941
+D1
+~
+~
+0 0 947
+D6
+~
+~
+0 0 949
+S
+#949
+SpoonKids~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 950
+D1
+~
+~
+0 0 941
+D4
+~
+~
+0 0 960
+D8
+~
+~
+0 0 948
+S
+T 900
+#950
+SLAC~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 942
+D7
+~
+~
+0 0 951
+S
+T 910
+#951
+GhostMind~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 927
+D2
+~
+~
+0 0 942
+D8
+~
+~
+0 0 926
+D9
+~
+~
+0 0 950
+S
+T 901
+#952
+MinnieSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 954
+D2
+~
+~
+0 0 960
+D3
+~
+~
+0 0 953
+D6
+~
+~
+0 0 955
+D9
+~
+~
+0 0 959
+S
+#953
+MaxieSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 955
+D1
+~
+~
+0 0 952
+D2
+~
+~
+0 0 959
+D3
+~
+~
+0 0 957
+D6
+~
+~
+0 0 956
+D7
+~
+~
+0 0 954
+D8
+~
+~
+0 0 960
+D9
+~
+~
+0 0 958
+S
+#954
+BabySpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D2
+~
+~
+0 0 952
+D3
+~
+~
+0 0 955
+D9
+~
+~
+0 0 953
+S
+#955
+TSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D1
+~
+~
+0 0 954
+D2
+~
+~
+0 0 953
+D3
+~
+~
+0 0 956
+D8
+~
+~
+0 0 952
+D9
+~
+~
+0 0 957
+S
+#956
+DemiTassy Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D1
+~
+~
+0 0 955
+D2
+~
+~
+0 0 957
+D8
+~
+~
+0 0 953
+S
+#957
+SilverSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 956
+D1
+~
+~
+0 0 953
+D2
+~
+~
+0 0 958
+D7
+~
+~
+0 0 955
+D8
+~
+~
+0 0 959
+S
+#958
+XMasSpoon Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 957
+D1
+~
+~
+0 0 959
+D7
+~
+~
+0 0 953
+S
+#959
+Play Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 953
+D1
+~
+~
+0 0 960
+D3
+~
+~
+0 0 958
+D6
+~
+~
+0 0 957
+D7
+~
+~
+0 0 952
+D8
+~
+~
+1 0 961
+S
+#960
+Snack Room~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+~
+0 0 952
+D2
+~
+~
+0 0 961
+D3
+~
+~
+0 0 959
+D5
+~
+exit~
+1 0 949
+D6
+~
+~
+0 0 953
+S
+#961
+SpoonKids Washroom~
+You are in an unfinished room.
+~
+9 24 0 0 0 0
+D0
+~
+snacks~
+1 0 960
+D6
+~
+~
+1 0 959
+S
+#962
+Crowdsource the Truth~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 931
+D1
+~
+~
+0 0 963
+D3
+~
+~
+0 0 916
+D6
+~
+~
+0 0 933
+D7
+~
+~
+0 0 964
+S
+T 910
+#963
+Larry Klayman~
+[DESCRIBE]~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 964
+D3
+~
+~
+0 0 962
+D6
+~
+~
+0 0 931
+S
+T 910
+#964
+Laura Loomer~
+0964/main:look
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 963
+D3
+~
+~
+0 0 931
+D6
+~
+~
+0 0 965
+D9
+~
+~
+0 0 962
+S
+T 910
+#965
+InfoWars~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 966
+D2
+~
+~
+0 0 931
+D3
+~
+~
+0 0 984
+D6
+~
+~
+0 0 985
+D8
+~
+~
+0 0 964
+D9
+~
+~
+0 0 933
+S
+T 910
+#966
+The Kremlin~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 979
+D1
+~
+~
+0 0 969
+D2
+~
+~
+0 0 965
+D3
+~
+~
+0 0 985
+D7
+~
+~
+0 0 968
+D8
+~
+~
+0 0 970
+D9
+~
+~
+0 0 984
+S
+T 910
+#967
+Russian Botnet~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 979
+D2
+~
+~
+0 0 927
+S
+T 901
+#968
+Saint Petersburg University~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 980
+D1
+~
+~
+0 0 997
+D2
+~
+~
+0 0 969
+D3
+~
+~
+0 0 979
+D6
+~
+~
+0 0 992
+D8
+~
+~
+0 0 971
+D9
+~
+~
+0 0 966
+S
+T 910
+#969
+The KGB/FSB~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 968
+D1
+~
+~
+0 0 971
+D2
+~
+~
+0 0 970
+D3
+~
+~
+0 0 966
+D6
+~
+~
+0 0 979
+D7
+~
+~
+0 0 997
+S
+T 910
+#970
+Orthodox Church~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 969
+D1
+~
+~
+0 0 972
+D6
+~
+~
+0 0 966
+D7
+~
+~
+0 0 971
+D8
+~
+~
+0 0 973
+S
+T 910
+#971
+The Romanov~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 997
+D1
+~
+Exit!~
+1 0 907
+D2
+~
+~
+0 0 972
+D3
+~
+~
+0 0 969
+D5
+~
+Next~
+1 0 1000
+D6
+~
+~
+0 0 968
+D7
+~
+~
+0 0 994
+D9
+~
+~
+0 0 970
+S
+#972
+The Grand Duchess~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 971
+D2
+~
+~
+0 0 973
+D3
+~
+~
+0 0 970
+E
+photo0~
+0972/main:photo0
+~
+E
+photo1~
+0972/main:photo1
+~
+E
+photo2~
+0972/main:photo2
+~
+E
+photo3~
+0972/main:photo3
+~
+S
+T 900
+#973
+George Mikhailovich~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 972
+D6
+~
+~
+0 0 970
+E
+photo0~
+photo0
+~
+E
+photo1~
+photo1
+~
+E
+photo2~
+photo2
+~
+E
+photo3~
+photo3
+~
+S
+T 910
+#974
+Jeffrey Epstein Foundation~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 978
+D1
+~
+~
+0 0 988
+D2
+~
+~
+0 0 989
+D6
+~
+~
+0 0 977
+S
+T 900
+#975
+Intelligenesis~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 974
+D3
+~
+~
+0 0 932
+D7
+~
+~
+0 0 977
+D8
+~
+~
+0 0 976
+S
+T 910
+#976
+Webmind Brazil~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 977
+D6
+~
+~
+0 0 975
+S
+T 900
+#977
+OpenCog~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 978
+D2
+~
+~
+0 0 976
+D8
+~
+~
+0 0 974
+D9
+~
+~
+0 0 975
+S
+T 910
+#978
+Humanity Plus~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D2
+~
+~
+0 0 974
+D3
+~
+~
+0 0 977
+S
+T 900
+#979
+Red Army Faction~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 968
+D2
+~
+~
+0 0 966
+D3
+~
+~
+0 0 967
+D6
+~
+~
+0 0 991
+D8
+~
+~
+0 0 969
+S
+T 910
+#980
+Kunstkamera~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 981
+D2
+~
+~
+0 0 968
+E
+008~
+008
+~
+E
+007~
+007
+~
+E
+006~
+006
+~
+E
+005~
+005
+~
+E
+004~
+004
+~
+E
+003~
+00s
+~
+E
+002~
+002
+~
+E
+001~
+001
+~
+S
+T 901
+#981
+Kalmykia~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 982
+D3
+~
+~
+0 0 980
+E
+007~
+007
+~
+E
+006~
+006
+~
+E
+005~
+005
+~
+E
+004~
+004
+~
+E
+003~
+003
+~
+E
+002~
+002
+~
+E
+001~
+001
+~
+S
+T 902
+#982
+Ivolginsky Datsan~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 981
+D2
+~
+~
+0 0 983
+E
+003~
+003
+~
+E
+002~
+002
+~
+E
+001~
+001
+~
+S
+T 902
+#983
+Tuva~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D0
+~
+~
+0 0 982
+D2
+~
+~
+0 0 994
+E
+004~
+004
+~
+E
+003~
+003
+~
+E
+002~
+002
+~
+E
+001~
+001
+~
+S
+T 902
+#984
+QAnon~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 985
+D1
+~
+~
+0 0 965
+D2
+~
+~
+0 0 933
+D3
+~
+~
+0 0 915
+D7
+~
+~
+0 0 966
+D8
+~
+~
+0 0 931
+S
+T 907
+#985
+Pepe Kek~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 966
+D2
+~
+~
+0 0 984
+D3
+~
+~
+0 0 986
+D7
+~
+~
+0 0 979
+D8
+~
+~
+0 0 965
+S
+T 905
+#986
+4Chan~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 985
+D2
+~
+~
+0 0 984
+S
+T 901
+#987
+Ireland Backstab~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D6
+~
+~
+0 0 922
+S
+#988
+The Edge~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D3
+~
+~
+0 0 974
+S
+#989
+Gislane Maxwell~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 974
+S
+#990
+DarkSec~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 991
+D5
+~
+~
+0 0 811
+D7
+~
+~
+0 0 992
+E
+p13~
+13
+~
+E
+p12~
+p12
+~
+E
+p11~
+p11
+~
+E
+p10~
+p10
+~
+E
+p9~
+p9
+~
+E
+p8~
+p8
+~
+E
+p7~
+p7
+~
+E
+p6~
+p6
+~
+E
+p5~
+p5
+~
+E
+p4~
+p4
+~
+E
+p3~
+p3
+~
+E
+p2~
+p2
+~
+E
+p1~
+p1
+~
+S
+#991
+Moscow Defense Brief~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D3
+~
+~
+0 0 990
+D8
+~
+~
+0 0 979
+S
+#992
+Murmansk State University~
+[DESCRIBE]~
+9 8 0 0 0 0
+D1
+~
+~
+0 0 993
+D8
+~
+~
+0 0 968
+D9
+~
+~
+0 0 990
+S
+#993
+Murmansk FSB~
+[DESCRIBE]~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 969
+D3
+~
+~
+0 0 992
+S
+#994
+Altai~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D0
+~
+~
+0 0 983
+D9
+~
+~
+0 0 971
+S
+#995
+Telecomix~
+[DESCRIBE]~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 929
+D3
+~
+~
+0 0 902
+D5
+~
+~
+0 0 805
+D9
+~
+~
+0 0 903
+S
+#996
+Lucifer.com~
+You are in an unfinished room.
+~
+9 0 0 0 0 0
+D1
+~
+~
+0 0 932
+D2
+~
+~
+0 0 935
+D5
+~
+~
+0 0 813
+D7
+~
+~
+0 0 930
+D8
+~
+~
+0 0 934
+S
+#997
+Sukharev Tower~
+You are in an unfinished room.
+~
+9 8 0 0 0 0
+D2
+~
+~
+0 0 971
+D3
+~
+~
+0 0 968
+D9
+~
+~
+0 0 969
+S
+$~

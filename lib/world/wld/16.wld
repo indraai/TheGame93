@@ -1,0 +1,273 @@
+#1600
+Tomorrowland~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1610
+D1
+~
+~
+0 0 1601
+D2
+~
+~
+0 0 1604
+D3
+~
+~
+0 0 1121
+D8
+~
+~
+0 0 1605
+S
+#1601
+Rocket Jets~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D0
+~
+~
+0 0 1602
+D1
+~
+~
+0 0 1608
+D2
+~
+~
+0 0 1603
+D3
+~
+~
+0 0 1600
+D6
+~
+~
+0 0 1610
+D8
+~
+~
+0 0 1606
+D9
+~
+~
+0 0 1604
+S
+#1602
+The Terrace - Tomorrowland~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D1
+~
+~
+0 0 1611
+D2
+~
+~
+0 0 1601
+S
+#1603
+Tomorrowland Information~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1601
+D1
+~
+~
+0 0 1606
+D2
+~
+~
+0 0 1607
+D3
+~
+~
+0 0 1605
+D9
+~
+~
+0 0 1605
+S
+#1604
+Adventure Thru Inner Space~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D0
+~
+~
+0 0 1600
+D1
+~
+~
+0 0 1605
+D7
+~
+~
+0 0 1601
+S
+#1605
+The Character Shop~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D0
+~
+~
+0 0 1603
+D1
+~
+~
+0 0 1607
+D3
+~
+~
+0 0 1604
+D6
+~
+~
+0 0 1600
+D7
+~
+~
+0 0 1603
+S
+#1606
+America Sings~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D2
+~
+~
+0 0 1609
+D3
+~
+~
+0 0 1603
+D6
+~
+~
+0 0 1601
+D9
+~
+~
+0 0 1607
+S
+#1607
+Telephone~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D0
+~
+~
+0 0 1603
+D3
+~
+~
+0 0 1605
+D7
+~
+~
+0 0 1606
+D8
+~
+~
+0 0 1609
+S
+#1608
+The Space Bar~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D3
+~
+~
+0 0 1601
+S
+#1609
+Mission to Mars~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D0
+~
+~
+0 0 1606
+D2
+~
+~
+0 0 -1
+D6
+~
+~
+0 0 1607
+S
+#1610
+Circle-Vision 360 - Tomorrowland~
+You are in an unfinished room.
+~
+16 0 0 0 0 0
+D2
+~
+~
+0 0 1600
+D7
+~
+~
+0 0 1612
+D8
+~
+~
+0 0 1601
+S
+#1611
+Tomorrowland Skyway~
+You are in an unfinished room.
+~
+16 24 0 0 0 0
+D3
+~
+~
+0 0 1602
+D4
+~
+~
+0 0 1529
+S
+#1612
+Monorail System~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D1
+~
+~
+0 0 1613
+D9
+~
+~
+0 0 1610
+S
+#1613
+Submarine Voyage~
+You are in an unfinished room.
+~
+16 16 0 0 0 1
+D3
+~
+~
+0 0 1612
+S
+$~

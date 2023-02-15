@@ -1,0 +1,67 @@
+#1000
+evea evea1000 a1000 evolution engine agent z10~
+EvEA1000~
+1000/main:avatar~
+1000/main:look:main~
+2136 0 0 0 2056 0 0 0 -500 E
+20 14 -2 4d4+200 3d3+3
+200 40000
+8 8 0 2 1
+BareHandAttack: 2
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#1001
+evea evea1001 evolution engine agent z10 a1001~
+EvEA1001~
+1001/main:avatar~
+1001/main:look~
+2136 0 0 0 2056 0 0 0 -550 E
+21 13 -2 4d4+210 3d3+3
+210 44100
+8 8 0 2 1
+BareHandAttack: 7
+Str: 14
+Dex: 14
+Int: 14
+Wis: 14
+Con: 14
+Cha: 14
+SavingPara: 5
+SavingRod: 5
+SavingPetri: 5
+SavingBreath: 5
+SavingSpell: 5
+E
+#1010
+evea evea1010 evolution engine agent z10 a1010~
+EvEA1010~
+1010/main:avatar~
+1010/main:look:main~
+18462 0 0 0 2056 0 0 0 1000 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 0 2 1
+BareHandAttack: 14
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+SavingPara: 8
+SavingRod: 8
+SavingPetri: 8
+SavingBreath: 8
+SavingSpell: 8
+E
+$

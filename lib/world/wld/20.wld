@@ -1,0 +1,931 @@
+#2000
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 2
+D0
+~
+~
+0 0 362
+D2
+~
+~
+0 0 2001
+S
+#2001
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2000
+D2
+~
+~
+0 0 2002
+S
+#2002
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2001
+D1
+~
+~
+0 0 2064
+D2
+~
+~
+0 0 2003
+S
+#2003
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 0
+D0
+~
+~
+0 0 2002
+D1
+~
+~
+0 0 2004
+S
+#2004
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D2
+~
+~
+0 0 2005
+D3
+~
+~
+0 0 2003
+S
+#2005
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2004
+D1
+~
+~
+0 0 2006
+S
+#2006
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2007
+D3
+~
+~
+0 0 2005
+S
+#2007
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2008
+D3
+~
+~
+0 0 2006
+S
+#2008
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2009
+D3
+~
+~
+0 0 2007
+S
+#2009
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D2
+~
+~
+0 0 2010
+D3
+~
+~
+0 0 2008
+S
+#2010
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D0
+~
+~
+0 0 2009
+D2
+~
+~
+0 0 2011
+S
+#2011
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2010
+D1
+~
+~
+0 0 2014
+D2
+~
+~
+0 0 2032
+D3
+~
+~
+0 0 2012
+S
+#2012
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2011
+D3
+~
+~
+0 0 2013
+S
+#2013
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2012
+S
+#2014
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2015
+D3
+~
+~
+0 0 2011
+S
+#2015
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D1
+~
+~
+0 0 2016
+D3
+~
+~
+0 0 2014
+S
+#2016
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2017
+D1
+~
+~
+0 0 2019
+D2
+~
+~
+0 0 2018
+D3
+~
+~
+0 0 2015
+S
+#2017
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D2
+~
+~
+0 0 2016
+S
+#2018
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D0
+~
+~
+0 0 2016
+S
+#2019
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2020
+D1
+~
+~
+0 0 2022
+D2
+~
+~
+0 0 2021
+D3
+~
+~
+0 0 2016
+S
+#2020
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D2
+~
+~
+0 0 2019
+S
+#2021
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D0
+~
+~
+0 0 2019
+S
+#2022
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2028
+D1
+~
+~
+0 0 2025
+D2
+~
+~
+0 0 2023
+D3
+~
+~
+0 0 2019
+S
+#2023
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2022
+D2
+~
+~
+0 0 2024
+S
+#2024
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D0
+~
+~
+0 0 2023
+S
+#2025
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D0
+~
+~
+0 0 2026
+D3
+~
+~
+0 0 2022
+S
+#2026
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 4
+D2
+~
+~
+0 0 2025
+D3
+~
+~
+0 0 2027
+S
+#2027
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 0 0 0 0 2
+D1
+~
+~
+0 0 2026
+S
+#2028
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 3
+D0
+~
+~
+0 0 2030
+D2
+~
+~
+0 0 2022
+D3
+~
+~
+0 0 2029
+S
+#2029
+Pushkara Shrine~
+You are in an unfinished room.
+~
+20 24 0 0 0 0
+D1
+~
+~
+0 0 2028
+S
+#2030
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2031
+D2
+~
+~
+0 0 2028
+S
+#2031
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D3
+~
+~
+0 0 2030
+S
+#2032
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2011
+D3
+~
+~
+0 0 2033
+S
+#2033
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2032
+D2
+~
+~
+0 0 2034
+D3
+~
+~
+0 0 2037
+S
+#2034
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2033
+D3
+~
+~
+0 0 2035
+S
+#2035
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2034
+D2
+~
+~
+0 0 2036
+S
+#2036
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2035
+D1
+~
+~
+0 0 2040
+S
+#2037
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D1
+~
+~
+0 0 2033
+D3
+~
+~
+0 0 2038
+S
+#2038
+Pushkara~
+You are in an unfinished room.
+~
+20 0 0 0 0 5
+D0
+~
+~
+0 0 2039
+D1
+~
+~
+0 0 2037
+S
+#2039
+Pushkara Spring~
+You are in an unfinished room.
+~
+20 16 0 0 0 2
+D2
+~
+~
+0 0 2038
+S
+#2040
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D1
+~
+~
+0 0 2041
+D3
+~
+~
+0 0 2036
+S
+#2041
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2052
+D2
+~
+~
+0 0 2042
+D3
+~
+~
+0 0 2040
+S
+#2042
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2041
+D2
+~
+~
+0 0 2043
+S
+#2043
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2042
+D1
+~
+~
+0 0 2044
+S
+#2044
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2045
+D3
+~
+~
+0 0 2043
+S
+#2045
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D1
+~
+~
+0 0 2046
+D2
+~
+~
+0 0 2044
+S
+#2046
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+3 0 2056
+D2
+~
+~
+0 0 2047
+D3
+~
+~
+0 0 2045
+S
+#2047
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2046
+D2
+~
+~
+0 0 2048
+S
+#2048
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2047
+D1
+~
+~
+0 0 2049
+S
+#2049
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2050
+D3
+~
+~
+0 0 2048
+S
+#2050
+Pushkara Cave~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+3 0 2058
+D1
+~
+~
+0 0 2051
+D2
+~
+~
+0 0 2049
+S
+#2051
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 24 0 0 0 11
+D3
+~
+~
+0 0 2050
+S
+#2052
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D1
+~
+~
+0 0 2053
+D2
+~
+~
+0 0 2041
+S
+#2053
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D1
+~
+~
+0 0 2054
+D3
+~
+~
+0 0 2052
+S
+#2054
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D2
+~
+~
+0 0 2055
+D3
+~
+~
+0 0 2053
+S
+#2055
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2054
+D1
+~
+~
+0 0 2057
+D3
+~
+~
+0 0 2056
+S
+#2056
+Pushkara Springs~
+You are in an unfinished room.
+~
+20 24 0 0 0 11
+D1
+~
+~
+0 0 2055
+D2
+~
+~
+3 0 2046
+S
+#2057
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+3 0 2062
+D2
+~
+~
+0 0 2058
+D3
+~
+~
+0 0 2055
+S
+#2058
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2057
+D1
+~
+~
+0 0 2059
+D2
+~
+~
+3 0 2050
+S
+#2059
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2060
+D3
+~
+~
+0 0 2058
+S
+#2060
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2061
+D2
+~
+~
+0 0 2059
+S
+#2061
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D2
+~
+~
+0 0 2060
+D3
+~
+~
+0 0 2062
+S
+#2062
+Pushkara Caves~
+You are in an unfinished room.
+~
+20 265 0 0 0 11
+D0
+~
+~
+0 0 2063
+D1
+~
+~
+0 0 2061
+D2
+~
+~
+3 0 2057
+S
+#2063
+Pushkara Spring~
+You are in an unfinished room.
+~
+20 24 0 0 0 11
+D2
+~
+~
+0 0 2062
+S
+#2064
+Vadari Retreat~
+You are in an unfinished room.
+~
+20 16 0 0 0 5
+D3
+~
+~
+0 0 2002
+S
+$~
