@@ -263,8 +263,8 @@ int use_new_socials = YES;
 
 const char *MENU =
 "\n"
-"\n# Welcome"
-"\nWelcome to the world of Arjika. Please make your selection from the menu below."
+"\n# Menu"
+"\np:Select an option from the menu below."
 "\nmenu[Enter Arjika]:1"
 "\nmenu[More Information]:3"
 "\nmenu[Change Bio]:2"
