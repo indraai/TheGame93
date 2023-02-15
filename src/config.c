@@ -262,23 +262,19 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"\n"
-"\n# Menu"
-"\np:Select an option from the menu below."
 "\nmenu[Enter Arjika]:1"
 "\nmenu[More Information]:3"
 "\nmenu[Change Bio]:2"
 "\nmenu[Change Password]:4"
 "\nmenu[Delete Profile]:5"
-"\nmenu[exit]:0";
+"\nmenu[Exit]:0";
 
 const char *WELC_MESSG =
 "\nWelcome to Arjika!"
 "\nMay your adventure here be... EXCELLENT!";
 
 const char *START_MESSG =
-"\nWelcome.\r"
-"\nNow you can now earn credits, gain experience, find stuff, and much more... while meeting people from around the world!\r";
+"\np:All set. You can now earn credits, gain experience, find stuff, and much more.";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
