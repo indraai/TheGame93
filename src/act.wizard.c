@@ -101,7 +101,8 @@ ACMD(do_wizhelp)
   send_to_char(ch, "\np:The following privileged commands are available:");
 
   for (level = LVL_IMPL; level >= LVL_IMMORT; level--) {
-    send_to_char(ch, "\np:Level %d:", level);
+    send_to_char(ch, "\np:Level %d:"
+      "\n::begin:buttons", level);
 
     for (no = 1, cmd_num = 1; complete_cmd_info[cmd_sort_info[cmd_num]].command[0] != '\n'; cmd_num++) {
       i = cmd_sort_info[cmd_num];
@@ -109,12 +110,12 @@ ACMD(do_wizhelp)
       if (complete_cmd_info[i].minimum_level != level)
         continue;
 
-      send_to_char(ch, "\n- %-14s", complete_cmd_info[i].command);
+      send_to_char(ch, "\nbutton[%s]:#mud > help %s",
+        complete_cmd_info[i].command,
+        complete_cmd_info[i].command);
     }
-    // if (no % 7 != 1)
-    //   send_to_char(ch, "\r\n");
-    // if (level != LVL_IMMORT)
-    //   send_to_char(ch, "\r\n");
+    send_to_char(ch, "\n::end:buttons");
+
   }
 }
 
