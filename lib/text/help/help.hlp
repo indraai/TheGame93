@@ -1,264 +1,179 @@
 ! ^ !
-adv:help:general/bang
+talk:#space docs:main commands/bang
 #0
 SOUND ASOUND
-adv:help:general/sound
+talk:#space docs:main code/sound
 #31
 AT
-adv:help:general/at
+talk:#space docs:main code/at
 #31
 DAMAGE
-adv:help:general/damage
+talk:#space docs:main code/damage
 #31
 DOOR EXIT
-adv:help:general/door
+talk:#space docs:main code/door
 #31
 ECHO
-adv:help:general/echo
+talk:#space docs:main code/echo
 #31
 FOLLOW MASTER
-adv:help:general/follow
+talk:#space docs:main code/follow
+#31
+%FORCE% OFORCE WFORCE MFORCE TRIGEDIT-FORCE TRIG-FORCE
+talk:#space docs:main code/force
 #31
 LOAD
-adv:help:general/load
+talk:#space docs:main general/load
 #31
 LOG
-adv:help:genereal/log
+talk:#space docs:main general/log
 #0
 MOVE MOVE-OBJECT MOVE-ALL
-adv:help:general/move
+talk:#space docs:main general/move
 #31
 NEXT_IN_ROOM CHAR_VAR TRIG-FIELDS %ACTOR.SEX% ACTOR.SEX %ACTOR.HITPOINTS% %ACTOR.HP% %ACTOR.HITP% %HIS% IS_FIGHTING %FIGHTING% ACTOR.FIGHTING %ACTOR.FIGHTING% IN_ROOM IS_ROOM POS() HISHER %MASTER% %SELF.MASTER% %FOLLOWER.NAME% PVAR %HISHER% %SEX%
 See @RHELP CHAR-VAR@n
 #31
 PURGE
-adv:help:general/purge
+talk:#space docs:main general/purge
 #31
 TELEPORT PORTAL
-adv:help:general/teleport
+talk:#space docs:main general/teleport
 #31
 TRANSFORM MORPH
-adv:help:general/transform
+talk:#space docs:main general/transform
 #31
 TOPIC TOPICS
-adv:help:general/topic
+talk:#space docs:main general/topic
 #31
 @@ COLORS
-adv:help:general/colors
+talk:#space docs:main general/colors
 #31
 ABBREVIATIONS ABBREVS
-adv:help:general/abbreviations
+talk:#space docs:main general/abbreviations
 #31
 ARMOR AC ARMOR-CLASS
-adv:help:general/armor
+talk:#space docs:main general/armor
 #0
 ACRONYMS TERMINOLOGY VOCABULARY
-adv:help:general/acronyms
+talk:#space docs:main general/acronyms
 #31
 ACTOR.CLASS ACTOR-CLASS %ACTOR.CLASS%
-adv:help:general/class
+talk:#space docs:main actor/class
 #31
 INVENTORY ACTOR.INVENTORY ACTOR-INVENTORY
-adv:help:actor/inventory
+talk:#space docs:main actor/inventory
 #31
 LEVEL ACTOR.LEVEL ACTOR-LEVEL
-adv:help:actor/level
+talk:#space docs:main actor/level
 #31
 ADVANCE DEMOTE ACTOR.ADVANCE
-adv:help:general/advance
+talk:#space docs:main actor/advance
 #31
 AEDIT AEDIT-MENU ACTION-EDITOR ACREATE SOCIAL-EDITOR
-adv:help:aedit/main
+talk:#space docs:main aedit/main
 #31
 AFFECTS AFF
-adv:help:general/affects
+talk:#space docs:main actor/affects
 #31
 AFK
-adv:help:general/afk
+talk:#space docs:main actor/afk
 #0
 AGE
-adv:help:general/age
+talk:#space docs:main actor/age
 #0
 ALIAS
-adv:help:general/alias
+talk:#space docs:main general/alias
 #0
 ALIGNMENT GOOD NEUTRAL EVIL
-adv:help:general/alignement
+talk:#space docs:main actor/alignement
 #31
 ANIMATE ANIMATE-DEAD
-adv:help:spells/animate.feecting
+talk:#space docs:main spells
 #0
 ANTI
-adv:help:general/anti
+talk:#space docs:main general/anti
 #0
 APOSTROPHES
-adv:help:general/apostrophes
+talk:#space docs:main general/apostrophes
 #31
 APPLICATION BUILDING
-adv:help:general/application
+talk:#space docs:main general/application
 #0
 AREAS
-adv:help:general/areas
+talk:#space docs:main general/areas
 #0
 ARMOR-SPELL
-adv:help:spells/armor
+talk:#space docs:main spells/armor
 #0
 ASCII-ART ART
-adv:help:general/art
+talk:#space docs:main general/art
 #31
 ASSIST
-adv:help:general/assist
+talk:#space docs:main general/assist
 #0
 ASTAT
-adv:help:general/astat
+talk:#space docs:main general/astat
 #0
 ATTACH
-adv:help:general/attach
+talk:#space docs:main general/attach
 #31
 AUCTION GOSSIP GRATS
-adv:help:general/chats
+talk:#space docs:main general/auction
 #0
 AUTOASSIST
-adv:help:general/autoassist
+talk:#space docs:main general/autoassist
 #0
 AUTODOOR
-adv:help:general/autodoor
+talk:#space docs:main general/autodoor
 #0
 AUTOEXIT AUTOEXITS AUTO-EXITS
-adv:help:general/autoexits
+talk:#space docs:main general/autoexits
 #0
 AUTOGOLD
-adv:help:general/autogold
+talk:#space docs:main general/autogold
 #0
 AUTOKEY
-adv:help:general/autokey
+talk:#space docs:main general/autokey
 #0
 AUTOLOOT
-adv:help:general/autoloot
+talk:#space docs:main general/autoloot
 #0
 AUTOMAP AUTOMAPPING MAPS
-adv:help:general/maps
+talk:#space docs:main general/maps
 #0
 AUTOQUEST
-adv:help:general/autoquest
+talk:#space docs:main general/autoquest
 #0
 AUTOSPAWN
-adv:help:general/autospawn
+talk:#space docs:main general/autospawn
 #0
 AUTOSPLIT
-adv:help:general/autosplit
+talk:#space docs:main general/autosplit
 #0
 AUTOWIZ
-adv:help:general/autowiz
+talk:#space docs:main general/autowiz
 #31
 BACKDOOR HACKING HACK
-adv:help:general/hack
+talk:#space docs:main general/hack
 #0
 BACKSTAB
-
-Thief only.
-
-Backstab is a way to sneak up on a person and attempt to place your dagger
-in his back, at exactly the point where it does most damage.  A successful
-backstab gives a damage multiplier, depending on your level:
-
-The chance of successfully backstabbing a person depends on how well you
-have practiced backstab at your guild.  You can always backstab sleeping
-people.
-
+talk:#space docs:main actor/backstab
 #0
 BALANCE BALANCING
-
-   "Game Balance" is a term that brings a different thing to mind for every
-person that hears it. What is most important about game balance is to keep in
-mind what each zone is designed for. For example, high-level players, newbies,
-or small groups.  The objects and monsters found in the area should match the
-level, abilities, and needs of the players expected to use the area. Most
-players do not like to be given vast treasure with no difficulty in getting
-it, but on the other hand, nobody likes to fight the most difficult mob on the
-MUD and get nothing for doing it.  Zones should not be impossibly hard or
-absurdly easy.
-   Understandably, builders want their zones to be popular, but they sometimes
-attempt to achieve this goal by purposefully making their zone unbalanced,
-adding powerful weapons or armor with no harmful side-effects or mobiles that
-are easy to kill yet give massive numbers of experience points.  Such zones are
-destined both to become very popular and invariably to bring about the death of
-the mud.  Every zone, every room, every object, every mob, will be checked
-before being implemented into the game.  Do not waste everyone's time, (ours for
-having to recheck your zone, and yours for having to fix any problems we find)
-keep the balance.
-
-See also: STANDARDS
+talk:#space docs:main general/balance
 #31
 BAN UNBAN
-
-Usage: ban [<all | new | select> <site>]
-       unban <site>
-
-   These commands prevent anyone from a site with a hostname containing the
-site substring from logging in to the game.  You may ban a site to ALL, NEW
-or SELECT players.  Banning a site to NEW players prevents any new players
-from registering.  Banning a site to ALL players disallows ANY connections
-from that site.  Banning a site SELECTively allows only players with site-ok
-flags to log in from that site.  Ban with no argument returns a list of
-currently banned sites. Unban removes the ban.
-
-Examples:
-  > ban all whitehouse.gov
-  > unban ai.mit.edu
-
-See also: WIZLOCK
+talk:#space docs:main general/ban
 #31
 BANKS WITHDRAWING DEPOSITING BALANCES ATM-MACHINES
-
-Commands to take money out of the bank, put money in the bank, or see how
-much money you have in the bank.  Can be used at any Bank of Ilniyr.
-
-Examples:
-
-  > deposit 400 gold
-
-Deposits 400 gold on your account.
-
-  > withdraw 1000 copper
-
-Withdraws 1000 copper pieces from your account.
-
-  > balance
-
-Shows your balance.
-
-  > deposit all
-  > withdraw all
-
-Moves all of your money in/out of the bank.
-
-See also: GOLD, SCORE
+talk:#space docs:main general/bank
 #0
 BASH
-
-Fighters only.
-
-The success of a bash depends upon how many times you have practiced. To bash
-someone is to attempt to 'knock' that person over.  If you succeed, you will
-inflict minor damage, and cause the victim to fall on its rear.  The victim
-will be unable to issue any commands for 2 rounds of violence.  If you miss
-you lose your balance and fall.
-
-A bash makes you unable to type commands for 2 rounds of violence.
-
-Note that hitting a person who is resting/sitting will inflict 1.5 * damage.
-
-See also: KICK, RESCUE, WHIRLWIND
+talk:#space docs:main fight/bash
 #0
 BITVECTORS NOBITS BITS
-
-   Bitvectors are used within the code to represent certain values or flags.
-When no flags are set it is displayed as: NOBITS. These flags include such
-things as DARK PEACEFUL INDOORS etc.
-
-   NOBITS means no flags are set.
-
+talk:#space docs:main builder/bitvectors
 #31
 BLAST SHOOT RANGED-WEAPONS FIRE-WEAPONS BOWS QUIVERS MISSILES GUNS FIREARMS AMMO
 
@@ -266,24 +181,10 @@ See @RTRIG-EXAMPLES@n
 
 #31
 BLEEDING
-
-This is what happens when you use a color code and do not finish it with @@n
-which turns it back to normal color.
-
+talk:#space docs:main builder/bleeding
 #31
 BLESS
-
-Usage       : cast 'bless' <victim | object>
-Accumulative: No
-Duration    : 6 Hours, permanent for objects.
-Level       :  level 5.
-
-Bless on a victim will improve the victims saving throw versus spells
-by 1, and furthermore improve the hitroll by 2.
-
-Bless on an item currently has no defined action.  It is only possible
-to bless non-evil items, and the object blessed may weigh no more
-than five pounds per level of caster.
+talk:#space docs:main spells/bless
 #0
 BLINDED SOMEONE INVISIBLE WIZINVIS
 
@@ -11516,7 +11417,7 @@ male PC 'Rumble'  IDNum: [ @R1@n], In room [    0]
 See also: REMOTE, RDELETE, UID, ZEDIT-REMOVE
 #31
 VIRTUAL-NUMBERS RNUM
-adv:help:builder/vnum
+talk:#space docs:main builder/vnum
 #31
 VISIBLE
 
@@ -12041,69 +11942,69 @@ GOOD: Shadows cower along the tall walls and almost seem to be moving. The
 See also: GRAMMAR
 #31
 ZEDIT
-adv:help:zedit/main
+talk:#space docs:main zedit/main
 #31
 ZEDIT-ADVANCED ADVANCED
-adv:help:zedit/advanced
+talk:#space docs:main zedit/advanced
 #31
 ZEDIT-BUILDERS
-adv:help:zedit/builders
+talk:#space docs:main zedit/builders
 #31
 ZEDIT-COMMANDS ZONE-COMMANDS ZEDITCOMMANDS ZEDIT-COMMANDLISTS COMMANDLISTS COMMAND-LISTS
-adv:help:zedit/commands
+talk:#space docs:main zedit/commands
 #31
 ZEDIT-CREATE ZEDIT-CREATION ZONE-CREATE ZONE-CREATION ZCREATE CREATE-ZONE
-adv:help:zedit/create
+talk:#space docs:main zedit/create
 #31
 ZEDIT-DELETE
-adv:help:zedit/delete
+talk:#space docs:main zedit/delete
 #0
 ZEDIT-EQUIP
-adv:help:zedit/equip
+talk:#space docs:main zedit/equip
 #31
 ZEDIT-LEVELS ZONE-LEVELS
-adv:help:zedit/levels
+talk:#space docs:main zedit/levels
 #31
 ZEDIT-MENU ZONE-EDIT ZONE-MENU
-adv:help:zedit/menu
+talk:#space docs:main zedit/menu
 #31
 ZEDIT-NEW-COMMAND ZEDIT-DOOR MOB-LOAD MOB-INVENTORY ZEDIT-NEWCOMMAND ZEDIT-LOADING ZLOADING ZEDIT-DOORS ZEDIT-REMOVE
-adv:help:zedit/new
+talk:#space docs:main zedit/new
 #31
 ZEDIT-ROOM ZEDIT-NUMBER
-adv:help:zedit/room
+talk:#space docs:main zedit/room
 #31
 ZONE-COMPLETION COMPLETED-ZONE COMPLETION
-adv:help:zones/complete
+talk:#space docs:main zones/complete
 #31
 ZONE-DELETION DELETION
-adv:help:zonedelete
+talk:#space docs:main zonedelete
 #31
 ZONE-DESCRIPTION-ROOM ZONE_DESCRIPTION_ROOM 00 EXAMPLE-ZONE-DESCRIPTIONS ZONE-INFO TEST-ZONE TRIAL-ZONE ZONE-DESCRIPTIONS ZEDIT-DESCRIPTION
-adv:help:zones/description
+talk:#space docs:main zones/description
 #31
 ZEDIT-FLAGS ZONEFLAGS ZONE-FLAGS
-adv:help:zedit/flags
+talk:#space docs:main zedit/flags
 #31
 ZONE-FORMAT ZON-FILES
-adv:help:zones/format
+talk:#space docs:main zones/format
 #31
 ZONE-SIZES SIZES
-adv:help:zones/size
+talk:#space docs:main zones/size
 #31
 ZONES
-adv:help:zones/main
+talk:#space docs:main zones/main
 #0
 ZPURGE
-adv:help:zones/purge
+talk:#space docs:main zones/purge
 #31
 ZRESET
-adv:help:zones/reset
+talk:#space docs:main zones/reset
 #31
 ZUNLOCK
-adv:help:zones/unlock
+talk:#space docs:main zones/unlock
 #31
 ZLOCK
-adv:help:zones/lock
+talk:#space docs:main zones/lock
 #31
 $~
