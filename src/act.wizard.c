@@ -813,38 +813,39 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 	  k->points.damroll, GET_SAVE(k, 0), GET_SAVE(k, 1), GET_SAVE(k, 2),
 	  GET_SAVE(k, 3), GET_SAVE(k, 4));
 
-  send_to_char(ch, "fighting: %s\r\n", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
+  send_to_char(ch, "\nfighting: %s\r", FIGHTING(k) ? GET_NAME(FIGHTING(k)) : "Nobody");
 
   if (k->desc) {
     sprinttype(STATE(k->desc), connected_types, buf, sizeof(buf));
-    send_to_char(ch, "connected: %s\r\n", buf);
+    send_to_char(ch, "\nconnected: %s\r", buf);
   }
 
   /* Showing the bitvector */
   sprintbitarray(AFF_FLAGS(k), affected_bits, AF_ARRAY_MAX, buf);
-  send_to_char(ch, "affinity: %s\r\n", buf);
+  send_to_char(ch, "\naffinity: %s\r", buf);
 
   sprinttype(GET_POS(k), position_types, buf, sizeof(buf));
-  send_to_char(ch, "pos: %s\r\n", buf);
+  send_to_char(ch, "\npos: %s\r", buf);
 
   if (IS_NPC(k)) {
-    send_to_char(ch, "attack: %s\r\n", attack_hit_text[(int) k->mob_specials.attack_type].singular);
+    send_to_char(ch, "\nattack: %s", attack_hit_text[(int) k->mob_specials.attack_type].singular);
     sprinttype(k->mob_specials.default_pos, position_types, buf, sizeof(buf));
     send_to_char(ch, "def_position: %s\r\n", buf);
 
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "mob_spec_proc: %s\r\nnpc_bhd: %dd%d\r\n",
+    send_to_char(ch, "\nmob_spec_proc: %s\r",
+      "\nnpc_bhd: %dd%d\r",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   } else {
-    send_to_char(ch, "screen: %d x %d\r\n", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
-    send_to_char(ch, "idle_timer_tics: %d\r\n", k->char_specials.timer);
+    send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
+    send_to_char(ch, "\nidle_timer_tics: %d\r", k->char_specials.timer);
     sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "player: %s\r\n", buf);
+    send_to_char(ch, "\nplayer: %s\r", buf);
 
     sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "preferences: %s\r\n", buf);
+    send_to_char(ch, "\npreferences: %s\r", buf);
 
     send_to_char(ch, "quest_points: %d\r\nquests_completed: %d\r",
        GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
@@ -855,7 +856,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
 
     sprinttype(k->player.chclass, class_types, buf, sizeof(buf));
-    send_to_char(ch, "class: %s\r\n", buf);
+    send_to_char(ch, "\nclass: %s\r", buf);
 
     char buf1[64], buf2[64];
 
