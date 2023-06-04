@@ -776,37 +776,37 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   struct follow_type *fol;
   struct affected_type *aff;
 
-  send_to_char(ch, "# %s\r\n", GET_NAME(k));
-  send_to_char(ch, "id: %5ld\r\n", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
-  send_to_char(ch, "type: %s\r\n", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
+  send_to_char(ch, "\n# %s\r", GET_NAME(k));
+  send_to_char(ch, "\nid: %5ld\r", IS_NPC(k) ? char_script_id(k) : GET_IDNUM(k));
+  send_to_char(ch, "\ntype: %s\r", (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")));
   sprinttype(GET_GENDER(k), genders, buf, sizeof(buf));
-  send_to_char(ch, "gender: %s\r\n", buf);
-  send_to_char(ch, "room: %d\r\n", GET_ROOM_VNUM(IN_ROOM(k)));
-  send_to_char(ch, "loadroom: %d\r\n", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
+  send_to_char(ch, "\ngender: %s\r", buf);
+  send_to_char(ch, "\nroom: %d\r", GET_ROOM_VNUM(IN_ROOM(k)));
+  send_to_char(ch, "\nloadroom: %d\r", IS_NPC(k) ? NOWHERE : GET_LOADROOM(k));
 
   if (IS_MOB(k)) {
-    send_to_char(ch, "vnum: %d\r\n", GET_MOB_VNUM(k));
-    send_to_char(ch, "rnum: %d\r\n", GET_MOB_RNUM(k));
-    send_to_char(ch, "keyword: %s\r\n", k->player.name);
-    send_to_char(ch, "l_desc: %s\r\n", k->player.long_descr ? k->player.long_descr : "<None>");
+    send_to_char(ch, "\nvnum: %d\r", GET_MOB_VNUM(k));
+    send_to_char(ch, "\nrnum: %d\r", GET_MOB_RNUM(k));
+    send_to_char(ch, "\nkeyword: %s\r", k->player.name);
+    send_to_char(ch, "\nl_desc: %s\r", k->player.long_descr ? k->player.long_descr : "<None>");
   }
   else {
-    send_to_char(ch, "title: %s\r\n", k->player.title ? k->player.title : "<None>");
+    send_to_char(ch, "\ntitle: %s\r", k->player.title ? k->player.title : "<None>");
   }
 
-  send_to_char(ch, "d_desc: %s\r\n", k->player.description ? k->player.description : "<None>");
-  send_to_char(ch, "hit: %d/%d+%d\r\n", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
-  send_to_char(ch, "mana: %d/%d+%d\r\n", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
-  send_to_char(ch, "move: %d/%d+%d]\r\n", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
-  send_to_char(ch, "gold: %d | %d | %d\r\n", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
-  send_to_char(ch, "level: %d\r\n", GET_LEVEL(k));
-  send_to_char(ch, "exp: %d\r\n", GET_EXP(k));
-  send_to_char(ch, "align: %d\r\n", GET_ALIGNMENT(k));
-  send_to_char(ch, "str: %d/%d\r\n", GET_STR(k), GET_ADD(k));
-  send_to_char(ch, "int: %d\r\n", GET_INT(k));
-  send_to_char(ch, "wis: %d\r\n", GET_WIS(k));
-  send_to_char(ch, "con: %d\r\n", GET_CON(k));
-  send_to_char(ch, "cha: %d\r\n", GET_CHA(k));
+  send_to_char(ch, "\nd_desc: %s\r", k->player.description ? k->player.description : "<None>");
+  send_to_char(ch, "\nhit: %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
+  send_to_char(ch, "\nmana: %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
+  send_to_char(ch, "\nmove: %d/%d+%d]\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
+  send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
+  send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
+  send_to_char(ch, "\nexp: %d\r", GET_EXP(k));
+  send_to_char(ch, "\nalign: %d\r", GET_ALIGNMENT(k));
+  send_to_char(ch, "\nstr: %d/%d\r", GET_STR(k), GET_ADD(k));
+  send_to_char(ch, "\nint: %d\r", GET_INT(k));
+  send_to_char(ch, "\nwis: %d\r", GET_WIS(k));
+  send_to_char(ch, "\ncon: %d\r", GET_CON(k));
+  send_to_char(ch, "\ncha: %d\r", GET_CHA(k));
 
   send_to_char(ch, "ac: %d%+d/10\r\nhitroll: %d\r\ndamroll: %d\r\nsaving: %d/%d/%d/%d/%d\r\n",
 	  GET_AC(k), dex_app[GET_DEX(k)].defensive, k->points.hitroll,
