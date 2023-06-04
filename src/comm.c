@@ -1177,7 +1177,7 @@ static char *make_prompt(struct descriptor_data *d)
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d",
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\{\"mana\": \"%d\", \"max\": \"%d\"\}\r",
           GET_MANA(d->character),
           GET_MAX_MANA(d->character));
 
