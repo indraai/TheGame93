@@ -1159,7 +1159,7 @@ static char *make_prompt(struct descriptor_data *d)
           len += count;
       }
       if (GET_MANA(ch) << 2 < GET_MAX_MANA(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d", GET_MANA(ch), GET_MAX_MANA(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\{\"mana\": \"%d\", \"max\": \"%d\"\}\r", GET_MANA(ch), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
