@@ -833,19 +833,18 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
     send_to_char(ch, "def_position: %s\r\n", buf);
 
     sprintbitarray(MOB_FLAGS(k), action_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\nmob_spec_proc: %s\r",
-      "\nnpc_bhd: %dd%d\r",
+    send_to_char(ch, "\nmob_spec_proc: %s\r\nnpc_bhd: %dd%d\r",
       (mob_index[GET_MOB_RNUM(k)].func ? get_spec_func_name(mob_index[GET_MOB_RNUM(k)].func) : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
 
   } else {
-    send_to_char(ch, "\nscreen: %d x %d\r", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
-    send_to_char(ch, "\nidle_timer_tics: %d\r", k->char_specials.timer);
+    send_to_char(ch, "screen: %d x %d\r\n", GET_SCREEN_WIDTH(k), GET_PAGE_LENGTH(k));
+    send_to_char(ch, "idle_timer_tics: %d\r\n", k->char_specials.timer);
     sprintbitarray(PLR_FLAGS(k), player_bits, PM_ARRAY_MAX, buf);
-    send_to_char(ch, "\nplayer: %s\r", buf);
+    send_to_char(ch, "player: %s\r\n", buf);
 
     sprintbitarray(PRF_FLAGS(k), preference_bits, PR_ARRAY_MAX, buf);
-    send_to_char(ch, "\npreferences: %s\r", buf);
+    send_to_char(ch, "preferences: %s\r\n", buf);
 
     send_to_char(ch, "quest_points: %d\r\nquests_completed: %d\r",
        GET_QUESTPOINTS(k), GET_NUM_QUESTS(k));
@@ -856,7 +855,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
 
 
     sprinttype(k->player.chclass, class_types, buf, sizeof(buf));
-    send_to_char(ch, "\nclass: %s\r", buf);
+    send_to_char(ch, "class: %s\r\n", buf);
 
     char buf1[64], buf2[64];
 
