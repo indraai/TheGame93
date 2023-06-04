@@ -1,7 +1,7 @@
 {
-  "name": "thegame93",
+  "name": "devacloud",
   "version": "0.1.0",
-  "description": "Deva.World Core",
+  "description": "Deva.Cloud Core",
   "main": "index.js",
   "directories": {
     "doc": "doc",
