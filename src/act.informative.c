@@ -972,7 +972,7 @@ ACMD(do_score)
     GET_HIT(ch), 
     GET_MAX_HIT(ch));
  
-  send_to_char(ch, "\n\{\"mana\": \"%d\", \"max\": \"%d\"\}\r", GET_MANA(ch), GET_MAX_MANA(ch));
+  send_to_char(ch, "\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
   send_to_char(ch, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
   send_to_char(ch, "\narmor: %d\r", compute_armor_class(ch));
 
