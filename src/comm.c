@@ -1154,30 +1154,30 @@ static char *make_prompt(struct descriptor_data *d)
     if (PRF_FLAGGED(d->character, PRF_DISPAUTO) && len < sizeof(prompt)) {
       struct char_data *ch = d->character;
       if (GET_HIT(ch) << 2 < GET_MAX_HIT(ch) ) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MANA(ch) << 2 < GET_MAX_MANA(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
         if (count >= 0)
           len += count;
       }
       if (GET_MOVE(ch) << 2 < GET_MAX_MOVE(ch) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
         if (count >= 0)
           len += count;
       }
 
     } else { /* not auto prompt */
       if (PRF_FLAGGED(d->character, PRF_DISPHP) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nhit: %d|%d\r", GET_HIT(d->character), GET_MAX_HIT(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nhit: %d|%d\r", GET_HIT(d->character), GET_MAX_HIT(d->character));
         if (count >= 0)
           len += count;
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMANA) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nmana: %d|%d\r",
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmana: %d|%d\r",
           GET_MANA(d->character),
           GET_MAX_MANA(d->character));
 
@@ -1186,41 +1186,41 @@ static char *make_prompt(struct descriptor_data *d)
       }
 
       if (PRF_FLAGGED(d->character, PRF_DISPMOVE) && len < sizeof(prompt)) {
-        count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nmove: %d|%d\r", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
+        count = snprintf(prompt + len, sizeof(prompt) - len, "\nmove: %d|%d\r", GET_MOVE(d->character), GET_MAX_MOVE(d->character));
         if (count >= 0)
           len += count;
       }
     }
 
     if (PRF_FLAGGED(d->character, PRF_BUILDWALK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "\n\ncomm: buildwalking\r");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: buildwalking\r");
       if (count >= 0)
         len += count;
     }
 
     if (PRF_FLAGGED(d->character, PRF_AFK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "\n\ncomm: afk\r");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: afk\r");
       if (count >= 0)
         len += count;
     }
 
      if (GET_LAST_NEWS(d->character) < newsmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\n\ncomm: news\r");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: news\r");
        if (count >= 0)
          len += count;
      }
 
      if (GET_LAST_MOTD(d->character) < motdmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\n\ncomm: motd\r");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: motd\r");
        if (count >= 0)
          len += count;
      }
 
      // SET THE HUNGER METER
      if (GET_COND(d->character, HUNGER) > 0 && len < sizeof(prompt)) {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nhunger: %d|20\r",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nhunger: %d|20\r",
          GET_COND(d->character, HUNGER));
 
        if (count >= 0) len += count;
@@ -1228,7 +1228,7 @@ static char *make_prompt(struct descriptor_data *d)
 
       // SET THE HUNGER METER
       if (GET_COND(d->character, THIRST) > 0 && len < sizeof(prompt)) {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\n\nthirst: %d|20\r",
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\nthirst: %d|20\r",
          GET_COND(d->character, THIRST));
 
        if (count >= 0) len += count;
@@ -1314,7 +1314,7 @@ size_t write_to_output(struct descriptor_data *t, const char *txt, ...)
 /* Add a new string to a player's output queue. */
 size_t vwrite_to_output(struct descriptor_data *t, const char *format, va_list args)
 {
-  const char *text_overflow = "\n\ncomm: OVERFLOW\n";
+  const char *text_overflow = "\ncomm: OVERFLOW\n";
   static char txt[MAX_STRING_LENGTH];
   size_t wantsize;
   int size;
