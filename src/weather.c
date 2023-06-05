@@ -46,7 +46,7 @@ static void another_min(int mode)
   time_info.minute++;
 
   // SEND THE TIME TO ALL EVERY MINUTE FOR WATCH SYNC
-  send_to_all("\ntime: %d:%d",
+  send_to_all("\ntime: %d:%d\r",
     time_info.hours,
     time_info.minute + 1);
 
