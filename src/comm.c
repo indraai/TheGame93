@@ -1193,27 +1193,27 @@ static char *make_prompt(struct descriptor_data *d)
     }
 
     if (PRF_FLAGGED(d->character, PRF_BUILDWALK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:buildwalking");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: buildwalking\r");
       if (count >= 0)
         len += count;
     }
 
     if (PRF_FLAGGED(d->character, PRF_AFK) && len < sizeof(prompt)) {
-      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:afk");
+      count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: afk\r");
       if (count >= 0)
         len += count;
     }
 
      if (GET_LAST_NEWS(d->character) < newsmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:news");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: news\r");
        if (count >= 0)
          len += count;
      }
 
      if (GET_LAST_MOTD(d->character) < motdmod)
      {
-       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm:motd");
+       count = snprintf(prompt + len, sizeof(prompt) - len, "\ncomm: motd\r");
        if (count >= 0)
          len += count;
      }
@@ -1314,7 +1314,7 @@ size_t write_to_output(struct descriptor_data *t, const char *txt, ...)
 /* Add a new string to a player's output queue. */
 size_t vwrite_to_output(struct descriptor_data *t, const char *format, va_list args)
 {
-  const char *text_overflow = "\nOVERFLOW\n";
+  const char *text_overflow = "\ncomm: OVERFLOW\n";
   static char txt[MAX_STRING_LENGTH];
   size_t wantsize;
   int size;
