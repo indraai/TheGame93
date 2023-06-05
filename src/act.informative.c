@@ -939,16 +939,16 @@ ACMD(do_score)
   }
 
   send_to_char(ch,
-    "\nname: %s\r"
-    "\nage: %dyrs\r"
-    "\ngender: %s\r"
-    "\nrace: %s\r"
-    "\nclass: %s\r"
-    "\nrank: %s\r"
-    "\nlevel: %d"
-    "\nexp: %d\r"
-    "\nalign:%d\r"
-    "\ngold: %d\r",
+    "\nplayer_name: %s\r"
+    "\nplayer_age: %dyrs\r"
+    "\nplayer_gender: %s\r"
+    "\nplayer_race: %s\r"
+    "\nplayer_class: %s\r"
+    "\nplayer_rank: %s\r"
+    "\nplayer_level: %d\r"
+    "\nplayer_exp: %d\r"
+    "\nplayer_align:%d\r"
+    "\nplayer_gold: %d\r",
     GET_NAME(ch),
     GET_AGE(ch),
     genders[(int) GET_GENDER(ch)],
