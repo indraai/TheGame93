@@ -962,20 +962,20 @@ ACMD(do_score)
   );
 
   if (GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\nlevelup: %d\r",
+    send_to_char(ch, "\nplayer_levelup: %d\r",
 	level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) - GET_EXP(ch));
 
-  send_to_char(ch, "\nhit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
-  send_to_char(ch, "\nmana %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
-  send_to_char(ch, "\nmove: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
-  send_to_char(ch, "\narmor: %d\r", compute_armor_class(ch));
+  send_to_char(ch, "\nplayer_hit: %d|%d\r", GET_HIT(ch), GET_MAX_HIT(ch));
+  send_to_char(ch, "\nplayer_mana: %d|%d\r", GET_MANA(ch), GET_MAX_MANA(ch));
+  send_to_char(ch, "\nplayer_move: %d|%d\r", GET_MOVE(ch), GET_MAX_MOVE(ch));
+  send_to_char(ch, "\nplayer_armor: %d\r", compute_armor_class(ch));
 
-  send_to_char(ch, "\nquests: %d|%d\r", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
+  send_to_char(ch, "\nplayer_quests: %d|%d\r", GET_NUM_QUESTS(ch), GET_QUESTPOINTS(ch));
   if (GET_QUEST(ch) == NOTHING)
-    send_to_char(ch, "\nquest:NONE\r");
+    send_to_char(ch, "\nplayer_quest:NONE\r");
   else
   {
-    send_to_char(ch, "\nquest: %s\r", QST_NAME(real_quest(GET_QUEST(ch))));
+    send_to_char(ch, "\nplayer_quest: %s\r", QST_NAME(real_quest(GET_QUEST(ch))));
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_SHOWVNUMS))
         send_to_char(ch, " [%d]", GET_QUEST(ch));
@@ -983,83 +983,83 @@ ACMD(do_score)
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-  send_to_char(ch, "\nplaying: %dd %dh\r",
+  send_to_char(ch, "\nplayer_since: %dd %dh\r",
      playing_time.day,
      playing_time.hours);
 
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    send_to_char(ch, "\npos:You are knocked out\r");
+    send_to_char(ch, "\nplayer_pos: You are knocked out\r");
     break;
   case POS_MORTALLYW:
-    send_to_char(ch, "\npos:You are wounded\r");
+    send_to_char(ch, "\nplayer_pos: You are wounded\r");
     break;
   case POS_INCAP:
-    send_to_char(ch, "\npos:Incapacitated\r");
+    send_to_char(ch, "\nplayer_pos: Incapacitated\r");
     break;
   case POS_STUNNED:
-    send_to_char(ch, "\npos:Stunned\r");
+    send_to_char(ch, "\nplayer_pos: Stunned\r");
     break;
   case POS_SLEEPING:
-    send_to_char(ch, "\npos:Sleeping\r");
+    send_to_char(ch, "\nplayer_pos: Sleeping\r");
     break;
   case POS_RESTING:
-    send_to_char(ch, "\npos:Resting\r");
+    send_to_char(ch, "\nplayer_pos: Resting\r");
     break;
   case POS_SITTING:
     if (!SITTING(ch))
-      send_to_char(ch, "\npos:Sitting\r");
+      send_to_char(ch, "\nplayer_pos: Sitting\r");
     else {
       struct obj_data *furniture = SITTING(ch);
-      send_to_char(ch, "\npos:Sitting on %s\r", furniture->short_description);
+      send_to_char(ch, "\nplayer_pos: Sitting on %s\r", furniture->short_description);
     }
     break;
   case POS_FIGHTING:
-    send_to_char(ch, "\npos:Fighting %s\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
+    send_to_char(ch, "\nplayer_pos: Fighting %s\r", FIGHTING(ch) ? PERS(FIGHTING(ch), ch) : "thin air");
     break;
   case POS_STANDING:
-    send_to_char(ch, "\npos:Standing\r");
+    send_to_char(ch, "\nplayer_pos: Standing\r");
     break;
   default:
-    send_to_char(ch, "\npos:Floating\r");
+    send_to_char(ch, "\nplayer_pos: Floating\r");
     break;
   }
 
   if (GET_COND(ch, DRUNK) > 10)
-    send_to_char(ch, "\ncond:Drunk\r");
+    send_to_char(ch, "\nplayer_cond: Drunk\r");
 
   if (GET_COND(ch, HUNGER) == 0)
-    send_to_char(ch, "\ncond:Hungry\r");
+    send_to_char(ch, "\nplayer_cond: Hungry\r");
 
   if (GET_COND(ch, THIRST) == 0)
-    send_to_char(ch, "\ncond:Thirsty\r");
+    send_to_char(ch, "\nplayer_cond: Thirsty\r");
 
   if (AFF_FLAGGED(ch, AFF_BLIND) && GET_LEVEL(ch) < LVL_IMMORT)
-    send_to_char(ch, "\naff:Blind\r");
+    send_to_char(ch, "\nplayer_aff: Blind\r");
 
   if (AFF_FLAGGED(ch, AFF_INVISIBLE))
-    send_to_char(ch, "\naff:Invisible\r");
+    send_to_char(ch, "\nplayer_aff: Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
-    send_to_char(ch, "\naff:Detect Invisible\r");
+    send_to_char(ch, "\nplayer_aff: Detect Invisible\r");
 
   if (AFF_FLAGGED(ch, AFF_SANCTUARY))
-    send_to_char(ch, "\naff:Sanctuary\r");
+    send_to_char(ch, "\nplayer_aff: Sanctuary\r");
 
   if (AFF_FLAGGED(ch, AFF_POISON))
     send_to_char(ch, "\naffr:Poisoned\r");
 
   if (AFF_FLAGGED(ch, AFF_CHARM))
-    send_to_char(ch, "\naff:Charmed.\r");
+    send_to_char(ch, "\nplayer_aff: Charmed.\r");
 
   if (affected_by_spell(ch, SPELL_ARMOR))
-    send_to_char(ch, "\naff:Protected.\r");
+    send_to_char(ch, "\nplayer_aff: Protected.\r");
 
   if (AFF_FLAGGED(ch, AFF_INFRAVISION))
-    send_to_char(ch, "\naff:Infra-Vision\r");
+    send_to_char(ch, "\nplayer_aff: Infra-Vision\r");
 
   if (PRF_FLAGGED(ch, PRF_SUMMONABLE))
-    send_to_char(ch, "\nprf:Summoned.\r");
+    send_to_char(ch, "\nplayer_prf: Summoned.\r");
 
   /*
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
@@ -1089,14 +1089,14 @@ ACMD(do_equipment)
     if (GET_EQ(ch, i)) {
       found = TRUE;
       if (CAN_SEE_OBJ(ch, GET_EQ(ch, i))) {
-        send_to_char(ch, "\nequipment:%s:%s\r", wear_where[i], GET_EQ(ch, i)->short_description);
+        send_to_char(ch, "\nequipment: %s:%s\r", wear_where[i], GET_EQ(ch, i)->short_description);
       } else {
-        send_to_char(ch, "\nequipment:%s:something\r", wear_where[i]);
+        send_to_char(ch, "\nequipment: %s:something\r", wear_where[i]);
       }
     }
   }
   if (!found)
-    send_to_char(ch, "\nequipment:No Equipment\r");
+    send_to_char(ch, "\nequipment: No Equipment\r");
 }
 
 ACMD(do_time)
@@ -1130,8 +1130,8 @@ ACMD(do_time)
     }
   }
 
-  send_to_char(ch, "\ntime:%d:%d\r"
-    "\ndate:%s - %s %d, %d\r",
+  send_to_char(ch, "\ntime: %d:%d\r"
+    "\ndate: %s - %s %d, %d\r",
     time_info.hours,
     time_info.minute,
     weekdays[weekday],
@@ -1242,7 +1242,7 @@ ACMD(do_help)
           send_to_char(ch, "\nDid you mean...\r");
           found = 1;
         }
-        send_to_char(ch, "\ntalk:#mud help %s\r", help_table[i].keywords);
+        send_to_char(ch, "\ntalk: #cloud help %s\r", help_table[i].keywords);
       }
     }
     return;
