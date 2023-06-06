@@ -377,13 +377,13 @@ static void zedit_disp_flag_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d, "\n## Zone Flags\r");
   for (i = 0; i < ZN_ARRAY_MAX; i++) {
-    write_to_output(d, "menu[%s]:%d\r\n", zone_bits[i], ++count);
+    write_to_output(d, "cloudmnu[%s]:%d\r\n", zone_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ZONE(d)->zone_flags, zone_bits, ZN_ARRAY_MAX, bits);
   write_to_output(d,
     "\nflags: %s\r"
-    "\nmenu[done]:0\r", bits);
+    "\ncloudmnu[done]:0\r", bits);
   OLC_MODE(d) = ZEDIT_ZONE_FLAGS;
 }
 
@@ -430,14 +430,14 @@ static void zedit_disp_menu(struct descriptor_data *d)
     "\n# %s\r"
 	  "\nvnum: %d\r"
     "\nzone: %d\r"
-	  "\nselect[a:builder]: %s\r"
-	  "\nselect[b:name]: %s\r"
-	  "\nselect[c:lifespan]: %d\r"
-	  "\nselect[d:zone begin]: %d\r"
-	  "\nselect[e:zone end]: %d\r"
-    "\nselect[f:zone flags]: %s\r"
-	  "\nselect[g:reset mode]: %s\r"
-	  "\nselect[h:level range]: %s\r"
+	  "\ncloudsel[a:builder]: %s\r"
+	  "\ncloudsel[b:name]: %s\r"
+	  "\ncloudsel[c:lifespan]: %d\r"
+	  "\ncloudsel[d:zone begin]: %d\r"
+	  "\ncloudsel[e:zone end]: %d\r"
+    "\ncloudsel[f:zone flags]: %s\r"
+	  "\ncloudsel[g:reset mode]: %s\r"
+	  "\ncloudsel[h:level range]: %s\r"
 	  "\n## Actions\r",
 
     OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "None.",
@@ -540,11 +540,11 @@ static void zedit_disp_menu(struct descriptor_data *d)
   /* Finish off menu */
    write_to_output(d,
     "\n::begin:buttons\r"
-	  "\nbmud[New Action]:1\r"
-	  "\nbmud[Edit Action]:2\r"
-	  "\nbmud[Delete Action]:3\r"
+	  "\ncloudbtn[New Action]:1\r"
+	  "\ncloudbtn[Edit Action]:2\r"
+	  "\ncloudbtn[Delete Action]:3\r"
     "\n::end:buttons\r"
-	  "\nmenu[quit]:0\r");
+	  "\ncloudmnu[quit]:0\r");
 
   OLC_MODE(d) = ZEDIT_MAIN_MENU;
 }
@@ -556,15 +556,15 @@ static void zedit_disp_comtype(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
   "\n## Action Type\r"
-  "\nmenu[Load Agent]:m\r"
-  "\nmenu[Equip Agent Object]:e\r"
-  "\nmenu[Give Agent Object]:g"
-  "\nmenu[Load Object]:o\r"
-  "\nmenu[Load Object in Object]:p\r"
-  "\nmenu[Remove Object]:r\r"
-  "\nmenu[Open/Close/Lock Door]:d\r"
-  "\nmenu[Assign Trigger]:t\r"
-  "\nmenu[Global Variable]:v\r"
+  "\ncloudmnu[Load Agent]:m\r"
+  "\ncloudmnu[Equip Agent Object]:e\r"
+  "\ncloudmnu[Give Agent Object]:g"
+  "\ncloudmnu[Load Object]:o\r"
+  "\ncloudmnu[Load Object in Object]:p\r"
+  "\ncloudmnu[Remove Object]:r\r"
+  "\ncloudmnu[Open/Close/Lock Door]:d\r"
+  "\ncloudmnu[Assign Trigger]:t\r"
+  "\ncloudmnu[Global Variable]:v\r"
 	);
   OLC_MODE(d) = ZEDIT_COMMAND_TYPE;
 }
@@ -596,9 +596,9 @@ static void zedit_disp_arg1(struct descriptor_data *d)
   case 'T':
   case 'V':
     write_to_output(d, "\n## Trigger Type\r"
-      "\nmenu[Agent]:0\r"
-      "\nmenu[Object]:1\r"
-      "\nmenu[Room]:2\r"
+      "\ncloudmnu[Agent]:0\r"
+      "\ncloudmnu[Object]:1\r"
+      "\ncloudmnu[Room]:2\r"
     );
     OLC_MODE(d) = ZEDIT_ARG1;
     break;
@@ -631,7 +631,7 @@ static void zedit_disp_arg2(struct descriptor_data *d)
     write_to_output(d, "\n## Exit Direction\r"
       "\n::begin:buttons\r");
     for (i = 0; *dirs[i] != '\n'; i++) {
-      write_to_output(d, "\nbmud[%s]:%d\r", dirs[i], i);
+      write_to_output(d, "\ncloudbtn[%s]:%d\r", dirs[i], i);
     }
     write_to_output(d, "::end:buttons");
 
@@ -671,7 +671,7 @@ static void zedit_disp_arg3(struct descriptor_data *d)
       "\n::begin:buttons\r");
 
     for (i = 0; i < NUM_WEARS; i++) {
-      write_to_output(d, "\nbmud[%s]:%d\r", equipment_types[i], ++count);
+      write_to_output(d, "\ncloudbtn[%s]:%d\r", equipment_types[i], ++count);
     }
 
     write_to_output(d, "\n::end:buttons\r");
@@ -682,9 +682,9 @@ static void zedit_disp_arg3(struct descriptor_data *d)
   case 'D':
     write_to_output(d,
     "\n## Door State\r"
-    "\nmenu[Door Open]:0\r"
-		"\nmenu[Door Closed]:1\r"
-		"\nmenu[Door Locked]:2\r");
+    "\ncloudmnu[Door Open]:0\r"
+		"\ncloudmnu[Door Closed]:1\r"
+		"\ncloudmnu[Door Locked]:2\r");
     break;
   case 'V':
   case 'T':
@@ -716,10 +716,10 @@ static void zedit_disp_levels(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	"\n## Recommendations\r\n"
-	"\nmenu[Min Level]:1\r"
-	"\nmenu[Max Level]:2\r"
-	"\nmenu[Clear Level]:3\r"
-	"\nmenu[quit]:0\r"
+	"\ncloudmnu[Min Level]:1\r"
+	"\ncloudmnu[Max Level]:2\r"
+	"\ncloudmnu[Clear Level]:3\r"
+	"\ncloudmnu[quit]:0\r"
   "\n%s\r", lev_string);
   OLC_MODE(d) = ZEDIT_LEVELS;
 }
@@ -822,9 +822,9 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       /* Edit zone reset mode. */
       write_to_output(d,
         "\n## Zone Reset\r"
-	      "\nmenu[never]:0\r"
-	      "\nmenu[no players]:1\r"
-	      "\nmenu[normal]:2\r");
+	      "\ncloudmnu[never]:0\r"
+	      "\ncloudmnu[no players]:1\r"
+	      "\ncloudmnu[normal]:2\r");
       OLC_MODE(d) = ZEDIT_ZONE_RESET;
       break;
     case 'h':

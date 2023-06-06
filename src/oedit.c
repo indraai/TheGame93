@@ -299,12 +299,12 @@ static void oedit_disp_container_flags_menu(struct descriptor_data *d)
   sprintbit(GET_OBJ_VAL(OLC_OBJ(d), 1), container_bits, bits, sizeof(bits));
   write_to_output(d,
     "\n## Flags\r"
-	  "\nmenu[closeable]:1\r"
-	  "\nmenu[pickproof]:2\r"
-	  "\nmenu[closed]:3\r"
-	  "\nmenu[locked]:4\r"
+	  "\ncloudmnu[closeable]:1\r"
+	  "\ncloudmnu[pickproof]:2\r"
+	  "\ncloudmnu[closed]:3\r"
+	  "\ncloudmnu[locked]:4\r"
 	  "\nflags: %s\r"
-    "\nmenu[done]:0\r",
+    "\ncloudmnu[done]:0\r",
 	  bits);
 }
 
@@ -317,12 +317,12 @@ static void oedit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
 	  "\n## Tags\r"
-	  "\nselect[1:tag]:%s\r"
-	  "\nselect[2:describe]:%s\r"
+	  "\ncloudsel[1:tag]:%s\r"
+	  "\ncloudsel[2:describe]:%s\r"
     "::begin:buttons"
-	  "\nbmud[%s]:3\r"
+	  "\ncloudbtn[%s]:3\r"
     "::end:buttons"
-	  "\nmenu[done]:0\r",
+	  "\ncloudmnu[done]:0\r",
 
  	  (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "[none]",
     (extra_desc->description && *extra_desc->description) ? extra_desc->description : "[none]",
@@ -345,17 +345,17 @@ static void oedit_disp_prompt_apply_menu(struct descriptor_data *d)
   for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
     if (OLC_OBJ(d)->affected[counter].modifier) {
       sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, apply_buf, sizeof(apply_buf));
-      write_to_output(d, "\nbmud[%d to %s]:%d\r",
+      write_to_output(d, "\ncloudbtn[%d to %s]:%d\r",
 	      OLC_OBJ(d)->affected[counter].modifier,
         apply_buf,
         counter + 1);
     } else {
-      write_to_output(d, "\nmenu[None]:%d\r", counter + 1);
+      write_to_output(d, "\ncloudmnu[None]:%d\r", counter + 1);
     }
   }
 
   write_to_output(d, "\n::end:buttons\r"
-    "\nmenu[done]:0\r");
+    "\ncloudmnu[done]:0\r");
 
   OLC_MODE(d) = OEDIT_PROMPT_APPLY;
 }
@@ -370,10 +370,10 @@ static void oedit_liquid_type(struct descriptor_data *d)
     "\n::begin:buttons\r");
   // column_list(d->character, 0, drinks, NUM_LIQ_TYPES, TRUE);
   for (i = 0; i < NUM_LIQ_TYPES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", drinks[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", drinks[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r"
-    "\nmenu[done]:0\r");
+    "\ncloudmnu[done]:0\r");
   OLC_MODE(d) = OEDIT_VALUE_3;
 }
 
@@ -387,10 +387,10 @@ static void oedit_disp_apply_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
   // column_list(d->character, 0, apply_types, NUM_APPLIES, TRUE);
   for (i = 0; i < NUM_APPLIES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", apply_types[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", apply_types[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r"
-    "\nmenu[done]:0\r");
+    "\ncloudmnu[done]:0\r");
   OLC_MODE(d) = OEDIT_APPLY;
 }
 
@@ -420,7 +420,7 @@ static void oedit_disp_spells_menu(struct descriptor_data *d)
   clear_screen(d);
 
   for (counter = 1; counter <= NUM_SPELLS; counter++) {
-    write_to_output(d, "\nmenu[%s]:%d\r",
+    write_to_output(d, "\ncloudmnu[%s]:%d\r",
       spell_info[counter].name,
       counter
     );
@@ -584,10 +584,10 @@ static void oedit_disp_type_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", item_types[i], count++);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", item_types[i], count++);
   }
   write_to_output(d, "\n::end:buttons:\r"
-    "\nmenu[done]:0\r");
+    "\ncloudmnu[done]:0\r");
 }
 
 /* Object extra flags. */
@@ -603,14 +603,14 @@ static void oedit_disp_extra_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_FLAGS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", extra_bits[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", extra_bits[i], ++count);
   }
 
   sprintbitarray(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, EF_ARRAY_MAX, bits);
 
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\nmenu[done]:0\r",
+    "\ncloudmnu[done]:0\r",
     bits
   );
 }
@@ -628,13 +628,13 @@ static void oedit_disp_perm_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", affected_bits[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", affected_bits[i], ++count);
   }
 
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, bits);
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\nmenu[quit]:0\r",
+    "\ncloudmnu[quit]:0\r",
     bits);
 }
 
@@ -650,12 +650,12 @@ static void oedit_disp_wear_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ITEM_WEARS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", wear_bits[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", wear_bits[i], ++count);
   }
   sprintbitarray(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, TW_ARRAY_MAX, bits);
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\nmenu[quit]:0\r",
+    "\ncloudmnu[quit]:0\r",
     bits);
 }
 
@@ -677,12 +677,12 @@ static void oedit_disp_menu(struct descriptor_data *d)
   /* Build first half of menu. */
   write_to_output(d,
     "\n# Object: %d\r"
-	  "\nselect[a:keywords]:%s\r"
-	  "\nselect[b:name]:%s\r"
-	  "\nselect[c:avatar]:%s\r"
-	  "\nselect[d:look]:%s\r"
-	  "\nselect[e:type]:%s\r"
-	  "\nselect[f:flags]:%s\r",
+	  "\ncloudsel[a:keywords]:%s\r"
+	  "\ncloudsel[b:name]:%s\r"
+	  "\ncloudsel[c:avatar]:%s\r"
+	  "\ncloudsel[d:look]:%s\r"
+	  "\ncloudsel[e:type]:%s\r"
+	  "\ncloudsel[f:flags]:%s\r",
 	  OLC_NUM(d),
 	  (obj->name && *obj->name) ? obj->name : "undefined",
 	  (obj->short_description && *obj->short_description) ? obj->short_description : "undefined",
@@ -697,22 +697,22 @@ static void oedit_disp_menu(struct descriptor_data *d)
   sprintbitarray(GET_OBJ_AFFECT(OLC_OBJ(d)), affected_bits, EF_ARRAY_MAX, buf2);
 
   write_to_output(d,
-	  "\nselect[g:wear]:%s\r"
-    "\nselect[h:affects]:%s\r"
-	  "\nselect[i:weight]:%d\r"
-	  "\nselect[j:cost]:%d\r"
-	  "\nselect[k:rent]:%d\r"
-	  "\nselect[l:timer]:%d\r"
-    "\nselect[m:min level]:%d\r"
-	  "\nselect[n:liquid]:%d %d %d %d\r"
+	  "\ncloudsel[g:wear]:%s\r"
+    "\ncloudsel[h:affects]:%s\r"
+	  "\ncloudsel[i:weight]:%d\r"
+	  "\ncloudsel[j:cost]:%d\r"
+	  "\ncloudsel[k:rent]:%d\r"
+	  "\ncloudsel[l:timer]:%d\r"
+    "\ncloudsel[m:min level]:%d\r"
+	  "\ncloudsel[n:liquid]:%d %d %d %d\r"
     "\n::begin:buttons\r"
-    "\nbmud[tags%s]:1\r"
-	  "\nbmud[triggers%s]:2\r"
-    "\nbmud[applies to]:3\r"
-    "\nbmud[copy object]:4\r"
-    "\nbmud[delete object]:5\r"
+    "\ncloudbtn[tags%s]:1\r"
+	  "\ncloudbtn[triggers%s]:2\r"
+    "\ncloudbtn[applies to]:3\r"
+    "\ncloudbtn[copy object]:4\r"
+    "\ncloudbtn[delete object]:5\r"
     "\n::end:buttons\r"
-	  "\nmenu[quit]:0\r",
+	  "\ncloudmnu[quit]:0\r",
 	  buf1,                  //wear
     buf2,                 // affects
 	  GET_OBJ_WEIGHT(obj),  //weight

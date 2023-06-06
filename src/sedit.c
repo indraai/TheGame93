@@ -232,10 +232,10 @@ static void sedit_products_menu(struct descriptor_data *d)
 	    obj_proto[S_PRODUCT(shop, i)].short_description);
   }
   write_to_output(d, "\n::begin:buttons\r"
-    "\nbmud[Add Product]:a\r"
-	  "\nbmud[Delete Product]:b\r"
+    "\ncloudbtn[Add Product]:a\r"
+	  "\ncloudbtn[Delete Product]:b\r"
     "\n::end:buttons\r"
-	  "\nmenu[done]:0\r"
+	  "\ncloudmnu[done]:0\r"
   );
 
   OLC_MODE(d) = SEDIT_PRODUCTS_MENU;
@@ -264,10 +264,10 @@ static void sedit_rooms_menu(struct descriptor_data *d)
       world[rnum].name);
   }
   write_to_output(d, "\n::begin:buttons"
-    "\nbmud[Add Store Room]:1\r"
-	  "\nbmud[Delete Store Room]:2\r"
+    "\ncloudbtn[Add Store Room]:1\r"
+	  "\ncloudbtn[Delete Store Room]:2\r"
     "\n::end:buttons\r"
-	  "\rmenu[done]:0\r");
+	  "\rcloudmnu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_ROOMS_MENU;
 }
@@ -288,10 +288,10 @@ static void sedit_namelist_menu(struct descriptor_data *d)
     S_BUYWORD(shop, i) ? S_BUYWORD(shop, i) : "[None]");
   }
   write_to_output(d, "\n::begin:buttons\r"
-	  "\nbmud[New Entry]:1\r"
-	  "\nbmud[Delete Entry]:2\r"
+	  "\ncloudbtn[New Entry]:1\r"
+	  "\ncloudbtn[Delete Entry]:2\r"
     "\n::end:buttons\r"
-	  "\nmenu[done]:0\r");
+	  "\ncloudmnu[done]:0\r");
 
   OLC_MODE(d) = SEDIT_NAMELIST_MENU;
 }
@@ -307,14 +307,14 @@ static void sedit_shop_flags_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_SHOP_FLAGS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r",
+    write_to_output(d, "\ncloudbtn[%s]:%d\r",
     shop_bits[i],
     ++count);
   }
   sprintbit(S_BITVECTOR(OLC_SHOP(d)), shop_bits, bits, sizeof(bits));
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\nmenu[done]:0\r", bits);
+    "\ncloudmnu[done]:0\r", bits);
   OLC_MODE(d) = SEDIT_SHOP_FLAGS;
 }
 
@@ -329,14 +329,14 @@ static void sedit_no_trade_menu(struct descriptor_data *d)
 
   for (i = 0; i < NUM_TRADERS; i++) {
     write_to_output(d,
-    "\nbmud[%s]:%d\r",
+    "\ncloudbtn[%s]:%d\r",
      trade_letters[i],
      ++count);
   }
   sprintbit(S_NOTRADE(OLC_SHOP(d)), trade_letters, bits, sizeof(bits));
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\nmenu[done]:0\r",
+    "\ncloudmnu[done]:0\r",
     bits);
   OLC_MODE(d) = SEDIT_NOTRADE;
 }
@@ -350,7 +350,7 @@ static void sedit_types_menu(struct descriptor_data *d)
 
   clear_screen(d);
   for (i = 0; i < NUM_ITEM_TYPES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d",
+    write_to_output(d, "\ncloudbtn[%s]:%d",
       item_types[i],
       i);
   }
@@ -372,32 +372,32 @@ static void sedit_disp_menu(struct descriptor_data *d)
   sprintbit(S_BITVECTOR(shop), shop_bits, buf2, sizeof(buf2));
   write_to_output(d,
 	  "\n# Shop: %d\r"
-	  "\nselect[a:keeper]:%d - %s\r"
-    "\nselect[b:Open 1]:%d\r"
-    "\nselect[c:Close 1]:%d\r"
-    "\nselect[d:Open 2]:%d\r"
-    "\nselect[e:Close 2]:%d\r"
-    "\nselect[f:Buy Success]:%s\r"
-	  "\nselect[g:Buy Profit]:%1.2f\r"
-    "\nselect[h:Sell Success]:%s\r"
-    "\nselect[i:Sell Profit]:%1.2f\r"
-	  "\nselect[j:No Trade]:%s\r"
-	  "\nselect[k:Shop flags]:%s\r"
+	  "\ncloudsel[a:keeper]:%d - %s\r"
+    "\ncloudsel[b:Open 1]:%d\r"
+    "\ncloudsel[c:Close 1]:%d\r"
+    "\ncloudsel[d:Open 2]:%d\r"
+    "\ncloudsel[e:Close 2]:%d\r"
+    "\ncloudsel[f:Buy Success]:%s\r"
+	  "\ncloudsel[g:Buy Profit]:%1.2f\r"
+    "\ncloudsel[h:Sell Success]:%s\r"
+    "\ncloudsel[i:Sell Profit]:%1.2f\r"
+	  "\ncloudsel[j:No Trade]:%s\r"
+	  "\ncloudsel[k:Shop flags]:%s\r"
     "\n## No Item\r"
-	  "\nselect[l:keeper]:%s\r"
-	  "\nselect[m:player]:%s\r"
+	  "\ncloudsel[l:keeper]:%s\r"
+	  "\ncloudsel[m:player]:%s\r"
     "\n## No Cash\r"
-	  "\nselect[n:keeper]:%s\r"
-	  "\nselect[o:player]:%s\r"
+	  "\ncloudsel[n:keeper]:%s\r"
+	  "\ncloudsel[o:player]:%s\r"
     "\n## No Buy"
-	  "\nselect[p:keeper]:%s\r"
+	  "\ncloudsel[p:keeper]:%s\r"
     "\n::begin:buttons\r"
-	  "\nbmud[products]:1\r"
-    "\nbmud[rooms]:2\r"
-	  "\nbmud[types]:3\r"
-    "\nbmud[copy]:4\r"
+	  "\ncloudbtn[products]:1\r"
+    "\ncloudbtn[rooms]:2\r"
+	  "\ncloudbtn[types]:3\r"
+    "\ncloudbtn[copy]:4\r"
     "\n::end:buttons\r"
-	  "\nmenu[quit]:0\r",
+	  "\ncloudmnu[quit]:0\r",
 	  OLC_NUM(d),
 	  S_KEEPER(shop) == NOBODY ? -1 : mob_index[S_KEEPER(shop)].vnum,
 	  S_KEEPER(shop) == NOBODY ? "None" : mob_proto[S_KEEPER(shop)].player.short_descr,

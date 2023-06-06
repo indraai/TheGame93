@@ -298,35 +298,35 @@ static void qedit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
     "\n## Quest: %d\r"
-    "\nselect[1:name]: %s\r"
-    "\nselect[2:desc]: %s\r"
-    "\nselect[8:master]: %d %s\r"
-    "\nselect[6:flags]: %s\r"
-    "\nselect[7:type]: %s %s\r"
-    "\nselect[9:target]: %d %s\r"
-    "\nselect[A:quantity]: %d\r"
+    "\ncloudsel[1:name]: %s\r"
+    "\ncloudsel[2:desc]: %s\r"
+    "\ncloudsel[8:master]: %d %s\r"
+    "\ncloudsel[6:flags]: %s\r"
+    "\ncloudsel[7:type]: %s %s\r"
+    "\ncloudsel[9:target]: %d %s\r"
+    "\ncloudsel[A:quantity]: %d\r"
     "\n### Messages\r"
-    "\nselect[3:accept]: %s\r"
-    "\nselect[4:complete]: %s\r"
-    "\nselect[5:quit]: %s\r"
+    "\ncloudsel[3:accept]: %s\r"
+    "\ncloudsel[4:complete]: %s\r"
+    "\ncloudsel[5:quit]: %s\r"
     "\n### Rewards\r"
-    "\nselect[B:completed]: %d"
-    "\nselect[C:abandoned]: %d\r"
-    "\nselect[G:gold coins]: %d\r"
-    "\nselect[T:exp points]: %d\r"
-    "\nselect[O:object]: %d\r"
+    "\ncloudsel[B:completed]: %d"
+    "\ncloudsel[C:abandoned]: %d\r"
+    "\ncloudsel[G:gold coins]: %d\r"
+    "\ncloudsel[T:exp points]: %d\r"
+    "\ncloudsel[O:object]: %d\r"
     "\n### Limits\r"
-    "\nselect[D:lower level]: %d\r"
-    "\nselect[E:upper level]: %d\r"
-    "\nselect[F:prerequesite]: %d %s\r"
-    "\nselect[L:time limit]: %d\r"
+    "\ncloudsel[D:lower level]: %d\r"
+    "\ncloudsel[E:upper level]: %d\r"
+    "\ncloudsel[F:prerequesite]: %d %s\r"
+    "\ncloudsel[L:time limit]: %d\r"
     "\n### Flow\r"
-    "\nselect[P:prev]: %d %s\r"
-    "\nselect[N:next]: %d %s\r"
+    "\ncloudsel[P:prev]: %d %s\r"
+    "\ncloudsel[N:next]: %d %s\r"
     "\n::begin:buttons\r"
-    "\nbmud[delete quest]:X\r"
+    "\ncloudbtn[delete quest]:X\r"
     "\n::end:buttons\r"
-    "\nmenu[quit]:Q\r",
+    "\ncloudmnu[quit]:Q\r",
     quest->vnum,
     quest->name,
     quest->desc,
@@ -366,7 +366,7 @@ static void qedit_disp_type_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_AQ_TYPES; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", quest_types[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", quest_types[i], ++count);
   }
 
   write_to_output(d, "\n::end:buttons\r");

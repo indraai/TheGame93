@@ -319,12 +319,12 @@ static void redit_disp_extradesc_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Tags\r"
-	  "\nselect[1:keywords]:%s\r"
-	  "\nselect[2:describe]:%s\r"
+	  "\ncloudsel[1:keywords]:%s\r"
+	  "\ncloudsel[2:describe]:%s\r"
     "\n::begin:buttons\r"
-    "\nbmud[next tag]:3\r"
+    "\ncloudbtn[next tag]:3\r"
     "\n::end:buttons\r"
-    "\nmenu[done]:0\r",
+    "\ncloudmnu[done]:0\r",
 	  extra_desc->keyword ? extra_desc->keyword : "[none]",
     extra_desc->description ? extra_desc->description : "[none]"
     // !extra_desc->next ? "not set..." : "set..."
@@ -360,15 +360,15 @@ static void redit_disp_exit_menu(struct descriptor_data *d)
   clear_screen(d);
   write_to_output(d,
     "\n## Exit"
-	  "\nselect[a:exit to]:%d\r"
-    "\nselect[b:name]:%s\r"
-	  "\nselect[c:describe]:%s\r"
-	  "\nselect[d:key]:%d\r"
-	  "\nselect[e:flags]:%s\r"
+	  "\ncloudsel[a:exit to]:%d\r"
+    "\ncloudsel[b:name]:%s\r"
+	  "\ncloudsel[c:describe]:%s\r"
+	  "\ncloudsel[d:key]:%d\r"
+	  "\ncloudsel[e:flags]:%s\r"
     "\n::begin:buttons\r"
-	  "\nbmud[delete exit]:1\r"
+	  "\ncloudbtn[delete exit]:1\r"
     "\n::end:buttons\r"
-	  "\nmenu[done]:0",
+	  "\ncloudmnu[done]:0",
 	  OLC_EXIT(d)->to_room != NOWHERE ? world[OLC_EXIT(d)->to_room].number : -1,
     OLC_EXIT(d)->keyword ? OLC_EXIT(d)->keyword : "[none]",
 	  OLC_EXIT(d)->general_description ? OLC_EXIT(d)->general_description : "[none]",
@@ -386,11 +386,11 @@ static void redit_disp_exit_flag_menu(struct descriptor_data *d)
   write_to_output(d,
     "\n## Doors\r"
     "\n::begin:buttons\r"
-    "\nbmud[no door]:0\r"
-	  "\nbmud[closable door]:1\r"
-    "\nbmud[pickproof door]:2\r"
-    "\nbmud[hidden door]:3\r"
-    "\nbmud[hidden pickproof door]:4\r"
+    "\ncloudbtn[no door]:0\r"
+	  "\ncloudbtn[closable door]:1\r"
+    "\ncloudbtn[pickproof door]:2\r"
+    "\ncloudbtn[hidden door]:3\r"
+    "\ncloudbtn[hidden pickproof door]:4\r"
     "\n::end:buttons\r"
   );
 }
@@ -407,13 +407,13 @@ static void redit_disp_flag_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
   // column_list(d->character, 0, room_bits, NUM_ROOM_FLAGS, TRUE);
   for (i = 0; i < NUM_ROOM_FLAGS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d", room_bits[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d", room_bits[i], ++count);
   }
 
   sprintbitarray(OLC_ROOM(d)->room_flags, room_bits, RF_ARRAY_MAX, bits);
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\nmenu[done]:0\r", bits);
+    "\ncloudmnu[done]:0\r", bits);
 
   OLC_MODE(d) = REDIT_FLAGS;
 }
@@ -434,7 +434,7 @@ static void redit_disp_sector_menu(struct descriptor_data *d)
     "\n::begin:buttons\r");
 
   for (i = 0; i < NUM_ROOM_SECTORS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r", sector_types[i], ++count);
+    write_to_output(d, "\ncloudbtn[%s]:%d\r", sector_types[i], ++count);
   }
 
   sprinttype(room->sector_type, sector_types, bits, sizeof(bits));
@@ -459,10 +459,10 @@ static void redit_disp_menu(struct descriptor_data *d)
   sprinttype(room->sector_type, sector_types, buf2, sizeof(buf2));
   write_to_output(d,
     "\n# Room: %d\r"
-    "\nselect[a:name]:%s\r"
-    "\nselect[b:describe]:%s\r"
-    "\nselect[c:flags]:%s\r"
-    "\nselect[d:type]:%s\r",
+    "\ncloudsel[a:name]:%s\r"
+    "\ncloudsel[b:describe]:%s\r"
+    "\ncloudsel[c:flags]:%s\r"
+    "\ncloudsel[d:type]:%s\r",
     OLC_NUM(d),
     room->name,         //name
     room->description,  // describe
@@ -473,12 +473,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[e:north]:%d\r"
-      "\nselect[f:east]:%d\r"
-      "\nselect[g:south]:%d\r"
-      "\nselect[h:west]:%d\r"
-      "\nselect[i:up]:%d\r"
-      "\nselect[j:down]:%d\r",
+      "\ncloudsel[e:north]:%d\r"
+      "\ncloudsel[f:east]:%d\r"
+      "\ncloudsel[g:south]:%d\r"
+      "\ncloudsel[h:west]:%d\r"
+      "\ncloudsel[i:up]:%d\r"
+      "\ncloudsel[j:down]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -495,16 +495,16 @@ static void redit_disp_menu(struct descriptor_data *d)
   } else {
     write_to_output(d,
       "\n## Exits\r"
-      "\nselect[e:north]:%d\r"
-      "\nselect[f:east]:%d\r"
-      "\nselect[g:south]:%d\r"
-      "\nselect[h:west]:%d\r"
-      "\nselect[i:up]:%d\r"
-      "\nselect[j:down]:%d\r"
-      "\nselect[k:north-west]:%d\r"
-      "\nselect[l:north-east]:%d\r"
-      "\nselect[m:south-east]:%d\r"
-      "\nselect[n:south-west]:%d\r",
+      "\ncloudsel[e:north]:%d\r"
+      "\ncloudsel[f:east]:%d\r"
+      "\ncloudsel[g:south]:%d\r"
+      "\ncloudsel[h:west]:%d\r"
+      "\ncloudsel[i:up]:%d\r"
+      "\ncloudsel[j:down]:%d\r"
+      "\ncloudsel[k:north-west]:%d\r"
+      "\ncloudsel[l:north-east]:%d\r"
+      "\ncloudsel[m:south-east]:%d\r"
+      "\ncloudsel[n:south-west]:%d\r",
       room->dir_option[NORTH] && room->dir_option[NORTH]->to_room != NOWHERE ?
       world[room->dir_option[NORTH]->to_room].number : -1,
       room->dir_option[EAST] && room->dir_option[EAST]->to_room != NOWHERE ?
@@ -529,12 +529,12 @@ static void redit_disp_menu(struct descriptor_data *d)
   }
   write_to_output(d,
       "\n::begin:buttons\r"
-      "\nbmud[tags%s]:1\r"
-      "\nbmud[triggers%s]:2\r"
-      "\nbmud[copy room]:3\r"
-      "\nbmud[delete room]:4\r"
+      "\ncloudbtn[tags%s]:1\r"
+      "\ncloudbtn[triggers%s]:2\r"
+      "\ncloudbtn[copy room]:3\r"
+      "\ncloudbtn[delete room]:4\r"
       "\n::end:buttons\r"
-      "\nmenu[quit]:0\r",
+      "\ncloudmnu[quit]:0\r",
       OLC_ROOM(d)->ex_description ? "*" : "",
       OLC_SCRIPT(d) ? "*" : ""
     );

@@ -797,7 +797,7 @@ static void do_stat_character(struct char_data *ch, struct char_data *k)
   send_to_char(ch, "\nd_desc: %s\r", k->player.description ? k->player.description : "<None>");
   send_to_char(ch, "\nhit: %d/%d+%d\r", GET_HIT(k), GET_MAX_HIT(k), hit_gain(k));
   send_to_char(ch, "\nmana: %d/%d+%d\r", GET_MANA(k), GET_MAX_MANA(k), mana_gain(k));
-  send_to_char(ch, "\nmove: %d/%d+%d]\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
+  send_to_char(ch, "\nmove: %d/%d+%d\r", GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k));
   send_to_char(ch, "\ngold: %d | %d | %d\r", GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
   send_to_char(ch, "\nlevel: %d\r", GET_LEVEL(k));
   send_to_char(ch, "\nexp: %d\r", GET_EXP(k));

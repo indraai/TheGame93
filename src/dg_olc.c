@@ -205,16 +205,16 @@ static void trigedit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Trigger: %d\r"
-  "\nselect[a:name]:%s\r"
-  "\nselect[b:attach]:%s\r"
-  "\nselect[c:types]:%s\r"
-  "\nselect[d:num arg]:%d\r"
-  "\nselect[e:arguments]:%s\r"
+  "\ncloudsel[a:name]:%s\r"
+  "\ncloudsel[b:attach]:%s\r"
+  "\ncloudsel[c:types]:%s\r"
+  "\ncloudsel[d:num arg]:%d\r"
+  "\ncloudsel[e:arguments]:%s\r"
   "\n::begin:buttons"
-  "\nbmud[edit code]:1\r"
-  "\nbmud[copy trigger]:2\r"
+  "\ncloudbtn[edit code]:1\r"
+  "\ncloudbtn[copy trigger]:2\r"
   "\n::end:buttons"
-  "\nmenu[quit]:0\r",
+  "\ncloudmnu[quit]:0\r",
   OLC_NUM(d), 			                    /* vnum on the title line */
   GET_TRIG_NAME(trig),		              /* name                   */
   attach_type,			                    /* attach type            */
@@ -251,7 +251,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
   write_to_output(d, "\n## Attach\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_TRIG_TYPE_FLAGS; i++) {
-    write_to_output(d, "\nbmud[%s]:%d\r",
+    write_to_output(d, "\ncloudbtn[%s]:%d\r",
       types[i],
       i + 1
     );
@@ -259,7 +259,7 @@ static void trigedit_disp_types(struct descriptor_data *d)
   sprintbit(GET_TRIG_TYPE(OLC_TRIG(d)), types, bitbuf, sizeof(bitbuf));
   write_to_output(d, "\n::end:buttons\r"
     "\nbits:%s\r"
-    "\nmenu[quit]:0\r",
+    "\ncloudmnu[quit]:0\r",
     bitbuf
   );
 
@@ -295,9 +295,9 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
          OLC_MODE(d) = TRIGEDIT_INTENDED;
          write_to_output(d, "\n## Attach\r"
          "\n::begin:buttons\r"
-          "\nbmud[Agents]:0\r"
-          "\nbmud[Objects]:1\r"
-          "\nbmud[Rooms]:2\r"
+          "\ncloudbtn[Agents]:0\r"
+          "\ncloudbtn[Objects]:1\r"
+          "\ncloudbtn[Rooms]:2\r"
           "\n::end:buttons\r");
          break;
        case 'c':
@@ -760,10 +760,10 @@ void dg_script_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n::begin:buttons\r"
-    "\nbmud[attach]:1\r"
-    "\nbmud[detach]:2\r"
+    "\ncloudbtn[attach]:1\r"
+    "\ncloudbtn[detach]:2\r"
     "\n::end:buttons\r"
-    "\nmenu[done]:0\r");
+    "\ncloudmnu[done]:0\r");
 }
 
 int dg_script_edit_parse(struct descriptor_data *d, char *arg)
