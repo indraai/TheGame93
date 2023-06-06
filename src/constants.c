@@ -21,8 +21,8 @@
 #include "constants.h"
 
 cpp_extern const char *confirm_msg = "\np:Do you wish to save your changes?\r"
-  "\nconfirm[yes]:yes\r"
-  "\nconfirm[no]:no\r";
+  "\ncloudconf[yes]:yes\r"
+  "\ncloudconf[no]:no\r";
 
 cpp_extern const char *confirm_btn = "\nconfirm[yes]:yes\r\nconfirm[no]:no\r";
 
