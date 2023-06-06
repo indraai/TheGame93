@@ -586,13 +586,13 @@ static void cedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header. */
   write_to_output(d,
-  	  "# Config Editor\r\n"
-  	  "menu[Game Play]:a\r\n"
-  	  "menu[Crashsave & Rent]:b\r\n"
-  	  "menu[Room Numbers]:c\r\n"
-      "menu[Operation]:d\r\n"
-      "menu[Autowize]:e\r\n"
-      "menu[Quit]:0\r\n");
+  	  "\n# Config Editor\r"
+  	  "\ncloudmnu[Game Play]:a\r"
+  	  "\ncloudmnu[Crashsave & Rent]:b\r"
+  	  "\ncloudmnu[Room Numbers]:c\r"
+      "\ncloudmnu[Operation]:d\r"
+      "\ncloudmnu[Autowize]:e\r"
+      "\ncloudmnu[Quit]:0\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
@@ -607,34 +607,34 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
   write_to_output(d, "## Gameplay\r\n"
-        "select[a:Player Killing]:%s\r\n"
-        "select[b:Player Thieving Allowed]:%s\r\n"
-        "select[c:Minimum Level To Shout]:%d\r\n"
-        "select[d:Holler Move Cost]:%d\r\n"
-        "select[e:Tunnel Size]:%d\r\n"
-        "select[f:Maximum Experience Gain]:%d\r\n"
-        "select[g:Maximum Experience Loss]:%d\r\n"
-        "select[h:Max Time for NPC Corpse]:%d\r\n"
-        "select[i:Max Time for PC Corpse]:%d\r\n"
-        "select[j:Tics before PC sent to void]:%d\r\n"
-        "select[k:Tics before PC is autosaved]:%d\r\n"
-        "select[l:Level Immune To IDLE]:%d\r\n"
-        "select[m:Death Traps Junk Items]:%s\r\n"
-        "select[n:Objects Load Into Inventory]:%s\r\n"
-        "select[o:Track Through Doors]:%s\r\n"
-        "select[p:Display Closed Doors]:%s\r\n"
-        "select[q:Diagonal Directions]:%s\r\n"
-        "select[r:Prevent Mortal Level To Immortal]:%s\r\n"
-	      "select[s:OK Message Text]:%s\r\n"
-	      "select[t:HUH Message Text]:%s\r\n"
-        "\nselect[u:NOPERSON Message Text]:%s"
-        "\nselect[v:NOEFFECT Message Text]:%s"
-        "select[w:Map/Automap Option]:%s\r\n"
-        "select[x:Default map size]:%d\r\n"
-        "select[y:Default minimap size]:%d\r\n"
-        "select[z:Scripts on PC's]:%s\r\n"
-        "menu[Exit to Main Menu]:0\r\n"
-        "Enter your choice...\r\n",
+        "\ncloudsel[a:Player Killing]:%s\r"
+        "\ncloudsel[b:Player Thieving Allowed]:%s\r"
+        "\ncloudsel[c:Minimum Level To Shout]:%d\r"
+        "\ncloudsel[d:Holler Move Cost]:%d\r"
+        "\ncloudsel[e:Tunnel Size]:%d\r"
+        "\ncloudsel[f:Maximum Experience Gain]:%d\r"
+        "\ncloudsel[g:Maximum Experience Loss]:%d\r"
+        "\ncloudsel[h:Max Time for NPC Corpse]:%d\r"
+        "\ncloudsel[i:Max Time for PC Corpse]:%d\r"
+        "\ncloudsel[j:Tics before PC sent to void]:%d\r"
+        "\ncloudsel[k:Tics before PC is autosaved]:%d\r"
+        "\ncloudsel[l:Level Immune To IDLE]:%d\r"
+        "\ncloudsel[m:Death Traps Junk Items]:%s\r"
+        "\ncloudsel[n:Objects Load Into Inventory]:%s\r"
+        "\ncloudsel[o:Track Through Doors]:%s\r"
+        "\ncloudsel[p:Display Closed Doors]:%s\r"
+        "\ncloudsel[q:Diagonal Directions]:%s\r"
+        "\ncloudsel[r:Prevent Mortal Level To Immortal]:%s\r"
+	      "\ncloudsel[s:OK Message Text]:%s\r"
+	      "\ncloudsel[t:HUH Message Text]:%s\r"
+        "\ncloudsel[u:NOPERSON Message Text]:%s"
+        "\ncloudsel[v:NOEFFECT Message Text]:%s"
+        "\ncloudsel[w:Map/Automap Option]:%s\r"
+        "\ncloudsel[x:Default map size]:%d\r"
+        "\ncloudsel[y:Default minimap size]:%d\r"
+        "\ncloudsel[z:Scripts on PC's]:%s\r"
+        "\ncloudmnu[Exit to Main Menu]:0\r"
+        "\nEnter your choice...\r",
         CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
         CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
         OLC_CONFIG(d)->play.level_can_shout,

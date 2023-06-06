@@ -262,12 +262,12 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"\nmenu[Enter Arjika]:1"
-"\nmenu[More Information]:3"
-"\nmenu[Change Bio]:2"
-"\nmenu[Change Password]:4"
-"\nmenu[Delete Profile]:5"
-"\nmenu[Exit]:0";
+"\ncloudmnu[Enter Arjika]:1"
+"\ncloudmnu[More Information]:3"
+"\ncloudmnu[Change Bio]:2"
+"\ncloudmnu[Change Password]:4"
+"\ncloudmnu[Delete Profile]:5"
+"\ncloudmnu[Exit]:0";
 
 const char *WELC_MESSG =
 "\nWelcome to Arjika!"

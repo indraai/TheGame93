@@ -1588,10 +1588,10 @@ void nanny(struct descriptor_data *d, char *arg)
     if (STATE(d) == CON_CNFPASSWD) {
       write_to_output(d, "## Player Gender\r"
         "\np:Please select your gender...\r"
-        "\nmenu[Neutral]:0\r"
-        "\nmenu[Male]:1\r"
-        "\nmenu[Female]:2\r"
-        "\nmenu[Other]:3\r");
+        "\ncloudmnu[Neutral]:0\r"
+        "\ncloudmnu[Male]:1\r"
+        "\ncloudmnu[Female]:2\r"
+        "\ncloudmnu[Other]:3\r");
       STATE(d) = CON_QGENDER;
     } else {
       save_char(d->character);
@@ -1623,14 +1623,14 @@ void nanny(struct descriptor_data *d, char *arg)
 
     write_to_output(d, "## Player Race\r"
       "\np:Please select your race...\r"
-      "\nmenu[HUMAN]:0\r"
-      "\nmenu[DEVA]:1\r"
-      "\nmenu[ASURAS]:2\r"
-      "\nmenu[DANAVA]:3\r"
-      "\nmenu[DASYUS]:4\r"
-      "\nmenu[ADITYAS]:5\r"
-      "\nmenu[MARUTS]:6\r"
-      "\nmenu[OTHER]:8\r"
+      "\ncloudmnu[HUMAN]:0\r"
+      "\ncloudmnu[DEVA]:1\r"
+      "\ncloudmnu[ASURAS]:2\r"
+      "\ncloudmnu[DANAVA]:3\r"
+      "\ncloudmnu[DASYUS]:4\r"
+      "\ncloudmnu[ADITYAS]:5\r"
+      "\ncloudmnu[MARUTS]:6\r"
+      "\ncloudmnu[OTHER]:8\r"
     );
 
     STATE(d) = CON_QRACE;

@@ -115,12 +115,12 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
 
 
   /* The mortal preferences section of the actual menu */
-  send_to_char(d->character, "## Preferences\r\n"
-    "\nselect[P:prompt]:%s"
-    "select[L:agelength]:%d\r\n"
-    "select[C:color]:%s\r\n"
-    "select[S:screenwidth]:%d\r\n"
-    "select[W:wimpy]:%d\r\n",
+  send_to_char(d->character, "\n## Preferences\r"
+    "\ncloudsel[P:prompt]:%s\r"
+    "\ncloudsel[L:agelength]:%d\r"
+    "\ncloudsel[C:color]:%s\r"
+    "\ncloudsel[S:screenwidth]:%d\r"
+    "\ncloudsel[W:wimpy]:%d\r",
     prompt_string,
     PREFEDIT_GET_PAGELENGTH,
     color_string,
@@ -157,9 +157,9 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
              ONOFF(PREFEDIT_FLAGGED(PRF_ZONERESETS)), CCCYN(d->character, C_NRM));
   }
 
-  send_to_char(d->character, "menu[toggle]:T\r\n"
-    "menu[restore defaults]:D\r\n"
-    "menu[quit]:Q\r\n"
+  send_to_char(d->character, "\ncloudmnu[toggle]:T\r"
+    "\ncloudmnu[restore defaults]:D\r"
+    "\ncloudmnu[quit]:Q\r"
   );
 
   OLC_MODE(d) = PREFEDIT_MAIN_MENU;
@@ -285,19 +285,14 @@ static void prefedit_disp_prompt_menu(struct descriptor_data *d)
     sprintf(prompt_string, "%s%s%s", PREFEDIT_FLAGGED(PRF_DISPHP) ? "H" : "",   PREFEDIT_FLAGGED(PRF_DISPMANA) ? "M" : "",
                                      PREFEDIT_FLAGGED(PRF_DISPMOVE) ? "V" : "");
 
-  send_to_char(d->character, "%sPrompt Settings\r\n"
-                             "%s1%s) Toggle HP\r\n"
-                             "%s2%s) Toggle Mana\r\n"
-                             "%s3%s) Toggle Moves\r\n"
-                             "%s4%s) Toggle auto flag\r\n\r\n"
-                             "%sCurrent Prompt: %s%s%s\r\n\r\n"
-                             "%s0%s) Quit (to main menu)\r\n",
-                             CBWHT(d->character, C_NRM), CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM),
-                             CCNRM(d->character, C_NRM), CCCYN(d->character, C_NRM), prompt_string, CCNRM(d->character, C_NRM),
-                             CBYEL(d->character, C_NRM), CCNRM(d->character, C_NRM) );
+  send_to_char(d->character, "\n%sPrompt Settings\r"
+                             "\ncloudmnu[toggle hp]:1\r"
+                             "\ncloudmnu[toggle mana]:2\r"
+                             "\ncloudmnu[toggle moves]:3\r"
+                             "\ncloudmnu[Toggle auto flag]:4\r"
+                             "\ncurrent prompt: s\r"
+                             "\ncloudbtn[0]:quit\r",
+                             prompt_string);
 
   send_to_char(d->character, "Enter Choice :");
   OLC_MODE(d) = PREFEDIT_PROMPT;
@@ -305,11 +300,11 @@ static void prefedit_disp_prompt_menu(struct descriptor_data *d)
 
 static void prefedit_disp_color_menu(struct descriptor_data *d)
 {
-  send_to_char(d->character, "## Color level\r\n"
-                             "menu[Off]:1\r\n"
-                             "menu[Brief]:2\r\n"
-                             "menu[Normal]:3\r\n"
-                             "menu[On]:4\r\n");
+  send_to_char(d->character, "\n## Color level\r"
+                             "\ncloudmnu[Off]:1\r"
+                             "\ncloudmnu[Brief]:2\r"
+                             "\ncloudmnu[Normal]:3\r"
+                             "\ncloudmnu[On]:4\r");
 
   send_to_char(d->character, "Enter Choice :");
   OLC_MODE(d) = PREFEDIT_COLOR;
