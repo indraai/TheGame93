@@ -506,7 +506,7 @@ static void medit_disp_menu(struct descriptor_data *d)
     "\ncloudbtn[copy agent]:3\r"
 	  "\ncloudbtn[delete agent]:4\r"
     "\n::end:buttons\r"
-	  "\ncloudmnu[quit]:0\r",
+	  "\ncloudbtn[quit]:0\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -599,7 +599,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\ncloudmnu[done]:0\r");
+  write_to_output(d, "\ncloudbtn[done]:0\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
