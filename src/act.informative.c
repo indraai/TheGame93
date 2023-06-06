@@ -597,23 +597,21 @@ void look_at_room(struct char_data *ch, int ignore_brief)
     }
   }
 
-  send_to_char(ch, "\n"
-    "\n::begin:agob\r");
+  send_to_char(ch, "\n::begin:agob\r"
     "\n::begin:agents\r");
   // list agents in room
   if (world[IN_ROOM(ch)].people) {
     list_char_to_char(world[IN_ROOM(ch)].people, ch);
   }
-  send_to_char(ch, "\n"
-    "\n::end:agents\r"
+  send_to_char(ch, "\n::end:agents\r"
     "\n::begin:objects\r");
 
   // list objects in room
   if (world[IN_ROOM(ch)].contents) {
     list_obj_to_char(world[IN_ROOM(ch)].contents, ch, SHOW_OBJ_SHORT, FALSE);
   }
-  send_to_char(ch, "\n::end:objects\r");
-  send_to_char(ch, "\n::end:agob\r");
+  send_to_char(ch, "\n::end:objects\r"
+  "\n::end:agob\r");
 }
 
 static void look_in_direction(struct char_data *ch, int dir)
