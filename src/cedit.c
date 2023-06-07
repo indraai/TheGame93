@@ -683,7 +683,7 @@ static void cedit_disp_crash_save_options(struct descriptor_data *d)
   	"\nselect[C:Minimum Rent Cost]:%d\r"
   	"\nselect[D:Auto Save]:%s\r"
   	"\nselect[E:Auto Save Time]:%d minute(s)\r"
-  	"%\nselect[F:Crash File Timeout]:%d day(s)\r"
+  	"\nselect[F:Crash File Timeout]:%d day(s)\r"
   	"\nselect[G:Rent File Timeout]:%d day(s)\r"
   	"\ncloud[done]:Q\r",
   	CHECK_VAR(OLC_CONFIG(d)->csd.free_rent),
