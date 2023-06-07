@@ -685,7 +685,7 @@ static void cedit_disp_crash_save_options(struct descriptor_data *d)
   	"\nselect[E:Auto Save Time]:%d minute(s)\r"
   	"%\nselect[F:Crash File Timeout]:%d day(s)\r"
   	"\nselect[G:Rent File Timeout]:%d day(s)\r"
-  	"\ncloud[done]:Q\r"
+  	"\ncloud[done]:Q\r",
   	CHECK_VAR(OLC_CONFIG(d)->csd.free_rent),
   	OLC_CONFIG(d)->csd.max_obj_save,
   	OLC_CONFIG(d)->csd.min_rent_cost,
