@@ -116,11 +116,11 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
 
   /* The mortal preferences section of the actual menu */
   send_to_char(d->character, "\n## Preferences\r"
-    "\ncloudsel[P:prompt]:%s\r"
-    "\ncloudsel[L:agelength]:%d\r"
-    "\ncloudsel[C:color]:%s\r"
-    "\ncloudsel[S:screenwidth]:%d\r"
-    "\ncloudsel[W:wimpy]:%d\r",
+    "\nselect[P:prompt]:%s\r"
+    "\nselect[L:page length]:%d\r"
+    "\nselect[C:color]:%s\r"
+    "\nselect[S:screenwidth]:%d\r"
+    "\nselect[W:wimpy]:%d\r",
     prompt_string,
     PREFEDIT_GET_PAGELENGTH,
     color_string,
@@ -157,9 +157,9 @@ static void prefedit_disp_main_menu(struct descriptor_data *d)
              ONOFF(PREFEDIT_FLAGGED(PRF_ZONERESETS)), CCCYN(d->character, C_NRM));
   }
 
-  send_to_char(d->character, "\ncloudmnu[toggle]:T\r"
-    "\ncloudmnu[restore defaults]:D\r"
-    "\ncloudmnu[quit]:Q\r"
+  send_to_char(d->character, "\ncloud[toggle]:T\r"
+    "\ncloud[restore defaults]:D\r"
+    "\ncloud[quit]:Q\r"
   );
 
   OLC_MODE(d) = PREFEDIT_MAIN_MENU;
@@ -286,12 +286,14 @@ static void prefedit_disp_prompt_menu(struct descriptor_data *d)
                                      PREFEDIT_FLAGGED(PRF_DISPMOVE) ? "V" : "");
 
   send_to_char(d->character, "\n%sPrompt Settings\r"
-                             "\ncloudmnu[toggle hp]:1\r"
-                             "\ncloudmnu[toggle mana]:2\r"
-                             "\ncloudmnu[toggle moves]:3\r"
-                             "\ncloudmnu[Toggle auto flag]:4\r"
+                             "\n::begin:menu\r"
+                             "\ncloud[toggle hp]:1\r"
+                             "\ncloud[toggle mana]:2\r"
+                             "\ncloud[toggle moves]:3\r"
+                             "\ncloud[Toggle auto flag]:4\r"
+                             "\n::end:menu\r"
                              "\ncurrent prompt: s\r"
-                             "\ncloudbtn[0]:quit\r",
+                             "\ncloud[0]:quit\r",
                              prompt_string);
 
   send_to_char(d->character, "Enter Choice :");
@@ -301,10 +303,12 @@ static void prefedit_disp_prompt_menu(struct descriptor_data *d)
 static void prefedit_disp_color_menu(struct descriptor_data *d)
 {
   send_to_char(d->character, "\n## Color level\r"
-                             "\ncloudmnu[Off]:1\r"
-                             "\ncloudmnu[Brief]:2\r"
-                             "\ncloudmnu[Normal]:3\r"
-                             "\ncloudmnu[On]:4\r");
+                             "\n::begin:menu\r"
+                             "\ncloud[Off]:1\r"
+                             "\ncloud[Brief]:2\r"
+                             "\ncloud[Normal]:3\r"
+                             "\ncloud[On]:4\r"
+                             "\n::end:menu\r");
 
   send_to_char(d->character, "Enter Choice :");
   OLC_MODE(d) = PREFEDIT_COLOR;

@@ -262,16 +262,19 @@ int auto_save_olc = YES;
 int use_new_socials = YES;
 
 const char *MENU =
-"\ncloudmnu[Enter Arjika]:1"
-"\ncloudmnu[More Information]:3"
-"\ncloudmnu[Change Bio]:2"
-"\ncloudmnu[Change Password]:4"
-"\ncloudmnu[Delete Profile]:5"
-"\ncloudmnu[Exit]:0";
+"\n::begin:menu\r"
+"\ncloud[Enter Arjika]:1"
+"\ncloud[More Information]:3"
+"\ncloud[Change Bio]:2"
+"\ncloud[Change Password]:4"
+"\ncloud[Delete Profile]:5"
+"\ncloud[Exit]:0"
+"\n::begin:menu\r"
+;
 
 const char *WELC_MESSG =
-"\nWelcome to Arjika!"
-"\nMay your adventure here be... EXCELLENT!";
+"\np:Welcome to Arjika!"
+"\np:May your adventure here be... EXCELLENT!";
 
 const char *START_MESSG =
 "\np:All set. You can now earn credits, gain experience, find stuff, and much more.";

@@ -43,7 +43,7 @@ ACMD(do_oasis_cedit)
   one_argument(argument, buf1);
 
   if (GET_LEVEL(ch) < LVL_IMPL) {
-    send_to_char(ch, "You can't modify the game configuration.\r\n");
+    send_to_char(ch, "\np:You can't modify the game configuration.\r");
     return;
   }
 
@@ -587,12 +587,14 @@ static void cedit_disp_menu(struct descriptor_data *d)
   /* Menu header. */
   write_to_output(d,
   	  "\n# Config Editor\r"
-  	  "\ncloudmnu[Game Play]:a\r"
-  	  "\ncloudmnu[Crashsave & Rent]:b\r"
-  	  "\ncloudmnu[Room Numbers]:c\r"
-      "\ncloudmnu[Operation]:d\r"
-      "\ncloudmnu[Autowize]:e\r"
-      "\ncloudmnu[Quit]:0\r");
+      "\n::begin:menu\r"
+  	  "\ncloud[Game Play]:a\r"
+  	  "\ncloud[Crashsave & Rent]:b\r"
+  	  "\ncloud[Room Numbers]:c\r"
+      "\ncloud[Operation]:d\r"
+      "\ncloud[Autowize]:e\r"
+      "\n::end:menu\r"
+      "\ncloud[quit]:0\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
@@ -607,33 +609,33 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
   write_to_output(d, "## Gameplay\r\n"
-        "\ncloudsel[a:Player Killing]:%s\r"
-        "\ncloudsel[b:Player Thieving Allowed]:%s\r"
-        "\ncloudsel[c:Minimum Level To Shout]:%d\r"
-        "\ncloudsel[d:Holler Move Cost]:%d\r"
-        "\ncloudsel[e:Tunnel Size]:%d\r"
-        "\ncloudsel[f:Maximum Experience Gain]:%d\r"
-        "\ncloudsel[g:Maximum Experience Loss]:%d\r"
-        "\ncloudsel[h:Max Time for NPC Corpse]:%d\r"
-        "\ncloudsel[i:Max Time for PC Corpse]:%d\r"
-        "\ncloudsel[j:Tics before PC sent to void]:%d\r"
-        "\ncloudsel[k:Tics before PC is autosaved]:%d\r"
-        "\ncloudsel[l:Level Immune To IDLE]:%d\r"
-        "\ncloudsel[m:Death Traps Junk Items]:%s\r"
-        "\ncloudsel[n:Objects Load Into Inventory]:%s\r"
-        "\ncloudsel[o:Track Through Doors]:%s\r"
-        "\ncloudsel[p:Display Closed Doors]:%s\r"
-        "\ncloudsel[q:Diagonal Directions]:%s\r"
-        "\ncloudsel[r:Prevent Mortal Level To Immortal]:%s\r"
-	      "\ncloudsel[s:OK Message Text]:%s\r"
-	      "\ncloudsel[t:HUH Message Text]:%s\r"
-        "\ncloudsel[u:NOPERSON Message Text]:%s"
-        "\ncloudsel[v:NOEFFECT Message Text]:%s"
-        "\ncloudsel[w:Map/Automap Option]:%s\r"
-        "\ncloudsel[x:Default map size]:%d\r"
-        "\ncloudsel[y:Default minimap size]:%d\r"
-        "\ncloudsel[z:Scripts on PC's]:%s\r"
-        "\ncloudmnu[Exit to Main Menu]:0\r"
+        "\nselect[a:Player Killing]:%s\r"
+        "\nselect[b:Player Thieving Allowed]:%s\r"
+        "\nselect[c:Minimum Level To Shout]:%d\r"
+        "\nselect[d:Holler Move Cost]:%d\r"
+        "\nselect[e:Tunnel Size]:%d\r"
+        "\nselect[f:Maximum Experience Gain]:%d\r"
+        "\nselect[g:Maximum Experience Loss]:%d\r"
+        "\nselect[h:Max Time for NPC Corpse]:%d\r"
+        "\nselect[i:Max Time for PC Corpse]:%d\r"
+        "\nselect[j:Tics before PC sent to void]:%d\r"
+        "\nselect[k:Tics before PC is autosaved]:%d\r"
+        "\nselect[l:Level Immune To IDLE]:%d\r"
+        "\nselect[m:Death Traps Junk Items]:%s\r"
+        "\nselect[n:Objects Load Into Inventory]:%s\r"
+        "\nselect[o:Track Through Doors]:%s\r"
+        "\nselect[p:Display Closed Doors]:%s\r"
+        "\nselect[q:Diagonal Directions]:%s\r"
+        "\nselect[r:Prevent Mortal Level To Immortal]:%s\r"
+	      "\nselect[s:OK Message Text]:%s\r"
+	      "\nselect[t:HUH Message Text]:%s\r"
+        "\nselect[u:NOPERSON Message Text]:%s"
+        "\nselect[v:NOEFFECT Message Text]:%s"
+        "\nselect[w:Map/Automap Option]:%s\r"
+        "\nselect[x:Default map size]:%d\r"
+        "\nselect[y:Default minimap size]:%d\r"
+        "\nselect[z:Scripts on PC's]:%s\r"
+        "\ncloud[Exit to Main Menu]:0\r"
         "\nEnter your choice...\r",
         CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
         CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
@@ -673,25 +675,22 @@ static void cedit_disp_crash_save_options(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\r\n\r\n"
-  	"%sA%s) Free Rent          : %s%s\r\n"
-  	"%sB%s) Max Objects Saved  : %s%d\r\n"
-  	"%sC%s) Minimum Rent Cost  : %s%d\r\n"
-  	"%sD%s) Auto Save          : %s%s\r\n"
-  	"%sE%s) Auto Save Time     : %s%d minute(s)\r\n"
-  	"%sF%s) Crash File Timeout : %s%d day(s)\r\n"
-  	"%sG%s) Rent File Timeout  : %s%d day(s)\r\n"
-  	"%sQ%s) Exit To The Main Menu\r\n"
-  	"Enter your choice : ",
-  	grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->csd.free_rent),
-  	grn, nrm, cyn, OLC_CONFIG(d)->csd.max_obj_save,
-  	grn, nrm, cyn, OLC_CONFIG(d)->csd.min_rent_cost,
-  	grn, nrm, cyn, CHECK_VAR(OLC_CONFIG(d)->csd.auto_save),
-  	grn, nrm, cyn, OLC_CONFIG(d)->csd.autosave_time,
-  	grn, nrm, cyn, OLC_CONFIG(d)->csd.crash_file_timeout,
-  	grn, nrm, cyn, OLC_CONFIG(d)->csd.rent_file_timeout,
-  	grn, nrm
-  	);
+  write_to_output(d, "\n## Config Editor\r"
+  	"\nselect[A:Free Rent]:%s\r"
+  	"\nselect[B:Max Objects Saved]:%s\r"
+  	"\nselect[C:Minimum Rent Cost]:%s\r"
+  	"\nselect[D:Auto Save]:%s\r"
+  	"\nselect[E:Auto Save Time]:%d minute(s)\r"
+  	"%\nselect[F:Crash File Timeout]:%d day(s)\r"
+  	"\nselect[G:Rent File Timeout]:%d day(s)\r"
+  	"\ncloud[done]:Q\r"
+  	CHECK_VAR(OLC_CONFIG(d)->csd.free_rent),
+  	OLC_CONFIG(d)->csd.max_obj_save,
+  	OLC_CONFIG(d)->csd.min_rent_cost,
+  	CHECK_VAR(OLC_CONFIG(d)->csd.auto_save),
+  	OLC_CONFIG(d)->csd.autosave_time,
+  	OLC_CONFIG(d)->csd.crash_file_timeout,
+  	OLC_CONFIG(d)->csd.rent_file_timeout);
 
   OLC_MODE(d) = CEDIT_CRASHSAVE_OPTIONS_MENU;
 }

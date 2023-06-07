@@ -1574,8 +1574,8 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_CHPWD_VRFY:
     if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character),
 		MAX_PWD_LENGTH)) {
-      write_to_output(d, "Passwords don't match... Try Again.\r\n"
-        "Password:\r\n");
+      write_to_output(d, "\np:Passwords don't match... Try Again.\r"
+        "\nPassword:\r");
 
       if (STATE(d) == CON_CNFPASSWD)
 	STATE(d) = CON_NEWPASSWD;
@@ -1588,10 +1588,12 @@ void nanny(struct descriptor_data *d, char *arg)
     if (STATE(d) == CON_CNFPASSWD) {
       write_to_output(d, "## Player Gender\r"
         "\np:Please select your gender...\r"
-        "\ncloudmnu[Neutral]:0\r"
-        "\ncloudmnu[Male]:1\r"
-        "\ncloudmnu[Female]:2\r"
-        "\ncloudmnu[Other]:3\r");
+        "\n::begin:menu\r"
+        "\ncloud[Neutral]:0\r"
+        "\ncloud[Male]:1\r"
+        "\ncloud[Female]:2\r"
+        "\ncloud[Other]:3\r"
+        "\n::end:menu\r");
       STATE(d) = CON_QGENDER;
     } else {
       save_char(d->character);
@@ -1623,14 +1625,16 @@ void nanny(struct descriptor_data *d, char *arg)
 
     write_to_output(d, "## Player Race\r"
       "\np:Please select your race...\r"
-      "\ncloudmnu[HUMAN]:0\r"
-      "\ncloudmnu[DEVA]:1\r"
-      "\ncloudmnu[ASURAS]:2\r"
-      "\ncloudmnu[DANAVA]:3\r"
-      "\ncloudmnu[DASYUS]:4\r"
-      "\ncloudmnu[ADITYAS]:5\r"
-      "\ncloudmnu[MARUTS]:6\r"
-      "\ncloudmnu[OTHER]:8\r"
+      "\n::begin:menu\r"
+      "\ncloud[HUMAN]:0\r"
+      "\ncloud[DEVA]:1\r"
+      "\ncloud[ASURAS]:2\r"
+      "\ncloud[DANAVA]:3\r"
+      "\ncloud[DASYUS]:4\r"
+      "\ncloud[ADITYAS]:5\r"
+      "\ncloud[MARUTS]:6\r"
+      "\ncloud[OTHER]:8\r"
+      "\n::end:menu\r"
     );
 
     STATE(d) = CON_QRACE;

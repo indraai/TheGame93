@@ -372,46 +372,46 @@ static void msgedit_main_menu(struct descriptor_data * d)
     OLC_MSG_LIST(d)->a_type < TOP_SPELL_DEFINE ? spell_info[OLC_MSG_LIST(d)->a_type].name : "Unknown");
 
   write_to_output(d, "\n### Death Messages:\r"
-                     "\ncloudsel[A:char]:%s\r"
-                     "\ncloudsel[B:vict]:%s\r"
-                     "\ncloudsel[C:room]:%s\r",
+                     "\nselect[A:char]:%s\r"
+                     "\nselect[B:vict]:%s\r"
+                     "\nselect[C:room]:%s\r",
                      PRINT_MSG(OLC_MSG(d)->die_msg.attacker_msg),
                      PRINT_MSG(OLC_MSG(d)->die_msg.victim_msg),
                      PRINT_MSG(OLC_MSG(d)->die_msg.room_msg));
 
   write_to_output(d, "\n### Miss Messages\r"
-                    "\ncloudsel[D:char]:%s\r"
-                    "\ncloudsel[E:vict]:%s\r"
-                    "\ncloudsel[F:room]:%s\r",
+                    "\nselect[D:char]:%s\r"
+                    "\nselect[E:vict]:%s\r"
+                    "\nselect[F:room]:%s\r",
                      PRINT_MSG(OLC_MSG(d)->miss_msg.attacker_msg),
                      PRINT_MSG(OLC_MSG(d)->miss_msg.victim_msg),
                      PRINT_MSG(OLC_MSG(d)->miss_msg.room_msg));
 
   write_to_output(d, "\n### Hit Messages:\r"
-                    "\ncloudsel[G:char]:%s\r"
-                    "\ncloudsel[H:vict]:%s\r"
-                    "\ncloudsel[I:room]:%s\r",
+                    "\nselect[G:char]:%s\r"
+                    "\nselect[H:vict]:%s\r"
+                    "\nselect[I:room]:%s\r",
                      PRINT_MSG(OLC_MSG(d)->hit_msg.attacker_msg),
                      PRINT_MSG(OLC_MSG(d)->hit_msg.victim_msg),
                      PRINT_MSG(OLC_MSG(d)->hit_msg.room_msg));
 
   write_to_output(d, "\n### God Messages\r"
-                    "\ncloudsel[J:char]:%s\r"
-                    "\ncloudsel[K:vict]:%s\r"
-                    "\ncloudsel[L:room]:%s\r",
+                    "\nselect[J:char]:%s\r"
+                    "\nselect[K:vict]:%s\r"
+                    "\nselect[L:room]:%s\r",
                      PRINT_MSG(OLC_MSG(d)->deva_msg.attacker_msg),
                      PRINT_MSG(OLC_MSG(d)->deva_msg.victim_msg),
                      PRINT_MSG(OLC_MSG(d)->deva_msg.room_msg));
 
-  write_to_output(d, "\ncloudmnu[%s]:N\r", OLC_MSG(d)->next ? "Next" : "New");
+  write_to_output(d, "\ncloud[%s]:N\r", OLC_MSG(d)->next ? "Next" : "New");
 
   if (OLC_MSG(d) != OLC_MSG_LIST(d)->msg)
-    write_to_output(d, " \ncloudmnu[previous]:P");
+    write_to_output(d, " \ncloud[previous]:P");
 
   if (OLC_VAL(d))
-    write_to_output(d, "\ncloudmnu[save]:S\r");
+    write_to_output(d, "\ncloud[save]:S\r");
 
-  write_to_output(d, "\ncloudmnu[quit]:Q\r");
+  write_to_output(d, "\ncloud[quit]:Q\r");
   OLC_MODE(d) = MSGEDIT_MAIN_MENU;
 }
 

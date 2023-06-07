@@ -319,7 +319,7 @@ static void medit_disp_positions(struct descriptor_data *d)
   write_to_output(d, "\n## Position\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_POSITIONS; i++) {
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", position_types[i], ++count);
+    write_to_output(d, "\ncloud[%s]:%d\r", position_types[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
@@ -333,7 +333,7 @@ static void medit_disp_gender(struct descriptor_data *d)
   write_to_output(d, "\n## Gender\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_GENDERS; i++) {
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", genders[i], ++count);
+    write_to_output(d, "\ncloud[%s]:%d\r", genders[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
@@ -347,7 +347,7 @@ static void medit_disp_race(struct descriptor_data *d)
   write_to_output(d, "\n## Race\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_RACES; i++) {
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", races[i], ++count);
+    write_to_output(d, "\ncloud[%s]:%d\r", races[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
@@ -361,7 +361,7 @@ static void medit_disp_class(struct descriptor_data *d)
   write_to_output(d, "\n## Class\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_CLASSES; i++) {
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", class_types[i], ++count);
+    write_to_output(d, "\ncloud[%s]:%d\r", class_types[i], ++count);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
@@ -376,7 +376,7 @@ static void medit_disp_attack_types(struct descriptor_data *d)
   write_to_output(d, "\n## Attack Type\r"
     "\n::begin:buttons\r");
   for (i = 0; i < NUM_ATTACK_TYPES; i++) {
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", attack_hit_text[i].singular, i);
+    write_to_output(d, "\ncloud[%s]:%d\r", attack_hit_text[i].singular, i);
   }
   write_to_output(d, "\n::end:buttons\r");
 }
@@ -429,13 +429,13 @@ static void medit_disp_mob_flags(struct descriptor_data *d)
   /* Mob flags has special handling to remove illegal flags from the list */
   for (i = 0; i < NUM_MOB_FLAGS; i++) {
     if (medit_illegal_mob_flag(i)) continue;
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", action_bits[i], ++count);
+    write_to_output(d, "\ncloud[%s]:%d\r", action_bits[i], ++count);
   }
 
   sprintbitarray(MOB_FLAGS(OLC_MOB(d)), action_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\ncloudmnu[done]:0\r", flags);
+    "\ncloud[done]:0\r", flags);
 }
 
 /* Display affection flags menu. */
@@ -451,7 +451,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
     "\n::begin:buttons\r");
     /* +1/-1 antics needed because AFF_FLAGS doesn't start at 0. */
   for (i = 1; i < NUM_AFF_FLAGS; i++) {
-    write_to_output(d, "\ncloudbtn[%s]:%d\r", affected_bits[i], ++count);
+    write_to_output(d, "\ncloud[%s]:%d\r", affected_bits[i], ++count);
   }
 
   /*column_list(d->character, 0, affected_bits + 1, NUM_AFF_FLAGS - 1, TRUE);*/
@@ -459,7 +459,7 @@ static void medit_disp_aff_flags(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(OLC_MOB(d)), affected_bits, AF_ARRAY_MAX, flags);
   write_to_output(d, "\n::end:buttons\r"
     "\nflags: %s\r"
-    "\ncloudmnu[done]:0\r", flags);
+    "\ncloud[done]:0\r", flags);
   }
 
 /* Display main menu. */
@@ -474,13 +474,13 @@ static void medit_disp_menu(struct descriptor_data *d)
 
   write_to_output(d,
   "\n# Agent: %d\r"
-  "\ncloudsel[a:name]: %s\r"
-  "\ncloudsel[b:gender]:%s\r"
-  "\ncloudsel[c:race]:%s\r"
-  "\ncloudsel[d:class]:%s\r"
-  "\ncloudsel[e:keywords]:%s\r"
-  "\ncloudsel[f:avatar]:%s\r"
-  "\ncloudsel[g:look]:%s\r",
+  "\nselect[a:name]: %s\r"
+  "\nselect[b:gender]:%s\r"
+  "\nselect[c:race]:%s\r"
+  "\nselect[d:class]:%s\r"
+  "\nselect[e:keywords]:%s\r"
+  "\nselect[f:avatar]:%s\r"
+  "\nselect[g:look]:%s\r",
 	  OLC_NUM(d),                       // vnum
     GET_SDESC(mob),                   // name
 	  genders[(int)GET_GENDER(mob)],    // gender
@@ -495,18 +495,18 @@ static void medit_disp_menu(struct descriptor_data *d)
   sprintbitarray(AFF_FLAGS(mob), affected_bits, AF_ARRAY_MAX, flag2);
 
   write_to_output(d,
-	  "\ncloudsel[h:position]:%s\r"
-	  "\ncloudsel[i:default]:%s\r"
-	  "\ncloudsel[j:attack]:%s\r"
-	  "\ncloudsel[k:persona]:%s\r"
-	  "\ncloudsel[l:affinity]:%s\r"
+	  "\nselect[h:position]:%s\r"
+	  "\nselect[i:default]:%s\r"
+	  "\nselect[j:attack]:%s\r"
+	  "\nselect[k:persona]:%s\r"
+	  "\nselect[l:affinity]:%s\r"
     "\n::begin:buttons\r"
-    "\ncloudbtn[stats]:1\r"
-    "\ncloudbtn[triggers%s]:2\r"
-    "\ncloudbtn[copy agent]:3\r"
-	  "\ncloudbtn[delete agent]:4\r"
+    "\ncloud[stats]:1\r"
+    "\ncloud[triggers%s]:2\r"
+    "\ncloud[copy agent]:3\r"
+	  "\ncloud[delete agent]:4\r"
     "\n::end:buttons\r"
-	  "\ncloudbtn[quit]:0\r",
+	  "\ncloud[quit]:0\r",
 
 	  position_types[(int)GET_POS(mob)],
 	  position_types[(int)GET_DEFAULT_POS(mob)],
@@ -531,12 +531,12 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   /* Top section - standard stats */
   write_to_output(d,
     "\n## Stats\r"
-    "\ncloudsel[a:level]:%d\r"
-    "\ncloudsel[b:auto]:Set stats...\r"
+    "\nselect[a:level]:%d\r"
+    "\nselect[b:auto]:Set stats...\r"
     "\n### Hit Points  (xdy+z)\r"
-    "\ncloudsel[c:hit]:%d\r"
-    "\ncloudsel[d:mana]:%d\r"
-    "\ncloudsel[e:move]:%d\r",
+    "\nselect[c:hit]:%d\r"
+    "\nselect[d:mana]:%d\r"
+    "\nselect[e:move]:%d\r",
     GET_LEVEL(mob),
     GET_HIT(mob),
     GET_MANA(mob),
@@ -545,9 +545,9 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n### Bare Hand (xdy+z)\r"
-    "\ncloudsel[f:dice]:%d\r"
-    "\ncloudsel[g:size]:%d\r"
-    "\ncloudsel[h:roll]:%d\r",
+    "\nselect[f:dice]:%d\r"
+    "\nselect[g:size]:%d\r"
+    "\nselect[h:roll]:%d\r",
     GET_NDD(mob),
     GET_SDD(mob),
     GET_DAMROLL(mob)
@@ -555,11 +555,11 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
 
   write_to_output(d,
     "\n### General\r"
-    "\ncloudsel[i:armor]:%d\r"
-    "\ncloudsel[j:experience]:%d\r"
-    "\ncloudsel[k:gold]:%d\r"
-    "\ncloudsel[l:hitroll]:%d\r"
-    "\ncloudsel[m:alignment]:%d\r",
+    "\nselect[i:armor]:%d\r"
+    "\nselect[j:experience]:%d\r"
+    "\nselect[k:gold]:%d\r"
+    "\nselect[l:hitroll]:%d\r"
+    "\nselect[m:alignment]:%d\r",
     GET_AC(mob),
     GET_EXP(mob),
     GET_GOLD(mob),
@@ -572,17 +572,17 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
     /* Bottom section - non-standard stats, togglable in cedit */
     write_to_output(d,
       "\n## Advanced\r"
-      "\ncloudsel[n:strength]:%d|%d\r"
-      "\ncloudsel[o:intelligence]:%d\r"
-      "\ncloudsel[p:wisdom]:%d\r"
-      "\ncloudsel[q:dexterity]:%d\r"
-      "\ncloudsel[r:con]:%d\r"
-      "\ncloudsel[s:charisma]:%d\r"
-      "\ncloudsel[t:parlysis]:%d\r"
-      "\ncloudsel[u:rod/staves]:%d\r"
-      "\ncloudsel[v:petification]:%d\r"
-      "\ncloudsel[w:breath]:%d\r"
-      "\ncloudsel[x:spells]:%d\r",
+      "\nselect[n:strength]:%d|%d\r"
+      "\nselect[o:intelligence]:%d\r"
+      "\nselect[p:wisdom]:%d\r"
+      "\nselect[q:dexterity]:%d\r"
+      "\nselect[r:con]:%d\r"
+      "\nselect[s:charisma]:%d\r"
+      "\nselect[t:parlysis]:%d\r"
+      "\nselect[u:rod/staves]:%d\r"
+      "\nselect[v:petification]:%d\r"
+      "\nselect[w:breath]:%d\r"
+      "\nselect[x:spells]:%d\r",
       GET_STR(mob),
       GET_ADD(mob),
       GET_INT(mob),
@@ -599,7 +599,7 @@ static void medit_disp_stats_menu(struct descriptor_data *d)
   }
 
   /* Quit to previous menu option */
-  write_to_output(d, "\ncloudbtn[done]:0\r");
+  write_to_output(d, "\ncloud[done]:0\r");
 
   OLC_MODE(d) = MEDIT_STATS_MENU;
 }
