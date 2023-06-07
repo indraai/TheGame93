@@ -430,14 +430,14 @@ static void zedit_disp_menu(struct descriptor_data *d)
     "\n# %s\r"
 	  "\nvnum: %d\r"
     "\nzone: %d\r"
-	  "\ncloudsel[a:builder]: %s\r"
-	  "\ncloudsel[b:name]: %s\r"
-	  "\ncloudsel[c:lifespan]: %d\r"
-	  "\ncloudsel[d:zone begin]: %d\r"
-	  "\ncloudsel[e:zone end]: %d\r"
-    "\ncloudsel[f:zone flags]: %s\r"
-	  "\ncloudsel[g:reset mode]: %s\r"
-	  "\ncloudsel[h:level range]: %s\r"
+	  "\nselect[a:builder]: %s\r"
+	  "\nselect[b:name]: %s\r"
+	  "\nselect[c:lifespan]: %d\r"
+	  "\nselect[d:zone begin]: %d\r"
+	  "\nselect[e:zone end]: %d\r"
+    "\nselect[f:zone flags]: %s\r"
+	  "\nselect[g:reset mode]: %s\r"
+	  "\nselect[h:level range]: %s\r"
 	  "\n## Actions\r",
 
     OLC_ZONE(d)->name ? OLC_ZONE(d)->name : "None.",
