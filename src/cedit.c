@@ -608,7 +608,8 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
 
-  write_to_output(d, "## Gameplay\r\n"
+  write_to_output(d, "\n\r"
+        "\n## Gameplay\r"
         "\nselect[a:Player Killing]:%s\r"
         "\nselect[b:Player Thieving Allowed]:%s\r"
         "\nselect[c:Minimum Level To Shout]:%d\r"
@@ -675,7 +676,8 @@ static void cedit_disp_crash_save_options(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n## Config Editor\r"
+  write_to_output(d, "\n\r"
+    "\n## Config Editor\r"
   	"\nselect[A:Free Rent]:%s\r"
   	"\nselect[B:Max Objects Saved]:%s\r"
   	"\nselect[C:Minimum Rent Cost]:%s\r"
