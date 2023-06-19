@@ -702,7 +702,7 @@ static void cedit_disp_room_numbers(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\r\r"
+  write_to_output(d, "\n\r"
     "\n## Room Numbers\r"
   	"\ncloudsel[A:Mortal Start Room]:%d\r"
   	"\ncloudsel[B:Immortal Start Room]:d\r"
@@ -710,7 +710,7 @@ static void cedit_disp_room_numbers(struct descriptor_data *d)
   	"\ncloudsel[1:Donation Room 1]:%d\r"
   	"\ncloudsel[2:Donation Room 2]:%d\r"
   	"\ncloudsel[3:Donation Room 3]%d\r"
-  	"\ncloud[done]:q\r"
+  	"\ncloud[done]:q\r",
   	OLC_CONFIG(d)->room_nums.mortal_start_room,
   	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.immort_start_room,
   	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.frozen_start_room,
