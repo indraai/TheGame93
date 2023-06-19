@@ -712,13 +712,11 @@ static void cedit_disp_room_numbers(struct descriptor_data *d)
   	"\ncloudsel[3:Donation Room 3]%d\r"
   	"\ncloud[done]:q\r",
   	OLC_CONFIG(d)->room_nums.mortal_start_room,
-  	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.immort_start_room,
-  	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.frozen_start_room,
-  	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.donation_room_1,
-  	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.donation_room_2,
-  	grn, nrm, cyn, OLC_CONFIG(d)->room_nums.donation_room_3,
-  	grn, nrm
-  	);
+  	OLC_CONFIG(d)->room_nums.immort_start_room,
+  	OLC_CONFIG(d)->room_nums.frozen_start_room,
+  	OLC_CONFIG(d)->room_nums.donation_room_1,
+  	OLC_CONFIG(d)->room_nums.donation_room_2,
+  	OLC_CONFIG(d)->room_nums.donation_room_3);
 
   OLC_MODE(d) = CEDIT_ROOM_NUMBERS_MENU;
 }
