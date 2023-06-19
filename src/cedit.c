@@ -702,7 +702,7 @@ static void cedit_disp_room_numbers(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\n\r"
+  write_to_output(d,
     "\n## Room Numbers\r"
   	"\ncloudsel[A:Mortal Start Room]:%d\r"
   	"\ncloudsel[B:Immortal Start Room]:d\r"
