@@ -586,7 +586,7 @@ static void cedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header. */
   write_to_output(d,
-  	  "\n# Config Editor\r"
+  	  "\n# Cloud Config\r"
       "\n::begin:menu\r"
   	  "\ncloud[Game Play]:a\r"
   	  "\ncloud[Crashsave & Rent]:b\r"
@@ -609,35 +609,34 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
 
 
   write_to_output(d, "\n\r"
-        "\n## Gameplay\r"
-        "\nselect[a:Player Killing]:%s\r"
-        "\nselect[b:Player Thieving Allowed]:%s\r"
-        "\nselect[c:Minimum Level To Shout]:%d\r"
-        "\nselect[d:Holler Move Cost]:%d\r"
-        "\nselect[e:Tunnel Size]:%d\r"
-        "\nselect[f:Maximum Experience Gain]:%d\r"
-        "\nselect[g:Maximum Experience Loss]:%d\r"
-        "\nselect[h:Max Time for NPC Corpse]:%d\r"
-        "\nselect[i:Max Time for PC Corpse]:%d\r"
-        "\nselect[j:Tics before PC sent to void]:%d\r"
-        "\nselect[k:Tics before PC is autosaved]:%d\r"
-        "\nselect[l:Level Immune To IDLE]:%d\r"
-        "\nselect[m:Death Traps Junk Items]:%s\r"
-        "\nselect[n:Objects Load Into Inventory]:%s\r"
-        "\nselect[o:Track Through Doors]:%s\r"
-        "\nselect[p:Display Closed Doors]:%s\r"
-        "\nselect[q:Diagonal Directions]:%s\r"
-        "\nselect[r:Prevent Mortal Level To Immortal]:%s\r"
-	      "\nselect[s:OK Message Text]:%s\r"
-	      "\nselect[t:HUH Message Text]:%s\r"
-        "\nselect[u:NOPERSON Message Text]:%s"
-        "\nselect[v:NOEFFECT Message Text]:%s"
-        "\nselect[w:Map/Automap Option]:%s\r"
-        "\nselect[x:Default map size]:%d\r"
-        "\nselect[y:Default minimap size]:%d\r"
-        "\nselect[z:Scripts on PC's]:%s\r"
-        "\ncloud[Exit to Main Menu]:0\r"
-        "\nEnter your choice...\r",
+        "\n## Cloud Settings\r"
+        // "\nselect[a:Player Killing]:%s\r"
+        // "\nselect[b:Player Thieving Allowed]:%s\r"
+        "\nselect[a:Minimum Level To Shout]:%d\r"
+        "\nselect[b:Holler Move Cost]:%d\r"
+        "\nselect[c:Tunnel Size]:%d\r"
+        "\nselect[d:Maximum Experience Gain]:%d\r"
+        "\nselect[e:Maximum Experience Loss]:%d\r"
+        "\nselect[f:Max Time for NPC Corpse]:%d\r"
+        "\nselect[g:Max Time for PC Corpse]:%d\r"
+        "\nselect[h:Tics before PC sent to void]:%d\r"
+        "\nselect[i:Tics before PC is autosaved]:%d\r"
+        "\nselect[j:Level Immune To IDLE]:%d\r"
+        "\nselect[j:Death Traps Junk Items]:%s\r"
+        "\nselect[l:Objects Load Into Inventory]:%s\r"
+        "\nselect[m:Track Through Doors]:%s\r"
+        "\nselect[n:Display Closed Doors]:%s\r"
+        "\nselect[p:Diagonal Directions]:%s\r"
+        "\nselect[q:Prevent Mortal Level To Immortal]:%s\r"
+	      "\nselect[r:OK Message Text]:%s\r"
+	      "\nselect[s:HUH Message Text]:%s\r"
+        "\nselect[t:NOPERSON Message Text]:%s"
+        "\nselect[u:NOEFFECT Message Text]:%s"
+        "\nselect[v:Map/Automap Option]:%s\r"
+        "\nselect[w:Default map size]:%d\r"
+        "\nselect[x:Default minimap size]:%d\r"
+        "\nselect[y:Scripts on PC's]:%s\r"
+        "\ncloud[Exit]:0\r",
         CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
         CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
         OLC_CONFIG(d)->play.level_can_shout,
@@ -678,14 +677,14 @@ static void cedit_disp_crash_save_options(struct descriptor_data *d)
 
   write_to_output(d, "\n\r"
     "\n## Config Editor\r"
-  	"\nselect[A:Free Rent]:%s\r"
-  	"\nselect[B:Max Objects Saved]:%d\r"
-  	"\nselect[C:Minimum Rent Cost]:%d\r"
-  	"\nselect[D:Auto Save]:%s\r"
-  	"\nselect[E:Auto Save Time]:%d minute(s)\r"
-  	"\nselect[F:Crash File Timeout]:%d day(s)\r"
-  	"\nselect[G:Rent File Timeout]:%d day(s)\r"
-  	"\ncloud[done]:Q\r",
+  	"\nselect[a:Free Rent]:%s\r"
+  	"\nselect[b:Max Objects Saved]:%d\r"
+  	"\nselect[c:Minimum Rent Cost]:%d\r"
+  	"\nselect[d:Auto Save]:%s\r"
+  	"\nselect[e:Auto Save Time]:%d minute(s)\r"
+  	"\nselect[f:Crash File Timeout]:%d day(s)\r"
+  	"\nselect[g:Rent File Timeout]:%d day(s)\r"
+  	"\ncloud[done]:0\r",
   	CHECK_VAR(OLC_CONFIG(d)->csd.free_rent),
   	OLC_CONFIG(d)->csd.max_obj_save,
   	OLC_CONFIG(d)->csd.min_rent_cost,
@@ -704,12 +703,12 @@ static void cedit_disp_room_numbers(struct descriptor_data *d)
 
   write_to_output(d, "\n\r"
     "\n## Room Numbers\r"
-  	"\nselect[A:Mortal Start Room]:%d\r"
-  	"\nselect[B:Immortal Start Room]:%d\r"
-  	"\nselect[C:Frozen Start Room]%d\r"
-  	"\nselect[1:Donation Room 1]:%d\r"
-  	"\nselect[2:Donation Room 2]:%d\r"
-  	"\nselect[3:Donation Room 3]%d\r"
+  	"\nselect[a:Mortal Start Room]:%d\r"
+  	"\nselect[b:Immortal Start Room]:%d\r"
+  	"\nselect[c:Frozen Start Room]%d\r"
+  	"\nselect[d:Donation Room 1]:%d\r"
+  	"\nselect[e:Donation Room 2]:%d\r"
+  	"\nselect[f:Donation Room 3]%d\r"
   	"\ncloud[done]:q\r",
   	OLC_CONFIG(d)->room_nums.mortal_start_room,
   	OLC_CONFIG(d)->room_nums.immort_start_room,
@@ -864,111 +863,111 @@ void cedit_parse(struct descriptor_data *d, char *arg)
 
     case CEDIT_GAME_OPTIONS_MENU:
       switch (*arg) {
+        // case 'a':
+        //   write_to_output(d, "Is player killing allowed?\r\n");
+        //   TOGGLE_VAR(OLC_CONFIG(d)->play.pk_allowed);
+        //   break;
+        //
+        // case 'b':
+        //   write_to_output(d, "Is player thieving allowed?\r\n");
+        //   TOGGLE_VAR(OLC_CONFIG(d)->play.pt_allowed);
+        //   break;
+
         case 'a':
-          write_to_output(d, "Is player killing allowed?\r\n");
-          TOGGLE_VAR(OLC_CONFIG(d)->play.pk_allowed);
-          break;
-
-        case 'b':
-          write_to_output(d, "Is player thieving allowed?\r\n");
-          TOGGLE_VAR(OLC_CONFIG(d)->play.pt_allowed);
-          break;
-
-        case 'c':
           write_to_output(d, "What is the minimum level a player must be to shout, gossip, etc?\r\n");
           OLC_MODE(d) = CEDIT_LEVEL_CAN_SHOUT;
           return;
 
-        case 'd':
+        case 'b':
           write_to_output(d, "What is the amount it costs (in move points) to holler?\r\n");
           OLC_MODE(d) = CEDIT_HOLLER_MOVE_COST;
           return;
 
-        case 'e':
+        case 'c':
           write_to_output(d, "What is the maximum number of people allowed in a tunnel?\r\n");
           OLC_MODE(d) = CEDIT_TUNNEL_SIZE;
           return;
 
-        case 'f':
+        case 'd':
           write_to_output(d, "What is the maximum gain of experience per tackle for players?\r\n");
           OLC_MODE(d) = CEDIT_MAX_EXP_GAIN;
           return;
 
-        case 'g':
+        case 'e':
           write_to_output(d, "What is the maximum loss of experience for tackled players?\r\n");
           OLC_MODE(d) = CEDIT_MAX_EXP_LOSS;
           return;
 
-        case 'h':
+        case 'f':
           write_to_output(d, "\nWhat is the number of tics before NPC corpses spawn?");
           OLC_MODE(d) = CEDIT_MAX_NPC_CORPSE_TIME;
           return;
 
-        case 'i':
+        case 'g':
           write_to_output(d, "\nWhat is the number of tics before PC corpses spawn?");
           OLC_MODE(d) = CEDIT_MAX_PC_CORPSE_TIME;
           return;
 
-        case 'j':
+        case 'h':
           write_to_output(d, "\nWhat is the number of tics before PC's are sent to the void (idle)?");
           OLC_MODE(d) = CEDIT_IDLE_VOID;
           return;
 
-        case 'k':
+        case 'i':
           write_to_output(d, "\nWhat is the number of tics before PC's are automatically rented and forced to quit?");
           OLC_MODE(d) = CEDIT_IDLE_RENT_TIME;
           return;
 
-        case 'l':
+        case 'j':
           write_to_output(d, "What is the level a player must be to become immune to IDLE?");
           OLC_MODE(d) = CEDIT_IDLE_MAX_LEVEL;
           return;
 
-        case 'm':
+        case 'k':
           TOGGLE_VAR(OLC_CONFIG(d)->play.dts_are_dumps);
           break;
 
-        case 'n':
+        case 'l':
           TOGGLE_VAR(OLC_CONFIG(d)->play.load_into_inventory);
           break;
 
-        case 'o':
+        case 'm':
           TOGGLE_VAR(OLC_CONFIG(d)->play.track_through_doors);
           break;
 
-        case 'p':
+        case 'n':
           TOGGLE_VAR(OLC_CONFIG(d)->play.disp_closed_doors);
           break;
 
-        case 'r':
+        case 'o':
 		      TOGGLE_VAR(OLC_CONFIG(d)->play.diagonal_dirs);
 	        break;
 
-    		case 's':
+    		case 'p':
     		  TOGGLE_VAR(OLC_CONFIG(d)->play.no_mort_to_immort);
           break;
 
-        case 't':
+        case 'q':
           write_to_output(d, "Enter the OK message : ");
           OLC_MODE(d) = CEDIT_OK;
           return;
 
-        case 'u':
+        case 'r':
           write_to_output(d, "Enter the HUH message : ");
           OLC_MODE(d) = CEDIT_HUH;
           return;
 
-        case 'v':
+        case 's':
           write_to_output(d, "Enter the NOPERSON message : ");
           OLC_MODE(d) = CEDIT_NOPERSON;
           return;
 
-        case 'w':
+        case 't':
           write_to_output(d, "Enter the NOEFFECT message : ");
           OLC_MODE(d) = CEDIT_NOEFFECT;
           return;
 
-        case 'x':
+        case 'u':
           write_to_output(d, "1) Disable maps\r\n");
           write_to_output(d, "2) Enable Maps\r\n");
           write_to_output(d, "3) Maps for Immortals only\r\n");
@@ -976,12 +975,12 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           OLC_MODE(d) = CEDIT_MAP_OPTION;
           return;
 
-        case 'y':
+        case 'v':
           write_to_output(d, "Enter default map size (1-12) : ");
           OLC_MODE(d) = CEDIT_MAP_SIZE;
           return;
 
-        case 'z':
+        case 'w':
           write_to_output(d, "Enter default mini-map size (1-12) : ");
           OLC_MODE(d) = CEDIT_MINIMAP_SIZE;
           return;
@@ -1004,47 +1003,39 @@ void cedit_parse(struct descriptor_data *d, char *arg)
     case CEDIT_CRASHSAVE_OPTIONS_MENU:
       switch (*arg) {
         case 'a':
-        case 'A':
           TOGGLE_VAR(OLC_CONFIG(d)->csd.free_rent);
           break;
 
         case 'b':
-        case 'B':
           write_to_output(d, "Enter the maximum number of items players can rent : ");
           OLC_MODE(d) = CEDIT_MAX_OBJ_SAVE;
           return;
 
         case 'c':
-        case 'C':
           write_to_output(d, "Enter the surcharge on top of item costs : ");
           OLC_MODE(d) = CEDIT_MIN_RENT_COST;
           return;
 
         case 'd':
-        case 'D':
           TOGGLE_VAR(OLC_CONFIG(d)->csd.auto_save);
           break;
 
         case 'e':
-        case 'E':
           write_to_output(d, "Enter how often (in minutes) should the MUD save players : ");
           OLC_MODE(d) = CEDIT_AUTOSAVE_TIME;
           return;
 
         case 'f':
-        case 'F':
           write_to_output(d, "Enter the lifetime of crash and idlesave files (days) : ");
           OLC_MODE(d) = CEDIT_CRASH_FILE_TIMEOUT;
           return;
 
         case 'g':
-        case 'G':
           write_to_output(d, "Enter the lifetime of normal rent files (days) : ");
           OLC_MODE(d) = CEDIT_RENT_FILE_TIMEOUT;
           return;
 
-        case 'q':
-        case 'Q':
+        case '0':
           cedit_disp_menu(d);
           return;
 
@@ -1058,40 +1049,36 @@ void cedit_parse(struct descriptor_data *d, char *arg)
     case CEDIT_ROOM_NUMBERS_MENU:
       switch (*arg) {
         case 'a':
-        case 'A':
           write_to_output(d, "Enter the room's vnum where mortals should load into : ");
           OLC_MODE(d) = CEDIT_MORTAL_START_ROOM;
           return;
 
         case 'b':
-        case 'B':
           write_to_output(d, "Enter the room's vnum where immortals should load into : ");
           OLC_MODE(d) = CEDIT_IMMORT_START_ROOM;
           return;
 
         case 'c':
-        case 'C':
         write_to_output(d, "Enter the room's vnum where frozen people should load into : ");
         OLC_MODE(d) = CEDIT_FROZEN_START_ROOM;
         return;
 
-      case '1':
+      case 'd':
         write_to_output(d, "Enter the vnum for donation room #1 : ");
         OLC_MODE(d) = CEDIT_DONATION_ROOM_1;
         return;
 
-      case '2':
+      case 'e':
         write_to_output(d, "Enter the vnum for donation room #2 : ");
         OLC_MODE(d) = CEDIT_DONATION_ROOM_2;
         return;
 
-      case '3':
+      case 'f':
         write_to_output(d, "Enter the vnum for donation room #3 : ");
         OLC_MODE(d) = CEDIT_DONATION_ROOM_3;
         return;
 
-      case 'q':
-      case 'Q':
+      case '0':
         cedit_disp_menu(d);
         return;
 
