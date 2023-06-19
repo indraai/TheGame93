@@ -637,8 +637,8 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
         "\nselect[x:Default minimap size]:%d\r"
         "\nselect[y:Scripts on PC's]:%s\r"
         "\ncloud[Exit]:0\r",
-        CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
-        CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
+        // CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
+        // CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
         OLC_CONFIG(d)->play.level_can_shout,
         OLC_CONFIG(d)->play.holler_move_cost,
         OLC_CONFIG(d)->play.tunnel_size,
