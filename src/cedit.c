@@ -809,18 +809,18 @@ void cedit_parse(struct descriptor_data *d, char *arg)
           cleanup_olc(d, CLEANUP_CONFIG);
 	  if (CONFIG_AUTO_SAVE) {
 	    cedit_save_to_disk();
-	    write_to_output(d, "Game configuration saved to disk.\r\n");
+	    write_to_output(d, "\nsave:Game configuration saved to disk.\r");
 	  } else
-            write_to_output(d, "Game configuration saved to memory.\r\n");
+            write_to_output(d, "\nsave:Game configuration saved to memory.\r");
           return;
         case 'n':
         case 'N':
-          write_to_output(d, "Game configuration not saved to memory.\r\n");
+          write_to_output(d, "\nsave:Game configuration not saved to memory.\r");
           cleanup_olc(d, CLEANUP_CONFIG);
           return;
         default :
-          write_to_output(d, "\r\nThat is an invalid choice!\r\n");
-          write_to_output(d, "Do you wish to save your changes? : ");
+          write_to_output(d, "\nalert:\r\nThat is an invalid choice!\r");
+          write_to_output(d, "\nsave:Do you wish to save your changes?\r");
           return;
       }
 
