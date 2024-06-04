@@ -177,14 +177,14 @@ BareHandAttack: 1
 E
 T 8
 #9
-barry arjika~
+barry deva devas arjika d9~
 Barry~
 0009/main:avatar~
 0009/main:look~
 6300 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 100000 108900
-8 8 0 2 6
+8 8 0 1 16
 BareHandAttack: 1
 Str: 18
 Dex: 18
