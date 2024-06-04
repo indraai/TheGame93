@@ -1,6 +1,6 @@
 /**************************************************************************
 *  File: cedit.c                                           Part of tbaMUD *
-*  Usage: A graphical in-game game configuration utility for OasisOLC.    *
+*  Usage: A Configuration utility for OasisOLC.    *
 *                                                                         *
 *  Copyright 2002-2003 Kip Potter                                         *
 **************************************************************************/
@@ -43,7 +43,7 @@ ACMD(do_oasis_cedit)
   one_argument(argument, buf1);
 
   if (GET_LEVEL(ch) < LVL_IMPL) {
-    send_to_char(ch, "\np:You can't modify the game configuration.\r");
+    send_to_char(ch, "\np:You can't modify the configuration.\r");
     return;
   }
 
@@ -58,16 +58,16 @@ ACMD(do_oasis_cedit)
     SET_BIT_AR(PLR_FLAGS(ch), PLR_WRITING);
 
     mudlog(BRF, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-      "OLC: %s starts editing the game configuration.", GET_NAME(ch));
+      "OLC: %s starts editing the configuration.", GET_NAME(ch));
     return;
   } else if (str_cmp("save", buf1) != 0) {
     send_to_char(ch, "Yikes!  Stop that, someone will get hurt!\r\n");
     return;
   }
 
-  send_to_char(ch, "Saving the game configuration.\r\n");
+  send_to_char(ch, "\nsave:Saving the configuration.\r");
   mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(ch)), TRUE,
-    "OLC: %s saves the game configuration.", GET_NAME(ch));
+    "OLC: %s saves the configuration.", GET_NAME(ch));
 
   cedit_save_to_disk();
 }
@@ -588,10 +588,10 @@ static void cedit_disp_menu(struct descriptor_data *d)
   write_to_output(d,
   	  "\n# Cloud Config\r"
       "\n::begin:menu\r"
-  	  "\ncloud[Game Play]:a\r"
-  	  "\ncloud[Crashsave & Rent]:b\r"
-  	  "\ncloud[Room Numbers]:c\r"
-      "\ncloud[Operation]:d\r"
+  	  "\ncloud[Cloud Settings]:a\r"
+  	  "\ncloud[Save Settings]:b\r"
+  	  "\ncloud[Room Settings]:c\r"
+      "\ncloud[Op Settings]:d\r"
       "\ncloud[Autowize]:e\r"
       "\n::end:menu\r"
       "\ncloud[quit]:0\r");
@@ -612,31 +612,31 @@ static void cedit_disp_game_play_options(struct descriptor_data *d)
         "\n## Cloud Settings\r"
         // "\nselect[a:Player Killing]:%s\r"
         // "\nselect[b:Player Thieving Allowed]:%s\r"
-        "\nselect[a:Minimum Level To Shout]:%d\r"
-        "\nselect[b:Holler Move Cost]:%d\r"
+        "\nselect[a:Shout Level]:%d\r"
+        "\nselect[b:Move Cost]:%d\r"
         "\nselect[c:Tunnel Size]:%d\r"
-        "\nselect[d:Maximum Experience Gain]:%d\r"
-        "\nselect[e:Maximum Experience Loss]:%d\r"
-        "\nselect[f:Max Time for NPC Corpse]:%d\r"
-        "\nselect[g:Max Time for PC Corpse]:%d\r"
-        "\nselect[h:Tics before PC sent to void]:%d\r"
-        "\nselect[i:Tics before PC is autosaved]:%d\r"
-        "\nselect[j:Level Immune To IDLE]:%d\r"
-        "\nselect[j:Death Traps Junk Items]:%s\r"
-        "\nselect[l:Objects Load Into Inventory]:%s\r"
-        "\nselect[m:Track Through Doors]:%s\r"
-        "\nselect[n:Display Closed Doors]:%s\r"
+        "\nselect[d:Max Exp Gain]:%d\r"
+        "\nselect[e:Max Exp Loss]:%d\r"
+        "\nselect[f:Max Time NPC Spawn]:%d\r"
+        "\nselect[g:Max Time PC Spawn]:%d\r"
+        "\nselect[h:Tics for void]:%d\r"
+        "\nselect[i:Tics for autosave]:%d\r"
+        "\nselect[j:IDLE Immune]:%d\r"
+        "\nselect[j:Junk Items]:%s\r"
+        "\nselect[l:Object Inventory]:%s\r"
+        "\nselect[m:Track Doors]:%s\r"
+        "\nselect[n:Closed Doors]:%s\r"
         "\nselect[p:Diagonal Directions]:%s\r"
-        "\nselect[q:Prevent Mortal Level To Immortal]:%s\r"
-	      "\nselect[r:OK Message Text]:%s\r"
-	      "\nselect[s:HUH Message Text]:%s\r"
-        "\nselect[t:NOPERSON Message Text]:%s"
-        "\nselect[u:NOEFFECT Message Text]:%s"
-        "\nselect[v:Map/Automap Option]:%s\r"
-        "\nselect[w:Default map size]:%d\r"
-        "\nselect[x:Default minimap size]:%d\r"
-        "\nselect[y:Scripts on PC's]:%s\r"
-        "\ncloud[Exit]:0\r",
+        "\nselect[q:Level To Immortal]:%s\r"
+	      "\nselect[r:OK Message]:%s\r"
+	      "\nselect[s:HUH Message]:%s\r"
+        "\nselect[t:Person Message]:%s"
+        "\nselect[u:Effect Message]:%s"
+        "\nselect[v:Map Option]:%s\r"
+        "\nselect[w:Map size]:%d\r"
+        "\nselect[x:Minimap size]:%d\r"
+        "\nselect[y:Scripts]:%s\r"
+        "\ncloud[quit]:0\r",
         // CHECK_VAR(OLC_CONFIG(d)->play.pk_allowed),
         // CHECK_VAR(OLC_CONFIG(d)->play.pt_allowed),
         OLC_CONFIG(d)->play.level_can_shout,
@@ -676,7 +676,7 @@ static void cedit_disp_crash_save_options(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d, "\n\r"
-    "\n## Config Editor\r"
+    "\n## Save Settings\r"
   	"\nselect[a:Free Rent]:%s\r"
   	"\nselect[b:Max Objects Saved]:%d\r"
   	"\nselect[c:Minimum Rent Cost]:%d\r"
@@ -702,14 +702,14 @@ static void cedit_disp_room_numbers(struct descriptor_data *d)
   clear_screen(d);
 
   write_to_output(d, "\n\r"
-    "\n## Room Numbers\r"
+    "\n## Room Settings\r"
   	"\nselect[a:Mortal Start Room]:%d\r"
   	"\nselect[b:Immortal Start Room]:%d\r"
   	"\nselect[c:Frozen Start Room]%d\r"
   	"\nselect[d:Donation Room 1]:%d\r"
   	"\nselect[e:Donation Room 2]:%d\r"
   	"\nselect[f:Donation Room 3]%d\r"
-  	"\ncloud[done]:q\r",
+  	"\ncloud[done]:0\r",
   	OLC_CONFIG(d)->room_nums.mortal_start_room,
   	OLC_CONFIG(d)->room_nums.immort_start_room,
   	OLC_CONFIG(d)->room_nums.frozen_start_room,
@@ -726,47 +726,47 @@ static void cedit_disp_operation_options(struct descriptor_data *d)
   get_char_colors(d->character);
   clear_screen(d);
 
-  write_to_output(d, "\r\n\r\n"
-  	"%sA%s) Default Port : %s%d\r\n"
-  	"%sB%s) Default IP   : %s%s\r\n"
-  	"%sC%s) Default Directory   : %s%s\r\n"
-  	"%sD%s) Logfile Name : %s%s\r\n"
-  	"%sE%s) Max Players  : %s%d\r\n"
-  	"%sF%s) Max Filesize : %s%d\r\n"
-  	"%sG%s) Max Bad Pws  : %s%d\r\n"
-  	"%sH%s) Site Ok Everyone : %s%s\r\n"
-  	"%sI%s) Name Server Is Slow : %s%s\r\n"
-    "%sJ%s) Use new socials file: %s%s\r\n"
-    "%sK%s) OLC autosave to disk: %s%s\r\n"
-  	"%sL%s) Main Menu           : \r\n%s%s\r\n"
-  	"%sM%s) Welcome Message     : \r\n%s%s\r\n"
-  	"%sN%s) Start Message       : \r\n%s%s\r\n"
-  	"%sO%s) Medit Stats Menu    : %s%s\r\n"
-  	"%sP%s) Autosave bugs when resolved from commandline : %s%s\r\n"
-  	"%sR%s) Enable Protocol Negotiation : %s%s\r\n"
-  	"%sS%s) Enable Special Char in Comm : %s%s\r\n"
-  	"%sT%s) Current Debug Mode : %s%s\r\n"
-    "%sQ%s) Exit To The Main Menu\r\n"
-    "Enter your choice : ",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.DFLT_PORT,
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.DFLT_IP ? OLC_CONFIG(d)->operation.DFLT_IP : "<None>",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.DFLT_DIR ? OLC_CONFIG(d)->operation.DFLT_DIR : "<None>",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.LOGNAME ? OLC_CONFIG(d)->operation.LOGNAME : "<None>",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.max_playing,
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.max_filesize,
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.max_bad_pws,
-    grn, nrm, cyn, YESNO(OLC_CONFIG(d)->operation.siteok_everyone),
-    grn, nrm, cyn, YESNO(OLC_CONFIG(d)->operation.nameserver_is_slow),
-    grn, nrm, cyn, YESNO(OLC_CONFIG(d)->operation.use_new_socials),
-    grn, nrm, cyn, YESNO(OLC_CONFIG(d)->operation.auto_save_olc),
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.MENU ? OLC_CONFIG(d)->operation.MENU : "<None>",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.WELC_MESSG ? OLC_CONFIG(d)->operation.WELC_MESSG : "<None>",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.START_MESSG ? OLC_CONFIG(d)->operation.START_MESSG : "<None>",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.medit_advanced ? "Advanced" : "Standard",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.ibt_autosave ? "Yes" : "No",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.protocol_negotiation ? "Yes" : "No",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.special_in_comm ? "Yes" : "No",
-    grn, nrm, cyn, OLC_CONFIG(d)->operation.debug_mode == 0 ? "OFF" : (OLC_CONFIG(d)->operation.debug_mode == 1 ? "BRIEF" : (OLC_CONFIG(d)->operation.debug_mode == 2 ? "NORMAL" : "COMPLETE")),
+  write_to_output(d, "\n\r"
+    "\n## Operation Settings\r"
+  	"\nselect[a:Default Port]:%d\r"
+  	"\nselect[b:Default IP]:%s\r"
+  	"\nselect[c:Default Directory]:%s\r"
+  	"\nselect[d:Logfile Name]:%s\r"
+  	"\nselect[e:Max Players]:%d\r"
+  	"\nselect[f:Max Filesize]:%d\r"
+  	"\nselect[g:Max Bad Pws]:%d\r"
+  	"\nselect[h:Site Ok Everyone]:%s\r"
+  	"\nselect[i:Name Server Is Slow]:%s\r"
+    "\nselect[j:Use new socials file]:%s\r"
+    "\nselect[k:OLC autosave to disk]:%s\r"
+  	"\nselect[l:Main Menu]:%s\r"
+  	"\nselect[m:Welcome Message]:%s\r"
+  	"\nselect[n:Start Message]:%s\r"
+  	"\nselect[o:Medit Stats Menu]:%s\r"
+  	"\nselect[p:Autosave bugs]:%s\r"
+  	"\nselect[r:Protocol Neg]:%s\r"
+  	"\nselect[s:Special Char]:%s\r"
+  	"\nselect[t:Debug Mode]:%s\r"
+    "\ncloud[done]:0\r",
+    OLC_CONFIG(d)->operation.DFLT_PORT,
+    OLC_CONFIG(d)->operation.DFLT_IP ? OLC_CONFIG(d)->operation.DFLT_IP : "<None>",
+    OLC_CONFIG(d)->operation.DFLT_DIR ? OLC_CONFIG(d)->operation.DFLT_DIR : "<None>",
+    OLC_CONFIG(d)->operation.LOGNAME ? OLC_CONFIG(d)->operation.LOGNAME : "<None>",
+    OLC_CONFIG(d)->operation.max_playing,
+    OLC_CONFIG(d)->operation.max_filesize,
+    OLC_CONFIG(d)->operation.max_bad_pws,
+    YESNO(OLC_CONFIG(d)->operation.siteok_everyone),
+    YESNO(OLC_CONFIG(d)->operation.nameserver_is_slow),
+    YESNO(OLC_CONFIG(d)->operation.use_new_socials),
+    YESNO(OLC_CONFIG(d)->operation.auto_save_olc),
+    OLC_CONFIG(d)->operation.MENU ? OLC_CONFIG(d)->operation.MENU : "<None>",
+    OLC_CONFIG(d)->operation.WELC_MESSG ? OLC_CONFIG(d)->operation.WELC_MESSG : "<None>",
+    OLC_CONFIG(d)->operation.START_MESSG ? OLC_CONFIG(d)->operation.START_MESSG : "<None>",
+    OLC_CONFIG(d)->operation.medit_advanced ? "Advanced" : "Standard",
+    OLC_CONFIG(d)->operation.ibt_autosave ? "Yes" : "No",
+    OLC_CONFIG(d)->operation.protocol_negotiation ? "Yes" : "No",
+    OLC_CONFIG(d)->operation.special_in_comm ? "Yes" : "No",
+    OLC_CONFIG(d)->operation.debug_mode == 0 ? "OFF" : (OLC_CONFIG(d)->operation.debug_mode == 1 ? "BRIEF" : (OLC_CONFIG(d)->operation.debug_mode == 2 ? "NORMAL" : "COMPLETE")),
     grn, nrm
     );
 
@@ -803,17 +803,17 @@ void cedit_parse(struct descriptor_data *d, char *arg)
         case 'Y':
           cedit_save_internally(d);
           mudlog(CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE,
-                 "OLC: %s modifies the game configuration.", GET_NAME(d->character));
+                 "OLC: %s modifies the cloud configuration.", GET_NAME(d->character));
           cleanup_olc(d, CLEANUP_CONFIG);
 	  if (CONFIG_AUTO_SAVE) {
 	    cedit_save_to_disk();
-	    write_to_output(d, "\nsave:Game configuration saved to disk.\r");
+	    write_to_output(d, "\nsave:Configuration saved to disk.\r");
 	  } else
-            write_to_output(d, "\nsave:Game configuration saved to memory.\r");
+            write_to_output(d, "\nsave:Configuration saved to memory.\r");
           return;
         case 'n':
         case 'N':
-          write_to_output(d, "\nsave:Game configuration not saved to memory.\r");
+          write_to_output(d, "\nsave:Configuration not saved to memory.\r");
           cleanup_olc(d, CLEANUP_CONFIG);
           return;
         default :
