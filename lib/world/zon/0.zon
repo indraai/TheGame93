@@ -1,16 +1,16 @@
 #0
 Quinn~
-Arjika~
+deva~
 0 99 30 2 d 0 0 0 1 -1
-M 0 34 1 34 	(Soma)
-M 0 15 1 15 	(Librarian A15)
 M 0 5 1 96 	(SecurityPRIME)
-M 0 174 2 96 	(SecurityDEVA D174 (Agency))
+M 0 174 2 96 	(Security Deva D174)
 R 0 96 92 -1 	(Security Board)
 O 1 92 99 96 	(Security Board)
 R 0 96 69 -1 	(Security News)
 O 1 69 69 96 	(Security News)
-M 0 174 2 95 	(SecurityDEVA D174 (Agency))
+M 0 34 1 34 	(Soma)
+M 0 15 1 15 	(Librarian A15)
+M 0 174 2 95 	(Security Deva D174)
 R 0 95 92 -1 	(Security Board)
 O 0 92 99 95 	(Security Board)
 R 0 12 12 -1 	(Vedas Book2)

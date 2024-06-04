@@ -1259,6 +1259,10 @@ D0
 ~
 ~
 0 0 1100
+D2
+~
+~
+0 0 140
 D3
 ~
 ~
@@ -1268,7 +1272,7 @@ S
 Disneyland Hotel~
 You are in an unfinished room.
 ~
-11 0 0 0 0 0
+11 2056 0 0 0 0
 D0
 ~
 ~

@@ -1054,14 +1054,20 @@ SavingBreath: 5
 SavingSpell: 5
 E
 #174
-security securitydeva agency d174 z1~
-SecurityDEVA D174 (Agency)~
+security deva devas securitydeva agency d174 z1~
+Security Deva D174~
 0174/main:avatar~
 0174/main:look~
-256010 0 0 0 80 0 0 0 0 E
-30 10 -8 6d6+300 5d5+5
-300 90000
-8 8 1 2 11
+260120 0 0 0 120 0 0 0 0 E
+10 17 4 2d2+100 1d2+1
+100 10000
+8 8 0 1 11
+BareHandAttack: 7
+SavingPara: 2
+SavingRod: 2
+SavingPetri: 2
+SavingBreath: 2
+SavingSpell: 2
 E
 #175
 arjika legal householder z1 a175 guildmaster~

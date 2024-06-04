@@ -7,8 +7,6 @@ https://github.com/tbamud/tbamud
 Changelog also available on Github:
 https://github.com/tbamud/tbamud/commits/master
 Changes prior to Github transition:
-[Jun 08 2023] - Indra
-  Updated buttons to be more clear in the olc editor with the select and cloud labels on items.
 [Jun 21 2013] - Vatiken
   Added 'toupper' as a dg_script command to capitalize the first letter
   of a string.
@@ -882,6 +880,7 @@ tbaMUD 3.52
   Cleaned up hedit formatting and fixed possible bug from editing a help file
     you can't view (thanks Rhade).
   Fixed cast ' ' so it won't cast armor (thanks Rhade).
+
 tbaMUD 3.51
 - Removed the extra space when you have no title (thanks Rhade).
 - Added "Top of File" to the do_file command (thanks Rhade).
@@ -972,6 +971,7 @@ tbaMUD 3.51
   helpfile and an immortal helpfile.
 - Fixed hindex to check help entry level.
 - Added house saving call to do_saveall.
+
 CircleMUD 3.5
 - New do_who by Rhade.
 - Core files generated with unique time stamp.
@@ -1171,6 +1171,7 @@ OLC copy and delete options.
 export (QQ's a zone into a tarball)
 Xlist (mlist, olist, rlist, zlist, slist, tlist, qlist)
 (lots of major bugfixes too)
+
 tbaMUD Release history:
 tbaMUD 2019, January 2019
 tbaMUD 2018, January 2018
