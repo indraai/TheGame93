@@ -263,13 +263,13 @@ int use_new_socials = YES;
 
 const char *MENU =
 "\n::begin:menu\r"
-"\ncloud[Enter Arjika]:1"
-"\ncloud[More Information]:3"
-"\ncloud[Change Bio]:2"
-"\ncloud[Change Password]:4"
-"\ncloud[Delete Profile]:5"
-"\ncloud[Exit]:0"
-"\n::begin:menu\r"
+"\nbutton[Enter Arjika]:#mud > 1\r"
+"\nbutton[More Information]:#mud > 3\r"
+"\nbutton[Change Bio]:#mud > 2\r"
+"\nbutton[Change Password]:#mud > 4\r"
+"\nbutton[Delete Profile]:#mud > 5\r"
+"\nbutton[Exit]:#mud > 0\r"
+"\n::end:menu\r"
 ;
 
 const char *WELC_MESSG =
@@ -277,7 +277,7 @@ const char *WELC_MESSG =
 "\np:May your adventure here be... EXCELLENT!";
 
 const char *START_MESSG =
-"\np:All set. You can now earn credits, gain experience, find stuff, and much more.";
+"\np:All set. You can now earn credits, gain experience, find items, and much more.";
 
 /* AUTOWIZ OPTIONS */
 /* Should the game automatically create a new wizlist/immlist every time someone
