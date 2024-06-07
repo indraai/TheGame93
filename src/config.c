@@ -263,12 +263,12 @@ int use_new_socials = YES;
 
 const char *MENU =
 "\n::begin:menu\r"
-"\nbutton[Enter Arjika]:#mud > 1\r"
-"\nbutton[More Information]:#mud > 3\r"
-"\nbutton[Change Bio]:#mud > 2\r"
-"\nbutton[Change Password]:#mud > 4\r"
-"\nbutton[Delete Profile]:#mud > 5\r"
-"\nbutton[Exit]:#mud > 0\r"
+"\ncloud[Enter Arjika]:1\r"
+"\ncloud[Change Bio]:2\r"
+"\ncloud[More Information]:3\r"
+"\ncloud[Change Password]:4\r"
+"\ncloud[Delete Profile]:5\r"
+"\ncloud[Exit]:0\r"
 "\n::end:menu\r"
 ;
 
