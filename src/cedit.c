@@ -766,7 +766,8 @@ static void cedit_disp_operation_options(struct descriptor_data *d)
     OLC_CONFIG(d)->operation.ibt_autosave ? "Yes" : "No",
     OLC_CONFIG(d)->operation.protocol_negotiation ? "Yes" : "No",
     OLC_CONFIG(d)->operation.special_in_comm ? "Yes" : "No",
-    OLC_CONFIG(d)->operation.debug_mode == 0 ? "OFF" : (OLC_CONFIG(d)->operation.debug_mode == 1 ? "BRIEF" : (OLC_CONFIG(d)->operation.debug_mode == 2 ? "NORMAL" : "COMPLETE"))
+    OLC_CONFIG(d)->operation.debug_mode == 0 ? "OFF" : (OLC_CONFIG(d)->operation.debug_mode == 1 ? "BRIEF" : (OLC_CONFIG(d)->operation.debug_mode == 2 ? "NORMAL" : "COMPLETE")),
+    grn, nrm
     );
 
   OLC_MODE(d) = CEDIT_OPERATION_OPTIONS_MENU;
