@@ -586,15 +586,15 @@ static void cedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header. */
   write_to_output(d,
-  	  "\n# Cloud Config\r"
+  	  "\n# Deva.cloud Configuratoin\r"
       "\n::begin:menu\r"
-  	  "\ncloud[Cloud Settings]:a\r"
-  	  "\ncloud[Save Settings]:b\r"
-  	  "\ncloud[Room Settings]:c\r"
-      "\ncloud[Op Settings]:d\r"
-      "\ncloud[Autowize]:e\r"
+  	  "\nbutton[Cloud Settings]:#mud > a\r"
+  	  "\nbutton[Save Settings]:#mud > b\r"
+  	  "\nbutton[Room Settings]:#mud > c\r"
+      "\nbutton[Op Settings]:#mud > d\r"
+      "\nbutton[Autowize]:#mud > e\r"
       "\n::end:menu\r"
-      "\ncloud[quit]:0\r");
+      "\nbutton[quit]:#mud > 0\r");
 
   OLC_MODE(d) = CEDIT_MAIN_MENU;
 }
