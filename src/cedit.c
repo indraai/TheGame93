@@ -586,7 +586,7 @@ static void cedit_disp_menu(struct descriptor_data *d)
 
   /* Menu header. */
   write_to_output(d,
-  	  "\n# Deva.cloud Configuratoin\r"
+  	  "\n# Deva.cloud Config\r"
       "\n::begin:menu\r"
   	  "\nbutton[Cloud Settings]:#mud > a\r"
   	  "\nbutton[Save Settings]:#mud > b\r"
