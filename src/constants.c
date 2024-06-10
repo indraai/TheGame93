@@ -21,10 +21,12 @@
 #include "constants.h"
 
 cpp_extern const char *confirm_msg = "\np:Do you wish to save your changes?\r"
-  "\ncloudconf[yes]:yes\r"
-  "\ncloudconf[no]:no\r";
+  "\n::begin:buttons\r"
+  "\ncloud[yes]:yes\r"
+  "\ncloud[no]:no\r"
+  "\n::end:buttons\r";
 
-cpp_extern const char *confirm_btn = "\nconfirm[yes]:yes\r\nconfirm[no]:no\r";
+cpp_extern const char *confirm_btn = "\ncloud[yes]:yes\r\ncloud[no]:no\r";
 
 /** Current tbaMUD version.
  * @todo cpp_extern isn't needed here (or anywhere) as the extern reserved word
