@@ -1,12 +1,14 @@
 #0
-The Void~
-none.~
-0 8 0 0 0 1
+Void~
+The Void Room for storing things that fail and need to be dismantled or rebuilt before core storage.
+~
+0 24 0 0 0 0
 S
 #1
 Limbo~
-none.~
-0 8 0 0 0 1
+The Limbo Room where things get stored for reuse.
+~
+0 24 0 0 0 0
 S
 #2
 Academy Entrance~
