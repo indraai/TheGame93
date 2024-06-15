@@ -90,10 +90,11 @@ Narayana~
 326/main:avatar~
 326/main:look
 ~
-6168 0 0 0 2424 0 0 0 1000 E
+268312 0 0 0 2424 0 0 0 1000 E
 33 9 -9 6d6+330 5d5+5
 100000 108900
 8 8 1 1 16
+BareHandAttack: 1
 Str: 18
 Dex: 18
 Int: 18
